@@ -49,6 +49,18 @@ PREFERRED_RPROVIDER_libtinfo.so.6 ?= "libncurses6"
 PREFERRED_RPROVIDER_libsystemd.so.0 ?= "libsystemd0"
 PREFERRED_RPROVIDER_product-flavor-MicroOS ?= "microos-release-appliance"
 
+# dracut's closure brings both of these in.
+#
+# libstdc++6 is the plain runtime. The libstdc++6-gccNN packages are the same
+# library built by one pinned compiler and are meant to sit beside a matching
+# gccNN, which this image does not install.
+#
+# libudev1 is the full library. libudev-mini1 is the one the systemd-mini
+# flavour links against, and this image installs the real systemd and the real
+# udev, so the mini one would be a second copy of the same soname.
+PREFERRED_RPROVIDER_libstdc++.so.6 ?= "libstdc++6"
+PREFERRED_RPROVIDER_libudev.so.1 ?= "libudev1"
+
 # Select the MicroOS kernel.  Eventually this needs to be done in
 # conf/machine/include/<machine>.inc
 PREFERRED_PROVIDER_virtual/kernel ?= "kernel-default"

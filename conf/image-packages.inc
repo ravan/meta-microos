@@ -20,7 +20,13 @@
 #
 # The groups below are, in order: the filesystem itself, the C library and
 # compiler runtime, the shell and core tools, init, users and login, and the
-# kernel.
+# kernel with the tool that makes its initrd.
+#
+# dracut is here so the image can build its own initrd. The generic openSUSE
+# kernel has virtio-blk and ext4 as modules, so a disk root cannot be mounted
+# until something loads them. dracut is the program openSUSE itself uses for
+# that, and it is run from the image's own tree - see microos_make_initrd in
+# classes/microos-image.bbclass.
 #
 # shadow-pw-mgmt is here for a reason worth keeping. The shadow RPM requires
 # "(account-utils or shadow-pw-mgmt = 4.20.2)", and scripts/microos drops
@@ -66,4 +72,5 @@ MICROOS_IMAGE_PACKAGES = "\
     terminfo-base \
     \
     kernel-default \
+    dracut \
 "

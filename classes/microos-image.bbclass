@@ -798,3 +798,111 @@ microos_move_rpmdb () {
     fi
 }
 ROOTFS_POSTPROCESS_COMMAND:append = " microos_move_rpmdb"
+
+# ------------------------------------------------------------------- initrd
+
+# Build the image's initrd, with the image's own dracut.
+#
+# The generic openSUSE kernel carries virtio-blk, ext4 and btrfs as modules
+# rather than built in. A kernel told to mount a disk root therefore has
+# nothing to mount it with, and the cpio.gz image exists partly because an
+# initramfs needs no modules at all. This is the other half: the piece that
+# loads those modules and then hands the real root over to systemd.
+#
+# dracut is a target binary like every other program here, so it runs the way
+# the package scriptlets do - inside a user namespace, chrooted into the image,
+# with qemu-aarch64 behind binfmt_misc. scripts/microos-dracut is that wrapper
+# and carries the detail.
+#
+# The tree dracut is given is a hardlink clone of the rootfs, not the rootfs.
+# dracut only adds files, so the clone shares every inode and costs no space,
+# and deleting it afterwards leaves the image byte for byte as do_rootfs left
+# it. That is also why pseudo never has to hear about any of this.
+#
+# The initrd is deployed beside the kernel and is NOT installed into the image.
+# /boot/initrd inside the image still dangles, exactly as a freshly built KIWI
+# openSUSE image does before its first boot. Putting it in the image would mean
+# handing pseudo a 68 MB file that dnf never installed, and a real board wants
+# it in an ESP or a boot partition rather than in the root filesystem anyway.
+#   auto  build it if dracut is in the image, and say plainly if it fails
+#   1     build it, and fail the build if it cannot be built
+#   0     do not build one - this image is an initramfs and nothing else
+#
+# The same three values as MICROOS_RPM_SCRIPTLETS, and for the same reason: the
+# initrd needs the same user namespace the scriptlets need, so a build host
+# that cannot open one cannot make an initrd either. That host still gets an
+# image, and the image still boots as an initramfs.
+MICROOS_INITRD ?= "auto"
+
+# Extra arguments for dracut. --force, --no-hostonly, --no-hostonly-cmdline and
+# --kver are always passed by the wrapper.
+MICROOS_INITRD_ARGS ?= ""
+
+do_make_initrd () {
+    if [ "${MICROOS_INITRD}" = "0" ]; then
+        bbnote "no initrd: MICROOS_INITRD is 0"
+        return 0
+    fi
+
+    if [ ! -x ${IMAGE_ROOTFS}/usr/bin/dracut ]; then
+        if [ "${MICROOS_INITRD}" = "1" ]; then
+            bbfatal "an initrd was asked for and the image does not install dracut. Add it to MICROOS_IMAGE_PACKAGES."
+        fi
+        bbwarn "no initrd: the image does not install dracut. Add it to"
+        bbwarn "MICROOS_IMAGE_PACKAGES, or set MICROOS_INITRD to 0 to say"
+        bbwarn "that this image is meant to be an initramfs and nothing else."
+        return 0
+    fi
+
+    # The kernel RPM unpacks into one directory named after its release, and
+    # that name is what dracut is asked for and what the initrd is named after.
+    release=
+    for d in ${IMAGE_ROOTFS}${nonarch_base_libdir}/modules/*; do
+        [ -d "$d" ] || continue
+        if [ -n "$release" ]; then
+            bbfatal "the image holds more than one kernel: $release and $(basename $d). Name the one to build an initrd for."
+        fi
+        release=$(basename $d)
+    done
+
+    if [ -z "$release" ]; then
+        bbwarn "no initrd: the image holds no kernel modules directory."
+        return 0
+    fi
+
+    # Not a fakeroot task, so pseudo is not loaded and the clone is made with
+    # the build user's own ownership - which is what is on disk anyway, because
+    # microos-dnf-ns hands the real owners to pseudo and leaves the files flat.
+    clone=${WORKDIR}/initrd-rootfs
+    rm -rf $clone
+    cp -al ${IMAGE_ROOTFS} $clone
+
+    ${MICROOS_LAYERDIR}/scripts/microos-dracut \
+        $clone "$release" ${IMGDEPLOYDIR}/microos-initrd-$release \
+        ${MICROOS_INITRD_ARGS}
+    rc=$?
+
+    rm -rf $clone
+
+    if [ $rc -ne 0 ]; then
+        if [ "${MICROOS_INITRD}" = "1" ]; then
+            bbfatal "dracut could not build the initrd. Read the messages above, or set MICROOS_INITRD to 'auto'."
+        fi
+        bbwarn "dracut could not build the initrd, so this image can only be"
+        bbwarn "booted as an initramfs - 'just image-boot', not"
+        bbwarn "'just image-boot-disk'. The messages above say why."
+        return 0
+    fi
+
+    ln -sf microos-initrd-$release ${IMGDEPLOYDIR}/microos-initrd
+    bbnote "built the initrd for $release"
+}
+
+# Between the two. do_rootfs empties IMGDEPLOYDIR when it starts, so nothing
+# written here can survive into a build whose rootfs was rebuilt, and
+# do_image_complete copies the whole directory to DEPLOY_DIR_IMAGE.
+#
+# Plainly not a fakeroot task. pseudo cannot write a uid map, so a task that
+# opens a user namespace has to run outside it.
+do_make_initrd[dirs] = "${IMGDEPLOYDIR}"
+addtask make_initrd after do_rootfs before do_image

@@ -1,0 +1,147 @@
+#!/bin/sh
+#
+# Build the image's initrd, with the image's own dracut.
+#
+# The generic openSUSE kernel carries virtio-blk and ext4 as modules rather
+# than built in, so a kernel told to mount a disk root has nothing to mount it
+# with. An initrd is the piece that loads those two before the real root is
+# touched, and dracut is the program openSUSE itself uses to build one.
+#
+# dracut is a target binary, like every other program in this image, so it runs
+# the same way the package scriptlets do: inside a user namespace where the
+# build user is uid 0 for real, chrooted into the image, with the kernel
+# handing each aarch64 binary to qemu-aarch64 through binfmt_misc. See the
+# scriptlets section of classes/microos-image.bbclass.
+#
+# The tree it is given is a hardlink clone of the rootfs, not the rootfs. The
+# caller makes it. dracut only ever adds files, so the clone shares every inode
+# with the image and costs no space, and deleting it afterwards leaves the
+# image exactly as do_rootfs left it. Nothing dracut writes can reach the
+# image, which also means pseudo never has to be told about any of it.
+#
+# Usage:
+#   microos-dracut <clone> <kernel release> <output file> [extra dracut args...]
+#
+# The output file is written outside the clone, by copying it out again.
+
+set -u
+
+note() { echo "microos-dracut: $*" >&2; }
+
+# ------------------------------------------------------- inside the namespace
+#
+# The second half of this script. It runs as uid 0 of a fresh user, mount and
+# pid namespace, which is what lets it mount anything at all.
+if [ "${1-}" = "--in-namespace" ]; then
+    shift
+    root=$1
+    release=$2
+    shift 2
+
+    # A scriptlet inside the initrd build expects the kernel filesystems. These
+    # mounts live in the mount namespace and disappear with it.
+    mkdir -p "$root/proc" "$root/sys" "$root/dev"
+
+    mount -t proc proc "$root/proc" \
+        || note "WARNING: could not mount /proc"
+
+    if mount --rbind /sys "$root/sys"; then
+        mount --make-rslave "$root/sys" 2>/dev/null || true
+        mount -o remount,ro,bind "$root/sys" 2>/dev/null || true
+    else
+        note "WARNING: could not mount /sys"
+    fi
+
+    # /dev. The few nodes dracut opens, bound in one at a time.
+    #
+    # mknod is not allowed in a user namespace, so the nodes cannot be made,
+    # and a bind of the host's whole /dev would hand dracut the build host's
+    # disks. Bind one node at a time instead.
+    #
+    # The nodes are bound onto the clone's own /dev directory, and NOT onto a
+    # tmpfs mounted here first. That distinction was measured, not guessed. A
+    # character device bound inside a tmpfs that this namespace mounted cannot
+    # be opened at all - every read and write of it gets EACCES, while the same
+    # node bound onto an ordinary directory of a filesystem the host mounted
+    # works. The symptom is a chroot in which "echo x > /dev/null" says
+    # "Permission denied" and dracut then fails with a message about something
+    # else entirely.
+    #
+    # The clone is thrown away afterwards, so the empty placeholder files this
+    # leaves in its /dev cost nothing and reach nothing.
+    for d in null zero full random urandom tty; do
+        [ -e "/dev/$d" ] || continue
+        [ -e "$root/dev/$d" ] || : > "$root/dev/$d" 2>/dev/null || continue
+        mount --bind "/dev/$d" "$root/dev/$d" 2>/dev/null \
+            || note "WARNING: could not bind /dev/$d"
+    done
+
+    # /dev/fd and the three standard streams. They are symlinks into /proc on
+    # every Linux system, and nothing in the RPMs makes them, because on a
+    # running system udev does. Several of dracut's module-setup scripts use
+    # bash process substitution, which is a read of /dev/fd/<n>, so without
+    # these they fail with "/dev/fd/63: No such file or directory" and quietly
+    # leave modules out of the initrd.
+    ln -sfn /proc/self/fd "$root/dev/fd"
+    ln -sfn /proc/self/fd/0 "$root/dev/stdin"
+    ln -sfn /proc/self/fd/1 "$root/dev/stdout"
+    ln -sfn /proc/self/fd/2 "$root/dev/stderr"
+
+    # The image's own directories, and only those. Every path inside the chroot
+    # that the build task's PATH names is outside it and does not exist.
+    PATH=/usr/sbin:/usr/bin:/sbin:/bin
+    export PATH
+
+    exec chroot "$root" /usr/bin/dracut "$@"
+fi
+
+# ------------------------------------------------------ outside the namespace
+
+if [ $# -lt 3 ]; then
+    note "usage: microos-dracut <clone> <kernel release> <output> [dracut args]"
+    exit 2
+fi
+
+root=$1
+release=$2
+out=$3
+shift 3
+
+self=$(readlink -f "$0")
+
+if [ ! -d "$root/usr/lib/modules/$release" ]; then
+    note "no module directory for $release in $root"
+    exit 1
+fi
+
+# The name openSUSE's own /boot/initrd symlink already points at. Writing it
+# here is what makes that dangling link resolve.
+inside=/boot/initrd-$release
+
+# pseudo cannot write a uid map - the kernel refuses the write - so every
+# command from here on is run with it unloaded. In a task that is not a
+# fakeroot task it is not loaded anyway; the variable costs nothing and says
+# what is meant.
+env PSEUDO_UNLOAD=1 unshare --user --map-root-user --mount --pid --fork \
+    "$self" --in-namespace "$root" "$release" \
+    --force \
+    --no-hostonly \
+    --no-hostonly-cmdline \
+    --kver "$release" \
+    "$@" \
+    "$inside"
+rc=$?
+
+if [ $rc -ne 0 ]; then
+    note "dracut exited $rc"
+    exit $rc
+fi
+
+if [ ! -s "$root$inside" ]; then
+    note "dracut said nothing was wrong but wrote no $inside"
+    exit 1
+fi
+
+mkdir -p "$(dirname "$out")"
+cp "$root$inside" "$out.part" && mv "$out.part" "$out"
+note "wrote $out ($(du -h "$out" | cut -f1))"
