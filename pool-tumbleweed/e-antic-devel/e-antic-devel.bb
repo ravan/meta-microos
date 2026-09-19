@@ -6,16 +6,15 @@ This subpackage contains the include files and library links for \
 developing against the ANTIC library."
 LICENSE = "LGPL-2.1-or-later & LGPL-3.0-or-later"
 
-PV = "1.3.0"
+PV = "2.1.1"
 
-RPM_NAME = "e-antic-devel-1.3.0-1.6.aarch64.rpm"
-RPM_HASH = "6d89d4961b3be1cd89895a3d9d60b600901dd6e5c0daa6f78a60a96eb5e934df97f83e9e5dd4e60a1a152e6e79b6160d934bb566b359264496a7d7b0e59006ab"
+RPM_NAME = "e-antic-devel-2.1.1-2.3.aarch64.rpm"
+RPM_HASH = "414ca2e49032246034b67a53e969c3070eed36c1e4d09a079ada8f8e509fb705826cb4a4d4902a27bbd2deea41fc732b1b5f7db43081c75a4f5056bf9d4495c6"
 
 RPROVIDES:${PN} += "e-antic-devel"
 
-RDEPENDS:${PN} += "antic-devel \
-arb-devel \
+RDEPENDS:${PN} += "flint-devel \
 libboost-headers-devel \
-libeantic1"
+libeantic3"
 
 inherit rpm

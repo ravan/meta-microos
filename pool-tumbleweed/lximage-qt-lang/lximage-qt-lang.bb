@@ -2,10 +2,10 @@ SUMMARY = "Translations for package lximage-qt"
 DESCRIPTION = "Provides translations for the 'lximage-qt' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "lximage-qt-lang-1.3.0-1.2.noarch.rpm"
-RPM_HASH = "eafd70e50e0b1f23ee171bc6a1eaa5909d21fc8765cbbd7971105efeeddefdcdf5fe7e30c6b2ef4a9927ec9287bf1d4762de45f76e518aaa0f4601ac9396a560"
+RPM_NAME = "lximage-qt-lang-2.4.0-1.3.noarch.rpm"
+RPM_HASH = "a1a91c2de037da82ea55fa846cab1c7dec4107909fcb9cc90dcdd32f8eaad80af8a1f2fd90892a605bb37d39c96ebd1c5096f01f54c86b85a22c1eba5c7f06b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lximage-qt-lang \

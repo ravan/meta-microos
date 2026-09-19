@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Romanian"
 DESCRIPTION = "This package provides translations of man pages in Romanian."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.20.0"
+PV = "4.31.0"
 
-RPM_NAME = "man-pages-ro-4.20.0-1.1.noarch.rpm"
-RPM_HASH = "10ef5d0d9fe5ecb02e29db8913011bc9cfa5fadae6366ef0696d4de7103a1c1c1fe8d3c9db0353b2bb69150d8a425a081e44b1e167c31211e4ff7bb01bdb817d"
+RPM_NAME = "man-pages-ro-4.31.0-1.2.noarch.rpm"
+RPM_HASH = "3f89f36e070abf4d3da4cf02888fcf2aa64c7ed9104f49b66f5b68c23db15cffa984315a5ca155dcf57cd06c30875f5203a6691ed79a7318e93a65ca256bc61f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-ro \

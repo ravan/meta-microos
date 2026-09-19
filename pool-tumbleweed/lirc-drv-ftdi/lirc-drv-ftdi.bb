@@ -3,10 +3,10 @@ DESCRIPTION = "LIRC user-space driver which works together with the kernel, prov
 full support for the ftdi device."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.1"
+PV = "0.10.2"
 
-RPM_NAME = "lirc-drv-ftdi-0.10.1-10.2.aarch64.rpm"
-RPM_HASH = "328f8663c740b7f552be4b9aa6aeb2dd51f7dcf4d96d9dfaab48f877fdfc0d6f881eec2a2dc28a7158d97664967f2b71fd22502e52c2f33d8ed2d1d04e92c85b"
+RPM_NAME = "lirc-drv-ftdi-0.10.2-2.5.aarch64.rpm"
+RPM_HASH = "555fa89c0fc6e58e764a70c197822d69cf55ad82d762ddf4af068d751f083a0ee887cc44606d633b2601bdb0bc5bae37b6f0e61095ec47e2497378f4eeb847d8"
 
 RPROVIDES:${PN} += "lirc-drv-ftdi"
 

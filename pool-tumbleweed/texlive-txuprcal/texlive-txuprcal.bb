@@ -1,14 +1,14 @@
 SUMMARY = "Upright calligraphic font based on TX calligraphic"
-DESCRIPTION = "This small package provides a means of loading as \\mathcal an \
-uprighted version of the calligraphic fonts from the TX font \
+DESCRIPTION = "This small package provides a means of loading as \\mathcal \
+upright versions of the calligraphic fonts from the TX font \
 package. A scaled option to provided to allow arbitrary \
 scaling."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.00svn43327"
+PV = "2026.226.1.00svn77682"
 
-RPM_NAME = "texlive-txuprcal-2023.209.1.00svn43327-53.1.noarch.rpm"
-RPM_HASH = "1ae38d80c162d724ea5984523edd848f2331c83e784f025cddd70f2eb3e48e53ef8282030dd3a787ec97bf68a9eb0018920be3633091d13056341470c87316cd"
+RPM_NAME = "texlive-txuprcal-2026.226.1.00svn77682-59.2.noarch.rpm"
+RPM_HASH = "488aaa98cabc9d5b41b41b193182810a3ca10d5bf7a0875483fa12b14ae0613444f8bafd66d3d797dba14c9ad51131960466fdfe9dfd83891a84d74ab491b4d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-TXUprCal.map \

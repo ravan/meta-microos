@@ -8,15 +8,14 @@ real transparency, zoom and slideshow. \
 It creates only one window, containing only the image to view."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.3.3"
+PV = "2.3.4"
 
-RPM_NAME = "qiv-2.3.3-1.1.aarch64.rpm"
-RPM_HASH = "7a9ca6628363f7f62c2a62de5e7d190bdb13a8b716e2ecfe2115a82c6304f869bdb1421722a3965cc74ab2f2ef268f4b6edb1664b3bbdb8a18e441c8c1be739e"
+RPM_NAME = "qiv-2.3.4-1.5.aarch64.rpm"
+RPM_HASH = "a112b315e6ab839b36ece9bfdae9d4cd54c426450b9cf3a5b50357ca9ddf76d2b21fe740ff0e8d0d928a66e280491c3c15ff291a3a16044914de0b74aa2b25df"
 
 RPROVIDES:${PN} += "qiv"
 
 RDEPENDS:${PN} += "imlib2-loaders \
-ld-linux-aarch64.so.1 \
 libImlib2.so.1 \
 libX11.so.6 \
 libXext.so.6 \

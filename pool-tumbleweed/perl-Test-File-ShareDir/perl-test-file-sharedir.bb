@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.001002"
 
-RPM_NAME = "perl-Test-File-ShareDir-1.001002-1.25.noarch.rpm"
-RPM_HASH = "abe5f9e5483247c5675a0901a1894f96b306517f634744687e3824fd379c38c5e38d97f7bd89314697eb5ce428132ee40f8242b1c9549cc0661eccc5e19e13d0"
+RPM_NAME = "perl-Test-File-ShareDir-1.001002-1.39.noarch.rpm"
+RPM_HASH = "e6e53529f63bb1e790d422df1b75fe45b3c7a849884a1d62edbb69869659d61cdc41feb63a95ed11389de23a01d389ff8e2eaa47a7638bfe5c89d84305378cdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--File--ShareDir \
@@ -30,7 +30,7 @@ perl-Test--File--ShareDir--TempDirObject \
 perl-Test--File--ShareDir--Utils \
 perl-Test-File-ShareDir"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Tiny \
 perl-File--Copy--Recursive \
 perl-File--ShareDir \

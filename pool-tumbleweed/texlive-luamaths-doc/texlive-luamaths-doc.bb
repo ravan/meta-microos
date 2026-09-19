@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luamaths"
 DESCRIPTION = "This package includes the documentation for texlive-luamaths"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn65400"
+PV = "2026.226.1.6svn76924"
 
-RPM_NAME = "texlive-luamaths-doc-2023.208.1.0svn65400-53.1.noarch.rpm"
-RPM_HASH = "4af974ce4e68a2cc69a5cea3612b1d15d6b03633357a25421748c5a99ce8d405a20d1f8633f0ca6a0f7e518ea5d77085425fec491c35288b9f4d1def34fc35b4"
+RPM_NAME = "texlive-luamaths-doc-2026.226.1.6svn76924-59.2.noarch.rpm"
+RPM_HASH = "c04fca7d2005170e0108eb7f1c1020a578449f00281073faf58af09ac2858e3678499040e4fc58892084412f3af8a866daa6562a3f84e8ff4d7440abfe54832e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luamaths-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Tools and API to assist with translation and software localization --
 DESCRIPTION = "The translate-toolkit-doc package contains Translate Toolkit documentation in HTML format."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.9.2"
+PV = "3.19.9"
 
-RPM_NAME = "translate-toolkit-doc-3.9.2-1.1.noarch.rpm"
-RPM_HASH = "2c7fed0efb09a828cf16cbb4c91dc2cbe2359c48bad1475015106088b4acc80e8c0c4b4f45c3220e45c6b640ff58085b1f531d91c813b89b31b8840c26051bcb"
+RPM_NAME = "translate-toolkit-doc-3.19.9-1.2.noarch.rpm"
+RPM_HASH = "f8a800732544566914f9b179507317b66d788328a397ffd124cc1bcb6f6a2b378de0ca3837e585723932ec71593356ba287be8357fe74151459b4e85e8cf181b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "translate-toolkit-doc"

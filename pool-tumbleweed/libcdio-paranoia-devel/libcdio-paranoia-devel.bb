@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "10.2+2.0.1"
 
-RPM_NAME = "libcdio-paranoia-devel-10.2+2.0.1-1.9.aarch64.rpm"
-RPM_HASH = "f4fde8adda32a80f1b8cf4856eaf0366949f946cef0a925659967a65f68dd32721f50fba60ce4339b4a20764d597b3a337caa0925dba521e1e6ef36961881ec0"
+RPM_NAME = "libcdio-paranoia-devel-10.2+2.0.1-1.19.aarch64.rpm"
+RPM_HASH = "4180da5c285aa15c1e816f968cfa85cbc1435f52ce3f0ae24fd4a73571347622674f5b16cb967af6fd6eba66cdd888a67fa59c8c1b3a44198dd4385d1721f121"
 
 RPROVIDES:${PN} += "libcdio-paranoia-devel \
 pkgconfig-libcdio-cdda \

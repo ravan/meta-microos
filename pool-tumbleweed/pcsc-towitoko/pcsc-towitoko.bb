@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.0.8"
 
-RPM_NAME = "pcsc-towitoko-2.0.8-1.2.aarch64.rpm"
-RPM_HASH = "ef6e82280a18582ffe9df151a7222f71b343cc48697c2e8d62dd5f19170f78f611b1d5af37bebb1a45c953b783303dd023cb8cb4a7c64872734aa7622b5954c3"
+RPM_NAME = "pcsc-towitoko-2.0.8-2.5.aarch64.rpm"
+RPM_HASH = "49284f444b9de518edb6d54dd2d7812584313f4194dcddc8398f109931edc5d2338bfd61520e2e380fea5f8858079272a1dc2bdbddf0a8c696d253a97b2d49ba"
 
 RPROVIDES:${PN} += "pcsc-towitoko"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bmstu-iu8"
 DESCRIPTION = "This package includes the documentation for texlive-bmstu-iu8"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn61937"
+PV = "2026.226.1.9svn76373"
 
-RPM_NAME = "texlive-bmstu-iu8-doc-2023.209.1.2svn61937-53.1.noarch.rpm"
-RPM_HASH = "1fa9f5b86a6a3f6915925d1fc8ea88138d27fa677005deebe5640176d1316dd5ffb5dec9a7c67b60ed18859f96b1fa48d6cd0cf0a0d5d6e764f56111557d07fe"
+RPM_NAME = "texlive-bmstu-iu8-doc-2026.226.1.9svn76373-59.2.noarch.rpm"
+RPM_HASH = "6d308353f44607b4ce3a5a80ef71cba8159263adedf70c0ef884b9956878bd56c5c6fde0e3b824cb2b1dba3b7297cccfbc67f29f0ad5543ec1a5d33a81453d66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-bmstu-iu8-doc-ru \

@@ -4,10 +4,10 @@ or one selected. It can also check queue there: \
 it will provide the size of the queue of age of queue."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-cups-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "fa8ca80a3d9f5eca374b0a47616512e3cd33af0b7ae96bc4e8857cc22ba0ccb64f831cfa3d5ba490afc5c35d1e2a9baebf29700ed83339c2829173486bb003fe"
+RPM_NAME = "monitoring-plugins-cups-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "b9b9903797673a9843ff6c242be8bca2cccbb853772ddbba6179a9db6d027bc99f03fff8b3acff1550e8e934674465c9e8da0dcc80edebc736aabed2c1caa55e"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-cups \
 monitoring-plugins-cups \

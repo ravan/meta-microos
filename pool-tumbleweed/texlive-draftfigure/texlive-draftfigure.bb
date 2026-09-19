@@ -3,10 +3,10 @@ DESCRIPTION = "With this package you can control the outcome of a figure which \
 is set to draft and modify the display with various options."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn44854"
+PV = "2026.226.0.0.2svn76790"
 
-RPM_NAME = "texlive-draftfigure-2023.209.0.0.2svn44854-53.1.noarch.rpm"
-RPM_HASH = "817f57eadde64feaf231b04a362d80d6eed66fac3c46344a1992f3c56772881c2ce63e963062b4bf4afc078a2d3108252068a3a3e91b00e94f0241aaadf8faf0"
+RPM_NAME = "texlive-draftfigure-2026.226.0.0.2svn76790-59.2.noarch.rpm"
+RPM_HASH = "bd2a4cca8eecf6211488132d46e1bca70af78168171322a9e688bd2a8f046a8f23c1d44c69836b50d55883b1038e17cdadcbfddeba26853b8f3bb6af83ceee6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-draftfigure.sty \

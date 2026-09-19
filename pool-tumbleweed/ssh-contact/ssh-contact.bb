@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.7"
 
-RPM_NAME = "ssh-contact-0.7-9.29.aarch64.rpm"
-RPM_HASH = "19ac18abbcc12f942aab3fcc6c5b3b840d30a8f1c42a55b16bea1f7ccabe6ae77e6fcfadadb863bfbe99ece1fae0016a82228dbd460b27e4dfb880b5f9333266"
+RPM_NAME = "ssh-contact-0.7-9.39.aarch64.rpm"
+RPM_HASH = "ee74066c543e68f81eeaa6ce427c7ac0f5f2f9335910e6c8abb7fb0f172d396b6ac1f24ecb119fd8657f5a327f9e1910a4666f8c52f249cffc8361971e94f5bc"
 
 RPROVIDES:${PN} += "ssh-contact"
 

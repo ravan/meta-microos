@@ -5,32 +5,34 @@ are in their computer. But it is also designed for advanced users, who \
 want to quickly see problems occurring on their server."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ksystemlog-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "11d42f911ae9a5b9f8476357d01def136e2ccf286971561ee49d2efad4d851bbc68cbd1c831b113e4be297162923fce74c6ab54858b73606ac49a755bbbe7f16"
+RPM_NAME = "ksystemlog-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "f805a00661d6ad2401d6204250749b0867e8c28d6b57ac037aa967c327865cc5d4eb4dd7425d669dcbcc3163bc39eb1c30d9049a91484b9dfb6fb8e12c501a3b"
 
 RPROVIDES:${PN} += "ksystemlog \
 ksystemlog5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5ItemViews.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Widgets.so.5 \
+libKF6Archive.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6ItemViews.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6 \
 libsystemd.so.0"

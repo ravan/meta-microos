@@ -8,10 +8,10 @@ around a C-based DBM. Out-of-the-box compatibility with Unix, Mac OS X and \
 Windows."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.0016"
+PV = "2.0019"
 
-RPM_NAME = "perl-DBM-Deep-2.0016-2.1.noarch.rpm"
-RPM_HASH = "81da0bf5095c3a5007a9fee0bde8443f116f23cd8f8b7bdc2880773d869077671b580ce0ec6aa6d5fcdb36d0b1dce2300ea8f9c534038d11e618728fbafedb98"
+RPM_NAME = "perl-DBM-Deep-2.0019-1.15.noarch.rpm"
+RPM_HASH = "9fb01bb1f621235ff71b107d8226bea206c587fa4f6b83f7353db0396e2e412e10aa616cc69e36db01e22dd7af265d86cac29ebfe5f12bdd9dac71f112d8792c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBM--Deep \
@@ -43,6 +43,6 @@ perl-DBM--Deep--Storage--DBI \
 perl-DBM--Deep--Storage--File \
 perl-DBM-Deep"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "metronome-lang-1.0.0-1.20.noarch.rpm"
-RPM_HASH = "1e252f42e3a431aa6321e9970ced2aeb2cf9682b54ae0348dd905143285bc8d1456780b1a839715409c4e2551fff8f92ef381bd19bd9996c695bfc1c8f5e9185"
+RPM_NAME = "metronome-lang-1.0.0-2.9.noarch.rpm"
+RPM_HASH = "6405df844328b93c9c4353df95baddac036fb152316a58622e4293607eb2dde8e3b58f6509307129017d4345d572ee99a6a3267352d3cf421caa4fc9c4ce8c55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-metronome-de \

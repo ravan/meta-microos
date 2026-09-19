@@ -5,18 +5,17 @@ tool, and WIDS (wireless intrusion detection) framework. \
 This subpackage contains the Freaklabs Zigbee capture helper."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023_07_R1"
+PV = "2025_09_R1"
 
-RPM_NAME = "kismet-capture-freaklabs-zigbee-2023_07_R1-1.1.noarch.rpm"
-RPM_HASH = "213221e4a9b23937156c9d7c14c1f6c417e5bc827cf7e84d16108eb0eaf0bcedf39dd8446fefb0c3764c5ae5b35f3a04bacf4a1c5f3aff71aba9a3caf787b4e4"
-REPO_ARCH = "noarch"
+RPM_NAME = "kismet-capture-freaklabs-zigbee-2025_09_R1-2.3.aarch64.rpm"
+RPM_HASH = "7998d29051d20422c7b59e0e551a762c2b9c0e45997a1f01fafdfbbb24f4ab43ae65f721bd68881af83cb750869b6f1615f1339601f41e38538ed9fb9d1715e5"
 
-RPROVIDES:${PN} += "kismet-capture-freaklabs-zigbee \
-python3.11dist-kismetcapturefreaklabszigbee \
-python3dist-kismetcapturefreaklabszigbee"
+RPROVIDES:${PN} += "kismet-capture-freaklabs-zigbee"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-python-abi \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+libwebsockets.so.22 \
 python3-protobuf \
 python3-pyserial"
 

@@ -9,10 +9,10 @@ have sub-commands (like 'git'). Sub-commands can be defined as modules \
 (with options of their own) or as simple coderefs."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.08"
+PV = "0.90.0"
 
-RPM_NAME = "perl-CLI-Osprey-0.08-1.11.noarch.rpm"
-RPM_HASH = "c3f5a1f90140ed59acfb4fe1b231336446f110978ee0f7fe03b88488c6bb5b61c7419b6589ef889be971f19b6d574139fba48b904b8d706a55e58fe3a6d1cff5"
+RPM_NAME = "perl-CLI-Osprey-0.90.0-1.5.noarch.rpm"
+RPM_HASH = "d4cd1843e6c3aca92dc202b9fac97b1d337de61632a84ba143408a922f864c4a058082dee814a0d23a45a2206a18ea357dddc051311b0d8f3cc36c0aae821661"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CLI--Osprey \
@@ -22,7 +22,7 @@ perl-CLI--Osprey--InlineSubcommand \
 perl-CLI--Osprey--Role \
 perl-CLI-Osprey"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Getopt--Long--Descriptive \
 perl-Module--Runtime \
 perl-Moo \

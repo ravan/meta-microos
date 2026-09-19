@@ -2,10 +2,10 @@ SUMMARY = "SUSE Installation Program"
 DESCRIPTION = "SUSE installation program."
 LICENSE = "GPL-3.0+"
 
-PV = "9.1"
+PV = "9.6"
 
-RPM_NAME = "linuxrc-9.1-1.1.aarch64.rpm"
-RPM_HASH = "8fa061057a4f10b009ca1c8690c3ac3acad6a2e7ce09aa74dc2392909fee1e33fd81d25758a58f4b1a4c670af30f27407b01fa3559d5cd7942c9067b37f5ad65"
+RPM_NAME = "linuxrc-9.6-1.5.aarch64.rpm"
+RPM_HASH = "b83bdd0d696278a99763ca6778058ffef05d75ecf85e6ffbff0ff6f1a9d2e26b04f19763b02763cd95856a4ea23b0a51276de725c43cb90af83c8b3df0d14bf0"
 
 RPROVIDES:${PN} += "linuxrc"
 
@@ -13,8 +13,8 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6 \
 libcurl.so.4 \
-libhd.so.23 \
-libmediacheck.so.6 \
+libhd.so.25 \
+libmediacheck.so.7 \
 libreadline.so.8"
 
 inherit rpm

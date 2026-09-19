@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-anonymous-acm"
 DESCRIPTION = "This package includes the documentation for texlive-anonymous-acm"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn55121"
+PV = "2026.226.1.0svn55121"
 
-RPM_NAME = "texlive-anonymous-acm-doc-2023.209.1.0svn55121-55.1.noarch.rpm"
-RPM_HASH = "28c6a9c8059070cc1175d1583b92bd7944c1c67ff125365b57481d13508f1c0e8b9a4513c669c70e5754bb217bc78dd810396109eb73c18037a95dda14db8500"
+RPM_NAME = "texlive-anonymous-acm-doc-2026.226.1.0svn55121-61.2.noarch.rpm"
+RPM_HASH = "87198deca8bdb3e98da041e3c54f21122ad11bc81af09a8c2358e08746e539c33f57d7163c1be77b6daa55ec1dcd3d341d64f0b7ec90054fc892b6e859d206af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-anonymous-acm-doc"

@@ -1,11 +1,17 @@
-SUMMARY = "Threading Building Blocks (TBB) NUMA support library"
-DESCRIPTION = "The NUMA support library for Threading Building Blocks (TBB)"
+SUMMARY = "NUMA support library for oneAPI Threading Building Blocks"
+DESCRIPTION = "oneTBB (previously known as TBB) is a flexible C++ library that simplifies the \
+work of adding parallelism to complex applications. The library lets you easily \
+write parallel programs that take full advantage of the multi-core performance. \
+oneTBB provides you with functions, interfaces, and classes to parallelize and \
+scale the code. \
+ \
+The NUMA support library for oneTBB."
 LICENSE = "Apache-2.0"
 
-PV = "2021.10.0"
+PV = "2023.0.0"
 
-RPM_NAME = "libtbbbind_2_5-3-2021.10.0-1.1.aarch64.rpm"
-RPM_HASH = "e2456821021443e2d03f5a3273167cefd75e0866bd61b144e5ffbc5511c1b9b217d07e698fecbf2b5592007f897cb3763de93b9db3681de278d0baf574c3d7a8"
+RPM_NAME = "libtbbbind_2_5-3-2023.0.0-1.3.aarch64.rpm"
+RPM_HASH = "e866cbeb839619256ff51033dc7d846498ff1d227755c8345e497b10120f4a4bd469a193b48011a56e4c5569990d1e57f67a860d430d79cf59ff8071deb24c2a"
 
 RPROVIDES:${PN} += "libtbbbind-2-5-3 \
 libtbbbind-2-5.so.3"

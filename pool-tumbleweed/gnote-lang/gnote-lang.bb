@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnote"
 DESCRIPTION = "Provides translations for the 'gnote' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.1"
+PV = "50.2"
 
-RPM_NAME = "gnote-lang-44.1-1.1.noarch.rpm"
-RPM_HASH = "f0b7278e1bf2d344f6c569c3ca7e6e469f421adaa3d965de592c280bc6a19fc60f147b5fc92b03480a356fbf32d76a7a7039d864b604157c45155a50b527572b"
+RPM_NAME = "gnote-lang-50.2-1.1.noarch.rpm"
+RPM_HASH = "4d20cdb53611e0d957bb857ec6d0b00bdaceb49fb1d1c4e416f2249188f47b5ad98ec2229f78107a1111f2bc61dd6c7907e1d479021f4948a95dc50a2dd7a2fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnote-lang \
@@ -35,6 +35,8 @@ locale-gnote-hu \
 locale-gnote-id \
 locale-gnote-it \
 locale-gnote-ja \
+locale-gnote-ka \
+locale-gnote-kk \
 locale-gnote-kn \
 locale-gnote-ko \
 locale-gnote-lt \
@@ -42,6 +44,7 @@ locale-gnote-lv \
 locale-gnote-ml \
 locale-gnote-mr \
 locale-gnote-nb \
+locale-gnote-ne \
 locale-gnote-nl \
 locale-gnote-oc \
 locale-gnote-or \

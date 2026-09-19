@@ -5,23 +5,25 @@ colored pieces. That group will vanish and the pieces on top will fall \
 until there are none left or no more color groups."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "41.1"
+PV = "50.0"
 
-RPM_NAME = "swell-foop-41.1-1.7.aarch64.rpm"
-RPM_HASH = "e4175b4077e48b0040afb29258e66cdc907b48e11e57f3fc92196d356ff8141979ed07a34860895965c4f96a2c6727638e66a89eb4227b2af88bc8e806b01dcb"
+RPM_NAME = "swell-foop-50.0-1.3.aarch64.rpm"
+RPM_HASH = "9b3750e9f9f0f047f8c40d38871ac75512e8a1216ccd43af3e55f41249b6a9a444782f0a4c28e7439095971c98fc8a3af986c21db40a51909dcf3597cf44d6dd"
 
 RPROVIDES:${PN} += "swell-foop"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
 libc.so.6 \
-libclutter-1.0.so.0 \
-libclutter-gtk-1.0.so.0 \
-libgdk-3.so.0 \
-libgdk-pixbuf-2.0.so.0 \
+libcairo.so.2 \
+libgee-0.8.so.2 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
-libgnome-games-support-1.so.3 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0"
+libgtk-4.so.1 \
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0 \
+librsvg-2.so.2"
 
 inherit rpm

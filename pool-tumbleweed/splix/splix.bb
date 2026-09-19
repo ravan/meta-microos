@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0"
 
 PV = "2.0.0.315"
 
-RPM_NAME = "splix-2.0.0.315-3.11.aarch64.rpm"
-RPM_HASH = "053299191270e5b74b57a702b7d519e00ddee531cff655d06a9a46cd90233fa3dba4258998ee5ab1da2c0e3757a92bd95558119f21746abc4a8424b0d77a6ebb"
+RPM_NAME = "splix-2.0.0.315-4.8.aarch64.rpm"
+RPM_HASH = "2d6f00d5136ce9996e1d9deff2c6abde93ee36623beeb2a83344efe549dbf4053b550cb0192a22a446fdbf6da313c27274b0c204fa7fc60d9539ca5d7509d802"
 
 RPROVIDES:${PN} += "cups-drivers-splix \
 splix"

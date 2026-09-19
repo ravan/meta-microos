@@ -4,10 +4,10 @@ specified keyboard to use the layout determined by the options listed \
 on the command line."
 LICENSE = "MIT"
 
-PV = "1.3.4"
+PV = "1.3.5"
 
-RPM_NAME = "setxkbmap-1.3.4-1.1.aarch64.rpm"
-RPM_HASH = "6f9100d8a69f48074a3c6db7a69c9354c56752f3b3b002b1c7156d4fa18d38654ac5b3f17f2786425565541d866c3fb6cb88c90925c3c5367830fd7abffa12cb"
+RPM_NAME = "setxkbmap-1.3.5-1.2.aarch64.rpm"
+RPM_HASH = "759322d66f9971efe4aedc95d9239c2f37272fa93ff0836105255d57df81679e5694362e0d05faa74fbacb9598aa267bb600b19b04885ec9006b4194ee66b603"
 
 RPROVIDES:${PN} += "setxkbmap"
 

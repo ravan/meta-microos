@@ -4,10 +4,10 @@ DESCRIPTION = "libphdi is a library to access the Parallels Hard Disk image form
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221025"
+PV = "20260902"
 
-RPM_NAME = "libphdi1-20221025-4.1.aarch64.rpm"
-RPM_HASH = "1c7ab45e7cd9dff4ac6ff3010d67b2bf0a22fbd5733549c5112dfa271d6cb02cc25e2ebf44966954640a0eba138b27f440b83b21f6fafcd14d590796efdfd27a"
+RPM_NAME = "libphdi1-20260902-1.1.aarch64.rpm"
+RPM_HASH = "32385e51a2b3b73e21727f48f52c1fb1208221b94a635c3f4da51ebaa4e1e153fb1d8c33167e70b613049f316c00f693d0af04b63324e0af5d9d7597b1ffc140"
 
 RPROVIDES:${PN} += "libphdi.so.1 \
 libphdi1"

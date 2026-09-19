@@ -5,13 +5,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.016"
 
-RPM_NAME = "perl-Devel-FindPerl-0.016-1.6.noarch.rpm"
-RPM_HASH = "52b23ed915046447489c448dce8888496fb73ed8591af589788772df9515a2f17c339e5ea57d5c49bfa0df2ab7f49f208cfd83644ab8b70bce3b34a8f8d51f01"
+RPM_NAME = "perl-Devel-FindPerl-0.016-1.20.noarch.rpm"
+RPM_HASH = "c9401a4e9ca2bd3c032a12ec191146d0e5e93b75635e546e1570aa0f946235df72e5ed476942d6637abacceee9c9d04fd569d4b566ae4506b47bdc27d63aad57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--FindPerl \
 perl-Devel-FindPerl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

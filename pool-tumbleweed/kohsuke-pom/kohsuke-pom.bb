@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "14"
 
-RPM_NAME = "kohsuke-pom-14-1.11.noarch.rpm"
-RPM_HASH = "47ebd13879cf0538756a6369e6a3c17709a0671bb72c7de29b72f6e487debcbf7f3380ba4caec2cf48b700ab5f34c01454d4e508fddaca8d1c57296554684eb1"
+RPM_NAME = "kohsuke-pom-14-1.18.noarch.rpm"
+RPM_HASH = "ea252da2824c784c8c51b41cdff3f8cb5e2edafde80ff5f25560f79be16237c38d5042285f582d2e2e9f0b006ebee203ac241c5d0e8c84658d28d6aaf46f6225"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kohsuke-pom \

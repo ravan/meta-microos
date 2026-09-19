@@ -26,17 +26,17 @@ second. \
  \
 The logwatch script (also included) demonstrates several ways of calling \
 the methods."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.3"
+PV = "1.300.0"
 
-RPM_NAME = "perl-File-Tail-1.3-1.28.noarch.rpm"
-RPM_HASH = "b2e36523e9f93e97b03ef7cc7b4e822162dd71f2f3bc07d27621cc0f64e68e0291adb1cacc0c70427b1cb07c92ad6803eab87d5638de77c9a37ea3dfb2bb4b69"
+RPM_NAME = "perl-File-Tail-1.300.0-1.9.noarch.rpm"
+RPM_HASH = "e710e4258a642fda197f03aea11e41ca74348cd90e3aee745f3b27d4b07d77fe52c8109930a7687fed23d538e138d7cbaefd88869c61b28a74bb3ae9a1686e2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Tail \
 perl-File-Tail"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

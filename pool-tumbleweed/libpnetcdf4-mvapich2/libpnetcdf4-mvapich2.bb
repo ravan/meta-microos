@@ -8,13 +8,13 @@ This package contains the mvapich2 version of the PnetCDF runtime \
 libraries."
 LICENSE = "NetCDF"
 
-PV = "1.12.3"
+PV = "1.14.1"
 
-RPM_NAME = "libpnetcdf4-mvapich2-1.12.3-1.4.aarch64.rpm"
-RPM_HASH = "e4f5a48871c95f8f436244e284a10a10ade4559be7f75f063a95f8bdb9ba8e242aaecf5e381e9c191d32d7bbd52fa06154ae7f19ffb39d899fd0e5f593f2101b"
+RPM_NAME = "libpnetcdf4-mvapich2-1.14.1-1.3.aarch64.rpm"
+RPM_HASH = "3cd1d77352ea5226e02f0c246a0428a02958df8b7d3a99609460b8e59ac681ad1f7b3bbfa0ef67494ba483e20be56cfd22085b231cd72a9289cc2ef379949733"
 
 RPROVIDES:${PN} += "libpnetcdf-mvapich2 \
-libpnetcdf.so.4 \
+libpnetcdf.so.7 \
 libpnetcdf4-mvapich2"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

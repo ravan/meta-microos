@@ -4,10 +4,10 @@ G.729 Annex A/B speech codec. It supports concurrent channels \
 encoding/decoding for multi call application such as conferencing."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.1.1"
+PV = "1.1.2"
 
-RPM_NAME = "libbcg729-0-1.1.1-2.8.aarch64.rpm"
-RPM_HASH = "1764d3dfd3813c37caa128108a87a9f9de2f6f875a518bf1f03879dc069bc8cfa4b17b5ffaa3b61f0c58f7ec39f47e4f7c46b9c1143d08e6c2a240085e05c5a9"
+RPM_NAME = "libbcg729-0-1.1.2-1.2.aarch64.rpm"
+RPM_HASH = "f81fb24f9a3645ddd2182e4e7f1abc9dbd21a5fb37244da085a609378e4c5f41768d7a6d755e2b6fafc0f050a5945b0d358994f45b949bab217d9f32f5282c99"
 
 RPROVIDES:${PN} += "libbcg729-0 \
 libbcg729.so.0"

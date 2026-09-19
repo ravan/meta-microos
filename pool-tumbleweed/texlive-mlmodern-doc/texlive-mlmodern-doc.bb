@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mlmodern"
 DESCRIPTION = "This package includes the documentation for texlive-mlmodern"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn57458"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-mlmodern-doc-2023.209.1.2svn57458-55.1.noarch.rpm"
-RPM_HASH = "f8a34e471dc867e621f1f40181e1303dc3f2caeb5017f7766f7115ef995f9f7796c6632b41d06979837f3780a88bddd4d48ad38b8ffd42b9066cfe878bb5e9bc"
+RPM_NAME = "texlive-mlmodern-doc-2026.226.1.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "7be29f3fb368fe7e54f2a91e9f79516b8827820cf4df97ced2d74385b8805687a8dd6d481cf65b293aef747aa7347c2f134b2d50015279999ba27eeb23a57257"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mlmodern-doc"

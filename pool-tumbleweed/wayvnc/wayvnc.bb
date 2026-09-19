@@ -4,21 +4,20 @@ It attaches to a running Wayland session, creates virtual input devices and expo
 The Wayland session may be a headless one, so it is also possible to run wayvnc without a physical display attached."
 LICENSE = "ISC"
 
-PV = "0.6.2"
+PV = "0.10.1"
 
-RPM_NAME = "wayvnc-0.6.2-2.1.aarch64.rpm"
-RPM_HASH = "1f04908e633523c77c361fd3b1cf82c951561038de0c306906704640f87c1e8a42fede52396456d414ab8ee1b7b4286911026c12e937e722693c14c050923f44"
+RPM_NAME = "wayvnc-0.10.1-1.2.aarch64.rpm"
+RPM_HASH = "14f4dc3d712597d55120b71261451293a2884d142c6c23fdebd19b803881be0e80c8ce7af81ed49234d61405f3d8a147d69dbbd05b0d0df2145f66c4fa725430"
 
 RPROVIDES:${PN} += "wayvnc"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libaml.so.0 \
+libaml.so.1 \
 libc.so.6 \
 libdrm.so.2 \
 libgbm.so.1 \
 libjansson.so.4 \
-libm.so.6 \
-libneatvnc.so.0 \
+libneatvnc.so.1 \
 libpam.so.0 \
 libpixman-1.so.0 \
 libwayland-client.so.0 \

@@ -4,16 +4,16 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.1.0.1"
 
-RPM_NAME = "ghc-uglymemo-devel-0.1.0.1-4.3.aarch64.rpm"
-RPM_HASH = "c47db18a354a2b010c4ec64f76c043a70d7b185ed4cd2c4fd0722abe836e0cfd155b7701add6f75ac215b371579d906e6bc668bd702587e2e04e879bd97c3cd9"
+RPM_NAME = "ghc-uglymemo-devel-0.1.0.1-4.19.aarch64.rpm"
+RPM_HASH = "586cc6c8c12a30eaf4520fed2f30d7ba2a4175c164b887efefe9ca0c228b5409bd81d1c2f6245b87e0fcef40e9b36fc5b8d6e481d6745d0cb39d7fa28d7fa320"
 
-RPROVIDES:${PN} += "ghc-devel-uglymemo-0.1.0.1-FaxrSjBe3XhIHSfEZHhJ9C \
+RPROVIDES:${PN} += "ghc-devel-uglymemo-0.1.0.1-7xglRopOL0Q1bomJJkVUR \
 ghc-uglymemo-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-containers-0.6.7 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-containers-0.7-d5e1 \
 ghc-uglymemo"
 
 inherit rpm

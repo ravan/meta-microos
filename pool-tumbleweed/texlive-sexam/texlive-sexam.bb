@@ -4,10 +4,10 @@ made compatible with XeLaTeX/polyglossia to typesetting arabic \
 exams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn46628"
+PV = "2026.226.1svn46628"
 
-RPM_NAME = "texlive-sexam-2023.209.1svn46628-54.1.noarch.rpm"
-RPM_HASH = "ce8eb7bd8ba877d88ee4291b8653073469c44ee1e6bde3d4f77f452fd0a3452a489fe4b4bd255aa17c4313fd41aca527c5c133103e07a279212ac7cc39dc734f"
+RPM_NAME = "texlive-sexam-2026.226.1svn46628-60.2.noarch.rpm"
+RPM_HASH = "5ddff39d16a320adfe68bfc8b599114ce2f77eda9d028d421403d50e1ca7a8d58061e88b8df0e1c512a6430b2d2370ca041970395ea395cb0efadafc54fac16d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bacex.sty \

@@ -12,10 +12,10 @@ description of the new features of ArmTeX 3.0 is provided at \
 the end of the README file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0_beta4svn64182"
+PV = "2026.226.3.0_beta5svn69418"
 
-RPM_NAME = "texlive-armtex-2023.209.3.0_beta4svn64182-55.1.noarch.rpm"
-RPM_HASH = "aa9d5dc7a81848774927eb44268d365e86c59d78ead4edc49e3806b23329eb89a16e9597eb2f179c5dc343194ddbdf698e4d7344d1f7ac97d33902a3a8c88429"
+RPM_NAME = "texlive-armtex-2026.226.3.0_beta5svn69418-61.2.noarch.rpm"
+RPM_HASH = "e59036bd86698bb8799172de48b34bc8cb5bcb0c516671a754156b1b06fc7584cc9c750316a21f1d60bb9eb5cfcaeaf1a5024b8b5f04e3eadb48661f903437e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arm.tex \

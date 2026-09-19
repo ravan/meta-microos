@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.07"
 
-RPM_NAME = "perl-Math-Calc-Units-1.07-7.31.aarch64.rpm"
-RPM_HASH = "dcb27267f9897b56ac6058864482d0f1255137ed713ec5f453a66486fec3b94a4f132ea5a3bb1e14c617382007ff5e6e7ccb9a4097581633085345ff2376b309"
+RPM_NAME = "perl-Math-Calc-Units-1.07-7.46.aarch64.rpm"
+RPM_HASH = "cfc513ab382545c48fe951bf34e457c4dda60e4b83c840496e8a9afc22dcfbbd26ee35510f55127960ef571b255a08aacfcf687872ea622bc0505880ea7fe0c5"
 
 RPROVIDES:${PN} += "Math-Calc-Units \
 perl-Math--Calc--Units \
@@ -34,6 +34,6 @@ perl-Math-Calc-Units \
 perl-Parse--Yapp--Driver"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

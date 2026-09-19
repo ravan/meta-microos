@@ -9,10 +9,10 @@ files, the Portable Symmetric Key Container (PSKC) format described in \
 RFC6030 is supported."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.6.8"
+PV = "2.6.14"
 
-RPM_NAME = "oath-toolkit-xml-2.6.8-1.1.noarch.rpm"
-RPM_HASH = "a742dd3ea4464f0da696793a81a6ff92f51d572d6327166cfee21584fcd77ddf5d275e83d580debadf0ab0950fb4e0a54e6bc92c192e069f77fb94978071f7bc"
+RPM_NAME = "oath-toolkit-xml-2.6.14-1.5.noarch.rpm"
+RPM_HASH = "b5157cbc8620da11a32fb41f429d7c5f7261275af791dfd73768ca2b6570bbfc41989dd94fa8788d6d7e779f02991233d1cbec0c17a5a44d371fa365db575165"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oath-toolkit-xml"

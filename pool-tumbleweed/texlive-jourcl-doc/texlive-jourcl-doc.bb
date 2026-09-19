@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jourcl"
 DESCRIPTION = "This package includes the documentation for texlive-jourcl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65290"
+PV = "2026.226.svn65290"
 
-RPM_NAME = "texlive-jourcl-doc-2023.209.svn65290-56.1.noarch.rpm"
-RPM_HASH = "aca0236983544a2334bace747332122790f280f16be4cc03fdd0a60bbd1561d3534ca15f2643d74285a467d4485d6c66a594fd85e69f9a5db5468fed5f3ca043"
+RPM_NAME = "texlive-jourcl-doc-2026.226.svn65290-63.2.noarch.rpm"
+RPM_HASH = "cdb59d566982b42b0ba13d483c94ab75449e0a7107ffea73dae49184557b439c18ad09546de276d39a5705b7ecdab0ee46d2e14e4777854f9f4de41fa23c9b5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jourcl-doc"

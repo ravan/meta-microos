@@ -13,10 +13,10 @@ flannel CNI plugin uses this information to configure another CNI plugin, such \
 as bridge plugin."
 LICENSE = "Apache-2.0"
 
-PV = "1.0.1"
+PV = "1.8.0"
 
-RPM_NAME = "cni-plugin-flannel-1.0.1-1.10.aarch64.rpm"
-RPM_HASH = "3f2f5d9c03a424a639b153754f298987c187f86d9a42369e8325c4d7918c8dd87eb85349c9bb684d5855a70e115b48f6922f5acdb868752b9956d3c20f890269"
+RPM_NAME = "cni-plugin-flannel-1.8.0-1.7.aarch64.rpm"
+RPM_HASH = "41fc0ba9317184fc585c5755a9cf310acd05a10ddc297170afee64e2109d390c71d9ff4f99dbc8123cc255b50732d7d26e19be0d50b85fd31e18da7e7f11c82d"
 
 RPROVIDES:${PN} += "cni-plugin-flannel"
 

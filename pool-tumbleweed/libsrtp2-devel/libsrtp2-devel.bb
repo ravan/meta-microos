@@ -6,10 +6,10 @@ supporting cryptographic kernel. \
 This subpackage contains the development headers."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.5.0"
+PV = "2.8.0"
 
-RPM_NAME = "libsrtp2-devel-2.5.0-2.1.aarch64.rpm"
-RPM_HASH = "7a11552f7bc2c9021413e007651ba5e480f8ad0c408cf5ed933b43b7e20e7b3a23936746c2a8dd401b2f02d9d630d591ea46fad4189c107280d38249fda5515c"
+RPM_NAME = "libsrtp2-devel-2.8.0-1.3.aarch64.rpm"
+RPM_HASH = "12ec6085ad7ed98b6720a277637431a59badef05f9d1b6a84988650581991f7077bf9ddbe74a957d5ab8000df642d9f3b337426053b59c2eb84324d46f5aebc9"
 
 RPROVIDES:${PN} += "libsrtp2-devel \
 pkgconfig-libsrtp2"

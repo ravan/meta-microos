@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for firewalld"
 DESCRIPTION = "Bash command line completion support for firewalld."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.0"
+PV = "2.3.2"
 
-RPM_NAME = "firewalld-bash-completion-2.0.0-2.1.noarch.rpm"
-RPM_HASH = "b4d166a5e74fce28356a262a5ee58536ee0564d11eed327aa908fecd93abe7bfb1262146e55b75726435505701e6c66c304d4dcd7f7cd60c0114a2fdb9df3417"
+RPM_NAME = "firewalld-bash-completion-2.3.2-2.1.noarch.rpm"
+RPM_HASH = "3b99af23ef528fb7864ed78b3013cbd3d3f9b9684d72c7e592e99a876c42441d9af736673fa8a28fcfd4da608f9fece64b616a75145486bd76574e2da3d17994"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewalld-bash-completion"

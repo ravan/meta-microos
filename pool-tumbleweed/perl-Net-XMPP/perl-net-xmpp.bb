@@ -19,8 +19,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.05"
 
-RPM_NAME = "perl-Net-XMPP-1.05-1.25.noarch.rpm"
-RPM_HASH = "1e5e8c806f8851c49c3d5862c5f99127d29e1b571b98eebea564e7ca7b5131bc1c6e956f97b1c45b053c39f6542142a196c575036eb63318ad52a98ee139b38c"
+RPM_NAME = "perl-Net-XMPP-1.05-1.39.noarch.rpm"
+RPM_HASH = "5c4499494d9f9f90f25952e3727f125eebfa9add5372085a78184c7e655b14f4d49d0894b338184b5d1ccbd69be6e5c5e72fec0d3c12df2d15bc74e74c8cd956"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--XMPP \
@@ -38,7 +38,7 @@ perl-Net--XMPP--Roster \
 perl-Net--XMPP--Stanza \
 perl-Net-XMPP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Authen--SASL \
 perl-Digest--SHA \
 perl-XML--Stream"

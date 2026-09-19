@@ -7,10 +7,10 @@ This package contains development files needed to develop with the \
 json-glib library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6.6"
+PV = "1.10.8"
 
-RPM_NAME = "json-glib-devel-1.6.6-2.9.aarch64.rpm"
-RPM_HASH = "b5a3c92488e794b88e1fefb07674ad5d91370b90871d73c60bc3596a17e5d65e2c2a47459229b38aacaf4856f7973bb34ff6aeac91788aa8671732b6c74e73f3"
+RPM_NAME = "json-glib-devel-1.10.8-2.1.aarch64.rpm"
+RPM_HASH = "fefee0c83a5d8f7a2684d89d7de3e4f4613df005792d075e302b90cea8abaf713ad2c377b3ddcc0cf6199fa46e4a64bac45a02d32fed8cb80d19cb744a4a09fd"
 
 RPROVIDES:${PN} += "json-glib-devel \
 pkgconfig-json-glib-1.0"

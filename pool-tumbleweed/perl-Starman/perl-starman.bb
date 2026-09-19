@@ -45,10 +45,10 @@ Supports chunked requests and responses, keep-alive and pipeline requests. \
 This server does not support Win32."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.4016"
+PV = "0.4018"
 
-RPM_NAME = "perl-Starman-0.4016-1.4.noarch.rpm"
-RPM_HASH = "fe28798868c2b5f27cbcda86d8b4014370832641e3e2f28cb56b2abde0b5ae453d695b37fdfeaaad5dca590ab9015df3552a318f637cef0bbc49171b9f2e775a"
+RPM_NAME = "perl-Starman-0.4018-1.3.noarch.rpm"
+RPM_HASH = "661da847fe8b7a3aec4970c348b541744b620dbb4c0207f0fe825ebb415e9760f12cb93677b82ff94ac8ba45300732ac2f2e622cc29daede583dc2df9382d033"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Server--PSGI--Net--Server--PreFork \
@@ -57,7 +57,7 @@ perl-Starman \
 perl-Starman--Server"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Data--Dump \
 perl-HTTP--Date \
 perl-HTTP--Parser--XS \

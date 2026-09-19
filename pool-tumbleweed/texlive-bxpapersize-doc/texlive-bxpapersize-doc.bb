@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bxpapersize"
 DESCRIPTION = "This package includes the documentation for texlive-bxpapersize"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn63174"
+PV = "2026.226.0.0.6svn63174"
 
-RPM_NAME = "texlive-bxpapersize-doc-2023.209.0.0.6svn63174-53.1.noarch.rpm"
-RPM_HASH = "90709fde6b2f9fc766c206e67bb51b8846c083396f87c5d89f3f90212a7f99b8a49b4c6f26207a0b8134e525d82e50178ab9a9c5f4bde79cd17e0f0f485d0d5a"
+RPM_NAME = "texlive-bxpapersize-doc-2026.226.0.0.6svn63174-59.2.noarch.rpm"
+RPM_HASH = "329a20953eb2b46e2c9b8a2b3cb18d9f23e7da1f089b29d7f1cabb48769e02de1a8d328a1efac4ca77c65473062d3f90c6eb0bc268fd266a50edea14a93d1c92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxpapersize-doc"

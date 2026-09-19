@@ -10,14 +10,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.01"
 
-RPM_NAME = "perl-Math-ConvexHull-MonotoneChain-0.01-3.38.aarch64.rpm"
-RPM_HASH = "2a78deb22e1b6955303b15b722666229dbaf8c304b5b80e6eebf7115d8facf29fa8de3e3d68996976a1d4541d870c6215cf1fd3805942806a148f1a573d688ed"
+RPM_NAME = "perl-Math-ConvexHull-MonotoneChain-0.01-3.55.aarch64.rpm"
+RPM_HASH = "5a89bc80d51d484c8b8511ec0dfa6152161b3a79710def4d4e0aad1aed12a99d022c2d96db45221e5faf8aab9fe240e3ef5dd9540bb60dd4e6a2d1f256c6b47c"
 
 RPROVIDES:${PN} += "perl-Math--ConvexHull--MonotoneChain \
 perl-Math-ConvexHull-MonotoneChain"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Test--More"
 
 inherit rpm

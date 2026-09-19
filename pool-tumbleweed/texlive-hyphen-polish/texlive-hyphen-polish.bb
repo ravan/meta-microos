@@ -4,10 +4,10 @@ These patterns are also used by Polish TeX formats MeX and \
 LaMeX."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.209.3.0bsvn58609"
+PV = "2026.226.3.0bsvn78069"
 
-RPM_NAME = "texlive-hyphen-polish-2023.209.3.0bsvn58609-54.1.noarch.rpm"
-RPM_HASH = "60ba40eb2ff04cc038da94beb6b6a776555a9d5516a8be8a63afde146349f97ad129174a82e97da5f4b9f85f26fa2c71cbf9cc0fa82771d251ea1331d07185ac"
+RPM_NAME = "texlive-hyphen-polish-2026.226.3.0bsvn78069-60.2.noarch.rpm"
+RPM_HASH = "bd02f33ca20a707974158efadb38458b02e3d927928e03320b0a3ce919026b3b1883d4a2cafa63af69122f671da3ad541fb9d0608efd7dcd0362a197b02e92e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-pl.qx.tex \

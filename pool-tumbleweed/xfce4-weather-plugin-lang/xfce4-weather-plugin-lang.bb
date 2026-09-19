@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-weather-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-weather-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.11.1"
+PV = "0.12.0"
 
-RPM_NAME = "xfce4-weather-plugin-lang-0.11.1-1.1.noarch.rpm"
-RPM_HASH = "fcfece31d97adbc695d4994f8295731c42543596ad56d9e0c0e77b51ed8b07033b58097246872fc92cb9c17e3266124e486018357d6a0e90f18e020dd2f373ae"
+RPM_NAME = "xfce4-weather-plugin-lang-0.12.0-1.5.noarch.rpm"
+RPM_HASH = "ef9da1f9edc5d068d845c9fc0aed89a134dba58caff789f21d26a5d00c51ec7be161e3730e5e406c484696de8826f223dee810cd0d8bfee2041a6b2ae97c0d44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-weather-plugin-ar \
@@ -43,6 +43,7 @@ locale-xfce4-weather-plugin-pa \
 locale-xfce4-weather-plugin-pl \
 locale-xfce4-weather-plugin-pt \
 locale-xfce4-weather-plugin-pt-BR \
+locale-xfce4-weather-plugin-ro \
 locale-xfce4-weather-plugin-ru \
 locale-xfce4-weather-plugin-sk \
 locale-xfce4-weather-plugin-sl \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bidipagegrid"
 DESCRIPTION = "This package includes the documentation for texlive-bidipagegrid"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn34632"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-bidipagegrid-doc-2023.209.0.0.2svn34632-54.1.noarch.rpm"
-RPM_HASH = "2cb746ff30a6d98138a6abf9e36cd086cd92fe50f6881d9e92a070a3b262ee834eaaad6e74f523d31b1e394439511bdeb6b7dd5baf9b97240a247c26cff1e87f"
+RPM_NAME = "texlive-bidipagegrid-doc-2026.226.0.0.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "af2a25e5bd894e359f811084936be8f839054abc85c6772aa516a8b73a3781ce386233cd00b3bb8dcaf4d7ee83fc95a610ec8bb9b2f54cdc7b403d0c938430ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bidipagegrid-doc"

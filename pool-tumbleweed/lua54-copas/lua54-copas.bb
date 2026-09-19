@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "2.0.2"
 
-RPM_NAME = "lua54-copas-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "6d4d512daea22884d8dc4a6220630ba7733ce532341420f6d7010f3b1ddf90c27d8a53ede5501f953ac01225b162e6241e35fac9f5a38faa9fa4ee359872548f"
+RPM_NAME = "lua54-copas-2.0.2-6.2.noarch.rpm"
+RPM_HASH = "7c3f0557e8ac3ff5ce6bb9be2c4c4f89a8388e4d9c8a49781e0df58d6404c2b291d7e0dd060b1dacb6bce90b5aa53378bb68c83058462f86e096bb87ad4c075c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-copas \

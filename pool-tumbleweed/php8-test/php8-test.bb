@@ -2,10 +2,10 @@ SUMMARY = "Interpreter for the PHP scripting language version 8"
 DESCRIPTION = "Run php upstream testsuite."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-test-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "1d6889105bc843dd461b51003eb43778a7db8f48db0fbab425f48be1262320ead2d626af3017c9a1aa5113c26b95854d8e7fc04a5b5bdc461a5ff0a9bfe164cd"
+RPM_NAME = "php8-test-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "5604814f5812c7ee4b6e58b5216ac15db0cbc5b1c8e4ee4937bc54a755e5d091198bb27571d7c0903629baa140a5df362e486ea1648e1c2dd677a5e4aa67c03a"
 
 RPROVIDES:${PN} += "php8-test"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6"
 
-RPM_NAME = "python311-pytest-mpi-0.6-1.5.noarch.rpm"
-RPM_HASH = "39a79d253de9056e641f5c7f31d0c8cee65a816b6937ffa54c93f3a380df745769184fe79885495c558066293b018c723625ddfc84a6216ad65dfdf51aa64df8"
+RPM_NAME = "python311-pytest-mpi-0.6-3.1.noarch.rpm"
+RPM_HASH = "9a961b3ec5505f29b1ed23bf931a600bd9ad6202c2a506979f422989873735f1f52fc801ba9b96d4b6710cb50dfa27f55b6018c0be069214154f2ea2fce680ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-mpi \

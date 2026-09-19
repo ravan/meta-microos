@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-vehicle"
 DESCRIPTION = "This package includes the documentation for texlive-pst-vehicle"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn61438"
+PV = "2026.226.1.3svn61438"
 
-RPM_NAME = "texlive-pst-vehicle-doc-2023.209.1.3svn61438-54.2.noarch.rpm"
-RPM_HASH = "1fed3b7ad87900000b8eb481d49f3c5e377c85c406e524b3c3962560d423b554ac780e62095c67000790aebc4de79a8c9c59dab0c36b9372b20510b48b2f6899"
+RPM_NAME = "texlive-pst-vehicle-doc-2026.226.1.3svn61438-60.4.noarch.rpm"
+RPM_HASH = "b1c8cf0f23f61f58076871dc7df224d1643883ba7f797877425ae4e044c7b6e248e411027e850b7e3c23ef86b55b6843001007690a29e49cd4b6b252bda9f685"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-vehicle-doc-fr \

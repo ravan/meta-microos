@@ -1,19 +1,24 @@
 SUMMARY = "JIT compiler for Lua language"
-DESCRIPTION = "A Just-In-Time Compiler for Lua language"
+DESCRIPTION = "A Just-In-Time Compiler for Lua language."
 LICENSE = "MIT"
 
-PV = "5.1.2.1.0+git.1693350652.41fb94d"
+PV = "2.1.20250826"
 
-RPM_NAME = "luajit-5.1.2.1.0+git.1693350652.41fb94d-1.1.aarch64.rpm"
-RPM_HASH = "d59a7ca2c12aa121ebba9942537757567510dbc227e72344f61b50dceddbdf65c480220ee15111070398ce7dbcdfc585d62468a63a08dec0797c750ffc539604"
+RPM_NAME = "luajit-2.1.20250826-3.3.aarch64.rpm"
+RPM_HASH = "4f7bfcfa4be29a896829093f36e0ce1180ce2a7f92da7546b7a6c24640dc5e1219d57f66fedf951db13e5568140ba36f19a8c19b64e2dd7f6e3454cdc0f377e3"
 
-RPROVIDES:${PN} += "lua51-luajit \
+RPROVIDES:${PN} += "Lua-API \
+lua \
+lua51 \
+lua51-luajit \
 luajit \
 moonjit"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "alts \
+libc.so.6 \
 libgcc-s.so.1 \
+libluajit-5-1-2 \
 libm.so.6 \
-luajit-5-1-2"
+lua-interpreter"
 
 inherit rpm

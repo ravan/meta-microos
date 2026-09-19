@@ -4,10 +4,10 @@ DESCRIPTION = "A set of graphical utilities to setup, monitor and use Bluetooth 
 This package provides the GNOME Bluetooth's shared library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "42.6"
+PV = "47.2"
 
-RPM_NAME = "libgnome-bluetooth-ui-3_0-13-42.6-1.1.aarch64.rpm"
-RPM_HASH = "cdf6cfd1719a9d9f364b3e43a83b0014af5118a6ce264a87af7f1838779477381f0836f22a6c5f7fd79fc0698a7e22f897ee8380c8bedfff50570c42c253814b"
+RPM_NAME = "libgnome-bluetooth-ui-3_0-13-47.2-1.3.aarch64.rpm"
+RPM_HASH = "c3e69840d3652db7c16a632464bfd6db117e459f2da4ff67e2ef23714d91acb63a02dbde994ca8cae6142c84944472a95a320e5b2db60e6f2ef4a2b71ff438d4"
 
 RPROVIDES:${PN} += "libgnome-bluetooth-ui-3-0-13 \
 libgnome-bluetooth-ui-3.0.so.13"

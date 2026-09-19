@@ -1,11 +1,11 @@
-SUMMARY = "Source Han Sans TW"
-DESCRIPTION = "Source Han Sans is an open source Pan-CJK typeface whose OpenType/CFF fonts and CID-based sources are covered under the terms of the SIL Open Font License."
+SUMMARY = "Source Han Sans variation for Traditional Chinese in Taiwan"
+DESCRIPTION = "Source Han Sans is a pan-CJK typeface in OpenType/CFF and CID forms."
 LICENSE = "OFL-1.1"
 
-PV = "2.004"
+PV = "2.005"
 
-RPM_NAME = "adobe-sourcehansans-tw-fonts-2.004-1.6.noarch.rpm"
-RPM_HASH = "2416669a22a2830d0e602cfca0befadee8209a2d5b24577544d3e3af7369cf52aa2f2886a351f48f84d89cd2f1470ac1551f2022aa39fae1ce1d72ea801b6cbd"
+RPM_NAME = "adobe-sourcehansans-tw-fonts-2.005-1.3.noarch.rpm"
+RPM_HASH = "e2df8ab81450885c6c8d825174248ef01119dbbfacc726063ad16aad6829d8f2ff8d488d9c42a8e76cb27f9c6ffb8fe8cf28962569bbf2a48b5e88fb2673f34f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourcehansans-fonts \

@@ -7,10 +7,10 @@ minimum of hassle for developers when working on multiplatform software, with \
 the resulting large gains in productivity."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.0"
+PV = "1.6.3"
 
-RPM_NAME = "SoQt-devel-1.6.0-2.9.aarch64.rpm"
-RPM_HASH = "76c61991ad4620934efae9e5c238bd82c8a961f5557de0b6db14b73766f64e0b87d126eb64e28cd6550fdbcb5cc9f878ee4a777ff9d84e959a1fd30e7f3165f1"
+RPM_NAME = "SoQt-devel-1.6.3-1.8.aarch64.rpm"
+RPM_HASH = "c015d3619080ef5ae74a8ea758d4b950169282a62cc6aa5b86fc4b5afcfdbef7861425061ee05e16e6b2f3a351c933700ba402df45017c03fbe3da45513bea99"
 
 RPROVIDES:${PN} += "SoQt-devel \
 cmake-soqt \

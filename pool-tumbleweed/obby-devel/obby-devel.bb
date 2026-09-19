@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.4.8"
 
-RPM_NAME = "obby-devel-0.4.8-11.30.aarch64.rpm"
-RPM_HASH = "8cefa9ace41048d052d46c45a9b97252ff34a21aa286115f1b8e1b7b99a30308759481ecc0aa6c2a46771b6267cd450bcda89ea576471a60673bb0b2958725f4"
+RPM_NAME = "obby-devel-0.4.8-11.39.aarch64.rpm"
+RPM_HASH = "38acf9f4d80d7b291cc35a1a1cb3efaf451991862b96daa4b0e0162dd466b8c45dee28553e88192a64bfcfc7b597acbaa207e0faa16b607b0a52e3d25d54f432"
 
 RPROVIDES:${PN} += "obby-devel \
 pkgconfig-obby-0.4"

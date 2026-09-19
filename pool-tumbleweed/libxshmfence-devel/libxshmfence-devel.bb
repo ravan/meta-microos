@@ -6,10 +6,10 @@ This package contains the development headers for the library found \
 in libxshmfence."
 LICENSE = "HPND"
 
-PV = "1.3.2"
+PV = "1.3.3"
 
-RPM_NAME = "libxshmfence-devel-1.3.2-1.2.aarch64.rpm"
-RPM_HASH = "687620aef21c0adaf4ca91e60e6de170d90e17b3b86fbccb75d5cbdaf1677336a6f237af3a6074e59413607befe6b04ccbc6abc93f4fc7eb1528a5277d81af17"
+RPM_NAME = "libxshmfence-devel-1.3.3-1.7.aarch64.rpm"
+RPM_HASH = "ad075754a58b4b23a557ea8b1aaad6ee88d5343dc6323eaf0420acfb97fa77e802ad71a0962991fb6e599923588c7ed5b95b4f8d0a03774ceb79f42af1562b33"
 
 RPROVIDES:${PN} += "libxshmfence-devel \
 pkgconfig-xshmfence"

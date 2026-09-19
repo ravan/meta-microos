@@ -9,10 +9,10 @@ pass the typesetting check and obtain your degree by using this \
 template."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.00svn63116"
+PV = "2026.226.1.00svn63116"
 
-RPM_NAME = "texlive-xduthesis-2023.209.1.00svn63116-53.2.noarch.rpm"
-RPM_HASH = "6eac1c47e4bc20e342bc09fe6c6ed7a207ed1492ca155d5919d0b4317faf63c4c56ef3b192d8ccaa3e5e046c183ed704e4eb050dcae7184429643b3e714c7456"
+RPM_NAME = "texlive-xduthesis-2026.226.1.00svn63116-59.4.noarch.rpm"
+RPM_HASH = "5f6721196e1b0b1cfbe0d43cea91a976fe619ff71720a2088a883fb68d0a1897bd45685764403d3d650cf8a1f52e6daf1967c57805047edbb6bbe248b8e85a2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xduthesis.cfg \

@@ -1,11 +1,11 @@
-SUMMARY = "Source Han Serif KR"
-DESCRIPTION = "Source Han Serif is an open source Pan-CJK typeface whose OpenType/CFF fonts and CID-based sources are covered under the terms of the SIL Open Font License, Version 1.1."
+SUMMARY = "Source Han Serif variation for Korean"
+DESCRIPTION = "Source Han Serif is a pan-CJK typeface. It is the serif counterpart to Source Han Sans and comes in seven weights."
 LICENSE = "OFL-1.1"
 
-PV = "2.001"
+PV = "2.003"
 
-RPM_NAME = "adobe-sourcehanserif-kr-fonts-2.001-1.3.noarch.rpm"
-RPM_HASH = "94d888d3f38063f6a88b6111fbe4d91bd1754c21ee7454feaaff3781cdfb37fe46302af93e9b524eeb40c42d24120c09e9280d739cadc9ed71f077ce332295b9"
+RPM_NAME = "adobe-sourcehanserif-kr-fonts-2.003-1.3.noarch.rpm"
+RPM_HASH = "08a8cee2cd60d721e4325086eb3e6de530ed1f6071fd69b0ce961f2c599e2f7fd2e824a183a62cbeb73c1ee2af5729244bfefa28e70f2683f61dd360be9091cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourcehanserif-kr-fonts \

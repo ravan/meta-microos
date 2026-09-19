@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.1"
 
-RPM_NAME = "aho-corasick-double-array-trie-1.2.1-2.11.noarch.rpm"
-RPM_HASH = "3c9b9a58b9e21db05634d0ad0a90ca25424c04479cf06382edd3e40ca92deffa64746a882e60c059705e4c919b8b6f7d180c156d456dd1093aa8eab42c55139b"
+RPM_NAME = "aho-corasick-double-array-trie-1.2.1-4.7.noarch.rpm"
+RPM_HASH = "0e36aaba574906a942b4a6a2b9aa54faf8dfdb59c11122cc9479fc8a17389a4a0d435f7a0b55f4a39944e52f51b626da1263cdca369cac56160fb4db832491cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aho-corasick-double-array-trie \

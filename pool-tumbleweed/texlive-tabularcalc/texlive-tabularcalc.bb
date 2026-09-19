@@ -7,10 +7,10 @@ formulas for each number of the list. The table may be built \
 either horizontally or vertically and is fully customizable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.227.0.0.2svn77682"
 
-RPM_NAME = "texlive-tabularcalc-2023.209.0.0.2svn15878-55.1.noarch.rpm"
-RPM_HASH = "db8e9e1e83fac8f11cb708d055a323f895bb4ae1038e406280a29e5f1a0bb5b6b41e681480c93da0f9037f651684ecb714a0f6ec74a220ea285c891b78a9edc5"
+RPM_NAME = "texlive-tabularcalc-2026.227.0.0.2svn77682-62.2.noarch.rpm"
+RPM_HASH = "056af5060ac9af81fe28c30232de1be7a4243b8a0b7c554e619414804deb3e26977b44cb3b5597ac80ec0ecb5ab22d76169d30e85d07badebc749d80bc35c810"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabularcalc.sty \

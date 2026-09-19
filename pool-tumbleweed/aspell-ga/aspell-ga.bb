@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.5.0"
 
-RPM_NAME = "aspell-ga-4.5.0-2.14.aarch64.rpm"
-RPM_HASH = "25fc6e1cb609593de81dcb1f7f7a390d5125f4908787f978d7afaf7860601dd0bf9d11cd59dd516ea6cc13d1a76a76f75e313417883a100e9a88a62dc2cdaf16"
+RPM_NAME = "aspell-ga-4.5.0-4.7.aarch64.rpm"
+RPM_HASH = "a47943f3061ba3d275f8727fa00ad0fe705375120f836f33dd961c267d76ae47c116a100b32376c75fad0e49d972038327dd67a62c4639af2104d356f7a96024"
 
 RPROVIDES:${PN} += "aspell-ga \
 locale-aspell-ga"

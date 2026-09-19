@@ -16,10 +16,10 @@ the core feature on those supported perl versions, falling back to \
 'Syntax::Keyword::Try' on older perls."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.290.0"
+PV = "0.310.0"
 
-RPM_NAME = "perl-Syntax-Keyword-Try-0.290.0-1.2.aarch64.rpm"
-RPM_HASH = "2a32ea5c427fc0637d7f6f2001396fcd2257f0d7976c596994fb451d5fa935b71b676cb151d386fe23ee2037b7ae98cd6b74fdd066f3af86b392311a46c50a68"
+RPM_NAME = "perl-Syntax-Keyword-Try-0.310.0-1.7.aarch64.rpm"
+RPM_HASH = "72118547824227fdb59a186009e7e3464e5d2fbe87ed544f7edfdc6339f2c7fab362364e1a87eb4f67653e9c5724ed2b2e5d9c85947ffc062cbbe186395fcb3b"
 
 RPROVIDES:${PN} += "perl-Syntax--Keyword--Try \
 perl-Syntax--Keyword--Try--Deparse \
@@ -27,7 +27,7 @@ perl-Syntax-Keyword-Try"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-XS--Parse--Keyword"
 
 inherit rpm

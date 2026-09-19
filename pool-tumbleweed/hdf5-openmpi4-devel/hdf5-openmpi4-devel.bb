@@ -6,22 +6,23 @@ This package contains all files needed to create projects that use \
 the openmpi4 version of HDF5."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.12.2"
+PV = "1.14.6"
 
-RPM_NAME = "hdf5-openmpi4-devel-1.12.2-5.3.aarch64.rpm"
-RPM_HASH = "8488465da3d27abed3ae9525a678cbc10d30f462820be6e9fbf52d4b0a13f135fdb918b4ac5cf2308cfa86a3b7d34a05f4b0a03549f1690a543d07f150617cf7"
+RPM_NAME = "hdf5-openmpi4-devel-1.14.6-2.7.aarch64.rpm"
+RPM_HASH = "aca6af9da105d36b7a0bae83e88c7538dacad416f072af732a594a3a87cb65b1e4f09f7f194f277bda3b0cb54cac1904c8dba0730a439629f6909e7264677f67"
 
 RPROVIDES:${PN} += "hdf5-openmpi4-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 hdf5-devel-data \
 hdf5-openmpi4 \
-libhdf5-200-openmpi4 \
-libhdf5-cpp200-openmpi4 \
-libhdf5-fortran200-openmpi4 \
-libhdf5-hl-cpp200-openmpi4 \
-libhdf5-hl200-openmpi4 \
-libhdf5hl-fortran200-openmpi4 \
+libhdf5-310-openmpi4 \
+libhdf5-cpp310-openmpi4 \
+libhdf5-fortran310-openmpi4 \
+libhdf5-hl-cpp310-openmpi4 \
+libhdf5-hl-fortran310-openmpi4 \
+libhdf5-hl310-openmpi4 \
+libhdf5-tools310-openmpi4 \
 zlib-devel"
 
 inherit rpm

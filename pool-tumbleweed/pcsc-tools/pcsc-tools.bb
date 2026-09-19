@@ -4,10 +4,10 @@ or send commands in a friendly environment \
 (text or graphical user interface)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.6.2"
+PV = "1.7.5"
 
-RPM_NAME = "pcsc-tools-1.6.2-1.1.aarch64.rpm"
-RPM_HASH = "0180a8bab6c73ed62cce527f9a51e4595055585c6d0ddb0a8545e905de4d68538a2132bd265d7b35afffdbf0c64e4a1fe7a13025164bdce08f51f051b71e820f"
+RPM_NAME = "pcsc-tools-1.7.5-1.3.aarch64.rpm"
+RPM_HASH = "2ceb7b302cb49351f85bc16792fcf704349d7672b7b855b8c6926fdbacca4c380b556937640e81b950088e3db5013b5fda36d5d36de1347725705e2da14cff7a"
 
 RPROVIDES:${PN} += "pcsc-tools"
 

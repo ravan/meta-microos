@@ -10,12 +10,13 @@ This package contains the development headers for the library found \
 in libdrm2."
 LICENSE = "MIT"
 
-PV = "2.4.116"
+PV = "2.4.134"
 
-RPM_NAME = "libdrm-devel-2.4.116-1.1.aarch64.rpm"
-RPM_HASH = "2e45c8a582ba2085e9023c45e8e6f124c766f93bb745d21cc26225b9e042dc0e43cb67443d24d3acaa5709d30e93a812125c736abafc651f251297e9b10b12af"
+RPM_NAME = "libdrm-devel-2.4.134-2.2.aarch64.rpm"
+RPM_HASH = "2e86e0820c68eb307cd5f689d6a2715090452e0b2637b537424f3d9c5af76bab57740db683f6f2b8122a45cd2690b5d9f7091baa89d3490f82034915e73ca0b9"
 
 RPROVIDES:${PN} += "libdrm-devel \
+libkms-devel \
 pkgconfig-libdrm \
 pkgconfig-libdrm-amdgpu \
 pkgconfig-libdrm-etnaviv \

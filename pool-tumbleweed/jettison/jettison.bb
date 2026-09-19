@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.4"
 
-RPM_NAME = "jettison-1.5.4-2.1.noarch.rpm"
-RPM_HASH = "cd59babd140ed2a95651ee2c459e193b265a733003233fa0967d8cb4085138e4e7258e47afeec9632ccd9c3a3687471dd221d186b4451b2d14d044b112e6595f"
+RPM_NAME = "jettison-1.5.4-2.10.noarch.rpm"
+RPM_HASH = "0dcdc625cf93c0a0365df7aa02364fa24524e6e278da16e4a9644da7539a36397bb51c2cfcf25996c3dbb629dbb9d12886171a25d2f096650d5dd16d98d1b388"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jettison \

@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.82"
 
-RPM_NAME = "perl-RPC-XML-0.82-1.10.noarch.rpm"
-RPM_HASH = "4e639335012cb151c003dd57e9e4303c00acbb1051ba546e9f45ed5c0b17865241114f7c52c818010d7014e22ec08abe37129bcfb6b751d7860cf946b3304548"
+RPM_NAME = "perl-RPC-XML-0.82-1.24.noarch.rpm"
+RPM_HASH = "55ed0052ff56d2b5cc75c1754a5a2831e65fd70da6a7e9b38b3708885687069bf1d44df0cca60203b93ba1709fa4faea18ec0585b02b0be2c90ca208f6b4de94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Apache--RPC--Server \
@@ -51,7 +51,7 @@ perl-RPC--XML--struct \
 perl-RPC-XML"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-HTTP--Daemon \
 perl-HTTP--Message \
 perl-LWP \

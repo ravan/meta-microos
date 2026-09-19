@@ -6,10 +6,10 @@ by Greg Hudson at MIT. \
 This package provides the shared libraries for c-ares."
 LICENSE = "MIT"
 
-PV = "1.19.1"
+PV = "1.34.8"
 
-RPM_NAME = "libcares2-1.19.1-1.1.aarch64.rpm"
-RPM_HASH = "2ec73fed4c58742c79ba2369d8df11a190c9fba582c422d7980c0ee16a7290c0d525e62fe295174b8e01fb7437f6f0176a2fc5476810e9403899795a43af231b"
+RPM_NAME = "libcares2-1.34.8-1.1.aarch64.rpm"
+RPM_HASH = "2a9bf5c1883d92118c7ac471c9054ba2713145334ddd6d333a91a801983ef481874f31e3705dc8dee7da45cb608d8e450b36509fe4a761d41baef099080b91ab"
 
 RPROVIDES:${PN} += "libcares.so.2 \
 libcares2"

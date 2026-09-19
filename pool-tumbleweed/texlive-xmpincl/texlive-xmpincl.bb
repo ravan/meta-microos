@@ -11,10 +11,10 @@ licenses, and their web-site offers this information in a valid \
 XML-file, suitable for direct inclusion."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.4svn60593"
+PV = "2026.226.2.4svn60593"
 
-RPM_NAME = "texlive-xmpincl-2023.209.2.4svn60593-53.2.noarch.rpm"
-RPM_HASH = "b64c1dcaaf17840908e2a40e7e0b839f920209f1101b1a4e2806f3c1da3f06713e39ae5d1d0ada60c754fa37eeb70d1aa426615ee3f81a50f080110028c43fb4"
+RPM_NAME = "texlive-xmpincl-2026.226.2.4svn60593-59.4.noarch.rpm"
+RPM_HASH = "f04a0a5c40ac682b77076e4039c5f5c07283a4fc59453911f4d5c85691bad2c078ed5d8f7b5448729646b9d90c64a465821d28c1bad7a59e110e0160a7bebdd3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xmpincl.sty \

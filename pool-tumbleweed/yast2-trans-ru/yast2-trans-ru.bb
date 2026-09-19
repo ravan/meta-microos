@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Russian Translations"
 DESCRIPTION = "YaST2 - Translations for Russian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-ru-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "0d425d6b6a03294d5b198690d5fd73c6a09a122cfc887df1ec7fc19b7753cca676f65f22b2369465ae3bea4e3cfb964f1aa22fdf36d0af04052f6a7fc1a028b7"
+RPM_NAME = "yast2-trans-ru-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "cd3b315aa0fe74a4c80fb177efcf13aee67d4aec5c51d71c6f2fd429d51787b4a96d1ef2be9d54ff2514cccd254739834f19bf912baeeb93fb601521857ac083"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ru \

@@ -9,10 +9,10 @@ composer, no network code at all). It does email search, for which it \
 uses the Xapian library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.37"
+PV = "0.38.3"
 
-RPM_NAME = "notmuch-0.37-3.1.aarch64.rpm"
-RPM_HASH = "9c057faa6be05c7ca5045c60e80eef74600f9c2b0c75e32ce5fe4501c820dfe72b83a303c96e8bdbd9c90f2d739f6fdff489f03199da81b86c30d7d0026efd3f"
+RPM_NAME = "notmuch-0.38.3-5.6.aarch64.rpm"
+RPM_HASH = "adbca34cf39bec6f6f3869669c1e782fdd0c9a5e60ca39eb17060c9a098be6a374bf92a6340b587bc88bd29bd8f342817fa8a9e60e721da5fead6d24ff98366a"
 
 RPROVIDES:${PN} += "notmuch"
 

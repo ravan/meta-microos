@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a language description file that enables \
 support of Galician either with babel or with polyglossia."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.3csvn30270"
+PV = "2026.226.4.3csvn30270"
 
-RPM_NAME = "texlive-babel-galician-2023.209.4.3csvn30270-54.1.noarch.rpm"
-RPM_HASH = "91198a2bcd0d888d96028904a56cb0881f711180dd266f7f96fb5fb062a6397f337ec55f3e70c00e22d8ce6f7ca90e5ba40ac99cdf013323949a98e355516ff5"
+RPM_NAME = "texlive-babel-galician-2026.226.4.3csvn30270-60.2.noarch.rpm"
+RPM_HASH = "a57e25da3574020c217f6d89bf94371f94aef08f78babc7605920b9d9b57ffde0bb2383bd7a9b8f5e79bd9e7b2a34199b98cceee6dc4aeb75b2a8ad32077cba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-galician.ldf \

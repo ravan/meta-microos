@@ -7,22 +7,22 @@ Minitube is not about cloning the original YouTube web interface, \
 it strives to create a new TV-like experience."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.9.3"
+PV = "4.0"
 
-RPM_NAME = "minitube-3.9.3-1.9.aarch64.rpm"
-RPM_HASH = "77f8d06469935800df7db8d0803a0a366fef9cb63f9de83335968c44776f2cc16e9a32cbb455bc08bd0faf00f81065001055abbad83a81a93ba8c9e1cb76088c"
+RPM_NAME = "minitube-4.0-1.1.aarch64.rpm"
+RPM_HASH = "6394a7f9e23a3241d0b7851f0c0140dcc3870dad73f9311234856bcd55c429026e6a1bb9476959b75abef7ed97a9d0dc9c57224b11a9f79c4ecdc30f8bc21c67"
 
 RPROVIDES:${PN} += "minitube"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6Qml.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libmpv.so.2 \
 libstdc++.so.6"

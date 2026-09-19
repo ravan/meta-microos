@@ -7,15 +7,18 @@ use a network service. \
 FreeRADIUS is a modular RADIUS implementation."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.2.3"
+PV = "3.2.8"
 
-RPM_NAME = "freeradius-server-3.2.3-1.1.aarch64.rpm"
-RPM_HASH = "4cd367d875d541ca0b6fa9641a74b1990ae247c5f18e2e9e75ef390fbd59edec8430c3866394cdb34b30043b8e31ba075f1cf089ded80bdc637d0ee844ce0285"
+RPM_NAME = "freeradius-server-3.2.8-1.8.aarch64.rpm"
+RPM_HASH = "7ad739cfe44aaf3c26b600012035f59154fc3d35b736af3d28d7015c1c6be3c6f539e1095364018cc84c082dcd720ab731e819a70184e05ffa1b95b51abba907"
 
 RPROVIDES:${PN} += "config-freeradius-server \
 freeradius \
 freeradius-server \
-radiusd"
+group-radiusd \
+group-winbind \
+radiusd \
+user-radiusd"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \

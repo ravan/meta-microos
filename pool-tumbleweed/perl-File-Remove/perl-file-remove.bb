@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.61"
 
-RPM_NAME = "perl-File-Remove-1.61-1.6.noarch.rpm"
-RPM_HASH = "dc1c7c1efc4c106fd873da723f8474afb6b3a8affee63a90d42fccf99fb74608914b7dc636785271b57708b8578e625ea1a06c073e65a9b173bf6691129cbf39"
+RPM_NAME = "perl-File-Remove-1.61-1.20.noarch.rpm"
+RPM_HASH = "f0953dc78d95502496c6b032041c196b2037ac5634c142a43141d495cec5d8791e12a88ddfe9b9965d71fc8e4e6f99fa8978f3fc9db18f646613c0d39f8c8c05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Remove \
 perl-File-Remove"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Cwd \
 perl-File--Spec"
 

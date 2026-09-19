@@ -34,8 +34,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.0~svn2994"
 
-RPM_NAME = "moc-2.6.0~svn2994-5.1.aarch64.rpm"
-RPM_HASH = "3a0d700006d1cd7228c2f1202775179a1f47e2121c0d30378a3b1e938f32c41643b5e1ba2f4442588affe2906a660263c5fa7b107fe646e42b7933aed9a69d8c"
+RPM_NAME = "moc-2.6.0~svn2994-8.3.aarch64.rpm"
+RPM_HASH = "7cbec47fc98635523644d671fce001feb64294039e0aeb7b00f7676926d6a52cf6a9ef3537e0e3069be232914a13d6616ce93d01bc415a6af8aa754358a759b2"
 
 RPROVIDES:${PN} += "libffmpeg-decoder.so \
 libflac-decoder.so \
@@ -49,11 +49,11 @@ libwavpack-decoder.so \
 moc"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libasound.so.2 \
-libavcodec.so.59 \
-libavformat.so.59 \
-libavutil.so.57 \
+libavcodec.so.58.134 \
+libavformat.so.58.76 \
+libavutil.so.56.70 \
 libc.so.6 \
 libcurl.so.4 \
 libdb-4.8.so \
@@ -70,7 +70,7 @@ librcc.so.0 \
 libsamplerate.so.0 \
 libsndfile.so.1 \
 libspeex.so.1 \
-libtag-c.so.0 \
+libtag-c.so.2 \
 libtimidity.so.2 \
 libtinfo.so.6 \
 libvorbisfile.so.3 \

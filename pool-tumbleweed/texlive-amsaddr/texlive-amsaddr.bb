@@ -6,10 +6,10 @@ page. The email addresses are always listed as a footnote on \
 the front page."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn64357"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-amsaddr-2023.209.1.2svn64357-55.1.noarch.rpm"
-RPM_HASH = "4052e2c4e97f25c646e6de28ff7149542eccc4195460b0cbeff3e4bd8a3cb55057a6aa975435ef3eef4b69ca3c1c4006ccecc054672071c1b4c6a50f62184ee5"
+RPM_NAME = "texlive-amsaddr-2026.226.1.3svn77682-61.2.noarch.rpm"
+RPM_HASH = "6804a34294610f292ebc4189ee87ed9140fc74ba17051962840b7f96a1782963aa1ac36098baaf7bda825f461824c23cdca339a5e37e6cde497ffb45d452bc63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-amsaddr.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Qt5 remoteobjects examples"
 DESCRIPTION = "Examples for the libqt5-qtremoteobjects module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtremoteobjects-examples-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "acc1c4925e933ce6f144a271be21f732f41ea56d02a77778df384f0738716ab7b9d307a85c4a99c227c57421e228acc7d01b14e6132666ed9e0c4835cfdf7c79"
+RPM_NAME = "libqt5-qtremoteobjects-examples-5.15.19+kde0-1.3.aarch64.rpm"
+RPM_HASH = "f16e1dc8b7258c7a7fe0e5c70f863f9e2de4ec3239c301a1ae46cd88823df3e3c2a661ba81aab367a2fc38cd793ef7324cdd5f24d09fecd0d1563fc1656938f9"
 
 RPROVIDES:${PN} += "libqt5-qtremoteobjects-examples"
 

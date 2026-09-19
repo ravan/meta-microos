@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.010"
 
-RPM_NAME = "perl-CPAN-Common-Index-0.010-1.12.noarch.rpm"
-RPM_HASH = "7f21443a065de77bf44a60e849b60c7150227e4342f12072c4ce97f32f1c61eca369d590cbd45e565316d17e807a0dbd23233bec10b64a82e8efdd7d3c1c3217"
+RPM_NAME = "perl-CPAN-Common-Index-0.010-1.26.noarch.rpm"
+RPM_HASH = "5f930de86273e59c4c884cb88e5ee3532dac2314dc8de55a7da170eb7905872f2fc6fe2dfa4b297b070aafbb001f7b08281be2686761c1301c1466c6c8b4a371"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CPAN--Common--Index \
@@ -24,7 +24,7 @@ perl-CPAN--Common--Index--Mirror \
 perl-CPAN--Common--Index--Mux--Ordered \
 perl-CPAN-Common-Index"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--DistnameInfo \
 perl-CPAN--Meta--YAML \
 perl-Class--Tiny \

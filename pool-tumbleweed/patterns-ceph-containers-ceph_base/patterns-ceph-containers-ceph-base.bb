@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0"
 
-RPM_NAME = "patterns-ceph-containers-ceph_base-1.0-5.2.aarch64.rpm"
-RPM_HASH = "4c356d89444909cf08fa7468a56860fdc0be17e2949cedb6d67c9146b0aa587a8e1d78c1377f45be223857a4db78645c8107d7ef0471fa6513d595fd2b99cc91"
+RPM_NAME = "patterns-ceph-containers-ceph_base-1.0-5.10.aarch64.rpm"
+RPM_HASH = "b244d31df5befa7aa7a718981e7e76fa783c4e8f875b82ed0803cb1c41443b580bb8d084e50f41bbc7404f1d4eb9a7ce47c149f79f89eee3a357d9b08c5d0f80"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

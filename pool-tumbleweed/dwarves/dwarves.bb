@@ -18,16 +18,16 @@ information about functions, inlines, decisions made by the compiler \
 about inlining, etc."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.25"
+PV = "1.31"
 
-RPM_NAME = "dwarves-1.25-1.1.aarch64.rpm"
-RPM_HASH = "2ffac1f6043f2b50422fc8e18b53df463fdcc39ef2eddc520f5eb57741066b4f201053c6a5f66c24097f1f6aa6a25000a42ef096503c29577437cae801bbae39"
+RPM_NAME = "dwarves-1.31-1.5.aarch64.rpm"
+RPM_HASH = "5ef537af2a3492117e1119bb64d86c288ac40650d76ad7a1f91e414492217f389fd53a581d1947c573f85898d95398a557ca9b7f0176bbc618bf98bb32df30d2"
 
 RPROVIDES:${PN} += "dwarves \
 pahole"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libbpf.so.1 \
 libc.so.6 \

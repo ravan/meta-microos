@@ -15,10 +15,10 @@ possible, so that you can easily toggle output on and off and otherwise \
 adjust how you deal with the output."
 LICENSE = "Artistic-2.0"
 
-PV = "1.000001"
+PV = "1.000002"
 
-RPM_NAME = "perl-LWP-ConsoleLogger-1.000001-1.2.noarch.rpm"
-RPM_HASH = "6cfcf243f4aa3f4b3782a64e28a718cdad830081ace3250b75d28b8303bed1063137190debc08197bdd79c15b9c065066e546c5f425618da9f1159cc8c2d5b8d"
+RPM_NAME = "perl-LWP-ConsoleLogger-1.000002-1.3.noarch.rpm"
+RPM_HASH = "1ae1e01cf5a8cbff73f0f61346fcc59602c43cb3b54a722a570ec2cd30dd8cc0f88b74d6cba94d1b28adf5a4961118256bc2d67c612e280d53a45344d87a30de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP--ConsoleLogger \
@@ -26,7 +26,7 @@ perl-LWP--ConsoleLogger--Easy \
 perl-LWP--ConsoleLogger--Everywhere \
 perl-LWP-ConsoleLogger"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Method--Modifiers \
 perl-Data--Printer \
 perl-DateTime \
@@ -47,11 +47,10 @@ perl-Ref--Util \
 perl-String--Trim \
 perl-Sub--Exporter \
 perl-Term--Size--Any \
-perl-Text--SimpleTable--AutoWidth \
+perl-Term--Table \
 perl-Try--Tiny \
 perl-Types--Common--Numeric \
 perl-Types--Standard \
-perl-URI--QueryParam \
-perl-XML--Simple"
+perl-URI--QueryParam"
 
 inherit rpm

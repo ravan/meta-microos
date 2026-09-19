@@ -2,15 +2,16 @@ SUMMARY = "Development libraries for scotch"
 DESCRIPTION = "This package contains development libraries for libscotch."
 LICENSE = "CECILL-C"
 
-PV = "6.1.0"
+PV = "7.0.15"
 
-RPM_NAME = "ptscotch-mpich-devel-6.1.0-2.10.aarch64.rpm"
-RPM_HASH = "b1efe9b216f903e71f8576a96c64f8f90cb6ca14a6a3f1404741a8d7aae0d74c9ef5fc79c872178dba6ffa3b7438fee9b1825724df29a1c6edbee53d9b01e878"
+RPM_NAME = "ptscotch-mpich-devel-7.0.15-1.1.aarch64.rpm"
+RPM_HASH = "be63171b1d02b46f7d515444a47c7d0e413f08aaeb4a2f6dad783a33b95daaa5db5c08959a613bfdf239288e0c67b0841c486fe0cd1bf1fb6943bbe2aa35ed0f"
 
-RPROVIDES:${PN} += "ptscotch-mpich-devel"
+RPROVIDES:${PN} += "ptscotch-mpich-devel \
+ptscotch-parmetis-mpich-devel"
 
 RDEPENDS:${PN} += "gcc-fortran \
-libptscotch0-mpich \
+libptscotch7-0-mpich \
 mpich-devel \
 scotch-devel"
 

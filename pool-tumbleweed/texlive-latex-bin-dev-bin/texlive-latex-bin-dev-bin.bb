@@ -2,10 +2,10 @@ SUMMARY = "Binary files of latex-bin-dev"
 DESCRIPTION = "Binary files of latex-bin-dev"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn53999"
+PV = "2026.20260301.svn53999"
 
-RPM_NAME = "texlive-latex-bin-dev-bin-2023.20230311.svn53999-93.2.aarch64.rpm"
-RPM_HASH = "eca1f69666c33e3ce1d2358ae1203d8c28831a6aa5795b4b7b179f44e6af791461e0718d4847b46d344e2c3738a107563f69ea00f0fb0c71a74d4e14fd9df8e4"
+RPM_NAME = "texlive-latex-bin-dev-bin-2026.20260301.svn53999-120.4.aarch64.rpm"
+RPM_HASH = "9fa72a4d396f9737d8112223338412a967021a1e6f27d2dc5e0eda52673b880e54cba8f2b4070d0ff83997af38d73db83f96827ce22ad6f0198886459c3460a2"
 
 RPROVIDES:${PN} += "texlive-latex-bin-dev-bin"
 

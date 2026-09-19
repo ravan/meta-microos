@@ -2,10 +2,10 @@ SUMMARY = "Common data for xviewer-plugins"
 DESCRIPTION = "Common data required by all xviewer plugins"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.1"
+PV = "3.4.3"
 
-RPM_NAME = "xviewer-plugins-data-1.4.1-1.7.noarch.rpm"
-RPM_HASH = "6b6878673ce7334388a4bf4833b03ed2acc6ba845ffbcebdf0dbc17aed4ef7da166fec501d659f06053391822954307a08f093069eca2ba0fc9d0b57f273c682"
+RPM_NAME = "xviewer-plugins-data-3.4.3-1.2.noarch.rpm"
+RPM_HASH = "28515126c6b80e720ee6e20ef770a9a29a82c8e8dcfddaee2550fcdb5dde5fba3335efbcb963713fd5f21b66bcf1a2ea48458e0d0365a07405a03a583320548c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xviewer-plugins-data"

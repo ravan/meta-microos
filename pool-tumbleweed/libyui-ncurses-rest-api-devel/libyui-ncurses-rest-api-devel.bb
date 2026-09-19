@@ -7,10 +7,10 @@ This is not needed for using the REST API, only for developing \
 extensions for it."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui-ncurses-rest-api-devel-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "0d1ea9e34151e7442b7d8ff3cacf53d90bd28a7af28fd732517ce77e4e9375afda3a8d4eee5b282e889453449f0198116e367e98e5aeed9668219284e5f33290"
+RPM_NAME = "libyui-ncurses-rest-api-devel-4.7.7-1.2.aarch64.rpm"
+RPM_HASH = "048cff729096248ddf147917b0f748f1352957bcb02fa2c89531914140f68755270e968f6547672583f2e253c7f6df88aca7c0159aac379d1dbcf784f30a2516"
 
 RPROVIDES:${PN} += "libyui-ncurses-rest-api-devel"
 

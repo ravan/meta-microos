@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-breakurl"
 DESCRIPTION = "This package includes the documentation for texlive-breakurl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.40svn29901"
+PV = "2026.226.1.40svn77682"
 
-RPM_NAME = "texlive-breakurl-doc-2023.209.1.40svn29901-53.1.noarch.rpm"
-RPM_HASH = "fdb4c680f273d4e5c33e47ad97a380b706e82862fd379359cb4818c7df7c7f9c61868a3223214ca462de933606d2221f06eb11ddaad12dfcc5d588f380321a49"
+RPM_NAME = "texlive-breakurl-doc-2026.226.1.40svn77682-59.2.noarch.rpm"
+RPM_HASH = "2fad343ec3bf2663bd07546f505c35a57ff1a2ee1921e7d4bc3a4c7de16aedf36137a923989a74998a13107e2f8c6df30bc46c75e351d2e0245ed30142fa4182"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-breakurl-doc"

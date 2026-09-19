@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-uutf-devel package contains libraries and signature fil
 developing applications that use ocaml-uutf."
 LICENSE = "ISC"
 
-PV = "1.0.3"
+PV = "1.0.4"
 
-RPM_NAME = "ocaml-uutf-devel-1.0.3-1.10.aarch64.rpm"
-RPM_HASH = "522c078643fe928159236934050e3fa2ae6c03ea127c8cca671d18f1c4d278751294357a6b4492a5033a8f6d72910b0742d97cf8f1be35093afd5b9efa43c5a7"
+RPM_NAME = "ocaml-uutf-devel-1.0.4-2.1.aarch64.rpm"
+RPM_HASH = "a296f0ac6eac60ba9bb79ba14f27076c0f3dc85831b8800075e66866194272070cf46c9a3a71d7990fbb6b86756b786f3b33142aff8434d394f370d1133c8c50"
 
 RPROVIDES:${PN} += "ocaml-Uutf \
 ocaml-uutf-devel \
@@ -19,6 +19,7 @@ ocaml-Stdlib--Array \
 ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Char \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Printf \

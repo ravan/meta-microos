@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hamnosys"
 DESCRIPTION = "This package includes the documentation for texlive-hamnosys"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.3svn61941"
+PV = "2026.226.1.0.3svn61941"
 
-RPM_NAME = "texlive-hamnosys-doc-2023.209.1.0.3svn61941-54.2.noarch.rpm"
-RPM_HASH = "22fd6445349034c3c1c3bb2be5b667712096bb649ae598c2c557f2272d9ab023336c5dd8c5468c23b98510407e14e566f5d9560d68d8dadd093abdc0694f54fb"
+RPM_NAME = "texlive-hamnosys-doc-2026.226.1.0.3svn61941-60.4.noarch.rpm"
+RPM_HASH = "dc6a661142310bf97d05e2d0858496eeb8a1298530e882a3dcf90c4c3a675165828842623330a241cef77823bde27acb0b765941927bf9042f1d7c9888515c47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hamnosys-doc"

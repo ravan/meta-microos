@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-4.0"
 
 PV = "0.1"
 
-RPM_NAME = "lxqt-theme-openSUSE-light-0.1-2.14.noarch.rpm"
-RPM_HASH = "5a1fe87663207398c0a34eefb0ba69988e0da68f61348b37c85e37e34ac66d0dae1eba61b14d0abbea7e851c080965986dd826ca3753b706d8e236a91fe35dc0"
+RPM_NAME = "lxqt-theme-openSUSE-light-0.1-2.22.noarch.rpm"
+RPM_HASH = "27f86e6cb253d39887ec2eb727ac305613997a32e8e545aae3cf0ca23cd25003a0b8002715ee42b54b67a55c039173819aad120ed2d1ad407b4d50a15a321f5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-theme-openSUSE-light"

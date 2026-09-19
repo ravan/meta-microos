@@ -10,10 +10,10 @@ LimitCPU is the direct child of CPUlimit, a creation of Angelo Marletta, \
 which can be found at http://cpulimit.sourceforge.net"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0"
+PV = "3.2"
 
-RPM_NAME = "cpulimit-3.0-1.1.aarch64.rpm"
-RPM_HASH = "0747f5f8c876ab00f909a966726e0c3c594be5ba55fd02cf790b5a0c6c39fe31e8f34e516d91915f6b2ea76c10d913bf4be3cd1bcc39e23e0735dd597dd4b814"
+RPM_NAME = "cpulimit-3.2-1.4.aarch64.rpm"
+RPM_HASH = "b146edc323e201b41edea1b40fa5d9ac5cab413f39258b7bbf7a9ad2e694321782a0a9906917e0effd65ee69919c95f55f6d75a8c9716e06225dd0be85030f23"
 
 RPROVIDES:${PN} += "cpulimit"
 

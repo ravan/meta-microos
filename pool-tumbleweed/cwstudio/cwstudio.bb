@@ -4,21 +4,18 @@ efficient generator of CW signals for telegraphy training purposes. It can creat
 sound with maximum similarity to real air, simulating many difficulties."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.9.6"
+PV = "0.9.7"
 
-RPM_NAME = "cwstudio-0.9.6-1.19.aarch64.rpm"
-RPM_HASH = "557918bb712a41626b51b870d4c48ed7c1471151e46f1d428ae08fc0c54f373bf13f7fad1beb1bb746ef6bf0688246bda56840a264056221b10e684766ac4f91"
+RPM_NAME = "cwstudio-0.9.7-2.5.aarch64.rpm"
+RPM_HASH = "dabd8e3d04658ff9df969baf379aa7522fa33a6bf386a29cbb7ebda94bb82dd5ce5c4c1f432972d0e5a72c381bf017b3f4b7d7e44cb7833ee55977d3e6502369"
 
 RPROVIDES:${PN} += "cwstudio"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgcc-s.so.1 \
 libm.so.6 \
 libncursesw.so.6 \
-libstdc++.so.6 \
-libtinfo.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0"
+libpulse-simple.so.0 \
+libtinfo.so.6"
 
 inherit rpm

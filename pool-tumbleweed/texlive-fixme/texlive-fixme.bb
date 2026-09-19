@@ -16,10 +16,10 @@ giving you the possibility to create new layouts or even \
 complete 'themes', and also comes with support for AUCTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.5svn63708"
+PV = "2026.226.4.5svn77682"
 
-RPM_NAME = "texlive-fixme-2023.209.4.5svn63708-53.1.noarch.rpm"
-RPM_HASH = "ae1ec86baa64217b0a923695cfabe19884fe5ce5badda05ba00f07f8f07a0f8f66d3aae22887f3ca9906888c183ae0ecd6fa90a49c83ec5c54de1b3322aeb9f0"
+RPM_NAME = "texlive-fixme-2026.226.4.5svn77682-59.2.noarch.rpm"
+RPM_HASH = "e7155857e21bec0957701984918af55b3b73b251c9a1374615ce22f2d498b454c03a5a29a83aeef98e13e268ed5b918e63a66251842b7d20c824493f637a3f2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fixme.sty \

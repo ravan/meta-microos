@@ -4,10 +4,10 @@ genealogical information.  The lifelines reports are the power of the \
 system but requires knowledge in the ll format."
 LICENSE = "MIT"
 
-PV = "3.1.1+3ad4571"
+PV = "3.1.1+42ce4bda"
 
-RPM_NAME = "lifelines-3.1.1+3ad4571-4.1.aarch64.rpm"
-RPM_HASH = "a61e481c8225d97c8f7211042ff9aa776d3a2a4d7e86a49590ed5caaf84ec2ebc9b617aab9e5427c6606ed44b2113cb87757d2078e4c9b52c09d3d2adf8eaf31"
+RPM_NAME = "lifelines-3.1.1+42ce4bda-1.4.aarch64.rpm"
+RPM_HASH = "4303279c46ccab534fc1469faa019e0686c276112ff2c6b44da33e5ecee339856c0216f39db3ef68f849884cb076e7a208115df98fca2a25f0eb8611b89fe2d1"
 
 RPROVIDES:${PN} += "config-lifelines \
 lifelines"

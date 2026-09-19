@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.02"
 
-RPM_NAME = "perl-HTTP-MultiPartParser-0.02-1.16.noarch.rpm"
-RPM_HASH = "faa7194406a9a13cd72170f4f20fc6c8c3fe8fe4cb3a9e9f575a529b554aba5a0905412def58b9ce46d1d464489816abb5aab227423451a6df4ab811009e9813"
+RPM_NAME = "perl-HTTP-MultiPartParser-0.02-1.30.noarch.rpm"
+RPM_HASH = "f55756986717f775871b831f7b26abc1511d58d78f249dd91b9a43176fbbdf4975bdc85ae1ef496b97b528696fec228906735a0a8a9e7a30f94d1af1c5c07ce5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--MultiPartParser \
 perl-HTTP-MultiPartParser"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

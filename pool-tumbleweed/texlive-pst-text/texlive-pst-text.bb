@@ -4,10 +4,10 @@ different path and manipulating characters. It includes the \
 functionality of the old package pst-char."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn49542"
+PV = "2026.226.1.02svn77682"
 
-RPM_NAME = "texlive-pst-text-2023.209.1.02svn49542-54.2.noarch.rpm"
-RPM_HASH = "f73066ddc709f8553ac6b835b45fd2f3d498a0c901b777c2a7f0e94f955040f767820ed5c48ee585a3ef1fe44fc60a3b2b5be6f0b9b7040520e8ce4b21da2fb4"
+RPM_NAME = "texlive-pst-text-2026.226.1.02svn77682-60.4.noarch.rpm"
+RPM_HASH = "7e3d4c4fae0fda945c1d1982b65ee400360e7f4de0a8ffa5a91eaaace5ad8898c94db5c7e892dcc5095a440cf819c729b33d00aa0d4e82170cef9b4e1742c29f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-char.sty \

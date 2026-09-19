@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.8.1+git20201014"
 
-RPM_NAME = "libicns-devel-0.8.1+git20201014-1.11.aarch64.rpm"
-RPM_HASH = "2e8ecbb925bd6c7f37bdcfd5148b8b871de2f82525a5fe822898457ef3e7131b9308a38210c2f44a8933808b42da8a96c716042377449f93a50cade3a084730f"
+RPM_NAME = "libicns-devel-0.8.1+git20201014-1.23.aarch64.rpm"
+RPM_HASH = "aac131ba0bda6e993b7a2ddc5c4cc070c070ca42c087af94e9c65a72d0f651c4d72f82467cd15fe498f5c42ec8f387c12bb7cf8c9a4d50e9f747a5112aa4af7d"
 
 RPROVIDES:${PN} += "libicns-devel \
 pkgconfig-libicns"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-unicode-alphabets"
 DESCRIPTION = "This package includes the documentation for texlive-unicode-alphabets"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66225"
+PV = "2026.226.svn66225"
 
-RPM_NAME = "texlive-unicode-alphabets-doc-2023.209.svn66225-54.1.noarch.rpm"
-RPM_HASH = "5c281ee644dd1fcbbf3b501fe02df1a43c67e089bdb7f92e288df49c024871aa273f9f69c8e5f13bbcea625f5125cf9c61fb9e1b8277958e1b7f57b23843154b"
+RPM_NAME = "texlive-unicode-alphabets-doc-2026.226.svn66225-60.2.noarch.rpm"
+RPM_HASH = "9379d9b90d56f5820531205dd899152274ce8feca5737e0039ab4eec48eb5fd66c6e83d83d26d072407e6089cf2b0f12f5acb19d07d7c0d66923fb9713c8e3a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unicode-alphabets-doc"

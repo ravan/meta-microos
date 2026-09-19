@@ -5,10 +5,11 @@ the solution of problems encountered in field theory. \
 This package provides html documentation for cadabra2."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.4.3.2"
+PV = "2.5.14"
 
-RPM_NAME = "cadabra2-doc-2.4.3.2-1.6.aarch64.rpm"
-RPM_HASH = "0e97eea4709585a4d71538b3f309513ca900e5e0fc6cd8b9a81b7a36e969ed6a519aca65f3f0ebbe5e3125e64e3aeb1f4b4ccf18f691357a44819aed5a1f9536"
+RPM_NAME = "cadabra2-doc-2.5.14-3.1.noarch.rpm"
+RPM_HASH = "ab6d83ef992d7fbcd0932c415cade5f990653580e1667df4ac7f0d27a917ed711a9d77338c6bac653b059d4b958fc1ed5f2072d7a4aaf8d29951cc8bff4438db"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cadabra-doc \
 cadabra2-doc"

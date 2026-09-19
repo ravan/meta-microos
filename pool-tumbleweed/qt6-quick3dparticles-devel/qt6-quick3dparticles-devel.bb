@@ -1,11 +1,11 @@
 SUMMARY = "Qt6 Quick3DParticles library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Quick3DParticles library."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quick3dparticles-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "950bc1da1c4b54091dda78b4326e54f7b6b2738a0a482e4d541056853595dcd82af660446ed9b74dc77806102dd042c6f7f32ccbbe5d058b514fe5dc17775ae6"
+RPM_NAME = "qt6-quick3dparticles-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "b4ba2d98d9732f5141692d7f2da4fff3bda34fa7b321d932d847733c93128ca94d7555c0e48fe5618f07b2dc860a53ad40e172e867e692ebd1070ee60273fb46"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DParticles \
 pkgconfig-Qt6Quick3DParticles \

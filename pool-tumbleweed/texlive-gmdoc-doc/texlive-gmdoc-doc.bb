@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gmdoc"
 DESCRIPTION = "This package includes the documentation for texlive-gmdoc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.993svn21292"
+PV = "2026.226.0.0.993svn21292"
 
-RPM_NAME = "texlive-gmdoc-doc-2023.209.0.0.993svn21292-54.2.noarch.rpm"
-RPM_HASH = "56f006c7c94c5284634099e14a58ecde14e6e4df3808976a3f930aa989a75242055acc1f21d6b8b6c19c881c216b967b61ec540aead3220876831dc336bdbbf5"
+RPM_NAME = "texlive-gmdoc-doc-2026.226.0.0.993svn21292-60.4.noarch.rpm"
+RPM_HASH = "c04d557ebfdcef600af76642217686b1ba0311d99333b324c06dbd424c5cc203f3d0cff6906ffef0b9aa64291ac61547837857958a6d74f0ccca8d24a1f1b9fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gmdoc-doc"

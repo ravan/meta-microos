@@ -2,10 +2,10 @@ SUMMARY = "Translations for package firewalld"
 DESCRIPTION = "Provides translations for the 'firewalld' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.0"
+PV = "2.3.2"
 
-RPM_NAME = "firewalld-lang-2.0.0-2.1.noarch.rpm"
-RPM_HASH = "104226ce5887bde481e61d2d1d854d5c9a57a58b990f051ac0646711b3e458c3811860c7a7bee2cd44586f11f5f6e45f2752c3c88f2c7d525ddfd211279edd10"
+RPM_NAME = "firewalld-lang-2.3.2-2.1.noarch.rpm"
+RPM_HASH = "fd397aa7137de5eb73b522289d54dad9c8e333e98b61a8972405fc915d1a9fcc07810cdab753064390dbffee5471eec877d2347c11625a5b489aa7f682988791"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewalld-lang \
@@ -20,8 +20,6 @@ locale-firewalld-cs \
 locale-firewalld-da \
 locale-firewalld-de \
 locale-firewalld-el \
-locale-firewalld-en-GB \
-locale-firewalld-en-US \
 locale-firewalld-es \
 locale-firewalld-et \
 locale-firewalld-eu \
@@ -49,9 +47,11 @@ locale-firewalld-pa \
 locale-firewalld-pl \
 locale-firewalld-pt \
 locale-firewalld-pt-BR \
+locale-firewalld-ro \
 locale-firewalld-ru \
 locale-firewalld-si \
 locale-firewalld-sk \
+locale-firewalld-sl \
 locale-firewalld-sq \
 locale-firewalld-sr \
 locale-firewalld-sr@latin \

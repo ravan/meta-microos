@@ -7,12 +7,12 @@ provides many advanced features for manipulating and filtering the information \
 in FITS files. \
  \
 This package contains some FITS image compression and decompression utilities."
-LICENSE = "ISC"
+LICENSE = "NASA-1.3"
 
-PV = "4.3.0"
+PV = "4.7.0"
 
-RPM_NAME = "cfitsio-4.3.0-1.1.aarch64.rpm"
-RPM_HASH = "a166adba4c451847bf3fbaaed4987127e61caf850bdd2c6ab9f7b47ecb99928958af04b8f7aa0464d32a5d0d73de29eb1f4ddbc7e2532eab6f6899b49eb446de"
+RPM_NAME = "cfitsio-4.7.0-1.1.aarch64.rpm"
+RPM_HASH = "c46905e8a9dfc2eb78e79ac0336f28c89b802cb48970af9790ae49bc720ad667e576695b2f39f20e102891c8e01563a8bdb2cca18801bc37dbf647b06ceaa638"
 
 RPROVIDES:${PN} += "cfitsio"
 

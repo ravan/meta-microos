@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "libqtcurve-cairo1-1.9.0-6.18.aarch64.rpm"
-RPM_HASH = "b8e406862726459515dd65bf1e782e626cebe86835c906b778250bc71a40c570082d6c7195b09a328b04f387891615438cbaf0bb093d740d7760c0e9be39f514"
+RPM_NAME = "libqtcurve-cairo1-1.9.0-8.7.aarch64.rpm"
+RPM_HASH = "f6a69a303175a09baf2bffcd8fd6231b882c9f411b386e118f1eb6cea05baaeacead420aa224cbed3edacbc912804b36f6712e50b6d03aafa4c65f0750937247"
 
 RPROVIDES:${PN} += "libqtcurve-cairo.so.1 \
 libqtcurve-cairo1"

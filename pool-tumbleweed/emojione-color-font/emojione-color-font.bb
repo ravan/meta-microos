@@ -11,8 +11,8 @@ LICENSE = "CC-BY-4.0"
 
 PV = "1.3"
 
-RPM_NAME = "emojione-color-font-1.3-2.14.noarch.rpm"
-RPM_HASH = "fd95acc993030b48b18909af67770210337976987f582b3174c74d077969a043adcf4b17a7722dbb0500ed86b8ef6654c59197091cb75c9cfffab99d05945e3b"
+RPM_NAME = "emojione-color-font-1.3-2.22.noarch.rpm"
+RPM_HASH = "3317f9e4e9c1c2143acf4df76844b7385120b1cc4de2cf015091a4aacc43e693a0a93dbd8d78e33949f73c82cee95950c47ab24ccfd54120ab041143b5e1a21f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emojione-color-font"

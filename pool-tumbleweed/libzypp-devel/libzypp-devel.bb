@@ -3,12 +3,13 @@ DESCRIPTION = "Development files for libzypp, a library for package, patch, patt
 and product management."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.31.20"
+PV = "17.38.15"
 
-RPM_NAME = "libzypp-devel-17.31.20-1.1.aarch64.rpm"
-RPM_HASH = "f5f1b6362c78e16436c63771a814e78bef5f99d3bfca13ffbf710bcce56425060a7d8455aca8316c999ad8c5a075c8ad969e0a1e8b8590eee7f39aa07410024a"
+RPM_NAME = "libzypp-devel-17.38.15-1.1.aarch64.rpm"
+RPM_HASH = "68773986ec147dd41fb7eb0cff6501dc1c89029ee05bbf93f71f26e64d600466f4ec5fd4acbf5167118836213069f723c91c4252a654cecaf0ad37d0910eef68"
 
-RPROVIDES:${PN} += "libzypp-devel \
+RPROVIDES:${PN} += "cmake-Zypp \
+libzypp-devel \
 libzypp-tui-devel \
 pkgconfig-libzypp \
 yast2-packagemanager-devel"
@@ -21,7 +22,7 @@ libboost-program-options-devel \
 libboost-test-devel \
 libboost-thread-devel \
 libcurl-devel \
-libsolv-devel \
+libsolv-devel-static \
 libstdc++-devel \
 libudev-devel \
 libxml2-devel \

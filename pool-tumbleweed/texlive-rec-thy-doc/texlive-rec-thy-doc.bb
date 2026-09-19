@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rec-thy"
 DESCRIPTION = "This package includes the documentation for texlive-rec-thy"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.3.8.2svn63982"
+PV = "2026.226.4.5svn76924"
 
-RPM_NAME = "texlive-rec-thy-doc-2023.209.3.8.2svn63982-54.2.noarch.rpm"
-RPM_HASH = "221e15e9555e6102f6ce92360f7632a9c68b71adc7e79a07858e95248dec76d194abdc57100e8cbb6feabebcff795baccb99d8a625474b66e640ae81671d5358"
+RPM_NAME = "texlive-rec-thy-doc-2026.226.4.5svn76924-60.4.noarch.rpm"
+RPM_HASH = "ffbd008dcbab423d7d86c277d18bcb28bc8f73b5f5f0f73d1d3461059202b9f09bfd9ce341378be33cd4e2e6412e7146bfe927e564a07fd6aef2c4cfaf86efc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rec-thy-doc"

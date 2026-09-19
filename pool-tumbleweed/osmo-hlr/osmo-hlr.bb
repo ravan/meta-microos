@@ -12,8 +12,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-hlr-1.4.0-1.12.aarch64.rpm"
-RPM_HASH = "a59d27422b994b178ae2f853cf0ebecee2f3df72e870e4230cfba2a8485688d1509350eee03ce6e415a71d276abbfeb1f4fed8d6fa9ae605bef3485b967f2f63"
+RPM_NAME = "osmo-hlr-1.4.0-2.14.aarch64.rpm"
+RPM_HASH = "bb027fe779202b512a8ba99b3fae488b54a5f5126ada2fd9e52845599c312a947fc44e52f29a7070a6398230207d151c9d52c2fbdc27842df1477c90b00a9fc2"
 
 RPROVIDES:${PN} += "config-osmo-hlr \
 osmo-hlr"
@@ -24,11 +24,11 @@ libc.so.6 \
 libdbi-drivers-dbd-sqlite3 \
 libosmo-gsup-client.so.0 \
 libosmo-mslookup.so.0 \
-libosmoabis.so.10 \
-libosmocore.so.20 \
+libosmoabis.so.17 \
+libosmocore.so.22 \
 libosmoctrl.so.0 \
-libosmogsm.so.18 \
-libosmovty.so.9 \
+libosmogsm.so.20 \
+libosmovty.so.13 \
 libsqlite3.so.0 \
 libtalloc.so.2"
 

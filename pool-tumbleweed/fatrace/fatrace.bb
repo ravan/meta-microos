@@ -11,10 +11,10 @@ and runtime be capped. Optional time stamps and PID filters are also \
 provided."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.17.0"
+PV = "0.18.0"
 
-RPM_NAME = "fatrace-0.17.0-1.3.aarch64.rpm"
-RPM_HASH = "58671828647e6d555774dd77ed1ce1b323390fcc4528b802b1ba690144d13e9a378dab37c1cbec93912296059a3e8aa10878da27eca681153262fd719733932f"
+RPM_NAME = "fatrace-0.18.0-1.7.aarch64.rpm"
+RPM_HASH = "c38ecb40a8cc1dce26b1d30977a21d6b002ec3cecc0bdc5b1b378f02305bea0fe9d559eb7c674df8c449546c56a6388c9632194995f51a8ce0d634c3fd255fd0"
 
 RPROVIDES:${PN} += "fatrace"
 

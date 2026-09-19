@@ -9,10 +9,10 @@ control systems. \
 This package contains a Vim plugin to support EditorConfig."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.1.1"
+PV = "1.2.1"
 
-RPM_NAME = "vim-plugin-editorconfig-1.1.1-56.1.noarch.rpm"
-RPM_HASH = "107c26e2a32d9c4ec11a78098fca28e65b36839f3cd8c0eac2badd4e1330e2dddf3e5c0218c6f2a71c65cc0fce5dd5238f733b132768eb97389fad87bb9a693c"
+RPM_NAME = "vim-plugin-editorconfig-1.2.1-64.2.noarch.rpm"
+RPM_HASH = "58d0922c52fc2daa87920e9158380b8628457a831d29dc1d12f99ae46b4a5e693c80c5eaef12adc601a106f874c86c7d71c423bec0f7d9e1b44a0c942d843b80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-editorconfig"

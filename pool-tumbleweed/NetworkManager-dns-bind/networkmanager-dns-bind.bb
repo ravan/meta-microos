@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "NetworkManager-dns-bind-1.0-1.2.noarch.rpm"
-RPM_HASH = "50450aed9079b626dc955375f9e8ad91fab2f72bcef104f1d1a4b3aedd58332b411ecd132a636f837680acb051cd06d163fdc5fc0234d4a7863749bee7d09003"
+RPM_NAME = "NetworkManager-dns-bind-1.0-1.10.noarch.rpm"
+RPM_HASH = "cafa87effd0cb17ab47d126e79d80ffe7da61634602f4d50a5e6ac10e23cbaa1be4686f765322af07662dc449d135bec432d4c1c58ab53c50f0f952ec815f0bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-dns-bind"

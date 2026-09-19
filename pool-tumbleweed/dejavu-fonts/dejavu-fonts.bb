@@ -7,8 +7,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "2.37"
 
-RPM_NAME = "dejavu-fonts-2.37-1.15.noarch.rpm"
-RPM_HASH = "97f5c82b471aab15541760af187c41933d36c9fe32e56fac05c43308fdaa62371ec8cae7ef3db8f7dce917246a32224a6909100b485f298597f2ec28e3227c29"
+RPM_NAME = "dejavu-fonts-2.37-2.3.noarch.rpm"
+RPM_HASH = "7a9c125d56b7b1cefa85c0469f2bdcbd4b0ab543febe518a9e6259c3ece729a65df911ce497569447575635c6a5bceadef7d7bdc7ebfc37e00eca4051545639c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dejavu \

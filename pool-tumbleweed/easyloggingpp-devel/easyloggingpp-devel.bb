@@ -5,10 +5,10 @@ for logging classes, third-party libraries, STL and third-party \
 containers."
 LICENSE = "MIT"
 
-PV = "9.97.0"
+PV = "9.97.1"
 
-RPM_NAME = "easyloggingpp-devel-9.97.0-1.7.aarch64.rpm"
-RPM_HASH = "da120888305ccb36cb8c5eaff0826612a00ede8f8b2681412e9d5cb3c7067605fc5388bed87e7c0f200c5b4676d813d8c2af0876b40848c617bdf75121f843e9"
+RPM_NAME = "easyloggingpp-devel-9.97.1-1.7.aarch64.rpm"
+RPM_HASH = "bd004a4383958be41fd3dc8b7c0118e26eb71db602d928ea9ce92027ac872ab391e804361d01554bc4a8c4664aab6166ce71f76bbc56a783d4a5d65221a1dec7"
 
 RPROVIDES:${PN} += "easyloggingpp-devel \
 pkgconfig-easyloggingpp"

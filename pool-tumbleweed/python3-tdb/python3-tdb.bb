@@ -2,10 +2,10 @@ SUMMARY = "Python3 bindings for the Tdb library"
 DESCRIPTION = "This package contains the Python3 bindings for the Tdb library."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.4.8"
+PV = "1.4.15"
 
-RPM_NAME = "python3-tdb-1.4.8-1.2.aarch64.rpm"
-RPM_HASH = "0c9dcc16a07bdc28384e63f8987f3233226bfd21c980dc760209135e1709630b0094f5d7a5b98480d48f816b97bf452c14770e7b71efc556abbc117aeacff4dd"
+RPM_NAME = "python3-tdb-1.4.15-1.3.aarch64.rpm"
+RPM_HASH = "d4136845390d0e582e78fdc0a9f0edb989a66091b082b5ce5c9d21bbbc210ec95c99369e3cfc1c0b768032f4b2b12b84342559c6d6573cce6d07573bf5b5d4ff"
 
 RPROVIDES:${PN} += "python3-tdb"
 

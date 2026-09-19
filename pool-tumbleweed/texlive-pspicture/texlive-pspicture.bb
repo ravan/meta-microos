@@ -4,10 +4,10 @@ DESCRIPTION = "A replacement for LaTeX's picture macros, that uses PostScript \
 pict2e."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-pspicture-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "b2b7a98c10b9390359af6ea84a8669595644865becf7694a5dde9de7331640a5974c220b5d596cf3073801188efbc329c0a64c7c0af24bc71e76743f045886f0"
+RPM_NAME = "texlive-pspicture-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "2c30c433bbc4c8e27bcba80eafecd807a3d2fe6fb5622e6e4b8ad347202e1a67baa56048a1cfe2a8b31c2a194f5662758f6348ccd6fe2ec32ad7e866747df47b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pspicture.sty \

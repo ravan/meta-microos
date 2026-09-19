@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.0"
 
-RPM_NAME = "libglpk40-5.0-1.14.aarch64.rpm"
-RPM_HASH = "7ee41113bceaa57e3e73a3eba9c0cc8d4bcaa685af4b41788c9cb550520188d8765be9c207009189b057632a7ac8909cb3993258bffcef0b1d415548cf4e3376"
+RPM_NAME = "libglpk40-5.0-5.3.aarch64.rpm"
+RPM_HASH = "098b7ed44e9a235c1947af3f884bf8554ec24ef1bd188f584ae5bcfe013c33d880ea29cb1bf616d4358cc7f19a4b9d8e6cbf90252364cf8cc293f069b3a579d2"
 
 RPROVIDES:${PN} += "libglpk.so.40 \
 libglpk40"

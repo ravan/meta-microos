@@ -5,12 +5,12 @@ but also lists, sets, and ordered sets. All this data types can be manipulated \
 with atomic operations to push/pop elements, add/remove elements, perform server \
 side union, intersection, difference between sets, and so forth. Redis supports \
 different kind of sorting abilities."
-LICENSE = "BSD-3-Clause"
+LICENSE = "AGPL-3.0-only"
 
-PV = "7.0.12"
+PV = "8.10.1"
 
-RPM_NAME = "redis-7.0.12-1.1.aarch64.rpm"
-RPM_HASH = "5a4ac08dcf661e38025b5c12ddcea1ee937d19b0092d8628f3ab11a4d7b42d7f026e302d5102ba04eea11ee8a1da70128478e2f7408d4507125915e5bfc2a0c9"
+RPM_NAME = "redis-8.10.1-1.1.aarch64.rpm"
+RPM_HASH = "890b3e8ed26b514995d35cad8788d904d7f81f6674309838497293ccbb47c2e2775c4b4b21fb41c91465cf39c12053fa7a044651695f8753eafc2342cd4da4ff"
 
 RPROVIDES:${PN} += "config-redis \
 group-redis \

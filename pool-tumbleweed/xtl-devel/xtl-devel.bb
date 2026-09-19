@@ -2,10 +2,10 @@ SUMMARY = "The x template library"
 DESCRIPTION = "Basic tools (containers, algorithms) used by other quantstack packages."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.5"
+PV = "0.8.2"
 
-RPM_NAME = "xtl-devel-0.7.5-1.3.noarch.rpm"
-RPM_HASH = "9ff46e78e21c8ded73b3bfc3372a770e7584623804a38c58599d51ec8e0661f0c18bf375a3dccfff25027ca67793c0dda380cc605349a2da1436ae47e0b127ad"
+RPM_NAME = "xtl-devel-0.8.2-1.4.noarch.rpm"
+RPM_HASH = "41f7ec30abaac78b51869aff4db4827d04e491b96554bc72fbc02e47a49cd2fee24849c2cb68a8cd6ed2aaf75d130fe305c34032e3d89f975f2c39b4bc07d1ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake-xtl \

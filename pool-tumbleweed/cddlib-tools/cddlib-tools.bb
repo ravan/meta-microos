@@ -7,10 +7,10 @@ of linear inequalities. \
 This package contains the command-line utilities of cddlib."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.94m"
+PV = "0.94n"
 
-RPM_NAME = "cddlib-tools-0.94m-1.11.aarch64.rpm"
-RPM_HASH = "1c9fd3963485a4563d349548bd1e084c777eb1d0523effd1f0b66d425c110f3c7870ae7093484d4a2ffeb9426e6c6e66dacbba7011c781a9ea25b83298011da0"
+RPM_NAME = "cddlib-tools-0.94n-1.5.aarch64.rpm"
+RPM_HASH = "db9053611b46f2ee6a1b87ae1df16ba2b1c33c655c3180cfdcb025c01de24d530ed72d42e891ad373c04c43fe16b7cfdb8cfd704df5fa2199e53c98c74faa750"
 
 RPROVIDES:${PN} += "cddlib-devel-/usr/bin/scdd \
 cddlib-tools"

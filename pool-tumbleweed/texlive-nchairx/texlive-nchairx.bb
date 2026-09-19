@@ -6,10 +6,10 @@ creating nice mathematical documents. (Note concerning the \
 package name: the 'n' stands for 'new', the 'X' is a roman 10.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn60196"
+PV = "2026.226.1.0.0svn60196"
 
-RPM_NAME = "texlive-nchairx-2023.209.1.0.0svn60196-55.1.noarch.rpm"
-RPM_HASH = "99411752d6d3c4be3eec56cb681f56b57f771477919ee66829af6fb435c41ecd4957c30c14c0a378e234c5e0cff4652d0059f9dd9ba5561ea8306c5cbb8d22d4"
+RPM_NAME = "texlive-nchairx-2026.226.1.0.0svn60196-61.2.noarch.rpm"
+RPM_HASH = "bdbaa378ec5f40d288c6a337db691aca9fe93965dbc4ee33d8e5316fa698fcc157dd54c953962ab19c84f8f5fa6527a89845fcf381cf28b8e3cb4570dbdabb92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chairxmath.sty \

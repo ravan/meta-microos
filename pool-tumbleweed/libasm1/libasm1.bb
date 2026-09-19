@@ -4,10 +4,10 @@ disassamble instructions. (There is only partial support for i686 and \
 BPF instructions.) This is part of the elfutils package."
 LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
-PV = "0.189"
+PV = "0.194"
 
-RPM_NAME = "libasm1-0.189-5.1.aarch64.rpm"
-RPM_HASH = "dcccdf8b975e96cf1c7e706e8411a14f34094c5f6290d32b64d6b6d9e8083d95fa6fbb77b2a6bc30d0213c4e125e60391df909baea054b688353e4ce63e52bda"
+RPM_NAME = "libasm1-0.194-1.4.aarch64.rpm"
+RPM_HASH = "8aff5a225745aae92404753f136e6430896eaddc82ed72e6877a50a4f498bf482ccda0aa00f8b56db305d201a7975b6b4089ae010281e0fb42d822f37e96cea1"
 
 RPROVIDES:${PN} += "libasm.so.1 \
 libasm1"

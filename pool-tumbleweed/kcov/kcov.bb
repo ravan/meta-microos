@@ -3,12 +3,12 @@ DESCRIPTION = "Kcov is a code coverage tester for compiled programs, Python scri
 scripts.  It allows collecting code coverage information from executables \
 without special command-line arguments, and continuously produces output from \
 long-running applications."
-LICENSE = "GPL-2.0-only"
+LICENSE = "APSL-2.0 & GPL-2.0-only"
 
-PV = "41"
+PV = "42"
 
-RPM_NAME = "kcov-41-1.2.aarch64.rpm"
-RPM_HASH = "19b16e8f6fd623d47c1e73ca03220b2cf885cb71e882e4a2a44fec913f8013b6a2e1497e4a80f3018537766f62b0aa4ebc9d036111a5dcfe6876b5a9e6172440"
+RPM_NAME = "kcov-42-4.5.aarch64.rpm"
+RPM_HASH = "fcecde63ae803472c2f0ef0edf6f3e0d15de4966f8f57fd809a2e95e8ba5ef61c24b18c69676de9120b00ba3a669af3868c79d25317a3dd96e173de7f52b8114"
 
 RPROVIDES:${PN} += "kcov"
 

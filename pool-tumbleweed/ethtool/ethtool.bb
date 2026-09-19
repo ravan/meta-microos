@@ -3,12 +3,13 @@ DESCRIPTION = "Ethtool is a small utility for examining and tuning ethernet-base
 network interfaces.  See the man page for more details."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3"
+PV = "7.1"
 
-RPM_NAME = "ethtool-6.3-1.1.aarch64.rpm"
-RPM_HASH = "54f6b0ff0de07022a7757ed9b9e2ec6881a2ea86b50617d69fa9c47e286cd7073e5f019689dd0127ed470a6e5d93e3c5ecf7227c444e098176e049bd49edda00"
+RPM_NAME = "ethtool-7.1-1.2.aarch64.rpm"
+RPM_HASH = "ff794dce27b1ba6882a15dc9564d0cef70ad73d50038a82a006c90c9317c9ad11ebc9e249c39dd4b76e422d5bf682c9b9a3e5b17a442bd9ea7e55af8849be35a"
 
-RPROVIDES:${PN} += "ethtool"
+RPROVIDES:${PN} += "ethtool \
+ethtool-bash-completion"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

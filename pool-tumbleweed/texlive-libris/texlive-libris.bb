@@ -5,12 +5,12 @@ formats, and LaTeX support macros, for use with the Type 1 \
 versions of the fonts. The LaTeX macros depend on the \
 nfssext-cfr bundle. GPL licensing applies the fonts themselves; \
 the support macros are distributed under LPPL licensing."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.007svn19409"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-libris-2023.209.1.007svn19409-55.1.noarch.rpm"
-RPM_HASH = "f85eef03769d21fc0182ba51358642835305e44440dad04636d351b49b1289e5a7c76a16778d0596bef92cc45f511c4fd9d4394e365770b55f82397e5a657f03"
+RPM_NAME = "texlive-libris-2026.226.1.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "14f84eb06287ea4b4d7e363452f8978d06719bd015133658d9a03c0779a33fcef57c855e0888714c0ee3a6fe737d1e2044431f40d60825659f0de2f0422abd7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-libris-supp.enc \
@@ -68,6 +68,7 @@ grep \
 sed \
 tex-fontenc.sty \
 tex-nfssext-cfr.sty \
+tex-svn-prov.sty \
 tex-textcomp.sty \
 tex-updmap.cfg \
 texlive \

@@ -6,10 +6,10 @@ C++ module support. \
 This package contains the Python extension to ZNC."
 LICENSE = "Apache-2.0"
 
-PV = "1.8.2"
+PV = "1.10.3"
 
-RPM_NAME = "znc-python3-1.8.2-3.8.aarch64.rpm"
-RPM_HASH = "ab10b0a2530aebf7121b7e74a28defb1a5a3fbf29da7741c1ce35411ce0a41093942b41ebb6104cf1a7cc59d81a2ef0f53dfeb3b8a7b3c91ec3fa0ffaf72603e"
+RPM_NAME = "znc-python3-1.10.3-1.1.aarch64.rpm"
+RPM_HASH = "e5098de559e5b2b12ac7c5785ae6b62852fb9372b3369f17d04ecf8e84c3107670ace370594d4fd05d1e4f8353f9c2a64ee2873db7a8d96f654f01451ac9fe31"
 
 RPROVIDES:${PN} += "znc-python \
 znc-python3"
@@ -17,7 +17,7 @@ znc-python3"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libstdc++.so.6 \
 python3 \
 znc"

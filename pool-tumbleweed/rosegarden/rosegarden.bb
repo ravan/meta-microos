@@ -7,13 +7,12 @@ composers, musicians, music students, and small studio or \
 home recording environments."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "22.12.1"
+PV = "26.06"
 
-RPM_NAME = "rosegarden-22.12.1-2.2.aarch64.rpm"
-RPM_HASH = "b4d7f7c9abde66a180125dac81b5c9a28129bf4afd3717d0439c5837cc02eeccfa5b39e1308dd94377489d5e304fea35f9e027ee2fe0e59fdecc33953192c803"
+RPM_NAME = "rosegarden-26.06-1.2.aarch64.rpm"
+RPM_HASH = "d017771e486c359d66cc11b3ba98ded86fbf5aa1a5c11e9bae1a140b853fafb0e08b58d073098aaa25aa02da2b5e7f74dc1d73c23033f321f6d17cf4c59a6cac"
 
-RPROVIDES:${PN} += "librosegardenprivate.so \
-rosegarden"
+RPROVIDES:${PN} += "rosegarden"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
@@ -24,16 +23,17 @@ dssi \
 ladspa \
 ladspa-swh-plugins \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
 libasound.so.2 \
 libc.so.6 \
 libfftw3f.so.3 \
 libgcc-s.so.1 \
 libjack.so.0 \
-liblirc-client.so.0 \
+liblilv-0.so.0 \
 liblo.so.7 \
 liblrdf.so.2 \
 libm.so.6 \

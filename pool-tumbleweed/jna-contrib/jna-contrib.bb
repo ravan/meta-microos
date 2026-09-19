@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | LGPL-2.1-or-later"
 
 PV = "5.13.0"
 
-RPM_NAME = "jna-contrib-5.13.0-1.1.noarch.rpm"
-RPM_HASH = "12536e7c50eaa4e2c0d60a6b114b1ea1bb659b95c554e8a55d20ff365e5c7fa5c99a278cf59c7c6468852ab29065b84a19f2661e5976cd470f1d86e87529d49e"
+RPM_NAME = "jna-contrib-5.13.0-5.6.noarch.rpm"
+RPM_HASH = "4b0c1e99273aa2e780802412d68cacfa558ac2d26063593bd9c4eeb4a85780d80c2244b57dabc3a7b92f565230ab9c8d6daaad53f76a24851f4a735b14caaf63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jna-contrib \

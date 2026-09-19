@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "10.8.4"
 
-RPM_NAME = "phoronix-test-suite-10.8.4-3.3.noarch.rpm"
-RPM_HASH = "4cf858a06796377eaa6252635e970117e2bf8001abaacc8aeb841b015c45d82d8c9cb0f6d14b72b919a37d409b2358cd990df24c1dac2e34985043766309f2b2"
+RPM_NAME = "phoronix-test-suite-10.8.4-4.10.noarch.rpm"
+RPM_HASH = "2c1814126a1f4aa37d7c4f6e74d48c6ff8374e7aa6786e3e7055c0d6b0d7de6a62ee39aa9792a0b279a254d37566c01dde084a595dddbe39792164d222930b0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-phoronix-test-suite \

@@ -9,10 +9,10 @@ This package contains all necessary include files and libraries needed \
 to develop applications that require these."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.50.14"
+PV = "1.58.2"
 
-RPM_NAME = "pango-devel-1.50.14-1.4.aarch64.rpm"
-RPM_HASH = "e5ef51cc897bd3b816e56b3864815f7c88e1a90b9bf7022571e04b966aa80403fb0ef0fd0b874067eed5587ae100252fff2fc4c43f0bde87b1326d71b89e866e"
+RPM_NAME = "pango-devel-1.58.2-1.1.aarch64.rpm"
+RPM_HASH = "4644d28e9d16737df2c4a9963f988425b23202e5a8852cf31be536acace76a27941b97aa90c2f7337168ae1e4cfd4560352d4ec34cb7bdef048e1ba7c38844e8"
 
 RPROVIDES:${PN} += "pango-devel \
 pango-doc \

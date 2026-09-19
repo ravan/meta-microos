@@ -2,10 +2,10 @@ SUMMARY = "Translations for package elfutils"
 DESCRIPTION = "Provides translations for the 'elfutils' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.189"
+PV = "0.194"
 
-RPM_NAME = "elfutils-lang-0.189-5.1.noarch.rpm"
-RPM_HASH = "64dcdf4e6cf4e70478e77f23959daa767396efc94ef7d6876ff79c4879b9bd4d85a1dc37e6739359d2a47ceab6a075449cbc609cef4a192d308b4cf010b2e8a1"
+RPM_NAME = "elfutils-lang-0.194-1.4.noarch.rpm"
+RPM_HASH = "417798542b810828d6e5f716af047616ddaeeef0065ed91bf359d685462a9c4b033b06ea36a0a187cb764b38bc67875d6e7fc23c319a04f2757520316dda2228"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elfutils-lang \

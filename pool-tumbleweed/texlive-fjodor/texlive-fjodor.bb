@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides several page layouts, selectable by \
 package options."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn53207"
+PV = "2026.226.svn53207"
 
-RPM_NAME = "texlive-fjodor-2023.209.svn53207-53.1.noarch.rpm"
-RPM_HASH = "ef2aacea95e556e139c3baecce638c5a538d3a5aefba772ce1bfd85c42b98945f5269e3ae593edd1365cdfd1806c38dc75eb0af931d3eacbe4dfffd9af23f5ca"
+RPM_NAME = "texlive-fjodor-2026.226.svn53207-59.2.noarch.rpm"
+RPM_HASH = "6a0e58e24a1e882986865c4413c280414ec9078aae425567422acab0672fee41041ebdddd1851cb4a84cea760b4d24c77fc70e20eb4f72df45740b0689c1c992"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fjodor.sty \

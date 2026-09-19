@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.2"
 
-RPM_NAME = "telepathy-idle-0.2.2-1.12.aarch64.rpm"
-RPM_HASH = "7583d344a28d1bb0d5f5951dc0bd8aabfa0ce6d9776cdf4a74f351b7bc13a4a996eb4ccc873024a264623501ee61662d88d9922791cf0c455b09a8b5f5a0faa3"
+RPM_NAME = "telepathy-idle-0.2.2-1.22.aarch64.rpm"
+RPM_HASH = "24cf367b4a6b92b7e113084fce49817c9379a73f1d73d4690bb70667f7c0f47a3b7626a0ffb050dc70851ab8b09004c7eb5bb660e9d8624d5a0884657999bde0"
 
 RPROVIDES:${PN} += "telepathy-idle"
 

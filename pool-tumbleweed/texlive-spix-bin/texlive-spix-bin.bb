@@ -2,10 +2,10 @@ SUMMARY = "Binary files of spix"
 DESCRIPTION = "Binary files of spix"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn55933"
+PV = "2026.20260301.svn55933"
 
-RPM_NAME = "texlive-spix-bin-2023.20230311.svn55933-93.2.aarch64.rpm"
-RPM_HASH = "dde1cccb46372391e4e40680f71e55a82751cd239eda3e0882b7c3535f0aed9fa6293a3b2fff9c3be178def66e9e21bf219305c0e13e3c2139c44fbd9386a7ba"
+RPM_NAME = "texlive-spix-bin-2026.20260301.svn55933-120.4.aarch64.rpm"
+RPM_HASH = "03f86349f4edd07f8d50653cb382ae302b140380c82b98ef209b4db08246efe01534e639c471ba93867f45f7c0045af1e83d9510751dffe432cc952a7fcb83ca"
 
 RPROVIDES:${PN} += "texlive-spix-bin"
 

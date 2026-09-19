@@ -3,10 +3,10 @@ DESCRIPTION = "This is a library for AOMedia Video 1 (AV1), an open, royalty-fre
 video coding format designed for video transmissions over the Internet."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.6.1"
+PV = "3.13.1"
 
-RPM_NAME = "libaom3-3.6.1-1.1.aarch64.rpm"
-RPM_HASH = "e1efe2f682b72bd4b4e818aeeca5afbae97c69db1f4c49a68cf3fd9814cf2f0fd9db75fcf483ef414f8da20be152b7a6861db02270dd013700e98abd7f5d0327"
+RPM_NAME = "libaom3-3.13.1-2.5.aarch64.rpm"
+RPM_HASH = "74fcafe8193a00348ab6e7334cb1f74d968c333b40fccc938861a425bf1830b720b32c9f963d1382d68d0ea68745acc1c1cf3f1c355249aeae856f0f7771ed70"
 
 RPROVIDES:${PN} += "libaom.so.3 \
 libaom3"
@@ -14,6 +14,7 @@ libaom3"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libm.so.6"
+libm.so.6 \
+libvmaf.so.3"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-datetime2-usorbian"
 DESCRIPTION = "This package includes the documentation for texlive-datetime2-usorbian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn52375"
+PV = "2026.226.1.1svn52375"
 
-RPM_NAME = "texlive-datetime2-usorbian-doc-2023.209.1.1svn52375-53.1.noarch.rpm"
-RPM_HASH = "28b1c1f3fa37ceac97d5544513c01f9492f210e39f7981c1b46f9f140812a0cbf103bce1c916667f271437cf88d0f960bd50d14e1abeeaa27de5680b893a5110"
+RPM_NAME = "texlive-datetime2-usorbian-doc-2026.226.1.1svn52375-59.2.noarch.rpm"
+RPM_HASH = "bf2f7779ca813fc37ea6b8b69451645c2b241a16d8b402aa6716cd316e84c89ebb317b7ba6269bee96446ae6ea96ad8f2d3c75e7d97639376cb8766f1f52a134"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-datetime2-usorbian-doc"

@@ -6,10 +6,10 @@ Pronouncing Dictionary' by Daniel Jones. There is an option to \
 typeset the pronunciation in the style of Harrap's dictionary."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2svn16558"
+PV = "2026.226.2svn16558"
 
-RPM_NAME = "texlive-engpron-2023.209.2svn16558-54.2.noarch.rpm"
-RPM_HASH = "c32c4301324c21977cd7336c2fa91f76df5a185e15e63f162a0afb24df36315a6c3fd271949dd3cf3fdd954c516a1fbc55a155eae54417c06c2e9f7ce8d74a71"
+RPM_NAME = "texlive-engpron-2026.226.2svn16558-61.4.noarch.rpm"
+RPM_HASH = "ede816ba8b9ce7df72904329e3f7c24f1ce434f6d2cd934f61cceec83b6653f2f32ea8fe1dab84a7ebba82d487265deb7721743b2574c4b8cc62d383cc507336"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-engpron-tools.sty \

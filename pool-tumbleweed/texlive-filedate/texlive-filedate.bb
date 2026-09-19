@@ -5,10 +5,10 @@ well as to its modification date according to \\pdffilemoddate \
 if the latter is available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn29529"
+PV = "2026.226.svn29529"
 
-RPM_NAME = "texlive-filedate-2023.209.svn29529-53.1.noarch.rpm"
-RPM_HASH = "c23ea6d74c0d704e91fde66150c8fe98a3e45e064e3b4a2783f06606bf8ee548f80f702d3d90cf8e4c4e644d08127d97c962be4378dcf95ea058f6bd123c1794"
+RPM_NAME = "texlive-filedate-2026.226.svn29529-59.2.noarch.rpm"
+RPM_HASH = "09dcb33c3e8743ea087df1fc2ba5c1fce51e23fcb57dd5b7799999a18a56c35ccfc3cf5e346c68e9a1d37d8fd77ad4eb60faf2aa23551e4e8bf7ceebd5c05bfe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-filedate.sty \

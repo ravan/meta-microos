@@ -4,21 +4,22 @@ DESCRIPTION = "Onboard is an onscreen keyboard useful for tablet PC users and fo
 This GNOME Shell extension integrates the onboard keyboard with the GNOME Shell."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.4.1"
+PV = "1.4.4.5"
 
-RPM_NAME = "gnome-shell-extension-onboard-1.4.1-7.7.noarch.rpm"
-RPM_HASH = "8f126c988c1bc4490ff7a9fe764121118fbaacf3f75cf7adb1d4dd290b17c1b5fb26f7957bb46cf86adf8dddcda2966fab664f9c90dcfd5661b21cdbc0752a0b"
+RPM_NAME = "gnome-shell-extension-onboard-1.4.4.5-2.1.noarch.rpm"
+RPM_HASH = "0748083251dd3cc88cfb7005837bc74e974dc9e37b81627359a2cf884bd16108adb7f5a4ef4c59fd71bdd04ae06ffe53047ebacc791d8f82db8090695dafa4a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-onboard"
 
 RDEPENDS:${PN} += "gnome-shell \
 onboard \
+typelib-Adw \
 typelib-Clutter \
 typelib-GLib \
 typelib-GObject \
 typelib-Gio \
-typelib-Gtk \
+typelib-Meta \
 typelib-Shell \
 typelib-St"
 

@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "telepathy-logger-devel-0.8.2-8.1.aarch64.rpm"
-RPM_HASH = "72f99e994841a982d378129968d52d892f5e0d85296593a01d049b091ec7ecf6d07a6bbe28a3943d4858d0cf818ac162f84df6d3a624910533b63f26d3fe9002"
+RPM_NAME = "telepathy-logger-devel-0.8.2-11.4.aarch64.rpm"
+RPM_HASH = "c7be6083fa3bdf8108644c6920010c34d506bfa09111f29b883e8b7421e54c452d333936ff8a7896400eb2e19c3ca4110612eddf43905b617e14f714328e6087"
 
 RPROVIDES:${PN} += "pkgconfig-telepathy-logger-0.2 \
 pkgconfig-tpl-extensions \

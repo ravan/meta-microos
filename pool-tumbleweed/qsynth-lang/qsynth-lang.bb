@@ -2,10 +2,10 @@ SUMMARY = "Translations for package qsynth"
 DESCRIPTION = "Provides translations for the 'qsynth' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.10"
+PV = "1.0.6"
 
-RPM_NAME = "qsynth-lang-0.9.10-1.2.noarch.rpm"
-RPM_HASH = "3033f2951b9633f14623bdc394c43cd5b3fb5cd0fb3b59003d6800e71c2b31f18f4ae54a62d4d79e316650e8fbad4a987b36f08807b723ba687cb5dfdeaea795"
+RPM_NAME = "qsynth-lang-1.0.6-1.2.noarch.rpm"
+RPM_HASH = "dcfb0c061e36a1f7343e4a94d71c6dbce6155e4f1eeaf9d4d5102cdc3beb2f139e3fa4e00bbda0b6d46f1b88753debb7338894c5643a208b2cdefbc3b0803bf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qsynth-lang \

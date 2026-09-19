@@ -3,10 +3,10 @@ DESCRIPTION = "Programs that controls Realtek RTL2832 based DVB dongle in raw mo
 it can be used as a SDR receiver."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.0"
+PV = "2.0.3"
 
-RPM_NAME = "rtl-sdr-0.6.0-2.9.aarch64.rpm"
-RPM_HASH = "1ebcc7c0cce50c88a3e300f2ede8dde996ddc282ac51a214b7fdfba93de2ea5919b4930f112017e5a197081af27cb3bcd3431e66c17aa433720162dc07065a78"
+RPM_NAME = "rtl-sdr-2.0.3-1.1.aarch64.rpm"
+RPM_HASH = "218832872b36044507f6ccad29c11db21fd2d54e3891b68d84cec5f19a756296d83563c0b50c13180646ed39646723af0c33205b74305fddc3663c9091eeecf0"
 
 RPROVIDES:${PN} += "rtl-sdr"
 

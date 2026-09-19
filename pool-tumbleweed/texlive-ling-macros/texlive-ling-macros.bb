@@ -4,10 +4,10 @@ expressions. It covers a range of subfields in formal \
 linguistics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn42268"
+PV = "2026.226.svn42268"
 
-RPM_NAME = "texlive-ling-macros-2023.209.svn42268-55.1.noarch.rpm"
-RPM_HASH = "b4799e63a5135e20781994b6ca83f46b709cffe2001463873b8e7b5544396d637342b6c816e52f5353929d3456cf5924047cbcf1d3a1f9b106d6280b0e9b2e3d"
+RPM_NAME = "texlive-ling-macros-2026.226.svn42268-61.2.noarch.rpm"
+RPM_HASH = "83ce8af34f0c1da056fcca338e77be36e1d23b1991eee576864e3c2f8ceb7dd5aec37cbc8c874f4e4c315d3fb11066da088e111e6b1306af038a6ec5b1119701"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ling-macros.sty \

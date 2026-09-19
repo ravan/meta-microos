@@ -5,10 +5,10 @@ version 4, SOCKS version 5 (RFC 1928), and msproxy. \
 This package contains the header files for Dante."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.3"
+PV = "1.4.4"
 
-RPM_NAME = "dante-devel-1.4.3-2.9.aarch64.rpm"
-RPM_HASH = "c4019b223b7a51e7ba18c4400d92da5ea4f0b946d8533d4704c124c6b5999c6bf6ac5c564dadce745ac3955fab5af1e3b4b8114d6fdb255398bc64a6bcc1cd4f"
+RPM_NAME = "dante-devel-1.4.4-2.4.aarch64.rpm"
+RPM_HASH = "179d8f1b75c0015365ccf8c1c55bb8f8cd682353d6bf6afa7b86e0e36490ae396fdb83ab9ccded1477a3e9e7bd8a9c965fedc7a6ed0d46618857aea2eb7f3bc9"
 
 RPROVIDES:${PN} += "dante-devel \
 dantedev"

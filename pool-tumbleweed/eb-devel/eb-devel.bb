@@ -1,11 +1,11 @@
 SUMMARY = "EB Header Files and Libraries"
 DESCRIPTION = "EB header files and libraries."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "4.4.3"
 
-RPM_NAME = "eb-devel-4.4.3-3.29.aarch64.rpm"
-RPM_HASH = "7df3e1699df6b195dd7790f4adf2eee772571e33643b4ea332b9a4555d6203f5f4e77f8880660981db3f6c78229fe335f519b55db99ced47867a57135e83fb2e"
+RPM_NAME = "eb-devel-4.4.3-7.5.aarch64.rpm"
+RPM_HASH = "c25f2bdccd557e6e2d9544ee16a81e5097aaf1c344c0f519319e41a652e73fcd0484a5a545ff56034b3a1565c58e7eb4823984017e207a084717597ff519b37a"
 
 RPROVIDES:${PN} += "eb-devel \
 ebdev"

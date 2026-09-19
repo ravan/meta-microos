@@ -3,15 +3,15 @@ DESCRIPTION = "Gmsh is a 3D finite element grid generator with a build-in CAD en
 and post-processor. \
  \
 This package contains the header files needed for development."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "Apache-2.0 & GPL-2.0-or-later & (GPL-2.0-or-later | LGPL-3.0-or-later) & LGPL-2.1-or-later & MPL-2.0 & BSD-2-Clause & BSD-3-Clause & BSL-1.0 & CC0-1.0 & X11"
 
-PV = "4.11.1"
+PV = "4.15.2"
 
-RPM_NAME = "gmsh-devel-4.11.1-2.2.aarch64.rpm"
-RPM_HASH = "d60a84d78d8f005d9d5dd0731890e8eca1ba33e655e91b9e410644d532b622dcfcc88cf726cd9be04021eb7cb4f984f9a004a0729eb16aae38148f36e9894a4d"
+RPM_NAME = "gmsh-devel-4.15.2-1.4.aarch64.rpm"
+RPM_HASH = "53c8d5c55acb4be2ee9bdf0bde1bc949c9604f89ead9babbaac98769f1228a5eaf192a4f3bc83d578f30d580e31a4b1cfb220e655833f62d5b16499c83d3ef0f"
 
 RPROVIDES:${PN} += "gmsh-devel"
 
-RDEPENDS:${PN} += "libgmsh4-11"
+RDEPENDS:${PN} += "libgmsh4-15"
 
 inherit rpm

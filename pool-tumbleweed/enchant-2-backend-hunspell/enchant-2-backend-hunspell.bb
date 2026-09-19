@@ -4,10 +4,10 @@ extensible abstraction for dealing with different spell checking \
 libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.2.15"
+PV = "2.8.19"
 
-RPM_NAME = "enchant-2-backend-hunspell-2.2.15-3.4.aarch64.rpm"
-RPM_HASH = "b4997d9d1094fb7ef3c045633636b1d92afd1a7651acfde6335201379d65dd030a1fc42384eaf4a1d17a19d83b98b5583f7e1c3daafad75ffd18fbb9dac9332e"
+RPM_NAME = "enchant-2-backend-hunspell-2.8.19-1.1.aarch64.rpm"
+RPM_HASH = "c2290c218c9e1d16a404c049678b78287c7ed2da77e314208781b078088a936c90cfbabfa5cec568ab260259638bda6b3e16599a5b9a592f36663051b42c99ac"
 
 RPROVIDES:${PN} += "enchant-2-backend \
 enchant-2-backend-hunspell"

@@ -18,15 +18,15 @@ The way I write and use test scripts, existing Test::* modules are not \
 nearly as useful as they could be."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.10"
+PV = "1.130.0"
 
-RPM_NAME = "perl-Test-Inter-1.10-1.3.noarch.rpm"
-RPM_HASH = "5f8efb544d323d97158be8fce53deb7fc1bf305f4f1938441627b8023ef0a2198b9fdddbdc00aca0aee7f1369b8cc18250fe7527ceb58a4e4ea2ae3305623c7b"
+RPM_NAME = "perl-Test-Inter-1.130.0-1.1.noarch.rpm"
+RPM_HASH = "bf45b4473bff9de118ad78975a3514edad1949b1cf839810c7617a05eb5f9803e34157e2279e99e3911c5b20566772d2b907f4150c55e3ac4658446171fd6f17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Inter \
 perl-Test-Inter"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

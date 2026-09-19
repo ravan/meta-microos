@@ -6,10 +6,10 @@ computer systems using web services standards. \
 This subpackage provides the client libraries of OpenWSMAN."
 LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
-PV = "2.7.2"
+PV = "2.8.1"
 
-RPM_NAME = "libwsman_client5-2.7.2-2.9.aarch64.rpm"
-RPM_HASH = "4178d61d385852f990ef35014bf890dbdfe056043cb634111e26e9918f5dd1aa0b3ba706090ce1c96f177c700758f1f784bef2742bbf48f0f29cd5c622487645"
+RPM_NAME = "libwsman_client5-2.8.1-5.1.aarch64.rpm"
+RPM_HASH = "22c2fae1eaee90025506370cadc11fa92f1948fb9f18160499a5e099b0d9b76159265f60badf84efb251308ac2ef16e93c5c2a4d1e2fc95017c5e32b961b29ec"
 
 RPROVIDES:${PN} += "config-libwsman-client5 \
 libwsman-client.so.5 \

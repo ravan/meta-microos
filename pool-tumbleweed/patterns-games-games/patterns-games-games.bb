@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20220126"
 
-RPM_NAME = "patterns-games-games-20220126-1.5.aarch64.rpm"
-RPM_HASH = "0691cddbe0d8ebdd771f50dc4655a9d3cec34e1b9d3579299c84e1e7ceca148898a91078229fc0f5a9c4350a7f317c4d7606df9d81d0afd5ef0e78839cb9950f"
+RPM_NAME = "patterns-games-games-20220126-1.13.aarch64.rpm"
+RPM_HASH = "2109e64cf74f3a1bbb0f00b4c67aeb7be1cee0808b01270a46d4776e5d61bd72e03a647b3681bc710d3a1481a82e76c31b4da48782df235afd28d4e229a59d0e"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

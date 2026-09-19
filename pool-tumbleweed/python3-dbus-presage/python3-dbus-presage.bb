@@ -8,13 +8,13 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "python3-dbus-presage-0.9.1-13.2.aarch64.rpm"
-RPM_HASH = "0d8cfbb359d993efe226f4baae595171b9088c34daefbb82ed74671cc9e26eb7c82b5cb1ae3e5621b4bcd373a69fb810358023d4195db7b87c3b1442d88dada5"
+RPM_NAME = "python3-dbus-presage-0.9.1-18.6.aarch64.rpm"
+RPM_HASH = "f81522e2077ed9c4195328f2940b28407b4fde7947db62ef3241a561f91cffb5a758bb063c0d8bc7a02d46ee693ab4b9fc3957df20d117527b2e630eccd8cb0d"
 
 RPROVIDES:${PN} += "dbus-1-presage \
 python3-dbus-presage"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-dbus-python \
 python3-presage"

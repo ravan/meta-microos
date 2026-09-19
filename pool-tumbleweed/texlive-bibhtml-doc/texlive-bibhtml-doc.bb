@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bibhtml"
 DESCRIPTION = "This package includes the documentation for texlive-bibhtml"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.0.2svn31607"
+PV = "2026.226.2.0.2svn31607"
 
-RPM_NAME = "texlive-bibhtml-doc-2023.209.2.0.2svn31607-54.1.noarch.rpm"
-RPM_HASH = "62984c025378c37b6a3a19af14aeec9fd79988d9e1d2baba645e9004db48c0ca8dae9406dfe6acf7e22a1a6a1fd09bf2d2abb076bb38ad3715d4fb348aa67d00"
+RPM_NAME = "texlive-bibhtml-doc-2026.226.2.0.2svn31607-61.2.noarch.rpm"
+RPM_HASH = "e1325a2a24f1dac96ed089a4857d07d31f6ded23e54dbd5986fb6ad8107f10f2a4dbd8255f69a30b67f155ee36867671a5fd3bd993bbaab3f33626cc9796e82d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bibhtml-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Filesystem Mounting Plugin for the Xfce Panel"
 DESCRIPTION = "The Mount plugin allows to mount and unmount filesystems from the panel."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.6"
+PV = "1.2.0"
 
-RPM_NAME = "xfce4-mount-plugin-1.1.6-1.1.aarch64.rpm"
-RPM_HASH = "0a0f008cc4c036429fb858aa25d55a7e1ad4a574d88a28139dcddc62c287e9cc7f96ebb6d3d17332f29cb04043419bd47b51f6b2f8681c08d44263c73eb61d61"
+RPM_NAME = "xfce4-mount-plugin-1.2.0-1.4.aarch64.rpm"
+RPM_HASH = "6448e1601f8d4f278a69f6dc9aa272e79587c9f8dbfb2d5abe97693f543054f7d3b6e2eb3f582d092787caef16186e0aea78b1d4f71e03f9307027234f9fcbe7"
 
 RPROVIDES:${PN} += "libmount.so \
 xfce4-mount-plugin \

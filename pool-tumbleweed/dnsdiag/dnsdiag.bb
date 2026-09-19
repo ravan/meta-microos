@@ -19,20 +19,23 @@ different DNS servers from a performance (latency) and reliability \
 of a resolver."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.0"
+PV = "2.9.4"
 
-RPM_NAME = "dnsdiag-2.1.0-1.2.noarch.rpm"
-RPM_HASH = "5372f5d2e9049e9e83649296bf4fea4f8a29fc3f9dbb90f2730cb3d5e7c78adfa977041c8e90b22d01b11bcbe91e6b019386b8d2618727e38510c93ff6af385c"
+RPM_NAME = "dnsdiag-2.9.4-1.1.noarch.rpm"
+RPM_HASH = "730d626a7af7b21748357a0f3b19e4b54057a8cc29147c8d82d5cccaaf10a5a129613e5206af480b12a098646f7ab774831d8fd9fe48020f957161983ce9b003"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnsdiag \
-python3.11dist-dnsdiag \
+python3.13dist-dnsdiag \
 python3dist-dnsdiag"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
+python3-aioquic \
+python3-cryptography \
 python3-cymruwhois \
 python3-dnspython \
-python3-setuptools"
+python3-h2 \
+python3-httpx"
 
 inherit rpm

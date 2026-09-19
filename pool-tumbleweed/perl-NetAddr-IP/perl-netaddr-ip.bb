@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "4.079"
 
-RPM_NAME = "perl-NetAddr-IP-4.079-1.35.aarch64.rpm"
-RPM_HASH = "c1ab4193961dd75df2ba573b798143a7b2c83d1dea22ca17a465f7048a4bd25136034794644b672285f711c846f08776828f9b80bd685a126ced67a8630bae95"
+RPM_NAME = "perl-NetAddr-IP-4.079-1.52.aarch64.rpm"
+RPM_HASH = "abd3a9000259add4a5ef894561dd5fc977b2dd5417c2521a3bdc2ab411da535306797b1e8a189c78ab1381f52d789262c577ae1792469e1390c03b633c7f823d"
 
 RPROVIDES:${PN} += "perl-NetAddr--IP \
 perl-NetAddr--IP--InetBase \
@@ -24,6 +24,6 @@ perl-NetAddr-IP"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

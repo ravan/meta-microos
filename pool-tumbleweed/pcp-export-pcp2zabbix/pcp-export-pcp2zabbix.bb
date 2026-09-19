@@ -3,14 +3,15 @@ DESCRIPTION = "Performance Co-Pilot (PCP) front-end tools for exporting metric v
 to the Zabbix (https://www.zabbix.org/) monitoring software."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-export-pcp2zabbix-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "65ade2fa7dd93c9c2bedd824a9af2b512737d4f919cb5a894ff3c9f6dc0e98c31e58c288cdec46c50cc00107b8279486e2290045a650315758081609bf3440cd"
+RPM_NAME = "pcp-export-pcp2zabbix-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "a256d714f34aac2564ecd4a793161a97fb5446a60b527938c9634544ccfba4aedb05d0cd83f3020e999d62d893339d6c2e00535d844efb2932aacfb96fff4aaa"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-export-pcp2zabbix"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 python3-pcp"
 
 inherit rpm

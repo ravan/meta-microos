@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "ocaml-gen-devel-1.1-1.2.aarch64.rpm"
-RPM_HASH = "53395b50f85655e3f816d0815388816a0bc9bae1a5865710e188a035080b1816439237da5d865445483012d3420b8910fe781bc8ebe5275cd32a3e9310007b9e"
+RPM_NAME = "ocaml-gen-devel-1.1-3.1.aarch64.rpm"
+RPM_HASH = "ce963afc68c8f499469befdced85e1a65a5fc1120d7f61cabe064286593552209cf424c1fdc2c0edb2927b8bc83a5d1d40c96f7283fc77f2f1ffddfa0c20c986"
 
 RPROVIDES:${PN} += "ocaml-Gen \
 ocaml-Gen-intf \
@@ -34,6 +34,7 @@ ocaml-CamlinternalOO \
 ocaml-Stdlib \
 ocaml-Stdlib--Array \
 ocaml-Stdlib--Buffer \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Int32 \

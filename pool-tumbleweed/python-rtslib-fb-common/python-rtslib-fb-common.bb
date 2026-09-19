@@ -1,12 +1,12 @@
-SUMMARY = "Common python-rtslib-fb subpackage for Python 2 or 3"
-DESCRIPTION = "python-rtslib-fb-common is the invariant base package needed by both \
-python2-rtslib-fb and python3-rtslib-fb."
+SUMMARY = "Common python-rtslib-fb subpackage for all Python 3 versions"
+DESCRIPTION = "python-rtslib-fb-common is the invariant base package needed by all \
+version of python3*-rtslib-fb."
 LICENSE = "Apache-2.0"
 
-PV = "2.1.75"
+PV = "2.2.2"
 
-RPM_NAME = "python-rtslib-fb-common-2.1.75-3.3.noarch.rpm"
-RPM_HASH = "dc5b660499ba6915b6e02d5450fe60dba77aa3f51976fc4732b5b53536e7ad6b8e9186b874b3896df00d0e1c143f8e12eab72eba5258c8f1dc1aac1143a1d80c"
+RPM_NAME = "python-rtslib-fb-common-2.2.2-3.6.noarch.rpm"
+RPM_HASH = "32932405281c72b964dfcae27c84378369e6858b662cd761d8cf5051827a4a31dd5ddb69eb612432b51bdd9602287f10454bd626ca0e5040bba30c785b1728fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-rtslib-fb-common"

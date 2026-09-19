@@ -3,10 +3,10 @@ DESCRIPTION = "The XKB plugin allows to setup and switch between multiple XKB ke
 layouts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.3"
+PV = "0.9.0"
 
-RPM_NAME = "xfce4-xkb-plugin-0.8.3-1.4.aarch64.rpm"
-RPM_HASH = "f568d26bd93d6a000898b3d4d6c394529e4adc06bbeca8580454a633f0f94557c8569c95c41962710c0e44d3239e77d51fb0e00732694a70949ae19df3fd7226"
+RPM_NAME = "xfce4-xkb-plugin-0.9.0-1.4.aarch64.rpm"
+RPM_HASH = "c819adf43052a31339bae4b6162f2c041fe0289b16bf028dd5575a20d8439eabf1f70f1ce35bce3cffdaea874948427a36e584af60eb800b79c1021140bc5f51"
 
 RPROVIDES:${PN} += "libxkb.so \
 xfce4-panel-plugin-xkb \
@@ -22,6 +22,7 @@ libgdk-pixbuf-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libnotify.so.4 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 librsvg-2.so.2 \

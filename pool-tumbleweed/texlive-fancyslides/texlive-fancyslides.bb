@@ -7,10 +7,10 @@ class is built upon LaTeX beamer, so all beamer commands should \
 work."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn36263"
+PV = "2026.226.1.0svn36263"
 
-RPM_NAME = "texlive-fancyslides-2023.209.1.0svn36263-53.1.noarch.rpm"
-RPM_HASH = "08c86203e1db12ec3786dd6af67c2b51d168db0890a3e90e9b825134319caa34df650fb7cd54031d1a2f80a1b218cad72ed435f6aa2a909cecd9ba83b6e3e428"
+RPM_NAME = "texlive-fancyslides-2026.226.1.0svn36263-59.2.noarch.rpm"
+RPM_HASH = "52b19d4018411c5f604e01d1807dfb6ffa5ebb1610f40d9bfc6f4b754756725ff7ade52e5b32a510bf5d76384a50020b85b230956a53488bb83ceb2da283c332"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fancyslides.cls \

@@ -18,13 +18,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.25.0"
 
-RPM_NAME = "pidgin-plugin-sipe-1.25.0-2.12.noarch.rpm"
-RPM_HASH = "5c7b64bc89a5f45cb9581d89170ce8bdc4799e2d76ac9a5eabc67a5fca08a3e35c70d88df78b2a384ef9dbf48aa54afd044b5ad735c46549bef8d9e92dbf2074"
+RPM_NAME = "pidgin-plugin-sipe-1.25.0-4.8.noarch.rpm"
+RPM_HASH = "209a1d41ec8246573f0d0cdbbdcbb502bfe79eab1af7d6ed0bc1c5b63ac24d98832560328c8248a8038d3522c990958be8c63e0f03d5f320c10296f8f245edd4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pidgin-plugin-sipe \
 pidgin-sipe"
 
-RDEPENDS:${PN} += "libpurple-plugin-sipe"
+RDEPENDS:${PN} += "libpurple-plugin-sipe \
+pidgin"
 
 inherit rpm

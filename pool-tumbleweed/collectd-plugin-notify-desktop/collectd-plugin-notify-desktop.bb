@@ -3,10 +3,10 @@ DESCRIPTION = "Desktop Notification Support for collectd allow you to receive \
 message delivery on your desktop."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-notify-desktop-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "0b85280d4a89047cd350dc86554d813c8739a0248f7698bc4eb3844f5489754049959b6439550677dd0b09c916c4d23f00afe345a01d718143b82860df6646af"
+RPM_NAME = "collectd-plugin-notify-desktop-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "17c830f235efe23a9617077943b0ef5bdc329efac024dcecea5246c98c5aa1e025645ced69d357abaa74ec0de7e72e3bd581512986ace58ccf6c0a50450da88d"
 
 RPROVIDES:${PN} += "collectd-plugin-notify-desktop"
 

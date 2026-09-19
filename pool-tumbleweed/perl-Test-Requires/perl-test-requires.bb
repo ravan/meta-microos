@@ -11,15 +11,15 @@ Test::Requires can also be used to require a minimum version of Perl: \
     use Test::Requires 'v5.10';"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.11"
+PV = "0.110.0"
 
-RPM_NAME = "perl-Test-Requires-0.11-1.15.noarch.rpm"
-RPM_HASH = "44f216e843fd469c8a71293c500720461a78b0ea97831d80a798851ef3373389467a4e2f3c7ed2100cf968ad1877e2bca92ee67edef72b8b156b16f72780850b"
+RPM_NAME = "perl-Test-Requires-0.110.0-1.5.noarch.rpm"
+RPM_HASH = "bb821dbb68f71eac4dcb6163f736ec0b7a97fbbfa7658108a39f568a0898ffe3ca5fdb9b540f0956332502cabab75f132d63647b67c137b01a674cbef281961b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Requires \
 perl-Test-Requires"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

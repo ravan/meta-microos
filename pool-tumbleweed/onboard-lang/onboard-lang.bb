@@ -2,10 +2,10 @@ SUMMARY = "Translations for package onboard"
 DESCRIPTION = "Provides translations for the 'onboard' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.4.1"
+PV = "1.4.4.5"
 
-RPM_NAME = "onboard-lang-1.4.1-7.7.noarch.rpm"
-RPM_HASH = "19d71e92f3350dc5f25c0c8cb8106088c46344ce43ce8ba8f4623ca92e16f8267b8d025a174e1009f2239a1e4b7ca2dcf53e755aa11493fc49b2ab64910fff2f"
+RPM_NAME = "onboard-lang-1.4.4.5-2.1.noarch.rpm"
+RPM_HASH = "5c66b2c0ddb3b6d87e86d7d95f1c170972a34553608ad4c96fb2ae2ce1caab0972503b33597f530aa58d8c1fa5028a5caae05e8fdca4a84ef8db216845e278c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-onboard-af \

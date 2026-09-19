@@ -4,10 +4,10 @@ It leaves other capabilities intact. This can also be linked against and automat
 You do not need to make any calls into the library because all the work is done in the constructor which runs before main() is called."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.8.3"
+PV = "0.8.5"
 
-RPM_NAME = "libdrop_ambient0-0.8.3-2.3.aarch64.rpm"
-RPM_HASH = "169241338a8a551a616263c40d45cc5641c159c3c2e487229b8d44fa4088b5ac19743bd2ad5102a34d8592fcc7baec470ca9c1692877a9c03bab2e45a27c219b"
+RPM_NAME = "libdrop_ambient0-0.8.5-1.10.aarch64.rpm"
+RPM_HASH = "8dc66b4edb2d3b4d887837606a37966708bd6af861bd9e982539a950fee9111cafc128f489755f36622a7f135d5cdc3b7e0497f6db4f2cf40e8c4860c4e28ab1"
 
 RPROVIDES:${PN} += "libdrop-ambient.so.0 \
 libdrop-ambient0"

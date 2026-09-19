@@ -2,10 +2,10 @@ SUMMARY = "Mint Themes -- Common Files"
 DESCRIPTION = "A collection of Mint GTK+ themes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.0.8"
+PV = "2.2.3"
 
-RPM_NAME = "metatheme-mint-common-2.0.8-1.1.noarch.rpm"
-RPM_HASH = "10963f2659dfdb2d00a4b1f039056c70a29ca03ea6c903f2f096c38b0ff434f98403f74ffa7307312fa8ce9ed79cd545e5ed231387da8d07f56b3eafaf5f5dd0"
+RPM_NAME = "metatheme-mint-common-2.2.3-1.4.noarch.rpm"
+RPM_HASH = "fd84fbc61fd49cdffe029a62143b34b411bffcc0ec1a4152b35181812d52f677d2791b71c35f93dd5d7795dc8a0f0b697c135810027919728d5e7f5ca0f0a6af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-themes \

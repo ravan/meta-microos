@@ -18,10 +18,10 @@ The netsniff-ng toolkit consists of the following utilities: \
 * astraceroute, an autonomous system (AS) trace route utility"
 LICENSE = "GPL-2.0-only"
 
-PV = "0.6.8"
+PV = "0.6.9"
 
-RPM_NAME = "netsniff-ng-0.6.8-2.4.aarch64.rpm"
-RPM_HASH = "6ebbf47b4f81dc5eb13929c3c8f6563ad0fe01d0cadac8ab1823410c758f4d77ff6576353d705364e6504b7fe698760a05c169b866cc2ec1633a1b9e2dff652f"
+RPM_NAME = "netsniff-ng-0.6.9-2.4.aarch64.rpm"
+RPM_HASH = "5bfd5799194dc133c44e89e05f398e818a0f784015eafc52d8a41f460423b1345967c576e2dac56bf8204dc18f6f083d25c878c6434cdea352ef2836ae60d799"
 
 RPROVIDES:${PN} += "config-netsniff-ng \
 netsniff-ng"
@@ -36,7 +36,7 @@ libnl-3.so.200 \
 libnl-genl-3.so.200 \
 libnl-route-3.so.200 \
 libpcap.so.1 \
-libsodium.so.23 \
+libsodium.so.26 \
 libtinfo.so.6 \
 liburcu.so.8"
 

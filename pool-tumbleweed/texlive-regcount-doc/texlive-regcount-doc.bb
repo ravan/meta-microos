@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-regcount"
 DESCRIPTION = "This package includes the documentation for texlive-regcount"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn19979"
+PV = "2026.226.1.0svn19979"
 
-RPM_NAME = "texlive-regcount-doc-2023.209.1.0svn19979-54.2.noarch.rpm"
-RPM_HASH = "a76233a77a222ae0b0bf49abdaf766a9eb46fb654b63f3c4575c62607de68d4a57b7fbf0df8e736abd24dfba6ed377d7715498bd4b2c68f29806725799762ffc"
+RPM_NAME = "texlive-regcount-doc-2026.226.1.0svn19979-60.4.noarch.rpm"
+RPM_HASH = "09516d6c45c3c6f4210b8ad98b18638fa3911ea566561ebb769a03de7e850eb15a6d88b2e70023c845461cf7c645f19b8b8a1dfd6b0cd95acd805b86a2122ff6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-regcount-doc"

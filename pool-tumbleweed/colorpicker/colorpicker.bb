@@ -1,16 +1,15 @@
 SUMMARY = "A Color Picker"
-DESCRIPTION = "A color picker program designed for Elementary OS."
+DESCRIPTION = "A color picker program designed for the Pantheon Desktop."
 LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.5"
 
-RPM_NAME = "colorpicker-1.1.5-1.18.aarch64.rpm"
-RPM_HASH = "8a5ac88a2cbfc70243c316e62075780928243b6145ec31cf81c93ebe96140ec5982a7fd3fb3f70c11f5d7a6556173c778f027cabd881118ccefe73d8e5b9fdcd"
+RPM_NAME = "colorpicker-1.1.5-2.9.aarch64.rpm"
+RPM_HASH = "9439bceda9cee8150cb3b391ea4a869945b4cd7c83cf28f385ed694d3550c78bc1137c28a998c5eb53da5a4b72874662586853db52ce0f63afa3c2a21c1bee2f"
 
 RPROVIDES:${PN} += "colorpicker"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
 libgdk-3.so.0 \

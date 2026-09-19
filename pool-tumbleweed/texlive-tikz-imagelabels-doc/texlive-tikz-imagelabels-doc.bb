@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-imagelabels"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-imagelabels"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn51490"
+PV = "2026.226.0.0.2svn51490"
 
-RPM_NAME = "texlive-tikz-imagelabels-doc-2023.209.0.0.2svn51490-53.1.noarch.rpm"
-RPM_HASH = "e7973c9c2126786e55b70aa7e15b6afba2d2e2e11ca1c5458465fdacfee5cd994c35ae5c94912578b9581702767c15eca4e792ce7d705ac1ce32d3dd7c29aa5d"
+RPM_NAME = "texlive-tikz-imagelabels-doc-2026.226.0.0.2svn51490-59.2.noarch.rpm"
+RPM_HASH = "e29e2f2ac7c3de95a379ac81f23513fadcda4d435f017ca480417580f18404740da2893e868793f3f8b8252c4f08df58609edc15fe984c99f8259b9d48bb5e53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-imagelabels-doc"

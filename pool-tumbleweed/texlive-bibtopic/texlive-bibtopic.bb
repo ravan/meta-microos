@@ -12,10 +12,10 @@ specific to one part of a document, see the packages bibunits \
 or chapterbib."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1asvn15878"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-bibtopic-2023.209.1.1asvn15878-54.1.noarch.rpm"
-RPM_HASH = "4757a7cbab5b2433806e4a232010ad87e9a1db9684fe034e4f7daaff98feb4d68e86cb5e3dae9c4c6e6be794b759e24c8a9d6f969bc3df98a77118ffabc9fe44"
+RPM_NAME = "texlive-bibtopic-2026.226.1.1asvn77682-61.2.noarch.rpm"
+RPM_HASH = "408f3ec29f7c59d005ac2aa54b1111e26ea0fd320149024835b3f96dd3ae779516a7213c907d937d22382b92a72a0fb5c2206924946cf8c9067dc15455ec0536"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibtopic.sty \

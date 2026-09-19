@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cherrytree"
 DESCRIPTION = "Provides translations for the 'cherrytree' package."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-only"
 
-PV = "1.0.1"
+PV = "1.6.3"
 
-RPM_NAME = "cherrytree-lang-1.0.1-1.1.noarch.rpm"
-RPM_HASH = "941c736b2d5b2e41b598902b5cec4dca6a04423d0da68c2029ea19910c4ec0e003d219e27613dde7fc8173093167da13c973be7c301d307a7e279997c642617f"
+RPM_NAME = "cherrytree-lang-1.6.3-2.4.noarch.rpm"
+RPM_HASH = "b3f644dfc7d90836594cbb4baf89005ceeec1fc6651ccc778a4b4b1c6df8b36c3c877ffba1512fa26dc55b904d1c4538b24f0da4fed83fb4284f397d88bcc749"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cherrytree-lang \
@@ -31,6 +31,7 @@ locale-cherrytree-pt \
 locale-cherrytree-pt-BR \
 locale-cherrytree-ro \
 locale-cherrytree-ru \
+locale-cherrytree-sk \
 locale-cherrytree-sl \
 locale-cherrytree-sv \
 locale-cherrytree-tr \

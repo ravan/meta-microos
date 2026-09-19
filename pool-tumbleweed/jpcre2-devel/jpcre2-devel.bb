@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & SUSE-Public-Domain"
 
 PV = "10.32.01"
 
-RPM_NAME = "jpcre2-devel-10.32.01-1.8.aarch64.rpm"
-RPM_HASH = "90e7988cb7bbb537b494c103b7779804d1ea51f18d3cb5e0a321a2cad50358f6e67e2e8c0287951be4ab37774efaa3bca83c6057ee04832c3a3de830a811c9a0"
+RPM_NAME = "jpcre2-devel-10.32.01-1.16.aarch64.rpm"
+RPM_HASH = "c8cd2b56a5f94660a99dbcac95995ea66deb2bf2972f51d7c95e2c47519f242b7b1cc7f666ea5d3de756009f2adb764fa1a34c2957dc398475d08f0c77d388a9"
 
 RPROVIDES:${PN} += "jpcre2-devel"
 

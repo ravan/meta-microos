@@ -3,10 +3,10 @@ DESCRIPTION = "The fprint project provides a central system \
 to support consumer fingerprint reader devices."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.94.2"
+PV = "1.94.5"
 
-RPM_NAME = "fprintd-1.94.2-2.5.aarch64.rpm"
-RPM_HASH = "71f18d04bb72b49dbbee1108a8d63820e5860c9bfde79c08c6b93df0e3d2a8d64c4c4d55f0479aed78a0cf5484fb2998550df7bac236d22d0958b9b03baa6158"
+RPM_NAME = "fprintd-1.94.5-1.4.aarch64.rpm"
+RPM_HASH = "8ce9722b5c9e15ce89e446c008fea077e4a371cda4a5c8522eb2c3c5f6a2430b4ad6b4125c11180d736644cd02dff5e1943e379186aacfbe4a9882fc47277aff"
 
 RPROVIDES:${PN} += "config-fprintd \
 fprintd"

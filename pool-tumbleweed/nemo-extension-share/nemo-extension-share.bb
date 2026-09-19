@@ -3,10 +3,10 @@ DESCRIPTION = "Nemo Share allows you to quickly share a folder from the Cinnamon
 Nemo file manager without requiring root access."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.2.0"
+PV = "6.4.0"
 
-RPM_NAME = "nemo-extension-share-5.2.0-4.1.aarch64.rpm"
-RPM_HASH = "b584cec2c00f76f8da94d0f0ded0f02b6c6090898a116d97b0794345f5105c8f2e1449e8a184bca9db62d3230b1a76121055c2ec483f8cf6dbe6d665c8ba54da"
+RPM_NAME = "nemo-extension-share-6.4.0-6.4.aarch64.rpm"
+RPM_HASH = "9bd03d6b3efa0e02ddaabc56195f267f2eec8b7ea1df4e94743ccbf153049aa96ea3c420eafa6f4618957a95ca80c485cccb4cfac0f1a221409a2c724d1b3a48"
 
 RPROVIDES:${PN} += "libnemo-share.so \
 nemo-extension-share \

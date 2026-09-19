@@ -5,10 +5,10 @@ facilities (including Babel-like language switching, which \
 eases porting of LaTeX documents to Lambda)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8svn21933"
+PV = "2026.226.0.0.8svn21933"
 
-RPM_NAME = "texlive-antomega-2023.209.0.0.8svn21933-55.1.noarch.rpm"
-RPM_HASH = "8f1f389dfb4f090c7789d8f7f32d4495769d7a0c1078d8b6c403be2489476e3eba88b4517025d300ba2933b5bf7d85e9c68758483e945e85fc5d925b745f32c9"
+RPM_NAME = "texlive-antomega-2026.226.0.0.8svn21933-61.2.noarch.rpm"
+RPM_HASH = "4d60c9cd7e056bbe6f24b767fc486e8200f9ab53ddcb2bfd9a683b8aedb07ef4c2a72e01087c6ade97463c883980e754439ea309686b7ee3059b90e3a79999fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-antomega.cfg \

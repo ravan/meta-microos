@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0.3"
 
-RPM_NAME = "sha1collisiondetection-1.0.3-4.20.aarch64.rpm"
-RPM_HASH = "28e1c27ea25ddc00b31291ed88a0162d28367124e7d03dfcecc9180fe050bf646657193e85fccd8561c0649f5459780893aff2e054107cf60acfa52ff8cc12cd"
+RPM_NAME = "sha1collisiondetection-1.0.3-5.9.aarch64.rpm"
+RPM_HASH = "6cf561735791e1bcbc536cc006a6be379b9c301672c78b5a9fd6d70c47b59fbe775ec74818bdfd41e5b88f6159a73538948ebcd90b754be1d3c4468e2bc48297"
 
 RPROVIDES:${PN} += "sha1collisiondetection"
 

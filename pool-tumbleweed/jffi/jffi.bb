@@ -2,10 +2,10 @@ SUMMARY = "Java Foreign Function Interface"
 DESCRIPTION = "An optimized Java interface to libffi."
 LICENSE = "Apache-2.0 | LGPL-3.0-or-later"
 
-PV = "1.3.11"
+PV = "1.3.13"
 
-RPM_NAME = "jffi-1.3.11-2.1.aarch64.rpm"
-RPM_HASH = "13c7d0f784def99aa1e8b9a4b96f2a964461f480ae17c620d18d9263d3e74701c5213a22fc8186ccd59b37cd79ac57bf158a499512fd2eca2c9e9a7f749ed91b"
+RPM_NAME = "jffi-1.3.13-3.4.aarch64.rpm"
+RPM_HASH = "d3b33c7931d3aac2035865e6fa604e529d7393185694f013ddd5c74095d7b7965fcb66bb9c865877d7f24ca5e57d4d113d893d413805a3450b36fc2f273e53f1"
 
 RPROVIDES:${PN} += "jffi \
 mvn-com.github.jnr-jffi \

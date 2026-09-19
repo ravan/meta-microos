@@ -2,17 +2,17 @@ SUMMARY = "Support for parsing XML documents"
 DESCRIPTION = "The package provides an implementation of a parser for \
 documents matching the XML 1.0 and XML Namespace \
 Recommendations. In addition to parsing commands are provided \
-to attatch TeX typesetting instructions to the various markup \
-elemenets as they are encounted. Sample files for typesetting a \
-subset of TEI, MathML, are included. Element and Attribute \
+to attach TeX typesetting instructions to the various markup \
+elements as they are encountered. Sample files for typesetting \
+a subset of TEI, MathML, are included. Element and Attribute \
 names, as well as character data, may use any characters \
 allowed in XML, using UTF-8 or a suitable 8-bit encoding."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8svn62145"
+PV = "2026.226.0.0.8svn76924"
 
-RPM_NAME = "texlive-xmltex-2023.209.0.0.8svn62145-53.2.noarch.rpm"
-RPM_HASH = "75805ac664dc13fdc4b0b7ba8772fbaa36f589603c16eae5b75b9139aaaaa275e3d144d9db9c26661aa0a756feacf34bf6b6dccf1bf356c9f19b8511267a9ee9"
+RPM_NAME = "texlive-xmltex-2026.226.0.0.8svn76924-59.4.noarch.rpm"
+RPM_HASH = "e4e4826bec9347ca0a116121687fc7ed9836c2eae1cc1f40c5565b6e40236673495a0bfe3373b90c34d1ba6052643e7f683b1a3db7d9a91cf978f88ee4335a2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xmltex.cfg \
@@ -29,31 +29,26 @@ tex-language.dat \
 tex-language.dat.lua \
 tex-language.def \
 texlive \
-texlive-atbegshi \
-texlive-atveryend \
 texlive-babel \
 texlive-cm \
 texlive-dehyph \
-texlive-everyshi \
 texlive-filesystem \
 texlive-firstaid \
 texlive-hyph-utf8 \
 texlive-hyphen-base \
+texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-l3backend \
 texlive-l3kernel \
-texlive-l3packages \
 texlive-latex \
 texlive-latex-fonts \
-texlive-latexconfig \
 texlive-pdftex \
 texlive-scripts \
 texlive-scripts-bin \
 texlive-tex \
 texlive-tex-ini-files \
 texlive-unicode-data \
-texlive-xmltex-bin \
-texlive-xmltexconfig"
+texlive-xmltex-bin"
 
 inherit rpm

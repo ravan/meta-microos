@@ -2,13 +2,14 @@ SUMMARY = "Javadoc for maven-surefire"
 DESCRIPTION = "Javadoc for maven-surefire."
 LICENSE = "Apache-2.0 & CPL-1.0"
 
-PV = "2.22.0"
+PV = "3.6.0"
 
-RPM_NAME = "maven-surefire-javadoc-2.22.0-8.2.noarch.rpm"
-RPM_HASH = "9b4bfc635760731ed7175963df73ee2032479320ab4d40b8468e5a9b3aedf3e8f43370db3d6f096bed932f16276ac38778aaf1990691bb622e7c0a77d8c292a8"
+RPM_NAME = "maven-surefire-javadoc-3.6.0-1.1.noarch.rpm"
+RPM_HASH = "31258674c39f277133b7472b3edd4148412062a431c1c0efa838a6bebbffc16a737f99ac67d41dbee7416ed67dea8fba744af25820621002672097b693fc072e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "maven-surefire-javadoc"
+RPROVIDES:${PN} += "maven-surefire-javadoc \
+maven-surefire-provider-junit5-javadoc"
 
 RDEPENDS:${PN} += "javapackages-filesystem"
 

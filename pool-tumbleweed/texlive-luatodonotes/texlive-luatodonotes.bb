@@ -8,10 +8,10 @@ package todonotes, and depends heavily on Lua, so it can only \
 be used with LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.5svn53825"
+PV = "2026.226.0.0.5asvn77682"
 
-RPM_NAME = "texlive-luatodonotes-2023.208.0.0.5svn53825-53.1.noarch.rpm"
-RPM_HASH = "38e7cb88c571b7b165769028bb1a2b4f995954b4ff13817e7264dcb9c519f024def805ba3560e1dfc85c31c09624a17a5b5fb09c25e62cb1a88c5472d764447e"
+RPM_NAME = "texlive-luatodonotes-2026.226.0.0.5asvn77682-59.2.noarch.rpm"
+RPM_HASH = "ed58cc9c01aaebf0ed8b8e37ca6d0cf558416aa847f4818ceaf74ebb5e0c04e8d14da4022eab2815aa0d617126c443ab22de6781d220f185716143311d01147a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luatodonotes.sty \

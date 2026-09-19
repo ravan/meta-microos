@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.03"
 
-RPM_NAME = "perl-MooX-Types-MooseLike-Numeric-1.03-1.24.noarch.rpm"
-RPM_HASH = "a47b9d83d4b4a06051a23bea581b85d97a40827d5b8bd139082c94926d6b4afb9b6ac44232b8c0e0a861ad6cc314a7a741236068ab5dd61ca8065fb5b173c68e"
+RPM_NAME = "perl-MooX-Types-MooseLike-Numeric-1.03-1.38.noarch.rpm"
+RPM_HASH = "d3adf1d2eaceb5428fa11987f0accf5dc72c248c8f7f2f1a88b74e673b7fa89412368eabb03a8fcd7cc7b40c6cad2faab74378ece7340314dc93c469369ecc72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooX--Types--MooseLike--Numeric \
 perl-MooX-Types-MooseLike-Numeric"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-MooX--Types--MooseLike"
 
 inherit rpm

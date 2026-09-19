@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "dhtest-1.5-2.12.aarch64.rpm"
-RPM_HASH = "9464689079fc8ba7a37d24b0151e35aa096ec114efba3fe411a34f234bb538bdae53f16bf23c163af209fd9d3d3a743929fe19c66649fe67f0f6133e389cfeec"
+RPM_NAME = "dhtest-1.5-2.23.aarch64.rpm"
+RPM_HASH = "57f121f48ab4cbea6e36dc81df3f404336ac9916be1d98e8e22a9e44e2fcd714b8de84fc45c3f3d1492e3abaf67fa6313c49be2353ac8e1e5d46a4f1e06d7aa6"
 
 RPROVIDES:${PN} += "dhtest"
 

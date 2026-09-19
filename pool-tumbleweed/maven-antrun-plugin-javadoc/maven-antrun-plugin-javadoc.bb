@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-antrun-plugin"
 DESCRIPTION = "This package contains the API documentation for maven-antrun-plugin."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.0"
+PV = "3.2.0"
 
-RPM_NAME = "maven-antrun-plugin-javadoc-3.0.0-1.11.noarch.rpm"
-RPM_HASH = "318431ef4dfb1727fb1aeb0c75a78e7a58cfdea256550c687b3bda3ed787f30e84fe81efe4d8c2d596c7067f593a178b09c82e1eb495b5b914965a427086b57e"
+RPM_NAME = "maven-antrun-plugin-javadoc-3.2.0-1.5.noarch.rpm"
+RPM_HASH = "e4b5c278293f03a0fd43118a4c3f706e05d0f97982a673da6a42d689cac05a39904cc7426fe355bc8e45d70a380a8cd219cc62f0a28a1ac4600f215718418e28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-antrun-plugin-javadoc"

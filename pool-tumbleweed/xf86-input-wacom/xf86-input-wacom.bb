@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.40.0"
 
-RPM_NAME = "xf86-input-wacom-0.40.0-2.8.aarch64.rpm"
-RPM_HASH = "66ac2f1f7db434951a455bb1edaf1155e16077cfecdb9eea8e42d81aec7a166fd4dd8078b711eb74b932143fac077a94a45aa264070c74ce9b53e021f3ea1082"
+RPM_NAME = "xf86-input-wacom-0.40.0-3.9.aarch64.rpm"
+RPM_HASH = "bdf0cf71320f3fb0e37c2c3370c2c27b8b176562b957ef8654a7e4c8adcdc7a0036c19385a876cb610cccfaaad777389767f7b375483936d2813dc68f9bc8a7b"
 
 RPROVIDES:${PN} += "x11-input-wacom \
 x11-input-wacom-tools \

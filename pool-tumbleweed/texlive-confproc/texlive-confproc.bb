@@ -11,10 +11,10 @@ and index of authors. The added value of the class resides in \
 its time-saving aspects when designing conference proceedings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8svn29349"
+PV = "2026.226.0.0.8svn29349"
 
-RPM_NAME = "texlive-confproc-2023.209.0.0.8svn29349-55.1.noarch.rpm"
-RPM_HASH = "2f821b2e69a4c46cbb896f76bb7a83e4b863b24986162b4c975ece727e7ac323f66a81d0e5117715a8be2faa4ccff19acbbd960b905c66b346bd7a60a91adeb1"
+RPM_NAME = "texlive-confproc-2026.226.0.0.8svn29349-61.2.noarch.rpm"
+RPM_HASH = "701bb824909c9f4987eb88cfbfc2f213c4582279f57801232f33e2583bab28973f534e41697292532264c800e64fe562d05af9e514138ec94806b35db7a76cf3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-confproc.cfg \

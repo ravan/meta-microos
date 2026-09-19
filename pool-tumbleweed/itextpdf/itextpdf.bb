@@ -8,10 +8,10 @@ browser dependent; with iText and PDF you can control exactly how your \
 servlet's output will look."
 LICENSE = "AGPL-3.0-only"
 
-PV = "5.5.13.3"
+PV = "5.5.13.4"
 
-RPM_NAME = "itextpdf-5.5.13.3-1.11.noarch.rpm"
-RPM_HASH = "ec50b9b58e15ea84a8426ccbfa78d15758880dcf7c5dbeddae0672444e633558d44dfcd67f59ca1b1339913d94a18d4615d46b7a3820fbab9db91ccead2462f9"
+RPM_NAME = "itextpdf-5.5.13.4-1.4.noarch.rpm"
+RPM_HASH = "4d49daf4259023f8cdeb0f4d79e59de6accb40ffcf714aae46416d82fe6c45855230cb9e203d3bc87c10016f1f946ffbec1d031c80cb6ce76656553c3bd16bbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "itextpdf \

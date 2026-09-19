@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "3.2.26"
 
-RPM_NAME = "glassfishbuild-maven-plugin-3.2.26-2.11.noarch.rpm"
-RPM_HASH = "18827e15b5597be9934453e1c15afb6f0b4615ae25915dc86b31f75d77404af61cdc510a5a6fdc3b8d992cd3b6cc71cc549707c85e5a16192db4fc0218c8f4a4"
+RPM_NAME = "glassfishbuild-maven-plugin-3.2.26-3.10.noarch.rpm"
+RPM_HASH = "d408407937d6b4b55f5c23ce6b1f3cc1f3eb35d831bb1e15f4a043e6f63272518c6b7e7db6338d20b3b3a153d32ecc2614f2253df81f640d0b32e0aa377720cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfishbuild-maven-plugin \

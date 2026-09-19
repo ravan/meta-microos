@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Mongolian l
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-mon-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "8c4e2aded1d07fc75cf8f721a8ccf03d410e4aeadcb8fa416fcfd0b8430945d62b8382838a2c19b47ecf86a5d9728c053d25eb1945ca47ead4aaaac7fef61ce4"
+RPM_NAME = "tesseract-ocr-traineddata-mon-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "d61b03931a7c218f0d37b1cf6f39f468000e40f458389d72533f8b408fd7badfeab740a96410fea359edcefa043fd232e93ee56083f12ddd901de255e63e5816"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-mon \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-mn \
+tesseract-ocr-traineddata-mon \
 tesseract-ocr-traineddata-mongolian \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-mongolian"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

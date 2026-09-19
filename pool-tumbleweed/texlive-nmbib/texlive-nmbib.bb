@@ -6,10 +6,10 @@ the creation of bibliographies, ensures compatibility with the \
 natbib package, and provides other improvements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.04svn37984"
+PV = "2026.226.1.05svn77682"
 
-RPM_NAME = "texlive-nmbib-2023.209.1.04svn37984-55.1.noarch.rpm"
-RPM_HASH = "8188bbe5001c27c6eaf107a70278c8a76faff3566675c2381bc7ee50324aab06345eb20b2068406302eaa2fd290c798668fc782da7114665ce73ed1ecacb56d3"
+RPM_NAME = "texlive-nmbib-2026.226.1.05svn77682-61.2.noarch.rpm"
+RPM_HASH = "45379d0fe14a50e4d3aee5007c84eb791d3db87adf599a2c70cf3dbbb6616c73572f4d527862022202ff7b6247ee047b8e1783cae12518be0f503cbb29ee51ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nmbib.sty \

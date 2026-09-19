@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.04"
 
-RPM_NAME = "perl-DBIx-Class-DynamicDefault-0.04-2.21.noarch.rpm"
-RPM_HASH = "75086ac9accd34eed9da33c986abfb832c9b18354c26df8c43c3ac6b5390a873550efb3fdfec94618fa96f8bc83932e14eac734e59aa82760d89cc014f9e2426"
+RPM_NAME = "perl-DBIx-Class-DynamicDefault-0.04-2.35.noarch.rpm"
+RPM_HASH = "775391736970ba5f23436864e2c3d4eb72f218a95c575c72f0c55645d9d4e3d324ba4106371fde82adee14fd179ae414d39528a032da75bba49e93618f984794"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--DynamicDefault \
 perl-DBIx-Class-DynamicDefault"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBIx--Class"
 
 inherit rpm

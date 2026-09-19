@@ -2,10 +2,10 @@ SUMMARY = "Additional Package Documentation"
 DESCRIPTION = "This package contains optional documentation provided in addition to this package's base documentation."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.31.0"
+PV = "1.32.1"
 
-RPM_NAME = "mednafen-doc-1.31.0-1.5.noarch.rpm"
-RPM_HASH = "5ed2ca6288499b35928548ddead9ab1671cc63044448fe4bb8983aff4563465d41a787a82f944cfc03abbfeb593ff6d356cf8779dff7e2886eb2d7d9546a2682"
+RPM_NAME = "mednafen-doc-1.32.1-1.12.noarch.rpm"
+RPM_HASH = "4e05c95dd8487fade565a3ed97998231b18faebfcb067053beda749f55f58214e937c297a343cfea1370384595bd9d2a3024972125e7002f2c35611d2ef13152"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mednafen-doc"

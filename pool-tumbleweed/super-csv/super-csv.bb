@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "super-csv-2.4.0-5.1.noarch.rpm"
-RPM_HASH = "164e487703687aaa64b13050bf75fbcc7b3f4ca81ec197edbb1275b29164aa7633ba4c4d052c1b06a9eeeb7a06b4229df80e28c5fee033d4deaac4dd5187dcce"
+RPM_NAME = "super-csv-2.4.0-7.10.noarch.rpm"
+RPM_HASH = "033e042d8720d2e8866ecae48be88a7a0a7b409a001d3491bb0e6bd51cf2d0b1851e846895b67c22578b9740d6a53c07bd514b8f99738bcdbe61b237e801c38b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-net.sf.supercsv-super-csv \

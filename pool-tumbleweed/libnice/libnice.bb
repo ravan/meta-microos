@@ -3,10 +3,10 @@ DESCRIPTION = "libnice is an implementation of the IETF's draft Interactive \
 Connectivity Establishment standard (ICE)."
 LICENSE = "LGPL-2.1-only | MPL-1.1"
 
-PV = "0.1.21"
+PV = "0.1.23"
 
-RPM_NAME = "libnice-0.1.21-3.1.aarch64.rpm"
-RPM_HASH = "05e0792f48c9899f17e31ca67e8bd1b2506735378e5c7c8ccc2c2c330635d7135178d108c21fc594015d0d231dc24d4df0e7dc1bfe6cac8b477b4a502b8c3fa9"
+RPM_NAME = "libnice-0.1.23-2.3.aarch64.rpm"
+RPM_HASH = "70a24a1e0169f29c2b1b19b7351860db2925c883ea96cdc8fd4001936145971def6899954e9fe3f931cb214912e004c2f02ca260f79bc3b315c0e38633f0b93b"
 
 RPROVIDES:${PN} += "libnice"
 

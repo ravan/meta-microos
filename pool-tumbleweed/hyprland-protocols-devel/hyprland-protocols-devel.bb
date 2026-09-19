@@ -1,11 +1,13 @@
-SUMMARY = "Development files for Hyprland protocols"
-DESCRIPTION = "Wayland protocol extensions for interacting or modifying Hyprland."
-LICENSE = "MIT"
+SUMMARY = "Wayland extension protocol for Hyprland"
+DESCRIPTION = "This provides additional extensions of the Wayland protocol for Hyprland. \
+ \
+Development files for hyprland-protocols."
+LICENSE = "BSD-3-Clause"
 
-PV = "0.2"
+PV = "0.7.0"
 
-RPM_NAME = "hyprland-protocols-devel-0.2-5.1.noarch.rpm"
-RPM_HASH = "a72f0f62b581ad79161c1090a20d4dc4ea83484dcf9cbfb4e45308319d7dffc78cbf11557723452bd3e320891b7364240a618022ad9548aaa10c48c2491c4e38"
+RPM_NAME = "hyprland-protocols-devel-0.7.0-1.1.noarch.rpm"
+RPM_HASH = "4c9ada706190aadb98189ed50f15a68b66e3231b2860db6a93e02ab2e134570e141b3787c022b772df764f4ed98d8f59899c27a8e398cfa7d4635215124cdccd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hyprland-protocols-devel \

@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "2.86"
 
-RPM_NAME = "perl-razor-agents-2.86-1.6.aarch64.rpm"
-RPM_HASH = "61472ab5fbef7eef3a4fd65e5057ae4329798d48bca188eaf7e58e21324b4fef0f995468e37907c5acf2a48ee8be1b40172ea1768a3567537457c6624076e144"
+RPM_NAME = "perl-razor-agents-2.86-1.23.aarch64.rpm"
+RPM_HASH = "dab6c29106967538fb18c891c6d6922a4e07b4ba007aa90d1a94ee21753d99b6a3b95374ff2326a5d355f23a9d460ed86037af1b5cb103ca1f7e13fb69d89800"
 
 RPROVIDES:${PN} += "perl-Razor2--Client--Agent \
 perl-Razor2--Client--Config \

@@ -1,11 +1,11 @@
 SUMMARY = "Crux Theme for GTK+ 2"
 DESCRIPTION = "This package provides the Crux GTK+ 2 theme."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-theme-crux-2.20.2-19.43.noarch.rpm"
-RPM_HASH = "5ca3a430dde30e4867cf03838e0adbaf048ec21b059c69288a4f11662ffa50908381940e06f53509a5b3d8bc69b06cc88c53f4729343bbad4f472b03f71cbe90"
+RPM_NAME = "gtk2-theme-crux-2.20.2-23.6.noarch.rpm"
+RPM_HASH = "317cc635512fa3a33cc239f8f03ffd0414907fcfea75305b260f9a65a711baa2fa6fdda57b7588a656138874ed0196a6d19475f55bd6bb0684f1b76e0526d597"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-crux"

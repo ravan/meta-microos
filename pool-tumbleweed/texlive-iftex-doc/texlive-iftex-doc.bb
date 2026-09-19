@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-iftex"
 DESCRIPTION = "This package includes the documentation for texlive-iftex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0fsvn61910"
+PV = "2026.226.1.0gsvn77682"
 
-RPM_NAME = "texlive-iftex-doc-2023.209.1.0fsvn61910-54.1.noarch.rpm"
-RPM_HASH = "96a099ed694cc0239c8dcc839d761eb4c830612fc5794696563906b8ef4740491e5a87473533c18592f84408ac44477aae7c4646ff48f4d1d377d926792ac5b9"
+RPM_NAME = "texlive-iftex-doc-2026.226.1.0gsvn77682-60.2.noarch.rpm"
+RPM_HASH = "0b2845200348ca89495fbcead2e936a18ee23baf80690ef10baa7a6a148155f7542c9e12f127d552d0cf0345a76fe8b8f8c31ebdd6f84306f7176b8eae318d04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-iftex-doc"

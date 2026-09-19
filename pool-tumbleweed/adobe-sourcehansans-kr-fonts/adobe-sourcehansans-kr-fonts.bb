@@ -1,11 +1,11 @@
-SUMMARY = "Source Han Sans KR"
-DESCRIPTION = "Source Han Sans is an open source Pan-CJK typeface whose OpenType/CFF fonts and CID-based sources are covered under the terms of the SIL Open Font License."
+SUMMARY = "Source Han Sans variation for Korean"
+DESCRIPTION = "Source Han Sans is a pan-CJK typeface in OpenType/CFF and CID forms."
 LICENSE = "OFL-1.1"
 
-PV = "2.004"
+PV = "2.005"
 
-RPM_NAME = "adobe-sourcehansans-kr-fonts-2.004-1.6.noarch.rpm"
-RPM_HASH = "80cd34ce49bf52357fd22794c80d361028a0040791497a85cdde079c637464cb3b627cb0329bf665cf8f366b3c1106a56d4d8b9aa53a7bbd8f71c7bbd3761389"
+RPM_NAME = "adobe-sourcehansans-kr-fonts-2.005-1.3.noarch.rpm"
+RPM_HASH = "be87d76fe5c6dca81a76fb21508771756596befe8735e9153e6f07f0dc025e1d3d516bbd2e30dcbedb4c6adcd9281da7e79bbf353d8fc88a02670c4e4211259a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourcehansans-kr-fonts \

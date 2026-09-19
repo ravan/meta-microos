@@ -5,10 +5,10 @@ architecture. The syscall interface is intercepted and execution below the \
 syscall layer occurs on the native hardware and operating system."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-linux-user-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "7ac84a467607fb01dfb153a6e50e12e6b08001dfac4f5a4cf993f95e968434ecedca97bc56a57bdfb474f1684eaf604861c7f1d51b632b90e8efbae7f935e82f"
+RPM_NAME = "qemu-linux-user-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "ffdb48df84e714ebfe76f070e2fc3f683f0601e53efa3dd1eb0d25aaa178d86ba2925aa55b058a85f6b5655db6c91fd569dec96a50399ae19e752f6f49c60d75"
 
 RPROVIDES:${PN} += "qemu-linux-user"
 

@@ -2,10 +2,10 @@ SUMMARY = "Development files for yambar"
 DESCRIPTION = "Modules for interacting and modifying yambar."
 LICENSE = "MIT"
 
-PV = "1.10.0"
+PV = "1.11.0"
 
-RPM_NAME = "yambar-devel-1.10.0-1.1.noarch.rpm"
-RPM_HASH = "63c33792f988664f7a9e12035575c3cccc92f02bcb9b35942cd09106a934169f58ab35a49bb7127f5101c04ce37fcd357ba43d25049627a5144712b3cce9c2d2"
+RPM_NAME = "yambar-devel-1.11.0-3.2.noarch.rpm"
+RPM_HASH = "6c3963d7d768c0a4f2fcf8ed67cbd7cbf2e46eee366377514ef06dc1d4926f70292345ff41e2e8b57acb5c7b983f616bd6c6842b49685f6dc1c0c841bbf339bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yambar-devel"

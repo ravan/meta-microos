@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "1.2"
 
-RPM_NAME = "monitoring-plugins-clamav-1.2-1.16.noarch.rpm"
-RPM_HASH = "74f9e4e15e606ffb41b7ca83d56921a98abbeba915a1d1d14cc1f111948ca1adb3e167ea2fe1a51aa53f862e12a5d744b0db7be77be9a1c6adef6f3fd9ae5c9a"
+RPM_NAME = "monitoring-plugins-clamav-1.2-1.25.noarch.rpm"
+RPM_HASH = "b06225a68367927c3729dffe510fac32a60b1702a6626fd7a1f289979c64f422299e2c326d11e2a0a5a0fc8691513b1ead06ea6dace61d126c6011dc2c248bfa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-clamav \

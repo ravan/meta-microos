@@ -27,15 +27,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.446"
 
-RPM_NAME = "perl-Alien-SDL-1.446-4.13.aarch64.rpm"
-RPM_HASH = "567040dd8be7e8de675e86df6243a37065f51a52ddabcb08f4a6ee48d75d2588e028fffa0211c03671775fc4437091f6e3d81e9ac23ed47a2a1788daee690157"
+RPM_NAME = "perl-Alien-SDL-1.446-5.12.aarch64.rpm"
+RPM_HASH = "c0be1bbc2f2d67c35b0188b7cdc39ac202cbf8638296d9236d820dd3c05c978ed3aa01d04d303a2dfce22845d18cccdb5cce603f2b8b5d806c88b5f26b60a724"
 
 RPROVIDES:${PN} += "perl-Alien--SDL \
 perl-Alien--SDL--ConfigData \
 perl-Alien-SDL"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Capture--Tiny \
 perl-ExtUtils--CBuilder \
 perl-File--ShareDir \

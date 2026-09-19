@@ -5,10 +5,10 @@ components of a desktop. \
 This package contains development files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.1"
 
-RPM_NAME = "gsettings-desktop-schemas-devel-44.0-1.1.aarch64.rpm"
-RPM_HASH = "114802a2bf9e6d49281b8e224099763f3489f42899e47cb42aad3555df2f16c0bcf200d1f80428768cb87fd8b74d81f9e1371e62b0efa3772e6cb8cb40df9063"
+RPM_NAME = "gsettings-desktop-schemas-devel-50.1-1.2.aarch64.rpm"
+RPM_HASH = "1fcf4f280e756d2546255aecbfdeb8cb4913f06696545c0e012de6da5e89565fa8f81342edd2cd704113a8efb6013bc7524c7576d000bc043cbecc98a57c727c"
 
 RPROVIDES:${PN} += "gsettings-desktop-schemas-devel \
 pkgconfig-gsettings-desktop-schemas"

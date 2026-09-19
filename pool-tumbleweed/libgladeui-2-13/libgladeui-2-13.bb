@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.40.0"
 
-RPM_NAME = "libgladeui-2-13-3.40.0-2.4.aarch64.rpm"
-RPM_HASH = "71367d4abcdd302133fb76edcc7c420c46aedae9302cbd53b9aafd7e916de9d0d7b00d550bfb076fd0bd8fb01468b49c5ecf7ce10ffdfa3e86b5c41e06c35fb4"
+RPM_NAME = "libgladeui-2-13-3.40.0-4.11.aarch64.rpm"
+RPM_HASH = "eb72b93fa985e0c0e5bf24a4dcd306dff772606a690bb41d15aba4e2298975e37c66a7c0a483b063f3d0eda5140b47a445b66c392251efb33feb796f3f910357"
 
 RPROVIDES:${PN} += "libgladeui-2-13 \
 libgladeui-2.so.13"
@@ -25,6 +25,6 @@ libgtk-3.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

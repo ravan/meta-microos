@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cjhebrew"
 DESCRIPTION = "This package includes the documentation for texlive-cjhebrew"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2asvn43444"
+PV = "2026.226.0.0.2asvn43444"
 
-RPM_NAME = "texlive-cjhebrew-doc-2023.209.0.0.2asvn43444-54.1.noarch.rpm"
-RPM_HASH = "fc921195dd38b0be0b5c5f4a8d9da80e2f96abc8b6a05521492c908af37012e224b58ea6cc34093bc5975c813686aeceb29ad413536656f8c7f8c6920137a20c"
+RPM_NAME = "texlive-cjhebrew-doc-2026.226.0.0.2asvn43444-60.2.noarch.rpm"
+RPM_HASH = "3f2cea22d7e3ffb249a95b5f075443c0ce5491d42beb3296f166549511fde195fa0fa0b136f2a368c1dc3e9c5644a094b62d433277244f7bc95c483542709144"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cjhebrew-doc"

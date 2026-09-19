@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfcrypto."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221229"
+PV = "20260521"
 
-RPM_NAME = "libfcrypto-devel-20221229-1.3.aarch64.rpm"
-RPM_HASH = "5f373e30c8580d0277d8b3b2af5c73b378c1c56a0a645764b03f1a73480c43c221c9dc52edf5df81b41101bcd864fb62c13bb13a884ad4ea35c77868e0b7a945"
+RPM_NAME = "libfcrypto-devel-20260521-1.6.aarch64.rpm"
+RPM_HASH = "9613e3c1e568df5f65cb431d788da0ba1c9b95f5669e0d044bb06d970e047e53b6d14945d66b6b2c329647e2c19bb8a73fade2aac6eca3ab9e7ad0df420662a8"
 
 RPROVIDES:${PN} += "libfcrypto-devel \
 pkgconfig-libfcrypto"

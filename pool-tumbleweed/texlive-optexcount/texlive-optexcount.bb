@@ -8,15 +8,15 @@ with highlighted words using several colors,so they see what is \
 considered as word, header etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn59817"
+PV = "2026.226.1.1svn59817"
 
-RPM_NAME = "texlive-optexcount-2023.209.1.1svn59817-55.1.noarch.rpm"
-RPM_HASH = "d1b81746485cac2df654d43655d71ec82386af20e0960123d4da8783b0cf5c61d525522d7db7ee44adeef1b0bc399da815010c183f86eb2f7df206dc5aafd2ca"
+RPM_NAME = "texlive-optexcount-2026.226.1.1svn59817-61.2.noarch.rpm"
+RPM_HASH = "14a646a8060271cd3e60100bdf29bd3da2adc5aedbe586c1d95f1076c834fe3e6f3a352e186a77dd2a62074f831e9fdb914cba1ad5f2598c0b6864ec82f46b24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-optexcount"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ed \

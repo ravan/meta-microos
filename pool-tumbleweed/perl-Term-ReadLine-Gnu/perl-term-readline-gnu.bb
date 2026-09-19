@@ -10,10 +10,10 @@ This package also has the interface with the almost all functions and \
 variables which are documented in the GNU Readline/History Library Manual."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.46"
+PV = "1.470.0"
 
-RPM_NAME = "perl-Term-ReadLine-Gnu-1.46-1.2.aarch64.rpm"
-RPM_HASH = "4f7ccfec14a8aa54c9e1f45a0e88b7de850d2cdbcc4c1adb29d9c83e4fe47f927a3b113161cc0f271f217cf3acd370062820f051a7f59a482c97000704da4cc5"
+RPM_NAME = "perl-Term-ReadLine-Gnu-1.470.0-1.7.aarch64.rpm"
+RPM_HASH = "5097029ef6acd22bb46c73e35282688f8383234a96ad483fa4d3955c048f863bb681dab7fbdeff9c91038fc72113824a175f2764b3aaec0d0a25469f0be2d1e5"
 
 RPROVIDES:${PN} += "perl-Term--ReadLine--Gnu \
 perl-Term--ReadLine--Gnu--AU \
@@ -22,11 +22,11 @@ perl-Term--ReadLine--Gnu--XS \
 perl-Term-ReadLine-Gnu \
 perl-TermReadLine-Gnu"
 
-RDEPENDS:${PN} += "/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libreadline.so.8 \
 libtinfo.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

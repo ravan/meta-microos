@@ -11,10 +11,10 @@ tricky aspects of the speech subsystem. \
 This package contains the espeak module."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.11.5"
+PV = "0.12.1"
 
-RPM_NAME = "speech-dispatcher-module-espeak-0.11.5-1.1.aarch64.rpm"
-RPM_HASH = "f3b7b7ad1d0f0c84c691829b53f922430093904ff17403c5a252d3d88c5ce8f2468ee0cd4c004ac8e92e7228585a246cdc8366fbaddb06bc4ead7ca343edfe03"
+RPM_NAME = "speech-dispatcher-module-espeak-0.12.1-1.6.aarch64.rpm"
+RPM_HASH = "2faaaad85c303773e76fd60dca1c7f63db7fde3b92b70e8f5c080fb6b7dcc796fba4f8a79fa1d5f6d76a7447dd1b94d2916dee0646f68b1c9ac450563013d9e2"
 
 RPROVIDES:${PN} += "config-speech-dispatcher-module-espeak \
 speech-dispatcher-module-espeak"
@@ -25,6 +25,7 @@ libdotconf.so.0 \
 libespeak-ng.so.1 \
 libglib-2.0.so.0 \
 libltdl.so.7 \
+libspeechd-module.so.0 \
 speech-dispatcher"
 
 inherit rpm

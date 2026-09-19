@@ -5,10 +5,10 @@ system indicators. \
 This package contains shared libraries."
 LICENSE = "GPL-3.0-only & LGPL-3.0-only & LGPL-2.1-only"
 
-PV = "0.9.2"
+PV = "0.10.4"
 
-RPM_NAME = "libayatana-ido3-0_4-0-0.9.2-1.5.aarch64.rpm"
-RPM_HASH = "ab250aebd7a2bf2465d0e401a2fc14e9ce8283e150b3a14241dfccbd2906b31a0f9a75cc9cbca918c7696662e463efebde6052f7ac6e0dabc4f855689e5ca9cc"
+RPM_NAME = "libayatana-ido3-0_4-0-0.10.4-1.6.aarch64.rpm"
+RPM_HASH = "eaafc25c8a82668fe325d2a9ab7bed6ddc4a4280c8af6fbdf53aad0dd16c94632ce22f0d9094f145067fe63ff3b3dfc53ce188d55adc6cfe21357f07296b78b4"
 
 RPROVIDES:${PN} += "libayatana-ido3-0-4-0 \
 libayatana-ido3-0.4.so.0"

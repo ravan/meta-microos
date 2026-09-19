@@ -7,10 +7,10 @@ by the editorial office. Articles in EMISA are published online \
 at EMISA in the Portable Document Format (PDF)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3.0svn60068"
+PV = "2026.226.2.3.0svn71883"
 
-RPM_NAME = "texlive-emisa-2023.209.2.3.0svn60068-54.2.noarch.rpm"
-RPM_HASH = "9a338cd69afbc4b5e1f92cfe473d31705c4e2d9e28ad63744df6250b46562dc918ae67508cf3d6f1cc06aae256d263b1a62cb6e458a183eeec2a0a8735dd436b"
+RPM_NAME = "texlive-emisa-2026.226.2.3.0svn71883-61.4.noarch.rpm"
+RPM_HASH = "3f06eca5f48a63281aea65699a4e95b8659a6bcd194177482f0672d7d7149adf0c2167ebdf90b6da0f2c8f7b754062590e90d1c1ca6799f7ba169a38d24609cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emisa.bbx \

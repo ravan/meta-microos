@@ -7,10 +7,10 @@ This package contains the Iosevka SS06 typeface (monospace, Liberation Mono \
 style)."
 LICENSE = "OFL-1.1"
 
-PV = "26.1.0"
+PV = "34.8.1"
 
-RPM_NAME = "iosevka-ss06-fonts-26.1.0-1.1.noarch.rpm"
-RPM_HASH = "449deb9498cf8d579a59f78ec9c28ea03a674baaca5756814176a5409c6df1d89541261bb371962a6fdf8cb5519c1b544e907349ae91b3a94b4905f69ddb7b26"
+RPM_NAME = "iosevka-ss06-fonts-34.8.1-1.1.noarch.rpm"
+RPM_HASH = "e2478a79a4397ceea061d4423be973bc398d41d1ee6c38bc9bdc3962dfeeca946c61a595b3d0b93982d381112fc6453530853c7fc316f52268bdcfd035f64326"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss06-fonts"

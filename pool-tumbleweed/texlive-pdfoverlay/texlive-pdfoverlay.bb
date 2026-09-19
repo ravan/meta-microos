@@ -1,5 +1,5 @@
 SUMMARY = "A LaTeX style for overlaying text on a PDF"
-DESCRIPTION = "It is often desirable to take an exisiting PDF and easily add \
+DESCRIPTION = "It is often desirable to take an existing PDF and easily add \
 annotations or text overlaying the PDF. This might arise if you \
 wish to add comments to a PDF, fill in a PDF form, or add text \
 to a PDF where space has been left for notes. This package \
@@ -14,10 +14,10 @@ possible to use any standard method to position text at \
 arbitrary places on a given page."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn64210"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-pdfoverlay-2023.209.1.3svn64210-52.1.noarch.rpm"
-RPM_HASH = "befa929c21ae68fe1f7aa44dad7c1b177979c0a4913621eef789a89f390e94fa0b3fecc236d6384dc58d6f8a6a4003301e2e4b42923d6a5cdd219eefd09e9336"
+RPM_NAME = "texlive-pdfoverlay-2026.226.1.3svn77682-58.2.noarch.rpm"
+RPM_HASH = "5bd504abaa6bd363d6eb56e7dc7a84cda383063af338167161329ee995fda19bd60ffee3fcb8ac48f3c48486809b471b00404f99549d2aae840c7dacf3ab185f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfoverlay.sty \

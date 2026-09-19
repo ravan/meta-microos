@@ -7,10 +7,10 @@ functionality is modeled on public standards, in particular 3GPP TS \
 27.007 'AT command set for User Equipment (UE)'."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.34"
+PV = "2.19"
 
-RPM_NAME = "ofono-1.34-1.8.aarch64.rpm"
-RPM_HASH = "ac947f5c2f22b396b5019f7f640e824dadcf087e58199f71a22bd163c6a21ccd74934ce40e86d8de049cfacd31159de73bb27b4d50a8cfb5053443b302270703"
+RPM_NAME = "ofono-2.19-3.3.aarch64.rpm"
+RPM_HASH = "63d57f5b64377b7c6eb467085b0461976fc2554c29a5ca654c8edb55adbc84e58fb4391628ececf79c18f54902d52ab51946d499ad9de80dc01de84ca14e11be"
 
 RPROVIDES:${PN} += "config-ofono \
 ofono"

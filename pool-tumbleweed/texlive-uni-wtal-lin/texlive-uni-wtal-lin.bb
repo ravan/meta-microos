@@ -5,10 +5,10 @@ linguistic studies at the Institute of Linguistics at the \
 Bergische Universitat Wuppertal."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn31409"
+PV = "2026.226.0.0.2svn31409"
 
-RPM_NAME = "texlive-uni-wtal-lin-2023.209.0.0.2svn31409-54.1.noarch.rpm"
-RPM_HASH = "a3def3f1cc0b1daaddc6d7ead1b8f61083eef58355e0fa30e0bae1300dbe9f0c0ce26d61c399fcc46b50b8da33652411a04556878a265a9332d6d7912bdc6159"
+RPM_NAME = "texlive-uni-wtal-lin-2026.226.0.0.2svn31409-60.2.noarch.rpm"
+RPM_HASH = "bb88bd5c79af3cdb2feb9bfad45344da6aa43c1f5fda711a272f653463171717b838d869dfd14fab616dc2204bef5ca52755ada355f076c6b5a22761b01ead78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uni-wtal-lin.bbx \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.10"
 
-RPM_NAME = "typelib-1_0-GtkSpell-3_0-3.0.10-3.9.aarch64.rpm"
-RPM_HASH = "4e5fbfb896b03d3fdff0036c8d1622054587b6bf1d31bf93d4e7bf4441000bd669ba05c96acc17fd08b9500df01254b0c80d4be5274874a8a7018895ce508ecb"
+RPM_NAME = "typelib-1_0-GtkSpell-3_0-3.0.10-3.19.aarch64.rpm"
+RPM_HASH = "467177d46a24be188a8487cff92f0a419770819eeacd3099de436f317f97842b263c95bcb32381c6ed9dff288b95ad780e50085ea868cabc45a751d188e0e418"
 
 RPROVIDES:${PN} += "typelib-1-0-GtkSpell-3-0 \
 typelib-GtkSpell"

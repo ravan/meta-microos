@@ -3,20 +3,20 @@ DESCRIPTION = "A player for playing SID music modules originally created on the 
 and compatibles."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.0"
+PV = "3.2.0"
 
-RPM_NAME = "sidplayfp-2.5.0-1.1.aarch64.rpm"
-RPM_HASH = "8ec9a749d63dc7b44cb353898a9a9b2413b00909649d5e92964e31114868de868708c01ef0ecf61476f39084fd90b3c4e7a8a14e268fb6ec3f59b808dbbfb84f"
+RPM_NAME = "sidplayfp-3.2.0-1.1.aarch64.rpm"
+RPM_HASH = "d29080a878af17293d0fb72f954d87b8c77fccf9fe3e62b91864cb571ca01b02fe8307986cd0baa4fadaab94b033ecc4ba7f21cdf0ae40b26a8da55c4de59f86"
 
-RPROVIDES:${PN} += "sidplayfp"
+RPROVIDES:${PN} += "bundled-ghc-filesystem \
+bundled-miniaudio \
+sidplayfp"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libasound.so.2 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpulse-simple.so.0 \
-libpulse.so.0 \
-libsidplayfp.so.6 \
+libm.so.6 \
+libsidplayfp.so.7 \
 libstdc++.so.6 \
 libstilview.so.0"
 

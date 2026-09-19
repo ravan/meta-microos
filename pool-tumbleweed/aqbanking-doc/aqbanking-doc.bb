@@ -6,10 +6,10 @@ console) to be used. \
 This package contains a handbook."
 LICENSE = "SUSE-Free-Art-1.3"
 
-PV = "6.5.4"
+PV = "6.9.2"
 
-RPM_NAME = "aqbanking-doc-6.5.4-1.1.aarch64.rpm"
-RPM_HASH = "951c0265d39a59886b5b1e359ae41efc7003c941c7b2697c6e5985cb1dbe2b110b2fe6b2ecadbbee1e8604990a901a52420089ce8f4647a137166e28cf7f7732"
+RPM_NAME = "aqbanking-doc-6.9.2-1.2.aarch64.rpm"
+RPM_HASH = "d42cb135d7a0d912bc0c746ca95658ffae373d6bf4402f075474278f9dffab2e65c54becbfff81a427eda24f65880348697708d8da20062eef36b5d10ac321fb"
 
 RPROVIDES:${PN} += "aqbanking-doc"
 

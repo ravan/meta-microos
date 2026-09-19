@@ -3,10 +3,10 @@ DESCRIPTION = "tuxpaint-stamps-household package contains a set of 'Rubber Stamp
 which can be used with the 'Stamp' tool within Tux Paint."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2021.11.25"
+PV = "2023.07.20"
 
-RPM_NAME = "tuxpaint-stamps-household-2021.11.25-1.5.noarch.rpm"
-RPM_HASH = "90ce0a57883422f8880ebf442053e1d60858c9f1c80c4f9d75456fb3f12ce32a525480068d200d2d8569cd52f7416f84348fef08cf2742bc9b5a9cae1eda5d50"
+RPM_NAME = "tuxpaint-stamps-household-2023.07.20-1.9.noarch.rpm"
+RPM_HASH = "e7df428ca31ce49a337d3d946376459ac500e83b36c9a9035acb721f7207b4fa7449ce02c4d14492bc00e222ba9024fb65d2aa7d99e8d9c1c00fa4690142e1da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-stamps-category \

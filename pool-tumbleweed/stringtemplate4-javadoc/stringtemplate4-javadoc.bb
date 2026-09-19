@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for stringtemplate4"
 DESCRIPTION = "This package contains javadoc for stringtemplate4."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.3"
+PV = "4.3.3"
 
-RPM_NAME = "stringtemplate4-javadoc-4.3-2.11.noarch.rpm"
-RPM_HASH = "1918c8aff918dc73681cf0a8b71b6c40202bff28515cb8774d7d1f98e83aec1c239f6d5b0fee445fac53a09c5d280dbbe082b0ab8b28896057124fbd5639388e"
+RPM_NAME = "stringtemplate4-javadoc-4.3.3-3.6.noarch.rpm"
+RPM_HASH = "3725a9b1f74af49c2cda6191b36cf1f85fe84c3e7aa53e67137d65fc25816f83d029bd982b2488362c5a503b6c626ef39bb49dc648985d46728cf3d073b0fb43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stringtemplate4-javadoc"

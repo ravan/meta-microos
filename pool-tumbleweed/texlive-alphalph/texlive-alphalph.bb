@@ -6,10 +6,10 @@ to ba, 702 to zz, 703 to aaa, etc.). Can be used as a \
 replacement for LaTeX's \\@alph and \\@Alph macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.6svn53087"
+PV = "2026.226.2.6svn77682"
 
-RPM_NAME = "texlive-alphalph-2023.209.2.6svn53087-55.1.noarch.rpm"
-RPM_HASH = "046c530102b1aacc6fd20932d80261bae5cc09a9e7ee03495f3e8c16c71a74d9a89f6daf536099b2f15680a5f407874090727f798cc37d423748c2cb7468c936"
+RPM_NAME = "texlive-alphalph-2026.226.2.6svn77682-61.2.noarch.rpm"
+RPM_HASH = "cd350e3464fd8d5212a543b58103c246db90d5242be753d66d8059a9c041bc3dc7aeb0777f1c337988b6cd8b92ce6681616d607bef03224a32dec9fcd42189db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alphalph.sty \

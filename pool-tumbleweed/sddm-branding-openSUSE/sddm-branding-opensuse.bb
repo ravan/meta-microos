@@ -1,18 +1,17 @@
-SUMMARY = "openSUSE branding for SDDM"
+SUMMARY = "openSUSE branding for SDDM (Qt5)"
 DESCRIPTION = "This package provides the openSUSE branding for SDDM."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.20.0"
+PV = "0.21.0+git57"
 
-RPM_NAME = "sddm-branding-openSUSE-0.20.0-2.1.aarch64.rpm"
-RPM_HASH = "01372ce9e3868f77db77191c1334d4fc81f249265956cab5c507c9de122363117f5e4d0d78539b7711d35fc1199a84254b11bfbc35a8041f85a30e603457712f"
+RPM_NAME = "sddm-branding-openSUSE-0.21.0+git57-1.1.noarch.rpm"
+RPM_HASH = "36787382178b31fb595fafae825475b9d8e356d7f44af9af1953a666a5425998192de865b39bc7e55417d7c0f95bc3ffe339076daf62fe88a025e94ec45e3a46"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sddm-branding \
 sddm-branding-openSUSE"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-diffutils \
-kwin5 \
+RDEPENDS:${PN} += "kwin5 \
 sddm \
 sddm-theme-openSUSE"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.4"
 
-RPM_NAME = "octave-forge-lssa-0.1.4-1.13.aarch64.rpm"
-RPM_HASH = "d7d47fceca64d3c687bc9996625ae8377cfa0b27a5f30658e2c0a9ecd37a5ac0c3982a11a2b6f12c9bee5819e4c2efddc30f218add3fdeeb04e1d47556fef3c8"
+RPM_NAME = "octave-forge-lssa-0.1.4-1.23.aarch64.rpm"
+RPM_HASH = "348e7dffcff7abce41c6c98ccdfd0caf226d7ff9a55db35658ff379ad3b67237c969911caf4a6f7a9a319a3698a1a4eee2660e7973028a169f4250b1251acdfb"
 
 RPROVIDES:${PN} += "octave-forge-lssa"
 
@@ -18,6 +18,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
+octave-api-v61 \
 octave-cli"
 
 inherit rpm

@@ -7,10 +7,10 @@ the global Fast Spherical Harmonic transform. \
 This package provides the shared library for the C bindings of healpix."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.81"
+PV = "3.83"
 
-RPM_NAME = "libchealpix0-3.81-1.8.aarch64.rpm"
-RPM_HASH = "f2f73786afb1038482de0e882a81c67ad92384900592f2062106146c69d08a9c7596c5a99f7edd899e25d0f3e0c2eec88d686f948f042679b51bd2defc46e0bd"
+RPM_NAME = "libchealpix0-3.83-1.9.aarch64.rpm"
+RPM_HASH = "dffac0056fee017940e6abed22ed10d97fac4f41b6169e4e0ee1e37f65928de82c32d55ce79eac98a33d6f818a606a6bc92853b756bc304e853f7bf607e84db1"
 
 RPROVIDES:${PN} += "libchealpix.so.0 \
 libchealpix0"

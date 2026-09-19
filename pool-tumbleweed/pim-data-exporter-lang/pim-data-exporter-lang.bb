@@ -2,13 +2,14 @@ SUMMARY = "Translations for package pim-data-exporter"
 DESCRIPTION = "Provides translations for the 'pim-data-exporter' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "pim-data-exporter-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "17426c35a944e384f8440d233b76e6a305a4c6284d95dc64927ea8566664dbdf95b885cdcc1c681c0d7e5fa5d01fbe7ba27e815731edb5f58da078ca27884f79"
+RPM_NAME = "pim-data-exporter-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "da2f855cc79aedf299cbb573f3b922f96c8daadff0bda7578c40cdccacc2ad0eae27bfebce76f395c2dfab2baa0f5cbd551d75ebf6770034f0945fa125d34534"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pim-data-exporter-ar \
+locale-pim-data-exporter-ast \
 locale-pim-data-exporter-az \
 locale-pim-data-exporter-bg \
 locale-pim-data-exporter-bs \
@@ -27,6 +28,8 @@ locale-pim-data-exporter-fi \
 locale-pim-data-exporter-fr \
 locale-pim-data-exporter-ga \
 locale-pim-data-exporter-gl \
+locale-pim-data-exporter-he \
+locale-pim-data-exporter-hi \
 locale-pim-data-exporter-hu \
 locale-pim-data-exporter-ia \
 locale-pim-data-exporter-it \
@@ -53,6 +56,7 @@ locale-pim-data-exporter-sr@ijekavian \
 locale-pim-data-exporter-sr@ijekavianlatin \
 locale-pim-data-exporter-sr@latin \
 locale-pim-data-exporter-sv \
+locale-pim-data-exporter-ta \
 locale-pim-data-exporter-tr \
 locale-pim-data-exporter-ug \
 locale-pim-data-exporter-uk \

@@ -9,11 +9,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "jarjar-1.4-4.12.noarch.rpm"
-RPM_HASH = "0b1bbb54b4e091a79bdeb5d9abc5d47e31d6de723cce6692ff2eda87658da518e53a435ca654efb8d0f9df86f9cf075a28e50a68de0eee56ea49fdb054939920"
+RPM_NAME = "jarjar-1.4-6.7.noarch.rpm"
+RPM_HASH = "76b9da828a87ff46fe30e6d37a5d4582025e712c9035ec172f63fd2019b948c256f243d424ff1f58f2f12251955925573ac6598700f0d4714469e44dbe6d8b34"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jarjar \
+RPROVIDES:${PN} += "config-jarjar \
+jarjar \
 mvn-com.googlecode.jarjar-jarjar \
 mvn-com.googlecode.jarjar-jarjar-pom- \
 mvn-com.tonicsystems-jarjar \

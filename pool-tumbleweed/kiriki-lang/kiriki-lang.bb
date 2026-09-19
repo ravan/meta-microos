@@ -2,17 +2,17 @@ SUMMARY = "Translations for package kiriki"
 DESCRIPTION = "Provides translations for the 'kiriki' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kiriki-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "60d34cbb952fc3c254d7eb477552b936bb3b38ab203ec4535c438ed9822e70dc1ad6852f8bb5834a2637f7bd99b161c399dc5c741464ba70fe62a78dba34ee6c"
+RPM_NAME = "kiriki-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "261437a776be893c0510af8c6700f094057bc28cb6c825f1c37c45b71267a8e7b7fed8f879c607e3b0c4b7f17e16d22e0b1d84f3fef7dc4abd0c2aeb81455ad6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kiriki-lang \
 kiriki-lang-all \
 locale-kiriki-ar \
+locale-kiriki-ast \
 locale-kiriki-be \
-locale-kiriki-bg \
 locale-kiriki-bs \
 locale-kiriki-ca \
 locale-kiriki-ca@valencia \
@@ -29,9 +29,11 @@ locale-kiriki-fi \
 locale-kiriki-fr \
 locale-kiriki-ga \
 locale-kiriki-gl \
+locale-kiriki-he \
 locale-kiriki-hi \
 locale-kiriki-hr \
 locale-kiriki-hu \
+locale-kiriki-ia \
 locale-kiriki-id \
 locale-kiriki-is \
 locale-kiriki-it \

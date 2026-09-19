@@ -3,10 +3,10 @@ DESCRIPTION = "The gnome-disk-utility project provides the Disks application for
 dealing with storage devices."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "46.1"
 
-RPM_NAME = "gnome-disk-utility-44.0-2.1.aarch64.rpm"
-RPM_HASH = "7eea8744e1c2c495daa96dba754a7d89cbe7d72692f8f53b3a82a2b388c75af1e817d177718d60582c05809923e142fd3c7e09699b1feed3325a8c7422680d45"
+RPM_NAME = "gnome-disk-utility-46.1-3.4.aarch64.rpm"
+RPM_HASH = "965e0711d7431c21fee114d5adaa0603def48b352cde669360dc2b679c178cca48cfa4b8331fd2e982696d0a1bbd45d01077d0a610abcf443ea5c2b7c79f0e2a"
 
 RPROVIDES:${PN} += "gnome-disk-utility"
 

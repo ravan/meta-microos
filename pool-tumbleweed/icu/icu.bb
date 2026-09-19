@@ -7,12 +7,12 @@ currency formatting, time zone support, transliteration, and word, line, and \
 sentence breaking. \
  \
 This subpackage contains the runtime programs for interacting with ICU."
-LICENSE = "ICU"
+LICENSE = "Unicode-3.0"
 
-PV = "73.2"
+PV = "78.3"
 
-RPM_NAME = "icu-73.2-2.1.aarch64.rpm"
-RPM_HASH = "0b01d1471adec4efe36c2782e6f1b2f60f5cbf84decf040410ce12fa391ef50112cea72ba2baa8d3fe08cf03364b8e562cfa47f39b3bc2790b85647bfb69e99f"
+RPM_NAME = "icu-78.3-1.3.aarch64.rpm"
+RPM_HASH = "7fa8ce97ce12d4cd8abc818472aae7ebad894b61f4f554ece23be260afdd23329f9c4906f837a31d2eb6734005267a40b9dc9fe5f500f68ae8b1bc5fc3bb792b"
 
 RPROVIDES:${PN} += "bundled-timezone \
 icu"
@@ -20,10 +20,10 @@ icu"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicui18n.so.73 \
-libicuio.so.73 \
-libicutu.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuio.so.78 \
+libicutu.so.78 \
+libicuuc.so.78 \
 libstdc++.so.6"
 
 inherit rpm

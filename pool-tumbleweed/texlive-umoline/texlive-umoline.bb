@@ -3,10 +3,10 @@ DESCRIPTION = "Provides commands \\Underline, \\Midline and \\Overline for \
 underlining, striking out, and overlining their text arguments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn19085"
+PV = "2026.226.svn19085"
 
-RPM_NAME = "texlive-umoline-2023.209.svn19085-54.1.noarch.rpm"
-RPM_HASH = "27669008136761488f06741a6bd874f7dde45779840fa1e82f62667275901e20ce9896b45ce570a7aa34e01a4bd9557a1cac8665883b19492866b2aed23981d9"
+RPM_NAME = "texlive-umoline-2026.226.svn19085-60.2.noarch.rpm"
+RPM_HASH = "7fe4862dc55a0e5ca0b31b9e57f3e43fc4cca2d8d443c1383e40b4c265557dce21f071691d3420a7c492bab80e7d305797961306e90f5a10b579329c010b7eff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-umoline.sty \

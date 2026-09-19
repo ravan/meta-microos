@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tabstackengine"
 DESCRIPTION = "This package includes the documentation for texlive-tabstackengine"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.10svn46848"
+PV = "2026.227.2.10svn46848"
 
-RPM_NAME = "texlive-tabstackengine-doc-2023.209.2.10svn46848-55.1.noarch.rpm"
-RPM_HASH = "e873b81ef046e3573a4f057ac25aa7edf19505f4fd7d7c3983c5914ba30122b868ecfe48cffa1f33da61527a2a2fb1609e54024cb6b6a3bcacdfa7a0328b0e8c"
+RPM_NAME = "texlive-tabstackengine-doc-2026.227.2.10svn46848-62.2.noarch.rpm"
+RPM_HASH = "42e96e8ae2973df925613a05bd82e6db080db867f6e976de2540c29bec1223627f97f4518af69f4d9a55fc00398654527005424c86201fbba50510141cd69f12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tabstackengine-doc"

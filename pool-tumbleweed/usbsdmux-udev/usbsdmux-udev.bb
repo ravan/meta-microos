@@ -2,10 +2,10 @@ SUMMARY = "Udev rules for usbsdmux"
 DESCRIPTION = "Udev rules for usbsdmux"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.2.1"
+PV = "25.8"
 
-RPM_NAME = "usbsdmux-udev-0.2.1-1.9.aarch64.rpm"
-RPM_HASH = "c480a05d0c8cedfd4fdb1a2e972eb00eb349f82998fce8047fc597115d09f5dcbcd20662e92898241a4d5817840f891404dedbacb1f870f9a87cb03f466e585e"
+RPM_NAME = "usbsdmux-udev-25.8-1.5.aarch64.rpm"
+RPM_HASH = "88885e9e3151a516c33c01e45a9af9b8d9c5cef083f2f2ac9066c93fa97ebb9730190ee7fb85bb10a092d38bfb0234c834853c441b922e3f2f3a56c71a63eedb"
 
 RPROVIDES:${PN} += "usbsdmux-udev"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.4.0"
 
-RPM_NAME = "yate-scripts-6.4.0-4.10.aarch64.rpm"
-RPM_HASH = "ed61461477a7681411e297d0a20acdc9052c59bc2f9d2d6c7053925c65a410e1ce6a9e7436d7963ea5bb970b1c0fdfcc2f50b57f4d21b0efb28b0ec4f8140511"
+RPM_NAME = "yate-scripts-6.4.0-6.6.aarch64.rpm"
+RPM_HASH = "0e838240f4d42ce7842a25f0e2e2ee6041420dddea2807d921259ffd28f8a521e5da47d4a9b1f47b66cf4219cb7efa84de93661e307a31a7bc686064be933e7a"
 
 RPROVIDES:${PN} += "perl-Yate \
 yate-scripts"

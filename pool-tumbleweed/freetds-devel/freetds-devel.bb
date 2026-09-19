@@ -3,10 +3,10 @@ DESCRIPTION = "The freetds-devel package contains the files necessary for develo
 the FreeTDS libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.20"
+PV = "1.4.27"
 
-RPM_NAME = "freetds-devel-1.3.20-1.1.aarch64.rpm"
-RPM_HASH = "512e918351d47c566088ab76306201dc032fcd7de678e3c8823b5ca54804f5543109e35ce7dd5288f33602ac3c49bfc0b09eefc9187eb30c0d9d9897de83b790"
+RPM_NAME = "freetds-devel-1.4.27-2.1.aarch64.rpm"
+RPM_HASH = "707db616466c355767b79730ac88aecd570cccb79d7194030acbe2eb00a673570df716a93347acfc1b343e72bf4c5ff8662f64dc1f20020537a38a6dba7e024e"
 
 RPROVIDES:${PN} += "freetds-devel"
 

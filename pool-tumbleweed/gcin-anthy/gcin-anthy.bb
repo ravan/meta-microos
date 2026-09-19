@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.9.0"
 
-RPM_NAME = "gcin-anthy-2.9.0-4.18.aarch64.rpm"
-RPM_HASH = "f9549b9c4c9e6232ec01473284be85571f1950cb84301da19137c6213680361788d37ade13a49724a8053960d24c5746c84ac98d2b7492a0942aecff719660fb"
+RPM_NAME = "gcin-anthy-2.9.0-7.9.aarch64.rpm"
+RPM_HASH = "d7c1c4b1795ed74b0a60cac54c51ef9dde800890942cb2ac94512357855fc38844fa751321ba2d53a700aadbef6b3f059c6352ebe6256356aa80fedf802e58f3"
 
 RPROVIDES:${PN} += "gcin-anthy \
 gcin-anthy-module"

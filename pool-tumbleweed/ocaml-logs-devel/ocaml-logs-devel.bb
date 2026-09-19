@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-logs-devel package contains libraries and signature fil
 developing applications that use ocaml-logs."
 LICENSE = "ISC"
 
-PV = "0.7.0"
+PV = "0.10.0"
 
-RPM_NAME = "ocaml-logs-devel-0.7.0-3.6.aarch64.rpm"
-RPM_HASH = "99a8cca18b378992b8c4e5d8a9070951179d93ec63028e967cea5f2b3f1677075b7635fcd0a3c0463023809f6d209b5dd8f0198b56843d0c5819d3d7df58c24b"
+RPM_NAME = "ocaml-logs-devel-0.10.0-1.3.aarch64.rpm"
+RPM_HASH = "0aca309ac3a5c6cc577cebfb95d30567ceeb6972672bb73c3b1bce2a8cb9ccbfaa6fbfc9bbd4e2df9b7de4fc0e8e0f5a0781196e9c360308b0e677341f519bce"
 
 RPROVIDES:${PN} += "ocaml-Logs \
 ocaml-Logs-cli \
@@ -31,15 +31,17 @@ ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-Cmdliner \
 ocaml-Cmi-format \
+ocaml-Data-types \
 ocaml-Env \
 ocaml-Fmt \
+ocaml-Format-doc \
 ocaml-Ident \
 ocaml-Identifiable \
 ocaml-Load-path \
 ocaml-Location \
 ocaml-Longident \
 ocaml-Misc \
-ocaml-Mutex \
+ocaml-Oprint \
 ocaml-Outcometree \
 ocaml-Parsetree \
 ocaml-Path \
@@ -47,8 +49,10 @@ ocaml-Primitive \
 ocaml-Shape \
 ocaml-Stdlib \
 ocaml-Stdlib--Array \
+ocaml-Stdlib--Atomic \
 ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Format \
@@ -58,9 +62,12 @@ ocaml-Stdlib--Lazy \
 ocaml-Stdlib--Lexing \
 ocaml-Stdlib--List \
 ocaml-Stdlib--Map \
+ocaml-Stdlib--Mutex \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Printexc \
+ocaml-Stdlib--Printf \
 ocaml-Stdlib--Queue \
+ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--Stack \
@@ -71,22 +78,26 @@ ocaml-Subst \
 ocaml-Toploop \
 ocaml-Type-immediacy \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Warnings \
 ocaml-logs \
 ocamlfind-cmdliner \
 ocamlfind-compiler-libs.toplevel \
 ocamlfind-fmt \
+ocamlfind-logs \
 ocamlfind-result \
 ocamlfind-threads \
 ocamlx-Cmdliner \
 ocamlx-Fmt \
-ocamlx-Mutex \
 ocamlx-Stdlib \
+ocamlx-Stdlib--Atomic \
 ocamlx-Stdlib--Filename \
 ocamlx-Stdlib--Format \
 ocamlx-Stdlib--List \
 ocamlx-Stdlib--Map \
-ocamlx-Stdlib--String \
+ocamlx-Stdlib--Mutex \
+ocamlx-Stdlib--Printexc \
+ocamlx-Stdlib--Printf \
 ocamlx-Stdlib--Sys \
 ocamlx-Toploop"
 

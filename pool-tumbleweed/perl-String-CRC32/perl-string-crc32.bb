@@ -8,14 +8,14 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.100"
 
-RPM_NAME = "perl-String-CRC32-2.100-1.14.aarch64.rpm"
-RPM_HASH = "9b904bbb65b73c148c9a806d42ae58c0ee2494ba8014976931ff0e84289865c4cf7a78c767e7603cbaa10552f7f0d50ad864bafd6937b31c08f1bef4a84ad031"
+RPM_NAME = "perl-String-CRC32-2.100-1.31.aarch64.rpm"
+RPM_HASH = "fa6e20c19594a71c07e5aad168473982381a71c146e587d6ce01bdf67af7a4db39486ed3b667761e0c40f0336c0ef8a6efef8a1ef337b83f73b9c324a9ae8dc7"
 
 RPROVIDES:${PN} += "perl-String--CRC32 \
 perl-String-CRC32"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

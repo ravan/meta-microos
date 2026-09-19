@@ -9,10 +9,10 @@ change contrast, brightness and hue using video controller hardware \
 acceleration."
 LICENSE = "MIT"
 
-PV = "1.0.12"
+PV = "1.0.13"
 
-RPM_NAME = "libXv1-1.0.12-1.2.aarch64.rpm"
-RPM_HASH = "ad11f282e34da62afa739c128409ddd330c725fdcd2ef1e533eb2287b306da1b03774bea9bcbfd0466465158eaed9320d9b526252e8c897d2cfdf72a716d04f7"
+RPM_NAME = "libXv1-1.0.13-1.7.aarch64.rpm"
+RPM_HASH = "fce48c59771a9d000d9b3c3328ad9a7e624f994f14849c4091cd77c8c91dc7bd3678578bfaf0b97f6054424ddd5b306ad0695acf57fec2a93ee9f941c72dcc9d"
 
 RPROVIDES:${PN} += "libXv.so.1 \
 libXv1 \

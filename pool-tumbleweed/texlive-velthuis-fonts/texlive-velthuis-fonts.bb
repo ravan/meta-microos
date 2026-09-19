@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-velthuis"
 DESCRIPTION = "The  separated fonts package for texlive-velthuis"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.17.1svn66186"
+PV = "2026.226.2.17.1svn66186"
 
-RPM_NAME = "texlive-velthuis-fonts-2023.209.2.17.1svn66186-54.1.noarch.rpm"
-RPM_HASH = "1ff76d5c27d08266e79aefd7131adc6f4b3fdab8840f5f2fb155a0f2272a6027cd3d024cde479d4618237e961f7ba387c237f615bc18f2c8c8d5be9d9847b14b"
+RPM_NAME = "texlive-velthuis-fonts-2026.226.2.17.1svn66186-60.2.noarch.rpm"
+RPM_HASH = "a6dcc9be4e1934c14608c72a7fd329667c1b8eac9e2601fd4162518fa1db236220c2570491ddd863a3ba2816fb27a448bd8fbba801c6ecf98cbf5641a438ab2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-velthuisdevanagari \

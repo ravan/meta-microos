@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-unitconv"
 DESCRIPTION = "This package includes the documentation for texlive-unitconv"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn55060"
+PV = "2026.226.0.0.01svn76924"
 
-RPM_NAME = "texlive-unitconv-doc-2023.209.0.0.01svn55060-54.1.noarch.rpm"
-RPM_HASH = "d732d3cfc2979da3cb7233fdcae9f1a207c6639630f995124a84049c507c8eb0f255b8844c3e34b358161b61f2d34d293f839e01e99dca468921207d6034ec36"
+RPM_NAME = "texlive-unitconv-doc-2026.226.0.0.01svn76924-60.2.noarch.rpm"
+RPM_HASH = "70b3ce7282b86080a1cc594f5c3d9d7c1865f8a30a527302e760993950399e198eee6b548d66f4b4a56c6a88f951d0f9853c0212124ed2091b6169cbc5b065bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unitconv-doc"

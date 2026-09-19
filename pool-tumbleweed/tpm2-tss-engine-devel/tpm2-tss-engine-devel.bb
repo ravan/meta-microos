@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "tpm2-tss-engine-devel-1.2.0-2.1.aarch64.rpm"
-RPM_HASH = "a39bf7e192f3a58364b21fc68535481ef3835b88345c8a1d585a09512b73d1662fc405f727b78ec581db7d09c03c1bb6aee7b1ebd30668561dde43caa18f2a0c"
+RPM_NAME = "tpm2-tss-engine-devel-1.2.0-3.9.aarch64.rpm"
+RPM_HASH = "23bed31c6b7eed0a953a6f56957144f247bbe03f862007739e01f4431b9a1893463406c6fa295bebaad52edb6d1691761ecb2e3f9c8964c74326aa60aaa318a6"
 
 RPROVIDES:${PN} += "tpm2-tss-engine-devel"
 

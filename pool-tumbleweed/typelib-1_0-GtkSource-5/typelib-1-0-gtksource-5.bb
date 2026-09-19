@@ -9,10 +9,10 @@ This package provides the GObject Introspection bindings for \
 GtkSourceView."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.8.0"
+PV = "5.20.0"
 
-RPM_NAME = "typelib-1_0-GtkSource-5-5.8.0-1.2.aarch64.rpm"
-RPM_HASH = "06f24c10434720d570921d757956a00fd3a5f3eedaa35fd137cff95a7d3e0f9ef5900b3eec8e41109c3a464b90255c9639314e71ba8b336bbe181711115acd74"
+RPM_NAME = "typelib-1_0-GtkSource-5-5.20.0-2.1.aarch64.rpm"
+RPM_HASH = "914c37dcff0187a301bc6778305cb4f3550a1bd30ec6606c2f09247f2d8c09619e7dec12c303a03f71b2d2cba2ddfbb2d17588b4503a074c61f4c29788d83b6d"
 
 RPROVIDES:${PN} += "typelib-1-0-GtkSource-5 \
 typelib-GtkSource"

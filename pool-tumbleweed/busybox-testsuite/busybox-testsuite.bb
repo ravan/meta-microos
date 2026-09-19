@@ -7,10 +7,10 @@ cd /usr/share/busybox/testsuite \
 PATH=/usr/share/busybox:$PATH SKIP_KNOWN_BUGS=1 ./runtest"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-testsuite-1.36.1-2.1.aarch64.rpm"
-RPM_HASH = "0626228b715b917ab7d47bacd2835a1437f06ccb02559795e965d3d1b4b4875973d104495313c54fd4ecfcd631411487d5c766265715cbe8ea92256a18bd7427"
+RPM_NAME = "busybox-testsuite-1.38.0-2.1.aarch64.rpm"
+RPM_HASH = "622d0bc4b50016ff390b68556d95a246de442dd2a8a3611d553c24496b401501036f5c3947d2740ba81ee94cf309fae4f6bb6b2d55eb109c3aa6ffb1c785c8f1"
 
 RPROVIDES:${PN} += "busybox-testsuite"
 

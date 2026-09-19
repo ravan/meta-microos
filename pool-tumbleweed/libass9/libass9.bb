@@ -4,10 +4,10 @@ DESCRIPTION = "libass is a subtitle renderer for the ASS/SSA \
 format. It is mostly compatible with VSFilter."
 LICENSE = "ISC"
 
-PV = "0.17.1"
+PV = "0.17.5"
 
-RPM_NAME = "libass9-0.17.1-1.3.aarch64.rpm"
-RPM_HASH = "c1e780aa8b4b0f8ae677fca1230fe1504c91b65135317c7ba9d7bdbdd290f17b013a3578f3e2fcbfd1c8fcd402b20e73ca7a57b18e0e6f91d47731c2208903f8"
+RPM_NAME = "libass9-0.17.5-1.3.aarch64.rpm"
+RPM_HASH = "b2424fffe9de30f8fea6ce267dfe84d7f713f519cf2cee13bad91307fbf8f544659b54ef13c348365056afc8da142a40cee157f85c7d530b15d1fa38df716a67"
 
 RPROVIDES:${PN} += "libass.so.9 \
 libass9"
@@ -19,6 +19,7 @@ libfontconfig.so.1 \
 libfreetype.so.6 \
 libfribidi.so.0 \
 libharfbuzz.so.0 \
-libm.so.6"
+libm.so.6 \
+libunibreak.so.6"
 
 inherit rpm

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.1.1"
 
-RPM_NAME = "libqrencode4-4.1.1-1.11.aarch64.rpm"
-RPM_HASH = "77161a9963a6531f43b8134706459012dd1f4aae7ece214dd36e78ed7809e18a21f3987856f9d521962a7b9fad3c5af71804921fc1042be4d62508575add6fdf"
+RPM_NAME = "libqrencode4-4.1.1-2.13.aarch64.rpm"
+RPM_HASH = "3bc77c82fc00ac42fb7355072cd66146c66a51a08635bad5aa94a95c3f2ec365809744d383f98ebf126ca9e19bd148b9309f3fc416a0b7a486b8e3e5efa6b403"
 
 RPROVIDES:${PN} += "libqrencode.so.4 \
 libqrencode4"

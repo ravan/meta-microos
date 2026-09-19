@@ -16,20 +16,13 @@ information. \
  \
 This driver only works with the serial interface version of the ECO \
 5000. ORGA also sells a USB version, that is incompatible with the \
-serial version. This driver will not work with the USB version! \
- \
- \
- \
-Authors: \
--------- \
-    Frank Thater <frank@thater-online.de> \
-    Andreas Schwier <andreas.schwier@cardcontact.de>"
-LICENSE = "GPL-2.0+"
+serial version. This driver will not work with the USB version!"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "pcsc-eco5000-1.2.0-88.26.aarch64.rpm"
-RPM_HASH = "c6ada43e99eb98dc3c7414d4dabdc5284fe88b877614562290d8c9a7d2dfb07392d3efeda73d89536478bf3972db1f4c5d6ffe1b214c09d2b62aac9e762e7072"
+RPM_NAME = "pcsc-eco5000-1.2.0-91.5.aarch64.rpm"
+RPM_HASH = "943f3752db3e81db1ac3b7d7996ddf6326541848a435e9751f65aa5c758d88f6e48a379accdd314a23760adc3c66b73af8dfdec77323be0f24c1841b705441c9"
 
 RPROVIDES:${PN} += "libcteco5000.so.0 \
 pcsc-eco5000"

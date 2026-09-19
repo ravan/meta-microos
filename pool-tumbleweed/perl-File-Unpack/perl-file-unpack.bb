@@ -11,8 +11,8 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "0.70"
 
-RPM_NAME = "perl-File-Unpack-0.70-7.13.aarch64.rpm"
-RPM_HASH = "a73a817ab080696acc08938339ad31bfbd24889292eb61d684b88a585c78c9b3e3d833e2bc5065895e2023ab4242d42481c79f0be8dfdbfab156865fe7e4b8d0"
+RPM_NAME = "perl-File-Unpack-0.70-8.14.aarch64.rpm"
+RPM_HASH = "8793216636e8b2aadd961e12c1d17812760939a9bc90171d5991bc649b0d4b2a723ee16639a07a20ced31d05d9c0b6dffe5a75ae231aa41ef684829bfb896944"
 
 RPROVIDES:${PN} += "perl-File--Unpack \
 perl-File-Unpack"
@@ -29,7 +29,7 @@ gzip \
 lzip \
 mkisofs \
 p7zip-full \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-BSD--Resource \
 perl-Carp \
 perl-Compress--Raw--Bzip2 \

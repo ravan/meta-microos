@@ -1,20 +1,30 @@
 SUMMARY = "The GNU Compiler Collection targeting arm"
 DESCRIPTION = "The GNU Compiler Collection as a cross-compiler targeting arm. \
  \
-Note this is only useful for building freestanding things like the \
-kernel since it fails to include target libraries and headers."
+ \
+ \
+ \
+ \
+This is a package that is necessary for bootstrapping another package \
+only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.2.1+git7683"
+PV = "13.5.0+git10516"
 
-RPM_NAME = "cross-arm-gcc13-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "3cfa84f3717d7345a046cb218ba94bfc4bf79830ed641e36498e12093d6f71fecbc97369a0422a037f9c28a9fe190ad66954a913275360c00ab77d0f01572c4c"
+RPM_NAME = "cross-arm-gcc13-13.5.0+git10516-1.1.aarch64.rpm"
+RPM_HASH = "1f0e7b3c7589a5c93a6ec714c650dc876580e670d1bb8013ff9befd4079c241aa6132b22ce0852d9f2dcd6866a0572ed30da390f096b475b2c761d5102b2a408"
 
-RPROVIDES:${PN} += "cross-arm-gcc13"
+RPROVIDES:${PN} += "arm-suse-linux-gnueabi-gcc \
+cross-arm-gcc13"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-cross-arm-binutils \
-libstdc++6-devel-gcc13 \
-update-alternatives"
+RDEPENDS:${PN} += "cross-arm-binutils \
+libc.so.6 \
+libgmp.so.10 \
+libisl.so.23 \
+libm.so.6 \
+libmpc.so.3 \
+libmpfr.so.6 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

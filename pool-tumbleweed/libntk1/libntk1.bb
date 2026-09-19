@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.1001"
 
-RPM_NAME = "libntk1-1.3.1001-2.1.aarch64.rpm"
-RPM_HASH = "50ea2d0965a411567995cdd5e2fc2b628cb0ae54e44a7289561f42aecb82f8a540d15dba55cd95f5fc3503865f6c9bff5b12f6c281cdbf90df918a633e3a68c8"
+RPM_NAME = "libntk1-1.3.1001-5.7.aarch64.rpm"
+RPM_HASH = "24c7b038f1e8a1157f20a056c94492b46889851b80c9826a57a0af5d065b6194c553af89e8a97c4f19a05ed8a5480f53d42849ffb84244811cdec4cae3d416d0"
 
 RPROVIDES:${PN} += "libntk-gl.so.1 \
 libntk-images.so.1 \

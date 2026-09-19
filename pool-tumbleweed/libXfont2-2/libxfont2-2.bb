@@ -8,10 +8,10 @@ access fonts via either the new APIs in libXft, or the legacy APIs in \
 libX11."
 LICENSE = "MIT"
 
-PV = "2.0.6"
+PV = "2.0.7"
 
-RPM_NAME = "libXfont2-2-2.0.6-1.5.aarch64.rpm"
-RPM_HASH = "0ba4206b8e544838f40aa01f334d20b413316962e65d8abbfa1c49eaedd8cc0b0a02d924713176a63485ca2c042b84e4f9283fa6a01dea03548fb84f4033c62c"
+RPM_NAME = "libXfont2-2-2.0.7-3.1.aarch64.rpm"
+RPM_HASH = "4c831ae640b0a2c222b7ed869515e7db94cddf2c86871fd5ee41cf391b9910aae9911f4c34bb33a27cb5092a96de9e329494f05f629e8e2e6059411e6429cf0e"
 
 RPROVIDES:${PN} += "libXfont2-2 \
 libXfont2.so.2"

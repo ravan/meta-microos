@@ -2,10 +2,10 @@ SUMMARY = "GTK based UI support for QEMU"
 DESCRIPTION = "This package contains a module for doing GTK based UI for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-ui-gtk-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "3683b7b97c0e0c59ea8c8cc65018720bb6cc0cf0b9587d3839d90b8149613c9d5c194a0449e693e9710f76d14c601013378582b32d94e78fa0f6596105ebadc8"
+RPM_NAME = "qemu-ui-gtk-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "5567ea0b46584cf9cf7c62b817d1c1e7d9e3738e4b2a87a597338006f03c15e00b603838fa322716cb376b5d8e5cff06bcdac02d950214d7005f40d68e7987f6"
 
 RPROVIDES:${PN} += "qemu-ui-gtk"
 

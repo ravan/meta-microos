@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rccol"
 DESCRIPTION = "This package includes the documentation for texlive-rccol"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2csvn15878"
+PV = "2026.226.1.2csvn77682"
 
-RPM_NAME = "texlive-rccol-doc-2023.209.1.2csvn15878-54.2.noarch.rpm"
-RPM_HASH = "80bde6e681ea8946815265b546344df73038ec00a34c7e6404151b63c3317e5ac8e21c83a506707b521bf7efb05e061a3ce6b5011929b34c3e85e6b35c09d3f8"
+RPM_NAME = "texlive-rccol-doc-2026.226.1.2csvn77682-60.4.noarch.rpm"
+RPM_HASH = "958ec75d1fb51099e4da09dcd10dd392dbb5774dd5a710affdd2e06464a2c42aa54b9e7c27dd0c23e23553d5133e7aee7e7fe6f50e705933cd384f5d13a2c7f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rccol-doc"

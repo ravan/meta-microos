@@ -2,10 +2,10 @@ SUMMARY = "Development files for mingw64-winpthreads"
 DESCRIPTION = "mingw-w64's implementation of POSIX threads for Windows."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "10.0.0"
+PV = "14.0.0"
 
-RPM_NAME = "mingw64-winpthreads-devel-10.0.0-1.8.noarch.rpm"
-RPM_HASH = "5f342c72440d02ad8b6ad17fead69b4a2308bec6eac928e72129688c1946814d788e7ea9fe39db8951905bd8c3d226b31a6cc7021036f66281fbc8452805ca78"
+RPM_NAME = "mingw64-winpthreads-devel-14.0.0-1.1.noarch.rpm"
+RPM_HASH = "78e58f5ba6e08664854b47ce181e62f1889d55f79dfff08948415adaa13215ef34c2164fd7a5c99bb5db501e6ee071881f4fa725a1d1b574bdee5e25d25caac7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-lib-pthread \

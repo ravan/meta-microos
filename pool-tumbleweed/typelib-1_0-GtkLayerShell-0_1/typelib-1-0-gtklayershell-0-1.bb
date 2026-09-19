@@ -8,10 +8,10 @@ isn't quite generic enough to work for everyone.. \
 This package provides the GObject Introspection bindings for gtk-layer-shell."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "0.8.1"
+PV = "0.10.1"
 
-RPM_NAME = "typelib-1_0-GtkLayerShell-0_1-0.8.1-1.2.aarch64.rpm"
-RPM_HASH = "0f0edf936f075ccbec4ead75dc2c3270edc0ab56e82e865394ee2c61d2c07d73875ae78143c547ed37bd640cc1de7e0afa9819cfca34fd333216c882e62fe798"
+RPM_NAME = "typelib-1_0-GtkLayerShell-0_1-0.10.1-1.4.aarch64.rpm"
+RPM_HASH = "7fb77cb918ec702eaf2d55b6f8620c5ed6d998025a2f2c1dd846ab472a75792e86437c838916ea1568ad2ec73857820c75575d410eabc6a49fce4b864a8c90e0"
 
 RPROVIDES:${PN} += "typelib-1-0-GtkLayerShell-0-1 \
 typelib-GtkLayerShell"

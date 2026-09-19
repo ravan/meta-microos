@@ -42,10 +42,10 @@ changing the parameters in a configuration file, which your system can \
 re-read even while it's running!"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.57"
+PV = "1.580.0"
 
-RPM_NAME = "perl-Log-Log4perl-1.57-1.4.noarch.rpm"
-RPM_HASH = "1e0feaffe1efd6c969e30cfd967383534fe0f15b5d14470e543c3442b9b372ce05f12b648b0d786684e89129b68694003026fb84762f0133f1b393f88b0c9ebe"
+RPM_NAME = "perl-Log-Log4perl-1.580.0-1.1.noarch.rpm"
+RPM_HASH = "7c198dec2a968beebf3ac389bc77e1cc4e36600518330b1a5589bdde682375c4a31cc95cfb295fe989c2cfe55f797187ab10f022e79bf51eba4fbcfb6d633933"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Log4perl \
@@ -101,7 +101,7 @@ perl-Log--Log4perl--Util--TimeTracker \
 perl-Log-Log4perl"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-File--Path"
 
 inherit rpm

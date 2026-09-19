@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-malay"
 DESCRIPTION = "This package includes the documentation for texlive-babel-malay"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0msvn43234"
+PV = "2026.226.1.0msvn77682"
 
-RPM_NAME = "texlive-babel-malay-doc-2023.209.1.0msvn43234-54.1.noarch.rpm"
-RPM_HASH = "16406e8783e39ba96f7f726f13772d39852b12eadd653f63ed6b6e6e9d495805b82e4bad18e16b39645cfe8e154f401a3a6096ed0fa1b07595cdd46c4dd1cee4"
+RPM_NAME = "texlive-babel-malay-doc-2026.226.1.0msvn77682-60.2.noarch.rpm"
+RPM_HASH = "377f9ecafa55ac678a21f1bedd3921568d2ebd118c29b2b9287b1865b1d3e2e15ec21bdc57c474da7f68a74c9641692f386a0184029e90585bcaf85862e48d7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-malay-doc"

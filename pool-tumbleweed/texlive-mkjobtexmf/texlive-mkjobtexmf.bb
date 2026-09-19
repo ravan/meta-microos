@@ -8,10 +8,10 @@ The script may be used for archiving purposes or to speed up \
 later TeX runs."
 LICENSE = "Artistic-1.0"
 
-PV = "2023.209.0.0.8svn29725"
+PV = "2026.226.0.0.8svn29725"
 
-RPM_NAME = "texlive-mkjobtexmf-2023.209.0.0.8svn29725-55.1.noarch.rpm"
-RPM_HASH = "5e2dee6279706563c38038ad5bd97ffee14a52ec7df1be0bb9fe68558ae78538235f87f307b851f33f1ed0955e96866376bf47855f34fe01df6f2bc0a148fb38"
+RPM_NAME = "texlive-mkjobtexmf-2026.226.0.0.8svn29725-61.2.noarch.rpm"
+RPM_HASH = "0cdc8183ed4bc24acee2006ac029189b6c7480b909bd9ee9b47a72ff7d208c641c627d576223183ced58d474d74d73b05feb1bd268ec6f83365f217fba847bc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mkjobtexmf"

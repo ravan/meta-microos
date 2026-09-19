@@ -8,10 +8,10 @@ This package contains the mvapich2 versions of the static libraries for \
 PnetCDF."
 LICENSE = "NetCDF"
 
-PV = "1.12.3"
+PV = "1.14.1"
 
-RPM_NAME = "pnetcdf-mvapich2-devel-static-1.12.3-1.4.aarch64.rpm"
-RPM_HASH = "de9bed3f30e318aef3f665f851b1e378927fe83345e6e1ddfc1b39d25a391315c3a50b2040d5a6276af6841421faaa0e28397aabe4b827b96b65d1108996dd26"
+RPM_NAME = "pnetcdf-mvapich2-devel-static-1.14.1-1.3.aarch64.rpm"
+RPM_HASH = "e2209847b54ddc289700cce7860ba8759bef076b17562be48ac1c5b39d596a549e6264849ce0c6dbade29321ee0524ecc479da1882e553290cef3d866992778b"
 
 RPROVIDES:${PN} += "parallel-netcdf-mvapich2-devel-static \
 pnetcdf-mvapich2-devel-static"

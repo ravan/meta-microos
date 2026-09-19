@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "liblightgrep-devel-1.4-5.34.aarch64.rpm"
-RPM_HASH = "9de2df62dcf1c1c6c1a21aed0c0340e07d352e887c9a82d3214c8d99c827b6c4f82f38554512749850f66723c1915e9dfe9e6c2da39e8e7087ffd7fadee16e42"
+RPM_NAME = "liblightgrep-devel-1.4-7.6.aarch64.rpm"
+RPM_HASH = "8720fa3989f599c2083d4f9cde2d8ef33a29b18152f37059108e1da74a640e2f737f54503848a9fba96120682000f060938ea7ceede2bb2ff9cb17341b9ddc2d"
 
 RPROVIDES:${PN} += "liblightgrep-devel \
 pkgconfig-lightgrep"

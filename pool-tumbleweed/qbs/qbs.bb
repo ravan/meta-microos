@@ -11,18 +11,19 @@ This package contains the command line interface. The Qt Creator IDE does \
 directly support working qbs projects."
 LICENSE = "LGPL-3.0-only"
 
-PV = "2.1.0"
+PV = "3.3.1"
 
-RPM_NAME = "qbs-2.1.0-1.1.aarch64.rpm"
-RPM_HASH = "447af2922f4f9adadf461013e1561192281599053da7284884b35ca8dbf1afb3a4b3b7b7c5874895778e18834317b82635b8a0813f2fa5473fb61c087f8fa518"
+RPM_NAME = "qbs-3.3.1-1.1.aarch64.rpm"
+RPM_HASH = "4d637a4bb3717ca75aea72e6b98d4d4bb209eaea9cafcaf8f5ba322f7baa18d81566c0f4639662bb6806afaf29ff251e5ec0eaaf0b02d51876b7847f7f1efb47"
 
 RPROVIDES:${PN} += "libclangcompilationdbgenerator.so \
+libgraphvizgenerator.so \
 libiarewgenerator.so \
 libkeiluvgenerator.so \
 libmakefilegenerator.so \
 libqbs-cpp-scanner.so \
 libqbs-qt-scanner.so \
-libqbscore.so.2.1 \
+libqbscore.so.3.3 \
 libvisualstudiogenerator.so \
 qbs"
 

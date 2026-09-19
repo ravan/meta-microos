@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.30"
 
-RPM_NAME = "perl-MooseX-Singleton-0.30-1.24.noarch.rpm"
-RPM_HASH = "39fb318509824d421ce555203923f3ed9559ad7a81fd787712040ea84b59b06684dd54ccc33f7f6f343178edf17d3618b0d4ebe400f476c581bb83087c1a8a2d"
+RPM_NAME = "perl-MooseX-Singleton-0.30-1.38.noarch.rpm"
+RPM_HASH = "b931144f9f717f72c6842c4efc37df01871563db18d01e79a1b2385f21f1753169a10d29f445ac4143827f04df93ab633257cf2e975c252048b123de5e7f8297"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Singleton \
@@ -21,7 +21,7 @@ perl-MooseX--Singleton--Role--Meta--Method--Constructor \
 perl-MooseX--Singleton--Role--Object \
 perl-MooseX-Singleton"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moose \
 perl-Moose--Exporter \
 perl-Moose--Role"

@@ -3,19 +3,20 @@ DESCRIPTION = "A collection of (variously) simple tools provided as part of \
 the LaTeX required tools distribution, comprising the packages: \
 afterpage, array, bm, calc, dcolumn, delarray, enumerate, \
 fileerr, fontsmpl, ftnright, hhline, indentfirst, layout, \
-longtable, multicol, rawfonts, showkeys, somedefs, tabularx, \
-theorem, trace, varioref, verbatim, xr, and xspace."
+longtable, multicol, rawfonts, shellesc, showkeys, somedefs, \
+tabularx, theorem, trace, varioref, verbatim, xr, and xspace."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64892"
+PV = "2026.226.svn76708"
 
-RPM_NAME = "texlive-tools-2023.209.svn64892-53.1.noarch.rpm"
-RPM_HASH = "0bfd73d007e1e4a94ec2b200f427d980e84aff020bf1ebeef3cb1f9bcf999c2c4b7c2fa4cbd408c78aff4a5e10c08d98dacf0e131093b6ce5a96b76bd836ecdc"
+RPM_NAME = "texlive-tools-2026.226.svn76708-59.2.noarch.rpm"
+RPM_HASH = "58f75b88efdda6f89a9807df89a259285d9be2024697c7025a78f3aeff260e90e933812fe73888b6db00dab8a79c87979505f2dc2e2028e390c975d54215f462"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-afterpage.sty \
 tex-array-2016-10-06.sty \
 tex-array-2020-02-10.sty \
+tex-array-2023-11-01.sty \
 tex-array.sty \
 tex-bm.sty \
 tex-calc.sty \
@@ -29,11 +30,13 @@ tex-ftnright.sty \
 tex-h.tex \
 tex-hhline.sty \
 tex-indentfirst.sty \
+tex-l3sys-query.sty \
 tex-layout.sty \
 tex-longtable-2020-01-07.sty \
 tex-longtable.sty \
 tex-multicol-2017-04-11.sty \
 tex-multicol-2019-10-01.sty \
+tex-multicol-2024-05-23.sty \
 tex-multicol.sty \
 tex-q.tex \
 tex-r.tex \
@@ -57,6 +60,7 @@ tex-varioref.sty \
 tex-verbatim.sty \
 tex-verbtest.tex \
 tex-x.tex \
+tex-xr-2023-07-04.sty \
 tex-xr.sty \
 tex-xspace.sty \
 texlive-tools"

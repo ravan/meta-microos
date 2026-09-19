@@ -3,10 +3,10 @@ DESCRIPTION = "libnftables is the nftables command line interface placed into a 
 library."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.8"
+PV = "1.1.7"
 
-RPM_NAME = "libnftables1-1.0.8-1.1.aarch64.rpm"
-RPM_HASH = "04557e4bae6ec82dd32ee9224e0c1319479d379f733016a6e9ae7928542cad7d3fafbab7028c0fa379f17a19051900ef18cd6c55a82fcf259164b4b4b35765b1"
+RPM_NAME = "libnftables1-1.1.7-1.1.aarch64.rpm"
+RPM_HASH = "c42d25cde1a46c68118894e7abc2cec7f8f32856c686ca9a785646bb8f8aa98f5f2500005d74be1404fa20ee5cab68a5a7c789cd2a71d683cbb784a03f6236a6"
 
 RPROVIDES:${PN} += "libnftables.so.1 \
 libnftables1"

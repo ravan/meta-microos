@@ -3,10 +3,11 @@ DESCRIPTION = "Documentation for both the Regina REXX interpreter and the REXX U
 Functions (regutil)."
 LICENSE = "GFDL-1.1-only & LGPL-2.1-or-later"
 
-PV = "3.9.1"
+PV = "3.9.7"
 
-RPM_NAME = "Regina-REXX-doc-3.9.1-6.10.aarch64.rpm"
-RPM_HASH = "29f8fa37f546a6ec3391b4bd57a7a2fe875a38a9380ae384c755d938ebd3f0f42108d515915849acdacd5d15dad1746b74d8d7026c287073ae25f9295fb6f028"
+RPM_NAME = "Regina-REXX-doc-3.9.7-1.1.noarch.rpm"
+RPM_HASH = "e9bc8000001c5f3016ab88d2650d0550857e7da4c92bfc90e4a39f41ed35ef08bb94032d15b9cbfaa4028d2e8ed3997c7923e845cbae63e34fe74b251c705063"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Regina-REXX-doc"
 

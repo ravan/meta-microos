@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2"
 
-RPM_NAME = "enblend-enfuse-4.2-6.15.aarch64.rpm"
-RPM_HASH = "dd2d56b47375b75a5d7ef5a75738799176c306df6e6963c6b8568bc99bb340320cb797411fb0da4793590aaf7324320492f739069d29725e6485d97639692f60"
+RPM_NAME = "enblend-enfuse-4.2-7.6.aarch64.rpm"
+RPM_HASH = "e8ad6cb23d78f5950e6df6bdeb40ba44d75913a99189db0487d1b0e174a7ef354aa19a166430bc98f414b09c22bfcf7e53e0329ae63768e12e01d8e06a563873"
 
 RPROVIDES:${PN} += "enblend \
 enblend-enfuse \
@@ -25,7 +25,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libgomp.so.1 \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
 liblcms2.so.2 \
 libm.so.6 \

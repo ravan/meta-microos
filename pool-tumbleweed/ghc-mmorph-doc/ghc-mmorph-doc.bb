@@ -2,10 +2,10 @@ SUMMARY = "Haskell mmorph library documentation"
 DESCRIPTION = "This package provides the Haskell mmorph library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.0"
+PV = "1.2.2"
 
-RPM_NAME = "ghc-mmorph-doc-1.2.0-4.3.noarch.rpm"
-RPM_HASH = "4bab630fbc18a77b8f2af43be7a41acba21b3315923598c8a21c4039c73013d640e3d599bae180b4da261e81979cd833a1e617503cc830541ec90c0348eca497"
+RPM_NAME = "ghc-mmorph-doc-1.2.2-1.3.noarch.rpm"
+RPM_HASH = "564f25d8b965552d49191a60b3bd37c6333b38b65b24d3e73e3afcf70db78027c3fde143d45aa26b8cea88bccf6680ae5438e6c5d4c4507d6708b48695de4c63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-mmorph-doc"

@@ -13,19 +13,19 @@ For more information please refer to the manpage or visit \
 the project homepage https://pdfposter.readthedocs.io/"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.8.1"
+PV = "0.9.1"
 
-RPM_NAME = "pdfposter-0.8.1-1.2.noarch.rpm"
-RPM_HASH = "4163dd72944cc917de036084a73cfa5d4003b0a0d802c26bd80763296555f793f74d7d89bd7f78cd81698a09b8587c0784387ec0dab8130ab95cd8f641acfb8e"
+RPM_NAME = "pdfposter-0.9.1-1.2.noarch.rpm"
+RPM_HASH = "78976a85981dc69e8774eb8256855be1b29574339b5010c00b16f7257749952b643de2523013e4322620bab37aba431fc326fd74830f28c1a85cdbccbe637f82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pdfposter \
-python3.11dist-pdftools.pdfposter \
-python3dist-pdftools.pdfposter"
+python3.13dist-pdfposter \
+python3dist-pdfposter"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
-python3-PyPDF2 \
-python3-base"
+python3-base \
+python3-pypdf"
 
 inherit rpm

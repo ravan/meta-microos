@@ -5,10 +5,10 @@ formats) and macros supporting their use in LaTeX (Type 1) and \
 XeLaTeX/LuaLaTeX (OTF)."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.2.8svn54892"
+PV = "2026.226.2.8svn77682"
 
-RPM_NAME = "texlive-sourcesanspro-2023.209.2.8svn54892-58.1.noarch.rpm"
-RPM_HASH = "cc03f9b0f07d9623902ed41fc6c5a5d888c50597574fc7cb2980f561231bbde2308c15979082d45a8db91bb04996ba93c1af6a562cf74a9aa5eeb82ce8c8ead7"
+RPM_NAME = "texlive-sourcesanspro-2026.226.2.8svn77682-64.2.noarch.rpm"
+RPM_HASH = "d15465426969db4ece5ab1f9ac368355c114d1fe4aa2b1322b385f63f179e73bfc3cdc708356bb5d13417821a0053204e43857d1297ab0a4ea3084b239837874"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRSourceSansPro-Dnom.fd \

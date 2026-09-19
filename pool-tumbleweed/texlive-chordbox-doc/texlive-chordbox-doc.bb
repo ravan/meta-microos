@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chordbox"
 DESCRIPTION = "This package includes the documentation for texlive-chordbox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn51000"
+PV = "2026.226.1.0svn51000"
 
-RPM_NAME = "texlive-chordbox-doc-2023.209.1.0svn51000-54.1.noarch.rpm"
-RPM_HASH = "c799de8b4a4b68ab476e0eab44a92fba63ad8ffd45506b37cec3af625d13e7ca7af0a6219e21eb89fd8b309e9fabe3408439096425deb3cbfbe679fa894a8b76"
+RPM_NAME = "texlive-chordbox-doc-2026.226.1.0svn51000-60.2.noarch.rpm"
+RPM_HASH = "55b10be489089204f369383e7ee627f6a82e13358128c9d3ee26d9a46c313b1ad66e85619a033fa6af3f474b3fce0c0c81e220e905957caa0437378ee390f49e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chordbox-doc"

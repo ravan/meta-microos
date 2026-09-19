@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause-LBNL"
 
 PV = "3.8.1"
 
-RPM_NAME = "perl-warewulf-common-3.8.1-7.8.noarch.rpm"
-RPM_HASH = "10a811f8c92a2b0b1521a61514e022527cf6355d81a300a230e04c8be3eba432da2860ef97350d11de9f32abfd6516663f02268fb6dc91c9032bffb653eb6af6"
+RPM_NAME = "perl-warewulf-common-3.8.1-14.10.noarch.rpm"
+RPM_HASH = "627cf6df3442e1a24d29a859f8b735ad29ef5809a91c09d7d62f19edb01b4d619399d82e06dbda09eb695403183df6aa6ca9987ac53a06b46d9b5b538f6de885"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-perl-warewulf-common \
@@ -67,7 +67,8 @@ perl-Warewulf--Util \
 perl-warewulf-common"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-perl--MODULE-COMPAT-5.38.0 \
-perl-DBD-mysql"
+perl--MODULE-COMPAT-5.44.0 \
+perl-DBD-mysql \
+sysuser-shadow"
 
 inherit rpm

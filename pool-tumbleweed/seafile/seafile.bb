@@ -4,15 +4,16 @@ called libraries, and each library can be synced separately. A library can also 
 Seafile also allows users to create groups and easily sharing files into groups."
 LICENSE = "GPL-2.0-only"
 
-PV = "9.0.3"
+PV = "9.0.21"
 
-RPM_NAME = "seafile-9.0.3-1.1.aarch64.rpm"
-RPM_HASH = "1aca20ac3c50be7bc91c9d78370f7ba231644cb942bcf8d740b6a162cb7b8087edfb0317d25b520c9052402c648350515c78a975ef5597969573baaac1d90ca7"
+RPM_NAME = "seafile-9.0.21-1.1.aarch64.rpm"
+RPM_HASH = "d8b504d60ce7a1a949024ad8e20b1960f833afd0f47a070685894ed3776e5da3d1a154f07a4c13af549d49e26a371cbfbac8d2d179614db6066eb379014757aa"
 
 RPROVIDES:${PN} += "seafile"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
+libargon2.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libcurl.so.4 \
@@ -25,6 +26,7 @@ libsearpc.so.1 \
 libsqlite3.so.0 \
 libssl.so.3 \
 libuuid.so.1 \
+libwebsockets.so.22 \
 libz.so.1 \
 python-abi"
 

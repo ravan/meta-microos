@@ -1,18 +1,19 @@
-SUMMARY = "Shared library for xxHash - a non-cryptographic hash algorithm"
-DESCRIPTION = "Shared library for xxHash - a hash algorithm. It completes the SMHasher test \
-suite which evaluates collision, dispersion and randomness qualities of hash \
-functions. Hashes are identical on all platforms."
+SUMMARY = "Non-cryptographic hash algorithm"
+DESCRIPTION = "xxHash is a hash algorithm. It completes the SMHasher test suite which \
+evaluates collision, dispersion and randomness qualities of hash functions. \
+Hashes are identical on all platforms."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.8.1"
+PV = "0.8.3"
 
-RPM_NAME = "libxxhash0-0.8.1-3.4.aarch64.rpm"
-RPM_HASH = "62adde8a0802f48a94a9b53f6a8c5bd0640c4a46b99935c62e864bf760ffe8cdb45f6813aa1b674e1fb752cdd23dad52f57974d124c9ab8369fa6f2d05458893"
+RPM_NAME = "libxxhash0-0.8.3-1.8.aarch64.rpm"
+RPM_HASH = "2f9f02dfcd2a35b66d0cb45747705ce272cad5701f688db47c400f229e677316395526f1d40250b7afb74e53bbb4466e6eedac74ad078ccbcafa3a394940c8b9"
 
 RPROVIDES:${PN} += "libxxhash.so.0 \
 libxxhash0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libc.so.6"
 
 inherit rpm

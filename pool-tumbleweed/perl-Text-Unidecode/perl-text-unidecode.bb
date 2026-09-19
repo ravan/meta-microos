@@ -25,13 +25,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.30"
 
-RPM_NAME = "perl-Text-Unidecode-1.30-2.41.noarch.rpm"
-RPM_HASH = "7a640afc6d4e50df6a027eb831f4f599aacab2eb63364627d63d6c1f75cd0208e27db9541742b874208283eed808be9a4808839bc324d3fd20595ca680b3bf21"
+RPM_NAME = "perl-Text-Unidecode-1.30-2.58.noarch.rpm"
+RPM_HASH = "21b1391ce8cfe3a08e6076348aec84d568865a41087c827b7eb3ee3e680bd280ab395ab86d4a79e5e361dce3b1d00921fc79eefa5728d171bfca66ad27ad7150"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Unidecode \
 perl-Text-Unidecode"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

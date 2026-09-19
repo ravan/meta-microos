@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-testhyphens"
 DESCRIPTION = "This package includes the documentation for texlive-testhyphens"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn38928"
+PV = "2026.227.1.0svn73486"
 
-RPM_NAME = "texlive-testhyphens-doc-2023.209.0.0.7svn38928-55.1.noarch.rpm"
-RPM_HASH = "38c7deeb3d76f3a45c3efb87e06bd7ccba0e963dcbf9b9db62606a066c89c9aabbd1100f0953d4fb0a154a868f200bf4c4303d0d1e3425009ccf994eebe6aa24"
+RPM_NAME = "texlive-testhyphens-doc-2026.227.1.0svn73486-62.2.noarch.rpm"
+RPM_HASH = "72247de6cda04ca83e4323c287e1ad5e4f3c7223a4506c9a6554a042008df5aa4ca5d6843521410aea6def2e0fde7bbf8eeead6609814b52afa8fc5ecc0482ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-testhyphens-doc"

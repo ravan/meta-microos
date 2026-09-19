@@ -2,14 +2,18 @@ SUMMARY = "Development package for libksieve"
 DESCRIPTION = "This package contains development headers of libksieve."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libksieve-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "ae48e5d97677a72e7e7c04ba2aa9039971ab722c0a2e5802809d55f1b453abfc1dd134b112ffee5197db5bd92df375b4782acc0f34047b9c8cd2e3c96bf355ed"
+RPM_NAME = "libksieve-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "a4eb88f2de89011d3b42814f7c30bc86f6dc5f21a2cc5ba2c126ac89874354b6ac10279d98d16ed4ecfed770a85c124860bd35c46567f4702e50ce36e3527975"
 
-RPROVIDES:${PN} += "cmake-KPim5LibKSieve \
+RPROVIDES:${PN} += "cmake-KPim6KManageSieve \
+cmake-KPim6KSieve \
+cmake-KPim6KSieveCore \
+cmake-KPim6KSieveUi \
 libksieve-devel"
 
-RDEPENDS:${PN} += "libksieve5"
+RDEPENDS:${PN} += "cmake-KF6SyntaxHighlighting \
+libksieve6"
 
 inherit rpm

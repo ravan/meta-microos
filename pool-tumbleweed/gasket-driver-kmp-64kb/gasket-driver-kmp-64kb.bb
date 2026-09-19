@@ -2,24 +2,173 @@ SUMMARY = "Gasket Driver kernel modules"
 DESCRIPTION = "The Linux Kernel Module Package for the Coral Gasket Driver."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.18_k6.4.12_1"
+PV = "1.0.18_5815ee3_k7.2.5_1"
 
-RPM_NAME = "gasket-driver-kmp-64kb-1.0.18_k6.4.12_1-2.6.aarch64.rpm"
-RPM_HASH = "aa58e0df62584bed1821c4d45d795a508ca54781cc64447f8ba6f9981174976fe40122a551414dd5ac5953eb18f2fd7168b8ecb5c6d8421c8247979e9d7aa0b9"
+RPM_NAME = "gasket-driver-kmp-64kb-1.0.18_5815ee3_k7.2.5_1-6.16.aarch64.rpm"
+RPM_HASH = "2087768fc4d3b0ccfd404eae0a5d41a908c833f902e47b6329b91ed9333fe1f706d8b49ef7e7ec976566395731dbeaa68e525bd0a4cc906e2d79730ffd1a2253"
 
 RPROVIDES:${PN} += "gasket-driver-kmp \
 gasket-driver-kmp-64kb \
-gasket-driver-kmp-64kb-k6.4.12-1 \
+gasket-driver-kmp-64kb-k7.2.5-1 \
 kmod-apex.ko \
 kmod-gasket.ko \
+ksym-64kb-gasket-disable-device \
+ksym-64kb-gasket-enable-device \
+ksym-64kb-gasket-get-ioctl-permissions-cb \
+ksym-64kb-gasket-interrupt-init \
+ksym-64kb-gasket-interrupt-msix-cleanup \
+ksym-64kb-gasket-interrupt-reinit \
+ksym-64kb-gasket-mm-unmap-region \
+ksym-64kb-gasket-num-name-lookup \
+ksym-64kb-gasket-page-table-are-addrs-bad \
+ksym-64kb-gasket-page-table-is-dev-addr-bad \
+ksym-64kb-gasket-page-table-map \
+ksym-64kb-gasket-page-table-map-dmabuf \
+ksym-64kb-gasket-page-table-max-size \
+ksym-64kb-gasket-page-table-num-active-pages \
+ksym-64kb-gasket-page-table-num-entries \
+ksym-64kb-gasket-page-table-num-simple-entries \
+ksym-64kb-gasket-page-table-partition \
+ksym-64kb-gasket-page-table-unmap \
+ksym-64kb-gasket-page-table-unmap-all \
+ksym-64kb-gasket-page-table-unmap-dmabuf \
+ksym-64kb-gasket-pci-add-device \
+ksym-64kb-gasket-pci-remove-device \
+ksym-64kb-gasket-platform-add-device \
+ksym-64kb-gasket-platform-remove-device \
+ksym-64kb-gasket-register-device \
+ksym-64kb-gasket-reset \
+ksym-64kb-gasket-reset-nolock \
+ksym-64kb-gasket-set-dma-device \
+ksym-64kb-gasket-sysfs-create-entries \
+ksym-64kb-gasket-sysfs-get-attr \
+ksym-64kb-gasket-sysfs-get-device-data \
+ksym-64kb-gasket-sysfs-put-attr \
+ksym-64kb-gasket-sysfs-put-device-data \
+ksym-64kb-gasket-sysfs-register-store \
+ksym-64kb-gasket-unregister-device \
+ksym-64kb-gasket-wait-with-reschedule \
 multiversion-kernel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
-gasket-driver-ueficert \
 grep \
 kernel-64kb \
-kernel-uname-r \
+ksym-64kb---arch-copy-from-user \
+ksym-64kb---arch-copy-to-user \
+ksym-64kb---dma-sync-single-for-device \
+ksym-64kb---dynamic-dev-dbg \
+ksym-64kb---dynamic-pr-debug \
+ksym-64kb---folio-put \
+ksym-64kb---fortify-panic \
+ksym-64kb---ioremap-prot \
+ksym-64kb---kmalloc-cache-noprof \
+ksym-64kb---kmalloc-noprof \
+ksym-64kb---list-add-valid-or-report \
+ksym-64kb---list-del-entry-valid-or-report \
+ksym-64kb---msecs-to-jiffies \
+ksym-64kb---pci-register-driver \
+ksym-64kb---release-region \
+ksym-64kb---request-region \
+ksym-64kb---sg-page-iter-next \
+ksym-64kb---sg-page-iter-start \
+ksym-64kb---stack-chk-fail \
+ksym-64kb---warn-printk \
+ksym-64kb--dev-err \
+ksym-64kb--dev-warn \
+ksym-64kb--printk \
+ksym-64kb--raw-read-lock \
+ksym-64kb--raw-read-unlock \
+ksym-64kb--raw-write-lock-irqsave \
+ksym-64kb--raw-write-unlock-irqrestore \
+ksym-64kb-alt-cb-patch-nops \
+ksym-64kb-arm64-use-ng-mappings \
+ksym-64kb-cancel-delayed-work-sync \
+ksym-64kb-capable \
+ksym-64kb-cdev-add \
+ksym-64kb-cdev-del \
+ksym-64kb-cdev-init \
+ksym-64kb-class-create \
+ksym-64kb-class-destroy \
+ksym-64kb-d-path \
+ksym-64kb-delayed-work-timer-fn \
+ksym-64kb-device-create \
+ksym-64kb-device-create-file \
+ksym-64kb-device-destroy \
+ksym-64kb-device-remove-file \
+ksym-64kb-dma-alloc-attrs \
+ksym-64kb-dma-buf-attach \
+ksym-64kb-dma-buf-detach \
+ksym-64kb-dma-buf-get \
+ksym-64kb-dma-buf-map-attachment \
+ksym-64kb-dma-buf-put \
+ksym-64kb-dma-buf-unmap-attachment \
+ksym-64kb-dma-free-attrs \
+ksym-64kb-dma-map-page-attrs \
+ksym-64kb-dma-mmap-attrs \
+ksym-64kb-dma-set-coherent-mask \
+ksym-64kb-dma-set-mask \
+ksym-64kb-dma-unmap-page-attrs \
+ksym-64kb-dump-stack \
+ksym-64kb-dynamic-cond-resched \
+ksym-64kb-eventfd-ctx-fdget \
+ksym-64kb-eventfd-ctx-put \
+ksym-64kb-eventfd-signal-mask \
+ksym-64kb-free-irq \
+ksym-64kb-free-pages \
+ksym-64kb-get-device \
+ksym-64kb-get-user-pages-fast \
+ksym-64kb-get-zeroed-page-noprof \
+ksym-64kb-iomem-resource \
+ksym-64kb-iounmap \
+ksym-64kb-kernel-param-lock \
+ksym-64kb-kernel-param-unlock \
+ksym-64kb-kfree \
+ksym-64kb-kmalloc-caches \
+ksym-64kb-kstrtoint \
+ksym-64kb-kstrtoull \
+ksym-64kb-memcpy \
+ksym-64kb-memset \
+ksym-64kb-memstart-addr \
+ksym-64kb-module-layout \
+ksym-64kb-msleep \
+ksym-64kb-mutex-init-generic \
+ksym-64kb-mutex-lock \
+ksym-64kb-mutex-unlock \
+ksym-64kb-ns-capable \
+ksym-64kb-param-ops-bool \
+ksym-64kb-param-ops-int \
+ksym-64kb-pci-bus-assign-resources \
+ksym-64kb-pci-disable-device \
+ksym-64kb-pci-disable-msix \
+ksym-64kb-pci-enable-device \
+ksym-64kb-pci-enable-msix-range \
+ksym-64kb-pci-match-id \
+ksym-64kb-pci-set-master \
+ksym-64kb-pci-unregister-driver \
+ksym-64kb-prot-ns-shared \
+ksym-64kb-put-device \
+ksym-64kb-queue-delayed-work-on \
+ksym-64kb-random-kmalloc-seed \
+ksym-64kb-refcount-warn-saturate \
+ksym-64kb-register-chrdev-region \
+ksym-64kb-remap-pfn-range \
+ksym-64kb-request-threaded-irq \
+ksym-64kb-rsi-present \
+ksym-64kb-schedule-timeout \
+ksym-64kb-scnprintf \
+ksym-64kb-sized-strscpy \
+ksym-64kb-snprintf \
+ksym-64kb-strcmp \
+ksym-64kb-strnlen \
+ksym-64kb-sysfs-create-link \
+ksym-64kb-system-percpu-wq \
+ksym-64kb-task-active-pid-ns \
+ksym-64kb-timer-init-key \
+ksym-64kb-unregister-chrdev-region \
+ksym-64kb-vfree \
+ksym-64kb-vzalloc-noprof \
+ksym-64kb-zap-special-vma-range \
 suse-kernel-rpm-scriptlets"
 
 inherit rpm

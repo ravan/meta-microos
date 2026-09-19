@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.0"
 
-RPM_NAME = "babelstone-phags-pa-fonts-2.0-3.17.noarch.rpm"
-RPM_HASH = "776218feffe7f7d4cac6b367c9f28d712a7ff4ed5acb534055a603bd68f4d84a988dd9636d452f549e243ad922b9e841503cd381651119cd7e4cf5682f217bb3"
+RPM_NAME = "babelstone-phags-pa-fonts-2.0-3.25.noarch.rpm"
+RPM_HASH = "5d7f67a0d234753c0cc1e9bc89c774eb55e8014dd0dd18de1b53912ffb9a726ebe53c6ea21e5f68315b4405240a01b4e368fc288fbdf814f0b95a634eaec5d0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "babelstone-phags-pa-fonts"

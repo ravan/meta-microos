@@ -6,17 +6,20 @@ cards (NICs), SATA controller cards, and other external devices which can \
 program flash chips."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.2"
+PV = "1.8.0+git0.90b6b437"
 
-RPM_NAME = "libflashrom1-1.2-4.6.aarch64.rpm"
-RPM_HASH = "1d3bcb09a5a5b6dd40395198801ea6aeab491d9f1c81520b237d3435f1c5278a26c18cdf3b24073cd45ee60c19cc19d91fdf6a41df641a4e873bbd4538c85192"
+RPM_NAME = "libflashrom1-1.8.0+git0.90b6b437-1.1.aarch64.rpm"
+RPM_HASH = "000e5f143e2abb9ba4e494464836cb734ba6fe0e897c2c35021bfec2dc9aaab85a7edcf7ffd2827c663c7402cffeee5254ba6bc8ca1d8b8c0b5e4f65ed6ac689"
 
 RPROVIDES:${PN} += "libflashrom.so.1 \
 libflashrom1"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libftdi1.so.2 \
+libjaylink.so.0 \
+libpci.so.3 \
 libusb-1.0.so.0"
 
 inherit rpm

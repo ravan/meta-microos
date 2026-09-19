@@ -12,10 +12,10 @@ super-scalar architectures. \
 This package contains the library of the libint package."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "2.7.2"
+PV = "2.11.0"
 
-RPM_NAME = "libint2-2-2.7.2-2.4.aarch64.rpm"
-RPM_HASH = "df3d39342c0757df5e5cb30f7e0d275b004398a010874f968275f6aa40452ece192e2782a38faeb46c86d1eb780f0d069556d0c18e6203b70e5c947ff298842f"
+RPM_NAME = "libint2-2-2.11.0-1.4.aarch64.rpm"
+RPM_HASH = "16ce1e06e4ec0eee9ed24ad68cc5620a7a601dc7a8a2dd5c54e0bdc927bdeb19a3a387cab6a0a213e85e08123ef04d650662b89372a24b530cd4682b08d72099"
 
 RPROVIDES:${PN} += "libint2-2 \
 libint2.so.2"
@@ -23,6 +23,7 @@ libint2.so.2"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libgcc-s.so.1 \
 libstdc++.so.6"
 
 inherit rpm

@@ -1,16 +1,16 @@
 SUMMARY = "Development files for libmirisdr"
-DESCRIPTION = "Library headers and other development files for mirisdr driver."
-LICENSE = "GPL-2.0"
+DESCRIPTION = "Library headers and other development files for the mirisdr driver."
+LICENSE = "GPL-2.0-or-later"
 
-PV = "0.0.0+git.20130608"
+PV = "2.0.0"
 
-RPM_NAME = "libmirisdr-devel-0.0.0+git.20130608-1.25.aarch64.rpm"
-RPM_HASH = "cf3171d9669c61410a8beafe8e4478c17d068e6f86a92567fa045dc3916caa87435f09af46e92b9c5227cd45dd6ad70177c75d316e825f7144ec9210825bb3af"
+RPM_NAME = "libmirisdr-devel-2.0.0-1.1.aarch64.rpm"
+RPM_HASH = "4cd183c2c13f79036024c338dc4dffe89a22112d37b3a384bb07a097bd07d1c097d545af12f729d5b2d275d69fba39537530f0cc51ab2830b39dd283c95a511f"
 
 RPROVIDES:${PN} += "libmirisdr-devel \
 pkgconfig-libmirisdr"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libmirisdr"
+libmirisdr4"
 
 inherit rpm

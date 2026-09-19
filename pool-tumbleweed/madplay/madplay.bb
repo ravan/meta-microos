@@ -5,15 +5,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.15.2b"
 
-RPM_NAME = "madplay-0.15.2b-2.15.aarch64.rpm"
-RPM_HASH = "2ee59c3e5c75187a72c007cfee8a5fb907da0ce2c94cb4c88de732f63c4409b29b107913ac29caa24e0586a34426a6273b74bae950ac81be141cda62145e5656"
+RPM_NAME = "madplay-0.15.2b-3.11.aarch64.rpm"
+RPM_HASH = "2d0d2dd6d5d2d76222d7a59adbc47b0a4c9ef19a51ca4e6d44f356bee464a72f2418553025020133bca248b79ae7df25da21bb9b264cf24aaa30305e5cc1ee3c"
 
 RPROVIDES:${PN} += "madplay"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \
-libid3tag.so.0.16.2 \
+libid3tag.so.0 \
 libm.so.6 \
 libmad.so.0"
 

@@ -2,17 +2,17 @@ SUMMARY = "Network access framework for IPv4/IPv6"
 DESCRIPTION = "net6 is a library which eases the development of network-based \
 applications as it provides a TCP protocol abstraction for C++. It is \
 portable to both the Windows and Unix-like platforms."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.14"
 
-RPM_NAME = "net6-1.3.14-12.27.aarch64.rpm"
-RPM_HASH = "21d05a4d8c89893ef6cb820922a7954623000e0187edac96487161fac6a1a1983b36ed230844ae70f08e2fccb8830984b79f832c5c859407006d5efffebb7787"
+RPM_NAME = "net6-1.3.14-13.9.aarch64.rpm"
+RPM_HASH = "490de68c511701915df205ebd0c9e09fe91ea78b931d0dd99406bbb952c06da08a5842e84584c41f1dde07bdaba35a761290794d09a377a42603bd4d54d50326"
 
 RPROVIDES:${PN} += "libnet6-1.3.so.0 \
 net6"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

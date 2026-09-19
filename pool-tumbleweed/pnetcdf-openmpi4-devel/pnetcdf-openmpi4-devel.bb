@@ -5,13 +5,13 @@ scientific data. \
 Parallel netCDF (PnetCDF) maintains file-format compatibility with NetCDF. \
  \
 This package contains all files needed to create projects that use \
-the openmpi version of PnetCDF."
+the openmpi4 version of PnetCDF."
 LICENSE = "NetCDF"
 
-PV = "1.12.3"
+PV = "1.14.1"
 
-RPM_NAME = "pnetcdf-openmpi4-devel-1.12.3-1.4.aarch64.rpm"
-RPM_HASH = "defd8cc39fb705275d860b86d91b0a120a6518d0804b175d774735a7a28889b7affb710e9d801371884da78256741b7048d96ec15287b07ee4f2a86a1845553b"
+RPM_NAME = "pnetcdf-openmpi4-devel-1.14.1-1.3.aarch64.rpm"
+RPM_HASH = "a32e254a0f4fab9c9803a8e17ae7a611c07f4699e10b291266413b8246ab2f6c0defa90e59d99dbfdb348c1ee1e57dc7e5325248cfc128ee0e37243c5f7f5251"
 
 RPROVIDES:${PN} += "parallel-netcdf-openmpi4-devel \
 pkgconfig-pnetcdf \

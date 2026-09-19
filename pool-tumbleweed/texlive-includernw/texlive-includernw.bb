@@ -6,10 +6,10 @@ Windows. It is tested only on OS X, and will probably also work \
 on standard Linux distros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.0svn47557"
+PV = "2026.226.0.0.1.0svn47557"
 
-RPM_NAME = "texlive-includernw-2023.209.0.0.1.0svn47557-54.1.noarch.rpm"
-RPM_HASH = "bb4e810106e5539da759ac2214f6172bfa154c53008d9985b781e8778becebff967ce6463495929e47c541ec3fed536d28523024c6b0dad03fe4abb5b592e4c1"
+RPM_NAME = "texlive-includernw-2026.226.0.0.1.0svn47557-60.2.noarch.rpm"
+RPM_HASH = "c6c8377bae3a2b9e5b5c3a1c1d0b1a320390967b48d758fad39b740798f0fb6377e66e4ec84c5783c7fecb09acea2ae6a390571b98bb7c0b65de583212e03c15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-includeRnw.sty \

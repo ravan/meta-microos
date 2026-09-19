@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.5"
 
-RPM_NAME = "libyaml-0-2-0.2.5-2.4.aarch64.rpm"
-RPM_HASH = "2691f173483aa4e62669e1b950bb7e985e53a379d84397194f775705abc33a6bf656a6472d09ebee2176d6fedbec45c3c41829d9851a13631daf231fdf91364a"
+RPM_NAME = "libyaml-0-2-0.2.5-2.14.aarch64.rpm"
+RPM_HASH = "f498b37bcc503049594ed7f0710d4a704afd8119abb27a415d9c8adb0b3150c3fc488d8c91fb22578e48668bc3a1663e15e43db42b42b6f236fd50fe5acee0ea"
 
 RPROVIDES:${PN} += "libyaml-0-2 \
 libyaml-0.so.2"

@@ -8,10 +8,10 @@ common controls like dialog windows, push buttons, check boxes, \
 radio buttons, input lines, list boxes, status bars and so on."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.9.0"
+PV = "0.9.1"
 
-RPM_NAME = "libfinal-examples-0.9.0-1.2.aarch64.rpm"
-RPM_HASH = "783a87724b4f4b3f39ae3ff9358df83cfdf381d53b385abd549516969b8ecf8d439c52589379582a11a355e09ae935b6b7d03962f815ae5b9a96a61938be0114"
+RPM_NAME = "libfinal-examples-0.9.1-1.10.aarch64.rpm"
+RPM_HASH = "8fa24313082947745dc0e10c067be225321b885986fdb78bb94a79ec083304a548c9ab54a6444ca646d5dc1817fccaee009e490afe9ed114bd2936e866567cc3"
 
 RPROVIDES:${PN} += "libfinal-examples"
 

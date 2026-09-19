@@ -2,10 +2,10 @@ SUMMARY = "Translations for package zenity"
 DESCRIPTION = "Provides translations for the 'zenity' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.99.0"
+PV = "4.2.2"
 
-RPM_NAME = "zenity-lang-3.99.0-1.1.noarch.rpm"
-RPM_HASH = "83359b633336b8b23d4a48e473dab74f91f930f7b6181b04213f6b8cba3d7d47a727c888586f4cdcc89dbb84c18b56614f7b6970d786b5b1c39015047988f10d"
+RPM_NAME = "zenity-lang-4.2.2-1.3.noarch.rpm"
+RPM_HASH = "9608960e7ab7b2c5a49c81bf03b594d7da2b99d78a9c79c513fd9a98a4a5f0dbb2cb9e801d695c2129a978878d099979cfa1ced99c7f5cb7cb9bcb11dfe56990"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-zenity-af \

@@ -2,10 +2,10 @@ SUMMARY = "DjVu document support for Evince"
 DESCRIPTION = "A plugin for Evince to read DjVu documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "48.4"
 
-RPM_NAME = "evince-plugin-djvudocument-44.3-1.1.aarch64.rpm"
-RPM_HASH = "829d02b905ee5d7ecf4fd333a4c8da4b8e72e1d5d9f2977eac54c251865ffd6072f4efd10708f02334c9a61423583bbdfaff07cf4b9258240c2d5c9618a6580a"
+RPM_NAME = "evince-plugin-djvudocument-48.4-2.1.aarch64.rpm"
+RPM_HASH = "58048638e7de6d5e35a88a437845ad0419306b71ba44753a37352e11cba922b0ac11e050a26ce950d16993b37ed592697f48c8eec0baa5c25f24436f25a37bdf"
 
 RPROVIDES:${PN} += "evince-plugin-djvudocument \
 libdjvudocument.so"

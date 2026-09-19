@@ -7,8 +7,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "1.0.1"
 
-RPM_NAME = "libnbcompat-devel-1.0.1-3.1.aarch64.rpm"
-RPM_HASH = "26994de58e64dfb7507ab07ba6ef0e908cba0c8fc30109a4522ca34593f258c62959e641ff62d1be29372cc666ff320c69fe3b58202bb31611b55ad4b4dfc073"
+RPM_NAME = "libnbcompat-devel-1.0.1-3.12.aarch64.rpm"
+RPM_HASH = "699de90f3bbe80ed35867367d45d3172fa74cd6fc95094c6227c42ed0c16b3b6d39a9d332c51eef87efa15df7e8a737c360f6d334a59d4caa81b8d24af94c888"
 
 RPROVIDES:${PN} += "libnbcompat-devel"
 

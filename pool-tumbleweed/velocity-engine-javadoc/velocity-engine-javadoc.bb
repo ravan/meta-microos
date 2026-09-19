@@ -23,10 +23,10 @@ applications to be developed according to a true MVC model. \
 This package contains Javadoc documentation"
 LICENSE = "Apache-2.0"
 
-PV = "2.3"
+PV = "2.4.1"
 
-RPM_NAME = "velocity-engine-javadoc-2.3-3.10.noarch.rpm"
-RPM_HASH = "b30bfa6f03b1fb2b5096a1d1626f0472ca8a9ce33e88af9556e512d301696f5ff649ad7e2a901c91d8b6c80aaf2ebdfad93946eb1c135db38b9ae3539a3eefa6"
+RPM_NAME = "velocity-engine-javadoc-2.4.1-1.4.noarch.rpm"
+RPM_HASH = "0b78b9a66afef3d0e755bf2da210219990dd5777dd558af55b61437612f564155c2cdcdffdfa7d6ac7ed73f1711c7a72d0edd18bdb394792e73cbc5289e14b92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "velocity-engine-javadoc"

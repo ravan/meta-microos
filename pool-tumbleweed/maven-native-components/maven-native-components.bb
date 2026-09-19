@@ -2,10 +2,10 @@ SUMMARY = "Maven Native Components"
 DESCRIPTION = "Maven Native Components."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "1.0~alpha11"
+PV = "1.0.0"
 
-RPM_NAME = "maven-native-components-1.0~alpha11-4.9.noarch.rpm"
-RPM_HASH = "73cce2e354dff2fb69759c1ab2859b05bcc670bfce97798efdde50c64aca2a4255819dbf91c06f505f7b300cc8c39c947701bbf89999910c32142fb1b1e9a363"
+RPM_NAME = "maven-native-components-1.0.0-1.2.noarch.rpm"
+RPM_HASH = "851c08c15c32752770f1e1590e3927ebbfdecdb7feae041ffc295a5a8a37269d9ad763b454c82b8cd3f7c6414bf6ea0a56029b6a60d914570688453742d3895b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-native-components \
@@ -27,6 +27,7 @@ RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-org.codehaus.mojo.natives-maven-native-api \
 mvn-org.codehaus.plexus-plexus-container-default \
-mvn-org.codehaus.plexus-plexus-utils"
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.codehaus.plexus-plexus-xml"
 
 inherit rpm

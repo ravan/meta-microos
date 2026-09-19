@@ -5,10 +5,10 @@ environment. \
 This subpackage contains the header files for creating gedit plugins."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "50.0"
 
-RPM_NAME = "gedit-devel-44.2-1.5.aarch64.rpm"
-RPM_HASH = "5331f7ed3a4da6e09f7691766cbae31d394064988a22dd744591e89c5351091d29f9d84857b3129cc28223934e62a30987f30554b914a0d9c3b4b183cbca7ab0"
+RPM_NAME = "gedit-devel-50.0-1.3.aarch64.rpm"
+RPM_HASH = "6a8cddfe642407cc806c2eafb0fe81f05dbd212f4e38a6909529cfe3753bc4631afd53e4b968706bc3d000c65d6de601aa3fa449993379692a849c558752ccc5"
 
 RPROVIDES:${PN} += "gedit-devel \
 gedit-doc \
@@ -17,12 +17,9 @@ pkgconfig-gedit"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gedit \
-gtksourceview-devel \
-pkgconfig-amtk-5 \
 pkgconfig-gio-2.0 \
 pkgconfig-gtk+-3.0 \
-pkgconfig-libpeas-gtk-1.0 \
-pkgconfig-tepl-6 \
-python3-gedit"
+pkgconfig-libgedit-tepl-6 \
+pkgconfig-libpeas-gtk-1.0"
 
 inherit rpm

@@ -4,10 +4,10 @@ This is a community edition syncing with platex. The bundle \
 depends on platex."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-uplatex-2023.209.svn66186-54.1.noarch.rpm"
-RPM_HASH = "f75b26a558a2146396f392897ee030e6a3ea74982336b914e6b35e823289e990bdfb7f4c68ba2da8d9a855057839c8cc6dbd03c931274edc3f336b0e5918f65e"
+RPM_NAME = "texlive-uplatex-2026.226.svn77830-60.2.noarch.rpm"
+RPM_HASH = "aa9670ebbf80fd3bdb17ff9c77fdff17801d983db8294b5e6bd9f75ab21f0fc736946bae933e5e3d877add69556ae4d69382772a6d560d5709eb397e79f6514d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jt2gt.fd \
@@ -48,19 +48,18 @@ tex-language.def \
 tex-plext.sty \
 tex-ptrace.sty \
 texlive \
-texlive-atbegshi \
-texlive-atveryend \
 texlive-babel \
 texlive-cm \
-texlive-everyshi \
 texlive-filesystem \
 texlive-firstaid \
 texlive-hyphen-base \
+texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-l3backend \
+texlive-l3backend-dev \
 texlive-l3kernel \
-texlive-l3packages \
+texlive-l3kernel-dev \
 texlive-latex \
 texlive-latex-base-dev \
 texlive-latex-firstaid-dev \

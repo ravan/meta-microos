@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libmateweather"
 DESCRIPTION = "Provides translations for the 'libmateweather' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.2"
 
-RPM_NAME = "libmateweather-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "bf8563f1b1a3361e0943b46cfeb476fcf16024165d642a2da552b5de16e37b320ccd49adc2d1e3d804d10a3aecd8a96728ac535d63bc21961f3690d0cdc3c29e"
+RPM_NAME = "libmateweather-lang-1.28.2-1.4.noarch.rpm"
+RPM_HASH = "0cda50f38a74cd8a4c49cc82cb7d869ba6ab660a64afe33e4df2186f4198cabfb0f69db8c8d33616cfdec9b6886199dfa378a71ddfec0b5db1e990f3b80b070f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmateweather-lang \

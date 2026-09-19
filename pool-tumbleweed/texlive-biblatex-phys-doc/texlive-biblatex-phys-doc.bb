@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-phys"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-phys"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1bsvn55643"
+PV = "2026.226.1.1esvn74898"
 
-RPM_NAME = "texlive-biblatex-phys-doc-2023.209.1.1bsvn55643-54.1.noarch.rpm"
-RPM_HASH = "73d2e7db0f45c6590f079a659030eb3b83f8db2e1f29407c0518ec26a7fa0e88cd3ac7080524be826d60edebe18ef43cda3e642b9c02ee22263814b538ed6e6b"
+RPM_NAME = "texlive-biblatex-phys-doc-2026.226.1.1esvn74898-61.2.noarch.rpm"
+RPM_HASH = "a3df72f6e4507d9554007010e927113458b0b662b6e3d8e617b1e216950c67d882ae5d1906966617357016e4b9e5279889077556badac2f4502832a6a15ccc23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-phys-doc"

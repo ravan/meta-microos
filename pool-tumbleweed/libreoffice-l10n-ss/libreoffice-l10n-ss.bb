@@ -2,10 +2,10 @@ SUMMARY = "Swati localization files for LibreOffice"
 DESCRIPTION = "Provides Swati translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-ss-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "d06835efe0c854fa7b9d1cf38728cd53de71db2971a8c61fe1d302356139f0991cdb7b568d0bab707ff26e19a235c0924ddef5afb1d1e4d4fca3b81a89ba04f1"
+RPM_NAME = "libreoffice-l10n-ss-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "a3375238f33a6ab9676232a98767abb98a6c9537e169e1bec39e7642e7f74f3b97abe7a1a68e7187f523b50709c9f0b0cbb1bc3b6220ae30f652ed284096ffea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ss \

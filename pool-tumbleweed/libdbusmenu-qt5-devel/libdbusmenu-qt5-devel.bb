@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.9.3+16.04.20160218"
 
-RPM_NAME = "libdbusmenu-qt5-devel-0.9.3+16.04.20160218-1.14.aarch64.rpm"
-RPM_HASH = "80493ff43d1e321acfd126950e1a5bfa853a5643b07a6290e712890fd707ff0de782f5bb7136d70d6b9d2b045e270f64253f7b69225ec0aa0b1de85a71db1bed"
+RPM_NAME = "libdbusmenu-qt5-devel-0.9.3+16.04.20160218-3.7.aarch64.rpm"
+RPM_HASH = "3eebbfcf23defe748075fd5b3d2ffe718c274ba0f79806fffcb0a06697fc8c5168f06fce44defd90bd25a197d5179882e6b5532ba22bad82cf4ed149c0eafb39"
 
 RPROVIDES:${PN} += "cmake-dbusmenu-qt5 \
 libdbusmenu-qt5-devel \

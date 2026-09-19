@@ -2,17 +2,20 @@ SUMMARY = "Severed fonts for texlive-arabi"
 DESCRIPTION = "The  separated fonts package for texlive-arabi"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn44662"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-arabi-fonts-2023.209.1.1svn44662-55.1.noarch.rpm"
-RPM_HASH = "c8338d1fca1b06354b453a8a4911ff62b4831bd553377de4a977d267a60185306c2b6887e301808dd5d907e6fb4b2607aea59a9048cddabbc5cbba46b34b8c51"
+RPM_NAME = "texlive-arabi-fonts-2026.226.1.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "9522621b343eecac74aa36666a4f508dcf78a1e447234042902e4ac8a28ec8ce13c36fed3b800568fa8924ae8c14ceb22501f9e6a19dc46b9fd86676b314523e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ar \
 font--lang=ay \
+font--lang=ayc \
 font--lang=az-ir \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -49,7 +52,10 @@ font--lang=ku-tr \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -81,14 +87,18 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-ae-albattar \

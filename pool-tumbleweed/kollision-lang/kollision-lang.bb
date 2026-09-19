@@ -2,16 +2,16 @@ SUMMARY = "Translations for package kollision"
 DESCRIPTION = "Provides translations for the 'kollision' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kollision-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "d4a00aba47bda992b8d1eaf0c46c5e73b4d678315aba732726fc1fe31dbb2b8911d9ddeac0848c5aaeafce6f5b84717a798a9232f1e7e343e1bb8b04573f5155"
+RPM_NAME = "kollision-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "03fff2986d9d010cd8c3ca43810bb3cc25fbec83f7d0df2359e03c62370e13adeb9f92d5e9f9a1d9ff05d892ca153856331cfadb37a0c800c60b3a8b7f601101"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kollision-lang \
 kollision-lang-all \
 locale-kollision-ar \
-locale-kollision-bg \
+locale-kollision-ast \
 locale-kollision-bs \
 locale-kollision-ca \
 locale-kollision-ca@valencia \
@@ -29,8 +29,11 @@ locale-kollision-fr \
 locale-kollision-ga \
 locale-kollision-gl \
 locale-kollision-gu \
+locale-kollision-he \
+locale-kollision-hi \
 locale-kollision-hr \
 locale-kollision-hu \
+locale-kollision-ia \
 locale-kollision-id \
 locale-kollision-is \
 locale-kollision-it \

@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfwsi."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20230710"
+PV = "20260522"
 
-RPM_NAME = "libfwsi-devel-20230710-2.1.aarch64.rpm"
-RPM_HASH = "7ea4de79139aae5431e4abbf4802f2a7e5fc6eba0e91acd5af900c81f44492174a6995916af62378a4c80a77a61dadd0c0bf30f8f77ee73f9142b4a4024dad9a"
+RPM_NAME = "libfwsi-devel-20260522-1.9.aarch64.rpm"
+RPM_HASH = "749798415f24b322c412270aeac039ca7a59872dce0b5c9190626184cfd100d71d8995e37f742798601a720f6570a224c45037c1c31687da5dd457b59e3f1d45"
 
 RPROVIDES:${PN} += "libfwsi-devel \
 pkgconfig-libfwsi"

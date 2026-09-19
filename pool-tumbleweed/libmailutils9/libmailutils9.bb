@@ -5,10 +5,10 @@ libraries provide methods for handling particular mailbox \
 implementations: UNIX mailbox, Maildir, MH, POP3, IMAP4, even SMTP."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.16"
+PV = "3.21"
 
-RPM_NAME = "libmailutils9-3.16-1.3.aarch64.rpm"
-RPM_HASH = "09eddf3dd8b4551dcb46c7022446b6fd9d91815ab69fa37b561a8b018643a928cd10e12a5f45b4f17da0b608a14834dea3cc36f01f9e48e9aab274f46ea27ca3"
+RPM_NAME = "libmailutils9-3.21-1.6.aarch64.rpm"
+RPM_HASH = "fef315e12cc9cf7cf5fe087829d5b2baa92f8703759733b261847e2615883796cc54e8a0dd53464a7ec4cc45925d0f220c3940ad977c268193cc5bc6fa0dfb17"
 
 RPROVIDES:${PN} += "libmailutils.so.9 \
 libmailutils9 \
@@ -32,13 +32,13 @@ libc.so.6 \
 libcrypt.so.1 \
 libgcc-s.so.1 \
 libgnutls.so.30 \
-libgsasl.so.7 \
+libgsasl.so.18 \
 libguile-3.0.so.1 \
 libkyotocabinet.so.16 \
 liblber.so.2 \
 libldap.so.2 \
 libltdl.so.7 \
 libpam.so.0 \
-libpython3.11.so.1.0"
+libpython3.13.so.1.0"
 
 inherit rpm

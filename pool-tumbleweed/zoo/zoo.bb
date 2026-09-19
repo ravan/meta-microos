@@ -5,10 +5,10 @@ compression rate of gzip is not reached, and thus zoo should only be used \
 for decompressing old archives."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2.10"
+PV = "2.10.1"
 
-RPM_NAME = "zoo-2.10-1027.13.aarch64.rpm"
-RPM_HASH = "43ebfa5e458fc46d529cc3789eaefc6f83f628b3ca425860b8845246e2d5aff671b44e7009f5ce863e2ef52311102d5eefef9cfc974295065c54bb6144c13098"
+RPM_NAME = "zoo-2.10.1-1.1.aarch64.rpm"
+RPM_HASH = "d44fa081bd02f3fb1ce19ffe6e46649dbb4d710282090020d8c555b2aaef95ec77693b156e1e8f9d97ef8b276dea0e70e6532a811b11895dea50f8193daf10d7"
 
 RPROVIDES:${PN} += "zoo"
 

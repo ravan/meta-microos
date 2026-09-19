@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gfsartemisia"
 DESCRIPTION = "This package includes the documentation for texlive-gfsartemisia"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn19469"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-gfsartemisia-doc-2023.209.1.0svn19469-53.1.noarch.rpm"
-RPM_HASH = "f03ced8ee8ae0862f6ad2525e449bf4a840bc4a8559c58a76a5e0067e6831698c886f5be7348e54b11d4f06fedc1edc27b80cdc774a867840c16ba4964cbbdb1"
+RPM_NAME = "texlive-gfsartemisia-doc-2026.226.1.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "c4eed53424e6d2cb6b416cee927d7f8390b06da4257ea275bd17199a9ee04d2ac9f704e3c18671b74f66649bfbea2920b6d15004b604ae388959859d864d2dd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsartemisia-doc"

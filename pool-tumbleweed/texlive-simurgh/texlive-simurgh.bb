@@ -5,10 +5,10 @@ project to produce this system is dedicated to Ferdowsi The \
 Great."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.01bsvn31719"
+PV = "2026.226.0.0.01bsvn31719"
 
-RPM_NAME = "texlive-simurgh-2023.209.0.0.01bsvn31719-58.1.noarch.rpm"
-RPM_HASH = "29baa5841238868ecb09cd9b4b94ff67519b74364ce7d705ba1f78ac59ddc0727c1505ddc3977826ecdefc63b38cffcc55909d263bc00d217d4bfe7069e08e0b"
+RPM_NAME = "texlive-simurgh-2026.226.0.0.01bsvn31719-64.2.noarch.rpm"
+RPM_HASH = "da994d874c4aa384e831160383c0e551d5e209386be2b4f58c42a6c282192626283c3074c7479438ff685fff8c0f1c2d76f836567f77d65ce7b0c69be85b43c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simurgh-abjad.sty \

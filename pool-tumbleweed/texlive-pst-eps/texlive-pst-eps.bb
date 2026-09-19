@@ -4,10 +4,10 @@ images 'on the fly' to encapsulated PostScript (EPS) image \
 files, which can then be read into a document in the usual way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-pst-eps-2023.209.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "3d0366a07abe1a41330b6f851662081c6b88e4977566e9b311b50b805c279ca7101bed466dc45c148cd90ece4eb450b195e67b7f62cf9ff275a573e03fb353a6"
+RPM_NAME = "texlive-pst-eps-2026.226.1.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "d69be5137c16fd4e6df7007535f944a065217f3da496dc18f4bf07a162c66b30d330170a629577b9317beb53ce4266977fe9068c24ffe7eddbf350001794df22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-eps.sty \

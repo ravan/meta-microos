@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dejavu-otf"
 DESCRIPTION = "This package includes the documentation for texlive-dejavu-otf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.04svn45991"
+PV = "2026.226.0.0.07svn77682"
 
-RPM_NAME = "texlive-dejavu-otf-doc-2023.209.0.0.04svn45991-53.1.noarch.rpm"
-RPM_HASH = "22acc4395f28b9ad2d199aa2a3a89ce36cd19b60eea36b80640cc57e15ab7b0c5753ed213911c3ccb72b31276ae196a33863560f696eb1133ca7eaee59b8fdad"
+RPM_NAME = "texlive-dejavu-otf-doc-2026.226.0.0.07svn77682-59.2.noarch.rpm"
+RPM_HASH = "5353c0bd55938e29679d931db5e5b09634dd1155be544d742999827a90d854706663b4767d0542ceb31c3674f6756da3a9cee83ed976e00b34a34a78efd019c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dejavu-otf-doc"

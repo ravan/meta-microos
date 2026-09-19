@@ -4,10 +4,10 @@ its hosted virtual machines, allowing limited introspection of host \
 resource usage from within virtual machines."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1"
+PV = "1.2"
 
-RPM_NAME = "vhostmd-1.1-5.7.aarch64.rpm"
-RPM_HASH = "ba24159c39142b050fb7649ff50e8d70f075fa635ef2bfff114ef54f28d84e3b662c020cb18b0eacd9e59e662dcf88782aa7f2179948251c0a5048a7ca187cc0"
+RPM_NAME = "vhostmd-1.2-3.7.aarch64.rpm"
+RPM_HASH = "7a7f0bc65eca82f4b4bcb05233519926aa0f8e8ffd3ef5f080de5192e8f1d1cbdaa0b76b21155ef5b545203487d3340bcdbceeb7b5e14bac659deac3ac72840a"
 
 RPROVIDES:${PN} += "config-vhostmd \
 vhostmd"
@@ -18,6 +18,6 @@ coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libvirt.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

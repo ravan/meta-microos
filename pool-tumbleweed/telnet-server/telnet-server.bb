@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "telnet-server-1.2-176.4.aarch64.rpm"
-RPM_HASH = "311ce1b5eb164e47fe3a3c203e58bd5bbd19a61770247694ae2ee5497ab1ad4e5db873d89b13eebdd45ad296ac466ffe02e5706131ea0b1877da67eebccb7cc7"
+RPM_NAME = "telnet-server-1.2-177.10.aarch64.rpm"
+RPM_HASH = "712bae3777905bcc9164363559be9858631d87e1249c0fb731815a0599a253dcd809fc01697d3a7550334ef930ac95f59adb043f9c205d42b57f39012d45def5"
 
 RPROVIDES:${PN} += "nkitserv-/usr/sbin/in.telnetd \
 telnet-server"

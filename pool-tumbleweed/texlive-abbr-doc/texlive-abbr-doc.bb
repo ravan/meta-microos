@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-abbr"
 DESCRIPTION = "This package includes the documentation for texlive-abbr"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77161"
 
-RPM_NAME = "texlive-abbr-doc-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "34f6d7406f703b806318e74fed740d6b711808d55ca7b236eb53ae530456b9389987f3b3d36be9b79f1d61941a41fe7738fd9722c1c6b7072cc847aca6eb9796"
+RPM_NAME = "texlive-abbr-doc-2026.226.svn77161-61.2.noarch.rpm"
+RPM_HASH = "d27351e84d3ff88d126849c0f155554a86dba2b9f67cf7b9913ebbe4bde52c8f566653dc204f091d2f928c17758cb9b6eda780416b10464cb3be48cdd9afb1f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-abbr-doc"

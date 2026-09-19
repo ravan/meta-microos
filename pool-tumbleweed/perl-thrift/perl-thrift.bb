@@ -1,17 +1,12 @@
 SUMMARY = "Perl bindings to the Thrift software framework"
-DESCRIPTION = "Thrift Perl library \
- \
-Thrift is a software framework for scalable cross-language services \
-development. It combines a software stack with a code generation \
-engine to build services that work between C++, Java, C#, Python, \
-Ruby, Perl, PHP, Objective C/Cocoa, Smalltalk, Erlang, Objective \
-Caml, and Haskell."
+DESCRIPTION = "Perl bindings to the Thrift software framework."
 LICENSE = "Apache-2.0"
 
-PV = "0.17.0"
+PV = "0.24.0"
 
-RPM_NAME = "perl-thrift-0.17.0-1.10.aarch64.rpm"
-RPM_HASH = "dc130140d9ba7f842931701bc6be4207e17925e57feeeb43958244f6b21217dc05a86c69ee33a795a73394671ce5cd035cb3a87232c64db68c77f375ef2fa645"
+RPM_NAME = "perl-thrift-0.24.0-2.1.noarch.rpm"
+RPM_HASH = "294ae4cea7c735f8a5ed7d6743d3b0430e4f04f8494918aa80ba801c1fb672de0ab89abe4e168e12f6c7ad6f9edc1945e0c39cd9e06bbdb7e83ae92fc1a2c2d4"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Thrift \
 perl-Thrift--BinaryProtocol \
@@ -48,6 +43,7 @@ perl-Thrift--UnixServerSocket \
 perl-Thrift--UnixSocket \
 perl-thrift"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Bit--Vector"
 
 inherit rpm

@@ -8,10 +8,10 @@ This package contains needed files to compile and link against the \
 library."
 LICENSE = "GFDL-1.1-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "1.10.2"
+PV = "1.12.4"
 
-RPM_NAME = "libgcrypt-devel-1.10.2-2.2.aarch64.rpm"
-RPM_HASH = "d30b1be5e4f750f2acfee634b76327dd67ac011d7c276b800f51c440af49cb42f8332c3ab591c89b17547aecbcdf8cad88181bf0a3c6fdcf047f227f3f6a9f85"
+RPM_NAME = "libgcrypt-devel-1.12.4-1.1.aarch64.rpm"
+RPM_HASH = "31d7ddcd18f81115d72355066f1d6202b1f3069698bcfb7b4556eb9fa9e894987721ffe712d802059f73da0747b67c41ba73e65cbce5addbb49fd853d14d790b"
 
 RPROVIDES:${PN} += "libgcrypt-devel \
 pkgconfig-libgcrypt"
@@ -19,11 +19,11 @@ pkgconfig-libgcrypt"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
 glibc-devel \
+jitterentropy-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcrypt.so.20 \
 libgcrypt20 \
-libgpg-error-devel \
 libgpg-error.so.0 \
 pkgconfig-gpg-error"
 

@@ -2,19 +2,19 @@ SUMMARY = "Plugin for Psi"
 DESCRIPTION = "This plugin adds support for remote jabber disks into Psi+."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "1.5.1615+0"
+PV = "1.5.2112+0"
 
-RPM_NAME = "psi+-plugins-jabberdiskplugin-1.5.1615+0-3.2.aarch64.rpm"
-RPM_HASH = "482a41f97a332d2528fc93a51e207964e162e1a871f713e7ffaa45d7126432dde661344ab3a297ac347ed607cf92a5d7a307eab5c28eceae0fd7b1c0297518c0"
+RPM_NAME = "psi+-plugins-jabberdiskplugin-1.5.2112+0-1.6.aarch64.rpm"
+RPM_HASH = "69d930fa552cdbcb438600598c08fa8e1fb33206151e5f571553c5c0421a1a4407bcfe63b22f5771877bdd137740971eab495d82306d07f6201c72e60704cd44"
 
 RPROVIDES:${PN} += "libjabberdiskplugin.so \
 psi+-plugins-jabberdiskplugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

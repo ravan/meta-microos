@@ -3,10 +3,10 @@ DESCRIPTION = "The package extends ConTeXt's system of number conversion, by \
 adding numeration using cyrillic letters."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn47085"
+PV = "2026.226.svn47085"
 
-RPM_NAME = "texlive-context-cyrillicnumbers-2023.209.svn47085-55.1.noarch.rpm"
-RPM_HASH = "bdceb5fd3d55bd25fbfdac7bc5f25b83451552db6ed4af2edab6311988d218d83d103197c783d122b821df95e1d54e27abd280c4266ce026713ebc5aa56cff7f"
+RPM_NAME = "texlive-context-cyrillicnumbers-2026.226.svn47085-61.2.noarch.rpm"
+RPM_HASH = "66abd787c1bca7b0588165304285a94af7d6a779060496f743579c97be2e52afd1470dad9a4ec93577f1d2b4de28e6cf78387d1b0e853c5e5494fd950ece4f8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-cyrillicnumbers"

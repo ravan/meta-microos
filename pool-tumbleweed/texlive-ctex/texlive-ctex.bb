@@ -3,10 +3,10 @@ DESCRIPTION = "ctex is a collection of macro packages and document classes for \
 LaTeX Chinese typesetting."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.5.10svn66115"
+PV = "2026.226.2.5.10svn77682"
 
-RPM_NAME = "texlive-ctex-2023.209.2.5.10svn66115-55.1.noarch.rpm"
-RPM_HASH = "5bbd627ad76e3a29f93ada02c076900bf166a064a2f46b5109a1f7fa79da02d9e6e4b06fe57e9e1c559f033c48a2a9f802f06c3e14c3a4e523bd0b0e6b0fc581"
+RPM_NAME = "texlive-ctex-2026.226.2.5.10svn77682-61.2.noarch.rpm"
+RPM_HASH = "4fe56b22e2a67b55162a447a5f513ce9bbc37facddcfc14e10b4d4fef297229b586bc267b6bf0abe08b683df58c4b45cff9345f977dc2d76be767adc8abbceac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-c19rm.fd \
@@ -141,7 +141,6 @@ texlive-latex-bin \
 texlive-ltxcmds \
 texlive-luatexja \
 texlive-mptopdf \
-texlive-ms \
 texlive-pdftexcmds \
 texlive-platex-tools \
 texlive-scripts \

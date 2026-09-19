@@ -6,10 +6,10 @@ the following formats: pLaTeX (runs on e-pTeX), upLaTeX (runs \
 on e-upTeX), Lamed (runs on Aleph, successor of Omega)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.208.0.0.5svn53519"
+PV = "2026.226.0.0.5svn53519"
 
-RPM_NAME = "texlive-mathfam256-2023.208.0.0.5svn53519-53.1.noarch.rpm"
-RPM_HASH = "ffb2fcf4f00ec336311ea0542337c5c84c2634d64768247af74b2d85dd6832ca23c5a61dae4a8514a6b162e63178f075f5b969972b637cf106b23b65df53c21b"
+RPM_NAME = "texlive-mathfam256-2026.226.0.0.5svn53519-59.2.noarch.rpm"
+RPM_HASH = "aebe329c18eb6dcc360e9197907e2515512c62f93843db7eb5588936fe0b76c94f03a366ce995337cde200a273bff3c811ab78a516cb1351c6cfcacd487bd67c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathfam256.sty \

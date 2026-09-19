@@ -7,8 +7,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-catalan-1.5-422.6.aarch64.rpm"
-RPM_HASH = "98027c6bf62a38988df5f1b6f8f19d31f74b78aa56e29f21e32d3b7bd3c72da53427ed3fa5351ff04782d9bf66f9d8332c3f895e16ba6a3569a6099d1ae23d74"
+RPM_NAME = "ispell-catalan-1.5-426.1.aarch64.rpm"
+RPM_HASH = "551d857ff4e74455d3ce379902499ef16cda8d1390ca913d538a90c28815cc0e45e9080c537607a9ff6e24d48aeecda5bea367a31b40fd91c47477ab0a7e92dc"
 
 RPROVIDES:${PN} += "icatalan \
 ispell-catalan \

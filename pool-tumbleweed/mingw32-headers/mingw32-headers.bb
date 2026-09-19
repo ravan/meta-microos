@@ -6,10 +6,10 @@ free software compilers. \
 This subpackage contains the header files."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "10.0.0"
+PV = "14.0.0"
 
-RPM_NAME = "mingw32-headers-10.0.0-1.3.noarch.rpm"
-RPM_HASH = "e47b48922f6da81feb76f2fb852569104a5538eed7a4505631673997bb99d5cd5796cfba7a1ed7cf92668b3e24a8a0e73e5dfca4106c228bd983f9ca7e6908b0"
+RPM_NAME = "mingw32-headers-14.0.0-1.1.noarch.rpm"
+RPM_HASH = "88ae307c00e3f905ba435343e2769118a082556fd61132637a7444ce5b87f5b24915caff4cddd15e5d2d75d360b08a178002557d21c817721c5f1b181bb411a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-headers"

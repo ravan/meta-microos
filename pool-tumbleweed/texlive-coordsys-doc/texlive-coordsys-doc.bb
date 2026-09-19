@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-coordsys"
 DESCRIPTION = "This package includes the documentation for texlive-coordsys"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn15878"
+PV = "2026.226.1.4svn15878"
 
-RPM_NAME = "texlive-coordsys-doc-2023.209.1.4svn15878-55.1.noarch.rpm"
-RPM_HASH = "2c051c04dce1868a8f468ee9ce1e61ba8da51ea6595a940c6f45d92bb1314d75c9296fc33875cfdbefc79c36e7fda1439cac2bd33ba7a94620fe66f4c218161c"
+RPM_NAME = "texlive-coordsys-doc-2026.226.1.4svn15878-61.2.noarch.rpm"
+RPM_HASH = "eef5baeec08d1074f4554e35bcb9cb52f3426bba45e39b41b10d9fdded73bf452fe39580433f49cd9e5a92b6e39a11415e091d45081fde87a2d09eb074c148f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-coordsys-doc"

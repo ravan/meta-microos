@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtremoteobjects-private-headers-devel-5.15.10+kde0-1.1.noarch.rpm"
-RPM_HASH = "12e62b813b496da77b7e67dd4cf52dbb769912117ac4d36f10fcc68869e857529bc98d570d42580fb45482240e606df0f15b8a92dbd986afdb0080f8a089d625"
+RPM_NAME = "libqt5-qtremoteobjects-private-headers-devel-5.15.19+kde0-1.3.noarch.rpm"
+RPM_HASH = "ee0694e249750b2eefec27577fbe6174ace8388d335e714eb34e357aaff6c2389121e3300b56aa684f76330336cdb6c647bb626cfaccc886261cd17e29bdf43b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtremoteobjects-private-headers-devel"

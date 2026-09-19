@@ -12,10 +12,10 @@ on usage in the SEPA (Single Euro Payments Area). The user may \
 adjust the terminology to suit local needs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9.2svn38857"
+PV = "2026.226.0.0.9.2svn75301"
 
-RPM_NAME = "texlive-bankstatement-2023.209.0.0.9.2svn38857-54.1.noarch.rpm"
-RPM_HASH = "760193528bc9343b795c04e78932e139624134a332f6443becce6ec0119795ffba9099dbbb69db3f75ee5c519b8a7b24e3ec9616c8402403df9b4a8fafb1b26a"
+RPM_NAME = "texlive-bankstatement-2026.226.0.0.9.2svn75301-60.2.noarch.rpm"
+RPM_HASH = "4af61b30c266c9a6843e5652268e6e08cddc585e75166ae42bb1a04d8ff63442eea6387e402e04d0497fd0022f735e65a06c083732889a35be58ff8e95faa20b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bankstatement.cls \

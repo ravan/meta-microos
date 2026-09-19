@@ -2,10 +2,10 @@ SUMMARY = "Haskell cabal-plan library documentation"
 DESCRIPTION = "This package provides the Haskell cabal-plan library documentation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7.3.0"
+PV = "0.7.6.1"
 
-RPM_NAME = "ghc-cabal-plan-doc-0.7.3.0-2.4.noarch.rpm"
-RPM_HASH = "b528d28407d2c6118b0b9252ae7ce074ddcfbdf8353dde06c2a449826d3bb43dde3b29ef720814a89ae7a77524f7088f84ae8339057cdd16e851fbe765ce5940"
+RPM_NAME = "ghc-cabal-plan-doc-0.7.6.1-1.15.noarch.rpm"
+RPM_HASH = "6fb8fb5b51188dfaa874ca4f3092fe1bd192620c665c2bece59a2d67380d31338e9823d874c34a39863a82474edea6f88015bb817202b8201c6728cdfbe0f2b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cabal-plan-doc"

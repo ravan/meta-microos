@@ -6,10 +6,10 @@ features, like a run dialog, SSH launcher and can act as a drop-in \
 dmenu replacement."
 LICENSE = "MIT"
 
-PV = "1.7.5"
+PV = "2.0.0"
 
-RPM_NAME = "rofi-1.7.5-2.4.aarch64.rpm"
-RPM_HASH = "83f90dd2e2c37e75360dea580149f465cbf6a362ec0d1d4451671423d9e164eb983f59401a2a8d3d4f8760a1f12119b82072ac5aa3a5f8a9004c55a5e9171783"
+RPM_NAME = "rofi-2.0.0-1.7.aarch64.rpm"
+RPM_HASH = "f69700a5492b58026716bebf8a3a503225105edc66881854d31aea6e652ffd721d63ed91d69be0bdb83d956094f865d1109385b0ac4d475372363f5c04646556"
 
 RPROVIDES:${PN} += "rofi \
 rofi-launcher"
@@ -27,6 +27,8 @@ libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libstartup-notification-1.so.0 \
+libwayland-client.so.0 \
+libwayland-cursor.so.0 \
 libxcb-cursor.so.0 \
 libxcb-ewmh.so.2 \
 libxcb-icccm.so.4 \

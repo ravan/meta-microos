@@ -10,24 +10,16 @@ excludes components that depend on external libraries, most notably XML, \
 database and UI toolkits support."
 LICENSE = "Python-2.0"
 
-PV = "3.11.5"
+PV = "3.11.16"
 
-RPM_NAME = "python311-base-3.11.5-1.2.aarch64.rpm"
-RPM_HASH = "55d9604c2fcde118b867af5a744f391525d070d90cf604cd67c01c7b87b4686388f6d2556b02072652aa766f38db56b736de3cd80792c029a701d4db98b000ec"
+RPM_NAME = "python311-base-3.11.16-1.1.aarch64.rpm"
+RPM_HASH = "465e1a2b24efe717478cc5f7d3332b66e947a8fdb6ecc93be708345318e0bad49b2518a63cd9296b9e40c966fe9f33493251ee94946396c6ed282b8f2631fe7e"
 
 RPROVIDES:${PN} += "python-abi \
-python3-asyncio \
-python3-base \
-python3-typing \
-python3-xml \
 python311-asyncio \
 python311-base \
 python311-typing \
-python311-xml \
-rpm-macro-cpython3-soabi \
-rpm-macro-have-python3 \
-rpm-macro-py3-compile \
-rpm-macro-py3-soflags"
+python311-xml"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
@@ -39,7 +31,7 @@ libexpat.so.1 \
 libffi.so.8 \
 liblzma.so.5 \
 libm.so.6 \
-libmpdec.so.3 \
+libmpdec.so.4 \
 libpython3-11-1-0 \
 libpython3.11.so.1.0 \
 libssl.so.3 \

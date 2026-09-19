@@ -4,10 +4,10 @@ a 'bundle' environment, with a set of leaves described by \
 \\chunk macros. A chunk may have a bundle environment inside it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn15878"
+PV = "2026.226.1.1asvn15878"
 
-RPM_NAME = "texlive-ecltree-2023.209.1.1asvn15878-54.2.noarch.rpm"
-RPM_HASH = "8e22e5b8d6dd504615fcbf04c454775ea20107644bfccccb352c9e2a507a9ad8cb7b0d52b1409f9723d572465051d146a2379e511938b999536aa59ef3cb1bf4"
+RPM_NAME = "texlive-ecltree-2026.226.1.1asvn15878-61.4.noarch.rpm"
+RPM_HASH = "deca4dc8e1af39aeef8fb9b2d615146a9f683cbbcd301fb90086aadbefa2dead33e7404d2742f33a233149965c18b8bbc5e95d6b4676b3dc41aea33ca7cd31df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ecltree.sty \

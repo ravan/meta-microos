@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tex-locale"
 DESCRIPTION = "This package includes the documentation for texlive-tex-locale"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn48500"
+PV = "2026.227.1.0svn77682"
 
-RPM_NAME = "texlive-tex-locale-doc-2023.209.1.0svn48500-55.1.noarch.rpm"
-RPM_HASH = "c2acc3a922d584d66762a19939292bd44f68bcdc83dd102c6a4a4ca0ff935968bcd13501a008bdd36712555a6e5c96f2086d7f5e886550c25ab064895d935d99"
+RPM_NAME = "texlive-tex-locale-doc-2026.227.1.0svn77682-62.2.noarch.rpm"
+RPM_HASH = "aeb701ddac5ff8bee9b05ff5b80cc3407be53fdcc457827f24f53267317a04ad561ec8db4d6303b265eac0fc010712a1643240dd7036bc1315dac7af36036774"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-locale-doc"

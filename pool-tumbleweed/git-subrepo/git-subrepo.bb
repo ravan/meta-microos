@@ -4,10 +4,10 @@ repo. Later on, upstream changes can be pulled in, and local changes can be \
 pushed back. Simple."
 LICENSE = "MIT"
 
-PV = "0.4.6"
+PV = "0.4.9"
 
-RPM_NAME = "git-subrepo-0.4.6-1.1.noarch.rpm"
-RPM_HASH = "6c4969f1ca24fb6a6bf730e60cc9e6d603835e0fbaa36c22606b0880b8a51fd840c21e9cb6045525b3b4401cbd4f23959f3f231e4941cacb0e2942954cc73a37"
+RPM_NAME = "git-subrepo-0.4.9-1.1.noarch.rpm"
+RPM_HASH = "19d898d441e4e9570ae1f5e5639268b8823c0f241934810df2f63b4b6a1dc785d28050755285b066ede3959e83d90c0986ded1a815da27388560a34372319a19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-subrepo"

@@ -7,10 +7,10 @@ Checking signatures of mirrored repositories and creating signatures of the \
 generated Package indexes is supported."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & MIT"
 
-PV = "5.4.1"
+PV = "5.5.1"
 
-RPM_NAME = "reprepro-5.4.1-1.4.aarch64.rpm"
-RPM_HASH = "381878efce2c3242ef140f5969c2c02cd313005c52cd9e155f7fa533a259cb6dc107d56bc6972a667c47a08a83f848e5f5538d6bb9a0ddf0853fcc5ac08da739"
+RPM_NAME = "reprepro-5.5.1-1.1.aarch64.rpm"
+RPM_HASH = "b9a994d522db25a321481af9effa39ae9127546a374ca920ff79fc0dcaac1544f0787c16afdc3f8180a00888220de628ece0c3201a8d91742c7822822180e6f6"
 
 RPROVIDES:${PN} += "reprepro"
 
@@ -18,13 +18,10 @@ RDEPENDS:${PN} += "bzip2 \
 gpg2 \
 ld-linux-aarch64.so.1 \
 libarchive.so.13 \
-libbz2.so.1 \
 libc.so.6 \
 libdb-4.8.so \
 libgpg-error.so.0 \
-libgpgme.so.11 \
-liblzma.so.5 \
-libz.so.1 \
+libgpgme.so.45 \
 tar \
 zstd"
 

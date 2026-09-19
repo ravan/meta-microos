@@ -2,16 +2,15 @@ SUMMARY = "Slurm REST API Interface"
 DESCRIPTION = "This package provides the interface to SLURM via REST API."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.4"
+PV = "25.11.2"
 
-RPM_NAME = "slurm-rest-23.02.4-2.1.aarch64.rpm"
-RPM_HASH = "5166e98bc2f653422967df154bf97185d89e2120c3f7a438a0df3518fca592d8d45b22c4bcae7229427b1acafa10f3706b631b2b1392d4fa102e5342a908770a"
+RPM_NAME = "slurm-rest-25.11.2-1.6.aarch64.rpm"
+RPM_HASH = "f0670cc0753eb5ef85ff3227c8067b89a4114aed11df0cd430a6deac1ffc00f72725399227cf01f9ca5d15cc87ed4c44bca9d9406d4c2d3e3f5a615f98696399"
 
 RPROVIDES:${PN} += "slurm-rest"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
-libhttp-parser.so.2.9 \
 libslurmfull.so \
 slurm-config"
 

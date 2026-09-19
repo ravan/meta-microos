@@ -4,10 +4,10 @@ It supports offline reading, scoring and killfiles, yEnc, NZB, PGP \
 handling, multiple servers, and secure connections."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.154"
+PV = "0.165"
 
-RPM_NAME = "pan-0.154-2.4.aarch64.rpm"
-RPM_HASH = "fd6b6f70f0e7e3fafeaae77fa93b5b84e03d513a7c90a9eae6ed905d5bc0f651f58dda7295eff5fca70fb0cf4a156a55254f18109032c000e03596b7f4f59684"
+RPM_NAME = "pan-0.165-1.3.aarch64.rpm"
+RPM_HASH = "3b6bce9c23bf89ebc1c8961abd353bd1103b8f6a1f9588ce7cf5a86449737a4010435cc015da7d83358a94d43dff7328a53184c71afe451f82fab17664e18000"
 
 RPROVIDES:${PN} += "pan"
 
@@ -24,8 +24,8 @@ libglib-2.0.so.0 \
 libgmime-3.0.so.0 \
 libgnutls.so.30 \
 libgobject-2.0.so.0 \
+libgspell-1.so.3 \
 libgtk-3.so.0 \
-libgtkspell3-3.so.0 \
 libnotify.so.4 \
 libpango-1.0.so.0 \
 libsecret-1.so.0 \

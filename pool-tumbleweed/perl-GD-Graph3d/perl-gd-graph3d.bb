@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.63"
 
-RPM_NAME = "perl-GD-Graph3d-0.63-271.22.aarch64.rpm"
-RPM_HASH = "3086ecf16b233117844011b41d2a22c74176f315562382c9331897b720a21813fa5841bdfaab5c0cdddb59fd682e2ee6fade4a33a1b8ab4661c7f0ee125f5161"
+RPM_NAME = "perl-GD-Graph3d-0.63-273.12.aarch64.rpm"
+RPM_HASH = "5e225a27e969dc3f17a8421029a2a1ab4c361a718b78f951777146019696bf193c4ab19e2bb019d07e35f67b098f1b2deed6a4abf96c4185fe1db45d58421f11"
 
 RPROVIDES:${PN} += "perl-GD--Graph--axestype3d \
 perl-GD--Graph--bars3d \
@@ -19,7 +19,7 @@ perl-GD--Graph3d \
 perl-GD-Graph3d \
 perl-GDGraph3d"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-GD \
 perl-GDGraph \
 perl-GDTextUtil"

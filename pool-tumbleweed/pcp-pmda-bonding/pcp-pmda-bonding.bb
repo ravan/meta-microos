@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about bonded network interfaces."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-bonding-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "a36dec4435670a257a6c313e28e505b16a9656592a457644c2a522763f8f009e88cafb4a710695aed40404f4ac823457a4b8ab4a20ad4bf7243ff9d73f25d36d"
+RPM_NAME = "pcp-pmda-bonding-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "73a92fc96cf4bf6b4b7c96c4c456a6bbb7c87dfc6af62dd1a5492bcbc3dcbb320ddb8ef1f9229409f6b40941176d6acf6daf58028abeb2aee34a1692ec3dd29f"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-bonding"
 

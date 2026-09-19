@@ -25,16 +25,15 @@ List of tools: \
    of TCP-based attacks."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.0"
+PV = "2.2"
 
-RPM_NAME = "ipv6toolkit-2.0-3.13.aarch64.rpm"
-RPM_HASH = "60326b18bf92d47bea8566538eb11c8144990bdb5030375726078ab0b48ea7f81fc3c131e966427c601fb9306b5a142630caf316c30f8e0e6b43542003c13f83"
+RPM_NAME = "ipv6toolkit-2.2-1.4.aarch64.rpm"
+RPM_HASH = "e717cacc5cc80cf576496505e2a65de61db2c52f98fc15c369045eaed71455dcc9f0471e78ba6257aad76ddf328f301d0486e3c739791f0d8f73745f1af7265f"
 
 RPROVIDES:${PN} += "config-ipv6toolkit \
 ipv6toolkit"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
 libpcap.so.1"

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.5"
 
-RPM_NAME = "mkelfImage-2.5-217.21.aarch64.rpm"
-RPM_HASH = "d165ebfb2ab3a163e6cdec52197b0a1b8f757a69b91a24b73978439accb0fe33f1f9bc2a00202e0194a4d5f2562daa024e53b6e42721bfba5069a38ec4b49aca"
+RPM_NAME = "mkelfImage-2.5-218.9.aarch64.rpm"
+RPM_HASH = "d3e37dbe2125eada8df22fe726c477d0d5d475885389ea0ce7dbf16645e7f77ac5d46a710d97ccd69cc6c6501d3d6b71b7570ef7f43eddf8576583e05f2da97b"
 
 RPROVIDES:${PN} += "mkelfImage"
 

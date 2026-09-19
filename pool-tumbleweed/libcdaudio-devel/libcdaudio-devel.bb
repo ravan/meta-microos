@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.99.12p2"
 
-RPM_NAME = "libcdaudio-devel-0.99.12p2-2.8.aarch64.rpm"
-RPM_HASH = "1507a037596c5cab7e99b124947fb09fe79da1ef76657f6c396bf6ef8c7e081c8f547298f5ffe88fb825882166a8e9c8a7ce1fc3842e54136aa05cf444303376"
+RPM_NAME = "libcdaudio-devel-0.99.12p2-2.18.aarch64.rpm"
+RPM_HASH = "13e99533417818265e3bad040da1e1232ab8dd4d0c8ff719114ca6d9fa1c14655c24f4c7267137e6a58eb1e66c63ea8cc4e484ac0e26637626d8f44dcc3615de"
 
 RPROVIDES:${PN} += "libcdaudio-devel \
 pkgconfig-libcdaudio"

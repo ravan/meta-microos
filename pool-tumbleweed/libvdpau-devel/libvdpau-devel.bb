@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.5"
 
-RPM_NAME = "libvdpau-devel-1.5-1.6.aarch64.rpm"
-RPM_HASH = "98b0770c320e7cda00327db941aaa1fae61dd0ec8343e4ebaa0945858ea1c42a4d00d8c43102737da8f3622ebcb9ac13b3fa13cf23ce71973dec14bfae4a7977"
+RPM_NAME = "libvdpau-devel-1.5-5.4.aarch64.rpm"
+RPM_HASH = "6bb65f1c7512930d748bb38eddea5c054f0bf33a53a68600ec7b4d75831acce5d3cae1a7d0df1a4b7465c621eddce191c1450fe9afb5ad68e0291e69f7d18f83"
 
 RPROVIDES:${PN} += "libvdpau-devel \
 pkgconfig-vdpau"

@@ -3,18 +3,16 @@ DESCRIPTION = "Library to process config files in INI format into a libcollectio
 structure"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.3.1"
+PV = "2.0.0"
 
-RPM_NAME = "libini_config-devel-1.3.1-28.1.aarch64.rpm"
-RPM_HASH = "5d8b48ff966e1ba4291448310f9d9e695f9252d151153097dade9ca6eaf829a38342e8fa274387992398e2dfff0c0365ed766693acbb50b026496922a0bbfa7d"
+RPM_NAME = "libini_config-devel-2.0.0-29.3.aarch64.rpm"
+RPM_HASH = "2764bb09985db826c2421fef979643e796d016f5459712dff4dfc24ae1c41fde6e5e87fc529c7da41dd0269c502568a4891a9ef73f9a6108b0640f917b533700"
 
 RPROVIDES:${PN} += "libini-config-devel \
+libref-array-devel \
 pkgconfig-ini-config"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libini-config5 \
-pkgconfig-basicobjects \
-pkgconfig-collection \
-pkgconfig-ref-array"
+libini-config8"
 
 inherit rpm

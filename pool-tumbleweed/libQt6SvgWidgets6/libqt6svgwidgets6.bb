@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 SVGWidgets library"
 DESCRIPTION = "The Qt 6 SvgWidgets library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6SvgWidgets6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "e461f2620275e48011710bf35ba973352be2541b62f1b3b23afcaa1d00f35a93dcde62d0d18969d18749f8f9afaa30930479afd2ecafe736d5ea27f300929ef1"
+RPM_NAME = "libQt6SvgWidgets6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "9c7e75fe9d1060187b87e16f881781dd9789cb81623c98aeb2c33b43e302effc6111ec4e8493055c1f4df104d5ee170332914cadad1a7a4a6acd588d6d236281"
 
 RPROVIDES:${PN} += "libQt6SvgWidgets.so.6 \
 libQt6SvgWidgets6"

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of dvipdfmx"
 DESCRIPTION = "Binary files of dvipdfmx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77966"
 
-RPM_NAME = "texlive-dvipdfmx-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "20d36c341e2b795066b7b09ed4d7e2a4aa85fcb4d31a5f981aeb329e223723af509594a743c819c3bb3b240de8db3066d109525233dbe3502d895794688f41a2"
+RPM_NAME = "texlive-dvipdfmx-bin-2026.20260301.svn77966-120.4.aarch64.rpm"
+RPM_HASH = "e17cc3b9133781c293283b3fafbd739f491307e35aa5dd5d1bb5d7b89d0aa71f11f5d2fc6e6d5df3b42a137d3e77dc1d0c33bf9098255fb9ed53569abc01f247"
 
 RPROVIDES:${PN} += "texlive-dvipdfm-bin \
 texlive-dvipdfmx-bin"

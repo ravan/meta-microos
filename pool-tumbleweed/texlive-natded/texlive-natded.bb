@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides commands to typeset proofs in the style \
 used by Jaskowski, or that of Kalish and Montague."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn32693"
+PV = "2026.226.0.0.1svn32693"
 
-RPM_NAME = "texlive-natded-2023.209.0.0.1svn32693-55.1.noarch.rpm"
-RPM_HASH = "0ed8ba43b7d1c80802affd7f06e97fe54b27c4634e6cc1f4f409fbc84b9cecdcdda9d9ea4c9a63547835ef84eba5193bce6874857e03fd13a5d7be135a3b7b65"
+RPM_NAME = "texlive-natded-2026.226.0.0.1svn32693-61.2.noarch.rpm"
+RPM_HASH = "816bcfcc15f2e45e16c7b5ebb8f0a4bdc254674bc50722590ff61fef19ec8316aaeb928b705c2803fe8f64d3359db2055a2595b278595802e9761552f8050699"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-natded.sty \

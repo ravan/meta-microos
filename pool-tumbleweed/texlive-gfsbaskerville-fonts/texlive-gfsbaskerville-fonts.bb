@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gfsbaskerville"
 DESCRIPTION = "The  separated fonts package for texlive-gfsbaskerville"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn19440"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-gfsbaskerville-fonts-2023.209.1.0svn19440-53.1.noarch.rpm"
-RPM_HASH = "7e35b1df1cc71bd02f6982792116dc80f067301cb71d63a33e0e931c87322cd3a85100b0033d288fe04a0042d32ef848032da3b9f80dd8eb0f65ad34547409ee"
+RPM_NAME = "texlive-gfsbaskerville-fonts-2026.226.1.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "747550113b32e2274f581c551ffb0cda3f25f7cf3d8a9417c23373fdc47f54c243e4c76e175b3a1c9c5b11817acc21ec6641bb80186e8e37f85568c942ed0465"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gfsbaskerville-fonts \

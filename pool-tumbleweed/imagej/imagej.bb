@@ -20,10 +20,10 @@ ImageJ can be extended via Java plugins, and has a built-in editor and \
 compiler."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "1.53t"
+PV = "1.53u"
 
-RPM_NAME = "imagej-1.53t-1.3.noarch.rpm"
-RPM_HASH = "065502b5a988c1ddc511610b9b31924ef9784e3d0b38ca78c748e7f913e40340b11214a8eab25a14101344e61709aab5cfa8b7d234451208b94991ad6c942155"
+RPM_NAME = "imagej-1.53u-1.8.noarch.rpm"
+RPM_HASH = "abf17f5f27768c11cae6b9f4f6c14d6eb6926e8d1881419a2462de1c1a3ccc03278aac9a7cd87c848f95beca8aad22392ea1f4b12a90799c313416386059901a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imagej"

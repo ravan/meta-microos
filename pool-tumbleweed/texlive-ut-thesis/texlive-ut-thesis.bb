@@ -6,10 +6,10 @@ https://www.sgs.utoronto.ca/academic-progress/program-completio \
 n/formatting). For example usage, see the GitHub repository."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1.7svn65767"
+PV = "2026.226.3.1.8svn78219"
 
-RPM_NAME = "texlive-ut-thesis-2023.209.3.1.7svn65767-54.1.noarch.rpm"
-RPM_HASH = "94dbd9c377fbce6e1c878f0d598c8aa970c2306a58dd75bcc22e8523fe95f58d4a675570bf9b2326419f3e35884af0838df1a971f2294ee178911b3a59714251"
+RPM_NAME = "texlive-ut-thesis-2026.226.3.1.8svn78219-60.2.noarch.rpm"
+RPM_HASH = "fc348b2bf469df61d58c40646b69be2d4cb37abc4bd426d60202c8bbeb46c54b2844a21819563fc1dde38fa9d2ecc303a9fe4425f4ee7444816af2a6d916f74f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ut-thesis.cls \

@@ -3,10 +3,10 @@ DESCRIPTION = "Plugin for filling collectd with statistics from the \
 SpamAsssassin anti-spam engine."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-spamassassin-5.12.0.134.g4cebbfc-1.6.noarch.rpm"
-RPM_HASH = "66eda189cf347d97cca8d96435220cf9be073f23c8d245ab72d75527c3e23e3dda9d16c0bd788e2840a93d54000bdcf5dd05fa7b979fb254f15c198e8f5f2821"
+RPM_NAME = "collectd-spamassassin-5.12.0.382.g2cd055fe-3.1.noarch.rpm"
+RPM_HASH = "f5b394bc158e8d8b8141de56e12838dc3362b26b23d6f42fcfa76cd0d393ed533a8d98c517f897b1af3b97938eccbeb0cd9fad679749271eea15715cc572caa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-spamassassin \

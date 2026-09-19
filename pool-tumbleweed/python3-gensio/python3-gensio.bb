@@ -3,24 +3,23 @@ DESCRIPTION = "Python bindings for libgensio, a library for stream and packet I/
 abscration."
 LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "2.7.5"
+PV = "3.0.4"
 
-RPM_NAME = "python3-gensio-2.7.5-1.1.aarch64.rpm"
-RPM_HASH = "521b7b3e03b9c4d1ed129081ee7f8144a31282e37027d5360ed9c8779bf2d2128878c0fa19c845a89246029ba0006fda3b26d5f421ba1984ce886b39c9d01cba"
+RPM_NAME = "python3-gensio-3.0.4-1.1.aarch64.rpm"
+RPM_HASH = "44228fa12b5374025467a8c78f85a4a2ecd1e58d59a31dd8568094a417c212ad5b1af7aeababd5179f5c8aa30a0afd66bfec98eed975bf4506449ce729609573"
 
 RPROVIDES:${PN} += "python3-gensio"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgensio-python-swig.so.6 \
-libgensio.so.6 \
-libgensiocpp.so.6 \
-libgensiomdns.so.6 \
-libgensiomdnscpp.so.6 \
-libgensioosh.so.6 \
-libgensiooshcpp.so.6 \
-libpython3.11.so.1.0 \
+libgensio-python-swig.so.14 \
+libgensio.so.14 \
+libgensiocpp.so.14 \
+libgensiomdns.so.14 \
+libgensiomdnscpp.so.14 \
+libgensioosh.so.14 \
+libgensiooshcpp.so.14 \
 libstdc++.so.6 \
 python-abi"
 

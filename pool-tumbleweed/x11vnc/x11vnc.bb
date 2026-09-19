@@ -17,10 +17,10 @@ maintained the viewing-end can crash, be rebooted, or relocated and the \
 applications and desktop continue running. Not so with X11."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.16"
+PV = "0.9.17"
 
-RPM_NAME = "x11vnc-0.9.16-2.14.aarch64.rpm"
-RPM_HASH = "9ddc484542be55d3b4fdb4fea29b018697778baae54787eaae862d9370a6a64e26b3d1a69730a2a1dfbc5773799da166ad8a6b56bc89ed1b73341368ff8b78c9"
+RPM_NAME = "x11vnc-0.9.17-1.2.aarch64.rpm"
+RPM_HASH = "f98b6f9cc11bace2c14c45d78f69797055cccdffcaa67fbedebffd36aeff7dce9ab24b8497190e0cad5e7a7aaee384ef488b8de502a3f5a2858263955507159e"
 
 RPROVIDES:${PN} += "x11vnc"
 

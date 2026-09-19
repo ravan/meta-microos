@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Kazakh lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-kaz-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "7eb64aedd668a614c47b27c27da390ba119652864b4a01b636a093988b320dc1186e2e1d7291edbc9aaee420679ccbf2ed740844e7bf2ebfd8e5d4eae7e2fc3c"
+RPM_NAME = "tesseract-ocr-traineddata-kaz-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "037fdbb7a353958291c6326252bf686da2b93aed5f5033aba791a3335ff85012163182da07e62456ad3aee60d5ca8d354bd3598023e9f6b65f8d77ce391ddc8f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-kaz \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-kk \
+tesseract-ocr-traineddata-kaz \
 tesseract-ocr-traineddata-kazakh \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-kazakh"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

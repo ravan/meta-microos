@@ -9,13 +9,14 @@ LICENSE = "ClArtistic & MIT"
 
 PV = "0.9.16.1"
 
-RPM_NAME = "chromium-bsu-0.9.16.1-1.19.aarch64.rpm"
-RPM_HASH = "a6e06c0ba66f35418021f1c47e8c5c6ddf8d6faef591f41a0dcddc111cfa4f5b3050684d72ecee80933d7178e4a4328758faf6b788f1c15fb932b54a4d74c1a8"
+RPM_NAME = "chromium-bsu-0.9.16.1-3.7.aarch64.rpm"
+RPM_HASH = "40b71bb8fb59e7e35144d4829bb2fb144c279fc06d4f52823d15436323d51ca979775333bf87d3e05b6f7c21392126d199d275a5eea214236ed39cb73f4edf91"
 
 RPROVIDES:${PN} += "chromium-bsu \
 config-chromium-bsu"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "group-games \
+ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libGLC.so.0 \
 libGLU.so.1 \
@@ -26,6 +27,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libopenal.so.1 \
-libstdc++.so.6"
+libstdc++.so.6 \
+user-games"
 
 inherit rpm

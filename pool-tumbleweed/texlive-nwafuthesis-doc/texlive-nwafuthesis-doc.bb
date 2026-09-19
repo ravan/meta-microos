@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nwafuthesis"
 DESCRIPTION = "This package includes the documentation for texlive-nwafuthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.15svn63438"
+PV = "2026.226.1.25svn76924"
 
-RPM_NAME = "texlive-nwafuthesis-doc-2023.209.1.15svn63438-55.1.noarch.rpm"
-RPM_HASH = "6a48b4976485031859dddf709fd617f507bb92f32b40012826c6d2607c02b98a3a315b6db12bb75341bab4558934216952a095a145ebfc7c5a20fb631de54c94"
+RPM_NAME = "texlive-nwafuthesis-doc-2026.226.1.25svn76924-61.2.noarch.rpm"
+RPM_HASH = "fa9b28c63b80367c8628767ed81b0e48f6c30af0508ea873cf1f5019d9421a2393537622e878555a7e9451ac450edcd856c1d42fb3864ce4fc513dee74cf72a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-nwafuthesis-doc-zh \

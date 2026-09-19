@@ -2,10 +2,10 @@ SUMMARY = "Translations for package muffin"
 DESCRIPTION = "Provides translations for the 'muffin' package."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "5.2.1"
+PV = "6.4.1"
 
-RPM_NAME = "muffin-lang-5.2.1-1.1.noarch.rpm"
-RPM_HASH = "4ca49f64f77ce31663f72b8c63e900b4145caf7129915c23e0084349699924bde5758345b7aacaf9482f43e2b14135be8e13a5cbaa18e05261de70cb44d5f572"
+RPM_NAME = "muffin-lang-6.4.1-2.4.noarch.rpm"
+RPM_HASH = "17789f52556a50c5d48faf65861f2348ec528be3f5e222934a1677121bd7177d5854e0d4b55fc84aec9cac3344beb1df50a38b72dd6e446a705102a75fcdb7d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-muffin-ar \
@@ -36,7 +36,9 @@ locale-muffin-eu \
 locale-muffin-fa \
 locale-muffin-fi \
 locale-muffin-fr \
+locale-muffin-fur \
 locale-muffin-ga \
+locale-muffin-gd \
 locale-muffin-gl \
 locale-muffin-gu \
 locale-muffin-he \
@@ -48,6 +50,7 @@ locale-muffin-is \
 locale-muffin-it \
 locale-muffin-ja \
 locale-muffin-ka \
+locale-muffin-kk \
 locale-muffin-kn \
 locale-muffin-ko \
 locale-muffin-lt \

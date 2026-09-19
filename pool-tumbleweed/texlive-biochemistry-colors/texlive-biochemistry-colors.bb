@@ -8,10 +8,10 @@ of elements, important isotopes and structures. Glycopedia \
 colors for sugars."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.00svn54512"
+PV = "2026.226.1.00svn54512"
 
-RPM_NAME = "texlive-biochemistry-colors-2023.209.1.00svn54512-54.1.noarch.rpm"
-RPM_HASH = "a4a9f08430f1b6ae8b743d14dd11453f8036dce36c853327ac2d4dc3f0acd4f98800143edd87b71164170df31ae273bfa9c81f0352e202e52bfc61a89af7e96a"
+RPM_NAME = "texlive-biochemistry-colors-2026.226.1.00svn54512-61.2.noarch.rpm"
+RPM_HASH = "4786522d839b6570ff02b6777d2a137dcebe7f60a9069b4f51650ffefce452df24b1c05c16ef1dc5b89a6277395a2eaad1058f639eb2dfabd8acc22adfc3f71a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Biochemistry-colors.sty \

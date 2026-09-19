@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a complex labelling scheme. It is designed \
 to support the needs of the author's chemschemex package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn46736"
+PV = "2026.226.1.1svn46736"
 
-RPM_NAME = "texlive-fancylabel-2023.209.1.1svn46736-53.1.noarch.rpm"
-RPM_HASH = "e43777ee889a6599b1de768fa7b8124f3188dc4821e64656ae2fd115c7fff5b064772f217d247c292d719f0c1b5133f53a010d9307e371371e6a8d1173773a15"
+RPM_NAME = "texlive-fancylabel-2026.226.1.1svn46736-59.2.noarch.rpm"
+RPM_HASH = "a06ab7d0ec09771804b7096521539048922873b44ef171d906ef1742570f89284e971f41a5fe673d914e06b5940c2b3d90b8292de6f6b286def4064323736e79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fancylabel.sty \

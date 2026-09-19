@@ -2,10 +2,10 @@ SUMMARY = "GSSAPI authentication in lighttpd"
 DESCRIPTION = "A module to provide GSSAPI authentication in lighttpd."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.71"
+PV = "1.4.85"
 
-RPM_NAME = "lighttpd-mod_authn_gssapi-1.4.71-1.2.aarch64.rpm"
-RPM_HASH = "7d508d89e3f7b60d37cc8265e37b74dbc94bdbc3ca1e146b74510066a0e62d5b37b9b5512f10a7c02d57972d3138becfd583590e32e06437e980458c04787916"
+RPM_NAME = "lighttpd-mod_authn_gssapi-1.4.85-1.2.aarch64.rpm"
+RPM_HASH = "3a4955d41e9a62df047f0cd26b2419bfe91fa2a3600149a0ff5cc911d2e8110f3c75262237d0359d9b9437cb7c38be63f84ddf77584dd1c1558137efc02ebf62"
 
 RPROVIDES:${PN} += "lighttpd-mod-authn-gssapi"
 

@@ -8,10 +8,10 @@ This package provides the runtime library of the embedded SQL C \
 preprocessor for PostgreSQL."
 LICENSE = "PostgreSQL"
 
-PV = "15.4"
+PV = "18.6"
 
-RPM_NAME = "libecpg6-15.4-1.1.aarch64.rpm"
-RPM_HASH = "5f91311d100e74fda3d2292f7baa69cf39b921a0eb063a5e137d49b483401a43c7229199877e1919a31d80423b937d4216376d100c2cecad6582285cb8e96830"
+RPM_NAME = "libecpg6-18.6-1.2.aarch64.rpm"
+RPM_HASH = "5d8d829fafd952d545ace3e9667c8ec88886d443d594f47e47d9eb8a49617e30616ddab7d5491c8ebe6f4625482988b437817f48344bef2aecfee54a9c632cdf"
 
 RPROVIDES:${PN} += "libecpg-compat.so.3 \
 libecpg.so.6 \

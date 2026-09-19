@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ulthese"
 DESCRIPTION = "This package includes the documentation for texlive-ulthese"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.3asvn60217"
+PV = "2026.226.7.0svn77089"
 
-RPM_NAME = "texlive-ulthese-doc-2023.209.5.3asvn60217-54.1.noarch.rpm"
-RPM_HASH = "774086824c7754076098f381aad7e581c0a13d1dd7293b5af033253acfc5421423fefd1b6b4acd3a6acffd4e7c92ee8aadcffdae30f07d594fdbaf03e7ea3101"
+RPM_NAME = "texlive-ulthese-doc-2026.226.7.0svn77089-60.2.noarch.rpm"
+RPM_HASH = "cfe72e2ef2763cb421532a7e1f2ac72e40f840316d71c435650d50cb8266daa3cc27380d91fc11240270f5d3b4fc1df5524a289479ff38e0b36a66b3fc92088a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ulthese-doc-fr \

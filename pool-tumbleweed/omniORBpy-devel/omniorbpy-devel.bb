@@ -2,10 +2,10 @@ SUMMARY = "Header files for omniORBpy"
 DESCRIPTION = "omniORBpy-devel contains the omniORBpy development files."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.3.0"
+PV = "4.3.2"
 
-RPM_NAME = "omniORBpy-devel-4.3.0-1.10.aarch64.rpm"
-RPM_HASH = "db44c26c5ab90b5e303f3d0ce6794f10b6461063384fc43b44bb64787cc64e1bd1e37879893353d32088ca93c93d8d8559c02644a8df9139322cbbd617a8ed13"
+RPM_NAME = "omniORBpy-devel-4.3.2-1.10.aarch64.rpm"
+RPM_HASH = "2950f3c1c56a904e560b91f94e112d7be8a3ac22a5bd7309b7827ba90ee5a15c8a5410cf9fd8b81b8b075abf63a50aef30afb72ba991dcb7bb7bb0bc5e652dc9"
 
 RPROVIDES:${PN} += "omniORBpy-devel"
 

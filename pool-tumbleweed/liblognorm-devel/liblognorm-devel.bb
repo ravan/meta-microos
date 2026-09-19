@@ -20,12 +20,12 @@ analysis tool. \
  \
 The liblognorm-devel package contains libraries and header files for \
 developing applications that use liblognorm."
-LICENSE = "LGPL-2.1-or-later & Apache-2.0"
+LICENSE = "Apache-2.0 & LGPL-2.1-or-later"
 
-PV = "2.0.6"
+PV = "2.1.0"
 
-RPM_NAME = "liblognorm-devel-2.0.6-2.18.aarch64.rpm"
-RPM_HASH = "97514b9a3f8127011300e1549bcf535fb746aaa0f37667c00ed6b3a10421781c2833d15b6b2bfd1ad775b570b4fc486e63751834cf47c341d315fb4051a18c87"
+RPM_NAME = "liblognorm-devel-2.1.0-1.3.aarch64.rpm"
+RPM_HASH = "3a14bb6d419fb42223c016f58899d9158b7fdb37d9bc49a9d5f778c9d357fcb5d0dc8e77888550d293253f990aa5b74b2fd791b2ab595b13578012c16194b149"
 
 RPROVIDES:${PN} += "liblognorm-devel \
 pkgconfig-lognorm"

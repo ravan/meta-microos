@@ -3,19 +3,20 @@ DESCRIPTION = "Terminal UI for monitoring your computer to monitor CPU temperatu
 power and utilization in a graphical way from the terminal."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.4"
+PV = "1.5.0"
 
-RPM_NAME = "s-tui-1.1.4-1.3.noarch.rpm"
-RPM_HASH = "f56d10777ade1d6d9c85cb67e9629266b3baad69ce11ff9e69303aecd1eba98ef615d724519a8c3350eb3faa5e7b5af32528f36c2030244a7f3cee0535f40317"
+RPM_NAME = "s-tui-1.5.0-1.1.noarch.rpm"
+RPM_HASH = "b126447605498ce6efee92e72f021362e074aa2d71dffefcb5640d9b213b31b1851cb8fdd9de9dc9af1520f0728a4764831b6faadf4545672a730e543dff7365"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-s-tui \
+RPROVIDES:${PN} += "python3.13dist-s-tui \
 python3dist-s-tui \
 s-tui"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-psutil \
+python3-typing-extensions \
 python3-urwid"
 
 inherit rpm

@@ -2,16 +2,18 @@ SUMMARY = "Development files for netgen"
 DESCRIPTION = "Development files for NETGEN."
 LICENSE = "LGPL-2.1-only"
 
-PV = "6.2.2301"
+PV = "6.2.2602"
 
-RPM_NAME = "netgen-devel-6.2.2301-1.5.aarch64.rpm"
-RPM_HASH = "4b0ab6fab44b97b9b4fb8ff712ebfdb62450bfa0a7df92059ab96313774352d41d63d80b10af4800be20e5ce33ec79a3dc3fa45b67ee665ac903ff90375dc51e"
+RPM_NAME = "netgen-devel-6.2.2602-3.5.aarch64.rpm"
+RPM_HASH = "97910040cfb202c88310ca7ba7540a81bbef9846eb9d9ff99fc544919eacc71495c985e51a79373e6f62f76a99f2bcbbc915d5f19107c380d35230549b1d6533"
 
 RPROVIDES:${PN} += "cmake-Netgen \
 netgen-devel"
 
-RDEPENDS:${PN} += "netgen \
-netgen-libs \
+RDEPENDS:${PN} += "libngcore-6-2-2602 \
+libnggui-6-2-2602 \
+libnglib-6-2-2602 \
+netgen \
 occt-devel"
 
 inherit rpm

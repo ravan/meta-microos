@@ -3,14 +3,15 @@ DESCRIPTION = "Performance Co-Pilot (PCP) front-end tools for importing MTRG dat
 into standard PCP archive logs for replay with any PCP monitoring tool."
 LICENSE = "LGPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-import-mrtg2pcp-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "e49d2eb666ed4e51444dec2df1d0c76f42cc317a810b2b1197604bc394268b26cc8ea5781bb305dd771eb0319f806446d1f4797576dd399727d5bf42d8e77c17"
+RPM_NAME = "pcp-import-mrtg2pcp-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "753e61d30001f38422fa98e2a1286034663daf40aabf189da75cd8438dc325b5cd34a813a60979d1dd5d8ab987eeaa31124ea8f18960382afd96a3a9fc2889fd"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-import-mrtg2pcp"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/perl \
 perl-PCP-LogImport"
 
 inherit rpm

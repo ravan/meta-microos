@@ -20,8 +20,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "gnome-shell-extension-pop-shell-1.2.0-7.1.noarch.rpm"
-RPM_HASH = "5a33754f210917a1cef73322f68b0d0e1b2fe6ed0339b1571e6600e2a517289f07440490ed06a297ddba1b55b56fd271fdd1d70d203b8789f742896dfc1a8568"
+RPM_NAME = "gnome-shell-extension-pop-shell-1.2.0-7.9.noarch.rpm"
+RPM_HASH = "51250d4d5439150ae3a239a193dbc1ac665d6ac6ae62b78199fb7478f08cf26d479b6281fb083a38eb2110e03858c1fa0d70b79cdc15c7c089e064cfa313526b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-pop-shell"

@@ -2,10 +2,10 @@ SUMMARY = "Development files for libsratom"
 DESCRIPTION = "Development files for libsratom."
 LICENSE = "ISC"
 
-PV = "0.6.14"
+PV = "0.6.22"
 
-RPM_NAME = "sratom-devel-0.6.14-1.1.aarch64.rpm"
-RPM_HASH = "dc15621e0203e7356f79b3d280fa9f2ce9d1ac14e79122aad42108c5ca925a942b776f3cd130b68f671a42007c04c580c8d084b8064314712983175bcb52df0a"
+RPM_NAME = "sratom-devel-0.6.22-1.3.aarch64.rpm"
+RPM_HASH = "b33b4f505168fed8c725d363f05d6ba60f389669a015a275e8134e61a6401c7ce085700ee32ba3cc65bba8a0bd8495d7ebdaa7c60af6dc1f747d836438c86260"
 
 RPROVIDES:${PN} += "libsratom-0-devel \
 pkgconfig-sratom-0 \

@@ -1,31 +1,35 @@
-SUMMARY = "Convergent RSS/Atom feed reader"
-DESCRIPTION = "Alligator is a convergent RSS/Atom feed reader."
+SUMMARY = "RSS/Atom feed reader"
+DESCRIPTION = "Alligator is a RSS/Atom feed reader."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "alligator-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "06316ca986318d31c2c0821ea8bacf37bf29e9c665e57a60893361ea7cbe19ef590e5c1b87c955e628240e57557cdff92ae7a8ca8a8f8ce813be08f49cab93ce"
+RPM_NAME = "alligator-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "92e920e40ee1e87fe90e9431f7d5b75a60326dff72b00f36cb2063c1107ef055f4b6f37a0ce4a062957b091788108b04de5884c304eb2fc0a2324ccbb87785df"
 
 RPROVIDES:${PN} += "alligator"
 
-RDEPENDS:${PN} += "kirigami-addons \
-kirigami2 \
+RDEPENDS:${PN} += "kf6-kirigami-imports \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5Syndication.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
+libKF6ColorScheme.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6I18nQml.so.6 \
+libKF6Syndication.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6-sql-sqlite"
 
 inherit rpm

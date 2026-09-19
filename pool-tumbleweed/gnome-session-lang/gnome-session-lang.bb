@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-session"
 DESCRIPTION = "Provides translations for the 'gnome-session' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.1"
 
-RPM_NAME = "gnome-session-lang-44.0-2.1.noarch.rpm"
-RPM_HASH = "7b441130bfa22b81922fc2f8eeb641b9a9f371773950f1a7db7582b2214b51fd0df83abd3157c0e5366df3e1bb1ee07951a2da5ff48bb25d5350c9174678fd13"
+RPM_NAME = "gnome-session-lang-50.1-1.2.noarch.rpm"
+RPM_HASH = "33ddf4bad87ffb7fd92d6613470b009b8bb414158e819d4692dbc37dd67c536ee4c7d7e0c78562a5e809662fd84b22655f672e3c620770c609f61462f304f102"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-session-lang \
@@ -49,6 +49,7 @@ locale-gnome-session-he \
 locale-gnome-session-hi \
 locale-gnome-session-hr \
 locale-gnome-session-hu \
+locale-gnome-session-ia \
 locale-gnome-session-id \
 locale-gnome-session-is \
 locale-gnome-session-it \

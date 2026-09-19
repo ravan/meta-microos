@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nchairx"
 DESCRIPTION = "This package includes the documentation for texlive-nchairx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn60196"
+PV = "2026.226.1.0.0svn60196"
 
-RPM_NAME = "texlive-nchairx-doc-2023.209.1.0.0svn60196-55.1.noarch.rpm"
-RPM_HASH = "3e1e10e8a89eb724bc2877108a9db0b41665890115bc666d1e7e11fabbb6da29d37fc6d15be960a85edb29d5bab89e0ec5e7811fa7d0e55ce06390563de0ee97"
+RPM_NAME = "texlive-nchairx-doc-2026.226.1.0.0svn60196-61.2.noarch.rpm"
+RPM_HASH = "97d17ed96200cbf906e0c2f33ab950cb795b9a5db6e233b70649e2bdf0f012716c6cfa48893890b11a588172e67005f4e1cb076ee9f43552ec2752bfa2938490"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nchairx-doc"

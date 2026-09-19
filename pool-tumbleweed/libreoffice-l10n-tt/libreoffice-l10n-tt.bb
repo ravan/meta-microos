@@ -2,10 +2,10 @@ SUMMARY = "Tatar localization files for LibreOffice"
 DESCRIPTION = "Provides Tatar translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-tt-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "13ddd442f8caac7c3296fc305453484289692cdf90084b6ccd450594cede0c0f6099dbc190026ca4381b87afc1af10bd0147e90a1c999c2c506a6014afa0b4e6"
+RPM_NAME = "libreoffice-l10n-tt-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "d8c616700205389c58a19bd1cc96dd66259b9b5c7db5499e79bcb3657d95e738f8744badb111dd1851dc5c96a1c100de7c344939b9db3bc87656bcf4786fb197"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-tt \

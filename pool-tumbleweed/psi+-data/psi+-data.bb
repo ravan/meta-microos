@@ -2,10 +2,10 @@ SUMMARY = "Data for Psi+"
 DESCRIPTION = "Icons, sounds, and themes for Psi+."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "1.5.1615+0"
+PV = "1.5.2112+0"
 
-RPM_NAME = "psi+-data-1.5.1615+0-3.2.noarch.rpm"
-RPM_HASH = "0d4f17d64d832abca3bab456e12aa9237b29c77b5761e757f07409bb82cb588e1e2a11ebc35d03514f8e7c961f4360242737bad01942d181866826ee844c3640"
+RPM_NAME = "psi+-data-1.5.2112+0-1.6.noarch.rpm"
+RPM_HASH = "b20239e49a2bec831a84e1f17cae3c11331d7fba4f6555e9b6e46bdbfdf605876c3874cfd8b32e6338874fbb7d957fb15f0f61ca72a3997256525014b27587a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "psi+-data \

@@ -8,10 +8,10 @@ Laboratory grant-nsf: National Science Foundation grant-onr: \
 Office of Naval Research"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.5svn56852"
+PV = "2026.226.0.0.0.5svn56852"
 
-RPM_NAME = "texlive-grant-2023.209.0.0.0.5svn56852-54.2.noarch.rpm"
-RPM_HASH = "1061acf178184bc6e2f53374b4d4ee612cbceae81cbca15f03ecd306b62992efbc81be67dd064c0109b34051608573ebc138d62cfbb2844a6a1fbae583d09262"
+RPM_NAME = "texlive-grant-2026.226.0.0.0.5svn56852-60.4.noarch.rpm"
+RPM_HASH = "90ea8b4077d647a844d26247640003c40c89abeb8413d9a3bb0af5a155360d69708fcebe4de47b35c3bdce69501da4920d29c4de4b9d659fec69bb5236c8842b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grant-afosr.cls \

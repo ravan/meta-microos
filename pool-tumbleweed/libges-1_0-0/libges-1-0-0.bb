@@ -19,10 +19,10 @@ a series of classes to simplify the creation of many kind of \
 editing-related applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "libges-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "2598102a05fa8df30489e298b6ce7582ae0564fd80d07809f0b2671f7f813d39f8ff8643d68639e753e384d00d76c531b530e3094bb8f805053ae403fe03f549"
+RPM_NAME = "libges-1_0-0-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "419d3d3ad7749a973a57651ba1a71565fc49bc4c7a26ca2be1093cebf459bac3d3b6198411d2d4c93e5c46dfa9adc31b90ef41a830ca504176774ba58d200e3c"
 
 RPROVIDES:${PN} += "gstreamer1 \
 libges-1-0-0 \
@@ -35,7 +35,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
-libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgstbase-1.0.so.0 \
 libgstcontroller-1.0.so.0 \
@@ -43,11 +42,6 @@ libgstpbutils-1.0.so.0 \
 libgstreamer-1.0.so.0 \
 libgstvalidate-1.0.so.0 \
 libgstvideo-1.0.so.0 \
-libpython3.11.so.1.0 \
-libxml2.so.2 \
-typelib-GES \
-typelib-GLib \
-typelib-GObject \
-typelib-Gst"
+libxml2.so.16"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of liblo."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.31"
+PV = "0.36"
 
-RPM_NAME = "liblo-devel-0.31-1.12.aarch64.rpm"
-RPM_HASH = "58854f0f7dd91b78701bd1e7a6495146371aae81cf13d66ab76b0f170295a42174ee470bca29f12f75922bda6dbf1e1ec81cdc7eb801f640589b9b60d2becf7f"
+RPM_NAME = "liblo-devel-0.36-1.3.aarch64.rpm"
+RPM_HASH = "d99da963e6621314dc87ab3320982faf1d687b2fade63303b1d0cc3f8df578b90b3c5b7c144144a6bd37f7b26589935884e4d762a52dc7b6f76ba3f692171e45"
 
 RPROVIDES:${PN} += "liblo-devel \
 pkgconfig-liblo"

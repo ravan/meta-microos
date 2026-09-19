@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.3.0"
 
-RPM_NAME = "spice-html5-0.3.0-1.2.noarch.rpm"
-RPM_HASH = "2af77b76194f70e6f608e5ef3e2f87355776ccb54733cbdb29e42182a3c847667ab86afe164418232c267c358539d4ab99782a71603b12ab7fa6c19d491dcfaa"
+RPM_NAME = "spice-html5-0.3.0-1.10.noarch.rpm"
+RPM_HASH = "b2f56a3b30f38b62f4be2778a650f8e6a1c6d444d5301fbb6bffba0f63042f1f3bc799923b8ed870ab0287910ba669fe39c035d2bc77294c6c851a66f78332d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spice-html5"

@@ -13,10 +13,10 @@ it's set up to the output (whether via DVI \\specials or via \
 direct interaction with pdf(La)TeX)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.9svn61719"
+PV = "2026.226.5.9svn77682"
 
-RPM_NAME = "texlive-geometry-2023.209.5.9svn61719-53.1.noarch.rpm"
-RPM_HASH = "073a82049520817c2b756417c6831b50b017c9d66e8a68377df0995c96686393c93c1093d47eb2f785fe1744dd9c51e06b9e5f75e5a8485b26569d9991bf8e29"
+RPM_NAME = "texlive-geometry-2026.226.5.9svn77682-60.2.noarch.rpm"
+RPM_HASH = "d821b831f1062bf6eb2921536867f1a6223f45f6e1bc0665e3877bac9831ae63683896ee645626a2095de9a77849a9be598c6ed0663ec4e3fb992e94c11822de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-geometry.sty \

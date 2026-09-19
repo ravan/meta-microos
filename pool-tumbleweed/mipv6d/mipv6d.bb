@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0"
 
 PV = "2.0.2.umip.0.4"
 
-RPM_NAME = "mipv6d-2.0.2.umip.0.4-28.11.aarch64.rpm"
-RPM_HASH = "d25336e3573e6cf7c1f9ff0589874b0d3beaac2578ef2ec62504f1355ad5e980330b4187a5f7fc7f1571670bec211546f45b2592646b120db1e932c6e06a88b2"
+RPM_NAME = "mipv6d-2.0.2.umip.0.4-29.10.aarch64.rpm"
+RPM_HASH = "ca1f3feabdd50908ff7542175856ce8b6ca96d391ce479935f4b1e08dc8ecc0c896a0e3d4bea63a75bb1b72114dd3ee608d691a92d5e35e9451b499d2050c1f0"
 
 RPROVIDES:${PN} += "config-mipv6d \
 mipv6d"

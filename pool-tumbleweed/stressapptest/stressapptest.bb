@@ -5,10 +5,10 @@ creating a realistic high load situation in order to test the existing \
 hardware devices in a computer."
 LICENSE = "Apache-2.0"
 
-PV = "1.0.9"
+PV = "1.0.11"
 
-RPM_NAME = "stressapptest-1.0.9-3.2.aarch64.rpm"
-RPM_HASH = "1c96b7ca01cddb7bc782d100479727773db30eb7449d5f6174dd6a25a0d986f0bc15cd143b897c43a8ce9fce78fe8fdb7a14184dcc9424f9e8fd2f7f3fbad7bf"
+RPM_NAME = "stressapptest-1.0.11-2.8.aarch64.rpm"
+RPM_HASH = "fafe0d027aa44a0e0f953d4e1b50b4bfadaf45f2ea9fa21e0d0c822ecb7a0e8ae42a8bbff9b678fbe163e13b8c195555ef6280530b40b108399de6328ca9ad93"
 
 RPROVIDES:${PN} += "stressapptest"
 

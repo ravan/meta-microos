@@ -7,10 +7,10 @@ a structured XMP format which can be picked up by search \
 engines and knowledge graphs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.1svn65256"
+PV = "2026.226.2.2.0svn66764"
 
-RPM_NAME = "texlive-scikgtex-2023.209.2.1.1svn65256-54.1.noarch.rpm"
-RPM_HASH = "f26258d07dbd11ff8a792378aae1d141ae369751d5a57718a9677a8b1499f1946c5dcddd661632108dff42cf3f8ef07d72a36c2c871f1f93240cd6df83b3855a"
+RPM_NAME = "texlive-scikgtex-2026.226.2.2.0svn66764-60.2.noarch.rpm"
+RPM_HASH = "9c7a35116aa0b89b68cc229a39a4812ea6d73e98aad5d5c322ad6fcf5044fc77904b60030aeefda51c1f0623a6038d82d8fc28de95d203006154b22dcc2aec05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scikgtex.sty \
@@ -22,7 +22,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-hyperref.sty \
 tex-suffix.sty \
 texlive \
 texlive-filesystem \

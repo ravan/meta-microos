@@ -2,10 +2,10 @@ SUMMARY = "Translations for package drumstick"
 DESCRIPTION = "Provides translations for the 'drumstick' package."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "2.7.2"
+PV = "2.11.1"
 
-RPM_NAME = "drumstick-lang-2.7.2-1.4.noarch.rpm"
-RPM_HASH = "6e392fe82453f6359b500a0d7587fe82c2a2ce0e5d213cc41c73f8b7311ec466f88c87743303d36ab01f2aa81b561bc499e98ef3172d8f8eaecfeeb0be486d0f"
+RPM_NAME = "drumstick-lang-2.11.1-1.1.noarch.rpm"
+RPM_HASH = "ac2e7c965ed26ed2918459a880d977846750de9a8e2437f749c5251998eccba50e462368fe1e966e71513a213be72f034e7c0ebd6c9a01142bd2acaae9703625"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drumstick-lang \

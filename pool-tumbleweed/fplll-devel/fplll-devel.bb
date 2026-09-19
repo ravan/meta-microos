@@ -10,16 +10,16 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfplll."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.4.4"
+PV = "5.5.0"
 
-RPM_NAME = "fplll-devel-5.4.4-1.4.aarch64.rpm"
-RPM_HASH = "31cba7606d85f8e96bcfa90fba0589f52a91a2c578560474ab1a9f41876597958126998cc4e9a0ad6bf056f8cf22e5ade6ae8624d080717e327ec21392d2bff1"
+RPM_NAME = "fplll-devel-5.5.0-1.8.aarch64.rpm"
+RPM_HASH = "7c684b82ac497b015cf20587818eb2e14437697d6506fc3cd7bd0b40532c0430759e532558a58b2302d3b496f4b6f9d35426fa4aa219e2606ba4b03bfc40e3bd"
 
 RPROVIDES:${PN} += "fplll-devel \
 libfplll-devel \
 pkgconfig-fplll"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libfplll8"
+libfplll9"
 
 inherit rpm

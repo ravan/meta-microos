@@ -7,13 +7,13 @@ C interfaces, and can interface with ordering tools such as Scotch. \
  \
  \
  \
-This package contains the parallel library with %{mpi_family} and ."
+This package contains the parallel library with %{mpi_flavor} and ."
 LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "libmumps5_3_5-5.3.5-3.4.aarch64.rpm"
-RPM_HASH = "66a45d76ce257c4d3cdd99fb97f56a279e064fae5651640b90ec1bbb28edbe13ebcf44a280acf7744309d645fc608e726b1a067de74eec5a41bb87dfa6aa64a9"
+RPM_NAME = "libmumps5_3_5-5.3.5-7.6.aarch64.rpm"
+RPM_HASH = "ea6d31e6b50b6aca867c8515a04dc9ba24055593190d5b4214f775149f434e4ee4b610916c432aee879406f58bd8d43b64412dbe6a19140f387da48d523b4f1c"
 
 RPROVIDES:${PN} += "libcmumps-seq.so.5.3.5 \
 libdmumps-seq.so.5.3.5 \

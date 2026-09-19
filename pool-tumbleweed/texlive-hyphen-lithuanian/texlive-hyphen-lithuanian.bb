@@ -3,10 +3,10 @@ DESCRIPTION = "Hyphenation patterns for Lithuanian in L7X and UTF-8 encodings. \
 \\lefthyphenmin and \\righthyphenmin have to be at least 2."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-lithuanian-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "ba1f1a7d3e4fbbbd1dd8bd9e1ccea28631142837cbfeb4c6c66d4fcffe55784a530a17606ef1ea2710a6891161e9bb230a5a73ec1239b1015fafcaec78ded422"
+RPM_NAME = "texlive-hyphen-lithuanian-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "17e4114e27404a6f708d79a34de3c74154f3939f5e159e254a814df234f9154c158df66fa8b70de8868ec8c18bafedd6eabb19bb6cbf003449b57b71526cc9db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-lt.l7x.tex \

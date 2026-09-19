@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.0.1"
 
-RPM_NAME = "TreeMaker-5.0.1-1.3.aarch64.rpm"
-RPM_HASH = "e3104a5af5663c8b8ac59fdad825ccdccc7b3e1fd526970cfcef8526a11dccfd680a40271fed13c11d802b644f68bf74ff948c5bb765bbf3570f53c9473d0304"
+RPM_NAME = "TreeMaker-5.0.1-4.5.aarch64.rpm"
+RPM_HASH = "586d4582c60cabd68a6f363c53d5242d64a187d9ac288478c841bfde99ac9a7527ccf4313b294aebce51aa20f948b4009d2ddf1e3c5c0e629540c133dd5ba6d7"
 
 RPROVIDES:${PN} += "TreeMaker"
 
@@ -24,8 +24,8 @@ libgcc-s.so.1 \
 libgtk-3.so.0 \
 libm.so.6 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk3u-core-suse.so.9.0.0 \
-libwx-gtk3u-html-suse.so.9.0.0"
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk3u-core-suse.so.16.0.0 \
+libwx-gtk3u-html-suse.so.16.0.0"
 
 inherit rpm

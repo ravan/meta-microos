@@ -9,10 +9,10 @@ cramfsswap solves that problem by allowing you to swap to endianess of a \
 cramfs filesystem."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.4.2"
+PV = "1.4.5"
 
-RPM_NAME = "cramfsswap-1.4.2-1.7.aarch64.rpm"
-RPM_HASH = "ab42fd3063e7a23905d12788a877e89623a446450d11097d0ac33758b92cbbb27515dd397957dd1cdb90b007fc2be04684c1efe08bfbdfbb86ef57e885d6d348"
+RPM_NAME = "cramfsswap-1.4.5-1.3.aarch64.rpm"
+RPM_HASH = "db39d884ab3480b3151848ba3ba30e1bf00830927ef6d6653685cc4fb77abe78b71077a960801368d4cb2eae591b87081a745d9b399d95e7d5fc01b8bba8adb6"
 
 RPROVIDES:${PN} += "cramfsswap"
 

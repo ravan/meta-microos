@@ -12,10 +12,10 @@ Computer Modern fonts, and are available both as Metafont \
 source and in Adobe Type 1 format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.7.2svn47680"
+PV = "2026.226.7.2svn75722"
 
-RPM_NAME = "texlive-dozenal-2023.209.7.2svn47680-53.1.noarch.rpm"
-RPM_HASH = "b023b7089843e315469748bd15a76bd266cfe846fedae2bb7f299c27f0941edf7c46f2307aa5988678ec74804efa33cd6d94326e27dd6f7874e94c5157c31544"
+RPM_NAME = "texlive-dozenal-2026.226.7.2svn75722-59.2.noarch.rpm"
+RPM_HASH = "407d872617cc2fc7f9695b8f06dfa136596e632902dae69b24f52a037db3ce96485b7ce0286f6121b68c122a01d7b78bc4dbafb6c35299a8eb37f36b552709d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dozchars10.tfm \
@@ -46,7 +46,6 @@ tex-dozchsl8.tfm \
 tex-dozchsl9.tfm \
 tex-dozenal.map \
 tex-dozenal.sty \
-tex-gray.tfm \
 texlive-dozenal"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

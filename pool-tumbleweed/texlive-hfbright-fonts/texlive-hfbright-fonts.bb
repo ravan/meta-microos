@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-hfbright"
 DESCRIPTION = "The  separated fonts package for texlive-hfbright"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn29349"
+PV = "2026.226.svn29349"
 
-RPM_NAME = "texlive-hfbright-fonts-2023.209.svn29349-54.2.noarch.rpm"
-RPM_HASH = "c74a40459bc273ba7c69219d452b22ffba38f4b642450c75bc20760f50a03226983648c77f80a31b6ea4a83448d2354d35ee1fdb1600481763210c51eeaddd26"
+RPM_NAME = "texlive-hfbright-fonts-2026.226.svn29349-60.4.noarch.rpm"
+RPM_HASH = "4e75c2252cba2ec579a27213e00216abee2c6cf31391bd0912d8058000160364b8c56773e32d1687e734c2821ab7148fb1a7071fc4d333b6f1b5a1d212abd6a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

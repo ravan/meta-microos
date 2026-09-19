@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0b3"
 
-RPM_NAME = "ant-contrib-1.0b3-10.5.noarch.rpm"
-RPM_HASH = "e03b314850ccef0b5004d35c43886084021d8519eca9fa3d0f175d4d26db67d4251c180dfb1b890fa0c25f411c58d6f1593d3dacb9207697f3b8a34488cbcbb2"
+RPM_NAME = "ant-contrib-1.0b3-12.10.noarch.rpm"
+RPM_HASH = "e8ed5a660a711372b90819ef3eddd7b4f8b86c0897397a607fc5df70b52e32937eeae81f56f8d5af51607aff90ee4a23a1d546d072996c5823d021c65628adef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-contrib \

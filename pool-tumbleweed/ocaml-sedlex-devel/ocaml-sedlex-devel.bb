@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-sedlex-devel package contains libraries and signature f
 developing applications that use ocaml-sedlex."
 LICENSE = "MIT"
 
-PV = "3.2"
+PV = "3.7"
 
-RPM_NAME = "ocaml-sedlex-devel-3.2-1.1.aarch64.rpm"
-RPM_HASH = "35f45be5bf645372ba98907baea7f5c35850ac9593c29233ee1ed782d25c0d3bbe9936fcb28d5fc671228f6cbdff02ddb56d4f8a19597627cbc6d5b46adcf16c"
+RPM_NAME = "ocaml-sedlex-devel-3.7-1.3.aarch64.rpm"
+RPM_HASH = "97d52c07d0f14c15e0f1fe033fbabb4161ea3e56d6fba467edbd47219002dfdb74f09c21508c496208168fcafe3fe56b4f62274a3cf2e4221b865b719f7403b5"
 
 RPROVIDES:${PN} += "ocaml-Sedlex-ppx \
 ocaml-Sedlex-ppx--Iso \
@@ -14,6 +14,7 @@ ocaml-Sedlex-ppx--Ppx-sedlex \
 ocaml-Sedlex-ppx--Sedlex \
 ocaml-Sedlex-ppx--Sedlex-cset \
 ocaml-Sedlex-ppx--Unicode \
+ocaml-Sedlex-ppx--Utf8 \
 ocaml-Sedlex-ppx--Xml \
 ocaml-Sedlex-utils \
 ocaml-Sedlex-utils--Cset \
@@ -28,6 +29,7 @@ ocamlx-Sedlex-ppx--Ppx-sedlex \
 ocamlx-Sedlex-ppx--Sedlex \
 ocamlx-Sedlex-ppx--Sedlex-cset \
 ocamlx-Sedlex-ppx--Unicode \
+ocamlx-Sedlex-ppx--Utf8 \
 ocamlx-Sedlex-ppx--Xml \
 ocamlx-Sedlex-utils \
 ocamlx-Sedlex-utils--Cset \
@@ -35,14 +37,9 @@ ocamlx-Sedlexing"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libm.so.6 \
+libzstd.so.1 \
 ocaml-Astlib \
 ocaml-Astlib-- \
-ocaml-Astlib--Ast-402 \
-ocaml-Astlib--Ast-403 \
-ocaml-Astlib--Ast-404 \
-ocaml-Astlib--Ast-405 \
-ocaml-Astlib--Ast-406 \
-ocaml-Astlib--Ast-407 \
 ocaml-Astlib--Ast-408 \
 ocaml-Astlib--Ast-409 \
 ocaml-Astlib--Ast-410 \
@@ -52,8 +49,13 @@ ocaml-Astlib--Ast-413 \
 ocaml-Astlib--Ast-414 \
 ocaml-Astlib--Ast-500 \
 ocaml-Astlib--Ast-501 \
+ocaml-Astlib--Ast-502 \
+ocaml-Astlib--Ast-503 \
+ocaml-Astlib--Ast-504 \
+ocaml-Astlib--Ast-505 \
 ocaml-Astlib--Location \
 ocaml-Astlib--Longident \
+ocaml-Astlib--Longident-504 \
 ocaml-Astlib--Parse \
 ocaml-Asttypes \
 ocaml-Build-path-prefix-map \
@@ -63,7 +65,10 @@ ocaml-CamlinternalOO \
 ocaml-Clflags \
 ocaml-Cmi-format \
 ocaml-Compmisc \
+ocaml-Config \
+ocaml-Data-types \
 ocaml-Env \
+ocaml-Format-doc \
 ocaml-Gen \
 ocaml-Gen-intf \
 ocaml-Ident \
@@ -77,6 +82,7 @@ ocaml-Ocaml-shadow \
 ocaml-Outcometree \
 ocaml-Parsetree \
 ocaml-Path \
+ocaml-Pprintast \
 ocaml-Ppxlib \
 ocaml-Ppxlib-- \
 ocaml-Ppxlib--Ast-builder \
@@ -103,11 +109,11 @@ ocaml-Ppxlib--Utils \
 ocaml-Ppxlib-ast \
 ocaml-Ppxlib-ast-- \
 ocaml-Ppxlib-ast--Ast \
+ocaml-Ppxlib-ast--Ast-helper-lite \
 ocaml-Ppxlib-ast--Import \
 ocaml-Ppxlib-ast--Versions \
 ocaml-Ppxlib-traverse-builtins \
 ocaml-Primitive \
-ocaml-Profile \
 ocaml-Sexplib0 \
 ocaml-Sexplib0-- \
 ocaml-Sexplib0--Sexp \
@@ -124,6 +130,7 @@ ocaml-Stdlib--Bytes \
 ocaml-Stdlib--BytesLabels \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Hashtbl \
@@ -136,30 +143,35 @@ ocaml-Stdlib--Map \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Option \
 ocaml-Stdlib--Printf \
+ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--StdLabels \
 ocaml-Stdlib--String \
 ocaml-Stdlib--StringLabels \
+ocaml-Stdlib--Sys \
 ocaml-Stdlib--Uchar \
 ocaml-Stdppx \
 ocaml-Subst \
 ocaml-Type-immediacy \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Warnings \
 ocaml-sedlex \
 ocamlfind-gen \
 ocamlfind-ppxlib \
 ocamlfind-ppxlib.ast \
+ocamlfind-sedlex \
+ocamlfind-sedlex.utils \
 ocamlx-CamlinternalOO \
 ocamlx-Gen \
-ocamlx-Ppxlib \
 ocamlx-Ppxlib--Ast-builder \
 ocamlx-Ppxlib--Ast-pattern \
 ocamlx-Ppxlib--Ast-traverse \
 ocamlx-Ppxlib--Driver \
 ocamlx-Ppxlib--Extension \
 ocamlx-Ppxlib--Location \
+ocamlx-Ppxlib-ast--Ast-helper-lite \
 ocamlx-Stdlib \
 ocamlx-Stdlib--Array \
 ocamlx-Stdlib--Buffer \
@@ -170,6 +182,7 @@ ocamlx-Stdlib--List \
 ocamlx-Stdlib--Map \
 ocamlx-Stdlib--Option \
 ocamlx-Stdlib--Printf \
+ocamlx-Stdlib--String \
 ocamlx-Stdlib--Uchar"
 
 inherit rpm

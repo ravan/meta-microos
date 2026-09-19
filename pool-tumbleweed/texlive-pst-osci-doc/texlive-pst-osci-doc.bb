@@ -2,14 +2,13 @@ SUMMARY = "Documentation for texlive-pst-osci"
 DESCRIPTION = "This package includes the documentation for texlive-pst-osci"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.82svn15878"
+PV = "2026.226.2.82bsvn68781"
 
-RPM_NAME = "texlive-pst-osci-doc-2023.209.2.82svn15878-53.1.noarch.rpm"
-RPM_HASH = "1ca5a18359aeb27567f9d51a670f985abf0076202b9db2da0c288c6bb6536b3cc012e1324236acf571b4c0d99d7aafdb7076b10b8d788bbf17bc31905d489848"
+RPM_NAME = "texlive-pst-osci-doc-2026.226.2.82bsvn68781-59.2.noarch.rpm"
+RPM_HASH = "4a512a6234e35d222a8da3dec27dfe433df1ee0737deaa5f51745d7f3920da0b0312611cc05b2070c313036751482de1ad2228927e027e4341dc485650b79da6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-texlive-pst-osci-doc-fr;en \
-texlive-pst-osci-doc"
+RPROVIDES:${PN} += "texlive-pst-osci-doc"
 
 RDEPENDS:${PN} += ""
 

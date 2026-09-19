@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.3.1"
 
-RPM_NAME = "mxml-doc-3.3.1-1.3.noarch.rpm"
-RPM_HASH = "8f6ac0417e7bce4aa0d48088becce283234aec13be5ad32577f50f8a13ede99a33a275f92e413b1a5a1b29c2a04438657b152ff69d89e39638d99daa7e3e023b"
+RPM_NAME = "mxml-doc-3.3.1-1.13.noarch.rpm"
+RPM_HASH = "759f299ceb154ec95e574304a187fa5e5167688eea76154ed2c13ada08a9ba8bd59ffc6b432847aaad9b08466e23c1c273eeb3c7a35c5a88c67579afa2c802fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mxml-doc"

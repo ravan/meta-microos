@@ -3,10 +3,10 @@ DESCRIPTION = "Development documentation for fprintd, the D-Bus service for \
 fingerprint readers access."
 LICENSE = "GFDL-1.1-or-later"
 
-PV = "1.94.2"
+PV = "1.94.5"
 
-RPM_NAME = "fprintd-devel-1.94.2-2.5.noarch.rpm"
-RPM_HASH = "fe8e94b3ce202efa95b76e7c7bd142a28c11b456a8d2176b6d09328ad27e42822130977259c751df4df0df117d96151169505c8d35a9fcac70e89551aadf29d6"
+RPM_NAME = "fprintd-devel-1.94.5-1.4.noarch.rpm"
+RPM_HASH = "47c5980821965a20b5be9a6a47fdbbe4c81af8dd2fdb26f9cf7e057ad8caefbad434817b30db35dacad703f17204a139265eaaa4a3352de1c2e41e9fd49d25bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fprintd-devel"

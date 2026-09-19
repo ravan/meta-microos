@@ -3,15 +3,15 @@ DESCRIPTION = "Several tools for reading and writing EWF files. \
 It contains tools to acquire, verify and export EWF files."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230212"
+PV = "20240506"
 
-RPM_NAME = "libewf-tools-20230212-3.1.aarch64.rpm"
-RPM_HASH = "f3172c45502958418e7d61bde76b8e815062ff39b7b238d866fb325f29443b08d3ad054df9b366a673ffdb9478f6447b9ed66f4d73834b7224af81e3667732be"
+RPM_NAME = "libewf-tools-20240506-2.22.aarch64.rpm"
+RPM_HASH = "fc25a1a8262e6415c7a5c699bac121022a6587bfbb40f8f8f1e4bce82fd5ccf986e9830f832a5e37f632c6caaad74222e63d33cb805c64914e10cf985bdd0809"
 
 RPROVIDES:${PN} += "libewf-tools"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-fuse \
+fuse3 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcdata.so.1 \
@@ -25,12 +25,10 @@ libcsplit.so.1 \
 libcthreads.so.1 \
 libewf.so.3 \
 libfdatetime.so.1 \
-libfuse.so.2 \
 libhmac.so.1 \
 libodraw.so.1 \
 libsmdev.so.1 \
 libsmraw.so.1 \
-libuna.so.1 \
-python3-fuse"
+libuna.so.1"
 
 inherit rpm

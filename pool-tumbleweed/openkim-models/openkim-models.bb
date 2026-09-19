@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 & CDDL-1.0 & MPL-2.0 & GPL-3.0-only & LGPL-3.0-only"
 
 PV = "2021.08.11"
 
-RPM_NAME = "openkim-models-2021.08.11-1.7.aarch64.rpm"
-RPM_HASH = "abfe582c3659058b856771e63323c2c1471924223ffea27a664664e0c41412ea4f0f24bbee426c569c5965acb0ec1e85c35f848ee7c7119b08d86736d91a7b25"
+RPM_NAME = "openkim-models-2021.08.11-1.18.aarch64.rpm"
+RPM_HASH = "2e98b6af32a6b06d87048d4632eed168f9876959634fe17148dc3c4e51dd5d053074a9d194979dcfbcfc5c4500b06264fafeeffc776aae820cabd747265bb2c6"
 
 RPROVIDES:${PN} += "libkim-api-model-driver.so \
 libkim-api-portable-model.so \

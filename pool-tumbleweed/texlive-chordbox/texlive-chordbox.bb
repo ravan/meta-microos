@@ -5,10 +5,10 @@ materials. They are composed as TikZ pictures and have several \
 options to modify their appearance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn51000"
+PV = "2026.226.1.0svn51000"
 
-RPM_NAME = "texlive-chordbox-2023.209.1.0svn51000-54.1.noarch.rpm"
-RPM_HASH = "ebceb3f25de56867e3c1d7412c3f67f112e195928eaca1b0fd4cf77911a2afda585a43f8883cc680f7177a274253660d61226c558365c5d188d6790bcaee222b"
+RPM_NAME = "texlive-chordbox-2026.226.1.0svn51000-60.2.noarch.rpm"
+RPM_HASH = "2c21dc4b81877949a6b886c469173504efb464cd6877c3e422c76d3194eaa5110bf09d90850f1d1613cacae979ca75a2c58150fd4aa560e5600ab2d4fae84633"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chordbox.sty \

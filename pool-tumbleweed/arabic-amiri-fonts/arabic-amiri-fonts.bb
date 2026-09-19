@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.109"
 
-RPM_NAME = "arabic-amiri-fonts-0.109-18.15.noarch.rpm"
-RPM_HASH = "d6b91a6c89b689759cb74c67e97206c2083037066840df3332d12334f83f25998fc1f3ad11008d7c16300a684ffe284df892816e09279680657e715d0793d827"
+RPM_NAME = "arabic-amiri-fonts-0.109-18.23.noarch.rpm"
+RPM_HASH = "cbb97feeb1a289de5d5470f4f804c537eddefe9259428e15ec74ea6dcc2a5172ba2227cdbd89ea2b033c91d2f0bae3469bb74c35816eec7eff01105826a0e0dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arabic-amiri-fonts \

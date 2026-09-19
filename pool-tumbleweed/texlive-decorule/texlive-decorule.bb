@@ -7,10 +7,10 @@ the macro which was originally published in the 'Typographers' \
 Inn' column in TUGboat 31:1 (2010)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn55230"
+PV = "2026.226.0.0.7svn77682"
 
-RPM_NAME = "texlive-decorule-2023.209.0.0.7svn55230-53.1.noarch.rpm"
-RPM_HASH = "e466f6b4295607eb454e5bd1f65083a992074c11486b22d887044a5027b680211478e4350360c654d1787ff336617096befe58cc1c8d0a220470479e0da23846"
+RPM_NAME = "texlive-decorule-2026.226.0.0.7svn77682-59.2.noarch.rpm"
+RPM_HASH = "426da73bd5753bfe2903dfe6953e75112e0930e1b170efb2476b4ce415989e5e163ce1aa22a21a10a80a77fa75bb993d2ae3ca00873d06deb82f0bd38bdb075d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-decorule.sty \

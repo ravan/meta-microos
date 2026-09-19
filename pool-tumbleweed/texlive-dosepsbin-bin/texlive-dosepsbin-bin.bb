@@ -2,10 +2,10 @@ SUMMARY = "Binary files of dosepsbin"
 DESCRIPTION = "Binary files of dosepsbin"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn24759"
+PV = "2026.20260301.svn24759"
 
-RPM_NAME = "texlive-dosepsbin-bin-2023.20230311.svn24759-93.2.aarch64.rpm"
-RPM_HASH = "ec67c5c290a791c0ad46f1695013a120c7a98a2029e8a1f22aafc89a203fba3f08e81fe2d5cf20eac9b7709800e929bb88a5ebc44a0cca898195f9c615af75e1"
+RPM_NAME = "texlive-dosepsbin-bin-2026.20260301.svn24759-120.4.aarch64.rpm"
+RPM_HASH = "a759a003d0489166aa0c1cf902169e425f56b447a6af986626dfcf0d59705c8b21e15a5d5549522ff60cbb8cab047d93dc997502dbd30dfb87821c54d7e959bd"
 
 RPROVIDES:${PN} += "texlive-dosepsbin-bin"
 

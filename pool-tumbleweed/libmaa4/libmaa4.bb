@@ -5,10 +5,10 @@ debugging support, and memory management. libmaa was originally \
 implemented as a foundation for the 'kheperalong' package."
 LICENSE = "MIT"
 
-PV = "1.4.7"
+PV = "1.5.1"
 
-RPM_NAME = "libmaa4-1.4.7-1.12.aarch64.rpm"
-RPM_HASH = "23745702b5feee179b254ff358cd0fdaaaa1609c418386ab8e98f23572f5d56455ac68a4e7d302ad624d92428797308d6593e84b8cebfebc07d49bc448308fa1"
+RPM_NAME = "libmaa4-1.5.1-2.1.aarch64.rpm"
+RPM_HASH = "3f0737859703bc07279a509482c5394d845a27eb5187ad73aaab622f1b546dbc32f1b4535dd1f491a3bb7896a3a673bb51df5c58dc1abd7159ed0f55e1db7465"
 
 RPROVIDES:${PN} += "libmaa.so.4 \
 libmaa4"

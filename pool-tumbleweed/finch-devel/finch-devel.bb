@@ -4,10 +4,10 @@ documentation, and libraries required for development of Finch \
 scripts and plugins."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.14.12"
+PV = "2.14.14"
 
-RPM_NAME = "finch-devel-2.14.12-1.4.aarch64.rpm"
-RPM_HASH = "da84215a9e0aa0aa325d6f1f35d369c5404b57a86d08b5d6064f44546bc46629e5c654516d0ad644f911e42e9bf16b3272d57ff7c15da25ae9d2d4739e33df3d"
+RPM_NAME = "finch-devel-2.14.14-2.3.aarch64.rpm"
+RPM_HASH = "b7ebf6006bb3d59c77cafbe70cb5ce637317efcf20bb14525087431a73e680bbdf6d33973e24bb7fdc924e910c806a1a2f6d979d2bf8696605f74f62979df37a"
 
 RPROVIDES:${PN} += "finch-devel \
 pkgconfig-finch"

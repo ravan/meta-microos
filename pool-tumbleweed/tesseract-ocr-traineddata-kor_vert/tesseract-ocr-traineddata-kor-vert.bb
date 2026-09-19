@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the 'Korean lan
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-kor_vert-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "e3d04d6023e2e27b24d01524ec0930f41a94e753c361178028e49bb7afe88cb0d7b36f09e21f96535671cf8bdd710df1e895522c29bb2539ed3e029e7de56e8e"
+RPM_NAME = "tesseract-ocr-traineddata-kor_vert-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "ccc4e36b40c3427573dad889e1c2fd65f6f8c229e857c8dcfde49b813faad706881d51c2862412eeee1a3987239732039e3842dc67db544ac0b05dc576533b9f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-kor-vert \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-ko \
+tesseract-ocr-traineddata-kor-vert \
 tesseract-ocr-traineddata-korean-vertical \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-korean-vertical"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

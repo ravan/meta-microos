@@ -14,12 +14,12 @@ a regular basis. Its main features are: \
 * Users can navigate through lessons through an easy to use arrow key \
   based menu interface. 'vi' up, down, left and right keys can be \
   used too."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.5"
+PV = "2.10.1"
 
-RPM_NAME = "gtypist-2.9.5-3.10.aarch64.rpm"
-RPM_HASH = "8b2d88a6a3b0351edc594af79220321df5f5dee1a96d3f5474d4c3274ba03cfc211678e6c80addbfb94e5d8902df9ba148d5a11a84c9d9a8e9b4ca27dbeaae96"
+RPM_NAME = "gtypist-2.10.1-1.5.aarch64.rpm"
+RPM_HASH = "1a1667aca41b9f89887fd511185df0a2f1962c9ddeda56292f4e331abb3619b131f522d58548212f598582c7502aa517196adc2f38943f0560754535f7675e8e"
 
 RPROVIDES:${PN} += "gtypist"
 

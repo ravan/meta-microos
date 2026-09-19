@@ -21,16 +21,16 @@ address. \
 IPv6 support was added in 1.9104."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.0002"
+PV = "2.0003"
 
-RPM_NAME = "perl-Net-Netmask-2.0002-1.4.noarch.rpm"
-RPM_HASH = "f3d794bd619f739f97570f98821972a2975a59c75b284ff2d3b38a4b42b9acfe1f81e2ff9f853c046239cb83bd81bdc39957df64e9e2c49e1da48b565d386822"
+RPM_NAME = "perl-Net-Netmask-2.0003-1.7.noarch.rpm"
+RPM_HASH = "f173772eea1a23704189150dddaf4892eb87e4b3e35609d85b22d13f8fa8a22592393da6e3d6fe660737318952f310e7c1ee4651a1db045093c7505a0b4dcfa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Netmask \
 perl-Net-Netmask"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Math--BigInt"
 
 inherit rpm

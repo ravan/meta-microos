@@ -1,12 +1,12 @@
 SUMMARY = "CUnit shared library"
 DESCRIPTION = "CUnit is a unit testing framework for C. \
 This package installs the CUnit shared library."
-LICENSE = "LGPL-2.0"
+LICENSE = "LGPL-2.0-only"
 
 PV = "2.1.3"
 
-RPM_NAME = "libcunit1-2.1.3-5.27.aarch64.rpm"
-RPM_HASH = "bfc6001de6a57ea9012ebb6ccc6d3037e34a37bcf66346725bc15145a68a7c54df8a08b54f87bd8438835e83703edf3ff203c7d48c5d29867fd7293cda2f207b"
+RPM_NAME = "libcunit1-2.1.3-7.10.aarch64.rpm"
+RPM_HASH = "75fe55bf5bcbb41e19e37c925e7657a443b883a8eccba13aab3f5625402201a42db42dd7d479304e6434fba19d50050b553be04985afb64d008ad92d321ce08d"
 
 RPROVIDES:${PN} += "libcunit.so.1 \
 libcunit1"

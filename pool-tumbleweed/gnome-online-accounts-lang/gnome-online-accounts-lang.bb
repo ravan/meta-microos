@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-online-accounts"
 DESCRIPTION = "Provides translations for the 'gnome-online-accounts' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "3.48.0"
+PV = "3.58.1"
 
-RPM_NAME = "gnome-online-accounts-lang-3.48.0-1.2.noarch.rpm"
-RPM_HASH = "ce1b42503e7223940f0069ba55f4e64bb84a93f9a6d813bc161ae8931d31584ef82b728410e47a5d7e8cb2d731cf874918b673e92df0286fa999f09f57bd84ed"
+RPM_NAME = "gnome-online-accounts-lang-3.58.1-1.3.noarch.rpm"
+RPM_HASH = "764a83e53f96e480926079bb804ac065df4081b535e1948c114651a2d2f9ff0965d59acea6437026373394fb0f36b220571440e6569d9c28bf55cebe82cb6b97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-online-accounts-lang \

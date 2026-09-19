@@ -23,15 +23,15 @@ Optionally, you can add a number after the test name in test_manifest to \
 define sets of tests. See 'get_t_files' for more information."
 LICENSE = "Artistic-2.0"
 
-PV = "2.023"
+PV = "2.26.0"
 
-RPM_NAME = "perl-Test-Manifest-2.023-1.9.noarch.rpm"
-RPM_HASH = "d39cd761f7e781e36c20e1b693e072f60354a4a9503a9511e8bd0c292efef6611567b4611cbee518409068d9313506ed9dc42410875dc600b7e2c0263fec3a5f"
+RPM_NAME = "perl-Test-Manifest-2.26.0-1.7.noarch.rpm"
+RPM_HASH = "5705e965f5e89c18677e6ae3b3050f382393a1cd359472526d97ed8741518defc94658f78c0e8a5108fc0cdb3619379056d8f0598e3cea5a12bed880f9c8915e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Manifest \
 perl-Test-Manifest"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

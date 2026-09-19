@@ -3,10 +3,10 @@ DESCRIPTION = "This document describes the basic structure and provides informat
 usage of giac, a computer algebra system."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.9.0.27"
+PV = "2.0.0"
 
-RPM_NAME = "giac-doc-1.9.0.27-4.6.noarch.rpm"
-RPM_HASH = "d6e63ca68692f95030059ec7af5e6545156e22f2d87ffb662d2748f9a9d4052bb95fa94c2b53929081a18d584d9e5696bf6340f82929a753ebcfbfe7e6b46c53"
+RPM_NAME = "giac-doc-2.0.0-2.6.noarch.rpm"
+RPM_HASH = "c8f8160055474ab010d9e216b45dfcfcf62ec6cbf6c3ad73feab4cbaeb3b8fbac7fffea1a18af6a55cf9de00f41cbfdcaf52effc8b8c87f71ca4ad072e401f19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "giac-doc"

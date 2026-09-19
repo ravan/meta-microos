@@ -2,10 +2,10 @@ SUMMARY = "Package providing R-core graphics devices in R-grDevices"
 DESCRIPTION = "This package provides R-grDevices, one of R-core packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.1"
+PV = "4.6.1"
 
-RPM_NAME = "R-grDevices-4.3.1-46.1.aarch64.rpm"
-RPM_HASH = "596aa360002dc45892243a84a7b4a65cf61beb080970bce0c0532fe33473d07ac64081fe8226a4542dcc712e6114bcb4c492e0771f179b2ca1f145da66fcb8cc"
+RPM_NAME = "R-grDevices-4.6.1-58.3.aarch64.rpm"
+RPM_HASH = "6130d3ecd7e119d7a898a210d2ff6ba091bd13826e96ef64ddab8ead66afc3d2d5da0250c886654569adc6693296428eb570f41ddcb987ed80c37a4ba771263c"
 
 RPROVIDES:${PN} += "R-grDevices"
 

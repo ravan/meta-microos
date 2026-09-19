@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sistyle"
 DESCRIPTION = "This package includes the documentation for texlive-sistyle"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3asvn59682"
+PV = "2026.226.2.3asvn59682"
 
-RPM_NAME = "texlive-sistyle-doc-2023.209.2.3asvn59682-58.1.noarch.rpm"
-RPM_HASH = "ea5a0c3da63e2839b440f8271af900a43218c094566b943dedff4c3a63ac8a5138b81cfac53554b6ebcd106eec890862df35ad6d0c767dc388357c5d7e88a5b7"
+RPM_NAME = "texlive-sistyle-doc-2026.226.2.3asvn59682-64.2.noarch.rpm"
+RPM_HASH = "028418379e98bbc4bcf82d8562c46db8a11898e08a57fbf897ad58940dea966b94d600c35dcdf9d4528eeff4e16bbda7b4a5516cf867ac2cbd6bddcb64f3fd6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sistyle-doc"

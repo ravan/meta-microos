@@ -2,10 +2,10 @@ SUMMARY = "Binary files of ulqda"
 DESCRIPTION = "Binary files of ulqda"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn13663"
+PV = "2026.20260301.svn13663"
 
-RPM_NAME = "texlive-ulqda-bin-2023.20230311.svn13663-93.2.aarch64.rpm"
-RPM_HASH = "3b5ffab0058553943d252fcd96b721fcd0c54c522bba14321d5b43fcecae2a74064cd931abc84ebb5293033d19d2ca5f8a24e4d69c8640956c1d88b586cd9928"
+RPM_NAME = "texlive-ulqda-bin-2026.20260301.svn13663-120.4.aarch64.rpm"
+RPM_HASH = "50a0ef42ce52aa1e99d980d9af3a202f84fb3cdc50f893727fb9a560a4095a988eb490349840dde6c3934995b6dfb961e6ddb33c17197a4c6db020430e7c6b82"
 
 RPROVIDES:${PN} += "texlive-ulqda-bin"
 

@@ -14,17 +14,16 @@ method), instead using disk as storage. \
 because it uses it internally."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.38"
+PV = "0.420.0"
 
-RPM_NAME = "perl-Archive-Tar-Wrapper-0.38-1.14.noarch.rpm"
-RPM_HASH = "f7838c5b2356046817ddaf51920325a58da0e90aa5d73d5f6a8303bd5d7289f7980f99a10a394b08a9be0ebc7c5439361c3f3adf8577708329f10bf8e42d225a"
+RPM_NAME = "perl-Archive-Tar-Wrapper-0.420.0-1.10.noarch.rpm"
+RPM_HASH = "984e7039e101912685af5a5ab291f7c91119458ad54a5170afaa39e859dd0abf51ee1dd9ee41b0e70ea70602c84f846d68d681c2f69f9ebd57248e0e7fcbf636"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Archive--Tar--Wrapper \
 perl-Archive-Tar-Wrapper"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-CPAN--Meta \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-File--Which \
 perl-IPC--Run \
 perl-Log--Log4perl"

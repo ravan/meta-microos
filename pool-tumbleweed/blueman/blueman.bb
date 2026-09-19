@@ -12,10 +12,10 @@ Bluetooth operations such as: \
 using a graphical user interface."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.3.5"
+PV = "2.4.6"
 
-RPM_NAME = "blueman-2.3.5-1.4.aarch64.rpm"
-RPM_HASH = "682eb94d3991d60ae6646ac8cf3a88775097924ec5cbb4a45243d7aae89732d9c761d86a9ec1150ca5c74ca40d4849943452aa3dccc807341db85a815af604af"
+RPM_NAME = "blueman-2.4.6-1.5.aarch64.rpm"
+RPM_HASH = "e20bf21c644c7705d78eb7cb227f35961ec0de0f2ab8ea8d6a3c3934103ade9ed9a1da86861e5f44d0c1f233275511114c8e1fec37a0e4417833c25be2533464"
 
 RPROVIDES:${PN} += "blueman"
 

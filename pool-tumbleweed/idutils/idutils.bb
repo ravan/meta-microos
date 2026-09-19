@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6"
 
-RPM_NAME = "idutils-4.6-4.11.aarch64.rpm"
-RPM_HASH = "e0c2747efefaf85d90a50c4b79b446a7c63f16c364c7b5d6b675f9545858e72c9c48ea68ccc507057790a9b5a7412ec5db1b51528288692dac54b189b6a038b2"
+RPM_NAME = "idutils-4.6-5.9.aarch64.rpm"
+RPM_HASH = "a81de2d6e4ef7f69d5678912828e40f457ac8efb17803d32ea85d9a84098975d057ffc5601a00b3e2ff9778907c28b7f46645e2a16e1879b75cb0a0f68b51598"
 
 RPROVIDES:${PN} += "config-idutils \
 id-utils \

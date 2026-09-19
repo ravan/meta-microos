@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.5"
 
-RPM_NAME = "ghc-easy-file-doc-0.2.5-1.5.noarch.rpm"
-RPM_HASH = "df1bbf28dd8c3350a0d36f678afc0fcc47a240d53b16577192de5656f12bdf33cdc26e4a774859a6847ca4af13a6d904ef51a64b9c44c67c168d38235685133a"
+RPM_NAME = "ghc-easy-file-doc-0.2.5-1.32.noarch.rpm"
+RPM_HASH = "d861080d90f06cda3bc5c1e6af19753e41adf24f5e2716450b1da74a51adf8a20519d1ecd0eb403dfe3cd375da0a1a7ef5338a09b11bc64cc4935cc1d9b740ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-easy-file-doc"

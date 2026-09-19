@@ -6,23 +6,13 @@ such as TensorFlow Lite, allowing them to run efficiently – without \
 modification – across Arm Cortex CPUs and Arm Mali GPUs."
 LICENSE = "MIT"
 
-PV = "23.08"
+PV = "26.07"
 
-RPM_NAME = "armnn-23.08-1.1.aarch64.rpm"
-RPM_HASH = "4d6639f97b6871561636c8767f76e41ab69d00cbbd6d750ee23c8e3cf10d2e7f66651c6b19e6454e8dd3559c12d499e15438c9a9cb61a4d1314a330aa158af89"
+RPM_NAME = "armnn-26.07-1.1.aarch64.rpm"
+RPM_HASH = "ed05480c2e4d81c7af81741bfe50d1ef3a8b603ea5371e304b5487bf5b1bbb673090cfa6c7db063773fc827ee8f0c3da8c5161089d842a016f10cb08f46607ae"
 
 RPROVIDES:${PN} += "armnn"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libarmnn.so.33 \
-libarmnn33 \
-libarmnnSerializer.so.33 \
-libarmnnSerializer33 \
-libarmnnTfLiteParser.so.24 \
-libarmnnTfLiteParser24 \
-libc.so.6 \
-libgcc-s.so.1 \
-libm.so.6 \
-libstdc++.so.6"
+RDEPENDS:${PN} += "libarmnn36"
 
 inherit rpm

@@ -9,10 +9,10 @@ events to Python. Use it to: \
 This package provides the tools and jupyter notebook extension."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.1"
+PV = "2.0.4"
 
-RPM_NAME = "jupyter-ipyevents-2.0.1-6.1.noarch.rpm"
-RPM_HASH = "a3f5cdfdb08558f7ee1e1b5e6d9f5061a9417f2b2a131b05196aa5952c210efa18d13c577228f5cfc751cc484a89a51ba8e9b869cfa8592b79a66ba0dca023fa"
+RPM_NAME = "jupyter-ipyevents-2.0.4-1.4.noarch.rpm"
+RPM_HASH = "259e2e887b8382668605318590bc2e2b478f10d00cf1b43e074781eac3e77048b39ea4419a92d60949bb5261a37533d4423260011db1a9e2dbed7a68ebdff66c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyevents"

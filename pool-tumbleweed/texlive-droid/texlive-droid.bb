@@ -11,10 +11,10 @@ formats. The package does not support the Droid Pro family of \
 fonts, available for purchase from the Ascender foundry."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2svn54512"
+PV = "2026.226.3.2svn77682"
 
-RPM_NAME = "texlive-droid-2023.209.3.2svn54512-53.1.noarch.rpm"
-RPM_HASH = "7a49d7c6cf44cbfc822f1a49a69779914623692b529e61ea6d90d73526314bce46fddd9bae7f48f8d3701dbe1265fe713b375de390d06e73126e878d30edf2f6"
+RPM_NAME = "texlive-droid-2026.226.3.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "9c5e296c73ad66ebdc879412cac0ffce2fca41f4a0bfd372f4f52e22653f83803b8e40bef0f1c9f37750b8437b188d8d100655a0ecea7da692907434cb371149"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-DroidSans-Bold-LGR--base.tfm \

@@ -5,10 +5,10 @@ containing both Producer and Consumer support. \
 This package contains development headers and examples."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.1.1"
+PV = "2.15.0"
 
-RPM_NAME = "librdkafka-devel-2.1.1-1.2.aarch64.rpm"
-RPM_HASH = "5af2ca6132faa9b3dd370174cc275e32053a2946343b76cd6e00ae3bc1b0278ca80aec42a6c2841d40275cd0cd3df123fd9f699318ee960776b2e641df3c72f7"
+RPM_NAME = "librdkafka-devel-2.15.0-1.1.aarch64.rpm"
+RPM_HASH = "9bc26df46c69a268c3230f341c691d69ecf9d0e164cd68a04c7f0e7baf8c7ae04d63ecd391e9ebc457e0aea9b92ad3d3c00645f1ec1da965eba87e2a8db89525"
 
 RPROVIDES:${PN} += "librdkafka-devel \
 pkgconfig-rdkafka \

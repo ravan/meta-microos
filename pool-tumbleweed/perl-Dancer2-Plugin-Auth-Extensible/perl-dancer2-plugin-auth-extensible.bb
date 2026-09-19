@@ -14,10 +14,10 @@ hashed passwords is included, or you can use Crypt::SaltedHash yourself to \
 do so, or use the 'slappasswd' utility if you have it installed."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.710"
+PV = "0.714.0"
 
-RPM_NAME = "perl-Dancer2-Plugin-Auth-Extensible-0.710-1.11.noarch.rpm"
-RPM_HASH = "82a698a52d712f037e09fb8e408a2bb48d1eec538c2970e01ab4c0e0052ed57da32c8301384258655307d9b53675f095f802ccc5f493736e52bb23b5521207d6"
+RPM_NAME = "perl-Dancer2-Plugin-Auth-Extensible-0.714.0-1.1.noarch.rpm"
+RPM_HASH = "8b5c655cafaaf0a035c272a0893d9ea51f324dd1256dec1cee863b4d2de9f5263e785e4cbd031d1c5d6353b9bb4bd1a691b5df3af2cc5e49e9d7e8eb60913ec1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dancer2--Plugin--Auth--Extensible \
@@ -30,7 +30,7 @@ perl-Dancer2--Plugin--Auth--Extensible--Test--App \
 perl-Dancer2-Plugin-Auth-Extensible"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Crypt--SaltedHash \
 perl-Dancer2 \
 perl-Dancer2--Core--Types \

@@ -4,10 +4,10 @@ gestures you make on your touchpad or touchscreen into visible \
 actions in your desktop."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "2.0.16"
+PV = "2.0.17"
 
-RPM_NAME = "touchegg-2.0.16-1.2.aarch64.rpm"
-RPM_HASH = "f234f625697c2f0ef11a183b4fe603f86d29d19b1ddda52ea761d00293bd987a24588c035e43371f749fa9d93709bb317d184e62aec326fbc8861d1fbc87a9f8"
+RPM_NAME = "touchegg-2.0.17-3.5.aarch64.rpm"
+RPM_HASH = "554c926bf0c0b9c2a66bbe813a68a7d719bbcca4972de23273940ba436da617b066230a4fcacb7aba65df21b9a3e601504b0d5878818a706a9d0ce1d0bbee97d"
 
 RPROVIDES:${PN} += "touchegg"
 

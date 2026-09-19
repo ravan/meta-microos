@@ -2,10 +2,10 @@ SUMMARY = "Winbind Daemon and Tool"
 DESCRIPTION = "This is the winbind-daemon and the wbinfo-tool."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "samba-winbind-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "d8ff64d606c253a4a1de6fc9f4be7d2b55339bac2011eb4141741d1d1e8e6053738f41834754a8c84379a4a19b687449837c04c33e09d4f42cdc724d96ed3a45"
+RPM_NAME = "samba-winbind-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "7e5384d693d252fe12460307560f444834c48a4de982bf2fb852a639ed5d3c158450a1e3445c52f2b2fc10c528bde5f166e6f073dc14faa151a593d3d8c2d97d"
 
 RPROVIDES:${PN} += "config-samba-winbind \
 group-winbind \
@@ -16,66 +16,68 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
-libMESSAGING-samba4.so \
-libRPC-SERVER-LOOP-samba4.so \
-libads-samba4.so \
-libauth-samba4.so \
-libauthkrb5-samba4.so \
+libMESSAGING-private-samba.so \
+libRPC-SERVER-LOOP-private-samba.so \
+libads-private-samba.so \
+libasn1util-private-samba.so \
+libauth-private-samba.so \
+libauthkrb5-private-samba.so \
 libc.so.6 \
-libcli-ldap-common-samba4.so \
-libcli-smb-common-samba4.so \
-libcliauth-samba4.so \
-libcmdline-samba4.so \
+libcli-ldap-common-private-samba.so \
+libcli-smb-common-private-samba.so \
+libcliauth-private-samba.so \
+libcmdline-private-samba.so \
 libcom-err.so.2 \
-libcommon-auth-samba4.so \
-libdbwrap-samba4.so \
+libcommon-auth-private-samba.so \
+libdbwrap-private-samba.so \
 libdcerpc-binding.so.0 \
-libdcerpc-samba-samba4.so \
-libdcerpc-samba4.so \
+libdcerpc-samba-private-samba.so \
+libdcerpc-samba4-private-samba.so \
 libdcerpc-server-core.so.0 \
-libflag-mapping-samba4.so \
-libgenrand-samba4.so \
-libgensec-samba4.so \
+libflag-mapping-private-samba.so \
+libgenrand-private-samba.so \
+libgensec-private-samba.so \
 libgnutls.so.30 \
-libgse-samba4.so \
-libidmap-samba4.so \
+libgse-private-samba.so \
+libidmap-private-samba.so \
 libkrb5.so.3 \
-libkrb5samba-samba4.so \
-liblibcli-lsa3-samba4.so \
-liblibcli-netlogon3-samba4.so \
-liblibsmb-samba4.so \
-libmsrpc3-samba4.so \
-libndr-samba-samba4.so \
-libndr-samba4.so \
+libkrb5samba-private-samba.so \
+liblibcli-lsa3-private-samba.so \
+liblibcli-netlogon3-private-samba.so \
+liblibsmb-private-samba.so \
+libmsrpc3-private-samba.so \
+libndr-samba-private-samba.so \
+libndr-samba4-private-samba.so \
 libndr-standard.so.0 \
-libndr.so.3 \
-libnss-info-samba4.so \
+libndr.so.6 \
+libnss-info-private-samba.so \
 libpopt.so.0 \
-libreplace-samba4.so \
+libreplace-private-samba.so \
 libsamba-credentials.so.1 \
-libsamba-debug-samba4.so \
+libsamba-debug-private-samba.so \
 libsamba-errors.so.1 \
 libsamba-hostconfig.so.0 \
 libsamba-passdb.so.0 \
-libsamba-security-samba4.so \
-libsamba-sockets-samba4.so \
+libsamba-security-private-samba.so \
+libsamba-security-trusts-private-samba.so \
+libsamba-sockets-private-samba.so \
 libsamba-util.so.0 \
-libsamba3-util-samba4.so \
-libsamdb-common-samba4.so \
-libsecrets3-samba4.so \
+libsamba3-util-private-samba.so \
+libsamdb-common-private-samba.so \
+libsecrets3-private-samba.so \
 libsmbconf.so.0 \
-libsmbd-shim-samba4.so \
-libsocket-blocking-samba4.so \
-libsys-rw-samba4.so \
+libsmbd-shim-private-samba.so \
+libsocket-blocking-private-samba.so \
+libsys-rw-private-samba.so \
 libtalloc.so.2 \
 libtdb.so.1 \
 libtevent-util.so.0 \
 libtevent.so.0 \
-libtrusts-util-samba4.so \
-libutil-tdb-samba4.so \
+libutil-tdb-private-samba.so \
 libwbclient.so.0 \
 pam-config \
 samba-client \
+samba-dcerpc \
 samba-winbind-libs \
 sysuser-shadow"
 

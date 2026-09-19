@@ -2,10 +2,10 @@ SUMMARY = "LXQt Desktop Environment"
 DESCRIPTION = "LXQt is a lightweight desktop environment based on Qt."
 LICENSE = "MIT"
 
-PV = "20220914"
+PV = "20260223"
 
-RPM_NAME = "patterns-lxqt-lxqt-20220914-1.2.aarch64.rpm"
-RPM_HASH = "e854b15ffe4b290ceacb200cfdb615f1cff99823e5394280e2f08a42a11a428fdfcbc4d7e2e6a1bd35a3cbffeb571e8db7c89dfe8ca69631055e707792cabe58"
+RPM_NAME = "patterns-lxqt-lxqt-20260223-1.2.aarch64.rpm"
+RPM_HASH = "ad9f5551e98e14ccaffa1b8662669a285930d3a6cde8c4913825ec70e06a862c62394bc8dabb14d47a4f0015b8cfdfe97b6c1295743e2b9760447a691b784b1b"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -14,7 +14,9 @@ pattern-order- \
 pattern-visible- \
 patterns-lxqt-lxqt"
 
-RDEPENDS:${PN} += "breeze5-icons \
+RDEPENDS:${PN} += "kf6-breeze-icons \
+libfm-qt6 \
+liblxqt \
 lxqt-about \
 lxqt-config \
 lxqt-globalkeys \
@@ -28,7 +30,8 @@ lxqt-runner \
 lxqt-session \
 lxqt-sudo \
 lxqt-themes \
-oxygen5-icon-theme \
+lxqt-wayland-session \
+oxygen-icon-theme \
 pattern-"
 
 inherit rpm

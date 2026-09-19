@@ -1,4 +1,4 @@
-SUMMARY = "compute Voronoi diagrams from sets of points"
+SUMMARY = "Compute Voronoi diagrams from sets of points"
 DESCRIPTION = "This module computes Voronoi diagrams from a set of input points. Info on \
 Voronoi diagrams can be found here: \
  \
@@ -17,19 +17,19 @@ I made changes to the C code to allow reading input and writing output \
 to/from Perl data-structures. I also modified the memory allocation code to \
 use Perl's memory allocator. Finally, I changed all floats to doubles to \
 provide better precision and to match Perl's NVs."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.3"
+PV = "1.300.0"
 
-RPM_NAME = "perl-Math-Geometry-Voronoi-1.3-3.37.aarch64.rpm"
-RPM_HASH = "416cc63f225c6892c0fddb1961e49e179345acd65faae49669857bf01d2e3ff4a9d224ca3fe847db0b428843580c2028ee352654703ae0fe1b9c307b31d08db4"
+RPM_NAME = "perl-Math-Geometry-Voronoi-1.300.0-1.11.aarch64.rpm"
+RPM_HASH = "e6e198082de0c3108f6969f9bcfebe6c92c5a02621b9141fc7705e8d0ef2e9fac9e96529a6f2f7840d13cbc59d5ec681fe52fe104b15c889755f8552be7ea9c0"
 
 RPROVIDES:${PN} += "perl-Math--Geometry--Voronoi \
 perl-Math-Geometry-Voronoi"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Accessor \
 perl-Params--Validate"
 

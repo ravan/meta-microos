@@ -10,15 +10,14 @@ Supported games: \
  *  Aliens of Gold (v1.0/v2.0/v2.1/v3.0) full or shareware \
  *  Planet Strike (v1.0/v1.1) \
  \
- \
 NOTE: To play Blake Stone with bstone you need the original game files \
 You need to start the game from within the folder with these files."
 LICENSE = "GPL-2.0-or-later & MIT & GPL-3.0-or-later"
 
-PV = "1.2.12"
+PV = "1.3.4"
 
-RPM_NAME = "bstone-1.2.12-2.2.aarch64.rpm"
-RPM_HASH = "03730019085ef173a94d001ec73d329de4245ca37d3fda29d6cafdc4d7f788e909c22aa75c445810b6ed6e886df649bc3256d9d57129f9d135b279630fadcc80"
+RPM_NAME = "bstone-1.3.4-1.2.aarch64.rpm"
+RPM_HASH = "500a1f1edb560f9912e73b7b6df00518b35cb322fea85be52d9e18bac2b2145e97a76ae7ad9e57b28846634af935082025c47570d690068abe7c7208bb17b2dd"
 
 RPROVIDES:${PN} += "bstone"
 

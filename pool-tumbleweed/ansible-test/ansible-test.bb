@@ -9,15 +9,16 @@ modules can be written in any language and are transferred to managed machines \
 automatically."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.15.3"
+PV = "2.21.3"
 
-RPM_NAME = "ansible-test-2.15.3-1.1.noarch.rpm"
-RPM_HASH = "dec079bceb1b7b6d6e18e7125b27152a83080b86563e3b816ea00791b825a3400a3473595f6051ce3d538af04379eea52cebea5e055b295875c365c82a436059"
+RPM_NAME = "ansible-test-2.21.3-1.1.noarch.rpm"
+RPM_HASH = "4f124d134b635b648726b4d32786131731956ae086dfbba805f95c06c63a48c4543d1c262b02a67fd3dc0bb0f468e03d940dd94da43bd160ccc8783f166a7dac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-test"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/python3.13 \
 ansible-core \
 python-abi \
 python3-virtualenv"

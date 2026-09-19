@@ -7,10 +7,10 @@ them. There are also small-caps and old-style figures in the \
 Regular weight."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64495"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-overlock-2023.209.svn64495-52.1.noarch.rpm"
-RPM_HASH = "fbf5451d2a4ecd6d37daedf63188d71b1fc54f1712d47704f98339f27291c6220915ea8d2edf48d6084512cc71a85f19c23372f9a6711c356e1ac2162eb2d490"
+RPM_NAME = "texlive-overlock-2026.226.svn77682-58.2.noarch.rpm"
+RPM_HASH = "bc43de37414c1864caa751ff5c98f84793a7b7cd272bc1a47fb1c30903367c7ba4dca41c667a9d6070f15985a6fa0f49beb6cfe4c45934bbf3b0db7636bb7f56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Ovrlck-LF.fd \

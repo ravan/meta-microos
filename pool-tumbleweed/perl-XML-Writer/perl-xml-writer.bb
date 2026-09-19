@@ -20,8 +20,8 @@ LICENSE = "MIT"
 
 PV = "0.900"
 
-RPM_NAME = "perl-XML-Writer-0.900-1.14.noarch.rpm"
-RPM_HASH = "738332fcac6d20f0c592cddefc1843fec96a371e557120146bbc5b294fe572e729f037367cfcb513c2f1ff6908fec0322f3a9af3058c305f0bd0cdb32e190d93"
+RPM_NAME = "perl-XML-Writer-0.900-1.28.noarch.rpm"
+RPM_HASH = "489d6354be53d650efd54ad688d88849d5fd0aa3b75450507c8aa6df6aa40c9a7edeb12e392d05fbdbf506b02351a0ad70c6feec7f3fc1541b83707a2149a207"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Writer \
@@ -30,6 +30,6 @@ perl-XML--Writer---String \
 perl-XML--Writer--Namespaces \
 perl-XML-Writer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

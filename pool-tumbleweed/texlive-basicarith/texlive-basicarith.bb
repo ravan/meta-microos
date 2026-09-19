@@ -8,10 +8,10 @@ currently prevent this. It is highly configurable, with macros \
 and lengths described in the documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn35460"
+PV = "2026.226.1.1svn35460"
 
-RPM_NAME = "texlive-basicarith-2023.209.1.1svn35460-54.1.noarch.rpm"
-RPM_HASH = "e382a85e72dd326ae7a2e8defc2182b30029a57444b408d96b4035eaf4cf03604a492ff7d4e7e8745a426ac4cb7e15780d062c7c7acc2033d754258e53afaef5"
+RPM_NAME = "texlive-basicarith-2026.226.1.1svn35460-60.2.noarch.rpm"
+RPM_HASH = "ff8a4e5d81ae73e6151232a71bccc0e0640f92bfbbb31d323fd174474b995a81afb613469303b72937690635dd8ec3f29199b095ba97aca82756ab62e5dd8fcc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-basicarith.sty \

@@ -6,10 +6,10 @@ The driver contains two modules: \
 - Apex refers to the EdgeTPU v1."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.18"
+PV = "1.0.18_5815ee3"
 
-RPM_NAME = "gasket-driver-1.0.18-2.6.aarch64.rpm"
-RPM_HASH = "5509cb129459794882bc709bfa2136b98c57f9a9f5e7049683203ddb82f7920b6790bbf8cd5cfa231e4c6e74da7da93e0a0844b91b5331ae3221c0999f804265"
+RPM_NAME = "gasket-driver-1.0.18_5815ee3-6.16.aarch64.rpm"
+RPM_HASH = "48378f2684592535c86cec79bcf6b0b284d04e7fa2fe84a876c717f8799e0135e9c2f3dcf84d91ebb64d3267ac00f924e2536a4fce9f2366ba791991c9205859"
 
 RPROVIDES:${PN} += "gasket-driver \
 group-apex"

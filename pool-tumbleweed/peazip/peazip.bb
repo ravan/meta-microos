@@ -11,15 +11,15 @@ has an encrypted password manager, secure deletion, can find duplicate files, ca
 export job definition as a script."
 LICENSE = "LGPL-3.0-only"
 
-PV = "9.4.0"
+PV = "11.2.0"
 
-RPM_NAME = "peazip-9.4.0-1.1.aarch64.rpm"
-RPM_HASH = "161f2ca99437bf952af11c27ae1d973bda5dc69cca4c71f05a1fee814bf9f99d3f81ec104e8339d828f057f3ce2c3269ed20154c5c042701438b2f9e75206629"
+RPM_NAME = "peazip-11.2.0-2.1.aarch64.rpm"
+RPM_HASH = "96fc60f917655b251791d7be4b8886bf0ca24b20f88b95613048286759000a9aa1cde42e5b38af652b808086d7747861c38cf34114d35ff1bffd8b210e1ba379"
 
 RPROVIDES:${PN} += "peazip"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-libQt5Pas.so.1 \
+libQt6Pas.so.6 \
 libX11.so.6 \
 libc.so.6 \
 p7zip-full \

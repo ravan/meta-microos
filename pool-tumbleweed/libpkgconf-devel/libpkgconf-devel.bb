@@ -3,15 +3,15 @@ DESCRIPTION = "This package provides files necessary for developing applications
 to use functionality provided by pkgconf."
 LICENSE = "ISC"
 
-PV = "1.8.0"
+PV = "2.5.1"
 
-RPM_NAME = "libpkgconf-devel-1.8.0-2.5.aarch64.rpm"
-RPM_HASH = "802286adef20855be9fbb779038ec151c3a2f66af58a5d32cb460c654ac1df52a070ace8fcabe0f66802b4ddb232100a3ee29c239584896cdb5368f0a1cd9a73"
+RPM_NAME = "libpkgconf-devel-2.5.1-1.5.aarch64.rpm"
+RPM_HASH = "bedf6bff000fb4e66c149dedb316c4fb05132b4e58de5a25953d69490ed2dd7dd564d3e4f34ccd149bea094bb78e87c464fc79a0a1fac837d11c6fe603cbbb93"
 
 RPROVIDES:${PN} += "libpkgconf-devel \
 pkgconfig-libpkgconf"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpkgconf3"
+libpkgconf7"
 
 inherit rpm

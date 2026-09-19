@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.0"
 
-RPM_NAME = "molequeue-libs0-0.9.0-3.10.aarch64.rpm"
-RPM_HASH = "770409ea0c24974338631ab7c989c3bbdca17272462f946884adb384d7e5d7222fe179d6eca5977e7142db49f206a75c245ad0532b73477045062cbe1a77074c"
+RPM_NAME = "molequeue-libs0-0.9.0-4.3.aarch64.rpm"
+RPM_HASH = "59b43f423dc780fb58e2b0d3005ce104d1e61ad9e5e8503889d862c19776dbfb675631c6d8f999ca6cc3509d95c593b9c8dc6a8952c6ff9902fc2f1477fd93c0"
 
 RPROVIDES:${PN} += "libMoleQueueClient.so \
 libMoleQueueServerCore.so \

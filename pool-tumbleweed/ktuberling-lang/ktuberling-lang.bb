@@ -2,18 +2,18 @@ SUMMARY = "Translations for package ktuberling"
 DESCRIPTION = "Provides translations for the 'ktuberling' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ktuberling-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "b6729989372db2afcd79f3c3c654f73c199080f969729f0fa6521c925adde8cc46cc4e76212e1f4f1330ebb4f93968699331b090929a4e3bf5a261d05271f29a"
+RPM_NAME = "ktuberling-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "85b25c12852ce8a26ad6998a36c25317b8e7639e114ab1d86621a88532507e431b6beec256f394eb6a516033f15142e3570fc2bf20b7b9e54fd94afbd43152c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktuberling-lang \
 ktuberling-lang-all \
 locale-ktuberling-af \
 locale-ktuberling-ar \
+locale-ktuberling-ast \
 locale-ktuberling-be \
-locale-ktuberling-bg \
 locale-ktuberling-br \
 locale-ktuberling-bs \
 locale-ktuberling-ca \
@@ -37,6 +37,7 @@ locale-ktuberling-he \
 locale-ktuberling-hi \
 locale-ktuberling-hr \
 locale-ktuberling-hu \
+locale-ktuberling-ia \
 locale-ktuberling-id \
 locale-ktuberling-is \
 locale-ktuberling-it \

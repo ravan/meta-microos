@@ -7,10 +7,10 @@ the doc package is for LaTeX, whereas the tclldoc class more \
 parallels the ltxdoc class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.40svn22018"
+PV = "2026.227.2.40svn22018"
 
-RPM_NAME = "texlive-tcldoc-2023.209.2.40svn22018-55.1.noarch.rpm"
-RPM_HASH = "0e61301cb09ef596b77370da5a09a35d28840682312335d1bd6ecbb66b18ad6b06f979cf5292c8b30368d0487c24d11f8a252961248f274312d5fb23f9d48041"
+RPM_NAME = "texlive-tcldoc-2026.227.2.40svn22018-62.2.noarch.rpm"
+RPM_HASH = "d667761a7f814d7b5a796ffe25781b9dcf199649ece36eb8869e3f5f96f8184dcaf748c976af65689140cd058285343637779babeb1311cca69d89beee4de50f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tcldoc.cls \

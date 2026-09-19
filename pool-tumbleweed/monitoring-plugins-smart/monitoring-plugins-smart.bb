@@ -12,10 +12,10 @@ Since SLES 12/openSUSE 12.1, there is a file \
 which holds the same content and should be used automatically."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.14.0"
+PV = "6.18.3"
 
-RPM_NAME = "monitoring-plugins-smart-6.14.0-1.1.noarch.rpm"
-RPM_HASH = "9830abf600bb17a28453932f6af41c44ae21e2fbaf505862a9c047e8dd2860bd57f651a88a4e509e60d942a39fa01814d7fbfd90e49c24e2dca097e39754b36d"
+RPM_NAME = "monitoring-plugins-smart-6.18.3-1.1.noarch.rpm"
+RPM_HASH = "7db1f09d0ac2328f9459f22756c4c3c48249da5445c3d5f6cb1d49ccc76dbccbc5459329998fa66c77454a28357dafaa92a66be3de8dde837c654924c1ca04c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-smart \

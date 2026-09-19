@@ -1,11 +1,11 @@
-SUMMARY = "cangjie input schema for rime"
+SUMMARY = "Cangjie input schema for rime"
 DESCRIPTION = "cangjie input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-cangjie-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "678d8f499e5ecf4572630eebf11933ae19cbcfce6869e2a95041ba5b1211b8ad7878752880199e43a4dc1f89e909ddcfe8d5a77348edeb585ffba1918141381b"
+RPM_NAME = "rime-schema-cangjie-20250315-1.4.noarch.rpm"
+RPM_HASH = "1d4329968554dac23747d111d4c642bd2fc347e39cc0e3d8d25ab58e8737f6144c4b0e24c0be8e53eaa462c8805588fe1719156fcfd278cfeb7ee5f3f47b6616"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-cangjie"

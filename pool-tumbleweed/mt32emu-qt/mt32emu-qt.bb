@@ -2,10 +2,10 @@ SUMMARY = "The main Qt-frontend synthesiser application"
 DESCRIPTION = "It facilitates both realtime synthesis and conversion of pre-recorded SMF files to WAVE making use of the mt32emu library."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.7.0"
+PV = "2.8.3"
 
-RPM_NAME = "mt32emu-qt-2.7.0-1.4.aarch64.rpm"
-RPM_HASH = "f760eb053f4e99a42083f2b35604b1f4fe21d60b01c280f7d73a6d7f8e4f6d5af1d57888a878b79ee3fd1dcadc8b34a0818f5050dfae9e796a39e26bd72f1b87"
+RPM_NAME = "mt32emu-qt-2.8.3-1.3.aarch64.rpm"
+RPM_HASH = "0924450d238ca6e27c786b0acc9f4660d7b5167a2b2a4780c3ef464de683e5fe51301b372f123d8bc8cbf081c1a2ebad921be2f47325aa3638c88bb2407187f2"
 
 RPROVIDES:${PN} += "mt32emu \
 mt32emu-qt"

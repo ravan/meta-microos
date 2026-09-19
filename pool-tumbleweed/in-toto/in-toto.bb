@@ -4,15 +4,15 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "in-toto-1.2.0-1.6.noarch.rpm"
-RPM_HASH = "174662e1359e0e25ce1ee94e7759a6290881b2c14d7e7dbe6454eb6c313eca39e013ab3b3ccacd6494e2863ad49962cbf2d81d615a2934d250941c7083e70b20"
+RPM_NAME = "in-toto-1.2.0-1.14.noarch.rpm"
+RPM_HASH = "e893bf2057de37fb64dee713cb75f5cce7c9cca3e1654dd5eed3ad52efab48ba1f2bb95404ea10cff36f049b75adb7dec14104db32f1709e6863e82be120aa13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "in-toto \
-python3.11dist-in-toto \
+python3.13dist-in-toto \
 python3dist-in-toto"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-attrs \
 python3-iso8601 \

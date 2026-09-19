@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.10"
 
-RPM_NAME = "libinsane_gobject1-1.0.10-1.1.aarch64.rpm"
-RPM_HASH = "3734e4827095d4dd251f48f22cb7075282761db4c3b6e38e5dd1313afdef1b9008268a16b2fb68b63bbf4bda2c61021d61207e8b83da7993d70892afe3d9747b"
+RPM_NAME = "libinsane_gobject1-1.0.10-1.14.aarch64.rpm"
+RPM_HASH = "005559ac8d58121d2b939d6031cd5c3f743b211be8ff6a960005dc41fe43140ab52f4fbb8510ae7cc574b4c752ee1261b611a66d12abead37bd6d7863c394cc9"
 
 RPROVIDES:${PN} += "libinsane-gobject.so.1 \
 libinsane-gobject1"

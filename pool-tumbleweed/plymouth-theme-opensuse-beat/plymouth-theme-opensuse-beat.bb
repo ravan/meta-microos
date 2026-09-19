@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0"
 
-RPM_NAME = "plymouth-theme-opensuse-beat-1.0-1.8.noarch.rpm"
-RPM_HASH = "660a79db03d3aca3b16fcd7f0cddf7af98da34b769277147b92bc12ef806aee58ca43b0129cbbe7ae046c92189b67255d070c56a2a2ef500135fbd9818f2d286"
+RPM_NAME = "plymouth-theme-opensuse-beat-1.0-1.16.noarch.rpm"
+RPM_HASH = "e1a741fcee0bfb51f68bae3783465100996123f19d03cf2767cb6bc5a02a941fb2317972efed5ee3c9fedd2276ef03f7a5a60168694dcd7a6d9522cecfa12881"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-opensuse-beat"

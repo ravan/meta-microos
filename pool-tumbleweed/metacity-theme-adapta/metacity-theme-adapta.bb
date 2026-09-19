@@ -7,8 +7,8 @@ LICENSE = "CC-BY-SA-4.0 & GPL-2.0-only"
 
 PV = "3.95.0.11"
 
-RPM_NAME = "metacity-theme-adapta-3.95.0.11-3.5.noarch.rpm"
-RPM_HASH = "8f72d4c01dc7af67db5758450cc8a17830aded2a575f2c6c0dead3023198149739786815d4da80d607e5cab8a0502e11e2b069dff0a748f21115f16964332193"
+RPM_NAME = "metacity-theme-adapta-3.95.0.11-5.4.noarch.rpm"
+RPM_HASH = "c1ebdb17934e840d540f8d5ac00b8bf66c6e37f69f0e9a5664224fa31688f4555535d23a2071d216c230db6497a001dfb8da56c4b9ad92fcd96b8ad7a5aa03ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metacity-theme-adapta"

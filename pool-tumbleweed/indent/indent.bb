@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2.13"
 
-RPM_NAME = "indent-2.2.13-2.1.aarch64.rpm"
-RPM_HASH = "fdf3e1439ca56434753f67810627c05e619d5243a23c4d4b0de569be53e2193e6c2f0c7d7baaaad166b60edf67d5997febe05b96f40b23060f9fe54981ddcb75"
+RPM_NAME = "indent-2.2.13-3.11.aarch64.rpm"
+RPM_HASH = "177b0eb09228e7904c5c583d9bf5f3b109e838396cb85449c91fdbc31d7158215d68ccf6a97b34d407db923ab620d04ef5f5ff24e49e95aa4fb50fcbba7e9ad3"
 
 RPROVIDES:${PN} += "indent"
 

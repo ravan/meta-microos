@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.4"
 
-RPM_NAME = "py3c-devel-1.4-1.4.noarch.rpm"
-RPM_HASH = "83002f2ac29ffee007f1775d164f08ee8f7c57b78df5374357510aaf499c4787ff206355df40245ba17f79419cf7566edd53efcf25bdcd69fc22572f91a294c6"
+RPM_NAME = "py3c-devel-1.4-2.5.noarch.rpm"
+RPM_HASH = "ab148c4ccab01eb12428ce394b823e4864727bb728551228bafb959fc310b2a33991db1fc03c4e7a2aff9304622a21ed06f60ba1e09913afdc8dacb42443ef41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-py3c \

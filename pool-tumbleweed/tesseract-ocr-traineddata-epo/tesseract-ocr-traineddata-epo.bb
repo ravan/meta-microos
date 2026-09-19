@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Esperanto l
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-epo-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "ec9c4a9a7820759fda56e1900401699bb67367373d733c1ddf162bb24dc3a12afacc6c21e68e0fb461ef2f5e6448b1520deed0e4b640489eccca579710a72ca4"
+RPM_NAME = "tesseract-ocr-traineddata-epo-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "9988fd3c06d3eac6d27baebfa66b22ae4855409f94be1e40b9558cac50ef6ba52f554b63a8ed683e3e2c31651230d3a998aadafdec5a97d723f98a23b642da56"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-epo \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-eo \
+tesseract-ocr-traineddata-epo \
 tesseract-ocr-traineddata-esperanto \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-esperanto"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the Three Wave Capture The Flag game mode \
 for yamagi-quake2, an enhanced port of the original Quake II."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.09"
+PV = "1.13"
 
-RPM_NAME = "yamagi-quake2-ctf-1.09-1.4.aarch64.rpm"
-RPM_HASH = "62a13da4caa865eae32a774227103ec03650de654caefeed2d6d3db9563510c5d8aaed7b74e64b372e9f2c39c309cf48271ac82f9a95e581b8d31adb0aafeec6"
+RPM_NAME = "yamagi-quake2-ctf-1.13-1.2.aarch64.rpm"
+RPM_HASH = "a9187b92807f5e3102e35d255444d427729dd0067f1375f56a0dbb460957681fa17a3f19c8a1b8b8b530a276a8e67684d01299a266ecfa995e40b49cb607b72e"
 
 RPROVIDES:${PN} += "yamagi-quake2-ctf"
 

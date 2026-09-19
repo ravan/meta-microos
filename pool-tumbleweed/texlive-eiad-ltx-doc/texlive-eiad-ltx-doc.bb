@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eiad-ltx"
 DESCRIPTION = "This package includes the documentation for texlive-eiad-ltx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-eiad-ltx-doc-2023.209.1.0svn15878-54.2.noarch.rpm"
-RPM_HASH = "6a02a445cafd5cc38c4a2542219c92951516482431a2258bc3986bc527544d7b132e5a9e0d47706d770827d17827386ecee35711147e21884599a083251209f9"
+RPM_NAME = "texlive-eiad-ltx-doc-2026.226.1.0svn15878-61.4.noarch.rpm"
+RPM_HASH = "a5718403aac73e61ef96bdd05e5903c7c50d61f2cabdafb7e1f006e0f785303a282f4661edffa523b47a7fc48108a3c9630660e133e2b1f61a2f25c654de6fb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eiad-ltx-doc"

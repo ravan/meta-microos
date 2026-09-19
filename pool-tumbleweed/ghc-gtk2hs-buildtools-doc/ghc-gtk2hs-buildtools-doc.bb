@@ -2,10 +2,10 @@ SUMMARY = "Haskell gtk2hs-buildtools library documentation"
 DESCRIPTION = "This package provides the Haskell gtk2hs-buildtools library documentation."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.13.10.0"
+PV = "0.13.12.0"
 
-RPM_NAME = "ghc-gtk2hs-buildtools-doc-0.13.10.0-1.6.noarch.rpm"
-RPM_HASH = "ff2bb1293b8119d7a0195146ab60416a04acf1cd087e8b1df32a0c7858ac6d1eb8e037d2679ea50d9c6280dd3ce6ac4370db33d0a7d0e04f0c28a1a5379709d6"
+RPM_NAME = "ghc-gtk2hs-buildtools-doc-0.13.12.0-1.19.noarch.rpm"
+RPM_HASH = "5a0f3cf6f519a26619e4e9a46c7c014441d3373362ced27d9ea4976a13052364dbe08c67f48f0174e7575c565cd05f0c203707c2618663893d58054396ecfd64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-gtk2hs-buildtools-doc"

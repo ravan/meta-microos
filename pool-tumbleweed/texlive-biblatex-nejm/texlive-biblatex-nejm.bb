@@ -3,10 +3,10 @@ DESCRIPTION = "This is a BibLaTeX numeric style based on the design of the New \
 England Journal of Medicine (NEJM)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5.0svn49839"
+PV = "2026.226.0.0.5.0svn49839"
 
-RPM_NAME = "texlive-biblatex-nejm-2023.209.0.0.5.0svn49839-54.1.noarch.rpm"
-RPM_HASH = "31fbf8e4311874f69bbc22b6c30063d7cd2787003e06707126bdff61bce13d789898af110b41fa33c4155729659e3074167abe96bf3c87e4a0cd1edd85bf15f7"
+RPM_NAME = "texlive-biblatex-nejm-2026.226.0.0.5.0svn49839-61.2.noarch.rpm"
+RPM_HASH = "29244ef20013f987749a3d5d3163eea0c594107f85e0de7dbe5aff6cf00d665c2ef451440b8e7a15c7349e08ef985e78870af6729fd658acd923999897c9fc1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nejm.bbx \

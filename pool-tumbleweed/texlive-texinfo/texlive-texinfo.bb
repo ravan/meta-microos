@@ -5,23 +5,32 @@ output from a single source. The Texinfo macros may be used to \
 produce printable output using TeX; other programs in the \
 distribution offer online interactive use (with hypertext \
 linkages in some cases). The latest release of the texinfo.tex \
-macros and texi2dvi script may be found in the texinfo-latest \
-package, which are usually newer than the last full release."
+macros and texi2dvi and texi2pdf scripts may be found in the \
+texinfo-latest package, which are usually newer than the last \
+full release. CTAN does not hold any other Texinfo-related \
+files; see its GNU home page for downloads and other info."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.6.8svn66354"
+PV = "2026.227.svn77327"
 
-RPM_NAME = "texlive-texinfo-2023.209.6.8svn66354-55.1.noarch.rpm"
-RPM_HASH = "be491128e7de448dfff90c03ba50292be9e2323fdd0ecdba4f60882c874bd93ba014e15f66187dcff09f1b212c7add25fb301aedafad959f6066bbddbfa9db33"
+RPM_NAME = "texlive-texinfo-2026.227.svn77327-62.2.noarch.rpm"
+RPM_HASH = "2efacf00f337a8577b3730bf91f173ac9186e8bb0f5d1ec50df892b03baac015d13da2981c5851a3c6ec1462a17db4f4d9bfa0e1a52a603273c683706178620f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-texinfo.tex \
+RPROVIDES:${PN} += "tex-texinfo-ja.tex \
+tex-texinfo-zh.tex \
+tex-texinfo.tex \
+tex-txi-ca.tex \
 tex-txi-cs.tex \
 tex-txi-de.tex \
 tex-txi-en.tex \
 tex-txi-es.tex \
+tex-txi-fi.tex \
 tex-txi-fr.tex \
+tex-txi-hu.tex \
+tex-txi-is.tex \
 tex-txi-it.tex \
+tex-txi-ja.tex \
 tex-txi-nb.tex \
 tex-txi-nl.tex \
 tex-txi-nn.tex \
@@ -31,6 +40,7 @@ tex-txi-ru.tex \
 tex-txi-sr.tex \
 tex-txi-tr.tex \
 tex-txi-uk.tex \
+tex-txi-zh.tex \
 texlive-texinfo"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

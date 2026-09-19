@@ -5,10 +5,10 @@ server and may be in alpha or beta state. All modules shipped here may \
 require additional configuration by the admin."
 LICENSE = "MIT"
 
-PV = "0~hg4900"
+PV = "0~hg5664"
 
-RPM_NAME = "prosody-community-modules-0~hg4900-1.5.aarch64.rpm"
-RPM_HASH = "28725a5da45cb9e99a35bd028f9bd1478ba48efb81037154a66b7b2a1618b6b576fc825b6473284e289ee8cd7358ada6706b3b795ee58a365bcd9590c1cc2de0"
+RPM_NAME = "prosody-community-modules-0~hg5664-1.9.aarch64.rpm"
+RPM_HASH = "70294a9504e53202ec8867ab56094cd727d3ace8e80d2552f9967ee1a8ec4cb4e560bf4d9450a66325450087a44c505d90d61b4a9d1e17cff3b0a34105132589"
 
 RPROVIDES:${PN} += "perl-TestConnection \
 perl-XMPP--TestUtils \
@@ -16,7 +16,7 @@ prosody-community-modules"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
-lua51-zlib \
+lua54-zlib \
 prosody"
 
 inherit rpm

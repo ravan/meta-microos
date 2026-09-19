@@ -4,10 +4,10 @@ Use dockerd-rootless.sh to run the daemon. \
 Use dockerd-rootless-setuptool.sh to setup systemd for dockerd-rootless.sh."
 LICENSE = "Apache-2.0"
 
-PV = "24.0.5_ce"
+PV = "29.7.2_ce"
 
-RPM_NAME = "docker-rootless-extras-24.0.5_ce-2.1.noarch.rpm"
-RPM_HASH = "f9e19768a10bfd006705675ce49ed262df00df42f3982a9967345b7262b64fc7348a4f124d5b5d5d5d4116de187e928e4f5e8402cc072f8a6e1db0de2952622c"
+RPM_NAME = "docker-rootless-extras-29.7.2_ce-41.1.noarch.rpm"
+RPM_HASH = "55d9f9e8ce7224e5d81aac3d7916cb84948eaef20acceb960dd35522d35f330cbf4b5d1f061f629c5c178dc910e7c14683b5912090bfdc467f848e16a1494bfb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-rootless-extras"

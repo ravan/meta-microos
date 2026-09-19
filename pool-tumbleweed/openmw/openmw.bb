@@ -28,42 +28,42 @@ The OpenCS is not based on the editing tool which came with the original Morrowi
  * customisable GUI"
 LICENSE = "GPL-3.0-only & MIT"
 
-PV = "0.48.0"
+PV = "0.51.0"
 
-RPM_NAME = "openmw-0.48.0-1.2.aarch64.rpm"
-RPM_HASH = "cc488050d7dd124bbdee98ee15e6942a4de857ea2cd1f16bd27e69d2be9642e095f7f8bd7e9bd2d7253ad1b20582a57ebb3173c02136abde98bfbd3309758807"
+RPM_NAME = "openmw-0.51.0-1.2.aarch64.rpm"
+RPM_HASH = "b5e7b5a61d9592929415dcb30db4ed8dd089780879699df78d29198d2a54a5eb1b58fa2b0d89b603665d037ad9d3e221e8b54a9f4046bc1b9f0246365c50c9ed"
 
 RPROVIDES:${PN} += "config-openmw \
 openmw"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+OpenSceneGraph-plugin-collada \
 OpenSceneGraph-plugins \
 desktop-file-utils \
 ld-linux-aarch64.so.1 \
-libBulletCollision.so.3.17 \
+libBulletCollision.so.3.25 \
 libDebugUtils.so.1 \
 libDetour.so.1 \
 libGL.so.1 \
-libLinearMath.so.3.17 \
-libMyGUIEngine.so.3.4.1 \
+libLinearMath.so.3.25 \
+libMyGUIEngine.so.3.4.3 \
 libOpenThreads.so.21 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5OpenGL.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
 libRecast.so.1 \
 libSDL2-2.0.so.0 \
-libavcodec.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
-libboost-filesystem.so.1.82.0 \
-libboost-iostreams.so.1.82.0 \
-libboost-program-options.so.1.82.0 \
+libavcodec.so.62 \
+libavformat.so.62 \
+libavutil.so.60 \
+libboost-program-options.so.1.91.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicui18n.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuuc.so.78 \
 libluajit-5.1.so.2 \
 liblz4.so.1 \
 libm.so.6 \
@@ -71,7 +71,6 @@ libopenal.so.1 \
 libosg.so.161 \
 libosgAnimation.so.161 \
 libosgDB.so.161 \
-libosgFX.so.161 \
 libosgGA.so.161 \
 libosgParticle.so.161 \
 libosgShadow.so.161 \
@@ -80,10 +79,11 @@ libosgUtil.so.161 \
 libosgViewer.so.161 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
-libswresample.so.4 \
-libswscale.so.7 \
+libswresample.so.6 \
+libswscale.so.9 \
 libtinyxml.so.0 \
-libunshield.so.0 \
-libyaml-cpp.so.0.8"
+libunshield.so.1 \
+libyaml-cpp.so.0.9 \
+libz.so.1"
 
 inherit rpm

@@ -4,10 +4,10 @@ functionality has been taken over by xr, so this final version \
 is just a stub that loads xr."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.16383.99998svn53486"
+PV = "2026.226.16383.99998svn77682"
 
-RPM_NAME = "texlive-xcite-2023.209.16383.99998svn53486-53.2.noarch.rpm"
-RPM_HASH = "81af8b6ec0f50b02a9dbd3f26de09653e6bc10940fddd13444317aa00272c713e08ce02c22e8e0f260f8823fa5937c4d3b4013adec6ad66941c49d5c73e38f77"
+RPM_NAME = "texlive-xcite-2026.226.16383.99998svn77682-59.4.noarch.rpm"
+RPM_HASH = "b38dc9f0831519290c3439094db3e94079ddfd9852b89b07901957f8da0d5a3ffafea5540aa9da7b69ef13df87755a0a4df9a9681c8a5262a60fd0145aa0196e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcite.sty \

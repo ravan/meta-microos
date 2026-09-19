@@ -9,14 +9,13 @@ LICENSE = "MIT"
 
 PV = "0.10"
 
-RPM_NAME = "lua53-luarepl-0.10-2.2.noarch.rpm"
-RPM_HASH = "b08b9432fe760dce1ca04be6266719bfe1d4f4fcb230409ab948c65385078ed51aba45539b862e102beb174d02008f2c44647e163d187e0127bc5d230a85483e"
+RPM_NAME = "lua53-luarepl-0.10-5.2.noarch.rpm"
+RPM_HASH = "29b1efbe190ece32d7b3578a4eecb3027b9f86d913cfe612f572bea522f3b8d681bdf9d57f0c1b09debec5abcd0f0fa9b1c9d5c1b6b097566edb11b70a919b8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-luarepl"
 
-RDEPENDS:${PN} += "/usr/bin/lua5.3 \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 bash-sh \
 lua53 \
 update-alternatives"

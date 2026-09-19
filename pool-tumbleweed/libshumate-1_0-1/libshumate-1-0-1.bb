@@ -1,12 +1,12 @@
 SUMMARY = "Shared library for libshumate"
 DESCRIPTION = "C library providing a GtkWidget to display maps. \
 This package contains the shared library files."
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "Apache-2.0 & LGPL-2.1-or-later & BSD-3-Clause & CC0-1.0 & CC-BY-3.0 & GFDL-1.2-only"
 
-PV = "1.0.5"
+PV = "1.6.3"
 
-RPM_NAME = "libshumate-1_0-1-1.0.5-1.1.aarch64.rpm"
-RPM_HASH = "53c7f6787443b19675dd7a18cc13b9080f5fa019a705615b609f481f2e1f602b55062a56a03408170470bd7a0e2be7431ace90e3fd53b75bec8ec94a1e5090e4"
+RPM_NAME = "libshumate-1_0-1-1.6.3-1.1.aarch64.rpm"
+RPM_HASH = "ae78ca8880c70922d7b95955c0093e6651ed870e40ba7af6944e24478270b8de56be72d3e85815f0cb08b78bcec0c1c80877a661a73523a1bac95f229bd92e23"
 
 RPROVIDES:${PN} += "libshumate \
 libshumate-1-0-1 \

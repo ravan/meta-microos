@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-jlink-plugin"
 DESCRIPTION = "API documentation for maven-jlink-plugin."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.0~alpha1"
+PV = "3.3.0"
 
-RPM_NAME = "maven-jlink-plugin-javadoc-3.0.0~alpha1-2.22.noarch.rpm"
-RPM_HASH = "ac63af714d5ec2ed85600ccba47cad68b8b7dbbf57754eb015676635e6e62f9bf563116e406ef1fb730de14c1705a6ec471f1f069f6041302a4959846863178f"
+RPM_NAME = "maven-jlink-plugin-javadoc-3.3.0-1.2.noarch.rpm"
+RPM_HASH = "f763292d08e02db2ae884380249b7ab8f0ccd50a363122c8156ce23de531333970ba0eee7c60d03981ef3a62fa06f0f30f152dc5fdb425c6e375272af0f8b184"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-jlink-plugin-javadoc"

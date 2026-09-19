@@ -15,14 +15,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1634"
 
-RPM_NAME = "perl-FileHandle-Unget-0.1634-1.18.noarch.rpm"
-RPM_HASH = "6258efafddb8db2bfff9b04e3c78d7e0bb0d6f633ba007f6eee6558519bd6072656e3f3c1570f9524fab0cd32bbc63de41613c0af4771e0b1c1c5caef8ec7442"
+RPM_NAME = "perl-FileHandle-Unget-0.1634-1.32.noarch.rpm"
+RPM_HASH = "6c611f40708a246beb6257e77e0dbf375df281bdcaf73681e5bd184a6400f008662ec45d65878ed16c50f457ca7a1d5010fc5cd4aa3bbdfaa362719bddc73cdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-FileHandle--Unget \
 perl-FileHandle--Unget--Tie \
 perl-FileHandle-Unget"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

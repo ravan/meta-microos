@@ -9,10 +9,10 @@ the implementation might change. Nevertheless, the author uses \
 it to document his own packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7alphasvn64887"
+PV = "2026.226.0.0.7alphasvn64887"
 
-RPM_NAME = "texlive-ydoc-2023.209.0.0.7alphasvn64887-53.2.noarch.rpm"
-RPM_HASH = "9917a03580216767cac9d6ca352674a76a20b24ad49f300971727711924ec60f0223625b64698d73e879bfe5d652fade1162b7d17d49e548509c30e1238731ab"
+RPM_NAME = "texlive-ydoc-2026.226.0.0.7alphasvn64887-59.4.noarch.rpm"
+RPM_HASH = "c8ecbc7f9d1faafc7b700267e9c902eb47ec49bfc23dcbdcf5e93d1b7006652d347cc11bc9d11ed17bbc60485a61a8fc35f5856daf3e815b2b02777f5b731583"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ydoc-code.sty \

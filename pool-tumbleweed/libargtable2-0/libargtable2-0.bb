@@ -1,11 +1,11 @@
 SUMMARY = "Command line parsing library"
 DESCRIPTION = "The libargtable2 package contains libraries for libargtable."
-LICENSE = "LGPL-2.0+"
+LICENSE = "LGPL-2.0-or-later"
 
 PV = "2.13"
 
-RPM_NAME = "libargtable2-0-2.13-2.24.aarch64.rpm"
-RPM_HASH = "1b938c77ed70ef5e65b5ae562bcb8fa52bed4a3cd5043c819358eb190d2bc839651393959a0db8931fb49599927b2f5d736d65157c0d6e1ab9d46e3c29878fd9"
+RPM_NAME = "libargtable2-0-2.13-4.7.aarch64.rpm"
+RPM_HASH = "035167a77e935617acf2f5e105b04e08606c7ac4a97f72a1d4ac15e3039bb024c009a07afd1ee9cfe4c9a772d4ed90ed0daa5ee94a522f2a4a342dcea9fd25c9"
 
 RPROVIDES:${PN} += "libargtable2-0 \
 libargtable2.so.0"

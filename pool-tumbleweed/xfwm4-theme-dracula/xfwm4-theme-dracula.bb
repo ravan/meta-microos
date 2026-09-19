@@ -2,10 +2,10 @@ SUMMARY = "Dracula Xfwm4 themes"
 DESCRIPTION = "This package contains the Xfwm4 support for for Dracula theme."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.0+git94.9840b6b"
+PV = "4.0.0+git146.2618a03"
 
-RPM_NAME = "xfwm4-theme-dracula-3.0+git94.9840b6b-1.1.noarch.rpm"
-RPM_HASH = "3ef06363117102ddd66a53031cfd1766ac382b908bcb8a28f841b194c77a7f43004cd1facf074d85bf65e352044110874962a015b96210b29c78be65d074a976"
+RPM_NAME = "xfwm4-theme-dracula-4.0.0+git146.2618a03-1.2.noarch.rpm"
+RPM_HASH = "e05f970d98c2d44a35b99674025401c4251eb41586f7528c4002a8ea3bb013d404291cc3aeb543f1860b97a6c25ebcbb9aab137a063fa5b14b5337d31ce30bac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracula-gtk-theme \

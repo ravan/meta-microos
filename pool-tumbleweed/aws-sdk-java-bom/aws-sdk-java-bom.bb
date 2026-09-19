@@ -1,12 +1,12 @@
 SUMMARY = "AWS SDK for Java - BOM"
 DESCRIPTION = "The AWS SDK for Java - BOM module holds the \
 dependency managements for individual Java clients."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-bom-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "6d57ab16a47907d1c6b27f49ae6441bb002e2cc1b6ee8c0725e2e626dba32b1da0473893e177bb7266cca6753a6d297d6736f4d330f2afdc6ad0afe9a5280245"
+RPM_NAME = "aws-sdk-java-bom-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "186062ce8aa7cc0f4e8e6509185bdf973b25f4d48c3c1ec70375a0f786427160aba02fdf799ae2ea0dceba59d250b671e77c20d4bf071ab0f2cd099453f661b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-bom \

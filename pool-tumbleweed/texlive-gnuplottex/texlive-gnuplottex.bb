@@ -8,10 +8,10 @@ shell escape isn't used, the user will have to manually convert \
 the files by running gnuplot on the extracted .gnuplot files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.9.5svn54758"
+PV = "2026.226.0.0.9.5svn54758"
 
-RPM_NAME = "texlive-gnuplottex-2023.209.0.0.9.5svn54758-54.2.noarch.rpm"
-RPM_HASH = "d152d6c8b1bd5cf0bae654c0b5a1da073758ff9eb4670f300c312971f9ea670a709b06fe2eda22073e39ff2ad394d678ba40b346b424cc964ea0c26b94e5bd73"
+RPM_NAME = "texlive-gnuplottex-2026.226.0.0.9.5svn54758-60.4.noarch.rpm"
+RPM_HASH = "a408a9271b6059b06c0cd94087661c9ed70abf34540e6fff7acdec564341fe37721da2641c7cd022b6f7974bf3858e00bb0f79266200bd9c6258f7bbde1d99d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gnuplottex.sty \

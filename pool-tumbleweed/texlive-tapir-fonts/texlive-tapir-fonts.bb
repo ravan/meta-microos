@@ -2,14 +2,17 @@ SUMMARY = "Severed fonts for texlive-tapir"
 DESCRIPTION = "The  separated fonts package for texlive-tapir"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.2svn20484"
+PV = "2026.227.0.0.2svn20484"
 
-RPM_NAME = "texlive-tapir-fonts-2023.209.0.0.2svn20484-55.1.noarch.rpm"
-RPM_HASH = "6097c2c68a3ec95bdf8cb5d587c2233499e598b5f5fe856cf2ecbbba165a1fbb5a9b4f9908a406ad888cc625a86cb8214c6d1ed7463be38f0d054d6552c67de0"
+RPM_NAME = "texlive-tapir-fonts-2026.227.0.0.2svn20484-62.2.noarch.rpm"
+RPM_HASH = "ab3c8a4bfb234fb56346377bbf221fc50824bad8f1e2816301661eedebca90d5bdc59b9bd3ef761b5f4cd147fec678946f17f310910132c561d4f8c54a262201"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=cs \
+RPROVIDES:${PN} += "font--lang=agr \
+font--lang=bem \
+font--lang=cs \
 font--lang=de \
+font--lang=dsb \
 font--lang=fj \
 font--lang=ho \
 font--lang=ia \
@@ -37,6 +40,7 @@ font--lang=ts \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
+font--lang=wae \
 font--lang=xh \
 font--lang=za \
 font--lang=zu \

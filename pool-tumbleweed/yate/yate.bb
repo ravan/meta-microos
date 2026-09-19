@@ -6,13 +6,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.4.0"
 
-RPM_NAME = "yate-6.4.0-4.10.aarch64.rpm"
-RPM_HASH = "b24830320d925b88f09734a643b85084d8ecb7e0c78cfc0959bb56f1ab2eb7fbd49b37b81b695b2fa2c7b3ba8e0aba318c8c4902c705d39c844b01068a8d0f35"
+RPM_NAME = "yate-6.4.0-6.6.aarch64.rpm"
+RPM_HASH = "b674db95635d811044e405469458e757f11f0a252a3a84264915804f0b0c3a0de2b73dd8b868fe023dc7a68ae8f521081c94c1a39a66e691ebd7df50728151c2"
 
 RPROVIDES:${PN} += "config-yate \
 yate"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/sh \
+ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \
 libcrypto.so.3 \

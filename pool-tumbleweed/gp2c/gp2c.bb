@@ -8,10 +8,10 @@ your own routines within the preexisting GP ones. It may also find bugs in GP \
 scripts."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.0.13"
+PV = "0.0.14pl1"
 
-RPM_NAME = "gp2c-0.0.13-1.4.aarch64.rpm"
-RPM_HASH = "5cafd8c815832ad0b07cbc41a033ea733b5c28dc53ff6715ad273d2db8b23aee563559d7d1dcd78ef86fb56ca10235d9f7300d5ebb9f3bd78c1d321d85e362df"
+RPM_NAME = "gp2c-0.0.14pl1-1.4.aarch64.rpm"
+RPM_HASH = "4adce46c5ab937528961cf38a9ebf28a0400921629a59e8e9c75a4773512a60f0df35c6dd846e49693a7fe9c0ee99726d5ad1a464a44b4173caaac92977e405e"
 
 RPROVIDES:${PN} += "gp2c"
 

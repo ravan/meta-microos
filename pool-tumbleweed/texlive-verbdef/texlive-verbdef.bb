@@ -8,10 +8,10 @@ matter if the argument is moving. (Full details of syntax and \
 caveats about use are in comments in the file itself.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn17177"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-verbdef-2023.209.0.0.2svn17177-54.1.noarch.rpm"
-RPM_HASH = "6c43088a8ea6d108f717b2091f5b1a24e0a8d082170cfd4753630781d7a882fef6b72dc4cc9b485bf3e992d391e4a9a6116cd091acedef0ee9a5f06cccf69c18"
+RPM_NAME = "texlive-verbdef-2026.226.0.0.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "665ff13abb9406118f32a2e95b3a4d088f5abb7226bd236a35e51157dfb3b2d1c27171dde7709dd4ac1e0bd0fc555ea49c944bd0cb5a7e8b6f206ded99d41fc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-verbdef.sty \

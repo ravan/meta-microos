@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gfssolomos"
 DESCRIPTION = "This package includes the documentation for texlive-gfssolomos"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.0svn18651"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-gfssolomos-doc-2023.209.1.0svn18651-53.1.noarch.rpm"
-RPM_HASH = "a9787cec90f27dcaa7f1e83fdd07f380cdc4fc607213a64e7d9238df363a631af702fe948681620a9afa907210c6bdece2b4f986c3cfe6caa55a80d2ffb23d85"
+RPM_NAME = "texlive-gfssolomos-doc-2026.226.1.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "221f224894000a96074bdda1c82deacf60c9947e0e2f32ad1267b82881f527bc2671010d0039799749a6478bdf121b201b1b88e48d0311106aa40646c2b7e4f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfssolomos-doc"

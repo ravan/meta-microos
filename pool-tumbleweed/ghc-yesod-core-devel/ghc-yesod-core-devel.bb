@@ -2,55 +2,58 @@ SUMMARY = "Haskell yesod-core library development files"
 DESCRIPTION = "This package provides the Haskell yesod-core library development files."
 LICENSE = "MIT"
 
-PV = "1.6.24.4"
+PV = "1.6.29.1"
 
-RPM_NAME = "ghc-yesod-core-devel-1.6.24.4-1.7.aarch64.rpm"
-RPM_HASH = "1b49c22c31ac0678ca66a9c71d3cc573d8e67b214a87e0667d379a87af1569f3fb555179e18c42f314aded8eb24de633e1625989b9537b6398752c08e8aa4156"
+RPM_NAME = "ghc-yesod-core-devel-1.6.29.1-1.6.aarch64.rpm"
+RPM_HASH = "f010db30a9353709b5973206416a8f2a8405d30e03fd84b5bb56e8c9554073e685c08ba21ff5df5099ae966af7ca5618afa11235cf4f0f8daa7520c3dfe2626f"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-core-1.6.24.4-1di0EYNbRAz9TOkBiAT5Ab \
+RPROVIDES:${PN} += "ghc-devel-yesod-core-1.6.29.1-6DqdyPYDE9N9BEzGBhDP9D \
 ghc-yesod-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-devel-auto-update-0.1.6-KWXusmyBOlPJNN5shLt5Bc \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
-ghc-devel-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
-ghc-devel-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
-ghc-devel-clientsession-0.9.2.0-KWpEVRfIrcVFYLxAWzOYnt \
-ghc-devel-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
-ghc-devel-conduit-extra-1.3.6-370xQw6Laeb4Jkz5zTLBuf \
-ghc-devel-containers-0.6.7 \
-ghc-devel-cookie-0.4.6-7v2XoXnZEAdFFWtj85fg3L \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-entropy-0.4.1.10-J8gEYIp8YzV1E0Yqy7gqyc \
-ghc-devel-fast-logger-3.1.2-2QS5oj3W57wGcX3QgTrERi \
-ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
-ghc-devel-monad-logger-0.3.40-7M7roko8a7PJ68wJBTUT6s \
-ghc-devel-mtl-2.2.2 \
-ghc-devel-parsec-3.1.16.1 \
-ghc-devel-path-pieces-0.2.1-JEJ6IegDP1FHzqmKWi176n \
-ghc-devel-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
-ghc-devel-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
-ghc-devel-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-devel-shakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem \
-ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-text-2.0.2 \
-ghc-devel-time-1.12.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unix-compat-0.6-IJaiJvo5DQ6Elf7LVlEGei \
-ghc-devel-unliftio-0.2.25.0-3qMuNOSHhnhIHN5x7dVwVu \
-ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
-ghc-devel-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
-ghc-devel-wai-extra-3.1.13.0-7b9ndOLV0UtHl4QVen1kNF \
-ghc-devel-wai-logger-2.4.0-9HbB2lkmWIvBhHGAMxm4Zs \
-ghc-devel-warp-3.3.25-9kawobphGNJ1pZTKG2KRtq \
-ghc-devel-word8-0.1.3-DFPYFbOkkGxAoNpsP1UPBD \
+ghc-devel-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-devel-attoparsec-aeson-2.2.2.0-3eQT8OmEdZa5yR7rBroXfj \
+ghc-devel-auto-update-0.2.6-2tH9dVxiiOkBVROYgrOYPc \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-blaze-html-0.9.2.0-93B80xR5emg3yG3V6J7j6o \
+ghc-devel-blaze-markup-0.8.3.0-K4FwMBPUUgu9TB66ALCxf7 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-case-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC \
+ghc-devel-cereal-0.5.8.3-9RjPyVhfWFC69r1oCUPmww \
+ghc-devel-clientsession-0.9.3.0-JpU1pAihQU34992h3KLc2j \
+ghc-devel-conduit-1.3.6.1-DuJaiNNDon54jV6QjcNayt \
+ghc-devel-conduit-extra-1.3.8-7wpnn7nJp1SI8VsobZmenc \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-cookie-0.5.1-ICQl8upm830Ct2nb3AM1Ft \
+ghc-devel-data-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-encoding-0.10.3-AvKSpiZHZdhEtvUKaxdqNC \
+ghc-devel-entropy-0.4.1.11-4UsuhibEvcjLW75DCXDx9X \
+ghc-devel-fast-logger-3.2.6-JkXOEB4fbDV8mDlAr0wMkH \
+ghc-devel-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-devel-memory-0.18.0-4OCVGiXkS6t9StTfiwlZlu \
+ghc-devel-monad-logger-0.3.42-GqHwch1CK1c5RziOTPSbJG \
+ghc-devel-mtl-2.3.2-37ef \
+ghc-devel-parsec-3.1.18.0-be05 \
+ghc-devel-path-pieces-0.2.1-FtFHzM20JKUFHdFVBop6JH \
+ghc-devel-primitive-0.9.1.0-Ez30Vu7tivmF28X1123Css \
+ghc-devel-random-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh \
+ghc-devel-resourcet-1.3.0-F8ZRgExkptBLIQxE9m0AZE \
+ghc-devel-shakespeare-2.1.7.1-gK4gmGoNfcEYOAsglU3w4 \
+ghc-devel-template-haskell-2.23.0.0-358a \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-time-1.14-a7dc \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unix-compat-0.7.4.1-4v781Gok1KY8Kg7jV1j1vn \
+ghc-devel-unliftio-0.2.25.1-8vIVLEQRNyE8ysD18Y7w9V \
+ghc-devel-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-devel-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
+ghc-devel-wai-3.2.4-Is1UVC1czjX2cAufnl3tJW \
+ghc-devel-wai-extra-3.1.18-ITQet8OpxGX98ABokzjnL2 \
+ghc-devel-wai-logger-2.5.0-3cHzLKgypSbCdVbvyxsJiz \
+ghc-devel-warp-3.4.9-4LBlVKyJZyS6kjQUEE5DAG \
+ghc-devel-word8-0.1.3-DJye6up9iU5LN32ihJcMva \
 ghc-yesod-core"
 
 inherit rpm

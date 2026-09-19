@@ -1,11 +1,11 @@
 SUMMARY = "Provides libknet1 openssl support"
 DESCRIPTION = "Provides OpenSSL crypto support for libknet1."
-LICENSE = "GPL-2.0+ & LGPL-2.1+"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21"
+PV = "1.33"
 
-RPM_NAME = "libknet1-crypto-openssl-plugin-1.21-1.10.aarch64.rpm"
-RPM_HASH = "e649aa62db38e1b00891b3979099461a2e0a83316e4af1226c93b9060a6801874fd4acce1ecf8e0e13bb4f554a58d80dc011f6e0177d4fc6d1beaebf20aac70c"
+RPM_NAME = "libknet1-crypto-openssl-plugin-1.33-2.2.aarch64.rpm"
+RPM_HASH = "ae28362b0d181855e7c4b5e1f5e74fe46d3a1d68e5b2a4251fa5691684c36dca10f3b7a53b102ef6541eadc3564d06f2813744c6e6b91f1f06775aa21984b770"
 
 RPROVIDES:${PN} += "libknet1-crypto-openssl-plugin"
 

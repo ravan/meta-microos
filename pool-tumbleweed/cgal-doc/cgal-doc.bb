@@ -2,10 +2,10 @@ SUMMARY = "Documentation CGAL algorithms"
 DESCRIPTION = "This package provides the documentation for CGAL algorithms."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "5.6"
+PV = "6.2.1"
 
-RPM_NAME = "cgal-doc-5.6-1.1.noarch.rpm"
-RPM_HASH = "907c0b4598fa9eff371914497b8092cf0d10da1617d482ba7c40703456226ec1ea711c98f50593e6a4f8a9d3d5a2dff286988f04cb2c36d4af6dace6ec5bdf5a"
+RPM_NAME = "cgal-doc-6.2.1-1.1.noarch.rpm"
+RPM_HASH = "e7f96ea9f84d756d5e46214da9e04a75a70e99427ee210c70736144feef88139196da7b700a8be54f249cc63e7d3672e704424620afe29295a09488135778047"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cgal-doc"

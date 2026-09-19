@@ -8,10 +8,10 @@ to use numbers and primes in command names, so that you can do \
 stuff like \\newcommand\\pi'12{\\pi '_{12}}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2betasvn56320"
+PV = "2026.226.0.0.2betasvn56320"
 
-RPM_NAME = "texlive-stricttex-2023.209.0.0.2betasvn56320-58.1.noarch.rpm"
-RPM_HASH = "c61037f1b4f2efdd16a4af3a5ed23e9648491005e9474813758377e0249db674f3aafeea51216023b3b6f3c37cf556dbf4204eb4f2f80c3007a32e8722ca14d3"
+RPM_NAME = "texlive-stricttex-2026.226.0.0.2betasvn56320-64.2.noarch.rpm"
+RPM_HASH = "59d7c7415fe48e9bc3970aa291f2ee66e6c47006d2782ac03ae548371f54b3cb7ee854d4f67aac9be56ca203558e12ebeb0993d546ad4d16da65b62b00b4c4fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-stricttex.sty \

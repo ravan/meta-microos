@@ -6,13 +6,13 @@ llvm-gold that openSUSE currently supports.  Packages that \
 don't require a specific LLVM version should depend on this."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.6"
+PV = "23"
 
-RPM_NAME = "llvm-gold-16.0.6-1.1.aarch64.rpm"
-RPM_HASH = "a30a6af7cda7befc8029d1e33f189ffb64a184cba60d707c3ff15e310f69295a86ab0d9454b72c5ab10697e285e264ac2032859f00f5e94e87f78c333c744386"
+RPM_NAME = "llvm-gold-23-1.1.aarch64.rpm"
+RPM_HASH = "0824d7ea7c08c9c175e2a0192b8e43dae8f532d46841aae30d1d56743813d4c1b2a8822eae503433aceda6929069880a880cad62fc35d6b78019c22f6cd8e2cf"
 
 RPROVIDES:${PN} += "llvm-gold"
 
-RDEPENDS:${PN} += "llvm16-gold"
+RDEPENDS:${PN} += "llvm23-gold"
 
 inherit rpm

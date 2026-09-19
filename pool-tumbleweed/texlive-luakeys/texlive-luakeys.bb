@@ -8,10 +8,10 @@ LuaTeX. Since luakeys uses LPeg, the parsing mechanism should \
 be pretty robust."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.13.0svn65533"
+PV = "2026.226.0.0.17.0svn78101"
 
-RPM_NAME = "texlive-luakeys-2023.208.0.0.13.0svn65533-53.1.noarch.rpm"
-RPM_HASH = "b8bb25289eacf6b22ac4994d594f6d553dcf8560456b751728974f6a13203c12bd55524ca948644b24f64e4aa078fd4efcb14b5d7bd535a20114eb50ba0e8d7d"
+RPM_NAME = "texlive-luakeys-2026.226.0.0.17.0svn78101-59.2.noarch.rpm"
+RPM_HASH = "db389561171fb7ebc81ee641ca3f5a82c787e8056c8344a2369e482ede2ad841ea893265a94947aabab735ba46bd703663944895e60608d12e72fa17342f94a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luakeys-debug.sty \

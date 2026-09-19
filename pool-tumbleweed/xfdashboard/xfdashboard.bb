@@ -6,10 +6,10 @@ between different applications. The search feature works like Xfce's app finder 
 which makes it convenient to search for and start applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.0"
+PV = "1.1.0"
 
-RPM_NAME = "xfdashboard-1.0.0-1.5.aarch64.rpm"
-RPM_HASH = "594d394a0926c81f188c4aa95b50b81d181bbac9a85e3792e2c048daf121e9f2b775545c031d5bf3fba818dccdcc4bce6d1c257cb2c6d3e34a643678c556f8ee"
+RPM_NAME = "xfdashboard-1.1.0-1.4.aarch64.rpm"
+RPM_HASH = "37cd5311a92ef98f7576b4f54bb715c57bdc87cbdcd6789629a7eeef8abeb1a9ace16b02f6b963d6d6532ce91f77b0920ccc0c8003fba4b63ee0bd7fdfb24319"
 
 RPROVIDES:${PN} += "xfdashboard"
 
@@ -28,6 +28,6 @@ libm.so.6 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \
 libxfconf-0.so.3 \
-libxfdashboard.so.0"
+libxfdashboard.so.0.10100.0"
 
 inherit rpm

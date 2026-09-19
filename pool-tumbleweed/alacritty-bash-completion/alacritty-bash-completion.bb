@@ -3,10 +3,10 @@ DESCRIPTION = "The official bash completion script for alacritty. It includes su
 for every argument that can currently be passed to alacritty."
 LICENSE = "Apache-2.0"
 
-PV = "0.12.2"
+PV = "0.17.0"
 
-RPM_NAME = "alacritty-bash-completion-0.12.2-1.1.noarch.rpm"
-RPM_HASH = "c07bfd29ef140a2824450bf3da7cbcf153289f524ded6046ee37a67f8a828bea06c277c034fc13ad829a36391978f6f4a770a49fd5c34be2752520abc330d2a2"
+RPM_NAME = "alacritty-bash-completion-0.17.0-1.5.noarch.rpm"
+RPM_HASH = "939d2d3eee758a697bcf2d1f179ba09a598a1c52725ed80c4dc49190e16ca63c8f185698646837c724979d9d92ba7fa66461d505ffc1c3f069caa8022666558e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alacritty-bash-completion"

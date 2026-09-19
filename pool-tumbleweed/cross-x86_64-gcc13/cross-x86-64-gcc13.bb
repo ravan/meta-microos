@@ -1,20 +1,30 @@
 SUMMARY = "The GNU Compiler Collection targeting x86_64"
 DESCRIPTION = "The GNU Compiler Collection as a cross-compiler targeting x86_64. \
  \
-Note this is only useful for building freestanding things like the \
-kernel since it fails to include target libraries and headers."
+ \
+ \
+ \
+ \
+This is a package that is necessary for bootstrapping another package \
+only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.2.1+git7683"
+PV = "13.5.0+git10516"
 
-RPM_NAME = "cross-x86_64-gcc13-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "d423dd67f0eceef9d6c3236fefd78572030300ba74afba56581cbc912090d3aab6a45bcfab27e9908b043a6e9327f1e95470b038e6307502d3915c7313e3da6f"
+RPM_NAME = "cross-x86_64-gcc13-13.5.0+git10516-1.1.aarch64.rpm"
+RPM_HASH = "7b13cab962641a202d77a054fb815fcd14ce3536ca4cfe4df9c9a60b7bcf5389c4d62dc67aecbce9182dc79128a6a8e672aaf5db9b29390891e97c6e443bfee0"
 
-RPROVIDES:${PN} += "cross-x86-64-gcc13"
+RPROVIDES:${PN} += "cross-x86-64-gcc13 \
+x86-64-suse-linux-gcc"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-cross-x86-64-binutils \
-libstdc++6-devel-gcc13 \
-update-alternatives"
+RDEPENDS:${PN} += "cross-x86-64-binutils \
+libc.so.6 \
+libgmp.so.10 \
+libisl.so.23 \
+libm.so.6 \
+libmpc.so.3 \
+libmpfr.so.6 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

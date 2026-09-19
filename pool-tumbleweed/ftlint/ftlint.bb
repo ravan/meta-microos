@@ -3,10 +3,10 @@ DESCRIPTION = "Simple font tester \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.1"
+PV = "2.14.3"
 
-RPM_NAME = "ftlint-2.13.1-1.1.aarch64.rpm"
-RPM_HASH = "7934ddaea18438262e31987eb95413a9c44663e63834a40a2ec0f6ee9f678fda763a1050a5e0de3dbb04640ef8662ae99520b192d3e5d4be938c27cb0c68ef73"
+RPM_NAME = "ftlint-2.14.3-1.2.aarch64.rpm"
+RPM_HASH = "977482d45397dafab4787271b54730accba4eb52b69d4d5e18af42d0987b3d2b9994790edd084767cbe57d97e8f7fee0f29e62be775ee7daa73f231cfc33a59d"
 
 RPROVIDES:${PN} += "ftlint"
 

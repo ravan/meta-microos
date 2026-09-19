@@ -4,12 +4,12 @@ security contexts and to obtain security policy decisions. \
  \
 This package contains the development files, which are \
 necessary to develop your own software using libselinux."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "libselinux-devel-3.5-4.1.aarch64.rpm"
-RPM_HASH = "a3e30cbbb5abf9af688c6c25cafe2fc8a1cd36c9da118081e5dc73983445704df9ec215ea7f73f8cd1497083e9a478d7be547caebf2c1a66f89a3399ab9e7d5c"
+RPM_NAME = "libselinux-devel-3.11-2.1.aarch64.rpm"
+RPM_HASH = "15f2836bbcca7d44f1f4284f4f37e609e690deccad901ecd8da6ddcd5f997864691394d8f17d775bd68b9c78d43deba269271e08bc8ee336168d8ca90ba5d8ac"
 
 RPROVIDES:${PN} += "libselinux-devel \
 pkgconfig-libselinux"

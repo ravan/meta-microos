@@ -13,8 +13,8 @@ LICENSE = "SUSE-Public-Domain & HPND"
 
 PV = "20020904"
 
-RPM_NAME = "x11-japanese-bitmap-fonts-20020904-654.14.noarch.rpm"
-RPM_HASH = "449b9b0b4d70c363ca722ed676d26590b6f3607a17bab620bd8fd82b43a260009aa0846b7e375137ed56137931bda0a46571c940f8bf67a0ebe3dc3b4650732d"
+RPM_NAME = "x11-japanese-bitmap-fonts-20020904-654.22.noarch.rpm"
+RPM_HASH = "b7f293fbd950f97918c0f6d5ffeb02e75b61be211ece7380f00020444066961c4ece5b5fd2fa9fbbc2f51e31dcc86c68b125f73a1b105566009c5961dd76b72d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xorg-x11-ja \

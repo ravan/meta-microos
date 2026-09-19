@@ -12,12 +12,12 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.93"
 
-RPM_NAME = "perl-Regexp-Shellish-0.93-164.31.aarch64.rpm"
-RPM_HASH = "81d8e9c1fe178a01d1cb416b8492de72a5189106a336764f46745a6b981fa15fae117e5e14246eca04ee63d00a159820203673bc3593849c75dece898ce0bccc"
+RPM_NAME = "perl-Regexp-Shellish-0.93-164.46.aarch64.rpm"
+RPM_HASH = "852ceab9268c8a6c4104ef6523cdf205aba44442199aa578db666c9b43157a0071355a1367e5e13f4e449cd80394e69b0c7e4531f6a9c5b7bccfdd66d8ed5c1e"
 
 RPROVIDES:${PN} += "perl-Regexp--Shellish \
 perl-Regexp-Shellish"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

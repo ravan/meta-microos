@@ -6,10 +6,10 @@ It's dependency free (can bootstrap itself), requires zero configuration, \
 and stands alone. When running, it requires only 10MB of RAM."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.7047"
+PV = "1.7049"
 
-RPM_NAME = "perl-App-cpanminus-1.7047-1.2.noarch.rpm"
-RPM_HASH = "044fae44b175de12440251a45fdd197d6e7f0a0d734b967c102cb8371f5ddd25a16c05444b8893375006f008e84142fc036e82b5d980ca1a10b7aa2e8f9109c9"
+RPM_NAME = "perl-App-cpanminus-1.7049-1.3.noarch.rpm"
+RPM_HASH = "b2d088417862bfd6de28e113868c5770157bea42b0ce5336c839f20e1126f2860667b590b7ec33d35b9a6c35169d5a30e76f366a571e659a17ad65197a63a7af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpanm \
@@ -21,7 +21,7 @@ perl-App-cpanminus \
 perl-ModuleBuildSkipMan"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--DistnameInfo \
 perl-CPAN--Meta \
 perl-CPAN--Meta--Check \

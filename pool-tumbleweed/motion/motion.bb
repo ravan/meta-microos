@@ -7,13 +7,15 @@ with a rather small footprint. This version is built with ffmpeg support but \
 without MySQL and PostgreSQL support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5.1"
+PV = "4.7.1"
 
-RPM_NAME = "motion-4.5.1-2.1.aarch64.rpm"
-RPM_HASH = "39eb1cb3f25908013aa6f55bb5d8a404f7fdf2533f519ec8487a61804a85a4cbb5643c286fc5d93d59c6ac2c13c3ab46c63aa59eeec93a522ff799494ce907af"
+RPM_NAME = "motion-4.7.1-1.7.aarch64.rpm"
+RPM_HASH = "ef1a5d44b36239b4887e600c075d36d7bb6b81adeb1558705a18612c4ec45e1bf4eba1bfae0acd468dfc241be2a1f5fec71e7aa2ff943b3aa77893e31fcbc287"
 
 RPROVIDES:${PN} += "config-motion \
-motion"
+group-motion \
+motion \
+user-motion"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \
@@ -21,18 +23,18 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 fillup \
 group-video \
 ld-linux-aarch64.so.1 \
-libavcodec.so.60 \
-libavdevice.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
+libavcodec.so.62 \
+libavdevice.so.62 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libjpeg.so.8 \
 libmicrohttpd.so.12 \
 libsqlite3.so.0 \
-libswscale.so.7 \
+libswscale.so.9 \
 libwebp.so.7 \
 libwebpmux.so.3 \
-pwdutils \
+shadow \
 systemd"
 
 inherit rpm

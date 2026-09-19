@@ -3,10 +3,10 @@ DESCRIPTION = "Metafont sources modified from Computer Modern in order to \
 generate 'long s' which was used in old text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.00svn17932"
+PV = "2026.226.1.00svn17932"
 
-RPM_NAME = "texlive-oldlatin-2023.209.1.00svn17932-55.1.noarch.rpm"
-RPM_HASH = "6ddccff8cad23e3106c96510f370dbbcc254ab88fb38d7e9242ca575423bc2aaaf765827ffcfdbe25b7e8f3047e7e30c78cfe972f70bb927351071d1a86e0d06"
+RPM_NAME = "texlive-oldlatin-2026.226.1.00svn17932-61.2.noarch.rpm"
+RPM_HASH = "c9b5e5906182fd3324c4a8345b1c66c82a117d2dc5e3752c25736ac8acc6b0f541d2b858e6f08fbd620dcd02d6c42b6a30fd56a57ad674916e112fb631790000"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-olb10.tfm \

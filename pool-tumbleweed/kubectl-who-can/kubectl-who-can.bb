@@ -3,10 +3,10 @@ DESCRIPTION = "kubectl-who-can shows who has permissions \
 to <verb> <resources> in kubernetes"
 LICENSE = "Apache-2.0"
 
-PV = "0.3.0"
+PV = "0.4.0"
 
-RPM_NAME = "kubectl-who-can-0.3.0-1.12.aarch64.rpm"
-RPM_HASH = "624958af1e94f49b195157f0048e3ec1c82814c83294049d066729066fb0754c44e01e2d207fd4f6fc145b92209559573b1c080d91aab5f639ca66f0061ad023"
+RPM_NAME = "kubectl-who-can-0.4.0-1.10.aarch64.rpm"
+RPM_HASH = "51c146ad8145361a707e27ab6a934968223f4829c6744ee84d908695dca79d6f897c51dd72209867cbbbe2fc658b3ec36c3acacf15f0460f04a278dfc70c7495"
 
 RPROVIDES:${PN} += "kubectl-who-can"
 

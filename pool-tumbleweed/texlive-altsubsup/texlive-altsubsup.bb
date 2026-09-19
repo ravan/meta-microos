@@ -4,10 +4,10 @@ subscripts and superscripts, with square brackets in the source \
 code."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn62738"
+PV = "2026.226.1.1svn62738"
 
-RPM_NAME = "texlive-altsubsup-2023.209.1.1svn62738-55.1.noarch.rpm"
-RPM_HASH = "4986f0986dc9aa4177f1ab8a0cf93768b26b0f243da51ea0965a904142495a847fffd1d6439778c7993bbafffdc49501d4e6a695d96553e630d2dfabf97e62dc"
+RPM_NAME = "texlive-altsubsup-2026.226.1.1svn62738-61.2.noarch.rpm"
+RPM_HASH = "0617d73777cc73aecb1b3d45ed26606015131cab0f2cb73574cad6a763177e6fdb717e77f6d7eb131e3f3ad5dd9ab7616320c41a58acbce6bc8fb536c8ca554c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-altsubsup.sty \

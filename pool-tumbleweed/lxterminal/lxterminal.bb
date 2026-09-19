@@ -4,10 +4,10 @@ This package even if DE independent is part \
 of the LXDE project."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.4.0"
+PV = "0.4.0+36"
 
-RPM_NAME = "lxterminal-0.4.0-1.11.aarch64.rpm"
-RPM_HASH = "7671e4fd8fd106b0d603ad0f87fd678147cd4465c064ddec791ad203911cf9e2f9ab94e54e409cb306fcc9b0491e4ae613a53bbb40900bd3622c5c34889c1a0b"
+RPM_NAME = "lxterminal-0.4.0+36-1.9.aarch64.rpm"
+RPM_HASH = "92b16e58cf8331b7f0a4e762e901ca30b4e50492b91f4227453129af59bbfa44b1a163c71b4022c3175502e5dda7e16a6ebf07a05d0806253fbc6d1e61ec1fc2"
 
 RPROVIDES:${PN} += "lxterminal"
 

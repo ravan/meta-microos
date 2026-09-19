@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "faenza-icon-theme-dark-1.3.1-1.4.noarch.rpm"
-RPM_HASH = "4f8ec2532e52c1a104aa59062eaf3ba391973cfe14c8378099b406c3e0415d0d86a64b548805d9daf1cc2bfff18e87f68e6ddc6ec36bf71735ccc2ef915095a7"
+RPM_NAME = "faenza-icon-theme-dark-1.3.1-1.12.noarch.rpm"
+RPM_HASH = "bc2941c33124119eaaa97a111edaf828257adb7ab5c70f8251d235bb82f54f128d14be0f67adc7e64072489727f8e1d0295dd5e06d61610e5f922be7e508dddf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "faenza-icon-theme-dark"

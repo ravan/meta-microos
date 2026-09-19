@@ -5,10 +5,10 @@ all the basic Flickr features, including uploading pictures, adding \
 descriptions, setting tags and managing sets and groups pools."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.7"
+PV = "1.8.1"
 
-RPM_NAME = "frogr-1.7-1.7.aarch64.rpm"
-RPM_HASH = "77f46f21cd9b3341d73c6d2b0eeb7634eec6520d10b8e9ec9245d5560a099102d4d6fff2789232e0054e8c4babd58e9ef9ca5a751109240ec9064eb2bc196f50"
+RPM_NAME = "frogr-1.8.1-1.13.aarch64.rpm"
+RPM_HASH = "36fb5aafbdb5b28e8afaf765efbdb83d1e62bbbb0baf1902ea2fda2387f433ddba19976dbc9466ed7b774d03313d0a5a76cca76a1106d68aea632d5a07eccd85"
 
 RPROVIDES:${PN} += "frogr"
 
@@ -24,7 +24,7 @@ libgobject-2.0.so.0 \
 libgstreamer-1.0.so.0 \
 libgtk-3.so.0 \
 libjson-glib-1.0.so.0 \
-libsoup-2.4.so.1 \
-libxml2.so.2"
+libsoup-3.0.so.0 \
+libxml2.so.16"
 
 inherit rpm

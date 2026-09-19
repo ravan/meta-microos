@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0"
 
 PV = "2.0"
 
-RPM_NAME = "saweri-fonts-2.0-1.17.noarch.rpm"
-RPM_HASH = "bd9274a2311daf92e7b1fe4914e8401cb1825c52b4fd7ca72450d4a578509283c83240afe785263eaa84dbcfc82b355e079e9bafcf177ae73b5c5c9b113af220"
+RPM_NAME = "saweri-fonts-2.0-1.25.noarch.rpm"
+RPM_HASH = "8424beba285a2b1ab663553ccbd1b5d236f1a540d8962838947c5e7fda28a1ede21319ea4769b1295f01c7d31f38c5327888c826f7c3b3bae1ca15a1adbd3dbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saweri-fonts"

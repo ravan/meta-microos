@@ -5,10 +5,10 @@ number of sounds each with any number of channels and can be customized \
 and extended using guile and guile-gtk."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.5"
+PV = "26.4"
 
-RPM_NAME = "snd-23.5-1.1.aarch64.rpm"
-RPM_HASH = "4a55dd21cd8891bd546d2b4181018360abf1794376b7900ad86768eb90b6b0e56b6bb24ce45d4ff7ca66adefb3d662920da92ddd73015d14969638fe0762cfa4"
+RPM_NAME = "snd-26.4-1.3.aarch64.rpm"
+RPM_HASH = "f0c6aa9a2b828d44d13b3c28aafcafed0f1f2644b938f923639e9472f4d72dfb41a55e652a1211ab14f85aedbb1bcf634d1de0731431f49d7e6369d7cd1e8acf"
 
 RPROVIDES:${PN} += "snd"
 
@@ -24,7 +24,7 @@ libXt.so.6 \
 libasound.so.2 \
 libc.so.6 \
 libfftw3.so.3 \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
 libm.so.6"
 

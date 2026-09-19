@@ -2,10 +2,10 @@ SUMMARY = "File Server"
 DESCRIPTION = "The 32bit pattern complementing file_server."
 LICENSE = "MIT"
 
-PV = "20210330"
+PV = "20250313"
 
-RPM_NAME = "patterns-server-file_server-32bit-20210330-5.1.aarch64.rpm"
-RPM_HASH = "f0ba111c998fc34f3851aa5744ae5ea94b9a5edec3055d67988bf2f54754909063dba73f97eb68e705af53254bef32624737fd101c2d22463494dc33eb658f5e"
+RPM_NAME = "patterns-server-file_server-32bit-20250313-5.2.aarch64.rpm"
+RPM_HASH = "85d94d7dfd5f1cc13eab5a519b01e795330c9acc09ed54f2a7a337570d884507e78520625ce437ee23155dd764831d51bfa43f30c92c5272a92d41070dc8129c"
 
 RPROVIDES:${PN} += "pattern- \
 patterns-server-file-server-32bit"

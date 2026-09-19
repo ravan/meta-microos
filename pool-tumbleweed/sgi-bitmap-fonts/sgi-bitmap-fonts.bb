@@ -4,13 +4,16 @@ LICENSE = "MIT"
 
 PV = "1.0"
 
-RPM_NAME = "sgi-bitmap-fonts-1.0-946.10.noarch.rpm"
-RPM_HASH = "ddc23aeace1e6a7e39be8bbda9c2a8450954ab48c0d7c4a73a8b1634a5e9f5cb4f735d48c91a46d6f8a50fb16d3a498256bf07280c5c1eed292c3a11c1b1c49f"
+RPM_NAME = "sgi-bitmap-fonts-1.0-947.7.noarch.rpm"
+RPM_HASH = "6c77f7c5a53d29acd88442bda20817abbd9aeece87b81e6b650816195108c76e62608704ee0757d26a94d4cd4e7b3c98a6a72c169201bfb166bd55f993e0f0a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -40,7 +43,9 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -70,12 +75,16 @@ font--lang=su \
 font--lang=sv \
 font--lang=sw \
 font--lang=tl \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-sgihaeberli \

@@ -2,10 +2,10 @@ SUMMARY = "Batch rename utility for developers"
 DESCRIPTION = "nomino is a batch rename utility for developers"
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "1.3.2"
+PV = "1.6.0"
 
-RPM_NAME = "nomino-1.3.2-1.1.aarch64.rpm"
-RPM_HASH = "5f77b7321310ebfb4e55000c1c8f049a1683b13ab41fa4e50f8d5e7c1865e62ae2a8d5573c473f08aef9265d027918ed195b39a165e35ec52998b82c199850da"
+RPM_NAME = "nomino-1.6.0-1.10.aarch64.rpm"
+RPM_HASH = "2c614bda24340255f446f25fabe2d04ea4a81f52be52d68d95f4043fc5650a48dac30725e2bb888c3bfe8d5def2ceb0efe8300e6a89e70c73dee0ede2df8921e"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-anstream \
@@ -13,7 +13,6 @@ bundled-rust-crate-anstyle \
 bundled-rust-crate-anstyle-parse \
 bundled-rust-crate-anstyle-query \
 bundled-rust-crate-anyhow \
-bundled-rust-crate-bitflags \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-clap \
 bundled-rust-crate-clap-builder \
@@ -28,21 +27,19 @@ bundled-rust-crate-dirs-sys-next \
 bundled-rust-crate-encode-unicode \
 bundled-rust-crate-heck \
 bundled-rust-crate-is-terminal \
+bundled-rust-crate-is-terminal-polyfill \
 bundled-rust-crate-itoa \
 bundled-rust-crate-lazy-static \
 bundled-rust-crate-libc \
-bundled-rust-crate-linux-raw-sys \
 bundled-rust-crate-memchr \
 bundled-rust-crate-natord \
 bundled-rust-crate-nomino \
-bundled-rust-crate-once-cell \
 bundled-rust-crate-prettytable-rs \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
 bundled-rust-crate-regex \
 bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
-bundled-rust-crate-rustix \
 bundled-rust-crate-ryu \
 bundled-rust-crate-same-file \
 bundled-rust-crate-serde \

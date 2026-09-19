@@ -9,10 +9,10 @@ virtualization. \
 This package contains user and developer documentation for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-doc-8.0.4-1.1.noarch.rpm"
-RPM_HASH = "afa55f4a23ff88197f273fcb8c33caee7b492e387649142989b0dcaf7a86dda14c92bc752fe678daea919b8f5d50e8dae6a9dba05e8bfbb7038ff695c52b16a8"
+RPM_NAME = "qemu-doc-11.1.1-1.1.noarch.rpm"
+RPM_HASH = "90cb5bafd66ef87ecbe35c5174eb501f27cc34e614d19da895174453d1d13fd7c65a6b28a0f005653158ef49582eab3be86f15b4230b1374649f0baf7d75ff02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-doc"

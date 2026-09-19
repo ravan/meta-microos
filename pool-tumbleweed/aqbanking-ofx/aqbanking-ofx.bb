@@ -4,10 +4,10 @@ backends (currently HBCI) and multiple frontends  (e.g. KDE, GNOME, \
 console) to be used."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.5.4"
+PV = "6.9.2"
 
-RPM_NAME = "aqbanking-ofx-6.5.4-1.1.aarch64.rpm"
-RPM_HASH = "44eb5045ee80bbee17470c3c1aae3d9fceb09dbca3e190edcb8c28c65cfa6c27972cdea83eed73b33b625f6369b8fd2c10b5fe9339e7fe92fbd6fd15e08d6924"
+RPM_NAME = "aqbanking-ofx-6.9.2-1.2.aarch64.rpm"
+RPM_HASH = "0274a5a55474f647a7f750a41596792f7d59acfaa5fed87c79bdac339dec5f79ef8ff904f97d80c6d8e44d3cf7a9689231536580375eeaedee7cc0b5eec837f5"
 
 RPROVIDES:${PN} += "aqbanking-ofx"
 

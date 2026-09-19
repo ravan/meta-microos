@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.3.8rc1+git.20171112"
 
-RPM_NAME = "samplicator-1.3.8rc1+git.20171112-3.8.aarch64.rpm"
-RPM_HASH = "f4b1cc67002089c1665bff0e717729b6202dcf15585568c10850b4c223785c6d142e6f9a0bb3d6b3f4cbf979f887479cfe996c707e582db17ed9f247530cc9d6"
+RPM_NAME = "samplicator-1.3.8rc1+git.20171112-4.9.aarch64.rpm"
+RPM_HASH = "de2a74a3163f53b9253b72b89acf002dc781736e62308610ad4a1dffa3b3cfae169c7576bf23771f7e5fce10422f3dfbcc46681822e7282470584a6cf4f13b67"
 
 RPROVIDES:${PN} += "config-samplicator \
 samplicator"

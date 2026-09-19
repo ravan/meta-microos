@@ -23,8 +23,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5111"
 
-RPM_NAME = "perl-Mail-Mbox-MessageParser-1.5111-1.18.noarch.rpm"
-RPM_HASH = "1a1c169ae32e4807a4433979fac8a09dadfc6014850239a9c33e12b79705c12538078a483f1e5b21ee25533ab443f44a2e13c1c23ccfe30c10fc0473433d31ef"
+RPM_NAME = "perl-Mail-Mbox-MessageParser-1.5111-1.32.noarch.rpm"
+RPM_HASH = "a7c9bcacff3b73069ad9986d876d27a0ef7f45820f3093bf74bc55e2e3d8affb8ed893e5980da97d6382da8c3a2110af70b2da61b0a17ec2b78cf9c55a28dc03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Mbox--MessageParser \
@@ -35,7 +35,7 @@ perl-Mail--Mbox--MessageParser--MetaInfo \
 perl-Mail--Mbox--MessageParser--Perl \
 perl-Mail-Mbox-MessageParser"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-FileHandle--Unget"
 
 inherit rpm

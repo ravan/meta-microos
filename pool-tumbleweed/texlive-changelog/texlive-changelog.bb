@@ -5,10 +5,10 @@ package supports multiple authors, unreleased changes, and \
 yanked (revoked) releases. Inspired by keepachangelog.com."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.5.0svn65861"
+PV = "2026.226.2.6.1svn77682"
 
-RPM_NAME = "texlive-changelog-2023.209.2.5.0svn65861-53.1.noarch.rpm"
-RPM_HASH = "b16f87389ac3158be844a6f9465f800e43018ed7ae9df2274cd9168fc670374f491919a60f0d77e31c83582851745c7ad5d94ac67fadd0218bfd8d92e07bfe89"
+RPM_NAME = "texlive-changelog-2026.226.2.6.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "abb10e53e728cc6f85ce3efeb9326605741443bc1e85f7859c8b2b5917b02c61f1ed89c847a949e1a5e7457d2a46514f3c010b076670f7f8c3fed5e85af02d10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-changelog.sty \

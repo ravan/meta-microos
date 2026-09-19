@@ -18,10 +18,10 @@ Protocol::WebSocket itself does not contain any code and cannot be used \
 directly. Instead the following modules should be used:"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.26"
+PV = "0.260.0"
 
-RPM_NAME = "perl-Protocol-WebSocket-0.26-1.17.noarch.rpm"
-RPM_HASH = "4e0749ed40277bc61b29ec7821ee4b941cc1c3544f17fba88e41e249347d9136cca5bc609db2c25bcb77b40ef3e103b3a696306dcb90992a91d4bfc7da8bddf1"
+RPM_NAME = "perl-Protocol-WebSocket-0.260.0-1.7.noarch.rpm"
+RPM_HASH = "e7ca2e78ee551f55bf0341817fbbba6c953475aa914e2519904d53ad19e63ba6d119257823361023b43378aa8dfd3b7808e0933c55b1589306cfe73af22b5cd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Protocol--WebSocket \
@@ -40,7 +40,7 @@ perl-Protocol--WebSocket--Stateful \
 perl-Protocol--WebSocket--URL \
 perl-Protocol-WebSocket"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Digest--SHA"
 
 inherit rpm

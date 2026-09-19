@@ -2,16 +2,17 @@ SUMMARY = "Translations for package klines"
 DESCRIPTION = "Provides translations for the 'klines' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "klines-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "fd648a18dfe36e23399a0a255601a3133c638a63ea081b6665c4d43e183ce6149d8c84a0777c5f763f47a87262f6d1cffd50b5df3e3e6b9d1458a34e71bb4f08"
+RPM_NAME = "klines-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "1966c29ef724e7045b4fe04102dfc7715c3dc36b884bdc5edcbbd8738ec763de81b2191a6e747134be61a1f56236c1795dd5474a53bf6a4d6929e58dde4bf75c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "klines-lang \
 klines-lang-all \
 locale-klines-af \
 locale-klines-ar \
+locale-klines-ast \
 locale-klines-be \
 locale-klines-bg \
 locale-klines-br \
@@ -37,6 +38,7 @@ locale-klines-he \
 locale-klines-hi \
 locale-klines-hr \
 locale-klines-hu \
+locale-klines-ia \
 locale-klines-id \
 locale-klines-is \
 locale-klines-it \

@@ -7,17 +7,19 @@ file system. On other systems, a server is used to read information \
 from /dev/kmem."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.40.0"
+PV = "2.41.3+4"
 
-RPM_NAME = "libgtop-2.40.0-4.4.aarch64.rpm"
-RPM_HASH = "1e957b055d7ce6eeaac8e5dee189b9686d70592139b7a8889ad8c20d8d5fa8c3784c39a417f39fd6fdd7c847ceeec862dfcb4c5a7e8cc6950f25bf600cb29e38"
+RPM_NAME = "libgtop-2.41.3+4-3.3.aarch64.rpm"
+RPM_HASH = "a9d51376765471ee63a48db6e797f12009b48c6e3ae768e06debd9fd61fd39cb3b3f947a734c842f72911d217db74a8f9b23298a502dcfa5d1e9de9f78caeb04"
 
 RPROVIDES:${PN} += "libgtop"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/sh \
+ld-linux-aarch64.so.1 \
 libXau.so.6 \
 libc.so.6 \
 libglib-2.0.so.0 \
-libgtop-2.0.so.11"
+libgtop-2.0.so.11 \
+permissions"
 
 inherit rpm

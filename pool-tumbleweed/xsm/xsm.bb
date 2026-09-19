@@ -9,10 +9,10 @@ you log back in to the system, you can load a specific session, and you can \
 delete sessions you no longer want to keep."
 LICENSE = "MIT"
 
-PV = "1.0.5"
+PV = "1.0.6"
 
-RPM_NAME = "xsm-1.0.5-1.6.aarch64.rpm"
-RPM_HASH = "e78562f1c51c389e06d75624127b12e4eb5d808673a2caeab7f03fc118a2e92d852cb246ddc78cd574bad2c4acb88d5b5e07e0974369ef12ba99f1a6841e53db"
+RPM_NAME = "xsm-1.0.6-1.9.aarch64.rpm"
+RPM_HASH = "0ff0685aa1552f1c7d78adbe2390c9228e4151c4d2672450ae01a61753d961456bce509194c7eef3bc24fd7e1b2b57121978a3bb64df87699529bb4323ff99f7"
 
 RPROVIDES:${PN} += "xsm"
 

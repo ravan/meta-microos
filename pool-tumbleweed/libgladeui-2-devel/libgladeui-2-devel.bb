@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.40.0"
 
-RPM_NAME = "libgladeui-2-devel-3.40.0-2.4.aarch64.rpm"
-RPM_HASH = "f67fcc948fec3e6717db94bbc0ca44465244bc3bfad7d5fbfef6bf92374ea1221eb4b23d1650fb843523b89e989e1c22c06f79720611d1719ea5dd8c952f8191"
+RPM_NAME = "libgladeui-2-devel-3.40.0-4.11.aarch64.rpm"
+RPM_HASH = "ea3dc0940d01cec5d80a2bd75914a64b83191fe86142653265cf498851dbbbec23bf304e71221273549fa41631e3aa011726d63dacdcca2ea59ba4c46a6d9eee"
 
 RPROVIDES:${PN} += "libgladeui-2-devel \
 pkgconfig-gladeui-2.0"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package balsa"
 DESCRIPTION = "Provides translations for the 'balsa' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.6.4"
+PV = "2.6.5"
 
-RPM_NAME = "balsa-lang-2.6.4-2.4.noarch.rpm"
-RPM_HASH = "cb6fc3afe147598a9c5e8aa0ff8a8e26c4e7eaa25ac51ac5378b4efc8b458272e4a4158c746b4ae7a859391aa9edee2eaf8e6ef3bae456a8dc5de2895849c62e"
+RPM_NAME = "balsa-lang-2.6.5-1.6.noarch.rpm"
+RPM_HASH = "5c49e91f15965e0c86b370a82c5e311c2851d5e5fcddc3b08cc495726ef3d8cdf9eebc198fd27fc1842ce403d6b8c395b27416b647580b3a45a649c7079eed3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "balsa-lang \

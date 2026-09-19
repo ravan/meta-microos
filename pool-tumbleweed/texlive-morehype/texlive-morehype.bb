@@ -7,10 +7,10 @@ presentation of coloured frames in hyperref tables of contents \
 expanding LaTeX macros, using the fifinddo package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.r0.83svn38815"
+PV = "2026.226.r0.83svn38815"
 
-RPM_NAME = "texlive-morehype-2023.209.r0.83svn38815-55.1.noarch.rpm"
-RPM_HASH = "91f92cf1dde397e5d95793c211d9a484493973953fe1599cbab6c21e38aab11f818016320c41dba075f23c60667dc3c9577638c7cc6176959a01236ef9d0674c"
+RPM_NAME = "texlive-morehype-2026.226.r0.83svn38815-61.2.noarch.rpm"
+RPM_HASH = "49f13d8b15775940729ce2d4e4d1e089b9d9905ce9c95bc4420789586e0fd4db56f737cde8eae974396deb838bbe013670fa4d4e6c13e99569b807d3fb462f08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blog.sty \

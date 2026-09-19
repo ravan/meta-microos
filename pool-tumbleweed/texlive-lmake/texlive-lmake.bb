@@ -4,10 +4,10 @@ sequential list-like structures, such as making a series of \
 'similar' commands from a list of names."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn25552"
+PV = "2026.226.1.0svn25552"
 
-RPM_NAME = "texlive-lmake-2023.209.1.0svn25552-55.1.noarch.rpm"
-RPM_HASH = "f518804b8856923a94670a32b52071bda63e04bf743442cebdd43b34d8f3dea99b36ac20cd36ddec32978476592d5088adf23015146dce05cfee81973aea58dd"
+RPM_NAME = "texlive-lmake-2026.226.1.0svn25552-61.2.noarch.rpm"
+RPM_HASH = "d85b30a215becc48fd7231b1419e8beadb34d3d0302ac1c7275cbfebeda74da52db2ff24109e2603a2493b7d6e070ee602fcd0d087f2a890bf413e3af94bb13e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lmake.sty \

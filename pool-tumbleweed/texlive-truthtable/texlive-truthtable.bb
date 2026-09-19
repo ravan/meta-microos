@@ -5,10 +5,10 @@ operations which can be combined as needed. It is built upon \
 the luacode package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.2svn60717"
+PV = "2026.226.0.0.1.0svn68300"
 
-RPM_NAME = "texlive-truthtable-2023.209.0.0.0.2svn60717-53.1.noarch.rpm"
-RPM_HASH = "eaed99313492bcd0e4d59a8fba049eb04fcf83b7e8e663854bd766daaa6fdd9248a2274a6708a290f5c2044edd2b7a55e3e596c74d94794995f71b97c78c603f"
+RPM_NAME = "texlive-truthtable-2026.226.0.0.1.0svn68300-59.2.noarch.rpm"
+RPM_HASH = "8a252d7135310a53781087f25ca9a099e5652825ad8d816c3f3330bac3be39cbf429173dd6d241c385e649427dafdab9d924c78c23d9502645cc0a2813565f0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-truthtable.sty \

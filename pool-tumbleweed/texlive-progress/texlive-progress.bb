@@ -6,10 +6,10 @@ file \\ProgressReportName, which is by default the \\jobname with \
 the date appended (but is user-modifiable)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10svn19519"
+PV = "2026.226.1.10svn19519"
 
-RPM_NAME = "texlive-progress-2023.209.1.10svn19519-53.1.noarch.rpm"
-RPM_HASH = "385bde3fcee14203b0a1ca60b154b1f83c07485244e1c8c2014d44aab99654d704779508e45887d47ef16a360894a77422ace0604ecd8bbe2e7d73892bff2737"
+RPM_NAME = "texlive-progress-2026.226.1.10svn19519-59.2.noarch.rpm"
+RPM_HASH = "9c08525afd2fe0253a05916196cd2f1a13937de71436c93860388af01b43cd8f5529595f2304b3c4b4fb2fea72ce3dd1afbec498d34e38ad017e651ae335d40f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-progress.sty \

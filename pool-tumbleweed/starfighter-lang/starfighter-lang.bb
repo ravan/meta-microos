@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4"
 
-RPM_NAME = "starfighter-lang-2.4-1.14.noarch.rpm"
-RPM_HASH = "32e7f94c9e9b5a58e908ee67cf92654621fbc268aefc268091e4fbd1205d008619ac70f1fd04561b36da2d047eb30ffb3dfac5e295a93c58b0d778121b0d677f"
+RPM_NAME = "starfighter-lang-2.4-2.9.noarch.rpm"
+RPM_HASH = "e4fc7d41daf4bcd7a56cd51a5ad3c7b60192bdd0efa672190bb9d54c9c4e9066aea783054868c8eff6774c5a39b292b27ce4f96450b5129596da84a2a10de997"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-starfighter-en \

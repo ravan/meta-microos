@@ -2,10 +2,10 @@ SUMMARY = "Data files for Tesseract"
 DESCRIPTION = "This package provides the data files for the Tesseract game."
 LICENSE = "Zlib"
 
-PV = "2018_02_01"
+PV = "2024_06_15"
 
-RPM_NAME = "tesseract-data-2018_02_01-3.12.noarch.rpm"
-RPM_HASH = "e9bd39d07994a3dde8c84c4deaf64b5a19f7ce4afbb99435e9785813a3f3b0f2e80071709969567d869ee862c90a5ec025c10e695cc531e7a6941d6789e7bb8b"
+RPM_NAME = "tesseract-data-2024_06_15-2.1.noarch.rpm"
+RPM_HASH = "745351ffe3360275597621eb03af05d6da0aee4a5e51b0a92e2b71d05e2e095b774a0eca2a8ce0e7d3f82499cd1a63577fa7a6fee8f4b943cca62780f5b47a46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-data"

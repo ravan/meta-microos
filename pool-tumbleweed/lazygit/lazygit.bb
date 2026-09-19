@@ -4,10 +4,10 @@ git operations easy and accessible without requiring expertise with the git \
 command line."
 LICENSE = "MIT"
 
-PV = "0.40.2"
+PV = "0.63.0"
 
-RPM_NAME = "lazygit-0.40.2-1.1.aarch64.rpm"
-RPM_HASH = "7fb771f3b34c9df939d5041e3b51e5d482a4d10e9ba92af783cd0102e7e61b1cdc42c371892105d88c79cfa995c675cfd63143f63c009341851325624fda72df"
+RPM_NAME = "lazygit-0.63.0-1.2.aarch64.rpm"
+RPM_HASH = "be5ab028a4661b49b85b915ad95c4b57bfcaf7761d697a4ebfb844777060efcdc5159751f135c09b7ad97cb9f5edb8350fc60b864fd73b1557a759fd2ed30127"
 
 RPROVIDES:${PN} += "lazygit"
 

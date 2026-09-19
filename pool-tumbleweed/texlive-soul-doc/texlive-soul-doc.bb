@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-soul"
 DESCRIPTION = "This package includes the documentation for texlive-soul"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0svn65908"
+PV = "2026.226.3.1svn77682"
 
-RPM_NAME = "texlive-soul-doc-2023.209.3.0svn65908-58.1.noarch.rpm"
-RPM_HASH = "135fd5120705981819944baebcd64a176f3f9330d17065fb88e80a98ef4747c6dda589e1b9600fe597b3a2f67dea1cb27ab30189a9631b641dbfbf80b70369a5"
+RPM_NAME = "texlive-soul-doc-2026.226.3.1svn77682-64.2.noarch.rpm"
+RPM_HASH = "47a67d8e40034c1fb06de25368e6ffe5027b0718f1857d67c2e1d10ba71cadf02bd9db6b1b08048e519a2d76ae3f1d5ee25667caf71dda2c2b84a62c9efe1180"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-soul-doc"

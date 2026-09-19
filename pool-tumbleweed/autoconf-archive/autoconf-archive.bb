@@ -15,10 +15,10 @@ having this tool available as widely as possible outweigh the disadvantage that 
 some authors may choose to use it, too, for proprietary software."
 LICENSE = "GPL-3.0-or-later-with-Autoconf-exception-3.0"
 
-PV = "2023.02.20"
+PV = "2024.10.16"
 
-RPM_NAME = "autoconf-archive-2023.02.20-1.4.noarch.rpm"
-RPM_HASH = "4a84dd7f9d73a53dbb37c8d9bd513e6fce7dd8b9e09f9cb81dc80ac19e24f826e59bac1fd731008b9a1620979ab9d01bf3b6854ba98bcd8dd82c218999f29cc0"
+RPM_NAME = "autoconf-archive-2024.10.16-2.3.noarch.rpm"
+RPM_HASH = "3975bc57f36f6a15f0245a3d1ffa15f2a0d7a766936eaa8439a05cb977e619f90a30498384fd9a3eb098f782521537abeea12b4a2670f90f438954920867a430"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoconf-archive"

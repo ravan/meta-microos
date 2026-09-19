@@ -3,10 +3,10 @@ DESCRIPTION = "Experimental XEP-0280: Message Carbons plugin for libpurple \
 (Pidgin, Finch, etc)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.2.2"
+PV = "0.2.3"
 
-RPM_NAME = "libpurple-plugin-carbons-0.2.2-1.15.aarch64.rpm"
-RPM_HASH = "ff09075cdd25f1bdb80512bcd96218e54b24d792e65804498746d890dcc67aad46b7e8c6b2e290f9a1dc9aa6a53974313597a92cc1b3f65a45915304665f0c1e"
+RPM_NAME = "libpurple-plugin-carbons-0.2.3-1.10.aarch64.rpm"
+RPM_HASH = "a431c0bf387d33b4ac0cc0b317ff393004a913661ce5ebde551d96e51d4e5fc3014193e8036f1320f324fbae2ace06aab7839af70a2f949ff2ffe654d79fccc2"
 
 RPROVIDES:${PN} += "libpurple-plugin-carbons"
 

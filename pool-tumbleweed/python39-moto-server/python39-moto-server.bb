@@ -3,10 +3,10 @@ DESCRIPTION = "A library that allows your python tests to mock out the boto \
 library. Meta package to install server extras (moto[server])"
 LICENSE = "Apache-2.0"
 
-PV = "4.1.13"
+PV = "4.1.0"
 
-RPM_NAME = "python39-moto-server-4.1.13-1.1.noarch.rpm"
-RPM_HASH = "ce495b5eacfbe7c27e74b3fbc2e800132bf978b50d53acab801b8bebf3a196f5b9ae63894477efce73d9bab115176b40ca5fa817148fee643ad5321fc90efe6a"
+RPM_NAME = "python39-moto-server-4.1.0-1.1.noarch.rpm"
+RPM_HASH = "d0ef987d7061882fb0bababd7607dd1a6709124e10244c571bd35af3a4c04756d6ea3d60be3e026cc576b52ad52ace785b428db5362f85f835c5782f62e1b52f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-moto-server"

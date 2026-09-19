@@ -1,13 +1,13 @@
-SUMMARY = "UnofficiaL BibTeX style for citing Japanese articles in IEEE format"
+SUMMARY = "Unofficial BibTeX style for citing Japanese articles in IEEE format"
 DESCRIPTION = "This package provides an unofficial BibTeX style for authors \
 trying to cite Japanese articles in the Institute of Electrical \
 and Electronics Engineers (IEEE) format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.19svn65642"
+PV = "2026.226.0.0.19svn76924"
 
-RPM_NAME = "texlive-jieeetran-2023.209.0.0.19svn65642-56.1.noarch.rpm"
-RPM_HASH = "d7584160396c1d5a23f3396f24188609c0dd73d3ac01adb4536d0a11668624b3abc672edd0addb99bf46937b3046e06c174ecb1523f816839a94eeea328f10b8"
+RPM_NAME = "texlive-jieeetran-2026.226.0.0.19svn76924-63.2.noarch.rpm"
+RPM_HASH = "0e9b5169f79841d7f41861fba9822d80541cd5b15b6c5f319eceddef34777e4fc58417833cf26acb2c3fbf9d14f5f8fbb0e89cb78c2afd76df68eddcb8282e5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jieeetran"

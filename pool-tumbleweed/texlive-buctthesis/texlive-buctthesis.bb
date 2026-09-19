@@ -4,14 +4,13 @@ University of Chemical Technology, supporting bachelor, master, \
 and doctor theses."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4.1svn64004"
+PV = "2026.226.2.0svn67818"
 
-RPM_NAME = "texlive-buctthesis-2023.209.1.4.1svn64004-53.1.noarch.rpm"
-RPM_HASH = "e9cecd656faacdd208fa41e5b28782582799896eda7821dfdb462b32a142847614bd8f63534e44825059dc41bfd3c6320bb263fff19c33241ce1bafcf760916a"
+RPM_NAME = "texlive-buctthesis-2026.226.2.0svn67818-59.2.noarch.rpm"
+RPM_HASH = "6449cf2cc685f24eb53db0d8a67174ee94ea2c390d91e479a577387e1c7fe324c3c673dff728c0c420e1789ec57f0a085c0f84121310bc86403f15e32ff01ce6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-buctcover.cls \
-tex-buctthesis.cls \
+RPROVIDES:${PN} += "tex-buctthesis.cls \
 texlive-buctthesis"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -23,12 +22,10 @@ sed \
 tex-amsmath.sty \
 tex-amssymb.sty \
 tex-amsthm.sty \
-tex-array.sty \
 tex-bicaption.sty \
 tex-booktabs.sty \
 tex-calc.sty \
 tex-caption.sty \
-tex-ctexbook.cls \
 tex-enumitem.sty \
 tex-fancyhdr.sty \
 tex-fgruler.sty \

@@ -1,21 +1,23 @@
 SUMMARY = "Automated C, C++, and Java Documentation Generator"
-DESCRIPTION = "Doxygen is a documentation system for C, C++, Java, and IDL. It can \
-generate an online class browser (in HTML) and an offline reference \
-manual (in LaTeX) from a set of documented source files. The \
-documentation is extracted directly from the sources. Doxygen is \
-developed on a Linux platform, but it runs on most other UNIX flavors \
-as well."
-LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
+DESCRIPTION = "Doxygen is the de facto standard tool for generating documentation \
+from annotated C++ sources, but it also supports other popular \
+programming languages such as C, Objective-C, C-sharp, PHP, Java, \
+Python, IDL (Corba, Microsoft, and UNO/OpenOffice flavors), Fortran, \
+and to some extent D. Doxygen also supports the hardware description \
+language VHDL."
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.9.6"
+PV = "1.18.0"
 
-RPM_NAME = "doxygen-1.9.6-5.1.aarch64.rpm"
-RPM_HASH = "615a935a1c6a490bbaa83e2c29d23de218080ac51ddc85575719ca41d48f10e3234faf503091fddc45fbea70689033863c49cbdb4e7062f602df51d25dfa1cda"
+RPM_NAME = "doxygen-1.18.0-1.2.aarch64.rpm"
+RPM_HASH = "c1304b75c48bee9129aef99797dbd65d272f33255c358a172f2aa40031f0e07a20d54d17ee0c642a2cc92a0bd29a7c6368e4d199fd9f24307cfead1edf498ab0"
 
 RPROVIDES:${PN} += "doxygen"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libclang-cpp.so.23.1 \
+libclang.so.13 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6"

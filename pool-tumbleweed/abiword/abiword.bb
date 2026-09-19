@@ -3,10 +3,10 @@ DESCRIPTION = "AbiWord is a multiplatform word processor with a GTK+ interface o
 UNIX platform."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.5"
+PV = "3.0.8"
 
-RPM_NAME = "abiword-3.0.5-2.10.aarch64.rpm"
-RPM_HASH = "3fb904fece67b0add8315a23a0baf478349587f8184eaf471b031cbc5818bc5cd0956af2b08bd9d1dc6de2bbdd68dc309b4c086167eb0a7955d673b647cc087b"
+RPM_NAME = "abiword-3.0.8-1.5.aarch64.rpm"
+RPM_HASH = "16a35313fc90f1c57fe15ea48f4f2e109eab4767446e8637664a61cb0bd37e570cf4e03042cf49ba792f24fe714cf7ad2083d1f041c125048caeb5f621afb9bd"
 
 RPROVIDES:${PN} += "abiword"
 

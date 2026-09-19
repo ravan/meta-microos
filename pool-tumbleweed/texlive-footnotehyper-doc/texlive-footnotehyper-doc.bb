@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-footnotehyper"
 DESCRIPTION = "This package includes the documentation for texlive-footnotehyper"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1esvn60374"
+PV = "2026.226.1.1fsvn77682"
 
-RPM_NAME = "texlive-footnotehyper-doc-2023.209.1.1esvn60374-53.1.noarch.rpm"
-RPM_HASH = "76c948a79a97d37e50ada4313a8f13023b593e8276b58f08005668e14f641a245de8f3aa02a71e0326043033a7ff1fd7ef0d985a187701a806fc80e2aaece94e"
+RPM_NAME = "texlive-footnotehyper-doc-2026.226.1.1fsvn77682-60.2.noarch.rpm"
+RPM_HASH = "e8c900870dd18a49850d1652eea2f239a02e08c7e917b81abb6213d289fde26c91f28d5d83b675195efb5de24235b5bd7fc27331ef45468ff4416084a1a86362"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-footnotehyper-doc"

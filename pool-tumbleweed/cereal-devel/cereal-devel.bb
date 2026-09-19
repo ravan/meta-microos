@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.2"
 
-RPM_NAME = "cereal-devel-1.3.2-1.5.aarch64.rpm"
-RPM_HASH = "04e6b33be31a6674c02609439c4c0a09efb63399c6329386ffa80220e8197689fd7a12ea674c8b3ad7f23ce0625e13571755aec2345d8e424efbc0c89d0d9bd2"
+RPM_NAME = "cereal-devel-1.3.2-1.15.aarch64.rpm"
+RPM_HASH = "6309c0956ab06b3548db437c46adb73a6f7227db0d0b9d6f98a43c7a03affb5fcbfbab8f2943d9042c94d270909208609cfe48a0c8008ff27556b571baf099a7"
 
 RPROVIDES:${PN} += "cereal-devel \
 cmake-cereal"

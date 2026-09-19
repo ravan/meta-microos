@@ -3,12 +3,12 @@ DESCRIPTION = "Cloud-init is an init script that initializes a cloud node (VM) \
 according to the fetched configuration data from the admin node. \
  \
 Documentation and examples for cloud-init tools"
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-3.0"
 
-PV = "23.1.2"
+PV = "25.1.3"
 
-RPM_NAME = "cloud-init-doc-23.1.2-1.1.aarch64.rpm"
-RPM_HASH = "61c8c65bb8d763f130d6a209df8f8a47500cb1a5492016250ccfd9ffa0373a62d988d3f08a51c73032d22198f18d164fd5f089fc6ef9f5de8c5881ffb3780e3b"
+RPM_NAME = "cloud-init-doc-25.1.3-6.1.aarch64.rpm"
+RPM_HASH = "a2ae1eae3c3e064d72d01bc8b2f71e527e10d1a2517313d44734d7068d5c0e8dc391d17a75c60645fddec0bd2ef108d351c7bece85fa0c15600062e60491e234"
 
 RPROVIDES:${PN} += "cloud-init-doc"
 

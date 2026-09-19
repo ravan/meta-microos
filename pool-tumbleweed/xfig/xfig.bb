@@ -6,30 +6,34 @@ a variety of other formats (to allow inclusion in LaTeX documents, for \
 example)."
 LICENSE = "MIT"
 
-PV = "3.2.8a"
+PV = "3.2.9a"
 
-RPM_NAME = "xfig-3.2.8a-3.9.aarch64.rpm"
-RPM_HASH = "aad49cc92a35493ed6eb4622a9d15843ac164660982e246018a7876e34ab0a0e822d331a32a866181c9fb0d77ecfe5f0e1fdc916f615d6a930e6f03b8a3c9573"
+RPM_NAME = "xfig-3.2.9a-2.6.aarch64.rpm"
+RPM_HASH = "5b637988816937d9c18e7aac12d322f63d9fb63107b66d6b4e8735e3c329673875b055dae21e8eea296038796ce827c49b15b0fe44b309b61f7272c01e9836a4"
 
 RPROVIDES:${PN} += "xfig \
 xfig.3.2.3d"
 
 RDEPENDS:${PN} += "efont-unicode \
-ghostscript-fonts-std \
+fontconfig \
 ifnteuro \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXaw3d.so.8 \
+libXft.so.2 \
+libXi.so.6 \
 libXpm.so.4 \
 libXt.so.6 \
 libc.so.6 \
+libfontconfig.so.1 \
+libgs.so.10 \
 libjpeg.so.8 \
 libm.so.6 \
 libpng16.so.16 \
-mkfontdir \
-mkfontscale \
+libtiff.so.6 \
 netpbm \
 transfig \
+urw-base35-fonts \
 xorg-x11-fonts \
 xorg-x11-fonts-core"
 

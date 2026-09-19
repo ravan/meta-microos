@@ -5,10 +5,10 @@ also allows to specify more complex commands with the elegance of \
 Scheme."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7+git114432435e4eadd54334df6b37fcae505079b49f"
+PV = "0.7+git6770db21b08edd907d1c9bd962297ff55664e3fe"
 
-RPM_NAME = "scsh-base-0.7+git114432435e4eadd54334df6b37fcae505079b49f-7.2.aarch64.rpm"
-RPM_HASH = "0865dbb9a3215199de2e92a3459d56d43e863e5f06ad7efd0645478723764dbc319e802a316288421bad990fe1aa79ef7800a282defe8f0623836f91e0fb7977"
+RPM_NAME = "scsh-base-0.7+git6770db21b08edd907d1c9bd962297ff55664e3fe-2.4.aarch64.rpm"
+RPM_HASH = "2c4b50c5d2144f7c3968bc57888dc46d34646611cf98b7c4c5d22fb84763a511e4faca82bd6a66940b9e07d87fd101ebe8f181d552c24bf4845fee2ac1f0a743"
 
 RPROVIDES:${PN} += "scsh-base"
 

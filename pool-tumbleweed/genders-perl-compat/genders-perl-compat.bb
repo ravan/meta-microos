@@ -2,10 +2,10 @@ SUMMARY = "Perl compatibility Library"
 DESCRIPTION = "Perl genders API for the most part used exclusively by LLNL. It is compatible with earlier releases of genders."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.28.1"
+PV = "1.32"
 
-RPM_NAME = "genders-perl-compat-1.28.1-2.6.aarch64.rpm"
-RPM_HASH = "db58116ef4c5e97f0e2a616bc5569b02f0f4219821841fa24af844f93c8a59b0e31721170f53200cf1bd668e444fc1c61582b0f79f6f52fdca5c62d116034e54"
+RPM_NAME = "genders-perl-compat-1.32-1.10.aarch64.rpm"
+RPM_HASH = "22e7af0cfdbe2caa1c9dd8441875e718bea16bff70b2be1d68553239611561091f56153820cf219a3263d7a1af3f29ed08159c3aa5e96c87f03a28423a2a6d9d"
 
 RPROVIDES:${PN} += "genders-perl-compat"
 

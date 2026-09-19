@@ -6,10 +6,10 @@ This package contains the command line tools used to \
 communicate with XRootD servers."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.6.1"
+PV = "5.9.0"
 
-RPM_NAME = "xrootd-client-5.6.1-1.1.aarch64.rpm"
-RPM_HASH = "3920257eabb4b9b3294cae62c459f35d8d34f5c7c45c7de39bfc2984e65ee69ae39a7311e11310746ad893970a3b62e58849d7c629c372040cf1615f41dd75f1"
+RPM_NAME = "xrootd-client-5.9.0-1.6.aarch64.rpm"
+RPM_HASH = "cc0c68783955194e1a392512e4e5366646ad07cfa531e9ce2e9eaa91c78452726e38ce84f0e0a2c27f4c56e05add849ee6fe92848d2f8d7c5a6b85bfbe10424e"
 
 RPROVIDES:${PN} += "xrootd-cl \
 xrootd-client"

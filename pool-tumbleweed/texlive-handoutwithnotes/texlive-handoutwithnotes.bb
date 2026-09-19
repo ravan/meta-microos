@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides pgfpages layouts to place notes next to \
 the scaled slides."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn62140"
+PV = "2026.226.1.3svn76924"
 
-RPM_NAME = "texlive-handoutwithnotes-2023.209.1.3svn62140-54.2.noarch.rpm"
-RPM_HASH = "0da86d33577a3734161df767faf991a7a2adef7184eb6d95d9abe8dd5ebec92b1c32416767dc8aa8e14b7533d2ca448678ae81f9615decde258ffd3b9c1bd8e0"
+RPM_NAME = "texlive-handoutwithnotes-2026.226.1.3svn76924-60.4.noarch.rpm"
+RPM_HASH = "9f8e0a9494790adda9b54fbfc0c4470f70054a9239d0455e36619cd5bce506beb870b205622efec32eda0268bdd7ea675b33c4d46704880a878e78eebe041389"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-handoutWithNotes.sty \

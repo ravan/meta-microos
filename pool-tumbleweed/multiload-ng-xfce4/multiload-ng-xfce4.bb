@@ -1,11 +1,11 @@
 SUMMARY = "XFCE4 multiload-ng package"
 DESCRIPTION = "Provides required files for XFCE4 panel integration."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "git20210103.743885d"
 
-RPM_NAME = "multiload-ng-xfce4-git20210103.743885d-1.8.aarch64.rpm"
-RPM_HASH = "013eb16728d7478c8dfb656a432bc5dbc55429d0b5757ecea99847b80decf5e63ee697a1b08265a9244831151f6f1a7df65be1ae63fabd4612b121e50eb299a2"
+RPM_NAME = "multiload-ng-xfce4-git20210103.743885d-3.3.aarch64.rpm"
+RPM_HASH = "3e2965dec5cb6a123f7bc237e2cc957c053231977930662589817244cdf283cf5bffb2ed3fb1dd6df203840ec8cdeeed87d2c37c020085693eecc6d303726a06"
 
 RPROVIDES:${PN} += "libmultiload-ng.so \
 multiload-ng-xfce4"

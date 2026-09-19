@@ -2,17 +2,17 @@ SUMMARY = "Haskell terminfo library development files"
 DESCRIPTION = "This package provides the Haskell terminfo library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.1.5"
+PV = "0.4.1.7"
 
-RPM_NAME = "ghc-terminfo-devel-0.4.1.5-1.1.aarch64.rpm"
-RPM_HASH = "c2eeb259007bd83c24d338725a0d72853d81087a92ce58a780737cf59ca461bf268e627287131a8d3beffc166f167d97e9c748f61e745967eb26a32f4e47f5be"
+RPM_NAME = "ghc-terminfo-devel-0.4.1.7-1.3.aarch64.rpm"
+RPM_HASH = "a395311b0cc3f7599008e4ae03f0b5c22fffb0f6d0677df6065091ab466133638e284e533713220817ef68f884cead0de8a02e06fdfb7a362dd3cbb857fa2662"
 
-RPROVIDES:${PN} += "ghc-devel-terminfo-0.4.1.5 \
+RPROVIDES:${PN} += "ghc-devel-terminfo-0.4.1.7-3afa \
 ghc-terminfo-devel \
 ghc-terminfo-static"
 
 RDEPENDS:${PN} += "ghc-compiler \
-ghc-devel-base-4.17.2.0 \
+ghc-devel-base-4.21.2.0-8844 \
 ghc-terminfo \
 ncurses-devel"
 

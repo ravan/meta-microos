@@ -10,10 +10,10 @@ This package provides include files that Nagios-related applications \
 may compile against."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.4.7"
+PV = "4.5.12"
 
-RPM_NAME = "nagios-devel-4.4.7-2.5.aarch64.rpm"
-RPM_HASH = "01d5faa2d3f783c72e1cb8c7ba8cbeff29b04a2c54e35d57657152d08b221786c60ee0d3c45fc085ec9da13ed301a9339c71799ea52bdf3b47ded70219ace7e1"
+RPM_NAME = "nagios-devel-4.5.12-2.1.aarch64.rpm"
+RPM_HASH = "3c15fa402aa34be112285d044948e69b10b6160bb1209feeef40449fc7540a1653877b84eb408ea6dd3382adb755d298eea60e337f52083adce42a8bf5d7b65b"
 
 RPROVIDES:${PN} += "nagios-devel"
 

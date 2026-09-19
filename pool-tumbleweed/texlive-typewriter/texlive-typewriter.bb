@@ -6,10 +6,10 @@ angle of each character. It was originally an answer to a \
 question on stackexchange."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn46641"
+PV = "2026.226.1.3svn73877"
 
-RPM_NAME = "texlive-typewriter-2023.209.1.1svn46641-53.1.noarch.rpm"
-RPM_HASH = "dffbd502297c1d191856e1143ef91c5aebcb9e3dc37d8ffd1836df35fe0d91014a183e6f9e5325bb4a89d4dc914193e2698ab1a9b9ba6975e8a92d6e7caa4df8"
+RPM_NAME = "texlive-typewriter-2026.226.1.3svn73877-59.2.noarch.rpm"
+RPM_HASH = "c52d8a726abf2236f697dc66b32e6f796a9798305a0e1c05285df635ae917122e65dea2ac659a3cb70e7b6b70a01ea9bf65ec48eb01796096e1c29cca0dcdb9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-typewriter.sty \
@@ -21,7 +21,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-luaotfload.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -4,10 +4,10 @@ When Japanese is supported, you can switch to circled equation \
 numbers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.1svn63853"
+PV = "2026.226.1.2.1svn63853"
 
-RPM_NAME = "texlive-inlinelabel-2023.209.1.2.1svn63853-54.1.noarch.rpm"
-RPM_HASH = "0da8cceb56445d2957ffb259b715e2ec47022c5e81cfb774df93511fabf0403dc0299903ee0fbc2cf2972d1f951005c02b64284b1e12d4696dcd0d531cdc72f1"
+RPM_NAME = "texlive-inlinelabel-2026.226.1.2.1svn63853-60.2.noarch.rpm"
+RPM_HASH = "5528c9543f816b75d8699e468e905cc38bc45337de05f1f41638150b7f706699f7e07acf6651a085b7a343ad507a3b8ed5fe64586a9f0515cf6599eeedd7d11f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-inlinelabel.sty \

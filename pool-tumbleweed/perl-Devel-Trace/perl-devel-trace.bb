@@ -1,4 +1,4 @@
-SUMMARY = "Print out each line before it is executed (like C<sh -x>)"
+SUMMARY = "Print out each line before it is executed (like sh -x)"
 DESCRIPTION = "If you run your program with 'perl -d:Trace program', this module will \
 print a message to standard error just before each line is executed. For \
 example, if your program looks like this: \
@@ -30,15 +30,15 @@ Then the 'Trace' output will look like this: \
 This is something like the shell's '-x' option."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "0.12"
+PV = "0.120.0"
 
-RPM_NAME = "perl-Devel-Trace-0.12-1.25.noarch.rpm"
-RPM_HASH = "8b4727a784fa8120a7c5f778132954c485403f33816fced3d640c070a37cbff379f8c1477b5ced414a59ebf86d94e14f7941b641b564aa2fb3d77e674ba7d1a6"
+RPM_NAME = "perl-Devel-Trace-0.120.0-1.7.noarch.rpm"
+RPM_HASH = "f6c4e6d706cfe4416af13c075622c7966a55aaf7159e9b8dd7c708b620b702dbba3f1918733873472204dd3b9503dc18212d87d4d3a0d71925c5644fb8bd4bda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--Trace \
 perl-Devel-Trace"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

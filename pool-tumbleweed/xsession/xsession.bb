@@ -6,20 +6,13 @@ and some applications of your choice.  At anytime during your session, \
 you may switch to another window manager or execute some other \
 applications from the xsession menus. \
  \
-Examples may be found under /usr/share/doc/packages/xsession/examples. \
- \
- \
- \
-Authors: \
--------- \
-    Alain Nissen <nissen@montefiore.ulg.ac.be> \
-    Raphael Quinet <quinet@stud.montefiore.ulg.ac.be>"
+Examples may be found under /usr/share/doc/packages/xsession/examples."
 LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "xsession-1.1-1247.27.aarch64.rpm"
-RPM_HASH = "9fd1a652dc4870c7137795cae3225255cfc9c4d9be8dc5bd88a5e715d47f49d2b8a9a00d988f4a663a2de31b6038ce3d4f392ddc2e4a31568eafa309873336a1"
+RPM_NAME = "xsession-1.1-1250.5.aarch64.rpm"
+RPM_HASH = "11c5c3b20e692190798625c8874e8ca76afdfb9fd3133ec0844dcd48e4d2a5c718a188ea3bba168e277d56d6ad6ff4a8b9294033ddec232784f0f90d9611df95"
 
 RPROVIDES:${PN} += "config-xsession \
 xsession"

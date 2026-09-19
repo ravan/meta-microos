@@ -2,10 +2,10 @@ SUMMARY = "RPM macros for Qt6 packages"
 DESCRIPTION = "This package provides macros which are used by Qt6 packages."
 LICENSE = "MIT"
 
-PV = "20230629"
+PV = "20260508"
 
-RPM_NAME = "qt6-macros-20230629-1.1.aarch64.rpm"
-RPM_HASH = "32dc1a2848724f247b22cf049dd5f3a22e3dc48855d116585eead2c769a8c1027da8a3cd5f84674826daa05f5d762bd3ff6aa8abe12a24ee008968606d2c24ea"
+RPM_NAME = "qt6-macros-20260508-1.2.aarch64.rpm"
+RPM_HASH = "b71a5868281467d484a2779e3010b1c3911a0973631175c5b59e7ae60102f54ed5513fbfb39ce58bea683f57b913195f5f60c6dde2037b2268c009f360b2f090"
 
 RPROVIDES:${PN} += "qt6-macros \
 rpm-macro--qt6-archdatadir \

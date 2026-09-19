@@ -6,10 +6,10 @@ GObject introspection bindings to ease using it from applications. \
 This package contains the shared library for feedbackd."
 LICENSE = "GPL-3.0-only & LGPL-2.1-only"
 
-PV = "0.2.1"
+PV = "0.8.9"
 
-RPM_NAME = "libfeedback-0_0-0-0.2.1-1.1.aarch64.rpm"
-RPM_HASH = "cb723fe3cd73c415ab0ffd006078f67cc101396bc16dfd50b2685759d153a0025d9b4485a7cfa96c206a2fb5a4a3db162a2b287bb4eb37cb166f338235f2aff4"
+RPM_NAME = "libfeedback-0_0-0-0.8.9-1.3.aarch64.rpm"
+RPM_HASH = "7bd0f2bbb8f1b3f4fe6e8699c8de9d4ce24d0487a7c70818c55e3aee2507af998a31d9a320c9ca0563bf4b0c72398aaca8457ecbe02b72dab019a3b4bdb72e8f"
 
 RPROVIDES:${PN} += "libfeedback-0-0-0 \
 libfeedback-0.0.so.0"

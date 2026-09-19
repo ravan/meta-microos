@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libftxr."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220118"
+PV = "20260521"
 
-RPM_NAME = "libftxr-devel-20220118-3.3.aarch64.rpm"
-RPM_HASH = "ae0c5c6bb34e081cd684b0247790e83ce6ba6d4619fe83acfbfcec4779d4153f2a00f2d541d7d91f388f5cef5abe3891bf3028ad6f4153498a7cd554f458d6a7"
+RPM_NAME = "libftxr-devel-20260521-1.6.aarch64.rpm"
+RPM_HASH = "043447efbdb515afd7d228fd25381f0878016b57ca091bdc0dbfd65a7b60c5f6fdcc2f5b5e5ddbb59fbe7f1dd843ff60a36bfdde92b6837e619970aa8907e2fb"
 
 RPROVIDES:${PN} += "libftxr-devel \
 pkgconfig-libftxr"

@@ -2,10 +2,10 @@ SUMMARY = "Zip archive library"
 DESCRIPTION = "Minizip is a library for manipulation with files from .zip archives."
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.2"
 
-RPM_NAME = "mingw32-libminizip1-1.2.13-3.2.noarch.rpm"
-RPM_HASH = "fff22aedcf3342b906caad336e2ed6fc4fdf87f4330780cf1957fe6c136f1668e76d6a6c87975941f13e07714660e87cc703e28488c0cc7254ae6d80196f76df"
+RPM_NAME = "mingw32-libminizip1-1.3.2-1.6.noarch.rpm"
+RPM_HASH = "ec1ac177ec95d028b747e60fe80fb60675838fe2e81a0353ffc70af4376b8929b5c7377b415d09f2e1643ca56d21b1d16d287cdde9fc36b05f56f34916f8a645"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-libminizip-1.dll \

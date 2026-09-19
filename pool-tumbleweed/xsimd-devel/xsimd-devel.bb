@@ -13,10 +13,11 @@ common mathematical functions operating on batches. \
 This package contains the developments files needed to use xsimd"
 LICENSE = "BSD-3-Clause"
 
-PV = "11.1.0"
+PV = "14.3.0"
 
-RPM_NAME = "xsimd-devel-11.1.0-1.1.aarch64.rpm"
-RPM_HASH = "ff7146a42210eda4a7802953096ef0f31c1f6653818517fceaa547efacbf1ae2464c6d0a072d4e0aa6dae1001cb23a809bb2a2606a5bc22233d2c99221021b7a"
+RPM_NAME = "xsimd-devel-14.3.0-1.1.noarch.rpm"
+RPM_HASH = "0bc601ea9c5060d7747767fed2557164046e83be1d2171a5c8ed85b5727eba5043b02368b5f6a45e1d4c26bb753246de741fe6d4077ff7241ef0ad62a61eb45a"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake-xsimd \
 pkgconfig-xsimd \

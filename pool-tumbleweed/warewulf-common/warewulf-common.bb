@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause-LBNL"
 
 PV = "3.8.1"
 
-RPM_NAME = "warewulf-common-3.8.1-7.8.noarch.rpm"
-RPM_HASH = "78977cd3face512c091022ab68636439854d51988dffc8c7601dda2fa81441d8ac421856363a72b49ee3602b484a482621c0eb59e750b1634f51cdca0ff56919"
+RPM_NAME = "warewulf-common-3.8.1-14.10.noarch.rpm"
+RPM_HASH = "c1103558bb063a9def70c80bbe12be540a2b10419435caff8e91ee42d4eb7f23f53e5b21079f365aa1738a1ac65bd5b7e43c575f7cd0415c0249ca692ff5d01f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warewulf-common"
@@ -21,6 +21,7 @@ RPROVIDES:${PN} += "warewulf-common"
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/sh \
+group-warewulf \
 mysql \
 perl-warewulf-common \
 shadow \

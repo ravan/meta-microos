@@ -9,10 +9,10 @@ specified in RFC 3711. More information about the SRTP protocol \
 itself can be found on the Secure RTP page."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.5.0"
+PV = "2.8.0"
 
-RPM_NAME = "libsrtp2-1-2.5.0-2.1.aarch64.rpm"
-RPM_HASH = "d703f45726a2f29678f81d258c26d35bc121849e2561d510417931735c3c3fe2ae9ac8302e5ae3bdb640195fc9012ca9d3ce6c7a0cf9513faa60ec86df616174"
+RPM_NAME = "libsrtp2-1-2.8.0-1.3.aarch64.rpm"
+RPM_HASH = "2dfa7cb4cb5d69ef0f88e463cba1b27fd52bb2a00e055f3fa2dabfd5d8f72a1e7cd089435f08b7133a32fea0ef4afdf50629dea10132fce603296444018dacd1"
 
 RPROVIDES:${PN} += "libsrtp2-1 \
 libsrtp2.so.1"

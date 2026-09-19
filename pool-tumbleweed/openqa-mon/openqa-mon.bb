@@ -2,10 +2,10 @@ SUMMARY = "CLI monitoring utility for openQA"
 DESCRIPTION = "openqa-mon is a CLI monitoring client for openqa written in plain go."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.1.0"
+PV = "1.6.0"
 
-RPM_NAME = "openqa-mon-1.1.0-1.1.aarch64.rpm"
-RPM_HASH = "ba68e1ee69406b94d751a82c909b9ad2a8e26805738f5c2f4e4795c61689b4240db3c3ba4a1ce14e3597f1a04787c58abcffeed3cea270085981b79b31d0c641"
+RPM_NAME = "openqa-mon-1.6.0-1.1.aarch64.rpm"
+RPM_HASH = "6f46fc7ad8b169a5c2bba3e0822a028221050ea857e429730e75eedd435b766e0d4586548c4a602a84f54091a4e9c479d97d0b87d2d1f8aa1e2e12115efbe6c3"
 
 RPROVIDES:${PN} += "openqa-mon"
 

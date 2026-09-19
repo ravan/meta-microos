@@ -6,8 +6,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-bdb-gs2-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "a2fbcf8ba5ff76d5681e7668dd1cf1fa6b06bef9046a411776a371fffac8cda678695692fede2f25dc2ab663f0dcab29449ed2fb9cab05f57445872bae7fbce4"
+RPM_NAME = "cyrus-sasl-bdb-gs2-2.1.28-12.4.aarch64.rpm"
+RPM_HASH = "1eef58e53787477cfd6bb505c909a55b35fd372bb8932f43a3ad9a375294f37382ec6b6fdaa8d16a8599cc33fe08c0bcb1c4e5bbc93899237c7731a814d93028"
 
 RPROVIDES:${PN} += "cyrus-sasl-bdb-gs2 \
 libgs2.so.3"

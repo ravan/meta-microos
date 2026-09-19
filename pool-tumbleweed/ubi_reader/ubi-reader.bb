@@ -15,18 +15,20 @@ The following tools are included: \
    Determine settings for recreating UBI image."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.8.5"
+PV = "0.8.16"
 
-RPM_NAME = "ubi_reader-0.8.5-1.3.noarch.rpm"
-RPM_HASH = "d05e8ab952759cb8ed29294ea4129c3a0cf23d82f084d306ccb5c1e143d32f7c5a6d896bc0dd0e9c2af9510596319fb31acfff81ef65d3260e54cfadd3fd48d0"
+RPM_NAME = "ubi_reader-0.8.16-1.1.noarch.rpm"
+RPM_HASH = "62ef14327a5d025b63961da4afea799b88fe885bcce66b89b67a319f27a833cfb596f4e200c4c37db68c3d6fa7275560a207097a583425b3cb46bc376613ef0e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ubi-reader \
+RPROVIDES:${PN} += "python3.13dist-ubi-reader \
 python3dist-ubi-reader \
 ubi-reader"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
-python3-python-lzo"
+python313-cryptography \
+python313-lzallright \
+python313-zstandard"
 
 inherit rpm

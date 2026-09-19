@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-bulgarian"
 DESCRIPTION = "This package includes the documentation for texlive-babel-bulgarian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2gsvn31902"
+PV = "2026.226.1.2gsvn31902"
 
-RPM_NAME = "texlive-babel-bulgarian-doc-2023.209.1.2gsvn31902-54.1.noarch.rpm"
-RPM_HASH = "41b3ff7f6b9507135d890d8d706d021acf4f32b9fbaed99281430d66981eae46b8be80874da0ab0b66d8dcae4e9f5a11f1e5b49888e0d88cc5b7924c0bc2f41b"
+RPM_NAME = "texlive-babel-bulgarian-doc-2026.226.1.2gsvn31902-60.2.noarch.rpm"
+RPM_HASH = "43f1b4b37f342b19de7863700d89b2f5690f6fb840dd0e409c53b29c6655c41de182585bfa4536902ba3cd35fae5bdf5fcde3eeaec2665b3e3dddaa8196f4794"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-bulgarian-doc"

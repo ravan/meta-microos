@@ -4,28 +4,25 @@ It is an attempt to replace the in-kernel VT implementation with a userspace \
 console."
 LICENSE = "MIT"
 
-PV = "9.0.0"
+PV = "10.0.3"
 
-RPM_NAME = "kmscon-9.0.0-1.4.aarch64.rpm"
-RPM_HASH = "a910c3ce37a422ad13beca8fa37f7f31495dea8904c56ec6eb0e8089589fc34673a5e9079cf06790b71b616f01faa0a725048a4ba050cdd0e4124f6d61199ee2"
+RPM_NAME = "kmscon-10.0.3-1.1.aarch64.rpm"
+RPM_HASH = "c85b8be98c187c27e66aeebe63728cc1ffe54815712a938afccd83e840994ba567edf0f39ec6cf8583858a5c1769f9d4b59a054af95242a41b92a9e8b15b9bdb"
 
 RPROVIDES:${PN} += "kmscon \
 kmscon-service"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libEGL.so.1 \
-libGLESv2.so.2 \
 libc.so.6 \
+libdbus-1.so.3 \
 libdrm.so.2 \
-libgbm.so.1 \
-libgobject-2.0.so.0 \
-libpango-1.0.so.0 \
-libpangoft2-1.0.so.0 \
-libpixman-1.so.0 \
-libsystemd.so.0 \
+libfontconfig.so.1 \
+libfreetype.so.6 \
+libseat.so.1 \
 libtsm.so.4 \
 libudev.so.1 \
-libxkbcommon.so.0"
+libxkbcommon.so.0 \
+libz.so.1"
 
 inherit rpm

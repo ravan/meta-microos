@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the openSUSE look and feel for the Budgie \
 desktop environment."
 LICENSE = "CC-BY-SA-3.0 & GPL-2.0-only"
 
-PV = "20220829.3"
+PV = "20250305.1"
 
-RPM_NAME = "budgie-desktop-branding-openSUSE-20220829.3-1.2.noarch.rpm"
-RPM_HASH = "444b00702d4fbe877020c70eefb9aee125f88f1fe67eb86c92d361136ce39a0cae242fe39d862224e7e88de126e234f3e7e49bb77b6b7e96baab5b5bf3073626"
+RPM_NAME = "budgie-desktop-branding-openSUSE-20250305.1-2.4.noarch.rpm"
+RPM_HASH = "ec83f8c267191c24473cb21ac6ec6d07bc70e49f8a8acc19d0a6129ae38112a65901a85586db7b4c83eb4c6cabe35ba27b3a2ea09c8e1371b6b36ce6267d1060"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-desktop-branding \

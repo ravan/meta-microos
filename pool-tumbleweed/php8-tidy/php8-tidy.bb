@@ -5,10 +5,10 @@ documents -- including ones with embedded scripting languages such as \
 PHP or ASP within them using OO constructs."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-tidy-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "bfc9afa1612aa466826c725717020737feb2dc9a989cb9d496c2d406bb6ebdf1c15e734366bd1379711fa81e2f5c076232740fbbeb884e2e80bfebb31a5b5326"
+RPM_NAME = "php8-tidy-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "8299bb67fb402157656f1f6e89ad7356f5cfb9040af20723eece39c0abe7e02a08c44604d7d43dbf0106ea322f41d60c486a9a0a976cf21aed6b63f644e3da5f"
 
 RPROVIDES:${PN} += "config-php8-tidy \
 php-tidy \

@@ -29,8 +29,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.0"
 
-RPM_NAME = "thessalonica-theano-ttf-fonts-2.0-11.18.noarch.rpm"
-RPM_HASH = "025b16c2955a934f3c6392dde7c297a363fd36e70ff2057e93d6c690915ab40c445c9db0d47d9a27ecf5c29b738b0ef46dd94f789963c7b0ac2af2a30e62c54e"
+RPM_NAME = "thessalonica-theano-ttf-fonts-2.0-11.26.noarch.rpm"
+RPM_HASH = "df33d6ce84e71f55681cbd6a0986016ad556ab9dabecc209dd0accc55e13011ee36c9ca2ac653b57c747ae9b5734b26db1bf0b992928ed980312046a66fbc355"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "theano-fonts-ttf \

@@ -5,10 +5,10 @@ without loading the body of the file. The myfilist package uses \
 readprov and controls what \\listfiles will report."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.81asvn28421"
+PV = "2026.226.0.0.81asvn28421"
 
-RPM_NAME = "texlive-fileinfo-2023.209.0.0.81asvn28421-53.1.noarch.rpm"
-RPM_HASH = "393c5eaa3515437169ff597df9ad1ab643687b2e5c2b94e3265c5d1a6c53853a2d80f2ae16e4e2f651250698b14b43e4493b0bbe6d0761d2c4b0ab1575237a92"
+RPM_NAME = "texlive-fileinfo-2026.226.0.0.81asvn28421-59.2.noarch.rpm"
+RPM_HASH = "fbcc338714f2b383ba33e53e7dcbdfc9889c62f9b9f693011f2435cd037c539820a61597f3e732ab5108761c51406743b184912beb65f1c154a2a015379b87d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-myfilist.sty \

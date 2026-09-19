@@ -4,10 +4,10 @@ KOMA-Script document classes (scrartcl, scrreprt, scrbook) and \
 all the packages needed for a thesis in natural sciences."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn45076"
+PV = "2026.226.1.2svn45076"
 
-RPM_NAME = "texlive-latex-refsheet-2023.209.1.2svn45076-56.1.noarch.rpm"
-RPM_HASH = "f65d51384c508bbeedcf0abfdae6a3ef7c042c52d4efebbe3850007eca9b088598f17601e907a0f27d516ad0fec89287b7ad86338d7d5f43d1302be91f3ebdfd"
+RPM_NAME = "texlive-latex-refsheet-2026.226.1.2svn45076-63.2.noarch.rpm"
+RPM_HASH = "8dd57ee6d8bf61b3f53201861ed138952a527171ad2afa625017915a9a64093269c90b1c7e3147c5b1b03aab958b55d345135665066305fbac0e2c318c21db51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-refsheet"

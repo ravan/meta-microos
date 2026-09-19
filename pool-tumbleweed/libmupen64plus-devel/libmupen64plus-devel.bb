@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files to develop fron
 the Mupen64plus shared library interface."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.9"
+PV = "2.6.0"
 
-RPM_NAME = "libmupen64plus-devel-2.5.9-2.9.aarch64.rpm"
-RPM_HASH = "3b807ec5ff5c5dfe14124b2f0ae0af1cc1d5d77cc397397370d22c97807c21be079999b024953e53703484e876f0ad0cf98cb81e49112278dc13f93e189d7502"
+RPM_NAME = "libmupen64plus-devel-2.6.0-3.6.aarch64.rpm"
+RPM_HASH = "0faef69af7b745381abbd7c3825437f25fcda732a17472bc2de8a5091ea693badbd2d52a6a5d5629f4436416bd1efd951edd1ef18a368451a2e8519db20ad698"
 
 RPROVIDES:${PN} += "libmupen64plus-devel"
 

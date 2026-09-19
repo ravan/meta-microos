@@ -6,10 +6,10 @@ faithful to the Revised5 Scheme Report, providing neither more nor less in \
 the initial user environment."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.9.2"
+PV = "1.9.3"
 
-RPM_NAME = "scheme48-1.9.2-2.20.aarch64.rpm"
-RPM_HASH = "e2dbc848f20c45efc91f6e80c58345946a909c79862f7d8b70bf4352687a093a75dc4149b4294b84a5d51bc35e3b1933d96b095054cd4c64ea215f7132e70fb4"
+RPM_NAME = "scheme48-1.9.3-1.14.aarch64.rpm"
+RPM_HASH = "2705812bec458f776678096cc24d5f2f97b174b8d998b11ab97a0aababe1af03e1539338940cf9f7f2c5c71ed999216dd2a73cf85dba4bc790f8ab811c584d37"
 
 RPROVIDES:${PN} += "scheme48"
 

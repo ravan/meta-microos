@@ -9,30 +9,27 @@ I/O performance information, such as completion and submission latencies \
 (avg/mean/deviation), bandwidth stats, cpu and disk utilization, and more."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.35"
+PV = "3.42"
 
-RPM_NAME = "fio-3.35-1.1.aarch64.rpm"
-RPM_HASH = "efcb8f8a18c64af8557e53adb19bc732583bf3e5be46157f5f32b6347d98306599af4befb83e9a697b99868ec25b24108015f3b581e81583bc781f589a744bd1"
+RPM_NAME = "fio-3.42-1.3.aarch64.rpm"
+RPM_HASH = "0c9a45e4ecb91bacdf3b2c494f6da60516b5abf4e4b30b5c78b8588e1113725cf115d910f608eec9195c6caa49b8c33ea11e2b906803ce8739343a40e35eac88"
 
 RPROVIDES:${PN} += "fio"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libcurl.so.4 \
-libgfapi.so.0 \
-libibverbs.so.1 \
-libiscsi.so.9 \
+libiscsi.so.11 \
 libm.so.6 \
 libnbd.so.0 \
 libnuma.so.1 \
 librados.so.2 \
 librbd.so.1 \
-librdmacm.so.1 \
 libz.so.1"
 
 inherit rpm

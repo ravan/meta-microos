@@ -2,55 +2,56 @@ SUMMARY = "Haskell aws library development files"
 DESCRIPTION = "This package provides the Haskell aws library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.23"
+PV = "0.25.3"
 
-RPM_NAME = "ghc-aws-devel-0.23-1.12.aarch64.rpm"
-RPM_HASH = "4698c47816e436a874ec6aa3830d7ee876c066246677e3ec0cab3f9bdaa4423a6ff081564665f9db8b1cc7d04f52bd74b286aca786798cfababfa73bb36ca4c8"
+RPM_NAME = "ghc-aws-devel-0.25.3-1.3.aarch64.rpm"
+RPM_HASH = "12600c37e6c4870968bdadca5b9dd4bbbbea8f45d228a62bb2091edb6abe0ac3b2fdc55cea3a03fb5def0a784518d8ce5e268dc3320f55fa9756b5a4f13fcd32"
 
 RPROVIDES:${PN} += "ghc-aws-devel \
-ghc-devel-aws-0.23-HdeBcdbfKgr4m08UK8ha5W"
+ghc-devel-aws-0.25.3-KrczEqZYHex3TEa2HpZSbn"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-aws \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-base16-bytestring-1.0.2.0-LI31ya5OMpR4awBMr256aJ \
-ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-devel-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
-ghc-devel-byteable-0.1.1-D4ZAyAuZ5dZDp71hQtTs5r \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
-ghc-devel-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
-ghc-devel-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
-ghc-devel-conduit-extra-1.3.6-370xQw6Laeb4Jkz5zTLBuf \
-ghc-devel-containers-0.6.7 \
-ghc-devel-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \
-ghc-devel-data-default-0.7.1.1-4TeAZDN81Uu1IorgFaPMOc \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-exceptions-0.10.5 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-http-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1 \
-ghc-devel-http-conduit-2.3.8.2-Aom8RblFK6RqEIyPgp71L \
-ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-devel-lifted-base-0.2.3.12-8AMs8PuCeaLKJwoieZv4GI \
-ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
-ghc-devel-monad-control-1.0.3.1-CVPvK8bh5F0Gvv9Wu0W98B \
-ghc-devel-mtl-2.2.2 \
-ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-devel-network-bsd-2.8.1.0-6HwBWPM2Dri1VSrR1y6aDh \
-ghc-devel-old-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk \
-ghc-devel-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-devel-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
-ghc-devel-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
-ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
-ghc-devel-text-2.0.2 \
-ghc-devel-time-1.12.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-devel-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
-ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
-ghc-devel-xml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq"
+ghc-devel-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-devel-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7 \
+ghc-devel-attoparsec-aeson-2.2.2.0-3eQT8OmEdZa5yR7rBroXfj \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-base16-bytestring-1.0.2.0-IiVu4f3aSfMH2rpDgRP1QL \
+ghc-devel-base64-bytestring-1.2.1.0-9fPiMCS8Y4g8itFjJTGk2y \
+ghc-devel-blaze-builder-0.4.4.1-DHhu3j9nndC9LUZIrPJCEG \
+ghc-devel-byteable-0.1.1-9wX3TD5RsfdJZP8DobkPHo \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-case-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC \
+ghc-devel-cereal-0.5.8.3-9RjPyVhfWFC69r1oCUPmww \
+ghc-devel-conduit-1.3.6.1-DuJaiNNDon54jV6QjcNayt \
+ghc-devel-conduit-extra-1.3.8-7wpnn7nJp1SI8VsobZmenc \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-crypton-1.1.4-CRp9zIWu5CJCaPWpwBhIPB \
+ghc-devel-data-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-exceptions-0.10.12-f655 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-http-client-tls-0.4.0-D4cx6zdDU3O6iLaLdAAVnV \
+ghc-devel-http-conduit-2.3.9.1-9k5MS2FS3s84zcOD2n4tN7 \
+ghc-devel-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-devel-lifted-base-0.2.3.12-BonMj4p70Ef8zpL3zVJvsV \
+ghc-devel-monad-control-1.0.3.1-EAQeykrh4iCEl5x3Heycqt \
+ghc-devel-mtl-2.3.2-37ef \
+ghc-devel-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-devel-network-bsd-2.8.1.0-Eim1HbjRi8aBvcsvglmxNx \
+ghc-devel-old-locale-1.0.0.7-DplRrAcnBM96ijBftoXSc5 \
+ghc-devel-ram-0.22.0-4Io46KcWliV5ncwh4lemlr \
+ghc-devel-resourcet-1.3.0-F8ZRgExkptBLIQxE9m0AZE \
+ghc-devel-safe-0.3.21-AzRUUYeJ47sQc55olWnva \
+ghc-devel-scientific-0.3.8.1-EfN6leGWc5k1t5YPK2dkVk \
+ghc-devel-tagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7 \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-time-1.14-a7dc \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-devel-utf8-string-1.0.2-FCJm07Id8m53KWoTjjdHEG \
+ghc-devel-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
+ghc-devel-xml-conduit-1.10.1.0-Jdtas0kp0k3Ah1vCZSqZl4"
 
 inherit rpm

@@ -7,15 +7,15 @@ library provides methods similar enough to that distribution's 'fcopy()', \
 distributions often described as being part of the Perl toolchain."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.006"
+PV = "0.8.0"
 
-RPM_NAME = "perl-File-Copy-Recursive-Reduced-0.006-1.17.noarch.rpm"
-RPM_HASH = "230986390597bad8da54e6c04f63972657e4031c09874137ea190b63b45669c13e21274ec795b0117c80b2056bc400a6cd4be267beb3934fc4b544b374b2a940"
+RPM_NAME = "perl-File-Copy-Recursive-Reduced-0.8.0-1.12.noarch.rpm"
+RPM_HASH = "9add6369a00f846a0952479fe4da84cb1972237a9406d43699bf23ae6ae52f62060fb93c088691a8bbc2f3fe9c0967b5ce3f24c3b8e17a51489e84f522b91bac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Copy--Recursive--Reduced \
 perl-File-Copy-Recursive-Reduced"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

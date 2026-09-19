@@ -5,10 +5,10 @@ extended by writing scripts to be placed in the context menu for \
 various file types."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.6"
+PV = "4.20.10"
 
-RPM_NAME = "thunar-4.18.6-1.1.aarch64.rpm"
-RPM_HASH = "4905eff97739d9c8ef40f3a64351706af5693735a808baa1ec78264f02011af3218fa2a995fdf999fe642e43fb50f8ccdabc2ebf1ff476b0b01c74cabfbce927"
+RPM_NAME = "thunar-4.20.10-1.1.aarch64.rpm"
+RPM_HASH = "d90d0a1bb29a4bde7ec70e3177baaf2154cbbf9eb211e93a9ade03003f02e456982db3395bdeef14078db071ce3fbb4c92a5fcb96f39315cc5776e8f16c5b306"
 
 RPROVIDES:${PN} += "config-thunar \
 libthunar-tpa.so \

@@ -6,13 +6,13 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-cloud-3006.0-4.1.aarch64.rpm"
-RPM_HASH = "824a4e3534d387de6931b904f8876ac20b2d03c8b8275b8a17833803925bc01f050d8141dffde8c37f9e7b56ed82e3a970867507854ddbae45ee7b4c7327832c"
+RPM_NAME = "salt-cloud-3006.0-70.1.aarch64.rpm"
+RPM_HASH = "3fed0bba831adff919055fa873b849fced04f2e82203dbe49ca00df35c5ab4783f4190ad282a452c1bee026c0387afa6afad0522c3e60ae987041e5da198c9f1"
 
 RPROVIDES:${PN} += "config-salt-cloud \
 salt-cloud"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "group-salt \
 python3-apache-libcloud \
 salt \
 salt-master"

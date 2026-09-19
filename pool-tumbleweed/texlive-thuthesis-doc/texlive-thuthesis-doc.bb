@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-thuthesis"
 DESCRIPTION = "This package includes the documentation for texlive-thuthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.7.3.1svn64628"
+PV = "2026.227.7.6.0svn74775"
 
-RPM_NAME = "texlive-thuthesis-doc-2023.209.7.3.1svn64628-55.1.noarch.rpm"
-RPM_HASH = "0e73b4f582d772f763026fe97c9a3b8be3ce56c275e2b1cc7d54025a6cc337dbcbf1cfbd7e55853736589266f8dd799a8bdb9309c4ba6007f75206a37a591535"
+RPM_NAME = "texlive-thuthesis-doc-2026.227.7.6.0svn74775-62.2.noarch.rpm"
+RPM_HASH = "9301619310f62a964af1ee3073eeb823c1559bbdcf2e1d1b4cdedafa76e3ef6e063a7458e90f3ca0a2fa9ce249d79aa611b6c2e4bd97ea0183037143c9f9d5c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-thuthesis-doc-zh \

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.99.5"
 
-RPM_NAME = "tachyon-devel-0.99.5-1.4.aarch64.rpm"
-RPM_HASH = "38d7f7180342b03b3d62a87e72e8d5f594efed54e003e26718c48dcd9a007aac0aa453440c2e7e2a8bbb9b192412c5a567e4f62e10045001e71c92f82c1708f0"
+RPM_NAME = "tachyon-devel-0.99.5-1.16.aarch64.rpm"
+RPM_HASH = "95ab5924d9a949bf4dc07b9df058f6c7d3faa32400e16171f859c151fab352bb894face6745f49f16fba85e88e5acb9425a586ddf647399e478ad58de1cbd71b"
 
 RPROVIDES:${PN} += "libtachyon-devel \
 tachyon-devel"

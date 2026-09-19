@@ -12,10 +12,10 @@ number of examples of use, showing where things are improved by \
 comparison with the LaTeX picture environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4bsvn56504"
+PV = "2026.226.0.0.4bsvn77682"
 
-RPM_NAME = "texlive-pict2e-2023.209.0.0.4bsvn56504-52.1.noarch.rpm"
-RPM_HASH = "e738bd53709b3c0d8c7fd69ba8cfcdbf81ab8f4a8efc58bd565e3d4901586ffe387dd19c200a9903b7f8cc3f413a2159f8fd803860c7f1c5203381e1e135254c"
+RPM_NAME = "texlive-pict2e-2026.226.0.0.4bsvn77682-58.2.noarch.rpm"
+RPM_HASH = "203b59c0b6d57a458e02854f5d43ea2baf565b6851ae8f90e6961947bd48d91fb7d6349a9916e023c8564b0deb3f5c4e9e4b568b64eb2782c643d9c778177491"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-p2e-dvipdfm.def \

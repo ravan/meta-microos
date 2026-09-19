@@ -2,21 +2,21 @@ SUMMARY = "Development files for the Ogre Engine"
 DESCRIPTION = "OGRE (Object-Oriented Graphics Rendering Engine) is a scene-oriented 3D engine."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "ogre-devel-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "9c8df8051dc7c19ce0f1716b8fda30cfecb6b668f74ba1b48601b613709174371e134e0d32cd5f7dc746bf16e4affc98532566a7a1131515226b8f56f753a337"
+RPM_NAME = "ogre-devel-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "05ed28bc5a254e9664b85b68afc096623e968f891e3efdd0472b142e96f793e2ebad4f9a06cf1a584ff877fa7ec8f250dc2d279736c54822b69972a1e4db23f7"
 
 RPROVIDES:${PN} += "ogre-devel"
 
-RDEPENDS:${PN} += "pkgconfig-OGRE \
-pkgconfig-OGRE-Bites \
-pkgconfig-OGRE-MeshLodGenerator \
-pkgconfig-OGRE-Overlay \
-pkgconfig-OGRE-Paging \
-pkgconfig-OGRE-Property \
-pkgconfig-OGRE-RTShaderSystem \
-pkgconfig-OGRE-Terrain \
-pkgconfig-OGRE-Volume"
+RDEPENDS:${PN} += "libOgreBites-devel \
+libOgreMain-devel \
+libOgreMeshLodGenerator-devel \
+libOgreOverlay-devel \
+libOgrePaging-devel \
+libOgreProperty-devel \
+libOgreRTShaderSystem-devel \
+libOgreTerrain-devel \
+libOgreVolume-devel"
 
 inherit rpm

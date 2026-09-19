@@ -5,12 +5,12 @@ compilers, and translators from grammatical descriptions containing C++ \
 or Java actions (you can use PCCTS 1.xx to generate C-based parsers). \
  \
 This package provides the Java runtime for antlr"
-LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain & MIT"
+LICENSE = "GPL-2.0-or-later & LicenseRef-SUSE-Public-Domain & MIT"
 
 PV = "2.7.7"
 
-RPM_NAME = "antlr-java-2.7.7-122.2.noarch.rpm"
-RPM_HASH = "ba1dd77814ccf4d465dd6b4d53bab5b55f3998feb15a179500bb68a0bdabcf189f9229bf569f678917efb8b5fc40960e2a7d685e6264c9350f84f7bbfe6cc52e"
+RPM_NAME = "antlr-java-2.7.7-126.4.noarch.rpm"
+RPM_HASH = "9f8e500df8240545dd8610794bd17ad2237b250b4047df6d72a0ecc11700199db0403a1f5ca3623249ce3fb47e5f9f7385669d74a75e2392bba4ebcadc1dcb25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr-java \

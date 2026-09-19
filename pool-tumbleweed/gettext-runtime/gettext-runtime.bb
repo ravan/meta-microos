@@ -7,23 +7,28 @@ adding translations. A special compiler turns these PO files into \
 binary catalogs."
 LICENSE = "GPL-3.0-or-later & LGPL-2.0-or-later"
 
-PV = "0.21.1"
+PV = "1.0"
 
-RPM_NAME = "gettext-runtime-0.21.1-2.2.aarch64.rpm"
-RPM_HASH = "3c322da68d471dd8135e29205bd7332458827d9984dc1c8a62575aab1a80356c4e64f58f8222e854cb608ee53ef7516a1f3d3a864d75e898e2428c2d8d8b7ac7"
+RPM_NAME = "gettext-runtime-1.0-2.4.aarch64.rpm"
+RPM_HASH = "cb4c3f99007c9e4ec51d805fe79208497b5c4e47e8c17992f83c6abcd8b96a3092f42098f295f5a0ebbcb2594a416717adad3d3b2d742db95436d89b55c10bdb"
 
 RPROVIDES:${PN} += "gettext \
 gettext-runtime \
 libasprintf.so.0 \
-libgettextlib-0.21.1.so \
-libgettextsrc-0.21.1.so"
+libgettextlib-1.0.so \
+libgettextsrc-1.0.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/sh \
+envsubst \
 ld-linux-aarch64.so.1 \
+libacl.so.1 \
+libattr.so.1 \
 libc.so.6 \
+libm.so.6 \
+libselinux.so.1 \
 libstdc++.so.6 \
 libtextstyle.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

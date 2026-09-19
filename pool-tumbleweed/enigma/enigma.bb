@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.30"
 
-RPM_NAME = "enigma-1.30-1.11.aarch64.rpm"
-RPM_HASH = "2e0e936c31873b7c5938715ca4907dc5d013d20ad9a7ad7f98a10ee1550d8bab250f9a8c5c1bf0e93a9e12327f2e198fb1f21c3d391fa4ffb0a6bd37d548c5eb"
+RPM_NAME = "enigma-1.30-3.1.aarch64.rpm"
+RPM_HASH = "3f0fa135309e76dd631bc6deda0217ffcf3ec73ad27dc7c98825f4a346c976affd1e7b3ac7b268f757ed790d53c14b7bcbcf6e47a7a7e4b36bc31643f99cbd04"
 
 RPROVIDES:${PN} += "enigma"
 
@@ -20,7 +20,7 @@ libenet.so.7 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libxerces-c-3.2.so \
+libxerces-c-3.3.so \
 libz.so.1"
 
 inherit rpm

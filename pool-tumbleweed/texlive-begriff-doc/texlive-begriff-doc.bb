@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-begriff"
 DESCRIPTION = "This package includes the documentation for texlive-begriff"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.6svn15878"
+PV = "2026.226.1.6svn15878"
 
-RPM_NAME = "texlive-begriff-doc-2023.209.1.6svn15878-54.1.noarch.rpm"
-RPM_HASH = "70188ebcdfeacc02284a43df276c93fa24e2fdfbe42ac3da9e54c50a07ee9a9cad3e11c931a643207b7881054d53a75f6b6cab61673fe2cdb1a2ab96ce825dc4"
+RPM_NAME = "texlive-begriff-doc-2026.226.1.6svn15878-61.2.noarch.rpm"
+RPM_HASH = "b5575f8106c6f015e2416f17d843e25ea1148faad84f6b6d01bf77c6258f0c93c93a80c55d031b2f0e54b47790fc739f061028c0abfcd2eb7a3b4265bcbbab47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-begriff-doc"

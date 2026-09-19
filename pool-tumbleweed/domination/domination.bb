@@ -9,10 +9,10 @@ network play, single player, hotseat, 5 user interfaces and many more features, 
 it works in all OSs that run java."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.2.7"
+PV = "1.3.5"
 
-RPM_NAME = "domination-1.2.7-1.1.noarch.rpm"
-RPM_HASH = "69822c94c676cd7a38899684923098fc77b06dacbe3d7234ebc883e642bd599939f0d793b0e74c1b9ddf11bc4d458589c08b450423e74ff44d25255e85fcbe41"
+RPM_NAME = "domination-1.3.5-1.1.noarch.rpm"
+RPM_HASH = "09a360d866ed81099ebada4bb46a194869bf826784709d700bf69d3e30db85eb47eef8b1f35aba6afd973a595c9ec4d1f74eb73af34db183189ec5a589378c1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "domination"

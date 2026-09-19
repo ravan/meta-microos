@@ -7,10 +7,10 @@ other packages are discussed; revision control systems are \
 mentioned briefly."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.22svn26760"
+PV = "2026.226.0.0.22svn26760"
 
-RPM_NAME = "texlive-latexfileinfo-pkgs-2023.209.0.0.22svn26760-55.1.noarch.rpm"
-RPM_HASH = "595dd8aba529cbfc7a0295b2a598fd3d519175f73f455a0967b912b5078ea46c7267954901ad42c1b04529d85f2f97ade3213081c2de5731854729b4e557e721"
+RPM_NAME = "texlive-latexfileinfo-pkgs-2026.226.0.0.22svn26760-61.2.noarch.rpm"
+RPM_HASH = "e78fe42fd152798f46b3d4f305d8b34e87cc34f177605cee035e675e0eb728d8732be06a093e0ed99029d6a5fec0f797255da6fe92f2ad469dd00d4d6109b660"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexfileinfo-pkgs"

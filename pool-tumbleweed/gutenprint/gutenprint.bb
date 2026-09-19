@@ -3,15 +3,14 @@ DESCRIPTION = "The Gutenprint (formerly Gimp-Print) printer drivers for CUPS. \
 See the user's manual at /usr/share/gutenprint/doc/gutenprint-users-manual.pdf"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.3.4"
+PV = "5.3.5"
 
-RPM_NAME = "gutenprint-5.3.4-1.2.aarch64.rpm"
-RPM_HASH = "984876b1a42d5c059d051165a7cfb2dcb5b27fd1994df91e109f33fdb11d16f44fdb1124f12f77259c553eecee23789a9aa9b495b8a71e1ff75f3548c0a461c5"
+RPM_NAME = "gutenprint-5.3.5-1.5.aarch64.rpm"
+RPM_HASH = "020a812d08ca2521223ffbca1db2a427446d977f0b162b6a28faf750287c839f8dcaff1ff72108b2232774b0e07af1b8257237aeb5059f609293e916dda5e6c3"
 
 RPROVIDES:${PN} += "config-gutenprint \
 gutenprint \
 libgutenprint.so.9 \
-libgutenprintui2.so.2 \
 postscriptdriver-brother;brother-hl-1450-series; \
 postscriptdriver-brother;brother-hl-1470n-series; \
 postscriptdriver-brother;brother-hl-2460-series; \
@@ -90,8 +89,10 @@ postscriptdriver-canon;s100sp; \
 postscriptdriver-canon;s600; \
 postscriptdriver-canon;selphy-cp1200; \
 postscriptdriver-canon;selphy-cp1300; \
+postscriptdriver-canon;selphy-cp1500; \
 postscriptdriver-ciaat;brava21; \
 postscriptdriver-citizen-systems;cx-02; \
+postscriptdriver-citizen-systems;cx-02w; \
 postscriptdriver-citizen-systems;cx; \
 postscriptdriver-dai-nippon-printing;dp-ds620; \
 postscriptdriver-dai-nippon-printing;dp-ds820; \
@@ -134,6 +135,8 @@ postscriptdriver-datamaxoneil-;p1120n; \
 postscriptdriver-datamaxoneil-;p1125; \
 postscriptdriver-datamaxoneil-;p1725; \
 postscriptdriver-datamaxoneil-;w1110; \
+postscriptdriver-dnp;dpds480; \
+postscriptdriver-dnp;dpds680; \
 postscriptdriver-eastman-kodak-company;1400-printer; \
 postscriptdriver-eastman-kodak-company;kodak-7000-photo-printer; \
 postscriptdriver-eastman-kodak-company;kodak-7010-photo-printer; \
@@ -150,6 +153,7 @@ postscriptdriver-epson;epl-6100-ps3; \
 postscriptdriver-epson;epl-n2500-ps3; \
 postscriptdriver-epson;epson-stylus-pro-3880; \
 postscriptdriver-epson;sc-p400-series; \
+postscriptdriver-epson;sc-p5000-series; \
 postscriptdriver-epson;sc-p600-series; \
 postscriptdriver-epson;stylus-c20; \
 postscriptdriver-epson;stylus-c40; \
@@ -260,7 +264,9 @@ postscriptdriver-epson;stylus-photo-rx700; \
 postscriptdriver-epson;stylus-pro-7900; \
 postscriptdriver-epson;stylus-pro-9900; \
 postscriptdriver-epson;xp-15000-series; \
+postscriptdriver-fujifilm;-ask-2500; \
 postscriptdriver-fujifilm;ask-printer; \
+postscriptdriver-fujifilm;dx100; \
 postscriptdriver-hewlett-packard;deskjet-1120c; \
 postscriptdriver-hewlett-packard;deskjet-1220c; \
 postscriptdriver-hewlett-packard;deskjet-3820; \
@@ -392,10 +398,18 @@ postscriptdriver-hewlett-packard;psc-2200-series; \
 postscriptdriver-hewlett-packard;psc-500; \
 postscriptdriver-hewlett-packard;psc-750; \
 postscriptdriver-hewlett-packard;psc-900-series; \
-postscriptdriver-hiti;hiti-p720l; \
+postscriptdriver-hiti;hiti-hiti-p720l; \
+postscriptdriver-hiti;hiti-p510k; \
+postscriptdriver-hiti;hiti-p510l; \
+postscriptdriver-hiti;hiti-p510s; \
+postscriptdriver-hiti;hiti-p510si; \
+postscriptdriver-hiti;hiti-p518a; \
+postscriptdriver-hiti;hiti-p518s; \
+postscriptdriver-hiti;hiti-p728l; \
 postscriptdriver-hiti;p520l; \
 postscriptdriver-hiti;p525l; \
 postscriptdriver-hiti;p750l; \
+postscriptdriver-hiti;prinhome-p461; \
 postscriptdriver-honeywell;rp2; \
 postscriptdriver-honeywell;rp4; \
 postscriptdriver-hp;deskjet-5550; \
@@ -409,6 +423,7 @@ postscriptdriver-hp;photosmart-7150; \
 postscriptdriver-hp;photosmart-7350; \
 postscriptdriver-hp;photosmart-7550; \
 postscriptdriver-ibm;infoprint; \
+postscriptdriver-joyspace;u826; \
 postscriptdriver-kodak-alaris-inc.;kodak-6900-photo-printer; \
 postscriptdriver-kodak;305-photo-printer; \
 postscriptdriver-kyocera-mita;km-1530; \
@@ -464,11 +479,14 @@ postscriptdriver-minolta;pagepro-8l; \
 postscriptdriver-mitsubishi;cp-m1; \
 postscriptdriver-mitsubishi;cp30d; \
 postscriptdriver-mitsubishi;cp60d70d707d; \
+postscriptdriver-mitsubishi;cp90sl; \
 postscriptdriver-mitsubishi;cp9550d; \
 postscriptdriver-mitsubishi;cp9550dz; \
 postscriptdriver-mitsubishi;cp9800dz; \
+postscriptdriver-mitsubishi;cp98dz; \
 postscriptdriver-mitsubishi;cpd80d; \
 postscriptdriver-mitsubishi;cpd90d; \
+postscriptdriver-mitsubishi;cpw5000d; \
 postscriptdriver-mitsubishi;p93d; \
 postscriptdriver-mitsubishi;p95d; \
 postscriptdriver-nec;superscript-1800; \
@@ -488,7 +506,10 @@ postscriptdriver-shinko;chc-s2145; \
 postscriptdriver-sinfonia;chc-s2245; \
 postscriptdriver-sinfonia;chc-s6145; \
 postscriptdriver-sony;all-in-one-ijp-v100; \
+postscriptdriver-sony;up-991ad-971ad; \
 postscriptdriver-sony;up-cr10l; \
+postscriptdriver-sony;up-cx1; \
+postscriptdriver-sony;up-d711md; \
 postscriptdriver-sony;up-d895; \
 postscriptdriver-sony;up-d897; \
 postscriptdriver-sony;up-d898md-x898md; \
@@ -507,10 +528,6 @@ ghostscript \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcups.so.2 \
-libgdk-x11-2.0.so.0 \
-libglib-2.0.so.0 \
-libgobject-2.0.so.0 \
-libgtk-x11-2.0.so.0 \
 libm.so.6 \
 libusb-1.0.so.0 \
 libz.so.1"

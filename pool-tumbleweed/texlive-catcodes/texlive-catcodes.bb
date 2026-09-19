@@ -8,10 +8,10 @@ catchdq.sty, which provides a simple quotation character \
 control mechanism."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.r0.2svn38859"
+PV = "2026.226.r0.2svn38859"
 
-RPM_NAME = "texlive-catcodes-2023.209.r0.2svn38859-53.1.noarch.rpm"
-RPM_HASH = "c4393e8586f2153acfbc977461892d19eda4bf8dca346334743a6a4117983a63cdc5fda44148aab93ff158927b3efa62598d8c8df8ddd72617819bf66cca8698"
+RPM_NAME = "texlive-catcodes-2026.226.r0.2svn38859-59.2.noarch.rpm"
+RPM_HASH = "5a7e38142d82a98e67a64a645a4a2d9e742e88d79a703bcd48d77757e1ef645cd020336fcc9bb2740a8f9e978d3cc3b9115620f8156cdfce2c0c82f467a9426a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-actcodes.sty \

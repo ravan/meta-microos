@@ -1,15 +1,12 @@
-SUMMARY = "Development files for the Compatibility OCaml Result module"
-DESCRIPTION = "Projects that want to use the new result type defined in OCaml >= 4.03 while \
-staying compatible with older version of OCaml should use the Result module \
-defined in this library. \
- \
-This package contains development files for ocaml-result."
+SUMMARY = "Development files for ocaml-result"
+DESCRIPTION = "The ocaml-result-devel package contains libraries and signature files for \
+developing applications that use ocaml-result."
 LICENSE = "BSD-3-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "ocaml-result-devel-1.5-3.7.aarch64.rpm"
-RPM_HASH = "7ac778e426da824c58d9c4b30ea35621fa0bcbb78b6847cba8e25e6b1978abec97d1dc8d1864b35523f0726ba4b47f44af1124ab51ce01f72aca167d1a6ffca3"
+RPM_NAME = "ocaml-result-devel-1.5-4.1.aarch64.rpm"
+RPM_HASH = "12a3cd8851c18583cd1fac65b852b194b09350a1f7010a7fe94fed6222a0d62ca60d53eb8ad550f5b18bee7c0725479c773028437be1c67e45a83185aa663aed"
 
 RPROVIDES:${PN} += "ocaml-Result \
 ocaml-result-devel \

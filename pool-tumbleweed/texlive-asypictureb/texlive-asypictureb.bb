@@ -9,10 +9,10 @@ debugging less of a pain. It also has a more robust mechanism \
 for identifying unchanged pictures that need not be recompiled."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn33490"
+PV = "2026.226.0.0.4svn73611"
 
-RPM_NAME = "texlive-asypictureb-2023.209.0.0.3svn33490-54.1.noarch.rpm"
-RPM_HASH = "9441a8a2cabb387e74ca369cadbb3b40e90be56bd1e0d07dd3274c5e6bb16db5fb73675affe78326cc26be0dcaacb23373fdb72832613b17a68647b950f61ee7"
+RPM_NAME = "texlive-asypictureb-2026.226.0.0.4svn73611-60.2.noarch.rpm"
+RPM_HASH = "94d7175914e5ac8269a12eac92d125646643d7b81289130e8d12d8bafe3ee58bb968862a297ce4815fa58e433bbdd913db198ab24916519b205c8a7fa93e162b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asypictureB.sty \

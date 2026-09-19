@@ -18,16 +18,16 @@ journal submissions, sharing documents, and conversion to other \
 formats."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.18svn59514"
+PV = "2026.226.0.0.19svn77873"
 
-RPM_NAME = "texlive-pythontex-2023.209.0.0.18svn59514-54.2.noarch.rpm"
-RPM_HASH = "7fd1629efe4e0d0b0dba3572bc6ffd2a2b97fcdb373ac386ef1a5f504dc6ef1ad935bb54b06180d241a0a0ffa926921bf2a712495192de2d630f4040df3fb809"
+RPM_NAME = "texlive-pythontex-2026.226.0.0.19svn77873-60.4.noarch.rpm"
+RPM_HASH = "5489c86595d1f97117580415aef05122769b7ee5ca2864c41f46bc637f37d8f431c0cdff58a40a7d52ca9edf710c5760b5abd51d41113e39a82bafcacdb0e339"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pythontex.sty \
 texlive-pythontex"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ed \

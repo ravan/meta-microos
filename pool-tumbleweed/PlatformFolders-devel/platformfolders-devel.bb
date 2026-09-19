@@ -6,10 +6,10 @@ platform-specific code. \
 These are Development files for the PlatformFolders library."
 LICENSE = "MIT"
 
-PV = "4.2.0"
+PV = "4.3.0"
 
-RPM_NAME = "PlatformFolders-devel-4.2.0-1.4.aarch64.rpm"
-RPM_HASH = "71d46f31d436a682c7fdb8ca3653fc8004bcae98e91d4a2f76cb97cc4a3c71b448ec8bc13c70794e1e8aac725b512d462c0e31bbc56c3c3d5359db8065ec9f30"
+RPM_NAME = "PlatformFolders-devel-4.3.0-1.4.aarch64.rpm"
+RPM_HASH = "43c9f6aba14fee941bc5b5cfa3b2ffcce9dfc32359487744de39890905cca752db02827bc767e435fc20cc9e6b5236888a2678d71d93b3f7e86e7373fce807da"
 
 RPROVIDES:${PN} += "PlatformFolders-devel \
 cmake-platform-folders"

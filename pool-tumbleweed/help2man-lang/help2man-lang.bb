@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.49.3"
 
-RPM_NAME = "help2man-lang-1.49.3-1.4.noarch.rpm"
-RPM_HASH = "efe3a334608656e0a217746ffc1586228e5b660a97c775aefe446a45c97e88b40f7bc944653ff9cc8550a951791da5342a867f0167970c7ef1e8b869e4b55264"
+RPM_NAME = "help2man-lang-1.49.3-1.17.noarch.rpm"
+RPM_HASH = "fc1d9777b4f2e8a8bd5530f76aa3c117e296e0307ee342976cbe0ff0fa87a220cb1b5fc3e6cd554fdd1ed9fd621a7e1c17f3e981d95ca937e1e93d47f11f1898"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "help2man-lang \

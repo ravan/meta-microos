@@ -6,10 +6,10 @@ ranging from small one-off projects to complete application suites. \
 This package contains the API documentation for GTK+ 3.x."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.38"
+PV = "3.24.52+git59.b30343717d"
 
-RPM_NAME = "gtk3-devel-doc-3.24.38-2.1.noarch.rpm"
-RPM_HASH = "7f9ad680bec47db0ca73015fd3449d8777bd969ae14b3063c7bc0a1e1d7115078b7fd276f86734903a9254677f35da1af28a3b0154877948fba2dfcd1c08d859"
+RPM_NAME = "gtk3-devel-doc-3.24.52+git59.b30343717d-1.1.noarch.rpm"
+RPM_HASH = "342f199d4c54b0cab820c6d752ef6ebdf590c6dca90e7484ab5df00184898898bc962e18c1aa227d67d2f62db7951640cfb833e673430660af0a44feabd1c451"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-devel-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the kiwi-live dracut module which is used \
 for booting iso(live) images built with KIWI"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.25.12"
+PV = "10.3.11"
 
-RPM_NAME = "dracut-kiwi-live-9.25.12-1.1.aarch64.rpm"
-RPM_HASH = "a5613c91e59e7a8b3b7ca5afe7f924d382d65fdacbd3a459ab0b733261209bad317c36581e8c6b190edbb8cee86031cfe7d0ad5d563dec3a00f857e03d062291"
+RPM_NAME = "dracut-kiwi-live-10.3.11-1.1.aarch64.rpm"
+RPM_HASH = "9800709f043dcd4d7a78d31385a866a42a818d45a381cd0b6c6d0ec3288e142c12fbf690a8f81bc8339e8ae685eaca43a4e7d8523430016997443bda1369bba6"
 
 RPROVIDES:${PN} += "dracut-kiwi-live"
 
@@ -17,7 +17,6 @@ dracut \
 e2fsprogs \
 util-linux \
 util-linux-systemd \
-xfsprogs \
-xorriso"
+xfsprogs"
 
 inherit rpm

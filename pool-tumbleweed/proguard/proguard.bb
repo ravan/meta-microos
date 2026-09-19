@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.2.0"
 
-RPM_NAME = "proguard-6.2.0-1.20.noarch.rpm"
-RPM_HASH = "bcbe1d2270507d24257801cb82463ade32922dbc9f638dc7a6a16d0a2db101e14afe02b8d8de9a8bfb43b8242c0a68ccc9aacc627d5dbdda49e7c6dd6d26673b"
+RPM_NAME = "proguard-6.2.0-1.30.noarch.rpm"
+RPM_HASH = "d9193ac201c0f0c94c222086ea83fb50ba557b9e510a7391ecc813d312b0fd0f729dd9aea67828fe54aaf1a950ccf93cfbfb15dc2be73e5dbe75b48fd5aaf20d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-net.sf.proguard-proguard-annotations \

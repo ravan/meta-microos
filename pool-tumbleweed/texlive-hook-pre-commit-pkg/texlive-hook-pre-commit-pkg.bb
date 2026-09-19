@@ -1,4 +1,4 @@
-SUMMARY = "Pre-commit git hook for LaTeX package developpers"
+SUMMARY = "Pre-commit git hook for LaTeX package developers"
 DESCRIPTION = "This package provides a pre-commit git hook to check basic \
 LaTeX syntax for the use of package developers. It is installed \
 by copying it into the .git/.hooks file. It then checks the \
@@ -14,10 +14,10 @@ printed between % and \\begin{macrocode} or \\end{macrocode}. \\cs \
 argument must not start with a backslash."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1.2svn41378"
+PV = "2026.226.1.1.2svn76790"
 
-RPM_NAME = "texlive-hook-pre-commit-pkg-2023.209.1.1.2svn41378-54.2.noarch.rpm"
-RPM_HASH = "39281b64f4e878fe19c768b79e4619d38f0323ad0ca5c9ae302c2b4a856189f242f117e0d14f357329b03f6ea4be7e7c53cf7400ac875faa031645d15884e658"
+RPM_NAME = "texlive-hook-pre-commit-pkg-2026.226.1.1.2svn76790-60.4.noarch.rpm"
+RPM_HASH = "ba91d2eeacb2f215b62844282d43ca82e0e55fabc0eae4e8e5814c8e20463407420f954551a5a692ef4445d9ac2c0c485d6dd50a6e7b8e44eadf173dfca47972"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hook-pre-commit-pkg"

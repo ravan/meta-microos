@@ -1,14 +1,14 @@
-SUMMARY = "Support for rendering UML diagrams using the syntax and tool of PlantUML"
-DESCRIPTION = "The package provides support for rendering UML diagrams using \
-the syntax and tools of PlantUML. The PlantUML syntax is very \
-short and thus enables quickly specifying UML diagrams. Using \
-dot, PlantUML layouts the diagrams."
+SUMMARY = "Support for rendering UML diagrams using PlantUML"
+DESCRIPTION = "PlantUML is a program which transforms text into UML diagrams. \
+This LaTeX package allows for embedding PlantUML diagrams using \
+the PlantUML source. Currently, this project runs with LuaLaTeX \
+only."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.1svn55214"
+PV = "2026.226.0.0.6.0svn75196"
 
-RPM_NAME = "texlive-plantuml-2023.209.0.0.3.1svn55214-52.1.noarch.rpm"
-RPM_HASH = "c40229977377358316a6c69b9e50d890b63f944e2c078e0dc09a0f1192a29546330fdf934bf8108f02a238c453589e3e912bb60dd4d9ea321ab53d530e3a1801"
+RPM_NAME = "texlive-plantuml-2026.226.0.0.6.0svn75196-58.2.noarch.rpm"
+RPM_HASH = "39f8dea3580b095c6e3d6788f98fb4cd4b48ae18cdf7fbf0fe0a363feef1660f34e2754dc6cfc78f9ea1bba5a160034ea59309174da681bdc3054ec5223c4ef1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plantuml.sty \

@@ -15,10 +15,10 @@ Nowadays this however can be easier done by using the gamemoderun command \
 from the gamemode package."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7"
+PV = "1.8.2"
 
-RPM_NAME = "libgamemodeauto0-1.7-3.1.aarch64.rpm"
-RPM_HASH = "a18bd73d30dcb5421fb02f67918222b810ad100fc0d11ea02d17764da8099cf458d7274900595261dee1683ec0f9ac067783c6acc1c8d2ee026a1cce94515dae"
+RPM_NAME = "libgamemodeauto0-1.8.2-1.9.aarch64.rpm"
+RPM_HASH = "81c69e338b14e3091c24d4c578d4be9d9046e4267314d9106525710cf39516f14d4855657f2da13d8b01de69a7b26d4813d5c89000e68e7408bd7eb5b21a64f9"
 
 RPROVIDES:${PN} += "libgamemodeauto.so.0 \
 libgamemodeauto0"

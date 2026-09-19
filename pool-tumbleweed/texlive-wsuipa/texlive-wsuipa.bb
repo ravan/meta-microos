@@ -4,10 +4,10 @@ macros for support under TeXt1 and LaTeX. The fonts (and \
 macros) are now largely superseded by the tipa fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25469"
+PV = "2026.226.svn25469"
 
-RPM_NAME = "texlive-wsuipa-2023.209.svn25469-53.2.noarch.rpm"
-RPM_HASH = "538f802089f4d19d54ed8a3b7e1c69fa4926c3aedb87fc934a8e77d5e55860d385e7a0dad96ea080952fdcbbf8b5210a3f5e211c7d4eb5b161c820ffc834afca"
+RPM_NAME = "texlive-wsuipa-2026.226.svn25469-59.4.noarch.rpm"
+RPM_HASH = "a4c7d119c3479d29c2e3ec04c396b081ae2fd5c2b200606db0cb3a117ac3309d0fef1173bac2012effbb2ad5e9851e7d7ecc84f8f9c85099851fcd2a6553def5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ipa.sty \

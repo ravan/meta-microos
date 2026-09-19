@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides support for use of Babel in documents \
 written in Belarusian."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn49022"
+PV = "2026.226.1.5svn49022"
 
-RPM_NAME = "texlive-babel-belarusian-2023.209.1.5svn49022-54.1.noarch.rpm"
-RPM_HASH = "4cd74489b75c0210c69bb4f05b0d52f624a6832a96a0b516b931addff95c35b2a77a0ed329594b32b8ee18c5068e1ddc7ea39a16a950a9997213f591ca924cb4"
+RPM_NAME = "texlive-babel-belarusian-2026.226.1.5svn49022-60.2.noarch.rpm"
+RPM_HASH = "2550dd9faa101376f7b3cb1cf799732dae48bb361270261a3b71cf9ff01fa7e17261084040fc916971f0a135669391c4be8fd17d8de2d4006063eaa71ec42f74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-belarusian.ldf \

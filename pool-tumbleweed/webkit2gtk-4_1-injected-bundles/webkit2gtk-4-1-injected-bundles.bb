@@ -1,4 +1,4 @@
-SUMMARY = "Injected bundles for webkit2gtk3"
+SUMMARY = "Injected bundles for webkitgtk3"
 DESCRIPTION = "WebKit is a web content engine, derived from KHTML and KJS from KDE, \
 and used primarily in Apple's Safari browser.  It is made to be \
 embedded in other applications, such as mail readers, or web browsers. \
@@ -8,14 +8,15 @@ also supports DOM, XMLHttpRequest, XSLT, CSS, Javascript/ECMAscript and \
 more."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.5"
+PV = "2.52.6"
 
-RPM_NAME = "webkit2gtk-4_1-injected-bundles-2.40.5-3.1.aarch64.rpm"
-RPM_HASH = "a70846381fa064dceeb1df9c2bc443ded22f799d181de719615a5fb803a6bd501ad810e54b55937e869f9387538c2b5c3ed343abc879987e4b3b78aec7809f8d"
+RPM_NAME = "webkit2gtk-4_1-injected-bundles-2.52.6-1.2.aarch64.rpm"
+RPM_HASH = "b579f506f3fec4110cead2c810efbe77b5ae3a4e724a276334413e5cd20e7f99dfef3e4782adfcf0ab1c5e2027208ca06cdd081354c07d338a43a3b0f016f014"
 
 RPROVIDES:${PN} += "libwebkit2gtkinjectedbundle.so \
 webkit2gtk-4-1-injected-bundles"
 
-RDEPENDS:${PN} += "libwebkit2gtk-4.1.so.0"
+RDEPENDS:${PN} += "libc.so.6 \
+libwebkit2gtk-4.1.so.0"
 
 inherit rpm

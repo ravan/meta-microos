@@ -8,10 +8,10 @@ properties and spacing and to control orphans within and after \
 the environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1csvn32818"
+PV = "2026.226.0.0.1csvn77682"
 
-RPM_NAME = "texlive-quoting-2023.209.0.0.1csvn32818-54.2.noarch.rpm"
-RPM_HASH = "a53fa87700760bcc494e522b9133d5fb650cc403872602bb8c12b563a8ea596a979d764f30a2ca5692728edc32aa3fe252afa463cf14320acbb6eab1fcbd68fc"
+RPM_NAME = "texlive-quoting-2026.226.0.0.1csvn77682-60.4.noarch.rpm"
+RPM_HASH = "3d42d9d65369108701b39f5616dc448ba5cda6fb10eec05cccd3fa3dc6c94e761736e0582c811f74d63c406273d256911e909d5765bc60a011b222af87fbdbc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quoting.sty \

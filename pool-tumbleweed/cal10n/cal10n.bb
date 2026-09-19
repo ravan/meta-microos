@@ -1,5 +1,11 @@
 SUMMARY = "Compiler assisted localization library (CAL10N)"
-DESCRIPTION = "Compiler Assisted Localization, abbreviated as CAL10N (pronounced as 'calion') \
+DESCRIPTION = " \
+ \
+ \
+ \
+ \
+ \
+Compiler Assisted Localization, abbreviated as CAL10N (pronounced as 'calion') \
 is a java library for writing localized (internationalized) messages. \
 Features: \
     * java compiler verifies message keys used in source code \
@@ -10,10 +16,10 @@ Features: \
     * automatic reloading of resource bundles upon change"
 LICENSE = "MIT"
 
-PV = "0.8.1.10"
+PV = "0.8.1.12"
 
-RPM_NAME = "cal10n-0.8.1.10-1.5.noarch.rpm"
-RPM_HASH = "f72525fb17cfcde9e7ba176283663e118f1ba14410c7572f3d0ad6b83126888df6edd9c84205d492c0d8161c364f5d46e93ef809b7c915a741150e262f6632ed"
+RPM_NAME = "cal10n-0.8.1.12-2.7.noarch.rpm"
+RPM_HASH = "f78da1653e56e3a7b9f8398f9a38789d36399d60b30074c8b1f46a6499f730067782448fffd5206306eef5bcc9c01c96bee0453e1093bee88cd333df255be22e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cal10n \
@@ -21,11 +27,9 @@ mvn-ch.qos.cal10n-cal10n-ant-task \
 mvn-ch.qos.cal10n-cal10n-ant-task-pom- \
 mvn-ch.qos.cal10n-cal10n-api \
 mvn-ch.qos.cal10n-cal10n-api-pom- \
-mvn-ch.qos.cal10n-cal10n-parent-pom- \
 osgi-cal10n.api"
 
-RDEPENDS:${PN} += "java \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 
 inherit rpm

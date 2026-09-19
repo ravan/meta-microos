@@ -10,10 +10,10 @@ the annotation data, reads them and puts the annotations in the \
 right place. Project status: experimental"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn63509"
+PV = "2026.226.svn63509"
 
-RPM_NAME = "texlive-pax-2023.209.svn63509-52.1.noarch.rpm"
-RPM_HASH = "e9dad173d9ab68d7f24e173252cf3a135b4aa99ff929fad8fff205c8f34a07965ffc17b275b913e1e41f8e6b6e0e8540fa794379034aa003df7a1bd4dde277ab"
+RPM_NAME = "texlive-pax-2026.226.svn63509-58.2.noarch.rpm"
+RPM_HASH = "745a4242a407396df83485f6dd3b482aafe299678dab36d42e6cd90a085797d3e9118a214e88e71cda2fb770b2d792ea97f7125181f3fbedffad0dc88b7fa00e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pax.jar \

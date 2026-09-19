@@ -7,10 +7,10 @@ devices connecting them. \
 You can configure your multipathed devices with this module."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-multipath-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "eabe9dbf64a7cb2e357ed80760dfa4e6cf33ba6027ee53c24f9eeea68bfb3740aed02736694122d4bcc0b71397cb12404cdc69b7bd3aedd27ea2e754e8d4a52d"
+RPM_NAME = "yast2-multipath-5.0.1-1.2.noarch.rpm"
+RPM_HASH = "9ac7c06d750d474a781fbd4507ee6d196a9c994d85866623956d31a9596ba03b8bfa9157c8e293f633744245985f985e31f6c422afe4827aed574740d99ab5b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-multipath"

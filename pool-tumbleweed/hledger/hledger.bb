@@ -10,19 +10,19 @@ of Ledger, and one of the leading implementations of Plain Text Accounting. \
 Read more at: <https://hledger.org>."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.28"
+PV = "1.52.1"
 
-RPM_NAME = "hledger-1.28-3.9.aarch64.rpm"
-RPM_HASH = "91ed7d9ad424ffc380b5fd19870bf7fd81e4d0b7ffd885e149826057fcc94dd1ec39fbac287549f80f11798cf8033943b4ad6b1288a23db475e066d74ff8a6f9"
+RPM_NAME = "hledger-1.52.1-1.5.aarch64.rpm"
+RPM_HASH = "b257170215d26d4e0a6355a5acc752cef117de232f768d719691bb1aeccb46a009d956d14ad29f7f8e0a334f2cec8414399c6d93169fd1f976bb2a35da274377"
 
 RPROVIDES:${PN} += "hledger"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \
 libm.so.6 \
 libnuma.so.1 \
-libtinfo.so.6"
+libtinfo.so.6 \
+libz.so.1"
 
 inherit rpm

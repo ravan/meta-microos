@@ -4,10 +4,10 @@ provides a toolkit for broadcasters, video editors, media players, \
 transcoders and web streamers."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.16.0"
+PV = "7.40.0"
 
-RPM_NAME = "libmlt7-data-7.16.0-1.2.noarch.rpm"
-RPM_HASH = "4485b1f30037005a7e5c23568ca6985e4b2ef0b33644fa68e340bc1ce042138cd6dcec0f3dc82f7b6e5a3ebee0018203c4b5b489a8ae1c9c344676e199bb7c4c"
+RPM_NAME = "libmlt7-data-7.40.0-1.1.noarch.rpm"
+RPM_HASH = "5b8702340748a91baa5e8fc35864468a294fa79b0c9e8620b983b86307d8815685a4a2cac87bb8a654fce7b911283d4ffd4df2ca7ad8c8d7be0c8e3422b7367b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmlt7-data"

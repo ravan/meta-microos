@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-metastr"
 DESCRIPTION = "This package includes the documentation for texlive-metastr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.2svn56246"
+PV = "2026.226.1.1.3svn74751"
 
-RPM_NAME = "texlive-metastr-doc-2023.209.1.1.2svn56246-55.1.noarch.rpm"
-RPM_HASH = "225168933c559de0c1d6a6418ae37c60105f668aa0cc720fbb15a73ef7a448d6634f7556b8ce772aa936003ba56009eb789289d1d15424ffc7d2e456d1aecd43"
+RPM_NAME = "texlive-metastr-doc-2026.226.1.1.3svn74751-61.2.noarch.rpm"
+RPM_HASH = "f71d98055f02c18ef142738b167b09f0f58443c2fc565b1527d275d481397bf13ad70399f09edbe6e964681dd8e89582af54fd26dfa35900377bf72c96fc8dfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metastr-doc"

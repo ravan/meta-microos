@@ -1,17 +1,17 @@
 SUMMARY = "Devel files for stp"
-DESCRIPTION = "Developmnet files for stp library."
+DESCRIPTION = "Development files for stp library."
 LICENSE = "MIT"
 
-PV = "2.3.3+20220915"
+PV = "2.4.1"
 
-RPM_NAME = "stp-devel-2.3.3+20220915-1.4.aarch64.rpm"
-RPM_HASH = "32cd391d32e904687b07400d43bafede38998904ece1550a5cab0990c273cef0cb49f07b30827a6bc7dd22010c31324726f5a37656ac32f0eadf1f4b343ad340"
+RPM_NAME = "stp-devel-2.4.1-1.1.aarch64.rpm"
+RPM_HASH = "bea1dbe5023c7c8d638b910be0ebe1fa3a815c23c77f054feccec92b0182d74ead19c6fa235f6b30a601a05cecbc3ad44d11ad5d3a531e4011510e9ac80686e1"
 
 RPROVIDES:${PN} += "cmake-STP \
 stp-devel"
 
 RDEPENDS:${PN} += "libboost-program-options-devel \
-libstp2-3 \
+libstp2-4 \
 minisat-devel \
 stp"
 

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "7.6_1"
 
-RPM_NAME = "xorg-x11-driver-input-7.6_1-15.2.noarch.rpm"
-RPM_HASH = "ec368dd6eea044d3d0cf98f2a4e1b86e85781fcc62e91b90aba901657d4a69fe258d8018861833d71e0b97357657b0215e65b7b8c05d249f623637714c549f70"
+RPM_NAME = "xorg-x11-driver-input-7.6_1-16.7.noarch.rpm"
+RPM_HASH = "0bd528a9b615b42e6034f162909b431bab2fed97bdfd2a55948d7199ab08fd968a85dc63a710fe724f18d010fb6befe81a3d9adbb3aa76b4b95edd717fb36993"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-x11-driver-input \

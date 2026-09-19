@@ -4,16 +4,19 @@ code, text, binary files, archives, compressed files, documents and use \
 fuzzy search."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.0.5"
+PV = "7.8.4"
 
-RPM_NAME = "ugrep-4.0.5-1.1.aarch64.rpm"
-RPM_HASH = "54733de1d643295876d4c616b874cf94d48bf29e25036189e47bc82c052b32f8ded2589718d25c3612f78ff032e31e9fcc724667213ee117a73aad054c2cdf78"
+RPM_NAME = "ugrep-7.8.4-1.1.aarch64.rpm"
+RPM_HASH = "986eda0de7f75677e95dc361042f88ef301dd14d84a7b52a0682ada7550e25f8dc1addd903a566f8f1f4daffaab6866c7827aec2296ecf387905275b749795ce"
 
-RPROVIDES:${PN} += "ugrep"
+RPROVIDES:${PN} += "ugrep \
+ugrep-indexer"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
+libbrotlidec.so.1 \
 libbz2.so.1 \
+libbzip3.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 liblz4.so.1 \

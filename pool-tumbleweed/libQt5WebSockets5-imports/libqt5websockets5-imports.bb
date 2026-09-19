@@ -5,10 +5,10 @@ requests, or a client that can consume data received from the server, \
 or both."
 LICENSE = "LGPL-3.0-only |  (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde2"
+PV = "5.15.19+kde2"
 
-RPM_NAME = "libQt5WebSockets5-imports-5.15.10+kde2-1.1.aarch64.rpm"
-RPM_HASH = "263518bfcaf9a7d0eb1d577cd57d10deb960cb85af1b978596bb3034763de182c611edc4be2e854314a96e19f79a2d62f511c781ac835d56f13970b5d113d84e"
+RPM_NAME = "libQt5WebSockets5-imports-5.15.19+kde2-1.2.aarch64.rpm"
+RPM_HASH = "fc7f4cd73cfd027e08efe7ce90003c270f0fb0a2a00a375420dd7dc5ce59a2722f33d06a10a3351d39d0697e69c614d26c5f7f8d10a4e5fd6a3b5a15446e5c7d"
 
 RPROVIDES:${PN} += "libQt5WebSockets5-imports \
 libdeclarative-qmlwebsockets.so \

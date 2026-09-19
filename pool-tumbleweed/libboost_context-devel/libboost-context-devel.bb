@@ -5,14 +5,13 @@ providing cooperative multitasking support. \
 This package installs the default Boost version of the library."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_context-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "12538ba9ff44ca77b3a2dd385a3e8d3a4acd80a1ef2bbd5a74033659fbfe17cfa2392f5bad011e0f2a42627561b220995a4810aedee2c58cfacc92a6d2d5353a"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_context-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "818fcb84f1aead9c7501c0067074b75e8b698ddc8c95f0ebcd88dd139f7630f61b5d04fa5af5789928220b000fc4ee3f2cc7e60f54ff7ea48e277486565fafb5"
 
 RPROVIDES:${PN} += "libboost-context-devel"
 
-RDEPENDS:${PN} += "libboost-context1-82-0-devel"
+RDEPENDS:${PN} += "libboost-context1-91-0-devel"
 
 inherit rpm

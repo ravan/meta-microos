@@ -1,35 +1,60 @@
 SUMMARY = "Language Server Protocol client for Kakoune"
 DESCRIPTION = "kak-lsp is a Language Server Protocol client for Kakoune written in Rust."
-LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | BSL-1.0 | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | MPL-2.0) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & MIT & Zlib & Unlicense"
+LICENSE = "CC0-1.0 & ISC & MIT & (MIT | Unlicense) & MPL-2.0 & Unicode-3.0 & Zlib"
 
-PV = "14.2.0"
+PV = "21.0.2"
 
-RPM_NAME = "kak-lsp-14.2.0-2.1.aarch64.rpm"
-RPM_HASH = "d83d5c5c5687ded3dec0a48f4cfc3d4a9f0fb5a70add4c5d88c63d66449a44db33e3d340cdf754bb2c49c04213a44cc4730a1c3684ec92130e5be6faa6cd5a95"
+RPM_NAME = "kak-lsp-21.0.2-1.2.aarch64.rpm"
+RPM_HASH = "e493aea015334890acaf82c04cf7f0171467a623def62ec2a57fcb3840dba160f5d05ee601396a5c04092ece8778aa5c54361ac74a7143de4b14ff82f8567e49"
 
-RPROVIDES:${PN} += "bundled-rust-crate-adler32 \
+RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
+bundled-rust-crate-adler2 \
+bundled-rust-crate-adler32 \
 bundled-rust-crate-aho-corasick \
+bundled-rust-crate-allocator-api2 \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
+bundled-rust-crate-anyhow \
 bundled-rust-crate-arc-swap \
-bundled-rust-crate-atty \
+bundled-rust-crate-atomic-waker \
 bundled-rust-crate-autocfg \
+bundled-rust-crate-backtrace \
+bundled-rust-crate-base64 \
 bundled-rust-crate-bitflags \
-bundled-rust-crate-boxfnonce \
+bundled-rust-crate-bytes \
+bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-chrono \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-crc32fast \
 bundled-rust-crate-crossbeam-channel \
 bundled-rust-crate-crossbeam-utils \
 bundled-rust-crate-daemonize \
+bundled-rust-crate-dary-heap \
+bundled-rust-crate-debugid \
+bundled-rust-crate-deranged \
 bundled-rust-crate-diffs \
 bundled-rust-crate-dirs \
-bundled-rust-crate-dirs-next \
 bundled-rust-crate-dirs-sys \
-bundled-rust-crate-dirs-sys-next \
+bundled-rust-crate-displaydoc \
 bundled-rust-crate-either \
 bundled-rust-crate-enum-primitive \
+bundled-rust-crate-equivalent \
+bundled-rust-crate-erased-serde \
+bundled-rust-crate-errno \
+bundled-rust-crate-file-id \
 bundled-rust-crate-filetime \
+bundled-rust-crate-find-msvc-tools \
+bundled-rust-crate-findshlibs \
+bundled-rust-crate-fluent-uri \
+bundled-rust-crate-foldhash \
+bundled-rust-crate-foreign-types \
+bundled-rust-crate-foreign-types-shared \
 bundled-rust-crate-form-urlencoded \
 bundled-rust-crate-fs4 \
 bundled-rust-crate-futures \
@@ -43,15 +68,36 @@ bundled-rust-crate-futures-task \
 bundled-rust-crate-futures-util \
 bundled-rust-crate-getopts \
 bundled-rust-crate-getrandom \
+bundled-rust-crate-gimli \
 bundled-rust-crate-glob \
 bundled-rust-crate-hashbrown \
+bundled-rust-crate-hex \
+bundled-rust-crate-hostname \
+bundled-rust-crate-http \
+bundled-rust-crate-http-body \
+bundled-rust-crate-http-body-util \
+bundled-rust-crate-httparse \
+bundled-rust-crate-httpdate \
+bundled-rust-crate-hyper \
+bundled-rust-crate-hyper-tls \
+bundled-rust-crate-hyper-util \
 bundled-rust-crate-iana-time-zone \
+bundled-rust-crate-icu-collections \
+bundled-rust-crate-icu-locale-core \
+bundled-rust-crate-icu-normalizer \
+bundled-rust-crate-icu-normalizer-data \
+bundled-rust-crate-icu-properties \
+bundled-rust-crate-icu-properties-data \
+bundled-rust-crate-icu-provider \
 bundled-rust-crate-idna \
+bundled-rust-crate-idna-adapter \
 bundled-rust-crate-indexmap \
 bundled-rust-crate-indoc \
 bundled-rust-crate-inotify \
 bundled-rust-crate-inotify-sys \
-bundled-rust-crate-io-lifetimes \
+bundled-rust-crate-ipnet \
+bundled-rust-crate-is-terminal \
+bundled-rust-crate-is-terminal-polyfill \
 bundled-rust-crate-itertools \
 bundled-rust-crate-itoa \
 bundled-rust-crate-jsonrpc-core \
@@ -61,19 +107,33 @@ bundled-rust-crate-libc \
 bundled-rust-crate-libflate \
 bundled-rust-crate-libflate-lz77 \
 bundled-rust-crate-linux-raw-sys \
+bundled-rust-crate-litemap \
+bundled-rust-crate-lock-api \
 bundled-rust-crate-log \
 bundled-rust-crate-lsp-types \
 bundled-rust-crate-memchr \
+bundled-rust-crate-miniz-oxide \
 bundled-rust-crate-mio \
+bundled-rust-crate-native-tls \
+bundled-rust-crate-no-std-io2 \
 bundled-rust-crate-notify \
-bundled-rust-crate-num-integer \
-bundled-rust-crate-num-threads \
+bundled-rust-crate-notify-debouncer-full \
+bundled-rust-crate-num-conv \
 bundled-rust-crate-num-traits \
+bundled-rust-crate-object \
 bundled-rust-crate-once-cell \
-bundled-rust-crate-os-str-bytes \
+bundled-rust-crate-openssl \
+bundled-rust-crate-openssl-macros \
+bundled-rust-crate-openssl-probe \
+bundled-rust-crate-openssl-sys \
+bundled-rust-crate-option-ext \
+bundled-rust-crate-parking-lot \
+bundled-rust-crate-parking-lot-core \
 bundled-rust-crate-percent-encoding \
 bundled-rust-crate-pin-project-lite \
-bundled-rust-crate-pin-utils \
+bundled-rust-crate-pkg-config \
+bundled-rust-crate-potential-utf \
+bundled-rust-crate-powerfmt \
 bundled-rust-crate-ppv-lite86 \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-pulldown-cmark \
@@ -82,16 +142,36 @@ bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
 bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
+bundled-rust-crate-reqwest \
 bundled-rust-crate-rle-decode-fast \
 bundled-rust-crate-ropey \
+bundled-rust-crate-rustc-demangle \
+bundled-rust-crate-rustc-version \
 bundled-rust-crate-rustix \
+bundled-rust-crate-rustls-pki-types \
+bundled-rust-crate-rustversion \
 bundled-rust-crate-ryu \
 bundled-rust-crate-same-file \
+bundled-rust-crate-scopeguard \
+bundled-rust-crate-semver \
+bundled-rust-crate-sentry \
+bundled-rust-crate-sentry-backtrace \
+bundled-rust-crate-sentry-contexts \
+bundled-rust-crate-sentry-core \
+bundled-rust-crate-sentry-debug-images \
+bundled-rust-crate-sentry-panic \
+bundled-rust-crate-sentry-tracing \
+bundled-rust-crate-sentry-types \
 bundled-rust-crate-serde \
+bundled-rust-crate-serde-core \
 bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
 bundled-rust-crate-serde-repr \
+bundled-rust-crate-serde-spanned \
+bundled-rust-crate-serde-urlencoded \
+bundled-rust-crate-shlex \
 bundled-rust-crate-slab \
 bundled-rust-crate-slog \
 bundled-rust-crate-slog-async \
@@ -101,35 +181,69 @@ bundled-rust-crate-slog-stdlog \
 bundled-rust-crate-slog-term \
 bundled-rust-crate-sloggers \
 bundled-rust-crate-smallvec \
+bundled-rust-crate-socket2 \
+bundled-rust-crate-stable-deref-trait \
 bundled-rust-crate-str-indices \
 bundled-rust-crate-strsim \
 bundled-rust-crate-syn \
+bundled-rust-crate-sync-wrapper \
+bundled-rust-crate-synstructure \
 bundled-rust-crate-take-mut \
 bundled-rust-crate-term \
-bundled-rust-crate-termcolor \
-bundled-rust-crate-textwrap \
+bundled-rust-crate-thiserror \
+bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-thread-local \
 bundled-rust-crate-time \
 bundled-rust-crate-time-core \
 bundled-rust-crate-time-macros \
-bundled-rust-crate-tinyvec \
-bundled-rust-crate-tinyvec-macros \
+bundled-rust-crate-tinystr \
+bundled-rust-crate-tokio \
+bundled-rust-crate-tokio-native-tls \
 bundled-rust-crate-toml \
+bundled-rust-crate-toml-datetime \
+bundled-rust-crate-toml-edit \
+bundled-rust-crate-toml-write \
+bundled-rust-crate-tower \
+bundled-rust-crate-tower-http \
+bundled-rust-crate-tower-layer \
+bundled-rust-crate-tower-service \
+bundled-rust-crate-tracing \
+bundled-rust-crate-tracing-core \
+bundled-rust-crate-tracing-subscriber \
 bundled-rust-crate-trackable \
 bundled-rust-crate-trackable-derive \
+bundled-rust-crate-try-lock \
+bundled-rust-crate-uname \
 bundled-rust-crate-unicase \
-bundled-rust-crate-unicode-bidi \
 bundled-rust-crate-unicode-ident \
-bundled-rust-crate-unicode-normalization \
 bundled-rust-crate-unicode-width \
-bundled-rust-crate-unindent \
+bundled-rust-crate-ureq \
 bundled-rust-crate-url \
-bundled-rust-crate-version-check \
+bundled-rust-crate-utf8-iter \
+bundled-rust-crate-utf8parse \
+bundled-rust-crate-uuid \
+bundled-rust-crate-vcpkg \
 bundled-rust-crate-walkdir \
+bundled-rust-crate-want \
 bundled-rust-crate-whoami \
-kak-lsp"
+bundled-rust-crate-winnow \
+bundled-rust-crate-writeable \
+bundled-rust-crate-yoke \
+bundled-rust-crate-yoke-derive \
+bundled-rust-crate-zerocopy \
+bundled-rust-crate-zerofrom \
+bundled-rust-crate-zerofrom-derive \
+bundled-rust-crate-zeroize \
+bundled-rust-crate-zerotrie \
+bundled-rust-crate-zerovec \
+bundled-rust-crate-zerovec-derive \
+bundled-rust-crate-zmij \
+kak-lsp \
+kakoune-lsp"
 
 RDEPENDS:${PN} += "libc.so.6 \
-libgcc-s.so.1"
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libssl.so.3"
 
 inherit rpm

@@ -5,16 +5,17 @@ procedural, interactive programming language designed to describe data \
 structures and to operate on them."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.3"
+PV = "5.0"
 
-RPM_NAME = "poke-3.3-1.1.aarch64.rpm"
-RPM_HASH = "26349935447aee54288a77246e46a2b6edc5e137b0bc90e0a73462e0ae661c78fe09c0088018e70587b0a888b72493ef9206150b13402ff36834496a7fbe0158"
+RPM_NAME = "poke-5.0-1.1.aarch64.rpm"
+RPM_HASH = "82b6c4dece59951fa7b475bc5d740d8e742a44f4e80be14e927d5eba0c1f160af5578c44085525d00effa5ee955a55e7df1dde4768ab7fb6d24bf99ee63e819f"
 
 RPROVIDES:${PN} += "poke"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpoke.so.0 \
+libm.so.6 \
+libpoke.so.2 \
 libreadline.so.8 \
 libtextstyle.so.0 \
 libtinfo.so.6"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eemeir"
 DESCRIPTION = "This package includes the documentation for texlive-eemeir"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1bsvn15878"
+PV = "2026.226.1.1bsvn15878"
 
-RPM_NAME = "texlive-eemeir-doc-2023.209.1.1bsvn15878-54.2.noarch.rpm"
-RPM_HASH = "18bc2e7507835a3622eca154851fbb3ee86336173487a01afdf8ccf38b62ac2b147f823a9ad3ebbd3cbdbbc64318b706f2c325db4d5a71ae4bcacdcf9f2771c8"
+RPM_NAME = "texlive-eemeir-doc-2026.226.1.1bsvn15878-61.4.noarch.rpm"
+RPM_HASH = "bae154f4db80696c54dc48e4490cab195a879f9dea3e93788b3a9831cc99270a8a8a9083ed3b94053b41081b1c80753ac64230dab2ff9e7fd51a8e9dd9b95b5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eemeir-doc"

@@ -38,10 +38,10 @@ window manager, Gtk, or any other theme. \
 * A different theme can be created with the GIMP."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.3.11"
+PV = "2.5.1"
 
-RPM_NAME = "gkrellm-2.3.11-2.11.aarch64.rpm"
-RPM_HASH = "130c91a7f082cfbe433341d793526ec8253f2a27ba726bce285d31a4a6ab82d7d2f1bc3d3451ac0c2ce82945174d7c8c2228b606c8bdb50b7e88bf3fa467af50"
+RPM_NAME = "gkrellm-2.5.1-1.3.aarch64.rpm"
+RPM_HASH = "510edd3f445d2340e852ed6ac280970d65e7db776d9fbd2481099e07fce84b1b22b3af7e770b708bd9295f5b47f12410b2d634c5bfd1bd96a5a81edc4151a61e"
 
 RPROVIDES:${PN} += "gkrellm"
 
@@ -60,6 +60,7 @@ libgtk-x11-2.0.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libsensors.so.4 \
-libssl.so.3"
+libssl.so.3 \
+libsystemd.so.0"
 
 inherit rpm

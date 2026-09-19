@@ -5,10 +5,10 @@ simulations. \
 This package contains libraries for Gromacs."
 LICENSE = "Apache-2.0 & LGPL-2.1-or-later & BSD-3-Clause"
 
-PV = "2023"
+PV = "2026.1"
 
-RPM_NAME = "libgmxapi_mpi0-2023-1.2.aarch64.rpm"
-RPM_HASH = "f896b3e08edaff402705e089e21c8051df112b7d9665fa6ae4f7484281a0836338a9b76814057622e877512a13d2a456f494dad48466075c02b68711e5439f7f"
+RPM_NAME = "libgmxapi_mpi0-2026.1-2.1.aarch64.rpm"
+RPM_HASH = "dd72344b75005e23f39464a22f4bfd184303dbb624a67295b8ca6353b393b63f8db6250bbc0f4afdd6c529917f7d83b4577707c25407362b49319df377a12461"
 
 RPROVIDES:${PN} += "libgmxapi-mpi.so.0 \
 libgmxapi-mpi0"
@@ -17,7 +17,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgromacs-mpi.so.8 \
+libgromacs-mpi.so.11 \
 libm.so.6 \
 libmpi.so.40 \
 libstdc++.so.6"

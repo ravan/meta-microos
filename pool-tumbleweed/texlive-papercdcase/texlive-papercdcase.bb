@@ -3,10 +3,10 @@ DESCRIPTION = "This package implements a LaTeX style file to produce \
 origami-style folding paper CD cases."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-papercdcase-2023.209.svn15878-52.1.noarch.rpm"
-RPM_HASH = "f1d933025a1657f55c71b2b0ae34b84bf78155ae17b7c60fd06417f1a8540f28621419d6a7f416fe6b7eea49ec27f88d65f1a412320ddb06269a595a1368f258"
+RPM_NAME = "texlive-papercdcase-2026.226.svn15878-58.2.noarch.rpm"
+RPM_HASH = "d8cd3a266dc6d0ed391b3dddb4f24a96865bdf0cf206b2f3c3daa1cabccb6a43d26d3854357f59edc5b8b79d5bd812306d80b224e3b09c319699bafb51f2c12f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-papercdcase.sty \

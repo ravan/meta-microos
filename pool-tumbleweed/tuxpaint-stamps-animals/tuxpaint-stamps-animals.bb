@@ -3,10 +3,10 @@ DESCRIPTION = "tuxpaint-stamps-animals package contains a set of 'Rubber Stamp' 
 which can be used with the 'Stamp' tool within Tux Paint."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2021.11.25"
+PV = "2023.07.20"
 
-RPM_NAME = "tuxpaint-stamps-animals-2021.11.25-1.5.noarch.rpm"
-RPM_HASH = "92fb66130014826d8d5331b1b0955b4b6215763fa489fc5f4c82f820ecde339446637d6e1dae3b56feeed9b20d1a8f0b7eb49eb21fa16d433cf982ad23cd41b6"
+RPM_NAME = "tuxpaint-stamps-animals-2023.07.20-1.9.noarch.rpm"
+RPM_HASH = "ef1f5325aa1d46b579ad71e57a7ba9b8f29090bf927ddf812a65e8006f9d582c764adaaccfeaf17862facf5255a7a80440ddddd6e537d1574fa19a44962fe00e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-stamps-animals \

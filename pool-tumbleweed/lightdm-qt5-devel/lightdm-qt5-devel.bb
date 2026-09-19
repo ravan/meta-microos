@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only | LGPL-3.0-only"
 
 PV = "1.32.0"
 
-RPM_NAME = "lightdm-qt5-devel-1.32.0-2.3.aarch64.rpm"
-RPM_HASH = "6f13a2777695b577cc7a5ae15c1438297a472c4d0e059ab2f67c5f9a91026964bf1bb11d496a919ca34ba0c80b91c1bc3cd2383d1845cda189c3080a39a78339"
+RPM_NAME = "lightdm-qt5-devel-1.32.0-9.4.aarch64.rpm"
+RPM_HASH = "e556c6f52052a8e3a7bbb8713146ecea054afa0d1f2194aa4d92e6cffc98a9896f3ccc0e79f9b3fd9c425cab7a1da6602672f5f63bd58826eae050778f2978a9"
 
 RPROVIDES:${PN} += "lightdm-qt-devel \
 lightdm-qt5-devel \

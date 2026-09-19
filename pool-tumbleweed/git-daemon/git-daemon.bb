@@ -4,10 +4,10 @@ read only access to repositories in /srv/git/ that contain the \
 'git-daemon-export-ok' file."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.42.0"
+PV = "2.55.0"
 
-RPM_NAME = "git-daemon-2.42.0-1.1.aarch64.rpm"
-RPM_HASH = "85238c458bdd33a1ab75315f5a0555d0436084075fa0e099695e2ad3527b0284e7e083c3b0af836790705cf9fc02ad41d78e69a8352a383326a0ae94c4104d28"
+RPM_NAME = "git-daemon-2.55.0-3.2.aarch64.rpm"
+RPM_HASH = "f1408a3d5eb0f4158cd276bcf028a0b62bee583d63fcbd5b5a2f766724054ac9bcdd681bc5d1e7759fb025745179759e6aaf92aa3ce9a3f317dc00c0cbaaef17"
 
 RPROVIDES:${PN} += "git-daemon \
 group-git-daemon \
@@ -21,7 +21,6 @@ fillup \
 git-core \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpcre2-8.so.0 \
 libsha1detectcoll.so.1 \
 libz.so.1 \
 systemd \

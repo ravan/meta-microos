@@ -6,10 +6,10 @@ special document- templates that can be compiled in both \
 PDF-mode and DVI-mode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2asvn43219"
+PV = "2026.226.0.0.2asvn43219"
 
-RPM_NAME = "texlive-bxdvidriver-2023.209.0.0.2asvn43219-53.1.noarch.rpm"
-RPM_HASH = "5a52cb2df692f3b1b80b71d6dfdd14858969c8db949a53f65e5a1fb9852e33528af8f2b142eafc96089565dfbda16df678581f49abef6990a4b92c520e428188"
+RPM_NAME = "texlive-bxdvidriver-2026.226.0.0.2asvn43219-59.2.noarch.rpm"
+RPM_HASH = "08cb53ec84975ac6512ace33d1da83f468b62580cfa86a1574a5eb9c7f9e97c67c19fdeb38e1b0d76e39e70f6f5f1667576574d05ea3520126058608a4e35cdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxdvidriver.sty \

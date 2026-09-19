@@ -6,17 +6,20 @@ deployments where a full featured HTTP proxy is required, but the \
 system resources for a larger proxy are unavailable."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.11.1"
+PV = "1.11.3"
 
-RPM_NAME = "tinyproxy-1.11.1-3.4.aarch64.rpm"
-RPM_HASH = "8cdb8827c5f0b8f4415113ce67f847410c098f241cb2d14bd4c8f0cd98efc63d1c0112e5184574f146701505fb00b7cc9e7c00b07d7c865a4aec239911c7b3af"
+RPM_NAME = "tinyproxy-1.11.3-3.3.aarch64.rpm"
+RPM_HASH = "75b0b37279fcd6c3322375d0bb83281589096a38efb6f91815cc904b984401307cb310ef13093f8f0b131436b98ad3ca0f9f54bd4f1ee576f826172e35c6c4fe"
 
 RPROVIDES:${PN} += "config-tinyproxy \
-tinyproxy"
+group-tinyproxy \
+tinyproxy \
+user-tinyproxy"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-logrotate"
+logrotate \
+sysuser-shadow"
 
 inherit rpm

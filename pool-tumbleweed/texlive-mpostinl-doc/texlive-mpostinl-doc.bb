@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mpostinl"
 DESCRIPTION = "This package includes the documentation for texlive-mpostinl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn49559"
+PV = "2026.226.1.5.3svn77187"
 
-RPM_NAME = "texlive-mpostinl-doc-2023.209.1.5svn49559-55.1.noarch.rpm"
-RPM_HASH = "3c2861bdf19e496a8e071e1ec0a18523ff39642dfe36b210c33349dd998c9758e1e8f262bd818b75c4e4b343f182e975edef4ce06306ce6321f542b1e040e0ac"
+RPM_NAME = "texlive-mpostinl-doc-2026.226.1.5.3svn77187-61.2.noarch.rpm"
+RPM_HASH = "4d6e9d9b1e6278611b841e69eb91e09b83e9f7cd9970bfb73be2290c679f97d6118cc293ed34bc64974650c328a915cd1149684669f6530a74d6031b391b973c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mpostinl-doc"

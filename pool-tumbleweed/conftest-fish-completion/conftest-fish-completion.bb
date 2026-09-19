@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for conftest"
 DESCRIPTION = "Fish command line completion support for conftest."
 LICENSE = "Apache-2.0"
 
-PV = "0.45.0"
+PV = "0.69.0"
 
-RPM_NAME = "conftest-fish-completion-0.45.0-1.1.noarch.rpm"
-RPM_HASH = "094ddfdff06ce4f1f2b29f8040385286498239070278a481027a14bff1bee4c40f7f4d9eb46584e7acda5e6c51e1d800a79f2fce46b0bcaf79e854f6f94e000a"
+RPM_NAME = "conftest-fish-completion-0.69.0-1.1.noarch.rpm"
+RPM_HASH = "3893aa82de51b546f2ad54cbe9b2d7772d2670fbbec355664a0f9262f6116100d9b6296dcb7fd797cbf54eb503fdeaa0f1711b43bad21fc06972e70a27cc4edb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "conftest-fish-completion"

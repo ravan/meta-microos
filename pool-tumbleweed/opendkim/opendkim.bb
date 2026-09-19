@@ -10,11 +10,13 @@ LICENSE = "BSD-3-Clause & Sendmail"
 
 PV = "2.11.0"
 
-RPM_NAME = "opendkim-2.11.0-7.16.aarch64.rpm"
-RPM_HASH = "99ff36fb58d478c6e02d00c03a6f988585622db4cf88c3b1f23874bfe26ce2df636e1f1abfb702bcf25cfdd1ca7c8ecdb83b05ee453eaff81f5fae99378ae778"
+RPM_NAME = "opendkim-2.11.0-13.5.aarch64.rpm"
+RPM_HASH = "7938cac77fe5c215384908dd7f54e6647a3864c1c61131dbe4106baf02aaa125607f2f9f90d9eeaab84faaf574e65bd6c9c4f04fc159886a287f5196a35e6220"
 
 RPROVIDES:${PN} += "config-opendkim \
-opendkim"
+group-opendkim \
+opendkim \
+user-opendkim"
 
 RDEPENDS:${PN} += "/usr/bin/openssl \
 /usr/bin/perl \
@@ -22,13 +24,13 @@ RDEPENDS:${PN} += "/usr/bin/openssl \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 ld-linux-aarch64.so.1 \
-libbsd.so.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libdb-4.8.so \
 liblber.so.2 \
 libldap.so.2 \
-liblua5.1.so.5 \
+liblua5.3.so.5 \
+libm.so.6 \
 libmemcached.so.11 \
 libmilter.so.1.0 \
 libopendkim.so.11 \

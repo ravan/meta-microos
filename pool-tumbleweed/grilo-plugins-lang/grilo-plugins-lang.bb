@@ -2,10 +2,10 @@ SUMMARY = "Translations for package grilo-plugins"
 DESCRIPTION = "Provides translations for the 'grilo-plugins' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.16"
+PV = "0.3.18"
 
-RPM_NAME = "grilo-plugins-lang-0.3.16-1.2.noarch.rpm"
-RPM_HASH = "4b8dd6413e6ace7f74aa5d0a987a5f86db26e489832f0f1536ba1e0412359b20e61534bb81a1fb90079c028694a2e9351e3ad05c72782339623ab75c7cd6c243"
+RPM_NAME = "grilo-plugins-lang-0.3.18-2.3.noarch.rpm"
+RPM_HASH = "6a3012e7944d7b4151e2fcb12e2454dc472f7fbc2cb25c18dffab681fde7c71091922d7d6703f3b4fe6674273666acdf2eec7127a8f51d7e191479548dabd140"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grilo-plugins-lang \
@@ -24,11 +24,13 @@ locale-grilo-plugins-en-GB \
 locale-grilo-plugins-eo \
 locale-grilo-plugins-es \
 locale-grilo-plugins-eu \
+locale-grilo-plugins-fa \
 locale-grilo-plugins-fi \
 locale-grilo-plugins-fr \
 locale-grilo-plugins-fur \
 locale-grilo-plugins-gl \
 locale-grilo-plugins-he \
+locale-grilo-plugins-hi \
 locale-grilo-plugins-hr \
 locale-grilo-plugins-hu \
 locale-grilo-plugins-id \
@@ -55,6 +57,7 @@ locale-grilo-plugins-sl \
 locale-grilo-plugins-sr \
 locale-grilo-plugins-sr@latin \
 locale-grilo-plugins-sv \
+locale-grilo-plugins-th \
 locale-grilo-plugins-tr \
 locale-grilo-plugins-uk \
 locale-grilo-plugins-zh-CN \

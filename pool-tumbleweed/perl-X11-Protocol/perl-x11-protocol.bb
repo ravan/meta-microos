@@ -13,8 +13,8 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "0.56"
 
-RPM_NAME = "perl-X11-Protocol-0.56-15.17.noarch.rpm"
-RPM_HASH = "fc04e29e6b1136b86a76484f4563b9c6602d6ab0c942cd717ea8b6653bdd31ef543fdaa650ac9a17d5bc3d4cce2d94b4ff699f51bca05d00cc3144d7f5327340"
+RPM_NAME = "perl-X11-Protocol-0.56-16.12.noarch.rpm"
+RPM_HASH = "ebb48dc4fea8acb83585157614fa84ce9177f6e05656f64d16aa205aee659302af10e17c5c1aa64938bd3e2a147d69a7f67251f3381ab58be0eacddff85010ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-X11--Auth \
@@ -36,6 +36,6 @@ perl-X11--Protocol--Ext--XC-MISC \
 perl-X11--Protocol--Ext--XFree86-Misc \
 perl-X11-Protocol"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

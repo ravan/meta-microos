@@ -4,15 +4,16 @@ manuscript in classical philology, for example to prepare a \
 critical edition."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.2svn53344"
+PV = "2026.226.2.1.4svn66977"
 
-RPM_NAME = "texlive-biblatex-manuscripts-philology-2023.209.2.1.2svn53344-54.1.noarch.rpm"
-RPM_HASH = "610a352a5e331b8ce2a777dda2582727e30c160ef4e188291b17d013d90e926c3843c446b2aa49b72633494f7dd004ba958483a1efc29bd24ba2f84b1dc6e03f"
+RPM_NAME = "texlive-biblatex-manuscripts-philology-2026.226.2.1.4svn66977-61.2.noarch.rpm"
+RPM_HASH = "16a8150661904d3b2516a5c1a6638ff13bbe011b77a8c3545ee1a2032ee7586bdb495099380516037e330b7d7fd8c147fd2dce2facb3042a25b0b1a3304ae1da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-english-manuscripts.lbx \
 tex-french-manuscripts.lbx \
 tex-italian-manuscripts.lbx \
+tex-latin-manuscripts.lbx \
 tex-manuscripts-NewBibliographyString.sty \
 tex-manuscripts-noautoshorthand.bbx \
 tex-manuscripts-shared.bbx \

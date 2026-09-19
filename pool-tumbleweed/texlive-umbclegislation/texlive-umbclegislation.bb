@@ -4,10 +4,10 @@ Government Association Bills. Requires pdflatex and the \
 mdframed enumitem, lineno, and xifthen packages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2016_6_8svn41348"
+PV = "2026.226.2016_6_8svn41348"
 
-RPM_NAME = "texlive-umbclegislation-2023.209.2016_6_8svn41348-54.1.noarch.rpm"
-RPM_HASH = "93ddfc2c4d2b281e9bf1aceb9c48ce5105840c34d870337fd45369d92e1e84d1d3f8528a5b9090314de67e6ab2a0f110a5bfdf6981bbbfb9917409903334430d"
+RPM_NAME = "texlive-umbclegislation-2026.226.2016_6_8svn41348-60.2.noarch.rpm"
+RPM_HASH = "234c8767f59206d7efd4d12bea0228774984924d6784e232acc144b8040ba2b790ad66ebac12985ccb54b6aba996f07c2ad2af55e18a22e5360a8dc22c1d1848"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-legislation.cls \

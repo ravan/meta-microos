@@ -2,14 +2,14 @@ SUMMARY = "ZSH Completion for ripgrep"
 DESCRIPTION = "The official zsh completion script for ripgrep, generated during the build."
 LICENSE = "MIT & Unlicense"
 
-PV = "13.0.0"
+PV = "15.2.0"
 
-RPM_NAME = "ripgrep-zsh-completion-13.0.0-5.4.noarch.rpm"
-RPM_HASH = "2aea7f686df3240bc331b2f452f9a5b6aea02d3c2b6488a4f5ccb50a4d5dc427b0cb73f538c8e4ccc2f13b379af9fb1689fd2d85c5f6085d54e188257e23673c"
+RPM_NAME = "ripgrep-zsh-completion-15.2.0-1.3.noarch.rpm"
+RPM_HASH = "3458100441f70238da8b6d4f8120025a86e5287211a0c60af52e3968d25c26642764af023d339d4c1324fcee720109b528179286ef07d329541b207524165d8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ripgrep-zsh-completion"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "ripgrep"
 
 inherit rpm

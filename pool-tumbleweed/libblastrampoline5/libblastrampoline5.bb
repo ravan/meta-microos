@@ -6,10 +6,10 @@ types (e.g. 32-bit vs. 64-bit array indices) and/or function names \
 (dgemm vs. dgemm_)."
 LICENSE = "MIT"
 
-PV = "5.8.0"
+PV = "5.15.0"
 
-RPM_NAME = "libblastrampoline5-5.8.0-1.1.aarch64.rpm"
-RPM_HASH = "64c0f2574ab228630486981404b7ccacb3693f061744828ddefef8caf47aafe574967fdb0de515105966cf3d78c180a8a0ab75b97e99aa46fed3eff074bb4be7"
+RPM_NAME = "libblastrampoline5-5.15.0-1.3.aarch64.rpm"
+RPM_HASH = "5e8864b918a20f64779999e1470b5df94b06f0d446bcafd1e8ff633dbdbc41a087a7f3d6d7f3868d0d68f60d2b0b29cb003d91be210e43a6e70fb090f445fb26"
 
 RPROVIDES:${PN} += "libblastrampoline.so.5 \
 libblastrampoline5"

@@ -9,10 +9,10 @@ for publications in Angewandte Chemie where both English and \
 German should be cited simultaneously."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.5svn15878"
+PV = "2026.226.0.0.2.5svn76790"
 
-RPM_NAME = "texlive-chembst-2023.209.0.0.2.5svn15878-54.1.noarch.rpm"
-RPM_HASH = "b0dabcee05515fd40e2fa01d48f96604d29a730e26f938883ca0b76ae81ae89aa0fa2faa4353d90d406cb891a537d836dae164cedf95da7e15cf02a8b7cfccd3"
+RPM_NAME = "texlive-chembst-2026.226.0.0.2.5svn76790-60.2.noarch.rpm"
+RPM_HASH = "a3e1916fb50c5f2f38e0edffbbcf9d9bde2a77873ef23e3a60ad84a81184c18bd07bf496720b787be3fdf6fe7a7e19909e11b1e601de729a6afb8d4d15c9475b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chembst"

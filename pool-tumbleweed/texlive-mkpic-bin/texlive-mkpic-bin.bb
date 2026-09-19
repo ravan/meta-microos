@@ -2,10 +2,10 @@ SUMMARY = "Binary files of mkpic"
 DESCRIPTION = "Binary files of mkpic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn33688"
+PV = "2026.20260301.svn33688"
 
-RPM_NAME = "texlive-mkpic-bin-2023.20230311.svn33688-93.2.aarch64.rpm"
-RPM_HASH = "6a55a48eeacb259792b4f92e44da5148176d24a88c8c11d3e22d389d2610711844d8ba051c2dc3b4952a86fa83b9b3ff2792bbba32d66ee221c27cb4a91b25c1"
+RPM_NAME = "texlive-mkpic-bin-2026.20260301.svn33688-120.4.aarch64.rpm"
+RPM_HASH = "e52ee8ecad84fe804528d2fb675495948ddbc0669cccd3ab1f29e6374e3d90c8588bcf7f0c90ccba54bd886c44a7bff1b8874d87747ef6a2bd39f335424a971e"
 
 RPROVIDES:${PN} += "texlive-mkpic-bin"
 

@@ -1,21 +1,22 @@
 SUMMARY = "Development package for libkdepim"
 DESCRIPTION = "The development package for the libkdepim libraries"
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libkdepim-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "d759f0481617c32a1fb008629a55397688b3ea49894751df9bd4afb2387878203eaf7aa3e51084b2890fd846300ddbed931735a1f14c8711aa2e39b55c3a1d0f"
+RPM_NAME = "libkdepim-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "050574f6bfe9216a62eeea96193a8099cfa6dfa2f15489c9787341acfae8672f281c576d420c8dc6b888a51c0b4c35e1f49af579aba786963a2f07f1f5ae550b"
 
-RPROVIDES:${PN} += "cmake-KF5Libkdepim \
-cmake-KPim5Libkdepim \
-cmake-KPim5MailTransportDBusService \
-cmake-MailTransportDBusService \
+RPROVIDES:${PN} += "cmake-KPim6Libkdepim \
+cmake-KPim6MailTransportDBusService \
 libkdepim-devel"
 
-RDEPENDS:${PN} += "cmake-KPim5Akonadi \
-cmake-KPim5AkonadiContact \
-libKPim5Libkdepim5 \
-libkdepim"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKPim6Libkdepim.so.6 \
+libKPim6Libkdepim6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libc.so.6 \
+libstdc++.so.6"
 
 inherit rpm

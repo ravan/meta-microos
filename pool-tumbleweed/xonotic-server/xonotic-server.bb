@@ -1,19 +1,22 @@
-SUMMARY = "Dedicated xonotic server first person shooter"
-DESCRIPTION = "Xonotic is a free (GPL), fast-paced first-person shooter that works on Windows, OS X and Linux. The project is geared towards providing addictive arena shooter gameplay which is all spawned and driven by the community itself. Xonotic is a direct successor of the Nexuiz project with years of development between them, and it aims to become the best possible open-source FPS (first-person-shooter) of its kind. \
+SUMMARY = "Dedicated server for the Xonotic first person shooter"
+DESCRIPTION = "Fast-paced first-person shooter. It provides arena shooter gameplay \
+and is a direct successor of the Nexuiz project. \
  \
-Server with dedicated xonotic running as services unter the specific user. \
-service is handle via systemd or init - depends on your version."
+This subpackage contains the server with dedicated xonotic running as \
+services unter the specific user. The service is handle via systemd or \
+init, depending on your version."
 LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.6"
 
-RPM_NAME = "xonotic-server-0.8.6-1.1.aarch64.rpm"
-RPM_HASH = "8dfaa1512d35d5d6cc6a5c8357153b8c5d0a880f4b8cffdf004576ffc496923156a904e39867124ae1dadb065ec777ac5356134be898df6751b00c5e5a127a01"
+RPM_NAME = "xonotic-server-0.8.6-6.8.aarch64.rpm"
+RPM_HASH = "1a950bd3c714c86ce9b026f66fba7298db5c914680a794139f9da407b871bf6b72d284007a87cb7df1fead69bb1cbcfee21aa0110d808d1d811999a44c8495e7"
 
 RPROVIDES:${PN} += "xonotic-server"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
+group-xonotic \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libd0-blind-id.so.0 \
@@ -22,6 +25,7 @@ libm.so.6 \
 libz.so.1 \
 shadow \
 systemd \
+user-xonotic \
 xonotic-data"
 
 inherit rpm

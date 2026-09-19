@@ -5,10 +5,10 @@ that only one instance of the footnote text appears on each \
 page (LaTeX needs to be run several times to achieve this)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3asvn17131"
+PV = "2026.226.0.0.3asvn77682"
 
-RPM_NAME = "texlive-fixfoot-2023.209.0.0.3asvn17131-53.1.noarch.rpm"
-RPM_HASH = "615084765e597779185d2a959d9cd17544d0d3bbc207bae18bdbc0d44d64832fae8f9018717894965728f2136cf1a0811457960e6fb5e1d861bf515e42e20c60"
+RPM_NAME = "texlive-fixfoot-2026.226.0.0.3asvn77682-59.2.noarch.rpm"
+RPM_HASH = "18eacc1b0e29d746090ed0410efd2adbc4bcdda69c05c369a6a2ab016add332ecb30d312beee51645f208d52b5c80fb4e5743c5639943c63568e22a9a8130fd3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fixfoot.sty \

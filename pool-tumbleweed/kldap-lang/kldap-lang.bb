@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kldap"
 DESCRIPTION = "Provides translations for the 'kldap' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kldap-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "c705cd99ca0aa374d5ae924a87156faa906c77f032dc0e83302f29dbd0343f3b680458754b11a73ed8f30ec76f7c832fa11da2ac3ff000124328271d2fa56f39"
+RPM_NAME = "kldap-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "94197164c21afb4bcbf601c420ccec5ca34e74704bd0adb1b9c27e6f612c26a4d443a05ef1abab6c38288c8feb0ed7de5efdafb3b3c050ef105ce7fe11127c64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kldap-lang \
 kldap-lang-all \
 locale-kldap-af \
 locale-kldap-ar \
+locale-kldap-ast \
 locale-kldap-be \
 locale-kldap-bg \
 locale-kldap-bn \

@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.1"
 
-RPM_NAME = "augeas-lenses-1.14.1-1.1.aarch64.rpm"
-RPM_HASH = "5ca0304bed9c9fa33f36f3fd4cf0e5b13d5e01a2efa036f6d884bea87c13691b1fba2f316cf456a5055cd8022e3dd385f8979bc790d720e102cb38ad74ac5116"
+RPM_NAME = "augeas-lenses-1.14.1-2.6.aarch64.rpm"
+RPM_HASH = "3cfa576d851d71afc9e954cbb818c5d5b14fbe958e4700f2dd76d31582711aa97eb9ece900ff66cfab79d92b15b2ad18dc22236523f8c9202e516288c7baf498"
 
 RPROVIDES:${PN} += "augeas-lenses"
 

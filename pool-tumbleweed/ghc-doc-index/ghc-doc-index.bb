@@ -2,10 +2,10 @@ SUMMARY = "GHC library documentation indexing"
 DESCRIPTION = "The package enables re-indexing of installed library documention."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.6"
+PV = "9.12.4"
 
-RPM_NAME = "ghc-doc-index-9.4.6-1.1.noarch.rpm"
-RPM_HASH = "8f5fdfbce742a1b40e792cef33d95c937bde29bbd54fa1742814d8ae30f0a5fbeec0b4f0674fb82f40fe91262368d9a78dba9e4eee85ae3e7c73dd7e21b3f0b4"
+RPM_NAME = "ghc-doc-index-9.12.4-1.3.noarch.rpm"
+RPM_HASH = "93e7fd957ff57df61dc599172aae8f177210ae16c59156c108ad1ba7b12b7f827bb197ad8544cfbc2f48295c1b629c7c0d14034883cc1099a82fe5da31a42f9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-doc-index"

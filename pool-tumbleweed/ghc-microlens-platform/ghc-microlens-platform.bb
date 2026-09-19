@@ -14,44 +14,48 @@ can depend on the exact version of microlens-platform without specifying the \
 version of microlens (microlens-mtl, etc) you need. \
  \
 This package is a part of the <http://hackage.haskell.org/package/microlens \
-microlens> family; see the readme <https://github.com/monadfix/microlens#readme \
-on Github>."
+microlens> family; see the readme \
+<https://github.com/stevenfontanella/microlens#readme on Github>."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.3.3"
+PV = "0.4.4.2"
 
-RPM_NAME = "ghc-microlens-platform-0.4.3.3-2.6.aarch64.rpm"
-RPM_HASH = "c5e5fcc07ed1b8b4392bc41beec3013e44a19dbb789a7d56b009d91295496814efacab229a1e24fbe90994ddc38ea22fc071214a1eca8091dbcf85f45ecfc3a2"
+RPM_NAME = "ghc-microlens-platform-0.4.4.2-1.11.aarch64.rpm"
+RPM_HASH = "c452685b088565a919d476a761f42287ce96bdafecfd468364f882b99fb0463f2c885fa7c27c9ce8c96a64f92987e8ea81f560a9f5220a667a6b47b630f2fbe5"
 
 RPROVIDES:${PN} += "ghc-microlens-platform \
-libHSmicrolens-platform-0.4.3.3-6gUOWhUsYyX8InoICo3xk0-ghc9.4.6.so"
+libHSmicrolens-platform-0.4.4.2-FHpyH8J1vkX1PJSxWPZ8RH-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHScontainers-0.6.7-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSfilepath-1.4.2.2-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
-libHSmicrolens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3-ghc9.4.6.so \
-libHSmicrolens-ghc-0.4.14.1-JKvcbzfcB6d2jcW7Wili89-ghc9.4.6.so \
-libHSmicrolens-mtl-0.2.0.3-Lyey6r2oahMEeZXe0uSI9h-ghc9.4.6.so \
-libHSmicrolens-th-0.4.3.13-K3KDbjSa5xkBUVjBxtDTLF-ghc9.4.6.so \
-libHSmtl-2.2.2-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStext-2.0.2-ghc9.4.6.so \
-libHSth-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
-libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so \
-libHSunordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn-ghc9.4.6.so \
-libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
-libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbinary-0.8.9.3-9861-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHScontainers-0.7-d5e1-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSexceptions-0.10.12-f655-ghc9.12.4.so \
+libHSfilepath-1.5.5.0-b25b-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHShashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr-ghc9.12.4.so \
+libHSmicrolens-0.5.0.0-K1fQqqDyjwS5maOWIXQxx3-ghc9.12.4.so \
+libHSmicrolens-ghc-0.4.15.2-Cj0815upqHk4qg3lDbGmdr-ghc9.12.4.so \
+libHSmicrolens-mtl-0.2.1.1-8JUCbV1SpIrJP4FZoU0oV5-ghc9.12.4.so \
+libHSmicrolens-th-0.4.3.18-5y491C8iAr58VYbwqIS2QN-ghc9.12.4.so \
+libHSmtl-2.3.2-37ef-ghc9.12.4.so \
+libHSos-string-2.0.10-5320-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHSprimitive-0.9.1.0-Ez30Vu7tivmF28X1123Css-ghc9.12.4.so \
+libHSstm-2.5.3.1-6d74-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStext-2.1.4-cf23-ghc9.12.4.so \
+libHSth-abstraction-0.7.2.0-LVMuWnluhDI5se4FHUInw7-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
+libHStransformers-compat-0.7.2-Je4epVh1rXP8zT22dFNkMW-ghc9.12.4.so \
+libHSunordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu-ghc9.12.4.so \
+libHSvector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE-ghc9.12.4.so \
+libHSvector-stream-0.1.0.1-FXRnPnZDT7tJ4JCMEuh1XF-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

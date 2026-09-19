@@ -5,10 +5,10 @@ policy languages (such as the current module language) and the low-level kernel 
 This is a compiler for CIL."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "cil-3.5-1.2.aarch64.rpm"
-RPM_HASH = "400e9f52fc83668fb460639bcec413c575ad80c6b2935c11f7834cf011e6f5f3eaf68bfde66cf3da22b6f59aa866b87efae58aeca396fe5326301d251e7876ca"
+RPM_NAME = "cil-3.11-1.2.aarch64.rpm"
+RPM_HASH = "b369fd95244b67c083e9d3f997adee23a25b9ebc4db82c5efbb013524170d4d96bc5e667a19b051f195fde1e33feb8face2ee6aa82d07ebbc3463a5caeab6411"
 
 RPROVIDES:${PN} += "cil \
 cil-doc"

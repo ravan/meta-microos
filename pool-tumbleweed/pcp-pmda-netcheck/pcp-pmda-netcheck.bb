@@ -3,14 +3,16 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics from simple network checks."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-netcheck-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "0096dece4918f9950139d4afc24db60430093a708631a0f63140244dcb811e1f5daa78e0c5dc988edd30f5da1c94b0358776f2d942e1eda1a778b4f5db83362e"
+RPM_NAME = "pcp-pmda-netcheck-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "8f130f4517e8f55f1e2e2316a6a4b5e860b81b2dd172af1672f7e25d5761bb0788f61d737520d8ecc5e41bf7eea37e5cc07dcf7b80b7b096f0113cbe9a71a51f"
+REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pcp-pmda-netcheck"
+RPROVIDES:${PN} += "config-pcp-pmda-netcheck \
+pcp-pmda-netcheck"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 /usr/bin/sh \
 python3-pcp"
 

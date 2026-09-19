@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.01"
 
-RPM_NAME = "perl-MooseX-Meta-TypeConstraint-ForceCoercion-0.01-9.26.noarch.rpm"
-RPM_HASH = "4d24cc9858aff1a0bc4e1d79eb3359050f1e3f2e30257a67a59ba39a006f05dab933e33f1838a9964ce8b3f5bad3d74374c6a98ef3dd82d26784bab94ba44425"
+RPM_NAME = "perl-MooseX-Meta-TypeConstraint-ForceCoercion-0.01-10.7.noarch.rpm"
+RPM_HASH = "a01e737b3fc5203ff2c34bc801156ab45c67d05e353e151d64f8210aa262cb7d2f24aaada3d969984f205f2f9b0c066451fa60c085bbbebc5d794fbc5e1abe15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Meta--TypeConstraint--ForceCoercion \
 perl-MooseX-Meta-TypeConstraint-ForceCoercion"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moose \
 perl-namespace--autoclean"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the slurm config files necessary direcories
 for the slurm daemons."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.4"
+PV = "25.11.2"
 
-RPM_NAME = "slurm-config-23.02.4-2.1.noarch.rpm"
-RPM_HASH = "37efb96261d20758f93cb9caa3f3349f3fa6b4b36fde297035702f013e9d76133e7b525eaababd0d26ca2f88248e7be93f71977d753a36d2a28f6f0d337d95a5"
+RPM_NAME = "slurm-config-25.11.2-1.6.noarch.rpm"
+RPM_HASH = "d23de35006f97acc3cbf3c39dd86ed84227360442331762bc6c6654bc7e88fd97f765f2854f3b47cc0342f78ea8fc5835b6f82c34a6e3c4e4487360eafea9a32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-slurm-config \
@@ -16,6 +16,7 @@ user-slurm"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 logrotate \
-shadow"
+shadow \
+sysuser-shadow"
 
 inherit rpm

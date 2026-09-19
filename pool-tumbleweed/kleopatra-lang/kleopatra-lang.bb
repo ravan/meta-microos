@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kleopatra"
 DESCRIPTION = "Provides translations for the 'kleopatra' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kleopatra-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "4630d334c9beb4acb0ba25a3b0135a4d98fbca10cb1f31af2364b2e0273f0f5b43bf7fbab320c3c4f254bb0e8718f406c2787c501c2dbc6baea1df083e3b390a"
+RPM_NAME = "kleopatra-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "1baed1e75fda7b798cbca3140e3314cd5eb7841ce6a0917e744093f8811591e78915a68b402feb89e60f877dc63a2205c044ca730f4ff48dd266c7a69a5177a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kleopatra-lang \
 kleopatra-lang-all \
 locale-kleopatra-af \
 locale-kleopatra-ar \
+locale-kleopatra-ast \
 locale-kleopatra-be \
 locale-kleopatra-bg \
 locale-kleopatra-br \

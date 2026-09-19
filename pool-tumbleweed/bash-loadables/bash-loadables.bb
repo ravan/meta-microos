@@ -52,14 +52,15 @@ unlink	      Remove a directory entry. \
 whoami	      Print out username of current user."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.15"
+PV = "5.3.15"
 
-RPM_NAME = "bash-loadables-5.2.15-8.6.aarch64.rpm"
-RPM_HASH = "12f3574b74df4b38820e3081bdd3c36ef940f560de96ed3e6fdf650243896762b4ae7df85558c988e646499c2ccc9c5dda428f0ba64276b715068198be2900dd"
+RPM_NAME = "bash-loadables-5.3.15-8.2.aarch64.rpm"
+RPM_HASH = "9d9ab7676dffc4203678c57387caa71b1fc01e82e1932ed53f29d33412ec1071b439590ee4b74a992e881a4cdc4ddad57e9630469642f551bf2e4a0075606246"
 
 RPROVIDES:${PN} += "bash-loadables"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6"
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

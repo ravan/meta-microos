@@ -2,10 +2,10 @@ SUMMARY = "Translations for package lxqt-session"
 DESCRIPTION = "Provides translations for the 'lxqt-session' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "lxqt-session-lang-1.3.0-1.2.noarch.rpm"
-RPM_HASH = "81c102e81c0a8a054419c918cca1229305612a50b1aa58047cefa4d19f3bcc256437104ba7fe13bd12743814e3aa85b3ccb5c00e76a85a21456e43a0e88007e4"
+RPM_NAME = "lxqt-session-lang-2.4.0-1.2.noarch.rpm"
+RPM_HASH = "a89dcee26f0cf24fd3fa602c9f86be24df7fd4c1bcc285bdf98f2c4e0485f3ea37d909f6d561c1fd98c758fa1e8b1d296d37c373d7e0d5fd20cc1aa89550ae6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-session-lang \

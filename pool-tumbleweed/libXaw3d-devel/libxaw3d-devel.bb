@@ -6,10 +6,10 @@ This package contains the development headers for the library found \
 in libXaw3d6/libXaw3d7/libXaw3d8."
 LICENSE = "MIT"
 
-PV = "1.6.5"
+PV = "1.6.6"
 
-RPM_NAME = "libXaw3d-devel-1.6.5-1.1.aarch64.rpm"
-RPM_HASH = "5b2277bb501c444e51e7f35ccb67407ed540b43c67737156d37eec917cc95bbebfac20d9863ff608a9a17d37b31fa1924d1b52d6810a810ab5511c5a6743e7ac"
+RPM_NAME = "libXaw3d-devel-1.6.6-1.9.aarch64.rpm"
+RPM_HASH = "8c6971e10d9d3f7168140eff5261b801333e6e4c956c0b5927580757757af522ced1f230fa2f9e4bb57a73beeea3db8f17b02bfe7870525f5c316ab45afc8032"
 
 RPROVIDES:${PN} += "libXaw3d-devel \
 pkgconfig-xaw3d \

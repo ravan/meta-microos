@@ -3,10 +3,10 @@ DESCRIPTION = "libmateweather is a library to access weather information from \
 online services for numerous locations."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.2"
 
-RPM_NAME = "libmateweather1-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "d9ace93cbcfabbfd9f1ecb28003f69e97543fae3d1e39fb8f6e987e786317a9580214d61a6da546fb28fc09efa7eb585ed1415f2798fe8471a14b18223a1b44f"
+RPM_NAME = "libmateweather1-1.28.2-1.4.aarch64.rpm"
+RPM_HASH = "e67424811008d6a33c87d63744f7e1b4b92e43d2446d82c7272a4af2b1a587325f170b287a992f1cce7c50dd2b260a34a2df0b310c797f13db4cb883c2c8ce13"
 
 RPROVIDES:${PN} += "libmateweather \
 libmateweather.so.1 \
@@ -22,7 +22,7 @@ libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libm.so.6 \
 libsoup-2.4.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 mateweather-common"
 
 inherit rpm

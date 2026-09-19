@@ -5,15 +5,15 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.20"
 
-RPM_NAME = "perl-Mojolicious-Plugin-CHI-0.20-1.19.noarch.rpm"
-RPM_HASH = "bf9d3e4f454e9dfb906cb0f92adc3eb38944221e2fcc3c5a411c80b99520b4663d104f164c125acd3ea3692893dfc997a2e8d32c5af606eb576cf1f8bcdfad38"
+RPM_NAME = "perl-Mojolicious-Plugin-CHI-0.20-1.33.noarch.rpm"
+RPM_HASH = "5cfb66977188ed8251e819322a806891352e617fc1fa8cb7988f100813010a9b7db23492059f19c0aa6191fe447c8d749e5af09465be575179f8fd9d01a7e65f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojolicious--Plugin--CHI \
 perl-Mojolicious--Plugin--CHI--chi \
 perl-Mojolicious-Plugin-CHI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-CHI \
 perl-Digest--JHash \
 perl-Mojolicious"

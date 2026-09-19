@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-shared-utils"
 DESCRIPTION = "API documentation for maven-shared-utils."
 LICENSE = "Apache-2.0"
 
-PV = "3.3.4"
+PV = "3.4.2"
 
-RPM_NAME = "maven-shared-utils-javadoc-3.3.4-1.2.noarch.rpm"
-RPM_HASH = "cbbfcb17f71de3be978bbed95f20015582e6f7e7bf0aa28f49594a8f25e1061b196ed3e67a5b68c0d7fc5dbd547d55495059a78f4253087cf7529029efaa8fe4"
+RPM_NAME = "maven-shared-utils-javadoc-3.4.2-1.10.noarch.rpm"
+RPM_HASH = "0be57cd9eb64ab8ea5e07609a0c819ea5d8d2903e4af060d78826eebb286842a891d84892fb56393f75d1ff6f8bd097318bfeec8769d3a0dd96c2698765d3cd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-shared-utils-javadoc"

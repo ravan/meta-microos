@@ -7,19 +7,21 @@ Automated updates are also supported and installed through the system \
 update manager."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.0.4"
+PV = "4.0.2"
 
-RPM_NAME = "spotify-easyrpm-3.0.4-1.1.noarch.rpm"
-RPM_HASH = "f7d51a33dc80b3b7b87e9ea6c3635dc983f2bcda988e6263a6eb9e70ccef79f2e8ebde006aadac4924441b9f45bccbc71ad227fcd618eac95af6f2d0cb985dcf"
+RPM_NAME = "spotify-easyrpm-4.0.2-1.1.noarch.rpm"
+RPM_HASH = "9fa55d587a8f6f674850d04d90cff63bc0cecb350d445ac4fd6becc8eeadc67221a09a2cc99844cf6af5427a1023054cf122fc76a5df204e44edb11ace71a511"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spotify-easyrpm"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 createrepo-c \
+curl \
 jq \
+openssl \
 rpm-build \
-squashfs \
-update-desktop-files"
+rpmdevtools \
+squashfs"
 
 inherit rpm

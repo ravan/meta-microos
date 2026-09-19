@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 & GPL-2.0+ & SUSE-Public-Domain"
 
 PV = "1.0"
 
-RPM_NAME = "free-ttf-fonts-1.0-366.17.noarch.rpm"
-RPM_HASH = "6bf3eb63a2d6cd86666de035d504b11d51a41f3aa91c4620fe614a712bedd8e30a395ebf38744efda9d18a18bd7f63a3da0fc8b85d37096cb1ce9666a391bc6b"
+RPM_NAME = "free-ttf-fonts-1.0-366.25.noarch.rpm"
+RPM_HASH = "585fc56e58629447cda24f7862426b62966b8c542dc042a8f7b82044d2478b24da040c64dd3df112dc29f8863a370b64b72c73e240f86d7f5a9dd84634ba53f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "free-ttf-fonts"

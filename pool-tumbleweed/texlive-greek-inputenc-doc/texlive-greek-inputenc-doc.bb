@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-greek-inputenc"
 DESCRIPTION = "This package includes the documentation for texlive-greek-inputenc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8.2svn66296"
+PV = "2026.226.1.9svn66634"
 
-RPM_NAME = "texlive-greek-inputenc-doc-2023.209.1.8.2svn66296-54.2.noarch.rpm"
-RPM_HASH = "c6dca715638b5a3f445e3805d5a3f956b8c354f20fd8cad43994b00c3d7492ce8f1e7308b1cc9d4d53cf92cc0afa9732264b0ade28f5fc3699805d054202e531"
+RPM_NAME = "texlive-greek-inputenc-doc-2026.226.1.9svn66634-60.4.noarch.rpm"
+RPM_HASH = "5250b0606c5dfdf612e6db610b8ad216be612d662712307c8a558fe22ca380760a38a800285eee77c9e9f3eddc350e39cd6a2e171934191ca28cf952485301a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-greek-inputenc-doc"

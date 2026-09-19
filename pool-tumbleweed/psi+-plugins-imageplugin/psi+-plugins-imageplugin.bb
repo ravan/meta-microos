@@ -2,18 +2,18 @@ SUMMARY = "Plugin for Psi"
 DESCRIPTION = "This plugin is designed to send images to roster contacts."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "1.5.1615+0"
+PV = "1.5.2112+0"
 
-RPM_NAME = "psi+-plugins-imageplugin-1.5.1615+0-3.2.aarch64.rpm"
-RPM_HASH = "87cb5186a3285167d9e9395522a27a8cddc179d8580ec80ce18bb7e44b69faff90b0f4fbcd6571b8f51ffb7cc7d3fad77dd5ada93f6acd109b2e12a77e8df431"
+RPM_NAME = "psi+-plugins-imageplugin-1.5.2112+0-1.6.aarch64.rpm"
+RPM_HASH = "dde2865a90b814876b0c8eb3b22ece43ace44236164eb863c3aa98cac8b48d0cedfab95ab8bafc99e14030f720f3ad4ba48ff746659ca68faadca612caca932f"
 
 RPROVIDES:${PN} += "libimageplugin.so \
 psi+-plugins-imageplugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

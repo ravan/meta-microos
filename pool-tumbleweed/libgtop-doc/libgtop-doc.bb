@@ -7,10 +7,11 @@ file system. On other systems, a server is used to read information \
 from /dev/kmem."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.40.0"
+PV = "2.41.3+4"
 
-RPM_NAME = "libgtop-doc-2.40.0-4.4.aarch64.rpm"
-RPM_HASH = "ed0b0d32e04576bd2c29739c0bb6b9ae7d93fb861ddf1a3c138e914666c94c7742c9a1c9ee6dd992f83845652a6d75f6a76cbb40b4719b1422a5d4ec5aca50fe"
+RPM_NAME = "libgtop-doc-2.41.3+4-3.3.noarch.rpm"
+RPM_HASH = "ba3e784e78fbd2703ec444bd7f04573b58e3486bff469068d6cf548a4d5ebdcf078a5254af78f1904077b51ac7d2a4639e7948351941ffb27443d3e4c3646a3f"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgtop-doc"
 

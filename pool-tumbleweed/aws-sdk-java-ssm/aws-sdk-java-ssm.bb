@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for the AWS Simple Systems Management (SSM) Service"
 DESCRIPTION = "The AWS Java SDK for AWS Simple Systems Management Service \
 holds the client classes that are used for communicating \
 with the AWS Simple Systems Management Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-ssm-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "6d17aeca6b397c27f7d6ceab4c1becf8d540086c1df28a3832be2dd9218389e5394a6d2a0183dd2591be84edfe5d3322ca6f27172e68fba0f6c990a579f6e15b"
+RPM_NAME = "aws-sdk-java-ssm-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "31e664407c220ced90cd9e335837b0786b3141d589686f0662293e1a2945aa1ddca049d5083190868cbb9a277116b3f63b89578b6f03ce0a945569267f8a37ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-ssm \

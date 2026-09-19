@@ -9,10 +9,10 @@ DESCRIPTION = "pugixml is a light-weight C++ XML processing library. It features
   conversions"
 LICENSE = "MIT"
 
-PV = "1.13"
+PV = "1.16"
 
-RPM_NAME = "libpugixml1-1.13-1.4.aarch64.rpm"
-RPM_HASH = "3586a0a88834ce840a72159a59cd63de7f15af87bab442833ab8989a7d3e0beafea59a073c3aee6d82900a2bd91671e258ae2a030db2e40eeae958935c827de3"
+RPM_NAME = "libpugixml1-1.16-1.2.aarch64.rpm"
+RPM_HASH = "a3a3774ced0c3d9a2eea5d589cdf35907d20cfd2815116d5c152d5cf26db574d70d9bf0a135213069ab073d02feedc5e1fbd80f4a9a85ce346ed807e4e6d9934"
 
 RPROVIDES:${PN} += "libpugixml.so.1 \
 libpugixml1"

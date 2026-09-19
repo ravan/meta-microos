@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.24"
 
-RPM_NAME = "xosview-1.24-3.1.aarch64.rpm"
-RPM_HASH = "1eca216805d2b433e91701ec0ca2a1f1574297203f0f61e67c3307cf34d7e034bc32690a61cb3a4412e74549a7ec2dc012c63a5200a3758ab68291cd1fba1f0e"
+RPM_NAME = "xosview-1.24-4.10.aarch64.rpm"
+RPM_HASH = "a46796b84a57cbf2b7f4c62c871e5f7f65bb08c3181dda799f86119d7c6b85d9ef6700920fb72c99f2aa55a49782e8de99a3b2fe76d624f418ebf892ff2914f8"
 
 RPROVIDES:${PN} += "config-xosview \
 xosview"

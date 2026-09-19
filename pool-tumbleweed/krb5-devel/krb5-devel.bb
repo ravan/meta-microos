@@ -5,10 +5,10 @@ practice of cleartext passwords. This package includes Libraries and \
 Include Files for Development"
 LICENSE = "MIT"
 
-PV = "1.21.1"
+PV = "1.22.2"
 
-RPM_NAME = "krb5-devel-1.21.1-1.1.aarch64.rpm"
-RPM_HASH = "6ecf5d2b788b6c61930509d2440e5b00a405227ada7b189cf7ef7127138768d888c43142bd877227b193b09791a0310e1b09bc1f2a7394c397a3333b07b551c0"
+RPM_NAME = "krb5-devel-1.22.2-4.2.aarch64.rpm"
+RPM_HASH = "c97e7d5045c1c757c5815dbeaabac624e69150e8ec94da350dfba314e38038945dee209520ab5aaff5c406d1a8c16b8e194050c0bd5c3f20eab5536bd09d34a2"
 
 RPROVIDES:${PN} += "krb5-devel \
 pkgconfig-gssrpc \

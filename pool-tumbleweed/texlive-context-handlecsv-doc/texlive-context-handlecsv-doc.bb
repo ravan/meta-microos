@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-context-handlecsv"
 DESCRIPTION = "This package includes the documentation for texlive-context-handlecsv"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn51306"
+PV = "2026.226.svn76721"
 
-RPM_NAME = "texlive-context-handlecsv-doc-2023.209.svn51306-55.1.noarch.rpm"
-RPM_HASH = "0888c4e2896f0ab5a45b85362175fca99a90a28517674099c0bfadda603bd4a02f64419873a0a3170d481c73ea4466738fe5d84cc1c6089b33913228eb674608"
+RPM_NAME = "texlive-context-handlecsv-doc-2026.226.svn76721-61.2.noarch.rpm"
+RPM_HASH = "5cff026059379729a9983164aa2f04304cfb8ce90c675c4168389ee931208080f6910fb102b87e78f3590de7e184f7de4bf179827e53c03d6b672e8bdd5f11db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-handlecsv-doc"

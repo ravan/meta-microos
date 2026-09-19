@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kdgdocs"
 DESCRIPTION = "This package includes the documentation for texlive-kdgdocs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn24498"
+PV = "2026.226.1.0svn24498"
 
-RPM_NAME = "texlive-kdgdocs-doc-2023.209.1.0svn24498-56.1.noarch.rpm"
-RPM_HASH = "848605e4eefd5301cacd7a32fbfbe52df20dd6114dd584d9b672ad04546c22af68600c9a8472c1a08af5b423167899dd6540d558131a4e4f0c4c38308b247594"
+RPM_NAME = "texlive-kdgdocs-doc-2026.226.1.0svn24498-63.2.noarch.rpm"
+RPM_HASH = "067c9bc8e8c696ad5144a4749b6760bcf89255c7ca60edbea17c5d46d848427166e4320c2275461d46d7baa7436b130fc9102ba76bdd9673736fde56cbda5d06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kdgdocs-doc"

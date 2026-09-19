@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-piff"
 DESCRIPTION = "This package includes the documentation for texlive-piff"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn21894"
+PV = "2026.226.svn21894"
 
-RPM_NAME = "texlive-piff-doc-2023.209.svn21894-52.1.noarch.rpm"
-RPM_HASH = "229cdb880781027c1f3fec1caff8ceaa091fced5dda7ad165ba1822080eff5fd741f839308f523f69e2c1af02a0326c42a7a4ad9e4de696d5111dc7d5e2834d5"
+RPM_NAME = "texlive-piff-doc-2026.226.svn21894-58.2.noarch.rpm"
+RPM_HASH = "41f2a1f9ad3958480431f42180efb93df171df343550f636bdeb2eacdd192f8ccc9583acbe05e8df907782e03b2b8ca6b6e662abc72768a6ea3038222d483ba8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-piff-doc"

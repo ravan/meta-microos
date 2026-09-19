@@ -9,19 +9,19 @@ lt-proc, the processor, and lt-expand, which generates all possible \
 mappings between surface forms and lexical forms in the dictionary."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.7.1"
+PV = "3.8.3"
 
-RPM_NAME = "lttoolbox-3.7.1-1.5.aarch64.rpm"
-RPM_HASH = "b6b1afbcbe01599c024a575a10099e6fb25401a5a1e8de50d8dc1784f73b674c021f6d9bf2dbb67c3ec4501e8c6eab2f1d7793b12a65d85e70817d2f07158e4c"
+RPM_NAME = "lttoolbox-3.8.3-1.3.aarch64.rpm"
+RPM_HASH = "b5fe2f103436b8b7d7e1e043cdb2c31783ba5cbd691893021f8a141fa0f04a4c188f185b3912b112fe2e49cce1ab6d9e761b8a5c4ed2b6a2f7f18bccecd46558"
 
 RPROVIDES:${PN} += "lttoolbox"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicuio.so.73 \
+libicuio.so.78 \
 liblttoolbox.so.3 \
 libstdc++.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -4,10 +4,10 @@ DESCRIPTION = "The bash script dtxgen creates a template for a self-extracting \
 Documented LaTeX Source (.dtx) file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.08svn51663"
+PV = "2026.226.1.09svn75946"
 
-RPM_NAME = "texlive-dtxgen-2023.209.1.08svn51663-53.1.noarch.rpm"
-RPM_HASH = "8ce4cf65c5177edfca9592c62bc9da05643430c242e5badede09a4f042ea4d049a58b164e6975cf940b3ecf8895a354b0b2164da073cc3f773f65011b7ffb80a"
+RPM_NAME = "texlive-dtxgen-2026.226.1.09svn75946-59.2.noarch.rpm"
+RPM_HASH = "6d267b62b66b941b8d074d4197fddb59474d59974ed656a07dae1b039fba5180bf402feb54106c20fd905e63892a78207950b5b3d8af72a9939047fe7a107b45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dtxgen"

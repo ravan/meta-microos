@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.3"
 
-RPM_NAME = "dialog-devel-1.3-10.1.aarch64.rpm"
-RPM_HASH = "02325f47def93ad2e3d911c7b1eb21ba8c710f843c7f2676b0601e3563871f9d69b117a892a9f9e271a32f16279a70b38061341f6fe81125a8366a8c10ba6292"
+RPM_NAME = "dialog-devel-1.3-14.1.aarch64.rpm"
+RPM_HASH = "981a08b998da0e9a4a0ee1296e48ef278d80cf78b2ed731a8ea115fe51b573e126dc7664b975dbdf1b28654a0c8f51bc1ae179adc08df460f0db7c2f6b286d5e"
 
 RPROVIDES:${PN} += "dialog-devel"
 

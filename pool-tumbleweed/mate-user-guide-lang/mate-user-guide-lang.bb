@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-user-guide"
 DESCRIPTION = "Provides translations for the 'mate-user-guide' package."
 LICENSE = "GFDL-1.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-user-guide-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "4e3f7f018f33f3cdfbb2b23bbc8d42e6799e85a1adb50c6b0adc25ae7f5ce5a8bcaa65a34caebf3c76dfedb8b5dc22a0bf6efa00f59af66023e6bb80ffda3d40"
+RPM_NAME = "mate-user-guide-lang-1.28.0-2.4.noarch.rpm"
+RPM_HASH = "8dc356bc58d54615ab1560345e213be42df86fc41d6ffa23c8c0e7774a673f75308c863d99018426f2887f99ed604ffc74607b8df6dcb2ce7b3fe18a2e2dbbdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-user-guide-af \

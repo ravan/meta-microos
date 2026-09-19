@@ -1,11 +1,11 @@
 SUMMARY = "MySpell fr_CA Dictionary"
 DESCRIPTION = "French spelling dictionary, hyphenation rules, and thesaurus."
-LICENSE = "AGPL-3.0-only & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & CC-BY-SA-1.0 & CC-BY-SA-3.0 & GFDL-1.1-only & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-only & LGPL-2.1-or-later & LGPL-3.0-only & LGPL-3.0-or-later & MPL-1.1"
+LICENSE = "AGPL-3.0-only & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & CC-BY-SA-1.0 & CC-BY-SA-3.0 & CC-BY-SA-4.0 & GFDL-1.1-only & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-only & LGPL-2.1-or-later & LGPL-3.0-only & LGPL-3.0-or-later & MPL-1.1"
 
-PV = "20221012"
+PV = "20240321"
 
-RPM_NAME = "myspell-fr_CA-20221012-1.2.noarch.rpm"
-RPM_HASH = "6ccac88060d3e0af4c1c695d378df6465f7a63be748d24247e52830b05d1fa04325e049e15c547af12ac1097cbd6fd1dd02c794dc6a55c5a801ad3c20328e597"
+RPM_NAME = "myspell-fr_CA-20240321-1.7.noarch.rpm"
+RPM_HASH = "739d029d9099af5d35e4cffe82b6cec5a202f4dfce44f8007f5ef099863fe1bfb6842f992bae4e2cf8e4c851b3cc71229378a1088437eef1d4f0b9618a5e12f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-libreoffice-fr-CA \

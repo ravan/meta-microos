@@ -9,15 +9,15 @@ These routines collect the knowledge about Git versions that was \
 accumulated while developing Git::Repository."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.005"
+PV = "1.5.0"
 
-RPM_NAME = "perl-Git-Version-Compare-1.005-1.3.noarch.rpm"
-RPM_HASH = "30c505a5194d5afe4fc2c73691ce9d61f07f847257e62f28b7cae2cafde97607ae4ecb6a829fe8f591c600f1ebee7c93de95e93777d705362a46674686ff11ca"
+RPM_NAME = "perl-Git-Version-Compare-1.5.0-1.7.noarch.rpm"
+RPM_HASH = "f06f61041a67e913be0050246a9e8860f96ecd288f1f0a87e75e55d6e61e83b32e2b281a850ef99140d42e0c20980c90a9384ee2cf78dab346437ae1d6460fc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Git--Version--Compare \
 perl-Git-Version-Compare"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

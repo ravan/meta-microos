@@ -2,10 +2,10 @@ SUMMARY = "Binary files of omegaware"
 DESCRIPTION = "Binary files of omegaware"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-omegaware-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "17893df830e1c3911c3ff2be52c583953a54b34f215d460d6b570f4f7fd70796d1b0851ac59bbca256a44a5d85a3a4a01747918c647f84c8423270fff695521a"
+RPM_NAME = "texlive-omegaware-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "a2c5cecb5d692c020566921d488f77400dc8db23a9c94ecdfb968eddb02765f6d5759bed6f40fb4c350a376473d931d6e93d6f4fc546a33c4b33a0172a80b3e7"
 
 RPROVIDES:${PN} += "texlive-omegaware-bin"
 

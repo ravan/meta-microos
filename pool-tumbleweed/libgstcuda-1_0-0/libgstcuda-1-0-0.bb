@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "libgstcuda-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "a3499c73c5a3bc49163228f788190850f67afeebee2410762299a08a681cab48f6ecc93f7f647267dbca28c896705c0f321243fe0529b9841def45604ee41beb"
+RPM_NAME = "libgstcuda-1_0-0-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "b88af5fe819075968eba86fce24273dbf186a7fac51f4f6006794535030fba594aa142e410803199b813c9664a47ae5e5d1f4f35c20ee45324ff46f9384636de"
 
 RPROVIDES:${PN} += "libgstcuda-1-0-0 \
 libgstcuda-1.0.so.0"
@@ -17,11 +17,13 @@ libgstcuda-1.0.so.0"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgstgl-1.0.so.0 \
 libgstreamer-1.0.so.0 \
-libgstvideo-1.0.so.0"
+libgstvideo-1.0.so.0 \
+libstdc++.so.6"
 
 inherit rpm

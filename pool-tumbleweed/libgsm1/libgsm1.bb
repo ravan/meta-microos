@@ -8,10 +8,10 @@ GSM 06.10 compresses frames of 160 13-bit samples (8 kHz sampling \
 rate) into 260 bits."
 LICENSE = "ISC"
 
-PV = "1.0.22"
+PV = "1.0.24"
 
-RPM_NAME = "libgsm1-1.0.22-1.3.aarch64.rpm"
-RPM_HASH = "df45cd1ae25d19f1b87853377f7403367191d3a9c76cc277c9246edbb4d89b183f3ae734a0a17dfeafd2f8c7be59a1083a7e5893da95c25c99872d569442a8b2"
+RPM_NAME = "libgsm1-1.0.24-1.3.aarch64.rpm"
+RPM_HASH = "8209205d54cbd3e5e71252dc77aa332044a836c6ebae493981e6b4ca7c26dcb936bfa12cae1e93cae648844ba7069e1cd0b6ac2b48be512a95b91ae75c116870"
 
 RPROVIDES:${PN} += "libgsm.so.1 \
 libgsm1"

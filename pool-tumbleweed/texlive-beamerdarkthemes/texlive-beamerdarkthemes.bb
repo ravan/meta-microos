@@ -6,10 +6,10 @@ black background. Cormorant stands for green, frigatebird for \
 red and magpie for blue."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5.1svn55117"
+PV = "2026.226.0.0.5.1svn55117"
 
-RPM_NAME = "texlive-beamerdarkthemes-2023.209.0.0.5.1svn55117-54.1.noarch.rpm"
-RPM_HASH = "2a2cf8b14e67837e37af7e09588d70e04beae996d6271d6fc16121c1784383a17701e68602c936606a3006763fc8f2bb11baaee36e048baafb0048479ff32c63"
+RPM_NAME = "texlive-beamerdarkthemes-2026.226.0.0.5.1svn55117-61.2.noarch.rpm"
+RPM_HASH = "c4e8587e1df2be4793ed9399f4b79f6f2c8dae86adb329dc0e6a3aee1279c5623dd59c0e4ba68b4c292aac8a3cf28401d81ed733cfc3925e1394d2a99c62d9c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemecormorant.sty \

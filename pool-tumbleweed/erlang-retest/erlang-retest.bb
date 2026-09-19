@@ -4,12 +4,11 @@ LICENSE = "MIT"
 
 PV = "1.1.1+git20160312.ffef7d0"
 
-RPM_NAME = "erlang-retest-1.1.1+git20160312.ffef7d0-1.26.aarch64.rpm"
-RPM_HASH = "c96e93e7b61fdf869d480b5627a360011974ee492f9b86e79805405b790706782badf5178e4040db9208adcebdb55894cf93e26cc444f51966f042cb3c1826ba"
+RPM_NAME = "erlang-retest-1.1.1+git20160312.ffef7d0-2.11.aarch64.rpm"
+RPM_HASH = "1dbde2150c261ff29706f11f27a820e3291055241ddf48846c0d2876eab4826c072c400d17b3a69a82551a4962694adf650934a518481367edb29c29461cd2a1"
 
 RPROVIDES:${PN} += "erlang-retest"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-erlang"
+RDEPENDS:${PN} += "erlang"
 
 inherit rpm

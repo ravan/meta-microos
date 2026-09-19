@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.1"
 
-RPM_NAME = "ghc-fdo-notify-prof-0.3.1-4.10.aarch64.rpm"
-RPM_HASH = "f5932181f87cdcc276b889b9e54e820cff1b626a03229b08a5b246fe8d66b1139149a9cb0d3d10073cc95cf5e3b91932350abe43759216204dd8bf6de1df3844"
+RPM_NAME = "ghc-fdo-notify-prof-0.3.1-4.72.aarch64.rpm"
+RPM_HASH = "99e7fa0eb8d56475d140cd690369cf48ab21190f226d321cf843e3b4766d8f9f38cd5d250cbadc4d8f8873dc5ec6dcf21125472273f3e0175871530fd4bbd523"
 
 RPROVIDES:${PN} += "ghc-fdo-notify-prof \
-ghc-prof-fdo-notify-0.3.1-1GgkEz2BHJI1JvQlyWHJlU"
+ghc-prof-fdo-notify-0.3.1-IlwolsMMSaXuKXfZ3yu8"
 
 RDEPENDS:${PN} += "ghc-fdo-notify-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-dbus-1.2.29-4DkBnpH77ZuFg2GqtR0zJs"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-dbus-1.4.3-AK2RsEkhlPQ2FoxHH6Vf1Q"
 
 inherit rpm

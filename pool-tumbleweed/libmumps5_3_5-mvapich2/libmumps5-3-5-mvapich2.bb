@@ -10,8 +10,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "libmumps5_3_5-mvapich2-5.3.5-3.4.aarch64.rpm"
-RPM_HASH = "322039a562f3a9203abbccc80c0e9ac31549a3ea0b2f08e43c8972a6534b59e2f64e0d2ebc2e31f1c10c1b1cc1c36c10a29ca8adf73291717c0db615768bcf66"
+RPM_NAME = "libmumps5_3_5-mvapich2-5.3.5-7.7.aarch64.rpm"
+RPM_HASH = "d2f3db1786e12c92f6bbcb08356f1d8d0b32ac57cef12293d895e84b2b5bd9083cdc3f9c2912ba809f6ccf0bb3c1020e62185db163674430bfb64125b307b8a8"
 
 RPROVIDES:${PN} += "libcmumps.so.5.3.5 \
 libdmumps.so.5.3.5 \
@@ -23,7 +23,7 @@ libzmumps.so.5.3.5"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libblacs.so.2.1.0 \
+libblacs.so.2.2.2 \
 libblacs2-mvapich2 \
 libblas.so.3 \
 libc.so.6 \
@@ -33,6 +33,6 @@ liblapack.so.3 \
 libm.so.6 \
 libmpi.so.12 \
 libmpifort.so.12 \
-libscalapack.so.2.1.0"
+libscalapack.so.2.2.2"
 
 inherit rpm

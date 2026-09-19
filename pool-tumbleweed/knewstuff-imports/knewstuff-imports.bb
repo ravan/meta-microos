@@ -4,10 +4,10 @@ applications. It uses libattica to support the Open Collaboration Services \
 specification."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "knewstuff-imports-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "5fb6caa1b086ab3ec8cdb184255a657740848d527a0c63d952cbc517ec0fe59e23add14a3f7ab7a945aa5a7f88c522d4c47c9d525709412ce826012ad59faa7b"
+RPM_NAME = "knewstuff-imports-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "e1e7de8ae6981a8fb81c2eec3d437c889b6bf0277b1547b62c2a559adbeb89fc2c81efc0ec4bc8828199c7bc078484993c67fac4498aea5d6b4b344ad423abc8"
 
 RPROVIDES:${PN} += "knewstuff-imports \
 libnewstuffqmlplugin.so \

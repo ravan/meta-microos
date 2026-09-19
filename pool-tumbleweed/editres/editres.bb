@@ -4,10 +4,10 @@ the full widget hierarchy of any X Toolkit application that speaks the \
 Editres protocol."
 LICENSE = "X11"
 
-PV = "1.0.8"
+PV = "1.1.1"
 
-RPM_NAME = "editres-1.0.8-1.7.aarch64.rpm"
-RPM_HASH = "0b6ac7fc42082a3412f13fefd2c00b855d4e5b1d7c8afb4d70a8460e24d7b0f05ca1999339ff23bb1426a769bcb57ab26353b8cd1559747f1595d21668d93318"
+RPM_NAME = "editres-1.1.1-1.3.aarch64.rpm"
+RPM_HASH = "a987f255018a3d449f891fa29c50414c0c72500f23e85ca7de40efbe24a0ffb74d4b3ac4328e065f1ccd45a51563cdbaf0bafc03db98e97d19aa7ec5cf403ef2"
 
 RPROVIDES:${PN} += "editres"
 
@@ -16,6 +16,7 @@ libX11.so.6 \
 libXaw.so.7 \
 libXmu.so.6 \
 libXt.so.6 \
-libc.so.6"
+libc.so.6 \
+libxkbfile.so.1"
 
 inherit rpm

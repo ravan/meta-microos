@@ -6,17 +6,17 @@ It is the core base of an Open Source ERP. \
 It provides modularity, scalability and security."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.0.28"
+PV = "7.0.42"
 
-RPM_NAME = "tryton-6.0.28-1.1.noarch.rpm"
-RPM_HASH = "c09cf10b0aea11c018a1e3edc337835a587453b5663a6aee828c1bef99355d5d96c3c8115cb6c76c6208d5dfd4a9a0f283353bac179d93f51b20efd091dbaae3"
+RPM_NAME = "tryton-7.0.42-1.1.noarch.rpm"
+RPM_HASH = "afe8beefc88e93f605e24e17f5cb1631550f17cb82a4cb85b531a18fd5bdd609e156176e73a738e26c848a2ea20b2dea44ca6900462dede09bf244f14663ecc7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-tryton \
+RPROVIDES:${PN} += "python3.13dist-tryton \
 python3dist-tryton \
 tryton"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-GooCalendar \
 python3-cairo \

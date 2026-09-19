@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hf-tikz"
 DESCRIPTION = "This package includes the documentation for texlive-hf-tikz"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3asvn34733"
+PV = "2026.226.0.0.3asvn34733"
 
-RPM_NAME = "texlive-hf-tikz-doc-2023.209.0.0.3asvn34733-54.2.noarch.rpm"
-RPM_HASH = "9067415eb2f31a1b377267bd7d6c55b5599e1649c622af817cfe58aade1e1d8fe1c0b2fb5b81fdf0e41b7e4c962e123723bf4f17cf77e4f8c6e28f21f48eedd1"
+RPM_NAME = "texlive-hf-tikz-doc-2026.226.0.0.3asvn34733-60.4.noarch.rpm"
+RPM_HASH = "064e9a5ae90182613c4e99f5ae69b1f1d90729660f17c84036b473c44ad1407a20289b0be0ca9a752ac11bbe253b87fab902b962a975755e1b5de49af790447e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hf-tikz-doc"

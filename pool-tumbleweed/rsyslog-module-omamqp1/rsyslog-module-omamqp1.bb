@@ -5,16 +5,15 @@ package. \
 This module provides support for AMQP."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2306.0"
+PV = "8.2608.0"
 
-RPM_NAME = "rsyslog-module-omamqp1-8.2306.0-1.1.aarch64.rpm"
-RPM_HASH = "da485ca64da7ca280b2a73df5305af4ab03027633b09b723b81e9b91872266afe9b45c5cf9dbc44555be5af0c13e15bd1ffe14761a3bede952d5d180de51eb84"
+RPM_NAME = "rsyslog-module-omamqp1-8.2608.0-1.1.aarch64.rpm"
+RPM_HASH = "4b8fe4a15d33c51b3abf440b58772eb294a6c1e548f1d0487eba608b988ab757a7969705aafead3ee80bf1f3d5fc8535d1931af44a730c10729fefb903cfac6f"
 
 RPROVIDES:${PN} += "rsyslog-module-omamqp1"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libqpid-proton.so.11 \
 rsyslog"
 
 inherit rpm

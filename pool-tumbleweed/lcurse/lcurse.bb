@@ -7,8 +7,8 @@ LICENSE = "Unlicense"
 
 PV = "1.0.0"
 
-RPM_NAME = "lcurse-1.0.0-1.15.noarch.rpm"
-RPM_HASH = "0ef64e1e7ad94d9e958caa0567f6030b6a61dbfdec2319285b9f5976ab76db06deb4b14bfe08fee3a5ad8a8e35d4cbac6cdb80c6df2dfbdd7c1734c475757ca5"
+RPM_NAME = "lcurse-1.0.0-1.25.noarch.rpm"
+RPM_HASH = "62d8d343f8ab650b75928963e9e28147bf759765c4949d3a08b6ea13275d9d64e00612ecd4fc8f0ee7ac862de9ece849c88b41fb90db0f42cfb78be21edacbcf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lcurse"

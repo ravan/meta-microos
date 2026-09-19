@@ -10,10 +10,10 @@ IMAPFilter uses the Lua programming language as a configuration and \
 extension language."
 LICENSE = "MIT"
 
-PV = "2.8.1"
+PV = "2.8.5"
 
-RPM_NAME = "imapfilter-2.8.1-1.1.aarch64.rpm"
-RPM_HASH = "610f72a057fe8e5746b139bb328c7709453810bbbf43e7702abfa9d55e1ea373fdac4751ba3527ed238c05f1f48b8afeba53c46bcd2fca4fb09d69be3b3104c4"
+RPM_NAME = "imapfilter-2.8.5-1.4.aarch64.rpm"
+RPM_HASH = "33af0061352b58017412a44f8ebb937d4600f12b70c3bdb89dd534b40e04754040b14c67f5e027ca0e1faeaf68853e43853469b155797758a2ba344f327720c1"
 
 RPROVIDES:${PN} += "imapfilter"
 

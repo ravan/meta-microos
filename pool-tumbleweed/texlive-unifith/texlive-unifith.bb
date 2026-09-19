@@ -4,10 +4,10 @@ Bachelor theses that adhere to the publishing guidelines of the \
 University of Florence (Italy)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn60698"
+PV = "2026.226.1.6svn60698"
 
-RPM_NAME = "texlive-unifith-2023.209.1.6svn60698-54.1.noarch.rpm"
-RPM_HASH = "496433a7950a8314bf19d4fe557cdd60c1f5591272ab732aeb5073e3a42b3decea93f37fc9947c6a9554e504c7c0ad436c19c7f1ff2dba600d179cbf3c37adea"
+RPM_NAME = "texlive-unifith-2026.226.1.6svn60698-60.2.noarch.rpm"
+RPM_HASH = "acf78477298f6432999501ddad79d1c467b9479c99f6f0575683fd0b5af31c6bffb995462f556fdd00990f16bfffbd3b8f268ee1045b2b4d1945cb3da8eb9513"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unifith.cls \

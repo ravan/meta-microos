@@ -3,10 +3,10 @@ DESCRIPTION = "A small LaTeX package to draw bricks with TikZ. The user can \
 modify color, shape, and viewpoint."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn63952"
+PV = "2026.226.0.0.6svn73140"
 
-RPM_NAME = "texlive-tikzbricks-2023.209.0.0.4svn63952-53.1.noarch.rpm"
-RPM_HASH = "adda8c36a0e1d76a48e5fddacedb488f6deaaedc285aff119d243f007d74a367e34f834e8afcada8d25cee713f42d271b574d29ce9e55e24a8a8cf85c6d53f6a"
+RPM_NAME = "texlive-tikzbricks-2026.226.0.0.6svn73140-59.2.noarch.rpm"
+RPM_HASH = "cb25512af984b5a81bd919ff4a4f13d3f7bcbc6b0ed5e0b4fecdf610db5da228fb8449a92f69505d0a16e9ba673e19ce2f211662bd40a24dda04093ea0c59b07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzbricks.sty \
@@ -22,10 +22,14 @@ tex-tikz-3dplot.sty \
 tex-tikz.sty \
 tex-xkeyval.sty \
 texlive \
+texlive-epstopdf-pkg \
 texlive-filesystem \
+texlive-iftex \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-pgf \
 texlive-scripts \
-texlive-scripts-bin"
+texlive-scripts-bin \
+texlive-tikz-3dplot"
 
 inherit rpm

@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1"
 
-RPM_NAME = "monitoring-plugins-openvpn-1.1-102.7.noarch.rpm"
-RPM_HASH = "13feaf8f89396814cc73fef463b1ee06cd7ddc98d1c921fb138e933328032b6674b028d0d0ba94ba03122c138b0ed639755fbad233a9ee799be3783a09da47f6"
+RPM_NAME = "monitoring-plugins-openvpn-1.1-103.7.noarch.rpm"
+RPM_HASH = "90dcd339308abd2c999427cb036b7b033b35568206a769e948d07266bf58c251f80ff4859eb865099cfeddd9394dbf2464616aa163a60bf073ec96f4d6d6cd9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-openvpn \

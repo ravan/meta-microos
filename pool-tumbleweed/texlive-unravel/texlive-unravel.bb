@@ -9,10 +9,10 @@ versions of the l3kernel, l3packages and l3experimental \
 bundles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3asvn59175"
+PV = "2026.226.0.0.3csvn77682"
 
-RPM_NAME = "texlive-unravel-2023.209.0.0.3asvn59175-54.1.noarch.rpm"
-RPM_HASH = "b4b875e13c586bd3a509115b2a2614ce6d876e39de1dbfd2a97e9974c675d91fae1d5cdf52fd450c07ccd9a87abbbc34f336fed0acd642338a47630a0c61766b"
+RPM_NAME = "texlive-unravel-2026.226.0.0.3csvn77682-60.2.noarch.rpm"
+RPM_HASH = "e61647849e3c520d3fa89a53c742ed6060fd7f54793eb262b92c5688fc4634e91879af245c8ec8add63bb68305de2807458cce195fb58bae5af448d49970c784"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unravel.sty \
@@ -24,9 +24,7 @@ ed \
 findutils \
 grep \
 sed \
-tex-expl3.sty \
 tex-gtl.sty \
-tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -9,10 +9,10 @@ clients must use the JavaScript library to access the serialized \
 QObjects published by the host applications."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde3"
+PV = "5.15.19+kde3"
 
-RPM_NAME = "libQt5WebChannel5-5.15.10+kde3-1.1.aarch64.rpm"
-RPM_HASH = "2a33bfacae034e9e6449c7edd6f1317c06524ebe73fe6a260b32483d01bb6c3b44303866ac5b4959e59da09f4287fdbb375b5dd4501c9c5a78091f0960426a03"
+RPM_NAME = "libQt5WebChannel5-5.15.19+kde3-1.2.aarch64.rpm"
+RPM_HASH = "ff7346f3292bd10e88961049bffa23b43ec17f65ca71c289b9cd2b6798a59c358e13f52c5b6bab64005964d194e5643f01539b9e60f3fd36297fa9cdf74ba5ea"
 
 RPROVIDES:${PN} += "libQt5WebChannel.so.5 \
 libQt5WebChannel5"

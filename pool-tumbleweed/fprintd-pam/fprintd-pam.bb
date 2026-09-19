@@ -3,10 +3,10 @@ DESCRIPTION = "PAM module that uses the fprintd D-Bus service for fingerprint \
 authentication."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.94.2"
+PV = "1.94.5"
 
-RPM_NAME = "fprintd-pam-1.94.2-2.5.aarch64.rpm"
-RPM_HASH = "b92b33a0770171a27371bfabb2aafeb74c5f7b5d8d1e331174489bf799dd2793b537827795f8fe30c20daeb7f7de75f2c48b2818039737d66f3cd7bc8a8f5630"
+RPM_NAME = "fprintd-pam-1.94.5-1.4.aarch64.rpm"
+RPM_HASH = "2f1780823fbc7a8fbfb53f99aab7d65d9a14a3fb8187c3d8332f83ecd4af4632799dd23bb87ceb4e8add7a6def34c430d89862fc454aa5a968b4e3c137dfa54f"
 
 RPROVIDES:${PN} += "fprintd-pam \
 pam-fp \

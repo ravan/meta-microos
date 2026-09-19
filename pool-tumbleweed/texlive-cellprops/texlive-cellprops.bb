@@ -5,10 +5,10 @@ CSS-like selectors and properties. It depends on mdwtab, \
 xcolor, expl3, and xparse."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.0svn57599"
+PV = "2026.226.2.0svn76924"
 
-RPM_NAME = "texlive-cellprops-2023.209.2.0svn57599-53.1.noarch.rpm"
-RPM_HASH = "d003f04d1b327c4d74582b94618c9867f6f61b0cbd240f6937b166094ac98e3d5d822acac1e1d90d13721eb4417e11a207c03183a2c1d351afc22e6a5784f5ca"
+RPM_NAME = "texlive-cellprops-2026.226.2.0svn76924-59.2.noarch.rpm"
+RPM_HASH = "2347e512bfa8aa06ef5a727d237f1f360a8c7d299d7797b06f1f2a2bcc61c2405d9f8cbd6b57cd01ac403fc0eea1f71c8ee7ec040b080a12309ddb5c5a870ea6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cellprops.sty \

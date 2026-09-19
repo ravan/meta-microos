@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-autonum"
 DESCRIPTION = "This package includes the documentation for texlive-autonum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.11svn36084"
+PV = "2026.226.0.0.3.11svn77682"
 
-RPM_NAME = "texlive-autonum-doc-2023.209.0.0.3.11svn36084-54.1.noarch.rpm"
-RPM_HASH = "dfb10b39bb788ce888d49a539143293671fc46f1c6cfb3c5fd2c2e023983fc16585bb3412339fd7273e954042d2de6223a640cf38a31f171a2d37181dc2ef5df"
+RPM_NAME = "texlive-autonum-doc-2026.226.0.0.3.11svn77682-60.2.noarch.rpm"
+RPM_HASH = "6234f1cc2f15cfed96e0a9b0ec4013b01d30e900a00f9ebf1a48b8d8308c6c2c7c72cc8e01780d07f8026c9c9cbc3a8e4c25d7a86b99d0e114a7469d035fd499"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-autonum-doc"

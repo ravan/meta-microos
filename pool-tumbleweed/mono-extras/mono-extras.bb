@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-extras-6.12.0-5.4.aarch64.rpm"
-RPM_HASH = "81b8caa3b4cbb8a15bc6b3ae1772fd1623668a407c0d2299f5cd6d2da27bdf852280b73b1b3f17b7b344bc495fafbb2c23e6639056e53396e333975ba1db068a"
+RPM_NAME = "mono-extras-6.12.0-8.11.aarch64.rpm"
+RPM_HASH = "9cf0d8bfc0de0c95a6c19552b7490f986ff2b080ea1bb393f65c004b4b2d43579aa38cd6f6f78cd3fec5ea452c972d49ed991e51549faa7669fde567909df8fe"
 
 RPROVIDES:${PN} += "mono-Mono.Messaging \
 mono-Mono.Messaging.RabbitMQ \

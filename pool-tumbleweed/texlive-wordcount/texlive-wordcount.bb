@@ -8,10 +8,10 @@ accompanying shell script wordcount.sh contains more \
 information in its comments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn46165"
+PV = "2026.226.1.7svn46165"
 
-RPM_NAME = "texlive-wordcount-2023.209.1.7svn46165-54.1.noarch.rpm"
-RPM_HASH = "577d411dfafe4c176d0935a712e87e54978d63e56e0fcbbbb22330e7f44667fb6585afe60b778c4114b1b92f1758bb6372e9a472efd07c3a790da01d827943e0"
+RPM_NAME = "texlive-wordcount-2026.226.1.7svn46165-60.2.noarch.rpm"
+RPM_HASH = "143c94c22cc8d548e6cb5dfbca258ff22cde42be47ec4e39e18120d4e94ab7ac4b07106d58ebea2094602c65facf091e0752d2a50fa5b45c34aa83ebdc7d2698"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wordcount.tex \

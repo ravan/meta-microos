@@ -2,10 +2,10 @@ SUMMARY = "Run kubectl commands in all/some contexts in parallel"
 DESCRIPTION = "Run a kubectl command in one or more contexts (clusters) in parallel (similar to GNU parallel/xargs)."
 LICENSE = "Apache-2.0"
 
-PV = "0.2.1"
+PV = "0.3.0"
 
-RPM_NAME = "kubectl-foreach-0.2.1-1.5.aarch64.rpm"
-RPM_HASH = "9a0c40dfe4caa6be6257cfb8be70867873974d628c451aa01fc0984d01a55a810b1f34abb43c098601ae7819b771ec038703e40c0fbb71ef1d2d9ccacc58d473"
+RPM_NAME = "kubectl-foreach-0.3.0-1.14.aarch64.rpm"
+RPM_HASH = "addb3766c5f17305b333fe2f85f4538aadb99ce17951fc79e1708de9f35b64105ac3e4d07954102d5d6ccb90d992c52494c39d59e60e73c0b921a935de9620af"
 
 RPROVIDES:${PN} += "kubectl-foreach"
 

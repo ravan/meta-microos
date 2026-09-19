@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tabularew"
 DESCRIPTION = "This package includes the documentation for texlive-tabularew"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn15878"
+PV = "2026.227.0.0.1svn15878"
 
-RPM_NAME = "texlive-tabularew-doc-2023.209.0.0.1svn15878-55.1.noarch.rpm"
-RPM_HASH = "dcf5536265c7dacb7956493a797d633111a12917b0b8ff0669cc7f31a81b9267ae3a873437cc135a6d8b6a124319062e773056ea4962a32ff5001cdd3eec0a84"
+RPM_NAME = "texlive-tabularew-doc-2026.227.0.0.1svn15878-62.2.noarch.rpm"
+RPM_HASH = "701436f88e5b11c51232410b7ac453eb1207050c806a9ab0c73f8dc6db1c18a9e46fe9d98a87b8343db132c6042d8105e620148acc8228f6537df3e0bb3417af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tabularew-doc"

@@ -6,8 +6,8 @@ LICENSE = "GPL-1.0-or-later"
 
 PV = "2.0"
 
-RPM_NAME = "vim-plugin-utl-2.0-56.1.noarch.rpm"
-RPM_HASH = "8adcce4082a3c00e68b6c4eaee792ca15cbad5eb9404f39c28b41a955e6af7d38b00b4bccb89188021093985954d0e4f4bda4666aa7a0084a4788046af1fa71c"
+RPM_NAME = "vim-plugin-utl-2.0-64.2.noarch.rpm"
+RPM_HASH = "ffe60152415036e87ed35d1d32b9fccbab7d7c163291808ec174e60fbb86b05fb6f940166c71b2aa1ca1dc1077686a21f382b63dea54b9bb8a31ebcde9a3deb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-utl"

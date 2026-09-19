@@ -4,10 +4,10 @@ cheat sheets. It imports the most useful packages and encloses \
 the document in a multicol environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8svn45069"
+PV = "2026.226.0.0.8svn45069"
 
-RPM_NAME = "texlive-cheatsheet-2023.209.0.0.8svn45069-54.1.noarch.rpm"
-RPM_HASH = "cdcc5e5f4058d06b146d37d17b9b5b6618d1cbae333f7444bd543dd669313da3dbfee338f6f0eb22a6710943dd2866ef0cbd44b086a0cf3b337f2443bf81bf3e"
+RPM_NAME = "texlive-cheatsheet-2026.226.0.0.8svn45069-60.2.noarch.rpm"
+RPM_HASH = "91f43655bf9daa0c22cbcb63c9c2473a33afa5141abd727948026e5cb3b86905b15b67bf2ae528ab8a48cfc8956ddd5afd17032467071de66691d1058ce33b84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cheatsheet.cls \

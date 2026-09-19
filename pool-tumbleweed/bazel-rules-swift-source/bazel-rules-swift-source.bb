@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.13.0"
 
-RPM_NAME = "bazel-rules-swift-source-0.13.0-1.10.noarch.rpm"
-RPM_HASH = "34bd4a1d467276d3de19297157b75894e8f916807e5209141b80ba14324604d43f1ccf88722021335d043563fcd2152d2e98cca37e7d56cba03680bd7cba010b"
+RPM_NAME = "bazel-rules-swift-source-0.13.0-1.18.noarch.rpm"
+RPM_HASH = "7f40befec6e0ea27f2f498903d67157dde882e219f358beb41458a75d6fdefa1ecc291b9a0436a61f127801949831e90454351e2bb88d09fca26c5539a1efd4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-swift-source"

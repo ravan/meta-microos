@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.3.7"
 
-RPM_NAME = "fwbuilder-5.3.7-7.14.aarch64.rpm"
-RPM_HASH = "72434824570fa4904b958746f998aa49c6ae72f4db1fd564e9c43944a46e6e49403a20dee75f5ac360fa82017cee94ab70122e157f2937806c528aa4fe37817a"
+RPM_NAME = "fwbuilder-5.3.7-7.29.aarch64.rpm"
+RPM_HASH = "32efb094166c0ec62754a05e3a16fa3f1fe4e33fcd2027d5f54dceb5fac1c1bbcfdf19615d1bc7a54c2041e3d94f4f992a5d7776ae1a3f5f93767972e7c996b8"
 
 RPROVIDES:${PN} += "fwbuilder"
 
@@ -25,9 +25,9 @@ libQt5PrintSupport.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libnetsnmp.so.40 \
+libnetsnmp.so.45 \
 libstdc++.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxslt.so.1 \
 libz.so.1 \
 rcs \

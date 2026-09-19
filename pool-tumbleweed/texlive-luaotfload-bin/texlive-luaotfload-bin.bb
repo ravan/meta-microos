@@ -2,10 +2,10 @@ SUMMARY = "Binary files of luaotfload"
 DESCRIPTION = "Binary files of luaotfload"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn34647"
+PV = "2026.20260301.svn34647"
 
-RPM_NAME = "texlive-luaotfload-bin-2023.20230311.svn34647-93.2.aarch64.rpm"
-RPM_HASH = "52d3841be5d610a88441a783db33e2204b72f483ace5377da2a8563f926c901beab2d2f6454d8555a0180db808cb4cfbba88b46e6cbe77587776fe41cb31143c"
+RPM_NAME = "texlive-luaotfload-bin-2026.20260301.svn34647-120.4.aarch64.rpm"
+RPM_HASH = "7f844b28efb04ee0f3226f152b6d49c7606e05c214fa0119e93aa76740c5b3b89d1819721529202aac6269726fc378cc901da7a49ee4ddf5330cadb4f1be8e8b"
 
 RPROVIDES:${PN} += "texlive-luaotfload-bin"
 

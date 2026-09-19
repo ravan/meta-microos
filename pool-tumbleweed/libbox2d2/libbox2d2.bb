@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.4.1"
 
-RPM_NAME = "libbox2d2-2.4.1-2.9.aarch64.rpm"
-RPM_HASH = "fb20208e2db3cda2683b46ee99d5a792694a3f21e392bd793ee2b8fc31390559f4e0fc6b0c94cea01a8856818de48634eecc01edc983dfb93ece44c70a5f8155"
+RPM_NAME = "libbox2d2-2.4.1-3.6.aarch64.rpm"
+RPM_HASH = "68fb28beaf28dc49d14018f280498ecc7d2c5d9b53fade49a9a3defb389e6953ebbffba92d8448fff8b831481b2bbf9a5275536ac305ee87d9cc8e5baeda26a7"
 
 RPROVIDES:${PN} += "libbox2d.so.2 \
 libbox2d2"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-refstyle"
 DESCRIPTION = "This package includes the documentation for texlive-refstyle"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn20318"
+PV = "2026.226.0.0.6bsvn77682"
 
-RPM_NAME = "texlive-refstyle-doc-2023.209.0.0.5svn20318-54.2.noarch.rpm"
-RPM_HASH = "3518dd60e15e4f2ecdf101f2ec3fe53c09e4aeb23046fddaf95cf52deb8dbff3e118b167cdce6bf25f06f2c241a0e6f5459b03c138fdc5cef7742175388c8d6c"
+RPM_NAME = "texlive-refstyle-doc-2026.226.0.0.6bsvn77682-60.4.noarch.rpm"
+RPM_HASH = "2714064a3963c779697f836f1fbbd2a0087cce1072941ace189addb52eb9bdf1e5ccfc874bccf0d470c2a71cb1cb81f52da7e4ed788d9bcf3e3ef5a1c6e37640"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-refstyle-doc"

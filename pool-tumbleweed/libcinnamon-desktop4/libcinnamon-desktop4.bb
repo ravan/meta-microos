@@ -9,10 +9,10 @@ are doing our best to provide stability. Documentation for the API \
 is available with gtk-doc."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "5.8.0"
+PV = "6.4.1"
 
-RPM_NAME = "libcinnamon-desktop4-5.8.0-1.1.aarch64.rpm"
-RPM_HASH = "276c42eef5cba672936751a79c3d855c4c889ee1f9814b7e1c9f8011bb7518235804b3069e0e55b2357869c9b65dce400aaad7b28abf27efade036bba5c0d62f"
+RPM_NAME = "libcinnamon-desktop4-6.4.1-1.8.aarch64.rpm"
+RPM_HASH = "3ed33a052fb2e24f32e0f715ff365de6cd067abf1e2696dbf8257f074b788fc56416bbce941b314f37ec115ae5d784c4b0b7d0d2520fcfac6b3533e42d00d5d8"
 
 RPROVIDES:${PN} += "cinnamon-desktop \
 libcinnamon-desktop \
@@ -22,8 +22,6 @@ libcinnamon-desktop4"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
-libXext.so.6 \
-libXrandr.so.2 \
 libc.so.6 \
 libcairo.so.2 \
 libcinnamon-desktop-data \
@@ -34,6 +32,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libm.so.6 \
-libxkbfile.so.1"
+libsystemd.so.0 \
+libudev.so.1"
 
 inherit rpm

@@ -2,19 +2,23 @@ SUMMARY = "Italian"
 DESCRIPTION = "Support for Italian."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn55129"
+PV = "2026.222.svn72943"
 
-RPM_NAME = "texlive-collection-langitalian-2023.208.svn55129-60.1.noarch.rpm"
-RPM_HASH = "27c87cbfc8b328ec856638c226ce216c41745dabe46df6ef1d3e7bb8b2341a2fde11b2378157e0185eea779852e81008dc077862960f4e1ddf0144ee48ccbb03"
+RPM_NAME = "texlive-collection-langitalian-2026.222.svn72943-68.2.noarch.rpm"
+RPM_HASH = "e8fe78f8528a8822898bf1189f44491b7d560b5ce88a79051521579ac1faa2280d6c29c19d53f26602d0c70f6b4fb210debd8d4b9cdc1bdf28009c35b7d3aede"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langitalian"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-italian \
+texlive-collection-langitalian"
 
 RDEPENDS:${PN} += "texlive-amsldoc-it \
 texlive-amsmath-it \
 texlive-amsthdoc-it \
 texlive-antanilipsum \
 texlive-babel-italian \
+texlive-biblatex-accursius \
 texlive-codicefiscaleitaliano \
 texlive-collection-basic \
 texlive-fancyhdr-it \

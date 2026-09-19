@@ -5,15 +5,15 @@ setting up sane environmental variables before running river in \
 `river.sh`. These files are not part of the river project."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.4+g953"
+PV = "0.3.12"
 
-RPM_NAME = "river-contrib-0.2.4+g953-2.1.noarch.rpm"
-RPM_HASH = "48f48129abdf4da7f0a4d633d50b1362493556d5747349ec6e8fd8cee41ac20b3d7049fb817af6b252bd169b9ad1ef500ba0db567b0e4d0b03af7a963d6f9ce3"
+RPM_NAME = "river-contrib-0.3.12-2.6.noarch.rpm"
+RPM_HASH = "a21f540638efccc4c3994ca5e40321c95781a2249c43a9feb79893c9f377ffc5db89f17a5f44b7d13576d9ed468937fb2d4777a6e8f86e82e68db8d67698c755"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "river-contrib"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 river"
 
 inherit rpm

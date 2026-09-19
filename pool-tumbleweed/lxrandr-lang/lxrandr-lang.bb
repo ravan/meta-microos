@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.3.2"
 
-RPM_NAME = "lxrandr-lang-0.3.2-1.14.noarch.rpm"
-RPM_HASH = "75fdbb1d0b880b2bf15059e75f10fd1f1a19337f49b2f392caab96619f5ac672a5c8a18e77ebd1d6cbccb27214cd752ac2b14daf8b43be8ad47d23c644463fb0"
+RPM_NAME = "lxrandr-lang-0.3.2-1.27.noarch.rpm"
+RPM_HASH = "b7224e186fe7a7c4e521dc2078c8513473f60b2389ea9091b383f7049d3d50760e62d9f8e1678c2230447e2654e7d34297d70cd4fd49efb25a5e655ba9619054"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lxrandr-af \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.2"
 
-RPM_NAME = "libxclass-0_9_2-0.9.2-188.7.aarch64.rpm"
-RPM_HASH = "a87e4a83d4d4509891e173b57f3dd7fa6d0bd8ed828a6f1ad04b8aea3fecab6a49a5deb741f095075f66dd105b859f44d1f67f9866ea03bf05a9551fe362be2a"
+RPM_NAME = "libxclass-0_9_2-0.9.2-189.10.aarch64.rpm"
+RPM_HASH = "fef15ba4020ce5811010398e1629ba413edf55c8c4b9e48e73c763405000c18c53c16ed03d095c38904ad23125b97bee0bc5b1c0d7a591fd757f105845b05763"
 
 RPROVIDES:${PN} += "libxclass-0-9-2 \
 libxclass.so.0.9.2"

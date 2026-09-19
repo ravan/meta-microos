@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.7"
 
-RPM_NAME = "libvorbisfile3-1.3.7-4.1.aarch64.rpm"
-RPM_HASH = "e5f75085e09979c5cf4bc4ed1460916770afd9dee0b4d83f37e35d8bd581b039a6ea2a886bca23e0140f7178ef481cb9197d1aef489ff7073666275644475bf0"
+RPM_NAME = "libvorbisfile3-1.3.7-5.10.aarch64.rpm"
+RPM_HASH = "15f2c1cb4ef29963284fc256b7115c0b88149f950391353b77216778f559d4ff97b6ecf1c7ed9ff2cd7253a07086b30acdc83586447ddd7a0b93848642354e43"
 
 RPROVIDES:${PN} += "libvorbisfile.so.3 \
 libvorbisfile3"

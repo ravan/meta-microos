@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the pinebook platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-pinebook-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "88a0a2ee4d714d59d9171c7f0794ac09ec2734e0a842b3c6e06d8a679e9492a7c01387f6d57f4e76ab195679d493273158eecabba7dbf333bbd3c3b84c52b2f0"
+RPM_NAME = "u-boot-pinebook-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "465e84fa33e55ea89e4645d1bdce97a50cdcc09c9cb2c0da6778581e9adcac0a15e9564f31f75cd17bca30c35a87b8e44311e9220745f99a543efaf4f11002be"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-pinebook"

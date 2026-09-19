@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for plexus-resources"
 DESCRIPTION = "API documentation for plexus-resources."
 LICENSE = "MIT"
 
-PV = "1.0~a7"
+PV = "1.3.1"
 
-RPM_NAME = "plexus-resources-javadoc-1.0~a7-2.7.noarch.rpm"
-RPM_HASH = "352c238da4c16e8da60d5bee1fcc85a71654b107314167d4604bcf58aae0c6a6093ecde4b358bdc299295c74c3cb21c81b7fdbc5a59997b2dbfcf77b20a6afed"
+RPM_NAME = "plexus-resources-javadoc-1.3.1-1.5.noarch.rpm"
+RPM_HASH = "0faa43ad6d32f0614e6d4f98b0c67765d394a45b15276b506427ee62ce0abebe6c87875ec61c57caade44220e6a2ec6b4b341fd695de637e09a957ebaefd821d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-resources-javadoc"

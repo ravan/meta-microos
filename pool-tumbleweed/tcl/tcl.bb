@@ -6,23 +6,23 @@ testing and many more. Open source and business-friendly, Tcl is a \
 mature yet evolving language that is truly cross platform, easily \
 deployed and highly extensible. \
  \
-For more information on Tcl see http://www.tcl.tk and \
-http://wiki.tcl.tk ."
+For more information on Tcl see https://www.tcl-lang.org and \
+https://wiki.tcl-lang.org ."
 LICENSE = "TCL"
 
-PV = "8.6.13"
+PV = "8.6.18"
 
-RPM_NAME = "tcl-8.6.13-5.2.aarch64.rpm"
-RPM_HASH = "5df1acd37c4b125a64d79a1c2eb437ac6bd142b196866ec96b328a5a9eeccb939b9349aa2a61f0162991aa3279f31b4227f6e42206d263d6a360ec7de99ab6d9"
+RPM_NAME = "tcl-8.6.18-2.1.aarch64.rpm"
+RPM_HASH = "e9e6bd93d3c652127f02e1cf6866e44481c28b84dbb30ebcc6223ca6d52af94f42e3ae2b07836ccfe611a4612ba40d832a3e1a5ca06c300bde1653e6ea5fe0a5"
 
 RPROVIDES:${PN} += "itcl \
-libitcl4.2.3.so \
+libitcl4.3.7.so \
 libtcl8.6.so \
-libtdbc1.1.5.so \
-libtdbcmysql1.1.5.so \
-libtdbcodbc1.1.5.so \
-libtdbcpostgres1.1.5.so \
-libthread2.8.8.so \
+libtdbc1.1.13.so \
+libtdbcmysql1.1.13.so \
+libtdbcodbc1.1.13.so \
+libtdbcpostgres1.1.13.so \
+libthread2.8.13.so \
 rpm-macro-tcl-archdir \
 rpm-macro-tcl-noarchdir \
 rpm-macro-tcl-version \
@@ -31,9 +31,7 @@ tcl \
 tclsh \
 tclsh8.6"
 
-RDEPENDS:${PN} += "/usr/bin/rm \
-/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
 libz.so.1 \

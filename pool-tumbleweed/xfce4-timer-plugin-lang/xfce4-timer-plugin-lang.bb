@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-timer-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-timer-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7.2"
+PV = "1.8.0"
 
-RPM_NAME = "xfce4-timer-plugin-lang-1.7.2-1.1.noarch.rpm"
-RPM_HASH = "5b4f7a4434f93dbefc9376f5d2cbd7da988adb287ee8e3a8d5b192fab479994bf7780126fd9d4c914031e457b555ff7897a70de0ceea9f23423b20191c84ce20"
+RPM_NAME = "xfce4-timer-plugin-lang-1.8.0-1.4.noarch.rpm"
+RPM_HASH = "51b40c59fbc03ae1b80565d10d42c5e9748fb6f3eeeb07359f3ab75987e4881ff46f7a9342bb58a272c547c6c1dbb75d1a64deb2ad65c0a3928a5fdd6403cb94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-timer-plugin-ar \
@@ -19,6 +19,7 @@ locale-xfce4-timer-plugin-de \
 locale-xfce4-timer-plugin-el \
 locale-xfce4-timer-plugin-en-AU \
 locale-xfce4-timer-plugin-en-GB \
+locale-xfce4-timer-plugin-eo \
 locale-xfce4-timer-plugin-es \
 locale-xfce4-timer-plugin-et \
 locale-xfce4-timer-plugin-eu \
@@ -42,6 +43,7 @@ locale-xfce4-timer-plugin-oc \
 locale-xfce4-timer-plugin-pl \
 locale-xfce4-timer-plugin-pt \
 locale-xfce4-timer-plugin-pt-BR \
+locale-xfce4-timer-plugin-ro \
 locale-xfce4-timer-plugin-ru \
 locale-xfce4-timer-plugin-sk \
 locale-xfce4-timer-plugin-sl \

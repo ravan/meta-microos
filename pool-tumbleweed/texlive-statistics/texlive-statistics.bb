@@ -13,10 +13,10 @@ graphs. Every part of the generated tables or graphics is \
 customizable."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.2svn52212"
+PV = "2026.226.2.2svn67201"
 
-RPM_NAME = "texlive-statistics-2023.209.2.2svn52212-58.1.noarch.rpm"
-RPM_HASH = "250844b36ba526bd3536ccd41b6fb684c6bbb9a11ea2afd280c906f044a5b878dfab4de3ef6a1909eb9a97af53d8ac8c5ea93c9bea526d82a6b846b1a0d00118"
+RPM_NAME = "texlive-statistics-2026.226.2.2svn67201-64.2.noarch.rpm"
+RPM_HASH = "9f2188786b55f6f5298865b0896456792f137050bb9df0af5a845cee71d742e8996e1ad5a0d55b15cb4276cd5d2f41108b45795a9960acab49c0ff79123f3fe4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-statistics.sty \

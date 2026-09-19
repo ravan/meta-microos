@@ -2,13 +2,14 @@ SUMMARY = "KIWI - Cross Image Arch Prepare Plugin"
 DESCRIPTION = "Prepare an image root tree for a cross architecture build process."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.1.5"
+PV = "0.1.6"
 
-RPM_NAME = "python3-kiwi_crossprepare_plugin-0.1.5-11.9.aarch64.rpm"
-RPM_HASH = "4c4f69dc32ffb50db0a867f32f04d55aeb336042f80aa5c9f6d5ec109d7cbcdeb5c261c1375abf19d81d9b32c253d97d17b39881335834c93590cfa75e564dfb"
+RPM_NAME = "python3-kiwi_crossprepare_plugin-0.1.6-1.9.noarch.rpm"
+RPM_HASH = "c5c7bd2fa915bba38c75c4ac1ef4c1d16247dd5d3635ea4a5868a6ffbe799b27c8ecf551a3e3d065c54b08b11cae52a03f6a581d1dc0ee06040fbe10f1edb34e"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-kiwi-crossprepare-plugin \
-python3.11dist-kiwi-crossprepare-plugin \
+python3.13dist-kiwi-crossprepare-plugin \
 python3dist-kiwi-crossprepare-plugin"
 
 RDEPENDS:${PN} += "python-abi \

@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for imgp"
 DESCRIPTION = "Bash command line completion support for imgp."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.8"
+PV = "3.0"
 
-RPM_NAME = "imgp-bash-completion-2.8-1.8.noarch.rpm"
-RPM_HASH = "12a745aace95b813937514e17c2d0a442e30a9eb9dd04d760d3afcf6ea4f378b3ba111b60580570a1307071560a4b7b3fff038b86bd344b103e251e841ccf8c2"
+RPM_NAME = "imgp-bash-completion-3.0-1.1.noarch.rpm"
+RPM_HASH = "b8ac3ba50ca75d2c971eddcd38de62156bdb6e7310115c61787eb89246b39879808c06437a537c9cabce7000e2c95a9c6e8afef5c2442a1fe5a251f3f55353a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imgp-bash-completion"

@@ -9,10 +9,10 @@ Just have to run the following command: \
   $ ./check_fail2ban --help"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.2"
+PV = "1.1.1"
 
-RPM_NAME = "monitoring-plugins-fail2ban-1.0.2-2.2.noarch.rpm"
-RPM_HASH = "95c72c9d08c6ac88fda33866a385ecb4fe8d36865fdae333ec2e7f3640836533b8b75152172ecac5b67ae0a47f44b6e076d64ac151c5913a1e2a47e1064b0164"
+RPM_NAME = "monitoring-plugins-fail2ban-1.1.1-3.1.noarch.rpm"
+RPM_HASH = "fa1e9bba610a028b9e200da1d5a20402692e1f8ce2943f6bac173d824cc02d4711d2d267d8f3abebe89f2aedfa6abf1e45a111d2c2060c36b30771b7121b9520"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-fail2ban \

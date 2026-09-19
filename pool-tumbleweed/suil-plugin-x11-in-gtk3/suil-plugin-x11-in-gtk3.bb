@@ -3,10 +3,10 @@ DESCRIPTION = "Module plugin for: \
 * GTK3 hosts displaying X11 LV2 GUIs using suil"
 LICENSE = "ISC"
 
-PV = "0.10.18"
+PV = "0.10.22"
 
-RPM_NAME = "suil-plugin-x11-in-gtk3-0.10.18-1.1.aarch64.rpm"
-RPM_HASH = "1a816a469e076a1ebc910251f9936dc07ad992e5c4ace77c56880393ab8ad3e8155c0679e9cdd812188812355994d0060a15bcb91b8c314c3d2772e0552f69c5"
+RPM_NAME = "suil-plugin-x11-in-gtk3-0.10.22-1.6.aarch64.rpm"
+RPM_HASH = "9b6b3e0bc15a767582a5467d1b8526fbd3b7e7867c423b54ff0d595023368ba1c1c0fa15c4cc35e364afe918f9ac5638ff82dcbb1775e0f7e6afaf91f122f8b0"
 
 RPROVIDES:${PN} += "libsuil-x11-in-gtk3.so \
 suil-plugin-x11-in-gtk3"

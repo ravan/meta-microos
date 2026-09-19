@@ -8,10 +8,10 @@ LaTeX. It includes the original TrueType fonts, as well as Type \
 support with dvips"
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.2.2svn54512"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-opensans-2023.209.2.2svn54512-55.1.noarch.rpm"
-RPM_HASH = "6b57f77ace63b40a95fb48d732be15a9117c8e47140b401445919f4541539440d89c7718e74911c2cbe5f18b1be316a6f6d6fc507a914dbf619059d40f8942e0"
+RPM_NAME = "texlive-opensans-2026.226.2.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "739ee080b5e8d91471f6d0cbb8758e7c6491e63b502eaccfea872e5e53a0e7bf070114a1d2184f2b992de8970daec7ef70f922491ba5da0d8702038121ebdf7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRopensans-LF.fd \

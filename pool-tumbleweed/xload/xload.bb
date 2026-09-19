@@ -3,10 +3,10 @@ DESCRIPTION = "xload displays a periodically updating histogram of the system lo
 average."
 LICENSE = "MIT"
 
-PV = "1.1.4"
+PV = "1.2.2"
 
-RPM_NAME = "xload-1.1.4-1.6.aarch64.rpm"
-RPM_HASH = "75716817bc70f32720b02ca65ca77112966475e4df3d246e2efa8af00be3b300e51e16fcc4aac527e953d43cefb23705be2c98578e1436aed691382028efae1a"
+RPM_NAME = "xload-1.2.2-1.1.aarch64.rpm"
+RPM_HASH = "462a7cb3589dc24305a6f9951baa8a1bdf315bfd3b118b44bc90487c989f2115b9d3f54940953e225447337e3fe663428ac0c683fa45691ba6fb91b845861989"
 
 RPROVIDES:${PN} += "xload"
 

@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the Nginx Webserver."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-nginx-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "10716e968a79a84f7854b33b84f07bca5edac5471bd3786622b3b0b614e2a7009437240844bc4e32a3204029cd2c52d50fa45908e05cfb8a16bc3876e9529b92"
+RPM_NAME = "pcp-pmda-nginx-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "1a21fc51917130011d989f74485f379dc5eb7cb8cf4df74b44ed0cfd2113774d65b4e550d7cf39ef5b5bb3b59eb593d5c21772c3748df302234fbb94069ff804"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pcp-pmda-nginx \
 pcp-pmda-nginx"

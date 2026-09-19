@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.1.5"
 
-RPM_NAME = "libdmx-devel-1.1.5-1.1.aarch64.rpm"
-RPM_HASH = "35c015304dc706ed3320e525a6e5c1b355ca0d245e8f9d2b676850d706780886f62374835c8b8196cb7fcc223d858ec367c22234d31ce94988e8e5a7a8a2d0ec"
+RPM_NAME = "libdmx-devel-1.1.5-1.11.aarch64.rpm"
+RPM_HASH = "81533a94ce6807d8493b87c92c7cda396ff621885c73928cf41fd7418bbac04acbece94e31c874c480a99f071f00ded2c9a97c061ac658cf4a307684253f48df"
 
 RPROVIDES:${PN} += "libdmx-devel \
 pkgconfig-dmx"

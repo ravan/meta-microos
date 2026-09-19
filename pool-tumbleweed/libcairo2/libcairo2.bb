@@ -6,10 +6,10 @@ identical output on all output media while taking advantage of display \
 hardware acceleration when available."
 LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
-PV = "1.17.8"
+PV = "1.18.4"
 
-RPM_NAME = "libcairo2-1.17.8-1.2.aarch64.rpm"
-RPM_HASH = "c5d18cb806ea09d57a15d0def3fbc57da1a861437aae27265c30f1fcac7709eccad0b6a2d4f6f7d5cbae6552d93403815b2067acff9683628d12fd1be5e0a4ae"
+RPM_NAME = "libcairo2-1.18.4-4.5.aarch64.rpm"
+RPM_HASH = "cf2a84b1adc5cf446befdc813c560e74cb9dd763e64bff78a1b96e19a9716faee6bab0309fe78559f50a2b1af7f5183d45a8e5a29803480090a9c857961a1518"
 
 RPROVIDES:${PN} += "cairo \
 libcairo.so.2 \

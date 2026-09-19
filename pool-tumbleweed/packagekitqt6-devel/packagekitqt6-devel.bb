@@ -6,17 +6,17 @@ use some of the latest technology like PolicyKit to make the process \
 suck less."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.1"
+PV = "1.1.4"
 
-RPM_NAME = "packagekitqt6-devel-1.1.1-1.2.aarch64.rpm"
-RPM_HASH = "ed22cb0d6e8ef01f7777aad63d05d05dd0778908c82be79bdad69b6699586588717bba5ed80ea0f268cf2f2373f7e6f38ab463461921dd322d79f481512c79e6"
+RPM_NAME = "packagekitqt6-devel-1.1.4-1.5.aarch64.rpm"
+RPM_HASH = "70191acda0ba2febde14a86ee321ec8d0b0a491fac2dd9d7cf70160abd1dde6307d56918ae7c84cc84f7eabfe292add86c14e3cafa40ae742a9bb470e3f6e1b5"
 
 RPROVIDES:${PN} += "cmake-packagekitqt6 \
 packagekitqt6-devel \
 pkgconfig-packagekitqt6"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpackagekitqt6-1 \
+libpackagekitqt6-2 \
 pkgconfig-Qt6Core \
 pkgconfig-Qt6DBus"
 

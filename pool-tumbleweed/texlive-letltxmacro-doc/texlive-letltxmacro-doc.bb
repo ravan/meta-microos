@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-letltxmacro"
 DESCRIPTION = "This package includes the documentation for texlive-letltxmacro"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn53022"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-letltxmacro-doc-2023.209.1.6svn53022-55.1.noarch.rpm"
-RPM_HASH = "918af695babe749e85c2b9fa60b4bae45eaeca24a5e8ae23712a3f8b55ebbef34c1b29612c79225e31869ad1ebd9607c6c15557135775aba3cfb7a43277de76e"
+RPM_NAME = "texlive-letltxmacro-doc-2026.226.1.6svn77682-61.2.noarch.rpm"
+RPM_HASH = "e6afbdaf335ed79f4ad6a89bc8441fb7bbe7d2e79e692a625ecf6db1748d5c0088b9850591f47f711acb2c8ed2a875788c36e580b310417780175f2f1641e70c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-letltxmacro-doc-en \

@@ -2,10 +2,10 @@ SUMMARY = "ssh-agent connector for jsch-agent-proxy"
 DESCRIPTION = "ssh-agent connector for jsch-agent-proxy."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.7"
+PV = "0.0.9"
 
-RPM_NAME = "jsch-agent-proxy-sshagent-0.0.7-4.7.noarch.rpm"
-RPM_HASH = "74f5bf6aae41c8d6a18692cde04b7e39a77512a6a3b17942ace9a25e049c440b4e81e26a1ff042efa2d8c497723321de941d151ed485e1372514c08b0ba07e4b"
+RPM_NAME = "jsch-agent-proxy-sshagent-0.0.9-2.8.noarch.rpm"
+RPM_HASH = "160705bc624af914caa089d2c3777d6848dc9eecda4b0255a2786589893be7c2147a67cf09b432cfe622a0054de59aeb04e12d5a5f92f0ed5058af9b45a9f633"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-agent-proxy-sshagent \

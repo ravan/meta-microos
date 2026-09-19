@@ -6,28 +6,25 @@ This package contains the runtime environment needed to run OCaml \
 bytecode."
 LICENSE = "QPL-1.0"
 
-PV = "4.14.1"
+PV = "5.5.0"
 
-RPM_NAME = "ocaml-runtime-4.14.1-1.4.aarch64.rpm"
-RPM_HASH = "fccca718bf8f5759457fd588cf11056fb4837766142615ec94a75f576a9311e631d8ed1cfcb7ed023a018031fa79adf26c4ea79df54c004bc2bbebe6dce36494"
+RPM_NAME = "ocaml-runtime-5.5.0-2.1.aarch64.rpm"
+RPM_HASH = "dffcd8bcf78d73a2ca39cc45e0ee04bed94b009c8b08961c3272c11fd5a8d8e459a7cb09dae2f86a0df0f9469c3cf65101de532678883948fd72e63759fe9675"
 
-RPROVIDES:${PN} += "ocaml-Bigarray \
-ocaml-CamlinternalAtomic \
-ocaml-CamlinternalFormat \
+RPROVIDES:${PN} += "ocaml-CamlinternalFormat \
 ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-CamlinternalMod \
 ocaml-CamlinternalOO \
-ocaml-Condition \
 ocaml-Dynlink \
 ocaml-Dynlink-common \
-ocaml-Dynlink-compilerlibs \
+ocaml-Dynlink-config \
 ocaml-Dynlink-platform-intf \
+ocaml-Dynlink-symtable \
 ocaml-Dynlink-types \
 ocaml-Event \
-ocaml-Mutex \
 ocaml-Profiling \
-ocaml-Semaphore \
+ocaml-Runtime-events \
 ocaml-Std-exit \
 ocaml-Stdlib \
 ocaml-Stdlib--Arg \
@@ -42,7 +39,11 @@ ocaml-Stdlib--BytesLabels \
 ocaml-Stdlib--Callback \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Complex \
+ocaml-Stdlib--Condition \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
+ocaml-Stdlib--Dynarray \
+ocaml-Stdlib--Effect \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Ephemeron \
 ocaml-Stdlib--Filename \
@@ -50,8 +51,8 @@ ocaml-Stdlib--Float \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Fun \
 ocaml-Stdlib--Gc \
-ocaml-Stdlib--Genlex \
 ocaml-Stdlib--Hashtbl \
+ocaml-Stdlib--Iarray \
 ocaml-Stdlib--In-channel \
 ocaml-Stdlib--Int \
 ocaml-Stdlib--Int32 \
@@ -63,38 +64,42 @@ ocaml-Stdlib--ListLabels \
 ocaml-Stdlib--Map \
 ocaml-Stdlib--Marshal \
 ocaml-Stdlib--MoreLabels \
+ocaml-Stdlib--Mutex \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Oo \
 ocaml-Stdlib--Option \
 ocaml-Stdlib--Out-channel \
+ocaml-Stdlib--Pair \
 ocaml-Stdlib--Parsing \
-ocaml-Stdlib--Pervasives \
+ocaml-Stdlib--Pqueue \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
 ocaml-Stdlib--Queue \
 ocaml-Stdlib--Random \
+ocaml-Stdlib--Repr \
 ocaml-Stdlib--Result \
 ocaml-Stdlib--Scanf \
+ocaml-Stdlib--Semaphore \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--Stack \
 ocaml-Stdlib--StdLabels \
-ocaml-Stdlib--Stream \
 ocaml-Stdlib--String \
 ocaml-Stdlib--StringLabels \
 ocaml-Stdlib--Sys \
+ocaml-Stdlib--Type \
 ocaml-Stdlib--Uchar \
 ocaml-Stdlib--Unit \
 ocaml-Stdlib--Weak \
 ocaml-Str \
 ocaml-Thread \
-ocaml-ThreadUnix \
 ocaml-Unix \
 ocaml-UnixLabels \
 ocaml-runtime"
 
 RDEPENDS:${PN} += "libc.so.6 \
-libm.so.6"
+libm.so.6 \
+libzstd.so.1"
 
 inherit rpm

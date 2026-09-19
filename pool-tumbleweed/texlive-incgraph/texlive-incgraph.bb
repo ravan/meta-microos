@@ -8,10 +8,10 @@ has basic macros and a 'convenience' user interface that wraps \
 \\includegraphics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.0svn60810"
+PV = "2026.226.1.3.0svn76924"
 
-RPM_NAME = "texlive-incgraph-2023.209.1.2.0svn60810-54.1.noarch.rpm"
-RPM_HASH = "3450122990b9006422449fff679cd2b06943df4fec3faccddcc344d15eacefb2c3c20ef8f8966d96e024651833da8149cbaad4fc558550db023f88db91a4c490"
+RPM_NAME = "texlive-incgraph-2026.226.1.3.0svn76924-60.2.noarch.rpm"
+RPM_HASH = "6791135ace5afc7498e81dd8d94ad8c2c11f898a119549e1d89a307d6b1868cb74b5c4549f4e0159fa797e386db0379f95ea34e3edb6679d52ee7deb4f4a741d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-incgraph.sty \
@@ -23,7 +23,10 @@ ed \
 findutils \
 grep \
 sed \
-tex-pgfkeys.sty \
+tex-bookmark.sty \
+tex-graphicx.sty \
+tex-pgf.sty \
+tex-pgffor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

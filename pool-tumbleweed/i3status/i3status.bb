@@ -6,10 +6,10 @@ second so that the bar is updated even under load. It saves a bit of \
 energy by being more efficient than shell commands."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.13"
+PV = "2.15"
 
-RPM_NAME = "i3status-2.13-1.16.aarch64.rpm"
-RPM_HASH = "ccc6240c6aae8c6d608aab4704cee215307028e6259dfbad216d0e10a66bcc797972b4b959a6d487d933a07df86c5ed57429678f8df3fc968162e11fdbd24772"
+RPM_NAME = "i3status-2.15-1.8.aarch64.rpm"
+RPM_HASH = "bd9700106cd9f84aadcdd29b2ea58dd4b4eaa16c30d0a7208cbb82fbdd0ff000f64f67ea46b5174afa67770936967b373f2a2aa5d7b07fd91ea6f02af2691ed8"
 
 RPROVIDES:${PN} += "config-i3status \
 i3status"

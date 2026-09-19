@@ -5,10 +5,10 @@ which speak the Qualcomm MSM Interface (QMI) protocol. \
 This package contains command line tools to manage such devices."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "1.32.4"
+PV = "1.38.0"
 
-RPM_NAME = "libqmi-tools-1.32.4-1.2.aarch64.rpm"
-RPM_HASH = "0b1b66bc623350ac628ba381c2c7b6a7e1c522b0a2d731ad79994b2d16df69d46d507b346db7283c543f599b50af2d63e8a01aefdb1429f77f759d64f9aaf78e"
+RPM_NAME = "libqmi-tools-1.38.0-1.3.aarch64.rpm"
+RPM_HASH = "56efe480b1d18aff415b40bfe20c70a9f9c8e5bb13f1a264e7fca62f330a33f745f44cf0ca68a21690a1fb40546e9ec25c8ee938b097bb24ce76169555874dc7"
 
 RPROVIDES:${PN} += "libqmi-tools"
 

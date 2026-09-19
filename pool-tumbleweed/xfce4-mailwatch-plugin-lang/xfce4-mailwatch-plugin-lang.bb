@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-mailwatch-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-mailwatch-plugin' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.3.1"
+PV = "1.4.0"
 
-RPM_NAME = "xfce4-mailwatch-plugin-lang-1.3.1-1.1.noarch.rpm"
-RPM_HASH = "7954e699415dce6aa5a320bca96a5c3d8891cfc35964ced1dab6433cc3343d7a3ebe1b732be51c1d84ba233c72965525084113a284e3e32dce17452584c3e369"
+RPM_NAME = "xfce4-mailwatch-plugin-lang-1.4.0-1.4.noarch.rpm"
+RPM_HASH = "ca3d1adca336a3dc0490e566326c2eaf29b534b4b3fcc8bdf51b9d0d8acfbc99618638d407e42ef4281218def7889020b514dd39dd4f4f40657654da4a14b51e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-mailwatch-plugin-ar \
@@ -40,6 +40,7 @@ locale-xfce4-mailwatch-plugin-oc \
 locale-xfce4-mailwatch-plugin-pl \
 locale-xfce4-mailwatch-plugin-pt \
 locale-xfce4-mailwatch-plugin-pt-BR \
+locale-xfce4-mailwatch-plugin-ro \
 locale-xfce4-mailwatch-plugin-ru \
 locale-xfce4-mailwatch-plugin-sk \
 locale-xfce4-mailwatch-plugin-sl \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-wordlike"
 DESCRIPTION = "This package includes the documentation for texlive-wordlike"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2bsvn15878"
+PV = "2026.226.1.2bsvn15878"
 
-RPM_NAME = "texlive-wordlike-doc-2023.209.1.2bsvn15878-54.1.noarch.rpm"
-RPM_HASH = "5fe0338b0266775da9f92f202edd048b3d96bd93c60e265554576b00de33d5d7cd6fda5cf3f772dd8768c413d5654c141ee61d46c235b5b73532a217d6fea41c"
+RPM_NAME = "texlive-wordlike-doc-2026.226.1.2bsvn15878-60.2.noarch.rpm"
+RPM_HASH = "337ab315cf06f353cd97a1e8ed913f03891081f3ecd1f3f73be24e36a9a5a64584be09744daf9ed0adbc6d42e5b5d2f2be280c0579c9b627295f5ca1551875b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wordlike-doc"

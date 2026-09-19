@@ -11,10 +11,10 @@ This implementation turns frames of 160 16-bit linear samples into \
 standard test patterns."
 LICENSE = "ISC"
 
-PV = "1.0.22"
+PV = "1.0.24"
 
-RPM_NAME = "libgsm-devel-1.0.22-1.3.aarch64.rpm"
-RPM_HASH = "e1a9b478cbd907e7aad8230c3b250c63c7c9057e0f200132473ed32bec13e4a0b3a0de12f1ac9235cbe60a79cfc4a95575025620408628e867ae5f5940cdd6a2"
+RPM_NAME = "libgsm-devel-1.0.24-1.3.aarch64.rpm"
+RPM_HASH = "c487cb1918d5afd09758de5e34fb6646791d7b4f4a6ecac07cc6d77169920fbb03d8f8f23cf61e2a023863d74e57217f21730ff9d45dec5dbb6b323423d5632c"
 
 RPROVIDES:${PN} += "libgsm-devel"
 

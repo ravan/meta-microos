@@ -8,10 +8,10 @@ feedback/feedforward-filter and echo. A fixed resonator will use, \
 when distortion is disabled."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.44.1"
+PV = "0.47.0"
 
-RPM_NAME = "guitarix-0.44.1-2.3.aarch64.rpm"
-RPM_HASH = "e30bcc8c97d4d71040aa5a01ba4940f546a6ca379a572ede6aaf715e1a818235c752e5fd37389d41a70e7d040828b1e5044efb45756bf742ea50465ceb3c55e4"
+RPM_NAME = "guitarix-0.47.0-2.3.aarch64.rpm"
+RPM_HASH = "a92aa586eebcb92151baf8eed9237aa474e3e5eb5277b1351c84825ac61b75c356819f4f8bfbb4fae5aa4f09579f5f1bcf6a57bdab989b5df2e8e75cd4ffc34b"
 
 RPROVIDES:${PN} += "guitarix"
 
@@ -20,7 +20,7 @@ libatkmm-1.6.so.1 \
 libavahi-common.so.3 \
 libavahi-gobject.so.0 \
 libbluetooth.so.3 \
-libboost-iostreams.so.1.82.0 \
+libboost-iostreams.so.1.91.0 \
 libc.so.6 \
 libcairomm-1.0.so.1 \
 libcurl.so.4 \
@@ -42,6 +42,7 @@ liblilv-0.so.0 \
 liblo.so.7 \
 liblrdf.so.2 \
 libm.so.6 \
+libmvec.so.1 \
 libpangomm-1.4.so.1 \
 libsigc-2.0.so.0 \
 libsndfile.so.1 \

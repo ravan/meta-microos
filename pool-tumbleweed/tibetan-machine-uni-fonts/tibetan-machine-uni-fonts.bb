@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0"
 
 PV = "1.901"
 
-RPM_NAME = "tibetan-machine-uni-fonts-1.901-3.17.noarch.rpm"
-RPM_HASH = "65ca123e4b169742622295aa9ea215cd003c1ca3d7bf9a3e62bcfc25eda6fe0c9f0ac9bf38bb839550582b80dcab385b9552018cd76438f5fdd3070819ee6438"
+RPM_NAME = "tibetan-machine-uni-fonts-1.901-3.25.noarch.rpm"
+RPM_HASH = "1112818739efa39dd0731492a930ee88b04b27d1cb0810d5deb5ec3f66cca85d19dff6771ead1b25631d00dc7198338fc5f195607f1dc8c762aed9d3dc2e7d8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tibetan-machine-uni-fonts"

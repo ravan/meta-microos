@@ -1,17 +1,18 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 3DInput library"
 DESCRIPTION = "This package provides private headers of libQt63DInput that do not have any \
 ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-3dinput-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "e34a5694c7a3a7f7c9a4abfb6b85c3aba2c8c9a994cfb88d2bd76984985294f2d8ade2f689a3da3aecbff3890a00f756cfb934fadab29d69a552ec7f6f86e10a"
+RPM_NAME = "qt6-3dinput-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "84378e81b6f54d64ca5de39fe7917d78aecfe91ddd6f7492e44e8ac230db30cdc6c5e0210253c9f62f6b882239e7d09fff8d91d056aa63d2e73adbe4bd6fedd1"
 
-RPROVIDES:${PN} += "qt6-3dinput-private-devel"
+RPROVIDES:${PN} += "cmake-Qt63DInputPrivate \
+qt6-3dinput-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt63DInput \
-qt6-3dcore-private-devel \
-qt6-core-private-devel"
+RDEPENDS:${PN} += "cmake-Qt63DCorePrivate \
+cmake-Qt63DInput \
+cmake-Qt6CorePrivate"
 
 inherit rpm

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.1.25"
 
-RPM_NAME = "xmgrace-devel-5.1.25-4.7.aarch64.rpm"
-RPM_HASH = "b2777ddb8bfe1efa523fa3d01f6d948f70ea0be2563b23ede4d8c1b3943b10902254f52c916ff628af22aea66c9907b2639093c8ac6871900519195f90825912"
+RPM_NAME = "xmgrace-devel-5.1.25-7.7.aarch64.rpm"
+RPM_HASH = "4ce7d15069aa326b0d60f897f87dc23b9d0d8f1879b1008de357e492bda8be22b0a64ca72908c5167c76f77105954fb03e1880eb77215facf85eb8e6b10bfa88"
 
 RPROVIDES:${PN} += "xmgrace-devel"
 

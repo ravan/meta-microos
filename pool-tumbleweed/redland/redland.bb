@@ -5,12 +5,12 @@ is modular and supports different RDF parsers, serializers, storage and \
 query languages.  Redland is designed for developers to provide RDF \
 support in their applications as well as a core library for RDF \
 developers to start with."
-LICENSE = "LGPL-2.1-or-later & Apache-2.0"
+LICENSE = "Apache-2.0 & LGPL-2.1-or-later"
 
 PV = "1.0.17"
 
-RPM_NAME = "redland-1.0.17-2.21.aarch64.rpm"
-RPM_HASH = "6ba8465f9751d8d9d7d5cd9b8700c1f9c07034a2fd3a917beee1a97d34fa1929b99571f28043fdf59e182cae92a0310862ba5435285739f91b97638cebc9bd5a"
+RPM_NAME = "redland-1.0.17-6.8.aarch64.rpm"
+RPM_HASH = "f09d13de899fa6d0854c2362d9011c0ff2141325743928c77af03e92ba10a7c28c3e2f423bfa74a253316feb1dcba72ead8c863994e5429c85586981e849326a"
 
 RPROVIDES:${PN} += "librdf-storage-sqlite.so \
 redland"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package baobab"
 DESCRIPTION = "Provides translations for the 'baobab' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "baobab-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "e5f566fe53db629ef27565d4fede3014622afdda35e2d91d2c444eb9de9a2c5ab427a22e7f3e3fa91871eb7de3d2aa7a18cd1dd93ab3d9175cf4412beaafdd32"
+RPM_NAME = "baobab-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "ad5d865a35c612db5da1f0801debf21f108c6a28d92877a19181fb2e3f7baa0b69f5be83a3edf73408968285e4360b6cde63b38e719dff8c838f74be3d480a7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "baobab-lang \
@@ -49,6 +49,7 @@ locale-baobab-he \
 locale-baobab-hi \
 locale-baobab-hr \
 locale-baobab-hu \
+locale-baobab-ia \
 locale-baobab-id \
 locale-baobab-is \
 locale-baobab-it \

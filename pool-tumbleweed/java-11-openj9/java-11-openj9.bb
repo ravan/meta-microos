@@ -4,12 +4,12 @@ is a Java Virtual Machine for OpenJDK that is optimized for small \
 footprint, fast start-up, and high throughput. \
  \
 Supported architectures are ppc64le, s390x and x86_64"
-LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
+LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & LicenseRef-SUSE-Public-Domain & W3C"
 
-PV = "11.0.20.1"
+PV = "11.0.32.1"
 
-RPM_NAME = "java-11-openj9-11.0.20.1-1.1.aarch64.rpm"
-RPM_HASH = "166f86207ea806a86123cb8403d7c8f03c2d792f774ffbd89583221b387ceb173c41fb6ddfb6a9e5d530001131549b130aec7db68919a99cb717df0f56442098"
+RPM_NAME = "java-11-openj9-11.0.32.1-1.1.aarch64.rpm"
+RPM_HASH = "d7ef93302680ab17ef817a6a118475d7ef0ad6efc1e1a2a9a464c779e98effb2679904f5d80932bebae47b90657ece9c3785e2329d77b8685b9f4a6d5176de9d"
 
 RPROVIDES:${PN} += "java \
 java-11 \

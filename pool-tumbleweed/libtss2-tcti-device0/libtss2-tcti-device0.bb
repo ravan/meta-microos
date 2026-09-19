@@ -4,10 +4,10 @@ TPM device node. This provides direct access to the TPM through the Linux \
 kernel driver."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.0.1"
+PV = "4.1.3"
 
-RPM_NAME = "libtss2-tcti-device0-4.0.1-2.1.aarch64.rpm"
-RPM_HASH = "dcaaf9167d6b43bc2a03027a556254b4e693768dd4c34bf3f7dffc589624390bb8d39fe61434c718af5b9b64619bf41bef88a7c120c1aeb6a0fab7c8931d6c4f"
+RPM_NAME = "libtss2-tcti-device0-4.1.3-1.6.aarch64.rpm"
+RPM_HASH = "854940b696a0a6432ee7e04a879b27e0e4d291b874d5dce4c2e7b2632a0706bc48b1d60c6e8a0429ece54e605b19093c638aaa1b8695a574324e00155bef0dd3"
 
 RPROVIDES:${PN} += "libtss2-tcti-device.so.0 \
 libtss2-tcti-device0"

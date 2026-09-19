@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Installation Parts"
 DESCRIPTION = "System installation code as present on installation media."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.7"
+PV = "5.0.21"
 
-RPM_NAME = "yast2-installation-4.6.7-1.1.noarch.rpm"
-RPM_HASH = "4c8b4397ed5d2140a40975ab393eaa2c49fcd7fb2e164ba6c890a13588abd9e4a20365d7f74321b71d356acfa1b77490b0d6fd7b80ed11dd3d3ee4c28a5489e8"
+RPM_NAME = "yast2-installation-5.0.21-1.1.noarch.rpm"
+RPM_HASH = "b527b4f069c22ff0769bccc4d57a3c4aeaea32ab206ef64fd7d6ae185b3fcd0b32d19aef74cfe34c233e97613b75b92062ecc842516372b65452f73ddbaa24f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-installation"
@@ -21,7 +21,6 @@ awk \
 coreutils \
 fillup \
 gzip \
-initviocons \
 iproute2 \
 pciutils \
 systemd \

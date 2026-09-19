@@ -10,22 +10,21 @@ You only need to specify 3 things: \
     * backup frequency (manual, every hour, every day, every month)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.3"
+PV = "1.6.1"
 
-RPM_NAME = "backintime-1.3.3-2.1.noarch.rpm"
-RPM_HASH = "7502a90bcae2f3fa81c61cf5fc89acb238154fc591644b8ec2a2a36c2a799684963e8e63bdb66476b587d10806b5e396038fc90589bec4f9284c30f2d2870fd7"
+RPM_NAME = "backintime-1.6.1-1.2.noarch.rpm"
+RPM_HASH = "5eabd05f07eaf36f5b98790b9cf846913830877b298313bddb42c767886e2a99438bb212f032eee5c94931140d5c2caca1a3d2f8606de78628aabb2d9ffcd7a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "backintime \
-backintime-doc"
+backintime-doc \
+config-backintime"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-cron \
-dbus-1-python3 \
-libnotify-tools \
 openssh \
 pkexec \
 python3 \
+python3-dbus-python \
 python3-keyring \
 python3-packaging \
 rsync"

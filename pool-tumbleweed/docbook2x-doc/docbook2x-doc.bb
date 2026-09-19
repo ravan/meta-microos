@@ -1,11 +1,11 @@
 SUMMARY = "DocBook-to-Texinfo Converter"
 DESCRIPTION = "A new tool based on Perl modules."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "MIT"
 
 PV = "0.8.8"
 
-RPM_NAME = "docbook2x-doc-0.8.8-127.14.aarch64.rpm"
-RPM_HASH = "8c4687e52b29be2b900789479669ead0dc45d2264518a59c728d2f974f25c3020e9a8dd1bb9a0ddb90f74d27374254baffafde3e6cae2308f3ca9d8ca9c0aa76"
+RPM_NAME = "docbook2x-doc-0.8.8-130.7.aarch64.rpm"
+RPM_HASH = "9a21faf4488cae9215377ddaa686e2b99d1674506ce6b516505f3d0f5075f058e133c0bc57f2b3ec8d1bf3bf111d8bbc5f80d9c416cc25d304b370e66b20aed5"
 
 RPROVIDES:${PN} += "docbook2x-doc"
 

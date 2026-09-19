@@ -2,10 +2,10 @@ SUMMARY = "A human-friendly and fast alternative to cut and (sometimes) awk"
 DESCRIPTION = "A human-friendly and fast alternative to cut and (sometimes) awk."
 LICENSE = "MIT"
 
-PV = "1.3.4~0"
+PV = "1.3.7"
 
-RPM_NAME = "choose-1.3.4~0-1.5.aarch64.rpm"
-RPM_HASH = "02510f23f12eb59bc6cfcdcf6f9ffb302cf70a41a58fa1d6522eb45289c9d81a7d2ff40181c680e4d72fc8fb9c00e745b3a3f94b9ab008af691773fc2885e7f7"
+RPM_NAME = "choose-1.3.7-1.8.aarch64.rpm"
+RPM_HASH = "fce07cf65d61cc4d53c06d2b9257567e4df439d870bed31cd3d660461975da8c9fe6e8501b69a9c7907a026f2175863fce18a3ede4a5632044d56c598119af60"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-term \
@@ -23,6 +23,7 @@ bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
 bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
 bundled-rust-crate-strsim \
 bundled-rust-crate-structopt \

@@ -7,17 +7,17 @@ the underlying platform. However, Allegro is not a game engine: \
 developers are free to design and structure the program as desired."
 LICENSE = "BSD-3-Clause & Zlib"
 
-PV = "5.2.8.0"
+PV = "5.2.11.3"
 
-RPM_NAME = "liballegro_acodec5_2-5.2.8.0-1.4.aarch64.rpm"
-RPM_HASH = "e4390b145d9c8848191200b762b2cdab3ae49e0837c3377759e68b1eb7a059ca931fd037ed4eb400a119351ea8f0a7fe425db11ecce455bed3def4a8347264bc"
+RPM_NAME = "liballegro_acodec5_2-5.2.11.3-1.5.aarch64.rpm"
+RPM_HASH = "77d3dd8f490761ee26f386f6bc90c3beab7c7809dd8a94044ff694ca1ee41dd44adde7ed763739db419d0e9fb13fa41655d1287146a13fbcd5bca0e3f0a58839"
 
 RPROVIDES:${PN} += "liballegro-acodec.so.5.2 \
 liballegro-acodec5-2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 liballegro-audio.so.5.2 \
 liballegro.so.5.2 \
 libc.so.6 \

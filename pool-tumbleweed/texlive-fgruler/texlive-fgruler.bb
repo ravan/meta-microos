@@ -7,10 +7,10 @@ fgruler package requires the services of the following \
 packages: kvoptions, etoolbox, xcolor, graphicx, eso-pic."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn63721"
+PV = "2026.226.1.7svn77333"
 
-RPM_NAME = "texlive-fgruler-2023.209.1.5svn63721-53.1.noarch.rpm"
-RPM_HASH = "509b2e359f77d1233b440f42f860ad03377d2e1a19cbf243c9f48d6b1f49776ac712cd32a4872bd80a0457ad8123d966c69492f844f14ebfd1005e71a6eab1c7"
+RPM_NAME = "texlive-fgruler-2026.226.1.7svn77333-59.2.noarch.rpm"
+RPM_HASH = "12288eb1a02c2644fdb90741edfe4d8ffbf797a13e9c22f16340d57e790b804fe6e359dd69e99284cbd0ac1de1f83556ce10e89ec8323faedb96506c253c64d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fgruler.sty \

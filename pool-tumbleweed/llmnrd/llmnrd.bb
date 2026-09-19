@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.7"
 
-RPM_NAME = "llmnrd-0.7-4.4.aarch64.rpm"
-RPM_HASH = "44a349dc4225b0fffd975265e4ab616c3e5bebe99e4cb6ef1e8c458dc26835a4c4772ae0c4187db4ae9fbd0da850b51188fca82267ff055b0954666b18f3d6ce"
+RPM_NAME = "llmnrd-0.7-5.9.aarch64.rpm"
+RPM_HASH = "6c2aca0f22fb6d9693c8414366c9ea69702593043269636ab8428937728427ded976be53df11ab8a841d5724ecce83f0606923c30b1f1a9ce4790316306a4bd8"
 
 RPROVIDES:${PN} += "config-llmnrd \
 llmnrd"

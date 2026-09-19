@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.0"
 
-RPM_NAME = "libcxxtools-http10-3.0-4.6.aarch64.rpm"
-RPM_HASH = "bf22f7ced1e4f0bc51f8009ed6d8e6ca2e110ee5b95f8cf4b426fbeadfc54a1c1c8ef80faf01e704db17a1f6bf99d88e8b6ba07916f1a9329065ff2c62179fd6"
+RPM_NAME = "libcxxtools-http10-3.0-5.1.aarch64.rpm"
+RPM_HASH = "4d41b4b97d3abe9c2bb29ad3375bf36ca5c0ec29ebde55f319a613f9a434e9f60ad59db61792f18fb39d3b741fff5220a7c00b6013de65c69c017cb721bcb476"
 
 RPROVIDES:${PN} += "libcxxtools-http.so.10 \
 libcxxtools-http10"

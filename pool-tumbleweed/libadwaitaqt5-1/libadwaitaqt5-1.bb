@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.2"
 
-RPM_NAME = "libadwaitaqt5-1-1.4.2-3.4.aarch64.rpm"
-RPM_HASH = "b6121fb899649fb35b7fab9cdaf386ed46f9a19991cd07d3023ed3ede2c8047a41eebed065016eb1b3b0e813a05ae3c044b1068c84dcc452981c196de2be7685"
+RPM_NAME = "libadwaitaqt5-1-1.4.2-4.11.aarch64.rpm"
+RPM_HASH = "6511fd65316d6a1a96741ea7f82bbf4541bad6eb541c71dfe705360433caea3789634d33aed790cb8651e2b86e9fe8685a7fbacedf5f920d0bcd3fcf9dbe8a96"
 
 RPROVIDES:${PN} += "libadwaitaqt.so.1 \
 libadwaitaqt1 \

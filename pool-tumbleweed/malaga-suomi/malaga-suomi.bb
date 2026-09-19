@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5"
 
-RPM_NAME = "malaga-suomi-2.5-1.3.noarch.rpm"
-RPM_HASH = "f8b7f04b551de7b6c14cc4683d16792c143b55deee81e58f78d999fcd3c9e2a7d2b4c0c5bc363b15775a106ffe22b325e8a61e6ee6772922cc1dd21f27309d67"
+RPM_NAME = "malaga-suomi-2.5-1.11.noarch.rpm"
+RPM_HASH = "f3e82fe38069516c6690af349055e214c881b9c2efe7d5ae08dda1d26226eb71081d8798834c644c4bfc06c64f56a3b856866006ba3a0be94794531a9a3869a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "malaga-suomi \

@@ -5,10 +5,10 @@ configure the ports, a control login for modifying port parameters, \
 monitoring ports, and controlling ports."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5.0"
+PV = "4.6.8"
 
-RPM_NAME = "ser2net-4.5.0-1.1.aarch64.rpm"
-RPM_HASH = "35f3fe6cdb74be1f252dec66cd9d0563df3164af7c18c0cc3ef2086edd5d3fd93c59ab7fd4fc9f078c5f8e3950e08fc7510c20ab38c889ef49be3bdb04f0c7a3"
+RPM_NAME = "ser2net-4.6.8-1.1.aarch64.rpm"
+RPM_HASH = "7d670bc142487f4a692584e46dab6d6f9825282cd5ce148112e72ec9129a231ec2be07a18a0c23ea7fb11dd3616fbb53d11bb95bb191d8a10930dc81c7597c42"
 
 RPROVIDES:${PN} += "config-ser2net \
 ser2net"
@@ -16,9 +16,10 @@ ser2net"
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgensio.so.6 \
-libgensiomdns.so.6 \
-libgensioosh.so.6 \
+libcrypt.so.1 \
+libgensio.so.14 \
+libgensiomdns.so.14 \
+libgensioosh.so.14 \
 libyaml-0.so.2 \
 systemd"
 

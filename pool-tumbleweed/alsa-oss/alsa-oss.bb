@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.8"
 
-RPM_NAME = "alsa-oss-1.1.8-5.3.aarch64.rpm"
-RPM_HASH = "f80d866e710b72558ce47747917c773d1a68cafcdedc606602532fdfeff9b5fcca2a662d8aef1bc771cfeecbb767d7c8dad8afa1f3626caa6692bf63a7d1f237"
+RPM_NAME = "alsa-oss-1.1.8-5.13.aarch64.rpm"
+RPM_HASH = "7277c54ae520802821b744fe3e79ecde3ef2615c6a63e2e195f3f812ac1af4abfa2e83d055b5a9045ff48859b9e1319cf1c2901c6020c84c9f5b11672b4da435"
 
 RPROVIDES:${PN} += "alsa-oss \
 libalsatoss.so.0 \

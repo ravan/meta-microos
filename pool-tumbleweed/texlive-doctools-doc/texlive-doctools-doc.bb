@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-doctools"
 DESCRIPTION = "This package includes the documentation for texlive-doctools"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn34474"
+PV = "2026.226.0.0.1svn34474"
 
-RPM_NAME = "texlive-doctools-doc-2023.209.0.0.1svn34474-53.1.noarch.rpm"
-RPM_HASH = "3e0a297007f70e1d1643ab8c1e2d094c0431ca7619dcddab42dd21ac589f8a131d69455ffa57fcd6ba08bd0bad8320c26fcee9cbedda25af1fab2a929eac271a"
+RPM_NAME = "texlive-doctools-doc-2026.226.0.0.1svn34474-59.2.noarch.rpm"
+RPM_HASH = "4f8396ec4f465c48041ac093e7710e12550befda55995257ad849459ef61897bef9405ca3fd7fecabbe3ba746b1e68cf973af2068d5b77b13d0b733bdc95a7e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-doctools-doc"

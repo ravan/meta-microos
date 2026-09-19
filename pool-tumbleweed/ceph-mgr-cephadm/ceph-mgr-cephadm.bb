@@ -1,12 +1,12 @@
 SUMMARY = "Ceph Manager module for cephadm-based orchestration"
 DESCRIPTION = "ceph-mgr-cephadm is a ceph-mgr module for orchestration functions using \
 the integrated cephadm deployment tool management operations."
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "ceph-mgr-cephadm-16.2.13.66+g54799ee0666-4.1.noarch.rpm"
-RPM_HASH = "dc981e9b60bd9e71cc39fef7c305c9dd07ce3f13da1c835c7daf075d21d5158812f5632da3571096719c0626089b25d798286e570fc2237ad727c340b9cc712e"
+RPM_NAME = "ceph-mgr-cephadm-18.2.7-8.1.noarch.rpm"
+RPM_HASH = "292ac49013170b362402da3928e15f38e02d9141bd12b8f495adcb19e0f0d2e7a97a3ca729731ca5687084f0e58da3ce8e36a1aabeee4bc4fa70a3dcf8b50ab6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-cephadm"
@@ -15,7 +15,9 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 ceph-mgr \
 cephadm \
 openssh \
+python3-CherryPy \
 python3-Jinja2 \
-python3-remoto"
+python3-asyncssh \
+python3-natsort"
 
 inherit rpm

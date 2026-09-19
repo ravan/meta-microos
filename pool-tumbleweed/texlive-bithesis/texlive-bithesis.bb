@@ -4,16 +4,13 @@ template for Beijing Institute of Technology dissertations, \
 including general undergraduate theses and master theses."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.4.2svn66366"
+PV = "2026.226.3.8.7svn77337"
 
-RPM_NAME = "texlive-bithesis-2023.209.3.4.2svn66366-53.1.noarch.rpm"
-RPM_HASH = "8b041c33cbc0ed8f72c3b5b27ff524dbcfad7f71a55f8e513ee1e427d77b979254fabc009cc526f6a6a7235332c8ec1e4b00605a3e460fbf912d5840d1e6d05c"
+RPM_NAME = "texlive-bithesis-2026.226.3.8.7svn77337-59.2.noarch.rpm"
+RPM_HASH = "cc34d9573ca8b3aca4bdbb53d1fdaaa772253fabaed21193c31a462f58375436e3b3cec3d5364e43a931902dcc45b63e255e274d17d302b091a06d55d4eb4972"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-bitart.cls \
-tex-bitbeamer.cls \
-tex-bitbook.cls \
-tex-bitgrad.cls \
+RPROVIDES:${PN} += "tex-bitbeamer.cls \
 tex-bithesis.cls \
 tex-bitreport.cls \
 texlive-bithesis"
@@ -24,55 +21,38 @@ ed \
 findutils \
 grep \
 sed \
-tex-amsfonts.sty \
 tex-amsmath.sty \
 tex-amssymb.sty \
 tex-amsthm.sty \
 tex-array.sty \
-tex-biblatex.sty \
-tex-bm.sty \
 tex-booktabs.sty \
 tex-caption.sty \
 tex-ctexart.cls \
 tex-ctexbeamer.cls \
 tex-ctexbook.cls \
 tex-datetime2.sty \
-tex-dcolumn.sty \
 tex-enumitem.sty \
 tex-etoolbox.sty \
 tex-expl3.sty \
 tex-fancyhdr.sty \
-tex-float.sty \
 tex-fmtcount.sty \
-tex-fontspec.sty \
 tex-geometry.sty \
 tex-graphicx.sty \
 tex-hyperref.sty \
-tex-ifpdf.sty \
-tex-ifthen.sty \
+tex-ifplatform.sty \
 tex-indentfirst.sty \
-tex-kvoptions.sty \
 tex-l3keys2e.sty \
 tex-listings.sty \
-tex-mathrsfs.sty \
-tex-mhchem.sty \
 tex-multirow.sty \
 tex-pdfpages.sty \
 tex-pifont.sty \
 tex-setspace.sty \
-tex-siunitx.sty \
-tex-subfigure.sty \
-tex-threeparttable.sty \
 tex-tikz.sty \
-tex-titlesec.sty \
 tex-titletoc.sty \
 tex-unicode-math.sty \
-tex-upgreek.sty \
-tex-wrapfig.sty \
 tex-xcolor.sty \
-tex-xeCJK.sty \
 tex-xeCJKfntef.sty \
-tex-xltxtra.sty \
+tex-zhlineskip.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

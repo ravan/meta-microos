@@ -1,14 +1,15 @@
 SUMMARY = "Qt 6 QuickTimeline library"
 DESCRIPTION = "The Qt 6 QuickTimeline library."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6QuickTimeline6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "99d6284d444490859bb7c176cd82d5092d2dc5eec741fbce936f9269fa86bcb2fbbfd15ef01fc5696abe28566d79a2cf7f10f03979d22c9e86508989ef40e5d6"
+RPM_NAME = "libQt6QuickTimeline6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "2fc6812e6fd5aea626420169f93c17bedb644706872a2829840d6b3d45fcc2814e05de8477d30277553d398355ab3f8d056c42c626e9a6581c1604705b2a1850"
 
 RPROVIDES:${PN} += "libQt6QuickTimeline.so.6 \
-libQt6QuickTimeline6"
+libQt6QuickTimeline6 \
+libQt6QuickTimelineBlendTrees.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \

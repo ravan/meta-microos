@@ -5,10 +5,10 @@ environments, automatic spacing and alignment of figures and \
 much more. More information is available in the package readme."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.5svn53642"
+PV = "2026.226.1.0.7svn74632"
 
-RPM_NAME = "texlive-lectures-2023.209.1.0.5svn53642-55.1.noarch.rpm"
-RPM_HASH = "ab491447efa55eafb117d26766a0e4a5109f7b0d88005dce46cd41e8fcf0927d63f9afdc3247bca119a7acc6b689381ae58ec1a2d6a3fcc77c83a8900364dcdf"
+RPM_NAME = "texlive-lectures-2026.226.1.0.7svn74632-61.2.noarch.rpm"
+RPM_HASH = "1120e56c05b01f4c38c8d3ad78605f083c3cbe59c8289b8c8f160f30e049733c7251c54896c99079ef19bcd874c265bc07c5b3fcba9a5b7419eb567dfd996e51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lectures.cls \
@@ -27,10 +27,10 @@ tex-amsmath.sty \
 tex-amssymb.sty \
 tex-amsthm.sty \
 tex-array.sty \
-tex-babel.sty \
 tex-biblatex.sty \
 tex-bm.sty \
 tex-bodegraph.sty \
+tex-cancel.sty \
 tex-caption.sty \
 tex-centernot.sty \
 tex-circuitikz.sty \

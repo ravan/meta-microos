@@ -2,10 +2,10 @@ SUMMARY = "MaxMind DB Apache Module"
 DESCRIPTION = "This module allows you to query MaxMind DB files from Apache 2.2+ using the libmaxminddb library."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.0"
+PV = "1.3.0"
 
-RPM_NAME = "apache2-mod_maxminddb-1.2.0-1.14.aarch64.rpm"
-RPM_HASH = "b353aa40eeed9515b4c9bac4276fab13314e78ab52e431c72e2798698ad7c01c479e8df054ca04cc476a986070b8ba229c7538c641b49e2f7883d1ee333fb153"
+RPM_NAME = "apache2-mod_maxminddb-1.3.0-1.7.aarch64.rpm"
+RPM_HASH = "778335a36e60dac56e2514b12a0380db8930c0f33c4bbd40ea081ca379b00342cac1e8831d063dee07f06bd78bf7f48dbcd0dc6b12c663a05194d848645eac55"
 
 RPROVIDES:${PN} += "apache2-mod-maxminddb \
 config-apache2-mod-maxminddb"

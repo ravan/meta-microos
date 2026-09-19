@@ -8,10 +8,10 @@ Vulkan. \
 This package contains the shared libraries for VulkanSceneGraph."
 LICENSE = "MIT"
 
-PV = "1.0.8"
+PV = "1.0.9"
 
-RPM_NAME = "libvsg14-1.0.8-1.1.aarch64.rpm"
-RPM_HASH = "89df84912f81bf244a25e188094a1e6d9ef66e76a84ef2c7411e557e14c0b21c5be0b428a316779c2ef8b7ba89505be6f1f08cc4bb96e906a243ae044da3db9e"
+RPM_NAME = "libvsg14-1.0.9-2.5.aarch64.rpm"
+RPM_HASH = "9a502b8152951c1ddd7b7d713d3ea467a860329381a9fb4b3046cd7e32c3d996cf1e936e11d8b0da302f0c1001a52092aad3c72cd56a515e1214a3acef729d1e"
 
 RPROVIDES:${PN} += "libvsg.so.14 \
 libvsg14"

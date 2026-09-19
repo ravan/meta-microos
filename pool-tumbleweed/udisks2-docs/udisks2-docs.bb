@@ -2,10 +2,10 @@ SUMMARY = "Developer documentation for udisks2"
 DESCRIPTION = "This package contains developer documentation for udisks2."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "2.9.4"
+PV = "2.11.2"
 
-RPM_NAME = "udisks2-docs-2.9.4-6.4.noarch.rpm"
-RPM_HASH = "9a2223d3221b0083054c405e0f9ccab753602032ac877b74d51a90d896b15ecc12c814a0b9c0c4a619371eb443a92f56da3ff6fa0b876452a356e434dd21cb7e"
+RPM_NAME = "udisks2-docs-2.11.2-1.1.noarch.rpm"
+RPM_HASH = "205c7840c70a027bcbc3f5464372514d4d82f14d47ae963822345c9e6ce956186ae0ccc3723625b050917fd4638f0d96407c8d31cc4a9384c309e6b32b80c204"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "udisks2-docs"

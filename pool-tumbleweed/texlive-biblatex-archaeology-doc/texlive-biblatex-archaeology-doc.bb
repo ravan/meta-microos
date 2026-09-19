@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-archaeology"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-archaeology"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn53281"
+PV = "2026.226.2.2svn53281"
 
-RPM_NAME = "texlive-biblatex-archaeology-doc-2023.209.2.2svn53281-54.1.noarch.rpm"
-RPM_HASH = "2b37617479fc04c6b364811363d5638f8f87e814bfd8297219b6859ea0ce646f58e28dd701993e840e8a302893374d03e462d2579c59f0dbab0d1ac1644e8fc4"
+RPM_NAME = "texlive-biblatex-archaeology-doc-2026.226.2.2svn53281-61.2.noarch.rpm"
+RPM_HASH = "8094e9f6f6a5fe3c94af8aa1252fd75bb068b1f36957c91b6e0c0a1300fa726faf3b40dea05a47ce31574bcf57070b1ce212b6b240f75e79a671d075eaa7ad43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-archaeology-doc"

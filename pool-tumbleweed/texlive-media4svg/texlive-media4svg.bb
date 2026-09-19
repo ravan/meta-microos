@@ -10,10 +10,10 @@ By default, media files are embedded into the SVG output to \
 make self-sufficient SVG files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.13svn64686"
+PV = "2026.226.0.0.13svn76924"
 
-RPM_NAME = "texlive-media4svg-2023.208.0.0.13svn64686-53.1.noarch.rpm"
-RPM_HASH = "86c0a0ca8618dca12cf5ddb99baa9014acecef244a9d54592fe83d90ae1d71e1e1ea79b5a988fcc47a9bc626b65e62096376f2f1cb900447d7721890add44629"
+RPM_NAME = "texlive-media4svg-2026.226.0.0.13svn76924-59.2.noarch.rpm"
+RPM_HASH = "57b2987181c140885cce56bbeda8c796dbf4dd786cc22c8ae8d12bfa0a97ff182c7024bd2448fe00528b3450c8a984044d8d56b8b4df8d3c4f4a06ed7bd9972f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-media4svg.sty \

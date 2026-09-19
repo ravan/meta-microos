@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "5.0.1"
 
-RPM_NAME = "ocaml-camlp-streams-devel-5.0.1-2.5.aarch64.rpm"
-RPM_HASH = "d64d7fe617c7d1e5803673bcfaf5df5aa221452d1782e4a97ea5c1e7b436f6c3b095ea5d6783e5da4a2258a3755fda751ded02e6ed18d99978ffde66b50be913"
+RPM_NAME = "ocaml-camlp-streams-devel-5.0.1-3.1.aarch64.rpm"
+RPM_HASH = "0a34b106b52e1c2d158749756e420888ee55443ad343db4401e22a15b157e4f9577995a486b7bef78aae48ee789a140cff93c4e8841e7588b17d0fae3980d4ff"
 
 RPROVIDES:${PN} += "ocaml-Genlex \
 ocaml-Stream \
@@ -16,11 +16,24 @@ ocamlx-Genlex \
 ocamlx-Stream"
 
 RDEPENDS:${PN} += "ocaml-CamlinternalFormatBasics \
+ocaml-CamlinternalLazy \
 ocaml-Stdlib \
-ocaml-Stdlib--Genlex \
-ocaml-Stdlib--Stream \
+ocaml-Stdlib--Bytes \
+ocaml-Stdlib--Char \
+ocaml-Stdlib--Either \
+ocaml-Stdlib--Hashtbl \
+ocaml-Stdlib--Lazy \
+ocaml-Stdlib--List \
+ocaml-Stdlib--Seq \
+ocaml-Stdlib--String \
+ocaml-Stdlib--Uchar \
 ocaml-camlp-streams \
-ocamlx-Stdlib--Genlex \
-ocamlx-Stdlib--Stream"
+ocamlx-CamlinternalLazy \
+ocamlx-Stdlib \
+ocamlx-Stdlib--Bytes \
+ocamlx-Stdlib--Char \
+ocamlx-Stdlib--Hashtbl \
+ocamlx-Stdlib--List \
+ocamlx-Stdlib--String"
 
 inherit rpm

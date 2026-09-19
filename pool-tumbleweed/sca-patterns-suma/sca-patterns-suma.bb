@@ -5,10 +5,10 @@ issues relating to all versions of SUSE Manager (SUMA) \
 See /usr/share/doc/packages/sca-patterns-base/COPYING.GPLv2"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.5.0"
+PV = "1.5.1"
 
-RPM_NAME = "sca-patterns-suma-1.5.0-1.6.noarch.rpm"
-RPM_HASH = "84c969936a725b2ff3966045be1a90dc3fc5de2422b00e5910ae83fa4dcbe143bed5a42c240bff3b10801a62e94f46d39d71290d2bb6fc2a389f7b148e745390"
+RPM_NAME = "sca-patterns-suma-1.5.1-1.9.noarch.rpm"
+RPM_HASH = "49acd4a354f1cc0cf42346d9c45ba23d75e3421ad4b43ff041832aee95072647dd4f6bf606e64492990f7f6b8af1280b9b59b11d3567891d1499b444c0936a8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sca-patterns-suma"

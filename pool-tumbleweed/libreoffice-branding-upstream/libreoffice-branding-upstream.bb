@@ -2,10 +2,10 @@ SUMMARY = "Original Branding for LibreOffice"
 DESCRIPTION = "This package includes the original branding for the LibreOffice office suite."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-branding-upstream-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "b303cb90164598bdb577bc15c4c498ab64b177a0b125edcbb73a81943f04ce22fb2ab7bd1ff007fa4c6de6a488784377d00c557584468254a756d3674913faa4"
+RPM_NAME = "libreoffice-branding-upstream-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "1d8c3d835d6adc955fc0d3e1f8be77e31d21011972d244e4e8d99b9d4706b3cb25317098ce03b8a5de18636455f81b7b7f8286600905b1df9a19f11f8f858037"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-branding \

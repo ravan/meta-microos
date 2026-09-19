@@ -17,10 +17,10 @@ a MusiXTeX source file. This should be used before using \
 \\TransformNotes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn40307"
+PV = "2026.226.svn69742"
 
-RPM_NAME = "texlive-musixtnt-2023.209.svn40307-55.1.noarch.rpm"
-RPM_HASH = "6e089b02987e8e7de2d8d9337a65b5025f0ce49771fffa6e9311493ca6a4dcef0b49a3b064bafff285efd7885c51f9617c796b5425a1ac7330c81a9da830ff03"
+RPM_NAME = "texlive-musixtnt-2026.226.svn69742-61.2.noarch.rpm"
+RPM_HASH = "96a984ee3d5cdf3e7fe7322615d7b45a0658dfaf32ae09192ad171b43625a63749176484b9de09bd6e90ba297d7794c7c32db888b7668013542866c90d948e92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-musixtnt.tex \

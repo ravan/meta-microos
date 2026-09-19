@@ -5,12 +5,13 @@ Mapserver can provide an interactive internet map based on \
 custom GIS data."
 LICENSE = "MIT"
 
-PV = "8.0.0"
+PV = "8.6.6"
 
-RPM_NAME = "mapserver-8.0.0-2.7.aarch64.rpm"
-RPM_HASH = "239cf5cd047435792d3c493b2d5a0d66170efa190b725ae1a17c5338aaaa6cea485d4b5088f035bac3f676161107a9cae9a8e13a33edb53c5bbe6823db74e233"
+RPM_NAME = "mapserver-8.6.6-1.1.aarch64.rpm"
+RPM_HASH = "d481383dd556a07041d8149f74f74da93cb0549201d9ba3f0bbd99706bc9a9d5fd9a027087e698c3640e93834b9f54cba49339cc27de97684866ef72d025b330"
 
-RPROVIDES:${PN} += "mapserver"
+RPROVIDES:${PN} += "mapserver \
+python2-mapserver"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

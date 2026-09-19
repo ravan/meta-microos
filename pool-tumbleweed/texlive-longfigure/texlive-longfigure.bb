@@ -5,10 +5,10 @@ provide a table-like environment that can display a stream of \
 figures as a single figure that can break across pages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn34302"
+PV = "2026.226.1.0svn34302"
 
-RPM_NAME = "texlive-longfigure-2023.209.1.0svn34302-55.1.noarch.rpm"
-RPM_HASH = "c9210d68122197866019fbaacd443e07fdd266c49ae750e9dba0bde43ba823c67bcbf57a25770b1a4d318f8110bc1a36d0008dd1a23f370301ba02a66804345e"
+RPM_NAME = "texlive-longfigure-2026.226.1.0svn34302-61.2.noarch.rpm"
+RPM_HASH = "aea7c17a37afe82b8f6b80b299b2ef16dcde7d9fa21f97107a281c68d35148546c8ddb96c4772e528ceb9af3413c94709120769b92152bdb3a2b038e7e76269d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-longfigure.sty \

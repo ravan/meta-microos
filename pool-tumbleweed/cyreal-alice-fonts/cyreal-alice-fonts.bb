@@ -10,8 +10,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.003"
 
-RPM_NAME = "cyreal-alice-fonts-2.003-1.1.noarch.rpm"
-RPM_HASH = "d010b239aac6164fa39649b422d82f76422b08bbea0f7c5502a3b9fa845a67857cda67b40deb0cd9770ee893978c520f00fd4fb2df0e05cd5d51921e6d51f7bc"
+RPM_NAME = "cyreal-alice-fonts-2.003-1.9.noarch.rpm"
+RPM_HASH = "d9a73cac5c6fbae51b4e4da5b297e8e8057815a05adb651c1d29c38995b8ab9b83bfd87da708d085d0758e30802bd16f08b2e47221f2801182b3ef28d129bf11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cyreal-alice-fonts"

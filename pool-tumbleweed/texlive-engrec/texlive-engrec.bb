@@ -6,10 +6,10 @@ They have the syntax of \\alph, i.e. \\engrec{a_counter}, \
 upgreek and fourier packages. Requires amstext."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-engrec-2023.209.1.1svn15878-54.2.noarch.rpm"
-RPM_HASH = "7be9232a0deabfe7adaf08f1919118dbef5e11cf2eca995225fec3becc621c6e7eff9351f5e2ea3bde86d2698148be2db33c09c976d270cf4ddfe61953ca04e5"
+RPM_NAME = "texlive-engrec-2026.226.1.1svn15878-61.4.noarch.rpm"
+RPM_HASH = "4486ad996f9fce0496033f357f76d82a6ec4713bf00f9a440162f47ed9745cff9237bd666b3a3312c0022221cbb42b4e6efda571f08f2bd8de22dcd1158659e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-engrec.sty \

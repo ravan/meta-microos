@@ -2,15 +2,20 @@ SUMMARY = "Development files for QR code generator"
 DESCRIPTION = "Development files, headers/libs for QR code generator"
 LICENSE = "MIT"
 
-PV = "1.6.0"
+PV = "1.8.0+git17.856ba8a"
 
-RPM_NAME = "QR-Code-generator-devel-1.6.0-1.13.aarch64.rpm"
-RPM_HASH = "7c8bc0cb5a3c49d83ca6ff02b9379cd9218e22c390b8ddaf369deeab9bb8d5b1bb092250c2ba5a712da0d32185aadccc3a4a738c2f931d1e413eda0abf78e133"
+RPM_NAME = "QR-Code-generator-devel-1.8.0+git17.856ba8a-3.6.aarch64.rpm"
+RPM_HASH = "10c324e062126686ed41c54d2bef7c8f29e6760e264c42785f4379931efdfd2eaca5337f8f5b4d94482084e50735305fa2e13e5f2de572c6600d437fc4565962"
 
 RPROVIDES:${PN} += "QR-Code-generator-devel \
+cmake-qrcodegen \
+cmake-qrcodegencpp \
+pkgconfig-qrcodegen \
+pkgconfig-qrcodegencpp \
 qrcodegen-devel"
 
-RDEPENDS:${PN} += "libqrcodegen1 \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libqrcodegen1 \
 libqrcodegencpp1"
 
 inherit rpm

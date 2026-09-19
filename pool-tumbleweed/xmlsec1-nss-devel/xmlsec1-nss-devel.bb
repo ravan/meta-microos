@@ -2,10 +2,10 @@ SUMMARY = "NSS crypto plugin for XML Security Library"
 DESCRIPTION = "Libraries, includes, etc. for developing XML Security applications with NSS."
 LICENSE = "MIT"
 
-PV = "1.2.37"
+PV = "1.2.42"
 
-RPM_NAME = "xmlsec1-nss-devel-1.2.37-3.1.aarch64.rpm"
-RPM_HASH = "652353fd8be8d85b9e6786e2920232ea2bd70cde3e4c09d2957e99752c24f126e9c95f47900d68b2d4351eecc0c7cf188b87857e90fdb4ce856963d0345d3eaf"
+RPM_NAME = "xmlsec1-nss-devel-1.2.42-1.8.aarch64.rpm"
+RPM_HASH = "1c605e707e9656a2b62dec19d131fbd92cbe71553fe64def4fee70fc6f0bdef3df2d538941a10546e2acf9ad86fd1187a0db7fe36bfe4d5a5f4f1e87edd471bc"
 
 RPROVIDES:${PN} += "pkgconfig-xmlsec1-nss \
 xmlsec1-nss-devel"

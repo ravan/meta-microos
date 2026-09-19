@@ -4,10 +4,10 @@ liturgical texts, particularly Missal and Breviary texts. The \
 package assumes availability of Latin typesetting packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-liturg-2023.209.1.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "d39d98750fe47e03c52f53875e70db2df496020a34a6b0dd64332038ac0a8835271df3085ce32928ca6b5f504a7b119d4c77ba3e38bff2b87de6fee158fcb957"
+RPM_NAME = "texlive-liturg-2026.226.1.0svn15878-61.2.noarch.rpm"
+RPM_HASH = "cfab31398bf87a6453c653125f985cdb2842ee12e9dd2209f8b1bebed4335f2617d312a15b47a5b4d025083999c06d18d5b4950a10c3ca35627712bf5896c82c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-liturg.sty \

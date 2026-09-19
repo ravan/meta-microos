@@ -6,10 +6,10 @@ tikzpicture environment to annotate or modify a diagram, as \
 shown with some examples in the documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn66359"
+PV = "2026.226.1.5svn74247"
 
-RPM_NAME = "texlive-causets-2023.209.1.4svn66359-53.1.noarch.rpm"
-RPM_HASH = "fea70e3be77fd5f3872fdb9be12afeb3a7914d578b597eabe3cde033e3d5b4a2f19ec9841dff5bffeb11f6b2c3e741507ae36334cd391fa6dd344083581cf71e"
+RPM_NAME = "texlive-causets-2026.226.1.5svn74247-59.2.noarch.rpm"
+RPM_HASH = "8ddd8dd6cb3489999f1c705a7e4985dd31cdd7cfa13d8dcd6216c0df77abc9346a0b21b32848e34c80c037e9a0d9507000e74408cbf25b87e9a5df18c56f2e03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-causets.sty \

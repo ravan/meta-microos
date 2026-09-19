@@ -2,10 +2,10 @@ SUMMARY = "Haskell http-api-data library documentation"
 DESCRIPTION = "This package provides the Haskell http-api-data library documentation."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.5"
+PV = "0.6.3"
 
-RPM_NAME = "ghc-http-api-data-doc-0.5-4.4.noarch.rpm"
-RPM_HASH = "7f7476e572769ed157d4f7e4f5b56f1b1022e682ef7721fc800e1aec397a5c9dcf983bb1ee4e2d2fa38dc37330dbbc16493c37f11b5a567c36cf0a3ff7831c71"
+RPM_NAME = "ghc-http-api-data-doc-0.6.3-1.4.noarch.rpm"
+RPM_HASH = "334b8459f1653467ab719333651233807040fd5da08d29f959ed9c7eff55b71d12de62aa3b3462e58826e57a1429e846798a944ad1d64ca18a93f9760cf5c901"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-http-api-data-doc"

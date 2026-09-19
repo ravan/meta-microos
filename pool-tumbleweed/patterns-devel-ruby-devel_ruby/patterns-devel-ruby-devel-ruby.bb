@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-devel-ruby-devel_ruby-20170319-2.13.aarch64.rpm"
-RPM_HASH = "38da15d25c18607af324fbda06b98d533495f510e69e6cfa14c6c9ac7d7b2ba38b827453b58e043a953de44b2bebd93bada63e8079010da4f59cb5acca068a5a"
+RPM_NAME = "patterns-devel-ruby-devel_ruby-20170319-2.21.aarch64.rpm"
+RPM_HASH = "634956e9f2468966190081681a4708e324b22bf185405e186f4868c4cf6aa20674e132d880513aa5e8aa4ecd1ebfd21af1aed1c7eb85b029d9caa1567b7e6360"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

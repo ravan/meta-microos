@@ -6,10 +6,10 @@ sufficient to use the eco fonts but if you intend to use other \
 font families as well, e.g., PostScript fonts, try altfont."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3svn29349"
+PV = "2026.226.1.3svn29349"
 
-RPM_NAME = "texlive-eco-2023.209.1.3svn29349-54.2.noarch.rpm"
-RPM_HASH = "cb7cb4d4b95fcd987afb889fbeeda5fcb26ec60806309eed70711fb99e3ba4d166692f6296cf995dfa589d704b225028964b77fffb76bbc7513b1d7687f26b3d"
+RPM_NAME = "texlive-eco-2026.226.1.3svn29349-61.4.noarch.rpm"
+RPM_HASH = "f22658db235a2b640c536e346d1a940060da11f6a0d4c706521ec1d74226205f06befd24c4b92c8eba1cff6c08573369fdb7633ab4c52407d2993bddc7d4d405"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-T1cmodh.fd \

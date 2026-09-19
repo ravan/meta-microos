@@ -4,10 +4,10 @@ into typeset documents. Information about Subversion (a \
 replacement for CVS) is available from the project's home site."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7.4svn62157"
+PV = "2026.226.0.0.7.4svn62157"
 
-RPM_NAME = "texlive-svninfo-2023.209.0.0.7.4svn62157-58.1.noarch.rpm"
-RPM_HASH = "99b02f4fa2034c165861daba2caf6e36e841a72b2aaed84129e5a0bc50e91a1314b4758b98c525c1870dc8648e250339a247aa10965746f76e619bf0949bd6a9"
+RPM_NAME = "texlive-svninfo-2026.226.0.0.7.4svn62157-64.2.noarch.rpm"
+RPM_HASH = "16cb757e3bb1e2a96eae8e43ba7f6fb76e505fe13f44cba925535bcf4f13b3aa0eb7c342504860765ad8b622bdbb1cc0646032ad0365b4cf226a23ed4254cc7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-svninfo.cfg \

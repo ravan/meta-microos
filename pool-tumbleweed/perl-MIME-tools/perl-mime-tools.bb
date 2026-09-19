@@ -2,10 +2,10 @@ SUMMARY = "Tools to manipulate MIME messages"
 DESCRIPTION = "Tools to manipulate MIME messages"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.510"
+PV = "5.518.0"
 
-RPM_NAME = "perl-MIME-tools-5.510-1.5.noarch.rpm"
-RPM_HASH = "fd40ab65e5e8e4efced2c30e600b12f5a6987d796d2ac13440186ed4673e444cc0be68b1fb93005a530aa9b4f23525c6d28b214e75aed272f79d31f5893a2653"
+RPM_NAME = "perl-MIME-tools-5.518.0-1.1.noarch.rpm"
+RPM_HASH = "3d73a5374853013eb003b7e1468c5274112aab00e39516a78640d2916039750e95de9775ca7f32853ead816d02d60645570c631863bddc75babb2edcbe3d6c52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MIME--Body \
@@ -40,7 +40,7 @@ perl-MIME--WordDecoder--UTF-8 \
 perl-MIME--Words \
 perl-MIME-tools"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-File--Temp \
 perl-Mail--Field \
 perl-Mail--Header \

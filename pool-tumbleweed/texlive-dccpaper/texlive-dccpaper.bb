@@ -5,13 +5,16 @@ Digital Curation, with applicability from volume 14 onwards; a \
 legacy class ijdc-v9 is provided for papers and articles \
 written for volumes 9-13. The similar idcc class can be used \
 for submissions to the International Digital Curation \
-Conference, beginning with the 2015 conference."
+Conference, beginning with the 2015 conference. As of August \
+2023 these classes are no longer officially supported for new \
+submissions to the IJDC and IDCC, but nevertheless they \
+continue to be maintained to support existing documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn61763"
+PV = "2026.226.2.6svn75491"
 
-RPM_NAME = "texlive-dccpaper-2023.209.2.3svn61763-53.1.noarch.rpm"
-RPM_HASH = "10fb2059cb007188f2fcc2dfca521846e4143d989c35f8c8e36ab90aa552e2ae8919b6d6feeab3f6a2d49cb042a115f7efcf0be90b638979bd848acc6122aa96"
+RPM_NAME = "texlive-dccpaper-2026.226.2.6svn75491-59.2.noarch.rpm"
+RPM_HASH = "b1b2ee6eb99d7c5fd66a7f33ecdf66409cae5354b8e12b268deaa05cb8950ea9d2863036b6e34f1e275b661ddf42d11a6ca759d512ca261f82634ac28565f924"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dccpaper-base.sty \

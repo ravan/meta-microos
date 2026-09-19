@@ -7,10 +7,10 @@ such constructs as '1.000,--'. These conversions may be \
 switched on and off."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn32279"
+PV = "2026.226.2.1svn32279"
 
-RPM_NAME = "texlive-ziffer-2023.209.2.1svn32279-53.2.noarch.rpm"
-RPM_HASH = "ae094ad32857073c28b81a1247fd16fae6afaffccfa9aa1d350bbb6e974ce3d19412e7fd30f170cad7220e2cf7ccf39acac726293f2952cb4db73462ebb8b458"
+RPM_NAME = "texlive-ziffer-2026.226.2.1svn32279-59.4.noarch.rpm"
+RPM_HASH = "e3f52918e5165b312ccea3135d553eb3e4be97ff327b73b98edc3ac06876080f657085a648c96fbd2e276c285e858a021dd03f60f49081cebc8a5dd4872c8fc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ziffer.sty \

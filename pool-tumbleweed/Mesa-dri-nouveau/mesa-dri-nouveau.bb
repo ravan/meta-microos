@@ -4,28 +4,13 @@ Nouveau's 3D acceleration to work. It is packaged separately \
 since it is still experimental."
 LICENSE = "MIT"
 
-PV = "23.1.7"
+PV = "26.2.2"
 
-RPM_NAME = "Mesa-dri-nouveau-23.1.7-357.1.aarch64.rpm"
-RPM_HASH = "ac913355efc63a635204aa6a8fe89f1ee865a2d9a7c5a257ab03132c38b9d5e6551cce44c4eb5c93863134f5eeb282018b3aef8d5464e646ed6aaa908afdb8f6"
+RPM_NAME = "Mesa-dri-nouveau-26.2.2-2.1.aarch64.rpm"
+RPM_HASH = "3bbc8d47cd85ebe9575da014fe2f0ce456805e2416279a7e0e5e147c1b62279c135acbbee39d48b3efefd93f108f255ab8ee7709f4d00083b006e11c6076dd30"
 
-RPROVIDES:${PN} += "Mesa-dri-nouveau \
-libgallium-dri.so"
+RPROVIDES:${PN} += "Mesa-dri-nouveau"
 
-RDEPENDS:${PN} += "Mesa \
-ld-linux-aarch64.so.1 \
-libLLVM.so.16 \
-libc.so.6 \
-libdrm-amdgpu.so.1 \
-libdrm-nouveau.so.2 \
-libdrm-radeon.so.1 \
-libdrm.so.2 \
-libelf.so.1 \
-libexpat.so.1 \
-libgcc-s.so.1 \
-libglapi.so.0 \
-libm.so.6 \
-libstdc++.so.6 \
-libz.so.1"
+RDEPENDS:${PN} += "Mesa"
 
 inherit rpm

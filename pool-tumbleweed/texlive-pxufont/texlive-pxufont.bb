@@ -14,10 +14,10 @@ from Adobe-Japan1, because mapping setups from non-Unicode JFMs \
 to such physical fonts are difficult to prepare."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn64072"
+PV = "2026.226.0.0.7svn77682"
 
-RPM_NAME = "texlive-pxufont-2023.209.0.0.6svn64072-54.2.noarch.rpm"
-RPM_HASH = "adbc1d2f138c3f7a86ff192cc762be9c96cf4bcaee3ca86c43477a5650bdb0bb9a6ba993711c970700781be6c518f8ffc0028b527de0009c2e28f26525f71ad8"
+RPM_NAME = "texlive-pxufont-2026.226.0.0.7svn77682-60.4.noarch.rpm"
+RPM_HASH = "360c6aaad004d3f4a25a0bb1f4df3cb3b5b1462135043f9d6214e9800c194cc743e00f5463633b921a9e6d28dd4ccb72376f33ce914a30e52e6b3c04d4035d4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxufont-ruby.sty \
@@ -78,6 +78,10 @@ tex-zu-brsgnmlminrn-h.tfm \
 tex-zu-brsgnmlminrn-h.vf \
 tex-zu-brsgnmlminrn-v.tfm \
 tex-zu-brsgnmlminrn-v.vf \
+tex-zu-cidjgb--h.tfm \
+tex-zu-cidjgb--h.vf \
+tex-zu-cidjgb--v.tfm \
+tex-zu-cidjgb--v.vf \
 tex-zu-cidjgb0-h.tfm \
 tex-zu-cidjgb0-h.vf \
 tex-zu-cidjgb0-v.tfm \
@@ -102,6 +106,10 @@ tex-zu-cidjgb5-h.tfm \
 tex-zu-cidjgb5-h.vf \
 tex-zu-cidjgb5-v.tfm \
 tex-zu-cidjgb5-v.vf \
+tex-zu-cidjge--h.tfm \
+tex-zu-cidjge--h.vf \
+tex-zu-cidjge--v.tfm \
+tex-zu-cidjge--v.vf \
 tex-zu-cidjge0-h.tfm \
 tex-zu-cidjge0-h.vf \
 tex-zu-cidjge0-v.tfm \
@@ -126,6 +134,10 @@ tex-zu-cidjge5-h.tfm \
 tex-zu-cidjge5-h.vf \
 tex-zu-cidjge5-v.tfm \
 tex-zu-cidjge5-v.vf \
+tex-zu-cidjgr--h.tfm \
+tex-zu-cidjgr--h.vf \
+tex-zu-cidjgr--v.tfm \
+tex-zu-cidjgr--v.vf \
 tex-zu-cidjgr0-h.tfm \
 tex-zu-cidjgr0-h.vf \
 tex-zu-cidjgr0-v.tfm \
@@ -150,6 +162,10 @@ tex-zu-cidjgr5-h.tfm \
 tex-zu-cidjgr5-h.vf \
 tex-zu-cidjgr5-v.tfm \
 tex-zu-cidjgr5-v.vf \
+tex-zu-cidjmb--h.tfm \
+tex-zu-cidjmb--h.vf \
+tex-zu-cidjmb--v.tfm \
+tex-zu-cidjmb--v.vf \
 tex-zu-cidjmb0-h.tfm \
 tex-zu-cidjmb0-h.vf \
 tex-zu-cidjmb0-v.tfm \
@@ -174,6 +190,10 @@ tex-zu-cidjmb5-h.tfm \
 tex-zu-cidjmb5-h.vf \
 tex-zu-cidjmb5-v.tfm \
 tex-zu-cidjmb5-v.vf \
+tex-zu-cidjmgr--h.tfm \
+tex-zu-cidjmgr--h.vf \
+tex-zu-cidjmgr--v.tfm \
+tex-zu-cidjmgr--v.vf \
 tex-zu-cidjmgr0-h.tfm \
 tex-zu-cidjmgr0-h.vf \
 tex-zu-cidjmgr0-v.tfm \
@@ -198,6 +218,10 @@ tex-zu-cidjmgr5-h.tfm \
 tex-zu-cidjmgr5-h.vf \
 tex-zu-cidjmgr5-v.tfm \
 tex-zu-cidjmgr5-v.vf \
+tex-zu-cidjml--h.tfm \
+tex-zu-cidjml--h.vf \
+tex-zu-cidjml--v.tfm \
+tex-zu-cidjml--v.vf \
 tex-zu-cidjml0-h.tfm \
 tex-zu-cidjml0-h.vf \
 tex-zu-cidjml0-v.tfm \
@@ -222,6 +246,10 @@ tex-zu-cidjml5-h.tfm \
 tex-zu-cidjml5-h.vf \
 tex-zu-cidjml5-v.tfm \
 tex-zu-cidjml5-v.vf \
+tex-zu-cidjmr--h.tfm \
+tex-zu-cidjmr--h.vf \
+tex-zu-cidjmr--v.tfm \
+tex-zu-cidjmr--v.vf \
 tex-zu-cidjmr0-h.tfm \
 tex-zu-cidjmr0-h.vf \
 tex-zu-cidjmr0-v.tfm \

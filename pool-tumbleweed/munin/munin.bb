@@ -12,13 +12,14 @@ Munin is written in Perl, and relies heavily on Tobi Oetiker's excellent \
 RRDtool."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.0.72"
+PV = "2.0.75"
 
-RPM_NAME = "munin-2.0.72-3.3.noarch.rpm"
-RPM_HASH = "ee986dec5709642f2facf1fa800412065667d25c5818898d11039403ce13afeee4a775f0b10ed274e3b510080b8285b162afd23d37f7e4774e3ec542940b1d2d"
+RPM_NAME = "munin-2.0.75-1.8.noarch.rpm"
+RPM_HASH = "2d42118e10155f5896b912b65e88b72e84c19eeee4faa8fdcf8a4e53e158e951828b19d4aa969bd093a75be136dbcaabeea81c8b29f826f4d0c60c1ef19343e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-munin \
+group-munin \
 munin \
 perl-Munin--Master--Config \
 perl-Munin--Master--GraphOld \
@@ -35,26 +36,26 @@ perl-Munin--Master--Update \
 perl-Munin--Master--UpdateWorker \
 perl-Munin--Master--Utils \
 perl-Munin--Master--Worker \
-perl-URI--munin"
+perl-URI--munin \
+user-munin"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/sh \
-perl-Date-Manip \
-perl-FastCGI \
-perl-File-Copy-Recursive \
-perl-HTML-Template \
-perl-IO-Socket-INET6 \
-perl-Log-Log4perl \
+perl-Date--Parse \
+perl-FCGI \
+perl-File--Copy--Recursive \
+perl-HTML--Template \
+perl-IO--Socket--IP \
+perl-Log--Log4perl \
 perl-Munin--Common--Defaults \
-perl-Net-SNMP \
-perl-Net-SSLeay \
-perl-Net-Server \
+perl-Net--SNMP \
+perl-Net--SSLeay \
+perl-Net--Server \
 perl-URI \
 perl-base \
 perl-rrdtool \
 rrdtool \
-shadow \
-spawn-fcgi"
+shadow"
 
 inherit rpm

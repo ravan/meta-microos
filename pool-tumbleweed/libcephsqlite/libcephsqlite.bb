@@ -1,12 +1,12 @@
 SUMMARY = "SQLite3 VFS for Ceph"
 DESCRIPTION = "A SQLite3 VFS for storing and manipulating databases stored on Ceph's RADOS \
 distributed object store."
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "libcephsqlite-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
-RPM_HASH = "36299ab67a87013c1f4601be3d7f7e474de7caa094ec992424cbd8cd621b340d56c9263ed4c0be1b2a1f48cb83a29f9dcc6d86294f3906b997ddd9503feefe54"
+RPM_NAME = "libcephsqlite-18.2.7-8.1.aarch64.rpm"
+RPM_HASH = "392c92c786b09b4c8fc41738c535296b05d426222e021d86adb04cfccd4333a2e676afd297a9217acf2bc808f94804128db26830b1dbc344118683828397108f"
 
 RPROVIDES:${PN} += "libcephsqlite \
 libcephsqlite.so"
@@ -15,7 +15,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libceph-common.so.2 \
-libfmt.so.9 \
 libgcc-s.so.1 \
 librados.so.2 \
 librados2 \

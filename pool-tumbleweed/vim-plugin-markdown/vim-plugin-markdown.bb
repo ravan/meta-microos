@@ -3,10 +3,10 @@ DESCRIPTION = "Syntax highlighting, matching rules and mappings for the original
 extensions."
 LICENSE = "MIT"
 
-PV = "2.0.0+20220926"
+PV = "2.0.0+20251022"
 
-RPM_NAME = "vim-plugin-markdown-2.0.0+20220926-56.1.noarch.rpm"
-RPM_HASH = "dbb29846933c47054d2fc621f7d78fc351f6248b2a1c6b1c575fb10178e1bbcbd1cf548ccf11d197c7e46a5983ee596833fa05585b0d31615782d82825172c75"
+RPM_NAME = "vim-plugin-markdown-2.0.0+20251022-64.2.noarch.rpm"
+RPM_HASH = "d8b2c5cd2f5c231dc8688e55958a7dd730ac54fb58c57af0df8fe2a7a6a1e120470c903135e85c6bdcbe20aa4a1a11f9945ad6cdc9c9391974188110b2e68776"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-markdown"

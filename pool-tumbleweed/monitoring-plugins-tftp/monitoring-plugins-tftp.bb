@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.11"
 
-RPM_NAME = "monitoring-plugins-tftp-0.11-100.16.noarch.rpm"
-RPM_HASH = "660b2dcef9dddfb5c15fdfbf99cf7c837541c042f48013317e25a55cb1bf27dca92149d90182918c07b72c578a99c87f5449413a976fe6f441bded07cd6290b3"
+RPM_NAME = "monitoring-plugins-tftp-0.11-100.24.noarch.rpm"
+RPM_HASH = "18a7397f49e1771e97aa0343bc2a1f9384724039eb611e88035a5aac2d6a7b5373677cab2a0c89663e94954502e1116a73a1a910f014d130084e3c9428eb65d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-tftp \

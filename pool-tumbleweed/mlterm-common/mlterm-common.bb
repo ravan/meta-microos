@@ -2,10 +2,10 @@ SUMMARY = "Multilingual Terminal Emulator common files"
 DESCRIPTION = "Common files for Mlterm multilingual terminal emulator"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.3"
+PV = "3.9.5"
 
-RPM_NAME = "mlterm-common-3.9.3-2.1.aarch64.rpm"
-RPM_HASH = "0ab13ead48933818228854904b24563b4b41e36e6237da12a96f80bc3b5af959867e5988d4c1dc1eacde9a3bd5b76275f73318165c29cc197c1ef02af07bfd96"
+RPM_NAME = "mlterm-common-3.9.5-1.1.aarch64.rpm"
+RPM_HASH = "c61ec2c26985a2c4707f5973ff167fdf09eba243317bb9a44f2f59eb4201d687927547c78dfcb50b7b61e027366d5340093aff7db4d4c9f66841a2a71c5670be"
 
 RPROVIDES:${PN} += "libctl-bidi.so \
 libctl-iscii.so \
@@ -24,10 +24,10 @@ libmef-8bits.so \
 libmef-jajp.so \
 libmef-kokr.so \
 libmef-zh.so \
-libmef.so.3 \
+libmef.so.4 \
 libmlterm-coreotl.so \
 libotl.so \
-libpobl.so.2 \
+libpobl.so.3 \
 libptyssh.so \
 libzmodem.so \
 mlterm-common"

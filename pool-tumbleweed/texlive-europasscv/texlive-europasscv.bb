@@ -6,10 +6,10 @@ style updates that came out in 2013, featuring a neater, more \
 compact and somewhat fancier layout."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn56829"
+PV = "2026.226.svn56829"
 
-RPM_NAME = "texlive-europasscv-2023.209.svn56829-53.1.noarch.rpm"
-RPM_HASH = "a6d00395996f2b079d8677d923bf539d8d25f2fe98c8409c8b95487b036e724ed81b87f59db7058bcbb9c4fa43838ef28f3b6382f1eb37d9fa6a22d520fd307b"
+RPM_NAME = "texlive-europasscv-2026.226.svn56829-59.2.noarch.rpm"
+RPM_HASH = "f625759ff8b84c0c9ecffcaa8e08adaa36439a36ab3440ac97830063d7693065d67d247a7fc7b5054a2a60a290b2dcae8f79591a74215708366444496b83397b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-europasscv-bibliography.sty \

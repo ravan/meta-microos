@@ -13,10 +13,10 @@ methods, anti-aliased graphics, a virtually unlimited deep panel \
 tree, and a C++ API."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.96.0"
+PV = "0.96.2"
 
-RPM_NAME = "eaglemode-0.96.0-2.1.aarch64.rpm"
-RPM_HASH = "b3fd23510f1584495f7776afb60769bada04d45a46c1c3429fe375e947bfb1471fe0ad1f8c1392a2d0612d8526df2d429821dc7e5fb80b7ae6da306d3fa28241"
+RPM_NAME = "eaglemode-0.96.2-1.12.aarch64.rpm"
+RPM_HASH = "a0a50c0194bbe6af55ad17e50c7131ae516b8ad754cfcb861eb9b760c0f7901aebc08028cfb34c71df02e5c86e2b25dd136a0bb144e2dca016ef036e217becbb"
 
 RPROVIDES:${PN} += "eaglemode \
 libSilChess.so \
@@ -27,6 +27,7 @@ libemCore.so \
 libemFileMan.so \
 libemFractal.so \
 libemGif.so \
+libemHmiDemo.so \
 libemIlbm.so \
 libemJpeg.so \
 libemMines.so \

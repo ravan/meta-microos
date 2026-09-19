@@ -3,10 +3,10 @@ DESCRIPTION = "The libswscale library performs image scaling and colorspace and 
 pixel format conversion operations."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "libswscale5_9-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "f670a9bccd09571d69ee1fad728726061aaa3ef637a9c3d3da9a9dc8338f62f3f177929187ae25e07a7b361d701c113d337718ea677cfb68f295fa7ded8201a4"
+RPM_NAME = "libswscale5_9-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "1ef78aa42ec80e866e5a33d731eb445d46945af960dc8d6fcf831dc52a3baf4ae0f450fd3033802b4ac918cb66cc155b6b1304787d01714231ea3370d2c9b79b"
 
 RPROVIDES:${PN} += "libswscale.so.5.9 \
 libswscale5-9"

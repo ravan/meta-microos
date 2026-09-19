@@ -3,10 +3,10 @@ DESCRIPTION = "The libauparse package contains the shared libraries needed to \
 parse audit records."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.1.1"
+PV = "4.0.2"
 
-RPM_NAME = "libauparse0-3.1.1-1.1.aarch64.rpm"
-RPM_HASH = "806177483fb3bb3f6f2df5765b56ee784109e223877443bd4850113ffd0bd0913ae348e8b2cf788f4ded1adadcb580725eb4fdb245190cd4a45e4c81a2df2d81"
+RPM_NAME = "libauparse0-4.0.2-3.4.aarch64.rpm"
+RPM_HASH = "ec57e6337d2084998d8b424866a75daa4077ee9eddae69ab82e1bbfd4c62e4a3244169590697c3a6f690f3378d5bf2f0a8d33776148165cdb03e11108c6e2ab7"
 
 RPROVIDES:${PN} += "libauparse.so.0 \
 libauparse0"

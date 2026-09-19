@@ -3,10 +3,10 @@ DESCRIPTION = "The testsuite for libhugetlbfs. Binaries can be found in \
 /usr/lib64/libhugetlbfs/tests."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.23.0.g6b126a4"
+PV = "2.24.9.ga83fbb2"
 
-RPM_NAME = "libhugetlbfs-tests-2.23.0.g6b126a4-3.2.aarch64.rpm"
-RPM_HASH = "3f58d5d5ebe2d65dc6b945dc0b66ab1c6d63794d42d42f16dcca3a20496eeb79b67471820bab2c547b0daa98e2a6cd7a5adb34926104d599c3f5b53f4419f2b1"
+RPM_NAME = "libhugetlbfs-tests-2.24.9.ga83fbb2-1.3.aarch64.rpm"
+RPM_HASH = "f400c05cc40c13c7990b77901a5a4344ae45f952135c3409e85339143ac2177936291364f18b3219db3cb54901d39bb8bc1f87119cb7f1ae0ed6448a50432b3f"
 
 RPROVIDES:${PN} += "libhugetlbfs-tests"
 

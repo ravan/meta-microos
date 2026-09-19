@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "picojson-devel-1.3.0-1.18.aarch64.rpm"
-RPM_HASH = "c3b8a1577e8819d8c08275fca91f782cec717862378cacfe9962d67a95b05386d06d9b7726da83af26782add47e71c2bd65487476376a0355cbc1731b48f8089"
+RPM_NAME = "picojson-devel-1.3.0-1.26.aarch64.rpm"
+RPM_HASH = "c15968f763ab8d1179cb6b610a7d1fbbd3c67d6ffaac15040d1ea454ea698522a60e20f875d11fba8b130c503d7e48614c3dc2e2e58db1d72b1ecc2d1a5f2107"
 
 RPROVIDES:${PN} += "picojson-devel \
 picojson-static"

@@ -1,22 +1,18 @@
-SUMMARY = "Development files for libqgpgmeqt6, a Qt library for accessing GnuPG"
-DESCRIPTION = "GnuPG Made Easy (GPGME) is a library designed to make access to GnuPG \
-easier for applications. It provides a high-level crypto API for \
-encryption, decryption, signing, signature verification, and key \
-management. \
+SUMMARY = "Development files for qgpgme (Qt6)"
+DESCRIPTION = "QGpgme provides a very high level Qt API around GpgMEpp. \
  \
-This package contains the bindings to use the library in Qt 6 C++ applications."
-LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
+This package contains the files needed to build using qgpgme and Qt6."
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.22.0"
+PV = "2.2.0"
 
-RPM_NAME = "libqgpgmeqt6-devel-1.22.0-1.1.aarch64.rpm"
-RPM_HASH = "dff2cc44ce0ae7dcf903a11824cf0099a33c278b146942b00cfec14576da48167b482fd74446d208b20951412dec991ae2d9cc32ad01ce63ae74be1c1b73e652"
+RPM_NAME = "libqgpgmeqt6-devel-2.2.0-1.1.aarch64.rpm"
+RPM_HASH = "8cb178627d2628fcba83f65ff43e21876d07b25f43a71c0fa23e122bf1633e214a9ae0f8b4eaf7fe7625aed248ae0b966e733de48f186f82212f2931a25afa04"
 
 RPROVIDES:${PN} += "cmake-QGpgmeQt6 \
 libqgpgmeqt6-devel"
 
-RDEPENDS:${PN} += "libgpgme-devel \
-libgpgmepp-devel \
+RDEPENDS:${PN} += "cmake-Gpgmepp \
 libqgpgmeqt6-15"
 
 inherit rpm

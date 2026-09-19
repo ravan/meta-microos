@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 3DQuickRender library"
 DESCRIPTION = "The Qt 6 3DQuickRender library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt63DQuickRender6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "aac752d8feb027d1371dc868e8bfbb1479867aad404401f3bcff12ad629a489048e20be7190e2bf3d11abfc9e6dc2f9763f24c8afac24cf9b19ec29257d45fbb"
+RPM_NAME = "libQt63DQuickRender6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "99ef6ecc3c331cd9d27b43823f5dab04ef65715f3a4ec6eee844c4837fcf515dc5ce4c55cfa73470b8e0c134b55e6717cb5c0f82d7e5989b5f589c3b5d51f295"
 
 RPROVIDES:${PN} += "libQt63DQuickRender.so.6 \
 libQt63DQuickRender6"
@@ -13,6 +13,7 @@ libQt63DQuickRender6"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libQt63DCore.so.6 \
+libQt63DQuick.so.6 \
 libQt63DRender.so.6 \
 libQt6Core.so.6 \
 libQt6Qml.so.6 \

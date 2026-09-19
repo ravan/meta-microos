@@ -4,10 +4,10 @@ used by packages hyperref and bookmark. It is not intended as \
 package for the user."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10svn53584"
+PV = "2026.226.1.10svn77682"
 
-RPM_NAME = "texlive-hycolor-2023.209.1.10svn53584-54.1.noarch.rpm"
-RPM_HASH = "370b8470bbe1f57baf061dc7fb2a621f9245aa9cf8bad8f8edee4650c46bfd0fc0da254b4593b6a2202eadccccf9124476ecfa609dccdf0857715e2ce97ec555"
+RPM_NAME = "texlive-hycolor-2026.226.1.10svn77682-60.2.noarch.rpm"
+RPM_HASH = "d163a1ce3f6be65572f3c56a8ae1a0d3a3ddc3b1f795c157455044a23934bdca152eebe0b7e55c526d8e276936464f6e8166cb3ea9d8116fa386cd1c436f5bcc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hycolor.sty \

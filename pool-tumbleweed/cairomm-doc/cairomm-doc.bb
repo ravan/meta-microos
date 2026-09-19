@@ -2,10 +2,11 @@ SUMMARY = "Documentation for the Cairo C++ interface"
 DESCRIPTION = "This package provides documentation for the Cairo C++ interface."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.16.1"
+PV = "1.18.1"
 
-RPM_NAME = "cairomm-doc-1.16.1-2.4.aarch64.rpm"
-RPM_HASH = "d45205d1d214f9bb8cc8628b6309fb2e79a4572e25d900758e5585a6d20bfe92ec103796773ccf8cdc9ca16e443b231edc114135451c176e609bc61c6686064d"
+RPM_NAME = "cairomm-doc-1.18.1-1.1.noarch.rpm"
+RPM_HASH = "141ec1a61785d50f27cbb1063c7959d6b56053e3afc7848559ac0ea3b6b1deb8e794ba4af73aab04f5d355f51746cbda97612f7731f0a2279d1a885c02ed4e94"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cairomm-doc"
 

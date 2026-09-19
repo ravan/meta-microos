@@ -5,13 +5,14 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "10.0.0"
 
-RPM_NAME = "Font-Downloader-10.0.0-1.2.noarch.rpm"
-RPM_HASH = "d928cdb29b0ae42a81144ee42663fd099007945da11985a1e87e1bacaa61475f353585f45e9ab126ea4e70cb476043c9d0f0aaa42009c9a68ef0390e321de6c4"
+RPM_NAME = "Font-Downloader-10.0.0-3.2.noarch.rpm"
+RPM_HASH = "02a420ac07bfa043d2a0af344dd885f4033af065b8ab075917097b1f3ae3f47c88809fd3576a0c9c6677824d6fd4288337df591984bb857183da45dd743c19a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Font-Downloader"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python3-gobject-Gdk"
+python3-gobject-Gdk \
+typelib-WebKit2"
 
 inherit rpm

@@ -7,10 +7,10 @@ figure, and manages their placement; subfloat only affects \
 captions and numbering."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.14svn29349"
+PV = "2026.226.2.14svn77682"
 
-RPM_NAME = "texlive-subfloat-2023.209.2.14svn29349-58.1.noarch.rpm"
-RPM_HASH = "6af57fd0b1c48c7f30ec2ae9fbecc26778781a5b7cdce1168a3154a97406c9553715faaa841ac5d21c9e2c78b861b79a9ea102920c6995580e05c697f65e2493"
+RPM_NAME = "texlive-subfloat-2026.226.2.14svn77682-64.2.noarch.rpm"
+RPM_HASH = "bc4eb37469f7fec7798c2d89b1bc19385f7a110cad6c3fd82110c188631109e58fef62fcfdfb9510c1e8e5e664f54c7a8985be1baa6e51e100ce8e9272a04407"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subfloat.sty \

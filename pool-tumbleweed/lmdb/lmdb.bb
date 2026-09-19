@@ -8,15 +8,15 @@ the need for any recovery procedures. The database is exposed in a \
 memory map, requiring no page cache layer of its own."
 LICENSE = "OLDAP-2.8"
 
-PV = "0.9.30"
+PV = "0.9.35"
 
-RPM_NAME = "lmdb-0.9.30-1.2.aarch64.rpm"
-RPM_HASH = "b16e371b66ae0119e00157512247a7ee24d8cebfb3b428ec8e875b34dc5efecb9417a99a2492ba400b34b831da2e05cda413c35d1586bece2055a3745158ea8b"
+RPM_NAME = "lmdb-0.9.35-1.3.aarch64.rpm"
+RPM_HASH = "9e855902657bc6440ea4bed26cb7007373bdba9115800198fa3c2b58a749d5d08d176adec84b7031424e447c749faac5571898b35a848cd84d78afd10c472e1f"
 
 RPROVIDES:${PN} += "lmdb"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-liblmdb-0.9.30.so"
+liblmdb-0.9.35.so"
 
 inherit rpm

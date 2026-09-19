@@ -1,23 +1,23 @@
 SUMMARY = "KDE Accounts Providers - Development Files"
-DESCRIPTION = "Small system to administer web accounts for the sites \
-and services across the KDE desktop, including: Google, \
-Facebook, Owncloud, IMAP, Jabber and others. Devel files."
+DESCRIPTION = "Small system to administer web accounts for the sites and services across the \
+Plasma desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others. \
+This package provides development files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kaccounts-integration-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "d7958cc1030f7b5d722c33fcda3d85ac261022bf9a051e98998ce25eebc0d9ade2e38c2c487af61321d3ea3ac810b1a41fe6d2f1bd9fcad18a3e08737620ff11"
+RPM_NAME = "kaccounts-integration-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "568e9cab1e851290aaf14061bb976b6a4c18b71e8ff767e8b26fc9eb12020d45cf8ac09eff2e543368722e3e21100a33f13106448a4e6707b40345191ee08ba0"
 
-RPROVIDES:${PN} += "cmake-KAccounts \
+RPROVIDES:${PN} += "cmake-KAccounts6 \
 kaccounts-integration-devel"
 
-RDEPENDS:${PN} += "cmake-AccountsQt5 \
-cmake-KF5CoreAddons \
-cmake-Qt5Core \
+RDEPENDS:${PN} += "cmake-AccountsQt6 \
+cmake-KF6CoreAddons \
+cmake-Qt6Widgets \
+cmake-SignOnQt6 \
 intltool \
-libkaccounts2 \
-libsignon-qt5-devel \
+libkaccounts6-2 \
 pkgconfig-libaccounts-glib"
 
 inherit rpm

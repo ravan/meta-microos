@@ -2,10 +2,10 @@ SUMMARY = "A library for serialising LV2 atoms to/from RDF"
 DESCRIPTION = "A library for serialising LV2 atoms to/from RDF, particularly the Turtle syntax."
 LICENSE = "ISC"
 
-PV = "0.6.14"
+PV = "0.6.22"
 
-RPM_NAME = "libsratom-0-0-0.6.14-1.1.aarch64.rpm"
-RPM_HASH = "b7b46996e2f338e5b6cccbc9f6ce1c1e89b26c79ecc84bff70b39c0d1fdca63f02eb61a67acc5d113f15265aa1434e3ec95b462b255e5c928e4ed084849ba78d"
+RPM_NAME = "libsratom-0-0-0.6.22-1.3.aarch64.rpm"
+RPM_HASH = "e65e32fbd39e8e712854944aab33f6bdb554345f96e093f69ee3eb4dc52ecf076a5989d98129022156af38cbd48a7df806acb5e424aa3a470d19f0e6dfbc6cbf"
 
 RPROVIDES:${PN} += "libsratom-0-0 \
 libsratom-0.so.0"

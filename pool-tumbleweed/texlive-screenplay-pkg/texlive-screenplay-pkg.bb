@@ -7,10 +7,10 @@ screenplay class documentation in addition to the included \
 package documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn44965"
+PV = "2026.226.1.1svn44965"
 
-RPM_NAME = "texlive-screenplay-pkg-2023.209.1.1svn44965-54.1.noarch.rpm"
-RPM_HASH = "9546902b0a1443baeb16a85d9a23cbd4bebfcb79663075e680c9f35a5dbe1035fee57b571ca656931ddf81dbb8f9af1f96919178169608b77883a93ee62facb3"
+RPM_NAME = "texlive-screenplay-pkg-2026.226.1.1svn44965-60.2.noarch.rpm"
+RPM_HASH = "d861060c347d4fca50ceb1b50c25c1bb2d42e371c30f114b5a86ad27499aa144131df1fee6c832fa9eeebf7f1375e84eb180fcffc044662f9c0ea5db0d12c141"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-screenplay-pkg.sty \

@@ -10,10 +10,10 @@ images, and to create thumbnail images. \
 This package contains perl interface to GraphicsMagick library."
 LICENSE = "MIT"
 
-PV = "1.3.40"
+PV = "1.3.48"
 
-RPM_NAME = "perl-GraphicsMagick-1.3.40-5.1.aarch64.rpm"
-RPM_HASH = "3dd1373c58d7f4c3473561f1e8a6055e75b0cd60a7430b7be97483ea8c9f91748119f607275acb10dfac04577f14aa233d33b2a0d616c6295198100d89a42f74"
+RPM_NAME = "perl-GraphicsMagick-1.3.48-2.1.aarch64.rpm"
+RPM_HASH = "9c84598bb3cd90258d69a968dce3fc79fdeecb01021574fc2a941579a416e4a11b1897e07a2142351447c118fa242d6fdba3af4e35ba946de47c0500f29d2c1b"
 
 RPROVIDES:${PN} += "perl-Graphics--Magick \
 perl-GraphicsMagick"

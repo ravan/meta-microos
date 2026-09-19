@@ -5,15 +5,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.8"
 
-RPM_NAME = "redfishtool-1.1.8-1.1.noarch.rpm"
-RPM_HASH = "519ddc40aae08c592c707227a94dc4752c00453d9dae5781e8e7f9a6752b336a78dad5ab7c939f9bb749201ea38028be82af19bde5ef832640150de3c7ac47fa"
+RPM_NAME = "redfishtool-1.1.8-1.11.noarch.rpm"
+RPM_HASH = "26a413746f59f300214d7fb636769b2f91511531495920198661c1bb4bec00a95b81d9d36870c520c432c2696a8826319bb01bb57edcf0ccc48d21f960c414e5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-redfishtool \
+RPROVIDES:${PN} += "python3.13dist-redfishtool \
 python3dist-redfishtool \
 redfishtool"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-dateutil \
 python3-requests"

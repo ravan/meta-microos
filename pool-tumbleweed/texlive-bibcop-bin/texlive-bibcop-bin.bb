@@ -2,10 +2,10 @@ SUMMARY = "Binary files of bibcop"
 DESCRIPTION = "Binary files of bibcop"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65257"
+PV = "2026.20260301.svn65257"
 
-RPM_NAME = "texlive-bibcop-bin-2023.20230311.svn65257-93.2.aarch64.rpm"
-RPM_HASH = "f0b2acb89f55654b50180dde7c0c2ab33def7ec75f6b0ac98febe59ba3bcdc0527af0050c8b1a0e79529d0da03ef27a2ac8c4723b84e840158362339b5b19629"
+RPM_NAME = "texlive-bibcop-bin-2026.20260301.svn65257-120.4.aarch64.rpm"
+RPM_HASH = "39a1212f953039895ef746cad65cf9f5c9ae192ac8bc757d7419d8c95511a0488fb07bf3a5a4646c6e3e48fcfa53450833cbbd019aeafe3a3c5c09e89209a2e5"
 
 RPROVIDES:${PN} += "texlive-bibcop-bin"
 

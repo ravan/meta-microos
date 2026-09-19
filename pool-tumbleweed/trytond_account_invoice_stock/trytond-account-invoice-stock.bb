@@ -2,13 +2,13 @@ SUMMARY = "The 'account_invoice_stock' module for the Tryton ERP system"
 DESCRIPTION = "This module adds capability to bill stock items/materials"
 LICENSE = "GPL-3.0-only"
 
-PV = "6.0.2"
+PV = "7.0.2"
 
-RPM_NAME = "trytond_account_invoice_stock-6.0.2-1.1.noarch.rpm"
-RPM_HASH = "625f7af96c35f4491916be5acebec13e06c7db9688c18a20dcfa616663de2280157d3f838a54580ae5310ea2d6adf59a277a8d924dc60fa4c31c5cb8a520b8d6"
+RPM_NAME = "trytond_account_invoice_stock-7.0.2-1.4.noarch.rpm"
+RPM_HASH = "26d42f73900a2274329d44244a2142782e0fbab13f9f2eb464e7fae9827b1feef8a1958310c3aa8e222ccfbf7d165279583e925015d0000934efefa87b38f939"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-trytond-account-invoice-stock \
+RPROVIDES:${PN} += "python3.13dist-trytond-account-invoice-stock \
 python3dist-trytond-account-invoice-stock \
 trytond-account-invoice-stock"
 

@@ -5,12 +5,12 @@ pipe, device (serial line etc. or a pseudo terminal), a socket (UNIX, \
 IP4, IP6 - raw, UDP, TCP), an SSL socket, proxy CONNECT connection, a \
 file descriptor (stdin etc.), the GNU line editor, a program, or a \
 combination of two of these."
-LICENSE = "MIT & SUSE-GPL-2.0-with-openssl-exception"
+LICENSE = "LicenseRef-SUSE-GPL-2.0-with-openssl-exception & MIT"
 
-PV = "1.7.4.3"
+PV = "1.8.1.3"
 
-RPM_NAME = "socat-1.7.4.3-2.7.aarch64.rpm"
-RPM_HASH = "fd232a76e123da961639798b377e428e72f642651b8581a8e2d5d5343c7ab6068a7ffb56f5fda8fc283a2605fc3134704249dd71660977018cd5a5cf3f56056e"
+RPM_NAME = "socat-1.8.1.3-2.1.aarch64.rpm"
+RPM_HASH = "1cf8b18f06edfe577bdd1cb7f485544d6487e28b7ba7c2e2e78a87f1abe83b1205b07db8dbf3c4ef172b2c10d83c033445d799e2cfca6bcfcaa626f794c48e2d"
 
 RPROVIDES:${PN} += "socat"
 

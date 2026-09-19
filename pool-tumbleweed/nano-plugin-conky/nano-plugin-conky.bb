@@ -5,10 +5,11 @@ This package provides syntax highlighting support for conky \
 configuration files in nano."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "1.13.1"
+PV = "1.24.2"
 
-RPM_NAME = "nano-plugin-conky-1.13.1-3.3.aarch64.rpm"
-RPM_HASH = "b3dd4e49239847fe137de64ff9214f8d6a321d9649e5c301bdaa0d9239b173972d3e9ed4cb8b961d2c2542a4c0608e4858fb1913d2d8a826f651041d49f14234"
+RPM_NAME = "nano-plugin-conky-1.24.2-1.1.noarch.rpm"
+RPM_HASH = "007899fa49c8f112cb885ec8488bfb10c56aa16011f5595e8ad7cb8efc08a68e30a27090e85ce9c42f34b4a4676f157277429e39fe10da01cd5ea43c6cd35b04"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "conky-nano \
 nano-plugin-conky"

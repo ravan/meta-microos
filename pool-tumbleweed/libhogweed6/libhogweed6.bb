@@ -6,10 +6,10 @@ Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel space. 
 The libhogweed library contains public key algorithms to use with libnettle."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.9.1"
+PV = "3.10.2"
 
-RPM_NAME = "libhogweed6-3.9.1-2.1.aarch64.rpm"
-RPM_HASH = "e5fd54b005eeba6b2079b27194e6190a5449370c2ab959af033c17864efae3a5e590ad50a061ba77ee6e75c96839674350e097c815bb53e7822a477f8ff16f36"
+RPM_NAME = "libhogweed6-3.10.2-1.6.aarch64.rpm"
+RPM_HASH = "14f6ce541e4487c3ca099b9d538f6941d29099f53dbc2aae378883170002c979a761048e9474cd142127437016094294da035083565c9c6fa1f9805192c1e5c5"
 
 RPROVIDES:${PN} += "libhogweed.so.6 \
 libhogweed6"

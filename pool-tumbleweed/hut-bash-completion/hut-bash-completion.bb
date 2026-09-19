@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for hut"
 DESCRIPTION = "The official bash completion script for hut."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "0.3.0"
+PV = "0.8.0"
 
-RPM_NAME = "hut-bash-completion-0.3.0-1.3.noarch.rpm"
-RPM_HASH = "b83d2dc481954ee871ae05304ba3d4d3444433a99167490845cfc67cf75025e296f9d67838a9a54531475b4d54d691bbf6530697f01057b8f401b08c045f6f9d"
+RPM_NAME = "hut-bash-completion-0.8.0-1.4.noarch.rpm"
+RPM_HASH = "755a1ed84f7f5d6ce66124130fbaa94f022f0ad1dec50fb50ede402e9c7ba734784d0909111218e828d47524a8ebc2df03e62ced4b5a66ebfa2cab443a5ffd33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hut-bash-completion"

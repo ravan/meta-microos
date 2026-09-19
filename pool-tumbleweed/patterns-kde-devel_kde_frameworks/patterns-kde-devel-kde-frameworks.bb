@@ -2,10 +2,10 @@ SUMMARY = "KDE Frameworks and Plasma Development"
 DESCRIPTION = "KDE Frameworks development packages."
 LICENSE = "MIT"
 
-PV = "20230801"
+PV = "20260830"
 
-RPM_NAME = "patterns-kde-devel_kde_frameworks-20230801-1.1.noarch.rpm"
-RPM_HASH = "c939eaaf9443dfa5cc905914ff755b0d44262d7e27a05d4284a7065ef1f5c4a694bbcac806c8c6c1e159c149681294c7051f0bbee668e6b960f953c075a2db59"
+RPM_NAME = "patterns-kde-devel_kde_frameworks-20260830-1.1.noarch.rpm"
+RPM_HASH = "f56d3cf3a8eee7188f636587a3bc90e322307b2224534a52ebc2a9a28356022409644b3c7d292f83ec6258fb361140186ed3e37b2628feb2b448c3581150b464"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

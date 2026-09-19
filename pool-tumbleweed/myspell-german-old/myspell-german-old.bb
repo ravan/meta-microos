@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "20030428"
 
-RPM_NAME = "myspell-german-old-20030428-265.16.noarch.rpm"
-RPM_HASH = "dbb479603afcbaaa24d5e40f781a4e415f3de497046326622191dbe8685ccf7d56da6184a4b27467c527f7f2559de4e50d3f3eb7cbdda1af695c1ecf96920cc1"
+RPM_NAME = "myspell-german-old-20030428-265.24.noarch.rpm"
+RPM_HASH = "1171c22e3e1266b19d95bd6f0278f4a76076153a8cdda7dd8f110f54e6d2e1a4070e2109389d814e57c10157a988a1dc93e4a044573d3fbfeaa59c37c6b02dbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "myspell-dictionary \

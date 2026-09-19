@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "3.000"
 
-RPM_NAME = "adobe-sourceserifpro-fonts-3.000-2.6.noarch.rpm"
-RPM_HASH = "19e4263cc1cd1177edd430b6fdc9cf87ec19a5db215f47945bbcb824946007a0b1d895bfa620711a9f8f2eefedc1952d6f6105cb4351f1440be2073a99966e0f"
+RPM_NAME = "adobe-sourceserifpro-fonts-3.000-2.14.noarch.rpm"
+RPM_HASH = "dddc94c9b941fbaf6e12354e86c46f3197777513ec5197b6782d06cbfd9fa0fa8747b1c0d182bbb24af38de37ab55a303e6ebe122876e53da0790cdcfe618446"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourceserifpro-fonts"

@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.1.9"
 
-RPM_NAME = "libsource-highlight4-3.1.9-5.8.aarch64.rpm"
-RPM_HASH = "390788d659d0fc724ac2125210cbcbbd6e0d66dd876095a64d1fe5ef652c6561235e803a646b2fba32a05e2d80b361e2bc2f20d738e620a570aed60d58463949"
+RPM_NAME = "libsource-highlight4-3.1.9-5.22.aarch64.rpm"
+RPM_HASH = "293cf5dbf61ed5dd6d797e8885ff1218c605b64b2a36c43f3e20fce486599ec5083803f931ed3f690eaffdd01244ca272b2cfb8d6fb1de0af1eaf7b01165fd49"
 
 RPROVIDES:${PN} += "libsource-highlight.so.4 \
 libsource-highlight4"

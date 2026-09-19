@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-newfloat"
 DESCRIPTION = "This package includes the documentation for texlive-newfloat"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1lsvn52906"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-newfloat-doc-2023.209.1.1lsvn52906-55.1.noarch.rpm"
-RPM_HASH = "a85e16c2595fb4a63530d2b980bbb2b5fe9739a2bc6ed5ebe7f747d7b83c13b51df86bd3a5fc0c099648436ccd5bc830b30ec598e07976e7bf13e76e3d35ab38"
+RPM_NAME = "texlive-newfloat-doc-2026.226.1.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "20022a7472e4788c5142f69a0a8c2756c616a2ca892055403001b6bec42dfe7bcf5f187332117569dc824e392c884602a5da9618de1c65d6619c904eb27fe511"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newfloat-doc"

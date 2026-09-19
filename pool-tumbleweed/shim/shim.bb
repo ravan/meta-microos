@@ -3,16 +3,15 @@ DESCRIPTION = "shim is a trivial EFI application that, when run, attempts to ope
 execute another application."
 LICENSE = "BSD-2-Clause"
 
-PV = "15.7"
+PV = "16.1"
 
-RPM_NAME = "shim-15.7-7.2.aarch64.rpm"
-RPM_HASH = "f87ce233d3736e9cd5e09a18aea55856c7fdea4e6c8804c81f0f404347c11c662fdd3144890788003bd6990583c1fdcfe670e6d146992e56db9e50ca35885687"
+RPM_NAME = "shim-16.1-4.2.aarch64.rpm"
+RPM_HASH = "152d9c7801be09d0aef6bb69472b4110a4cc5fa7a6f02d3d2db90244a3cef6bd08520303e9806c22da9a5ea0a8f03ef45c8544728cc4b4c7bd70530a41ba286f"
 
 RPROVIDES:${PN} += "shim"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
-grub2-arm64-efi \
-mokutil"
+perl-Bootloader"
 
 inherit rpm

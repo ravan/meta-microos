@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-lottie in QCH format"
 DESCRIPTION = "This package contains documentation for qt6-lottie in QCH format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-lottie-docs-qch-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "c630629d57e0559f44a29e72333fb1f3814847570c81fe44cfe9a31c7b6169121c34790c638f948560153558c244ac4fdf7caf52b2d49fc633269618cbdfcd87"
+RPM_NAME = "qt6-lottie-docs-qch-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "80d20850772a9dac1af8445a25db890bfec5f3d5b0e29a3a0cbe4596a268f82876d87c65501fb04367939b7d82aa6cc7c2af73d46e419009b35eac06f49f179a"
 
 RPROVIDES:${PN} += "qt6-lottie-docs-qch"
 

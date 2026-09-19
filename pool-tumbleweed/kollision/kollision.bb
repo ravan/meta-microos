@@ -2,27 +2,29 @@ SUMMARY = "Kollision game"
 DESCRIPTION = "KDE version of a classic arcade game"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kollision-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "b4efc3c0b07100c115af1f86195c81639e6b5fb14dd135591a93b2ef44258fe0cdf4b3e0875d2c659afd2df4609b237e0f39bf92a224cf5d5a98b495aa993705"
+RPM_NAME = "kollision-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "adc13797ed429f58df6a18bc4b3118ef5e17013d3aed332c2e8f3448cd6111468a42591d35fd99b1b685dd0d63a2a2ef724af9b57b186d15ad486bcb5a0a45e6"
 
 RPROVIDES:${PN} += "kollision \
 kollision5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6"

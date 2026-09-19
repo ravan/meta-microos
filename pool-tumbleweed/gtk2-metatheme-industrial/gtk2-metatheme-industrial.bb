@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.5"
 
-RPM_NAME = "gtk2-metatheme-industrial-0.6.5-72.13.noarch.rpm"
-RPM_HASH = "52f72a464fca0931893689b20b4d4e620c465daa3504181bc75409a81b3c5e65b2dacf2dbf3c9aac0815084d673d10838a36362c957f2553169f6f8dc39ed09d"
+RPM_NAME = "gtk2-metatheme-industrial-0.6.5-72.20.noarch.rpm"
+RPM_HASH = "47dc2329ce2b9169e38d71839b40cd7356cf7cdb9405a0634f82f1e70b51b2a838ab6ad674b5b86e4d9016982c9feccfb2e1843af767c560bd816ebc261f03b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-themes-/usr/share/themes/Industrial/index.theme \

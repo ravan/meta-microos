@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-concmath"
 DESCRIPTION = "This package includes the documentation for texlive-concmath"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn17219"
+PV = "2026.226.svn17219"
 
-RPM_NAME = "texlive-concmath-doc-2023.209.svn17219-54.1.noarch.rpm"
-RPM_HASH = "b95e7fb71bf393dd35e7b3dc7f64a1cf0788ba752237bfd4fa2aa39d9f85c92d8af830000b5c5faa4e0b01fbe4bdd6881d86c946811c76dbcf1b4985a41d0cae"
+RPM_NAME = "texlive-concmath-doc-2026.226.svn17219-60.2.noarch.rpm"
+RPM_HASH = "82cb11f7269fecbcc24828193fb10658e1138ed65a5e6d3c82447c047d1f545e05a9d861bc654ada343aee4750df7ef0c2cb1b5a76d91c33268196380dda5957"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-concmath-doc"

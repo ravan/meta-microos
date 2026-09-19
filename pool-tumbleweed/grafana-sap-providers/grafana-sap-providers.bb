@@ -4,14 +4,16 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1"
 
-RPM_NAME = "grafana-sap-providers-1.1-1.8.noarch.rpm"
-RPM_HASH = "b284f12ae72e15cdbab0bce02787892083c231f25b0af58577cf120678ff465a1567110729b1d288f015a49d61a6ed8a21f7e465e81b5e67b7448a4dc3dfd4b3"
+RPM_NAME = "grafana-sap-providers-1.1-1.16.noarch.rpm"
+RPM_HASH = "a4e409c68c0d159d81d5c30977decf860aae1bf5797b4d5337b3013dfd27806df1c8258083e5d4fae17e01ac7b3f904a4d655e62ed0173d7a1eac889caf4f01c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-grafana-sap-providers \
 grafana-sap-providers"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-shadow"
+group-grafana \
+shadow \
+user-grafana"
 
 inherit rpm

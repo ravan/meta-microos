@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "hitori-lang-44.0-1.3.noarch.rpm"
-RPM_HASH = "19204a6b3a4beace0312f0265afee3780d26ca07c7148ad3d951982e252f82b6cdfdd68ea97f5177b1bcc764862729e7a9c453a2dc79fec28f4ddee55e3f23b0"
+RPM_NAME = "hitori-lang-44.0-1.15.noarch.rpm"
+RPM_HASH = "1b5b6be0e55965afe78f3e2bb799108713c963448fcc3bffaac6cd4093fc71a1161e03b8870b1b3f45c33b37a7dc58ecebc4ff481889d68fa279971a5c8655b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hitori-lang \

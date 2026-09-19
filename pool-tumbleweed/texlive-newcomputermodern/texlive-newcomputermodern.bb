@@ -7,10 +7,10 @@ Computer Modern, it provides a Book weight for heavier \
 printing."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.209.4.4svn66327"
+PV = "2026.226.7.1.1svn77682"
 
-RPM_NAME = "texlive-newcomputermodern-2023.209.4.4svn66327-55.1.noarch.rpm"
-RPM_HASH = "109a6872d95759f5f36fe2ac327e35b30bcb95b790a2eabe69ba6538ab0a508565551bed5534b3b078ffc0b5d19f45416c380085ec97cd5cd85076ae59d583f1"
+RPM_NAME = "texlive-newcomputermodern-2026.226.7.1.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "0d9d9ad05816980c89e56544f2283999ec9ef2ce20e0a013c32ba8943cd676289504a48eb74162b0c38051b49afc314e6073f0a2371a569409e9142109b54638"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-newcomputermodern.sty \
@@ -22,8 +22,11 @@ ed \
 findutils \
 grep \
 sed \
-tex-fspdefault.sty \
-tex-fspolddefault.sty \
+tex-fontspec.sty \
+tex-fspdefault.tex \
+tex-fspolddefault.tex \
+tex-fspsansdefault.tex \
+tex-unicode-math.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

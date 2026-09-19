@@ -21,8 +21,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.0"
 
-RPM_NAME = "awesome-vicious-2.6.0-1.2.noarch.rpm"
-RPM_HASH = "e5acb1897f06872598ad45a559f83be015483d575abeda813cde7460d66649d5f96f44c29d18b31755d3bee4a0d05b4ea8d1cb3fcf218c073563eccf2848d5ff"
+RPM_NAME = "awesome-vicious-2.6.0-1.10.noarch.rpm"
+RPM_HASH = "b5e907e6268cac456266f40402936a3d5d3629c7c05e72e920f77f7170cb3f33e5c618ea66921fb882b1d53aa8ed0149d1e2bc641c698e61360d1825f31f8567"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "awesome-vicious"

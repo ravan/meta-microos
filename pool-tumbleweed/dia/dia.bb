@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.97.3"
 
-RPM_NAME = "dia-0.97.3-11.12.aarch64.rpm"
-RPM_HASH = "a9944943048601b134aa1d2981fd857da3f428c55c7862d4ba6dffe08ab0ba9b7312736497fc823cdc13fd0c5e304607ea6efa036d64f284bc4c0a6c44c8fab2"
+RPM_NAME = "dia-0.97.3-18.6.aarch64.rpm"
+RPM_HASH = "227924f9346fb6d835adc40be5a2c0c78254d62adc13434c32abd139b3428069d38945699989917ffcee61cfa6ebf832ea3d0fb5a4777db889b191e4e0e3f989"
 
 RPROVIDES:${PN} += "dia \
 libaadl-objects.so \
@@ -57,7 +57,6 @@ libxslt-filter.so"
 RDEPENDS:${PN} += "ghostscript-fonts-std \
 ld-linux-aarch64.so.1 \
 libEMF.so.1 \
-libart-lgpl-2.so.2 \
 libc.so.6 \
 libcairo.so.2 \
 libfreetype.so.6 \
@@ -69,10 +68,9 @@ libgthread-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \
-libpangocairo-1.0.so.0 \
 libpangoft2-1.0.so.0 \
 libpng16.so.16 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxslt.so.1 \
 libz.so.1 \
 xdg-utils"

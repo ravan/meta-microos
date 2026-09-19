@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.8.2"
 
-RPM_NAME = "bison-lang-3.8.2-3.4.noarch.rpm"
-RPM_HASH = "b030e08c8fa181713aa213a21d2fdc45f3f2c5cb56d12fd4b1db8655d4b14dc69c4c611a20a7814d4571db20ed550136705e815b61e6c51831c8cb5eea33d929"
+RPM_NAME = "bison-lang-3.8.2-4.1.noarch.rpm"
+RPM_HASH = "bcd91288c662cfa6ff560c5bbb0453d46b72d30c52e87a4404faedb2d78cb9e4b58a9c80231b02c512167c1d8bf20098cfa5da145e0fa8a2243e9b60c5e3b4ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bison-lang \

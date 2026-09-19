@@ -1,15 +1,15 @@
 SUMMARY = "Theme preview application for GTK 3"
-DESCRIPTION = "A widget factory is a theme preview application for GTK. It displays the \
-various widget types provided by GTK in a single window allowing to see \
+DESCRIPTION = "A widget factory is a theme preview application for GTK and Qt. It \
+displays the various widget types in a single window allowing to see \
 the visual effect of the applied theme. \
  \
-This package provides the GTK 3 version."
+This package provides the program for GTK 3."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.0"
+PV = "4.2.0"
 
-RPM_NAME = "awf-gtk3-2.7.0-2.1.aarch64.rpm"
-RPM_HASH = "ae5a8a8a7231f40736b0c2786c89cf5f792b8d13807a5cb4d75d71c9e659c65d9256e02b57d4cca82c02ce04dd2e8dcec66700a20bc80e6f30a0bad1d1cd0d03"
+RPM_NAME = "awf-gtk3-4.2.0-1.2.aarch64.rpm"
+RPM_HASH = "e9f829aa8f95885603fd90dcdd4817afc1fa571af345d4053fa149d2643be8c122aa45ddb9278e526f33a253c40779fa30620564f533365a1b702e17a81cf9a6"
 
 RPROVIDES:${PN} += "awf-gtk3"
 
@@ -23,6 +23,8 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libnotify \
+libnotify.so.4 \
 libpango-1.0.so.0"
 
 inherit rpm

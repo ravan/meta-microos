@@ -5,10 +5,10 @@ MetaPost pictures is possible and the picture code can be put \
 inside arguments to commands, including \\newcommand."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn21691"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-gmp-2023.209.1.0svn21691-54.2.noarch.rpm"
-RPM_HASH = "8e8944cedf56dd8f02d959b769b49ecd3fde5a700ff03e86c9e1e877b9cc426ddfcbe2fb019af3611b5f06a31eb9b0418529d03174da0afd6b48ef44cba2ed6c"
+RPM_NAME = "texlive-gmp-2026.226.1.0svn77682-60.4.noarch.rpm"
+RPM_HASH = "e45a6ea104615e268b4029502e6b165e44c79b665d21bf71f219274f4ac15ae4ea8e2ab7c1b4ef7a7175afc2029b8f2b827fa1f5b4104a591f075f819562b8a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gmp.sty \

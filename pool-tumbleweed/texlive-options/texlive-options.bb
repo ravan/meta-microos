@@ -5,10 +5,10 @@ with path options but comes with more built-in data types and \
 more convenient support for families and searching."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn39030"
+PV = "2026.226.1.0svn39030"
 
-RPM_NAME = "texlive-options-2023.209.1.0svn39030-55.1.noarch.rpm"
-RPM_HASH = "d5cf2bcc007c2acac3fa130d5381714b9a3f56c76d773bd23459c41a79f4aaf6a5193ea01cb04f8e88d899bcf1716b297f0325efcc48f97bf9e2ba40ed60536f"
+RPM_NAME = "texlive-options-2026.226.1.0svn39030-61.2.noarch.rpm"
+RPM_HASH = "4b1c13b72485ee9fa006247a5a3bdfd8baff25d0d9324a3467b2d0e086ce40215b933ec6f3522c423f4579f173bd779331796dcce05e299dfeafaec1b84c4191"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-options.sty \

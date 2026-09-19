@@ -1,15 +1,17 @@
-SUMMARY = "Package for LaTeX code documentation"
-DESCRIPTION = "This is 'yet another doc/docx/doc3' package for LaTeX code \
-documentation."
+SUMMARY = "A deprecated package for LaTeX code documentation"
+DESCRIPTION = "This package is no longer supported, fully deprecated. Use (for \
+instance) codedescribe or doctools."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1betasvn64314"
+PV = "2026.226.1.0.2svn77050"
 
-RPM_NAME = "texlive-democodetools-2023.209.1.0.1betasvn64314-53.1.noarch.rpm"
-RPM_HASH = "0c7227e51d198f4b71313dd3856f639ea480dca09e9fb2da3477f87ce5a45b40f2e7a191717f5672f699546fb82764f59477b164c05151e87ff337ede1b85174"
+RPM_NAME = "texlive-democodetools-2026.226.1.0.2svn77050-59.2.noarch.rpm"
+RPM_HASH = "903344478735f252bec493523f0ee6a0c5acb18bff35db9b232973be4106bc8fce9e017a9d71380c5f14729913f46c28e5d9e28eda9df0eba04e83f75a327657"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-democodelisting.sty \
+RPROVIDES:${PN} += "tex-democodelisting-1.0.1.sty \
+tex-democodelisting.sty \
+tex-democodetools-1.0.1.sty \
 tex-democodetools.sty \
 texlive-democodetools"
 

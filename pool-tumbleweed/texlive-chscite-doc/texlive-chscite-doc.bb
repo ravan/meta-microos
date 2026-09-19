@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chscite"
 DESCRIPTION = "This package includes the documentation for texlive-chscite"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.9999svn28552"
+PV = "2026.226.2.9999svn28552"
 
-RPM_NAME = "texlive-chscite-doc-2023.209.2.9999svn28552-54.1.noarch.rpm"
-RPM_HASH = "0c5d03ae06715126351896b63258f8276d432493850e016290d4242752ce63ca3c314cc0f1b6faee284d3f8c46aba8c5215b8404a462a62808fd57c8abdffda5"
+RPM_NAME = "texlive-chscite-doc-2026.226.2.9999svn28552-60.2.noarch.rpm"
+RPM_HASH = "c50ab18ba7866ac0ec2c0fe23bc681f7afb10b062e069f6fee929253170f0f4c8523b25744c9688ec7722115a924d1bfb5365e4a1799078c97f8a7e1c5b36d12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chscite-doc"

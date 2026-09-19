@@ -5,10 +5,10 @@ it; discover the operations available on it; and instantiate the \
 appropriate bean to perform the operation(s)."
 LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
-PV = "2.1.0"
+PV = "2.1.3"
 
-RPM_NAME = "jakarta-mail-2.1.0-1.7.noarch.rpm"
-RPM_HASH = "fce2dc7455821b8681995410c63a8559534ee4c375a160bbdbf595d97b4d3d304918faa1c4d009c1b08f89769c713cb93af598290c7fcb106b855e60a992cc31"
+RPM_NAME = "jakarta-mail-2.1.3-1.9.noarch.rpm"
+RPM_HASH = "48e25b0064772e239683a8bb0df368fa91a7a523ff9780381a0220f11966f4e53d10dc6013e47193c4dc8afe0910d449e47e40bd20b5ac18842e9c13a48e9673"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-mail \

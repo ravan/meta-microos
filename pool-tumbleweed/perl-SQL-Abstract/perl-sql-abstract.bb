@@ -43,8 +43,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.000001"
 
-RPM_NAME = "perl-SQL-Abstract-2.000001-1.12.noarch.rpm"
-RPM_HASH = "cac9cf96fb62583f717131757cff70111487d0dd696461b241925c6fda7a53cdd0585db60893b2d47d1c0eef9ddd216a1a937ead37bf317f0c98a60c8baca3dd"
+RPM_NAME = "perl-SQL-Abstract-2.000001-1.26.noarch.rpm"
+RPM_HASH = "764c04f4690a2006999b52fcd89e917333e37379a0fbbe5af212fa9d479a7b8728825dcecc7dae13f136b5d52e3665321491f335b68a9d8e0b64a1aa1408d9c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--SQLMaker--Role--SQLA2Passthrough \
@@ -60,7 +60,7 @@ perl-SQL--Abstract--Test \
 perl-SQL--Abstract--Tree \
 perl-SQL-Abstract"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Hash--Merge \
 perl-MRO--Compat \
 perl-Moo \

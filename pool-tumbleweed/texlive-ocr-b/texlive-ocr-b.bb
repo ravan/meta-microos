@@ -2,10 +2,10 @@ SUMMARY = "Fonts for OCR-B"
 DESCRIPTION = "Metafont source for OCR-B at several sizes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20852"
+PV = "2026.226.svn20852"
 
-RPM_NAME = "texlive-ocr-b-2023.209.svn20852-55.1.noarch.rpm"
-RPM_HASH = "e0c4219b04b6d87f7f305a9cce175bc442dfdc4313524de8c9510991aca6bd6ff217a181e825869092ad53564b9cb95b2e5e9e52753e7b4c610e43dc4d9a4e73"
+RPM_NAME = "texlive-ocr-b-2026.226.svn20852-61.2.noarch.rpm"
+RPM_HASH = "3fc4461fcef373e0b663e52ae20b9cd44f5db94407ae403b81f9971cd00fd654f6266a044542e9e24d03132151a2543ef38b3aed7c899581bea7b61183cd80e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ocrb10.tfm \

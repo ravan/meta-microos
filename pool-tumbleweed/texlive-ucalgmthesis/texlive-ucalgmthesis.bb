@@ -13,10 +13,10 @@ options to ucalgmthesis, in particular 12pt to select 12 point \
 type (11 point is the default)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn52527"
+PV = "2026.226.svn66602"
 
-RPM_NAME = "texlive-ucalgmthesis-2023.209.svn52527-53.1.noarch.rpm"
-RPM_HASH = "75b2ae62fc2bc7ba3fc71f694f4407aae2c4a3c755ecb0aee47dcf44819f849cf17442e4821b8d2adc9e4027f81848311f7625b9faba5218067fcf418fbec63c"
+RPM_NAME = "texlive-ucalgmthesis-2026.226.svn66602-59.2.noarch.rpm"
+RPM_HASH = "7034b84c068c633c7cebe67e78f1dca800906cafdf0ead6b8080946ae90476583ec1b702bcc86cffbd37462aa449492fff389e6c6207362c9d939c68617204a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ucalgmthesis.cls \
@@ -29,9 +29,9 @@ findutils \
 grep \
 sed \
 tex-amsthm.sty \
+tex-erewhon.sty \
 tex-fontenc.sty \
 tex-libertine.sty \
-tex-mathdesign.sty \
 tex-memoir.cls \
 tex-newpxmath.sty \
 tex-newpxtext.sty \

@@ -8,54 +8,44 @@ This module was previously part of GNOME Control Center, but has been \
 split for a more general use."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
-PV = "44.1"
+PV = "50.1+6"
 
-RPM_NAME = "gnome-settings-daemon-44.1-2.1.aarch64.rpm"
-RPM_HASH = "fd65fa29d3ed3520a8034baf3a4ae5a85209e7967f4a6f6d6151b82ac606aeccb142d75f6df7506b051f277591e3f0d9805765d42d878458f6d61e50065bbefc"
+RPM_NAME = "gnome-settings-daemon-50.1+6-1.2.aarch64.rpm"
+RPM_HASH = "4738aa7193dddb3f5e49f5e6f6c7941e4e24e791bb0fe8bf264866f0e0b73fac057eba11570d90363afa36edb18bea4388f9ae2609430f3cd9ccb2607cdf6c98"
 
 RPROVIDES:${PN} += "gnome-settings-daemon \
 libgsd.so"
 
-RDEPENDS:${PN} += "/usr/bin/pkexec \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gsettings-desktop-schemas \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
-libXext.so.6 \
 libXfixes.so.3 \
-libXi.so.6 \
 libasound.so.2 \
 libc.so.6 \
-libcairo.so.2 \
-libcanberra-gtk3.so.0 \
 libcanberra.so.0 \
 libcolord.so.2 \
 libcups.so.2 \
 libfontconfig.so.1 \
+libgck-2.so.2 \
 libgcr-4.so.4 \
-libgdk-3.so.0 \
 libgeoclue-2.so.0 \
 libgeocode-glib-2.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
-libgnome-desktop-3.so.20 \
+libgnome-desktop-4.so.2 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0 \
 libgudev-1.0.so.0 \
 libgweather-4.so.0 \
 libm.so.6 \
 libmm-glib.so.0 \
 libnm.so.0 \
 libnotify.so.4 \
-libnspr4.so \
-libnss3.so \
-libpango-1.0.so.0 \
-libpangocairo-1.0.so.0 \
+libp11-kit.so.0 \
 libpolkit-gobject-1.so.0 \
 libpulse-mainloop-glib.so.0 \
 libpulse.so.0 \
-libupower-glib.so.3 \
-libwacom.so.9 \
-libwayland-client.so.0"
+libsystemd.so.0 \
+libupower-glib.so.3"
 
 inherit rpm

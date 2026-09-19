@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "6.3.2"
 
-RPM_NAME = "vim-plugin-minibufexpl-6.3.2-56.1.noarch.rpm"
-RPM_HASH = "cae31aa451263bc6dfda963848f75da506e198e29bd3f2e3a39ecbd4178c6fe0610458b3b13afd5c5393aa23e24e91c3ab9f395e3b173849da010f0b7fc15122"
+RPM_NAME = "vim-plugin-minibufexpl-6.3.2-64.2.noarch.rpm"
+RPM_HASH = "e89c933bbf4550c2c2672bdb5157cf7b31e6d097d6e5e70103d124bb0ff520211d3ea6f3e1483fc26384534feb768c5323aa2c1f704e5312a885c4a6c3c8da42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-minibufexpl"

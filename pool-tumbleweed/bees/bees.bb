@@ -16,10 +16,10 @@ Hilights: \
 * Automatic self-throttling based on system load"
 LICENSE = "GPL-3.0-only"
 
-PV = "0.10"
+PV = "0.11~20260503"
 
-RPM_NAME = "bees-0.10-1.1.aarch64.rpm"
-RPM_HASH = "2a5dcb0c6b133525058bbd1ee4799dadda22ea133af38ee2f3457134c5440aa38a1629f377e60fcbccc7916ee3912a2f208b7f7d7d64c57851a4bb9b1eff7cd0"
+RPM_NAME = "bees-0.11~20260503-1.3.aarch64.rpm"
+RPM_HASH = "1fe26e598763653256627174dc064a4461bc386a253e58551321ecc1a6cdbaa587f17d64d8356752e377993c4e096398d276786e32e1c0f91275345289e283f3"
 
 RPROVIDES:${PN} += "bees"
 

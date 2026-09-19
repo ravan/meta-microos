@@ -3,10 +3,10 @@ DESCRIPTION = "A BibLaTeX style, based on the Turabian Manual (a version of \
 Chicago)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn19787"
+PV = "2026.226.0.0.4svn19787"
 
-RPM_NAME = "texlive-biblatex-historian-2023.209.0.0.4svn19787-54.1.noarch.rpm"
-RPM_HASH = "053067b8015988f172eeee5773f07c20e6d91ade3e7e64ceff655fe0898257e38688a86f8eb941e52a09c68060ab07b1d380cef3be27412488b9f3cd92b9bf2f"
+RPM_NAME = "texlive-biblatex-historian-2026.226.0.0.4svn19787-61.2.noarch.rpm"
+RPM_HASH = "03403b946e14ee4d94dfac795988690c39c8882418ae674133390db3f6dd7e4673f40a99cd92edec56560816c7a1c786c3298aeadea1ea12e6ecc8c15a117fda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-historian.bbx \

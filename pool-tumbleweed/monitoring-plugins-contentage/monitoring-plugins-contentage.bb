@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7"
 
-RPM_NAME = "monitoring-plugins-contentage-0.7-1.9.noarch.rpm"
-RPM_HASH = "ed61c6044b1840e0e35901fb84e4a553c33a0c95480165c9c93458ec5700a968cefa224d27245ff8a21125c55e019404f038e6983fe1d7ecad62955d3edf07b3"
+RPM_NAME = "monitoring-plugins-contentage-0.7-1.17.noarch.rpm"
+RPM_HASH = "37a3d06b861d5c15a063ac983c8bdd1946106b3b28f9fae34b6fee1cf376706dfb6d58d829f11399565b158bf044eccf30199bae8c8074da7d048a3e48c036d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-contentage \

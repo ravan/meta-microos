@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "2.0.1"
 
-RPM_NAME = "homeshick-2.0.1-1.1.noarch.rpm"
-RPM_HASH = "fd686e595a6b5807fc0f6b8813ddba52f1e64ce7c4de251043d199d9b4e0f033114c7713868cf85e632c1ecd03704316c84091dcf71208d2a76395b83d30e2a2"
+RPM_NAME = "homeshick-2.0.1-1.9.noarch.rpm"
+RPM_HASH = "0df36eff60d23f75e5b58d01028f729b6c91a315efd1f171bce4e76f521bde50f1382b3f18729b34297df8b9fc066c06b924f772ae0f4647b3c969bcb12cecc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "homeshick"

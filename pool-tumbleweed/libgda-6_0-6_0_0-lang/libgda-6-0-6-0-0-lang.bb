@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-6_0-6_0_0-lang-6.0.0-6.8.noarch.rpm"
-RPM_HASH = "1a44aa310a0f7766fc60e5c3d2b9cc318bcf89fda79a169f0e68480a97fc693e2d3ceb72e717c3877096ca4320ec0fa447ce2a6d02ef027a263af946456e17ae"
+RPM_NAME = "libgda-6_0-6_0_0-lang-6.0.0-11.5.noarch.rpm"
+RPM_HASH = "0e248f8c29273065de94fe3bfb770da1222391ba4847482523adb090a87422c12b7d13c0a865478f57de599cb06e96b63756ed1d60cdb9522f0fc97d1a432d80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgda-6-0-6-0-0-lang \

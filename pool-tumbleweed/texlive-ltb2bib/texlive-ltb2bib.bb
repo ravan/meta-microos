@@ -9,10 +9,10 @@ management program, e.g. for sorting; access one's ltb database \
 within emacs's RefTeX mode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.01svn43746"
+PV = "2026.226.0.0.01svn43746"
 
-RPM_NAME = "texlive-ltb2bib-2023.208.0.0.01svn43746-53.1.noarch.rpm"
-RPM_HASH = "8026406e5d3a567b2c2460cf8ee4654d42c4f58c92b94826c34feb58ba1a12e7a77e1bb5d1388aac710aef950871982069de113e18323e014c1c39859769e3e0"
+RPM_NAME = "texlive-ltb2bib-2026.226.0.0.01svn43746-59.2.noarch.rpm"
+RPM_HASH = "ebc1f0c9c0c6d980cfbe7c1f6202734afe3ef907c4f3891e507200c6b608972945052cba188e6b4093f49ff3912e8610e261751d5634b5a9dbcfeff2cb808d41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ltb2bib.sty \

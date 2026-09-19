@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn47533"
+PV = "2026.226.1.1svn47533"
 
-RPM_NAME = "texlive-datetime2-greek-2023.209.1.1svn47533-53.1.noarch.rpm"
-RPM_HASH = "5991707db9d0aaac812eea30593aa45433e377d9fad3782408d121438269e6524721ef9f3a9cbbe0e80dd56a9493aa7e92c7ac182effeb303a932a126cf8c4c0"
+RPM_NAME = "texlive-datetime2-greek-2026.226.1.1svn47533-59.2.noarch.rpm"
+RPM_HASH = "206cdb29feeaf554599e534071542c1eccdfc66598429c02b60017600465457c0a6495791678869f7dde3ee458793e770feb595543a73e1972f35151b06fed72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-greek-ascii.ldf \

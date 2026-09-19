@@ -12,10 +12,10 @@ tables in one table/figure environment. The package relies on \
 nicematrix and l3keys2e."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.4svn60673"
+PV = "2026.226.0.0.0.4svn76924"
 
-RPM_NAME = "texlive-decision-table-2023.209.0.0.0.4svn60673-53.1.noarch.rpm"
-RPM_HASH = "f2fce85c87eb67b360b88c864d7044f5cbc39994f656445f20612f8dbfc68b833050dc693d2f643ea83ce6db6f0f48efc769655d506249ab80cb899bd215c9a2"
+RPM_NAME = "texlive-decision-table-2026.226.0.0.0.4svn76924-59.2.noarch.rpm"
+RPM_HASH = "ffaa7bbf75a383ae1ecf055ec1c1228e4e34541b92657cab207b8ee8429d83292dbe788c9e4a07fa025834ed4b623f546c88d3899cbd4d89b2ef0f9160c0615c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-decision-table.sty \

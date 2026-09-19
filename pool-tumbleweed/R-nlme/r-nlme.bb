@@ -2,10 +2,10 @@ SUMMARY = "Package provides recommended R-nlme"
 DESCRIPTION = "This packages provides R-nlme, one of the recommended packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "3.1.162"
+PV = "3.1.169"
 
-RPM_NAME = "R-nlme-3.1.162-46.1.aarch64.rpm"
-RPM_HASH = "86985dd3f5ee3ac0da1b766879a2d3bcd2abc4f057bb7cb8aeaf6d46681215dce2ab2028a7e54c5850173d219a01d7db7b3ab516175eb1ee223c7b4b039d3f15"
+RPM_NAME = "R-nlme-3.1.169-58.3.aarch64.rpm"
+RPM_HASH = "c261c4609a34dfc9f3677c10723546291bf0cdbd0a913d5f0742a64518e9a5f8db7721d4c78e9eb9c4c2d52cd076bcb01369a4fe60fe2aca6499758f9a567203"
 
 RPROVIDES:${PN} += "R-nlme"
 

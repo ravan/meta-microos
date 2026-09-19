@@ -5,10 +5,10 @@ The typical usage is to give access to file-based ones. \
 This package contains libraries used by XRootD servers."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.6.1"
+PV = "5.9.0"
 
-RPM_NAME = "xrootd-server-libs-5.6.1-1.1.aarch64.rpm"
-RPM_HASH = "c0055a453cd0877fed0f76314f11538689bcaccf5c1b28c7bb4d7ba0f1a08088a62c5cda18915ce00d831d4c14ff6fbf6ed28685ab6adaa9e4a992d49205f1b7"
+RPM_NAME = "xrootd-server-libs-5.9.0-1.6.aarch64.rpm"
+RPM_HASH = "80c8baa111898693e9cc955bfe5a1a136999e83fd32d1a5c6b2f58073e3db6d247ea9246a2d1f551f50c875af054f2eb332aee43494c427ab915ace993c7c239"
 
 RPROVIDES:${PN} += "libXrdBlacklistDecision-5.so \
 libXrdBwm-5.so \
@@ -18,7 +18,9 @@ libXrdN2No2p-5.so \
 libXrdOfsPrepGPI-5.so \
 libXrdOssCsi-5.so \
 libXrdOssSIgpfsT-5.so \
+libXrdOssStats-5.so \
 libXrdPfc-5.so \
+libXrdPfcPurgeQuota-5.so \
 libXrdPss-5.so \
 libXrdServer.so.3 \
 libXrdSsi-5.so \
@@ -37,6 +39,7 @@ libXrdPosix.so.3 \
 libXrdUtils.so.3 \
 libc.so.6 \
 libgcc-s.so.1 \
+libm.so.6 \
 libstdc++.so.6 \
 libz.so.1 \
 logrotate \

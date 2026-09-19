@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the header files and libraries needed to \
 compile applications or shared objects that use yascreen."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.97"
+PV = "2.11"
 
-RPM_NAME = "yascreen-devel-1.97-1.4.aarch64.rpm"
-RPM_HASH = "9e5910be0e47a67c95ee468bf361a2bb090cbbbb57a16f3629adcd58e08bb25e250e08cdda8836e9695c6ccafe4cfeda8b1444cb7859b69752be53fc1af4b595"
+RPM_NAME = "yascreen-devel-2.11-1.3.aarch64.rpm"
+RPM_HASH = "dc8307d4e5e5b16fba5b8eb6efc200e4130b13558fd8ea9e98a7337a684224447f923e6e1e7acfc8bc42b5be7259c888eb7bbd1748de16d00530a24534e1a2ad"
 
 RPROVIDES:${PN} += "pkgconfig-yascreen \
 yascreen-devel"

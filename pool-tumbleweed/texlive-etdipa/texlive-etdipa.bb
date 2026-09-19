@@ -3,13 +3,13 @@ DESCRIPTION = "This package provides a complete working directory for the \
 scientific documentation of arbitrary projects. It was \
 originally developed to provide a template for Austrian \
 'Diplomarbeiten' or 'Vorwissenschaftliche Arbeiten', which are \
-scientfic projects of students at a secondary school."
+scientific projects of students at a secondary school."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.6svn36354"
+PV = "2026.226.2.6svn76924"
 
-RPM_NAME = "texlive-etdipa-2023.209.2.6svn36354-53.1.noarch.rpm"
-RPM_HASH = "50821a762f6b9f709a429bd8fd50f54568c536ab731ac915dafd3d8d4c6f3693d242454b1c7b95d8c031a9c2bd14c717079fcacf2a3ca1ce7a063dc05ff5b5e0"
+RPM_NAME = "texlive-etdipa-2026.226.2.6svn76924-59.2.noarch.rpm"
+RPM_HASH = "0cf3ee219cda2e5cffc6a77bc6530311ba3eeaf4e94d4cc577d3e15f8595afdadc60fc7ce7000a33bf94143d76cc0c97ecd896448cd66b99872a3029f308c867"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-etdipa"

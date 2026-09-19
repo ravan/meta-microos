@@ -5,10 +5,10 @@ Cinnamon Desktop. \
 This package contains development files for cjs."
 LICENSE = "(GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later) & MIT"
 
-PV = "5.0.0"
+PV = "140.0"
 
-RPM_NAME = "cjs-devel-5.0.0-1.11.aarch64.rpm"
-RPM_HASH = "6ea212f1ec58149b282c71d9738e5a02bef4af795381cd001bd292c036a111847e182a167a197f692ad337b1339ce2d68c3a847f134eea8142f0287eb11f84fe"
+RPM_NAME = "cjs-devel-140.0-2.1.aarch64.rpm"
+RPM_HASH = "b95b2d5e4a3e48926248dce4dc7cf564fe81fa67c1938e530644f9fe9f409eb4e884f48089dd3b70e5599c89deb512494627ce5fe1bbabcda78c4fb3ec3b6c31"
 
 RPROVIDES:${PN} += "cjs-devel \
 pkgconfig-cjs-1.0"
@@ -20,12 +20,11 @@ pkgconfig-cairo \
 pkgconfig-cairo-gobject \
 pkgconfig-cairo-xlib \
 pkgconfig-gio-2.0 \
+pkgconfig-girepository-2.0 \
 pkgconfig-glib-2.0 \
 pkgconfig-gobject-2.0 \
-pkgconfig-gobject-introspection-1.0 \
 pkgconfig-gthread-2.0 \
 pkgconfig-libffi \
-pkgconfig-mozjs-78 \
-typelib-1-0-CjsPrivate-1-0"
+pkgconfig-mozjs-140"
 
 inherit rpm

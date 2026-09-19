@@ -4,10 +4,10 @@ manager such as LightDM. It will load all necessary applications \
 for a full-featured user session."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-session-manager-1.26.1-2.1.aarch64.rpm"
-RPM_HASH = "fb43251d2989e47911ac34876e69a857f641720a6be8d1428b9e2a94f585b50f95178a7406d08577d8a2b782040ddaa847d85d068d0165e933d977ec26ac2b9b"
+RPM_NAME = "mate-session-manager-1.28.0-1.13.aarch64.rpm"
+RPM_HASH = "16bcec2771ad9382bd7d5545c842cf45e3c09bb661528746c29520345091a56988e75925719ec1809192cf9bcc8b3218587594d5c4ddea988b182ea32d059ada"
 
 RPROVIDES:${PN} += "config-mate-session-manager \
 mate-session-manager"

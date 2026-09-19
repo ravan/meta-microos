@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.4"
 
-RPM_NAME = "ghc-echo-prof-0.1.4-2.3.aarch64.rpm"
-RPM_HASH = "8cfd18ea882cf244abe96dd2e16c5c239c8abe0292f0046d07f193d7c67009b9d1e5d58f333b39ef7804111a7330bb9499162c184359e71c0660eece6874c8c3"
+RPM_NAME = "ghc-echo-prof-0.1.4-2.23.aarch64.rpm"
+RPM_HASH = "f816214354e2809d1f3f619b6e0b33f8fc5d82e88e7d0291de8e63a2f478c29f2f4dae38a126868e7c62d2e61dff4ae4380d3802ec7446a38e2cdecf563c2144"
 
 RPROVIDES:${PN} += "ghc-echo-prof \
-ghc-prof-echo-0.1.4-E70uPOVrrAEEin21p1eUkX"
+ghc-prof-echo-0.1.4-2JVioXINDaCEoYt7R5FuJ9"
 
 RDEPENDS:${PN} += "ghc-echo-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-process-1.6.17.0"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-process-1.6.26.1-905d"
 
 inherit rpm

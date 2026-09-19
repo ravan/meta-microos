@@ -13,12 +13,12 @@ transmitted. Finally, rdiff-backup is easy to use and settings have \
 sensical defaults."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.2.4"
+PV = "2.2.6"
 
-RPM_NAME = "rdiff-backup-2.2.4-2.2.aarch64.rpm"
-RPM_HASH = "d5015b94d0f97935b57517c0fa30c1fe03d1a090de279708d4f18fddf2090ba5cc3b8817fd004176ab2ea4767f012a7bc6a1824ccf7cd02b5a28edefcd9034eb"
+RPM_NAME = "rdiff-backup-2.2.6-2.11.aarch64.rpm"
+RPM_HASH = "e527a5abe9151434332955484fc0fe0b9228f9f35296bb9ad1422e5660e908e685ed00cc177251552749e2537cecf5a4bb8d0194cfaae20f55e871bea34420d6"
 
-RPROVIDES:${PN} += "python3.11dist-rdiff-backup \
+RPROVIDES:${PN} += "python3.13dist-rdiff-backup \
 python3dist-rdiff-backup \
 rdiff-backup"
 

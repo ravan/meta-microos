@@ -5,8 +5,9 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.2"
 
-RPM_NAME = "tinyxml-docs-2.6.2-10.9.aarch64.rpm"
-RPM_HASH = "a3ce6cdaf95f5ddebba3797c0ccf8b89a838eb0670043209221158179b57fba8a72eaf33c4468a7b27c59a1a62cee98bee6c828c308507b334554e020f4fc0c3"
+RPM_NAME = "tinyxml-docs-2.6.2-14.5.noarch.rpm"
+RPM_HASH = "c265127458249d2a2abe869c62e4228a04e8ed1268ae696710e0258a8ca86eda587b526ffa6ca7e2321e21a2dd9526fc677a71a6d7849e30469d2ea65c57f098"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tinyxml-docs"
 

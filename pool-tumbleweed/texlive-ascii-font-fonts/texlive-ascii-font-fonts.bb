@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-ascii-font"
 DESCRIPTION = "The  separated fonts package for texlive-ascii-font"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn29989"
+PV = "2026.226.2.0svn77682"
 
-RPM_NAME = "texlive-ascii-font-fonts-2023.209.2.0svn29989-54.1.noarch.rpm"
-RPM_HASH = "038b7e29b8616cadb65cffd06259af4a4ce98bf98f415f531faf9f6f9cf668e656d700f30aba060666a52efc2e045390973e177bea79fcccfa9085e67d983d65"
+RPM_NAME = "texlive-ascii-font-fonts-2026.226.2.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "5253672f66f7dbd50ac4159463654b0d99ff2be0bb7adaf9cf36b4187efe1b42900b227e8e2123c0a2a4ccb12104663df90de830668700645dc0463ba2dac2dc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

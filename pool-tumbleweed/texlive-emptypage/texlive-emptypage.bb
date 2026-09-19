@@ -3,10 +3,10 @@ DESCRIPTION = "This package prevents page numbers and headings from appearing \
 on empty pages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn18064"
+PV = "2026.226.1.2svn78101"
 
-RPM_NAME = "texlive-emptypage-2023.209.1.2svn18064-54.2.noarch.rpm"
-RPM_HASH = "fc714c1a4f35375eec6cc13a30bb77ac4029a0b67dd386f5b1d90f9360d275463f09f10cf1396ad796c345cf29c82c9bbac27f9f57e3ba7a2cdc67213d1517c9"
+RPM_NAME = "texlive-emptypage-2026.226.1.2svn78101-61.4.noarch.rpm"
+RPM_HASH = "0c9b244f9433da38d251432356fbc617e2fee4187819a9914bac2fb2d4c8bd4a1c707491939c08e31a9338edc926cd7737e1c495cbb30b2eb9fd1d4b6856ff4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emptypage.sty \

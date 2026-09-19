@@ -7,10 +7,10 @@ code. \
 This package contains the API documentation in HTML format."
 LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
-PV = "3.2.2.1"
+PV = "3.2.8"
 
-RPM_NAME = "wxWidgets-3_2-doc-html-3.2.2.1-3.1.noarch.rpm"
-RPM_HASH = "20256b86244d58403e5dfe698ae5196a7831d3c8fbf85ec302b13b4678faa8c18cceb7ee552183734c95155a459faf59267d342f966741d39f06cb43974eb297"
+RPM_NAME = "wxWidgets-3_2-doc-html-3.2.8-4.5.noarch.rpm"
+RPM_HASH = "8396142d6c9e25455d917c0e9848898f189761848134d5658ef7104be3b1efe0553370958243d8d4c859554830fce1208a40d8acf3a34e6c72e5ce016fc5e364"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wxWidgets-3-2-doc-html"

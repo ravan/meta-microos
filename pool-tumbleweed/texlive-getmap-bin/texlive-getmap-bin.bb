@@ -2,10 +2,10 @@ SUMMARY = "Binary files of getmap"
 DESCRIPTION = "Binary files of getmap"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn34971"
+PV = "2026.20260301.svn34971"
 
-RPM_NAME = "texlive-getmap-bin-2023.20230311.svn34971-93.2.aarch64.rpm"
-RPM_HASH = "591e874dc44c2e49dc4b320f939234a1cd125bfdbe7db9883725f750c96804cdb5d96bb08a5e66fe6cfdfe04fb82457fadf69f8c2d4b8131589f46f514b638ca"
+RPM_NAME = "texlive-getmap-bin-2026.20260301.svn34971-120.4.aarch64.rpm"
+RPM_HASH = "89aefb3f65a449adf62771f082b145761874c4764467eb5b290e2e963d83c84fa88bbd9a79dab6c2c202048e30c68fab0006c4ab022a4f8955a0d8f16bd4b0ce"
 
 RPROVIDES:${PN} += "texlive-getmap-bin"
 

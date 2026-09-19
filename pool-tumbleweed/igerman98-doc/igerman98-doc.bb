@@ -1,12 +1,12 @@
 SUMMARY = "Documentation for German dictionaries"
 DESCRIPTION = "Documentation for German, Swiss, and Austrian dictionaries for the ispell \
 and myspell spell checkers."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "20161207"
 
-RPM_NAME = "igerman98-doc-20161207-2.14.noarch.rpm"
-RPM_HASH = "8561bb257249f716055d87d1b3577d968c6d66a9aca64b6fa12f14402cd3153e859f9214b965c968b71876364d11dfb17a52fd9cec548cab8a444d6996260fd6"
+RPM_NAME = "igerman98-doc-20161207-6.1.noarch.rpm"
+RPM_HASH = "e4f17687c5ecf93fd56e2a3db83b133e62529bc26a5585f971e30c7e0bd8cb45e6d7273348844aa9697e040204bb97f6a1c0201bf385a2b4b04042f0391e6132"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "igerman98-doc"

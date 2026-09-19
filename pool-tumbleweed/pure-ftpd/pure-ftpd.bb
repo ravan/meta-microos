@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.51"
 
-RPM_NAME = "pure-ftpd-1.0.51-2.2.aarch64.rpm"
-RPM_HASH = "ce4c7607a68347f56d5c3088a6f66751222f4b46f7ecbce3f12b5e923105074b9accfe3aac0daeff1c0f2fbfbbc1548396c792a11acd12b8ddc8f5574351147f"
+RPM_NAME = "pure-ftpd-1.0.51-5.6.aarch64.rpm"
+RPM_HASH = "bf7c66e39479c0deded305c98e35f0c98f0149875164fc11e81d69f711ee5b4c9f72c1f608187714adc2e39bbdee3ad4da29bd1c1cf379978714e2d6821384c3"
 
 RPROVIDES:${PN} += "config-pure-ftpd \
 ftp-server \
@@ -30,9 +30,8 @@ libldap.so.2 \
 libmariadb.so.3 \
 libpam.so.0 \
 libpq.so.5 \
-libsodium.so.23 \
+libsodium.so.26 \
 libssl.so.3 \
-systemd \
 user-ftp"
 
 inherit rpm

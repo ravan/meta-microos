@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4"
 
-RPM_NAME = "codehaus-parent-4-1.11.noarch.rpm"
-RPM_HASH = "859980f800380dfffc4c09d313c4483ff831b7610046be08aaf51b02a33f787376338b4a33ed0916b0f856a7428764df48ab71c2987856a2405635e6e1b16bca"
+RPM_NAME = "codehaus-parent-4-1.18.noarch.rpm"
+RPM_HASH = "afef5f8ab07354428f0cb56468446b71e93cdea7ddd6e5dd80c8cde6102490bdd4e6b45c66382b6fd0c39f504fb5ae903ccee291f10c8b762c9c4d36afe71922"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "codehaus-parent \

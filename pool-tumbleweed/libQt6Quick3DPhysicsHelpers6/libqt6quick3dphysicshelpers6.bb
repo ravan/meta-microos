@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt 6 Quick3DPhysicsHelpers library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Quick3DPhysicsHelpers6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "b6a60eed935138692df9b3160c1e9759dd4d1f1763cdf3e2d6204daa17921c4c8b83512076707ea15f7cfd36047499ac3cfcd4b7ee1e0c84656ab46f856708e4"
+RPM_NAME = "libQt6Quick3DPhysicsHelpers6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "35480475ef70d80bb1efac0c265d6413cae7160cbff5178e1b9cafdb1cd56289edca282302c0fa49e3d29e851042b812c0ca0384b667582a840de048bf018950"
 
 RPROVIDES:${PN} += "libQt6Quick3DPhysicsHelpers.so.6 \
 libQt6Quick3DPhysicsHelpers6"

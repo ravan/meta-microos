@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains kernel, initrd and installation images \
 needed on the first product dvds to start an installation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.91"
+PV = "17.178"
 
-RPM_NAME = "skelcd-installer-openSUSE-17.91-1.100.aarch64.rpm"
-RPM_HASH = "4fd5efc6ca36284514d7121a189ed9708ed7d2e31a2f932676542d534b4335b17e245cb789ef20321d29269c9bdd655455ea2865050b8f0e6e45229badca2549"
+RPM_NAME = "skelcd-installer-openSUSE-17.178-1.9.aarch64.rpm"
+RPM_HASH = "d91f124e6288432b783eaae39bb14ce223b0dfc1a76ef653311a7a7555c6ab3a2cb907d59b5c832440d9e0340e3991da38348bf91a0d1ece03fb75ac7418cd4a"
 
 RPROVIDES:${PN} += "skelcd-installer \
 skelcd-installer-openSUSE"

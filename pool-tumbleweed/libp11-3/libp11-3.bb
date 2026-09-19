@@ -10,13 +10,14 @@ and thus is 'derived from the RSA Security Inc. PKCS #11 Cryptographic \
 Token Interface (Cryptoki)'."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.4.12"
+PV = "0.4.17"
 
-RPM_NAME = "libp11-3-0.4.12-3.1.aarch64.rpm"
-RPM_HASH = "6fffb4ec416ebbde10f721a7091df4319f5ceed4b6a4d3b28af58c210b29e3f516ead2ffa2d30060be50a19e057075c14c8dd8404e5f1c7598941e21352d935f"
+RPM_NAME = "libp11-3-0.4.17-1.4.aarch64.rpm"
+RPM_HASH = "fd08808e3a1d50ff28485f84790509e6adcb7b3fd95e8fca68d57669ed00115bd6d4c0fb6e3d93e136c7aad214ebac97a1a091565f56ec0edc341acfda654d1a"
 
 RPROVIDES:${PN} += "libp11-3 \
-libp11.so.3"
+libp11.so.3 \
+openssl-pkcs11"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \

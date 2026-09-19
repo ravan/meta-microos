@@ -2,22 +2,22 @@ SUMMARY = "Haskell aeson-pretty profiling library"
 DESCRIPTION = "This package provides the Haskell aeson-pretty profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.10"
+PV = "0.8.11"
 
-RPM_NAME = "ghc-aeson-pretty-prof-0.8.10-1.4.aarch64.rpm"
-RPM_HASH = "ddde7a08781a05e36a8cc67c0a1c31b7c9d3a64b0454064d9a14d894f2bec2c5c51461dc767f317a9ad71601ce7926e06faa1668f3c7c3071f281431aeeec868"
+RPM_NAME = "ghc-aeson-pretty-prof-0.8.11-1.3.aarch64.rpm"
+RPM_HASH = "3897dbdeee6332764b49903d9038fd6ad6cb30e27188189eca2b4f621e2d632a306e0cc948c42953ac59d07a60f21f62b4fc501b4209b1e0772b34db40105fa0"
 
 RPROVIDES:${PN} += "ghc-aeson-pretty-prof \
-ghc-prof-aeson-pretty-0.8.10-BAp1RojEa5O2Gd1gxmbgJk"
+ghc-prof-aeson-pretty-0.8.11-KCQLeDLfEIvAXp36rOTTo7"
 
 RDEPENDS:${PN} += "ghc-aeson-pretty-devel \
-ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-base-compat-0.13.0-ASw4phAd2I0LrTJ4o8lXb1 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
-ghc-prof-text-2.0.2 \
-ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku"
+ghc-prof-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-base-compat-0.14.1-KqldihVKqBMDOTSpHrHMJy \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-scientific-0.3.8.1-EfN6leGWc5k1t5YPK2dkVk \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-prof-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE"
 
 inherit rpm

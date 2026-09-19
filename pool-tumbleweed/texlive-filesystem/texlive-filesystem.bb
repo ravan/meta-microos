@@ -1,11 +1,11 @@
 SUMMARY = "Basic file system of TeX Live"
 DESCRIPTION = "The basic file system layout for TeX Live installation."
-LICENSE = "Apache-2.0 & Artistic-1.0 & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & LPPL-1.3c & LPPL-1.0 & MIT & BSD-3-Clause & SUSE-TeX & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & Artistic-1.0 & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & LPPL-1.3c & LPPL-1.0 & MIT & BSD-3-Clause & SUSE-TeX & LicenseRef-SUSE-Public-Domain"
 
-PV = "2023.208"
+PV = "2026.222"
 
-RPM_NAME = "texlive-filesystem-2023.208-60.1.noarch.rpm"
-RPM_HASH = "a15746d18f28ada32bb8ce6d0cae1e455231556650415942c851e075711e7ce37bdc9e06a2e9d36b90d22ffba0303fb128e607023c6e0145614f83589241a969"
+RPM_NAME = "texlive-filesystem-2026.222-68.2.noarch.rpm"
+RPM_HASH = "a56b1f08f6cc75d3808d033d405738f9ee437d03df7afc199da8278e2a9b6b7bf31cc39bc8b1a047559543b1388403704f50d5815c2afdb048c28185227a732b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-filesystem \
@@ -18,7 +18,6 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mktemp \
 /usr/bin/mv \
 /usr/bin/perl \
-/usr/bin/setpriv \
 /usr/bin/sh \
 /usr/bin/stat \
 /usr/bin/touch \
@@ -29,6 +28,7 @@ findutils \
 grep \
 group-mktex \
 permissions \
+pkgconfig-systemd \
 python3 \
 rpm-macro--unitdir \
 rpm-macro-service-add-post \
@@ -40,6 +40,7 @@ texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-scripts \
 texlive-scripts-bin \
-user-mktex"
+user-mktex \
+util-linux"
 
 inherit rpm

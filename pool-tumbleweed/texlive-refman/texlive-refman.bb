@@ -5,10 +5,10 @@ notes to the reader, like some of the manuals distributed by \
 Adobe."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0esvn15878"
+PV = "2026.226.2.0esvn15878"
 
-RPM_NAME = "texlive-refman-2023.209.2.0esvn15878-54.2.noarch.rpm"
-RPM_HASH = "c20c5ded9ef1137464a949504e4c7e141e17d49a03cb4abbcd33a64b23513dbd02f34a50579a8addf9ec38b4939a101be6921d95a3f965a27813bf68da403e70"
+RPM_NAME = "texlive-refman-2026.226.2.0esvn15878-60.4.noarch.rpm"
+RPM_HASH = "b4bfef29ad81836da6bf9db906acca77f825e9688133ddb934863eff9dedc36162edc998e9b46cc79d2abaa740c1268fe6b5a863f0ad4d9b9bb7d385e5526ee5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pagepc.sty \

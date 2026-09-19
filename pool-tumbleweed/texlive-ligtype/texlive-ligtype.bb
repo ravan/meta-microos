@@ -9,10 +9,10 @@ be used for other languages as well. The package requires \
 LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1bsvn63577"
+PV = "2026.226.0.0.3svn67601"
 
-RPM_NAME = "texlive-ligtype-2023.209.0.0.1bsvn63577-55.1.noarch.rpm"
-RPM_HASH = "5d2a0545d4e5c1a260807fd96832c596d0fcac70110285e4dac709af23b7cf85deb48702bb3d762a63af7ba66229e3bb0312b35d54d0475dd1ca9f1d76c3f6e2"
+RPM_NAME = "texlive-ligtype-2026.226.0.0.3svn67601-61.2.noarch.rpm"
+RPM_HASH = "be24966f95dec38d85e87203b4d96d9b01b60f80d2252f0efc15e831ff9ad93a291c352a57ac9d6e00dbb0f005a0e5bce63de9e74326402f87783e0c1db1a5b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ligtype.sty \

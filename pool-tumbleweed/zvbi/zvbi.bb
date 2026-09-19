@@ -7,10 +7,10 @@ able to start a Teletext application.  The VBI proxy was developed as a \
 solution to this problem."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.2.42"
+PV = "0.2.45"
 
-RPM_NAME = "zvbi-0.2.42-1.1.aarch64.rpm"
-RPM_HASH = "abae3f0176a38e61b8910be9c689978068c03e14c2bd4591b950afd8b5e913970f5109486beb38f94e6ab149189860c45dfee7f0f72ca6f65fd73c39b818ab0a"
+RPM_NAME = "zvbi-0.2.45-1.1.aarch64.rpm"
+RPM_HASH = "c765977002b8685fbc1f6b5b40092dcfa225caacbd0b2a60fbb4f7643922f5e272b6ff2374be1c67dde49cc0544a0335fe06ab83f4c8cfafdfe70a97a3e9e04f"
 
 RPROVIDES:${PN} += "zvbi"
 

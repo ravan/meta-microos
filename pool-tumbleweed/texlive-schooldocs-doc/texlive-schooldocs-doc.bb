@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-schooldocs"
 DESCRIPTION = "This package includes the documentation for texlive-schooldocs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn65650"
+PV = "2026.226.1.6svn73466"
 
-RPM_NAME = "texlive-schooldocs-doc-2023.209.1.2svn65650-54.1.noarch.rpm"
-RPM_HASH = "0ae5f5b2483a1a9cb8a5197063727edf3edd0a9585fb3e73422156867bf0e2570393a5a847ff82955bcfe8707908e747af035b777e2a92df043abb2830b3ab20"
+RPM_NAME = "texlive-schooldocs-doc-2026.226.1.6svn73466-60.2.noarch.rpm"
+RPM_HASH = "c6929ab49913a348655c397373fab25651567ad8410072d6e4a66e515941bd645cd7407d61b71f2f7a39224a10896414ce59fa0c345d6f0943c4b8dda77c5366"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-schooldocs-doc"

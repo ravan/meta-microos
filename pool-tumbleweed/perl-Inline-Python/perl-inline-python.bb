@@ -12,10 +12,10 @@ also gives you instructions on how to use 'perlmodule', the Python package \
 which gives you access to the Perl interpreter."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.57"
+PV = "0.580.0"
 
-RPM_NAME = "perl-Inline-Python-0.57-1.4.aarch64.rpm"
-RPM_HASH = "5ceec3a4b8292f7b4645b8b718f1f6a573aee9e58832d4bf7f54da0ea6761529b5611c51270294df15069efc629bfc43b67d6edb3ef30dbb9f4e1d4d3cde944a"
+RPM_NAME = "perl-Inline-Python-0.580.0-1.8.aarch64.rpm"
+RPM_HASH = "b10b155370ee3654ac97f925d9b4d4e3f2d1c8ce0ba5b6f868576bfc6578104e255739b3961d2aa2a73ff90bb10215786bb1e73b61c575d83743c4093704049a"
 
 RPROVIDES:${PN} += "perl-Inline--Python \
 perl-Inline--Python--Boolean \
@@ -26,8 +26,8 @@ perl-Inline-Python"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpython3.11.so.1.0 \
-perl--MODULE-COMPAT-5.38.0 \
+libpython3.13.so.1.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Digest--MD5 \
 perl-Inline"
 

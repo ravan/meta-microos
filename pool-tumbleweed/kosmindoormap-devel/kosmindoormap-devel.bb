@@ -1,16 +1,17 @@
 SUMMARY = "Development package for kosmindoormap"
-DESCRIPTION = "This package contains development files for the KOSM and KOSMIndoorMap libraries."
-LICENSE = "LGPL-2.0-or-later & CC0-1.0"
+DESCRIPTION = "Development files for the KOSM and KOSMIndoorMap libraries."
+LICENSE = "CC0-1.0 & LGPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kosmindoormap-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "fc20af2eebd34b8bff981b50dffae1603c9adf5740859d8665696a62e378c2c560cce84a0057f859d3adf35955e546a7d35f72d787624fec54235d50731093f3"
+RPM_NAME = "kosmindoormap-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "566bd1b5b003c99ac9d50c3ece02d1a876abac585feaf19f85c9f3d348a4330557fc7176b3adb7921efbad1a33221aedc5f411807805990eec7d6485e10691b4"
 
 RPROVIDES:${PN} += "cmake-KOSMIndoorMap \
 kosmindoormap-devel"
 
 RDEPENDS:${PN} += "libKOSM1 \
-libKOSMIndoorMap1"
+libKOSMIndoorMap1 \
+libKOSMIndoorRouting1"
 
 inherit rpm

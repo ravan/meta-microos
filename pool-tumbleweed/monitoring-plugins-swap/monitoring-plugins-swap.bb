@@ -2,10 +2,10 @@ SUMMARY = "Check swap space"
 DESCRIPTION = "Check swap space on local machine."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-swap-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "51fc13265b57c1046964919e1884544e28ba66ce0e866b62ecb60c994ae768a0cef89000a22ab79e43b1014dae182425dd82ad0fc1a18cee8b584a60e2308098"
+RPM_NAME = "monitoring-plugins-swap-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "bec6b0373b9b8a6aac270ab4cce7a9fedb488756dcf319b3394beb853b7b5e2cf19053f0af06fa26c254111e968f52734b01290f9719586c700e59c74ef628e0"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-swap \
 monitoring-plugins-swap \

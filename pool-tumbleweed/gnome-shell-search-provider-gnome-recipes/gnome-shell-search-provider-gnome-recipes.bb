@@ -10,10 +10,10 @@ This package contains a search provider to enable GNOME Shell to get \
 search results from Recipes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.0.4"
+PV = "2.0.4+117"
 
-RPM_NAME = "gnome-shell-search-provider-gnome-recipes-2.0.4-1.18.aarch64.rpm"
-RPM_HASH = "2ae1180a83e9ce66ef0e506ebb524972e788ba71655d0e8c9375c3b60963d7c382d647ddc3dbee268b65ff2281e899ff476c05cb3ef8273bbdf571f65f964584"
+RPM_NAME = "gnome-shell-search-provider-gnome-recipes-2.0.4+117-3.6.aarch64.rpm"
+RPM_HASH = "db3c87b5217f75a663fa4ea7f4ed65cee62cebdb86222954f0359a976b0f41ebee902f366a0df47e8d0b41483d9018a368d985744921464663ef3cdbbd00e344"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-recipes"
 

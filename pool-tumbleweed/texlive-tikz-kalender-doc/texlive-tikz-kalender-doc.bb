@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-kalender"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-kalender"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4fsvn52890"
+PV = "2026.226.0.0.6bsvn77915"
 
-RPM_NAME = "texlive-tikz-kalender-doc-2023.209.0.0.4fsvn52890-53.1.noarch.rpm"
-RPM_HASH = "ea124f0aca02323405ba1a91c319b174eee4b0d80013785782c017a6f807044c2adac5eea714039cd0bef8044a92f599e20bb1e9f7e9854c3aaeea0d69846b6f"
+RPM_NAME = "texlive-tikz-kalender-doc-2026.226.0.0.6bsvn77915-59.2.noarch.rpm"
+RPM_HASH = "d81118b4cbb19a14469d18b3960ee17a6531957343ee7955d07a8c6c15469dcc7e8ea2f502c017cfb7aad2d8f280ae4a178f6945f5baaa8d3ebed2817bad0a44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-kalender-doc"

@@ -22,10 +22,10 @@ the MySQL locking class. You can easily plug in your own object store or \
 locker class."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.94"
+PV = "1.940.0"
 
-RPM_NAME = "perl-Apache-Session-1.94-1.14.noarch.rpm"
-RPM_HASH = "1b87132650106b1d4796218d97d5b03ddeb5cac91cba240c570244f90726b2c5dd3f6ab2b4fe6c6d21b7055ebdb168f1d93607be65ad4e786088b79073d768f0"
+RPM_NAME = "perl-Apache-Session-1.940.0-1.7.noarch.rpm"
+RPM_HASH = "b3f07a7b7fd7f4f001b872b9eadf1a6a621f19034d0219c3544019ca22b18e538bcb2e786c8f7ff2c45c4348ce834a6b56464c54135715d7e6295558cf111adf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Apache--Session \
@@ -60,6 +60,6 @@ perl-Apache--Session--Store--Sybase \
 perl-Apache--Session--Sybase \
 perl-Apache-Session"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

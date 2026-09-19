@@ -4,10 +4,10 @@ for cloud native, edge, and decentralized applications. It powers serverless \
 apps, embedded functions, microservices, smart contracts, and IoT devices."
 LICENSE = "Apache-2.0 & CC0-1.0"
 
-PV = "0.13.3"
+PV = "0.16.1"
 
-RPM_NAME = "wasmedge-0.13.3-1.1.aarch64.rpm"
-RPM_HASH = "7eea7064740a52a4046f92c0224009443067b0c7a4817e0a0ad3f59086b8a5f02df4401f6772b125d2b8cd2eb1163649e21401e7084ea07a76ac374cc3bf1e40"
+RPM_NAME = "wasmedge-0.16.1-2.5.aarch64.rpm"
+RPM_HASH = "deb92ec24fa14fa6b0b8f0f9a70f8f1e0de696388de3f13f560675f128dfdee4553fad1fb1d3cb34c12a4acf756a327d684b26661101aecfbf082ec6236e0c6b"
 
 RPROVIDES:${PN} += "wasmedge"
 

@@ -9,10 +9,10 @@ OCaml string values and to directly encode characters in OCaml \
 Buffer.t values."
 LICENSE = "ISC"
 
-PV = "1.0.3"
+PV = "1.0.4"
 
-RPM_NAME = "ocaml-uutf-1.0.3-1.10.aarch64.rpm"
-RPM_HASH = "074ed23d246f3ae579497970c7b5ae860ba664f68f6faca0e73dbc41a20c959b192b6ac009f53310ae3e668f9cf883d1eb0f906cc2d7f33cbcb579496e4b06b0"
+RPM_NAME = "ocaml-uutf-1.0.4-2.1.aarch64.rpm"
+RPM_HASH = "f405f62c5f1bea5d14fdb7dad3a2b40861e957040eb57e322c572bbcbaf2e4e2d9c75284398a98dea7f8367dc730ffa6489abc1685495e380e9ebbe646c10602"
 
 RPROVIDES:${PN} += "ocaml-uutf"
 

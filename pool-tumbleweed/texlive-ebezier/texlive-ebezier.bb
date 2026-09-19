@@ -3,13 +3,13 @@ DESCRIPTION = "Ebezier is a device independent extension for the standard \
 picture environment. Linear, quadratic, and cubic bezier curves \
 are supplied in connection with higher level circle drawing \
 commands. Additionally some macros for the calculation of curve \
-lenghts are part of this package."
+lengths are part of this package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4svn15878"
+PV = "2026.226.4svn76924"
 
-RPM_NAME = "texlive-ebezier-2023.209.4svn15878-54.2.noarch.rpm"
-RPM_HASH = "f82f500f396e01620b2e5f44a8cfb34f54c34cb8f072e6e722c060d4740f125babf349b8a6139ddd73da4faa9462ab28f5b11f0dca7d11940c88b66fea183470"
+RPM_NAME = "texlive-ebezier-2026.226.4svn76924-61.4.noarch.rpm"
+RPM_HASH = "fc73454a8663c221fc767ea9dd04a59a71ec0d40e9bfbb794467ad434e45075bf7ccef7ca99ee2b0d9ab03aff99ddf1490d90e92892c0513f5b7dd042d63889c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ebezier.sty \

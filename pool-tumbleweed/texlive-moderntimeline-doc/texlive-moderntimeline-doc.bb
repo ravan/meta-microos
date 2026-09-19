@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-moderntimeline"
 DESCRIPTION = "This package includes the documentation for texlive-moderntimeline"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.11svn55518"
+PV = "2026.226.0.0.11svn55518"
 
-RPM_NAME = "texlive-moderntimeline-doc-2023.209.0.0.11svn55518-55.1.noarch.rpm"
-RPM_HASH = "96cd97446e993e8b0f24d775732d223ea6d119a708e3d878af379334864dee93b385f37db09c9b87351b40ff8e3dc1022e1b713d4c0bbf50279399699f52cfa0"
+RPM_NAME = "texlive-moderntimeline-doc-2026.226.0.0.11svn55518-61.2.noarch.rpm"
+RPM_HASH = "d2e93dab73670144b3703c567475ca151d1b9c80d1668a287401394d90897c4337b11ae979877f68eada5b4a31b7a3509bb125988ea66153add043f1cd282039"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-moderntimeline-doc"

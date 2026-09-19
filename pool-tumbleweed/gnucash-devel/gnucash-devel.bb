@@ -1,12 +1,13 @@
 SUMMARY = "Development files for GnuCash"
 DESCRIPTION = "This package provides all the necessary files for development of GnuCash, \
 a personal finance manager."
-LICENSE = "SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-exception"
+LICENSE = "LicenseRef-SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-exception"
 
-PV = "5.3"
+PV = "5.16"
 
-RPM_NAME = "gnucash-devel-5.3-1.1.aarch64.rpm"
-RPM_HASH = "de78bc4579c8a63fb78065b7f1add4513bf71d6be2d29557060187cda91f25ae40254b0e2b58e2d959b1cd670a1017fbd71248c93c0945b00502a1dca93da935"
+RPM_NAME = "gnucash-devel-5.16-1.1.noarch.rpm"
+RPM_HASH = "5b807a56f78931c898f7daa99a4f28d16b587b7a2a77fea25820b94c32cc3b41bebeb512c569b1d118b119c581a34752850559b6443f446375639d05a81ecf04"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnucash-devel"
 

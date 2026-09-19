@@ -18,10 +18,10 @@ Additionally, the package includes pam_pkcs11-related tools: \
 CRLs"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.6.12"
+PV = "0.6.13"
 
-RPM_NAME = "pam_pkcs11-0.6.12-4.5.aarch64.rpm"
-RPM_HASH = "aa566d629713dfb4b5c35340799c18b9498040d3033ce9301f72595b5f79199dd9cca7072d498f7f59fce5f1d520a052017dfab882511cebc05c8affa4b395f8"
+RPM_NAME = "pam_pkcs11-0.6.13-3.3.aarch64.rpm"
+RPM_HASH = "1bbd953d06691b9bc40ba58bab1859c61897a3726b912e94e5a16230bb6d5f8bcfab07076dbffd61a6de58156d8f0139e40221c6ad28ef9c200cb525a9c4a148"
 
 RPROVIDES:${PN} += "config-pam-pkcs11 \
 pam-pkcs11"

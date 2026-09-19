@@ -1,4 +1,4 @@
-SUMMARY = "LAPACK Shared Library"
+SUMMARY = "Linear Algebra PACKage: Shared Library"
 DESCRIPTION = "LAPACK provides routines for solving systems of simultaneous linear \
 equations, least-squares solutions of linear systems of equations, \
 eigenvalue problems, and singular value problems. The associated matrix \
@@ -7,13 +7,15 @@ also provided, as are related computations such as reordering of the \
 Schur factorizations and estimating condition numbers. Dense and banded \
 matrices are handled, but not general sparse matrices. In all areas, \
 similar functionality is provided for real and complex matrices, in \
-both single and double precision."
+both single and double precision. \
+ \
+This package provides the shared library for LAPACK."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.0"
+PV = "3.12.1"
 
-RPM_NAME = "liblapack3-3.9.0-9.2.aarch64.rpm"
-RPM_HASH = "bc38a698ee4bfc9dafcaa8f89e0576549b8e1eb90b3381fc694b7de3699cc835839c5dda37e02d99f9914539e2f93d9dc230a83c1c23b8a6672426d69fc1bdbc"
+RPM_NAME = "liblapack3-3.12.1-5.1.aarch64.rpm"
+RPM_HASH = "39ce23a097c7520426d4a54084020f3dbfdf3ee9f350c3be87f3fce3d4f82c842a8b65730805f63871f533069a82a938de91d3586cfc2900f95261d94f54bb84"
 
 RPROVIDES:${PN} += "liblapack.so.3 \
 liblapack3"
@@ -25,6 +27,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libgfortran.so.5 \
 libm.so.6 \
+libmvec.so.1 \
 update-alternatives"
 
 inherit rpm

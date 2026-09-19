@@ -8,10 +8,10 @@ a plug-in API, so that developers can easily add new optional \
 features."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.4.3"
+PV = "0.5.1"
 
-RPM_NAME = "dino-0.4.3-1.1.aarch64.rpm"
-RPM_HASH = "a53d7b60b4e5ad456eaf0c3fc4b7904b3fc4399a917c88b636a335ab6a67e1893dc88cddfcf039591672f71778e61ff4401625d0dc23896b13917101b962e32c"
+RPM_NAME = "dino-0.5.1-1.4.aarch64.rpm"
+RPM_HASH = "2b1ba31d1bed81ed085a298feaa1eac2c150e2ade0e2971f363896918cb64a6f11a43a34431ed8a870cca0512ea3fbf82ce4537ef0768b266a195dc8d2dc7df9"
 
 RPROVIDES:${PN} += "dino \
 dino-plugin-http-upload \
@@ -42,7 +42,7 @@ libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgnutls.so.30 \
 libgobject-2.0.so.0 \
-libgpgme.so.11 \
+libgpgme.so.45 \
 libgraphene-1.0.so.0 \
 libgstapp-1.0.so.0 \
 libgstaudio-1.0.so.0 \
@@ -51,12 +51,12 @@ libgstreamer-1.0.so.0 \
 libgstrtp-1.0.so.0 \
 libgstvideo-1.0.so.0 \
 libgtk-4.so.1 \
-libicuuc.so.73 \
+libicuuc.so.78 \
 libm.so.6 \
 libnice.so.10 \
+libomemo-c.so.0 \
 libpango-1.0.so.0 \
 libqrencode.so.4 \
-libsignal-protocol-c.so.2 \
 libsoup-3.0.so.0 \
 libsqlite3.so.0 \
 libsrtp2.so.1 \

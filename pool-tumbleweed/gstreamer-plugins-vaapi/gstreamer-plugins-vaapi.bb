@@ -4,10 +4,10 @@ libraries that allow hardware accelerated video decoding through \
 VA-API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.26.11"
 
-RPM_NAME = "gstreamer-plugins-vaapi-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "cffd9a4f4305edfbf64b2111bff45be80a700a004b8e208b99b88d3679496152b1318b2ba2e468eae140332ffdaa53242a00e46439ada481f0b1c3df42db6658"
+RPM_NAME = "gstreamer-plugins-vaapi-1.26.11-1.4.aarch64.rpm"
+RPM_HASH = "349446f8cc21fa570dcb0fcbac8d433f2bd1ea7368bc8d95eb82f4e31a62814274ea5832a8e98d9de73962f91ecfe4f57c8219bfb23b0adbebdedd4afb7d3c02"
 
 RPROVIDES:${PN} += "gstreamer-plugins-vaapi \
 libgstvaapi.so"

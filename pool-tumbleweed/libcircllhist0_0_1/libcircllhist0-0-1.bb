@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "20180917"
 
-RPM_NAME = "libcircllhist0_0_1-20180917-2.18.aarch64.rpm"
-RPM_HASH = "c46addb887e2a6e7691ad9be979cd917ac8f51797c7a8dbc82ba81463bd36626b3cc08e08cef379cc41bc36f504b189b7f25349e5df5b583a0cbc349ecb9dae2"
+RPM_NAME = "libcircllhist0_0_1-20180917-2.28.aarch64.rpm"
+RPM_HASH = "0817af302fc44cdc958c3bb48b1458ed47be15ad0817e837e60abcc8c632cf726fbca889ca4ebc39ede075c2920999d1ff9cb2299ed286c3ef7bcdea1187122a"
 
 RPROVIDES:${PN} += "libcircllhist.so.0.0.1 \
 libcircllhist0-0-1"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xscreensaver"
 DESCRIPTION = "Provides translations for the 'xscreensaver' package."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "6.06"
+PV = "6.15"
 
-RPM_NAME = "xscreensaver-lang-6.06-4.4.noarch.rpm"
-RPM_HASH = "52cf705ba9bd3c474a883ed62ae465aff22d1a7b60571ba296b07f50683a2f4364ca4520750f3d1411c2bf2b68d6b7d8c7a9039aa3dab2148cc638c52917c326"
+RPM_NAME = "xscreensaver-lang-6.15-3.3.noarch.rpm"
+RPM_HASH = "5f5aceb883ae29212cd360abc6d9a6fac4ec9a2502fb51ce3dc0a4e2839f4d66b7c43aa34021ba353fc82f19fcf8d1e2fd2d9e3eb2866b0ada2db102c7025021"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xscreensaver-da \

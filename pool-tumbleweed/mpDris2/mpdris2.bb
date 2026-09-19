@@ -5,14 +5,14 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "mpDris2-0.9.1-1.3.noarch.rpm"
-RPM_HASH = "cc1d2def0e2f784c99cf813e6162b5b8a0d3a3e70ae5374c54523b8abd1e664fd000b5ee1f38400e164da9674004ba73259882b2a81eb2e50994d42efedeaf7f"
+RPM_NAME = "mpDris2-0.9.1-3.12.noarch.rpm"
+RPM_HASH = "701ac2600fc1af48cc6e8deb0ba01bc8798f2ab1bf6a30254fe3b450f470b615f86547821b3149a35ac9d2d4d5bc9f9ac44c05d38d438c9fc46a9cb8df534171"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpDris2"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 python3-python-mpd2 \
 typelib-GLib \
 typelib-Notify"

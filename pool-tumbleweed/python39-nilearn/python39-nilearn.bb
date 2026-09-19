@@ -6,7 +6,7 @@ LICENSE = "BSD-3-Clause"
 PV = "0.10.1"
 
 RPM_NAME = "python39-nilearn-0.10.1-2.1.noarch.rpm"
-RPM_HASH = "60fe25961562d63716a4d1dffdd2deca0f463063cc01ec5dad238e21571d4fb10bb74cbab8ff0f8ec1df7fb202b1a7284d4135a340d16f4a47aaeeca9b7eaff6"
+RPM_HASH = "5e00490efa9c21fc9b0f0b29141af7052a45cf0265f4de4a4b7aed0d4172c5de2d4a50c2e73102ce164c4e1dcd940b1047f6693940cf6425580dbb0d6d3491f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nilearn \

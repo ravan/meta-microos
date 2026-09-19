@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-cpufreq-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-cpufreq-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.8"
+PV = "1.3.0"
 
-RPM_NAME = "xfce4-cpufreq-plugin-lang-1.2.8-1.4.noarch.rpm"
-RPM_HASH = "2b469fb3add7d7293280e847a7655855277b8711f1b149dfd0af831d1ece86900984fa7a456c19901d8af403392663b2142a8e039e758cfffff979e0a0c13674"
+RPM_NAME = "xfce4-cpufreq-plugin-lang-1.3.0-1.4.noarch.rpm"
+RPM_HASH = "33b8b63ef5571653ae4626eb3c9d86991abf7dd56607a958fcf81deb170cca1f7cd648286961248604c4559131449427859a910967cf92b68c37d958ca2bc085"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-cpufreq-plugin-ar \
@@ -20,6 +20,7 @@ locale-xfce4-cpufreq-plugin-el \
 locale-xfce4-cpufreq-plugin-en-AU \
 locale-xfce4-cpufreq-plugin-en-GB \
 locale-xfce4-cpufreq-plugin-es \
+locale-xfce4-cpufreq-plugin-et \
 locale-xfce4-cpufreq-plugin-eu \
 locale-xfce4-cpufreq-plugin-fi \
 locale-xfce4-cpufreq-plugin-fr \
@@ -43,6 +44,7 @@ locale-xfce4-cpufreq-plugin-pa \
 locale-xfce4-cpufreq-plugin-pl \
 locale-xfce4-cpufreq-plugin-pt \
 locale-xfce4-cpufreq-plugin-pt-BR \
+locale-xfce4-cpufreq-plugin-ro \
 locale-xfce4-cpufreq-plugin-ru \
 locale-xfce4-cpufreq-plugin-sk \
 locale-xfce4-cpufreq-plugin-sl \
@@ -53,6 +55,7 @@ locale-xfce4-cpufreq-plugin-th \
 locale-xfce4-cpufreq-plugin-tr \
 locale-xfce4-cpufreq-plugin-ug \
 locale-xfce4-cpufreq-plugin-uk \
+locale-xfce4-cpufreq-plugin-vi \
 locale-xfce4-cpufreq-plugin-zh-CN \
 locale-xfce4-cpufreq-plugin-zh-TW \
 xfce4-cpufreq-plugin-lang \

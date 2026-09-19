@@ -2,16 +2,16 @@ SUMMARY = "Haskell reflection profiling library"
 DESCRIPTION = "This package provides the Haskell reflection profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.7"
+PV = "2.1.9"
 
-RPM_NAME = "ghc-reflection-prof-2.1.7-1.3.aarch64.rpm"
-RPM_HASH = "058f77a76232f39b341af33cd4d40b81a8fded7d37e51c6bd8dfb3e31c25b3c9d7998f34cd3d381ac865f0f3be9b3abacb87af90a8441b6f78abbd455886ee6c"
+RPM_NAME = "ghc-reflection-prof-2.1.9-2.12.aarch64.rpm"
+RPM_HASH = "6ae33d5586ad936f367dcea7d025f29cbe02bcb2d1f06583cada33924d9f67d8f067531544dc3b0790130d399a5819b11b68984d9ca74ff67ce42d12fe7f9a97"
 
-RPROVIDES:${PN} += "ghc-prof-reflection-2.1.7-1WygFxHmxkcEQBv8T6gHut \
+RPROVIDES:${PN} += "ghc-prof-reflection-2.1.9-D6RNqRhT9cGDEmA5fjQvJF \
 ghc-reflection-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-template-haskell-2.19.0.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-template-haskell-2.23.0.0-358a \
 ghc-reflection-devel"
 
 inherit rpm

@@ -7,10 +7,10 @@ minimum of hassle for developers when working on multiplatform software, with \
 the resulting large gains in productivity."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.0"
+PV = "1.6.3"
 
-RPM_NAME = "libSoQt20-1.6.0-2.9.aarch64.rpm"
-RPM_HASH = "76d34b01a260f07d01b267f81f4f229a4f7d6c534c73910d8f2c58bcd8daea182ca9e5325f7ac0cc1b55c19ddf1917b425957a6d906ef730e52e33c7af8b5416"
+RPM_NAME = "libSoQt20-1.6.3-1.8.aarch64.rpm"
+RPM_HASH = "90aed8b758f9518c05a635ee1671d17c166233cf43c14616cdbf1f849f677207559d4df47dca560350ba77da7aaf71d72d82badba75cc4a6026dd266717da83d"
 
 RPROVIDES:${PN} += "libSoQt.so.20 \
 libSoQt20"

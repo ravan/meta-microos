@@ -4,10 +4,10 @@ from source files complete with JavaDoc @tags. It is designed to be \
 used by active code generators or documentation tools."
 LICENSE = "Apache-2.0"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "qdox-2.0.3-1.1.noarch.rpm"
-RPM_HASH = "c0b0b05fdb59afdd35925278c0bb9ef2fd16e7c816dce59bb9904a71c8daeeb20dc76cdd5be427034118bd6b780aeb7eb8599d17c78bacc199edeedc8189ad1d"
+RPM_NAME = "qdox-2.1.0-1.8.noarch.rpm"
+RPM_HASH = "5488056ab65e141678146b80b42e9969d5b9205804ac3e0477f12ecd5b5518d0468da75aa0ac5d286347300ef5065a4a56efca372ae3e3c52d902da698378067"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.thoughtworks.qdox-qdox \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about filesystem mounts."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-mounts-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "34326ff27d908c0391dea2b22cc350facd5dec07205cc557e8fcae46a23eeb1efc7d6c88ff108ba874e26a51b7414e38f94cbb7e7120f50fe3874f460a66681b"
+RPM_NAME = "pcp-pmda-mounts-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "7cc55f80456f356d347cb6d42ca8e0c7faaeaecc5e416811ed62a9a8c444969d7e27623b6058cef472060bbd36bf6ad5dbcdc16c6cc8356761b4943846291c93"
 
 RPROVIDES:${PN} += "config-pcp-pmda-mounts \
 pcp-pmda-mounts"

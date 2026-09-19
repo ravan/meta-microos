@@ -4,12 +4,12 @@ DESCRIPTION = "Package for testing the update stack during product development. 
 An update for this package should have its category set to \
 'security', indicating that one or more security vulnerabilities \
 are being fixed."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "5.1"
+PV = "5.2"
 
-RPM_NAME = "update-test-security-5.1-1.18.aarch64.rpm"
-RPM_HASH = "420c6b717c8ed5797232b364eb660f25e8bac00a98ad2755b9ab86748e85b48fe8cb67625c994fdc59acf7c4fcc66138cf94136ff955a501bc38f635b16a2f02"
+RPM_NAME = "update-test-security-5.2-1.15.aarch64.rpm"
+RPM_HASH = "6bd81bee02da5382e1e54f1be48eddc3ad88d228dc4522f71b854b637c2ff5967f41f8d4484929457df8e2e7b1833a12a95b72c59d54dd95db9c2097e2abfc89"
 
 RPROVIDES:${PN} += "update-test-security"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-juramisc"
 DESCRIPTION = "This package includes the documentation for texlive-juramisc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.91svn15878"
+PV = "2026.226.0.0.91svn15878"
 
-RPM_NAME = "texlive-juramisc-doc-2023.209.0.0.91svn15878-56.1.noarch.rpm"
-RPM_HASH = "c5328dc98f78d7bcb7239cff22b7dfb134bfb5add7ddf0c193cad26ce2081aea5c5296b3ae25134865604acb6cc9905537d065ac7bef04d05d0a38396d3ca937"
+RPM_NAME = "texlive-juramisc-doc-2026.226.0.0.91svn15878-63.2.noarch.rpm"
+RPM_HASH = "88d21566b319417a864013b5235ce632295aa9df9f2899ed53af6eccbf41f755da819caad8f562f7d1289d6e6ba1778ef7e2d743e95a2ec83b03114c544d50d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-juramisc-doc-de \

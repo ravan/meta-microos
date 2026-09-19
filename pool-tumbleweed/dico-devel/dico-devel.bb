@@ -7,10 +7,10 @@ This package contains the development headers for developing modules for \
 dico."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.11"
+PV = "2.12"
 
-RPM_NAME = "dico-devel-2.11-1.16.aarch64.rpm"
-RPM_HASH = "7fa8cd1e738c7dc01f608e7f239519715e17bd9945a76022c7ec333a9d3495c448799794e2077f18d28ff7dd6ccb258691eae9373bca03e31d81a3c8793bd33b"
+RPM_NAME = "dico-devel-2.12-2.5.aarch64.rpm"
+RPM_HASH = "81c3f3fff5c21bea8fc7777ba344f096b0d43fc1dd9afd38f4a47204271fc48a74979fb1d0950de8fec098522f7a06edccf55762da45ad8f4a53bb6e7f17cfa6"
 
 RPROVIDES:${PN} += "dico-devel"
 

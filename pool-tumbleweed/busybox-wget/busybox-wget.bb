@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing wget"
 DESCRIPTION = "This package contains the symlinks to replace wget with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-wget-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "1bbaa736253cbd40ec1b9d935b2be32ddffbdee586283345b9a739944669bff71ce720bbd1faa256f93bf13e58f50784a8512f247bd9ed415522f5812cc508fb"
+RPM_NAME = "busybox-wget-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "5c7e6fcef0e7a7442083fa6b62b405fbc3991b01e03ffd51712605e8177da9f32dacd09fbdd2166fd864e8ad395c88a2fa2c7231dfdd45878361ab34862b2c48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-wget"

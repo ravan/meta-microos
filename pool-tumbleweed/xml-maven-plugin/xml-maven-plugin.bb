@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.2"
 
-RPM_NAME = "xml-maven-plugin-1.0.2-2.11.noarch.rpm"
-RPM_HASH = "11922e374ce4cdf43fc655f81c2edd4e474eab5c980131ad9bee189ea4b3b3a01ad6309d7bb321a796e21fa105230255802dd94aeb54836497813a3c2568d493"
+RPM_NAME = "xml-maven-plugin-1.0.2-2.23.noarch.rpm"
+RPM_HASH = "b48de00e09cc5657d0b1b194127b93fe4e91acd802f43fc88337dd00412ed473cf1be0e485ebcfc470f319eb877e181af08bf611bb361df79046687d3b4a3941"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.mojo-xml-maven-plugin \

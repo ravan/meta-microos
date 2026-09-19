@@ -7,8 +7,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.52"
 
-RPM_NAME = "tiro-gurmukhi-fonts-1.52-1.2.noarch.rpm"
-RPM_HASH = "c38e56d862dd6ed6f8e443a98f41ca8fdf02056093d9cdda946efcc86f3f86f18b70ec89fa231f614777fc721cfe42ebbc1326c253b377da56ff443111842878"
+RPM_NAME = "tiro-gurmukhi-fonts-1.52-2.7.noarch.rpm"
+RPM_HASH = "98f949a10b8a99f3aa6cfdd553c7cc623378a29de621009aefc8642a70ff2c838737ce7821f4cda421bce6e220d46fe435ff71588dcefb2b921fc37aeeb68eed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiro-gurmukhi-fonts"

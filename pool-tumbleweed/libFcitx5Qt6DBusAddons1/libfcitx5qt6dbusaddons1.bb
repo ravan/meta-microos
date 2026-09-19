@@ -2,10 +2,10 @@ SUMMARY = "Qt6 DBus Addons library for Fcitx5"
 DESCRIPTION = "This package provides Qt6 DBus Addons library for Fcitx5."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
-PV = "5.1.0"
+PV = "5.1.12"
 
-RPM_NAME = "libFcitx5Qt6DBusAddons1-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "f1522a13ed8c8679025e28dfa197f24b3870ad24e041ecbce94f3d20d0b3e2227964b61035039980447d0836ac00f7da0f938aa1c2551f9656ed40acbaf77cbe"
+RPM_NAME = "libFcitx5Qt6DBusAddons1-5.1.12-1.10.aarch64.rpm"
+RPM_HASH = "800c872a1cddd9c318554757ecbbe763b2feeb6d98d463dfce718be629697ac4c24341f74c54856f52f537255485225a23f1546aaaf13a9943b83fa0cff49494"
 
 RPROVIDES:${PN} += "libFcitx5Qt6DBusAddons.so.1 \
 libFcitx5Qt6DBusAddons1"

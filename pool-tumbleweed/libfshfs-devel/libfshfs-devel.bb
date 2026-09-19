@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfshfs."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20220831"
+PV = "20260826"
 
-RPM_NAME = "libfshfs-devel-20220831-4.1.aarch64.rpm"
-RPM_HASH = "99c66f98d78ad9c9c1c547560cb2032a9a9528f401a379595061d00a3957aadc68a37ccf7f429bacd0e9c89c630133a748b96bba65870470dafcbcfe2aa84340"
+RPM_NAME = "libfshfs-devel-20260826-1.1.aarch64.rpm"
+RPM_HASH = "85c6332ec0179ae459d7c09e9acd0fdb2e81278bce6b2b2af44033cdceeac6ded0a7e6fa7808e77faf72311a32884fdc18690ee0d55699122e205aae246bae45"
 
 RPROVIDES:${PN} += "libfshfs-devel \
 pkgconfig-libfshfs"

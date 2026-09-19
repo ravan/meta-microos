@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains I/O and control plugins to access OSS devic
 for ALSA library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-oss-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "9bcf68fc9499dfd388929c63fa6fba7e5df44cd94454677b3d19ea3a22d19e2f370862e88427a0b9520a60d27bbe74a525d81f3df5429a807f33a001102cdb24"
+RPM_NAME = "alsa-plugins-oss-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "e8348b131c18ae97f394a539fa5a07ecbcf59ba75dd36038a48700e89e74b942ec8f93afc5ba471a1652ec5bdd19d07205a7943da68b41ef0d2937f637ba10b4"
 
 RPROVIDES:${PN} += "alsa-plugins-oss \
 libasound-module-ctl-oss.so \

@@ -4,10 +4,10 @@ server. These profiles define the kind of authentication required for various \
 polkit actions used across applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1550+20230829.1a9a761"
+PV = "1550+20260825.76d85e6"
 
-RPM_NAME = "polkit-default-privs-1550+20230829.1a9a761-1.1.noarch.rpm"
-RPM_HASH = "22600dff9cb8ff88ba815c36ef9647d936b274e33a8abbcbdb54de36c32b53459d3ec2a5cf0f91fdb584467486933d12d2f5c0a255b33679bc3fd493968fc193"
+RPM_NAME = "polkit-default-privs-1550+20260825.76d85e6-1.1.noarch.rpm"
+RPM_HASH = "dd3290a2c1a30c1fa0f69680630b0c0a4f3077a23ae27ab9822fa813eeac9855cd6f2d57b49d4645dd9735db5078857c9554149778098719f48f3e5e33f78eb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "polkit-default-privs"

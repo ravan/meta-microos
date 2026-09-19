@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "libosg2vsg0-0.1.0-1.2.aarch64.rpm"
-RPM_HASH = "c90e388f94097224e9c90f85033fc514fc9a9b6a9ad64f6c1338dba20d1ab3b8a890a09f6a4cdad6a936fc9a57ee6298218a108b0bc81b8c85b06ad1de52a5e1"
+RPM_NAME = "libosg2vsg0-0.1.0-1.10.aarch64.rpm"
+RPM_HASH = "d3b6079b86ce9bc30feafd261d3fa179acd8b7625799745696eb3d335ad9052361e1da72eba16fe4910ae64491aca5c9be550c0dfdd15155a50317f8e83f9e1c"
 
 RPROVIDES:${PN} += "libosg2vsg.so.0 \
 libosg2vsg0"

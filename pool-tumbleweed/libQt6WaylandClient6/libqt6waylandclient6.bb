@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 WaylandClient library"
 DESCRIPTION = "The Qt 6 WaylandClient library."
-LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6WaylandClient6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "179dac50218680b3d6ffa66f66fa330526c81c565ed30c27751b24a9b23bf8b98ba2a12e0465a2812d1783f72916cebd2d9f809f31f381513afe0c44084411d7"
+RPM_NAME = "libQt6WaylandClient6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "6242aae1065d0c02047c8b5990e6dc9751bf798c4e0c7665508ee0920e21f134c78798508592696c7ab2fe8646770e8cd45394f1174547da932b1f95c7c7cc46"
 
 RPROVIDES:${PN} += "libQt6WaylandClient.so.6 \
 libQt6WaylandClient6"

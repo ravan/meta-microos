@@ -2,41 +2,41 @@ SUMMARY = "Haskell wai-extra profiling library"
 DESCRIPTION = "This package provides the Haskell wai-extra profiling library."
 LICENSE = "MIT"
 
-PV = "3.1.13.0"
+PV = "3.1.18"
 
-RPM_NAME = "ghc-wai-extra-prof-3.1.13.0-2.13.aarch64.rpm"
-RPM_HASH = "42f5e95fc5ed1ea301e99b9400cae11c77a4e3e6c5dd25f8f09c7a88454f888c7e6aeaf866c509ba7f3320af268930b19e2a2392c3806e6e697e26aee1d68f77"
+RPM_NAME = "ghc-wai-extra-prof-3.1.18-1.17.aarch64.rpm"
+RPM_HASH = "c75f473e74f35fcb56ac3d95e181cc615b330aa6b29965444a1776bc2bd39aad75d0edd253b683105016b65fbea79095150f880e1226ef27621f0e56db7d88fc"
 
-RPROVIDES:${PN} += "ghc-prof-wai-extra-3.1.13.0-7b9ndOLV0UtHl4QVen1kNF \
+RPROVIDES:${PN} += "ghc-prof-wai-extra-3.1.18-ITQet8OpxGX98ABokzjnL2 \
 ghc-wai-extra-prof"
 
-RDEPENDS:${PN} += "ghc-prof-HUnit-1.6.2.0-3fsauNNRJvI5u5lqiyApf4 \
-ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-prof-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-call-stack-0.4.0-nQZfFxinEdIa1BWxMyadt \
-ghc-prof-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-cookie-0.4.6-7v2XoXnZEAdFFWtj85fg3L \
-ghc-prof-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-fast-logger-3.1.2-2QS5oj3W57wGcX3QgTrERi \
-ghc-prof-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-prof-iproute-1.7.12-A34D1N9dJmL5ps3agDCHa7 \
-ghc-prof-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-prof-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-prof-streaming-commons-0.2.2.6-B2lYThdR4DPIZXSlcc8I7z \
-ghc-prof-text-2.0.2 \
-ghc-prof-time-1.12.2 \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unix-2.7.3 \
-ghc-prof-vault-0.3.1.5-JTstBlaocLP2eokwHW0Uig \
-ghc-prof-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
-ghc-prof-wai-logger-2.4.0-9HbB2lkmWIvBhHGAMxm4Zs \
-ghc-prof-warp-3.3.25-9kawobphGNJ1pZTKG2KRtq \
-ghc-prof-word8-0.1.3-DFPYFbOkkGxAoNpsP1UPBD \
+RDEPENDS:${PN} += "ghc-prof-HUnit-1.6.2.0-HyPyPtOZKKe7vLdGCWHz7V \
+ghc-prof-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-prof-ansi-terminal-1.1.5-KiVHPj6W9e81bxE9dBsVtZ \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-base64-bytestring-1.2.1.0-9fPiMCS8Y4g8itFjJTGk2y \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-call-stack-0.4.0-5oZIckzxOZr1eMyD6xWtI3 \
+ghc-prof-case-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-cookie-0.5.1-ICQl8upm830Ct2nb3AM1Ft \
+ghc-prof-data-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-fast-logger-3.2.6-JkXOEB4fbDV8mDlAr0wMkH \
+ghc-prof-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-prof-iproute-1.7.15-E8DjYDi46DFHUJbuCQco8p \
+ghc-prof-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-prof-resourcet-1.3.0-F8ZRgExkptBLIQxE9m0AZE \
+ghc-prof-streaming-commons-0.2.3.1-LJ82XapHNc8JLhXXxelQgC \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-time-1.14-a7dc \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-unix-2.8.8.0-178a \
+ghc-prof-vault-0.3.2.0-GYOqPpJA2DW5Qz2IFtkvei \
+ghc-prof-wai-3.2.4-Is1UVC1czjX2cAufnl3tJW \
+ghc-prof-wai-logger-2.5.0-3cHzLKgypSbCdVbvyxsJiz \
+ghc-prof-warp-3.4.9-4LBlVKyJZyS6kjQUEE5DAG \
+ghc-prof-word8-0.1.3-DJye6up9iU5LN32ihJcMva \
 ghc-wai-extra-devel"
 
 inherit rpm

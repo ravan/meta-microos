@@ -32,27 +32,27 @@ vectors. \
 'Bool', but lacks a handy 'Vector' interface and is not thread-safe."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.5.0"
+PV = "1.1.6.0"
 
-RPM_NAME = "ghc-bitvec-1.1.5.0-1.1.aarch64.rpm"
-RPM_HASH = "682fe3e5b41e1b15e39bc30951693b81604895ee35c09ebfb4df71206d3d0cc167a366c77fa77bfe92be552ef30b0bd955c8ed8f14214f381efe25a17d7346ae"
+RPM_NAME = "ghc-bitvec-1.1.6.0-1.3.aarch64.rpm"
+RPM_HASH = "af4bb29c7e6630f3941320b82cefa1c373dc88c725d008f99f00277390e2d6a3f5357fbfcc9a9f3eb4e30c924612e42ede01d1d4ee9ead1e307990c51fdaad6b"
 
 RPROVIDES:${PN} += "ghc-bitvec \
-libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so"
+libHSbitvec-1.1.6.0-AtnZIEu4pqlECh34uLjm5P-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
-libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
-libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHSprimitive-0.9.1.0-Ez30Vu7tivmF28X1123Css-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
+libHSvector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE-ghc9.12.4.so \
+libHSvector-stream-0.1.0.1-FXRnPnZDT7tJ4JCMEuh1XF-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

@@ -5,10 +5,10 @@ output system. Instead, it invokes callback function pointers that \
 its embedding program should provide it to draw on its behalf."
 LICENSE = "MIT"
 
-PV = "0.3.2"
+PV = "0.3.3"
 
-RPM_NAME = "libvterm0-0.3.2-1.1.aarch64.rpm"
-RPM_HASH = "ec350d979d482d709141dcb35043f999d02282cdf5c7a0a8e19536e52d34e3bbee69922138e89b574e6f903f88a577907ce6aec4f4c0d74be8cc8957b248b49c"
+RPM_NAME = "libvterm0-0.3.3-1.11.aarch64.rpm"
+RPM_HASH = "439fa204fe12357e8660a6d9c8c14c96deb5a630c500575661f3033d06914accf3e11699a0c7c88515d36522ab94944d8702a6754611ce1cb3e8543c7d782b11"
 
 RPROVIDES:${PN} += "libvterm.so.0 \
 libvterm0"

@@ -9,8 +9,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "0.5"
 
-RPM_NAME = "monitoring-plugins-traffic_limit-0.5-1.10.noarch.rpm"
-RPM_HASH = "01b280a1cae0cb1ada033f0bce62aa8160b156961b0af723d79849c045c942fe4d1537cd1ccef0da81e60b31ea05b39206f37359747596b343e07fb337e92d31"
+RPM_NAME = "monitoring-plugins-traffic_limit-0.5-2.7.noarch.rpm"
+RPM_HASH = "77e25fc7a11bfaeaf6c0cd7e500b2977773eb8043de29ff8c7819ebc70e62db128da9ad4b67d1d89bd78e2dbfa1a97c03ce051e93ccfc6161798778063054abf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-traffic-limit \

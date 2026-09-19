@@ -6,10 +6,10 @@ the paragraph with increased values of \\tolerance and \
 doesn't help, it chooses the solution with the lowest badness."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1bsvn66461"
+PV = "2026.226.0.0.1csvn77682"
 
-RPM_NAME = "texlive-linebreaker-2023.209.0.0.1bsvn66461-55.1.noarch.rpm"
-RPM_HASH = "e527b217d27b7f3255789acfb3856af6debe260d80bc505c6a28cd5f8bb4277dd365a8da6fa40fd550908452fe07be528f4d6ffb56e4b82fc5266e2f9c25716a"
+RPM_NAME = "texlive-linebreaker-2026.226.0.0.1csvn77682-61.2.noarch.rpm"
+RPM_HASH = "3b91614a43614109aff4d7a3dea3d37cc42c953320b208f758689808529898bfc110d293d51a4386dcd35aa7291631b48d7ea6e79f92db0d18cb1a612bbb53a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-linebreaker.sty \

@@ -3,20 +3,20 @@ DESCRIPTION = "This package provides the Haskell indexed-traversable library dev
 files."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.1.2.1"
+PV = "0.1.5"
 
-RPM_NAME = "ghc-indexed-traversable-devel-0.1.2.1-1.3.aarch64.rpm"
-RPM_HASH = "a86af8dba347532c10cb95245717699d3e9bf39cd9e9681cd9421c5f2f2ddff79e03275c779159cf5095957c1cc3e5096b0c47b63d58776239603cf32b1781b7"
+RPM_NAME = "ghc-indexed-traversable-devel-0.1.5-1.3.aarch64.rpm"
+RPM_HASH = "85d0283f3e8bb966753aed91da9c012c799e9988332a0166f7032fc5a6bc393110636a362dfc1a57daa37bcff4a03215e5ff4721657921b68fb78ac054cb3764"
 
-RPROVIDES:${PN} += "ghc-devel-indexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO \
+RPROVIDES:${PN} += "ghc-devel-indexed-traversable-0.1.5-JylwuAInS9n4ImeZ4JChDW \
 ghc-indexed-traversable-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-transformers-0.5.6.2 \
+ghc-devel-array-0.5.8.0-2a42 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-transformers-0.6.3.0-4709 \
 ghc-indexed-traversable"
 
 inherit rpm

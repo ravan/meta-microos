@@ -9,10 +9,10 @@ the 'Load'/'Dump' functions. The default setting is for preserving \
 backward-compatibility with 'YAML.pm'."
 LICENSE = "MIT"
 
-PV = "1.34"
+PV = "1.470.0"
 
-RPM_NAME = "perl-YAML-Syck-1.34-1.18.aarch64.rpm"
-RPM_HASH = "e12a43f2874a338237215a1377db71297fcca63aa8529a3a01e6e0e530b3feb31eda283ff99872293d9bdf8f655bc0574b6c223ed14187512ea42e95b42d7929"
+RPM_NAME = "perl-YAML-Syck-1.470.0-1.3.aarch64.rpm"
+RPM_HASH = "d1eb2f947a2d6e9256eea1e3fab1ff9afe283db1efb92ffd00b2bcc7befca3298c70d978f97a2e276004ab58c94debca55067995ede66372d8872b9bb6683ac6"
 
 RPROVIDES:${PN} += "perl-JSON--Syck \
 perl-YAML--Dumper--Syck \
@@ -22,6 +22,6 @@ perl-YAML-Syck"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

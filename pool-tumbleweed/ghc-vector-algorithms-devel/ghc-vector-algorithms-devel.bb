@@ -3,21 +3,21 @@ DESCRIPTION = "This package provides the Haskell vector-algorithms library devel
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.0.1"
+PV = "0.9.1.0"
 
-RPM_NAME = "ghc-vector-algorithms-devel-0.9.0.1-1.9.aarch64.rpm"
-RPM_HASH = "7a4eab3e7c552e2db6f619511a6533c110d094c2c1c9013df5c686b0f354a916ad7585b30f321e0274da27bc15122ece6ba14b085c1eae68d931e4dd73c73caa"
+RPM_NAME = "ghc-vector-algorithms-devel-0.9.1.0-2.3.aarch64.rpm"
+RPM_HASH = "1b00e8b90259b4aeb2b8bfbc018890e52e3c7856c439658ed4cc97a7806093bd9b6faf512d21f84278b787f09b621e3d035434abf944f7c1f254cc53b2e6b519"
 
-RPROVIDES:${PN} += "ghc-devel-vector-algorithms-0.9.0.1-98Yktb3BX9p4L0Cowik6Gr \
+RPROVIDES:${PN} += "ghc-devel-vector-algorithms-0.9.1.0-KRcdYzVzgLOFSifxDHEL6p \
 ghc-vector-algorithms-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
-ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bitvec-1.1.6.0-AtnZIEu4pqlECh34uLjm5P \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-primitive-0.9.1.0-Ez30Vu7tivmF28X1123Css \
+ghc-devel-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
 ghc-vector-algorithms"
 
 inherit rpm

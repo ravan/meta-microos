@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-combelow"
 DESCRIPTION = "This package includes the documentation for texlive-combelow"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.99fsvn18462"
+PV = "2026.226.0.0.99fsvn18462"
 
-RPM_NAME = "texlive-combelow-doc-2023.209.0.0.99fsvn18462-54.1.noarch.rpm"
-RPM_HASH = "386fec9700341b2f00359a94a5e6c956f71968cccfdd6d89550f88b3ad885eb9bda8e433b8e3ac412e81b15c70fe64b3e962dd5c0ab3eae1ecb50a7588f5c221"
+RPM_NAME = "texlive-combelow-doc-2026.226.0.0.99fsvn18462-60.2.noarch.rpm"
+RPM_HASH = "ca8ebc0b343e8fdf31af6a27d90edac7d76d33872662e42ef32f2ffb5776f2a7433b3aa80efcd1723eb4d5f0048da717c67105ea557018a135ce25da2bb5a26c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-combelow-doc"

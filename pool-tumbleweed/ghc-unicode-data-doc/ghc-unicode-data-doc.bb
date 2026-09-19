@@ -2,10 +2,10 @@ SUMMARY = "Haskell unicode-data library documentation"
 DESCRIPTION = "This package provides the Haskell unicode-data library documentation."
 LICENSE = "Apache-2.0"
 
-PV = "0.4.0.1"
+PV = "0.6.0"
 
-RPM_NAME = "ghc-unicode-data-doc-0.4.0.1-3.8.noarch.rpm"
-RPM_HASH = "203c6d7f79998061811a4b24464467d8d69da2abdc52e31eea786df551f2e1c6b62f8bc8d8733bf384eb18eab4bbde4c00b352c1bb29e1fb6c21e47504021aaf"
+RPM_NAME = "ghc-unicode-data-doc-0.6.0-1.16.noarch.rpm"
+RPM_HASH = "5817809e8ca3151e45709e11bbf9b004d22ab742791e0b2aff0926f761ac112e08b628ca0ef0a31eb572ba26db0953882ccf0d2f329efdcc1c19b18b349c87f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-unicode-data-doc"

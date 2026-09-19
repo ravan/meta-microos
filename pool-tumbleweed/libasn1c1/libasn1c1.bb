@@ -7,10 +7,10 @@ simply (un)marshalled from and to: BER, DER, CER, BASIC-XER, CXER, \
 EXTENDED-XER, PER."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.9.35"
+PV = "0.9.38"
 
-RPM_NAME = "libasn1c1-0.9.35-1.1.aarch64.rpm"
-RPM_HASH = "38fa49a3e381d9cac33fea1b63f2c8bd83485cfdf6759c4def253dbd93874eaa4061c49560cca54f32c5d67c210ddf0fd2cc64f7e2d01c6eaf670d07050ff92c"
+RPM_NAME = "libasn1c1-0.9.38-1.7.aarch64.rpm"
+RPM_HASH = "635f6ea01da6696f56c83848b6d10c89865cc5d18069100cb8069c0f06f2cb608e1f911651512df22aca91f794dd766d9218044e5fcd61306c92a979795f5da8"
 
 RPROVIDES:${PN} += "libasn1c.so.1 \
 libasn1c1"

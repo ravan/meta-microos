@@ -8,10 +8,10 @@ file format and supported text editors, see the EditorConfig website. \
 This package contains command line utilities."
 LICENSE = "BSD-2-Clause & BSD-3-Clause"
 
-PV = "0.12.6"
+PV = "0.12.11"
 
-RPM_NAME = "editorconfig-0.12.6-1.1.aarch64.rpm"
-RPM_HASH = "bb20512eec50f6d0df158ba849dccae4b529582c234c2687c68cb2ebacd7bcfcdb9aae7baa08780d68a633a2b20488052d78fd4014152e1c60fce24dc8d48af5"
+RPM_NAME = "editorconfig-0.12.11-1.3.aarch64.rpm"
+RPM_HASH = "bac93b644f8f3c3220851d37fb5bbd5bf8628aedb91083e031a7eac83657116307ea7fdec7f6c14cde4c655dca1ddb0646068aa33a6e3a601ca5d3a6f74d9a52"
 
 RPROVIDES:${PN} += "editorconfig"
 

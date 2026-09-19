@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.1"
 
-RPM_NAME = "prometheus-postgres_exporter-0.10.1-3.3.aarch64.rpm"
-RPM_HASH = "ca93c728e017a28fd9b9139cac269674328b531f9c6a716157d7a1c54c4aae77719d8ac62d4d156872225b51377393df60975cb78fc557f761bb5c2ba084ce2d"
+RPM_NAME = "prometheus-postgres_exporter-0.10.1-6.4.aarch64.rpm"
+RPM_HASH = "3558f5c6b60a0e18ce6323c6fe8178c8b08274184f53becfe68f9c3278dacde2ecbdeb20e428d8590dbf0c810f78b4e55b74924b9e740d12f10c5f7c0345e034"
 
 RPROVIDES:${PN} += "golang-github-wrouesnel-postgres-exporter \
 prometheus-postgres-exporter"

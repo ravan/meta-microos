@@ -2,10 +2,10 @@ SUMMARY = "IBus input method support for gtk2 applications"
 DESCRIPTION = "This package contains ibus im module for use by gtk2."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.5.28"
+PV = "1.5.34"
 
-RPM_NAME = "ibus-gtk-1.5.28-2.2.aarch64.rpm"
-RPM_HASH = "8d1e7f0ff9effb137d82fefedcfb43561ea40bb1c1692c7ffbb8b31407b7580b11626198d6c9f07d006784e6875933dbcd00c7a535c201ad1be214e439c6ab45"
+RPM_NAME = "ibus-gtk-1.5.34-2.1.aarch64.rpm"
+RPM_HASH = "ffe818c1e81856dc34d4b0a4a4158cf6f7e029418d304646b309cd471e22809952e6cc7fb99d085a13215a703846e9660c7a4c0a8157cd303828bf187a6e3bc6"
 
 RPROVIDES:${PN} += "ibus-gtk"
 

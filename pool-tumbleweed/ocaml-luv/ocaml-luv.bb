@@ -8,10 +8,10 @@ exposes a lot of other functionality, amounting to a full OS API, and an \
 alternative to the standard module Unix."
 LICENSE = "MIT"
 
-PV = "0.5.12"
+PV = "0.5.13"
 
-RPM_NAME = "ocaml-luv-0.5.12-1.3.aarch64.rpm"
-RPM_HASH = "28a3656e9a6d20b626d5a94364bd61feae8636824db9534062a82e40711a1f96d1cf46d7debc9bdb874e7f604caa00bb9d6fec44fb9f69f4bc73a82bceee8abb"
+RPM_NAME = "ocaml-luv-0.5.13-2.2.aarch64.rpm"
+RPM_HASH = "722d03e2706d63d5814048252aca72c2e70a1b6ace37908ba9a9b112f447bb41b4255678482e4b3cd629a646696328b27a37732b4cbde143d764d6c17932c87c"
 
 RPROVIDES:${PN} += "ocaml-luv"
 

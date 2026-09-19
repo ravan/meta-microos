@@ -2,15 +2,16 @@ SUMMARY = "Translations for package gstreamer-plugins-bad"
 DESCRIPTION = "Provides translations for the 'gstreamer-plugins-bad' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-plugins-bad-lang-1.22.5-2.1.noarch.rpm"
-RPM_HASH = "e8294d3135a1395454b1d560261c4124e8b383ded86862d8ba3f437a7c5a9ef1fcafa409d245bf45702cbdb62f98f1f82df3110c807471db76a9f903068290c6"
+RPM_NAME = "gstreamer-plugins-bad-lang-1.28.7-1.1.noarch.rpm"
+RPM_HASH = "99c2102ac10f1d09c6ea3d04358342c80d67e05a17362517bc35ccdd40c6fda57b72e9634303e7c6a98575c64bade7c05ecba5bfcb93920a7e0c390faf196de4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gstreamer-plugins-bad-lang \
 gstreamer-plugins-bad-lang-all \
 locale-gstreamer-plugins-bad-af \
+locale-gstreamer-plugins-bad-ar \
 locale-gstreamer-plugins-bad-ast \
 locale-gstreamer-plugins-bad-az \
 locale-gstreamer-plugins-bad-bg \
@@ -33,6 +34,7 @@ locale-gstreamer-plugins-bad-id \
 locale-gstreamer-plugins-bad-it \
 locale-gstreamer-plugins-bad-ja \
 locale-gstreamer-plugins-bad-ka \
+locale-gstreamer-plugins-bad-kk \
 locale-gstreamer-plugins-bad-lt \
 locale-gstreamer-plugins-bad-lv \
 locale-gstreamer-plugins-bad-nb \

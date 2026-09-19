@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the parts which may be installed in the inn
 for generating base lib packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "20230808"
+PV = "20260505"
 
-RPM_NAME = "build-mkbaselibs-20230808-1.1.noarch.rpm"
-RPM_HASH = "e1e294d9816c74d872035a63603713b2a8bb9acd99ebe86387e5225791d1fc492a8eed805cf5b8acb261c73128ace291cf542be97f756ced075da376d24a121f"
+RPM_NAME = "build-mkbaselibs-20260505-1.3.noarch.rpm"
+RPM_HASH = "b41cd2a7e6a19dee542ea656054a8ef038a64d97ec8f7a4eedb1cf6836e31d48f3c80e4d8596fac34c18b82607b5971efd4bc3488d1567311cd93363857a9ff5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build-mkbaselibs"

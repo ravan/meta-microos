@@ -12,10 +12,10 @@ the IP, UDP and TCP protocols) would make things like tunneling or other \
 unusual situations difficult."
 LICENSE = "Artistic-2.0"
 
-PV = "1.7.2"
+PV = "1.8.0"
 
-RPM_NAME = "perl-NetPacket-1.7.2-1.17.noarch.rpm"
-RPM_HASH = "692a2e6ef0325923f0e923432e99bb151b25f8a668281a0ceef2444037a97a3b7e21e3a9323b041ed794590e7004bfb754f5ffc8406d9289168c519118b00f9b"
+RPM_NAME = "perl-NetPacket-1.8.0-1.5.noarch.rpm"
+RPM_HASH = "7c01074dd7bebcb1e643075830b28a35122acc2b6f8d470b5adb85dcabcccbd6ba9976739fdce38ef2574abc0fa7170ff021ab94fda626a43b73183c7d1e1187"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-NetPacket \
@@ -27,11 +27,13 @@ perl-NetPacket--IGMP \
 perl-NetPacket--IP \
 perl-NetPacket--IPX \
 perl-NetPacket--IPv6 \
+perl-NetPacket--SLL \
+perl-NetPacket--SLL2 \
 perl-NetPacket--TCP \
 perl-NetPacket--UDP \
 perl-NetPacket--USBMon"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Socket \
 perl-parent"
 

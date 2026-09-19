@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.5"
 
-RPM_NAME = "gebaar-libinput-0.0.5-2.11.aarch64.rpm"
-RPM_HASH = "8b1cb0187b244ca41955023db69981c20d0114393ab98ebabb2511605c618ab18b5cfee82b382198174cbfc445d8ea9c527692916914f9e86963418f3552320d"
+RPM_NAME = "gebaar-libinput-0.0.5-3.8.aarch64.rpm"
+RPM_HASH = "dfc0e4926cb0b3551471cdffd60c215de5e9318a76e2503db0f97565341f45653341d7b0febfa81a4c6f29126eb7c6b6680b9985d7e5d2ed58368ea6473912aa"
 
 RPROVIDES:${PN} += "gebaar-libinput"
 

@@ -4,10 +4,10 @@ created with the KConfigWidgets framework. This package provides QtQuick binding
 for the KCMUtils libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kcmutils-imports-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "651ffe3c79be0ab883b274413c9ceff0ac61abfe711b07328dc9d18df24c52c9271d448e4f55036c7c60ecc0c2af30f6b0e7507c3639fd44020a01366b6f9943"
+RPM_NAME = "kcmutils-imports-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "9b67eecdfb231770debddc3b539f38d6a6eccd9190227d03696954bae7f567c6f0794ee11a2886a249bf706aecdebc0b4615c978cee5af0c64041caae1a90435"
 
 RPROVIDES:${PN} += "kcmutils-imports \
 libkcmutilsqmlplugin.so \

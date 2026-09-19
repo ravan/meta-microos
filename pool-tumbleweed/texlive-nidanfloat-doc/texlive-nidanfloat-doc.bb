@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nidanfloat"
 DESCRIPTION = "This package includes the documentation for texlive-nidanfloat"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn48295"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-nidanfloat-doc-2023.209.svn48295-55.1.noarch.rpm"
-RPM_HASH = "3cf45a4f34a990e2116b3e7f4a8b80bf9ab39d2d21c33920d64fc9e1e781eef7b97fcc038fc302a5329571d8cc2511ecd31a2ea9a153635d0cd2d31d801f0d43"
+RPM_NAME = "texlive-nidanfloat-doc-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "f67e748ef93e4f1dd5d9fe1734d0b305a3aecd8254e5e24517fa95a1417be700147794c7c5bb9c6d325a05690d37ed2526ce732d627b2e0b764e03e488bd0ef2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-nidanfloat-doc-ja \

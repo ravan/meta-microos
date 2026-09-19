@@ -3,10 +3,10 @@ DESCRIPTION = "This package automatically creates tramlines (lines above and \
 below a title used by lawyers in the UK and the Commonwealth)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn65692"
+PV = "2026.226.1.1.1svn71842"
 
-RPM_NAME = "texlive-tramlines-2023.209.1.1.0svn65692-53.1.noarch.rpm"
-RPM_HASH = "4f1fb2e8683ee8ca8ecf31a41f997052116af80a4a9e94858b13f48ff88291b74a1b2da71af12e161b21c60ad660719d29ff3d99b6e180a0691f4457e9b27db9"
+RPM_NAME = "texlive-tramlines-2026.226.1.1.1svn71842-59.2.noarch.rpm"
+RPM_HASH = "36cb4e84e761a8c467d4e6596d6f749b2a58ab84dade49f2da6646bc8b7a3a4f0e43676ef35e4d491b98564df2a122534136bcf3ef2ebe50d46385b2e989d36e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tramlines.sty \

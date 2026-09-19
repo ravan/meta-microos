@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-karnaugh"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-karnaugh"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn62040"
+PV = "2026.226.1.5svn62040"
 
-RPM_NAME = "texlive-tikz-karnaugh-doc-2023.209.1.5svn62040-53.1.noarch.rpm"
-RPM_HASH = "f04b959ffca4327316bb2fb1a0183a8d4fb0ee41ed28cd43dd6f58fcc367423429f4e1e2bd9a767485ad681e46a2050b8f993490aee24f02e8b1efb7ae53018a"
+RPM_NAME = "texlive-tikz-karnaugh-doc-2026.226.1.5svn62040-59.2.noarch.rpm"
+RPM_HASH = "9287afe4c1e0959c117c37ec1af542ebf5c77b75a4fa45f981e6c0ee393ef75aaccd500e0b709d18932dc4270e56599a7c476e324dbcd43a174656e1e4c8546d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-karnaugh-doc"

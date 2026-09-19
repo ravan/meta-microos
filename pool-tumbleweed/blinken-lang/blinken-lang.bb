@@ -2,15 +2,16 @@ SUMMARY = "Translations for package blinken"
 DESCRIPTION = "Provides translations for the 'blinken' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "blinken-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "82831684c6875b9c70b876018bdf4a23a1f061a86915a4741e077b3d08f6450a623db5ab165d09057dcf9ff8215fb859f6e0e4522bfa0687b48dc4d2e6029dd1"
+RPM_NAME = "blinken-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "18d22ae5aead23779f5a7480d9caf8ddf801c6e0636779c417155f706959b4a36fd344edd64c4c0b82f3c19f59b348fca8e5f70605c6cf0f51df7749a090e6ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blinken-lang \
 blinken-lang-all \
 locale-blinken-ar \
+locale-blinken-ast \
 locale-blinken-be \
 locale-blinken-bg \
 locale-blinken-bn \

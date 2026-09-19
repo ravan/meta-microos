@@ -6,10 +6,10 @@ customized by means of different \\pascal macro options or the \
 \\pascalset macro."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn61774"
+PV = "2026.226.1.0.1svn76924"
 
-RPM_NAME = "texlive-pascaltriangle-2023.209.1.0.1svn61774-52.1.noarch.rpm"
-RPM_HASH = "132835075838c825fd0b7fd4d27d560512b76378c7975572d67824f8434a7db8dcfccb468213e33b0503891555162a4eea681363bd72c5155c9d97746b7f5543"
+RPM_NAME = "texlive-pascaltriangle-2026.226.1.0.1svn76924-58.2.noarch.rpm"
+RPM_HASH = "4d91751230d822d12ad8feeda4de7f33006ffe51f60e3bae56f797688c827e1ac59dba5638e193367fdaaf8649147ef9a382976a9f3587b75603534dfd27e82f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pascaltriangle.sty \

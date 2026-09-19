@@ -3,10 +3,10 @@ DESCRIPTION = "Control NUMA policy for individual processes. Offer libnuma for \
 individual NUMA policy in applications."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.0.16.21.g693fee1"
+PV = "2.0.19.27.gc9475de"
 
-RPM_NAME = "numactl-2.0.16.21.g693fee1-1.1.aarch64.rpm"
-RPM_HASH = "5af88761faf247749ffce0aee2cbe632f365badac481ac082e91eb348c9ba4b47b935fe2551351fafa6c602cc003d6b3909d114820262de5748d24621915fdd6"
+RPM_NAME = "numactl-2.0.19.27.gc9475de-1.3.aarch64.rpm"
+RPM_HASH = "58530273cdfb188f9dec0c3c71e4ad4b8ed3760dea1097fee0f78cd2341f846e56ce9f7c4845253759b398bed18da49a8191c5d18ea8e4953007cf8ae143e409"
 
 RPROVIDES:${PN} += "numactl"
 

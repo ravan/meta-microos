@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-nvidia-prime-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "da9a7777494e6c18a4d287b4886b4eee8ea13388a9113fdf0e9c02a696772e122b9338ab174d5c7d2cab7c616139a2bc55c94c76352911359ab0f0029246f675"
+RPM_NAME = "bumblebee-status-module-nvidia-prime-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "2443b057f2eb075d3ecb08b35c9e4f18118957e7acd853c70290a3af431ac15c467f9a8b611604da8a728dea5f8cc5fa4464f5974292c3232cb2891a63fc009d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-nvidia-prime"

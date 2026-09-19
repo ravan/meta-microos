@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-censor"
 DESCRIPTION = "This package includes the documentation for texlive-censor"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.2svn63126"
+PV = "2026.226.4.5svn74794"
 
-RPM_NAME = "texlive-censor-doc-2023.209.4.2svn63126-53.1.noarch.rpm"
-RPM_HASH = "40550160382ad7e71fc21cae6d60e7774ba0427b6bf05eb9dfd7e3f156293fa2f511347ae1999b62a521fd6bd472067299407d9f1e37956dfb4da0f67c541c79"
+RPM_NAME = "texlive-censor-doc-2026.226.4.5svn74794-59.2.noarch.rpm"
+RPM_HASH = "efce65fa2f7ff90ee5e028280f1c719994a0c5016a52cf6cb14512d8b41f241b9de7d2072e7a81beb1ee86dc95f08d24e17c164bc10d8e60f4c4536309bf52a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-censor-doc"

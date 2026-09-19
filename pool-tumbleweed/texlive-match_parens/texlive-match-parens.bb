@@ -7,10 +7,10 @@ which will normally be almost empty, but will clearly show any \
 mismatches."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.1.43svn36270"
+PV = "2026.226.1.45svn76442"
 
-RPM_NAME = "texlive-match_parens-2023.208.1.43svn36270-53.1.noarch.rpm"
-RPM_HASH = "3a23b540730fc135c4c9625e2fac783e230ed959748a5d00051943cdaa82d29d11c39267d56e6da22c2ab032ccd22ff0fca630b057923d0a569d7f6471c60de6"
+RPM_NAME = "texlive-match_parens-2026.226.1.45svn76442-59.2.noarch.rpm"
+RPM_HASH = "b40d4303ce8fe1cf966d4ae6e2372126ff885ed56249c3388ecfc2e22593513b0309c1ab91e9cd7c96fd9539bec828fb3f1ff23c54048fbf2c224e8abf649916"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-match-parens"

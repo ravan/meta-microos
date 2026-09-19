@@ -2,10 +2,10 @@ SUMMARY = "A font viewer utility for GNOME"
 DESCRIPTION = "A utility to let you see the installed fonts at a glance."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-font-viewer-44.0-1.1.aarch64.rpm"
-RPM_HASH = "1a70b7ba4fd761db0775b3b2b66bc6c05d388621e2615acf3a57f683ad551c090816a519fd1ad7e9fa434102c573754c65629f1f2aaee58407926d7efacf7350"
+RPM_NAME = "gnome-font-viewer-50.0-1.3.aarch64.rpm"
+RPM_HASH = "b60879661f7ed1f0457df7593db95d9dbd46f317ab956c12f86fb014ec85518c9f25bca6d3d23473715da68e0e3da23b31713c9de3c65fda63804ade19bb550a"
 
 RPROVIDES:${PN} += "gnome-font-viewer"
 
@@ -19,7 +19,6 @@ libfribidi.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgraphene-1.0.so.0 \
 libgtk-4.so.1 \
 libharfbuzz.so.0 \
 libpango-1.0.so.0 \

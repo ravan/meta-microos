@@ -8,10 +8,10 @@ such as Apple iTunes, Apple iPhoto, and the Roku SoundBridge family to \
 share media such as music and photos."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.9.12"
+PV = "3.9.14"
 
-RPM_NAME = "libdmapsharing-4_0-3-3.9.12-1.1.aarch64.rpm"
-RPM_HASH = "734fd0adffdbc805763da36c15c36339f2953638658fe983ecfcd345b99ef6e8532cf399fbb58719c5a7a74fc2adb1b069158c2b0aa3aa044e6c94c9b8939c26"
+RPM_NAME = "libdmapsharing-4_0-3-3.9.14-1.3.aarch64.rpm"
+RPM_HASH = "9fb34354dcd715c2946e166b3462c57f761635a9205b225ffe07352c4221347e9e6cd20906d343592221bf535d3d176bdd700ebf62eb25acd2e53aaa831ea9c5"
 
 RPROVIDES:${PN} += "libdmapsharing-4-0-3 \
 libdmapsharing-4.0.so.3"

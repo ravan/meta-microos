@@ -6,16 +6,16 @@ associated attribute file (.dbf). \
 This package contains the development environment for shapelib project."
 LICENSE = "GPL-2.0-or-later & (LGPL-2.0-or-later | MIT) & SUSE-Public-Domain"
 
-PV = "1.5.0"
+PV = "1.6.3"
 
-RPM_NAME = "libshp-devel-1.5.0-2.8.aarch64.rpm"
-RPM_HASH = "d18b1ac21bd472a0dbf7fd45b740aef7a0362238766bad1bfd50f64293df26709cef4c496e94a64818b09dc01c4eeb0ebc3883e40bee20356742b53fd27fc936"
+RPM_NAME = "libshp-devel-1.6.3-1.1.aarch64.rpm"
+RPM_HASH = "1b42c9cabac183664d800683bc1bf8f45e46a0dc4dffa81a9a72dc6f0ad230273f563cc7c98b86a450a22a8b5178a86965c9db50eba8615cbffa29c16acc1ff5"
 
 RPROVIDES:${PN} += "libshp-devel \
 pkgconfig-shapelib \
 shapelib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libshp2"
+libshp4"
 
 inherit rpm

@@ -7,10 +7,10 @@ This subpackage contains the header files for building programs with \
 SoundTouch."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.2"
+PV = "2.4.1"
 
-RPM_NAME = "soundtouch-devel-2.3.2-1.3.aarch64.rpm"
-RPM_HASH = "9ea1da83ad169a8b91d9a556ca798880cba028ed4e7895661e11e0bfc27af53c178c8d16f0fff2d0732122fe9b9605ab8050ed46b8a3123af75275a6f76ceb0f"
+RPM_NAME = "soundtouch-devel-2.4.1-1.2.aarch64.rpm"
+RPM_HASH = "cd587f387b2354480dceb6c3d262a9c884941d372d1fe7274ec2c91a3899ace9f1b272d24e2af79641facafe5a4f374b4a1b0fa6b10735a7245f2bdeb8723d76"
 
 RPROVIDES:${PN} += "pkgconfig-soundtouch \
 soundtouch-devel"

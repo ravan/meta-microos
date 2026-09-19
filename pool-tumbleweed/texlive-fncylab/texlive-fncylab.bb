@@ -8,10 +8,10 @@ the format of references to labels. The package also provides a \
 start of a sentence."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn52090"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-fncylab-2023.209.1.1svn52090-53.1.noarch.rpm"
-RPM_HASH = "1729319a7eb40d150fb594511d1878ce5a252c8750570b4f5be1ff2e4df40a1a7c39a7f6b918f87425876260415354430f7ae376a6f123a5663c282935980577"
+RPM_NAME = "texlive-fncylab-2026.226.1.1svn77682-60.2.noarch.rpm"
+RPM_HASH = "f16b9c87048f179743f6e7575ff2b613717098615d39b15e2e33b93065167f1b38b920371a20b40f5b787e062e356b8dcaf1837d3d6d07357c8279d8f02d69c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fncylab.sty \

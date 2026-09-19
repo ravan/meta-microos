@@ -4,10 +4,10 @@ standard command interpreter) for easy editing of command lines.  This \
 includes history and search functionality."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "8.2"
+PV = "8.3.3"
 
-RPM_NAME = "libreadline8-8.2-2.4.aarch64.rpm"
-RPM_HASH = "eef4482a70c71eebf3ded75fc7dce13604f24cc621cd3d88758e73704b9c72f6f79097792172dfb05147cb8b9bfa64675948c0c08d00009a697aacf1f8377ac6"
+RPM_NAME = "libreadline8-8.3.3-2.6.aarch64.rpm"
+RPM_HASH = "16585f4e408b195923f6e934c7cf398276942fa36fa309819870ff5b92bb6fb7d9fb7ce9891c0e2b94254ecada3e57a4bd213f41855ecce6ebc05371f8b0af68"
 
 RPROVIDES:${PN} += "bash-/lib64/libreadline.so.8 \
 libhistory.so.8 \

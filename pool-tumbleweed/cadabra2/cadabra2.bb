@@ -22,26 +22,32 @@ Key features of Cadabra2: \
   identity."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.4.3.2"
+PV = "2.5.14"
 
-RPM_NAME = "cadabra2-2.4.3.2-1.6.aarch64.rpm"
-RPM_HASH = "cf843c75880e997b36380eb79406e86daa33641278d3515843b9e67500b8d3f37c48b6b4d7b350f326689c07390f2a9b1ab6f25120df79a95e35cadcaff4f0d4"
+RPM_NAME = "cadabra2-2.5.14-3.1.aarch64.rpm"
+RPM_HASH = "ec1ef34f477b7e77c5b21827fc7e1458189c9f72838cbc59604a6db4a6d8b2e25f6eda3b62df9f59b567773548501ed41565fdbd3744a334b0b618946889204c"
 
 RPROVIDES:${PN} += "cadabra2"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
-ld-linux-aarch64.so.1 \
-libboost-program-options.so.1.82.0 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libboost-filesystem.so.1.91.0 \
+libboost-program-options.so.1.91.0 \
 libc.so.6 \
+libcrypto.so.3 \
 libgcc-s.so.1 \
 libglibmm-2.4.so.1 \
 libgmp.so.10 \
 libgmpxx.so.4 \
 libm.so.6 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libsqlite3.so.0 \
+libssl.so.3 \
 libstdc++.so.6 \
 python-abi \
-python3"
+python3 \
+typelib-GLib \
+typelib-Gdk \
+typelib-Gio \
+typelib-Gtk"
 
 inherit rpm

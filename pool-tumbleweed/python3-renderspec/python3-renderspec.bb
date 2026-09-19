@@ -4,17 +4,17 @@ a rpm .spec file which is usable for different distributions \
 and follow their policies and processes."
 LICENSE = "Apache-2.0"
 
-PV = "2.2.0"
+PV = "2.3.0"
 
-RPM_NAME = "python3-renderspec-2.2.0-3.1.noarch.rpm"
-RPM_HASH = "9102238ff4f50c014f582dadeb69d5cb4b8489916cda2cc638a0a4528ae471eb3cf47719f1924446300629cccb63061ce5789f77eb39e56e751df5e569b70fb1"
+RPM_NAME = "python3-renderspec-2.3.0-1.8.noarch.rpm"
+RPM_HASH = "7bc36aa037df16d696632a96d1200b6785c129a45ac84cbaac2d85832c3c8b39d2997a66cf73c0c801cd130778098284d0964b4f73cc936abcc837f2e6950f47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-renderspec \
-python3.11dist-renderspec \
+python3.13dist-renderspec \
 python3dist-renderspec"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-Jinja2 \
 python3-PyYAML \

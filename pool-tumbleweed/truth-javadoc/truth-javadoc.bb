@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.24"
 
-RPM_NAME = "truth-javadoc-0.24-3.11.noarch.rpm"
-RPM_HASH = "aa6c4c583e7b0ddddfe15b643626cc7602124f17f648504bc24affe20629c34204f99eda7e527639e98022d693ae35fa04719fc3750220fd3c02d24b1b3cb52a"
+RPM_NAME = "truth-javadoc-0.24-4.4.noarch.rpm"
+RPM_HASH = "f45c04d0e709417d71f84fe11d636954f45a3d252e02523e90cb0d4be16869e3e687298126b75a62cb24f5c2cb013311736a9009203f867b38af019a7b67d29a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "truth-javadoc"

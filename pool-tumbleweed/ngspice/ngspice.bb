@@ -4,10 +4,10 @@ is based on three open source software packages: Spice3f5, Cider1b1 \
 and Xspice."
 LICENSE = "BSD-2-Clause"
 
-PV = "40"
+PV = "46"
 
-RPM_NAME = "ngspice-40-1.2.aarch64.rpm"
-RPM_HASH = "53eb08452dc6fcd4e50d1b5c36d17576668d9f9a46978531d76570ff51d3c4a578d241b9c557f309043698cae7d0c42ab9a1eda63cf3a95f2f7cffc9bbbfc7d8"
+RPM_NAME = "ngspice-46-1.2.aarch64.rpm"
+RPM_HASH = "152132c71c1304a20941688ffd65172e908e9e054f02e95f0ce9503df8e56896b2ebff83d7512ba6282d9d5e665c759595b898f2329c7612ea27c383504c2894"
 
 RPROVIDES:${PN} += "ngspice"
 

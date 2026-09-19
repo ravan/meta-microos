@@ -5,10 +5,10 @@ interface statistics and activity indicators, TCP/UDP traffic \
 breakdowns, and LAN station packet and byte counts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.1"
+PV = "1.2.2"
 
-RPM_NAME = "iptraf-ng-1.2.1-2.12.aarch64.rpm"
-RPM_HASH = "f33d4cff73046885879965c681b6d2ad23b6b1bb349a23f022c2c807b88f8845ed0448f31553abc9c3a039acd5f4b2b673afb80c64171f972f88e719b2e1d7d2"
+RPM_NAME = "iptraf-ng-1.2.2-2.5.aarch64.rpm"
+RPM_HASH = "fc2a37a1d1c26e672d3808f2c345dff2c9ebf4061f260512b13067006bc174949283530d39aacbcfdc87e815ffb52157be0ca2ea954e78dc67e078e60b54ad32"
 
 RPROVIDES:${PN} += "iptraf \
 iptraf-ng"

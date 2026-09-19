@@ -8,10 +8,10 @@ to use the commands there. A few additional commands supporting \
 this last purpose are also made available."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn20638"
+PV = "2026.226.svn20638"
 
-RPM_NAME = "texlive-fntproof-2023.209.svn20638-53.1.noarch.rpm"
-RPM_HASH = "b637a0ee6c7ab71b958f653baa491c365c3d748579e9b52dd4c1d4ad6263c4827114ef52851321fd8233c1d0306e1c7b71e15a1a8f574c940d3628186a6cc53d"
+RPM_NAME = "texlive-fntproof-2026.226.svn20638-60.2.noarch.rpm"
+RPM_HASH = "c17589db9f09464e860e6193d4feb187fd489bc19356e6aaa047ef46af99e407ddaf4a2af903cdd1fa28a2e28a9d7a3d74230ca592ff9236ef56f162c6e46671"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fntproof.tex \

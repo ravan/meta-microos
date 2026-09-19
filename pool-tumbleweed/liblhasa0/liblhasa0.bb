@@ -3,10 +3,10 @@ DESCRIPTION = "liblhasa is the backend to the Lhasa tool, offering decompressing
 '.lzh' (LHA/LHarc) and '.lzs' (LArc) archives."
 LICENSE = "ISC"
 
-PV = "0.4.0"
+PV = "0.6.0"
 
-RPM_NAME = "liblhasa0-0.4.0-1.1.aarch64.rpm"
-RPM_HASH = "0ed42b319c4076957fb155aa0a94101fc578814e843681294ad63096a72e311d3d5a0d24879acaf1031bbf8dc1a8ae8f1a7bc14fc47cff0de92ae97fc09848f3"
+RPM_NAME = "liblhasa0-0.6.0-1.3.aarch64.rpm"
+RPM_HASH = "9d3b184e5eb022ccdd28784a6e79368024b67c0ac58ac32fac665e9a65edfd75ada291d6cbf6c9b8a022e3a1f8cf0569bee76e0206898daf24b334e4652b2dfd"
 
 RPROVIDES:${PN} += "liblhasa.so.0 \
 liblhasa0"

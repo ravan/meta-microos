@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "0.8.1"
 
-RPM_NAME = "openlibm-devel-0.8.1-1.4.aarch64.rpm"
-RPM_HASH = "a04ffd1ebfd18faba10217214e9108c9756a3da6c56a90515bda07143378550a473a05152e07a183fd792f1f1a42d95ff431f85dd7e6d69cd43dd749ce566615"
+RPM_NAME = "openlibm-devel-0.8.1-2.11.aarch64.rpm"
+RPM_HASH = "55543355e1951c581b534bae9aba7afdb73e1dcc29ed950719b21e1ec7e8151f891cabcea465d8fbf19516458ffb00f8bdcec069c53c27cd7d0dcefab219707d"
 
 RPROVIDES:${PN} += "openlibm-devel \
 pkgconfig-openlibm"

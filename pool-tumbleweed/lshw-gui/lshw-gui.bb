@@ -13,15 +13,14 @@ included documentation or go to the lshw Web page, \
 http://www.ezix.org/software/lshw.html"
 LICENSE = "GPL-2.0-only"
 
-PV = "B.02.19.2+git.20230320"
+PV = "B.02.20"
 
-RPM_NAME = "lshw-gui-B.02.19.2+git.20230320-1.2.aarch64.rpm"
-RPM_HASH = "64f2c16a610de94d7608f07381f8baa8a3475188d9a505683a765f296cbbb7aa231bc12141533482afe1513fd2620a43045fa432438af95525a330bba32786cf"
+RPM_NAME = "lshw-gui-B.02.20-3.3.aarch64.rpm"
+RPM_HASH = "38406e89a6a8fd33de0828d1de6c6621d72b872deb5f5ed17bed4d985623951ad296e85f6f9a82070ed1d20e9a0198252efef9e32893426a1a18e1009c8ad917"
 
 RPROVIDES:${PN} += "lshw-gui"
 
-RDEPENDS:${PN} += "hicolor-icon-theme \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libgdk-pixbuf-2.0.so.0 \
@@ -30,7 +29,6 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libstdc++.so.6 \
-lshw \
-update-desktop-files"
+lshw"
 
 inherit rpm

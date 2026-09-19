@@ -15,8 +15,8 @@ LICENSE = "CPL-1.0 | GPL-3.0-or-later"
 
 PV = "0.5.3"
 
-RPM_NAME = "metslib-devel-0.5.3-2.8.noarch.rpm"
-RPM_HASH = "7a6923fa213308f7b91fb397c19d5c2f20933cf915d28d827837b101c5e27e5d2b93f3be77bd7c0ab815a05e91ee9f0f0976231eb33294068dbc8e625bafb1e6"
+RPM_NAME = "metslib-devel-0.5.3-3.8.noarch.rpm"
+RPM_HASH = "1feeeb4a359fcce8a5e983b5d91f9554f382380c22c622c036f9a44ead7d25cb53ffd0158c716154ba2b0ed1978af89df1671de3fa72d9443f202f13edb0b9c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metslib-devel \

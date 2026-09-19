@@ -3,10 +3,10 @@ DESCRIPTION = "These fonts are drop-in Adobe type 1 replacements for the fonts \
 of the ethiop package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-ethiop-t1-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "e1554d17587169d8dd6924b6b5b0595bbb8fb1e8d560f767918858b5854fd2796942059f4ce368ae7b56544e7f087b8a85ab66b612c1e7a4aa72377d28b73cfd"
+RPM_NAME = "texlive-ethiop-t1-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "ddc9efc23ae488860fdff2007596e166e09d8a895aa9180812590e1c161e559f7c4f055d9c4dc0a273bea58775d6a8fdf7a79d18c681a9c2b4af7757d47bf686"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ethiop.map \

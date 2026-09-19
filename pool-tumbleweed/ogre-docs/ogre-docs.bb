@@ -9,10 +9,10 @@ objects and other intuitive classes. \
 This package contains the documentation for OGRE."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "ogre-docs-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "1e1a3cf7ec53dd0fa0b5021a53c2def2635ba66818167e49152fad0eca3eb2e75e5a68e1dfe5663206baa7eb8cb1b5808de9a66280294a2fe9857b41bdaa9de6"
+RPM_NAME = "ogre-docs-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "ef53d4e4f57063df9d7540c53f16257f627306c006be24c72101df63b79c044a1ee4b58fcccf7ba24dff894589d7198eb28c59ad46dff0e6ee576698c2905f60"
 
 RPROVIDES:${PN} += "ogre-docs"
 

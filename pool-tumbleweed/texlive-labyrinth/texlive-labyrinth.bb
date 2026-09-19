@@ -4,10 +4,10 @@ typesetting simple labyrinths with LaTeX, and generating an \
 automatic or manual solution path."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn33454"
+PV = "2026.226.1.0svn33454"
 
-RPM_NAME = "texlive-labyrinth-2023.209.1.0svn33454-56.1.noarch.rpm"
-RPM_HASH = "f1f1b400e83bcd894ffb700876d3ecfec4252536368aa50d914c26e81fbb742e191f023422c2ef5e49c4a8a36be3324feff744cd6f39c261c604887d00582675"
+RPM_NAME = "texlive-labyrinth-2026.226.1.0svn33454-63.2.noarch.rpm"
+RPM_HASH = "e5b5d6a54491d76dd1e224d452b818f46a49bfcd922f7ea431c7f5004d583ce510dfb885bec648705b7fed185125c5fe92e7b9614bf2dfda53fbf950f9f81008"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-labyrinth.sty \

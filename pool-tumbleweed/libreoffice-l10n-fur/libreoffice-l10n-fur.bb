@@ -2,10 +2,10 @@ SUMMARY = "Friulian localization files for LibreOffice"
 DESCRIPTION = "Provides Friulian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-fur-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "4047866720c8b8821af87f87dd9740c35ed261b36564e1c44dd1d77e643d12dfb715c07da82a6a7230fbfcbb532126e3608df248ab6f6105c979e31e6c4d369c"
+RPM_NAME = "libreoffice-l10n-fur-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "56487c7bf0ed9d6d0109d16da1840655ae527bbbeae9f42cacb548796b6c7acf333d16c8f0e6d942aa1603e330df8a65554343924a34ab49e7d99c007e04f8dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-fur \

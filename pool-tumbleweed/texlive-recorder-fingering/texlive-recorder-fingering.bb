@@ -1,15 +1,15 @@
 SUMMARY = "Package to display recorder fingering diagrams"
 DESCRIPTION = "This package provides support for generating and displaying \
-fingering diagrams for baroque fingering recorders. Standard \
-fingerings are provided for recorders in both C and F, along \
-with methods to create and display alternate fingerings for \
-trills, etc."
+fingering diagrams for baroque fingering recorders and the tin \
+whistle. Standard fingerings are provided for recorders in both \
+C and F, and the tin whistle in D, along with methods to create \
+and display alternate fingerings for trills, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1bsvn66008"
+PV = "2026.226.1.5svn76924"
 
-RPM_NAME = "texlive-recorder-fingering-2023.209.1.1bsvn66008-54.2.noarch.rpm"
-RPM_HASH = "488a58b8ba38c97dfc2f8b70c14a9dfdb0496b74e0a883af7e8efa86ecb4985f8dfb2f87d0a5da3132e905eb20c7691b73d9327d24091865e0077c20e5c90088"
+RPM_NAME = "texlive-recorder-fingering-2026.226.1.5svn76924-60.4.noarch.rpm"
+RPM_HASH = "608253359464395add7f322a40af37623e5046fe10cd190901ac20ec9fde57cf6a6052ce1f6a83c57eec2efad2da0889eec99980baf539a4ce2d97d1524001b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-recorder-fingering.sty \

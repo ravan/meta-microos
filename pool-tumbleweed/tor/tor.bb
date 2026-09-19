@@ -22,18 +22,17 @@ strength of the anonymity provided. Tor is not presently suitable \
 for high-stakes anonymity."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.8.5"
+PV = "0.4.9.11"
 
-RPM_NAME = "tor-0.4.8.5-1.1.aarch64.rpm"
-RPM_HASH = "a5ac94566aae6cb3f87f570f3e2d88fc20e6e8dcb8dfb3ecd139e74d6378f3b71ba764484842f751c2d4d3442b01b5bd1313fe4e05016f15ae0c425530a287b3"
+RPM_NAME = "tor-0.4.9.11-1.1.aarch64.rpm"
+RPM_HASH = "800ac9d3e24c5c0b772c1961f43347dfc285677c828246434852ed784ff6b223fbb32acd5aaedf962e2bb78f0b3bb1114932e3373c7177acbb6a5171eb63c9b1"
 
 RPROVIDES:${PN} += "config-tor \
-tor"
+group-tor \
+tor \
+user-tor"
 
-RDEPENDS:${PN} += "/usr/bin/mkdir \
-/usr/bin/sh \
-/usr/bin/touch \
-fillup \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \
@@ -46,6 +45,7 @@ libssl.so.3 \
 libsystemd.so.0 \
 libz.so.1 \
 libzstd.so.1 \
-logrotate"
+logrotate \
+sysuser-shadow"
 
 inherit rpm

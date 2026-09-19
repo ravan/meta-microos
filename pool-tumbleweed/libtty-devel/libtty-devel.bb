@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.19"
 
-RPM_NAME = "libtty-devel-0.19-1.14.aarch64.rpm"
-RPM_HASH = "8b57373c2a370b855365587826c743270afbf547f7ce8f48a6ea7ec6fe6c1c4a9a46f99e9a405bacd06868eb47d0d7043cdf3c32ea21f5b8f3740b159def310e"
+RPM_NAME = "libtty-devel-0.19-1.24.aarch64.rpm"
+RPM_HASH = "cbc4afd53bbbd328f79a1a2da5436f05525b5d9ceb83fd95c8967eee0d46393ecc1993e173cbb99b580ced768edc5adfa50d171b143870ddb15153c53cd7ac3e"
 
 RPROVIDES:${PN} += "libtty-devel"
 

@@ -14,10 +14,10 @@ In practical testing this module loads and runs about twice as fast as \
 CGI.pm depending on the precise task."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.280"
+PV = "1.282.0"
 
-RPM_NAME = "perl-CGI-Simple-1.280-1.9.noarch.rpm"
-RPM_HASH = "a397c677c4687aef011252aca0a63df8e387178a6eba98f30e413a077693205eab07e8d7b9b53f616e6bf48c6be9082e630ba76e060f7ff11eb8f065a58be2a7"
+RPM_NAME = "perl-CGI-Simple-1.282.0-1.5.noarch.rpm"
+RPM_HASH = "a4757c7f157c8a510b7f02eb8a229ec33a96a62cff9acb6c83296cfe52faaa5cb0b5978d40aa1d3fe109d7757d2a498156415fa4ed2c401cfb3d49c93e43587f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--Simple \
@@ -26,6 +26,6 @@ perl-CGI--Simple--Standard \
 perl-CGI--Simple--Util \
 perl-CGI-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

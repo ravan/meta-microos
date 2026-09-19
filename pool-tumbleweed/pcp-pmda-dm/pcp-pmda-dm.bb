@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the Device Mapper Cache and Thin Client."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-dm-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "7fda5323190959c8dffbd819405077310490329e66d7144d36f03e33ad18d3c78eaf7801aa2dd2cf56d2e15a40748a5fdc398e775a3b2165ca4a8eb4adcb2412"
+RPM_NAME = "pcp-pmda-dm-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "a459a551bd2ff33991462d3614e684ab4d05ae9ef5956dadf8628b432e7bdfa8ed48ef6703f62dc2af2c05ed15ff4b1c7d5cee9b6890a8e353f613b249d48299"
 
 RPROVIDES:${PN} += "config-pcp-pmda-dm \
 pcp-pmda-dm"

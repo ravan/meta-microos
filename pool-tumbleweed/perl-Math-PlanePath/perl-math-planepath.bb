@@ -156,8 +156,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "129"
 
-RPM_NAME = "perl-Math-PlanePath-129-1.12.aarch64.rpm"
-RPM_HASH = "64bae941bfddf4307ba692c486fa71470522685969e204a0c5278dbb32a40507afdd9400afe60936800dc5f23aba2256c2ea012415178854ff6ccd3e256cf25d"
+RPM_NAME = "perl-Math-PlanePath-129-1.27.aarch64.rpm"
+RPM_HASH = "fec03832bb32b831f18042dd2d39179aefcc57e9eab2f948e64df71bd555b31832e6c1f4e35d7e8dce00a987453ba48fd9d75e2a2e5a9468089e610d073a060a"
 
 RPROVIDES:${PN} += "perl-Math--NumSeq--OEIS--Catalogue--Plugin--PlanePath \
 perl-Math--NumSeq--PlanePathCoord \
@@ -293,7 +293,7 @@ perl-Math--PlanePath--WythoffPreliminaryTriangle \
 perl-Math--PlanePath--ZOrderCurve \
 perl-Math-PlanePath"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Math--Libm \
 perl-constant--defer"
 

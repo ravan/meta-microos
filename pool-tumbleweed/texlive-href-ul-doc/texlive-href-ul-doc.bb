@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-href-ul"
 DESCRIPTION = "This package includes the documentation for texlive-href-ul"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.0svn64880"
+PV = "2026.226.0.0.5.2svn74512"
 
-RPM_NAME = "texlive-href-ul-doc-2023.209.0.0.3.0svn64880-54.2.noarch.rpm"
-RPM_HASH = "f0dc477e4848958cb68f6f75dac51b634bb55d2da3e8aadfe96a030e6fa562c0eea2fc28411553f711375fceeb5314ba3b076a49a6f92d532591c7bbd8f066df"
+RPM_NAME = "texlive-href-ul-doc-2026.226.0.0.5.2svn74512-60.4.noarch.rpm"
+RPM_HASH = "446bf7c7293b1026fac225c7c5348e240ef08272b3cccfe849bf545ba5b8b42aa352f044312467b7dcca0e0a63a65ac74243032b624e322cdad51db0a571d8d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-href-ul-doc"

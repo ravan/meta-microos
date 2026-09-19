@@ -2,10 +2,10 @@ SUMMARY = "Xserver SUID Wrapper"
 DESCRIPTION = "This package contains an SUID wrapper for the Xserver."
 LICENSE = "MIT"
 
-PV = "21.1.8"
+PV = "21.1.24"
 
-RPM_NAME = "xorg-x11-server-wrapper-21.1.8-1.3.aarch64.rpm"
-RPM_HASH = "05a2d6dc284943398b38a52b2f3022941d3d5add19cc3a95ac5e6e18e0180106b934d4ddb639845f7ed9684a72196844cb7fa04536d786efc6eb840ffa5eed71"
+RPM_NAME = "xorg-x11-server-wrapper-21.1.24-1.2.aarch64.rpm"
+RPM_HASH = "0de964755e7bef43414d547f60be61ba9baa1c3d71a746a6d76eba5c90c6af8ed18bd968a74c228dbee63d9118feb3f6336111f41ead5fb275a7173a1c98149d"
 
 RPROVIDES:${PN} += "xorg-x11-server-wrapper"
 

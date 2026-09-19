@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xreader"
 DESCRIPTION = "Provides translations for the 'xreader' package."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "3.8.2"
+PV = "4.6.5"
 
-RPM_NAME = "xreader-lang-3.8.2-1.1.noarch.rpm"
-RPM_HASH = "23f787724dcc0fa33ea4684b2c6b3ac667955e322565c67b7c43d7ca32cd44dacc6f208dcf18b36a88b92c618178eeef1e81411f8660c608560bb00fae2817bb"
+RPM_NAME = "xreader-lang-4.6.5-1.2.noarch.rpm"
+RPM_HASH = "cf4c67249cfc265f7fe998c69c176fe49e918daafa2727d228b2ccc0db6d9d486178eaaede26f4f76816e16ccc138362cfebef19b2590ad8b38371f64218d54e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xreader-af \

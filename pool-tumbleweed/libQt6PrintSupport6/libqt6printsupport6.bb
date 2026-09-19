@@ -6,10 +6,10 @@ supports PDF file generation, providing the foundation for basic \
 report generation facilities."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6PrintSupport6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "65d0ad752b3bbbdf61cf3a6ce7571d2417ee65c7a81646e12d4233c24487dd445b61e2664983d7871259492ee56f2bf735741c86e9fe3aa2148564356e691bb9"
+RPM_NAME = "libQt6PrintSupport6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "23f769b7b3b3318a1e11fbc47f1a5269e3b9dea774627f27c7f5e6c17adc0aa9f68a846584176a79aba67fd8cb3fb7438ddc7f09c3e9caf4887002d3a16778e5"
 
 RPROVIDES:${PN} += "libQt6PrintSupport.so.6 \
 libQt6PrintSupport6"
@@ -21,7 +21,7 @@ libQt6Gui.so.6 \
 libQt6Widgets.so.6 \
 libQt6Widgets6 \
 libc.so.6 \
-libm.so.6 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6-printsupport-cups"
 
 inherit rpm

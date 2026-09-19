@@ -18,16 +18,15 @@ register phrases for internationaliation with custom or built-in \
 language packs."
 LICENSE = "MIT"
 
-PV = "2.0.0"
+PV = "2.3.0"
 
-RPM_NAME = "lua53-busted-2.0.0-6.1.noarch.rpm"
-RPM_HASH = "50427061a79deb732933ea1d14cf705eaf068502f1d932aa38beae9519b8920012f561efb6dd5d11ef6f56a3123bc55cbdf6383aa3966a31df50160928b4ef62"
+RPM_NAME = "lua53-busted-2.3.0-1.2.noarch.rpm"
+RPM_HASH = "f9c1867bbf1582678b05c3bac5d3a9a0d089adcf05a570265a38a914245348f7b4f902cb015dc6f23b29369419be395d04cb752ded7a53706527760bce087239"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-busted"
 
-RDEPENDS:${PN} += "/usr/bin/lua5.3 \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 curl \
 lua53 \
 lua53-cliargs \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-storebox"
 DESCRIPTION = "This package includes the documentation for texlive-storebox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3asvn64967"
+PV = "2026.226.1.3asvn77682"
 
-RPM_NAME = "texlive-storebox-doc-2023.209.1.3asvn64967-58.1.noarch.rpm"
-RPM_HASH = "c79a47bef66b8260fb99e2b41d93aa763b0f4747c50e33871c22cdc27867b51be43ba90dfdb1be318dc13007b7b93698f9339b2a849765a8bb4889ddb6b86f17"
+RPM_NAME = "texlive-storebox-doc-2026.226.1.3asvn77682-64.2.noarch.rpm"
+RPM_HASH = "262dc82d6f575457e2302fc7d83ccfb219305bff9a02a67a6b84bf29a0a063f6e92bdce46be9fda315aa5a51c5248dcef52d03cd9f92a54163726558f85809bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-storebox-doc"

@@ -6,10 +6,10 @@ Furthermore, matrix.skeleton provides rows and columns for easy \
 styling."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.1svn65013"
+PV = "2026.226.1.1svn65013"
 
-RPM_NAME = "texlive-matrix-skeleton-2023.208.1.1svn65013-53.1.noarch.rpm"
-RPM_HASH = "4c8ab699db022d3275e381038c180c528cca61516e6500fa83762707ff89ab2ca1bf8c2562dcbadf09afe34084ca066e5592ebae1b573a4d08c2d4dde5bab88f"
+RPM_NAME = "texlive-matrix-skeleton-2026.226.1.1svn65013-59.2.noarch.rpm"
+RPM_HASH = "55abee2895703f6435ec7afff4bb6b1cbff0e6d29a17e1199669f292936c6553fdd1ccbc4e732b504da8ab0f7180f505db3e91adda188b7c311a43e327b44038"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgflibrarymatrix.skeleton.code.tex \

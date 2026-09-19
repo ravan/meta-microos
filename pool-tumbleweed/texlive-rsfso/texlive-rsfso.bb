@@ -6,10 +6,10 @@ with the slant substantially reduced. The output is quite \
 similar to that from the Adobe Mathematical Pi script font."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.03svn60849"
+PV = "2026.226.1.03svn78101"
 
-RPM_NAME = "texlive-rsfso-2023.209.1.03svn60849-54.1.noarch.rpm"
-RPM_HASH = "ee8ba16241962e41c4b07ff211b0c8bbd45bda31e651eb3bf2852428149905eac9672636e4f36d2302f653d68615c24dee56aedb9f428360eef2f7809098ae15"
+RPM_NAME = "texlive-rsfso-2026.226.1.03svn78101-60.2.noarch.rpm"
+RPM_HASH = "099109b1dd35c4c1b6081bff958674302ea16c52bf4ae6788c27e1657829776fee879f621f4cbbbd07d3ba6b18dfc8970ce30d2e524cd26077cc21b0927ec755"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rrsfso10.tfm \

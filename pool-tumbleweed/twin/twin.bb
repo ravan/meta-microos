@@ -8,10 +8,10 @@ plain text terminal, to a Linux console, to a full kde, gnome or X11 \
 desktop."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "0.9.0+17"
+PV = "0.9.0+161"
 
-RPM_NAME = "twin-0.9.0+17-3.6.aarch64.rpm"
-RPM_HASH = "6b18b47aedc86eea2fac3d962d71406f9835749b568665c738575bd3750daf6eafa49aef08457400a1b22a85344d9d77c1aba9427d87a56c4b3d267d31fc3a95"
+RPM_NAME = "twin-0.9.0+161-1.5.aarch64.rpm"
+RPM_HASH = "e2e5bafb173f65811865671738d8ca20dc35d970f25596d50091d7faf12d7e85107bf841f0145350d6cc8fad756218932e775378e695afe8134aaedac276a12b"
 
 RPROVIDES:${PN} += "libhw-X11-0.9.1.so \
 libhw-display-0.9.1.so \
@@ -21,16 +21,15 @@ libhw-xft-0.9.1.so \
 librcparse-0.9.1.so \
 libsocket-0.9.1.so \
 libterm-0.9.1.so \
-libwm-0.9.1.so \
 twin"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/true \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXft.so.2 \
 libc.so.6 \
 libcrypt.so.1 \
+libgcc-s.so.1 \
 libgpm.so.2 \
 libstdc++.so.6 \
 libtinfo.so.6 \

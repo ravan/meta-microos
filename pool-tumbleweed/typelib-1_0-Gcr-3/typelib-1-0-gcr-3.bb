@@ -5,10 +5,10 @@ key stores. \
 This package provides the GObject Introspection bindings for GCR."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.41.0"
+PV = "3.41.2"
 
-RPM_NAME = "typelib-1_0-Gcr-3-3.41.0-3.4.aarch64.rpm"
-RPM_HASH = "6fb0c26d24baec9f90f3cb30fcecc1735ccbe7d716b51c71299ab5355e52b51a7f6fd2b3c1886a0aedb9114bb76cf9ec26e7c211a3f59a14b4cea2172694c375"
+RPM_NAME = "typelib-1_0-Gcr-3-3.41.2-5.4.aarch64.rpm"
+RPM_HASH = "0ae49c02c6ccdddb3cfe435e9554f503db06ed4d0e9fc0328546998d092b38a52cb64c9b4dcae5ee4b66e5fc6f50b86da75d97b82848ca7fa7094f26ebdebdec"
 
 RPROVIDES:${PN} += "typelib-1-0-Gcr-3 \
 typelib-Gcr"
@@ -16,6 +16,7 @@ typelib-Gcr"
 RDEPENDS:${PN} += "libgcr-base-3.so.1 \
 typelib-1-0-Gck-1 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gck \
 typelib-Gio"

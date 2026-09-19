@@ -14,15 +14,16 @@ content. A special feature of collectbox is used to provide \
 matching environments with the identical names as the macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3asvn64967"
+PV = "2026.226.1.3csvn78101"
 
-RPM_NAME = "texlive-adjustbox-2023.209.1.3asvn64967-55.1.noarch.rpm"
-RPM_HASH = "35c1c094aa6d51a812f6f0e3bd6701eaf6fd3dacbd8ce98c6655d334704733f20b1cff63da8f08424d561c357009f33ecb67bafcc467da21fa3d81ae80ff70ce"
+RPM_NAME = "texlive-adjustbox-2026.226.1.3csvn78101-61.2.noarch.rpm"
+RPM_HASH = "92c6375c66c03da8853cd806111f7d44790b762597384c88dd8ecffada42988a76d4c65182cbfa9234f3b176782b7bd8afa9f651f2a1a54eda6cc87119893c99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-adjcalc.sty \
 tex-adjustbox.sty \
 tex-tc-dvips.def \
+tex-tc-luatex.def \
 tex-tc-pdftex.def \
 tex-tc-pgf.def \
 tex-tc-xetex.def \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "15.2.20200107"
 
-RPM_NAME = "desktop-data-openSUSE-15.2.20200107-2.9.noarch.rpm"
-RPM_HASH = "6f6696d5d3bf19b1ac1c97f23809b61548f63635ab72d837311037cbae8b7d7d35c08629fcf90928bceb6d309ce048fb2a45a998933a3c9ca709c8ff68267c95"
+RPM_NAME = "desktop-data-openSUSE-15.2.20200107-3.2.noarch.rpm"
+RPM_HASH = "759525ff2eb7dae513787753daa0d62ad7541e10abe101abbb8407e9c6fa4cbe1c40638076e4399b1214db36ed487ac8456e1f7f80df7ddb23e7e1ce25344051"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-desktop-data-openSUSE \

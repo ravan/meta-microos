@@ -4,10 +4,10 @@ extensible abstraction for dealing with different spell checking \
 libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.2.15"
+PV = "2.8.19"
 
-RPM_NAME = "enchant-2-backend-nuspell-2.2.15-3.4.aarch64.rpm"
-RPM_HASH = "cf2660f8da802a76acdb3ae84afe62f34552b0ae1f63483af2cc14a0b3ad4bf40cdf18a8766f85be88be705cd5ed0ad331f8397f2a63fcdaa6fc8b2946751b7d"
+RPM_NAME = "enchant-2-backend-nuspell-2.8.19-1.1.aarch64.rpm"
+RPM_HASH = "82cb51ee31878586de6670df8706d7710eaa2e95bd49f420e818c2621043c92b8ec51b1ef2097625d6cda4c0478bdcd6fc2f115984ef8fba362b85f6b4c945d6"
 
 RPROVIDES:${PN} += "enchant-2-backend \
 enchant-2-backend-nuspell"
@@ -17,7 +17,7 @@ libc.so.6 \
 libenchant-2.so.2 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
-libicuuc.so.73 \
+libicuuc.so.78 \
 libnuspell.so.5 \
 libstdc++.so.6"
 

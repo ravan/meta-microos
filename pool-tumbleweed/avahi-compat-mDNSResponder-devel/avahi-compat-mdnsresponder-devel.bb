@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "avahi-compat-mDNSResponder-devel-0.8-23.3.aarch64.rpm"
-RPM_HASH = "33a8a07f81fe5656f6e49f91fed3d6e344df5af8ef242fe48d16196c261b95fb74b7ddd7caff61478085931104f99a68d9bf21d7e5f819c2003cafce6c0cc647"
+RPM_NAME = "avahi-compat-mDNSResponder-devel-0.8-45.2.aarch64.rpm"
+RPM_HASH = "458cd633081792617a9127c6981af3a102ac92b2d8dcda88873e0435137ea707441bc41b0e1d9d9d3f17183bb3dc4ad49da0452e7e6fd9520b6a7a700f437362"
 
 RPROVIDES:${PN} += "avahi-compat-mDNSResponder-devel \
 mDNSResponder-devel \

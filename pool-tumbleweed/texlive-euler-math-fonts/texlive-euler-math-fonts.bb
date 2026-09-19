@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-euler-math"
 DESCRIPTION = "The  separated fonts package for texlive-euler-math"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.31svn65685"
+PV = "2026.226.0.0.75svn77952"
 
-RPM_NAME = "texlive-euler-math-fonts-2023.209.0.0.31svn65685-53.1.noarch.rpm"
-RPM_HASH = "568792ccd1286927c58a50002e79585da3b8569158a0ce1d01dcd262589f5bfd90c2e9378190e7e7faeb2afa0769600ce345c49ad4ab3c680198766972914b0d"
+RPM_NAME = "texlive-euler-math-fonts-2026.226.0.0.75svn77952-59.2.noarch.rpm"
+RPM_HASH = "81c3e09053771bf74fff70d55a2dc09a0c81eb09ef7c7d20e342e2496e7523eabf4ab63fca9de9174a79fad2d18e81610347830b1faf9232e065fe06f3328745"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

@@ -7,10 +7,10 @@ amssymb. This package has to be used with polyglossia and \
 XeLaTeX to produce documents in Arabic."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn55559"
+PV = "2026.226.1.2svn55559"
 
-RPM_NAME = "texlive-na-position-2023.209.1.2svn55559-55.1.noarch.rpm"
-RPM_HASH = "3a6659c176003de9551e6c55aef11bc91467b7e0583985617fb306458d8e1e4f6faa8318f655d94b0eb50f2a9b07003c2abf2f19a36c7109211d2a1de233e2b8"
+RPM_NAME = "texlive-na-position-2026.226.1.2svn55559-61.2.noarch.rpm"
+RPM_HASH = "9d3a167383db7c1d6cb38ca4ad1974ebed86deb9feaa9452e8c034fd5d8e512d6deeddda8a0ab12b431d870b8f6729ad004aa417a62c1bb663f054510b6c9851"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-na-position.sty \

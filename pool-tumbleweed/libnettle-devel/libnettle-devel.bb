@@ -4,10 +4,10 @@ less any context: In crypto toolkits for object-oriented languages (C++, \
 Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel space."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.9.1"
+PV = "3.10.2"
 
-RPM_NAME = "libnettle-devel-3.9.1-2.1.aarch64.rpm"
-RPM_HASH = "abfc174949a0684d1f008d7f3556864b44eee6024682fe16c8ac8966b18e5ea89ca3b342dfff815692e12b7b8fe320013b9c89365834bad9722e972fd9c05335"
+RPM_NAME = "libnettle-devel-3.10.2-1.6.aarch64.rpm"
+RPM_HASH = "4558c64f309a0e67af1c1b10d6820d9e1731b7e7e7ff1755fb40da4683da1655145757b5eea34cac29a1fd76a26c1102f218a7a7b74d5d6a4c6027d32c86b3c3"
 
 RPROVIDES:${PN} += "libnettle-devel \
 pkgconfig-hogweed \

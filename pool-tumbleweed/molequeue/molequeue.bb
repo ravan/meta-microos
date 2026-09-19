@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.0"
 
-RPM_NAME = "molequeue-0.9.0-3.10.aarch64.rpm"
-RPM_HASH = "56cd7bb91308e9fed070ef8a579124f5825b25b24b716c57a298bd7eab8842e145a07c72b4e8b6cfbbddfe18d9ef0956fc2b0070a507cc8325ae0e5f8d2afbf2"
+RPM_NAME = "molequeue-0.9.0-4.3.aarch64.rpm"
+RPM_HASH = "6189d19a196625c19f839a94e67d6311b38df897580bc56a503dfbdb33f1f2e7dd3d7abf8b172132dd1912fca47762987949c273f0cbe563d06c4203ad6dc088"
 
 RPROVIDES:${PN} += "molequeue"
 

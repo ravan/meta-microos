@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.1"
 
-RPM_NAME = "lapdog-1.1-3.9.aarch64.rpm"
-RPM_HASH = "615a72778cb12a6c1b3bf10e33e7680118e81c57beea1f9f309eb0e4fc687d3151c0f8ba92146f1490e38e1f8ce695ba1282d94bb392960a97ad492e0b3547dc"
+RPM_NAME = "lapdog-1.1-4.9.aarch64.rpm"
+RPM_HASH = "1974e543e1f48c4da5917e5a1fbc706f9e094ac1c2c8a27d35c6c6ef249df8abdac589c772b6f934b97924973ab05bef4cda62c4133fecb2c71ccef1f6d638f3"
 
 RPROVIDES:${PN} += "config-lapdog \
 lapdog"

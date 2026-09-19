@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 Network library"
 DESCRIPTION = "Development files for the Qt 6 Network library."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-network-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "c5048cf1f6e9fa96c6a5f231c81be74252a00dbf4862cd4cc4e1a0d722ec3e341b1b96e301e9094f88cb3efce31851dab93aa03990701bedd8b4917b6e7e5e4b"
+RPM_NAME = "qt6-network-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "442e6f70e369f97116f0914b9114e369d8c1eaf4e630c3a6b5db2e2c04059c7ceef8b0ac18e5a4c84653d706e993eb0985f9b2d52fea702f3eb5ee68920ecbf8"
 
 RPROVIDES:${PN} += "cmake-Qt6Network \
 pkgconfig-Qt6Network \

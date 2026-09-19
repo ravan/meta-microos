@@ -3,10 +3,10 @@ DESCRIPTION = "C* Music Player is a small and fast text mode (ncurses-based) mus
 for Unix-like operating systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "cmus-2.10.0-2.1.aarch64.rpm"
-RPM_HASH = "a127a1569fb5c7ee04a6c0e6256673abadc0a80ca7c8eb16478d835e836b560be403c5ae14284c5655cddda382e4781475bc9b22c0e05db2a89a019a2957086e"
+RPM_NAME = "cmus-2.12.0-3.6.aarch64.rpm"
+RPM_HASH = "a6a8a9e1f6cbad1a50e56ad55c23a60d21b25c9cc9b8bf354dce5d65c8775f19ae4db0c5010de5e5ed3ef5001183a200b0ae91dd51557ea55b5b531941f5bc00"
 
 RPROVIDES:${PN} += "cmus \
 config-cmus"

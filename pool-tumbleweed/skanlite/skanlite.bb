@@ -2,28 +2,28 @@ SUMMARY = "Image Scanner Application"
 DESCRIPTION = "Skanlite is an image scanner application by KDE."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "skanlite-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "018d5f497675b8d40f9f1dbab16a4c622b4e90d85c8ad95145140bf43daffebe61940f607c9a30612524f4d4c7d31cf9e6a2fefedcd742d9f0fc6da68dce9050"
+RPM_NAME = "skanlite-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "b1dcc004f2371953bc81aff6cc0dfa963a6d2620233a41849ff3481a95647c32f2f1c7111662bffe65ab348be302d8f953e75378ce7e6226c9dfd15442152474"
 
 RPROVIDES:${PN} += "skanlite"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Sane.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKSaneWidgets6.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

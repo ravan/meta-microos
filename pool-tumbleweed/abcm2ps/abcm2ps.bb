@@ -6,15 +6,14 @@ keyboards and a pedal board. abcm2ps introduces many extensions to the ABC \
 language that make it suitable for classical music."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "8.14.14"
+PV = "8.14.18"
 
-RPM_NAME = "abcm2ps-8.14.14-1.4.aarch64.rpm"
-RPM_HASH = "a71b7c9de0bd6cdb2697d1725ef042e9d32e0fab5c3e739663ced14fe4a1ca40f8cc026732dbcb900283c701678d1b4fd8845eeadeafa2e6a4415e29400326b0"
+RPM_NAME = "abcm2ps-8.14.18-1.4.aarch64.rpm"
+RPM_HASH = "1d94a7f755b4f87aa2dc525d3ef08efe19b192604585c2df9d7afd0bead11ab13d0b6beac9e7bc2b27ba5d3a6581d2d865801251ba0e3270db363b9f910f4ef6"
 
 RPROVIDES:${PN} += "abcm2ps"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libfreetype.so.6 \
 libglib-2.0.so.0 \
 libm.so.6 \

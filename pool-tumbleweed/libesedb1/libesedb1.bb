@@ -4,10 +4,10 @@ format. ESEDB is used in may different applications like Windows Search, \
 Windows Mail, Exchange, Active Directory, etc."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230318"
+PV = "20260704"
 
-RPM_NAME = "libesedb1-20230318-2.1.aarch64.rpm"
-RPM_HASH = "1b7c4c1c252cdda6ce18bc6ce23937fdfdcdb2f730586a6d54c0175694a6bd46d910ebc780bda2ca013245026bfd35223137fd1f3083270cf4e4491f52c4a350"
+RPM_NAME = "libesedb1-20260704-1.2.aarch64.rpm"
+RPM_HASH = "b34ffc0d3fc4a98c227376b06fe7f6b4868ab34aceee4547a398aa15f0e0832dac140d41795c32662417a4c98ab6a432a0b7c1344c3317e5cf18cff02e8060d9"
 
 RPROVIDES:${PN} += "libesedb.so.1 \
 libesedb1"

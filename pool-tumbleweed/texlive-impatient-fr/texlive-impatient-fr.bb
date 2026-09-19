@@ -4,10 +4,10 @@ Plain TeX and Eplain. The book is also available in French and \
 Chinese translations."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.209.2020svn54080"
+PV = "2026.226.2020svn54080"
 
-RPM_NAME = "texlive-impatient-fr-2023.209.2020svn54080-54.1.noarch.rpm"
-RPM_HASH = "0a94f28ebdee4e8c393a801a4239c1d00cd25d2feeb894542806b2f4540f892ff7c215d900393de666e6bc74d0f8682ecca6ea94ae88b81c1a661bed18a07544"
+RPM_NAME = "texlive-impatient-fr-2026.226.2020svn54080-60.2.noarch.rpm"
+RPM_HASH = "72c763d8f90fda91479fdf63f27f0cc5478d9ac2dc01554c09337ec7f1a4a4926712864e1787dc0457330ee9e8970e58e11cd783f95796f73a0fb0eac2c4603d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-impatient-fr"

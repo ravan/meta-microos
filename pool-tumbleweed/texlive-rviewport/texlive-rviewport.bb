@@ -8,16 +8,16 @@ large image on a spread, putting a half on a verso page, and \
 another half on the next recto page. For this one would need a \
 viewport occupying exactly one half of the file's bounding box, \
 whatever the actual width of the image may be. This package \
-adds a new keyword rviewport to the graphicx package \
-specifiying Relative Viewport for graphics inclusion: a window \
-defined by the given fractions of the natural width and height \
-of the image."
+adds a new keyword rviewport to the graphicx package specifying \
+Relative Viewport for graphics inclusion: a window defined by \
+the given fractions of the natural width and height of the \
+image."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn23739"
+PV = "2026.226.1.0svn76924"
 
-RPM_NAME = "texlive-rviewport-2023.209.1.0svn23739-54.1.noarch.rpm"
-RPM_HASH = "0fcc5019d19b7bf74ce05058b2c9592f785f7b3215f36c1dca4c7bcbb2d4f256741235ad149d390e856c9ea54cd71051ba9676d07f2c46d3a9c32abb82ce5540"
+RPM_NAME = "texlive-rviewport-2026.226.1.0svn76924-60.2.noarch.rpm"
+RPM_HASH = "20f6290fa518386eba26e6740d85c974e90260907a103f4a599c691b03371f5508861c7d1ebbdb9f017cfffe8cae88a4c6804f4d724d968ac0f21e1c3b1ac413"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rviewport.sty \

@@ -4,10 +4,10 @@ The core package includes CD burner, archiving, email client links \
 and devices."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-extension-sendto-1.26.1-2.3.aarch64.rpm"
-RPM_HASH = "b2ef9f9e8389be9de8c99e6f01c60b1d3f6614d5313c5521aedceef8a91c80ff10c33effaece183658b5282cd889046ed4084e26c468da900d7fd355e8e105dd"
+RPM_NAME = "caja-extension-sendto-1.28.0-2.11.aarch64.rpm"
+RPM_HASH = "84cf7fa54a6680c7907de3397dcee3c87d95e5449867eda7b52b97997ef382c03b331fcac637b820e824e2f4bf244badad0174154854676886fbe62a273f8867"
 
 RPROVIDES:${PN} += "caja-extension-sendto \
 caja-sendto \

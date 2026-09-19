@@ -2,18 +2,17 @@ SUMMARY = "Development files for pybind11"
 DESCRIPTION = "This package contains files for developing applications using pybind11."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.10.4"
+PV = "3.0.4"
 
-RPM_NAME = "python-pybind11-common-devel-2.10.4-2.2.noarch.rpm"
-RPM_HASH = "1ea10277bc4140a294843a4484d9fb04a811a36adf435505b8e22df15d010dc4155418697e5dc30487d4e25764ac69efd4036f8f02e6279eefdd4fdf85db1bcd"
+RPM_NAME = "python-pybind11-common-devel-3.0.4-1.3.noarch.rpm"
+RPM_HASH = "39970a318bd68c4bd3982c65d5950af07fc83cbe9dbc3ce52b9fced1b37ae39e077521f7b756dd31d10d3d8b94df2e9dea5177c53b4e95e4d60f367f226e274c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake-pybind11 \
 pkgconfig-pybind11 \
 python-pybind11-common-devel \
-python310-pybind11-common-devel \
-python311-pybind11-common-devel \
-python39-pybind11-common-devel"
+python313-pybind11-common-devel \
+python314-pybind11-common-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config"
 

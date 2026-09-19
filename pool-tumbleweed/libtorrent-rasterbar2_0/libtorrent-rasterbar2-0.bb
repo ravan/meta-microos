@@ -5,10 +5,10 @@ It is a library and not a full featured client, although it comes \
 with a working example client."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.9"
+PV = "2.0.14"
 
-RPM_NAME = "libtorrent-rasterbar2_0-2.0.9-1.3.aarch64.rpm"
-RPM_HASH = "e4cfbcd74ba23e2684a0b8a8ec3a08eb72c002d4ff5cc1dff0854a133d9d38457a4b076247209e44ec560dbf3aeda2b8c8cc73dc25980b895b57830eef095e99"
+RPM_NAME = "libtorrent-rasterbar2_0-2.0.14-1.1.aarch64.rpm"
+RPM_HASH = "d008a286be7af5968f7ea070e75367ed8df9c792206fac99b95890053bcedbfc9f305fd9ab41bccd9b551ed78fe21d893fdded53beda27a1afbc8816911af2e3"
 
 RPROVIDES:${PN} += "libtorrent-rasterbar.so.2.0 \
 libtorrent-rasterbar2-0"

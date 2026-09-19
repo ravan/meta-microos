@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-erewhon-math"
 DESCRIPTION = "The  separated fonts package for texlive-erewhon-math"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.56svn65684"
+PV = "2026.226.0.0.73svn78171"
 
-RPM_NAME = "texlive-erewhon-math-fonts-2023.209.0.0.56svn65684-54.2.noarch.rpm"
-RPM_HASH = "3ea729391577fe5f392abebb1d8d740b771dfe1cff1f1bcc74270c8cd68b8f29a3176d35751ab29990a7cbd263c21c83170b4b714ab0c86d03a171a69cd8df8b"
+RPM_NAME = "texlive-erewhon-math-fonts-2026.226.0.0.73svn78171-61.4.noarch.rpm"
+RPM_HASH = "97832d6aafc67313ddb13f63781d816b370cc1cd15cf19d78e600bb77f10076f31883342a98aa77e2238d168e2ae781403fe2e87813dea34214bccf95e0706f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \
@@ -30,7 +31,6 @@ font--lang=uz \
 font--lang=xh \
 font--lang=za \
 font--lang=zu \
-font-erewhon \
 font-erewhonmath \
 texlive-erewhon-math-fonts"
 

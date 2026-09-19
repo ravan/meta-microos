@@ -2,10 +2,10 @@ SUMMARY = "Set of item models extending the Qt model-view framework"
 DESCRIPTION = "KItemModels provides a set of item models extending the Qt model-view framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5ItemModels5-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "4eb041dbb853fd610988b3f6f18c31248498180ff03a5f5a2a85951b86842e62d7c4ddf65543d1428d71efb8246a576806dba83fe6f81e212267885f8fab4291"
+RPM_NAME = "libKF5ItemModels5-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "85d0ba724d8fb7f48057b1be4285d078281970aabc1b67aa11dd57d5c2a4dc8a030c9503dfae9482482be51a0db6a8360b589a7bf83f778f8b9e439b7ee039f0"
 
 RPROVIDES:${PN} += "libKF5ItemModels.so.5 \
 libKF5ItemModels5"

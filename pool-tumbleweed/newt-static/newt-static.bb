@@ -9,10 +9,10 @@ check boxes, radio buttons, labels, plain text fields, scrollbars, \
 etc., to text mode user interfaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.52.23"
+PV = "0.52.25"
 
-RPM_NAME = "newt-static-0.52.23-2.2.aarch64.rpm"
-RPM_HASH = "b3b97140f58d1e09db390b396ca263703641616b9d6d8926025083885dbe0ed12df31f67864ed7b9058738bba049f37fe2ce5d5af9a222c736412e32594cca14"
+RPM_NAME = "newt-static-0.52.25-2.1.aarch64.rpm"
+RPM_HASH = "61f50868afaedbcaa1eed7c0238250da3478be0a21118c645ad26e95c5469debdb750a9fb9412bf7dd1abeea0c389f14505831b17f31ff154a8439337ad36e4b"
 
 RPROVIDES:${PN} += "newt-static"
 

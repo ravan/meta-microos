@@ -10,10 +10,10 @@ This package contains the data for en-US language model to be used by \
 pocketsphinx from python-SpeechRecognition."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.8.1"
+PV = "3.17.0"
 
-RPM_NAME = "python-SpeechRecognition-common-en-US-3.8.1-5.6.noarch.rpm"
-RPM_HASH = "8866e4bc098c69bb74569b75b2db1118fe796f4d37a90f7d36fb5d861bf1cd5d401039336a55833ca045afec15e5a7084d38601ec0158173c18b1a3e6a8df748"
+RPM_NAME = "python-SpeechRecognition-common-en-US-3.17.0-1.1.noarch.rpm"
+RPM_HASH = "d87eb1b9f1671e9273ff6b2ee36ff4c45769c52a8f4244088c3ca7b8b81b0060a2cf354706189b2db9266079209a97f12a2239db5f8bcbec571a207d4b1ebb0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-SpeechRecognition-common-en-US"

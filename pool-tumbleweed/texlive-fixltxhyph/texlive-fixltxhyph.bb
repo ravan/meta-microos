@@ -7,10 +7,10 @@ in the middle of the string. The problem arises in Catalan, \
 French, Italian and Romansh."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn25832"
+PV = "2026.226.0.0.5svn73227"
 
-RPM_NAME = "texlive-fixltxhyph-2023.209.0.0.4svn25832-53.1.noarch.rpm"
-RPM_HASH = "c252991b7b36a886180900f6f01be44bc75a063923c19c7a615f4ee896ebd369041a5e6fbeb7e18d2eb3b77777caa9ad16aafbc1884c28abb04b44de2dc936f5"
+RPM_NAME = "texlive-fixltxhyph-2026.226.0.0.5svn73227-59.2.noarch.rpm"
+RPM_HASH = "a53a0022cc076cf1d384e57e9809b6a1867f78b816f85aed44fb6fae8b8cc40b71712618c168064c25ac0382ee85c3c4018e15fdeb498e71213942f6c18c4f79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fixltxhyph.sty \

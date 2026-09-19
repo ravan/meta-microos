@@ -2,15 +2,15 @@ SUMMARY = "Documentation for texlive-biblatex-gb7714-2015"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-gb7714-2015"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1ksvn64967"
+PV = "2026.226.1.1vsvn75481"
 
-RPM_NAME = "texlive-biblatex-gb7714-2015-doc-2023.209.1.1ksvn64967-54.1.noarch.rpm"
-RPM_HASH = "9fab167be5dc487f6028c0ad9e4210153401808bde13f18bc4b4f3aec6d8de5260876b99d258ca4643070389b5ea1e86c195f9d744c36b9ece68144f56a28239"
+RPM_NAME = "texlive-biblatex-gb7714-2015-doc-2026.226.1.1vsvn75481-61.2.noarch.rpm"
+RPM_HASH = "804d826580f3fb4fbdb202625e042182e1248c1a56693631144f61a2de402065b424fd83c77ca9bd228cdd1be830703eb7596c5c343d74bbd8c03a13fb08b527"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-biblatex-gb7714-2015-doc-zh \
 texlive-biblatex-gb7714-2015-doc"
 
-RDEPENDS:${PN} += "/usr/bin/python3"
+RDEPENDS:${PN} += ""
 
 inherit rpm

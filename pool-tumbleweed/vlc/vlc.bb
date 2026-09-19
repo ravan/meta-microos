@@ -6,10 +6,10 @@ It can also be used as a server to stream in unicast or multicast \
 in IPv4 or IPv6 on a high-bandwidth network."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.0.18"
+PV = "3.0.23"
 
-RPM_NAME = "vlc-3.0.18-9.2.aarch64.rpm"
-RPM_HASH = "f717eb7cb5c6aae6c0eda7cc2d353447afc0480a16af1333b78778b6a4e851956a0c766f6f7a6d3d31c9cc53b5d97ebdc3adafe0c098736d6fb85cb83fc16155"
+RPM_NAME = "vlc-3.0.23-7.12.aarch64.rpm"
+RPM_HASH = "338ecc17e881d3e8b751e2f5f3680be70a209f76b421b2d7adf0fd1d58de14e7204c4f74b1076d6e652e3283390de3c64ee8c48caec6b713a6d7caab17257f3f"
 
 RPROVIDES:${PN} += "libaa-plugin.so \
 libavcodec-plugin.so \
@@ -54,9 +54,9 @@ libXinerama.so.1 \
 libXpm.so.4 \
 libaa.so.1 \
 libass.so.9 \
-libavcodec.so.58.134 \
-libavformat.so.58.76 \
-libavutil.so.56.70 \
+libavcodec.so.62 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libcaca.so.0 \
 libcairo.so.2 \
@@ -75,7 +75,7 @@ libnotify.so.4 \
 libpulse.so.0 \
 librsvg-2.so.2 \
 libstdc++.so.6 \
-libswscale.so.5.9 \
+libswscale.so.9 \
 libva-wayland.so.2 \
 libva.so.2 \
 libvlccore.so.9 \

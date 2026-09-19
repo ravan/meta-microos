@@ -4,10 +4,10 @@ provide a backend to GSettings on platforms that don't already \
 have configuration storage systems."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.40.0"
+PV = "0.49.0"
 
-RPM_NAME = "libdconf1-0.40.0-3.4.aarch64.rpm"
-RPM_HASH = "020cdf5508b0679e2a8414aa993847ac9c4437e2f53121663d1e75e14327227007439e09f76e0cd11e4c3ebbc6a99a2f529ab84d0123ab344aad4c69e0a206da"
+RPM_NAME = "libdconf1-0.49.0-1.5.aarch64.rpm"
+RPM_HASH = "711f30d36e15ecee81778b051ac5812150e8e51f6cbfe8291f554e071128b2444c70069b795136ad35690f1d3580a1de0bab422521bdc39a0b363d6efc99a07b"
 
 RPROVIDES:${PN} += "libdconf.so.1 \
 libdconf1"

@@ -1,42 +1,45 @@
 SUMMARY = "Video player built with Qt/QML on top of libmpv"
-DESCRIPTION = "haruna is a video player built with Qt/QML on top of libmpv."
+DESCRIPTION = "Haruna is a video player built with Qt/QML on top of libmpv."
 LICENSE = "CC-BY-4.0 & GPL-3.0-or-later & WTFPL"
 
-PV = "0.12.1"
+PV = "1.8.1"
 
-RPM_NAME = "haruna-0.12.1-1.1.aarch64.rpm"
-RPM_HASH = "7654633ed6da1e9af415d87b99012628c50a510d156e038111fe4abd350f82ec323e0b811b3f1949f5c16553b9c6eb5dff33a00d3ebe3121977d52511b8fd502"
+RPM_NAME = "haruna-1.8.1-1.6.aarch64.rpm"
+RPM_HASH = "39562e40350b81e48e5866051c3fd6d0e5beb87ff5931a1a6bd3182c794e875bf832c865e84064dfba9edc9e016fa94d9caa71ad4ca63f2adf93e9cc7f5c3557"
 
 RPROVIDES:${PN} += "haruna"
 
-RDEPENDS:${PN} += "breeze5-icons \
+RDEPENDS:${PN} += "kf6-breeze-icons \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5FileMetaData.so.3 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5WindowSystem.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
-libavcodec.so.60 \
-libavfilter.so.9 \
-libavformat.so.60 \
-libavutil.so.58 \
+libKF6ColorScheme.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6FileMetaData.so.3 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Service.so.6 \
+libKF6WindowSystem.so.6 \
+libMpvQt.so.3 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libavcodec.so.61 \
+libavfilter.so.10 \
+libavformat.so.61 \
+libavutil.so.59 \
 libc.so.6 \
-libmpv.so.2 \
+libkdsingleapplication-qt6.so.1.2 \
 libstdc++.so.6 \
-libswscale.so.7 \
+libswscale.so.8 \
 yt-dlp"
 
 inherit rpm

@@ -18,10 +18,10 @@ requires the mfirstuc package. The package supersedes the \
 author's glossary package (which is now obsolete)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.52svn64919"
+PV = "2026.226.4.9svn76800"
 
-RPM_NAME = "texlive-glossaries-2023.209.4.52svn64919-54.2.noarch.rpm"
-RPM_HASH = "12ff81de41be2ec80fa85a3fb8650108f2e0ec16c6565681649ed2bfd504992b47526bd8fac0d571ae1d9b5ebd8591eac8e33ecc8a1dd42441f6806ba21ded62"
+RPM_NAME = "texlive-glossaries-2026.226.4.9svn76800-60.4.noarch.rpm"
+RPM_HASH = "fb8366bc28112d33e0e8394e3f63316e15a48e14b02cd7324043363a9b904419a0f131433e0d14ea11b4670df51545ac1784cd41a118915e83ac8a9080602f03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-example-glossaries-acronym-desc.tex \
@@ -31,6 +31,7 @@ tex-example-glossaries-brief.tex \
 tex-example-glossaries-childmultipar.tex \
 tex-example-glossaries-childnoname.tex \
 tex-example-glossaries-cite.tex \
+tex-example-glossaries-constants.tex \
 tex-example-glossaries-images.tex \
 tex-example-glossaries-long.tex \
 tex-example-glossaries-longchild.tex \
@@ -40,8 +41,12 @@ tex-example-glossaries-symbolnames.tex \
 tex-example-glossaries-symbols.tex \
 tex-example-glossaries-url.tex \
 tex-example-glossaries-user.tex \
+tex-example-glossaries-utf8.tex \
 tex-glossaries-2020-03-19.sty \
 tex-glossaries-2021-11-01.sty \
+tex-glossaries-2022-11-03.sty \
+tex-glossaries-2024-04-03.sty \
+tex-glossaries-2025-03-19.sty \
 tex-glossaries-accsupp-2020-03-19.sty \
 tex-glossaries-accsupp-2021-11-01.sty \
 tex-glossaries-accsupp.sty \
@@ -63,6 +68,7 @@ tex-glossaries-prefix.sty \
 tex-glossaries.sty \
 tex-glossary-hypernav-2020-03-19.sty \
 tex-glossary-hypernav-2021-11-01.sty \
+tex-glossary-hypernav-2022-11-03.sty \
 tex-glossary-hypernav.sty \
 tex-glossary-inline-2020-03-19.sty \
 tex-glossary-inline-2021-11-01.sty \
@@ -81,6 +87,7 @@ tex-glossary-longragged-2021-11-01.sty \
 tex-glossary-longragged.sty \
 tex-glossary-mcols-2020-03-19.sty \
 tex-glossary-mcols-2021-11-01.sty \
+tex-glossary-mcols-2025-03-19.sty \
 tex-glossary-mcols.sty \
 tex-glossary-super-2020-03-19.sty \
 tex-glossary-super-2021-11-01.sty \
@@ -90,6 +97,7 @@ tex-glossary-superragged-2021-11-01.sty \
 tex-glossary-superragged.sty \
 tex-glossary-tree-2020-03-19.sty \
 tex-glossary-tree-2021-11-01.sty \
+tex-glossary-tree-2025-03-19.sty \
 tex-glossary-tree.sty \
 texlive-glossaries"
 

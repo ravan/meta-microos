@@ -1,4 +1,4 @@
-SUMMARY = "The Cache Interface"
+SUMMARY = "The Cache interface"
 DESCRIPTION = "The Cache modules are designed to assist a developer in persisting data for \
 a specified period of time. Often these modules are used in web \
 applications to store data locally to save repeated and redundant expensive \
@@ -10,12 +10,12 @@ to use abstraction of the filesystem or shared memory. \
 The Cache::Cache interface is implemented by classes that support the get, \
 set, remove, size, purge, and clear instance methods and their \
 corresponding static methods for persisting data across method calls."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.08"
+PV = "1.80.0"
 
-RPM_NAME = "perl-Cache-Cache-1.08-1.28.noarch.rpm"
-RPM_HASH = "0a0b6f1ea1a4d7bba0ad9a7df12b7c88f780170642393fe87fa9c3a4bea7d1aa96e0d518a9b06ac53761a97501659663f70566170df6b82d0ce96ff9f0fa74c5"
+RPM_NAME = "perl-Cache-Cache-1.80.0-1.7.noarch.rpm"
+RPM_HASH = "68b36c0b9d4e700a68a68aaee9cd481d74638543349e7e7c33512fda1047553e4336acb1f1ab6994b9dac929c3538c3993faf2dd7a6ee6ad6a3452824a7956a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Cache--BaseCache \
@@ -40,7 +40,7 @@ perl-Cache--SizeAwareMemoryCache \
 perl-Cache--SizeAwareSharedMemoryCache \
 perl-Cache-Cache"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Digest--SHA1 \
 perl-Error \
 perl-IPC--ShareLite"

@@ -4,17 +4,17 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "ghc-csv-devel-0.1.2-4.3.aarch64.rpm"
-RPM_HASH = "1464ab787366dd73d8a90bf627a84e66a46545a9b2787b66d45eb646204b0bd68a3cc0977b56bf0a9f9824fd10674b9743b1042d6734291859afcf979d91fc43"
+RPM_NAME = "ghc-csv-devel-0.1.2-4.19.aarch64.rpm"
+RPM_HASH = "a7fc30759aae9356203a2a462cd2371d61503fc592370bde0e09cbec2dacf631e795001d945f7c1686ee526b4b040ba49fe2e748de29f17126c8592f45ed9338"
 
 RPROVIDES:${PN} += "ghc-csv-devel \
-ghc-devel-csv-0.1.2-D7ZtQLgQlciDV3aF4oWKCf"
+ghc-devel-csv-0.1.2-3wV9bBF7sWG7h8WLMiwYq8"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-csv \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-parsec-3.1.16.1"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-parsec-3.1.18.0-be05"
 
 inherit rpm

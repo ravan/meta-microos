@@ -3,10 +3,10 @@ DESCRIPTION = "Composer is a dependency manager tracking local dependencies of y
 and libraries."
 LICENSE = "MIT"
 
-PV = "2.5.8"
+PV = "2.10.3"
 
-RPM_NAME = "php-composer2-2.5.8-1.1.noarch.rpm"
-RPM_HASH = "0d4e65066b297017b63cd0ecbdc154538cceb2894ac4d3b5c919c85da37c788b1d81547a688bacab30b7361c647eab357a7fbae571b038be745f773b108723f1"
+RPM_NAME = "php-composer2-2.10.3-3.1.noarch.rpm"
+RPM_HASH = "1c680bac49cb6c6fbd0a4dadf31c8e3b57bb43e253d7972b17aa760086b8b2924e3779af903b86d4ca7e8a9f99ae9e25f3f4afd257a7cc1121c5417c70d73092"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "composer \
@@ -14,15 +14,13 @@ php-composer \
 php-composer2 \
 php7-composer"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-php \
+RDEPENDS:${PN} += "php \
 php-curl \
 php-json \
 php-mbstring \
 php-openssl \
 php-phar \
 php-zip \
-php-zlib \
-update-alternatives"
+php-zlib"
 
 inherit rpm

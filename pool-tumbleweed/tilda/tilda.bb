@@ -9,10 +9,10 @@ change the appearance and many options that affect the behavior of Tilda. \
 The screen shots below show some of the options that Tilda provides."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.4"
+PV = "2.0.0"
 
-RPM_NAME = "tilda-1.5.4-1.12.aarch64.rpm"
-RPM_HASH = "a776f44dcbae8790f93f0e8b2bf1fae2208a3795a3e6c7b6091a11b94a8f0968cc4fa52b4f14a9bb9b0ac8710ccaa9113abbc51eb63c34c74a1a18fc401330c4"
+RPM_NAME = "tilda-2.0.0-1.10.aarch64.rpm"
+RPM_HASH = "4c80aaae2e33cce854e0e501dc27c0503b2e12131b530e9a640c4f94eeffa61b444992d26ee89e62f13c50ef29bd19c0d84deff80a124863146b207ca18de458"
 
 RPROVIDES:${PN} += "tilda"
 

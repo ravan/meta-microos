@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.0"
 
-RPM_NAME = "libbitmask1-2.0-29.7.aarch64.rpm"
-RPM_HASH = "39333fc453364026ed39346cde2a7d085542ca84d9d30f47a2c13db0cbee096f4d132e7ff13063e5043df497246c8817f971f0aacd94da254d46cbd6ce2137d1"
+RPM_NAME = "libbitmask1-2.0-29.17.aarch64.rpm"
+RPM_HASH = "47c45dc352f0d5cef0ee25b3b4e297574d98f38bd85e7247e258a3a80f424443072240095e2acef0ec57e32dabf27a65e28fdc9fa254745b8077eca03f4ac2f4"
 
 RPROVIDES:${PN} += "libbitmask.so.1 \
 libbitmask1"

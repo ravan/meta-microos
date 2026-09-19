@@ -5,10 +5,10 @@ functions do. This module is made available for lua script \
 writers to have consistent command line parsing routines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.7.0svn56414"
+PV = "2026.226.0.0.7.0svn56414"
 
-RPM_NAME = "texlive-lua-alt-getopt-2023.208.0.0.7.0svn56414-53.1.noarch.rpm"
-RPM_HASH = "8eb26eda7d22199b9e9ce12e02feba25763dc5db01915dd0183f48e42238b9eb68856176bc63ba88d72cdbb7bc2f354045c6b37bc2d68429df66bf17dee0f092"
+RPM_NAME = "texlive-lua-alt-getopt-2026.226.0.0.7.0svn56414-59.2.noarch.rpm"
+RPM_HASH = "a77550534f220138ff27ea88c34dd59cbf762b425e9c8a28a9e68042e6091ae7ec91b5bd10eaca805646a782dbe15be34516eb73a33460ea485a4e83dc2ede31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-alt-getopt"

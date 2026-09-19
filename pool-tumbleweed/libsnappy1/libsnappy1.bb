@@ -1,4 +1,4 @@
-SUMMARY = "Shared library from snappy"
+SUMMARY = "A compressor/decompressor library favoring time"
 DESCRIPTION = "Snappy is a compression/decompression library. It does not aim for maximum \
 compression, or compatibility with any other compression library; instead, it \
 aims for high speeds and reasonable compression. For instance, compared to \
@@ -11,10 +11,10 @@ mode, Snappy compresses at about 250 MB/sec or more and decompresses at about \
 This package holds the shared library of snappy."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.9"
+PV = "1.2.2"
 
-RPM_NAME = "libsnappy1-1.1.9-2.9.aarch64.rpm"
-RPM_HASH = "0c51e9f9c934f01ec57882612699c687e220d02b1d63bd25e157a88448284414fe53834c359d60adb17637f9f9737c1ae0e5b1e0e83da5035c9928e40fef062d"
+RPM_NAME = "libsnappy1-1.2.2-1.5.aarch64.rpm"
+RPM_HASH = "aa1e4437bf8cbc8c43843fc440e40fa040eed889c761f36a29449efc014026bd03c27c089bd66782de369221f6ddc3dab9633e4285dee2a474c4b7ab83bc7188"
 
 RPROVIDES:${PN} += "libsnappy.so.1 \
 libsnappy1"

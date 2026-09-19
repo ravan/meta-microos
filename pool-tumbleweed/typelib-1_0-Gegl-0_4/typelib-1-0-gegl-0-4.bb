@@ -8,10 +8,10 @@ This package provides the GObject Introspection bindings for the \
 libgegl library."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "0.4.46"
+PV = "0.4.72"
 
-RPM_NAME = "typelib-1_0-Gegl-0_4-0.4.46-1.1.aarch64.rpm"
-RPM_HASH = "d9d9a6ef63637fa865e291a79d9a39895eb4441b0a575de47610739659b18e5b74c90cbde01f0041ef0b44a3145da172f3d0c9ef3de39440ed3e9fe1d47c2c82"
+RPM_NAME = "typelib-1_0-Gegl-0_4-0.4.72-1.1.aarch64.rpm"
+RPM_HASH = "bc6f8f0c60c4e7210f94d986f07d2d88da42033712a5c23646ae63608c8885d74119c66daa454ff2a232e6c071d5f71f246211d8d21584690cf957196229d98f"
 
 RPROVIDES:${PN} += "typelib-1-0-Gegl-0-4 \
 typelib-Gegl"

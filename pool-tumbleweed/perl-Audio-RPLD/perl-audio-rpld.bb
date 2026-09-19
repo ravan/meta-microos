@@ -8,13 +8,13 @@ LICENSE = "GPL-3.0"
 
 PV = "0.007_0.1beta6"
 
-RPM_NAME = "perl-Audio-RPLD-0.007_0.1beta6-1.25.noarch.rpm"
-RPM_HASH = "82cf855253e55afb1c1fb5512103af10c8fc8b666e3b4b1c53c1a6d845a833a1c6a2af34a093580f7c9b9cffa70294a8659d2ffde39fdd88c7ac15e4cad30546"
+RPM_NAME = "perl-Audio-RPLD-0.007_0.1beta6-1.39.noarch.rpm"
+RPM_HASH = "8666141b3d82f84b89914b5060ff49ddf2b77515c705552ba5a3df541322124ee389df65b4afddebabd92f83c1a404e67ca773c8b70384f0abae781440e02d74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Audio--RPLD \
 perl-Audio-RPLD"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

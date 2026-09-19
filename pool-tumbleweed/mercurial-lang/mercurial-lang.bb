@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mercurial"
 DESCRIPTION = "Provides translations for the 'mercurial' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.5.2"
+PV = "7.2.4"
 
-RPM_NAME = "mercurial-lang-6.5.2-1.1.noarch.rpm"
-RPM_HASH = "52b1ccc189a6ce070b042c46b5acca1789ea4dbbaccec233ba15c416cd74c318b775535e9221f6efa7ccd55cc412a0cae79e00e95ada256da2234e2e102bddd7"
+RPM_NAME = "mercurial-lang-7.2.4-1.2.noarch.rpm"
+RPM_HASH = "6051d58a79c13436c6d6e39c1cba4a6f072d53fce85f004e375ea1ebcc2d9940a3be1fc9c1cdaafa696cefe4883f303ae7bd418e9e42837e9daa8b2c3248f771"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mercurial-da \

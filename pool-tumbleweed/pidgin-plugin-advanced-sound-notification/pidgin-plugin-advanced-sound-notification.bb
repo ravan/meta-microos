@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.2.1"
 
-RPM_NAME = "pidgin-plugin-advanced-sound-notification-1.2.1-11.25.aarch64.rpm"
-RPM_HASH = "76973dfbf3fb0f661a6124233d9571dab670b46936d0fdfaf6ebde16e064257e0daac09bae5a8118b8979945284b1ce5d61762843e6c6fec20e25bb7c48c8cb7"
+RPM_NAME = "pidgin-plugin-advanced-sound-notification-1.2.1-11.35.aarch64.rpm"
+RPM_HASH = "7a08fa1ac27ec9c4b4c5ef8bb8fe082a791d49b7ce9d9b44ca2eb2f8b6f361eca4c92615a3dc78ff82a9ee969b2424d1bf45d50a2de29fe04506298e2e7a05e0"
 
 RPROVIDES:${PN} += "pidgin-plugin-advanced-sound-notification"
 

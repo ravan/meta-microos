@@ -10,16 +10,15 @@ and 6. \
 This package contains the development files."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.7.0"
+PV = "3.8.9"
 
-RPM_NAME = "libarchive-devel-3.7.0-1.1.aarch64.rpm"
-RPM_HASH = "734cc910c50a0adbd8144041ce186bb961f21f10be6168cfa10e537b789c3d68e463a7c403f37eccbcb4dbacb694bd1adaa55af1c036c4badaf5c07f1933e578"
+RPM_NAME = "libarchive-devel-3.8.9-1.1.aarch64.rpm"
+RPM_HASH = "be06eceeeb63b79322ed58c2fe23470beea402a6d21e3445fd4021f98254d487c2fce001ff39571bc478c8eacac82a08a37bb743a2b554c1033269cabaa6759d"
 
 RPROVIDES:${PN} += "libarchive-devel \
 pkgconfig-libarchive"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-glibc-devel \
 libarchive13"
 
 inherit rpm

@@ -2,14 +2,15 @@ SUMMARY = "Translations for package vlc"
 DESCRIPTION = "Provides translations for the 'vlc' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.0.18"
+PV = "3.0.23"
 
-RPM_NAME = "vlc-lang-3.0.18-9.2.noarch.rpm"
-RPM_HASH = "5dfaa2aa2a7f65c9f38cf3bc6644ff3e2e49da41e54fec916ae8e248e2cf45b0e49af085e7d45646e8252f423eb1d3456f7fa91510ac99bb95ba3d0515f86976"
+RPM_NAME = "vlc-lang-3.0.23-7.12.noarch.rpm"
+RPM_HASH = "e50721cb6037fbf0791261e380feac0bc0bbefa0f64ea3f3428e013a6f7180c13656922e841e8dff343a47aca411e1b2eeffb70e0bac37d9ee98cb22d635c110"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-vlc-af \
 locale-vlc-ar \
+locale-vlc-as \
 locale-vlc-ast \
 locale-vlc-be \
 locale-vlc-bg \
@@ -25,6 +26,7 @@ locale-vlc-da \
 locale-vlc-de \
 locale-vlc-el \
 locale-vlc-en-GB \
+locale-vlc-eo \
 locale-vlc-es \
 locale-vlc-es-MX \
 locale-vlc-et \
@@ -53,6 +55,7 @@ locale-vlc-ko \
 locale-vlc-lt \
 locale-vlc-lv \
 locale-vlc-mai \
+locale-vlc-mk \
 locale-vlc-ml \
 locale-vlc-mr \
 locale-vlc-ms \

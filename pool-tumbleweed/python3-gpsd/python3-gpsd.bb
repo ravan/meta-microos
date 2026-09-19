@@ -3,16 +3,16 @@ DESCRIPTION = "This package provides python3 modules and tools for the gpsd shar
 You will need to have gpsd installed for it to work."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.25"
+PV = "3.27.5"
 
-RPM_NAME = "python3-gpsd-3.25-1.4.aarch64.rpm"
-RPM_HASH = "d6d09cbd492db95191f04ee9f19cb3f5d4d733ff41d2b1bd4a0364b3eed3e9e06ae347423b50c07b3c015a75f7afbd07812a124647fa5de715535569eec81e4c"
+RPM_NAME = "python3-gpsd-3.27.5-3.2.aarch64.rpm"
+RPM_HASH = "82708f122498171c8f55a8dd98bdbf1985d88a872cb15c40766705e2e18e2b6ef950f2f457054256314e99a6d7cf2bccde380dc951ed5f64953c06bf1d3b86ce"
 
 RPROVIDES:${PN} += "python3-gpsd \
-python3.11dist-gps \
+python3.13dist-gps \
 python3dist-gps"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 gpsd \
 python-abi"
 

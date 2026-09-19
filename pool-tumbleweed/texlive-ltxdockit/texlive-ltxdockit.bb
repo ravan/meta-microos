@@ -9,10 +9,10 @@ parties to compile the documentation of other packages, should \
 that be necessary.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2dsvn21869"
+PV = "2026.226.1.2dsvn21869"
 
-RPM_NAME = "texlive-ltxdockit-2023.208.1.2dsvn21869-53.1.noarch.rpm"
-RPM_HASH = "bd92f0fdb598a0a78b8136d919642c64a06e6effac5573f82191a3a420dee44aa853cf8b7b3f1bfa4906a36f188fd6fa86c020e26f821d003a7c7a91eb61944f"
+RPM_NAME = "texlive-ltxdockit-2026.226.1.2dsvn21869-59.2.noarch.rpm"
+RPM_HASH = "ce7f7b2372de73267e4ed83b106f58253bb3e7f273ce74b2b2885c9bdc14bd2ad501d4eabd1cbe61b7d99a09b7f421d29c5efa999458222ce217c65e4d65b416"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-btxdockit.sty \

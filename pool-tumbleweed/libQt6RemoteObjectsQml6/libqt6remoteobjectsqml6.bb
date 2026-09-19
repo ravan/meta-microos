@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 RemoteObjectsQml library"
 DESCRIPTION = "The Qt 6 RemoteObjectsQml library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6RemoteObjectsQml6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "d328916954c9f37b5420951e6d0574a5dc8d23557c67e278e7305480ec4feee05ff8a035bb1801658772b50551f930ca2edba372d3d2e1245d1277b8ca725aa1"
+RPM_NAME = "libQt6RemoteObjectsQml6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "848809ccc274f8882100c8ded4cafe68bffc2b081931f34ea65f4b51daf1ff061b2debf12e744e1f892426ae8c127385d66af66e4b69c655c07b6a63fdbc8988"
 
 RPROVIDES:${PN} += "libQt6RemoteObjectsQml.so.6 \
 libQt6RemoteObjectsQml6"

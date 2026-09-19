@@ -2,10 +2,10 @@ SUMMARY = "A video wallpaper program for wlroots based wayland compositors"
 DESCRIPTION = "A video wallpaper program for wlroots based wayland compositors."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3"
+PV = "1.9"
 
-RPM_NAME = "mpvpaper-1.3-1.4.aarch64.rpm"
-RPM_HASH = "33c854416392f2f64e30b5f7872f62c7aa37f814da1b7225ba79acbaf0b3b73b4aa4e9aeceed36811b5d50a7010ea4b76b3680130126703a231b22d2314bf511"
+RPM_NAME = "mpvpaper-1.9-1.1.aarch64.rpm"
+RPM_HASH = "ab66c0fa6eb533bd4425ef3e289afdf0c86e86ccfce77d29a03ccf8e9000082b33daf16d01733dd29d35947d10bab0573b975f96dd14cf5aa872059a831faf1f"
 
 RPROVIDES:${PN} += "mpvpaper"
 
@@ -14,6 +14,7 @@ libEGL.so.1 \
 libc.so.6 \
 libmpv.so.2 \
 libwayland-client.so.0 \
+libwayland-egl.so.1 \
 mpv"
 
 inherit rpm

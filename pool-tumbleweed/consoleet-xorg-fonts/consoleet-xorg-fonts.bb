@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-4.0"
 
 PV = "7.6.1"
 
-RPM_NAME = "consoleet-xorg-fonts-7.6.1-1.1.noarch.rpm"
-RPM_HASH = "3e887243d1656b24362f154a94abbcac41880ee99d5603f237349a1699ad27a8223932fa20646829e0f2197b84f46df878bef086bafb8ea6d717b4fee52bcfd7"
+RPM_NAME = "consoleet-xorg-fonts-7.6.1-1.9.noarch.rpm"
+RPM_HASH = "bfd520f7ec5f20c2fd53d6d7061e42a87b17c9955b84d441a894eb0bf8abed9e4a71ed65cd1c06acf722e6e49cf54711d144c75d164df305a3c825366778817e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "consoleet-xorg-fonts"

@@ -13,10 +13,10 @@ command) and to borrow configurations that other users have \
 developed. The present release is designated 'for review'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn27046"
+PV = "2026.226.0.0.1svn27046"
 
-RPM_NAME = "texlive-typeface-2023.209.0.0.1svn27046-53.1.noarch.rpm"
-RPM_HASH = "2e35d3d13982bc802ec231e4a900d3388a802e4ce7cdd3893be0f80abe23a27975f2da1a9c75b8fde6e58dc23eed4fcad2cdc5f2594763165c93f4bb4940a7ec"
+RPM_NAME = "texlive-typeface-2026.226.0.0.1svn27046-59.2.noarch.rpm"
+RPM_HASH = "2fc1b4cf725063eabfad19b40f431ddc76dcd0e570c985fe61dd86448a3ccc5c52c72e8a75c932f0d4b506d0eee156d6a08006849d580315c4ba86181a9aee1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-typeface.cfg \

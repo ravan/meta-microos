@@ -3,10 +3,10 @@ DESCRIPTION = "libsmraw is a library to access the storage media RAW format. \
 The library supports both RAW and split RAW."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230320"
+PV = "20260902"
 
-RPM_NAME = "libsmraw1-20230320-2.1.aarch64.rpm"
-RPM_HASH = "3f9f9ee60a640744e1d78bb667052a04a26d753b6fc88fcaaa73699484595ac7befaf35b1a044907faceda5eeea043829196610ae8db6bceb9db8c3bb9a1128a"
+RPM_NAME = "libsmraw1-20260902-1.1.aarch64.rpm"
+RPM_HASH = "1e9396d0550a314271ae57e45373c4062ea388f6aa029d822721b15472a44dcd0d1ea973c2c5ddda91a9abe924f15c9f77235953061eae9c23f93ee76a84a6f1"
 
 RPROVIDES:${PN} += "libsmraw.so.1 \
 libsmraw1"

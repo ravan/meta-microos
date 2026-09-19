@@ -23,10 +23,10 @@ You can check out all current parse and load results from the \
 yaml-test-suite here: https://perlpunk.github.io/YAML-PP-p5/test-suite.html"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.036"
+PV = "0.40.0"
 
-RPM_NAME = "perl-YAML-PP-0.036-1.3.noarch.rpm"
-RPM_HASH = "f9ceb3c4efbd64bcdb9903069a8ed57cbab5cb204b287ab6179a59c756929fcb5a5937a263866df7e417f08fb6b003230b598d404b0bddc8e717fdb2fa990e93"
+RPM_NAME = "perl-YAML-PP-0.40.0-1.3.noarch.rpm"
+RPM_HASH = "7f5254b36dd4c3500d92540f6956778701a0988455868f65fce3fe105b3fcc577d644cb5c44d2afe015a9b6c6756103cd5b6c1463b32cffb4b4ddcb4c688e366"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-YAML--PP \
@@ -50,6 +50,7 @@ perl-YAML--PP--Render \
 perl-YAML--PP--Representer \
 perl-YAML--PP--Schema \
 perl-YAML--PP--Schema--Binary \
+perl-YAML--PP--Schema--Catchall \
 perl-YAML--PP--Schema--Core \
 perl-YAML--PP--Schema--Failsafe \
 perl-YAML--PP--Schema--Include \
@@ -64,7 +65,7 @@ perl-YAML--PP--Writer--File \
 perl-YAML-PP"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Module--Load"
 
 inherit rpm

@@ -5,10 +5,10 @@ It uses ncurses and our homegrown gnt library for drawing windows \
 and text."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.14.12"
+PV = "2.14.14"
 
-RPM_NAME = "finch-2.14.12-1.4.aarch64.rpm"
-RPM_HASH = "3b110fdc916508e3c7981843a5fb4ec474116776f51d8ddb556115f98706af874c293775c7c51dd7e115a1f7b29fe6b94d63f61429251f6935861933a34e77b9"
+RPM_NAME = "finch-2.14.14-2.3.aarch64.rpm"
+RPM_HASH = "916673bfd124eb5fb2375394bc240cd0a86e1c4049a0b131cf465fd9219f4582cecd1aa0d0b6a3f0b87f84b7eaa0393ca82016310d915e6f83e27d370e7f6b5d"
 
 RPROVIDES:${PN} += "finch"
 

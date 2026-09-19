@@ -2,14 +2,15 @@ SUMMARY = "Severed fonts for texlive-cmcyr"
 DESCRIPTION = "The  separated fonts package for texlive-cmcyr"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn60630"
+PV = "2026.226.svn68681"
 
-RPM_NAME = "texlive-cmcyr-fonts-2023.209.svn60630-54.1.noarch.rpm"
-RPM_HASH = "acc8d91e870c5fd5f4d9218d56c7b5cfd698faf71051b3abf9022c321dc9eeb3c02e613e0313ec5a9778ce2170aee318aacebd3b20a5ca771282cbf817943519"
+RPM_NAME = "texlive-cmcyr-fonts-2026.226.svn68681-60.2.noarch.rpm"
+RPM_HASH = "ff4bd6dbbb01d905cda9539cbc3a4fbc931c8fac9fb237c93008c24e61a697241e33bc130c89900fc498d5dcc2144a02a1dcbda9a109cb1a44de802a705f8cb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=bg \
 font--lang=kum \
+font--lang=mhr \
 font--lang=os \
 font--lang=ru \
 font--lang=sel \

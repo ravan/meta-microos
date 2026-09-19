@@ -2,10 +2,10 @@ SUMMARY = "Hex Editor data files"
 DESCRIPTION = "Data files used by Okteta/libKasten, e.g. structures definitions."
 LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "0.26.13"
+PV = "0.26.28"
 
-RPM_NAME = "okteta-data-0.26.13-1.1.noarch.rpm"
-RPM_HASH = "27010e319cab9b378c000ff84b8850cf876c24b8319baadb417351b07193abec87972cf39f8b7e1f47aa17dbbfc4c73ec1446011ea23f970f692583e49d60d51"
+RPM_NAME = "okteta-data-0.26.28-1.1.noarch.rpm"
+RPM_HASH = "45d310ec62b1db4198287b47b608befae5c02c1141a59a7411a078269958e92aecaf301a0c3b1e644a7363de899e30e01597d6f1368680fe28ed64964e5ccb8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "okteta-data"

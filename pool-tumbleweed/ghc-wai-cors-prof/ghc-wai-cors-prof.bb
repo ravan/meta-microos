@@ -4,21 +4,21 @@ LICENSE = "MIT"
 
 PV = "0.2.7"
 
-RPM_NAME = "ghc-wai-cors-prof-0.2.7-1.5.aarch64.rpm"
-RPM_HASH = "9b3f03bfba3dc6161c410f656a06357d42911b90a3261ee3de24d119d8232ad02823bd45959b773e8cf6f86744282ddbcde75079e7354673f5ec0b0dba0f3acd"
+RPM_NAME = "ghc-wai-cors-prof-0.2.7-1.36.aarch64.rpm"
+RPM_HASH = "046800ba572b1a0bcbcc666c9933ef9cca4c62d834040b33aa44b749adc82ed6dec86fb746f856ecc4f0b55af053dba4e2ec6163322445d9002e554057a8e020"
 
-RPROVIDES:${PN} += "ghc-prof-wai-cors-0.2.7-J2u6IKYmeDEH7p5Hhrx22i \
+RPROVIDES:${PN} += "ghc-prof-wai-cors-0.2.7-2KEC2j0rC3VACXCCYdkSR7 \
 ghc-wai-cors-prof"
 
-RDEPENDS:${PN} += "ghc-prof-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-base-unicode-symbols-0.2.4.2-AsBlETXXS2UHsp6FZL7O0P \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
-ghc-prof-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
+RDEPENDS:${PN} += "ghc-prof-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7 \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-base-unicode-symbols-0.2.4.2-EOprbUpnIOv3U10zkWCZPk \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-case-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC \
+ghc-prof-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-wai-3.2.4-Is1UVC1czjX2cAufnl3tJW \
 ghc-wai-cors-devel"
 
 inherit rpm

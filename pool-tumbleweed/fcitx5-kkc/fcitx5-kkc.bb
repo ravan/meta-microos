@@ -2,10 +2,10 @@ SUMMARY = "Libkkc input method support for Fcitx5"
 DESCRIPTION = "This package provides libkkc input method support for Fcitx5."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.1.0"
+PV = "5.1.9"
 
-RPM_NAME = "fcitx5-kkc-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "561761f4f9991d0bac813d57168acb247aed52728e1e476698626532f31b37f2fa496fa47be736ffa3893ffd0ad11918f087cd545ce3096f60d659a6e7fbc0cc"
+RPM_NAME = "fcitx5-kkc-5.1.9-1.6.aarch64.rpm"
+RPM_HASH = "2def5bf38cb017bc548f067492999b1be1cd2581ddd4f50de2f8564227c985dc87450a44eb048d273f052814a94ab9a06a4bc095ca6d3cb1977a05d10456bc4e"
 
 RPROVIDES:${PN} += "fcitx-kkc \
 fcitx5-kkc \
@@ -16,11 +16,11 @@ kkc-data \
 ld-linux-aarch64.so.1 \
 libFcitx5Config.so.6 \
 libFcitx5Core.so.7 \
-libFcitx5Qt5WidgetsAddons.so.2 \
+libFcitx5Qt6WidgetsAddons.so.2 \
 libFcitx5Utils.so.2 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \

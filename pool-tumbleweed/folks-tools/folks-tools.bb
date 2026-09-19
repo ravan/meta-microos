@@ -6,10 +6,10 @@ This package provides tools based on libfolks, like an importer for Pidgin \
 metacontacts."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.15.6"
+PV = "0.15.12"
 
-RPM_NAME = "folks-tools-0.15.6-1.2.aarch64.rpm"
-RPM_HASH = "d4354972dd287ccb55b1ed5482447ac2d61bcd7fb2ca7a975781400db7bc186170acc0489b91fa16ba59bf0c5089e8342be990f325089261eb34b5ac2bea252f"
+RPM_NAME = "folks-tools-0.15.12-2.4.aarch64.rpm"
+RPM_HASH = "5a4cf34e857c4908700b7dfbcf659cf9e945f75bdf805f60501bd72a21fd43dd4ef90c06152a419630eb4605099cfd1bd2a3280dd1da6808dabb47842920bd05"
 
 RPROVIDES:${PN} += "folks-tools"
 
@@ -20,6 +20,6 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libreadline.so.8 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

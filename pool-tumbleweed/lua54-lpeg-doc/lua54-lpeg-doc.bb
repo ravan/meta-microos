@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "lua54-lpeg-doc-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "080558863c855de177d295c1dce3a4dfa1d4d0efdf0b1dc701668d30c1e2b2f78f11161d19b649ae386d0232377e95263978ab2bff4cc596b41b32b86ec6369d"
+RPM_NAME = "lua54-lpeg-doc-1.1.0-3.4.noarch.rpm"
+RPM_HASH = "bc6248ac57d9808da62cc6d378aebe952dd33c14410702b7ca096712cf2861d297addd553f45f1ddddd95a8025bfd9dbe14de07cb24a3bd8dad0718a93573f1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua54-lpeg-doc"

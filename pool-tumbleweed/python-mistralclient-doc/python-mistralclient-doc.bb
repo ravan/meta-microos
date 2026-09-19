@@ -4,10 +4,10 @@ DESCRIPTION = "Client library for Mistral built on the Mistral API. It provides 
 This package contains the documentation."
 LICENSE = "Apache-2.0"
 
-PV = "4.4.0"
+PV = "6.3.0"
 
-RPM_NAME = "python-mistralclient-doc-4.4.0-2.7.noarch.rpm"
-RPM_HASH = "d34142314642a625f20152db9d7455475d970e4550095863629ee04b5fd369a7106220d0f9d9b2d3223fe7b082ae1693961bf2cf67f6f6cfc270598a9221a1c7"
+RPM_NAME = "python-mistralclient-doc-6.3.0-1.1.noarch.rpm"
+RPM_HASH = "b8912c534933a820236f7cd7fccfff0c3961af18e3fa16583539e50e1b418006d8047c792bdbab9e20fc2a5a39f707ffeb38f3815eb2f55b7a73ee23f3064b74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-mistralclient-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package msitools"
 DESCRIPTION = "Provides translations for the 'msitools' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.102"
+PV = "0.106"
 
-RPM_NAME = "msitools-lang-0.102-1.1.noarch.rpm"
-RPM_HASH = "0d1f72a588d918faf11e56f408470e9e309df81d2507351757c9f105633b263ec5acf77f04a63c9862ef12cf5b6103400a292ae3a86a4cb98ea202fd0cee21d2"
+RPM_NAME = "msitools-lang-0.106-1.7.noarch.rpm"
+RPM_HASH = "8c9846e2d15d3d7dbd8118cdb419cfdc018462abdf94a1764435d1ab5381cec2fd9af934f38af8773f431c3b1a0b5d29902fd3c37a4c17cde1cb9af2454c9299"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-msitools-bs \
@@ -20,6 +20,7 @@ locale-msitools-fi \
 locale-msitools-fr \
 locale-msitools-fur \
 locale-msitools-gl \
+locale-msitools-hi \
 locale-msitools-hr \
 locale-msitools-hu \
 locale-msitools-id \

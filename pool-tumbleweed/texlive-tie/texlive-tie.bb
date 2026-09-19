@@ -5,10 +5,10 @@ be used to create a new version of a .web file that \
 incorporates existing changes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.4svn66186"
+PV = "2026.227.2.4svn77830"
 
-RPM_NAME = "texlive-tie-2023.209.2.4svn66186-55.1.noarch.rpm"
-RPM_HASH = "bb1dd9b1b6247ebbc30c492539c312f6ec4c12875dd11dd07945eb56aed2bb40bf4f6cf5075af423b5090bfe46e38c525d27009702ac9ac9d0e6705658a55b05"
+RPM_NAME = "texlive-tie-2026.227.2.4svn77830-62.2.noarch.rpm"
+RPM_HASH = "9607a60c4503e8b571727662c5d3eb0d0102dc62ea7a0ddb39a6fc2e76ecbb27bb7c6cbed5b42525adba961c85bf7a90b8c5d951325b3da8a08b3e0d0069b2e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-tie.1 \

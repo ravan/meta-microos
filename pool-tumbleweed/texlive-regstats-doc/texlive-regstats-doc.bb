@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-regstats"
 DESCRIPTION = "This package includes the documentation for texlive-regstats"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0hsvn25050"
+PV = "2026.226.1.1bsvn78101"
 
-RPM_NAME = "texlive-regstats-doc-2023.209.1.0hsvn25050-54.2.noarch.rpm"
-RPM_HASH = "f91991e54fd0b8e64f2a89bf8cdb46d3928b35280f777063be5e7f0d40a8ac084d2c8a99ca08750602b69b333dfc2860052a24818b2e89cd30f5f836abdb06b5"
+RPM_NAME = "texlive-regstats-doc-2026.226.1.1bsvn78101-60.4.noarch.rpm"
+RPM_HASH = "114bcc555ebaeaa4cb26561e8946bec757cea33b3ea3eae31e4718c06cc3cfd7e42262df24c12e8b02dee5ebebcad6a404a987264c7745705c9d4e9f23960a5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-regstats-doc"

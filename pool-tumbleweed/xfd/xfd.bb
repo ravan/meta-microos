@@ -4,10 +4,10 @@ displayed, a row of command buttons, several lines of text for displaying \
 character metrics, and a grid containing one glyph per cell."
 LICENSE = "X11"
 
-PV = "1.1.4"
+PV = "1.1.5"
 
-RPM_NAME = "xfd-1.1.4-1.3.aarch64.rpm"
-RPM_HASH = "d786b9bd57e3097c28b1aa4c4119efc69876298a0cc702bbe8830312a9f97c1666799089a605bee33345c9486ec46591dd565ade2984fe9db6fc18a25869afb3"
+RPM_NAME = "xfd-1.1.5-1.4.aarch64.rpm"
+RPM_HASH = "0a05454e0b775cf626140adf3fb13f158f5481b551230db9017a50119942a34ba2ca79d6dac9da2ba32a303819775571d4c982032b614922aa0419d2d54aacee"
 
 RPROVIDES:${PN} += "xfd"
 

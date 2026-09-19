@@ -3,10 +3,10 @@ DESCRIPTION = "This library contains various utility functions to FRRouting, suc
 data types, buffers and socket handling."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "8.4"
+PV = "10.6.1"
 
-RPM_NAME = "libfrr0-8.4-5.1.aarch64.rpm"
-RPM_HASH = "21e16c8cc0b96084f973c67abb013d49fd09c5d9228edba89f42b2f1f9e95330592642a8916598663769e11dc22f4fdf0516d094afcfee1f25bd46937bcdc713"
+RPM_NAME = "libfrr0-10.6.1-1.3.aarch64.rpm"
+RPM_HASH = "32bc97a2d3fc564625dfc72c380b97943807737c3898b4883abc43be7598b5cce11573e6f3af117dc1e2624cc6a44d41db8a2ba30520a543e1339f4b5fef009d"
 
 RPROVIDES:${PN} += "libfrr.so.0 \
 libfrr0"
@@ -17,8 +17,9 @@ libcap.so.2 \
 libcrypt.so.1 \
 libjson-c.so.5 \
 libm.so.6 \
+libpcre2-posix.so.3 \
 libsqlite3.so.0 \
 libunwind.so.8 \
-libyang.so.2"
+libyang.so.3"
 
 inherit rpm

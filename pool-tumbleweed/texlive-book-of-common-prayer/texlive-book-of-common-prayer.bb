@@ -7,10 +7,10 @@ work with the Sabon font, but it is not necessary to run the \
 macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn62240"
+PV = "2026.226.1.1.0svn62240"
 
-RPM_NAME = "texlive-book-of-common-prayer-2023.209.1.1.0svn62240-53.1.noarch.rpm"
-RPM_HASH = "d4cbdaace7398dff204e9d69e54c67edbf629f0ff75d538b3ebb03bbc5b3c731f44996fbf04b9b39ad78ef9a6340e372039135cbea79cac7ced5b521ef2e62ad"
+RPM_NAME = "texlive-book-of-common-prayer-2026.226.1.1.0svn62240-59.2.noarch.rpm"
+RPM_HASH = "c5ceb6eb00742927cd0c27850100b5580028d61d83ce5c2d707155dc8b65b9f69ee76bd25e2f7a21ae19fb4818abe282c4a8f46f0d59559f91b35c6620c15ab0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-book-of-common-prayer.sty \

@@ -9,34 +9,34 @@ to make use of all features and get full support for all file \
 systems."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "partitionmanager-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "f45905250183233e88a0533cbfa330a14eca96882a9fbf0264a3eb9a3f42287e2ab853ea497937a9eacefee1676619bda162c2c18b2b140863ccb5371de5d101"
+RPM_NAME = "partitionmanager-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "fdbc721db35718ab5ae7eca8b1de5e59a0e14a1222ccc3635a23c12c7ed56b0ffc399edce2a0a62f3fbadff354cac145a8f3f497179c81063e29f3a4d3f7eaaa"
 
 RPROVIDES:${PN} += "partitionmanager \
 partitionmanager5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOGui.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6ColorScheme.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libkpmcore.so.12 \
-libpolkit-qt5-core-1.so.1 \
+libkpmcore.so.13 \
+libpolkit-qt6-core-1.so.1 \
 libstdc++.so.6"
 
 inherit rpm

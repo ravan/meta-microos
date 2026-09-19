@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lazylist"
 DESCRIPTION = "This package includes the documentation for texlive-lazylist"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn17691"
+PV = "2026.226.1.0asvn17691"
 
-RPM_NAME = "texlive-lazylist-doc-2023.209.1.0asvn17691-55.1.noarch.rpm"
-RPM_HASH = "a59bf109ab4fa3510dc6313a9a71aa7ed5da419e194b415b3e1bc57dd81d486f5a10a3b33c0f1922cb20607f7b0182dbfb8924a9f221db5ae209db799279e2f6"
+RPM_NAME = "texlive-lazylist-doc-2026.226.1.0asvn17691-61.2.noarch.rpm"
+RPM_HASH = "4d1ad810dc1d87c086997e81a806b75c606419edd05852631f23946198068c547180f0e64c5ef9978b368ccd118d178056bc15db4061d442fd7dbb3526a793d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lazylist-doc"

@@ -9,24 +9,16 @@ See DBI for details on DBI, SQL::Statement for details on SQL::Statement \
 and DBD::File for details on the base class DBD::File."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.60"
+PV = "0.640.0"
 
-RPM_NAME = "perl-DBD-CSV-0.60-1.3.noarch.rpm"
-RPM_HASH = "989162370ef7b2a6b05ee8147d42b8c7e6d583119f5b29f4a599c31c284a6bcaa5ebfe618f07604651a838fe345ffd0a25b34eda05a004fad7359597e2ee6b1a"
+RPM_NAME = "perl-DBD-CSV-0.640.0-1.1.noarch.rpm"
+RPM_HASH = "1a19e30cc5d1af802e24c737dc8f7007b9b6daf0a7d61796b5e8f21de79188a15c6490e0a2aad275732c1b86339f6f0390b07a815bb5defdf2c155cc371e989e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl-Bundle--DBD--CSV \
-perl-DBD--CSV \
-perl-DBD--CSV--GetInfo \
-perl-DBD--CSV--Statement \
-perl-DBD--CSV--Table \
-perl-DBD--CSV--TypeInfo \
-perl-DBD--CSV--db \
-perl-DBD--CSV--dr \
-perl-DBD--CSV--st \
+RPROVIDES:${PN} += "perl-DBD--CSV \
 perl-DBD-CSV"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBD--File \
 perl-DBI \
 perl-SQL--Statement \

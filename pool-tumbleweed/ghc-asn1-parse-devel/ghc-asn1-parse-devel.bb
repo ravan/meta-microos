@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.5"
 
-RPM_NAME = "ghc-asn1-parse-devel-0.9.5-6.4.aarch64.rpm"
-RPM_HASH = "87088fac7a43f0f5134814f5b81bc93feedf92c364b7ba4df9200614b76fd215590abb0ce3013367d8850a3519a2fa45fdac68757485d58291f36a8b03d98e3e"
+RPM_NAME = "ghc-asn1-parse-devel-0.9.5-6.24.aarch64.rpm"
+RPM_HASH = "cff49e10adb77cfaa849dfb68bf9cd2c295eeb6acb5f58bbb7f8ab057d81d5b40a4d926a4f62f5f136cb33f883e9152ee42dc659fc381432724dd1964d660818"
 
 RPROVIDES:${PN} += "ghc-asn1-parse-devel \
-ghc-devel-asn1-parse-0.9.5-BHBxQSMDAmU3iO1lXgL9KG"
+ghc-devel-asn1-parse-0.9.5-C3ZcAfeR9k34dM4BWjZOjb"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-asn1-parse \
 ghc-compiler \
-ghc-devel-asn1-encoding-0.9.6-G74cB7z1f0LBAKbqoDvYt6 \
-ghc-devel-asn1-types-0.3.4-7Qw76BNtuiJIUHv1x3z9in \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1"
+ghc-devel-asn1-encoding-0.9.6-6HoFXCc54fWHW7G1NmR4HI \
+ghc-devel-asn1-types-0.3.4-7PM4xMGOCo5HtpL9dIOMTo \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be"
 
 inherit rpm

@@ -1,15 +1,15 @@
 SUMMARY = "Bibliographies conforming to French typographic standards"
 DESCRIPTION = "The package provides bibliographies (in French) conforming to \
 the rules in 'Guide de la communication ecrite' (Malo, M., \
-Quebec Amerique, 1996. ISBN 978-2-8903-7875-9) The BibTeX \
+Quebec Amerique, 1996. ISBN 978-2-8903-7875-9). The BibTeX \
 styles were generated using custom-bib and they are compatible \
-with natbib"
+with natbib."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn38922"
+PV = "2026.226.2.0asvn76790"
 
-RPM_NAME = "texlive-francais-bst-2023.209.1.1svn38922-53.1.noarch.rpm"
-RPM_HASH = "3f32192d37665b87fe529a4629c645554c4ae25fe5f138a7123f90e9b9629f7ca6a479cd0940a39d73df5d5f958f9fc1aea43e53ca62710f9721baa548e6237b"
+RPM_NAME = "texlive-francais-bst-2026.226.2.0asvn76790-60.2.noarch.rpm"
+RPM_HASH = "4a3e7d5123189ee9fcdf01a11f22ea2ad0bd4c02f3a81204c29548761b3802c22356dfed95d6a550ca259555b47b4c6563b1749e6440cafbaece9a8625f9cf74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-francaisbst.tex \

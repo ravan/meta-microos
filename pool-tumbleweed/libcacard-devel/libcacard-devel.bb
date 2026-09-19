@@ -9,10 +9,10 @@ the cards could be pure software constructs. \
 This sub-package contains development files for the Smartcard library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.8.1"
+PV = "2.8.2"
 
-RPM_NAME = "libcacard-devel-2.8.1-1.8.aarch64.rpm"
-RPM_HASH = "305aad420ae05d4324050fd2a40394f78537d552879a9420f879c25b75134d9d829ce8cc3e6f47a7c9339e103dc88d0f084773b340006c2c4abe1960bea33d5c"
+RPM_NAME = "libcacard-devel-2.8.2-1.3.aarch64.rpm"
+RPM_HASH = "2bdcc361557198d797da797cbbd8f16d35bcde446684718eb3c99353d0e3a5afb7c1396d89a60511bd28a9749ec35aaeeea210363ed8156a64f1223b47b75436"
 
 RPROVIDES:${PN} += "libcacard-devel \
 pkgconfig-libcacard"

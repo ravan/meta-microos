@@ -5,10 +5,10 @@ timing jitter. It depends on a high-resolution time stamp. \
 This package contains the shared library."
 LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
-PV = "3.4.1"
+PV = "3.6.3"
 
-RPM_NAME = "libjitterentropy3-3.4.1-2.2.aarch64.rpm"
-RPM_HASH = "814edc4a5195d46a3480150c23fdc9f4314f3872a296da98a1b5ec28784d8ae45acb1aaac3a0aa4cc2cd1fb42757b10e3ddc00c06c9e5741c1638e29ed90f647"
+RPM_NAME = "libjitterentropy3-3.6.3-1.6.aarch64.rpm"
+RPM_HASH = "aa0c7d3b45d05ee5e6aa1396518825be0d7aaa59cdf8a9bdf5f5a335d5976ddb14e741abe8efa8508d638b305d18f9f6822330a6dab78b3a3ad6419e3cc3c491"
 
 RPROVIDES:${PN} += "libjitterentropy.so.3 \
 libjitterentropy3"

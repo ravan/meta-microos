@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides support for the Cuprum font family (see \
 http://jovanny.ru)."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn49909"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-cuprum-2023.209.svn49909-55.1.noarch.rpm"
-RPM_HASH = "f768ce5d6ba038ee0a99735e51fbfbce44ab6c304b2582ba01c2ed39f62c4be3b23743a73c0b3c433c8bef53aab55e5357ab31714da17c70b9808fed37b10670"
+RPM_NAME = "texlive-cuprum-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "dc24ffa36cfc0c8cb71e686bc81cf14a9e90f98094af75877b3841c2620107695bb490e55b5cde69be0a1e47cefc9fc2006724c77095a167d875027d1baca2d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cprbit8t.tfm \

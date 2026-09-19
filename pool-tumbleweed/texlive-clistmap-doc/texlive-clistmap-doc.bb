@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-clistmap"
 DESCRIPTION = "This package includes the documentation for texlive-clistmap"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn61811"
+PV = "2026.226.1.2svn76924"
 
-RPM_NAME = "texlive-clistmap-doc-2023.209.1.2svn61811-54.1.noarch.rpm"
-RPM_HASH = "9c5416a2b2f4b49961207e8be1a1959c36011b1eb9ae4e66eda8505edb28852ce874b61058ea90bf17619d1c7ced5462961a43cc9ce0123424312fa4f332e3c8"
+RPM_NAME = "texlive-clistmap-doc-2026.226.1.2svn76924-60.2.noarch.rpm"
+RPM_HASH = "d05fe84718e0d010c1d62ab50fa8d851fb80d2e445eb9e058308082991fd7b705dc47c7e23f058c07edc9665d4cd0d014e4e8aadb07478615cce22a6c47a352d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clistmap-doc"

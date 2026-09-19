@@ -3,10 +3,10 @@ DESCRIPTION = "You need this package if you want to compile programs or plugins 
 Qt Virtual Keyboard."
 LICENSE = "GPL-3.0"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtvirtualkeyboard-devel-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "f4ed6ab72bfa1cf6ced315297b3a71711517c9a6c0304576163020dfcaab94d1758c89ad23b1b2525abf77f4ecae20c7f75738d95d8e32f78b4d6a9920240745"
+RPM_NAME = "libqt5-qtvirtualkeyboard-devel-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "a67e8005eedb947e88d01194a0f98c0cf18282abe28a4102283dd4b5543f71f90cc0ae16d8d38f0e243d72375c2f975ff7c3adf4926a24632058dfefc65374a0"
 
 RPROVIDES:${PN} += "cmake-Qt5VirtualKeyboard \
 libqt5-qtvirtualkeyboard-devel \

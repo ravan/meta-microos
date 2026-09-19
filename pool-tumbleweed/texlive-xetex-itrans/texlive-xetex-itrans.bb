@@ -4,10 +4,10 @@ using itrans. Fontspec maps are provided for Devanagari \
 (Sanskrit), for Sanskrit in Kannada and for Kannada itself."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.2svn55475"
+PV = "2026.226.4.2svn55475"
 
-RPM_NAME = "texlive-xetex-itrans-2023.209.4.2svn55475-53.2.noarch.rpm"
-RPM_HASH = "f8d88a61a90de3d782f6328bc585c78cd3762aa627d9425352ac557a4166f5aa9c724a27c4c44e6ee5ed043d5585aa1867a1ded6b805f5532af5debace4a63b1"
+RPM_NAME = "texlive-xetex-itrans-2026.226.4.2svn55475-59.4.noarch.rpm"
+RPM_HASH = "324049dfd106eb66520f6de16fd6e13e4c80d6241d52362b342d2e6053a99e78513fde0ac030e8e55e0e1191db9488b5b0806522f503cb8809fa6dae30080737"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-brh-kan.map \

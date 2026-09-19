@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.3.7"
 
-RPM_NAME = "fluxbox-1.3.7-1.10.aarch64.rpm"
-RPM_HASH = "325cdbcde67385aa7e58fd4c0d04def436d30bd3f68911719db99343f06e0394034504276d0ba0b1f10fc9777976dfcdf6b1775e6795c13cfb2bcc6c4209a306"
+RPM_NAME = "fluxbox-1.3.7-2.10.aarch64.rpm"
+RPM_HASH = "2c84bac9bbab0a477ef24c7f71dda98269a683af581c6b4fa61a00ca8aca4847307c87e085383753b10cef53865f091019eaf9e871a2da70be4f38eb3920d424"
 
 RPROVIDES:${PN} += "fluxbox \
 windowmanager"

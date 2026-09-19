@@ -6,10 +6,10 @@ tableaux are easy, and pgfkeys-enabled options are provided \
 both at package load and configurably."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn59580"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-ytableau-2023.209.1.4svn59580-53.2.noarch.rpm"
-RPM_HASH = "bc7b180dbd636092b35386e3ef08ff04ba6ceec7f751ce778407ed01771a6dd7e74b8900e5fd6891f65a761d9d06efc2fdd5e99b9c6add8cc24cd06c506102cc"
+RPM_NAME = "texlive-ytableau-2026.226.1.4svn77682-59.4.noarch.rpm"
+RPM_HASH = "7202e8b92ad127ae3d69861a63fd78842c8db2821589fc67b07551be2904b2eed574434a4c652c60a8f9980f4ca7d21b72fe41531156b4dfeeba33daeb821918"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ytableau.sty \

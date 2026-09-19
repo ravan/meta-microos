@@ -2,15 +2,16 @@ SUMMARY = "C API for the CoreSight Trace Decode library"
 DESCRIPTION = "C API for the OpenCSD library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.0"
+PV = "1.8.3"
 
-RPM_NAME = "libopencsd_c_api1-1.4.0-1.3.aarch64.rpm"
-RPM_HASH = "21b7deb8352d6409cb882921a6da41cc1c141a55a34b356604b919791dbb225897912f8e77f4507fe6eb363bb53f21625b4cfe116e3eef6f967a847b716ca70c"
+RPM_NAME = "libopencsd_c_api1-1.8.3-1.2.aarch64.rpm"
+RPM_HASH = "0e2b2aede571ea15733164799e7e3d88028d57cf7957e3e825e5424b590200d8ae1cae0bb6c152c52bf3da668e9bb0218681f3450eaa40cd905db02c53a45a25"
 
 RPROVIDES:${PN} += "libopencsd-c-api.so.1 \
 libopencsd-c-api1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libopencsd.so.1 \

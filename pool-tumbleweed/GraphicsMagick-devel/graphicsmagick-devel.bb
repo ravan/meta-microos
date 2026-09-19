@@ -8,10 +8,10 @@ may be used to create animated or transparent .gifs, to composite \
 images, and to create thumbnail images."
 LICENSE = "MIT"
 
-PV = "1.3.40"
+PV = "1.3.48"
 
-RPM_NAME = "GraphicsMagick-devel-1.3.40-5.1.aarch64.rpm"
-RPM_HASH = "b43df7c0cea5bd16606514fb7ad7b559ec953b9511663199831a4b890669345640d02374bccba2f11afe527cd14b040fa0f76698325388fb9025793399c74093"
+RPM_NAME = "GraphicsMagick-devel-1.3.48-2.1.aarch64.rpm"
+RPM_HASH = "e815db4ce8320116cd8fae4312169e8234f35fcf5f1a6ba6678e8c2d0c24a628ac3d0c470eaf58d945fb77885ed9e7cd494544704f5ff430cacbf58e4ea3bce5"
 
 RPROVIDES:${PN} += "GraphicsMagick-devel \
 pkgconfig-GraphicsMagick \

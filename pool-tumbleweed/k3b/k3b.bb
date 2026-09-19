@@ -7,13 +7,12 @@ has the ability to erase re-writeable media, and can perform more \
 complicated tasks such as audiovisual encoding and decoding."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "k3b-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "2d21455df9b50a34d5c81404a104576f0d014534ad470758f2654329772566a69c67ce14d65960b476cf986b82690713b197d3d993a448a694365a17e6de5f6b"
+RPM_NAME = "k3b-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "5f56ac989b11f408569256cf7a85053fb8d3d6f3e64564d3eab6f568ae108881da57a38e34946449a2cc91fe2116502f24652b844c4cdad0f57264803266dafe"
 
 RPROVIDES:${PN} += "k3b \
-kde4-k3b \
 libk3bdevice.so.8 \
 libk3blib.so.8"
 
@@ -23,42 +22,43 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/mkisofs \
 /usr/bin/readcd \
 dvd+rw-tools \
-hicolor-icon-theme \
 lame \
 ld-linux-aarch64.so.1 \
-libFLAC++.so.10 \
-libKF5Archive.so.5 \
-libKF5Bookmarks.so.5 \
-libKF5Cddb.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5FileMetaData.so.3 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KCMUtils.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5NewStuffCore.so.5 \
-libKF5NewStuffWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5NotifyConfig.so.5 \
-libKF5Solid.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
-libavcodec.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
+libFLAC++.so.11 \
+libKCddb6.so.5 \
+libKF6Archive.so.6 \
+libKF6Bookmarks.so.6 \
+libKF6BookmarksWidgets.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6FileMetaData.so.3 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KCMUtilsCore.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6NewStuffWidgets.so.6 \
+libKF6Notifications.so.6 \
+libKF6NotifyConfig.so.6 \
+libKF6Solid.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
+libavcodec.so.62 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libdvdread.so.8 \
 libm.so.6 \
@@ -69,10 +69,10 @@ libogg.so.0 \
 libsamplerate.so.0 \
 libsndfile.so.1 \
 libstdc++.so.6 \
-libtag.so.1 \
+libtag.so.2 \
 libvorbis.so.0 \
 libvorbisenc.so.2 \
 libvorbisfile.so.3 \
-shared-mime-info"
+udisks2"
 
 inherit rpm

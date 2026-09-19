@@ -6,12 +6,13 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.0-or-later | MIT"
 
 PV = "3.2.0"
 
-RPM_NAME = "qore-pgsql-module-3.2.0-2.4.aarch64.rpm"
-RPM_HASH = "c38c5c1f2a4d0c8d7ce4bb84111d6c93fb7fc90386be1226f9686a84c028fa18c9781fa539404aa9f44eb4c1a665b9be8f4a583198f32373a8dc4235386c5045"
+RPM_NAME = "qore-pgsql-module-3.2.0-4.5.aarch64.rpm"
+RPM_HASH = "8c13f9bd53978ed0f4d17b3567391f0fce2a5438e5fb7030aaae2ead3463eaaf2f5744ff8c067a1ed6fc7391f8363d654841464e24898d9a8e36e7356b053a8c"
 
 RPROVIDES:${PN} += "qore-pgsql-module"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/env \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libpq.so.5 \

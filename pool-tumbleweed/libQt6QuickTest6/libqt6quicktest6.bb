@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QuickTest library"
 DESCRIPTION = "The Qt 6 QuickTest library."
 LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6QuickTest6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "eb4d09eb2caadb33e7ac1498efb6cf9cd4e8dc73fa1467a3a1ee421407375fe6f0ad62587e2f0878f923d77c88a7beb094b2bc8f8f77f0f7b0de9bde63e4de6e"
+RPM_NAME = "libQt6QuickTest6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "4ac3e76d3033d0d423df4f3c19aa7b102077861a670664dd10530910b7a8e9a3bc4748ccbf2aa9dc5d54f279f50b0f0e79aa9dbed698a2a7447f98fb64b69433"
 
 RPROVIDES:${PN} += "libQt6QuickTest.so.6 \
 libQt6QuickTest6"

@@ -5,10 +5,10 @@ package has been taken temporarily out of circulation to give \
 the author time to investigate some problems."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn57485"
+PV = "2026.226.2.0svn57485"
 
-RPM_NAME = "texlive-tkz-berge-2023.209.2.0svn57485-53.1.noarch.rpm"
-RPM_HASH = "0bc38371e6adb71c68879c05411dc7266307c937f596e69d5af806f084e85af34dd0a90381c3bcfcda7e0587069e43a785aaac6be0a78dccb718026658219f84"
+RPM_NAME = "texlive-tkz-berge-2026.226.2.0svn57485-59.2.noarch.rpm"
+RPM_HASH = "6b057006efaa02cc2d9a80815c1ba5772089128479020201646e5afe981779459453c5d7034876c5ef4578845d7a3e80a08822a08a90300c40af66c2bb798189"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tkz-berge.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of ptex-fontmaps"
 DESCRIPTION = "Binary files of ptex-fontmaps"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn44206"
+PV = "2026.20260301.svn44206"
 
-RPM_NAME = "texlive-ptex-fontmaps-bin-2023.20230311.svn44206-93.2.aarch64.rpm"
-RPM_HASH = "5841e191f098e92aa2f9087b4cc1f3269c63805d21001695e21b7f108ac39bfab38d8fb7f375739af75ec9b79dcf9f1f0ebaba708cce5315ab5339bcf71a5a51"
+RPM_NAME = "texlive-ptex-fontmaps-bin-2026.20260301.svn44206-120.4.aarch64.rpm"
+RPM_HASH = "1efea2a74448390d6879dd8198f91ab78a98fcfda3638450f1dc9dd5ca0e34bd09ca6dfeb395abf9f8820d120c9b952681dfca2c6ed8d82da1ede35d45481a1a"
 
 RPROVIDES:${PN} += "texlive-ptex-fontmaps-bin"
 

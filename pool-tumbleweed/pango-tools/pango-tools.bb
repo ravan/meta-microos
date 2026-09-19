@@ -6,10 +6,10 @@ is needed. \
 Pango forms the core of text and font handling for GTK+."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.50.14"
+PV = "1.58.2"
 
-RPM_NAME = "pango-tools-1.50.14-1.4.aarch64.rpm"
-RPM_HASH = "91199ae51c83547af5dae01d369c1f47bbd55165702c447b49eada59ea2a12fb8874e34236b23642dca4eddc19215afebf4125068a7d5f3dc8ea0956659bca95"
+RPM_NAME = "pango-tools-1.58.2-1.1.aarch64.rpm"
+RPM_HASH = "1304271663483a0f7ec6d48b00864528ef5a198d70ace84174f148abbf11b5c00415c808276783cc6f224b2a2f1238f15218c8096e86e31073a513b55b0c2aee"
 
 RPROVIDES:${PN} += "pango-tools"
 

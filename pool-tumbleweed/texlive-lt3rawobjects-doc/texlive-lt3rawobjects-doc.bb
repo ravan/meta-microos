@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lt3rawobjects"
 DESCRIPTION = "This package includes the documentation for texlive-lt3rawobjects"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.2.2svn65230"
+PV = "2026.226.2.3svn76924"
 
-RPM_NAME = "texlive-lt3rawobjects-doc-2023.208.2.2svn65230-53.1.noarch.rpm"
-RPM_HASH = "864167769b848ec93496eeee86ce8d0dbe82a4c0e79468cc517a816900682f37cf7af22fa2575e26bc92eeae8c17fbf101700423a323ddda914fdec576c55689"
+RPM_NAME = "texlive-lt3rawobjects-doc-2026.226.2.3svn76924-59.2.noarch.rpm"
+RPM_HASH = "8ac84758e461236b97fc203cfb88451faa314ae0e92d94689bac7f3f9ff64f2fdb94130d55707f25d0ed693e787c7ec14bb2a9a51bc60ced70c71d2f1b626af1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lt3rawobjects-doc"

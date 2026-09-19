@@ -2,10 +2,10 @@ SUMMARY = "Canada datum grids for Proj"
 DESCRIPTION = "Canada datum grids for Proj."
 LICENSE = "BSD-2-Clause & CC0-1.0 & CC-BY-4.0 & CC-BY-SA-4.0 & SUSE-Public-Domain"
 
-PV = "9.2.1"
+PV = "9.8.1"
 
-RPM_NAME = "proj-data-ca-9.2.1-1.1.noarch.rpm"
-RPM_HASH = "99b17819fed621713113ea58bfb042e65603ac82341250e2794733d685ec075ee20652546a5888aad785920d337727815d32f0ee98e186056544eeba0798ea4b"
+RPM_NAME = "proj-data-ca-9.8.1-2.3.noarch.rpm"
+RPM_HASH = "d89cc0bc6588683cd43f0108401dcc39d271ca8b3c6de7ad48ddcda82b1d2796f9370aafe64b5f9089db69d5d2b290266e0acec7fa6ca76fb75694eb7e3b324d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "proj-data-ca"

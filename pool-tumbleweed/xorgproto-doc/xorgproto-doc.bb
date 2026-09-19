@@ -2,10 +2,10 @@ SUMMARY = "The X11 Protocol collection (documentation)"
 DESCRIPTION = "Documentation for X11 protocol headers."
 LICENSE = "MIT"
 
-PV = "2023.2"
+PV = "2025.1"
 
-RPM_NAME = "xorgproto-doc-2023.2-1.1.noarch.rpm"
-RPM_HASH = "ef4423c9ba4d1e7adb929c7e5257ca493b233b8ff776fc9ded0f528271c7153e1e8a09799f91b4b7fe9bd414d8297ff0c10be22afb13b34f0dc5b891a1960ae7"
+RPM_NAME = "xorgproto-doc-2025.1-1.3.noarch.rpm"
+RPM_HASH = "998de8fbb2132ec30b983b28f72f8261a515017f604a85027c8e238ca991bd613e10647b46139cf965764cc57d7f25fdbff25240ed4ccd4037b525aae278fae0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorgproto-doc"

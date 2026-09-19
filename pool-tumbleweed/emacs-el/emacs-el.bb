@@ -3,14 +3,19 @@ DESCRIPTION = "Several Lisp files not needed for running GNU Emacs. Most of thes
 files are pre-byte compiled and therefore not necessary."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "29.1"
+PV = "31.1"
 
-RPM_NAME = "emacs-el-29.1-3.1.noarch.rpm"
-RPM_HASH = "2ecb60421bdffb2bd0e2237edc40708d36add85d07eb0ef9b1b37fdfeb6ec8cae1246c3a67ba8eb1d9f2150b22b40b60f202c70e3ecf279336acaff75ed55957"
+RPM_NAME = "emacs-el-31.1-3.1.noarch.rpm"
+RPM_HASH = "77001730b88716f7c54e1a5952048460ae453fb21f7f8cf99d2570890335e458c5915a931e840e4d937c9cf9e9c7c0f9b06aab180f31131985301a2c70d5f236"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-devel \
-emacs-el"
+emacs-el \
+rpm-macro--emacs-archsitelispdir \
+rpm-macro--emacs-etcdir \
+rpm-macro--emacs-sitelispdir \
+rpm-macro--emacs-sitestartdir \
+rpm-macro-emacs-addto-load-path"
 
 RDEPENDS:${PN} += "emacs"
 

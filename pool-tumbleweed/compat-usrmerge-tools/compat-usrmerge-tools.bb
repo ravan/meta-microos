@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "84.87"
 
-RPM_NAME = "compat-usrmerge-tools-84.87-5.16.aarch64.rpm"
-RPM_HASH = "577f4ccdac6ab88e93e60ca20808aa46bc4bfe1c86ee1d585caefa3cfac0f07526d0cf2fcd49139b620b44e68f6b9f6e0db5ef43073a2288c9931715f4d7f0c1"
+RPM_NAME = "compat-usrmerge-tools-84.87-5.29.aarch64.rpm"
+RPM_HASH = "da5f6ef4ef0fa3d8183734a5d303d5810a9682cce4f7af5a6ca3beba5df06ad5b73c1c686ea77a29fcd593667c2e2200c7cf351d1eb74bac23c8bab979be25f5"
 
 RPROVIDES:${PN} += "compat-usrmerge-tools"
 

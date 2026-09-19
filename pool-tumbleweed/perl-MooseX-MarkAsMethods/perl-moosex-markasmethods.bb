@@ -14,15 +14,15 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.15"
 
-RPM_NAME = "perl-MooseX-MarkAsMethods-0.15-5.27.noarch.rpm"
-RPM_HASH = "d40f1bfae8bc1126446bf00368dd28d22f231f9b75770c04adccd936fbb8b636db594a0447a0eaae9b4c6d09171857b5399fa47dee7a38a84f2272dfaa3e828a"
+RPM_NAME = "perl-MooseX-MarkAsMethods-0.15-5.41.noarch.rpm"
+RPM_HASH = "28ed0022d8150917e5369d125d74b80fe340eb39d0fb605e4da659bd904ddb6f03d059a3437076e2de3e8ec569a7c15e396a53554174db418922869e707ff7eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--MarkAsMethods \
 perl-MooseX--MarkAsMethods--MetaRole--MethodMarker \
 perl-MooseX-MarkAsMethods"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-B--Hooks--EndOfScope \
 perl-Moose \
 perl-Moose--Exporter \

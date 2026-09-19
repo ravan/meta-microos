@@ -4,15 +4,17 @@ Charybdis server and has good documentation and ease of configuration. \
 It is used by Libera, the largest (as of 2023) IRC network in the world."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0~ch634"
+PV = "0~ch670"
 
-RPM_NAME = "solanum-0~ch634-1.1.aarch64.rpm"
-RPM_HASH = "b7a2bdee462d7abbdccdd9d679f163aaf0071a4c6ae84096a206e7cd6821a57f539b9cc902e2ab07e458a7dfe07f66649f6bc94f23e4feaaa97eaef7a5f19665"
+RPM_NAME = "solanum-0~ch670-1.5.aarch64.rpm"
+RPM_HASH = "898d1ebce20d7ae4b74e721e4b7c0c11e0c8df33bb9cdb21dd6c664fbe828a6d5d8bc2d574cb62f8208ffe5d4f725fbeb425f7effec3775393a9aa7295d40814"
 
 RPROVIDES:${PN} += "config-solanum \
+group-solanum \
 libircd.so \
 librb.so \
-solanum"
+solanum \
+user-solanum"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
@@ -21,6 +23,6 @@ libcrypto.so.3 \
 libltdl.so.7 \
 libsqlite3.so.0 \
 libssl.so.3 \
-shadow"
+sysuser-shadow"
 
 inherit rpm

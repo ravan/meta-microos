@@ -2,10 +2,10 @@ SUMMARY = "Task Switcher"
 DESCRIPTION = "alttab is a X11 window switcher designed for minimalistic window managers or standalone X11 session."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.7.1"
+PV = "1.8.0"
 
-RPM_NAME = "alttab-1.7.1-1.1.aarch64.rpm"
-RPM_HASH = "e5235447bc72e9ec668c35f764ce894f9e51f36a8cff3e7661cda79bc56f08c15d78c2c4a9bc101c8afbb55780fd5f332c827785349261501cd186062195dce5"
+RPM_NAME = "alttab-1.8.0-1.3.aarch64.rpm"
+RPM_HASH = "06aa41d018ab0609baafda44beaadea73b59139916e4ae1669bbaea320fc4eae02050bd98cda4f167f9717df89e62cbb19fb7384df4ad95657e90a967b06983e"
 
 RPROVIDES:${PN} += "alttab"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pseudocode"
 DESCRIPTION = "This package includes the documentation for texlive-pseudocode"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54080"
+PV = "2026.226.svn54080"
 
-RPM_NAME = "texlive-pseudocode-doc-2023.209.svn54080-53.1.noarch.rpm"
-RPM_HASH = "f78be7b82de6d859cf388080a8b504f41806cc55e498f563023635574b9e34974617f0041abad4e8dd5ae9d758c2bee27c397c7c4b2a88041eaf44df35231b1e"
+RPM_NAME = "texlive-pseudocode-doc-2026.226.svn54080-59.2.noarch.rpm"
+RPM_HASH = "d1866358c5959bb9f125abf826adf1b91af8aca958726d5ada95be5b37346465341f8e3348f54fdaf7ac6cb1fe91d377afd75bab47e5e197e607f801d1867879"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pseudocode-doc"

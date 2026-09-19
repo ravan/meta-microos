@@ -7,12 +7,12 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
 PV = "1.4.5"
 
-RPM_NAME = "python3-pwquality-1.4.5-1.3.aarch64.rpm"
-RPM_HASH = "3d28fd4973b6f0c879ce3ca5324fcebfa484f032cc34c19392117db66b7cbd47d8723f4435b545a6bd3711d9e3a1a074a26376a6642a78d0f0463814d5810120"
+RPM_NAME = "python3-pwquality-1.4.5-5.9.aarch64.rpm"
+RPM_HASH = "a3dc0c1645e363c7da0f1771987dc4247dcd1d11c050c27879388b33ace6dba510fe1b38a6968dade031f047d14121c84a6e838e029c591ace0847b6306391fd"
 
 RPROVIDES:${PN} += "python-pwquality \
 python3-pwquality \
-python3.11dist-pwquality \
+python3.13dist-pwquality \
 python3dist-pwquality"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

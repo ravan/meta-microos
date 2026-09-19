@@ -11,8 +11,8 @@ LICENSE = "AGPL-3.0-or-later & CC-BY-SA-3.0"
 
 PV = "3.7.0.10"
 
-RPM_NAME = "povray-3.7.0.10-1.10.aarch64.rpm"
-RPM_HASH = "f435da8eb40c90e78263cba557e2310e2d24dfe689d18c96c2d486f25fb038398a7d7cb1526d478ddcad6d67c4260094b75a75778ec1c39a4607ebb5d6209428"
+RPM_NAME = "povray-3.7.0.10-4.12.aarch64.rpm"
+RPM_HASH = "63952f66989f2d2c9d6120514dd7139abce7592e473c9d7256376313c46bb3d3ec32f76cfc91a7f915efd0fa8ade4c551ab5169d4ae025e8675fe744cdb6f57f"
 
 RPROVIDES:${PN} += "config-povray \
 povray"
@@ -20,10 +20,10 @@ povray"
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libImath-3-1.so.29 \
-libOpenEXR-3-1.so.30 \
+libImath-3-2.so.30 \
+libOpenEXR-3-4.so.33 \
 libSDL-1.2.so.0 \
-libboost-thread.so.1.82.0 \
+libboost-thread.so.1.91.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libjpeg.so.8 \

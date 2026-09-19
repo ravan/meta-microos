@@ -6,10 +6,10 @@ configuration files, reading and writingof XML files, and interprocess \
 communication)."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.10.1"
+PV = "5.14.1"
 
-RPM_NAME = "gwenhywfar-5.10.1-1.5.aarch64.rpm"
-RPM_HASH = "deec7e05d0e1b339fd16421314c61566c37cbabe10ebeb2b28adfd782910e4266315d76d1c6ee16e3dff287f795acd3edfbedca62ed289c2ce2191a08a0deace"
+RPM_NAME = "gwenhywfar-5.14.1-1.3.aarch64.rpm"
+RPM_HASH = "441a8be479b255ed9934df34bbb497eb9f72d8ed693fb9088fc7ed4312957b19cf5d0d39ef3dd0f35a5db3353df6e28f2db4455a95deffbb47cef58ae36d42ac"
 
 RPROVIDES:${PN} += "gwenhywfar"
 

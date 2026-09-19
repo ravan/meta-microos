@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "libnetfilter_log1-1.0.2-1.7.aarch64.rpm"
-RPM_HASH = "0439f6634f4b7e349f1d45b72bc5db160841eb35be380b15525000e6d2322937c654fe9e28fe669a4e96a5ad590216ce9f5cb70676737d09fa20b027b273868f"
+RPM_NAME = "libnetfilter_log1-1.0.2-1.16.aarch64.rpm"
+RPM_HASH = "af8d5864bcf06297b45e17eddf14e0f17d600cef15c4e8d19caee729373a782cefc676e5b26a2140c5f832db32a127b095157fd1dfc2303e4b52b16360e3afd2"
 
 RPROVIDES:${PN} += "libnetfilter-log-libipulog.so.1 \
 libnetfilter-log.so.1 \

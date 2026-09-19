@@ -13,14 +13,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.11"
 
-RPM_NAME = "perl-DateTime-Format-SQLite-0.11-3.27.noarch.rpm"
-RPM_HASH = "e1e3606d1848342407c757fd365f45b025398610d7105a066c7f8b1b642b59c3b1253bfc870d8b691e98985398f3965752c2b6948c0d3aac76303416c80ce23c"
+RPM_NAME = "perl-DateTime-Format-SQLite-0.11-3.41.noarch.rpm"
+RPM_HASH = "22e7961e35acb9e2b5dd83b9c594e92908de81cf053514bfae9d587919166b0753ee1e5891328548fbe8eab1e5d0a53a1b8136f69d8f27f13b86d9fb42255348"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--SQLite \
 perl-DateTime-Format-SQLite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DateTime \
 perl-DateTime--Format--Builder"
 

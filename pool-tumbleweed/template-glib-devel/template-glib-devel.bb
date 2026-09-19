@@ -6,17 +6,18 @@ safe to use from any GObject-Introspectable language. \
 This package provides the development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.36.1"
+PV = "3.40.0"
 
-RPM_NAME = "template-glib-devel-3.36.1-1.4.aarch64.rpm"
-RPM_HASH = "d03e126a6b640f1deaff9ff1c310545494482e8f298dabe5251e2169e8601910c1708377c55614c499cae1c157f697cb7e2a14ca7f5750d21b40984a5eb2adb9"
+RPM_NAME = "template-glib-devel-3.40.0-1.4.aarch64.rpm"
+RPM_HASH = "f5c8643ed3fc338ebc5a23e2fa4c2f737234a617b2ab8362999ab97f16a750ece78dba6ab2ea51a7003f478b408edac3a1fe27978c159d9662faebfa303c991e"
 
 RPROVIDES:${PN} += "pkgconfig-template-glib-1.0 \
 template-glib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libtemplate-glib-1-0-0 \
 pkgconfig-gio-2.0 \
-pkgconfig-gobject-introspection-1.0 \
+pkgconfig-girepository-2.0 \
 typelib-1-0-Template-1-0"
 
 inherit rpm

@@ -5,10 +5,10 @@ TeX. It allows, for example, translation of multibyte \
 sequences, such as utf-8 encoding."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn34957"
+PV = "2026.226.svn34957"
 
-RPM_NAME = "texlive-enctex-2023.209.svn34957-54.2.noarch.rpm"
-RPM_HASH = "f3ab4ad785ca6436fe12b896d5cad542f2c8c75166bbecd14d5e0b5c3367f5f136a8908a5ab4a14c5242f0e604df092ede35a54dd9e41d48f090d6f7a13b93fd"
+RPM_NAME = "texlive-enctex-2026.226.svn34957-61.4.noarch.rpm"
+RPM_HASH = "11cf68b1954d267a4ff343d5bf4f0befc040c70c03436519ef6209056e591d4a6d523aa0a87fbaa52de270c07a5e6f8f7544254c9b91e9cfc5fe2f3eeab9e182"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-1250-csf.tex \

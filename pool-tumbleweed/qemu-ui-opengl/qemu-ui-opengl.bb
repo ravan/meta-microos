@@ -2,10 +2,10 @@ SUMMARY = "OpenGL based UI support for QEMU"
 DESCRIPTION = "This package contains a module for doing OpenGL based UI for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-ui-opengl-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "0b5fea2e546be5da79bff075bdb0ea89e27fead44eaf061354fed366a33705ef2039488b24093570f9d4fb2601d5cf65ea0db830316e199fb363e5ca4c7e22ad"
+RPM_NAME = "qemu-ui-opengl-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "340918691e88fd9f98fc241fb8ad0b0356156b5696fc7af591469afd0d22b248ac06f8acb4e41241ed07086ecc108b4c44be14d33a1ba8208e620bd84c87283b"
 
 RPROVIDES:${PN} += "qemu-ui-opengl"
 

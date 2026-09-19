@@ -14,10 +14,10 @@ arithmetic or in the greek archaic period. It could be used \
 with greektonoi mapping or indepedently."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.svn39419"
+PV = "2026.226.svn39419"
 
-RPM_NAME = "texlive-greektonoi-2023.209.svn39419-54.2.noarch.rpm"
-RPM_HASH = "bc66c8b316eb6c339649bac705ef557397f1713f769c12cd4e5b68f9d476b4b12b349a36e3fb9bcbfa714b002430d93987e78902c2dd9c9bc432beb8b130410c"
+RPM_NAME = "texlive-greektonoi-2026.226.svn39419-60.4.noarch.rpm"
+RPM_HASH = "637d3a6a104c83e2d0d996b7940832ae54a7048c8ad39881fd81e3649088d1d56b57c91fc9ab95a1b5cd9f1e854c92bbf5b998e2bb894d433396afd8d60c2bac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-greektonoi.map \

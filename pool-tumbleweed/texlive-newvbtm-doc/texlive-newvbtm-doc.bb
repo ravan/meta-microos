@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-newvbtm"
 DESCRIPTION = "This package includes the documentation for texlive-newvbtm"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn23996"
+PV = "2026.226.1.1svn23996"
 
-RPM_NAME = "texlive-newvbtm-doc-2023.209.1.1svn23996-55.1.noarch.rpm"
-RPM_HASH = "904411f89d3d02470ebb180e7965444948e436349956c64e76a79baf1f53b1e8dd686449a0744f8cb6d88131b276a849c72f8e7f4e29251153368ff439e126b6"
+RPM_NAME = "texlive-newvbtm-doc-2026.226.1.1svn23996-61.2.noarch.rpm"
+RPM_HASH = "76340b2c405c06ff77a84806168e1ff28fb3066e0ed26e38ed9b1ef4090368b0eeb87d27d8dd9b48cb6d9e8bba3fefddf96e605d2c0d6b9735e65ec4eabd5736"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newvbtm-doc"

@@ -4,10 +4,10 @@ CD jewel cases, or an entire paper cover, or a label for a \
 plastic slip-cover."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0svn17121"
+PV = "2026.226.1.0svn17121"
 
-RPM_NAME = "texlive-cd-cover-2023.209.1.0svn17121-53.1.noarch.rpm"
-RPM_HASH = "068650d94406b5cfa55411fe92d7f4eef2eebaaa4c70e4c21c27328dddf8c5eb3a932465284c0c4f001d34072de1fa0e76f40f043dc5c4fe50c77f8f21c22b75"
+RPM_NAME = "texlive-cd-cover-2026.226.1.0svn17121-59.2.noarch.rpm"
+RPM_HASH = "12530b4dbeac7138d1e3cd1b8e4c7318efe30808f5bce2b641e5ebdb38d4cc24651a09c7c8cd7c8f0282c0f6628646a72b9f1426ad3a2f284e1f6135113e02cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cd-cover.cls \

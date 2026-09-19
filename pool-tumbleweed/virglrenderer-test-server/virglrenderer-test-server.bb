@@ -5,10 +5,10 @@ This package contains a server to test virgl rendering \
 without GL."
 LICENSE = "MIT"
 
-PV = "0.9.1"
+PV = "1.3.0"
 
-RPM_NAME = "virglrenderer-test-server-0.9.1-3.8.aarch64.rpm"
-RPM_HASH = "4e31abc0a7faa9512d620f19955e028ef4bc44b6a2b3327dc372fe3ff3be579088e37423a8d02c8906a588c988e666110e406a324e30ccbd1754195c720c1e44"
+RPM_NAME = "virglrenderer-test-server-1.3.0-1.4.aarch64.rpm"
+RPM_HASH = "4a4473cd85fb65c238a9766c9efd1ed5a3a46a70c3f8fd93189ce97135c1c220dbd2a7ab6ae9ee4c25e133a1e31a34a2e6bebd9be78438951bf47ae0a539c93f"
 
 RPROVIDES:${PN} += "virglrenderer-test-server"
 

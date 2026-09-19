@@ -25,16 +25,17 @@ It can also be used as a replacement for Test::Warn, if you wish to test \
 the content of expected warnings; read on to find out how."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.031"
+PV = "0.38.0"
 
-RPM_NAME = "perl-Test-Warnings-0.031-1.11.noarch.rpm"
-RPM_HASH = "1c2bc0ab9495eea21950bf672df6fffbfce4a2b5c927c309a83cc206f78bbfedc31c3bcfb5acb46e40e18adb9fbbf4f5753384e26286fb4dd6ffd52c1f462f96"
+RPM_NAME = "perl-Test-Warnings-0.38.0-1.10.noarch.rpm"
+RPM_HASH = "8169703e059beed2c070f746c0e864b151798176aa8c81a72194f60a5007a35115bc09a7f8286d09d6f7faf2236d2bd7992b7df50b681a0ebb522a83d01b2076"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Warnings \
-perl-Test-Warnings"
+perl-Test-Warnings \
+perl-Test2--Warnings"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-parent"
 
 inherit rpm

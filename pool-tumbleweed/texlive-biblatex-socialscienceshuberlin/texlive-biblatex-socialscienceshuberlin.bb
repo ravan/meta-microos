@@ -3,10 +3,10 @@ DESCRIPTION = "This is a BibLaTeX style for the social sciences at the \
 Humboldt-Universitat zu Berlin."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.1svn47839"
+PV = "2026.226.0.0.0.1svn76790"
 
-RPM_NAME = "texlive-biblatex-socialscienceshuberlin-2023.209.0.0.0.1svn47839-54.1.noarch.rpm"
-RPM_HASH = "b055ad9e898a9039ae4dc6bf3374c74482395ea724b5edd2e417c6427c518a23b52a14fdacd5a4d982ce36e0df9ece4fad5764498db374255ba8a49ad52d06d1"
+RPM_NAME = "texlive-biblatex-socialscienceshuberlin-2026.226.0.0.0.1svn76790-61.2.noarch.rpm"
+RPM_HASH = "37e4c49437e31e0b490e3db937975718b2707d1ac30a3b9558bc4a3cc2126ea385313e528af1f8de71144cf5fd23d1d11ef40f09510feb831915839e278a33e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-german-socialscienceshuberlin.lbx \

@@ -16,10 +16,10 @@ gifdiff compares two GIFs for identical visual \
 appearance."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.94"
+PV = "1.96"
 
-RPM_NAME = "gifsicle-1.94-1.1.aarch64.rpm"
-RPM_HASH = "0279fc6a34d854a393bdd5392ca28cb902ba8ff56c8ac8148c36e223d5a1c37bf83360d35eabafb78a991218985e146325858cf18d465556f12f7c3b987092a2"
+RPM_NAME = "gifsicle-1.96-1.8.aarch64.rpm"
+RPM_HASH = "3edf142daa94160380e067b9259b4f2af8425f52bc9eacea3d0eb2e4455c63562f0ec009aa26730e42ea71cf15f6bc8b7f18b48e4cd7bda73bfd2c9453b15c08"
 
 RPROVIDES:${PN} += "gifsicle \
 ungifsicle"

@@ -6,10 +6,10 @@ This package contains the development headers for the library found \
 in libXdamage1."
 LICENSE = "MIT"
 
-PV = "1.1.6"
+PV = "1.1.7"
 
-RPM_NAME = "libXdamage-devel-1.1.6-1.2.aarch64.rpm"
-RPM_HASH = "3cf994c1169d1953ef7bbbddbfe8c9dcb686e3001fc1934977e9aaeaba041326a1e803bec6896b305a0394b9f5f1bc4420e55f8ed30971be9adf186247aa1e1a"
+RPM_NAME = "libXdamage-devel-1.1.7-1.4.aarch64.rpm"
+RPM_HASH = "de719c293ecd3e046c30dcf0d7476f9324e11892ac8cd4df9b09604010d7eecd05fed839fca29a1af2dfd0d9d6a21dc9ebca4ed76aeca275bdfefbcca468ab46"
 
 RPROVIDES:${PN} += "libXdamage-devel \
 pkgconfig-xdamage"
@@ -17,7 +17,9 @@ pkgconfig-xdamage"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXdamage1 \
 pkgconfig-damageproto \
+pkgconfig-fixesproto \
 pkgconfig-x11 \
+pkgconfig-xextproto \
 pkgconfig-xfixes \
 pkgconfig-xproto"
 

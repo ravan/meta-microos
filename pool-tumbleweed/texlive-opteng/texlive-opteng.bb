@@ -7,10 +7,10 @@ this is particularly important for the latter. The template \
 gives simple instructions on how to prepare the manuscript."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn27331"
+PV = "2026.226.1.0svn27331"
 
-RPM_NAME = "texlive-opteng-2023.209.1.0svn27331-55.1.noarch.rpm"
-RPM_HASH = "2ee2f11f3c2cba15caf7bffdddd5ff00cff5f4850919e46b20223d1b28541d5232e3439af1aeefe1c16ef1b0019718b46be7633443eb3ac2f2dc3f4efbe3109d"
+RPM_NAME = "texlive-opteng-2026.226.1.0svn27331-61.2.noarch.rpm"
+RPM_HASH = "2556d4150957d5532bbd3573807fa2902471593c20e4db39962510c02f13fb1c7cdd613c782bae30e366aa23b3ccbd58c22cd4d4f34923f01bd81cf1bcb6d1b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-opteng.sty \

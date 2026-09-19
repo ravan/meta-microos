@@ -9,10 +9,10 @@ central reference for making and using generic packages based \
 on the package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4asvn27765"
+PV = "2026.226.0.0.4asvn27765"
 
-RPM_NAME = "texlive-plainpkg-2023.209.0.0.4asvn27765-52.1.noarch.rpm"
-RPM_HASH = "5327a965ef7c507d098f6713aa41a0e440473bff2d4ef74667f411468e06df082ee8a0ffef777a433757eea80d01b9522fffadfd3143e9ade9ece9d660e4c7ab"
+RPM_NAME = "texlive-plainpkg-2026.226.0.0.4asvn27765-58.2.noarch.rpm"
+RPM_HASH = "d8eb4e2b5e2513d6850760e0c4394860e71cf11ae311b4c3d1a15de9ce14b7c554699eeea9a60f69f658f073d3c14dec6f936e248866e373995dc47332baa5ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plainpkg.tex \

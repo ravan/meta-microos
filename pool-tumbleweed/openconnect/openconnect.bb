@@ -13,22 +13,22 @@ VPNs, such as: \
 * Fortinet Fortigate SSL VPN"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.12"
+PV = "9.21"
 
-RPM_NAME = "openconnect-9.12-1.1.aarch64.rpm"
-RPM_HASH = "0a69f1844ff3a5d917d8bbed06c34d23e537ab484853be1fc35264c3d3d8cd8fabcbefbd010de7435cba6a5e343e9a637085f3093de1f9e2cd61ff3471ec6414"
+RPM_NAME = "openconnect-9.21-1.3.aarch64.rpm"
+RPM_HASH = "8dede68a2908302c57cbac51b13d0edd5c633b44ecfd35f576001b8fb3c5e9defe97388e847a6e2b788b725120fc23055a60731f9992996f11054ecf23db7f73"
 
 RPROVIDES:${PN} += "config-openconnect \
 openconnect"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgnutls.so.30 \
 libopenconnect.so.5 \
 libproxy.so.1 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

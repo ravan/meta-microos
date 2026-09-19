@@ -7,32 +7,25 @@ the commands \\cloze, \\clozefix, \\clozefil, \\clozenol, \
 generate cloze texts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn55763"
+PV = "2026.226.2.0.0svn75681"
 
-RPM_NAME = "texlive-cloze-2023.209.1.6svn55763-54.1.noarch.rpm"
-RPM_HASH = "c3f04eb7fe4b3301077b78b2726fee43c69c23193abb2af65fcc279a0450e83197fec9fe6e4cc0fceaad432b106217b485557b4b8a095f036fdfa205fcfc9dcb"
+RPM_NAME = "texlive-cloze-2026.226.2.0.0svn75681-60.2.noarch.rpm"
+RPM_HASH = "7f8b6868ee5048a112ed554f8d251c132c325fda7a460e2df23281a85757b1f88c154d13360f7ffab60d6517287076bff4c5c1d951df642a2c975b64379fccef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-cloze.sty \
+RPROVIDES:${PN} += "tex-cloze-doc.tex \
+tex-cloze.sty \
 tex-cloze.tex \
 texlive-cloze"
 
-RDEPENDS:${PN} += "/usr/bin/luatex \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \
 grep \
 sed \
-tex-fontspec.sty \
-tex-kvoptions.sty \
-tex-luatexbase-mcb.sty \
+tex-luakeys.sty \
 tex-setspace.sty \
-tex-stackengine.sty \
-tex-transparent.sty \
-tex-ulem.sty \
-tex-xcolor.sty \
-tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

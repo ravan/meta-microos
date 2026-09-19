@@ -10,10 +10,10 @@ But there is at least one quote-like thing that probably needs some \
 explanation."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.023"
+PV = "0.24.0"
 
-RPM_NAME = "perl-PPIx-QuoteLike-0.023-1.4.noarch.rpm"
-RPM_HASH = "417f15f08a4a65bd730c3f71eba22b248305ebf1b5a065dea7ca059c6d85b831186d579116bb0590ece4c7ae7ecb71b36a64497dbb481c80c5ac1b6a022c4330"
+RPM_NAME = "perl-PPIx-QuoteLike-0.24.0-1.3.noarch.rpm"
+RPM_HASH = "9107350226b2a34dc97314d043e5a943e15fdafe7061711a8a1eed4755cfd52f5ca6f077285a2688cc9a5c512b96ed16d206b4ba84dc37453867e793f09fcc21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PPIx--QuoteLike \
@@ -30,7 +30,7 @@ perl-PPIx--QuoteLike--Token--Whitespace \
 perl-PPIx--QuoteLike--Utils \
 perl-PPIx-QuoteLike"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-PPI--Document \
 perl-PPI--Dumper \
 perl-Readonly"

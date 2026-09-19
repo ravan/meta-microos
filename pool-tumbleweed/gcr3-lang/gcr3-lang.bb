@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gcr3"
 DESCRIPTION = "Provides translations for the 'gcr3' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.41.0"
+PV = "3.41.2"
 
-RPM_NAME = "gcr3-lang-3.41.0-3.4.noarch.rpm"
-RPM_HASH = "b71afb31771af57d1106c7b5b276e3a9375a9688c0fd2748911c35926a7319bbd735b3994452a3a2084210bf4e5197df752d344e298eab575896c43aa7b96b6c"
+RPM_NAME = "gcr3-lang-3.41.2-5.4.noarch.rpm"
+RPM_HASH = "25ab0e71cc3ec7a97a6e96655c225cb18a602d5fd58204fc54936466e692304ec9304b6a554dfaeae143294ad78792f85855e26a76cb90091fb5f42b5d64e1d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcr3-lang \

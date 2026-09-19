@@ -2,10 +2,10 @@ SUMMARY = "Haskell unix-time library documentation"
 DESCRIPTION = "This package provides the Haskell unix-time library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.10"
+PV = "0.4.17"
 
-RPM_NAME = "ghc-unix-time-doc-0.4.10-1.3.noarch.rpm"
-RPM_HASH = "633597e789e2820d761ec2971fcca40d8a8d7513a9d2c4ab4597314af559970aacf1bf80a0ac0b1e237b932a5058a687fc1c714bea86293fc4d89caf6a3c9070"
+RPM_NAME = "ghc-unix-time-doc-0.4.17-1.8.noarch.rpm"
+RPM_HASH = "4c71fdab26a3203910b69ba31b637ca8331b937d4c8b74ec9d2cd98e6ff3d351a37df3c5796a9ae86a9d171d5e81234b8457cf63c40bcdba16bc575f7504d1d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-unix-time-doc"

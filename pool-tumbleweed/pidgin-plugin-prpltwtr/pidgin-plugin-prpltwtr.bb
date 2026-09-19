@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.14.0"
 
-RPM_NAME = "pidgin-plugin-prpltwtr-0.14.0-1.27.aarch64.rpm"
-RPM_HASH = "0acdd8241dd37e8befffca5ab537e4b5a24cbe5f0c6d5677d09159d0ee29afc716cbbf061382259883ccbf87f8796cbc2cd22613a0b5ae6cfd60c43ba3f534ca"
+RPM_NAME = "pidgin-plugin-prpltwtr-0.14.0-2.9.aarch64.rpm"
+RPM_HASH = "409a17d079e5ac686eee18f8a57f5f44f072c3e6916471d0cc9aafc06c03aea056aa895009350d191eb6d6379a648e26452a3b0772192f33f16f399342de85e1"
 
 RPROVIDES:${PN} += "libgtkprpltwtr.so \
 pidgin-plugin-prpltwtr"

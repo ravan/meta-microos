@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luamodulartables"
 DESCRIPTION = "This package includes the documentation for texlive-luamodulartables"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn65485"
+PV = "2026.226.1.1svn68893"
 
-RPM_NAME = "texlive-luamodulartables-doc-2023.208.1.0svn65485-53.1.noarch.rpm"
-RPM_HASH = "2cd20dc9c94396781c74ef2cdd996d79d660f0b5ab4de54af57b5c00fa462818db0d2eee9d10a9ee54d597f4d3ebb158f57b5813cc3befad00526a6b11ac2daa"
+RPM_NAME = "texlive-luamodulartables-doc-2026.226.1.1svn68893-59.2.noarch.rpm"
+RPM_HASH = "8f8e270626621c5770632838d612520d8ea097afa5c613834ea1954048973f34ef1c1e7f0ce7650803554daa432aa077f653c79b9fd5e5891d66f2e6e2040f8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luamodulartables-doc"

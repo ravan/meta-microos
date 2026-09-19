@@ -6,10 +6,10 @@ theorems with traditional inline style simple colors: using \
 only several foreground and background colors"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn41404"
+PV = "2026.226.1.0svn41404"
 
-RPM_NAME = "texlive-beamertheme-epyt-2023.209.1.0svn41404-54.1.noarch.rpm"
-RPM_HASH = "3c03991c4cbf7b9cf02a01b2019814577a1061c915988fd091d7eb3bf64d63e4c21a3a0dfa5314bee1db13f1334def27a969fe0c710184966a5ea72fb91b7b6a"
+RPM_NAME = "texlive-beamertheme-epyt-2026.226.1.0svn41404-61.2.noarch.rpm"
+RPM_HASH = "7dda6b18186384edf6e06c8a464e6a8f7fcdfb8f1fd7f17972d249429f19b714e4771dcdfa8a5e222427dc775b451b2e00c82ccd79cc04a9084543a7079a71c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerthemeepyt.sty \

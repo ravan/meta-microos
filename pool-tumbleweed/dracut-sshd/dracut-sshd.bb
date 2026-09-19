@@ -5,10 +5,10 @@ root filesystem and remote access to the Dracut emergency shell \
 (i.e. early userspace)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.6.1"
+PV = "0.7.0"
 
-RPM_NAME = "dracut-sshd-0.6.1-2.8.noarch.rpm"
-RPM_HASH = "feac0ab039921d9e99a36168c4f7603322bd4e8a5586294e52a29dd6dc21ad3889fa78e428fd56b2c0e443ba5c686f240989c20179b3e3d76706b15e6d468d6d"
+RPM_NAME = "dracut-sshd-0.7.0-1.4.noarch.rpm"
+RPM_HASH = "239c671b77a7f344c5cfc2d1d43ffb7505856d8a9c1183f1f0dfa56cd6e21d1c071d42701c899c62b9326d842d70e66b16dbf1b21ca07a30aad8951e2fee83a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracut-sshd"

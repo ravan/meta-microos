@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.0"
 
-RPM_NAME = "mpt-firmware-1.0-261.16.noarch.rpm"
-RPM_HASH = "6efedea95ad4b9dd95e3eea109170dfab628d648db1df034662556b85ff24f15deabecdcd156f657f9e8e10d2cb6fc026353b15fb0cf467aa4b80e33f4466e0e"
+RPM_NAME = "mpt-firmware-1.0-261.24.noarch.rpm"
+RPM_HASH = "f133ce3e7c58ad587ae017d1f72135a93ab29bb0677eaee2b4ad47450853230afabf52886dca4cf2f11e4aff0bcf44bbc04834fa4e441fcedb8958240955564c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpt-firmware"

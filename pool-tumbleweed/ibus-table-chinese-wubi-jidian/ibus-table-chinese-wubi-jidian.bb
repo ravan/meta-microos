@@ -3,10 +3,10 @@ DESCRIPTION = "Jidian Wubi input methods. Current includes: \
 Wubi 86."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.12"
+PV = "1.8.14"
 
-RPM_NAME = "ibus-table-chinese-wubi-jidian-1.8.12-1.2.noarch.rpm"
-RPM_HASH = "47209f6395e8b7e421b27923a9b0ba8d4bacabad60424a479386042ed1bbcff0d33e7d19f3d19d39cba0bfee359517b9a814b19791cbace3377cc01c5e1cd1a3"
+RPM_NAME = "ibus-table-chinese-wubi-jidian-1.8.14-1.6.noarch.rpm"
+RPM_HASH = "86fe28c3fe16a7beec3ac9b591f7872c6cccbd0584772d2881a7aed3a86377697907500733788d8db01e05d0e86e94e9f37da07293e65923449bc077d9ce4358"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-chinese-wubi-jidian \

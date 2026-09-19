@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cybercic"
 DESCRIPTION = "This package includes the documentation for texlive-cybercic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn37659"
+PV = "2026.226.2.1svn37659"
 
-RPM_NAME = "texlive-cybercic-doc-2023.209.2.1svn37659-55.1.noarch.rpm"
-RPM_HASH = "14ed28166d52b3a606bb69d3991dc63fa28fd751652985ea75761d4475721e67c9b2894d3122edf470cac80b3ebcf49f3968c4ee6759f3f03353a0072f968ad2"
+RPM_NAME = "texlive-cybercic-doc-2026.226.2.1svn37659-61.2.noarch.rpm"
+RPM_HASH = "9c1428eef0eeb29aba68b6f2b72f9e1a38e7763b080af402ed862bd799b93f018bc67a3c6910e6e3ab01ff66e8e5559e57430d7524cf1a03855729b96af5d60b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cybercic-doc"

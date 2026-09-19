@@ -12,10 +12,10 @@ images or other material into floats or non-floats, including \
 captions, easyfig has become quite redundant."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2asvn64967"
+PV = "2026.226.1.2asvn77682"
 
-RPM_NAME = "texlive-easyfig-2023.209.1.2asvn64967-54.2.noarch.rpm"
-RPM_HASH = "e5b05375476b78b4fcdc13ae5788c911a6a76d7db934dc915825c92728c2e761261409553bb86b2ebc3bf0cfb1ecdeaa895b538ff9de5f706173b4d821b0fd90"
+RPM_NAME = "texlive-easyfig-2026.226.1.2asvn77682-61.4.noarch.rpm"
+RPM_HASH = "239d069b466a34b374e7af6a175567fd5ad16640e35e730f08434f1b1abdef75eeee624a4a1684bc3dc6255fbdd9096b1b73cb63f31d11466a0fd4534fc642ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easyfig.sty \

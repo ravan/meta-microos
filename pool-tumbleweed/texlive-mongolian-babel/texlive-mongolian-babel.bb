@@ -4,10 +4,10 @@ alphabet. (The work derives from the earlier Russian work for \
 babel.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn15878"
+PV = "2026.226.1.2svn15878"
 
-RPM_NAME = "texlive-mongolian-babel-2023.209.1.2svn15878-55.1.noarch.rpm"
-RPM_HASH = "04d5478c55661c97812ab16589249416abb9aeeb322bf0242f7cf618b224829ec8d623c9ae69917c88cf1a20a817a5e7a05e1fde7215bb8bfa6dcb2647105d11"
+RPM_NAME = "texlive-mongolian-babel-2026.226.1.2svn15878-61.2.noarch.rpm"
+RPM_HASH = "40b407e982b2aa33e5a1e1ac29ed513ee3aa633c8838d26fce87181080e5a58c373bfcc99ef0333648af881d77c310c906aab18af34da1d607be3bbc5e402259"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mn.def \

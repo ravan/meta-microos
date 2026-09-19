@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-arm-none-gcc7-7.5.0+r278197-14.2.aarch64.rpm"
-RPM_HASH = "e61768d128083e3f217f813fb39aabf8748bba770b31bb0883d92959779e080eca5e2cd501a8c1a3fd36807fb72d23ecd6a384da9f7a169933dfb8514695762d"
+RPM_NAME = "cross-arm-none-gcc7-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "751b8b439e6f56bcab4a81297d09f4a89e318cab90765de3d3574576f3f54c4fc4d25246b579d784063241ce37566f3475dfd13b4dcecb59f5a8be0ee65d39fc"
 
 RPROVIDES:${PN} += "arm-none-eabi-gcc \
 cross-arm-none-gcc7 \

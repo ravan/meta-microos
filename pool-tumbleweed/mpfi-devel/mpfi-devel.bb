@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.4"
 
-RPM_NAME = "mpfi-devel-1.5.4-1.15.aarch64.rpm"
-RPM_HASH = "9c74f4d5ebaefd51d560f5347ccd512a14b49a4f64e33e30613921cb9b55eb9005506d4082e9c8244028264eb5e41ef51a091ea52c6eabdcab73e81009a9f5e2"
+RPM_NAME = "mpfi-devel-1.5.4-2.9.aarch64.rpm"
+RPM_HASH = "feaa03233c92501de5542acadbe385c0d1a5cef50e0bc4f24e98a16d095993ec5db67e0d172cd0ad1717bb0a52256770195f23855c0c927ee9f1bd4957629e0f"
 
 RPROVIDES:${PN} += "mpfi-devel"
 

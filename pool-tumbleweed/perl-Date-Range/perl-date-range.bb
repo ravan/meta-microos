@@ -8,14 +8,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.41"
 
-RPM_NAME = "perl-Date-Range-1.41-1.11.noarch.rpm"
-RPM_HASH = "4fb469dac884cfd7c4adb7f0ff5cb0af33f958cb18c8627c1832e4d3688a58ddd1e80dfbad57c108c3aaa84f1fa6ed84b35cbb751a8c1ef86e2ea05a1fed4bb7"
+RPM_NAME = "perl-Date-Range-1.41-1.25.noarch.rpm"
+RPM_HASH = "159cea196416c1ab0158bac8dce7a6f52828eb65a153c0d36eba5c9c8439ed8be6c6206e4cbd18165a663140a014170ccd207e58a3a59e4209ae84deb63e1a70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Date--Range \
 perl-Date-Range"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Date--Simple"
 
 inherit rpm

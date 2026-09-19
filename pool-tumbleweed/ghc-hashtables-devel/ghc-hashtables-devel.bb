@@ -2,21 +2,21 @@ SUMMARY = "Haskell hashtables library development files"
 DESCRIPTION = "This package provides the Haskell hashtables library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.1"
+PV = "1.4.2"
 
-RPM_NAME = "ghc-hashtables-devel-1.3.1-1.9.aarch64.rpm"
-RPM_HASH = "0889add28c73973d27ca70dffbd6640a2f9a914794bda24c0e38ce13b1d26c2b710ede9aaa4cf6184af58b113f01cd33271b9a2dd47519c5a573ca0e84c83c56"
+RPM_NAME = "ghc-hashtables-devel-1.4.2-1.20.aarch64.rpm"
+RPM_HASH = "864a4feb0da96aa5d51a6efd1fb2f1128a07c1a23448684c397f6f845c7442e373bc6270a80056c056b10bc6c1cb6b1402be3c3acf158a512f4012cc7091f866"
 
-RPROVIDES:${PN} += "ghc-devel-hashtables-1.3.1-1KAEkULYvDmJLM8wOJL96T \
+RPROVIDES:${PN} += "ghc-devel-hashtables-1.4.2-FXtFcQfURO18P8ZBa2ZYOT \
 ghc-hashtables-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-ghc-prim-0.9.1 \
-ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-devel-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
-ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-ghc-prim-0.13.0-f55c \
+ghc-devel-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
+ghc-devel-primitive-0.9.1.0-Ez30Vu7tivmF28X1123Css \
+ghc-devel-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
 ghc-hashtables"
 
 inherit rpm

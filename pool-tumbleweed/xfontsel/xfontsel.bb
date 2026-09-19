@@ -4,10 +4,10 @@ protocol fonts known to your X server, examine samples of each, and \
 retrieve the X Logical Font Description ('XLFD') full name for a font."
 LICENSE = "X11"
 
-PV = "1.1.0"
+PV = "1.1.2"
 
-RPM_NAME = "xfontsel-1.1.0-2.3.aarch64.rpm"
-RPM_HASH = "2f2c01db818c67df9706ec5aa754f7927ab0f71f84f60ccc26072e6ce3bdeb8b996b874510f98ccbceae76e6932582e2e5754cd588f710fd292411f21041aba8"
+RPM_NAME = "xfontsel-1.1.2-1.3.aarch64.rpm"
+RPM_HASH = "845bc6fe9fae66a58441287d21a3731437302211d56f05a9cfbc909888f9d17d248de3dec9e3d8ea876735e69f7703566c8ba8b802630734b66fd5496b966e00"
 
 RPROVIDES:${PN} += "xfontsel"
 

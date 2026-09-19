@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.06"
 
-RPM_NAME = "perl-Net-AMQP-0.06-1.22.noarch.rpm"
-RPM_HASH = "92a5f4bf97f2b442038536fba2af00bf1b0dacb17fa20053f0bcd56b57e0ac54bf574a66260796660b8bec20f70977130eb7791706beb7ed0dc8b64bd753a703"
+RPM_NAME = "perl-Net-AMQP-0.06-1.35.noarch.rpm"
+RPM_HASH = "341e84285a389e73ba0dddaf30c1e6c442905ee26ff4bc7136bb543e53e01d6ba656603d2e20365cae7de2c4b3f66ad186f90eb9f009ae7246f6ffe470b7f40a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--AMQP \
@@ -32,7 +32,7 @@ perl-Net--AMQP--Value--String \
 perl-Net--AMQP--Value--Timestamp \
 perl-Net-AMQP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Accessor \
 perl-Class--Data--Inheritable \
 perl-XML--LibXML"

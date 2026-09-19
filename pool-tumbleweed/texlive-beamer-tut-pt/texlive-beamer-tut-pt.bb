@@ -2,10 +2,10 @@ SUMMARY = "An introduction to the Beamer class, in Portuguese"
 DESCRIPTION = "The beamer-tut-pt package"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-beamer-tut-pt-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "f59cd3f101e7d37c643c3920e15c61e414ea9edf3f37282c9ad77406ba3dab12dbf6be2296b13b0c43e86609d10223aeb8e21c3ec60217a7b0744c89174e5ac3"
+RPM_NAME = "texlive-beamer-tut-pt-2026.226.svn15878-61.2.noarch.rpm"
+RPM_HASH = "a12eb8ffcaf9c4b1cf39bdf6468374088f1e41b21b0f0ec869bcc594f71d240cd3182ce6bb17d91c26b79d9821e3ab5b5f6c47eb67d6fc93385e180c944adbb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamer-tut-pt"

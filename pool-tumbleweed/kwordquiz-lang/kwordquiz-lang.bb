@@ -2,17 +2,17 @@ SUMMARY = "Translations for package kwordquiz"
 DESCRIPTION = "Provides translations for the 'kwordquiz' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kwordquiz-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "8c9c9b0b6697a181d7f626b8a4e112aec9140a90636fc1e2ec9facaa0f734b16aa1ae7b29b6662394f9a5de73e9398dd8bbdefb9afe6c991ee75120411252de5"
+RPM_NAME = "kwordquiz-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "019855c40c9d22521359a5b4b66fee19766c977eae282a70300591e61172875f0799d87bb31b171b9a1e1aaebb8362381dd06a945de5383de5a235bd1d334789"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kwordquiz-lang \
 kwordquiz-lang-all \
 locale-kwordquiz-ar \
+locale-kwordquiz-ast \
 locale-kwordquiz-be \
-locale-kwordquiz-bg \
 locale-kwordquiz-bn \
 locale-kwordquiz-br \
 locale-kwordquiz-bs \
@@ -33,6 +33,7 @@ locale-kwordquiz-fi \
 locale-kwordquiz-fr \
 locale-kwordquiz-ga \
 locale-kwordquiz-gl \
+locale-kwordquiz-he \
 locale-kwordquiz-hi \
 locale-kwordquiz-hr \
 locale-kwordquiz-hu \

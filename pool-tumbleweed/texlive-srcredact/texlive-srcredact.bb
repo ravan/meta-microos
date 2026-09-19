@@ -8,10 +8,10 @@ commissioned by the Consumer Financial Protection Bureau, \
 United States Treasury."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0svn38710"
+PV = "2026.226.1.0svn38710"
 
-RPM_NAME = "texlive-srcredact-2023.209.1.0svn38710-58.1.noarch.rpm"
-RPM_HASH = "325061f9e28c93f7edf7696b563b0362828a32178c244206be34f9a1742593680278698be1282ad76492895c6a69a4f905cd0867df7ac06d5fc92deafadf2a01"
+RPM_NAME = "texlive-srcredact-2026.226.1.0svn38710-64.2.noarch.rpm"
+RPM_HASH = "511dd746cb51d9c11c1eb03dfe072dd3d609b01a5565a6fdcada11c6777678be84d0f102df046ac9766c5a7bbc20d84acda1c390e3c4f0f5296c63f07631d0d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-srcredact"

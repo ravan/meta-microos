@@ -3,13 +3,14 @@ DESCRIPTION = "This package provides a class for typesetting publications of \
 the Association for Computing Machinery (ACM)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.88svn64967"
+PV = "2026.226.2.16svn76177"
 
-RPM_NAME = "texlive-acmart-2023.209.1.88svn64967-55.1.noarch.rpm"
-RPM_HASH = "f5160eb37d5d9883283435719a4ef2ed8b2c512aec8a85d4c693386547a8409a173bf8ea21fe271011595cc49f15fc34955e5978badfa1568fe996844688c55e"
+RPM_NAME = "texlive-acmart-2026.226.2.16svn76177-61.2.noarch.rpm"
+RPM_HASH = "ca8fcffe340b2284f694082cf4b54389c9bcd98ef1e694cd92e60dd4912d812647d88bb1e30c68ef9390f72dd96ea2cc7a51363f2ce756f595b8b67374af26a6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-acmart.cls \
+RPROVIDES:${PN} += "tex-acmart-tagged.cls \
+tex-acmart.cls \
 tex-acmauthoryear.bbx \
 tex-acmauthoryear.cbx \
 tex-acmnumeric.bbx \
@@ -23,6 +24,7 @@ findutils \
 grep \
 sed \
 tex-amsart.cls \
+tex-amssymb.sty \
 tex-authoryear-comp.bbx \
 tex-authoryear-comp.cbx \
 tex-babel.sty \
@@ -52,14 +54,16 @@ tex-numeric.cbx \
 tex-pbalance.sty \
 tex-refcount.sty \
 tex-setspace.sty \
-tex-textcase.sty \
 tex-totpages.sty \
 tex-trad-plain.bbx \
+tex-unicode-math.sty \
 tex-xcolor.sty \
 tex-xkeyval.sty \
 tex-xpatch.sty \
 tex-xstring.sty \
 tex-zi4.sty \
+tex-zref-savepos.sty \
+tex-zref-user.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

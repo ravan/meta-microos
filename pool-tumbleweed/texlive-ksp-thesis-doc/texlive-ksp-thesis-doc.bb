@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ksp-thesis"
 DESCRIPTION = "This package includes the documentation for texlive-ksp-thesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.2svn39080"
+PV = "2026.226.1.0.2svn39080"
 
-RPM_NAME = "texlive-ksp-thesis-doc-2023.209.1.0.2svn39080-56.1.noarch.rpm"
-RPM_HASH = "65a626b7713cb98b6bbde113d24e5ca2e9426b3b0af563447c75567b751e27cbc6dd7a41702af5f99e8c86c558b9479bee055ca98d48676d307bdcafe3af2dee"
+RPM_NAME = "texlive-ksp-thesis-doc-2026.226.1.0.2svn39080-63.2.noarch.rpm"
+RPM_HASH = "2f8d96f2f9c21d6b550112379b3a46a20c2dc2772a5fce196e331d20f343dc938328097f40d262e8ebd41f52853887c2ce2717dd6f202b21fd6f51f30f26839e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ksp-thesis-doc"

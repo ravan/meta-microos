@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for kubeaudit"
 DESCRIPTION = "Bash command line completion support for kubeaudit."
 LICENSE = "MIT"
 
-PV = "0.22.0"
+PV = "0.22.2"
 
-RPM_NAME = "kubeaudit-bash-completion-0.22.0-1.3.noarch.rpm"
-RPM_HASH = "bfe4a299f039c25a14f9fc3fef37d0f935b64a4abef522aa3c32c77889e7613369ac14f26497820f1b8ce1f91dbfff8d7d3f3a4184b9729efb224798c4e0d7ef"
+RPM_NAME = "kubeaudit-bash-completion-0.22.2-1.13.noarch.rpm"
+RPM_HASH = "0a501ccebc09778dec91193a207c2af710bcec77dc20748e9145345c8ff56bc7f03d21462712052c0c2cff25a8109d8f5649093f3903e13883cc966374ff33d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubeaudit-bash-completion"

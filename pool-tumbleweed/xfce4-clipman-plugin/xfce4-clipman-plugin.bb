@@ -6,10 +6,10 @@ can be configured to execute arbitrary actions when the selection content \
 matches specific regular expressions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.6.4"
+PV = "1.7.0"
 
-RPM_NAME = "xfce4-clipman-plugin-1.6.4-1.1.aarch64.rpm"
-RPM_HASH = "05c45a5808f8684590393e1800e00a09ceca9d09a9d292cd9c9eafd84b2efa0584f809eabf7a49ae0709366dff8f4c9e6ff80c4bf6b2470febb3c5017ef66efe"
+RPM_NAME = "xfce4-clipman-plugin-1.7.0-1.5.aarch64.rpm"
+RPM_HASH = "2db435cee1a918f10321772a8b5fc9e8cbf5d7b1d632d263c8e24df0889556111e4775b2d525ea1b021ade9e45d75d3666557647c167f67843e3866fa28ee52d"
 
 RPROVIDES:${PN} += "config-xfce4-clipman-plugin \
 libclipman.so \
@@ -29,6 +29,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libqrencode.so.4 \
+libwayland-client.so.0 \
 libxfce4panel-2.0.so.4 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \

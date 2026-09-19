@@ -5,10 +5,10 @@ typographic rules of its own; this package provides an \
 rules."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0hsvn30257"
+PV = "2026.226.1.0isvn77470"
 
-RPM_NAME = "texlive-babel-breton-2023.209.1.0hsvn30257-54.1.noarch.rpm"
-RPM_HASH = "d22356e468c10d7bb75c3a83b623bc5fc334123e8572ed3f4d8f7af92a5ae36263192acfab0cb07379764e050e01fb43f18f711a3f67a26a7b29d5b6f9c8b925"
+RPM_NAME = "texlive-babel-breton-2026.226.1.0isvn77470-60.2.noarch.rpm"
+RPM_HASH = "d8966c7fabc29796dd17cc3cf5ef80ce44e90c18270c5bf7853fc4e78e885bdd38a41d14572182261da0dcc5790ee60efa057a30ae892c807bea7321571686e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-breton.ldf \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-duerer-latex"
 DESCRIPTION = "This package includes the documentation for texlive-duerer-latex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-duerer-latex-doc-2023.209.1.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "db66ae700ef04c58af77d43c4ad915186faec3c1fb4d8d0d0a6051a56fe0dfb7a4616da1092da18fd9a2ef21f445afbd407b65bccf9675edb46e3516a2c030b5"
+RPM_NAME = "texlive-duerer-latex-doc-2026.226.1.1svn15878-59.2.noarch.rpm"
+RPM_HASH = "060d76c3214206d8e4f49921dd9a58a45829952bd496eba700773dabe9d83a6d0a89bcc6f2d5c171fa1cf1d6392c7d9e0e1ea00b53073f83a2184ad484c490b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-duerer-latex-doc"

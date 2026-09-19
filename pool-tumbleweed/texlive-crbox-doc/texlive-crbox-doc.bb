@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-crbox"
 DESCRIPTION = "This package includes the documentation for texlive-crbox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn29803"
+PV = "2026.226.0.0.1svn29803"
 
-RPM_NAME = "texlive-crbox-doc-2023.209.0.0.1svn29803-55.1.noarch.rpm"
-RPM_HASH = "181f69760f99a8f3299614a78a05454a3c84b48de2bdf7c72c97696b0316dfffedca9d33c9e52fed0708ea299b0c7f1c009c873c417f34c26a689a7ab64f96ec"
+RPM_NAME = "texlive-crbox-doc-2026.226.0.0.1svn29803-61.2.noarch.rpm"
+RPM_HASH = "4d6d1dc941253b3229c2b881c43b64e5e79c1138644316b7be2a88d4d4533418f901487bece3d7e5b4062b761df66147fad4b86b62e51bd32589549e558d158a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-crbox-doc"

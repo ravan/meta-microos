@@ -5,10 +5,10 @@ manipulations take place in what Knuth is pleased to call \
 'TeX's mouth'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn31402"
+PV = "2026.226.svn31402"
 
-RPM_NAME = "texlive-lambda-lists-2023.209.svn31402-56.1.noarch.rpm"
-RPM_HASH = "410cc3d11911fa751602314812dd10283abfb9f137647bd0fabe4dcae49cc7cf442ec4a341689d00d4aa7c9e49be3fdd643349c34b2afddcab2c920f625565ca"
+RPM_NAME = "texlive-lambda-lists-2026.226.svn31402-63.2.noarch.rpm"
+RPM_HASH = "83ef1ed5ab84651255cf410e9f610d4ca2470060b5ca3b5f29720da37e87720b5d8c45ff093b9467c52757f2a5ed8e99afb08a6d5904c05d2db6274255edf31f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lambda.sty \

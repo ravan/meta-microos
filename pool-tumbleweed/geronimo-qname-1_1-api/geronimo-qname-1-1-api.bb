@@ -1,23 +1,19 @@
-SUMMARY = "Geronimo J2EE server J2EE specifications"
+SUMMARY = "Geronimo QName 1.1 Specification"
 DESCRIPTION = "Geronimo is Apache's ASF-licenced J2EE server project. These are the \
 J2EE-Specifications: javax.xml.namespace.QName API"
 LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-qname-1_1-api-1.2-37.1.noarch.rpm"
-RPM_HASH = "53d438b3941e4af8b0ff509faa334194a56cd0b3bccf427257b01fb3dd9ea649813d8f723b02108dbca73a1b43867a135058821376b107d9d1fe91f0700fa4fd"
+RPM_NAME = "geronimo-qname-1_1-api-1.2-41.6.noarch.rpm"
+RPM_HASH = "c6039585de455adaa30328f88de86f33e24ad0a4a2284a1ce38a33d27f2d9d62d9e1e56294ea085ea99d81ee862a5eb514231930c3b047dc700fe09151515053"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-qname-1-1-api \
 mvn-org.apache.geronimo.specs-geronimo-qname-1.1-spec \
-mvn-org.apache.geronimo.specs-geronimo-qname-1.1-spec-pom- \
-qname-1-1-api \
-qname-api"
+mvn-org.apache.geronimo.specs-geronimo-qname-1.1-spec-pom-"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-java-headless \
-javapackages-filesystem \
-update-alternatives"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem"
 
 inherit rpm

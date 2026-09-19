@@ -2,10 +2,10 @@ SUMMARY = "Documentation for the LilyPond Typesetter (ja)"
 DESCRIPTION = "Japanese documentation files for the GNU LilyPond music typesetter."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.24.2"
+PV = "2.24.4"
 
-RPM_NAME = "lilypond-doc-ja-2.24.2-1.1.noarch.rpm"
-RPM_HASH = "c9521b0b37399f18c19428979b805e86905d378857ffa481a3f2e87a9e3248abbbb92049e0de1ffc3fda7794c027c49f3e7956a7abbfbde67657b29ba759cc23"
+RPM_NAME = "lilypond-doc-ja-2.24.4-1.19.noarch.rpm"
+RPM_HASH = "00f0f26d6be60cfad2611fba94883e0f5bc46c076f2c10fa0574da2c84ef9b7c1e893d5707b669905daad706df609accac1d720662894924eea0c36e19ac9948"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lilypond-doc-ja"

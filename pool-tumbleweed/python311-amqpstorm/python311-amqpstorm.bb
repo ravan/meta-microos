@@ -6,14 +6,13 @@ Tested against CPython, PyPy and Pyston. \
 When using a SSL connection, TLSv1 or higher is required."
 LICENSE = "MIT"
 
-PV = "2.10.4"
+PV = "2.10.7"
 
-RPM_NAME = "python311-amqpstorm-2.10.4-1.7.noarch.rpm"
-RPM_HASH = "5bcba99d20e8b44cb365e25162a847de600ac21baca527fd25fc31f16d104eb1b02818d35a44a0cf8fc3d5e11f272f83949a3bed665a6b9a040e68f00d675d64"
+RPM_NAME = "python311-amqpstorm-2.10.7-2.1.noarch.rpm"
+RPM_HASH = "e9874c49bb65c466a0b617729cc9f3b9b71559d11dd94b63992860769f11cbcb9c48f2fdea2509cfef1c580550496b8ed96b84873c50a9a8aef046a26f6bb18b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-amqpstorm \
-python3.11dist-amqpstorm \
+RPROVIDES:${PN} += "python3.11dist-amqpstorm \
 python311-amqpstorm \
 python3dist-amqpstorm"
 

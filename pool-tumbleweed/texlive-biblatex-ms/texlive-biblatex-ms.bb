@@ -1,7 +1,7 @@
 SUMMARY = "Sophisticated Bibliographies in LaTeX (multiscript version)"
 DESCRIPTION = "This package is the 'multiscript' version of the BibLaTeX \
 package intended to solve the issues faced by those wishing to \
-create multiligual bibliographies. It is intended to be \
+create multilingual bibliographies. It is intended to be \
 backwards-compatible with the standard BibLaTeX package and \
 includes significantly enhanced optional functionality: Fields \
 in data files can have different form/language alternates in \
@@ -16,10 +16,10 @@ package name is biblatex-ms. It requires the use of the \
 multiscript version of biber (biber-ms)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.0_1svn66480"
+PV = "2026.226.4.0_1svn76924"
 
-RPM_NAME = "texlive-biblatex-ms-2023.209.4.0_1svn66480-54.1.noarch.rpm"
-RPM_HASH = "7d27065c87ab5cb2378bb504a993e584d7cc2dc594e0cadd99eeb3752cb551ea27d717241ac547381b315100f1da6dd68d1f02570c60307d2ca613f88947b4d1"
+RPM_NAME = "texlive-biblatex-ms-2026.226.4.0_1svn76924-61.2.noarch.rpm"
+RPM_HASH = "c71e5ad13c01fd33c51b06c443fdac8a073c190417fb019c518aa5a411a7d84ea842e320b488c7d3e9e932bfc05bcca07f980de44a20f3a0c59a068826c53a4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UKenglish-ms.lbx \

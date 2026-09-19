@@ -4,10 +4,10 @@ State University colours and fonts. It is suitable for both \
 presentations and posters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn45877"
+PV = "2026.226.svn45877"
 
-RPM_NAME = "texlive-beamertheme-saintpetersburg-2023.209.svn45877-54.1.noarch.rpm"
-RPM_HASH = "29bae40f7a43d121fcb00582938187397d0014ec33e5aae3e09f56f7a52a8d43b52faf7eae566c6fc8f7ce821e8db26eb6576055b8906d18688c438b52749fbe"
+RPM_NAME = "texlive-beamertheme-saintpetersburg-2026.226.svn45877-61.2.noarch.rpm"
+RPM_HASH = "de246a5d2e8175ba151344934027db7357828dec356b490ba334511436bbdbf676f8f061006b4d2b766edc5718562a2ff7ca5d8f499d6e3527254cbcf2418425"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeSaintPetersburg.sty \

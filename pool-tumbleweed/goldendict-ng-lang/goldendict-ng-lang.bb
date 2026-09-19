@@ -1,14 +1,15 @@
 SUMMARY = "Translations for package goldendict-ng"
 DESCRIPTION = "Provides translations for the 'goldendict-ng' package."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only & GPL-3.0-or-later"
 
-PV = "23.05.03"
+PV = "26.5.0"
 
-RPM_NAME = "goldendict-ng-lang-23.05.03-3.1.noarch.rpm"
-RPM_HASH = "f968742955c876100d2bf73d509315a0a2f160dc035e26f1f303485e2568ff6a1561d7662e73ffb7870590c321ca12093ea4d2858564c7304b14856acfff8005"
+RPM_NAME = "goldendict-ng-lang-26.5.0-3.1.noarch.rpm"
+RPM_HASH = "9f08bfef60edaebc8c20d8860a07bcd89c8039e01de1863e59a0574f1518e9ec7c964842859a847dc52ab4f85c26eb9550db72ea3e14dd1604727783852af43b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "goldendict-ng-lang \
+RPROVIDES:${PN} += "goldendict-lang-lang \
+goldendict-ng-lang \
 goldendict-ng-lang-all"
 
 RDEPENDS:${PN} += "goldendict-ng"

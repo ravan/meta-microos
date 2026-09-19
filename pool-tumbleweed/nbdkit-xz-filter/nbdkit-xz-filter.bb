@@ -1,11 +1,11 @@
-SUMMARY = "XZ filter for nbdkit"
-DESCRIPTION = "This package is the xz filter for nbdkit."
+SUMMARY = "XZ and lzip filters for nbdkit"
+DESCRIPTION = "This package contains the xz and lzip filters for nbdkit."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.32.2"
+PV = "1.48.0"
 
-RPM_NAME = "nbdkit-xz-filter-1.32.2-1.4.aarch64.rpm"
-RPM_HASH = "c6a7afe9ef4d56e885d8e414c8bbc95dacf56595f7c3ccdba84b2dff470f6b975761c9d5ee3af2563389693c04ca073afdd7bb3da797bebd175ec2491b85a0ab"
+RPM_NAME = "nbdkit-xz-filter-1.48.0-1.1.aarch64.rpm"
+RPM_HASH = "ddfecaf7c5751846e8ea2f90ef1ae3019bbc355dade8d07b42919674c34dbb26aa990671e1ff79fc5570e9b781c587724101b543d4067b15a16a960229229c7b"
 
 RPROVIDES:${PN} += "nbdkit-xz-filter"
 

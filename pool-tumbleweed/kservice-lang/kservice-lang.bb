@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kservice"
 DESCRIPTION = "Provides translations for the 'kservice' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kservice-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "db77e596d25b1908c3c65727ef967dd8949c7d66212fc08e56256e4e9a6c2e5633f5737093ea243460da8cf7737469c6555f03a46e78c4b4cce5e9bf5789e97c"
+RPM_NAME = "kservice-lang-5.116.0-1.9.noarch.rpm"
+RPM_HASH = "d359c0b43438405f48f0cffc2daadc7db193afe7513be13a06efa5c2e40be4f16079a7f379e502bee05cf684e10855c4ebd6809de2abdd99d06ba035f9cbaaa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kservice-lang \

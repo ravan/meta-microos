@@ -2,10 +2,10 @@ SUMMARY = "Clang based source code indexer"
 DESCRIPTION = "Rtags is Clang based source file indexer supporting C/C++/Objective-C(++) code."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.38"
+PV = "2.46"
 
-RPM_NAME = "rtags-2.38-3.7.aarch64.rpm"
-RPM_HASH = "74cddbf936973283280462f8ee48d63be6f87735ceadde536edc31d1a2d8832f01fa88c91af82c17ea2b5b1f52ebfbdd8f27ef9c3c40179020047e20e68eb22a"
+RPM_NAME = "rtags-2.46-1.2.aarch64.rpm"
+RPM_HASH = "8dde902ea440a04abbdceac35aa7be54ec505a61772af3db094a6246fa53b70675876d66c7519f6ae298b82373c54c2f9a8e6b58b2aae3b5a83417cd9a1f2fbf"
 
 RPROVIDES:${PN} += "rtags"
 

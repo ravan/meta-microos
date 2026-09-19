@@ -4,10 +4,10 @@ change_hat(2) symbol, used for sub-process confinement by AppArmor, as \
 well as functions to parse AppArmor log messages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.1.6"
+PV = "5.0.2"
 
-RPM_NAME = "libapparmor1-3.1.6-4.1.aarch64.rpm"
-RPM_HASH = "4f70e9aa0a4d1b462fe4850d1f4d731477e7459a618fe7932853acc417be5ac556756a078623c6752165634c962960d1d78abb5661a19c34ce758cd825a8268c"
+RPM_NAME = "libapparmor1-5.0.2-2.1.aarch64.rpm"
+RPM_HASH = "67f84fe977fad9bbe35578caabf3091c936405979bf0a8133332d1b68f1fd509c77cf51ba4224a08804fcc6f183d06cf1d128d4fdf79e5d3b2c3e74ad336bf66"
 
 RPROVIDES:${PN} += "libapparmor \
 libapparmor.so.1 \

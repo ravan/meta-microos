@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "5.4"
 
-RPM_NAME = "libxklavier16-5.4-1.8.aarch64.rpm"
-RPM_HASH = "610391c933ce55cdcd7a81264ffbf2cf8059b2a92a03f1ab37978f0a5a7cd9b674ccb09f9aa5d7a57fa51de41c83bf11acdcb526ca7f7040266f9038cbaf73cb"
+RPM_NAME = "libxklavier16-5.4-2.11.aarch64.rpm"
+RPM_HASH = "d7a4d6b300eb40309ce93e0d30ed7e6d90494aed65dc6b885f6e686f3fab44712bdc9f7effa6337e7b3c4029954d639fdba432d1b8783bd71197b39412d5950f"
 
 RPROVIDES:${PN} += "libxklavier \
 libxklavier.so.16 \
@@ -20,6 +20,6 @@ libc.so.6 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libxkbfile.so.1 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

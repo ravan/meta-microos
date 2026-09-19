@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package xfce4-diskperf-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-diskperf-plugin' package."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "BSD-2-Clause"
 
-PV = "2.7.0"
+PV = "2.8.0"
 
-RPM_NAME = "xfce4-diskperf-plugin-lang-2.7.0-1.8.noarch.rpm"
-RPM_HASH = "1aa84fc6fcae61f794131fee9aa00cc9ac392f41544842730309f8b4ba56cab1a5d0298eebad89b3d09b688c014445844e038976e65d007207191a8c91cab1b2"
+RPM_NAME = "xfce4-diskperf-plugin-lang-2.8.0-1.4.noarch.rpm"
+RPM_HASH = "d26d11daa0a52ef87c6fe89ed04a20ae4af4780f8363c53a818a1aa39cb9ee8f21834ba6d83520d5ee762efdd1c642472f69b9ba5902348cd85a315e42798cd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-diskperf-plugin-ar \
@@ -20,7 +20,9 @@ locale-xfce4-diskperf-plugin-en-AU \
 locale-xfce4-diskperf-plugin-en-CA \
 locale-xfce4-diskperf-plugin-en-GB \
 locale-xfce4-diskperf-plugin-es \
+locale-xfce4-diskperf-plugin-et \
 locale-xfce4-diskperf-plugin-eu \
+locale-xfce4-diskperf-plugin-fi \
 locale-xfce4-diskperf-plugin-fr \
 locale-xfce4-diskperf-plugin-gl \
 locale-xfce4-diskperf-plugin-he \
@@ -41,6 +43,7 @@ locale-xfce4-diskperf-plugin-pa \
 locale-xfce4-diskperf-plugin-pl \
 locale-xfce4-diskperf-plugin-pt \
 locale-xfce4-diskperf-plugin-pt-BR \
+locale-xfce4-diskperf-plugin-ro \
 locale-xfce4-diskperf-plugin-ru \
 locale-xfce4-diskperf-plugin-sk \
 locale-xfce4-diskperf-plugin-sl \
@@ -51,6 +54,7 @@ locale-xfce4-diskperf-plugin-th \
 locale-xfce4-diskperf-plugin-tr \
 locale-xfce4-diskperf-plugin-ug \
 locale-xfce4-diskperf-plugin-uk \
+locale-xfce4-diskperf-plugin-vi \
 locale-xfce4-diskperf-plugin-zh-CN \
 locale-xfce4-diskperf-plugin-zh-TW \
 xfce4-diskperf-plugin-lang \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.10.6"
 
-RPM_NAME = "libnma-lang-1.10.6-1.4.noarch.rpm"
-RPM_HASH = "6e4fd60c59b767ddad29cc494021d33dfb83e506a848a31ca550a1599e1fcf78108cea5b4e23df9f7339de2c93317c443ba01465869ef494eb687f36ab0336b7"
+RPM_NAME = "libnma-lang-1.10.6-3.12.noarch.rpm"
+RPM_HASH = "62158e6ae1629719d2d248241884b0300f8a417b74e1801306cfc600abd5f7ed19ccaacf4ec2435799ca13ae7c6228fc8099fbecd9f08b58907664ada223f4b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libnma-lang \

@@ -7,10 +7,10 @@ adds the ability to \\FSUnshift and \\FSShift from the bottom \
 (front) of the FIFO/Stack."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn33288"
+PV = "2026.226.1.0svn33288"
 
-RPM_NAME = "texlive-fifo-stack-2023.209.1.0svn33288-53.1.noarch.rpm"
-RPM_HASH = "1d1a3a2497ae62e7177f996b8f17122f3b7f312ea00d98a9afb4f6c847086ac72c1298c151a917a25278812cd0eb8a4c7f0b0d7b952bd5cbfe5effeb3c16e856"
+RPM_NAME = "texlive-fifo-stack-2026.226.1.0svn33288-59.2.noarch.rpm"
+RPM_HASH = "ce0b1e3c3edcc21e18527650b923a673cf149e261082bad360756e8ea937613969357986f3e7daacf11c906f3831fbd52fd23acf12ca000a73f5c6311c07cd37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fifo-stack.sty \

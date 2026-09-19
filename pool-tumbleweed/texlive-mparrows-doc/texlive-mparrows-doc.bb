@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mparrows"
 DESCRIPTION = "This package includes the documentation for texlive-mparrows"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.0.0.1svn39729"
+PV = "2026.226.0.0.1svn39729"
 
-RPM_NAME = "texlive-mparrows-doc-2023.209.0.0.1svn39729-55.1.noarch.rpm"
-RPM_HASH = "6efd5248a6d37a3fbb7b3a17ca71898d718463f7309744dc3621ce96fc7fdc1e06fe5d3bc3be2016921057ddee839514af072a6d32da1bdba9a9a1b2b5a17233"
+RPM_NAME = "texlive-mparrows-doc-2026.226.0.0.1svn39729-61.2.noarch.rpm"
+RPM_HASH = "a0793ed5e88f010123b287c9da7c35778392a448eb9ce6f27459ac6f96faf1993542e2bc617e71d04a9dce61c895a57ce12c109ceb79c4635578ce3b7bfdf7b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mparrows-doc"

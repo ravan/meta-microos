@@ -4,10 +4,10 @@ packages that are no longer required by any other installed package \
 after a transaction."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.1"
+PV = "4.10.1"
 
-RPM_NAME = "python3-dnf-plugin-show-leaves-4.3.1-2.2.noarch.rpm"
-RPM_HASH = "147a2cc344b742494d142c3821adef68d6cec34f0208afa7c44734cc81744468cc5231e692e6bea943728436ad87f6d1f24ae271936a264414bab778d5fbb77f"
+RPM_NAME = "python3-dnf-plugin-show-leaves-4.10.1-1.6.noarch.rpm"
+RPM_HASH = "bcbc35d9e83f80569467d5782ffbe823ead153bfa2f666679451306971a04521955feb0d64dcaa654ca1ae925a86a6ca9c3beccc94bba4477204373dc9020a41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-command-show-leaves \

@@ -4,10 +4,10 @@ are a data structure for representing complex data as a variation on \
 LISP S-expressions."
 LICENSE = "MIT"
 
-PV = "0.8.7"
+PV = "0.9.2"
 
-RPM_NAME = "sexpp-0.8.7-1.1.aarch64.rpm"
-RPM_HASH = "b27816fff6e6af1e5c7c580d08314bc9a648f500860e20b47cbf653e2e180f2ba8a7fafaa53cea25aa208da88d0e9080d4c7c1954dcb2f7f2101cf7fd356b550"
+RPM_NAME = "sexpp-0.9.2-1.5.aarch64.rpm"
+RPM_HASH = "53ca50410633822aa81fb27faaaf1cb864be24545eead63dfb4eb061874e5b4a6300fa41c44ebf75ee3733077ce9cea92fb75fff3c799cd9c293e02d0993170d"
 
 RPROVIDES:${PN} += "sexpp"
 

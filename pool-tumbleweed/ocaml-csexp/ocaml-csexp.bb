@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.5.2"
 
-RPM_NAME = "ocaml-csexp-1.5.2-1.2.aarch64.rpm"
-RPM_HASH = "8fb54863e048fc339d5cde9483ee1cc31288490b32480bf6adb6b52c065683241cb5a420a2f56766d596d2f70da2750461101ca6d963c06dd25530fd4a8621eb"
+RPM_NAME = "ocaml-csexp-1.5.2-2.1.aarch64.rpm"
+RPM_HASH = "054d8b4b1c3618072493dcde5d94e23e2333e7ba3a574bc6932969c8ec21ae5055dae4a647339f5bfbac344b28b4488a2c3b820cddcddc1e88a681b2adf61cd7"
 
 RPROVIDES:${PN} += "ocaml-csexp"
 

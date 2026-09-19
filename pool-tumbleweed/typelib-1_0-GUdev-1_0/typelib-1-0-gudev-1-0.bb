@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "238"
 
-RPM_NAME = "typelib-1_0-GUdev-1_0-238-1.1.aarch64.rpm"
-RPM_HASH = "57ae320a5b3b108e2f398ea0fc13c7bbc597626ac44c7aa0f17b86fb62be87a195d9703d449c02cd1c9de975a44652da563f83927f5a8fdcfa74a152e67ecc19"
+RPM_NAME = "typelib-1_0-GUdev-1_0-238-1.13.aarch64.rpm"
+RPM_HASH = "ee32139bb8a3700fa08d298afa8b03b396e69eabb5e885a35c9365e829c34f44168a2e17905b1701bd6679616b1012b849fd54d41e1797288b7ae41ad9b589e0"
 
 RPROVIDES:${PN} += "typelib-1-0-GUdev-1-0 \
 typelib-GUdev"

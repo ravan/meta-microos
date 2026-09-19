@@ -17,12 +17,12 @@ backend will be independent from the actual firewalls feeding it. Even better, \
 once we have a well-understood interim format, it is also easy to convert that \
 into any other vendor specific format, so that you can use that vendor's \
 analysis tool."
-LICENSE = "LGPL-2.1-or-later & Apache-2.0"
+LICENSE = "Apache-2.0 & LGPL-2.1-or-later"
 
-PV = "2.0.6"
+PV = "2.1.0"
 
-RPM_NAME = "liblognorm5-2.0.6-2.18.aarch64.rpm"
-RPM_HASH = "6ba2baf206c1f067c47c541ac4aa4c34597ab8043f44289debca6e8bd0d2dc36b6d38501e789127b67a884cb8e51805626bcbce2247e3ac1e040434dfc2ad656"
+RPM_NAME = "liblognorm5-2.1.0-1.3.aarch64.rpm"
+RPM_HASH = "27a97f6f8cd8d4393674b0d8194b1c5fd2da6f844bb6f354f0492cc27a2839fc771578d2e3d659ded8beea2032726f9141323a296d8bf618fa9eff3714b0157a"
 
 RPROVIDES:${PN} += "liblognorm.so.5 \
 liblognorm5"
@@ -32,6 +32,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libestr.so.0 \
 libfastjson.so.4 \
-libpcre.so.1"
+libpcre2-8.so.0"
 
 inherit rpm

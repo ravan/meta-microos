@@ -2,10 +2,10 @@ SUMMARY = "Links for busybox applets"
 DESCRIPTION = "This is a meta package requireing all packages providing busybox applets."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-links-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "546a24b9caa0e0a331a62967cdb661ed160d0edbde4179972304a2c9cc029f4af136f29b7b84e9fd6af17e003d5557c0db0f02fe56842706177e0bbfdcd4fd6c"
+RPM_NAME = "busybox-links-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "6dce4bbaac5dcb76fc209221d75fcc3629d8b6ea88e9effcc4c92e7a305163bf6443dbb2e30f21d43994ad7570c468adb9171a9bf047c3cb16f93a3b32153cd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-links"
@@ -21,6 +21,7 @@ busybox-cpio \
 busybox-diffutils \
 busybox-dos2unix \
 busybox-ed \
+busybox-ether-wake \
 busybox-findutils \
 busybox-gawk \
 busybox-grep \
@@ -54,6 +55,7 @@ busybox-tftp \
 busybox-time \
 busybox-traceroute \
 busybox-tunctl \
+busybox-udhcpc \
 busybox-unzip \
 busybox-util-linux \
 busybox-vi \

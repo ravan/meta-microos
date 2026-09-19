@@ -5,10 +5,10 @@ Algorithm) conformant collation as well as date, time, number and \
 currency formatting in their scripts."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-intl-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "5b7948ef68c9c04f3c1b9fbe7a41e97a2c2ac7d4a2c5f11c1c8a48ba6776413b04c9d025fbbfd4ebcd55c1ef0e0cf855d1b80339481f2215ab3ad081f355cc3b"
+RPM_NAME = "php8-intl-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "260bff5cb761332e4cc27942fa78ff47c80e6368cf435317cc2c69df7be9a28874f3884372cc28f5ddf539cfbb6cb44e727efaafd3856404007ced35ccdd41ac"
 
 RPROVIDES:${PN} += "config-php8-intl \
 php-intl \
@@ -17,9 +17,10 @@ php8-intl"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicui18n.so.73 \
-libicuio.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuio.so.78 \
+libicuuc.so.78 \
+libstdc++.so.6 \
 php"
 
 inherit rpm

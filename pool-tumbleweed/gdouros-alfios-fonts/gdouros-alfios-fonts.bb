@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "1.01"
 
-RPM_NAME = "gdouros-alfios-fonts-1.01-3.19.noarch.rpm"
-RPM_HASH = "c63eca4a45aadc04cd2f78495872e1d3c28af3b327cfa44544c79c9cfbfc4011ac416ef9241ca781cbdefc143c10691e5c8e0165a09eb72b7e399f14950a7336"
+RPM_NAME = "gdouros-alfios-fonts-1.01-3.27.noarch.rpm"
+RPM_HASH = "cfdb71061ea8d3f4d969607e4e78cd45232c74b340d4e45c513ee13ba2a2a08fc96ffff6959f790895176c50174f4e231ce08b7f2ccc24cdac2d392c68f8a07b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alfios-fonts \

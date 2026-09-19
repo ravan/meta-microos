@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.14"
 
-RPM_NAME = "bwidget-1.9.14-1.8.noarch.rpm"
-RPM_HASH = "02be3e4818b81ebaedc1a67ec278f1757cb76897f070e6cf32b27fc8c8cca0e57ffdf14b30281e387089c8a1d8cdd068f48d2585a2b99fc2f4d4df845bcfdd2b"
+RPM_NAME = "bwidget-1.9.14-1.16.noarch.rpm"
+RPM_HASH = "288251c50b9fc979711a401e807456570d1c8d5d02f5d5ce21484dc14c8f2821afbcf1c7827c34ae0822dab747d3426b4e3e906c60395428adc573ec3ea8f120"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bwidget"

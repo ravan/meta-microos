@@ -2,55 +2,61 @@ SUMMARY = "KDE File Manager"
 DESCRIPTION = "This package contains the default file manager of KDE Workspaces."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "dolphin-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "c8f1bdb197b830168e32edfa261a16ab781c61ef4d303094914ee104fbfc479f3c2cadf1b670750f1f387d65e1c20307337372fc866fdbe2be2dba8375a12cd6"
+RPM_NAME = "dolphin-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "a4ec1a29c4015a9d538a7249c12e2c5d77cac1df63cb309ab3ac20410528ff4fa1e3566f7d4180ef5fa7b4dd3edd99fa49e371dc2fe67d802edb4fcb6f5ff373"
 
-RPROVIDES:${PN} += "dolphin"
+RPROVIDES:${PN} += "dolphin \
+dolphin-zsh-completion"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-baloo5-kioslaves \
 dolphin-part \
+kf6-baloo-kioslaves \
 ld-linux-aarch64.so.1 \
-libKF5Activities.so.5 \
-libKF5Baloo.so.5 \
-libKF5BalooWidgets.so.5 \
-libKF5Bookmarks.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5ItemViews.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KCMUtils.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5NewStuff.so.5 \
-libKF5NewStuffWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5Parts.so.5 \
-libKF5Service.so.5 \
-libKF5Solid.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
-libQt5Xml.so.5 \
+libKF6Baloo.so.6 \
+libKF6BalooWidgets.so.6 \
+libKF6Bookmarks.so.6 \
+libKF6BookmarksWidgets.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6FileMetaData.so.3 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KCMUtilsCore.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6NewStuffWidgets.so.6 \
+libKF6Notifications.so.6 \
+libKF6Parts.so.6 \
+libKF6Service.so.6 \
+libKF6Solid.so.6 \
+libKF6UserFeedbackCore.so.6 \
+libKF6UserFeedbackWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6MultimediaWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
-libdolphinprivate.so.5 \
-libphonon4qt5.so.4 \
+libdolphinprivate.so.6 \
+libpackagekitqt6.so.2 \
 libstdc++.so.6"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package minitube"
 DESCRIPTION = "Provides translations for the 'minitube' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.9.3"
+PV = "4.0"
 
-RPM_NAME = "minitube-lang-3.9.3-1.9.noarch.rpm"
-RPM_HASH = "fc87030e893a6806ba37d6221f94e72024fed5c502af853f61d83a1bff834fa70f313aab81b018fb6f2aaf140396efdc9cfb70548406062e89367df6ec9feea2"
+RPM_NAME = "minitube-lang-4.0-1.1.noarch.rpm"
+RPM_HASH = "b8ad5de52214a624b7a69b9baeeeff27b69701ab6542b3b7173584ab70446b55a30f803236a00719ab7b5f13465014e219be7a47bbb9f7f272efe96edf8572b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "minitube-lang \

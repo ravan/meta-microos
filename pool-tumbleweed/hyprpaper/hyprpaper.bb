@@ -4,20 +4,24 @@ It supports IPC controls for Hyprland and various \
 image formats."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.0"
+PV = "0.8.4"
 
-RPM_NAME = "hyprpaper-0.3.0-1.1.aarch64.rpm"
-RPM_HASH = "93150bd07e6d3419a336588da7b3204272c5fe4b1dc12407f8508f7518b7a8069ce696dd10b1ef9a61bf8a3f71477969184ee9b051f89e519b94296d29d307fa"
+RPM_NAME = "hyprpaper-0.8.4-1.2.aarch64.rpm"
+RPM_HASH = "b16c7c113e06894cee459940e985bcbb0450238eef1bc6b9f48da534f19a2db25cfe003a86dcd352ea8cb26b655a49617a3c2b391de7bcb165391568b2149990"
 
 RPROVIDES:${PN} += "hyprpaper"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGLESv2.so.2 \
 libc.so.6 \
-libcairo.so.2 \
 libgcc-s.so.1 \
-libjpeg.so.8 \
+libhyprlang.so.2 \
+libhyprtoolkit.so.6 \
+libhyprutils.so.13 \
+libhyprwire.so.3 \
+libm.so.6 \
+libmagic.so.1 \
 libstdc++.so.6 \
-libwayland-client.so.0 \
-libwayland-cursor.so.0"
+libwayland-client.so.0"
 
 inherit rpm

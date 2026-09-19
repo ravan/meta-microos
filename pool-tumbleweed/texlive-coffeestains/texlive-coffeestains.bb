@@ -5,10 +5,10 @@ A lot of time can be saved by printing stains directly on the \
 page rather than adding them manually."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.0.0.5.1svn59703"
+PV = "2026.226.0.0.5.1svn59703"
 
-RPM_NAME = "texlive-coffeestains-2023.209.0.0.5.1svn59703-54.1.noarch.rpm"
-RPM_HASH = "71dcf60712a0b48641a44af4f988aa78dee5bdd452da8288dd58b94df1ffd43a77af1775cec9b567cf51c4cde45cfdf19e7aafbb8c00217fd58ef8cc0f945661"
+RPM_NAME = "texlive-coffeestains-2026.226.0.0.5.1svn59703-60.2.noarch.rpm"
+RPM_HASH = "e0372496229da6cd20d4436050dff9777b4ac67eb346380a6d3c1e0ed0afe50eff7fbb8562ae3d9fbe9e2ca1bf96fb71b53f0bb9a153d4dae26041ee460fa915"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-coffeestains.sty \

@@ -12,10 +12,10 @@ OpenType fonts, splitttc - split an OpenType Collection file \
 (ttc or otc) into individual fonts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn65706"
+PV = "2026.226.svn77722"
 
-RPM_NAME = "texlive-fontools-2023.209.svn65706-53.1.noarch.rpm"
-RPM_HASH = "074a057c62de69722c470d47a5e7bcfe3410e996a45b18e91b2cce1bb8153dd5a7c4c1aee416442f61aa8930ae85ebbd4643e4c6197d8b3ef48ffff3fece48c5"
+RPM_NAME = "texlive-fontools-2026.226.svn77722-60.2.noarch.rpm"
+RPM_HASH = "a1008f521c0fbe1a3b99c18b8647cf13d58a3af7a34ed3eb74149994b90130176f80a063b8740f69a473ea9f03cd147e1a022d02e35996c0be816b272308b92a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fontools-cs.enc \

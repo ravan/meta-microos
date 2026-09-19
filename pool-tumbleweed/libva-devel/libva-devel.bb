@@ -8,10 +8,10 @@ The library loads a hardware dependendent driver. \
 This package provides the development environment for libva packages."
 LICENSE = "MIT"
 
-PV = "2.19.0"
+PV = "2.24.1"
 
-RPM_NAME = "libva-devel-2.19.0-1.1.aarch64.rpm"
-RPM_HASH = "f00a4df2d4eec2dab7335f8e2aa22f730ba0055dcb3fc7a85feea587a037a4c60ee3f1cc4183ce60addb1a4f5dd5281d9da8094b881b0ab8e4d95c6c5967c4b0"
+RPM_NAME = "libva-devel-2.24.1-1.1.aarch64.rpm"
+RPM_HASH = "ed2cefeb62d55102e884927faf4abd5ab407b120340e36b711f9fd8ff20e041e926e92e545b70a337aab9bb17065dbb8e5b24406a5af2175ef78501744bb77e1"
 
 RPROVIDES:${PN} += "libva-devel \
 pkgconfig-libva \

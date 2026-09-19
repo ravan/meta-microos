@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-flexipage"
 DESCRIPTION = "This package includes the documentation for texlive-flexipage"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn64572"
+PV = "2026.226.1.02svn66614"
 
-RPM_NAME = "texlive-flexipage-doc-2023.209.1.01svn64572-53.1.noarch.rpm"
-RPM_HASH = "b18e0aa71914f4d188e1745c9586418c8b735b7ff8f143145894930e368d83a19a4c88dadda8182c2557d6c8b0246fced31aec685ebbe0371641bc6a89df75dd"
+RPM_NAME = "texlive-flexipage-doc-2026.226.1.02svn66614-59.2.noarch.rpm"
+RPM_HASH = "6f40a2b9da3b2ed750611c8572660a23e8ed0155331a2a81af525f0fa7657d8c09a3910522c9c010f7229dfc06eaa706660a1e1b1f58f39ac13995f9bb200473"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flexipage-doc"

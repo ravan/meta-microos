@@ -22,8 +22,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.5"
 
-RPM_NAME = "nautilus-share-0.7.5-2.3.aarch64.rpm"
-RPM_HASH = "c8a3189bdb0f0f05b298eae8558663d7633769409e6096f510d8402f2c22f4c1654f86688a34eb33065adbd364ff0f3320dd31af1c3d1f1d517add444f57151b"
+RPM_NAME = "nautilus-share-0.7.5-5.3.aarch64.rpm"
+RPM_HASH = "68dd41cc5d00e6d419d7486a4a4c9c4a63dd7e2db3dd0ed07a558ec7717cbca6444600080809593e632d285c5df0cd756e615445605018d18c6fa94cb4ca18d7"
 
 RPROVIDES:${PN} += "libnautilus-share.so \
 nautilus-share"

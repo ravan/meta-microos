@@ -4,10 +4,10 @@ The default settings execute regular jobs by anacron, however this could be \
 overloaded in settings."
 LICENSE = "BSD-3-Clause & GPL-2.0-only & MIT"
 
-PV = "1.6.1"
+PV = "1.7.2"
 
-RPM_NAME = "cronie-anacron-1.6.1-91.4.aarch64.rpm"
-RPM_HASH = "69f7af711b967da14db384ad72b153e2e322e2d649f16c4c6eea7f3577b867ec43e8e82f2591cccfc2634158cd9cdbd0073f9b273a242d6a6893498ef45723f6"
+RPM_NAME = "cronie-anacron-1.7.2-100.3.aarch64.rpm"
+RPM_HASH = "957e1d073a17521b7de6dda1a3e48e7939461e3cfc237c2d5367c5b0fa27cbfdd704796bca40dc5709411a1306f1164ca7b81000af1d85bf369e29c4a5e85866"
 
 RPROVIDES:${PN} += "config-cronie-anacron \
 cronie-anacron"

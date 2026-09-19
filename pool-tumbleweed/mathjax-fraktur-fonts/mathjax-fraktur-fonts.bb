@@ -2,10 +2,10 @@ SUMMARY = "Fonts used by MathJax to display math in the browser"
 DESCRIPTION = "Fonts used by MathJax to display math in the browser."
 LICENSE = "OFL-1.1"
 
-PV = "2.6.0"
+PV = "3.2.2"
 
-RPM_NAME = "mathjax-fraktur-fonts-2.6.0-3.6.noarch.rpm"
-RPM_HASH = "440fa37cb3594b7ada17ec9acfd96783391acb93648e7c6dcb569628212409d29e67a7511f1cec740c7c041cd5bf9787b8e1b0c875004081d084233286ff7e54"
+RPM_NAME = "mathjax-fraktur-fonts-3.2.2-1.6.noarch.rpm"
+RPM_HASH = "04c91723d709a9776a9eab365ad8c9e4ad05eb4ce949844557aae93a593138755769ff9c9a4dbb3203cf725c4e3591b2d4121f30387a1ba33347f82e1f233c96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathjax-fraktur-fonts"

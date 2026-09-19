@@ -7,10 +7,10 @@ elements like dropdowns, sliders, and graphs directly to your \
 analytical python code."
 LICENSE = "MIT"
 
-PV = "2.6.2"
+PV = "2.16.1"
 
-RPM_NAME = "python310-dash-2.6.2-1.5.noarch.rpm"
-RPM_HASH = "470f0133ee72ebccb0f775679827f139a560551080b6b1e1b199b274b8637058abb57b05e48a55948c7aca091606bb59e7f4bd8e7609d0026177ba9f2e2fed41"
+RPM_NAME = "python310-dash-2.16.1-2.1.noarch.rpm"
+RPM_HASH = "3efc986d169bdd4d6b558ae176fe6d7369b4ef638ad0ad25e36b72059ba170ce37e0250caec46265cd340695f5e62ff76a33cffab8c606e5c02c8a6d70d1ed33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-dash \
@@ -19,15 +19,22 @@ python3dist-dash"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
+jupyter-dash \
 python-abi \
 python310-Flask \
-python310-Flask-Compress \
+python310-Werkzeug \
 python310-beautifulsoup4 \
 python310-dash-core-components \
 python310-dash-html-components \
 python310-dash-table \
+python310-importlib-metadata \
+python310-nest-asyncio \
 python310-percy \
 python310-plotly \
+python310-requests \
+python310-retrying \
+python310-setuptools \
+python310-typing-extensions \
 update-alternatives"
 
 inherit rpm

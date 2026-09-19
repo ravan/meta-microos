@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "ghc-pretty-hex-prof-1.1-4.3.aarch64.rpm"
-RPM_HASH = "55a8307cec2635e5e9fb527aec32a0a0c384ecf50c7df07a024f3aa0333579051b2ea1aa9d4f9bc1d7a885bd5f4424155bb0fe45d2c4a162f38349e5d0a0f707"
+RPM_NAME = "ghc-pretty-hex-prof-1.1-4.19.aarch64.rpm"
+RPM_HASH = "04ca6f3740d1a1c5a355807b2914df79b78f34aeb5399b512465dde2024e0e7909cc510f8dc626cbfc4140cb0d423c438837e397659feec15a06b0e39ea1e18b"
 
 RPROVIDES:${PN} += "ghc-pretty-hex-prof \
-ghc-prof-pretty-hex-1.1-6nqTsc1Xx7vJSzZ0xX5VyC"
+ghc-prof-pretty-hex-1.1-9KkuISSwhPFByR4xDG3StA"
 
 RDEPENDS:${PN} += "ghc-pretty-hex-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be"
 
 inherit rpm

@@ -14,10 +14,10 @@ language - currently ISO C, C#, Go, Java, Javascript, Object Pascal, Python and 
 Rust are supported."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.0"
+PV = "3.0.1"
 
-RPM_NAME = "snowball-2.1.0-1.8.aarch64.rpm"
-RPM_HASH = "f4080c316b4c8f41234b778fe1848fd9aa40e2c01a60102b1c40f8a37333168e30836b1c584ecff55ae6f8512f64193cf9ba6722b368e14fac3d72cee68cb2d7"
+RPM_NAME = "snowball-3.0.1-1.5.aarch64.rpm"
+RPM_HASH = "83917a5c030ce1b356a0868e305ac5848a7fa33efa8ece14927428eec60e77828684686fe141f687228535b5f9a3189f825036afcfdd783deff99d8c200847ff"
 
 RPROVIDES:${PN} += "libstemmer-tools \
 snowball"

@@ -17,8 +17,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.4210"
 
-RPM_NAME = "perl-Module-Build-Deprecated-0.4210-1.25.noarch.rpm"
-RPM_HASH = "e23547d1b5cb51f6728b50aff1ad6f7971b11fa6d945118c34b79caa27312f616cce5a9a8be74890b3d5dd8d6d4042fcd1ab7460e55f7f72b5fd2e52a91a0129"
+RPM_NAME = "perl-Module-Build-Deprecated-0.4210-1.39.noarch.rpm"
+RPM_HASH = "af7ed76312e3ac2db669798f46c7b1445a0490f4e6a6d2e448f2731acbb8b4172ce5291e855df6f2d00d1298a259372e2d1d3e434e2cd6310d1c81924d6b5166"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Build--Deprecated \
@@ -27,7 +27,7 @@ perl-Module--Build--Version \
 perl-Module--Build--YAML \
 perl-Module-Build-Deprecated"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--Meta--YAML \
 perl-Module--Metadata \
 perl-parent \

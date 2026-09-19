@@ -5,10 +5,10 @@ book-type documents are written in Basque. The class is useful \
 for writing books, PhD and Master Theses, etc., in Basque."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.20svn32924"
+PV = "2026.226.1.20svn32924"
 
-RPM_NAME = "texlive-basque-book-2023.209.1.20svn32924-54.1.noarch.rpm"
-RPM_HASH = "0ee2ab173964759fb93a07643fb671cffcb9ce9dc603b93356c36b777e61c07b847acdafa1492c72ac89cf379e73b2b76928a74ac94d77e35d6dee18f2cd8914"
+RPM_NAME = "texlive-basque-book-2026.226.1.20svn32924-60.2.noarch.rpm"
+RPM_HASH = "b5313da858c861dae34912d8f70428a418e0811ad7230575dbd85d7d98a7e3cf4dfea956ad69b41110aa891cdaba693694399cbc8e95c5ed734cecb219986091"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-basque-book.cls \

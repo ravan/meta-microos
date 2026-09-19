@@ -5,16 +5,15 @@ and fetch images layers. skopeo can copy container images between various \
 storage mechanisms."
 LICENSE = "Apache-2.0"
 
-PV = "1.13.2"
+PV = "1.24.0"
 
-RPM_NAME = "skopeo-1.13.2-1.1.aarch64.rpm"
-RPM_HASH = "44fdd8887a4cb18b8f6d5bed6b8a1be28e6d5226d3797ac9011baa817212ce9ae292530970d042c38638855135e08f21ac230475671d413f7c627c580833f2de"
+RPM_NAME = "skopeo-1.24.0-1.1.aarch64.rpm"
+RPM_HASH = "ea2176ec52426780ad5ad2c620d3d572619027bde30bc7846621d204ba150840c6aa692e51f1cdfd7ce34c34a487c478a5346592328a0fc0c47ffd2454118d78"
 
 RPROVIDES:${PN} += "skopeo"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libcontainers-common \
-libdevmapper.so.1.03 \
-libgpgme.so.11"
+libgpgme.so.45"
 
 inherit rpm

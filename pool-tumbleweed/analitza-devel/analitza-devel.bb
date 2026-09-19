@@ -3,14 +3,16 @@ DESCRIPTION = "Development files for Analitza. The Analitza library lets develop
 add mathematical features to programs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "analitza-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "65664017758c0fd6eca284b6c391d14fe62100df3ab41b217e7a036751ff95900845e2f5381e6357832824a7733397c8e24e4f426eb1a3e91007712ea925892b"
+RPM_NAME = "analitza-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "9af11f561f501730e35e238c12e272873643632295590f619ae2249dab5f37a916eacfba8b56c884288c03ef5eb98a5d06f67e005e4ce5b1e4eaf21c6d1c93e9"
 
 RPROVIDES:${PN} += "analitza-devel \
-cmake-Analitza5"
+cmake-Analitza6"
 
-RDEPENDS:${PN} += "libAnalitza8"
+RDEPENDS:${PN} += "cmake-Qt6Core \
+cmake-Qt6Xml \
+libAnalitza9"
 
 inherit rpm

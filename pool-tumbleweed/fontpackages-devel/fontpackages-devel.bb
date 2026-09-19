@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2"
 
-RPM_NAME = "fontpackages-devel-0.2-12.6.noarch.rpm"
-RPM_HASH = "a03693ca3c4812091f9927a51ea57de528169afe9db1c962312f0fd2ec102b4b5b83c2a794d61b4eca8630faa703823752f1744ddfc0aa9dd93492ef81c03873"
+RPM_NAME = "fontpackages-devel-0.2-12.14.noarch.rpm"
+RPM_HASH = "6445a4301132c9c64d21db2df7b1012f8d61a9319862b20a7b1a592295313ca2deab012bb9ad3eab33f815685d21d26a789f64db2afad7be9e69065e4e7c535e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontpackages-devel \

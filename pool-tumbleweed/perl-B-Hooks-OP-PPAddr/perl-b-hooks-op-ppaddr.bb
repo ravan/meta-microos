@@ -12,19 +12,18 @@ use. Include the following in your _Makefile.PL_: \
     ); \
  \
 Your XS module can now include 'hook_op_ppaddr.h'."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.06"
+PV = "0.60.0"
 
-RPM_NAME = "perl-B-Hooks-OP-PPAddr-0.06-1.32.aarch64.rpm"
-RPM_HASH = "4ad2af2c89eed0820cdbe2b7d89cdf7d900fab7c657a352be7256615ef6ff6485ecb716c18f2afd85601fb3cc280fb5b7336e266da10d0d0562b30440325b42a"
+RPM_NAME = "perl-B-Hooks-OP-PPAddr-0.60.0-1.8.aarch64.rpm"
+RPM_HASH = "09de8f0c1e2e4a8204d81674567e4fb25505db0b83932d806dcbd005e152bda6084022d80d1a155fe16a2ab7470522d2891ae81fe27cadc76825994744f7efc8"
 
 RPROVIDES:${PN} += "perl-B--Hooks--OP--PPAddr \
-perl-B--Hooks--OP--PPAddr--Install--Files \
 perl-B-Hooks-OP-PPAddr"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-parent"
 
 inherit rpm

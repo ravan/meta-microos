@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later-with-WxWindows-exception-3.1"
 
 PV = "3.1.0.0+42"
 
-RPM_NAME = "libwxlua-wx32-3_1_0_0-3.1.0.0+42-2.3.aarch64.rpm"
-RPM_HASH = "f7f727aca1c7c4ce17ef3e0616d5c57acc4fd267d7a07092ac728aa35348babc09b9ad473caaeb98d5aca497a75199e3fb77717f827927f4cda1fab221ca394f"
+RPM_NAME = "libwxlua-wx32-3_1_0_0-3.1.0.0+42-3.4.aarch64.rpm"
+RPM_HASH = "43fb7507816ace1dc69defb38888c5992288bf6ac9e037305bffdba86976f7b7bc2d846c8aa41d1f81dcf11027f0c3733439a80117afe116037134cbab6bc391"
 
 RPROVIDES:${PN} += "libwxlua-wx32-3-1-0-0 \
 libwxlua-wx32gtk3u-3.1.0.0.so"
@@ -19,7 +19,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 liblua5.4.so.5 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk3u-core-suse.so.9.0.0"
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk3u-core-suse.so.16.0.0"
 
 inherit rpm

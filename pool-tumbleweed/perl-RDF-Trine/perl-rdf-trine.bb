@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.019"
 
-RPM_NAME = "perl-RDF-Trine-1.019-1.20.noarch.rpm"
-RPM_HASH = "75c7087071be6dda0284e8770a5a975c40eb72856e43903bd15e8be78a274965becc8a0eb15d4b4aab9ebc69930b665e65fa3c54e0f908306e59448899b50a54"
+RPM_NAME = "perl-RDF-Trine-1.019-1.34.noarch.rpm"
+RPM_HASH = "4c2100f95eb60357c72efc7872367eaef5090ed6d9b928da85c464a2586943ac7b0151174a54916b420e93f60ed3dcaf092370c00c8cbdaccaae48200eaa2c3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-RDF--Trine \
@@ -98,7 +98,7 @@ perl-RDF-Trine \
 perl-Test--RDF--Trine--Store"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Algorithm--Combinatorics \
 perl-Cache--LRU \
 perl-DBD--SQLite \

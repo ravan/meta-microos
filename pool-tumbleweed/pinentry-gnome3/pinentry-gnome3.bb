@@ -3,10 +3,10 @@ DESCRIPTION = "A simple PIN or passphrase entry dialog utilize the Assuan protoc
 as described by the Aegypten project, using GNOME libraries."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.1"
+PV = "1.3.3"
 
-RPM_NAME = "pinentry-gnome3-1.2.1-3.1.aarch64.rpm"
-RPM_HASH = "30089d04c8b501e5ca422438e13acf8488b6e578d5a3f41d2624447f3bfcdb3c70380695d30d826f876748ff6ba8792657e69bb88ac100c0716db314a441afbd"
+RPM_NAME = "pinentry-gnome3-1.3.3-1.1.aarch64.rpm"
+RPM_HASH = "426b35c560b13a44b42bcc0a8f6aec4267849aa06d78d74d0feae0d51c30eb5960c8ad23f8a329b1268834bdc3f29a3f6563d599cf39bcec97dac8dbbe3f535c"
 
 RPROVIDES:${PN} += "pinentry-/usr/bin/pinentry-gnome3 \
 pinentry-dialog \
@@ -14,7 +14,7 @@ pinentry-gnome3 \
 pinentry-gui"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libassuan.so.0 \
+libassuan.so.9 \
 libc.so.6 \
 libgcr-base-3.so.1 \
 libgio-2.0.so.0 \

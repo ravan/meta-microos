@@ -1,4 +1,4 @@
-SUMMARY = "Multilingual support for theorem-like environments"
+SUMMARY = "Initializing and configuring theorem-like environments, with multilingual support"
 DESCRIPTION = "This package provides commands for naming, initializing and \
 configuring theorem-like environments. These commands have \
 key-value based interfaces and are especially useful in \
@@ -7,13 +7,15 @@ theorem-like environments that can automatically adapt to the \
 language settings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.20220808asvn64104"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-create-theorem-2023.209.20220808asvn64104-55.1.noarch.rpm"
-RPM_HASH = "74301b64ce333ae772483a10e1d2d0c495633a95990cf261c885c1a85656ed5e780a68b15f519d5c416c10fcbcd2ba730ef0543ad4b7a2d65e136fdde26a2868"
+RPM_NAME = "texlive-create-theorem-2026.226.svn76924-61.2.noarch.rpm"
+RPM_HASH = "835451d79e52fe762e34fac83f884efe0e0e5f68e6724746ca803c64b8a4f8da4232a4645cb20235502077e6bc75d978a5b3bec1f96434c82ffc97572128e7d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-create-theorem.sty \
+RPROVIDES:${PN} += "tex-create-theorem-preset-names-cleveref.tex \
+tex-create-theorem-preset-names-plural-cleveref.tex \
+tex-create-theorem.sty \
 texlive-create-theorem"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

@@ -6,10 +6,10 @@ via the system message bus. Some operations (such as suspending the \
 system) are restricted using PolicyKit."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.90.2"
+PV = "1.91.3"
 
-RPM_NAME = "libupower-glib3-1.90.2-1.1.aarch64.rpm"
-RPM_HASH = "a340729d67dd8533f5cb232d5ea26fabfefdf10d83d0c142bac7778c23371960ac8e2fd44e8aca4e4a0adabab966c18c3abe06fcbf30546e2b44e2af07c3c377"
+RPM_NAME = "libupower-glib3-1.91.3-1.2.aarch64.rpm"
+RPM_HASH = "1cd024b9c205330cc765e80e077515daab495f62edc8ba0937cd6fcc5d284d446a6b632570114f5f0d483574e1f800beb0a851a67f2c93f1f18b02923f8dc2a6"
 
 RPROVIDES:${PN} += "libupower-glib.so.3 \
 libupower-glib3"

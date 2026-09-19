@@ -2,10 +2,10 @@ SUMMARY = "Qt5 Hunspell Input Method"
 DESCRIPTION = "Internal library used by Qt for providing Hunspell support."
 LICENSE = "GPL-3.0"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt5HunspellInputMethod5-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "995f878ba332bbb65060c04c13314d15140f8c6b83e2fc2102cc9ec7206d8aff274dd968cd2bb58bf5b01d8c67002d704b8c4f09dde4a0809e4cbc3704308a16"
+RPM_NAME = "libQt5HunspellInputMethod5-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "a95cde4b30e0bd86c3bf6bf30d7c37293a09f7b4ebf164b69165dd2047e3451ed812fa98ac59b0c9d15015a5d6679ff93795bf1083493a1838ec892a6faa2fbf"
 
 RPROVIDES:${PN} += "libQt5HunspellInputMethod.so.5 \
 libQt5HunspellInputMethod5"

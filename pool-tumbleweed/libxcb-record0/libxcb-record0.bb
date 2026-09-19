@@ -4,13 +4,13 @@ featuring a small footprint, latency hiding, direct access to the \
 protocol, improved threading support, and extensibility. \
  \
 The RECORD extension supports the recording and reporting of all core \
-X protocol and arbitrary X extension protocol."
+X protocols and arbitrary X extension protocols."
 LICENSE = "MIT"
 
-PV = "1.16"
+PV = "1.17.0"
 
-RPM_NAME = "libxcb-record0-1.16-1.1.aarch64.rpm"
-RPM_HASH = "69becca16ea62afa0d256c6c790ae97a8960a6c4d5b0bff22b2ec3bd333cadcb6b7a57677430eec7e695b91e4e08f06ee0cdb6b673eebac23d202da0d297e4e1"
+RPM_NAME = "libxcb-record0-1.17.0-2.7.aarch64.rpm"
+RPM_HASH = "1fe741917b7070148f0eb8cf2ca90bf3fef1f53d1e70ae2c41faf590dfa4f9a4aa5d11f26b4fa1f16d287ef13a130093b8940fc089c76e1ef342bdda188018a5"
 
 RPROVIDES:${PN} += "libxcb-record.so.0 \
 libxcb-record0"

@@ -1,43 +1,35 @@
-SUMMARY = "SWT Library for GTK+"
-DESCRIPTION = " \
-SWT Library for GTK+."
+SUMMARY = "Eclipse SWT: The Standard Widget Toolkit for GTK+"
+DESCRIPTION = "SWT is an open source widget toolkit for Java designed to provide \
+efficient, portable access to the user-interface facilities of the \
+operating systems on which it is implemented."
 LICENSE = "EPL-2.0"
 
-PV = "4.15"
+PV = "4.29"
 
-RPM_NAME = "eclipse-swt-4.15-9.4.aarch64.rpm"
-RPM_HASH = "a44c2fd5dc88ea76c61309d5056819f5653fb72cd379dc2c2e68d76963a47f4d3cdde23c5f1e3880a614971c68823c339e249a4b105cd43fe6b47816f234bc68"
+RPM_NAME = "eclipse-swt-4.29-4.3.aarch64.rpm"
+RPM_HASH = "d1331a4bbc41ec31df95d4ceac6fd752271f3d068c4b1ac9fa9a963a8ec37de90fb448284b422c491dc051b20dd926926b28069063b9b3c307239856040c06b4"
 
 RPROVIDES:${PN} += "eclipse-swt \
-libswt-atk-gtk-4932r18.so \
-libswt-awt-gtk-4932r18.so \
-libswt-cairo-gtk-4932r18.so \
-libswt-glx-gtk-4932r18.so \
-libswt-gtk-4932r18.so \
-libswt-pi3-gtk-4932r18.so \
-libswt-webkit-gtk-4932r18.so \
-libswt-webkit2extension-gtk-4932r18.so \
+libswt-atk-gtk-4962r3.so \
+libswt-awt-gtk-4962r3.so \
+libswt-cairo-gtk-4962r3.so \
+libswt-glx-gtk-4962r3.so \
+libswt-gtk-4962r3.so \
+libswt-pi3-gtk-4962r3.so \
+libswt-webkit-gtk-4962r3.so \
 mvn-org.eclipse.swt-org.eclipse.swt \
 mvn-org.eclipse.swt-swt \
-osgi-org.eclipse.swt \
-osgi-org.eclipse.swt.gtk.linux.aarch64"
+osgi-org.eclipse.swt"
 
-RDEPENDS:${PN} += "gtk3 \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-javapackages-tools \
+ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libatk-1.0.so.0 \
 libc.so.6 \
 libcairo.so.2 \
 libgdk-3.so.0 \
-libgio-2.0.so.0 \
-libglib-2.0.so.0 \
-libgobject-2.0.so.0 \
 libgtk-3.so.0 \
-libjavascriptcoregtk-4.0.so.18 \
-libjawt.so \
-libwebkit2gtk-4-0-37 \
-libwebkit2gtk-4.0.so.37"
+libjawt.so"
 
 inherit rpm

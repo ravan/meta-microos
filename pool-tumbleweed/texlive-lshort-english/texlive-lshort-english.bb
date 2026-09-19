@@ -6,10 +6,10 @@ other languages; see the lshort catalogue entry for the current \
 list."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.6.4svn58309"
+PV = "2026.226.6.4svn58309"
 
-RPM_NAME = "texlive-lshort-english-2023.209.6.4svn58309-55.1.noarch.rpm"
-RPM_HASH = "df1419d8b536fc38376b0184a1eaf78e746fcc7c67062b27a20938b0d3de999faadc13a607fff8caa86a5837a6d6b5d3d87c1129c1b2468075e904aabe7b9783"
+RPM_NAME = "texlive-lshort-english-2026.226.6.4svn58309-61.2.noarch.rpm"
+RPM_HASH = "cdb561dabda6838a108edd3c1d8fa6cdc13784bbec3de0122325cc953e646120114631f3c22946c78f74caa7c562a3173c1218a8fa017e1333f8c7a88fcb1479"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-english"

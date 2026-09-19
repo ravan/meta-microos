@@ -2,14 +2,15 @@ SUMMARY = "Zsh Completion for lf"
 DESCRIPTION = "Zsh command-line completion support for lf."
 LICENSE = "MIT"
 
-PV = "30+dd82949"
+PV = "34"
 
-RPM_NAME = "lf-zsh-completion-30+dd82949-1.1.noarch.rpm"
-RPM_HASH = "fdb057c69485650ce6e75deb9956ca6879d6ffec7b4d7334bfdccb5d14275ae469faad3925d7db07566303c91e1bfa7d9564ec6b5d0f8dad311f7cdd08dfe5d9"
+RPM_NAME = "lf-zsh-completion-34-1.10.noarch.rpm"
+RPM_HASH = "9430b217fea9471345d390963e56329c1738d0a4309d78caad5689df1648196bed67227527a2e58964313f826c5192a6c74d086074cfafd212c2f8ac4e106d95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lf-zsh-completion"
 
-RDEPENDS:${PN} += "zsh"
+RDEPENDS:${PN} += "lf \
+zsh"
 
 inherit rpm

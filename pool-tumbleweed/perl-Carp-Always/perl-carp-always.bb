@@ -25,15 +25,15 @@ Also, all uses of 'carp' and 'croak' are made verbose, behaving like \
 'cluck' and 'confess'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.16"
+PV = "0.160.0"
 
-RPM_NAME = "perl-Carp-Always-0.16-1.18.noarch.rpm"
-RPM_HASH = "f80fd73fe1767c7710a599923e01e9314e74340e1a173ef480498973f1018b479e540d4eaa962720a1d9ad25c2792919ed739c9183b5eea06a94ba082e0f42a9"
+RPM_NAME = "perl-Carp-Always-0.160.0-1.7.noarch.rpm"
+RPM_HASH = "1c6aeaf3ab8de6aef7b5cfddb6984a55505480b4077e6d5eb94d4ff7b1edc20977f6274537345b195dec445965c3ba4b6c0cc272620dfee53c663837b5c5a1cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Carp--Always \
 perl-Carp-Always"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

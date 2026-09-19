@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "xcb-util-devel-0.4.1-1.2.aarch64.rpm"
-RPM_HASH = "c6e1d0dccee2b72a468fa78b15add2eff944b85e7930c3e4aee46be6abca9d2cc4b0f5f6c7d4ab219e9936ea7865a224ec3d0457d0642bb7aeb5f19d519d6846"
+RPM_NAME = "xcb-util-devel-0.4.1-1.12.aarch64.rpm"
+RPM_HASH = "474a0726bae0c0698f6f927c1d3de5d5af08c07e00f531c1e71e8efdf4460f31fc5156ac5fdca3ad85df3e5c2633dc4d7bfd29f4c0ca15e7f3c27b5b64359a6a"
 
 RPROVIDES:${PN} += "pkgconfig-xcb-atom \
 pkgconfig-xcb-aux \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "3.1.2"
 
-RPM_NAME = "xbase-doc-3.1.2-1.24.aarch64.rpm"
-RPM_HASH = "94ff00065097d8728a90430922a81275b7b098b55a61b68a0f3f7cda62c0510e2d0c2c44a79f0526c97821d44ad113be07f4bad35e389ef18a8a1e2ce8afdb75"
+RPM_NAME = "xbase-doc-3.1.2-1.36.aarch64.rpm"
+RPM_HASH = "5ea36d6168ddb8655da4a496aa91842658b0ec20f25bb1d16d9dc88a51fd5a3fce7e05fc9392f4809bff72c2699e2c5e7c645ce7e2141e7b5ff967a69c0adfe0"
 
 RPROVIDES:${PN} += "xbase-/usr/share/doc/packages/xbase-doc/html/classes.html \
 xbase-doc"

@@ -7,10 +7,10 @@ glibc is not offering the _SAFE macros from the BSD sys/queue.h API — \
 recommended when traversing lists to delete/free nodes."
 LICENSE = "MIT & X11"
 
-PV = "2.5.3"
+PV = "2.6.2"
 
-RPM_NAME = "libite5-2.5.3-1.1.aarch64.rpm"
-RPM_HASH = "da2cbb9ff60ec202cde822cda562a140867e0d83e3a53abc21cd7fdeafe6cf814094b04b0d09787f0501446f1e70fcfa9741c3a22ae47f686273d72300bc798b"
+RPM_NAME = "libite5-2.6.2-1.4.aarch64.rpm"
+RPM_HASH = "8ac67ee0b05e0d4969941b9eb2613db3ca71362dc1dc3c3089ef3cf53db74fde94607b0ee2f9d8aed472569ccd84627067972fd1ffa559fbcc9b127e18c60d95"
 
 RPROVIDES:${PN} += "libite.so.5 \
 libite5"

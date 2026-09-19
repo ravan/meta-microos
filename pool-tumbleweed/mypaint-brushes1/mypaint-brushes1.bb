@@ -4,8 +4,8 @@ LICENSE = "CC0-1.0"
 
 PV = "1.3.1"
 
-RPM_NAME = "mypaint-brushes1-1.3.1-1.9.noarch.rpm"
-RPM_HASH = "aa75ee16b23ad062b7c53d64a575082a5d120c3932813d053da61c20e0d3b3a2db78143122463f8448335b19d057477796cb7942216ab80e3bb04e23b22cd7ec"
+RPM_NAME = "mypaint-brushes1-1.3.1-2.7.noarch.rpm"
+RPM_HASH = "77c82eab14a4b0882138f1e2bbde6666a4f88648e6cb8bcaf7067221ccc811eaf3f572ff8f09439017b1e6805b59e2bd5cf15cfe63fdbb1cdd410303fc3ee436"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mypaint-brushes \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fbb"
 DESCRIPTION = "This package includes the documentation for texlive-fbb"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.16svn55728"
+PV = "2026.226.1.16svn77682"
 
-RPM_NAME = "texlive-fbb-doc-2023.209.1.16svn55728-53.1.noarch.rpm"
-RPM_HASH = "113a178ed4675c751bfad8d10caecdbde985c93015e41c07198539cd3abb88aa8fc0e02a005be5c609d24b9ae1f9f34a903538399b7a26ab6783246ce81a34db"
+RPM_NAME = "texlive-fbb-doc-2026.226.1.16svn77682-59.2.noarch.rpm"
+RPM_HASH = "9d891ed879e7974e0da031e7edd1d7fed760302ac098c56a7cd81d9acfada1ee472444d0335d0afa2cb4254d0313228fa10ccf36fcd8502c2aa03f9cc1a5c67c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fbb-doc"

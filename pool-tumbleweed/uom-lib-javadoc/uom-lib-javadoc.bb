@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "uom-lib-javadoc-1.2-2.1.noarch.rpm"
-RPM_HASH = "47daae3d119497cd868aee319570154c96d138389029155dbbaf8400b216a2ee9200ab5cd1221ac4e6214d81aac76705f2722776044692db91532a82ec481be9"
+RPM_NAME = "uom-lib-javadoc-1.2-4.7.noarch.rpm"
+RPM_HASH = "3952fcce41b7bcc6a1d436bbd5d620e45cde026fce3e9502d27781844f2a0abe20c29e96a6cd3d81b4bbf13cda58217df9db01a4b3b1c96973f6a02c90300e95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "uom-lib-javadoc"

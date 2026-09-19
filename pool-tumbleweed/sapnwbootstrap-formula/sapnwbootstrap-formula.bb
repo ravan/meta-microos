@@ -10,13 +10,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.6+git.1625824616.eb6e12c"
 
-RPM_NAME = "sapnwbootstrap-formula-0.6.6+git.1625824616.eb6e12c-1.6.noarch.rpm"
-RPM_HASH = "09104189247a43b289d03f16a0c2a57f7ff0a06ea9b42eb5b0224351050169e461ba124d36a168ebbe4d6a370743598e67fd8253139c3ecff411702c0f9bcab9"
+RPM_NAME = "sapnwbootstrap-formula-0.6.6+git.1625824616.eb6e12c-1.16.noarch.rpm"
+RPM_HASH = "6203bd3d263b0551f57873f85ce5c061dc71f625bc0785334e2194cf457875ba3373bff0181c4add18143b84bb690eccbf84e5bab8035cf796264ec892ece13c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sapnwbootstrap-formula"
 
-RDEPENDS:${PN} += "habootstrap-formula \
+RDEPENDS:${PN} += "group-salt \
+habootstrap-formula \
 salt-formulas-configuration \
 salt-shaptools"
 

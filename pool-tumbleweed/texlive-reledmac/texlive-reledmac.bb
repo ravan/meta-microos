@@ -7,10 +7,10 @@ simple tabular- and array-style environments. The package is \
 distributed with the related reledpar package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.39.1svn63105"
+PV = "2026.226.2.44.3svn78101"
 
-RPM_NAME = "texlive-reledmac-2023.209.2.39.1svn63105-54.2.noarch.rpm"
-RPM_HASH = "3b400eb393b29a362a7c0e7cfc38bab6d99c9f1fb52b31177a90c08024d237a446726e7afb7338d64d11688c55e5ba13d6d449fe7f6723faec93e12cd589d1fd"
+RPM_NAME = "texlive-reledmac-2026.226.2.44.3svn78101-60.4.noarch.rpm"
+RPM_HASH = "13ccba8f6e387ece00b75906811f5cebef1c4bd146b21d7bf97ff5a5a53ed26a33ac83d97afc45346ac609e7ef4dcda38ccd4a112a4394994616fe231f59c1d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-reledmac.sty \

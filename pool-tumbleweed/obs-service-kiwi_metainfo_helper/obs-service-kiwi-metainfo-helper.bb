@@ -5,15 +5,17 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "obs-service-kiwi_metainfo_helper-0.6-2.2.noarch.rpm"
-RPM_HASH = "b20c5e3ebcac15d7e3d40ac62a32ae380fc4fb3f51c0631bdfe6d007c3398db56c9a4378bd922c0cc06a996d718d868be96a0a4cb107ee65098a2ce263d8a6d8"
+RPM_NAME = "obs-service-kiwi_metainfo_helper-0.6-11.1.noarch.rpm"
+RPM_HASH = "9983b78dff908344c3ae5b92596693ae8652997c13dffabe0cd75ce0c1dc278a7113b409a4388ab486e551a9fae5dfbf02897eb485de7ded6fa50f33307ac20a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-kiwi-metainfo-helper"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/cpio \
 /usr/bin/find \
 /usr/bin/grep \
+/usr/bin/rpm2cpio \
 /usr/bin/sed"
 
 inherit rpm

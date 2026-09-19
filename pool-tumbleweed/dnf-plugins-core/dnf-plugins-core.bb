@@ -5,10 +5,10 @@ needs-restarting, repoclosure, repograph, repomanage, and reposync commands. \
 Additionally, it provides the generate_completion_cache passive plugin."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.1"
+PV = "4.10.1"
 
-RPM_NAME = "dnf-plugins-core-4.3.1-2.2.noarch.rpm"
-RPM_HASH = "35982ec88edaf6b7a696416a0a9d772375fb0d0bc005f0acd04631e45d833cd082d0ea268d9d3ab15a2e2be47ffc5ba7e37cb1752940c4952b78a64405f3cb6d"
+RPM_NAME = "dnf-plugins-core-4.10.1-1.6.noarch.rpm"
+RPM_HASH = "7770da49c7722018699efb18f8279f63ef7dd5d0f372a5b3839e6ed54dfcdb27163e537481dedfb58f2e246f12499479541bec88a18513f8369a8144c19eb41b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-dnf-plugins-core \
@@ -21,11 +21,14 @@ dnf-command-debug-restore \
 dnf-command-debuginfo-install \
 dnf-command-download \
 dnf-command-groups-manager \
+dnf-command-offline-distrosync \
+dnf-command-offline-upgrade \
 dnf-command-repoclosure \
 dnf-command-repodiff \
 dnf-command-repograph \
 dnf-command-repomanage \
 dnf-command-reposync \
+dnf-command-system-upgrade \
 dnf-plugin-builddep \
 dnf-plugin-config-manager \
 dnf-plugin-debuginfo-install \
@@ -37,6 +40,7 @@ dnf-plugin-repoclosure \
 dnf-plugin-repograph \
 dnf-plugin-repomanage \
 dnf-plugin-reposync \
+dnf-plugin-system-upgrade \
 dnf-plugins-core \
 dnf-plugins-extras-debug \
 dnf-plugins-extras-repoclosure \

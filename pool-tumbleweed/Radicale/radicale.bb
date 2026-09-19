@@ -11,25 +11,27 @@ DESCRIPTION = "Radicale is a server for CalDAV (calendars, to-do lists) and Card
 * Can be extended with plugins."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.1.8"
+PV = "3.7.8"
 
-RPM_NAME = "Radicale-3.1.8-2.2.noarch.rpm"
-RPM_HASH = "10c2989f36a273b175d59ee118a7477cf2da2636707a066b3e327457104e595a9540d32548af988f193f14f54c6ddbc4d4a195b867504da1bbcc4b0fc5c61801"
+RPM_NAME = "Radicale-3.7.8-1.1.noarch.rpm"
+RPM_HASH = "1716066aadddd78de860eff61ab767a13aea8aba5bce7e1689447c308d6b2391e060bd61f8e7234fbdf4c902fbce468f2e05414ef7f2cb3d2e39e53f31e6b468"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Radicale \
 config-Radicale \
 group-radicale \
-python3.11dist-radicale \
+python3.13dist-radicale \
 python3dist-radicale \
 user-radicale"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 python-abi \
 python3 \
 python3-defusedxml \
-python3-python-dateutil \
+python3-passlib \
+python3-pika \
+python3-requests \
 python3-vobject \
 sysuser-shadow"
 

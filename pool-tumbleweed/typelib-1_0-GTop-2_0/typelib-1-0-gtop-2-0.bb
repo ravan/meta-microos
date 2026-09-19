@@ -9,10 +9,10 @@ from /dev/kmem. \
 This package provides the GObject Introspection bindings for libgtop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.40.0"
+PV = "2.41.3+4"
 
-RPM_NAME = "typelib-1_0-GTop-2_0-2.40.0-4.4.aarch64.rpm"
-RPM_HASH = "7ec3e23789c0b29449647a5751d14f328256599df1420d3fa82a1c19da7b68ca8b5ff5cb05ec5e794254093866f8bcc56578adbd5c8e84c1fa2d45e739625c84"
+RPM_NAME = "typelib-1_0-GTop-2_0-2.41.3+4-3.3.aarch64.rpm"
+RPM_HASH = "d1886f1306c42900ac762c42785d1526098cc89d70b9fff95713d118cad26b63f300cd91570bd729f0757f575ff8ea349fbf8efc7c2a317f12595f995c389840"
 
 RPROVIDES:${PN} += "typelib-1-0-GTop-2-0 \
 typelib-GTop"

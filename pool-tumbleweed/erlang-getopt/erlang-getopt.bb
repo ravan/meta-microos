@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.2"
 
-RPM_NAME = "erlang-getopt-1.0.2-1.2.aarch64.rpm"
-RPM_HASH = "83d65a63cb2385329b6ef679a41211b4efbdff9c415fa536c483ddab9aa87e13384342ec21b47f2bfd748d77695a69eb07f2f11e9e15c5d21a7ee1789e0c3c4d"
+RPM_NAME = "erlang-getopt-1.0.2-2.8.aarch64.rpm"
+RPM_HASH = "b05fae3894919fea8e1f56cb35e99c48e47404fecf069f9fd322582db09022408e2176343cae67d9750dc1240735fa8c7326e83912d0ba10ecb6536564fdf4c2"
 
 RPROVIDES:${PN} += "erlang-getopt"
 

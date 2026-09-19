@@ -3,10 +3,10 @@ DESCRIPTION = "The libQuotient devel package contains libraries and header files
 developing applications that use libQuotient."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.8.1.1"
+PV = "0.9.6"
 
-RPM_NAME = "libQuotient-qt6-devel-0.8.1.1-1.1.aarch64.rpm"
-RPM_HASH = "1bfb9a900bd595a38807fabc7d0bacb6ae095d2c37f56676fc1527764ce59e0a22edf7af82d47e2571bc6f045a17d019c09d7543fc9cf669b784fc33a3513460"
+RPM_NAME = "libQuotient-qt6-devel-0.9.6-2.3.aarch64.rpm"
+RPM_HASH = "202e893c3ee60795108240b265548d4adda8216fd4c229dd13760e188fb8799b5b1e4e8b85c3841e5f08b74e45d7947bb4e2560dd3007508f656cfa75593c882"
 
 RPROVIDES:${PN} += "cmake-QuotientQt6 \
 libQuotient-qt6-devel \
@@ -18,7 +18,7 @@ cmake-Qt6Gui \
 cmake-Qt6Keychain \
 cmake-Qt6Network \
 cmake-Qt6Sql \
-libQuotientQt6-0-8 \
+libQuotientQt6-0-9 \
 pkgconfig-openssl"
 
 inherit rpm

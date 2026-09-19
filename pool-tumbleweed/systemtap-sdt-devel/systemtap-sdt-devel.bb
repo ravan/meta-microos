@@ -3,10 +3,10 @@ DESCRIPTION = "SystemTap is an instrumentation system for systems running Linux.
 This package contains the support tools for static probes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.9"
+PV = "5.5"
 
-RPM_NAME = "systemtap-sdt-devel-4.9-1.2.aarch64.rpm"
-RPM_HASH = "add8d9c752d30db6fd19a6040f253f4c635d189725a314163f28a3c2f35956d684155935546136de8bb54b5741ba126128c8be97761ddc80d71d879acb967bca"
+RPM_NAME = "systemtap-sdt-devel-5.5-1.3.aarch64.rpm"
+RPM_HASH = "de4e78fabc5aa87ea18e0012885f9a70cbbe9f965dc652371a6ebb3ac321e4a9361a610d2f6ca6ac80c9f98eef7b1c813fc4f505e4facc80b0f888e43fcd5d1d"
 
 RPROVIDES:${PN} += "systemtap-sdt-devel"
 

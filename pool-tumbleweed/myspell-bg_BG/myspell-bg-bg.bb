@@ -1,11 +1,11 @@
 SUMMARY = "MySpell bg_BG Dictionary"
 DESCRIPTION = "Bulgarian spelling dictionary, hyphenation rules, and thesaurus."
-LICENSE = "AGPL-3.0-only & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & CC-BY-SA-1.0 & CC-BY-SA-3.0 & GFDL-1.1-only & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-only & LGPL-2.1-or-later & LGPL-3.0-only & LGPL-3.0-or-later & MPL-1.1"
+LICENSE = "AGPL-3.0-only & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & CC-BY-SA-1.0 & CC-BY-SA-3.0 & CC-BY-SA-4.0 & GFDL-1.1-only & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-only & LGPL-2.1-or-later & LGPL-3.0-only & LGPL-3.0-or-later & MPL-1.1"
 
-PV = "20221012"
+PV = "20240321"
 
-RPM_NAME = "myspell-bg_BG-20221012-1.2.noarch.rpm"
-RPM_HASH = "22152a1019e31807a27c02a1bfe3e44584cbbb306b517fc383f472527e1baf3d9d2dc3fdefc7763acfee9ad315828aed4a7715c1299716a33e002a80c538dad7"
+RPM_NAME = "myspell-bg_BG-20240321-1.7.noarch.rpm"
+RPM_HASH = "299fa26bbfd1943c6cf5066806f5a8539f8fee8e1f90054c5c192b81e3cec789fb57a4e4e585f25f2ff27a32c71157bb35a7dcca3779191231aed3a2377d57d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-thesaurus-bg \

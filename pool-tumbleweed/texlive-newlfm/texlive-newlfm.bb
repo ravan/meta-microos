@@ -9,10 +9,10 @@ letterhead (picture, information, etc.) in a box and all sizing \
 is set automatically."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.9.4svn15878"
+PV = "2026.226.9.4svn15878"
 
-RPM_NAME = "texlive-newlfm-2023.209.9.4svn15878-55.1.noarch.rpm"
-RPM_HASH = "31c78444b4cafe27b62cce804cbb3173db0f478d5bc74cc150d94de4d20229aa31fc639424bfcede4327346b84882822713f6134573b9f5071f9ca2986750d45"
+RPM_NAME = "texlive-newlfm-2026.226.9.4svn15878-61.2.noarch.rpm"
+RPM_HASH = "19cccb199df1781988bf235d79fc957e75de7fcb6e84badbd8578f808f4b245e8aea9641c5c58ffee5c0f5ecd85e8de3bcb88d4508b48c0d0878887122348774"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-addrset.sty \

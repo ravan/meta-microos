@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-icsv"
 DESCRIPTION = "This package includes the documentation for texlive-icsv"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn15878"
 
-RPM_NAME = "texlive-icsv-doc-2023.209.0.0.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "a0b5122e6f37a0f25d7ea341be0dcc282a02d1a9806c6208c01d62c02db57a282cb3851a4ce2c86585c5b66aa6397770a0e3778592d0f21ca49541109d1b128a"
+RPM_NAME = "texlive-icsv-doc-2026.226.0.0.2svn15878-60.2.noarch.rpm"
+RPM_HASH = "c26e6b9c490d33903391b7fb98b069a49b7b08880de1f9172d5f3eba13a1a30242d8d79877741b9bff0b57ca905c262e938a98331c379eca237c0f4d745b45bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-icsv-doc"

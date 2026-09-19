@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.2"
 
-RPM_NAME = "yast2-aduc-2.2-1.11.noarch.rpm"
-RPM_HASH = "7a6af13ea1c581cdb90cc264384eb675d526b406f95365bde9bf905bae2abae1551e9f97ac92ab3e00b853325a8785d36fdebaf46312bbd0b8727b9f4f05b190"
+RPM_NAME = "yast2-aduc-2.2-1.25.noarch.rpm"
+RPM_HASH = "9d877682bd72cecdfad25051b162231bb059e334c8310ec4ed63767a6bb80b5f09479db5622598b8f159e71c58e87db869bfd0b690bb01903b5dc70f7b48d614"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast-aduc \

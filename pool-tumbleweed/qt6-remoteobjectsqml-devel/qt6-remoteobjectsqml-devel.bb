@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 RemoteObjectsQml library - Development files"
 DESCRIPTION = "Development files for the Qt 6 RemoteObjectsQml library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-remoteobjectsqml-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "05998bff9a73156bf2a4135e588680b21c157267b0357a44eaf54fd8ae30bc4495bb79c19628cbe38d9f607de63ff40e9ed37d5a6b4c572b60c70595786b5bbd"
+RPM_NAME = "qt6-remoteobjectsqml-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "9ff7ac8513dbc8cdf87e420acfdce484fe8057ab43b10935d45f3332065cfdfaba052df7bb46644c0fa639f2102a2587217aa8b1b17f80fae1817d7351609725"
 
 RPROVIDES:${PN} += "cmake-Qt6RemoteObjectsQml \
 pkgconfig-Qt6RemoteObjectsQml \

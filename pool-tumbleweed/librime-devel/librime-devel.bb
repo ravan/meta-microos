@@ -6,10 +6,10 @@ Mainly it's about to express your thinking with your keystrokes. \
 This package is the development headers of Rime."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.3"
+PV = "1.17.0"
 
-RPM_NAME = "librime-devel-1.7.3-2.20.aarch64.rpm"
-RPM_HASH = "720ea3e00aa0efbba51ad37f1a32d341bd82e894cc45db067a5924d0d667c9b74e5ae5978440fc7e0f0bb1ed6e66c10b54b54ba2ac761d91ea4443ac61e53996"
+RPM_NAME = "librime-devel-1.17.0-1.1.aarch64.rpm"
+RPM_HASH = "4d6760b9f58dc2bfa2a99d617b273f622e331d6183850c75d46d7ccfbf9caf1156265be4624b04d6d2634787f5bc6f1ea26b2c8fa8d55ef1dc32f7b8d645c9fd"
 
 RPROVIDES:${PN} += "cmake-Rime \
 librime-devel \

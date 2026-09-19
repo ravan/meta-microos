@@ -13,10 +13,10 @@ the experimental LaTeX 3 coding conventions and the LaTeX 3 \
 support packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.2asvn62655"
+PV = "2026.226.6.2asvn76924"
 
-RPM_NAME = "texlive-chemmacros-2023.209.6.2asvn62655-54.1.noarch.rpm"
-RPM_HASH = "6b6079f16b8f308ade889f1b76902584557a8c8487c9c48e46cb1a554a8b7cacf0f8ef46719fa8e022759dc50bc35be229e8c65863b1349d8b626df6779a4549"
+RPM_NAME = "texlive-chemmacros-2026.226.6.2asvn76924-60.2.noarch.rpm"
+RPM_HASH = "6a9556ad37eae6ddeb220f2ac968d7b30e46c7d9c6f1c263e8802809f6845f31530fd83db1d88a19ffdda8d021c9d58b76a23a06616cfb4aa8b6f850068295bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemmacros-2015-02-08.sty \

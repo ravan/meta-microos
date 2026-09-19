@@ -14,17 +14,17 @@ The test is run by an 'END' block in Test::NoWarnings. It will not be run \
 when any forked children exit."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.06"
+PV = "1.60.0"
 
-RPM_NAME = "perl-Test-NoWarnings-1.06-1.11.noarch.rpm"
-RPM_HASH = "32e22236f3687df89a54affe356d4dfb2c51cd3b7b55b8383e558b46f9fc68ce4103bc78430b6f192a9288e135ee0b04cfbc01cd90aaaf5b8865e940d42deebf"
+RPM_NAME = "perl-Test-NoWarnings-1.60.0-1.7.noarch.rpm"
+RPM_HASH = "8ba9717a13baa1c2fa293c09cf04e18ce727d6ae72aae887b3f36483ef8c9daa36a859564fe37b30e52705e3ba582e66480d92d624cfcc46123f22520b71d515"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--NoWarnings \
 perl-Test--NoWarnings--Warning \
 perl-Test-NoWarnings"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Test--Builder"
 
 inherit rpm

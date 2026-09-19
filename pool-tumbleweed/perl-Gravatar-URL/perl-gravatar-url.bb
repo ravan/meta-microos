@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.07"
 
-RPM_NAME = "perl-Gravatar-URL-1.07-1.22.noarch.rpm"
-RPM_HASH = "653cde2f6a920f00090621f022c9f42c3a1ac6260fee055b864e0dd66e30f3873e26574094848d70f31ddd00389baac906770c837e1b6c2a0145376db5806287"
+RPM_NAME = "perl-Gravatar-URL-1.07-1.36.noarch.rpm"
+RPM_HASH = "f652654750e423809c71aaca6a7a11a4eda10cdcbbfc657ba08d1f24f94d2cd169772ea390d9d4752a35168457c4c0b5c284c6bde74833ea3ce905da68068415"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Gravatar--URL \
@@ -20,7 +20,7 @@ perl-Gravatar-URL \
 perl-Libravatar--URL \
 perl-Unicornify--URL"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Digest--SHA \
 perl-Net--DNS \
 perl-URI--Escape \

@@ -2,32 +2,32 @@ SUMMARY = "Alphabet Learning Game"
 DESCRIPTION = "Helps to learn the alphabet and read some syllables."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "klettres-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "91e7844a10200ad37543f34926f082ac72ccfbf45582be71a7629c521a155385aaa4f0e085962ee9c45c7a338ad27513aae7f72f354e412b399a453b2dbaa6a0"
+RPM_NAME = "klettres-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "3593c017bbe3ec0ff204462f9461b2ba14111f87d0f7599aee55564f58863e8936eeeb67cc1e4175606d8e30416d0b443879dc00bf4522da4ff6ad1e8ec92252"
 
 RPROVIDES:${PN} += "klettres \
 klettres5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5NewStuff.so.5 \
-libKF5NewStuffCore.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6NewStuffCore.so.6 \
+libKF6NewStuffWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
-libphonon4qt5.so.4 \
 libstdc++.so.6"
 
 inherit rpm

@@ -5,10 +5,10 @@ system. \
 Python binding part."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.4"
+PV = "1.16.2"
 
-RPM_NAME = "python3-libnvme-1.4-3.1.aarch64.rpm"
-RPM_HASH = "0e5efe2a536918483dfd906e39ca324d4a8084ca694b79d4ddbb99abe03a5124b7b294bb5b3599128430e1570b50b561541bf7c9c46c5863dfa850b1b776c6a7"
+RPM_NAME = "python3-libnvme-1.16.2-1.3.aarch64.rpm"
+RPM_HASH = "601547b898ce284ba4aa9bc3f40d50687c712659ade1a3494cc90c2cfd477d824269a21925deea509811127d679ec6c5f9b1c857c499a731dc9104d2982afc79"
 
 RPROVIDES:${PN} += "python3-libnvme"
 

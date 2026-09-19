@@ -2,10 +2,10 @@ SUMMARY = "Translations for package eiciel"
 DESCRIPTION = "Provides translations for the 'eiciel' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.0"
+PV = "0.10.1"
 
-RPM_NAME = "eiciel-lang-0.10.0-1.1.noarch.rpm"
-RPM_HASH = "d089bba244d37bd39b54bdfb9a616c80f396709e2f48c00e6d4192159b5928227c716222b2c33b06153780d2499e4f04f3cad4862dabf3900a8c592ca1932a2b"
+RPM_NAME = "eiciel-lang-0.10.1-1.4.noarch.rpm"
+RPM_HASH = "f407abbf5ffd3b42e5774002917c44873c331b9757c5fea69970ecda5fd8363578fe769f69e2fc9c0ce2fd25fe2a3cdea18eec609f6678b40f9312d2c03a2062"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eiciel-lang \

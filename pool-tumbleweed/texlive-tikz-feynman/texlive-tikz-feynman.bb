@@ -8,10 +8,10 @@ tikz-feynman allows fine-tuned placement of vertices so that \
 even complex diagrams can still be generated with ease."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn56615"
+PV = "2026.226.1.1.0svn56615"
 
-RPM_NAME = "texlive-tikz-feynman-2023.209.1.1.0svn56615-53.1.noarch.rpm"
-RPM_HASH = "502d5533d654e2c0f64c87ebcf30125b48dff119bde36df8b6f7bd8769585f475849082f07b67e8a5949d9e9eb44da2fbe955e924e637cd6c4e95274d4a1f47c"
+RPM_NAME = "texlive-tikz-feynman-2026.226.1.1.0svn56615-59.2.noarch.rpm"
+RPM_HASH = "0a69e646c6c5be5928cd53f14a0d9d8ea69a20734f6af1734f30cb0981063acc89ae9df599504b9af58c340a423304dc73547192551e2c92279654f9abdbe02f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-feynman.sty \

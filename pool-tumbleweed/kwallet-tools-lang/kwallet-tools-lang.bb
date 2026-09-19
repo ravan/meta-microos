@@ -1,13 +1,15 @@
-SUMMARY = "Safe desktop-wide storage for passwords"
-DESCRIPTION = "Provides translations to the package kwallet-tools-lang"
+SUMMARY = "Translations for package kwallet-tools"
+DESCRIPTION = "Provides translations for the 'kwallet-tools' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kwallet-tools-lang-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "ab551e9e777869e2bacd7ceb64cc41e20f554cd5b2da28ed709bb87af3c8560892429a424db9208e4b8094d5f586a18e202767cfab30f06530f0cad9fd5fa8ff"
+RPM_NAME = "kwallet-tools-lang-5.116.0-2.9.noarch.rpm"
+RPM_HASH = "cce6b1345fd5929639ea00a5ae8ffbde053b198b3af4f3ddcae16ce541bf7f10e9f8481802863d33ef449d6c3b4b32355183cc89efe9f759ee431e40f9361525"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kwallet-tools-lang \
+kwallet-tools-lang-all \
 locale-kwallet-tools-ar \
 locale-kwallet-tools-az \
 locale-kwallet-tools-bg \
@@ -18,6 +20,7 @@ locale-kwallet-tools-da \
 locale-kwallet-tools-de \
 locale-kwallet-tools-el \
 locale-kwallet-tools-en-GB \
+locale-kwallet-tools-eo \
 locale-kwallet-tools-es \
 locale-kwallet-tools-et \
 locale-kwallet-tools-eu \
@@ -25,6 +28,7 @@ locale-kwallet-tools-fi \
 locale-kwallet-tools-fr \
 locale-kwallet-tools-gd \
 locale-kwallet-tools-gl \
+locale-kwallet-tools-he \
 locale-kwallet-tools-hu \
 locale-kwallet-tools-ia \
 locale-kwallet-tools-id \

@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 Scxml library"
 DESCRIPTION = "The Qt 6 Scxml library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Scxml6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "faa1464d61cf2cd800f8735e6dfc34315ccd7d846ad1993fc43346c94b923d858d56dfcce7ed89be244b9265d3b3d69a8367bca3363890e967c67a313f126a85"
+RPM_NAME = "libQt6Scxml6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "5a1e6c43b27d7713743d060fd66e06553fd6cc1dad3cea4927469527ca9447213faabfc91d32045fd6cbff2387de3326a88cd5c813eca2cd0ab024ddc345c114"
 
 RPROVIDES:${PN} += "libQt6Scxml.so.6 \
 libQt6Scxml6"

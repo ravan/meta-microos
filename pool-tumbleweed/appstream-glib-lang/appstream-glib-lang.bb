@@ -2,10 +2,10 @@ SUMMARY = "Translations for package appstream-glib"
 DESCRIPTION = "Provides translations for the 'appstream-glib' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.8.2"
+PV = "0.8.4"
 
-RPM_NAME = "appstream-glib-lang-0.8.2-1.4.noarch.rpm"
-RPM_HASH = "41ea08179bd0888d146536b335aaeb6a964a6912b67c12689bf11fb23730ca169c55064a241372191f44ae40e1b16641da9c78d70a8e155515ae29a6f9743a11"
+RPM_NAME = "appstream-glib-lang-0.8.4-1.1.noarch.rpm"
+RPM_HASH = "44488e42cc4c47724bf34897edf5e24c4eab71f3a75c153dced1d22c7e8fc46bd02ba557ea6cc6b17168f76e73154264e03e91abff976c73ab3e7a4fd97c5384"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "appstream-glib-lang \

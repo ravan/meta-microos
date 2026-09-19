@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.2"
 
-RPM_NAME = "dhcpd-pools-3.2-1.3.aarch64.rpm"
-RPM_HASH = "d0a4f9586bba1209b35643741fc716503fce8415b137603d3358685f2d2dcbca87ede7edb59bb1a8f21f6cf73192cbe4a6b5ce4ab9cf26a6e370247ae2a63d60"
+RPM_NAME = "dhcpd-pools-3.2-1.13.aarch64.rpm"
+RPM_HASH = "accd3e3c9d828f7020f2415d7743a91ebf0cb17d892112ee14d5b038f4a564f105c3649114f2c48f7d69c3c461acd6078561272031e7fc6dc28a7bd71ca626e2"
 
 RPROVIDES:${PN} += "dhcpd-pools"
 

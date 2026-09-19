@@ -7,10 +7,10 @@ to commonly-used polygons are provided, as well as a command \
 the xkeyval package for argument decoding."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.63svn35062"
+PV = "2026.226.1.63svn35062"
 
-RPM_NAME = "texlive-pst-poly-2023.209.1.63svn35062-54.2.noarch.rpm"
-RPM_HASH = "7489416a1e8283928c329257bb238e1b4c0b29005857388053003fb0a7385d9c134014ad75d2b6141d1ec58b8c9fa5f2783f24afbda993f8af3ff21722501636"
+RPM_NAME = "texlive-pst-poly-2026.226.1.63svn35062-60.4.noarch.rpm"
+RPM_HASH = "43387bead1802c7c9f66ed69626462a4580e73452ff14ecc592a331e9cef102a0da1c019b5a3dd9443e74ebbe55ee607d70128b6f88810b2592244599d6ebf66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-poly.sty \

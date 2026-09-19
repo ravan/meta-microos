@@ -8,10 +8,10 @@ This package provides a development environment for building \
 applications using the OpenGL|ES 3.x APIs."
 LICENSE = "MIT"
 
-PV = "23.1.7"
+PV = "26.2.2"
 
-RPM_NAME = "Mesa-libGLESv3-devel-23.1.7-357.1.aarch64.rpm"
-RPM_HASH = "f7f2529a3a6eafb6ea889e73bcc87e1e32fa1f819f2f8ec35ec29389bf6daee5d3358bd654bb9bb4ff065aa011e4a1c1a9e2cdbd74bd59da3ca1718886f91f63"
+RPM_NAME = "Mesa-libGLESv3-devel-26.2.2-2.1.aarch64.rpm"
+RPM_HASH = "5d7a731ba9a7b2d9a6a26176c516ed26fab964aa8d862151c10ee97745698d6ecc4ef67b9dcd130458ba32fd05c100bc1092a6f7db97c946fd8f1a3660ad0155"
 
 RPROVIDES:${PN} += "Mesa-libGLESv3-devel"
 

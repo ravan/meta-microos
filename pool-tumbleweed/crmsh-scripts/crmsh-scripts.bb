@@ -4,10 +4,10 @@ directly from the crm command line, or used by user interfaces \
 like hawk to implement configuration wizards."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5.0+20230809.ddb17a0b"
+PV = "5.1.0+20260828.be794583"
 
-RPM_NAME = "crmsh-scripts-4.5.0+20230809.ddb17a0b-1.1.noarch.rpm"
-RPM_HASH = "20d32ef0f1084dd428859e0a8ff48de3c45ba4480995318e14591b98c1c0fa69e127eacfc020dd9c9f45b4dc2260ad1864b47fcd889ab097f8e5f0fb726f0081"
+RPM_NAME = "crmsh-scripts-5.1.0+20260828.be794583-1.1.noarch.rpm"
+RPM_HASH = "29e9a0bb495c1713a1249dec8e9494ab94ad4b4f7ea0fd2df49e48819cb8d972359cc30cef34d3aabfd5352dc1b543bf619ffa7c4708bc77b859a5d753853f58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crmsh-scripts"

@@ -5,15 +5,15 @@ binary format. It supports advanced features such as adding a \
 preprint number or watermarks."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn64430"
+PV = "2026.226.svn71902"
 
-RPM_NAME = "texlive-dviasm-2023.209.svn64430-54.2.noarch.rpm"
-RPM_HASH = "ea72fade5438218f2014914dd6c27fca0bc88ae2aa76949a4c2035e3d1252ef82f30cba5906b5062d7c3dffbd8068a396e37bbb4e094d9c3b9677946f6f31b63"
+RPM_NAME = "texlive-dviasm-2026.226.svn71902-61.4.noarch.rpm"
+RPM_HASH = "ee88658d59c364434051462909eaa74b1ef926b4f3ac9638538e863329dbf8c0c7dd8b4b0d4275f26bf8ed4368eeaa8d2910d1a209ea7f714a2e4990d36b9ae7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dviasm"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ed \

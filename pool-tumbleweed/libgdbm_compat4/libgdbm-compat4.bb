@@ -7,10 +7,10 @@ database. \
 This library is providing compatibility wrappers."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.23"
+PV = "1.26"
 
-RPM_NAME = "libgdbm_compat4-1.23-2.1.aarch64.rpm"
-RPM_HASH = "ac5a21c8d2b95333a79481e32979642838b568a5c599f4e64bfbb8280f5289c70b306b5ad385417342155e106497678f28a4219c2aecc8519536af12267ea37f"
+RPM_NAME = "libgdbm_compat4-1.26-1.6.aarch64.rpm"
+RPM_HASH = "a513b8d4b8a3b46cc104512539ce876105048d935760adc601da73ac4727f7c819491df002903aae76a0bea8b8f51bdbb1e4432c9673e9a5478ca3dd089925f3"
 
 RPROVIDES:${PN} += "libgdbm-compat.so.4 \
 libgdbm-compat4"

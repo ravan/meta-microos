@@ -3,8 +3,8 @@ LICENSE = "MIT"
 
 PV = "20180125"
 
-RPM_NAME = "patterns-devel-python-devel_python3-20180125-4.9.aarch64.rpm"
-RPM_HASH = "58f8aaea7ccdf150a2850ad8f2ff71d0a413973352a83f6c3058e8010e7fab721204714c19b92e3558db757632af27889c2c2f01b2ffe0ea76e65a4b9ce845d4"
+RPM_NAME = "patterns-devel-python-devel_python3-20180125-4.17.aarch64.rpm"
+RPM_HASH = "789a4541b0aa27373fe7857ef0a79b58a8ce1475dd41b997beae32e525d913c36ead67de7af8ec62cb5b65f83cc2d67830fec541756c7e8c6eccd24c225b8061"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

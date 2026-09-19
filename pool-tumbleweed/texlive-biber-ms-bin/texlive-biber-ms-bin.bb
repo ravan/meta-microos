@@ -2,15 +2,15 @@ SUMMARY = "Binary files of biber-ms"
 DESCRIPTION = "Binary files of biber-ms"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn66478"
+PV = "2026.20260301.svn66478"
 
-RPM_NAME = "texlive-biber-ms-bin-2023.20230311.svn66478-93.2.noarch.rpm"
-RPM_HASH = "3f4a3db77eaaf211c0a685de2983cadf5a225a838025fc445b8bd47932d1f1d3ae2f8362b37041fb3b442e169dd48be734059648a5c7083367ea83f595d45afd"
+RPM_NAME = "texlive-biber-ms-bin-2026.20260301.svn66478-120.4.noarch.rpm"
+RPM_HASH = "346b061998629c69a3fe31dda8233281822398c6e559b9b4b35da15b1edbe630a924acd5530f9842c6cb8040619bf35dbf4814afeb43847fe6f78d83a7b6cca7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biber-ms-bin"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/perl \
 perl \
 perl-Biber \
 perl-LWP--UserAgent \

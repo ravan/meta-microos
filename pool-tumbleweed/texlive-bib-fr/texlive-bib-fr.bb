@@ -5,10 +5,10 @@ redefining FUNCTIONs named fr.*, at the beginning (lines \
 50-150) of each file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn15878"
+PV = "2026.226.1.5svn76790"
 
-RPM_NAME = "texlive-bib-fr-2023.209.1.5svn15878-54.1.noarch.rpm"
-RPM_HASH = "690858d3d2070614d8ed9f4acfeb21f18c3f1a594cdda605b4a12f9da69bdd3a6799c83a9837127ec3d29b021713bb4d5d69200fd658efd431a987ad9e3fd7f6"
+RPM_NAME = "texlive-bib-fr-2026.226.1.5svn76790-61.2.noarch.rpm"
+RPM_HASH = "7dce50d4f8009e306a90797d6f545717ed29453cbfbdee1b9a28db6c3af2be2ac3a9be44a19c90479d91e1d02aed96e2287ff773e330a1d2b0655406800aad27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bib-fr"

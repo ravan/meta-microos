@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dviincl"
 DESCRIPTION = "This package includes the documentation for texlive-dviincl"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.00svn29349"
+PV = "2026.226.1.00svn29349"
 
-RPM_NAME = "texlive-dviincl-doc-2023.209.1.00svn29349-54.2.noarch.rpm"
-RPM_HASH = "dd50619ddff1b8b8f5274a0a8a4cb367fb47a00fef0c5975ff10da9b1e457740d1eb6a7e183d29946c00f5378a9ddaf578b9eec72141eb29123994a6ec8b26b3"
+RPM_NAME = "texlive-dviincl-doc-2026.226.1.00svn29349-61.4.noarch.rpm"
+RPM_HASH = "e1e4ec6ff34bae7dd0fef75d7aa2d558aa26d83ace2ea92328231a9ace11619cdc251a72a90b6bd6f3477343e6e88a2737ee591552aec2336aba0053e35e96b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-dviincl-doc-en;pl \

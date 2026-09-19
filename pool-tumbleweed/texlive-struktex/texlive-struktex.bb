@@ -9,10 +9,10 @@ for alternatives, etc. The charts are drawn using the picture \
 environment (using pict2e for preference)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3c_0_g7d3fc5bsvn47931"
+PV = "2026.226.3.0asvn75565"
 
-RPM_NAME = "texlive-struktex-2023.209.2.3c_0_g7d3fc5bsvn47931-58.1.noarch.rpm"
-RPM_HASH = "9d96d3f4aac94b9f7c9647ca784963a034cd7877b7edb0fc6e6ee8b87a94b564b2e05715f50cb2b2b680bdfc688f1242cda94c30a2d5c7d818a27aefb7344049"
+RPM_NAME = "texlive-struktex-2026.226.3.0asvn75565-64.2.noarch.rpm"
+RPM_HASH = "b5b3dd3be0f5845d3c474d0d386279fecc88418c1c96ef2d867dd1f169dab5bd8412149094008b374e9689ddf4476962ff132f416c985c8f8fd33a3055ae1818"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-strukdoc.sty \
@@ -27,14 +27,15 @@ ed \
 findutils \
 grep \
 sed \
+tex-cleveref.sty \
 tex-color.sty \
 tex-curves.sty \
 tex-hyperref.sty \
 tex-ifpdf.sty \
 tex-ifthen.sty \
-tex-nameref.sty \
 tex-pict2e.sty \
 tex-url.sty \
+tex-varioref.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -2,10 +2,10 @@ SUMMARY = "Backend wand for pqiv"
 DESCRIPTION = "Backend wand for pqiv"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12"
+PV = "2.13.3"
 
-RPM_NAME = "pqiv-wand-2.12-1.4.aarch64.rpm"
-RPM_HASH = "35db78b78b10bff14c405f56602a11de3c1bedddb90521091e55cd0df01ff401e8df6b0b02b35a39cff46b71d329ac68bcf2f6214f29aa42877fa5fa2133c2ce"
+RPM_NAME = "pqiv-wand-2.13.3-1.4.aarch64.rpm"
+RPM_HASH = "d604a9faeb462ee55d187d7031606a6f7b88a9985e8d5ddbcf43000721733adef50fbab347013afed491df08eb77b0f99e70dd8a6e6e1d5d9dc25faf165e3bcb"
 
 RPROVIDES:${PN} += "pqiv-wand"
 

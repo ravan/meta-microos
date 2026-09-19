@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xcpdftips"
 DESCRIPTION = "This package includes the documentation for texlive-xcpdftips"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn50449"
+PV = "2026.226.1.1svn50449"
 
-RPM_NAME = "texlive-xcpdftips-doc-2023.209.1.1svn50449-53.2.noarch.rpm"
-RPM_HASH = "be7a52eba312ed3eb3539ba9ca21a8c3f1e8acf7549af72cc563eac1c1e66ab77212cd163c79c48e22570547bb8312455a1a689d32585daf539261ac0eda003a"
+RPM_NAME = "texlive-xcpdftips-doc-2026.226.1.1svn50449-59.4.noarch.rpm"
+RPM_HASH = "59297cdbac97cc7ddae8251ed6cf78af87330ffd608ae702ce02f4d00b7883c98dc495b7222a67923cf24e006bbdcf6915f40b8383b29f77a56e69bf2333ec49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xcpdftips-doc"

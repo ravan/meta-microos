@@ -2,45 +2,49 @@ SUMMARY = "Haskell persistent library development files"
 DESCRIPTION = "This package provides the Haskell persistent library development files."
 LICENSE = "MIT"
 
-PV = "2.14.5.1"
+PV = "2.17.1.0"
 
-RPM_NAME = "ghc-persistent-devel-2.14.5.1-1.9.aarch64.rpm"
-RPM_HASH = "618c5d8f7ca09b3070d8b6a389b96bbfaba5ee729a5b71f0cedc81e9b1870821b8619af23f810d3720ab09e14877db1d1c35ce627aeca21a4489c17b0539e39b"
+RPM_NAME = "ghc-persistent-devel-2.17.1.0-1.19.aarch64.rpm"
+RPM_HASH = "1be712e177418d2489516bc85d271f078cdd5bb77bd5a8918c84647a56c745767cad7c1380f027f4e7ed2d4638250a03f43447038d7bde5dfae665268bbcf6e3"
 
-RPROVIDES:${PN} += "ghc-devel-persistent-2.14.5.1-Gjrp3WYLCFS91AokYH8j1m \
+RPROVIDES:${PN} += "ghc-devel-persistent-2.17.1.0-4wNOAx2iKPh9qy3cL3mEtA \
 ghc-persistent-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-devel-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
-ghc-devel-containers-0.6.7 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-fast-logger-3.1.2-2QS5oj3W57wGcX3QgTrERi \
-ghc-devel-http-api-data-0.5-9CvKaE1JZO8KjKgwdog9dy \
-ghc-devel-lift-type-0.1.1.1-4CMQtv7szwz8L9BvxxqTk1 \
-ghc-devel-monad-logger-0.3.40-7M7roko8a7PJ68wJBTUT6s \
-ghc-devel-mtl-2.2.2 \
-ghc-devel-path-pieces-0.2.1-JEJ6IegDP1FHzqmKWi176n \
-ghc-devel-resource-pool-0.4.0.0-7uUtnYEtaeP22tTkIEO3ty \
-ghc-devel-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-devel-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
-ghc-devel-silently-1.2.5.3-DooEMl8ysOU4ZpgKypCRy8 \
-ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-text-2.0.2 \
-ghc-devel-th-lift-instances-0.1.20-BKODVtFlRayDjKs9vGaGq3 \
-ghc-devel-time-1.12.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unliftio-0.2.25.0-3qMuNOSHhnhIHN5x7dVwVu \
-ghc-devel-unliftio-core-0.2.1.0-LP03A4AUPGIIJc7XWMX3ES \
-ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-devel-vault-0.3.1.5-JTstBlaocLP2eokwHW0Uig \
-ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
+ghc-devel-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-devel-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7 \
+ghc-devel-attoparsec-aeson-2.2.2.0-3eQT8OmEdZa5yR7rBroXfj \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-base64-bytestring-1.2.1.0-9fPiMCS8Y4g8itFjJTGk2y \
+ghc-devel-blaze-html-0.9.2.0-93B80xR5emg3yG3V6J7j6o \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-conduit-1.3.6.1-DuJaiNNDon54jV6QjcNayt \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-fast-logger-3.2.6-JkXOEB4fbDV8mDlAr0wMkH \
+ghc-devel-http-api-data-0.6.3-I1ef71ZD4mvBWZMbbifsIw \
+ghc-devel-lift-type-0.1.2.0-5Wrf181y1CRJpVkgxBFKkO \
+ghc-devel-megaparsec-9.7.1-3bWkE5RywYh6b8gn4lQrB6 \
+ghc-devel-monad-logger-0.3.42-GqHwch1CK1c5RziOTPSbJG \
+ghc-devel-mtl-2.3.2-37ef \
+ghc-devel-path-pieces-0.2.1-FtFHzM20JKUFHdFVBop6JH \
+ghc-devel-replace-megaparsec-1.5.0.1-3raT401RHe83TCy1jsbTxZ \
+ghc-devel-resource-pool-0.5.0.1-CRHTi96cJqx7YSyfyqtukW \
+ghc-devel-resourcet-1.3.0-F8ZRgExkptBLIQxE9m0AZE \
+ghc-devel-scientific-0.3.8.1-EfN6leGWc5k1t5YPK2dkVk \
+ghc-devel-semigroupoids-6.0.2-B6Y5GIvJ2JI8mXJpMQTJaF \
+ghc-devel-silently-1.2.5.4-54yCGOZ1hqDAcZZPz9a2Bu \
+ghc-devel-template-haskell-2.23.0.0-358a \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-th-lift-instances-0.1.20-A0nCC2bmuVRHGZj0nSUeyw \
+ghc-devel-time-1.14-a7dc \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unliftio-0.2.25.1-8vIVLEQRNyE8ysD18Y7w9V \
+ghc-devel-unliftio-core-0.2.1.0-HFUY5mS3bsg3RW1edumY92 \
+ghc-devel-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-devel-vault-0.3.2.0-GYOqPpJA2DW5Qz2IFtkvei \
+ghc-devel-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
 ghc-persistent"
 
 inherit rpm

@@ -48,12 +48,12 @@ that. FormHandler can be used in any Perl application. \
  \
 More Formhandler documentation and a tutorial can be found in the manual at \
 HTML::FormHandler::Manual."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.40068"
+PV = "0.410.2"
 
-RPM_NAME = "perl-HTML-FormHandler-0.40068-1.22.noarch.rpm"
-RPM_HASH = "8e2d0a7848430617e414f2e3ba9bbb7de14bedb54534d7eda05701d7a481e3b8d43e94a1a6aa99b6518e268e53b7431e237b4c16a15bcc162c1ccb97b0457a71"
+RPM_NAME = "perl-HTML-FormHandler-0.410.2-1.1.noarch.rpm"
+RPM_HASH = "470f2e85099ca3891fbe8a433ff31f70bf153c36d086433ad14ae29709d78c4f1a00f2fbd25e6ef3fa80b30d91aaa1439aec9853aa714426a9c2ff6b793935f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--FormHandler \
@@ -193,10 +193,8 @@ perl-HTML--FormHandler--Widget--Wrapper--TableInline \
 perl-HTML--FormHandler--Wizard \
 perl-HTML-FormHandler"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Load \
-perl-Crypt--Blowfish \
-perl-Crypt--CBC \
 perl-Data--Clone \
 perl-DateTime \
 perl-DateTime--Format--Strptime \
@@ -207,14 +205,12 @@ perl-HTML--TreeBuilder \
 perl-JSON--MaybeXS \
 perl-List--Util \
 perl-Moose \
-perl-MooseX--Getopt \
 perl-MooseX--Types \
 perl-MooseX--Types--Common \
 perl-MooseX--Types--LoadableClass \
 perl-Sub--Exporter \
 perl-Sub--Name \
 perl-Try--Tiny \
-perl-aliased \
 perl-namespace--autoclean"
 
 inherit rpm

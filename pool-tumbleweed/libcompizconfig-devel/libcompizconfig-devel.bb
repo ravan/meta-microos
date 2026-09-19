@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "libcompizconfig-devel-0.8.18-2.12.aarch64.rpm"
-RPM_HASH = "fa5244dd1977f5ecb84a3e67c4df1bff7dec1e2dcad1aec09b0ef0d0557f82c18e2e1c0ae8ba9288c579ac44a50d96084d30c49552b0fb8c56adc18352d8ad01"
+RPM_NAME = "libcompizconfig-devel-0.8.18-2.42.aarch64.rpm"
+RPM_HASH = "5de44d003bc292edef106b380d51a9b47b74c3d4b7cbe8aecc90d14d2e7ab42004cd1b717be260016a308d749b7d62c7123de8082d4760c6a6c0c978dcfc8990"
 
 RPROVIDES:${PN} += "libcompizconfig-devel \
 pkgconfig-libcompizconfig"

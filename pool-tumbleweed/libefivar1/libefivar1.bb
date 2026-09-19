@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "38"
 
-RPM_NAME = "libefivar1-38-1.4.aarch64.rpm"
-RPM_HASH = "5e5774d339d6a0b3806e1591f2fe946dc5bbd0fea03de13de1687238aa10979bd91ac2d7f36e6e90f460994e161e2dfe9d3adde4bdec58430a9329dc677ccce5"
+RPM_NAME = "libefivar1-38-3.9.aarch64.rpm"
+RPM_HASH = "6e89c116e231633167010de5afb60340c82a4eb34721a88cdd792ff1eb7cdae6ae0bd06cff1cc0271a8c941a173f541ef183d409ab3ee2b2f8a473332dfb6481"
 
 RPROVIDES:${PN} += "libefiboot.so.1 \
 libefisec.so.1 \

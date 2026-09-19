@@ -19,10 +19,10 @@ DESCRIPTION = "Architecture-independent programs from hxtools. \
 * wktimer(1) — work timer"
 LICENSE = "GPL-2.0-or-later & WTFPL"
 
-PV = "20230411"
+PV = "20251011"
 
-RPM_NAME = "hxtools-scripts-20230411-1.2.noarch.rpm"
-RPM_HASH = "f7dc487a125e8d764feb5c6c5b8c4064138a78d0d80939f227da7e548b9d95623ac6c4398cad4bfd8be50d91140c70f7eb16daeae5b9903ed9330dd82be78d0a"
+RPM_NAME = "hxtools-scripts-20251011-1.6.noarch.rpm"
+RPM_HASH = "151a4fcdd26440e5facbd5bcf2cb8aeda57830458ad253174d4047f32d1d645731a1709baaa222d9595fdcb049d305ead7332e4a20ea9191a6b5d6645d742d95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hxtools-scripts"

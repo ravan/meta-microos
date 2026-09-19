@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfsclfs."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210417"
+PV = "20240430"
 
-RPM_NAME = "libfsclfs-devel-20210417-3.6.aarch64.rpm"
-RPM_HASH = "5fcb6b3a6fb8e62811369949a27141eedbc0065f85fda2a90f16b95afce8165b38e1b2ea613865341e328816cbaa92b3b82bc9f347a3b30383277d663239c081"
+RPM_NAME = "libfsclfs-devel-20240430-1.21.aarch64.rpm"
+RPM_HASH = "6bd2845ccf3d55f0aba4f8f99a14c9c761795c8120d7e217601a8af4da5077ea47ebd7d3f5318225388d021f0e24085875b43f3851ec84e7d864a1bbca1db729"
 
 RPROVIDES:${PN} += "libfsclfs-devel \
 pkgconfig-libfsclfs"

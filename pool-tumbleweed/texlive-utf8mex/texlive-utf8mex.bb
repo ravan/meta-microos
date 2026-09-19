@@ -3,10 +3,10 @@ DESCRIPTION = "The bundle provides files for building formats to read input in \
 Polish encodings."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-utf8mex-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "797fadf9ad630fa47c293916c96c9954366f525c388beade6f0137bf91a8a9ef37c1e7a5300316992ae7a87da324eff6b1f7d0572dc2be6e95edb57a2fc98039"
+RPM_NAME = "texlive-utf8mex-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "886eb6f874a94cbacd5cb00476e9e3405c8710e376c43bd510e3adce06dfbaaeb61f8fa6febaf0d270f5b475dbf4c41d45bb05500d24dd67c2c3c5dc4319ee17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-utf8-pl.tex \

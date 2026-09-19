@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.12"
 
-RPM_NAME = "NetworkManager-pptp-1.2.12-1.3.aarch64.rpm"
-RPM_HASH = "b9b33595478779120647e034e7cddede7a5a36b88290b785456560767cf27937b3a7b4beb383e228c4a7a5822b31228ee596386a9cbecf5fda941270903145f0"
+RPM_NAME = "NetworkManager-pptp-1.2.12-3.10.aarch64.rpm"
+RPM_HASH = "74b33a61337fecf4670960952d32545049fa6554f21b400051221b21bceed583ca0581e36489a25013de9d1acef4b765b8c229146072edeebf91ea9322e4e103"
 
 RPROVIDES:${PN} += "NetworkManager-pptp \
 libnm-vpn-plugin-pptp.so"

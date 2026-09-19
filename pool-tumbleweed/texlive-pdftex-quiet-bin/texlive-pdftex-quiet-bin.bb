@@ -2,10 +2,10 @@ SUMMARY = "Binary files of pdftex-quiet"
 DESCRIPTION = "Binary files of pdftex-quiet"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn49140"
+PV = "2026.20260301.svn49140"
 
-RPM_NAME = "texlive-pdftex-quiet-bin-2023.20230311.svn49140-93.2.aarch64.rpm"
-RPM_HASH = "6aec34d0c961cb470034e43665d0224153e67db065a3efd596b7cd6943293467202465d5c54ab1b788a87c6a83e5b0165f4de943c004772cfd5732d7a10b014c"
+RPM_NAME = "texlive-pdftex-quiet-bin-2026.20260301.svn49140-120.4.aarch64.rpm"
+RPM_HASH = "527ca73d5716727dff16e06c5c7d5158b6340410c13a0858728a888137fd40e458c0679af6482b162c3219ff7e4b998cb306d54da6cbf77d91e57c87ee8f54dc"
 
 RPROVIDES:${PN} += "texlive-pdftex-quiet-bin"
 

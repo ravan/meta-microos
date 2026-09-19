@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a high-level library to access the DWARF de
 information. This is part of the elfutils package."
 LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
-PV = "0.189"
+PV = "0.194"
 
-RPM_NAME = "libdw1-0.189-5.1.aarch64.rpm"
-RPM_HASH = "4e2664b3cd6dc63ccd9ce96b19c647ba7d2a1ddf79297716d4d66631842ab4a87cfc5d405fb306920e4af0f5b79638fffa74c87a8ab346baf83ef25016b17cd5"
+RPM_NAME = "libdw1-0.194-1.4.aarch64.rpm"
+RPM_HASH = "77449c57613ac97667dd82254a13ad8ee8103c397256fc1bf9dacdd486c8a38f70a905e134a106a547bbcc54aacff221fa33c4c6ccfdc483c46673c65584176d"
 
 RPROVIDES:${PN} += "libdw.so.1 \
 libdw1"

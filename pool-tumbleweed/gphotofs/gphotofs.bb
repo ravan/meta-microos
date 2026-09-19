@@ -43,19 +43,19 @@ Authors: \
     Marcus Meissner <marcus@jet.franken.de> \
     Hans Ulrich Niedermann <hun@users.sourceforge.net> \
     Colin Marquardt <cmarqu@users.sourceforge.net>"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "0.5"
+PV = "1.0"
 
-RPM_NAME = "gphotofs-0.5-7.27.aarch64.rpm"
-RPM_HASH = "5a3ef0623df0ce35a8fbd3b3f71938cf6b7e805a9d777aecbe09bb102fdcb64708ee6420a724cd625e27d5ba03395494af327c97babf5e623c550bc3c52b78fb"
+RPM_NAME = "gphotofs-1.0-2.7.aarch64.rpm"
+RPM_HASH = "db5e9a5b9099320b758836b8bd1ac5b0ea8498fd5c2f33d7eb3f6c097a73195ac92ea81a679900c61ae0a0a72cf3fc24b0ded50acb023d7fceafa3e0d39a7b3b"
 
 RPROVIDES:${PN} += "gphotofs"
 
-RDEPENDS:${PN} += "fuse \
+RDEPENDS:${PN} += "fuse3 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libglib-2.0.so.0 \
 libgphoto2-port.so.12 \
 libgphoto2.so.6"

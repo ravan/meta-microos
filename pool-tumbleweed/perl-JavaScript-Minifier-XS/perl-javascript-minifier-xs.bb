@@ -8,16 +8,16 @@ also *not* breaking the JavaScript. \
 and not just pure Perl."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.15"
+PV = "0.160.0"
 
-RPM_NAME = "perl-JavaScript-Minifier-XS-0.15-1.11.aarch64.rpm"
-RPM_HASH = "e8f35381e2259c8c578f1525a2f9c3038fba2e214d810431cdd8b2319c34759707f6963a2776ef4f0c0f20df24bcefea73a6526ddfe00812ca64f18bc5cf456a"
+RPM_NAME = "perl-JavaScript-Minifier-XS-0.160.0-1.4.aarch64.rpm"
+RPM_HASH = "085af2810abd5aa4bea94b0d840d94b26c47300d60034d319d7457f721bd4d9f3b7ff68b9ba88aefe368b61ceba8ddd9c60439a6c15129b740b6b80e1d8b064a"
 
 RPROVIDES:${PN} += "perl-JavaScript--Minifier--XS \
 perl-JavaScript-Minifier-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

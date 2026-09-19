@@ -5,10 +5,10 @@ libt3window can be used instead of (n)curses for drawing on the \
 terminal."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.4.1"
+PV = "0.4.2"
 
-RPM_NAME = "libt3window0-0.4.1-1.6.aarch64.rpm"
-RPM_HASH = "7800e0b62ac70fbac3b6b8231596ce32a4b3771a00458d6714a614709e3161e3478c78760620017366d90f6bae1865ed71c3c6815ee3380f928f192b20e2953a"
+RPM_NAME = "libt3window0-0.4.2-1.5.aarch64.rpm"
+RPM_HASH = "900a6fc05a8feb60a612e8bd2c3f82645e7ecf729cf6c9155a522f8fe462ab9ff4ced05d4c590b6610ecc94c4ed9dae8d7fc9707b074649b41f66259be1b32b2"
 
 RPROVIDES:${PN} += "libt3window.so.0 \
 libt3window0"

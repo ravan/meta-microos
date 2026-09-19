@@ -7,10 +7,10 @@ This subpackage contains the headers to make use of the MLT C and \
 C++ API."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.16.0"
+PV = "7.40.0"
 
-RPM_NAME = "libmlt-devel-7.16.0-1.2.aarch64.rpm"
-RPM_HASH = "30b093162b1feea3ea18de84b3fab3770a2a6bb12a0c4d9a9eb5c9c04cd3c4f795599851b8aa7cbaaa7e72d77daacbcd3a57f437a93c43079bae3b04bde26fa9"
+RPM_NAME = "libmlt-devel-7.40.0-1.1.aarch64.rpm"
+RPM_HASH = "5b6a2f2dbe33e62ccac20685f0a6394f76ef756ffb73c0a3c22a575bda2d4ff7c277adfc2d2a85b8e9e2d79093c747e9d116a743f715d8b20ec57356292a0bb8"
 
 RPROVIDES:${PN} += "cmake-Mlt7 \
 libmlt++-devel \

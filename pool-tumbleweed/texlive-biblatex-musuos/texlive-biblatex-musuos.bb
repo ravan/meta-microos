@@ -3,10 +3,10 @@ DESCRIPTION = "The style is designed for use with the musuos class, but it \
 should be usable with other classes, too."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn24097"
+PV = "2026.226.1.0svn24097"
 
-RPM_NAME = "texlive-biblatex-musuos-2023.209.1.0svn24097-54.1.noarch.rpm"
-RPM_HASH = "912d7a6e8db687c652f699ce06672abf336c4dbee4343bc646f3690db62f45b30742207f961f6b383a01ba8e9111ede58e3a13393317a7cd7a5bdd66125acda2"
+RPM_NAME = "texlive-biblatex-musuos-2026.226.1.0svn24097-61.2.noarch.rpm"
+RPM_HASH = "d72d20d1260676c4ce1bb197e5cbcf68d5336e4a419cc404f0d166eebe28d7f8e060964185d26b608964cac06088d472d67ef37dcfe45299164018489d05e7cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-german-musuos.lbx \

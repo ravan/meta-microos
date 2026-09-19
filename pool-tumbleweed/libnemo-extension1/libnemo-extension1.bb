@@ -4,15 +4,15 @@ DESCRIPTION = "Nemo is the file manager for the Cinnamon desktop environment. \
 This package provides Nemo's shared libraries."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.6.4"
+PV = "6.6.4"
 
-RPM_NAME = "libnemo-extension1-5.6.4-1.3.aarch64.rpm"
-RPM_HASH = "9d0d3ae399e1aa3b06f3dc16d49c108aeb0c2de3bd5c5f8f4872f65fa52019f23a7bc39f959ffeeaca182f74801b3f5c217259840d68074f27aa52e7e46b3471"
+RPM_NAME = "libnemo-extension1-6.6.4-1.1.aarch64.rpm"
+RPM_HASH = "b9b7689b1c6e0d4fd45fd2fa4c7616e477ba36bcdfb7384a66ae630a30efe1d461a45a223648482ccfa4f046fa575fcea5a3802dac7d97b6d6010cec8d73ea54"
 
 RPROVIDES:${PN} += "libnemo-extension.so.1 \
 libnemo-extension1"
 
-RDEPENDS:${PN} += "/sbin/ldconfig \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-3.so.0 \

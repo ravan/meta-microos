@@ -3,10 +3,10 @@ DESCRIPTION = "Project Hamster is a time tracker for keeping track on how much t
 is spent during the day on activities that are set up."
 LICENSE = "CC-BY-SA-3.0 & GPL-3.0-or-later"
 
-PV = "3.0.3~20"
+PV = "3.0.3"
 
-RPM_NAME = "hamster-time-tracker-3.0.3~20-8.1.noarch.rpm"
-RPM_HASH = "254fe0a2a1b1113e135b2ed34dacde844b488a33bdb0a100ebcaef2399493b4984574dced5c63acad0a21dd50498ef453cd34c9a1578d8ff22eeb1ded1c4a2fe"
+RPM_NAME = "hamster-time-tracker-3.0.3-17.2.noarch.rpm"
+RPM_HASH = "6c689c777d996eed8829f0ece2f80e4bf2302e07e63e09c60b833c700f7c3aca07e6b089d685c2412fd9962b8b825a3a7a30210d7c6947082f0eea1a1692c981"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docky-hamster-applet \

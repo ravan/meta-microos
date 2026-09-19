@@ -4,10 +4,10 @@ sample configuration files needed for applications to access a \
 PostgreSQL database using ODBC."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "13.01.0000"
+PV = "17.00.0008"
 
-RPM_NAME = "psqlODBC-13.01.0000-1.11.aarch64.rpm"
-RPM_HASH = "80d00929416ca196f2b7fcd59d10919455722945e481954155892ba4789562fc4313ea5d89e7a3cc9d8d1fca616ac0520dac62241f9285e8a9627f36d00d39f7"
+RPM_NAME = "psqlODBC-17.00.0008-1.3.aarch64.rpm"
+RPM_HASH = "99ceb540952949f2f086dd507bb632391a56eb44abb3aac5d0120ba451767088d3dac393a6d9ee1b2d5ea188471eb5a7daebb22490171c0d711d1e5f9047ce42"
 
 RPROVIDES:${PN} += "pg-iface-/usr/lib/pgsql/odbcinst.ini \
 pg-odbc \

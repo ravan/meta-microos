@@ -4,13 +4,15 @@ plain TeX macros, Computer Modern fonts, and configuration for \
 common drivers; no LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn59159"
+PV = "2026.222.svn72890"
 
-RPM_NAME = "texlive-collection-basic-2023.208.svn59159-60.1.noarch.rpm"
-RPM_HASH = "87069af068223f14ef1bef1b62b6d3ee47eff77ad9d1f4d49acb4cd65041a8995dddc9266587ca14f8ff4caf1fdada60625a08b0aff4c918bf73286929efe982"
+RPM_NAME = "texlive-collection-basic-2026.222.svn72890-68.2.noarch.rpm"
+RPM_HASH = "daa7ea072e51160131edfbb8d2053adba5b4111f806857f2aa3ea130ec81d43b59464e066e72b58eb785a5cbe2107f7404639838f309ddeb000781a444be6637"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-basic \
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-basic \
 tex-tex \
 texlive-collection-basic"
 
@@ -24,6 +26,7 @@ texlive-ec \
 texlive-enctex \
 texlive-etex \
 texlive-etex-pkg \
+texlive-extractbb \
 texlive-glyphlist \
 texlive-graphics-def \
 texlive-hyph-utf8 \

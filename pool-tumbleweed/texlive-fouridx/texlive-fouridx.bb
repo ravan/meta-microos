@@ -7,10 +7,10 @@ package provides an alternative to the use of the \\sideset \
 command in the amsmath package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.00svn32214"
+PV = "2026.226.2.00svn77682"
 
-RPM_NAME = "texlive-fouridx-2023.209.2.00svn32214-53.1.noarch.rpm"
-RPM_HASH = "eb376fc138fa6c6824c772c9db2be8d6c206f1c971d9399f0425dbc18a1bcadd3c575c22439137faf5664b89a5d43d517a619377d365cc4c70a67bdd6cbfe4de"
+RPM_NAME = "texlive-fouridx-2026.226.2.00svn77682-60.2.noarch.rpm"
+RPM_HASH = "1d7c3849e2ffedaac49c8f888e3994b8af763a79701cf6a0eb8a0ac01184a716d8c824226809e22691b1ee14cbfb2feafe8e03b498c5ba5338aa2905439305e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fouridx.sty \

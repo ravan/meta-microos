@@ -2,10 +2,10 @@ SUMMARY = "Sinhalese localization files for LibreOffice"
 DESCRIPTION = "Provides Sinhalese translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-si-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "fb7f01ff70a080cef0b95667f74d8ece324962a2342f418f62dc9d980d60a9a96b6b8a48a3817cc32595f0035f3f9bf829805cdebc3fe2115ae24c053dfee981"
+RPM_NAME = "libreoffice-l10n-si-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "e739925e08c6623e63e47b135b1823462a2fccd780359c04eab9370da2182bb711b99b69342e86ec8a6693a611e81411b57c6522c89f4da03870cf5551e7ea84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-si \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-clrstrip"
 DESCRIPTION = "This package includes the documentation for texlive-clrstrip"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn60363"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-clrstrip-doc-2023.209.svn60363-54.1.noarch.rpm"
-RPM_HASH = "4c3c155ae53cdc5d397d16613bbec4fb4b3ed9c69c6762bd5fd2939516484ff8cb2043bbd40ee981b834fa52fdf774acabfdf9be1c01ce6c3079fafe9c0edf61"
+RPM_NAME = "texlive-clrstrip-doc-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "d447cbbff4f1837a9ea48a8f1275f04f5ddd7516b1b2e82d87f0b1ba9c94948719317072d2889ef280ffba9f9b40be0027e3a29264edf1f1fd55583de99b0db0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clrstrip-doc"

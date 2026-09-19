@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a shell script that calls XeTeX and \
 pdf2svg to convert TikZ environments to SVG files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.3.0svn60289"
+PV = "2026.226.0.0.3.0svn60289"
 
-RPM_NAME = "texlive-tikztosvg-2023.209.0.0.3.0svn60289-53.1.noarch.rpm"
-RPM_HASH = "87083b268d0822ac57db8dde490bf25e0de4299fed09437e96b560adcfdc76b2799dad0541c35408dbb6b0b6071b7d1939f1afbf087b4edb501cce30bdd85545"
+RPM_NAME = "texlive-tikztosvg-2026.226.0.0.3.0svn60289-59.2.noarch.rpm"
+RPM_HASH = "555f64b38016b10d7f122c52af034e416eac32f8770a89b3ab3a795cc94fe12704a6b8f8d35feb00a6466c61ea0020dbb25f5820f8796b2e27df7d54d46e04d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikztosvg"

@@ -5,10 +5,10 @@ based on jurabook and jurabib and makes it easy for LaTeX \
 beginners to get a correct and nicely formatted paper."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.0svn56070"
+PV = "2026.226.2.1.0svn56070"
 
-RPM_NAME = "texlive-hausarbeit-jura-2023.209.2.1.0svn56070-54.2.noarch.rpm"
-RPM_HASH = "21f92f471f510c3cdf54880f9f5ebbba1de725445b3901867bc0af3bae1de286c5acfdaf6ff14ce12c3510eccccf44d52a02732b9a429bcc105f25bb0c357fae"
+RPM_NAME = "texlive-hausarbeit-jura-2026.226.2.1.0svn56070-60.4.noarch.rpm"
+RPM_HASH = "d4df211b49aac39cf73e0d567f57d63a230386d3bc7fb296feb6c8bf3661874618313e2712475723d3659e757b7e9058de5780710eda89aaa818f67f42ac342c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hausarbeit-jura.cls \

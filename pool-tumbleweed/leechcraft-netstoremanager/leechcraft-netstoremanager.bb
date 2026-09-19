@@ -11,10 +11,10 @@ Features: \
  * Support for prolongating uploaded files (if supported by service)."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-netstoremanager-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "abc044d8bf14810eef01fe29e8b3b40680424aae8d97936e4a4a1ac94b2f0c5db567d4642e0871456da335999d40946364e98abaaee35ac6a20791e53dd3c2a6"
+RPM_NAME = "leechcraft-netstoremanager-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "1a44dead6a2d1e03da2241fb2134cb429f24c9661d052fa5c781e138c69aae86d4eec04adeb572b645d1208d7dd6b447b6e658946ef3b70743bc8886aee1c1da"
 
 RPROVIDES:${PN} += "leechcraft-netstoremanager \
 libleechcraft-netstoremanager.so"
@@ -22,17 +22,17 @@ libleechcraft-netstoremanager.so"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
 leechcraft-netstoremanager-subplugin \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libboost-container.so.1.82.0 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libboost-container.so.1.91.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

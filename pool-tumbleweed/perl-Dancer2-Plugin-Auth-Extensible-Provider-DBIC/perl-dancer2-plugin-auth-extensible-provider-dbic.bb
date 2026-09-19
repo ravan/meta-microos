@@ -12,14 +12,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.624"
 
-RPM_NAME = "perl-Dancer2-Plugin-Auth-Extensible-Provider-DBIC-0.624-1.13.noarch.rpm"
-RPM_HASH = "6bcf15a5b06dbf1485a990ac0e723c618b8f3e0231fb0957c6250ff27394a22567a4e59999c3bccda4de72a5ae9f430d78d4eaab983e5bd1e0d88784469e4647"
+RPM_NAME = "perl-Dancer2-Plugin-Auth-Extensible-Provider-DBIC-0.624-1.27.noarch.rpm"
+RPM_HASH = "769ee07f6d3aca50d458f19636b1fc542066e1d519be41807a11e5c796b563f7fea1c119f9af6208e0a8d0e26efa7d263c5d0ddef2f67e72e39beea6926328c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dancer2--Plugin--Auth--Extensible--Provider--DBIC \
 perl-Dancer2-Plugin-Auth-Extensible-Provider-DBIC"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBIx--Class--ResultClass--HashRefInflator \
 perl-Dancer2 \
 perl-Dancer2--Core--Types \

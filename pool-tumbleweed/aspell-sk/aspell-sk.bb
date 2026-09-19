@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-2.1-only | MPL-1.1"
 
 PV = "2.01"
 
-RPM_NAME = "aspell-sk-2.01-2.14.aarch64.rpm"
-RPM_HASH = "6fafef68b8465fd97847134a51ae671250c224d93b66bcca4727498dc5bcddc433be13811de4c0f69a5a21d5f4cbe2f412620674a64fa82dce830bd1e29f909b"
+RPM_NAME = "aspell-sk-2.01-4.7.aarch64.rpm"
+RPM_HASH = "42ace3e4b130f9c59b5d602cdbe526e6c046d346e2489fce02a7733afc267d165d4a0ad0bcf2fe2bf2133b3b5b69c341ddb392e0ea4994b1fcd8fa632813ffc0"
 
 RPROVIDES:${PN} += "aspell-sk \
 locale-aspell-sk"

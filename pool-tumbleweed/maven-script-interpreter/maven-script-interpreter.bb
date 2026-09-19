@@ -5,10 +5,10 @@ various implementations: Groovy or BeanShell. \
 Groovy script is currently disabled."
 LICENSE = "Apache-2.0"
 
-PV = "1.3"
+PV = "1.8"
 
-RPM_NAME = "maven-script-interpreter-1.3-1.5.noarch.rpm"
-RPM_HASH = "63d5d9a87e6938c68fe907799ede1d5705fc76a2a2a0bc4ab6a4e375d8e2faef5695b5091641105471da28a8ca1b5158f220c84e25d87330f4938422debc6c17"
+RPM_NAME = "maven-script-interpreter-1.8-1.1.noarch.rpm"
+RPM_HASH = "a89513606acf8177e9bbeb970cc186e730936fc9514fdfd116482f80b8d7d11c269b65d61fe5ce3a94f1175e2b2350d3d9f75ff839266b2d80d64b6d9d350ea0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-script-interpreter \

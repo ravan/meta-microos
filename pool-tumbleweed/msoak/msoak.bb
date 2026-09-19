@@ -14,15 +14,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "msoak-0.8-1.12.aarch64.rpm"
-RPM_HASH = "7e86bc33a65f513658f5baefd80f02011274ab9d10dc7be334e820a94b6561292cdecafb9250adb189cd973225097bdcd6a1c3def640a614e469387f50966304"
+RPM_NAME = "msoak-0.8-2.11.aarch64.rpm"
+RPM_HASH = "f312ec6a047ece1edaf89a7726f840c29fcfde4f0ff6e6471be60d9cc14a71dad3a4dcec9b2aee8210f382617116861cdb293972a234f80cd187745d4a42843f"
 
 RPROVIDES:${PN} += "msoak"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libbsd.so.0 \
 libc.so.6 \
-libconfig.so.11 \
+libconfig.so.15 \
 liblua5.3.so.5 \
 libmosquitto.so.1"
 

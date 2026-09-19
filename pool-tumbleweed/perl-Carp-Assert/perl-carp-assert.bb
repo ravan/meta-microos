@@ -78,15 +78,15 @@ you'd replace the comment with an assertion which *enforces* the comment. \
     assert( $life =~ /!$/ );"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.22"
+PV = "0.220.0"
 
-RPM_NAME = "perl-Carp-Assert-0.22-1.3.noarch.rpm"
-RPM_HASH = "f05745e3ca7912415c8b8548535839af9f8f269ff887c77708c1f8f3fd28ab57d481093550b5326a142bb15c2b2506cd8f3eb9b310ad2af18b514490d7953a5e"
+RPM_NAME = "perl-Carp-Assert-0.220.0-1.7.noarch.rpm"
+RPM_HASH = "b64b5abb6e05c24529e192631b622ed4c905148cd08eb4bbd7a1dc4960f02cff0381bd3aec592405da8a635ac4103533c98e02605a0498ffbeee0b3d1ea299bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Carp--Assert \
 perl-Carp-Assert"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

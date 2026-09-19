@@ -14,10 +14,10 @@ scripts in 5 weights. These fonts were designed by Vaibhav \
 Singh, code and production are by David Brezina."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.1svn57716"
+PV = "2026.226.0.0.1svn57716"
 
-RPM_NAME = "texlive-eczar-2023.209.0.0.1svn57716-54.2.noarch.rpm"
-RPM_HASH = "b64d89468ac2c8614baa6d6835f9b9771a898a659253d8767f7601466f08b73de9fdb9a2501552254c19f96f57011d126ddc2758f67df9a4a2dcba4c8ba1eece"
+RPM_NAME = "texlive-eczar-2026.226.0.0.1svn57716-61.4.noarch.rpm"
+RPM_HASH = "d5acac64edc60841488d514b863c52c1e2441fbb7589ec29032b7503bfcd59eea0ebaa40080afeeb3e5d9b29159402e5edee2762f7deaccf7376e9dcacc8e2c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eczar"

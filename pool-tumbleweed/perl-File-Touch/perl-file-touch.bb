@@ -47,14 +47,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.12"
 
-RPM_NAME = "perl-File-Touch-0.12-1.12.noarch.rpm"
-RPM_HASH = "3a491d4d2c3f02a3d5a2cb0a6328bd2c86f51b08ca886361b8ddda0bae4528c7f4f84e5276c8ee17c720d9e5bfe4ef4d0525256d73b4696b98151ca80bba6f20"
+RPM_NAME = "perl-File-Touch-0.12-1.26.noarch.rpm"
+RPM_HASH = "bfaf6462a6b7c2f0230f0bdcfb96e944e959c595de2960f05ca9186396cc7d0df979166058fc609426cce21a6c77762616a8f34ddb9d7708973c03f5af2481c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Touch \
 perl-File-Touch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Time--HiRes"
 
 inherit rpm

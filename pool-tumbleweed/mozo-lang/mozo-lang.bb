@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mozo"
 DESCRIPTION = "Provides translations for the 'mozo' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.26.2"
+PV = "1.28.0"
 
-RPM_NAME = "mozo-lang-1.26.2-1.3.noarch.rpm"
-RPM_HASH = "7e5d946a2fedd5e253ea5de71ff8b19106d493d55da108ef92222f1343ed7cc5e02bcca5782991b5d973f21b34d5ecb647bf7f4f984007e3be021848dc1c7b9a"
+RPM_NAME = "mozo-lang-1.28.0-2.4.noarch.rpm"
+RPM_HASH = "37d1bdb864780519b667187b52666fe878e7cc626f433f8d7312c812051a461b29d395cb9fd8fefd48d75ec8657bf86def483dc0d2f4a9c47485e7077bdc9cfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mozo-af \
@@ -30,7 +30,6 @@ locale-mozo-el \
 locale-mozo-en-AU \
 locale-mozo-en-CA \
 locale-mozo-en-GB \
-locale-mozo-en-US \
 locale-mozo-eo \
 locale-mozo-es \
 locale-mozo-es-AR \

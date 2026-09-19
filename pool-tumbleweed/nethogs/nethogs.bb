@@ -7,10 +7,10 @@ which PID is causing this. This makes it easy to indentify programs that have \
 gone wild and are suddenly taking up your bandwidth."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.7"
+PV = "0.9.0"
 
-RPM_NAME = "nethogs-0.8.7-1.7.aarch64.rpm"
-RPM_HASH = "68188a0d4edbe4de2d12395b6974cfa864466045bafa178a82f4ccea8f64680816aa6562f5a8a6dc4da696e688ed8dc41998bad384299781b58ba69375efce2e"
+RPM_NAME = "nethogs-0.9.0-1.2.aarch64.rpm"
+RPM_HASH = "52d008e32119305bb32c617d4cd23c749dfd0ede62e759cf80be99f4d653ec68d5e6596747e26e5da2821a6602cf68e181b36d94e6ca51f0716db5640ca553f6"
 
 RPROVIDES:${PN} += "nethogs"
 

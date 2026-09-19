@@ -3,10 +3,10 @@ DESCRIPTION = "Bibliographic style references in style of Australian Journal \
 of Linguistics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn34016"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-ajl-2023.209.svn34016-55.1.noarch.rpm"
-RPM_HASH = "0ffe2163a60ff50285d5c592096befceef33e08aac2f38a7fa837c4dc2004428a02a11943ec6b6f84ded8116c0eb26f300dcfd0d50305c22f4064495741e5910"
+RPM_NAME = "texlive-ajl-2026.226.svn76790-61.2.noarch.rpm"
+RPM_HASH = "6efb498f3dfc09b4684dfd61bd5edce90919ac6295227b8f725b3cd648e14009432e0814ed94fccebce348c08a7b6f2fc6660a13cafde11211eecb64ca286639"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ajl"

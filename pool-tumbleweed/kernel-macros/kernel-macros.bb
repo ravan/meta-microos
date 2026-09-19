@@ -1,15 +1,16 @@
 SUMMARY = "RPM macros for building Kernel Module Packages"
-DESCRIPTION = "This package provides the rpm macros and templates for Kernel Module Pakcages \
+DESCRIPTION = "This package provides the rpm macros and templates for Kernel Module Packages \
  \
-Source Timestamp: 2023-08-25 08:26:31 +0000 \
-GIT Revision: f5aa89b3e95322c79e43c459f5b6862dec51fc5f \
+ \
+Source Timestamp: 2026-09-12 06:50:42 +0000 \
+GIT Revision: 6b7e8a968cce3b45e63d59e1d4981c9b7c5bc6b5 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "kernel-macros-6.4.12-1.1.noarch.rpm"
-RPM_HASH = "fa84c08b52fc426699f777218c1fd12871c4300651e2592e1594a017e3dc78f05d19553a98b9a2af52b15f4a98a8dc12d58a6e1a3fd81a6cdc0e8b5c66c398ec"
+RPM_NAME = "kernel-macros-7.2.5-1.1.noarch.rpm"
+RPM_HASH = "c260a5cc4615476ccc4fa0b0d548e87102ca7a5e850eabab4a7accf2d9f73f7a7a326d6f95ea6b2e4febc8f08444c4198355a46bd46894f68864a069040333d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-macros \
@@ -23,7 +24,8 @@ rpm-macro-kernel-module-package-buildreqs \
 rpm-macro-kernel-module-package-release \
 rpm-macro-linux-arch \
 rpm-macro-linux-make-arch \
-rpm-macro-suse-kernel-module-package"
+rpm-macro-suse-kernel-module-package \
+rpm-macro-usrmerged"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh"

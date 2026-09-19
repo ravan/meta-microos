@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.0.5"
 
-RPM_NAME = "libusbauth-configparser-devel-1.0.5-1.4.aarch64.rpm"
-RPM_HASH = "77861ee512383c99f06e80fccb8613858fb123e95fcc13b95624144afc321b6af438802aeb667b8e009fd7bcc5f0e00155fcc6a6813320c9052f7d2aaebae2b1"
+RPM_NAME = "libusbauth-configparser-devel-1.0.5-1.14.aarch64.rpm"
+RPM_HASH = "663c291583ab3c743b8b2dfbb69dd451a15769f4533c464d8f4a30336416ae9867b372a757503decd6063a692df96966cf37da74bf435cbf83b070617314c91d"
 
 RPROVIDES:${PN} += "libusbauth-configparser-devel \
 pkgconfig-libusbauth-configparser"

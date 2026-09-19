@@ -2,14 +2,14 @@ SUMMARY = "Test and example scripts for connman"
 DESCRIPTION = "Provides test and example scripts for Connman (Connection Manager)."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.41"
+PV = "1.42"
 
-RPM_NAME = "connman-test-1.41-4.8.aarch64.rpm"
-RPM_HASH = "d45d0ad9592512e7a763315c61880799956180f45798f4794eb61237e8f261b03b27e43cecbd87e4112998ed83af47c7f6271acb7379c672539032be0f60d4b2"
+RPM_NAME = "connman-test-1.42-2.16.aarch64.rpm"
+RPM_HASH = "f26208d1c01e48f6d0ef892231d535820543aaaecfd92086fe1469f6278cfa9f15c8d4e6925df3143d28f2f76bbd0774b6f102549f488115a06e58036e97d12e"
 
 RPROVIDES:${PN} += "connman-test"
 
-RDEPENDS:${PN} += "/usr/bin/python \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 connman"
 
 inherit rpm

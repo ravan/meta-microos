@@ -5,10 +5,10 @@ OpenStep API but implementing Apple and GNU additions to the API \
 as well."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.29.0"
+PV = "1.31.1"
 
-RPM_NAME = "gnustep-base-1.29.0-1.5.aarch64.rpm"
-RPM_HASH = "50dd4e8a0b9a209722426d0f882c93601da406a88ed84fc2234a26c827f3a353636c74e3c2fe8f361e4a2c2c93ac9fb55ade8eed4ee7a546eeaa875587d37fac"
+RPM_NAME = "gnustep-base-1.31.1-2.8.aarch64.rpm"
+RPM_HASH = "9eec85612113a603542105cc1c0ede0e34a88aa9bd5862a0dcd93d1b502d7274768889f447d35d70c029154fec5a8838f8436f53b806c31c0ecf5ac7f532bb41"
 
 RPROVIDES:${PN} += "config-gnustep-base \
 gnustep-base"
@@ -18,7 +18,7 @@ gnustep-make \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgnustep-base.so.1.29 \
+libgnustep-base.so.1.31 \
 libobjc.so.4"
 
 inherit rpm

@@ -4,10 +4,10 @@ that permits to create highly customized printouts for each \
 actor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn45363"
+PV = "2026.227.0.0.1svn45363"
 
-RPM_NAME = "texlive-theatre-2023.209.0.0.1svn45363-55.1.noarch.rpm"
-RPM_HASH = "fb92ba05a2f1345f2880cc70b92a1924b4459d17e36bf4374ffd2c5b366ecb035818cd37bb41d07f3bed57aba1ce0bdef920872ffafc52d288429a68fe7d26ad"
+RPM_NAME = "texlive-theatre-2026.227.0.0.1svn45363-62.2.noarch.rpm"
+RPM_HASH = "039520150b11c00361f80ad9cd3e0e4ee185e6b94cab77c9b2d48ee045b9dbabee114e650a35bf5def371caf908a6a6dde397c6ba8e76a64830fd2e65b3dbe6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-theatre"

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-mathpazo"
 DESCRIPTION = "The  separated fonts package for texlive-mathpazo"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.1.003svn52663"
+PV = "2026.226.1.003svn77682"
 
-RPM_NAME = "texlive-mathpazo-fonts-2023.208.1.003svn52663-53.1.noarch.rpm"
-RPM_HASH = "675291674959a082b2499372f9d4196cf58d63ff3cf7978e70b3a5b2ba6704ccb5391c40fba45d10d9bb1b269928f9b10efebb5521f39dff49ce7f00231aa298"
+RPM_NAME = "texlive-mathpazo-fonts-2026.226.1.003svn77682-59.2.noarch.rpm"
+RPM_HASH = "a87d7bc3c010dcb314c921cd2f215945736f038dfa9a1d18373a36b420fff84cf59c1ac41d2841f73873ef0d17c041deaa41d7deeed183237a8f9ec458d40ce3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-pazomath \

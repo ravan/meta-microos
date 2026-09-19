@@ -7,27 +7,30 @@ Untraceability: By taking advantage of ring signatures, a special property of a 
 This package provides monerod, a headless monero daemon."
 LICENSE = "MIT"
 
-PV = "0.18.2.2"
+PV = "0.18.5.1"
 
-RPM_NAME = "monerod-0.18.2.2-1.1.aarch64.rpm"
-RPM_HASH = "81e34316067b1b816d871cb809f22ec9bfdff0a9c92ad9bfb392390c5866b6f5cbf72f0eee6baf03b24fe28fb9ae19fb6eafaeac11bf4ca21325e9b07aa63b2d"
+RPM_NAME = "monerod-0.18.5.1-1.2.aarch64.rpm"
+RPM_HASH = "fe053540f3bb738746db6fa8fff5b66cc953547728a390024e707d8382524e95efcd41ad04e1d006601b9336e91bbeae5c86a3f0192ac597009e2adc5768b093"
 
 RPROVIDES:${PN} += "config-monerod \
-monerod"
+group-monero \
+monerod \
+user-monero"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libboost-chrono.so.1.82.0 \
-libboost-filesystem.so.1.82.0 \
-libboost-program-options.so.1.82.0 \
-libboost-serialization.so.1.82.0 \
-libboost-thread.so.1.82.0 \
+libboost-chrono.so.1.91.0 \
+libboost-filesystem.so.1.91.0 \
+libboost-program-options.so.1.91.0 \
+libboost-serialization.so.1.91.0 \
+libboost-thread.so.1.91.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
+libhidapi-libusb.so.0 \
 libm.so.6 \
 libreadline.so.8 \
-libsodium.so.23 \
+libsodium.so.26 \
 libssl.so.3 \
 libstdc++.so.6 \
 libunbound.so.8 \

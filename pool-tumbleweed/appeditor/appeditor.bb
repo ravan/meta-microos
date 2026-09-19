@@ -3,10 +3,10 @@ DESCRIPTION = "A program to edit application entries shown in the application me
 and to edit their properties."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.1.3"
+PV = "1.1.5"
 
-RPM_NAME = "appeditor-1.1.3-2.5.aarch64.rpm"
-RPM_HASH = "96fe1b087efdd5d47a5ac4ee67beb105496d75cba6f6a8f5334eaf3bc9e80d7c19cc883bb2111fe581ae6c1212b1bd886a4e5e910c7c8bd04018f417b21284f7"
+RPM_NAME = "appeditor-1.1.5-1.12.aarch64.rpm"
+RPM_HASH = "6cdf16af1577649271fb020bd7a9a130c3ae6830ba21f5b17a2f72c230c5a466c5862253a94988a629eddd5c95a63b1207b449c0ebb6f7e1956a04f6cc63efd1"
 
 RPROVIDES:${PN} += "appeditor"
 

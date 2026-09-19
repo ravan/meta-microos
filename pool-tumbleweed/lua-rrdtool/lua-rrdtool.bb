@@ -1,15 +1,13 @@
 SUMMARY = "Lua bindings for RRDtool"
 DESCRIPTION = "RRD is the Acronym for Round Robin Database. RRD is a system to store and \
 display time-series data (i.e. network bandwidth, machine-room temperature, \
-server load average). This package contains documentation on using RRD. \
- \
-This package contains the Lua bindings."
+server load average). This package contains the Lua bindings."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.11.0"
 
-RPM_NAME = "lua-rrdtool-1.8.0-3.5.aarch64.rpm"
-RPM_HASH = "87db99427d79b2860e62b8e5ba5b0d99fa94adcfe1d8f5de086d03eee1b58787d2a17cf2e0baafa7644704ecfd6e644bf750eeb57bbb3adbe46e6fb3c6dc8b4e"
+RPM_NAME = "lua-rrdtool-1.11.0-1.1.aarch64.rpm"
+RPM_HASH = "7f1f34fbd72d2f4252bbbfa1f44b41efc35bb48946ec3640d0889bc8f89aea133a755a56305edc07cb140b7e79348b3d5150fb66d267662d01b50efa4e114ff4"
 
 RPROVIDES:${PN} += "lua-rrdtool"
 

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "0.99"
 
-RPM_NAME = "libsmputils1-1-0.99-2.10.aarch64.rpm"
-RPM_HASH = "4c6080dfbfd1d0cd6154aa204020f401f4d4e0c0b7cb74ca3a72ef3fddf48e322b8142b324edfab4845ce611587265330ef7e7e9ebefcbc78a50b6d8241663f3"
+RPM_NAME = "libsmputils1-1-0.99-2.20.aarch64.rpm"
+RPM_HASH = "29aff0dc0450fd275131d0189cfb114ead55807d40f5241b048c56a3b0ed2edb5810ea464c131fd855f6cf06588c559ff701bb41794573d46239da0e3c371cdf"
 
 RPROVIDES:${PN} += "libsmputils1-1 \
 libsmputils1.so.1"

@@ -1,11 +1,11 @@
 SUMMARY = "Examples for the qt6-scxml modules"
 DESCRIPTION = "Examples for the qt6-scxml modules."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-scxml-examples-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "752ba9efdcaaf35c681422a58b0b545394e160fc213f760c696b9f5949196b6c3bf09e8fecb1b0001e66bae20c3ea41c6bce273dfe95457303947c111c7dc4a4"
+RPM_NAME = "qt6-scxml-examples-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "c46931c3f0c7faa8eb6e0185727f082552d916e71b94c0bd18bbd072753f0d84b85bcba8d1902e2192aa3f513dd6116a55ef3b359f8b291717662228a4684061"
 
 RPROVIDES:${PN} += "qt6-scxml-examples"
 
@@ -20,6 +20,9 @@ libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.Window \
+qt6qmlimport-QtScxml"
 
 inherit rpm

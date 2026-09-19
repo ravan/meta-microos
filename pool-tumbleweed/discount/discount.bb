@@ -4,10 +4,10 @@ with some extensions from PHP Markdown Extra, Pandoc, and other implementations 
 of Markdown."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.0a"
+PV = "3.0.2.0"
 
-RPM_NAME = "discount-3.0.0a-1.2.aarch64.rpm"
-RPM_HASH = "c34ea3f9bbe1007495b19c63a4ff4ccca2d7faaa11ff004ef397370942f8da57b18dbce9060eecec497fed69861b55b5beb520c4a138a767b7f7442d529abd02"
+RPM_NAME = "discount-3.0.2.0-1.1.aarch64.rpm"
+RPM_HASH = "25ab1e6b38237bef0ae5f7b808e38ccc11be0319af93edc5158e68fc5c67411ab5200a6237e7be0aeefcbd5232e35f2edf47485ddab8d379a5815e7893e21ace"
 
 RPROVIDES:${PN} += "discount \
 markdown"

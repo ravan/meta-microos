@@ -4,10 +4,10 @@ support, basic formatting, RandR and Xinerama support and EWMH \
 compliance."
 LICENSE = "MIT"
 
-PV = "1.4"
+PV = "1.5"
 
-RPM_NAME = "lemonbar-1.4-1.8.aarch64.rpm"
-RPM_HASH = "2e302f101b819b883493dc7b291c3d78adfa0e33cd33ee43f72727b04bd64525a583e6593904c18b9b85a2cfb40acc580fff7ab13a037cf07ea6e1165006138d"
+RPM_NAME = "lemonbar-1.5-1.9.aarch64.rpm"
+RPM_HASH = "931d787c9a7609199d34b87a6b5c34ab16baa0585c339258d63049ea88ac6bf007b73fa3a2d37f61e5d470221cbeb32340cc5442baa3bc5eecda3b8985352465"
 
 RPROVIDES:${PN} += "lemonbar"
 

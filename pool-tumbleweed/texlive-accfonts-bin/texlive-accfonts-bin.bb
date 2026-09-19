@@ -2,10 +2,10 @@ SUMMARY = "Binary files of accfonts"
 DESCRIPTION = "Binary files of accfonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn12688"
+PV = "2026.20260301.svn12688"
 
-RPM_NAME = "texlive-accfonts-bin-2023.20230311.svn12688-93.2.aarch64.rpm"
-RPM_HASH = "f0c95b8c03b545a3e26c17d94f4083874e8c6f966845e8115f5937ed3be1ae68b0c98b0b7deb7b9fea2cfaab0e0defb202e41bcce9fe34d3b5c6ff2ccf3a4e55"
+RPM_NAME = "texlive-accfonts-bin-2026.20260301.svn12688-120.4.aarch64.rpm"
+RPM_HASH = "e969214870df1f71c9a82b42abbfdbdc6fd5d6db7d68b9ab0a1a1ddb4a8e0da1ea64b5f187da5f8fab51471466769d40e1174eafb0eb4a28784500082e7e77a6"
 
 RPROVIDES:${PN} += "texlive-accfonts-bin"
 

@@ -2,10 +2,10 @@ SUMMARY = "Haskell colour library documentation"
 DESCRIPTION = "This package provides the Haskell colour library documentation."
 LICENSE = "MIT"
 
-PV = "2.3.6"
+PV = "2.3.7"
 
-RPM_NAME = "ghc-colour-doc-2.3.6-2.8.noarch.rpm"
-RPM_HASH = "b7bea966a53c72379f9821feda0393991074499c2fe41b1eec40de752a1dfff834f2c15d9d5261f8c0c860689142ba95ce9a617b7245fcb9b2a29a1aa69d3b83"
+RPM_NAME = "ghc-colour-doc-2.3.7-1.2.noarch.rpm"
+RPM_HASH = "e42cd37aef94e63ef26b3fec1c9892d38c683a0ec834277b1487770f9150dbfd8155942363f1bda8e022e2976670fdcd1a1cbfdc52a93e0c9a0ccad63ac2abf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-colour-doc"

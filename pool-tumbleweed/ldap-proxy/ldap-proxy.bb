@@ -2,20 +2,20 @@ SUMMARY = "An in-memory caching proxy for LDAP"
 DESCRIPTION = "An in-memory caching proxy for LDAP that allows limiting of DN searches."
 LICENSE = "MPL-2.0 & MPL-2.0+"
 
-PV = "0.1.0~2"
+PV = "0.1.4~2"
 
-RPM_NAME = "ldap-proxy-0.1.0~2-1.1.aarch64.rpm"
-RPM_HASH = "b2055150152d7f9974774e057a1686f98c20859e995684ff1ee5da755f065a517cf560357c9fbc1f9eac5bdfbf6b7b3498761e9d710f603a3cf3b341a950cc69"
+RPM_NAME = "ldap-proxy-0.1.4~2-1.5.aarch64.rpm"
+RPM_HASH = "bf51d9cf0108e14587d9114c6348440a6c228ea0b02e09691f03aa36810e592465a0abd97c412f9741da5a7dafbc25183dcff047e333eaefdb023b291db4be9b"
 
-RPROVIDES:${PN} += "bundled-rust-crate-ahash \
-bundled-rust-crate-allocator-api2 \
+RPROVIDES:${PN} += "bundled-rust-crate-allocator-api2 \
 bundled-rust-crate-anstream \
 bundled-rust-crate-anstyle \
 bundled-rust-crate-anstyle-parse \
 bundled-rust-crate-anstyle-query \
 bundled-rust-crate-autocfg \
+bundled-rust-crate-aws-lc-rs \
+bundled-rust-crate-aws-lc-sys \
 bundled-rust-crate-base64 \
-bundled-rust-crate-bitflags \
 bundled-rust-crate-bytes \
 bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
@@ -24,99 +24,145 @@ bundled-rust-crate-clap \
 bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-derive \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-cmake \
 bundled-rust-crate-colorchoice \
 bundled-rust-crate-concread \
 bundled-rust-crate-crossbeam-epoch \
 bundled-rust-crate-crossbeam-queue \
 bundled-rust-crate-crossbeam-utils \
-bundled-rust-crate-foreign-types \
-bundled-rust-crate-foreign-types-shared \
+bundled-rust-crate-darling \
+bundled-rust-crate-darling-core \
+bundled-rust-crate-darling-macro \
+bundled-rust-crate-deranged \
+bundled-rust-crate-displaydoc \
+bundled-rust-crate-dunce \
+bundled-rust-crate-dyn-clone \
+bundled-rust-crate-equivalent \
+bundled-rust-crate-errno \
+bundled-rust-crate-find-msvc-tools \
+bundled-rust-crate-foldhash \
 bundled-rust-crate-form-urlencoded \
+bundled-rust-crate-fs-extra \
 bundled-rust-crate-futures-core \
 bundled-rust-crate-futures-macro \
 bundled-rust-crate-futures-sink \
 bundled-rust-crate-futures-task \
 bundled-rust-crate-futures-util \
 bundled-rust-crate-getrandom \
+bundled-rust-crate-haproxy-protocol \
 bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
+bundled-rust-crate-hex \
 bundled-rust-crate-iana-time-zone \
+bundled-rust-crate-icu-collections \
+bundled-rust-crate-icu-locale-core \
+bundled-rust-crate-icu-normalizer \
+bundled-rust-crate-icu-normalizer-data \
+bundled-rust-crate-icu-properties \
+bundled-rust-crate-icu-properties-data \
+bundled-rust-crate-icu-provider \
+bundled-rust-crate-ident-case \
 bundled-rust-crate-idna \
+bundled-rust-crate-idna-adapter \
+bundled-rust-crate-indexmap \
+bundled-rust-crate-is-terminal-polyfill \
+bundled-rust-crate-itoa \
+bundled-rust-crate-jobserver \
 bundled-rust-crate-lazy-static \
 bundled-rust-crate-lber \
 bundled-rust-crate-ldap-proxy \
 bundled-rust-crate-ldap3-proto \
 bundled-rust-crate-libc \
+bundled-rust-crate-litemap \
 bundled-rust-crate-log \
 bundled-rust-crate-lru \
 bundled-rust-crate-memchr \
-bundled-rust-crate-memoffset \
 bundled-rust-crate-minimal-lexical \
 bundled-rust-crate-mio \
 bundled-rust-crate-nom \
 bundled-rust-crate-nu-ansi-term \
-bundled-rust-crate-num-cpus \
+bundled-rust-crate-num-conv \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
-bundled-rust-crate-openssl \
-bundled-rust-crate-openssl-macros \
-bundled-rust-crate-openssl-sys \
-bundled-rust-crate-overload \
 bundled-rust-crate-peg \
 bundled-rust-crate-peg-macros \
 bundled-rust-crate-peg-runtime \
 bundled-rust-crate-percent-encoding \
 bundled-rust-crate-pin-project-lite \
-bundled-rust-crate-pin-utils \
-bundled-rust-crate-pkg-config \
+bundled-rust-crate-potential-utf \
+bundled-rust-crate-powerfmt \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
-bundled-rust-crate-scopeguard \
+bundled-rust-crate-ref-cast \
+bundled-rust-crate-ref-cast-impl \
+bundled-rust-crate-ring \
+bundled-rust-crate-rustls \
+bundled-rust-crate-rustls-pki-types \
+bundled-rust-crate-rustls-webpki \
+bundled-rust-crate-schemars \
 bundled-rust-crate-serde \
+bundled-rust-crate-serde-core \
 bundled-rust-crate-serde-derive \
+bundled-rust-crate-serde-json \
+bundled-rust-crate-serde-spanned \
+bundled-rust-crate-serde-with \
+bundled-rust-crate-serde-with-macros \
 bundled-rust-crate-sharded-slab \
+bundled-rust-crate-shlex \
 bundled-rust-crate-signal-hook-registry \
 bundled-rust-crate-slab \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-socket2 \
 bundled-rust-crate-sptr \
+bundled-rust-crate-stable-deref-trait \
 bundled-rust-crate-strsim \
+bundled-rust-crate-subtle \
 bundled-rust-crate-syn \
+bundled-rust-crate-synstructure \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-thread-local \
-bundled-rust-crate-tikv-jemalloc-sys \
-bundled-rust-crate-tikv-jemallocator \
 bundled-rust-crate-time \
-bundled-rust-crate-tinyvec \
-bundled-rust-crate-tinyvec-macros \
+bundled-rust-crate-time-core \
+bundled-rust-crate-time-macros \
+bundled-rust-crate-tinystr \
 bundled-rust-crate-tokio \
 bundled-rust-crate-tokio-macros \
-bundled-rust-crate-tokio-openssl \
+bundled-rust-crate-tokio-rustls \
 bundled-rust-crate-tokio-util \
 bundled-rust-crate-toml \
+bundled-rust-crate-toml-datetime \
+bundled-rust-crate-toml-parser \
+bundled-rust-crate-toml-writer \
 bundled-rust-crate-tracing \
 bundled-rust-crate-tracing-attributes \
 bundled-rust-crate-tracing-core \
 bundled-rust-crate-tracing-forest \
 bundled-rust-crate-tracing-log \
 bundled-rust-crate-tracing-subscriber \
-bundled-rust-crate-unicode-bidi \
 bundled-rust-crate-unicode-ident \
-bundled-rust-crate-unicode-normalization \
+bundled-rust-crate-untrusted \
 bundled-rust-crate-url \
+bundled-rust-crate-utf8-iter \
 bundled-rust-crate-utf8parse \
 bundled-rust-crate-uuid \
-bundled-rust-crate-vcpkg \
-bundled-rust-crate-version-check \
+bundled-rust-crate-winnow \
+bundled-rust-crate-writeable \
+bundled-rust-crate-yoke \
+bundled-rust-crate-yoke-derive \
+bundled-rust-crate-zerofrom \
+bundled-rust-crate-zerofrom-derive \
+bundled-rust-crate-zeroize \
+bundled-rust-crate-zerotrie \
+bundled-rust-crate-zerovec \
+bundled-rust-crate-zerovec-derive \
+bundled-rust-crate-zmij \
 config-ldap-proxy \
 ldap-proxy"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
-libcrypto.so.3 \
 libgcc-s.so.1 \
-libm.so.6 \
-libssl.so.3"
+libm.so.6"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package wireplumber"
 DESCRIPTION = "Provides translations for the 'wireplumber' package."
 LICENSE = "MIT"
 
-PV = "0.4.14"
+PV = "0.5.17"
 
-RPM_NAME = "wireplumber-lang-0.4.14-2.1.noarch.rpm"
-RPM_HASH = "205c787c45012a5ec14e51b37a84beeb482f970e2228683512456f6b52c71d5f438513847f3353dabb8c7c8ca532078306c2cfcae945bfe1fa19454d1263dbd1"
+RPM_NAME = "wireplumber-lang-0.5.17-1.1.noarch.rpm"
+RPM_HASH = "809dff6d10c866389d62b75ad0c97eb378c097d8dda1ebbc49c62a51a64eac33592be691d58868e863322d77889441ecc58051c1ada340bc7229107169f5b91a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-wireplumber-af \
@@ -52,6 +52,7 @@ locale-wireplumber-ro \
 locale-wireplumber-ru \
 locale-wireplumber-si \
 locale-wireplumber-sk \
+locale-wireplumber-sl \
 locale-wireplumber-sr \
 locale-wireplumber-sr@latin \
 locale-wireplumber-sv \

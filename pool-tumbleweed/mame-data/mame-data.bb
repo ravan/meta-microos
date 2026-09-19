@@ -6,10 +6,10 @@ DESCRIPTION = "This package contains all data files needed by the MAME binaries:
  * languages"
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.258"
+PV = "0.289"
 
-RPM_NAME = "mame-data-0.258-1.1.noarch.rpm"
-RPM_HASH = "2fa208f8db2c65bead573e43aaac4133465ad02505ea6352b80776d448c66f21ac28a2c347a977a641b7228b967ac8cb2247be3ac5211567b9567ceed02219d0"
+RPM_NAME = "mame-data-0.289-1.1.noarch.rpm"
+RPM_HASH = "2f7e39486a52056c573c052d4866ce300aa77ee8ba741ee32917d80bb1215880a6bc85fb73c5c05651f46d5b82d89aef6ec947d2d40c8fb2548a4128eb054736"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mame-data"

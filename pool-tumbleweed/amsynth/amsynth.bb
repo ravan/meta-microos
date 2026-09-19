@@ -20,29 +20,24 @@ There are currently several different ways to run amsynth: \
  * VST plug-in"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.13.2"
+PV = "2.0.0"
 
-RPM_NAME = "amsynth-1.13.2-1.7.aarch64.rpm"
-RPM_HASH = "1fd40226310872d0367d22c6b0e1546499f95be9ea62f4a1b6ec25652ac4dc46f3d8578ab983041776e472925282edceca8adab4d568a042339169849da8857e"
+RPM_NAME = "amsynth-2.0.0-1.1.aarch64.rpm"
+RPM_HASH = "3a3753a742c79d3dc689b952816b5d61bd9b0fe7ae68ed86228a65356bb8aff38c49b3b31595d5cb7a04c6447e327cf502fadaacd5f63e3409cb3f98232a09cb"
 
 RPROVIDES:${PN} += "amsynth"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libasound.so.2 \
-libatk-1.0.so.0 \
 libc.so.6 \
-libcairo.so.2 \
+libfreetype.so.6 \
 libgcc-s.so.1 \
-libgdk-pixbuf-2.0.so.0 \
-libgdk-x11-2.0.so.0 \
-libgio-2.0.so.0 \
-libglib-2.0.so.0 \
-libgobject-2.0.so.0 \
-libgtk-x11-2.0.so.0 \
 libjack.so.0 \
 liblo.so.7 \
 libm.so.6 \
-libstdc++.so.6"
+libpng16.so.16 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

@@ -5,13 +5,33 @@ and bold weights, slanted variants and a choice of four \
 different styles for zero."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.056svn54512"
+PV = "2026.226.1.059svn77682"
 
-RPM_NAME = "texlive-newtxtt-2023.209.1.056svn54512-55.1.noarch.rpm"
-RPM_HASH = "d8923a4ab869bc572e75fbf5ffccc4642c3cf032b2c5b5e0ccc7889360b311a44f285e7388efceb1978ee6f6eeebc48ea40e792cc73cfdfbf1391f6cf4ceb043"
+RPM_NAME = "texlive-newtxtt-2026.226.1.059svn77682-61.2.noarch.rpm"
+RPM_HASH = "56c4c9276aca717f96c4fb2e9198c7187f0f324cd6db5da1ad6ce45a7fa3545f4c33190e2fb671770e8ff0d782744c28366961a870d5777cea3b4887a9dc3133"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-newtxbtta.tfm \
+RPROVIDES:${PN} += "tex-newtcxbsla.tfm \
+tex-newtcxbslb.tfm \
+tex-newtcxbslc.tfm \
+tex-newtcxbsld.tfm \
+tex-newtcxbsle.tfm \
+tex-newtcxbtta.tfm \
+tex-newtcxbttb.tfm \
+tex-newtcxbttc.tfm \
+tex-newtcxbttd.tfm \
+tex-newtcxbtte.tfm \
+tex-newtcxsla.tfm \
+tex-newtcxslb.tfm \
+tex-newtcxslc.tfm \
+tex-newtcxsld.tfm \
+tex-newtcxsle.tfm \
+tex-newtcxtta.tfm \
+tex-newtcxttb.tfm \
+tex-newtcxttc.tfm \
+tex-newtcxttd.tfm \
+tex-newtcxtte.tfm \
+tex-newtxbtta.tfm \
 tex-newtxbttaq.tfm \
 tex-newtxbttb.tfm \
 tex-newtxbttbq.tfm \
@@ -135,6 +155,11 @@ tex-newtxttzsle.tfm \
 tex-newtxttzsleq.tfm \
 tex-t1newtxtt.fd \
 tex-t1newtxttz.fd \
+tex-tcxAec.enc \
+tex-tcxBec.enc \
+tex-tcxCec.enc \
+tex-tcxDec.enc \
+tex-tcxEec.enc \
 tex-tcxbttz.tfm \
 tex-tcxbttzsl.tfm \
 tex-tcxttz.tfm \
@@ -151,6 +176,7 @@ tex-txttDec.enc \
 tex-txttDqec.enc \
 tex-txttEec.enc \
 tex-txttEqec.enc \
+tex-txttz.tfm \
 texlive-newtxtt"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

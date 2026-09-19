@@ -4,10 +4,10 @@ Debug information is useful when developing applications that use this \
 package or when debugging this package."
 LICENSE = "MIT"
 
-PV = "0.0.1+git20200918.2ed9a93"
+PV = "0.0.1+git20230111.22db092"
 
-RPM_NAME = "WSL-DistroLauncher-debug-0.0.1+git20200918.2ed9a93-2.1.noarch.rpm"
-RPM_HASH = "12a5c157c24f0cae0699953163e04c9b0eeba70bc932a73007d299f30cbf0b2e6a93b22009be7086f844987f3804743feb581eebd803b9df209b7f977be01a01"
+RPM_NAME = "WSL-DistroLauncher-debug-0.0.1+git20230111.22db092-1.7.noarch.rpm"
+RPM_HASH = "c9352d8bd8775aa3d5457b5b0e380da91168fc357fd0eba5c6aea4604335a7b6670a4341a13c3166f5fe5011548ee1c26abd083ad1b70f731b06336a8065f625"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WSL-DistroLauncher-debug"

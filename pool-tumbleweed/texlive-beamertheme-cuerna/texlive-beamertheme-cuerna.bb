@@ -7,10 +7,10 @@ that the rest of the graphic elements in the slides are scarce \
 to keep it clean"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn42161"
+PV = "2026.226.svn42161"
 
-RPM_NAME = "texlive-beamertheme-cuerna-2023.209.svn42161-54.1.noarch.rpm"
-RPM_HASH = "bfd521ffe16e04bd3f3906686de3ae2325147be01c239945b70eb5bee1bad5224f45a0ceb9340ade21aae70aa5de033073dae69b6fab989f7ddbe0382fb3282b"
+RPM_NAME = "texlive-beamertheme-cuerna-2026.226.svn42161-61.2.noarch.rpm"
+RPM_HASH = "137397cc254bc2e1ee0b285c9a43d523ab92b4512c9ef29d27ece4a0714efe1146828de0da1ee4b250929f2a7284b5c120080d23742ba6c2ac202831330da593"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeCuerna.sty \

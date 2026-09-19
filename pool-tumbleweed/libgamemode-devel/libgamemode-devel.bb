@@ -6,10 +6,10 @@ This package contains the headers required to compile games with \
 built-in GameMode support."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7"
+PV = "1.8.2"
 
-RPM_NAME = "libgamemode-devel-1.7-3.1.aarch64.rpm"
-RPM_HASH = "113be1db073698c58be7661fc8a727053677c101ceac28e38936beaa546fb1fc9ec5a74ea02e0fb8b7a50c1e56960af04073218c9d40eb575c75b5e3f1b6a590"
+RPM_NAME = "libgamemode-devel-1.8.2-1.9.aarch64.rpm"
+RPM_HASH = "8968886990f733dfe4cff7e417b7052e520fa9f0c71dced40c368205fcf7169b6fa72edf242e2fd2ce299b054cecd9a2b8622873666553c6198265780c6febd2"
 
 RPROVIDES:${PN} += "libgamemode-devel \
 pkgconfig-gamemode \

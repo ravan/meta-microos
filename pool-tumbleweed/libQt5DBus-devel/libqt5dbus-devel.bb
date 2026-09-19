@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for the Qt5 D-Bus library. This package also \
 contains Qt5's qdbusxml2cpp and qdbuscpp2xml binaries."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5DBus-devel-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "fe661e5e94e55a03844a6df730cf6a4a5f35b4dbbd0a03a4d7f0a33cb68852e4f007e02f5b275ed905b83ba5966f980e7bbef0c978c7ace11778a4687bce76b7"
+RPM_NAME = "libQt5DBus-devel-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "202ca7c80f186cac10745c923dee452db9b05cde4aecfda92b307368b676ed78188661e25fbf179de0311e175e9e0e351c3311f5884901b481c61bb5c1cc978c"
 
 RPROVIDES:${PN} += "cmake-Qt5DBus \
 libQt5DBus-devel \

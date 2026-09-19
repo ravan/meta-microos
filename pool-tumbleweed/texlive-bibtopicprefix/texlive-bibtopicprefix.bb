@@ -4,10 +4,10 @@ references to entries in bibliographies produced by the \
 bibtopic package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10svn15878"
+PV = "2026.226.1.10svn15878"
 
-RPM_NAME = "texlive-bibtopicprefix-2023.209.1.10svn15878-54.1.noarch.rpm"
-RPM_HASH = "d6f3a902ae1f82faf0207406a69ba118bb429bfb43b66ce504fa5f07bcea66734b252675472cd22df79c55e6b300a58986fbe71c9c3199b044d62bd3cbcb9e96"
+RPM_NAME = "texlive-bibtopicprefix-2026.226.1.10svn15878-61.2.noarch.rpm"
+RPM_HASH = "a0409d56a82503d2c6650af1480d8ab2df22b2d5d6c4f7df608b277ac0fc4210d73aa06c0aaf369524c3c24960355b24cf340f9cdda320d54685300b6240d5e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibtopicprefix.sty \

@@ -1,11 +1,11 @@
-SUMMARY = "array input schema for rime"
+SUMMARY = "Array input schema for rime"
 DESCRIPTION = "array input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-array-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "5bcffeba4ae9aa52d65bcc6827148f2a35bb6587614f01961e5892c60116ea8f10eb87da61a17780d554d6662cce47587000d0ed522efd981c9f64e45125f69e"
+RPM_NAME = "rime-schema-array-20250315-1.4.noarch.rpm"
+RPM_HASH = "86332c0e44c87022deec32a3cb2515487eb4afd929fe93346a8aacd2dedb1ae794dc673bf3a4603302d664d20f9c299c0c7b83428f9dabacaa2a5e10ef0835fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-array"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.5"
 
-RPM_NAME = "libfifechan_opengl0_1_5-0.1.5-1.20.aarch64.rpm"
-RPM_HASH = "393c46edd02b59c9079f02f9122ed3b9dd771110e0fd2c91e7568ab5082bcc04c78b81ea74ef77ccb43cfbd34f75f4b1ccf16d7435bf4131bcab4253d815e0d7"
+RPM_NAME = "libfifechan_opengl0_1_5-0.1.5-1.28.aarch64.rpm"
+RPM_HASH = "17e5a3d8be7aeb175ffefd94c93a3f8493501e9c5bb01a069b71c6f40bd7dc7314e64677ee405ce93b7e5dc2014118ef84943f358e2a84ff2ae188a108fd6757"
 
 RPROVIDES:${PN} += "libfifechan-opengl.so.0.1.5 \
 libfifechan-opengl0-1-5"

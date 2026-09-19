@@ -8,10 +8,10 @@ identical, so the catalogue only lists one; the sources of the \
 examples do of course differ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02bsvn63161"
+PV = "2026.226.0.0.02bsvn63161"
 
-RPM_NAME = "texlive-beamer-fuberlin-2023.209.0.0.02bsvn63161-54.1.noarch.rpm"
-RPM_HASH = "de430747533634974b7e533f6ac18a3a7ffdb20e30ca657b1704c78da39bccdff6830c99dbb09167c61df827086511df3281d4896331c009f818fbfddc7dfd26"
+RPM_NAME = "texlive-beamer-fuberlin-2026.226.0.0.02bsvn63161-61.2.noarch.rpm"
+RPM_HASH = "47fc055f0d6b60f8d881346c20b58acc8dcf13a7714b92388e95be53ff6f56d448578e889dda39f790cc20a2e8e6d3c7d311c26309bd9aaeb4134af070a1745c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-FUbeamer.cls \

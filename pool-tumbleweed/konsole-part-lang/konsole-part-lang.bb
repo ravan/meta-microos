@@ -2,10 +2,10 @@ SUMMARY = "Translations for package konsole"
 DESCRIPTION = "Provides translations for the 'konsole-part' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "konsole-part-lang-23.08.0-2.1.noarch.rpm"
-RPM_HASH = "d963289a18b6b7c9e4dda35a6c61ee0eeb44ddcd23e29835ed2a206a80c9e8e945e9fcf6716afbe87c6453aba4a86670cc76a31e19645c9abdb4c7eeadf5fdaf"
+RPM_NAME = "konsole-part-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "52c8538e5fc780b6e052e8f47e11316ecf8813c9623431e20519f6e0d4c764daaac9bc1e5ef8864d0d5e1ed945e3dbd929ec966b144c5132a6873e23d19ad991"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "konsole-lang \
@@ -13,6 +13,7 @@ konsole-part-lang \
 konsole-part-lang-all \
 locale-konsole-part-af \
 locale-konsole-part-ar \
+locale-konsole-part-ast \
 locale-konsole-part-az \
 locale-konsole-part-be \
 locale-konsole-part-be@latin \

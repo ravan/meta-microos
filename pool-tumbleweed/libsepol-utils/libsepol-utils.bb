@@ -6,10 +6,10 @@ specific transformations on binary policies such as customizing \
 policy boolean settings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "libsepol-utils-3.5-1.5.aarch64.rpm"
-RPM_HASH = "ea0c9547ee24df7c4cbad04928dbf024c19f524659270ea519584229c086e531babe84ef9fe38ce02aeadf07b69dba91dd82d8659db7cd400ca1210d29cf50a9"
+RPM_NAME = "libsepol-utils-3.11-1.2.aarch64.rpm"
+RPM_HASH = "89b751713d11228e3cf857a55eff682d45f5a46ccac99de5da5d566df96936789a1b64d99b4b8a439bb286f78eb094c4d0548c3748765773b79b205215a62286"
 
 RPROVIDES:${PN} += "libsepol-utils"
 

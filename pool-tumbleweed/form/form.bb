@@ -6,10 +6,10 @@ size of the considered expressions in FORM is only limited by the available \
 disk space and not by the available RAM."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.3.0"
+PV = "5.0.0"
 
-RPM_NAME = "form-4.3.0-1.5.aarch64.rpm"
-RPM_HASH = "fd884b2829f09e2f42cc9714af510aee15696bfc3292cff8d6a7778ed6ed8d7d85bd2a3e300598c6c5b9fa8d7cb86593f9d2f1f1a976e1db2efed6dcf75d3405"
+RPM_NAME = "form-5.0.0-1.6.aarch64.rpm"
+RPM_HASH = "6f78bf084ced75977643edb8821eee0c15a617f6b75283051f7dddfe77bf0dc57f3d0f6aad4e51c2d4d84476a2e6518aac88c036f41c4492dde39452e9ce0019"
 
 RPROVIDES:${PN} += "form"
 
@@ -18,9 +18,10 @@ libc.so.6 \
 libgcc-s.so.1 \
 libgmp.so.10 \
 libm.so.6 \
+libmpfr.so.6 \
 libmpi.so.40 \
 libstdc++.so.6 \
 libz.so.1 \
-openmpi4-libs"
+openmpi5-libs"
 
 inherit rpm

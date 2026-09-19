@@ -6,16 +6,16 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.2.7"
 
-RPM_NAME = "mailprocessing-1.2.7-1.11.noarch.rpm"
-RPM_HASH = "96eb3068d88059dd39c8125b3fef272bf4a557472df67a9254bb8cf128e258e7874e5f3f4e44cf384c0fce2bb6d97ed5b88ff45448a6825d1518f90e7558524b"
+RPM_NAME = "mailprocessing-1.2.7-2.3.noarch.rpm"
+RPM_HASH = "db0354e5bf969e7223898701aa9427776f46eb50803f2b99612ecae684c7377f43a38f2d4fe7d3bff1c331e15abf5e079512539492451ae9866e0f0e3fb1c192"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maildirproc \
 mailprocessing \
-python3.11dist-mailprocessing \
+python3.13dist-mailprocessing \
 python3dist-mailprocessing"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3"
 

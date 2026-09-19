@@ -1,11 +1,11 @@
 SUMMARY = "Documentation for gtkcam"
 DESCRIPTION = "Documentation for gtkam."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0"
+PV = "1.1"
 
-RPM_NAME = "gtkam-doc-1.0-2.27.aarch64.rpm"
-RPM_HASH = "d153f6b5ea1e6a5ad5273198ed698ba19487a47cd9ec2ecd27acc0fbf5928d5f00e262b499c10cd1e68daa865a73d25f93f571e16ef7aa3857a3c8149c7bfc6d"
+RPM_NAME = "gtkam-doc-1.1-4.4.aarch64.rpm"
+RPM_HASH = "5d79f171817c0cacb6a7c5e6d6c16e3ce015edb15552bb6f5bf7ab3d27ddaf8391a3880d12bb685fefcc4f36e833ad60181b6f0587b6d66b6d1b4d12839a99d6"
 
 RPROVIDES:${PN} += "gtkam-doc"
 

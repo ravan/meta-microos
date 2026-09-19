@@ -8,10 +8,10 @@ This package contains the javadoc documentation for the Jakarta Commons \
 BeanUtils Package."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.4"
+PV = "1.11.0"
 
-RPM_NAME = "apache-commons-beanutils-javadoc-1.9.4-3.15.noarch.rpm"
-RPM_HASH = "e7ede62bbfa2045b86ca24a783b22165fe3363d3ac0db2bc13d2d5f6cead32a66edb179e4490a12f1d2eabf0ceccf3ce21b9fdf93dcdf4b5f638f30f4eab6265"
+RPM_NAME = "apache-commons-beanutils-javadoc-1.11.0-3.6.noarch.rpm"
+RPM_HASH = "278e77733a47e19a5753fb9b88b959b7c4229ea79e975befdd6bf005310611d9bd9e2ebb7ae926f254fad8475038575f9acedf584afb8375c379e2990123edcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-beanutils-javadoc"

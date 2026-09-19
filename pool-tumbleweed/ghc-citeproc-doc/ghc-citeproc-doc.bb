@@ -2,10 +2,10 @@ SUMMARY = "Haskell citeproc library documentation"
 DESCRIPTION = "This package provides the Haskell citeproc library documentation."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.8.1"
+PV = "0.13.0.1"
 
-RPM_NAME = "ghc-citeproc-doc-0.8.1-2.15.noarch.rpm"
-RPM_HASH = "7cfef1220988e3ddc230976f23d0a79a37734e09899db5b33c99d923d4ce55d176e809cda1e89f11c39e1cbb5483b4e1262e4349cbede533fd33f7b399f54851"
+RPM_NAME = "ghc-citeproc-doc-0.13.0.1-1.3.noarch.rpm"
+RPM_HASH = "22b9f005d5180e16618c33c882dd2d808a81cbf767dbf288be7213b562296ed723055473e2180fc1fb2ca5c29bc1b9044c147a3f19ccdfc21aab749af200f52f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-citeproc-doc"

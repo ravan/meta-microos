@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-bos-devel package contains libraries and signature file
 developing applications that use ocaml-bos."
 LICENSE = "ISC"
 
-PV = "0.2.1"
+PV = "0.3.0"
 
-RPM_NAME = "ocaml-bos-devel-0.2.1-1.2.aarch64.rpm"
-RPM_HASH = "5d11200b264a914dbff088f834a3963821937701b8b8964f8f890e9ab9fe7d4eacd9b0f412d10f87b714bd8381317747ed6d319febafcada7ac62dbc8caff943"
+RPM_NAME = "ocaml-bos-devel-0.3.0-1.3.aarch64.rpm"
+RPM_HASH = "f1c97fa0372a2d0916a1d45da43e147c8e5a2310b4b30dad24c85e9f1f2104d6159c829a7d91a63e4f26da3f090865b9b1c439fcacf13533ff10365b6efea0ba"
 
 RPROVIDES:${PN} += "ocaml-Bos \
 ocaml-Bos-base \
@@ -49,9 +49,11 @@ ocaml-Build-path-prefix-map \
 ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-Cmi-format \
+ocaml-Data-types \
 ocaml-Env \
 ocaml-Fmt \
 ocaml-Fmt-tty \
+ocaml-Format-doc \
 ocaml-Fpath \
 ocaml-Ident \
 ocaml-Identifiable \
@@ -61,10 +63,12 @@ ocaml-Logs \
 ocaml-Logs-fmt \
 ocaml-Longident \
 ocaml-Misc \
+ocaml-Oprint \
 ocaml-Outcometree \
 ocaml-Parsetree \
 ocaml-Path \
 ocaml-Primitive \
+ocaml-Result \
 ocaml-Rresult \
 ocaml-Shape \
 ocaml-Stdlib \
@@ -74,10 +78,12 @@ ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Complex \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Hashtbl \
+ocaml-Stdlib--In-channel \
 ocaml-Stdlib--Int32 \
 ocaml-Stdlib--Int64 \
 ocaml-Stdlib--Lazy \
@@ -86,9 +92,12 @@ ocaml-Stdlib--List \
 ocaml-Stdlib--Map \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
+ocaml-Stdlib--Option \
+ocaml-Stdlib--Out-channel \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Queue \
 ocaml-Stdlib--Random \
+ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--Stack \
@@ -99,11 +108,13 @@ ocaml-Subst \
 ocaml-Toploop \
 ocaml-Type-immediacy \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Unix \
 ocaml-Warnings \
 ocaml-bos \
 ocamlfind-astring \
 ocamlfind-astring.top \
+ocamlfind-bos \
 ocamlfind-compiler-libs.toplevel \
 ocamlfind-fmt \
 ocamlfind-fmt.top \
@@ -123,6 +134,7 @@ ocamlx-Fmt-tty \
 ocamlx-Fpath \
 ocamlx-Logs \
 ocamlx-Logs-fmt \
+ocamlx-Result \
 ocamlx-Rresult \
 ocamlx-Stdlib \
 ocamlx-Stdlib--Array \
@@ -130,7 +142,10 @@ ocamlx-Stdlib--Buffer \
 ocamlx-Stdlib--Bytes \
 ocamlx-Stdlib--Filename \
 ocamlx-Stdlib--Format \
+ocamlx-Stdlib--In-channel \
 ocamlx-Stdlib--List \
+ocamlx-Stdlib--Option \
+ocamlx-Stdlib--Out-channel \
 ocamlx-Stdlib--Random \
 ocamlx-Stdlib--Set \
 ocamlx-Stdlib--Sys \

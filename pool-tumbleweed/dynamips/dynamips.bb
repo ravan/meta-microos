@@ -8,10 +8,10 @@ simply a complementary tool to real labs for administrators of Cisco networks \
 or people wanting to pass their CCNA/CCNP/CCIE exams."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.2.23"
+PV = "0.2.25"
 
-RPM_NAME = "dynamips-0.2.23-2.1.aarch64.rpm"
-RPM_HASH = "db9e6f0a0355737bc4da958fe9ebe90ae52ac4d68dcb990bd9a6c9f53a7178b083727852e5b2c3f55eaac9410d55b3095d2297242dab099625e304a1bcc6a7f6"
+RPM_NAME = "dynamips-0.2.25-1.1.aarch64.rpm"
+RPM_HASH = "04c7b7a9782afe3a66bce4249e97bbad336478f2301c9e8a70d607397b365e73b62b353d06cc076936a5ac5f18ba985da62d8847c4c4d1d8977e9a449c2e5dd2"
 
 RPROVIDES:${PN} += "dynamips"
 

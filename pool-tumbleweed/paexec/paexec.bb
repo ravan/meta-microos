@@ -3,10 +3,10 @@ DESCRIPTION = "A program that processes a list of tasks in parallel \
 on different CPUs, computers in a network or whatever else."
 LICENSE = "MIT"
 
-PV = "1.1.4"
+PV = "1.1.6"
 
-RPM_NAME = "paexec-1.1.4-2.10.aarch64.rpm"
-RPM_HASH = "d38e68f08a7335e2169e3a772fb3ff96a4a0e4e8979e7784458b5a0b9bc4d408c6da34e7172b291fbf85edd82880e2678838dde5fcaaaf5ac04a72668654b65d"
+RPM_NAME = "paexec-1.1.6-1.9.aarch64.rpm"
+RPM_HASH = "c4e9d68921276bf8a98fcb5c1a5d18ddb336e50156bcb507d251191ae23397e8d5ba1d6f800570531c0505ab04f4dd90ab27dfacb1a76adec70d9c98d0e8f75e"
 
 RPROVIDES:${PN} += "paexec"
 

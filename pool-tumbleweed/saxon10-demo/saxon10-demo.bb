@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MPL-2.0"
 
 PV = "10.9"
 
-RPM_NAME = "saxon10-demo-10.9-1.1.noarch.rpm"
-RPM_HASH = "0db120ec4299f32ab074a2bdea2f9e02d2fc93d468ee03590e27e8c645d190b1eea0ab7906af1d9fd9f13de94279979dc2788eec172fd2931b1fac743fc2cc6f"
+RPM_NAME = "saxon10-demo-10.9-5.5.noarch.rpm"
+RPM_HASH = "2575b89a649b7c6e7a9e59f4a8ace71d6214a31dd9fa79831ec82d6f483498d7873be36256d7b1633ac9a5b22d39af2e70cd96ad718feba24a0648a3d9b7741d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon10-demo"

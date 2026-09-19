@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-gantt"
 DESCRIPTION = "This package includes the documentation for texlive-pst-gantt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.22asvn35832"
+PV = "2026.226.0.0.22asvn35832"
 
-RPM_NAME = "texlive-pst-gantt-doc-2023.209.0.0.22asvn35832-53.1.noarch.rpm"
-RPM_HASH = "19b96438bd1af2699c8c36dd50d1c71b0916071a7aba5ab5de3593d3e8787bcaa3b9305eb00835095d8d13f7697a779b802056cd2a03100f30c367f3550301fd"
+RPM_NAME = "texlive-pst-gantt-doc-2026.226.0.0.22asvn35832-59.2.noarch.rpm"
+RPM_HASH = "f48ede5887e8ecba86c53c15088e12113b4c41aed70656a475ccfa25bb6eac640880a47b1c3548a86f28397d95fd4a5754ba613edc0f3bae28677748ca4e0e91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-gantt-doc"

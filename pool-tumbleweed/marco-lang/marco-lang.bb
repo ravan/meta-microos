@@ -2,10 +2,10 @@ SUMMARY = "Translations for package marco"
 DESCRIPTION = "Provides translations for the 'marco' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.2"
+PV = "1.28.1"
 
-RPM_NAME = "marco-lang-1.26.2-1.1.noarch.rpm"
-RPM_HASH = "635d846db8de8a2f31b1fe265974d78605f288d33465f02f80ba1081c3a93f277dc3b6e88ebf54d5ade0ebb9de28ca3bf788fff868adb1f6d97ef21ff15c22d1"
+RPM_NAME = "marco-lang-1.28.1-2.5.noarch.rpm"
+RPM_HASH = "bb0063c6141ac81c30f82a5afa8a8df99067c850b66ee740f815b41916e52c0a7e73028830732bb310bfc831ea3b5e4d7f5dcb74e08db70ead1f8e8ecca210b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-marco-af \

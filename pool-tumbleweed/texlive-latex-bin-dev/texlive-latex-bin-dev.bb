@@ -2,10 +2,10 @@ SUMMARY = "LaTeX pre-release executables and formats"
 DESCRIPTION = "See the latex-base-dev package for information."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-latex-bin-dev-2023.209.svn66186-56.1.noarch.rpm"
-RPM_HASH = "7449f471091400bf8d46e9f3c8fa05ecc9efdf11ce5da98b9292eec2f6350e09f697fc7b6ade62faf9d9c514d4dec53dd23a67ca7e423bb3892af01f0d4687b8"
+RPM_NAME = "texlive-latex-bin-dev-2026.226.svn77830-63.2.noarch.rpm"
+RPM_HASH = "a03f46b7ea11fda77ec29a89b1ddfc8f9db8f833feda3c9a612b7ca8698577f34c5e4004b32ffd9cd488dcb65749c645969cfb2b5de41efceb41e71208234563"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvilualatex-dev.1 \
@@ -27,22 +27,17 @@ tex-language.dat \
 tex-language.dat.lua \
 tex-language.def \
 texlive \
-texlive-atbegshi \
-texlive-atveryend \
 texlive-babel \
 texlive-cm \
 texlive-dehyph \
-texlive-everyshi \
 texlive-filesystem \
-texlive-firstaid \
 texlive-hyph-utf8 \
 texlive-hyphen-base \
+texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
-texlive-l3backend \
-texlive-l3kernel \
-texlive-l3packages \
-texlive-latex \
+texlive-l3backend-dev \
+texlive-l3kernel-dev \
 texlive-latex-base-dev \
 texlive-latex-bin-dev-bin \
 texlive-latex-firstaid-dev \

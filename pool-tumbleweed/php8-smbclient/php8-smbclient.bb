@@ -3,10 +3,10 @@ DESCRIPTION = "smbclient is a PHP extension that uses Samba's libsmbclient libra
 Samba related functions and 'smb' streams to PHP programs."
 LICENSE = "PHP-3.01"
 
-PV = "1.1.1"
+PV = "1.1.2"
 
-RPM_NAME = "php8-smbclient-1.1.1-1.4.aarch64.rpm"
-RPM_HASH = "ad35fc4edf58ca77223ce6730a1f132e366e0603685260088648e1e9458ee7aa26da8142cc08d3f9f2c9168b2aeeaffda986115183ebe0da7ec8e93c62815cf4"
+RPM_NAME = "php8-smbclient-1.1.2-1.10.aarch64.rpm"
+RPM_HASH = "67259e3aa9dd052d80d203fd458eff9ab8de9aadb05be8729a527136aa1e616ca326a42e0b54f8cddf1fb8cd9b4c7c990b409eab64b15b3b0fbdd7a155b4670d"
 
 RPROVIDES:${PN} += "config-php8-smbclient \
 php-smbclient \

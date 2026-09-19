@@ -1,11 +1,11 @@
 SUMMARY = "Other Non-Chinese table input methods for Fcitx5"
 DESCRIPTION = "fcitx-table-other provides some other Non-Chinese table for Fcitx."
-LICENSE = "GPL-3.0-only & SUSE-Public-Domain"
+LICENSE = "GPL-3.0-only & LicenseRef-SUSE-Public-Domain"
 
-PV = "5.1.0"
+PV = "5.1.7"
 
-RPM_NAME = "fcitx5-table-other-5.1.0-1.1.noarch.rpm"
-RPM_HASH = "f273d030ae3c04f3b3c545b54b947ecbe8f57303a7b3edbe16703c31c86aa73d2085b9a3c8489ddbc7e106cce633b642beeec31bbdc069032cc191e1f32beba6"
+RPM_NAME = "fcitx5-table-other-5.1.7-1.2.noarch.rpm"
+RPM_HASH = "f24d618ceb183e12f6a92d031202a237e09e2b61cb519eff4039668640e10a658c2b042524ab7d5be60d09a9941cdb9bf4b64ed90ed285e7bae5aa3d3744ab5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-amharic \

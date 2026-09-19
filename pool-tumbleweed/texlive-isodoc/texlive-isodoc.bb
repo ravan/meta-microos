@@ -7,10 +7,10 @@ class is based on the NTG brief class by Victor Eijkhout, which \
 implements the NEN1026 standard."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.14svn59709"
+PV = "2026.226.1.16svn75787"
 
-RPM_NAME = "texlive-isodoc-2023.209.1.14svn59709-56.1.noarch.rpm"
-RPM_HASH = "6a16c379597b569d5c388e67f19e26e048620b7f2262761f11aa1bc575ae31cd068bd5602f7aa922921566efb07a6934965a6f8fd2040d899e5e754ea32acb97"
+RPM_NAME = "texlive-isodoc-2026.226.1.16svn75787-63.2.noarch.rpm"
+RPM_HASH = "9a11bb5bbd64383f71721cba0ee0967321fddb90e92d6d97afe13b72743af98f40dc79955dfeb2d7fbcf584f31c42fcee09782cbc6f8241a0a94b648c119e268"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-isodoc.cls \
@@ -23,7 +23,6 @@ findutils \
 grep \
 sed \
 tex-calc.sty \
-tex-fancyhdr.sty \
 tex-forarray.sty \
 tex-graphicx.sty \
 tex-hyperref.sty \

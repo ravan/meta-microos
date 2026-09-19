@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3"
 
-RPM_NAME = "usx2yloader-0.3-24.4.aarch64.rpm"
-RPM_HASH = "16d840ff7e2f0eb09d19d49ff8d8361ee5047bc8885de471040086e53dc67178ef1605e11aa75ae3b5e2f5db7eeb4488c09235a6761f38f4010d44c71d1632cf"
+RPM_NAME = "usx2yloader-0.3-29.4.aarch64.rpm"
+RPM_HASH = "5d95b82aaa13c49fdb9c4dc742994e0267583a267e48f61da5b3e6fe2b0c9eaede0831a2f52ddf1eca462cefd8a20d92051aea7e5e9b63f6b934434b235f5dc9"
 
 RPROVIDES:${PN} += "alsa-tools-/usr/bin/usx2yloader \
 usx2yloader"

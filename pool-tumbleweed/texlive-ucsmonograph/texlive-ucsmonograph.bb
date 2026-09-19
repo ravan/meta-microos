@@ -5,10 +5,10 @@ Association) standards and the UCS (University of Caxias do \
 Sul) specifications."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3.0svn52698"
+PV = "2026.226.1.3.0svn52698"
 
-RPM_NAME = "texlive-ucsmonograph-2023.209.1.3.0svn52698-54.1.noarch.rpm"
-RPM_HASH = "fa4044d3184dee3cc6d31f2597ea1cf01d6b94db525bf60f544783b2cca106a6148d87aaeb6ff6e3422bccbf4df4cab9fcdaa02807334f5e0db681111e7898b2"
+RPM_NAME = "texlive-ucsmonograph-2026.226.1.3.0svn52698-60.2.noarch.rpm"
+RPM_HASH = "09302e2177c57cde90f866731e5165940720e75ea4b1cbfa56a171f42fef9aa548263f3ff4e24adbe2c8250134d53222a7ef5d09e099fbd49f1fe452f275a3a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ucsmonograph.cls \

@@ -8,10 +8,10 @@ This package contains the development headers for the library found \
 in libXcursor1."
 LICENSE = "MIT"
 
-PV = "1.2.1"
+PV = "1.2.3"
 
-RPM_NAME = "libXcursor-devel-1.2.1-1.6.aarch64.rpm"
-RPM_HASH = "561bab6b029e86893f790ecc132e450ce4a7354d620600f815e990b6231ec74d1090156086aad881c049cc56a95be5ef8db29a33c34fad1bd4366b25f8601b3b"
+RPM_NAME = "libXcursor-devel-1.2.3-1.8.aarch64.rpm"
+RPM_HASH = "ce381aaa1120081d4eced063874067e0511cd838c518ddcff5bec9829636789cc7d2402d95da12756f26125470420c0edc151de34e2d398f717c9601e904051b"
 
 RPROVIDES:${PN} += "libXcursor-devel \
 pkgconfig-xcursor"

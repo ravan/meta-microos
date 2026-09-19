@@ -14,10 +14,10 @@ extended samples illustrate these features and guide students \
 to use the class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn63881"
+PV = "2026.226.svn63881"
 
-RPM_NAME = "texlive-ndsu-thesis-2022-2023.209.svn63881-55.1.noarch.rpm"
-RPM_HASH = "32907ef57449e714e69e870123b0af2883a0c6e25f58d8f1b053e4411b1960e9b7616bdf18ca25bac8d111cfee0061a1803d1ba1ce2de27236ba3462d0f8b7e7"
+RPM_NAME = "texlive-ndsu-thesis-2022-2026.226.svn63881-61.2.noarch.rpm"
+RPM_HASH = "3aab85fe8630e37cf680c56873f260b0251013cf6f383bc0b7388f3b7ab5f896fac119938fc21c72c3f3ff06b22a3d51d6f8e681dea70ef97ff8b8489321dbb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ndsu-thesis-2022.cls \
@@ -46,7 +46,6 @@ tex-enumitem.sty \
 tex-etoolbox.sty \
 tex-float.sty \
 tex-fontenc.sty \
-tex-gentium.sty \
 tex-geometry.sty \
 tex-hyperref.sty \
 tex-ifthen.sty \

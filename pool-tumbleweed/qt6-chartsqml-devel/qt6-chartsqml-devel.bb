@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 ChartsQml library - Development files"
 DESCRIPTION = "Development files for the Qt 6 ChartsQml library."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-chartsqml-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "39a3873a001c97da801922b96305626b715016f92bd8e13003752f5ccb77195309d5b461bb0d3bd4f708f1b6521a8e20b249f8a4368f6886714224a34281d9f1"
+RPM_NAME = "qt6-chartsqml-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "e47751730cfc87d361038fb6197d78a0ccd0ba63ff3adf9fe0e7d925acf861334670bab5cb5288c0a6d90f9a3edcf2d344e91453d3c2a26e420bb9207600dadd"
 
 RPROVIDES:${PN} += "cmake-Qt6ChartsQml \
 pkgconfig-Qt6ChartsQml \

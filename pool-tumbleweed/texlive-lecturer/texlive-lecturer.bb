@@ -21,10 +21,10 @@ probably), works only with pdfTeX and LuaTeX for the time \
 being, and requires texapi and yax, both v.1.02."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn23916"
+PV = "2026.226.svn23916"
 
-RPM_NAME = "texlive-lecturer-2023.209.svn23916-55.1.noarch.rpm"
-RPM_HASH = "ab4e14937908232b962aed6adae92f6fdb65413b7f19ece8b2e77714bd0b17a50edde812fd6a5c328061caf91ea0b648b214c0796d293be39b1c3f5471fddfa5"
+RPM_NAME = "texlive-lecturer-2026.226.svn23916-61.2.noarch.rpm"
+RPM_HASH = "e7c4413be66c9fed47a93c5834baf13b56ee4c263c46cdb0ad6410a60ed4ce21ed79b14c0c6cca0f42a1301560eaa84f769e65f20ba87ccc73dd6898b6aeac2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lecturer.sty \

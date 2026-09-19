@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lfb"
 DESCRIPTION = "This package includes the documentation for texlive-lfb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-lfb-doc-2023.209.1.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "1e17739a0cc7792786902ee1581f36bd76b9cf7f11645c7ffb489a16c1c6a8619c94623902123d2acf87b4eccced32082665df0a8e4047287428c4ec5ef96ea0"
+RPM_NAME = "texlive-lfb-doc-2026.226.1.0svn15878-61.2.noarch.rpm"
+RPM_HASH = "a7c3361d9c86e76ae4f5484c41e3f9b08bff8222863791e205f736dda03696f004cd68c072904055d35441365ee79bf7e48abbf108b05ca38366a07c961b6229"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-lfb-doc-el \

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.0"
 
-RPM_NAME = "libt3config-devel-1.0.0-1.15.aarch64.rpm"
-RPM_HASH = "8e0c53ca70803a3c60a6d656c90f36759bdabdcd5c93f756ac9f860a5c776e81cb78aea30ffe656303484d3759eee9962eb918664acd97fc1b81b36cf4eaa5fe"
+RPM_NAME = "libt3config-devel-1.0.0-1.25.aarch64.rpm"
+RPM_HASH = "3e30c73c83b24030c246eb058f5a8ac3766aeec2f0a25229e6e575808f83ca669c5a7652602f1499e6fe360ba3e206c4bf85fb2e0528c160412080bba9eeef23"
 
 RPROVIDES:${PN} += "libt3config-devel \
 pkgconfig-libt3config"

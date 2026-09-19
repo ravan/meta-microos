@@ -5,15 +5,15 @@ data about the dependency tree in JSON format into a dedicated linker section of
 executable."
 LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (0BSD | MIT | Apache-2.0) & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & MIT"
 
-PV = "0.6.0~0"
+PV = "0.7.5~0"
 
-RPM_NAME = "cargo-auditable-0.6.0~0-1.3.aarch64.rpm"
-RPM_HASH = "1cb00066a0dd589c7340e6abdfdb5edc00ea17ad310a9f194970a7f09cec7e0ac7e0b015f4f1a7444a4148be9eb238547b4b1fc981dc3d3190af48fea81fe483"
+RPM_NAME = "cargo-auditable-0.7.5~0-1.4.aarch64.rpm"
+RPM_HASH = "91691f4f420d1ce6826ba16234e7854c7d295a9b968bcb266f6692de37f84dd0b1e918135e821008a0216700e0994d427abbf8c2569257a9324971038ffc4d53"
 
 RPROVIDES:${PN} += "cargo-auditable"
 
-RDEPENDS:${PN} += "cargo \
-libc.so.6 \
-libgcc-s.so.1"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+rust+cargo"
 
 inherit rpm

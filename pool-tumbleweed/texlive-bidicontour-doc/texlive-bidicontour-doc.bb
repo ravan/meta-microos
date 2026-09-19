@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bidicontour"
 DESCRIPTION = "This package includes the documentation for texlive-bidicontour"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn34631"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-bidicontour-doc-2023.209.0.0.2svn34631-54.1.noarch.rpm"
-RPM_HASH = "dd0deafb147331924e565121ee8b19c1337ddf0881a3ba8309361a2c94cd40ab2b8546e10ddf5f68fc7d2978cc7d22525c3e5bbb62e9af159596dde91fb93fd0"
+RPM_NAME = "texlive-bidicontour-doc-2026.226.0.0.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "ae20e4e7f3b0768f573e4f2e1425e789efee3cb170d81c645897d67470a035a95a887fb7d6b46eb3b16a52c8273c8c6a078ba277c460053b5f8cb8900953b2e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bidicontour-doc"

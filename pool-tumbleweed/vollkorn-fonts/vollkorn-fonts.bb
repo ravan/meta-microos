@@ -8,8 +8,8 @@ LICENSE = "OFL-1.1"
 
 PV = "4.105"
 
-RPM_NAME = "vollkorn-fonts-4.105-2.11.noarch.rpm"
-RPM_HASH = "4c04d8e3fd86cfa106785378447ed7bfcd811426651a36deeb2de01d441536fcddc7c49b4ce1e54cb6b19989200367dd11a9c540d9465d5b36947730e4025d1d"
+RPM_NAME = "vollkorn-fonts-4.105-2.19.noarch.rpm"
+RPM_HASH = "1124623f11929190a9a20ffc05975c1b0dded9a0f12f14575dca0ff99b74e9a93e34c9f5f5c21273443f079710d31a26d9891394f19fd12a7c321e3ab2f4d4eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vollkorn-fonts"

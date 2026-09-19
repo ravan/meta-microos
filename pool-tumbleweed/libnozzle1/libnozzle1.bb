@@ -2,12 +2,12 @@ SUMMARY = "Simple userland wrapper around kernel tap devices"
 DESCRIPTION = "This is an over-engineered commodity library to manage a pool \
 of tap devices and provides the basic \
 pre-up.d/up.d/down.d/post-down.d infrastructure."
-LICENSE = "GPL-2.0+ & LGPL-2.1+"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21"
+PV = "1.33"
 
-RPM_NAME = "libnozzle1-1.21-1.10.aarch64.rpm"
-RPM_HASH = "70f649b7ce948edc7c982c81543317d1551acd38744eea512ab2e18e0e583d3878e2651443dd059b488cc54c3a4b5cf8ae55c84449baa419fe66a1826c40a31c"
+RPM_NAME = "libnozzle1-1.33-2.2.aarch64.rpm"
+RPM_HASH = "54a714becb831e6015feef7ecc14a971e40a88a92106fc8c62ae9ffd40d009850b8eeea82fc8ba352f551c160c44817163cda4ad6e009901ef697f14c933d1a2"
 
 RPROVIDES:${PN} += "libnozzle.so.1 \
 libnozzle1"

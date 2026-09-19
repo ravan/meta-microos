@@ -4,17 +4,15 @@ Knuth's CM fonts. It comprises OT1, T1 and TS1 encoded text \
 fonts of various shapes as well as all the fonts necessary for \
 mathematical typesetting, including AMS symbols. This \
 collection provides all the necessary files for using the fonts \
-with LaTeX. A commercial-quality Adobe Type 1 version of these \
-fonts is available from Micropress. Free versions are \
-available, in the cm-super font bundle (the T1 and TS1 encoded \
-part of the set), and in the hfbright package (the OT1 encoded \
-part, and the maths fonts)."
+with LaTeX. Free versions are available, in the cm-super font \
+bundle (the T1 and TS1 encoded part of the set), and in the \
+hfbright package (the OT1 encoded part, and the maths fonts)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.8.1svn21107"
+PV = "2026.226.8.1svn77682"
 
-RPM_NAME = "texlive-cmbright-2023.209.8.1svn21107-54.1.noarch.rpm"
-RPM_HASH = "b86dbea50746e4e63d52b3f4d4069684e5601682b8c758547c4298065c001ea0c8d637b61d72e2b56cd4ffae19c4bd27308b9b441dd48b688c66a636803a7898"
+RPM_NAME = "texlive-cmbright-2026.226.8.1svn77682-60.2.noarch.rpm"
+RPM_HASH = "b5e60b193a6f433e5079fa27dda12909fd69fb8c9c7bdbe39876934c65139b86dbe614d11e84ddc49cdf4f04075653bf5cfb3c21f924117edd747fe5a5ab904e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmbr10.tfm \

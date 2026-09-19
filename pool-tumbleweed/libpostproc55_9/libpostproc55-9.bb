@@ -4,10 +4,10 @@ deringing filters, noise reduction, automatic contrast and brightness \
 correction, linear/cubic interpolating deinterlacing."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "libpostproc55_9-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "df53fe7497aad2f9ab1a389df518f06640717fe4bea039dac60b17748fadd593e16caca1078d9a9d8a3999cddc69aed003c0ce33d84f9762ce00ba51151fce63"
+RPM_NAME = "libpostproc55_9-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "1e76c880b1f57ffbda28eb08880789bf8669283dc43d42240f0b24f95fa8b5c78a49e0b383b2399f5f110383d62815d10b17f340c2067805be2ce9cf17693380"
 
 RPROVIDES:${PN} += "libpostproc.so.55.9 \
 libpostproc55-9"

@@ -3,10 +3,10 @@ DESCRIPTION = "RBAC/MLS policy machines require newrole as a way of changing the
 or level of a logged-in user."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "policycoreutils-newrole-3.5-4.1.aarch64.rpm"
-RPM_HASH = "61ab0c189e3b7946709dc1dbc449a9e7de08338b0d93b2728eec01e95bbdccc54c5038910a331f70230e920d6f45d4c251cb8cec5f96565204f08dc4a837f662"
+RPM_NAME = "policycoreutils-newrole-3.11-2.2.aarch64.rpm"
+RPM_HASH = "d781552c8ce3994334946fba0fce3e66572bb979eb131b69c99926f2b233adbf35683e11f4209152ff2036bd8a04c2b80bfc37957192af4acda59c56c61ae7be"
 
 RPROVIDES:${PN} += "policycoreutils-newrole"
 

@@ -3,24 +3,24 @@ DESCRIPTION = "This package provides the Haskell unicode-collation library devel
 files."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.1.3.5"
+PV = "0.1.3.7"
 
-RPM_NAME = "ghc-unicode-collation-devel-0.1.3.5-1.1.aarch64.rpm"
-RPM_HASH = "65903639381058a7da79faa745a41920e212ddfbfaac58b7ae4ef4879eb6b417186effffde9a56a33ef0d1a3b924056ba324a9ce1dbbdd6b079a2ecab8286d9c"
+RPM_NAME = "ghc-unicode-collation-devel-0.1.3.7-1.3.aarch64.rpm"
+RPM_HASH = "5032041d76af3d2b450462df7a960b61ee7d86cc983089a2bdfc4c8ab6351f48e20237b09cbae3009d97fdbcd52385f28465472a7b863644975c392cc92f8fcc"
 
-RPROVIDES:${PN} += "ghc-devel-unicode-collation-0.1.3.5-IFdGKnlU7nK53rXIDeXQnQ \
+RPROVIDES:${PN} += "ghc-devel-unicode-collation-0.1.3.7-15abqneWG6p19BxNVdLS7C \
 ghc-unicode-collation-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-binary-0.8.9.1 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-parsec-3.1.16.1 \
-ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-text-2.0.2 \
-ghc-devel-th-lift-instances-0.1.20-BKODVtFlRayDjKs9vGaGq3 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-binary-0.8.9.3-9861 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-parsec-3.1.18.0-be05 \
+ghc-devel-template-haskell-2.23.0.0-358a \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-th-lift-instances-0.1.20-A0nCC2bmuVRHGZj0nSUeyw \
 ghc-unicode-collation"
 
 inherit rpm

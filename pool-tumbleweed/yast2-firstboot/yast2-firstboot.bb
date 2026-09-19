@@ -10,10 +10,10 @@ however some last steps like root password and user logins have to be \
 created to personalize the system."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "5.0.2"
 
-RPM_NAME = "yast2-firstboot-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "fece063121ac4cf09508cd9d9cab053a337e91c7e0ff6107a0baac63d0e2926554e9c61797af79dff31f0dab71219c5d09a95918f56c4553fdfc250975e31ce4"
+RPM_NAME = "yast2-firstboot-5.0.2-1.2.noarch.rpm"
+RPM_HASH = "632426946534355e60feba5c5e382c9f116666bc03462c27011250672eeaf8d635546a264876a4aa3175fb45afbc656892b0ca7c95921edee37c7f736a589265"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-firstboot"

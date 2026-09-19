@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.8.0"
 
-RPM_NAME = "rtr-tools-0.8.0-1.8.aarch64.rpm"
-RPM_HASH = "02c99472c0a04cdcb85ba28f24fc8cc54112536c4ae1aaa7a9fa8b37ab2772cde6b1d4b3aad8ee8dbb61ec99fcc4f286f7d6844b6d5aa2d646fc5815ff15e4df"
+RPM_NAME = "rtr-tools-0.8.0-3.5.aarch64.rpm"
+RPM_HASH = "e3a04360d945ee32536f2d0a3aa010d2ad0830e56b761f09e861f2f33a54de6099cc9ee62bf59a3d5f628616545e5ee7b0ac16d5ea46da6a9d1c40c1702fb3f1"
 
 RPROVIDES:${PN} += "rtr-tools"
 

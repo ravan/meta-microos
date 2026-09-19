@@ -2,30 +2,29 @@ SUMMARY = "Haskell cassava library development files"
 DESCRIPTION = "This package provides the Haskell cassava library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.5.3.0"
+PV = "0.5.4.1"
 
-RPM_NAME = "ghc-cassava-devel-0.5.3.0-5.1.aarch64.rpm"
-RPM_HASH = "403a50a0e432ad083f39775af4433c85c6a987c205e2bbe96a572fcf924ef1c123b863ae8357d8218c63571b4eacb2b97de4280d3e8c13df51fe56a84c9471dd"
+RPM_NAME = "ghc-cassava-devel-0.5.4.1-1.11.aarch64.rpm"
+RPM_HASH = "486fdc0645ac9fba585e98dd69ad8212df2d4cd5fbc7d2e1f75a2dbcaf7e0e13f1a0078668e77d95f4040fb2406bd1ecc495d0a9240a13f451f8909749d6bbbe"
 
 RPROVIDES:${PN} += "ghc-cassava-devel \
-ghc-devel-cassava-0.5.3.0-3BxMB2hl3TbBsSJkTsXVLP"
+ghc-devel-cassava-0.5.4.1-8IyxQgBHHLo5YfhT4Ar4sR"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cassava \
 ghc-compiler \
-ghc-devel-Only-0.1-qCrN026ulaL2ZFxnlcrV1 \
-ghc-devel-array-0.5.4.0 \
-ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-devel-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
-ghc-devel-text-2.0.2 \
-ghc-devel-text-short-0.1.5-1JafpcPTh6A5I5aikDr3ez \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku"
+ghc-devel-Only-0.1-JTlBo1y3Iulx07n0z4y7 \
+ghc-devel-array-0.5.8.0-2a42 \
+ghc-devel-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
+ghc-devel-scientific-0.3.8.1-EfN6leGWc5k1t5YPK2dkVk \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-text-short-0.1.6.1-K3gVAGEPLemvxyg6g1yq \
+ghc-devel-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-devel-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE"
 
 inherit rpm

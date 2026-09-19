@@ -2,10 +2,11 @@ SUMMARY = "Firejail zsh completion"
 DESCRIPTION = "Optional dependency offering zsh completion for firejail"
 LICENSE = "GPL-2.0-only"
 
-PV = "0.9.72"
+PV = "0.9.80"
 
-RPM_NAME = "firejail-zsh-completion-0.9.72-1.1.aarch64.rpm"
-RPM_HASH = "13c671468fd6fec7a0216d22e9598cd521923e3e590770738bcca74454ff75299b0ab3434855fd333afeb95bb7a976151e3ce71fa5d2861ffd6d5a84226d85d0"
+RPM_NAME = "firejail-zsh-completion-0.9.80-1.4.noarch.rpm"
+RPM_HASH = "ed9d24fe7db5d2c576f3bf30249df97b797490694356a9092794b18476280cd89062c6b143aea7ea7a644e152f547e0c1ab9e88d9b71654c8479663d373211a9"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firejail-zsh-completion"
 

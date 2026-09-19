@@ -10,10 +10,10 @@ directly. Hence, purifyeps need only convert an arbitrary EPS \
 file into the same stylized format that MetaPost outputs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn29725"
+PV = "2026.226.1.1svn29725"
 
-RPM_NAME = "texlive-purifyeps-2023.209.1.1svn29725-54.2.noarch.rpm"
-RPM_HASH = "4eeead91a431abe4f65bde00e1f23c204348cf6e4673abade3de4ccb8623a509a6f5b31150969de8e92bf7faadc89de950e83d5fce7f3c899611857277d062c9"
+RPM_NAME = "texlive-purifyeps-2026.226.1.1svn29725-60.4.noarch.rpm"
+RPM_HASH = "b7de616b8a2a4dc058d0dc8033acfea8085d29621a43341aa4af1b2a004ff55ac84d97ee30045fbd96a9f854d4c5f8204242caf9defb6c9efbc19057fc48f8c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-purifyeps"

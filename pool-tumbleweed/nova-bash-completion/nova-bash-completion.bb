@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for nova"
 DESCRIPTION = "Bash command line completion support for nova."
 LICENSE = "Apache-2.0"
 
-PV = "3.7.0"
+PV = "3.12.0"
 
-RPM_NAME = "nova-bash-completion-3.7.0-1.1.noarch.rpm"
-RPM_HASH = "3e39af41d6b940b8b1d26df07e785679c5b33b8adfa0cf9adc0de9369ec96956b1062880a99e4ebc7ec55243ada67c03c311fc09122117b6fc06e4fee1abe3df"
+RPM_NAME = "nova-bash-completion-3.12.0-1.4.noarch.rpm"
+RPM_HASH = "021c7569ff85afd9effefd40a8fff1478008f4aaae9a1b90d3ad6cd7625a015e47f724c645a40bc7ee8910db032a823ae9db43d7721221df50bb3267261d2a47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nova-bash-completion"

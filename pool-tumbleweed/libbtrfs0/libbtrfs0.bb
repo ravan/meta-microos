@@ -1,12 +1,11 @@
 SUMMARY = "Library for interacting with Btrfs"
-DESCRIPTION = "This package contains the libbtrfs.so shared library needed for some \
-applications to interface with btrfs."
+DESCRIPTION = "This package contains the versioned libbtrfs.so shared library."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.5"
+PV = "7.1"
 
-RPM_NAME = "libbtrfs0-6.5-1.1.aarch64.rpm"
-RPM_HASH = "ab488fb78174d5f65a6363d9ce1ba743f6e13339d3ccbc50427269c1abb95ef15500b46fe7592bb8dade6ee9d948c0a02ed174e02e225dc8ab4b4942dc1cf783"
+RPM_NAME = "libbtrfs0-7.1-1.2.aarch64.rpm"
+RPM_HASH = "a59aab84c099d4a2cae81d67c84a04ce4b71267b0b95ad051e65c99a74f5ed23c323d01bf704f1d383070b0f88384cd582259dd56d39fdbf1cbefc4fd897d5e7"
 
 RPROVIDES:${PN} += "libbtrfs.so.0 \
 libbtrfs0"

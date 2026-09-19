@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.6"
 
-RPM_NAME = "libmtdev1-1.1.6-1.10.aarch64.rpm"
-RPM_HASH = "45d8db974aecdc696606b38d5270a0dc64a4e580a2779874ca9f031d7d2863b715f56f65820e929ea908a7096153e1cbc1682714c1b3c02b3f051b6fad81f5e7"
+RPM_NAME = "libmtdev1-1.1.6-1.20.aarch64.rpm"
+RPM_HASH = "b6bd5af7fd539cb76db2d1a87d4621804bb4a0e7b70ae2b2bd73f7bbf8bd86cee111fd94033a5a13398d7da6c73293515c333bb7714517d9dcd404d7728a29c5"
 
 RPROVIDES:${PN} += "libmtdev.so.1 \
 libmtdev1"

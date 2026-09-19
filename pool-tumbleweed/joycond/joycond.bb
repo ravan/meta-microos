@@ -4,10 +4,10 @@ hid-nintendo (formerly known as hid-joycon) to implement joycond \
 pairing."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.1.0+git.51~f9a6691"
+PV = "1+git20250412.39d5728"
 
-RPM_NAME = "joycond-0.1.0+git.51~f9a6691-3.7.aarch64.rpm"
-RPM_HASH = "b0a01537dcb4a5e991323cf309c77ea50df1c66f00e6c0234863bf00913267c56ec1917c9d897ae0ff9024d9ea581ac321fb81d841f6cdc4d16c05259721e45c"
+RPM_NAME = "joycond-1+git20250412.39d5728-1.6.aarch64.rpm"
+RPM_HASH = "9307baa2df458c94ae4d15ec1e1ae85d7bd1811d0cdee304b7e517b2468b86227da8ec5464dea96cd8dd2d467b336f0b531a7e979185744223c6b9a2ea5d2879"
 
 RPROVIDES:${PN} += "joycond"
 

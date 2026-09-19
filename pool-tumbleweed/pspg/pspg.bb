@@ -5,10 +5,10 @@ not any special support for tabular data. Tabular data related features \
 are core functionality of this pager."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.9.0"
+PV = "5.8.16"
 
-RPM_NAME = "pspg-1.9.0-1.16.aarch64.rpm"
-RPM_HASH = "417a73a82a73e1455ad3b8749ca2601348bcd737d52c3c2cfd83de4614e674d477ff1b3f382b6501109bbb070abb87ba0d4928ccb1960f213274c13ade8115bf"
+RPM_NAME = "pspg-5.8.16-1.3.aarch64.rpm"
+RPM_HASH = "b2c46b138a4593b6f8faf412da200c8990e19ce7979b6941338d1700d13ec2831de3bfbb790882547f39bcb4b516f72fde3798d1eb6c4f2146c701ea57065d5f"
 
 RPROVIDES:${PN} += "pspg"
 

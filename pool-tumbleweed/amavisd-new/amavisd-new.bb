@@ -9,10 +9,10 @@ following MTAs: \
 - exim"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.0"
+PV = "2.14.0"
 
-RPM_NAME = "amavisd-new-2.13.0-3.1.noarch.rpm"
-RPM_HASH = "7d33a297c24851b02505d5fb0a0b10da0d84e81500429d2968cacf25d74c435d12dc4c1d3b32d0aa3571e7c27032fbee3db6141715acb886ede6920419c3b46d"
+RPM_NAME = "amavisd-new-2.14.0-1.5.noarch.rpm"
+RPM_HASH = "d1c7c7ce9e0ec7600e80f0dd016c539c1d41f6cdaec8320e2710ec1d19a72913a80e88901d21b1db72f486580b5307039e97c876487d3d0145eca4665005226c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "amavisd-new \
@@ -97,7 +97,7 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 file \
 fillup \
 group-vscan \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Archive--Zip \
 perl-Compress--Raw--Zlib \
 perl-Compress--Zlib \

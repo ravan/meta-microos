@@ -3,10 +3,10 @@ DESCRIPTION = "Core annotations used for value types, \
 used by Jackson data-binding package."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-annotations-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "33c0035087c19ef25ad6612a6a8538aca5b583ad90e1f63cfcc4c8b8091231e78cd676d34b4064e939148fe59582e69bc10e655d39ec88b725bbf0c05cd18010"
+RPM_NAME = "jackson-annotations-2.18.9-1.2.noarch.rpm"
+RPM_HASH = "12b03de19f20c2e828d5cd94ececaaa4b3797af6a91a73502d5ca4b7b92b5b977b408a5df8a75842b35649877ef7b520f14c117e30b05c08745cbca754a5200d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-annotations \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-contourplot"
 DESCRIPTION = "This package includes the documentation for texlive-pst-contourplot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn48230"
+PV = "2026.226.0.0.6svn48230"
 
-RPM_NAME = "texlive-pst-contourplot-doc-2023.209.0.0.6svn48230-53.1.noarch.rpm"
-RPM_HASH = "47e682c339f5a3e72659660511ebc5ebf598a32d1869097dd1c211e830845d51ad47cd39d4539674882ad7b434552a15384f27def23356b17eca85ba47724d4f"
+RPM_NAME = "texlive-pst-contourplot-doc-2026.226.0.0.6svn48230-59.2.noarch.rpm"
+RPM_HASH = "9881bf99f341e629c9a11fb48d14a952ed17cfd3c8f119bc30fdeb0ba90befb2e8a5f6a335af2c010f2b280b65661318d1ab5ea542aa65da6ce5177cf2b961bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-contourplot-doc-fr \

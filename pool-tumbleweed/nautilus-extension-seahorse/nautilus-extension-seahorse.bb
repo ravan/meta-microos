@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.11.92+95"
 
-RPM_NAME = "nautilus-extension-seahorse-3.11.92+95-1.3.aarch64.rpm"
-RPM_HASH = "cc54b4db63c88f27b98e2fd6781e6b961bd348638b956a34ae381de3b6c097a80f193349231b185117a28934c1214490b14f704179fac03a1da3ca24da0b57b3"
+RPM_NAME = "nautilus-extension-seahorse-3.11.92+95-2.6.aarch64.rpm"
+RPM_HASH = "43fc90b163ba2ac9c0ae76d553b7246529812a56b1aeb0a179cec7c564fec27c272c046ea26f7e9034d885ea135c8d749aa0772202df90c35b6ab107e519a110"
 
 RPROVIDES:${PN} += "libnautilus-seahorse.so \
 nautilus-extension-seahorse \
@@ -20,7 +20,7 @@ libgcr-base-3.so.1 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgpgme.so.11 \
+libgpgme.so.45 \
 libgtk-3.so.0 \
 libnautilus-extension.so.4"
 

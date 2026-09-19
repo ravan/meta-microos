@@ -4,10 +4,10 @@ kind of bar chart that displays a project schedule. The package \
 requires the pstricks apparatus, of course."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.22asvn35832"
+PV = "2026.226.0.0.22asvn35832"
 
-RPM_NAME = "texlive-pst-gantt-2023.209.0.0.22asvn35832-53.1.noarch.rpm"
-RPM_HASH = "b313a654d55ecc86d5da5fad1d02263226c821fea8d9ef4bf2a0c96e039098d6714df9140524ab62d2675f1affb66634ae52664c0a603f3c1ee51b91f67e8cad"
+RPM_NAME = "texlive-pst-gantt-2026.226.0.0.22asvn35832-59.2.noarch.rpm"
+RPM_HASH = "83abce5774fd81bf51e2707433c656148c790d3422ce3010a9eee0a5c3e590e85424726877ace33e19f5738c7031390253bde46d1f77f861d72951251aff2cf1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-gantt.sty \

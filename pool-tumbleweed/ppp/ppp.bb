@@ -7,22 +7,23 @@ the details of setting up a PPP link including configuring the network \
 interface and performing the PPP negotiations."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "2.4.9"
+PV = "2.5.2"
 
-RPM_NAME = "ppp-2.4.9-3.4.aarch64.rpm"
-RPM_HASH = "0a24f2c0d2ab072a172d031b1fe2bec3e2ab1a528124c7d76e55776e9595edc9e9bfa22ecbc95ceac81637ad4d54b1441c2c47e1528c5d83461687873fb85a6f"
+RPM_NAME = "ppp-2.5.2-3.4.aarch64.rpm"
+RPM_HASH = "258f2aefe453eba4ee69547cc56bb615eb71cd41393ce63e12e19a1b1c2b723edda134a6d18e67d812cfd0183c25f6d74cb4419a04a024965000ee56324b15d2"
 
 RPROVIDES:${PN} += "config-ppp \
 ppp"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 group-dialout \
-libatm.so.1 \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypt.so.1 \
 libcrypto.so.3 \
 libpam.so.0 \
 libpcap.so.1 \
-libssl.so.3"
+libssl.so.3 \
+libsystemd.so.0"
 
 inherit rpm

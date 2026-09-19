@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Tongan lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-ton-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "8a2fc9ba926087849c8d7ae2ee081003f6af9b843d197975b281db53baf47be688c0fbee786f4dc9daed1dd9683bca4528d4b1c32097a414276122ab99c30694"
+RPM_NAME = "tesseract-ocr-traineddata-ton-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "bf582d9fbc8b97d27cc3582a381f2a91735c4af5f10ade3e36492fc8a233ab6265972c051d3adce83bfab18e2073bf2e9e1f54fa8cd3e2430fd058011238c0f3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-ton \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-to \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-ton \
 tesseract-ocr-traineddata-tongan \
 tesseract-traineddata-tongan"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

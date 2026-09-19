@@ -5,10 +5,10 @@ fields of data. These illustrations show how the bits and bytes \
 are laid out in a packet or in memory."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.7svn60265"
+PV = "2026.226.2.9svn77682"
 
-RPM_NAME = "texlive-bytefield-2023.209.2.7svn60265-53.1.noarch.rpm"
-RPM_HASH = "fb15a0d4267cc1df7cefedd6084c9e489caecc4f368d5e6a4f8f98cf78de2b1b78563f2e5319b3131198c6945d09d1f8d2b5f84e2276db405decfd5d0ce557a2"
+RPM_NAME = "texlive-bytefield-2026.226.2.9svn77682-59.2.noarch.rpm"
+RPM_HASH = "95292cf377e0763fa5585ed16969ee3d4aa69ecc543d64afa8059c0f5d348f4d49ae65d29fbec5400dfefd1522ec02c7535037947c25404177b2c4f04f9a1724"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bytefield.sty \

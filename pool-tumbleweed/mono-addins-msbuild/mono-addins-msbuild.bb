@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.3.3"
 
-RPM_NAME = "mono-addins-msbuild-1.3.3-2.17.noarch.rpm"
-RPM_HASH = "199e0c035f3037128cf2e4fe04cc912f35ad3accaa633d04501e67bcca78ae4fede72b295c2a6a86c41d06c9a602d14baaf959c7ef74ba2bb2b330a5127058c3"
+RPM_NAME = "mono-addins-msbuild-1.3.3-3.16.noarch.rpm"
+RPM_HASH = "af9a82c32291cc73f4772b66c2d9072cd616ddd2568f281c82b39c643d0e9ae828bc73efc03b692175dcf40441ed37a6c0edfa3069eb718929a41297c0a7af10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-Mono.Addins.MSBuild \

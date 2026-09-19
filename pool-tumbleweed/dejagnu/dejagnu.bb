@@ -26,8 +26,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.3"
 
-RPM_NAME = "dejagnu-1.6.3-1.14.noarch.rpm"
-RPM_HASH = "d1719d9f3d356e61ea4314b987f22cffd7d7925fa0b76766e4bd4e12a317cd81b51120525cb170db21a191b9011b040e91f99ad47b88cac94c05c5e3df37246e"
+RPM_NAME = "dejagnu-1.6.3-2.8.noarch.rpm"
+RPM_HASH = "17274ca69acd81b9e857cf48951b5d3beeb07968ea77c456619cda6ce2f4ad1c7cbe6116f801f0ca8636cad7ec37f92093d77f04583a4d9d47b8b30317518dcf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-dejagnu \

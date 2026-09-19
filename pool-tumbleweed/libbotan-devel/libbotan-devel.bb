@@ -3,17 +3,17 @@ DESCRIPTION = "This package contains the header files and libraries needed to de
 programs that use the Botan library."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.19.3"
+PV = "3.13.0"
 
-RPM_NAME = "libbotan-devel-2.19.3-1.6.aarch64.rpm"
-RPM_HASH = "101ec84d2dba97375d44573a0809c6fa3e68154290541275280b73bbdf3dba81280569e6ac451fb996bd5ef4a42c697e05fa6a182962d44b77ef61f0a098536b"
+RPM_NAME = "libbotan-devel-3.13.0-1.1.aarch64.rpm"
+RPM_HASH = "9042049b7d045c616deeb3a9d1839bb8392bb2dc97eec37898ee8fae1c5f943e14efd3c9c6bf434a3208ea4894acee66c98875568113b73e1e56bf8e1aafd133"
 
 RPROVIDES:${PN} += "Botan-devel \
 libbotan-devel \
-pkgconfig-botan-2"
+pkgconfig-botan-3"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libbotan-2-19 \
+libbotan-3-13 \
 libbz2-devel \
 pkgconfig-liblzma \
 pkgconfig-sqlite3 \

@@ -3,10 +3,10 @@ DESCRIPTION = "Build of mod_auth_mellon with diagnostic logging. See README.diag
 in the doc directory for instructions on using the diagnostics build."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.17.0"
+PV = "0.19.1"
 
-RPM_NAME = "apache2-mod_auth_mellon-diagnostics-0.17.0-2.10.aarch64.rpm"
-RPM_HASH = "9d20ab945733721f4f86c28c52cb29773513ceee2097aa999cd21269a58aaf1524599289d98a62052c191990c5c7b219d7ecd40f045018b8098ab3edb7014e18"
+RPM_NAME = "apache2-mod_auth_mellon-diagnostics-0.19.1-1.9.aarch64.rpm"
+RPM_HASH = "a0f54b5d3b4e191af80fbe63e39fb4ff565b9e4ada790b0d4d189bb23352eb5fc3b924641f0bc43ae9044c8674cb61a0c6dd561e122d9fc4b0da2e60862f835f"
 
 RPROVIDES:${PN} += "apache2-mod-auth-mellon-diagnostics"
 

@@ -6,10 +6,10 @@ ranging from small one-off projects to complete application suites. \
 This package provides the GObject Introspection bindings for GTK+."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.12.0"
+PV = "4.22.5"
 
-RPM_NAME = "typelib-1_0-Gtk-4_0-4.12.0-2.1.aarch64.rpm"
-RPM_HASH = "8e5f39af45d80e95b38f428945c24f6afdd579290b55ee3d02c7a07fc6f1360bb4f4ee1aa11b96291d3c9d9191151e44dd21fb4673216f1881b8b1bef527acf0"
+RPM_NAME = "typelib-1_0-Gtk-4_0-4.22.5-1.1.aarch64.rpm"
+RPM_HASH = "c0cc947e45fa4ae6ffea7ac2f3727c3ef2e0dc151ec31d1afe87151babf04a389fd8c2a87eb9a7b5372472e9d5c643976be92ad4c39186b0178a0a28013faa48"
 
 RPROVIDES:${PN} += "typelib-1-0-Gtk-4-0 \
 typelib-Gdk \

@@ -8,11 +8,10 @@ LICENSE = "BSD-4-Clause & MPL-1.1"
 
 PV = "12.5"
 
-RPM_NAME = "mailx-12.5-35.5.aarch64.rpm"
-RPM_HASH = "89119681a0eea5d7751ac79127b41105052364bafca4a19dcb7e6ff6fa0edff8570881356274dc2945f9a243df76bc3099384436a2c6202c1e324513e31e9ae7"
+RPM_NAME = "mailx-12.5-39.5.aarch64.rpm"
+RPM_HASH = "572ac6459bb3b063d6b2eda0ded80c6fa5f71e5de90105abf32d0e24a76bdbe5e13b6dc41073eadf9f8bcab9ed0ed75e36e5cdd2498c0a760c47f5352e4b8499"
 
-RPROVIDES:${PN} += "config-mailx \
-mail \
+RPROVIDES:${PN} += "mail \
 mailx"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

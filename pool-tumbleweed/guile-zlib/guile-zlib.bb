@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.0"
 
-RPM_NAME = "guile-zlib-0.1.0-1.9.aarch64.rpm"
-RPM_HASH = "ee6eb5777d96ec2723e3e36b905cc34dc6083db24eadd03b53f58728bf115ae7a1ac50e7d2e07d54b19f7c705436764b49899b261fcd0d037ec207499d1ffa55"
+RPM_NAME = "guile-zlib-0.1.0-1.20.aarch64.rpm"
+RPM_HASH = "fbeb25902aa31a32a53694dd93effe72b821fb22c5a56f3d33a5f9a5c19d6908d7f6d0b7d69fc6e61542660f4e54604c925bab2e2f54da5dbd60c917accfd7e7"
 
 RPROVIDES:${PN} += "guile-zlib"
 

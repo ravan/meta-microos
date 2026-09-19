@@ -3,12 +3,12 @@ DESCRIPTION = "The Cpuset System is a processor and memory placement mechanism t
 enables a system administrator to confine tasks to running certain \
 CPUs, and to allocating memory on certain Memory Nodes.  The libcpuset \
 library provides a convenient 'C' API to cpusets."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "libcpuset1-1.0-36.25.aarch64.rpm"
-RPM_HASH = "136160ef6376b2388f5e3912a9f58d134e993cbb6825875b8daf43e50107ebb8cb4b28a7306bc380c3bb38e354d7d861d1e712bb1197671ae75ac77f5c6b6a0d"
+RPM_NAME = "libcpuset1-1.0-37.9.aarch64.rpm"
+RPM_HASH = "db639d7f4165ecd160feb56abbcc7c9a1b7a65cd3169eb107c90be9fb741d681527059cea3f693b2bf5422fc29243400f070d7529a18921140764f0c67037784"
 
 RPROVIDES:${PN} += "libcpuset.so.1 \
 libcpuset1"

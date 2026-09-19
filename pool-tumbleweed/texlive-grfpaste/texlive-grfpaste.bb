@@ -4,10 +4,10 @@ graphicx package, so that you can use \\includegraphics to \
 include dvi files. The package requires the dvipaste program."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn17354"
+PV = "2026.226.0.0.2svn17354"
 
-RPM_NAME = "texlive-grfpaste-2023.209.0.0.2svn17354-54.2.noarch.rpm"
-RPM_HASH = "3ae9dd88f8205240b60bfc0946ccb16d5a3065506b965352052c9c26f03ccf818312221bfc0737ad53791400663222103bf2ccf9977fad8ea3c9d891390104e2"
+RPM_NAME = "texlive-grfpaste-2026.226.0.0.2svn17354-60.4.noarch.rpm"
+RPM_HASH = "55d88b3f01643d9e2652cafb9e8d6b935ec96003f07b3fdf7ca0f27152a8491ce0ea93e0460329a1b5bfe28ed941e5368929d535835cca6e73add5dbb0c7efed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grfpaste.sty \

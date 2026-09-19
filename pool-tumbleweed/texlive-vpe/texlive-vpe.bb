@@ -9,10 +9,10 @@ LaTeX/VTeX. Using the LaTeX/dvips or pdfLaTeX routes, the \
 (pdf)TeX processor should be run with shell escapes enabled."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn26039"
+PV = "2026.226.0.0.2svn26039"
 
-RPM_NAME = "texlive-vpe-2023.209.0.0.2svn26039-54.1.noarch.rpm"
-RPM_HASH = "3bcfca21ef0e75f11a926e1ddb8bdee275c9c91b7883ea7cd67b96a96fb68e04f7ae0342fd5507309d72b7a296e10622a6677bd69c459ecf5dd20f100877d041"
+RPM_NAME = "texlive-vpe-2026.226.0.0.2svn26039-60.2.noarch.rpm"
+RPM_HASH = "8d888c3a1a592247c8e92a8a8f075fe1c678ebcddad7be52de00c3ef3dcab01260cb582d1f4061e0b04a549355f98d692e834cb2b0e735efc77f2ef6befa37fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-vpe.sty \

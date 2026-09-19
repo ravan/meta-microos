@@ -2,10 +2,10 @@ SUMMARY = "Development files for liballegro_ttf"
 DESCRIPTION = "Development files needed to build applications which use liballegro_ttf."
 LICENSE = "BSD-3-Clause & Zlib"
 
-PV = "5.2.8.0"
+PV = "5.2.11.3"
 
-RPM_NAME = "liballegro_ttf5_2-devel-5.2.8.0-1.4.aarch64.rpm"
-RPM_HASH = "d9725b7da0cbbb8cce51bfd3f6c53df536fa7f33a4cb390ecf7a25a5f35fe1aa7321f810cf06ef28b85eb50960f6b39e7371671582fe2517bf4ffa430cc8144f"
+RPM_NAME = "liballegro_ttf5_2-devel-5.2.11.3-1.5.aarch64.rpm"
+RPM_HASH = "8c338d4bcce583ff0bed93e032b15dd39e0ede8de8b57680d6542f18d6be173ad79f93e4cfdef7d19c16fdde0b6ce3974402671d7d0db4131788bb6ebd12c598"
 
 RPROVIDES:${PN} += "liballegro-ttf5-2-devel \
 pkgconfig-allegro-ttf-5"

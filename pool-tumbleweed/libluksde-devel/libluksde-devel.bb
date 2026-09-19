@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libluksde."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20221103"
+PV = "20260902"
 
-RPM_NAME = "libluksde-devel-20221103-4.1.aarch64.rpm"
-RPM_HASH = "d0c89c6ba5efe1909b8858dd17777768ebf55af92037ffc7e66f172a5fd8d3c269f81528754ae11437ece75dc884528855bc04dfb533d5f5bb0093d4f1c0d679"
+RPM_NAME = "libluksde-devel-20260902-1.2.aarch64.rpm"
+RPM_HASH = "44f74d12a4cb13898361361f94699bf826068065d6da98646cd4de9d146ddfd60e81fb3710d2310b9e2074e825441d4793668ed39880a8b29854f82949859d4b"
 
 RPROVIDES:${PN} += "libluksde-devel \
 pkgconfig-libluksde"

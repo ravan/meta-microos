@@ -3,28 +3,28 @@ DESCRIPTION = "This package contains sources and header files needed to build ap
 that use the LAL Pulsar library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.0.0"
+PV = "7.1.1"
 
-RPM_NAME = "lalpulsar-devel-5.0.0-1.3.aarch64.rpm"
-RPM_HASH = "d4573d1d83444284302b8d5b3b3a22ee84f0b22860232786edd1d5aff130c95088b1e31d9d633c65f9db27147c8bfe772107437ecfe7f1d6cd42af56f4e5a9c5"
+RPM_NAME = "lalpulsar-devel-7.1.1-2.1.aarch64.rpm"
+RPM_HASH = "b44fe91fa561d741b30fab3766b9be98bda52d72a722bb3d98d8f7ef551e9415497a16c30409a18308f7f7a5b1129429edc2549fcd304234b77793d1f3956d45"
 
 RPROVIDES:${PN} += "config-lalpulsar-devel \
 lalpulsar-devel \
 pkgconfig-lalpulsar"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-/usr/bin/python3.10 \
-/usr/bin/tclsh \
+/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcfitsio.so.10 \
-libgsl.so.25 \
+libfftw3.so.3 \
+libgsl.so.28 \
 liblal.so.20 \
-liblalframe.so.13 \
+liblalframe.so.14 \
 liblalinference.so.23 \
-liblalpulsar.so.26 \
-liblalpulsar26 \
-liblalsimulation.so.31 \
+liblalpulsar.so.30 \
+liblalpulsar30 \
+liblalsimulation.so.37 \
 liblalsupport.so.14 \
 libm.so.6 \
 pkgconfig-cfitsio \

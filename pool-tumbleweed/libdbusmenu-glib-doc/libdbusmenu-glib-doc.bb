@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only & (LGPL-2.1-only | LGPL-3.0-only)"
 
 PV = "16.04.0"
 
-RPM_NAME = "libdbusmenu-glib-doc-16.04.0-9.4.noarch.rpm"
-RPM_HASH = "a44774fa5daa18b34a508d18c312e81fea4a71a7630a60698cc4a1af42b8c1f5b922841baf797fa751188a85876bfa833671ae8175203a31f31259dbc71daa53"
+RPM_NAME = "libdbusmenu-glib-doc-16.04.0-13.4.noarch.rpm"
+RPM_HASH = "57e88275121a0497c7ce66fd30ef1232d8cef1cb3f493e83a6bef68cdc838ddaaced14a1bba43f1364e19f1df65196346bbd7014df82b2a33aa37c2a795fc8ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdbusmenu-glib-doc"

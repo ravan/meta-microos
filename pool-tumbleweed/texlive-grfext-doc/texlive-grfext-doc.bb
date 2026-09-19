@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-grfext"
 DESCRIPTION = "This package includes the documentation for texlive-grfext"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn53024"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-grfext-doc-2023.209.1.3svn53024-54.2.noarch.rpm"
-RPM_HASH = "32125c98fca3c1c89b296a28abedb704dcd016d9eafefce037417d3e3cef8dd8ae8867d5001f4c69892bc278f96648651c0797555a016c278ac636f6f73c9833"
+RPM_NAME = "texlive-grfext-doc-2026.226.1.3svn77682-60.4.noarch.rpm"
+RPM_HASH = "bcd0432082b1b5fc0df107131b11f4fce97a67dd886886f75753abca0f36d9e694f92c0a4863c90d5eab645e48dc247de1c05e5cae8bd4d14ff8be2f059effad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grfext-doc"

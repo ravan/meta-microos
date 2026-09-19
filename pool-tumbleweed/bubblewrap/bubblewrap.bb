@@ -2,12 +2,12 @@ SUMMARY = "Core execution tool for unprivileged containers"
 DESCRIPTION = "Bubblewrap (/usr/bin/bwrap) is a core execution engine for unprivileged \
 containers that works as a setuid binary on kernels without \
 user namespaces."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.8.0"
+PV = "0.12.0"
 
-RPM_NAME = "bubblewrap-0.8.0-1.1.aarch64.rpm"
-RPM_HASH = "e6d2023b8742548707e8ee8f2d7ace7aa9a7c7d057f0e348ddd10ebd12a82d78b598b8b74f7e9dcd69443d2c4473c01ec1a2568701dd0e25c53d7e90cbfa791a"
+RPM_NAME = "bubblewrap-0.12.0-1.1.aarch64.rpm"
+RPM_HASH = "1506d20758b658c5a0ade7e47f29cbf091fc28e549bdd830fafc3469ee775e340db6bbdc5e38872e9cda8975ae53ef20ad5ad443a01502d9cd13f50baba8b941"
 
 RPROVIDES:${PN} += "bubblewrap"
 

@@ -6,17 +6,17 @@ grid of terminals. As such, you can  produce a very flexible \
 arrangements of terminals for different tasks."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.1.3"
+PV = "2.1.6"
 
-RPM_NAME = "terminator-2.1.3-1.3.noarch.rpm"
-RPM_HASH = "2108afb7b96bc6ba18b427d4ba5ff5c2383b1978424e556c04c88dabf3647850689569554f6bc728b7956d5f4b1381000dca96ed65f950cb572a930396946b5a"
+RPM_NAME = "terminator-2.1.6-1.1.noarch.rpm"
+RPM_HASH = "bf2a03b67848f88cd7abdeb7626c1b35c08719de771e5c4d082b25c5cb60c073fb5956672b90cac41bdac13c28bb6a21271a3bea3991be6163e0888ab5622e56"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-terminator \
+RPROVIDES:${PN} += "python3.13dist-terminator \
 python3dist-terminator \
 terminator"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 gsettings-desktop-schemas \
 hicolor-icon-theme \
 python-abi \
@@ -33,6 +33,7 @@ typelib-GdkPixbuf \
 typelib-GdkX11 \
 typelib-Gio \
 typelib-Gtk \
+typelib-Handy \
 typelib-Keybinder \
 typelib-Notify \
 typelib-Pango \

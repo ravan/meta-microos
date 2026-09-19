@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "20190621"
 
-RPM_NAME = "hdhomerun_config_gui-20190621-1.19.aarch64.rpm"
-RPM_HASH = "61b4a54577e598dda6ab827bbacb428c59755307b668f7d6a8da6e2acccad6e3f835139622dc3867e0da8a7c10355d38f5232e43d0a0dc4f4ac072b132615d24"
+RPM_NAME = "hdhomerun_config_gui-20190621-2.11.aarch64.rpm"
+RPM_HASH = "06cebcd5b3abc47383b1bcd70595b48f06e5688c13144861a61e6e3ec6f5ff16bdd4a8788b8d426e6941959b21464f71d8ffef4dfbcbc8c80984ad0be9ec1da2"
 
 RPROVIDES:${PN} += "hdhomerun-config-gui"
 

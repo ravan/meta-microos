@@ -9,10 +9,10 @@ LD_PRELOAD=libsocket_wrapper.so \
 SOCKET_WRAPPER_DIR=/path/to/swrap_dir"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.2"
+PV = "1.5.2"
 
-RPM_NAME = "socket_wrapper-1.4.2-2.1.aarch64.rpm"
-RPM_HASH = "c18a98cf802e5e3ff64e2ac4c45a6282383ae8fb34cc3f69c8bd1658f52cf4d45d282c51c9b0f8116520376d2f1974bf9dbf36182b4b82794e82f7f7704c9b4d"
+RPM_NAME = "socket_wrapper-1.5.2-1.5.aarch64.rpm"
+RPM_HASH = "eb4625a24fd89ece4ad529ad4ada3bff4df18c65eed5b19b204b5eae19bab58c61a8aef73540516bd3df8b9bede31cbe06362101f21725d9fe8a61a3e4080084"
 
 RPROVIDES:${PN} += "cmake-socket-wrapper \
 cmake-socket-wrapper-noop \

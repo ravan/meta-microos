@@ -6,16 +6,17 @@ This package contains the development headers for the library found \
 in libpciaccess0."
 LICENSE = "MIT"
 
-PV = "0.17"
+PV = "0.19"
 
-RPM_NAME = "libpciaccess-devel-0.17-1.2.aarch64.rpm"
-RPM_HASH = "ec9b90d31607c7468e23c8020fb213749e7fd8827bd93b313e8955ac7117334f21a275b894d138ba1cd09b995899d89f4005f4b9734bd332fbdd09e4cda626b9"
+RPM_NAME = "libpciaccess-devel-0.19-1.3.aarch64.rpm"
+RPM_HASH = "dc240ee904f925f22fa97b310055613ed9bef0794083720a6fd64c7159e8248ee4f232253ab2068fbad6e643116274817c1039dd36ec2cdef13d7a3269bd7fb0"
 
 RPROVIDES:${PN} += "libpciaccess-devel \
 libpciaccess0-devel \
 pkgconfig-pciaccess"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpciaccess0"
+libpciaccess0 \
+pkgconfig-zlib"
 
 inherit rpm

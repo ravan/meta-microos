@@ -11,8 +11,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.0.20120829"
 
-RPM_NAME = "paglinawan-quicksand-fonts-1.0.20120829-7.17.noarch.rpm"
-RPM_HASH = "17d48a70f82c06865f1ef408ce950f1ae3aac7b2a430f78b14777a7c68355149b67157aeba5c145412a5e7e5b1228a1dc7d9893f1b2e61f31d5ef96936a1ffb3"
+RPM_NAME = "paglinawan-quicksand-fonts-1.0.20120829-7.25.noarch.rpm"
+RPM_HASH = "32d843d0872dc372deb3304dae42e56b5f17a02c736f2887ab7c280993eb59c3f32744e17af3e02278f6dc6bd1c76e04ce2f1cc717d180dcb34f0cad66945bed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paglinawan-quicksand-fonts"

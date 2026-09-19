@@ -2,10 +2,10 @@ SUMMARY = "Daemon to restore SELinux contexts"
 DESCRIPTION = "Daemon that watches for file creation and then sets the default SELinux file context"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "restorecond-3.5-1.3.aarch64.rpm"
-RPM_HASH = "4f1bf9e78973a53f420df38dba2e9e0eaf88082e31c44b1f2a8aaaadea53880a155cc4c4554006ec4573f302c25373ebee0bd8d1a4e5da2c5ddd52499bec3dd0"
+RPM_NAME = "restorecond-3.11-1.2.aarch64.rpm"
+RPM_HASH = "2bf8c18ebab93865fffe8181f7b08cf094c4d4d6ecb9d05c58b8bfb00fcc2b8fbc49df36c411eed10875a8e17ee37254e4aadb54bae5814bf9c09ea515da535d"
 
 RPROVIDES:${PN} += "config-restorecond \
 restorecond"

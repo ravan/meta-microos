@@ -2,10 +2,10 @@ SUMMARY = "Translations for package lxqt-config"
 DESCRIPTION = "Provides translations for the 'lxqt-config' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "lxqt-config-lang-1.3.0-1.2.noarch.rpm"
-RPM_HASH = "2f58c2a258087cf6eb83aed0ce4db2bf9693e07f71b4a82f5eba0c78bf0a828b830ffe09cd7dd8c53b33df94db1dab8f969b7fb6636708ed0ac60a7d90d7df2b"
+RPM_NAME = "lxqt-config-lang-2.4.0-1.2.noarch.rpm"
+RPM_HASH = "d3407f983ce56510fdd2345a8f8dccff08390030cd6dd01f861e77af5971f10b65e40c6524fb5871d11bd9ecd8383b5cb91d807eeabf3120f7a4b15bd644e53f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-config-lang \

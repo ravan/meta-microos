@@ -5,10 +5,10 @@ Design goals are to have a minimal memory footprint with a plugin system so that
 easily add support for collecting metrics from local or remote services."
 LICENSE = "MIT"
 
-PV = "1.26.3"
+PV = "1.40.0"
 
-RPM_NAME = "telegraf-1.26.3-1.2.aarch64.rpm"
-RPM_HASH = "6d70efa1d38d0c85daff275d797b84e2f0a216872677da9dea4517e34ca0510e8b5ac80abfc8cf30ea877f5ac9a8f5ec4992ec2becfa6d64d17df502e988aba0"
+RPM_NAME = "telegraf-1.40.0-1.1.aarch64.rpm"
+RPM_HASH = "90f0df90889d59ba8ab262cf2695cbdfb56ef0e6c97085da713a5a659e1ab74336a193a3eba1e19fdf79a07613d9239689af9a46acb5a1ca52e150afd818234d"
 
 RPROVIDES:${PN} += "config-telegraf \
 telegraf"

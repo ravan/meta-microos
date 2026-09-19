@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "4.13.0"
 
-RPM_NAME = "libpfm4-4.13.0-1.3.aarch64.rpm"
-RPM_HASH = "ace87704683bec3b9a0538adcb294aad31bf2e804e5256dcbb639d2e049f79ade6b31dd15abe6c2fb7ca8bc0b2151c99272616ec5bfcffa1fa5dda21e2cd8cdd"
+RPM_NAME = "libpfm4-4.13.0-2.8.aarch64.rpm"
+RPM_HASH = "2f25ed3b0352840273e9a671d7b9e44e49911ee780525da8f0aebb83ad70425c6053858730474600a269f41bf88cc3c764e9f72077f7c8fffaaa4110fe2bdd9a"
 
 RPROVIDES:${PN} += "libpfm.so.4 \
 libpfm4"

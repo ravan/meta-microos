@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause | LGPL-2.1-or-later"
 
 PV = "1.2.11"
 
-RPM_NAME = "libspf2-devel-1.2.11-6.14.aarch64.rpm"
-RPM_HASH = "cacdb2843c3c020248a5b176f6d3faea24f1cedcad33dd24f9cb0cce9ed064d8579a0aa6c666e162fe0e5aa9077a7a5ed5b773991f3a81e326f959f3599ae0f7"
+RPM_NAME = "libspf2-devel-1.2.11-8.13.aarch64.rpm"
+RPM_HASH = "2e98c439b17b24b11fd12ac9ed8267929a6736a93647359451fd687f9074905d12e3c17fb8b1f2fbd0b0877802c18c6b65ecd873543cc84bb48fcadeaf485c57"
 
 RPROVIDES:${PN} += "libspf2-devel"
 

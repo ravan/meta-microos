@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.10"
 
-RPM_NAME = "libircclient-devel-1.10-1.15.aarch64.rpm"
-RPM_HASH = "2e9badf65016212e9047f0eaaf8eebba33973ec8c472ea0c07bd33098f1825a9276ba148f5c49608983c8c01dc75ba5c5755806e2e8200bb6678f82e913ca1b2"
+RPM_NAME = "libircclient-devel-1.10-2.9.aarch64.rpm"
+RPM_HASH = "5d73944be3c651ca0e6cf6e8b5ff34b68aad61dc1a76974650c8b58c5d640f0fef36fe122283a0828a17146e63f24fb3df57f435ff940d8dbdc876fdc10b240f"
 
 RPROVIDES:${PN} += "libircclient-devel"
 

@@ -3,36 +3,37 @@ DESCRIPTION = "A convergent weather application for Plasma. Has flat and dynamic
 views for showing forecasts and other information."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kweather-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "68c2bae2fa2ddf33e384924be42c26b847186f09e70424c8296c2cabadaead194c0c5903629f2beb5f8b4b0f2721969bb5bff971d2b32bf2c9c5f7f11296e8c2"
+RPM_NAME = "kweather-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "6758ae0af4b4b64594eab972f50885336ee49b9ae399905d96f0ca92c490d13f4d4d42aa5bf2f5f2804fbe9e3c1a19028e5ebed5806a9e75b5313968ef6ace18"
 
 RPROVIDES:${PN} += "kweather"
 
-RDEPENDS:${PN} += "kirigami-addons \
-kirigami2 \
+RDEPENDS:${PN} += "kf6-kholidays-imports \
+kf6-kirigami-imports \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KWeatherCore.so.5 \
-libKF5Plasma.so.5 \
-libQt5Charts.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6I18nQml.so.6 \
+libKF6Runner.so.6 \
+libKWeatherCore.so.6 \
+libPlasma.so.7 \
+libQt6Charts.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6OpenGL.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
+libm.so.6 \
 libstdc++.so.6 \
-qt5qmlimport-QtCharts.2 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Controls.2 \
-qt5qmlimport-QtQuick.Layouts.1 \
-qt5qmlimport-org.kde.kirigami.2 \
-qt5qmlimport-org.kde.plasma.plasmoid.2"
+qt6-charts-imports"
 
 inherit rpm

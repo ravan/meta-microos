@@ -6,8 +6,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "glassfish-jaxb-api-javadoc-2.4.0-5.6.noarch.rpm"
-RPM_HASH = "845f882472b5398778adcc934b8f893ebf9f084a9224415dd930589e7c0af7dd007f706d0371637dec1b80849b3e9869ee58fa4ac0ba322d4182f443a93844f3"
+RPM_NAME = "glassfish-jaxb-api-javadoc-2.4.0-7.9.noarch.rpm"
+RPM_HASH = "daf5c2f19ca7c4972e46888999ad128466ec8f47ea81d1014f067e36386d54db72d07f6d92bf8761783e412ca988df97eb92bcbab2798950f78b81f8a2cce125"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-api-javadoc"

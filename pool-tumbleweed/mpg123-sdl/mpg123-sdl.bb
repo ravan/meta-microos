@@ -6,15 +6,15 @@ and output libraries. \
 This package contains the plugin for SDL output support."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.31.3"
+PV = "1.33.7"
 
-RPM_NAME = "mpg123-sdl-1.31.3-1.3.aarch64.rpm"
-RPM_HASH = "7ec58d93a73374315fb0d594e73340965f6420f1c9ea54b1bc8746ffbf53dcb56027ad54d9d9eeafab00dda4e9bd48f432dec98e6c9d791242983f215bf1f820"
+RPM_NAME = "mpg123-sdl-1.33.7-1.1.aarch64.rpm"
+RPM_HASH = "8ca5ecdd9cef3767f4800711fc69a1f2f6657e37e42e91ca88f108b6976f5d2935f5bf911e8d49b111e7a166afadbf237fbd2d2006e7b7e76f62015084b4e3c5"
 
 RPROVIDES:${PN} += "mpg123-sdl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libSDL-1.2.so.0 \
+libSDL2-2.0.so.0 \
 libc.so.6"
 
 inherit rpm

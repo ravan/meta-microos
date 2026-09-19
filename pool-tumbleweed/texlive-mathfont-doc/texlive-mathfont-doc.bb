@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mathfont"
 DESCRIPTION = "This package includes the documentation for texlive-mathfont"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.2.2asvn65205"
+PV = "2026.226.3.0asvn77682"
 
-RPM_NAME = "texlive-mathfont-doc-2023.208.2.2asvn65205-53.1.noarch.rpm"
-RPM_HASH = "06be349ad7dd30c47c6c0e7facd8b1fea03021641c49fcc4b4016a5ea5fbede839c31d26647e19dc907346734550f42b5fc3b56ea33566f5b861cf50f280bec9"
+RPM_NAME = "texlive-mathfont-doc-2026.226.3.0asvn77682-59.2.noarch.rpm"
+RPM_HASH = "6f6eb158ed2c0fdeb2b90d4b18b3f474ddbec2fdc7fc2d3090ca1d267109913d5527e898698d5ab498620f3f8639e2d7197431550d3e251e5b8b2a74c7862447"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mathfont-doc"

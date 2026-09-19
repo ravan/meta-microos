@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-emerald-0.8.18-2.14.aarch64.rpm"
-RPM_HASH = "f7de142cafce94680fae41c2fb26a425c6e6b5ea4ad00f936c1e780f2c2992065168026fce260c11d5aac436c42d24a5bd60638a6914213b915767459be4b661"
+RPM_NAME = "compiz-emerald-0.8.18-2.25.aarch64.rpm"
+RPM_HASH = "32bd65c20f8edce832177eb72fafce5e33dfac98ec3bf9d6adcec3abb46d28e864839d640cea2fd505d63534aa0a8ccedd237b80a3e63249d84d3a9a76e0415f"
 
 RPROVIDES:${PN} += "compiz-decorator \
 compiz-emerald \

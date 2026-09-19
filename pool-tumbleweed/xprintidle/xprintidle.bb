@@ -3,10 +3,10 @@ DESCRIPTION = "An utility that queries the X server for the user's idle time and
 prints it to stdout (in milliseconds)."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.2.5"
+PV = "0.3.0"
 
-RPM_NAME = "xprintidle-0.2.5-1.1.aarch64.rpm"
-RPM_HASH = "e9d77c6dfc303b7473b79f119a9ade25b3f9301d1abbe6d89196862e76527ff86560e3d6aeadac31e457144887dc916f49cc79967341fee253ce6032757e2eef"
+RPM_NAME = "xprintidle-0.3.0-1.5.aarch64.rpm"
+RPM_HASH = "c4ec60e37a10138aa59be5b3db6c2cf898707023b6d38e26b4d55b494817b9376828f134e1c21027916e6e74f8d899e8f92e06638b985db03ec1b746eb2b6d3d"
 
 RPROVIDES:${PN} += "xprintidle"
 

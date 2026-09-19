@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mfware"
 DESCRIPTION = "This package includes the documentation for texlive-mfware"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-mfware-doc-2023.209.svn66186-55.1.noarch.rpm"
-RPM_HASH = "a1480a77f9f91cd343d2237e0a6b00998d313978c8090641a0bad6b1ae4b71c0c29956d53157abd980b529f93dfd9110201eaa662520db79a9d05cc5b6cda6f4"
+RPM_NAME = "texlive-mfware-doc-2026.226.svn77830-61.2.noarch.rpm"
+RPM_HASH = "452f97f8610398e0ae96eb79fb912bd44d4ad58b876a6e050af8afa53bfe6b86a9efb38cb56de49a2c6aad8dbea973c8a5dc16cf939903cacd8a9747acfd1f06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-gftodvi.1 \

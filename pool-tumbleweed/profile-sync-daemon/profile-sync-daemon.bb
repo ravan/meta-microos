@@ -6,10 +6,10 @@ use of rsync to maintain back-up and synchronization between the two. One of \
 the major design goals of psd is a completely transparent user experience."
 LICENSE = "MIT"
 
-PV = "6.48"
+PV = "7.04"
 
-RPM_NAME = "profile-sync-daemon-6.48-1.3.noarch.rpm"
-RPM_HASH = "6c02db8b1eb97217166eb3a47b31becfa51204e463cabead369931d2a60a034dda9b4af42186fe40aa04de740ecc7eb61e141dfacabb5fbf7467a1ad29f1a527"
+RPM_NAME = "profile-sync-daemon-7.04-1.1.noarch.rpm"
+RPM_HASH = "f9b71751a1950f938f7267b55f9d6719919e28bc914be92db78a6dadad07771cbb76dd6bf4e86c94649edf5ea7b5a38f17588ae44afc2d73dbc878eb1074c27f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "profile-sync-daemon"

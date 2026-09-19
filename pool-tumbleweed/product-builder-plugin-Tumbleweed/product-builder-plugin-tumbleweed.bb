@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.3"
 
-RPM_NAME = "product-builder-plugin-Tumbleweed-1.8.3-1.1.noarch.rpm"
-RPM_HASH = "3c7f17f2fa40f1292ee503bcc355d7011e0495f3f436b061564af241d08e9d62a8bcc0dcec81a5d334b1379b5efb81daf245240d6dda6542cb6f3715e38235cb"
+RPM_NAME = "product-builder-plugin-Tumbleweed-1.8.3-1.9.noarch.rpm"
+RPM_HASH = "ce8b8a4e055a43041e7bbdb2167e68afeb2fb7d78abb5e7634c6322edc6a4b93b51156bc498e83af7d882263354598122e65f8a790c8ceee206ee603567fe44a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-product-builder-plugin-Tumbleweed \

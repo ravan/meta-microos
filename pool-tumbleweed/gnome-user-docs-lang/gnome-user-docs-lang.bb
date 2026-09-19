@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-user-docs"
 DESCRIPTION = "Provides translations for the 'gnome-user-docs' package."
 LICENSE = "CC-BY-3.0"
 
-PV = "44.3"
+PV = "50.4"
 
-RPM_NAME = "gnome-user-docs-lang-44.3-1.1.noarch.rpm"
-RPM_HASH = "40ae6700fde37c8ed621164f591af5e8a3be1e0718c0a0b1a8f501e9e0d61f1912069e0b0bad108c82b5a0b3b075eba31599722a11381f668c091a8d2499d826"
+RPM_NAME = "gnome-user-docs-lang-50.4-1.1.noarch.rpm"
+RPM_HASH = "6162ac59c55d57be626dec7f746fd6560c587002bcbe6a71b1042c08fc1b9ef91e95020cc7609ea951d2a7255e366b36fbf09a17966dc1ba69792a8d84595cf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-user-docs-lang \

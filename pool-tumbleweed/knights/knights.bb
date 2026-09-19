@@ -6,34 +6,35 @@ Furthermore, it is possible to watch two different chess engines playing \
 against each other."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "knights-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "aed1cfa18cb34fbfbee8deb69aa5c6e68c081604b098d26447ea8e6e581b1df00e9c54df61347fd56043adaad41e4ca4f3283332647adb258b9deca5959dfa47"
+RPM_NAME = "knights-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "ec413145a75d90cc85c6b4d7310f68af038e6bbcded98d1ff7b2573a9f3d02889ad30b67c63394dcd85e1bdb92e58d0e0f9ba4b35b8b5c05516ea6edcb0b7cb8"
 
 RPROVIDES:${PN} += "knights"
 
 RDEPENDS:${PN} += "gnuchess \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5Plasma.so.5 \
-libKF5Plotting.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5Wallet.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5TextToSpeech.so.5 \
-libQt5Widgets.so.5 \
+ld-linux-aarch64.so.1 \
+libKDEGames6.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6Plotting.so.6 \
+libKF6Svg.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6Wallet.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6TextToSpeech.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6"

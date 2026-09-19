@@ -1,12 +1,11 @@
 SUMMARY = "Kernel firmware files for Mellanox Spectrum switch driver"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Mellanox Spectrum switch driver."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Mellanox Spectrum switch driver."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware & GPL-2.0-only"
 
-PV = "20230829"
+PV = "20260610"
 
-RPM_NAME = "kernel-firmware-mellanox-20230829-1.1.noarch.rpm"
-RPM_HASH = "a004c33d6192e88e04003ed52e79c5ceca14de0142f0ebff86e2abbda2b4f0ae023f6dd4f996af046076b3b521bbda7c5a171501558fc3a88ec52ef2d102042d"
+RPM_NAME = "kernel-firmware-mellanox-20260610-1.2.noarch.rpm"
+RPM_HASH = "e4e71ef8d206e1c67d010f176df1764004c88fa43fabde354f7d30a0c0210f7ff1c77202c6c987f57c151c5bf013971d6880e06a47a460713668c8c318a804fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-mellanox/lc-ini-bundle-2010-1006.bin \
@@ -40,6 +39,8 @@ firmware-mellanox/mlxsw-spectrum-13.2010.1502.mfa2 \
 firmware-mellanox/mlxsw-spectrum-13.2010.3020.mfa2 \
 firmware-mellanox/mlxsw-spectrum-13.2010.3146.mfa2 \
 firmware-mellanox/mlxsw-spectrum-13.2012.1012.mfa2 \
+firmware-mellanox/mlxsw-spectrum-13.2014.4012.mfa2 \
+firmware-mellanox/mlxsw-spectrum-13.2016.3900.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2000.2308.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2000.2714.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2007.1168.mfa2 \
@@ -59,6 +60,8 @@ firmware-mellanox/mlxsw-spectrum2-29.2010.1502.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2010.3020.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2010.3146.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2012.1012.mfa2 \
+firmware-mellanox/mlxsw-spectrum2-29.2014.4012.mfa2 \
+firmware-mellanox/mlxsw-spectrum2-29.2016.3900.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2007.1168.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2008.1036.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2008.1310.mfa2 \
@@ -76,7 +79,11 @@ firmware-mellanox/mlxsw-spectrum3-30.2010.1502.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2010.3020.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2010.3146.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2012.1012.mfa2 \
+firmware-mellanox/mlxsw-spectrum3-30.2014.4012.mfa2 \
+firmware-mellanox/mlxsw-spectrum3-30.2016.3900.mfa2 \
 firmware-mellanox/mlxsw-spectrum4-34.2012.1012.mfa2 \
+firmware-mellanox/mlxsw-spectrum4-34.2014.4012.mfa2 \
+firmware-mellanox/mlxsw-spectrum4-34.2016.3900.mfa2 \
 kernel-firmware-mellanox"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \

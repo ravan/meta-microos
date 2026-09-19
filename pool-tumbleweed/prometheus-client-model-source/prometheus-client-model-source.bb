@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20190109"
 
-RPM_NAME = "prometheus-client-model-source-20190109-3.9.noarch.rpm"
-RPM_HASH = "2fb93e1e0b669132ad63bb9d6fef38939eb252fa19cb28c0dc82f4b51f7a8f7c7f31d6abfab207bfdebad2ce23a7aaca90d5b68561f7d39b32d65e55186f93db"
+RPM_NAME = "prometheus-client-model-source-20190109-3.17.noarch.rpm"
+RPM_HASH = "ba5df1b35214c3df81bcc41192543462700c3d3d398399621f94ea6dfe85413a63c3a1ca9d6f5f331b071ed782657009b7e7db8fa426844ac49777aa539c1ac9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "prometheus-client-model-source"

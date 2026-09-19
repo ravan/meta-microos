@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "qore-sqlite3-module-1.0.2-2.2.aarch64.rpm"
-RPM_HASH = "d9097f16491b8726c6d48622e07df28f1059eb9c4f826721232e387be27f4b92bd4930db4892b6a7085594437b0e79689c3f4b2340e705f6f8fc8dfc1fc9c84d"
+RPM_NAME = "qore-sqlite3-module-1.0.2-3.5.aarch64.rpm"
+RPM_HASH = "9758abe1d61f42a2c9b9544d51fc88e9bec47866634035ba6c58d2829b172f3954d6dea0648eaa661a1f3545f2abf1dc7a6f50ce04c9cba71332c63361dd3a66"
 
 RPROVIDES:${PN} += "qore-sqlite3-module"
 

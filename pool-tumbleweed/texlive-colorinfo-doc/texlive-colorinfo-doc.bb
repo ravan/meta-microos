@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-colorinfo"
 DESCRIPTION = "This package includes the documentation for texlive-colorinfo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3csvn15878"
+PV = "2026.226.0.0.3csvn15878"
 
-RPM_NAME = "texlive-colorinfo-doc-2023.209.0.0.3csvn15878-54.1.noarch.rpm"
-RPM_HASH = "5bb4f6d81b642330b793cc85521626502388611aa25752f7b64ab47fb4b8f558ed0dd14aa335255a08dfb5aff22abde3792c10215c0a329bbc27e885f9e8a823"
+RPM_NAME = "texlive-colorinfo-doc-2026.226.0.0.3csvn15878-60.2.noarch.rpm"
+RPM_HASH = "baab5bf2c6ef93939c8d5c8d0434f031250c6f1cdd20b6efbf4baa6d9c36c3679f74cb17713e84a21928738482ccbb15ab67324b94a7ab8c161049099f3e625c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-colorinfo-doc"

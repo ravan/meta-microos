@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bookhands"
 DESCRIPTION = "This package includes the documentation for texlive-bookhands"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn46480"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-bookhands-doc-2023.209.svn46480-53.1.noarch.rpm"
-RPM_HASH = "878ce9cbce2e34d10da120be9be3955d04f7294b7d7340c4c51bb7a4f971246d68d8ad57da03a22d15c984d0099ec0f7ba27da3a99dfee29877f0c7d8698bcac"
+RPM_NAME = "texlive-bookhands-doc-2026.226.svn76790-59.2.noarch.rpm"
+RPM_HASH = "f4afb25d42358488c73d140f92104e495bcd20663357fb0725188ef8311721ceb2fbadad6658063ca085d14f8bf993197000bb784664eb2e6fbd47dad5594187"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bookhands-doc"

@@ -12,15 +12,17 @@ Documentation for the modules contained in this package can be found in \
 /usr/share/doc/packages/postgresql/contrib."
 LICENSE = "PostgreSQL"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "postgresql-contrib-15-2.12.noarch.rpm"
-RPM_HASH = "bcbe0fc760ee2ec01b327447ba530640d06fcc0190eb8c36d80109a14c85aa735de73bcddad391f6b02fe0661affdbec5b302f2154c81e3bd8d96a49e0163acf"
+RPM_NAME = "postgresql-contrib-18-3.4.noarch.rpm"
+RPM_HASH = "53e7136ca1bee5e78260fbf26589f10552fe01f1b4fa1cf694f68672b02e0d0e6f61c4ea0b9e0ad6d6f83b15670d49b20a426cd08f8a998d9305d4c72663fda4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-contrib \
 postgresql-contrib-noarch"
 
-RDEPENDS:${PN} += "postgresql-contrib-implementation"
+RDEPENDS:${PN} += "postgresql \
+postgresql-contrib-implementation \
+postgresql-noarch"
 
 inherit rpm

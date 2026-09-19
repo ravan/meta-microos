@@ -6,10 +6,10 @@ loaded; otherwise it will store the patch until the package \
 appears."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn65491"
+PV = "2026.226.1.5svn65491"
 
-RPM_NAME = "texlive-hopatch-2023.209.1.5svn65491-54.2.noarch.rpm"
-RPM_HASH = "28487789900a8c67d8e9c36a8f53b126544daec843107802304e64e22b6669c90cd746b587ec241ab2d60ff97dda2cd3a71a1f9f7b8bcf9c9c4d6cbf27bd3262"
+RPM_NAME = "texlive-hopatch-2026.226.1.5svn65491-60.4.noarch.rpm"
+RPM_HASH = "041e95b6ade5a9ee9a0873e6e97cc807c019ca108f24db02364b15b36848ee2fa4886573f00ffd92adfbfec59c7bab2d9e4440c04c1767c67cbdc7dea0af8a2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hopatch-2016-05-16.sty \

@@ -10,13 +10,13 @@ use full time, whether you work in the terminal because you prefer it (like me),
 or because you need to (over ssh)."
 LICENSE = "MIT"
 
-PV = "2.0.11"
+PV = "2.0.15"
 
-RPM_NAME = "micro-editor-2.0.11-2.2.aarch64.rpm"
-RPM_HASH = "d021a503e71467860def5ae6d77856ba36cfb2c1e57b6ff70470cfd4668ea0062301e8d17a1932151d9cee228807f0c5efed69c781c75b538f3dfc0ea3ae28e9"
+RPM_NAME = "micro-editor-2.0.15-1.8.aarch64.rpm"
+RPM_HASH = "d14f0c5a89f103f0eea37cc8fbb36822ce0a27355d777a57bf6a9e5954d9fc49c34997586b872357f8b530d823ee15ee26c7ded77116d5ab0daa330929baeb8a"
 
 RPROVIDES:${PN} += "micro-editor"
 
-RDEPENDS:${PN} += "libc.so.6"
+RDEPENDS:${PN} += ""
 
 inherit rpm

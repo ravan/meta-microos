@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later | CPL-1.0"
 
 PV = "2.1.10"
 
-RPM_NAME = "dapl-2.1.10-5.2.aarch64.rpm"
-RPM_HASH = "f8a81787973b9652768c70290ff7ebba5a491e1284fd686c8e3b21bcb888bbee15bb830b529c448a1f445d307b8047fa7ea483b68ed1289daf71ddd3ecc869a7"
+RPM_NAME = "dapl-2.1.10-9.6.aarch64.rpm"
+RPM_HASH = "09eab250e2a8e11c5300f6584bc9bdaabc65198a1bebff0dc36fea349187bfb6c327d95ed9cc9ab4be2d216587abbb57315cc81d3dadcfaf07dd31292d750b14"
 
 RPROVIDES:${PN} += "config-dapl \
 dapl \

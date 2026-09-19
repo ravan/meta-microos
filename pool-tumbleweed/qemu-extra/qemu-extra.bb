@@ -11,10 +11,10 @@ mips, sparc, and xtensa. (The term 'extra' is juxtapositioned against more \
 popular QEMU packages which are dedicated to a single architecture.)"
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-extra-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "6f7aeada5948563bd24b08a250c8d2b5093457835e3482f4549d16b4f73d1263657f4c7c5a6eff73256002c9c85c570020c2438097cf731413ca320a6ecb4544"
+RPM_NAME = "qemu-extra-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "c1a8f00220c3e9e57f4d0cc5d57f31c2df7bc3d206021c9ff31da130a67dc9f38531f712e3d6778c42e0b83b075f5989861c525802a2013be040dc5cfee658da"
 
 RPROVIDES:${PN} += "qemu-extra"
 
@@ -22,9 +22,9 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libbpf.so.1 \
 libc.so.6 \
-libcapstone.so.4 \
+libcapstone.so.5 \
 libfdt.so.1 \
-libgcc-s.so.1 \
+libfuse3.so.4 \
 libgcrypt.so.20 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
@@ -33,6 +33,7 @@ libgnutls.so.30 \
 libgobject-2.0.so.0 \
 libibverbs.so.1 \
 libjpeg.so.8 \
+libkeyutils.so.1 \
 liblzo2.so.2 \
 libm.so.6 \
 libnuma.so.1 \
@@ -47,6 +48,7 @@ libsnappy.so.1 \
 libudev.so.1 \
 liburing.so.2 \
 libvdeplug.so.3 \
+libxdp.so.1 \
 libz.so.1 \
 libzstd.so.1 \
 qemu"

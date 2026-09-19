@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-brazilian-1.5-422.6.aarch64.rpm"
-RPM_HASH = "21eb3d8fc95c5253e495bd56c6653c293008a2d6532fe86815019dbf7772ec5ab4344654f6c921c2a22580287fd6e371830b4f07f20752fc1887920f900d149e"
+RPM_NAME = "ispell-brazilian-1.5-426.1.aarch64.rpm"
+RPM_HASH = "2ecff74a298e4f17283a4f259def08802321eca7ee07f7ed7eed3205c054ff8bb51348227e474eeb9fb9f12cf2569b801da2dd24da6b35ff4dc30208df729930"
 
 RPROVIDES:${PN} += "ispell-brazilian \
 ispell-dictionary \

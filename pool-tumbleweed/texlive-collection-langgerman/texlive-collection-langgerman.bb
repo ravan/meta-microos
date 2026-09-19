@@ -2,15 +2,19 @@ SUMMARY = "German"
 DESCRIPTION = "Support for German."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn55706"
+PV = "2026.222.svn74675"
 
-RPM_NAME = "texlive-collection-langgerman-2023.208.svn55706-60.1.noarch.rpm"
-RPM_HASH = "b2f58f0eee024607ac879bab858fcd12bab58741f4b2be2954d7bab8a9abfe049507c9ff17e6c07751030a389462f0c04159735199f47a599f7f3921119f40ad"
+RPM_NAME = "texlive-collection-langgerman-2026.222.svn74675-68.2.noarch.rpm"
+RPM_HASH = "36cc9e88cfc7e6519a3c197e2691d03221fdff494108aa8a5ffc6d0af74300187bb82dafa2925471682cf0cc0275965dd0a0ab91bddf6ad30d5f41b02025cf51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langgerman"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-german \
+texlive-collection-langgerman"
 
 RDEPENDS:${PN} += "texlive-apalike-german \
+texlive-autotype \
 texlive-babel-german \
 texlive-bibleref-german \
 texlive-booktabs-de \
@@ -23,6 +27,7 @@ texlive-dtk-bibliography \
 texlive-etdipa \
 texlive-etoolbox-de \
 texlive-fifinddo-info \
+texlive-fragoli \
 texlive-german \
 texlive-germbib \
 texlive-germkorr \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-plugins-extra-devel-0.8.18-1.16.aarch64.rpm"
-RPM_HASH = "2341d7007cdf389726ecdb1feb9a7841544e390a08d952369dd870a4acad7d1e9888b68c991ea85eabb9383e5ed30e397b1e65244afc5f00c885937c165eb7eb"
+RPM_NAME = "compiz-plugins-extra-devel-0.8.18-2.6.aarch64.rpm"
+RPM_HASH = "4cb135a516eef688007dbeadfa3a950ede4452bd446dbc504c3f504ce939853d43ece618f1b164a08893786ac389e8f4c65ab46aa5cb90c1242d10dc17f8f2e7"
 
 RPROVIDES:${PN} += "compiz-fusion-plugins-extra-devel \
 compiz-plugins-extra-devel \

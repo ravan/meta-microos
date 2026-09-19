@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains optional javamail tasks for Apache Ant."
 LICENSE = "CDDL-1.0"
 
-PV = "1.10.14"
+PV = "1.10.18"
 
-RPM_NAME = "ant-javamail-1.10.14-1.1.noarch.rpm"
-RPM_HASH = "c70d70070f81f6db3e8f0284d1b5b6260f75046edc7ecae6aaa9e5245a8308467823061f318b0c09475c75215ff2d6eb1719f0a7295d7aa6072c9f59d9e3bf16"
+RPM_NAME = "ant-javamail-1.10.18-1.1.noarch.rpm"
+RPM_HASH = "5127251ac9479f423577c6661e2bc1b381ce4cfdd4d50fe1f0f35ed443b765c7f2105ea72e20e756a4c8fa460ba9bba8d6c71c8cd126cac4723f28a870e139a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-javamail \

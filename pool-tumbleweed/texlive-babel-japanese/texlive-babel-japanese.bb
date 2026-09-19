@@ -5,10 +5,10 @@ Currently this package works with pLaTeX, upLaTeX, XeLaTeX and \
 LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn57733"
+PV = "2026.226.svn57733"
 
-RPM_NAME = "texlive-babel-japanese-2023.209.svn57733-54.1.noarch.rpm"
-RPM_HASH = "9ba4291e0cdd353877d69ed7ee0e62633ae458b3254ecbb81e8d95558c25d9ce3343cbc9d53d95cc5e5ac45618db7ccb6238cf16e1404f5a3a429e8a2a493a92"
+RPM_NAME = "texlive-babel-japanese-2026.226.svn57733-60.2.noarch.rpm"
+RPM_HASH = "bc432596bd053dabc245da511e6baf9ef32a5d87bb1054262eb0b3fb09865eb5ac96de96edb536419cfe4f1e4cae2d967d057827ed75c4892897d118b1a1288c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-japanese.ldf \

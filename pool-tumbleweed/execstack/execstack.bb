@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "execstack-0.5.0-3.1.aarch64.rpm"
-RPM_HASH = "ec0f34a1326390d5d99e90c22e71631d71c45bf9e55c730406fdd6ff9f9e971ed8dd26006d6da1b59fd2a48d4ca39701ea18bb87fc040feae9f00a731cec39fc"
+RPM_NAME = "execstack-0.5.0-5.9.aarch64.rpm"
+RPM_HASH = "465fee25d4add360167590bbcff48f83a958f0a9609ccb2cd8872fd560e26a7273823edd54f38d72cc86a2d3136e21c02fd0004d32542b6fb3a5c153f2865367"
 
 RPROVIDES:${PN} += "execstack"
 

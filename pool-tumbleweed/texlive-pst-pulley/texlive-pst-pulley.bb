@@ -5,10 +5,10 @@ properties of the system. The package uses pstricks and \
 requires several PSTricks-related packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn62977"
+PV = "2026.226.0.0.02svn62977"
 
-RPM_NAME = "texlive-pst-pulley-2023.209.0.0.02svn62977-54.2.noarch.rpm"
-RPM_HASH = "0b2d688539855c0519b7a73689f9f1c428939c906b967eb6128bcf8e7be75ebd731c463bc109b1ad8659a8541578b0dfa7f62b64bd2c5d83d02023e9c7e9df68"
+RPM_NAME = "texlive-pst-pulley-2026.226.0.0.02svn62977-60.4.noarch.rpm"
+RPM_HASH = "30f9ca2b19558518724c2bfe7dc04bc0859c4e50bb41b65f7a967d1e405d0cbb343e6a23208f84a53c568fd88e26db917b19ed5204519c8af5c1391c8beba321"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-pulley.sty \

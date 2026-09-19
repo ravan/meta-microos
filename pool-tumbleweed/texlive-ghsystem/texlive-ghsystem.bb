@@ -4,10 +4,10 @@ precautionary statements and pictograms in a straightforward \
 way. The statements are taken from EU regulation 1272/2008."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.8csvn53822"
+PV = "2026.226.4.8csvn77682"
 
-RPM_NAME = "texlive-ghsystem-2023.209.4.8csvn53822-53.1.noarch.rpm"
-RPM_HASH = "542e36464f2903eb6f0df0f0e7aa656b7aa3997619e0d35664c514211377160c2060ea87374b654f7c4d1b487a3f57feb3be508887f40575b655b4cbe535715b"
+RPM_NAME = "texlive-ghsystem-2026.226.4.8csvn77682-60.2.noarch.rpm"
+RPM_HASH = "cfaf72d6e6be144c24da005282c6accb286d9fd04546d9551af5e1b4b9ff1a652f7e1642fd0d7913e2df0352790bf5ea4799bb1adb83bda57245cd643ecde43e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ghsystem-acid-8.tex \

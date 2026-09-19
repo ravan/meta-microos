@@ -5,13 +5,13 @@ module to determine which browser to open. It also supports \
 quoted-printable and base64 encoding."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.1"
+PV = "1.1.2"
 
-RPM_NAME = "urlscan-1.0.1-1.1.noarch.rpm"
-RPM_HASH = "12d93e153efeb9176a7ce4d3fa46d447264114213ab6d069586c54f2b4677a11479b7086e17d9046c8d3fb0d5ea99b9e73bee93548151b485efdc259664a91c3"
+RPM_NAME = "urlscan-1.1.2-1.1.noarch.rpm"
+RPM_HASH = "cf569d7b78008d08d82f967bc69c8977a5c3ad176299557712f05655519110043d853690ed3c0f199c50819a0a2bc7f1c0c19b890940b76d8e18c3692f2dd84d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-urlscan \
+RPROVIDES:${PN} += "python3.13dist-urlscan \
 python3dist-urlscan \
 urlscan"
 

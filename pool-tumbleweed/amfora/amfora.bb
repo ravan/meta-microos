@@ -2,10 +2,10 @@ SUMMARY = "CLI/Terminal based gemini browser"
 DESCRIPTION = "A fancy terminal browser for the Gemini protocol."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.9.2"
+PV = "1.11.0"
 
-RPM_NAME = "amfora-1.9.2-1.2.aarch64.rpm"
-RPM_HASH = "c167633ed8ffcd0a210a8e6b8015b69b6ca0e6af4dfb66a0d436b7d0e28e4f8e2ea3e9c0e53b0af7bcb0944e78b985b0015dd87d7244808a99529ca8dd59af84"
+RPM_NAME = "amfora-1.11.0-4.1.aarch64.rpm"
+RPM_HASH = "c9b445b5b625e9d41c56b6328b1ebab8a64cbc8d58e856b2fa77337b9cef209897c48f1330b46885ca6340dba7e02ecf911c68f372425cbc7a4b4adb76f1532c"
 
 RPROVIDES:${PN} += "amfora"
 

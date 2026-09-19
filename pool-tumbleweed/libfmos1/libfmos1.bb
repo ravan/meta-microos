@@ -2,10 +2,10 @@ SUMMARY = "Library for MacOS data types"
 DESCRIPTION = "libfmos is a library for MacOS data types."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230707"
+PV = "20260520"
 
-RPM_NAME = "libfmos1-20230707-2.1.aarch64.rpm"
-RPM_HASH = "ce954384e030d1b0ee5520b9a73f9777c54cdd4ad4ad7c17fe127a6330e9b1c9d4834b41bf8b0ae7db56fa8125ff551772b7e04645a28be80a0c44b1a2b08636"
+RPM_NAME = "libfmos1-20260520-1.8.aarch64.rpm"
+RPM_HASH = "a414dae766231fd85ca94402bd3680f2023e4456bbca357640cbee2d616cc89747cb9836ad856015f4e3fb34c7d9611886184507020f2d0b4f2df6f1edbee713"
 
 RPROVIDES:${PN} += "libfmos.so.1 \
 libfmos1"

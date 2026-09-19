@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains development files needed for developing app
 based on exo."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "exo-devel-4.18.0-1.3.aarch64.rpm"
-RPM_HASH = "bbaf2fbcdd0788f42d7a1321b4850b84cba0a512f28a25604a050b878360b74dac05715e1f43faac2b7d485ec377dfce28ac84423dbe3f1516ea5304fa696b2b"
+RPM_NAME = "exo-devel-4.20.0-2.8.aarch64.rpm"
+RPM_HASH = "860c5da7f81b6d26497b4afb74279ca4523a4ce799012e4918af668b1b3c3ac5ab17a3773eb5bc67472884330175b381f141777fc984a00ae8f3657d9a4b3fcf"
 
 RPROVIDES:${PN} += "exo-devel \
 pkgconfig-exo-2"

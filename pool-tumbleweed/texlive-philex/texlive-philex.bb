@@ -8,10 +8,10 @@ of the environment. Philex builds on the facilities of the \
 linguex package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn36396"
+PV = "2026.226.1.3svn36396"
 
-RPM_NAME = "texlive-philex-2023.209.1.3svn36396-52.1.noarch.rpm"
-RPM_HASH = "d41815d56522e189c66aad86a6f2c44a90aaafc337ec1acd932f6574dbf7713eb04df93b01869d9e86ffb4482d3c4b0aad19b19ace7e79e008e3f56a5683f231"
+RPM_NAME = "texlive-philex-2026.226.1.3svn36396-58.2.noarch.rpm"
+RPM_HASH = "c4d7669ecd78dfbf98589ce17a098d98053b6ed56ea2c154621a8694d6d1cad79b9b0a4dc56d825163904db330b421011c22ef3fe4d7c8c714e377edb61b9b63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-philex.sty \

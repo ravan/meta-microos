@@ -25,14 +25,14 @@ BLACS. One of the design goals of ScaLAPACK was to have the ScaLAPACK \
 routines resemble their LAPACK equivalents as much as possible. \
  \
 This package contains ScaLAPACK	libraries compiled with	mvapich2."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "2.1.0"
+PV = "2.2.2"
 
-RPM_NAME = "libscalapack2-mvapich2-2.1.0-9.12.aarch64.rpm"
-RPM_HASH = "f62ee148dac49c20ba05e54dcfb42890a712bfd47381b0cf23ed611986787fd022ee8193986e3bb1c1cff090c25fc46142da3621608a4c0fd3253aa0e6304ad1"
+RPM_NAME = "libscalapack2-mvapich2-2.2.2-1.3.aarch64.rpm"
+RPM_HASH = "317126a168e5ca44ab0f6ddc0b237710fae87d8b2f2a50d1aa64c95c62cd632dbd7229005838cfa3714c31db40c65aab8e2c3a4d715f9e2e3d20dd9e3e801c09"
 
-RPROVIDES:${PN} += "libscalapack.so.2.1.0 \
+RPROVIDES:${PN} += "libscalapack.so.2.2.2 \
 libscalapack2-mvapich2 \
 scalapack-mvapich2"
 

@@ -8,16 +8,16 @@ HTTP header. HTTP/2 has been implemented. Wget2 also consumes less \
 system and user CPU cycles than Wget1.x."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "2.1.0"
+PV = "2.2.1"
 
-RPM_NAME = "wget2-2.1.0-1.1.aarch64.rpm"
-RPM_HASH = "be834579e3307883462ad520f15cbddb6f2fdb3019913076a172b3acce79ee950c89f66d511073b73eec2cdacd6a3b0a1aa92706bf7b448fffcff70ee8124e2a"
+RPM_NAME = "wget2-2.2.1-1.5.aarch64.rpm"
+RPM_HASH = "73f85327b0f868a25f98f26c162fef7b45e5d4aa428be683a87af0c5101294ed04311f783f23d8c889b3ea5f66180da60593b89e67dde21ef6d5b99ae61fdd01"
 
 RPROVIDES:${PN} += "wget2"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcre2-8.so.0 \
-libwget.so.2"
+libwget.so.4"
 
 inherit rpm

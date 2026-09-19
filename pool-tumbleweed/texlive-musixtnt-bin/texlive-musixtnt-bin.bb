@@ -2,10 +2,10 @@ SUMMARY = "Binary files of musixtnt"
 DESCRIPTION = "Binary files of musixtnt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn62210"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-musixtnt-bin-2023.20230311.svn62210-93.2.aarch64.rpm"
-RPM_HASH = "118b1d1ba52157fc92ff81c9657ce3611363be290ddf68cd1d55330bfcfdeba6cfce85aebb3fcfc7d50fc4f64fe9b38a27ed81a85b57213ae7402c9cbce3e71e"
+RPM_NAME = "texlive-musixtnt-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "823de467c11882ee64695981cf91f4cda8ee4a87ce10d46178f757708c4f8027cdd19f1a398f9eced925ea73bb3a071c9c58ef86950334fe0475a4e9f25ed75a"
 
 RPROVIDES:${PN} += "texlive-musixtnt-bin"
 

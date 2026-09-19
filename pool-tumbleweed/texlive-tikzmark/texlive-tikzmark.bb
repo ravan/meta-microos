@@ -4,10 +4,10 @@ on a page for later (or earlier) use, primarily (but not \
 exclusively) with TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.15svn64819"
+PV = "2026.226.1.15svn64819"
 
-RPM_NAME = "texlive-tikzmark-2023.209.1.15svn64819-53.1.noarch.rpm"
-RPM_HASH = "d28ec37a96da2fc8b5ad02cbd0cfb6e5fc0dc3b066ec56961073600f9efb01d9478362a08eba939da1266c4ef9661d4ddd23328baec76d43b44a2494ccf5e3ea"
+RPM_NAME = "texlive-tikzmark-2026.226.1.15svn64819-59.2.noarch.rpm"
+RPM_HASH = "c2cf017f00fa710c81a2c8aa90a5fc340b4bb80b8f5eca1fa608bac002d216b2f9d95f8689ca7d6b92e04e614f4ac611f43e988416aecb77c03f17143e4016e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarytikzmark.code.tex \

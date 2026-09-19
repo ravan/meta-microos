@@ -21,23 +21,27 @@ that require more security than simple username/password authentication \
 yet also don't require users to install special VPN software, and is \
 compatible with software tokens that run on cell phones. \
  \
-Also included are two command line utilities, otptool and genotpurl. \
-otptool is a one-time password command line utility. It can be used \
-on a simple call-out basis to integrate two-factor authentication \
-into any existing authentication solution. genotpurl generates URLs \
+Also included are three command line utilities, otptool, otplock, and \
+genotpurl. otptool is a one-time password command line utility. It can \
+be used on a simple call-out basis to integrate two-factor authentication \
+into any existing authentication solution. otplock allows you to safely \
+modify the users file while Apache is running. genotpurl generates URLs \
 for the Google Authenticator app."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.10"
+PV = "1.1.12"
 
-RPM_NAME = "apache2-mod_authn_otp-1.1.10-1.9.aarch64.rpm"
-RPM_HASH = "d192e3b5dc3db6c5f88209ea46667075b36a3e9c3f46b77bb9a76163d3b9bca817ffc2ae835f93d7d80fe23e0dca47453808796849cd81d425f4eb23ff8e918e"
+RPM_NAME = "apache2-mod_authn_otp-1.1.12-1.6.aarch64.rpm"
+RPM_HASH = "29b0b50eff841b9cdeb770142dc0b799ac5e6e7c78053c0c02115bf2848e1abc1ef9f62d7c345cf2e0f3052e7506bd3cc8f973d6add442642cdff677665baa59"
 
 RPROVIDES:${PN} += "apache2-mod-authn-otp \
+genotpurl \
+otplock \
 otptool"
 
 RDEPENDS:${PN} += "apache-mmn-20120211 \
 ld-linux-aarch64.so.1 \
+libapr-1.so.0 \
 libc.so.6 \
 libcrypto.so.3 \
 suse-maintenance-mmn-0"

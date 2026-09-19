@@ -5,10 +5,10 @@ service should have urls that represent remote objects, which methods \
 can then be called on."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.9.1"
+PV = "0.10.2"
 
-RPM_NAME = "librest-devel-0.9.1-3.2.aarch64.rpm"
-RPM_HASH = "d53afcfa96863d96ffe9879129dda26abf3373f200d4de5be17c040e41dd12afb89135bf4898a851cf0167e324549a4d852d13167ef1bd381d789fcd5138de2b"
+RPM_NAME = "librest-devel-0.10.2-2.1.aarch64.rpm"
+RPM_HASH = "6f874f00eb11999f9b4e31f96ffe8bc76c59b51faf42582882c789d96a31186b0ee29e987fb8831d00346b7e7a0438a3a651dc1deb39529f324b390e0617a1b6"
 
 RPROVIDES:${PN} += "librest-devel \
 pkgconfig-rest-1.0 \

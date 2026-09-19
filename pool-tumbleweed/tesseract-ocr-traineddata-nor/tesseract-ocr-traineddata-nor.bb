@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Norwegian l
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-nor-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "09476e5fd2283a526031a6924560c775c27fbe5dfc2460e9f7c2165603cc939a4141fcc51ed43e623afba86fa912487541f86a73be91b408a304a95b32688392"
+RPM_NAME = "tesseract-ocr-traineddata-nor-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "5d0b3f98313fd6d78b72ea1034345545eaab807b989b88358e4ddbe850cad8d525e48ccdbdc8b3a295c238a3aa496bb864249496f6f7393d45fdc614b25fa3d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-nor \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-no \
+tesseract-ocr-traineddata-nor \
 tesseract-ocr-traineddata-norwegian \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-norwegian"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

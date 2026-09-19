@@ -5,10 +5,10 @@ services without exposing users' passwords. It supports OAuth \
 versions 1 and 2."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt5NetworkAuth5-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "1642a72807c1aff2b377e0c85c5fe76719aa205eeab0dbcb7b2788d0b8bbefbf5d73371c129213208c9e215252635b7a952ed26e262ea2ad2e664b9d5c0a42d5"
+RPM_NAME = "libQt5NetworkAuth5-5.15.19+kde0-1.3.aarch64.rpm"
+RPM_HASH = "36496fc6854441130db6d3566cf387e46dc2f939c42d97a1bf4e269dc1fd7e26e898fc6c8548f233034a05cb714301c38d450dac7b36fa255e6bfdddb434e299"
 
 RPROVIDES:${PN} += "libQt5NetworkAuth.so.5 \
 libQt5NetworkAuth5"

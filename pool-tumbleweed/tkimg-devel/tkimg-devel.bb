@@ -2,10 +2,10 @@ SUMMARY = "Header Files and C API Documentation for tkimg"
 DESCRIPTION = "Files needed to compile/link C code against tkimg."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.14"
+PV = "2.1.0"
 
-RPM_NAME = "tkimg-devel-1.4.14-1.1.aarch64.rpm"
-RPM_HASH = "47d3ca4f9f40775abf4af6d3f17c1cf9f3024d112915b37689ed3bae2d64222e91fa81f3157a64685d1a6def2d0ca29b93736e79c055194f091b70e5e1672363"
+RPM_NAME = "tkimg-devel-2.1.0-1.6.aarch64.rpm"
+RPM_HASH = "d51059b7501710388df4d7a30535e3e2f1004e95292b49404175849891349d3458d4ae992180e17f1f907bcd48b8ef37cd022c25f171a7b16cfdfbe1d533fb95"
 
 RPROVIDES:${PN} += "tkimg-devel"
 

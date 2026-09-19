@@ -3,10 +3,10 @@ DESCRIPTION = "The libva library implements the Video Acceleration API. \
 The library loads a hardware dependendent driver."
 LICENSE = "MIT"
 
-PV = "2.19.0"
+PV = "2.24.1"
 
-RPM_NAME = "libva-wayland2-2.19.0-1.1.aarch64.rpm"
-RPM_HASH = "17554c6e3fac66998ec8264cf5247ef08d5bdc47d691271d4e72d0beb6471b462599b413e38af8cf249c7436baf6c36603c59de32e1ef1b17cfe0d1773676a9a"
+RPM_NAME = "libva-wayland2-2.24.1-1.1.aarch64.rpm"
+RPM_HASH = "c855f0838f3f50191418c1c56d3ff867945bd22af5d355b75ad167910e434dc7cc379fb15d61c95c8b859ed4d57508975fb3251cccf927874fe1b2d9a0bd9238"
 
 RPROVIDES:${PN} += "libva-wayland.so.2 \
 libva-wayland2"

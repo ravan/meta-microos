@@ -1,13 +1,14 @@
 SUMMARY = "The Mozc backend for Fcitx 5"
 DESCRIPTION = "The Mozc backend for Fcitx 5 provides a Japanese input method."
-LICENSE = "Apache-2.0 & BSD-3-Clause & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & BSD-3-Clause & SUSE-Public-Domain & Zlib"
 
-PV = "2.29.5111.102"
+PV = "3.33.6133.102"
 
-RPM_NAME = "fcitx5-mozc-2.29.5111.102-2.1.aarch64.rpm"
-RPM_HASH = "624087c6691527c6a9be93c7fea39c67bf1a61a8957b60b20200d3af5382b4066e7f17e627e24f978debcc3dfc2f3c0248682447c04509a416bbcbee4461c1a8"
+RPM_NAME = "fcitx5-mozc-3.33.6133.102-2.2.aarch64.rpm"
+RPM_HASH = "2a2d384c3d8b1bbe735f2193fc4fd28a76c4ba0e672bb17f67d4fa4bb0d937c20ffb6c0324c353f9cbdbddf7c5e366cd7e9d95e1542f34eafffb1f5009a76623"
 
-RPROVIDES:${PN} += "fcitx5-mozc \
+RPROVIDES:${PN} += "fcitx-mozc \
+fcitx5-mozc \
 locale-fcitx5-ja"
 
 RDEPENDS:${PN} += "fcitx5 \
@@ -19,7 +20,6 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libz.so.1 \
 mozc \
 mozc-gui-tools"
 

@@ -5,10 +5,10 @@ The environments support optional arguments of item numbering \
 similar to the enumerate or paralist packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0esvn15878"
+PV = "2026.227.0.0.0esvn15878"
 
-RPM_NAME = "texlive-tablists-2023.209.0.0.0esvn15878-55.1.noarch.rpm"
-RPM_HASH = "e2fcede309393850fdce1604011ff9db6512ac5a4264ee070d7d1064eda821ec2ce3b7d287821ccf7ca47558947cee179e3c261ef85f2dffa7a2829efecdac9c"
+RPM_NAME = "texlive-tablists-2026.227.0.0.0esvn15878-62.2.noarch.rpm"
+RPM_HASH = "0838e9c0a4a9e3850517ca91978a518415030ca660e7f84d924e9d5f48d2e14c5511009685c8408d2c78abce05f2e614d2f999c2907459b73ef66478e042b8c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tablists.sty \

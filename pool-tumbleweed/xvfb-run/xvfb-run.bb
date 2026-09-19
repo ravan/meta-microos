@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.5.2"
 
-RPM_NAME = "xvfb-run-1.5.2-7.2.noarch.rpm"
-RPM_HASH = "842cd5040d622e3fd042b23ac6da81a1ca68d298a7d48e0ff1caf9d570cc69142b30368c7e7175c00a2342d04662054f32e2e43655b0fff7f1683f496897fd97"
+RPM_NAME = "xvfb-run-1.5.2-9.2.noarch.rpm"
+RPM_HASH = "9da28e553996ce4bb788aa635e3695421bd86e862ff6682ae604c9b86ac09903388c6d7a79ac3210cacaa6834c745c41661cd5c9ed4604af60dc08c25ab2dfae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xvfb-run"

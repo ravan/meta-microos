@@ -6,10 +6,10 @@ not to use object streams. This package supports all major \
 PDF-output engines and dvipdfmx."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn63185"
+PV = "2026.226.0.0.8asvn74105"
 
-RPM_NAME = "texlive-bxpdfver-2023.209.0.0.6svn63185-53.1.noarch.rpm"
-RPM_HASH = "d3d0b781f69be7076ccd79e052e5a44408854e6efc125a7b6f8657b09bb9e34a3aa5ec195b7b6f64f849aa991d62c447c3b307ff3079ef5a8e14205b751ef695"
+RPM_NAME = "texlive-bxpdfver-2026.226.0.0.8asvn74105-59.2.noarch.rpm"
+RPM_HASH = "c98bdb20234de3b62ddc38af04ac5a3ca09a0ceb446eb21044afd0bef795c9a4d2e00d6faf47fa6651994afb7c43b965c64f299d930e7f5a9223d287c1c0846e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxpdfver.sty \

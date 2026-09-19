@@ -1,12 +1,12 @@
-SUMMARY = "openEMS development files"
+SUMMARY = "Development files for openEMS"
 DESCRIPTION = "This package contains libraries for developing applications \
 that use openEMS."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.0.35"
+PV = "0.0.36"
 
-RPM_NAME = "openEMS-devel-0.0.35-5.37.aarch64.rpm"
-RPM_HASH = "1d746a54f746ec1a05b49a54bd67a4f4644a67b62f7ffc83d2500cf687caf56b32a2a78a98f224ee469e87e0b929794c11ee4e57ffe7d323f3cc22499ebe6367"
+RPM_NAME = "openEMS-devel-0.0.36-4.8.aarch64.rpm"
+RPM_HASH = "73033cd521b8467f3fab58c1d5be821246fec25d90fd16cabcc061e46c1fff787a16dd1ada54607587a66f0f8ca56e0154ab6cca1a66b69ce0a24121a9f849d5"
 
 RPROVIDES:${PN} += "openEMS-devel"
 

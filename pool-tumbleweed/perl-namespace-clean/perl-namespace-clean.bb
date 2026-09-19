@@ -1,17 +1,17 @@
 SUMMARY = "Keep imports and functions out of your namespace"
 DESCRIPTION = "Keep imports and functions out of your namespace"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.27"
+PV = "0.270.0"
 
-RPM_NAME = "perl-namespace-clean-0.27-1.26.noarch.rpm"
-RPM_HASH = "333467e6bb570c7245a7d2e384857a2018706240c948c5fc1b42292f0f7b62ab0b1ca5b9238c3917a80eabcd75bbc26ca3ce3d2f901611788081f029e732e953"
+RPM_NAME = "perl-namespace-clean-0.270.0-1.7.noarch.rpm"
+RPM_HASH = "4793c39dc23609004cee2ac52bffc9aaf3aa2574cd8a11032f34ef225ace4255f575a25a9ecedc0adc710842a0a3745b1a68db7f19cb190d267f49ffb787c8b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-namespace--clean \
 perl-namespace-clean"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-B--Hooks--EndOfScope \
 perl-Package--Stash"
 

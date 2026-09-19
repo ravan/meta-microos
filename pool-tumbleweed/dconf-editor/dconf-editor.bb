@@ -6,10 +6,10 @@ have configuration storage systems. \
 This package provides a graphical editor for the dconf database."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "43.0"
+PV = "49.0"
 
-RPM_NAME = "dconf-editor-43.0-1.4.aarch64.rpm"
-RPM_HASH = "740fbc3479bac1e3bffc9176c1fd7eddd071081005d4dbb78eca130f3869b3baa0039c85df806d91bbd7379fc39e7f9e483ac5e40c335029791959aba9391833"
+RPM_NAME = "dconf-editor-49.0-2.4.aarch64.rpm"
+RPM_HASH = "8b4fb9c8500ced6b0fe01bab061ac32ad62d8caa4ba32f4b7c0d7c5eb8ce8986bec91d912bd0115cd855bd465c9721c2459dad7b92c6a37dc435415469ee1bdb"
 
 RPROVIDES:${PN} += "dconf-editor"
 

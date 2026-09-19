@@ -10,10 +10,10 @@ disk, but forgotten when the session ends. \
 The PAM module can be used to unlock the keyring on login."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "42.1"
+PV = "50.0"
 
-RPM_NAME = "gnome-keyring-pam-42.1-2.4.aarch64.rpm"
-RPM_HASH = "c151c83777ade2ff188cf14af5a34f4fd6a85262b6c9268297b1dec72d266d8be84ee8d632d8fd3fc2294379f9b39794dacef0c429d6988849688f48c9ae5bf4"
+RPM_NAME = "gnome-keyring-pam-50.0-3.2.aarch64.rpm"
+RPM_HASH = "d21e00ecb79805f579aaa9c4b6e47320c1d767bc7a4e920a6c9e1252d4fd4c1568e78d56059ed822f7e9fb761a49714d603117b66cf3bf2c09c9badcc3a860bf"
 
 RPROVIDES:${PN} += "gnome-keyring-pam \
 pam-keyring"

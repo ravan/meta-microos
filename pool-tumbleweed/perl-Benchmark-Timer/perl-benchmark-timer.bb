@@ -21,16 +21,16 @@ choose to skip any number of initial trials to cut down on initial case \
 irregularities."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7112"
+PV = "0.711.200"
 
-RPM_NAME = "perl-Benchmark-Timer-0.7112-1.18.noarch.rpm"
-RPM_HASH = "da2df49c6ec464b92207df5a07709c10c7fc04a934e8a8a6f7ebf2027124bdae95769800363c9bf3b8b88f682b75d397c5ffaa466408b86b73203707ea3e4c3b"
+RPM_NAME = "perl-Benchmark-Timer-0.711.200-1.7.noarch.rpm"
+RPM_HASH = "551b66a99410a9017f1160d84d143e903eccd45a361f5b707e8843fc8a7c1108dc68cb16e68e1c96e79ad3a4c0bf345ff957daf6d5e252b8df19bbb317acb166"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Benchmark--Timer \
 perl-Benchmark-Timer"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

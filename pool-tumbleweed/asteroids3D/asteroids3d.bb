@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "asteroids3D-1.0-1.3.aarch64.rpm"
-RPM_HASH = "52fea18d564c11cdb92b4d617ed5b9cd59fbf7d28c9b46c781612662219d6450641b0e73a06b51a046612fea6684bf61bfd727df088b874ef7aabef331eb288a"
+RPM_NAME = "asteroids3D-1.0-1.14.aarch64.rpm"
+RPM_HASH = "b03186b8076ff3c6b9cdbc89c56f78bada55963d8b43c53a7c4a67a55e08755de83daacac3e73c16127bcf4e5ea35a58f69a7adea281c7e295e0bbf3cd4eef1c"
 
 RPROVIDES:${PN} += "asteroids3D"
 

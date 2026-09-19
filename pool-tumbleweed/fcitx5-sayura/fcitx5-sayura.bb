@@ -2,13 +2,14 @@ SUMMARY = "Sinhala input method for Fcitx5"
 DESCRIPTION = "Fcitx5-Sayura is a Sinhala input method for Fcitx5 input method framework ported from IBus-Sayura."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.1.0"
+PV = "5.1.5"
 
-RPM_NAME = "fcitx5-sayura-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "2cba2f4061716d53b4e6ac7f09f8fe88b07c39eb852a29e9b6d3f96cd03bcec1985418ec02f7ad5dea61e42af44901cc9d3a91de9ee4e634e2747661c883a43f"
+RPM_NAME = "fcitx5-sayura-5.1.5-1.4.aarch64.rpm"
+RPM_HASH = "7c1b98e48c134285acf524a323ceabfe67d3a0cc5657b1427632759d5e68c657ec7f6295682e08576699dcd3802faefa03bedaea7e6eb0bef538db4a3a295eb0"
 
 RPROVIDES:${PN} += "fcitx-sayura \
-fcitx5-sayura"
+fcitx5-sayura \
+libsayura.so"
 
 RDEPENDS:${PN} += "fcitx5 \
 ld-linux-aarch64.so.1 \

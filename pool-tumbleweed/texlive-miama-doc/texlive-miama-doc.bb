@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-miama"
 DESCRIPTION = "This package includes the documentation for texlive-miama"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.1svn54512"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-miama-doc-2023.209.1.1svn54512-55.1.noarch.rpm"
-RPM_HASH = "955268c9de0dbf8dabf6a5a1670cdb3e9a5591b4266a6ad933fa15ef23b69ceaa0d3f3da224421f6cfeb2dbbd52fb97b8045f8db71615a7f76b29f4e338ff995"
+RPM_NAME = "texlive-miama-doc-2026.226.1.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "45aeed60e2e5655937f0559a41f5065d64c865a155f9943539340c50cee417b3b5d6fe068a0b325981ad5dbf2ae57d2e34e71d77e3b05304554385f1fc04ddd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-miama-doc"

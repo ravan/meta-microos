@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fjodor"
 DESCRIPTION = "This package includes the documentation for texlive-fjodor"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn53207"
+PV = "2026.226.svn53207"
 
-RPM_NAME = "texlive-fjodor-doc-2023.209.svn53207-53.1.noarch.rpm"
-RPM_HASH = "b522b7eef1a99cce483c211e4a35ad574a5e6a2e8df0cb7521b69aa18199799caab5bdfa4e3b99cc17f0a855f093a74430f0f08086e64215c5e73cf09d4e40a3"
+RPM_NAME = "texlive-fjodor-doc-2026.226.svn53207-59.2.noarch.rpm"
+RPM_HASH = "e69e24c9cb03c3a1bf75f9af5fc5dff706d8fe1aca7b72560f2ef1626f387ebfdd8598162e6c5f95bc85a51587490639aa80d643dcf978890efe57df14bb262d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fjodor-doc"

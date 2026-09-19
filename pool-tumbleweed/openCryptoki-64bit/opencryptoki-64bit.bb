@@ -8,12 +8,13 @@ coprocessor (with the PKCS#11 firmware loaded) and the IBM eServer \
 Cryptographic Accelerator (FC 4960 on pSeries)."
 LICENSE = "CPL-1.0"
 
-PV = "3.21.0"
+PV = "3.27.0"
 
-RPM_NAME = "openCryptoki-64bit-3.21.0-1.3.aarch64.rpm"
-RPM_HASH = "1b886d5a699529a98d1ae70ac905b2a3fdae3a92b801b60348b65ecbe97f2f425fa6765aa2278b0f6c119120dbe46e8be87da5f22f14d909fa516e67dd5fd512"
+RPM_NAME = "openCryptoki-64bit-3.27.0-3.1.aarch64.rpm"
+RPM_HASH = "bf81b5816236fb5fbee5b02ee5707e7493ea25ff926e92c2247e61f8febbcd6948a13fe98f12619f27ec5182dcb213115af5605f8a018fee1193c6d8991aba75"
 
 RPROVIDES:${PN} += "libopencryptoki.so.0 \
+libpkcs11-cca.so.0 \
 libpkcs11-icsf.so.0 \
 libpkcs11-sw.so.0 \
 libpkcs11-tpm.so.0 \

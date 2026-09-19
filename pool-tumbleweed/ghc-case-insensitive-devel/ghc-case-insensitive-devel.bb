@@ -5,19 +5,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1.0"
 
-RPM_NAME = "ghc-case-insensitive-devel-1.2.1.0-6.4.aarch64.rpm"
-RPM_HASH = "966e4cefa1a52bd8c9b7ef605bc91348ab1fa725a9a3cfd8016b9c69bd830fb034649bbd1b560328db334162524aa73d8149bc2679a659c24c79dea82f417ddd"
+RPM_NAME = "ghc-case-insensitive-devel-1.2.1.0-6.29.aarch64.rpm"
+RPM_HASH = "9d4e149df33546bba9b61e7fe05c7f7f1c6aa64ef6eb5a542c76d719a2ff49e07293dd566024fdccb2895868f27ebe118468a0801786404ba6a1134699a4e5bd"
 
 RPROVIDES:${PN} += "ghc-case-insensitive-devel \
-ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9"
+ghc-devel-case-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-case-insensitive \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-devel-text-2.0.2"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
+ghc-devel-text-2.1.4-cf23"
 
 inherit rpm

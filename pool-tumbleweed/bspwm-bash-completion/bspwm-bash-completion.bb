@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for bspwm"
 DESCRIPTION = "Bash completion for bspc"
 LICENSE = "BSD-2-Clause"
 
-PV = "0.9.10"
+PV = "0.9.12"
 
-RPM_NAME = "bspwm-bash-completion-0.9.10-1.12.noarch.rpm"
-RPM_HASH = "093dd119387e006b7edda4f54a3f0117565ccbfb4d0f9d7e5a6f993df724003488461cc55d8ebb868715024ba1c4c76e3b9fe78b663ed9956ce21add781ff16a"
+RPM_NAME = "bspwm-bash-completion-0.9.12-1.5.noarch.rpm"
+RPM_HASH = "8867b6058d982ce220806ed083e29e279e2d6d38ea3a1892a3f66c66f20244d5b8b387f6a82d250033fd72e791720ac5f59c47a9732f1b944649f5ca70f3e1dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bspwm-bash-completion"

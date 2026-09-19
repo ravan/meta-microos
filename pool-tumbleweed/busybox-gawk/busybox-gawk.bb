@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing gawk"
 DESCRIPTION = "This package contains the symlinks to replace gawk with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-gawk-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "a71510c39f4f02517b728473cdc22bde8dde6cbb4f2faffffb86bfe925b5e69bbd9ce52ac4db9970ec512d347f3ee8c9f69726711d7f3807c42048e88da81fc4"
+RPM_NAME = "busybox-gawk-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "f96069b90fdf8dbb66acb27e28e0db0bab3f94946cf6a9a46dd4168637f81d3c941ba516498791038a60fe26767be060d29b3454299bf43e686f783a253eeb32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/awk \

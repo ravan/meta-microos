@@ -2,10 +2,10 @@ SUMMARY = "Shared library for stlink"
 DESCRIPTION = "STLINK v1/v2 JTAG/SWD debugging/flashing tool for STM32 microcontrollers."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.0"
+PV = "1.8.0"
 
-RPM_NAME = "libstlink1-1.7.0-2.8.aarch64.rpm"
-RPM_HASH = "17e6eee942e2ae7ba6307b1a07fa434a5c39292d623c321a88977dc06929be3fca5d2e831d74e496bae7415ff394cad5ffd22ad68d1ff9c69ce0ad8072687c64"
+RPM_NAME = "libstlink1-1.8.0-1.11.aarch64.rpm"
+RPM_HASH = "e3fc8e360d512979605e18199507313af2acc143f1b15cee7264f9c8815db3c1854bac1bf5edf123e321533358d66d904a5a868660d7d683625ac617e6ec0833"
 
 RPROVIDES:${PN} += "libstlink.so.1 \
 libstlink1"

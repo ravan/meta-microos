@@ -6,8 +6,8 @@ LICENSE = "Apache-1.1"
 
 PV = "4.0.4"
 
-RPM_NAME = "servletapi4-javadoc-4.0.4-300.7.noarch.rpm"
-RPM_HASH = "ea8170d27a6af1f6b20ae274c6f21c7408c41c0e6ee2252db8aa348c7781a6f74efbcfa75dc65a26b0a4ec6f1b195a281252498e8bcc578f75827b3cccba16b3"
+RPM_NAME = "servletapi4-javadoc-4.0.4-302.6.noarch.rpm"
+RPM_HASH = "28bf6fc0664196258e67be4e273349e740bfd632e8fdd98ae9213c55be81d12ae4f49bc04f96f23d9558b25ae176caede24a0a03928880bb5ba81203117a3d79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "servletapi4-javadoc"

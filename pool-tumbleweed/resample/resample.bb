@@ -2,12 +2,12 @@ SUMMARY = "Sampling-rate conversion program"
 DESCRIPTION = "The resample program is a high-quality resampling program. For example, \
 it can be used to convert the sampling rate from 48 kHz (used by DAT \
 machines) to 44.1 kHz (the standard sampling rate for Compact Discs)."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.1"
 
-RPM_NAME = "resample-1.8.1-20.27.aarch64.rpm"
-RPM_HASH = "2494cdaf1a8ffc9a4740f4061f4c059e1d0e8f504c6b6e8e2d032fea10a2447834e86b46df50282b7381179abf4baeb37978eb46e5ac0697fc132e68d4ffae79"
+RPM_NAME = "resample-1.8.1-22.9.aarch64.rpm"
+RPM_HASH = "c161cc7d5f3002aeeb04c6ceb9e090c4f111f06a71bdcf1604d4959dcfcdbbe4779be5a9ac43af26d4a70b680c2ce961b3fb328f193165f49c9a98d6f572042f"
 
 RPROVIDES:${PN} += "resample"
 

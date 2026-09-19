@@ -1,6 +1,6 @@
 SUMMARY = "Files and Scripts for a RO root fileystem"
 DESCRIPTION = "Files, scripts and directories to run the system with a \
-read-only root filesystem with /etc writeable via overlayfs. \
+read-only root filesystem with nested writable /etc BTRFS subvolume. \
  \
 This package should never be installed in an already running \
 system! It should only be selected by a system role for a \
@@ -10,21 +10,22 @@ Those entries are used by dracut to mount the overlay file systems \
 during the early boot phase."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0+git20220808.cd59f4f"
+PV = "1.0+git20260311.ea26e1b"
 
-RPM_NAME = "read-only-root-fs-1.0+git20220808.cd59f4f-1.4.noarch.rpm"
-RPM_HASH = "ec30aa5aabdf223a2fe0e0b125608271f92882921d1c51643f096eca319d31c060822a1b7df98c1c36aa4b1b8633720d403170498aa4b59605e920f82619bac4"
+RPM_NAME = "read-only-root-fs-1.0+git20260311.ea26e1b-1.2.noarch.rpm"
+RPM_HASH = "ae80e45dc308b97ada3ccb585be2481495beb357085cc038eff8341420965a4bcdbf08f42beda962e428d0e2cd949d72554521d3bca405aff6c14e8efc752671"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-read-only-root-fs \
 read-only-root-fs"
 
-RDEPENDS:${PN} += "/usr/bin/cat \
-/usr/bin/mkdir \
-/usr/bin/sed \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/gawk \
+/usr/bin/mv \
+/usr/bin/rsync \
 /usr/bin/sh \
+/usr/sbin/btrfs \
 dracut \
-gawk \
 snapper"
 
 inherit rpm

@@ -8,29 +8,20 @@ hardware acceleration when available. \
 This package contains various cairo utilities."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.17.8"
+PV = "1.18.4"
 
-RPM_NAME = "cairo-tools-1.17.8-1.2.aarch64.rpm"
-RPM_HASH = "aeccc28a3f66a89f4234a7d244cd122ecd575701a641a0ebaf75801c8c29771bfbf4d650e2c3ded1547ed35d49b286fc8901a49e129c3b7dd01627e6b053cb37"
+RPM_NAME = "cairo-tools-1.18.4-4.5.aarch64.rpm"
+RPM_HASH = "0f4b25f86a47b8ae710b13b98bfa6210cda37578b4409995d31eda0fa3d7314e93a9084379e6b81e8c677c30a9bfb7733ea023601610d8d824666b1c3a099732"
 
 RPROVIDES:${PN} += "cairo-tools \
 cairo-utils \
 libcairo-fdr.so \
-libcairo-sphinx.so \
 libcairo-trace.so"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libX11.so.6 \
-libXrender.so.1 \
 libc.so.6 \
-libcairo-script-interpreter.so.2 \
-libcairo.so.2 \
 libcairo2 \
-libglib-2.0.so.0 \
-libpixman-1.so.0 \
-libxcb-render.so.0 \
-libxcb.so.1 \
 libz.so.1"
 
 inherit rpm

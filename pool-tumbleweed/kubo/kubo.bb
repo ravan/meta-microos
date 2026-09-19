@@ -1,11 +1,15 @@
 SUMMARY = "IPFS implementation in Go"
-DESCRIPTION = "IPFS is a global, versioned, peer-to-peer filesystem. It combines good ideas from Git, BitTorrent, Kademlia, SFS, and the Web. It is like a single bittorrent swarm, exchanging git objects. IPFS provides an interface as simple as the HTTP web, but with permanence built in. You can also mount the world at /ipfs."
+DESCRIPTION = "IPFS is a global, versioned, peer-to-peer filesystem. \
+It combines good ideas from Git, BitTorrent, Kademlia, SFS, and the Web. \
+It is like a single bittorrent swarm, exchanging git objects. \
+IPFS provides an interface as simple as the HTTP web, but with permanence built in. \
+You can also mount the world at /ipfs."
 LICENSE = "MIT"
 
-PV = "0.22.0"
+PV = "0.40.1"
 
-RPM_NAME = "kubo-0.22.0-1.1.aarch64.rpm"
-RPM_HASH = "9c65b7bbc95e56c846a432a643f2bf7c5eee7946fe553c12529ba328fa3d47088bfc92c7a7dc7d964cf758ae5591e356e5952fad73b61e4fd67161282b6f0077"
+RPM_NAME = "kubo-0.40.1-1.4.aarch64.rpm"
+RPM_HASH = "4666ae39b85296134743c97d8b90b9818ae735308f6f26003b771fbc0ddb10d78e4abaf09ff128746a18c16693449263ed82a259a61124d7461bc782f6bb90e0"
 
 RPROVIDES:${PN} += "go-ipfs \
 ipfs \

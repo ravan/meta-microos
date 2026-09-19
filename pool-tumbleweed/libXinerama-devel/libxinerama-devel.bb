@@ -7,10 +7,10 @@ This package contains the development headers for the library found \
 in libXinerama1."
 LICENSE = "MIT"
 
-PV = "1.1.5"
+PV = "1.1.6"
 
-RPM_NAME = "libXinerama-devel-1.1.5-1.2.aarch64.rpm"
-RPM_HASH = "e633d7edc0c5a57024d1b9986f2d38546737964b7bce69ac54c4423e0929dfff0178d12c9066c8d280fc950698075892fecd03737ba883da3c4abba5fe1d86ea"
+RPM_NAME = "libXinerama-devel-1.1.6-1.4.aarch64.rpm"
+RPM_HASH = "d18697eb7776ef4b2331d9a251e8e2b711ea0079b5b51ce9abcbf8398d5027e3ed3929c9384dd455fbf48a70b1802f17ea2fd9b4592cccb2bab6b1e3844d1627"
 
 RPROVIDES:${PN} += "libXinerama-devel \
 pkgconfig-xinerama"
@@ -19,6 +19,7 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXinerama1 \
 pkgconfig-x11 \
 pkgconfig-xext \
+pkgconfig-xextproto \
 pkgconfig-xineramaproto"
 
 inherit rpm

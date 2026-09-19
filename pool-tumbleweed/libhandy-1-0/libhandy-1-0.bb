@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the shared library for libhandy, a library 
 help with developing mobile UI using GTK+/GNOME."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.8.2"
+PV = "1.8.3"
 
-RPM_NAME = "libhandy-1-0-1.8.2-1.4.aarch64.rpm"
-RPM_HASH = "894df04daa57bfe4278329eac733cbd0ed3e231ab20c1a1107d667b1e3b746a78cb1791110b4657ab6797ce090e325b664deb0f9fa52df3b0f403a0f953ad996"
+RPM_NAME = "libhandy-1-0-1.8.3-2.3.aarch64.rpm"
+RPM_HASH = "65aeeabf339dc65e93f6b9a9750300eee98146cd376ec79fcb733c3d5b13f61ecd7a92aa4b9185eef00803de7271276794ec1621446c6c99a0eee91d7d2f055e"
 
 RPROVIDES:${PN} += "libhandy \
 libhandy-1-0 \

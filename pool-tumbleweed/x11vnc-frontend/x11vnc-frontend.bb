@@ -7,10 +7,10 @@ Windows. \
 This package adds a simple GUI frontend to run x11vnc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.16"
+PV = "0.9.17"
 
-RPM_NAME = "x11vnc-frontend-0.9.16-2.14.aarch64.rpm"
-RPM_HASH = "7eb112078f498b30ae0221c15ff17696f463bd8a0a3f9603d20c9dec7287a7054f5ae9c715f5453cc775f87770f502efd6b3a081b29042fc7265ea3ca435b6c2"
+RPM_NAME = "x11vnc-frontend-0.9.17-1.2.aarch64.rpm"
+RPM_HASH = "e3b8dd99c4f3671ff1a5f3eb1a4fbcfbefe4d5cc18bb8676f5e5ede4ab6e051695ff65418778b18f517e01fd9360319c5fe98d8f244b3762dd71eb3c12f1d8b6"
 
 RPROVIDES:${PN} += "x11vnc-frontend"
 

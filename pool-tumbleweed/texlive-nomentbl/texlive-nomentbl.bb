@@ -4,10 +4,10 @@ makeindex style of nomencl. A nomenclature entry may have three \
 arguments: Symbol, description and physical unit."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn16549"
+PV = "2026.226.0.0.4svn16549"
 
-RPM_NAME = "texlive-nomentbl-2023.209.0.0.4svn16549-55.1.noarch.rpm"
-RPM_HASH = "02f6346463bf049db7747b81074378445123e06d77559850bbcc1a3c0ca3c4a6927b4c9758c0e7d620863c433c745b47ff01e2cdea90e3420d04bbacc540937a"
+RPM_NAME = "texlive-nomentbl-2026.226.0.0.4svn16549-61.2.noarch.rpm"
+RPM_HASH = "5ed59feed313032d4a4bce03ed974cf7673f1205dff43c90a02f52e24e6d4b2833050f4a0f33c7451e70cf2d72afe7e919a89f944af25ae0a1202f2cc2ac8fc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nomentbl.sty \

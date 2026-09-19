@@ -8,10 +8,10 @@ nodes); and it improves on pst-qtree in being usable with \
 pdfTeX and XeTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.2svn26108"
+PV = "2026.226.1.2svn26108"
 
-RPM_NAME = "texlive-tikz-qtree-2023.209.1.2svn26108-53.1.noarch.rpm"
-RPM_HASH = "d7cabce58c15e6c663e4825502f8db6b0443ea3bd0dd5ac7e62886c7b253f54bd8e8c7108ef4efa3ff7b5d35b90f79a7bd042360bca7bcd7c709e809bf241ef3"
+RPM_NAME = "texlive-tikz-qtree-2026.226.1.2svn26108-59.2.noarch.rpm"
+RPM_HASH = "53c06e41274e3b85144e10348934d4123ae25ae3c465c4ab8a752acaa7d82276f98d5c14d269231159723a9f2d1aec45cb0d43473fb0790163321f683a0e4e9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgfsubpic.sty \

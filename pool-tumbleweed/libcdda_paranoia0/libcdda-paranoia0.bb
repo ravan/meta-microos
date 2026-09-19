@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.10.2"
 
-RPM_NAME = "libcdda_paranoia0-3.10.2-28.20.aarch64.rpm"
-RPM_HASH = "3c99b0b85919535651837c5c0cb3edd9a463e449971f520a892f0ca9ef8b18b9c17c832f81b1db40ef4f12dae2166cd169b5573e9205263f6f4a073c0e32b704"
+RPM_NAME = "libcdda_paranoia0-3.10.2-30.8.aarch64.rpm"
+RPM_HASH = "21e4a662af94ebe1d5a1aed57af367531f8a13c2e2b448c9e2fe4e2f9052bed8d1780240dfbd291cf1e3904b73f7b8e9479142f033bf1424d67f1c824c96d328"
 
 RPROVIDES:${PN} += "libcdda-paranoia.so.0 \
 libcdda-paranoia0"

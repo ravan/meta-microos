@@ -6,10 +6,10 @@ implementation specifics out of EGL drivers by using application-facing \
 EGL functions."
 LICENSE = "MIT"
 
-PV = "1.1"
+PV = "1.2.1"
 
-RPM_NAME = "eglexternalplatform-devel-1.1-3.6.noarch.rpm"
-RPM_HASH = "ed552d82c493695858d28b7eb2e8ec76fc8066140f9919e56fa3946807ca73237aeb5261e407e1eb5e6b4a5402bc7ac7164b3f26b5c30717abce7b65be0f9824"
+RPM_NAME = "eglexternalplatform-devel-1.2.1-2.3.noarch.rpm"
+RPM_HASH = "def4ebd1cf542beb995124b0fe4955f487aa714b3cb9549cf9fd48dcb2ba1c6af4f127e03f740b2440f7d8012566e33f080ff4084bab86992366f7d94f124470"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eglexternalplatform-devel \

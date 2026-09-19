@@ -4,10 +4,10 @@ Nowadays, the job is mostly done by the inputenc package in the \
 LaTeX distribution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn51502"
+PV = "2026.226.svn51502"
 
-RPM_NAME = "texlive-codepage-2023.209.svn51502-54.1.noarch.rpm"
-RPM_HASH = "6f45ed3eb0377e0b4f9763511c38a55d476867d53c95a937d0c377c1ce79b70bc1bdbf903edd74d6a4f7322b6dd8bdf987be654fafd8e9914d450f49f220ef57"
+RPM_NAME = "texlive-codepage-2026.226.svn51502-60.2.noarch.rpm"
+RPM_HASH = "9e0ca8a64a12122820894c541c9ecd5d27800bd9ed079460e94a628f638458302ba9481e5cb2328d3eb1238fee4cf9ba644d6f32461a971c61d3dbfa9b3a33e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-code437.tex \

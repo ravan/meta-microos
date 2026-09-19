@@ -7,16 +7,16 @@ standardized resources (e.g. MediaServer); this is left for higher level \
 libraries utilizing the GUPnP framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6.5"
+PV = "1.6.10"
 
-RPM_NAME = "libgupnp-devel-1.6.5-1.1.aarch64.rpm"
-RPM_HASH = "f7ffe09bb0dead3b45a58f539615ce6d6c14973efb5b4faac952f1a0e42f6962dfd876a04cc7960e261b93f3a569a90a965dc13290542902a50c1b68d527fc91"
+RPM_NAME = "libgupnp-devel-1.6.10-1.3.aarch64.rpm"
+RPM_HASH = "df267cbcbdc98d0beb72e06251140e8e3ee2356af6ea7f2a00ba1bcfa11ca05e791ae643d6d7e09f1e7314ea01acd1cc3c1c9c416f03d4534239cc8951ffdf3c"
 
 RPROVIDES:${PN} += "libgupnp-devel \
 pkgconfig-gupnp-1.6"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 libgupnp-1-6-0 \
 pkgconfig-gio-2.0 \
 pkgconfig-glib-2.0 \

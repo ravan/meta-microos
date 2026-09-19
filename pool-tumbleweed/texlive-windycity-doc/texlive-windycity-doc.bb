@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-windycity"
 DESCRIPTION = "This package includes the documentation for texlive-windycity"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn61223"
+PV = "2026.226.svn67011"
 
-RPM_NAME = "texlive-windycity-doc-2023.209.svn61223-54.1.noarch.rpm"
-RPM_HASH = "9c46dbb79a811c51812497d3c74b015780d3ea7cb3923864e4bdca35ab3ca0939dad9e30b210f3335230cd2af1bb091ef4cdf4b66ffe23d31359499a1fdd84a9"
+RPM_NAME = "texlive-windycity-doc-2026.226.svn67011-60.2.noarch.rpm"
+RPM_HASH = "331825b2f94882dd9ac62133371f26ca3aeb751781dffa4c72971ab72da5a3034d85a3b38adb537dd2fbf87643d32aff862f9b33cb4b9e981c4d7b02aea361a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-windycity-doc"

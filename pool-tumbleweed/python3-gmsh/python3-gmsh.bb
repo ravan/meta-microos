@@ -3,19 +3,19 @@ DESCRIPTION = "Gmsh is a 3D finite element grid generator with a build-in CAD en
 and post-processor. \
  \
 This package contains the public gmsh API for Python."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "Apache-2.0 & GPL-2.0-or-later & (GPL-2.0-or-later | LGPL-3.0-or-later) & LGPL-2.1-or-later & MPL-2.0 & BSD-2-Clause & BSD-3-Clause & BSL-1.0 & CC0-1.0 & X11"
 
-PV = "4.11.1"
+PV = "4.15.2"
 
-RPM_NAME = "python3-gmsh-4.11.1-2.2.noarch.rpm"
-RPM_HASH = "f72ba6370876be67b6547035937eba427c24b20580305aa7b9f20e2a5fc2be3f92488056f4221aa89e25ad8b57f9907e782a1e8c9a2ffc92c4aea31cd98fbe81"
+RPM_NAME = "python3-gmsh-4.15.2-1.4.noarch.rpm"
+RPM_HASH = "414db35cd77426378e8af78c78a78283d19f59938b995095ef063256af36d33f59618685a7c1863385c94257a006ba86084ab2b5a54ee70412826cce96734cc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gmsh \
-python3.11dist-gmsh \
+python3.13dist-gmsh \
 python3dist-gmsh"
 
-RDEPENDS:${PN} += "libgmsh4-11 \
+RDEPENDS:${PN} += "libgmsh4-15 \
 python-abi"
 
 inherit rpm

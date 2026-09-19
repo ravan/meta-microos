@@ -11,15 +11,15 @@ This package contains the files needed to compile programs that use \
 the liblmdb library."
 LICENSE = "OLDAP-2.8"
 
-PV = "0.9.30"
+PV = "0.9.35"
 
-RPM_NAME = "lmdb-devel-0.9.30-1.2.aarch64.rpm"
-RPM_HASH = "fa1c40db95efe029365a0b1ebe36cc19a6d3e3866747a7289e636fda715eddf514379a464c93f186737258a78b27987cace6b768b3ea8b42af4d4b1d069c4702"
+RPM_NAME = "lmdb-devel-0.9.35-1.3.aarch64.rpm"
+RPM_HASH = "2e55c1384d9f7cb2b4746dbb9faad01d3ee52b2ab4750b01c34bf3be36cf234e4d5fa669fed8864ebcbcc6bb0b4e2e0a5503e22b363fc4053dc97962ef0091bc"
 
 RPROVIDES:${PN} += "lmdb-devel \
 pkgconfig-lmdb"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-liblmdb-0-9-30"
+liblmdb-0-9-35"
 
 inherit rpm

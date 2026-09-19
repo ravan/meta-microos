@@ -3,10 +3,10 @@ DESCRIPTION = "Hyphenation patterns for Armenian for Unicode engines. \
 Auto-generated from a script included in hyph-utf8."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-armenian-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "177a8412045fd17353ba75df0857203926582ef0eff7cca3bfc18c8d9891f3a3283b38c34920f1a3612884da0d2cbd76d79138234bcca1444e3204670cbff744"
+RPM_NAME = "texlive-hyphen-armenian-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "41662277292d41d028f07807c41d91471923eca5397188ef662af986e23e2c0cfdc74284dcf8c33d2e029aa71d28a022a4edf02cca9cd00b33d923d74299aebd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-hy.tex \

@@ -23,10 +23,10 @@ coalescing value. The worker that grabs that job could then batch deliver \
 all the mail for that domain once it connects to that domain's mail server."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.17"
+PV = "1.180.0"
 
-RPM_NAME = "perl-TheSchwartz-1.17-1.9.noarch.rpm"
-RPM_HASH = "b6d5dc19e89227e9a44dec5e8e2fdd322d92db299f08650a3d921b3a90cc3a419ceb02dfbe7f4f6abe38918bf7b192ac84ef7545f86b309837b55b4fa9029996"
+RPM_NAME = "perl-TheSchwartz-1.180.0-1.10.noarch.rpm"
+RPM_HASH = "e74bb5ffcdc1160778efaaa94ac3b31268aa6716ec014978d973083a631b1754ce15a19c1c768319e88dd3c51d281f61a25a4283c385a9f57e8d8310cdbed958"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-TheSchwartz \
@@ -38,7 +38,7 @@ perl-TheSchwartz--JobHandle \
 perl-TheSchwartz--Worker"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Accessor--Fast \
 perl-Data--ObjectDriver"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-stage"
 DESCRIPTION = "This package includes the documentation for texlive-stage"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.03svn62929"
+PV = "2026.226.1.03svn62929"
 
-RPM_NAME = "texlive-stage-doc-2023.209.1.03svn62929-58.1.noarch.rpm"
-RPM_HASH = "82f169aa1b5eaf53ab91a3985578bc9f02de90c5ba4db4ad60296c53b1351ecea4a55e0662d69dde1d1d58098cbc83f2491a3ab14a8cb451180f00a125f646ff"
+RPM_NAME = "texlive-stage-doc-2026.226.1.03svn62929-64.2.noarch.rpm"
+RPM_HASH = "e2a56a06eb9f30aba2942325aa95a0e4cf446e4a7bce1eb8b5e5da4ec976531245db2de5491b8d3706830438ecc323c4fa8407842b7eb3ea5faaa748aca637d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stage-doc"

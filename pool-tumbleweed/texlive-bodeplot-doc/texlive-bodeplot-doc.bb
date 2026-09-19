@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bodeplot"
 DESCRIPTION = "This package includes the documentation for texlive-bodeplot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.3svn65074"
+PV = "2026.226.3.0.3svn77390"
 
-RPM_NAME = "texlive-bodeplot-doc-2023.209.1.1.3svn65074-53.1.noarch.rpm"
-RPM_HASH = "47f8c33a58950b6ea76041d9a29a60a2620a82624bdb04a4ea4de8da5c782d18ab1142af9e4ecec4db3258488ec4e28b232d20c075e68286ade8bb54e103ee26"
+RPM_NAME = "texlive-bodeplot-doc-2026.226.3.0.3svn77390-59.2.noarch.rpm"
+RPM_HASH = "29141fda09871a4b25ed82bf8cab3426b5c1a98467c877d01a2040b7b8ac8b668d2a52a6b57b212b45fb5be99c613daef098e51b15a56e4c09689e1b4fc29143"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bodeplot-doc"

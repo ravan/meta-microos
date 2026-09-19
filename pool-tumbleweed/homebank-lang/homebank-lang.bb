@@ -2,18 +2,19 @@ SUMMARY = "Translations for package homebank"
 DESCRIPTION = "Provides translations for the 'homebank' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.7"
+PV = "5.10.2"
 
-RPM_NAME = "homebank-lang-5.7-1.1.noarch.rpm"
-RPM_HASH = "743345fce328be443b7cdbf573d67d32502b17eec00ed254aa990bd4dd79ddf5787cb5a97828c7e47f7632793f794aa8fc39b35180cddc3789eac5953c9bf4a6"
+RPM_NAME = "homebank-lang-5.10.2-1.2.noarch.rpm"
+RPM_HASH = "e9d14c0a5e089967b2d610fcb9d0f86b18f1fe5c3f153ae36623c4b8d405e1b4f6d0a2416564bffcccdc2a2a0b275497e396cc15056fab1c3c2584c67a1f7ae8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "homebank-lang \
 homebank-lang-all \
+locale-homebank-af \
 locale-homebank-ar \
-locale-homebank-ast \
 locale-homebank-be \
 locale-homebank-bg \
+locale-homebank-bn \
 locale-homebank-br \
 locale-homebank-ca \
 locale-homebank-cs \
@@ -24,7 +25,6 @@ locale-homebank-el \
 locale-homebank-en-AU \
 locale-homebank-en-CA \
 locale-homebank-en-GB \
-locale-homebank-eo \
 locale-homebank-es \
 locale-homebank-et \
 locale-homebank-eu \
@@ -34,6 +34,7 @@ locale-homebank-fr \
 locale-homebank-fr-CA \
 locale-homebank-gl \
 locale-homebank-he \
+locale-homebank-hi \
 locale-homebank-hr \
 locale-homebank-hu \
 locale-homebank-id \
@@ -55,8 +56,8 @@ locale-homebank-pt-PT \
 locale-homebank-ro \
 locale-homebank-ru \
 locale-homebank-si \
-locale-homebank-sk \
 locale-homebank-sl \
+locale-homebank-sq \
 locale-homebank-sr \
 locale-homebank-sv \
 locale-homebank-ta \

@@ -4,10 +4,10 @@ to track and manage your information by using LibreOffice office \
 suite."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-base-7.6.1.1-1.1.aarch64.rpm"
-RPM_HASH = "79980820bdc89223fb5bec85f6f26665c852d8e597a5c26223a23525c50075a5712dbcef16b7a29ee272bd180dd0d81793eb21212f56e339712f139db01d33bc"
+RPM_NAME = "libreoffice-base-26.8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "5b781305542e7dd82df14abdb086231ccfef3b616da5ff5941438e63909963e42378f873c2e66db0c2d2da93d7fe7f4d829db5a3d09bfe871ac949b9f79301b5"
 
 RPROVIDES:${PN} += "libabplo.so \
 libdbplo.so \
@@ -15,8 +15,7 @@ libdbulo.so \
 libmysqlclo.so \
 libreoffice-base \
 librptlo.so \
-librptuilo.so \
-librptxmllo.so"
+librptuilo.so"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 jre \
@@ -34,7 +33,6 @@ libuno-cppu.so.3 \
 libuno-cppuhelpergcc3.so.3 \
 libuno-sal.so.3 \
 libuno-salhelpergcc3.so.3 \
-pentaho-reporting-flow-engine \
 rtld-GNU-HASH"
 
 inherit rpm

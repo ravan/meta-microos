@@ -6,10 +6,10 @@ contain nonzero audio data. This is useful for dividing live recordings \
 into tracks where 2 second gaps would be irritating."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.4"
+PV = "1.2.6"
 
-RPM_NAME = "cdrdao-1.2.4-1.14.aarch64.rpm"
-RPM_HASH = "206fdc3a8fc8fa11aefe3edd1f136a3cfed92998b24c847d033c221f6290164ab54ac120f3a8c84ffda0fcf4e55c407ea9d5970af1d65b70005a5269f1034cfc"
+RPM_NAME = "cdrdao-1.2.6-1.2.aarch64.rpm"
+RPM_HASH = "96a847e5654f484f820167e127742e53d0af3af20a1c65f6629c56d9764d83aaa7656953bf45c3627a8666b68398faefcb2d5e8743a6b3a0e53e0b48bd685280"
 
 RPROVIDES:${PN} += "cdrdao"
 

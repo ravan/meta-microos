@@ -7,10 +7,10 @@ distribution includes an example development of Knuth's logo \
 fonts."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.0.0.56svn37105"
+PV = "2026.226.0.0.56svn37105"
 
-RPM_NAME = "texlive-metatype1-2023.209.0.0.56svn37105-55.1.noarch.rpm"
-RPM_HASH = "2673ac4ce0fa1f74acedfce38946021527955013a9ed3fef398edc7abc538b0bde9f9f60199a26e135e50af48c3264909db590c87e326f051e9e08b7773c4b83"
+RPM_NAME = "texlive-metatype1-2026.226.0.0.56svn37105-61.2.noarch.rpm"
+RPM_HASH = "232526177d946da31a817b1220786f3a1e609010725c845cdd6dc1f777f9d3dd84aa050fb2c3d1e440dd2570ac3f018f5c439960dc3dc4c86d6d28f4c849150b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metatype1"

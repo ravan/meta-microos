@@ -15,14 +15,16 @@ containing definitions (\\newglossaryentry etc.) to the .bib \
 format required by bib2gls."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.2svn65104"
+PV = "2026.226.4.7svn76845"
 
-RPM_NAME = "texlive-bib2gls-2023.209.3.2svn65104-54.1.noarch.rpm"
-RPM_HASH = "61b2137405f73646a8e8d1c90a5f50ea40dbc58014141d9585bb6e52a479fe5251ed7d3ea1a94d187f3bff9d20bc89bc8b8a34986fae3e9a66de02b0975a8e97"
+RPM_NAME = "texlive-bib2gls-2026.226.4.7svn76845-61.2.noarch.rpm"
+RPM_HASH = "52286490ec3bdafbf7135a5e5fc8a1f96f2796746deff7619e209f6b55d45dde393a73cd97ee98b102036bec2dfdc428bceea94f9abf2dfee7d76f74a0446e3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bib2gls.jar \
+tex-bibglscommon.jar \
 tex-convertgls2bib.jar \
+tex-datatool2bib.jar \
 tex-texparserlib.jar \
 texlive-bib2gls"
 

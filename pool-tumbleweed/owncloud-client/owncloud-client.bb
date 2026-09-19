@@ -15,32 +15,49 @@ flexible and controlled architecture. You can extend ownCloud \
 with plug-ins from the community, or that you build yourself."
 LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
-PV = "4.2.0"
+PV = "6.0.3"
 
-RPM_NAME = "owncloud-client-4.2.0-1.1.aarch64.rpm"
-RPM_HASH = "1f29c8bff70155f634aeb7fa6037655955e03670e21be7e07258dbd7c3fbf4b1b890849150a660f2ca516ed28365ef5db3cba9c8f81c4e1b7cef352344b7af4d"
+RPM_NAME = "owncloud-client-6.0.3-1.6.aarch64.rpm"
+RPM_HASH = "1ddca76d14a911a366e5663c957e3695f506bcc8fb31f20fcb52bc4acf8d01cdc767d06622f40d5f9d32c4a957ce0e2834df9f0a8e1088cdb3d65f1571da7760"
 
 RPROVIDES:${PN} += "config-owncloud-client \
-owncloud-client"
+liblibsyncplugin.so \
+libowncloudGui.so \
+libowncloudGuiplugin.so \
+libowncloudResourcesplugin.so \
+owncloud-client \
+qt6qmlimport-org.ownCloud.gui \
+qt6qmlimport-org.ownCloud.gui.1 \
+qt6qmlimport-org.ownCloud.libsync \
+qt6qmlimport-org.ownCloud.libsync.1 \
+qt6qmlimport-org.ownCloud.resources \
+qt6qmlimport-org.ownCloud.resources.1"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libLibreGraphAPI.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libcloudproviders.so.0 \
-libgio-2.0.so.0 \
-libglib-2.0.so.0 \
-libgobject-2.0.so.0 \
-libm.so.6 \
-libowncloud-csync.so.0 \
-libowncloudResources.so.0 \
-libowncloudsync.so.0 \
+libkdsingleapplication-qt6.so.1.2 \
+libownCloudCsync.so.0 \
+libownCloudLibSync.so.0 \
+libownCloudResources.so.0 \
 libowncloudsync0 \
-libqt5keychain.so.1 \
-libstdc++.so.6"
+libstdc++.so.6 \
+owncloud-extensions-resources \
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.Controls \
+qt6qmlimport-QtQuick.Controls.Basic \
+qt6qmlimport-QtQuick.Layouts \
+qt6qmlimport-org.ownCloud.gui.1 \
+qt6qmlimport-org.ownCloud.libsync.1 \
+qt6qmlimport-org.ownCloud.resources.1"
 
 inherit rpm

@@ -4,10 +4,10 @@ primitive. LaTeX users should note that this is a generic \
 package, and should be loaded using \\input ."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.2svn34299"
+PV = "2026.226.2.2svn34299"
 
-RPM_NAME = "texlive-insbox-2023.209.2.2svn34299-54.1.noarch.rpm"
-RPM_HASH = "18c4002fce1b3ec21538b116fba6bf6e57eb5bc401d7344f23e75caf4744d5f192074876c94ad74563531756a289f8090c1d6ba3305d099db93bc9eafb92b066"
+RPM_NAME = "texlive-insbox-2026.226.2.2svn34299-60.2.noarch.rpm"
+RPM_HASH = "c3e51e5af574691b54491f72159bc23afaa7ec16e263947cd2e6e3af289b12ef4ed686470a5de038121021de5a8b66351bd3129c7d1dfb73f538d72eaced303e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-insbox.tex \

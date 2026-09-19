@@ -1,15 +1,18 @@
 SUMMARY = "Support for American Chemical Society journal submissions"
-DESCRIPTION = "The bundle provides the official macros (achemso.cls) and \
-BibTeX styles (achemso.bst and biochem.bst) for submission to \
-the journals of the American Chemical Society. The natmove \
-package, which moves citations relative to punctuation, is \
-distributed as part of the bundle."
+DESCRIPTION = "The bundle provides a BibTeX style file following the \
+requirements of the American Chemical Society (ACS), and a \
+package to pass settings to the BibTeX style. It also includes \
+a class which was used for submission support in the past. All \
+of this material is largely of historical interest and is \
+retained for stability. For new material, the chem-acs style is \
+available for bibliographies, and a short template for the ACS \
+website is better suited to submission."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.13fsvn65103"
+PV = "2026.226.3.14svn76790"
 
-RPM_NAME = "texlive-achemso-2023.209.3.13fsvn65103-55.1.noarch.rpm"
-RPM_HASH = "9b194e98e5c97ca45a227fb3d2eccaa57b7ea68434a78af5d3eab75afca37440f14eb1f858cc78ba4ffd548db406884b87c08d791f2aedefb8f30020eac6b68e"
+RPM_NAME = "texlive-achemso-2026.226.3.14svn76790-61.2.noarch.rpm"
+RPM_HASH = "65fb11f1c44abd82823a55d0969b272fa5b743ac4748590dc2b3ceef9bab2a8c3a6d893f82fe7b594e03627899846e701acf24fc8360b55484800e23d8c07572"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-achemso-aaembp.cfg \
@@ -44,6 +47,7 @@ tex-achemso-amrcda.cfg \
 tex-achemso-anaccx.cfg \
 tex-achemso-ancac3.cfg \
 tex-achemso-ancham.cfg \
+tex-achemso-anmafm.cfg \
 tex-achemso-aoiab5.cfg \
 tex-achemso-apcach.cfg \
 tex-achemso-apchd5.cfg \

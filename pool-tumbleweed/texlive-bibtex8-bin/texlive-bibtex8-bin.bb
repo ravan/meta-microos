@@ -2,10 +2,10 @@ SUMMARY = "Binary files of bibtex8"
 DESCRIPTION = "Binary files of bibtex8"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-bibtex8-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "56c44e110586f5b33aae63c5508e0aef51372f11267de288815a54867a019a46ca5f1a7f8940653f907d8220878953afe535fc3ea2e00298feccc84493d4ebc0"
+RPM_NAME = "texlive-bibtex8-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "7db22242e7408ed8d50e62844dbbc2ea9d9ccd4b07d10dad246c760a415503d66f67a1c487f400450d5c5ec754159ad836bbf7ae3e959efb54be864f859b754d"
 
 RPROVIDES:${PN} += "texlive-bibtex8-bin"
 

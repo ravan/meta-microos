@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.7"
 
-RPM_NAME = "libbsd-ctor-static-0.11.7-2.2.aarch64.rpm"
-RPM_HASH = "3bfe841927dc0a6d0b2ab3622f3d420ab2274a7301f204950fc02f2daee1ee85ecc4e3e04063d055b8de7f2c835f0f30be6042cbff017f97924a478e653925af"
+RPM_NAME = "libbsd-ctor-static-0.11.7-2.12.aarch64.rpm"
+RPM_HASH = "456bbe9e7ba011133200df61c5346765d58d647daa3b526c640dea3bb25cb720977d542e72359ac7c34fabdba0546d5d04f5bb40acce38fc8c0a6d5dd2bc1d95"
 
 RPROVIDES:${PN} += "libbsd-ctor-static \
 pkgconfig-libbsd-ctor"

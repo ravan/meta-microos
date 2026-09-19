@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "simple-ccsm-lang-0.8.18-2.11.noarch.rpm"
-RPM_HASH = "6d7948379a2809bcac5d490206f29ba1dddeca720fa074aa35d9e297c5066313df21126afc2d476b4e490ab2ed2123b0c80f03e7b3dbd36521c6c146fbe75664"
+RPM_NAME = "simple-ccsm-lang-0.8.18-2.21.noarch.rpm"
+RPM_HASH = "72c21e66304a9742e61c40051d632fd08014dcebb5e76c8e73ef5c31f538c3c03061ed29238bf029a349e43a8f7871095c8680eb6c69ade5fae52eb8b7c1b176"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-simple-ccsm-bg \

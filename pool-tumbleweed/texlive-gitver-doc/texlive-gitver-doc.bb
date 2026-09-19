@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gitver"
 DESCRIPTION = "This package includes the documentation for texlive-gitver"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn63920"
+PV = "2026.226.1.4svn76924"
 
-RPM_NAME = "texlive-gitver-doc-2023.209.1.4svn63920-54.2.noarch.rpm"
-RPM_HASH = "776464c8ac49276233660d0888baa632c700f8b273820e490cd4f17e2890e523faded0990dfcef9b7df03fca8de2b6b91df6977aae9049e50c707a49d2c1bb2a"
+RPM_NAME = "texlive-gitver-doc-2026.226.1.4svn76924-60.4.noarch.rpm"
+RPM_HASH = "4dac0be0b4bdd49f8b0d6159cc41661168b8b4b5188e3a6a7fb271f60b40e21602e895f9bf1fbb87146c09817fda9458390048579e741e2be6aa74e573e74de5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gitver-doc"

@@ -10,10 +10,10 @@ fails, you can just run it verbosely always, and use chronic to hide \
 the successful output."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.67"
+PV = "0.70"
 
-RPM_NAME = "chronic-0.67-2.3.noarch.rpm"
-RPM_HASH = "4c68c9553d50583eae73a1d08727179b571da8c31f55e92da1ce466c57abe2880f184a3a952236ec59cae59338417b52b73b58a9fdcf7ea4c9d155e74905f83b"
+RPM_NAME = "chronic-0.70-1.9.noarch.rpm"
+RPM_HASH = "407814bab5711c8d7301b135657dbca360ec763cb87f306134bb365b97172d15e624799bd1c631604a91522074c57ee7d322cb4d7fce6005d08925bc9ad0411b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chronic \

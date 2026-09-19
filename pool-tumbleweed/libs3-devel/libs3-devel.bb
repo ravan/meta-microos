@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "4.1.git277"
 
-RPM_NAME = "libs3-devel-4.1.git277-1.16.aarch64.rpm"
-RPM_HASH = "52ef23bbb233738cca18d8ce9628b72986457ae9b35b699a50aba342e7ac93ef32350fb0b67f509afbd5def6ad9ac0c0a1488bc4478233ed76639897e6b3154d"
+RPM_NAME = "libs3-devel-4.1.git277-1.27.aarch64.rpm"
+RPM_HASH = "3b3c32d4781af62670cc9b328dfc05fb49acb1e7b39cc88a62cc06e5145f3bfd93aab228477b1a698310f1a5d0e229d297ab639540e347f512ed5bb63b32f17b"
 
 RPROVIDES:${PN} += "libs3-devel"
 

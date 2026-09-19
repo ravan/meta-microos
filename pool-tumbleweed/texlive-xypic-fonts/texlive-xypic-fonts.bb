@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-xypic"
 DESCRIPTION = "The  separated fonts package for texlive-xypic"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.8.9svn61719"
+PV = "2026.226.3.8.9svn78101"
 
-RPM_NAME = "texlive-xypic-fonts-2023.209.3.8.9svn61719-53.2.noarch.rpm"
-RPM_HASH = "71c3d28ce485f4af270037f4cb39690a423caeed0029c7583fcba1c43e4c9761e19b2404b4b0d7efc39e307e5ce58b730c00e10afe2e5df18078520ff3fb022a"
+RPM_NAME = "texlive-xypic-fonts-2026.226.3.8.9svn78101-59.4.noarch.rpm"
+RPM_HASH = "72ced44320bef8f37ecb026c8796063235e0c198c6eacc56e794f78e7b39084474f0bce390645fa6b5c3f8578baacad4b8a28b850d28b73a6645574540777d4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-xyatip \

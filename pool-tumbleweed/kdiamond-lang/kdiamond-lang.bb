@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kdiamond"
 DESCRIPTION = "Provides translations for the 'kdiamond' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdiamond-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "69e89143db287299658f09bd13585e8d3643dfdac02900520ced0d6d0b31d3ee239b313857d1214c4d0cdc0ace34cf8e854fdcb6b1c7826e6394dc1098923dd0"
+RPM_NAME = "kdiamond-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "5b551c5db50cc143957ed682181ab73eeb08131d06fda692101a30e397b2941539ce8e99d3bbddb9bda836ef8bc97e988ef4d1f4f3bfce02b0f8d0a7f1c240de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdiamond-lang \
 kdiamond-lang-all \
 locale-kdiamond-ar \
+locale-kdiamond-ast \
 locale-kdiamond-bg \
 locale-kdiamond-bs \
 locale-kdiamond-ca \
@@ -29,9 +30,11 @@ locale-kdiamond-fr \
 locale-kdiamond-ga \
 locale-kdiamond-gl \
 locale-kdiamond-gu \
+locale-kdiamond-he \
 locale-kdiamond-hi \
 locale-kdiamond-hr \
 locale-kdiamond-hu \
+locale-kdiamond-ia \
 locale-kdiamond-id \
 locale-kdiamond-is \
 locale-kdiamond-it \

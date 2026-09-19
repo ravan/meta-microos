@@ -19,27 +19,24 @@ it handles everything else: \
     (because Tor is so slow)."
 LICENSE = "MIT"
 
-PV = "0.3.6"
+PV = "0.3.9"
 
-RPM_NAME = "torbrowser-launcher-0.3.6-1.3.noarch.rpm"
-RPM_HASH = "a4fd0f8ed0f71a869f4bcb4c4814406c24ed949eaf37d640ff7eaff14a5308c2cb9a08c445b0930a7c570006df4f3bc8f1a6c72c850b83d96f09045770d2d558"
+RPM_NAME = "torbrowser-launcher-0.3.9-1.3.noarch.rpm"
+RPM_HASH = "92243d544e70931fe523f91b1fdd66c1ef7bb5994319eb665885dc0b7de3c885be70320a3d8ae658facc1068d40f4eb1d893e4cece22f8974bcc7459d585a9cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-torbrowser-launcher \
+RPROVIDES:${PN} += "python3.13dist-torbrowser-launcher \
 python3dist-torbrowser-launcher \
 torbrowser-launcher"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 gpg2 \
 hicolor-icon-theme \
 python-abi \
-python3-Parsley \
 python3-PySocks \
-python3-distro \
 python3-gpg \
 python3-packaging \
-python3-qt5 \
-python3-requests \
-xmessage"
+python3-pyside6 \
+python3-requests"
 
 inherit rpm

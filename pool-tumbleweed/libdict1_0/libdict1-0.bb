@@ -3,10 +3,10 @@ DESCRIPTION = "libdict is a C library that provides the following data structure
 efficient insert, lookup, and delete routines."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.0.1"
+PV = "1.0.3"
 
-RPM_NAME = "libdict1_0-1.0.1-1.4.aarch64.rpm"
-RPM_HASH = "f76cf2a3dc57c66e312d5a89c4545b19a95e0e528e8a16e89a1e48b8e1ac1997e10813da36947ea49fdd957cf9b679f83d583a7208c7a68094100160df7530f9"
+RPM_NAME = "libdict1_0-1.0.3-1.11.aarch64.rpm"
+RPM_HASH = "7eadced94b426deb7ca1d12db3a3dec7898c5b5d9f3e13e4bcae6b9d3b5ca68d9e5c088fae1628b0bef37d406d86cfa2635f9b790ce3e8b3ab510f8b8cdbc644"
 
 RPROVIDES:${PN} += "libdict.so.1.0 \
 libdict1-0"

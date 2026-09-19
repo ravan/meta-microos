@@ -2,10 +2,10 @@ SUMMARY = "Utilities from xkbcommon"
 DESCRIPTION = "xkbcommon tools for introspection and debugging."
 LICENSE = "MIT"
 
-PV = "1.5.0"
+PV = "1.13.2"
 
-RPM_NAME = "libxkbcommon-tools-1.5.0-1.4.aarch64.rpm"
-RPM_HASH = "f5b2d597024e222d498dd5949892f1cde53dc55b3b86d0e77d8d499652b094bb23bd8af8584328c9af25d0949861098c410a10a966c212f57c0fc4e8769f300f"
+RPM_NAME = "libxkbcommon-tools-1.13.2-1.3.aarch64.rpm"
+RPM_HASH = "4038130b8ffafdeb0a8bcddfdf90816d311d15fe0a366edd61a668aade720ab7bed7cdbb5016c40e732c37304b5fa2fd9513c520a5acf8fa328097866924f4c7"
 
 RPROVIDES:${PN} += "libxkbcommon-tools"
 

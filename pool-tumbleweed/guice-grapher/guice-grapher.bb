@@ -3,10 +3,10 @@ DESCRIPTION = "Guice is a dependency injection framework for Java 5 \
 and above. This package provides Grapher module for Guice."
 LICENSE = "Apache-2.0"
 
-PV = "5.1.0"
+PV = "6.0.0"
 
-RPM_NAME = "guice-grapher-5.1.0-1.2.noarch.rpm"
-RPM_HASH = "5563cf610c0c6e15fb57e91e7b7567cf6ecf3b223324c63caeb1335b45b75c89de674ea675b26f5f5650efde85c1eaae6c796d76b3270de6bd422772fedd4666"
+RPM_NAME = "guice-grapher-6.0.0-3.6.noarch.rpm"
+RPM_HASH = "dc36c6e60716a77dcb81164621b701d7fce55c4c134d69fd24f7fa444ff05fc2913929981572d81dbbee29ab70130712672dbacd6d717c0e7eb3d0e3f1a5c8e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-grapher \
@@ -18,6 +18,7 @@ osgi-com.google.inject.grapher"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
+mvn-com.google.inject-guice \
 mvn-com.google.inject.extensions-guice-assistedinject"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "xlsclients is a utility for listing information about the client 
 applications running on a X11 server."
 LICENSE = "X11"
 
-PV = "1.1.5"
+PV = "1.1.6"
 
-RPM_NAME = "xlsclients-1.1.5-1.2.aarch64.rpm"
-RPM_HASH = "4c5565936ae2354cccd46ccb37a19fd2b83378dbd5e5f30390ec62bd19a0baa9198259ffaeebbb7883e67dc347b009d75a0efc616b160ecf76949b5ec3688ff3"
+RPM_NAME = "xlsclients-1.1.6-1.3.aarch64.rpm"
+RPM_HASH = "581bf7be8fc7ba51c20844a39dda934a9a308177ca70bd23dee063753a3c30620e13431207ce4f84965405fc18d19d3bcfe0006c29e7284495b27aec19d219d9"
 
 RPROVIDES:${PN} += "xlsclients"
 

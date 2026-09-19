@@ -2,10 +2,10 @@ SUMMARY = "Bar program for sway"
 DESCRIPTION = "Bar program for sway."
 LICENSE = "MIT"
 
-PV = "1.8.1"
+PV = "1.12"
 
-RPM_NAME = "swaybar-1.8.1-3.1.aarch64.rpm"
-RPM_HASH = "795d635e6abfba43b08f9188ffa7b9389e9526392d00fe8afb4e8a47ea203350092e86b3e2cb9972181aa13c09ec538c0f3ca801a134002511575397be12ce37"
+RPM_NAME = "swaybar-1.12-12.3.aarch64.rpm"
+RPM_HASH = "c118687c708a0fef4f5afbfca580a2a68e77d6b2c9fe49a9fc6c3a3b2ffcf1000c9def199ddce4e6ffd0262b007e25b8bac13281e550e3ba7b7f98c0ed96cd46"
 
 RPROVIDES:${PN} += "swaybar"
 

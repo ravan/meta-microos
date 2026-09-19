@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the API documentation and development files
 developing applications based on libxfce4util."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.18.1"
+PV = "4.20.1"
 
-RPM_NAME = "libxfce4util-devel-4.18.1-1.4.aarch64.rpm"
-RPM_HASH = "9d555616217f8f000cfbe163cfc05b725ae44b357a7d0d9344d768bae3e8a00f1e6f4f1967c94f9c640d988e83befc5367e05d25ce9824c6d1359d22ee75cee5"
+RPM_NAME = "libxfce4util-devel-4.20.1-1.5.aarch64.rpm"
+RPM_HASH = "9aa399e1daeab2b6e6848dde6b4c464e9e59d93dd8bf23c151c44c62b6ef84e4812654c10a95b1e5639068cab5e99d397a483598f919fa5d4cff6fafabeb4528"
 
 RPROVIDES:${PN} += "libxfce4util-devel \
 pkgconfig-libxfce4util-1.0"

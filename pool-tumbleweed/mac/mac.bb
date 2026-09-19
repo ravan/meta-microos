@@ -1,18 +1,20 @@
 SUMMARY = "APE codec and decompressor"
 DESCRIPTION = "Monkey’s Audio is a fast and easy way to compress digital music."
-LICENSE = "SUSE-Permissive"
+LICENSE = "BSD-3-Clause"
 
-PV = "8.92"
+PV = "10.26"
 
-RPM_NAME = "mac-8.92-1.4.aarch64.rpm"
-RPM_HASH = "5e1d7f4c9856c3e7b0b8e7d8b4c205c5b833d515bdf02d41603c8d0aca69a62be2e76c1d9b8c104e200bb077b1d17006935e8e9b3e0b29668bcd9649e22be039"
+RPM_NAME = "mac-10.26-1.11.aarch64.rpm"
+RPM_HASH = "ac240c61aaf0beed5bbf68c782164b0d15e8b789cdf772f982c882b38cd155b88108920895a695a415ad6963c46af7e13d3615126d9d393c84e0a4bd74fef1b3"
 
-RPROVIDES:${PN} += "libMAC.so.8 \
+RPROVIDES:${PN} += "libMAC.so.10 \
 mac"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
+libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

@@ -20,8 +20,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.3.4"
 
-RPM_NAME = "audio-recorder-3.3.4-1.7.aarch64.rpm"
-RPM_HASH = "72f36be635500a1ef34baf601be7db402ce2d89d6dc4b5658c7f5c5b49854b39a2dc447570b6321bbc798f549bd92bb8e1bc2dc2ebf58361da76e5265305e16c"
+RPM_NAME = "audio-recorder-3.3.4-3.5.aarch64.rpm"
+RPM_HASH = "566fcb76ad67544759dc1850efb281f40be438f6a4bf07a2aaa6d65e5cf0f98bab4f791438a1f70bd447bbb87662123f0769b8b82be8c5d278d6047adeacf203"
 
 RPROVIDES:${PN} += "audio-recorder"
 

@@ -4,21 +4,21 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.7.0"
 
-RPM_NAME = "ghc-githash-devel-0.1.7.0-1.5.aarch64.rpm"
-RPM_HASH = "8a66663d9e52ca348a5d0952047c7b62ef3e7c0fe0149357c672554ff1aa7fa1e0f430a8137d6964d2bf34016937edb08c13dcf35ac0786efcf1a9fefe9f1685"
+RPM_NAME = "ghc-githash-devel-0.1.7.0-1.34.aarch64.rpm"
+RPM_HASH = "877734091372f2800f63ee45ac174130ce26df21607759d68fe6ec0cd57642d2aefa99ce07506646dc500c52ec648873fcd59862bbf0ef92383b006396108dc9"
 
-RPROVIDES:${PN} += "ghc-devel-githash-0.1.7.0-AdGnnqehkm8HwhDMWfn4qF \
+RPROVIDES:${PN} += "ghc-devel-githash-0.1.7.0-CZogn6tBFSRH7zyPP5YHJu \
 ghc-githash-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-process-1.6.17.0 \
-ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-th-compat-0.1.4-F5a7GnDk5rxHGhOle8BcYS \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-process-1.6.26.1-905d \
+ghc-devel-template-haskell-2.23.0.0-358a \
+ghc-devel-th-compat-0.1.7-A4ZdivYymzPCDISaa5LNtp \
 ghc-githash"
 
 inherit rpm

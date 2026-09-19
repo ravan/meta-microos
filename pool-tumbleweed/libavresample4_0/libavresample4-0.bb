@@ -5,10 +5,10 @@ compatibility with libav. \
 It is advised to use libswresample for new code."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "libavresample4_0-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "73c8966d9002116c8491c37ce0db3363030fb12e4624a2a2849679902f1e958440e30b3437b6e31784f7beb34544c67ae7b21bb0a3b1132d03534ecbfc8d9030"
+RPM_NAME = "libavresample4_0-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "616acbe59b488d66c9c39d46bd1243b286067d94505dc12e8adbbeff74236de1d9cf91c9fb8a35201b28af9f480a6081a028b458b6df896b4df5501f62896696"
 
 RPROVIDES:${PN} += "libavresample.so.4.0 \
 libavresample4 \

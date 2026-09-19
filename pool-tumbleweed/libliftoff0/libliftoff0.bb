@@ -4,10 +4,10 @@ DESCRIPTION = "libliftoff offers using KMS planes from userspace. Users create \
 libliftoff will pick hardware planes for these layers if possible."
 LICENSE = "MIT"
 
-PV = "0.4.1"
+PV = "0.5.0"
 
-RPM_NAME = "libliftoff0-0.4.1-1.2.aarch64.rpm"
-RPM_HASH = "f525d41978f8bccd01f16d971aa9b85c0baa198c54b65cf5ae5d4b3f7ad3ee58cc8b2a6159d98354127209227ee46873aed708f7248e991f0729211886a9ddb0"
+RPM_NAME = "libliftoff0-0.5.0-1.9.aarch64.rpm"
+RPM_HASH = "ce0b49d1d1889b7b996c67e67212298a5c67acf9f952e5e0c1bffce0715c94d79b6b3ee961964178d370f748d09bf9b83e60818a4688106614e3fd02862705e4"
 
 RPROVIDES:${PN} += "libliftoff.so.0 \
 libliftoff0"

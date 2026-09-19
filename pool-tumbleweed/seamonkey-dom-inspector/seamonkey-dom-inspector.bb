@@ -4,10 +4,10 @@ SeaMonkey. This is of great use to people who are doing SeaMonkey \
 chrome development or web page development."
 LICENSE = "MPL-2.0"
 
-PV = "2.53.17"
+PV = "2.53.17.1"
 
-RPM_NAME = "seamonkey-dom-inspector-2.53.17-1.1.aarch64.rpm"
-RPM_HASH = "05225eb21ff83589e4587f5a167eb4f99467d5af0904994ba6c9b94f261430778c357016804d25289507537f779d05bc64ef8f7a5cae8256fe13d8bc29b5df18"
+RPM_NAME = "seamonkey-dom-inspector-2.53.17.1-4.1.aarch64.rpm"
+RPM_HASH = "da97340c5dab22057192fb2388c5c9a0db4459bdf6b007e470299d559587d8356396d6707e9f3271b7dad38a3771c3bef0a9258b7c841c28b2eb2c14feee23af"
 
 RPROVIDES:${PN} += "seamonkey-dom-inspector"
 

@@ -7,10 +7,10 @@ PostScript and PDF.) This is a complete reimplementation with \
 permission of the original author Jurgen Schlegelmilch."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1asvn56878"
+PV = "2026.226.2.1csvn77682"
 
-RPM_NAME = "texlive-leaflet-2023.209.2.1asvn56878-55.1.noarch.rpm"
-RPM_HASH = "03e1cd0219f64309a983a9525af5b5ad951728346b6f49fe6bf96c9117b3e4c244e20b5f9c82a2ac6a0daf3ced3a8d3b83c6ff0b4694fa687102afc1a4996e20"
+RPM_NAME = "texlive-leaflet-2026.226.2.1csvn77682-61.2.noarch.rpm"
+RPM_HASH = "9ff814914c599be70ff839a14d2f9f88d9d607d3a3307f3a42d5901531f89c616dd26a77fd48c16d690f4fec393ff154afd2c9c51b6d3d6f8cf08f034eeaad52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-leaflet.cls \

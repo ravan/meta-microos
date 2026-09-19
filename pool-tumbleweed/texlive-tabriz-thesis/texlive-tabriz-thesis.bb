@@ -4,10 +4,10 @@ dissertations at the University of Tabriz. The class requires \
 use of XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn51729"
+PV = "2026.227.1.1svn51729"
 
-RPM_NAME = "texlive-tabriz-thesis-2023.209.1.1svn51729-55.1.noarch.rpm"
-RPM_HASH = "796ee7f7a4a43214d9cf82bc909a4939f7482a1aab756da7b675fea338d606ca4fac319248806a636a41352a2ab8b6e9b5d85312fac4dd202ad8a4ba2a6dc16d"
+RPM_NAME = "texlive-tabriz-thesis-2026.227.1.1svn51729-62.2.noarch.rpm"
+RPM_HASH = "51b28bbe38232c45e3e5e544bae205cccff00a6cdaa0e2c7d6fabf4dc56fe4f6bbf1820d99a8fd6bab4235092b799201724a012d48d831e8587db5dfe22e659d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabriz-thesis.cls \

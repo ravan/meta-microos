@@ -4,10 +4,10 @@ DESCRIPTION = "The PAM U2F module provides a way to integrate the Yubikey \
 authentication infrastructure."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.3.0"
+PV = "1.4.0"
 
-RPM_NAME = "pam_u2f-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "c5b9fc5ba62b8dcde8d35360d86f4e4fb66791b04ff7cb0817a9c7fc2be53faa806ac528cc1eb6f6c007f2b8ad114be7c2c9395dae2c744f3b5fe5e22c7dd05e"
+RPM_NAME = "pam_u2f-1.4.0-1.5.aarch64.rpm"
+RPM_HASH = "7652e6f8b5932d8825d4aef9b28c4f54c90fe9e0c37dcd84dc01f6f6110bd3cd0902b94e291cb7400082e526721bd6d0e0b32a964a346be77d340fa31d01315d"
 
 RPROVIDES:${PN} += "pam-u2f"
 

@@ -7,14 +7,15 @@ Unicode value. Supported source encodings are: ISO-2022-JP \
 glyph set."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn52509"
+PV = "2026.226.0.0.3asvn71870"
 
-RPM_NAME = "texlive-bxjatoucs-2023.209.0.0.2svn52509-53.1.noarch.rpm"
-RPM_HASH = "d80e4e4aa368cd9bd6a790c550738f6cb72c5e8d33f8f5c4017771713726ab4d4ca36902f78f5abad6c74623190071c3fa8e615e0e5d82bd2547aa97672dae71"
+RPM_NAME = "texlive-bxjatoucs-2026.226.0.0.3asvn71870-59.2.noarch.rpm"
+RPM_HASH = "73a8b033780da65ac2b371faa726bb7ac141d4b256b64b1ad66ced1e223bb54a1d8338bcffe89f4d1b863d7ee1487cff45459611ec952e435e5f1c8c50c3e5bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxjatoucs-cid.tfm \
 tex-bxjatoucs-jis.tfm \
+tex-bxjatoucs-tojis.tfm \
 tex-bxjatoucs.sty \
 texlive-bxjatoucs"
 

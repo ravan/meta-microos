@@ -5,10 +5,10 @@ to V4l2_PIX_FMT_BGR24 or V4l2_PIX_FMT_YUV420. \
 This package contains shared lib for packages that use libv4lconvert."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.24.1"
+PV = "1.32.0"
 
-RPM_NAME = "libv4lconvert0-1.24.1-1.4.aarch64.rpm"
-RPM_HASH = "2a6acd4353b93ac0fa2a263ca54268124503d134977dc4b2158c447895d1fc64a2a47a87302445c0d01ca0d45a39f63b3790822694f08b3a5df7650647dacc98"
+RPM_NAME = "libv4lconvert0-1.32.0-2.4.aarch64.rpm"
+RPM_HASH = "499e2cdf0c4edf2e03f3b50f0803e1505fdc5e0ff663007230fb5937cd102d1b37b99bb78402eac5030eb8d1f0893f010850d57bfef7c57bfdab3df0cca1a3e0"
 
 RPROVIDES:${PN} += "libv4lconvert.so.0 \
 libv4lconvert0"

@@ -35,10 +35,10 @@ method calls. \
 A few methods have parameters that are always used for the same purpose:"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.18"
+PV = "1.180.0"
 
-RPM_NAME = "perl-Config-GitLike-1.18-1.15.noarch.rpm"
-RPM_HASH = "3bbc7817f1e1c8c6e5ae5709b1f279d5db027f19900eab9275a4298da6d9d0d249daed0125e67047564ffb61eb5e4dd311c5240c2cfd7fd7825745cb7e058806"
+RPM_NAME = "perl-Config-GitLike-1.180.0-1.7.noarch.rpm"
+RPM_HASH = "8aae9987f4bc0bafa40ff2b1d89f2fc6e01612a8cc69087fce1580b2bc314bf1ec50f01672f62a9033150a22d959a391f9f7f545a741c1de082c48d176bddca0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--GitLike \
@@ -46,7 +46,7 @@ perl-Config--GitLike--Cascaded \
 perl-Config--GitLike--Git \
 perl-Config-GitLike"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moo \
 perl-MooX--Types--MooseLike"
 

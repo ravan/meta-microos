@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-autofancyhdr"
 DESCRIPTION = "This package includes the documentation for texlive-autofancyhdr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn54049"
+PV = "2026.226.0.0.1svn54049"
 
-RPM_NAME = "texlive-autofancyhdr-doc-2023.209.0.0.1svn54049-54.1.noarch.rpm"
-RPM_HASH = "3c436ad364be0a00ef806ec39a836e3c4e7eae280e9319b03349b30cd6d53772f6ba39d5c4d4a4f7b9456318cb7063678303191917ca469ea0ecf77a22a1340d"
+RPM_NAME = "texlive-autofancyhdr-doc-2026.226.0.0.1svn54049-60.2.noarch.rpm"
+RPM_HASH = "ef80ac19bc7f247cfac679d156ecca9d20c25d9b208c53bfcd74d15bbd5504535f2233833a632c068d79add1faf011a1054b4d9ceb9efaa2d7bc1972b74aad63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-autofancyhdr-doc"

@@ -2,16 +2,17 @@ SUMMARY = "Binary files of metapost"
 DESCRIPTION = "Binary files of metapost"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn78022"
 
-RPM_NAME = "texlive-metapost-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "69f7f64e9a8d40bbaf393a86a3fda239399d0ec226fcc33367ead6b8cdb28f052e9ccb507e908803ee8bd1ced00d82db7db6cc3f421ac24754ff20f9c9f7a2c8"
+RPM_NAME = "texlive-metapost-bin-2026.20260301.svn78022-120.4.aarch64.rpm"
+RPM_HASH = "8bce3a53a927f299325636d7f522b81c97ffdc6403acf8a16ad0a4c9e217ed6e262288ddc00cbd5d05b48a77b9312c580faa1ae947deb0e310df639d7ad0d4b0"
 
 RPROVIDES:${PN} += "texlive-metapost-bin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
+libgmp.so.10 \
 libkpathsea.so.6 \
 libm.so.6 \
 libmpfr.so.6 \

@@ -5,10 +5,10 @@ DESCRIPTION = "The package defines variants \\mleft and \\mright of \\left and \
 subformulas."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn53021"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-mleftright-2023.209.1.2svn53021-55.1.noarch.rpm"
-RPM_HASH = "543371cde98066c086a94fe27167571c487a87d64849693907c0382b3c4fd5b7d83fe148464bfa80441feee830786b428fecacc9be4635dc20a0b048cb9add9d"
+RPM_NAME = "texlive-mleftright-2026.226.1.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "bbe92671520244a476c6f7c8f44074cb5fa30de80f61cb9b5691c63b152c8b8a02d69a20fd169fb0b6a932d649234acada513d971b97d5a69384f3c4943a648d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mleftright.sty \

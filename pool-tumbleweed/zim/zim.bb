@@ -9,17 +9,17 @@ task list manager, an equation editor, a tray icon, and support for \
 version control."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.75.2"
+PV = "0.77.2"
 
-RPM_NAME = "zim-0.75.2-1.1.noarch.rpm"
-RPM_HASH = "4eab7b03bce96be447292c931646322277de9a8cba0c6f33f249a09b2d2e8331033685bb59bde516ffb194fa010debdbd059417f00315f7958fa72626ad8055b"
+RPM_NAME = "zim-0.77.2-1.1.noarch.rpm"
+RPM_HASH = "44b0388fa068b00018e0d4335f8398cfe05dbbe68306a5ba456023b7f02be0f6bd4fce2c1e436b2da5bd5db4c82071708dbb56228b29c4964ea6e3597cae94bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-zim \
+RPROVIDES:${PN} += "python3.13dist-zim \
 python3dist-zim \
 zim"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-gobject-Gdk \
 python3-pyxdg \

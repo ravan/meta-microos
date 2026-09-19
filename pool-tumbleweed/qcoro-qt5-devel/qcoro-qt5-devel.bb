@@ -5,10 +5,10 @@ This package provides development headers to use QCoro in Qt based \
 applications."
 LICENSE = "MIT"
 
-PV = "0.9.0"
+PV = "0.13.0"
 
-RPM_NAME = "qcoro-qt5-devel-0.9.0-1.1.aarch64.rpm"
-RPM_HASH = "fbf334c9699e5aaf3ea27139499967a6fe767b71e631d0207c77d2031eba229b75f89623b2f69c4cdff67917ab2dc861550711c2a27e47f087866a7f0cbdf8ce"
+RPM_NAME = "qcoro-qt5-devel-0.13.0-1.2.aarch64.rpm"
+RPM_HASH = "4f2a34b3f1521d9e8301398bbbee2849eeb69c6d4f424930b04390958798dad87a7465d07648c04f5edf3172bb78c5dcac491ba5ab86ff2f8272b5efca68e80f"
 
 RPROVIDES:${PN} += "cmake-QCoro5 \
 cmake-QCoro5Core \

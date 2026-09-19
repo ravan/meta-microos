@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jsclasses"
 DESCRIPTION = "This package includes the documentation for texlive-jsclasses"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn66093"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-jsclasses-doc-2023.209.svn66093-56.1.noarch.rpm"
-RPM_HASH = "974a1352f0dabd2dd0a98da822331f390f3cfa0341b8c07416a4f9ca741cdc4feed1161fe1256c791108ecc1883ec97a1c7d6f1ac7e106628b9db6d8f9095ed5"
+RPM_NAME = "texlive-jsclasses-doc-2026.226.svn77682-63.2.noarch.rpm"
+RPM_HASH = "9a04dc1a27ff3078a5207d98170ec656b636497940ddd3959ba36ae1ce249261188cf12584e0d12641ab9c69c22e8db7a7a057dde85afa07caa57dafcadd97af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-jsclasses-doc-ja \

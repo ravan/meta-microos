@@ -4,17 +4,17 @@ Python and Gtk3 with multiple user interfaces in client/server \
 model."
 LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
-PV = "2.1.1"
+PV = "2.2.0"
 
-RPM_NAME = "deluge-2.1.1-3.6.noarch.rpm"
-RPM_HASH = "d96108744f302d3eaf270cc6e70e0c77282fae8d3f21cf823b524185312429bbc9e7b55f788a503b8894af512bcf955069548e61e24389e39b953befaa53b42d"
+RPM_NAME = "deluge-2.2.0-2.2.noarch.rpm"
+RPM_HASH = "920cda0c1b356c57b6950640039bb56278672266611d989fdf81f257187b2efcb168b2ba874eaca67444e3314e87272e905362cac816539c2558da763ea3692f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deluge \
-python3.11dist-deluge \
+python3.13dist-deluge \
 python3dist-deluge"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 python-abi \
 python3-Mako \

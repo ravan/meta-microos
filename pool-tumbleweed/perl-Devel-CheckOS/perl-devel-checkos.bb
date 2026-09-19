@@ -11,10 +11,10 @@ It spares perl the embarrassment of wearing its pants on its head by \
 covering them with a splendid Fedora."
 LICENSE = "Artistic-1.0 | GPL-2.0-only"
 
-PV = "1.96"
+PV = "2.40.0"
 
-RPM_NAME = "perl-Devel-CheckOS-1.96-1.3.noarch.rpm"
-RPM_HASH = "ecedd76247fa1a09584085a26e8be5551c9ca8120fa2e40a13f34d4e6c5d1ab118eaceb7b695a4e07d94959f3d991beb328ec37bcff387d78dc6794c15a363f4"
+RPM_NAME = "perl-Devel-CheckOS-2.40.0-1.12.noarch.rpm"
+RPM_HASH = "9f8fe21c72b3e470f5b9d8cdf0fbca766a232bda88994dc39a16775de9c694dab43a02687b06eb244ec4138c6a90228a85e6ac3ad3e8e4e406a3872ed4b6219a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--AssertOS \
@@ -42,10 +42,27 @@ perl-Devel--AssertOS--Hurd \
 perl-Devel--AssertOS--Interix \
 perl-Devel--AssertOS--Irix \
 perl-Devel--AssertOS--Linux \
+perl-Devel--AssertOS--Linux--Alma \
+perl-Devel--AssertOS--Linux--Alpine \
+perl-Devel--AssertOS--Linux--Arch \
+perl-Devel--AssertOS--Linux--Centos \
 perl-Devel--AssertOS--Linux--Debian \
 perl-Devel--AssertOS--Linux--Devuan \
+perl-Devel--AssertOS--Linux--Elementary \
+perl-Devel--AssertOS--Linux--Fedora \
+perl-Devel--AssertOS--Linux--Gentoo \
+perl-Devel--AssertOS--Linux--NixOS \
+perl-Devel--AssertOS--Linux--OpenSUSE \
+perl-Devel--AssertOS--Linux--Oracle \
+perl-Devel--AssertOS--Linux--PopOS \
+perl-Devel--AssertOS--Linux--RHEL \
 perl-Devel--AssertOS--Linux--Raspbian \
 perl-Devel--AssertOS--Linux--RealDebian \
+perl-Devel--AssertOS--Linux--Redhat \
+perl-Devel--AssertOS--Linux--Rocky \
+perl-Devel--AssertOS--Linux--SLES \
+perl-Devel--AssertOS--Linux--SUSE \
+perl-Devel--AssertOS--Linux--Slackware \
 perl-Devel--AssertOS--Linux--Ubuntu \
 perl-Devel--AssertOS--Linux--UnknownDebianLike \
 perl-Devel--AssertOS--Linux--v2-6 \
@@ -73,6 +90,7 @@ perl-Devel--AssertOS--MacOSX--v10-9 \
 perl-Devel--AssertOS--MacOSX--v11 \
 perl-Devel--AssertOS--MacOSX--v12 \
 perl-Devel--AssertOS--MacOSX--v13 \
+perl-Devel--AssertOS--MacOSX--v14 \
 perl-Devel--AssertOS--MacOSclassic \
 perl-Devel--AssertOS--MachTen \
 perl-Devel--AssertOS--MicrosoftWindows \
@@ -108,10 +126,11 @@ perl-Devel--AssertOS--VMS \
 perl-Devel--AssertOS--VOS \
 perl-Devel--AssertOS--iOS \
 perl-Devel--CheckOS \
+perl-Devel--CheckOS--Helpers--LinuxOSrelease \
 perl-Devel-CheckOS"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-File--Find--Rule \
 perl-File--Temp \
 perl-Test--More \

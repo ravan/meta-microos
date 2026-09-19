@@ -2,10 +2,10 @@ SUMMARY = "Leptonica Development Files"
 DESCRIPTION = "Development files for the Leptonica library."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.83.1"
+PV = "1.87.0"
 
-RPM_NAME = "leptonica-devel-1.83.1-1.4.aarch64.rpm"
-RPM_HASH = "629b85a71c9bad84bc51e5348b5b73f26adcce46fac4235ba7f911ea9090b90c95927945c92ee354131a3ff0d4e8f804ea85f10794905ebf9a76e7c46ec8e7d0"
+RPM_NAME = "leptonica-devel-1.87.0-1.5.aarch64.rpm"
+RPM_HASH = "2d57e101bcaadc928471cff1a6902ca7cea4e657e60a9ec976196c05b86005da08b51195e0fe915a07e25b6bc0891bbe7dae006f1d7c940bc11a5736b29ae670"
 
 RPROVIDES:${PN} += "leptonica-devel \
 liblept-devel \

@@ -1,19 +1,19 @@
 SUMMARY = "Development files for the LibBlockDev library"
-DESCRIPTION = "This package provides header files, pkg-config modules and API documentation needed for \
-development with the LibBlockDev library."
+DESCRIPTION = "This package provides header files, pkg-config modules and API documentation \
+needed for development with the LibBlockDev library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libblockdev-devel-2.28-1.6.aarch64.rpm"
-RPM_HASH = "ca813e95c825b598efbdee9d6b22c18d16275e9595333453c39d6d37bad3bfeb063205f67f4c09be4497f4ed62366cca46a2d51da4dd7e5f7e09ef42e61cbe59"
+RPM_NAME = "libblockdev-devel-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "6532b1a97f2deb3a676e1497095ffbb031ea88b0ebe8b3324d80b70cb6aef2d11ef7497bb80b9b364829dc1262ee3f1bc64d97c3d964d574f6c41c5a890f0181"
 
 RPROVIDES:${PN} += "libblockdev-devel \
 pkgconfig-blockdev"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
-libblockdev2 \
+libblockdev3 \
 pkgconfig-glib-2.0"
 
 inherit rpm

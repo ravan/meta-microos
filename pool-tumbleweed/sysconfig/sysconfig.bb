@@ -1,12 +1,13 @@
-SUMMARY = "The sysconfig scheme for traditional network scripts"
+SUMMARY = "The configuration scheme for traditional network scripts"
 DESCRIPTION = "This package provides the SUSE system configuration scheme for the \
 traditional 'ifup' alias 'netcontrol' network scripts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.90.0"
+PV = "0.90.5"
 
-RPM_NAME = "sysconfig-0.90.0-3.3.aarch64.rpm"
-RPM_HASH = "da1e8cf51041bf8182fde1a69f6d588056f6d4236c39d0cf9034838916228ec96696a33eb5d0f6d1e568c003b6da60957f71fbac4db1f8edd1a71b80d5771aa9"
+RPM_NAME = "sysconfig-0.90.5-1.2.noarch.rpm"
+RPM_HASH = "cdac10215b3905b3783ff99b60a98fd306c351421396bedee97f9f4b8e50bb5eae2926a74fefaf0faac21ae35f9f7896bb123aa1963bb637489eb1b7e2d9e15f"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-sysconfig \
 sysconfig"

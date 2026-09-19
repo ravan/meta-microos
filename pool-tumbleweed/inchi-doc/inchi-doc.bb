@@ -1,12 +1,12 @@
 SUMMARY = "Documentation for the InChI library"
 DESCRIPTION = "This package contains the user documentation for the InChI software \
 and InChI library API reference for developers."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "MIT"
 
-PV = "1.06"
+PV = "1.07.5"
 
-RPM_NAME = "inchi-doc-1.06-2.4.noarch.rpm"
-RPM_HASH = "d96611b24bfd1e3585f85c7a617dc104af804be6c7606dd4662f7ca7810efc6c2d6b5d7d137b49792e0434bc9500cedb72b8c984d1fcce73d5a0327ef1d0b5e9"
+RPM_NAME = "inchi-doc-1.07.5-1.4.noarch.rpm"
+RPM_HASH = "41f1e2dff483f60435063a5bba8a85811275057fe4c6b1ad2473e5afec080f3f9aaf85e242ff5e99a1270d7ffaa2eef7393e3b65c199e31d1daf2d4d9c16e239"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "inchi-doc"

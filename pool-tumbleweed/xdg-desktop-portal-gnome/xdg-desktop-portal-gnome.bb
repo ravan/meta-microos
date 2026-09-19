@@ -3,10 +3,10 @@ DESCRIPTION = "A backend implementation for xdg-desktop-portal for the GNOME \
 desktop environment."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.2"
+PV = "50.0"
 
-RPM_NAME = "xdg-desktop-portal-gnome-44.2-1.1.aarch64.rpm"
-RPM_HASH = "8d8db5528cbcdd952396a15d17b2a8a0968ab143627473d75e5da8ccc739c46351359c223404c10e5c7d354bdda6798080f13436d08ef305f4261d0b33ed1342"
+RPM_NAME = "xdg-desktop-portal-gnome-50.0-1.3.aarch64.rpm"
+RPM_HASH = "5c9bf395fc20e843b6a75805e5026d92e8e9665d1540b28b825f9497b598da18b4b437dabb7579e85b21fe4cc5f8b64da052f6c34bff8b896659cd511ff4ca71"
 
 RPROVIDES:${PN} += "xdg-desktop-portal-gnome"
 
@@ -23,6 +23,7 @@ libglib-2.0.so.0 \
 libgnome-bg-4.so.2 \
 libgnome-desktop-4.so.2 \
 libgobject-2.0.so.0 \
+libgraphene-1.0.so.0 \
 libgtk-4.so.1 \
 libwayland-client.so.0 \
 xdg-desktop-portal"

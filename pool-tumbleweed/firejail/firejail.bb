@@ -8,13 +8,14 @@ Firejail also expands the restricted shell facility found in bash by adding \
 Linux namespace support. It supports sandboxing specific users upon login."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.9.72"
+PV = "0.9.80"
 
-RPM_NAME = "firejail-0.9.72-1.1.aarch64.rpm"
-RPM_HASH = "2b9e8b4e47a06cb40cda0746bc5145002b0ad0950dc0626f27c2d73ac0124018b2bc520293be9d0970e7a0c4195fbb07574c8dd4c491d5f5c187241d368d52dc"
+RPM_NAME = "firejail-0.9.80-1.4.aarch64.rpm"
+RPM_HASH = "6d4bb093ea527226165345d2fae75166117cd0a73c915d49ef2936e6ab2bf60995ad3d744873c5c7b259cc806bf0adc658a82ca95fffb06e333acb7f304cf882"
 
 RPROVIDES:${PN} += "config-firejail \
 firejail \
+group-firejail \
 libpostexecseccomp.so \
 libtrace.so \
 libtracelog.so"
@@ -23,9 +24,9 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libapparmor.so.1 \
 libc.so.6 \
+libselinux.so.1 \
 permissions \
-shadow"
+sysuser-shadow"
 
 inherit rpm

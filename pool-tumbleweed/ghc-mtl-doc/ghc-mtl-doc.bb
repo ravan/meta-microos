@@ -2,10 +2,10 @@ SUMMARY = "Haskell mtl library documentation"
 DESCRIPTION = "This package provides the Haskell mtl library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.2"
+PV = "2.3.2"
 
-RPM_NAME = "ghc-mtl-doc-2.2.2-1.1.noarch.rpm"
-RPM_HASH = "d7a5e6a00c04748d71ca68b9f8268c72b3d7489c8285eddfd6d9661ca08d937e583a99910a27a96b13b7cd44fe4aefb9249b6a14a764d2ec61d41fe4b45498ed"
+RPM_NAME = "ghc-mtl-doc-2.3.2-1.3.noarch.rpm"
+RPM_HASH = "590011766cd3e611ef5c55a913ce1c2faf97b2f6a551cdb76385239cd9f8babc3a58d0356309d7c739e934e5a324da1d62d8cbcc7f95b40fa32a13ea76979a95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-mtl-doc"

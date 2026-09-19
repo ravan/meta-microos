@@ -2,10 +2,10 @@ SUMMARY = "Tools for Perseus SDR"
 DESCRIPTION = "Tools for Perseus SDR devices."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.8.1"
+PV = "0.8.2"
 
-RPM_NAME = "perseus-sdr-tools-0.8.1-1.23.aarch64.rpm"
-RPM_HASH = "acbfa3fd1d28fbcb848759c004746e3d3f8fe235e5319e990974ac39c4716ffd3ae2cf2ca2bd4d2a39cc88d057483cfa80ad442e35e626f95e0ac67fc7d7dda7"
+RPM_NAME = "perseus-sdr-tools-0.8.2-1.1.aarch64.rpm"
+RPM_HASH = "b43b08476e4d8fa0fe28a3d6b6a8f1c9f410650d4351157e508acd50a8833765becc7e4c123ce289bde4fa7a72e082431cc775a3b5761ffe81e83113b9c742ab"
 
 RPROVIDES:${PN} += "perseus-sdr-tools"
 

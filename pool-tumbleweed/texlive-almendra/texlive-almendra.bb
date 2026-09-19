@@ -7,10 +7,10 @@ are regular and bold weights with matching italics. There is \
 also a regular-weight small-caps."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64539"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-almendra-2023.209.svn64539-55.1.noarch.rpm"
-RPM_HASH = "65c7dec6713f1ad27f8be7ee51dc835670bdbea5f7032217eaca253d314007b3b84d726c56d0cc2b611c1bfdea4ba7932427447b301a7f79697cbc9f00fffad7"
+RPM_NAME = "texlive-almendra-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "d99baca57892fb0080bf2d40b950bbb1a00bfe1b86f9ffd3a0b823be11d7d0be5d6dcebf3c43c9a0e9f904fb30b302187e78eaa0541970af5585a4cdf6e5dcaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Almndr-Bold-osf-ly1--base.tfm \

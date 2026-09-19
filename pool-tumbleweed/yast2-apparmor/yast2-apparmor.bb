@@ -3,10 +3,10 @@ DESCRIPTION = "YaST2 forms and components for the management of AppArmor \
 profiles."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.2"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-apparmor-4.6.2-1.1.noarch.rpm"
-RPM_HASH = "abfc024552f303b7d1b7f3a9d0ff98156eca175398b6845a82d903672b5fa302af436b53aab9e8657e86455dc9d8f663568dadb30c69f0d5b6420eb0d5ee1b99"
+RPM_NAME = "yast2-apparmor-5.0.1-1.9.noarch.rpm"
+RPM_HASH = "b5debf49769dd22a2c29f7ad382551ca76c3b5785ac928c8120de105cd956e8d5eec5fc913fe707ac0435577fd92c822c0e8cc55f05d7d1023d05b97d087e20c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-apparmor"

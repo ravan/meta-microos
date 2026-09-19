@@ -8,10 +8,10 @@ Novell GroupWise Messenger, IBM Sametime, and Zephyr. It can \
 support many more with plugins."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.14.12"
+PV = "2.14.14"
 
-RPM_NAME = "libpurple-2.14.12-1.4.aarch64.rpm"
-RPM_HASH = "10d2e3c6db58794880f445de29f5b96946993eaeb32f5ed11d7f5a934dff9031c5fb0c7639ca8a39ab8ddd422960ae650a7733be1c85f69e253dbc105f8ba33c"
+RPM_NAME = "libpurple-2.14.14-2.3.aarch64.rpm"
+RPM_HASH = "4e5a3554b381adf6885a574ebd861e494ebbeccd99e4dfb026437ab8fc4e546b77e0329d158611677e87b48ea4affe0560fe06db72a607effa4b2950d6829d4f"
 
 RPROVIDES:${PN} += "libbonjour.so \
 libgg.so \
@@ -53,7 +53,7 @@ libpurple0 \
 libsasl2.so.3 \
 libsmime3.so \
 libssl3.so \
-libxml2.so.2 \
+libxml2.so.16 \
 perl \
 python3-dbus-python"
 

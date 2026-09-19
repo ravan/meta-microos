@@ -2,44 +2,44 @@ SUMMARY = "KDE Subversion Client"
 DESCRIPTION = "kdesvn is a GUI client for subversion repositories."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.1.0"
+PV = "2.1.0git.20260824T015138~94bd2ad8"
 
-RPM_NAME = "kdesvn-2.1.0-1.22.aarch64.rpm"
-RPM_HASH = "83c50c91670604e719fe33397e6f77fc0f834b55222e99dc15182c5ee948fbcfcae46ae924c5a79dea2a29941cf93c8fa2cddc4a61e3ca24c19c9068c91176d2"
+RPM_NAME = "kdesvn-2.1.0git.20260824T015138~94bd2ad8-1.1.aarch64.rpm"
+RPM_HASH = "7030a5ae9778ef649f7058d253c06f4d134299a2b69ad8367857e0c51cf62ead94e155fdd219347634a2a3e8cb9429d71bc6eb1f80f81196b9898a19bc933d43"
 
-RPROVIDES:${PN} += "kde4-kdesvn \
-kdesvn"
+RPROVIDES:${PN} += "kdesvn"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
-libKF5Bookmarks.so.5 \
-libKF5Codecs.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5ItemViews.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5Parts.so.5 \
-libKF5Service.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5Wallet.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Sql.so.5 \
-libQt5Sql5-sqlite \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF6Bookmarks.so.6 \
+libKF6BookmarksWidgets.so.6 \
+libKF6Codecs.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6ItemViews.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Notifications.so.6 \
+libKF6Parts.so.6 \
+libKF6Service.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6Wallet.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libapr-1.so.0 \
 libaprutil-1.so.0 \
 libc.so.6 \
@@ -51,6 +51,7 @@ libsvn-fs-1.so.0 \
 libsvn-ra-1.so.0 \
 libsvn-repos-1.so.0 \
 libsvn-subr-1.so.0 \
-libsvn-wc-1.so.0"
+libsvn-wc-1.so.0 \
+qt6-sql-sqlite"
 
 inherit rpm

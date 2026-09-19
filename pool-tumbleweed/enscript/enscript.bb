@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.6"
 
-RPM_NAME = "enscript-1.6.6-2.8.aarch64.rpm"
-RPM_HASH = "50ff00d717dd11d0b1ba50e70e8075ef378a6319666b9c78f7330cb4242686678569b653487355db9781cf299349e7591ccecf559b4aa591ad43b1ec5a2666cc"
+RPM_NAME = "enscript-1.6.6-4.6.aarch64.rpm"
+RPM_HASH = "0f01cf9b83dad58d4f6b6a4afa05612e2e4a2f903181abf39313ae2f4c8268c7db7671e710e9b3e8906d5333db29cdc0ea584d15ab1283495716738438ff1919"
 
 RPROVIDES:${PN} += "config-enscript \
 enscript \

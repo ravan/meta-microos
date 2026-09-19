@@ -12,10 +12,10 @@ This library allows to: \
 * Efficiently interface with more heavy-weight parsers like expat"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.8.2"
+PV = "0.8.4"
 
-RPM_NAME = "appstream-glib-devel-0.8.2-1.4.aarch64.rpm"
-RPM_HASH = "0b9e6b69cd75209bc238fa63fa22314b218d6606b1c9eef741affb8e8bf925feb20c89a0d89b06b49e288e0d91e56518587c91be51a0f62374c2e606c9dcc5c4"
+RPM_NAME = "appstream-glib-devel-0.8.4-1.1.aarch64.rpm"
+RPM_HASH = "d235f40b133eb9a95425ee410b64436f58e457f54919c3fae6f7e347ab1fe70be8c78fee2a8befc15cd1e2b70522c9a7b206b43745355dc6f97b5618ecb89db3"
 
 RPROVIDES:${PN} += "appdata-tools \
 appstream-glib-devel \

@@ -3,36 +3,32 @@ DESCRIPTION = "This library provides an interface atop libsolv, and a high-level
 RPM package manager library interface."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.70.2"
+PV = "0.75.0"
 
-RPM_NAME = "libdnf2-0.70.2-1.1.aarch64.rpm"
-RPM_HASH = "071c5850e21609f93c62a3a4488de16833ad34bb599c81b92c004550d6ef6a3f4c2bd84cf3999331d75f25415446b1688310a493191a8942cf8a706b7a15b095"
+RPM_NAME = "libdnf2-0.75.0-1.3.aarch64.rpm"
+RPM_HASH = "6012fb34f377e4b864f20e536139d2544967a18a54d0fec22e52616198f825f2ed74819e4898790da4dc5204aafa85bf1ae4361e246e5e3de8d22b8ccc2ce5de"
 
 RPROVIDES:${PN} += "libdnf.so.2 \
 libdnf2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libbz2.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgpgme.so.11 \
 libjson-c.so.5 \
-liblzma.so.5 \
 libmodulemd.so.2 \
 libmodulemd2 \
 librepo.so.0 \
 librepo0 \
-librpm.so.9 \
-librpmio.so.9 \
+librpm.so.10 \
+librpmio.so.10 \
 libsmartcols.so.1 \
+libsolv.so.1 \
+libsolvext.so.1 \
 libsqlite3.so.0 \
-libstdc++.so.6 \
-libxml2.so.2 \
-libz.so.1 \
-libzstd.so.1"
+libstdc++.so.6"
 
 inherit rpm

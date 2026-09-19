@@ -5,8 +5,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "3.02~a10"
 
-RPM_NAME = "libedc_ecc1_0-3.02~a10-47.4.aarch64.rpm"
-RPM_HASH = "90cd9e46b4e2ecd981b98a86eea9406a13080391b1f1033734e3dbc7d6af3b68c33ea3b56d6e430d73091d5bb8ba5e7199d96314f6ecfeb4a60d008ffb4dc6bf"
+RPM_NAME = "libedc_ecc1_0-3.02~a10-53.5.aarch64.rpm"
+RPM_HASH = "a00b6bcb5104dff2d936810d3c38fa032543740b995a8ed8264b4b3616927f5ee6df3a68cd3263a7f7f3592faab8ef966526fbf09aa91013c69d3e8af147c1b0"
 
 RPROVIDES:${PN} += "libedc-ecc.so.1.0 \
 libedc-ecc1-0"

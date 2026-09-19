@@ -4,10 +4,10 @@ Unlike other similar packages, leftindex also indents the left \
 superscript, providing much better spacing in general."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1betasvn56182"
+PV = "2026.226.0.0.2betasvn77682"
 
-RPM_NAME = "texlive-leftindex-2023.209.0.0.1betasvn56182-55.1.noarch.rpm"
-RPM_HASH = "211fde10211e3e1e1f05879105021643f05593eaffa57fdf76c181441d57c0828a182ee1ac9d43141ae479bed397f5536fd07e06299e8e07adc012e9ddc552f7"
+RPM_NAME = "texlive-leftindex-2026.226.0.0.2betasvn77682-61.2.noarch.rpm"
+RPM_HASH = "8bcd73adeba49fec845df160512b75b2fb4a6cc5d3eade7a11ff885688c2771de853853d55eee8f88ca9956402c7e3454db51037f6c40abe634898d7713d8226"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-leftindex.sty \

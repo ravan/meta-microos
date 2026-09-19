@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.8"
 
-RPM_NAME = "libairspyhf0-1.6.8-1.13.aarch64.rpm"
-RPM_HASH = "980c3b9318cbf6bde16c6ad164ece66853ad8d08c00aa4d3452906b57392dff387a66a335cfa17bd5aff1bbf9757c8d7b1319c1b61cdddf721feba974dc3eb3c"
+RPM_NAME = "libairspyhf0-1.6.8-4.7.aarch64.rpm"
+RPM_HASH = "923d2007d4c0648c368569b9de99ec8a4afd665fe673a0dee30d56d55d3c439f8567e7d14dea6c29ef5c3cf259e7233a2d1f0d8876b37f192c3a162f624dbf7f"
 
 RPROVIDES:${PN} += "libairspyhf.so.0 \
 libairspyhf0"

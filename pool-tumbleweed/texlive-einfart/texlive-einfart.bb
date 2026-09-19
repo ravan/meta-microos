@@ -11,10 +11,10 @@ word 'einfach' ('simple'), combined with the first three \
 letters of 'Artikel' ('article')."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65475"
+PV = "2026.226.svn78004"
 
-RPM_NAME = "texlive-einfart-2023.209.svn65475-54.2.noarch.rpm"
-RPM_HASH = "7ecd2dc1db4bfe110b1946aca4b83278b6b2c0822a8375011647f5b03d164234fff31b1fc67229428cc56609c7fb4e6139bb1e944f37589b599f6b6e74df9c82"
+RPM_NAME = "texlive-einfart-2026.226.svn78004-61.4.noarch.rpm"
+RPM_HASH = "08f393dd8cfafc6344f03a35bf333666c0b179472bd6c9eda3eafbd01eb427c4a8c8f11b95ceb45e9af47aa4bae1112f5bed62dbe27f40f97736e77e5a8c1727"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-einfart.cls \
@@ -46,7 +46,7 @@ tex-regexpatch.sty \
 tex-silence.sty \
 tex-tikz-cd.sty \
 tex-unicode-math.sty \
-tex-wrapfig.sty \
+tex-wrapfig2.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

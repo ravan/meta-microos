@@ -2,10 +2,10 @@ SUMMARY = "Translations for package accerciser"
 DESCRIPTION = "Provides translations for the 'accerciser' package."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.40.0"
+PV = "3.48.0"
 
-RPM_NAME = "accerciser-lang-3.40.0-1.4.noarch.rpm"
-RPM_HASH = "42b21b2915b91c0844f700ba6c20a39ff628c110ddb2584f2b4c4bc692bca2da38f33338ef376dd0a971f8ebb72e0820c32657a105025327786f40a79110cdfb"
+RPM_NAME = "accerciser-lang-3.48.0-1.4.noarch.rpm"
+RPM_HASH = "b566bf877030a80c9893ec6307a53d598202cfc616bcbcfbf236545af14a8c9deb9fde2ffcce74b709c9aba393d19068d42cf04d2f743ca09bf0653a0753c2f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "accerciser-lang \
@@ -13,6 +13,7 @@ accerciser-lang-all \
 locale-accerciser-ar \
 locale-accerciser-as \
 locale-accerciser-ast \
+locale-accerciser-az \
 locale-accerciser-be \
 locale-accerciser-bg \
 locale-accerciser-bn \
@@ -44,6 +45,7 @@ locale-accerciser-hu \
 locale-accerciser-id \
 locale-accerciser-it \
 locale-accerciser-ja \
+locale-accerciser-ka \
 locale-accerciser-kk \
 locale-accerciser-km \
 locale-accerciser-kn \

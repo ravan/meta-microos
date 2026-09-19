@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.24.3"
 
-RPM_NAME = "cri-o-kubeadm-criconfig-1.24.3-2.1.aarch64.rpm"
-RPM_HASH = "7e6ec6440e15d0dade71a92f5e670025f7555a5f4893871b76b3e72d6570260dd49f3b3ffe8f127579bbdcb6b65eff8146f00a86e729ad843950c1699ac89cd2"
+RPM_NAME = "cri-o-kubeadm-criconfig-1.24.3-2.17.aarch64.rpm"
+RPM_HASH = "a26fbfa430282eca4f7d59df9d0e83a27298290b18c9bb7e5ef208ac45ad825318c7c9f6469e6e33b6ca4becdd68b5eb1b6acc4895452b7015e75e705ebad1de"
 
 RPROVIDES:${PN} += "cri-o-kubeadm-criconfig \
 kubernetes-kubeadm-criconfig"

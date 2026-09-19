@@ -9,10 +9,10 @@ files in both compressed and uncompressed form, and the ability to query the \
 table of content's rich meta-data."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.1"
+PV = "1.8.0.0.503"
 
-RPM_NAME = "libxar1-1.6.1-7.1.aarch64.rpm"
-RPM_HASH = "37741e8fbce552d3808b6087195ea876afe57194f4b7ce77398900ecf5b5809ea9710eeb6ef3869096a1e69375a644471bbfae3f4892d6a5a6c19621922fa9ce"
+RPM_NAME = "libxar1-1.8.0.0.503-1.3.aarch64.rpm"
+RPM_HASH = "3ab2e5c01d26014357968ab7d674be99bb53d8c24d353e190fa35259e755f3cc47aeae0e06e21a01a2f4966fcdba542dd4ee7b8e8cea61d1ca68e517f8fba56f"
 
 RPROVIDES:${PN} += "libxar.so.1 \
 libxar1"
@@ -23,8 +23,7 @@ libacl.so.1 \
 libbz2.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-liblzma.so.5 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

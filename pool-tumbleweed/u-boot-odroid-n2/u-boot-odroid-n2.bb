@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the odroid-n2 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-odroid-n2-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "7ea03456ca2ce22773e9840a62ed14f4a29af93fc9ab3715b05085c4da1a577544f4ae2425e26909d3a892214b40824b9a5aa504b13105a65c10dff2643e2c1d"
+RPM_NAME = "u-boot-odroid-n2-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "a66be7cefc11b93d66c1bababa08f689455235327768bca527ac069552b0341d008c2e491f678f26aaf04a5e182503653663ef73a010ab6c036ad0b34f038848"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-odroid-n2"

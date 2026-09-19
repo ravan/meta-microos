@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-defaults-5.0-73.1.aarch64.rpm"
-RPM_HASH = "535a5c6a9a62e7710c5b52c21242e593131c33b0c40bbc82ed5d6b71a18e773f5b896a528e4ac4144b196cabf4af33f4de6e64220180c981df6b70644a22a3e1"
+RPM_NAME = "patterns-microos-defaults-5.0-111.1.aarch64.rpm"
+RPM_HASH = "620e3f1432ebbf56f935d9577d2664eadb5ac36de7fecdf31bc098761f3cbf1455f5628069f2cae49668de84e607eef29d72499cd55e0450f4a26c1eb1ece573"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -16,6 +16,6 @@ patterns-microos-defaults"
 
 RDEPENDS:${PN} += "audit \
 pattern- \
-systemd-coredump"
+sndiff"
 
 inherit rpm

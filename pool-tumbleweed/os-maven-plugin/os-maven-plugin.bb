@@ -10,10 +10,10 @@ fragmentation so that you can determine the current operating system \
 and architecture reliably."
 LICENSE = "Apache-2.0"
 
-PV = "1.7.0"
+PV = "1.7.1"
 
-RPM_NAME = "os-maven-plugin-1.7.0-3.9.noarch.rpm"
-RPM_HASH = "4df66ee5c02d35d1a2a73c605407d3d2d157b78fdf279f7bf6d774d12234c8d54fc2fda5d519099e8abb458fb8e3bb720c04184f371a05985f34ab66eb959167"
+RPM_NAME = "os-maven-plugin-1.7.1-1.7.noarch.rpm"
+RPM_HASH = "1078cd6b042b3e18dce0fe1694e036589c90d5b853695f5d55b3ef3953f45e2d34e0314bf517b6d094a3b304674390aaa343bb9e7000c2313ae6d906f8a69330"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-kr.motd.maven-os-maven-plugin \

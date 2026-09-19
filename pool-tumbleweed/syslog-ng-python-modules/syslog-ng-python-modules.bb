@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides python modules for syslog-ng, for \
 Kubernetes log enrichment, Hypr support, etc."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.3.1"
+PV = "4.12.0"
 
-RPM_NAME = "syslog-ng-python-modules-4.3.1-1.3.aarch64.rpm"
-RPM_HASH = "700c61279b19064f8a08093b04fc92cb359fa036c644ff68d22c3765c53dfbb470ce72a708469eeb96c0c65b7a5c27f6bdc0f4d36a90fcd123f6f5c4e22b46ed"
+RPM_NAME = "syslog-ng-python-modules-4.12.0-1.4.aarch64.rpm"
+RPM_HASH = "5cf5a71ddbe86b0264da36c40ae2303b5d01a9088c5ab074c463b3c4dd4134c9f10519d765696656229859bf037f496d009848306af916aedbf4ff352078a7a4"
 
 RPROVIDES:${PN} += "syslog-ng-python-modules"
 

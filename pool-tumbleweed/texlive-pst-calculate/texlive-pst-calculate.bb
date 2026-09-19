@@ -6,10 +6,10 @@ formatting the calculated number. The package also depends on \
 xkeyval and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn49817"
+PV = "2026.226.0.0.02svn77682"
 
-RPM_NAME = "texlive-pst-calculate-2023.209.0.0.02svn49817-53.1.noarch.rpm"
-RPM_HASH = "d1a00226b71d66e3b0d6b90d2dc36781779ad2c511ffa018d07307ed16c7a937ce86861e077050c5c3ea72691f77fdffce2f06629aff633f720b2073538dde9d"
+RPM_NAME = "texlive-pst-calculate-2026.226.0.0.02svn77682-59.2.noarch.rpm"
+RPM_HASH = "a9f07a068c82425c001da22ea9deb12f158a1f8ca7006266a02e36ea122724ce06f8306de6941b842a683e6deff3eaa40a8300b9b4687a6c754076550c2dc002"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-calculate.sty \

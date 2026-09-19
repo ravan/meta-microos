@@ -9,15 +9,17 @@ With this module one can use Python to write stored procedures, \
 functions, and triggers."
 LICENSE = "PostgreSQL"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "postgresql-plpython-15-2.12.noarch.rpm"
-RPM_HASH = "a15025064a4db65ff8b42a8b6d4c0344f8296422d76b689343efe09627e0686e782d42d40800c474db8a7ff84e69529922dcf5fb28dd185fdaf177d56e4ffcfc"
+RPM_NAME = "postgresql-plpython-18-3.4.noarch.rpm"
+RPM_HASH = "10cd5ba964ba48a3c56036237e3ed321bb0be074a0e765e064e5db3bb469b5e25f3bd83963dfe2eac5f79c2b5f7761a86eade99e39bfa31997d90ea03af28028"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-plpython \
 postgresql-plpython-noarch"
 
-RDEPENDS:${PN} += "postgresql-plpython-implementation"
+RDEPENDS:${PN} += "postgresql \
+postgresql-noarch \
+postgresql-plpython-implementation"
 
 inherit rpm

@@ -2,14 +2,14 @@ SUMMARY = "The system GNU Objective C Compiler"
 DESCRIPTION = "The system GNU Objective C Compiler."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13"
+PV = "16"
 
-RPM_NAME = "gcc-objc-13-1.5.aarch64.rpm"
-RPM_HASH = "1dfbf94db31f2c63970550e7fac0502ec3c8dbe5cbb8ca94665def5a12adc5f03bd591240153ebd51424d5e42b8ddf1ffefc619157b44fe38fea0c1ba1a0b01b"
+RPM_NAME = "gcc-objc-16-1.1.aarch64.rpm"
+RPM_HASH = "1204499d8a4809d37bfcb1afdd2cf233a318ff014a8d72072be73a86502a35cc3335c44f71189cc38405ab57e7ec6a3db87c2ff2ef62f381ad2a8512d8aec271"
 
 RPROVIDES:${PN} += "gcc-objc"
 
 RDEPENDS:${PN} += "gcc \
-gcc13-objc"
+gcc16-objc"
 
 inherit rpm

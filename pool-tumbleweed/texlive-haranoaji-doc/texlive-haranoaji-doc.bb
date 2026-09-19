@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-haranoaji"
 DESCRIPTION = "This package includes the documentation for texlive-haranoaji"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.20230223svn66115"
+PV = "2026.226.20250811svn76078"
 
-RPM_NAME = "texlive-haranoaji-doc-2023.209.20230223svn66115-54.2.noarch.rpm"
-RPM_HASH = "bc424f8821447859a2ac3ff650769e45b609289b68246ac157c6ca29f3c6b2654cbf428dca2d5655a6400d3c15852951dd16b4715fb5c18089deaede724dd678"
+RPM_NAME = "texlive-haranoaji-doc-2026.226.20250811svn76078-60.4.noarch.rpm"
+RPM_HASH = "27cbbac2c69beb7f4ed8cd402a770d3e23e856a6423daf26d9c2c8b7e5d4db7ca715693a9a8dad868d6277c302db99fe7e3ff51c8badfc54779bdd68ed33544b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-haranoaji-doc"

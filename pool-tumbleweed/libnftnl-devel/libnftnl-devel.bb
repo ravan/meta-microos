@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libnftnl."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.6"
+PV = "1.3.2"
 
-RPM_NAME = "libnftnl-devel-1.2.6-1.1.aarch64.rpm"
-RPM_HASH = "3b8d2e7b2a02bbb8be8236a9883c1b7719d3772d2fd03346e92f8bc6cd29e6725a422e40b7d32f5ae89c227e747979eadfe3b38035ade452ca51e9631f2836eb"
+RPM_NAME = "libnftnl-devel-1.3.2-1.1.aarch64.rpm"
+RPM_HASH = "b53762e59bf8eb360c79c2219f00f30a7b59767e8260bb378011b8625c4c3a31f5a6acda1be66529d67650a1119f86925b3e1acc24adea5a4b1a7e0ed45327c3"
 
 RPROVIDES:${PN} += "libnftnl-devel \
 pkgconfig-libnftnl"

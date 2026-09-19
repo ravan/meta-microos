@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "libgpod4-0.8.3-12.7.aarch64.rpm"
-RPM_HASH = "80554f9869fa3d33769f9f16c3ff1983cd4074b4cfa6da0706def6c5326de64691659068fc11a9da069d75c50da5cfd5ac15518e066477bd2c722f89e1bbf406"
+RPM_NAME = "libgpod4-0.8.3-16.5.aarch64.rpm"
+RPM_HASH = "22a2fbe020d7171236cb532ac742ef1d3c6964ef5e79e01d0d124f98929627887058585843ed6dba0400a1a5888c8dbdefa2caf945d1c462c19fba0a646fe48c"
 
 RPROVIDES:${PN} += "libgpod \
 libgpod.so.4 \
@@ -22,7 +22,7 @@ libgobject-2.0.so.0 \
 libimobiledevice-1.0.so.6 \
 libplist-2.0.so.4 \
 libsqlite3.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

@@ -10,10 +10,10 @@ http://rspec.info/documentation, a BDD tool for the Ruby programming \
 language."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.54"
+PV = "0.540.0"
 
-RPM_NAME = "perl-Test-Spec-0.54-1.18.noarch.rpm"
-RPM_HASH = "dba782db6b7b1d0665920f62306e4b5c2ebb9dc87c0f188a8418f82044bfcef2cf0e7b4e17a865ffcf114c7048dd1a21ee89b4bf609ccd52fef7ee6517c6569f"
+RPM_NAME = "perl-Test-Spec-0.540.0-1.7.noarch.rpm"
+RPM_HASH = "7b7885d123d5669c2e3d46151bf5a5bd01c4f7ea95347e56bcfce3243e73bce16b3efc27f5b30f7fd20b778debc68381bd316bed2be337053cc1370bb12c9936"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Spec \
@@ -28,7 +28,7 @@ perl-Test--Spec--SharedHash \
 perl-Test--Spec--TodoExample \
 perl-Test-Spec"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Devel--GlobalPhase \
 perl-Package--Stash \
 perl-TAP--Parser \

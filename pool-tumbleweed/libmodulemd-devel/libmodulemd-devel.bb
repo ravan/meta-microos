@@ -2,10 +2,10 @@ SUMMARY = "Development files for libmodulemd"
 DESCRIPTION = "This package provides files for developing applications to use libmodulemd."
 LICENSE = "MIT"
 
-PV = "2.14.0"
+PV = "2.15.2"
 
-RPM_NAME = "libmodulemd-devel-2.14.0-1.4.aarch64.rpm"
-RPM_HASH = "d24c516025bf1b5079ad315806426eb76a582672fb9652cedfb62936476439926fac028ee29be3940108770e5c7a360145d46c505b63dc516bdbbe9de9b6f96b"
+RPM_NAME = "libmodulemd-devel-2.15.2-2.3.aarch64.rpm"
+RPM_HASH = "cc149cfb038203e7ede12264a39314cd14a999ad02860418143a3ec5832ebd07e73699c2571cb32e001c514c2bc15973afe351c8218116ccaad25e653c6228c4"
 
 RPROVIDES:${PN} += "libmodulemd-devel \
 pkgconfig-modulemd-2.0"

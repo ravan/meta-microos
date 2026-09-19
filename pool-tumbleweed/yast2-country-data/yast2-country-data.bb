@@ -3,10 +3,10 @@ DESCRIPTION = "Data files for yast2-country together with the most often used AP
 functions (Language module)"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.3"
+PV = "5.0.5"
 
-RPM_NAME = "yast2-country-data-4.6.3-1.1.aarch64.rpm"
-RPM_HASH = "928a49cc62d2c7a867990b5b3d80deef159fa38628bf471a83c9bfe6754639c7f5c749d999a6fa4a68dd834ae2ef389f77c2336d6678eb2989185d024b58d48b"
+RPM_NAME = "yast2-country-data-5.0.5-1.2.aarch64.rpm"
+RPM_HASH = "bac2909536934aebeca21e92e5417e196ebd32aab137f98ff07d70512a51f77f3dec2a801c8bdaa585f58a23fa8e05c3dc92791bf82051c44c903c143dbe1841"
 
 RPROVIDES:${PN} += "yast2-country-data"
 

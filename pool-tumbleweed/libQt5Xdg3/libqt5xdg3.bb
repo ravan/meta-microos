@@ -2,13 +2,12 @@ SUMMARY = "Libraries for qtxdg"
 DESCRIPTION = "QtXDG libraries for development"
 LICENSE = "GPL-3.0-only"
 
-PV = "3.11.0"
+PV = "3.12.0"
 
-RPM_NAME = "libQt5Xdg3-3.11.0-1.3.aarch64.rpm"
-RPM_HASH = "c8ac61eefa8dcd7ba70d41b2ff83ed39bf3d8bda3ce2ca3e65323d5edb1f1049353c7f9a27e497cbda5086b63e4ec9e04b99e60d0fde9c3b808eb51a1a84019f"
+RPM_NAME = "libQt5Xdg3-3.12.0-3.12.aarch64.rpm"
+RPM_HASH = "fa7b37327385e84b6b919776208e08e9163ef9a19654653bdb4b844ee6bb651ec2b243e60691ce20b0fd7dc3959377ffc2281f039aad104aa0c9b5f9b5a7e73d"
 
-RPROVIDES:${PN} += "config-libQt5Xdg3 \
-libQt5Xdg.so.3 \
+RPROVIDES:${PN} += "libQt5Xdg.so.3 \
 libQt5Xdg3 \
 libqtxdg"
 

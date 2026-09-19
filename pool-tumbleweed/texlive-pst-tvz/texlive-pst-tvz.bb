@@ -4,10 +4,10 @@ node. It is similar to pst-tree, though it uses a different \
 placement algorithm."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn23451"
+PV = "2026.226.1.02svn77256"
 
-RPM_NAME = "texlive-pst-tvz-2023.209.1.01svn23451-54.2.noarch.rpm"
-RPM_HASH = "1e5b7e10de69c120d9d27591281051b5bacc642502484319c1e1caa5f26d91249f907521b36d07f3cb0c93fa13f095299912a879f01a768051198325a22f3ca9"
+RPM_NAME = "texlive-pst-tvz-2026.226.1.02svn77256-60.4.noarch.rpm"
+RPM_HASH = "4b1181e3e43d374577359d5c8f0bc64e311f104a33fba9aa28161f5420d85df9bcab0f4e0e9bf95973b49c420deaa043edf2ca20a6a0dbaa0fa88aa4c062f199"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-tvz.sty \

@@ -11,10 +11,10 @@ This package provides the GObject Introspection bindings for the GTK+ \
 port of the JavaScript Core engine."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.5"
+PV = "2.52.6"
 
-RPM_NAME = "typelib-1_0-JavaScriptCore-4_1-2.40.5-3.1.aarch64.rpm"
-RPM_HASH = "7ef3fe741ff8fab1317e803226db5295ef685b61e8df6c7d7667d4870e2bc4253ebb9b6df9292f833779caa2fc515e79af6a71a0e8e1df8f1c670b0c28331223"
+RPM_NAME = "typelib-1_0-JavaScriptCore-4_1-2.52.6-1.2.aarch64.rpm"
+RPM_HASH = "bea6ad555db3d3d310418455e17b9f1549e07240fea48d79f8fd25514f6d283a5c5c7e3d139176323770f55b1d0a5a39ceb0d77a737fbf9e82d8e253dd0d4424"
 
 RPROVIDES:${PN} += "typelib-1-0-JavaScriptCore-4-1 \
 typelib-JavaScriptCore"

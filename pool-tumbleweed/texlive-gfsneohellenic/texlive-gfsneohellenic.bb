@@ -8,10 +8,10 @@ cmbright fonts for mathematics support. LaTeX support of the \
 fonts is provided, offering OT1, T1 and LGR encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn63944"
+PV = "2026.226.1.02svn77682"
 
-RPM_NAME = "texlive-gfsneohellenic-2023.209.1.02svn63944-53.1.noarch.rpm"
-RPM_HASH = "e09acf5d8d7d92b81abd2bb8798c522976d3ea6cc852b1ca09358ad123efc1fa40714042a7314c3b6b43086701c4508db449ab5f19aa3b78681680b719c48927"
+RPM_NAME = "texlive-gfsneohellenic-2026.226.1.02svn77682-60.2.noarch.rpm"
+RPM_HASH = "74c49fb4e34f98f6838f2f4f2111b17d19dc1d61607f0d6a351123d8eaaa8a0173c44c9316eccc655279c2846d33acfa394aa5d509c0185dfdc35ef557762bd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gfsneohellenic.map \

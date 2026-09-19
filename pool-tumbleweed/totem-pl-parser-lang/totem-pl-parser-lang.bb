@@ -2,10 +2,10 @@ SUMMARY = "Translations for package totem-pl-parser"
 DESCRIPTION = "Provides translations for the 'totem-pl-parser' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "3.26.6"
+PV = "3.26.7"
 
-RPM_NAME = "totem-pl-parser-lang-3.26.6-2.9.noarch.rpm"
-RPM_HASH = "39283a9f9fea3934e552e7b2f73a1fddb3e81110036141e1685b74c613eb6370fcf4f2808fddf1677e3176831274de0897fa3dbd4e1851c67100bb8de7611a6f"
+RPM_NAME = "totem-pl-parser-lang-3.26.7-1.4.noarch.rpm"
+RPM_HASH = "042bfa6b8d2022aab570d95c4d783bb62c6670cd5307f5f409aca65cfb7fadda63b1df3a6dbdb8f7c1d019492e6991cca040e3254530f8ae68b83199919651cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-totem-pl-parser-af \
@@ -46,6 +46,7 @@ locale-totem-pl-parser-he \
 locale-totem-pl-parser-hi \
 locale-totem-pl-parser-hr \
 locale-totem-pl-parser-hu \
+locale-totem-pl-parser-ia \
 locale-totem-pl-parser-id \
 locale-totem-pl-parser-is \
 locale-totem-pl-parser-it \

@@ -12,14 +12,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.002005"
 
-RPM_NAME = "perl-Import-Into-1.002005-1.26.noarch.rpm"
-RPM_HASH = "f8c3ff957cdaa7bc8ed2c15bfcf9070a0a8b774f3b8d890e143dabf2e8498b50ff36fd071919eaaba86b99e440ba1eb9a5f59d9584d61ec578438531775877f6"
+RPM_NAME = "perl-Import-Into-1.002005-1.40.noarch.rpm"
+RPM_HASH = "abc81aa4830bbffdd9ba5f7488c7624283e3f57df6ebfa7dfacca630e82d1f3ae6db3defe7b270695a4fbc3f0b462938a70ee02fc4154d33a5399df7433e81b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Import--Into \
 perl-Import-Into"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Module--Runtime"
 
 inherit rpm

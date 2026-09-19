@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-lithuanian"
 DESCRIPTION = "This package includes the documentation for texlive-babel-lithuanian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn66513"
+PV = "2026.226.1.0svn66513"
 
-RPM_NAME = "texlive-babel-lithuanian-doc-2023.209.1.0svn66513-54.1.noarch.rpm"
-RPM_HASH = "d00dcad120574540dda165090ed947ba90c29392e2239064fc86ffdf129928e38463148ad43e8aa2493e09edfb7431971b7eb37bc661f9b3474c0276645ddda4"
+RPM_NAME = "texlive-babel-lithuanian-doc-2026.226.1.0svn66513-60.2.noarch.rpm"
+RPM_HASH = "b66f364972618dd7f2f8baca8dad3bb14e3a0a8c689cf214a11ac0338ec4e569a83cad6a280644e18147eef0cb94baeeb8267d287e1eeaa9bb5c99611a2f1f18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-lithuanian-doc"

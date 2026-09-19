@@ -3,12 +3,12 @@ DESCRIPTION = "Berkeley Yacc is a LALR(1) parser generator. It has been made as 
 possible with AT&T Yacc and it accepts any input specification that conforms to \
 the AT&T Yacc documentation. In contrast to bison, it is written to avoid \
 dependencies upon a particular compiler."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "20230521"
+PV = "20260126"
 
-RPM_NAME = "byacc-20230521-1.1.aarch64.rpm"
-RPM_HASH = "859a3470f2f942990a0976a1e80df7dc049f9f4f7bc516e33c62f9822d880895bf586090068e36199d4d7407e532ba77690cfbc41ebb517ee297fe66950c8482"
+RPM_NAME = "byacc-20260126-1.3.aarch64.rpm"
+RPM_HASH = "d11747ff8ff01e10263bdbec3eda315b7b7598302bd9e49cb6645930c713f37fadc3924dd79b7410dfea97aaf799691d98ccfde3e7deb666cb61d4da35f6fdba"
 
 RPROVIDES:${PN} += "byacc"
 

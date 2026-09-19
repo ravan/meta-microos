@@ -2,10 +2,10 @@ SUMMARY = "Additional tuned profiles targeted to Atomic"
 DESCRIPTION = "Additional profile(s) for the tuned daemon, targeted to Atomic host and guest."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.20.0.18+git.7b1a20b"
+PV = "2.27.0.0+git.38d4414"
 
-RPM_NAME = "tuned-profiles-atomic-2.20.0.18+git.7b1a20b-1.2.noarch.rpm"
-RPM_HASH = "05f4d13bedd0fd950690ce775c43245f9924cfc496364953db287b3addf050a648086d2be61f4df53066f2af523fb131522febb50d0bd7ee0f1e0b9a7244563b"
+RPM_NAME = "tuned-profiles-atomic-2.27.0.0+git.38d4414-1.2.noarch.rpm"
+RPM_HASH = "c97b971f66de84600eade20d7ad06b12c476335cab2e5f3924b63c910b16a510763d01679d07c8c75d70bcf964751c33e990944c267e5a8967ea952579c76c9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-profiles-atomic"

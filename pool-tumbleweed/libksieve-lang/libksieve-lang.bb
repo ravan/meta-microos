@@ -2,15 +2,16 @@ SUMMARY = "Translations for package libksieve"
 DESCRIPTION = "Provides translations for the 'libksieve' package."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libksieve-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "25a27002b81f6c59f9187eb20c19e7e6cdfaa3de8f442fbab3e5c127fe6fe58356dcacb922c3aa36a069fc5b921bfb063df4df70e5fc34f120375227d6d0496b"
+RPM_NAME = "libksieve-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "b35dee65f30b80ca7cce7a777263ab41069b155e9ab06739292a2dda20de168c3f9a262dc8c93d6c2f2caf42f397878955dedc4814b4d46fdb099e0abd35d3b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libksieve-lang \
 libksieve-lang-all \
 locale-libksieve-ar \
+locale-libksieve-ast \
 locale-libksieve-be \
 locale-libksieve-bg \
 locale-libksieve-br \
@@ -32,6 +33,7 @@ locale-libksieve-fi \
 locale-libksieve-fr \
 locale-libksieve-ga \
 locale-libksieve-gl \
+locale-libksieve-he \
 locale-libksieve-hi \
 locale-libksieve-hu \
 locale-libksieve-ia \

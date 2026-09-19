@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dinat"
 DESCRIPTION = "This package includes the documentation for texlive-dinat"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.5svn15878"
+PV = "2026.226.2.5svn76790"
 
-RPM_NAME = "texlive-dinat-doc-2023.209.2.5svn15878-53.1.noarch.rpm"
-RPM_HASH = "67f1165943a047891147a04ab06dc75de037bc54014d01eb120cfbf52d56116d19b76ab4f876aca79eebf20e2dd63e137f3d2d921ec2ddef46d82c8938569911"
+RPM_NAME = "texlive-dinat-doc-2026.226.2.5svn76790-59.2.noarch.rpm"
+RPM_HASH = "0f84ef9cb7028cd5a2aeebeafa9a22f80b50569cbafc35fc5e8add0e5deee09e062fa538eeb732f8c25725ab1f0315bb0fc1ec3f0662e27d83deccb7120fe1c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-dinat-doc-de \

@@ -9,10 +9,10 @@ and projector-style output generation, for interactive use. A \
 set of example documents is provided."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.1svn51494"
+PV = "2026.226.3.1svn51494"
 
-RPM_NAME = "texlive-songs-2023.209.3.1svn51494-58.1.noarch.rpm"
-RPM_HASH = "69f37ae084bcc316f95720a24405bb314e072c1250fb77b76f855595f2f6b251f9bed837a9746114f4820e527c89c8d7ae4da0bf57f087b691291a86c0e8382e"
+RPM_NAME = "texlive-songs-2026.226.3.1svn51494-64.2.noarch.rpm"
+RPM_HASH = "7c40e3c8a502a12acb3de41dd2cb01b1435df699dee81a96ea1b1901b357005e5e39b0a269cbaddc7b73fa0ddc0da08d09b9bfe52dd5e790fbf05defb903de90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-songs.sty \

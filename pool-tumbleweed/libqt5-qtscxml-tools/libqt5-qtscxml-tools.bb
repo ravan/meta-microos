@@ -4,10 +4,10 @@ DESCRIPTION = "Qt is a set of libraries for developing applications. \
 This package contains tools for handling Qt SCXML files."
 LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtscxml-tools-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "34c2466cb138b0e4b00de35ff43f6522744b2734ac48150fd89d1782dc97fa09ab0099a2e08abcdb3c269d2e2f0267cc8a86e2931f840cfdeda27f8e08efd373"
+RPM_NAME = "libqt5-qtscxml-tools-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "a54da7850be6e98fa1e665fcd82518ab522459b13c9551a3cba2425ffbac3175051065b316c60e9e79756457db4a8658593bc66cec931b689ff68f1e1cb154d6"
 
 RPROVIDES:${PN} += "libqt5-qtscxml-tools"
 

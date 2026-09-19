@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-augie"
 DESCRIPTION = "The  separated fonts package for texlive-augie"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn61719"
+PV = "2026.226.svn61719"
 
-RPM_NAME = "texlive-augie-fonts-2023.209.svn61719-54.1.noarch.rpm"
-RPM_HASH = "29e532e5b7d50ff66020791a4966c73197432b1aea9a9f49dd722c62d9ab85f96b943d19e894ce897d490da629688297d2091bad94bebcf41f26a09b542c18f9"
+RPM_NAME = "texlive-augie-fonts-2026.226.svn61719-60.2.noarch.rpm"
+RPM_HASH = "0fafaa79fcf3471dc4415c18e420b594ecdcfb33682399c9dbbc5a30cb44e611ea514fe8dfa04ab4cc9fbbf2c04796df73d4b89b44e26c9ace91c294baa38ef2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -40,7 +43,9 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -72,12 +77,16 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-augie \

@@ -3,10 +3,10 @@ DESCRIPTION = "The xkbcomp keymap compiler converts a description of an XKB keym
 into one of several output formats."
 LICENSE = "MIT"
 
-PV = "1.4.6"
+PV = "1.5.0"
 
-RPM_NAME = "xkbcomp-1.4.6-1.3.aarch64.rpm"
-RPM_HASH = "a33f1c7b7c817b7820701566af863452b401fb08abe559408bcec630db6a28287e00a1f99fa362b0eb300853fc996111f4406d22170624608da975d6c0da7f81"
+RPM_NAME = "xkbcomp-1.5.0-1.4.aarch64.rpm"
+RPM_HASH = "c818f66ecf4be77827137d5113f70281c6541968d659a4575eba0f957d0692ed2bfea16f1df6c7143f7ca54e3ed74e929f19cb7e0991426531e08a86b43c17c9"
 
 RPROVIDES:${PN} += "xkbcomp"
 

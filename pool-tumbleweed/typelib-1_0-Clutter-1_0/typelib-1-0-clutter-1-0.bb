@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.26.4"
 
-RPM_NAME = "typelib-1_0-Clutter-1_0-1.26.4-4.11.aarch64.rpm"
-RPM_HASH = "4a38da06b460a785ee07408cb720d8734a0557861e493d4b21310abf73de6cc9e21236bf30c8657b7927728ce9fed7eb832dfbc00cb578c2dd44fadac0f5f216"
+RPM_NAME = "typelib-1_0-Clutter-1_0-1.26.4-4.23.aarch64.rpm"
+RPM_HASH = "83b8e1783d518cd9a6ebb37f44cb77f24c7e684bfa00a5de5d0d174b7175a491d9241083e1f6b329909f66bb207c9092c379fc82f0d646354ec85340c04cec27"
 
 RPROVIDES:${PN} += "typelib-1-0-Clutter-1-0 \
 typelib-Cally \

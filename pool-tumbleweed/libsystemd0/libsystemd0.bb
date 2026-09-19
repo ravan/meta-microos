@@ -20,21 +20,16 @@ DESCRIPTION = "This library provides several of the systemd C APIs: \
   user status information on the local system."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.8"
+PV = "261.2"
 
-RPM_NAME = "libsystemd0-253.8-1.2.aarch64.rpm"
-RPM_HASH = "413f8657c4e81a85b0327da7d897cfe8c04fceb8f9a0f550e5de65a6286290070d54c7c56191fe9f58fa1859d89706b9995f08d0839483091d4b69c9e037b447"
+RPM_NAME = "libsystemd0-261.2-1.2.aarch64.rpm"
+RPM_HASH = "efd49694575e17956f8b2aa555dc65ac54190b2e850b82d350d88f347b1f4f37312ba0f585f27fc2f1aa7dbe21eaaee13c815725a46dc23ae993848a0f6e4e89"
 
 RPROVIDES:${PN} += "libsystemd.so.0 \
 libsystemd0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libc.so.6 \
-libcap.so.2 \
-libgcrypt.so.20 \
-liblz4.so.1 \
-liblzma.so.5 \
-libzstd.so.1"
+libc.so.6"
 
 inherit rpm

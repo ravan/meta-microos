@@ -2,10 +2,10 @@ SUMMARY = "CDIO plugin for the C* Music Player"
 DESCRIPTION = "This package provides CDIO support for the C* Music Player."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "cmus-plugin-cdio-2.10.0-2.1.aarch64.rpm"
-RPM_HASH = "4710ef1d72fc7e2cb16a6d3e9d5ea03630364bbb94de8deebe5bffec40db22359a8d0cb6f40fa8d37a548b14513767cd476f44c7b8233c1e2c3afb2a6642455f"
+RPM_NAME = "cmus-plugin-cdio-2.12.0-3.6.aarch64.rpm"
+RPM_HASH = "957d3a0d09e4b5c6dc76e61bfd6e0aa1f6f7c094b9933b3ca91ebfede1335d1c698d8fda1d0f68ba5152fc5175d0878ed1bfa721dc46a7937bd9ad612fc7dd2f"
 
 RPROVIDES:${PN} += "cmus-plugin-cdio"
 

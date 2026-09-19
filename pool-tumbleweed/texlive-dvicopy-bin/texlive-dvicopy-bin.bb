@@ -2,10 +2,10 @@ SUMMARY = "Binary files of dvicopy"
 DESCRIPTION = "Binary files of dvicopy"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-dvicopy-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "592c62e92617b8b4dd6daedc7cd1d27a3b28cb45070840288ac0984a177070fd3ad473645a9d112535c3befc461ebd33f358e3ac10ccf76f7b733e4357228a1d"
+RPM_NAME = "texlive-dvicopy-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "2ab8e6d8e9c2e5f0753678b9af27c19a8205345769a3530dc5f9384213c1dbe99345964c668207eb0e8a8366a18b89dca21e41e44d31b6acd8ba0a90fe04f547"
 
 RPROVIDES:${PN} += "texlive-dvicopy-bin"
 

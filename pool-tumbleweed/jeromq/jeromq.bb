@@ -2,10 +2,10 @@ SUMMARY = "Pure Java implementation of libzmq"
 DESCRIPTION = "Pure Java implementation of libzmq."
 LICENSE = "MPL-2.0+"
 
-PV = "0.5.2"
+PV = "0.5.3"
 
-RPM_NAME = "jeromq-0.5.2-2.1.noarch.rpm"
-RPM_HASH = "ae99967df21b57365a85aaf5178f1731a339ca13982dc6d4a4449cac2f28a625af941b355d71a02900cb9a2b9eb3ac06de7a86f6d98b05e49b74098cc272cf3f"
+RPM_NAME = "jeromq-0.5.3-2.4.noarch.rpm"
+RPM_HASH = "64778db37bd5c0a09688a4c5c9f4f1bf86b57cc7c2467b917ab2331a3de8fef768427bcdfb83835a028a7c0d65b666b41ec8c3b2ecd218f2ed92d260009ad49f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeromq \

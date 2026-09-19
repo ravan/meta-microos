@@ -7,8 +7,8 @@ LICENSE = "Vim"
 
 PV = "0.6+g346dae2"
 
-RPM_NAME = "vim-plugin-diffchanges-0.6+g346dae2-56.1.noarch.rpm"
-RPM_HASH = "7caac9fefc546b701a5d026aaaadab00e498eb41945b97eef912b530631b871b86ef7437bef8c39baf5d91346fe106e7ba074a4258649e0c3e0330d869750623"
+RPM_NAME = "vim-plugin-diffchanges-0.6+g346dae2-64.2.noarch.rpm"
+RPM_HASH = "697c24d6375cc8835e50019ef2f0923fec04b50ec1bf04416b4674eac55b39d48625c69e9e7cd9cf7b3455d6dd64e0071a0ec85fdf79e6177fff682cadf0a71a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-diffchanges"

@@ -14,8 +14,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20210927"
 
-RPM_NAME = "google-opensans-fonts-20210927-1.2.noarch.rpm"
-RPM_HASH = "1343b87fb18f48c3ff6ccfa4aa5038fa61d93598b3f21365acc45081e9652fa2171f6c8a680e69c85b98b284628249f80557931b71d8155ead0a856f85298b7d"
+RPM_NAME = "google-opensans-fonts-20210927-1.10.noarch.rpm"
+RPM_HASH = "8f50f73a9f77da252664907987cecf8082a730b6af926230f6266f3119135d3169e68a3f7d94685d5effe94662740eedfa9aec67cfb740c9f8b2eea412060de5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-opensans-fonts"

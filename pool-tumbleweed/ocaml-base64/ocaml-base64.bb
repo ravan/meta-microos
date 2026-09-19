@@ -4,10 +4,10 @@ that represent binary data in an ASCII string format by translating it into a \
 radix-64 representation. It is specified in RFC 4648."
 LICENSE = "ISC"
 
-PV = "3.5.1"
+PV = "3.5.2"
 
-RPM_NAME = "ocaml-base64-3.5.1-1.4.aarch64.rpm"
-RPM_HASH = "61d6149c6c96ce855627788b890c77f7fdd9bd2750e8b8d5f20841385afa21be85f3e89e75d935262e7dd7691a6b5dbed3cfde5e2ce322b0f63591f15e6d24ab"
+RPM_NAME = "ocaml-base64-3.5.2-2.1.aarch64.rpm"
+RPM_HASH = "1c0ff15e645a5fb4266d6e1c0d11ce0e95aa62433a28ba45504aba26f7eade34a53fa3b194f013bed242bf5bb7c4196dcaea745c06a6c2e0c4b5a8e5d9d6f11c"
 
 RPROVIDES:${PN} += "ocaml-base64"
 

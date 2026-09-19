@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "84.87"
 
-RPM_NAME = "brp-trim-translations-84.87-6.2.noarch.rpm"
-RPM_HASH = "02650ad15ba88bac23effd3fa005db45d62208bca25034bae0320df6c72cd5b3503a90420c48a19c981b3a719a37f43746529bda53d346532d358969a8883ae8"
+RPM_NAME = "brp-trim-translations-84.87-10.1.noarch.rpm"
+RPM_HASH = "2b404625d3f2b37a286ac408f664ffea8508edb059815b9697539accfcf7f5470ce42db3044334142c902060ae885f01ce4fca1363cc6f7ba48ab1becaea0b22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brp-trim-desktop \

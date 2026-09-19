@@ -6,10 +6,10 @@ to automatically generate an errata document highlighting the \
 difference to the published version."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn42428"
+PV = "2026.226.0.0.3svn42428"
 
-RPM_NAME = "texlive-errata-2023.209.0.0.3svn42428-54.2.noarch.rpm"
-RPM_HASH = "a046a4f5ff4d7c206efab6754eeb5bae09ac5ef7d3c388f32d228733b12019a68841eb1f5b6006fba39e55cc31a4354e078f07c12fe908f7dbc31df6959ae991"
+RPM_NAME = "texlive-errata-2026.226.0.0.3svn42428-61.4.noarch.rpm"
+RPM_HASH = "c59aee82e98e08411e25754b9acf7bd2cf0de6bdc811f944d45718f2640d0bfd212b8d7582cbd5f089f9e6948025e5319d19bddc0f8b30171a4824ff57b99fa9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-errata.sty \

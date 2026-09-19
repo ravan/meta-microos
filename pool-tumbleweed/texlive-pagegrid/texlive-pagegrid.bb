@@ -9,10 +9,10 @@ the developer from printing the page and measuring by hand. The \
 package was part of the oberdiek bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn64470"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-pagegrid-2023.209.1.6svn64470-52.1.noarch.rpm"
-RPM_HASH = "0242fa5d6f344eb1ae7a51af549569e5909a11e94f1931e72dcd4d5997c3c95dfccaa7c3304fc941fe43e6b4da9953b3a9bb8dbbb5684791f6f131f7ae040c24"
+RPM_NAME = "texlive-pagegrid-2026.226.1.6svn77682-58.2.noarch.rpm"
+RPM_HASH = "d1edcb138d0a69bad72d3dae538ec48927e3387ea4cb1f97f97cee4e8bc6d8b1e8ddcdcb0c45edd05d2e5b921b9bc1659b8a62b3c127ad4d3d5fcfddcdc5ccec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pagegrid.sty \

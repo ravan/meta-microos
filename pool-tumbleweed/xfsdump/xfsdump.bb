@@ -16,10 +16,10 @@ be layered on top of the full backup.  Single files and directory \
 subtrees may be restored from full or partial backups."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.12"
+PV = "3.2.0"
 
-RPM_NAME = "xfsdump-3.1.12-2.4.aarch64.rpm"
-RPM_HASH = "46f10bec13f7218fdcc2b1257f9ae572c53fb270a3814a6b29b665824cc8d32592bbfe1e8c61753d0b828a3117c1ed6203d8c287627f4af0512ab866f4a89004"
+RPM_NAME = "xfsdump-3.2.0-1.4.aarch64.rpm"
+RPM_HASH = "a781bf0287f4e1051322b828dd7afa89afec469f137fd10a7a933b7029724a3603e2f88e5f718c7a02cb2f37927736b4f1a2c6c9ed07ed950a56ec3a07178e9c"
 
 RPROVIDES:${PN} += "xfsdump"
 

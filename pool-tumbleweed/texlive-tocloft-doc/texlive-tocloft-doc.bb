@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tocloft"
 DESCRIPTION = "This package includes the documentation for texlive-tocloft"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3jsvn53364"
+PV = "2026.226.2.3jsvn77682"
 
-RPM_NAME = "texlive-tocloft-doc-2023.209.2.3jsvn53364-53.1.noarch.rpm"
-RPM_HASH = "b0246b92680a4a6b718312f48a9526ebd9ccd44aaf4cd2f2b1739b8658de07dd9bb75be4ecab3d5f40adeea3339dd8a998b748f4a1f654f854a7e925caab264d"
+RPM_NAME = "texlive-tocloft-doc-2026.226.2.3jsvn77682-59.2.noarch.rpm"
+RPM_HASH = "93ea402a5f4a537535e27e62f162d0f4121821c8a428a65adb0c11768e68b758671728c5971f21059f9df7121a603327716f271c54ece161e3cbad29a3579b0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tocloft-doc"

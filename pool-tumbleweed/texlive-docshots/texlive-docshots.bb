@@ -1,13 +1,13 @@
-SUMMARY = "TeX samples next to their PDF Snapshots"
+SUMMARY = "TeX samples next to their PDF snapshots"
 DESCRIPTION = "This LaTeX package helps you show TeX code next to the \
 corresponding PDF snapshots, in two-column formatting. You can \
 use it either in .dtx documentation or in .tex files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4.0svn65141"
+PV = "2026.226.0.0.4.3svn69676"
 
-RPM_NAME = "texlive-docshots-2023.209.0.0.4.0svn65141-53.1.noarch.rpm"
-RPM_HASH = "09048c8085ef4ae9ec1da4997426d4e31ccafd37c23f8e3bccfc9b09ee2d92e56d6ac0874c3d5274f8377d8e6f229b3e93ea6f01752035331121e3e6ced12fe8"
+RPM_NAME = "texlive-docshots-2026.226.0.0.4.3svn69676-59.2.noarch.rpm"
+RPM_HASH = "969cc44e47b3ddc74a4b36c36639361b7eebcc9c1bde1b2d55b2c7b5638516550dd8cab5020a6c341a060e0de6cf9a53fd4d2969161be2d004d752943f48275f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-docshots.sty \

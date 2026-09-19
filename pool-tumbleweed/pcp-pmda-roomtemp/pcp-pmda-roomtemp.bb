@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the room temperature."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-roomtemp-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "464160c2febc6bedd17ab0bb7399478bbdc7c36f5d78865669f3c6198f41cc98f8333d01fd94ee9ef7645a31833fa9f32d9fe8a5ce022b18f4b9828c5bc1db9a"
+RPM_NAME = "pcp-pmda-roomtemp-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "0b14158e949d13c3d44431d9fa3c7bfeb262e9baddb4560272c88611eea0c89afdc9b29b78016bbd471960a7045e69ca8b4097021295542db0bfcdcfcb500c55"
 
 RPROVIDES:${PN} += "pcp-pmda-roomtemp"
 

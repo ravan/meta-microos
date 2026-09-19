@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "libcmh0-1.1.1-1.5.aarch64.rpm"
-RPM_HASH = "7ea7956179e66ca1aa4d3302f3d0e76bf6d166c5b840cd28fae6606f8c9b116a9dbb47b8e502e89396a40437e2801152a0f26a384522292e542763f47539d9b0"
+RPM_NAME = "libcmh0-1.1.1-1.16.aarch64.rpm"
+RPM_HASH = "1fb210adf04ca82aaf05ef8caa7e5885c81551baaff5102be8675876c6829e133691b9eb3b1a74be4dbc4379b17684f8c75fdf19b996e3fbb30e9d159af6f67c"
 
 RPROVIDES:${PN} += "libcmh.so.0 \
 libcmh0"

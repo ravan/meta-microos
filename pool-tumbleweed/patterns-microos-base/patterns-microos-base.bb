@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-base-5.0-73.1.aarch64.rpm"
-RPM_HASH = "c76e864dc8e14982fb52107a3a4db5b12909863405e9f467419e2678d264b165fdae0670a56f058a9ded7d47bbfef4f4b81e060cb7184f1903ad3a02c467a6d4"
+RPM_NAME = "patterns-microos-base-5.0-111.1.aarch64.rpm"
+RPM_HASH = "2a69a1ee4b1b72b8fbfd78353bdef47b79b36b611fccce14970c308d0a517680b1fa70a14fa824579f7d47a7e97a217645d75d494cee592df69b894ffa90d508"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -19,17 +19,20 @@ RDEPENDS:${PN} += "/usr/bin/gzip \
 /usr/bin/hostname \
 MicroOS-release \
 NetworkManager \
+NetworkManager-bluetooth \
 NetworkManager-wifi \
 aaa-base \
 bash \
 branding-openSUSE \
 btrfsmaintenance \
 btrfsprogs \
+build-key \
 busybox \
 ca-certificates \
 ca-certificates-mozilla \
 chrony \
 coreutils \
+coreutils-systemd \
 curl \
 dosfstools \
 glibc \
@@ -39,27 +42,30 @@ health-checker \
 health-checker-plugins-MicroOS \
 iproute2 \
 iputils \
-issue-generator \
 kdump \
 lastlog2 \
 less \
 libnss-usrfiles2 \
+libtss2-tcti-device0 \
 microos-tools \
-openSUSE-build-key \
 openssh \
 pam \
 pam-config \
 pattern- \
 procps \
+read-only-root-fs \
 rebootmgr \
 rpm \
 shadow \
 snapper \
 sudo \
+sysextmgr \
 systemd \
 systemd-presets-branding-MicroOS \
 terminfo-base \
 timezone \
+tpm2-0-tss \
+tpm2.0-tools \
 user-nobody \
 util-linux \
 vim-small \

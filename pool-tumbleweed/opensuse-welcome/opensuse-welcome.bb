@@ -1,23 +1,24 @@
 SUMMARY = "Welcome utility for openSUSE"
 DESCRIPTION = "A welcome utility built to welcome new users to openSUSE."
-LICENSE = "GPL-3.0-or-later & MIT"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "0.1.9+git.35.4b9444a"
+PV = "50.0.openSUSE+git20260413.334ffbd"
 
-RPM_NAME = "opensuse-welcome-0.1.9+git.35.4b9444a-1.1.aarch64.rpm"
-RPM_HASH = "10ea0964c15db1612e8cf4e639f50aad7156f58bd0ea382e69f5ce4212f636b0550a0f7a66e20fd0d7a3521e6dcdfa4514f349bfe8815e554fca71d3c6dc1845"
+RPM_NAME = "opensuse-welcome-50.0.openSUSE+git20260413.334ffbd-1.3.aarch64.rpm"
+RPM_HASH = "d9a04dd716d7dacd749ef5d462ce7d8b400886e5569df07e8a2e2d6fab7ec04767ad55f4678b71a1ad6db46087c2383b4464e0bb957e607dc5bc9a586e2f419a"
 
 RPROVIDES:${PN} += "opensuse-welcome"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5WebEngine.so.5 \
-libQt5WebEngineCore.so.5 \
+RDEPENDS:${PN} += "gnome-tour-data \
+libadwaita-1.so.0 \
 libc.so.6 \
+libcairo.so.2 \
 libgcc-s.so.1 \
-libstdc++.so.6"
+libgdk-pixbuf-2.0.so.0 \
+libgio-2.0.so.0 \
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgtk-4.so.1 \
+libpango-1.0.so.0"
 
 inherit rpm

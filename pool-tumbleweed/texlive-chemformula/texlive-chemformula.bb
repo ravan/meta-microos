@@ -5,10 +5,10 @@ chemmacros). The package used to be distributed as a part of \
 chemmacros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.17svn61719"
+PV = "2026.226.4.17svn77682"
 
-RPM_NAME = "texlive-chemformula-2023.209.4.17svn61719-54.1.noarch.rpm"
-RPM_HASH = "fc95910e65caa7373a1d60c4b51d3749b54bfeaffddba00b6c11e51b2b3cab9a77c3f70fadec12b1abfffbcfe3b0d6e7bbb315fde46f9cd6d26afeef54a87404"
+RPM_NAME = "texlive-chemformula-2026.226.4.17svn77682-60.2.noarch.rpm"
+RPM_HASH = "c9b2548eccb88bff35364ef042c8ddbb93ab1f5d7acec5dee77d3d4ba3d924ed0c0aad459e9f1529e26662c1d06beabf5f36ade5cee6fe054c723289a0618781"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemformula.sty \

@@ -14,8 +14,8 @@ LICENSE = "CPL-1.0 & EPL-1.0"
 
 PV = "93vu"
 
-RPM_NAME = "ksh-93vu-6.3.aarch64.rpm"
-RPM_HASH = "3d6e6ebf02ee7aad16b46e1a8b4245bcc70ff9b4d2e65b8bd6c6c755cef1063044ec639490c59487cd930a0750b664998ff230551d09da37db06426e1dff34d2"
+RPM_NAME = "ksh-93vu-14.1.aarch64.rpm"
+RPM_HASH = "d22676c9733ea5567877ffcf0aa592650a86bcd9a5a3e31fbbdc297b5fc63537752200210bcecbf2102b16460ce571b5b7487ddb3ccc3efcfdb6836a772d8f90"
 
 RPROVIDES:${PN} += "ksh \
 libast.so.5 \
@@ -28,9 +28,9 @@ RDEPENDS:${PN} += "/etc/bash.bashrc \
 /usr/bin/rm \
 /usr/bin/sh \
 /usr/bin/true \
+alts \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libm.so.6 \
-update-alternatives"
+libm.so.6"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "1.0.0"
 
-RPM_NAME = "itext-parent-1.0.0-1.10.noarch.rpm"
-RPM_HASH = "2e4671e3b6174b1da587d3fa49106dc320f2ee262f0ee7a8162fd66804a70739ffb5c61a25aebcb8f36e4640c5c10f0cf26b7ccc82c5c947117e12d5116b64ef"
+RPM_NAME = "itext-parent-1.0.0-1.17.noarch.rpm"
+RPM_HASH = "78d351e180cb1fcd63298222930fda83389e84dac163652e3c32c03e3191bc577a8dc619ea43443c4f86a7cc03ff73f0f01ecd25b64c5bad43a354a5af0c3568"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "itext-parent \

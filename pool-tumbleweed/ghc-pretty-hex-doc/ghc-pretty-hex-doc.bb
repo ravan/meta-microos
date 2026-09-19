@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "ghc-pretty-hex-doc-1.1-4.3.noarch.rpm"
-RPM_HASH = "35c278326a0e00b4a29c7708806d6ddaf096eecb435fc79504ea451219ec7da40ecad48369ba808551e8ea67c7ce45c911eb0398710791de057f256f1be6e068"
+RPM_NAME = "ghc-pretty-hex-doc-1.1-4.19.noarch.rpm"
+RPM_HASH = "ad2b7e5afc96487266dba78a75e90a0a0a0785c1a124b16ce919c1e93043175a6c9e0a079f358746161b99f420e05201d76d84c016ce90aaebbe9dc8bc0567e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-pretty-hex-doc"

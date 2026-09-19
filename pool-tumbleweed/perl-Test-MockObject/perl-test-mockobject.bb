@@ -14,15 +14,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.20200122"
 
-RPM_NAME = "perl-Test-MockObject-1.20200122-1.15.noarch.rpm"
-RPM_HASH = "c8d06bbe02afce2a90efddd7e26cf532c16e8c865c7b1a67420bee4e2eb3d90a3648276f1c17f34610e5333d3772d0f11f7d4d61c72802fbfeb7f7bb217b9181"
+RPM_NAME = "perl-Test-MockObject-1.20200122-1.29.noarch.rpm"
+RPM_HASH = "aa3c3f79a47c55b121eb5ce6681d55a5ec2a4e624188ce63bdf60c55f1cbc793525d90f39af10ff592e6d09a5daa0794c901b1cfab669d69bbc5dade4335cd54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--MockObject \
 perl-Test--MockObject--Extends \
 perl-Test-MockObject"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-UNIVERSAL--can \
 perl-UNIVERSAL--isa"
 

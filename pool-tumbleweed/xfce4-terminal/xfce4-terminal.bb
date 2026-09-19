@@ -7,10 +7,10 @@ compact mode where both the menubar and the window decorations are hidden which 
 helps to save space on the desktop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.0"
+PV = "1.2.0"
 
-RPM_NAME = "xfce4-terminal-1.1.0-1.1.aarch64.rpm"
-RPM_HASH = "c04bb8a6a495466f8a247bc85af0a1bf2dd1df08a61323386510470f265fe15935d4f943e8f3a3d7a7ccbf98472427b14fac8e6cfb66513036498119e67b238e"
+RPM_NAME = "xfce4-terminal-1.2.0-1.2.aarch64.rpm"
+RPM_HASH = "76b76c4c5fff11c100016768f6db8e284069a763fc84885e4c3d13356d7fc92ae7271db45bbc8056d112ce1e9652ba31f3eb24140f0b5a97671a0fb7aeff1042"
 
 RPROVIDES:${PN} += "xfce4-terminal"
 
@@ -25,9 +25,9 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtk-layer-shell.so.0 \
 libpango-1.0.so.0 \
 libpcre2-8.so.0 \
-libutempter.so.0 \
 libvte-2.91.so.0 \
 libxfce4kbd-private-3.so.0 \
 libxfce4ui-2.so.0 \

@@ -1,12 +1,12 @@
 SUMMARY = "Multilingual Text Processing Library for the C Language"
 DESCRIPTION = "A multilingual text processing library for the C language. \
 This package contains m17n-* programs."
-LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.8.0"
+PV = "1.8.5"
 
-RPM_NAME = "m17n-lib-1.8.0-1.13.aarch64.rpm"
-RPM_HASH = "4d522a6f3cfb158b16ec2711234a264df6f25fb5a959095a1850e5cc7a6929a2b11638dacab5a82db742f5f9216cb3ee5f15208d2e1f7769c08b98ca4de3a6cb"
+RPM_NAME = "m17n-lib-1.8.5-1.6.aarch64.rpm"
+RPM_HASH = "9043a382a3d5a7ea01834d74ee9e6c3279c8441931d1b7b3cb2df16fd0a8cac6871bbb24b85a4c620cc7472977ff6f1f15c346188a41c51b4cf871c327e9dd66"
 
 RPROVIDES:${PN} += "m17n-lib"
 

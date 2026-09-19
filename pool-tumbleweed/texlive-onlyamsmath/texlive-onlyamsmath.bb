@@ -5,10 +5,10 @@ class writers who want to encourage their users to use the \
 environments provided by the amsmath package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.20svn42927"
+PV = "2026.226.0.0.20svn42927"
 
-RPM_NAME = "texlive-onlyamsmath-2023.209.0.0.20svn42927-55.1.noarch.rpm"
-RPM_HASH = "be637b9c6d656e846d4f7fa84bc75f9489a6e0ac4d593b98bf2133b83b773fdea494cdad27aef4ab95ef90ee6f5aa155d7e7b85fb4ba2fc8582a6cab64a8ba44"
+RPM_NAME = "texlive-onlyamsmath-2026.226.0.0.20svn42927-61.2.noarch.rpm"
+RPM_HASH = "25951c20dfe2886fe6d64dfeaafc9f5bdcad1e2462f296a0891257a9c8768feeba12eb8742db9474755eda630575e0f6617a8ba30d79cdbe29fd0b1be548bf54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-onlyamsmath.sty \

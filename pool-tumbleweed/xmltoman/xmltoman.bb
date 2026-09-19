@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.4"
 
-RPM_NAME = "xmltoman-0.4-2.9.noarch.rpm"
-RPM_HASH = "53fbad9b2ad93d4316a00713a53eb961dbf05003c51a9ed3a8f223833179bf557dcdce4b67df88d1ae18deeda80c9c122238f3b38896e63ed512d2e3f0e4e99e"
+RPM_NAME = "xmltoman-0.4-2.17.noarch.rpm"
+RPM_HASH = "3b4ef30bee2664c83e10bc7c3dd0de1da053d7499eb2e0b92c414d532faea9a46ced54643581daf6106f99b63eae59e85e4fb54051a9d0d42e474736a1c96b78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmltoman"

@@ -1,11 +1,11 @@
 SUMMARY = "A fast, secure, and flexible mailer"
 DESCRIPTION = "Postfix aims to be an alternative to the widely-used sendmail program."
-LICENSE = "IPL-1.0 | EPL-2.0"
+LICENSE = "EPL-2.0 | IPL-1.0"
 
-PV = "3.8.1"
+PV = "3.11.7"
 
-RPM_NAME = "postfix-3.8.1-2.1.aarch64.rpm"
-RPM_HASH = "f023c3206701aaadbde91e23ad87306ad9d3083e7aeb14ba1a01fd94491d1aafc73b9d13e58ae06c931c16331a6b0666368c682da6b25864f01d37789859234a"
+RPM_NAME = "postfix-3.11.7-1.1.aarch64.rpm"
+RPM_HASH = "990d016dc665287cdc58aeb8f8b8f7d7347f375388ed2f654ba600d9b7a739d33a9b1e7d91affe43bbca3804824efa80117b7253714c41c6948298efe5162515"
 
 RPROVIDES:${PN} += "config-postfix \
 group-maildrop \
@@ -21,22 +21,20 @@ smtp-daemon \
 user-postfix"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/cmp \
 /usr/bin/ed \
-/usr/bin/mkdir \
+/usr/bin/perl \
 /usr/bin/sh \
-/usr/bin/touch \
-fillup \
 group-mail \
 iproute2 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-libicuuc.so.73 \
-liblmdb-0.9.30.so \
+libicuuc.so.78 \
+liblmdb-0.9.35.so \
 libpcre2-8.so.0 \
 libsasl2.so.3 \
 libssl.so.3 \
-perl \
 permissions \
 sysuser-shadow \
 user-nobody"

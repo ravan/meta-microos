@@ -6,19 +6,20 @@ supported on the target platform. OpenGL core and extension \
 functionality is exposed in a single header file."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
-PV = "2.2.0"
+PV = "2.3.1"
 
-RPM_NAME = "glew-devel-2.2.0-3.11.aarch64.rpm"
-RPM_HASH = "3a685b62ac965f5fca46814bc9ec8c08b94795cf04a72a1499e3e6a40e129f1bf7734513aee8fece69a269b793e36a54dac57c67cea8d39c8c7bb0c47ce9570e"
+RPM_NAME = "glew-devel-2.3.1-1.3.aarch64.rpm"
+RPM_HASH = "ecae5d044590bc8d6d63af92e9531dc62758d531dadb1d1e143a5de2ecaa18433112814fa21d1682c8b68c4665a32b76d5cbe6223dd9d3489d81f736cda0aa63"
 
-RPROVIDES:${PN} += "glew-devel \
+RPROVIDES:${PN} += "cmake-glew \
+glew-devel \
 pkgconfig-glew"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libGLEW2-2 \
-pkgconfig-egl \
+libGLEW2-3 \
 pkgconfig-glu \
 pkgconfig-x11 \
-pkgconfig-xproto"
+pkgconfig-xau \
+pkgconfig-xcb"
 
 inherit rpm

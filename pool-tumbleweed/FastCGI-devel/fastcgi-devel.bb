@@ -4,14 +4,17 @@ provides high performance without the limitations of server specific \
 APIs."
 LICENSE = "OML"
 
-PV = "2.4.0"
+PV = "2.4.7"
 
-RPM_NAME = "FastCGI-devel-2.4.0-173.3.aarch64.rpm"
-RPM_HASH = "e6592edf75b980ca72dc93a2516093c1a7dc0fc4967a34a39b8c84af0c714724c7a6369104004ee88aa54a9eb9619b8fe104f891630a9a79c97f2b85c3bef597"
+RPM_NAME = "FastCGI-devel-2.4.7-1.7.aarch64.rpm"
+RPM_HASH = "e97eed68ff1a402af14495e27b5745cfea8375059b037e0d6faffff9de2631c879a48c34884b89bab0a050da2fb13f91ec8c161199999d96f7d9dd6dc16fa5bc"
 
-RPROVIDES:${PN} += "FastCGI-devel"
+RPROVIDES:${PN} += "FastCGI-devel \
+pkgconfig-fcgi \
+pkgconfig-fcgi++"
 
-RDEPENDS:${PN} += "glibc-devel \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+glibc-devel \
 libfcgi0"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.9.7"
 
-RPM_NAME = "biabam-0.9.7-160.10.noarch.rpm"
-RPM_HASH = "69a5bacd974b25ee9237aaa948a720a71c8f5346645665c3e268a92c87a400b7aa626c17839b9a6ab79c1a991bc883c19cbb641d252f61e75d4629bde8654d1c"
+RPM_NAME = "biabam-0.9.7-160.18.noarch.rpm"
+RPM_HASH = "d093f1e936619b6e1e5e4f979cee289e0008bfd7dad3b732988aeb0fbd547ecdca70cffa7827d24430941dcf0afe7d28dbaf8eec11ccb57479f35986d318e77e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "biabam"

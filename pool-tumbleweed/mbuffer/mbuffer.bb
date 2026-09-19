@@ -9,10 +9,10 @@ DESCRIPTION = "mbuffer is a raplacement for buffer with additional functionality
 - compatible command-line options"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230301"
+PV = "20260511"
 
-RPM_NAME = "mbuffer-20230301-1.1.aarch64.rpm"
-RPM_HASH = "2eff577780d8f9a5337a98ef942f1b4a29dbd807d80972d79e9f5b68939c9fcd3e0985b3937ab14e355fb76d170074a17a876996ab816c49af97bc4187a5f3c5"
+RPM_NAME = "mbuffer-20260511-1.3.aarch64.rpm"
+RPM_HASH = "eb0147d980e71f356c2423391fc1844f89d189a0ff8003bebe7b3c3f589a28d02dda6cb249ff2f9443739e11ab81b7d53896193b38a3673c1ffd23c649ab796c"
 
 RPROVIDES:${PN} += "mbuffer"
 

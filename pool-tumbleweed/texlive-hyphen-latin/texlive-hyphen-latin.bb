@@ -11,10 +11,10 @@ the latter being more adapted to modern Latin. Hyphenation \
 patterns for the Liturgical Latin in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1svn58652"
+PV = "2026.226.3.1svn78069"
 
-RPM_NAME = "texlive-hyphen-latin-2023.209.3.1svn58652-54.1.noarch.rpm"
-RPM_HASH = "65acfe6764eccd78a8288cebc2f12f326cbb9bffe8cf4a73476168224233d5cec134c3495017874172fe98d6c85b4fa98a7d7082bd7c6887e70567e3c9bc26dc"
+RPM_NAME = "texlive-hyphen-latin-2026.226.3.1svn78069-60.2.noarch.rpm"
+RPM_HASH = "d77636458af3c89983b70b9cbf38553e0a14046d4a44ae6027f4c9b9b0bdf94a691fa4c31976f201cc0b1ee769ea1948187e51e749b828b5045eb0070596bf9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-la-x-classic.ec.tex \

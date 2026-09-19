@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 bluetooth library"
 DESCRIPTION = "Provides access to Bluetooth hardware."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Bluetooth6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "47a20ec480a7b11b44ace81ff3cd2da73d35d5614ab7ff59e5bae835d6dcbce1959ecab79719d2cf6654dcf2cd7038f19779f939c29efa3f4f26cc80bada6b82"
+RPM_NAME = "libQt6Bluetooth6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "9755ad5bb8e25fd8748f20f2aa804bc351b628940744a4c216f47b601ff796c28a640ec8ad3da165b4d17e3d126ca26d76b06146a63dd062336dc20e29513c1b"
 
 RPROVIDES:${PN} += "libQt6Bluetooth.so.6 \
 libQt6Bluetooth6"

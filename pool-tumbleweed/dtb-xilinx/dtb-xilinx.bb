@@ -2,10 +2,10 @@ SUMMARY = "Xilinx based arm64 systems"
 DESCRIPTION = "Device Tree files for Xilinx based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "dtb-xilinx-6.4.12-1.1.aarch64.rpm"
-RPM_HASH = "1077f6876430a77ab4420fc97a80c25a24dccbfac6b71601f8c0653611180b20bce7678bb19f0111ba25c2a8ad7c9c33243b5ee9f48eb85fe041eb860c31c187"
+RPM_NAME = "dtb-xilinx-7.2.5-1.1.aarch64.rpm"
+RPM_HASH = "4f72337e74f67131da02aedb6c5412c987419ec34227c2be287998260ea152a271718468c2b55f9467968378914a6099ef55cee0600145071b0625331fd9a133"
 
 RPROVIDES:${PN} += "dtb-xilinx \
 multiversion-dtb"

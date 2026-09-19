@@ -3,17 +3,22 @@ DESCRIPTION = "This package provides the shared library for Mark Hessling's impl
 of the REXX Interpreter."
 LICENSE = "GFDL-1.1-only & LGPL-2.1-or-later"
 
-PV = "3.9.1"
+PV = "3.9.7"
 
-RPM_NAME = "libregina3-3.9.1-6.10.aarch64.rpm"
-RPM_HASH = "dad1cde4553c5a1a06aa9a5bc7dfe04777990a8ce949d75a47f365a974239d47c952013cf66fd99768c71eb74934a8dc9e9f8152baf9ca315caed18af83e8298"
+RPM_NAME = "libregina3-3.9.7-1.1.aarch64.rpm"
+RPM_HASH = "36d797f9e72d18aa3c9756b2b9b6679f4ab1fc9bc097cb9dd88793b9d7c6bfee101c39a157ca80eedd7b8baf11dffacaac09089a34a4ab7f4b55622c7583fc83"
 
 RPROVIDES:${PN} += "libregina.so.3 \
-libregina3"
+libregina3 \
+libregutil.so \
+librxtest1.so \
+librxtest2.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcrypt.so.1"
+libcrypt.so.1 \
+libm.so.6 \
+libtinfo.so.6"
 
 inherit rpm

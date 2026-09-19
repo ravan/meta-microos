@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fc"
 DESCRIPTION = "This package includes the documentation for texlive-fc"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.4svn32796"
+PV = "2026.226.1.4svn32796"
 
-RPM_NAME = "texlive-fc-doc-2023.209.1.4svn32796-53.1.noarch.rpm"
-RPM_HASH = "62d882ac8e996e7589dd561157f2949c7e989420ae018a6571be1864ddf9ac893322f28bf3a8b2a4bbacb32b9ae4d774698ea19c12f6f65262a72e767d713a66"
+RPM_NAME = "texlive-fc-doc-2026.226.1.4svn32796-59.2.noarch.rpm"
+RPM_HASH = "7183d2133a330973056a05f51a009f439fc8904a8c6811b8f627816fc73cc89da29cac2d6342f35abc05596ff4c1a1834f75f5d8c300f6afe39a92e288ec63aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fc-doc"

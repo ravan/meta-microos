@@ -4,12 +4,12 @@ TCP/UDP/IPv4/IPv6 network stacks, from the system call layer down to the \
 NIC hardware. packetdrill currently works on Linux, FreeBSD, OpenBSD, and \
 NetBSD. It can test network stack behavior over physical NICs on a LAN, or \
 on a single machine using a tun virtual network device."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "2.0+git.20230521"
+PV = "2.0+git.20260514"
 
-RPM_NAME = "packetdrill-2.0+git.20230521-1.1.aarch64.rpm"
-RPM_HASH = "968e7847cf4097d83a429274d0eef9cd54e74f8c2cdcfad41935d98735271e6ee6b150ee9cf5bb711c3cca0f45e76d2ea0c2944cc864f1dca22e7892c06a5b67"
+RPM_NAME = "packetdrill-2.0+git.20260514-2.2.aarch64.rpm"
+RPM_HASH = "61607ffa83e3ee38e09a0a8d1c7e7fd22ce28d841532bb9bb951eb2f97a33c3d79a092524ac196f638022d9c8a63667de58634341869c2d9dbe6e87ea605d53d"
 
 RPROVIDES:${PN} += "packetdrill"
 

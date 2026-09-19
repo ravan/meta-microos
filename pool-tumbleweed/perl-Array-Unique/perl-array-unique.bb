@@ -14,10 +14,10 @@ case sensitive. \
 As a side effect the module does not allow undef as a value in the array."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.09"
+PV = "0.90.0"
 
-RPM_NAME = "perl-Array-Unique-0.09-1.3.noarch.rpm"
-RPM_HASH = "bea5ef7cc1078fa635be620b9567c82bf0fc8d91cb069d44f691435abaab1ab54dbb291f2154dc3053306b2aca87fa380b3305f9a5841bd75dd6b737b1dcde2d"
+RPM_NAME = "perl-Array-Unique-0.90.0-1.7.noarch.rpm"
+RPM_HASH = "1d5059af4ac64396c7c6840311c1918ae3e071160362cf67ecadd5ebfd975b0fa892c7f780de45ec23b375c3514b1658e2b8dc1812050e5750634c5c53f4e189"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Array--Unique \
@@ -27,6 +27,6 @@ perl-Array--Unique--Quick \
 perl-Array--Unique--Std \
 perl-Array-Unique"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

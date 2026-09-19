@@ -3,10 +3,10 @@ DESCRIPTION = "The libimobiledevice-devel package contains libraries and header 
 developing applications that use libimobiledevice."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.0+190git.20230705"
+PV = "1.4.0+0git.20251010"
 
-RPM_NAME = "libimobiledevice-devel-1.3.0+190git.20230705-1.1.aarch64.rpm"
-RPM_HASH = "0af579425b5858f993ee524b1d5d6c211dfa8fd52767481e670639815e5f7b8e1971fe8251d412d9bd5b7e85e285b4c29596c5c0a77fdcf67f8cd234d108b326"
+RPM_NAME = "libimobiledevice-devel-1.4.0+0git.20251010-1.6.aarch64.rpm"
+RPM_HASH = "e7d9ff82805e1b476fd9ecc41072403ca8bb010ef5beca39ccb70f1d2cc97f5b118d6566148f3117ec215df49bc2c59e4495a726b64f86dacf8a1793367d9cec"
 
 RPROVIDES:${PN} += "libimobiledevice-devel \
 pkgconfig-libimobiledevice-1.0"

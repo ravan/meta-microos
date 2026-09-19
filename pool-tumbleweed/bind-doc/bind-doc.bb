@@ -4,10 +4,10 @@ System implementation of the Domain Name System (DNS) protocols.  This \
 includes also the BIND Administrator Reference Manual (ARM)."
 LICENSE = "MPL-2.0"
 
-PV = "9.18.18"
+PV = "9.20.26"
 
-RPM_NAME = "bind-doc-9.18.18-1.1.noarch.rpm"
-RPM_HASH = "32f62839c445741917c011d8b5bc8f837e1602bc9445b08c32c56837eb7ac93485228cd464f08a203652c0cdf9af90bff0ca9cc4ee16c060a049ab02f61e3e50"
+RPM_NAME = "bind-doc-9.20.26-1.2.noarch.rpm"
+RPM_HASH = "308937c072b4d611c6a4215ac942515373a923e6f2f91ca0cfd471172bbed15d11a55bba086d52e38aeb24c849e1e7acb020cb2b215b6bef1bbac65b4ef9f049"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bind-doc"

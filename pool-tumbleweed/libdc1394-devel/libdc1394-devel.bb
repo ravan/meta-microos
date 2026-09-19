@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.2.7"
 
-RPM_NAME = "libdc1394-devel-2.2.7-1.1.aarch64.rpm"
-RPM_HASH = "66c8b0a0b34bdd6e2c0bb30806d6ff07ba9e4c38dd39a6a020578116defc5c06ff705c5493347d71b3e5b7e40e753762d585a378a0e661f550262dec275a0a32"
+RPM_NAME = "libdc1394-devel-2.2.7-2.9.aarch64.rpm"
+RPM_HASH = "00b7e1146804f8333f56cf8104d4e06c7e98c98041ad3d7860a81615e50ab519df1366b8d6e52854f59aea14d20f05b62fcae9dff947973a32a52acc52c7ceef"
 
 RPROVIDES:${PN} += "libdc1394-devel \
 pkgconfig-libdc1394-2"

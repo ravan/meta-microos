@@ -2,10 +2,11 @@ SUMMARY = "Man pages for the libpmem C API"
 DESCRIPTION = "Documentation for the pmem library interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "2.1.1"
 
-RPM_NAME = "pmdk-devel-doc-1.11.1-1.9.aarch64.rpm"
-RPM_HASH = "cc6c7d7551c3a2acdcb111d9813514c04b3a28176c552118e3f66ff396757ad74df31a8adde6f3e48c682d605d0f0335093e590c4e9e3c51b4bbe40182666952"
+RPM_NAME = "pmdk-devel-doc-2.1.1-1.5.noarch.rpm"
+RPM_HASH = "0bc437757b9905221bad1aa295941d99b1744c504a35b14ff97448c521784221ebc2cfe0c858c00b1ac8f29ef89387a175013c156c32f6cd8912c66d9e2af95d"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pmdk-devel-doc"
 

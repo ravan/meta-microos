@@ -7,10 +7,10 @@ Specifications and Hefei University of Technology Undergraduate \
 Graduation Project (Thesis) Work Implementation Rules."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.4svn64025"
+PV = "2026.226.1.0.4svn64025"
 
-RPM_NAME = "texlive-hfutthesis-2023.209.1.0.4svn64025-54.2.noarch.rpm"
-RPM_HASH = "cded3f69e16c1e22a9423eea98b1d3d551bee2c8d52bca1b74bf56acd4c22e6ee646d02a19e9485512e4f3da12ffb09556d8a3fb25cee6e116b4fc24842858cb"
+RPM_NAME = "texlive-hfutthesis-2026.226.1.0.4svn64025-60.4.noarch.rpm"
+RPM_HASH = "7cfe415cdab37c93833003e7901f2a2b7e6074cfa6452d2f7b78feba31f58e40aed98bf276519a19ba4c31491ef85da328f36b3d947bd15cbc56a25b7da38cd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hfutthesis.cls \

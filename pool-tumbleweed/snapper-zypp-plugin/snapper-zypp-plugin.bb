@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a plugin for zypp that makes filesystem sna
 snapper during commits."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.10.5"
+PV = "0.13.1"
 
-RPM_NAME = "snapper-zypp-plugin-0.10.5-2.1.aarch64.rpm"
-RPM_HASH = "4813200f147b59d9057181c4934be2322d514295fc2be85c0cdef19a746e233ad909a40eec9c79d9f48cd54853580c1fc98a9727f60db40b4df6cbba3e0091e3"
+RPM_NAME = "snapper-zypp-plugin-0.13.1-3.3.aarch64.rpm"
+RPM_HASH = "8e93d9fec06c64fd0f2bd23cfab8245d764e48774810c71dcb6570b8079c8319734f9a2b416422d7b3d5b7765905cb04f40875f6779aa2f4ed0c01140338d532"
 
 RPROVIDES:${PN} += "snapper-zypp-plugin"
 
@@ -16,9 +16,9 @@ libc.so.6 \
 libdbus-1.so.3 \
 libgcc-s.so.1 \
 libjson-c.so.5 \
-libsnapper.so.7 \
+libsnapper.so.8 \
 libstdc++.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 libzypp-plugin-commit \
 snapper"
 

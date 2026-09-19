@@ -2,10 +2,10 @@ SUMMARY = "Xfconf Shared Library"
 DESCRIPTION = "This package contains the xfconf shared library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.1"
+PV = "4.20.0"
 
-RPM_NAME = "libxfconf-0-3-4.18.1-1.1.aarch64.rpm"
-RPM_HASH = "bed7b26fa97e1dced9f03ca5ef06121aaed14a1c840a6309b4604833352f0b3c1966a5b86a9bdfd0327c17d49425cd59b279e5a5d0155a4bad83becc26b4fa2b"
+RPM_NAME = "libxfconf-0-3-4.20.0-1.9.aarch64.rpm"
+RPM_HASH = "38e22f045af85dd33d12bdf66dc091e777cf0bd9fe89486448d203e1b1f68d30b3bf978bfce5efc93b7c04df9e688ec30e800b5e2ac85480cad25e5a56d4b2ae"
 
 RPROVIDES:${PN} += "libxfce4mcs \
 libxfconf-0-3 \

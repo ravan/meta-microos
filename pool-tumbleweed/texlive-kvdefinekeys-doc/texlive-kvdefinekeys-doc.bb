@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kvdefinekeys"
 DESCRIPTION = "This package includes the documentation for texlive-kvdefinekeys"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn53193"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-kvdefinekeys-doc-2023.209.1.6svn53193-56.1.noarch.rpm"
-RPM_HASH = "6418270cd3874c06050cd7c22d7cd78c3e2d9eb28075ed50cacc7d6a6cedbaafd4f08390e34aa8c2a33b8327e889a83510edc1f490a0a4dc731d92ea9e71f59f"
+RPM_NAME = "texlive-kvdefinekeys-doc-2026.226.1.6svn77682-63.2.noarch.rpm"
+RPM_HASH = "f3fbb82d7ef2c197f22ad88257ac5f3319b43c19841a170c6e0105cef3355d3b1e71ff8d5648af8e6bebe14e1fef20f80c5c35be0256134c1be0567238f7692e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kvdefinekeys-doc"

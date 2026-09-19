@@ -15,18 +15,18 @@ Features are: \
 * a (Fast)CGI web interface (requires HTTP server)"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "10.1.0"
+PV = "10.5.0"
 
-RPM_NAME = "python3-linkchecker-10.1.0-1.2.noarch.rpm"
-RPM_HASH = "bfb2bfc96ce460d2dce4104aa3223699896028a45bc8734705e365ff2b79c9f70a0a5fb24e00d9983be14b87af2d78ce1fda3ca766f5bb3cdf02447d9219eac0"
+RPM_NAME = "python3-linkchecker-10.5.0-2.5.noarch.rpm"
+RPM_HASH = "20b65f8be5e4562db6269954fbff3cf3daf9cb39c3277d701196b90a435a7796da56eb70f7ff142ac9cf14b4eb252e58b130d7ac2383432e9a8b2514ade152c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "linkchecker \
 python3-linkchecker \
-python3.11dist-linkchecker \
+python3.13dist-linkchecker \
 python3dist-linkchecker"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 python-abi \
 python3-beautifulsoup4 \

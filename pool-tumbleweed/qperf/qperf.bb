@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "0.4.11"
 
-RPM_NAME = "qperf-0.4.11-1.11.aarch64.rpm"
-RPM_HASH = "1f0b18bd6f1a51f453f5726d1ddd7f966982591df7e31a07c234e564907c3f6d640d86aff8a466cc5198e395c38dd77bb8182b7f70553ada6e1ab954f31b1fc8"
+RPM_NAME = "qperf-0.4.11-1.22.aarch64.rpm"
+RPM_HASH = "7ac62dc2f8e8c83162cf3f87962e7313d4ff60b6f52c4febb5edd06fa057d9576efddd355ac52ef01c3023f0123f542a3c8db405c2cb4b197d05c54ed370cdf3"
 
 RPROVIDES:${PN} += "qperf"
 

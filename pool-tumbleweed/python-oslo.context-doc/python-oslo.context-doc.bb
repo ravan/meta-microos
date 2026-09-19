@@ -2,10 +2,10 @@ SUMMARY = "Documentation for OpenStack common context library"
 DESCRIPTION = "Documentation for the oslo-context library."
 LICENSE = "Apache-2.0"
 
-PV = "5.0.0"
+PV = "6.5.0"
 
-RPM_NAME = "python-oslo.context-doc-5.0.0-1.5.noarch.rpm"
-RPM_HASH = "5d6cd6da6ee6126007b698b35292d2054bfbb1d041100f9c5adae8728cd37d80eff61a39c4b5dad5a0d662d1dbd247f467dda7b791f92b8a3d9feb5eac5e0466"
+RPM_NAME = "python-oslo.context-doc-6.5.0-1.1.noarch.rpm"
+RPM_HASH = "73a27be971ad5d4cf43e7a3f5b3eb584e51d64a02af6935b793668b22a6c0e83a1fb4b2c19654d9ccb32f70a8b4a93dbfc8300e3372703389ce7dcee8550080b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.context-doc"

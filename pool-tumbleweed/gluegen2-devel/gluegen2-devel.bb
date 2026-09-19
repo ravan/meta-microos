@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.2"
 
-RPM_NAME = "gluegen2-devel-2.3.2-9.9.noarch.rpm"
-RPM_HASH = "13e6b4178e9e074fd6678ca40e89c8921e588402f42cf6cec894e8bd431c11533cf970bcc3e6dd9df1fe7007da9148ca1d8de4083fce0002848ba31c66a4433c"
+RPM_NAME = "gluegen2-devel-2.3.2-12.5.noarch.rpm"
+RPM_HASH = "d7bb91098b5793d66962deb71697957df2a5428e8e97add8725e7c953d35904a5ec573c8ec5468a47cb44087312b08066b3f8ace382df6dd7e7df1583b6cd25a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gluegen2-devel"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-papermas"
 DESCRIPTION = "This package includes the documentation for texlive-papermas"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0hsvn23667"
+PV = "2026.226.1.1asvn66835"
 
-RPM_NAME = "texlive-papermas-doc-2023.209.1.0hsvn23667-52.1.noarch.rpm"
-RPM_HASH = "6f8091b118ccc15040334aba661067f282967aa04bb726cd553fc0b4a05f07951477f342cadbf0d2cedfcfb6e7331c42ee5705cd72dcef7bd18c841091f58bd2"
+RPM_NAME = "texlive-papermas-doc-2026.226.1.1asvn66835-58.2.noarch.rpm"
+RPM_HASH = "39136051a9146842e892ae96bff9e6ebcede8abe7112894dec98e78f8d251e17ba3365cededd658409378cfb5e791103142a5d90ee5f8bf7fc8202178464be38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-papermas-doc"

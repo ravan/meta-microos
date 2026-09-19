@@ -1,12 +1,12 @@
 SUMMARY = "Provides the capability to generate java sources from schemas"
 DESCRIPTION = "This Maven 2 plugin wraps the JAXB 2.x XJC compiler and provides the capability \
 to generate Java sources from XML Schemas."
-LICENSE = "BSD-2-Clause & Apache-2.0"
+LICENSE = "Apache-2.0 & BSD-2-Clause"
 
 PV = "0.14.0"
 
-RPM_NAME = "maven-jaxb2-plugin-0.14.0-1.21.noarch.rpm"
-RPM_HASH = "7814157b9281d6ac5cc0400286f15eb0b3e6c303b5da39252689e9121b2e6c535c90224dc5abea8bbb6f37434ccd40e05079f69e789a23e875040a6fe92d8d1a"
+RPM_NAME = "maven-jaxb2-plugin-0.14.0-4.7.noarch.rpm"
+RPM_HASH = "83442f2eb3391ad66a30783b1ef277f166dbdd07acf5e92b0ad697abd0922b1938825c0e8bac1120d4b623d4cd56a810f40c01e9d894a0861c9980b493b27b31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-jaxb2-plugin \

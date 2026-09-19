@@ -19,10 +19,10 @@ Whenever you type 'use Data::Printer' or 'use DDP', we export two functions \
 to your namespace:"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.001001"
+PV = "1.2.1"
 
-RPM_NAME = "perl-Data-Printer-1.001001-1.2.noarch.rpm"
-RPM_HASH = "aeca52fcf91a5d5d82fb7f074c07b2f82f8f3630e344fcfad8516be03661912fc0e631b662ed79df08e5d43f73afa844df2ab249236e901c23c5cf511b6918f1"
+RPM_NAME = "perl-Data-Printer-1.2.1-1.7.noarch.rpm"
+RPM_HASH = "a6bd8456416015f657d067f74c9587023633f69dafadf5a545d9b17a7b7b8ff762ec5ffbf151dae64aec99744ec453b65476443f8d83aeefe9e64cce5f54e8e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DDP \
@@ -57,7 +57,7 @@ perl-Data--Printer--Theme--Monokai \
 perl-Data--Printer--Theme--Solarized \
 perl-Data-Printer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-version"
 
 inherit rpm

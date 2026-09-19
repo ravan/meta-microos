@@ -5,10 +5,10 @@ singly-linked list and memory pool, various numeric routines and a \
 command-line argument parser."
 LICENSE = "MIT"
 
-PV = "1.0~git.20210716"
+PV = "1.0~git.20251221"
 
-RPM_NAME = "klib-1.0~git.20210716-1.2.noarch.rpm"
-RPM_HASH = "2550555b6feadcce1a7a35a07de183028f70766ab083b75091ec90afdcc2cb9f8b86cc5c5bb1bf9c7dfb16dd5f34b2db93d8c178e2f0ba06d80af60f88afef3f"
+RPM_NAME = "klib-1.0~git.20251221-1.2.noarch.rpm"
+RPM_HASH = "af1c15daa666a42440dc4b066a5114f5a8ebe03e7046301680ce5d163e32a1e44d75e73fae650c0dcc0706b4758d97a20f4ac9ae079c4dde1b5763dbfac2cddc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "klib"

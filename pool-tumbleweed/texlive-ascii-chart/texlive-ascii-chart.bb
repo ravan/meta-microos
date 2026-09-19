@@ -3,10 +3,10 @@ DESCRIPTION = "The document may be converted between Plain TeX and LaTeX \
 (2.09) by a simple editing action."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20536"
+PV = "2026.226.svn20536"
 
-RPM_NAME = "texlive-ascii-chart-2023.209.svn20536-54.1.noarch.rpm"
-RPM_HASH = "947db39539e76ea5ae0d410589a4b2e62fcfe12208b79ff03e2d1878bf4987e350c2a33c65a86ff03f0c017a7541938024633db6d87b0724d5ce3d40dee24515"
+RPM_NAME = "texlive-ascii-chart-2026.226.svn20536-60.2.noarch.rpm"
+RPM_HASH = "1975e9f101579031c6e740a01bade347184c4628702c21e1b47a84f4e24c3b4cf73f3df04be8f8360cde69cc6255340aa6f1318da1f03304668312784c3f2355"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ascii-chart"

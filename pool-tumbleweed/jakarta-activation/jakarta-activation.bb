@@ -5,10 +5,10 @@ it; discover the operations available on it; and instantiate the \
 appropriate bean to perform the operation(s)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.0"
+PV = "2.1.3"
 
-RPM_NAME = "jakarta-activation-2.1.0-2.7.noarch.rpm"
-RPM_HASH = "253c60e132a554e0ee0ab422fa4d67e45a7d78c44e339a79492069b6bc8b65c4e3bcf5ec3fcc192f9f4ae15b6dbacdf6f59f6072e2372cca7124d9a97fc0aca0"
+RPM_NAME = "jakarta-activation-2.1.3-1.9.noarch.rpm"
+RPM_HASH = "a59610b2ccdbbb7152b2dcf752d9356cef0e1d6888a924fc4fa582770bfd19105f94762848da9b599964e7bc448f905d5d540fa6af49d1c47e03adf7f2c188a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-activation \

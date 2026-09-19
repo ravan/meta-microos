@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "libxcam1-1.5.0-4.6.aarch64.rpm"
-RPM_HASH = "37a9c2120e4df303397ae8a352483a16c8a36a076e15dcc10a926cd2787e27dfbe718d5009cd7448eed1f8abec637d5fae327466bac1d2318bb8a1cc9528697c"
+RPM_NAME = "libxcam1-1.5.0-5.15.aarch64.rpm"
+RPM_HASH = "47353ab9432b48c98acc5ca851cf1ddc4c2f7aa857e9b5561d07234c09d8059870c87d7a2a199a1763523d3ec9f1636a9500c208969bd70c16a9750189a30008"
 
 RPROVIDES:${PN} += "gstreamer1 \
 libgstxcamfilter.so \
@@ -37,13 +37,13 @@ libgstbase-1.0.so.0 \
 libgstreamer-1.0.so.0 \
 libgstvideo-1.0.so.0 \
 libm.so.6 \
-libopencv-core.so.407 \
-libopencv-features2d.so.407 \
-libopencv-imgcodecs.so.407 \
-libopencv-imgproc.so.407 \
-libopencv-photo.so.407 \
-libopencv-stitching.so.407 \
-libopencv-video.so.407 \
+libopencv-core.so.413 \
+libopencv-features2d.so.413 \
+libopencv-imgcodecs.so.413 \
+libopencv-imgproc.so.413 \
+libopencv-photo.so.413 \
+libopencv-stitching.so.413 \
+libopencv-video.so.413 \
 libstdc++.so.6 \
 libvulkan.so.1"
 

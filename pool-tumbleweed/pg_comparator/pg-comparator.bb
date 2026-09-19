@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.5"
 
-RPM_NAME = "pg_comparator-2.2.5-5.18.aarch64.rpm"
-RPM_HASH = "4af1aae537acb5da9096d2b02ea80094def36ef85011eb5304109f1ca8ee96b785b5dccdf68a5f8751e036afa48466abb41cc58b9f61b614db66f8d4093dcfdb"
+RPM_NAME = "pg_comparator-2.2.5-5.28.aarch64.rpm"
+RPM_HASH = "18f0bd21c337f7428a81ebde7219840457453cb8348d74f0e3917da9d40db6cde96f4025997a90886946734d2f62a9dbcb9b6cae5e5dfb6c2a7a34c6d6c50663"
 
 RPROVIDES:${PN} += "pg-comparator"
 

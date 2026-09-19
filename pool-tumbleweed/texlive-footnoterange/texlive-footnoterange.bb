@@ -9,10 +9,10 @@ hyperfootnotes-option, then the references are hyperlinked. \
 never hyperlinked.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn66149"
+PV = "2026.226.1.1csvn77682"
 
-RPM_NAME = "texlive-footnoterange-2023.209.1.1asvn66149-53.1.noarch.rpm"
-RPM_HASH = "cd05d1f26341041ae0423a87ee5731939422e7ec20ef15ddecf9621e922c8931cd7aaff35999bbfdf8b5b74c64aecd63cf7bc12ef5f20c06c8c3980de5671356"
+RPM_NAME = "texlive-footnoterange-2026.226.1.1csvn77682-60.2.noarch.rpm"
+RPM_HASH = "ea2bb78d475a8a609080014c46d314f18511ac973e712d708bb06a6f96b440a0fdca72ef4b140b992bb215bfce82c6c335f6150b032d9afdcf4c9e1b22ba15e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-footnoterange.sty \

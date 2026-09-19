@@ -5,10 +5,10 @@ the Bouncy Castle Cryptography APIs. The JavaMail API and the Java activation \
 framework will also be needed."
 LICENSE = "MIT"
 
-PV = "1.74"
+PV = "1.85"
 
-RPM_NAME = "bouncycastle-mail-1.74-1.1.noarch.rpm"
-RPM_HASH = "6050de2ee8a55df01deec6b471e83c24de67c5beffaf82c66d88a272544d1080e11bb6091756a0d1d6820f8e05f195b1e88304077f3b6c5e6ad037e4bb13b342"
+RPM_NAME = "bouncycastle-mail-1.85-1.1.noarch.rpm"
+RPM_HASH = "8bb31a92c446130addb95002d1f4b806b59db64d4776aeb16e9c66205ccd976e35c73ae350ca96f32187fec55d5c4023a6e2648feb76d92ba79cb44a1704d1cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-mail \
@@ -26,13 +26,8 @@ mvn-org.bouncycastle-bcmail-jdk18on \
 mvn-org.bouncycastle-bcmail-jdk18on-pom- \
 osgi-bcmail"
 
-RDEPENDS:${PN} += "bouncycastle \
-bouncycastle-pkix \
-bouncycastle-util \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.bouncycastle-bcpkix-jdk18on \
-mvn-org.bouncycastle-bcprov-jdk18on \
-mvn-org.bouncycastle-bcutil-jdk18on"
+mvn-org.bouncycastle-bcpkix-jdk18on"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Files for Developing with f2c"
 DESCRIPTION = "This package uses an 'f77' script that hides the C translation process from the user."
 LICENSE = "MIT"
 
-PV = "20210928"
+PV = "20240504"
 
-RPM_NAME = "f2c-devel-20210928-2.1.aarch64.rpm"
-RPM_HASH = "1d878968f59e96323bbeba96eb097fd3edcc12a754488237f3b610466ef0696c18723242154f39015ac01bedbdd460c2a31ffe9c02edafe486e51d7b4bb6bec0"
+RPM_NAME = "f2c-devel-20240504-1.3.aarch64.rpm"
+RPM_HASH = "93a6280862da66c5d5f93d127412440b60b18746b4578c84f6117800f7c6c4d56dfadc97bf05c9f97ac9af8e8c0d95cb5c011a3c2a3327c41c53613ce4b47362"
 
 RPROVIDES:${PN} += "f2c-devel"
 

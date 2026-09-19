@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ebgaramond-maths"
 DESCRIPTION = "This package includes the documentation for texlive-ebgaramond-maths"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn52168"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-ebgaramond-maths-doc-2023.209.1.2svn52168-54.2.noarch.rpm"
-RPM_HASH = "dfc499a8a4a42016dfa55f551c023be9d8f674558fc226c6460ab74d1560abeb6b1614313f96d286e6f1cc7a3f1a2fd98ac2a87757f3eb7112a8fbda3b3dfac0"
+RPM_NAME = "texlive-ebgaramond-maths-doc-2026.226.1.3svn77682-61.4.noarch.rpm"
+RPM_HASH = "82cd81d861438a7d4fedd9af97de7acdc01eda0020e85099f6da5f88c7d0ddeb4aeaeb0f46eac99af30f6821ab5fff4fd9cbb5410c1c84abb5b209ae39a4eaef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ebgaramond-maths-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "A TrueType (vector) font similar to Windows 2.x/3.x Fixedsys, \
 enhanced with Unicode symbols."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "3.02.9"
+PV = "3.09.10"
 
-RPM_NAME = "kika-fixedsys-fonts-3.02.9-1.2.noarch.rpm"
-RPM_HASH = "8b3b8b2aad925c7886fb7b317bf3f0c6c51c3cb4c6abeb0125f8be96a2e75dfe9f120ac74a4c903a3dc4896c97b9550dd1392008052f6fb4880b7a2155f7d1ad"
+RPM_NAME = "kika-fixedsys-fonts-3.09.10-1.2.noarch.rpm"
+RPM_HASH = "3f79a83ddca891a72e81037911562162aacb10b527421dcecff40b1eb7d35fb7734afe985a93e4ce9688d8b9c4e4e2718d7f8c924088cb8552fe3e4f6b9667e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kika-fixedsys-fonts"

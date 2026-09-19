@@ -1,11 +1,11 @@
 SUMMARY = "A pump.io client written in C++/Qt"
 DESCRIPTION = "Pumpa is a pump.io client written in C++ and Qt."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.3"
 
-RPM_NAME = "pumpa-0.9.3-2.33.aarch64.rpm"
-RPM_HASH = "0b7b6c5e9b1fd468e6b2a0cb6c485e0cce977333b0fe24df3e7a20d4164351d554e74218b288e7d27c65f9bd4ba24430952dd6f7e7e135607f26226e7f8c0127"
+RPM_NAME = "pumpa-0.9.3-3.4.aarch64.rpm"
+RPM_HASH = "9a3777f2849db71ab59825aee83c92d71a03dc1692cd0df985c99806bcea4be9da38c23b14d80a156dc1ffe7faf291e59ec62011a5a81027e67b477b48f98002"
 
 RPROVIDES:${PN} += "pumpa"
 

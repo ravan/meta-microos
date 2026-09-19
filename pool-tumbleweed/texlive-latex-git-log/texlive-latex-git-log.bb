@@ -5,10 +5,10 @@ typically be redirected to a file; the author recommends \
 typesetting in landscape orientation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0.0svn54010"
+PV = "2026.226.1.1.0svn71402"
 
-RPM_NAME = "texlive-latex-git-log-2023.209.1.0.0svn54010-56.1.noarch.rpm"
-RPM_HASH = "b29263d25779c2350bf015e6c7fce0524a5e4f19b9a038fba8688a7c10088c1e4b9c7a3f1a7270492b8750ebd586f073c6392d2e9b1d9786f7f9dfb0328ed16e"
+RPM_NAME = "texlive-latex-git-log-2026.226.1.1.0svn71402-63.2.noarch.rpm"
+RPM_HASH = "5c9a837417d6aad5e0eded2ede7f2bcd5eff65e3034e25632c5326dd3951849bbc817360adad8574f3c58427bfa56d6ae8497d12e499829e2b4705693e928a59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-git-log"
@@ -20,6 +20,7 @@ ed \
 findutils \
 grep \
 perl-Cwd \
+perl-English \
 perl-File--Basename \
 perl-Getopt--Long \
 perl-IPC--System--Simple \

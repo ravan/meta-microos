@@ -6,10 +6,10 @@ client/server/intermediate on top of your favorite event loop over plain or \
 tls socket (see examples)."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.10"
+PV = "1.140.0"
 
-RPM_NAME = "perl-Protocol-HTTP2-1.10-2.3.noarch.rpm"
-RPM_HASH = "f4c8a47272593310ac8376267772da1c978507551e8d30e0938a929ec639a65fc00540c34813fb9fc99aae49a602e940cd4f5a6f1c487dd20a1d2a9387e5db08"
+RPM_NAME = "perl-Protocol-HTTP2-1.140.0-1.1.noarch.rpm"
+RPM_HASH = "d0fb9e395a49afc1c46b2eab2e02a74f916cbe08589640e37bd53b7174b4f81d6cfc1da17d24a652016017b9d3818f8456b3a60b3af1caca6fc683f418236a96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Protocol--HTTP2 \
@@ -38,7 +38,7 @@ perl-Protocol--HTTP2--Trace \
 perl-Protocol--HTTP2--Upgrade \
 perl-Protocol-HTTP2"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-MIME--Base64"
 
 inherit rpm

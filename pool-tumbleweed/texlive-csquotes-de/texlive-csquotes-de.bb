@@ -3,10 +3,10 @@ DESCRIPTION = "This is a translation of the documentation of csquotes version \
 5.1."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn23371"
+PV = "2026.226.1.01svn23371"
 
-RPM_NAME = "texlive-csquotes-de-2023.209.1.01svn23371-55.1.noarch.rpm"
-RPM_HASH = "12b25b5ed164675d54b9b896c0ceace6fd0bef17b794ba9f4dbbeb7ce08ab4077abb6166335fb5588e1332a1929be5c5b3ed6e17c092a86808221e36abad80db"
+RPM_NAME = "texlive-csquotes-de-2026.226.1.01svn23371-61.2.noarch.rpm"
+RPM_HASH = "9ba6b7aabd1ed238be8bb10de53de6f6215d7bed374ad5c12bf7a84f955311048da8992167f5ddd820af00971fd920ad9093b8e4908b98936c644c0ee973fb50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-csquotes-de"

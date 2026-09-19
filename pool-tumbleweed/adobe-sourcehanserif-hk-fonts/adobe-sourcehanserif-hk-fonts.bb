@@ -1,11 +1,11 @@
-SUMMARY = "Source Han Serif HK"
-DESCRIPTION = "Source Han Serif is an open source Pan-CJK typeface whose OpenType/CFF fonts and CID-based sources are covered under the terms of the SIL Open Font License, Version 1.1."
+SUMMARY = "Source Han Serif variation for Traditional Chinese in Hong Kong"
+DESCRIPTION = "Source Han Serif is a pan-CJK typeface. It is the serif counterpart to Source Han Sans and comes in seven weights."
 LICENSE = "OFL-1.1"
 
-PV = "2.001"
+PV = "2.003"
 
-RPM_NAME = "adobe-sourcehanserif-hk-fonts-2.001-1.3.noarch.rpm"
-RPM_HASH = "7588d6f3c7826df2ded24a4368ecb6d0b17ceb9b17e80df10dd71e5a2fc213d41c37027fb589e23f4b3fa8f0355326451a57f32ce85bb44505aa09757310dd1a"
+RPM_NAME = "adobe-sourcehanserif-hk-fonts-2.003-1.3.noarch.rpm"
+RPM_HASH = "cb201e8f187e58247938f5308f4917daaaf4f06d959424b4a14dc09d34e253159510b0492b52d466de7801b6203e9a2340a4e8e4742ec08cf7747fe46e16878e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourcehanserif-hk-fonts \

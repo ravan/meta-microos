@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libbytesize"
 DESCRIPTION = "Provides translations for the 'libbytesize' package."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.9"
+PV = "2.12"
 
-RPM_NAME = "libbytesize-lang-2.9-1.1.noarch.rpm"
-RPM_HASH = "a4d78ac4d62060abf210ae10e501d8ec87b3e274864d9b2b6efdecbc60b5f8fbdb482248f1bfb9faea3e7ef29c858be81aaf628d6dad469f113430eecfa26456"
+RPM_NAME = "libbytesize-lang-2.12-1.6.noarch.rpm"
+RPM_HASH = "4901f076dfdbc8c53728a86f8aa41776ca90f61a7d084e7d29db0ae738cf65d44ed976b4aa52cbf9879362109543d72f145489292181a425396931b8f46e6ce3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libbytesize-lang \
@@ -26,6 +26,7 @@ locale-libbytesize-hr \
 locale-libbytesize-hu \
 locale-libbytesize-id \
 locale-libbytesize-it \
+locale-libbytesize-ja \
 locale-libbytesize-ka \
 locale-libbytesize-kk \
 locale-libbytesize-ko \

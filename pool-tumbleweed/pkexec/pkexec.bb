@@ -2,12 +2,13 @@ SUMMARY = "Pkexec component of polkit"
 DESCRIPTION = "This package contains the pkexec setuid root binary part of polkit."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "121"
+PV = "127"
 
-RPM_NAME = "pkexec-121-4.3.aarch64.rpm"
-RPM_HASH = "4d7e309f9142e6f64a4ddb972581627b0df4d3098d90bcb6a09e7cf3aab5d6ca43dfc20008efec0d8c9f82575a28328f06216b2f1bc2dafd6597276864a6d501"
+RPM_NAME = "pkexec-127-7.2.aarch64.rpm"
+RPM_HASH = "e45a43e567aeb78307539ed2204388b3edcc228d36dbf8ea731b3c8d1fb2bf810c6ab244074d6212948c51fc342bdfa656d615f50d67b6be149abf5608e5eb96"
 
 RPROVIDES:${PN} += "pkexec \
+pkexec-rpm \
 polkit-/usr/bin/pkexec"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

@@ -3,16 +3,16 @@ DESCRIPTION = "Country specific data and configuration modules (language, keyboa
 timezone) for yast2."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.3"
+PV = "5.0.5"
 
-RPM_NAME = "yast2-country-4.6.3-1.1.aarch64.rpm"
-RPM_HASH = "675bfc2f8205632af71cb6ad49faef8ee0b259e79ec1c4ad199bfa6513b6c0a33ed8e583f25eddd08ec2dc8adefa615b5805ccb0d236c6f1ff56bcceb10695b3"
+RPM_NAME = "yast2-country-5.0.5-1.2.aarch64.rpm"
+RPM_HASH = "f84be04c38f0c13a9691122c14fd921d7908a49fa93eeb8f8a066777263c1ebdc7bfcc73a1e1bc17ef2def702c4f41568b322096b41f1298bdd9c17ec8bf6e96"
 
 RPROVIDES:${PN} += "perl-YaPI--LANGUAGE \
 perl-YaPI--TIME \
 yast2-country"
 
-RDEPENDS:${PN} += "rubygem-ruby-3.2.0-ruby-dbus \
+RDEPENDS:${PN} += "rubygem-ruby-4.0.0-ruby-dbus \
 timezone \
 yast2 \
 yast2-core \

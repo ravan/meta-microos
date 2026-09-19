@@ -1,36 +1,36 @@
 SUMMARY = "Japanese Reference/Study Tool"
 DESCRIPTION = "Kiten is a tool to learn Japanese."
-LICENSE = "GPL-2.0-or-later & CC-BY-SA-3.0 & CC-BY-SA-4.0"
+LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later & CC-BY-SA-4.0"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kiten-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "29269b8e21a568c0f85eefa52b2dc83135b744a3c333128e3c81744f8c0fc527e89bfe3af9b992d8b1c95bf2e36f73badd948a1e256e9c886819cb702f5b9edb"
+RPM_NAME = "kiten-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "528cac6122f4a082197fc119530fea8204e91afdbee00e526c40a775b60b48fefffb5c9f7875d2660682e018446fa0823af603d692f1ffcd4b508d17f177988d"
 
 RPROVIDES:${PN} += "kiten \
 kiten5 \
-libkiten.so.5"
+libkiten.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 edict-eucjp \
 fonts-KanjiStrokeOrders \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libKF5Notifications.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6Archive.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "git-remote-gcrypt-1.5-1.2.noarch.rpm"
-RPM_HASH = "b393baa7f4fd9d37f4fae5b146dc81bd1321f49e21d84a383690a64c5576696eb469ed06aa0f54ea37fcc345cbf7d7a05bb92ad4787b5ddca02646ae3b63e6bc"
+RPM_NAME = "git-remote-gcrypt-1.5-1.11.noarch.rpm"
+RPM_HASH = "7e731939fb531a90d2e6e5fbde35051613d397bb973a9512a32a12b74a752acaccc116b361985fdac0d352e44995ff18f20ac21a7d217145e0c2d86092bae870"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-remote-gcrypt"

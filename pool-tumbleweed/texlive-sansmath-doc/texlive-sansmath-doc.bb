@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sansmath"
 DESCRIPTION = "This package includes the documentation for texlive-sansmath"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.1svn17997"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-sansmath-doc-2023.209.1.1svn17997-54.1.noarch.rpm"
-RPM_HASH = "2398d1da7e389fdb193960f21a1e25b1d4de51ea7a99f5f02860b700d1af59901db8510954594dadc5c5de192088c5e2d13a2e144fe55f60295286e5412d98e3"
+RPM_NAME = "texlive-sansmath-doc-2026.226.1.1svn77682-60.2.noarch.rpm"
+RPM_HASH = "5529a7fa20f6d647c23046a4196a8feee945875fd66424d06013173e46b830ab5f93f420d54f581b2d49e1fe0258400c59415294c1658d24567655f6cd54285d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sansmath-doc"

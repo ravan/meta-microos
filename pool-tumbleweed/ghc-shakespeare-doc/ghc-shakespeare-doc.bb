@@ -2,10 +2,10 @@ SUMMARY = "Haskell shakespeare library documentation"
 DESCRIPTION = "This package provides the Haskell shakespeare library documentation."
 LICENSE = "MIT"
 
-PV = "2.0.30"
+PV = "2.1.7.1"
 
-RPM_NAME = "ghc-shakespeare-doc-2.0.30-2.11.noarch.rpm"
-RPM_HASH = "d3fe9898432f33bc7fad030b8c98eea4d4580cc1821bc1485d5f5a1056f6fd29bde6d6a6d341850ebb4255c186feabf3acc079dbe6707c142d5a553d383a95ed"
+RPM_NAME = "ghc-shakespeare-doc-2.1.7.1-1.12.noarch.rpm"
+RPM_HASH = "102db8da2217f6e1d0a323179e51d7245b2c9fc842a5859a4942f9f08498f26b846b843be18bc31b8bae55bac642a736affd6ea436070d1746b1394dbc7b9fa7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-shakespeare-doc"

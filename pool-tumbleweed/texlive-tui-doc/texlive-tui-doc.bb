@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tui"
 DESCRIPTION = "This package includes the documentation for texlive-tui"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9svn27253"
+PV = "2026.226.1.9svn27253"
 
-RPM_NAME = "texlive-tui-doc-2023.209.1.9svn27253-53.1.noarch.rpm"
-RPM_HASH = "1f6475de6bf1f2d456bec6a11158589144cb52dff14e87767131a0f96c50f11a2e3b340db31ce80bb80f08975f840a5c213e890b6ce077ef68c09d0ec34a52ca"
+RPM_NAME = "texlive-tui-doc-2026.226.1.9svn27253-59.2.noarch.rpm"
+RPM_HASH = "edd6a333a1f90e14161002e31e3277f590214bc5fcb5554ad1023717af628d052f20c24cfc04e51e02aa28e900647f5195259bf2a14272efbd676981622acecb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-tui-doc-en;es \

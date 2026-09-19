@@ -2,10 +2,10 @@ SUMMARY = "Character Set Converter"
 DESCRIPTION = "Recode converts files between various character sets."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.7.14"
+PV = "3.7.15"
 
-RPM_NAME = "recode-devel-3.7.14-1.1.aarch64.rpm"
-RPM_HASH = "7318d2952f075925eae0d4a7e2b3cbfbb7e07103d492573e3e52f1014f7adada16bffb528619df0a1dab57c1868ec3ad42e599dec2e50182993d462ca4c97fa6"
+RPM_NAME = "recode-devel-3.7.15-2.5.aarch64.rpm"
+RPM_HASH = "a0a8e765e4059890bd10bd420704bfda146e465127f1b13de8891c53c5dbf0008e92b9c30444c21017a758da5b5bb7144732b1b28b2a523370d7c42a0af16acd"
 
 RPROVIDES:${PN} += "recode-devel"
 

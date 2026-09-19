@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.0.4"
 
-RPM_NAME = "portmidi-devel-2.0.4-2.4.aarch64.rpm"
-RPM_HASH = "17e3526517555d4fca605ab0d5389f49f5304c19520c32e00b466238301964a5b84785e653de839f53b6fffc48bd88285c7b72cbeebec1aadfcae4cd32cb7823"
+RPM_NAME = "portmidi-devel-2.0.4-3.7.aarch64.rpm"
+RPM_HASH = "0bab92f4344030cc6c5b9b1e3fd0bdd80724d79708473e7a8cd89979ff082465f83899f09b00adf179e4ec72b11bac595624b20d37de9df8e3b658375134aca4"
 
 RPROVIDES:${PN} += "cmake-PortMidi \
 pkgconfig-portmidi \

@@ -20,8 +20,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.2"
 
-RPM_NAME = "apache-commons-collections-3.2.2-7.5.noarch.rpm"
-RPM_HASH = "27516ff5a1c3bb241cd87e9bc36442f5cabb9c53d44fa5c438da2edb8edfe247dcc983465c20394c4047713bc8c121af8518b0a45aa82b2b893a7dbe3778fc9f"
+RPM_NAME = "apache-commons-collections-3.2.2-9.10.noarch.rpm"
+RPM_HASH = "e79c8dd33d9eb9dcaaf3c1497fd9d212fb7fc5d3ac498c8cc23646d8aa1a6b6f7a05602d7ce671e5cc1e9a30bbe0bf73c1ad70c22bf73d02ac17ac6e0099fb8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-collections \

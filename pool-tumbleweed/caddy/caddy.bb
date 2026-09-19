@@ -1,20 +1,21 @@
 SUMMARY = "Fast, multi-platform web server with automatic HTTPS"
 DESCRIPTION = "Caddy is a powerful, extensible platform to serve your sites, services, and \
-apps, written in Go. \
- \
-It operates primarily at L4 (transport layer) and L7 (application layer) of \
-the OSI model, though it has the ability to work with other layers."
+apps, written in Go."
 LICENSE = "Apache-2.0"
 
-PV = "2.7.4"
+PV = "2.11.4"
 
-RPM_NAME = "caddy-2.7.4-1.1.aarch64.rpm"
-RPM_HASH = "bec0640ba6da36155c55284dc9fff004320c4d4a3f471ae99f27e0c187c153b15040a04928ca6f0ee35957135b869488e069a96242a4bef8c6daa6f66dc1265a"
+RPM_NAME = "caddy-2.11.4-1.3.aarch64.rpm"
+RPM_HASH = "63f50b00b15801d2c4f51506f4871e5f56c75fb5ec3cb41b8229a31e7492638d082f93f1b95081df17061d8b8447824c8c8e43ef597e1b0879022d364afbd2db"
 
 RPROVIDES:${PN} += "caddy \
-config-caddy"
+config-caddy \
+group-caddy \
+user-caddy"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-systemd"
+libc.so.6 \
+systemd \
+sysuser-shadow"
 
 inherit rpm

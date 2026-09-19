@@ -1,11 +1,11 @@
-SUMMARY = "Main Dictionary for SKK"
-DESCRIPTION = "main dictionary for SKK"
-LICENSE = "GPL-2.0-or-later & SUSE-Permissive & SUSE-Public-Domain"
+SUMMARY = "SKK (Simple Kana-Kanji) dictionary files."
+DESCRIPTION = "main dictionary for SKK."
+LICENSE = "Unicode-DFS-2016"
 
-PV = "20160304"
+PV = "20240829"
 
-RPM_NAME = "skkdic-20160304-3.10.noarch.rpm"
-RPM_HASH = "6a48d433f9249d9c600a3f8a3762101811873a1edf41fb9499c251081ee3a45bcd78c5fe5e477f094aa2ec0f6eb931e02eb23d34e689a7a20fc83998a978669c"
+RPM_NAME = "skkdic-20240829-2.4.noarch.rpm"
+RPM_HASH = "60e5e63621a79a207acaef3580c8bbe11333c5e193aac5378ca6c561de4bdf44da8d42323f070061b7162e56ed0359432bbf42fb04c7a9aa1ad3f8a3ea3c9afb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-scim-skk-ja \

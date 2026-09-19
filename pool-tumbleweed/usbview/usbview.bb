@@ -5,10 +5,10 @@ information on each of the devices. This can be useful to determine if \
 a device is working properly."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.0"
+PV = "3.1"
 
-RPM_NAME = "usbview-3.0-1.7.aarch64.rpm"
-RPM_HASH = "a53a8adf1b8763944d4bb16e5bed2937a1d2169f736f09a240b0e50cd20cd9a231baff1f42f888f019dd48b52616692e54d184c1cc65305af27c0863f8e4f29a"
+RPM_NAME = "usbview-3.1-2.4.aarch64.rpm"
+RPM_HASH = "c3b21a052dde57df6d0f573d5547cc4173ef7cc028341c5d3c288672e875bb9771ae2ad8cb71674e88adb70b1036dca283a0e223d9a1b13c91732d655aa5c94c"
 
 RPROVIDES:${PN} += "usbview"
 

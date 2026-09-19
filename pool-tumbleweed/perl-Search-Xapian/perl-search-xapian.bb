@@ -19,10 +19,10 @@ please email the Xapian-discuss mailing list (details of which can be found \
 at https://xapian.org/lists)."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.2.25.5"
+PV = "1.2.25.7"
 
-RPM_NAME = "perl-Search-Xapian-1.2.25.5-1.11.aarch64.rpm"
-RPM_HASH = "4a65a71a3bce845134b231f9ecca2190358ed71da7027720352e6e9b06b131dbd466b19d6cb52d6370b3a6ca44e9cbb97c20a5398738d34ec578f7ecf3ec900f"
+RPM_NAME = "perl-Search-Xapian-1.2.25.7-1.4.aarch64.rpm"
+RPM_HASH = "470a51c54026bd2317fd3204e40a1cb2afa1635566acceabb83f5d72b7d69959b0762a6ef23cd6c98cde5505c89091367580938b944d487928c73c0b2b8c60a9"
 
 RPROVIDES:${PN} += "perl-Search--Xapian \
 perl-Search--Xapian--AssertionError \
@@ -86,6 +86,6 @@ libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
 libxapian.so.30 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

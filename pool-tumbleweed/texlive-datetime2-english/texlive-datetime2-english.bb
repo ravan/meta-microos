@@ -12,10 +12,10 @@ en-IM (English - Isle of Man) en-MT (English - Republic of \
 Malta) en-IE (English - Republic of Ireland)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.05svn52479"
+PV = "2026.226.1.05svn52479"
 
-RPM_NAME = "texlive-datetime2-english-2023.209.1.05svn52479-53.1.noarch.rpm"
-RPM_HASH = "a8c00e05fcdf2c8666c1db1c5f9232fc2ca948b635ff88452e0b61aba68d39a1b3653baea322c3be3043eda62da86f66b7eb5ad7c75c57c5a26d1566e13194d4"
+RPM_NAME = "texlive-datetime2-english-2026.226.1.05svn52479-59.2.noarch.rpm"
+RPM_HASH = "abd25d8b4fa405f263b7075fe05a093fa4bb8e3384b099f7d510c116c8c7624b45493b373830aa7c7e22bd36c28c44d73b6a9985a5fac77b762ca435ad58f85a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-en-AU.ldf \

@@ -3,14 +3,15 @@ DESCRIPTION = "Performance Co-Pilot (PCP) front-end tools for importing iostat d
 into standard PCP archive logs for replay with any PCP monitoring tool."
 LICENSE = "LGPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-import-iostat2pcp-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "f80daa01c5dcf94cce54a2a4d2009700bcc4eff936a22b856e4a3a532acbce0fc5e6655a79842fc76602588d27ec05756a7fa226b18286cfff00f9c0d754a3e5"
+RPM_NAME = "pcp-import-iostat2pcp-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "be7a19e9fb8eff8c75b4663dbcb819b71c75569c1d420530505c355eef883dadf0d784d6ed90c36e3c0e994e593493d1ed95384f71ff0574fc72dc2b7a537468"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-import-iostat2pcp"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/perl \
 perl-PCP-LogImport \
 sysstat"
 

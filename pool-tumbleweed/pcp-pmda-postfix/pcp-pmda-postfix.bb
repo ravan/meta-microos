@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the Postfix (MTA)."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-postfix-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "c0b15cb4b68e0f52da0977dac2a643bc4edca8d5e20f1a8f231c96c8b0d72f84a1bd65622ef0f05345961600e103298f6e861e22939b54aa514718a7a2bc8215"
+RPM_NAME = "pcp-pmda-postfix-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "e25bf94bad2f951d5c0acb8e505ffbc955c5915e8eb7249fdc001c89e1d7268bfa796371cb0d4e9143d14dfdeeef1f63c2f664eb8a84824e77106ac4a5c0913f"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-postfix"
 

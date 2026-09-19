@@ -2,10 +2,10 @@ SUMMARY = "Belgium datum grids for Proj"
 DESCRIPTION = "Belgium datum grids for Proj."
 LICENSE = "BSD-2-Clause & CC0-1.0 & CC-BY-4.0 & CC-BY-SA-4.0 & SUSE-Public-Domain"
 
-PV = "9.2.1"
+PV = "9.8.1"
 
-RPM_NAME = "proj-data-be-9.2.1-1.1.noarch.rpm"
-RPM_HASH = "c2c8a27d8dda59346a670255dc4ab560271c7ace1e83a3f10afc2f14dff029fbdc6961c7215b1357ba2e7c304cbde80a53bd81b95032f3656e2c7ed73ae1f567"
+RPM_NAME = "proj-data-be-9.8.1-2.3.noarch.rpm"
+RPM_HASH = "08222b3fd6a7c2829fa4c9419f529c3d45e6190414b241b1d2329e59a1f7b53a5433391efd59a7064384d8840d5c89d808e64aca12e3db569fa9f596bfd7d295"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "proj-data-be"

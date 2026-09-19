@@ -3,10 +3,10 @@ DESCRIPTION = "Optional collectd plugin to receive and dispatch timing values fr
 profiling extension for PHP."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-pinba-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "bb6c60fd06cf3cf4661601eb27aec8007a27d427d8f44182d67df6b8e3c27e8152b4854dd742620712ee1f17a307988c6001b13517264f2d7266b76c7d436d39"
+RPM_NAME = "collectd-plugin-pinba-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "966a9b79ff20b5bb391b55fab4020b69c193325fe8fd5300205dce5515838fde0d245f41e152b13ad080c4d7cc9b0bb7488a8b7a8d9bfaf8521017f247741d31"
 
 RPROVIDES:${PN} += "collectd-plugin-pinba"
 

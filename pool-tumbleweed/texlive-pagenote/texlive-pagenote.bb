@@ -4,10 +4,10 @@ DESCRIPTION = "The pagenote package provides tagged notes on a separate page \
 the package requires the ifmtarg package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn63708"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-pagenote-2023.209.1.1asvn63708-52.1.noarch.rpm"
-RPM_HASH = "4e9cc2d3977d7eab8c7375b10b9ab6e2d8c8fe0f301648993a94b48cbe66f418f1097b69d2ef1ae4738519bd57cfc7672ca81b0673ef4fb6ae2abbddb8ee0db9"
+RPM_NAME = "texlive-pagenote-2026.226.1.1asvn77682-58.2.noarch.rpm"
+RPM_HASH = "a9bba2f88917c204313641a41a41a167dc331936649959946f112ad3f5481033a75f0cd200422d383c7f04f84196f2069526db27540c53e27434f4e67227de29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pagenote.sty \

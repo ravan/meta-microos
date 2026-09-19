@@ -4,10 +4,10 @@ to the National Autonomous University of Mexico (UNAM) \
 guidelines."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.5svn51207"
+PV = "2026.226.0.0.5svn51207"
 
-RPM_NAME = "texlive-unam-thesis-2023.209.0.0.5svn51207-54.1.noarch.rpm"
-RPM_HASH = "870e72f49a4360899fe664b79bc9cd8b15b1db59770212d60fd89550012825afe47d901beec56c75e758417f17c37dc7e123462f4e7325a57663d317c14c2a17"
+RPM_NAME = "texlive-unam-thesis-2026.226.0.0.5svn51207-60.2.noarch.rpm"
+RPM_HASH = "edba5b233ebdd115b0d91a443c35ccafc6d16c6baf0b68a9b8df74b9a956bcab12ba2f64c74e1c9bc3f35b5ab2aacc6b0458a807ee0a56d72a628c93c93537ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unam-thesis.cls \

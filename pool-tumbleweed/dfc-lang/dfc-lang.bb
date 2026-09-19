@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.1"
 
-RPM_NAME = "dfc-lang-3.1.1-3.1.noarch.rpm"
-RPM_HASH = "1bb09cb9e02dbe7f5fd5259ec7a3f217ef25070cdc22384f9fa3d4dc5a0ef95f51ea299bede078019e1861b4a6872483f230692ca01cd455997ce7137b798181"
+RPM_NAME = "dfc-lang-3.1.1-3.11.noarch.rpm"
+RPM_HASH = "551aab837d72733fcd05f5ec6c4f4ff9991f84e92177948f00ff9e08d843ca1da36d8a9313371c8ae2624997a587c0999876987528c3908b628fc93ef760bd0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-dfc-lang \

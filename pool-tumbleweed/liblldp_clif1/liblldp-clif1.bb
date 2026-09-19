@@ -2,10 +2,10 @@ SUMMARY = "Link Layer Discovery Protocol (LLDP) libraries"
 DESCRIPTION = "This package contains the Link Layer Discovery Protocol (LLDP) libraries"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.1+58.8ca361bab766"
+PV = "1.1+110.f16f944"
 
-RPM_NAME = "liblldp_clif1-1.1+58.8ca361bab766-1.4.aarch64.rpm"
-RPM_HASH = "197258a579381eb48652edfd5f1ca9e3f6f74e91a1d75c6a56d763d5d5da4e34bc0826e77c5d6723bf762cf08dab94cc1403324efe26f8332bad918fe0dffe92"
+RPM_NAME = "liblldp_clif1-1.1+110.f16f944-1.1.aarch64.rpm"
+RPM_HASH = "7d3bbe18147507acd60475d6b7543a6ae53b5c890257776000746be2e195566af6d36230ff67a66648b3e380ccb89b82d181fc05453e3168c36610a62e4b2260"
 
 RPROVIDES:${PN} += "liblldp-clif.so.1 \
 liblldp-clif1"

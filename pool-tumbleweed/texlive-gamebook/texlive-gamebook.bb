@@ -4,10 +4,10 @@ with LaTeX. A simple gamebook example is included with the \
 package, and acts as a tutorial."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn24714"
+PV = "2026.226.1.0svn24714"
 
-RPM_NAME = "texlive-gamebook-2023.209.1.0svn24714-53.1.noarch.rpm"
-RPM_HASH = "943940831e708cf7bcaf65659d5df468bc0c20d65276345000cabbcf322c96cd99ab5495fa957d4c2a7a366ee19c5e7f36cd412b587d249dcff8dbb0aae8c313"
+RPM_NAME = "texlive-gamebook-2026.226.1.0svn24714-60.2.noarch.rpm"
+RPM_HASH = "31c7be2d2e40bc4a9aade5b7056525c0e679b54c0f9db1171bb05e9aa68917131a0a9fc64d88a2b83996fc71f69b37e110954b6862afe8a2d3ecd07e838a104b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gamebook.sty \

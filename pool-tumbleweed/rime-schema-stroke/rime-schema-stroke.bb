@@ -1,11 +1,11 @@
-SUMMARY = "stroke input schema for rime"
+SUMMARY = "Stroke input schema for rime"
 DESCRIPTION = "stroke input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-stroke-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "0b34180cd57a83d155aa651c786b2a9e2ab122160b096c222fd2d4f2f5e135b57c48ca76554fe293938572da61882f8011c3f45950a302c2db5b48c620610cd2"
+RPM_NAME = "rime-schema-stroke-20250315-1.4.noarch.rpm"
+RPM_HASH = "b877019025bead2f8bd28abff2b7eb415a130e87a01cd034dadf81a98ab80f22f756e8a7cd862b09ad1dd55b7f0036edf384fe321e576647807591c12a49b825"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-stroke"

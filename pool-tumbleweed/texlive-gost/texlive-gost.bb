@@ -7,10 +7,10 @@ set of three styles (which do not conform to current standards) \
 are retained for backwards compatibility."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2lsvn57616"
+PV = "2026.226.1.2lsvn76790"
 
-RPM_NAME = "texlive-gost-2023.209.1.2lsvn57616-54.2.noarch.rpm"
-RPM_HASH = "853c55589c6d7b7da0242b2f5287746e1b1010ac732d8283d16cffc84f0f162b7f202438ffed631b3bed9ced6a4a9c9c671a2f865d5bd6a562bd05f91f420d63"
+RPM_NAME = "texlive-gost-2026.226.1.2lsvn76790-60.4.noarch.rpm"
+RPM_HASH = "3704102e0038cbcd289600404bb98170fdcc950c3dc04886e00c7d56b324214ac73749455e3aa632c43802c671a4d3d1dae62d372bd7120f372ee00ded3ad3cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gost"

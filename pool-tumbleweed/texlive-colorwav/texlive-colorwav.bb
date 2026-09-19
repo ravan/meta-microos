@@ -5,10 +5,10 @@ default unit is nanometres, but other units may be used. Note \
 that this function is also available within xcolor."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn67012"
 
-RPM_NAME = "texlive-colorwav-2023.209.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "68b851976a2aebd894d1f3adb62c8f56ada2ae2002ac8fddb40553f295c18110b798e43485a9f960d4a7461fc6034fa836641466890f8a31195f8ecd408490b2"
+RPM_NAME = "texlive-colorwav-2026.226.1.0svn67012-60.2.noarch.rpm"
+RPM_HASH = "dda6ac85cd8b7e7269c01887724e9a537efdae6eac00659e80aa7870a6cabafefc3482783cb48a04ac79154212d0a97cbbcb56baa27022f61d17a27687daca54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colorwav.sty \

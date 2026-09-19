@@ -2,10 +2,10 @@ SUMMARY = "Qt Development Kit"
 DESCRIPTION = "Tools for working with the Qt Quick 3D module."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.10+kde1"
+PV = "5.15.19+kde1"
 
-RPM_NAME = "libqt5-qtquick3d-tools-5.15.10+kde1-1.1.aarch64.rpm"
-RPM_HASH = "f7adc3a82c2c067632e7c326fb72d7fc4dc3b102fadecfc68b45a493e480832826eb23a68db16fc02d0ec09423ab70e6a7564f4af3a17d38f540f5164c241022"
+RPM_NAME = "libqt5-qtquick3d-tools-5.15.19+kde1-1.2.aarch64.rpm"
+RPM_HASH = "3441548ae85f5a73686716c3fad6690beb5603cfe74567be80902d6d12d69a47309af610bf220695b7f1bdb40d561bd2d312efd63ff9c00a4070bf854cab1473"
 
 RPROVIDES:${PN} += "libqt5-qtquick3d-tools"
 

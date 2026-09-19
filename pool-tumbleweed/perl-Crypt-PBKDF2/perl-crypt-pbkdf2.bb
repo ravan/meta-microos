@@ -1,4 +1,4 @@
-SUMMARY = "The PBKDF2 password hashing algorithm"
+SUMMARY = "The PBKDF2 password hash algorithm"
 DESCRIPTION = "PBKDF2 is a secure password hashing algorithm that uses the techniques of \
 'key strengthening' to make the complexity of a brute-force attack \
 arbitrarily high. PBKDF2 uses any other cryptographic hash or cipher (by \
@@ -9,10 +9,10 @@ output of the backend hash). The hash is salted, as any password hash \
 should be, and the salt may also be of arbitrary size."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.161520"
+PV = "0.261630"
 
-RPM_NAME = "perl-Crypt-PBKDF2-0.161520-1.11.noarch.rpm"
-RPM_HASH = "c997c1a3181e957b8e8b1848ce3a2d0de3a1d587cedeeb348cd16fc3f174b96d86a5ea4c5c648532aec4914ff7ed4507f7f815368045455a3cd9a0539a783fdf"
+RPM_NAME = "perl-Crypt-PBKDF2-0.261630-1.3.noarch.rpm"
+RPM_HASH = "cfdb34de1c56376bf93e26a17c2c8a634173531fc035392e19247ed53b18c8c5721e67a89eea4f92a15d6a7d1964d62d3200e4a935d712a3d1cd5c58d55d9969"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--PBKDF2 \
@@ -23,7 +23,8 @@ perl-Crypt--PBKDF2--Hash--HMACSHA2 \
 perl-Crypt--PBKDF2--Hash--HMACSHA3 \
 perl-Crypt-PBKDF2"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Crypt--URandom \
 perl-Digest \
 perl-Digest--HMAC \
 perl-Digest--SHA \

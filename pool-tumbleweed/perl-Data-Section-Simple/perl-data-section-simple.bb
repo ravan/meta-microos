@@ -1,17 +1,17 @@
 SUMMARY = "Read data from __DATA__"
 DESCRIPTION = "Data::Section::Simple is a simple module to extract data from '__DATA__' \
 section of the file."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.07"
+PV = "0.70.0"
 
-RPM_NAME = "perl-Data-Section-Simple-0.07-1.29.noarch.rpm"
-RPM_HASH = "7895566a73962b7c9ae0587f5c8018beabd3e7ba13fd604f0d3cae38eb658bb0e3d672df3afb9a1c4542ad130470a8dd03a5d5ee5bd59f03cf4c8a36a2973da9"
+RPM_NAME = "perl-Data-Section-Simple-0.70.0-1.8.noarch.rpm"
+RPM_HASH = "836f1d0683bc6a692e72496fe086ee20944451a68a99480a1fd5787f34eb3033151a50e98fd3047706238f967104c3a6703cdc8b308cd3592387e37391be953f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Section--Simple \
 perl-Data-Section-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

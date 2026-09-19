@@ -8,10 +8,10 @@ This package contains all files needed to create projects that use \
 the mpich version of PnetCDF."
 LICENSE = "NetCDF"
 
-PV = "1.12.3"
+PV = "1.14.1"
 
-RPM_NAME = "pnetcdf-mpich-devel-1.12.3-1.4.aarch64.rpm"
-RPM_HASH = "ca19237e4da14dac80834e586c2e5c6335cc22c3bd10532921241e81356398fe18486624cef3a9379eaaa472cfb9ae7078225e19f35dfc8cdb5c4aed43fa3ca8"
+RPM_NAME = "pnetcdf-mpich-devel-1.14.1-1.3.aarch64.rpm"
+RPM_HASH = "a9533d8ad21c537c014bc6ec48ec3f96e91938de1b741626fbb65dfd64c833863af950e38cdd02214828d17e125c4e541cce6c3a3c6bc8f2e13ac6e32dc45597"
 
 RPROVIDES:${PN} += "parallel-netcdf-mpich-devel \
 pkgconfig-pnetcdf \

@@ -3,14 +3,15 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about Intel MIC cards."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-mic-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "febe6cf9aa56e489fa4024937079c9ef356630f6db5725132f5ea8dd291acbca3ecd978477176169408b43ded9b845f6fd6ffbab43033bee2de863a37e8489c5"
+RPM_NAME = "pcp-pmda-mic-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "cfe9bf1dc965924c0d2e3f3f215596148f55f4f3347229e7a991e5ad0ed2a24617a0bbff39c1f3f6161b7384d5885d2a7fc70fab742bd03153a79ec57fd19c2b"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-mic"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 /usr/bin/sh \
 python3-pcp"
 

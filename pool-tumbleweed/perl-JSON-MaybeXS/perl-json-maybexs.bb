@@ -13,17 +13,16 @@ want to pass options as constructor args rather than calling mutators, so \
 we provide our own 'new' method that supports that."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.004005"
+PV = "1.004008"
 
-RPM_NAME = "perl-JSON-MaybeXS-1.004005-1.3.noarch.rpm"
-RPM_HASH = "de0809fc5424eae686b9fce056f66b3186eedaea7e89a81ae871874a3f48248c484790c0de57448927ae4b483f5d2081a6c5f6f337a818cd1d0e33090a87af0f"
+RPM_NAME = "perl-JSON-MaybeXS-1.004008-1.10.noarch.rpm"
+RPM_HASH = "66d1b06d8ae59bcc2f66b7a147c556ac4de821c1ceab7b6f650d4e3d03e849ce635e4db922f51a4af49ea43b06c4684e17872d74249a7943f3207ade54decfaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-JSON--MaybeXS \
 perl-JSON-MaybeXS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-Cpanel--JSON--XS \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-JSON--PP"
 
 inherit rpm

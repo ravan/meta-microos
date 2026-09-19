@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1"
 
-RPM_NAME = "iwlfwdump-1-1.1.noarch.rpm"
-RPM_HASH = "8bbe8ba0dc2b5650cc3667be1952a8495cd9e7f0029da706b7123d4ba52fee731c43b8200cb8c91bcb269f5ea655327330c0a27fba9293befa9c7a1638cd9d14"
+RPM_NAME = "iwlfwdump-1-1.9.noarch.rpm"
+RPM_HASH = "2c02743310556640a1b2d438c320186a45d189a92058e297c75061b83b2acefad8c3b37b2956b9c663928a9ede9ca2a44786b96ef1d8b883c38676fcab37de77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iwlfwdump"

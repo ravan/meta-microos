@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "libqrtr-glib0-1.2.2-1.5.aarch64.rpm"
-RPM_HASH = "3c7708c6aa02cb0843c5b5892c5b24e6f6f13270f7fc81c005f60357a6db275ec4ccaf26ed3d24666252f14ab7ccfade7413319c6d137e4b2a15b218975d7bce"
+RPM_NAME = "libqrtr-glib0-1.2.2-1.17.aarch64.rpm"
+RPM_HASH = "4391287b1171ebb61691b24bf4ae9c11db6a785b5187267ba5ed4b0a832e72370528ee25be8be047914f65247d271a5bbeea3d71c7ae2f64dba1ae8f9eff91d5"
 
 RPROVIDES:${PN} += "libqrtr-glib.so.0 \
 libqrtr-glib0"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains ALSA-library plug-ins using maemo SDK for \
 Nokia 770."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-maemo-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "bd5d356f2cf567a7128c98dc87ea3533a17716404f5980c01d571f67488bf6b7b5ede86a405c88512eba526ac7f4e43464bdc6c4b3bbe2d1d7c383c98ef2241c"
+RPM_NAME = "alsa-plugins-maemo-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "a549eb4eb42cc6f68a291fb1fb3580d1790ccb79f274092d386ec35a8b906c9e2c0cbb7ce6053c5db9a114de8f150187aa22eb913bad1cb2b0055b452b40ab0c"
 
 RPROVIDES:${PN} += "alsa-plugins-maemo \
 libasound-module-ctl-dsp-ctl.so \

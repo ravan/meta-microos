@@ -5,10 +5,10 @@ Gnome, XFCE, Mate, Cinnamon, etc. Also provides support for KDE plasma. \
 This package provides the GTK+ 4 support for Dracula theme."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.0+git94.9840b6b"
+PV = "4.0.0+git146.2618a03"
 
-RPM_NAME = "gtk4-metatheme-dracula-3.0+git94.9840b6b-1.1.noarch.rpm"
-RPM_HASH = "e03496dc10d73e9252b737ace18e28f1432973ca93ad07ef27eacf8d704d750bdc0547dd7f57bc88344288d5350fb305e1b48cf4b79f86f01796a0ab8b787802"
+RPM_NAME = "gtk4-metatheme-dracula-4.0.0+git146.2618a03-1.2.noarch.rpm"
+RPM_HASH = "6201f7054a75e36f96ce1fd83dba24995164ed633dc92c65cd0b975b16395d43d9597538fe42e67562847ebae78c29ad851396b187ea2fc2b797880194b8057d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracula-gtk-theme \

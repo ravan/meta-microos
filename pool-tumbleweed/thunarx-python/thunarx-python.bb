@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "thunarx-python-0.5.2-1.13.aarch64.rpm"
-RPM_HASH = "45ce27e34a6265c35050debc896bde8daceb5c2de6934b194f7a9c4bc42f37393ca0eaeda6e02ea31093a069ee07cfb15e1d44068deddd316f72f596196ae5e6"
+RPM_NAME = "thunarx-python-0.5.2-1.26.aarch64.rpm"
+RPM_HASH = "91ec0a2aead547f4fb76cb375b0a28d8d2f34954ed17a20bd7759968e4555cf63d3e81afee892f8a0a8d7a17b491dd4a3892bc5b00db7d60a2c19542d7dd6ffd"
 
 RPROVIDES:${PN} += "thunarx-python"
 
@@ -15,7 +15,7 @@ libc.so.6 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libthunarx-3.so.0 \
 thunar"
 

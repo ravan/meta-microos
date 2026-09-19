@@ -4,13 +4,12 @@ LICENSE = "MIT"
 
 PV = "1.5"
 
-RPM_NAME = "lua53-lua-ev-1.5-4.3.aarch64.rpm"
-RPM_HASH = "f4241492da10343aa4028f02d7903e1d49e3090056766a164da617f081ad2afdc264d7c620bafc7dc2a721a7f94bd3dc4da6c0d38018964ad7163cdfced163f5"
+RPM_NAME = "lua53-lua-ev-1.5-7.3.aarch64.rpm"
+RPM_HASH = "ae7753ffd8a093e856d5ec1214be8853bd8595a1b33ed6e3f1eb9bf068e5d90016da547cbf8c7dcab709c1d04168ba893d178440c18d3e3ce47b5f5f263a0090"
 
 RPROVIDES:${PN} += "lua53-lua-ev"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libev.so.4 \
 liblua5.3.so.5 \
 lua53"

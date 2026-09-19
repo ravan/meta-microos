@@ -22,8 +22,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7"
 
-RPM_NAME = "velocity-1.7-11.7.noarch.rpm"
-RPM_HASH = "6e5175798251d1ac896fe4356aa24d6feb47a9f2f1496027addce1d2c60cf0782f00b4eb3a60c2f7fc48a47e1a6a37667bdcff5c2f590fd187a16ddee93a8711"
+RPM_NAME = "velocity-1.7-15.9.noarch.rpm"
+RPM_HASH = "93a042f9b3816b965571336dc51f31973351e5fa238ca49c6916e2d28689ea7c667dc77f3789c050576db73a6459f612ad2aded4f8da7f54fd6344f4e24ed923"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.velocity-velocity \
@@ -33,18 +33,9 @@ mvn-velocity-velocity-pom- \
 osgi-org.apache.velocity \
 velocity"
 
-RDEPENDS:${PN} += "avalon-logkit \
-commons-collections \
-commons-lang \
-java \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-jdom \
 mvn-commons-collections-commons-collections \
-mvn-commons-lang-commons-lang \
-oro \
-reload4j \
-servletapi4 \
-werken-xpath"
+mvn-org.apache.commons-commons-lang3"
 
 inherit rpm

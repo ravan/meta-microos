@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-frontespizio"
 DESCRIPTION = "This package includes the documentation for texlive-frontespizio"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4asvn24054"
+PV = "2026.226.1.4asvn24054"
 
-RPM_NAME = "texlive-frontespizio-doc-2023.209.1.4asvn24054-53.1.noarch.rpm"
-RPM_HASH = "8df9073bd464ea40cf31c2b15fa19de9ef80d94f5229ec5fc3c606f3d78a466451db7e85c6e695d6e80c9542e7a063b3725cf14930e01d57c95ccf39cc7a3d55"
+RPM_NAME = "texlive-frontespizio-doc-2026.226.1.4asvn24054-60.2.noarch.rpm"
+RPM_HASH = "0fd81c89185303f156c5bebeb1bafd7e0a8e96613f36c94a2bcefece3a42dbaf7d5302f70bd112f063abfae5feb1121c50889a66b104644f0eb4e797c7dcdb05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-frontespizio-doc-it \

@@ -7,14 +7,14 @@ LaTeX, is also provided (and makes use of the nfssext-cfr \
 package)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.005svn19444"
+PV = "2026.226.2.0svn77682"
 
-RPM_NAME = "texlive-venturisadf-2023.209.1.005svn19444-54.1.noarch.rpm"
-RPM_HASH = "1b4e76f0d2f13762e907aa9c4f5235f41713ca340667ce81de34fd63cce31ab5f0caa9638c73dff57d3a1e7f610dd88f35b66348d61d3ccd7fa03ecb4fa27664"
+RPM_NAME = "texlive-venturisadf-2026.226.2.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "e7dad786926f0c786b53dc0f1ef21a61704f4d72c1cdb62bca6bb48db0b5ffb1bb58f5ec950c069d5e5fb1c99351fc77cffe632c6b2afcad0cbbe6f8ebdf3ab9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-t1-dotalt-f-f-venturisadf.enc \
-tex-t1-f-f-venturisadf.enc \
+RPROVIDES:${PN} += "tex-t1-dotalt-f-f-yv.enc \
+tex-t1-f-f-yv.enc \
 tex-t1-venturis.enc \
 tex-t1-venturisold-longs.enc \
 tex-t1-yv1b-c.tfm \
@@ -109,7 +109,7 @@ tex-t1yvtd.fd \
 tex-t1yvtj.fd \
 tex-t1yvtjw.fd \
 tex-t1yvtw.fd \
-tex-ts1-euro-venturisadf.enc \
+tex-ts1-euro-yv.enc \
 tex-ts1-yv1b-c.tfm \
 tex-ts1-yv1b-x.tfm \
 tex-ts1-yv1b.tfm \
@@ -597,9 +597,9 @@ grep \
 sed \
 tex-fontenc.sty \
 tex-nfssext-cfr.sty \
+tex-svn-prov.sty \
 tex-textcomp.sty \
 tex-updmap.cfg \
-tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

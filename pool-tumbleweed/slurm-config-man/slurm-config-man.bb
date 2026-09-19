@@ -2,10 +2,10 @@ SUMMARY = "Config files and directories for slurm services"
 DESCRIPTION = "Man pages for the SLURM cluster managment software config files."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.4"
+PV = "25.11.2"
 
-RPM_NAME = "slurm-config-man-23.02.4-2.1.noarch.rpm"
-RPM_HASH = "7f1af4f723089e236b090916337b48b3f57b70495f1103c8ec5fdc6954451a5c027c99b32f6b5b9e72a8f41cdb5d5db36424083255b67c035ba5a0ca7f241bea"
+RPM_NAME = "slurm-config-man-25.11.2-1.6.noarch.rpm"
+RPM_HASH = "abf88afc5a6f0ac88ae0f622355afc30a6772b4ab451d1a934d23afb21835c8834baa1d8871ac25584b80e924b695c13fb56ebd37585f7ac3ce2f9da65716dee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slurm-config-man"

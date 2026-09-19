@@ -6,10 +6,10 @@ display the numbers with measurement uncertainties, the package \
 is able to perform Gaussian error propagation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0.5svn59138"
+PV = "2026.226.1.0.5svn59138"
 
-RPM_NAME = "texlive-lua-physical-2023.208.1.0.5svn59138-53.1.noarch.rpm"
-RPM_HASH = "28efd34e727976130d746ed89bff0d2eaceb9a23116038f1b6fbf74ba376c432e9ff1b92604083ba41e278881580db666409b68e43604bf872b2d242fccbf34f"
+RPM_NAME = "texlive-lua-physical-2026.226.1.0.5svn59138-59.2.noarch.rpm"
+RPM_HASH = "80515c760e9d4d74ccfb297449cdc10a7aedccb22ba8b9b75f82876f7b30c4fb3f14c3a574b1526cdeed371341ff1e5780742b8230dab133d2c8f54d68fb6e72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-physical"

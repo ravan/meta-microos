@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kanbun"
 DESCRIPTION = "This package includes the documentation for texlive-kanbun"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn62026"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-kanbun-doc-2023.209.1.2svn62026-56.1.noarch.rpm"
-RPM_HASH = "9ee4537ffd328d1dee48480a42fd45ed3da356995d0e9b390a0e47b43949303de037c7783c6cab8bdccc44c47d61a7a36e487b77a51b54d7e80a5317a387708d"
+RPM_NAME = "texlive-kanbun-doc-2026.226.1.3svn77682-63.2.noarch.rpm"
+RPM_HASH = "d4cc2bd5a6fb3f64dc2e064b434630786c7d6587d74424b4aafd103387c915eac0ae17f814fa7e814813090bbdafe241ec649fe5051ee0d75097fc4173798131"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ja) \

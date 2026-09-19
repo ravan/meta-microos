@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.13"
 
-RPM_NAME = "ladspa-alienwah-1.13-3.24.aarch64.rpm"
-RPM_HASH = "5478304aebc543c7da1fa2894355aae52c08c38b79a780c84c588b6b7bff22b5d60549fa2493a3da28929fc45bfb629f075c25bcd29fe22429590e7664853d00"
+RPM_NAME = "ladspa-alienwah-1.13-4.9.aarch64.rpm"
+RPM_HASH = "40fec35c30b3b50b28eb634faa3898ea8318b4c0b92cd7dffebc550d499b849d597ac6b35cbd15ac85d5ea3bb5de42475049ef2ea2f52f9980757761b748d799"
 
 RPROVIDES:${PN} += "ladspa-alienwah"
 

@@ -4,10 +4,10 @@ Super Erbi (as erbi) \
 and  Erbi Qin-Song (erbi-qs)"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.12"
+PV = "1.8.14"
 
-RPM_NAME = "ibus-table-chinese-erbi-1.8.12-1.2.noarch.rpm"
-RPM_HASH = "53f649e5f4c0aadbde7adb67ffab36fcdb8fd4b0b1006851b07fe968dac383b67489ffac16376a1f02b3130a592befe66ce0b7bf04c6093f577a40b40b2a327b"
+RPM_NAME = "ibus-table-chinese-erbi-1.8.14-1.6.noarch.rpm"
+RPM_HASH = "002f467309df253b22d921e6e8ea4a9a715ef0bf3d07ad6733eef75bbd6c410fb3847d4a405c58013bdf94cb6303977f34949387c4331e490523987b5f288e8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-chinese-erbi \

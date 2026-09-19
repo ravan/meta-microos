@@ -2,13 +2,13 @@ SUMMARY = "Documentation for texlive-pst-node"
 DESCRIPTION = "This package includes the documentation for texlive-pst-node"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.43svn61838"
+PV = "2026.226.1.45svn77682"
 
-RPM_NAME = "texlive-pst-node-doc-2023.209.1.43svn61838-53.1.noarch.rpm"
-RPM_HASH = "5c76db9f3b7168825d7310c25bba36823d9d07ac543a99eedbb25a05947891b03ea020eab7cb48870050e756c1f5d5e53ec159b761ec3485c4315123f633d657"
+RPM_NAME = "texlive-pst-node-doc-2026.226.1.45svn77682-59.2.noarch.rpm"
+RPM_HASH = "773e454465f624ede7d73aea468362f43b6d25801a884a636fb8354b6ee21cf1a75ff789bb925ea3e995f31fd7d7d31dc601153c8490936a2b6759985f82c6f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-texlive-pst-node-doc-en \
+RPROVIDES:${PN} += "locale-texlive-pst-node-doc-de \
 texlive-pst-node-doc"
 
 RDEPENDS:${PN} += ""

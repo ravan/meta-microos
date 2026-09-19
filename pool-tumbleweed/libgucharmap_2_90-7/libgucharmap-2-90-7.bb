@@ -4,10 +4,10 @@ DESCRIPTION = "Gucharmap is a featureful unicode character map. \
 This package contains a library to use the character map."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "15.0.4"
+PV = "17.0.2"
 
-RPM_NAME = "libgucharmap_2_90-7-15.0.4-1.1.aarch64.rpm"
-RPM_HASH = "44b47ace6caeda21cf3e5ab804c578a3c6f810aedb3e26ef46f6180c4c321a31110392e69bbf975b94df5f20a9f240f705c77699bf546c7b4e434cb6708b829b"
+RPM_NAME = "libgucharmap_2_90-7-17.0.2-1.4.aarch64.rpm"
+RPM_HASH = "fa8865cc66b47f749bb9ca1eba60e5f3a62ef5a989fff25ac858fccb733815ea4e2ac2273d3394fc39fcaa8ed9d8173f3fa160f5a9b4641e31886476f5b681e7"
 
 RPROVIDES:${PN} += "libgucharmap-2-90-7 \
 libgucharmap-2-90.so.7"

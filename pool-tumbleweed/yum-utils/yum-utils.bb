@@ -5,10 +5,10 @@ repomanage, repoquery, reposync, repotrack, builddep, config-manager, debug, \
 and download that use new implementations using DNF."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.1"
+PV = "4.10.1"
 
-RPM_NAME = "yum-utils-4.3.1-2.2.noarch.rpm"
-RPM_HASH = "7adab0ebb3c7e389884d746dfe1b1acf53c4451ecf7562cacd9b35b90f9a52be7fb23627b6210113c22ba46e1a260bd2c763cf22fea11020d426436a33126de2"
+RPM_NAME = "yum-utils-4.10.1-1.6.noarch.rpm"
+RPM_HASH = "0e0986e0212ae0ff8956c8a62e30903d2aa1695212c5da50b659b09b471f9d143ce9501c62d7e1244c8fb50b84ab495595720bb10ce4fb97efbdbadec43f98f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-utils \

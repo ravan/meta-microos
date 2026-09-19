@@ -2,10 +2,10 @@ SUMMARY = "Haskell topograph library documentation"
 DESCRIPTION = "This package provides the Haskell topograph library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.0.0.2"
+PV = "1.0.1"
 
-RPM_NAME = "ghc-topograph-doc-1.0.0.2-2.4.noarch.rpm"
-RPM_HASH = "147fea1417e78838a12533dfefd24ade8719f9a9f958ebf27127574bdfb586bdb2529b93a9370b6f62057517089eb0ad5e0ec95dde08d54af21be698b95ceef8"
+RPM_NAME = "ghc-topograph-doc-1.0.1-2.21.noarch.rpm"
+RPM_HASH = "64e985ee0d91e7c5c5824be2fa8c8f79ba9d1a5f3aa8d32c0d8449fe41e9ee8d07494737c478e941d7504145e7c878fae04de61a98f56ea5ae9fc3451b89e771"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-topograph-doc"

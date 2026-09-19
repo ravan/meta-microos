@@ -2,10 +2,10 @@ SUMMARY = "Qt PlatformSupport module"
 DESCRIPTION = "Qt PlatformSupport module."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5PlatformSupport-devel-static-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "06a4c35d3428eeb5ad52914e4925ddac753d577b4938f77f77f332c9db7250fda3aff1a87b1546a83efa1e76a83200e991f0923d8f8d62f9ce4fd8a78ec8bcea"
+RPM_NAME = "libQt5PlatformSupport-devel-static-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "fe4ee31cfd347845634dcff0bdf53c77a3605489db6175b0984b5acf10017ee1c363a7b24a1a36506e429515d9aaa49d2f02351e13c6a7da5997351b2e0d405d"
 
 RPROVIDES:${PN} += "cmake-Qt5AccessibilitySupport \
 cmake-Qt5DeviceDiscoverySupport \

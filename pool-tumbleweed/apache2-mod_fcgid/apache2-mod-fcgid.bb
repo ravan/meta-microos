@@ -15,16 +15,18 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.3.9"
 
-RPM_NAME = "apache2-mod_fcgid-2.3.9-11.12.aarch64.rpm"
-RPM_HASH = "711f878143a8adcf51992697c63a35f81d645993f2642619b22e6cfe878ad1b8ba25c72f1b386782d22e38db7b6028f465bfbef9d11014e9c6d8b59fe42349c1"
+RPM_NAME = "apache2-mod_fcgid-2.3.9-13.11.aarch64.rpm"
+RPM_HASH = "12e6b13f2d0ccb90065773b0e9c7e9d0bb2b3f6f44bc3e8ef65c88e4f7d43ee9891a26abd30a4b801bef8a3c0bb186b1820d80e1d0c3d03955497db119f3c160"
 
 RPROVIDES:${PN} += "apache2-mod-fcgid \
 config-apache2-mod-fcgid"
 
 RDEPENDS:${PN} += "apache-mmn-20120211 \
 apache2 \
+group-www \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-suse-maintenance-mmn-0"
+suse-maintenance-mmn-0 \
+user-wwwrun"
 
 inherit rpm

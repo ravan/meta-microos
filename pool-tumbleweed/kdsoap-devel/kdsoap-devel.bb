@@ -4,10 +4,10 @@ This package provides development headers to use KD Soap in Qt based \
 applications."
 LICENSE = "MIT"
 
-PV = "2.1.1"
+PV = "2.3.0"
 
-RPM_NAME = "kdsoap-devel-2.1.1-1.4.aarch64.rpm"
-RPM_HASH = "de91131f1860572ce1be327e2a02f5c40e5aebbebce9e862653792de63f89173c2ddd0ba9067ab79646f52235c1c7c2b71101c55c7e201423c822ac90df00493"
+RPM_NAME = "kdsoap-devel-2.3.0-1.3.aarch64.rpm"
+RPM_HASH = "28f8ba54445c8ac3790569ee1fb4d55872de7196f7f40bdc48fe5951e5d2f87ce597f0770cacbc236cf198e26300dd7eff3b2303e0e35476b36b01be20fdc5bd"
 
 RPROVIDES:${PN} += "cmake-KDSoap \
 kdsoap-devel"

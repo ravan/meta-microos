@@ -4,10 +4,10 @@ running on a machine via a network. Accepts input on standard input, \
 so can be easily used in scripts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.34"
+PV = "0.35"
 
-RPM_NAME = "mpclient-0.34-1.9.aarch64.rpm"
-RPM_HASH = "d6be30dc3e439e3a2000bb6427ba992b36f20892ed32776dcbf749168f1477e62e91246ef59cfc6d1c8acbc2b389be5a81e1e9bf74b81345c2b13f2be72732a1"
+RPM_NAME = "mpclient-0.35-2.3.aarch64.rpm"
+RPM_HASH = "381b81d847015d00f56a1211c2004f9ce9e65a8bf529b87324a0065e75fc02be6027fc3ac1f62722ad06f9a1952f253a94b871e1e580e2d2d08878257da5fd76"
 
 RPROVIDES:${PN} += "config-mpclient \
 mpclient"

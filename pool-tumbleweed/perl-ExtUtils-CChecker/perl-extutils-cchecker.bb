@@ -13,16 +13,16 @@ or for the right include directories to find header files in. This class \
 also provides assistance here."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.11"
+PV = "0.120.0"
 
-RPM_NAME = "perl-ExtUtils-CChecker-0.11-1.11.noarch.rpm"
-RPM_HASH = "73e13c42a3255ec850b8fb4b3d497b1831c63166b407f1fe8ddbdf4ef36ef93b886f439c2639bcf53d1ff34bf7c3645bf13490e799b8837339123d2f7605d38e"
+RPM_NAME = "perl-ExtUtils-CChecker-0.120.0-1.12.noarch.rpm"
+RPM_HASH = "e515c512990b689eb63dfbf5dcad8f24f481c0cdaa7a9f620ff9f75db92f5743a32995029979ccfd805848c66618badcb1cac2b1dcbb4fdedb607b2603920fdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-ExtUtils--CChecker \
 perl-ExtUtils-CChecker"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-ExtUtils--CBuilder"
 
 inherit rpm

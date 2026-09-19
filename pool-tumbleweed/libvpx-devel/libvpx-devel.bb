@@ -9,15 +9,15 @@ and audio streams compressed with the Vorbis audio codec. \
 The WebM file structure is based on the Matroska container."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "1.13.0"
+PV = "1.16.0"
 
-RPM_NAME = "libvpx-devel-1.13.0-1.4.aarch64.rpm"
-RPM_HASH = "22e722ba9eb9f5b6fd1032b9c87b76445a9928464cd1133d43b909e7351b17f7dc8024542e09179a9c48a3253f1efb63510f6d85a3289e40edebf8da686c34cb"
+RPM_NAME = "libvpx-devel-1.16.0-1.4.aarch64.rpm"
+RPM_HASH = "85390a7456d455b1dcfa6d73bdf35f7b34f8ac7f0f685bf16ba9bfc38e1f11212b80f6b34b599bcc3aa23f33b2e5f4edd73a442c8234dfc803c9e995310e99ea"
 
 RPROVIDES:${PN} += "libvpx-devel \
 pkgconfig-vpx"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libvpx8"
+libvpx12"
 
 inherit rpm

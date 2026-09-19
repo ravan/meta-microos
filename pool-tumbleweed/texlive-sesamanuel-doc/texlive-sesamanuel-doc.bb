@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sesamanuel"
 DESCRIPTION = "This package includes the documentation for texlive-sesamanuel"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn36613"
+PV = "2026.226.0.0.6svn36613"
 
-RPM_NAME = "texlive-sesamanuel-doc-2023.209.0.0.6svn36613-54.1.noarch.rpm"
-RPM_HASH = "fd4260110abf74c7e93947aa76cbe11b3de75689d27f3999de81daf5c53c33f725b81303c325d6e501330b10cd22fc6601e4415709aaee6f4459d16b2a33ba83"
+RPM_NAME = "texlive-sesamanuel-doc-2026.226.0.0.6svn36613-60.2.noarch.rpm"
+RPM_HASH = "0a4bc85f63efd9f2c51fd222b38a95a106dfab6a91ebe54b18f3b09ec8b9697bd9f977305019ba74be0bc7b24f6c3f79f0373bd89df2cba17656a3c596e5bb47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-sesamanuel-doc-fr \

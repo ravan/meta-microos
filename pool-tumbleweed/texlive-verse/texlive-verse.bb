@@ -4,10 +4,10 @@ the package is strong on layout, from simple alternate-line \
 indentation to the Mouse's tale from Alice in Wonderland."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.4bsvn34017"
+PV = "2026.226.2.4csvn77682"
 
-RPM_NAME = "texlive-verse-2023.209.2.4bsvn34017-54.1.noarch.rpm"
-RPM_HASH = "1fe18a55de634424aa0540bafc2e96347023f2216f57b1dc915d5b2984912edc3b34573536c9f2c54452e5a10bacd6ad3252fbe3c3a11e5c9330ec7c55eb15fc"
+RPM_NAME = "texlive-verse-2026.226.2.4csvn77682-60.2.noarch.rpm"
+RPM_HASH = "acd5e74a11581ce01b471ab81313a096b3819bdf640785d4e01ab1061db99302e09367f642ddeebd721bbd0ef7a1cc300306c1bdfff263f57ecf82d91c148290"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-verse.sty \

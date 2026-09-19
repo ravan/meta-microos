@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-drawstack"
 DESCRIPTION = "This package includes the documentation for texlive-drawstack"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn28582"
+PV = "2026.226.svn28582"
 
-RPM_NAME = "texlive-drawstack-doc-2023.209.svn28582-53.1.noarch.rpm"
-RPM_HASH = "f29ca06738406cf17e2576ab55edced8b3657afff381d89f30672294064d2b563ca36f65d7f6653693d050cc74f2224d5d11ee816833b5d545ddb414c0ff630c"
+RPM_NAME = "texlive-drawstack-doc-2026.226.svn28582-59.2.noarch.rpm"
+RPM_HASH = "b97f1e8e3ad1927a75e1127146bcddb8f903c4fbb3a911a102ed5b4c4349f851dcbfd61a169005c910c4f3275a6f876d9c42a692b65273a23629cbc010d2591c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-drawstack-doc"

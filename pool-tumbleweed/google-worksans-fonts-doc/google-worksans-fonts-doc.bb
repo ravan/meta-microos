@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.010"
 
-RPM_NAME = "google-worksans-fonts-doc-2.010-1.7.noarch.rpm"
-RPM_HASH = "ce471e965b904f4fa60e89533a499cbf649b403966bbec855dc49fd57009ce82f08c537508807a6144d2d88bcc140832add8f3f174355092841aa1ba25233e15"
+RPM_NAME = "google-worksans-fonts-doc-2.010-1.15.noarch.rpm"
+RPM_HASH = "800a9929d908104b6ff6f544aa2f4f30f82e6fe35e1152d92dead22310882507a80c11efcc5ebec3e79ccd96758d911bc3f3cd534d4030568a9c8b784fdcfd76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-worksans-fonts-doc"

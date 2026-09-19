@@ -3,10 +3,10 @@ DESCRIPTION = "Multidef provides a simple way of defining several macros \
 having similar definitions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10svn40637"
+PV = "2026.226.1.10svn40637"
 
-RPM_NAME = "texlive-multidef-2023.209.1.10svn40637-55.1.noarch.rpm"
-RPM_HASH = "7f2f5ae60b9f39a1e2b3035ecbb040a4fa8e815d10ae0c7124b4656718f2ef122682668214094a13f330ab9add3b6b695e995e1becf597a2bada822ac72398f7"
+RPM_NAME = "texlive-multidef-2026.226.1.10svn40637-61.2.noarch.rpm"
+RPM_HASH = "f0cb230f0cf73029fcc9dce2bbb21d0153649857dda3285b253c9162f5d3174988ade7011a91211a23a7cb2666acefd974d7efdfa3095b0fe7af94fcf0b308c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multidef.sty \

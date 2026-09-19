@@ -14,12 +14,11 @@ LICENSE = "Apache-2.0 & W3C"
 
 PV = "2.12.2"
 
-RPM_NAME = "xerces-j2-2.12.2-2.7.noarch.rpm"
-RPM_HASH = "f70b791b6ba742ae8e227c8e7fb61eff5c8968d3a2ae6b2f98cf4728fff11487f66d18cf06456e566b2d251bfce8eb10c14df5d8a36b665a83bdcc8a062971ab"
+RPM_NAME = "xerces-j2-2.12.2-5.6.noarch.rpm"
+RPM_HASH = "329f01afd20bac5115884f0cb110c5876b0047391362ac4b259584652220951cf2140b4940391676809544ffa065eb131fa492df8b98922264afe76fb86d7f85"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jaxp-parser-impl \
-mvn-apache-xerces-j2 \
+RPROVIDES:${PN} += "mvn-apache-xerces-j2 \
 mvn-apache-xerces-j2-pom- \
 mvn-xerces-xerces \
 mvn-xerces-xerces-pom- \
@@ -38,9 +37,6 @@ javapackages-tools \
 mvn-xml-apis-xml-apis \
 osgi-javax.xml \
 osgi-org.apache.xml.resolver \
-osgi-org.apache.xml.serializer \
-xalan-j2 \
-xml-commons-apis \
-xml-commons-resolver"
+osgi-org.apache.xml.serializer"
 
 inherit rpm

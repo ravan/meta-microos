@@ -3,10 +3,10 @@ DESCRIPTION = "The LIRC library. LIRC is a package that supports receiving \
 and sending IR signals with the most common IR remote controls."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.1"
+PV = "0.10.2"
 
-RPM_NAME = "liblirc0-0.10.1-10.2.aarch64.rpm"
-RPM_HASH = "286764d2e14bd6b53164907c762eb41a9d5a2e4bbd4d3cf061efeabbd8205facdf2122fede2c115a0d9115d4fbd85ec53d4b5619c39ae451d39b55e1d5ee5543"
+RPM_NAME = "liblirc0-0.10.2-2.5.aarch64.rpm"
+RPM_HASH = "a760eae0a6171b85f8922023f46a3ece3949804ce04dc2a161de53b9d0d7e95b3a751b940376ea6501b21ef673b04652b1f8a74808ff270fb166520246345493"
 
 RPROVIDES:${PN} += "liblirc.so.0 \
 liblirc0"

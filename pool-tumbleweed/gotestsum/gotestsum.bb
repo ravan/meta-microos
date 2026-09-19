@@ -3,10 +3,10 @@ DESCRIPTION = "Go test runner with output optimized for humans, JUnit XML for CI
 and a summary of the test results."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.1"
+PV = "1.13.0"
 
-RPM_NAME = "gotestsum-1.10.1-1.1.aarch64.rpm"
-RPM_HASH = "0b959f0e8ed2db43afceb5d0a347a6e046d13ecc48cb472c90ac633cd1c32d5b1ed61d6068230fcba015d18d36286398c8069c8c0006d7aaab4a839240ab5239"
+RPM_NAME = "gotestsum-1.13.0-1.7.aarch64.rpm"
+RPM_HASH = "9f1a932a2debc7e0c49a381259292eaf464969ed786743e3374d2129704a2f6c5f8d8a065f7062c22262d8d457d11a6794b44c94bd59567f5b819c27500270a9"
 
 RPROVIDES:${PN} += "gotestsum"
 

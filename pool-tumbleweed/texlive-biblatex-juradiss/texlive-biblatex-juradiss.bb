@@ -4,10 +4,10 @@ German law thesis with LaTeX. The package (using BibLaTeX) is \
 based on biblatex-dw and uses biber."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.23svn56502"
+PV = "2026.226.0.0.23svn77682"
 
-RPM_NAME = "texlive-biblatex-juradiss-2023.209.0.0.23svn56502-54.1.noarch.rpm"
-RPM_HASH = "0e5e46e8386b225e16306c295bb3c6312b93c988379e03f4cff9fa78c7fd023a542c75327f1dadb9d46d9684903c3a53cb61970077e28652e5a3abfd5eaabcb9"
+RPM_NAME = "texlive-biblatex-juradiss-2026.226.0.0.23svn77682-61.2.noarch.rpm"
+RPM_HASH = "208939fa46a72fae3a20e4650a3e2b54f619c5843f6b31f069f4542ebd3cf7e52b5f2ff8acd0d58b6b676ae28595947dedd27bc72b8d03674c230e9ec6302414"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-juradiss.bbx \

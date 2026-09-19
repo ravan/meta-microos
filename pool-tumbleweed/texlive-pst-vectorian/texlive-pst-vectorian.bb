@@ -3,10 +3,10 @@ DESCRIPTION = "The package uses PSTricks to draw ornaments (a substantial \
 repertoire of ornaments is provided)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.41svn60488"
+PV = "2026.226.0.0.42svn78101"
 
-RPM_NAME = "texlive-pst-vectorian-2023.209.0.0.41svn60488-54.2.noarch.rpm"
-RPM_HASH = "68c8093520e7527ce37d4241beeff7dd4ddd10311b070d0d5b1fa6722d5ca75ce37978ca0d8e8bbefe41369540377f7a8864f5f04d4dff162cb6b6407b86f24d"
+RPM_NAME = "texlive-pst-vectorian-2026.226.0.0.42svn78101-60.4.noarch.rpm"
+RPM_HASH = "793d50c6777ed9e6d5824a4812372a6365aeb586acbaf69f532753f93e9a0c350d2d7b281ef1f56b682c1dbdbd27e5f88b6bf54870d9f5d25461526f796079d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-psvectorian.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-istgame"
 DESCRIPTION = "This package includes the documentation for texlive-istgame"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn62946"
+PV = "2026.226.2.1svn76924"
 
-RPM_NAME = "texlive-istgame-doc-2023.209.2.1svn62946-56.1.noarch.rpm"
-RPM_HASH = "887b33d83a4518214d88715ab21bb536c06d2220686e3896fcd10cbdb073a2a879eff7d16a1e5e5577919a3c2729d446483817c77755ba115ba8320ea1e5bcfb"
+RPM_NAME = "texlive-istgame-doc-2026.226.2.1svn76924-63.2.noarch.rpm"
+RPM_HASH = "c961dbb782dded3f9c40c839fe19b0d12eff01d93a0b42029d117088d7b4fe87c7e2e7c346acf79e6c51bf7a642c19c5c32bf0be030ec9692d529015f0680c84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-istgame-doc"

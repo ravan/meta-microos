@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-stopwatch-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-stopwatch-plugin' package."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.5.0"
+PV = "0.6.0"
 
-RPM_NAME = "xfce4-stopwatch-plugin-lang-0.5.0-1.9.noarch.rpm"
-RPM_HASH = "4c1ab1d51f0f9e61b38f899a5f8e58d38ce9fd150e3e80663c3cbe0bf12252d2129a531fd8e7a5a2122d2949330b45c905ed156ff35e4ec8b4313d62e9a35fe5"
+RPM_NAME = "xfce4-stopwatch-plugin-lang-0.6.0-1.4.noarch.rpm"
+RPM_HASH = "74419409d38b9ca735b1ad0937d2757552af1e8447210f3f82b54d947def14b19c5684e836cdd7ed17415c5a2febe08c3f948b8d8de2aa8ed333066e2568cd7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-stopwatch-plugin-ar \
@@ -43,6 +43,7 @@ locale-xfce4-stopwatch-plugin-oc \
 locale-xfce4-stopwatch-plugin-pl \
 locale-xfce4-stopwatch-plugin-pt \
 locale-xfce4-stopwatch-plugin-pt-BR \
+locale-xfce4-stopwatch-plugin-ro \
 locale-xfce4-stopwatch-plugin-ru \
 locale-xfce4-stopwatch-plugin-sk \
 locale-xfce4-stopwatch-plugin-sl \
@@ -52,6 +53,7 @@ locale-xfce4-stopwatch-plugin-sv \
 locale-xfce4-stopwatch-plugin-tr \
 locale-xfce4-stopwatch-plugin-ug \
 locale-xfce4-stopwatch-plugin-uk \
+locale-xfce4-stopwatch-plugin-vi \
 locale-xfce4-stopwatch-plugin-zh-CN \
 locale-xfce4-stopwatch-plugin-zh-TW \
 xfce4-panel-plugin-stopwatch-lang \

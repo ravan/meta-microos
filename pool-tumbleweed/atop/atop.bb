@@ -10,15 +10,16 @@ such as CPU time. Atop only shows the active system-resources and processes, \
 and only shows the deviations since the previous interval."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.9.0"
+PV = "2.13.0"
 
-RPM_NAME = "atop-2.9.0-1.2.aarch64.rpm"
-RPM_HASH = "cd1e35485043f304c08fac27e23827435f5338c8ce979a17bdaf46e618583db3b0a9de027ad0d220a34143aba5fa3b0f13541948d816fb398c2e2d3f74dd909c"
+RPM_NAME = "atop-2.13.0-1.1.aarch64.rpm"
+RPM_HASH = "c3d2f7f4322c21a19628d614c29a64569f5374b6ea8fbc537fdb93f48d4ff6aef057c511a8b601be3e7e05e77108cda483392853dd763b9a7e460dc476a684d8"
 
 RPROVIDES:${PN} += "atop"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libglib-2.0.so.0 \
 libm.so.6 \
 libncursesw.so.6 \
 libtinfo.so.6 \

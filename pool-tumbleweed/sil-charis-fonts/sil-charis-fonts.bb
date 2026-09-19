@@ -17,10 +17,10 @@ issues, such as the need to position arbitrary combinations of base \
 glyphs and diacritics optimally."
 LICENSE = "OFL-1.1"
 
-PV = "6.200"
+PV = "7.000"
 
-RPM_NAME = "sil-charis-fonts-6.200-1.1.noarch.rpm"
-RPM_HASH = "ae1d4b43bd3772997a0219b92dfd120434cc7a910ebd3f18fc633b822c6d6fd7206bdb4c5019597347abf5ed574043185df5910c31426209a34052aab07d5cd2"
+RPM_NAME = "sil-charis-fonts-7.000-1.4.noarch.rpm"
+RPM_HASH = "5c50b086cef14b060596e9b176b15126c9499a951b5d82f623996cf9b4a7e9fced00632243b3c44f021f695d11fc4493a0dee65df80f25609dd3c07f2d54c4c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-vi;ru;bg \

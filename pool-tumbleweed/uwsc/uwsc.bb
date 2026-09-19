@@ -2,10 +2,10 @@ SUMMARY = "Ulfius WebSocket Client"
 DESCRIPTION = "A simple command-line websocket client program."
 LICENSE = "MIT"
 
-PV = "2.7.12"
+PV = "2.7.15"
 
-RPM_NAME = "uwsc-2.7.12-1.4.aarch64.rpm"
-RPM_HASH = "cedee75e732f59017747b4b4567d397b906077bda7cbf4c166100d426adef9ff40e011b088dc10c0d30a6f46fd43acecc4920a6ef91c657b1d138bb326610147"
+RPM_NAME = "uwsc-2.7.15-2.1.aarch64.rpm"
+RPM_HASH = "d5b935d4e2980308bc557a61bd97ac3437458c0f6d8e64c7cc4f8f1ba8261ee16e1874a8b8bb4bb89e9594dbce14f3846d0ba45594c8adc7aa23884e56de425b"
 
 RPROVIDES:${PN} += "uwsc"
 

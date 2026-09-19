@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.2~pre2"
 
-RPM_NAME = "rxtx-java-javadoc-2.2~pre2-5.1.noarch.rpm"
-RPM_HASH = "cfe973772ded492b148f44aad478fa1472a8338c1f6e837d45608059dafbb7a05cd2f600ac69ac5fee85dd05df5a51c03bb3ef8b01458ac7ba92e92e9a5abb29"
+RPM_NAME = "rxtx-java-javadoc-2.2~pre2-10.1.noarch.rpm"
+RPM_HASH = "8e89fc5f2b52950471cab5e93e04437d1e6cfb09b440113bd13cd38cd7bb5e7a513dca6e0802630dd842b96d8898a82453e86b3a495c055b792998b611f66d0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rxtx-java-javadoc"

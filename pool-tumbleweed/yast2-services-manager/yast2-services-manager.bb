@@ -3,10 +3,10 @@ DESCRIPTION = "Provides user interface and libraries to configure systemd \
 services and targets."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1"
+PV = "5.0.3"
 
-RPM_NAME = "yast2-services-manager-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "40cb61300e38ffbe3a347b5939c316e5fc3ccead472d820c0da29fc559cd21fb4d00a4a395745396fb25a28429f8dda9543eaae72d5ce6002f366168434cd978"
+RPM_NAME = "yast2-services-manager-5.0.3-1.2.noarch.rpm"
+RPM_HASH = "d59d0971640ade039483633cafc67015d259a147187d2e6d86c00255f8056c438218d5ab39679170a6200eafee4ca247f5f560169b86cb316c34c4d502ce4ef7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-services-manager"

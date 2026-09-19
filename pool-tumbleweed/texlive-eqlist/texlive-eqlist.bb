@@ -4,10 +4,10 @@ description-like list in which the indentation corresponds to \
 the longest item of the list."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn32257"
+PV = "2026.226.2.1svn77682"
 
-RPM_NAME = "texlive-eqlist-2023.209.2.1svn32257-54.2.noarch.rpm"
-RPM_HASH = "b50f6414e80f9aaa5880096c0d301e381e30570b5ec94ece51f049a1737d754d159db02cbde32e8df5758decbce5a0aefdc405b37312b63e6802fdb7bfa8aa0e"
+RPM_NAME = "texlive-eqlist-2026.226.2.1svn77682-61.4.noarch.rpm"
+RPM_HASH = "dbd4bc8e6e3e1d27fedcc8e144d23aa78daee025604f603b328b0060c7d808aa157bf133c98cf92dad20d230bb515d355d0ff3ef57df1617e7b5131432a4200d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqlist.sty \

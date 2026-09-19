@@ -6,12 +6,12 @@ single 'cvs commit' command). This information is valuable for seeing \
 the big picture of the evolution of a CVS project. While CVS tracks \
 revision information, it is often difficult to see what changes were \
 'atomically' committed to the repository."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1"
 
-RPM_NAME = "cvsps-2.1-182.29.aarch64.rpm"
-RPM_HASH = "ae9d8b729db27545dc71d8f9a60864d111c6fba4826fd709b6a056f72ea56d47ad56e2b7d700bc6a8b27bd9d11ca2e0b7abac22b9669333d902597145fa90556"
+RPM_NAME = "cvsps-2.1-187.3.aarch64.rpm"
+RPM_HASH = "145453573141d0bca963d650c743d005f084607bc7c440ea47d3f842527192347bd75b0603e4b696fda61231547d96f38fc148ff094f4e86a099cb2d79c2fe30"
 
 RPROVIDES:${PN} += "cvsps \
 cvsps2"

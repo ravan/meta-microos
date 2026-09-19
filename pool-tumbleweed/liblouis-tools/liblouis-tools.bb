@@ -4,10 +4,10 @@ computer and literary braille, supports contracted and uncontracted \
 translation for many languages and has support for hyphenation."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.25.0"
+PV = "3.39.0"
 
-RPM_NAME = "liblouis-tools-3.25.0-1.2.aarch64.rpm"
-RPM_HASH = "94aa9f9dfaa312a317d5ae50387f6092356c7366643094ce60e63e4ea838071000c11440172b868cf595ab28cfd458e23dc6bc682f40fe1c61147194fa48e691"
+RPM_NAME = "liblouis-tools-3.39.0-1.1.aarch64.rpm"
+RPM_HASH = "93bd422b7859d4a635ad46e0108c5126dfab9166084111148f1d397b99efb441b49a85946bd7633a7586759cc8cf29aed5677a482a8c0c3b47813644867951ae"
 
 RPROVIDES:${PN} += "liblouis-tools"
 

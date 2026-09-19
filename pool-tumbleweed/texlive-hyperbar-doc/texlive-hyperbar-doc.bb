@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hyperbar"
 DESCRIPTION = "This package includes the documentation for texlive-hyperbar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn48147"
+PV = "2026.226.0.0.1svn48147"
 
-RPM_NAME = "texlive-hyperbar-doc-2023.209.0.0.1svn48147-54.1.noarch.rpm"
-RPM_HASH = "f53f0eabec3e6f21bd5af1b677d50ce5eebf726ce76747ec4ea26ab79ae56e7e64fed05a12dc41b943ff0009bed29a9216ce9ae0795b89985991e011f3a4268c"
+RPM_NAME = "texlive-hyperbar-doc-2026.226.0.0.1svn48147-60.2.noarch.rpm"
+RPM_HASH = "ea18a9431485b4958c0e8e8eee37299e61fe9fe7e72c22f27d863268e2e6f0fe4c31c53d7fdec709d669f7beb87c54c112f57c65698a40305b9e83dc4bf8eaf5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hyperbar-doc"

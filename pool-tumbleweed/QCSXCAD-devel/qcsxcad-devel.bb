@@ -5,10 +5,10 @@ This package contains libraries and header files for developing \
 applications that use QCSXCAD."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6.2"
+PV = "0.6.3"
 
-RPM_NAME = "QCSXCAD-devel-0.6.2-5.6.aarch64.rpm"
-RPM_HASH = "d2216a445ae4826783dd2ddd8f85d5421b5a3bfdfe4be2736a65118f2149505904284aebedcb41bbab8416a09cf3ea176ecff7e5d69e2a8ad681f541f08cc9f9"
+RPM_NAME = "QCSXCAD-devel-0.6.3-4.1.aarch64.rpm"
+RPM_HASH = "67905ec3f5b1f4a7ce4639dc5abbc14ac5f12cd07bfcf7902818dd65d2f92c64222d12d78b50db021bb30ec9b372a45aee493b968b01f56f06970ab63922193a"
 
 RPROVIDES:${PN} += "QCSXCAD-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "light-locker-lang-1.9.0-1.15.noarch.rpm"
-RPM_HASH = "45551beaaa991a0b331bb127d5651f6edaa5f5b0fdedba4d2f1e850ad63fd94e05ffb9a9dba17ee42d543f37f8c827e750860e870f4a05b77c28bd28c4f2b3a9"
+RPM_NAME = "light-locker-lang-1.9.0-1.26.noarch.rpm"
+RPM_HASH = "7e463a5ccac48f5fbfbc4bfcb6045131e06f3540a78a1370101ead644207f17295c6a98021a2c35ab109d85994246cd8615ba3ef40eff7299d52edf7d1dea859"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "light-locker-lang \

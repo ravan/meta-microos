@@ -3,10 +3,10 @@ DESCRIPTION = "A more secure implementation of NTP, derived from NTP Classic, Da
 Mills’s original."
 LICENSE = "BSD-2-Clause & NTP & BSD-3-Clause & MIT"
 
-PV = "1.2.2"
+PV = "1.2.5"
 
-RPM_NAME = "ntpsec-1.2.2-1.5.aarch64.rpm"
-RPM_HASH = "05488818dabf40e41fbc829793118c65fced56835a564f5a8ca103d7666cdf95aacb22d553b9c16422c9cc0d0058d4bc77611d4f49293fc027a09f87a3c80475"
+RPM_NAME = "ntpsec-1.2.5-1.1.aarch64.rpm"
+RPM_HASH = "86d2ccee2d2e641994e5573dea3f5ac98029ab9ba0261b9aefd731231d4a007445049224c6471a48b499000905a38fd38e6425f5279037803b0c024ca64ca60d"
 
 RPROVIDES:${PN} += "config-ntpsec \
 ntp-daemon \

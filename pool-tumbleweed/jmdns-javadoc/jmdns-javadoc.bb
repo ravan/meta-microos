@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.7"
 
-RPM_NAME = "jmdns-javadoc-3.5.7-2.11.noarch.rpm"
-RPM_HASH = "a3684eb9be5d8c7bc98c6a1759eb7e7ecdeab778d2c5db55cf2d965ada8fd7de150f60b8f14edd1311aa35ae55ff49e069f7ae9e234a9d5605f80682d4f63caf"
+RPM_NAME = "jmdns-javadoc-3.5.7-5.3.noarch.rpm"
+RPM_HASH = "a88acdbc9035c4f1c6515ebfadb3043b4f22647c2827b0fde18cf3409ccb69691acf8c9fb145f2c067200a7b7c377aea2a406e671126b0de648957883adc6220"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmdns-javadoc"

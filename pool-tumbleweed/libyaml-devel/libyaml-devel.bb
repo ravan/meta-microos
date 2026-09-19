@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.2.5"
 
-RPM_NAME = "libyaml-devel-0.2.5-2.4.aarch64.rpm"
-RPM_HASH = "f7e4f11fc9660718036577ef542b47355fc3df751ee4e158980ead0bef100fd20b7d41065fbe6fcc1f11dc07ddbee10d123ee922ebe9b81f984333f2760ced03"
+RPM_NAME = "libyaml-devel-0.2.5-2.14.aarch64.rpm"
+RPM_HASH = "bceab5fc9e9b8ed4db0f8c30123a58e05a45df892e6c8b9a21e3a3791cf4fcdaff61e7c8f364cc10be1afe5aeb557db5c156aa528fbb7687b8a8344e3e4bcb05"
 
 RPROVIDES:${PN} += "libyaml-devel \
 pkgconfig-yaml-0.1"

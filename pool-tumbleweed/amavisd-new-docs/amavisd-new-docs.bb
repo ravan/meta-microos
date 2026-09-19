@@ -6,10 +6,10 @@ via (E)SMTP, LMTP. \
 This package contains the documentation and Release-Notes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.0"
+PV = "2.14.0"
 
-RPM_NAME = "amavisd-new-docs-2.13.0-3.1.noarch.rpm"
-RPM_HASH = "90e4a5dbb48a0f7d29701c9cf147205f65f875edef0825784a791d5d2b518fcc82b59421c6b97191355be27a51352f2c85c356b0821a3d1d6dda1a1e6dda651b"
+RPM_NAME = "amavisd-new-docs-2.14.0-1.5.noarch.rpm"
+RPM_HASH = "657699a9f8037b86a1a63bcb7fbcf6cbc119281bbf0355bf13a3f972e487df973e30d7ccfa2cdf99c5e97bb593e15765cb137689403283e5716a9837fb84b901"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "amavisd-new-docs"

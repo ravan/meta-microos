@@ -18,10 +18,10 @@ TreeLine is written in Python and uses the PyQt bindings to the Qt \
 toolkit, which makes it very portable."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.5"
+PV = "3.1.6"
 
-RPM_NAME = "treeline-3.1.5-1.4.noarch.rpm"
-RPM_HASH = "cd23ed4a769980f0fc52bafb684b4b001ea7a371c5d8c51bbb0635a48b086a6a417da926b89bc571d420e48436173a2c64caeca9df345e2fd4296d69ab8ce511"
+RPM_NAME = "treeline-3.1.6-1.11.noarch.rpm"
+RPM_HASH = "81ae8cf72085630f2f5109c8a66c264c138c2d8cb87c8cf3507b0a14bfd655fbab4afbf27edf9cc9d107ee9a73e48350000c09dee8e2cd8c96f95bd4919b66ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "treeline"

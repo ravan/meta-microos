@@ -2,26 +2,27 @@ SUMMARY = "Command line tools for use with framecpp"
 DESCRIPTION = "This package provides command line tools  for use with framecpp."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.7.0"
+PV = "3.0.4"
 
-RPM_NAME = "ldas-tools-framecpp-utils-2.7.0-2.13.aarch64.rpm"
-RPM_HASH = "a8c9ea2a516b54e38f7524eea2937e69889a1df63aecf9624c59afc4df41e03dd2da2df466dff69c9026101aae6ee26e3a2bcd2dcb2d970919a276294b7c5d83"
+RPM_NAME = "ldas-tools-framecpp-utils-3.0.4-2.7.aarch64.rpm"
+RPM_HASH = "9aea40e4e8af553091f91b41132e8444de845e9afd5e0076c4d05b53d92e9c2f0924958197293fa6f4fe9215c63bdb191b5b8d4fd449557d676fff820052429f"
 
 RPROVIDES:${PN} += "ldas-tools-framecpp-utils"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libboost-program-options.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
+libboost-program-options.so.1.91.0 \
 libc.so.6 \
-libframecpp.so.12 \
-libframecpp3.so.6 \
-libframecpp4.so.8 \
-libframecpp6.so.8 \
-libframecpp7.so.4 \
-libframecpp8.so.7 \
-libframecppcmn.so.11 \
+libframecpp.so.16 \
+libframecpp3.so.8 \
+libframecpp4.so.10 \
+libframecpp6.so.10 \
+libframecpp7.so.6 \
+libframecpp8.so.11 \
+libframecpp9.so.0 \
+libframecppcmn.so.12 \
 libgcc-s.so.1 \
 libldastoolsal.so.7 \
-libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

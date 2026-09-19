@@ -4,12 +4,12 @@ but it supports other desktops like Gnome3 as well. \
 It's a fork of the upstream elementary-project, \
 which took place because the team decided to \
 drop a lot of desktop-specific symlinks."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-3.0-only"
 
-PV = "0.15.2+git0.2e2ca316"
+PV = "0.22+git0.98ad7e92"
 
-RPM_NAME = "elementary-xfce-icon-theme-0.15.2+git0.2e2ca316-1.12.noarch.rpm"
-RPM_HASH = "801b2e7bdaa36b0ff1a57058cdc5b59000c77ef919beb3ad4c7bff20173c83b9a23fa790c2d07d2dc061d86ff7072cb3b37aca8236eeadbab54c2f60b2d5e862"
+RPM_NAME = "elementary-xfce-icon-theme-0.22+git0.98ad7e92-1.4.noarch.rpm"
+RPM_HASH = "60861a4524777f917ade8971bb0af3eb64d26ff83ea7878667d590dcc4bdb56bfc4de4868ead80062c5321fca253cc78f4f7adf35ebb8fbaa0ac9885781db8b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elementary-xfce-icon-theme"

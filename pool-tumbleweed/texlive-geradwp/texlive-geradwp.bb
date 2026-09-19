@@ -6,10 +6,10 @@ complying to all the presentation standards required by the \
 Cahiers du GERAD series."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn63134"
+PV = "2026.226.1.1svn63134"
 
-RPM_NAME = "texlive-geradwp-2023.209.1.1svn63134-53.1.noarch.rpm"
-RPM_HASH = "380db866583284c581058ae3ed4680088dac50a98bc1679c0593e9e9eb954476a10bd697c2c7ebef4a224e17626559b3bfc5baf09fbb0f4f3cb9176f13ffbefa"
+RPM_NAME = "texlive-geradwp-2026.226.1.1svn63134-60.2.noarch.rpm"
+RPM_HASH = "4a4fa1a4cce290c5b5ce7d52f026679d52c0541852af14372a3e41de294ff871c4921c5eb6720bd0110252f043b5830a0bb6f4161ef4f8f59f91f31e1de1ea3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-geradwp.cls \

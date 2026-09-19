@@ -5,10 +5,10 @@ This library allows using closures (lambdas) as first-class C \
 functions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4"
+PV = "2.5"
 
-RPM_NAME = "libtrampoline1-2.4-2.8.aarch64.rpm"
-RPM_HASH = "759ba7f9c6cd742843bc1c496c17956a50a45c8ca4c2d98146567675ba790fb357a811fad093e58c2e6ce6634467666294c20d7d018e72ceba88e58ca3d27c68"
+RPM_NAME = "libtrampoline1-2.5-1.9.aarch64.rpm"
+RPM_HASH = "49e6c877335eb8e3d9cbafaa980a358c89a6604d36fb7ae20cdf8ce26bd5de8cdbb96ece46f191f9c0df1c9fbf33c92d71b01ee7bf7f6a771cbb4ca89e9d17bf"
 
 RPROVIDES:${PN} += "libtrampoline.so.1 \
 libtrampoline1"

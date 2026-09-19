@@ -10,10 +10,10 @@ also facilitates streaming audio, multi-channel buffers, and audio \
 capture."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.2"
+PV = "1.24.3~179"
 
-RPM_NAME = "libopenal1-1.22.2-1.5.aarch64.rpm"
-RPM_HASH = "cb22190e8a0700f7c4fd13da7fed8bbe130f62575cee6733bd18e3e55316e9ca4a763e668ec6fbc634fcd26e1c373e932a1ac61cfe5fdccba605269ee9377f2f"
+RPM_NAME = "libopenal1-1.24.3~179-1.6.aarch64.rpm"
+RPM_HASH = "f44b2777367406705998dd2791a493e2bf923d0f349c0daba496cd362dc003ea484d58cd2916a7e915e9d638abbcfdb60c459a4da576b7008f3ffa75af431176"
 
 RPROVIDES:${PN} += "libopenal.so.1 \
 libopenal1"
@@ -22,8 +22,10 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \
+libdbus-1.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
+libpipewire-0.3.so.0 \
 libportaudio.so.2 \
 libpulse.so.0 \
 libstdc++.so.6"

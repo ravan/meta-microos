@@ -3,16 +3,17 @@ DESCRIPTION = "The spatialindex-devel package contains libraries and header file
 developing applications that use spatialindex."
 LICENSE = "MIT"
 
-PV = "1.9.3"
+PV = "2.1.0"
 
-RPM_NAME = "spatialindex-devel-1.9.3-2.10.aarch64.rpm"
-RPM_HASH = "5577046c11d8ed673fd69d1f86e63c0d314d435e304a80d71056657e4148bf50e7ad40c6b742160e5f8af27e0b66d7adc8a87dfebd5b2cc0e83756f546a84eb7"
+RPM_NAME = "spatialindex-devel-2.1.0-1.1.aarch64.rpm"
+RPM_HASH = "42c6ae09a97a0aadefddaf29669c5c6c46118f84693c8f8c659253e6e8be309edc8c06d88ff9f41763656e67aa653756d260265f14e64d91b2ca2ea06588edd2"
 
-RPROVIDES:${PN} += "libspatialindex-devel \
+RPROVIDES:${PN} += "cmake-libspatialindex \
+libspatialindex-devel \
 pkgconfig-libspatialindex \
 spatialindex-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libspatialindex6"
+libspatialindex8"
 
 inherit rpm

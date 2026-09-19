@@ -5,14 +5,18 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "84.87"
 
-RPM_NAME = "update-desktop-files-84.87-6.2.noarch.rpm"
-RPM_HASH = "3c0f925cb51a9b7784bbe628caa4abb1bfd796f575b5a618d98557629d637c65f7d634c49cac866a2f5f7f30d5ea185937b31bc8b8c4198afd687bb8fe236780"
+RPM_NAME = "update-desktop-files-84.87-10.1.noarch.rpm"
+RPM_HASH = "7e22b4cdd1dfcea6b1a0b2c43fcc5e4af1813bb96e71a9fbb1da8e86f13ae5a3551763aac92c4ec3a7cc07839c47d92ec59746afbeca0be6f0c94af32c5e4e7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-macro-suse-update-desktop-file \
 update-desktop-files"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-desktop-file-utils"
+/usr/bin/python3 \
+desktop-file-utils \
+desktop-translations-devel \
+gettext-tools \
+intltool"
 
 inherit rpm

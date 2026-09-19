@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.6.1a"
 
-RPM_NAME = "ndesk-dbus-0.6.1a-1.6.noarch.rpm"
-RPM_HASH = "9484c5598abdfd8576202ac0ef91cf38398cc51f4a0920a79862844326474ef3e5da57f9f202422ef46aa62c8af8fbec1b644ce2c03423a55fa3b0549eacdee5"
+RPM_NAME = "ndesk-dbus-0.6.1a-1.13.noarch.rpm"
+RPM_HASH = "49d96d86f0504ceeda671359a8a1502fa4beaa6658d610486caff57f88467ea22f0a737feae82336be2d843ba24b3c4e446a76251e636d4039f36d231cc0194e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-NDesk.DBus \

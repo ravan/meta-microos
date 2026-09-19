@@ -6,14 +6,13 @@ its use in the Boost Build System. \
 This package installs the default version of Boost Jam."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "boost-jam-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "8691746847efe14c53bcd2447fac3772ae2a00d37cc4f5261b1e14990d5ca29664b62619ed6a6c25f9c4ed621c87eb55ef8c81a767d8bf3ac5021575202dbbc9"
-REPO_ARCH = "noarch"
+RPM_NAME = "boost-jam-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "69d60f8fc49264efe057e28bcb9c30bf89da8379ecd9c3931c967a521b5d4c91970dbc4a41f8e63062fc20645f7bd64c6497be74a87011972b504d5a2d8e7a3f"
 
 RPROVIDES:${PN} += "boost-jam"
 
-RDEPENDS:${PN} += "boost1-82-0-jam"
+RDEPENDS:${PN} += "boost1-91-0-jam"
 
 inherit rpm

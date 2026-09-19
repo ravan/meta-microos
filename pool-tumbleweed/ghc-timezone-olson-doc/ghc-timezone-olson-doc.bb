@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-timezone-olson-doc-0.2.1-2.8.noarch.rpm"
-RPM_HASH = "4ffd78804305bfaa07a64109e8047e9f4a6b72e3db0419d77490f1ed12ef1e7097c623b338bd8d7be93718ee4272828f53a10f9bf71da01c30769c192d30aaaa"
+RPM_NAME = "ghc-timezone-olson-doc-0.2.1-4.3.noarch.rpm"
+RPM_HASH = "60dfb3b825dfb24d1325f6f456e97384fe2ace39eedc24c10e6eeac1ec1d906af67e281d375cbdbf9a803016994a2d68dcbda6b9c4ee9eeba4c9c60dbfbd2eb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-timezone-olson-doc"

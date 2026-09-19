@@ -2,10 +2,10 @@ SUMMARY = "Haskell random library documentation"
 DESCRIPTION = "This package provides the Haskell random library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.1.1"
+PV = "1.3.1"
 
-RPM_NAME = "ghc-random-doc-1.2.1.1-2.3.noarch.rpm"
-RPM_HASH = "93619179bdb9388a80741a883069a9d2a14640e5597c76933a5e12aa83ca94ddb3d6507d829a48acd571d976cebd45ea27c529756ac26138772c1903b53b36e3"
+RPM_NAME = "ghc-random-doc-1.3.1-1.10.noarch.rpm"
+RPM_HASH = "3b8216bcc67fd7b09acfe4b3b0548063f33e9d50be4dc4ed4d9bb1008fae4d44318a7042ade505ff421284d298127ae7c74a6de63be5944a45b07ea59f60c9aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-random-doc"

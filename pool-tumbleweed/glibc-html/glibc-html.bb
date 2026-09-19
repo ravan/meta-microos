@@ -4,10 +4,10 @@ to a lack of resources, this documentation is not complete and is \
 partially out of date."
 LICENSE = "GFDL-1.1-only"
 
-PV = "2.38"
+PV = "2.44"
 
-RPM_NAME = "glibc-html-2.38-2.1.noarch.rpm"
-RPM_HASH = "b777942bdf3180a7b78ececfe9c6efe39396e5512aa3bbce01e88dc52a425acad5db763c41fb6b8ee581f170163162aa4ed1b2d0230b34e7b08d690f88cb42ba"
+RPM_NAME = "glibc-html-2.44-2.1.noarch.rpm"
+RPM_HASH = "0e24857cdd243cfd1065954aa3606cbee1111ed38468375654953e046b26f2a8649fe55af1f102325db5b24f08c086a762f193f2c2d5598c55f51b0a511366ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glibc-html"

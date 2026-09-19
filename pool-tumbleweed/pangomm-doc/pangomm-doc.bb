@@ -3,10 +3,10 @@ DESCRIPTION = "pangomm provides a C++ interface to the pango library. \
 This package contains the developer documentation."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.50.1"
+PV = "2.56.2"
 
-RPM_NAME = "pangomm-doc-2.50.1-1.4.noarch.rpm"
-RPM_HASH = "b758c87502c5dbb6e77a4de9a27c87fcd25a81f8cafbdd34aa3cb223e919d8fd6e937a671c1c8623684533c84d1e555607565ab6647f0facb0c1d0b1325a3bc1"
+RPM_NAME = "pangomm-doc-2.56.2-1.3.noarch.rpm"
+RPM_HASH = "6d05a6e12824dd29869722db8cc3fa726dbafcfaabd475775578f545b77a50ab89576423cb336bd77c46b2c3416aefaf73f02826455eeb8235c72f04683e39de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pangomm-doc"

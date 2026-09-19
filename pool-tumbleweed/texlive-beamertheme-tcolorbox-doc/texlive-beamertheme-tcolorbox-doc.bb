@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamertheme-tcolorbox"
 DESCRIPTION = "This package includes the documentation for texlive-beamertheme-tcolorbox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn64387"
+PV = "2026.226.1.4svn77380"
 
-RPM_NAME = "texlive-beamertheme-tcolorbox-doc-2023.209.0.0.5svn64387-54.1.noarch.rpm"
-RPM_HASH = "7615bf85471c130e8c8de04c0a78947c7541234f5965e11d18c85618cd2aa78bf18c195638cb552ccb0a45e25f300d06f67ad4cad0f130845f8ac2774856328e"
+RPM_NAME = "texlive-beamertheme-tcolorbox-doc-2026.226.1.4svn77380-61.2.noarch.rpm"
+RPM_HASH = "3a446d6d574383022862fe3b7987e1796eb293ded20c8c13caacfb7e098ca18874439b48ebd8e87d4fbc2393677cedf50b25752a3928d5d36ad50afa8027e983"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamertheme-tcolorbox-doc"

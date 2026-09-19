@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-latex-make"
 DESCRIPTION = "This package includes the documentation for texlive-latex-make"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.4.3svn60874"
+PV = "2026.226.2.4.3svn60874"
 
-RPM_NAME = "texlive-latex-make-doc-2023.209.2.4.3svn60874-56.1.noarch.rpm"
-RPM_HASH = "fe146dad903648c65d15ccda682d37448f509b45f8f901acd27608ac2a04e19bb86228a966747b70c818bd779cd1a6f0d328cc4f5fa87f52c6917bbe7c6b2e55"
+RPM_NAME = "texlive-latex-make-doc-2026.226.2.4.3svn60874-63.2.noarch.rpm"
+RPM_HASH = "282f71325b66c66275ef55a792ba6a169a10739cedb471bf3df9524ac09c15d4b3196be442af6d7abc37e17aca79e871873643804ae01fa7103668008cff1639"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-make-doc"

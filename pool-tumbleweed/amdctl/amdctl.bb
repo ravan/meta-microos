@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.11"
 
-RPM_NAME = "amdctl-0.11-1.1.aarch64.rpm"
-RPM_HASH = "3a286d6a37bc99da35fdccb044b00a0e53fd2cb1dfab78aee3ff3e9bec858a04d05dadecddb0ccce4459804ce1ed5c76aa647dbb19bafb04fb5131993d230f09"
+RPM_NAME = "amdctl-0.11-1.11.aarch64.rpm"
+RPM_HASH = "7661767f56712dca863b15d5458798d85f2b72ac0ef0e09a26a556266120e15625af9046efc3a3dc84d6d3376ae1141b37b1f11a830c0f98548db15bd212017c"
 
 RPROVIDES:${PN} += "amdctl"
 

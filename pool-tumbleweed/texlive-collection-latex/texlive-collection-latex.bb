@@ -3,13 +3,15 @@ DESCRIPTION = "These packages are either mandated by the core LaTeX team, or \
 very widely used and strongly recommended in practice."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn63515"
+PV = "2026.222.svn77034"
 
-RPM_NAME = "texlive-collection-latex-2023.208.svn63515-60.1.noarch.rpm"
-RPM_HASH = "d31f9f4b2240b4bdd76be2596ee47d2732f48467b0725f6065e795e20522013289dddda716141e630159afb23e9b4ff08125f0482dd4f8ff1d2f81673d1ab16c"
+RPM_NAME = "texlive-collection-latex-2026.222.svn77034-68.2.noarch.rpm"
+RPM_HASH = "ca80efbe0242ca55b510b284e439d8752242b22304fe1faad1c12e526ccb0c09b1a49ecd3a2086e2e9414a3d98d4daa24feed8392eacbaa45b22f40e1fc1cc06"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-latex \
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-latex \
 texlive-collection-latex"
 
 RDEPENDS:${PN} += "texlive-ae \
@@ -29,6 +31,7 @@ texlive-collection-basic \
 texlive-colortbl \
 texlive-epstopdf-pkg \
 texlive-etexcmds \
+texlive-etoolbox \
 texlive-fancyhdr \
 texlive-firstaid \
 texlive-fix2col \
@@ -39,6 +42,7 @@ texlive-graphics-cfg \
 texlive-grfext \
 texlive-hopatch \
 texlive-hycolor \
+texlive-hypcap \
 texlive-hyperref \
 texlive-intcalc \
 texlive-kvdefinekeys \
@@ -55,12 +59,14 @@ texlive-latexconfig \
 texlive-letltxmacro \
 texlive-ltxcmds \
 texlive-ltxmisc \
+texlive-lua-uni-algos \
 texlive-mfnfss \
 texlive-mptopdf \
 texlive-natbib \
 texlive-oberdiek \
 texlive-pagesel \
 texlive-pdfescape \
+texlive-pdftexcmds \
 texlive-pslatex \
 texlive-psnfss \
 texlive-pspicture \

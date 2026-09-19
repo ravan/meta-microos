@@ -3,13 +3,13 @@ DESCRIPTION = "A command line client for etcd. It can be used in scripts or for 
 to explore an etcd cluster."
 LICENSE = "Apache-2.0"
 
-PV = "3.5.9"
+PV = "3.7.1"
 
-RPM_NAME = "etcdctl-3.5.9-1.2.aarch64.rpm"
-RPM_HASH = "4b9ef099d20c35f21773de25191102ff505c38a5df098eaea29a523b882f6baf6e6c75798b754424e14eef91f55d0db830b4fe75f3d9ef3737da9a56b46c6ece"
+RPM_NAME = "etcdctl-3.7.1-1.2.aarch64.rpm"
+RPM_HASH = "7a165837c0f5bd165a6c1f7188862d75995b6f9c0a457f8170fa02cc3de12777c0e717c39a3ccd2b3f612bbd0c9d4159c650b4dc09a21e135e4c66b4fb1c340f"
 
 RPROVIDES:${PN} += "etcdctl"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

@@ -11,13 +11,13 @@ environments) to facilitate the drafting of documents, in \
 particular those containing mathematical formulas."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.5svn64462"
+PV = "2026.226.2.1svn77980"
 
-RPM_NAME = "texlive-nwejm-2023.209.1.0.5svn64462-55.1.noarch.rpm"
-RPM_HASH = "91ed0a095f789bb16707dfa1dfd8af0cd1a0f8b6c08a37c43bd51a69fb916721a235cbbc0555ddd969b8307baff4a3ed3420a8d844789ca752f3f4a8404b5335"
+RPM_NAME = "texlive-nwejm-2026.226.2.1svn77980-61.2.noarch.rpm"
+RPM_HASH = "9b7830acdd9639eae71deb8175882269be27c67b6c0ce6047c54ed15ac11f3f9e9289bfb5d70085fc47369ddf31fe84fd458bfc1e8a0a8ee2b6f811db6344156"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-nwejm-logos-collection.tex \
+RPROVIDES:${PN} += "tex-nwejm-2024-02-08.cls \
 tex-nwejm.bbx \
 tex-nwejm.cbx \
 tex-nwejm.cfg \
@@ -63,9 +63,10 @@ tex-hypcap.sty \
 tex-hyperref.sty \
 tex-ifoddpage.sty \
 tex-import.sty \
+tex-keytheorems.sty \
 tex-kpfonts-otf.sty \
 tex-kpfonts.sty \
-tex-l3keys2e.sty \
+tex-listings.sty \
 tex-marginnote.sty \
 tex-mathtools.sty \
 tex-microtype.sty \
@@ -85,10 +86,11 @@ tex-translations.sty \
 tex-unicode-math.sty \
 tex-varioref.sty \
 tex-xcolor.sty \
-tex-xparse.sty \
 tex-xr.sty \
 tex-xspace.sty \
+tex-zref-clever.sty \
 tex-zref-totpages.sty \
+tex-zref-vario.sty \
 tex-zref-xr.sty \
 texlive \
 texlive-filesystem \

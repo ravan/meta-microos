@@ -22,8 +22,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.10.1"
 
-RPM_NAME = "autocutsel-0.10.1-1.8.aarch64.rpm"
-RPM_HASH = "80bdf022d8eac71b8743cc06dd59ba5b0a80f526af07985fc9d4ed5351a477a4edde1c58ceca0c0ce4d575fa22e5696b227bd054be10f9c5052de5c7eec59259"
+RPM_NAME = "autocutsel-0.10.1-2.8.aarch64.rpm"
+RPM_HASH = "389e8f3866ce6b476f55b47e530b2b12f9fa9faaf52b876451fb3ca7f1c72724b5bbee1a7896c1b281d80406f87cc1921c9c550fd18c98bf2db5c0e59814804a"
 
 RPROVIDES:${PN} += "autocutsel"
 

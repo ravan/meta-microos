@@ -7,10 +7,10 @@ It adds an additional tab called 'Document' to the file properties \
 dialog."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.4"
 
-RPM_NAME = "caja-extension-atril-1.26.1-1.2.aarch64.rpm"
-RPM_HASH = "01693c4252236c0e20fb804d7e54b6bb12c90ce7b74ef1d266dd5681e7e04bd9325774de1ae77f39e72efda775ff8dc1020af4825b34074b7275a962aa4c413b"
+RPM_NAME = "caja-extension-atril-1.28.4-1.2.aarch64.rpm"
+RPM_HASH = "879b0b067affa609987f83d6777b79197fdb5bb6cf831641e2bd2ede26bd1f536b1a12a14a99818c3019a974ea894810a2e8c7baddcc6b47a5bdff48697a6bcf"
 
 RPROVIDES:${PN} += "atril-caja \
 caja-extension-atril \

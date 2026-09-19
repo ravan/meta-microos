@@ -24,8 +24,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.34.1"
 
-RPM_NAME = "pen-0.34.1-1.13.aarch64.rpm"
-RPM_HASH = "7dd9f3563513156290290a512de04b132ac2b0c47feb813da6fd39fe42884d010157098671f9ed1d9dabe1ab7357a2ad7b486e24efffff763a3a8b2cc617b3b5"
+RPM_NAME = "pen-0.34.1-2.12.aarch64.rpm"
+RPM_HASH = "73d92f7e86ee927ef4d33e97870027a78be758d39a7f8de1e6c76628deb9f11bed9e223be7fa5c63bc7414de49566fc58fe5b4ad3a80f642fb34f418eefdd27f"
 
 RPROVIDES:${PN} += "config-pen \
 pen"

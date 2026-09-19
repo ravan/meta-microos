@@ -1,12 +1,11 @@
-SUMMARY = "Network filter configuration files for the libvirtd"
-DESCRIPTION = "Network filter configuration files for the libvirt daemon, used for \
-cleaning guest network traffic."
+SUMMARY = "Network filter configuration files for the nwfilter daemon"
+DESCRIPTION = "Network filter configuration files for cleaning guest traffic"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.7.0"
+PV = "12.7.0"
 
-RPM_NAME = "libvirt-daemon-config-nwfilter-9.7.0-1.1.aarch64.rpm"
-RPM_HASH = "43c65796262cc1070ba7cf8416db1c91ef0b618b4e9731d0cf7e4b03f4c9cfda4e4792a951281ccf9f653f88cce161bb73b4da1762813dae2f42f1adbc764621"
+RPM_NAME = "libvirt-daemon-config-nwfilter-12.7.0-1.1.aarch64.rpm"
+RPM_HASH = "8891b27df08db23124c502755fbe7650430c41d3254d834b7f7cbefcd861d2f3c81643743824fe9381226cc9a9d1f782ae3049838e261873472a7a7b58289abb"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-config-nwfilter \
 libvirt-daemon-config-nwfilter"

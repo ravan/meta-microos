@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-simpleinvoice"
 DESCRIPTION = "This package includes the documentation for texlive-simpleinvoice"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn45673"
+PV = "2026.226.svn45673"
 
-RPM_NAME = "texlive-simpleinvoice-doc-2023.209.svn45673-54.1.noarch.rpm"
-RPM_HASH = "91ffb9173384190ab04259c60e7da1fa4ed24d27e19a02b3a153cb44eb485eb374b447e367caa5172bd2ea614a26dde9fa167cdb84af3f9771d0af00dc74a5b6"
+RPM_NAME = "texlive-simpleinvoice-doc-2026.226.svn45673-60.2.noarch.rpm"
+RPM_HASH = "7f0114a013c286a167a3b82d7750cefb7d0d108db47a6eb9847ab935b41f79c051376627b2feb4cf2dabba3f9c15ce70044785bd59074bba4b81dc2332016d2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-simpleinvoice-doc"

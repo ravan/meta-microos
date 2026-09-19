@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ryersonsgsthesis"
 DESCRIPTION = "This package includes the documentation for texlive-ryersonsgsthesis"
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.1.0.3svn50119"
+PV = "2026.226.1.0.3svn50119"
 
-RPM_NAME = "texlive-ryersonsgsthesis-doc-2023.209.1.0.3svn50119-54.1.noarch.rpm"
-RPM_HASH = "d0da3e0960f8434b5e5a00369269c55a694e58b4c44011623dbf0d61ecedef04eef301b4aac98d9563208a751628ad01fdab608304db19ca4ce35798e742bfc7"
+RPM_NAME = "texlive-ryersonsgsthesis-doc-2026.226.1.0.3svn50119-60.2.noarch.rpm"
+RPM_HASH = "2b0be8504c52152f8be514a3d68e4a605ca4c17a2885e7bef220fbebde7ec28b4e460bce9f44296d55e45e90d4dd2e562008aca06de127a4483dce4287b57a31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ryersonsgsthesis-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "The package will create 'smart' diagrams from lists of items, \
 for simple documents and for presentations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3bsvn42781"
+PV = "2026.226.0.0.3bsvn42781"
 
-RPM_NAME = "texlive-smartdiagram-2023.209.0.0.3bsvn42781-58.1.noarch.rpm"
-RPM_HASH = "5eef6d2b39b81b6b5d85412e252e161bd35f5207660051ddf8180416de46dffed3158dc1536266d9d49cf92f7856923508612288c487bed5c49a4d9e41d6e6fc"
+RPM_NAME = "texlive-smartdiagram-2026.226.0.0.3bsvn42781-64.2.noarch.rpm"
+RPM_HASH = "4ede69c41a272c773042f804de02af88ee6d22adb94de0787470511f71f3035aafbca2ab5583c8a961ac774f96e758ffb3f7e2d63a3acf0bda5971fb9f60f24f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-smartdiagram.sty \

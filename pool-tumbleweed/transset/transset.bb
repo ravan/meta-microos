@@ -3,10 +3,10 @@ DESCRIPTION = "transset manipulates the _NET_WM_WINDOW_OPACITY property to make 
 windows transparent."
 LICENSE = "MIT"
 
-PV = "1.0.3"
+PV = "1.0.4"
 
-RPM_NAME = "transset-1.0.3-1.2.aarch64.rpm"
-RPM_HASH = "052403851352d55d2ac3de254c744beca8b22e867e1484b6660313492fa18bd84b86c9c0d0f685e4437536d58f8ca9143ee4d2f4d0935f15682d45d07002b8e4"
+RPM_NAME = "transset-1.0.4-1.5.aarch64.rpm"
+RPM_HASH = "b16cdeb45c98841cf2448f55a556265411a166341c393cb65890c8c619374e68571954c8738481535dfb0ee6e7dbdc3c47fc82d53b5bbb0134b7ef8aae72e060"
 
 RPROVIDES:${PN} += "transset"
 

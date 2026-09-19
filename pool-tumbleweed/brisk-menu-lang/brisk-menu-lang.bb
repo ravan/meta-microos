@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package brisk-menu"
 DESCRIPTION = "Provides translations for the 'brisk-menu' package."
-LICENSE = "GPL-2.0-or-later & CC-BY-SA-4.0"
+LICENSE = "CC-BY-SA-4.0 & GPL-2.0-or-later"
 
 PV = "0.6.2"
 
-RPM_NAME = "brisk-menu-lang-0.6.2-1.13.noarch.rpm"
-RPM_HASH = "c6531db11356d09365880a85d744c05e4498f1aee8c38a6621996d0bb0fc66c103f8718bde932c67ab20d550a6fb383a6b2dc2083990c13c8300d873482e0974"
+RPM_NAME = "brisk-menu-lang-0.6.2-2.8.noarch.rpm"
+RPM_HASH = "963d37137a9d56c827f0e939f29f3e4f0a4042f99f13e4faa13e9e82853f6fcffd5f39876426244900ba8acb2305f9f5a46c5a4d526901081fe8475d6827e3a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brisk-menu-lang \

@@ -15,10 +15,10 @@ and views for selected items. \
  * Category-based search query support via other plugins."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-summary-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "86a5bc168630a3aea6ed76a7742a64fd59b5549cb64af7ec9b53c7c85c66ea88555133298f3f2a7802f8e247fe8ad3055e8a8d175c389af526303cbd2d6ccb7c"
+RPM_NAME = "leechcraft-summary-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "7bac72c31c1da7666cc4d3960d9bd542dc5b597cb16e17579f4c1c5d5ef3ab8c1ad449e0c13c78ed648c5cab6ff718eadbab5ce4b77a7795531d8972668bbf10"
 
 RPROVIDES:${PN} += "leechcraft-summary \
 leechcraft-summaryrepresentation \
@@ -26,15 +26,15 @@ libleechcraft-summary.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-gui-qt5.so.0.6.75.1 \
-libleechcraft-util-models-qt5.so.0.6.75.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-tags-qt5.so.0.6.75.1 \
+libleechcraft-util-gui-qt6.so.0.6.75 \
+libleechcraft-util-models-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-tags-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

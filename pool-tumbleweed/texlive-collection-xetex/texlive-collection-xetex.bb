@@ -1,19 +1,20 @@
 SUMMARY = "XeTeX and packages"
 DESCRIPTION = "Packages for XeTeX, the Unicode/OpenType-enabled TeX by \
-Jonathan Kew, http://tug.org/xetex."
+Jonathan Kew. See https://tug.org/xetex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn64951"
+PV = "2026.222.svn77786"
 
-RPM_NAME = "texlive-collection-xetex-2023.208.svn64951-60.1.noarch.rpm"
-RPM_HASH = "9638cca465d72dcf41890d1355defe83a35e37bf9c1857743799839757672c68899105b29dbca59c37fbb0309648a5588c2beb6ee297c6d3b3d530a709eebf90"
+RPM_NAME = "texlive-collection-xetex-2026.222.svn77786-68.2.noarch.rpm"
+RPM_HASH = "ad8c31862d5d0fd541c6cd23c62a0aeeba9a2c1d5c4d483728294feb1253bfa1acb9353956d32669c963ab837c9a99e85d13ae83e1d58d62bae5f82626dec5f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-xetex \
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-xetex \
 texlive-collection-xetex"
 
 RDEPENDS:${PN} += "texlive-arabxetex \
-texlive-awesomebox \
 texlive-bidi-atbegshi \
 texlive-bidicontour \
 texlive-bidipagegrid \
@@ -30,7 +31,6 @@ texlive-interchar \
 texlive-na-position \
 texlive-philokalia \
 texlive-ptext \
-texlive-realscripts \
 texlive-simple-resume-cv \
 texlive-simple-thesis-dissertation \
 texlive-tetragonos \

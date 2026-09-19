@@ -7,10 +7,10 @@ This package provides a catalog for Glade, to allow the use the gitg \
 widgets in Glade."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "41"
+PV = "50"
 
-RPM_NAME = "glade-catalog-gitg-41-2.10.aarch64.rpm"
-RPM_HASH = "802ca2155240501dcb588f877924cd5001817a0d7e3954561a5804e7aba17d7571dde9c6820a9e5f7322a35688f3f75324296a82907dd564ef308ab52d75f9f3"
+RPM_NAME = "glade-catalog-gitg-50-1.1.aarch64.rpm"
+RPM_HASH = "288460a4d784cb72db38dc8067bd210a78ad366f94013eee161d3cd78bd5db2f7a730d42df88cd886168271852db6812720b6f9fd24792059551b39a1ce510c3"
 
 RPROVIDES:${PN} += "glade-catalog-gitg"
 

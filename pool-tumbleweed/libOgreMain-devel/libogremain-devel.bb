@@ -2,19 +2,19 @@ SUMMARY = "Development files for the Ogre Main library"
 DESCRIPTION = "OGRE (Object-Oriented Graphics Rendering Engine) is a scene-oriented 3D engine."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "libOgreMain-devel-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "476c360d6159165b44899967de36373186ff81886869f0b12e1a868b2e3966c6e00a7880e4cc284a896e9dbdc968805febab4a0e3830a63674391f9bff1409c6"
+RPM_NAME = "libOgreMain-devel-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "f12a3770acd1a6c55ee74e80d5020f17c17f141aca9c75dae15d2542d6a604d3e33cd35d82511b1232bad09ac2e68685a8c795405e1638a0f9249c333c5429e2"
 
 RPROVIDES:${PN} += "libOgreMain-devel \
 pkgconfig-OGRE \
 pkgconfig-OGRE-PCZ"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libOgreMain13-5 \
-libOgreMain13-5-codecs \
-libOgreMain13-5-plugins \
+libOgreMain13-6 \
+libOgreMain13-6-codecs \
+libOgreMain13-6-plugins \
 ogre-media \
 pkgconfig-freetype2 \
 pkgconfig-x11 \

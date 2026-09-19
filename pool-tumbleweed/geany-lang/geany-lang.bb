@@ -2,10 +2,10 @@ SUMMARY = "Translations for package geany"
 DESCRIPTION = "Provides translations for the 'geany' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.38"
+PV = "2.1"
 
-RPM_NAME = "geany-lang-1.38-3.8.noarch.rpm"
-RPM_HASH = "c152176a157f2412ecf95f727b4a4d5481812c5428b6a70f86f541d135ee45a8f2b3ac3c974e6583be5f6d58679e98a39c1e008ed9f476bb7ba35a6cf4f185de"
+RPM_NAME = "geany-lang-2.1-1.7.noarch.rpm"
+RPM_HASH = "caacc944397b1389de1334ccc0700b0018ad9ed6de4e4621acc57f2bfbf4812bdfc656cb9ae526baac3b61da1587b324a9b79f1ff93d15607637ad9dc6384624"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geany-lang \

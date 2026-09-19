@@ -9,10 +9,10 @@ package which includes native pdfLaTeX support and uses the pgf \
 package for other output formats."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn64967"
+PV = "2026.226.0.0.3svn77682"
 
-RPM_NAME = "texlive-gincltex-2023.209.0.0.3svn64967-53.1.noarch.rpm"
-RPM_HASH = "ff7b0587f353272a35be24b18cbdde8123728f3fc759a12d30ffdc381c0fbd6ecd7ca7dda7005662bfc285aed909c930cc824afbdc2235df7419d0edf3126a66"
+RPM_NAME = "texlive-gincltex-2026.226.0.0.3svn77682-60.2.noarch.rpm"
+RPM_HASH = "99cfde143361a3c315b3a53858cb326a21f5996fc5ab13171921552a92fc1e515ed9622b4c309fcf3073025b3b2d05d26e928d887466f27c46c8db93fed28584"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gincltex.sty \

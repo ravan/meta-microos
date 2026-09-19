@@ -3,12 +3,13 @@ DESCRIPTION = "The ocaml-luv-devel package contains libraries and signature file
 developing applications that use ocaml-luv."
 LICENSE = "MIT"
 
-PV = "0.5.12"
+PV = "0.5.13"
 
-RPM_NAME = "ocaml-luv-devel-0.5.12-1.3.aarch64.rpm"
-RPM_HASH = "d1eec001a54aa11fda8379807179c872dc6218f15c77f7e8601fb1af1c61f31e60f8086d4f3f7a5ab8e20c99cba7bf637740461a0c90a1893d7234b6f9d75579"
+RPM_NAME = "ocaml-luv-devel-0.5.13-2.2.aarch64.rpm"
+RPM_HASH = "b12165b0f9a7c73d55a2b30375f7d3bd1849345043594ea080e6d44e419188efefe4df96d5b4f7578830c1e21a0510ac701a60bc1c046978a6ea38c6cc6e18d7"
 
-RPROVIDES:${PN} += "ocaml-Luv \
+RPROVIDES:${PN} += "config-ocaml-luv-devel \
+ocaml-Luv \
 ocaml-Luv-- \
 ocaml-Luv--Async \
 ocaml-Luv--Barrier \
@@ -50,6 +51,7 @@ ocaml-Luv--Semaphore \
 ocaml-Luv--Signal \
 ocaml-Luv--Sockaddr \
 ocaml-Luv--Stream \
+ocaml-Luv--String- \
 ocaml-Luv--System-info \
 ocaml-Luv--TCP \
 ocaml-Luv--TLS \
@@ -114,6 +116,7 @@ ocamlx-Luv--Semaphore \
 ocamlx-Luv--Signal \
 ocamlx-Luv--Sockaddr \
 ocamlx-Luv--Stream \
+ocamlx-Luv--String- \
 ocamlx-Luv--System-info \
 ocamlx-Luv--TCP \
 ocamlx-Luv--TLS \
@@ -133,7 +136,6 @@ ocamlx-Luv-unix"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libuv.so.1 \
-ocaml-Bigarray-compat \
 ocaml-CamlinternalFormatBasics \
 ocaml-ComplexL \
 ocaml-Cstubs-internals \
@@ -153,6 +155,7 @@ ocaml-Stdlib--Bigarray \
 ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Complex \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Int32 \
@@ -169,6 +172,10 @@ ocaml-Unix \
 ocaml-Unsigned \
 ocaml-luv \
 ocamlfind-ctypes \
+ocamlfind-luv \
+ocamlfind-luv.c \
+ocamlfind-luv.c-function-descriptions \
+ocamlfind-luv.c-type-descriptions \
 ocamlfind-threads \
 ocamlfind-unix \
 ocamlx-Cstubs-internals \

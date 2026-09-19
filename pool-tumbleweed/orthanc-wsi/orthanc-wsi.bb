@@ -5,29 +5,32 @@ DESCRIPTION = "The Orthanc project provides three official tools to support DICO
 - Another command-line tool that converts a DICOM series stored inside Orthanc, to a standard hierarchical TIFF image."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "2.0"
+PV = "4.0"
 
-RPM_NAME = "orthanc-wsi-2.0-1.1.aarch64.rpm"
-RPM_HASH = "c9a953cfb7b708fb50c2259b532e76be287e2709b1ffc96f624fab0aac5410c1c8447c8cb448ab4b3523740fe3aee7f90fc19839f3de29e5c70c91d8527b202b"
+RPM_NAME = "orthanc-wsi-4.0-1.1.aarch64.rpm"
+RPM_HASH = "4107f7d9ec36926c05de0fd88505fe7333b272bd66a448c199f2c77d2d9843c7c8998321a8ae22d87ab60114755123860b7e5d2da95f0f29b08b95035c7ca7e2"
 
-RPROVIDES:${PN} += "libOrthancWSI.so.2.0 \
+RPROVIDES:${PN} += "libOrthancWSI.so.4.0 \
 orthanc-wsi"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libboost-filesystem.so.1.82.0 \
-libboost-iostreams.so.1.82.0 \
-libboost-locale.so.1.82.0 \
-libboost-program-options.so.1.82.0 \
-libboost-thread.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
+libboost-iostreams.so.1.91.0 \
+libboost-locale.so.1.91.0 \
+libboost-program-options.so.1.91.0 \
+libboost-thread.so.1.91.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libcurl.so.4 \
-libdcmdata.so.17 \
+libdcmdata.so.20 \
+libdcmimage.so.20 \
+libdcmjpls.so.20 \
 libgcc-s.so.1 \
 libjpeg.so.8 \
-libjsoncpp.so.25 \
-libofstd.so.17 \
+libjsoncpp.so.27 \
+libm.so.6 \
+libofstd.so.20 \
 libopenjp2.so.7 \
 libpng16.so.16 \
 libstdc++.so.6 \

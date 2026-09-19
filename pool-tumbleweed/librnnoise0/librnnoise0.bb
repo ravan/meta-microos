@@ -4,10 +4,10 @@ DESCRIPTION = "RNNoise is a noise suppression library based on a recurrent neura
 This package holds the shared library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.git20210122.1cbdbcf"
+PV = "0.2"
 
-RPM_NAME = "librnnoise0-0.git20210122.1cbdbcf-1.9.aarch64.rpm"
-RPM_HASH = "3aea413bd812939baba74f4e0ab70fe26e554ce7788c49c207392302eea0b2574b86addc49bd1171114c0839bad3c0134902eadfccf2a7dfd0eaa84a0d2e8f73"
+RPM_NAME = "librnnoise0-0.2-2.9.aarch64.rpm"
+RPM_HASH = "e314c1af8ca8297febe81d03f683539353b3d262efe976a79f823fe3769514dc1bc056620f7c6294dcc353174e230894924413baed5e29de44fba878aa6e771d"
 
 RPROVIDES:${PN} += "librnnoise.so.0 \
 librnnoise0"

@@ -5,10 +5,10 @@ conferences and workshops. The layout produced by the acmconf \
 class is based on the ACM's own specification."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn15878"
+PV = "2026.226.1.3svn15878"
 
-RPM_NAME = "texlive-acmconf-2023.209.1.3svn15878-55.1.noarch.rpm"
-RPM_HASH = "988f07f182970805444f81223bdd3cbbc39e3cf90bf76288ddd396ee3ee2beb26208bbe398060f6800f4c25a0934064020f6cfba08f763bdba8541c4a6104c6a"
+RPM_NAME = "texlive-acmconf-2026.226.1.3svn15878-61.2.noarch.rpm"
+RPM_HASH = "2c8f84341abe1513eec49201a8e2a9ebd41c06c65da2838f12b55e3c8a0e905d7400dd3b3902e08304038b0a45cf8ad582a1f8b036ffec7aebdfb17120131594"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-acmconf.cls \

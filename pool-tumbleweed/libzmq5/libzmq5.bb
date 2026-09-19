@@ -5,12 +5,12 @@ multiple messaging patterns, message filtering (subscriptions) and \
 seamless access to multiple transport protocols. \
  \
 This package holds the shared library part of the ZeroMQ package."
-LICENSE = "LGPL-3.0-or-later"
+LICENSE = "MPL-2.0"
 
-PV = "4.3.4"
+PV = "4.3.5"
 
-RPM_NAME = "libzmq5-4.3.4-4.4.aarch64.rpm"
-RPM_HASH = "2c8ff4a595cf4d9bef15c832a400e68363917db6145dee12b85a63bdf1ad517eb45879970e43447cb6a6791e4e96df440bc37ae069ea4eeaec8af4fc8fb7e27b"
+RPM_NAME = "libzmq5-4.3.5-1.12.aarch64.rpm"
+RPM_HASH = "faee5e88ce24b9f19b567e1fc8b375c5558bf320acc5b0f4364728564bad49b536e38940077c072ecb042a5fb3157c778ae6da2ffddfbd382c01c0c5a127b419"
 
 RPROVIDES:${PN} += "libzmq.so.5 \
 libzmq5"
@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libsodium.so.23 \
+libsodium.so.26 \
 libstdc++.so.6 \
 libunwind.so.8"
 

@@ -4,10 +4,10 @@ Analysis Workstation). You need to have PAW installed on your \
 system to benefit from this package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0svn21629"
+PV = "2026.226.1.0svn21629"
 
-RPM_NAME = "texlive-pawpict-2023.209.1.0svn21629-52.1.noarch.rpm"
-RPM_HASH = "f39e14c3c8dab661903f0bf884df94cc64c2ce0a87a26dde80ad6055e1b510ac424aacd0a5702239a82b54e35f223422ca6f64929e7d105341dffee27303ac5e"
+RPM_NAME = "texlive-pawpict-2026.226.1.0svn21629-58.2.noarch.rpm"
+RPM_HASH = "acf9d90a2e88e2f5b5dd814fadab6b30fd00a5c098a53503a9a2de3bd604ebda5355419f726e78ff466caa4c5df04e683dc2471098d8b9feafe3ffa27a91d8c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pawpict.sty \

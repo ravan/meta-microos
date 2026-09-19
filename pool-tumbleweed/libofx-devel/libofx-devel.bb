@@ -6,17 +6,19 @@ statement downloads. \
 This subpackage contains the header files for the C API."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.5"
+PV = "0.10.9"
 
-RPM_NAME = "libofx-devel-0.10.5-1.7.aarch64.rpm"
-RPM_HASH = "d6c9e73615ff1a03fe48b307495042dae9bb395a74a88ceec0ad190480770b61c22c99d66509c9701a0b0d34967487bdfed885717a025682f7b2cc59219d0b78"
+RPM_NAME = "libofx-devel-0.10.9-2.1.aarch64.rpm"
+RPM_HASH = "8a0e4155b5e217557d5c51519260991830827a7ba5f2afec2565c0620af8a48aae1eb412497737ceba54f04282ac1b45d2deba262d9d02638f45b3bba3b0b946"
 
-RPROVIDES:${PN} += "libofx-devel \
+RPROVIDES:${PN} += "cmake-LibOFX \
+libofx-devel \
 pkgconfig-libofx"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libofx \
-libofx7"
+libofx7 \
+opensp-devel"
 
 inherit rpm

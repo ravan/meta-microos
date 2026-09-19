@@ -3,28 +3,30 @@ DESCRIPTION = "KMines is the classical Minesweeper game where you have to find m
 by logical deduction."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmines-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "60b80eb0c207617c005283e34da41a5b8cbffa276e667d7c19e36b2cbb7a716f9e607ad16087a72a7fca5c160ab73caca6b2c36c8091318a027f46d9b26bc7dd"
+RPM_NAME = "kmines-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "2325909ad99b60153a8e8e2451f6f0a99ddac0ff039fc243b181bc5ae0a937120b73890d2d5c01de7d7b6f73b8ba72f873494811956664fb3141026c61a894b9"
 
 RPROVIDES:${PN} += "kmines \
 kmines5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5TextWidgets.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

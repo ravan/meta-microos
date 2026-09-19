@@ -5,10 +5,10 @@ package also lets you use any special symbols inside your \
 command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.11.4svn64908"
+PV = "2026.226.0.0.15.0svn73480"
 
-RPM_NAME = "texlive-iexec-2023.209.0.0.11.4svn64908-54.1.noarch.rpm"
-RPM_HASH = "73519ad6787319b8762bb7863d91564680a35b2210cd63438e9c6c04a2c9947c837ca93f31a1bca0d10436fb5ad43bac73131bfb2bdbbb8565ad9b6997750c91"
+RPM_NAME = "texlive-iexec-2026.226.0.0.15.0svn73480-60.2.noarch.rpm"
+RPM_HASH = "7028e8dede4b2de208196f45524352a56e0292d5b6b3d301c45cf13468d9043cc6e4570d1f86f2e50a7819f6b68a00baeb8e80539eb1c5b36d7bb0da13b5ae63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-iexec.sty \
@@ -22,15 +22,14 @@ grep \
 sed \
 tex-expl3.sty \
 tex-pgfkeys.sty \
+tex-pgfopts.sty \
 tex-shellesc.sty \
-tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-pgf \
 texlive-scripts \
-texlive-scripts-bin \
-texlive-tools \
-texlive-xkeyval"
+texlive-scripts-bin"
 
 inherit rpm

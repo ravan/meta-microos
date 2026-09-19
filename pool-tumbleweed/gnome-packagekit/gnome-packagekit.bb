@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "gnome-packagekit-43.0-1.3.aarch64.rpm"
-RPM_HASH = "cb24504d09b0ca16380e6a8e112caf96d57be647439d307699c496d5fb2d16f716206c0cb7463f7d683864d65f3afed98713b6f838677b47f7e4f6246bf58fb2"
+RPM_NAME = "gnome-packagekit-43.0-2.5.aarch64.rpm"
+RPM_HASH = "ca13ca685c638fb5fc964be6eda6d06b8fcef6d5ac935d173bee11944a5996ce2fa7e9aa55b9568ee7f8b66ba5ef37abf10a0ba9b5deb899e633a8ce863cc4f6"
 
 RPROVIDES:${PN} += "gnome-packagekit \
 opensuse-updater-gnome \

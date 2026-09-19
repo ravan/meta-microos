@@ -2,10 +2,10 @@ SUMMARY = "Enhanced Base System"
 DESCRIPTION = "This is the enhanced base runtime system with lots of convenience packages."
 LICENSE = "MIT"
 
-PV = "20200505"
+PV = "20241218"
 
-RPM_NAME = "patterns-base-enhanced_base-20200505-42.1.aarch64.rpm"
-RPM_HASH = "e3e28ae00df63402edb5c74f32c412d3f25e6d2c6bdb922be6e0b7d2b5c6797c76beec528236ceb7ba3cadfb5d84ba7b192836a2c3db3a5976394183619596d6"
+RPM_NAME = "patterns-base-enhanced_base-20241218-34.1.aarch64.rpm"
+RPM_HASH = "589bde947687c7adf60a45bcaf9bc40f8117ea9fe1eba12e745f2fb194f5c4b9f2b6a8dd75ace9d74592478f98259f3d0d9ef9ba6cead34111942d8d717dfba7"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

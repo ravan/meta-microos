@@ -20,10 +20,10 @@ DESCRIPTION = "git-bug is a bug tracker that: \
   to other trackers."
 LICENSE = "MIT"
 
-PV = "0.8.0"
+PV = "0.10.1"
 
-RPM_NAME = "git-bug-0.8.0-1.3.aarch64.rpm"
-RPM_HASH = "3b4f3125e00e7f7450afcc676ae8d9abcfdbab69ea1f6b81519bbac4d75e7a75fc4bfa1e7b8bc08a45f8647f22797e7f1ef4ab4633173f7d0d615d840daa66d7"
+RPM_NAME = "git-bug-0.10.1-7.1.aarch64.rpm"
+RPM_HASH = "b0020588e1b7a052549188d2262785d5e490ba68d8735e0bd2e6e7325e8c277fd32a29271a50dee97065d89be3af7a808880ef66900b1f97dfe17275b14705c7"
 
 RPROVIDES:${PN} += "git-bug"
 

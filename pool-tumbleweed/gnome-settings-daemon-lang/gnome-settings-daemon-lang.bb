@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-settings-daemon"
 DESCRIPTION = "Provides translations for the 'gnome-settings-daemon' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
-PV = "44.1"
+PV = "50.1+6"
 
-RPM_NAME = "gnome-settings-daemon-lang-44.1-2.1.noarch.rpm"
-RPM_HASH = "0842e554dadae5c49f3316bde4167af7436950c0fd70cb21c79b6ee28f484e83d32f60bf450b6f6e3c6d8dc1c9c88f9212af57ae275498d96be275ffc22d71b8"
+RPM_NAME = "gnome-settings-daemon-lang-50.1+6-1.2.noarch.rpm"
+RPM_HASH = "6e9c684fe731f7639b31daf391399202f070c19f4729af33b181d7808fe9da29407a667680957de9465d2cf1d0898ea8e3486ffc92faf102b1dbe37759604bf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-settings-daemon-lang \

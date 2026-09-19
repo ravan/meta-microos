@@ -10,12 +10,12 @@ privileges. \
  \
 These wrapper functions are in a shared library called libfakechroot.so, which \
 can be loaded through the LD_PRELOAD mechanism of the dynamic loader."
-LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later & GPL-2.0-or-later & GPL-3.0-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & LGPL-2.1-or-later & GPL-3.0-or-later"
 
 PV = "2.20.1"
 
-RPM_NAME = "fakechroot-2.20.1-2.8.aarch64.rpm"
-RPM_HASH = "922eda2b99c690e278af99782fe48a0b4f708eb85896534714cd3acf067fe41ab0b8e53bc6562af92119205dca0977ddb3ae5c1946f03c1ee8232df975ed9000"
+RPM_NAME = "fakechroot-2.20.1-3.9.aarch64.rpm"
+RPM_HASH = "5ab1f9f128d5e30e0e46a2fbb6a26feeeb5e0ac93720b2fcddcd8cba58c5aa60976fc6dc729f5c8edc4ac0783996c6bfc31be571c03a1a48fe9b893663c4b1b7"
 
 RPROVIDES:${PN} += "config-fakechroot \
 fakechroot \

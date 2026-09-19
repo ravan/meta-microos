@@ -1,21 +1,21 @@
 SUMMARY = "Greek letters in math mode from Libertinus or Linux Libertine/Biolinum"
 DESCRIPTION = "This package allows LaTeX users (especially if using \
 traditional LaTeX/pdfLaTeX) to set the Greek letters in math \
-mode to use the glyphs from the Libertinus Serif or Sans font, \
-via the font support files provided by the libertinus-type1 \
-package of Bob Tennent. All Greek letters are defined both in \
-\\...up and \\...it variants. The style (ISO, TeX, or French i. \
-e. upright) can be modified midway in the document. A 'legacy' \
-mode uses font support from the (obsolete) package \
-https://ctan.org/pkg/libertine-legacy which map to the Linux \
-Libertine or Biolinum fonts. This package is for users which \
-only want to customize Greek letters in math mode."
+mode using the glyphs from the Libertinus Serif or Sans font \
+via the font support files provided by Bob Tennent's \
+libertinus-type1 package. All Greek letters are defined both in \
+\\...up and \\...it variants. The style (ISO, TeX, or French i.e. \
+upright) can be modified midway in the document. A 'legacy' \
+mode uses font support from the (obsolete) libertine-legacy \
+package which maps to the Linux Libertine or Biolinum fonts. \
+This package is for users who only want to customize Greek \
+letters in math mode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn65004"
+PV = "2026.226.1.1svn75712"
 
-RPM_NAME = "texlive-libgreek-2023.209.1.1svn65004-55.1.noarch.rpm"
-RPM_HASH = "a013106083730ca96f1dbd060036fbbf0602bfcb921f833ad45e41f72db178ae69c54f038bc6ab02af7e20dace3cf32ab7340c49d86d332ceed798a34889e05c"
+RPM_NAME = "texlive-libgreek-2026.226.1.1svn75712-61.2.noarch.rpm"
+RPM_HASH = "5cf58f338cd75f66cd4fc595ce8f2271c85f70e70921f1a0aebc98dcd3bf74d17c94f53732ff5ca75e8d2380a5e87bcab85292948631c7018debd2119a375960"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-libgreek-legacy.sty \

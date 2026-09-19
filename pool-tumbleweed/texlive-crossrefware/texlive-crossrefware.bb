@@ -9,10 +9,10 @@ tool for the creation of XML files for submitting to \
 crossref.org. The scripts use bibtexperllibs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn64754"
+PV = "2026.226.svn76407"
 
-RPM_NAME = "texlive-crossrefware-2023.209.svn64754-55.1.noarch.rpm"
-RPM_HASH = "c9ba13e4b48e81b787562a31488b22a6e502e168cbfc5f350268071e19f80f4b01d30b0e474248e123e805cc611e997c5f2f7a76763985deb78a71066148de64"
+RPM_NAME = "texlive-crossrefware-2026.226.svn76407-61.2.noarch.rpm"
+RPM_HASH = "d530cad06371e3095bf51567dcd280084abbda9e5ce12d9e6041580a3189d5e92f7a94b4b6275eb2a1599e2bde9f00e55516df783cbf652af922c206e740e036"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibdoiadd.cfg \
@@ -34,6 +34,7 @@ perl-FileHandle \
 perl-Getopt--Long \
 perl-Getopt--Std \
 perl-IO--File \
+perl-JSON \
 perl-LWP--Simple \
 perl-LWP--UserAgent \
 perl-LaTeX--ToUnicode \

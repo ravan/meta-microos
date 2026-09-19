@@ -6,10 +6,10 @@ faces. The graphic file is provided in both Encapsulated \
 PostScript and PDF formats."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn15878"
+PV = "2026.226.2.1svn15878"
 
-RPM_NAME = "texlive-epsdice-2023.209.2.1svn15878-54.2.noarch.rpm"
-RPM_HASH = "d33cb0262ef78009529221b31abd0cc05300189209043dba4afa690e4652356144b6d8763d195ea52f7f405de24fbb25a7b129e763e7044ae497543606afc1cb"
+RPM_NAME = "texlive-epsdice-2026.226.2.1svn15878-61.4.noarch.rpm"
+RPM_HASH = "df19f9336113d9509a7846d1590b566f216f3ec5f25cb29ae3774e33c350a7bda04183fa4238ea33cafaa3c227fd8b92251bb10c059092f84574c08e7c2a26d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epsdice.cfg \

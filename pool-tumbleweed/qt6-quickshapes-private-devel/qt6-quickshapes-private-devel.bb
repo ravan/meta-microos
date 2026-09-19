@@ -3,18 +3,24 @@ DESCRIPTION = "Development files for the Qt 6 QuickShapes library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quickshapes-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "23cafc9ae29228572c257e4aeb00c2d4f1ed5857017557ecf1df25ebe4acf755b37a51cbdb1d66dd03c13652c51f5f30d5c8fb6fd7be529cf15cb744b54fd539"
+RPM_NAME = "qt6-quickshapes-private-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "103cc3fede7e045cf912563ef1866921abeba26fc65cf009cca3e5a31cc4e4a96a9f7f7b10360d53514025b804788ff05aaa6bad186e49bced39217932cf47ba"
 
-RPROVIDES:${PN} += "cmake-Qt6QuickShapesPrivate \
+RPROVIDES:${PN} += "cmake-Qt6QuickShapes \
+cmake-Qt6QuickShapesDesignHelpersPrivate \
+cmake-Qt6QuickShapesPrivate \
+pkgconfig-Qt6QuickShapes \
 qt6-quickshapes-devel \
 qt6-quickshapes-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6Qml \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+cmake-Qt6GuiPrivate \
+cmake-Qt6Qml \
+cmake-Qt6QuickPrivate \
 libQt6QuickShapes6 \
-qt6-gui-private-devel \
-qt6-quick-private-devel"
+pkgconfig-Qt6Core \
+pkgconfig-Qt6Qml"
 
 inherit rpm

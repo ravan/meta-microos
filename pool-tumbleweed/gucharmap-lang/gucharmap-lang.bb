@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gucharmap"
 DESCRIPTION = "Provides translations for the 'gucharmap' package."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "15.0.4"
+PV = "17.0.2"
 
-RPM_NAME = "gucharmap-lang-15.0.4-1.1.noarch.rpm"
-RPM_HASH = "0b5c1d1f3e6bbcc99fa84c1a50023551920fbb086301d579150bb2ef578c5bed10fd34648540af24e70682866fa4d8ca09204d70f6444d37a2abf239cea0bb69"
+RPM_NAME = "gucharmap-lang-17.0.2-1.4.noarch.rpm"
+RPM_HASH = "cb6c576fb97bcffe369d8b472151ec837c62cc9b8ab93b9f859744d157dcc1dfe7ceb694a305c6c4f33cca28482133685ce83aa2198a4dc5d6454c600aaa5dc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gucharmap-lang \

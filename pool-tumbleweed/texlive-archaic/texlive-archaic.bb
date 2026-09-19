@@ -9,10 +9,10 @@ The bundle's own directory includes a font installation map \
 file for the whole collection."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn38005"
+PV = "2026.226.svn38005"
 
-RPM_NAME = "texlive-archaic-2023.209.svn38005-55.1.noarch.rpm"
-RPM_HASH = "00cc9a11c0d3dea346a71c912bfebdcd8e089417dd6e4cc3731a0e5acc46f331a72c7a601f52a6430cf133d0f9cb9000278e1a4ec13c5f93916716b4dc4e67a5"
+RPM_NAME = "texlive-archaic-2026.226.svn38005-61.2.noarch.rpm"
+RPM_HASH = "9f84c3a67509934f0f989c2c72b9ef59079c2f425602fc0ead2ae2f2b612faf3b8f22815b8ab761fa63a8c19120bd90240cf8f754f024928a2ad980bab8c758a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aram10.tfm \

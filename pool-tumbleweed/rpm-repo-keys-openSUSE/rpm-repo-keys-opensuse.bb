@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0"
 
-RPM_NAME = "rpm-repo-keys-openSUSE-0-10.1.noarch.rpm"
-RPM_HASH = "82d347252280a3a7505990b17f88262b26d367082db745fd728c732d030bc4470408815e95dd11d0abb43b5d4be51f11dba2ac37cb9a7dc64c8222f41abf65c3"
+RPM_NAME = "rpm-repo-keys-openSUSE-0-13.2.noarch.rpm"
+RPM_HASH = "801ea6aa7d117c856a8ac1c6e086fa6866acd334e8ce12f0f2a2c2737d7d09f894761187aa9cdaf0df6bf5e33242e84124f7b19048bababc182060e3f8d52aa8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-repo-keys-openSUSE"

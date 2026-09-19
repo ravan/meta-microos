@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.18"
 
-RPM_NAME = "system-config-printer-dbus-service-1.5.18-3.1.noarch.rpm"
-RPM_HASH = "b32923a753f777f4d30c3810f5d5f1bbd1820b43cad88368698adcf90219b06357c655b8ab67f6b72943e5cf05d72643c726d0ef0e008748f9026faaeb86b635"
+RPM_NAME = "system-config-printer-dbus-service-1.5.18-9.6.noarch.rpm"
+RPM_HASH = "fbe6b23dcd9ac99a1054368add2fe129badfe022d42d177821379c3d30df56bbabb5b3068646a90256e07f7e95d8aa07bd6b9a11cb281ee4b420cc58fd92edf8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "system-config-printer-dbus-service"

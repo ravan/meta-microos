@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development documentation of the Qwt(Qt
 as is it created by doxygen."
 LICENSE = "SUSE-QWT-1.0"
 
-PV = "6.2.0"
+PV = "6.3.0"
 
-RPM_NAME = "qwt6-qt6-devel-doc-6.2.0-2.2.noarch.rpm"
-RPM_HASH = "d1a6c6011a9724e0ea4f7ead7d45145d72dcb29bc9cc2354b190aef36721a6761032eb980de8d49eef5302e63a373782dc3114f6b4272f40f6695d49bdec715d"
+RPM_NAME = "qwt6-qt6-devel-doc-6.3.0-1.10.noarch.rpm"
+RPM_HASH = "226c411347fa111ae189098b1a9baa576dac8db9d3ae8e41a29eb6e688ab56ffaf35494e09fd775d7b864ed8e94ac73e52e3b8b3f5a8509a2008fa64e7c22df4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qwt6-qt6-devel-doc"

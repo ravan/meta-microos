@@ -11,10 +11,10 @@ Documentation may be found in Email::Sender::Manual, and new users should \
 start with Email::Sender::Manual::QuickStart."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.600"
+PV = "2.601.0"
 
-RPM_NAME = "perl-Email-Sender-2.600-1.4.noarch.rpm"
-RPM_HASH = "7d1f85952032e84b16b7214cdda1018ac6efcdf68db6d6d2476fbc2fbd2dcd824a990dae31e23dd95c0aab98a5658bdd945e7a0b87cf5add704f9698526de2a7"
+RPM_NAME = "perl-Email-Sender-2.601.0-1.12.noarch.rpm"
+RPM_HASH = "172a7e12f0286a713162712554108083bc1bb9c0bc01bf3a6625cc6122e769cf81e8c7fefaf63d3312ffe6efe1fd4ef2a17341afd822c9c15988944ed721f55c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--Sender \
@@ -43,7 +43,7 @@ perl-Email--Sender--Transport--Wrapper \
 perl-Email--Sender--Util \
 perl-Email-Sender"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Email--Abstract \
 perl-Email--Address--XS \
 perl-Email--Simple \

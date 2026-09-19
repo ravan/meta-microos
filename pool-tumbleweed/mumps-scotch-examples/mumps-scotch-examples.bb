@@ -10,8 +10,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "mumps-scotch-examples-5.3.5-3.4.aarch64.rpm"
-RPM_HASH = "5e10559546aa65d09bbeecfa951a45756a63a3a0a638b14fc7abbb4adecb6d3ad793490752dd1b67650ece2ee62971a85502ebe4e8c9dae943b8081a8480ef84"
+RPM_NAME = "mumps-scotch-examples-5.3.5-7.7.aarch64.rpm"
+RPM_HASH = "181236f120b7ea728299f5cf7e5f32a5e66f8c1b334136e2f5aa7107584db2c890b70fbb2a64dae99ad214ec7e47d53ff137cb2e4061acd1277f63721c04384e"
 
 RPROVIDES:${PN} += "mumps-examples)( \
 mumps-scotch-examples"
@@ -21,7 +21,7 @@ libblas.so.3 \
 libc.so.6 \
 libcmumps-scotch.so.5.3.5 \
 libdmumps-scotch.so.5.3.5 \
-libesmumps.so.0 \
+libesmumps.so.7.0 \
 libgcc-s.so.1 \
 libgfortran.so.5 \
 liblapack.so.3 \
@@ -30,8 +30,8 @@ libmpiseq-scotch.so.5.3.5 \
 libmumps-common.so.5.3.5 \
 libmumps-scotch5-3-5 \
 libpord-scotch.so.5.3.5 \
-libscotch.so.0 \
-libscotcherr.so.0 \
+libscotch.so.7.0 \
+libscotcherr.so.7.0 \
 libsmumps-scotch.so.5.3.5 \
 libzmumps-scotch.so.5.3.5"
 

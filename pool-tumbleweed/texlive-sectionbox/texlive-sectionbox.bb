@@ -6,10 +6,10 @@ class in mind, and certainly works with that class and with \
 derived classes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn37749"
+PV = "2026.226.1.01svn37749"
 
-RPM_NAME = "texlive-sectionbox-2023.209.1.01svn37749-54.1.noarch.rpm"
-RPM_HASH = "20eb5394f9db21be0b5b9384d186aea1b01fe826112cc46026b8c61959bd1970e354893930fd1f634baf5fbf984de94a065588e9b2584de6d6097cfb76d38a42"
+RPM_NAME = "texlive-sectionbox-2026.226.1.01svn37749-60.2.noarch.rpm"
+RPM_HASH = "8174a0f6400ce92758181a4ca7c01f9777c98125caeed5eaeeb44636515c9066ffe5b92df9385d58d4f6b9c5819e1384f6788fa72910153ebf567f2c541d8411"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sectionbox.sty \

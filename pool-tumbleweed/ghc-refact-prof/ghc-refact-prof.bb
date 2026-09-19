@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.0.2"
 
-RPM_NAME = "ghc-refact-prof-0.3.0.2-4.3.aarch64.rpm"
-RPM_HASH = "e225831dd0ee1ee02b50e18306f24b3af5b93eb047a957f3d8281789ed9a20c69f73e44acbc19cfb14918fed40d20b2859b9d880a701460defe3cb4dd300d47f"
+RPM_NAME = "ghc-refact-prof-0.3.0.2-4.19.aarch64.rpm"
+RPM_HASH = "a2fff47a95fd86f29bbeb5d23cd21d598fd7d8f3c9afecc1acdd2f91bb620f5c78a2c4da061c2ceadfe19558655100ced840e1aee6365e2f4a1a5024e9dcb5de"
 
-RPROVIDES:${PN} += "ghc-prof-refact-0.3.0.2-BDNu2wr6P751Tb9dT06Yg8 \
+RPROVIDES:${PN} += "ghc-prof-refact-0.3.0.2-BbwdNckJT1UJcRbLtga6Lt \
 ghc-refact-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
 ghc-refact-devel"
 
 inherit rpm

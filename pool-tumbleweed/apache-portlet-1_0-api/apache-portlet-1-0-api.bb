@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0"
 
-RPM_NAME = "apache-portlet-1_0-api-1.0-113.19.noarch.rpm"
-RPM_HASH = "5e2e561611204e20cbaf90b8fb38690c4028d0a7027788302ac7f93f2b9b9fc6b6de5984816a93d796bfafc3432af3fec928aa424021cc86f1951ac544a40fff"
+RPM_NAME = "apache-portlet-1_0-api-1.0-114.9.noarch.rpm"
+RPM_HASH = "c1abec21c31c2ff942c5452818eca2c17854c5fd3b9cc40e4a82b45d7fd4aea0198897e2e26475d9c14a054daa6256e4f7d7deaab150c0a97f4af20e3ece0d4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-portlet-1-0-api \

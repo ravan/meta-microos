@@ -4,10 +4,10 @@ can access and read storage media devices and will determine \
 information about such."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221028"
+PV = "20260902"
 
-RPM_NAME = "libsmdev-tools-20221028-3.1.aarch64.rpm"
-RPM_HASH = "e41da83386a313b8c31c3bdf259997948d06c283d6c2543a964a8830c949a35dffa81a44da6e39ffec8af95480ec0a029b315ff15f622d0f98cc4134804ec7e5"
+RPM_NAME = "libsmdev-tools-20260902-1.1.aarch64.rpm"
+RPM_HASH = "e7079b33651ceac8be2ff5dc3244d95455ca2de78a5db3d9c05db2833e3b25549841bf5636ac17eedeb5bc40cbb5a6547b900fe08773edd62e7ca3ab5337e526"
 
 RPROVIDES:${PN} += "libsmdev-tools"
 

@@ -8,10 +8,10 @@ paragraphs (or headlines) with embedded math expressions at \
 font sizes above 17.28pt."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9svn17513"
+PV = "2026.226.1.9svn78101"
 
-RPM_NAME = "texlive-moresize-2023.209.1.9svn17513-55.1.noarch.rpm"
-RPM_HASH = "e7888b97e8e24898bc8db898c223426d58d4589952d18688c368f4f79d21cca6eb82d1b6dedf4495d8bae9d33b4aad323646bd9e857440fa9c211a7034e1beda"
+RPM_NAME = "texlive-moresize-2026.226.1.9svn78101-61.2.noarch.rpm"
+RPM_HASH = "ee29ab4a32ee40c2b1897e38e71bd31e4e0bac8b21b1a5c40aea97d744d5a3bff2d6bee95ab3e0c9c6f749c49724df1fe2625618ad4864d3f9d08672090a5ce1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-moresize.sty \

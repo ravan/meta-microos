@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-tools"
 DESCRIPTION = "This package includes the documentation for texlive-pst-tools"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.12svn60621"
+PV = "2026.226.0.0.12svn60621"
 
-RPM_NAME = "texlive-pst-tools-doc-2023.209.0.0.12svn60621-54.2.noarch.rpm"
-RPM_HASH = "48ab8f13f670e09ad172cc0a778f4e7f5c79b551dc2aa42b2e562b52c169b5bd626f375d60a3121114cdd9bc3c51c442cb1e2ce344e90c78ab0f97e93afd789f"
+RPM_NAME = "texlive-pst-tools-doc-2026.226.0.0.12svn60621-60.4.noarch.rpm"
+RPM_HASH = "c9190701c135eed177a46d937c5be3fb0b2d83bebffb3999ef759de19d74fcc5c528aa3cee83e5c217e51ce66287fca153eb2a102100556936a15245726961f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-tools-doc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "libppl_c4-1.2-3.2.aarch64.rpm"
-RPM_HASH = "fcda7d121a4914678ca45d0b2bf5df15e378fd863c51e55ca117dc005dcb4d9d3c04fa686593c20e573106cb882e11bea0bae85679e02b2578b0d9ca6fabba6a"
+RPM_NAME = "libppl_c4-1.2-3.12.aarch64.rpm"
+RPM_HASH = "b3506055894b0b0e733b396ea12069f07263ec27c17ea91ff217a6d27711f3321c73b83121f3e4cca43e390bda13a1f95499829cfc1859e88a03de13ac150aaa"
 
 RPROVIDES:${PN} += "libppl-c.so.4 \
 libppl-c4"

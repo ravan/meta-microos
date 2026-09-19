@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.3"
 
-RPM_NAME = "lxappearance-devel-0.6.3-1.14.aarch64.rpm"
-RPM_HASH = "5e41a32e0ca7257f9895edf31a5a98f4b0623dda04a46800cab9f588c3eb83c221085de4b0186e0e267750aada0fcc59b19f667368dc2ee4ba8ee9631be3002b"
+RPM_NAME = "lxappearance-devel-0.6.3-1.30.aarch64.rpm"
+RPM_HASH = "dec28f7600915d704f251a907a054248a5f0b3863098c8bbc992c1b3f7ca77e21258da17793d733cf2228b7e2cc24b642c8c8a64167f56476349b5beae485e1d"
 
 RPROVIDES:${PN} += "lxappearance-devel \
 pkgconfig-lxappearance"

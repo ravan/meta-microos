@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package lunar-date"
 DESCRIPTION = "Provides translations for the 'lunar-date' package."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.9.3"
+PV = "3.0.1"
 
-RPM_NAME = "lunar-date-lang-2.9.3-2.15.noarch.rpm"
-RPM_HASH = "32d4550a01d58fc9287dfeabf30b675873b6adb08b8361f9ae33f873170fe24719cbd4fff7de6bc5f9224ecbe308c273fd57ef09ec5f222fe1205de16c8e890b"
+RPM_NAME = "lunar-date-lang-3.0.1-1.13.noarch.rpm"
+RPM_HASH = "b3adc0cbd3bfa0fea7512de01970e4a3db5ac5fa20f927e7d031f4ed940c66dd311e5e6029977fcead426642a3dbd55883135eecabb1e61d332255e9ce239d97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lunar-date-zh-CN \

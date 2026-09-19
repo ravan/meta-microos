@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xdg-user-dirs-gtk"
 DESCRIPTION = "Provides translations for the 'xdg-user-dirs-gtk' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.11"
+PV = "0.16"
 
-RPM_NAME = "xdg-user-dirs-gtk-lang-0.11-2.1.noarch.rpm"
-RPM_HASH = "7c819898eeb51854ba490c8f0d185a50626b98505be48f266e35defe3c064707df489b02c9bf8ce51eb244b86d9749951e592864c4d9341d6df206690c1ed1e2"
+RPM_NAME = "xdg-user-dirs-gtk-lang-0.16-2.2.noarch.rpm"
+RPM_HASH = "dfbedfd66aa549bb388347a10e84e7025b8556e963729b97f5dac64697ddc1840c4e8a90472229a5f1a12a1ee565b0402659862e59f77c1e601432e266c511cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xdg-user-dirs-gtk-af \

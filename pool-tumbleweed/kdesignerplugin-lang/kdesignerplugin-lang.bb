@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdesignerplugin"
 DESCRIPTION = "Provides translations for the 'kdesignerplugin' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kdesignerplugin-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "6c94f4278ada6ad41509efcd091c9d735cb596e552a643d94bfcf6d1d49acbf1900efe195ec1aa328b1ddb7b2fbc820590eb3e8249efdcb22b220270d03784aa"
+RPM_NAME = "kdesignerplugin-lang-5.116.0-1.8.noarch.rpm"
+RPM_HASH = "62891f560b7fd383e05e0ea07033d85d2d01f7388386228dab63a65b2d2bbb9bc7985ef2e244776cea0c9dde80ea21d57e4e84b7f2828c2a8a011511069c48f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdesignerplugin-lang \

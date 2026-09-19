@@ -2,10 +2,10 @@ SUMMARY = "Translations for package yelp"
 DESCRIPTION = "Provides translations for the 'yelp' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "42.2"
+PV = "49.2"
 
-RPM_NAME = "yelp-lang-42.2-1.3.noarch.rpm"
-RPM_HASH = "e6c90f31f3bca7a7c0d813189f3f02c112f42e854d4afbca47517765fcd323e28b0e464b092d96fb5398f48e9f4d9d238ce3373ad1d23a7fd1a31f0f3228ccda"
+RPM_NAME = "yelp-lang-49.2-1.1.noarch.rpm"
+RPM_HASH = "cc296cb34aebf9e274bef9425d16a88b488282699f56c6d5811a62662a6c6ab8362948a80646dd442ae9268cd549bea4987237764dd3d984444336bafaea638d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yelp-af \
@@ -46,6 +46,7 @@ locale-yelp-he \
 locale-yelp-hi \
 locale-yelp-hr \
 locale-yelp-hu \
+locale-yelp-ia \
 locale-yelp-id \
 locale-yelp-is \
 locale-yelp-it \

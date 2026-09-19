@@ -7,10 +7,10 @@ statistics of files and directory trees or showing the context lines before and 
 after the matches."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.6.1"
+PV = "2.8.0"
 
-RPM_NAME = "vgrep-2.6.1-1.5.aarch64.rpm"
-RPM_HASH = "af44e9e11a91f953ecdc3d9c9cc34e0b8f364e1a8d728c726c32548226b5fac6a2120abf033b9e8b47f5f140be282ade2016cf8f021241056e2d7be8d29f2ed2"
+RPM_NAME = "vgrep-2.8.0-1.13.aarch64.rpm"
+RPM_HASH = "c33614aae79e84daa90adb839eb38c0fb59c86410c2376a9412e1da542c610279749239c56b7770aadc718dfcce5e20b4256f1ea8339b5b4338475b1d239a8d8"
 
 RPROVIDES:${PN} += "vgrep"
 

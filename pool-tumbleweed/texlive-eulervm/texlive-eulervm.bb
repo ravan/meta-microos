@@ -1,5 +1,5 @@
 SUMMARY = "Euler virtual math fonts"
-DESCRIPTION = "The well-known Euler fonts are suitable for typsetting \
+DESCRIPTION = "The well-known Euler fonts are suitable for typesetting \
 mathematics in conjunction with a variety of text fonts which \
 do not provide mathematical character sets of their own. \
 Euler-VM is a set of virtual mathematics fonts based on Euler \
@@ -14,10 +14,10 @@ allows the fonts to be loaded at 95% of their nominal size, \
 thus blending better with certain text fonts, e.g., Minion."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.0svn15878"
+PV = "2026.226.4.0svn77682"
 
-RPM_NAME = "texlive-eulervm-2023.209.4.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "b510b86d8d11ed6e9b44f924a9f07f76a418171627340fa654751f94cf0c4885ff2748178f2ab0e95fa8dc0685d3c07c3a5f024c9c661ce007101dd073e3effb"
+RPM_NAME = "texlive-eulervm-2026.226.4.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "d0c445aacc49934d713e983ff916a6e5c7dceb8bde520e97eed34e63ca8f4703cc9a53dcd346eb646d5ecfb933f7eceaf19bb427b231de150d710154f5414c62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eulervm.sty \

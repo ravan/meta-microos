@@ -13,16 +13,17 @@ allowing access the lockdown daemon (and then to all of the file access, sync, \
 notification and backup services running on the device)."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "2.0.2"
+PV = "2.1.0"
 
-RPM_NAME = "libusbmuxd-tools-2.0.2-1.10.aarch64.rpm"
-RPM_HASH = "1247bab4682b395b2d06905be3bfc954451dbc08a7a54b0e96b8f9d338974bbb9f49b66a6db30e11c8f8018033a4355f60f90353862f7c4a51a96faee65eb440"
+RPM_NAME = "libusbmuxd-tools-2.1.0-1.7.aarch64.rpm"
+RPM_HASH = "16c14baf0601a2d35ebae4c159c241f0d9e594b62d47083f55aace7a65cd732b52cdb6836140e45135161527dc8448bb3720109133d5f161b80e26890055ecdc"
 
 RPROVIDES:${PN} += "iproxy \
 libusbmuxd-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libusbmuxd-2.0.so.6"
+libimobiledevice-glue-1.0.so.0 \
+libusbmuxd-2.0.so.7"
 
 inherit rpm

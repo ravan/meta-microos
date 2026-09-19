@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.4"
 
-RPM_NAME = "ghc-attoparsec-doc-0.14.4-4.4.noarch.rpm"
-RPM_HASH = "26a5a1bf86b07268e8ef23926303e0d6fd4b41bb61b0cdf1bc42ac4c9837a08ab5f415049b87294cdb3066638c3fcb52f0346ede4eb9751a26d0dbe32ed2b948"
+RPM_NAME = "ghc-attoparsec-doc-0.14.4-6.19.noarch.rpm"
+RPM_HASH = "7bd207241ae00ede00adf371eb7f95bb74b1f29fb9638afd453454e152512f494cdd316957c8fcded8bea4cd068bac766dd8b1a6446afc7178344fc9fabfffe9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-attoparsec-doc"

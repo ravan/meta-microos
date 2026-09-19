@@ -21,10 +21,10 @@ much better information about what is wrong with your code than the \
 standard JVM message."
 LICENSE = "Apache-2.0"
 
-PV = "6.7.0"
+PV = "6.10.0"
 
-RPM_NAME = "bcel-6.7.0-1.1.noarch.rpm"
-RPM_HASH = "a21770668f4d5645851c85abefb43efc27fbfd8c07711e79b8c23bce24d9c4d90a73042257ed7aac63f35bc6a13d403663b56683ea7ebbd16531bd1c85775aeb"
+RPM_NAME = "bcel-6.10.0-1.9.noarch.rpm"
+RPM_HASH = "fb91dc321a771456066a9833119534703e82b15f9ef472341555f0ee6f8716e97b07d3dad597e7e951e3dfbceb2acbaea0320c9aef9f8b186ac235c9fcbcc59d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcel \

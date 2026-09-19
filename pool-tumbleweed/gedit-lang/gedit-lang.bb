@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gedit"
 DESCRIPTION = "Provides translations for the 'gedit' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "50.0"
 
-RPM_NAME = "gedit-lang-44.2-1.5.noarch.rpm"
-RPM_HASH = "83107d4465a3d2d9cf8d887c4a035390fe9f4d897ae7af4d2d85fda5ff0603c8880f4c674182906e8315d3179c4cfef423fb8cfbefe6f56b279a00e705f12649"
+RPM_NAME = "gedit-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "609cdea3b73a18b58d131231d75ed648727fd8f30f43216370651e41b7d42b038d7300ab72f9be79f622e70fd0e311d804a752f2f0c0b2c2a3718eb4ecb59314"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gedit-lang \
@@ -49,6 +49,7 @@ locale-gedit-he \
 locale-gedit-hi \
 locale-gedit-hr \
 locale-gedit-hu \
+locale-gedit-ia \
 locale-gedit-id \
 locale-gedit-is \
 locale-gedit-it \

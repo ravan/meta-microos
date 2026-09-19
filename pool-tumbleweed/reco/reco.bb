@@ -1,25 +1,26 @@
 SUMMARY = "Audio Recording App"
-DESCRIPTION = "An audio recording app designed for elementary OS."
+DESCRIPTION = "An audio recording app designed for the Pantheon Desktop."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.1"
+PV = "5.2.1"
 
-RPM_NAME = "reco-3.2.1-1.8.aarch64.rpm"
-RPM_HASH = "082d892d3ea7eea562a4d9001f5b3d20fb05bc1c706270e12cccda354fe1c9cc45ba1aaf8b1d2123a0cad80395af87396f6f3cbcba3676522a11f43fca9f74a1"
+RPM_NAME = "reco-5.2.1-1.2.aarch64.rpm"
+RPM_HASH = "647b55c52df917bebec249c5c761ed8452fb19711fff94fe8e9b64ae46955152c08f7de6c8ded74031867c4cf70a482bc99a27fb897086aa7e1d515891ecfd00"
 
 RPROVIDES:${PN} += "reco"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
 libc.so.6 \
-libgdk-3.so.0 \
+libgee-0.8.so.2 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgranite.so.6 \
+libgranite-7.so.7 \
 libgstreamer-1.0.so.0 \
-libgtk-3.so.0 \
-libhandy-1.so.0 \
-libpulse-mainloop-glib.so.0 \
-libpulse.so.0"
+libgtk-4.so.1 \
+liblivechart-2.so.2 \
+libm.so.6 \
+libryokucha.so.0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-create-theorem"
 DESCRIPTION = "This package includes the documentation for texlive-create-theorem"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.20220808asvn64104"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-create-theorem-doc-2023.209.20220808asvn64104-55.1.noarch.rpm"
-RPM_HASH = "364396c60d6aaf5641722f13c5047d72745c7ad2896b6e57d0e36d4383a01f75d85900d14f6cd0632d4222df597758444d770d25fdf20059625a76aa5742688e"
+RPM_NAME = "texlive-create-theorem-doc-2026.226.svn76924-61.2.noarch.rpm"
+RPM_HASH = "4e5e02de1614b6c5905911b112e98e6ca13da56e74458e3b168a3b6688c570f2621bb5903a6e7b2766e7b37ab88d929cb88971304e33e63e42b8898676d0b5dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-create-theorem-doc"

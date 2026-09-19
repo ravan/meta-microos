@@ -6,10 +6,10 @@ the conventions of John Wiley & Sons Ltd and Global Ecology and \
 Biogeography Conventions (c)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn39233"
+PV = "2026.226.1.0svn39233"
 
-RPM_NAME = "texlive-ecobiblatex-2023.209.1.0svn39233-54.2.noarch.rpm"
-RPM_HASH = "060a6cc5c7da5297401cb5e704289a93b92c4d556da27ec029980a7c0101396a8d50a9bc145b67472d82ff2899f8befd81db7b56a78db5eb60b6c29d0aae849a"
+RPM_NAME = "texlive-ecobiblatex-2026.226.1.0svn39233-61.4.noarch.rpm"
+RPM_HASH = "a0483fc3776217f00591e5d872b084e4662c48a5666f92c9e5a9cb25d24aa8c72d2ef1d77eb171af4a9ea248f2100b8eee8c60f798bcf066024e8070ab88721f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ecobiblatex.bbx \

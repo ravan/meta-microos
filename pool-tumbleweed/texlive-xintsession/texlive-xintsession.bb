@@ -12,10 +12,10 @@ variables. A file is automatically created storing inputs and \
 outputs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4alphasvn60926"
+PV = "2026.226.0.0.4alphasvn60926"
 
-RPM_NAME = "texlive-xintsession-2023.209.0.0.4alphasvn60926-53.2.noarch.rpm"
-RPM_HASH = "b43da7173f323d9ab1d11a286511730d6162a42d8a344678b3f63740920ae1de918aabb7a4af4f0eed90b08ace829416658369106f180bcd113b25acd1709b5c"
+RPM_NAME = "texlive-xintsession-2026.226.0.0.4alphasvn60926-59.4.noarch.rpm"
+RPM_HASH = "addc5721051cec2b4faa5649c664c61f3731a4cdfa9366ab70e307c438a8b0d8bd5be60a8b2eeccdecda2e4038558f08843b191ab44c1d1426d07df5b14271f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xintsession.tex \

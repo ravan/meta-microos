@@ -1,21 +1,20 @@
 SUMMARY = "Computer Modern for Serbian and Macedonian"
-DESCRIPTION = "This package provides provides Adobe Type 1 Computer Modern \
-fonts for the Serbian and Macedonian languages. Although the \
-cm-super package provides great support for cyrillic script in \
-various languages, there remains a problem with italic variants \
-of some letters for Serbian and Macedonian. This package \
-includes the correct shapes for italic letters \\cyrb, \\cyrg, \
-\\cyrd, \\cyrp, and \\cyrt. It also offers some improvements in \
-letters and accents used in the Serbian language. Supported \
-encodings are: T1, T2A, TS1, X2 and OT2. The OT2 encoding is \
-modified so that it is now easy to transcribe Latin text to \
-Cyrillic."
+DESCRIPTION = "This package provides Adobe Type 1 Computer Modern fonts for \
+the Serbian and Macedonian languages. Although the cm-super \
+package provides great support for cyrillic script in various \
+languages, there remains a problem with italic variants of some \
+letters for Serbian and Macedonian. This package includes the \
+correct shapes for italic letters \\cyrb, \\cyrg, \\cyrd, \\cyrp, \
+and \\cyrt. It also offers some improvements in letters and \
+accents used in the Serbian language. Supported encodings are: \
+T1, T2A, TS1, X2 and OT2. The OT2 encoding is modified so that \
+it is now easy to transcribe Latin text to Cyrillic."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.4.0svn54706"
+PV = "2026.226.4.0svn76790"
 
-RPM_NAME = "texlive-cmsrb-2023.209.4.0svn54706-54.1.noarch.rpm"
-RPM_HASH = "151d3d89f52966c21c548e48f9a6b76b1cf074dba97729d300c230c873e8d1a09738c103974c3b33dd9eff5860ecb457da630a0a0ce853631f44e9b6f9a721fe"
+RPM_NAME = "texlive-cmsrb-2026.226.4.0svn76790-60.2.noarch.rpm"
+RPM_HASH = "69f67fcc0b5e176d80cb831254010a6b5a168f3ea3eec91e19fd020b64c11c206bb120ef1dacdb8bf7007cabdca88e7b2632896c59933c40bca9d5cbde55eb4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmsrb.map \

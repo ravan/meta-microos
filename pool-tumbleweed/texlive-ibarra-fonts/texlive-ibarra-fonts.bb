@@ -2,16 +2,19 @@ SUMMARY = "Severed fonts for texlive-ibarra"
 DESCRIPTION = "The  separated fonts package for texlive-ibarra"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64567"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-ibarra-fonts-2023.209.svn64567-54.1.noarch.rpm"
-RPM_HASH = "b78efb55f97e5bea3a986ecea13c01483c9597401c3c7850cbdedc4df89ff92b52cc3da92453ad04e2da65fbc73f77ba6ff2f5680c27267e1b105635aad35533"
+RPM_NAME = "texlive-ibarra-fonts-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "a7b7cecfba3680cba776f628b9108d5b658f084960ece32ad06ecacf15541968f28a852c3e11c454d9a5922a2525501dfcb66c6bc5c2be316bf6e040ac18808e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-ibarra-fonts \
 font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=bs \
@@ -23,6 +26,7 @@ font--lang=csb \
 font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=en \
 font--lang=es \
 font--lang=et \
@@ -55,15 +59,20 @@ font--lang=kwm \
 font--lang=lb \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mjw \
 font--lang=ms \
 font--lang=mt \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -83,6 +92,7 @@ font--lang=rw \
 font--lang=sc \
 font--lang=se \
 font--lang=sg \
+font--lang=sgs \
 font--lang=sk \
 font--lang=sl \
 font--lang=sma \
@@ -99,25 +109,23 @@ font--lang=sw \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-ibarrarealnova \
-font-ibarrarealnova-bold \
-font-ibarrarealnova-bolditalic \
-font-ibarrarealnova-italic \
-font-ibarrarealnova-regular \
-font-ibarrarealnova-semibold \
-font-ibarrarealnova-semibolditalic \
 font-ibarrarealnovasemibold \
 texlive-ibarra-fonts"
 

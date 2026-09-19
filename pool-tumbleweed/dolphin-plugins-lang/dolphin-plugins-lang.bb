@@ -2,15 +2,16 @@ SUMMARY = "Translations for package dolphin-plugins"
 DESCRIPTION = "Provides translations for the 'dolphin-plugins' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "dolphin-plugins-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "146854ba3a93c5922f2339260d2624bb31423cb255d1976e5cbe93df54b36653a0f435940c161f9a40a0201628f724828c12c59bac5d44b0de028b6253e95d74"
+RPM_NAME = "dolphin-plugins-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "5435951a50616c13acbdff1d69b8ad4092de4ce5cc39452d06effefa78b08d18d163bfcf5c059dcee7d9554832c18c0e7308868d2f0e4c8274ddb9ca385f19e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dolphin-plugins-lang \
 dolphin-plugins-lang-all \
 locale-dolphin-plugins-ar \
+locale-dolphin-plugins-ast \
 locale-dolphin-plugins-az \
 locale-dolphin-plugins-bg \
 locale-dolphin-plugins-bs \
@@ -29,15 +30,19 @@ locale-dolphin-plugins-fi \
 locale-dolphin-plugins-fr \
 locale-dolphin-plugins-ga \
 locale-dolphin-plugins-gl \
+locale-dolphin-plugins-he \
+locale-dolphin-plugins-hi \
 locale-dolphin-plugins-hu \
 locale-dolphin-plugins-ia \
 locale-dolphin-plugins-id \
+locale-dolphin-plugins-is \
 locale-dolphin-plugins-it \
 locale-dolphin-plugins-ja \
 locale-dolphin-plugins-ka \
 locale-dolphin-plugins-kk \
 locale-dolphin-plugins-ko \
 locale-dolphin-plugins-lt \
+locale-dolphin-plugins-lv \
 locale-dolphin-plugins-mr \
 locale-dolphin-plugins-nb \
 locale-dolphin-plugins-nds \

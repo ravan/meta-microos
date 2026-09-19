@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0"
 
 PV = "0.1"
 
-RPM_NAME = "openbox-adwaita-ob-theme-0.1-3.16.noarch.rpm"
-RPM_HASH = "f503d0dc4f756dfcfd06bcf064b1d791a1edf231a5a6e473cfe28e7923a670a4b55ac06af6fd8138a6bde88284cbb4378d97feef8e9f897b378fcae35c71325a"
+RPM_NAME = "openbox-adwaita-ob-theme-0.1-3.24.noarch.rpm"
+RPM_HASH = "6c5cf524d81049d8f944088a8d3172c18f6e8de096901d217ef29fc3fe581b4c55e49c46cada2ad17d56a28980083d7946681f6d163de18667372d293cc31975"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openbox-adwaita-ob-theme"

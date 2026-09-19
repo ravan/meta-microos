@@ -7,10 +7,10 @@ in the 10-usb-music-players.fdi file but had to be moved elsewhere as part \
 of the big HALectomy."
 LICENSE = "BSD-3-Clause"
 
-PV = "24"
+PV = "26"
 
-RPM_NAME = "media-player-info-24-1.10.noarch.rpm"
-RPM_HASH = "8e88eabd423eb6d3031e1c501c5519d3f3704c84d817c4de2d335ad9b2b0a49af24e39d56fbe61be45d2a62deb7cf08f9ac2cfc591ddd52e9e86e9fd3e9648d3"
+RPM_NAME = "media-player-info-26-1.6.noarch.rpm"
+RPM_HASH = "bb1179a1707e4f61114735b99233cfc3b14fbe24b8854fc072f20b7a6d49accd66d7497c9993cc11e1a6f97d7b8dd62644d91009453e3c0b7258c1e599128475"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "media-player-info"

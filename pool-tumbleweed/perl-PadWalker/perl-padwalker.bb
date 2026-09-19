@@ -11,15 +11,15 @@ your call. Some of the modules that use PadWalker internally are certainly \
 safe for and useful in production."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.5"
+PV = "2.500.0"
 
-RPM_NAME = "perl-PadWalker-2.5-1.17.aarch64.rpm"
-RPM_HASH = "35f2bf534387d28d16f71a6397d5c8fd93d54aaf5df3cb927bfc092fa616bda5b51d60e20d5a4484b8c0d0c5b731980825ad040a7dea85a6fef154ddc22a620d"
+RPM_NAME = "perl-PadWalker-2.500.0-1.10.aarch64.rpm"
+RPM_HASH = "8879495c72e62fd3f5413e3d8c889b30f4a65e5ac31f8740afbb2ae040d3c58459680a548c3ea255bfb2bf899bb2582b7eecd320f23ed0f40bdfdd140d75856f"
 
 RPROVIDES:${PN} += "perl-PadWalker"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

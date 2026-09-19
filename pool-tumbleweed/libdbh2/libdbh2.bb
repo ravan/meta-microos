@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.22"
 
-RPM_NAME = "libdbh2-5.0.22-1.16.aarch64.rpm"
-RPM_HASH = "972b1a5de6560951797602c44bac56230e05fcba8a96f2561d117b1252457ea6d3c6d9319d9e44532cf5dad0027c7d6978243c7610c9122e3722d70b47a88972"
+RPM_NAME = "libdbh2-5.0.22-2.8.aarch64.rpm"
+RPM_HASH = "cf327f11cddc66358c459e9dc62dea2e15033a5a3f1f3bd2fc3f6e9471e8c36ffb7b732b74f8df7bac45cfd10d05cd3f32e291af8a0a5da11bd6e11f2e70c0c4"
 
 RPROVIDES:${PN} += "dbh \
 libdbh.so.2 \

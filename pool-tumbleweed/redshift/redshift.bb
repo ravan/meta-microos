@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.12"
 
-RPM_NAME = "redshift-1.12-7.11.aarch64.rpm"
-RPM_HASH = "b9a63a3928f93a99c78c4e2cbc4615883a4a5e7e05da32852ad27fb3c71615466123ecfba7ba1400dcb055374fc56a91a62a0935e06966821199d07c32a64e49"
+RPM_NAME = "redshift-1.12-9.7.aarch64.rpm"
+RPM_HASH = "29dcdba3d487cc7925902df02c5b69b92feff4aa6f0d5687e86b3fbdc9bea211b0c76e5d7334344f54dc65a2bc8ffeee3404e8c21e005bb61614f34df74e296a"
 
 RPROVIDES:${PN} += "config-redshift \
 redshift"

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of web"
 DESCRIPTION = "Binary files of web"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-web-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "d01ed2744d10d68c40bf38e4c0addfe98a9f1e51fc8a5184ace1615c8d4a130134cd5c4b53eea6e3271a2855681c0f128af4a5b6c5dfdb1af756751aca098136"
+RPM_NAME = "texlive-web-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "c43576cf4cc572812a81384eedc6ab4f093ef9d346feff39b756cc8b677999b7b1e4da03486f83dd1e739c4b52982bfa94ba54ca5786f00804f60320fed15bc2"
 
 RPROVIDES:${PN} += "texlive-web-bin"
 

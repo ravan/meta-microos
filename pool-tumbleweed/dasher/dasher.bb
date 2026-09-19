@@ -5,10 +5,10 @@ accessibility or PDAs). It is usable with greatly limited amounts of \
 physical input while still allowing high rates of text entry."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.0.0"
+PV = "5.0.0+199"
 
-RPM_NAME = "dasher-5.0.0-1.8.aarch64.rpm"
-RPM_HASH = "5c68f9187d08541ac66719ac3b82cf927318740cd48fa64481a472259821e03296a06b500523a2260912ff7753b5491ac9949f31cb073e4b38078042e5b60a08"
+RPM_NAME = "dasher-5.0.0+199-3.4.aarch64.rpm"
+RPM_HASH = "b17658023a380739fd4497c4ec61392bd2433ae040ce14b38540fb701a41908531894d31e0587029760d350e97ca17be7adf36711c6817ce67aa3106a4c76dbf"
 
 RPROVIDES:${PN} += "dasher \
 dasher-data-extras \

@@ -8,10 +8,10 @@ fourier package). The pxgreeks package does not constrain the \
 text font that may be used in the document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn21838"
+PV = "2026.226.1.0svn21838"
 
-RPM_NAME = "texlive-pxgreeks-2023.209.1.0svn21838-54.2.noarch.rpm"
-RPM_HASH = "2741281ff07b52fce3a6f128e2145fff0dec823dcc61c24c6b86fd88ad503374731c243cb183aac79b255aa47d0d82ad1f435348e23a065565a15f0ac5bf3ee3"
+RPM_NAME = "texlive-pxgreeks-2026.226.1.0svn21838-60.4.noarch.rpm"
+RPM_HASH = "cbd23a334df3c1483d87556f6d8a547e9c55ad7f566fd28a78760325ec18b9b6ebceee037ebd79f19f2149625dc04444c7efccb1591f881d24e316d1de8d2a5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxgreeks.sty \

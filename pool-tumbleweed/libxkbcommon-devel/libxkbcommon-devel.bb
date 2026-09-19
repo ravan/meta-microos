@@ -11,10 +11,10 @@ This package contains the development headers for the library found \
 in libxkbcommon."
 LICENSE = "MIT"
 
-PV = "1.5.0"
+PV = "1.13.2"
 
-RPM_NAME = "libxkbcommon-devel-1.5.0-1.4.aarch64.rpm"
-RPM_HASH = "2ea4b68176e31ba552580abe589da9c6b074929995806cf255de90ba340edaa4568528c0a688d9b24287de34fc695ccfa4dd91b7e2c941bea2cbe56ab9a0e721"
+RPM_NAME = "libxkbcommon-devel-1.13.2-1.3.aarch64.rpm"
+RPM_HASH = "6fc1f729ff9b79e73231d3568c735219608a6cc28ea894df1e7a55463467f37c7156eb82f0e11792c21fede3817d47a36f43a89fff2621d71e6db6a28f1fd868"
 
 RPROVIDES:${PN} += "libxkbcommon-devel \
 pkgconfig-xkbcommon"

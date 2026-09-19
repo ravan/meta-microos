@@ -1,18 +1,20 @@
 SUMMARY = "An email client for terminals"
 DESCRIPTION = "aerc is an email client that runs in terminals."
-LICENSE = "MIT"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "0.15.2"
+PV = "0.22.0"
 
-RPM_NAME = "aerc-0.15.2-3.1.aarch64.rpm"
-RPM_HASH = "15a7e425d929ce23462dcb58e31a3537d2dce5c2a67baa3756154ff2129c57ab5b228046a1f23f8eb518b0b0f404c6c0c218de4e22aebe411d7d93212f079807"
+RPM_NAME = "aerc-0.22.0-1.1.aarch64.rpm"
+RPM_HASH = "ffd29c52f85c53d9653a8ab46f3b26a65ed1ec8520855eef21eacdab61327d589d9b4663f6f28aee7c1bf78deb66c778f78c834f771fa7710a581bfa3790ca21"
 
 RPROVIDES:${PN} += "aerc"
 
 RDEPENDS:${PN} += "/usr/bin/awk \
 /usr/bin/python3 \
 /usr/bin/sh \
+dante \
 libc.so.6 \
-libnotmuch.so.5"
+libnotmuch.so.5 \
+w3m"
 
 inherit rpm

@@ -5,10 +5,10 @@ languages, insertions), and will compare the number to the \
 maximum available number of such registers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0hsvn25050"
+PV = "2026.226.1.1bsvn78101"
 
-RPM_NAME = "texlive-regstats-2023.209.1.0hsvn25050-54.2.noarch.rpm"
-RPM_HASH = "5ff63732d667b37c4d4c998a8d069e71f16dfaed6815a55ce0b8f5d2181d07fc5a785188091a7c5f8b6e943c42d72a1dd21162716efca1ffe665addf53084b18"
+RPM_NAME = "texlive-regstats-2026.226.1.1bsvn78101-60.4.noarch.rpm"
+RPM_HASH = "23587abaeffda27af667a7692182a640a1f81c2d8a3524bbb95b4ea016880e29c34fd0501c6f8e2441ee88b9da9ade5b71d68b36729e46e420e45f105ec55f83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-regstats.sty \
@@ -22,11 +22,12 @@ grep \
 sed \
 tex-atveryend.sty \
 tex-etex.sty \
+tex-ifetex.sty \
 tex-ifluatex.sty \
 tex-ifpdf.sty \
+tex-iftex.sty \
 tex-intcalc.sty \
 tex-kvoptions.sty \
-tex-ltxcmds.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

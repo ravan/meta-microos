@@ -4,10 +4,10 @@ system. This daemon synchronizes connection tracking states between several \
 replica firewalls."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.7"
+PV = "1.4.9"
 
-RPM_NAME = "conntrackd-1.4.7-1.4.aarch64.rpm"
-RPM_HASH = "e4cd2b318322ff47f117bfc79d899a8aa067422065b59054c6b1437792652ce03628ee62428da0df116f0d70e4f9a88a57f8cd4b147d424bea73d2f2c6e5cd20"
+RPM_NAME = "conntrackd-1.4.9-1.4.aarch64.rpm"
+RPM_HASH = "8f932bb41e4d6d139092b72976c095b19eb47d40e141a860704073aa8562ed02e6d1c9d3ab25e0051881c1b96bab78c98d4ac17876acd7895d5da3e8016b1cd7"
 
 RPROVIDES:${PN} += "conntrack-tools-/usr/sbin/conntrackd \
 conntrackd"

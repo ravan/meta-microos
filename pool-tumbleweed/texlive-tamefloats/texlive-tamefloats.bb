@@ -9,10 +9,10 @@ maybe just a summary of previous work). The files provide \
 further information."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.42svn27345"
+PV = "2026.227.0.0.42svn27345"
 
-RPM_NAME = "texlive-tamefloats-2023.209.0.0.42svn27345-55.1.noarch.rpm"
-RPM_HASH = "1fd36c8704af711b5efa97bcc2eb85629e36cbc1ed3cb54b3d7ec7bec5a12025a2b25d5f449bec1bbc0e07c2329577663a2407f903ffd8045f53ca76e7bee67e"
+RPM_NAME = "texlive-tamefloats-2026.227.0.0.42svn27345-62.2.noarch.rpm"
+RPM_HASH = "0742e080ff17a357fcaa0ab49829212bc8dcea7efaebc673d4e3ede7bc0a81414e0f1106078979b67b9129922f99fc41dd7edeaa2977c58c67862cfb9069caa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tameflts.sty \

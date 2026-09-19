@@ -4,15 +4,16 @@ DESCRIPTION = "DBus interface for modem handling. Provides a standard abstracted
 CDMA)."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "1.20.6"
+PV = "1.24.2"
 
-RPM_NAME = "ModemManager-1.20.6-1.2.aarch64.rpm"
-RPM_HASH = "1c599bb30d0b1448a5e3ba05fb98ac3e09740bb26481032e5be1bdddd0a28a3aa4c3ffc2b17b6ac84a840d1b3b15b1519ad0341d5cea5be5ca07b3f7ca3e0eda"
+RPM_NAME = "ModemManager-1.24.2-1.6.aarch64.rpm"
+RPM_HASH = "3a2904d5c2ba2b0e0b15a34829a2b3773efd589360e974a68a1e6bf2c3862748ecb1f89d0df91349cc2601ccb3c3aae285117baaaf1612e23310e2e5a2e27fa9"
 
 RPROVIDES:${PN} += "ModemManager \
 libmm-plugin-altair-lte.so \
 libmm-plugin-anydata.so \
 libmm-plugin-broadmobi.so \
+libmm-plugin-cellient.so \
 libmm-plugin-cinterion.so \
 libmm-plugin-dell.so \
 libmm-plugin-dlink.so \
@@ -28,7 +29,9 @@ libmm-plugin-iridium.so \
 libmm-plugin-linktop.so \
 libmm-plugin-longcheer.so \
 libmm-plugin-motorola.so \
+libmm-plugin-mtk-legacy.so \
 libmm-plugin-mtk.so \
+libmm-plugin-netprisma.so \
 libmm-plugin-nokia-icera.so \
 libmm-plugin-nokia.so \
 libmm-plugin-novatel-lte.so \
@@ -38,6 +41,7 @@ libmm-plugin-option.so \
 libmm-plugin-pantech.so \
 libmm-plugin-qcom-soc.so \
 libmm-plugin-quectel.so \
+libmm-plugin-rolling.so \
 libmm-plugin-samsung.so \
 libmm-plugin-sierra-legacy.so \
 libmm-plugin-sierra.so \
@@ -53,8 +57,10 @@ libmm-plugin-zte.so \
 libmm-shared-fibocom.so \
 libmm-shared-foxconn.so \
 libmm-shared-icera.so \
+libmm-shared-mtk.so \
 libmm-shared-novatel.so \
 libmm-shared-option.so \
+libmm-shared-quectel.so \
 libmm-shared-sierra.so \
 libmm-shared-telit.so \
 libmm-shared-xmm.so \

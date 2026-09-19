@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon SWF"
 DESCRIPTION = "The AWS Java SDK for Amazon SWF module holds the \
 client classes that are used for communicating with \
 Amazon Simple Workflow Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-simpleworkflow-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "4a0f4b76d8e9e736d6f410a90806b877a4a8a33ecd8aef6151a90f116868d31b8a011d3aa55d177c4f11c19c24a10a65c5cb6df89ef3ed2ccc3a994dd7380161"
+RPM_NAME = "aws-sdk-java-simpleworkflow-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "ec87e367c6b0e68d7cdb5624904d2dec8d3ba81d3018b12c9a016bd252735a6319c68b99844341671f8b5c78d1c8aa328be3d9f9af046279926ccc5c7774db57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-simpleworkflow \

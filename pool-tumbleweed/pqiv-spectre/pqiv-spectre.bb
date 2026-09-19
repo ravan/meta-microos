@@ -2,10 +2,10 @@ SUMMARY = "Backend spectre for pqiv"
 DESCRIPTION = "Backend spectre for pqiv"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12"
+PV = "2.13.3"
 
-RPM_NAME = "pqiv-spectre-2.12-1.4.aarch64.rpm"
-RPM_HASH = "958f0af03edc4e0f8ec8522a3f4fc26aa3c1cc1e683038efb5c5a3e91ace5973473b78ee7c7626b4932a6e93e21d8ee83e112d1f29abce64bddd635617c794c8"
+RPM_NAME = "pqiv-spectre-2.13.3-1.4.aarch64.rpm"
+RPM_HASH = "0a798f7819dfa201875feada21bcfb5c2fd68eda2238beb267ffb86551f3762de17f04a7f5994772a2f006fcde1537dd3450bb3c7f14544c6168e644469c5ba1"
 
 RPROVIDES:${PN} += "pqiv-spectre"
 

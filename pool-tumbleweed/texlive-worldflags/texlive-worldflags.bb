@@ -8,10 +8,10 @@ flag (size, frame etc.) can be adapted using optional \
 parameters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn59171"
+PV = "2026.226.svn68827"
 
-RPM_NAME = "texlive-worldflags-2023.209.svn59171-54.1.noarch.rpm"
-RPM_HASH = "eab698162f0b6f768561f46900c7807653b1f723b33b912573b8567f76cefd76634b2c40ed88acfcc37137be5dae5234681e74153c899d44323cb9da096c89a3"
+RPM_NAME = "texlive-worldflags-2026.226.svn68827-60.2.noarch.rpm"
+RPM_HASH = "289240ec60bca54abf748215eedbb588b42218136ba6aff2dc6ee8949b20dbb1187a622cfa76e405cbffd5447b7d5539716cd6b54ab723175a1221c22297a156"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-worldflag-0.tex \
@@ -88,6 +88,7 @@ tex-worldflag-CY.tex \
 tex-worldflag-CZ.tex \
 tex-worldflag-Christian.tex \
 tex-worldflag-D.tex \
+tex-worldflag-DE-BY.tex \
 tex-worldflag-DE.tex \
 tex-worldflag-DJ.tex \
 tex-worldflag-DK.tex \
@@ -112,6 +113,11 @@ tex-worldflag-FO.tex \
 tex-worldflag-FR.tex \
 tex-worldflag-G.tex \
 tex-worldflag-GA.tex \
+tex-worldflag-GB-ENG.tex \
+tex-worldflag-GB-RAF.tex \
+tex-worldflag-GB-RED.tex \
+tex-worldflag-GB-RN.tex \
+tex-worldflag-GB-SCT.tex \
 tex-worldflag-GB.tex \
 tex-worldflag-GD.tex \
 tex-worldflag-GE.tex \
@@ -141,6 +147,28 @@ tex-worldflag-IN.tex \
 tex-worldflag-IQ.tex \
 tex-worldflag-IR.tex \
 tex-worldflag-IS.tex \
+tex-worldflag-IT-AA.tex \
+tex-worldflag-IT-AB.tex \
+tex-worldflag-IT-AO.tex \
+tex-worldflag-IT-BA.tex \
+tex-worldflag-IT-CL.tex \
+tex-worldflag-IT-CM.tex \
+tex-worldflag-IT-EM.tex \
+tex-worldflag-IT-FR.tex \
+tex-worldflag-IT-LA.tex \
+tex-worldflag-IT-LI.tex \
+tex-worldflag-IT-LO.tex \
+tex-worldflag-IT-MA.tex \
+tex-worldflag-IT-MO.tex \
+tex-worldflag-IT-PI.tex \
+tex-worldflag-IT-PU.tex \
+tex-worldflag-IT-SA.tex \
+tex-worldflag-IT-SI.tex \
+tex-worldflag-IT-TA.tex \
+tex-worldflag-IT-TN.tex \
+tex-worldflag-IT-TO.tex \
+tex-worldflag-IT-UM.tex \
+tex-worldflag-IT-VE.tex \
 tex-worldflag-IT.tex \
 tex-worldflag-J.tex \
 tex-worldflag-JE.tex \
@@ -174,6 +202,7 @@ tex-worldflag-LV.tex \
 tex-worldflag-LY.tex \
 tex-worldflag-M.tex \
 tex-worldflag-MA.tex \
+tex-worldflag-MC.tex \
 tex-worldflag-MD.tex \
 tex-worldflag-ME.tex \
 tex-worldflag-MG.tex \
@@ -245,6 +274,7 @@ tex-worldflag-SO.tex \
 tex-worldflag-SR.tex \
 tex-worldflag-SS.tex \
 tex-worldflag-ST.tex \
+tex-worldflag-SU.tex \
 tex-worldflag-SV.tex \
 tex-worldflag-SY.tex \
 tex-worldflag-SZ.tex \
@@ -302,6 +332,7 @@ findutils \
 grep \
 sed \
 tex-etex.sty \
+tex-graphicx.sty \
 tex-ifthen.sty \
 tex-tikz.sty \
 tex-xcolor.sty \

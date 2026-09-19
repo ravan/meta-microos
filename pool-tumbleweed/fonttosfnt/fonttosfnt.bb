@@ -3,10 +3,10 @@ DESCRIPTION = "Wrap a bitmap font or a set of bitmap fonts in a sfnt (TrueType o
 OpenType) wrapper."
 LICENSE = "MIT"
 
-PV = "1.2.2"
+PV = "1.2.5"
 
-RPM_NAME = "fonttosfnt-1.2.2-1.7.aarch64.rpm"
-RPM_HASH = "811e16387cdfcfb581e0c5ca35a5f3c0c17bca5e48235d23309afe859598ea925582f58df4d079a80d244b65a5d85ab80ad6d0a4bef6b00970a31392d7b3f275"
+RPM_NAME = "fonttosfnt-1.2.5-1.5.aarch64.rpm"
+RPM_HASH = "4232438b0e9979d26d34f5f11c6dc7f98fe32b5e3fef55d0108d38ecd4f97545fdd1e09cced6ba86da02e497d6f41b879b8aa0b67a6e0b47880a5e0422acdb86"
 
 RPROVIDES:${PN} += "fonttosfnt"
 

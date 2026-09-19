@@ -7,8 +7,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-russian-1.5-422.6.aarch64.rpm"
-RPM_HASH = "a8324cc2af4a5c7983bac6a61cd85197787f2ca5f7497cf0a7cac034e37df17e53d53561369634010bed2ceeb997a335625b8b1df2fdc1c5415586c58924c511"
+RPM_NAME = "ispell-russian-1.5-426.1.aarch64.rpm"
+RPM_HASH = "2db41d1be774a6c966ca2a5f187325adb1c891460370cd6573f685572bc6bf632e5c675ebe649e19058b4ca696f07f7adb96e134393be12d3bc91888f850be84"
 
 RPROVIDES:${PN} += "irussian \
 ispell-dictionary \

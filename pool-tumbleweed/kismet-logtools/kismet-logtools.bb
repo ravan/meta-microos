@@ -10,10 +10,10 @@ This subpackage contains several kismetdb log tools \
  - kismetdb_to_wiglecsv"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023_07_R1"
+PV = "2025_09_R1"
 
-RPM_NAME = "kismet-logtools-2023_07_R1-1.1.aarch64.rpm"
-RPM_HASH = "12a27aa31cd65e270f65f077ea9d1c6ad7d90e6d0d872342dcd20e953e44b3f8a871010a6c1b78a849fe411d9d0acb401474bcd223e055552e0f6576118d9920"
+RPM_NAME = "kismet-logtools-2025_09_R1-2.3.aarch64.rpm"
+RPM_HASH = "8eefcdcdd9165901297b628ea2fcb6e2efa2adfbe4c1d40266662063da2907436912a185d3c1bf0ab85dfdffdc7e19fd29f012bb74b432c983d94da6abe56e6c"
 
 RPROVIDES:${PN} += "kismet-logtools"
 

@@ -5,28 +5,29 @@ that flies around the sun. While doing so both players try not to \
 collide with anything but shoot at the other space ship."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kspaceduel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "54c3ee52f77ce742a481dedffe2f508ba4273762cc9c0417b2efb35373f8e24570063c7193d8f45431a889fa5a84a8136f726167d3511d817ff15becbf8da92c"
+RPM_NAME = "kspaceduel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "06b1ce6e20749d977e760dc7fe118af599524a203f94cd43881051234a25e4aeb9f507c6f4b6e117381f908de26476a74817b22b7c3caf8d66c70814cb49835a"
 
 RPROVIDES:${PN} += "kspaceduel \
 kspaceduel5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Svg.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6"

@@ -5,10 +5,10 @@ This package contains the software for NRPE server. \
 It could be run by an inetd, or as a standalone daemon."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.0.3"
+PV = "4.1.1"
 
-RPM_NAME = "nrpe-4.0.3-5.5.aarch64.rpm"
-RPM_HASH = "469096eecb5a1aba8a48dc8722ae4e782d5868189791d5d6a405caf5466ee09b86273c4ebf1339594d1756ceff623ef17e78fe348099737cb5f3c24ac2c1b2be"
+RPM_NAME = "nrpe-4.1.1-1.14.aarch64.rpm"
+RPM_HASH = "c9e51627f325ada72d30496b5e6fcc685cefbd55082e66c71e936b5ce72948620979ff2cf4223feb31504bae2d5ace91773f6f364744ee69ff350dfd31334202"
 
 RPROVIDES:${PN} += "config-nrpe \
 nagios-nrpe \
@@ -29,6 +29,7 @@ libssl.so.3 \
 libwrap.so.0 \
 netcfg \
 pwdutils \
-sed"
+sed \
+system-user-nagios"
 
 inherit rpm

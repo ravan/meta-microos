@@ -4,10 +4,10 @@ Usage help with ANSI styles and colors. Autocomplete. Nested subcommands. \
 Easily included as source to avoid adding a dependency."
 LICENSE = "Apache-2.0"
 
-PV = "4.7.5"
+PV = "4.7.7"
 
-RPM_NAME = "picocli-4.7.5-1.1.noarch.rpm"
-RPM_HASH = "e7520dd5be660c2c3bb4a092049a09475bcdbaec0f08de7c71f110c7122fb787f35658f7675aeb041ebb374bf85b4067a3ba5e74313a9978d4e4bc65a6470c41"
+RPM_NAME = "picocli-4.7.7-1.3.noarch.rpm"
+RPM_HASH = "106433d70a16f0f14f109ca7acd4959c1f8f5e1af4879cf54376300052eb85ec535560725af2f213650f69a40800b842b0d85e8831768a650ab5dab84444ddd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-info.picocli-picocli \

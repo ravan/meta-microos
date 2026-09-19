@@ -6,10 +6,10 @@ may define their own. The package is written using LaTeX 3 \
 macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.1svn37868"
+PV = "2026.226.0.0.1.1svn37868"
 
-RPM_NAME = "texlive-conteq-2023.209.0.0.1.1svn37868-55.1.noarch.rpm"
-RPM_HASH = "e33a3868e05f06821d7454ffc4005c69e485f0357f1dbfd08a1f33bc40433a59b30adc8a1d022bd34f76fd647f994b1699d409d17181b4aeee852ad14c75e923"
+RPM_NAME = "texlive-conteq-2026.226.0.0.1.1svn37868-61.2.noarch.rpm"
+RPM_HASH = "93cfb8ae7322961570b25aaaaf8d2376c8f4a29b7fca5b7e60b9cc8c77be242091070c6c0c43dfe82a736cb575e970e64460e4aa88b01f1700aa30e6e6804ae5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-conteq.sty \

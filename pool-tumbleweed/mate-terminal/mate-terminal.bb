@@ -6,10 +6,10 @@ to perform the following actions: \
    xterm terminals."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "mate-terminal-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "09a89f57da58cc87b60f5302cb356bf5c8c45cda6a13a0fab7099bc2dcd0d9ef6fce695385dd2eef269fa842a4892ba507e959d99016a6fb12536eadbdecb0af"
+RPM_NAME = "mate-terminal-1.28.1-1.10.aarch64.rpm"
+RPM_HASH = "dee5e1653ed1cb2970104c655b7ff321e6b5b7b9acadc8ffcc40ae7ab0df90d55a865c7f51aa3e81827faaa170f1c07297ec582ff248e8524366e0c37822ab02"
 
 RPROVIDES:${PN} += "mate-terminal"
 

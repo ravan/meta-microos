@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-germbib"
 DESCRIPTION = "This package includes the documentation for texlive-germbib"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-germbib-doc-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "97002c17b4002a1f2874f285a4902ae2874b0cace59fadcce0cd0c7e6bcfc86cb1be17bcbfa2841311c81601698ede171161f78b4b3295a7b246eb78b7b0c4c9"
+RPM_NAME = "texlive-germbib-doc-2026.226.svn76790-60.2.noarch.rpm"
+RPM_HASH = "3163fc44bf0ae914793a51b739a74621805e558526cdbf0e850fa344d83ef26124a19b7f2cf3a91a07f41ac1d1c7c512e4885a8c0dd9aafc60c0ad901af3806c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-germbib-doc"

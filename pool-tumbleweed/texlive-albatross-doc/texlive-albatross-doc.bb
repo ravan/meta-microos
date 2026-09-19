@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-albatross"
 DESCRIPTION = "This package includes the documentation for texlive-albatross"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.0.0.5.0svn65647"
+PV = "2026.226.0.0.5.1svn73436"
 
-RPM_NAME = "texlive-albatross-doc-2023.209.0.0.5.0svn65647-55.1.noarch.rpm"
-RPM_HASH = "8c3d0d881da7e3fb98776f3a42a77a9da5ac3caa5c5abd53c494f314ca9125fd8e960269c555651fea13c82400190644314996783e1684123b75594ecbdb6d46"
+RPM_NAME = "texlive-albatross-doc-2026.226.0.0.5.1svn73436-61.2.noarch.rpm"
+RPM_HASH = "25b59b423f7e85ee7ea417725d8eab13f3ad13cad66ffe2f9c7fffd7319dc6bbcbddac31d06e16f1d6f1148f0faf4aab1e9a442be84e083b99b4ff33afb946e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-albatross.1 \

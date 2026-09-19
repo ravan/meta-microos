@@ -10,15 +10,16 @@ file transfer, large collections of files management and large files \
 management."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.8.4"
+PV = "0.8.10"
 
-RPM_NAME = "davix-0.8.4-1.4.aarch64.rpm"
-RPM_HASH = "4c7c137f770bd6f6e558cc6762de4837aeb9cc0919b82925568d7e553116435f0ec5b8083c09222b71e5e71dadef52aea06c5b1ccdf0e7a739211187da03faf8"
+RPM_NAME = "davix-0.8.10-2.1.aarch64.rpm"
+RPM_HASH = "a39f9f328bc0d22057b92e82ff7c0a1dc76f19b61f4a80a040618f62c1475a6dec32e32c1080c9e869fa12c01e933b05e09878c34de5ceee1f5fccfcb01d082b"
 
 RPROVIDES:${PN} += "davix"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libdavix-copy.so.0 \
 libdavix.so.0 \
 libgcc-s.so.1 \
 libm.so.6 \

@@ -4,10 +4,10 @@ without a space. Package isopt provides a macro \\ISO which \
 inserts a user defined space between number and unit."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn45509"
+PV = "2026.226.0.0.01svn45509"
 
-RPM_NAME = "texlive-isopt-2023.209.0.0.01svn45509-56.1.noarch.rpm"
-RPM_HASH = "1e1e787aa78cfd17005da8d9b71acac6fd2248e935d1f385188f62294ed58512c56db34583e0af4ce3f72e5b1f7a714a0d0f103883729a70fae4c50b11a8d95e"
+RPM_NAME = "texlive-isopt-2026.226.0.0.01svn45509-63.2.noarch.rpm"
+RPM_HASH = "a4f740d6989d0d9cdcb17ce5ab96035b45253b524e6def0ef658a026190ab0fd7bdc73391e4d25240c44696a70c05e5f1f92c012f0628bee1557bb0e32f09e2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-isopt.sty \

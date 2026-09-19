@@ -3,10 +3,10 @@ DESCRIPTION = "A multi-platform software synthesiser emulating pre-GM MIDI devic
 This package provides the mt32emu library."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.7.0"
+PV = "2.8.3"
 
-RPM_NAME = "libmt32emu2-2.7.0-1.4.aarch64.rpm"
-RPM_HASH = "30e2778fd0edf450c29e93a0d54015dee26594cabf26c6366f1b9c60ed7da4e15e19454771b4a4e22cd24a810d1115caa7321420f182c8e74b02aca5952e2a53"
+RPM_NAME = "libmt32emu2-2.8.3-1.3.aarch64.rpm"
+RPM_HASH = "8f90b9bf4a0709adae1c0d08a5c5b39d7a66d13e38d1928c6c16d3d42796daeadf62944de7fe2a408d6f86dc65975f67c0cab463050260365367154c4a85e7fe"
 
 RPROVIDES:${PN} += "libmt32emu.so.2 \
 libmt32emu2"

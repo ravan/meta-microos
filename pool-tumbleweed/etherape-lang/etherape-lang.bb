@@ -2,10 +2,10 @@ SUMMARY = "Translations for package etherape"
 DESCRIPTION = "Provides translations for the 'etherape' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.20"
+PV = "0.9.22"
 
-RPM_NAME = "etherape-lang-0.9.20-3.4.noarch.rpm"
-RPM_HASH = "761520c97b4807036f226438a4a20c74bba82d409574f663069243719267ee2efa9ab6f7004f595bb28e700a705c33aebaf2e071a073f60b49a706e17ad10cb2"
+RPM_NAME = "etherape-lang-0.9.22-1.4.noarch.rpm"
+RPM_HASH = "fe8096b95b4d92acbf90a5547b330909cff1ca17e613b97d07a4fc5b72acef55d555b97f53c20843dc3b2be2f3e5156279d33594b7f0b643a1ce3953029f4679"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "etherape-lang \
@@ -14,6 +14,7 @@ locale-etherape-de \
 locale-etherape-es \
 locale-etherape-fr \
 locale-etherape-it \
+locale-etherape-ka \
 locale-etherape-nl \
 locale-etherape-ru \
 locale-etherape-sv \

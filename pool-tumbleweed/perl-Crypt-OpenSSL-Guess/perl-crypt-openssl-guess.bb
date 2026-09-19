@@ -13,15 +13,15 @@ code is taken from 'inc/Module/Install/PRIVATE/Net/SSLeay.pm' by \
 Net::SSLeay."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.15"
+PV = "0.150.0"
 
-RPM_NAME = "perl-Crypt-OpenSSL-Guess-0.15-1.9.noarch.rpm"
-RPM_HASH = "1e2e0f44e2f701c206ceb62e636c77e52f41a778435962a0f900cee4d1f4b21c5b1afbfd3c035ee5a86842fb49bad52e7c0a91f771c9f8a5074ce56870b8bd67"
+RPM_NAME = "perl-Crypt-OpenSSL-Guess-0.150.0-1.7.noarch.rpm"
+RPM_HASH = "ed978ccefc0fafad0a4684fbfd72369ace0846f90364a609546cb5b7fa1c1030a0239cba7c916cbb8bfcbff477536a9e0edbaae5d89abecbe7a0816bbe6430d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--OpenSSL--Guess \
 perl-Crypt-OpenSSL-Guess"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

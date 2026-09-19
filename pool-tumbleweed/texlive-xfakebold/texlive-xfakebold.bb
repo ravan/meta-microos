@@ -3,14 +3,14 @@ DESCRIPTION = "This package uses PDF's text rendering to modify the linewidth \
 of an outline font to get bold characters. It works only for \
 vectorfonts where the glyphs are defined by their outline. The \
 package works both in text and in math mode, for pdfLaTeX as \
-well as for LuaLaTeX. The package depends on ifluatex, ifxetex, \
-and xkeyval."
+well as for LuaLaTeX. The package depends on iftex, xkeyval, \
+and pdfrender."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.08svn55654"
+PV = "2026.226.0.0.10svn77682"
 
-RPM_NAME = "texlive-xfakebold-2023.209.0.0.08svn55654-53.2.noarch.rpm"
-RPM_HASH = "fca2e911a71e4df4342555ad95d10d7209e4dff5021682adbafc7e0690daa8a85b0d1fbea46f0481faa5a9602e3a997fae6a6342e6be3eef648c82f80d4e95b0"
+RPM_NAME = "texlive-xfakebold-2026.226.0.0.10svn77682-59.4.noarch.rpm"
+RPM_HASH = "ab87582b90c28675307bed09d32231789db1e7d38b817b1eefda0b45d3dc3140fe1e4f45d34831f96e6264bf20c3517d605661ac12844cf824bd5f599cc2f9b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xfakebold.sty \
@@ -22,10 +22,7 @@ ed \
 findutils \
 grep \
 sed \
-tex-ifluatex.sty \
-tex-ifpdf.sty \
 tex-iftex.sty \
-tex-ifxetex.sty \
 tex-pdfrender.sty \
 tex-xkeyval.sty \
 texlive \

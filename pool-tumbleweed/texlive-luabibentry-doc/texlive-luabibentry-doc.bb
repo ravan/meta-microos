@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luabibentry"
 DESCRIPTION = "This package includes the documentation for texlive-luabibentry"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.1asvn55777"
+PV = "2026.226.0.0.1asvn55777"
 
-RPM_NAME = "texlive-luabibentry-doc-2023.208.0.0.1asvn55777-53.1.noarch.rpm"
-RPM_HASH = "f57dbc74234fb28371f4d7759b2c8aef31889065fa4442d6e0c253f50d3edd04500842a92a180b1a9bab1bfc5d8c2f1eb330eb45d43c4979d78f942d94abe2dd"
+RPM_NAME = "texlive-luabibentry-doc-2026.226.0.0.1asvn55777-59.2.noarch.rpm"
+RPM_HASH = "08637d7a9c22d9cdf35259c1e2bf2f85b2a9ece21eebf79a3e390c6d5e7f3755417e510735766733d69a9df3072ac458d6b7b6a56c6a6fcd45bef944f3beb50f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luabibentry-doc"

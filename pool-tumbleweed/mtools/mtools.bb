@@ -6,10 +6,10 @@ mdir, mcd, mcopy, and mformat. \
 XDF support for OS/2 is also provided."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.0.43"
+PV = "4.0.49"
 
-RPM_NAME = "mtools-4.0.43-1.2.aarch64.rpm"
-RPM_HASH = "31bb879dcc41dae342754cf6bed3da9ae4ae055c8a6b776b916208d8c271f6d4759207c6e8401d09ad49067d627144ef59f3f3762dd10f69ce6d23e9af02a8a6"
+RPM_NAME = "mtools-4.0.49-1.6.aarch64.rpm"
+RPM_HASH = "cf0f94ec339911512543b5564e098ba8e844a5427017affb7272dba0b5c70b44294848bf76512ca5c09b29821c0cfd686e060ca88486ab492384ec9f9dec8e6a"
 
 RPROVIDES:${PN} += "config-mtools \
 mtools"

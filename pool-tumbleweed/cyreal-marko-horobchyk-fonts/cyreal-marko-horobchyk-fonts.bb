@@ -18,8 +18,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.003"
 
-RPM_NAME = "cyreal-marko-horobchyk-fonts-1.003-7.17.noarch.rpm"
-RPM_HASH = "90f7c9b9be87609ca1004eabf36b8c3577bc36134feaf922eeba357f038240f7939e55b1b6f5d710b53b55ed03fe5665ae14255cd5dab03786d72a545edf930c"
+RPM_NAME = "cyreal-marko-horobchyk-fonts-1.003-7.25.noarch.rpm"
+RPM_HASH = "05d5d02036d01179ad2da6d263c37601e3cad36dfec5fe7a7a611ffa2a4ec69beffa692162a40cc5d2481521f04175c452eee4721c00b5ed5e9698350bed9e96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cyreal-marko-horobchyk-fonts"

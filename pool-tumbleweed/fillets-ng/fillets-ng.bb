@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "fillets-ng-1.0.1-4.19.aarch64.rpm"
-RPM_HASH = "e381a238b9d217a067b76107c55558404842769b1f3d51cbad5d16d2efaad3b305ae577719d6ee22c799e3fe1fa6b55aa68ca65b3aae4e9083f90884ddd8a83b"
+RPM_NAME = "fillets-ng-1.0.1-6.5.aarch64.rpm"
+RPM_HASH = "c8baca78cf2b3d03fb003166f7bbaa6abc78909e24ca1ddd616deb0840cec523bbf2e9ba62e03440ed20ffe9f10afdc57dcbdeb89dc94a38f2748dead54d3c67"
 
 RPROVIDES:${PN} += "fillets-ng"
 
@@ -23,7 +23,7 @@ libX11.so.6 \
 libc.so.6 \
 libfribidi.so.0 \
 libgcc-s.so.1 \
-liblua5.1.so.5 \
+liblua5.4.so.5 \
 libm.so.6 \
 libstdc++.so.6"
 

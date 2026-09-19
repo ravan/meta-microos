@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tcldoc"
 DESCRIPTION = "This package includes the documentation for texlive-tcldoc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.40svn22018"
+PV = "2026.227.2.40svn22018"
 
-RPM_NAME = "texlive-tcldoc-doc-2023.209.2.40svn22018-55.1.noarch.rpm"
-RPM_HASH = "e3c408eb28c687fb262527be0c04917da94abe3bb3328fe5353ccd2c833e2591177b9f7a2725cb0970f49244132383da9549361cb6283701de1f8fd27a2714bf"
+RPM_NAME = "texlive-tcldoc-doc-2026.227.2.40svn22018-62.2.noarch.rpm"
+RPM_HASH = "30debc9de74ac704eebaedae5101d535b9bfb620aeec8dc3d35fa2c37a7eff308bade8d4a4cb741755ec87c4b68faa535b37ce0063d1f9aa86017aec391a6461"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tcldoc-doc"

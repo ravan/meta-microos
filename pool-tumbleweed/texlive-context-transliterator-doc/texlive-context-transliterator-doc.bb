@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-context-transliterator"
 DESCRIPTION = "This package includes the documentation for texlive-context-transliterator"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn61127"
+PV = "2026.226.svn61127"
 
-RPM_NAME = "texlive-context-transliterator-doc-2023.209.svn61127-55.1.noarch.rpm"
-RPM_HASH = "65aab36a992a2949145129ddbeef8e80aa482ccbc247b478ed627beae9436f61fcfa0912a5793573d6a4803bc33bc11d1cf191eceab31a6da8d7fdf317736308"
+RPM_NAME = "texlive-context-transliterator-doc-2026.226.svn61127-61.2.noarch.rpm"
+RPM_HASH = "f63b401e4b374bebba95b02e7f37b971812ef1e7bdb06506ee3efc34175e6103a60034929e310a1cd928e463ce4cd7872ca5ee0bb50d3de4583c15bbb53b9350"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-transliterator-doc"

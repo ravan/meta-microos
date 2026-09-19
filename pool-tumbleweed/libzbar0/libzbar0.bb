@@ -5,12 +5,12 @@ image files and raw intensity sensors. It supports many symbologies \
 Code 39, Interleaved 2 of 5 and QR Code. \
  \
 This package provides the ZBar library."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.23.90"
+PV = "0.23.93"
 
-RPM_NAME = "libzbar0-0.23.90-4.1.aarch64.rpm"
-RPM_HASH = "548080b7e211cec7897328a1e381de39a26245e0a709f27495ce42fda68e198ff874096591a0cef033c60d9ba9a7a8e0d878b622db67a8e0b155aa0a856d2961"
+RPM_NAME = "libzbar0-0.23.93-4.3.aarch64.rpm"
+RPM_HASH = "6586d74bde12482360db1d9bde1796229a4bc788650de336eca7d86d98b82e53b68de8de3926aa2d8d662986f579a52d32e2a62b3ae1c66f20ba0f7f87e633d8"
 
 RPROVIDES:${PN} += "libzbar.so.0 \
 libzbar0"

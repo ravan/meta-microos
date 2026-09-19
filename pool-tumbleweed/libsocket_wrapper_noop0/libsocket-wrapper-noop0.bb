@@ -3,10 +3,10 @@ DESCRIPTION = "Applications with the need to call socket_wrapper_enabled() shoul
 -lsocket_wrapper_noop in order to resolve the symbol at link time."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.2"
+PV = "1.5.2"
 
-RPM_NAME = "libsocket_wrapper_noop0-1.4.2-2.1.aarch64.rpm"
-RPM_HASH = "a0c3525df8e6abf2b6812d6c7c534c72759216cb1d13d0b358adc4c226d2bed253ce67a1ce26be98119eafb3df0886f12db3e7c9223349a28e3f4525aa29880a"
+RPM_NAME = "libsocket_wrapper_noop0-1.5.2-1.5.aarch64.rpm"
+RPM_HASH = "5677c3c6f959c2a08f29c9607422eb087a1a426be8e601fdf4d35000c8cba53386e41864530dbc69e57ce84938c17b53bb0bf60e4b6fc581883bc7d917856622"
 
 RPROVIDES:${PN} += "libsocket-wrapper-noop.so.0 \
 libsocket-wrapper-noop0"

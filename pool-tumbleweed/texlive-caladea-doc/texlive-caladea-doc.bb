@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-caladea"
 DESCRIPTION = "This package includes the documentation for texlive-caladea"
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.svn64549"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-caladea-doc-2023.209.svn64549-53.1.noarch.rpm"
-RPM_HASH = "b723f4e5972a1f16945b9bc7ea2dc32c87fceb2fc98d7f000bf9ed1aa98d41192a6ef28cab2c1b9cd169b6f2c5f1e20eb64a83c12fdd459df055df9a71dadb66"
+RPM_NAME = "texlive-caladea-doc-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "c01af9840befe389913186e838551ca7b0beb3c441f2a8bb2a38b9acaf31b6f182eb0f6166bd6c5fb756a704829ab037027db83f293b887b62c4a6f97aaf0bfe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-caladea-doc"

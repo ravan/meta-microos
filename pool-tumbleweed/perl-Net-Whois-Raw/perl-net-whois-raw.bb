@@ -11,10 +11,10 @@ search failed and return undef in such a case. \
 several servers but certainly not on all of them."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.99037"
+PV = "2.99043"
 
-RPM_NAME = "perl-Net-Whois-Raw-2.99037-1.4.noarch.rpm"
-RPM_HASH = "c922f829a1449522ce80add0a6487da3da3c328a17356c48af34636a3e224b15b838ca987d7ba537ef0680d08ff1228ad423ff76b154ce0aade14c528f0c8a9a"
+RPM_NAME = "perl-Net-Whois-Raw-2.99043-1.3.noarch.rpm"
+RPM_HASH = "20b2514d2fb8b40354821b071831ca417eac32fcd52e726be03d52dade9415b3bbcbc16a975a5be4d38760d68074116bf306e5bb57d502c2e3757fc4b67b289c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Whois--Raw \
@@ -23,7 +23,7 @@ perl-Net--Whois--Raw--Data \
 perl-Net-Whois-Raw"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-HTTP--Headers \
 perl-HTTP--Request \
 perl-IO--Socket--IP \

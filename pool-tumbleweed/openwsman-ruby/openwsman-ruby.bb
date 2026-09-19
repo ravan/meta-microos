@@ -2,10 +2,10 @@ SUMMARY = "Ruby bindings for OpenWSMAN client API"
 DESCRIPTION = "This package provides Ruby bindings to access the OpenWSMAN client API."
 LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
-PV = "2.7.2"
+PV = "2.8.1"
 
-RPM_NAME = "openwsman-ruby-2.7.2-2.9.aarch64.rpm"
-RPM_HASH = "464af4de864a2583d118686d3a05b43f7153bba775d20b48410d8ea98b87f2b281cf8d9d62080759b569f6283801d09730efb061b6e2cbddb6f4fd82e67da9a2"
+RPM_NAME = "openwsman-ruby-2.8.1-5.1.aarch64.rpm"
+RPM_HASH = "cd31412f691b57876a88b76dadd8ba40a78a6be747161178353f516b44cece0050a8cc3d89eb10982f091a55ec72e33b0607642243895c200da3caa4d853d842"
 
 RPROVIDES:${PN} += "openwsman-ruby"
 

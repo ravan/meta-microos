@@ -1,17 +1,18 @@
 SUMMARY = "Multiple columns with texts 'in parallel'"
 DESCRIPTION = "The package provides yet another multi-column typesetting \
 mechanism by which you produce multi-column (e.g., bilingual) \
-document switching and sychronizing each corresponding part in \
+document switching and synchronizing each corresponding part in \
 'parallel'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.35svn49560"
+PV = "2026.226.1.37svn77682"
 
-RPM_NAME = "texlive-paracol-2023.209.1.35svn49560-52.1.noarch.rpm"
-RPM_HASH = "d35433159839646e1c3632b7e1e7ba426c3d305ccee4666d48846850c587e01506b4875d6471f03dbf6e94a513e8805e824c87a0204eb73fc3604b1d359ae5d4"
+RPM_NAME = "texlive-paracol-2026.226.1.37svn77682-58.2.noarch.rpm"
+RPM_HASH = "9f4abfce9d8be9fd11dfe74ac82ae7bd4002124efb534184baf4935e8b05f7496d91c73c1067539afe29ea3483dc1c0ad5d563d671b0a32c7595d18d20a42cb7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-paracol.sty \
+RPROVIDES:${PN} += "tex-paracol-2018-12-31.sty \
+tex-paracol.sty \
 texlive-paracol"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

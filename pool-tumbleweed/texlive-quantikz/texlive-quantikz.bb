@@ -3,14 +3,15 @@ DESCRIPTION = "The purpose of this package is to extend TikZ with the \
 functionality for drawing quantum circuit diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9.6svn54911"
+PV = "2026.226.1.0.1svn67206"
 
-RPM_NAME = "texlive-quantikz-2023.209.0.0.9.6svn54911-54.2.noarch.rpm"
-RPM_HASH = "ae41a25435f8eb988847256e33efdd852c1c9b21dbc6337993138c9e2457a6be40ad2432b3053353ffd400f63b0bb1edc4aed06e0f17af96e3f1bcd5aea7364a"
+RPM_NAME = "texlive-quantikz-2026.226.1.0.1svn67206-60.4.noarch.rpm"
+RPM_HASH = "204b7af9cb749250d93b0de07cbf11fda5694d3de6e0993929c723a79ca709f8e7a14aac1843afcd492e86b31fbe58b8e9eee2b82710ccca2fe0bf2866ab106e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quantikz.sty \
 tex-tikzlibraryquantikz.code.tex \
+tex-tikzlibraryquantikz2.code.tex \
 texlive-quantikz"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

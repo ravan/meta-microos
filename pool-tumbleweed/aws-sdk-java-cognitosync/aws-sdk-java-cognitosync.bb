@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon Cognito Sync"
 DESCRIPTION = "The AWS Java SDK for Amazon Cognito Sync module holds the \
 client classes that are used for communicating with \
 Amazon Cognito Sync Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-cognitosync-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "8c5bda64d58d23bf236e08919cb30fbbcbc9923e72d485a9fdc3bdc754edacd49f243e745db01f3de3ddb61450043bb77c1cc4f2a427658dbfa2a3f0be142b68"
+RPM_NAME = "aws-sdk-java-cognitosync-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "3b0273e7c90c5441b58d4659f157f555ba452faf593a4f92763734790b4340bdddfbb3674ef5c11f5d2856aacac6788fdbac5032c782566dabed27eda48c4033"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-cognitosync \

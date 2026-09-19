@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kubrick"
 DESCRIPTION = "Provides translations for the 'kubrick' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kubrick-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "3fdf152b6b353d093ed7d34a8eaafc982c738fa66dc1a18d32fa656df51281a1253ddc3d8721747129f4967242d00f54b0487f7f8cb6503e047e8cf65c6f4a98"
+RPM_NAME = "kubrick-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "a1831d9b233ac7c5c1caec34c96720820eb74f40ee8d59a0ed363d32f7b09d9503c29345e288f7223eaccc7ffc0c86a85b3313fba23b2993c1cd3cc3f8a1dcc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubrick-lang \
 kubrick-lang-all \
-locale-kubrick-bg \
+locale-kubrick-ar \
+locale-kubrick-ast \
 locale-kubrick-bs \
 locale-kubrick-ca \
 locale-kubrick-ca@valencia \
@@ -27,8 +28,11 @@ locale-kubrick-fi \
 locale-kubrick-fr \
 locale-kubrick-ga \
 locale-kubrick-gl \
+locale-kubrick-he \
+locale-kubrick-hi \
 locale-kubrick-hr \
 locale-kubrick-hu \
+locale-kubrick-ia \
 locale-kubrick-id \
 locale-kubrick-is \
 locale-kubrick-it \

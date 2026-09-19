@@ -14,8 +14,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.33"
 
-RPM_NAME = "libev-devel-4.33-1.11.aarch64.rpm"
-RPM_HASH = "a97b883c7950e0bcd293deafb02f9fd49f193e9d7ff2498f39733eba5f618ca17433d7df2442beec09cbf0a0aafdbb843a0a2b8b465dc1abc43f5bb9edcd0c79"
+RPM_NAME = "libev-devel-4.33-6.5.aarch64.rpm"
+RPM_HASH = "58ac623af52bd84663aca296a8f8d0537928a175427147f87ccaefb50a2bf7aa3f601e665197bd5c5fa6878372761fe244b094db6ee4727c822eb35173045b26"
 
 RPROVIDES:${PN} += "libev-devel \
 pkgconfig-libev"

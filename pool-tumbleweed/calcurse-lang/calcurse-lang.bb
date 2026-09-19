@@ -2,10 +2,10 @@ SUMMARY = "Translations for package calcurse"
 DESCRIPTION = "Provides translations for the 'calcurse' package."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.8.1"
+PV = "4.8.2"
 
-RPM_NAME = "calcurse-lang-4.8.1-1.1.noarch.rpm"
-RPM_HASH = "73de837b5fd59a81d05daa090d5afc0ab407cc3253c5ca5e92d025ac0cbbb15a0f7ce22dc662d438b79fa70c591f2040604b5d7423130b10fa9c2102bb610688"
+RPM_NAME = "calcurse-lang-4.8.2-1.6.noarch.rpm"
+RPM_HASH = "e3a227d4413e944b0f481fa74867173bb321e2c7ef0bb004a0153d7ebbb8bb04cfa7805fd2124d94314217fc19ba85b335d5c07d2018f4112e2eadd1516e3963"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calcurse-lang \

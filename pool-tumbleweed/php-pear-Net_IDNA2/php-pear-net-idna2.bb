@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "php-pear-Net_IDNA2-0.2.0-1.10.noarch.rpm"
-RPM_HASH = "4d5a86a4aed611599fbe36a5c38b59c5d9c19f5d3d84973f4b8eea9333e1a8834b7ec92f3421007fd6d5490c8c2575c1f729b30f9b573ff18469eff8b20a7df0"
+RPM_NAME = "php-pear-Net_IDNA2-0.2.0-1.19.noarch.rpm"
+RPM_HASH = "ca766528cf805c45a41a535dcbd88ec7e3c259ddf48f720c499860b4d4176572992825752c684abb07e7af99e65e72a44743b49fe1075995bb29ccebdc8f5a89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-pear-Net-IDNA2 \

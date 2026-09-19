@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a PCM filter plugin that performs virtual d
 for ALSA library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-vdownmix-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "a4b1eb02e85183b22647a69616f145b961a646ec130668fe6787835190fa665d10422239f22c36902d2ace12f2ee25227381a90884d8a8acfaeec631adaa6a3c"
+RPM_NAME = "alsa-plugins-vdownmix-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "570578755bda2664b9a8c78efecc14ac0fab54ba5f044ded2962201096a3879b7ba3848482dc96d9840e47c5fb3efe274f724183427b79af34c3bbae0eb914eb"
 
 RPROVIDES:${PN} += "alsa-plugins-vdownmix \
 libasound-module-pcm-vdownmix.so"

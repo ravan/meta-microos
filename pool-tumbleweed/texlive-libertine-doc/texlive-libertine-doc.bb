@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-libertine"
 DESCRIPTION = "This package includes the documentation for texlive-libertine"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.5.3.0svn64359"
+PV = "2026.226.5.3.0svn77682"
 
-RPM_NAME = "texlive-libertine-doc-2023.209.5.3.0svn64359-55.1.noarch.rpm"
-RPM_HASH = "112fbca89701c827bd8c042ee043af952c6214789c4b979940fe9fbc9dd36cdea3826aa4ab4a8066e95313cbb78a1ba0c58db75b321a6558d5161cc443f29bc0"
+RPM_NAME = "texlive-libertine-doc-2026.226.5.3.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "1b5a21b4f84c36690137642bc10172257c000732e7d1bf55b749e06b237d374c8ad6aea0f30b08ac3216d2a6b107e1259f3f4930762526c0e1f2cc04f4293bb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libertine-doc"

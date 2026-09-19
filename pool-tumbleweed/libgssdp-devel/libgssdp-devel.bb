@@ -3,10 +3,10 @@ DESCRIPTION = "gssdp offers a GObject-based API for handling resource discovery 
 announcement over SSDP."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6.2"
+PV = "1.6.6"
 
-RPM_NAME = "libgssdp-devel-1.6.2-2.1.aarch64.rpm"
-RPM_HASH = "ea50bbfe51df0545a3772ca05c9f005d648ea015bfce28d289f52814aca0ee119c34cb4d3d0ba2a49188b0ddbc7b936cd6b278b9f2b42733f891a98dd1b848c0"
+RPM_NAME = "libgssdp-devel-1.6.6-1.3.aarch64.rpm"
+RPM_HASH = "8c626586e03df2d2c719fc989b6f0460fd246b576b32e49aa36368dcca0da278a6635d5ce47605ee8430e2a70245a73c3884ee1364050f91930b9d048e45643c"
 
 RPROVIDES:${PN} += "libgssdp-devel \
 pkgconfig-gssdp-1.6"

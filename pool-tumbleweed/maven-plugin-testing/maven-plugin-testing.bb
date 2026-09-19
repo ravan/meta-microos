@@ -3,10 +3,10 @@ DESCRIPTION = "The Maven Plugin Testing contains the necessary modules \
 to be able to test Maven Plugins."
 LICENSE = "Apache-2.0"
 
-PV = "3.3.0"
+PV = "3.5.1"
 
-RPM_NAME = "maven-plugin-testing-3.3.0-5.13.noarch.rpm"
-RPM_HASH = "e3dcc3de947cc2484b20ecda0617f0598f4b54d9e458e5a790f64ba0ed56a21e9d230f041bf15916a6e47df1126feeda67d659736aaf065f0614bdb13fbe000c"
+RPM_NAME = "maven-plugin-testing-3.5.1-1.4.noarch.rpm"
+RPM_HASH = "696d563a5cc4a417cbb455167ff116cd39227d3f78ca7ab81927dbcb46966a6f4c75e18e80e827ee8296c9fdd6114845d8f33ab07fd5dc10f735d8144a3fa60d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-testing \

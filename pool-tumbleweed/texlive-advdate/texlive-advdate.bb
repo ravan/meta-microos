@@ -6,10 +6,10 @@ example, in invoices 'payable within 14 days from today', etc. \
 The package has only been tested with Czech dates."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20538"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-advdate-2023.209.svn20538-55.1.noarch.rpm"
-RPM_HASH = "93a18d9bf97a7568964ec22be6be51a4117256c02190eee9a4dd72aee86b6ee6bbdab8dceb595aa0ca4524f4e139efe505d811e523b329b6f4d739e827f6948f"
+RPM_NAME = "texlive-advdate-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "fc5dcbba46967c44978ee65d2680d2e9e6406d64ae84dccfa5eb56665b721f44f207e93b302bcbb5f8064bb3e9eba81a5f8ecf1a169ed9cdc507db5d723c4efd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-advdate.sty \

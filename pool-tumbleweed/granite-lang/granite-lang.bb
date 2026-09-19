@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package granite"
 DESCRIPTION = "Provides translations for the 'granite' package."
-LICENSE = "LGPL-3.0-or-later & LGPL-3.0-or-later"
+LICENSE = "LGPL-3.0-or-later"
 
-PV = "6.2.0"
+PV = "7.8.1"
 
-RPM_NAME = "granite-lang-6.2.0-1.8.noarch.rpm"
-RPM_HASH = "df7fdca66e480da5439098d4bae1895890184ef64faa2d24c8348008fbc57ddb90bb3f4111d06208c455c02a463c05ba8a324d4343d4b8ddb9529c06c9a5666f"
+RPM_NAME = "granite-lang-7.8.1-1.3.noarch.rpm"
+RPM_HASH = "c1c654f68ddec071e532d9aaa8c9993ebebfa1e311de2a9a7ff341f855b1ed00855bdaa3791adf1ca361844ec8f79d6e3a60494138f8f946d09c21c3bda98009"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "granite-lang \
@@ -21,6 +21,7 @@ locale-granite-bn \
 locale-granite-br \
 locale-granite-bs \
 locale-granite-ca \
+locale-granite-ca@valencia \
 locale-granite-cs \
 locale-granite-cy \
 locale-granite-da \

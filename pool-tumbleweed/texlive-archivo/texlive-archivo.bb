@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the Archivo family of fonts designed by \
 Omnibus-Type, with support for LaTeX and pdfLaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.0.2svn57283"
+PV = "2026.226.0.0.0.2svn57283"
 
-RPM_NAME = "texlive-archivo-2023.209.0.0.0.2svn57283-55.1.noarch.rpm"
-RPM_HASH = "b7afb559323320208eb67c996079882a12fca3e522a4a0ec5d7856865e4d647287ab4c5972af38cc3f429d1c6d56af5275af98544d400108c25f49c4af3e74c8"
+RPM_NAME = "texlive-archivo-2026.226.0.0.0.2svn57283-61.2.noarch.rpm"
+RPM_HASH = "118343a5d04d88cc30430f8a2239dbbac5ceabbac26b9be0cfbf111f91bdbe38a89cf658b52653f794ccb87edb9fe09b096cb395390aa267d9eaa7274146e597"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Archiv0-Bold-lf-ly1--base.tfm \

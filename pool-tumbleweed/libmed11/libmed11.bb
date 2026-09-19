@@ -5,10 +5,10 @@ to store and exchange meshed data or computation results. \
 It uses the HDF5 file format to store the data."
 LICENSE = "LGPL-3.0-only"
 
-PV = "4.1.1"
+PV = "5.0.0"
 
-RPM_NAME = "libmed11-4.1.1-1.7.aarch64.rpm"
-RPM_HASH = "274a8170cb027e6cf6070e9c02561ee46636fcf83505204e24d86f565e820c4fdbcab0af59da3bd27e70fe2ec54432fe9c0b3455b8fff38fa5a907a07c73faaf"
+RPM_NAME = "libmed11-5.0.0-1.6.aarch64.rpm"
+RPM_HASH = "9358fd1fe2e1a1e8db4a994ca6733c8b9aeb7a181399e098f1e38f18efcbdb3e26e99292345866fbeb5a6ae9e2eaf87f8b478a3ef5fffc31b74756d07b125916"
 
 RPROVIDES:${PN} += "libmed.so.11 \
 libmed11"

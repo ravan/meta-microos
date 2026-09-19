@@ -17,8 +17,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.0.9"
 
-RPM_NAME = "sgmltool-1.0.9-1077.24.aarch64.rpm"
-RPM_HASH = "5b69cb4f505d4495f22faeeb14d2198d7ce5567ff890235c4f136be6e7f3b5fa746a871b45d89bd68cf7dc643ff42ce5570e4211c7f2e6dc44b3debb2571d230"
+RPM_NAME = "sgmltool-1.0.9-1080.8.aarch64.rpm"
+RPM_HASH = "494bc2c73f17fd895c88726f0832e5996ed0db66465debfdff4bc94dfe898597cdbe724567d7843ff80a4512c3ec34f1e95c92f99714c6a3707f31d554859491"
 
 RPROVIDES:${PN} += "perl-SGMLTools \
 perl-SGMLTools--BackEnd \
@@ -34,6 +34,7 @@ sgml-tools \
 sgmltool"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfl.so.2 \
 opensp \

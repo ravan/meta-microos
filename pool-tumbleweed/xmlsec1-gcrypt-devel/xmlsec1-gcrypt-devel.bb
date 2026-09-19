@@ -2,10 +2,10 @@ SUMMARY = "GCrypt crypto plugin for XML Security Library"
 DESCRIPTION = "Libraries, includes, etc. for developing XML Security applications with GCrypt."
 LICENSE = "MIT"
 
-PV = "1.2.37"
+PV = "1.2.42"
 
-RPM_NAME = "xmlsec1-gcrypt-devel-1.2.37-3.1.aarch64.rpm"
-RPM_HASH = "ca87452f1fad288c65d77478794ce02d9b540c963c9021ae8039cef9ef0ef5f1335125a25d1da67a740a43d6c83f5a9045ffdeb99c5f31463651d3b1e7d3b2b3"
+RPM_NAME = "xmlsec1-gcrypt-devel-1.2.42-1.8.aarch64.rpm"
+RPM_HASH = "8c623c89614f2b8f0c746ab652b78db89674260463b713cd86bf6ef5632dec89ba7dd49bbbc87c74197466c8f5d2549e320e4c8e9abe347578f39ae462e7349c"
 
 RPROVIDES:${PN} += "pkgconfig-xmlsec1-gcrypt \
 xmlsec1-gcrypt-devel"

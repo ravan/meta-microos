@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.0.19"
 
-RPM_NAME = "pidentd-3.0.19-6.2.aarch64.rpm"
-RPM_HASH = "89eed8c3a0e003c5b7d3dc81adda0bd17e8a7d6c056a8498db586eb9fad72044224eef06388f8ad0a00280511b1176c8434df8e4a65c94f2f85b64ece8623b06"
+RPM_NAME = "pidentd-3.0.19-7.10.aarch64.rpm"
+RPM_HASH = "558ee8f91f5b22cef1acb056ac0fd4555b3b434aa2b6da37d3b200b4b04fde9beb1342d0d4a4cdfe4f1d69d966e748a6e19286db5fc97c60a87c70fc71db2503"
 
 RPROVIDES:${PN} += "config-pidentd \
 pidentd"

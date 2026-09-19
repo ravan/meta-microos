@@ -1,17 +1,17 @@
 SUMMARY = "Development files for rav1e"
 DESCRIPTION = "The rav1e-devel package contains libraries and header files for \
 developing applications that use rav1e."
-LICENSE = "BSD-2-Clause"
+LICENSE = "BSD-2-Clause & ISC"
 
-PV = "0.6.4+0"
+PV = "0.8.1"
 
-RPM_NAME = "rav1e-devel-0.6.4+0-1.2.aarch64.rpm"
-RPM_HASH = "56ee25f202046a5e930dfd550b1e661e7d625027ef8eb6de8318685bc8646c9546d37a21628c8bcebd04203ffbc63d5e8aae7827ec334357c3f9b7cdfcc7f80c"
+RPM_NAME = "rav1e-devel-0.8.1-2.4.aarch64.rpm"
+RPM_HASH = "0d746c3a5ed1d3a61d126e0e28f6b9f61eac8cb2ac148e31bf5dbc1c97dc2ef38c6dc157068bbd47aea2dea17c1f91adc4b9bcf3d1d715ee35daa718622b7a7f"
 
 RPROVIDES:${PN} += "pkgconfig-rav1e \
 rav1e-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-librav1e0"
+librav1e0-8"
 
 inherit rpm

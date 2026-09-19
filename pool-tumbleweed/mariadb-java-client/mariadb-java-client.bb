@@ -4,20 +4,22 @@ Database Pure Java Driver. It was developed specifically as a lightweight \
 JDBC connector for use with MySQL and MariaDB database servers."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
-PV = "2.4.3"
+PV = "3.5.0"
 
-RPM_NAME = "mariadb-java-client-2.4.3-2.1.aarch64.rpm"
-RPM_HASH = "dd1ab229d4bb0930d1add5cd3ef4d4d955626e2a9784da065fb73b8e93fed3f4869174abbd5dc91db4b4ce9ce559b14322d7f97100fe9d6ae0792a15e5edd05c"
+RPM_NAME = "mariadb-java-client-3.5.0-2.5.aarch64.rpm"
+RPM_HASH = "2f063e437e90f51c5acb2965e5b05e1d5ec0d510a25bc712f5682f357c900278fd3c637ed0f7609bb6cc5861ab7856eef93062ecb7b90fa8df189fa17792e9cf"
 
 RPROVIDES:${PN} += "mariadb-java-client \
 mvn-mariadb-mariadb-connector-java \
 mvn-mariadb-mariadb-connector-java-pom- \
 mvn-org.mariadb.jdbc-mariadb-java-client \
-mvn-org.mariadb.jdbc-mariadb-java-client-pom- \
-osgi-org.mariadb.jdbc"
+mvn-org.mariadb.jdbc-mariadb-java-client-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mariadb"
+mariadb \
+mvn-net.java.dev.jna-jna \
+mvn-net.java.dev.jna-jna-platform \
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

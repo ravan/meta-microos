@@ -5,16 +5,16 @@ top program. Innotop uses the data from SHOW VARIABLES, SHOW GLOBAL STATUS, SHOW
 PROCESSLIST, and SHOW ENGINE INNODB STATUS, among other things."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.13.0"
+PV = "1.15.2"
 
-RPM_NAME = "innotop-1.13.0-1.11.noarch.rpm"
-RPM_HASH = "dc214954aac9fb3d572f832f98830b2f3ddbc1989b30147ddb561462172282364de77ecf0663cb099ee70fe01830d13cb157f9fb49111b23e902a6ff17c536a4"
+RPM_NAME = "innotop-1.15.2-1.6.noarch.rpm"
+RPM_HASH = "e4cb94cd5e588ecf80fe713fecd294ed62ec0e36460a2821adccfbdee93efc9353371c0aabc5e095b24ab138dd1e663f2bb2353ccff096bf9a32341d0a12c23b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "innotop"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "/usr/bin/perl \
+perl--MODULE-COMPAT-5.44.0 \
 perl-DBD--mysql \
 perl-DBI \
 perl-File--Basename \

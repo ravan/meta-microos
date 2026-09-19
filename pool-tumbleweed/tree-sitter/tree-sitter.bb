@@ -10,84 +10,39 @@ edited. Tree-sitter aims to be: \
    of syntax errors \
  * Dependency-free so that the runtime library (which is written \
    in pure C) can be embedded in any application"
-LICENSE = "MIT"
+LICENSE = "GPL-2.0-only & MIT"
 
-PV = "0.20.8"
+PV = "0.26.8"
 
-RPM_NAME = "tree-sitter-0.20.8-2.2.aarch64.rpm"
-RPM_HASH = "676bb62903972ac8a8d6d3078850b60f407e8ca639b6949513660ca851aca99905992e42b2f8b6a0df3f9bf88ab06275b77d888e2f3ac02cd1c580ea55732481"
+RPM_NAME = "tree-sitter-0.26.8-5.2.aarch64.rpm"
+RPM_HASH = "2d41664a8b71027a3cea873f60000b45fdacbd30ab3825b9a2870e3f75ef7c4506f2ca706d7d58d709634d3a47e23dac33083a11f3f3b25c6066075897432aec"
 
-RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
-bundled-rust-crate-ansi-term \
-bundled-rust-crate-anyhow \
-bundled-rust-crate-ascii \
-bundled-rust-crate-atty \
-bundled-rust-crate-autocfg \
-bundled-rust-crate-bitflags \
-bundled-rust-crate-cc \
-bundled-rust-crate-cfg-if \
-bundled-rust-crate-chunked-transfer \
-bundled-rust-crate-clap \
-bundled-rust-crate-difference \
-bundled-rust-crate-dirs \
-bundled-rust-crate-dirs-sys \
-bundled-rust-crate-either \
-bundled-rust-crate-form-urlencoded \
-bundled-rust-crate-glob \
-bundled-rust-crate-hashbrown \
-bundled-rust-crate-html-escape \
-bundled-rust-crate-httpdate \
-bundled-rust-crate-idna \
-bundled-rust-crate-indexmap \
-bundled-rust-crate-itoa \
-bundled-rust-crate-lazy-static \
-bundled-rust-crate-libc \
-bundled-rust-crate-libloading \
-bundled-rust-crate-log \
-bundled-rust-crate-memchr \
-bundled-rust-crate-once-cell \
-bundled-rust-crate-percent-encoding \
-bundled-rust-crate-proc-macro2 \
-bundled-rust-crate-quote \
-bundled-rust-crate-regex \
-bundled-rust-crate-regex-syntax \
-bundled-rust-crate-rustc-hash \
-bundled-rust-crate-ryu \
-bundled-rust-crate-same-file \
-bundled-rust-crate-semver \
-bundled-rust-crate-serde \
-bundled-rust-crate-serde-derive \
-bundled-rust-crate-serde-json \
-bundled-rust-crate-smallbitvec \
-bundled-rust-crate-strsim \
-bundled-rust-crate-syn \
-bundled-rust-crate-textwrap \
-bundled-rust-crate-thiserror \
-bundled-rust-crate-thiserror-impl \
-bundled-rust-crate-tiny-http \
-bundled-rust-crate-tinyvec \
-bundled-rust-crate-tinyvec-macros \
-bundled-rust-crate-toml \
-bundled-rust-crate-tree-sitter \
-bundled-rust-crate-tree-sitter-cli \
-bundled-rust-crate-tree-sitter-config \
-bundled-rust-crate-tree-sitter-highlight \
-bundled-rust-crate-tree-sitter-loader \
-bundled-rust-crate-tree-sitter-tags \
-bundled-rust-crate-unicode-bidi \
-bundled-rust-crate-unicode-ident \
-bundled-rust-crate-unicode-normalization \
-bundled-rust-crate-unicode-width \
-bundled-rust-crate-url \
-bundled-rust-crate-utf8-width \
-bundled-rust-crate-vec-map \
-bundled-rust-crate-walkdir \
-bundled-rust-crate-webbrowser \
-bundled-rust-crate-which \
+RPROVIDES:${PN} += "rpm-macro--treesitter-base-name \
+rpm-macro--treesitter-definitions \
+rpm-macro--treesitter-grammar-base-libname \
+rpm-macro--treesitter-grammar-develdir \
+rpm-macro--treesitter-grammardir \
+rpm-macro--treesitter-macro-init \
+rpm-macro--treesitter-python-shim-template \
+rpm-macro-treesitter-build \
+rpm-macro-treesitter-configure \
+rpm-macro-treesitter-devel-files \
+rpm-macro-treesitter-devel-install \
+rpm-macro-treesitter-devel-package \
+rpm-macro-treesitter-files \
+rpm-macro-treesitter-grammars \
+rpm-macro-treesitter-install \
+rpm-macro-treesitter-python-build \
+rpm-macro-treesitter-python-install \
+rpm-macro-treesitter-set-flags \
+rpm-macro-treesitter-target \
 tree-sitter"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+libc.so.6 \
 libgcc-s.so.1 \
-libtree-sitter0"
+libm.so.6 \
+libtree-sitter0-26 \
+nodejs"
 
 inherit rpm

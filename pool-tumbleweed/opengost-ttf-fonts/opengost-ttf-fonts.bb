@@ -7,8 +7,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.3"
 
-RPM_NAME = "opengost-ttf-fonts-0.3-7.18.noarch.rpm"
-RPM_HASH = "20e6b2902156af57247245137bb518d766d84fc166ac8461f3ec4ad5a49a9b4b627b2a8faec75b15520a1b99113b4c22ee18a099e66ea9cc7ad4ac2b6e9fa89c"
+RPM_NAME = "opengost-ttf-fonts-0.3-7.26.noarch.rpm"
+RPM_HASH = "291f8b75c52a9a18f3dddac4848d01232e879cb358fba65addf6674a88b17097d03d3944e1717232b9301894e3ede5b83ea90054381f679cd0179eaea33e49ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opengost-ttf-fonts"

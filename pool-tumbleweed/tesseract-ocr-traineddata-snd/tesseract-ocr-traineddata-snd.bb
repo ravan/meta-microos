@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Sindhi lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-snd-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "99f6f151c6f7d73fc3801341e69792655c176bee329cacc273119aedcc8aec3397a4c67ec3c0b008a443e8ce4001544244bcf736e2c19fe03186d1ea9243df66"
+RPM_NAME = "tesseract-ocr-traineddata-snd-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "c0130e74c9c412f3e8c8e02cf1744c1713514de795019632a5aef9c7cf6a46f9bb945934a3eb2a0a90d04d4c8a036831c18e89a41ca7741187d5643783f81463"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-sindhi \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-sd \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-sindhi \
 tesseract-ocr-traineddata-snd \
 tesseract-traineddata-sindhi"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

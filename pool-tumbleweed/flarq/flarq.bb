@@ -5,10 +5,10 @@ transmitting and receiving frames of ARQ data via Fldigi. The interaction \
 between Flarq and Fldigi requires no operator intervention."
 LICENSE = "GPL-3.0-only"
 
-PV = "4.2.00"
+PV = "4.2.13"
 
-RPM_NAME = "flarq-4.2.00-1.1.aarch64.rpm"
-RPM_HASH = "167fde027587e3241b72410efa15062650bada4811a39d7a6ae7e1fdc66e2a806697575c0bc521f1d47deac38bb1e8d53b1efbbb494533eefc2d7efd46d05da7"
+RPM_NAME = "flarq-4.2.13-1.1.aarch64.rpm"
+RPM_HASH = "e8ddb31cdb9c5225dc4786accc5c04f2a314c6975087427b7136cdde91858f5217ebc68349a9c87a393683251cd1cee38c0939205fd559f2f3ec4911d13d5ef3"
 
 RPROVIDES:${PN} += "flarq"
 
@@ -19,7 +19,6 @@ libfltk-images.so.1.3 \
 libfltk.so.1.3 \
 libflxmlrpc.so.1 \
 libgcc-s.so.1 \
-libstdc++.so.6 \
-update-desktop-files"
+libstdc++.so.6"
 
 inherit rpm

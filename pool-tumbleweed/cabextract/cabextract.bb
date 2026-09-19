@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.11"
 
-RPM_NAME = "cabextract-1.11-1.3.aarch64.rpm"
-RPM_HASH = "c0e43cb9b2ee7906e35fa6e48b1c0c36101295b81f5755ef9e7da365aeaaf46d0655f18bf7603019f8a22533f1df0defa2f8cfdad44edf4e721f3a5c9272dca2"
+RPM_NAME = "cabextract-1.11-1.13.aarch64.rpm"
+RPM_HASH = "865ff83343ebbc544f66b2ca4498f038bfbb7b864f92635457ca0d5bfe851d2ac15f2c8618ecfec0615193fdffb7ffbab4b7d7dcb0ddd4dec7e89b4abd28e17a"
 
 RPROVIDES:${PN} += "cabextract"
 

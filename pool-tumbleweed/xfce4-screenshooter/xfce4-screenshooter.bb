@@ -6,10 +6,10 @@ copied it to the clipboard, opened with another application, or uploaded to \
 ZimageZ, a free online image hosting service."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.4"
+PV = "1.11.3"
 
-RPM_NAME = "xfce4-screenshooter-1.10.4-1.1.aarch64.rpm"
-RPM_HASH = "c24a991045d62c5743f00319bb9e8d2d2ed84cfbe43b830511d9118e4e9b7331538b11d1c1cdfc485b6ea6852fa65b113675627fefb32e29f24149b5f6ff9e87"
+RPM_NAME = "xfce4-screenshooter-1.11.3-2.2.aarch64.rpm"
+RPM_HASH = "1b0af66241faaed0200b535189c40d8fdcd57f7cc0aa81bdfad6e987f668bf8a2e3be7c123984d03007a351de55e90cbafd72c1039e648a7d458bf71bd5c6187"
 
 RPROVIDES:${PN} += "xfce4-screenshooter \
 xfce4-screenshooter-doc"
@@ -27,12 +27,13 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtk-layer-shell.so.0 \
 libpango-1.0.so.0 \
-libsoup-3.0.so.0 \
+libpangocairo-1.0.so.0 \
+libwayland-client.so.0 \
 libxfce4ui-2.so.0 \
 libxfce4ui-tools \
 libxfce4util.so.7 \
-libxfconf-0.so.3 \
-libxml2.so.2"
+libxfconf-0.so.3"
 
 inherit rpm

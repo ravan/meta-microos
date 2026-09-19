@@ -3,15 +3,16 @@ DESCRIPTION = "This package provides private headers of libQt6PositioningQuick t
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-positioningquick-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "dbd1b580009ce8332af158eb01069e5b85627b3fb5a0b4fae345db0baba4cc0eeb7d0e14532637e00b50bd568e7eaebc483e5ffc91cd8114b69d83beedef5dcb"
+RPM_NAME = "qt6-positioningquick-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "b1c14904698828a19cc53fc4ccb1a72931f0948ea89345ec253bb666b4f5fb171d86b889ff8cdf6e159788566fcbce8ab1484a9ab12dba429c94925398396140"
 
-RPROVIDES:${PN} += "qt6-positioningquick-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6PositioningQuickPrivate \
+qt6-positioningquick-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6PositioningQuick \
-qt6-positioning-private-devel \
-qt6-quick-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6PositioningPrivate \
+cmake-Qt6PositioningQuick \
+cmake-Qt6QuickPrivate"
 
 inherit rpm

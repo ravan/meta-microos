@@ -9,10 +9,10 @@ files, for example to pre-load certain Perl modules when working on a \
 particular project."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.003029"
+PV = "1.3.29"
 
-RPM_NAME = "perl-Devel-REPL-1.003029-1.6.noarch.rpm"
-RPM_HASH = "ef75bda0e08e2585cea5362fe6a343f8b4fe6d35d25d3ab5c5e2eaed8027c9ae103abfe8da495912933effb019a074a29cf39f733ef1867262f612b6016805e2"
+RPM_NAME = "perl-Devel-REPL-1.3.29-1.7.noarch.rpm"
+RPM_HASH = "00656b4932c41b2ca4c3b4ba2fa4dc9f23a8b3a7044abb1da1d037f2c2d826858089470f8ad12ccbe226e3e85b16c57c2ceb77534cf7ebab997025a06c4aa41a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--REPL \
@@ -56,7 +56,7 @@ perl-Devel--REPL--Script \
 perl-Devel-REPL"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-B--Keywords \
 perl-Data--Dump--Streamer \
 perl-Data--Dumper--Concise \

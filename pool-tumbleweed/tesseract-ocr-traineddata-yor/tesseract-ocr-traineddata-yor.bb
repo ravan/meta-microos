@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Yoruba lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-yor-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "f9eea5f166fff19573ccaed5e8e5757bad1c0b652b52a993ad4f5831ebcade0b6d75d2ef2a28342cf379b208f5f1427efa86c436f379e3cd908196f9cc2c37a9"
+RPM_NAME = "tesseract-ocr-traineddata-yor-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "a142e0d5b2738451445b3be1c9892d2efae57bd7ea5291b8aa250fb4398da7bb2da8d4b09a8ff0f86d7cad90871d39db35a4e2f418f739d7bec491ed5a0ac0b2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-yor \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-yo \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-yor \
 tesseract-ocr-traineddata-yoruba \
 tesseract-traineddata-yoruba"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

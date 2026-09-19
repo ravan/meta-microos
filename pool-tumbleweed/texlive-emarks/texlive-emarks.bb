@@ -12,10 +12,10 @@ comparing the content of marks registers. The package requires \
 an e-TeX-enabled engine, and the etex package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn24504"
+PV = "2026.226.1.0svn24504"
 
-RPM_NAME = "texlive-emarks-2023.209.1.0svn24504-54.2.noarch.rpm"
-RPM_HASH = "be16f473af9d560594044bce42e4ec5b7f86a76abf5c87c02c0356e7179d3826f4bf064c2383e7a149c49fee0e13fc7304f47b88b6ba29ad602b658de3fb2f16"
+RPM_NAME = "texlive-emarks-2026.226.1.0svn24504-61.4.noarch.rpm"
+RPM_HASH = "bd2225a201a61fd98b48b57ec646058956c37aa9a93267069e9ca30094bc2839ffd0f37b45aac277fbbf9431d48af88b2b241a9146965cf4208b207400409a90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emarks.sty \

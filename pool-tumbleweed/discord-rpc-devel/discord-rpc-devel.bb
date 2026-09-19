@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.4.0"
 
-RPM_NAME = "discord-rpc-devel-3.4.0-3.4.aarch64.rpm"
-RPM_HASH = "e3d171572ba76b50ecb32a43904f62f540b8c34de0547e8c057a4051e554197ed620bca4bb704d84d5d792b0a798dfd1f0da2daceee8798d7159bdec7c661311"
+RPM_NAME = "discord-rpc-devel-3.4.0-3.14.aarch64.rpm"
+RPM_HASH = "1030db26e5810f597f419693a14d3c2c2c09bb6d08eda8f78b1c4a97b7403a6ae38fe388e07c990ca207a0e24f5c585b967b5bbff140e7bf9de184cbab03a957"
 
 RPROVIDES:${PN} += "discord-rpc-devel"
 

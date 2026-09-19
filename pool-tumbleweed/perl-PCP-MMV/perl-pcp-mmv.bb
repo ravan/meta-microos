@@ -7,18 +7,19 @@ instrumented script into the PCP infrastructure for monitoring \
 and analysis with pmchart, pmie, pmlogger and other PCP tools."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "perl-PCP-MMV-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "629668a5f3ccdb8ff859f42b85529a2a7196b0ce7d3f1420facbf76ecdde65669b9ded627807687d7fe320d2e30c29f7107ff69e87a76e1de1a1fc27b22852d6"
+RPM_NAME = "perl-PCP-MMV-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "68f98c06b856260945fa81daf4e412463a0e15499be0692987aaf463d79af3ace8e75fbcf2f8c3817bbaf26bb5bcc403f89a39194a7fd1c5e4fbbd3040942f8d"
 
 RPROVIDES:${PN} += "perl-PCP--MMV \
 perl-PCP-MMV"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libpcp-mmv.so.1 \
 libpcp3 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

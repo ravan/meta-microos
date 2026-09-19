@@ -5,10 +5,10 @@ the same designer. This font is a calligraphy font and this is \
 an initial release."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.000_2016_initial_releasesvn42157"
+PV = "2026.226.1.000_2016_initial_releasesvn42157"
 
-RPM_NAME = "texlive-frederika2016-2023.209.1.000_2016_initial_releasesvn42157-53.1.noarch.rpm"
-RPM_HASH = "dc78add92858934d815b08db7d9947db9065406554f5806e063fa6278fefcf95a975a09d72fd088d584181d683b10d82d0db13ef3eed23f84f2aa1e2dbad1e91"
+RPM_NAME = "texlive-frederika2016-2026.226.1.000_2016_initial_releasesvn42157-60.2.noarch.rpm"
+RPM_HASH = "4b20de4dbe931296d889962b09d08c2b8b42eca9d5dc22a1bd46c027290617199c15db7bc6289fbc5d2f413bfde9248daf1569c2dbd26dd83fc1f28d173389d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-frederika2016"

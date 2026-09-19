@@ -3,10 +3,10 @@ DESCRIPTION = "Generic helper tool to build app in a distributable formats. \
 Used by electron-builder but applicable not only for building Electron applications."
 LICENSE = "MIT"
 
-PV = "3.4.2^20220309g4e2aa6a1"
+PV = "5.0.0~alpha.11"
 
-RPM_NAME = "app-builder-3.4.2^20220309g4e2aa6a1-1.7.aarch64.rpm"
-RPM_HASH = "f27e24490192472d01f9ce443ebc27d49887d5f6dd8933b73d9cee5b8404ef0f8a4388873931d8c1b643489fcd2762c26d7e697557b7259925e04d96c4933486"
+RPM_NAME = "app-builder-5.0.0~alpha.11-1.11.aarch64.rpm"
+RPM_HASH = "2516259665c574e376a79e34f9e3ac804cdd3b1a2c93fd03fe7fa01b35ececb5929e6327e425f50d37b8f599fb1fd9a4e1bdec11fb0acba0eba43fa8ae6ae927"
 
 RPROVIDES:${PN} += "app-builder"
 

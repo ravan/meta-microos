@@ -2,10 +2,10 @@ SUMMARY = "Header files for the BPF Compiler Collection"
 DESCRIPTION = "Headers and pkg-config build descriptions for developing BCC programs."
 LICENSE = "Apache-2.0"
 
-PV = "0.26.0"
+PV = "0.37.0"
 
-RPM_NAME = "bcc-devel-0.26.0-2.12.aarch64.rpm"
-RPM_HASH = "060d4feb5d56eb41fa4bac79b12910ebe62ac54c99012b71b092aabea7eba25a1ec39ce36e4c40fd89f3f15253b746069c302d001b05e1f49b8ead3e8f521efc"
+RPM_NAME = "bcc-devel-0.37.0-4.1.aarch64.rpm"
+RPM_HASH = "548e79e436dc39e4d11bc78211200c846acaae71ab9d4816a4c02141fa40441efaedea3b9c6b19a3d0c87baf1e7932fa40baaa49d61b0580c12d9d9f6fdc7edc"
 
 RPROVIDES:${PN} += "bcc-devel \
 pkgconfig-libbcc"

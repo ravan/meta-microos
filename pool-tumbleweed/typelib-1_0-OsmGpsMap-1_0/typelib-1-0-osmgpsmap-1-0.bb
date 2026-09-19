@@ -7,10 +7,10 @@ The library has excellent performance and is currently used in a number of \
 Gtk+ and Maemo applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.0"
+PV = "1.2.1"
 
-RPM_NAME = "typelib-1_0-OsmGpsMap-1_0-1.2.0-1.8.aarch64.rpm"
-RPM_HASH = "5974807ee5db02217e748c55d5429d949b58bf5a20ab8db0904ebf6dc18ac8925e3088e76d6167a09e993fe1662e3abed9a2ff12c6fbecd003d84fd4a1c47e4b"
+RPM_NAME = "typelib-1_0-OsmGpsMap-1_0-1.2.1-1.1.aarch64.rpm"
+RPM_HASH = "f599ff97f24c2dcf82496401f125c10dd657c5bef1cb30290ddbe24c942b9c312a6a4a5ae842385569fe322874bbc34930beedeed3da008f1276e70f506cb08b"
 
 RPROVIDES:${PN} += "typelib-1-0-OsmGpsMap-1-0 \
 typelib-OsmGpsMap"

@@ -1,14 +1,16 @@
-SUMMARY = "OneDrive fish completition"
+SUMMARY = "OneDrive fish completion"
 DESCRIPTION = "OneDrive shell completions for fish."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.4.25"
+PV = "2.5.11"
 
-RPM_NAME = "onedrive-completion-fish-2.4.25-1.1.aarch64.rpm"
-RPM_HASH = "b19ab277b4d896875c34b7f862fe31732a7b026b6099c512c89a37544eb1a16fdc4d698f6c40cafacd607d26d4bc1f49d97438a595c8424efd53875b6b7d8550"
+RPM_NAME = "onedrive-completion-fish-2.5.11-1.4.noarch.rpm"
+RPM_HASH = "d1b6a67920aa4522d9f01ca036c8edb1f728a8bd0464bf75cbe61d3b2c724486e0abcc2acfecb60a6fc05fe2454260bfe21a16c336404527bed1b6062a9b0810"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "onedrive-completion-fish"
 
-RDEPENDS:${PN} += "fish"
+RDEPENDS:${PN} += "fish \
+onedrive"
 
 inherit rpm

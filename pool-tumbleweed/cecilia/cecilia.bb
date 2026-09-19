@@ -16,15 +16,15 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.4.1"
 
-RPM_NAME = "cecilia-5.4.1-1.8.noarch.rpm"
-RPM_HASH = "d282aae099c0bcadacc5420eeae7f9e7f45f24cdd558493cebd6297c304bd60a0cb19224457e1be6027220f5d0ada05d006842efc448d5566418927a5e2bd2dd"
+RPM_NAME = "cecilia-5.4.1-2.9.noarch.rpm"
+RPM_HASH = "92bfa94a90b65ac0079e1dd354a8f8d3e3ea281f4ecda97694b3892450c214f7a0762e2005eb2ed14f0a63ad4df3ece71f482e1faaffedc6e39001bb41f6e958"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cecilia \
-python3.11dist-cecilia \
+python3.13dist-cecilia \
 python3dist-cecilia"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-numpy \
 python3-pyo \

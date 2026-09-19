@@ -13,10 +13,10 @@ The goals of MPICH are: \
    framework for other derived implementations"
 LICENSE = "MIT"
 
-PV = "4.1.2"
+PV = "5.0.1"
 
-RPM_NAME = "mpich-ofi-4.1.2-1.1.aarch64.rpm"
-RPM_HASH = "121975162d7722169c6bea02cd4b58a77007fa7c37d4576e2c45bd5afabd0a349a010beb27fadcff3f2dee9f466cbd4161161ed92ddb623b535de73950ec773c"
+RPM_NAME = "mpich-ofi-5.0.1-1.3.aarch64.rpm"
+RPM_HASH = "9b516560ea43816d93a9da6eb6f365a6cd467f2767b20526e7015b576e11fd5478fde1c1107a76bda438b3caacc56b25934126796e25c42a6fc765435c80f228"
 
 RPROVIDES:${PN} += "libmpi.so.12 \
 libmpicxx.so.12 \
@@ -31,8 +31,8 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfabric.so.1 \
 libgfortran.so.5 \
+libhwloc.so.15 \
 libjson-c.so.5 \
-libm.so.6 \
 libstdc++.so.6 \
 mpi-selector"
 

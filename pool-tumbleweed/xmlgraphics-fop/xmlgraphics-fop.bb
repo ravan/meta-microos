@@ -6,10 +6,10 @@ formats: PDF (primary output target), PCL, PS, SVG, XML (area tree \
 representation), Print, AWT, MIF, and TXT."
 LICENSE = "Apache-2.0"
 
-PV = "2.8"
+PV = "2.10"
 
-RPM_NAME = "xmlgraphics-fop-2.8-1.3.noarch.rpm"
-RPM_HASH = "ffaea4fee841d92198cc8041ade6b306a778efdfbae5babc61a1f5a4218fc0f2d08d34dcd07acebe8c5664682e6f85f85fa8ddf60858230aacc4d2e9ad65d375"
+RPM_NAME = "xmlgraphics-fop-2.10-3.5.noarch.rpm"
+RPM_HASH = "4c67eb6fc1d3643f3fe6f91cb0290eca8c3625ac8749d5d68a7e4805cd260ff9ee1c0f4e51159e8129c564273a67e8a23aef1d1d7adbad3d129f8bc88ceecc13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-xmlgraphics-fop \

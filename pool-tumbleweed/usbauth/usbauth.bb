@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.5"
 
-RPM_NAME = "usbauth-1.0.5-1.3.aarch64.rpm"
-RPM_HASH = "b2cea459f891d02df4bcb93a72488ffc1011cb7fefdd5d83896e1b7d89e9284435936ef0d4cf08721953392d39a4034b50fc6ce30ff09c9461b78c741f3e9b56"
+RPM_NAME = "usbauth-1.0.5-1.13.aarch64.rpm"
+RPM_HASH = "d75c5004a287869b8577d0abd0488c297327534b2fe25e1927daeecabfecbc6a757937479d2ccc8f71e9ef7fe66fb8e803b57c7d13bc70ca84b798a49d41618e"
 
 RPROVIDES:${PN} += "config-usbauth \
 usbauth"

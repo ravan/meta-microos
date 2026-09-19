@@ -5,10 +5,10 @@ RawSHAKE checksum utilities \
 A subset of Keccak was specified by NIST as SHA-3 (Secure Hash Algorithm 3)."
 LICENSE = "ISC"
 
-PV = "1.2.2"
+PV = "1.2.5"
 
-RPM_NAME = "sha3sum-1.2.2-1.9.aarch64.rpm"
-RPM_HASH = "6d5518de95699c16cacecaecd2d35e56a676fde534746c38bd38f084607451467c5b44002265942db85bb5d021f28d0bf02e261fc585771b25ba869bf7668b08"
+RPM_NAME = "sha3sum-1.2.5-1.3.aarch64.rpm"
+RPM_HASH = "f0ed294ea0b91eebff51fff9c74d40e1f511e54bc4222577bf0519fefff498f9f5a06b0a3f8481b3f7ab882b8d0a6f66133015a2340bdf5ecca0298136484a5c"
 
 RPROVIDES:${PN} += "sha3sum"
 

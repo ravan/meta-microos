@@ -8,10 +8,10 @@ use Computer Modern. The package provides Metafont source and \
 LaTeX macro support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2dsvn52240"
+PV = "2026.226.1.2dsvn77682"
 
-RPM_NAME = "texlive-esint-2023.209.1.2dsvn52240-54.2.noarch.rpm"
-RPM_HASH = "04a200842b52719a2dd073a842360e835d3f4b0ddc4fb3e844ff4f65a34ca32d8906468f0a7b954c84e196c8cbe8859b7880b55b586a6cc5019b06ed0a3be079"
+RPM_NAME = "texlive-esint-2026.226.1.2dsvn77682-61.4.noarch.rpm"
+RPM_HASH = "3bd60a8a1a909c369fb6c746926006bd0cfcf6d644394f517ff941148a0e780aec1be4a31556bf6d6ff29c8e9344f920a17ec5181aa4119bd9495e6f74429da6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esint.sty \

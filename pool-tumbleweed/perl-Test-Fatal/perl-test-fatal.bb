@@ -12,16 +12,16 @@ more magical approach involving globally overriding 'caller', see \
 Test::Exception."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.017"
+PV = "0.18.0"
 
-RPM_NAME = "perl-Test-Fatal-0.017-1.4.noarch.rpm"
-RPM_HASH = "08898083ce0fbff0a6e248b81bb6493864361351f2657bff220a9f8cf83fb24c42d2066e958ad97bd0a03791c260493c4422dc9a51341bd7e126e538759abecf"
+RPM_NAME = "perl-Test-Fatal-0.18.0-1.5.noarch.rpm"
+RPM_HASH = "8eb05a03afbe52dded8f91a3e25b833082b7d9dfc8ec5f951730f98a222eb586792d23ee199b5bc8a845fb43644ce5c875d1113b99fe2a881e6c1b4962a8b1a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Fatal \
 perl-Test-Fatal"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Try--Tiny"
 
 inherit rpm

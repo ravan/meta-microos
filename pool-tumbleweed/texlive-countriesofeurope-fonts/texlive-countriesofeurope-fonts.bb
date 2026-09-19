@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-countriesofeurope"
 DESCRIPTION = "The  separated fonts package for texlive-countriesofeurope"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.23svn54512"
+PV = "2026.226.0.0.23svn77682"
 
-RPM_NAME = "texlive-countriesofeurope-fonts-2023.209.0.0.23svn54512-55.1.noarch.rpm"
-RPM_HASH = "d0e53460991b0b61f5808234274441645fa18fa6d065875dbaf940f1bd933bdb06e7d246e9d26f2e7f2fde78c9d44f3eaede598862c3edd370c7d72a9e0c97cb"
+RPM_NAME = "texlive-countriesofeurope-fonts-2026.226.0.0.23svn77682-61.2.noarch.rpm"
+RPM_HASH = "c8825be93925530f944772d104cc39f778e089630dedf2f7c0425818a67b09b104192cc9c7b6d258823fe3fc31423b3adb30486f7810e15c7ed92735a87a6b61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-countriesofeurope-fonts \
+font--lang=bem \
 font--lang=fj \
 font--lang=ho \
 font--lang=ia \

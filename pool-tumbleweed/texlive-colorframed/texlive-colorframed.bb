@@ -1,12 +1,12 @@
 SUMMARY = "Fix color problems with the package 'framed'"
-DESCRIPTION = "This package fixes problems with colour loss that occurres in \
-the environments of the framed package."
+DESCRIPTION = "This package fixes problems with colour loss that occurs in the \
+environments of the framed package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9bsvn64551"
+PV = "2026.226.0.0.9bsvn77682"
 
-RPM_NAME = "texlive-colorframed-2023.209.0.0.9bsvn64551-54.1.noarch.rpm"
-RPM_HASH = "c532ec0cbf7f505518b39b4422e33a7d6708fc149c39bdf344d270c4e0e147ad768d9adf3c56b4fe9fd975471453f656ab62ab847072edb5c78281d0f176af19"
+RPM_NAME = "texlive-colorframed-2026.226.0.0.9bsvn77682-60.2.noarch.rpm"
+RPM_HASH = "27a6d3128b377cc20ae206a3b6161cbc06ba8337ffb100e68cd03608280701cfb04c2157f8554f956961a95e29f3fe4430cf5d093af27d03b862fea26fbd40b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colorframed.sty \

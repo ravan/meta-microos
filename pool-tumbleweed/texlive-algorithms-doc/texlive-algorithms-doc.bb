@@ -2,14 +2,13 @@ SUMMARY = "Documentation for texlive-algorithms"
 DESCRIPTION = "This package includes the documentation for texlive-algorithms"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.0.0.1svn42428"
+PV = "2026.226.0.0.1svn78101"
 
-RPM_NAME = "texlive-algorithms-doc-2023.209.0.0.1svn42428-55.1.noarch.rpm"
-RPM_HASH = "ebbf117d8a4f4b5c472f741674760cd30ff13ceae694cbeec2bcdf2369f5731be05bf24348a7e7e429592b427480f9bc53fe95ca7c72163e02f7530b0c89a435"
+RPM_NAME = "texlive-algorithms-doc-2026.226.0.0.1svn78101-61.2.noarch.rpm"
+RPM_HASH = "c858feefdb80582d507877acfd281ff6ffdcc570918db4ab615a007046f8efd2bc56c5048b2aeea7f785b854cbb8ba798c79c3fac5faf3c61ae01bc8f59e150b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-texlive-algorithms-doc-en \
-texlive-algorithms-doc"
+RPROVIDES:${PN} += "texlive-algorithms-doc"
 
 RDEPENDS:${PN} += ""
 

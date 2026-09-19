@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-bspline"
 DESCRIPTION = "This package includes the documentation for texlive-pst-bspline"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.62svn40685"
+PV = "2026.226.1.62svn40685"
 
-RPM_NAME = "texlive-pst-bspline-doc-2023.209.1.62svn40685-53.1.noarch.rpm"
-RPM_HASH = "1fdd7f0002a4fd6982e1678a73cd825b6533c60931047e789dfd857c628b6b2f6e25fa617928bf5101daec1a9767ef13275a339833800260292d24f4cc025a91"
+RPM_NAME = "texlive-pst-bspline-doc-2026.226.1.62svn40685-59.2.noarch.rpm"
+RPM_HASH = "02661fe87d8397647cf6251d0cc6ecb6f27bcc13734a0e14d6e6a758f53162243bb9f8a45a33043200ec3fbed379206a24ba7964a44d4b620facef519f4c9664"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-bspline-doc"

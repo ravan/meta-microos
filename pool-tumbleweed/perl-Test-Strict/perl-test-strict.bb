@@ -17,15 +17,15 @@ paths are untainted with the following pattern: 'qr|^([-+@\\w./:\\\\]+)$|' \
 controlled by '$Test::Strict::UNTAINT_PATTERN'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.52"
+PV = "0.540.0"
 
-RPM_NAME = "perl-Test-Strict-0.52-2.1.noarch.rpm"
-RPM_HASH = "53aea3de9f217291886cd9c7cfe8eb56de45b7151d4e3159373e192f7f58dca4b76764c4338649476bd39c5d8a67f0bdfaec4011d1f6efb4a3920c1e392600a4"
+RPM_NAME = "perl-Test-Strict-0.540.0-1.7.noarch.rpm"
+RPM_HASH = "a7b45ce70562418ac09cc83da5dc3f530d1e29de5f47eeaa44f94e721446736be432116b9ab0a4e589e8b92cf650f99858da87042ac794299eeda95f12ee6740"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Strict \
 perl-Test-Strict"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

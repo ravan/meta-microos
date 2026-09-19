@@ -11,10 +11,10 @@ spectacular effects such as displaying TOCs as trees or mind \
 maps."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn66299"
+PV = "2026.226.1.2dsvn77682"
 
-RPM_NAME = "texlive-etoc-2023.209.1.2svn66299-53.1.noarch.rpm"
-RPM_HASH = "77d0bc41806a3606d5925e928e8ad3b90bf5576a9c4aa834689cc932d71a2baeeeb52f6fd9454b90c39fc16b5370450098ae5c8b90c2692f2a438c963968624a"
+RPM_NAME = "texlive-etoc-2026.226.1.2dsvn77682-59.2.noarch.rpm"
+RPM_HASH = "d11ba088cc79f566208a85bb8951e966df801aea5c2946845befc3e660f68f948c0d65893f314a4a72c63f1aaf2b07313d8d9ac2297fcd1bdd49904fc37ade1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-etoc.sty \

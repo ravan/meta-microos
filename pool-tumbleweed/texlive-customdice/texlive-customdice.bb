@@ -6,10 +6,10 @@ adding custom text to dice faces; control over colouring; \
 control over sizing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64089"
+PV = "2026.226.1.1svn64089"
 
-RPM_NAME = "texlive-customdice-2023.209.1.1svn64089-55.1.noarch.rpm"
-RPM_HASH = "a59cac4cbea5a376d2790ffa296fee8fd6b56638c8cf1d7205965da07093f359056aed6163aef9920a4c426eec197f8b5bda5568ab6fa65376157fa73482c64d"
+RPM_NAME = "texlive-customdice-2026.226.1.1svn64089-61.2.noarch.rpm"
+RPM_HASH = "352448fb2c269142cc31a4561d6102b08e055564ff2a95fbfc80f9f6fe454d066615314ed20a3b81fdab3ed79d517034a1e22ec4c1f4caab518b67be01a3e0fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-customdice.sty \

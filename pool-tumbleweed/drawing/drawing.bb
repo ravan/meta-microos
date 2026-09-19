@@ -10,13 +10,13 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "drawing-1.0.2-1.1.noarch.rpm"
-RPM_HASH = "a426ea971fac23c7febec8d2bb9ad94d887813323f3072a073b2d320fea0a395172a72482aa0d15b21b50ff485f0659cc4112bd616e55a5b904b5e381f9706c0"
+RPM_NAME = "drawing-1.0.2-1.10.noarch.rpm"
+RPM_HASH = "2fd67c19ee8c49ddaa96d7edabdec9ace5f30e9cb856c6d4b5d74d262e9775c25af514c1c90d4c609bf497b4853e147c46147393a7f3f3d20a3b422de3cbdbdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drawing"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python3 \
 python3-gobject \
 python3-gobject-Gdk \

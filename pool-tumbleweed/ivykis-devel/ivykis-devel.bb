@@ -1,16 +1,15 @@
 SUMMARY = "Development files for libivykis, an event dispatching library"
-DESCRIPTION = "libivykis is a thin wrapper over various OS'es implementation of I/O \
-readiness notification facilities (such as poll(2), kqueue(2)) and is \
-mainly intended for writing portable high-performance network \
-servers. \
+DESCRIPTION = "libivykis is a wrapper over various OS'es implementation of I/O \
+readiness notification facilities (such as poll(2), kqueue(2)) and \
+can be used for writing portable network servers. \
  \
 This package contains the header files and development symlinks."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.42.4"
+PV = "0.43.2"
 
-RPM_NAME = "ivykis-devel-0.42.4-1.9.aarch64.rpm"
-RPM_HASH = "d5c6054d5f6d54750a1616d243e26afb7e5e2a7648cbbe2d74e09a1201dc3dbab06c5597b2af452e5174243381d8884a15cd8d90118d5c46fa11b4c97a7d3fe6"
+RPM_NAME = "ivykis-devel-0.43.2-1.5.aarch64.rpm"
+RPM_HASH = "79a63be01ae85637f4913048c7eb7cc2b9f7c626463612d34acf9d817f416d26862f5ba3f1ab5b30ec6a994d569c0f70e1794092e2ea77c627bbe1b85720872c"
 
 RPROVIDES:${PN} += "ivykis-devel \
 pkgconfig-ivykis"

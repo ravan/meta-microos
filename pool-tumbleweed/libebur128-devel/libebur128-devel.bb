@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.2.6"
 
-RPM_NAME = "libebur128-devel-1.2.6-1.8.aarch64.rpm"
-RPM_HASH = "9750af526df72716bf4f252818c5dd6c1d82cd94574b83b055f7510ccff21ff6a5e1d7bad39f22c5f6380d6e2b487b524caab126377e6f58f804e7e76f412609"
+RPM_NAME = "libebur128-devel-1.2.6-2.6.aarch64.rpm"
+RPM_HASH = "1a307d01c6818cfe0129318f5a629b82d51a799918567f1e44ef544679305f574994925c16546a531f7eb2ff1ade7a234b88d692cc42e3cd5d60e146ccfd2d83"
 
 RPROVIDES:${PN} += "libebur128-devel \
 pkgconfig-libebur128"

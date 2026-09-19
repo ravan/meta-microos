@@ -2,10 +2,10 @@ SUMMARY = "Binary files of dvipos"
 DESCRIPTION = "Binary files of dvipos"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn62210"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-dvipos-bin-2023.20230311.svn62210-93.2.aarch64.rpm"
-RPM_HASH = "c53a39d7e7d96848ab06f6dd618fe594fafb1f110be17f7029c295e9e7b43c81880aad58a5b27b2b6bdfe9abd265063482b2e63dc73de755409712613d13dbaa"
+RPM_NAME = "texlive-dvipos-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "c05e977efd7f663cbb9a99f9f687d9c771ed4b5dfe2c4ea10d677d453e52506c4019e277dfbffd15b20cd1f4f81a1bb744586123333d0fdc44536011a53cf042"
 
 RPROVIDES:${PN} += "texlive-dvipos-bin"
 

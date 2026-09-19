@@ -2,10 +2,11 @@ SUMMARY = "Devel files of tuxpaint"
 DESCRIPTION = "Header files and development documentation for tuxpaint."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.28"
+PV = "0.9.35"
 
-RPM_NAME = "tuxpaint-devel-0.9.28-1.1.aarch64.rpm"
-RPM_HASH = "eae1577a7ebb1ec432506195168282b13674e09a93ff768ad762b581b06e21fc650d4722001e5b1f7375a4e17662d82b40831ca176bfcb2a60b3d30cd88e60d7"
+RPM_NAME = "tuxpaint-devel-0.9.35-2.2.noarch.rpm"
+RPM_HASH = "6d3b6d75450e3980eb9809e2670684ae81252c7b6405d76e2193e13705fdad7528f98b257916b068e207419abc215aa48c58f4198081071f1e961263ad5f5aa9"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-devel"
 

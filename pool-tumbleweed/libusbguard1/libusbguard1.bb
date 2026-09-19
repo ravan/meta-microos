@@ -4,21 +4,24 @@ devices by implementing basic whitelisting/blacklisting capabilities based on \
 USB device attributes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.2"
+PV = "1.1.4"
 
-RPM_NAME = "libusbguard1-1.1.2-3.2.aarch64.rpm"
-RPM_HASH = "dc79954d4284e316b17a379c0e63deb9682efe3647b4f9deb992e3b0e86e74c481b26d4254f60b17885d955f223ad40e548809e79c07a474ca48c77b45a7c42b"
+RPM_NAME = "libusbguard1-1.1.4-3.9.aarch64.rpm"
+RPM_HASH = "8e48e207c6fffd81d745110e43298ef6cad2fd18f94c1aec6ae75a064ac106dac73e707af481c17fc510786f30669bb5960d79a2ddb062418cf25c5a0ab6a3aa"
 
 RPROVIDES:${PN} += "libusbguard.so.1 \
 libusbguard1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
+libabsl-log-internal-check-op.so.2608.0.0 \
+libabsl-log-internal-message.so.2608.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.36.1.0 \
 libqb.so.100 \
-libsodium.so.23 \
-libstdc++.so.6"
+libsodium.so.26 \
+libstdc++.so.6 \
+libutf8-range.so.36.1.0"
 
 inherit rpm

@@ -8,10 +8,10 @@ the class for conformation to a different guideline should not \
 be difficult."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.0svn34374"
+PV = "2026.226.1.0svn34374"
 
-RPM_NAME = "texlive-sphdthesis-2023.209.1.0svn34374-58.1.noarch.rpm"
-RPM_HASH = "a05e298876573c213133079dae23b7e8435624cb166b15ed19ad57af2fa207113ac191efe55657055be8779e9e67aff8a582b721371b5faef566386756e9ac7d"
+RPM_NAME = "texlive-sphdthesis-2026.226.1.0svn34374-64.2.noarch.rpm"
+RPM_HASH = "39ea61ef0990c1cb0da7456e7c09aa1deea04f05f82f5c9c3797949ffa0c8bbe17909a1c72895b3bd1f04306dae7a8370d8de8092789116e2906a2849af042f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-SPhdThesis.cls \

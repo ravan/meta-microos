@@ -5,10 +5,10 @@ This package contains base tools, like string, xml, and network \
 handling."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde26"
+PV = "5.15.19+kde23"
 
-RPM_NAME = "libQtQuick5-5.15.10+kde26-1.1.aarch64.rpm"
-RPM_HASH = "5a0db6e34d7fc3a8400fdbea28898273cf7330a2874aca87b2150b2faf1638a98192d3db17a7431d78809fd63e0ce37d9c4a1d14c385111c1cf3be781e7a0602"
+RPM_NAME = "libQtQuick5-5.15.19+kde23-1.3.aarch64.rpm"
+RPM_HASH = "13e457375552a3bf743e03af8d774ff4930a51d5ccb19cb685a98fde0c2c202297c871987c8680ba7a882d0e23a15505b5c8e0b8b81119b7df98af254d816317"
 
 RPROVIDES:${PN} += "libQt5Qml.so.5 \
 libQt5QmlModels.so.5 \

@@ -8,10 +8,10 @@ the document. There is an option to use automatic file naming: \
 useful if the trees are often moved around."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn41777"
+PV = "2026.226.1.01svn41777"
 
-RPM_NAME = "texlive-binarytree-2023.209.1.01svn41777-54.1.noarch.rpm"
-RPM_HASH = "fe4ec3cf44d6a06d2d85dbcbc4e0e18e053287068bdf433ced01947e7de0d841bdc7e8b9abe4a3ee4bb990c30823b431c2d0ad93ee69fb5b4a4ba7a97c6028bb"
+RPM_NAME = "texlive-binarytree-2026.226.1.01svn41777-61.2.noarch.rpm"
+RPM_HASH = "fe86aa3543885b002da995232ebb153105399a9bbeaee5de8943272734d29911766236cdcbc95f287e3701234e2fb609bd3824111ad3962158a5425fc8dcd938"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-binarytree.sty \

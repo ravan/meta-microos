@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.0"
 
-RPM_NAME = "a52dec-0.8.0-1.1.aarch64.rpm"
-RPM_HASH = "a370be5c74fc0acd80eb1323c3e05bea254078b0b27be0c983abcc79293cd000b2befd07dd0283b9f761d42fa745848ebdd0de4398f41ba9a1a8aefd7a2d10c4"
+RPM_NAME = "a52dec-0.8.0-1.12.aarch64.rpm"
+RPM_HASH = "8eee601edd70b57ca8c73a5c10a19a13e2d31f2daf0f1665934152d95adbe88c118ca7df86638011c6ab1a367cbfc9b2c47e5feec4e0770f0330b9790bdcadf7"
 
 RPROVIDES:${PN} += "a52 \
 a52dec"

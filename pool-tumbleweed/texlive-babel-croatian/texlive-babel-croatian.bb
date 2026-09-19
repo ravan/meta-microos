@@ -4,10 +4,10 @@ a subset of the conventions, if Croatian is not the main \
 language of the document)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3lsvn35198"
+PV = "2026.226.1.3lsvn77682"
 
-RPM_NAME = "texlive-babel-croatian-2023.209.1.3lsvn35198-54.1.noarch.rpm"
-RPM_HASH = "a56271ee97472342be42b323bdfc7c0d701d8a1cccf7535891814fbea02ba1c11de4d4d8a7ceb2b3540edbf05a203e0d4b6ee51bd1c330690f5548c64c0edbe3"
+RPM_NAME = "texlive-babel-croatian-2026.226.1.3lsvn77682-60.2.noarch.rpm"
+RPM_HASH = "56eeca2b8b9853c3798d49198f5bbc4e49cfc1b6ac725981dad8c29bae0b445b8b9845b0b4e4fcdfd20bc569328efd880af5951190e1575e06d086ff6f6f9874"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-croatian.ldf \

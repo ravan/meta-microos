@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
 PV = "6.1.1"
 
-RPM_NAME = "mingw64-gmp-debug-6.1.1-3.13.noarch.rpm"
-RPM_HASH = "90a81d55c4d6527957fbfaa4646f910b1179166655d6caa186e9dcdd821c15f0db2688172fcdbac79f0e59fffa66c9928443122e33d21657a6e59435f4045fc5"
+RPM_NAME = "mingw64-gmp-debug-6.1.1-4.1.noarch.rpm"
+RPM_HASH = "223614f4986f86c2aeb91e73eb3fcc0c349b2db8506df9ceac07b603797e11c03d2f46c27e0b3aa3095e2d8a3b7e5ce4ab2e940a0ff67ae01dd34e04a5624748"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-gmp-debug"

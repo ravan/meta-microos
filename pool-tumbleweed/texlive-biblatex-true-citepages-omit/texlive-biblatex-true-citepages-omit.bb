@@ -5,10 +5,10 @@ works when you \\cite[xx]{key}, but not when you \\cite[\\pno~xx, \
 some text]{key}. The package corrects this problem."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.0svn44653"
+PV = "2026.226.2.0.0svn76790"
 
-RPM_NAME = "texlive-biblatex-true-citepages-omit-2023.209.2.0.0svn44653-54.1.noarch.rpm"
-RPM_HASH = "5a58e118550f505717aa154a0c87df8a08e246cd1551d197e246c10ba9a10d38401ec1ada40c9dce2a8b1fd344f5d994daf2817d19c1aeadeb7baff3c7396ea0"
+RPM_NAME = "texlive-biblatex-true-citepages-omit-2026.226.2.0.0svn76790-61.2.noarch.rpm"
+RPM_HASH = "94339707a50b7f86200bd2ff043b977931b4f75829945b06574af1db092b6bc8e536bc3d17e7bc4c02641f0efe5f305ea5c4c62a6c141c60052ca3a3b3568f09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-true-citepages-omit.sty \

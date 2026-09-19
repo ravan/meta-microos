@@ -5,10 +5,10 @@ lists. CSV lists which have associated parsers may be processed \
 with the tools of the package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn30704"
+PV = "2026.226.1.3svn30704"
 
-RPM_NAME = "texlive-loops-2023.209.1.3svn30704-55.1.noarch.rpm"
-RPM_HASH = "1f402ca475d40ffdb9e2729655e07c5b2687b77193697809eb63813caf9e73a372a1b2fc2548c1a809b08b540d80063f1f4646b125db61f25c55f523df88c25b"
+RPM_NAME = "texlive-loops-2026.226.1.3svn30704-61.2.noarch.rpm"
+RPM_HASH = "e1fde6a3cf51358c9a9f5059f47177d02e449d30301a0ee8e3f1f7d3ac3593cb9de2edeb98bdcb6402db85934a79b732c14a3f27a7b2c58d9a263329171719c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-loops.sty \

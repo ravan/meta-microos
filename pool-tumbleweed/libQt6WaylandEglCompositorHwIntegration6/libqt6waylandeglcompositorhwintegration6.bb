@@ -1,12 +1,12 @@
 SUMMARY = "Qt 6 WaylandEglCompositorHwIntegration library"
 DESCRIPTION = "The Qt 6 WaylandEglCompositorHwIntegration library. \
 This library does not have any ABI or API guarantees."
-LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "(GPL-2.0-only | LGPL-3.0-only | GPL-3.0-or-later) & GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6WaylandEglCompositorHwIntegration6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "182e4c5c48be1980fd945fed19895c29424aa3fbb7675a0c1e2d25bdd2786f1497a47fb2d5f65f473ab68617ee7423f7d5b22b608397b4b2244a4876853f14ff"
+RPM_NAME = "libQt6WaylandEglCompositorHwIntegration6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "fc0ed6f59c326acf1bcf43dd7fdd87a7f8823c2117ac5466651170980b9d61fbcc9185664070483a1772c192b9047c4bdc8d5a621a71f64d30f0c0a9327ff06b"
 
 RPROVIDES:${PN} += "libQt6WaylandEglCompositorHwIntegration.so.6 \
 libQt6WaylandEglCompositorHwIntegration6"

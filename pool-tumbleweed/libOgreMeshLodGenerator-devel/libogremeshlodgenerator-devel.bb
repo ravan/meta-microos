@@ -3,16 +3,16 @@ DESCRIPTION = "OGRE (Object-Oriented Graphics Rendering Engine) is a scene-orien
 Mesh LOD allows to swap the models to Low-poly models in far distance, which makes your game faster."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "libOgreMeshLodGenerator-devel-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "90536621dcea82f70e6de25da153f49f6728f6c738bd718f61e6a454d1d4169e9e52b34cd8a4d6418baf02d4b154b1fa236f64e7166345eb31788a7e0dfa0dd3"
+RPM_NAME = "libOgreMeshLodGenerator-devel-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "a92bb1d22ab8094058076b7132d24abc038354aa14d364b770e50db6c62005aeaaee1e509919f510de74f297e765488eee26f334201b5aa800672227fa9cf222"
 
 RPROVIDES:${PN} += "libOgreMeshLodGenerator-devel \
 pkgconfig-OGRE-MeshLodGenerator"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libOgreMeshLodGenerator13-5 \
+libOgreMeshLodGenerator13-6 \
 pkgconfig-OGRE"
 
 inherit rpm

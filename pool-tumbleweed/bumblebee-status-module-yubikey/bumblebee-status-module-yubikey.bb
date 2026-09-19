@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-yubikey-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "5227933558aa111a56eee215a1f7d7626ba366a8b1de1c07c74008691b67832a3afb5d3a0057829ee686a0c58331f94cd3c46b05d6fd5c4153cf59dfd24f4b58"
+RPM_NAME = "bumblebee-status-module-yubikey-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "63316ce54dc130ae99449408d54678126e8a0f6d88736f287cc36497a48e0fe9120573b75861d176f967673a0ec538c2b9651466b11dd1828bf6da4fec237211"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-yubikey"

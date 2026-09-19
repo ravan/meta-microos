@@ -4,39 +4,41 @@ majority of pieces on the board. This is done by tactically placing \
 ones pieces to turn over the opponents pieces."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kreversi-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "cce53643e69be05cafe28d88cccb4d7ddb203c2b82c2f956ab028a53ea95686ecdeffa53f304322b57e15c5eab0d1250636b4d78afc6dfd48bd30efd4967d340"
+RPM_NAME = "kreversi-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "e04d8de8d72f1e15b8a6c1f70e46fea4ce8e7fbc46197f3d0f64240e4fe4408202e2e1d83e8212d67bb4c7f2969e6d0d7d4739d1fc3cdbbba97641d3fedb5396"
 
 RPROVIDES:${PN} += "kreversi \
 kreversi5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KDEGames.so.7 \
-libKF5KIOCore.so.5 \
-libKF5KIOGui.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickWidgets.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKDEGames6.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6I18nQml.so.6 \
+libKF6IconThemes.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libstdc++.so.6 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-org.kde.games.core.0"
+qt6qmlimport-QtQuick.2 \
+qt6qmlimport-org.kde.games.core.0"
 
 inherit rpm

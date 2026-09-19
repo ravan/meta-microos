@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-etex-pkg"
 DESCRIPTION = "This package includes the documentation for texlive-etex-pkg"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.7svn41784"
+PV = "2026.226.2.7svn77682"
 
-RPM_NAME = "texlive-etex-pkg-doc-2023.209.2.7svn41784-53.1.noarch.rpm"
-RPM_HASH = "6764849470c1a1701bc47360b06bd7fa951aa5de5e52287bd72535ea0245e29cb043c8cddef7b9446c94ffadbebfd9e135c49d58f8b1dcd9de72308b5dceef7e"
+RPM_NAME = "texlive-etex-pkg-doc-2026.226.2.7svn77682-59.2.noarch.rpm"
+RPM_HASH = "836c8b5f2af917c33b66a82d7d0ea9490aa7eeca77b836470fa38bfcf1bd89b069781940b014bdd937564f7cb3ee264e82c76d45d46ff7c175dba1b69fbbc394"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-etex-pkg-doc"

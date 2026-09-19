@@ -8,10 +8,10 @@ openresolv can generate a combined resolv.conf or a configuration file for a loc
 (like unbound, dnsmasq or bind) that will route the dns requests according to the search domain."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.12.0"
+PV = "3.17.4"
 
-RPM_NAME = "openresolv-3.12.0-1.8.noarch.rpm"
-RPM_HASH = "d3fb1f02bad4655a7315bfd51df524a85a6fae3da9ba94a9ef4a5c53a6bc00bccd71db5586c8beda3d0344886380fe4089ee1a9a76d4df3610468f965619aade"
+RPM_NAME = "openresolv-3.17.4-1.3.noarch.rpm"
+RPM_HASH = "719796dfd4ffd8bc2c07f180e4cd445458be7048de3a8ec5782a1beeb7f7ebe0b862e9b15ccd5d3a853386e4da807ac140a379734399b676647b72c79a51f079"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-openresolv \

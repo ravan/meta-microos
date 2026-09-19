@@ -1,17 +1,42 @@
 SUMMARY = "Easily timeout long running operations"
-DESCRIPTION = "'Time::Out' provides an easy interface to _alarm(2)_ based timeouts. Nested \
-timeouts are supported."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+DESCRIPTION = "The 'Time::Out' module provides an easy interface to alarm(2) based \
+timeouts. Nested timeouts are supported. The module exports the 'timeout()' \
+function by default. The function returns whatever the code placed inside \
+the subroutine reference returns: \
+ \
+  use Time::Out qw( timeout ); \
+ \
+  my $result = timeout 5 => sub { \
+    return 7; \
+  }; \
+   \
+ \
+If 'Time::Out' sees that Time::HiRes has been loaded, it will use that \
+'alarm()' function (if available) instead of the default one, allowing \
+float timeout values to be used effectively: \
+ \
+  use Time::HiRes qw(); \
+  use Time::Out   qw( timeout ); \
+ \
+  timeout 3.1416 => sub { \
+     \
+  };"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.11"
+PV = "1.0.0"
 
-RPM_NAME = "perl-Time-Out-0.11-3.28.noarch.rpm"
-RPM_HASH = "8b54e5762cec80e345bef7238a43d551196466f4f7b402ac7103fc783b75ea800c8d0029d3139616b12456fc38728a08d8bc37c9bf47bdc8ffb1389122a0a5e7"
+RPM_NAME = "perl-Time-Out-1.0.0-1.10.noarch.rpm"
+RPM_HASH = "78ada1fd0c1b1959ec04a0a405a5ae1a08b39a8bf074edde881c88e759f71e82b6fd111a4beda5da84119d9f2aa48c905f742c40195bba46ddd861f2413afc8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Time--Out \
+perl-Time--Out--Exception \
+perl-Time--Out--ParamConstraints \
 perl-Time-Out"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Carp \
+perl-Try--Tiny \
+perl-version"
 
 inherit rpm

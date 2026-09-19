@@ -1,12 +1,12 @@
 SUMMARY = "Devel Package for libheif"
 DESCRIPTION = "libheif is a ISO/IEC 23008-12:2017 HEIF file format decoder and encoder. \
 This package contains the header files."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LGPL-3.0-only & MIT"
 
-PV = "1.16.2"
+PV = "1.23.4"
 
-RPM_NAME = "libheif-devel-1.16.2-1.2.aarch64.rpm"
-RPM_HASH = "50d1cc72404aa2f0f81ca431a9768b3559cc8913cf189c654455daea9530a281006e608ef928c8f2c5bb399f4cd8c0a84e31c1f93c39449a5b7d268927c06e69"
+RPM_NAME = "libheif-devel-1.23.4-1.1.aarch64.rpm"
+RPM_HASH = "874c262e0f91fe98233e820d954285e28adad4f69721c5f9542661281266bbfdf77cd890da61eff4ec4aa2e2ff8301088cb12aa1cb95103db4faf72105c64367"
 
 RPROVIDES:${PN} += "cmake-libheif \
 libheif-devel \
@@ -14,8 +14,9 @@ pkgconfig-libheif"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libheif1 \
-pkgconfig-aom \
-pkgconfig-dav1d \
-pkgconfig-libsharpyuv"
+pkgconfig-libbrotlidec \
+pkgconfig-libbrotlienc \
+pkgconfig-libsharpyuv \
+pkgconfig-zlib"
 
 inherit rpm

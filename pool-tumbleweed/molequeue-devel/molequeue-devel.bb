@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.0"
 
-RPM_NAME = "molequeue-devel-0.9.0-3.10.aarch64.rpm"
-RPM_HASH = "529dd7ffea581478c6e5ce38a1a7a160fc5015673268ed324bca79b0657e67763298a7e6ccfe8ff1c8c65c5a44fee26488b552a6b936279dad9e49f234a31d4d"
+RPM_NAME = "molequeue-devel-0.9.0-4.3.aarch64.rpm"
+RPM_HASH = "8d1c4c8804656a1a62dc40e0f0fbfa785c0b6a9ca124ad9470d624fdc70f2466427bd87cdd560c98956809aeb70aaa4a38ada018b9c8bfcab40fda2edebd84b6"
 
 RPROVIDES:${PN} += "cmake-MoleQueue \
 molequeue-devel"

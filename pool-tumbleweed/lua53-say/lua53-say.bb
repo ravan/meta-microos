@@ -2,10 +2,10 @@ SUMMARY = "Lua string hashing library, useful for internationalization"
 DESCRIPTION = "Useful for internationalization."
 LICENSE = "MIT"
 
-PV = "1.31"
+PV = "1.4.1"
 
-RPM_NAME = "lua53-say-1.31-5.1.noarch.rpm"
-RPM_HASH = "a57ba8960cd8b3515409b0ebe31b48bab2f6f44f484f1c2087193de7d7df3e9cadfab45446a27b4b1f2af6d19021ae0c9e422e933ca22bc48a935a63b7e1e330"
+RPM_NAME = "lua53-say-1.4.1-3.2.noarch.rpm"
+RPM_HASH = "222b05316f47cc4f1441a00ae308b0abf61a888840a8662c50dc4bb738e9836ffdd5ca3daf973d62aa7c4769e155d014f6256904b5ec7c0d32b51489abc82eae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-say"

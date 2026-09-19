@@ -13,10 +13,10 @@ fonts available to the author: the class itself is restricted \
 to freely available and freely distributed fonts, only."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn56954"
+PV = "2026.226.1.5svn56954"
 
-RPM_NAME = "texlive-philosophersimprint-2023.209.1.5svn56954-52.1.noarch.rpm"
-RPM_HASH = "fb6c8c8924cda2786095d720398d7988b8b4ca84cb3680c158d91ab1ff487791506445e5e56c9fdafc9f2999c355da276c288b03f16d150b70e0d4189903cfec"
+RPM_NAME = "texlive-philosophersimprint-2026.226.1.5svn56954-58.2.noarch.rpm"
+RPM_HASH = "ccf91c07cfeb46abbf8be8b08111113d24ed61aa6635148f9954b1c06d0bd634260001329cf51df9edf3974a62a650fe09156eeaece02a303578e90b2ca9ae1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-philosophersimprint.cls \

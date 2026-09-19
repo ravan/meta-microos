@@ -2,10 +2,10 @@ SUMMARY = "Qt5 3D examples"
 DESCRIPTION = "Examples for the libqt5-qt3d module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qt3d-examples-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "d5f5b6f9c8fd6c37535b4024d981eb242f40be707d1f303dac766698e7f6ece7a629b7fcc51f2bf7c2ef2d4b9bc9c2e9ee751ccef04e34e3647e57f4ac3dd737"
+RPM_NAME = "libqt5-qt3d-examples-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "314bf365b61bf5e6e39d6177ba4aa4b2b530cd7372aaff4ff6b16d9fc10ccb311fc221b9380a0d30dfa118efe1da7559b03d37019176593392e9557bb48d2f29"
 
 RPROVIDES:${PN} += "libqt5-qt3d-examples"
 

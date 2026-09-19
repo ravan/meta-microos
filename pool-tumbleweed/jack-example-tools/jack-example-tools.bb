@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1"
 
-RPM_NAME = "jack-example-tools-1-1.6.aarch64.rpm"
-RPM_HASH = "8f02ead8e4d2a6acfe1aded73f5dcdb00028b83354b0abc71198e64571edadb7ae45df4c65e1d00bd312af2fe4f1f056f86bdfb7ab594f6b6278867142084bb7"
+RPM_NAME = "jack-example-tools-1-1.17.aarch64.rpm"
+RPM_HASH = "091a3eac6c7275abb57126e4592aeebbbb5470dd7c333ac27d96b3e13edd3469be99066446a83ab47208d8018167dde20765c673709afe61ac3fa08bd8fe6c35"
 
 RPROVIDES:${PN} += "jack-/usr/bin/jack-connect \
 jack-example-tools"

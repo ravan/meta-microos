@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-revquantum"
 DESCRIPTION = "This package includes the documentation for texlive-revquantum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.11svn43505"
+PV = "2026.226.0.0.11svn43505"
 
-RPM_NAME = "texlive-revquantum-doc-2023.209.0.0.11svn43505-54.2.noarch.rpm"
-RPM_HASH = "d4c4853c28ff552cdb0a03c9deb7bf3ef933e560ccbd78cc0071df65a7e15202b81d0be3020a6dc5a25a36c64d83141b210f6c815a7a46e0637c18ad1f5ab0a0"
+RPM_NAME = "texlive-revquantum-doc-2026.226.0.0.11svn43505-60.4.noarch.rpm"
+RPM_HASH = "1e3c77ded3b81a6903fc76835097821e49ff20b416db92b4c20e2c8a53405d11fe1405e8db8e9b15a9e5104c126ac319a420470374c4afb9bb5b497e93795860"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-revquantum-doc"

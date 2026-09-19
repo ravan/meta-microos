@@ -5,16 +5,17 @@ named 'minion'. If no connection string or ':temp:' is provided, the \
 database will be created in a temporary directory."
 LICENSE = "Artistic-2.0"
 
-PV = "5.0.7"
+PV = "6.0.0"
 
-RPM_NAME = "perl-Minion-Backend-SQLite-5.0.7-1.4.noarch.rpm"
-RPM_HASH = "6f2262e95df585eeebbb321c8cba48f51f11e18ab7e21324d080a2adb2da5aeab141049c4a7637a36a06f69e7b8700b6e769eba026093c6ca2681115d83e821d"
+RPM_NAME = "perl-Minion-Backend-SQLite-6.0.0-1.3.noarch.rpm"
+RPM_HASH = "947a6d0470c99ec9bc9f2e93fffa79396c6372f67d2912aa33adfa5c75ff0ab9ba6bcc2b2eccb0b2f4f3771818c65bbab5b6a61e6266666ad392a64ae88401e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Minion--Backend--SQLite \
 perl-Minion-Backend-SQLite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-DBD--SQLite \
 perl-Minion \
 perl-Mojo--SQLite \
 perl-Mojolicious"

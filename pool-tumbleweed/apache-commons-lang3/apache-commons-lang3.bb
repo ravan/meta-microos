@@ -12,10 +12,10 @@ and a series of utilities dedicated to help with building methods, such \
 as hashCode, toString and equals."
 LICENSE = "Apache-2.0"
 
-PV = "3.12.0"
+PV = "3.20.0"
 
-RPM_NAME = "apache-commons-lang3-3.12.0-3.1.noarch.rpm"
-RPM_HASH = "ddad6458cf86f29946ef803ddb3fc066a6b721f70896d37d87fd8df576afc6011bf226b42d2842aee25839b56a14ba62a88f9202bb5e57797811cc63fdfd10a2"
+RPM_NAME = "apache-commons-lang3-3.20.0-1.3.noarch.rpm"
+RPM_HASH = "13b9e6b77a91295ed6f17011d1bdfa696bc9c25a5e6eaea62b64c08d32aaedba28419c177591af5372b9deb152410200f48bb48d74894d2005963f31f4a5f923"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-lang3 \

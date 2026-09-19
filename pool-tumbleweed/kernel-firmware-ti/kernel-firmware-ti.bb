@@ -1,17 +1,19 @@
 SUMMARY = "Kernel firmware files for Texas Instruments wireless drivers"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Texas Instruments wireless drivers."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Texas Instruments wireless drivers."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
-PV = "20230829"
+PV = "20260610"
 
-RPM_NAME = "kernel-firmware-ti-20230829-1.1.noarch.rpm"
-RPM_HASH = "d6abb4d81072af2ea3e841737441ff14829cace7a8dc423b042cc581b8e85b1c78e8bee0eaf94c33d79008c99adbf5757a5f034667a8acc2010bff189d5a5e20"
+RPM_NAME = "kernel-firmware-ti-20260610-1.2.noarch.rpm"
+RPM_HASH = "edeb8e38953f5ad5d6b2c6ce2d1d014901c98217fc5502bc24b147df8b19fa164ad4f8b95b141dc975a0b8205e5f08e9455d602412cbd16556a0a5fb0eb37522"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-ti-connectivity/TIInit-6.2.31.bts \
 firmware-ti-connectivity/TIInit-6.6.15.bts \
 firmware-ti-connectivity/TIInit-7.2.31.bts \
+firmware-ti-connectivity/cc33xx-2nd-loader.bin \
+firmware-ti-connectivity/cc33xx-conf.bin \
+firmware-ti-connectivity/cc33xx-fw.bin \
 firmware-ti-connectivity/wl1251-fw.bin \
 firmware-ti-connectivity/wl1251-nvs.bin \
 firmware-ti-connectivity/wl1271-fw-2.bin \

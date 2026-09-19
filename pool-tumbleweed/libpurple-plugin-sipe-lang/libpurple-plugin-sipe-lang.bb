@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.25.0"
 
-RPM_NAME = "libpurple-plugin-sipe-lang-1.25.0-2.12.noarch.rpm"
-RPM_HASH = "17cfb57062b63d12dd2a6aa869cd414db6406043635de3e396d2f8c948a9134981cace63cbe1e4ff1bd3ae8d253aaff54735b341e46de79959531eed176fbe40"
+RPM_NAME = "libpurple-plugin-sipe-lang-1.25.0-4.8.noarch.rpm"
+RPM_HASH = "9dd9994ecc931e555b76b72284945405197f5adaf96351887279934d18f5d1e188b989a4207779e9d25b7119cb595191cc5235e1d81a9afa8b0880fdcbad98e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpurple-plugin-sipe-lang \

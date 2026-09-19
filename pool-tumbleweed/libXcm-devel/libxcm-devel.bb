@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.5.4"
 
-RPM_NAME = "libXcm-devel-0.5.4-1.22.aarch64.rpm"
-RPM_HASH = "0437ed22aff45dd99d3cf204962f895c35ae7258d5a58dc1b52bfba635869380f5c8b9612ffe6e92c19f820933b4bb6735142f48bf80ead2d5af028abbdbf7c6"
+RPM_NAME = "libXcm-devel-0.5.4-1.32.aarch64.rpm"
+RPM_HASH = "b9bd0c7f3e94e56baac487b9d70578f8e217282eaa5727f9da12df4ad1e2bee70ebe81d082bddee82c6a5cdf1105dd07d07132cb7c6a1c00c04926c93c000f95"
 
 RPROVIDES:${PN} += "libXcm-devel \
 pkgconfig-xcm \

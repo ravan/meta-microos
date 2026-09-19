@@ -3,10 +3,10 @@ DESCRIPTION = "libmbim is a glib-based library for talking to WWAN modems and de
 which speak the Mobile Broadband Interface Model (MBIM) protocol."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.28.4"
+PV = "1.34.0"
 
-RPM_NAME = "libmbim-devel-1.28.4-1.1.aarch64.rpm"
-RPM_HASH = "19d3678f651de12e059291e4216aa320756444e627a8f53b9f02749816903f6103b686f0c8418f0d6c91e82ace4455aec285faee17a2725591d92219f0ade810"
+RPM_NAME = "libmbim-devel-1.34.0-1.4.aarch64.rpm"
+RPM_HASH = "8f75e74fd02c200c766fcf5ad9b4eae2c2675f1c50c3c63ddaec9a02174820a9c5737ca3506e96f080efd479762ce4104f25cc98c35a05f1ac0ace1501e0aca4"
 
 RPROVIDES:${PN} += "libmbim-devel \
 pkgconfig-mbim-glib"

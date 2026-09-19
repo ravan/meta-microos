@@ -5,19 +5,19 @@ about the problem and help track its resolution. Alerts can be configured \
 to user preference. The same tools can be run on existing log files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.3.31"
+PV = "3.3.37"
 
-RPM_NAME = "setroubleshoot-server-3.3.31-1.1.aarch64.rpm"
-RPM_HASH = "1e6d5a2d3c6582af650bf2405ab63bff738a675253ea87401aa5a9b8f5aba621d8fb0851607ce055fbe885a64025fb67ee94555a589a6d13e617aff65aec004e"
+RPM_NAME = "setroubleshoot-server-3.3.37-1.1.aarch64.rpm"
+RPM_HASH = "533177ef228da1382849b2935606ef8de4bdf429baab5f5a15b0908404c9dabbd4d47a0effea35a5c35d1c68429475a035501d56912390d90cdc911cb00f15fb"
 
 RPROVIDES:${PN} += "config-setroubleshoot-server \
 group-setroubleshoot \
-python3.11dist-setroubleshoot \
+python3.13dist-setroubleshoot \
 python3dist-setroubleshoot \
 setroubleshoot-server \
 user-setroubleshoot"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 audit \
 audit-libs-python3 \
@@ -34,10 +34,12 @@ python-abi \
 python3-dasbus \
 python3-dbus-python \
 python3-gobject \
-python3-libxml2 \
 python3-rpm \
 python3-selinux \
 python3-systemd \
-setroubleshoot-plugins"
+setroubleshoot-plugins \
+typelib-GLib \
+typelib-GObject \
+typelib-Gtk"
 
 inherit rpm

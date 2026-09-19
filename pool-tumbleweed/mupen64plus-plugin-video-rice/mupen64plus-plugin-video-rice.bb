@@ -4,10 +4,10 @@ Emulator. It provides a high-level graphics emulation with support for \
 high-resolution texture support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.9"
+PV = "2.6.0"
 
-RPM_NAME = "mupen64plus-plugin-video-rice-2.5.9-2.9.aarch64.rpm"
-RPM_HASH = "4b192333b3bd39124329716c726c8195a02d2a1a2ebf4f05751efeab2f4a6dc9ae479f82f16ab9760b603481af939fa96d3b8fe574179f02989a6a325d27b5a0"
+RPM_NAME = "mupen64plus-plugin-video-rice-2.6.0-3.6.aarch64.rpm"
+RPM_HASH = "ba0895d0ccd8c0568d36b4826839e205234cf4d297f905da4711d5a76d4264892dfd22fb3900b68dcd7994044aa379f92e9d5624c7a371eb5fe46868fb3e2ea0"
 
 RPROVIDES:${PN} += "mupen64plus-plugin-video \
 mupen64plus-plugin-video-rice"

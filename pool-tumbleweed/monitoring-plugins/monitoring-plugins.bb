@@ -7,10 +7,10 @@ running daemon. \
 This package contains those plugins."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "e9e0a129258b33c65ae57fdcbc244f8c39e3f928989cca329574176d05b0e00dfc349fd4a14d20b2f212294e3896fe6bb914cba5bb1ced76f4317438f88a8e91"
+RPM_NAME = "monitoring-plugins-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "f1a157c38c221a59de61cf3bdd7ac83272a0cd6e8a67ca3e5bc578e703421e0d31ddcb246d9d48762b25c47d551b89cead55ab7e0bdd1a76aeb5f26078aa8536"
 
 RPROVIDES:${PN} += "monitoring-plugins \
 nagios-plugins"

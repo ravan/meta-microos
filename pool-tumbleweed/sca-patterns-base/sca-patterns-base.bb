@@ -3,15 +3,16 @@ DESCRIPTION = "Supportconfig Analysis (SCA) appliance pattern base libraries use
 by all patterns"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.5.2"
+PV = "1.6.2"
 
-RPM_NAME = "sca-patterns-base-1.5.2-1.1.noarch.rpm"
-RPM_HASH = "566a9c6b130d5e033bcd693d7dc335c7c09615e4eeaee0dcbaf0c1be12df8479318075e4e5c4c7d11e62855e3db44eb373aaa85c2dc7d31b6aa238635511929a"
+RPM_NAME = "sca-patterns-base-1.6.2-1.4.noarch.rpm"
+RPM_HASH = "6135228168d8593bb26ac8963647a5b2065f44e585a92b90262988077874613ba8077ce66884b1928c384ef8cba64b13ab3ba49c197406576297368e8fdecb0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SDP--Core \
 perl-SDP--SUSE \
-sca-patterns-base"
+sca-patterns-base \
+sca-patterns-template-gen2"
 
 RDEPENDS:${PN} += "bash \
 perl \

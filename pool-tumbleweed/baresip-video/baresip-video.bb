@@ -19,10 +19,10 @@ This subpackage provides the modules that are needed for video \
 support."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.10.0"
+PV = "4.11.0"
 
-RPM_NAME = "baresip-video-2.10.0-1.10.aarch64.rpm"
-RPM_HASH = "116ad0e3879e91c857ac975376e754fab508f433ebcdaa75c5bd48d5bdd827f4c69ad8f9588e5359cb799c720d4f934f67852c74dfe96398addd90b44050ad38"
+RPM_NAME = "baresip-video-4.11.0-1.1.aarch64.rpm"
+RPM_HASH = "e992375247827d6052c6bd83587c5cdbb8ad58e62b206196105f97a5e2eab53d17cb3ae1ed06ad1b22ca750786d283641531f7c96e32631e9a8d89a97c5fe205"
 
 RPROVIDES:${PN} += "baresip-video"
 
@@ -32,16 +32,16 @@ libSDL2-2.0.so.0 \
 libX11.so.6 \
 libXext.so.6 \
 libaom.so.3 \
-libavcodec.so.60 \
-libavdevice.so.60 \
-libavfilter.so.9 \
-libavformat.so.60 \
-libavutil.so.58 \
+libavcodec.so.62 \
+libavdevice.so.62 \
+libavfilter.so.11 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libglib-2.0.so.0 \
 libgstreamer-1.0.so.0 \
-libswresample.so.4 \
-libswscale.so.7 \
-libvpx.so.8"
+libswresample.so.6 \
+libswscale.so.9 \
+libvpx.so.12"
 
 inherit rpm

@@ -5,13 +5,13 @@ connected to the I2C or SMBus buses of the system. \
 Python binding part."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3"
+PV = "4.4"
 
-RPM_NAME = "python3-smbus-4.3-3.1.aarch64.rpm"
-RPM_HASH = "0b2870a0e3db2bcfa411fac08b2b2db02566138d5fe6603b85eaf79b42d1fdb1b282c12f521a20a9692d5a76a58dce7330ebad8bc2f42015f8061f82695dd537"
+RPM_NAME = "python3-smbus-4.4-3.5.aarch64.rpm"
+RPM_HASH = "ac500b4d1e4590cdd5345b82f11f9e632685b4020d7e6230adc22a14f2f0961871916dc60f74ec398544a2bd6f270e7ed137964f8e25790b419aaee3a9be7c03"
 
 RPROVIDES:${PN} += "python3-smbus \
-python3.11dist-smbus \
+python3.13dist-smbus \
 python3dist-smbus"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

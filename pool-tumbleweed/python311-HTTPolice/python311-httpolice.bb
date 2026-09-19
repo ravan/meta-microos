@@ -6,12 +6,11 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "python311-HTTPolice-0.9.0-4.16.noarch.rpm"
-RPM_HASH = "cf3111dee9d225be6b0043e93ec255f2970db530f06f6e7b504cd0ca03640037683f51214693a861bbafb04134bd4ed176f09744078dd7a2e62944d521cc90ac"
+RPM_NAME = "python311-HTTPolice-0.9.0-5.3.noarch.rpm"
+RPM_HASH = "b322c841666905f89837828ff735700fb3cb4829d47650393132700eb58ab257fef59d23d75ad79bfe17d91b3aa7473628317d6f31ec498cfa23b1d68ca11505"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-HTTPolice \
-python3.11dist-httpolice \
+RPROVIDES:${PN} += "python3.11dist-httpolice \
 python311-HTTPolice \
 python3dist-httpolice"
 

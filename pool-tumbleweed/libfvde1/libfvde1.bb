@@ -2,10 +2,10 @@ SUMMARY = "Library to access the File Vault Drive Encryption format"
 DESCRIPTION = "The libfvde library is a library to access the File Vault Drive Encryption format"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220915"
+PV = "20240502"
 
-RPM_NAME = "libfvde1-20220915-4.1.aarch64.rpm"
-RPM_HASH = "67eacd118470b96bbea1497a8cb455ea986ad9636d5f7be6569558bc524865907a6f48e334480ff9a450cdf149ce84a6be9b4ebdabcd11a71e8f553bfa96c3aa"
+RPM_NAME = "libfvde1-20240502-2.20.aarch64.rpm"
+RPM_HASH = "f08120a14e21d636cdf16f83a3971ba31e116d9c5230efa7bbd24f10725c0457dcab966987d58a6601dc3cb81e471ebd5a0830ab7599a249d536a6dd6afd485f"
 
 RPROVIDES:${PN} += "libfvde.so.1 \
 libfvde1"

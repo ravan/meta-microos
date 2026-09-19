@@ -5,10 +5,10 @@ notifications for both the GNU Screen window manager and tmux \
 terminal multiplexer."
 LICENSE = "GPL-3.0-only"
 
-PV = "5.133"
+PV = "6.15"
 
-RPM_NAME = "byobu-5.133-2.14.noarch.rpm"
-RPM_HASH = "28a764cafff41ac1e4b40da0765ab973bc64a91ed94a9d38e8dee4e356093bff1a5aff8a070b301bc9a45c68314a1c208a4b1c5ea9855046e7af460da3b2ae34"
+RPM_NAME = "byobu-6.15-1.4.noarch.rpm"
+RPM_HASH = "645047880c80280eee7037132fa46cf7d01185640ff76bf1e39ff8fedee607a1da081368e72ee08b33e604db8017e8b8f1f12e4de5f2c198f4a70e95d9cd44c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "byobu \
@@ -22,8 +22,7 @@ coreutils \
 gawk \
 gettext-runtime \
 net-tools \
-perl--MODULE-COMPAT-5.38.0 \
-python3-newt \
-snack"
+perl--MODULE-COMPAT-5.44.0 \
+python3-newt"
 
 inherit rpm

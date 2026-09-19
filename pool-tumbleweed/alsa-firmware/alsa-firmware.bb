@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.4"
 
-RPM_NAME = "alsa-firmware-1.2.4-4.4.noarch.rpm"
-RPM_HASH = "b0506b33ac3d8284e5513577f50c4a695a721c4100b37cbf870bb6aa1293f78d9842ff658e5e0f7ad076151d4b9270252c02ae323461afcd8cbf0d078c7d17f6"
+RPM_NAME = "alsa-firmware-1.2.4-4.12.noarch.rpm"
+RPM_HASH = "26e616fdc687d42ef735bfad229e8330bdce52ce62d5b0b1687ee99ca1197dc00bc605c9114081e30b654e774a8838393cccddb38c9e69a17fdfa58bce1bd195"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alsa-firmware \

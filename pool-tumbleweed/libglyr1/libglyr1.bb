@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.10"
 
-RPM_NAME = "libglyr1-1.0.10-3.9.aarch64.rpm"
-RPM_HASH = "1c4f4878fb9ca25203843f846150ec44f524dd0dd62138fe99f7f42c2066c363bfb2b2d1bc1edf7b3df15f410dc7fed7ea90769920e6968c0f4381ea0dbe590e"
+RPM_NAME = "libglyr1-1.0.10-5.4.aarch64.rpm"
+RPM_HASH = "f4209962c4d69ea43cfcaaff2e2be924ea2955f219f2bcca366105d739d558fcbe5b3727c03a72d029bd7d432a5277def943d7f4c3d3eb28d0f004650062b9cb"
 
 RPROVIDES:${PN} += "libglyr.so.1 \
 libglyr1"

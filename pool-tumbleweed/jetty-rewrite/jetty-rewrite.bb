@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The rewrite module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.51"
+PV = "9.4.58"
 
-RPM_NAME = "jetty-rewrite-9.4.51-2.1.noarch.rpm"
-RPM_HASH = "c7745d17397bba75b4086cfa85a0841beba9b171a47ea636b6b6badd9a15b00f3236b694e4e3d88b1e22194eccee8959f57322f123ab60a98ed718e73485d22d"
+RPM_NAME = "jetty-rewrite-9.4.58-5.1.noarch.rpm"
+RPM_HASH = "2b3abc0166f48ea80cbbb69cc493e2bae509df9b823d7793ddd28f3612694683638597b590021b42241581b33b266266025abab3f4bc8e891a2d01adbd6cada6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-rewrite \

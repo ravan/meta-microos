@@ -5,22 +5,23 @@ which get fully instantiated on-the-fly in a fraction of a second when \
 you need to boot one of them."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.2"
+PV = "5.3.5"
 
-RPM_NAME = "supermin-5.2.2-4.4.aarch64.rpm"
-RPM_HASH = "008e96a4def0452d1a4627a7992a458a6efbb7ae1c29ab7a65e3c8c76302f7bfde96eeaf77868988deefb912299a711eb4e8cdd2c6fd21183a31918b200102d6"
+RPM_NAME = "supermin-5.3.5-5.1.aarch64.rpm"
+RPM_HASH = "e8d0b84aa02c0487530a6c9110ab8e7a8510f62b0b669feebee058227fe7943c3279c64fcc500a1fba465b5b9f6a593684193ff4ccb2a974feee5fd3b3075826"
 
 RPROVIDES:${PN} += "febootstrap \
 supermin"
 
 RDEPENDS:${PN} += "distribution-release \
+e2fsprogs \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcom-err.so.2 \
 libext2fs.so.2 \
 libm.so.6 \
-librpm.so.9 \
-librpmio.so.9 \
+librpm.so.10 \
+librpmio.so.10 \
 tar \
 xmlstarlet \
 zypper"

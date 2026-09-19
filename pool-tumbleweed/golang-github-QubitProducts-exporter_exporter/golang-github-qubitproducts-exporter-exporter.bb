@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0"
 
-RPM_NAME = "golang-github-QubitProducts-exporter_exporter-0.4.0-10.6.aarch64.rpm"
-RPM_HASH = "509ae930f3fb73f34267cd650e4e3cfa988a05fa09d784a84f88ababa00d44619c263a3e8ca948cdbf71bffb1040d67adae0db274730e570d3789342628f5f0d"
+RPM_NAME = "golang-github-QubitProducts-exporter_exporter-0.4.0-16.4.aarch64.rpm"
+RPM_HASH = "80c560a92c681ef490690f4ad618c000aa59ae59a8376563d2a816498eea4ede1c2110d81f4a109d8bb3d14a7c0492b4068cea645cadf41e5c59cc7c870a76b2"
 
 RPROVIDES:${PN} += "config-golang-github-QubitProducts-exporter-exporter \
 golang-github-QubitProducts-exporter-exporter"

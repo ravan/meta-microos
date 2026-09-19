@@ -5,10 +5,10 @@ documents. This allows SVG document to be fully self-contained be \
 rendered exactly the same on all systems."
 LICENSE = "Apache-2.0"
 
-PV = "1.15"
+PV = "1.18"
 
-RPM_NAME = "xmlgraphics-batik-ttf2svg-1.15-3.1.noarch.rpm"
-RPM_HASH = "41850f09131a0a101c04f57d8e807d9c1f97f144ce2011bdf69ff97444f9ee5097dba81ea38c497f1c50a852063a2347fa215737d30a22742d4cf6ae608b4265"
+RPM_NAME = "xmlgraphics-batik-ttf2svg-1.18-1.7.noarch.rpm"
+RPM_HASH = "07aa4bb20d7a0d1df3cf8b969412ef3adc87c4fe56aca2339365b5524de78c2a837bf51856bae1275cfec23c6607f0c7d3fbe047d7283ef9299aa63ec9116dd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-ttf2svg \
@@ -20,6 +20,12 @@ xmlgraphics-batik-ttf2svg"
 RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
-xmlgraphics-batik"
+javapackages-tools \
+mvn-org.apache.xmlgraphics-batik-shared-resources \
+mvn-org.apache.xmlgraphics-batik-svggen \
+rhino \
+xml-commons-apis \
+xmlgraphics-batik \
+xmlgraphics-commons"
 
 inherit rpm

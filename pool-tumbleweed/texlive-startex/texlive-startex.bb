@@ -5,10 +5,10 @@ for such a task. It is also more robust than plain TeX and \
 LaTeX."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.04svn35718"
+PV = "2026.226.1.04svn69742"
 
-RPM_NAME = "texlive-startex-2023.209.1.04svn35718-58.1.noarch.rpm"
-RPM_HASH = "98dc7391e4575c10eb314e4660fcefdd1f34e6239cb0b02c83884065f371f3e12b6c371c1274b602f57ee51c3a5e68d46721c7e645c88368b8230f02d04564e9"
+RPM_NAME = "texlive-startex-2026.226.1.04svn69742-64.2.noarch.rpm"
+RPM_HASH = "251a0bbe60cc89e6e98b4671a906bcda6cf89cfbc11e87884e6ebbabe19308e02a607e7b7b6b0b2e4fdd07dd312d7b07bad5113df5a2c3a7ee7e4c6657808e54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-startex.tex \

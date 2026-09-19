@@ -7,10 +7,10 @@ regarding the preparation of undergraduate theses, as of Sep 1, \
 is made for use under Linux (with a different sans-serif font)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn34295"
+PV = "2026.226.0.0.2svn34295"
 
-RPM_NAME = "texlive-dithesis-2023.209.0.0.2svn34295-53.1.noarch.rpm"
-RPM_HASH = "2a85af65c7a174d2defc526db884194ac8f49141e351607dfa7e4f5e747d35f6af5aee0d37f24eaa93b85401f51f9ad22aa9f0c16f0bf04a09af1c0cfc66f925"
+RPM_NAME = "texlive-dithesis-2026.226.0.0.2svn34295-59.2.noarch.rpm"
+RPM_HASH = "ecea2efc9204388cabef56f95a1897cd9995fe57b100a745b8f954bb6a956a9302f0776f686f37ff0e3fcfcf0ca5f8b1e23f737ce90205986b735597e8f0a4ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dithesis.cls \

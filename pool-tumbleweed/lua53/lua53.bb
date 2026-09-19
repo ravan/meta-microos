@@ -13,18 +13,18 @@ LICENSE = "MIT"
 
 PV = "5.3.6"
 
-RPM_NAME = "lua53-5.3.6-2.4.aarch64.rpm"
-RPM_HASH = "3be671cc5d0ecf7fd3ad522a6748a89137e6d95f82ac35bf54ad9a75e05358f622fcfce7c00e2f7e344bb7b0121e16f2db293eb8ffa1c089c8c35eb9c6d2077d"
+RPM_NAME = "lua53-5.3.6-4.7.aarch64.rpm"
+RPM_HASH = "49e7a004317feecf174bca4a22127ffc7b7c3252cd108e41099ec2a34d771087b14e4a16a4c4a9a2147c8f149d93b6450d387729a017d2e0f181f01a696f9a00"
 
 RPROVIDES:${PN} += "Lua-API \
 lua \
 lua53"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "alts \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblua5.3.so.5 \
 libreadline.so.8 \
-update-alternatives"
+lua-interpreter"
 
 inherit rpm

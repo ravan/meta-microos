@@ -9,10 +9,10 @@ Note: config.txt should not be used to set manually params (gpu_mem, etc.) \
 please create extraconfig.txt instead."
 LICENSE = "MIT"
 
-PV = "2023.04.25"
+PV = "2026.02.11"
 
-RPM_NAME = "raspberrypi-firmware-config-2023.04.25-2.1.noarch.rpm"
-RPM_HASH = "6d58f82689da5c73effbeee840526c00bcff9a3c7c84441e2e970a00c8ce31c12ef7632093bdfc36ac5ce0f0b9983ee2fc4a0213382bec9408d5744c1cb9c08c"
+RPM_NAME = "raspberrypi-firmware-config-2026.02.11-3.1.noarch.rpm"
+RPM_HASH = "7687cbd92ac667714a21173f9282d23e2ab2ecc88699486fd3a2275d36cf73a4d24635c68e4c7940898185082e5bbe26a5ceaf77163d5e164d3b48c5d7909776"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-raspberrypi-firmware-config \

@@ -7,10 +7,10 @@ when the board gets filled up all the way. \
 This package provides the binary, manual and data files for Five or More."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.32.3"
+PV = "48.1+6"
 
-RPM_NAME = "five-or-more-3.32.3-1.8.aarch64.rpm"
-RPM_HASH = "cc5cfdbf34c0ec78bcc4493c9f13299a728efc0abd5846fd542d464fd58a23c4cd3d8c8f7cf9da6184c416fd037e5de652029549491ac2cd1c33b6d8259ac839"
+RPM_NAME = "five-or-more-48.1+6-1.2.aarch64.rpm"
+RPM_HASH = "adf924f4060deda9011dfef87648e01b673028d8483859e1d5291b58e7a34ccc06cdee98d04404b023803350240291170e45e7ccc487d0d7238401d4b731dcf3"
 
 RPROVIDES:${PN} += "five-or-more"
 

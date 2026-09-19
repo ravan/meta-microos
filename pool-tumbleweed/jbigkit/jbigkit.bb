@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1"
 
-RPM_NAME = "jbigkit-2.1-4.5.aarch64.rpm"
-RPM_HASH = "10449a2ae6d72a61546d19f90971a434ccd3643c05166f58b1860d6aa3d0bd2acc7f8aeb1344f0b5b2aa936147cf2862bd51c5238a4a97ecb51ed1348cc23899"
+RPM_NAME = "jbigkit-2.1-5.11.aarch64.rpm"
+RPM_HASH = "2afbc3f763eac04357317c01e685a336606b57ccffeedc5fa7580b613a030265b797774d3cefa66eef7f34778bd8869b1f224a8ea2c25bfeb4733f15fc4f03a1"
 
 RPROVIDES:${PN} += "jbigkit"
 

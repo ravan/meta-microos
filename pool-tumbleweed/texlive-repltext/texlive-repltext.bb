@@ -5,10 +5,10 @@ for a piece of text, it is the replacement text, not the \
 typeset text that is copied and pasted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn56433"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-repltext-2023.209.1.1svn56433-54.2.noarch.rpm"
-RPM_HASH = "0a5404096d63157ad3332e0eab7a95b8ea43fea8fb7c075c4fee3b1fec0362e83f3e5c3655b2c78a0bc63a8bbec225119a399a2bab3b215ed8d2c1f8ba1897e6"
+RPM_NAME = "texlive-repltext-2026.226.1.1svn77682-60.4.noarch.rpm"
+RPM_HASH = "50a4cad9613dc04a56c6fdadb25643a1075fe0331270951cd857d13ea584e4c9de2a8b0774b4098528f817c0de928c04638fc9327f1e47b04d4e72a08eb73648"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-repltext.sty \

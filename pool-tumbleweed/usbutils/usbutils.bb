@@ -3,14 +3,14 @@ DESCRIPTION = "This package contains a utility for inspecting devices connected 
 ports."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "015"
+PV = "019"
 
-RPM_NAME = "usbutils-015-1.3.aarch64.rpm"
-RPM_HASH = "41d3b8a0b5b044e3e0e54aa655d20b69701c2f1c3f6baea6b1d4488e37e4ee47c61c96694e08133a12af17c629d233dc89da5a99b547f047e3e3ee46041f9b89"
+RPM_NAME = "usbutils-019-1.5.aarch64.rpm"
+RPM_HASH = "7e01b42d9f78c9eb9aeca0be8d3a99d1a76086016074818cb0dd8e3459f4fc05fa53fed6ecc7be24f38edfd6da59eb3dc4b1a6b9d3a645bffe9223a38066c81e"
 
 RPROVIDES:${PN} += "usbutils"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 hwdata \
 ld-linux-aarch64.so.1 \

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of adhocfilelist"
 DESCRIPTION = "Binary files of adhocfilelist"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn28038"
+PV = "2026.20260301.svn28038"
 
-RPM_NAME = "texlive-adhocfilelist-bin-2023.20230311.svn28038-93.2.aarch64.rpm"
-RPM_HASH = "4109b6cd221f3348322286f4fda0336406a034d4aabbdd0a42138a1e9db2a15e7341123e15ec5ee1a9398047f4f1fe92aa0dafd11466a034b6c7c09ec962b255"
+RPM_NAME = "texlive-adhocfilelist-bin-2026.20260301.svn28038-120.4.aarch64.rpm"
+RPM_HASH = "805db39c5c04143d4a8c66ec9238ed49e82253204223052467620ba2af0b6e02eaf0fe443a719d3e416b8cf67b00839764701f3be9233d6b998d61937f0d2970"
 
 RPROVIDES:${PN} += "texlive-adhocfilelist-bin"
 

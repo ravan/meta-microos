@@ -3,12 +3,14 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about SNMP."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-snmp-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "bfefb90769962218f6a43f8067561fc3fa1f37b725a56ae713416ca337cbec7b64c05c267862d7abd06a71a66d0815df966f418126128eaa81948a9404a9f1f8"
+RPM_NAME = "pcp-pmda-snmp-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "2cc8a01d7518fef51576e02cdfc2719a26fc6d3df5253a251a6ee56b7465e4a0c94d0a97a0957096a60a448be44b408a2b67ea4a5640ef1ec676c120803f3735"
+REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pcp-pmda-snmp"
+RPROVIDES:${PN} += "config-pcp-pmda-snmp \
+pcp-pmda-snmp"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 perl-Net--SNMP \

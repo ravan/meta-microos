@@ -12,26 +12,26 @@ update interval and custom storage parameters, Akregator's settings. \
  * Liferea: feeds list."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-newlife-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "782a74eade5f354fa37027b300bcce4c835c14e044c62f181441681412355f12f29de324c9be4958850cb29265c2582697a1ef9306a9f0f60aa8e12b12649912"
+RPM_NAME = "leechcraft-newlife-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "b1d30329e2e385560cb63150324eb9647fdde1f71d0d1d013de736afe4f37d0228a49ff9eb1916b263249cc424c3f3946b2239e4af91200f52936d0fd697a81c"
 
 RPROVIDES:${PN} += "leechcraft-newlife \
 libleechcraft-newlife.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

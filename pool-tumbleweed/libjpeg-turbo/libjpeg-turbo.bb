@@ -11,10 +11,10 @@ It also includes the following command line utilities: \
   tjbench - a JPEG decompression/compression benchmark"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.5.1"
+PV = "3.2.0"
 
-RPM_NAME = "libjpeg-turbo-2.1.5.1-76.1.aarch64.rpm"
-RPM_HASH = "fb32cf9ae2d0c03af6c52e24363af2ee747f9ad32c335aba7feb6e5ac099af81fd2c7b0022f3da22f90618e2415a2eaeb8dcdfc4d2ecbd059e17dc1612304d29"
+RPM_NAME = "libjpeg-turbo-3.2.0-85.1.aarch64.rpm"
+RPM_HASH = "64c0da10b52bb2dd87f1aa2c587e22c7911c292bd490232ef142aff19cdbe999a6084a54e3129502c2dafd35280bbeebf27ef0fa019a5bf43c2a77b3caff7dc5"
 
 RPROVIDES:${PN} += "jpeg \
 jpegtran \

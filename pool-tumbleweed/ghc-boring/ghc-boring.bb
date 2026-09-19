@@ -7,24 +7,23 @@ See [What does () mean in Haskell -answer by Conor \
 McBride](https://stackoverflow.com/questions/33112439/what-does-mean-in-haskell/33115522#33115522)."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.1"
+PV = "0.2.2.1"
 
-RPM_NAME = "ghc-boring-0.2.1-1.4.aarch64.rpm"
-RPM_HASH = "c5336cdb68b9a02ab3e6b54875063f59ec289c4543a9f5e9d46e4be1530163c12daf3751c0c9a2bdc5fd4123cc3b6f390f1acdf073a37fc60de38e604fc3df2a"
+RPM_NAME = "ghc-boring-0.2.2.1-1.3.aarch64.rpm"
+RPM_HASH = "ca9b96d12ded2fdc5d3030f10b3c77e81e22c88ced0e7ee9e389b64e821e6f5ae3c40e83021c59e0eeed0815e91274ea59c93ca61c8aeca6e96be4e5cc6a540f"
 
 RPROVIDES:${PN} += "ghc-boring \
-libHSboring-0.2.1-8UoR96J8uAp13B13xTdCnI-ghc9.4.6.so"
+libHSboring-0.2.2.1-8s8A4hTb7xgDndEEz6qoTw-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHStagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

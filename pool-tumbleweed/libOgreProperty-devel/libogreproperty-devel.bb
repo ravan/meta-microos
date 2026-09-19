@@ -4,16 +4,16 @@ DESCRIPTION = "OGRE (Object-Oriented Graphics Rendering Engine) is a scene-orien
 This package contains the development headers for the property component."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "libOgreProperty-devel-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "94c176a6222df77037ce38752f7258adaca25c7da646a5c2c93c53bcd9c91aa96eb0c68a83a6a151be1d0d51e1fac28228afba53b81be40e01b27b36d4ee52d1"
+RPM_NAME = "libOgreProperty-devel-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "a3e22db1a37194c4856789bb4ccb0813adb6c984840fd3bdfdc34d48c1d1f80ba6a10cf531d6ec1dffe2ce515ac91d960d0a9d2c4ca9cbf3de299acbba4861ef"
 
 RPROVIDES:${PN} += "libOgreProperty-devel \
 pkgconfig-OGRE-Property"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libOgreProperty13-5 \
+libOgreProperty13-6 \
 pkgconfig-OGRE"
 
 inherit rpm

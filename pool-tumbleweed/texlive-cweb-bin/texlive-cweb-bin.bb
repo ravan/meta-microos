@@ -2,14 +2,15 @@ SUMMARY = "Binary files of cweb"
 DESCRIPTION = "Binary files of cweb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-cweb-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "6e6e4f3633f70d410d79eae6dfde1f79b6a3d0a9f3a4cbf823d304b1df8debad8890f297b83cbc6953ff8dd5a1a45a9193f7c23a7627da74ec50984d48dc86b6"
+RPM_NAME = "texlive-cweb-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "fc380e74564ddbfe1053dee5b0966c73f7286f411dcb848d272c3c4f62c17793d7df5f0ebe8597b55b39ebf8fde49ff01d1c96ebacfdf5a6fa1bfc1d687b213f"
 
 RPROVIDES:${PN} += "texlive-cweb-bin"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libkpathsea.so.6 \
 texlive-cweb"

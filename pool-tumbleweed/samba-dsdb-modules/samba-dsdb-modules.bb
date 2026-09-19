@@ -3,61 +3,60 @@ DESCRIPTION = "This package contains plugins which add Active Directory features
 LDB library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "samba-dsdb-modules-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "03a341dbc5c8c7fe5608ca8663cc7faf7ef93366f0131beecc2388f22bc42db32bb58c8ad000ffa77821ccdea109aa78b9b5edee5770ff1818d0992b6575dbc1"
+RPM_NAME = "samba-dsdb-modules-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "063cad5d348d79fceb27b0311e08acb4a16dcc46f41e54c32518338a5c0e6b7fa8116ae13b71763a30574e46e2b184f28d178bcbde2ae9238d135acfa7763414"
 
 RPROVIDES:${PN} += "samba-dsdb-modules"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libMESSAGING-samba4.so \
-libauthkrb5-samba4.so \
+libMESSAGING-private-samba.so \
+libauthkrb5-private-samba.so \
 libc.so.6 \
-libcli-cldap-samba4.so \
-libcli-ldap-common-samba4.so \
+libcli-cldap-private-samba.so \
+libcli-ldap-common-private-samba.so \
 libcom-err.so.2 \
-libcommon-auth-samba4.so \
-libcrypt.so.1 \
-libdb-glue-samba4.so \
-libdbwrap-samba4.so \
+libcommon-auth-private-samba.so \
+libdb-glue-private-samba.so \
+libdbwrap-private-samba.so \
 libdcerpc-binding.so.0 \
-libdsdb-module-samba4.so \
-libevents-samba4.so \
-libflag-mapping-samba4.so \
-libgenrand-samba4.so \
+libdsdb-module-private-samba.so \
+libevents-private-samba.so \
+libflag-mapping-private-samba.so \
+libgenrand-private-samba.so \
 libgnutls.so.30 \
-libgpgme.so.11 \
+libgpgme.so.45 \
 libkrb5.so.3 \
-libkrb5samba-samba4.so \
+libkrb5samba-private-samba.so \
 libldb.so.2 \
 libldb2 \
-libldbsamba-samba4.so \
-libndr-samba-samba4.so \
-libndr-samba4.so \
-libndr.so.3 \
-libnetif-samba4.so \
-libreplace-samba4.so \
+libldbsamba-private-samba.so \
+libndr-samba-private-samba.so \
+libndr-samba4-private-samba.so \
+libndr.so.6 \
+libnetif-private-samba.so \
+libreplace-private-samba.so \
 libsamba-credentials.so.1 \
-libsamba-debug-samba4.so \
+libsamba-debug-private-samba.so \
 libsamba-errors.so.1 \
 libsamba-hostconfig.so.0 \
-libsamba-security-samba4.so \
-libsamba-sockets-samba4.so \
+libsamba-security-private-samba.so \
+libsamba-sockets-private-samba.so \
 libsamba-util.so.0 \
-libsamdb-common-samba4.so \
+libsamdb-common-private-samba.so \
 libsamdb.so.0 \
-libsecrets3-samba4.so \
-libsmbpasswdparser-samba4.so \
+libsecrets3-private-samba.so \
+libsmbpasswdparser-private-samba.so \
 libtalloc.so.2 \
-libtdb-wrap-samba4.so \
+libtdb-wrap-private-samba.so \
 libtdb.so.1 \
 libtevent-util.so.0 \
 libtevent.so.0 \
-libtime-basic-samba4.so \
-libutil-tdb-samba4.so \
+libutil-crypt-private-samba.so \
+libutil-tdb-private-samba.so \
 samba-ldb-ldap"
 
 inherit rpm

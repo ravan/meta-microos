@@ -7,12 +7,13 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of liblz4."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.9.4"
+PV = "1.10.0"
 
-RPM_NAME = "liblz4-devel-1.9.4-2.4.aarch64.rpm"
-RPM_HASH = "4e43fece155ed02ae467d5c46f080b34cdf10c4d1144e2ef5991bd5d1bebfb2196e5bfc2a6e34e0887673599471cd0fbe25ede73e7569962f12ee24b9512ab24"
+RPM_NAME = "liblz4-devel-1.10.0-2.10.aarch64.rpm"
+RPM_HASH = "ba4adf5e379e10adede334b5cc4bcb3df1e936bfd349f1edab3224ae55b18256ed6d466650758aac62b378e367c71bea46ac2d1b8c593a78c4b4abedf0a7aa6e"
 
-RPROVIDES:${PN} += "liblz4-devel \
+RPROVIDES:${PN} += "cmake-lz4 \
+liblz4-devel \
 pkgconfig-liblz4"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

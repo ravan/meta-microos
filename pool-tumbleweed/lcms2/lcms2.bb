@@ -7,10 +7,10 @@ regarding to color management. The ICC specification is widely used and is \
 referred to in many International and other de-facto standards."
 LICENSE = "MIT"
 
-PV = "2.15"
+PV = "2.19.1"
 
-RPM_NAME = "lcms2-2.15-1.1.aarch64.rpm"
-RPM_HASH = "247611c8e9066809a23cba96d1900ce202d237ad25369713cef79f824c21c372162c9564a2727aefcf57ce2dd63898819820fddf6bebe6cc2801f92e1f3b1736"
+RPM_NAME = "lcms2-2.19.1-1.3.aarch64.rpm"
+RPM_HASH = "834d7e3e8a0ed34220e4b2e861d2f40a1f9cd9ff01e415cda068a0b155464723ae2f172cc4b358bec23456b2c194ccdee9e054adba51ebb3b76008fb6b5baa34"
 
 RPROVIDES:${PN} += "lcms2"
 

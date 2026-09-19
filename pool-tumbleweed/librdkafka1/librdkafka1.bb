@@ -3,10 +3,10 @@ DESCRIPTION = "librdkafka is a C library implementation of the Apache Kafka prot
 containing both Producer and Consumer support."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.1.1"
+PV = "2.15.0"
 
-RPM_NAME = "librdkafka1-2.1.1-1.2.aarch64.rpm"
-RPM_HASH = "aa8b7198293a5ac37dab0dd8265a67ae3d8d900b6a9e5a7e91a9747f7296c3e46b28b8e1736827a0328dea905c7d15dc19b2aa8bf36e62ee56d2fde81518bb45"
+RPM_NAME = "librdkafka1-2.15.0-1.1.aarch64.rpm"
+RPM_HASH = "462d051eba7eb40576803766e3cda127fd81f953fd9accc5897c9eb531253b7ecaf992be9de29de44ba250f22a964ddeaf46a755d653c406632312dda566be70"
 
 RPROVIDES:${PN} += "librdkafka++.so.1 \
 librdkafka.so.1 \

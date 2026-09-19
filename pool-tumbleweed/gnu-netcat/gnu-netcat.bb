@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.1"
 
-RPM_NAME = "gnu-netcat-0.7.1-5.17.aarch64.rpm"
-RPM_HASH = "0cc7f317696f86103f0c51cb3ccf0d90cec65852078ce1f4302a0f59e670e8483196dbea38838d05bdc437dddceed7b6596dbba4647373febd76bfb74edda6b7"
+RPM_NAME = "gnu-netcat-0.7.1-5.27.aarch64.rpm"
+RPM_HASH = "7067cfa5bfde30f5bf2a918a34bcd7c16ebd22ef841b89d8ef161f9441da459a1db4f897d835f0003ad91f4df53fedfb4b7126c0779550577f35a45f0e84818b"
 
 RPROVIDES:${PN} += "gnu-netcat"
 

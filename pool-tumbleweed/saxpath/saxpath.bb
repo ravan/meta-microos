@@ -6,8 +6,8 @@ LICENSE = "Saxpath"
 
 PV = "1.0"
 
-RPM_NAME = "saxpath-1.0-1.1.noarch.rpm"
-RPM_HASH = "4540353cfa50806f217ee9c1de46e4d8cfd40ba7bf36038777f9f54370b56dcb5f02d851f1b6eb9ec76d4eb3d92c239766693661cb35fcbbe27e39fe441213da"
+RPM_NAME = "saxpath-1.0-2.8.noarch.rpm"
+RPM_HASH = "30ff09d67dc336c960d457463cf3d4c8ca528f6506acbdb1676330999f0b7f528031c4361cd56e47dc7586a24eea1104e892f98e4da51885e15cb4a08ca2f4ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-saxpath-saxpath \

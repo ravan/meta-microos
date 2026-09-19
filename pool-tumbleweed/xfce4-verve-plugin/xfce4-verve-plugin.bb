@@ -4,10 +4,10 @@ supports a command history, auto-completion, keyboard-shortcut focus grabbing an
 opening URLs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "xfce4-verve-plugin-2.0.3-1.1.aarch64.rpm"
-RPM_HASH = "ce859542269f13c768bf70b8c1cdf97957ba639deb8675f2341f591bd4b06689dd37bdbca151f38fe0341574e5c5fba4edecc0115c5edaba2f9d6412408bc0bb"
+RPM_NAME = "xfce4-verve-plugin-2.1.0-1.4.aarch64.rpm"
+RPM_HASH = "8b3c202b0e683fd16eb048206cb3bfee5181059dd5c4d1c1413ee5c7e77b5cf329c67e4a68384385f7691bfda2ad71995e699b6fca3581bb5823df91ffe6920a"
 
 RPROVIDES:${PN} += "libverve.so \
 xfce4-panel-plugin-verve \

@@ -3,16 +3,16 @@ DESCRIPTION = "This package contains the development files for pcsc-lite. It all
 compile plugins for the pcsc-lite package."
 LICENSE = "BSD-3-Clause & GPL-3.0-or-later"
 
-PV = "2.0.0"
+PV = "2.3.3"
 
-RPM_NAME = "pcsc-lite-devel-2.0.0-1.1.aarch64.rpm"
-RPM_HASH = "eb573052df065fb8b6a309392714e609ad6e4c07cde3c38ac5f43263cdfeba3407d628cf06f1b80e58c30ff82b984c2fcbb7d3ada857b63f667cc75298f2979f"
+RPM_NAME = "pcsc-lite-devel-2.3.3-2.4.aarch64.rpm"
+RPM_HASH = "1437b1e4abf335011956111690b43d55db3580d10b07159ed0cb0ce3e04da6d5939c70d2bb31e54fa331d8cb97120413a31d4543d363948384d124441f9ab6da"
 
 RPROVIDES:${PN} += "pcsc-lite-devel \
 pkgconfig-libpcsclite"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 glibc-devel \
 libpcsclite1 \
 libpcscspy0 \

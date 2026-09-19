@@ -7,10 +7,10 @@ GBM is intended to be used as a native platform for EGL on drm or \
 openwfd."
 LICENSE = "MIT"
 
-PV = "23.1.7"
+PV = "26.2.2"
 
-RPM_NAME = "libgbm1-23.1.7-357.1.aarch64.rpm"
-RPM_HASH = "e795ee5b29c0553dbb0fbf1255ee0c93ab879de03c48a2ca984a91c6ffe8c220c1e2d225c40d45517f27ec6e0bae7049a757b017fa39314e2721d42fb7ec2b80"
+RPM_NAME = "libgbm1-26.2.2-2.1.aarch64.rpm"
+RPM_HASH = "2b6cd117fe25ce944ff01bf84cd9105366bf3dd52f1a64a6c607de07c67d85d4d846ea8890a97133985dcbe223326547246a287c8bbf1fdec6ae61f59339ffd8"
 
 RPROVIDES:${PN} += "libgbm.so.1 \
 libgbm1"
@@ -18,9 +18,6 @@ libgbm1"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libdrm.so.2 \
-libm.so.6 \
-libwayland-server.so.0 \
-libxcb-randr.so.0"
+libdrm.so.2"
 
 inherit rpm

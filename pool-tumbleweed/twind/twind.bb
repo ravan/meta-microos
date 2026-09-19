@@ -17,16 +17,17 @@ Shortcut Keys Used During the Game \
  q, Esc - quit the game \
  s - turn sound effects on/off (can be used anywhere) \
  0 - 9 - toggle the L & R colors on Insane mode (can be used anywhere)"
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
 PV = "1.1.0"
 
-RPM_NAME = "twind-1.1.0-3.26.aarch64.rpm"
-RPM_HASH = "3918ffe647ca4335b2fe4580a947031cf2e08aa2546a9d837f1716fcd11e60aadc9af7cd94fdc42274b348a18412c43caadbb746d5ca43ca545f42d3ced58cbd"
+RPM_NAME = "twind-1.1.0-5.6.aarch64.rpm"
+RPM_HASH = "6f61f9262e095241605d478abee99be96aa0177c9850a845c2820b8b1a69bbcbd2fcd81610954e158cd1557784b5446e4f569bff2a0676edadea8805ef3a13c3"
 
 RPROVIDES:${PN} += "twind"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-games \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
 libSDL-image-1.2.so.0 \

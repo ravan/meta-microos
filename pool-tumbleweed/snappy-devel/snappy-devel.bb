@@ -6,10 +6,10 @@ aims for high speeds and reasonable compression. \
 This package holds the development files for snappy."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.9"
+PV = "1.2.2"
 
-RPM_NAME = "snappy-devel-1.1.9-2.9.aarch64.rpm"
-RPM_HASH = "37c4c4ee823a3a465a1d113f5507e166424788164a84901a3c65eb8279f8d4cc2d192b3ebd9afb20933ad1c20de1daf4fcda24cb540b17019ad7ab55e8cca2a3"
+RPM_NAME = "snappy-devel-1.2.2-1.5.aarch64.rpm"
+RPM_HASH = "127b423b9185f28c486021aed891d509f9a32b8974cba8a2292cdc7730e03827c4c32dd5e3a79a35550fdaaab19c7356b19d15122ebff80728ee40e3ac53f89b"
 
 RPROVIDES:${PN} += "cmake-Snappy \
 pkgconfig-snappy \

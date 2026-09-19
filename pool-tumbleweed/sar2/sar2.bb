@@ -8,10 +8,10 @@ gameplay where the player needs to locate, pick-up and rescue victims of all \
 sorts in steep mountains, burning buildings or in the sea."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.5.0"
+PV = "2.6.0"
 
-RPM_NAME = "sar2-2.5.0-2.4.aarch64.rpm"
-RPM_HASH = "c423b8365af2108d818fcf73cded9c39a4f0aac9c82245b216a4752200f105a50f1ce9c2654f6b05ee6106a1c342e5e4c3c5236497d9cabdd4b15c149103c4c6"
+RPM_NAME = "sar2-2.6.0-2.4.aarch64.rpm"
+RPM_HASH = "a78f96b9f1585e64bb8f3a67d88ffb76562e195434018f694dbe53d66c15a1cc153117325644fcb5ad88393912245b049823a8a4397880e412f24a604c385f99"
 
 RPROVIDES:${PN} += "sar2"
 
@@ -30,6 +30,7 @@ libalut.so.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
+libmvec.so.1 \
 libopenal.so.1 \
 libstdc++.so.6 \
 libvorbisfile.so.3 \

@@ -2,10 +2,10 @@ SUMMARY = "LDAP Module for ProFTPD"
 DESCRIPTION = "This is the LDAP Module for ProFTPD"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.7f"
+PV = "1.3.9c"
 
-RPM_NAME = "proftpd-ldap-1.3.7f-1.4.aarch64.rpm"
-RPM_HASH = "b89211fecce54ce8c269053da3844b690ce4add9ede4e14c249a2741617a701e1e237563b03c87a0cf1868a75709f485c16875d9bb54a1d7c0c36f48b482c6dd"
+RPM_NAME = "proftpd-ldap-1.3.9c-2.1.aarch64.rpm"
+RPM_HASH = "19707183988aff1c36d24d75ae7cfff49163ad9a69cbdc7befda20c56e13f7f8b0c46f81d389aa036ce44e96cbd17bbf5b88a9edf2376bb89edab62621bb5efe"
 
 RPROVIDES:${PN} += "proftpd-ldap"
 

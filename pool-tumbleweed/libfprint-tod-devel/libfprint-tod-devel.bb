@@ -4,10 +4,10 @@ for libfprint. If you like to develop programs using libfprint, you \
 will need to install this package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.94.6+tod1"
+PV = "1.94.10+tod1"
 
-RPM_NAME = "libfprint-tod-devel-1.94.6+tod1-1.1.aarch64.rpm"
-RPM_HASH = "adfbc6f82210e847516b6cb46846ea149c2c2ada49b510081ff3c738d1c163c00eb6d574363d87426254e42e642edb64081c6997826d69064d3377f53f63898e"
+RPM_NAME = "libfprint-tod-devel-1.94.10+tod1-3.1.aarch64.rpm"
+RPM_HASH = "64b23d31344457f9710a5dd080f5139c40154204ba1dd09a18a001ee52a5c921849fa4e2fcae9916e14c87ac5451dafc6b4470c12632ed39cbbcce713f208250"
 
 RPROVIDES:${PN} += "libfprint-tod-devel \
 pkgconfig-libfprint-2-tod-1"

@@ -6,17 +6,17 @@ provides itself as well as the features. SCons allows you to use the \
 full power of Python to control compilation."
 LICENSE = "MIT"
 
-PV = "4.5.2"
+PV = "4.10.1"
 
-RPM_NAME = "scons-4.5.2-1.2.noarch.rpm"
-RPM_HASH = "0aafdff33af9ac40cef64a0afa4510fa8074eaa81f099e51abc471a50571c21247b1fdca0057e013a10b1015b5af70aad01ee1cb87e4bb9060039e06dc2f5c52"
+RPM_NAME = "scons-4.10.1-4.1.noarch.rpm"
+RPM_HASH = "09cf8a40f0463e6c7a1a20e6d949720d591669fcbcd03a831aef914be313585cf71b8b23c487d9e4d6ec80fa1d61d65d7eebb71ca7666f6fbff40a005080eca4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-scons \
+RPROVIDES:${PN} += "python3.13dist-scons \
 python3dist-scons \
 scons"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi"
 
 inherit rpm

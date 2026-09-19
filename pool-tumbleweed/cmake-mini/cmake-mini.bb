@@ -2,13 +2,17 @@ SUMMARY = "Cross-platform make system"
 DESCRIPTION = "CMake is a cross-platform build system."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.27.2"
+PV = "4.4.3"
 
-RPM_NAME = "cmake-mini-3.27.2-1.1.aarch64.rpm"
-RPM_HASH = "a88f2681598255ed63ee1900d202de3e71e6bfa3d4c54677502d13b5336e08b37ff81ad7133b56bd24bebdc0e0acc41b3f7fb40e70abebe06636080a2e89f55d"
+RPM_NAME = "cmake-mini-4.4.3-1.1.aarch64.rpm"
+RPM_HASH = "41580618f6d8f9fe36ec7b07275f863ad51c4491e367555224b81ba53419200e19caa9cedbaddb49d4a2a63557297e2b2515244dbd19f0a7d91abacd6abbf340"
 
 RPROVIDES:${PN} += "cmake-implementation \
 cmake-mini \
+rpm-macro-buildsystem-cmake-build \
+rpm-macro-buildsystem-cmake-check \
+rpm-macro-buildsystem-cmake-conf \
+rpm-macro-buildsystem-cmake-install \
 rpm-macro-cmake \
 rpm-macro-cmake-build \
 rpm-macro-cmake-install \
@@ -31,6 +35,7 @@ libssl.so.3 \
 libstdc++.so.6 \
 libtinfo.so.6 \
 libuv.so.1 \
+libuv1 \
 libz.so.1 \
 libzstd.so.1 \
 make \

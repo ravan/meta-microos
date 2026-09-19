@@ -7,10 +7,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-i386-gcc7-7.5.0+r278197-14.2.aarch64.rpm"
-RPM_HASH = "dc70ac16042cec65488f5f0835ab79f0edebd65588d4cce64d7c473b058e182b7b0eae0d82bb33db0ee296662e62679a4a9fda7327099781dc28b266b86a6bf7"
+RPM_NAME = "cross-i386-gcc7-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "929014f1bdbbf5f2530d54bd13d41314ae73588a905cad0ed30d41717c12754f204048b0e10434138dff7166334c716955fcc7b7c62e26785299217e3fad8646"
 
 RPROVIDES:${PN} += "cross-i386-gcc7 \
+i586-suse-linux-gcc \
 liblto-plugin.so.0"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

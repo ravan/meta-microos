@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0rc9"
 
-RPM_NAME = "libtinyobjloader2-2.0.0rc9-1.5.aarch64.rpm"
-RPM_HASH = "93968bf273ad9729f6c045dfa28e3147850a32031edf0260d0dbd4b5c6a5443ea8084f826ab81eb917d8d096a92f26c77f4913038ef8bdb6b0b8e4bad6c542a9"
+RPM_NAME = "libtinyobjloader2-2.0.0rc9-3.5.aarch64.rpm"
+RPM_HASH = "2ec468da42b8be6a33a3a5a9b9fae363a2196274d82412cf3f672f003ca46c54cfe07025a476d1fc2b9665e85a6f01f52e5ae0191167b8d09d5496df406ffb36"
 
 RPROVIDES:${PN} += "libtinyobjloader.so.2 \
 libtinyobjloader2"

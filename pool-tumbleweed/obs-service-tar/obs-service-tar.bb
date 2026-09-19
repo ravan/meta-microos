@@ -2,10 +2,10 @@ SUMMARY = "Creates a tar archive from local directory"
 DESCRIPTION = "Creates a tar archive from local directory"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.41"
+PV = "0.12.4"
 
-RPM_NAME = "obs-service-tar-0.10.41-1.1.noarch.rpm"
-RPM_HASH = "9741658b93507c68ff9538f6986ccf7ea4f1f293cec7f09f0b871ad65d1167244991a7dba252d26a9c6c0788563ec6ddb3b54bc4d852d9c4d3071c4d4df97eb9"
+RPM_NAME = "obs-service-tar-0.12.4-1.1.noarch.rpm"
+RPM_HASH = "399c6e75982d284c65e1b1a9fb22b7faabe9d7cff51eb1d4099e9f888c38720d9084fd5250d7fd25cbfee576a17760fa170d006cb5c6d692133945a244bc065c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-tar \

@@ -3,16 +3,17 @@ DESCRIPTION = "This package provides private headers of libQt6HttpServer that do
 ABI or API guarantees."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-httpserver-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "a0eb7c7b33f4afdb9c0926491ed7d193d291970533f6687466727a9b5b713a411a9e82af304a95eb51079e8c7a664f7f2859ad69dd8c868f017819549f10476e"
+RPM_NAME = "qt6-httpserver-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "28c8d873edf82a8bd194685b31d577eda9bbe7f4c000207c653250ed5dcc77e21ab0421cbea534874a06aeac1912de7835f0f71dcfb8a56058262ad3d885dde7"
 
-RPROVIDES:${PN} += "qt6-httpserver-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6HttpServerPrivate \
+qt6-httpserver-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6HttpServer \
-qt6-core-private-devel \
-qt6-network-private-devel \
-qt6-websockets-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate \
+cmake-Qt6HttpServer \
+cmake-Qt6NetworkPrivate \
+cmake-Qt6WebSocketsPrivate"
 
 inherit rpm

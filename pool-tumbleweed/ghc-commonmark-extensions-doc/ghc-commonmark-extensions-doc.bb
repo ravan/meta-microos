@@ -2,10 +2,10 @@ SUMMARY = "Haskell commonmark-extensions library documentation"
 DESCRIPTION = "This package provides the Haskell commonmark-extensions library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.3.5"
+PV = "0.2.7"
 
-RPM_NAME = "ghc-commonmark-extensions-doc-0.2.3.5-1.4.noarch.rpm"
-RPM_HASH = "94ff023654178ce4ca2216d594a279b1c76c7ebbccdac609e7ab648de6831cfecc9326754b57b021b3e0b1ecd4d8231b4f3fe396ad08dbf186ee9c949b2be648"
+RPM_NAME = "ghc-commonmark-extensions-doc-0.2.7-1.2.noarch.rpm"
+RPM_HASH = "862f02f08434b1a9c0448d2037ac693501a15516f3cfa24c2f1a387f271442d3fcdb9667098eb3223e210ded6bc537b16c7695366df68398f973a9e67ae8f57d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-commonmark-extensions-doc"

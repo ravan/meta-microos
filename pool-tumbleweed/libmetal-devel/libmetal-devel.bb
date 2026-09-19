@@ -3,13 +3,13 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "BSD-3-Clause"
 
-PV = "2020.10.0"
+PV = "2025.04.0"
 
-RPM_NAME = "libmetal-devel-2020.10.0-1.3.aarch64.rpm"
-RPM_HASH = "c395fe77a3312f2686820352b12c9de7e9104f0831ee5e7ea9fcf7b9cd5b53ab73d0a4429727f7bef8768ccc8c160b74f67809552678b4c71f875c164bc2fc9b"
+RPM_NAME = "libmetal-devel-2025.04.0-1.5.aarch64.rpm"
+RPM_HASH = "6b40c7a08238955c5fd009ec7cbb62fa67aed946568480774dd06614518a7bec14d5c11f0082462d1b1e479a228e84c13e0a6f32acee9570035df65f1a596b4e"
 
 RPROVIDES:${PN} += "libmetal-devel"
 
-RDEPENDS:${PN} += "libmetal0"
+RDEPENDS:${PN} += "libmetal1"
 
 inherit rpm

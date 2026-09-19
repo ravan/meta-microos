@@ -7,10 +7,10 @@ audio, graphical rendering (RDP), the signal co-processor (RSP), and input. \
 This package contains the shared library interface for Mupen64plus frontends."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.9"
+PV = "2.6.0"
 
-RPM_NAME = "libmupen64plus2-2.5.9-2.9.aarch64.rpm"
-RPM_HASH = "0465d00825b68393f2bc1840dd4d866f2438a6bac66de5911bcb07bb094e30d178d9c582482a7eb77c9cb0b3cee65679128f465287e0a36de79c5a875c358247"
+RPM_NAME = "libmupen64plus2-2.6.0-3.6.aarch64.rpm"
+RPM_HASH = "273206eca345854e4aab3c0d4d95d8cee25bb11c4e4656fe595acb80a101a912fef3cda2a6b71c953b9ed9e694069fd446f6f3ae20f4c77ecc4258db9816359e"
 
 RPROVIDES:${PN} += "libmupen64plus.so.2 \
 libmupen64plus2"

@@ -1,16 +1,16 @@
-SUMMARY = "Development files for libvidstab1_1"
-DESCRIPTION = "Development (headers and libraries) files for libvidstab1_1."
+SUMMARY = "Development files for libvidstab1_2"
+DESCRIPTION = "Development (headers and libraries) files for libvidstab1_2."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.0"
+PV = "1.1.1"
 
-RPM_NAME = "libvidstab-devel-1.1.0-2.20.aarch64.rpm"
-RPM_HASH = "887634f45c10a05c40453f993217cbe843f3c82571ce39482ee397b96e287dddf0f8e9f93356ee92162e00420267a4917bd97630883d005799c8dc1be2844989"
+RPM_NAME = "libvidstab-devel-1.1.1-2.5.aarch64.rpm"
+RPM_HASH = "021fc3deb8b7f40070c93973c7fd054ef5f74620bacf69de7192c92a363cf1a9e2ca7c365fc429d6eae666d1af83d0fb8fc797e49204a7a85819061664eeb6e2"
 
 RPROVIDES:${PN} += "libvidstab-devel \
 pkgconfig-vidstab"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libvidstab1-1"
+libvidstab1-2"
 
 inherit rpm

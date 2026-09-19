@@ -15,10 +15,10 @@ DESCRIPTION = "A collection of Java libraries: - Unix Sockets Library This is a 
 - Hexdump This class formats byte-arrays in hex and ascii for display."
 LICENSE = "MIT"
 
-PV = "0.8"
+PV = "0.8.1"
 
-RPM_NAME = "matthewlib-java-javadoc-0.8-13.7.aarch64.rpm"
-RPM_HASH = "e60e1e110f0cc8b8b8b6d4aaf229caeff19c1f5495902b77eb30c4880c2cfb83c000264d2410c95608f67cf555d764b5a2e06c1a987d282d7f7d78fe6ce65124"
+RPM_NAME = "matthewlib-java-javadoc-0.8.1-1.11.aarch64.rpm"
+RPM_HASH = "05525a3be3c146e36294c06a3f87ab5870af4a8e24c8f5aac49096e74d41640fd713603839f5aa1273d79dafd497b4fdd2940766720a197f0dfd018efff3e793"
 
 RPROVIDES:${PN} += "matthewlib-java-javadoc"
 

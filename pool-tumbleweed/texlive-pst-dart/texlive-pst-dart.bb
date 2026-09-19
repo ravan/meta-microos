@@ -3,10 +3,10 @@ DESCRIPTION = "pst-dart is a PSTricks related package and draws Dart Boards. \
 Optional arguments are the unit and the fontsize."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.03svn60476"
+PV = "2026.226.0.0.03svn60476"
 
-RPM_NAME = "texlive-pst-dart-2023.209.0.0.03svn60476-53.1.noarch.rpm"
-RPM_HASH = "bf1718cc0bc870fba64bbdfd6dfecd36fdf54f5f2ab00eb64fdf70e21abea5f2575a3f518c3f851bee551782be6227e0471432a9c8b036ca7f63d52d8d724fa1"
+RPM_NAME = "texlive-pst-dart-2026.226.0.0.03svn60476-59.2.noarch.rpm"
+RPM_HASH = "a5e2b9a2830ff843bca625ea5e63911fbc2cf54fa2052abba41ee0375f20ea0bf3b27cf91ef7fe204fffac27975fa8a823f04a05f9710971ffd410647ebaaae2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-dart.sty \

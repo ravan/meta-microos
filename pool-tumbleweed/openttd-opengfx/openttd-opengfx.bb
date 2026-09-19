@@ -5,10 +5,10 @@ OpenGFX provides a set of free and open source base graphics, and aims to \
 ensure the best possible out-of-the-box experience with OpenTTD."
 LICENSE = "GPL-2.0-only"
 
-PV = "7.1"
+PV = "8.0"
 
-RPM_NAME = "openttd-opengfx-7.1-1.6.noarch.rpm"
-RPM_HASH = "2f6b352560ad8b5c5b075dbe058541378d9d08646a4407be3db3420ec6d7e29d7cfd897adb96ea76b90aa046f621fc225b63af8591d2348a00675a0818327847"
+RPM_NAME = "openttd-opengfx-8.0-1.3.noarch.rpm"
+RPM_HASH = "7f671fbb42e58c53871b3ec51869402ff06dd8ce281992f9698801e4c909a67718ac3947ea8a8709071a19566ac03bbe67d3d98e5f36ea44cbbcdb8f928ed604"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opengfx \

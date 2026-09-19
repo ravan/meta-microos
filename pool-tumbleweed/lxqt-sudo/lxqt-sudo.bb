@@ -6,19 +6,19 @@ arguments). If sudo requests user's password, the GUI password dialog is shown \
 and (after submit) the password is provided to sudo."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "lxqt-sudo-1.3.0-1.2.aarch64.rpm"
-RPM_HASH = "968dfbb8f45f89498b8db597fba60adb19f1d6ac3140b8d842b331d48308141b7ece94a84907ce014646885c4b64156a413260ee2f1374624430f39b1990e8a4"
+RPM_NAME = "lxqt-sudo-2.4.0-1.2.aarch64.rpm"
+RPM_HASH = "b0aaece2b5b4e22cc43ec3a032f1f278d3b7272a7cf340a04a3eac240af741cdc588acd11eaceaf03e9dd5d29dae64df0572e95f9e549c897f0b72d8aa0d9a03"
 
 RPROVIDES:${PN} += "lxqt-sudo"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-liblxqt.so.1 \
+liblxqt.so.2 \
 libstdc++.so.6 \
 sudo"
 

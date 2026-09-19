@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.4.2"
 
-RPM_NAME = "libclthreads2-2.4.2-2.11.aarch64.rpm"
-RPM_HASH = "718040a574fe93b1fba9ae21b186b396993be125bae97e464e304624a1f61d33a421e80f4912decd4755c9ad2addeb37ac8375197bd35ba603c6c38e28c46653"
+RPM_NAME = "libclthreads2-2.4.2-3.9.aarch64.rpm"
+RPM_HASH = "061cf504c2a1a7309fb1a17a8e5a9ae2ee23a6a2f0953447e1415a641d20075bc1bd7d05012bfcaadc0786de5cf42388732305e40039ff5bea81799f1f063af8"
 
 RPROVIDES:${PN} += "libclthreads.so.2 \
 libclthreads2"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-yfonts-otf"
 DESCRIPTION = "This package includes the documentation for texlive-yfonts-otf"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.43svn65030"
+PV = "2026.226.0.0.61svn77682"
 
-RPM_NAME = "texlive-yfonts-otf-doc-2023.209.0.0.43svn65030-53.2.noarch.rpm"
-RPM_HASH = "c64680247af144a57507e32bc01dc1ba1351740cc8fea5a1454896cab8f0b3a2c7e2fe07e8a520ec3e7b91730c9994eccd65770d3293dbc7ea3c12cb1bfbb86c"
+RPM_NAME = "texlive-yfonts-otf-doc-2026.226.0.0.61svn77682-59.4.noarch.rpm"
+RPM_HASH = "a48a17918efb6693b2ced65924c609adaebf769cf67e943f8cfdcda696e5cffb3e1abe0fe34494bc92d133e2a2eb1913aef086aeac95b382fd14507d9f8a32d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yfonts-otf-doc"

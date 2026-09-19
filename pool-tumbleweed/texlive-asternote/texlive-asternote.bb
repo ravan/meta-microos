@@ -3,10 +3,10 @@ DESCRIPTION = "This LaTeX package can output annotation symbols enclosed in \
 square brackets and marked with an asterisk."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn63838"
+PV = "2026.226.1.1svn63838"
 
-RPM_NAME = "texlive-asternote-2023.209.1.1svn63838-54.1.noarch.rpm"
-RPM_HASH = "264b9befa817114a807c324bf87bd7a64e82ce7f9c3685c2c3e8f01599613667c2ccee186d169f7c88366d9408b5c8490d537b46bfdecf5939dabdad8a06f517"
+RPM_NAME = "texlive-asternote-2026.226.1.1svn63838-60.2.noarch.rpm"
+RPM_HASH = "318d54f8b9957a3f83763c529b02c02426117ff884eb926fc1b5a10f58b69fd39b195835dab01cc7154205f8c1a5041d34008a984b9ad53e4cd623a0ec9b5e72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asternote.sty \

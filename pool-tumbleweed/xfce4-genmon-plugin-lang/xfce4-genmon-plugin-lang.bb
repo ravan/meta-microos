@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-genmon-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-genmon-plugin' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.2.0"
+PV = "4.3.0"
 
-RPM_NAME = "xfce4-genmon-plugin-lang-4.2.0-1.1.noarch.rpm"
-RPM_HASH = "66c4f34df4458dd3ddcd2ee45565789ed7feb66ebe0e3f02dfc94cfb2e0a235ac4e1b719aee4db50b9651f029b4ba446d461f28c43da2eac2a10d5a34e058760"
+RPM_NAME = "xfce4-genmon-plugin-lang-4.3.0-1.4.noarch.rpm"
+RPM_HASH = "c7ae837a48ef7bfa1240b43b279b0fac4aa14a2bf4bd2d93d9eeccffd47bffae42cb4e4b7fcb9045d8aebbbe4537536d3c00792e4a426b4cbc80434269e3b65c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-genmon-plugin-ar \
@@ -43,6 +43,7 @@ locale-xfce4-genmon-plugin-oc \
 locale-xfce4-genmon-plugin-pl \
 locale-xfce4-genmon-plugin-pt \
 locale-xfce4-genmon-plugin-pt-BR \
+locale-xfce4-genmon-plugin-ro \
 locale-xfce4-genmon-plugin-ru \
 locale-xfce4-genmon-plugin-sk \
 locale-xfce4-genmon-plugin-sl \

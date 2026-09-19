@@ -7,12 +7,12 @@ PCRE2 is a re-working of the original PCRE library to provide an entirely new \
 API. \
  \
 pcre2-posix provides a POSIX-compatible API to the PCRE2 engine."
-LICENSE = "BSD-3-Clause"
+LICENSE = "BSD-2-Clause & BSD-3-Clause-with-PCRE2-exception"
 
-PV = "10.42"
+PV = "10.48"
 
-RPM_NAME = "libpcre2-posix3-10.42-3.5.aarch64.rpm"
-RPM_HASH = "731970de0da2cad44dfa08435605f7d1b871e18ad9c3971718486c89ddfb3ace7c4b7b3af1f7fc2be8c5aa56f6dbc2a46c48cd8ffaf42bee6d9bb300a99a0f29"
+RPM_NAME = "libpcre2-posix3-10.48-1.1.aarch64.rpm"
+RPM_HASH = "177f4a4b17aaf91d7e626b41804623d27f90d7037701dea0bda3558aec9c0a64cb0a7e46ed2a9172c9e6744cd237c99583796a5953475dfa23fee74929493854"
 
 RPROVIDES:${PN} += "libpcre2-posix.so.3 \
 libpcre2-posix3"

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.6"
 
-RPM_NAME = "beforelight-1.0.6-1.3.aarch64.rpm"
-RPM_HASH = "029fb4172546be067943407f5bfe9a92f28b7a831ebf787c755112db725de9e4df3fa7caab8312791bb0b5155833a9df5ae0118f96153ad918df0e6b856cc4c5"
+RPM_NAME = "beforelight-1.0.6-1.13.aarch64.rpm"
+RPM_HASH = "6a6fd2dbf23a1d3e2222240151844e621a65d4c101f67a507c78632b81b6a4c308d1ead5f8beedaa2ff31afaa4bab02a76570b11e3b2a448dc71c2318097c6b3"
 
 RPROVIDES:${PN} += "beforelight"
 

@@ -6,10 +6,10 @@ This package provides a plugin for accessing content from a DLNA \
 (dLeyna) provider."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.16"
+PV = "0.3.18"
 
-RPM_NAME = "grilo-plugin-dleyna-0.3.16-1.2.aarch64.rpm"
-RPM_HASH = "64a94c04a722c3d81d24cafe1f39d5545a30048845fa060b5d483b9eddff496791e8d75a2b0bf3001418626a8387b24686cc7cba64555c72618b133155de108c"
+RPM_NAME = "grilo-plugin-dleyna-0.3.18-2.3.aarch64.rpm"
+RPM_HASH = "f2acee7f06c358a4e095209e8db3c4ba451514be9c9cb028c5c6399558eb59a118e5417c92b3bc2f28d750a02f7004d8443011fd1fa566116e845252ea0c5154"
 
 RPROVIDES:${PN} += "grilo-plugin-dleyna \
 grilo-plugin-upnp \

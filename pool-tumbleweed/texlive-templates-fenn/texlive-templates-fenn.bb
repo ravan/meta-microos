@@ -11,10 +11,10 @@ basis-bolus insulin therapy of diabetes mellitus, using \
 scrartcl.cls from the KOMA-Script bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.227.svn15878"
 
-RPM_NAME = "texlive-templates-fenn-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "d535ae39129821a50aadd858ca38f574cc110338640b5746d0c1da95ae97262f6f1fc17b8730497081bc990579f59721f30c7c4ec4167a27a3fb063cb1d580aa"
+RPM_NAME = "texlive-templates-fenn-2026.227.svn15878-62.2.noarch.rpm"
+RPM_HASH = "85d574597ba398c8d124d7beb1f1ea2b87bb9c80018d83d14b1a653fc1fef56a5c115471a6d575e59283a251f0fd36df7cebfe722caedbf461d0df9b13f551e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-templates-fenn"

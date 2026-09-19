@@ -5,10 +5,10 @@ is compatible with pdfTeX, XeTeX and LuaTeX, and can also be \
 used with the unicode-math package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0bsvn66015"
+PV = "2026.226.2.1svn66606"
 
-RPM_NAME = "texlive-fixdif-2023.209.2.0bsvn66015-53.1.noarch.rpm"
-RPM_HASH = "2d09ae9c30006f203d36c78b8002ee46aca7e8028267eaac5981982b456fee4c39d8072d793a30a38f2802c46bfac3869fc80e42fbd41fa4f7272527627f41f1"
+RPM_NAME = "texlive-fixdif-2026.226.2.1svn66606-59.2.noarch.rpm"
+RPM_HASH = "7bc38fb9fafd0388e1a2d7f752aa66a638e4cc0c499c6448588d217d3d817ecd9e75faed2515eac0ee4192eeca2eca967252d8fe938edb12a6870cd30ac23dad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fixdif.sty \

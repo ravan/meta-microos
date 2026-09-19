@@ -2,10 +2,10 @@ SUMMARY = "French localization files for LibreOffice"
 DESCRIPTION = "Provides French translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-fr-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "ca837850c3d0ac4ab0b1fbe4269d3e0d98e3b6535754eb1b34b8b0e6846e762b41e175cfbd43f6165caa9b4110f0f7a1a0de44510faffed6c97f36a705b7fdc1"
+RPM_NAME = "libreoffice-l10n-fr-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "50b6f8365043e69396f0fdef154cd55d0306370f8e6c2b1a36d62c1309f89012deafec75c2c99a3bea132e8fe0140885fb55679953f2af7f4e4e1097cc065af6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-fr \

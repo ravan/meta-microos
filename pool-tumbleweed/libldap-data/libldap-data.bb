@@ -3,10 +3,10 @@ DESCRIPTION = "The subpackage contains a configuration file used to set system-w
 to be applied with all usages of libldap."
 LICENSE = "OLDAP-2.8"
 
-PV = "2.6.4"
+PV = "2.6.13"
 
-RPM_NAME = "libldap-data-2.6.4-2.2.noarch.rpm"
-RPM_HASH = "453dcbf8f6af31fcb063701021ca09780466acd769026f91978756420dc874b81dabc89360a48f890ee73d2562b776efd7639872423d12062a4b4d844d5a01c5"
+RPM_NAME = "libldap-data-2.6.13-1.6.noarch.rpm"
+RPM_HASH = "8742c4dfec47dc7e3e6f97e0fb9c1dc40e269750d196008a7569dfc5761c1e745b344bf26857678180a23b6d18df8394f40fd7e42a19c051659f1c5ce2f05658"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libldap-data \

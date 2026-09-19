@@ -2,10 +2,10 @@ SUMMARY = "Displays warning and error messages in sway"
 DESCRIPTION = "Displays warning and error messages in sway."
 LICENSE = "MIT"
 
-PV = "1.8.1"
+PV = "1.12"
 
-RPM_NAME = "swaynag-1.8.1-3.1.aarch64.rpm"
-RPM_HASH = "73a3ab19b9c7c53855cbb54364920b5c212d9473329f5164f66899ce456c461555b9488acfae389d4eab0b6cc4241ba08ab2a45c1820c8bc195cd3bcf4829d00"
+RPM_NAME = "swaynag-1.12-12.3.aarch64.rpm"
+RPM_HASH = "941cb91d3d09adf109450347d61920845df93c0a9bc965d1c256a1d3535eef1a7fd40b07eb338b0640a987d9eb54faef447224e71731e794d5b62bbf67c4e99a"
 
 RPROVIDES:${PN} += "swaynag"
 

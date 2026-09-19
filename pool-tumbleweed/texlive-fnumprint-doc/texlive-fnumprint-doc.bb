@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fnumprint"
 DESCRIPTION = "This package includes the documentation for texlive-fnumprint"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn29173"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-fnumprint-doc-2023.209.1.1asvn29173-53.1.noarch.rpm"
-RPM_HASH = "963bdd2dafa9f60891b00f2e4492d3ca2728e7259421f6035db775600fe6cebab1f2d598035ade1f7cabf3c772629082509964a6e5abae3e68026045137398ff"
+RPM_NAME = "texlive-fnumprint-doc-2026.226.1.1asvn77682-60.2.noarch.rpm"
+RPM_HASH = "dc9b70b1fa1058f17ff97bc025de2db922550c354151b31b633a25af94eae07feb8113a5172810237329dc3e112491952364f55ed1be44b05fcc5a1189f050d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fnumprint-doc"

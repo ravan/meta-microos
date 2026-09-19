@@ -3,10 +3,10 @@ DESCRIPTION = "Metacity is a window manager using GTK to do everything. \
 It is developed mainly for the MATE and GNOME Flashback desktops."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.46.1"
+PV = "3.56.0"
 
-RPM_NAME = "metacity-3.46.1-1.2.aarch64.rpm"
-RPM_HASH = "6a741300e14a5f493c7bb978d53aa21c4f86cee71b50b29925d63f2538c0536633795a10f5313fa11efeabe002b82ec6303543526622c4f3d573866c338c04d6"
+RPM_NAME = "metacity-3.56.0-1.6.aarch64.rpm"
+RPM_HASH = "cfde1c66528d45d3a574df6568a39c3a3d9f23f706d6a2d53bb25bb0765e879acd4fca6bffc4bff6ea321b74fe786f86d36ca8b5a734d80a478b97f6cc661a9e"
 
 RPROVIDES:${PN} += "metacity \
 windowmanager"

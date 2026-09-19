@@ -6,8 +6,8 @@ LICENSE = "Zlib"
 
 PV = "2022.12.22"
 
-RPM_NAME = "libnanosvg0-2022.12.22-1.1.aarch64.rpm"
-RPM_HASH = "aabeda40f9a9498562e36a66cd2eec09ba92180c8aed3ef747cff11abf4734d0c6a476e664e4f3c5371592f52a3c3e0c98bdb28508630fc792a5729e9b191a79"
+RPM_NAME = "libnanosvg0-2022.12.22-1.12.aarch64.rpm"
+RPM_HASH = "5d1fcf5aeea89c490b75c4e8fdb831a1450278e272a7e85da0cb3bd59d461155aaf75fd7bc2403f22b0acde701318f2aee78b39c387fb371696d15d7b0d35502"
 
 RPROVIDES:${PN} += "libnanosvg.so.0 \
 libnanosvg0"

@@ -5,10 +5,10 @@ Graz. The bundle also includes a comprehensive set of example \
 files for books and collections."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.00svn64797"
+PV = "2026.226.1.00svn76924"
 
-RPM_NAME = "texlive-unigrazpub-2023.209.1.00svn64797-54.1.noarch.rpm"
-RPM_HASH = "068cb239fd42a97d022a0ba48262591542c4320133a93c0283740d2c5780b4819656ac892c467d21ece15d52ea692fb5859ef0f6b4dff0219ab41914b19d5f7c"
+RPM_NAME = "texlive-unigrazpub-2026.226.1.00svn76924-60.2.noarch.rpm"
+RPM_HASH = "ca6b1be07ce1183f054a54191ef1c84d87035f222878e9123abeab82ea29a3766ac4b3d951ea638d4281c484065a12a5644c014a8c4a2592870ee1be18239705"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unigrazpub.cls \

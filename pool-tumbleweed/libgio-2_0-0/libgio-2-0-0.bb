@@ -6,10 +6,10 @@ a main loop abstraction, and so on. \
 GIO provides a modern, easy-to-use VFS API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.5"
+PV = "2.88.3"
 
-RPM_NAME = "libgio-2_0-0-2.76.5-1.1.aarch64.rpm"
-RPM_HASH = "cff0005487f816dac8e735cd5692edc9d17d2e1ef896daa9ef5d2d62f6cb33489e1b25e2fc45ce6cfd775af97f7106ec061627941ff2bc10288f28ea0f0e73c9"
+RPM_NAME = "libgio-2_0-0-2.88.3-1.1.aarch64.rpm"
+RPM_HASH = "ea656ed13b6c4f62b9c36c24f049259a4ae278309eeb9822e0c21022d97dd19dc4f8e80ec08f9a5e1d0aba46b249d1fca982f79aec8daa2fa7c06bc2c071640d"
 
 RPROVIDES:${PN} += "gio \
 libgio-2-0-0 \
@@ -17,7 +17,6 @@ libgio-2.0.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/sh \
-dbus-launch \
 gio-branding \
 glib2-tools \
 ld-linux-aarch64.so.1 \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "no-more-secrets-1.0.1-1.8.aarch64.rpm"
-RPM_HASH = "42b89efb2237e25a7d02380211c3d3ebda9d41db4e7363f748f1abbe37b1f36f833e4166a6b085625617a53a606736d2089a06ca59b9a636d0d6243b0f7992a5"
+RPM_NAME = "no-more-secrets-1.0.1-1.18.aarch64.rpm"
+RPM_HASH = "235b9a0dcc08f4e345ae285a0a15c32d96f9faa355873dafbb540bd2d7234c60c9784c7aca853b23640326d9b06ed3cbc1add03f10ee5efec4082853bba92ca8"
 
 RPROVIDES:${PN} += "no-more-secrets"
 

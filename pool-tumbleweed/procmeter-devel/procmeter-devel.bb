@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.6+svn415"
 
-RPM_NAME = "procmeter-devel-3.6+svn415-2.1.aarch64.rpm"
-RPM_HASH = "5eb2a7616a5fb014edcbe36214160540625c5d4693a895bd48f13cb02468ebaf44bca6552963508d9ea109f9344fb62520c53e909447c98a4c153c686c3ac83e"
+RPM_NAME = "procmeter-devel-3.6+svn415-3.11.aarch64.rpm"
+RPM_HASH = "7b7db2a063fb9b743161043fcd559965a9ccba06abf6efc87277cccd25d679cb935b2614994c1d52ec28a8bd9f57dfe59c5df1b0756c7494edfe8f1b63af3896"
 
 RPROVIDES:${PN} += "procmeter-devel"
 

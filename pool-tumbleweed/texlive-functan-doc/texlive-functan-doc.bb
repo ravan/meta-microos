@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-functan"
 DESCRIPTION = "This package includes the documentation for texlive-functan"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-functan-doc-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "7973895d29868f0f93a3adb3267afe8108a75be450d027a7e4881700e45f455b6a1d5bea2b04e7088d940b7bed4c2f28aa3e619c56639da2482d9f7e3e9d860b"
+RPM_NAME = "texlive-functan-doc-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "c61d0d055585c285a6ed87a9b438e87294a0ec0c146fcc273d161bb063faddc0ee1e5d8c23c0aaf6d8d94bcd0f2b46cc95aa7a317b3b0aefa0eccaf6b6e4ddd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-functan-doc"

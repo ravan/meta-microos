@@ -2,10 +2,10 @@ SUMMARY = "MinGW-w64 runtime libraries for Win32"
 DESCRIPTION = "MinGW Win64 cross-compiler runtime, base libraries."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "10.0.0"
+PV = "14.0.0"
 
-RPM_NAME = "mingw32-runtime-10.0.0-1.3.noarch.rpm"
-RPM_HASH = "350446dc766557d2add3b824990b4d9672127635640581d32f657941ea0f47e1d25f7e072c6c8f64848f2248027404f5c9ead2c468e81b07e673a529612a5f0a"
+RPM_NAME = "mingw32-runtime-14.0.0-1.1.noarch.rpm"
+RPM_HASH = "0d4e8c5364c08e8c4c1ff04b8fa897d35f617e2812bcabdad754929fd2f5911d794273dac1e57ca462ae207153456d63df7f27de2dbb43594ceb478d8facdb69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-lib-aclui \
@@ -20,6 +20,7 @@ mingw32-lib-avicap32 \
 mingw32-lib-avifil32 \
 mingw32-lib-avrt \
 mingw32-lib-bcrypt \
+mingw32-lib-bcryptprimitives \
 mingw32-lib-bits \
 mingw32-lib-bluetoothapis \
 mingw32-lib-bootvid \
@@ -28,6 +29,7 @@ mingw32-lib-bthprops \
 mingw32-lib-cabinet \
 mingw32-lib-cap \
 mingw32-lib-cfgmgr32 \
+mingw32-lib-chakrart \
 mingw32-lib-classpnp \
 mingw32-lib-clfsw32 \
 mingw32-lib-clusapi \
@@ -35,9 +37,11 @@ mingw32-lib-cmutil \
 mingw32-lib-comctl32 \
 mingw32-lib-comdlg32 \
 mingw32-lib-connect \
+mingw32-lib-coremessaging \
 mingw32-lib-credui \
 mingw32-lib-crtdll \
 mingw32-lib-crypt32 \
+mingw32-lib-cryptbase \
 mingw32-lib-cryptnet \
 mingw32-lib-cryptsp \
 mingw32-lib-cryptxml \
@@ -121,12 +125,16 @@ mingw32-lib-dfscli \
 mingw32-lib-dhcpcsvc \
 mingw32-lib-dhcpcsvc6 \
 mingw32-lib-dhcpsapi \
+mingw32-lib-diagnosticdataquery \
 mingw32-lib-dinput \
 mingw32-lib-dinput8 \
+mingw32-lib-directml \
 mingw32-lib-dismapi \
 mingw32-lib-dlcapi \
+mingw32-lib-dloadhelper \
 mingw32-lib-dmoguids \
 mingw32-lib-dnsapi \
+mingw32-lib-dnsperf \
 mingw32-lib-dpapi \
 mingw32-lib-dplayx \
 mingw32-lib-dpnaddr \
@@ -140,6 +148,7 @@ mingw32-lib-dssec \
 mingw32-lib-dwmapi \
 mingw32-lib-dwrite \
 mingw32-lib-dxapi \
+mingw32-lib-dxcore \
 mingw32-lib-dxerr8 \
 mingw32-lib-dxerr9 \
 mingw32-lib-dxgi \
@@ -172,12 +181,15 @@ mingw32-lib-hal \
 mingw32-lib-hid \
 mingw32-lib-hidclass \
 mingw32-lib-hidparse \
+mingw32-lib-hrtfapo \
 mingw32-lib-htmlhelp \
 mingw32-lib-httpapi \
 mingw32-lib-icmui \
+mingw32-lib-icu \
 mingw32-lib-igmpagnt \
 mingw32-lib-imagehlp \
 mingw32-lib-imm32 \
+mingw32-lib-inkobjcore \
 mingw32-lib-iphlpapi \
 mingw32-lib-iscsidsc \
 mingw32-lib-kernel32 \
@@ -203,7 +215,9 @@ mingw32-lib-mfreadwrite \
 mingw32-lib-mfsensorgroup \
 mingw32-lib-mfuuid \
 mingw32-lib-mgmtapi \
+mingw32-lib-mi \
 mingw32-lib-mincore \
+mingw32-lib-mincore-downlevel \
 mingw32-lib-mingw32 \
 mingw32-lib-mingwex \
 mingw32-lib-mingwthrd \
@@ -213,6 +227,7 @@ mingw32-lib-mpr \
 mingw32-lib-mprapi \
 mingw32-lib-mqrt \
 mingw32-lib-msacm32 \
+mingw32-lib-msajapi \
 mingw32-lib-mscms \
 mingw32-lib-msctf \
 mingw32-lib-msctfmonitor \
@@ -227,13 +242,19 @@ mingw32-lib-mstask \
 mingw32-lib-msvcp120-app \
 mingw32-lib-msvcp60 \
 mingw32-lib-msvcr100 \
+mingw32-lib-msvcr100d \
 mingw32-lib-msvcr110 \
+mingw32-lib-msvcr110d \
 mingw32-lib-msvcr120 \
 mingw32-lib-msvcr120-app \
 mingw32-lib-msvcr120d \
+mingw32-lib-msvcr40d \
 mingw32-lib-msvcr70 \
+mingw32-lib-msvcr70d \
 mingw32-lib-msvcr71 \
+mingw32-lib-msvcr71d \
 mingw32-lib-msvcr80 \
+mingw32-lib-msvcr80d \
 mingw32-lib-msvcr90 \
 mingw32-lib-msvcr90d \
 mingw32-lib-msvcrt \
@@ -241,8 +262,11 @@ mingw32-lib-msvcrt-os \
 mingw32-lib-msvcrt10 \
 mingw32-lib-msvcrt20 \
 mingw32-lib-msvcrt40 \
+mingw32-lib-msvcrtd \
 mingw32-lib-msvfw32 \
 mingw32-lib-mswsock \
+mingw32-lib-msxml2 \
+mingw32-lib-msxml6 \
 mingw32-lib-ncrypt \
 mingw32-lib-nddeapi \
 mingw32-lib-ndfapi \
@@ -252,6 +276,7 @@ mingw32-lib-netio \
 mingw32-lib-netjoin \
 mingw32-lib-netutils \
 mingw32-lib-newdev \
+mingw32-lib-ninput \
 mingw32-lib-normaliz \
 mingw32-lib-ntdll \
 mingw32-lib-ntdllcrt \
@@ -269,6 +294,9 @@ mingw32-lib-oledlg \
 mingw32-lib-olepro32 \
 mingw32-lib-olesvr32 \
 mingw32-lib-olethk32 \
+mingw32-lib-onecore \
+mingw32-lib-onecore-apiset \
+mingw32-lib-onecoreuap-apiset \
 mingw32-lib-opends60 \
 mingw32-lib-opengl32 \
 mingw32-lib-p2p \
@@ -293,6 +321,7 @@ mingw32-lib-rapi \
 mingw32-lib-rasapi32 \
 mingw32-lib-rasdlg \
 mingw32-lib-resutil \
+mingw32-lib-rometadata \
 mingw32-lib-rpcdce4 \
 mingw32-lib-rpcdiag \
 mingw32-lib-rpchttp \
@@ -311,6 +340,8 @@ mingw32-lib-scrnsavw \
 mingw32-lib-scsiport \
 mingw32-lib-secur32 \
 mingw32-lib-security \
+mingw32-lib-sens \
+mingw32-lib-sensapi \
 mingw32-lib-sensorsapi \
 mingw32-lib-setupapi \
 mingw32-lib-shcore \
@@ -338,6 +369,8 @@ mingw32-lib-txfw32 \
 mingw32-lib-ucrt \
 mingw32-lib-ucrtapp \
 mingw32-lib-ucrtbase \
+mingw32-lib-ucrtbased \
+mingw32-lib-uiautomationcore \
 mingw32-lib-url \
 mingw32-lib-urlmon \
 mingw32-lib-usbcamd \
@@ -349,7 +382,9 @@ mingw32-lib-userenv \
 mingw32-lib-usp10 \
 mingw32-lib-uuid \
 mingw32-lib-uxtheme \
+mingw32-lib-vcruntime140 \
 mingw32-lib-vcruntime140-app \
+mingw32-lib-vcruntime140d \
 mingw32-lib-vdmdbg \
 mingw32-lib-version \
 mingw32-lib-vfw32 \
@@ -367,17 +402,24 @@ mingw32-lib-wdstptc \
 mingw32-lib-wdsupgcompl \
 mingw32-lib-wdsutil \
 mingw32-lib-webauthn \
+mingw32-lib-webservices \
 mingw32-lib-websocket \
 mingw32-lib-wecapi \
 mingw32-lib-wer \
 mingw32-lib-wevtapi \
 mingw32-lib-wevtfwd \
 mingw32-lib-wiadss \
+mingw32-lib-wiaguid \
 mingw32-lib-wimgapi \
 mingw32-lib-win32k \
 mingw32-lib-win32spl \
+mingw32-lib-winbrand \
+mingw32-lib-windows.data.pdf \
+mingw32-lib-windows.networking \
 mingw32-lib-windowsapp \
 mingw32-lib-windowscodecs \
+mingw32-lib-windowscoreheadless-apiset \
+mingw32-lib-windowsi.machinelearning \
 mingw32-lib-winhttp \
 mingw32-lib-wininet \
 mingw32-lib-winmm \
@@ -396,7 +438,9 @@ mingw32-lib-wmilib \
 mingw32-lib-wofutil \
 mingw32-lib-wow32 \
 mingw32-lib-ws2-32 \
+mingw32-lib-wscapi \
 mingw32-lib-wsdapi \
+mingw32-lib-wsmsvc \
 mingw32-lib-wsnmp32 \
 mingw32-lib-wsock32 \
 mingw32-lib-wst \
@@ -418,12 +462,15 @@ mingw32-lib-xapofx1-4 \
 mingw32-lib-xapofx1-5 \
 mingw32-lib-xapofxd1-5 \
 mingw32-lib-xaudio2-8 \
+mingw32-lib-xaudio2-9 \
 mingw32-lib-xinput \
 mingw32-lib-xinput1-1 \
 mingw32-lib-xinput1-2 \
 mingw32-lib-xinput1-3 \
 mingw32-lib-xinput1-4 \
 mingw32-lib-xinput9-1-0 \
+mingw32-lib-xinputuap \
+mingw32-lib-xmllite \
 mingw32-runtime"
 
 RDEPENDS:${PN} += "mingw32-headers"

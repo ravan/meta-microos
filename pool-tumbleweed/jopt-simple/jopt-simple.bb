@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.0.4"
 
-RPM_NAME = "jopt-simple-5.0.4-2.1.noarch.rpm"
-RPM_HASH = "dd1d2dc0bc012889acdc2a2c32d1162ae9a39b3bccd28d19e5011096b469083e9fb10105651a690888c0da806bbae3c591621d5acf6f08ae0f21e4323bc68b30"
+RPM_NAME = "jopt-simple-5.0.4-3.10.noarch.rpm"
+RPM_HASH = "31c797aeb2c82ce07f422c2cda3fed932626a885e026900fc3eecff2fcd7588a12625ec601e9796393946c826b77a26c677417ab944fbda87979f6b1f836ef87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jopt-simple \

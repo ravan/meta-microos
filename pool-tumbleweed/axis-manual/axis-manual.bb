@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4"
 
-RPM_NAME = "axis-manual-1.4-306.7.noarch.rpm"
-RPM_HASH = "2f4428670f401d7ec02e2639ab6408c8434896708c2a87291cbf6333889841e7d733147795a20c76caf0a5dd031bb8403e0568b6fc8fe07b7e54368688dbc102"
+RPM_NAME = "axis-manual-1.4-310.6.noarch.rpm"
+RPM_HASH = "e9ea10f516ccaccccdbf18bb885ad1742ed9e00d595fea4c641322264246aedd8ad4b8411421480a804d2bd571e32f29f34f691c9e6f31fa86ebcdc91609a984"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "axis-manual"

@@ -5,10 +5,10 @@ server (RFC 2229), any online dictionary service by opening a web browser or \
 search for words using the aspell/ispell program."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.5"
+PV = "0.8.10"
 
-RPM_NAME = "xfce4-dict-0.8.5-1.1.aarch64.rpm"
-RPM_HASH = "b4e2c7e7e4b89bef7a15be0506a3f534d6ba5cde795ef06395aa2a8348bcb1713b179814cafd2b295bfef73eaf24ce06b29fa02cd5545b5f93a5a0ad386d6618"
+RPM_NAME = "xfce4-dict-0.8.10-1.1.aarch64.rpm"
+RPM_HASH = "b2b1509cb3226590056adfc41b5e11d9bd3a5073ccd7791c0657fb8f0a43b0c65701b760f230696ad0f97a30d4c226419ae52339499182ec86ede05ab9c66c0c"
 
 RPROVIDES:${PN} += "xfce4-dict"
 

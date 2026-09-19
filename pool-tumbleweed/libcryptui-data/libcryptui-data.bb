@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "libcryptui-data-3.12.2-10.4.aarch64.rpm"
-RPM_HASH = "d81284633c65d59a2ce2d6e9899ecaab61b451c98441c08ba72ca480c2c1282b7991b3721fff72e23d0cef20101c5c422ce332f37233069e9f382bf0a1480e30"
+RPM_NAME = "libcryptui-data-3.12.2-12.7.aarch64.rpm"
+RPM_HASH = "6d979d5e731bec871fcf9bdd6ec96b4c4c8e56f6ed7172ba5d3aeb2c8b06ad32cbe8f11b6cba28be67ec4f30ae913e3ca030ff5c2d94af4bd12bd5b9f2791af6"
 
 RPROVIDES:${PN} += "libcryptui-data"
 

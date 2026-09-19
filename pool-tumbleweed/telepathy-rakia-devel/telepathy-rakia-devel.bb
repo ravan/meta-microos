@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.0"
 
-RPM_NAME = "telepathy-rakia-devel-0.8.0-5.12.aarch64.rpm"
-RPM_HASH = "83a5900a764ef22d549242e2009aca63a56aef48f76c335e790e06f65602c8b6b86e398a951fe1f9f9a06ab4868c8b5a9e604c5701485ae2481b13cf91c20680"
+RPM_NAME = "telepathy-rakia-devel-0.8.0-5.22.aarch64.rpm"
+RPM_HASH = "cdc8bb02f07d57c64007015adf95f0d4bc0e31283e7003db927b33740998114cbf7e71bd6daa71cfe5f237c1edc0b7669e24372b9fe6be51a6481a37ae684185"
 
 RPROVIDES:${PN} += "telepathy-rakia-devel"
 

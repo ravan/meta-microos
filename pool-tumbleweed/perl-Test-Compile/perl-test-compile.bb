@@ -19,17 +19,17 @@ all Perl files in a module distribution: \
     $test->done_testing();"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.3.1"
+PV = "3.3.3"
 
-RPM_NAME = "perl-Test-Compile-3.3.1-1.2.noarch.rpm"
-RPM_HASH = "93af13dffbe0618ac4b9a9dcc354bf52f1173549248bcef2145f14060efd05398d4fe3f3a9b63763202506b02d80de28336db0095db8da5841cbd833ef76a9a8"
+RPM_NAME = "perl-Test-Compile-3.3.3-1.12.noarch.rpm"
+RPM_HASH = "15dd662463fe8dc889c7afa922e8f971d37bec5c5153ed88e4046cf12bf31db768827a3c3afe43cba02cca32d3f69df91ea45c9de0d27be26a3f1760eebafd86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Compile \
 perl-Test--Compile--Internal \
 perl-Test-Compile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Exporter \
 perl-parent"
 

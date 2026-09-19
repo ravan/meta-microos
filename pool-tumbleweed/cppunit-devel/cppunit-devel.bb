@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.15.1"
 
-RPM_NAME = "cppunit-devel-1.15.1-1.14.aarch64.rpm"
-RPM_HASH = "ed599349dc12c43a42e5d9e1a3948689d738a1b0d9e476ab6a0bdd3b6737d63e8ac8054028f23fccb1192cfbc387cf5d5807c0b952ddb58bc986d45fc84de3a3"
+RPM_NAME = "cppunit-devel-1.15.1-1.26.aarch64.rpm"
+RPM_HASH = "ddd3bcba7afd0fc74ae245c2ceb568c4d1efccd23594e256ae6b0179a23c1a7b4ea5b086d7e2e421104a28614181187afc7b4e7844c231fdb2832f93927fd7ad"
 
 RPROVIDES:${PN} += "cppunit-devel \
 libcppunit-devel \

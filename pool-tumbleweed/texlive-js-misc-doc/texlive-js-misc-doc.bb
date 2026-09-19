@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-js-misc"
 DESCRIPTION = "This package includes the documentation for texlive-js-misc"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn16211"
+PV = "2026.226.svn16211"
 
-RPM_NAME = "texlive-js-misc-doc-2023.209.svn16211-56.1.noarch.rpm"
-RPM_HASH = "4d0c571e90c0937b508424e1947e667a0077b6504d080a46cb18546f7370ec84feae2380d7677ea760939545edf22ec5f5738e69ffdf3e3c4cb88f46cfb52822"
+RPM_NAME = "texlive-js-misc-doc-2026.226.svn16211-63.2.noarch.rpm"
+RPM_HASH = "7c5a21a8c5c001d3776bc418201fd7476534bc52f7f8ed842fc6bcb059541342b9b7c9ae0499f89c9868dd0aa2bede20d4e37b1503a2788a2ff0297a75726352"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-js-misc-doc"

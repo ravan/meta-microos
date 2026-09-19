@@ -2,10 +2,10 @@ SUMMARY = "Binary files of pagelayout"
 DESCRIPTION = "Binary files of pagelayout"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65625"
+PV = "2026.20260301.svn65625"
 
-RPM_NAME = "texlive-pagelayout-bin-2023.20230311.svn65625-93.2.aarch64.rpm"
-RPM_HASH = "9da8c7ad195b7c4b7986d9782d0e275aa357643745af930f68f0f60c6af4aa032928a6611b24a8ee48fed329f870e7b9c24f4585815dbf4ce409b2785602960e"
+RPM_NAME = "texlive-pagelayout-bin-2026.20260301.svn65625-120.4.aarch64.rpm"
+RPM_HASH = "fcb08fd60f8319c72066c48e8a6e002996f473033a97c4494636d6c7a9662172b688da924045abb8d44242b773ce43d9cd5164c65e4eebd16848d94bcb667cfd"
 
 RPROVIDES:${PN} += "texlive-pagelayout-bin"
 

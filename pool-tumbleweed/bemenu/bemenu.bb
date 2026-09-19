@@ -3,10 +3,10 @@ DESCRIPTION = "Dynamic menu library and client program inspired by dmenu with su
 for X, Wayland and ncurses."
 LICENSE = "MIT"
 
-PV = "0.6.16"
+PV = "0.6.23"
 
-RPM_NAME = "bemenu-0.6.16-1.1.aarch64.rpm"
-RPM_HASH = "3c1eec37dd227dc93b8fb374a0d3be2c9840c46e674f60387704676da19e0dac9d8b4feea88d61b7678999c2afb7a5e4a6a1f2362e8914ea768f570005b60d94"
+RPM_NAME = "bemenu-0.6.23-1.12.aarch64.rpm"
+RPM_HASH = "e2905d4323b296aad5caed0c3b713da681befc025578518e08f0e87e8387ae070c6ab5b1e6e77784092ca00bafefe842e98fc9048d632c74980b060e1d2bd998"
 
 RPROVIDES:${PN} += "bemenu"
 

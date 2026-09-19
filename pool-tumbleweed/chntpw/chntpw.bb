@@ -5,12 +5,12 @@ You do not need to know the old password to set a new one. \
 It works offline, that is, you have to shutdown your computer and boot off a CD or USB disk to do the password reset. \
 Will detect and offer to unlock locked or disabled out user accounts. \
 There is also a registry editor and other registry utilities that works under linux/unix, and can be used for other things than password editing."
-LICENSE = "GPL-2.0 & LGPL-2.1"
+LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.0"
 
-RPM_NAME = "chntpw-1.0-1.23.aarch64.rpm"
-RPM_HASH = "55e67bf4d778cdd55a8b9c8c6e9337b836a726d0391631dd4828a618bfa1d6ba033f375bbf77fab1b9aa071f6e5b14b3c2c5e535615a5e0d951b1b4b54e48c3f"
+RPM_NAME = "chntpw-1.0-3.9.aarch64.rpm"
+RPM_HASH = "cd05b5b474fc6f0d34bffc7938f9d7acaa69a65a1aa9e2a63500479233fa30b218aaab6e273ae8ddf213c637dc9f4b47076b8341bdc59a8d8d25b9e68fc13b53"
 
 RPROVIDES:${PN} += "chntpw"
 

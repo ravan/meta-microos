@@ -6,10 +6,10 @@ Unix2dos converts plain text files from UNIX \
 format to DOS format and unix2dos converts from UNIX to MAC format."
 LICENSE = "BSD-2-Clause"
 
-PV = "7.5.1"
+PV = "7.5.7"
 
-RPM_NAME = "dos2unix-7.5.1-1.1.aarch64.rpm"
-RPM_HASH = "6d17614d448273ff395c82f5b13445c10b07f90a3beb099cc6ae617088c175fde4e5bf5be1cea624c3d69f2b612cb84a875fe84841d61fec764a644ab4f4e125"
+RPM_NAME = "dos2unix-7.5.7-1.1.aarch64.rpm"
+RPM_HASH = "e66bbc64f339fb05b87560730fb489b89f89cd0a532658c619d5458a1e37bd06dd57f987fb311a18ef59fff3dd9e64f23f0ffc44d90604cff40adde68fbfb7f2"
 
 RPROVIDES:${PN} += "dos2unix \
 unix2dos"

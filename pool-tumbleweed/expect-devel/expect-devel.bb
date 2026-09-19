@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "5.45.4"
 
-RPM_NAME = "expect-devel-5.45.4-6.9.aarch64.rpm"
-RPM_HASH = "563ea98e2ff4cb8f100ddae3b16bfcfcbaf8c13aaf754d28b11252249b0d56159680b7a0307ff21d68f28c180a4041f940dbc9a0cc0f6be2792e130fdff03fc1"
+RPM_NAME = "expect-devel-5.45.4-8.5.aarch64.rpm"
+RPM_HASH = "d25996ef84b3d419262f84a5769dcd7d07f6955a3c7d7c16ba0444c5034388006b3ac91505a3b470f386fdff02ac90a61450cd3be54597f5a88aec7210b79c3f"
 
 RPROVIDES:${PN} += "expect-devel"
 

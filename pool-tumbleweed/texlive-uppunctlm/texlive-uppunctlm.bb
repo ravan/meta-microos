@@ -7,10 +7,10 @@ in upright shapes: comma, period, semicolon, colon, \
 parentheses, square brackets, and Arabic numerals."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.209.0.0.1svn42334"
+PV = "2026.226.0.0.1svn42334"
 
-RPM_NAME = "texlive-uppunctlm-2023.209.0.0.1svn42334-54.1.noarch.rpm"
-RPM_HASH = "9702a09aed720513ff44749cdad6cb137791a0fb1cdd37b2708859fbed898970de2d54f054e0229dde00efddbfbd787d427788c85a56ecfae9d5612e7ebccf81"
+RPM_NAME = "texlive-uppunctlm-2026.226.0.0.1svn42334-60.2.noarch.rpm"
+RPM_HASH = "5047f147f2864752cfceaeb76ca6157ea4d15567917b8d6844ed4040c60e4bfafd309baca7c447ac0e853400f77a78e2e9b78b840d9a3a32e083d2de2c0b64d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ec-uplmri10.tfm \

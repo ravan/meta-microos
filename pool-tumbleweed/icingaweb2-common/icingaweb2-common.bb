@@ -1,18 +1,18 @@
-SUMMARY = "Common files for Icinga Web 2 and the Icinga CLI"
-DESCRIPTION = "Common files for Icinga Web 2 and the Icinga CLI."
-LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
+SUMMARY = "Common files for Icinga Web and the Icinga CLI"
+DESCRIPTION = "Manages common files for Icinga Web and the Icinga CLI."
+LICENSE = "GPL-2.0-or-later"
 
-PV = "2.11.4"
+PV = "2.13.0"
 
-RPM_NAME = "icingaweb2-common-2.11.4-3.1.noarch.rpm"
-RPM_HASH = "8e2dbefece689e18cf186c14a07cf94ccc8364f8fd1483e56d11c3f6f73ff8d1005b08904f366b558a2ff5cc5a52dceb1ba86aafaf3b427dfa83cb8325f34354"
+RPM_NAME = "icingaweb2-common-2.13.0-1.9.noarch.rpm"
+RPM_HASH = "23bc9bc26fc1720bae9b4cb6c74e84f6d57225f0ca54c4c6266a71890026cb90691f10f8eeb106cfafdc798f8be3a4dae5e903abec3deab97a7731b5438acdc2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "icingaweb2-common"
+RPROVIDES:${PN} += "group-icingaweb2 \
+icingaweb2-common"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 permissions \
-pwdutils \
-system-user-wwwrun"
+shadow"
 
 inherit rpm

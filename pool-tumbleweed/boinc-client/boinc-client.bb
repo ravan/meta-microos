@@ -15,25 +15,26 @@ gravitational waves, and many other types of scientific and \
 mathematical research."
 LICENSE = "GPL-3.0-or-later | LGPL-3.0-or-later"
 
-PV = "7.24.1"
+PV = "8.2.15"
 
-RPM_NAME = "boinc-client-7.24.1-1.1.aarch64.rpm"
-RPM_HASH = "49188d084146053ad01cf3e7c660d7f4d581ce8844b0bd4cdd518211dfaa89b0c1235d3aeae2fcc5af53c77065015bc4598ca3328b2e4fa8e2ee221baadf977d"
+RPM_NAME = "boinc-client-8.2.15-2.1.aarch64.rpm"
+RPM_HASH = "669515b2fe05c5a915b563090fe698c22f2dfdff8c36afbf5e3b3e2c903869b7cd55360e326d265ddf8cc5d7bbed42d2b9ecdb553d145216bf6fbc55ab45ec53"
 
 RPROVIDES:${PN} += "boinc-client \
-config-boinc-client"
+group-boinc \
+user-boinc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ca-certificates-mozilla \
 ld-linux-aarch64.so.1 \
-libboinc-crypt.so.7 \
-libboinc.so.7 \
+libboinc-crypt.so.8 \
+libboinc.so.8 \
 libc.so.6 \
 libcurl.so.4 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
 libz.so.1 \
-shadow"
+sysuser-shadow"
 
 inherit rpm

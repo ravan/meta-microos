@@ -4,10 +4,10 @@ package provides a preprocessor (written in Perl), an Adobe \
 Type 1 font, and LaTeX macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25185"
+PV = "2026.226.svn25185"
 
-RPM_NAME = "texlive-burmese-2023.209.svn25185-53.1.noarch.rpm"
-RPM_HASH = "f9f7010b77e7dc1d603a8c9fd3e596e5edf542e63e4659c94637aabb7551f7ad85e952a111a7c099e9bac03b287cab454ec30d64b02e5b47e8e9521601e51dc2"
+RPM_NAME = "texlive-burmese-2026.226.svn25185-59.2.noarch.rpm"
+RPM_HASH = "d99681a7d44c239561e88c7e7c4ffa49345dd45d4968c76c05890504ccd1b6cb7a547b3942134492e0a727c57a8f005d601e4642511184acae41e8d1464f8d3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-birm.sty \

@@ -4,10 +4,10 @@ are locked with a master key/password or a key disk. The databases \
 are encrypted using AES and Twofish."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "2.7.6"
+PV = "2.7.12"
 
-RPM_NAME = "keepassxc-2.7.6-1.1.aarch64.rpm"
-RPM_HASH = "db2591f48ced428ec6c1c8b83dd9590f87db07bec05beeeba3a3942e34019d95625fc8a86500a24391d9a5ba5f1ac7f4a60a68222f35609e935cb24d1395a654"
+RPM_NAME = "keepassxc-2.7.12-1.7.aarch64.rpm"
+RPM_HASH = "81dc43478d7ecc66cc24d7c8960c94823b71b4a7198d8eb5359b7f082c6b9f25e7d5138ae7f4c9d3c03a6df438386cd835980dadd97c80c90fa42e5867da7bab"
 
 RPROVIDES:${PN} += "keepassx \
 keepassxc \
@@ -26,7 +26,7 @@ libQt5X11Extras.so.5 \
 libX11.so.6 \
 libXtst.so.6 \
 libargon2.so.1 \
-libbotan-2.so.19 \
+libbotan-3.so.13 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
@@ -37,7 +37,6 @@ libreadline.so.8 \
 libstdc++.so.6 \
 libusb-1.0.so.0 \
 libz.so.1 \
-shared-mime-info \
-update-desktop-files"
+shared-mime-info"
 
 inherit rpm

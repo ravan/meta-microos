@@ -4,10 +4,10 @@ system. These are all BPFtrace scripts within /usr/share/bpftrace, and can be \
 easily modified to allow for different types of debugging."
 LICENSE = "Apache-2.0"
 
-PV = "0.17.0"
+PV = "0.27.0"
 
-RPM_NAME = "bpftrace-tools-0.17.0-2.4.noarch.rpm"
-RPM_HASH = "1576a168a43378a86712b667aa5100050ce2b62d240aad94a6ef91e5e57dc9734cf17d283c190e8ff700051749333ad292d9e1911b3d9552ac1ed51f72cb2c41"
+RPM_NAME = "bpftrace-tools-0.27.0-1.1.noarch.rpm"
+RPM_HASH = "f16916a6845f2d966f8371b2e166f85ce8417dae2dbf1a6bc537af1ea923b430e3cffdcf9f86fd9c626f94c10842895fd283a009a7ce517730da8e701e505234"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bpftrace-tools"

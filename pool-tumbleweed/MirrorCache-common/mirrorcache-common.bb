@@ -1,0 +1,176 @@
+SUMMARY = "MirrorCache shared files"
+DESCRIPTION = "Shared files for MirrorCache packages"
+LICENSE = "GPL-2.0-or-later"
+
+PV = "1.105"
+
+RPM_NAME = "MirrorCache-common-1.105-1.2.noarch.rpm"
+RPM_HASH = "743248bc245d716141827eba71625ebfff2fb3587c32676f5c75e112c3064afe42905311d6afdf688aa1d1d2a89b9590a48bb4604e240565fb064cf405794061"
+REPO_ARCH = "noarch"
+
+RPROVIDES:${PN} += "MirrorCache-common \
+perl-DBIx--Class--Timestamps \
+perl-Digest--Meta4 \
+perl-Digest--Metalink \
+perl-Directory--Scanner--OBSMediaVersion \
+perl-Directory--Scanner--OBSReleaseInfo \
+perl-MirrorCache \
+perl-MirrorCache--App \
+perl-MirrorCache--Auth--Fake \
+perl-MirrorCache--Auth--OpenID \
+perl-MirrorCache--Config \
+perl-MirrorCache--Datamodule \
+perl-MirrorCache--Events \
+perl-MirrorCache--Schema \
+perl-MirrorCache--Schema--Result--Acc \
+perl-MirrorCache--Schema--Result--AuditEvent \
+perl-MirrorCache--Schema--Result--File \
+perl-MirrorCache--Schema--Result--Folder \
+perl-MirrorCache--Schema--Result--FolderDiff \
+perl-MirrorCache--Schema--Result--FolderDiffFile \
+perl-MirrorCache--Schema--Result--FolderDiffServer \
+perl-MirrorCache--Schema--Result--Hash \
+perl-MirrorCache--Schema--Result--Metapkg \
+perl-MirrorCache--Schema--Result--MyServer \
+perl-MirrorCache--Schema--Result--Pkg \
+perl-MirrorCache--Schema--Result--Project \
+perl-MirrorCache--Schema--Result--Redirect \
+perl-MirrorCache--Schema--Result--Rollout \
+perl-MirrorCache--Schema--Result--Server \
+perl-MirrorCache--Schema--Result--ServerAdmin \
+perl-MirrorCache--Schema--Result--ServerCapabilityDeclaration \
+perl-MirrorCache--Schema--Result--Stat \
+perl-MirrorCache--Schema--Result--Subsidiary \
+perl-MirrorCache--Schema--ResultSet--Acc \
+perl-MirrorCache--Schema--ResultSet--AuditEvent \
+perl-MirrorCache--Schema--ResultSet--File \
+perl-MirrorCache--Schema--ResultSet--Folder \
+perl-MirrorCache--Schema--ResultSet--FolderDiffServer \
+perl-MirrorCache--Schema--ResultSet--Hash \
+perl-MirrorCache--Schema--ResultSet--Pkg \
+perl-MirrorCache--Schema--ResultSet--Project \
+perl-MirrorCache--Schema--ResultSet--Rollout \
+perl-MirrorCache--Schema--ResultSet--Server \
+perl-MirrorCache--Schema--ResultSet--ServerCapabilityDeclaration \
+perl-MirrorCache--Schema--ResultSet--Stat \
+perl-MirrorCache--Task--Cleanup \
+perl-MirrorCache--Task--Exec \
+perl-MirrorCache--Task--FolderHashesCreate \
+perl-MirrorCache--Task--FolderHashesImport \
+perl-MirrorCache--Task--FolderPkgSync \
+perl-MirrorCache--Task--FolderSync \
+perl-MirrorCache--Task--FolderSyncSchedule \
+perl-MirrorCache--Task--FolderSyncScheduleFromMisses \
+perl-MirrorCache--Task--FolderTree \
+perl-MirrorCache--Task--MirrorCheckFromStat \
+perl-MirrorCache--Task--MirrorFileCheck \
+perl-MirrorCache--Task--MirrorLocation \
+perl-MirrorCache--Task--MirrorProbe \
+perl-MirrorCache--Task--MirrorProviderSync \
+perl-MirrorCache--Task--MirrorScan \
+perl-MirrorCache--Task--MirrorScanSchedule \
+perl-MirrorCache--Task--MirrorScanScheduleFromMisses \
+perl-MirrorCache--Task--MirrorScanScheduleFromPathErrors \
+perl-MirrorCache--Task--ProjectSyncSchedule \
+perl-MirrorCache--Task--Report \
+perl-MirrorCache--Task--ReportProjectSize \
+perl-MirrorCache--Task--ReportProjectSizeSchedule \
+perl-MirrorCache--Task--StatAggPkg \
+perl-MirrorCache--Task--StatAggSchedule \
+perl-MirrorCache--Utils \
+perl-MirrorCache--WebAPI \
+perl-MirrorCache--WebAPI--Command--backstage \
+perl-MirrorCache--WebAPI--Command--backstage--list \
+perl-MirrorCache--WebAPI--Command--backstage--run \
+perl-MirrorCache--WebAPI--Controller--Admin--AuditLog \
+perl-MirrorCache--WebAPI--Controller--Admin--Folder \
+perl-MirrorCache--WebAPI--Controller--Admin--Session \
+perl-MirrorCache--WebAPI--Controller--Admin--User \
+perl-MirrorCache--WebAPI--Controller--App--Efficiency \
+perl-MirrorCache--WebAPI--Controller--App--Folder \
+perl-MirrorCache--WebAPI--Controller--App--Myserver \
+perl-MirrorCache--WebAPI--Controller--App--Package \
+perl-MirrorCache--WebAPI--Controller--App--Project \
+perl-MirrorCache--WebAPI--Controller--App--RolloutServer \
+perl-MirrorCache--WebAPI--Controller--App--Server \
+perl-MirrorCache--WebAPI--Controller--App--Table \
+perl-MirrorCache--WebAPI--Controller--Auth \
+perl-MirrorCache--WebAPI--Controller--Report--Download \
+perl-MirrorCache--WebAPI--Controller--Report--Mirror \
+perl-MirrorCache--WebAPI--Controller--Report--Mirrors \
+perl-MirrorCache--WebAPI--Controller--Rest--Efficiency \
+perl-MirrorCache--WebAPI--Controller--Rest--FolderJobs \
+perl-MirrorCache--WebAPI--Controller--Rest--Metapkg \
+perl-MirrorCache--WebAPI--Controller--Rest--MyIp \
+perl-MirrorCache--WebAPI--Controller--Rest--Project \
+perl-MirrorCache--WebAPI--Controller--Rest--ProjectPropagation \
+perl-MirrorCache--WebAPI--Controller--Rest--ReportDownload \
+perl-MirrorCache--WebAPI--Controller--Rest--ReportMirror \
+perl-MirrorCache--WebAPI--Controller--Rest--RolloutServer \
+perl-MirrorCache--WebAPI--Controller--Rest--ServerCheckFile \
+perl-MirrorCache--WebAPI--Controller--Rest--ServerLocation \
+perl-MirrorCache--WebAPI--Controller--Rest--ServerNote \
+perl-MirrorCache--WebAPI--Controller--Rest--Stat \
+perl-MirrorCache--WebAPI--Controller--Rest--Table \
+perl-MirrorCache--WebAPI--Controller--Rest--User \
+perl-MirrorCache--WebAPI--Controller--Session \
+perl-MirrorCache--WebAPI--Plugin--AuditLog \
+perl-MirrorCache--WebAPI--Plugin--Backstage \
+perl-MirrorCache--WebAPI--Plugin--Dir \
+perl-MirrorCache--WebAPI--Plugin--Geolocation \
+perl-MirrorCache--WebAPI--Plugin--HashedParams \
+perl-MirrorCache--WebAPI--Plugin--Helpers \
+perl-MirrorCache--WebAPI--Plugin--Mmdb \
+perl-MirrorCache--WebAPI--Plugin--Project \
+perl-MirrorCache--WebAPI--Plugin--RenderFileFromMirror \
+perl-MirrorCache--WebAPI--Plugin--ReportMirror \
+perl-MirrorCache--WebAPI--Plugin--RootLocal \
+perl-MirrorCache--WebAPI--Plugin--RootRemote \
+perl-MirrorCache--WebAPI--Plugin--Stat \
+perl-MirrorCache--WebAPI--Plugin--Subsidiary \
+perl-Net--Nslookup6 \
+perl-Net--URIProtocols"
+
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
+perl-Carp \
+perl-Config--IniFiles \
+perl-DBD--Pg \
+perl-DBI \
+perl-DBIx--Class \
+perl-DBIx--Class--DynamicDefault \
+perl-DateTime \
+perl-DateTime--Format--Pg \
+perl-Digest--SHA \
+perl-Encode \
+perl-Exporter \
+perl-File--Basename \
+perl-LWP--Protocol--https \
+perl-LWP--UserAgent \
+perl-Minion \
+perl-Mojo--Base \
+perl-Mojo--ByteStream \
+perl-Mojo--IOLoop \
+perl-Mojo--JSON \
+perl-Mojo--Pg \
+perl-Mojo--URL \
+perl-Mojo--Util \
+perl-Mojolicious--Commands \
+perl-Mojolicious--Plugin \
+perl-Net--DNS \
+perl-POSIX \
+perl-Sort--Versions \
+perl-Time--ParseDate \
+perl-Time--Piece \
+perl-Time--Seconds \
+perl-URI--Escape \
+perl-XML--Writer \
+perl-base \
+perl-constant \
+perl-diagnostics \
+perl-strict \
+perl-warnings \
+shadow \
+sysuser-shadow"
+
+inherit rpm

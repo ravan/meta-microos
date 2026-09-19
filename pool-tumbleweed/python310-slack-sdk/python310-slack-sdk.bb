@@ -6,13 +6,15 @@ Slack’s APIs. They are small and powerful when used independently, and work \
 seamlessly when used together, too."
 LICENSE = "MIT"
 
-PV = "3.21.3"
+PV = "3.19.5"
 
-RPM_NAME = "python310-slack-sdk-3.21.3-1.2.noarch.rpm"
-RPM_HASH = "df8624086d2d7fad68b67b87578d43080f1145241ab1963bf606d81426b4e42852c56f3f85173985588a3f4773080f0783b6edc64b9f55f9c825295d4fdd391f"
+RPM_NAME = "python310-slack-sdk-3.19.5-1.1.noarch.rpm"
+RPM_HASH = "9308e85bdd1589979925fcfde811746c845fae326fa24ad6f2aca879d2905879857fc888b6c1f13d10e96061785b5c2dfdaad40df7e8bc976d3f79d0e081d422"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-slack-sdk \
+RPROVIDES:${PN} += "python3-slack-sdk \
+python3-slackclient \
+python3.10dist-slack-sdk \
 python310-slack-sdk \
 python310-slackclient \
 python3dist-slack-sdk"

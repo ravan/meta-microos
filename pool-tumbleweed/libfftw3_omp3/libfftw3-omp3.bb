@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.10"
 
-RPM_NAME = "libfftw3_omp3-3.3.10-3.6.aarch64.rpm"
-RPM_HASH = "75ce1c8a538efee66521ac701e682cce57ebba5939dbed21f40b11888768e52b8f64a6d3044a17885d4ca5898a1aadaef17573ad8fb8ad62fef6c1eae84d649a"
+RPM_NAME = "libfftw3_omp3-3.3.10-6.6.aarch64.rpm"
+RPM_HASH = "7b98e86ed5196439ccbe5d6edd89dac4534b01ffc1c7ae21bbd5b3e0e04f9e2e4a4a5ac782d3794fe946b4a4ff0be7fbb2accca9c59f7a595a0cd959641ac1a1"
 
 RPROVIDES:${PN} += "fftw3-openmp \
 libfftw3-omp.so.3 \

@@ -11,10 +11,10 @@ independently from each other. \
 * Additional use of assembler level and Intel MMX instruction sets."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.2"
+PV = "2.4.1"
 
-RPM_NAME = "soundtouch-2.3.2-1.3.aarch64.rpm"
-RPM_HASH = "b83e271bb2a35ccdd4506179d88427acbf617d3e88894e0bb168a6cbb40d9225bef3aa439cc77b04a9f9c5fcdde13fa7a370b2b0b1eb771174cb77d4e88ab4f9"
+RPM_NAME = "soundtouch-2.4.1-1.2.aarch64.rpm"
+RPM_HASH = "b83934035271b90acc4fe63e5164b546572e21ee67bbec060dd8124dd4c1c1a47c3b426f09183130d6e9bbc029708faa1fb760f3a80a18af9a8b9b0121e049cb"
 
 RPROVIDES:${PN} += "soundtouch"
 

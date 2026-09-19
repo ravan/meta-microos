@@ -3,12 +3,12 @@ DESCRIPTION = "RealtimeKit is a D-Bus system service that changes the scheduling
 user processes/threads to SCHED_RR (i.e. realtime scheduling mode) on \
 request. It is intended to be used as a secure mechanism to allow real-time \
 scheduling to be used by normal user processes."
-LICENSE = "BSD-3-Clause & GPL-3.0-or-later"
+LICENSE = "GPL-3.0-or-later & MIT"
 
-PV = "0.13"
+PV = "0.14"
 
-RPM_NAME = "rtkit-0.13-5.1.aarch64.rpm"
-RPM_HASH = "b5dbbd02826511d2ce751c9d9c8e9b16a0cc1d7e42aa70970f51e30e0e00d53999ff78a7082df86dba674c1ac6702aa2badc1e0b6cf8018fe0ccdb3bcea456d7"
+RPM_NAME = "rtkit-0.14-1.4.aarch64.rpm"
+RPM_HASH = "df67c12e77483a7cde745c049bb5bffac814a977f01bca4ee8c6025cbc4f7156fba428daccdead557688510b95b1de3a420d10b624b0b529fc68600a81c03653"
 
 RPROVIDES:${PN} += "group-rtkit \
 rtkit \

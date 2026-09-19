@@ -4,23 +4,23 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4000.4.1"
 
-RPM_NAME = "ghc-HTTP-devel-4000.4.1-1.9.aarch64.rpm"
-RPM_HASH = "123337495d56ba775c2cb3a3c013ff6d01a950158a0a7afce081d39455320364e5dde7cfbe537baee87d36b78169062c140e6524d93bd66696b04d8f4651a2cc"
+RPM_NAME = "ghc-HTTP-devel-4000.4.1-5.11.aarch64.rpm"
+RPM_HASH = "3ff68281eefaf6a22f75e31c214849e5584eaade2f35b3b0aa0aac45e90394cb84402b6dad8e02536567f1797dfc6281797eca60a1e3d590cfa6a877f0ce0bbe"
 
 RPROVIDES:${PN} += "ghc-HTTP-devel \
-ghc-devel-HTTP-4000.4.1-3WMT280F7oaHvlFLV6WG4L"
+ghc-devel-HTTP-4000.4.1-G8VuDcYxUIH9Vk3NDIhhHx"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-HTTP \
 ghc-compiler \
-ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-mtl-2.2.2 \
-ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-devel-network-uri-2.6.4.2-3utC1p6H7mg92qIH44jQaM \
-ghc-devel-parsec-3.1.16.1 \
-ghc-devel-time-1.12.2 \
-ghc-devel-transformers-0.5.6.2"
+ghc-devel-array-0.5.8.0-2a42 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-mtl-2.3.2-37ef \
+ghc-devel-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-devel-network-uri-2.6.4.2-BA29PoG9pX1EAcGKolsVh8 \
+ghc-devel-parsec-3.1.18.0-be05 \
+ghc-devel-time-1.14-a7dc \
+ghc-devel-transformers-0.6.3.0-4709"
 
 inherit rpm

@@ -2,15 +2,14 @@ SUMMARY = "Utils for V4L2 loopback devices"
 DESCRIPTION = "v4l2loopback-ctl for controlling FPS, placeholder image and image format."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.12.7"
+PV = "0.15.4"
 
-RPM_NAME = "v4l2loopback-utils-0.12.7-1.53.noarch.rpm"
-RPM_HASH = "abb961785ce742a9bb618f3e066cb71ae57d289fc55a5f8c6ab952db42f4b323574450cfdc0e733461d92efed757d1fb3f2ed473d71b80bdf9cfc30cc8c4d2bf"
-REPO_ARCH = "noarch"
+RPM_NAME = "v4l2loopback-utils-0.15.4-2.2.aarch64.rpm"
+RPM_HASH = "34b9278b1ad3a27e72227d3ef15754da90e906f1915e232b0a3916a458fc75e837482df097a391cd4322680be4c1bb1c051bc420ae8ad6aa3d155933d6ffad33"
 
 RPROVIDES:${PN} += "v4l2loopback-utils"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
+RDEPENDS:${PN} += "libc.so.6 \
 v4l-utils"
 
 inherit rpm

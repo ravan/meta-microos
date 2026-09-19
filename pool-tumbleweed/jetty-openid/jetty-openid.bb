@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The openid module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.51"
+PV = "9.4.58"
 
-RPM_NAME = "jetty-openid-9.4.51-2.1.noarch.rpm"
-RPM_HASH = "3b07bc7911d1fa208db1c9d23ac4c987b044ca80cd27d904fbd490ecc525116d437740e87b9a46933aaebed9004065b0e9f1faf33301196f0732a32ca912230a"
+RPM_NAME = "jetty-openid-9.4.58-5.1.noarch.rpm"
+RPM_HASH = "b6c141edd35ffaf09efd4913f13a4019494974416df33a9b7e829d667e899e78447470663dfed441947c413eee8154ae0b0728ef3f7439f11820dafdaf62950b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-openid \

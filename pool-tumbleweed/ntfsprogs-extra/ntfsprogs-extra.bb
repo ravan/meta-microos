@@ -7,15 +7,15 @@ In particular ntfsck is just a place holder.  Distributions are expected not to 
 They have been orphaned for ten years and are unlikely to be upgraded (except ntfsfallocate, if there is some demand)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2022.10.3"
+PV = "2026.7.7"
 
-RPM_NAME = "ntfsprogs-extra-2022.10.3-2.5.aarch64.rpm"
-RPM_HASH = "2feab7ac4473e6a9b04823e611596a98918c323e08b0adbd5219c6b43a48a34771477e20b0ecd1e96a2f2b4bb19bfcc7ea1ffbb5b6a0013f94bccdf3eb1bef25"
+RPM_NAME = "ntfsprogs-extra-2026.7.7-1.1.aarch64.rpm"
+RPM_HASH = "6b3b1652766aa46b168d6903b2d93d161975e96d046bd7044ea2b2192d62818333626effd821ed91dbc8001a52d9a2d13ca288868bac6dc54d784b032c9bef50"
 
 RPROVIDES:${PN} += "ntfsprogs-extra"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libntfs-3g.so.89"
+libntfs-3g.so.90"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.1.0"
 
-RPM_NAME = "stix-variants-fonts-1.1.0-12.18.noarch.rpm"
-RPM_HASH = "44c55b1c5b7b1d12c52b76bee897539391bd1fee87b042be1a1775d5ba88f380af61989c493108cbba01a6c902913fd926c3f5cdb9fd760493d2129e9ab032c3"
+RPM_NAME = "stix-variants-fonts-1.1.0-12.26.noarch.rpm"
+RPM_HASH = "1b7addc790dc1166bc0c0029647c814adb464d9dcfc73ca0aae85bb10cca82b02d411f6818102918d3f18d1906bfd5344dad05398ce75e31f3d0e92f25a77085"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-stix-variants-fonts \

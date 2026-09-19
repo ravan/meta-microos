@@ -7,23 +7,22 @@ This package is needed for compiling kernel module packages with proper \
 package dependencies. \
  \
  \
-Source Timestamp: 2023-08-25 08:26:31 +0000 \
-GIT Revision: f5aa89b3e95322c79e43c459f5b6862dec51fc5f \
+Source Timestamp: 2026-09-12 06:50:42 +0000 \
+GIT Revision: 6b7e8a968cce3b45e63d59e1d4981c9b7c5bc6b5 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "kernel-syms-6.4.12-1.1.aarch64.rpm"
-RPM_HASH = "e4a4aca33380db85ac367105708c405230a8bb0c48b563cab4dcb84327973929a1001e50e6186a595fcf4c3a8be8cf2cc1e594de75bcccfa2819fe02972d1297"
+RPM_NAME = "kernel-syms-7.2.5-1.1.aarch64.rpm"
+RPM_HASH = "d4462a724b2bbec2e465067971f2bf54a2f015ea872ba04cf31dfed60921b2ceaed501fcbcb2d9608814b5eab854c9945c6e0a7f8c6986d46ed30d3c1bd9a5d3"
 
 RPROVIDES:${PN} += "kernel-syms \
-kernel-syms-srchash-f5aa89b3e95322c79e43c459f5b6862dec51fc5f \
+kernel-syms-srchash-6b7e8a968cce3b45e63d59e1d4981c9b7c5bc6b5 \
 multiversion-kernel"
 
 RDEPENDS:${PN} += "kernel-64kb-devel \
 kernel-default-devel \
-kernel-devel \
-pesign-obs-integration"
+kernel-devel"
 
 inherit rpm

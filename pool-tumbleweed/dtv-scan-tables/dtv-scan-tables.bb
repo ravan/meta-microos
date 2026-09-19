@@ -3,10 +3,10 @@ DESCRIPTION = "Scan data needed for some scanning applications from dvb package 
 others. This package contains v3 of the files."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
-PV = "20221125"
+PV = "20240503"
 
-RPM_NAME = "dtv-scan-tables-20221125-1.2.noarch.rpm"
-RPM_HASH = "de3704dd0d94e8e073bbbd12ce250298d3bfa5c3db9d65bd550add8b2f379a0da47f247864840f838a60dba843a07229363379048849344e7d75049c6033642a"
+RPM_NAME = "dtv-scan-tables-20240503-1.7.noarch.rpm"
+RPM_HASH = "c440424c8e918558939905bbddb6ce5872cccabc9f34d2a1cdbd25dae8ef00f14500cccd44baa09cce27d548edbac5329d85f822c8ff309e2c59645867b3a7d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dtv-scan-tables"

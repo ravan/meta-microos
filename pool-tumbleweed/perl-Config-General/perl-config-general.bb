@@ -13,16 +13,14 @@ In addition to the capabilities of an Apache config file it supports some \
 enhancements such as here-documents, C-style comments or multiline options."
 LICENSE = "Artistic-2.0"
 
-PV = "2.65"
+PV = "2.670.0"
 
-RPM_NAME = "perl-Config-General-2.65-1.8.aarch64.rpm"
-RPM_HASH = "4ac50d8c55cdcd9dccf2e04aeab678680ba342b1a886e48f9f0490205cf71351237d5c46ad6d77c8694a1c4b81205378a1ce8c27773bffbff91891353eeafd4e"
+RPM_NAME = "perl-Config-General-2.670.0-1.10.aarch64.rpm"
+RPM_HASH = "23367bcf84d59be4672c8e021eeae25d08a2c26e821b945e746e8aea918d0d1920ed2d4dac16562ea013bf97f1d91e131e2f78ff6d2cb217820c5720837f1800"
 
 RPROVIDES:${PN} += "perl-Config--General \
-perl-Config--General--Extended \
-perl-Config--General--Interpolated \
 perl-Config-General"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.3"
 
-RPM_NAME = "gperiodic-lang-3.0.3-2.12.noarch.rpm"
-RPM_HASH = "e65bece0ae6efd6bb56af50b1c34f175836d89faf89b8c0bbea9687e84756ebab9d73278c5dc1029419a207ad9c5af78b1a3e3e5f24b35b04b30482429748169"
+RPM_NAME = "gperiodic-lang-3.0.3-3.8.noarch.rpm"
+RPM_HASH = "866e9f45513fe29ec674ab16478e512516cbe63a5beccdba50a17f5d9d7557c931d6c76776b87bff92aa0e4d5df28ffe40ebbe6883e580838a8ff65ef7112b0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gperiodic-lang \

@@ -9,12 +9,12 @@ high-energy collider experiments is preserved for comparison to and \
 development of future theory models. \
  \
 This package provides the source files for development with Rivet."
-LICENSE = "GPL-2.0-only & Apache-2.0 & MPL-2.0 & LPPL-1.3a & BSL-1.0"
+LICENSE = "Apache-2.0 & GPL-2.0-only & MPL-2.0 & LPPL-1.3a & BSL-1.0"
 
-PV = "3.1.8"
+PV = "4.1.2"
 
-RPM_NAME = "Rivet-devel-3.1.8-2.1.aarch64.rpm"
-RPM_HASH = "e9bb4f9d86b1ec7361c28f82d8333ed08bdcc8c1070cc50853fc3e47709cbbf92ddb940245d068fdd973ad254fd46f7c8dd5c7705e71c5857faf54f527c8f029"
+RPM_NAME = "Rivet-devel-4.1.2-2.1.aarch64.rpm"
+RPM_HASH = "5242aa5cae09683ad5d6108702539338998589b50d0fc20649ca8ff01c3125167323b38dfdc746fb32718e0ee34bc49eec6cf3dac904579bec237260e9edac4a"
 
 RPROVIDES:${PN} += "Rivet-devel \
 pkgconfig-rivet"
@@ -23,6 +23,6 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
 Rivet-data \
 YODA-devel \
-libRivet-3-1-8"
+libRivet-4-1-2"
 
 inherit rpm

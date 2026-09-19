@@ -9,13 +9,14 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.6"
 
-RPM_NAME = "bitlbee-3.6-4.5.aarch64.rpm"
-RPM_HASH = "4065dd04ae336eb2f3bcece99bf2708b2f5ab46d6b5822bed0d32cb1feedd1df57a872b94dc9fe3e225de556c4bec0add25d7df97c983f3ff5094b9b4a21df7e"
+RPM_NAME = "bitlbee-3.6-5.11.aarch64.rpm"
+RPM_HASH = "1246e5b8e9a7e92dd1a14655d6df1b0d4e235000aea6d97712dfaad4ba37df30f8cc17068ec6ec05e6763a39b4fd7ff813c13176b05412ebf3bf038fba8fe954"
 
 RPROVIDES:${PN} += "bitlbee \
 config-bitlbee"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-bitlbee \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcrypt.so.20 \
@@ -27,6 +28,7 @@ libotr.so.5 \
 libpurple.so.0 \
 libresolv.so.2 \
 logrotate \
-shadow"
+shadow \
+user-bitlbee"
 
 inherit rpm

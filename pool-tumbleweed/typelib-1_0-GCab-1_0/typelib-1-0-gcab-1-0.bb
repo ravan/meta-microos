@@ -9,14 +9,15 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "typelib-1_0-GCab-1_0-1.6-1.1.aarch64.rpm"
-RPM_HASH = "447dc7e909f1c2942ea659888f56b83873c3b5169fb400582fb6bab450e39864c6ca00b30ad14592d609f896b881d0b2fd0b4c6cf067874889cbad78e6153b25"
+RPM_NAME = "typelib-1_0-GCab-1_0-1.6-2.1.aarch64.rpm"
+RPM_HASH = "2f918b72ca27149608b5fdc56b60af7f7fcb5ace1ee1b4e236b1a3b9ecbe5b973fb4ad3f862df85e56312913619140675d6d7df45481976b016b4ba9f52aa661"
 
 RPROVIDES:${PN} += "typelib-1-0-GCab-1-0 \
 typelib-GCab"
 
 RDEPENDS:${PN} += "libgcab-1.0.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.0.1"
 
-RPM_NAME = "liboop-devel-1.0.1-2.19.aarch64.rpm"
-RPM_HASH = "26932388aa1c2c3e6829a435f5f3bbc0804a1a08e3c27cdf92d135ae9f8ad5bc56739fbbf734af2d5fb7d5df1dc1dcdfa60f3bbf038fa20745fb2e234ba0db35"
+RPM_NAME = "liboop-devel-1.0.1-2.29.aarch64.rpm"
+RPM_HASH = "1853b77d9db2aeaeb9453dae12da774d6e278cb1b6c5fc40a1bc2e65e6c14eb7200fc1ef7793ac4ec6ba85c5e845c2f18d6f48ce98bf98f0aaf4cc56fa148a56"
 
 RPROVIDES:${PN} += "liboop-devel \
 pkgconfig-liboop \

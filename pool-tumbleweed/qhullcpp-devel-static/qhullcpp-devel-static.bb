@@ -8,8 +8,8 @@ LICENSE = "Qhull"
 
 PV = "2020.2"
 
-RPM_NAME = "qhullcpp-devel-static-2020.2-3.6.aarch64.rpm"
-RPM_HASH = "cc314337c0cb7d275ac9e1af555d0dd9f323acd95644d6ffbf7b782936adedf67745fcb61a75a9461a5a1abade41e26ae47ad18d41cedb588e965c8bb5faa049"
+RPM_NAME = "qhullcpp-devel-static-2020.2-6.8.aarch64.rpm"
+RPM_HASH = "c5ce0b707faeb8dbd3891b2625c938921a7b22ab769831ba03357facf3bf51e93a56ce76f62cabeb5819c41beac22c65040f6472b756b9bcbcff18706d28a137"
 
 RPROVIDES:${PN} += "pkgconfig-qhullcpp \
 qhullcpp-devel-static"

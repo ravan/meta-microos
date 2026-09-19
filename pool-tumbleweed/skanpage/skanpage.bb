@@ -9,33 +9,37 @@ Features: \
 - Saving to multi-page PDF documents and image files"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "skanpage-23.08.0-2.1.aarch64.rpm"
-RPM_HASH = "0e977606382a5278d15d219c5b8555ccfe550b76f601cd947280d038ed4a5088cfda21f53480725ca345bebf33d09e96c9629dd4fdaf4a6ab8c25d371ed0364a"
+RPM_NAME = "skanpage-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "774f7113b9c818f92ddf691a853e2a74a9144707802d9bb1c8205cac6f8965680c26720749c66e943d1da37050fc1948280795ecdb0ebfd25ec502deb1481fdd"
 
 RPROVIDES:${PN} += "skanpage"
 
-RDEPENDS:${PN} += "kirigami2 \
-kquickimageeditor-imports \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5XmlGui.so.5 \
-libKSaneCore.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5Widgets.so.5 \
+RDEPENDS:${PN} += "kf6-kirigami-imports \
+kquickimageeditor6-imports \
+ld-linux-aarch64.so.1 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6I18nQml.so.6 \
+libKF6KIOCore.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKSaneCore6.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Pdf.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libgcc-s.so.1 \
 libleptonica.so.6 \
-libqt5-qtquickcontrols \
 libstdc++.so.6 \
-libtesseract.so.5"
+libtesseract.so.5 \
+qt6-declarative-imports"
 
 inherit rpm

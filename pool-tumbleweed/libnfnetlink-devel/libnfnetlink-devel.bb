@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "libnfnetlink-devel-1.0.2-1.8.aarch64.rpm"
-RPM_HASH = "fb8080700d0a245d772ecb1fefc4701574329f18be9a03bd0b7d2c383e4c47311e0d9848f8f78429e3f8bc718a3af36337790529dc45fea523ff06c467b281b7"
+RPM_NAME = "libnfnetlink-devel-1.0.2-1.17.aarch64.rpm"
+RPM_HASH = "10927f22967a780dfb5283856f78a9f64edaa9e299bffbf6e8c743746014a774bde3368967f442ca2f0ab42cca00224d6151b29638e6e9332ca604e8617be3c7"
 
 RPROVIDES:${PN} += "libnfnetlink-devel \
 pkgconfig-libnfnetlink"

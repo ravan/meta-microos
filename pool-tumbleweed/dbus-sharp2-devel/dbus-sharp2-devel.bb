@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.8.1"
 
-RPM_NAME = "dbus-sharp2-devel-0.8.1-3.8.noarch.rpm"
-RPM_HASH = "519ccae6e736caef8a653c0f2a7d6916af8756be804a600eb25ca1790621a155613dd6f41e97ef7dad7a6b35a7ee994ab44b3621170fe6046b3f276aa8ba6747"
+RPM_NAME = "dbus-sharp2-devel-0.8.1-4.7.noarch.rpm"
+RPM_HASH = "c2ff99fda6c56876490b7ecaab752b12e9e9797a5c96d5e39a42baec7be0bf0b2b39c4d20eac78cf2a08fa77dccec7e9cb19616caf27e57155515f5e10d1fa77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-sharp2-devel \

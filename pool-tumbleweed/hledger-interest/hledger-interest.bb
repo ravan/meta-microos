@@ -53,15 +53,14 @@ annual interest rates. > syntax: '[(Date1,Rate1),(Date2,Rate2),...]' > \
 German BGB288."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.5"
+PV = "1.6.7"
 
-RPM_NAME = "hledger-interest-1.6.5-3.4.aarch64.rpm"
-RPM_HASH = "140f4010ae63cf4d704edfe2dbfd72712e6065c14c87fe22314da4664d3ae71b142169cedb478e5f89ca7e9179292cfee8d11077420228036d83735e71937045"
+RPM_NAME = "hledger-interest-1.6.7-6.3.aarch64.rpm"
+RPM_HASH = "5aac3c8ba0de7b59dde88cb96066733a2dab651fc1ccb19833252841bc48a4f3b1a1c9e6e47dc998abb8622fee27f8da57c69515a993737c8fc7d085477e5bae"
 
 RPROVIDES:${PN} += "hledger-interest"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \
 libm.so.6 \

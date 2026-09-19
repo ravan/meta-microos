@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0+ | LGPL-2.1+ | MPL-1.1"
 
 PV = "0.3.2"
 
-RPM_NAME = "ispell-slovak-0.3.2-146.14.noarch.rpm"
-RPM_HASH = "bddfd27be5ce51c8b4fbaad0be62ed6f9cbea9d2a25db4ebff036d38653d5b5818e3817510753c03ad26514c3f041d3c58b8e95195cc42623476144b7909b7b3"
+RPM_NAME = "ispell-slovak-0.3.2-147.7.noarch.rpm"
+RPM_HASH = "038b64a7e1a3a6064742a58a6367fdb59be6013ad2f9b9a6fe3424ba6d1ead71c843fbcc2f4c5da8b9ceb8cb18a0debcf3a294cef3cf7747005682714597b5ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ispell-dictionary \

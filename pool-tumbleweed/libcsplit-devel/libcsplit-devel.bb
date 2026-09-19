@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libcsplit."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220109"
+PV = "20260703"
 
-RPM_NAME = "libcsplit-devel-20220109-3.3.aarch64.rpm"
-RPM_HASH = "a1dfb7ed9e5ac43f40a57bf9043bda839235f50fd78f4b4d84908325c299784b5c40cfbbd57c9d564ba8b7389552bcb34d32029ab0c155b6863564e88bc01110"
+RPM_NAME = "libcsplit-devel-20260703-1.2.aarch64.rpm"
+RPM_HASH = "10c924d5f1cbe3efcc11f44172c7a4bd1c3af5bdc5f03036f50481b8fec8b6cbc7a37ee7c73beb3d6efd7a8afd3156a1d22530951975b8cb937f93c001c93739"
 
 RPROVIDES:${PN} += "libcsplit-devel \
 pkgconfig-libcsplit"

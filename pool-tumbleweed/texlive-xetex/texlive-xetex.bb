@@ -14,10 +14,10 @@ Live; documentation has arisen separately. Source code is \
 available from ctan:/systems/texlive/Source/."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66203"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-xetex-2023.209.svn66203-53.2.noarch.rpm"
-RPM_HASH = "1cd9a77d6f4c524bd62acdfa9dc34c00a5b9e1f74c4d3eeb136edcbd608aabdeba02d121cd270fe4c8f215cf57b59ba626c04eb2dab787f11199b4bcab79e36f"
+RPM_NAME = "texlive-xetex-2026.226.svn77830-59.4.noarch.rpm"
+RPM_HASH = "99c041385f83110015aa0e23883b49a4440b9aa6f573c0ae4b1bde6484e0afb3f86acc508dbfdabf8a7186f2c1181fcf54281461d9465c3e09f9547bc8f86312"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qx-unicode.map \
@@ -37,21 +37,18 @@ tex-language.dat.lua \
 tex-language.def \
 tex-texmf.cnf \
 texlive \
-texlive-atbegshi \
-texlive-atveryend \
 texlive-babel \
 texlive-cm \
 texlive-dvipdfmx \
 texlive-etex \
-texlive-everyshi \
 texlive-filesystem \
 texlive-firstaid \
 texlive-hyphen-base \
+texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-l3backend \
 texlive-l3kernel \
-texlive-l3packages \
 texlive-latex \
 texlive-latex-fonts \
 texlive-lm \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-bosnian"
 DESCRIPTION = "This package includes the documentation for texlive-babel-bosnian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn38174"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-babel-bosnian-doc-2023.209.1.1svn38174-54.1.noarch.rpm"
-RPM_HASH = "60c6acc60ec77edbe439e0547ca962d7b3c5566448a201d8e799af7543014869b27503230195eb85985289d0f201b043ce388f9721359e8009fa45ff38837372"
+RPM_NAME = "texlive-babel-bosnian-doc-2026.226.1.1svn77682-60.2.noarch.rpm"
+RPM_HASH = "740e692d12afde088db59b239c5a84c02509cad0035459d908777b0e0827f9f6173a9ecb8bd3568b539eb949b9b8ca482862e2e9470b0bcf7b21ffb4edda16dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-bosnian-doc"

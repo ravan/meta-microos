@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kgpg"
 DESCRIPTION = "Provides translations for the 'kgpg' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kgpg-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "e891b9dccf11acd03fac6fcd5f7475d8dac8927859c5b333808ade5d9262d33deb79d024483dbbaddc4ecb2dc4f64cb3b80810a36a2bc8c02430a87113b0fe52"
+RPM_NAME = "kgpg-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "69403fd3b4a5b9d7c64da6b3b525d54408de31330be6300f4192f35f5e1e0131b4851065365c83f303d3fb45bf7f65c7757725984e36558593a905acff7db65a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kgpg-lang \
 kgpg-lang-all \
 locale-kgpg-ar \
+locale-kgpg-ast \
 locale-kgpg-be \
 locale-kgpg-bg \
 locale-kgpg-br \
@@ -33,6 +34,7 @@ locale-kgpg-fr \
 locale-kgpg-ga \
 locale-kgpg-gl \
 locale-kgpg-he \
+locale-kgpg-hi \
 locale-kgpg-hr \
 locale-kgpg-hu \
 locale-kgpg-ia \

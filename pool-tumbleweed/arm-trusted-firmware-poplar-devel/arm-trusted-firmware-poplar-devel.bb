@@ -10,10 +10,10 @@ or porting to other ARMv8-A model and hardware platforms. \
 This sub-package contains development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.8.6"
+PV = "2.12.8"
 
-RPM_NAME = "arm-trusted-firmware-poplar-devel-2.8.6-1.2.noarch.rpm"
-RPM_HASH = "34331eafa392078c0923374384ce9fb85a51ec985779b393981b7b11a1a0686d839a399fe7b8659aec1b5877d6d0ad5cca308dfc74340cb6ce177246c85fcd5a"
+RPM_NAME = "arm-trusted-firmware-poplar-devel-2.12.8-4.1.noarch.rpm"
+RPM_HASH = "ddbb6830ddac1df5309101e6cc83ef65b4213d186a677ad900f925bf880f214704057d58fb17952a8e7f0ff15ae003994b013236352e4d64a4e9545edda77b84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-poplar-devel"

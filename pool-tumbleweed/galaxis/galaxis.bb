@@ -14,10 +14,10 @@ interface of the original, but compensates by automating away some of \
 the game's simpler deductions."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.10"
+PV = "1.11"
 
-RPM_NAME = "galaxis-1.10-1.10.aarch64.rpm"
-RPM_HASH = "6f3689252b034d3b710a910ec7a8c2d30517f6b09aac2b9049fcce86efd6f602932d663714e5edadadda1c3548f99e31519e82fefe5481c01ca5a7a744612663"
+RPM_NAME = "galaxis-1.11-1.11.aarch64.rpm"
+RPM_HASH = "ce2cac55de899dc45d181a49ec6a4d068185e49c2d986f3314cbac6eed59f76523b5ea8a902dd9ee8b5793328a7f4e367e2aa6dfbd1b9ac6e4be66c862276b42"
 
 RPROVIDES:${PN} += "galaxis"
 

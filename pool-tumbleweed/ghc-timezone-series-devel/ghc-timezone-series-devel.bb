@@ -5,17 +5,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.13"
 
-RPM_NAME = "ghc-timezone-series-devel-0.1.13-2.3.aarch64.rpm"
-RPM_HASH = "a8cd832d4c7f9b7a80aaacdf1760fd4c5f4be6f327d3b9e90a8e168cf449dedc7b837d219601f0518c70f317cb11c3816fa6d25b40e0925408abd7080356abbf"
+RPM_NAME = "ghc-timezone-series-devel-0.1.13-4.3.aarch64.rpm"
+RPM_HASH = "3eaee914eba01a583993e3a532dd235541212f0df67322fdadd6e0bddbf7cc3a4b5761f838b93ed682c41cdac3f912b34229cd6779024c1878424b40a4324643"
 
-RPROVIDES:${PN} += "ghc-devel-timezone-series-0.1.13-IHWQx2h4brT4vl06IuBnhA \
+RPROVIDES:${PN} += "ghc-devel-timezone-series-0.1.13-B1H9AY16C4DSLWHEx9hhA \
 ghc-timezone-series-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-time-1.12.2 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-time-1.14-a7dc \
 ghc-timezone-series"
 
 inherit rpm

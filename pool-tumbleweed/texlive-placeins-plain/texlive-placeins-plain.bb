@@ -8,10 +8,10 @@ normally begin a new page, just use \\supereject to flush out \
 insertions.)"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.0svn15878"
+PV = "2026.226.2.0svn15878"
 
-RPM_NAME = "texlive-placeins-plain-2023.209.2.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "417447d9148b676e3713c469fe2a88f907b6dd293b8ca6c7e78e36980b972dddb73fcbdeaf41ebbd4ad59c3d0c2a5a56de970ac44fd16d9f5cd9c34578277e53"
+RPM_NAME = "texlive-placeins-plain-2026.226.2.0svn15878-58.2.noarch.rpm"
+RPM_HASH = "3de73187e27b6bc7137533b139d1130ffb19bc1ef15504064a62cd919fdde662713c674635d72d30f34d500fe64445c3c24b8f99474a90d9120f1d5980538739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-placeins.tex \

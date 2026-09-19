@@ -22,10 +22,10 @@ This package does not have a devel package, because this project is for \
 development/testing."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.15"
+PV = "1.1.16"
 
-RPM_NAME = "nss_wrapper-1.1.15-3.3.aarch64.rpm"
-RPM_HASH = "ddaa1513917d259559a8c5b997d270e4e977b6fa6d200a0502f383013ecf59bec8bdb0c1e530d8da66bd452f06ae759623ad3f28618b600310cbb3278e0ced0c"
+RPM_NAME = "nss_wrapper-1.1.16-2.5.aarch64.rpm"
+RPM_HASH = "41b65d45de6bf04ceb9b06dc8f217c57d15adfa4f5b51d6ac66b7c2d8ddbc3f97f93e88d53609df4697a5ebc80a5433c260c211f4cb381495e19a76e81206d6b"
 
 RPROVIDES:${PN} += "cmake-nss-wrapper \
 libnss-wrapper.so.0 \

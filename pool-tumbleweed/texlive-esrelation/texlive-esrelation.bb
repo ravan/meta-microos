@@ -4,7 +4,7 @@ developing a new set of interrelated algorithms capable of \
 automatically reasoning about the behavior of computer programs \
 and other systems (such as biological systems, circuit designs, \
 etc). At the center of these algorithms were new ideas about \
-the relationships between structures expressable as \
+the relationships between structures expressible as \
 mathematical sets and relations. Using the language of \
 mathematics and logic, the researchers communicated these new \
 results to others in their community via published papers, \
@@ -18,10 +18,10 @@ a set of symbols. This package provides an math symbol font for \
 describing relations between ordered pairs by using Metafont."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn37236"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-esrelation-2023.209.svn37236-53.1.noarch.rpm"
-RPM_HASH = "1f6c3642f8a66f7a723d39beb2b8e1f00edc36b040a34b88ad66bd6b5545938aa4ceb5c40c39d7bead116b2b191ad25701348be1ffe32a241459dcbe1ce66b2e"
+RPM_NAME = "texlive-esrelation-2026.226.svn76924-59.2.noarch.rpm"
+RPM_HASH = "d58d0f17677142e5f15d5761c8c31f8c6915f843c71df03cb50232b5fbee0c9cbe7b933ba94d5bcb2bf7218c83e9564bd48ca81b86578a1aad60daa8d92c6622"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esrelation.map \

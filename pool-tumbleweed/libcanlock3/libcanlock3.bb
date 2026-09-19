@@ -4,12 +4,12 @@ Cancel-Locks. This implementation uses the recommended algorithm from \
 Section 4 with HMAC based on the same hash function as <scheme>. \
  \
 This subpackage contains shared library part of libcanlock."
-LICENSE = "MIT"
+LICENSE = "MIT & NLPL"
 
-PV = "3.3.0"
+PV = "3.3.3"
 
-RPM_NAME = "libcanlock3-3.3.0-1.3.aarch64.rpm"
-RPM_HASH = "cf825f704f884b731a394cf8cb44fa07051d5c0bde7fa8147a49f9a316189fd3df317a6f354fd8fc2b4f724466ef9c051accfaa85d8a2d0c70fb22a60c309061"
+RPM_NAME = "libcanlock3-3.3.3-1.2.aarch64.rpm"
+RPM_HASH = "dbd831eab933f257c3742cc034dbd36f91fa367abfd999403c58b9dc2a0349a61f9c1f4a3c333e098df9142ec71d988642423e3456a6ab09dabbd6b90d0d223a"
 
 RPROVIDES:${PN} += "libcanlock-hp.so.3 \
 libcanlock.so.3 \

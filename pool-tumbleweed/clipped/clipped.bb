@@ -1,11 +1,11 @@
 SUMMARY = "Clipboard Manager"
-DESCRIPTION = "Clipboard history manager for Elementary OS."
+DESCRIPTION = "Clipboard history manager for the Pantheon Desktop."
 LICENSE = "GPL-2.0-only"
 
 PV = "1.1.1"
 
-RPM_NAME = "clipped-1.1.1-1.19.aarch64.rpm"
-RPM_HASH = "52ce1d07e86decb1f8d0bb5da5ebd31bc4b3877d289546f0dfae5da854f7f642b2227b9a092d6cf63b169406fcedec4dc1a08cfc58f2996812f3b2905036c34f"
+RPM_NAME = "clipped-1.1.1-2.9.aarch64.rpm"
+RPM_HASH = "7dfa50ddb5890dacea1d5950b2fa6bd74ebfcde5e172a4c25e4020fa5eb07e84a16e2d368232afb730b63e6b7bfb0cc334219d9fecd41ee4e5bf005693eeca77"
 
 RPROVIDES:${PN} += "clipped"
 

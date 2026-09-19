@@ -2,17 +2,16 @@ SUMMARY = "Translations for package krita"
 DESCRIPTION = "Provides translations for the 'krita' package."
 LICENSE = "BSD-2-Clause & GPL-2.0-or-later & LGPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later & CC0-1.0 & LGPL-2.0-only"
 
-PV = "5.1.5"
+PV = "5.3.3"
 
-RPM_NAME = "krita-lang-5.1.5-2.1.noarch.rpm"
-RPM_HASH = "2274851096035c39559674c49c226b2aefde1be290682af7a07a088cbe6c5329f7f68ce016e9114af3a317b4eb6271c7ef3479806dade1375f73a9c4ac1ca116"
+RPM_NAME = "krita-lang-5.3.3-1.2.noarch.rpm"
+RPM_HASH = "7c879b53400b2ec8679ce79bc6a2aa334c157e328b18e156a7d035ef0636eff1fd88a1befac619021d108c21e631e08b62375e0c644e07d9e32787703b81b920"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "krita-lang \
 krita-lang-all \
 locale-krita-af \
 locale-krita-ar \
-locale-krita-ast \
 locale-krita-be \
 locale-krita-bg \
 locale-krita-br \

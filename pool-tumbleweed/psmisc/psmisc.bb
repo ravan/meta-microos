@@ -7,10 +7,10 @@ processes identified by name.  The fuser command identifies the PIDs of \
 processes that are using specified files or filesystems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.6"
+PV = "23.7"
 
-RPM_NAME = "psmisc-23.6-3.4.aarch64.rpm"
-RPM_HASH = "77087977bd3e8d9803f328cd0f758d8881ed350e7da07ac6c7b23db220f37d0701d662d63473864f38d8ae6075eb14ab5bf7fd06cef5b0d4c893d9a08203418c"
+RPM_NAME = "psmisc-23.7-5.5.aarch64.rpm"
+RPM_HASH = "15afbb3ebb5fd20d6536c3bbaa9e52907c7e3742bb3478e7b4025ad9eaa0077a618eb553889f3cc58d023d3af46ec5697be40f47262e684fe354e53d68fcfd94"
 
 RPROVIDES:${PN} += "/usr/bin/fuser \
 ps-/usr/bin/killall \

@@ -2,10 +2,10 @@ SUMMARY = "Udev rules for accessing Logitech Unifying Receiver"
 DESCRIPTION = "Rules that users are able to access Logitech Unifying Receiver."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.9"
+PV = "1.1.20"
 
-RPM_NAME = "solaar-udev-1.1.9-1.2.noarch.rpm"
-RPM_HASH = "50c6c103581325f05cd313d81c1ff08582d58ec79ec98913b01b86afba2cf83c2244dd7778aef4b6bb5886b82e4dfd31c066bf25cf498e0959019cb5344e3a07"
+RPM_NAME = "solaar-udev-1.1.20-1.1.noarch.rpm"
+RPM_HASH = "bfb3fb2c9941f8b1d835919bb04b37a357627816ba03e358443ebff03f9eea90913b03346ab844cd9e1db77f28f7d80b5692595dc8467abc4313b5e0395523dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "solaar-udev"

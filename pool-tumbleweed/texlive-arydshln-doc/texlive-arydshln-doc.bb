@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-arydshln"
 DESCRIPTION = "This package includes the documentation for texlive-arydshln"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.76svn50084"
+PV = "2026.226.1.76svn77682"
 
-RPM_NAME = "texlive-arydshln-doc-2023.209.1.76svn50084-54.1.noarch.rpm"
-RPM_HASH = "0d3aa5d31accf487d4bc715c2d3ceb8460babf5ad6ea1a30113de5bedc2a3127a89f0bed8c8bdd2aff7b23885e0f91dceea149c79d0dc225e49706c1630d5cf4"
+RPM_NAME = "texlive-arydshln-doc-2026.226.1.76svn77682-60.2.noarch.rpm"
+RPM_HASH = "fdc28399dd456f5dfb8e2f19a887853339d529302103cc584b69ff3c7fa8414253a1027d7179232c6f7f5ae129405d1524895b0f35cae471bdc5a6a15cb48c97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-arydshln-doc"

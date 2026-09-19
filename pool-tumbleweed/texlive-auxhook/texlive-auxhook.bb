@@ -3,10 +3,10 @@ DESCRIPTION = "This package auxhook provides hooks for adding stuff at the \
 begin of .aux files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn53173"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-auxhook-2023.209.1.6svn53173-54.1.noarch.rpm"
-RPM_HASH = "2853d1de853107ad5dea31085d527a5679788ade330646390318c44ac4e38352e1fb32638a11dacd87098cefbbf92d9a9730977329d346320a05c9d7f25e38a0"
+RPM_NAME = "texlive-auxhook-2026.226.1.6svn77682-60.2.noarch.rpm"
+RPM_HASH = "a476e8ae31d8eaea678e02eb7a508a8d59cbb1ae49ab65faa3e5885125afc64f5c62b2d82b6170178965ca6e2a1c3ec253f1caabcbe1a69866065c84e44e33c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-auxhook.sty \

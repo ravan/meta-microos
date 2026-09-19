@@ -2,10 +2,10 @@ SUMMARY = "Tools that make use of libpaper"
 DESCRIPTION = "This package provides the 'paper' binary"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.1"
+PV = "2.2.8"
 
-RPM_NAME = "libpaper-tools-2.1.1-1.1.aarch64.rpm"
-RPM_HASH = "8738523777cec0a901888add2d1813148027057cd75d050ade22e296059e55c92aa4fc920328dc9a3dc4145f2a5cab272b820878059bfcdfb685f6afc4d7eaea"
+RPM_NAME = "libpaper-tools-2.2.8-1.3.aarch64.rpm"
+RPM_HASH = "c9210e4e3c47b5c4505e00778bd99e8c8372d7273e05d6c06567e8a06a8b3b656e86fc84de76f875f4d46f8710322b7f94f64c8bd1ad677eafd8e5196e8c679e"
 
 RPROVIDES:${PN} += "libpaper-tools \
 libpaper-utils \

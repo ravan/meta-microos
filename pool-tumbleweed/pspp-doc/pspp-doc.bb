@@ -5,13 +5,14 @@ is a free replacement for the proprietary program SPSS. \
 This subpackage contains documentation for PSPP."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.2"
+PV = "2.1.1"
 
-RPM_NAME = "pspp-doc-1.6.2-1.1.aarch64.rpm"
-RPM_HASH = "86bc4e539511bf892c9dc903f82eac04d987aa5868b3089686b5d9521ef07f72cd536266ec57baf0e9164511d88929375b0714aa086330a23dd84795359e78f9"
+RPM_NAME = "pspp-doc-2.1.1-2.2.noarch.rpm"
+RPM_HASH = "a29f62a1bb06e1bfdbcbdebc64c979e8a3a0a67d35897722be43869a030f76a08b68652cf5a1a68a6bfea5eff22fab6bab0091ac83a575d0c74aeee6daee857c"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pspp-doc"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "pspp"
 
 inherit rpm

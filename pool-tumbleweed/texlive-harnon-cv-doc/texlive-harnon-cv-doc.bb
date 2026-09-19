@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-harnon-cv"
 DESCRIPTION = "This package includes the documentation for texlive-harnon-cv"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.0svn26543"
+PV = "2026.226.1.0svn26543"
 
-RPM_NAME = "texlive-harnon-cv-doc-2023.209.1.0svn26543-54.2.noarch.rpm"
-RPM_HASH = "2ded4da29a9525fc49b4791fc3a348c1bb89040da471485812dec95a285a4b48cbadab3e8db82bf986b590012776cd0bd0705d6797dfbb221ae1a11ea6ad3aef"
+RPM_NAME = "texlive-harnon-cv-doc-2026.226.1.0svn26543-60.4.noarch.rpm"
+RPM_HASH = "e7fb96502e9bd3165706aa19a779da3abf05c4543a8cf772341d990d9aa8a8100de5c395f075be05d1dfb4e53b9f818facbef78c4675588ebdc787bea00c4e2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-harnon-cv-doc"

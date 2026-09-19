@@ -2,10 +2,10 @@ SUMMARY = "Qt Development Kit"
 DESCRIPTION = "QML API for Qt Quick 3D."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.10+kde1"
+PV = "5.15.19+kde1"
 
-RPM_NAME = "libqt5-qtquick3d-imports-5.15.10+kde1-1.1.aarch64.rpm"
-RPM_HASH = "f253f1df9c9553699a7491f60873dc49e759de6fd2a674e04bb18893cde24cedf5f4322a1a3e7c72771b8d0b47f0c6938bf76243f21fde961cff3692c7c79ce4"
+RPM_NAME = "libqt5-qtquick3d-imports-5.15.19+kde1-1.2.aarch64.rpm"
+RPM_HASH = "55061dd2b7e86f7fc13890656a8c2354a30c43308f416a3f28fefc13b0cbecc87db12bb5a9b80911938c22448b7d3aa858a3a74cba2ada64a11846f80ee6e60b"
 
 RPROVIDES:${PN} += "libqquick3dplugin.so \
 libqt5-qtquick3d-imports \
@@ -29,6 +29,7 @@ libc.so.6 \
 libqt5-qtquick3d-tools \
 libstdc++.so.6 \
 qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Window.2 \
 qt5qmlimport-QtQuick3D.1 \
 qt5qmlimport-QtQuick3D.Effects.1 \
 qt5qmlimport-QtQuick3D.Materials.1"

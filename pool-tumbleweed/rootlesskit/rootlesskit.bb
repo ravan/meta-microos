@@ -5,10 +5,10 @@ Kubernetes as an unprivileged user (known as 'Rootless mode'), so as to protect 
 the real root on the host from potential container-breakout attacks."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.1"
+PV = "3.1.0"
 
-RPM_NAME = "rootlesskit-1.1.1-1.1.aarch64.rpm"
-RPM_HASH = "c08c085d994a179514daad72d1721129e770500fbc65b05609990a1532ee528cfb9e91c665144bc6f3958f551a31c0d5cffb0788231dedc8c9a4a6540b448e1a"
+RPM_NAME = "rootlesskit-3.1.0-1.1.aarch64.rpm"
+RPM_HASH = "bdc15216fc671d603f367a0c835628e567a3480bbc5a3eabef19dc048b13e13568e97c35bf078df76a5ab6ad700dc53af591ad11dff4d08d541c32253d6a0d72"
 
 RPROVIDES:${PN} += "rootlesskit"
 

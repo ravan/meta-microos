@@ -3,22 +3,22 @@ DESCRIPTION = "This package provides the Haskell hslua-module-path library devel
 files."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.2.0"
 
-RPM_NAME = "ghc-hslua-module-path-devel-1.1.0-1.3.aarch64.rpm"
-RPM_HASH = "c60e418732cd94aedc6b2f881ce4f7c7d3972b0bab3a60929d9399d10ea97e16d606a6379f2901f4e9b744b4c943729afb3aec68d1bbb96c72ed7357bbd1417d"
+RPM_NAME = "ghc-hslua-module-path-devel-1.2.0-1.2.aarch64.rpm"
+RPM_HASH = "a08710308a6e45162401acf045b9c236a4cecfd35db29abc1bda0dd5436ca1caa0ebefad2fe77d7e39b80a183f30a9943063cf1e63ace45e80029ae51719ed32"
 
-RPROVIDES:${PN} += "ghc-devel-hslua-module-path-1.1.0-3XIGPd4cIDuFY6K1e1WFz9 \
+RPROVIDES:${PN} += "ghc-devel-hslua-module-path-1.2.0-G27JYvFqudKJwS1Lw18QeC \
 ghc-hslua-module-path-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
-ghc-devel-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
-ghc-devel-hslua-packaging-2.3.0-4zNLfL9evW33fw96RBrzdD \
-ghc-devel-text-2.0.2 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-hslua-core-2.3.2.1-GIcwwMIDhKVEx4MlcixfFr \
+ghc-devel-hslua-marshalling-2.3.2-4wJit3DV8Bh1LNaOjZB33o \
+ghc-devel-hslua-packaging-2.4.1-1RYRM22n0e3FXJMrP5sdLA \
+ghc-devel-text-2.1.4-cf23 \
 ghc-hslua-module-path"
 
 inherit rpm

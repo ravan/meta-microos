@@ -3,10 +3,10 @@ DESCRIPTION = "Shared library for nanopb - a C implementation of Google's Protoc
 data format."
 LICENSE = "Zlib"
 
-PV = "0.4.6"
+PV = "0.4.9.2"
 
-RPM_NAME = "libprotobuf-nanopb0-0.4.6-2.4.aarch64.rpm"
-RPM_HASH = "bfb15158c8662760c107596b914dcf7bfac7ea8bdd59f9b2bf48d570022144a69db66189db20bed3d079e2165cd2859043d47fafe9e215b255646f3b0c988b70"
+RPM_NAME = "libprotobuf-nanopb0-0.4.9.2-1.1.aarch64.rpm"
+RPM_HASH = "9270e606f1ecac2158068d345ef9155c4f6e6ce48b956c9bf4bb35891008b3d9c628e410c8409b7160c4bb21828953f83d5e60228da51853c0a54534ab7782d8"
 
 RPROVIDES:${PN} += "libprotobuf-nanopb.so.0 \
 libprotobuf-nanopb0"

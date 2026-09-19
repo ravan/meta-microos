@@ -4,10 +4,10 @@ shared among the GNOME C++ binding libraries.  It is a required dependency \
 to build glibmm and gtkmm from git."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.4"
+PV = "1.0.8"
 
-RPM_NAME = "mm-common-1.0.4-1.5.noarch.rpm"
-RPM_HASH = "d88eef1f83645154ce4ebca19787b3427c12f435602f73214591eee3c94c893a8b28b84a95d455ed7830b5057a2e3c0fceaacaf3727c9c1a49c459f78f19233c"
+RPM_NAME = "mm-common-1.0.8-1.2.noarch.rpm"
+RPM_HASH = "99a6025a063c6ad3915937a9a49f71080d76f1ce21ecc3686b5b9a21b1e29d266d8230df0052d5c0be82e60bba1c0898e044b1ded76244aec33b62ad8ee61220"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mm-common \

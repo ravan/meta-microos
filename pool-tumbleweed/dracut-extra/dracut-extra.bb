@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all modules that are part of dracut upstrea
 but are not normally supported or required."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "059+suse.497.ga7feaf12"
+PV = "112+suse.51.gf078a84"
 
-RPM_NAME = "dracut-extra-059+suse.497.ga7feaf12-1.1.aarch64.rpm"
-RPM_HASH = "8c094ee7c2e7624585d38352872d891fd14f55fe78fb0b9c8eda77ceaa4560c567eaf1f88413182e9ea822ebae0ecedead7749f430b998855622715ff1340070"
+RPM_NAME = "dracut-extra-112+suse.51.gf078a84-1.1.aarch64.rpm"
+RPM_HASH = "b5350af0d9c74efd3ca4e7dff6434f9b4c345c52ac0c33b4ad22c2e39fe054eab69ce542eac54919aefc08e506de97cbc093bf5057efa4db35ef2dd57331d68a"
 
 RPROVIDES:${PN} += "dracut-extra"
 

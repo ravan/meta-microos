@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamer-fuberlin"
 DESCRIPTION = "This package includes the documentation for texlive-beamer-fuberlin"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02bsvn63161"
+PV = "2026.226.0.0.02bsvn63161"
 
-RPM_NAME = "texlive-beamer-fuberlin-doc-2023.209.0.0.02bsvn63161-54.1.noarch.rpm"
-RPM_HASH = "5a5606fae98fee06a9c08ba35e8d92e2d2e73d3e379ecfb4dec308b26836a870c2b6a991e977ec253fd68e3108e11ba018e384ec80cff152c687ad3edbc43910"
+RPM_NAME = "texlive-beamer-fuberlin-doc-2026.226.0.0.02bsvn63161-61.2.noarch.rpm"
+RPM_HASH = "2206a996583d993e5a6f1b156e1894a46a4b512a32a7589e145e76fb4a1ba1cc3cadffb8602c20ad9c1e86b73e03cf1d5b47a87bd721a86e7b89183c127dae97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamer-fuberlin-doc"

@@ -7,10 +7,10 @@ programming language. The user can adapt a Pseudocode style to \
 his native language."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-algorithmicx-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "0c41f8ad7233ed704f9aeaa5c7dc1ed2264c0afeede5b146f09d58e0e7c11c1a8c69ad72342b2b01a8d3846ad733c8c6f917ed3d3a7fed0ae9219f2b1dbca817"
+RPM_NAME = "texlive-algorithmicx-2026.226.svn78101-61.2.noarch.rpm"
+RPM_HASH = "f39c9ddf9b68db6d5960a8a86a918599ad53c37dc50a295c632d38993a767f5ba0773814e4000f71a525ca0107826d5d116bf1f1a1fb755b8500990d97f022df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-algc.sty \

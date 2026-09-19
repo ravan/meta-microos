@@ -7,12 +7,12 @@ devices. The library currently supports modulations for ISO/IEC 14443 \
 target and as initiator. \
  \
 This package contains the NFC utilities."
-LICENSE = "LGPL-3.0-or-later & GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libnfc-tools-1.8.0-1.13.aarch64.rpm"
-RPM_HASH = "6455b4cf7d2f616ffd33d9480678ef3caa964309ba1e3a638dd6cea86b6428044b7e9c3e659aba43a26b533192363b86c9bd9e26a4c71adf51a678ddd9a3fdb3"
+RPM_NAME = "libnfc-tools-1.8.0-2.6.aarch64.rpm"
+RPM_HASH = "310896f508655147ab2134de5ad917d13984154888f5544186b9f4b33a03d10a2d035138eba27a153e73eeff31d1868d79506a6bf6977c0d0d14e63491e0e76b"
 
 RPROVIDES:${PN} += "libnfc-tools"
 

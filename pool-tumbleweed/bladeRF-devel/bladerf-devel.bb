@@ -3,12 +3,13 @@ DESCRIPTION = "Libraries and header files for developing applications that want 
 use of libbladerf."
 LICENSE = "AGPL-3.0-or-later & GPL-2.0-only"
 
-PV = "2023.02"
+PV = "2.6.0"
 
-RPM_NAME = "bladeRF-devel-2023.02-16.4.aarch64.rpm"
-RPM_HASH = "fe029058a4cd9bbe324ba81efe911028aaeeb71adbb0218a7e9d22c349a34d61b6e5f576f1162bd6f6dabe0c957026a6694b5074ca80ff5862a9578a3bcfdc49"
+RPM_NAME = "bladeRF-devel-2.6.0-22.3.aarch64.rpm"
+RPM_HASH = "dd2ee24315e127b4528afb591b5da8cad12dbc337dee205bd2b630c887f630334831de275cd445b6ab2627874432722ddb80a83cd2a133e6cef26fd2324cad6a"
 
 RPROVIDES:${PN} += "bladeRF-devel \
+cmake-bladeRF \
 pkgconfig-libbladeRF"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

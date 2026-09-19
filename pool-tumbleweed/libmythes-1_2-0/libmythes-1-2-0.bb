@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "1.2.5"
 
-RPM_NAME = "libmythes-1_2-0-1.2.5-1.2.aarch64.rpm"
-RPM_HASH = "3dd76d3954659e90e9f1ec2a3e0821eaa31e3624e0d8190ee6a99d703675a3011a3740430337fd60ef766b99701e4d72db97e0da4767846a220fbc087ec134af"
+RPM_NAME = "libmythes-1_2-0-1.2.5-1.12.aarch64.rpm"
+RPM_HASH = "3dacf605c516c714d9919a1ac4b6fc62df441069d142af78dd4804f55eab62a18a8bbd798c7b16a3a811053b84c8ba7d3590b4ebea63e96a2c80cc2ca5afca83"
 
 RPROVIDES:${PN} += "libmythes-1-2-0 \
 libmythes-1.2.so.0"

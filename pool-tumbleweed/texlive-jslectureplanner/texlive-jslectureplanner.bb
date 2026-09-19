@@ -11,10 +11,10 @@ BibLaTeX. The bundle also includes a package jsmembertable.sty \
 that helps in generating course member and presence lists."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.12svn57095"
+PV = "2026.226.1.15svn77682"
 
-RPM_NAME = "texlive-jslectureplanner-2023.209.1.12svn57095-56.1.noarch.rpm"
-RPM_HASH = "d0114e5000d96ef24cf6a27866abf70ba54486b45406ecc7d9fd21b10b9cb22ef9ec6e0bed58674650e53ae8719b01c838d14fa73a17970daf3f535f1d23de48"
+RPM_NAME = "texlive-jslectureplanner-2026.226.1.15svn77682-63.2.noarch.rpm"
+RPM_HASH = "be54e80349e4a1e3eb8f97bd996afcfdfe9425d508adb91b64d07d924ef5fc0cccd651ce9a8c867b168beef78016389e62d3ae95afce535ffc57386326a12980"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jslectureplanner.sty \
@@ -35,7 +35,6 @@ tex-etoolbox.sty \
 tex-hhline.sty \
 tex-ifthen.sty \
 tex-longtable.sty \
-tex-xkeyval.sty \
 tex-xparse.sty \
 texlive \
 texlive-filesystem \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "9.28.0"
 
-RPM_NAME = "dcraw-9.28.0-3.1.aarch64.rpm"
-RPM_HASH = "6a28dffe341a319abcba972b3150c974bd2c0023188241f4b7608971cba650e2dce567d5698d8e8d2a347a4d252bad9099b9d0c9493203a3565cf22c19eb0592"
+RPM_NAME = "dcraw-9.28.0-5.10.aarch64.rpm"
+RPM_HASH = "c34fc039e59d1d85cec9c81b2a38b96e674da0fb5e9fa7be510c58e0c6b0ccdcbe6ba275bf43373c48ced239b6cb05f4066ab225a2f01a700a7fefef8e796e37"
 
 RPROVIDES:${PN} += "dcraw"
 

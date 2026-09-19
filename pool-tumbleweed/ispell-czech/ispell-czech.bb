@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-czech-1.5-422.6.aarch64.rpm"
-RPM_HASH = "792e82a26c8b5df5a37bae534e9ae8fb60cfd2a7796bd5d459b75db854e2dbb6c2a76a482e46cfd2339b72ca83fd335db72096a777b71aad8eeef38ac3b841aa"
+RPM_NAME = "ispell-czech-1.5-426.1.aarch64.rpm"
+RPM_HASH = "bc320016e683ba197b01ee1455487942b536aba21346edbbbafa3777f247c64f3a4528a8ea99a0e6b4223467afcc39dba3fe4477cea0d70be99de5665ccc8401"
 
 RPROVIDES:${PN} += "iczech \
 ispell-czech \

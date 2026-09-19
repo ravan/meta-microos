@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-makedtx"
 DESCRIPTION = "This package includes the documentation for texlive-makedtx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2svn46702"
+PV = "2026.226.1.3svn77871"
 
-RPM_NAME = "texlive-makedtx-doc-2023.208.1.2svn46702-53.1.noarch.rpm"
-RPM_HASH = "54e849afba11bc3a49dc47fce2bcd3c77016cbac6bce69be23ea06449fb3da605bb95a073baf5a85c502edd2e9e01be0fede77e37237b8572c740d173c49f3f9"
+RPM_NAME = "texlive-makedtx-doc-2026.226.1.3svn77871-59.2.noarch.rpm"
+RPM_HASH = "54f38b53da7931187a5de64e6020abd02db9f6dd8318b64e8bf16d18a5fa66aaf2748b9c4ec3819f2f74f385e16d25366b54f4ea081fe6b2edc1f1274957b8ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makedtx-doc"

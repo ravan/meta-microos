@@ -11,10 +11,10 @@ Keepalived frameworks can be used independently or all together to provide \
 resilient infrastructures."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.2.8"
+PV = "2.3.4+git23.b3631012"
 
-RPM_NAME = "keepalived-2.2.8-1.2.aarch64.rpm"
-RPM_HASH = "123d48b6da59a563343a40e4fa62825d19a59ff4e5cef5309e386e088513f72a2960455270c0bd64b9e667b429e986381222790d79518e4075929ade602cfaf4"
+RPM_NAME = "keepalived-2.3.4+git23.b3631012-3.4.aarch64.rpm"
+RPM_HASH = "76d944495828eca88fe3102cf29aa36290323feadfd272d780c32c8723e746a411a9a517c093bc5a0320b97ed929f9126925de8dcfc7aa630b3ec267976c364b"
 
 RPROVIDES:${PN} += "config-keepalived \
 keepalived"
@@ -30,15 +30,16 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libmagic.so.1 \
 libmnl.so.0 \
-libnetsnmp.so.40 \
-libnetsnmpagent.so.40 \
-libnetsnmpmibs.so.40 \
+libnetsnmp.so.45 \
+libnetsnmpagent.so.45 \
+libnetsnmpmibs.so.45 \
 libnftnl.so.11 \
 libnl-3.so.200 \
 libnl-genl-3.so.200 \
 libpcre2-8.so.0 \
 libssl.so.3 \
 libsystemd.so.0 \
-pwdutils"
+pwdutils \
+sysuser-shadow"
 
 inherit rpm

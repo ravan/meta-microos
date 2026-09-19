@@ -4,10 +4,10 @@ in Japanese to insert proper xkanjiskips. It supports LuaTeX, \
 XeTeX, pTeX, upTeX, and ApTeX (pTeX-ng)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5.1svn66147"
+PV = "2026.226.0.0.5.1svn66147"
 
-RPM_NAME = "texlive-bxghost-2023.209.0.0.5.1svn66147-53.1.noarch.rpm"
-RPM_HASH = "315c65d961aca4a03b73345e6c745c4052e541433a5ed0a0c0cddf0e4765e6ef42b134fbd3a1859b15fddfa19e0e8b60801b7899ce80cbb271229fe753aeb0c0"
+RPM_NAME = "texlive-bxghost-2026.226.0.0.5.1svn66147-59.2.noarch.rpm"
+RPM_HASH = "cc4c1fc3b2e63a4bea14f9e43ff847ca448322f1f9ddcd6636415645da6d732f9431fc9817e6f3058068efb18323a911a7022c270db94e868982bfa0c52d825a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxghost-lib.sty \

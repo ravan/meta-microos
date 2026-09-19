@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.4.0.r3032"
 
-RPM_NAME = "notify-sharp-devel-0.4.0.r3032-10.9.noarch.rpm"
-RPM_HASH = "a4329a1d7deb13bfea48f37d2319aded33eb8ee42d36912783203d8462a0fc4cfb20d3fc017ded7cf1fe02c06350f90de7ac077e216f5a051d4ba6c6075a4d90"
+RPM_NAME = "notify-sharp-devel-0.4.0.r3032-12.4.noarch.rpm"
+RPM_HASH = "5da33aafb3450546795f8704906c4052acead34de453e976ceb8b56fb622197fb306d0a9c514c12ca82c36bc24be02386813d8e6f592e53a245d8f2103b77a9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "notify-sharp-devel \

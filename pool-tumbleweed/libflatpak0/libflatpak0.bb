@@ -4,10 +4,10 @@ applications on Linux. See https://wiki.gnome.org/Projects/SandboxedApps for \
 more information."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.14.4"
+PV = "1.18.2"
 
-RPM_NAME = "libflatpak0-1.14.4-1.3.aarch64.rpm"
-RPM_HASH = "a1dc1c3b14ae40206c176a1c9a1299e3accc7ca073296bcb2b48cd83a7c30671d60384fca264886aa092f912a9adbb966cf6413917c44c91ec23481524f58edb"
+RPM_NAME = "libflatpak0-1.18.2-1.1.aarch64.rpm"
+RPM_HASH = "a08f957dd254922a39bd60477c2c75ba23dd640de3cf983032da6d61809db394c8444359f6d6e2354867c0fce0fe9cf808a1962b427a9a9df8d97e1db1a70dc3"
 
 RPROVIDES:${PN} += "libflatpak.so.0 \
 libflatpak0"
@@ -22,11 +22,14 @@ libdconf.so.1 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
+libgpgme.so.45 \
 libjson-glib-1.0.so.0 \
 libostree-1.so.1 \
+libpolkit-gobject-1.so.0 \
 libseccomp.so.2 \
 libsystemd.so.0 \
-libxml2.so.2 \
+libwayland-client.so.0 \
+libxml2.so.16 \
 libzstd.so.1"
 
 inherit rpm

@@ -5,10 +5,10 @@ of the Environmental and Engineering Geophysical Society (EEGS) \
 Problems', known as SAGEEP)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-sageep-2023.209.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "43b8b92fccf32a612ccf1fcc19d5653a96cf236ce5e09ffdfcfe5106455438cc1f083ddebbfd1e72d650607389a646dc357f9504cdd0c8a53464efd58c9adcfb"
+RPM_NAME = "texlive-sageep-2026.226.1.0svn15878-60.2.noarch.rpm"
+RPM_HASH = "626af5fb6ec0f338e4fe94eebf1c06283a1dba02330cff8a9bc0edcd13e9c8893d1207d06057acf2fdf248678fb0651cd9ddd92d09d14000202f1627bdc1a3ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sageep.cls \

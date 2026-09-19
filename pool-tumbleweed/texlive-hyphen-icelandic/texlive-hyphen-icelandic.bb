@@ -3,10 +3,10 @@ DESCRIPTION = "Hyphenation patterns for Icelandic in T1/EC and UTF-8 \
 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-icelandic-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "b1d0befb375577fbd25a4665b58b6fda9decd625eee94d3ebcc4b01ebda886bd3478320afedcc8571ad155148b6b42736d39d272fa298d9a8212cd81449759ed"
+RPM_NAME = "texlive-hyphen-icelandic-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "4cafd3a0a09c929cfab339df4954e7e71e5d990d2514e050faed7a41b18be1934508ec8911f17f057ca0bdb4ab109e31421cf7785ffbd62b22dc120e38306fac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-is.ec.tex \

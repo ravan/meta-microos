@@ -3,10 +3,10 @@ DESCRIPTION = "Raw wayland greeter for greetd, to be run under sway or similar. 
 Note that cage is currently not supported due to it lacking wlr-layer-shell-unstable support."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.4.1"
+PV = "0.5.0"
 
-RPM_NAME = "wlgreet-0.4.1-2.2.aarch64.rpm"
-RPM_HASH = "2a075abd3dbff0959c2477f2f7dab92de386e596df2a39fa84d9a543d6c4e33098ffe863ba33a713215a14a7f90313905cb0d2a79d710a433d6861f9befd5f28"
+RPM_NAME = "wlgreet-0.5.0-1.12.aarch64.rpm"
+RPM_HASH = "629c5868a9795bc473de790266f3b6cacb58d128e3c692e20b55f3c07f22534f8de077b7ebb251a559a0391251fb2bf07542d392c0c8d260adf1c472db8fb25b"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ab-glyph-rasterizer \
 bundled-rust-crate-autocfg \
@@ -24,12 +24,9 @@ bundled-rust-crate-lazy-static \
 bundled-rust-crate-libc \
 bundled-rust-crate-libloading \
 bundled-rust-crate-log \
-bundled-rust-crate-memchr \
 bundled-rust-crate-memmap2 \
 bundled-rust-crate-memoffset \
-bundled-rust-crate-minimal-lexical \
 bundled-rust-crate-nix \
-bundled-rust-crate-nom \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-os-pipe \
@@ -49,7 +46,6 @@ bundled-rust-crate-smithay-client-toolkit \
 bundled-rust-crate-syn \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
-bundled-rust-crate-time \
 bundled-rust-crate-toml \
 bundled-rust-crate-ttf-parser \
 bundled-rust-crate-unicode-ident \

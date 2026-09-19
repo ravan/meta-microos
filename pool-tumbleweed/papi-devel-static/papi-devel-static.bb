@@ -2,10 +2,10 @@ SUMMARY = "Static PAPI libraries"
 DESCRIPTION = "This package includes the static PAPI libraries."
 LICENSE = "BSD-3-Clause"
 
-PV = "7.0.0"
+PV = "7.2.0"
 
-RPM_NAME = "papi-devel-static-7.0.0-1.4.aarch64.rpm"
-RPM_HASH = "591ee2692bcbdfa6c80c17c605011d454b12ae90a0ee1de4d6f9aae6bab236c8f3e79bf9fd1a99a5a8b81f463a335ec06ee7579c14b9cc4e0539ea1998d0c7a3"
+RPM_NAME = "papi-devel-static-7.2.0-1.6.aarch64.rpm"
+RPM_HASH = "c5b966164f879d409943c36af80d5a55d05d7ae713fddcb79e3ceb50fba2af66d73e0d8b203d9615c4b9c6913ec423d70ad0383efafaad175add4e2155434326"
 
 RPROVIDES:${PN} += "papi-devel-static"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-harvmac"
 DESCRIPTION = "This package includes the documentation for texlive-harvmac"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-harvmac-doc-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "146ebaa6c50647bf50f39a42a91a884e1fa2a4027f55c384d7bcb6bbb27cdda17bcde65aac220c89f434d455cde6f480c40d8feedbfa7e8ca12c51210e1d4d73"
+RPM_NAME = "texlive-harvmac-doc-2026.226.svn15878-60.4.noarch.rpm"
+RPM_HASH = "7ac78c61277f310b95e8d0bde8b557be3029f9152654e415975673f636a8be841a25e81f3e12e6cdd7a1ebaba3cc6d1252d296182ae74190125e528097a243df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-harvmac-doc"

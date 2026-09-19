@@ -37,13 +37,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.15"
 
-RPM_NAME = "perl-Class-Method-Modifiers-2.15-1.3.noarch.rpm"
-RPM_HASH = "94c3234f8db86857ef2b9ccc0d156782a93179933814eb236ac349ee12aa520a2cf902dc908d7f66675210fa7544bb84c6e69dd0ebd3852561fac87927a9b99f"
+RPM_NAME = "perl-Class-Method-Modifiers-2.15-1.17.noarch.rpm"
+RPM_HASH = "46db3153cdffa27c4ab08a56754686acc4c94e6027b92ad8d1570df5ade773b4934ed1730168dccbb923d5cfd888803c068b0e89085ae94fc50fcef36b536977"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Method--Modifiers \
 perl-Class-Method-Modifiers"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

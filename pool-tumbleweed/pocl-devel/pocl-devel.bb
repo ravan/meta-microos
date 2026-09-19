@@ -6,10 +6,10 @@ heterogenous GPUs/accelerators. \
 This subpackage provides the development files needed for pocl."
 LICENSE = "MIT"
 
-PV = "3.1"
+PV = "7.1"
 
-RPM_NAME = "pocl-devel-3.1-3.2.aarch64.rpm"
-RPM_HASH = "38306b263f180acf28f15b1bb699643e2889fd042b1d09d7a816abd463f7d58b1951140799841d99ebbdc4ea88032c18aa68f529239650c14d3d3fd50da08b24"
+RPM_NAME = "pocl-devel-7.1-2.2.aarch64.rpm"
+RPM_HASH = "dc2e714ed8d6ad22a58d96d00e1408ba1078465ef77ccfe9ead1baa454166e4d41d7a39d3fa7c8ea6afebd7fceeba0fa20e07e44c0351c78d40437823fc766d4"
 
 RPROVIDES:${PN} += "pkgconfig-pocl \
 pocl-devel"

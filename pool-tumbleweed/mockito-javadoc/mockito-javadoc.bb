@@ -2,10 +2,10 @@ SUMMARY = "Javadocs for mockito"
 DESCRIPTION = "This package contains the API documentation for mockito."
 LICENSE = "MIT"
 
-PV = "1.10.19"
+PV = "5.11.0"
 
-RPM_NAME = "mockito-javadoc-1.10.19-5.8.noarch.rpm"
-RPM_HASH = "f0d30343d136b089a9f4fa48ff3184f100ff470bc2e91037f7642812cc7a6cfdfa049713346cc2918597b8931aa40e05bf4447c43ca13e2d5b3444f371b5f0bb"
+RPM_NAME = "mockito-javadoc-5.11.0-3.2.noarch.rpm"
+RPM_HASH = "fc135c77668fcb2f86737566d9fae7a80a3e9d9ef0b3a166258e8bb88af99389d53046acdc0be621f50750a142fe739a5a9476c07d256e945ca2fa9b19d865bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mockito-javadoc"

@@ -12,17 +12,17 @@ Features: \
  * historical information from OpenSSH, Dropbear SSH and libssh;"
 LICENSE = "MIT"
 
-PV = "2.9.0"
+PV = "3.9.0"
 
-RPM_NAME = "ssh-audit-2.9.0-1.2.noarch.rpm"
-RPM_HASH = "b43a5b7dd099fd0ef3ab01b5bf603238f327f7e71d6cd53b8823d6e7d7b43bd9cd6cfa11e745fa4e1fb7ef7eef703164496d86f878a746871a954dc1b5389c51"
+RPM_NAME = "ssh-audit-3.9.0-1.1.noarch.rpm"
+RPM_HASH = "a9dc5854513afdc9b9247b751dce786ccaad1b414ae1e1655e21100d2e550a00b76d4c334e93ba84fe431262755f56e02d6bb50874d6f3890100a80436f1cecf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ssh-audit \
+RPROVIDES:${PN} += "python3.13dist-ssh-audit \
 python3dist-ssh-audit \
 ssh-audit"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3"
 

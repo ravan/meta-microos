@@ -1,11 +1,11 @@
 SUMMARY = "Cryptsetup Documentation"
 DESCRIPTION = "Documentation and man pages for cryptsetup"
-LICENSE = "LGPL-2.0-or-later & SUSE-GPL-2.0-with-openssl-exception"
+LICENSE = "CC-BY-SA-4.0 & LGPL-2.0-or-later-with-cryptsetup-OpenSSL-exception"
 
-PV = "2.6.1"
+PV = "2.8.7"
 
-RPM_NAME = "cryptsetup-doc-2.6.1-3.1.noarch.rpm"
-RPM_HASH = "0ac71d64dd27ffe4522717d2c32d40a875a78c32ea5abc7d91aa12c91573fa849cca81ce9c15e78cfae9f3c102a416ebc9e9e6ee8d895973eb52b64ba26d5e01"
+RPM_NAME = "cryptsetup-doc-2.8.7-1.2.noarch.rpm"
+RPM_HASH = "d3308afa6bd2ce250b358c3d95acb41923807b42acc736447834a78f32ddd8ead72bffedafa65dc229142a45aa91c84e1a298494cb8252d2e5185a8563420791"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cryptsetup-doc"

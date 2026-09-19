@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.3.1"
 
-RPM_NAME = "python310-geomdl-5.3.1-2.4.noarch.rpm"
-RPM_HASH = "cd883dd8b86c5c8b61aa29a3efeb8012b81994c79599d3280e8eab2d16784b720f89cd9d9d74792320f778d9ef23f6a5d6ca4a02f9e7c2308ce96eed22133ab1"
+RPM_NAME = "python310-geomdl-5.3.1-3.2.noarch.rpm"
+RPM_HASH = "b4fcd6d924886126dfba28d50385822b6719851de9eba2676024dc3c18c6de5fd26a9b262b3ece3f6a83f5a27e532be884e51767e0acae9d4266c3ffbd146210"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-geomdl \

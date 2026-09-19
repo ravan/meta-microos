@@ -2,24 +2,23 @@ SUMMARY = "Haskell pandoc-types profiling library"
 DESCRIPTION = "This package provides the Haskell pandoc-types profiling library."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.23.1"
+PV = "1.23.1.2"
 
-RPM_NAME = "ghc-pandoc-types-prof-1.23.1-1.1.aarch64.rpm"
-RPM_HASH = "e4aa54ce7ab0abbcd6eca4adb2a591c6b800fc0e949ebe9c30ed5cf705c2df9be38f9a32537068b7d34d867c29b21d9eecb9b33f36594c4b807735abd746ed46"
+RPM_NAME = "ghc-pandoc-types-prof-1.23.1.2-1.3.aarch64.rpm"
+RPM_HASH = "53975fc3321fb8b1713815942b9a86b30e273259cc8c7051a475036b160af927ac02fe68c2b1fa40d4eef94df06a253956be502fee4cbbf60483ef019086639d"
 
 RPROVIDES:${PN} += "ghc-pandoc-types-prof \
-ghc-prof-pandoc-types-1.23.1-8yEOjBSLsT62OPTXI0FZpc"
+ghc-prof-pandoc-types-1.23.1.2-ChVVUkZ84FqF7WWwilaI65"
 
 RDEPENDS:${PN} += "ghc-pandoc-types-devel \
-ghc-prof-QuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8 \
-ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-ghc-prim-0.9.1 \
-ghc-prof-syb-0.7.2.4-URkW17Cd7D7rpu7G0BDIE \
-ghc-prof-text-2.0.2 \
-ghc-prof-transformers-0.5.6.2"
+ghc-prof-QuickCheck-2.15.0.1-BiJUyvfspYF6JuhHRqpj7J \
+ghc-prof-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-syb-0.7.4-6fi78MDXPhtHdqjdF3SBYJ \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-transformers-0.6.3.0-4709"
 
 inherit rpm

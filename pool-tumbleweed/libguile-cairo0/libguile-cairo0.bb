@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.11.2"
 
-RPM_NAME = "libguile-cairo0-1.11.2-1.3.aarch64.rpm"
-RPM_HASH = "0ed2376c82fee69089f2922837cb24432582e154b443d09dc3a0b302e17f67005379c85e4ffaecd71d9f8b7ab88f8882ba294333e61aa1d463c01edcd55ce3b7"
+RPM_NAME = "libguile-cairo0-1.11.2-1.13.aarch64.rpm"
+RPM_HASH = "d944a05ac561bec78df253386f3597b1bd461e51b6e83b61d9f81b09da8a9fefa483ce46342169fb3c27b04cb00ea7edae9b6adea1199607d7c6e5748be6817c"
 
 RPROVIDES:${PN} += "libguile-cairo.so.0 \
 libguile-cairo0"

@@ -12,14 +12,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.11"
 
-RPM_NAME = "tmpwatch-2.11-6.12.aarch64.rpm"
-RPM_HASH = "6d09c8a1ef3c54ccf9942ee575c3b31c1cdfed791ccc0f217c724f6970615b46fb83adf97193f3d6e05ea1e7f8089e60dd0e2446e632d5d0ef8e5a6e3f1570bd"
+RPM_NAME = "tmpwatch-2.11-7.11.aarch64.rpm"
+RPM_HASH = "8b113fc9a18c16a5e3ccd29fe58a91df75b0adf782f36b937a8533b8f6771cf9769a53c08d633d8ae4d8f4440fed02126c24629ae25b3701908baabec6fd1fd2"
 
-RPROVIDES:${PN} += "config-tmpwatch \
-tmpwatch"
+RPROVIDES:${PN} += "tmpwatch"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-cron \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 psmisc"

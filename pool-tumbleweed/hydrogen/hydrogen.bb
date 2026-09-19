@@ -14,23 +14,22 @@ samples for each instrument). Human velocity, human time, pitch and \
 swing functions are implemented as well."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.1"
+PV = "1.2.6"
 
-RPM_NAME = "hydrogen-1.2.1-1.1.aarch64.rpm"
-RPM_HASH = "2595473b85a5223807f3a161e20af8fbfe4600a79fcf2ec9c258ac79af11cbdb8ad3bd0f814913a0325fcb268ae149cf388d756b4ee0016d365671450b8fdbbb"
+RPM_NAME = "hydrogen-1.2.6-1.6.aarch64.rpm"
+RPM_HASH = "63ffde72d47832bdc10b07b4211c2f8a63e439417b670c098559fdeeedcebcc23b30cd7d7c9e20a5377afae040d3a34ce443122305cb92bd1f975974c6c571cc"
 
 RPROVIDES:${PN} += "hydrogen"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+RDEPENDS:${PN} += "libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libhydrogen-core-1.2.1.so \
+libhydrogen-core-1.2.6.so \
 libm.so.6 \
 libstdc++.so.6 \
 rubberband-cli"

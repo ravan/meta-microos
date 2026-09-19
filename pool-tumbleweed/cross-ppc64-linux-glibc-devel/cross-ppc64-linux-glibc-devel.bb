@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Linux kernel headers for ppc64, the kernel 
 required for compilation of almost all programs."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4"
+PV = "7.2"
 
-RPM_NAME = "cross-ppc64-linux-glibc-devel-6.4-1.1.noarch.rpm"
-RPM_HASH = "43243b093cea0b691a914dc05b180fae65e0e98ca91aa443b1116d15d3f68115d72253d10f1b94c5fe9d0bb7952a256ffe48ec957098d87da3ba6f656cc65a41"
+RPM_NAME = "cross-ppc64-linux-glibc-devel-7.2-2.1.noarch.rpm"
+RPM_HASH = "bb7442bc151ebeb22b9ba6f79b9b09013294d5c58c717a73762fcb1fe23ddfa63de7e017ac0e7592e5467e6a339ef5347e40cbc50a3fcd321c7e82c1254e6076"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-ppc64-linux-glibc-devel"

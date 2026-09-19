@@ -7,10 +7,10 @@ compatibility, each of the \\everyX token lists can be set \
 without interfering with the hooks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn35675"
+PV = "2026.226.1.2svn35675"
 
-RPM_NAME = "texlive-everyhook-2023.209.1.2svn35675-53.1.noarch.rpm"
-RPM_HASH = "a8552e16658ceb60e1c19cd4955d1b12b62081a6afaaa1c19749da2fe6967676e5edb6147fcf6e0c329a9d33a9bfed82b21ec43faef5b34a1a7e048767ead88b"
+RPM_NAME = "texlive-everyhook-2026.226.1.2svn35675-59.2.noarch.rpm"
+RPM_HASH = "2e4dcf6db664ff709f52b644c13b83dbe0214725ce7a93979c53352575b8aa38d2cd424dcfa795395993220fb23ddd4a1d8e5f340f38cf05181af3a098ce1449"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-everyhook.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains development files needed for developing app
 based on libjbig2dec."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "0.19"
+PV = "0.20"
 
-RPM_NAME = "jbig2dec-devel-0.19-1.12.aarch64.rpm"
-RPM_HASH = "a3f9ceae64ca861bc040c20f1462b44b962e54d0c8becbd1877b0975618068873de5a89e3866eb4fdd332b1c7815cea964577d6e512c8f8206fbc0afe0aa63d6"
+RPM_NAME = "jbig2dec-devel-0.20-2.13.aarch64.rpm"
+RPM_HASH = "e8713fde8ceeaf516a8ff218036fb4eb7368130598a45915e5270299d0b233472861ba53f165772934ca9c7bfdc643b7be22bf7577dca438c6f641f54fd7b0db"
 
 RPROVIDES:${PN} += "jbig2dec-devel \
 pkgconfig-jbig2dec"

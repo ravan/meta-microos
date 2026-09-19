@@ -20,15 +20,15 @@ Some of the best practices have been incorporated into the language itself, \
 making things really easy for developers and modders."
 LICENSE = "Apache-2.0"
 
-PV = "0.5.6.1"
+PV = "0.6.1"
 
-RPM_NAME = "surgescript-0.5.6.1-2.3.aarch64.rpm"
-RPM_HASH = "abebb7fd0944025b7e836db6f8cc504945e096b2ae899fb46703cef4e6fb817d0775604c6a1bdef85c9bcb2cc5d8c2979d0a8cef867f23343a36ac799f58f2f2"
+RPM_NAME = "surgescript-0.6.1-2.6.aarch64.rpm"
+RPM_HASH = "ba948edb58a35dac49df05dcaba5bec940c56e6a9dcbf14562a768f0a5d48e7193988523ea6b0e0b8f3bf3e185037d057ca1a6f2d13b3539023ccd7b74b589b9"
 
 RPROVIDES:${PN} += "surgescript"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libsurgescript.so.0.5.6"
+libsurgescript.so.0.6.1"
 
 inherit rpm

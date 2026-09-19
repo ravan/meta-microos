@@ -15,10 +15,10 @@ input data and can be reduced, if necessary, at some cost in \
 compression."
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.1"
 
-RPM_NAME = "zlib-devel-1.2.13-4.2.aarch64.rpm"
-RPM_HASH = "baa1c3acfd16896404321e2dc284569e890aa1188cafaa7719c98c0e721ee4d481594efa9fc68fd77b358a48c7c88ef9e465e5f6f870d62a4dea64dc153ea82d"
+RPM_NAME = "zlib-devel-1.3.1-3.3.aarch64.rpm"
+RPM_HASH = "c4008e3f3698e004953fdb07837423098044e86d4f757549be5e47e10a9ff1cbc1af896d386b764d788ae0d4a955aaf884171173d2d81c5ead10bf617e25d183"
 
 RPROVIDES:${PN} += "pkgconfig-zlib \
 zlib-devel"

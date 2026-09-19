@@ -13,25 +13,22 @@ LyX uses ImageMagick to deal with images. For security reasons \
 (in /usr/share/doc/packages/lyx/) for more information."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.3.7"
+PV = "2.5.2"
 
-RPM_NAME = "lyx-2.3.7-1.4.aarch64.rpm"
-RPM_HASH = "c9a6bad0cb58bc6aa72c1d2420e2f3151a25bfe08624aaec3df7d74194a12f674d5f0a05a59ed2127ebf1ae2bc022c75de225f5bf11da4d5708408957e1d281c"
+RPM_NAME = "lyx-2.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a51ba91ffd5d8b1fa7ccf0402f3ef645fe6c473a589e202ce78014c1204faa469d69e1cdf414cdb6d8dc547f9b45ab3d22e4805ebadc1aba0b503aca3b7fc259"
 
 RPROVIDES:${PN} += "lyx"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
 ImageMagick \
-aaa-base \
-coreutils \
 ghostscript \
-ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Svg.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libenchant-2.so.2 \
 libgcc-s.so.1 \
@@ -41,7 +38,6 @@ libmagic.so.1 \
 libmythes-1.2.so.0 \
 libstdc++.so.6 \
 libz.so.1 \
-lyx-fonts \
-perl"
+lyx-fonts"
 
 inherit rpm

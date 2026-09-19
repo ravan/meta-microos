@@ -1,27 +1,22 @@
 SUMMARY = "Python client libraries and plug-in support for libStorageMgmt"
-DESCRIPTION = " \
- \
- \
- \
-The python-libstoragemgmt package contains python client libraries as \
+DESCRIPTION = "The python-libstoragemgmt package contains python client libraries as \
 well as python framework support and open source plug-ins written in python. \
  \
  \
  \
  \
- \
-Provides:       python3-libstoragemgmt < 1.9.8-1.2"
+Provides:       python3-libstoragemgmt < 1.10.3-1.3"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.9.8"
+PV = "1.10.3"
 
-RPM_NAME = "python3-libstoragemgmt-1.9.8-1.2.aarch64.rpm"
-RPM_HASH = "77bf0c894d70255ccc1dababfaaf0c77375bd713f439e79386fd2373bf0c2f63a662d34df1e8dcc682f58dd790a8bf953a14a048ddf21fe7bf6a27c30e6de098"
+RPM_NAME = "python3-libstoragemgmt-1.10.3-1.3.aarch64.rpm"
+RPM_HASH = "83285d895ae45d06ba917e435628fc70c11ffc457e468a0c9084bb9c48804db0e458422d463a00dbe8aabdf230dc795cbb018d62aa58130b26dfd2351e52a0c9"
 
 RPROVIDES:${PN} += "config-python3-libstoragemgmt \
 python3-libstoragemgmt"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libstoragemgmt \

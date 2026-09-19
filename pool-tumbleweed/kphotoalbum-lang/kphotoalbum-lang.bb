@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kphotoalbum"
 DESCRIPTION = "Provides translations for the 'kphotoalbum' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.11.0"
+PV = "6.2.0"
 
-RPM_NAME = "kphotoalbum-lang-5.11.0-1.1.noarch.rpm"
-RPM_HASH = "54804d91e6bdf82f5bfe28dbe22b33d5c9ab8674f210ba25a5ab8da42f603a0b1036ebe13c5fdb12001efc00f5f4ab9616648614d16b3eb5ded314e5f641e599"
+RPM_NAME = "kphotoalbum-lang-6.2.0-1.4.noarch.rpm"
+RPM_HASH = "ad3fa3455459eaacc3baaebb7f83b2c7343fd4e953c0c8916544101ce8917fce4b49db6e4f5cc13de7c78a52e2f9ea6fb62e6b312c0a33ef5d5ab40692791bd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kphotoalbum-lang \
@@ -29,6 +29,7 @@ locale-kphotoalbum-fi \
 locale-kphotoalbum-fr \
 locale-kphotoalbum-ga \
 locale-kphotoalbum-gl \
+locale-kphotoalbum-he \
 locale-kphotoalbum-hi \
 locale-kphotoalbum-hr \
 locale-kphotoalbum-hu \
@@ -40,6 +41,7 @@ locale-kphotoalbum-ja \
 locale-kphotoalbum-ka \
 locale-kphotoalbum-km \
 locale-kphotoalbum-lt \
+locale-kphotoalbum-lv \
 locale-kphotoalbum-mai \
 locale-kphotoalbum-mr \
 locale-kphotoalbum-nb \

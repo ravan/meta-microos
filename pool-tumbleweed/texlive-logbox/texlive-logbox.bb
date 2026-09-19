@@ -5,10 +5,10 @@ is typeset (copied) with its dimensions, and its contents are \
 logged in the .log file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn24499"
+PV = "2026.226.1.0svn24499"
 
-RPM_NAME = "texlive-logbox-2023.209.1.0svn24499-55.1.noarch.rpm"
-RPM_HASH = "33395a9611d349558eb94388eca783e6cbe4d22ce586d1200cf92838f03672aa4aa538f3c5dcc7c2899c7830ec91491769cf7b60bb06ff52dfc182a79dbe7eb9"
+RPM_NAME = "texlive-logbox-2026.226.1.0svn24499-61.2.noarch.rpm"
+RPM_HASH = "793c026c47ce2ea843a4aa2ff83076dee0f5cd1d9d2b4c687b92b7370ac111d1acb233486786a259943252c7ceb5bb8c28b083639a9c06c1f93c9f83c2afcd85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-logbox.sty \

@@ -2,16 +2,17 @@ SUMMARY = "Translations for package proftpd"
 DESCRIPTION = "Provides translations for the 'proftpd' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.7f"
+PV = "1.3.9c"
 
-RPM_NAME = "proftpd-lang-1.3.7f-1.4.noarch.rpm"
-RPM_HASH = "185d72a83d6ce4220c76201258e9c3c9afd7fdd3a79b23e83626aa9cbbcbea50cf191e4907391f92b687bd9de749dafa07b8e85ec8bc823cfccbdfda9aa3e6a7"
+RPM_NAME = "proftpd-lang-1.3.9c-2.1.noarch.rpm"
+RPM_HASH = "5e82a8c360454566299c5928d63e97fc6c4284f70e84b9f546861b0013e4a2518f1f581b5325b36e57854dfd654b6d6aeb950f865dbc512a7423ba91317ff52b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-proftpd-en-US \
 locale-proftpd-es-ES \
 locale-proftpd-fr-FR \
 locale-proftpd-it-IT \
+locale-proftpd-pl-PL \
 locale-proftpd-ru-RU \
 locale-proftpd-zh-CN \
 locale-proftpd-zh-TW \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-functional"
 DESCRIPTION = "This package includes the documentation for texlive-functional"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2023asvn65485"
+PV = "2026.226.2024csvn76924"
 
-RPM_NAME = "texlive-functional-doc-2023.209.2023asvn65485-53.1.noarch.rpm"
-RPM_HASH = "fafb3e13ea797d5d53b2e2eeca09403386150057dca26ff07c30e05f0246c390cb956bdd4b50a87ea1f43fb573248e3d46efe0f5619a3608634701d8bf871e85"
+RPM_NAME = "texlive-functional-doc-2026.226.2024csvn76924-60.2.noarch.rpm"
+RPM_HASH = "6b353957ab0829f27cc067ddfc8eb375ed2af11c55612d4600a7a69f750be62319803708def7854d3ac4089cd15bc23e6df6a0a1ad7353c08555d5c13afa30c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-functional-doc"

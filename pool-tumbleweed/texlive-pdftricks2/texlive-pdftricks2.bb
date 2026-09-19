@@ -4,10 +4,10 @@ contain pstricks graphics specifications. The package is \
 inspired by pdftricks"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.01svn31016"
+PV = "2026.226.1.01svn31016"
 
-RPM_NAME = "texlive-pdftricks2-2023.209.1.01svn31016-52.1.noarch.rpm"
-RPM_HASH = "aba119197bf9d5ea44204b92642bdcfb39f88e78bb41c9bdd54bdd111343e0f710cf54d365ad06f41b44d19169bb6c5b1fe8ac791c5bda7a271f3a1029758fdf"
+RPM_NAME = "texlive-pdftricks2-2026.226.1.01svn31016-58.2.noarch.rpm"
+RPM_HASH = "5b727f36c1096354ce99f42d0778bacbd4cf7d0b46eb96e0efbcd600a1c04cabf963b91385a664ec0d94b2f84de6d59dbc8cc3d357c7ae731a79e91c663b8074"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdftricks2.sty \

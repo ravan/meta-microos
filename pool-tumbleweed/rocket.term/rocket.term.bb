@@ -4,15 +4,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "rocket.term-0.2.0-2.8.noarch.rpm"
-RPM_HASH = "520945dd4b6e35c67573f0337dc8322246ee7381d914f2e5526d99e3cdb87cb2d6da4184de84500e9c6d663d571a4ff25f0c23718bf55e259128685487ec4043"
+RPM_NAME = "rocket.term-0.2.0-2.18.noarch.rpm"
+RPM_HASH = "04bfa42c8dfe1afa45b2ea7e7f45df1f11c9817c3425b4104691a91e94102e48f73ba96848725a6a779d44a8513583bc519983ffe0b7945721ce6913c907aee1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rocket.term \
+RPROVIDES:${PN} += "python3.13dist-rocket.term \
 python3dist-rocket.term \
 rocket.term"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-requests \
 python3-urwid \

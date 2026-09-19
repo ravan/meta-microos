@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.1.0+0"
 
-RPM_NAME = "budgie-screensaver-lang-5.1.0+0-4.3.noarch.rpm"
-RPM_HASH = "038d8e8d2726890f1121109b3d9319c8f78e60197baa56cabec92db23ce8d943d19ac9f8f8e7a6e7f3ddd09ef04c2775d73a08a6afa2a7e2b057078aeb7ac69b"
+RPM_NAME = "budgie-screensaver-lang-5.1.0+0-1.5.noarch.rpm"
+RPM_HASH = "7bd37237539d3add453e5ad7c250bd2cf9c1e3db36cf83853ddeebfd80a0bd940c21423c33a5f26cb758e8dd5a8784483deb8fe905dd345f1c07293039b0737c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-screensaver-lang \

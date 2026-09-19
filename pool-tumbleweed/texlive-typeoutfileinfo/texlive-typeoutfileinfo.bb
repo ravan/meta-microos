@@ -6,10 +6,10 @@ LaTeX source file. The package requires that the readprov \
 package is available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.31svn29349"
+PV = "2026.226.0.0.32svn67526"
 
-RPM_NAME = "texlive-typeoutfileinfo-2023.209.0.0.31svn29349-53.1.noarch.rpm"
-RPM_HASH = "6db2dd8efaa5ef69cfb4f1cf30e02613374b3c4524f136ac5e201bab0a95be88c65d9afec719dcae6e5ba17e3f6efe5a440c1f040c0fba77e3abd9408966d38f"
+RPM_NAME = "texlive-typeoutfileinfo-2026.226.0.0.32svn67526-59.2.noarch.rpm"
+RPM_HASH = "2ed4aa6941661879129dd5bdb5a2d3412ef823db3b564212b5806a616c57a6b499a37e16f7a7b0e6147c3f8d7e07f96f4b805e91cbb5ba1f209d4c525b8116be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-typeoutfileinfo"
@@ -21,6 +21,7 @@ findutils \
 grep \
 sed \
 texlive \
+texlive-fileinfo \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \

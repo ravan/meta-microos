@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.8.2"
 
-RPM_NAME = "python3-libsoc-0.8.2-3.14.aarch64.rpm"
-RPM_HASH = "9806066f3697b1a93cbf502a6d8aa7b4281e8a4653b1b1d69827efc832438c4f95ab2bf12f7ac0a497bff4daee487e473fcc3fd668a79e0c5473ae7b2f97d2e4"
+RPM_NAME = "python3-libsoc-0.8.2-4.3.aarch64.rpm"
+RPM_HASH = "4f92d5a9e691fae609ecea783a7082b7406c7bc61b139d417d0dd53a859916525042d5ce02c0f3ab60f8cc8a5c9459c95de0fc9e7d69587088bfc8582bcf2b69"
 
 RPROVIDES:${PN} += "python3-libsoc"
 

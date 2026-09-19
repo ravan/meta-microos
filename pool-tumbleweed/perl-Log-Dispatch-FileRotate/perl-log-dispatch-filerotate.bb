@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.38"
 
-RPM_NAME = "perl-Log-Dispatch-FileRotate-1.38-1.11.noarch.rpm"
-RPM_HASH = "e4be1dea328069304cd5901ee43cab7844bce007753a97ed47152efc9bacd512606202bbd4e3265d2fc36090cdffd0e2a27b366d05c3c111f628ed38d4738936"
+RPM_NAME = "perl-Log-Dispatch-FileRotate-1.38-1.25.noarch.rpm"
+RPM_HASH = "c4e067918e82a8489c4164f602fd67b37abede7922a1c1cb0007a8c83cd633c1ab1bb16001215fb422416f58488744514949f71944a81a3ae788602f59b8d11a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Dispatch--FileRotate \
@@ -16,7 +16,7 @@ perl-Log--Dispatch--FileRotate--Flock \
 perl-Log--Dispatch--FileRotate--Mutex \
 perl-Log-Dispatch-FileRotate"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Date--Manip \
 perl-Log--Dispatch \
 perl-Log--Dispatch--File \

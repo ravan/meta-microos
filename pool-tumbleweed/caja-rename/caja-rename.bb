@@ -9,25 +9,13 @@ to be as simple as possible, without confusing advanced \
 operations."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "22.10.31"
+PV = "24.5.1"
 
-RPM_NAME = "caja-rename-22.10.31-1.3.noarch.rpm"
-RPM_HASH = "4e2854d8aed12d06a0f22c90677107835966a36b81585afe2353cc27e7e24f33a3f6eeaff8fda03c71ffb62717a096385560abf3d409e38430241ab5b4d4a769"
-REPO_ARCH = "noarch"
+RPM_NAME = "caja-rename-24.5.1-1.11.aarch64.rpm"
+RPM_HASH = "701ee0d55cdc2f9c4fbe4501bde9f713aca5823762a4109af99224fea7c7a161a8ae02cdf6377bf8e1e348587e73bf81a6703ee5736b609a223983cdca811d81"
 
-RPROVIDES:${PN} += "caja-rename \
-python3.11dist-cajarename \
-python3dist-cajarename"
+RPROVIDES:${PN} += "caja-rename"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-caja \
-python-abi \
-python-caja \
-python3-gobject \
-python3-gobject-Gdk \
-typelib-Caja \
-typelib-GObject \
-typelib-Gio \
-typelib-Gtk"
+RDEPENDS:${PN} += "caja"
 
 inherit rpm

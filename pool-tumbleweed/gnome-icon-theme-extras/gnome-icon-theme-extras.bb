@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0"
 
 PV = "3.12.0"
 
-RPM_NAME = "gnome-icon-theme-extras-3.12.0-3.19.noarch.rpm"
-RPM_HASH = "944331e91b6bf82fdf201495dd918ad93615b271261e6faf502b42667cab5ff1750ca46b44c54c8876b875a4cf648a24e8c796c10a69ccc3e50d5bdd30af0f8e"
+RPM_NAME = "gnome-icon-theme-extras-3.12.0-3.27.noarch.rpm"
+RPM_HASH = "fc15e6533a9ea244d9d952ec07812feeb063373ad799503bb5c483b4bf76b933f915e7743dfca5275a475476f80942b093feb9ec09bab260b0a35b94fae6e22a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-icon-theme-extras"

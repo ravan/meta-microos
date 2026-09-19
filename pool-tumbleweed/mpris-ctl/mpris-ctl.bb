@@ -3,10 +3,10 @@ DESCRIPTION = "Minimalistic cli tool for controlling audio players exposing a MP
 DBus interface, targeted at keyboard based WMs."
 LICENSE = "MIT"
 
-PV = "0.8.5"
+PV = "1.0.1"
 
-RPM_NAME = "mpris-ctl-0.8.5-1.3.aarch64.rpm"
-RPM_HASH = "2f549c840553f97e0d7f63e8bb26f41332ba5d3f7f297624d2fd6425d34094bc54d268ac47902459069d1fa5cd3ac449a300fded8ee7d29764b95c9254959213"
+RPM_NAME = "mpris-ctl-1.0.1-1.4.aarch64.rpm"
+RPM_HASH = "2bd5961ddc6a5f213ade7208870dec72d26daf0bad0bb1bb6964e25d0a94fcfc78e0ffb49dd4a4e1998ac85d1e97be0fb665235e9be22880f1fd8239824a7e67"
 
 RPROVIDES:${PN} += "mpris-ctl"
 

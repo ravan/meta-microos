@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the static versions of the OpenLDAP librari
 for development."
 LICENSE = "OLDAP-2.8"
 
-PV = "2.6.4"
+PV = "2.6.13"
 
-RPM_NAME = "openldap2-devel-static-2.6.4-2.2.aarch64.rpm"
-RPM_HASH = "1e31b2846855efb46464e85b08447ad372e119176e0da1c9a2bbd6162682fa199561b1e771c09dcb89bd18a2b629647db0aa70e5a2a76bceeb659f880296eb6f"
+RPM_NAME = "openldap2-devel-static-2.6.13-1.6.aarch64.rpm"
+RPM_HASH = "097c27b5e2aa7957a66d9f57f7cd9fbd4267875b4e96580002f99d1a96b7453fd0923a2edc31fb0aad630570e84875c0e772622fc56272189d63102652084965"
 
 RPROVIDES:${PN} += "openldap2-devel-static"
 

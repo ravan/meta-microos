@@ -8,14 +8,14 @@ LICENSE = "MIT"
 
 PV = "1.0.93"
 
-RPM_NAME = "toluapp-5.1-1.0.93-10.4.aarch64.rpm"
-RPM_HASH = "17154f6ff08b82abf7e6b428e10d18df88f502b3cb9b84e3f17e4e34b17683e895c1ae7004fd517e7d66a76b4cceb427d92a2586e9dc670c6280c95f6daa5fa7"
+RPM_NAME = "toluapp-5.1-1.0.93-13.4.aarch64.rpm"
+RPM_HASH = "02091895945c2d33a3da36784080831dd055ec1f80c66f84c583d9f44d6435257c3e0cb884c848cbfdf17491aea2f62edfd354c3078bbd3385e885218bbbd0d9"
 
 RPROVIDES:${PN} += "toluapp-5.1"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
-liblua5.1.so.5 \
+libluajit-5.1.so.2 \
 libm.so.6 \
 libtolua++-5.1.so.1 \
 update-alternatives"

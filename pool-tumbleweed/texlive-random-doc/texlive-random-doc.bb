@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-random"
 DESCRIPTION = "This package includes the documentation for texlive-random"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.0.0.2svn54723"
+PV = "2026.226.0.0.2svn54723"
 
-RPM_NAME = "texlive-random-doc-2023.209.0.0.2svn54723-54.2.noarch.rpm"
-RPM_HASH = "192bf45d58d32284fe6f7580c35b51452ee841fad76b0813ba9e1f9f41f07aa062f29088697c856afaa2170e1963fcbf315ea4bfb7b040a0ec4f9f35211306b0"
+RPM_NAME = "texlive-random-doc-2026.226.0.0.2svn54723-60.4.noarch.rpm"
+RPM_HASH = "91f5efa692587ddbd216bb15530b05df1a4091b208d83446bc1e10df5bb37dffa4506fcf3e92060774b83ed4d82219cc9af6fc73f3345786379a774d1f07e7c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-random-doc"

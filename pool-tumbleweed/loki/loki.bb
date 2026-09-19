@@ -1,13 +1,14 @@
 SUMMARY = "Loki: like Prometheus, but for logs"
-DESCRIPTION = "Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. \
+DESCRIPTION = "Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation \
+system inspired by Prometheus. \
  \
-This package contains the Loki server"
+This package contains the Loki server."
 LICENSE = "Apache-2.0"
 
-PV = "2.8.3+git.1689949088.0d81144c"
+PV = "3.7.7"
 
-RPM_NAME = "loki-2.8.3+git.1689949088.0d81144c-1.1.aarch64.rpm"
-RPM_HASH = "5c9ab0cffb34b9bdf631176049d38f1bf0733f988b86f433014392360630056453e1627e0455bf31abb7cad5176898e6a6fa3efe4028a031be6eb89aab5a97f3"
+RPM_NAME = "loki-3.7.7-1.1.aarch64.rpm"
+RPM_HASH = "e19a59097394b7fb3e100fd1b541d765c5cdeeded1d50085ce76966e59d1726617dc0451ec085b119cfa0304a55db97939c6ec30a6f854639a5e3f8df3bc7bd8"
 
 RPROVIDES:${PN} += "config-loki \
 loki"

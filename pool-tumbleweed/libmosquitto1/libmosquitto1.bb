@@ -6,10 +6,10 @@ lightweight method of carrying out messaging using a publish/subscribe model. \
 This package holds the shared C library."
 LICENSE = "EPL-1.0"
 
-PV = "2.0.15"
+PV = "2.0.23"
 
-RPM_NAME = "libmosquitto1-2.0.15-1.5.aarch64.rpm"
-RPM_HASH = "2465d668f68a131eacb465245c41431e75f17a374ad72af786a4cc8871563edb1319528322fcf56acafcc175d4a839ec377124fcdcd080720aa29eaa99cfcccd"
+RPM_NAME = "libmosquitto1-2.0.23-1.4.aarch64.rpm"
+RPM_HASH = "5caea00d13e17d0d2c25c99edd64eb246f191afc64a078790d518643816a9a441795f65160a4fa851fa2a75051f35bf7cf65d8b68e16b7b4c51390b2aa999566"
 
 RPROVIDES:${PN} += "libmosquitto.so.1 \
 libmosquitto1"

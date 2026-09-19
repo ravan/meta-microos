@@ -2,10 +2,10 @@ SUMMARY = "Translations for package goffice"
 DESCRIPTION = "Provides translations for the 'goffice' package."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "0.10.55"
+PV = "0.10.61"
 
-RPM_NAME = "goffice-lang-0.10.55-1.4.noarch.rpm"
-RPM_HASH = "30cd0faec9cbe973d98d74742859ae2392107c9d6589bf3cfbb84166c96210899cfb8ea10cc2d17abdbb455855a81ed72a3e0370814c3d820d85bd341c1dc1ac"
+RPM_NAME = "goffice-lang-0.10.61-1.3.noarch.rpm"
+RPM_HASH = "84d29debde87b60d9395f3f9b8f86b66a02b51ca3eb5f06632b36d12be10dfa62acdbf235775002671c48306b17baf5f6b8b0bdb78c8f215f58905762bfdf617"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "goffice-lang \
@@ -38,6 +38,8 @@ locale-goffice-hu \
 locale-goffice-id \
 locale-goffice-it \
 locale-goffice-ja \
+locale-goffice-ka \
+locale-goffice-kk \
 locale-goffice-ko \
 locale-goffice-lt \
 locale-goffice-lv \

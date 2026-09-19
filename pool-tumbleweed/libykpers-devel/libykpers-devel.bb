@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.20.0"
 
-RPM_NAME = "libykpers-devel-1.20.0-3.8.aarch64.rpm"
-RPM_HASH = "c3ea2b26db9f2e9b35390b31df1c6b54d6f55fe5a4157f734007f683f41c7c3aafec6182f5728c7ee24849c4480c48dad3dab9c90f5dc9403d2db862b5268e53"
+RPM_NAME = "libykpers-devel-1.20.0-3.18.aarch64.rpm"
+RPM_HASH = "373bcdacffe320770c7e49ce0cb84a0ff8909e101cb5e99c97891e2b16894b999090db150c48cc67d61a16af6ab6b80c52688985831d5e38fcc56df9cca61b61"
 
 RPROVIDES:${PN} += "libykpers-devel \
 pkgconfig-ykpers-1"

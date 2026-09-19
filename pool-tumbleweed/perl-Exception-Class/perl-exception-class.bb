@@ -25,17 +25,17 @@ which is the default base class for all exception objects created by this \
 module."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.45"
+PV = "1.450.0"
 
-RPM_NAME = "perl-Exception-Class-1.45-1.11.noarch.rpm"
-RPM_HASH = "17f0e7b2db7cb59213d31580d077091a4cf916b98fdbf7ce47761f7696a4fce3d495c7225705c36b443d84e9e987ed0f38dd2da7cba14b3172a9948cf6237052"
+RPM_NAME = "perl-Exception-Class-1.450.0-1.5.noarch.rpm"
+RPM_HASH = "7a08100613de3ddabf23c1b1ba39fe9531fe1c68797de6a51e3786a50e3c9b90827ba5071c27e1ffc88701ff4e9fd964deaddf70f14737b08a343ecddf185268"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Exception--Class \
 perl-Exception--Class--Base \
 perl-Exception-Class"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Data--Inheritable \
 perl-Devel--StackTrace"
 

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4"
 
-RPM_NAME = "libctemplate3-2.4-1.10.aarch64.rpm"
-RPM_HASH = "00c41428e31bb7db2428cf0459c34ac44e4b2b479970eb079035370443ff8c7fb34ae2d99ee2c6c9161f862b134805857c3f1966de1583584511dee30b7ac847"
+RPM_NAME = "libctemplate3-2.4-2.1.aarch64.rpm"
+RPM_HASH = "6143f2be05a41049eb2f05f65b796668e496fc3f8e0040d7051cd4da844ebb0b3086d0754254411f9265d93aed36598d028ef1c6d5a648abde0f1671d4859a11"
 
 RPROVIDES:${PN} += "libctemplate-nothreads.so.3 \
 libctemplate.so.3 \

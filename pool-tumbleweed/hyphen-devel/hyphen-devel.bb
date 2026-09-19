@@ -2,12 +2,12 @@ SUMMARY = "Files for Developing with hyphen"
 DESCRIPTION = "Hyphen is a library for high quality hyphenation and justification. \
  \
 This package contains the hyphen development files."
-LICENSE = "GPL-2.0+ | LGPL-2.0+ | MPL-1.1+"
+LICENSE = "GPL-2.0-or-later | LGPL-2.0-or-later | MPL-1.1+"
 
-PV = "2.8.8"
+PV = "2.8.9"
 
-RPM_NAME = "hyphen-devel-2.8.8-2.27.aarch64.rpm"
-RPM_HASH = "cc58cb00ab18db13cd877a9b269df031abb853e62ad4876160e0be278fd30041e202acd1cc6e936b44d7a251f45691cde58309995d58a8f9919b01fe13969ea2"
+RPM_NAME = "hyphen-devel-2.8.9-1.3.aarch64.rpm"
+RPM_HASH = "398e854d07277827e30af7d8eb19d9e4de51770888bffead353a8ca916928a52fc6dc1fd69a55c30ca7b3aa8c8e386ef828153dfed805a21a9533868097b9c49"
 
 RPROVIDES:${PN} += "hyphen-devel"
 

@@ -8,16 +8,16 @@ Translators from GNU Hurd kernel. Much of the code in GlusterFS is in \
 user space and easily manageable."
 LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
-PV = "11.0"
+PV = "11.1"
 
-RPM_NAME = "glusterfs-11.0-4.1.aarch64.rpm"
-RPM_HASH = "f1b0f1610b5ea475a600e7fea48c91132b0d40ab90220f46d0e4b05de62aef2c9bef6a5896f22c25a0c903bb4da584b123a27ad0e60d351b48155ad8992d5097"
+RPM_NAME = "glusterfs-11.1-4.10.aarch64.rpm"
+RPM_HASH = "ad406d2dba9d661b6e9e0a6f10059b77fe8a9a3a52e26dee80681b3fd4c8d6fb4febf5747845222bc3f47d238b058d3bce753ed12cb60fddc99436bc01299bf8"
 
 RPROVIDES:${PN} += "config-glusterfs \
 glusterfs"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libacl.so.1 \
@@ -39,7 +39,7 @@ libssl.so.3 \
 libtirpc.so.3 \
 liburcu-bp.so.8 \
 libuuid.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

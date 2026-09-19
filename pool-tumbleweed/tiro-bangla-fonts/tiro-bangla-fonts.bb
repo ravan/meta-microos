@@ -7,8 +7,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.52"
 
-RPM_NAME = "tiro-bangla-fonts-1.52-1.2.noarch.rpm"
-RPM_HASH = "e0b58bafe5c7e65d8d26fa7a98060315a70ab6e5fb0c3e4d7cd58f4ed79facd3037e8f7f07f0b0dc373b05cac821515d5330c33ae0094513e33077342194684b"
+RPM_NAME = "tiro-bangla-fonts-1.52-2.7.noarch.rpm"
+RPM_HASH = "7b64190858611364f6e60acf5c54b5d2a527ff17af8c4297797512338b518afa08a911ac1daf881d51db47c217b73b7025aae2c387bc70cb9e44b35ad6b8f675"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiro-bangla-fonts"

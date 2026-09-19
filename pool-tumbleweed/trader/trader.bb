@@ -4,10 +4,10 @@ is to create companies, buy and sell shares, borrow and repay money, in \
 order to become the wealthiest player (the winner)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.18"
+PV = "7.21"
 
-RPM_NAME = "trader-7.18-1.4.aarch64.rpm"
-RPM_HASH = "a5fbd1be878756c229ef01a16bdd113a93961efbb75d2ad03ba09f3059f1626d0b3da157964320b59235a01610ee2a5f15bcbd261437c04410457f4899b3ed5f"
+RPM_NAME = "trader-7.21-2.3.aarch64.rpm"
+RPM_HASH = "215a81196daa5afebadd89438b8f7d25679d0804e7c0c4955f9ae5240a9d0407f5501034d468a18295d2ebb19222c07c229b8bcf2263f37be4b85fd62388bcd7"
 
 RPROVIDES:${PN} += "trader"
 

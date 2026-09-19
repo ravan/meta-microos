@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0+git.1440884867.e190291"
 
-RPM_NAME = "omnisharp-server-0+git.1440884867.e190291-1.19.noarch.rpm"
-RPM_HASH = "4f41d27c22546e130c96468c4d2b7217eefd760a2d7ab6fc83863291664cd9ee702672e314513106a7b91911e35f540ae5bbaacfc80b4dfa2c9ac0d8acb53eb4"
+RPM_NAME = "omnisharp-server-0+git.1440884867.e190291-1.34.noarch.rpm"
+RPM_HASH = "416fb02e9d4cbbfa0926e92e77357fed3d1eb515276523af51e3f7a463fb6f1f76005b3ed7a13620700f1ba84d545bc99d1e1f39d5318d27152ca447f6665d9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "omnisharp-server"

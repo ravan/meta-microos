@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides the means of declaring a set of counters \
 to be stepped, each time some 'master' counter is stepped."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8svn38497"
+PV = "2026.226.0.0.8svn38497"
 
-RPM_NAME = "texlive-assoccnt-2023.209.0.0.8svn38497-54.1.noarch.rpm"
-RPM_HASH = "7c27d6ca716ad1d9b36a730b17155e0efa742811b8e931692149322d205a925ba6e29e6c2f11cb47fb7f2e8818ae0643c53955d55b1ddc69adca9217cda680f2"
+RPM_NAME = "texlive-assoccnt-2026.226.0.0.8svn38497-60.2.noarch.rpm"
+RPM_HASH = "1cf859cda089c28ad32949c4cac1a893754d58c5d56e8cedb703ba29c21f813501ed92c4adebc4e0084d0c4d710356b9c905c5cd821ad518b9cb1672a2195cd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-assoccnt.sty \

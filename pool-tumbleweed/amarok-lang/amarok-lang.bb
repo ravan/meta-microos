@@ -2,10 +2,10 @@ SUMMARY = "Translations for package amarok"
 DESCRIPTION = "Provides translations for the 'amarok' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.9.75git.20230408T114133~7098c192a6"
+PV = "3.3.3"
 
-RPM_NAME = "amarok-lang-2.9.75git.20230408T114133~7098c192a6-1.4.noarch.rpm"
-RPM_HASH = "99e784798c654ce0d5e3ac3038da7a77ffb33ce0ce22682d585fb06b9a453161a1a9092d7d0e425dbff057dfb68c13fc108a62d42b15f8d69512523e51013844"
+RPM_NAME = "amarok-lang-3.3.3-1.3.noarch.rpm"
+RPM_HASH = "77c4a1e0c479530038cbf5636eef189abf40ae5f6eb34abed45335ef32cd677cad262bbbf312080f9e08ff8e8664cab20ed575293aee13be4513fd119c280df6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "amarok-lang \

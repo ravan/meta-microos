@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tile-graphic"
 DESCRIPTION = "This package includes the documentation for texlive-tile-graphic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn55325"
+PV = "2026.226.svn55325"
 
-RPM_NAME = "texlive-tile-graphic-doc-2023.209.svn55325-53.1.noarch.rpm"
-RPM_HASH = "98ad84dccc007411eb52a37824d540f7e7a1bb08a430008f27a375f6f04ac34ccee68c7e8e29be63826fd71affe27b1acdb6a67f40febdb9c51e4412b2898a73"
+RPM_NAME = "texlive-tile-graphic-doc-2026.226.svn55325-59.2.noarch.rpm"
+RPM_HASH = "bacd791bb39b25759acef798a45dde7a532125e5e4b6b358e54bb6bb1b12b5ed0bdd8dadaf40d039f20b7d4175eb414d19a94d4caa032f43c1a403a16d7413fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tile-graphic-doc"

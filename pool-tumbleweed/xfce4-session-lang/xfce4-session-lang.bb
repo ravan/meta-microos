@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-session"
 DESCRIPTION = "Provides translations for the 'xfce4-session' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.18.3"
+PV = "4.20.4"
 
-RPM_NAME = "xfce4-session-lang-4.18.3-1.1.noarch.rpm"
-RPM_HASH = "dae6a3d9691b239733c8e601ef95dc8938d3e12fc7c3f7ad580135ba3eaaa780f327ca35e4d6ce5f4361848ea905e013c4ecc461722e3da2d10872aabe323625"
+RPM_NAME = "xfce4-session-lang-4.20.4-1.3.noarch.rpm"
+RPM_HASH = "8b725d3a7403c1cd5e84798ca9b5dfc9daf2b10bc448093382693d6a2232c1cd893a212d59e2ea15af2bbcaba06b99e111e81f69f3265bfe94c14dc7398f5323"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-session-ar \
@@ -37,6 +37,7 @@ locale-xfce4-session-id \
 locale-xfce4-session-is \
 locale-xfce4-session-it \
 locale-xfce4-session-ja \
+locale-xfce4-session-ka \
 locale-xfce4-session-kk \
 locale-xfce4-session-ko \
 locale-xfce4-session-lt \

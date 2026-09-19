@@ -9,10 +9,10 @@ identical, so the catalogue only lists one; the sources of the \
 examples do of course differ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02asvn52922"
+PV = "2026.226.0.0.02asvn52922"
 
-RPM_NAME = "texlive-powerdot-fuberlin-2023.209.0.0.02asvn52922-53.1.noarch.rpm"
-RPM_HASH = "bc8597aead2a8a132a29d804941ae0f3e85ab4903ef8747f7c3610b24f2352b81fcb0d5843a9f0437acfcf5fcddf189d50df267b6534945c24f7e3cad6c3b673"
+RPM_NAME = "texlive-powerdot-fuberlin-2026.226.0.0.02asvn52922-59.2.noarch.rpm"
+RPM_HASH = "8edbc29657e7b35b0ab06c8761549df0b1221eb989a06d006ef4ff6065a0b254ce34b7bf241f8819e77949d86086f6c33429197284d56c5947b39eaded3f2800"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-FUpowerdot.cls \

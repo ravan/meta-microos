@@ -8,10 +8,10 @@ data associated with an address. \
 This package contains the development files for libmaxminddb."
 LICENSE = "Apache-2.0"
 
-PV = "1.7.1"
+PV = "1.13.3"
 
-RPM_NAME = "libmaxminddb-devel-1.7.1-1.2.aarch64.rpm"
-RPM_HASH = "2e28bbe7840ddcc096a81a8c639e2f5bc8ab2782d87054a7d7f04e7c36e562d063a12f4b9fe7a27ab368c6aaaa6c7f7b13927d3bae5a32e7f5ba86dcb9a84395"
+RPM_NAME = "libmaxminddb-devel-1.13.3-1.4.aarch64.rpm"
+RPM_HASH = "aca8265e744af1866069f7637c82aa2aabc18707f164bf3acf19957a2b8e1180619ecf9828283252a48187cb3b295d7ae582a64c1b5ea7d2b700c613b893d09d"
 
 RPROVIDES:${PN} += "libmaxminddb-devel \
 pkgconfig-libmaxminddb"

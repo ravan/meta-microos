@@ -6,10 +6,10 @@ federated environment where several otherwise-independent storage endpoints \
 want to delegate trust for an issuer for managing a storage allocation."
 LICENSE = "Apache-2.0"
 
-PV = "0.6.3"
+PV = "1.1.3"
 
-RPM_NAME = "libSciTokens0-0.6.3-2.2.aarch64.rpm"
-RPM_HASH = "61773f6ee9d0ea647cf842a92a931bac514ebfe488c3a360d5b25bee1588f9a0d38a223509cbd7ea0a92025ef8cd27f7c970626168be8e3af4685cc7d763f38e"
+RPM_NAME = "libSciTokens0-1.1.3-1.5.aarch64.rpm"
+RPM_HASH = "00435f4dd5e1284a34a9538bb3b6ce86853a4a59da34fe01774140c33d0951ca637d806e7565ad325bc365626c6130a81ebead3f372b11f74065faa93e545e7a"
 
 RPROVIDES:${PN} += "libSciTokens.so.0 \
 libSciTokens0"

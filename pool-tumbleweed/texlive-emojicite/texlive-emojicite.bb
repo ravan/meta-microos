@@ -2,10 +2,10 @@ SUMMARY = "Add emojis to citations"
 DESCRIPTION = "This package adds emojis to citations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn55131"
+PV = "2026.226.0.0.3svn76924"
 
-RPM_NAME = "texlive-emojicite-2023.209.0.0.3svn55131-54.2.noarch.rpm"
-RPM_HASH = "1280f09fdabeb74f6c9e8e7976b57d682eaed80f0fe5bf857738c91710e9bb14b18b15ebe32607ef3af0321e0087df7d7f89994d3193c8f8118fee25cd2b780f"
+RPM_NAME = "texlive-emojicite-2026.226.0.0.3svn76924-61.4.noarch.rpm"
+RPM_HASH = "af3b278c3f12a04e505a84e6ecec5323c41914681af51c64cb6b27df7fb8557cedc23e7f91392ab15e642970193eacea6c51890dcc0b63255444e58bbb427e0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emojicite.sty \

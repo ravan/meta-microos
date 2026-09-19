@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later | SPL-1.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "bsh2-bsf-2.1.1-1.1.noarch.rpm"
-RPM_HASH = "e37821e2a9c7a9c90ccd8e569496ec6fbbb8e1511bf0b088c0e96e46d0a87e26190d1acd74bb6db8a96043297de5e38fcfec77e214e0a63db922d9a69e82a786"
+RPM_NAME = "bsh2-bsf-2.1.1-2.9.noarch.rpm"
+RPM_HASH = "5aeaeb9aec92f7f801be907f5a8d140e29b5aa78452707cb18bbc652976dd632531fb55588bb6ef8265f1cff4186e55c7e1d66d092d25ae5667ef977093bf351"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bsh2-bsf"

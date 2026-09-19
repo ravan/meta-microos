@@ -2,10 +2,10 @@ SUMMARY = "Translations for package dasher"
 DESCRIPTION = "Provides translations for the 'dasher' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.0.0"
+PV = "5.0.0+199"
 
-RPM_NAME = "dasher-lang-5.0.0-1.8.noarch.rpm"
-RPM_HASH = "c0902c9f4459b2f1e1b2a58f4ec1d0cb8a4405240ba7cbe3221560892cffcec67d92ba8a998c4ef2d144c535746993ccd35b0222d9dc56148b2b448cf0891f7a"
+RPM_NAME = "dasher-lang-5.0.0+199-3.4.noarch.rpm"
+RPM_HASH = "98431089b78d65bdc4575e111f6dea2f8b2dfabda3ab45ec7e78a41838bdca80bba9e39bb77c150b039f59cd45e1e51099cd0c00d4c572b3a07714f742d3f3c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dasher-lang \

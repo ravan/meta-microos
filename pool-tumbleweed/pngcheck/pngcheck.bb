@@ -8,12 +8,12 @@ the embedded text annotations. All PNG and JNG chunks are supported, plus \
 almost all MNG chunks (everything but PAST, DISC, tERm, DROP, DBYK, and \
 ORDR). This is a command-line program with batch capabilities (e.g., \
 ``pngcheck *.png'')."
-LICENSE = "GPL-2.0-or-later & HPND"
+LICENSE = "HPND"
 
-PV = "3.0.3"
+PV = "4.0.1"
 
-RPM_NAME = "pngcheck-3.0.3-1.9.aarch64.rpm"
-RPM_HASH = "6e82bfbf21acc9c47c7c663d1b015de1d01e38f7adfc07029a03a4640298b8385e3588dc9ecbb36eab5d4c9a72faabbf246624f93612a7b741dcbd809b75e930"
+RPM_NAME = "pngcheck-4.0.1-1.4.aarch64.rpm"
+RPM_HASH = "20df6297758d3a93b876edc6fd69565b106224302682a21c8f6a641e1fbd072b91373ec609adc9f4620eb26563152ea1d1eb3ae208222318706f3b1c660df95a"
 
 RPROVIDES:${PN} += "pngcheck"
 

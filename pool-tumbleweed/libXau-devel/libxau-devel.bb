@@ -9,10 +9,10 @@ This package contains the development headers for the library found \
 in libXau6."
 LICENSE = "MIT"
 
-PV = "1.0.11"
+PV = "1.0.12"
 
-RPM_NAME = "libXau-devel-1.0.11-1.2.aarch64.rpm"
-RPM_HASH = "38ef74131b41ad7f58269620ff52aae0961c2922843a12273add0053bc3cd48cb07d6100e94ac9af33d8ebc4fad2bc23ce502d9b5843b472d694d65e8b86c15c"
+RPM_NAME = "libXau-devel-1.0.12-2.5.aarch64.rpm"
+RPM_HASH = "9fdbf7bbcacf4e02081772ae50530d314d3d6cbd26948fb52058c9d8acef56b4c86c9ca2b1bcb906e5821e118a83aa61eb8ef08aa316b7f00bf1c10727a49056"
 
 RPROVIDES:${PN} += "libXau-devel \
 pkgconfig-xau \

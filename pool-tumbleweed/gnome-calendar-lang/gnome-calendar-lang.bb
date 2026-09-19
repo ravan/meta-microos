@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-calendar"
 DESCRIPTION = "Provides translations for the 'gnome-calendar' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.1"
+PV = "50.0"
 
-RPM_NAME = "gnome-calendar-lang-44.1-2.1.noarch.rpm"
-RPM_HASH = "d501f70ca67a453d266bda8ecc4ea0d779ef3ecb185f29bbcd2711861ee26dc2f0f7184701c319bdf7aef81ebd9b8c2b3f194e8079bb9a3940c8989cb42a1017"
+RPM_NAME = "gnome-calendar-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "337227ba7e756117d3678be20880b35abdf6b69bb6110022a808e0ca047ef8356c7222e82a1a1790d63b889e26aa5fd891c00543dffd10a276dce82d30bb2c80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-calendar-lang \
@@ -13,6 +13,7 @@ gnome-calendar-lang-all \
 locale-gnome-calendar-af \
 locale-gnome-calendar-ar \
 locale-gnome-calendar-be \
+locale-gnome-calendar-be@latin \
 locale-gnome-calendar-bg \
 locale-gnome-calendar-bs \
 locale-gnome-calendar-ca \
@@ -66,6 +67,7 @@ locale-gnome-calendar-sv \
 locale-gnome-calendar-ta \
 locale-gnome-calendar-th \
 locale-gnome-calendar-tr \
+locale-gnome-calendar-ug \
 locale-gnome-calendar-uk \
 locale-gnome-calendar-vi \
 locale-gnome-calendar-zh-CN \

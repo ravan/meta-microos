@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "liboldX-devel-1.0.1-12.1.aarch64.rpm"
-RPM_HASH = "5b8d88da787e61bc7eeb3c0c359295f0c007f45fbd01614a58e516c90cae72b31fedb90a8c73349f416a54ed74de8dc5ffc8965d739718b7f01edd227febd171"
+RPM_NAME = "liboldX-devel-1.0.1-13.5.aarch64.rpm"
+RPM_HASH = "06328315c47654fa509363dfdbbfef0dc85bb5a85b0fcf996682d90f055966924bc4e0557959755069ad7941af59c2fa91746d1452de83879157df6bc4e5d5d4"
 
 RPROVIDES:${PN} += "liboldX-devel \
 pkgconfig-oldx"

@@ -4,10 +4,10 @@ system, generic in nature, but intended for use in speeding up dynamic \
 web applications by alleviating database load."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.21"
+PV = "1.6.45"
 
-RPM_NAME = "memcached-1.6.21-1.1.aarch64.rpm"
-RPM_HASH = "2f39117d706e7b832e05b9140ae16a06e1ed3f63859dca5f07e42699c0825a5a648d6c71b2574c994bbc4ba9764c241093df6b1eac9b909ee7a1a250199e72e9"
+RPM_NAME = "memcached-1.6.45-1.1.aarch64.rpm"
+RPM_HASH = "4034b34d2e9a4b906dca49f2a2e9c7a48e81806c0a274013ad829c5427205bc22e6736110f2ce14de2f53ec087ce6476cddd9b4293b5b94944b1dbcf253c5ae0"
 
 RPROVIDES:${PN} += "group-memcached \
 memcached \
@@ -22,6 +22,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libevent-2.1.so.7 \
+libm.so.6 \
 libsasl2.so.3 \
 libssl.so.3 \
 sysuser-shadow"

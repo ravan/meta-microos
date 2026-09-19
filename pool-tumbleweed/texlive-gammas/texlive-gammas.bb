@@ -5,10 +5,10 @@ open-access online yournal run by the GAMM Juniors (GAMM = \
 Gesellschaft fur angewandte Mathematik und Mechanik)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn56403"
+PV = "2026.226.1.1svn56403"
 
-RPM_NAME = "texlive-gammas-2023.209.1.1svn56403-53.1.noarch.rpm"
-RPM_HASH = "058799a12fa18126733a02926bd1bf15da3554c7a1d7c1cdd572cc7c13141bf95e5db183e368d64cdc33479cf7c83e2cb1f81253b8eda6ee6d5078b0da95147f"
+RPM_NAME = "texlive-gammas-2026.226.1.1svn56403-60.2.noarch.rpm"
+RPM_HASH = "e953a19174a98a3c1913022f8df31e18b3ccf9b1a07a999becf653ee23349a75b41ffaa8905b251b031cc9062c9ac284bd72576af98d8ed78334868965cb2a0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gammas.cls \

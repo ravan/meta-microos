@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "termshark-2.4.0-1.1.aarch64.rpm"
-RPM_HASH = "7784c8abb7779611026ac356ead3c153daf1df6cfdfa4a30e5b4ece2f876290137e43d89158b16108be5f8b2b6e4e331d1a091f652119caf66f132d63ad419e3"
+RPM_NAME = "termshark-2.4.0-1.17.aarch64.rpm"
+RPM_HASH = "6d7a49824ef27e603b7e9afd9253cfacf00887bfbbe3d2d5d3cb374a7031f05d95d1aeefcaaeb2911bf075ff96c7b3717a2946c9065f70fd42872dd3bf717c22"
 
 RPROVIDES:${PN} += "termshark"
 

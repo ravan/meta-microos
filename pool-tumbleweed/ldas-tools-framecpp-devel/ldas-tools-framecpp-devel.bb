@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the headers and sources needed for developi
 using ldas-tools-framecpp - a toolkit providing C++ bindings for libframe."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.7.0"
+PV = "3.0.4"
 
-RPM_NAME = "ldas-tools-framecpp-devel-2.7.0-2.13.aarch64.rpm"
-RPM_HASH = "53e39d81f0df55f1a3bc11a9afa1e763e9bbd37484b36dce6ab9a5e6706b15c4871184a3478ab908a83cdc77422c672a7ec5b1d08c07721b84cd0075fa1c84ed"
+RPM_NAME = "ldas-tools-framecpp-devel-3.0.4-2.7.aarch64.rpm"
+RPM_HASH = "444b61cc6883d768f3fad401feee8537d434997a53e95ed788c50305e0c86049f580bd69e0c91552c3c96acf71dc94aa7d21e8b45c86d428e2ecfee14ca2ef00"
 
 RPROVIDES:${PN} += "ldas-tools-framecpp-devel \
 pkgconfig-framecpp \
@@ -15,19 +15,22 @@ pkgconfig-framecpp3 \
 pkgconfig-framecpp4 \
 pkgconfig-framecpp6 \
 pkgconfig-framecpp7 \
-pkgconfig-framecpp8"
+pkgconfig-framecpp8 \
+pkgconfig-framecpp9"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libboost-program-options-devel \
-libframecpp12 \
-libframecpp3-6 \
-libframecpp4-8 \
-libframecpp6-8 \
-libframecpp7-4 \
-libframecpp8-7 \
-libframecppc3 \
-libframecppcmn11 \
+libframecpp16 \
+libframecpp3-8 \
+libframecpp4-10 \
+libframecpp6-10 \
+libframecpp7-6 \
+libframecpp8-11 \
+libframecpp9-0 \
+libframecppc4 \
+libframecppcmn12 \
 pkgconfig-ldastoolsal \
+pkgconfig-libzstd \
 pkgconfig-openssl \
 pkgconfig-zlib"
 

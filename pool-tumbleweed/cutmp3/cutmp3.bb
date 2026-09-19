@@ -4,12 +4,12 @@ ncurses-based user interface. Beginning and end of a segment can be \
 marked with the 'a' and 'b' keys and the segment be saved with 's'. \
 VBR files are supported. Using a timetable with VBR files will not be \
 as precise as with CBR files, though."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.1"
+PV = "3.0.3"
 
-RPM_NAME = "cutmp3-3.0.1-2.23.aarch64.rpm"
-RPM_HASH = "04f3a389c5e6c53e4adf9ff884da6b1bc30249fae3873f1209bb6d988b397ae277a9ca03b6c324c53d532af06a74ebad7078069d39b0d7eaabc20f3df2c9eaa7"
+RPM_NAME = "cutmp3-3.0.3-2.5.aarch64.rpm"
+RPM_HASH = "04b43820ead74b283ff8f61559f41e1d550d3c6a44d8aaf477d289490afcf096cf944d36b4de8e668f128492af24fd9578b30d1eec25553e9b74a8edca6554d3"
 
 RPROVIDES:${PN} += "cutmp3"
 

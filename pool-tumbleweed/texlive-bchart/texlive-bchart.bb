@@ -4,10 +4,10 @@ a numeric X-axis. The focus of the package is simplicity and \
 aesthetics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.3svn43928"
+PV = "2026.226.0.0.1.3svn43928"
 
-RPM_NAME = "texlive-bchart-2023.209.0.0.1.3svn43928-54.1.noarch.rpm"
-RPM_HASH = "b9fbd84991c3538e55cb80b57ed78a0895b9d4d5c85d1fa0f0d15cbef3cb0a8ff446c10405a1f94a6bc5ae617bc47b8369ec8255271f45e71bb979946890dcb5"
+RPM_NAME = "texlive-bchart-2026.226.0.0.1.3svn43928-61.2.noarch.rpm"
+RPM_HASH = "ac52a863bf405058fa833c31aaa3f61e1b04ed17a21a6d75e48f3c63efb327d15c0545d5586198efbc303734d14185ad7d03720fbbfae57b7f0cf497194714dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bchart.sty \

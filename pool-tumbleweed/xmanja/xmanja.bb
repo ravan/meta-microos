@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.7"
 
-RPM_NAME = "xmanja-0.7-461.16.noarch.rpm"
-RPM_HASH = "9818fc61123d5ac6c1a83d61fd1f18fd4e7209794ff2cdd49688e61ea044eb64b654ce70be9b1d0dc249d74086ebaa24cdf6ac02a72d5efc93b47fcc734e33ca"
+RPM_NAME = "xmanja-0.7-461.24.noarch.rpm"
+RPM_HASH = "e379d56d4375495436a339160cf7b351bcd308b2f50c66c328ebf519cc17a5d8d8c5a93f5d167a0cca9b550017b94fd4ba5807c3653dc88cdbc19d0eefd7e3bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xorg-x11-ja \

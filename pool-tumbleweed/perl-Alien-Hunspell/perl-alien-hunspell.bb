@@ -4,16 +4,16 @@ it as provided by the operating system, or download the source from the \
 Internet and install it for you. It uses Alien::Base."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.17"
+PV = "0.170.0"
 
-RPM_NAME = "perl-Alien-Hunspell-0.17-1.5.aarch64.rpm"
-RPM_HASH = "50cbba5cb96718974d33cc46a9ffd970d74733fa1087eceb285e886ff53577e6f43897a853e2135b6a6e9e2b776dc28fef15f83fb05c0db6b6e544f26f8dca2b"
+RPM_NAME = "perl-Alien-Hunspell-0.170.0-1.10.aarch64.rpm"
+RPM_HASH = "1c97a9192d21be24a82c2233fc502ea754eb6dbf68037ea946bb228f8c6efafb9efda3c7ac4bf2cfe764ab041e48fedf203545f6d8cdaf365305a1c4ff1a80db"
 
 RPROVIDES:${PN} += "perl-Alien--Hunspell \
-perl-Alien--Hunspell--Install--Files \
-perl-Alien-Hunspell"
+perl-Alien-Hunspell \
+perl-Test2--Require--Dev"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Alien--Base \
 pkgconfig-hunspell"
 

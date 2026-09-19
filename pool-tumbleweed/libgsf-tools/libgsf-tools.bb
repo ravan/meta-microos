@@ -3,10 +3,10 @@ DESCRIPTION = "The libgsf library is an extensible I/O abstraction library for d
 with structured file formats."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.14.50"
+PV = "1.14.58"
 
-RPM_NAME = "libgsf-tools-1.14.50-1.6.aarch64.rpm"
-RPM_HASH = "8cf949a105627b066d54a75144245833659247880ae377b439806679fce1d2218632078a0a23c0930140ce2df5435984a2d3e53d5ce5e03a3e350d86e873c577"
+RPM_NAME = "libgsf-tools-1.14.58-1.3.aarch64.rpm"
+RPM_HASH = "6f9ecd04d8302c3bb8ccae959d666e517dd4536c74b2d6bb7478b05e6eeeebcb489f639b9a242262af403dfe8472e791a9448f4d0152609c104e2a07b6c98176"
 
 RPROVIDES:${PN} += "libgsf-tools"
 

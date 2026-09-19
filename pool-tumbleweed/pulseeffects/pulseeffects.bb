@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.8.7"
 
-RPM_NAME = "pulseeffects-4.8.7-1.9.aarch64.rpm"
-RPM_HASH = "8bfde0cd82cea20c0717855cc3aff39b1d3157f3f6ede8d48aa066a70c4d2d3e51a677dea4a72ae58451f44609b0db2b00e400bff798ec833cc6e722d11809ca"
+RPM_NAME = "pulseeffects-4.8.7-4.8.aarch64.rpm"
+RPM_HASH = "062e80c33717226235b1deabb00e9070b7a373b932865919c0d2cac9fe879311e5cbd5dc9593a1fa8b952d6ee4fc41ac8a84138dce2ea29a396382066eb2ee0f"
 
 RPROVIDES:${PN} += "gstreamer1 \
 libgstpeadapter.so \
@@ -21,7 +21,7 @@ gstreamer-plugins-good \
 ladspa-swh-plugins \
 ld-linux-aarch64.so.1 \
 libatkmm-1.6.so.1 \
-libboost-filesystem.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
 libc.so.6 \
 libcairomm-1.0.so.1 \
 libebur128.so.1 \

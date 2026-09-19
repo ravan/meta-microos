@@ -2,26 +2,26 @@ SUMMARY = "Audio recording application"
 DESCRIPTION = "Recorder is a simple, cross-platform audio recording application."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "krecorder-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "fd81e048b2a942cf2e4330ad9f94bac437834e542636b05f3b4cd4425bd3e17ce23b5f12bc2f6e935d687fadb94f5d7ca2a7ee9d95fe37f0f23669770c10522f"
+RPM_NAME = "krecorder-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "6a3b6f7d05200e8247a8ce77157236764caf086aab5382a343ceb67b8f59f9dbe5dbf5785e0d8ef90b3251f874d59a6333a8f6a8cbcb1a5ed219e4f105b129a9"
 
 RPROVIDES:${PN} += "krecorder"
 
-RDEPENDS:${PN} += "kirigami-addons \
-kirigami2 \
+RDEPENDS:${PN} += "kf6-kirigami-imports \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5WindowSystem.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Qml.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

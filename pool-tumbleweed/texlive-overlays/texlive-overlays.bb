@@ -6,10 +6,10 @@ presentation classes like beamer. The package requires xcolor, \
 environ, and pgffor (from the pgf bundle)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.12svn57866"
+PV = "2026.226.2.12svn57866"
 
-RPM_NAME = "texlive-overlays-2023.209.2.12svn57866-52.1.noarch.rpm"
-RPM_HASH = "13889d424958e96a367f3038c74617094009238ce77109d37a6efc67607ccfd8a54ae9114f08cd05da75fed4b102762f70344974a740e94c446567bfaed10d49"
+RPM_NAME = "texlive-overlays-2026.226.2.12svn57866-58.2.noarch.rpm"
+RPM_HASH = "3680118458a8232ebb1bfee4f4453eedb4f9d003b526d70f7e0719d52655b8177fb74d8c60872244f69f19f487dc91d6314db7ee6e41224d389c24b85079bd26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-overlays.sty \

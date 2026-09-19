@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.2"
 
-RPM_NAME = "pegdown-javadoc-1.4.2-2.7.noarch.rpm"
-RPM_HASH = "d90d8bf6771b6f33a09d52a46c621a94d3983a15102e4f8220fbaf0fda5217c004753031f7045919672b3c840f224cf3535b96cb7ee80fe5dcace312515c758e"
+RPM_NAME = "pegdown-javadoc-1.4.2-3.9.noarch.rpm"
+RPM_HASH = "7f0dce70337d0e7519f31adb58184f69063bc07f2bf45058afb2c14d21ce43d154f62254482ebbc4628773631ae2a776e3ad1c24d8625ae58da4b9e4662d260e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pegdown-javadoc"

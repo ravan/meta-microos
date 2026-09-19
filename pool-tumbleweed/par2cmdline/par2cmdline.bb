@@ -3,10 +3,10 @@ DESCRIPTION = "par2cmdline is a program for creating and using PAR2 files to det
 data files and repair them if necessary. It can be used with any kind of file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.1"
+PV = "1.4.0"
 
-RPM_NAME = "par2cmdline-0.8.1-2.12.aarch64.rpm"
-RPM_HASH = "c9e79996b761e3ef2120eb5ede35d6eec7b3e7c73cf5f6b0bb384da98c01b8c3d8e83ab529fad0fb482e0d20e591edab91389c7eabe78fa6c659efd45003ba0e"
+RPM_NAME = "par2cmdline-1.4.0-1.1.aarch64.rpm"
+RPM_HASH = "4a4a2be4cb67102a90008be04df3586974cad2feb6aa671bf354d7cb9a74abd7aafb6eb842cd2d0ea0ab6875a0bcfc3b6b3957ce3d496944bc8aaf02fcd644f0"
 
 RPROVIDES:${PN} += "par \
 par2 \

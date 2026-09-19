@@ -2,10 +2,10 @@ SUMMARY = "Documentation files for partio"
 DESCRIPTION = "The partio-doc contains documentastion for the library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.14.6"
+PV = "1.20.0"
 
-RPM_NAME = "partio-doc-1.14.6-1.10.noarch.rpm"
-RPM_HASH = "87efc42b72f8bef5b377c2134cb42639757c1b59925325d7254eb7e159bc32d4855a6ab0d27f3e0ba37e6984453df1b71f0c5428db92af92bc0f9bbe65a34603"
+RPM_NAME = "partio-doc-1.20.0-1.4.noarch.rpm"
+RPM_HASH = "1efe2895daa2482ab9a32ca32e37705d8714a769f02644327b50627abf63bfd472e88cf77394dc7361e3e8b9c19275f95c672b2ecded06ba81b2330fae0eefdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "partio-doc"

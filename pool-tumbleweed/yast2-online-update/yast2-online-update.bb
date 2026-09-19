@@ -9,10 +9,10 @@ used with or without the X Window System. It can be started from the \
 YaST control center."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-online-update-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "861280a4ec1fe97fe0c705cd1e719945646845d6bcb46334dec697cdbe0fcc78efeda74e91f79e4162e9d244059f4425d90fa72e70f269abce031a8f8a9f91b4"
+RPM_NAME = "yast2-online-update-5.0.1-1.2.noarch.rpm"
+RPM_HASH = "49ae2e6ef654e14a3c5e46dbd10f2ee841929d84db6e0de8f85c075fa70c8f1ca3fe58ed2b2b2c220b8d1805c6246b8c95cea0b36e7d1bb5013fcd2d41557e2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "y2c-online-update \

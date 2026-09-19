@@ -10,16 +10,16 @@ This package contains the files needed to compile programs that use \
 the RocksDB library."
 LICENSE = "(Apache-2.0 | GPL-2.0-only) & BSD-2-Clause"
 
-PV = "8.5.3"
+PV = "11.8.1"
 
-RPM_NAME = "rocksdb-devel-8.5.3-1.1.aarch64.rpm"
-RPM_HASH = "8a9db3bee44cc86d9ebd4c06f02857c9bb4f9439cf2623f877e3dd24fb474b9cb3d92f811f3eda0f3d93315ff234b9367d108adddd24076863b040fa4bfb2b59"
+RPM_NAME = "rocksdb-devel-11.8.1-1.1.aarch64.rpm"
+RPM_HASH = "2671096a28458c706d11f266b3d52fa70f935ac5298024cc95df4156fa1d927ada71b5d2cb4e139e20ddcfc78aac46b85faf6e26482a34ad72a568bfc723d587"
 
 RPROVIDES:${PN} += "cmake-RocksDB \
 pkgconfig-rocksdb \
 rocksdb-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-librocksdb8"
+librocksdb11"
 
 inherit rpm

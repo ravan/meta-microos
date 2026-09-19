@@ -7,11 +7,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.20"
 
-RPM_NAME = "uudeview-0.5.20-260.16.aarch64.rpm"
-RPM_HASH = "6eaf22035137c8b0e1bf2347787575c994d830fc1315dd1fab236492249ee108e3875edc741477b4ac47f8c1a76a8fd5858a57aecc894f5874673d7a032c9334"
+RPM_NAME = "uudeview-0.5.20-263.6.aarch64.rpm"
+RPM_HASH = "c7ce8a4bf670de259f4e0afaa43e91214717a8d17d7798a089cc85f95678ff3a206c1083c45aee18b80acf19c57b36489efe6b00ed9d376ab2f9723234701b75"
 
-RPROVIDES:${PN} += "sharutils-/usr/bin/uudeview \
-uudeview"
+RPROVIDES:${PN} += "uudeview"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \

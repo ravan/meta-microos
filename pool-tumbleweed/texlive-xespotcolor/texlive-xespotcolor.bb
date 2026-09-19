@@ -5,10 +5,10 @@ package for use with XeLaTeX. As such, it has the same user \
 interface and the same capabilities."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn58212"
+PV = "2026.226.2.1svn77682"
 
-RPM_NAME = "texlive-xespotcolor-2023.209.2.1svn58212-53.2.noarch.rpm"
-RPM_HASH = "8c2d6b50391f1ade8d750d3d2db37235d493c394fb6300a552b614a4815529e72a0a384ec2c08ce3da5af13c1953098b43d7aceb4a79f68b961b28cb723ad3bb"
+RPM_NAME = "texlive-xespotcolor-2026.226.2.1svn77682-59.4.noarch.rpm"
+RPM_HASH = "171886cefc0b0159c704a0b3839952f93a522a657814fc273e74b03fe013d96624929e89bd9562651f97448a74328cf2022e369ec2a5c994241bcf3f8ada4249"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xespotcolor.sty \

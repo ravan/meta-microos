@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fancyslides"
 DESCRIPTION = "This package includes the documentation for texlive-fancyslides"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn36263"
+PV = "2026.226.1.0svn36263"
 
-RPM_NAME = "texlive-fancyslides-doc-2023.209.1.0svn36263-53.1.noarch.rpm"
-RPM_HASH = "1fe6dfc5b1b4648afb566cd166b582c2cd76fa4d19df553badf5d9a10955bf862dec1225049e8d18328d8d2254ef13669bc588598ab948eb6ea45840b36a13e7"
+RPM_NAME = "texlive-fancyslides-doc-2026.226.1.0svn36263-59.2.noarch.rpm"
+RPM_HASH = "319eed673b4f63d709cd625dc5f0c4fab862b9ff1f4bd8672515924b54958cda671ce0d620e4826bf19b5c7e02a6775956dff0982735d4a322e932b7106a009d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fancyslides-doc"

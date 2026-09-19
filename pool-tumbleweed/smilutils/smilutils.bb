@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.2+cvs20070731"
 
-RPM_NAME = "smilutils-0.3.2+cvs20070731-22.15.aarch64.rpm"
-RPM_HASH = "45d34d8cc3eb0ca9a2ff8bb5732c08107aabe59bc7a4b00f0e2d0ea3d3d49cc6ffb8eb76fd31498805f3da95909c0c93220da297a16d022ec975c3d4500ec649"
+RPM_NAME = "smilutils-0.3.2+cvs20070731-23.7.aarch64.rpm"
+RPM_HASH = "7c2e954022fb7d5290d922803454716898d423ba83934d80bb556d3947db8d639057a61cba8bd098f70a80dce2fc2881e526361905e1219a9fbe7c6be518902d"
 
 RPROVIDES:${PN} += "libkinoextensions.so.0 \
 libkinolegacy.so.0 \
@@ -29,6 +29,6 @@ libgobject-2.0.so.0 \
 libm.so.6 \
 libquicktime.so.0 \
 libstdc++.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

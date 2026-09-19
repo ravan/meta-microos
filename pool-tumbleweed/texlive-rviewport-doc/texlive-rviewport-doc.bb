@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rviewport"
 DESCRIPTION = "This package includes the documentation for texlive-rviewport"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn23739"
+PV = "2026.226.1.0svn76924"
 
-RPM_NAME = "texlive-rviewport-doc-2023.209.1.0svn23739-54.1.noarch.rpm"
-RPM_HASH = "6c98e634d1c91efa8c04ae01298ac1a4a62e58ee7ac5d26b8975b303b76120521a1bfbd95dcb0cbc40d302b65598753fd49cbae5a934666c4dc362040b67f1b2"
+RPM_NAME = "texlive-rviewport-doc-2026.226.1.0svn76924-60.2.noarch.rpm"
+RPM_HASH = "2715182c998041db2aa6fc0b476bcd35268c5dae082f494e8eb02d8b846af3d35572219ea723b11cf0aa85a73bd872efe05e062d5bfd373272d351eba26b6252"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rviewport-doc"

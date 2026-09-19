@@ -6,20 +6,22 @@ The basic idea is to fill the lack of good and useful plugins under \
 the GNU/Linux platform."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.10"
+PV = "1.2.34"
 
-RPM_NAME = "lsp-plugins-1.2.10-1.1.aarch64.rpm"
-RPM_HASH = "01cb3502cf05d6f17b6d8f187cdd23dd9ca678bcbc24108c5b6e8742fb531eea80e2347cdb1b230d530677e781a30141654b07a220850a516ec668327383c747"
+RPM_NAME = "lsp-plugins-1.2.34-1.1.aarch64.rpm"
+RPM_HASH = "6167ebb33f68832ea6e0d515865c3ac8b238a8260a293ae4a2aafd45bb5120ef77e4cd236c58ac5f8b4a9795104de7f43f4ab534cc19f086a63597e6c4eda552"
 
-RPROVIDES:${PN} += "config-lsp-plugins \
-liblsp-plugins-jack-1.2.10.so \
+RPROVIDES:${PN} += "liblsp-audio-jack-lib-1.0.1.so \
+liblsp-plugins-standalone-1.2.34.so \
 lsp-plugins"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGL.so.1 \
 libX11.so.6 \
 libXrandr.so.2 \
 libc.so.6 \
 libcairo.so.2 \
+libfontconfig.so.1 \
 libfreetype.so.6 \
 libjack.so.0 \
 libm.so.6 \

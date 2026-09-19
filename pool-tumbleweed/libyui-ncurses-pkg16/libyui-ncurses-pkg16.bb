@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the NCurses (text based) package selector \
 component for libyui."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui-ncurses-pkg16-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "d9d8940e13ba0bd93eea9c13387df726dcb5da6179321c36fc817e5ba0ccfeadcf36055b1ffd53a1a99c6afbc0a925f4aee817a169cc62185ac1ae943428a974"
+RPM_NAME = "libyui-ncurses-pkg16-4.7.7-1.2.aarch64.rpm"
+RPM_HASH = "35829f4457079527ca7606dcd749ec4c1d3a65eb8f5a7ad4e814bb4a660f8eeeb09fee266f22c75d27b1ee8d6cb90d55d5d52c1dbd270d614827ff444f16b009"
 
 RPROVIDES:${PN} += "libyui-ncurses-pkg \
 libyui-ncurses-pkg.so.16 \
@@ -25,6 +25,6 @@ libyui-ncurses16 \
 libyui.so.16 \
 libyui16 \
 libzypp \
-libzypp.so.1722"
+libzypp.so.1735"
 
 inherit rpm

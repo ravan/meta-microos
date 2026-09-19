@@ -2,14 +2,15 @@ SUMMARY = "Performance Co-Pilot run-time configuration"
 DESCRIPTION = "Performance Co-Pilot (PCP) run-time configuration"
 LICENSE = "LGPL-2.1+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-conf-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "60fdff0f8c54c3b7ab00518c35e905fa247fe20504256eec1678c637ea6b9dfc5544c7e33470fc413fe6348cd6afb45e18fc6c7566aa94a9373cf122e4956e30"
+RPM_NAME = "pcp-conf-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "ca450213a246aae4460e63db779e01c5d72b0414c8a45e741dccb6867bd00bc898f3fc804adf78b23e1a3315026997e2e884668ef59341a368eb830b0f0341e4"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pcp-conf \
 pcp-conf"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

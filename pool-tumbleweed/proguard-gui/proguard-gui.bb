@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.2.0"
 
-RPM_NAME = "proguard-gui-6.2.0-1.20.noarch.rpm"
-RPM_HASH = "f77c167220f97d897012ab076a293e7d3db1e9c9439b7abec58b3d96ec34a28d61727743b0e5c458e8294e45e075404e8a84d9adcc064f2f76947b81f3402b6c"
+RPM_NAME = "proguard-gui-6.2.0-1.30.noarch.rpm"
+RPM_HASH = "94d6d5054423d80a8fc546129e89cde437d8adbacfcce382f6b29d0af1c7e8a331986788e1bcf5677a68d01435e786d76e93150f8870517a2c8d5049ab3ec4fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-net.sf.proguard-proguard-gui \

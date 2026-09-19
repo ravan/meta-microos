@@ -6,10 +6,10 @@ distribution, rather than the distribution of a basic \
 Plain/LaTeX distribution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64149"
+PV = "2026.226.svn64149"
 
-RPM_NAME = "texlive-cstex-2023.209.svn64149-55.1.noarch.rpm"
-RPM_HASH = "c5c87513bc0031428d994293c234d32487e27d610a139588e99f1d8c14adfe7429c726d822cc93212174f17a85a4c7ea1f3047fcc4d311782c890addc9e21c1e"
+RPM_NAME = "texlive-cstex-2026.226.svn64149-61.2.noarch.rpm"
+RPM_HASH = "9f15d85dd9b8217e95897817c6608159c43d0367f0d590d22f1530e0781e6f022d3cb8f9c5af0d538ebbc8c629ec73af9ea77b72ed5c34a224e8b3496e8bb55f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cstex"

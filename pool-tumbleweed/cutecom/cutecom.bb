@@ -6,19 +6,19 @@ It is aimed mainly at hardware developers or other people who need a \
 terminal to talk to their devices."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.51.0"
+PV = "0.60.0"
 
-RPM_NAME = "cutecom-0.51.0-2.16.aarch64.rpm"
-RPM_HASH = "f1f50ae4ec19d2c452f8269733479c331554ba9a861e8cfab0c1773bc9f290f203c36b04f201703f3a2a6a8b40a29968f3e27a232253915dd8eafbfd51e9a45e"
+RPM_NAME = "cutecom-0.60.0-1.9.aarch64.rpm"
+RPM_HASH = "06522a4cd3c247c1f576c19bbbf2add4fe54dd0d90b2e8c2c04097ceff8a3c07b21218a13065875453ec1a217404fb4f3b1204c36d27b8861b2085cad70f013f"
 
 RPROVIDES:${PN} += "cutecom"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5SerialPort.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6SerialPort.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

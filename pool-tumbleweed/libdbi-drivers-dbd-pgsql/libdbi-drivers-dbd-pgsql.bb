@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.9.0.g53"
 
-RPM_NAME = "libdbi-drivers-dbd-pgsql-0.9.0.g53-3.19.aarch64.rpm"
-RPM_HASH = "59674e0f66cb174496692086942743ff787e8915ab1e27cbae8cf193b4eb121d060296360bec21a426603fa1b350eca916f6be8cb19b09c7a712876b6af9718b"
+RPM_NAME = "libdbi-drivers-dbd-pgsql-0.9.0.g53-4.8.aarch64.rpm"
+RPM_HASH = "2ca266e072b89ad55b2c9209d70a2718a11b8c63d8ef5112180264eca810ae4fc04f8187fc8be50ce78368547d81f6e91fcb74093d7fa0571028a9df3c661370"
 
 RPROVIDES:${PN} += "libdbdpgsql.so \
 libdbi-drivers-dbd-pgsql"

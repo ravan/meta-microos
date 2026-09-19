@@ -5,14 +5,14 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "0.17.1"
 
-RPM_NAME = "jupyter-matlab-kernel-0.17.1-1.3.noarch.rpm"
-RPM_HASH = "6bc4c76e3586582640ac858af64e4ab189b126a3454552743517eb79537fd267ba46a38e6db896da56ea82db5e59942b2aea528a65a01424540b0e1a3a3dd387"
+RPM_NAME = "jupyter-matlab-kernel-0.17.1-1.11.noarch.rpm"
+RPM_HASH = "4aefd92c63169fd08908c94a4520268096e4d0079643f4e25fba50d66e5bab7264d5ce9141a2c65ac86443e3c8f2e103deee61923e95acfa138faf281e19fe77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-matlab-kernel \
 python3-jupyter-matlab-kernel \
 python3-matlab-kernel \
-python3.11dist-matlab-kernel \
+python3.13dist-matlab-kernel \
 python3dist-matlab-kernel"
 
 RDEPENDS:${PN} += "python-abi \

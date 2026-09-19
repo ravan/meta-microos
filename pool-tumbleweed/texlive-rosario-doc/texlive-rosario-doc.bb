@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rosario"
 DESCRIPTION = "This package includes the documentation for texlive-rosario"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn51688"
+PV = "2026.226.2.1svn51688"
 
-RPM_NAME = "texlive-rosario-doc-2023.209.2.1svn51688-54.1.noarch.rpm"
-RPM_HASH = "460aa0b8549b68475195479439c5124946ed7f846e9a712017fb7817112951e5e9d4177802a830768f204b7f398e880fc9e02fcf06c18f4d5b9cfe0513dc1834"
+RPM_NAME = "texlive-rosario-doc-2026.226.2.1svn51688-60.2.noarch.rpm"
+RPM_HASH = "7e208d80ff14122112e8dd14aadaa4000b9b6672dc713773537a923f84bdd1ea6f619723a2d53197c4e41e8b2e8d9a7c146ea81eb53341fcac3d1ecf653f467b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rosario-doc"

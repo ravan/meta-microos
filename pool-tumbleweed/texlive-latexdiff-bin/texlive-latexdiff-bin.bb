@@ -2,10 +2,10 @@ SUMMARY = "Binary files of latexdiff"
 DESCRIPTION = "Binary files of latexdiff"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn16420"
+PV = "2026.20260301.svn16420"
 
-RPM_NAME = "texlive-latexdiff-bin-2023.20230311.svn16420-93.2.aarch64.rpm"
-RPM_HASH = "ed65f0f39e2be7afea7da4a7cb8b0a26e7b437dfe45f62c78c4423bf0545b69fae040c2bbf005468e16998548ca46a0feb53ec1d51a2793e58314e5d7e364cf6"
+RPM_NAME = "texlive-latexdiff-bin-2026.20260301.svn16420-120.4.aarch64.rpm"
+RPM_HASH = "db0dc9ba622f0e5bc7e199d71052391fb3f1672c26f8b7669b7cc4ce1e873cb36213123b7e82d7e0bc886c73c52b38da7f4299093d9ee8886100b5315514c614"
 
 RPROVIDES:${PN} += "texlive-latexdiff-bin"
 

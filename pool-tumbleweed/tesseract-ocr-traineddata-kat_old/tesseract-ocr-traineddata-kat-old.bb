@@ -3,16 +3,17 @@ DESCRIPTION = "This package contains the fast integer version of the Georgian (O
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-kat_old-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "dfe528bf81d48374b5c850277b19b317fb60599190faf638d8f4ca0b0a638c722d22c53baf0d54cbc8b7ccf871e3e83257783a37b2322ef6815db774ad976664"
+RPM_NAME = "tesseract-ocr-traineddata-kat_old-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "457a6f61342e5eacae5f4d9ebfd16fea8ad4dc3b5b12f3ddfdeb3308f0c5c57c53b2610dedde820f9cf971a13b0dd41dc54e83b0646767aa9f0ee61e063dff18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-georgian-old \
 tesseract-ocr-traineddata-kat-old \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-georgian-old"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

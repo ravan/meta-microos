@@ -2,15 +2,16 @@ SUMMARY = "Qt-GUI for CSXCAD library"
 DESCRIPTION = "A Qt-GUI for the CSXCAD library."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6.2"
+PV = "0.6.3"
 
-RPM_NAME = "libQCSXCAD0-0.6.2-5.6.aarch64.rpm"
-RPM_HASH = "9a3ecabdf53b4423dc7ff44d53ce0513ebd6463a53ecb4374ea3ad59f5226b20eb3b157b2632d8954b881baf1ac385c7c939a901df32355bfb55cc5fc596a9c6"
+RPM_NAME = "libQCSXCAD0-0.6.3-4.1.aarch64.rpm"
+RPM_HASH = "176592da4cdea84a153bf7ea57255a8873a5a0f5a3320d9b4ae9e5d3a513aede3b09365e1ebc851d6f5460724bca111e9718aeb861b9f1ba3d3ec8d545c3c8a5"
 
 RPROVIDES:${PN} += "libQCSXCAD.so.0 \
 libQCSXCAD0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libCSXCAD.so.0 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

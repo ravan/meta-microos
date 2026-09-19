@@ -7,10 +7,10 @@ This package contains header files and static libraries used for \
 building both PAM-aware applications and modules for use with PAM."
 LICENSE = "GPL-2.0-or-later | BSD-3-Clause"
 
-PV = "1.5.3"
+PV = "1.7.2+git48"
 
-RPM_NAME = "pam-devel-1.5.3-3.1.aarch64.rpm"
-RPM_HASH = "92dbe24bf1b221868985b0ede6a7ccca719885fad2e3ba3ec5e65dcecef289384b8f59c5a772a2202b35349b34351488979afbe41f76dd8f8ab2d94c9bfbbe7a"
+RPM_NAME = "pam-devel-1.7.2+git48-1.1.aarch64.rpm"
+RPM_HASH = "ae6d720b69e9893adad29d23877c6b8d870792676093063ffc8af5e884b8f26ea13aca758315c9b7c1a25faa8c1b2d9a9f6af34c8226480463022abc16f51605"
 
 RPROVIDES:${PN} += "pam-devel \
 pkgconfig-pam \

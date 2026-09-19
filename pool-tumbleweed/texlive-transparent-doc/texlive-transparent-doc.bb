@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-transparent"
 DESCRIPTION = "This package includes the documentation for texlive-transparent"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn64852"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-transparent-doc-2023.209.1.5svn64852-53.1.noarch.rpm"
-RPM_HASH = "7eff538d86489fe9ffbc453a4811a05a353800907c445a14cb6d79891868ff7343e1a5be0b30b12df1c7a4b297718590a6a35c6e4b8c9683228e9330a3e67168"
+RPM_NAME = "texlive-transparent-doc-2026.226.1.6svn77682-59.2.noarch.rpm"
+RPM_HASH = "d93f2335de6ea50036ac0020846b1898a0801ecd4346ca423225790f5d18304653387c5b29ef48955eec422f356a1d29ee4cdea61cc65ca445b253539053bbbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-transparent-doc"

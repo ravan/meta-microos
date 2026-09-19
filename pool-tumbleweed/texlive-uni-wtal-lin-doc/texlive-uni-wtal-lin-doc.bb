@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uni-wtal-lin"
 DESCRIPTION = "This package includes the documentation for texlive-uni-wtal-lin"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn31409"
+PV = "2026.226.0.0.2svn31409"
 
-RPM_NAME = "texlive-uni-wtal-lin-doc-2023.209.0.0.2svn31409-54.1.noarch.rpm"
-RPM_HASH = "4637d69a74c97fe87b823f274dfabc37201c1913ba2447c79035174d2dde87477124da7858f5e1f5dcdd6f008773535f84c090d55a3a6c8e8eea5a1fbc53944d"
+RPM_NAME = "texlive-uni-wtal-lin-doc-2026.226.0.0.2svn31409-60.2.noarch.rpm"
+RPM_HASH = "51f05307486ed3116302a605aade1bddd07f56ee99c4101be2a84cb01a2871e71f1bf7805ff82bc770d31822df34a8f20548fdc8c8469dab244a238b48090211"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-uni-wtal-lin-doc-de;en \

@@ -8,27 +8,32 @@ powerful journal database reader, we aim to do a clear split between \
 reuseable library and application logic."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kjournald-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "f9c4803013bcb31d9146324e0866dc3f5e107e54cb74d574fcc40cc32649a239c11a990edb514c92af0c86d8b0c277a4707dc36b4a0f0c6559b48a7f769a1535"
+RPM_NAME = "kjournald-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "2b79f1cfe8ca6e5df658bf4722d97a817591aeca455908e636bfd28d1eee774207fd000d360bafee060d14a99fb323b2fe68cea620ac668530e82eedbfcb0858"
 
 RPROVIDES:${PN} += "kjournald \
-libkjournald.so.23"
+libkjournald.so.0 \
+qt6qmlimport-org.kde.kjournald"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Widgets.so.5 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6I18nQml.so.6 \
+libKirigamiAddonsStatefulApp.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libqt5-qtquickcontrols2 \
 libstdc++.so.6 \
-libsystemd.so.0"
+libsystemd.so.0 \
+qt6-declarative-imports"
 
 inherit rpm

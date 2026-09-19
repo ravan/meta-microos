@@ -3,10 +3,10 @@ DESCRIPTION = "Qt is a set of libraries for developing applications. \
 This package contains translations for Qt5 toolkit and it's applications."
 LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qttranslations-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "d264837a672aafd15c755966fe7a29f4a733ff85786afc997a111e035faea351e3bef584d42904e9a20fc6ed1387ad11123f3d51f68e912355970e00db0a1e6e"
+RPM_NAME = "libqt5-qttranslations-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "f5ddbeca5772d8d9ffc9b02463d0ab15326a816f2cf99ed13f0b2862e2f495789c1252568a62fad7906ef40743ab54e10601adf15817863e2a438b45682d6ba3"
 
 RPROVIDES:${PN} += "libqt5-qttranslations"
 

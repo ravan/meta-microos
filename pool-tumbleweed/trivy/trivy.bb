@@ -9,16 +9,15 @@ scan. All you need to do for scanning is to specify a target such as an image \
 name of the container."
 LICENSE = "Apache-2.0"
 
-PV = "0.44.1"
+PV = "0.74.0"
 
-RPM_NAME = "trivy-0.44.1-1.1.aarch64.rpm"
-RPM_HASH = "9fd2c4ef3be271c193793cc7fde1c4335502c30e699f61f73e0b67c5666b83ef60955d5e123b4d09bc14fa2aed0fe8fee888f4bf9e9a4a86318688980068137e"
+RPM_NAME = "trivy-0.74.0-4.1.aarch64.rpm"
+RPM_HASH = "21ee092fd8b8897e97ab403a045f14709d5956a69b0d17bf90dee79d886f894bb27db388be697bd8af9d36f638ac46a61c3892d89f5f3a1216a1a0b790097db3"
 
 RPROVIDES:${PN} += "trivy"
 
 RDEPENDS:${PN} += "ca-certificates \
 git-core \
-libc.so.6 \
-rpm"
+libc.so.6"
 
 inherit rpm

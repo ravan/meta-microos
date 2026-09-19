@@ -1,25 +1,26 @@
-SUMMARY = "Jupyter notebook integration for python-plotly"
-DESCRIPTION = "Use this package to make collaborative, interactive, \
-publication-quality graphs from Python on https://plot.ly. \
+SUMMARY = "Jupyter integration for python-plotly"
+DESCRIPTION = "An interactive, open-source, and browser-based graphing library for Python. \
  \
-Plotly is an online collaborative data analysis and graphing tool. The \
-Python API allows you to access all of Plotly's functionality from Python. \
-Plotly figures are shared, tracked, and edited all online and the data is \
-always accessible from the graph. \
+Built on top of plotly.js, plotly.py is a high-level, declarative charting library. \
+plotly.js ships with over 30 chart types, including scientific charts, \
+3D graphs, statistical charts, SVG maps, financial charts, and more. \
+ \
+Plotly graphs can be viewed in Jupyter notebooks, other Python notebook \
+software such as marimo, as standalone HTML files, or integrated into Dash applications. \
  \
 This package provides the flavorless configuration for the \
-Jupyterlab and Notebook integration and widgets."
+Jupyterlab integration and widgets."
 LICENSE = "MIT"
 
-PV = "5.14.1"
+PV = "6.7.0"
 
-RPM_NAME = "jupyter-plotly-5.14.1-1.2.noarch.rpm"
-RPM_HASH = "c956e320e137da90fdfdde4c0c3d897dcb323f4a97f6024cfd023ed9b094bd99e543522b3b9b7e4155d36b8de35e8afe627f1819b116da9633d0103593380acc"
+RPM_NAME = "jupyter-plotly-6.7.0-2.2.noarch.rpm"
+RPM_HASH = "9daf994aa6cfc92cf931ab8d0338215c21404c8cf27d60c68933a17f391ba8b79b490e37c16153dc97a933433c3ea729f3938c503511abdd50464b2850ce69f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-plotly \
 jupyterlab-plotly"
 
-RDEPENDS:${PN} += "jupyterpython-plotly-jupyter"
+RDEPENDS:${PN} += "python3dist-plotly"
 
 inherit rpm

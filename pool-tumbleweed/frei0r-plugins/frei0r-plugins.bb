@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a collection of video sources and filters p
 using the Frei0r API."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.0"
+PV = "3.5.0"
 
-RPM_NAME = "frei0r-plugins-1.8.0-2.5.aarch64.rpm"
-RPM_HASH = "412ed6cccd7d1c453175070d0f324874158a59c2b22701746d1a6459628ec380b73ef11f25a270c519e0f951fb3e3545793491d535db55464c854c74f512deeb"
+RPM_NAME = "frei0r-plugins-3.5.0-1.1.aarch64.rpm"
+RPM_HASH = "8491791925842676344301f837904a8bd25c433769344577290b3369828a9c0529d26618cb0944cdf3cd21bd852bc7085a8cb22f3870b7eca9d5b901415a60fb"
 
 RPROVIDES:${PN} += "frei0r-plugins"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.12"
 
-RPM_NAME = "ghc-hourglass-doc-0.2.12-7.8.noarch.rpm"
-RPM_HASH = "7da9d66c740a9f5161605082bf97bf09d661546c8f112dad3fa110d2d09961f55ab071e774421e951b27586d6ac6380c8b190b246d29483f892873853e6e8dee"
+RPM_NAME = "ghc-hourglass-doc-0.2.12-8.23.noarch.rpm"
+RPM_HASH = "799effaf9e874fb394b86bb299bc532e577712fb64445bf5d65f2d432b0176ca7053d7652d81007b8879a52ecfbf568b41aa0edf8cd54861930beadeb4dc04e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hourglass-doc"

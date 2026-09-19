@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5"
 
-RPM_NAME = "ghc-word-wrap-doc-0.5-2.3.noarch.rpm"
-RPM_HASH = "26689ffe60b11b94a623aa2a35117d6308ffcf0ed399a09fb36869bf1e4f6576c9f7ddd1558c375ac119748a8c405c0a129d326df468f8cc1ab831e2d6621eb3"
+RPM_NAME = "ghc-word-wrap-doc-0.5-2.19.noarch.rpm"
+RPM_HASH = "ace33b2eb9142e0f80a8a9262138d0c99089d9137452ecb7d1c53ddce13185952bfbe2d2525a782ea9c6d68e78bbc14a78cacc7313d394ba5d6e94c35c3ae5ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-word-wrap-doc"

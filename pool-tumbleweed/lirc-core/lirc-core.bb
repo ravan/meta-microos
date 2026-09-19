@@ -3,17 +3,19 @@ DESCRIPTION = "The LIRC core contains the lircd daemons, the devinput and \
 default driver and most of the applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.1"
+PV = "0.10.2"
 
-RPM_NAME = "lirc-core-0.10.1-10.2.aarch64.rpm"
-RPM_HASH = "c84c0bbda2dc31eb10327a517b41b7a944cd500d3321702e80f814c8f0fa89e683b96f4a9c24a96b5ccbd7008110f8cd6f6177e5670d740bff545208f3d1f65c"
+RPM_NAME = "lirc-core-0.10.2-2.5.aarch64.rpm"
+RPM_HASH = "9969b2fdbad302fbdc55a577484ababf6e71d95369008be51e6860ff8b383e5a74db9889273203c81041536f76cc28621cdc6f6331fe84a72af2227f047e6ce0"
 
 RPROVIDES:${PN} += "config-lirc-core \
+group-lirc \
 lirc \
-lirc-core"
+lirc-core \
+user-lirc"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \

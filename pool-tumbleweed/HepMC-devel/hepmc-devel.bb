@@ -7,16 +7,16 @@ This package provides the source and header files required for \
 developing with HepMC."
 LICENSE = "GPL-3.0-or-later & MPL-2.0"
 
-PV = "3.2.6"
+PV = "3.3.1"
 
-RPM_NAME = "HepMC-devel-3.2.6-1.1.aarch64.rpm"
-RPM_HASH = "a751e19f99790174972f58ab10152a05638d07e12d848c46f5e1d171cd533c87d296a4c96e45dcc38a5145a86f53be1b92ab0694b4869d3923867fe8db516a46"
+RPM_NAME = "HepMC-devel-3.3.1-1.8.aarch64.rpm"
+RPM_HASH = "1a06b3990a54599e0d5eb74b3589b622744600b77602aa65bf36c4be516f01ead1f5b4d8b05bf3b265cfcd1132c48412d81e6daafef5d6d3dc3a18f4aff1c949"
 
 RPROVIDES:${PN} += "HepMC-devel \
 HepMC3-devel"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-libHepMC3-3 \
+libHepMC3-4 \
 libHepMC3search5"
 
 inherit rpm

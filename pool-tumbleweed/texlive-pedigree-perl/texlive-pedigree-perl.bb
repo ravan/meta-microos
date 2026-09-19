@@ -6,10 +6,10 @@ multilanguage pedigrees (at the present moment the English and \
 Russian languages are supported)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.1svn64227"
+PV = "2026.226.2.1svn64227"
 
-RPM_NAME = "texlive-pedigree-perl-2023.209.2.1svn64227-52.1.noarch.rpm"
-RPM_HASH = "cf3455690146d69840ead04a6a2888a613b4db22c3b3189f14398b7812ea736bdb0810e3c7102984ebb5034aaa6c9db2550da46efcf55ba2f728dbc5dea274d0"
+RPM_NAME = "texlive-pedigree-perl-2026.226.2.1svn64227-58.2.noarch.rpm"
+RPM_HASH = "da4928a93e4e5a6c15814a21df47f9459fe8494adca1dd4aaa70cbc6907374f1cbe82a71b5aa56b758794095689542393b5f822a024602c69eaedd930e08790c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pedigree \

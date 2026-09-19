@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8"
 
-RPM_NAME = "paranamer-generator-2.8-3.1.noarch.rpm"
-RPM_HASH = "4cbdd4d9b388864124ef2a6f99ee2a22af68909476ff72fb023a7e554c23b08437c81297cd325ff0984150ab688d09543c3f148b0fb72f8c4d2f3b1e711597b0"
+RPM_NAME = "paranamer-generator-2.8-4.10.noarch.rpm"
+RPM_HASH = "ebf24e68928870ebba15a5d1a53c1657ec354cd190090dfd36fc0dc8c339458a982abdfc76705a9295085225ebab4adb4546240fe74a15bf1cbd37dfb33875a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.thoughtworks.paranamer-paranamer-generator \

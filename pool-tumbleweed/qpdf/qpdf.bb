@@ -13,17 +13,17 @@ from other PDF files or to inspect or extract information from \
 existing PDF files."
 LICENSE = "Apache-2.0"
 
-PV = "11.6.0"
+PV = "12.4.1"
 
-RPM_NAME = "qpdf-11.6.0-1.1.aarch64.rpm"
-RPM_HASH = "952a9626fd5f4df6eb878887dc5f3502e3a7c8526780762baf6d61759c20e32aa35a0d848e27608c49c748a1b6db26b4954c8ffae07a01bfb64f39155fcabf15"
+RPM_NAME = "qpdf-12.4.1-1.1.aarch64.rpm"
+RPM_HASH = "4f853830a50fa4c7e48249cefba473e2c26a4e35de47156d7d7640ead0e02f68b7d7f43f3337b0f2157bbcd5a83677397deefb4a566c1f50d848b07a6e38cc9d"
 
 RPROVIDES:${PN} += "qpdf"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libqpdf.so.29 \
+libqpdf.so.30 \
 libstdc++.so.6"
 
 inherit rpm

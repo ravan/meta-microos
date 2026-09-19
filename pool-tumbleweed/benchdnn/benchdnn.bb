@@ -8,10 +8,10 @@ to implement deep neural networks (DNN) with C and C++ interfaces. \
 This package only includes the benchmark utility including its input files."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.1"
+PV = "3.7.3"
 
-RPM_NAME = "benchdnn-3.0.1-1.3.aarch64.rpm"
-RPM_HASH = "b9cd013d3a5a5321ac9104d3aeec007cf179a718b74f1eb31edf6759420d05fca57462fcc3e7ebda0d5d24c474daad428600624da80ae94af45c2264c04d47b6"
+RPM_NAME = "benchdnn-3.7.3-2.1.aarch64.rpm"
+RPM_HASH = "b511bbe8b8ed2d04f6b6320660a81d661310b73d00a7899c12a063426764687e522c9c4a147f85433eebb6b048e862ce6d498abd9d496b0907bed865e65551ce"
 
 RPROVIDES:${PN} += "benchdnn"
 

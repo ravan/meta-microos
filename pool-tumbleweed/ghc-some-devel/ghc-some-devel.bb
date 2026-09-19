@@ -2,18 +2,18 @@ SUMMARY = "Haskell some library development files"
 DESCRIPTION = "This package provides the Haskell some library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.0.5"
+PV = "1.0.6"
 
-RPM_NAME = "ghc-some-devel-1.0.5-1.8.aarch64.rpm"
-RPM_HASH = "e5768ac96148122146035561f9d433f21bb57177bf4a047bf2d5633633b32dc6a97645e535e3b56f05a80f9fbbb3120925ba524f376bd463fd776d4e202d7cb2"
+RPM_NAME = "ghc-some-devel-1.0.6-6.3.aarch64.rpm"
+RPM_HASH = "95ca460951b52b492368d064600fcc30dbaf4e83af4583bbf0b285a48cd84824f1ab3049029d99f851a913f6257a83a20d873907d906b347dcb81041845dd6f9"
 
-RPROVIDES:${PN} += "ghc-devel-some-1.0.5-EryUniFNYOB2ktd7SoyKUW \
+RPROVIDES:${PN} += "ghc-devel-some-1.0.6-8u6QsVxyLEPKKVYkZL0j6j \
 ghc-some-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-deepseq-1.4.8.0 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-deepseq-1.5.1.0-1350 \
 ghc-some"
 
 inherit rpm

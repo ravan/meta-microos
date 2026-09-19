@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.4.0"
 
-RPM_NAME = "ftgl-demo-2.4.0-1.15.aarch64.rpm"
-RPM_HASH = "83f9dc298b827fdfd318ed9e6b5e0e5260a29333ee829a1742eaeeebb7ae2d43bb3eaec60fe36c22beb43f49571e2d677c1fe95e4fa418568969e32881ab2cbf"
+RPM_NAME = "ftgl-demo-2.4.0-3.5.aarch64.rpm"
+RPM_HASH = "5d3e7779126f39ecba60a4cf6f5cc561b79b66882befe7ebb5c564cab13292a601f3262cb0faa4461fe14c7859dfd9e54781cc49afccf4c84d61553b2d259325"
 
 RPROVIDES:${PN} += "ftgl-demo"
 

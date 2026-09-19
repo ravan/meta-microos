@@ -2,10 +2,10 @@ SUMMARY = "German version of europecv"
 DESCRIPTION = "This is a 'translation' of the europecv documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn23840"
+PV = "2026.226.svn23840"
 
-RPM_NAME = "texlive-translation-europecv-de-2023.209.svn23840-53.1.noarch.rpm"
-RPM_HASH = "9b7a52a9a0816df9f482ede20b60ce712f7b6d334d292a63d5fc2682228d29e0b30532dd753b719bcc737040449de955a63e3cd4ed20985133f15a7149923bba"
+RPM_NAME = "texlive-translation-europecv-de-2026.226.svn23840-59.2.noarch.rpm"
+RPM_HASH = "1b9ab190bf5d2bbb9cc54cc89334c0a3043262b411eee15a609f2b87f1798e761566628f064402f45d0e60bd7ff8a3c879f972b9538292046ff0862ff9fd9091"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-europecv-de"

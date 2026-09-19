@@ -2,16 +2,15 @@ SUMMARY = "Locale Data for Localized Programs"
 DESCRIPTION = "Locale data for the internationalisation features of the GNU C library."
 LICENSE = "GPL-2.0-or-later & MIT & LGPL-2.1-or-later"
 
-PV = "2.38"
+PV = "2.44"
 
-RPM_NAME = "glibc-locale-2.38-2.1.aarch64.rpm"
-RPM_HASH = "4544c407a72e2426c9b7776ae3ba7a80accdc6137b59848652fa6f7d8877a1a63b1b41d5a586fcbc6455d9ab34a9f4159298e773f41d8f084f3aa8a5cb7f6da0"
+RPM_NAME = "glibc-locale-2.44-2.1.aarch64.rpm"
+RPM_HASH = "3632669e6951bfaf314402b66bd88a13f08eecb84f4d97c0b0891f13b7cf4a9c415b24f1538c34809fd4bc0797e5fc57b685b86b84ef8f392b0fbc03c10d543f"
 
 RPROVIDES:${PN} += "glibc-locale \
 locale-glibc-aa-DJ \
 locale-glibc-aa-DJ.utf8 \
 locale-glibc-aa-ER \
-locale-glibc-aa-ER@saaho \
 locale-glibc-aa-ET \
 locale-glibc-af-ZA \
 locale-glibc-af-ZA.utf8 \
@@ -100,6 +99,7 @@ locale-glibc-ce-RU \
 locale-glibc-chr-US \
 locale-glibc-ckb-IQ \
 locale-glibc-cmn-TW \
+locale-glibc-crh-RU \
 locale-glibc-crh-UA \
 locale-glibc-cs-CZ \
 locale-glibc-cs-CZ.utf8 \
@@ -160,6 +160,7 @@ locale-glibc-en-NZ.utf8 \
 locale-glibc-en-PH \
 locale-glibc-en-PH.utf8 \
 locale-glibc-en-SC.utf8 \
+locale-glibc-en-SE.utf8 \
 locale-glibc-en-SG \
 locale-glibc-en-SG.utf8 \
 locale-glibc-en-US \
@@ -245,6 +246,7 @@ locale-glibc-fy-NL \
 locale-glibc-ga-IE \
 locale-glibc-ga-IE.utf8 \
 locale-glibc-ga-IE@euro \
+locale-glibc-gbm-IN \
 locale-glibc-gd-GB \
 locale-glibc-gd-GB.utf8 \
 locale-glibc-gez-ER \
@@ -266,6 +268,7 @@ locale-glibc-hif-FJ \
 locale-glibc-hne-IN \
 locale-glibc-hr-HR \
 locale-glibc-hr-HR.utf8 \
+locale-glibc-hrx-BR.utf8 \
 locale-glibc-hsb-DE \
 locale-glibc-hsb-DE.utf8 \
 locale-glibc-ht-HT \
@@ -306,6 +309,7 @@ locale-glibc-ks-IN \
 locale-glibc-ks-IN@devanagari \
 locale-glibc-ku-TR \
 locale-glibc-ku-TR.utf8 \
+locale-glibc-kv-RU \
 locale-glibc-kw-GB \
 locale-glibc-kw-GB.utf8 \
 locale-glibc-ky-KG \
@@ -319,12 +323,14 @@ locale-glibc-ln-CD \
 locale-glibc-lo-LA \
 locale-glibc-lt-LT \
 locale-glibc-lt-LT.utf8 \
+locale-glibc-ltg-LV.utf8 \
 locale-glibc-lv-LV \
 locale-glibc-lv-LV.utf8 \
 locale-glibc-lzh-TW \
 locale-glibc-mag-IN \
 locale-glibc-mai-IN \
 locale-glibc-mai-NP \
+locale-glibc-mdf-RU \
 locale-glibc-mfe-MU \
 locale-glibc-mg-MG \
 locale-glibc-mg-MG.utf8 \
@@ -402,6 +408,7 @@ locale-glibc-sa-IN \
 locale-glibc-sah-RU \
 locale-glibc-sat-IN \
 locale-glibc-sc-IT \
+locale-glibc-scn-IT \
 locale-glibc-sd-IN \
 locale-glibc-sd-IN@devanagari \
 locale-glibc-se-NO \
@@ -429,8 +436,10 @@ locale-glibc-sr-ME \
 locale-glibc-sr-RS \
 locale-glibc-sr-RS@latin \
 locale-glibc-ss-ZA \
+locale-glibc-ssy-ER \
 locale-glibc-st-ZA \
 locale-glibc-st-ZA.utf8 \
+locale-glibc-su-ID \
 locale-glibc-sv-FI \
 locale-glibc-sv-FI.utf8 \
 locale-glibc-sv-FI@euro \
@@ -457,6 +466,7 @@ locale-glibc-tl-PH \
 locale-glibc-tl-PH.utf8 \
 locale-glibc-tn-ZA \
 locale-glibc-to-TO \
+locale-glibc-tok \
 locale-glibc-tpi-PG \
 locale-glibc-tr-CY \
 locale-glibc-tr-CY.utf8 \
@@ -489,6 +499,7 @@ locale-glibc-yi-US.utf8 \
 locale-glibc-yo-NG \
 locale-glibc-yue-HK \
 locale-glibc-yuw-PG \
+locale-glibc-zgh-MA \
 locale-glibc-zh-CN \
 locale-glibc-zh-CN.gb18030 \
 locale-glibc-zh-CN.gbk \

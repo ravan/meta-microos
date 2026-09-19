@@ -2,25 +2,24 @@ SUMMARY = "Haskell semialign profiling library"
 DESCRIPTION = "This package provides the Haskell semialign profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3"
+PV = "1.3.1.1"
 
-RPM_NAME = "ghc-semialign-prof-1.3-1.6.aarch64.rpm"
-RPM_HASH = "1e14da817e977518a1d154bca5d7355f9cdc5e923979d964fa0ffc2f345e7fe3cbf9e95c321d50d4f7341ea5b4838db84ef4dd0437cd3ee2c1b0d98ed453565c"
+RPM_NAME = "ghc-semialign-prof-1.3.1.1-1.3.aarch64.rpm"
+RPM_HASH = "e69ab5572ee8d4b34b082e3deb5c41d87340f81958de1069ed30d0b76fc34a74fa89333ca8ea96381a4d45ca9dc4096624612861021eab09df38f06fabb709c9"
 
-RPROVIDES:${PN} += "ghc-prof-semialign-1.3-6anmyujTzjW8JKdJGWMlmE \
+RPROVIDES:${PN} += "ghc-prof-semialign-1.3.1.1-2gupAkHqo8uDH6Y43n5yi0 \
 ghc-semialign-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-prof-indexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO \
-ghc-prof-indexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ \
-ghc-prof-semigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g \
-ghc-prof-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
-ghc-prof-these-1.2-5fSFdT8DGhg7GQONqvd4MR \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
+ghc-prof-indexed-traversable-0.1.5-JylwuAInS9n4ImeZ4JChDW \
+ghc-prof-indexed-traversable-instances-0.1.2.1-6YpZT8gBjiD9ssAaPGVbKH \
+ghc-prof-semigroupoids-6.0.2-B6Y5GIvJ2JI8mXJpMQTJaF \
+ghc-prof-tagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7 \
+ghc-prof-these-1.2.1-IItOvRyyn8cFsXxaqiOQHG \
+ghc-prof-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-prof-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
 ghc-semialign-devel"
 
 inherit rpm

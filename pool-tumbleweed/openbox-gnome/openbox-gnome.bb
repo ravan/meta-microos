@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "3.6.1"
 
-RPM_NAME = "openbox-gnome-3.6.1-4.1.aarch64.rpm"
-RPM_HASH = "098a5f0ce95b88143ecb5b44fa7cf761351702e990b32a585a27668d80b31987cc2aa31acfd09f69f8fd6ad07fa70ca9a58bd1863a533fb49390d6d4813afdf8"
+RPM_NAME = "openbox-gnome-3.6.1-5.12.aarch64.rpm"
+RPM_HASH = "afe7213bab4a1e3ec97e4bb158ffee98ffe56dbfe9a2ba4b361bf63e304a29dd11131f6d6437ef545012a2fd84da02d750d29f9a9f680e26c1906fac0184f0e9"
 
 RPROVIDES:${PN} += "openbox-gnome"
 

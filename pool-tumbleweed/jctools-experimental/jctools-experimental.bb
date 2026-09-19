@@ -3,10 +3,10 @@ DESCRIPTION = "Experimental implementations for the \
 Java Concurrency Tools Library."
 LICENSE = "Apache-2.0"
 
-PV = "3.3.0"
+PV = "4.0.6"
 
-RPM_NAME = "jctools-experimental-3.3.0-3.1.noarch.rpm"
-RPM_HASH = "41a38726d9c5355516015bece12d91b03245b73c87c74afd3fe23107c35d93712f0f88df9c67eb80e8c2cbfc350dd226e144d7ac347538f5c56197aec7634f22"
+RPM_NAME = "jctools-experimental-4.0.6-1.2.noarch.rpm"
+RPM_HASH = "18766cb4add3fc9d71e1f9d00e2c6e9bcbc105e8b8eef76ab13446c838b81226c6fb8d4d137e515e1d68aafd195c99735d19e8d4b9a8b2eca0f03472be16efa1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jctools-experimental \

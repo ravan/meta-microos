@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-trimspaces"
 DESCRIPTION = "This package includes the documentation for texlive-trimspaces"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-trimspaces-doc-2023.209.1.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "27df0f177e9e7edca9f04df5125fbcd65458d1b4419712853cb681448985aa66f6625b04df99f8c1f036790378e5217d6ba5609aa79b2b4bd7c5bf5550c771cb"
+RPM_NAME = "texlive-trimspaces-doc-2026.226.1.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "90ecfd49dce114d2494d3460c8ef04a103950b38cbfd390e866f8b06a47a1c084309127e375319b89a26be4de4ceb4b3410832dab0bdcc944085b2b4789bf666"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-trimspaces-doc"

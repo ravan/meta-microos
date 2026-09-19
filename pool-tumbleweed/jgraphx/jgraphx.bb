@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.2.2"
 
-RPM_NAME = "jgraphx-4.2.2-2.6.noarch.rpm"
-RPM_HASH = "02c68d52aae94a5f70b5aaaf8f061f93bd2d624b989f54b7faff49d8ef53a85fb24d857c0c49d46fb18a55a4f7278f78e0631ccd15982b48667991fb6af22c72"
+RPM_NAME = "jgraphx-4.2.2-3.8.noarch.rpm"
+RPM_HASH = "160ae0b915d9d90ea0f80960422f4062e31a15260b8339f7667002dbff9fb0f639194b771ddf72aed2547e67e82329f91111cd5dbe513e82c84c45fea60d5513"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jgraphx \
@@ -16,8 +16,7 @@ mvn-com.mxgraph-jgraphx \
 mvn-com.mxgraph-jgraphx-pom- \
 osgi-com.mxgraph"
 
-RDEPENDS:${PN} += "java \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 
 inherit rpm

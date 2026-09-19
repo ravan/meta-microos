@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.3"
 
-RPM_NAME = "pcmanx-gtk2-1.3-1.31.aarch64.rpm"
-RPM_HASH = "4d7c5eb2a327668f4d9f86d36d7efb2466691984f79df684c5e3d407a15daf55a61d41d0df3d64cadf1474039e8a6e4c4da45bddddf725690571a649fd7d82d9"
+RPM_NAME = "pcmanx-gtk2-1.3-1.43.aarch64.rpm"
+RPM_HASH = "7cd93ac69e2c4b40d47c3ce4baa6f281f2e062cd08f369f2436748141fdfa2b552402d53001d398754eec7941587f4abe38f8c0b3a5be9bb76c42e07747a0e5c"
 
 RPROVIDES:${PN} += "pcmanx-gtk2"
 

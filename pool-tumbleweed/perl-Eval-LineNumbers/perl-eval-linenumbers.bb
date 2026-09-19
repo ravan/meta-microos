@@ -9,13 +9,13 @@ LICENSE = "Artistic-2.0 | LGPL-2.1-only"
 
 PV = "0.35"
 
-RPM_NAME = "perl-Eval-LineNumbers-0.35-1.11.noarch.rpm"
-RPM_HASH = "23d7153711b57be3ddf5f6fcad5780ee1abfa8041a2ba4a529e2a0c15645ef90658c12a4ba434819884e5e4f1c8c317a4551930170942c46a77633a5ddf9899d"
+RPM_NAME = "perl-Eval-LineNumbers-0.35-1.25.noarch.rpm"
+RPM_HASH = "8912ea5d3aa03f01de910d37a3afcd577175aa37365563b7d2d9f2c12c6dc3628e900db19cab8a3de09930e70920600f36e6659f48b1752f15eef5f2490f6384"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Eval--LineNumbers \
 perl-Eval-LineNumbers"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

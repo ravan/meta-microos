@@ -6,10 +6,10 @@ TikZ pictures. Also, patterns of hexagons and of rhombi are \
 provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn63947"
+PV = "2026.226.1.0.1svn76924"
 
-RPM_NAME = "texlive-tikzfill-2023.209.1.0.0svn63947-53.1.noarch.rpm"
-RPM_HASH = "9c9092c3ceaf548a6550747378295132b95f521f6d2a643e85979c1b3d949d41f4f3767acf69359e3f492afd88c8ec785cabe304106344ffa17d5989658d7723"
+RPM_NAME = "texlive-tikzfill-2026.226.1.0.1svn76924-59.2.noarch.rpm"
+RPM_HASH = "ab37ea4c7178107866883cc29c412fdb58004391f92ce376449ae9fec595cfe9e6a123441e6e4adae2ca540d3b24180910c403a21a8a6087395f09a5dc354023"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzfill-common.sty \

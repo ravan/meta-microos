@@ -12,10 +12,10 @@ same way (see example in the documentation). The package also \
 offers a robust reimplementation of \\big, \\bigg, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn54080"
+PV = "2026.226.2.3svn67201"
 
-RPM_NAME = "texlive-perfectcut-2023.209.2.3svn54080-52.1.noarch.rpm"
-RPM_HASH = "c44b72ed0dcb7752e1b31d1d7daabec34f29fbc670c301a3bbdb0bf06d34129597af3d30718ec95c9db63c2a6f70fc9aaf6354c33398eaccc10086e586bea148"
+RPM_NAME = "texlive-perfectcut-2026.226.2.3svn67201-58.2.noarch.rpm"
+RPM_HASH = "4b8334b93c1220bd47ae810b1ea9840bc9dc12bba7c257c71b8976a19400bfd69576a6ba23d4cfb3ab9a6c30d63ca01084202e1a214cd7c858009f88679e2126"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-perfectcut.sty \

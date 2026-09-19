@@ -7,16 +7,16 @@ ways of sending a message for each vendor. \
 This subpackage contains the headers for libcec."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.2"
+PV = "8.1.7"
 
-RPM_NAME = "libcec-devel-6.0.2-3.1.aarch64.rpm"
-RPM_HASH = "88e654453c73b14074ad3afdd152e1c55fe759b27edfde38d1758e7093a0f2e0cbee9ef485eaf5e1e63d23b7c388d8bffebfc35f4b2a7edec28baac2efcb0d59"
+RPM_NAME = "libcec-devel-8.1.7-1.1.aarch64.rpm"
+RPM_HASH = "374dcfe21aa3a6456c80f108a22b009c9e965230fd87a23f6031d5789cb0168b6b60275bfb5afa9c7fcba44198f602774134733181e46896f4feb496352533e1"
 
-RPROVIDES:${PN} += "libcec-devel \
+RPROVIDES:${PN} += "cmake-libcec \
+libcec-devel \
 pkgconfig-libcec"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libcec6 \
-pkgconfig-p8-platform"
+libcec8"
 
 inherit rpm

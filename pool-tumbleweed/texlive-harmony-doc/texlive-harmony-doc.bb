@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-harmony"
 DESCRIPTION = "This package includes the documentation for texlive-harmony"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn72045"
 
-RPM_NAME = "texlive-harmony-doc-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "f0d3aa267b8151dfea76e410e517f13826c4be87281f24682dc9ced556966c5c56244fb1592d07ef4ba8b6fdedb79a5c79a449965016d7a915ac0556fea37d52"
+RPM_NAME = "texlive-harmony-doc-2026.226.svn72045-60.4.noarch.rpm"
+RPM_HASH = "424d0126b4b989fabf799ac5cb8deb52e0e0f3e25e0880e19bcad058da15d3f50cd0ae50473bec2332aacd132cc978942e795f0c70061912e9b1269acbc9602b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-harmony-doc"

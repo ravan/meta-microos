@@ -2,10 +2,10 @@ SUMMARY = "Binary files of match_parens"
 DESCRIPTION = "Binary files of match_parens"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn23500"
+PV = "2026.20260301.svn23500"
 
-RPM_NAME = "texlive-match_parens-bin-2023.20230311.svn23500-93.2.aarch64.rpm"
-RPM_HASH = "8f1b53bb323bb61564377d42f8b5403f4b8c70b125d0d0a8482a309ce6704007884f6fadc9765d1b78cce5ee676b16cdcc311c12849b80c92d026e87465eb51f"
+RPM_NAME = "texlive-match_parens-bin-2026.20260301.svn23500-120.4.aarch64.rpm"
+RPM_HASH = "453f5d22eaac8f07675f204f923d7aaaaebd731c1dd35a62f2ea82c7cccaebb612744a55e9366f6662611954ec80b4e191976d550a90bc10ca2d6028e10782cf"
 
 RPROVIDES:${PN} += "texlive-match-parens-bin"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.198"
 
-RPM_NAME = "metamath-0.198-7.7.aarch64.rpm"
-RPM_HASH = "8867383ed9cf4db31bfbc2fba1ed5c25419881d571f1b4bd6bb3766132d26ff22b89f2cfc56c5fffc192b7b7c56c09268924528d3de3926f3c96d4b78757ac05"
+RPM_NAME = "metamath-0.198-7.17.aarch64.rpm"
+RPM_HASH = "8926062483bfed43fafcd11f04fe85cdcdbba4386d1c19136770396c4ceedff0f56ae5f38ca0c0139630d5b262199d20c2d0dce77f1594b77c4eb703ca5c6453"
 
 RPROVIDES:${PN} += "metamath"
 

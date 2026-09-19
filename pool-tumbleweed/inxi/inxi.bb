@@ -4,10 +4,10 @@ infobash. The primary purpose of inxi is for support, and sys admin \
 use. inxi is used widely for forum and IRC support."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.3.27"
+PV = "3.3.41"
 
-RPM_NAME = "inxi-3.3.27-1.1.noarch.rpm"
-RPM_HASH = "2cab92de6d1024583847142f7e0ccf0cdc075aa2febbc8e8297b422c9f409d33f3e74ca7638cc45f9a7ce5ec84db30ee688d25234c53164f3307c235a726df8d"
+RPM_NAME = "inxi-3.3.41-1.1.noarch.rpm"
+RPM_HASH = "73d74afca8f26b37de552357775f9597af3565ef80d0087ed5ef5c2f88f52a59bab8c79e672bcbfd6cb927be13dabe0b0607ab4bce8351e8bb7bf70932ae553d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "inxi"

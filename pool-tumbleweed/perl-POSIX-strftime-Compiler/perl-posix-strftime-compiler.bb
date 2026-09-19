@@ -7,15 +7,15 @@ For generate same result strings on any locale, POSIX::strftime::Compiler \
 wraps POSIX::strftime and converts some format characters to perl code"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.44"
+PV = "0.460.0"
 
-RPM_NAME = "perl-POSIX-strftime-Compiler-0.44-1.15.noarch.rpm"
-RPM_HASH = "fe7fe85922ac55ed29020f26376a1c26e96dd5cf64859b927fe173a6457cdb4c6afe90d50cc154e1d2cc727f92e17dca60dfba33f1810539d108380746b3de8e"
+RPM_NAME = "perl-POSIX-strftime-Compiler-0.460.0-2.12.noarch.rpm"
+RPM_HASH = "fc80767a2ea68f2ef4354666dadff5b352cb9ea3d6e50bace39dfaadafcfc26bbc2c69ff8aa9d0298ab4c721d7bbe5a415eb55857ec9cd534e41eab50e36495d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-POSIX--strftime--Compiler \
 perl-POSIX-strftime-Compiler"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

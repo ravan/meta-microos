@@ -2,10 +2,10 @@ SUMMARY = "Brazilian_Portuguese localization files for LibreOffice"
 DESCRIPTION = "Provides Brazilian_Portuguese translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-pt_BR-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "6cbfb785a69e77eb241c4850b8f390d6057e3d197198e8197ad0f419bfe73289d94ad6fa2cf21445563805d5052da57fc98ef97f3ebef3920d3bef2ebaff086f"
+RPM_NAME = "libreoffice-l10n-pt_BR-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "a3a385419464f4abf3cbea9659199a0ef859f4ca8d88376d6ed7ab02edbda50d38ff231944089984660d654af36c06e53539f2cebd3638b83d67cafc9636cd4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-pt-BR \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.10~20131207"
 
-RPM_NAME = "jformatstring-javadoc-0.10~20131207-3.7.noarch.rpm"
-RPM_HASH = "4571e272109fefdb3ae6806884fca3e66306e88bb6242529b02c3ba829880e42614f595a9f2ff36258a5be6a611ba992f2ab8caebd003fe41d18bbcee1d8b05e"
+RPM_NAME = "jformatstring-javadoc-0.10~20131207-4.9.noarch.rpm"
+RPM_HASH = "e9d5fd215bc95bc02082bb71cfa91acf821302541910326e3c1efcfd0810bde0ef6b4fbdee18068d9b28849a091d16c4b9c0ab0b68de502a687acd3638561afc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jformatstring-javadoc"

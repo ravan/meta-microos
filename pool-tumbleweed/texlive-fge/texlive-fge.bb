@@ -3,10 +3,10 @@ DESCRIPTION = "The fonts are provided as Metafont source and Adobe Type 1 \
 (pfb) files. A small LaTeX package (fge) is included."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.25svn37628"
+PV = "2026.226.1.25svn77682"
 
-RPM_NAME = "texlive-fge-2023.209.1.25svn37628-53.1.noarch.rpm"
-RPM_HASH = "5eab841693d0a5888f46a1a4ffde052df7cf01cba7edf5a72f7ffa48f3c5453cb4a6083bbbd2e50a0b94ff0f129c5e52c70c865823e28d573481efb8402f4276"
+RPM_NAME = "texlive-fge-2026.226.1.25svn77682-59.2.noarch.rpm"
+RPM_HASH = "d99c89dcf1ce23c8b67b476fcc011b063d6ff221fc0271b92db4579e68a7dc544309922f35712362de96496ec83736bd9939c0d06f260ba1c793af391b6702b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Ufgeit.fd \

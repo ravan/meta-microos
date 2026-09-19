@@ -7,15 +7,14 @@ LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 
-RPM_NAME = "OpenSceneGraph-plugin-pdf-3.6.5-8.7.aarch64.rpm"
-RPM_HASH = "c0e933b89761f66c878e4b6daf84f159a324d40b947f41194bff536b1e4dfc57f8380d0dadef354196a3725357a04358e55bbba6d61cce45b928ee34c440430b"
+RPM_NAME = "OpenSceneGraph-plugin-pdf-3.6.5-12.8.aarch64.rpm"
+RPM_HASH = "0b58e377ac1a78468832e16c8fef9fdd75881b8238f11de02b3cc8e93613cd15ddeaa8117b98f5b94cf2519c5333ecdf14df87206ff5251df26f8009f9995e15"
 
 RPROVIDES:${PN} += "OpenSceneGraph-plugin-pdf \
 OpenSceneGraph-plugins-/usr/lib64/osgPlugins-3.6.5/osgdb-pdf.so \
 OpenSceneGraphPlugin-ext-pdf"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libcairo.so.2 \
 libgcc-s.so.1 \
 libgobject-2.0.so.0 \

@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.14"
 
-RPM_NAME = "native-platform-0.14-2.10.aarch64.rpm"
-RPM_HASH = "5f38021a007d98a249ea82db6bff12b8cdfc73ded5ff38882655976fe554cac277b74084fe5cd0fe1fc66b56a4862145fb4a8d0aabce1d967590d9c7b802642f"
+RPM_NAME = "native-platform-0.14-5.2.aarch64.rpm"
+RPM_HASH = "aeef5a9cbe9677e157d5497e6780de75ce4485308816068ee98b98eaa2fcef8b0f2ca6bae4151453f2330945d1143863018751c4fc89f81c8104d3d2bc13988b"
 
 RPROVIDES:${PN} += "libnative-platform-curses.so \
 libnative-platform.so \

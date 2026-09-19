@@ -1,15 +1,15 @@
 SUMMARY = "Headers and sources for developing with the gravitational wave frame library"
-DESCRIPTION = "The Frame Library is a software in C language, with interfaces to python and \
-matlab, dedicated to frame data manipulation including file input/output. \
+DESCRIPTION = "The Frame Library is a software dedicated to frame data manipulation including \
+file input/output. \
  \
 This package property the headers and sources needed to develop applications \
 against the frame library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "8.42.3"
+PV = "8.48.4"
 
-RPM_NAME = "framel-devel-8.42.3-1.6.aarch64.rpm"
-RPM_HASH = "d0e5824a10f92f26c6e3f8847d76c8584dc2fed03c9840f6ee8fc7aa7a30cc8c8f13113963cde80cdcef0966a4863b6463fc275ca004b3d5d8128c1ae54031b7"
+RPM_NAME = "framel-devel-8.48.4-2.7.aarch64.rpm"
+RPM_HASH = "55fb5ae9441b5ef5fbd21e78ebcdcbabbbb0dc3f692b07434ec7781e5e4c2b0f7cb630f34da1667084e58d14609455b8de316fa818d5f5038dd81fd30b4db3ec"
 
 RPROVIDES:${PN} += "framel-devel \
 pkgconfig-framel"

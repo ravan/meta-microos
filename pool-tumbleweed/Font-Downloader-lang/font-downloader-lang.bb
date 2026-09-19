@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "10.0.0"
 
-RPM_NAME = "Font-Downloader-lang-10.0.0-1.2.noarch.rpm"
-RPM_HASH = "a54f28d4a4cf18c4e81d6eb18aa03cfaeef1b5ef9a7faa08bcb4e0cb14f6c7ba6d6822326fc8ba3329e78c70b54ed955f0fac5de1756fe8f02f40aed0218af76"
+RPM_NAME = "Font-Downloader-lang-10.0.0-3.2.noarch.rpm"
+RPM_HASH = "c240f1133c79aaed82767a7087621efcd37268d87c40c6859dcd5af37bd7eee75c5ea8861126bb11bccc06e7c45ebdce333b082c74d9f43aa5e9439919fc401b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Font-Downloader-lang \

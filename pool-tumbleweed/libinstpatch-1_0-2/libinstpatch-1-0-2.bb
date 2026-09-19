@@ -8,10 +8,10 @@ patch files into, which can then be edited, converted, compressed and saved. \
 This package contains the library of libinstpatch."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.1.6"
+PV = "1.1.7"
 
-RPM_NAME = "libinstpatch-1_0-2-1.1.6-2.9.aarch64.rpm"
-RPM_HASH = "cf145f2dc80124a5619da9251e704743d5a66bcb5efa5a57ce78c9c68ce8ac880ee56cf4a4c3130b6608b677571f02f78b7e863afa2470a2b178382fa1557250"
+RPM_NAME = "libinstpatch-1_0-2-1.1.7-1.5.aarch64.rpm"
+RPM_HASH = "c3a8e04e70fe3fdc3b1e442cccd310c3399d07b6b144cd361fefd2535f00d369a48f10dd6b44ebc4c894ed69660be707b391348b4d63ae68756e9956aca74b4e"
 
 RPROVIDES:${PN} += "libinstpatch-1-0-2 \
 libinstpatch-1.0.so.2"

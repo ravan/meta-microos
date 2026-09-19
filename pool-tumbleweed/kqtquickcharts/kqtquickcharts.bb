@@ -2,25 +2,26 @@ SUMMARY = "Plugin to render beautiful and interactive graphs"
 DESCRIPTION = "A QtQuick plugin to render beautiful and interactive graphs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kqtquickcharts-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "0816a4e3ce996ae1e71490fba777309dbe86af8710effba610e2d781bc4c8caf80bec0e24155a4fece6ae3da6df70f766a72b789af3c0a603011b275a5008c4c"
+RPM_NAME = "kqtquickcharts-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "6477a88be875e5539882361cbf90b448ae5e8813039472311698c98ae71e3c477229ce9de62ef4d8ab8fe68b59c976e0358fa5481680954b06cc7e3949c0415a"
 
 RPROVIDES:${PN} += "cmake-KQtQuickCharts \
 kqtquickcharts \
 libkqtquickcharts.so \
-qt5qmlimport-org.kde.charts.0"
+qt6qmlimport-org.kde.charts \
+qt6qmlimport-org.kde.charts.0"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-org.kde.charts.0"
+qt6qmlimport-QtQuick.2 \
+qt6qmlimport-org.kde.charts.0"
 
 inherit rpm

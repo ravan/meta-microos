@@ -2,10 +2,10 @@ SUMMARY = "Translations for package eom"
 DESCRIPTION = "Provides translations for the 'eom' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "eom-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "6f57ea9f643d34991cef16802b89d0beba924a961cf9bd20e0af2196bf3c632cbb13ccac2a69c9892d727fbcd4079d40b69fbdf8fa83ca417439b2a4211f9bdc"
+RPM_NAME = "eom-lang-1.28.1-1.3.noarch.rpm"
+RPM_HASH = "985e922f17e7c8d8a85200ce3fa6953e573c9cdc57738baa5f30ec2452ccfa537da97c03fc3e0ba055882936b449bc46fa0035fe170521a1633ff223d187e7b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eom-lang \
@@ -32,7 +32,6 @@ locale-eom-el \
 locale-eom-en-AU \
 locale-eom-en-CA \
 locale-eom-en-GB \
-locale-eom-en-US \
 locale-eom-eo \
 locale-eom-es \
 locale-eom-es-AR \

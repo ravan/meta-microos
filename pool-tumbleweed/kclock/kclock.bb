@@ -2,39 +2,56 @@ SUMMARY = "Clock application for Plasma"
 DESCRIPTION = "A clock application for Plasma."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kclock-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "cd9d92573b226f07b5e7952c7ef8ab5fc3d9e9045676517a4354c38bb92318701f42972e7b833a92a8a979bc4f768222e09a9c3bc8d7d8f6fdaefb758b1ccb85"
+RPM_NAME = "kclock-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "c510ced4986bbc3e7deead245d98ebb9e80708fd942b2e60fa338b40d0cb180bbf441333923d104fbda84431a64564d1a52a5647ffd2a6ed20a89d5182454757"
 
 RPROVIDES:${PN} += "kclock"
 
-RDEPENDS:${PN} += "kirigami-addons \
-kirigami2 \
+RDEPENDS:${PN} += "kf6-kcoreaddons-imports \
+kf6-kirigami-imports \
+kf6-ksvg-imports \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5Notifications.so.5 \
-libKF5Plasma.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Qml.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6I18nQml.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6Notifications.so.6 \
+libKF6Service.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6Svg.so.6 \
+libKF6WindowSystem.so.6 \
+libPlasma.so.7 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6WaylandClient.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
+libm.so.6 \
 libstdc++.so.6 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Controls.2 \
-qt5qmlimport-QtQuick.Layouts.1 \
-qt5qmlimport-org.kde.kirigami.2 \
-qt5qmlimport-org.kde.plasma.components.2 \
-qt5qmlimport-org.kde.plasma.configuration.2 \
-qt5qmlimport-org.kde.plasma.core.2 \
-qt5qmlimport-org.kde.plasma.plasmoid.2"
+libwayland-client.so.0 \
+qt6-declarative-imports \
+qt6qmlimport-QtQml \
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.Controls \
+qt6qmlimport-QtQuick.Layouts \
+qt6qmlimport-org.kde.kcmutils \
+qt6qmlimport-org.kde.kirigami \
+qt6qmlimport-org.kde.plasma.components \
+qt6qmlimport-org.kde.plasma.configuration.2 \
+qt6qmlimport-org.kde.plasma.core \
+qt6qmlimport-org.kde.plasma.plasmoid"
 
 inherit rpm

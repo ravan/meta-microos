@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-sexplib0-devel package contains libraries and signature
 developing applications that use ocaml-sexplib0."
 LICENSE = "MIT"
 
-PV = "0.16.0"
+PV = "0.17.0"
 
-RPM_NAME = "ocaml-sexplib0-devel-0.16.0-1.2.aarch64.rpm"
-RPM_HASH = "122d1292db3d103501e233e75b5099d3672e53367d016e796d1a8ac7bc776ddde274ddeac1c297697aca80de53b961c9de52795a886abcd0ba2bc70b26b687cc"
+RPM_NAME = "ocaml-sexplib0-devel-0.17.0-1.1.aarch64.rpm"
+RPM_HASH = "77102ebd00874197a1064dc0abd58fb501178ccd82dc0abb9004786568a3d7f1aa8bc5b9fa829c47f149fe0360c6d970c213693bac3a5a1fff792b4525106e46"
 
 RPROVIDES:${PN} += "ocaml-Sexplib0 \
 ocaml-Sexplib0-- \
@@ -14,6 +14,7 @@ ocaml-Sexplib0--Sexp \
 ocaml-Sexplib0--Sexp-conv \
 ocaml-Sexplib0--Sexp-conv-error \
 ocaml-Sexplib0--Sexp-conv-grammar \
+ocaml-Sexplib0--Sexp-conv-labeled-tuple \
 ocaml-Sexplib0--Sexp-conv-record \
 ocaml-Sexplib0--Sexp-grammar \
 ocaml-Sexplib0--Sexpable \
@@ -25,6 +26,7 @@ ocamlx-Sexplib0--Sexp \
 ocamlx-Sexplib0--Sexp-conv \
 ocamlx-Sexplib0--Sexp-conv-error \
 ocamlx-Sexplib0--Sexp-conv-grammar \
+ocamlx-Sexplib0--Sexp-conv-labeled-tuple \
 ocamlx-Sexplib0--Sexp-conv-record \
 ocamlx-Sexplib0--Sexp-grammar \
 ocamlx-Sexplib0--Sexpable"
@@ -38,6 +40,7 @@ ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Bytes \
 ocaml-Stdlib--BytesLabels \
 ocaml-Stdlib--Char \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Ephemeron \
 ocaml-Stdlib--Format \
@@ -61,6 +64,7 @@ ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--Stack \
 ocaml-Stdlib--StdLabels \
+ocaml-Stdlib--String \
 ocaml-Stdlib--StringLabels \
 ocaml-Stdlib--Sys \
 ocaml-Stdlib--Uchar \
@@ -89,6 +93,7 @@ ocamlx-Stdlib--Printf \
 ocamlx-Stdlib--Queue \
 ocamlx-Stdlib--Scanf \
 ocamlx-Stdlib--Stack \
+ocamlx-Stdlib--String \
 ocamlx-Stdlib--StringLabels \
 ocamlx-Stdlib--Sys"
 

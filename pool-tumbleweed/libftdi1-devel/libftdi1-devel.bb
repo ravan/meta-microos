@@ -3,10 +3,10 @@ DESCRIPTION = "Header files and static libraries for libftdi. \
 This library is used by many programs accessing FTDI USB-to-RS232 converters."
 LICENSE = "LGPL-2.1-only & GPL-2.0-only & GPL-2.0-with-classpath-exception"
 
-PV = "1.5.12+git.0684c1b"
+PV = "1.6rc1.2+git.92d657b"
 
-RPM_NAME = "libftdi1-devel-1.5.12+git.0684c1b-2.2.aarch64.rpm"
-RPM_HASH = "767b6167e2a894266a6d9a8fd3acb84d78779df159949ea2d94f7663ca2be9d5021e7be59f77bc3df8309f470c86fe2e4a44caa319f0bdbede974b8f7621450d"
+RPM_NAME = "libftdi1-devel-1.6rc1.2+git.92d657b-2.1.aarch64.rpm"
+RPM_HASH = "d997777fe63cf8c16fcf78b38a2629abf1faff1cedd7503cad3e205035f7e4f26bf8f890c2aedba93354367d847e78e2fe3a825e380d380c9b13c058f2b4d861"
 
 RPROVIDES:${PN} += "cmake-LibFTDI1 \
 libftdi1-devel \

@@ -6,10 +6,10 @@ configuration files, reading and writing of XML files, and interprocess \
 communication)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.10.1"
+PV = "5.14.1"
 
-RPM_NAME = "libgwenhywfar79-plugins-5.10.1-1.5.aarch64.rpm"
-RPM_HASH = "18d5b656821ae0cbbf545783179bb8e6304944c6a9643692fe4c5c17c46b9cfed62cf14753ed1fb80c8e482bc41403de64a02b8c8c403894cedbf94a9057ff9c"
+RPM_NAME = "libgwenhywfar79-plugins-5.14.1-1.3.aarch64.rpm"
+RPM_HASH = "5a2d6d9d3bc262c3554d28866ca8783428ef3a225aba525bf04e89e8a5f5722abc493cef55e5ee26a852946449467a976e489545bed918139346a4892125c5b4"
 
 RPROVIDES:${PN} += "libgwenhywfar79-plugins"
 

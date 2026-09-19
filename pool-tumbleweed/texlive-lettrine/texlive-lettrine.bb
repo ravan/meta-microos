@@ -6,15 +6,17 @@ edge to follow the outline of capitals that have a regular \
 shape (such as 'A' and 'V')."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.30svn64511"
+PV = "2026.226.2.83svn77053"
 
-RPM_NAME = "texlive-lettrine-2023.209.2.30svn64511-55.1.noarch.rpm"
-RPM_HASH = "d63aaa5a10de8a23b86590c0fb8cc139d8fa0cfa158399e79dc1c3dad03077be08fad65181f132c627b1905002e8f06896378987277a68b0ea28f83ed536dcad"
+RPM_NAME = "texlive-lettrine-2026.226.2.83svn77053-61.2.noarch.rpm"
+RPM_HASH = "564483f575c5f1b4695fc9845ca0da8b72785942bf84a46e09be2907ac4af5ca0a0c39319a7751117c57f1a8337b9bcff08a6f2cdd09dfce17265560c72bf2f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lettrine-2006-03-17.sty \
 tex-lettrine-2015-08-31.sty \
 tex-lettrine-2018-08-18.sty \
+tex-lettrine-2022-09-25.sty \
+tex-lettrine-2023-04-18.sty \
 tex-lettrine.cfg \
 tex-lettrine.sty \
 texlive-lettrine"
@@ -27,6 +29,7 @@ grep \
 sed \
 tex-keyval.sty \
 tex-minifp.sty \
+tex-xfp.sty \
 tex-xkeyval.sty \
 texlive \
 texlive-filesystem \

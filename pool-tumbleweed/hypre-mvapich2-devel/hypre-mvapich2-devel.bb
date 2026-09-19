@@ -1,17 +1,17 @@
-SUMMARY = "Headers and library links for libHYPRE2_20_0-mvapich2"
+SUMMARY = "Headers and library links for libHYPRE301-mvapich2"
 DESCRIPTION = "HYPRE headers and libraries files needed for development \
 This package contains development files of the mvapich2 version of Hypre."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "2.20.0"
+PV = "3.1.0"
 
-RPM_NAME = "hypre-mvapich2-devel-2.20.0-1.10.aarch64.rpm"
-RPM_HASH = "aee9c82dbb7c7e252a5cf6776596200505b661a6865f3cd2a71826ebee6ca4f8e421a0d2d6abeee4e7da2ed16a06c9f670c0e2957c5b667e049b00f2480c3df8"
+RPM_NAME = "hypre-mvapich2-devel-3.1.0-1.2.aarch64.rpm"
+RPM_HASH = "57212d72583b8b8d6d362afb38b215f1816a755fc30585d4d5656f08066b16da56bb326833c6408ef670141287caede6ebc0781fd261e811a19a9ca9e59d086a"
 
 RPROVIDES:${PN} += "hypre-mvapich2-devel"
 
 RDEPENDS:${PN} += "lapack-devel \
-libHYPRE2-20-0-mvapich2 \
+libHYPRE301-mvapich2 \
 superlu-devel"
 
 inherit rpm

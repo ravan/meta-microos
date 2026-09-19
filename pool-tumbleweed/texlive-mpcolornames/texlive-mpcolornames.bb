@@ -8,10 +8,10 @@ MetaPost. Colour sets include X11, SVG, DVIPS and xcolor \
 specifications."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.20svn23252"
+PV = "2026.226.0.0.20svn23252"
 
-RPM_NAME = "texlive-mpcolornames-2023.209.0.0.20svn23252-55.1.noarch.rpm"
-RPM_HASH = "e5e337558e1dbf7271d093e34ab34712d85e05f7280f24b53a2f3ef226cbea35fa0b486d2d01727575889d03abb9b97c0b9bd0fcfeb90a336085bd41edaf9469"
+RPM_NAME = "texlive-mpcolornames-2026.226.0.0.20svn23252-61.2.noarch.rpm"
+RPM_HASH = "9c433509470eee102373ea32f4b2e27826a1552da5953c6f71b1606753c5594774d17c124fad57080aa76747d4f6c6075dc0ed5e48d2521511445622a014399f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mpcolornames"

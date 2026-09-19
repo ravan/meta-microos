@@ -3,15 +3,14 @@ DESCRIPTION = "This tool lists the locally recognised devices and their respecti
 configuration options and configuration defaults."
 LICENSE = "MIT"
 
-PV = "1.24.0"
+PV = "1.31.3"
 
-RPM_NAME = "libinput-tools-1.24.0-1.1.aarch64.rpm"
-RPM_HASH = "d84a12b54ff8c4f18aa172fbd2fae33f60421fb5c4698b8445e19c528bcf36e561d5d2ac09111f5ea5b0f4c5e94eeb53a6da8ed2663a51f7a5904a56248d95d3"
+RPM_NAME = "libinput-tools-1.31.3-1.3.aarch64.rpm"
+RPM_HASH = "a7e092d8969dae252803e173a83d72b1e708b8121fa8c99e45a9bec963fc4d04d76302e9ec8e1420d91df41e81310a88dc63ed4315e7ef3f4d5c2ddc557393f3"
 
 RPROVIDES:${PN} += "libinput-tools"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libevdev.so.2 \

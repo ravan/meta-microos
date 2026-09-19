@@ -5,10 +5,10 @@ DESCRIPTION = "A simple interface from Lua to a DBMS. It enables a Lua program t
  - Retrieve results in a row-by-row cursor fashion."
 LICENSE = "MIT"
 
-PV = "2.6.0"
+PV = "2.7.0"
 
-RPM_NAME = "lua54-luasql-2.6.0-1.4.aarch64.rpm"
-RPM_HASH = "65f5226f7e833ddec22322108e25014efe326b5bdc94c75dd3d7ff3571e54e4cd1468da0cf713e04efb6f9aa0950030d0ffa1689b20d4f70fbee52cfb2462746"
+RPM_NAME = "lua54-luasql-2.7.0-3.5.aarch64.rpm"
+RPM_HASH = "72d87e77ea4c3dca102131213c2fdf687ad31f5402e1e53381d1d45481ca207869af99c49851e01219e26ce89289acc07eebc57d0222f56af1d10393d8752671"
 
 RPROVIDES:${PN} += "lua-luasql \
 lua54-luasql"

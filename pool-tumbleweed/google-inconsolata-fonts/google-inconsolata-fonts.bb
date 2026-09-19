@@ -8,8 +8,8 @@ LICENSE = "OFL-1.1"
 
 PV = "3.000"
 
-RPM_NAME = "google-inconsolata-fonts-3.000-1.9.noarch.rpm"
-RPM_HASH = "74b39ec210a388a3959c596113882d2783b0be2aaa6db239d2a5449b1da279423fbc4c5983672fcf4e30bd4b11232fe7f230c831b0ae8404ddf8e996932a3dbe"
+RPM_NAME = "google-inconsolata-fonts-3.000-1.17.noarch.rpm"
+RPM_HASH = "ce398941eb6ad8d8b414e311d0ac266920d8f4bb4aa9c29c16b27e7e28f816b856061a0a0e5724f74a5a671180c73e94e6055814c48a6749059c22ddc4d9ca31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-inconsolata-fonts"

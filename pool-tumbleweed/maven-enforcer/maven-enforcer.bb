@@ -2,10 +2,10 @@ SUMMARY = "A build rule execution framework"
 DESCRIPTION = "Enforcer is a build rule execution framework."
 LICENSE = "Apache-2.0"
 
-PV = "1.4.1"
+PV = "3.6.3"
 
-RPM_NAME = "maven-enforcer-1.4.1-3.11.noarch.rpm"
-RPM_HASH = "eced75c40dd4f14d22a5e1daa9a694cd1924f7fc4dc47c7b33aaa4e77d8a8c1d7025b457ddb6b5b9ebfeda83da4473dd83dbafad46bfb2aec93928f97d28271c"
+RPM_NAME = "maven-enforcer-3.6.3-1.2.noarch.rpm"
+RPM_HASH = "db01c6395db803113997d7df539b40cdf0749bedc93748a5b22a147e190fba48eda125ff5669190d2fc78599f23bfa02c546a7444557eb122f7d9ade99616d4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-enforcer \

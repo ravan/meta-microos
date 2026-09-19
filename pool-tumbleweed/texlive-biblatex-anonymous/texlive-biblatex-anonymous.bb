@@ -4,10 +4,10 @@ BibLaTeX. It will be useful, for example, in history or \
 classical philology."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.6.2svn48548"
+PV = "2026.226.2.6.2svn48548"
 
-RPM_NAME = "texlive-biblatex-anonymous-2023.209.2.6.2svn48548-54.1.noarch.rpm"
-RPM_HASH = "b050ee570ec2262f8030b883ef8abbe9f9daebb34bd5504dcc38cf916639bbb1d8cb46ea7926ee2562d469fec62948f9fc85e6e30d756ea8f786acff77668b23"
+RPM_NAME = "texlive-biblatex-anonymous-2026.226.2.6.2svn48548-61.2.noarch.rpm"
+RPM_HASH = "5ba2db114966e46db2bc4d807f379266961f79e00774befad57973a2955d040d7a74e1de8f299576042358a739f347d8d6596179dc798c462e07573325654517"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-anonymous.sty \

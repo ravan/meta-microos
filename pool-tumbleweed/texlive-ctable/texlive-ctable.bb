@@ -7,10 +7,10 @@ variations on the defaults and offering a route for future \
 extensions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.31svn38672"
+PV = "2026.226.1.33svn77682"
 
-RPM_NAME = "texlive-ctable-2023.209.1.31svn38672-55.1.noarch.rpm"
-RPM_HASH = "e0f7c703213b609a78adb11bdc243cbefacb10952d87760c08b4dc90a19885ee67bcf80475d735a46a503b7adec328e5f00b7cf3e0cb3bebfe3fb049eeb5dcf2"
+RPM_NAME = "texlive-ctable-2026.226.1.33svn77682-61.2.noarch.rpm"
+RPM_HASH = "2aaa7f2532d66e36be62b05de5189c7f13c60d271e073d2e02631c62feb63a1da68a5d0fa33ad776ff697a89742b2e0fe701bd61c3d177ad02e18bedf0805284"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ctable.sty \

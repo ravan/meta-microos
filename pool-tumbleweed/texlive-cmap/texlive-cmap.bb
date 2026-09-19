@@ -10,10 +10,10 @@ limitations of pdfTeX. This restriction may be resolved in a \
 future version of pdfTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0jsvn57640"
+PV = "2026.226.1.0jsvn77682"
 
-RPM_NAME = "texlive-cmap-2023.209.1.0jsvn57640-54.1.noarch.rpm"
-RPM_HASH = "c8c4483c606d6d12b4e385a5ad17f422473640b94fdb56dcf89c0342e9d1a977a4e9a09eff13068e422d76b1c968f8ae6c1e1e9ed59e7eacd84cabee3bee97d4"
+RPM_NAME = "texlive-cmap-2026.226.1.0jsvn77682-60.2.noarch.rpm"
+RPM_HASH = "84158ea65a11081f0148aab162abf9e1e8d4d5f2e4d1a4bedecc4cba73e4288bec63faaf3b0bc3c1656867b80663ed1423aa85ba5de4c7317860cfb326d7b91f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmap.sty \

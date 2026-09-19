@@ -2,24 +2,27 @@ SUMMARY = "Severed fonts for texlive-newtx"
 DESCRIPTION = "The  separated fonts package for texlive-newtx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.71svn62369"
+PV = "2026.226.1.756svn78101"
 
-RPM_NAME = "texlive-newtx-fonts-2023.209.1.71svn62369-55.1.noarch.rpm"
-RPM_HASH = "364ca440621e75af76eba75cacd70adbffdae5c1d62f89956f1b17e3874af84a30f52678358acda4e53f7b4d2b7a6e396b7024007c5d53ceb4d6b6a3af53111a"
+RPM_NAME = "texlive-newtx-fonts-2026.226.1.756svn78101-61.2.noarch.rpm"
+RPM_HASH = "17ec56d3fef3adab0da68b1d654ea13cc542eacd6cb07e9c130707473e60de283904653975df5ce14f9364da1a64ae6c33057d864fccb35bc19b724951d771bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-newtx-fonts \
 font--lang=aa \
 font--lang=ab \
 font--lang=af \
+font--lang=agr \
 font--lang=ak \
 font--lang=an \
 font--lang=ast \
 font--lang=av \
 font--lang=ay \
+font--lang=ayc \
 font--lang=az-az \
 font--lang=ba \
 font--lang=be \
+font--lang=bem \
 font--lang=bg \
 font--lang=bi \
 font--lang=bin \
@@ -39,6 +42,7 @@ font--lang=cv \
 font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=el \
 font--lang=en \
 font--lang=eo \
@@ -93,12 +97,17 @@ font--lang=lb \
 font--lang=lez \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=ln \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mhr \
 font--lang=mi \
+font--lang=miq \
+font--lang=mjw \
 font--lang=mk \
 font--lang=mn-mn \
 font--lang=mo \
@@ -108,6 +117,8 @@ font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -135,6 +146,7 @@ font--lang=sco \
 font--lang=se \
 font--lang=sel \
 font--lang=sg \
+font--lang=sgs \
 font--lang=sh \
 font--lang=shs \
 font--lang=sk \
@@ -153,11 +165,13 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tg \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
 font--lang=to \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
 font--lang=tt \
@@ -165,18 +179,21 @@ font--lang=tw \
 font--lang=ty \
 font--lang=tyv \
 font--lang=uk \
+font--lang=unm \
 font--lang=uz \
 font--lang=ve \
 font--lang=vi \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
 font--lang=yi \
 font--lang=yo \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-ebg \
@@ -196,9 +213,9 @@ font-newtxintegrals \
 font-newtxmath \
 font-ntxexmods \
 font-ntxsups \
+font-ntxsupsalt \
 font-ntxsybalt \
 font-ntxsyralt \
-font-ntxtm \
 font-rntxbmi \
 font-rntxmi \
 font-rtxbmi \
@@ -213,6 +230,7 @@ font-txbexs \
 font-txbmiast \
 font-txbmiax \
 font-txbsy \
+font-txbsym \
 font-txbsys \
 font-txex-bar \
 font-txexas \
@@ -220,6 +238,7 @@ font-txexs \
 font-txmiast \
 font-txmiax \
 font-txsy \
+font-txsym \
 font-txsys \
 font-ztmfigs \
 font-zxl \

@@ -2,20 +2,20 @@ SUMMARY = "Haskell unix-time library development files"
 DESCRIPTION = "This package provides the Haskell unix-time library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.10"
+PV = "0.4.17"
 
-RPM_NAME = "ghc-unix-time-devel-0.4.10-1.3.aarch64.rpm"
-RPM_HASH = "89b472bb4997542a7d51abf61dedd691934634c78c9aa516317af5bba4c5b94e2e38b137b9de8e79fc2980f3f8fbc5335de3c2b6249469ea1bf37a89b6917cba"
+RPM_NAME = "ghc-unix-time-devel-0.4.17-1.8.aarch64.rpm"
+RPM_HASH = "f0f7e84073fee40367c3b0edfcc868815ac2fcbbe05e6125a6bf687f540757d15a3ffb8be67cabdbcb84e4c3784efab883d4c847414f35076c3da48dc876b55a"
 
-RPROVIDES:${PN} += "ghc-devel-unix-time-0.4.10-fuTENic3zHIuWAM5F0fYB \
+RPROVIDES:${PN} += "ghc-devel-unix-time-0.4.17-BauOeKKKj6kENMTfxOVI2q \
 ghc-unix-time-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-binary-0.8.9.1 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-old-time-1.1.0.3-EO4BkAubfN4CLCS9qF8OKw \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-binary-0.8.9.3-9861 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-old-time-1.1.1.0-LOMYAgPdxtNFCxdl8604aX \
 ghc-unix-time"
 
 inherit rpm

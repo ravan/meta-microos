@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 GUI libraries"
 DESCRIPTION = "Development files for the Qt 6 GUI libraries."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-gui-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "2321a676033ee58d0fc91e0206313877ea549b2cc5754440d0ccb221e1c18219d1e8a4c668502484bab9b29e8ef57f73ad5f8e58ab31015d04954553968016be"
+RPM_NAME = "qt6-gui-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "326815db8e05a16a5a902f37b0b19e067c009817ae7483331c55e2b5ddb081c54e96ab423c32ab4c0ad21ab532b7c17b170620a3eb67aaef0f16db55aa45fef4"
 
 RPROVIDES:${PN} += "cmake-Qt6Gui \
 cmake-Qt6GuiTools \

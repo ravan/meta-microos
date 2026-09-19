@@ -4,10 +4,10 @@ intended for software that want to support Blu-ray playback (such as VLC and \
 MPlayer). We, the authors of this library, do not condone nor endorse piracy."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.4"
+PV = "1.4.1"
 
-RPM_NAME = "libbluray-bdj-1.3.4-1.4.noarch.rpm"
-RPM_HASH = "70521c8d9b07514f4badf059b701531688d197b3fbb869b839b91ac944b3401ba8ff7f814df1d31a290ce59e1c30a82c01d614a27066347335098ed764857f15"
+RPM_NAME = "libbluray-bdj-1.4.1-1.3.noarch.rpm"
+RPM_HASH = "14a3f99ab8440e1eda5d415ea80072ca8caf2ea7f9dfa8d2b53570db832990dcea81f42838994b2d09202aed84c7150550dcb47af86d55bc294769a71630a550"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libbluray-bdj"

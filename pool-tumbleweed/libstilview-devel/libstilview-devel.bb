@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains headers and libraries required to build app
 use libstilview."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.0"
+PV = "3.1.1"
 
-RPM_NAME = "libstilview-devel-2.5.0-1.1.aarch64.rpm"
-RPM_HASH = "898225d009bb387275cd0c74760b1bd5d4df347c6ae31f0093010c4ae13197b28f209f09707faa6e3f2692eb1835dff955e5139d0963b4fd8d27956b32028ffa"
+RPM_NAME = "libstilview-devel-3.1.1-1.1.aarch64.rpm"
+RPM_HASH = "f006b43750944d1c6cb9e25d06b22cb24bbe798ddff154f3114cbffbcd51112bb97885e202ce9322500c857b17901bdf5bfb064607a002b88d38e9257d40d9de"
 
 RPROVIDES:${PN} += "libstilview-devel \
 pkgconfig-libstilview"

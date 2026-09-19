@@ -2,10 +2,10 @@ SUMMARY = "Thesis Template of Shandong University"
 DESCRIPTION = "Thesis Template of Shandong University."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.1svn41401"
+PV = "2026.226.1.2.1svn41401"
 
-RPM_NAME = "texlive-sduthesis-2023.209.1.2.1svn41401-54.1.noarch.rpm"
-RPM_HASH = "6a0dcb78255e5ba9ca0e27d9e3c78a7e5ce9d5fc7d5d219fff770461e48dda0e44b18cd6a043fe4337ed47d2d2dd771c747a4f3ad27670790ccfab0bf067cedf"
+RPM_NAME = "texlive-sduthesis-2026.226.1.2.1svn41401-60.2.noarch.rpm"
+RPM_HASH = "88fd7c8d6bf0eacbb371ef090f0081ea57ab706249fda829892e6ed546e342082a00af42f2a3143591c384c5e5c708dc4e760ce28a3b225018746f2d0adb1055"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sduthesis-cover.def \

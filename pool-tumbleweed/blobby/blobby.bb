@@ -5,10 +5,10 @@ the player. The short duration of a game is a reason for playing this \
 game in meantime."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0"
+PV = "1.1.1"
 
-RPM_NAME = "blobby-1.0-2.13.aarch64.rpm"
-RPM_HASH = "5bfec5b85eb437da0ae41f6789e2739d6b71b7cac3742a007a842db1669954434ed282d104eec666a5ef90ae5a94d2304f3768b4c706461268fb3f7d040cbfda"
+RPM_NAME = "blobby-1.1.1-2.5.aarch64.rpm"
+RPM_HASH = "7fd3541096ebdd724b90ba83d181c4bdf54d15a44dec46ca10c08775554eb4f8f8ccdce46f027aeb46f01102cdf9a39ac836804b27d88c7df5e062f9d9c7d378"
 
 RPROVIDES:${PN} += "blobby"
 
@@ -19,6 +19,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libphysfs.so.1 \
-libstdc++.so.6"
+libstdc++.so.6 \
+libtinyxml2.so.11"
 
 inherit rpm

@@ -4,10 +4,10 @@ documents written in Sanskrit. Type 1 versions of the fonts are \
 available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2.4svn64502"
+PV = "2026.226.2.2.4_bsvn76869"
 
-RPM_NAME = "texlive-sanskrit-2023.209.2.2.4svn64502-54.1.noarch.rpm"
-RPM_HASH = "3395d6d20c14b5ec71891e8dd2361a3fabf12eb483551f53b7b6a047a5d6978089084e396105875b92e8db3da686955b45c79bf8ebced304ba5afa3a49e366f1"
+RPM_NAME = "texlive-sanskrit-2026.226.2.2.4_bsvn76869-60.2.noarch.rpm"
+RPM_HASH = "dee697db462213ff7be54fd107749c8d3251e859fd94eb1d1954cdd1a5e6a907667e232d1bcd105c59f4cc271d30b0a73fd7599322f9be2930a32a938cbb63cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ot1skt.fd \

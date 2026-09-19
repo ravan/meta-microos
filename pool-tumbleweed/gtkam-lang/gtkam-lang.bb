@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package gtkam"
 DESCRIPTION = "Provides translations for the 'gtkam' package."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0"
+PV = "1.1"
 
-RPM_NAME = "gtkam-lang-1.0-2.27.noarch.rpm"
-RPM_HASH = "969b39228d5ed01b0c5ac545046c11879987ac109d86ab74179775c260943ad759450d4d7f6a41cf25993a230322dee8c248c23ff7c00b0296d3a766fad1d7ec"
+RPM_NAME = "gtkam-lang-1.1-4.4.noarch.rpm"
+RPM_HASH = "2a11593c4eb05efd11677311d3fdb5b1cadbc4c0ed929d84801025110715bcbfaccefa590f49c80767e1bed8e596d62d488fbc25a1cdef7bb3384702c7113528"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkam-lang \
@@ -18,6 +18,7 @@ locale-gtkam-eo \
 locale-gtkam-es \
 locale-gtkam-fi \
 locale-gtkam-fr \
+locale-gtkam-he \
 locale-gtkam-hu \
 locale-gtkam-id \
 locale-gtkam-is \
@@ -29,6 +30,7 @@ locale-gtkam-pa \
 locale-gtkam-pl \
 locale-gtkam-pt \
 locale-gtkam-pt-BR \
+locale-gtkam-ro \
 locale-gtkam-ru \
 locale-gtkam-sk \
 locale-gtkam-sl \

@@ -3,10 +3,10 @@ DESCRIPTION = "This module allows you to collect system information for installa
 support in a standardized format."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-support-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "7ebc67c82b678067c627dc009dd4d315504509c6fd5352742335bb769010adeaad45e8c91fd0f71c9299cfd031c6de5045b0ac3d1735a0589bb4cbcfcf0eac94"
+RPM_NAME = "yast2-support-5.0.1-1.2.noarch.rpm"
+RPM_HASH = "10b424104a73616b844a33c9d18badebadadf12c377b4ba25cedc2ceaf9fbf7eea43aadc6af3d24d9d5238924a413bd080d1fff7bf5e05cee659d0c76bb1c7ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-support"

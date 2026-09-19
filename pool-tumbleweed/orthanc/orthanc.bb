@@ -14,49 +14,53 @@ users focus on the content of the DICOM files, hiding the complexity \
 of the DICOM format and of the DICOM protocol."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.12.1"
+PV = "1.13.0"
 
-RPM_NAME = "orthanc-1.12.1-1.2.aarch64.rpm"
-RPM_HASH = "cdec0a4eb85a1f0bef09a14cec6ac5de877282357866588bb1cf92858e16b060c1194b83dcff065da8a11ea045365ab88bbd2baf47864ec00e2722ea4f5d4bb1"
+RPM_NAME = "orthanc-1.13.0-1.2.aarch64.rpm"
+RPM_HASH = "55cefeb98deacccfb1dfc20cab8bc53d2fa87f2ac58daf2798c39df06361ae6e99d3d1c22bd7d554e2e3978711c0bc98fb75945ff0732eb3d49d60f9a7016e3a"
 
 RPROVIDES:${PN} += "config-orthanc \
-libConnectivityChecks.so.1.12.1 \
-libDelayedDeletion.so.1.12.1 \
-libHousekeeper.so.1.12.1 \
-libModalityWorklists.so.1.12.1 \
-libMultitenantDicom.so.1.12.1 \
-libServeFolders.so.1.12.1 \
-orthanc"
+group-orthanc \
+libConnectivityChecks.so.1.13.0 \
+libDelayedDeletion.so.1.13.0 \
+libHousekeeper.so.1.13.0 \
+libModalityWorklists.so.1.13.0 \
+libMultitenantDicom.so.1.13.0 \
+libServeFolders.so.1.13.0 \
+orthanc \
+user-orthanc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 dcmtk \
 ld-linux-aarch64.so.1 \
-libboost-filesystem.so.1.82.0 \
-libboost-iostreams.so.1.82.0 \
-libboost-locale.so.1.82.0 \
-libboost-thread.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
+libboost-iostreams.so.1.91.0 \
+libboost-locale.so.1.91.0 \
+libboost-program-options.so.1.91.0 \
+libboost-thread.so.1.91.0 \
 libc.so.6 \
-libcivetweb.so.1.15.0 \
+libcivetweb.so.1.16.0 \
 libcrypto.so.3 \
 libcurl.so.4 \
-libdcmdata.so.17 \
-libdcmimage.so.17 \
-libdcmjpeg.so.17 \
-libdcmjpls.so.17 \
-libdcmnet.so.17 \
-libdcmtls.so.17 \
+libdcmdata.so.20 \
+libdcmimage.so.20 \
+libdcmjpeg.so.20 \
+libdcmjpls.so.20 \
+libdcmnet.so.20 \
+libdcmtls.so.20 \
 libgcc-s.so.1 \
 libjpeg.so.8 \
-libjsoncpp.so.25 \
-liblua5.1.so.5 \
-liboflog.so.17 \
-libofstd.so.17 \
+libjsoncpp.so.27 \
+liblua5.4.so.5 \
+liboflog.so.20 \
+libofstd.so.20 \
 libpng16.so.16 \
-libprotobuf.so.23.4.0 \
+libprotobuf.so.36.1.0 \
 libpugixml.so.1 \
 libsqlite3.so.0 \
+libssl.so.3 \
 libstdc++.so.6 \
 libuuid.so.1 \
 libz.so.1"

@@ -11,19 +11,13 @@ execute them from any application that is able to run a command in \
 response to some event. \
  \
 Please note that wmctrl only works with window managers which implement \
-this specification. \
- \
- \
- \
-Authors: \
--------- \
-    Tomas Styblo <tripie@cpan.org>"
-LICENSE = "GPL-2.0+"
+this specification."
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.07"
 
-RPM_NAME = "wmctrl-1.07-150.23.aarch64.rpm"
-RPM_HASH = "876191522fbbc5dc40ab4cf5676fa37b8375395fb1cb12021425eeb0cb348f05150bf67fe809763a79a9c8182b4deda0c63e6ae5618db0b008b7b314a43f7fe3"
+RPM_NAME = "wmctrl-1.07-152.10.aarch64.rpm"
+RPM_HASH = "fe6d8f729f23f8364751dce73fc4c701df6274dcd5de96c28cd5c82818516157a8e965f8d4aa044a40a4685a722a990c49d9cd06fe7eff21f4416e47be47d13f"
 
 RPROVIDES:${PN} += "wmctrl"
 

@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.5.10"
 
-RPM_NAME = "libepoxy-devel-1.5.10-2.2.aarch64.rpm"
-RPM_HASH = "f8deffa3b25468c05023478971aefaf4f9858f1b2fc1788967baaa8e9cd17ddb31a1cb9546b3b432bd8328eeeb8c1569c937741161c77337e33418068583c93f"
+RPM_NAME = "libepoxy-devel-1.5.10-2.11.aarch64.rpm"
+RPM_HASH = "2667107d04d4b8dcfccfc99ccc91ff99cb5d0ae306a27cf58cb18e6d226418bbdaf80d3bb8606439e8d02670dcc89cc7bbda3a9b25364dde19ee860c32b8ff93"
 
 RPROVIDES:${PN} += "libepoxy-devel \
 pkgconfig-epoxy"

@@ -9,10 +9,10 @@ at the Nokia Research Center. \
 This package holds the shared libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.12.11+20110422"
+PV = "1.13.18"
 
-RPM_NAME = "libsofia-sip-ua0-1.12.11+20110422-1.15.aarch64.rpm"
-RPM_HASH = "ad341eb0e7b1c1c1f95c64f04edef75d3d524c07f4b41c72a80033e651adcc2028e94f731fb5a1888e993520d3d399cd5487906e95525051b018172e5b0c581b"
+RPM_NAME = "libsofia-sip-ua0-1.13.18-1.1.aarch64.rpm"
+RPM_HASH = "4f3d386d45158715b9d7c569d56f00a14099d011fd9fc302904d259cfd865668cef9172997daa6f6b55085b5eba8ee238729d46ddb3fd76d9024edd17544415c"
 
 RPROVIDES:${PN} += "libsofia-sip-ua.so.0 \
 libsofia-sip-ua0"
@@ -21,6 +21,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-libssl.so.3"
+libssl.so.3 \
+libz.so.1"
 
 inherit rpm

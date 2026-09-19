@@ -2,16 +2,17 @@ SUMMARY = "Binary files of uptex"
 DESCRIPTION = "Binary files of uptex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn66382"
+PV = "2026.20260301.svn78022"
 
-RPM_NAME = "texlive-uptex-bin-2023.20230311.svn66382-93.2.aarch64.rpm"
-RPM_HASH = "d6f756dd202be8f262c3f5d68860114c06fac8e7502ab943d66a3ba9ccd8cc8e9738e7b87d22784e4e4ea4757b8dfb5d02a5950e7583bf186088e2bcf60ba4e6"
+RPM_NAME = "texlive-uptex-bin-2026.20260301.svn78022-120.4.aarch64.rpm"
+RPM_HASH = "3454dd08b81061426b3478dcc966a69398835ea8b3e61785902dd3ac3c3d141fc3d8903353502f5349909bb771424f81e644c8b40219adada170e9a94a29216c"
 
 RPROVIDES:${PN} += "texlive-uptex-bin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
+libgmp.so.10 \
 libkpathsea.so.6 \
 libm.so.6 \
 libmpfr.so.6 \

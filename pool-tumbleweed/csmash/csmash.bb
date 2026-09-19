@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.6"
 
-RPM_NAME = "csmash-0.6.6-274.6.aarch64.rpm"
-RPM_HASH = "6e7ea9a0bc15f826affced9d1b4349c7afa649a2ccbcc8f7845ef177c4927e5c25dad518e0b6fb585d272c1b8c1a2dfdfc6a4cf0aeea94603f5bd86b4aeb25cc"
+RPM_NAME = "csmash-0.6.6-274.15.aarch64.rpm"
+RPM_HASH = "5d854860888591c5617eb8555c8ec44e617897ad06201bf595175d8bfa866114175dd191f5fd0dacbf6b2728689e8cb5456fdaab24aa40e11ff2f3af4827accd"
 
 RPROVIDES:${PN} += "csmash"
 

@@ -6,10 +6,10 @@ not all) of the capabilities a function writer has in the R language. \
 This package contain the associated documentation"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.4.5"
+PV = "8.4.8.6"
 
-RPM_NAME = "postgresql15-plr-doc-8.4.5-1.1.aarch64.rpm"
-RPM_HASH = "a6794c5980648b6746a07697e1551f6434fa79e94b62f174a56ab072a9c38cfc98cd4e06f4eeb560f1536a1c814d160a0f7313279ca8faf1ea17a8db46bfa9a5"
+RPM_NAME = "postgresql15-plr-doc-8.4.8.6-1.3.aarch64.rpm"
+RPM_HASH = "c9702486c6b54be0199b5b16c0328adffb2cead29480550a52ad43cc7d0a98c3e28880de4955950245bb1d2dc04c1e3728d66c8cd05be4044f2f7bd8088cc5b0"
 
 RPROVIDES:${PN} += "postgresql15-plr-doc"
 

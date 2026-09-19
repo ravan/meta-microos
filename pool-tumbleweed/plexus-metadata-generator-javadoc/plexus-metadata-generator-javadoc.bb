@@ -2,10 +2,10 @@ SUMMARY = "API documentation for plexus-metadata-generator"
 DESCRIPTION = "API documentation for plexus-metadata-generator."
 LICENSE = "Apache-2.0 & MIT & xpp"
 
-PV = "2.1.1"
+PV = "2.2.0"
 
-RPM_NAME = "plexus-metadata-generator-javadoc-2.1.1-4.2.noarch.rpm"
-RPM_HASH = "a47760d09f5c4f77555c950efb788a7e9d03f050e5286c8f137d7659faa7b96428f8035ffa89cd330852fc27dbb2b78a7193a392ab58412de9cb70ad71a9ab29"
+RPM_NAME = "plexus-metadata-generator-javadoc-2.2.0-3.1.noarch.rpm"
+RPM_HASH = "332b0ee3b4abe3705f33daf7d5af607394bd11c9e843ae48ed0125fba50d11e79eca6a137e27b4066f97df85859dff3aced406497bf17ddbd5fd1422395a1ef0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-metadata-generator-javadoc"

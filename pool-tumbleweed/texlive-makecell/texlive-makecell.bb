@@ -11,10 +11,10 @@ cells; diagonally divided cells; horizontal lines in tabular \
 environments with defined thickness."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.1esvn15878"
+PV = "2026.226.0.0.1esvn78101"
 
-RPM_NAME = "texlive-makecell-2023.208.0.0.1esvn15878-53.1.noarch.rpm"
-RPM_HASH = "b7848e327400890f73637b69d104bf45152e698654d2089709e1e83039436d05daeb0818588d6e0a641cee05ea7a44ac6aab44e186f91e2c5c3b2d678984ce8c"
+RPM_NAME = "texlive-makecell-2026.226.0.0.1esvn78101-59.2.noarch.rpm"
+RPM_HASH = "eee1a76c765c9fd07c7b1c5ecbd67501646e79988528cf4b9eab1a8f05c8639a89d205c2b630fa739999160b67a8385820c934d127bee9db7b777d9a1c5b8bf8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makecell.sty \

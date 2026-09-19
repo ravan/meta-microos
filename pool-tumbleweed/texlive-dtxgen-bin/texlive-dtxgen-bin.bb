@@ -2,10 +2,10 @@ SUMMARY = "Binary files of dtxgen"
 DESCRIPTION = "Binary files of dtxgen"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn29031"
+PV = "2026.20260301.svn29031"
 
-RPM_NAME = "texlive-dtxgen-bin-2023.20230311.svn29031-93.2.aarch64.rpm"
-RPM_HASH = "e5d2057d8452bf2c96ae3cc7f8f16fab6ab983632c4ce9fac9cfe3d3f7cd4ed50bf7fd0515157d6bb032d97853efc4e67c3b4c0502d09e4edc4b865c006e21dc"
+RPM_NAME = "texlive-dtxgen-bin-2026.20260301.svn29031-120.4.aarch64.rpm"
+RPM_HASH = "0d0a1ac74d56f9c7c46277d92ec274626d986c9b5552f431bc6ba166a5d64da01a2d6e3d9b6aba81c03150565d0141f19ffdcaed9dbcdc81f7b70e7eff7ca7b1"
 
 RPROVIDES:${PN} += "texlive-dtxgen-bin"
 

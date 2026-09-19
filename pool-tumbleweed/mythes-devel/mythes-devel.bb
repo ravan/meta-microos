@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause & MIT"
 
 PV = "1.2.5"
 
-RPM_NAME = "mythes-devel-1.2.5-1.2.aarch64.rpm"
-RPM_HASH = "0a95324a7138f36f8295220a90decc437289f54e10c57f33d657562298a37547fd4afdd923239f3aac353f3cce55c997d4ba3292b0410ea3194a4d3ffc3efa88"
+RPM_NAME = "mythes-devel-1.2.5-1.12.aarch64.rpm"
+RPM_HASH = "3a29728b29699389572d338165dd27b6456dc38f4dd1340e98cedd4d0de1ed1805597f5d6aec2a8e763a9b1d9a442769b0e2df55e1b652a96d1ec77e5a57ef3b"
 
 RPROVIDES:${PN} += "mythes-devel \
 pkgconfig-mythes"

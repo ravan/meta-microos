@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pulseaudio"
 DESCRIPTION = "Provides translations for the 'pulseaudio' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "16.1"
+PV = "17.0"
 
-RPM_NAME = "pulseaudio-lang-16.1-4.1.noarch.rpm"
-RPM_HASH = "b6fc99017d5c81817057d21bf0f8b829952834a0d0c8c87bdedf78c204570dc176b8171dd460ed3b98c4174d46060ef09347e8541573ebdff81a4ea9a9889e38"
+RPM_NAME = "pulseaudio-lang-17.0-7.5.noarch.rpm"
+RPM_HASH = "8e30c9262422816634dc727b703a3e5be66e6888c9b8e4f3474c0532fc739f032e6c0748fdaa89770ccad0c9eb13b02f093bea2aa7a75be9d8a6cc98fac6f896"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pulseaudio-af \
@@ -21,6 +21,7 @@ locale-pulseaudio-de-CH \
 locale-pulseaudio-el \
 locale-pulseaudio-eo \
 locale-pulseaudio-es \
+locale-pulseaudio-eu \
 locale-pulseaudio-fi \
 locale-pulseaudio-fr \
 locale-pulseaudio-gl \

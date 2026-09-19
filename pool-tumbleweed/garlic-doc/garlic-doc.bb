@@ -3,12 +3,12 @@ DESCRIPTION = "Garlic is an X Window System tool intended for the molecular \
 visualization of protein structure, DNA structure, and biological \
 macromolecules. \
 This subpackage contains the full documentation to Garlic."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "garlic-doc-1.6-221.21.noarch.rpm"
-RPM_HASH = "6dd5073ac96f7501cb3d2717467b56043f5cfea50790bdb41ef30bdf785357d5bf9b5de67ee0e1ba4da9630e4ded23beb264a247d26816334bfdf86f02c0a222"
+RPM_NAME = "garlic-doc-1.6-223.11.noarch.rpm"
+RPM_HASH = "77e1cd811255ca35ea2a42e8bc4a4122c09a182c07378443740d21ba35113b9e96536985a1f13b865bca0630475cda381fa54da7eedd507de7c0b6da573d6147"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "garlic-doc"

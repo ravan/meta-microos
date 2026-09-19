@@ -2,50 +2,51 @@ SUMMARY = "Haskell xmobar profiling library"
 DESCRIPTION = "This package provides the Haskell xmobar profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.46"
+PV = "0.51.1"
 
-RPM_NAME = "ghc-xmobar-prof-0.46-2.12.aarch64.rpm"
-RPM_HASH = "bade45d521b30382543ee7a492f0a5a9bdbb315f5ccc1190fd81643c093bfbddcb3622580bd096e45c8298b820f9afca912ab52f39d7ddad946bcb64443cc94b"
+RPM_NAME = "ghc-xmobar-prof-0.51.1-1.2.aarch64.rpm"
+RPM_HASH = "327c7bad1491ccd2e157c8ec3b0a903ec2ebabecda38ddfdf538f8bb00b07fa8fb3e127c4e47151ba2bf9e5a97bb7177449bf1eea28570548eea24ed6bca6081"
 
-RPROVIDES:${PN} += "ghc-prof-xmobar-0.46-8q5NgM64WTq64Lf9eNGvQl \
+RPROVIDES:${PN} += "ghc-prof-xmobar-0.51.1-Kxywu87r3W8KkooskAPEsu \
 ghc-xmobar-prof"
 
-RDEPENDS:${PN} += "ghc-prof-X11-1.10.3-1a2wZgfFAzXBkfyYtNRHp4 \
-ghc-prof-X11-xft-0.3.4-7SpxQIcr2IsKaDkpOrx1dS \
-ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-prof-alsa-core-0.5.0.1-5CJfdeELTf160s2ftizQdy \
-ghc-prof-alsa-mixer-0.3.0-7vTOWVmX7tmF7GIGTcxaSH \
-ghc-prof-async-2.2.4-LcXCzTmy8C6G7Wa774EctI \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-cairo-0.13.10.0-B3UP0Vi5jIV99bUcWUsXgu \
-ghc-prof-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
-ghc-prof-colour-2.3.6-GBcey48GJNAK3398XtiZDq \
-ghc-prof-containers-0.6.7 \
-ghc-prof-dbus-1.2.29-4DkBnpH77ZuFg2GqtR0zJs \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-extensible-exceptions-0.1.1.4-1hcTiYLx0LbAr3mhUvVP0e \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-hinotify-0.4.1-JFQ6DOM0mgyCikOfj8YmfP \
-ghc-prof-http-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1 \
-ghc-prof-http-conduit-2.3.8.2-Aom8RblFK6RqEIyPgp71L \
-ghc-prof-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-prof-libmpd-0.10.0.0-9S81DJckoXS7PbMAbxHjm1 \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-netlink-1.1.1.0-AkYwYtaCv1eG7Xks1z5IhU \
-ghc-prof-old-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk \
-ghc-prof-pango-0.13.10.0-FM47W5PFqW5BGqK9yscE4O \
-ghc-prof-parsec-3.1.16.1 \
-ghc-prof-parsec-numbers-0.1.0-JmfSOl7TbABbRzQTrD74l \
-ghc-prof-process-1.6.17.0 \
-ghc-prof-regex-compat-0.95.2.1-L593ugdrX2dLr3iiylKH00 \
-ghc-prof-stm-2.5.1.0 \
-ghc-prof-time-1.12.2 \
-ghc-prof-timezone-olson-0.2.1-50v8kH1zEHRIPtzATb6bsi \
-ghc-prof-timezone-series-0.1.13-IHWQx2h4brT4vl06IuBnhA \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unix-2.7.3 \
-ghc-prof-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
+RDEPENDS:${PN} += "ghc-prof-X11-1.10.3-1WMJghU3kQXBmOfIIGE3Rk \
+ghc-prof-X11-xft-0.3.4-C3us4A75PM8AtwtgFqRfgr \
+ghc-prof-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-prof-alsa-core-0.5.0.1-5pqfH6YvvEZ2vsBkGGr8JL \
+ghc-prof-alsa-mixer-0.3.0.1-ByTU73KIfiF2vSD5rVSjfR \
+ghc-prof-async-2.2.6-4fW0sXrepSt4QxgAnnLVB6 \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-cairo-0.13.12.0-4t6EsC3Gqxb9Xow3SHIyd2 \
+ghc-prof-cereal-0.5.8.3-9RjPyVhfWFC69r1oCUPmww \
+ghc-prof-colour-2.3.7-LuxtbazHK7IK55ldBice4c \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-dbus-1.4.3-AK2RsEkhlPQ2FoxHH6Vf1Q \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-extra-1.8.1-J47FlDu75Mb8OlFkJuPlkW \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-hinotify-0.4.2-4RRzWLCNgXK8AEnEbLT8bd \
+ghc-prof-http-client-tls-0.4.0-D4cx6zdDU3O6iLaLdAAVnV \
+ghc-prof-http-conduit-2.3.9.1-9k5MS2FS3s84zcOD2n4tN7 \
+ghc-prof-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-prof-libmpd-0.10.0.1-Bmz7H1YtWod2b1GpfQlz83 \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-netlink-1.1.1.0-CXOPJRLMZM2H8eJ1F7yaYv \
+ghc-prof-old-locale-1.0.0.7-DplRrAcnBM96ijBftoXSc5 \
+ghc-prof-pango-0.13.12.0-EYXFDNPBrZO4dDymUfkqjN \
+ghc-prof-parsec-3.1.18.0-be05 \
+ghc-prof-parsec-numbers-0.1.0-AMPF59BsE5W4SuUj5AhufY \
+ghc-prof-process-1.6.26.1-905d \
+ghc-prof-regex-compat-0.95.2.2-BPr9re8H6vl1LOIxX40pHj \
+ghc-prof-stm-2.5.3.1-6d74 \
+ghc-prof-time-1.14-a7dc \
+ghc-prof-timezone-olson-0.2.1-LErbWe3Sa3TnblddNHkIO \
+ghc-prof-timezone-series-0.1.13-B1H9AY16C4DSLWHEx9hhA \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-unix-2.8.8.0-178a \
+ghc-prof-utf8-string-1.0.2-FCJm07Id8m53KWoTjjdHEG \
+ghc-prof-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
 ghc-xmobar-devel"
 
 inherit rpm

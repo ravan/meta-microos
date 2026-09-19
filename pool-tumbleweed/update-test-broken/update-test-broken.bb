@@ -2,12 +2,12 @@ SUMMARY = "Test update which should not be installable"
 DESCRIPTION = "Package for testing the update stack during product development. \
  \
 An update for this package should fail."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "5.1"
+PV = "5.2"
 
-RPM_NAME = "update-test-broken-5.1-1.18.aarch64.rpm"
-RPM_HASH = "fb8cd7bbbaf91d65865964cdd0167a1c4443111a68d5918b91e58577a915093efd3d1a6f97a3a583e637b6cf3ec3d60aca6dbdc413137a4d9d3553c712b9a7a3"
+RPM_NAME = "update-test-broken-5.2-1.15.aarch64.rpm"
+RPM_HASH = "4fc4f7060ec912bd06288eba0c46e82ec1f7c92dc84fd0e1862935408474519dca76a2ec4c6b41e9f141b7db82d8a0a0c7f6a87003fbbc7d4ecdc890ee116572"
 
 RPROVIDES:${PN} += "update-test-broken"
 

@@ -14,8 +14,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.002"
 
-RPM_NAME = "google-anonymouspro-fonts-1.002-11.17.noarch.rpm"
-RPM_HASH = "ae1e8c538491912aeeabab9344b3f59f98ad949078deedd7fdfd3bfeebf325b8c4f3af91fbf4415989065e4ab07f3e3f8e2aa90607b7c7e848751c2f37eb98ab"
+RPM_NAME = "google-anonymouspro-fonts-1.002-12.9.noarch.rpm"
+RPM_HASH = "e8b9fae9eeec9286f4a33348712db0c7351ceb916bacd32f4664a2b5fe3094ec5512a86e32971e5b7a776b012828143f14c4aca3b8f7b28d9345cbdf99cecc26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-anonymouspro-fonts"

@@ -5,8 +5,8 @@ LICENSE = "SUSE-Firmware"
 
 PV = "1.35"
 
-RPM_NAME = "adaptec-firmware-1.35-26.7.noarch.rpm"
-RPM_HASH = "28bbd60105507e3744b37c263cecf9bac2e75da6db27f3943c9277450cad4f4e110afb5d708920db515e11827f4ba7896f73cf73b25edd88737cf9ec49354057"
+RPM_NAME = "adaptec-firmware-1.35-27.3.noarch.rpm"
+RPM_HASH = "9dcfa294a071d817175cc934edaf8bd55adb4cfddc2d0b65cd50f9ccf34d8f3900e8484dba17ce757532a0decfc8e215ac81591a174bcef972f9f5e9d001dc66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adaptec-firmware \

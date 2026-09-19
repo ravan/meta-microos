@@ -6,10 +6,10 @@ Normaliz offers an API, libnormaliz, that allows the user to access \
 the Normaliz computations from C++ programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.9.4"
+PV = "3.11.1"
 
-RPM_NAME = "libnormaliz3-3.9.4-1.5.aarch64.rpm"
-RPM_HASH = "a174fef1eca70ffd14dfe95760f82371cbeeac10088285ba45489fc3b37b77af91b416933fd9675039b906d61b33aa20aab6b501151d40d69bbb001b28ce8c9d"
+RPM_NAME = "libnormaliz3-3.11.1-1.5.aarch64.rpm"
+RPM_HASH = "feea56ced74d2f2abbb1017a097f91944f29879cd8043e133d12bbb757f3c1b8f0f32ad20894c63021baf53373b475934d9809954e2ccdd18378fdf0c682ae45"
 
 RPROVIDES:${PN} += "libnormaliz.so.3 \
 libnormaliz3"
@@ -17,8 +17,8 @@ libnormaliz3"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libeanticxx.so.1 \
-libflint.so.17 \
+libeanticxx.so.3 \
+libflint.so.24 \
 libgcc-s.so.1 \
 libgmp.so.10 \
 libgmpxx.so.4 \

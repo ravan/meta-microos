@@ -6,10 +6,10 @@ manipulating PPD files. The scheduler and all commands, filters, and \
 backends use this library."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.2"
+PV = "2.4.19"
 
-RPM_NAME = "libcups2-2.4.2-6.1.aarch64.rpm"
-RPM_HASH = "df4acb238f5e401ce60a196c9947cd2362c01b8fe3c8850f062aae709cc1def6d04a323d7c584391b25ee54a57e81c9c2a494e4881a43965152149513b5bca53"
+RPM_NAME = "libcups2-2.4.19-3.1.aarch64.rpm"
+RPM_HASH = "22188be4cd7a31dc1bd7946cce21200fb9bad07b7a90944e9bca354265b5d75d14579909a41416cc92c17fc030eedbc69fcb0c194502f442e5acced1539fe748"
 
 RPROVIDES:${PN} += "cups-libs \
 libcups.so.2 \

@@ -5,15 +5,15 @@ simultaneous lookups, or simply continue serving other things while the \
 lookup is proceeding."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.25"
+PV = "1.310.0"
 
-RPM_NAME = "perl-Net-Ident-1.25-1.15.noarch.rpm"
-RPM_HASH = "33ccd39c0bf53cae129169ab7bf26b4ef4d259f24b8d8f2119b73819a4b2c39f33adc03c249cb97540f6926b6f0eb0087620cad67eab29de2ee540bb22c7994e"
+RPM_NAME = "perl-Net-Ident-1.310.0-1.3.noarch.rpm"
+RPM_HASH = "9f741b508c10452ef2f4df785d8aafc7e9b4d41bde949935447e66d45e3d0d998b86d4a9bf6e974eaca3ab47dfad7dfc327bba13a39ef24fc00d56eb69dcac08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Ident \
 perl-Net-Ident"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

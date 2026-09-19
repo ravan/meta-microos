@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a language description file that enables \
 support of Romansh either with babel or with polyglossia."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn30286"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-babel-romansh-2023.209.svn30286-54.1.noarch.rpm"
-RPM_HASH = "97bbf3c2ba1b80aabad91d07554ae4a71113c02b7088a0e47f7b9a1ad63fe586e3367b240d38a02856e3f0874ea59d545aa7f8904f158db02c6b91f808c5dc1d"
+RPM_NAME = "texlive-babel-romansh-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "19cf6f7a084b645e3d97f9865c4be28d6284259857a48b172bf8a720b1f8b7a26c7c0aef445a13493b94ae826706691104db1624f62460b07f79e4c66c1be8bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-romansh.ldf \

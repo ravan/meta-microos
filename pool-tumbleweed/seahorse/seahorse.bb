@@ -2,10 +2,10 @@ SUMMARY = "GNOME interface for gnupg"
 DESCRIPTION = "Seahorse is a GNOME interface for gnupg. It uses gpgme as the backend."
 LICENSE = "GFDL-1.1-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "43.0"
+PV = "47.0.1+6"
 
-RPM_NAME = "seahorse-43.0-3.6.aarch64.rpm"
-RPM_HASH = "9fa5e847080bb6ce1cdce8aed6140bf96a6870b1d314c79fc2c1b40191e6590a6d502252e4f6607875ab068ec2c4015bfef5518d82206391f8a4aeb4dbd7eb94"
+RPM_NAME = "seahorse-47.0.1+6-3.4.aarch64.rpm"
+RPM_HASH = "858e85243280486a7ba6f80592f878cf429ff70f616ec8653b7856b1d4b1b5fd6b9423e367f81f6005139d4d835af62b35ed08e66756c3d5f80e40d300a47d3b"
 
 RPROVIDES:${PN} += "seahorse"
 
@@ -22,7 +22,7 @@ libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgpgme.so.11 \
+libgpgme.so.45 \
 libgtk-3.so.0 \
 libhandy-1.so.0 \
 libldap.so.2 \

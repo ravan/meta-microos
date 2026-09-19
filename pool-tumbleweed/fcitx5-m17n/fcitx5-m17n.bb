@@ -2,13 +2,14 @@ SUMMARY = "M17n input method engine for Fcitx5"
 DESCRIPTION = "M17n input method engine for Fcitx5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.1.0"
+PV = "5.1.5"
 
-RPM_NAME = "fcitx5-m17n-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "0e319d7e7e61685eb18688f8623048aa8c52f84acb5713d3946ab306cde4a2bf4d2e8d0d89a5f78cf3e932ad86e587662e64e71302685a095bc890dcc2649e67"
+RPM_NAME = "fcitx5-m17n-5.1.5-1.4.aarch64.rpm"
+RPM_HASH = "ee0a541eba822bcc5dbc645e44fa9ab4e386715e2b035614ca893b1a1f6e5f4d642475ccd8a2bdc6a6343f795cba011814a372a502db1fe4cf105f2b9bfb08d8"
 
 RPROVIDES:${PN} += "fcitx-m17n \
-fcitx5-m17n"
+fcitx5-m17n \
+libm17n.so"
 
 RDEPENDS:${PN} += "fcitx5 \
 ld-linux-aarch64.so.1 \

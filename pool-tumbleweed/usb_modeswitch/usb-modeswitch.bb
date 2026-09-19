@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.1"
 
-RPM_NAME = "usb_modeswitch-2.6.1-2.7.aarch64.rpm"
-RPM_HASH = "a679212f74ab79b424f86064ff5122510c12c65980e1ab04cdde8ec4da58f16db7b8ec40de795c4f9cfa34f083588e6516729bc58242d4497af4c6462f82efbc"
+RPM_NAME = "usb_modeswitch-2.6.1-4.5.aarch64.rpm"
+RPM_HASH = "db90e2260cc19b3968eec5ea09abffea17383182c1bf95159452b13412e0ea944935fb3d2ae492bc5c412171a08ebc3367497730be0594603c6dd44dd5095d4f"
 
 RPROVIDES:${PN} += "config-usb-modeswitch \
 usb-modeswitch"

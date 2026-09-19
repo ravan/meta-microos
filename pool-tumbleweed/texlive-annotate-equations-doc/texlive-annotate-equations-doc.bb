@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-annotate-equations"
 DESCRIPTION = "This package includes the documentation for texlive-annotate-equations"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.0svn65851"
+PV = "2026.226.0.0.2.2svn67044"
 
-RPM_NAME = "texlive-annotate-equations-doc-2023.209.0.0.2.0svn65851-55.1.noarch.rpm"
-RPM_HASH = "538ac57439cb3c74f54c898cbfcea9b3053c80fb3f2c3e566a5b8b1c6484c67f11dd327723a6945ea4cd6ed54efdbdd6a447f53f352f5417732509f4ab863013"
+RPM_NAME = "texlive-annotate-equations-doc-2026.226.0.0.2.2svn67044-61.2.noarch.rpm"
+RPM_HASH = "7837da4da463ff21bcad71fc4f689c5b3f88bf5281aece4f04364f26c8fed4ad07ee770ecf0032ceaa47721f570225406a8773157b1f03de3c82883710df29a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-annotate-equations-doc"

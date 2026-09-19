@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.045"
 
-RPM_NAME = "adobe-sourcesanspro-fonts-2.045-2.6.noarch.rpm"
-RPM_HASH = "2129c94c4ddd3436d8c406f161fcb38cb9fbb11d8e622cdff24ac100674bc35c92d072c9c09f1f4a6f064cfe3c96a84fa424766d6ef668359487179fec2a2074"
+RPM_NAME = "adobe-sourcesanspro-fonts-2.045-2.14.noarch.rpm"
+RPM_HASH = "05d41ff3389382791f9d863b309b0a0a4e309268dcc021286f5773f57ac93abcf7a8320e4f670710d750712c752e5363e1804d59eae6c2e7bf211a63248684cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourcesanspro-fonts"

@@ -2,10 +2,10 @@ SUMMARY = "Data files for hollywood"
 DESCRIPTION = "Data files needed for the 'hollywood' package."
 LICENSE = "CC0-1.0"
 
-PV = "1.21"
+PV = "1.25"
 
-RPM_NAME = "hollywood-data-1.21-3.6.noarch.rpm"
-RPM_HASH = "1d0598bf7ed3ad1328191b6d32ccdb5b849d53553b41aa8975752be22c68d45b07097039db1c7b115999a74d79ef3aed37aa2fcf7822a36c5254ce4049ea1fa9"
+RPM_NAME = "hollywood-data-1.25-1.2.noarch.rpm"
+RPM_HASH = "1be35c2367a0cc80ab8b0734895de6167b7a2efff7299f2efdf53ea29e94d153d2286e875e4722d2118e5317e97485be9627601baac34befa6db25bdcca1ec6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hollywood-data"

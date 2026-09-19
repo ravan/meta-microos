@@ -48,21 +48,20 @@ or: \
     );"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.036"
+PV = "0.36.0"
 
-RPM_NAME = "perl-Test-LWP-UserAgent-0.036-1.9.noarch.rpm"
-RPM_HASH = "9ea0b6fd496953c72cd32f520c6df9454163456e31b9e0e4f94d9e5c63d294c3298d070b6137acbe673a18d11f3e46367784516c5c65ea857e07059816cd01c3"
+RPM_NAME = "perl-Test-LWP-UserAgent-0.36.0-1.7.noarch.rpm"
+RPM_HASH = "ecaac989037adf01b37725fdfecd490773bb87045eb27442886f2e2987920f3c2ae7398ec1781d101ea88e6f95e016413daec612c71fb30252e8e807de730796"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--LWP--UserAgent \
 perl-Test-LWP-UserAgent"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTTP--Date \
 perl-HTTP--Request \
 perl-HTTP--Response \
 perl-HTTP--Status \
-perl-IO--Socket--IP \
 perl-LWP--UserAgent \
 perl-Safe--Isa \
 perl-Try--Tiny \

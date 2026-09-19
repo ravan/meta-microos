@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cooking-units"
 DESCRIPTION = "This package includes the documentation for texlive-cooking-units"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.00svn65241"
+PV = "2026.226.3.00svn76924"
 
-RPM_NAME = "texlive-cooking-units-doc-2023.209.3.00svn65241-55.1.noarch.rpm"
-RPM_HASH = "59863ca8c89682f6de11edd48e76fd667683113e0c301cbb9cc1b260e3b29eb2bfdfdf7b9e08a316b55bcb1634365b84c9a7d436fc3eefc845f2b11deb3fb53a"
+RPM_NAME = "texlive-cooking-units-doc-2026.226.3.00svn76924-61.2.noarch.rpm"
+RPM_HASH = "527df78e0b65594e6235fc5b76ac1cd324f1857d0745713f9c129d6c8cb3f639f16b7cdd544c6d15d03e514379c18b191eb127d64496c818f74ba4ed73dff921"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cooking-units-doc"

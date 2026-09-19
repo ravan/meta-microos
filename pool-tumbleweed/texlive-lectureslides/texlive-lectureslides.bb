@@ -3,10 +3,10 @@ DESCRIPTION = "This package makes it easy to combine and index individual PDF \
 files into one large PDF file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn62292"
+PV = "2026.226.1.0svn62292"
 
-RPM_NAME = "texlive-lectureslides-2023.209.1.0svn62292-55.1.noarch.rpm"
-RPM_HASH = "8fdce15aaab4fe67d0b9fd7018f7ff0f48c2832a685399f489c0f70858ef126cd1d6fb664d20c32aeff509fc143036e2507d61acf5408128e7b3923ff13c1070"
+RPM_NAME = "texlive-lectureslides-2026.226.1.0svn62292-61.2.noarch.rpm"
+RPM_HASH = "6a7a21b2c4dc91b45ffc85bce131811b7fe39137263b2136a56452c471e4effb64fe61ca9237d09ecb8e2fdd1b71c1dccccee07b596580a2f6b6d86835e9062d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lectureslides.sty \

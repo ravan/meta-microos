@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tex4ebook"
 DESCRIPTION = "This package includes the documentation for texlive-tex4ebook"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3isvn66332"
+PV = "2026.227.0.0.4dsvn78132"
 
-RPM_NAME = "texlive-tex4ebook-doc-2023.209.0.0.3isvn66332-55.1.noarch.rpm"
-RPM_HASH = "929bc4a1d99cb952d829f89e94f38c12ff48d71fdc0da110fe0cfddda1da69b2df993c21ff579c6cace8bebd3c864491929d5bcfdfc189c2569265705136332e"
+RPM_NAME = "texlive-tex4ebook-doc-2026.227.0.0.4dsvn78132-62.2.noarch.rpm"
+RPM_HASH = "b50ad0a10b29fcd418b37bfa8c853659186d055f250cf3096ff64812326036cb3fac5a0144eb5f81b6cb5e319b6689ee3b4f0b5d0f8efa9db544b465395b9ecb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex4ebook-doc"

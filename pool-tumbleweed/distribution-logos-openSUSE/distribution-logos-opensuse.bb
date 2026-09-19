@@ -2,10 +2,10 @@ SUMMARY = "Logos for openSUSE Distros"
 DESCRIPTION = "Logos for openSUSE Distributions"
 LICENSE = "CC-BY-SA-4.0"
 
-PV = "20220322"
+PV = "20250203"
 
-RPM_NAME = "distribution-logos-openSUSE-20220322-1.5.noarch.rpm"
-RPM_HASH = "3603f10ded72c3dca602b458528dd4765f2475ba2a88cedba8b59403f5163d41211fd9cea5e752ae9224a4857f6d0f30dd228416c13fd900de9d0ad8aa270049"
+RPM_NAME = "distribution-logos-openSUSE-20250203-2.2.noarch.rpm"
+RPM_HASH = "520db6520f633f9c5df398d2b59b46f8b20075d1a3b66d34b7f580838714f642111055292080406499ffd2d40328aafc4fac37720e4f2bbd48c0ac998c25a6be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "distribution-logos-openSUSE"

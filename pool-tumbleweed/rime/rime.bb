@@ -4,18 +4,18 @@ Its idea comes from ancient Chinese brush and carving art. \
 Mainly it's about to express your thinking with your keystrokes."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.3"
+PV = "1.17.0"
 
-RPM_NAME = "rime-1.7.3-2.20.aarch64.rpm"
-RPM_HASH = "be8252e37042853247d3485a35fc6833fa9e321b4f36de56185d6283ff1c93f17eb495765e52565030131e1356191985c00ec88dc41594735eaa80f3191fe518"
+RPM_NAME = "rime-1.17.0-1.1.aarch64.rpm"
+RPM_HASH = "fbb9e9e956debc015746f0468aeecc6905f3d399145bbc5ab13355c13f441e54439d70c08558257dadace38c512636989d66fa3e29c53080e88f81caef6eab90"
 
 RPROVIDES:${PN} += "rime"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libboost-filesystem.so.1.82.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libglog.so.0 \
+libglog.so.2 \
+libm.so.6 \
 librime.so.1 \
 libstdc++.so.6"
 

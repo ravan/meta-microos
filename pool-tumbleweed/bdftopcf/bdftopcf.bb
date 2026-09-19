@@ -7,10 +7,10 @@ appropriate machine, but the files are still portable (but read more \
 slowly) on other machines."
 LICENSE = "MIT"
 
-PV = "1.1.1"
+PV = "1.1.2"
 
-RPM_NAME = "bdftopcf-1.1.1-1.3.aarch64.rpm"
-RPM_HASH = "6d5aee2beb751e2cf4f3dd6a9f1e4e3cc5f047f203f38aceec30806d9086aaece78d2f9df30b1354dde168de17be2e8b532aa29bab6e88075cf8b4536c8f9bc7"
+RPM_NAME = "bdftopcf-1.1.2-1.8.aarch64.rpm"
+RPM_HASH = "fbeee11abc635f36ded7d2ebfd01ecaf206b998b2fef6871ef4417820431457cb99fac829b527aafcbee5a6ba963df6d784d78264f0211aec9bcabc2009d8517"
 
 RPROVIDES:${PN} += "bdftopcf"
 

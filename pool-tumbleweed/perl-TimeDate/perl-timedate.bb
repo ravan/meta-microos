@@ -1,4 +1,4 @@
-SUMMARY = "TimeDate Perl module"
+SUMMARY = "Date and time formatting subroutines"
 DESCRIPTION = "Date::Parse provides two routines for parsing date strings into time values. \
  \
 str2time(DATE [, ZONE]) \
@@ -15,10 +15,10 @@ strptime(DATE [, ZONE]) \
     offset in seconds from GMT. An empty array is returned upon failure."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.33"
+PV = "2.350.0"
 
-RPM_NAME = "perl-TimeDate-2.33-1.15.noarch.rpm"
-RPM_HASH = "43f7760321a6bcebbaec50ecad9a1b8298c0c8afbf4d98e90c6ffca2a1a6e435cfa4520c85d820e5f79434968412a10d8eba1a7abc9e9936ade0355d917bac06"
+RPM_NAME = "perl-TimeDate-2.350.0-1.4.noarch.rpm"
+RPM_HASH = "69529f57bb0e1df9f89ebc36c895c29df1d820b0bc77c970cff2dc2b95379f76506ba543f9fe6a09cf574224ce4de2f62ae11d4d9a9a4ba7fd1715c6a3d4a303"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Date--Format \
@@ -26,6 +26,7 @@ perl-Date--Format--Generic \
 perl-Date--Language \
 perl-Date--Language--Afar \
 perl-Date--Language--Amharic \
+perl-Date--Language--Arabic \
 perl-Date--Language--Austrian \
 perl-Date--Language--Brazilian \
 perl-Date--Language--Bulgarian \
@@ -46,6 +47,7 @@ perl-Date--Language--Italian \
 perl-Date--Language--Norwegian \
 perl-Date--Language--Occitan \
 perl-Date--Language--Oromo \
+perl-Date--Language--Portuguese \
 perl-Date--Language--Romanian \
 perl-Date--Language--Russian \
 perl-Date--Language--Russian-cp1251 \
@@ -62,6 +64,6 @@ perl-Date--Parse \
 perl-Time--Zone \
 perl-TimeDate"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

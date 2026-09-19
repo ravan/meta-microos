@@ -2,19 +2,18 @@ SUMMARY = "Haskell hslua-typing profiling library"
 DESCRIPTION = "This package provides the Haskell hslua-typing profiling library."
 LICENSE = "MIT"
 
-PV = "0.1.0"
+PV = "0.2.0"
 
-RPM_NAME = "ghc-hslua-typing-prof-0.1.0-1.3.aarch64.rpm"
-RPM_HASH = "971fb28cc593dbe8b1665854fce06d04d9dce91fe13e7fd5870d62aa572c5553fd3e7027e6b688e3a5b8b65c3f9049129bbb4b585d37eed8a771ec27f9157d1a"
+RPM_NAME = "ghc-hslua-typing-prof-0.2.0-1.2.aarch64.rpm"
+RPM_HASH = "482970f1e8fd663bd99a087f916999ce0011729b9dcfe6ad5db5801e731f9d9f60d31733038aaeb18069affd39748b7c98f5a1ea2def068dfe4f18229f111507"
 
 RPROVIDES:${PN} += "ghc-hslua-typing-prof \
-ghc-prof-hslua-typing-0.1.0-3nJdpD9hvXQ79mUAqCbbUn"
+ghc-prof-hslua-typing-0.2.0-HwVvWDb2JBKBM3T8rZUuAT"
 
 RDEPENDS:${PN} += "ghc-hslua-typing-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
-ghc-prof-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-hslua-core-2.3.2.1-GIcwwMIDhKVEx4MlcixfFr \
+ghc-prof-hslua-marshalling-2.3.2-4wJit3DV8Bh1LNaOjZB33o"
 
 inherit rpm

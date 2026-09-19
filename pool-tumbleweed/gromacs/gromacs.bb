@@ -5,10 +5,10 @@ biomolecules like proteins, but it can be used in several other field \
 like polymer chemistry and solid state physics."
 LICENSE = "Apache-2.0 & LGPL-2.1-or-later & BSD-3-Clause"
 
-PV = "2023"
+PV = "2026.1"
 
-RPM_NAME = "gromacs-2023-1.2.aarch64.rpm"
-RPM_HASH = "9355e6d2e8b7d2289a3f96e784be035dbcf6c1abb623d6b9388d5581a84d9caabeea20063c60d751b4b3babbc212c3398c95dcdaa276d22357fbce0279739e59"
+RPM_NAME = "gromacs-2026.1-2.1.aarch64.rpm"
+RPM_HASH = "76e068fe6714e12bb19a0ec5c05bff810ea68773a174949792eb9c02161f5b8d33f881eeb8cd072e7854a911976634f0a9a49c394778f154a4bcf9d47b2ab714"
 
 RPROVIDES:${PN} += "gromacs"
 
@@ -17,7 +17,7 @@ gromacs-data \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgromacs.so.8 \
+libgromacs.so.11 \
 libstdc++.so.6"
 
 inherit rpm

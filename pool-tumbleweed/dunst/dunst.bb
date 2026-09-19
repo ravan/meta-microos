@@ -3,15 +3,16 @@ DESCRIPTION = "Dunst is a customizable replacement for the notification daemons 
 provided by most desktop environments."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.9.1"
+PV = "1.13.2"
 
-RPM_NAME = "dunst-1.9.1-1.2.aarch64.rpm"
-RPM_HASH = "a504936236979606d98ed48bbdaf942eff7a712399d38622ed7380d962113bbbff69635b875b554892b0f0715d38dcef8e9b98653c22b0be8a89b6b1a2d040aa"
+RPM_NAME = "dunst-1.13.2-1.3.aarch64.rpm"
+RPM_HASH = "aa7f43789f716cbf0073e206f332f8e04722b008b8899b776b6e7f0e08906b786c49298d1b24c17ea5056a7bd244db812e4e207b69dcf755f0e213808ecc27ca"
 
 RPROVIDES:${PN} += "config-dunst \
 dunst"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXext.so.6 \
 libXinerama.so.1 \
@@ -23,6 +24,7 @@ libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
+libm.so.6 \
 libnotify.so.4 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \

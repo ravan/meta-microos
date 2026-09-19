@@ -2,12 +2,12 @@ SUMMARY = "CloudWatch Metrics for AWS Java SDK"
 DESCRIPTION = "This package holds the classes for uploading the \
 client side metrics collected from AWS Java SDK to \
 Amazon CloudWatch."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-cloudwatchmetrics-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "bb64c675da29a04e445c10742cb14ec34f2ef338de7a61b757faae9ce972febeec986d39a9f438491f4a5a7e54ae68a6c60c0c95fc6604c5379f8187fb656128"
+RPM_NAME = "aws-sdk-java-cloudwatchmetrics-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "2efa3eb76f990a69daacb43fa29512157f1289b94148cbabc5f4adf00b22d8e72e6af8c868a02c4598d5c9716529165560fcda5369d153eee4fdf742780882a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-cloudwatchmetrics \

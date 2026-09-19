@@ -2,21 +2,21 @@ SUMMARY = "Haskell resolv library development files"
 DESCRIPTION = "This package provides the Haskell resolv library development files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.2.0"
+PV = "0.2.0.3"
 
-RPM_NAME = "ghc-resolv-devel-0.1.2.0-10.8.aarch64.rpm"
-RPM_HASH = "7647fc86529a4a601f20990c3fffbee7e5d215dec173f27b2acb84c64b439de3fcceb71c44dad2aee23e374b993cbd1c732f17f63933cc02172d990d3795a3f7"
+RPM_NAME = "ghc-resolv-devel-0.2.0.3-1.9.aarch64.rpm"
+RPM_HASH = "7ae37bf76ec8f6cefa58bc2470e8865a68c35bab2f2aa51b821fcee1afbd33e4cae450f54f1c5b1839b7cf58eb22ae8c7f53b596745ab67a8bf45ff8b3131a14"
 
-RPROVIDES:${PN} += "ghc-devel-resolv-0.1.2.0-LPfwrdmMO1tC4Sn0ebxMDl \
+RPROVIDES:${PN} += "ghc-devel-resolv-0.2.0.3-2a3UXbRQZR0IVSb1MrCNb4 \
 ghc-resolv-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-base16-bytestring-1.0.2.0-LI31ya5OMpR4awBMr256aJ \
-ghc-devel-binary-0.8.9.1 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-base16-bytestring-1.0.2.0-IiVu4f3aSfMH2rpDgRP1QL \
+ghc-devel-binary-0.8.9.3-9861 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
 ghc-resolv"
 
 inherit rpm

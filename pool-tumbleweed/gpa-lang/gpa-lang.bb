@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gpa"
 DESCRIPTION = "Provides translations for the 'gpa' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.10.0"
+PV = "0.11.1"
 
-RPM_NAME = "gpa-lang-0.10.0-2.17.noarch.rpm"
-RPM_HASH = "1cb56fa276ece508c17cf5f734f1c19ff9440f9e9c53d3a86ea54fee33cde6e64d66df8099346834f085317a076c9e04e31803a0016220b6db0a834509743715"
+RPM_NAME = "gpa-lang-0.11.1-1.5.noarch.rpm"
+RPM_HASH = "56acd6cfd75aa381513661f303dd6d42c80995a9f21f9cfe330dd90be1fc1c5059c4655e614031119af9bac7bee4665f4c8ad951159cd07be5d0e0abd88fd708"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpa-lang \

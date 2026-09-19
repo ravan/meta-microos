@@ -5,24 +5,21 @@ implementation and can operate non-stop during zone addition or \
 removal. \
  \
 This package contains headers for knot."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "3.3.0"
+PV = "3.6.0"
 
-RPM_NAME = "knot-devel-3.3.0-1.1.aarch64.rpm"
-RPM_HASH = "81ff6eab641402a4a46f2e94a8ace8b838d35666358f26824062dba2c1288e371c9c447ee29afd251d6106341733a5d709380e6bab52739c40007ed116d01cc2"
+RPM_NAME = "knot-devel-3.6.0-1.1.aarch64.rpm"
+RPM_HASH = "475c739edf17c454749d0992675a484fcd5ddbf042804b9820713b7865388a828ecf6f58c2e4c6d35a57471de09cb6ab233714e027583ab8c7b60201fa7d2b5d"
 
 RPROVIDES:${PN} += "knot-devel \
 pkgconfig-knotd \
-pkgconfig-libdnssec \
 pkgconfig-libknot \
 pkgconfig-libzscanner"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 knot \
-libdnssec9 \
-libknot14 \
-libzscanner4 \
-pkgconfig-gnutls"
+libknot17 \
+libzscanner5"
 
 inherit rpm

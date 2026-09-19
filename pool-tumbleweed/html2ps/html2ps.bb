@@ -13,20 +13,22 @@ many of the HTML 4.0 features.	From the home page \
    contain document title, URL, page number, current heading, and \
    date. \
 * Automatic hyphenation and text justification can be selected."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0b5"
+PV = "1.0b7"
 
-RPM_NAME = "html2ps-1.0b5-248.14.noarch.rpm"
-RPM_HASH = "4a4776547c6fff2fa832c84cf618a0b01332593fc3a0ffe4b1e8011b737140afda70d9407eaa326e27d2652af1a5181621e8aa43296c0a826662735bd68d7b24"
+RPM_NAME = "html2ps-1.0b7-1.5.noarch.rpm"
+RPM_HASH = "d6265f7f4dac9986cb5e14bcf31c487cb2daeb1516010af6823ce301254c999738f2e21f011688c71d6c71160e9fa6693b5ba1a5e928ed2d86c6fd449cbd9cab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-html2ps \
 html2ps"
 
-RDEPENDS:${PN} += "/usr/bin/wish \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/wish \
 ImageMagick \
 ghostscript-any \
+gv \
 netpbm \
 perl \
 perl-libwww-perl"

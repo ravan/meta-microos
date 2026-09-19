@@ -2,10 +2,10 @@ SUMMARY = "Translations for package orca"
 DESCRIPTION = "Provides translations for the 'orca' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.1"
+PV = "50.2"
 
-RPM_NAME = "orca-lang-44.1-1.2.noarch.rpm"
-RPM_HASH = "3d28125bdfc95ebc1efbb7263192d919dfae9d7607f00d223bdb79076b203a2e025b26d28196767cb4c97bbebee433eb44e2e56619ff94bde81d79a7416dae1c"
+RPM_NAME = "orca-lang-50.2-1.2.noarch.rpm"
+RPM_HASH = "6e527b053f01918d92ffdc8ccbb03c882955664c2d99f9c864409092d84b84a84db31da53688f459e4ce76252e432ed4177358418e8ef5203dd561b6d3c672dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-orca-ar \

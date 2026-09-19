@@ -2,10 +2,10 @@ SUMMARY = "LaTeX for Omega and Aleph"
 DESCRIPTION = "The lambda package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn45756"
+PV = "2026.226.svn45756"
 
-RPM_NAME = "texlive-lambda-2023.209.svn45756-56.1.noarch.rpm"
-RPM_HASH = "81db9aab7b98d7390135f1f431e5d62d7b9ceae5da2e8f65e21a20d439f6d4af689fc86cbdefabd7469ddbc913d9c1a7f25cbd6a700243d668530e8185e3be31"
+RPM_NAME = "texlive-lambda-2026.226.svn45756-63.2.noarch.rpm"
+RPM_HASH = "f8b9d391a12087cff3ddb31e220b574c2800cc4aac8c8152492bef2e0a132d7edefdd951e85c92a7b4a2c0dd7c9b99160689b7595fb496bac9fe94666b1291ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-lambda \

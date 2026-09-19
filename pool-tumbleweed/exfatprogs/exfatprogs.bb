@@ -3,14 +3,16 @@ DESCRIPTION = "A set of utilities for creating, checking, dumping and labelling 
 system."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.1"
+PV = "1.4.3"
 
-RPM_NAME = "exfatprogs-1.2.1-1.1.aarch64.rpm"
-RPM_HASH = "110c31d47e082351a2f8e98be0b12f7be167423f0025fa887485f0405d88742885bbf78f569be33e8f28cb6e14393d4a40e511c63db9ef764a68133ecf996391"
+RPM_NAME = "exfatprogs-1.4.3-1.1.aarch64.rpm"
+RPM_HASH = "01e184cc1f7aed7487f4a9c17560b34cb9fd6fcc9eca13139b28314ebc7608dddaf95358d254694780a2797f73681264402129b864b5673b7094a26301455396"
 
 RPROVIDES:${PN} += "exfatprogs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/sh \
+ld-linux-aarch64.so.1 \
+libblkid.so.1 \
 libc.so.6"
 
 inherit rpm

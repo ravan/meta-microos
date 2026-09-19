@@ -15,8 +15,8 @@ LICENSE = "Arphic-1999"
 
 PV = "0.2.20080216.1"
 
-RPM_NAME = "arphic-ukai-fonts-0.2.20080216.1-100.2.noarch.rpm"
-RPM_HASH = "3acf8257acebd529da4d6fec730f31d4a6691bd2b2dbb776c343a844224fbf7b1a44182b912b9bb6f5860b97f088c2bce468b55bd36e8b18b27b8af254b4ed6a"
+RPM_NAME = "arphic-ukai-fonts-0.2.20080216.1-101.3.noarch.rpm"
+RPM_HASH = "733827ff7134983fde5ba7d3e6ce3cf3c8d0957837bb256901042976f76d5352d9058856157d7be72248850169a06272c4431c958db0160cda2fecd41f8aa17d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arphic-ukai-fonts \

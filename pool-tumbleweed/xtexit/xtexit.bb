@@ -15,13 +15,14 @@ LICENSE = "MIT"
 
 PV = "0.42"
 
-RPM_NAME = "xtexit-0.42-1250.20.aarch64.rpm"
-RPM_HASH = "0bf635d3b80f8095477496e872471c0865a8dcb1cbb8d4720ac527b0a79c1a6c072e88db107360843b946337fabadeca611a8175a3346e429b89afe4080db616"
+RPM_NAME = "xtexit-0.42-1253.4.aarch64.rpm"
+RPM_HASH = "c09ebc8ce27a613f4046fd8076635006966c6f7fb5ebb160a0e70160af71f17770d49f29ab05b5e87f3e8189d5a6a6b4f1847c48b10cc6cf0d3393a85b9a9c47"
 
 RPROVIDES:${PN} += "config-xtexit \
 xtexit"
 
-RDEPENDS:${PN} += "libX11.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
 libXaw.so.7 \
 libXt.so.6 \
 libc.so.6 \

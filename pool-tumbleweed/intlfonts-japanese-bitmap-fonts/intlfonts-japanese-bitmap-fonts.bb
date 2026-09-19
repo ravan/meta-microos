@@ -2,10 +2,10 @@ SUMMARY = "Japanese Fonts for the X Window System"
 DESCRIPTION = "Japanese fonts for the X Window System."
 LICENSE = "HPND & SUSE-Redistributable-Content & SUSE-Public-Domain"
 
-PV = "1.2.1"
+PV = "1.4.2"
 
-RPM_NAME = "intlfonts-japanese-bitmap-fonts-1.2.1-16.15.noarch.rpm"
-RPM_HASH = "c53164e33e22633b9fee0ad1731ab19598e33fc5f0ed1573a873fbd17b18df1a523a28fec15c08caa584d704feccef558fc971302a0acff6a7a778857b1b05df"
+RPM_NAME = "intlfonts-japanese-bitmap-fonts-1.4.2-1.6.noarch.rpm"
+RPM_HASH = "acf00ae2d9a9d265eadec95d4fadeeb6b3056935422e31ea57a6cd645a40c0c3819bf3c48b5cbc38ab7b9b5f9355a7dc7474c80fb89303d44ece54c790e8bcb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ifntjapa \

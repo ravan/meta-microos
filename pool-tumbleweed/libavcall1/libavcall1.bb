@@ -5,10 +5,10 @@ This library allows calling C functions with variable argument \
 prototypes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4"
+PV = "2.5"
 
-RPM_NAME = "libavcall1-2.4-2.8.aarch64.rpm"
-RPM_HASH = "a21e359f5925875a26e88a54239089c70622d7911855945fd8661e58dddcad0659c580282708032b4d1b5b6c4417277de17497039e05d1681a591460d352653b"
+RPM_NAME = "libavcall1-2.5-1.9.aarch64.rpm"
+RPM_HASH = "4931505fd6497cd51e5c9964c3f7d0b7bc5a6e61924456df7dee4403f765b8dd3249569042779db3ee7ff32720c4f9cffd1ba446154911dd59df815c7da960b4"
 
 RPROVIDES:${PN} += "libavcall.so.1 \
 libavcall1"

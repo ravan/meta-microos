@@ -1,6 +1,6 @@
 SUMMARY = "An object-oriented implementation of Sender Policy Framework"
 DESCRIPTION = "*Mail::SPF* is an object-oriented implementation of Sender Policy Framework \
-(SPF). See the http://www.openspf.org manpage for more information about \
+(SPF). See https://tools.ietf.org/html/rfc7208 for more information about \
 SPF. \
  \
 This class collection aims to fully conform to the SPF specification (RFC \
@@ -8,10 +8,10 @@ This class collection aims to fully conform to the SPF specification (RFC \
 a reference for other developers of SPF implementations."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.9.0"
+PV = "3.202.603.310"
 
-RPM_NAME = "perl-Mail-SPF-2.9.0-2.17.noarch.rpm"
-RPM_HASH = "e794f3386fc6f36d4c2c982579a959e29eff13d4ca1f93ecc89d22fd9edfb3ff1b9bca95ed2da3c5169260e3ee923a6ed808fda81060c3775aec85f94f7805ee"
+RPM_NAME = "perl-Mail-SPF-3.202.603.310-1.4.noarch.rpm"
+RPM_HASH = "3836fda71498a7a272426d19866ad79c5ee2201af28dc656d8530de6ac6d2112f39acfa17d687631d4c50c252435b5d2b75500b91637c3f4e2f7be2c9cde790a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--SPF \
@@ -87,11 +87,10 @@ perl-Mail--SPF--v2--Record \
 perl-Mail-SPF"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Error \
-perl-Net--DNS \
+perl-Net--DNS--Resolver \
 perl-NetAddr--IP \
-perl-URI \
-perl-version"
+perl-URI--Escape"
 
 inherit rpm

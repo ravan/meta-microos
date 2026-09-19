@@ -2,10 +2,10 @@ SUMMARY = "Anthy Wrapper for Fcitx5"
 DESCRIPTION = "Anthy Wrapper for Fcitx5."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.1.0"
+PV = "5.1.9"
 
-RPM_NAME = "fcitx5-anthy-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "3c137609fd8845d57bed820dcaa805fa94e94bf381bc0badfced41f6e48f705a19b94f1213f2c441c72e5ee57b82d0737cdd78e186e196f381b7d755c183eb74"
+RPM_NAME = "fcitx5-anthy-5.1.9-1.4.aarch64.rpm"
+RPM_HASH = "e0cce8d62ec44a9b1fd843a1fbb8d28178a39fe81dcc8e14b37b6c03d0f73f43539c2073c0601b2e3b249a824f03414b56555132b3b2a51262dea2d875796714"
 
 RPROVIDES:${PN} += "fcitx-anthy \
 fcitx5-anthy \

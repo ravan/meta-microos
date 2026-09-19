@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.4"
 
-RPM_NAME = "felix-gogo-shell-javadoc-1.1.4-2.1.noarch.rpm"
-RPM_HASH = "8826cf03b073d7d8205ff15688ed1b5011a07ee0d729b498af3ebec937fd045a01ff9252c03a9681fac2461a28d5e2561ec32044e449aabab4e8461c34e8620c"
+RPM_NAME = "felix-gogo-shell-javadoc-1.1.4-3.4.noarch.rpm"
+RPM_HASH = "ee955dcf896bceca9a4f7c94d6661f3a4e5a4b9d29ccc201a83e6b4fc430fed84b5536cd3b640611342b154b58cd249abe81b55caaa913b843d5a936c99eb103"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-gogo-shell-javadoc"

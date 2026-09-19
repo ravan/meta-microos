@@ -1,31 +1,37 @@
 SUMMARY = "Translations for package secrets"
 DESCRIPTION = "Provides translations for the 'secrets' package."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "7.3"
+PV = "13.0.1"
 
-RPM_NAME = "secrets-lang-7.3-1.2.noarch.rpm"
-RPM_HASH = "55a0c706f63c86ec116c15985ff4087811e33f91da7eb937a0db5abd8c4fd673804e70bd703576cecc9def829bcf384435fcc607182aa01e10a37653501e4862"
+RPM_NAME = "secrets-lang-13.0.1-1.2.noarch.rpm"
+RPM_HASH = "a73f2340dfc31b12874a2dd7a01a6310e113da56702c9ca607b8cb3b91d3a3d68334732d4d66cd63a2312763587a7c4a131a227782eb8e5c98cf6a732b57efbe"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-secrets-ca \
+RPROVIDES:${PN} += "locale-secrets-be \
+locale-secrets-bg \
+locale-secrets-ca \
 locale-secrets-cs \
 locale-secrets-da \
 locale-secrets-de \
 locale-secrets-el \
 locale-secrets-en-GB \
+locale-secrets-eo \
 locale-secrets-es \
 locale-secrets-eu \
+locale-secrets-fa \
 locale-secrets-fi \
 locale-secrets-fr \
 locale-secrets-gl \
 locale-secrets-he \
+locale-secrets-hi \
 locale-secrets-hr \
 locale-secrets-hu \
 locale-secrets-id \
 locale-secrets-is \
 locale-secrets-it \
 locale-secrets-ka \
+locale-secrets-kk \
 locale-secrets-ko \
 locale-secrets-nb \
 locale-secrets-nl \

@@ -4,10 +4,10 @@ on an 'okay' button to dismiss it or can select one of several buttons \
 to answer a question. xmessage can also exit after a specified time."
 LICENSE = "MIT"
 
-PV = "1.0.6"
+PV = "1.0.7"
 
-RPM_NAME = "xmessage-1.0.6-1.4.aarch64.rpm"
-RPM_HASH = "38356ab0c2149769b9928c0f42957ebdc2f24ad6f1401f55279f576ed9ab163437ace436101d680f8ec2552a49f8fecc4470f667a8d8bb0b276f866350b07b6c"
+RPM_NAME = "xmessage-1.0.7-1.9.aarch64.rpm"
+RPM_HASH = "a77d3ebede780e5afb60b132595e62a7fef74ed9f6bdd834929536c50578c1b80207c18177205795c6349657a257e7dcc92fdca9b03a008991643009cdd97e33"
 
 RPROVIDES:${PN} += "xmessage"
 

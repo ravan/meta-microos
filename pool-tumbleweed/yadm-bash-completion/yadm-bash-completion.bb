@@ -2,10 +2,10 @@ SUMMARY = "Bash completions for yadm"
 DESCRIPTION = "The official bash completion script for yadm."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.2.2"
+PV = "3.3.0"
 
-RPM_NAME = "yadm-bash-completion-3.2.2-1.1.noarch.rpm"
-RPM_HASH = "d0b5478ccdf6cab05fd9b5aab7e202c730f9357ea1c60a8f20ce1a15e9959972cfae09c4bdb4fd142d3bb804970843c05093075ddccb4140c9bb13db5fa46cb8"
+RPM_NAME = "yadm-bash-completion-3.3.0-1.6.noarch.rpm"
+RPM_HASH = "5afc60d04b4007b9ef6d1be5d1e64e8a1232841f627cb5dccbd528c4d3df2ddb3aacfc4358345fd99e5a5565f9e20d6971fcb51340885cba534154f4e31472b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yadm-bash-completion"

@@ -2,28 +2,27 @@ SUMMARY = "LXQt Image Viewer"
 DESCRIPTION = "Image Viewer for LXQt and Thumbnail Generator for PCManFM-Qt"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "lximage-qt-1.3.0-1.2.aarch64.rpm"
-RPM_HASH = "a8e183fcb29d90954048dbf9dc5acef1d5f18b69b734aef21b5f5abd0eee577caac5b4353d39fa2477b5205c18768362e425da311fa85e838374be3391571cc0"
+RPM_NAME = "lximage-qt-2.4.0-1.3.aarch64.rpm"
+RPM_HASH = "a200e22e79cadc302c9ce406e0ee018f4f064c646ef03a70062da4dd670dc2d3a8bf65f16a14140ca4a256285e4daa86e4f87e328153df57d3d0c277e4e893b2"
 
 RPROVIDES:${PN} += "lximage-qt"
 
 RDEPENDS:${PN} += "desktop-file-utils \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6Widgets.so.6 \
 libX11.so.6 \
 libXfixes.so.3 \
 libc.so.6 \
 libexif.so.12 \
-libfm-qt.so.13 \
+libfm-qt6.so.17 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

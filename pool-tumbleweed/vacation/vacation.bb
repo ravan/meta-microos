@@ -1,21 +1,13 @@
 SUMMARY = "A way to automatically reply to incoming e-mail"
 DESCRIPTION = "This program answers your e-mail when you are lying on the beach. \
  \
-Documentation: man vacation \
- \
- \
- \
-Authors: \
--------- \
-    Sean F Rima <sean.rima@tcob1.uklinux.net> \
-    Eric P. Allman \
-    Harald Milz <hm@seneca.muc.de>"
-LICENSE = "GPL-2.0+"
+Documentation: man vacation"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.7.1"
 
-RPM_NAME = "vacation-1.2.7.1-13.2.aarch64.rpm"
-RPM_HASH = "f2e93877e8beb7bd3a6c2ec5f122e64bf799e6ac5a6c61fe50e4f6dff64683b7a10dc9f9e305d5b90d21f5794c6ec97ecdb54921e75b8e14430d4dd6ab61d92e"
+RPM_NAME = "vacation-1.2.7.1-15.10.aarch64.rpm"
+RPM_HASH = "78edd5e06d8a16bf1f0d483372f57b9f588ea7321caf5c5b2a9175ee87cc870af6d7d21df3e08e1552aa5bbe087c588f4c9361dd0e86fa3bfd43048303f33195"
 
 RPROVIDES:${PN} += "vacation"
 

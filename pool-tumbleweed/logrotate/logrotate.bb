@@ -7,10 +7,10 @@ daily cron job. \
 It manages plain files only and is not involved in systemd's journal rotation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.21.0"
+PV = "3.22.0"
 
-RPM_NAME = "logrotate-3.21.0-1.3.aarch64.rpm"
-RPM_HASH = "5eddc3cc31264d92d533685ae62732f92cd73830ae4986fe62a8bcf12cb0776b4af39e2cbfbc4768163531775916d885559fb8ebd3348e8978d400c22e3acd78"
+RPM_NAME = "logrotate-3.22.0-2.8.aarch64.rpm"
+RPM_HASH = "a50516225f2b202884580f6cf9d6607ffcb986978fc14125fe0eb84d6101a93e9c6778691f772a0995b05bafe064a4439e3bff63aaffb6be13a52d828c100179"
 
 RPROVIDES:${PN} += "logrotate"
 

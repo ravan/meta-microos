@@ -7,31 +7,40 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of the GIMP libraries."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.10.34"
+PV = "3.2.6"
 
-RPM_NAME = "gimp-devel-2.10.34-5.1.aarch64.rpm"
-RPM_HASH = "f26887338ef829f548a2a717de18bd5e5cca89c79166eaa49080958834278f4866808e94b434d818eb4bbf5f08b7eadc85b3a8dc1d540c0abaa035a38f65f179"
+RPM_NAME = "gimp-devel-3.2.6-1.1.aarch64.rpm"
+RPM_HASH = "842feedce48c3518c01ade179b2c4b56751b5f651f777682b1bec18dce749fef297b12683861459c1cb434ddcb0493ffc431bc2101a796bf20b20a6b3ca4d9d3"
 
-RPROVIDES:${PN} += "gimp-2.0-devel \
+RPROVIDES:${PN} += "gimp-3.0-devel \
 gimp-devel \
 gimp-doc \
-pkgconfig-gimp-2.0 \
-pkgconfig-gimpthumb-2.0 \
-pkgconfig-gimpui-2.0 \
+pkgconfig-gimp-3.0 \
+pkgconfig-gimpthumb-3.0 \
+pkgconfig-gimpui-3.0 \
 rpm-macro-gimp-abi-version \
 rpm-macro-gimp-api-version"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgimp-2-0-0 \
-libgimpbase-2.0.so.0 \
-libgimpui-2-0-0 \
+libgimp-3-0-0 \
+libgimpbase-3.0.so.0 \
+libgimpui-3-0-0 \
 libglib-2.0.so.0 \
 pkgconfig-cairo \
 pkgconfig-gdk-pixbuf-2.0 \
 pkgconfig-gegl-0.4 \
-pkgconfig-gimp-2.0 \
-pkgconfig-gtk+-2.0"
+pkgconfig-gexiv2 \
+pkgconfig-gimp-3.0 \
+pkgconfig-gio-2.0 \
+pkgconfig-gio-unix-2.0 \
+pkgconfig-glib-2.0 \
+pkgconfig-gmodule-no-export-2.0 \
+pkgconfig-gobject-2.0 \
+pkgconfig-gtk+-3.0 \
+pkgconfig-lcms2 \
+pkgconfig-pango \
+pkgconfig-pangoft2"
 
 inherit rpm

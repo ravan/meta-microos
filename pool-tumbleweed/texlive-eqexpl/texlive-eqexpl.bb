@@ -5,10 +5,10 @@ perfectly formatted explanation of components of a formula. The \
 package depends on calc, etoolbox, and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.1svn63629"
+PV = "2026.226.1.1.1svn63629"
 
-RPM_NAME = "texlive-eqexpl-2023.209.1.1.1svn63629-54.2.noarch.rpm"
-RPM_HASH = "579a5e2509149b20ceba4ee415bb851051de69eaf23f77ca3ff2e8317c826906c3963f72d3d461a22075d5b460ae8bc385545886a43b47607c1d6ec15661b136"
+RPM_NAME = "texlive-eqexpl-2026.226.1.1.1svn63629-61.4.noarch.rpm"
+RPM_HASH = "7160abf2927c1e90c49d0da792d38c6ec36387d161e5cc66db40f2f3a185b4a25d85ea56e08d89e1e6cddf7b1c1927b98f4a0ff35e17a567ea829abeace708f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqexpl.sty \

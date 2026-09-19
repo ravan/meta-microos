@@ -17,10 +17,10 @@ The package also contains the nbd-client tools, which you need to \
 configure the nbd devices on the client side."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.25"
+PV = "3.27.1"
 
-RPM_NAME = "nbd-3.25-1.1.aarch64.rpm"
-RPM_HASH = "71411320d21f59566554d4c41d42be09385635ef306895d6d9dc5c8db547b006ae4f4c3f5ae6afec66662f717eb2a1cec8a93b6c9c6858116699d12c153f3942"
+RPM_NAME = "nbd-3.27.1-2.3.aarch64.rpm"
+RPM_HASH = "86611257ba1172a9ab8ed791de91dc742497a824e80b0b6c72d824878ea365e2bc682e955456764810b2cba95f2ac6ea2eaeec47878096c24b38d0e4b3155354"
 
 RPROVIDES:${PN} += "config-nbd \
 nbd"

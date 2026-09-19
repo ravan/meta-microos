@@ -5,10 +5,10 @@ the size of the pictures and all the margins. The example file \
 shows the usage."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0jsvn15878"
+PV = "2026.226.1.0jsvn15878"
 
-RPM_NAME = "texlive-image-gallery-2023.209.1.0jsvn15878-54.1.noarch.rpm"
-RPM_HASH = "022aa336bee89cbcd2bb50137564225488ac7d943966cb863f37ac3480672c3977a3df50b6595fda40ef80eedd586abbe7c986d95479b815cff6d95f70083c6e"
+RPM_NAME = "texlive-image-gallery-2026.226.1.0jsvn15878-60.2.noarch.rpm"
+RPM_HASH = "bdce01156fc18056f74f6e4d0e17c3a485ce4998cab646e0b31d0824d432f9f7456fec78d7cc30401744b564c26b48fa0163ce4fed5bc11d5a56624f2fbbe8d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-image-gallery.cls \

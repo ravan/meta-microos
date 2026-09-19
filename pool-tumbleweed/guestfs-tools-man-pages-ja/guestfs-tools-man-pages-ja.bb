@@ -3,10 +3,10 @@ DESCRIPTION = "guestfs-tools-man-pages-ja contains Japanese (ja) man pages \
 for guestfs-tools."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.50.1"
+PV = "1.56.0"
 
-RPM_NAME = "guestfs-tools-man-pages-ja-1.50.1-1.2.noarch.rpm"
-RPM_HASH = "d825c6c005b32b38b07107458401e966477ab8f2f033c60f67ecb2081988fcba06170c0327e789ba12e40e990b66d028276b12261df11d358c34edf2ddb6bbcd"
+RPM_NAME = "guestfs-tools-man-pages-ja-1.56.0-1.2.noarch.rpm"
+RPM_HASH = "189c9d41662155351c5a7e74344fb238531d98464c24591723eff497a8e0468d39a912eff9f8d9adb164ddc5bebc4f4bb38a53dae207c4dda9f6e54af0ee9275"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guestfs-tools-man-pages-ja"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-adrconv"
 DESCRIPTION = "This package includes the documentation for texlive-adrconv"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn46817"
+PV = "2026.226.1.4svn76790"
 
-RPM_NAME = "texlive-adrconv-doc-2023.209.1.4svn46817-55.1.noarch.rpm"
-RPM_HASH = "c812e6c0437bd09d877ba062da9d4471028656ab1f51507f399bdebb71e2aae5bf7a730329987a36809418e637f588a368e8d3b5cd4815c6cc8cda1217a9133b"
+RPM_NAME = "texlive-adrconv-doc-2026.226.1.4svn76790-61.2.noarch.rpm"
+RPM_HASH = "fc60e2233def4d227520a7e99556a150bf5a3dc8350273deecb989d91d5f925398a71d13ca319d5c185a8806143bdf8688bc5300c83e98d6394f0489acd6f68d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-adrconv-doc-de \

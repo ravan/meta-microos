@@ -5,10 +5,10 @@ to store and exchange meshed data or computation results. \
 It uses the HDF5 file format to store the data."
 LICENSE = "LGPL-3.0-only"
 
-PV = "4.1.1"
+PV = "5.0.0"
 
-RPM_NAME = "libmedfwrap11-4.1.1-1.7.aarch64.rpm"
-RPM_HASH = "9e6426f2567ce845997a7b566c70f615fdfa84fb06edaf5b46db2811ff107f9c9667533eaebb2e7f9571cf4696b390241d87580a5d7e8cbdd9c8e683e42e29aa"
+RPM_NAME = "libmedfwrap11-5.0.0-1.6.aarch64.rpm"
+RPM_HASH = "a66c4a808ffdfd7a3b57d4bc41a6e6169a21f852eb9e9bc3596dc558367419869baf2bda6520dc3e8ad26b896ef09ecbc7903eebfdcf37ddaec9e7f27a8b5ef3"
 
 RPROVIDES:${PN} += "libmedfwrap.so.11 \
 libmedfwrap11"

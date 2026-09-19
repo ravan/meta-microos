@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & SUSE-Permissive & LGPL-2.1-only & M
 
 PV = "1.5"
 
-RPM_NAME = "dicts-devel-1.5-422.6.noarch.rpm"
-RPM_HASH = "84440d596630d455719df03bcd11c4283fe8e5cfe6f831d0641a8747c34ac22f5d07e7ab0f94f1cd2640a593b5a344a579ee755392a055d6045d29818cfdcc3b"
+RPM_NAME = "dicts-devel-1.5-426.1.noarch.rpm"
+RPM_HASH = "9e2914b1a2cc12042a6fcc1f5d711a0d393e040cbb6bed6b915151c058cee5056c843add1abb88ecbd11db156ce8aff026ddc9b96d7007e03fbc237557350903"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dicts-/usr/src/dicts/fix8bit.c \

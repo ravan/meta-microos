@@ -1,15 +1,15 @@
 SUMMARY = "Bash Completion for helix"
 DESCRIPTION = "Bash command-line completion support for helix."
-LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (MIT | Apache-2.0 | Zlib) & (MIT | Unlicense) & (Zlib | Apache-2.0 | MIT) & Apache-2.0 & BSL-1.0 & ISC & MIT & MPL-2.0 & Zlib & MPL-2.0"
+LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & BSL-1.0 & ISC & MIT & MPL-2.0 & Zlib & MPL-2.0"
 
-PV = "23.05"
+PV = "25.07.1"
 
-RPM_NAME = "helix-bash-completion-23.05-3.1.noarch.rpm"
-RPM_HASH = "33ba574f61dc650192af48d557cfbe8f64d32b8dcb01c246ecb1f2a229db38b06db96fd1e026f81961d9b6f291463987843d0ab91669337d15b8aeb3c1d8906b"
+RPM_NAME = "helix-bash-completion-25.07.1-1.8.noarch.rpm"
+RPM_HASH = "aecb13943a6d3fa2aaf4f0548da3fff347a7545130a7a9fe9e02900b5f2b7dfcd06d4bde34fc5bc07946cfe01e569c32b5eb352ae91b3fc8727fff1dff78ed5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "helix-bash-completion"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "helix"
 
 inherit rpm

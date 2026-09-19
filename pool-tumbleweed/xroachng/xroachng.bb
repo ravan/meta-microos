@@ -18,8 +18,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "xroachng-1.0.3-2.1.aarch64.rpm"
-RPM_HASH = "bd74216b49f18a8ad8b3ca15d3b30920edfebb1af5ec9f4db927e39ee7b2519e2ed8b065a811e07f2c19bffc5a43e1aae082a11c18c0ccbe5998b92382053d85"
+RPM_NAME = "xroachng-1.0.3-2.12.aarch64.rpm"
+RPM_HASH = "f8cfe49cfa975073ac930e2774f3638e1e75e8cd835728f2ec7776dd2ca76480d2fd855d736fbed4e24348fd428110bcc54ee70b2f3b9dc7f875b0554ceeba5c"
 
 RPROVIDES:${PN} += "xroachng"
 

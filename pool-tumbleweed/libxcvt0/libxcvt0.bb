@@ -4,10 +4,10 @@ implementation of the VESA Coordinated Video Timings (CVT) standard \
 timing modelines generator."
 LICENSE = "MIT"
 
-PV = "0.1.2"
+PV = "0.1.3"
 
-RPM_NAME = "libxcvt0-0.1.2-1.3.aarch64.rpm"
-RPM_HASH = "dfa991882af7c87971e8de5b5c457dff07e209fcf31fbd42bfd098e3ddb1ca0bf1c197319c41066ebd7083a0db666b7e8a70eac8694ab8d3487c1082538aacca"
+RPM_NAME = "libxcvt0-0.1.3-1.7.aarch64.rpm"
+RPM_HASH = "52ea9074288a753e4354823f68afbd93feb265ad79d504095b592f19ca0060b78a908b8930dec1216e15462c21091133611ce537a6b8ce116fea6e89f1536a86"
 
 RPROVIDES:${PN} += "libxcvt.so.0 \
 libxcvt0"

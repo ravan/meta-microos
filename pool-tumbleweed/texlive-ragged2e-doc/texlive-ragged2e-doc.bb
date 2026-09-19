@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ragged2e"
 DESCRIPTION = "This package includes the documentation for texlive-ragged2e"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.4svn66152"
+PV = "2026.226.3.6svn77682"
 
-RPM_NAME = "texlive-ragged2e-doc-2023.209.3.4svn66152-54.2.noarch.rpm"
-RPM_HASH = "98b75fa4f8965bea4a37e8b3b471f0d69ed064c80235a3969a20d1f82c4d79e8a18019a14fab1b7bb0fb8788d707ab2b89740219e3d888e1c9eaa9b17931ac75"
+RPM_NAME = "texlive-ragged2e-doc-2026.226.3.6svn77682-60.4.noarch.rpm"
+RPM_HASH = "733fa593d4c514c52e0e4b0284d90b9baec572dd89a210ce50570b861b9bb7241ff0df76e5ab716c80074976510501efdd39b9196e37904461ea93bf3b957344"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ragged2e-doc"

@@ -2,19 +2,21 @@ SUMMARY = "Mesa vulkan driver for AMD GPU"
 DESCRIPTION = "This package contains the Vulkan parts for Mesa."
 LICENSE = "MIT"
 
-PV = "23.1.7"
+PV = "26.2.2"
 
-RPM_NAME = "libvulkan_radeon-23.1.7-357.1.aarch64.rpm"
-RPM_HASH = "f6412502ac93ed16a1eba89a6b7baa256f26e2da5df583f4c39637e67976d5bb0d802ac6a94dbed3d2718249ed3ffe9aca8f64b487090a137ce591db3d503f1a"
+RPM_NAME = "libvulkan_radeon-26.2.2-2.1.aarch64.rpm"
+RPM_HASH = "c3b761e445fcd82bc243dfea01e6c4dd26d8529c7ab91f3ff1597bfc5820a63a59ca2702a5875b36e052c82e69326fa3fda825aef2b6228f54b4c770d0bda6e6"
 
 RPROVIDES:${PN} += "libvulkan-radeon \
 libvulkan-radeon.so"
 
 RDEPENDS:${PN} += "Mesa-vulkan-device-select \
 ld-linux-aarch64.so.1 \
-libLLVM.so.16 \
+libLLVM.so.23.1 \
+libSPIRV-Tools-2026.3~rc1.so \
 libX11-xcb.so.1 \
 libc.so.6 \
+libdisplay-info.so.3 \
 libdrm-amdgpu.so.1 \
 libdrm.so.2 \
 libelf.so.1 \

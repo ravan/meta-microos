@@ -4,10 +4,10 @@ StatusNotifier-compatible notification area. If none are available, \
 it also provides an XEmbed-tray fallback."
 LICENSE = "GPL-3.0-only & LGPL-2.0-only & LGPL-3.0-only"
 
-PV = "0.5.91"
+PV = "0.5.93"
 
-RPM_NAME = "libayatana-appindicator3-1-0.5.91-1.5.aarch64.rpm"
-RPM_HASH = "bfa78485a489bc06205a0c3c72cec93dc2616197e5e2e0974f2e421c85362366ae8df34e97a9f7f88b16c723602f558e82fd3ed3360aabcb45e2314cff949456"
+RPM_NAME = "libayatana-appindicator3-1-0.5.93-3.4.aarch64.rpm"
+RPM_HASH = "a602a2f7f6d23473ea84b04a8bccc5c507c88ca8ec46ec9c5b5a86c3d004f36364c3fd1809f77eb9028c052052f9bfe64850d97c1516f5352797ef3fc2cabf49"
 
 RPROVIDES:${PN} += "libayatana-appindicator3 \
 libayatana-appindicator3-1 \

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.4"
 
-RPM_NAME = "loudmouth-devel-1.5.4-1.7.aarch64.rpm"
-RPM_HASH = "c68d7a50015ee83eb46a9c1290abc0ef04854b55fdeb6a2da6e2a58305f97a20b97091f91e1f6841b51e8bd466bd2f96cbb1906cf44125b3d83605e03f9c8b85"
+RPM_NAME = "loudmouth-devel-1.5.4-1.18.aarch64.rpm"
+RPM_HASH = "1b9d5bcb52ea8d8c96bbd1b2d828df2edf5dcd6c49b53b08a2798de74d4e4897ee37d919a11cb87825475fd513be30900c2cbf153216a597a982d4db33fed0d0"
 
 RPROVIDES:${PN} += "loudmouth-devel \
 pkgconfig-loudmouth-1.0"

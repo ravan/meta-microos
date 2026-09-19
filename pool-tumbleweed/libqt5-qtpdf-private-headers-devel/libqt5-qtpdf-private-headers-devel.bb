@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.15.15"
+PV = "5.15.19"
 
-RPM_NAME = "libqt5-qtpdf-private-headers-devel-5.15.15-1.1.noarch.rpm"
-RPM_HASH = "b26b0dde69e84f7461fabb68deef66da55a1af29057426a0610619b593ce6af8f42b6cc22eb64bdf19e2f40759ecce32ae78e16c4a0b5d76d63f695770e262ef"
+RPM_NAME = "libqt5-qtpdf-private-headers-devel-5.15.19-3.3.noarch.rpm"
+RPM_HASH = "92bde46dc37394dfb72313b2f56b661b60b0d7f3e9447f629d8b18dc0133d3284d4dfb494e1d6e1040100cb6a4e6e4ac5c8d4468a72e0323acc687cc4f44b51e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtpdf-private-headers-devel"

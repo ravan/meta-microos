@@ -9,12 +9,14 @@ virtualization. \
 This package acts as an umbrella package to the other QEMU sub-packages."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "0254255bb09f26c3a26f4ed995d9ff472bf6b6e1a2c22feb7f3b8a66bd18569a2235e29dd19c1d9207844a56c934cfb1c30460ccb261a8cb463bc0b8056207c6"
+RPM_NAME = "qemu-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "cad72b8389be63ddc93ff1abc79e2d3a2f49b2ab768ed1c0bdc7bf0b04bf37f8c669c16d74dba7f0e28749903d078275db6d5ad09b36e660a2102033307b6776"
 
-RPROVIDES:${PN} += "qemu"
+RPROVIDES:${PN} += "kvm \
+qemu \
+qemu-kvm"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
@@ -22,6 +24,10 @@ acl \
 coreutils \
 group-kvm \
 group-qemu \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgnutls.so.30 \
+passt \
 qemu-arm \
 udev \
 user-qemu"

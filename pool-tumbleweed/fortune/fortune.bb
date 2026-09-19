@@ -8,8 +8,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "fortune-2.10.0-1.17.aarch64.rpm"
-RPM_HASH = "a8f2de2f5a56183f1953773522b6ec88a5dfda5c9a7c08168d1fa64dd0435ec8a1021d2e116f5a1645564c7cbab364f76c48b1b7f0814212dbd2152e0b8a188a"
+RPM_NAME = "fortune-2.10.0-2.9.aarch64.rpm"
+RPM_HASH = "323a5b1f60c19dc99bafd114eb5f62278c1e06ac8da970bedaeb1041244f0b5f0af8fbafea97fd5e15456e387aa0afa5bd70e1c9d3f817a2a9a0db4b15f80189"
 
 RPROVIDES:${PN} += "fortune"
 

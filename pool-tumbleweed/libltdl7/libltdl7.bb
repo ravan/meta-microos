@@ -2,10 +2,10 @@ SUMMARY = "Libtool Runtime Library"
 DESCRIPTION = "Library needed by programs that use the ltdl interface of GNU libtool."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.4.7"
+PV = "2.6.2"
 
-RPM_NAME = "libltdl7-2.4.7-3.4.aarch64.rpm"
-RPM_HASH = "2b040f170e0682afbf6a654e98806d7816959dc4941c7e3c993f0c58924cd5efd8d0e5d1335366b1f5595ff034288166892d60a667dde087367885031860df72"
+RPM_NAME = "libltdl7-2.6.2-1.2.aarch64.rpm"
+RPM_HASH = "c148f4e681ca0a5eb61dbac23e76370ffaf8bb15c20494de42ef08044342cdfb2eea34f2edaeff9486e28f516a4da43897246fe318cb849d5bfc814f51c11018"
 
 RPROVIDES:${PN} += "libltdl.so.7 \
 libltdl7"

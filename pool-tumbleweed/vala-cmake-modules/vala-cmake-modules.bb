@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3"
 
-RPM_NAME = "vala-cmake-modules-3-1.11.aarch64.rpm"
-RPM_HASH = "198b6bf03cb772d8fef4f3910fef8322f63b63cf5c8cc6378594130f04cdef13042076aa3e51f6debc26d2c83f8e01d32b5489680aaa35286dfd8d399b7c8c25"
+RPM_NAME = "vala-cmake-modules-3-1.19.aarch64.rpm"
+RPM_HASH = "964881a902ef623b97f271b2061d20c83dfc5b9b74c4ec3ff7348cb0ff580fcae7b2b65545bf8f9222f5b52187d1326424ddebf5876b94e37bcbc812f90ec49a"
 
 RPROVIDES:${PN} += "vala-cmake-modules"
 

@@ -2,20 +2,14 @@ SUMMARY = "Eog fullscreenbg plugin"
 DESCRIPTION = "The Eye of Gnome Fullscreen Background plugin"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "44.1"
 
-RPM_NAME = "eog-plugin-fullscreenbg-44.0-1.2.aarch64.rpm"
-RPM_HASH = "7031264824ac9a4d40369e4d4878b32c0b1fd107f21a0cc0e5a5812bbf7850dec6c2f8423b76bd4394316c06208be484eef544ba093ea3d10480f7f3fab617d2"
+RPM_NAME = "eog-plugin-fullscreenbg-44.1-2.3.aarch64.rpm"
+RPM_HASH = "7b2c5c6282d161fab0d92cae3bdbcb1db18ecc87e704475f080bb2db237c0b68c3d5cfaa595962ce49a5f4ce8799b1f53a9af14c4ee9b5fba09fe4f712e51eeb"
 
 RPROVIDES:${PN} += "eog-plugin-fullscreenbg \
 eog-plugins-/usr/lib64/eog/plugins/fullscreenbg.plugin"
 
-RDEPENDS:${PN} += "eog-plugins-data \
-typelib-Eog \
-typelib-GObject \
-typelib-Gdk \
-typelib-Gio \
-typelib-Gtk \
-typelib-PeasGtk"
+RDEPENDS:${PN} += "eog-plugins-data"
 
 inherit rpm

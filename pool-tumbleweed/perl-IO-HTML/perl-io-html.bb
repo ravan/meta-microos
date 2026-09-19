@@ -40,15 +40,15 @@ different value. Note: 'sniff_encoding' does not apply this step; only \
 'html_file' does that."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.004"
+PV = "1.4.0"
 
-RPM_NAME = "perl-IO-HTML-1.004-1.14.noarch.rpm"
-RPM_HASH = "23851a57d64bfd72b2a2bbc03361046d4d30aefbb8d13407d6f121ed6eb54c575873fdfb7d071f6a32bbbf0e5d9df1e2c43cbdbb08aa0513a4e12f9263fb4ae9"
+RPM_NAME = "perl-IO-HTML-1.4.0-1.7.noarch.rpm"
+RPM_HASH = "4ead766836051bd55218a21c5bbfa57794eb40f9c0f2b99cfea9b763f32b4f9f2ee53d8b7b3f7ba88436311903c5a2caeeaeb0464b5e8728bad8ccd2440ecaed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--HTML \
 perl-IO-HTML"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

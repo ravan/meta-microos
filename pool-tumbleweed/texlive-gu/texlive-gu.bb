@@ -7,10 +7,10 @@ calculated and the scheme is drawn. Currently two steps of \
 symmetry reduction are supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-gu-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "7b304a544e365a1c3d2eac81c3b03febda8efe02e50291fe69ed7d00d7a4940c0866ef4548f519ffc77208b866926288038cdfb96e9de9188a8b0cf75b9ac778"
+RPM_NAME = "texlive-gu-2026.226.svn15878-60.4.noarch.rpm"
+RPM_HASH = "b2de72dc9602ed8fb9595e4b74c27842cb112e00de1f939c7a833b141030503da1b163815d7defd6880155b509d6753f17001ecf6fe8810b8b72fec9f72786cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gu.sty \

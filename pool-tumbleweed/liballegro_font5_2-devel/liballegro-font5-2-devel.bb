@@ -2,10 +2,10 @@ SUMMARY = "Development files for liballegro_font"
 DESCRIPTION = "Development files needed to build applications which use liballegro_font."
 LICENSE = "BSD-3-Clause & Zlib"
 
-PV = "5.2.8.0"
+PV = "5.2.11.3"
 
-RPM_NAME = "liballegro_font5_2-devel-5.2.8.0-1.4.aarch64.rpm"
-RPM_HASH = "960e1a6f2c4e0a2554d90124910e25d0bc49ff831dafb4a08533b62cf06b6db418352ba2f28d16104eca1bc148e9a8fd0128e7b945e5e9d0d949cdebb4c8a914"
+RPM_NAME = "liballegro_font5_2-devel-5.2.11.3-1.5.aarch64.rpm"
+RPM_HASH = "cb546d395d8c7ff472fdf0e6565eac67edabe52e4ef4da4033f8f3a8cbf8a66ee56e9bf21adc13e6b10b5f4fa5cd00d4f8c5c0658b98f0efa197f3050e903fb4"
 
 RPROVIDES:${PN} += "liballegro-font5-2-devel \
 pkgconfig-allegro-font-5"

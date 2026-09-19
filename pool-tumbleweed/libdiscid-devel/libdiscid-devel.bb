@@ -7,10 +7,10 @@ Additionally, it provides a submission URL for adding the DiscID to the \
 database and gathers ISRCs and the MCN from disc."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.6.4"
+PV = "0.7.0"
 
-RPM_NAME = "libdiscid-devel-0.6.4-1.2.aarch64.rpm"
-RPM_HASH = "90b7ab67c7f77a221b84981504a87bece516cdecf9f10cbdd23958ef80d05b80b18509c6ad901f770b2c149fe87737e2a5874ab416abff30bb461a71362bf8b8"
+RPM_NAME = "libdiscid-devel-0.7.0-1.2.aarch64.rpm"
+RPM_HASH = "ee78f6bd8bafcbc64df6c8d1c8d860157adc9cf8b71362c3e3f5787e1a32973ed963575a21b1b7b7858f58c9fef86dc1977a51c7942cd0370d2b587695aded13"
 
 RPROVIDES:${PN} += "libdiscid-devel \
 pkgconfig-libdiscid"

@@ -5,10 +5,10 @@ for testing other PSTricks macros and/or packages. (Or they can \
 be used for fun...)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.04svn17909"
+PV = "2026.226.0.0.04svn17909"
 
-RPM_NAME = "texlive-pst-fun-2023.209.0.0.04svn17909-53.1.noarch.rpm"
-RPM_HASH = "412bb8a4ce40a023d99af76e67d7649f9eb251e3d3bd2b4a77b076c7a7f19bf1a840a83e0ce87ceae7f83908d791587db3cf26188bdcf01f5fb25fb3ab83fe59"
+RPM_NAME = "texlive-pst-fun-2026.226.0.0.04svn17909-59.2.noarch.rpm"
+RPM_HASH = "fd9625ac9594c3b04ea28fb280d286768cb3b34da30667e2e8557e59c656a38d8e593dec73fa75f884d4368e4e23fc88ffa2a40a6535d60c49aac34888bdec8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-fun.sty \

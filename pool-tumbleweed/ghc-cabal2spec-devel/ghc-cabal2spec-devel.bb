@@ -2,20 +2,20 @@ SUMMARY = "Haskell cabal2spec library development files"
 DESCRIPTION = "This package provides the Haskell cabal2spec library development files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.0"
+PV = "2.8.0"
 
-RPM_NAME = "ghc-cabal2spec-devel-2.7.0-1.5.aarch64.rpm"
-RPM_HASH = "86bbf8be7aa8035ea047d0a40b9dbb44b0c2ccb615182379ae814ca488a892b4e7e79c114ad799b2c48c08a730dd0cc5dd667774179a855eb0f0c3b39ab533ac"
+RPM_NAME = "ghc-cabal2spec-devel-2.8.0-1.9.aarch64.rpm"
+RPM_HASH = "4324aa72b76e1db3b327cfb85ea12f59e3f1297bcd23b9a491310f8d6c1454fde99fd06a02befc70b072fbd8f37d079e1a25cc29b05243fba1b9b839bc4da297"
 
 RPROVIDES:${PN} += "ghc-cabal2spec-devel \
-ghc-devel-cabal2spec-2.7.0-8dWbD7pVkXo1xhNArKyBtJ"
+ghc-devel-cabal2spec-2.8.0-31lc3MkVLh81em4v4LNKxo"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cabal2spec \
 ghc-compiler \
-ghc-devel-Cabal-3.8.1.0 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-time-1.12.2"
+ghc-devel-Cabal-3.14.2.0-f8f4 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-time-1.14-a7dc"
 
 inherit rpm

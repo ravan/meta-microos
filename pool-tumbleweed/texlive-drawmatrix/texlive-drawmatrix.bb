@@ -4,10 +4,10 @@ Various options allow to change the visualizations, e.g., \
 drawing rectangular, triangular, or banded matrices."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.0svn44471"
+PV = "2026.226.1.5.0svn44471"
 
-RPM_NAME = "texlive-drawmatrix-2023.209.1.5.0svn44471-53.1.noarch.rpm"
-RPM_HASH = "90828117624343443b87cbde295d6d5214e6444fd1ad441cb959631562a30a61449728fb649e04c6b063bf1c26995189c5c82dee592f7a24d7dd211d95cd5a76"
+RPM_NAME = "texlive-drawmatrix-2026.226.1.5.0svn44471-59.2.noarch.rpm"
+RPM_HASH = "8587816f960dc07b420436c476c0dfce4945aee4ff53420aef34e859218f97aefeb4f33d61607a2bba6da8e2c9c378c41522a0d9cf617e69322347ef5aee230f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-drawmatrix.sty \

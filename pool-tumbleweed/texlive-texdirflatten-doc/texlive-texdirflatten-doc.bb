@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-texdirflatten"
 DESCRIPTION = "This package includes the documentation for texlive-texdirflatten"
 LICENSE = "Artistic-1.0"
 
-PV = "2023.209.1.3svn55064"
+PV = "2026.227.1.3svn55064"
 
-RPM_NAME = "texlive-texdirflatten-doc-2023.209.1.3svn55064-55.1.noarch.rpm"
-RPM_HASH = "4ed08756664ebec3f599e138619a6b841ffc8e2d5f9e43c2fa25a0851a3b111566c859b64e2f9f4f572a84e61e81f07c70753d9b946b18723d89dc77c453e53c"
+RPM_NAME = "texlive-texdirflatten-doc-2026.227.1.3svn55064-62.2.noarch.rpm"
+RPM_HASH = "744f2b0353917d9eaefc28ae9db86229fc1c56ef53c1a293173a47b2197bc0cfe5c00131d0acb9fd94caa8f994813907b862d63a2c0ee3c895b505f09d1df136"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-texdirflatten.1 \

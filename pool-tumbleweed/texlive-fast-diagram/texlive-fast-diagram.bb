@@ -4,10 +4,10 @@ using TikZ/pgf tools. FAST diagrams are useful for functional \
 analysis techniques in design methods."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn29264"
+PV = "2026.226.1.1svn29264"
 
-RPM_NAME = "texlive-fast-diagram-2023.209.1.1svn29264-53.1.noarch.rpm"
-RPM_HASH = "35e25f24d91d4885ecf7b45372d28b96eccedea4af08c0e8c4f197caef68239225e6c13ac752f92ff277ccdcbb78307b97a96fb511e1ef54e6fd87646a00c9d1"
+RPM_NAME = "texlive-fast-diagram-2026.226.1.1svn29264-59.2.noarch.rpm"
+RPM_HASH = "138b3bdc218bdd2a982032553d5470b9800cfb1fce715cf59e7a84bb36c7c2f79fa959b49ac52bed628e551a95424ddf0de0ab35664ed4efcca9604ee93dfc54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fast-diagram.sty \

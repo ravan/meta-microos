@@ -2,10 +2,10 @@ SUMMARY = "Introspection bindings for  AppStream Compose"
 DESCRIPTION = "GObject introspection bindings for interfaces provided by AppStream Compose"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.16.3"
+PV = "1.1.5"
 
-RPM_NAME = "typelib-1_0-AppStream-compose-1.0-0.16.3-1.1.aarch64.rpm"
-RPM_HASH = "2659fde8314a04ae4f2abc6c0f39c8b960097b25330110c555049881b7d8fd114b36234150975af7700df7b7d0a2c2eafa9d3bcc9afcd97d64e75b2edf03b5c8"
+RPM_NAME = "typelib-1_0-AppStream-compose-1.0-1.1.5-1.1.aarch64.rpm"
+RPM_HASH = "65fcae7ab4f7a0cab46c5cbe0856c3035230a85289137376a13f47eeedd76eeaf97329502eab902a7c1e24bd4b563df9598a49f5dc25c686b8546dd321c626e4"
 
 RPROVIDES:${PN} += "typelib-1-0-AppStream-compose-1.0 \
 typelib-AppStreamCompose"
@@ -15,7 +15,6 @@ typelib-AppStream \
 typelib-GLib \
 typelib-GModule \
 typelib-GObject \
-typelib-GdkPixbuf \
 typelib-Gio"
 
 inherit rpm

@@ -6,10 +6,10 @@ dynamically with powerful report tools based on filtering and graphical \
 charts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.7"
+PV = "5.10.2"
 
-RPM_NAME = "homebank-5.7-1.1.aarch64.rpm"
-RPM_HASH = "e8e618fb1879a63f881768e3aa68d218a88fb45ee9e2194c4e525d27ecea189276eb13d52fb9577e94cf7c090674ae4bcb40d2161586d344b9b97f4df4f81058"
+RPM_NAME = "homebank-5.10.2-1.2.aarch64.rpm"
+RPM_HASH = "85da48d38fcd0920772e289882c9b4449b420e7e3375badad3d01b1f8733268d67836b774bb7adc1b3548dc7baeab5882bc2af15bb14dd672b961a0f517bd5a0"
 
 RPROVIDES:${PN} += "homebank"
 
@@ -26,6 +26,6 @@ libm.so.6 \
 libofx.so.7 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libsoup-2.4.so.1"
+libsoup-3.0.so.0"
 
 inherit rpm

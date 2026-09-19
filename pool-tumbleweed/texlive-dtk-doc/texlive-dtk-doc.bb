@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dtk"
 DESCRIPTION = "This package includes the documentation for texlive-dtk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.08nsvn65315"
+PV = "2026.226.2.10fsvn71776"
 
-RPM_NAME = "texlive-dtk-doc-2023.209.2.08nsvn65315-53.1.noarch.rpm"
-RPM_HASH = "aebd3c0d4291b37b3943daf1786a9fa54313feb87d377474072e922ea65cb9be80063e8eac5ce1c4ec1702df728241dc319f54e0a392a811d844cdb810bc02d3"
+RPM_NAME = "texlive-dtk-doc-2026.226.2.10fsvn71776-59.2.noarch.rpm"
+RPM_HASH = "1a16fcd68b3e62dbacad78e66e47b853fe58965c07f9d6d447d41344f7aebf80803b54713379a6386c1dd65b365f84d1f995f3dabbf437b84c7ddd9301b0860a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-dtk-doc-de \

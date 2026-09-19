@@ -14,8 +14,8 @@ LICENSE = "SUSE-IEEE"
 
 PV = "2017a"
 
-RPM_NAME = "man-pages-posix-2017a-1.8.noarch.rpm"
-RPM_HASH = "67b28f58f1ecdc01b91f1a71ac8a6351031629e99cfe44acb8d66a4beb0eee02664a970f91fa0e9991c6318c6165fcec9fc90b9cb2bbb0ad1c6ae0689fbbb2a9"
+RPM_NAME = "man-pages-posix-2017a-2.3.noarch.rpm"
+RPM_HASH = "b72bb11ad9db6739461deb6e132fa2709d4011a049f29fa05ecdeda67cbe7978820852f0c9f68ada0e820acb7734ea41d4c69db4883374480b065c05a4586f1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pages-posix"

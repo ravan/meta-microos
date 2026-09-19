@@ -2,26 +2,26 @@ SUMMARY = "Haskell gtk2hs-buildtools library development files"
 DESCRIPTION = "This package provides the Haskell gtk2hs-buildtools library development files."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.13.10.0"
+PV = "0.13.12.0"
 
-RPM_NAME = "ghc-gtk2hs-buildtools-devel-0.13.10.0-1.6.aarch64.rpm"
-RPM_HASH = "2814691134fd7b76bc9102eb87d2733be8942d4b5d10de8bf17e1d6fbfb48061e54ce04d7bb9e83d5e1767d8283a6262f12fa436f1023ad68d1d9dc1bd2bd661"
+RPM_NAME = "ghc-gtk2hs-buildtools-devel-0.13.12.0-1.19.aarch64.rpm"
+RPM_HASH = "1362e5bb74926218acc1b356e7d79f9e3d573263741335c90dff7e3f81747a05c92d6698d04e2eacbd90c157c2ebf3625b03b027d7b80b4ecffe34760b42c1b3"
 
-RPROVIDES:${PN} += "ghc-devel-gtk2hs-buildtools-0.13.10.0-DYkyEn9mhdVHic4axOCgFz \
+RPROVIDES:${PN} += "ghc-devel-gtk2hs-buildtools-0.13.12.0-AFsRqZlHhPaHAk4JlopdFw \
 ghc-gtk2hs-buildtools-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-Cabal-3.8.1.0 \
-ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-hashtables-1.3.1-1KAEkULYvDmJLM8wOJL96T \
-ghc-devel-pretty-1.1.3.6 \
-ghc-devel-process-1.6.17.0 \
-ghc-devel-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
+ghc-devel-Cabal-3.14.2.0-f8f4 \
+ghc-devel-array-0.5.8.0-2a42 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-hashtables-1.4.2-FXtFcQfURO18P8ZBa2ZYOT \
+ghc-devel-pretty-1.1.3.6-b7fd \
+ghc-devel-process-1.6.26.1-905d \
+ghc-devel-random-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh \
 ghc-gtk2hs-buildtools \
 gtk2hs-buildtools"
 

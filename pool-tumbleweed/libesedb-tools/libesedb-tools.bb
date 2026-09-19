@@ -4,10 +4,10 @@ ESEDB is used in may different applications like Windows Search, Windows Mail, \
 Exchange, Active Directory, etc."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230318"
+PV = "20260704"
 
-RPM_NAME = "libesedb-tools-20230318-2.1.aarch64.rpm"
-RPM_HASH = "e4e91b81a28a072e16267f47d0a32c8b98e7ef6a409b1ef05c6ef021d4cc227116765af31327e39d08ee8b1c13c20f9abbd8342ffda75d8ffa9958ef056e5a6f"
+RPM_NAME = "libesedb-tools-20260704-1.2.aarch64.rpm"
+RPM_HASH = "e3b0d759c828d272042a658faa2913863449185536f253b7c5fe2cb4c7d0c683f94cb0920c66392620f31a418125382f95d954fa5bd12d9067589e2b8060f133"
 
 RPROVIDES:${PN} += "libesedb-tools"
 

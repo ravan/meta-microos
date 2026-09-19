@@ -6,10 +6,10 @@ Yder is single-threaded, which means that only one instance of yder \
 logging can be used at the same time in a program."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.4.19"
+PV = "1.4.20"
 
-RPM_NAME = "libyder1_4-1.4.19-1.4.aarch64.rpm"
-RPM_HASH = "59e5455f6bed90672b0a661ffd180e0273ff720a0b633f493d3c85adbea4f7dbc8608ca096d98ce1e2d024336dc9c947aadccdbf15c5b4fd1295a70f791c3fd2"
+RPM_NAME = "libyder1_4-1.4.20-1.11.aarch64.rpm"
+RPM_HASH = "efa7c1c4991b14d2388be7020c81ba977ff6253830e4ff1346fa50a05b30f0b396b6f2c77ebccc39d733c8a4b8752c0ef37f47491c4f6bfb46026624c2ccdad2"
 
 RPROVIDES:${PN} += "libyder.so.1.4 \
 libyder1-4"

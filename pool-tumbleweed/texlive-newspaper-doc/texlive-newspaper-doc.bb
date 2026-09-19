@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-newspaper"
 DESCRIPTION = "This package includes the documentation for texlive-newspaper"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-newspaper-doc-2023.209.1.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "c88f7e40ff42d06a228425544de59b9277398235d36df46420423568dc5ae369a478bf87cf40dd9b2f516ecd90b1dee578eb22ff3be68fdc8a891ddb62c43136"
+RPM_NAME = "texlive-newspaper-doc-2026.226.1.0svn15878-61.2.noarch.rpm"
+RPM_HASH = "adcb847945c065610c2f7aa79c3ce973df0003128d3ad051c8da9be3110d165aacb1890660c209c4d9589b47f92d25138b0de40f58121aa0a6d1db7dd7b5971a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newspaper-doc"

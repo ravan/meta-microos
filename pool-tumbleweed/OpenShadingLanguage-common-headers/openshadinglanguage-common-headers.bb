@@ -7,10 +7,11 @@ This package contains the OSL standard library headers, as well \
 as some additional headers useful for writing shaders."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.12.10.0"
+PV = "1.15.4.0"
 
-RPM_NAME = "OpenShadingLanguage-common-headers-1.12.10.0-2.1.aarch64.rpm"
-RPM_HASH = "28b232ee5d6b0194309d56127515a318b2eac42f09d8acef01c51184fc454fd4cf1155e3ef357913ada533be2a79cb21c137a47cc672fb894c815feda439b449"
+RPM_NAME = "OpenShadingLanguage-common-headers-1.15.4.0-3.1.noarch.rpm"
+RPM_HASH = "8e3d22b2ce9b0fc333fab267bb16db6f276ab0c541b1873e0ae60e498f5f3bd4a032c1da98446c522fac2b1bdb21e2bad527190929e1790fedee27c0095a90c2"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "OpenShadingLanguage-common-headers"
 

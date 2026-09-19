@@ -2,10 +2,10 @@ SUMMARY = "2 and 3-way diff/merge tool"
 DESCRIPTION = "TkDiff is a graphical 2 and 3-way diff/merge tool."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.6"
+PV = "6.0"
 
-RPM_NAME = "tkdiff-5.6-1.2.noarch.rpm"
-RPM_HASH = "c31082b920a96d68fabc58bc3475a01d517b8d4f27e065acfd1a6fc602d3596260c60545554916d007ccaa8c1ddf0d2bd91ff46db50daf92c7b32a6958c77a95"
+RPM_NAME = "tkdiff-6.0-1.2.noarch.rpm"
+RPM_HASH = "a60d735d022bf8868cb30d95c72174a1ba519529ec98309d3bd3ed50de1705dd4eb17ad8b1290dcef273e38a6f51d8b627e2f7bff6442c46ccb0d91c77cdee27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tkdiff"

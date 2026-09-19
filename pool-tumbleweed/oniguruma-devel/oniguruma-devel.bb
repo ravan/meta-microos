@@ -14,12 +14,13 @@ This package contains all necessary include files and libraries needed to \
 develop applications that require it."
 LICENSE = "BSD-2-Clause"
 
-PV = "6.9.8"
+PV = "6.9.10"
 
-RPM_NAME = "oniguruma-devel-6.9.8-1.6.aarch64.rpm"
-RPM_HASH = "95e83142cb57293137868c11538bc104147f9aa13daaae51e9c1ceb1f2ebe7716ed2cd9084fe2704a19cfafb8197dab656f5c72e674e3cd9d4956f633026097f"
+RPM_NAME = "oniguruma-devel-6.9.10-2.5.aarch64.rpm"
+RPM_HASH = "c7f2f4fa07c8b29bd84b31082ff2d5e0fe6e1e3b63939c59505ec31361d6406e6060823c8dbbc8d83d4e3e353d7f5fa8ddda8e44d9df09943fdbf5a802a2c0bb"
 
-RPROVIDES:${PN} += "oniguruma-devel \
+RPROVIDES:${PN} += "cmake-oniguruma \
+oniguruma-devel \
 pkgconfig-oniguruma"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

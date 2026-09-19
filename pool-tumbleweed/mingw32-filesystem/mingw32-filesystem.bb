@@ -7,10 +7,10 @@ This environment is maintained by the Fedora MinGW SIG at: \
   http://fedoraproject.org/wiki/SIGs/MinGW"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230614"
+PV = "20260312"
 
-RPM_NAME = "mingw32-filesystem-20230614-1.1.noarch.rpm"
-RPM_HASH = "8c0bae90d6ca8041dcbd2ce9185989d06a77e7bf846a5874d117c3f1b8cc56f58508ebd966eaca0e344e409ad7385a3fbfaf0c76cbb12d862693ef46c55de300"
+RPM_NAME = "mingw32-filesystem-20260312-3.1.noarch.rpm"
+RPM_HASH = "eb49d56012f9ed8c3aca0100083fc301684e55a3ae443b4b4792a049288027f3f74461d499577031e1569738ae11d364de240b45718b6116f37a9b833b92e503"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-bcrypt.dll \
@@ -102,7 +102,6 @@ mingw32-cross-binutils-utils \
 mingw32-cross-pkgconf-utils \
 python3 \
 rpm \
-rpmlint-mini \
 sed"
 
 inherit rpm

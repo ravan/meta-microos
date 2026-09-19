@@ -11,10 +11,10 @@ draw injection/extraction or even a complete accelerator \
 facility."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn43442"
+PV = "2026.226.2.3svn43442"
 
-RPM_NAME = "texlive-tikz-palattice-2023.209.2.3svn43442-53.1.noarch.rpm"
-RPM_HASH = "2f5a9b2b0c0ec0f72429022215776988dd02710c83bbe32b7e0b04f36148bc4eb3561bb204c3038a81b4fb28cbd9e8bb4523290cd217ef40f37586c4420f27c1"
+RPM_NAME = "texlive-tikz-palattice-2026.226.2.3svn43442-59.2.noarch.rpm"
+RPM_HASH = "1acd8d1ad8edf764485d202ded5fc952de80878e0ac4b9a6ca71a621e67444cff2d936a560e9a9e491c5df24dafa46d18c89df618537886d68258925eff152bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-palattice.sty \

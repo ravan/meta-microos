@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-makelabels"
 DESCRIPTION = "This package includes the documentation for texlive-makelabels"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn60255"
+PV = "2026.226.1.0svn60255"
 
-RPM_NAME = "texlive-makelabels-doc-2023.208.1.0svn60255-53.1.noarch.rpm"
-RPM_HASH = "f6ecc21478b1d3279a4281696f1b9f884e12bd1ff2bdea58a10148220845074a95279f905d714a3274801e39088ac4c946df5bb627c460be76618d0b4b15e72d"
+RPM_NAME = "texlive-makelabels-doc-2026.226.1.0svn60255-59.2.noarch.rpm"
+RPM_HASH = "eb8f9ec33ae6aa65f372894ddad908eec0fd85192718c01fb005e3d74a511901ea12f6e6d7718c32749bef722e5d350339350060e795111b64a3b7b980fb79a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makelabels-doc"

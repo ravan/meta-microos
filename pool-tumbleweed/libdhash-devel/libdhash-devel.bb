@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "libdhash-devel-0.5.0-28.1.aarch64.rpm"
-RPM_HASH = "454b226c7eb212ad5fb49b0852af5fb04b1a37a9db53213a474a65f4c889402eb549453bf552c8d7cc6a436b181b6102c147f16d9a0ba917678adfc46ce0a71f"
+RPM_NAME = "libdhash-devel-0.5.0-29.3.aarch64.rpm"
+RPM_HASH = "fa787426e24417f7594cd3c823d9fb7441d559fbbc9f02974665acc369ec2063a9b4bf4d766769555ce39f272e70c612fdaee2be4d594f90b24b4010f40ff657"
 
 RPROVIDES:${PN} += "libdhash-devel \
 pkgconfig-dhash"

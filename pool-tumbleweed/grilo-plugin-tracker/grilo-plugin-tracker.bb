@@ -3,10 +3,10 @@ DESCRIPTION = "Grilo is a framework for browsing and searching media content fro
 various sources using a single API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.16"
+PV = "0.3.18"
 
-RPM_NAME = "grilo-plugin-tracker-0.3.16-1.2.aarch64.rpm"
-RPM_HASH = "93a0af9cab85b1052f504e9f8f07d5b544cf1d5c0b570422af87ed3d8bbbd6093207985b87634289d1c4b88330b4bcfbcc2063d348c5e6b1c4a3933ebe54424e"
+RPM_NAME = "grilo-plugin-tracker-0.3.18-2.3.aarch64.rpm"
+RPM_HASH = "a9249309642b7f8b703c18495d62c99475b2e8d5e9c8559451cdc692ad6c2311060078c77c8b255f84de369eef2741bead61cee624e783794bc6ebdc12dafbea"
 
 RPROVIDES:${PN} += "grilo-plugin-tracker \
 libgrltracker3.so"
@@ -17,6 +17,6 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgrilo-0.3.so.0 \
-libtracker-sparql-3.0.so.0"
+libtinysparql-3.0.so.0"
 
 inherit rpm

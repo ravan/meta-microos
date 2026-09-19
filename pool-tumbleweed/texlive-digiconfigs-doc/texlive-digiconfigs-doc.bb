@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-digiconfigs"
 DESCRIPTION = "This package includes the documentation for texlive-digiconfigs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn15878"
+PV = "2026.226.0.0.5svn15878"
 
-RPM_NAME = "texlive-digiconfigs-doc-2023.209.0.0.5svn15878-53.1.noarch.rpm"
-RPM_HASH = "64f212e31209d7a7907264665481a872a58ca8d4a20032eecc18a7d3709bd9f17914716e53679eb6f8b7efbd2101bab0fa6774ae809db492e944b79ee71f9b99"
+RPM_NAME = "texlive-digiconfigs-doc-2026.226.0.0.5svn15878-59.2.noarch.rpm"
+RPM_HASH = "95e3d22099022e63181dd50dc45a1b225ee8b8d22cdc619d060c4a65fc7f7561e7e88bc4663188c531f60bbb0d75359794ad681aa1d83be9b1e2bbbbc4487a65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-digiconfigs-doc"

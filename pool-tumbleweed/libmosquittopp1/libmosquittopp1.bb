@@ -6,10 +6,10 @@ lightweight method of carrying out messaging using a publish/subscribe model. \
 This package holds the shared C++ library."
 LICENSE = "EPL-1.0"
 
-PV = "2.0.15"
+PV = "2.0.23"
 
-RPM_NAME = "libmosquittopp1-2.0.15-1.5.aarch64.rpm"
-RPM_HASH = "5ce1ffe9fa983b3f424d8e9ba31d707e160458b0a3da4d390505913f641f960669c682e7cbe1fe56a2dd210ee0bf9343767b83e6dbcfd2683f82390a66755886"
+RPM_NAME = "libmosquittopp1-2.0.23-1.4.aarch64.rpm"
+RPM_HASH = "14f51b257b596a578f6cde6364cd715bb1ce5c85ea6cb198a608917169dc6458b3df60375f674be91ed262fd0a8646ac7fb22bf72ee47873e1a203d8637cae40"
 
 RPROVIDES:${PN} += "libmosquittopp.so.1 \
 libmosquittopp1"

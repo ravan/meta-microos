@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-covington"
 DESCRIPTION = "This package includes the documentation for texlive-covington"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.8svn64241"
+PV = "2026.226.2.16svn77216"
 
-RPM_NAME = "texlive-covington-doc-2023.209.2.8svn64241-55.1.noarch.rpm"
-RPM_HASH = "999b26155ad7789967a63613482fd586770fe342336db2906734396950dc57619d2d6f333c56268a3b605ad91d78927a041bd3ae2e0008f0699f0272279347d0"
+RPM_NAME = "texlive-covington-doc-2026.226.2.16svn77216-61.2.noarch.rpm"
+RPM_HASH = "466bee3080faf2b01ff4391bd4a94ae5c7dd5e8bb30b7daf9e7e27dd06e6c6dde6ce8817b8d8e8b150c69e660b933ec5d1cbf1456cb365b7603328be46c380af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-covington-doc"

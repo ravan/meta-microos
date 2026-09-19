@@ -2,39 +2,27 @@ SUMMARY = "Translations for package gnome-radio"
 DESCRIPTION = "Provides translations for the 'gnome-radio' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "64.0"
+PV = "128"
 
-RPM_NAME = "gnome-radio-lang-64.0-1.1.noarch.rpm"
-RPM_HASH = "7888270c26c4c21878e97baf241017a695e4a5c06712bea0ab2f6b7e671e765b099822d03be0b114f37ed676f63bf9b981272b0486ee2dbbbc8a248f4d00a24b"
+RPM_NAME = "gnome-radio-lang-128-1.10.noarch.rpm"
+RPM_HASH = "cf521d6f9295fee940464b58ae324fe22d7600961782284f7a10e861881bb8518ed54bc14462af2812931428872b0ab4cdb058632407ce2972219159712fef38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-radio-lang \
 gnome-radio-lang-all \
 locale-gnome-radio-ca \
 locale-gnome-radio-cs \
-locale-gnome-radio-da \
 locale-gnome-radio-de \
-locale-gnome-radio-el \
 locale-gnome-radio-es \
-locale-gnome-radio-eu \
 locale-gnome-radio-fr \
-locale-gnome-radio-fur \
-locale-gnome-radio-hr \
 locale-gnome-radio-hu \
 locale-gnome-radio-id \
 locale-gnome-radio-nb \
-locale-gnome-radio-nl \
-locale-gnome-radio-oc \
 locale-gnome-radio-pl \
 locale-gnome-radio-pt-BR \
-locale-gnome-radio-ro \
-locale-gnome-radio-sk \
 locale-gnome-radio-sl \
 locale-gnome-radio-sr \
-locale-gnome-radio-sv \
-locale-gnome-radio-tr \
-locale-gnome-radio-uk \
-locale-gnome-radio-zh-CN"
+locale-gnome-radio-sv"
 
 RDEPENDS:${PN} += "gnome-radio"
 

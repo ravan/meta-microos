@@ -13,16 +13,16 @@ Language). This AML is suitable for inclusion as a DSDT in system \
 firmware. It also can disassemble AML, for debugging purposes."
 LICENSE = "GPL-2.0-only"
 
-PV = "20230331"
+PV = "20260408"
 
-RPM_NAME = "acpica-20230331-1.1.aarch64.rpm"
-RPM_HASH = "872e22c06caa3ca3cd6cd91410490e0c207080b2f8eaefa5b9f273d6cd6c058ea8216e099349bc879f7cb2f73bd039ec819881ec2f3aa4c7760722d10dc448e7"
+RPM_NAME = "acpica-20260408-2.4.aarch64.rpm"
+RPM_HASH = "3f859f15f8543ae5ded17e2c341f48372b95c82c36f87d8e0abeeffe54d0c5a4e8645b59b0b61f6aa1756f24732a322d72697ef4f195f4fa09f865ae274ece13"
 
 RPROVIDES:${PN} += "acpica \
 iasl"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/env \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.13.0"
 
-RPM_NAME = "antlr4-tool-4.13.0-2.1.noarch.rpm"
-RPM_HASH = "7eb988e0f0e16b6c9685bf6f628c0df20c42e4fccca5c65e8252fd1bcfb7ea440f91f237105af01ec809c8385da6b922c41607f7ab4e8429816d114417f586db"
+RPM_NAME = "antlr4-tool-4.13.0-7.5.noarch.rpm"
+RPM_HASH = "c2a12ebfe9b8638d70a141e37eac5d18c12328a0ca64b4fbb83e8e85c5269351a78c154427b0779836ed4aed5d7fbab8af6688bc6211e0e10e57b4aafc775aa0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr4 \

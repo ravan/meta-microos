@@ -6,10 +6,10 @@ different output. For more information or some examples read \
 the documentation of the package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.17svn63821"
+PV = "2026.226.1.17asvn69493"
 
-RPM_NAME = "texlive-pst-magneticfield-2023.209.1.17svn63821-53.1.noarch.rpm"
-RPM_HASH = "eb12ce2c6d9b0a8abfe3eae08cf274c0d1ff81b7f4d7e2485e65f4eda28418e44577453f0d47324af5979ebc93a2640bf737e88b622366d53fb48f400ca3ed97"
+RPM_NAME = "texlive-pst-magneticfield-2026.226.1.17asvn69493-59.2.noarch.rpm"
+RPM_HASH = "ca4d8a69f689061ef92846d1e21a0f9c4a36e294fed38b7c694b560ba1e4cc54a085e04a69ce571688e35f227534009604eeee818da06d1ec4e2606de3599228"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-magneticfield.sty \

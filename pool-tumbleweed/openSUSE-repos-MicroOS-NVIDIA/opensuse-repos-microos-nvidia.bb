@@ -2,15 +2,15 @@ SUMMARY = "openSUSE NVIDIA repository definitions"
 DESCRIPTION = "Definitions for NVIDIA repository management via zypp-services"
 LICENSE = "MIT"
 
-PV = "20230810.a7534f6"
+PV = "20260423.1a6a0f3"
 
-RPM_NAME = "openSUSE-repos-MicroOS-NVIDIA-20230810.a7534f6-1.1.aarch64.rpm"
-RPM_HASH = "7d35de575a9efd6250f26d5a33e7c91bfd4368f26a306c3ef7770c1304ab309161c3c61a36b7c6696999b0c3376f5166265e381153feb2cd30f40743c3722eac"
+RPM_NAME = "openSUSE-repos-MicroOS-NVIDIA-20260423.1a6a0f3-2.2.aarch64.rpm"
+RPM_HASH = "419bdccc0a1fd97bbbbf38e1fabe823fc6e39e82d4bb279971665cc82e5d06063c8dea32ecb0cd76c307286869a463f679c965818bc8f83fe21af0640df1e5b0"
 
 RPROVIDES:${PN} += "openSUSE-repos-MicroOS-NVIDIA \
 openSUSE-repos-NVIDIA"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-openSUSE-repos"
+openSUSE-repos-MicroOS"
 
 inherit rpm

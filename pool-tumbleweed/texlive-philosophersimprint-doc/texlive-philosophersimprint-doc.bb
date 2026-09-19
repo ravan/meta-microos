@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-philosophersimprint"
 DESCRIPTION = "This package includes the documentation for texlive-philosophersimprint"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn56954"
+PV = "2026.226.1.5svn56954"
 
-RPM_NAME = "texlive-philosophersimprint-doc-2023.209.1.5svn56954-52.1.noarch.rpm"
-RPM_HASH = "2da7162cff942c9caafa5036dca93571c79f01b89f7f9e575bbf22b49056eed7e4b989774d04d025b7541a73ef465862511638e8ec6be63b4218d9c29ac9c97f"
+RPM_NAME = "texlive-philosophersimprint-doc-2026.226.1.5svn56954-58.2.noarch.rpm"
+RPM_HASH = "09e0844a7cbcf6a5dd5ab54a5207c1fd3f95ef2edfc59dc482b476ebbd9c11910d96e4865798e3e64ebc2e1d0d90216b959a96a102d28edd74373fbcb1b219ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-philosophersimprint-doc"

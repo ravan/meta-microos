@@ -1,12 +1,12 @@
 SUMMARY = "The LDAP backend plugin for sssd"
-DESCRIPTION = "Provides the LDAP back end that the SSSD can utilize to fetch \
-identity data from and authenticate against an LDAP server."
+DESCRIPTION = "A back-end provider that the SSSD can utilize to fetch identity data \
+from, and authenticate with, an LDAP server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.2"
+PV = "2.13.1"
 
-RPM_NAME = "sssd-ldap-2.9.2-1.1.aarch64.rpm"
-RPM_HASH = "f21ac42304a16644d4cee59629c81ae5b386fcda35b53a5e451f0cb27e8ca8816dbeba317c3e24953fac95c4cbc062b64af163444bff4dbbf269792816ec1ec6"
+RPM_NAME = "sssd-ldap-2.13.1-2.1.aarch64.rpm"
+RPM_HASH = "4e24072b3ea8f4a4765481723ccea13a9520252e8658b461b9620f521bc7afa3b465c54cb7ec68bde52edb1fa8fe7666d87a043ee89022ba418cd51048a5c17b"
 
 RPROVIDES:${PN} += "libsss-ldap-common.so \
 libsss-ldap.so \
@@ -19,7 +19,6 @@ libkrb5.so.3 \
 liblber.so.2 \
 libldap.so.2 \
 libldb.so.2 \
-libsss-cert.so \
 libsss-certmap.so.0 \
 libsss-child.so \
 libsss-crypt.so \

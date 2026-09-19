@@ -8,10 +8,10 @@ quite reliable, and has good garbage collection, and no memory leaks. \
 It comes with hundreds of self tests."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.47.0"
+PV = "5.50.0"
 
-RPM_NAME = "maxima-5.47.0-1.3.aarch64.rpm"
-RPM_HASH = "0b5d3450ff273b6d433905caa4460bd93e0f44a2c8e9810930a85c8c6d6e6f5eef2a5a4590ae1d80a2df95e97230ea03888c0065176016d6c378bd5559016454"
+RPM_NAME = "maxima-5.50.0-2.2.aarch64.rpm"
+RPM_HASH = "b88f201822afada1bf40bdb938538a76c384222d735ecea067cf904e16afcdca58fb379ec9bd4a50ce6aa399b9bc692c72e6d2c8bcaa1d670a1125bc4b8b5bfb"
 
 RPROVIDES:${PN} += "maxima"
 

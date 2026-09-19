@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a (maths mode) \\underline variant which \
 doesn't impose italics correction at the end."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-noitcrul-2023.209.0.0.2svn15878-55.1.noarch.rpm"
-RPM_HASH = "5e796fb8ac1aedc9859133c22e2f9953923e3b2c00c6da1eb6c766d2b6732f4f13fa415a4eb978a14637edfaeaf07a29a8ec3b888d13e6d7bf6c51f465fed6a3"
+RPM_NAME = "texlive-noitcrul-2026.226.0.0.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "290bc12ee8b4a096f43344024153c5d2bb1fe86d2903073fa30e80039fb3e16c0f955d25fb7f8eb9ebcb9daa321051294094e222f9ab88a33f4e4cfc62857931"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-noitcrul.sty \

@@ -10,8 +10,8 @@ LICENSE = "CC-BY-4.0"
 
 PV = "20201001"
 
-RPM_NAME = "xtables-geoip-20201001-1.8.noarch.rpm"
-RPM_HASH = "943952aff290c020bf4f615a47ab2f78a63c398f57e73477d0a8a8c84f0e67c0bda5e8fb17237adf6771de8fb426d9056c1b2f90b5497e297635a56dee9bc27f"
+RPM_NAME = "xtables-geoip-20201001-1.16.noarch.rpm"
+RPM_HASH = "31fa9e8c50d02c652ed4ef61d9f4a500132d740cf04b773aa7872fea5d843cd5999fea492daa387d1b9ade28ce5cd5eb56cc995408116b690f68b904fdc13f36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xtables-geoip"

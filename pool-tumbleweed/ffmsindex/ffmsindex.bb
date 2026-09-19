@@ -4,14 +4,15 @@ library around FFmpeg, plus some additional components to deal with file \
 formats libavformat has (or used to have) problems with."
 LICENSE = "MIT"
 
-PV = "2.40+44"
+PV = "5.0+0"
 
-RPM_NAME = "ffmsindex-2.40+44-1.6.aarch64.rpm"
-RPM_HASH = "3fbf2953504584111b1a87af5cecbb6405da69335d6c99893423cfa114d306059cbef9d4c2f98a874c096593f937a7087acdecf62cdb35c99b25be8ae83ef1dd"
+RPM_NAME = "ffmsindex-5.0+0-1.14.aarch64.rpm"
+RPM_HASH = "3fa4e37f128693d8b496d406689ed9a50912b5aed893c81378fe47ad9b747c3dd525941849b3af2f0a560f7a5a2c3d1e7254b2d8917a06dcd025c2a102778888"
 
 RPROVIDES:${PN} += "ffmsindex"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libavutil.so.60 \
 libc.so.6 \
 libffms2.so.5 \
 libgcc-s.so.1 \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.4.14"
 
-RPM_NAME = "libwps-devel-0.4.14-1.1.aarch64.rpm"
-RPM_HASH = "c594d2b3b7745edbb4cc66091c7e4bfbb5754526267a63fc876621f5609fe1ac36560f932cb49431c0f32eb44261506d1e9e5e802e48af0c493e377de8bb2605"
+RPM_NAME = "libwps-devel-0.4.14-1.12.aarch64.rpm"
+RPM_HASH = "8a9cd87c336ee97070055441697ef8d3920a6bf2cdd3e8cfb0bc47e334d5b7e78942e3bdfec25010d0782b1da37eb2a1a073451822026b682ee4c843b0199577"
 
 RPROVIDES:${PN} += "libwps-devel \
 pkgconfig-libwps-0.4"

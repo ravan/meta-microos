@@ -4,10 +4,10 @@ from the book 'Praca magisterska i dyplomowa z programem \
 LaTeX'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn23552"
+PV = "2026.226.svn23552"
 
-RPM_NAME = "texlive-przechlewski-book-2023.209.svn23552-53.1.noarch.rpm"
-RPM_HASH = "dee492f36c73661c6144d51337a793bf2c976e56e8c1450765eb0166ad566d87a557e86143c91f778558f0c1e0a86bd02dcfbe55cfc9be7a4d1967b0fac514b9"
+RPM_NAME = "texlive-przechlewski-book-2026.226.svn23552-59.2.noarch.rpm"
+RPM_HASH = "1c9c902bfecf975fe3139952e576938fc7c2d8d97ad18f9f948a76dcd448292d389b823e02ea1e5bc6d8075d20ead187e122dca4590c63dab1ee1d8a22cf0a37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-upmgr.cls \

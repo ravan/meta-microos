@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.18"
 
-RPM_NAME = "system-config-printer-common-lang-1.5.18-3.1.noarch.rpm"
-RPM_HASH = "d932581f5f138ea639fe529ba9dd3c825eb5f684316960d0eaf813b79bc6b2753dc2c823e6395adabe8465502b664e2a9a8771e1e3cdafaa296d074eef56d875"
+RPM_NAME = "system-config-printer-common-lang-1.5.18-9.6.noarch.rpm"
+RPM_HASH = "8c4eb68cac902a1dbc38ffff51c8a6bce30640e72eea27d970dcfcf18e0565079ae20f6470d38c0a42b55e68b7796b4921fd0dc3d7becf868838704aca860318"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-system-config-printer-common-ar \

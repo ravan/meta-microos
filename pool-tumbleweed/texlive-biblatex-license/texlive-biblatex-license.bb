@@ -5,10 +5,10 @@ relatedtype license and some bibmacros for typesetting these \
 related entries."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn58437"
+PV = "2026.226.0.0.1svn58437"
 
-RPM_NAME = "texlive-biblatex-license-2023.209.0.0.1svn58437-54.1.noarch.rpm"
-RPM_HASH = "6d2a3f304aa950a511c9a3d9bcd3170968d371276106db7dc58df405015a6c73f8c1d55ad3228b95005c615dc4ad250e16015d0e449432a66570f653302e3b1d"
+RPM_NAME = "texlive-biblatex-license-2026.226.0.0.1svn58437-61.2.noarch.rpm"
+RPM_HASH = "9913a81a0c2c4510d81833d2890e9d4aef3d46db50b25626184a4ceeac6bd5f19ee05637b947719f460b54cb32b0f0709a7b8aed030c4f51dc347832ee647cfb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-license.sty \

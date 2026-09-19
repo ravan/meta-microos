@@ -11,14 +11,14 @@ Authors: \
     David Anderson <anderson@redhat.com>"
 LICENSE = "GFDL-1.2-only & GPL-3.0-or-later"
 
-PV = "8.0.3_k6.4.12_1"
+PV = "9.0.2_k7.2.4_1"
 
-RPM_NAME = "crash-kmp-default-8.0.3_k6.4.12_1-2.3.aarch64.rpm"
-RPM_HASH = "4e79a117b711a5fd7679c0626553462bd0fb0ec50ff92b064eaa28a2c958b37be8304472f6608b2dfa7787f238e62df7c7a3ae53a89ec4eb82d96eae5c7d5bd1"
+RPM_NAME = "crash-kmp-default-9.0.2_k7.2.4_1-1.6.aarch64.rpm"
+RPM_HASH = "98a72fd9b2810bf6b3e30d96f2aaabd9e28522d078cbcee8f560df2b6c04c98c283b4c3069c600f74a421b8c52df263f860307afd8da3da04aae419e9c524be1"
 
 RPROVIDES:${PN} += "crash-kmp \
 crash-kmp-default \
-crash-kmp-default-k6.4.12-1 \
+crash-kmp-default-k7.2.4-1 \
 kmod-crash.ko \
 multiversion-kernel"
 
@@ -26,7 +26,23 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 grep \
 kernel-default \
-kernel-uname-r \
+ksym-default---arch-copy-to-user \
+ksym-default---check-object-size \
+ksym-default--printk \
+ksym-default-alt-cb-patch-nops \
+ksym-default-capable \
+ksym-default-copy-from-kernel-nofault \
+ksym-default-dynamic-might-resched \
+ksym-default-dynamic-preempt-schedule \
+ksym-default-free-pages \
+ksym-default-get-free-pages-noprof \
+ksym-default-kimage-voffset \
+ksym-default-mem-section \
+ksym-default-memstart-addr \
+ksym-default-misc-deregister \
+ksym-default-misc-register \
+ksym-default-module-layout \
+ksym-default-validate-usercopy-range \
 suse-kernel-rpm-scriptlets"
 
 inherit rpm

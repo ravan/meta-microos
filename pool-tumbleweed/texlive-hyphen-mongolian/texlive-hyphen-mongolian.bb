@@ -4,10 +4,10 @@ encodings. LMC encoding is used in MonTeX. The package includes \
 two sets of patterns that will hopefully be merged in future."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-mongolian-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "1580d4be3c63c34d6a005d368b0becab168f12361c4018c19bb7f43a71363475619e0ec5cd7e02db446169a5a7de63a1cc76dac7df8aee351dc084b9bf1427f4"
+RPM_NAME = "texlive-hyphen-mongolian-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "ae1f20e9dfcafde80b3ab2f6e0bd7bcb55cf53e8c65452bdaf116c25021145d6ca5e34298c9e09cb4d05b0b086f271afbcd6f2fb73a84988b00d53d267588fcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-mn-cyrl-x-lmc.lmc.tex \

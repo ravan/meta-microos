@@ -10,10 +10,10 @@ using different compilers, options, and MPI implementations. \
 This package provides a module file that must be loaded to use spack."
 LICENSE = "Apache-2.0 & MIT & Python-2.0 & BSD-3-Clause"
 
-PV = "0.20.0"
+PV = "0.23.1"
 
-RPM_NAME = "spack-0.20.0-3.1.noarch.rpm"
-RPM_HASH = "820e956faf41a67ddf30544af87322ce574b5d3b605eb1bc55bf6cc12154cc3bcb6eda339c3c8e4cdb16e20e73a145d96bba1e842ab6e7a879a4d2109bd3fc39"
+RPM_NAME = "spack-0.23.1-2.6.noarch.rpm"
+RPM_HASH = "47c5c989c5357bc663df8374983c8fa3ade0a3ee2c0f7d4fc35264efbe456636bef816211d5322c274e704036efc33b47cd57ea5c67283d94ef76659489eec3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-spack \
@@ -32,15 +32,17 @@ git \
 gpg2 \
 gzip \
 libbz2-devel \
-lua-lmod \
+lsb-release \
 make \
 patch \
 polkit \
 python3-clingo \
 spack-recipes \
 sudo \
+system-user-nobody \
 tar \
 unzip \
-xz"
+xz \
+zstd"
 
 inherit rpm

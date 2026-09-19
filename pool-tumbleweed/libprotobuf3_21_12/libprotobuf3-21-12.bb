@@ -6,10 +6,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21.12"
 
-RPM_NAME = "libprotobuf3_21_12-21.12-1.1.aarch64.rpm"
-RPM_HASH = "e31b02455cb0dd7faf2bb05a38e7f45046bc8b6964481868aba9496d7ca671ae680e6e5519d6239fe273d5053bcb69508a26358fe197c81f984a15dcc87010a0"
+RPM_NAME = "libprotobuf3_21_12-21.12-4.9.aarch64.rpm"
+RPM_HASH = "1227f796e276567926e49bd25d523d80f91ed7dd86e00a652eb29be7a3f7b4af5d15da33c7718fb13e5e31fd9dae72ea771c841d01f3f68f412382594a6f31d6"
 
-RPROVIDES:${PN} += "libprotobuf-3.21.12.so \
+RPROVIDES:${PN} += "libprotobuf.so.3.21.12.0 \
 libprotobuf3-21-12"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

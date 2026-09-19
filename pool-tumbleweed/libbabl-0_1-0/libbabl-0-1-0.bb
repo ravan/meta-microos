@@ -10,10 +10,10 @@ provided as well as the framework to add new color models and data \
 types."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "0.1.106"
+PV = "0.1.128"
 
-RPM_NAME = "libbabl-0_1-0-0.1.106-1.1.aarch64.rpm"
-RPM_HASH = "5a0dd869117f2bd41942eb9ba7f5aa1659c737b3d2ad739f6607d5a34bcd1c944a70a9a8617a2754564182257033751940050c7e002b842f341f376e5c5019f2"
+RPM_NAME = "libbabl-0_1-0-0.1.128-1.1.aarch64.rpm"
+RPM_HASH = "43e85a0dd1e8adf002f7cc8aecd3af8818a363bc905955b1c93e3837dc997f553a180de68549d3c1314d34e3dd5bea51658dcaf19c59c1ab88f87c131fd03fed"
 
 RPROVIDES:${PN} += "libbabl-0-1-0 \
 libbabl-0.1.so.0"

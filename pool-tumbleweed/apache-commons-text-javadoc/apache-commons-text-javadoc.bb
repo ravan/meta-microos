@@ -2,10 +2,10 @@ SUMMARY = "API documentation for apache-commons-text"
 DESCRIPTION = "This package contains the API documentation for apache-commons-text."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.0"
+PV = "1.15.0"
 
-RPM_NAME = "apache-commons-text-javadoc-1.10.0-2.3.noarch.rpm"
-RPM_HASH = "1f646c24877a0e6032ee4fa79f9ed4b2691b09ac24d3e4fef161846fdd4d7d2a3ac22f5ef20987c53355a96f936941de699836a3b603960f84c906988822b9f6"
+RPM_NAME = "apache-commons-text-javadoc-1.15.0-1.3.noarch.rpm"
+RPM_HASH = "ddfff79334518bad89c8888a078ca55f20b4b2d4e8d426bc7bc79def66b356868bab6b3687599d7540546fb8f4d1c7034f13d3b61f9f2dd1c373ac4a229ba7f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-text-javadoc"

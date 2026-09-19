@@ -4,10 +4,10 @@ ranges of times as formerly used in Germany. A variety of \
 printing formats are available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2csvn39570"
+PV = "2026.226.0.0.2csvn39570"
 
-RPM_NAME = "texlive-uhrzeit-2023.209.0.0.2csvn39570-54.1.noarch.rpm"
-RPM_HASH = "611ed86a9de81b9cf17a53013cb1c5dc504d79841c2fbc731b3705f5a7e947f22d49393b5f62a96296dcc8251b08b5d4cedec4a74da4dc45f5cf4b56c6d6dbce"
+RPM_NAME = "texlive-uhrzeit-2026.226.0.0.2csvn39570-60.2.noarch.rpm"
+RPM_HASH = "c300814a85c22e42a130d34099670d9c7352e9b5415e6a9da262f64dfcd586725276d4f34d9b3714fec9042851deafd3f6078380278d4592cd3f076014d3de05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uhrzeit.sty \

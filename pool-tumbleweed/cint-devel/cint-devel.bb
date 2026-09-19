@@ -3,13 +3,13 @@ DESCRIPTION = "The libcint-devel package contains libraries and header files for
 developing applications that use libcint."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.4.1"
+PV = "6.1.3"
 
-RPM_NAME = "cint-devel-4.4.1-1.10.aarch64.rpm"
-RPM_HASH = "d0bb41153033f67d440cfb4f992a88a9a665576f3a350b3e1391cb426da231bee9be2f30e208c1e9b64e7e7e887401cceaa1875fa17801c4227fae2c2beddad8"
+RPM_NAME = "cint-devel-6.1.3-1.3.aarch64.rpm"
+RPM_HASH = "3319f9f256257dae23bdc1262b6487d085e9ff1b435153bb4653f85a977875860041a30de368e73a0af853fa69897603cdb890862e0bf54dbd0058d6e0496e7b"
 
 RPROVIDES:${PN} += "cint-devel"
 
-RDEPENDS:${PN} += "libcint4"
+RDEPENDS:${PN} += "libcint6"
 
 inherit rpm

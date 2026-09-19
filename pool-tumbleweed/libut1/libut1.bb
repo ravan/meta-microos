@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.11.0"
 
-RPM_NAME = "libut1-2.11.0-7.16.aarch64.rpm"
-RPM_HASH = "d05f3aeea176b546032e799a9f4610c0a541507ccd7203a72d2e7b9be342dbb3cf705eddb05012269d30589cb68bd36ecd48ec95accaa1488c9c6a4a2930f518"
+RPM_NAME = "libut1-2.11.0-13.5.aarch64.rpm"
+RPM_HASH = "018a6532ff447a337bc7ae74ff9153ae933050d8e086cb5f31a3ace56a9790aa11aaf40a538dd3d71283d239a1c2ab1129a134d9beec78168dbb7c7f86c6619f"
 
 RPROVIDES:${PN} += "config-libut1 \
 libut.so.1 \

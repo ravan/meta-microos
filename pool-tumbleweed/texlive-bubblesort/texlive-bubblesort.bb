@@ -8,10 +8,10 @@ which sorts one list and applies the same permutation to a \
 second list."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn56070"
+PV = "2026.226.1.0svn56070"
 
-RPM_NAME = "texlive-bubblesort-2023.209.1.0svn56070-53.1.noarch.rpm"
-RPM_HASH = "7d2f2c683679b375a8ed528848564eef5676aedc946c2ce95704bf50d263fdcc65ba21c55a799cfbd461e25a69434b51f4531b51de1b4a3df7fa1b425431a162"
+RPM_NAME = "texlive-bubblesort-2026.226.1.0svn56070-59.2.noarch.rpm"
+RPM_HASH = "a4e93eff5887cf718206a0eced0d866b81abdf4eee67de03a38f1da9c386f086215c35e33c12dab8898e09d39cdf8b0998e81e36187faee91a808d496cd68e6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bubblesort.sty \

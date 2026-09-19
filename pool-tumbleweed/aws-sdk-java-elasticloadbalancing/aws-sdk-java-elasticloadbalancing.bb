@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Elastic Load Balancing"
 DESCRIPTION = "The AWS Java SDK for Elastic Load Balancing module holds the \
 client classes that are used for communicating with \
 Elastic Load Balancing Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-elasticloadbalancing-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "349dda0512fbbbd33769ffa3cb4df590b1bfc7dc5f5c8773ed8d7f9dcf06f3036960fc1c5441ef18e3d2241711b285c94e6725c7d11960283292e0c1570c3301"
+RPM_NAME = "aws-sdk-java-elasticloadbalancing-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "06d6744315d0d3e6ed27263a8c4dac69f98e7f1759157a23fe1d38090b561541939736a456f961ad46e481a4b645b644d67584c9a1efc270a076ca579535f1c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-elasticloadbalancing \

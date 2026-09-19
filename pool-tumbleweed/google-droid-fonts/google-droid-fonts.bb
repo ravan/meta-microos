@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20121204"
 
-RPM_NAME = "google-droid-fonts-20121204-8.5.noarch.rpm"
-RPM_HASH = "1901f037da71e70f2900c7c4d0f415dba4c01fd05b49d899235bad942768a5d441ce12266c9f633f1edb2c9c658ef4edc17e8b0abaa62b9beaeb5d566848c89d"
+RPM_NAME = "google-droid-fonts-20121204-8.13.noarch.rpm"
+RPM_HASH = "7dafd18826489ecde394ad82e55fa54b11b7f5917fd162d0585b6516161e1be247f41fbb48b7419631a9be8d2ee5b7f1dad1cef8b6b7e27e283165343d6ad778"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "droid-fonts \

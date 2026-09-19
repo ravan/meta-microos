@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.12"
 
-RPM_NAME = "libevent-2_1-7-2.1.12-3.5.aarch64.rpm"
-RPM_HASH = "85c85946c7ad53eb20c5c3414f19e5e3708d35205900ee790ee35ff44f67a80ccbf9d49992c5e127b42392073d757d682263f4a7bfc4c6719afff1e67a71fdba"
+RPM_NAME = "libevent-2_1-7-2.1.12-5.7.aarch64.rpm"
+RPM_HASH = "6a3f89a5f2f31c5c30366ff163fa8320c7cb3dee533c49cc7234d04a030a13d714694b135dfd2b746ef1d41bddcac8cd4bacb26ae86eb88abeee05a95fb726c9"
 
 RPROVIDES:${PN} += "libevent \
 libevent-2-1-7 \

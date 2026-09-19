@@ -3,10 +3,10 @@ DESCRIPTION = "A library containing additional routines on top of scg for dealin
 remote SCSI command transports."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "librscg1_0-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "a5d10633ffd3fe8373e6b96056f4d19c255a3f71df2e6cc4a9ca1261f531bc41400f6cf9fcf6f73f27b8b5c1dcb2b71f4f415ced12ddfaeac0af79e6a48969ec"
+RPM_NAME = "librscg1_0-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "26c68c776b5f2b62e501121bb73766ddf014e88d381f796d74cd9c1c7904a921b0a22ae3cfbb98fc0f43f02f6e8835e7e43df426b4bb177250870e843c370aa2"
 
 RPROVIDES:${PN} += "librscg.so.1.0 \
 librscg1-0"

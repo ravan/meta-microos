@@ -2,10 +2,10 @@ SUMMARY = "X Window System logo"
 DESCRIPTION = "The xlogo program simply displays the X Window System logo."
 LICENSE = "X11"
 
-PV = "1.0.6"
+PV = "1.0.7"
 
-RPM_NAME = "xlogo-1.0.6-1.2.aarch64.rpm"
-RPM_HASH = "fde1649e519c3bac39b04d0bc668fe2d2709b0169f32b8054353fe998a2d75e696e798df9f978b1628e9810f5b6fe820e1f325ffe6e04add8ded7e89274c4989"
+RPM_NAME = "xlogo-1.0.7-1.8.aarch64.rpm"
+RPM_HASH = "789aa8b7a547be3452752d1c19b5c8c9ad93a7b733ed5c7e512ffa8668f63e0361651061f9370fd189f2b69a7d4c917b0c4c3490c40c9d58e00754d745ed1210"
 
 RPROVIDES:${PN} += "xlogo"
 

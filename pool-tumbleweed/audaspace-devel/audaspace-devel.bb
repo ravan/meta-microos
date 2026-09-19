@@ -3,17 +3,17 @@ DESCRIPTION = "The audaspace-devel package contains libraries and header files f
 developing applications that use audaspace."
 LICENSE = "Apache-2.0"
 
-PV = "1.4.0"
+PV = "1.10.0"
 
-RPM_NAME = "audaspace-devel-1.4.0-1.5.aarch64.rpm"
-RPM_HASH = "83b7ee9d0d6a5a638f847db695b0ce8bf3af200c42884ae9919bab5e83bc279b58bcd21d5932e5d3e994244b1d8fdcd6b4f7b3718c43ab7782b7781494a75be5"
+RPM_NAME = "audaspace-devel-1.10.0-1.1.aarch64.rpm"
+RPM_HASH = "d9070adffef106e614f352416c07806160dc9a502fb82e67df9b2ffba25bde19345db7cb38ee699d37d3f4afbe5c606de3779b068408f0fb9340ab1392f8849f"
 
 RPROVIDES:${PN} += "audaspace-devel \
 pkgconfig-audaspace"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libaudaspace-c1-4 \
-libaudaspace-py1-4 \
-libaudaspace1-4"
+libaudaspace-c1-10 \
+libaudaspace-py1-10 \
+libaudaspace1-10"
 
 inherit rpm

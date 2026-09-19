@@ -17,10 +17,10 @@ C++ standard library. \
 Development files for toml11."
 LICENSE = "MIT"
 
-PV = "3.7.1"
+PV = "4.4.0"
 
-RPM_NAME = "toml11-devel-3.7.1-1.1.aarch64.rpm"
-RPM_HASH = "2873207381fc19d6bc7b3313b6d804276aad6aa23bec69e824b14295026c63192f6d23d043dd83089c77f2ab85903dcf24e169e51d1ed209a8d2a513633c614f"
+RPM_NAME = "toml11-devel-4.4.0-1.4.aarch64.rpm"
+RPM_HASH = "9c690d11ff4e952f7a6075c7d2aa3702b6813279afe46dc4ff27f116de509ec6f7999ad2f227ebd782644c8c8eef6e02fe095d86170747f257710534a06d6e95"
 
 RPROVIDES:${PN} += "cmake-toml11 \
 toml11-devel"

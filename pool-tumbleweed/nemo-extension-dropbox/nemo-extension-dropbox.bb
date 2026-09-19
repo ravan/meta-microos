@@ -2,10 +2,10 @@ SUMMARY = "DropBox support for the Nemo Filemanager"
 DESCRIPTION = "Nemo-dropbox adds DropBox support to the Nemo filemanager."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.0"
+PV = "6.4.0"
 
-RPM_NAME = "nemo-extension-dropbox-5.2.0-4.1.aarch64.rpm"
-RPM_HASH = "dcdfae112fa24598f7a72df21c8e4bab75e3b4460fb259d9eee440f14d8c2966657ae731bfbddc57332d1d20c9f51b43f745aff3e8f0bb3e2d50a67f73f718bc"
+RPM_NAME = "nemo-extension-dropbox-6.4.0-6.4.aarch64.rpm"
+RPM_HASH = "28f432df499376a4e7c131cf11b4b753c046e0afc4ea1d9a3108553038b8910deb52934cc1a660dcbe34635788d930e55954d69bbda95739d016b25d1b370228"
 
 RPROVIDES:${PN} += "libnemo-dropbox.so \
 nemo-dropbox \

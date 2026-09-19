@@ -3,18 +3,18 @@ DESCRIPTION = "This package contains header files and libraries needed to develo
 application that use the GIAC computer algebra system."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.9.0.27"
+PV = "2.0.0"
 
-RPM_NAME = "giac-devel-1.9.0.27-4.6.aarch64.rpm"
-RPM_HASH = "0e77994d5212305e84dc7b9ee2cd3d68cd43c2194e1387b7c1c411689a3f5816a34a650284b129a4b34cf938d89046509f851268d3c7e91fd6a3f361556ae23e"
+RPM_NAME = "giac-devel-2.0.0-2.6.aarch64.rpm"
+RPM_HASH = "b69bd058108224676ac7ff2f376758ce5ac8f3e40d56f2a73048499f6c703d6adbd847f42ce8a11d6ae97455e3cbd4c53bcbabe88cc5a5982756053290039d87"
 
 RPROVIDES:${PN} += "giac-devel"
 
 RDEPENDS:${PN} += "fltk-devel \
 libgiac0 \
 mpfi-devel \
-mpfr-devel \
-ntl-devel \
-pkgconfig-gsl"
+pkgconfig-gsl \
+pkgconfig-mpfr \
+pkgconfig-ntl"
 
 inherit rpm

@@ -6,10 +6,10 @@ This package provides userspace interface for Kernel DRM services \
 for NVIDIA chips."
 LICENSE = "MIT"
 
-PV = "2.4.116"
+PV = "2.4.134"
 
-RPM_NAME = "libdrm_nouveau2-2.4.116-1.1.aarch64.rpm"
-RPM_HASH = "10161428f34cad1b872d01accb848470dab0a61da37a634f6c8ca11a7edd209149be26e3dd7657fd28e41e554a26fa4cae5a0eb9e26f34276455154de88d0336"
+RPM_NAME = "libdrm_nouveau2-2.4.134-2.2.aarch64.rpm"
+RPM_HASH = "a52203a32b9135009615bb3d23fce581565f826d0e3428f293c5110cb679ee929cd37ddc51e671aac2f230d834c60cd9e3711703cc12b5fc3624491f165ca0f8"
 
 RPROVIDES:${PN} += "libdrm-nouveau.so.2 \
 libdrm-nouveau2"

@@ -5,10 +5,10 @@ directly type in Greek letters (in ISO 8859-7 encoding) in math \
 mode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn15878"
+PV = "2026.226.1.2svn15878"
 
-RPM_NAME = "texlive-elmath-2023.209.1.2svn15878-54.2.noarch.rpm"
-RPM_HASH = "4291fafdc0ff25c20c1db870c954ec41b5b4172a0a18fa2e1e5aa14ee06cbe6d34194d234abf8833d5704f67e9e3e733f12c447776904b203f63bf918ed6c983"
+RPM_NAME = "texlive-elmath-2026.226.1.2svn15878-61.4.noarch.rpm"
+RPM_HASH = "fef17251be7eef5e5a9b6640d448c5b7b7b23dcd377d23e1442241e3a96931466a726da0921d9e353e295e573d115e5dfe78deb6feb008ba473c02b69b344e78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elmath.sty \

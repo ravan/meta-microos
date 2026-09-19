@@ -3,10 +3,10 @@ DESCRIPTION = "SeaBIOS is an open source implementation of a 16bit x86 BIOS. Sea
 is the default and legacy BIOS for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "1.16.2_3_gd478f380"
+PV = "11.1.11.17.0_1_g4f253b9b"
 
-RPM_NAME = "qemu-seabios-1.16.2_3_gd478f380-1.1.noarch.rpm"
-RPM_HASH = "867ca5d038790a2353a1b98a774464c85343dc383ce0e143e45384db25332d8329e7bcab1d045c9cdb4b906f59940bd4c16600472621898a0fa9b7e6bba952af"
+RPM_NAME = "qemu-seabios-11.1.11.17.0_1_g4f253b9b-1.1.noarch.rpm"
+RPM_HASH = "ef17ceb723dc7eeb184f380f298b2509184f6a1d8e7d7044cfff74df1e5916616c416523d5158db930dffd3288c6d7b2eb83de0ed7950256810cb793e091152e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-seabios"

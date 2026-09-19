@@ -9,10 +9,10 @@ decorative UnShinmun UnYetgul: old Korean printing style \
 UnJamoSora, UnJamoNovel, UnJamoDotum, UnJamoBatang"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn56291"
+PV = "2026.226.svn56291"
 
-RPM_NAME = "texlive-unfonts-extra-2023.209.svn56291-54.1.noarch.rpm"
-RPM_HASH = "f965812a9938a295e43963a063e671492fd7b9f5677f4e443b81cb611a9be532ee89c6ff482de339088dfc8ff90ee45eb6acaf3708a8780d768b95914cc65a0b"
+RPM_NAME = "texlive-unfonts-extra-2026.226.svn56291-60.2.noarch.rpm"
+RPM_HASH = "162d87be4840d04e41ffadfa3897e9adb8fdf2521fa166b690eaf1b106a62e0ec3653a14ddaf8887faa90b45fe9b94cfe43cd25910f2be94d18c5aa8a6a9677f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unfonts-extra"

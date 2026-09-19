@@ -2,10 +2,10 @@ SUMMARY = "Neko virtual machine shared library"
 DESCRIPTION = "Shared library for the Neko virtual machine."
 LICENSE = "MIT"
 
-PV = "2.3.0"
+PV = "2.4.1"
 
-RPM_NAME = "libneko2-2.3.0-3.1.aarch64.rpm"
-RPM_HASH = "33ce13c97aa282e5ddb6eaa4d0ee73bf24fe2196f27f39d24034c8dc4e305eedc54fe2612cadbf8844f46c2d883736b4a6c02afbc327c2ba3db1ad12e93b41b1"
+RPM_NAME = "libneko2-2.4.1-3.3.aarch64.rpm"
+RPM_HASH = "255f405623a59da98843d5e339b2d5417900032ad8ff471009f83fff8903be9f0c5c544eaca198bcba1d3ed5c24d314e6ab1d0d6b1b3d428a33e9acd5c16dc2b"
 
 RPROVIDES:${PN} += "libneko.so.2 \
 libneko2"

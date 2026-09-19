@@ -5,12 +5,12 @@ as Perl 5. \
  \
 PCRE2 is a re-working of the original PCRE library to provide an entirely new \
 API."
-LICENSE = "BSD-3-Clause"
+LICENSE = "BSD-2-Clause & BSD-3-Clause-with-PCRE2-exception"
 
-PV = "10.42"
+PV = "10.48"
 
-RPM_NAME = "pcre2-tools-10.42-3.5.aarch64.rpm"
-RPM_HASH = "f57e7a3f915672f7b79b236a577184a0b97073c7b11972c90a8b77618ff781324ed5589415b9c6f3674c1c52df4c766146c717b08736b5081a71f65fe5db0bc6"
+RPM_NAME = "pcre2-tools-10.48-1.1.aarch64.rpm"
+RPM_HASH = "13a1fcf8874869f6566b4625c13211436b78956c2cc98b6c99ef4ef50ad9f65f20dc2f1ad2eefd5c21f8271614992bec78d9e0c37a86b4b31cb1790f3c98bd02"
 
 RPROVIDES:${PN} += "pcre2-tools"
 

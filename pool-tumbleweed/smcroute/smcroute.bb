@@ -11,10 +11,10 @@ daemon runs. On Linux, multiple multicast routers can run simultaneously \
 using different multicast routing tables."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.5.6"
+PV = "2.6.0"
 
-RPM_NAME = "smcroute-2.5.6-1.3.aarch64.rpm"
-RPM_HASH = "28adfc4adfc28c15834cc0693bd9ae997859e1777c4d219bc7646644b8ff4e39b224f4315d59f423a441cb656f756933a859812b9f2daa517b97859ae2555fdb"
+RPM_NAME = "smcroute-2.6.0-1.3.aarch64.rpm"
+RPM_HASH = "04aa679c85046b9216b5b0f7c418a7812e6fdd660aa266f70125d5bb92cff2a94bf9f5d9aae008a293bfa13fa31a676edd598a74fa15eb183ca0f8e4cb5ba9b1"
 
 RPROVIDES:${PN} += "config-smcroute \
 smcroute"

@@ -7,10 +7,10 @@ generic. \
 This package contains architecture independent data files for libecpint"
 LICENSE = "MIT"
 
-PV = "1.0.7"
+PV = "v1.0.7+git20230218.8e788d4"
 
-RPM_NAME = "ecpint-common-1.0.7-2.11.noarch.rpm"
-RPM_HASH = "509bb27c0140cfa5fed9638abfb558b730007080989d598e4a3deec40f8ca519505a37df3b79cdd92b5b4bd224f32193c5809f545f3245875ba8e900a4049c74"
+RPM_NAME = "ecpint-common-v1.0.7+git20230218.8e788d4-1.9.noarch.rpm"
+RPM_HASH = "9e7827be40b69f912831a5df95eea3fca84610bd25930d1212d7a46a32cb4f3ed9f19c6330adb4828793191ebb065568dcbce2255a5d3aa2b970887145f9c74d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ecpint-common"

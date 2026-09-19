@@ -5,10 +5,10 @@ package will facilitate the everyday use of LaTeX by \
 mathematics teachers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn15878"
+PV = "2026.227.1.3svn15878"
 
-RPM_NAME = "texlive-tdsfrmath-2023.209.1.3svn15878-55.1.noarch.rpm"
-RPM_HASH = "6c723edc0771b23305b811e0204d0efca895cca3d99f2a321eb792feff7f1a64f475c98f0a6d558e2a7de3bb72ac4e5438e63ac10285adb50f2c903426841455"
+RPM_NAME = "texlive-tdsfrmath-2026.227.1.3svn15878-62.2.noarch.rpm"
+RPM_HASH = "61d42b2d0c4682b0f9e60a3caf617f03493560e4d07bef5eeb7d7dc47af4a6bb7ad4f6aeab81388001c85416a348d416420731f270a797e233012ae1b30ea44a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tdsfrmath.sty \

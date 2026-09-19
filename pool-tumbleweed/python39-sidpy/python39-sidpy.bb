@@ -2,10 +2,10 @@ SUMMARY = "Utilities for processing Spectroscopic and Imaging Data"
 DESCRIPTION = "Python utilities for storing, visualizing, and processing Spectroscopic and Imaging Data (SID)."
 LICENSE = "MIT"
 
-PV = "0.11.2"
+PV = "0.12.3"
 
-RPM_NAME = "python39-sidpy-0.11.2-2.4.noarch.rpm"
-RPM_HASH = "7184b9568d4e501d4cba8e0c1fb4584bfafa1c808e0d116a7974cb8d487061cb067aae00b3aa5f63c237ab5f66ef9b3ada837b6a23cf279e890b183626fa4485"
+RPM_NAME = "python39-sidpy-0.12.3-1.1.noarch.rpm"
+RPM_HASH = "74b8deba235be84d50a1085a6c61a6fe1d556ee16cb0dc62ffd0258875941502165a6f149e3f7c11a7ca9bd6db5dc2786fee56bd9b259d3cb247b3e6248016d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sidpy \

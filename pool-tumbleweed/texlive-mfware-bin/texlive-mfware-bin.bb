@@ -2,10 +2,10 @@ SUMMARY = "Binary files of mfware"
 DESCRIPTION = "Binary files of mfware"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-mfware-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "e5209a2bc4e1a5b37e3455f83b35bdabecb7273bf891364ca40e36dca3bbf9883350b8366fe7ce7edb0e5a7730579e63b49d2fbe889d6244473bebbe9a853e55"
+RPM_NAME = "texlive-mfware-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "3e3eab1427e05c2e99cf364dbd635405ad28157bffc2189940cf305a2f111f23195c8693a6db801afb6ad2c35b367cc12b755e40c4f56580850f201e19da7523"
 
 RPROVIDES:${PN} += "texlive-mfware-bin"
 

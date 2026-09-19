@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.14"
 
-RPM_NAME = "pidgin-plugin-libnotify-0.14-1.26.aarch64.rpm"
-RPM_HASH = "025a11fcad8db97ca8ef35fa78e1ac51b84a4fdd41306e0ecc02c88425057db651a974fde377b2824c1528a21fbc0856cedeef1378160f54f5b1ca55b405675a"
+RPM_NAME = "pidgin-plugin-libnotify-0.14-2.8.aarch64.rpm"
+RPM_HASH = "c1c050945ef81a92cc8ceb751d3d0a79bacf1e40b77c9c285a1f304ffcd4459c21cf1c754d29ff487424608c70113bb61c2dd861f7276d420bdc9c47f3eff08e"
 
 RPROVIDES:${PN} += "pidgin-libnotify \
 pidgin-plugin-libnotify"

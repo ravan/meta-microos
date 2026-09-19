@@ -9,10 +9,10 @@ graphics may be useful in support, for example, of the beamer \
 framework."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn46360"
+PV = "2026.226.1.1.1svn77682"
 
-RPM_NAME = "texlive-graphbox-2023.209.1.1svn46360-54.2.noarch.rpm"
-RPM_HASH = "33f06fbb4a219c71af6e3150b5c57182cee260395aceacdfc5ae2b30b001020c8974b7426ffc5b120170dbf165323f8d2553c31e3919c6ade3bcecd073bb26c5"
+RPM_NAME = "texlive-graphbox-2026.226.1.1.1svn77682-60.4.noarch.rpm"
+RPM_HASH = "e75922f3d216cf2c88d5a0752c530ed03256f13602819f17cb6bb76f72a990fffd3cbb848a157dead7fd3abccc7fcd68e753419ceac4ac771d5509fa8690e668"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphbox.sty \

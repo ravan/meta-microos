@@ -2,15 +2,16 @@ SUMMARY = "Translations for package gstreamer"
 DESCRIPTION = "Provides translations for the 'gstreamer' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-lang-1.22.5-1.1.noarch.rpm"
-RPM_HASH = "516ff92c15a91fc1f1818c248bf3863ba5cf4aac4c1fdd9a4e9944b740963c4379cb91fa646dad1e508e1fe9bcdc5ec4d49e28a72f5fd0298e2366544872041f"
+RPM_NAME = "gstreamer-lang-1.28.7-1.1.noarch.rpm"
+RPM_HASH = "eaf8c0739f38b89b864bd3498b381403bf19e38b9a1b7fc27853882c1b0a1c150f9cbac3405f05ab7940d84e69b6b4ee21f947f05e2344f2e49cba30d733a528"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gstreamer-lang \
 gstreamer-lang-all \
 locale-gstreamer-af \
+locale-gstreamer-ar \
 locale-gstreamer-ast \
 locale-gstreamer-az \
 locale-gstreamer-be \
@@ -34,8 +35,10 @@ locale-gstreamer-id \
 locale-gstreamer-it \
 locale-gstreamer-ja \
 locale-gstreamer-ka \
+locale-gstreamer-kk \
 locale-gstreamer-ko \
 locale-gstreamer-lt \
+locale-gstreamer-lv \
 locale-gstreamer-nb \
 locale-gstreamer-nl \
 locale-gstreamer-pl \

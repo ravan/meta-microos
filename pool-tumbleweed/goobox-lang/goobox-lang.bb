@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.6.0"
 
-RPM_NAME = "goobox-lang-3.6.0-3.9.noarch.rpm"
-RPM_HASH = "0a73f1a859467de212e259a3a33cdbbca059217e80fcb8902dfef095ef3c6b6be1d8e6f1b494eb31d500e7f602bf9620d4cf8714261607649cb0ef2ffa487954"
+RPM_NAME = "goobox-lang-3.6.0-5.6.noarch.rpm"
+RPM_HASH = "5b195130682afdec8afd1561a692501d2d86ead068c371e99be656c0d673cfb17c233581b006cce239e5f43efa10bbe31f1ad749070b11a8c061d5cfc8a90115"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "goobox-lang \

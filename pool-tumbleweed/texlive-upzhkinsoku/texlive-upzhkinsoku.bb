@@ -5,10 +5,10 @@ Unicode as its internal encoding), and ApTeX. Both LaTeX and \
 plain TeX are supported."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.209.0.0.5svn47354"
+PV = "2026.226.0.0.5svn47354"
 
-RPM_NAME = "texlive-upzhkinsoku-2023.209.0.0.5svn47354-54.1.noarch.rpm"
-RPM_HASH = "bc8a7e3cf90b2312dd08cfa4d1d40e9a71fb4218922cadfab656afe8e054c563e142b59bcc17f4a6b6fa693a564dea0c37d48fc22bf0da00d7471717499901c4"
+RPM_NAME = "texlive-upzhkinsoku-2026.226.0.0.5svn47354-60.2.noarch.rpm"
+RPM_HASH = "43c8298ea1b99a35ba9291cac958567c966b5be959bba625d4fad6a6601f0c5acf80d52e94460ffebf882d48c25376daf99f59d53464676c9d01d3ee350d510a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-upzhkinsoku.sty \

@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libmapidb."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210421"
+PV = "20240420"
 
-RPM_NAME = "libmapidb-devel-20210421-2.4.aarch64.rpm"
-RPM_HASH = "2415e150c34d08872ee076860243756dc2b7a2dff956f8710c7d5cdd175fe04bd354fe19c06f5cde79737fe260889ef8132c35b40e8ce39ec50aff6687c12632"
+RPM_NAME = "libmapidb-devel-20240420-1.13.aarch64.rpm"
+RPM_HASH = "e0e114e4b122013dea470b4224cc7b75b660074283e7ea827448cd0d2201d23475029bb8ed61e7722ac387b5cd7d2389319d504f7ea27ba2cd91ac1d1d74f0e5"
 
 RPROVIDES:${PN} += "libmapidb-devel \
 pkgconfig-libmapidb"

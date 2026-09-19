@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chletter"
 DESCRIPTION = "This package includes the documentation for texlive-chletter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn20060"
+PV = "2026.226.2.0svn20060"
 
-RPM_NAME = "texlive-chletter-doc-2023.209.2.0svn20060-54.1.noarch.rpm"
-RPM_HASH = "65ffc299a141fd1266617dcf87f40fcd89b8fae7cd2bdb2eb7923b88f71a97f527f43e693d084a3874ff41863bc2132080acb91171bd280f7f0490a71c949385"
+RPM_NAME = "texlive-chletter-doc-2026.226.2.0svn20060-60.2.noarch.rpm"
+RPM_HASH = "39a2280c7523afde7868fc0255b94b023ebc80e9156d51f75dc68794f8fed76cf12e65b43d45ec417bd4a215769ebeda59b7021bb9f7d5b40ea62af42ba0cac9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-chletter-doc-en \

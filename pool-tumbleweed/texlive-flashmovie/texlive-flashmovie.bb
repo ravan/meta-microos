@@ -9,10 +9,10 @@ attractive since it removes all platform dependencies; however, \
 the user is required to use Acrobat 9."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn25768"
+PV = "2026.226.0.0.4svn25768"
 
-RPM_NAME = "texlive-flashmovie-2023.209.0.0.4svn25768-53.1.noarch.rpm"
-RPM_HASH = "e2b6ff4888974a159aaa066204d38ad6cc8b94101cd2d7decca903f0f3a5d24bbc12d41fa25230e012fba4658ccf1edd34a9ca01ddd709028be0d8be0db842d7"
+RPM_NAME = "texlive-flashmovie-2026.226.0.0.4svn25768-59.2.noarch.rpm"
+RPM_HASH = "3e10306d364d2ac99a830f79a87babcf1b5802dae9af424ebba248360b07a486330ea78d0af30a70f83ad0638a592e40aecc52c504fe0b45a39809d2a17bdc36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-flashmovie.sty \

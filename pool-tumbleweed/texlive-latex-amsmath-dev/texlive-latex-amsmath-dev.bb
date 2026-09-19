@@ -5,10 +5,10 @@ bundle. It accompanies the pre-testing kernel code \
 users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.20230501_pre_release_0svn64899"
+PV = "2026.226.pre_release_1svn77483"
 
-RPM_NAME = "texlive-latex-amsmath-dev-2023.209.20230501_pre_release_0svn64899-56.1.noarch.rpm"
-RPM_HASH = "e992182617b135b5bd5a649032483beea13bf531b313ed0ad25f43ce973ff5bed1d697ecd02971c156ca5c6d804e841e78c87d9d9ab6e5cb63edaf2e6626cefa"
+RPM_NAME = "texlive-latex-amsmath-dev-2026.226.pre_release_1svn77483-63.2.noarch.rpm"
+RPM_HASH = "f89b858e5858614eb1ad031ab7d394739d7abebb394a270442d18b6597375be39391f3bc992f34b08bb5e80410d1bff1559ac7e28d9f0106f41698e8f693779b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texdev-amsbsy.sty \

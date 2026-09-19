@@ -3,16 +3,16 @@ DESCRIPTION = "This package contains header files and pkg-config files needed fo
 with the libbd_mpath plugin/library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libbd_mpath-devel-2.28-1.6.aarch64.rpm"
-RPM_HASH = "0c1abf91c1fd9e340475a2eb07a734e8df9f78f19962beafa317b1c5a5cdddd1df3e1ba2808003eee90c2730eb00a83dba93ee30107b3cbcbbd468bb7c135470"
+RPM_NAME = "libbd_mpath-devel-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "0c350726ba75ea837d3aeb0c5e7fa554f6c81f2beb490d863e7a04edf434d401605bd361ce745f1030d4e7e9bf857cfffb20be6a181a45df68f29fd63192e607"
 
 RPROVIDES:${PN} += "libbd-mpath-devel \
 libblockdev-mpath-devel"
 
 RDEPENDS:${PN} += "glib2-devel \
-libbd-mpath2 \
+libbd-mpath3 \
 libbd-utils-devel"
 
 inherit rpm

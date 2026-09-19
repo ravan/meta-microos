@@ -4,10 +4,10 @@ library, and playing tracks or radio on any zones. Zone groups, \
 queues and playlists can be managed, and playback be controlled."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.4.0"
+PV = "5.6.27"
 
-RPM_NAME = "noson-app-5.4.0-1.4.aarch64.rpm"
-RPM_HASH = "2db6b5c4e69210448a5a78c93f9c805123b300ec8addcee87d9ebe34c9e08609dbb348f58ecb07da7f0805a44d7ab4f722643d1186f19721a14856e5b265cae3"
+RPM_NAME = "noson-app-5.6.27-1.2.aarch64.rpm"
+RPM_HASH = "8ed67aaefcdbe21fab9d475c310aa08ee70b7e1d968d5935f887db619a35fda1fa14d2d49fb1e38bd291cb0b300d70c994bf5f4adaea4a54d4f95b8c685f2f94"
 
 RPROVIDES:${PN} += "libNosonApp.so \
 libNosonMediaScanner.so \
@@ -16,15 +16,20 @@ noson-app"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
+libFLAC++.so.11 \
+libFLAC.so.14 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
 libc.so.6 \
+libcrypto.so.3 \
 libgcc-s.so.1 \
-libnoson.so.2 \
-libstdc++.so.6"
+libssl.so.3 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

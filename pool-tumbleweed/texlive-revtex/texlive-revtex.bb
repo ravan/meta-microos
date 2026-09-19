@@ -5,10 +5,10 @@ distribution consists of the RevTeX class itself, and several \
 support packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.2esvn56591"
+PV = "2026.226.4.2fsvn67271"
 
-RPM_NAME = "texlive-revtex-2023.209.4.2esvn56591-54.2.noarch.rpm"
-RPM_HASH = "5dafb6cb761369b02822fad540d5ef2c7ce221c9121e5ae719685867ddc22c2ae0bfa271febead352b9666eb597cd25ff1e64a5a81ceb5300fc99ab4f6bbea38"
+RPM_NAME = "texlive-revtex-2026.226.4.2fsvn67271-60.4.noarch.rpm"
+RPM_HASH = "67acbe8854a6b25915f3449ec0db59a2062b18ff5cf2219e0679e64eb35248ff5046808c303cad460d1b67b263b9370e25bb794d340d891a4607ad50b8d0e48d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aapm4-2.rtx \
@@ -22,7 +22,6 @@ tex-ltxdocext.sty \
 tex-ltxfront.sty \
 tex-ltxgrid.sty \
 tex-ltxutil.sty \
-tex-reftest4-2.tex \
 tex-revsymb4-2.sty \
 tex-revtex4-2.cls \
 tex-sor4-2.rtx \

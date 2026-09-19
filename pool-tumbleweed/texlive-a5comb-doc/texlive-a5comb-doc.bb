@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-a5comb"
 DESCRIPTION = "This package includes the documentation for texlive-a5comb"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.4svn17020"
+PV = "2026.226.4svn76924"
 
-RPM_NAME = "texlive-a5comb-doc-2023.209.4svn17020-55.1.noarch.rpm"
-RPM_HASH = "69baaf40c4c5562de312e58b93b7f7b080b5155c307a64f2fd28af117660ef018084ff9d79e4983ebebd17546ea7174b6892aedf8f7e8bb377e440772a6e4bc1"
+RPM_NAME = "texlive-a5comb-doc-2026.226.4svn76924-61.2.noarch.rpm"
+RPM_HASH = "da16e2e4e8f3cd450f512b13bbab9b299adb34f490e47edce0a2e6cb0ea2d816fe48858dc37713865fd8f0cabfd26c7fb079b0a2b6b5283fc48aeed24dc7c036"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-a5comb-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-teubner"
 DESCRIPTION = "This package includes the documentation for texlive-teubner"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.7.3svn64600"
+PV = "2026.227.5.8.3svn68074"
 
-RPM_NAME = "texlive-teubner-doc-2023.209.5.7.3svn64600-55.1.noarch.rpm"
-RPM_HASH = "ba4b709982940f568cb97707225c682e1a3af55557a420e7c793a3dd38ef24d0af29a2fd66a4db18cead4f5ce99d31338618796acdc80e51721e54dcf23222b7"
+RPM_NAME = "texlive-teubner-doc-2026.227.5.8.3svn68074-62.2.noarch.rpm"
+RPM_HASH = "e1ec1fd3dd4b16129bba7f529536e45081746118173caa9d8185817f9205015f15684126e49748cd6697f29acc1dcbcdbfa7bb51d4d1b793485c504bd0ea9921"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-teubner-doc"

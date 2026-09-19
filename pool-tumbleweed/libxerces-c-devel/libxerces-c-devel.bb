@@ -7,10 +7,10 @@ generating, manipulating, and validating XML documents. \
 This package includes files needed for development with Xerces-c"
 LICENSE = "Apache-2.0"
 
-PV = "3.2.4"
+PV = "3.3.0"
 
-RPM_NAME = "libxerces-c-devel-3.2.4-1.5.aarch64.rpm"
-RPM_HASH = "581690b5918cb02d2420f937f438a3003ad4ef7c4c7f11a8a890050455268cec81af126e2732990835db777a22ff069820b1f205b87b0c1f97bf59da6a18030f"
+RPM_NAME = "libxerces-c-devel-3.3.0-1.9.aarch64.rpm"
+RPM_HASH = "99ab261ea2c512c61f8d571a984db2c492daec7ce070ca8612052f770ac434dec545b72efe5f5f0ef6ce289cf1d4a27398896ea082d12d6344d00e4f722f9a36"
 
 RPROVIDES:${PN} += "Xerces-c-devel \
 libXerces-c-devel \
@@ -18,6 +18,6 @@ libxerces-c-devel \
 pkgconfig-xerces-c"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libxerces-c-3-2"
+libxerces-c-3-3"
 
 inherit rpm

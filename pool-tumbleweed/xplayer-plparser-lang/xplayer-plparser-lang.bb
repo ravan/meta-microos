@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xplayer-plparser"
 DESCRIPTION = "Provides translations for the 'xplayer-plparser' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.0.2"
+PV = "1.0.3"
 
-RPM_NAME = "xplayer-plparser-lang-1.0.2-2.13.noarch.rpm"
-RPM_HASH = "bb49091f01ff9cd4ce13a067bc4247604cacd32d8dad1e3f5d3e7a2db3c30ce188671037eb8b81ec460cc0685afecaf70c35fc8081606394b6f01c663614117e"
+RPM_NAME = "xplayer-plparser-lang-1.0.3-1.13.noarch.rpm"
+RPM_HASH = "aaa7d7362b6e62b63ef0413ef48b38846e489f7d021d185f6463137f64469446cc81b0007f1ee03c2a47db587f120184ad2d389d7af0da0d6ae205d92a019909"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xplayer-plparser-af \

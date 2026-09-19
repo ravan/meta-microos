@@ -14,10 +14,10 @@ https://www.guitex.org. The Documentation is available in \
 Italian only."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0_alpha.4svn55741"
+PV = "2026.226.1.0.0_alpha.4svn55741"
 
-RPM_NAME = "texlive-guitlogo-2023.209.1.0.0_alpha.4svn55741-54.2.noarch.rpm"
-RPM_HASH = "ef405fd5e509b5fd579ac3a4740a606605f611dd52731be745ee8713f781be790bda0774cb144c9e6e6fd0e31619235ee9816c2c887627a51327b3ff888bbb69"
+RPM_NAME = "texlive-guitlogo-2026.226.1.0.0_alpha.4svn55741-60.4.noarch.rpm"
+RPM_HASH = "2c58a559e7f28663f8eeba0803b3e340539c54b2e067cecfc9aca2a8dd4875e1bf8c7d6c94e9d74fbc0c7cfb83b7b4a204a6d70e7ac7a835a6607222c1d58388"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-guit.cfg \

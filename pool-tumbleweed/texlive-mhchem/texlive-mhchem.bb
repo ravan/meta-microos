@@ -9,10 +9,10 @@ and S) Phrases that are used to label chemicals. The package \
 requires the expl3 bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn61456"
+PV = "2026.226.svn69639"
 
-RPM_NAME = "texlive-mhchem-2023.209.svn61456-55.1.noarch.rpm"
-RPM_HASH = "f43d95b89ff320991490218e01cfa7e1ac4d49763607a0a8815b481fc6fbd98f4e50185588c260194c14aa317a69e2027b1d47421c2d02a040691342835e6696"
+RPM_NAME = "texlive-mhchem-2026.226.svn69639-61.2.noarch.rpm"
+RPM_HASH = "15f48747ed8a0527409263057b5f4dd54ac77ea2226596f96547241ecc40f10367072ca43707e2e2b5f57e9a8e64a975ae36018aa2a83019030283c2592a0143"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hpstatement-bg.inc.sty \

@@ -4,10 +4,10 @@ LaTeX to set R's parameters, and provides code to read R \
 output."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn30084"
+PV = "2026.226.svn30084"
 
-RPM_NAME = "texlive-rterface-2023.209.svn30084-54.1.noarch.rpm"
-RPM_HASH = "40e73ad54515d3a6dae1f889cf7f2c08a4257a53af82a7a4f195fcb07fe6aa677c579721ff4e2c675e0e53f8cea28938c3e0559da9c1303f12a0caa9c59f7934"
+RPM_NAME = "texlive-rterface-2026.226.svn30084-60.2.noarch.rpm"
+RPM_HASH = "a4f88085c8a5d532b5426016ce000a4b94902de30a77d441809d8b091bc80b683880387a89930b56bce50d7eae761f37b5d94f8ecac943dcb9b3ad6b16af6122"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rterface.sty \

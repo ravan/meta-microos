@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.0.18"
 
-RPM_NAME = "servletapi5-5.0.18-288.7.noarch.rpm"
-RPM_HASH = "d19becf8f67f3e955a599a304279193544f3435111f1c8981a0faafcb7a425833dbfbbc3d2ac9465f0457eb33c022d6dd6375d926a19ad37d79da9737296b101"
+RPM_NAME = "servletapi5-5.0.18-289.6.noarch.rpm"
+RPM_HASH = "177db90ac1ea2e1d9e61d01bf748e56498a582c1b34121ddf26169eb7a25223b5b039f38816c68b2850e952220c4b781572f8f8c12854b0409a11763286a3952"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "servlet \
@@ -14,7 +14,6 @@ servlet24 \
 servlet5 \
 servletapi5"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-update-alternatives"
+RDEPENDS:${PN} += ""
 
 inherit rpm

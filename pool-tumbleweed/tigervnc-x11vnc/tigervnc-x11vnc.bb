@@ -3,16 +3,16 @@ DESCRIPTION = "This is a wrapper that looks like x11vnc, but starts x0vncserver 
 It maps common x11vnc arguments to x0vncserver arguments."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "1.13.1"
+PV = "1.16.1"
 
-RPM_NAME = "tigervnc-x11vnc-1.13.1-3.3.noarch.rpm"
-RPM_HASH = "453cf0f1d13fdd8ab82b1bc45904c2539e923e11b19319ed0311db8ae3d99d1d27054e38b71d9a177332e94ec9d7ec2917655972b6f9c17d54664371f447f34a"
+RPM_NAME = "tigervnc-x11vnc-1.16.1-3.1.noarch.rpm"
+RPM_HASH = "6f76963248494537b5f8ab2d73e337dcd0b3118b0f28053ace6d0e9a0faefde2bc5d38e0dd8412334301eb8ad6ce1c93684858c52a71d475649ba58ddf07bdea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tigervnc-x11vnc \
 x11vnc"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 xorg-x11-Xvnc"
 
 inherit rpm

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.8.1"
 
-RPM_NAME = "sipsak-0.9.8.1-1.12.aarch64.rpm"
-RPM_HASH = "a70bb04a610a232020f0b3cb8f82645ac3f7e2e67224ad81e03ac4665b637ec859df5d5611be6d696d2176dc89e5f3f090cb63f0c06533d8cd3f2aa6e9aafcf6"
+RPM_NAME = "sipsak-0.9.8.1-1.22.aarch64.rpm"
+RPM_HASH = "4bad2f8b4f9356b6ba215cf774ab282b53cccf9768851fc2fb86159b5bd6b25431dda39eebbb3af4a3862cc6cc992c53fc02e4d80844e8beef0fc5fbd549fdd9"
 
 RPROVIDES:${PN} += "sipsak"
 

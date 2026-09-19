@@ -3,19 +3,32 @@ DESCRIPTION = "A set of strongly-typed assertions to use for unit testing \
 (either with JUnit or TestNG)."
 LICENSE = "Apache-2.0"
 
-PV = "3.8.0"
+PV = "3.27.7"
 
-RPM_NAME = "assertj-core-3.8.0-1.23.noarch.rpm"
-RPM_HASH = "463f3a1811ff2ab1791cd82ddd475fbdf95797a485c653b9744b18ec1cafbb77998ed048a259a13b7124a0916aae2399da380d1446a809a7e1c2fb91a379aa36"
+RPM_NAME = "assertj-core-3.27.7-1.4.noarch.rpm"
+RPM_HASH = "3b7d6c33733a6b13b62a46cbd1ec1752366559f7706668c8210a69efbbc8beee71ea3cb452e1c969e35134fc38b76a02c3d781b0c9e42460e80370112f435b1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "assertj-core \
+mvn-org.assertj-assertj-bom-pom- \
+mvn-org.assertj-assertj-build-pom- \
 mvn-org.assertj-assertj-core \
+mvn-org.assertj-assertj-core-junit4-with-opentest4j-pom- \
 mvn-org.assertj-assertj-core-pom- \
-osgi-org.assertj.core"
+mvn-org.assertj-assertj-core-testng-with-junit4-pom- \
+mvn-org.assertj-assertj-core-tests-pom- \
+mvn-org.assertj-assertj-guava \
+mvn-org.assertj-assertj-guava-pom- \
+mvn-org.assertj-assertj-guava-tests-pom- \
+mvn-org.assertj-assertj-integration-tests-pom- \
+mvn-org.assertj-assertj-parent-pom- \
+mvn-org.assertj-assertj-performance-tests-pom- \
+mvn-org.assertj-assertj-tests-pom- \
+osgi-assertj-core \
+osgi-assertj-guava"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.mockito-mockito-core"
+mvn-net.bytebuddy-byte-buddy"
 
 inherit rpm

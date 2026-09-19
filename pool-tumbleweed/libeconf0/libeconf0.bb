@@ -1,12 +1,12 @@
 SUMMARY = "Enhanced config file parser ala systemd"
 DESCRIPTION = "Enhanced config file parser, which merges config files placed \
 in several locations into one."
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "MIT"
 
-PV = "0.5.2"
+PV = "0.8.4"
 
-RPM_NAME = "libeconf0-0.5.2-1.4.aarch64.rpm"
-RPM_HASH = "69be05f88370e0bac2516aad56ba576f96536d4a665b5dd512274413a4ca089e2020e0e0c8ed0cd07a48a02520592f67fccffe1442dad26f464981593dae4d3e"
+RPM_NAME = "libeconf0-0.8.4-1.2.aarch64.rpm"
+RPM_HASH = "929e934c2da8ca6e50215b9436408a03d88ebfd55306ac00c59804fc58acfbe9f299cc22763e4c5d1a3b5fd794f660442c772ebe581a309c5ab7821d4fef4f1a"
 
 RPROVIDES:${PN} += "libeconf.so.0 \
 libeconf0"

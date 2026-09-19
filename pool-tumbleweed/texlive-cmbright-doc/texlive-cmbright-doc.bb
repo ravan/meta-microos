@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cmbright"
 DESCRIPTION = "This package includes the documentation for texlive-cmbright"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.8.1svn21107"
+PV = "2026.226.8.1svn77682"
 
-RPM_NAME = "texlive-cmbright-doc-2023.209.8.1svn21107-54.1.noarch.rpm"
-RPM_HASH = "53cbc5ffd94ff4deef9062d05f8c9034a8efb9d57716bf874ff099e6e41b255b6d0d70bd6ec42c927b99c2286ee148e4285925f77a601f42c93d9b590bfba1ac"
+RPM_NAME = "texlive-cmbright-doc-2026.226.8.1svn77682-60.2.noarch.rpm"
+RPM_HASH = "5d57f4b965ddaa6161059245fc67cdceeea5058818fb760518ed971def7ad523d5bd24ee07fa6092cac09d5a9612995dfb0c383315f2e5285c63892c3e651368"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmbright-doc"

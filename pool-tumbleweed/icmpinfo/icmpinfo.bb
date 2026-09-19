@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11"
 
-RPM_NAME = "icmpinfo-1.11-715.22.aarch64.rpm"
-RPM_HASH = "8eb81d71b76467f683a2bd1ea5ef598d5754dbb782b1fc017409fe82a53e60e59c19feb5fc44903dc18dcb5f9ca49de64734af73b43d65f3f854f7c43ec519b3"
+RPM_NAME = "icmpinfo-1.11-717.6.aarch64.rpm"
+RPM_HASH = "9aac2ee99d619a17fa1a6fd735ebe8fd0d7036ac2a8e3aa6da2d18adc397e41faffecbc5e02fa1979b0a13f6f6e5b4ac678e6f38f399097270eba42ec642c86e"
 
 RPROVIDES:${PN} += "icmpinfo"
 

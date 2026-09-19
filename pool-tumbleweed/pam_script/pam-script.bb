@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.9"
 
-RPM_NAME = "pam_script-1.1.9-2.7.aarch64.rpm"
-RPM_HASH = "0f719fea1f967f79d67d8d402ff55d7ca8001f87b206deefb9ec22feb3d3f2dae457f02d5ebeaceb4c555d5d1bb7efb017a4e61a8f2bc95a1b24bf1dfe23721f"
+RPM_NAME = "pam_script-1.1.9-3.9.aarch64.rpm"
+RPM_HASH = "8bf0bf0119418fd26a3fb2d150dce9466e9840e57f1277405b0f46725ccdae55a258ed64fd13a9c6b42751ab2b01e58aa922039ef9a73fee29c92335c3ce40a7"
 
 RPROVIDES:${PN} += "config-pam-script \
 pam-script"

@@ -1,18 +1,12 @@
 SUMMARY = "Record or play back a VNC session"
 DESCRIPTION = "rfbproxy is a simple proxy for VNC which allows recording of screen \
-updates, key presses and mouse events for later replay. \
- \
- \
- \
-Authors: \
--------- \
-    Tim Waugh <twaugh@redhat.com>"
-LICENSE = "GPL-2.0+"
+updates, key presses and mouse events for later replay."
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "rfbproxy-1.1.0-52.27.aarch64.rpm"
-RPM_HASH = "5dc5b04c65e0b908107c6b79c8774419e0abe38ecdc7168547a49d67f938568e8033fb57e8105dc4b2ebf6e308d3a273dce05db5f93bd2a2ad88571c5fb72ce7"
+RPM_NAME = "rfbproxy-1.1.0-53.7.aarch64.rpm"
+RPM_HASH = "caa59cd77994a4e6eee48ecc9a13e203ddbe343365e06a9029bb1a07bf9a2fb5aab8c43eb46cf47ac909e652ff9aa7d79eec6fec49a94fcd2fc1382fb5ccf0c6"
 
 RPROVIDES:${PN} += "rfbproxy"
 

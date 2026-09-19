@@ -4,10 +4,10 @@ Linux process capabilities of programs running on a system. It also \
 lets you set the filesystem-based capabilities."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.3"
+PV = "0.8.5"
 
-RPM_NAME = "libcap-ng-utils-0.8.3-2.3.aarch64.rpm"
-RPM_HASH = "55c8f6498e911c7a43f1b20e7a8723b4f0ef38ee6eba82993bdefdb233d66cfd2a569573b6fce28e1080e0303619a5cee65ea0cdb9f7e7b01abaad96c4c0e59d"
+RPM_NAME = "libcap-ng-utils-0.8.5-1.10.aarch64.rpm"
+RPM_HASH = "f78d9051018b43d6ffbfa2d491debc62a449292161ed2ad3c5985fa9e7685425cabec06b32e79083e007483a9f0eebc81672fdd679656a9f7d5549f40c661c2d"
 
 RPROVIDES:${PN} += "libcap-ng-utils"
 

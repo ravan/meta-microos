@@ -4,10 +4,10 @@ standard, JPEG-2000, Part 1. It consists of tools for conversion to and \
 from the JP2 and JPC formats."
 LICENSE = "JasPer-2.0"
 
-PV = "4.0.0"
+PV = "4.2.9"
 
-RPM_NAME = "jasper-4.0.0-1.4.aarch64.rpm"
-RPM_HASH = "d6c60f3fd5e84578fe426ddeda16b889fbc1ee5f793ae956f4a8321c11207052f3d38a27c844a94a92cfb0c722a3875563968e882b9729bc181b037d117f9580"
+RPM_NAME = "jasper-4.2.9-1.4.aarch64.rpm"
+RPM_HASH = "2f6127e574337c939b14aab256e87ab2a08abdf4b507a813139256130081142b781718398ece712f44b08ce8d309b2aee011ec9c93899fee8c46ccdc455a38b9"
 
 RPROVIDES:${PN} += "jasper"
 

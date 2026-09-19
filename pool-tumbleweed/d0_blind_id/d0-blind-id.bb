@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.6"
 
-RPM_NAME = "d0_blind_id-0.8.6-1.1.aarch64.rpm"
-RPM_HASH = "02b2b09d4f4bf2d53f9b35e0adfef474a56c5b3439b4666a7262eae7b808b775de1df14e3f9f3ea850328b93ad2a446be34f9bfcf627d1712c3e3b1f051fcc89"
+RPM_NAME = "d0_blind_id-0.8.6-1.11.aarch64.rpm"
+RPM_HASH = "67242de683748cb58928522e1b4019d922c42faca09e892e5e5b5450f5fcae855c6d7e92e2c4b49ed1a309f428c2279afff3d974cccffc84f24a83dc60724cd8"
 
 RPROVIDES:${PN} += "d0-blind-id"
 

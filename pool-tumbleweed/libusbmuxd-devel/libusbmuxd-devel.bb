@@ -10,16 +10,17 @@ The libusbmuxd-devel package contains libraries and header files for \
 developing applications that use libusbmuxd."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "2.0.2"
+PV = "2.1.0"
 
-RPM_NAME = "libusbmuxd-devel-2.0.2-1.10.aarch64.rpm"
-RPM_HASH = "6fb123613277952f4cab21dbee31f6398f491bd190c0259dac36bf8b1a243bef0e80a0aaa3fc87a0f10cf39d242adc859a53d0acdc8260a74b487aa50a737b38"
+RPM_NAME = "libusbmuxd-devel-2.1.0-1.7.aarch64.rpm"
+RPM_HASH = "b97c0216af163300609dad84431194109fd301e95f6de3fbea509d14476d9aba27cdcc7282969b163a75302853455f769df2db03a12b68103abfda1db013f659"
 
 RPROVIDES:${PN} += "libusbmuxd-devel \
 pkgconfig-libusbmuxd-2.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libusbmuxd-2-0-6 \
+libusbmuxd-2-0-7 \
+pkgconfig-libimobiledevice-glue-1.0 \
 pkgconfig-libplist-2.0"
 
 inherit rpm

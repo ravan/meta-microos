@@ -3,10 +3,10 @@ DESCRIPTION = "The Xrender library is designed as a lightweight library interfac
 the Render extension."
 LICENSE = "MIT"
 
-PV = "0.9.11"
+PV = "0.9.12"
 
-RPM_NAME = "libXrender1-0.9.11-1.2.aarch64.rpm"
-RPM_HASH = "b2359be8c2b88900e60f9ecde97156f9e4baf3c172e643e6fa1b00793cbbe7faf570d3cfc5a2a9ea6ae0cb8dfe8bcbcae3bbbf629c57672645f1fc76254689ab"
+RPM_NAME = "libXrender1-0.9.12-1.7.aarch64.rpm"
+RPM_HASH = "1e1f5ea369ae0d876e20af8522f5bf5bb1ce155e3d191f0db16f86467836cf143c9e0a9090fd88ef8028521fdf05dece0a162fca671cf1641908d817fa240b1a"
 
 RPROVIDES:${PN} += "libXrender.so.1 \
 libXrender1 \

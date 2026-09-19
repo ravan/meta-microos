@@ -8,10 +8,10 @@ judge, maininblack, mexican, nun, nurse, physician, pilot, \
 police, priest, sailor, santa, surgeon."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn43978"
+PV = "2026.226.0.0.4svn67840"
 
-RPM_NAME = "texlive-tikzpeople-2023.209.0.0.4svn43978-53.1.noarch.rpm"
-RPM_HASH = "9baa7c1d7f4bcdad39eac8a40dcfca31b4125dd64b937674e3e77f62ae8ea352cf29c972cd513d61803a1fb1f35f1555602283a9fdc3cab08d7e3733313c6b25"
+RPM_NAME = "texlive-tikzpeople-2026.226.0.0.4svn67840-59.2.noarch.rpm"
+RPM_HASH = "344868bc2e2b6ed6017f31c0af7e4f7e4d640f9e4d97d9b82d863a58afad390ee632e393ca9e534d62b7a57d6f49457d4cba5847aed3ddb1a22229ea577c16b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzpeople.shape.alice.sty \

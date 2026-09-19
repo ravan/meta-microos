@@ -3,10 +3,10 @@ DESCRIPTION = "The translation is of documentation provided with the fancyhdr \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn21912"
+PV = "2026.226.svn21912"
 
-RPM_NAME = "texlive-fancyhdr-it-2023.209.svn21912-53.1.noarch.rpm"
-RPM_HASH = "02caf3218ab22d65ad9f5f90af13cdf1815c53c0d041f91be34f0c97eab384be7a96aefa8907df654a26dda32389cca9edffdf3ebc482bc5ccf0d6313bc29d05"
+RPM_NAME = "texlive-fancyhdr-it-2026.226.svn21912-59.2.noarch.rpm"
+RPM_HASH = "6a4e93347fa3a2608bfa39f8c49987ab774484741a11e9f500d5356fd47410c45a4b2b94148147d5710b0637710b61871f3a16bd26d52dfbb421aadd9a33b8cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fancyhdr-it"

@@ -2,10 +2,10 @@ SUMMARY = "Estonian hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Estonian in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-estonian-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "960458396f092452f894ae5f3f3023633d848078f13bc98897adec3895e52a17750e47f90a3cbff600816bc4f386eb900afb600b6548c344aa5aad7db7c119aa"
+RPM_NAME = "texlive-hyphen-estonian-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "6f5f44bad9be1cc2913e367a45e443da74f30f7f50a414dbeecd1a1ad6275fb70b6fd38f562ef333f78fee86212e7059ecff4e0231e2f6aefd7f68eb3f5ee3aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-et.ec.tex \

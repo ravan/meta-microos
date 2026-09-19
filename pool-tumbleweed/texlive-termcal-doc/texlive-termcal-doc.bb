@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-termcal"
 DESCRIPTION = "This package includes the documentation for texlive-termcal"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8svn22514"
+PV = "2026.227.1.8svn76924"
 
-RPM_NAME = "texlive-termcal-doc-2023.209.1.8svn22514-55.1.noarch.rpm"
-RPM_HASH = "024c1f5573867b48d8ab9c2aa1597cecfa46d07c939302ac118d96a63ced50e70e98f06606b3781f1699d3570bc39acc567b6d58fc169305540562f55afcb4d6"
+RPM_NAME = "texlive-termcal-doc-2026.227.1.8svn76924-62.2.noarch.rpm"
+RPM_HASH = "af76df62431c20b73f78ac09f5457ff4ce6a848ac635d0f0e89f53d59770456f42030bdda1e450468d7da56ccd08dd9af39fbe7c357fa756d0cdc036b8369a02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-termcal-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mp3d"
 DESCRIPTION = "This package includes the documentation for texlive-mp3d"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.34svn29349"
+PV = "2026.226.1.34svn29349"
 
-RPM_NAME = "texlive-mp3d-doc-2023.209.1.34svn29349-55.1.noarch.rpm"
-RPM_HASH = "7ff4278da6c390920296b91276a361b56734eeb0a803bde3ad600bd3a9604d950ce27ba6b828fbcd37fe256be2b1769a473db8a0cfefb1ac24e3cb6898ce4704"
+RPM_NAME = "texlive-mp3d-doc-2026.226.1.34svn29349-61.2.noarch.rpm"
+RPM_HASH = "7012252694f35bd16a1fb926b7a8a7d8e1d27aa9496493710577bb1134d038247af59a2108f1bc49539000c74f7da851f4f8d5e5d0e8307366a6754dc8df5197"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-mp3d-doc-fr;en \

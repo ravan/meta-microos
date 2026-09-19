@@ -5,10 +5,10 @@ linked in as a library when building extensible programs. This package \
 contains the shared libraries."
 LICENSE = "GFDL-1.3-only & GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.0.9"
+PV = "3.0.11"
 
-RPM_NAME = "libguile-3_0-1-3.0.9-1.1.aarch64.rpm"
-RPM_HASH = "a25ac1ed027d46f0ab00c93a624351a6751f71ef15290e29a5f72498855c39d915ef81941ae781acaf0d44fcdf0347da315d121089218cbc53156d115a39f201"
+RPM_NAME = "libguile-3_0-1-3.0.11-1.1.aarch64.rpm"
+RPM_HASH = "855093d7d351ded646367f42b1c573922e492b7bc1cd5320d6e79817eacd3de4ee51e54abe9122a449522e08b90ce24293e85b1f56098814228c1ca05213e514"
 
 RPROVIDES:${PN} += "libguile-3-0-1 \
 libguile-3.0.so.1"

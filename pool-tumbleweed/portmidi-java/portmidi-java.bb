@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.0.4"
 
-RPM_NAME = "portmidi-java-2.0.4-2.4.aarch64.rpm"
-RPM_HASH = "70211a3a8615741d36d9180c01c8c4f0d1e9a198f5d522c5a2c0439867a57ac5389d2891e12c40e9e02d00f37ff0945f283927cc1381f414b3ce9238740e4236"
+RPM_NAME = "portmidi-java-2.0.4-3.7.aarch64.rpm"
+RPM_HASH = "e7d16f19389ba5dcfb30787926c8faef15b1848391ca2343132553ed47a9ffdc922501b9d308f1c8ec79fe31f1380034e9e45adf2bcf39e212cb4cef618131ab"
 
 RPROVIDES:${PN} += "libpmjni.so.2 \
 portmidi-java"

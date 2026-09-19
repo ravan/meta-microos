@@ -3,10 +3,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. In theory, it is kind of l
 Make. Build description files are written in XML."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.14"
+PV = "1.10.18"
 
-RPM_NAME = "ant-antlr-1.10.14-1.1.noarch.rpm"
-RPM_HASH = "6b596cf5d44da985e24c86782c6f47fb1297d229a764059033c6d57dfbabee07feb37d057a33a934172572cbc3ba0738d1dcc22bf709dffdf249f5bb70ecb9e5"
+RPM_NAME = "ant-antlr-1.10.18-1.1.noarch.rpm"
+RPM_HASH = "9a24fc3cc13bd99cbb30d8b13a07a341af75d7f80ad3623c1d77b8b9d4b6b316e7b582da94268ab8c4cd65646a12cb2f112c6aeb5df4d768d94ec4762d6f507d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-antlr \

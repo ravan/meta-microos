@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.20.0"
 
-RPM_NAME = "notification-daemon-3.20.0-7.6.aarch64.rpm"
-RPM_HASH = "f3df79ccc33f57226a88e181b43fe131dab1419da261ad4e56897aaa65cecfe19066ef077ba735f70ad99c8d6d4aa68107b17d2830b504c5ddd55984f2689c01"
+RPM_NAME = "notification-daemon-3.20.0-8.7.aarch64.rpm"
+RPM_HASH = "74d777d36fe3a31fd5229eed4dfbc10067db6255b2385396c1efa24b42ec8f8bb03810c30b1e1cb00424549301efdb5592cb4a14c5fdb0ffe16d8e07310f1e6b"
 
 RPROVIDES:${PN} += "dbus-org.freedesktop.Notifications \
 notification-daemon"

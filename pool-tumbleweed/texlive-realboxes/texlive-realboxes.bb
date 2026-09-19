@@ -11,10 +11,10 @@ long form uses the short form anyway when no optional arguments \
 are used."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn64967"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-realboxes-2023.209.0.0.2svn64967-54.2.noarch.rpm"
-RPM_HASH = "077a9a025c5f511a5d33e42acf3f87e0d81b5d78350a00b5d0ff0ffaecd2bbcbf180c7e68df62638c3536c5ee75f0666cbe42dad898fd6513fbc07a6a1946c20"
+RPM_NAME = "texlive-realboxes-2026.226.0.0.2svn77682-60.4.noarch.rpm"
+RPM_HASH = "b964f6adae6996077c1f404276cfad59631ce33679725362fa263fd4862c40ef7a4692edb04c721c44c2dc047bee3ad76fc4ce40e7886e08b1863452a0e1bbb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-realboxes.sty \

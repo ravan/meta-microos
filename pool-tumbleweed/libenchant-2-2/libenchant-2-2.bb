@@ -3,10 +3,10 @@ DESCRIPTION = "A library providing an efficient extensible abstraction for deali
 with different spell checking libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.2.15"
+PV = "2.8.19"
 
-RPM_NAME = "libenchant-2-2-2.2.15-3.4.aarch64.rpm"
-RPM_HASH = "f375a195556c813768df3b33bea248ab3f51ae12bd617001180753a906ffe10b5038ea7560084071c3ca5d2e8f6b1abd17b094a3da656006d1d2b3c61c09b556"
+RPM_NAME = "libenchant-2-2-2.8.19-1.1.aarch64.rpm"
+RPM_HASH = "841c3e873a31dfca5cc1bc010bf9638e927a6581439b4f3f276f04d2a22f1bd8dd81cea1ad7af788686d433bc4aaabef640fde4b4256f0ebbf36b129dc4b8f14"
 
 RPROVIDES:${PN} += "libenchant-2-2 \
 libenchant-2.so.2"
@@ -17,6 +17,7 @@ enchant-data \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \
-libgmodule-2.0.so.0"
+libgmodule-2.0.so.0 \
+libgobject-2.0.so.0"
 
 inherit rpm

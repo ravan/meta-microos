@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.22"
 
-RPM_NAME = "ghc-cmdargs-devel-0.10.22-1.8.aarch64.rpm"
-RPM_HASH = "9dc639505ac45d76fdb8711459db1bd118bf48c5f42250061fa934070db33b7cff16eb032112239d0109194855382c3ddeace92521384630bb92ac8339b219eb"
+RPM_NAME = "ghc-cmdargs-devel-0.10.22-1.35.aarch64.rpm"
+RPM_HASH = "48cb6f8715bcff68961080838d36d48962027378060358fb3760be709d1874e18f50e561a58c4fda9a9a289b78aa3920ecf03ca5eae3448a158b5c721aaeb576"
 
 RPROVIDES:${PN} += "ghc-cmdargs-devel \
-ghc-devel-cmdargs-0.10.22-J6270EPuJIGHu8u4tLBuYx"
+ghc-devel-cmdargs-0.10.22-HkrnpmTZ18VE75B7wmB8rg"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cmdargs \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-process-1.6.17.0 \
-ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-transformers-0.5.6.2"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-process-1.6.26.1-905d \
+ghc-devel-template-haskell-2.23.0.0-358a \
+ghc-devel-transformers-0.6.3.0-4709"
 
 inherit rpm

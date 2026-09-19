@@ -8,10 +8,10 @@ cluset) allow traditional shell scripts to take benefit of the features \
 offered by the library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.9.1"
+PV = "1.10.1"
 
-RPM_NAME = "clustershell-1.9.1-1.2.noarch.rpm"
-RPM_HASH = "a838c25c377fa8220eb85a4c0500b288968057f461d0fbb076f0382651246120e8577f22e28a42f67c64132c2d7afea4aa6ba390109ddb4028d15226417a8b08"
+RPM_NAME = "clustershell-1.10.1-1.1.noarch.rpm"
+RPM_HASH = "69f21e66880a7865efd3102ecfab75755656c95dc0351185b52d8ffd030564dd59e4b8a42b04459f6e03527d359ae548dd7d1bbaeb00121b8b4cccc21a6be527"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clustershell \

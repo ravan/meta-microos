@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.1"
 
-RPM_NAME = "ghc-SafeSemaphore-prof-0.10.1-5.8.aarch64.rpm"
-RPM_HASH = "bc43ed9c667ae1e59c6f6d99ffcc9db7112b2c31a4709e435449e7848690c5bd78c5b43efeda9a36a3b33113c3f1f65e5ffb293d490302ae534c351409e7f98d"
+RPM_NAME = "ghc-SafeSemaphore-prof-0.10.1-5.35.aarch64.rpm"
+RPM_HASH = "d525cac9217bbde33ddb25d6f2d28726800590f96db7452fd6f11ba9ecccb12a768d45a493f23fbc4b45441369ddf94d4af2851291a5691497c76e45ec0513e6"
 
 RPROVIDES:${PN} += "ghc-SafeSemaphore-prof \
-ghc-prof-SafeSemaphore-0.10.1-8vfV4kQtVdq7fGz6bQJt9f"
+ghc-prof-SafeSemaphore-0.10.1-KAvbZbWmNg73dAA9KjvouK"
 
 RDEPENDS:${PN} += "ghc-SafeSemaphore-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-stm-2.5.1.0"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-stm-2.5.3.1-6d74"
 
 inherit rpm

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.4"
 
-RPM_NAME = "clutter-gtk-devel-1.8.4-5.18.aarch64.rpm"
-RPM_HASH = "96e0abb03a03335b5a834a85aba7cdb394877fad7bbd6da5bc39ebc57522964957e9186e8e69404df7171e50246263f5ff8053be0a9da337e2c5865612c58933"
+RPM_NAME = "clutter-gtk-devel-1.8.4-5.30.aarch64.rpm"
+RPM_HASH = "8ee25ca0f3b86897b6db21b46ec70e87d3ef8d0fc18b6fa32f5ad8b9d1a8dac49e79e51755b8b22cc61a7359f927e30df46d3aebaafc8defd1fffe75f6e5373a"
 
 RPROVIDES:${PN} += "clutter-gtk-devel \
 clutter-gtk-doc \

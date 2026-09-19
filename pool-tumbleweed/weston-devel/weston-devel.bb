@@ -8,19 +8,19 @@ This package contains all necessary include files and libraries needed \
 to develop plugins for Weston."
 LICENSE = "CC-BY-SA-3.0 & MIT"
 
-PV = "12.0.2"
+PV = "16.0.0"
 
-RPM_NAME = "weston-devel-12.0.2-1.1.aarch64.rpm"
-RPM_HASH = "c31494d48ec479585db7c61916a56d3efe2fc33ca2d47c6f1c378747bd3a061518f8afb4c090ba321788522393e02789f0f73196b46fa32d21a9e54e5b5cfdac"
+RPM_NAME = "weston-devel-16.0.0-1.1.aarch64.rpm"
+RPM_HASH = "199aed44f1d74d76991c4c8a25e4872bea1d3fea087661875087c53fac51085489cc49aca6eb631d42295855c0edc9360c3dbfd45731e5629a6780201c630e77"
 
-RPROVIDES:${PN} += "pkgconfig-libweston-12 \
-pkgconfig-libweston-12-protocols \
+RPROVIDES:${PN} += "pkgconfig-libweston-16 \
+pkgconfig-libweston-16-protocols \
 pkgconfig-weston \
 weston-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libweston-12-0 \
-pkgconfig-libweston-12 \
+libweston-16-0 \
+pkgconfig-libweston-16 \
 pkgconfig-pixman-1 \
 pkgconfig-wayland-server \
 pkgconfig-xkbcommon"

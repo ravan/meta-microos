@@ -5,10 +5,10 @@ Requires fp and pstricks packages (and a relatively fast \
 machine)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.91svn20209"
+PV = "2026.226.0.0.91svn20209"
 
-RPM_NAME = "texlive-sfg-2023.209.0.0.91svn20209-54.1.noarch.rpm"
-RPM_HASH = "00f30c65b5015b5bab860e884af7467a14f10d9ad5ef6247958d5c745b924e53a70e74b7bc813c045f769182558d8a1a005a4eb0e0481a66eaebe58dd1fa8f74"
+RPM_NAME = "texlive-sfg-2026.226.0.0.91svn20209-60.2.noarch.rpm"
+RPM_HASH = "c9d1b1624de72c8e22a8c5ca7ea0710aa7a627fc48739706097b237725b7737f77b9d2b7fdc450d969529b41e15719ad049eae0eb7d64669b4716d355c0acaf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sfg.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fntproof"
 DESCRIPTION = "This package includes the documentation for texlive-fntproof"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn20638"
+PV = "2026.226.svn20638"
 
-RPM_NAME = "texlive-fntproof-doc-2023.209.svn20638-53.1.noarch.rpm"
-RPM_HASH = "d29bc76658176c2a57f8382847336ffda5fb566d286ddfc8aaa58c7cf41abf9b28a117be02608aab0bac8ec853526071b7e5c94346f51a411ff70219d5f3f234"
+RPM_NAME = "texlive-fntproof-doc-2026.226.svn20638-60.2.noarch.rpm"
+RPM_HASH = "b692f6b5c16424f5c6d416bfc10449555c2bd1a16bd34bc6f028268d268cfb1d3743e63d2ba93cd62a313ddaa410dc9efbcd85f5e8ef4e946be3039c1d78d6d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fntproof-doc"

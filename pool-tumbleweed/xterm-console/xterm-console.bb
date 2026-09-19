@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "xterm-console-1.1-1.6.noarch.rpm"
-RPM_HASH = "f8cb2304c2e0ab383c760266b57711bc213d9f9f0d7232a84b9f2a227cfe321492d0e29a0c4b252618a0a32b63558d7eef89141eb05aa2c57b39020d88eb3f07"
+RPM_NAME = "xterm-console-1.1-3.5.noarch.rpm"
+RPM_HASH = "b28b2a13b11c6aa66d84d2e3906a9f1ce7157027101969d26a5702f6865877610b766cef178c0acd46bfde4f6e651242ab10022c2f930391fcdd4a10d6c23b28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xterm-console"

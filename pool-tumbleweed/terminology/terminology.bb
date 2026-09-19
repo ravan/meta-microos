@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & OFL-1.1"
 
 PV = "1.13.0"
 
-RPM_NAME = "terminology-1.13.0-1.3.aarch64.rpm"
-RPM_HASH = "540a19f69d99c21757c20b46f76c5a72681c1f36d0c9fdfcf09e1f1a9501c09c2ae642d412c9bb8c2a0e6bf82d45cad33942f4a929d7291c0a786f6ca3f8946e"
+RPM_NAME = "terminology-1.13.0-1.13.aarch64.rpm"
+RPM_HASH = "5f86a455d5a5e022d1185cba83611f24ff69bb9c1a06e4954817d1511a69ce9d9aba5b2650e7d2539a2161ef2e65444e0d3bdb0dee32906000cc4d38624536fb"
 
 RPROVIDES:${PN} += "terminology"
 

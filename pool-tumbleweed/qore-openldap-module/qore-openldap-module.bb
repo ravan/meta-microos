@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "1.2.3"
 
-RPM_NAME = "qore-openldap-module-1.2.3-2.1.aarch64.rpm"
-RPM_HASH = "d4c22de16cb161acaa0a8634cc5d3d06c5e5709c1bd250ad91e4664400bfec2cb5f299391ac2984c3399d8658ee7c41232866f7b6461f9cca29df4b203fc5d31"
+RPM_NAME = "qore-openldap-module-1.2.3-5.6.aarch64.rpm"
+RPM_HASH = "4d481bf68d0a9e164cf212d4409d475880955fd884cedfd2810695555b516d4a2cf77027c22f404a054af193dffc973718a5a9a6367cb657d19a354aa40190f1"
 
 RPROVIDES:${PN} += "qore-openldap-module"
 

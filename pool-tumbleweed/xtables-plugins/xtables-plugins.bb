@@ -2,10 +2,10 @@ SUMMARY = "Match and target extension plugins for iptables"
 DESCRIPTION = "Match and Target Extension plugins for iptables."
 LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
-PV = "1.8.9"
+PV = "1.8.13"
 
-RPM_NAME = "xtables-plugins-1.8.9-1.4.aarch64.rpm"
-RPM_HASH = "0ad58a1a64b75713c69921cd4dc75a33b74be73c823c83c3290b6bb267c557b42dbce710ccc83f84157521b8269ee9f35d2e3a3a418c447cea3a732a534f4ebc"
+RPM_NAME = "xtables-plugins-1.8.13-1.4.aarch64.rpm"
+RPM_HASH = "3639a467fbfba14ab7c33ad158274813a4ec53445206a79b80e419bd9d0d92b7501158efa15354c072fb60a7d0259d803a625abe86a292e668ce9cbf6fb16f34"
 
 RPROVIDES:${PN} += "libarpt-mangle.so \
 libebt-802-3.so \

@@ -1,16 +1,17 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 SerialPort library"
 DESCRIPTION = "This package provides private headers of libQt6SerialPort that do not have any \
 ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-serialport-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "56b48f9436102cbff88f1d2b4043e98b23a2ddeb78c596c60753dbd568b9b261576966149cc126591635ff65fb09c076e8b07f6cb88b3ddd569c30fa3785236a"
+RPM_NAME = "qt6-serialport-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "bbcc45005de33197f86060a8b7f5c499f9efa05970988b5632b5a4af3437122263b40e9a0c8ba311a2f428c223b663afa6fe29f03cb41c97cd5a9d3b6ee74b15"
 
-RPROVIDES:${PN} += "qt6-serialport-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6SerialPortPrivate \
+qt6-serialport-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6SerialPort \
-qt6-core-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate \
+cmake-Qt6SerialPort"
 
 inherit rpm

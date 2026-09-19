@@ -2,17 +2,17 @@ SUMMARY = "Haskell semigroups library development files"
 DESCRIPTION = "This package provides the Haskell semigroups library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.20"
+PV = "0.20.1"
 
-RPM_NAME = "ghc-semigroups-devel-0.20-2.3.aarch64.rpm"
-RPM_HASH = "71c020c711fb7287d8799be64aa6f87e9aab845e2e3d94c9b11af882958b35872b6a35a867ebfd31d4e9bc99c5f43549f454d98e0dcee8027d3f3b9f43ed4083"
+RPM_NAME = "ghc-semigroups-devel-0.20.1-1.3.aarch64.rpm"
+RPM_HASH = "59c16b617ddaebb807a0c27139f6028b8fb0d43da29ac1abdab139e290a49949981b78d5f8eb615ad9c20194c23a634a3a0f29fb52d017f84f2dc3308d46ea0b"
 
-RPROVIDES:${PN} += "ghc-devel-semigroups-0.20-6lktLD0mxwZ1Pjuc7q3dSl \
+RPROVIDES:${PN} += "ghc-devel-semigroups-0.20.1-992KRSDvCsv617GvmRAoMY \
 ghc-semigroups-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
+ghc-devel-base-4.21.2.0-8844 \
 ghc-semigroups"
 
 inherit rpm

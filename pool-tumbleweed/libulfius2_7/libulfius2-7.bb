@@ -5,10 +5,10 @@ for the json manipulation library, and libcurl for the HTTP/SMTP client API. \
 It can be used to create web applications in C programs."
 LICENSE = "MIT"
 
-PV = "2.7.12"
+PV = "2.7.15"
 
-RPM_NAME = "libulfius2_7-2.7.12-1.4.aarch64.rpm"
-RPM_HASH = "c3c262a0e0f474365fa80fff2d8bbe08f1bf9af9d286ca1ad6f640e86f8c9207fff4a491b1a107d132d6f824bac15911445d2e5c79ae5138ec85ae7c42df76c5"
+RPM_NAME = "libulfius2_7-2.7.15-2.1.aarch64.rpm"
+RPM_HASH = "a68de32c25b22d1685c3261eee86bc2d38e9a321c586414ec71fc8834afe1cf0e73afde1c8a29e4784ea66eaa6959872b5079089b8baaa68a9e9fc14c94668d1"
 
 RPROVIDES:${PN} += "libulfius.so.2.7 \
 libulfius2-7"

@@ -4,10 +4,10 @@ This package contains the makemhr utility for creating head-related \
 transfer functions (HRTF)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.22.2"
+PV = "1.24.3~179"
 
-RPM_NAME = "openal-soft-makemhr-1.22.2-1.5.aarch64.rpm"
-RPM_HASH = "711765e7c559a5da252a6099c9dc3ce13a8d2df0afa126fcdcd98fbcabe853b77a8d1b9fa310aea9894330eb021767fa8313a65c87bbd0f86d57197f29ccbcf4"
+RPM_NAME = "openal-soft-makemhr-1.24.3~179-1.6.aarch64.rpm"
+RPM_HASH = "67a7a20222c75cda2aad0e42534bb6baaaf1739819572dfa8b54ca067e9a836bd5251e1be29099b5b2003fd9cd6d1476c1a5776d9e8752dc26251f00d7ab907e"
 
 RPROVIDES:${PN} += "makehrtf \
 openal-soft-devel-/usr/bin/makehrtf \

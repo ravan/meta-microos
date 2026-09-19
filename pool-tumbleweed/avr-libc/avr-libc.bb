@@ -3,10 +3,10 @@ DESCRIPTION = "The C runtime library for the AVR family of microcontrollers for 
 with the GNU toolset (cross-avr-binutils, cross-avr-gcc, uisp, etc.)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.0"
+PV = "2.2.1"
 
-RPM_NAME = "avr-libc-2.1.0-1.4.noarch.rpm"
-RPM_HASH = "dcd046768adfe719f8578c020e7a5e642b921e3af5410a6b2a2a896b41fe0387fd3390c2a70ff43a458b69f294aaeee58160d082d3bb7eedb33baee9c288ef9a"
+RPM_NAME = "avr-libc-2.2.1-2.9.noarch.rpm"
+RPM_HASH = "75116d5dfe20e9837c01d2f0052d0dd9116b6d28b1574446d4323ff6ee043af83f74550587bcc7300fd245bf84d2bc937d99e8ff36bdb0d18996fb3198a3f405"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avr-libc"

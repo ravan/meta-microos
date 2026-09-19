@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.9.2"
 
-RPM_NAME = "libclxclient3-3.9.2-2.12.aarch64.rpm"
-RPM_HASH = "6b3918e7381f2fc2d28bb563192fe5b605f823b5e4fca2e08f7fd6f3e41a6fbb1607b59d75c5ae31497902726868a437fc2488c4692bb4734b298028f15f68be"
+RPM_NAME = "libclxclient3-3.9.2-3.9.aarch64.rpm"
+RPM_HASH = "a7b19f1d2edf1c3219260c850738e367bec027ed8d620cb24e77b941a80a8a969877b7d720b4090df865c20fcdb1955b242b2d9e5b6a6cb98ebb11a2c59e80e4"
 
 RPROVIDES:${PN} += "libclxclient.so.3 \
 libclxclient3"

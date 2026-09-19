@@ -29,12 +29,12 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.34"
 
-RPM_NAME = "perl-aliased-0.34-1.26.noarch.rpm"
-RPM_HASH = "277fb632c0e343b972cc80115dc9939c002c5de1c7917042872fcbe14689558249965d92531a8ab3fc7463ac2506c164304ba9b9e2626c76b2799fb5a6db97da"
+RPM_NAME = "perl-aliased-0.34-1.40.noarch.rpm"
+RPM_HASH = "2bd12538ce44d1b7b7458789a10a0e281fa2198ef4e3eb08f4a482ba516776492a94754b0a29404ab446853bca9778b0fe6dc736a11e2bdac481494333f0caf0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-aliased"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

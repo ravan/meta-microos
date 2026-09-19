@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.10.8"
 
-RPM_NAME = "typelib-1_0-Graphene-1_0-1.10.8-1.8.aarch64.rpm"
-RPM_HASH = "40688fd797d9cff478ab1dc13c11b2d803dd54d1b0c1dbdaae3574071a779bc2a176a47bd16e91be27be47289b146d4abc401ca52d30f8122835b1e5855b0031"
+RPM_NAME = "typelib-1_0-Graphene-1_0-1.10.8-3.1.aarch64.rpm"
+RPM_HASH = "136fd0158ea9e205fe6f03f696e6615368c164e30070a921e17465237d4f174de52d39fa84b9948c53b65eb8472158cae8872e2753c5a28b3faf47e59153c23a"
 
 RPROVIDES:${PN} += "typelib-1-0-Graphene-1-0 \
 typelib-Graphene"

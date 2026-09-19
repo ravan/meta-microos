@@ -4,13 +4,16 @@ LaTeX, many recommended packages, and support for most European \
 languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn54074"
+PV = "2026.222.svn54074"
 
-RPM_NAME = "texlive-scheme-medium-2023.208.svn54074-60.1.noarch.rpm"
-RPM_HASH = "ac1408a105f4b701aed30ddd94c147c6805771fdfa0ad4a087aa981a2a4cf8e15198bbe3b6f966878f689db3d010bfbf356239902a355b9ef3810b2f48f06530"
+RPM_NAME = "texlive-scheme-medium-2026.222.svn54074-68.2.noarch.rpm"
+RPM_HASH = "e52113013173fc964181f27dae924132db379b4de785abf0eb6d840266b0bbdda7e6008e5a830a6f0c70a5bbd3f6abca9f85f1ba1d86e7470ae643ed30755192"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-scheme-medium"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-medium \
+texlive-scheme-medium"
 
 RDEPENDS:${PN} += "texlive-collection-basic \
 texlive-collection-binextra \

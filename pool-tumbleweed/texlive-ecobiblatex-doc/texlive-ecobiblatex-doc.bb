@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ecobiblatex"
 DESCRIPTION = "This package includes the documentation for texlive-ecobiblatex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn39233"
+PV = "2026.226.1.0svn39233"
 
-RPM_NAME = "texlive-ecobiblatex-doc-2023.209.1.0svn39233-54.2.noarch.rpm"
-RPM_HASH = "b5d89a15ba8d84d8b657d0877185cd40a40c9d6bcd4e50552d18b2248b175b4f8a50d6e96bf0911f4244ab20fb98aabb40a09ac13b0729c63e767eeeb4cc39c1"
+RPM_NAME = "texlive-ecobiblatex-doc-2026.226.1.0svn39233-61.4.noarch.rpm"
+RPM_HASH = "96385572c80a62b769936aaeb936b96f3e921eb02a96e5785153d6eca5a6398e5ed88305777214a776e76d458ec1d43b339d97ef9b139f69658eea2556faaf7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ecobiblatex-doc"

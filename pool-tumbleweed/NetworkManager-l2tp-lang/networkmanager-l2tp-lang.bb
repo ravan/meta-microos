@@ -2,10 +2,10 @@ SUMMARY = "Translations for package NetworkManager-l2tp"
 DESCRIPTION = "Provides translations for the 'NetworkManager-l2tp' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.20.8"
+PV = "1.52.4"
 
-RPM_NAME = "NetworkManager-l2tp-lang-1.20.8-1.6.noarch.rpm"
-RPM_HASH = "784c3034152a95468aa3f6c9e0cfa869242f5ec07c2ff7cf16f8298c3e00703c10323401587030115a7950546fbcf0cc0da3b10ccb1996c4d9372123869851b3"
+RPM_NAME = "NetworkManager-l2tp-lang-1.52.4-1.1.noarch.rpm"
+RPM_HASH = "a12b087d49684d1e284a4af5d3dc40def9405c27c3c498889f4fc5f2e3aee8b8bb84099bb2214e20cb9cc715673faf599215ce1c0c9a94e9aa9f67d0a19d15d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-l2tp-lang \

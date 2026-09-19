@@ -11,10 +11,10 @@ These are the additional CNI network plugins provided by \
 the containernetworking team."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.1"
+PV = "1.6.2"
 
-RPM_NAME = "cni-plugins-1.1.1-2.5.aarch64.rpm"
-RPM_HASH = "75396775ed12336c9836bf5cb29479c704b89a707a28137af353bb21f72b31965e91cf72af71630c242009cbfa9a17163363af327487e47fa19d055eb48f5ebb"
+RPM_NAME = "cni-plugins-1.6.2-1.10.aarch64.rpm"
+RPM_HASH = "3a14164c7e6becec63213725f67449b71379da265044a08ecea15da7a76cd5e866c8466b78019f21f0b9e2ee2764e330290c4e70ac5f37e868c549ec4d7f1286"
 
 RPROVIDES:${PN} += "cni-plugins"
 
@@ -23,6 +23,7 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 cni \
 fillup \
+iptables \
 libc.so.6 \
 systemd"
 

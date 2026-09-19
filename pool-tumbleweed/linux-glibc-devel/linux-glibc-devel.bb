@@ -6,16 +6,15 @@ kernel-(flavor)-devel, or kernel-syms to pull in all kernel-*-devel, \
 packages, instead."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4"
+PV = "7.2"
 
-RPM_NAME = "linux-glibc-devel-6.4-1.1.aarch64.rpm"
-RPM_HASH = "f1be6e3676fe46ff860ad79f518e5c3de1c45ef6739b18cf0524184a0e8afb23a20a46eb080a9376d0cab562639357693da02b7c9b19c9e0fe55c1bf4e3c3a32"
+RPM_NAME = "linux-glibc-devel-7.2-2.1.aarch64.rpm"
+RPM_HASH = "c3b68f14961830f850cd474eba1a22791eb5ca8cf8e370db4f76e67c3846826af1fed37acea0fd26e7b63a58c02b5b117ce156d5729b28d2480aba4df32296a4"
 
 RPROVIDES:${PN} += "kernel-headers \
 linux-glibc-devel \
 linux-kernel-headers"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-coreutils"
+RDEPENDS:${PN} += "coreutils"
 
 inherit rpm

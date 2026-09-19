@@ -4,15 +4,15 @@ content of this online encyclopedia in a native application, with a simpler and 
 distraction-free view of articles."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.0.1"
+PV = "3.2.1"
 
-RPM_NAME = "wike-2.0.1-1.1.noarch.rpm"
-RPM_HASH = "c22e2c0a3a0f7687292e0a8ee3d679558951dbac6da04072b50d425d73e9d7ce0f4d3fbfddd91cb537ec6ca4f68f464b884cf64fdf969c55c1e2d1d9dbd43aef"
+RPM_NAME = "wike-3.2.1-1.2.noarch.rpm"
+RPM_HASH = "7dd0b1c987288b24ce11a497dbdbe3ed127e49a82dd3d99a735f0c2a6b698c01d6c725f5795b3ddfa0f511481f75c1333ed89362f88e4d46f1c2acfe1d86bb13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wike"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python3-gobject-Gdk \
 typelib-Adw \
 typelib-GLib \
@@ -21,6 +21,7 @@ typelib-Gdk \
 typelib-Gio \
 typelib-Gtk \
 typelib-Pango \
+typelib-Soup \
 typelib-WebKit"
 
 inherit rpm

@@ -6,13 +6,11 @@ LICENSE = "SUSE-Firmware"
 
 PV = "9"
 
-RPM_NAME = "ipw-firmware-9-23.7.noarch.rpm"
-RPM_HASH = "63e1f5753e7e7396ab0a11e180c691dcc9dc1f15f5f4f98b63d4f11fd34bdb1231925e8ddc959e4383ba13c44ad131bb4b41a38740ac89b7387c498cb8b4b7ea"
+RPM_NAME = "ipw-firmware-9-24.3.noarch.rpm"
+RPM_HASH = "9731079b1751799babca41d1b3044696508c9c65b5350381573eb4d1f714e3bc6c15f5b25f66efc60f13a607d82aed62e7c9dda9de5e9e6ba7dd6a6a1a548267"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "firmware-LICENSE.ipw2200-fw \
-firmware-LICENSE.ipw2x00 \
-firmware-ipw-2.2-boot.fw \
+RPROVIDES:${PN} += "firmware-ipw-2.2-boot.fw \
 firmware-ipw-2.2-bss-ucode.fw \
 firmware-ipw-2.2-bss.fw \
 firmware-ipw-2.2-ibss-ucode.fw \

@@ -5,23 +5,25 @@ for use in writing mathematical software. \
 This package contains the developer files (.so file, header files)"
 LICENSE = "BSD-3-Clause"
 
-PV = "6.3.0"
+PV = "7.9.0"
 
-RPM_NAME = "sundials-mvapich2-devel-6.3.0-2.5.aarch64.rpm"
-RPM_HASH = "0163e828121b9eef157d7bf712114b69bfd763fce821de6d7325d82b3ce16862ca0510b2a9cb0bf42d55e4417e83b56358a10fc858d5e02999a2bb4709ab3e34"
+RPM_NAME = "sundials-mvapich2-devel-7.9.0-1.1.aarch64.rpm"
+RPM_HASH = "0550628e749f4e840f922811b74a22b7718d23b99b7558350b1fae2ab0c98b0aaec9d49de14261be57d14ba0b9687d13cc7d0302678a584dac7be1c1808d9d57"
 
 RPROVIDES:${PN} += "sundials-mvapich2-devel"
 
-RDEPENDS:${PN} += "libsundials-arkode5-mvapich2 \
-libsundials-cvode6-mvapich2 \
-libsundials-cvodes6-mvapich2 \
-libsundials-generic6-mvapich2 \
-libsundials-ida6-mvapich2 \
-libsundials-idas5-mvapich2 \
-libsundials-kinsol6-mvapich2 \
-libsundials-nvec6-mvapich2 \
-libsundials-sunlinsol4-3-0-mvapich2 \
-libsundials-sunmatrix4-mvapich2 \
-libsundials-sunnonlin3-3-0-mvapich2"
+RDEPENDS:${PN} += "libsundials-arkode6-mvapich2 \
+libsundials-core7-mvapich2 \
+libsundials-cvode7-mvapich2 \
+libsundials-cvodes7-mvapich2 \
+libsundials-ida7-mvapich2 \
+libsundials-idas6-mvapich2 \
+libsundials-kinsol7-mvapich2 \
+libsundials-nvec7-mvapich2 \
+libsundials-sundomeigestarnoldi1-mvapich2 \
+libsundials-sundomeigestpower1-mvapich2 \
+libsundials-sunlinsol5-mvapich2 \
+libsundials-sunmatrix5-mvapich2 \
+libsundials-sunnonlin4-mvapich2"
 
 inherit rpm

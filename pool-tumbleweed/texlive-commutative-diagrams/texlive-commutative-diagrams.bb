@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a TikZ library for making commutative \
 diagrams easy to design, parse and tweak."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn55526"
+PV = "2026.226.1.1.2svn71053"
 
-RPM_NAME = "texlive-commutative-diagrams-2023.209.1.0.1svn55526-54.1.noarch.rpm"
-RPM_HASH = "6ec0211c58827f2fed48fd0a0dc12abdec0f86f043fbd858f80e2c291db09a5adb01002611caead0cf71cdb945d0306079baf0e18eaf344577acbba1cea9b3e4"
+RPM_NAME = "texlive-commutative-diagrams-2026.226.1.1.2svn71053-60.2.noarch.rpm"
+RPM_HASH = "bb985d6d63c57cbdc9e6e7ebefa61cce533047c19454b790e35a1514a99f56ff3959dec4fce24bb69a42a069b98d68f6284f27316991a2d1c821397deb4c6cd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-commutative-diagrams.sty \

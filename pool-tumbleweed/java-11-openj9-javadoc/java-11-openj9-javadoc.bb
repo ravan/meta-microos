@@ -1,11 +1,11 @@
 SUMMARY = "OpenJDK 11 API Documentation"
 DESCRIPTION = "The OpenJDK 11 API documentation."
-LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
+LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & LicenseRef-SUSE-Public-Domain & W3C"
 
-PV = "11.0.20.1"
+PV = "11.0.32.1"
 
-RPM_NAME = "java-11-openj9-javadoc-11.0.20.1-1.1.noarch.rpm"
-RPM_HASH = "bfe91d7b45e9beee52d1eefc67a0dd86dd16329779514519f645e4d76a08a3f965343bf091032c917e7acebb344b073fefe7ae0ad9b5792fd4eb83cc917f9b5e"
+RPM_NAME = "java-11-openj9-javadoc-11.0.32.1-1.1.noarch.rpm"
+RPM_HASH = "651f1078e8038d6ef854b43397f56de6d517c29d55b4d79d27de82a7071142d485e15641b46479127dde291ec0870979f37d1e7622e25a99a59c713de1fba5fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-11-javadoc \
@@ -13,7 +13,6 @@ java-11-openj9-javadoc \
 java-javadoc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-jpackage-utils \
-update-alternatives"
+jpackage-utils"
 
 inherit rpm

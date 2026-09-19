@@ -9,10 +9,10 @@ xf86dgaproto, xf86driproto, xf86miscproto, xf86vidmodeproto, xineramaproto, \
 xproto and xproxymngproto."
 LICENSE = "MIT"
 
-PV = "2023.2"
+PV = "2025.1"
 
-RPM_NAME = "xorgproto-devel-2023.2-1.1.noarch.rpm"
-RPM_HASH = "78461854580822167569cea67a48875cf15eed9d7e23f0f6bdf6a0df6eccb223a0d75b23aa6351572dd5fab9f424abbf5ab62b820160f06356038dd44de648af"
+RPM_NAME = "xorgproto-devel-2025.1-1.3.noarch.rpm"
+RPM_HASH = "a164072eee7087878f593dfe8eccd34f35f9bb1e505ea20f1ef18be548138edc08cc03b8c37f15fd11611cbcda630360756f5dcabbd2efe42abb31a5f4f8231f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bigreqsproto-devel \
@@ -78,6 +78,7 @@ xproto-devel \
 xproxymngproto-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-pkgconfig-xextproto"
+pkgconfig-xextproto \
+pkgconfig-xproto"
 
 inherit rpm

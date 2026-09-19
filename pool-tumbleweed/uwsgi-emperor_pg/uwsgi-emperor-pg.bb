@@ -5,10 +5,10 @@ This package contains an emperor plugin allowing for configuration of \
 applications (vassals) in a PostgreSQL database."
 LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "2.0.21"
+PV = "2.0.31"
 
-RPM_NAME = "uwsgi-emperor_pg-2.0.21-3.2.aarch64.rpm"
-RPM_HASH = "0fa32d2d9f9215963ba82379870f0878cd9108cb116ffba57ddac75aa59eaaacab336ce52a6d825a6ec62c9e1fde37af71a20e90a6b7e87602edfa853378eb42"
+RPM_NAME = "uwsgi-emperor_pg-2.0.31-4.4.aarch64.rpm"
+RPM_HASH = "5bb96fa6b12446c30ea7e39bf1d68446fdeaae0b4236b4d3f2a6eb3a64e548d5ea3a9222aec4980b32d4de5857961f147286755db79e91c4227736a00bda833e"
 
 RPROVIDES:${PN} += "uwsgi-emperor-pg"
 

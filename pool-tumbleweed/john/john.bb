@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "john-1.9.0-9.7.aarch64.rpm"
-RPM_HASH = "e0f3e545835e90f753d6bb66e25a7557b1d63fc8b8a8bb332d17e3057d05d37cfada6fe04d93ff6292835a65d9fe039e4cef0e6f0c3319ed8b6f1337d0628b56"
+RPM_NAME = "john-1.9.0-9.24.aarch64.rpm"
+RPM_HASH = "cc47e5146c2ea05bbbe84547bdafd9b3f20b3cea088bc5582d51b7e79d81ea2b5a210db9b6e547345e275c69c0ea1353125ea73ab37f875de0a0da9aeb1df3d6"
 
 RPROVIDES:${PN} += "config-john \
 john"
@@ -15,6 +15,7 @@ john"
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/python3 \
 /usr/bin/sh \
+group-users \
 ld-linux-aarch64.so.1 \
 libOpenCL.so.1 \
 libbz2.so.1 \

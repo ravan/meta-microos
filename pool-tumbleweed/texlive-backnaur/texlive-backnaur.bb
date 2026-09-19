@@ -5,10 +5,10 @@ required. It can also print in-line BNF expressions using math \
 mode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1svn54080"
+PV = "2026.226.3.1svn54080"
 
-RPM_NAME = "texlive-backnaur-2023.209.3.1svn54080-54.1.noarch.rpm"
-RPM_HASH = "a87569833285dde91cd4f94e8b39b89e7d0f7d6cbe797e9a88e3906df179c17dbfb95c9d17ee7f92e609efca665c5ef11ddbdf2f299854f5ea7f95fc87b96297"
+RPM_NAME = "texlive-backnaur-2026.226.3.1svn54080-60.2.noarch.rpm"
+RPM_HASH = "b1c441fb9c509220ec25632d668fc502b792b3657238f94743b76618357e607c84d6c308c5a54024439cfe3a023df812c2c8ab921d31b0d7c90f29403ee46f58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-backnaur.sty \

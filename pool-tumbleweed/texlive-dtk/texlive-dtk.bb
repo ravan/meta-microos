@@ -6,16 +6,15 @@ be used by article writers to typeset a single article, as well \
 as to produce the complete journal."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.08nsvn65315"
+PV = "2026.226.2.10fsvn71776"
 
-RPM_NAME = "texlive-dtk-2023.209.2.08nsvn65315-53.1.noarch.rpm"
-RPM_HASH = "1ad8024fbb2b3117d6d95c5f7dd8f124da41909c53a2646c27435951525741680b8e8eb65df33814a5932531d907bea944be273ff73f3cda693e0d8ddbaddd84"
+RPM_NAME = "texlive-dtk-2026.226.2.10fsvn71776-59.2.noarch.rpm"
+RPM_HASH = "7ca8903b377ef2e0c11ceae6f9bc31f3aefee27b63ed0824f105eb65f0c88b055d0c5f7d8b2d6939423487d65d27350fa93d9b03677f883efe336c739a590071"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dtk-author.clo \
+tex-dtk-fonts.clo \
 tex-dtk-full.clo \
-tex-dtk-new-engines.clo \
-tex-dtk-old-engines.clo \
 tex-dtk-url.sty \
 tex-dtk.bbx \
 tex-dtk.cbx \
@@ -28,7 +27,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-AnonymousPro.sty \
 tex-atveryend.sty \
 tex-babel.sty \
 tex-chem-angew.bbx \
@@ -38,22 +36,15 @@ tex-embedfile.sty \
 tex-enumitem.sty \
 tex-environ.sty \
 tex-eurosym.sty \
-tex-fontenc.sty \
 tex-fontspec.sty \
 tex-graphicx.sty \
 tex-hvextern.sty \
 tex-hvlogos.sty \
 tex-hvqrurl.sty \
-tex-ifluatex.sty \
 tex-ifpdf.sty \
 tex-iftex.sty \
-tex-ifvtex.sty \
-tex-ifxetex.sty \
-tex-inputenc.sty \
-tex-libertine.sty \
 tex-libertinus-otf.sty \
-tex-lstautogobble.sty \
-tex-luatex85.sty \
+tex-listings.sty \
 tex-marginnote.sty \
 tex-multicol.sty \
 tex-newunicodechar.sty \
@@ -66,7 +57,6 @@ tex-scrlayer-scrpage.sty \
 tex-selnolig.sty \
 tex-splitidx.sty \
 tex-tabularx.sty \
-tex-textcomp.sty \
 tex-trimspaces.sty \
 tex-unicode-math.sty \
 tex-url.sty \

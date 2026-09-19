@@ -1,11 +1,11 @@
 SUMMARY = "MySpell kmr_Latn Dictionary"
 DESCRIPTION = "Kurdish (Turkey) spelling dictionary."
-LICENSE = "AGPL-3.0-only & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & CC-BY-SA-1.0 & CC-BY-SA-3.0 & GFDL-1.1-only & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-only & LGPL-2.1-or-later & LGPL-3.0-only & LGPL-3.0-or-later & MPL-1.1"
+LICENSE = "AGPL-3.0-only & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & CC-BY-SA-1.0 & CC-BY-SA-3.0 & CC-BY-SA-4.0 & GFDL-1.1-only & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-only & LGPL-2.1-or-later & LGPL-3.0-only & LGPL-3.0-or-later & MPL-1.1"
 
-PV = "20221012"
+PV = "20240321"
 
-RPM_NAME = "myspell-kmr_Latn-20221012-1.2.noarch.rpm"
-RPM_HASH = "6f60e910704d0488e068c90a534b747c73e2ebf00773e97707c008c38431f49dfc7285d6d5be8e6fbd6b4b2f6f3141fdf5098b5e0918d30025048c989f19200d"
+RPM_NAME = "myspell-kmr_Latn-20240321-1.7.noarch.rpm"
+RPM_HASH = "e1accf4849c3c32f379287f503b08016fee491c1a6b8fff6e1e189a2db3c0c390f480c66b8c4dd302c8cea3a78259830cf91a60ed475aad9cccf7d3cca98e0af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-libreoffice-kmr-Latn \

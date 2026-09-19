@@ -6,8 +6,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-bdb-gssapi-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "08ab161d7bffcc0adb19dd946ed5ae77d79bb29259fa055ba98ed84b0f56ff967805728158844c11005ab40df83090b6b3be370548dc5d20e119e7d9dc24eb41"
+RPM_NAME = "cyrus-sasl-bdb-gssapi-2.1.28-12.4.aarch64.rpm"
+RPM_HASH = "f3677c80ae532ef3c8aa2f2ab9601d7c43c5c76790efc16a4a1591de5ae50ad7b46f7fb409414389791947bcca72320a84b415a08ea7d235e46ba6f1d5896047"
 
 RPROVIDES:${PN} += "cyrus-sasl-bdb-gssapi \
 libgssapiv2.so.3"

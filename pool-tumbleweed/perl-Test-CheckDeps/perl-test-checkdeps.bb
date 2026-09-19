@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.010"
 
-RPM_NAME = "perl-Test-CheckDeps-0.010-3.28.noarch.rpm"
-RPM_HASH = "0324d41256d0e54eaf4fd1b870d4895c9ebaffad4132c17a38aa3cabcaebe2e796d0c9374e7ff47a38eda46ef5f9b6daebd1ff7ba1aa3ec32cfb4c82239db11f"
+RPM_NAME = "perl-Test-CheckDeps-0.010-3.42.noarch.rpm"
+RPM_HASH = "cb7f0c40c393f7b2e432ddf718eca682ce2232b41c0deacf67251e4c06fe543fb5cb47694d0abb715a115bef3f2fda8f8447031b1b665003c4639b4417545c74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--CheckDeps \
 perl-Test-CheckDeps"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--Meta \
 perl-CPAN--Meta--Check"
 

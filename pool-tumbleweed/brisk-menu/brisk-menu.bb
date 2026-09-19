@@ -1,11 +1,11 @@
 SUMMARY = "Modern, efficient menu for MATE"
 DESCRIPTION = "Modern, efficient menu for the MATE Desktop Environment."
-LICENSE = "GPL-2.0-or-later & CC-BY-SA-4.0"
+LICENSE = "CC-BY-SA-4.0 & GPL-2.0-or-later"
 
 PV = "0.6.2"
 
-RPM_NAME = "brisk-menu-0.6.2-1.13.aarch64.rpm"
-RPM_HASH = "0a9183067bad3093081a1c1eefbf13dcc862968ec15a079457aac51e777a75c10e6fdf949f3b9e7b85a086b1285937642433adc405876cd3f1db474fb6d344fc"
+RPM_NAME = "brisk-menu-0.6.2-2.8.aarch64.rpm"
+RPM_HASH = "fb8970b9e4e25fffec072b5f6514d2429ac5cb081d1e6bb76f1cb8c8742740082f897528d88860a782bed19b2c3fe1b3012987b63101072c4b13ac706dedae38"
 
 RPROVIDES:${PN} += "brisk-menu"
 

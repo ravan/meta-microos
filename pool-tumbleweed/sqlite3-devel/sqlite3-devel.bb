@@ -9,12 +9,12 @@ directly to and from the database files on disk. \
  \
 SQLite can be used via the sqlite command-line tool or via any \
 application which supports the Qt database plug-ins."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "3.42.0"
+PV = "3.53.2"
 
-RPM_NAME = "sqlite3-devel-3.42.0-1.2.aarch64.rpm"
-RPM_HASH = "cb4bd7691d3882f789db7bdc2050c20599319a4378b63001ad6250ead6def0593ee462599c5b7c0b87a4e3b8ae353684880adba690942dd8558ac20f38432c90"
+RPM_NAME = "sqlite3-devel-3.53.2-3.2.aarch64.rpm"
+RPM_HASH = "832c788a62346ec66a6d7ab148b7d82ecfa8dbee8cc55c1d8850d1cb1d9bb62493964e867fd17198140d1727412d848e3066fcc088e616ee22f1516f0a79f691"
 
 RPROVIDES:${PN} += "pkgconfig-sqlite3 \
 sqlite-devel \

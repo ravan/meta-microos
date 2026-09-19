@@ -6,10 +6,10 @@ after a substring, and count the number of occurrences of a \
 substring."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn16117"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-substr-2023.209.1.2svn16117-58.1.noarch.rpm"
-RPM_HASH = "313e94cfe1165e2ac190b48245e686bf30c0c56f4bc30624fe3763dd244002fd411188ba9b9054c816fc57e672487dc0ca8e46ae7aa708929e4ee8a977918856"
+RPM_NAME = "texlive-substr-2026.226.1.2svn77682-64.2.noarch.rpm"
+RPM_HASH = "a39bfcc633832bd4c87a0fcce6efd793a8c3afb9b3bcdd19bd34d17f5b8cb8988f15a7a3caed12b6c81df632662a8cd79ffb4076ad69e041c5d109d19ed19c5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-substr.sty \

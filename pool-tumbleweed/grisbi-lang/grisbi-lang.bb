@@ -2,10 +2,10 @@ SUMMARY = "Translations for package grisbi"
 DESCRIPTION = "Provides translations for the 'grisbi' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.5"
+PV = "3.90.1"
 
-RPM_NAME = "grisbi-lang-2.0.5-1.9.noarch.rpm"
-RPM_HASH = "ae3291e52802a464b436e50a12ffd44131352add45eb5419c48aa372e1357a11bf2afc1bc487d665b3502bfdceef83c9e046a9846a23d7a59bc338e4b9174666"
+RPM_NAME = "grisbi-lang-3.90.1-1.6.noarch.rpm"
+RPM_HASH = "5e3709c672daadefa49f467238af5b6b44ad3c35772e6a0a3eaf2dbb2a3d63b8d37d37c5b750d64c42ebf7c0fe2082e546d8e3d808d3c6f7a38f0073de51480a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grisbi-lang \
@@ -28,7 +28,6 @@ locale-grisbi-pl \
 locale-grisbi-pt-BR \
 locale-grisbi-ro \
 locale-grisbi-ru \
-locale-grisbi-sv \
 locale-grisbi-zh-CN"
 
 RDEPENDS:${PN} += "grisbi"

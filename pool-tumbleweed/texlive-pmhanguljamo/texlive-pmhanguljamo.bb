@@ -6,10 +6,10 @@ Method'. The use of XeLaTeX is recommended. pdfTeX is not \
 supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.2svn66361"
+PV = "2026.226.1.3svn78114"
 
-RPM_NAME = "texlive-pmhanguljamo-2023.209.1.0.2svn66361-53.1.noarch.rpm"
-RPM_HASH = "449a20b888dcb5d7fc082aff0b1d64c0447adcc9c3b2d1ad13f186635fb7ec4527d902820c701c4cab222ca4be74366e8dbd0251dc40f2ec40550b10c67eadcd"
+RPM_NAME = "texlive-pmhanguljamo-2026.226.1.3svn78114-59.2.noarch.rpm"
+RPM_HASH = "4f5a6ce2d430a5dcb1564d72a06e5ad794ef5050b29eabdfc4b22a41038aadd4bdfa2cb95e03ef0cda4104d9e4fcef1c7d4d5ac83ea630ba596db6f49dbbf3c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-frkjamofull.data.tex \

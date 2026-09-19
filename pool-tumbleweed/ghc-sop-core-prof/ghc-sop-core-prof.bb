@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0.2"
 
-RPM_NAME = "ghc-sop-core-prof-0.5.0.2-4.8.aarch64.rpm"
-RPM_HASH = "5eae2444e6718a2963b2763d693c0bceeca2623cd837e3d701b8d9db83ae8a5106270e226631fa56470d4965057256cd900ea5a15d4872264e172757bbbb728f"
+RPM_NAME = "ghc-sop-core-prof-0.5.0.2-8.3.aarch64.rpm"
+RPM_HASH = "8d252daad56bc7aa90de59922fdf8cd17cbbcbc349822742fb8c0927242f1ac4225f9459eddb6895eaa5daa85fd45a107d90f9fa0dedcc58092139b6f6b6cf7a"
 
-RPROVIDES:${PN} += "ghc-prof-sop-core-0.5.0.2-4Gqw6OnhbZAJM3BBTi5hGD \
+RPROVIDES:${PN} += "ghc-prof-sop-core-0.5.0.2-JbzyU3U5Jc9a9b8Omhy6m \
 ghc-sop-core-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-deepseq-1.4.8.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-deepseq-1.5.1.0-1350 \
 ghc-sop-core-devel"
 
 inherit rpm

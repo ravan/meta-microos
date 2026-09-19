@@ -3,10 +3,10 @@ DESCRIPTION = "The libjose-devel package contains libraries and header files for
 developing applications that use libjose."
 LICENSE = "Apache-2.0"
 
-PV = "11"
+PV = "14"
 
-RPM_NAME = "libjose-devel-11-1.1.aarch64.rpm"
-RPM_HASH = "ca620b06a12bbf1caf22d3c0f549aecae5cc84d05149a46c41fece36043650e951a15d3e22277d2821c9c3849eb7a83d43f63217828c600ca0527947d488bfb5"
+RPM_NAME = "libjose-devel-14-1.3.aarch64.rpm"
+RPM_HASH = "85342d3a0c314440a9806bbf0d7057fee5ed7445099647287e14daabee6e15d0795ec9bf014fb2e17eb8f85e62ad570bfcb3daa04b42d831035880d657dfc0f8"
 
 RPROVIDES:${PN} += "libjose-devel \
 pkgconfig-jose"

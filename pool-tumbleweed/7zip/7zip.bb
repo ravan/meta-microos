@@ -1,12 +1,12 @@
-SUMMARY = "File Archivier"
+SUMMARY = "Command-line file archiver with high compression ratio"
 DESCRIPTION = "This package contains the 7z command line utility for archiving and \
 extracting various formats."
-LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & SUSE-Public-Domain"
+LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & LicenseRef-SUSE-Public-Domain"
 
-PV = "23.01"
+PV = "26.02"
 
-RPM_NAME = "7zip-23.01-2.1.aarch64.rpm"
-RPM_HASH = "12aea513bf6905bad404d63573244199463b3c552e59c4779a8ce0243ba8f2663657fe386bb8d52095d62575c062f6d893386035ccf908d1efd151ef8f90abb7"
+RPM_NAME = "7zip-26.02-2.1.aarch64.rpm"
+RPM_HASH = "5be58fb731d13580b8c5c9a29a42a9887b15ee112600a902b6194402a1764706af9fbb249cc6a90d44d7aa03bb74add3cd0584436209f9326e72318ced87de64"
 
 RPROVIDES:${PN} += "7zip \
 p7zip \

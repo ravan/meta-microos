@@ -2,10 +2,10 @@ SUMMARY = "GNOME Utilities"
 DESCRIPTION = "GNOME Utilities"
 LICENSE = "MIT"
 
-PV = "20201210"
+PV = "20250310"
 
-RPM_NAME = "patterns-gnome-gnome_utilities-20201210-16.1.aarch64.rpm"
-RPM_HASH = "c7da1475bbb83bd3c932250174d03b2500ab0f445e004c8898b98cfe07c01a401dddc9cf1441ceb5bf04adba89ddd2f4bc21064de95dee51ac64580b9fa31a5f"
+RPM_NAME = "patterns-gnome-gnome_utilities-20250310-10.2.aarch64.rpm"
+RPM_HASH = "af37d204d8d4e8d7d29ff66099bc0d1bb6c439a1adb29bf1d716db0fa817954b9f16029cfc16db7430f0e297aa2ec323089ea29f284ad34a3c7dcce11cffdbf0"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

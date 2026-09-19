@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.5.5"
 
-RPM_NAME = "libvisio2svg-devel-0.5.5-3.14.aarch64.rpm"
-RPM_HASH = "927973682eb47a725e0b0f10f9ddcd5ac4336b5a22464616700e3e239aa6a6961d2d1437e50514ce49ed37f4d3988f4de94cd60fc280b1f50fb3f9a4a846d1b8"
+RPM_NAME = "libvisio2svg-devel-0.5.5-3.24.aarch64.rpm"
+RPM_HASH = "2d70c814a9e073e64bc4972f6a429c40d041b99b651edfa1bafd507a9eb7107e74fafaa0577786120f90ecd9611aa1fe930020a18ea2a60a8658a7b133659320"
 
 RPROVIDES:${PN} += "libvisio2svg-devel"
 

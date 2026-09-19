@@ -5,17 +5,16 @@ interface (based on Winamp 2.x skins). Historically, it started as a \
 fork of a fork of XMMS."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.3.1"
+PV = "4.6.1"
 
-RPM_NAME = "audacious-4.3.1-2.1.aarch64.rpm"
-RPM_HASH = "01ff2949e9c70249fc4a3545275d0b827dbf404a613de54e14d11d0a7dc9c7ebf04f1fd4383155f7321eb80f9cde669f541a9f31b4465a5d16ed1c4dfb2fab9c"
+RPM_NAME = "audacious-4.6.1-1.3.aarch64.rpm"
+RPM_HASH = "7634119812f2156de53349654540b3af03148b9851e5f8bc66f6a3159fad00413e5bff16a32292c38fa6d4b8f495e8d18d98da811576df8ccd980980f8811666"
 
 RPROVIDES:${PN} += "audacious"
 
 RDEPENDS:${PN} += "audacious-plugins \
-cmake-Qt6Svg \
 ld-linux-aarch64.so.1 \
-libaudcore.so.5 \
+libaudcore.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libgio-2.0.so.0 \

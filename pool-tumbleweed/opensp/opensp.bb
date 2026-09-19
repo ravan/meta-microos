@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.5.2"
 
-RPM_NAME = "opensp-1.5.2-202.1.aarch64.rpm"
-RPM_HASH = "61ee0b8d9ed14deb5127aa0559e8262d18ede0e12eb76a7dded05d5be5323673c970b51f02978736f7cae38c244371a7057d222ee2d3c7b61b4c031d5035387b"
+RPM_NAME = "opensp-1.5.2-205.3.aarch64.rpm"
+RPM_HASH = "e1b39525245b93c146ee4e9407709cd3d60129e5fc265c72a666d22d00a8ff28c4b9ac82d5dc21115921d8b0c272503e136ac641d421f454a4cb093dfdcae221"
 
 RPROVIDES:${PN} += "OpenSP \
 config-opensp \
@@ -22,11 +22,11 @@ opensp \
 sp \
 sp-libs"
 
-RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libstdc++.so.6"
+libstdc++.so.6 \
+sgml-skel"
 
 inherit rpm

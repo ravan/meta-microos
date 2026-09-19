@@ -4,10 +4,10 @@ The VSS format is used by Windows, as of Vista, to maintain copies of \
 data on a storage media volume."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221030"
+PV = "20260714"
 
-RPM_NAME = "libvshadow1-20221030-4.1.aarch64.rpm"
-RPM_HASH = "de1ee557eabd7036ca587a13da659e6a77d94fbec89901faa3f867cfe010c6db0d817b3bcb405a1be05402257e7adb6e651580f5d6132bd875462fc695c093a0"
+RPM_NAME = "libvshadow1-20260714-1.2.aarch64.rpm"
+RPM_HASH = "7762a19e27776f63505029143990c31c15018c13c924dfc141ad4a4c7f9c2da8c34b6a2b0c34f789b043525e8efbe5e5ba80d92ce6bf72cd61d90f6a88805682"
 
 RPROVIDES:${PN} += "libvshadow.so.1 \
 libvshadow1"

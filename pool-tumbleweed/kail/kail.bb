@@ -5,10 +5,10 @@ changing cluster - pods are added and removed from logging as they fall \
 in or out of the selection."
 LICENSE = "MIT"
 
-PV = "0.16.1"
+PV = "0.17.4"
 
-RPM_NAME = "kail-0.16.1-1.5.aarch64.rpm"
-RPM_HASH = "8ab4bc5bad1e3005df509968545b148a6dbc6760c799b7f2df255659a9911e7072d3466bb98f40a2f7884ebd6657ebafff1fdd4c03fa669aa00619ec50860a23"
+RPM_NAME = "kail-0.17.4-1.16.aarch64.rpm"
+RPM_HASH = "2ce573b573827db81218e950ca20a3d28c87f2286e167934bf74ac70b5ce876da818a47264b0b4fc02fad7de8aa2756cf145e668a3ab9f84aa031ca7311ef507"
 
 RPROVIDES:${PN} += "kail"
 

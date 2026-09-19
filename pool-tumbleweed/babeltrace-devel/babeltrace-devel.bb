@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "1.5.8"
 
-RPM_NAME = "babeltrace-devel-1.5.8-3.8.aarch64.rpm"
-RPM_HASH = "45e2808a28a973792dc029c48a3b13f7880b67f69a77a99983fe6967b967395b85a43edc950247f10600885dbc3f3fe080f23608c6e454f3d0224ced29f53ce9"
+RPM_NAME = "babeltrace-devel-1.5.8-4.9.aarch64.rpm"
+RPM_HASH = "74ce5cf27dc703854cb0b51401bcb95e30b899b2724585945b5916ed5af27e6fc32cec1a5febbfa097cb6777847d6eb4ee89f143886c9af1a560204eb22d57e2"
 
 RPROVIDES:${PN} += "babeltrace-devel \
 pkgconfig-babeltrace \

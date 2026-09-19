@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for bcel"
 DESCRIPTION = "This package contains the API documentation for bcel."
 LICENSE = "Apache-2.0"
 
-PV = "6.7.0"
+PV = "6.10.0"
 
-RPM_NAME = "bcel-javadoc-6.7.0-1.1.noarch.rpm"
-RPM_HASH = "7b0cb74ba864a5f0b453ac836420bea2f6ee1de8d53cb54f19fe36cd6584ffb007e9de6f5ded41a5f531c042ad7737ca35e7ee5ba0baba8663018fdee2053bb4"
+RPM_NAME = "bcel-javadoc-6.10.0-1.9.noarch.rpm"
+RPM_HASH = "d8a553748f583a7501881f5b4c1425ef999e3bc775dc0e1d4f7579e9638e562fde00cf6da875cbc9a500a19844088272fb177ecddfc2fca05b999c3a93f36ece"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcel-javadoc"

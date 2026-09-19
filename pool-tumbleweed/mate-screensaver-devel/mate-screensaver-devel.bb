@@ -5,10 +5,10 @@ the MATE desktop. \
 This subpackage contains the pkgconfig file."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.26.2"
+PV = "1.28.0"
 
-RPM_NAME = "mate-screensaver-devel-1.26.2-1.1.aarch64.rpm"
-RPM_HASH = "66cfc1e3194b8c49b725009afb7238fe430795a615b71e6b3f1ffbee2f6eeac2e359c320e4102a2a78a0da792611137a38603a80b1381fd569f9d79636b33e3a"
+RPM_NAME = "mate-screensaver-devel-1.28.0-1.11.aarch64.rpm"
+RPM_HASH = "cd017d03e6064ffe44876ffe07943d492216738ae00aca758707174a63989c131bfc2b0e5b152ad758c959dfaf5ed584a18f2114fda59d47d5233c54cced5709"
 
 RPROVIDES:${PN} += "mate-screensaver-devel \
 pkgconfig-mate-screensaver"

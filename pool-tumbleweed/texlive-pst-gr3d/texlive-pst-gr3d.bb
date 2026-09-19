@@ -4,10 +4,10 @@ will draw a three dimensional grid, offering a number of \
 options for its appearance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.34svn15878"
+PV = "2026.226.1.34svn15878"
 
-RPM_NAME = "texlive-pst-gr3d-2023.209.1.34svn15878-53.1.noarch.rpm"
-RPM_HASH = "b41e4c2401ecf41fcad6ca7b8301c6e46fe5f4f47601dcc5eec6fa9dc9dd193afb5c89d47b5aa2b95aa4c94e9c5e910dfe4ce66109f952aaa2568f04c641e5ef"
+RPM_NAME = "texlive-pst-gr3d-2026.226.1.34svn15878-59.2.noarch.rpm"
+RPM_HASH = "69c4bb98c3dcaf5a91806f979e3bb1299d1e8d45fee4acd80207a2aaf6655112b0f9b02a08bcb83d6035be15b379e39e795cd89586e4cb4278d19d5d259a20b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-gr3d.sty \

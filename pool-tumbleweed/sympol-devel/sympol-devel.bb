@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.9"
 
-RPM_NAME = "sympol-devel-0.1.9-1.11.aarch64.rpm"
-RPM_HASH = "3fab2245de118e79b20f1bc3d6c1dc2e969b995d24815c8ec89dd9808d0ceadba4f9126f97df22dcd06e8b92fa33bafaae3853215d109cd61da40ea633277956"
+RPM_NAME = "sympol-devel-0.1.9-3.9.aarch64.rpm"
+RPM_HASH = "91c5f1025625a66fc531842fa0f5cabd1cdf5ec9f503b81419a0d3304a07de9823872741b268fa545fd318315d78acb7391c1b91c0c2bc33efb2d6c50375fe1d"
 
 RPROVIDES:${PN} += "sympol-devel"
 

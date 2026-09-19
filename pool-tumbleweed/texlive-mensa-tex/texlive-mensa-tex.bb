@@ -11,10 +11,10 @@ requires array, colortbl, datetime2, datetime2-calc, geometry, \
 graphicx, lmodern, textcomp, and xcolor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn45997"
+PV = "2026.226.svn45997"
 
-RPM_NAME = "texlive-mensa-tex-2023.208.svn45997-53.1.noarch.rpm"
-RPM_HASH = "65f7d597b1f5367afded872d391a1622b3bd1333abcaf439af0a69fbd6fa2dbd487880e59af3b9650f98a999b7e2a98f840b328afeadac8201e7aba1d1f188e9"
+RPM_NAME = "texlive-mensa-tex-2026.226.svn45997-59.2.noarch.rpm"
+RPM_HASH = "abc2decb90cb5a17bf6dd77c479cb3186d118eaa01b83a6650774bf924fb108f838ab2b6e5db4b75325a19213f8bda2b70ada2437d1c94e927a6c194460cea33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mensa-tex.cls \

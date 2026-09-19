@@ -22,16 +22,16 @@ look at: \
   * Exporter::Tiny::Manual::Importing"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.006002"
+PV = "1.006003"
 
-RPM_NAME = "perl-Exporter-Tiny-1.006002-1.3.noarch.rpm"
-RPM_HASH = "203470baf93d7e801dc2654d9b2d87a975697f0fe38d7656275819ce926c281141b69b59027a3d46c5e479f3fe261a41dba6ccbfbc506291e0507cbb226ec490"
+RPM_NAME = "perl-Exporter-Tiny-1.006003-1.5.noarch.rpm"
+RPM_HASH = "4c7858a738af5b6eac0dd69b11bff3ecfe101507a9b40e65a87e7aed99b6618a8a57ccb7471f9a9bc13e5590ff6e4122a0b3eec067e56cfb3024cab397d6ae20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Exporter--Shiny \
 perl-Exporter--Tiny \
 perl-Exporter-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

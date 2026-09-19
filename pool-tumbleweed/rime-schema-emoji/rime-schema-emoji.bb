@@ -1,11 +1,11 @@
-SUMMARY = "emoji input schema for rime"
+SUMMARY = "Emoji input schema for rime"
 DESCRIPTION = "emoji input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-emoji-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "91474dcd0e2f14df9bd040918edbc3b6a2dd9beed2f85828280c1d20124d90ce79cc3b9a9de043b1ae0d6b3640add2e526f73fe5ba6ec6ce957829c29631837a"
+RPM_NAME = "rime-schema-emoji-20250315-1.4.noarch.rpm"
+RPM_HASH = "d477ff2892ae48adef435d76d838673fffe776275aeaa0612ec3d90dbac3b8e3d876a27c71ac10147d2c8e7502c2dd5cc9edeecb719e897a4f44ba6833b85165"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-emoji"

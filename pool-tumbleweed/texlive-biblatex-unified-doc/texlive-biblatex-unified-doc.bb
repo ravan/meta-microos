@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-unified"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-unified"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.20svn64975"
+PV = "2026.226.1.20svn64975"
 
-RPM_NAME = "texlive-biblatex-unified-doc-2023.209.1.20svn64975-54.1.noarch.rpm"
-RPM_HASH = "f48a7a34adc4b4671781a3e99b7d4252caf3cc3f8bfad0ca468492d269eecf8cb42f9f4a33e8f67020ebc43162d3198fe3beadba8f8ed48e9880b3378f9f46b6"
+RPM_NAME = "texlive-biblatex-unified-doc-2026.226.1.20svn64975-61.2.noarch.rpm"
+RPM_HASH = "01117235a62d960fcd70e033cb33eb960ea365f053a4bfb1e100579830a842f104b86f7de77e5d2f3ba598661720f98a5344b4aa79a8b8c2599d2474088e2209"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-unified-doc"

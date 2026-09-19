@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sansmathaccent"
 DESCRIPTION = "This package includes the documentation for texlive-sansmathaccent"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn53628"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-sansmathaccent-doc-2023.209.svn53628-54.1.noarch.rpm"
-RPM_HASH = "e3e6a65fd0e7896089e55d2c202a3c04daffb24125a0b36f64313b3e37aca09589b53fcc5ea722d8b231182c281eda0e8ef51e5561b3da6dbfa1a500cafb5a41"
+RPM_NAME = "texlive-sansmathaccent-doc-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "2f380abdf98f3034c0de47e81834ece1d0f2b3e2726cb2cd6c925282b20f7b64d27c6c4b843e2849d87adce3efbbeeada347e1ebeef7dff1b3a22a3453a41413"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sansmathaccent-doc"

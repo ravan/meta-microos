@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+ | CPL-1.0"
 
 PV = "3.5"
 
-RPM_NAME = "flickrnet-3.5-8.19.noarch.rpm"
-RPM_HASH = "4a2ff1d4fa7fd9373522656d03099bc0daae0cbb6677d53821e9fdaa3fd480695dbd9d019709e6786b00c3f86e924f94e07a34a7a84af082e6d086108d7e458b"
+RPM_NAME = "flickrnet-3.5-8.26.noarch.rpm"
+RPM_HASH = "7b0db4448d579e9d533f1a5d3ed981d0b832c58ab2d71ef3aefc03d873600cae32f2dabb8dfd5a74280d030abded2b4bef22a0589cade1b20ff9e4bc9ee4d2c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flickrnet \

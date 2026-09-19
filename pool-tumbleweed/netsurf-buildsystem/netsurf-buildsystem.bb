@@ -2,10 +2,10 @@ SUMMARY = "Makefiles shared by NetSurf projects"
 DESCRIPTION = "netsurf-buildsystem contains makefiles shared by NetSurf projects."
 LICENSE = "MIT"
 
-PV = "1.9"
+PV = "1.10"
 
-RPM_NAME = "netsurf-buildsystem-1.9-1.8.noarch.rpm"
-RPM_HASH = "f8cb58a0187de14bc349d4a43f2a89b5dbfdfaa86d94829b2b55d82bcc9cf8f3aa8a58fd30275b87e5c426570f0c877a0df0866cf8fc9fbadf9fe1e1415857cd"
+RPM_NAME = "netsurf-buildsystem-1.10-1.9.noarch.rpm"
+RPM_HASH = "11b19aff5adabb52290c8abf9fef13ecd1e3b7298a072a2973673f92212e86fc1750b330eff35e640522d0a233b673515f85cbbdf6dc35d8a811c97c027f5472"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netsurf-buildsystem"

@@ -2,18 +2,21 @@ SUMMARY = "Severed fonts for texlive-unfonts-extra"
 DESCRIPTION = "The  separated fonts package for texlive-unfonts-extra"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn56291"
+PV = "2026.226.svn56291"
 
-RPM_NAME = "texlive-unfonts-extra-fonts-2023.209.svn56291-54.1.noarch.rpm"
-RPM_HASH = "bb20ec920b34198853d44f9c28533d29d49c130b00f313df552ec8b6da02a43a90daa02f8d8e579c43a220df764b76692d5f8fb1483a016e53397819a7295035"
+RPM_NAME = "texlive-unfonts-extra-fonts-2026.226.svn56291-60.2.noarch.rpm"
+RPM_HASH = "b39058e033c3cded0b7697724dd7a3ebc8f97454c64b4a1f0013279b589dd194cddc847a98d7d0cbde5b1d03e9619e372a081db67402050bcc3a73b8108cea7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
 font--lang=af \
+font--lang=agr \
 font--lang=an \
 font--lang=av \
 font--lang=ay \
+font--lang=ayc \
 font--lang=be \
+font--lang=bem \
 font--lang=bg \
 font--lang=bi \
 font--lang=br \
@@ -52,7 +55,10 @@ font--lang=lb \
 font--lang=lez \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=mg \
+font--lang=mhr \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -86,13 +92,17 @@ font--lang=su \
 font--lang=sv \
 font--lang=sw \
 font--lang=tl \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=wa \
+font--lang=wae \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-unjamobatang \

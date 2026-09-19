@@ -4,16 +4,16 @@ Picard Tagger focuses on album-oriented tagging as opposed to \
 track-based tagging."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.9.1"
+PV = "2.13.3"
 
-RPM_NAME = "picard-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "669301641de4a3c44de9bc488de01809f731740c5bdf8153cdf2119bbe3b890297755d40e7f707d039902bbed21f3461baccfa3fe2031bff7e0cb5684807b8bb"
+RPM_NAME = "picard-2.13.3-1.7.aarch64.rpm"
+RPM_HASH = "a99503d59de18aca1d5cc6be431a3b8f1ff0c26e8541d4d97f64386f44fd104b4863983e1f7e2f80a3e047b1338554f2d9910b346f26fa491369329eb310214d"
 
 RPROVIDES:${PN} += "picard \
-python3.11dist-picard \
+python3.13dist-picard \
 python3dist-picard"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 python-abi \
@@ -21,6 +21,7 @@ python3-Markdown \
 python3-PyJWT \
 python3-PyQt5 \
 python3-PyYAML \
+python3-charset-normalizer \
 python3-discid \
 python3-fasteners \
 python3-mutagen \

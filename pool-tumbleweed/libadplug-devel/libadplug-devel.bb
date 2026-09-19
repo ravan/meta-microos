@@ -9,16 +9,16 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libadplug."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.3.3"
+PV = "2.4"
 
-RPM_NAME = "libadplug-devel-2.3.3-1.4.aarch64.rpm"
-RPM_HASH = "b37a7c6e4350963b161e6a7adba13f027a386f959a78384b0b600fddec726cc4c6415c65d0dcf8672317c7da45f40b01f31caeaaf1b1ae549eb38a91c5e3d6e1"
+RPM_NAME = "libadplug-devel-2.4-1.7.aarch64.rpm"
+RPM_HASH = "4db1326f6256d1be7f292df1e8219fbcce3ff4834ec85696bbba604ce719483581fa7f063b2a9cdbd7e372bddc709e2aa7647ac68375d22129ec56003d3e4229"
 
 RPROVIDES:${PN} += "libadplug-devel \
 pkgconfig-adplug"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libadplug2-3-3-0 \
+libadplug2-4-0 \
 pkgconfig-libbinio"
 
 inherit rpm

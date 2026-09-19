@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.15.2b"
 
-RPM_NAME = "madplay-lang-0.15.2b-2.15.noarch.rpm"
-RPM_HASH = "376ee61662ea3f7a8663ca41e547357d19a7baa6317d226db26ca4a26d09f3c0ec4775fd57c7261203e3d867e6f432e7b5a3ef70c6999c2a27148be3661f9de3"
+RPM_NAME = "madplay-lang-0.15.2b-3.11.noarch.rpm"
+RPM_HASH = "8d392e01683f2ba4ac20c46e6aa55bd6d14cf5019fe4b2dc38c41a1cffa8bcca1498d47fd5c70331c5c403d0c2fe24b94a85122793775f915044ced6c29e5003"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-madplay-en \

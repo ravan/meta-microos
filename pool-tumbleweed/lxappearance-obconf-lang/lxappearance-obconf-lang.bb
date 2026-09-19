@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.2.3"
 
-RPM_NAME = "lxappearance-obconf-lang-0.2.3-1.26.noarch.rpm"
-RPM_HASH = "faaf79e6aeabcc9251f3ead0840754b3ff95228553c19df7b9f5e3ff178037feaf97130384e8284b85d9d8c2bb319d0751e08395254fe51b586928fa1af727e1"
+RPM_NAME = "lxappearance-obconf-lang-0.2.3-1.36.noarch.rpm"
+RPM_HASH = "4edb0a49bc084d5cc5e3a18ab0369f93b82a89f6706fc770d8ac281a4656616224c0b97f08e62e802966e0511c82b2741a5cf9ef0ed462b43fc1758e39a29e4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lxappearance-obconf-ar \

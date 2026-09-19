@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mpattern"
 DESCRIPTION = "This package includes the documentation for texlive-mpattern"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-mpattern-doc-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "b3bf38adf8c96e3f43b2d8cb1e1ac2de0fc7daeec9eb04af8942c4dc38dd76870c16e7426ed9f76910e7c8e9a3b895eb329005d9cc0a37d3c16b1704e9ff7995"
+RPM_NAME = "texlive-mpattern-doc-2026.226.svn15878-61.2.noarch.rpm"
+RPM_HASH = "d359b3875bf1123a016400a494bafa0a58c54d12ecce478c8f285b66f03400f1de8ddc06fd54275156aca8c54577f6d4bab5ea040f902e9f9017ce10d59c78ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-mpattern-doc-en;pl \

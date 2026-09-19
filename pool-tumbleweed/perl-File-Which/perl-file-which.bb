@@ -18,15 +18,15 @@ does not provide it, install App::pwhich which provides a command line \
 interface to this API."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.27"
+PV = "1.270.0"
 
-RPM_NAME = "perl-File-Which-1.27-1.11.noarch.rpm"
-RPM_HASH = "46b1d12f78aa74673442ad04ffeee7251e831a94a24c40b9dcbe774b9ee05d0f5e4803f1b94ea7a70bc0f05177797e776f4d65e7df6abc84da19e4535368f967"
+RPM_NAME = "perl-File-Which-1.270.0-1.8.noarch.rpm"
+RPM_HASH = "5447ec1e3cbbe67d8a497818b380827e32b93d550ddfe244de37caaf7ba5d8a1517acbe15477eb8929900c76c0fdb262b23f82414859fc6022f3e9f2df1d3a6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Which \
 perl-File-Which"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides support for Turkmen in babel, but \
 integration with babel is not available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn17748"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-turkmen-2023.209.0.0.2svn17748-53.1.noarch.rpm"
-RPM_HASH = "28d31da89f259b86b191fcf1f41d7026b4a5cd9432ae820a2a480baf21b33a8fa8f0460eaa33297f6a8a83b672a2d2b82107fe3824e402a23baaacd9830000ae"
+RPM_NAME = "texlive-turkmen-2026.226.0.0.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "3a24c7870b9cbc6ec54a71616a5a386746f9ee59177d7ee9f981871d06bde366b0af40348eb283fc897e05512e8c35e0fab85cdd2b7c07b7d87112753871441b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-turkmen.ldf \

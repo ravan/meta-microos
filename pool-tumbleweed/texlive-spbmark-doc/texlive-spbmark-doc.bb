@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-spbmark"
 DESCRIPTION = "This package includes the documentation for texlive-spbmark"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.42svn64706"
+PV = "2026.226.1.46ysvn76924"
 
-RPM_NAME = "texlive-spbmark-doc-2023.209.1.42svn64706-58.1.noarch.rpm"
-RPM_HASH = "8353b180bca73a128dd80889315e95eb91044406ff024a2a8ee03caa68df0161eb9747f5d524e0c0b4c298061acc6c04dd7f7a6c8383d59c23826f9febab3c43"
+RPM_NAME = "texlive-spbmark-doc-2026.226.1.46ysvn76924-64.2.noarch.rpm"
+RPM_HASH = "dea41df1b53e101e2d319ea2272cee5f9ccd49710a698fbe4ec5761a64a9b8c78ab81544247c8ae8a74ac1712ab9e69d1ff2f88edf9faf871c4e4737a0b65ee4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spbmark-doc"

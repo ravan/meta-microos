@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fira"
 DESCRIPTION = "This package includes the documentation for texlive-fira"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.4.3svn64422"
+PV = "2026.226.4.3svn77682"
 
-RPM_NAME = "texlive-fira-doc-2023.209.4.3svn64422-53.1.noarch.rpm"
-RPM_HASH = "af182174f139e8502b8c6e16268e755329c060195ebece603736419ac54f0598b52de0678cbfc6a21a869084a2bee7726450febaa960f1f0c7bc5d838088f1cf"
+RPM_NAME = "texlive-fira-doc-2026.226.4.3svn77682-59.2.noarch.rpm"
+RPM_HASH = "418422c68f9256a5840c46b93fd97d3a843ffc072957f82a0783b951a948fa00c8b8b1a2c65bbcb6117de78f71382ee5810004780cbc72e1cce2d343324bf4ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fira-doc"

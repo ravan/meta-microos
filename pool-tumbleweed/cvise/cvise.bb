@@ -1,6 +1,5 @@
 SUMMARY = "Super-parallel Python port of the C-Reduce"
-DESCRIPTION = " \
-C-Vise is a super-parallel Python port of the C-Reduce. The port is fully \
+DESCRIPTION = "C-Vise is a super-parallel Python port of the C-Reduce. The port is fully \
 compatible to the C-Reduce and uses the same efficient \
 LLVM-based C/C++ reduction tool named clang_delta. \
  \
@@ -11,10 +10,10 @@ has the same property. It is intended for use by people who discover \
 and report bugs in compilers and other tools that process C/C++ or OpenCL code."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.8.0+git.20230428.7aaa251"
+PV = "2.12.0+git.20260806.e477494"
 
-RPM_NAME = "cvise-2.8.0+git.20230428.7aaa251-1.2.aarch64.rpm"
-RPM_HASH = "ecd026bcfa5bac350213164d94ceb674e6dbab4bfc762f7b075a6ce1cbfd03ecf831e3238ecd6988e7321ad8d1f50967c1923a89d9dc55624f711e57c0b10662"
+RPM_NAME = "cvise-2.12.0+git.20260806.e477494-1.1.aarch64.rpm"
+RPM_HASH = "c8cad77c7556afb706edced3d82922097c3a4ebc96f79d63977eb44b03c54e1fa03e1b88fb85892f14f56389cd5e9ec762a5ae1d33906be1b146a782c1667ee9"
 
 RPROVIDES:${PN} += "cvise"
 
@@ -24,16 +23,17 @@ clang \
 colordiff \
 indent \
 ld-linux-aarch64.so.1 \
-libLLVM.so.16 \
+libLLVM.so.23.1 \
 libc.so.6 \
-libclang-cpp.so.16 \
+libclang-cpp.so.23.1 \
 libgcc-s.so.1 \
-libm.so.6 \
 libstdc++.so.6 \
 llvm \
 python3-Pebble \
 python3-chardet \
+python3-msgspec \
 python3-psutil \
+python3-zstandard \
 unifdef"
 
 inherit rpm

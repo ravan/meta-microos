@@ -2,10 +2,10 @@ SUMMARY = "A filemanager similar to XTree"
 DESCRIPTION = "ytree is a (curses-based) file manager similar to DOS XTree."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.05"
+PV = "2.13"
 
-RPM_NAME = "ytree-2.05-1.1.aarch64.rpm"
-RPM_HASH = "5182cd6a70ca85c025343b45be60630b5366bc167afae93e2f97b922b0a2cbecb5c4fbc8966c017074bab257f7a2e20fa94f105768fb07fec2f8458beeaea866"
+RPM_NAME = "ytree-2.13-1.3.aarch64.rpm"
+RPM_HASH = "eceb65630849bb6b276cfc7235b0ea8ad2cb672d219c7a3c641fa98d03ff49a56488e4d5ee9a6cf77e8368b4769435e08f3da8e8f3367d0dadbf7887ce148afd"
 
 RPROVIDES:${PN} += "ytree"
 

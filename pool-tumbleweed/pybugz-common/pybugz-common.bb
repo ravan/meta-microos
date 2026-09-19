@@ -10,10 +10,10 @@ attachments and close bugs all from the comfort of the command line. \
 This package contains common files for pybugz."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.13"
+PV = "0.14"
 
-RPM_NAME = "pybugz-common-0.13-3.10.noarch.rpm"
-RPM_HASH = "5dd9f7c83babd169b862d72f6b90c1da428b90c208a304f8e86194e1f5f68982a6236464ad5529f02836403a346e13ac93467eee6d2fbdc9499d4f23e1ec2484"
+RPM_NAME = "pybugz-common-0.14-1.5.noarch.rpm"
+RPM_HASH = "ae55ee9332e47b423af5399194ee5c01c43b6e4966b21ce747b515979c6231058a8a51bf8e808e154d26ccb8c6c46896724f7bcb39b62946b39a88d58cc1a88d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pybugz-common"

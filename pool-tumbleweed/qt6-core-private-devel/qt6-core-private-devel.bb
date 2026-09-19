@@ -3,12 +3,13 @@ DESCRIPTION = "This package provides private headers of libQt6Core that do not h
 ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-core-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "59517973191b464b8809a9c792e41ce387af05c5a5fc743ab3ecc44fc47ad4b81aefe16df7265b46ccc278cb76c19a2f38139b881a97ed4cf316e5fda6c4d865"
+RPM_NAME = "qt6-core-private-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "97e9bc0520e6326b5ea502cc82bd7f0560b240f0aa7aacb59c57c93d1a034b5380648a99bfb48187826edb01c016f2710a8ddd820f9adbcc83c701495b0c6f41"
 
-RPROVIDES:${PN} += "qt6-core-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6CorePrivate \
+qt6-core-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6Core"
 

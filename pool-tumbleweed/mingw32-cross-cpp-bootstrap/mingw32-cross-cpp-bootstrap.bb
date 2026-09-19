@@ -2,10 +2,10 @@ SUMMARY = "MinGW Windows cross-C Preprocessor"
 DESCRIPTION = "MinGW Windows cross-C Preprocessor"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw32-cross-cpp-bootstrap-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "8ee1f9e6b41286a591e02ffe43e4d3ddce8ad365db4d0d95e2d02820662b6795537c87735263075347da33bdbfa674e45615090e36dbde4a4a47e7a0fef177f1"
+RPM_NAME = "mingw32-cross-cpp-bootstrap-16.2.0-1.1.aarch64.rpm"
+RPM_HASH = "1578944aaee0e394f51dcf1f69a235304ee0781b6c56b8836cfb0d258d4d60a08d08ffcd5ccaca3a822bbdb8a97e632ac29ccb1f5f7d9570855818b73aa2645d"
 
 RPROVIDES:${PN} += "mingw32-cross-cpp-bootstrap"
 

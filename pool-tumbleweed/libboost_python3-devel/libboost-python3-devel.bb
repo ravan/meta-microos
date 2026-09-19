@@ -5,14 +5,13 @@ library for python3 development for boost. \
 This package installs the default Boost version of the library."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_python3-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "65465f59271eb99a1e346f35db924f3549794c97b9b020f8f5bf3605af8092187ec597fc698ec3ad8f4b43494d034168ab82fd99bd7aee4e3e68c18f7f9bb194"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_python3-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "1f1a131c6e536120baf299881e8b99f50c3701802a643498bf915152d87c13e215f4a59968b07c5322901fe53800577cb78f5adf820ee5f99f06d6e1e38d986e"
 
 RPROVIDES:${PN} += "libboost-python3-devel"
 
-RDEPENDS:${PN} += "libboost-python-py3-1-82-0-devel"
+RDEPENDS:${PN} += "libboost-python-py3-1-91-0-devel"
 
 inherit rpm

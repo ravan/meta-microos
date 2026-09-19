@@ -2,15 +2,15 @@ SUMMARY = "Devel package for poke"
 DESCRIPTION = "Development package for poke."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.3"
+PV = "5.0"
 
-RPM_NAME = "poke-devel-3.3-1.1.aarch64.rpm"
-RPM_HASH = "e89bf560dae36250da02b1cf181f485d7376be64fabac6dd0c0a57f6208df4262b88e936c02aa66e10cdf434dd6b737d09e536da3341ae880958dee014b8a391"
+RPM_NAME = "poke-devel-5.0-1.1.aarch64.rpm"
+RPM_HASH = "54be4a26cb8b943abda424ebae96e3c9c2aa5451b78f444ccf196ca844066f81e2b8258e3c0c94c85b87a6f414f3820f5e002ab459520f409c8127b0df5532c2"
 
 RPROVIDES:${PN} += "pkgconfig-poke \
 poke-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpoke0"
+libpoke2"
 
 inherit rpm

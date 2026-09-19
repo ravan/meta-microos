@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamertheme-arguelles"
 DESCRIPTION = "This package includes the documentation for texlive-beamertheme-arguelles"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.0svn66358"
+PV = "2026.226.2.5.0svn76524"
 
-RPM_NAME = "texlive-beamertheme-arguelles-doc-2023.209.2.1.0svn66358-54.1.noarch.rpm"
-RPM_HASH = "8c18c08f76e26a3140cc7550d490a2b504ada68810a5d4eafa4855611306e54779962db7001452fd0f77b2f5c9c210b7dd8fdbdd868cde399152a1d5c85552ca"
+RPM_NAME = "texlive-beamertheme-arguelles-doc-2026.226.2.5.0svn76524-61.2.noarch.rpm"
+RPM_HASH = "0a8d9474ad48dde3e158ae7a5bdd2b94db9a7b8275564c9289f56b8d9666dea8269b2fdd59ead886b5cc7ade0f6816682ad5a5229927e2144de745c08d1b14f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamertheme-arguelles-doc"

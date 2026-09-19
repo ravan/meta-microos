@@ -6,10 +6,10 @@ generating an error or printing '??' if there is no respective \
 hypertarget or label."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.97svn15878"
+PV = "2026.226.0.0.97svn15878"
 
-RPM_NAME = "texlive-gmiflink-2023.209.0.0.97svn15878-54.2.noarch.rpm"
-RPM_HASH = "872201364081ba96b3c85b00afe517b51bbbdf7045a13b49f73f1ae76fc00873938eab5f33a30780561451a6c7986c5c2d0c2f1a5f14f2b69546b1583f8aab94"
+RPM_NAME = "texlive-gmiflink-2026.226.0.0.97svn15878-60.4.noarch.rpm"
+RPM_HASH = "b040146337b06bb54ede3a78805559b5c49a7e67fbb3c51b4e4467254fa0586017ac911adbcbfeca27f35c62d903d1a191a5293f92706fc0830b00f31d455c72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gmiflink.sty \

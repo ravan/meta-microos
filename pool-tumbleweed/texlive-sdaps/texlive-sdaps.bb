@@ -3,7 +3,7 @@ DESCRIPTION = "This bundle contains LaTeX classes and packages to create \
 machine readable questionnaires. Metadata is generated for the \
 whole document and it is possible to process created forms \
 fully automatically using the SDAPS main program. Features \
-include: PDF Form generation Advanced array like layouting Can \
+include: PDF Form generation Advanced array-like layout Can \
 flow over multiple pages and repeats the header automatically \
 Optional document wide alignment of array environments Has \
 complex layout features like rotating the headers to safe space \
@@ -13,10 +13,10 @@ Range questions Layouting questions in rows or columns \
 Possibility to pre-fill questionnaires from LaTeX"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9.10svn65345"
+PV = "2026.226.1.9.10svn76924"
 
-RPM_NAME = "texlive-sdaps-2023.209.1.9.10svn65345-54.1.noarch.rpm"
-RPM_HASH = "b1f6815a7bd34992e3f2f8003df28b31dca5af8fca3b2e95c845ef87d16dd17a6d7bed6ea5a3ff75a6b33d119f6e57b77994e0ae2d73136341087cc4f6d1f3aa"
+RPM_NAME = "texlive-sdaps-2026.226.1.9.10svn76924-60.2.noarch.rpm"
+RPM_HASH = "312ca766cbb6c70a1e3a763ddebbe6374d65fa8005a83f07405c79742e9bfc2db4388475d23f19f92e4ee30784554dafa72997aea81c357092c01cb108e7a66f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sdapsarray.sty \

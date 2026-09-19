@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Hardware Tuning"
 DESCRIPTION = "This package contains the YaST2 component for hardware configuration."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-tune-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "d238e2018069c1c4018d7c74433f065f99663c3103a9bdef1eb032f1593a343f38cf9b0a341af51be5a26fbc1e5ff216677f6c9d85d34eeca37d5e9df154a8c0"
+RPM_NAME = "yast2-tune-5.0.1-1.2.aarch64.rpm"
+RPM_HASH = "09dd21f6d24dec3a6826c5b946da3023476c43198cb22c8dce8dd78432ff74cfa7ec9748a146abb7e4ec8a089a78fbd6b2749224d4b63795c6a29c377919a429"
 
 RPROVIDES:${PN} += "yast2-tune"
 

@@ -6,10 +6,10 @@ performance it’s ideal for protecting embedded application databases and is \
 well suited for mobile development."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.5.4"
+PV = "4.19.0"
 
-RPM_NAME = "sqlcipher-4.5.4-1.2.aarch64.rpm"
-RPM_HASH = "1e701b7793a2e0170ae8066f59d12eaae837b5fdc9c230038748d0086205e453993f9ddfd7e178da6b85872122d08519bb62801bee2cb13c2a1031fbbf817cd9"
+RPM_NAME = "sqlcipher-4.19.0-1.1.aarch64.rpm"
+RPM_HASH = "057e74a2ef0c14340e73600e3cdb1551f22e6873039f159e53f994a9823162693ea0ad6442743a1d1c8deb011ea3df5ede5fe9cb710ce853de18a84a7fd9af56"
 
 RPROVIDES:${PN} += "sqlcipher"
 

@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.3.6"
 
-RPM_NAME = "perl-Algorithm-CheckDigits-1.3.6-1.10.noarch.rpm"
-RPM_HASH = "4c55152e4743e0e3ff0c738f0dc1643d20b7bd4b439d35140d0b9f013479942fda88880934a642879549653eb02dbc834beb9468087983fba8f80cd54a50fb80"
+RPM_NAME = "perl-Algorithm-CheckDigits-1.3.6-1.25.noarch.rpm"
+RPM_HASH = "d6290cc50c0d5404476da856e0fcebcb4c8a447482eb8c8e6df187aeb6196e019352fa8dcc83a3cdb88b788a9c433df58825283f0aac0f2bd2a3cb14a7b41be7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Algorithm--CheckDigits \
@@ -55,7 +55,7 @@ perl-Algorithm--CheckDigits--MXX-006 \
 perl-Algorithm-CheckDigits"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-version"
 
 inherit rpm

@@ -11,8 +11,8 @@ LICENSE = "IPL-1.0"
 
 PV = "1.3.9.2"
 
-RPM_NAME = "libtpm_unseal1-1.3.9.2-3.6.aarch64.rpm"
-RPM_HASH = "d77d34d0c1a5b144f41a177a56f51e36c8ddcdd77a5c7458d06e197dcfd229adb84fb8f4fe1bd8f839e99bc4d5d1715858a00960c3b9b0d5f97a6a7d826c04e7"
+RPM_NAME = "libtpm_unseal1-1.3.9.2-3.16.aarch64.rpm"
+RPM_HASH = "8cd0a89c6639891b1136844324a56aece3b66a60d307e9d7aa4d07902450db4cadb9fa3a18a8d866ebbcd398ae7d6f82325149f1a5eac1338ff5ae790ca5232a"
 
 RPROVIDES:${PN} += "libtpm-unseal.so.1 \
 libtpm-unseal1"

@@ -2,10 +2,10 @@ SUMMARY = "Library for C path functions"
 DESCRIPTION = "A library for C path functions. Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220108"
+PV = "20260703"
 
-RPM_NAME = "libcpath1-20220108-4.6.aarch64.rpm"
-RPM_HASH = "83797c54c9ce0a771ac86e8a2a67ded1d726cd02d403eadea83e3066f4e0e8f22658ba493bd4f2f49c7a1fe62c674a81152ee03df4e8579ec2a8a4b765fd800a"
+RPM_NAME = "libcpath1-20260703-1.2.aarch64.rpm"
+RPM_HASH = "dd78f9453fd66200a37fed9a3eed8d5f84661ee4cf303b05affda859672863243bff03f9187249d3c610e5f745e783ed1a3e59473841258d803be5de8edef647"
 
 RPROVIDES:${PN} += "libcpath.so.1 \
 libcpath1"

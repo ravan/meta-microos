@@ -2,10 +2,10 @@ SUMMARY = "Internet Gateway"
 DESCRIPTION = "Software to set up a proxy, firewall, and gateway server, including a virtual private network (VPN) gateway."
 LICENSE = "MIT"
 
-PV = "20210330"
+PV = "20250313"
 
-RPM_NAME = "patterns-server-gateway_server-20210330-5.1.aarch64.rpm"
-RPM_HASH = "4f6a947a69235b853995b5a114f648c6f1eecf7f2360d4570b0c83654363d50149911d2bdb5076fd8b1ace902a52c91becc6b7f25420662534b7934516e9fcb6"
+RPM_NAME = "patterns-server-gateway_server-20250313-5.2.aarch64.rpm"
+RPM_HASH = "44bb91acad3b6569deacc6965e3a56fb7f72d63986e3ca767e66e030e30ae106cc9b5b88e144a88cee6d810264f3eabcc5b42f652acf661c4a5dc1b65f1a2f7c"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

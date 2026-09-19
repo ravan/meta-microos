@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.8"
 
-RPM_NAME = "ghc-appar-devel-0.1.8-4.3.aarch64.rpm"
-RPM_HASH = "cd724c80f389fa80c675dee212ceb496f75050ce50abdb8f979b923b549ebabcf6d437014860e9ac02cbd8adbbbd6d6caaf75a1299bf43dec32fa94976bd1e1b"
+RPM_NAME = "ghc-appar-devel-0.1.8-4.23.aarch64.rpm"
+RPM_HASH = "ad04c25d70c9a8eef379ea8348e99eadcfa6c4746ef33e0694ac3336599d1df5c3a2b092283b83175771930941cf8f6dc28b30e1936bcfd22d290deff987804a"
 
 RPROVIDES:${PN} += "ghc-appar-devel \
-ghc-devel-appar-0.1.8-1lWb1vtDAvc6rz1D87iAo"
+ghc-devel-appar-0.1.8-WSZSnBitxp1mS4dOP2hyq"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-appar \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be"
 
 inherit rpm

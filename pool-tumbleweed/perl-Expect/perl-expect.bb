@@ -1,4 +1,4 @@
-SUMMARY = "Automate Interactions with Command Line Programs That Expose a Text Term[cut]"
+SUMMARY = "Automate interactions with command line programs that expose a text term[cut]"
 DESCRIPTION = "See an explanation of at http://code-maven.com/expect \
  \
 The Expect module is a successor of Comm.pl and a descendent of Chat.pl. It \
@@ -18,17 +18,17 @@ Expect without forcing Tcl on the victim programmer :-) . \
 Please, before you consider using Expect, read the FAQs about 'I want to \
 automate password entry for su/ssh/scp/rsh/...' and 'I want to use Expect \
 to automate [anything with a buzzword]...'"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.35"
+PV = "1.380.0"
 
-RPM_NAME = "perl-Expect-1.35-1.24.noarch.rpm"
-RPM_HASH = "b984ddbb88d41e83e90ab780d1484b6114b2253aeadeaf3a4eb3fc7dbba384fdea7b986b9310a1dff956bb376099ce98eaf78c408f051b64021563d138a76ceb"
+RPM_NAME = "perl-Expect-1.380.0-1.12.noarch.rpm"
+RPM_HASH = "e8fbf8697fb07d85cfb7196d605330c3328d723c30e492c1fa93042eed2da23e4d5c51b999c194d674f05c6fb8ec5b7e1e6baded694841e22f213272620d7ad2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Expect"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IO--Pty \
 perl-IO--Tty"
 

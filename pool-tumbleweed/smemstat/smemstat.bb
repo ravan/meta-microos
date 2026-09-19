@@ -4,10 +4,10 @@ memory. The tool can either report a current snapshot of memory usage or \
 periodically dump out any changes in memory."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.02.12"
+PV = "0.02.13"
 
-RPM_NAME = "smemstat-0.02.12-1.1.aarch64.rpm"
-RPM_HASH = "4ef7f42305cbca484acbb231da60eacbf48939e157f991cfda05f24119f324c4506cc57e17777565c1041941aee9ea3a63c74d658b5b7a4dd569654db57ee459"
+RPM_NAME = "smemstat-0.02.13-1.11.aarch64.rpm"
+RPM_HASH = "ea625c89f697532e37955280316661b79619c53a24cbb74bd032e9bd7558599dd82e6cdf5d6a4a7eb1ec9a9a1154e9bc9eec5be2040a22705af02bac67a15c82"
 
 RPROVIDES:${PN} += "smemstat"
 

@@ -2,10 +2,10 @@ SUMMARY = "Development files for Ghostscript"
 DESCRIPTION = "This package contains the development files for Ghostscript."
 LICENSE = "AGPL-3.0-only"
 
-PV = "9.56.1"
+PV = "10.07.1"
 
-RPM_NAME = "ghostscript-devel-9.56.1-5.1.aarch64.rpm"
-RPM_HASH = "41958d2aea80079e01cdfcebf8bfe9e86f135cb345cc44a3b7ac0c64fb005c816fea89bccff2d7b068efa228555c6e32b04d6d5929ec6ef6bfa50f44b581c9df"
+RPM_NAME = "ghostscript-devel-10.07.1-1.3.aarch64.rpm"
+RPM_HASH = "25b20ce5764911c1275362d153dbe5d60857115ad491ec33f7c530b7418498c464b82be99ee3b687cc32eb428950f24dd0cf4e705746c991e51ef1386dd08f92"
 
 RPROVIDES:${PN} += "ghostscript-devel \
 pkgconfig-ijs"

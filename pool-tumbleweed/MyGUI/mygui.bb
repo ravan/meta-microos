@@ -15,15 +15,15 @@ load resources like fonts, cursors, images, skins, etc. Forms \
 This package contains ImageSetViewer and LayoutEditor."
 LICENSE = "MIT"
 
-PV = "3.4.1"
+PV = "3.4.3"
 
-RPM_NAME = "MyGUI-3.4.1-2.2.aarch64.rpm"
-RPM_HASH = "323b9ba0c1712b93abfd58c535b26c64d378d83f3039e20cfa2ef4d7b051831210d9811c75f768abcb7457accc6985d840245126530eeb7074b28a7dab83f6ce"
+RPM_NAME = "MyGUI-3.4.3-2.8.aarch64.rpm"
+RPM_HASH = "b5f2c992fade5cb8f9655da17d440b61d600b3507022c0d767850cd5bd166e528bc1f5cb47e6b08a5d539ed71bf561511ef0bb9302e2ed2d3e847fafb4da0d93"
 
 RPROVIDES:${PN} += "MyGUI"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libMyGUIEngine.so.3.4.1 \
+libMyGUIEngine.so.3.4.3 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

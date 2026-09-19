@@ -10,10 +10,10 @@ according to the national rules. It also allows to link phone \
 numbers using the hyperref package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.5svn63774"
+PV = "2026.226.2.6svn77682"
 
-RPM_NAME = "texlive-phonenumbers-2023.209.2.5svn63774-52.1.noarch.rpm"
-RPM_HASH = "f3d344715fe41f901d4bae74304f44675e6f06cc6876dfda29bd4aaf676ea7928a0227f93ee623aee8c86d0accfbae0072e5cbf846e3fdba19fd0b6081fdbd07"
+RPM_NAME = "texlive-phonenumbers-2026.226.2.6svn77682-58.2.noarch.rpm"
+RPM_HASH = "ad736e4e52c617a0e1ea3eb955171a82606c46f7c81a6dd3a3b2d88bc5ec5d7264dc177b026f8197f36bc66596edd387b57bea8d001f88e3d925b84778a98562"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phonenumbers-AT.def \

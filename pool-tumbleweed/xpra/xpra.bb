@@ -11,22 +11,24 @@ Xpra is usable over reasonably slow links and does its best to adapt to changing
 network bandwidth constraints."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "6.0+git20230901.77211231"
+PV = "6.5.3"
 
-RPM_NAME = "xpra-6.0+git20230901.77211231-1.1.aarch64.rpm"
-RPM_HASH = "2f53d3b07185b95cce18284b8a4ff042e12f22a992d5cd4836864df4e3d846b8e1aa1dad9c012cd7d7915a37809d28adb165708e7bb188e6baafd256f09cafcf"
+RPM_NAME = "xpra-6.5.3-1.1.aarch64.rpm"
+RPM_HASH = "2ef7f90bde2034c5889e022125cfe5085f82c498de676e14650403b6316343597a3ad2e246ebbf33369a6ad70aed7ca1b2f24a1d81c9e9751106ad8b35a13aae"
 
 RPROVIDES:${PN} += "config-xpra \
-python3.11dist-xpra \
+group-xpra \
+python3.13dist-xpra \
 python3dist-xpra \
 xpra"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/dbus-launch \
 /usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 /usr/bin/touch \
-dbus-1-x11 \
 fillup \
 gstreamer-plugins-base \
 gstreamer-plugins-good \
@@ -35,6 +37,7 @@ ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXRes.so.1 \
 libXcomposite.so.1 \
+libXcursor.so.1 \
 libXdamage.so.1 \
 libXext.so.6 \
 libXfixes.so.3 \
@@ -46,43 +49,34 @@ libbrotlienc.so.1 \
 libc.so.6 \
 libcairo.so.2 \
 libgdk-3.so.0 \
+libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 liblz4.so.1 \
 libpam-misc.so.0 \
 libpam.so.0 \
-libprocps.so.8 \
+libproc2.so.1 \
 libqrencode.so.4 \
 libsystemd.so.0 \
-libturbojpeg.so.0 \
-libvpx.so.8 \
+libvpx.so.12 \
+libwayland-client.so.0 \
 libwebp.so.7 \
 libxkbfile.so.1 \
+libxxhash.so.0 \
 pulseaudio-daemon \
 pulseaudio-utils \
 python-abi \
-python3-Pillow \
-python3-cairo \
-python3-dbus-python \
-python3-gobject-Gdk \
-python3-gst \
-python3-pycups \
-python3-rencode \
+python313-Pillow \
+python313-cairo \
+python313-dbus-python \
+python313-gobject \
+python313-gobject-Gdk \
+python313-gst \
+python313-pycups \
+python313-rencode \
 shared-mime-info \
-typelib-AppIndicator3 \
-typelib-AyatanaAppIndicator3 \
-typelib-GLib \
-typelib-GObject \
+typelib-1-0-Notify-0-7 \
 typelib-Gdk \
-typelib-GdkPixbuf \
-typelib-GdkX11 \
 typelib-Gio \
-typelib-Gst \
-typelib-Gtk \
-typelib-NM \
-typelib-Notify \
-typelib-Pango \
-typelib-PangoCairo \
-typelib-Rsvg \
 xf86-video-dummy \
 xorg-x11-xauth"
 

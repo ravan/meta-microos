@@ -5,10 +5,10 @@ the means whereby the NFSS knows which fonts a LaTeX user is \
 requesting. The package depends on cbgreek-complete."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn54080"
+PV = "2026.226.1.2svn54080"
 
-RPM_NAME = "texlive-cbfonts-fd-2023.209.1.2svn54080-53.1.noarch.rpm"
-RPM_HASH = "d995487bea5278eac7d96e68acda36664c5d964ef591e27846c70d3e6335563db10880278aab0fe1812325d0c084c8275f68cad46a1eb5e5a1032f90a23857b1"
+RPM_NAME = "texlive-cbfonts-fd-2026.226.1.2svn54080-59.2.noarch.rpm"
+RPM_HASH = "860138974df26616c9977f18a8053037b20743cb3a2658a16fa7606cf9f002117dbdabc552542e8c5c1c29fbdaae3ca77050b89c8fb2d69921bc3e4ed7a278f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lgrcmr.fd \

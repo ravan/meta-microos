@@ -8,15 +8,14 @@ result from the entire set of actions specified and gives the user the choice of
 either proceeding by avoiding the offending parts or aborting."
 LICENSE = "GPL-1.0-or-later"
 
-PV = "2.4"
+PV = "2.10"
 
-RPM_NAME = "mmv-2.4-1.1.aarch64.rpm"
-RPM_HASH = "0ed2ece0929d90b73de3b4a1f382a11595a7967ff5c99e80aac8696db2fa35eb749e86b73336597260a367efab5e31fbcd545bd2daccf576682575e3f6c9cfe0"
+RPM_NAME = "mmv-2.10-1.7.aarch64.rpm"
+RPM_HASH = "89a449198d190840488ad4159bccfad50a93247d805916074461055886a6dc804150282bb1093f07207cb9555b63a35bb8139f08256c1e9a6077d4819d0aefa3"
 
 RPROVIDES:${PN} += "mmv"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
-libgc.so.1"
+libc.so.6"
 
 inherit rpm

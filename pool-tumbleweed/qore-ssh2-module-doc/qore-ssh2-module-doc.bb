@@ -6,8 +6,9 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.0-or-later | MIT"
 
 PV = "1.4.2"
 
-RPM_NAME = "qore-ssh2-module-doc-1.4.2-1.1.aarch64.rpm"
-RPM_HASH = "2da5b038376117cd52929cf13d75343842f68fd2ae2e462ba622b5856aa21154297ab72454fd317575ef45d63267c60fe1f98740b35e56b5de00fe86fb86739c"
+RPM_NAME = "qore-ssh2-module-doc-1.4.2-4.5.noarch.rpm"
+RPM_HASH = "ab678957b7d73617a720ba20a03a7f1e01f5730ffd80bcdf36726d5ffdebd3380b646b1b864eb0f041444cfa7aea5a41fe6f8920303dd8a0e6a194ac897ca8ea"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-ssh2-module-doc"
 

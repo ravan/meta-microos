@@ -3,10 +3,10 @@ DESCRIPTION = "The package offers a clean, simple, and elegant LaTeX style for \
 thesis documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4.0svn51472"
+PV = "2026.226.0.0.4.0svn51472"
 
-RPM_NAME = "texlive-cleanthesis-2023.209.0.0.4.0svn51472-54.1.noarch.rpm"
-RPM_HASH = "ad73b900e5c7ab593030410bdffb9942190706c10041debf5237639eb2b5ff3a5002c179101c8fb344a7b39160f6a71320edc23963578a8522ea31308b30dbf8"
+RPM_NAME = "texlive-cleanthesis-2026.226.0.0.4.0svn51472-60.2.noarch.rpm"
+RPM_HASH = "dda99ab1994fac318044c17589102918eb6bbd5d1a947fdc5b63fc51a83ca240ef2767c5346d240264349083c021b62ca3b36d97c4ff2f98ee1f5cf0a73bd671"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cleanthesis.sty \

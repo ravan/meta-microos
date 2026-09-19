@@ -11,10 +11,10 @@ This package contains helper applications for OpenSSH which retrieve \
 keys from various sources."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "9.3p2"
+PV = "10.5p1"
 
-RPM_NAME = "openssh-helpers-9.3p2-1.1.aarch64.rpm"
-RPM_HASH = "0090399e700a0b99d416720f016ae17bc1536a12df004cbf89007de25319bc2873818207efb3f4a27d676c18ef342cb92c850013c7446a328c88183c36483a14"
+RPM_NAME = "openssh-helpers-10.5p1-1.2.aarch64.rpm"
+RPM_HASH = "ab9d347e98e841ea06664bf1774a17ad7238d637a67a1d4561c7d94d8fd2837bdb99858580f0a4807cfc481132791e9b089bf5a13841ec0a5867b26394ea7dcf"
 
 RPROVIDES:${PN} += "config-openssh-helpers \
 openssh-helpers"

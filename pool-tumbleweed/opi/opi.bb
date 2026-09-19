@@ -1,19 +1,23 @@
 SUMMARY = "OBS Package Installer (CLI)"
-DESCRIPTION = "OBS Package Installer (CLI)"
+DESCRIPTION = "OBS Package Installer (CLI) \
+Search and install almost all packages available for openSUSE and SLE: \
+- openSUSE Build Service \
+- Packman \
+- Popular packages for 3rd party vendors"
 LICENSE = "GPL-3.0-only"
 
-PV = "3.4.0"
+PV = "5.16.0"
 
-RPM_NAME = "opi-3.4.0-1.1.noarch.rpm"
-RPM_HASH = "4446793fbbb1455b696ce19f6f73acdc914340c94332618a158f3bda2ea592c3967774c93a7a27ea7f76d29ea83626c578c990b8dc040bc081a537fb7e9d76fb"
+RPM_NAME = "opi-5.16.0-1.1.noarch.rpm"
+RPM_HASH = "68efb311be9c33f8bb5a13886299f01d1dc99afbe2de70025f51571c805188d376d32d86976b65b5ae51b39d9d8d831e46dfd3b609ca760c8e4aed38ee466a56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-opi \
 opi \
-python3.11dist-opi \
+python3.13dist-opi \
 python3dist-opi"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 curl \
 python-abi \
 python3-curses \

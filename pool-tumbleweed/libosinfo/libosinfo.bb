@@ -4,15 +4,16 @@ determine the optimal device settings for a hypervisor/operating system \
 combination."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.10.0"
+PV = "1.12.0"
 
-RPM_NAME = "libosinfo-1.10.0-3.4.aarch64.rpm"
-RPM_HASH = "17cd2475a8a8e5db1120a2992592bd71f43dd3cd29350455b2534af7d71b80dc1bbaa101c79ba96fedd0f643a6135837cea927d84b7479fc223efce8982a9339"
+RPM_NAME = "libosinfo-1.12.0-3.6.aarch64.rpm"
+RPM_HASH = "6960d49379155e6c27e09dd494293bb3f875c17c91c8bdc17673c0523581c26b35d9bbc2c2a76eb5e046c1e0395e36e0cddf1193587f7fa89cb028fcaf0fbb28"
 
 RPROVIDES:${PN} += "libosinfo"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libgcc-s.so.1 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

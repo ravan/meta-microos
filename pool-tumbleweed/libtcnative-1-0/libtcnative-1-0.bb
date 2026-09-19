@@ -1,23 +1,28 @@
-SUMMARY = "JNI wrappers for Apache Portable Runtime for Tomcat"
-DESCRIPTION = "Tomcat can use the Apache Portable Runtime to provide superior \
-scalability, performance, and better integration with native server \
-technologies. The Apache Portable Runtime is a highly portable library \
-that is at the heart of Apache HTTP Server 2.x. APR has many uses, \
-including access to advanced IO functionality (such as sendfile, epoll \
-and OpenSSL), OS level functionality (random number generation, system \
-status, etc), and native process handling (shared memory, NT pipes and \
-Unix sockets). \
+SUMMARY = "Tomcat resources for performance, compatibility, etc"
+DESCRIPTION = "The Apache Tomcat Native Library is an optional component for use \
+with Apache Tomcat that allows Tomcat to use certain native \
+resources for performance, compatibility, etc. \
  \
-These features allows making Tomcat a general purpose webserver, will \
-enable much better integration with other native web technologies, and \
-overall make Java much more viable as a full fledged webserver platform \
-rather than simply a backend focused technology."
+Specifically, the Apache Tomcat Native Library gives Tomcat access \
+to the Apache Portable Runtime (APR) library's network connection \
+(socket) implementation and random-number generator. See the Apache \
+Tomcat documentation for more information on how to configure Tomcat \
+to use the APR connector. \
+ \
+Features of the APR connector: \
+ \
+* Non-blocking I/O for Keep-Alive requests (between requests) \
+* Uses OpenSSL for TLS/SSL capabilities (if supported by linked APR \
+  library) \
+* FIPS 140-2 support for TLS/SSL (if supported by linked OpenSSL \
+  library) \
+* Support for IPv4, IPv6 and Unix Domain Sockets"
 LICENSE = "Apache-2.0"
 
-PV = "1.2.23"
+PV = "1.3.8"
 
-RPM_NAME = "libtcnative-1-0-1.2.23-2.15.aarch64.rpm"
-RPM_HASH = "38bd0dc57598572eddc57cd24f7ca8fb31b56703358183b268e965a12c5dfbfe7397b4e4ea2523c95e94dfa09a0045c5e6228cd3b5ec0764ad71cd85a901db0b"
+RPM_NAME = "libtcnative-1-0-1.3.8-1.3.aarch64.rpm"
+RPM_HASH = "c83825f6c0c0e7a1ae9a4ad3573ac3fdbe2c674e30e394628f63c2aa3ed382c2959669ddd8dd0f0935899a1e3c9e27a4690a387506e79b5c475a441d0976391d"
 
 RPROVIDES:${PN} += "libtcnative-1-0 \
 libtcnative-1.so.0 \

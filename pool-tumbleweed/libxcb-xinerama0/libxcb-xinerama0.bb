@@ -8,10 +8,10 @@ multi-headed X applications and window managers to use two or more \
 physical displays as one large virtual display."
 LICENSE = "MIT"
 
-PV = "1.16"
+PV = "1.17.0"
 
-RPM_NAME = "libxcb-xinerama0-1.16-1.1.aarch64.rpm"
-RPM_HASH = "51912a8a7c48c2be41c5d774f209532415277f74dc0aecf82878ba6247f84b04979065066cb3678f2185ff35fd0bf08b977fc62b4fe2103f6c4d5498d75991dc"
+RPM_NAME = "libxcb-xinerama0-1.17.0-2.7.aarch64.rpm"
+RPM_HASH = "62c22bfc8cc69a2df83dfc3c3fd336d870782d598364742eeb09c5558313d2b8f28bd35671a279559dc93a8703af29818fd4bdebf2297a5053df965c75f09278"
 
 RPROVIDES:${PN} += "libxcb-xinerama.so.0 \
 libxcb-xinerama0"

@@ -9,14 +9,15 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.4+git.1625210904.93ea1f9"
 
-RPM_NAME = "drbd-formula-0.4.4+git.1625210904.93ea1f9-1.6.noarch.rpm"
-RPM_HASH = "0e65f30148d68c3f7ed0636f832f4e10912622a013d482cfdcf2f96c5a9321bf7061c9e300f14188d937b95d53866db357c6f3b789bb50b233d33cafbc27058a"
+RPM_NAME = "drbd-formula-0.4.4+git.1625210904.93ea1f9-1.16.noarch.rpm"
+RPM_HASH = "4ba59dd77de2d3af0b32d6d3b9530b4d191a5583e8e676125d67b4d9fe0a91643d741918f56346093adb053a4f38b7ac103160406179dd46ab26305c5e7c040a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drbd-formula"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 drbd-utils \
+group-salt \
 salt-formulas-configuration \
 salt-shaptools"
 

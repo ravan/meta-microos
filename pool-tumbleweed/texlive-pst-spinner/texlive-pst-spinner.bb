@@ -6,10 +6,10 @@ Spinner. You can run the PSTricks related documents with \
 XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn66115"
+PV = "2026.226.1.02svn66115"
 
-RPM_NAME = "texlive-pst-spinner-2023.209.1.02svn66115-54.2.noarch.rpm"
-RPM_HASH = "d29e69b61d38011dcab5519f90d3835a13832c49fb2a5918e1bed2626fb0c86aa5764c03b95c1df2cf18151ef19bfd0150a88e77073051be5b3c8518c2685d42"
+RPM_NAME = "texlive-pst-spinner-2026.226.1.02svn66115-60.4.noarch.rpm"
+RPM_HASH = "74013a7d8a1db0107b6dd8eaaeef8e7aaf02dc317f8e1b3a5b719bea2d8687f86d1075ae6debb029007202edf4461180e7a7222519577fc48641415a5dac0fd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-spinner.sty \

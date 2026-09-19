@@ -4,12 +4,12 @@ the new spelling rules.  The name of the dictionary is nswiss to be able \
 to distinguish it from those of the German packages. A short usage \
 description is given in /usr/share/doc/packages/ispell/README of the \
 package ispell."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "20161207"
 
-RPM_NAME = "ispell-nswiss-20161207-2.14.aarch64.rpm"
-RPM_HASH = "9d1eacdd4e5bf01411149690541b87de939f0eaf3f925408cf4798f49d1bc65408c70c56edc1292d2ca06d770eb8f6362b093c626d6d06dc24536d4727fd24b0"
+RPM_NAME = "ispell-nswiss-20161207-6.1.aarch64.rpm"
+RPM_HASH = "e827fa0e8aa2c8f1fdf79793a6afed310871b9f1f3a60a355c6a85338ea045aea0752039e8e7bb4083b2cc3086fb0e96154a80c234bb7f4f0a1f4d7ccffdbf9d"
 
 RPROVIDES:${PN} += "ispell-dictionary \
 ispell-nswiss \

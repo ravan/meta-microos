@@ -4,10 +4,10 @@ primarily developed for use by Node.js, but it is also used by \
 Mozilla's Rust language, Luvit, Julia, pyuv, and others."
 LICENSE = "MIT"
 
-PV = "1.46.0"
+PV = "1.52.0"
 
-RPM_NAME = "libuv1-1.46.0-1.1.aarch64.rpm"
-RPM_HASH = "3932e810b8005370e35961abee6255082cfb7ba95a6819f86d5d45eae73c6546abce82bb26e8eefe99e1b6a18e3f76ef1f48d24e2d2668a60b5691a3ef0aa613"
+RPM_NAME = "libuv1-1.52.0-1.3.aarch64.rpm"
+RPM_HASH = "74b84610c8f21a7e847671a223d059710c15e49f45779862aed3352a3875c0aeb7ef76c835cbafb6f725ba248c4e11f0daaf53435e0f3aada9375b9c601b2372"
 
 RPROVIDES:${PN} += "libuv.so.1 \
 libuv1"

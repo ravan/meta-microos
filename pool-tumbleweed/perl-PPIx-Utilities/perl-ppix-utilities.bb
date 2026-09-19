@@ -8,8 +8,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.001000"
 
-RPM_NAME = "perl-PPIx-Utilities-1.001000-14.17.noarch.rpm"
-RPM_HASH = "b633eadbf76228991251eb66c1759a8b119aa4a388f5739c48a0f69c122ace0dbce33301c97b7e1dfd746c58ef6bb22131bd5a066d2b6458efe5a8f0e1da01f0"
+RPM_NAME = "perl-PPIx-Utilities-1.001000-14.31.noarch.rpm"
+RPM_HASH = "5c3b404de4df3735de942732906a40d7687b309e1149bc00e93da5eb7dcd218e1d9cc822f464ac87b3797b0c84fde19312a5ee467e773842d6f20f19b855667d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PPIx--Utilities \
@@ -18,7 +18,7 @@ perl-PPIx--Utilities--Node \
 perl-PPIx--Utilities--Statement \
 perl-PPIx-Utilities"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Exception--Class \
 perl-PPI \
 perl-PPI--Document--Fragment \

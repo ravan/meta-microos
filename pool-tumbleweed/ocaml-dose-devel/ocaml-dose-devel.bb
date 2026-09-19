@@ -1,11 +1,12 @@
-SUMMARY = "An OCaml dependency toolkit -- Development files"
-DESCRIPTION = "This package contains development files for package ocaml-dose."
+SUMMARY = "Development files for ocaml-dose"
+DESCRIPTION = "The ocaml-dose-devel package contains libraries and signature files for \
+developing applications that use ocaml-dose."
 LICENSE = "LGPL-3.0-or-later"
 
 PV = "7.0.0"
 
-RPM_NAME = "ocaml-dose-devel-7.0.0-1.13.aarch64.rpm"
-RPM_HASH = "fa4e94bae378898efe93725c802b5f63902bfdd92b7a5ed6abc382f9ffd9191bbdd64486a92a861526a90d1c8daff6fab748ecaeecf590151ecaa072711c8082"
+RPM_NAME = "ocaml-dose-devel-7.0.0-5.1.aarch64.rpm"
+RPM_HASH = "c3ea9625dc0b7aecc1db41f475b330aa3beec769e753bf8b4d99c137f1280bf5831c8f2a178b51903a5afdd058884c6321de2377cd307216e42696347990a2ea"
 
 RPROVIDES:${PN} += "ocaml-Dose-algo \
 ocaml-Dose-algo--Defaultgraphs \
@@ -76,7 +77,6 @@ ocaml-Cudf-types-pp \
 ocaml-Enum \
 ocaml-ExtArray \
 ocaml-ExtBuffer \
-ocaml-ExtBytes \
 ocaml-ExtHashtbl \
 ocaml-ExtLib \
 ocaml-ExtList \
@@ -102,13 +102,20 @@ ocaml-Option \
 ocaml-PMap \
 ocaml-Re \
 ocaml-Re-- \
+ocaml-Re--Ast \
 ocaml-Re--Automata \
 ocaml-Re--Category \
+ocaml-Re--Color-map \
+ocaml-Re--Compile \
 ocaml-Re--Core \
 ocaml-Re--Cset \
+ocaml-Re--Dyn \
+ocaml-Re--Fmt \
 ocaml-Re--Group \
+ocaml-Re--Mark-infos \
 ocaml-Re--Pcre \
 ocaml-Re--Pmark \
+ocaml-Re--Replace \
 ocaml-Re-pcre \
 ocaml-Std \
 ocaml-Stdlib \
@@ -119,6 +126,7 @@ ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Complex \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Format \
@@ -130,6 +138,7 @@ ocaml-Stdlib--Lexing \
 ocaml-Stdlib--List \
 ocaml-Stdlib--Map \
 ocaml-Stdlib--Marshal \
+ocaml-Stdlib--Mutex \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Printf \
@@ -144,10 +153,10 @@ ocaml-Stdlib--Uchar \
 ocaml-Unix \
 ocaml-dose \
 ocamlfind-cudf \
+ocamlfind-dose3.common \
 ocamlfind-extlib \
 ocamlfind-ocamlgraph \
 ocamlfind-re.pcre \
-ocamlfind-stdlib-shims \
 ocamlfind-unix \
 ocamlx-CamlinternalLazy \
 ocamlx-CamlinternalOO \
@@ -158,7 +167,6 @@ ocamlx-Cudf-printer \
 ocamlx-Cudf-types-pp \
 ocamlx-Enum \
 ocamlx-ExtArray \
-ocamlx-ExtBuffer \
 ocamlx-ExtHashtbl \
 ocamlx-ExtLib \
 ocamlx-ExtList \

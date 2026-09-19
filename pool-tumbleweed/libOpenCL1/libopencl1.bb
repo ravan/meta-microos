@@ -8,18 +8,16 @@ The provided libOpenCL library is able to load any free or non-free installed \
 ICD (driver backend)."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.3.1"
+PV = "2.3.4"
 
-RPM_NAME = "libOpenCL1-2.3.1-2.1.aarch64.rpm"
-RPM_HASH = "2e290d008259d319f83f66914f76a1a0549820fb9d70fc47739cd478e29f5d8fddce9c469997336bffdbb105226bfa263d854b834e6b6da11f5d353f8a5a781d"
+RPM_NAME = "libOpenCL1-2.3.4-1.5.aarch64.rpm"
+RPM_HASH = "eb2e928f39634bb5e3033734f11537ee57211cc87f226ad415b37c27719b1dd88cd18a6bb15e9a1b3a542d739454fa042c01ed8d489e943e8d7b3c7f57de1d09"
 
 RPROVIDES:${PN} += "libOpenCL.so.1 \
 libOpenCL1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libc.so.6 \
-update-alternatives"
+libc.so.6"
 
 inherit rpm

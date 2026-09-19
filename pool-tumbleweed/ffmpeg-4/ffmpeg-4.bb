@@ -7,10 +7,10 @@ that humans and machines have created. \
 This build of ffmpeg is limited in the number of codecs supported."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "ffmpeg-4-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "b4121bd94849d1496898b46cfe6386bc04c4b70ff101c0ee669a37fb575486e0b0c43a0d17708b80d5ea7f1b4324e5e4aa443fe779848fb9eda904a01e440762"
+RPM_NAME = "ffmpeg-4-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "9d8fc86f6ce9554a61ebbed3f1671d0625c578d2d0add9b2c9bcf489de6363c6b0a753cd1878f363e54f20ee5827353ad7ef06cf319895d42d1513453dbe2bd8"
 
 RPROVIDES:${PN} += "ffmpeg \
 ffmpeg-4 \

@@ -47,15 +47,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "perl-URI-Fetch-0.15-1.11.noarch.rpm"
-RPM_HASH = "ae92fd45d7dd8803ab90577557ce242bb7437248cb04a25e7189193d0349d110bcaa490d3348c2ab56f950d4c69245da63b5aab505610d5e1d95f7286967e475"
+RPM_NAME = "perl-URI-Fetch-0.15-1.25.noarch.rpm"
+RPM_HASH = "6c20a5bd47a076fbc09313234f66bb765422fd682072fbd2fc5338da07037755a0d83f1e0d6f3804ba57d94c88ea4f00c7e83bb874c8530001446d2ccd1277f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-URI--Fetch \
 perl-URI--Fetch--Response \
 perl-URI-Fetch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--ErrorHandler \
 perl-LWP--UserAgent \
 perl-URI"

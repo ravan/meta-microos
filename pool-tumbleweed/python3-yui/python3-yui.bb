@@ -10,17 +10,17 @@ Authors: \
 -    dmacvicar@suse.de"
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "python3-yui-4.6.0-1.4.aarch64.rpm"
-RPM_HASH = "d13ff99eb1f39064bcc2dc6cac19c280dea410b01f4a363ad5cf051b12879f0d37cc4de11e8686addd45cccff0ee54a9f140d5428aa2f36244e3731c41cde790"
+RPM_NAME = "python3-yui-4.7.7-1.3.aarch64.rpm"
+RPM_HASH = "e23d4eca3306e43e01d8e012621878e8a59a44a7d0376b67aa3eec6551e2d61e3bf864bea31d82a6389dcbd2c94766af47e2ae9c7a3b816c604383af63a61289"
 
 RPROVIDES:${PN} += "python3-yui"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libstdc++.so.6 \
 libyui.so.16 \
 python-abi"

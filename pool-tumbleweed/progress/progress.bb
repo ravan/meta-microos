@@ -6,10 +6,10 @@ the percentage of copied data. \
 It can now also display an estimated throughput (using -w flag)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.16"
+PV = "0.17"
 
-RPM_NAME = "progress-0.16-1.8.aarch64.rpm"
-RPM_HASH = "3fec165af9ca1fa1d270b67aa3071f2d5b607641a3f48c925fe208e8092f1ae9b4d616304932e4af5fbf305bb770dfde638fb5e0d1100da7b9b17b51d2d83a07"
+RPM_NAME = "progress-0.17-1.11.aarch64.rpm"
+RPM_HASH = "9e0d59546c30f41eb3847800c00163308bc661d6899bf7508d6263aec6fe2c6a31397c2e35dc80bc8143bd143b31bdfd50cf291e4e8aeabb43fc4ed16ec336e4"
 
 RPROVIDES:${PN} += "cv \
 progress"

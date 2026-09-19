@@ -2,10 +2,10 @@ SUMMARY = "WSL GUI packages"
 DESCRIPTION = "This package contains the wsl_gui pattern: recommended configs,tools,libraries for using WSLg."
 LICENSE = "MIT"
 
-PV = "20221221"
+PV = "20240327"
 
-RPM_NAME = "patterns-wsl-gui-20221221-1.2.noarch.rpm"
-RPM_HASH = "abaf7915d706d98b871901b301be76241882a9a36f1fb8384a714439bcf5ae197e43a0ca48b18e792c7f1d4396bb84f8a93e1a76412f355c2c1c924aa6a0bfdd"
+RPM_NAME = "patterns-wsl-gui-20240327-1.7.noarch.rpm"
+RPM_HASH = "63252f494f93f3b853b73959291681cbb58866bb34f5f766f97b9c3a5c78db6c2caf3ef3b966a721574d14faf47de2751971109840a97460a701e567321faf88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

@@ -4,10 +4,10 @@ distribution includes the 'Counting Words' program distributed \
 with CWEB, edited to run with LaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn28878"
+PV = "2026.226.svn28878"
 
-RPM_NAME = "texlive-cweb-latex-2023.209.svn28878-55.1.noarch.rpm"
-RPM_HASH = "7713e67a23f70f5027c47986a5da9623e8b3ba3ee90a6368dfe75c5ffd22532ca416e1fef8ccb4217bf889b98bcd62f0301790a10335f158cfc59dbfa38214bf"
+RPM_NAME = "texlive-cweb-latex-2026.226.svn28878-61.2.noarch.rpm"
+RPM_HASH = "703949618ba0be44a5d37dbe0956c7038bd90480d155d96dfa860e9ad3d2cd5ff565f0f023fcd7ea4c7535c851a08cd1f396c5114656981bf34d2485dec7249a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cwbl-german.sty \

@@ -1,11 +1,11 @@
 SUMMARY = "Development files for the GObject Data Mapper"
-DESCRIPTION = "This is a DataMapper for GObject."
+DESCRIPTION = "Development files for the GObject Data Mapper."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.4"
+PV = "0.5.6"
 
-RPM_NAME = "gom-devel-0.4-1.16.aarch64.rpm"
-RPM_HASH = "7d8b5d336ecd0dc1a3f8c834226aad053b8bce5045dc305c40e446884e7ee5614d4ca15510ce3432980a6bad92ce81b018f174c00a809feb83083e752cb5d2c9"
+RPM_NAME = "gom-devel-0.5.6-1.3.aarch64.rpm"
+RPM_HASH = "9c6c6892dcfd5b44c8cbc426ac4de389efa62f070453c4cd7f614b76cf3682cb1c1010dc1848e3c0503b6f9466c02505b6cca58229c3aafb7aade103ab512d43"
 
 RPROVIDES:${PN} += "gom-devel \
 pkgconfig-gom-1.0"

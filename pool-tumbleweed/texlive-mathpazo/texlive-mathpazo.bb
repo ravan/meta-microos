@@ -20,10 +20,10 @@ support (using package mathpazo.sty) is provided in psnfss (a \
 required part of any LaTeX distribution)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.1.003svn52663"
+PV = "2026.226.1.003svn77682"
 
-RPM_NAME = "texlive-mathpazo-2023.208.1.003svn52663-53.1.noarch.rpm"
-RPM_HASH = "4bdd3dd5d7fc2de9e63709614d2a383ea2a5a683617c1483b5e3045da939f00c7395e11a54d4abf3c13fc8ff66e313404d737d1ca2eace8b2af6d549865d16fc"
+RPM_NAME = "texlive-mathpazo-2026.226.1.003svn77682-59.2.noarch.rpm"
+RPM_HASH = "8c7b169356587e4429069528c368c3a51fcf2dcded55455e3d83778a83e7fac39e2cf2ef0d1acef8b4a91883e2b32df3e51a1ad44ac06e681e756c634bf44dd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fplmb.tfm \

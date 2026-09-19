@@ -2,10 +2,10 @@ SUMMARY = "Kinyarwanda localization files for LibreOffice"
 DESCRIPTION = "Provides Kinyarwanda translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-rw-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "3dcd82db179993f2e21d5775fe0929132e29e9cb00ec09aca700b9866791c0201273889efa5f5867d768b10a49ebec7f88a6e6ac3851df003cca4052ed403244"
+RPM_NAME = "libreoffice-l10n-rw-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "c9b24a69d83ee41cff365fe36674ac3dfab5ac78982e03a742629771c6f38aa8135f290c728b2f27fb8ae1cda8d8547ba37d41cbf0c4c5a5e0f42aca3a2d0447"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-rw \

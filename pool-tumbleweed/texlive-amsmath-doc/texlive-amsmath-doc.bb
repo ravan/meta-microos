@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-amsmath"
 DESCRIPTION = "This package includes the documentation for texlive-amsmath"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn63514"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-amsmath-doc-2023.209.svn63514-55.1.noarch.rpm"
-RPM_HASH = "809c175888978af0700d3021c79f0212b099191591f5d2a99d59be352f1fbabc0ed2001f84da9b44e64c76a8ba7609e8ddb8922b1a14c60499000876c5cbda00"
+RPM_NAME = "texlive-amsmath-doc-2026.226.svn78101-61.2.noarch.rpm"
+RPM_HASH = "ba837705cbb83dc6ba38f974f881bf24e328485f228efbfb186af204f773859d892f869787eb7cef1c03e76a7e6eb6ba208061a8a1bec7b12a033e9f71e6a69c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-amsmath-doc-en \

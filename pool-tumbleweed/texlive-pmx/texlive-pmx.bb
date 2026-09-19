@@ -8,10 +8,10 @@ proof-listening, pmxab will make a MIDI file of your score. \
 scor2prt is an auxiliary program that makes parts from a score."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.00svn65926"
+PV = "2026.226.3.00svn75301"
 
-RPM_NAME = "texlive-pmx-2023.209.3.00svn65926-53.1.noarch.rpm"
-RPM_HASH = "cf0d080626568ec9f02165719ed6675c6ca82866e57333715b8592d7f6f9623c63552677f4b97974d618542fc3d59e0d8a0785d432c3cfe1edd478e49e268b6c"
+RPM_NAME = "texlive-pmx-2026.226.3.00svn75301-59.2.noarch.rpm"
+RPM_HASH = "1fa506cdb992c2d9ecff4e2d3448da89c8f2d6e0290d6eefe743099fa0b5d88f541132190c20138ee9e5cfaaea4d06d906a3f60ea68c6c106b6b438f76c517f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pmx.tex \

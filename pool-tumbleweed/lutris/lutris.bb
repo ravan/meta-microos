@@ -5,33 +5,32 @@ This includes, for example, Steam or GOG games, Windows games (WINE), \
 or emulated console games and browser games."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.13"
+PV = "0.5.22"
 
-RPM_NAME = "lutris-0.5.13-3.1.noarch.rpm"
-RPM_HASH = "550a8f773dec90d1438ece1e9775d1d3bc1ed292f1c1badbdad5b0ba5f7e2e0c23289b11e94afaee0501b321a4b437c25ccce6b5329d6a8c5ca460efb823a51e"
-REPO_ARCH = "noarch"
+RPM_NAME = "lutris-0.5.22-2.2.aarch64.rpm"
+RPM_HASH = "c2cd6d8aa51a631c1f17b7428a80fcdefb2ee999d53d17e898b0be8cfc463b34905fbccfe68bd0123554d47eebc80de271975722ebed6303413c37115e0b31c0"
 
-RPROVIDES:${PN} += "lutris \
-python3.11dist-lutris \
-python3dist-lutris"
+RPROVIDES:${PN} += "lutris"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 cabextract \
 curl \
 fluid-soundfont-gm \
+libvulkan1-32bit \
 p7zip \
 psmisc \
 python-abi \
 python3-Pillow \
 python3-PyYAML \
-python3-cssselect \
+python3-certifi \
 python3-dbus-python \
+python3-distro \
 python3-evdev \
 python3-gobject \
 python3-gobject-Gdk \
 python3-lxml \
+python3-protobuf \
 python3-requests \
-typelib-AppIndicator3 \
 typelib-GLib \
 typelib-GObject \
 typelib-Gdk \
@@ -40,6 +39,7 @@ typelib-Gio \
 typelib-GnomeDesktop \
 typelib-Gtk \
 typelib-Pango \
+typelib-PangoCairo \
 typelib-WebKit2 \
 xrandr"
 

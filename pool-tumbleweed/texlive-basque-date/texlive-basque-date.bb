@@ -6,10 +6,10 @@ automatically solve the complex declination issues of numbers \
 in Basque."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.05svn26477"
+PV = "2026.226.1.05svn26477"
 
-RPM_NAME = "texlive-basque-date-2023.209.1.05svn26477-54.1.noarch.rpm"
-RPM_HASH = "07f5873bc4fc9b309c63b17db18f72635de2467aad396072e8ab6b7e8e4b918d8bba49a1129f9ecaa698dc5c4a026529d2951dabcaa913970dab837feef35264"
+RPM_NAME = "texlive-basque-date-2026.226.1.05svn26477-60.2.noarch.rpm"
+RPM_HASH = "898931cb0c44f087ad457235e91b928272420368c43a75b867e2570d5442f2852098813cbef2270658e3f673554f71873bb6ac36e29bda5f93d1c83a919790ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-basque-date.sty \

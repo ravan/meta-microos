@@ -8,10 +8,10 @@ enumerating sentence examples, simple tabular-based \
 non-connected tree macros, and gloss macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.91svn21751"
+PV = "2026.226.0.0.91svn21751"
 
-RPM_NAME = "texlive-tree-dvips-2023.209.0.0.91svn21751-53.1.noarch.rpm"
-RPM_HASH = "fc95791697ac5f2c0c89dd6019553dfc92a39a5859c8b95396c339476c1aa6039680db7031473f7fa5af081880e5d8505cffb5b13453131aea1cd0c3bfdd6c02"
+RPM_NAME = "texlive-tree-dvips-2026.226.0.0.91svn21751-59.2.noarch.rpm"
+RPM_HASH = "d51b49a68949e45296ab01d8de19defd421c6233435dea5f6ccf440484f6922ee9b37bf3e4ac5e0ebaf6c02cfc56ac7511aedc069dec4023fe68d74fc5a00856"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lingmacros.sty \

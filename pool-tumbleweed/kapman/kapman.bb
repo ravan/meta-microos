@@ -8,29 +8,31 @@ the next level, and the player and ghost speeds increase. The game ends when you
 have lost all your lives."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kapman-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "89bba565689465d15f66386ed1d5c0f5f443f7e1c02515986e5c2b7548f7d4cc1292b3e53ef96b8389c1a0a36e84420121b863c9b7bb03074ad5255e8092c03e"
+RPM_NAME = "kapman-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "2ccf44fcf4903898c80ddf42845c790dd77fc74bc075edd399bc7f9a624970815512319521ba9865fb83c7980160b4bc2a065681869a07aaccb62ea448eb22f0"
 
 RPROVIDES:${PN} += "kapman \
 kapman5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Svg.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

@@ -5,10 +5,10 @@ an international collaboration that publishes the proceedings \
 of accelerator conferences held around the world."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.7svn63060"
+PV = "2026.226.2.7svn63060"
 
-RPM_NAME = "texlive-jacow-2023.209.2.7svn63060-56.1.noarch.rpm"
-RPM_HASH = "e40608be8c1e5304ea396d04f41cd790b194c24f0699b822ab97e47ef56528c3f008ea16bf66db6997b638715611cacec3e86ea52b6ad11f912e777752beb364"
+RPM_NAME = "texlive-jacow-2026.226.2.7svn63060-63.2.noarch.rpm"
+RPM_HASH = "3e47a334249e18a2b6705b50fb0112bbaba9ef149c0b05972f07e193a833424024fa271b3359939e4138dba884c03639e85c1f3573eeae4745b39be0cde687f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jacow.cls \

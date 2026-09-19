@@ -15,12 +15,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.37"
 
-RPM_NAME = "postgrey-1.37-7.7.noarch.rpm"
-RPM_HASH = "93bdcd85539e1ff1f84017090b18d1341dd9db4a949dd55c516796138098331d1657b8e5eeb956e9aa0e59d029021f6a43e0164cba1086de961fe8128836cb14"
+RPM_NAME = "postgrey-1.37-10.8.noarch.rpm"
+RPM_HASH = "c3180e951edf441e7dbb25a3ce1b20c21455a2e865bd20b5726eafbe0b80551d8c54afaeb8519965cf1b410ecbca4562bb7be9f3b3e87d0f83aad05c78bd7841"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-postgrey \
-postgrey"
+postgrey \
+user-postgrey"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
@@ -28,6 +29,7 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
 group-nogroup \
+group-postfix \
 perl \
 perl-BerkeleyDB \
 perl-IO-Multiplex \

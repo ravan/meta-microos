@@ -3,10 +3,10 @@ DESCRIPTION = "Contains libraries and header files for developing applications u
 libldm."
 LICENSE = "LGPL-3.0-only"
 
-PV = "0.2.4"
+PV = "0.2.5"
 
-RPM_NAME = "libldm-1_0-0-devel-0.2.4-2.11.aarch64.rpm"
-RPM_HASH = "ef0d8f8aa5703f90e57917a919239037d7ff71333c1b34680ad70be227399194018818d48cde7c3c59c942249a9ac99ea2bef123a1e9b46ca503c44faf7933e8"
+RPM_NAME = "libldm-1_0-0-devel-0.2.5-1.7.aarch64.rpm"
+RPM_HASH = "c7e6fa5d7c285351b72e6ab7f46f7c1bf4940ea04244211336d95f7444c5e8513368f3f42565c0f892e6bbc94750824407d75d8cae555d926f8146673a465aa7"
 
 RPROVIDES:${PN} += "libldm-1-0-0-devel \
 pkgconfig-ldm-1.0"

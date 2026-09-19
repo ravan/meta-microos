@@ -4,10 +4,10 @@ builtins for the interpreter Bash. Use the output of the command \
 `pkg-config bash --cflags' on the compilers command line."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.15"
+PV = "5.3.15"
 
-RPM_NAME = "bash-devel-5.2.15-8.6.aarch64.rpm"
-RPM_HASH = "b9fa3836d959913259d8e7e66861713bf6d53b49ec998f5a1b47d67a11eed3b8981198063162981b0460d6b3ab1085b63bb41ed9bdba3a7e81d11d95861caafc"
+RPM_NAME = "bash-devel-5.3.15-8.2.aarch64.rpm"
+RPM_HASH = "610e0d78b66da3913eeb954019030ed407756a4db4db6b5eb28e8653be0deb8b67dc53fa5bdd5e316c1beff2411bb76dda1b8c534a93afc758ffd90ba83076cb"
 
 RPROVIDES:${PN} += "bash-devel \
 pkgconfig-bash"

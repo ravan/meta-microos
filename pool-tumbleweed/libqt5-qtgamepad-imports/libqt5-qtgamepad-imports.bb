@@ -2,10 +2,10 @@ SUMMARY = "QML imports for the Qt5 Gamepad module"
 DESCRIPTION = "This package contains QML import files for the Qt5 Gamepad module."
 LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtgamepad-imports-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "3e50cb1e91b9894366efb186a8988cec4464008a184db3522afab3951824d83d421ad6c6e4d0d9c4e40185a729ab72f079fcd56a522fc7ebf49cd4451838ebd4"
+RPM_NAME = "libqt5-qtgamepad-imports-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "f5754a46fe06563046b5fb59a13bccc42b37face7aaedf1982139f53ddd52d290d86593fd70a1683fc30c00f321575c0fdbe4b3eb42c63c1b79fa02af4cec2d3"
 
 RPROVIDES:${PN} += "libdeclarative-gamepad.so \
 libqt5-qtgamepad-imports \

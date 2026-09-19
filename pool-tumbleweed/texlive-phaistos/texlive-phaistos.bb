@@ -10,10 +10,10 @@ that the rather later Cretan Linear B script was used to write \
 Greek), but arguments for other languages have been presented."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn18651"
+PV = "2026.226.1.0svn18651"
 
-RPM_NAME = "texlive-phaistos-2023.209.1.0svn18651-52.1.noarch.rpm"
-RPM_HASH = "7f643e22ec45b0180377c1930462886f56be52d799cff3eb2254b58f83f90a18412b0c0e5d76d195fb4fd0b53730a013ef71a96692c37ec8f1406ea9abbc1013"
+RPM_NAME = "texlive-phaistos-2026.226.1.0svn18651-58.2.noarch.rpm"
+RPM_HASH = "ddb253ec7e21254285a42258a38b65429f0b34d53c9cfdcef44fa98ddee508edbd7fca7652323b81e435a039db261e6024563ec99762d3013b007e3d117a4030"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phaistos.map \

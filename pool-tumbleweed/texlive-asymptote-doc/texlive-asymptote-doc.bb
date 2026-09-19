@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-asymptote"
 DESCRIPTION = "This package includes the documentation for texlive-asymptote"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2023.209.2.85svn65952"
+PV = "2026.226.3.09svn78154"
 
-RPM_NAME = "texlive-asymptote-doc-2023.209.2.85svn65952-54.1.noarch.rpm"
-RPM_HASH = "bc6c0038f820ed9dfac08bea53d2f284ea9716d48b4ea3561b59b111dbdcafa93b50c83541f606dc3ebd38ef8c1cbf2a09d9115c4472be7f41a578f3b815983a"
+RPM_NAME = "texlive-asymptote-doc-2026.226.3.09svn78154-60.2.noarch.rpm"
+RPM_HASH = "0e0285b6f701c2018befc130927293d95ee5daec4d3d56d4a9e9e0e0180135d4a59f56b81e5016a2e20687577dfee4ab7d12a281ef68889df81183bbdd729540"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-asy.1 \

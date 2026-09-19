@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.3.1"
 
-RPM_NAME = "libosip2-devel-5.3.1-1.2.aarch64.rpm"
-RPM_HASH = "9a9010d00a7b4e00aa3e6e502c201b6ad96baae3e0f1c4f1538bc74f5addda9b1dc74cc1d2f1428168c8ee9f010f559460c436c7897e14b1ff8d08fed5ed6979"
+RPM_NAME = "libosip2-devel-5.3.1-1.12.aarch64.rpm"
+RPM_HASH = "9915047c1d8a530a610d69dfef840d102c3b3a59c5b2d4312a21ca94812bf826d5b401369e2bf58821d6edfb9e3d6b886997d66829c0f7ec0a1dddc0967bb8b1"
 
 RPROVIDES:${PN} += "libosip2-/usr/include/osip2/osip.h \
 libosip2-devel \

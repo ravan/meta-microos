@@ -2,10 +2,10 @@ SUMMARY = "Unicode/Charset conversion library for twin"
 DESCRIPTION = "Unicode <-> charset conversion routines for twin."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "0.9.0+17"
+PV = "0.9.0+161"
 
-RPM_NAME = "libtutf1-0.9.0+17-3.6.aarch64.rpm"
-RPM_HASH = "d980be1efc9a6b2039c6c26bb50310c62a51508338e7ac7adbfbd376e10d607edf817918d5e76fd224cefe233b15691bb59501077e84c5c9c4a18ee14664ea70"
+RPM_NAME = "libtutf1-0.9.0+161-1.5.aarch64.rpm"
+RPM_HASH = "7ffb1ea329fb852f3ab4aa2a63f14119e0e8f2f883f112174896a2032458812cbc1f56459146d26adc5b76658d7f2b18598f6b7f59ec8b4c40763699d4152a3c"
 
 RPROVIDES:${PN} += "libTutf1 \
 libtutf.so.1 \

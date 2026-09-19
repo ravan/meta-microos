@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains shared libraries for accessing DVD images (
 package does not contain DeCSS algorithms)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.1.3"
+PV = "7.1.1"
 
-RPM_NAME = "libdvdread8-6.1.3-1.5.aarch64.rpm"
-RPM_HASH = "c185c64924293283002ae3ccfa0aec8fe6c88cad267350da31538615c3cc0f11dd06e0797b9aa79d5197e66eccfd64c45ed42a9fe8351ae9c8c361cca120e610"
+RPM_NAME = "libdvdread8-7.1.1-1.1.aarch64.rpm"
+RPM_HASH = "7d1e1161bc59b5bd39f5f067b4789c822728c33e32d3cf127c543efeed26ba5eca00fab2a7cb1d33df4301864530a18656bad8337f9347eb2f32adc7b226e80a"
 
 RPROVIDES:${PN} += "libdvdread \
 libdvdread.so.8 \

@@ -16,10 +16,10 @@ using \
 as a template."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.5"
+PV = "3.5.2"
 
-RPM_NAME = "storeBackup-3.5-13.7.noarch.rpm"
-RPM_HASH = "8c733e017fdd104225f35701b3a4bd622f84724285f4deed1c90046d5f46518ccb4d0146707c75822b6323c6a7f04fb2e5499f845883c2783654a926b786abc3"
+RPM_NAME = "storeBackup-3.5.2-1.8.noarch.rpm"
+RPM_HASH = "5ad5679b62e320bd333906c57b5fca91bed0e92542a5e9df536a126f91f2147dbd99173bc1dfb9fd12c3d2b1c0f6fe407019cfb6878eb0aa09dc62cae803a05b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "storeBackup"

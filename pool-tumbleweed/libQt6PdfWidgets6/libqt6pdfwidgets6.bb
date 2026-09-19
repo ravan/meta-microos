@@ -2,10 +2,10 @@ SUMMARY = "Qt6 PdfWidgets library"
 DESCRIPTION = "The Qt6 PdfWidgets library."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6PdfWidgets6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "d643d116632249364bb3d2d6c4423ef0a4c8951168c7b453fb0addb2dc14610c82499b7c3d9c1c660717909eec5324f44c42b8f804bf43ea6a1063063f8f0a08"
+RPM_NAME = "libQt6PdfWidgets6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "5e6c5d2bf76efba58d62d4156d23a70d229dad88649fffbce58efbd64286c22375f75d8fed2862183bce2dd69dbaa4e597b4015d3bbe76676d6c0c59a73ff850"
 
 RPROVIDES:${PN} += "libQt6PdfWidgets.so.6 \
 libQt6PdfWidgets6"

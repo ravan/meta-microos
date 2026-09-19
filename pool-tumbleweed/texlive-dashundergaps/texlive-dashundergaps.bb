@@ -6,10 +6,10 @@ provided, where the underline (of whatever form) can serve for \
 a 'fill-in block' for student evaluation sheets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0hsvn58150"
+PV = "2026.226.2.0hsvn77682"
 
-RPM_NAME = "texlive-dashundergaps-2023.209.2.0hsvn58150-55.1.noarch.rpm"
-RPM_HASH = "707a39d1de17944360476dbcea5e782abf41e1a1ad9031ff5c9bd957196aea90ad7d0695937bf42f3af9dafdc8e0e4a12d16b5d2ef8ed9fbca43e39220ff06c0"
+RPM_NAME = "texlive-dashundergaps-2026.226.2.0hsvn77682-61.2.noarch.rpm"
+RPM_HASH = "83f0cef1001e4eb41c79fe3bd0911df8227f80fd9440ea34203534a3866a81e02a1faea4d3892a717e29608c8fe031e44b58935d4668fe7ec198db929726a19d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dashundergaps.sty \

@@ -5,14 +5,14 @@ LICENSE = "GPL-2.0-or-later & MIT"
 
 PV = "1.13.2"
 
-RPM_NAME = "h5utils-1.13.2-1.2.aarch64.rpm"
-RPM_HASH = "afaa81719ca1bfd43283041149e4fc431ac6fc04b9b9d8cc03799500216c3aa071c4bc0faeebe0ca4622e634ce2439e1ca836e60225d589c50a9c170106a4d13"
+RPM_NAME = "h5utils-1.13.2-1.15.aarch64.rpm"
+RPM_HASH = "2775061fd3973b4d99cc1d3d0a8b2874bf2eca5d6bf46ebdaf1e3279254a716728ac49878eb6c5ef045cfdad95eeb6523a6c9ced6c886ed58ca6fa08b25b6734"
 
 RPROVIDES:${PN} += "h5utils"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libhdf5.so.200 \
+libhdf5.so.310 \
 libm.so.6 \
 libpng16.so.16 \
 meep"

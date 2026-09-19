@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0.ge4631e8a"
 
-RPM_NAME = "libopenhpi4-3.8.0.ge4631e8a-3.5.aarch64.rpm"
-RPM_HASH = "3d3b0f8ce89e89d1c200d31eedfbe9e11a40372630e0505ae6b39a875e2d3a3ff5c36cd897940f65c3790cce424c4d9c9523cbfbf52d3b24c12c8dc6936a0b03"
+RPM_NAME = "libopenhpi4-3.8.0.ge4631e8a-3.20.aarch64.rpm"
+RPM_HASH = "41de5ea379a814fe9b7b8f9ba6d65c64496281df0e02bcdc902e04d9af05e32c556a3c127e523ec48775b11e5147c0f7bf3ee1545b371585acbb0abd7382573c"
 
 RPROVIDES:${PN} += "libopenhpi-ssl.so.4 \
 libopenhpi.so.4 \

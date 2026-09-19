@@ -2,10 +2,10 @@ SUMMARY = "Greek localization files for LibreOffice"
 DESCRIPTION = "Provides Greek translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-el-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "a00c08639028bb2e8442f53b7b653b7d43846ca454db4509172ae81d19fe9d80f843cacd70ead950978874787cc016dc35bfda1bd7a463d808d74f532f9c3dc9"
+RPM_NAME = "libreoffice-l10n-el-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "34a79fa170c21ae848036ad654227ed63f58b10cec0dec8390b94e778901b56273f4f8e8a8dd93bd4fff38318047fa2cf56caf0b883f973a2226a57b181949c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-el \

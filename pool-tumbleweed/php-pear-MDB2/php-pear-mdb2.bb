@@ -33,8 +33,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.5.0b5"
 
-RPM_NAME = "php-pear-MDB2-2.5.0b5-1.10.noarch.rpm"
-RPM_HASH = "f4a31f8a5d314fb8ba95e1d6fda0f3c2de473f9d58a3ffb92992f865b5b81e7ad97988a79a16b4d8d5970784da9b0ee6637e8fd200410f4f8508facf86401d53"
+RPM_NAME = "php-pear-MDB2-2.5.0b5-1.19.noarch.rpm"
+RPM_HASH = "5b4347d2599a5c909a4aae0120348542d3af1cd5ab71b15797e401ab79a9a0cecfcfc351bd93fc636a6d5e779a68f646977b172fc66283a637e95f8aec48bc58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-pear-MDB2 \

@@ -7,10 +7,10 @@ nd/img/uwacrest/, and uses the Arial and UWA Slab fonts by \
 default. The package works with XeLaTeX and LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn64491"
+PV = "2026.226.1.0.1svn78219"
 
-RPM_NAME = "texlive-uwa-letterhead-2023.209.1.0.1svn64491-54.1.noarch.rpm"
-RPM_HASH = "5087461afb40eec37cf9bcc0bab37c74e9397aec105cf5cdca2a7d6c95b4f9b551c4e57154f82ed378b017d8c6e14fcff32e84ff65a2614494e1050ba198621f"
+RPM_NAME = "texlive-uwa-letterhead-2026.226.1.0.1svn78219-60.2.noarch.rpm"
+RPM_HASH = "2f035d445b593fb560f41505a37dcfc4e5786d7a038100f4fc6071b1e4dc0ff69ff45cc41185f2f34994f8bc517eaafaaf95d210408310f875ba7733bf380f47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uwa-letterhead.sty \

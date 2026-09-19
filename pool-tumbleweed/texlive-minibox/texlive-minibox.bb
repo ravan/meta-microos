@@ -5,10 +5,10 @@ allow manual line breaks. The boxes shrink to the natural width \
 of the longest line they contain."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2asvn30914"
+PV = "2026.226.0.0.2asvn77682"
 
-RPM_NAME = "texlive-minibox-2023.209.0.0.2asvn30914-55.1.noarch.rpm"
-RPM_HASH = "d05bf5654acd6c901d752aed0f3bcbf3e56c54cd91e7a711b6c0d60e84bfcd6d46909c22c61fe0ba1317f9e958d81cf14f3c1f5745f8dddb6339585123cb8043"
+RPM_NAME = "texlive-minibox-2026.226.0.0.2asvn77682-61.2.noarch.rpm"
+RPM_HASH = "17c444e8e698be4bdec0c19ee7074cb68b78abf6ca99ba90201a10331ee1d3470f1c62b9a857b158e8c044669e9543fd599068ab2442f11a8b2b4dd198ddb0db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minibox.sty \

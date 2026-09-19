@@ -3,16 +3,19 @@ DESCRIPTION = "This package contains the development files for building integrat
 developments environments based on the KDevelop framework."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdevplatform-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "76b54aed6fbe30faac81bb5293d4ced6f367a441b71c8dda800bc0a0054046d7e10041fcb666dc155e209148a1edfb76231ea5b6799be5b65c54900966e00083"
+RPM_NAME = "kdevplatform-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "885c7cd03f3fe1c99bd1c005acca9b8cbcaf92df544fb02ecf0f490235e287bae7ff2239bedea79f807f6067d1f07bb6d86d08fd99aac1ec81177a4ed14576e0"
 
 RPROVIDES:${PN} += "cmake-KDevPlatform \
 kdevplatform-devel"
 
-RDEPENDS:${PN} += "cmake-KF5TextEditor \
-cmake-KF5ThreadWeaver \
-libkdevplatform512"
+RDEPENDS:${PN} += "cmake-KF6TextEditor \
+cmake-KF6ThreadWeaver \
+cmake-Qt6Core5Compat \
+cmake-Qt6Test \
+cmake-Qt6WebEngineWidgets \
+libkdevplatform66"
 
 inherit rpm

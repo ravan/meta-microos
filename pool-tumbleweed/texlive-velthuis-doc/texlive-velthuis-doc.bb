@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-velthuis"
 DESCRIPTION = "This package includes the documentation for texlive-velthuis"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.17.1svn66186"
+PV = "2026.226.2.17.1svn66186"
 
-RPM_NAME = "texlive-velthuis-doc-2023.209.2.17.1svn66186-54.1.noarch.rpm"
-RPM_HASH = "b86b7c7729c1d9a4cc386430d76c642f0e662ea68da604e693203fa04547c8e3c63de1a8c46fb339d8bf854f74ca1296bcf709622abe8994ee94ad81277fc7ad"
+RPM_NAME = "texlive-velthuis-doc-2026.226.2.17.1svn66186-60.2.noarch.rpm"
+RPM_HASH = "e81d989e52837d6b990042817d63a77ec205ba841c03afde6c8519529bf4083e7a2ffff3095aa06e61d09d4a87ea3bf375852662cee06334f16626e1e4ba0343"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-devnag.1 \

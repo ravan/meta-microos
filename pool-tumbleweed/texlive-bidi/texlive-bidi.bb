@@ -1,13 +1,14 @@
-SUMMARY = "Bidirectional typesetting in plain TeX and LaTeX, using XeTeX"
+SUMMARY = "Bidirectional typesetting in plain TeX and LaTeX, using XeTeX or LuaTeX"
 DESCRIPTION = "A convenient interface for typesetting bidirectional texts with \
-plain TeX and LaTeX. The package includes adaptations for use \
-with many other commonly-used packages."
+plain TeX and LaTeX, using XeTeX or LuaTeX. The package \
+includes adaptations for use with many other commonly-used \
+packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.39.7svn65572"
+PV = "2026.226.26.01.08svn77682"
 
-RPM_NAME = "texlive-bidi-2023.209.39.7svn65572-54.1.noarch.rpm"
-RPM_HASH = "eb775191d86863c122ba20d46dad5b2396225e4af9613242d2415bf66249eacf3885df8ef27fffa039f7bebbccf4e92e110eef8b329bb6da5d90d41b615fd9eb"
+RPM_NAME = "texlive-bidi-2026.226.26.01.08svn77682-61.2.noarch.rpm"
+RPM_HASH = "db5a2b1fc54481686c9d2e6ef9de296ff20fe31009b4bf573adeda1b489ed1e588c664cf965a30d23441a6d69cea44eff512ecefd0529e56215430584072a47f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-adjmulticol-xetex-bidi.def \
@@ -105,12 +106,14 @@ tex-fleqn-xetex-bidi.def \
 tex-float-xetex-bidi.def \
 tex-floatrow-xetex-bidi.def \
 tex-flowfram-xetex-bidi.def \
+tex-fnpct-xetex-bidi.def \
 tex-footnote-xetex-bidi.def \
 tex-footnotebackref-xetex-bidi.def \
 tex-framed-xetex-bidi.def \
 tex-ftnright-xetex-bidi.def \
 tex-geometry-xetex-bidi.def \
 tex-graphicx-xetex-bidi.def \
+tex-hgeneric-testphase-xetex-bidi.def \
 tex-hvfloat-xetex-bidi.def \
 tex-hyperref-xetex-bidi.def \
 tex-imsproc-xetex-bidi.def \
@@ -120,11 +123,11 @@ tex-letter-xetex-bidi.def \
 tex-lettrine-xetex-bidi.def \
 tex-lineno-xetex-bidi.def \
 tex-listings-xetex-bidi.def \
-tex-loadingorder-xetex-bidi.def \
 tex-longtable-xetex-bidi.def \
 tex-lscape-xetex-bidi.def \
 tex-mathtools-xetex-bidi.def \
 tex-mdframed-xetex-bidi.def \
+tex-media9-xetex-bidi.def \
 tex-memoir-xetex-bidi.def \
 tex-midfloat-xetex-bidi.def \
 tex-minitoc-xetex-bidi.def \
@@ -138,9 +141,8 @@ tex-ntheorem-xetex-bidi.def \
 tex-overpic-xetex-bidi.def \
 tex-pdfbase-xetex-bidi.def \
 tex-pdflscape-xetex-bidi.def \
-tex-pdfpages-xetex-bidi.def \
 tex-pgfcorescopes.code-xetex-bidi.def \
-tex-pgfsys.code-xetex-bidi.def \
+tex-pgfsys-xetex-bidi.def \
 tex-picinpar-xetex-bidi.def \
 tex-plain-xetex-bidi.def \
 tex-pstricks-xetex-bidi.def \
@@ -161,8 +163,9 @@ tex-subfigure-xetex-bidi.def \
 tex-tabls-xetex-bidi.def \
 tex-tabularx-xetex-bidi.def \
 tex-tabulary-xetex-bidi.def \
-tex-tc-xetex-bidi.def \
+tex-tc-xetex-xetex-bidi.def \
 tex-tcolorbox-xetex-bidi.def \
+tex-thmbox-xetex-bidi.def \
 tex-titlesec-xetex-bidi.def \
 tex-titletoc-xetex-bidi.def \
 tex-tocbasic-xetex-bidi.def \
@@ -188,18 +191,13 @@ tex-book.cls \
 tex-changepage.sty \
 tex-chngpage.sty \
 tex-color.sty \
-tex-crop.sty \
 tex-fancyhdr.sty \
-tex-floatrow.sty \
 tex-geometry.sty \
 tex-graphicx.sty \
 tex-hyperref.sty \
-tex-iftex.sty \
 tex-ifthen.sty \
-tex-lscape.sty \
 tex-ltxcmds.sty \
 tex-marvosym.sty \
-tex-media9.sty \
 tex-multicol.sty \
 tex-natbib.sty \
 tex-optparams.sty \
@@ -208,13 +206,11 @@ tex-placeins.sty \
 tex-ragged2e.sty \
 tex-setspace.sty \
 tex-showexpl.sty \
-tex-sidecap.sty \
 tex-titlesec.sty \
 tex-titletoc.sty \
 tex-url.sty \
 tex-xcolor.sty \
 tex-xifthen.sty \
-tex-xkeyval.sty \
 tex-zref-abspage.sty \
 texlive \
 texlive-filesystem \

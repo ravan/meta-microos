@@ -6,10 +6,10 @@ lightweight method of carrying out messaging using a publish/subscribe model. \
 This package holds the development files."
 LICENSE = "EPL-1.0"
 
-PV = "2.0.15"
+PV = "2.0.23"
 
-RPM_NAME = "mosquitto-devel-2.0.15-1.5.aarch64.rpm"
-RPM_HASH = "bf9cf4c1a0d6a1f910b4789511a52f0f12e532d61e06fd1e04b683945ffc0bcc543909e1ac8566cc1f2510c5a3f7875d4291bbbcaf71eb3d37732d9c6e7ecfab"
+RPM_NAME = "mosquitto-devel-2.0.23-1.4.aarch64.rpm"
+RPM_HASH = "7d909708837f8a4a23346e56387a6339b2985509e4c964cd597bbd9894ca5a49d430ece1fa04593de58155018c0101ed9c1bd3fd5d971dd5c3d94697e3d178af"
 
 RPROVIDES:${PN} += "libmosquitto-devel \
 libmosquittopp-devel \

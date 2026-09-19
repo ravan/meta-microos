@@ -11,10 +11,10 @@ With converseen you can: \
 - Selecting a resampling filter to resize images."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.9.11.1"
+PV = "0.15.0.3"
 
-RPM_NAME = "converseen-0.9.11.1-1.2.aarch64.rpm"
-RPM_HASH = "2a91d1e554d20495d0c408a37eb2d9e5c427cca57a6a97c874f0a4e5d6f0be077603dc745ff4f013d69189292de87a46ff2b813f7b52866c9c73cd79bb854371"
+RPM_NAME = "converseen-0.15.0.3-1.6.aarch64.rpm"
+RPM_HASH = "04203a7e457782e3367588ca9ced3c63be1330086b20ec7627272cedeb62c5bcbc20f7cdc59c49814943fd10e15bd9acb1daca5ef13562348f8506270c9b863a"
 
 RPROVIDES:${PN} += "converseen"
 

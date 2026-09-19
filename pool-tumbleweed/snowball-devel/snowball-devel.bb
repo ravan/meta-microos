@@ -16,14 +16,14 @@ Rust are supported. \
 This package holds the development files for libstemmer."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.0"
+PV = "3.0.1"
 
-RPM_NAME = "snowball-devel-2.1.0-1.8.aarch64.rpm"
-RPM_HASH = "a142778cbbe5dce1bec13d35391f341b1f14b7669c9f6ee810d1376c05dcf4301089ddb142d37ca41e7dabc3ed37bb7288ce2201850c9d6fb518f8d1c2d47fcb"
+RPM_NAME = "snowball-devel-3.0.1-1.5.aarch64.rpm"
+RPM_HASH = "5f3ae069bf72a960e9b86092df4385ec06d1d0f0c2d4896baf10ac0104b6aba126141aab10fbd63b6467fe9449a2497766da07dec2eda588461683171758aec0"
 
 RPROVIDES:${PN} += "libstemmer-devel \
 snowball-devel"
 
-RDEPENDS:${PN} += "libstemmer0d"
+RDEPENDS:${PN} += "libstemmer1d"
 
 inherit rpm

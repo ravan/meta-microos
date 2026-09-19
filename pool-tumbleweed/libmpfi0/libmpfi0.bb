@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.4"
 
-RPM_NAME = "libmpfi0-1.5.4-1.15.aarch64.rpm"
-RPM_HASH = "c2b94d10a66b5ee6977a6312fbd219d2797517ab6ca1768325a2ea103623a2d96ff311c88c3ddb95f92097c8aafa5abbb1084ba44412bda60b6710006693e378"
+RPM_NAME = "libmpfi0-1.5.4-2.9.aarch64.rpm"
+RPM_HASH = "2a02fc06f4da9253b2d4313f5a5c1909139ac735bf7e1ae291a7323aa31abbadcab41eb8bf59e170ef9ac33d184894b48a089d00fc9f11820d43acc587770520"
 
 RPROVIDES:${PN} += "libmpfi.so.0 \
 libmpfi0"

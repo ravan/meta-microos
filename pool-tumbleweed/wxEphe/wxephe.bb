@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.8"
 
-RPM_NAME = "wxEphe-1.8-1.3.aarch64.rpm"
-RPM_HASH = "41e9121e34b856da597313db55aee8889a57e025b137c8654a55ca123a4f63abc4e9bf723039ff82011fdfa3a0b6418f3aa9af21c24bbf414d7ba145028c678d"
+RPM_NAME = "wxEphe-1.8-1.17.aarch64.rpm"
+RPM_HASH = "8f278a3bcd4effb17eedff616de8d6001e9834a6ef832483a20dcab7814aab8ae923c34c346c84c18f8900f69d983fa907faa1a713f400fadae5009378b2a500"
 
 RPROVIDES:${PN} += "wxEphe"
 
@@ -15,8 +15,8 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-baseu-xml-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0"
+libwx-baseu-suse.so.16.0.0 \
+libwx-baseu-xml-suse.so.16.0.0 \
+libwx-gtk2u-core-suse.so.16.0.0"
 
 inherit rpm

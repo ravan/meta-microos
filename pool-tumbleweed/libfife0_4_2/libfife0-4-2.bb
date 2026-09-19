@@ -6,20 +6,19 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.2"
 
-RPM_NAME = "libfife0_4_2-0.4.2-5.17.aarch64.rpm"
-RPM_HASH = "cca383b6b9855fbaa8677b0cadd5e8809efee9da154c7231d2d0c5be4cb3012c13003cf416d669917f0abf89d2c7a877e0b850e45784c4c15f0e2b100537645e"
+RPM_NAME = "libfife0_4_2-0.4.2-10.10.aarch64.rpm"
+RPM_HASH = "99cd376410b9a3074614fc5cb1caec72a33cd3ad7b5331e218ba1daa07684c832f516e7157e511594d2cc6fbf5235d9d06377dc6b3a52c4175df1c6f75387e43"
 
 RPROVIDES:${PN} += "libfife.so.0.4.2 \
 libfife0-4-2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1 \
 libGL.so.1 \
-libGLEW.so.2.2 \
+libGLEW.so.2.3 \
 libSDL2-2.0.so.0 \
 libSDL2-image-2.0.so.0 \
 libSDL2-ttf-2.0.so.0 \
-libboost-filesystem.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
 libc.so.6 \
 libfifechan-opengl.so.0.1.5 \
 libfifechan-sdl.so.0.1.5 \

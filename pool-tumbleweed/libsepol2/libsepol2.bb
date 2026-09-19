@@ -11,10 +11,10 @@ Type Enforcement, Role-based Access Control and Multi-Level \
 Security.)"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "libsepol2-3.5-1.5.aarch64.rpm"
-RPM_HASH = "9059852476d49963f59e2fadc060caa3040319e532eba86a9cfa568444fae49c60ef0a396a66f2eaaadbbdc36bb95ea0a46070958126f192fbc085bef3add53c"
+RPM_NAME = "libsepol2-3.11-1.2.aarch64.rpm"
+RPM_HASH = "2456d86f61be138eb574fc6cd929c9376fbc5f410c9196dd094daf28bbe80b47aa7687aca82ace9031e81e7f3e521b38d6d0936013c1a4c220d155122c7a2b3e"
 
 RPROVIDES:${PN} += "libsepol.so.2 \
 libsepol2"

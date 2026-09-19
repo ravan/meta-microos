@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.2"
 
-RPM_NAME = "octave-forge-econometrics-1.1.2-1.16.aarch64.rpm"
-RPM_HASH = "d61a45bfeecaa4ff318b358f2f4f793c3a84f30ed4af43e53c911411f328b498f3124fe2e7d67e8764117444d0b9afd95351ef6d1835b55ea4b30936f50b781e"
+RPM_NAME = "octave-forge-econometrics-1.1.2-1.26.aarch64.rpm"
+RPM_HASH = "ebf6f9733cf4e69e3387356c793be173d0bec2f73c8d91c4db427229846e1c0c9103d6dc2406f3dd27f10464bab411b41e7616836cb0a9a6baee1d4e871f1a63"
 
 RPROVIDES:${PN} += "octave-forge-econometrics"
 
@@ -15,6 +15,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
+octave-api-v61 \
 octave-cli \
 octave-forge-optim"
 

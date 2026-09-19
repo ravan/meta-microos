@@ -10,16 +10,20 @@ LICENSE = "ISC"
 
 PV = "1.14.6"
 
-RPM_NAME = "mandoc-1.14.6-5.1.aarch64.rpm"
-RPM_HASH = "d973234b1effd2d37e78e82926af8f9f0a72d462fb717a45f9d0257b1c20ef122c996e514379b47d64397b0aabe6791d8fe290c71e90f1b3cc221d9b0e45e9bf"
+RPM_NAME = "mandoc-1.14.6-7.4.aarch64.rpm"
+RPM_HASH = "914a23c320d0d486523c1a4ec4adced63f0f87a33f34cb2f9d48cd50b3aa3a42fe4c73a0cd96f81eae58c8f93c79591292141e72096998aa23974fba7424f9e4"
 
 RPROVIDES:${PN} += "man \
-mandoc"
+mandoc \
+rpm-lua-mandoc \
+soelim"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+alts \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \
-mandoc-bin"
+mandoc-bin \
+soelim-common"
 
 inherit rpm

@@ -1,11 +1,11 @@
 SUMMARY = "Lempel–Ziv–Markov chain algorithm compression library"
 DESCRIPTION = "Library for encoding/decoding LZMA files."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "0BSD"
 
-PV = "5.4.4"
+PV = "5.8.3"
 
-RPM_NAME = "liblzma5-5.4.4-2.1.aarch64.rpm"
-RPM_HASH = "1b60d22042d344a5f8d873177cf7ecaf4eda37aeb0fd3589022aa4ccd6e5ae6dd019feb65db49e9f6e98ce89b285be7d29d6a15e14ccd024d2e961e2dd13b7cd"
+RPM_NAME = "liblzma5-5.8.3-1.3.aarch64.rpm"
+RPM_HASH = "a986679fecebc93e115722ea250de6971aeb8485c6eeba7e2074b6de3f23cc7aedf20adb7067a13b181653cdd3d58c5e7ad20d4d6e66a5aa2cc5df68cb2202ea"
 
 RPROVIDES:${PN} += "liblzma.so.5 \
 liblzma5"

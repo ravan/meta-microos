@@ -8,13 +8,13 @@ LICENSE = "MIT"
 
 PV = "3.6.2"
 
-RPM_NAME = "sassc-3.6.2-1.7.aarch64.rpm"
-RPM_HASH = "430a8ea3bb52cd9b2ac1b158571b3b3e75e97f515a02d01a4cb699e6993a773d2b03f7a10bfd2a2db75b8a48573b866623f3002345d037e21802e2f7d0a72eeb"
+RPM_NAME = "sassc-3.6.2-1.18.aarch64.rpm"
+RPM_HASH = "60c86708af9880f5d6e44f3dd6c925acb918fc4db881f1ec2819f1e9cfce1a8f2a44c7f0a68ff1c2a32c015aacb8ca2bd6d2cd82fcc12335d95edd0432c6a7ce"
 
 RPROVIDES:${PN} += "sassc"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libsass-3.6.5.so.1"
+libsass-3.6.6.so.1"
 
 inherit rpm

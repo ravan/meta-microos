@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-shorttoc"
 DESCRIPTION = "This package includes the documentation for texlive-shorttoc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn15878"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-shorttoc-doc-2023.209.1.3svn15878-54.1.noarch.rpm"
-RPM_HASH = "b9a106652e008ada5199d7b2ded6c5fa9cc0d9cd8a2a2916d5892be1be914e04bf4497a4f161ac216bdde07316c98061ca8d20e60490a842cc3027039492d4d1"
+RPM_NAME = "texlive-shorttoc-doc-2026.226.1.3svn77682-60.2.noarch.rpm"
+RPM_HASH = "b02d67a17df6be6ed144005c410ea5d2e4237c0a933f41cc8f390add5d1b46b23e504231d8279f20efe644b1205bba5d9c349c69f6b28d470e0208375fee09be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shorttoc-doc"

@@ -3,17 +3,19 @@ DESCRIPTION = "mcds is a command line tool primarily used as a search query plug
 for mutt to query a carddav server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6"
+PV = "1.10"
 
-RPM_NAME = "mcds-1.6-1.13.aarch64.rpm"
-RPM_HASH = "3c264a5c9276243d7e1a158b61273bd5e77650664c6d5084a1087b970cec0488bf7d48ca846b8aea669de60da4e5c7d1d8f378293e0d22437604b2c021228bef"
+RPM_NAME = "mcds-1.10-1.1.aarch64.rpm"
+RPM_HASH = "36ce882b4725ea1d2cec2d5d90963d814be4addb677de62db4a4d3a15376a88234e48e130ab4480939cedbfe65fe00ff490d6c15a9c8b52a9e1a213ab30f6256"
 
 RPROVIDES:${PN} += "mcds"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcurl.so.4 \
-libgpgme.so.11 \
-libxml2.so.2"
+libglib-2.0.so.0 \
+libgpgme.so.45 \
+libsecret-1.so.0 \
+libxml2.so.16"
 
 inherit rpm

@@ -5,10 +5,10 @@ marshaling and unmarshaling functions for all data types defined by the TPM \
 library specification."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.0.1"
+PV = "4.1.3"
 
-RPM_NAME = "libtss2-mu0-4.0.1-2.1.aarch64.rpm"
-RPM_HASH = "695fdea502e1c417fc9a5f8ddcd411ca34215ede86d4d7e384563ba58e4914ddf9f5e9cb60daf6b5ce8eb70f6245affcb2fd616e0396ba6f71bceefb9bb21641"
+RPM_NAME = "libtss2-mu0-4.1.3-1.6.aarch64.rpm"
+RPM_HASH = "8fee4f31687e93ddc15ccd7d2577eb7d59b5de35992109940513cf349f023b4a46263e37dfd27b2d18b81589d4f16f6d9a43daf04c04bd785ccda904f816339d"
 
 RPROVIDES:${PN} += "libtss2-mu.so.0 \
 libtss2-mu0"

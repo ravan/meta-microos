@@ -18,10 +18,10 @@ An implementation restriction is that PL/R procedures cannot be used to \
 create input/output functions for new data types."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.4.5"
+PV = "8.4.8.6"
 
-RPM_NAME = "postgresql14-plr-8.4.5-1.1.aarch64.rpm"
-RPM_HASH = "2a027ab0c589daa52ad4a7cfc98ff33c7684a56eb95a0c68943076bf1cd0002be9c8eea2543786ac96b3c1deaf0171e13c74561d276f305df5530a79ee3a1e5e"
+RPM_NAME = "postgresql14-plr-8.4.8.6-1.3.aarch64.rpm"
+RPM_HASH = "995134b0018c66f295a2bd68091835f78c36f653a98a1ef730de86b31784606b4fb9cca5e922f308f084fbb3a320fd46b89d204fd4baaf3ef9b77c31b41d4091"
 
 RPROVIDES:${PN} += "config-postgresql14-plr \
 postgresql14-plr"

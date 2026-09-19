@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.26.4"
 
-RPM_NAME = "dxflib-devel-3.26.4-2.9.aarch64.rpm"
-RPM_HASH = "b382a223df6bf8291a4f49275b4458ababd23490c4ce213aed925f120c3b0f27e18fd620872489199e993ec05d415e414d90cc5969ef63f1b3bd670bc0f04693"
+RPM_NAME = "dxflib-devel-3.26.4-2.18.aarch64.rpm"
+RPM_HASH = "20481f2240f0e8dbe5028e4250f856370e4e1994d28dc80379f239ab6aee5adc3d9383d499e58f55287b1d942ad7f8dd1aa6f4297df8335bc1b47f399627cdd6"
 
 RPROVIDES:${PN} += "dxflib-devel \
 pkgconfig-dxflib"

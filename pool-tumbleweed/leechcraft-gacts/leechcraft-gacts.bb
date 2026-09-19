@@ -3,23 +3,23 @@ DESCRIPTION = "This package provides a global shortcut manager for LeechCraft \
 with which global hotkeys can be set and used."
 LICENSE = "BSL-1.0 & (CPL-1.0 | LGPL-2.1-only)"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-gacts-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "05ee1908771c331d17349522b8ecf33cbca8a22d4b43c4c9cfdfff7a3c19a10a20a56129a9db71be68e1455b9091028f1669ef87c0e02aeda692db73e4c035fb"
+RPM_NAME = "leechcraft-gacts-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "7741aafe94ba9cfd913d94dd67b6b6025d84bd9dd41c2126cf2dd6de8b1a8ff5bd0ae1eaa36193bc0de949476331ad28302e3c6827c8490f932bba2b7f4e4bc3"
 
 RPROVIDES:${PN} += "leechcraft-gacts \
 libleechcraft-gacts.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5X11Extras.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
 libX11.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
+libleechcraft-util-x11-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

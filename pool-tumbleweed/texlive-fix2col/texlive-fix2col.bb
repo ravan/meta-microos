@@ -9,10 +9,10 @@ any marks at all; keep two column floats like figure* in \
 sequence with single column floats like figure."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.04svn38770"
+PV = "2026.226.0.0.04svn38770"
 
-RPM_NAME = "texlive-fix2col-2023.209.0.0.04svn38770-53.1.noarch.rpm"
-RPM_HASH = "bf96bcd1531b2236ae15cf04b10adb2907343e3fa39559db772768ebd67966fe85e3872662a34d33f8716bcee14ccc153b854c0efc74c8c3c1afb408f5a6a5c0"
+RPM_NAME = "texlive-fix2col-2026.226.0.0.04svn38770-59.2.noarch.rpm"
+RPM_HASH = "26383ef16880eca83a3f4f19538f2809fe7a87c48af649536f50cb66f15125692f2b9562482ed3ab90286d6123810c4e4a4a19bc7b97e1c7deb7363705163f06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fix2col.sty \

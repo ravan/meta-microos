@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.1.8"
 
-RPM_NAME = "libodfgen-devel-0.1.8-3.9.aarch64.rpm"
-RPM_HASH = "e1516b9a29367acc015f5af5dcfaaf6788b2707aec9286174a9ad129d87cca91845ca8ce297bf60cd30b300ca5b68fc7002a4c789c86a6414fad3bf5332cb6af"
+RPM_NAME = "libodfgen-devel-0.1.8-4.6.aarch64.rpm"
+RPM_HASH = "065c57d50e551284839313a4a5e742b36d4c2fdb5600e3de021ba56663e8af5de9086ca22a26aead69153b4914f58014b1a11c728a417f99c31df22db4d9a0c5"
 
 RPROVIDES:${PN} += "libodfgen-devel \
 pkgconfig-libodfgen-0.1"

@@ -6,11 +6,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "libnfsidmap1-1.0-39.2.aarch64.rpm"
-RPM_HASH = "7563280995ab0122077464378fbde660ede292103e6e95f460c08e331d860d20e339201543e765b44026b661368acd6575edaed475dc14a1b5b280b7b7e4e500"
+RPM_NAME = "libnfsidmap1-1.0-55.1.aarch64.rpm"
+RPM_HASH = "747d13dc771f475674350c41e8bfba97c2148269ece94ed48c204d93d9a1dd69ffd4a9fd30909b9aea7728ffd3b3caa7809df41dc7a4a5ece25ccf2a479c803f"
 
 RPROVIDES:${PN} += "libnfsidmap.so.1 \
-libnfsidmap1"
+libnfsidmap1 \
+nfsidmap"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \

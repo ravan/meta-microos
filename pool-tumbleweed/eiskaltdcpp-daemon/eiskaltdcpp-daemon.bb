@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.2"
 
-RPM_NAME = "eiskaltdcpp-daemon-2.4.2-1.14.aarch64.rpm"
-RPM_HASH = "6adf1d236069d8f065cd241a35f332cb24720bcfb81b1bd48729e2e02818dfd39f146f5f14965a4a8be40e52fcf499f7349399077fb266b4c63b4e67404aac4b"
+RPM_NAME = "eiskaltdcpp-daemon-2.4.2-6.2.aarch64.rpm"
+RPM_HASH = "cc5d222ba821ea492aaca3407fe172607435a8f03d9c64cc1e0b1a48e75c358d39d9a3df583173c04044bcb2c4923289e8dba07eb440e3f9d2c54d5fb5d6a620"
 
 RPROVIDES:${PN} += "eiskaltdcpp-daemon"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gdm"
 DESCRIPTION = "Provides translations for the 'gdm' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "50.3"
 
-RPM_NAME = "gdm-lang-44.1-3.1.noarch.rpm"
-RPM_HASH = "54dc2b1f126b0b3851ce944438d916843a6b7b8db9c8d1ea9bd05da5679c92066ac580de3d9dce8b82fce10e85f7f1ab60d107990d853fa7c8ebaa97ac31ba8c"
+RPM_NAME = "gdm-lang-50.3-1.1.noarch.rpm"
+RPM_HASH = "885db44dffc875d45c2a04bc05ce3eef678b07ab3673da6a8ee75eab5f9ceb8de6a762f552714412c88a8ce042516b54a1b08c5e2857f0c58cb1e9b4d40aef40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdm-lang \
@@ -49,6 +49,7 @@ locale-gdm-he \
 locale-gdm-hi \
 locale-gdm-hr \
 locale-gdm-hu \
+locale-gdm-ia \
 locale-gdm-id \
 locale-gdm-is \
 locale-gdm-it \

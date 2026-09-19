@@ -2,10 +2,10 @@ SUMMARY = "This package contains the development files needed by libpaper"
 DESCRIPTION = "This package contains all devel files needed by the libpaper package"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.1"
+PV = "2.2.8"
 
-RPM_NAME = "libpaper-devel-2.1.1-1.1.aarch64.rpm"
-RPM_HASH = "cec503f5724207eed3e3104e3944bec75ce46199b67cd4c6b67b95a5d0edcf9a8d3583f59b6efabb0952d416268c140b5afe4776b673ddb6b4ec76ec97dbc8bb"
+RPM_NAME = "libpaper-devel-2.2.8-1.3.aarch64.rpm"
+RPM_HASH = "67eb79428e792e529dc9b9fdc1d2e0d5c4bfabeb5b7b87f6b18373c3cabebc84f1a4bd4a21db5940ac19dbc4fd55e60a0f04441736a062be16e87c80a052138a"
 
 RPROVIDES:${PN} += "libpaper-devel"
 

@@ -2,20 +2,19 @@ SUMMARY = "Haskell tagged library development files"
 DESCRIPTION = "This package provides the Haskell tagged library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.8"
+PV = "0.8.10"
 
-RPM_NAME = "ghc-tagged-devel-0.8.8-1.2.aarch64.rpm"
-RPM_HASH = "b1c3324dc85c39c658ea8792263ebdcc265680a2a99102a87fde00681247e3cb1a422eff9a72e8e459b0f5177c3674e9cb4d15912d9cf182bd0159bc1d9bee96"
+RPM_NAME = "ghc-tagged-devel-0.8.10-2.3.aarch64.rpm"
+RPM_HASH = "8cd9e6c52f609c992bc5e94ffe0b35eea64cdaeb77c26668bf0832b4173c7277c9806b0901ae36f6cbcf33d38dabc68fea5169ae63c5c9f9ed2a9e5b1d60f444"
 
-RPROVIDES:${PN} += "ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
+RPROVIDES:${PN} += "ghc-devel-tagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7 \
 ghc-tagged-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-transformers-0.5.6.2 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-template-haskell-2.23.0.0-358a \
 ghc-tagged"
 
 inherit rpm

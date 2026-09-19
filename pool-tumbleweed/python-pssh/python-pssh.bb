@@ -8,12 +8,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.4+git10.d4909c9"
 
-RPM_NAME = "python-pssh-2.3.4+git10.d4909c9-3.6.noarch.rpm"
-RPM_HASH = "82a46a12c933f0f9b092fcaacd4fba2514217397a5f06a40f08d17c15fd0b14d778800819e1e54b68c3d03bd7bb1c557b6cb3a27fa152db12712c149477d8c0f"
+RPM_NAME = "python-pssh-2.3.4+git10.d4909c9-5.3.noarch.rpm"
+RPM_HASH = "aceba7f953be3378fbb046307a04eeb487aa3512fe634058fe18140bd043f701040d9930aa4af910cea01a843a5bae2209b862d048f5f089ef6cc40539dcbb70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pssh \
-python3.11dist-pssh \
+python3.13dist-pssh \
 python3dist-pssh"
 
 RDEPENDS:${PN} += "openssh \

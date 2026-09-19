@@ -6,10 +6,10 @@ the CTAN team (2015-02-05): It seems that this script is \
 currently not working."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.2csvn26313"
+PV = "2026.226.1.2csvn26313"
 
-RPM_NAME = "texlive-ctanupload-2023.209.1.2csvn26313-55.1.noarch.rpm"
-RPM_HASH = "31e7276543aaead7460b67b1724f9b26c4062cb29a969e1bc73c7e265f7d0bb4cb5d97a2d92424c90669ea96247b505e8c8088d203d9561368d165b9746a6852"
+RPM_NAME = "texlive-ctanupload-2026.226.1.2csvn26313-61.2.noarch.rpm"
+RPM_HASH = "49fbe6e98a5cc710784554174f5feb55a3b178042faeeea21aa14d4d052e70f7828b658b1d54e9a200c8c703b0a9f17fb037ac4707e079031b8e93592b38d170"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctanupload"

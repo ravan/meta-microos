@@ -2,10 +2,10 @@ SUMMARY = "Binary files of jadetex"
 DESCRIPTION = "Binary files of jadetex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn3006"
+PV = "2026.20260301.svn3006"
 
-RPM_NAME = "texlive-jadetex-bin-2023.20230311.svn3006-93.2.aarch64.rpm"
-RPM_HASH = "897d7b63f904d1f1ba98f2d25186472a27594bfb30d1dc9369d00cd21a4e3ad0d6617ffba556d3676c284dd656f19f60dd6bf1d34abfc4fa763c169d65aca29f"
+RPM_NAME = "texlive-jadetex-bin-2026.20260301.svn3006-120.4.aarch64.rpm"
+RPM_HASH = "ff6e93dd05d76640b726d494263b24c30d994d0dc7b1e2e9675c7c9a450317564ff1dcee298ec9a735b42feac0af6fdc35e01259ac2b53e8d26c31718fa250c9"
 
 RPROVIDES:${PN} += "texlive-jadetex-bin"
 

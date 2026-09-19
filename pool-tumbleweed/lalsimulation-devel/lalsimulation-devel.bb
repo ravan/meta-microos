@@ -2,10 +2,10 @@ SUMMARY = "Headers and source files for building against LALSimulation"
 DESCRIPTION = "This package provides the header and sources for coding against LALSimulation."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.0.0"
+PV = "6.2.0"
 
-RPM_NAME = "lalsimulation-devel-4.0.0-2.1.aarch64.rpm"
-RPM_HASH = "77c1791cb5d86255e13a3912f227eed04c56c84246225fe63dfd5a6454c26d4ed9d680bf7cb841ae8f53fc9ecabc7db9eaf8bab6e53bf8dd938989f5d25150df"
+RPM_NAME = "lalsimulation-devel-6.2.0-2.2.aarch64.rpm"
+RPM_HASH = "fd7d04a6ab68c180aa081487b84a34de7bc30c68f678b824fb9fca0fc834aaac4b0478dd8084e720a60d56f2af4b9f3985530dbe6aa752424acc12b2475fda71"
 
 RPROVIDES:${PN} += "config-lalsimulation-devel \
 lalsimulation-devel \
@@ -15,10 +15,10 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 lalsimulation-data \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgsl.so.25 \
+libgsl.so.28 \
 liblal.so.20 \
-liblalsimulation.so.31 \
-liblalsimulation31 \
+liblalsimulation.so.37 \
+liblalsimulation37 \
 liblalsupport.so.14 \
 libm.so.6 \
 pkgconfig-gsl \

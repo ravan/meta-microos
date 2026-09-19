@@ -7,25 +7,26 @@ Untraceability: By taking advantage of ring signatures, a special property of a 
 This package provides Monero-CLI, a command line interface for Monero."
 LICENSE = "MIT"
 
-PV = "0.18.2.2"
+PV = "0.18.5.1"
 
-RPM_NAME = "monero-utils-0.18.2.2-1.1.aarch64.rpm"
-RPM_HASH = "4879ff0a889f68f0b119a5f4e5ce81f0f545254d6bf26a0d4a0031d2faa1bd91df0e0a0e9913ce71ffda21550423ab6512bf5649b9a0fcae844e2969a626d1ca"
+RPM_NAME = "monero-utils-0.18.5.1-1.2.aarch64.rpm"
+RPM_HASH = "1225b51cf2d19d9b40bf731bbfc221dc7360a0dabe6357d6159f4f07dba12a3a068a3bc4c037df1a8eb8d162da2585aa50d39a24010d52da8edcd5bba735d6e1"
 
 RPROVIDES:${PN} += "monero-utils"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libboost-chrono.so.1.82.0 \
-libboost-filesystem.so.1.82.0 \
-libboost-program-options.so.1.82.0 \
-libboost-serialization.so.1.82.0 \
-libboost-thread.so.1.82.0 \
+libboost-chrono.so.1.91.0 \
+libboost-filesystem.so.1.91.0 \
+libboost-program-options.so.1.91.0 \
+libboost-serialization.so.1.91.0 \
+libboost-thread.so.1.91.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
+libhidapi-libusb.so.0 \
 libm.so.6 \
 libreadline.so.8 \
-libsodium.so.23 \
+libsodium.so.26 \
 libssl.so.3 \
 libstdc++.so.6 \
 libunbound.so.8"

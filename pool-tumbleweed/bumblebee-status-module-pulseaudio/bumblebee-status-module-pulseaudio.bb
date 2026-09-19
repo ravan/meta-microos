@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-pulseaudio-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "5ac202b867031e96b9b4b121e8d5ec2e74cbb3185f0e65c47f9d0c8553aca56fbb67ab51a47b51eaabeb6099fe9a829bcc5d497621a8c2f62bf0c7c455a46955"
+RPM_NAME = "bumblebee-status-module-pulseaudio-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "92fdd57924da83025d9c8fb730402dcca78bfb2fcbc0d98efd4e404adfe05c4be575d7cea625e6da59cf66c23817c3bcc9aa4f7ebc7851cc1077ae1aa0e326f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-pulseaudio"

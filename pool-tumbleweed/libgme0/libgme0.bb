@@ -12,10 +12,10 @@ the following formats and systems: \
 - VGM/VGZ: Sega Master System/Mark III, Sega Genesis/Mega Drive,BBC Micro"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.6.3"
+PV = "0.6.5"
 
-RPM_NAME = "libgme0-0.6.3-2.5.aarch64.rpm"
-RPM_HASH = "a0695ae93633c1f762631cc787414b24fcc754e80dc062068e4d56cc04b69f88b5577b9c2fa3c1bde802197f672a7297c3703575246de9364bd5edf3dd3d431b"
+RPM_NAME = "libgme0-0.6.5-1.3.aarch64.rpm"
+RPM_HASH = "eb8fef2e174dae1068a358ec36c1c5c81899b7533b84a555221dc22c29129dd327c3d52355069006a1f25d9f5c18f260c0a60b26bbb77f6b3f9d75489a53d443"
 
 RPROVIDES:${PN} += "libgme.so.0 \
 libgme0"
@@ -23,9 +23,7 @@ libgme0"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgcc-s.so.1 \
 libm.so.6 \
-libstdc++.so.6 \
-libubsan.so.1"
+libstdc++.so.6"
 
 inherit rpm

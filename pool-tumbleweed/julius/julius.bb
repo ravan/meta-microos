@@ -18,10 +18,10 @@ Julius requires the original assets (graphics, sounds, etc) from \
 Caesar 3 to run."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.7.0"
+PV = "1.8.0"
 
-RPM_NAME = "julius-1.7.0-1.11.aarch64.rpm"
-RPM_HASH = "10ed9b9763760d51d624769a2f0dbad7e805e2f449d348e9db6837db7aee3924d60336ec910fbf8ac864d3e9c8b68aef601c3a6db8cd487a92dcf94447886063"
+RPM_NAME = "julius-1.8.0-1.6.aarch64.rpm"
+RPM_HASH = "de97b45e2e3284d1bb49af7e2764cd1de9621d2a4c232a0d728ca4e82f392828aa10b038cdbcca79ce859f11e7750eb4fe2e4c670365f731b23291057f2fcfd4"
 
 RPROVIDES:${PN} += "julius"
 

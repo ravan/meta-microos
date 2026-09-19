@@ -2,15 +2,16 @@ SUMMARY = "Translations for package coreutils"
 DESCRIPTION = "Provides translations for the 'coreutils' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.4"
+PV = "9.11"
 
-RPM_NAME = "coreutils-lang-9.4-1.1.noarch.rpm"
-RPM_HASH = "377255c3ea22cb7f087e8575107e4c9d6e1ef1cb3cf0b8ce4305da2662fa1a340a51440f09643861148deded967a8579986018bc3ecd27188bbc43dfff52e449"
+RPM_NAME = "coreutils-lang-9.11-5.1.noarch.rpm"
+RPM_HASH = "32762447023407590f0e3a889dd8dab5dcb613d50743b307c78a6c9415c321d0425d2669c646df50dd570cb293acecdfad069a8915bb3dbfb1cd15dc24182340"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "coreutils-lang \
 coreutils-lang-all \
 locale-coreutils-af \
+locale-coreutils-ar \
 locale-coreutils-be \
 locale-coreutils-bg \
 locale-coreutils-ca \

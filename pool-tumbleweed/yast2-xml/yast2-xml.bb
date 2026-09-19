@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - XML Agent"
 DESCRIPTION = "The YaST2 XML agent"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-xml-4.6.0-1.4.aarch64.rpm"
-RPM_HASH = "7934af51ca88f5d056c0ce4829b593ab4fd42526d84bfee8d2779f4a013230a38044f656cfda53d6a742a3ed87dccb2b0c61c7e282e3532871b593dac7d114e6"
+RPM_NAME = "yast2-xml-5.0.1-1.5.aarch64.rpm"
+RPM_HASH = "66449c27aa986d2aea9c601537b2114d36e07ff6c28e4777b19b38582224d40ec09c4082d657257bab6a785ea44fb3289aaf0d068c80af60754f1b5065f6e8ab"
 
 RPROVIDES:${PN} += "libpy2ag-xml.so.2 \
 yast2-agent-xml \
@@ -18,10 +18,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libscr.so.3 \
 libstdc++.so.6 \
-libxml2.so.2 \
-liby2.so.4 \
 liby2util.so.5 \
-libycp.so.5 \
 libycpvalues.so.6 \
 yast2-core"
 

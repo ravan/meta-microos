@@ -38,13 +38,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.000010"
 
-RPM_NAME = "perl-Safe-Isa-1.000010-1.19.noarch.rpm"
-RPM_HASH = "fa816a8f20f5a33653fd64cabf4d7a7fb772bf46e151894390ad0e4b721fafe0356026d0589cb64beeb7a128b4d7c3b0a9ba5bf734dbf0c334557f6925d2f041"
+RPM_NAME = "perl-Safe-Isa-1.000010-1.33.noarch.rpm"
+RPM_HASH = "82de082e3a8bc6c97eb05949a0db14dc7d3fca32c4cf30e8bae2d11fa2037bf5ea47a27b6d9c252da26d6a3b8f9aa2d445684055d3d54bb94a829072d29b722d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Safe--Isa \
 perl-Safe-Isa"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

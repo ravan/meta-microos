@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.1"
 
-RPM_NAME = "erlang-cf-0.3.1-1.2.aarch64.rpm"
-RPM_HASH = "61c516f334a3ff0bd7c66db844c2baa25543bab569a9121e0565f6d39d6e5c00c74ff3550b4494f80af7d0357c7574866444ac755698c2b46fabe20b9df29318"
+RPM_NAME = "erlang-cf-0.3.1-2.8.aarch64.rpm"
+RPM_HASH = "d927f2dfd9752b1e01d0fc835481b9026d44eb54fa260588855ecf8dec29e591f9d9427328b998bd75830c0bcce869dd5c955b349adcca2ecccab366e957156e"
 
 RPROVIDES:${PN} += "erlang-cf"
 

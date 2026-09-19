@@ -50,15 +50,15 @@ ISSN passed to the constructor was invalid, the error might have been in \
 any of the other nine positions."
 LICENSE = "Artistic-2.0"
 
-PV = "1.005"
+PV = "1.8.0"
 
-RPM_NAME = "perl-Business-ISSN-1.005-1.9.noarch.rpm"
-RPM_HASH = "94c518c4b6cb451482b3a7dd30a9d2d9a8791e04e7fbf920fdc8037cd7aa0457b8e16a9043172d36cdbeb5f03687a4eb743ce10a3689bf951ea3ce85e5a50338"
+RPM_NAME = "perl-Business-ISSN-1.8.0-1.9.noarch.rpm"
+RPM_HASH = "50233b9cbc0d19dadd1baafd41cfc504121013319b9f0d58a4401bcea0e67e4525ca453e7ce9646b113a45cfb63d33d88f1903001ed3622c2b40a3bcbc1cb8b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Business--ISSN \
 perl-Business-ISSN"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -1,12 +1,11 @@
 SUMMARY = "Kernel firmware files for Radeon graphics driver"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Radeon graphics driver."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Radeon graphics driver."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware & MIT"
 
-PV = "20230829"
+PV = "20260610"
 
-RPM_NAME = "kernel-firmware-radeon-20230829-1.1.noarch.rpm"
-RPM_HASH = "09db617bfb354c51861cb9557a5f6c0f9c64b782a1ac638892ba844554224cdeda62ec1bc2e6c4a3ec89ee89d29eecae7a04f2b455da23732f7b0558dc271b10"
+RPM_NAME = "kernel-firmware-radeon-20260610-1.2.noarch.rpm"
+RPM_HASH = "c0c3b80a4d48bbaf9e75cfa359b70aee2fba8f1ba9ade97d1f4d72e5520cd2c2e37104cdcef4746be592e4d8ee17db914ad76b26c2e49caaa62dcd9d98a22118"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-radeon/ARUBA-me.bin \

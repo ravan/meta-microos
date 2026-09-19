@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains header files and documentation for developi
 libsnapper."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.10.5"
+PV = "0.13.1"
 
-RPM_NAME = "libsnapper-devel-0.10.5-2.1.aarch64.rpm"
-RPM_HASH = "f69585d3e0fe8b2bf81e94a6679c472098c9ad9af374157bb4a996ba659328fa65c6ae3b57855189a76b3bf97c16db4836aec5a8e23560d1f5fbf248adf62001"
+RPM_NAME = "libsnapper-devel-0.13.1-3.3.aarch64.rpm"
+RPM_HASH = "65c9f066ade7be1ec9ecd83e756f20a99fc4e02580a765f85533d429b7c33d4d7ef04c1712dbf44ceff556d3b0c37778dd92c351b8008f3efb1799eca64aa0f6"
 
 RPROVIDES:${PN} += "libsnapper-devel"
 
@@ -15,7 +15,7 @@ libacl-devel \
 libboost-headers-devel \
 libbtrfs-devel \
 libmount-devel \
-libsnapper7 \
+libsnapper8 \
 libstdc++-devel \
 libxml2-devel"
 

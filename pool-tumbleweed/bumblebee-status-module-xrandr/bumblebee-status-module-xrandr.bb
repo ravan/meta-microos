@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-xrandr-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "312a095d559873c10eb72a00ce46f1f2f67fc085cc84705cd79d39e4b329d84cb39c2a370db9037b8b1eaac34ede627e4fa673825bab2edef146ea2463dbda89"
+RPM_NAME = "bumblebee-status-module-xrandr-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "556f57a63758a8285e1a265e9b2b13a5bb66bfae7fca750607c0bebff7f9cf62647e44e4829189b06449e0d979065a3a3655c3ff938daa7e49587bb9b34868e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-xrandr"

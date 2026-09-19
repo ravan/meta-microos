@@ -1,23 +1,32 @@
 SUMMARY = "Translations for package kosmindoormap"
 DESCRIPTION = "Provides translations for the 'kosmindoormap' package."
-LICENSE = "LGPL-2.0-or-later & CC0-1.0"
+LICENSE = "CC0-1.0 & LGPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kosmindoormap-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "1b2170378a7a10163f5f34622d7d03db7356424a720843e583165aea1cc15407b556eb7ba0beac3946880d5773494cea7a4616b4f097b979fa9cddf590e63bd1"
+RPM_NAME = "kosmindoormap-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "2ca7fb1629c430478f5c1bc99b076d342ce54fa58ec3826cf3f7f2cdf504b49861b247d49a2927014c148b07d365d5d192191d147a0c1f88f50bc37a840e228b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kosmindoormap-lang \
 kosmindoormap-lang-all \
+locale-kosmindoormap-ar \
+locale-kosmindoormap-ast \
 locale-kosmindoormap-ca \
 locale-kosmindoormap-ca@valencia \
 locale-kosmindoormap-cs \
 locale-kosmindoormap-de \
 locale-kosmindoormap-en-GB \
+locale-kosmindoormap-eo \
 locale-kosmindoormap-es \
+locale-kosmindoormap-eu \
 locale-kosmindoormap-fi \
 locale-kosmindoormap-fr \
+locale-kosmindoormap-ga \
+locale-kosmindoormap-gl \
+locale-kosmindoormap-he \
+locale-kosmindoormap-hi \
+locale-kosmindoormap-ia \
 locale-kosmindoormap-it \
 locale-kosmindoormap-ja \
 locale-kosmindoormap-ka \
@@ -32,6 +41,7 @@ locale-kosmindoormap-sk \
 locale-kosmindoormap-sl \
 locale-kosmindoormap-sv \
 locale-kosmindoormap-tr \
+locale-kosmindoormap-ug \
 locale-kosmindoormap-uk \
 locale-kosmindoormap-zh-CN \
 locale-kosmindoormap-zh-TW"

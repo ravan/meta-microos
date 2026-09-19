@@ -1,17 +1,17 @@
 SUMMARY = "Development pre-release of the LaTeX kernel"
-DESCRIPTION = "This package provides a testing release for upcoming LaTeX2e \
+DESCRIPTION = "This package provides a test release for upcoming LaTeX2e \
 kernel changes. Testing by the LaTeX team itself suggests that \
 the code is stable and usable, but wider use by knowledgeable \
-users is required by adding these changes to the release LaTeX \
-kernel. Typically, the code here will be used by a TeX system \
-to create dedicated formats, for example pdflatex-dev, which \
-can then be used explicitly for testing."
+users is desired. The code here is used by TeX systems to \
+create dedicated formats, for example pdflatex-dev and \
+lualatex-dev, which can then be used explicitly for testing, \
+simply by changing your program invocation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.20230601_pre_release_2svn66513"
+PV = "2026.226.pre_release_1svn77483"
 
-RPM_NAME = "texlive-latex-base-dev-2023.209.20230601_pre_release_2svn66513-56.1.noarch.rpm"
-RPM_HASH = "6cae65d159e1213f706e1463cafcff8e4135f57aa1b5bc20718d7994043df6d1e1385747f36c2e82ce49513d84bfa4009a200c71310606b794099df8b5dc1bd0"
+RPM_NAME = "texlive-latex-base-dev-2026.226.pre_release_1svn77483-63.2.noarch.rpm"
+RPM_HASH = "d9e13f1e987180d32a9095e89568b7ac1165c4271af5656e624f839e664966cfa1cbdb9d0783020369630d32785af19dac7ff515488772bb012eab5532c0a04f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texdev-alltt.sty \
@@ -28,6 +28,7 @@ texdev-bk11.clo \
 texdev-bk12.clo \
 texdev-book.cls \
 texdev-book.sty \
+texdev-checkencodingsubset.tex \
 texdev-cp1250.def \
 texdev-cp1252.def \
 texdev-cp1257.def \
@@ -56,6 +57,7 @@ texdev-graphpap.sty \
 texdev-idx.tex \
 texdev-ifthen.sty \
 texdev-inputenc.sty \
+texdev-l3in2edoc.cls \
 texdev-lablst.tex \
 texdev-latex209.def \
 texdev-latexrelease.sty \
@@ -171,8 +173,9 @@ grep \
 sed \
 tex-hypdoc.sty \
 tex-hyperref.sty \
-tex-l3doc.cls \
 tex-url.sty \
+texdev-l3doc.cls \
+texdev-latex-lab-testphase-l3doc.sty \
 texdev-multicol.sty \
 texlive \
 texlive-filesystem \

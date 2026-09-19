@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "NetworkManager-iodine-1.2.0-7.3.aarch64.rpm"
-RPM_HASH = "87fcafe7009ed6bebff8eb5b17be3f7ff5d2156ec64f58f31fb0ba46e026f5cf98c9cc83c05877b1beb944959482ecfaaff33bde2eee8523a5c62ea628a149e9"
+RPM_NAME = "NetworkManager-iodine-1.2.0-12.5.aarch64.rpm"
+RPM_HASH = "e6918e32ea2dc35e751d30b8c588e3bba39dccfe62a594cef41131ccae18691c580b665ddbff17ab4bbb421932cf9e5b85d855c295d776008b7996a9a75162eb"
 
 RPROVIDES:${PN} += "NetworkManager-iodine \
 group-nm-iodine \

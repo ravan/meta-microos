@@ -7,10 +7,10 @@ except for MSVC dependency handling. It uses the same format for the \
 and 4, respectively."
 LICENSE = "Apache-2.0"
 
-PV = "1.2+g24"
+PV = "1.2+git41.g737f702"
 
-RPM_NAME = "samurai-1.2+g24-2.6.aarch64.rpm"
-RPM_HASH = "7dad005c9db0a59f041588ee14b85b30545336ded92b3b15967496e5ff6755ed175e02337e8de46a568f75b798f5b81166705fe7650dde1bf30907389f633c0b"
+RPM_NAME = "samurai-1.2+git41.g737f702-1.5.aarch64.rpm"
+RPM_HASH = "2934e4c019c4a26230bb9e823e58e37ff05d8be7e1408866f2366870017f5d5e1f90a0140ff21d515f063c6937b7979a04e6fc4731613fb6f76fccb9f808189e"
 
 RPROVIDES:${PN} += "samurai"
 

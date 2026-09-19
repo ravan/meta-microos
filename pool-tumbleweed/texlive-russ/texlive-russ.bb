@@ -7,10 +7,10 @@ set to 'letter', so that commands with Cyrillic letters in \
 their names may be defined."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25209"
+PV = "2026.226.svn25209"
 
-RPM_NAME = "texlive-russ-2023.209.svn25209-54.1.noarch.rpm"
-RPM_HASH = "d8e78e03d2006ecb98002857d3f661ccd01ef2b6b95d8078cfc9fb82216460e74e2d2c7d2e65bd2a920ddd2f7716883ce387662018943b40f7ccd6e8ada24b76"
+RPM_NAME = "texlive-russ-2026.226.svn25209-60.2.noarch.rpm"
+RPM_HASH = "0a43168ad2315c5cbfc114dc8f134779a7681bd4d36161ebd3dcbe450bc3d0e69f0d90ee63b78c2c4cd5ad8319f7e3768ecc4755484357ca2c0ab43ccb0ff74d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-russ.sty \

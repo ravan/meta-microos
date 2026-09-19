@@ -4,10 +4,10 @@ numbers or markers and can be well distinguished from the main \
 text, for writing your ideas or annotations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65236"
+PV = "2026.226.svn65236"
 
-RPM_NAME = "texlive-mindflow-2023.209.svn65236-55.1.noarch.rpm"
-RPM_HASH = "f0adc16a1214ce468a2c324c1d27856bbe31688ebf6f551729fa97fd092e8b62a9abdfe7a3b6d03577ff8c6e4b71ce95b40eebca1ec2134c3249b4cded2a38ba"
+RPM_NAME = "texlive-mindflow-2026.226.svn65236-61.2.noarch.rpm"
+RPM_HASH = "36459c562c52c7c56836cb3299bc9ad679de1283c0259e068dcdf6fa7e9e09718819e0c82dce57be862f3cb767f46590d3c2a51fdab0ce13d32eabb6a83e5069"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mindflow.sty \

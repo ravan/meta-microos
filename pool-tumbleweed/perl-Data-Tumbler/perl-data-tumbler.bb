@@ -34,13 +34,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.010"
 
-RPM_NAME = "perl-Data-Tumbler-0.010-1.19.noarch.rpm"
-RPM_HASH = "807e6120a335f82fe9c8306855f5c9124c4c117921bb974e7da95c3447f78f53d97d22e25e7e0c655da253a0c6d15fe41b63d150a84ffdf7f038e1e8082366e4"
+RPM_NAME = "perl-Data-Tumbler-0.010-1.33.noarch.rpm"
+RPM_HASH = "e823c1b8f2f63d1da4efdc4c498d5d5fbc0dc321cfe3c914166c874c3e8208dec5b96ad2721ff261fe2ceb1c66f2bb110c551358ba77597bfa8ac3dee2f998af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Tumbler \
 perl-Data-Tumbler"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

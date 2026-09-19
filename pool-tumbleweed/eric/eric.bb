@@ -4,10 +4,10 @@ based on the Qt GUI toolkit and integrates the Scintilla editor \
 control."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.4.2"
+PV = "25.3"
 
-RPM_NAME = "eric-23.4.2-1.2.noarch.rpm"
-RPM_HASH = "28e2fc09166db30edfaee2c1155a78c8b4fd5c28b5837c65d216e3bfb13ca6c4c717ddb0263670e0838f19a0bb9c42c2ac51e57157a612f2b3fd0d959b6e403f"
+RPM_NAME = "eric-25.3-2.4.noarch.rpm"
+RPM_HASH = "c5fdba92ff47771177c415ea2b76d80b003827edf0b3b24136e9ce96f7885889650a0bbeb276162cf8aaf8e0570ec5bc3506313bb116d15e059459f2a5c9afd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eric \

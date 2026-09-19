@@ -4,10 +4,10 @@ glossaries package. The package is loaded with \
 \\usepackage{hep-acronym}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64890"
+PV = "2026.226.1.4svn76220"
 
-RPM_NAME = "texlive-hep-acronym-2023.209.1.1svn64890-54.2.noarch.rpm"
-RPM_HASH = "e49f41413f2bf084b44bf880d6b25121aece9dcd23a14b0d9f892ec4376470acc2ec683f7a7c1b2c4b28a917a712a6c54833582b98ef34c373447c6c1def1bd9"
+RPM_NAME = "texlive-hep-acronym-2026.226.1.4svn76220-60.4.noarch.rpm"
+RPM_HASH = "ef9882adcbf9f590436674374607ef133e35b635d6e20925eb0837b9ce899bf92bda86b5b722f69cf027b40928cab1d1a2cf568763c2f3d7ed06a7d2f1c13d95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-acronym.sty \
@@ -22,6 +22,7 @@ sed \
 tex-amstext.sty \
 tex-everyhook.sty \
 tex-glossaries-extra.sty \
+tex-kvoptions.sty \
 tex-xparse.sty \
 tex-xspace.sty \
 texlive \

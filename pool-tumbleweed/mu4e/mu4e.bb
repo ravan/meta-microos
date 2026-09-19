@@ -2,10 +2,10 @@ SUMMARY = "Emacs-based e-mail client based on the mu e-mail indexer/searcher"
 DESCRIPTION = "mu4e is an emacs-based e-mail client. It is based on the mu e-mail indexer/searcher."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.10.7"
+PV = "1.14.3"
 
-RPM_NAME = "mu4e-1.10.7-1.1.noarch.rpm"
-RPM_HASH = "3c98c071672e693dae7ed1418a28f6c1c46a664a6921ea6ac68310ed8bd40ff35f593f658ea9bb5b8b5b829f8ca86669829ad8b530d2b863bae60bb55c509cbf"
+RPM_NAME = "mu4e-1.14.3-1.1.noarch.rpm"
+RPM_HASH = "5c03e324f64de735aacfc4037f9af05efbeafe6bba6cbbd77003aa8e0d81a750094aa827a6fd8a1eb921d9fb3d0174a6f3c1fa8eae75963435b0a709b6a947fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mu4e"

@@ -2,17 +2,19 @@ SUMMARY = "Video4linux test control and streaming test application"
 DESCRIPTION = "qv4l2 is a test control and streaming test application for video4linux."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.24.1"
+PV = "1.32.0"
 
-RPM_NAME = "qv4l2-1.24.1-1.4.aarch64.rpm"
-RPM_HASH = "5e5de25593798922563de167ab3650b9582370acc4a7229321f2c49bdf7cace0cf565a1adf5aca1c12fe76b863103a9890ca18d04320c8d35c31ddf61d80dd64"
+RPM_NAME = "qv4l2-1.32.0-2.3.aarch64.rpm"
+RPM_HASH = "7113f96d2b9acaa11bd33ddfba3ebe3fde6ac330b7b1ee0769459cb378255df33ac31a5f15f520239a169d5fc65efa849b60a22ced9967d9b8555fb55c95aeab"
 
 RPROVIDES:${PN} += "qv4l2"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libGL.so.1 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libasound.so.2 \
 libc.so.6 \
 libgcc-s.so.1 \

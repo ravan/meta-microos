@@ -1,13 +1,13 @@
 SUMMARY = "Development libraries for ScaLAPACK (openmpi4)"
 DESCRIPTION = "This package contains development libraries for ScaLAPACK, compiled against openmpi4."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "2.1.0"
+PV = "2.2.2"
 
-RPM_NAME = "libscalapack2-openmpi4-devel-2.1.0-9.12.aarch64.rpm"
-RPM_HASH = "67d1ad914e1210951cc423d249f8bb8400f7e80bcfc8a914652faa2c28a60795689a84f46a606cacec7e9f8057154f6dd923c47b26384f2be44878cc5f97c65d"
+RPM_NAME = "libscalapack2-openmpi4-devel-2.2.2-1.3.aarch64.rpm"
+RPM_HASH = "359d3906110a2d1e487848bfa38ec31b9e6b1e62151799e47bb44244c56b84ccbea063deb074c613eba460920a8d7af2789839fd3a0d9994e36d3dd4e0f3ca74"
 
-RPROVIDES:${PN} += "libscalapack.so.2.1.0 \
+RPROVIDES:${PN} += "libscalapack.so.2.2.2 \
 libscalapack2-openmpi4-devel \
 scalapack-openmpi4-devel"
 

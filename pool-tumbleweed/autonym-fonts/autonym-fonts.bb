@@ -12,8 +12,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.0"
 
-RPM_NAME = "autonym-fonts-1.0-3.17.noarch.rpm"
-RPM_HASH = "34fa0cfa237215d6ac7bcee80a4d851e56edb6cdce42960316ea42a74477edaed28920027602be23344f09db43c4c0cba40bf84db495a6e07621eabda83c7c08"
+RPM_NAME = "autonym-fonts-1.0-3.25.noarch.rpm"
+RPM_HASH = "3672a5eb5114ef74fcad4ee17626e6f735ee49974a3c84cf819f3f4210dce7567cadfa5bd4bbdf443caedc56ce598fb7ed679c294bd37bfc4c74a6b1cf724ea5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autonym-fonts"

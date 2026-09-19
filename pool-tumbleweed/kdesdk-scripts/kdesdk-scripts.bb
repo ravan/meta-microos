@@ -1,11 +1,11 @@
 SUMMARY = "Scripts for KDE software development"
 DESCRIPTION = "This package contains scripts useful for development of KDE software."
-LICENSE = "GPL-2.0-only & GFDL-1.2-only"
+LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdesdk-scripts-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "29ea35b0453dbd24eecde4df433c5d26e8284c2fd2191103d1d9b101e64260d5088f4d2cca68dfdc5e62c765a815b7c617414ab0eab5f14974570e0114e894a7"
+RPM_NAME = "kdesdk-scripts-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "c8e16845e306465c9e8ca51eca48536e584103a5d22f5b60f6468444a9cd21e6fe8cf5eda5b73524a87316ed60d37521e5e3ad87aafffe79e1c15d7d248195d1"
 
 RPROVIDES:${PN} += "kde-dev-scripts \
 kdesdk-scripts \

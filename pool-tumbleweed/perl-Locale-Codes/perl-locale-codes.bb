@@ -47,27 +47,41 @@ that occur, so if any of the standards change, and you want a new release \
 sooner, just email me and I'll get one out."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.74"
+PV = "3.900.0"
 
-RPM_NAME = "perl-Locale-Codes-3.74-1.2.noarch.rpm"
-RPM_HASH = "b968db843e0ebabedc4e4f51470b7308a03186d5fae5ad6bf144faf948ec7eb7b2da894dc1cf0e7c7c509acbf3662e50aaf241d864b854e729a2327f6cc7984c"
+RPM_NAME = "perl-Locale-Codes-3.900.0-1.3.noarch.rpm"
+RPM_HASH = "0eaa42eb624fcdad1d2a8c298ed13807f3343010f442df54d2ba0e37cd84d6861bca65a93f09ad8bbf1018a6b417adb6bbdfc3fa1e6f12c9addb8ba3cca62441"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Locale--Codes \
 perl-Locale--Codes--Constants \
 perl-Locale--Codes--Country \
+perl-Locale--Codes--Country-Codes \
+perl-Locale--Codes--Country-Retired \
 perl-Locale--Codes--Currency \
+perl-Locale--Codes--Currency-Codes \
+perl-Locale--Codes--Currency-Retired \
 perl-Locale--Codes--LangExt \
+perl-Locale--Codes--LangExt-Codes \
+perl-Locale--Codes--LangExt-Retired \
 perl-Locale--Codes--LangFam \
+perl-Locale--Codes--LangFam-Codes \
+perl-Locale--Codes--LangFam-Retired \
 perl-Locale--Codes--LangVar \
+perl-Locale--Codes--LangVar-Codes \
+perl-Locale--Codes--LangVar-Retired \
 perl-Locale--Codes--Language \
+perl-Locale--Codes--Language-Codes \
+perl-Locale--Codes--Language-Retired \
 perl-Locale--Codes--Script \
+perl-Locale--Codes--Script-Codes \
+perl-Locale--Codes--Script-Retired \
 perl-Locale--Country \
 perl-Locale--Currency \
 perl-Locale--Language \
 perl-Locale--Script \
 perl-Locale-Codes"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

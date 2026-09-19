@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.12"
 
-RPM_NAME = "perl-Plack-Middleware-FixMissingBodyInRedirect-0.12-1.14.noarch.rpm"
-RPM_HASH = "1b27905f4bc2b1af935a05dd9722728a16ae3a6a6f995c74b5746e9c432f366fa6e9cbc343260d5ec8bb33dca00885c2c7c525017abb117d7a2024083ffb3b61"
+RPM_NAME = "perl-Plack-Middleware-FixMissingBodyInRedirect-0.12-1.28.noarch.rpm"
+RPM_HASH = "a020595a1d2d7e85c714a3b1d45c32b98b91c1344c0b10f15a43bf03359336cf6617dcddfa2afd7f5fc9089b4eb7ae0dc10dcd3c8319e607be9ac6b0985c20a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Plack--Middleware--FixMissingBodyInRedirect \
 perl-Plack-Middleware-FixMissingBodyInRedirect"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTML--Entities \
 perl-Plack--Middleware \
 perl-Plack--Util \

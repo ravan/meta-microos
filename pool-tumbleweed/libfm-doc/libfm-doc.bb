@@ -2,10 +2,10 @@ SUMMARY = "GTK libfm libraries"
 DESCRIPTION = "libfm developers documentation"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "1.4.1"
 
-RPM_NAME = "libfm-doc-1.3.2-1.13.aarch64.rpm"
-RPM_HASH = "40369704c73ec7e9dd8ff485c643e2cd6bf059f310779ae9ba99238360627702cb8badad0a60b05f6d35b6808813a25cd0c6074da39e6a41eb52afcc2fbfc0cd"
+RPM_NAME = "libfm-doc-1.4.1-2.5.aarch64.rpm"
+RPM_HASH = "474360fe7bf9950edd34f7f440e6002b6ada85b345e0ea4b9e75932a8bd26ad5d6c6a090a28b329ad33b810ef84c5ee34add19b159ab800e2a826227a3a2e142"
 
 RPROVIDES:${PN} += "libfm-doc"
 

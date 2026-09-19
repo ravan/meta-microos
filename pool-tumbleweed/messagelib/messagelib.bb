@@ -3,83 +3,87 @@ DESCRIPTION = "This package contains the messagelib library. It is used by KDE P
 display emails."
 LICENSE = "GPL-2.0-only & GPL-3.0-only & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "messagelib-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "5f14e25cdb7fe5f81cb7945e809f6b25f13cdfc7bd09440744fba54255ee335bc8c0385df6fe2d62c3f227c0d66e95fa687f946413d22d189fec3666548d9828"
+RPM_NAME = "messagelib-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "a4075f22f9c7f2e9538a5eeccd6a6bac4ec498cf18e260d5612dcdeee18b3dcc36b5262bb7257988a5cf9da07a89e6f85de520f39822da7876e1330232cc5351"
 
-RPROVIDES:${PN} += "libKPim5MessageComposer.so.5 \
-libKPim5MessageCore.so.5 \
-libKPim5MessageList.so.5 \
-libKPim5MessageViewer.so.5 \
-libKPim5MimeTreeParser.so.5 \
-libKPim5TemplateParser.so.5 \
-libKPim5WebEngineViewer.so.5 \
+RPROVIDES:${PN} += "libKPim6MessageComposer.so.6 \
+libKPim6MessageCore.so.6 \
+libKPim6MessageList.so.6 \
+libKPim6MessageViewer.so.6 \
+libKPim6MimeTreeParser.so.6 \
+libKPim6TemplateParser.so.6 \
+libKPim6WebEngineViewer.so.6 \
 messagelib"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libGrantlee-Templates.so.5 \
-libKF5Archive.so.5 \
-libKF5CalendarCore.so.5 \
-libKF5Codecs.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5Contacts.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5ItemModels.so.5 \
-libKF5ItemViews.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5Service.so.5 \
-libKF5SonnetUi.so.5 \
-libKF5SyntaxHighlighting.so.5 \
-libKF5TextAutoCorrectionCore.so.1 \
-libKF5TextEditTextToSpeech.so.1 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libKPim5AkonadiContact.so.5 \
-libKPim5AkonadiCore.so.5 \
-libKPim5AkonadiMime.so.5 \
-libKPim5AkonadiSearchPIM.so.5 \
-libKPim5AkonadiWidgets.so.5 \
-libKPim5ContactEditor.so.5 \
-libKPim5GrantleeTheme.so.5 \
-libKPim5Gravatar.so.5 \
-libKPim5IdentityManagement.so.5 \
-libKPim5IdentityManagementWidgets.so.5 \
-libKPim5Libkdepim.so.5 \
-libKPim5Libkleo.so.5 \
-libKPim5MailTransport.so.5 \
-libKPim5Mbox.so.5 \
-libKPim5Mime.so.5 \
-libKPim5PimCommon.so.5 \
-libKPim5PimCommonAkonadi.so.5 \
-libKPim5TextEdit.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5WebEngineCore.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
+libKF6Archive.so.6 \
+libKF6CalendarCore.so.6 \
+libKF6Codecs.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6Contacts.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6IconWidgets.so.6 \
+libKF6ItemModels.so.6 \
+libKF6ItemViews.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Mime.so.6 \
+libKF6Service.so.6 \
+libKF6SonnetUi.so.6 \
+libKF6SyntaxHighlighting.so.6 \
+libKF6TextAddonsWidgets.so.1 \
+libKF6TextAutoCorrectionCore.so.1 \
+libKF6TextCustomEditor.so.1 \
+libKF6TextEditTextToSpeech.so.1 \
+libKF6TextTemplate.so.6 \
+libKF6TextUtils.so.1 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKPim6AkonadiContactCore.so.6 \
+libKPim6AkonadiContactWidgets.so.6 \
+libKPim6AkonadiCore.so.6 \
+libKPim6AkonadiMime.so.6 \
+libKPim6AkonadiSearchPIM.so.6 \
+libKPim6AkonadiWidgets.so.6 \
+libKPim6GrantleeTheme.so.6 \
+libKPim6Gravatar.so.6 \
+libKPim6IdentityManagementCore.so.6 \
+libKPim6IdentityManagementWidgets.so.6 \
+libKPim6Libkdepim.so.6 \
+libKPim6Libkleo.so.6 \
+libKPim6MailTransport.so.6 \
+libKPim6Mbox.so.6 \
+libKPim6PimCommon.so.6 \
+libKPim6PimCommonAkonadi.so.6 \
+libKPim6TextEdit.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
+libcrypto.so.3 \
 libgcc-s.so.1 \
-libgpgmepp.so.6 \
+libgpgmepp.so.7 \
 libm.so.6 \
-libqca-qt5.so.2 \
-libqgpgme.so.15 \
+libqgpgmeqt6.so.15 \
 libstdc++.so.6"
 
 inherit rpm

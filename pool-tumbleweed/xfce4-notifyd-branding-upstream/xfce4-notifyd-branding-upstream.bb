@@ -2,10 +2,10 @@ SUMMARY = "Upstream Branding of xfce4-notifyd"
 DESCRIPTION = "This package provides the upstream look and feel for the Xfce Notification Daemon."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.8.2"
+PV = "0.9.7"
 
-RPM_NAME = "xfce4-notifyd-branding-upstream-0.8.2-1.4.noarch.rpm"
-RPM_HASH = "7d0bf969e14875efbb6fa5c9406b0dd2029e3318036b9ef96566d5e9a66f38ffaafb836535031fa42378ddc4e316a4c48ab0670da4773bdca1300e85cf8b764b"
+RPM_NAME = "xfce4-notifyd-branding-upstream-0.9.7-1.7.noarch.rpm"
+RPM_HASH = "5c997dc75ddd9b67df142c2696fa5977b1f1b206ee25f7fbdbbf67aefbdedafa70fa43b50890de927d4da6e184475971752f41ddfe547928e52dedf5535be939"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-xfce4-notifyd-branding-upstream \

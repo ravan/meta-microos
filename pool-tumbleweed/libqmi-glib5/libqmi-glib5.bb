@@ -3,10 +3,10 @@ DESCRIPTION = "libqmi is a glib-based library for talking to WWAN modems and dev
 which speak the Qualcomm MSM Interface (QMI) protocol."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "1.32.4"
+PV = "1.38.0"
 
-RPM_NAME = "libqmi-glib5-1.32.4-1.2.aarch64.rpm"
-RPM_HASH = "fe7d712bb5034e16f7450e2617b526419695eea6cc9bf73f1f795154ff71612455061b8ab6adca0f07ce6f3e1fad96664d053c86b695f4b17c091c76ec029533"
+RPM_NAME = "libqmi-glib5-1.38.0-1.3.aarch64.rpm"
+RPM_HASH = "2b5d505af287ab7c7c698b226ca03a34124fb01137a465b318a30f80cdfc1b9e146efb06a20b268b9115be52de7e2de4a9440dadee82d25d6c4abc6879b35e92"
 
 RPROVIDES:${PN} += "libqmi-glib.so.5 \
 libqmi-glib5"

@@ -4,10 +4,10 @@ dissertations, etc., to institutions that still maintain the \
 typewriter is the summit of non-professional printing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.7svn36110"
+PV = "2026.226.1.7svn36110"
 
-RPM_NAME = "texlive-manuscript-2023.208.1.7svn36110-53.1.noarch.rpm"
-RPM_HASH = "689aedf606084ea819aa65f16de75b88d4928edb12a348ef6ff79af5d454d2af475d0db78f9e6e5ea421063bffdc3318cd37b6e19f551d55b5635d937ce4f4f9"
+RPM_NAME = "texlive-manuscript-2026.226.1.7svn36110-59.2.noarch.rpm"
+RPM_HASH = "f4b3d0986c4466c3c831f2080b26a5bb51be3125fcf5150cb2066421959dc77eec9a4ac374e26cc3f594cb460d9a52a564a0573792ff8a105b786903b3dddf31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-manuscript.sty \

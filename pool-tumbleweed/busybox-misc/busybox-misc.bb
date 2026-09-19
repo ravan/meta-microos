@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the symlinks to provide various busybox app
 do not fit really to any other package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-misc-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "b2c3ee9b6c138e72f62ecf786f02c844da46df2c836bd5b605bbf585d4cbed46cf84bd38642ab6b9496df567b78f0986870058652a4dce8485d0fbc3d0a42472"
+RPM_NAME = "busybox-misc-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "f61d221f8522fd5051a577c557458af16d6ce74eff9175a9adde6bfcea3a6db6b67ab0abc3a39410bed35b37df7b71c06ac7e8ecdf8ad62f735642b03f9a535b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-misc"

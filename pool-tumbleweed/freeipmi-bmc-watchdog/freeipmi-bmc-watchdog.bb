@@ -2,10 +2,10 @@ SUMMARY = "FreeIPMI BMC watchdog"
 DESCRIPTION = "Provides a watchdog daemon for OS monitoring and recovery."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.11"
+PV = "1.6.18"
 
-RPM_NAME = "freeipmi-bmc-watchdog-1.6.11-1.1.aarch64.rpm"
-RPM_HASH = "a3b8173bb8127b3727eb9cb85053f1eaab5b4e27c2078e66a0e010a534505f8aad4057d28ab665b537138a6d9cb9e574c9a256a8543ef62f36a2cf0bce7996ea"
+RPM_NAME = "freeipmi-bmc-watchdog-1.6.18-1.3.aarch64.rpm"
+RPM_HASH = "d84a4aff1b0206fd558cae2e8093afec4595782aae2b1cc8208b7834fbdb2e2127ce891ddd0f875e6ac45ac393a4ada83c20fc486f943260a6b8fbcdb28040e6"
 
 RPROVIDES:${PN} += "freeipmi-bmc-watchdog"
 

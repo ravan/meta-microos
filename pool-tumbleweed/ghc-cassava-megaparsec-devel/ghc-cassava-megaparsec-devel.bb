@@ -3,22 +3,22 @@ DESCRIPTION = "This package provides the Haskell cassava-megaparsec library deve
 files."
 LICENSE = "MIT"
 
-PV = "2.0.4"
+PV = "2.1.1"
 
-RPM_NAME = "ghc-cassava-megaparsec-devel-2.0.4-3.5.aarch64.rpm"
-RPM_HASH = "b13f6182b012e6913d12b2f9270041970169cad27cc1e94f0c5432f60d1c72e9dfa9e8eced42aeb3f3e34b3ced45d4984a30bc43def081686895b46b86ad6890"
+RPM_NAME = "ghc-cassava-megaparsec-devel-2.1.1-1.21.aarch64.rpm"
+RPM_HASH = "0f1cf726ed2071ac7fa538090c5bf93ed880ab93fb51e093b809ad21a968c033296866ddbb9084bc6179d8acafa69cfb08093db8283b8eccc7bc23fd4f33ee8b"
 
 RPROVIDES:${PN} += "ghc-cassava-megaparsec-devel \
-ghc-devel-cassava-megaparsec-2.0.4-C7KekE0MHcyFXF3lsApNgX"
+ghc-devel-cassava-megaparsec-2.1.1-92PMhFSA6UZBxfXRek9rSe"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cassava-megaparsec \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-cassava-0.5.3.0-3BxMB2hl3TbBsSJkTsXVLP \
-ghc-devel-megaparsec-9.3.1-Jdwz39dpTDz8anub3eLd49 \
-ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-cassava-0.5.4.1-8IyxQgBHHLo5YfhT4Ar4sR \
+ghc-devel-megaparsec-9.7.1-3bWkE5RywYh6b8gn4lQrB6 \
+ghc-devel-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-devel-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE"
 
 inherit rpm

@@ -6,10 +6,10 @@ streams data where possible so its memory requirements stay small. It works \
 well with pipes and can feed 'tail -f'."
 LICENSE = "BSD-2-Clause & BSD-4-Clause"
 
-PV = "6.8.0+git20230604.4050f566"
+PV = "6.21.0+git20260810.375a0af47"
 
-RPM_NAME = "miller-6.8.0+git20230604.4050f566-1.1.aarch64.rpm"
-RPM_HASH = "0391b6b9e219c84d901662f47dace5b29a0d6317520526bd52cd18d4acdfb32d45718b9bf6ab2584e904d5d17a6b495504dd4a5cc464ddd8c920f2fb955da204"
+RPM_NAME = "miller-6.21.0+git20260810.375a0af47-1.1.aarch64.rpm"
+RPM_HASH = "df4f543e0835332e649ee979358d16a06815c6d1250d589d1f8b4d4bf909a6ddf89d9d2237de99f31afe237ad4d935fdd3a5f1099187cdfe03d5e43a343471b0"
 
 RPROVIDES:${PN} += "miller"
 

@@ -4,15 +4,14 @@ software by automating the fetching, configuration, compilation and \
 installation of Haskell libraries and programs."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.8.1.0"
+PV = "3.14.1.1"
 
-RPM_NAME = "cabal-install-3.8.1.0-2.4.aarch64.rpm"
-RPM_HASH = "5ffe5a5433c95678e71f8a26d2351799c58aa1178c841b2087b50a0c0b634f2c14473a76b05baa5c6c5923b7e44bbf91ef880bbbb2cd1bcad8965089916a56fd"
+RPM_NAME = "cabal-install-3.14.1.1-6.4.aarch64.rpm"
+RPM_HASH = "99e90be1f6a98f7822ead388205d785a85f89e48fb95e25ce2b02a1a54b8534c49ecd06c7664422c4787352c4c9eeeb095a015c1e7a5d2b85912c85656307096"
 
 RPROVIDES:${PN} += "cabal-install"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \
 libm.so.6 \

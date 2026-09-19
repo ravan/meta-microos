@@ -1,18 +1,15 @@
 SUMMARY = "LICR macros and encoding definition files for Greek"
-DESCRIPTION = "The package provides Greek LICR macro definitions and encoding \
-definition files for Greek text font encodings for use with \
-fontenc."
+DESCRIPTION = "LICR macros for characters from the Greek script and encoding \
+definition files for Greek text font encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2.1svn66513"
+PV = "2026.226.2.6svn77682"
 
-RPM_NAME = "texlive-greek-fontenc-2023.209.2.2.1svn66513-54.2.noarch.rpm"
-RPM_HASH = "132fbf0a81036dd62bb87f924cf6cfb21d7bbb2fd882b28e8bb708d3b4f59c762c609adccd1a84337a95785de802c5f5a09eb89ec06505388718ae0d67ab5c9e"
+RPM_NAME = "texlive-greek-fontenc-2026.226.2.6svn77682-60.4.noarch.rpm"
+RPM_HASH = "4f4800a9376d4d37a548ed18c9976c2512fc1c9e07018a7fba0f4fe66578d1fe6f5e40962cdf32e99eb58cd0f15d00d3a690a60f44456616dee650dd6d0e2adc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-alphabeta-lgr.def \
-tex-alphabeta-tuenc.def \
-tex-alphabeta.sty \
+RPROVIDES:${PN} += "tex-alphabeta.sty \
 tex-greek-euenc.def \
 tex-greek-fontenc.def \
 tex-lgrenc.def \

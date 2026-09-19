@@ -2,10 +2,10 @@ SUMMARY = "Qt5 base examples"
 DESCRIPTION = "Examples for the libqt5-qtbase modules."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libqt5-qtbase-examples-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "4ac31b3cdc628088f41b3e7b8f62dc47f15f60c812f6c98711ee62e4e20e6b731104f6f53bc6ad17dfd0db69f1738fadeb4f001824732b451489916457d6b88b"
+RPM_NAME = "libqt5-qtbase-examples-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "7c8d227204f7a9c73ee4695cf3afa3d08b5272c67eb20e4b10f7b414c030a0461d93172b581eba47e11ac77b899406c2b14dd732ca06dbcbaf03d425cdfadc23"
 
 RPROVIDES:${PN} += "libechoplugin.so \
 libpnp-extrafilters.so \

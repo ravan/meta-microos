@@ -24,25 +24,26 @@ Other features: \
 * scrollbar plug-in API (unstable)"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.3"
+PV = "3.9.5"
 
-RPM_NAME = "mlterm-sdl2-3.9.3-2.1.aarch64.rpm"
-RPM_HASH = "69b4379fa6dd2213bc0f3ff41dcb136dee17bf9add9f42da6097ee3a0ae3a900fc7092c8b21c8abbe3e571228782bd4ae9b973cdab8e5d52797100b42599cffa"
+RPM_NAME = "mlterm-sdl2-3.9.5-1.1.aarch64.rpm"
+RPM_HASH = "c6b8f87a0ed195b5bd146bfae5c99d63ac0cc8b613ee45ee1fdb7aee69ccddd220a331b4f83aaf90f8b705018af50a7c2caf1223f6852dc82c4071c2081ee721"
 
 RPROVIDES:${PN} += "libim-kbd-sdl2.so \
 libim-skk-sdl2.so \
 locale-ja;ko;zh;ar;he \
 mlterm-sdl2"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "group-tty \
+ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libc.so.6 \
 libfontconfig.so.1 \
 libfreetype.so.6 \
 libm.so.6 \
-libmef.so.3 \
+libmef.so.4 \
 libmlterm-coreotl.so \
-libpobl.so.2 \
+libpobl.so.3 \
 mlterm-common"
 
 inherit rpm

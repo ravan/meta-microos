@@ -10,10 +10,10 @@ images, and to create thumbnail images. \
 This package contains GraphicsMagick library configuration files."
 LICENSE = "MIT"
 
-PV = "1.3.40"
+PV = "1.3.48"
 
-RPM_NAME = "libGraphicsMagick3-config-1.3.40-5.1.aarch64.rpm"
-RPM_HASH = "92f8f66cd54ca062931c57d068b0b440460800f67dccf844d1b08a07712547a6b6510b48b25a4ffa8f62290ee586b7a110939fd4918ab2a86db735df4b0265c1"
+RPM_NAME = "libGraphicsMagick3-config-1.3.48-2.1.aarch64.rpm"
+RPM_HASH = "840d88c7237fd425ca2f03eddb2b545777c78f1c5d66eb8bc38188677c5cbb26c704741d5d7efd66d998b5d62c742046fb6228a1cbe267985fe73d6c61fe0775"
 
 RPROVIDES:${PN} += "libGraphicsMagick3-config"
 

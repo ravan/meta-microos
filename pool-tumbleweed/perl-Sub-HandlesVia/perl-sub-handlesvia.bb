@@ -43,10 +43,10 @@ to be loaded _after_ Moo/Moose/Mouse/etc. Your 'use Moo' or 'use \
 Moose::Role' or whatever needs to be _before_ your 'use Sub::HandlesVia'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.050000"
+PV = "0.053005"
 
-RPM_NAME = "perl-Sub-HandlesVia-0.050000-1.3.noarch.rpm"
-RPM_HASH = "e4665ffa711bf907bf718d7cc537be02ffd82e3445d49c124abbf3ef02853c9915848b03d5f7628b32f92279adcef2bc009b23d9c507c41285d806963a91d695"
+RPM_NAME = "perl-Sub-HandlesVia-0.053005-1.5.noarch.rpm"
+RPM_HASH = "eeeec64bdfad3e1b01c4a4e7558d07734aa1fa588eee39fcd4b6704254842e45b7c1bcfd3600ea0fcaa4fde2b36a5cb3bce6bfd8d5ee2cc2e5922e7e764f71ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--HandlesVia \
@@ -80,7 +80,7 @@ perl-Sub--HandlesVia--Toolkit--ObjectPad \
 perl-Sub--HandlesVia--Toolkit--Plain \
 perl-Sub-HandlesVia"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Method--Modifiers \
 perl-Exporter--Shiny \
 perl-List--Util \

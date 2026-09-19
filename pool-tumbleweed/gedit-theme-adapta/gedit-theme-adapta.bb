@@ -7,8 +7,8 @@ LICENSE = "CC-BY-SA-4.0 & GPL-2.0-only"
 
 PV = "3.95.0.11"
 
-RPM_NAME = "gedit-theme-adapta-3.95.0.11-3.5.noarch.rpm"
-RPM_HASH = "e56ca56365bbbdb7fe99b72735c3cd9d9b734d930f07f482850319c12e553640093b8b00bba77cd53451c1740171173c58bc8b1e942aa4dc2b452a8ec0ddb7e7"
+RPM_NAME = "gedit-theme-adapta-3.95.0.11-5.4.noarch.rpm"
+RPM_HASH = "45364993850980afbb3142a8335431e875cb28ffcda528830de2e1f3650b87e44da212dc63f6bf075bde19dcfdc31edb468502f0dcc8a31ce9837c1159e1279c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gedit-theme-adapta"

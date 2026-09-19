@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain"
 
 PV = "1.2.13"
 
-RPM_NAME = "libxine2-pulse-1.2.13-2.3.aarch64.rpm"
-RPM_HASH = "26ba468dceb5fe807bbca1058396f4004540e11aebe2af902e8a6f40387c5b8bd2a207554df6cd46abe1df681b20181269d069f0f37e89e8f12297f40bb2f529"
+RPM_NAME = "libxine2-pulse-1.2.13-11.5.aarch64.rpm"
+RPM_HASH = "af398cdddf91b2e59da0a047acbcf9ed0474d29e6211526494bd056769113cf00a1e789e05361a5e77e7279eaaceb6bbd8394848db0e9c110920915571260deb"
 
 RPROVIDES:${PN} += "libxine2-pulse"
 

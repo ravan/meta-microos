@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ditaa"
 DESCRIPTION = "This package includes the documentation for texlive-ditaa"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9svn48932"
+PV = "2026.226.0.0.9svn48932"
 
-RPM_NAME = "texlive-ditaa-doc-2023.209.0.0.9svn48932-53.1.noarch.rpm"
-RPM_HASH = "c6549c4f7476cee0ab4373298d3513af335eb1600de0c5c96f45a7114e46a247f3595bb274923445907055b5dbd8f7ba3acc6c67d468c5e834dcb9049c1c0b07"
+RPM_NAME = "texlive-ditaa-doc-2026.226.0.0.9svn48932-59.2.noarch.rpm"
+RPM_HASH = "8aeb4ba87233ee0440585f11b8d51a0202c425c08848d4f789b14daf6fce6cf03fc07488ff1fcfc18d594590d5f504580dbadf1b760ecb49e7f07c25035007dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ditaa-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Vietnamese"
 DESCRIPTION = "This package provides translations of man pages in Vietnamese."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.20.0"
+PV = "4.31.0"
 
-RPM_NAME = "man-pages-vi-4.20.0-1.1.noarch.rpm"
-RPM_HASH = "9cb2290996606b6ec959ea5b955eedcab79ed48a8fca4e6417ad4f14de54a10fb814a63be2e727e87ee51a7f0a9acb4d58f2eaac04bd25e8ab8f0b750d254635"
+RPM_NAME = "man-pages-vi-4.31.0-1.2.noarch.rpm"
+RPM_HASH = "ee427340ffa3e0173d090f9a60bad58b0510148d37a20b2a1f43193892f1fad2c770df95519e83a8d96e59324d1f1780a4009fa55dfdb4b82d71660540787fcc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-vi \

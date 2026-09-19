@@ -2,10 +2,10 @@ SUMMARY = "Libyui - Qt package selector"
 DESCRIPTION = "This package contains the Qt package selector component for libyui."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui-qt-pkg16-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "82226544be122118d059b48454ebb28b95ef4cf7f2a8897da0dec0fb16e8aa54d09c0f4f59127271a57345b43e446de4da70f9eb5b8cd03c24c6db1ec360307c"
+RPM_NAME = "libyui-qt-pkg16-4.7.7-1.1.aarch64.rpm"
+RPM_HASH = "009507868fbb5434799a790f74dadb32c22db2f9c98475ef225352647f898d12eddf6487be203e3f8c414b75a1ee237d9bcb5a351162877cae3095acdf521001"
 
 RPROVIDES:${PN} += "libyui-pkg \
 libyui-qt-pkg \
@@ -27,6 +27,6 @@ libyui-qt16 \
 libyui.so.16 \
 libyui16 \
 libzypp \
-libzypp.so.1722"
+libzypp.so.1735"
 
 inherit rpm

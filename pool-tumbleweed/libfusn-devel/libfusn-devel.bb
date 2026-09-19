@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfusn."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220119"
+PV = "20260522"
 
-RPM_NAME = "libfusn-devel-20220119-4.5.aarch64.rpm"
-RPM_HASH = "60ddbe6e7cef851f39384a9caf808371a30879c637c2433f754dc623ed44f31c0add722534b827f052c3dc5d73748e68928d639487e23ce8813c37f3915e2df9"
+RPM_NAME = "libfusn-devel-20260522-1.8.aarch64.rpm"
+RPM_HASH = "a1e64e809981d1620480165690eb376c232314ab6a1af952931319c48144f2f916cf2accbf5f103e0868d43b4ad9bb7affb0aeb43b1ee012865ea10e884d0b12"
 
 RPROVIDES:${PN} += "libfusn-devel \
 pkgconfig-libfusn"

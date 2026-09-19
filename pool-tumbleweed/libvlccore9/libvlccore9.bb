@@ -2,10 +2,10 @@ SUMMARY = "Shared code for the VLC media player program"
 DESCRIPTION = "This subpackage contains libraries that are part of VLC."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.0.18"
+PV = "3.0.23"
 
-RPM_NAME = "libvlccore9-3.0.18-9.2.aarch64.rpm"
-RPM_HASH = "e6bee96e834b5f0028aba9dffbf8f63e0f46c6a2cfd62b2e69674ba3fa1fb33aa59cd81f9659f327d64dd3d2774de22f03f00590883d312b0b8c412419b0bb21"
+RPM_NAME = "libvlccore9-3.0.23-7.12.aarch64.rpm"
+RPM_HASH = "77d2a4d1acc4da61a7f2670c19b36fb719897ae0d79056ea5c84cc1ee08c15477ebeacf1d220f01bb38bede616ff1f79165437fb00ef93c10a082b0a96b0a609"
 
 RPROVIDES:${PN} += "libvlccore.so.9 \
 libvlccore9"

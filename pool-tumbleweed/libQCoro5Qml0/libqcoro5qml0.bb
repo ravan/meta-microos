@@ -4,10 +4,10 @@ coroutines in connection with certain asynchronous Qt actions. This package \
 provides a library for Qml operations support."
 LICENSE = "MIT"
 
-PV = "0.9.0"
+PV = "0.13.0"
 
-RPM_NAME = "libQCoro5Qml0-0.9.0-1.1.aarch64.rpm"
-RPM_HASH = "2a0c4380804a16501bff74e99dc46caeeee43376be18bcb21939ff7d2ae05c633e1a47716195f3846f35df592d1a8898c146fc7adc786df9952bba2c66de1864"
+RPM_NAME = "libQCoro5Qml0-0.13.0-1.2.aarch64.rpm"
+RPM_HASH = "fff46152cd5a6430e69459517d66543ad656701bbd75bcb621ccb0de5212ec958866414f8be218ba9da8a3bad9193736a4154d18eb01f1dfb64514e39c076df8"
 
 RPROVIDES:${PN} += "libQCoro5Qml.so.0 \
 libQCoro5Qml0"

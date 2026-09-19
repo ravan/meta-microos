@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-settings-daemon"
 DESCRIPTION = "Provides translations for the 'mate-settings-daemon' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-settings-daemon-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "f06a876494f036131f36b5375021007f4ba793b79764e975e81ff9483a873b21f0c185cbf34c8bf211d05969a8417dd867301ebce8360dd89c5af72e4c4c29ef"
+RPM_NAME = "mate-settings-daemon-lang-1.28.0-1.9.noarch.rpm"
+RPM_HASH = "4d9d8fe47f09eb180d9ee152d5a5f4d78d94228e3c065f50462899cfa978e07ae4954aee146ae92cd7a29fea478bc7c6745e7fa84c1249eb98e6882dbee29a3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-settings-daemon-af \

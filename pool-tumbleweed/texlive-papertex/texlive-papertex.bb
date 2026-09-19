@@ -6,10 +6,10 @@ choose the number of columns, style and so on. The class allows \
 users to create newsletters too."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2bsvn19230"
+PV = "2026.226.1.2bsvn75878"
 
-RPM_NAME = "texlive-papertex-2023.209.1.2bsvn19230-52.1.noarch.rpm"
-RPM_HASH = "51e4a0bd2d441d55b1561b3849a98f5bc53bc5ea10d3d886be7f0e4d4ab153554acb4ee143a710cab0e4112cce5233cf01596294288e9d23d58179e642aed1bf"
+RPM_NAME = "texlive-papertex-2026.226.1.2bsvn75878-58.2.noarch.rpm"
+RPM_HASH = "4cae1d8749d6bdf88e0a0c145db205b8d7cad3e59b6df8edb45adc67da217b4d3ced0a18cf3d731b97bb747cccf02383a7edf5e5d09e0ced8a6a5b27c52e1d68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-papertex.cls \

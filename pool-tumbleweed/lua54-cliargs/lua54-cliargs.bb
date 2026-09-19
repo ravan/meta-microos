@@ -5,10 +5,10 @@ notations and argument types. \
 cliargs allows you to define required, optional, and flag arguments."
 LICENSE = "MIT"
 
-PV = "3.02"
+PV = "3.0.2"
 
-RPM_NAME = "lua54-cliargs-3.02-5.2.noarch.rpm"
-RPM_HASH = "cf451ee81d7e727f37c1e6bb5fa2be6903b17e072eb85071f879ee80c2cc1fe105da9a2f62b028f4983095ccde7c278291e427ee6f2be513238abd98fb4d7d32"
+RPM_NAME = "lua54-cliargs-3.0.2-2.2.noarch.rpm"
+RPM_HASH = "8f8c51d1e79f7db00fcac156a95dc2be48426437b14ad42cd166a3ed2a62e45b0dedec7c600f6018ce2cab3dad732a86db574f43a43c4a4a8154d58db6660452"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-luacliargs \

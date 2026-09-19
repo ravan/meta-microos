@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.7+git.20141015"
 
-RPM_NAME = "isatapd-0.9.7+git.20141015-3.8.aarch64.rpm"
-RPM_HASH = "61e8209f43878d493a1bf4a57fd19bf70cfee14e9d5de5d310bea1cdcef7b255ea8530bdaa31e287862f76634dcd46c392613a7c07bee933554741ec37209940"
+RPM_NAME = "isatapd-0.9.7+git.20141015-5.5.aarch64.rpm"
+RPM_HASH = "ad700f2e86b2059b5edac00242ca0b4b8aefbdad89fa390e8923da1b910f446ec61bda05f8eda459a41512984ad6159bdf957e395d255cf1b2cf42db2f358865"
 
 RPROVIDES:${PN} += "isatapd"
 

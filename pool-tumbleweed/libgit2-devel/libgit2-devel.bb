@@ -3,17 +3,19 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to compile and develop applications that use libgit2."
 LICENSE = "GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "1.7.1"
+PV = "1.9.7"
 
-RPM_NAME = "libgit2-devel-1.7.1-1.1.aarch64.rpm"
-RPM_HASH = "f013dc5a93e8865c1458e00bd0da6b9eacc5770288e9e51bbf2db34da74ccdbc17d3ee69660496344d58b7e624af3efa0e57294f5f10e3d53ca0f9dab48c960e"
+RPM_NAME = "libgit2-devel-1.9.7-1.1.aarch64.rpm"
+RPM_HASH = "9ce2a5b8c98f0861dac01a2add82501774f63ed700d371f8b8ba22fb106b910be22227f831c6c6b1df7a98cb158c1213f25d15342b2ea6c180b5e83869e0aa6d"
 
-RPROVIDES:${PN} += "libgit2-devel \
+RPROVIDES:${PN} += "cmake-libgit2 \
+libgit2-devel \
 pkgconfig-libgit2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libgit2-1-7 \
+libgit2-1-9 \
 pkgconfig-libpcre2-8 \
+pkgconfig-libssh2 \
 pkgconfig-openssl \
 pkgconfig-zlib"
 

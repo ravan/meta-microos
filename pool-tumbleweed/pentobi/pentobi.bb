@@ -5,24 +5,23 @@ Different levels of playing strength are available. Pentobi can \
 save and load games along with comments and move variations."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.1"
+PV = "30.3"
 
-RPM_NAME = "pentobi-23.1-1.1.aarch64.rpm"
-RPM_HASH = "7378364f1c6a2553ecabe16a220efd65a0b99c8cb554e4f9da0602b61e58c8ed4e950046271262d1de779acc8bc50419b8999464d1ecb8e8f4b19ff9f1f01a26"
+RPM_NAME = "pentobi-30.3-1.2.aarch64.rpm"
+RPM_HASH = "2ae2731a37dbdb1763adb02c2d05b174af5fd211e5d8ed56e3da362e45dcd4b886417f073b1b306b4baaa3a1b4c5403ab558d00bf0a7f06404ba283b84d5d1e1"
 
 RPROVIDES:${PN} += "pentobi"
 
-RDEPENDS:${PN} += "hicolor-icon-theme \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \
 libQt6Gui.so.6 \
 libQt6Qml.so.6 \
 libQt6Quick.so.6 \
 libQt6QuickControls2.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libstdc++.so.6 \
-update-desktop-files"
+libstdc++.so.6"
 
 inherit rpm

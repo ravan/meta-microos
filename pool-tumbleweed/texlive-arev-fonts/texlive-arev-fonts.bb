@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-arev"
 DESCRIPTION = "The  separated fonts package for texlive-arev"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-arev-fonts-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "1cfc3c36205b741dd2256b73955bbe0986ea34a36c5fceff9d6885414f2e08e26e45888f804b56d8e3639949a009008299c7c493327609a588536f825342979d"
+RPM_NAME = "texlive-arev-fonts-2026.226.svn78101-61.2.noarch.rpm"
+RPM_HASH = "c9d7671213144ab3c5db3ac4e858538ecc669860a4a43ad498b0c3ef2e7cc4a69960d0c9c2e7eb30e16cb0344d300521e5178b5828cc07d75484382a70cb7f22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -42,7 +45,9 @@ font--lang=kwm \
 font--lang=lb \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -77,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=to \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=wa \
+font--lang=wae \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-arevsans \

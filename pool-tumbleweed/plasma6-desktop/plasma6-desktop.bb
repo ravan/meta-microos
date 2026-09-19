@@ -1,0 +1,167 @@
+SUMMARY = "The KDE Plasma Workspace Components"
+DESCRIPTION = "This package contains the basic packages for a Plasma workspace."
+LICENSE = "GPL-2.0-only"
+
+PV = "6.7.5"
+
+RPM_NAME = "plasma6-desktop-6.7.5-1.1.aarch64.rpm"
+RPM_HASH = "c4e0e72697ba7f8ed06274c0f641e0f87fd4f0f3588ffd0ba09265f1c457a24be89eafcb589f1343898c95423a82fe323c46888ae7b068528ea6041860b68b97"
+
+RPROVIDES:${PN} += "kcm-touchpad \
+kcm-touchpad5 \
+kdebase4-workspace \
+kdebase4-workspace-plasma-calendar \
+kdebase4-workspace-plasma-engine-akonadi \
+libEmojierDeclarativePlugin.so \
+libactivityswitcherextensionplugin.so \
+libfolderplugin.so \
+libkcm-keyboard-declarative.so \
+libkglobalaccelmodel.so.6 \
+plasma5-addons-kimpanel \
+plasma5-desktop \
+plasma5-desktop-branding-upstream \
+plasma5-desktop-kimpanel \
+plasma6-desktop \
+plasma6-desktop-branding \
+qt6qmlimport-org.kde.plasma.activityswitcher \
+qt6qmlimport-org.kde.plasma.activityswitcher.254 \
+qt6qmlimport-org.kde.plasma.emoji \
+qt6qmlimport-org.kde.plasma.emoji.254 \
+qt6qmlimport-org.kde.plasma.emoji.6 \
+qt6qmlimport-org.kde.plasma.private.kcm-keyboard \
+qt6qmlimport-org.kde.plasma.private.kcm-keyboard.254 \
+qt6qmlimport-org.kde.plasma.private.kcm-keyboard.6 \
+qt6qmlimport-org.kde.private.desktopcontainment.folder \
+qt6qmlimport-org.kde.private.desktopcontainment.folder.1 \
+qt6qmlimport-org.kde.private.desktopcontainment.folder.2 \
+qt6qmlimport-org.kde.private.desktopcontainment.folder.254 \
+qt6qmlimport-org.kde.private.desktopcontainment.folder.6"
+
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
+kde-gtk-config6 \
+kf6-kirigami-imports \
+kf6-knewstuff-imports \
+kinfocenter6 \
+kirigami-addons6 \
+kmenuedit6 \
+ld-linux-aarch64.so.1 \
+libKF6Attica.so.6 \
+libKF6Baloo.so.6 \
+libKF6Bookmarks.so.6 \
+libKF6Codecs.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6GlobalAccel.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconWidgets.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KCMUtilsCore.so.6 \
+libKF6KCMUtilsQuick.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6NewStuffCore.so.6 \
+libKF6Notifications.so.6 \
+libKF6NotifyConfig.so.6 \
+libKF6Package.so.6 \
+libKF6Runner.so.6 \
+libKF6Service.so.6 \
+libKF6Solid.so.6 \
+libKF6SonnetCore.so.6 \
+libKF6SonnetUi.so.6 \
+libKF6Svg.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libPlasma.so.7 \
+libPlasmaActivities.so.7 \
+libPlasmaActivitiesStats.so.1 \
+libPlasmaQuick.so.7 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6Sql.so.6 \
+libQt6WaylandClient.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
+libSDL2-2.0.so.0 \
+libX11-xcb.so.1 \
+libX11.so.6 \
+libXcursor.so.1 \
+libXi.so.6 \
+libaccounts-qt6.so.1 \
+libc.so.6 \
+libcanberra.so.0 \
+libkaccounts6.so.2 \
+libklookandfeel.so.6 \
+libksysguard6-imports \
+libkworkspace6.so.6 \
+libm.so.6 \
+libnotificationmanager.so.1 \
+libpackagekitqt6.so.2 \
+libplasma6-components \
+libprocesscore.so.11 \
+libstdc++.so.6 \
+libtaskmanager.so.6 \
+libudev.so.1 \
+libwacom.so.9 \
+libwayland-client.so.0 \
+libxcb-xkb.so.1 \
+libxcb.so.1 \
+libxkbcommon.so.0 \
+libxkbfile.so.1 \
+libxkbregistry.so.0 \
+plasma6-activities-imports \
+plasma6-workspace \
+qt6-sql-sqlite \
+qt6qmlimport-Qt5Compat.GraphicalEffects \
+qt6qmlimport-QtCore \
+qt6qmlimport-QtQml \
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.2 \
+qt6qmlimport-QtQuick.Controls \
+qt6qmlimport-QtQuick.Effects \
+qt6qmlimport-QtQuick.Layouts \
+qt6qmlimport-QtQuick.Window \
+qt6qmlimport-org.kde.breeze.components \
+qt6qmlimport-org.kde.config \
+qt6qmlimport-org.kde.draganddrop \
+qt6qmlimport-org.kde.graphicaleffects \
+qt6qmlimport-org.kde.iconthemes \
+qt6qmlimport-org.kde.kcmutils \
+qt6qmlimport-org.kde.kirigami \
+qt6qmlimport-org.kde.kirigami.2 \
+qt6qmlimport-org.kde.kitemmodels \
+qt6qmlimport-org.kde.kquickcontrols \
+qt6qmlimport-org.kde.kquickcontrolsaddons \
+qt6qmlimport-org.kde.kscreenlocker \
+qt6qmlimport-org.kde.ksvg \
+qt6qmlimport-org.kde.kwindowsystem \
+qt6qmlimport-org.kde.newstuff \
+qt6qmlimport-org.kde.plasma.components \
+qt6qmlimport-org.kde.plasma.components.3 \
+qt6qmlimport-org.kde.plasma.configuration \
+qt6qmlimport-org.kde.plasma.core \
+qt6qmlimport-org.kde.plasma.extras \
+qt6qmlimport-org.kde.plasma.plasma5support \
+qt6qmlimport-org.kde.plasma.plasmoid \
+qt6qmlimport-org.kde.plasma.shell \
+qt6qmlimport-org.kde.plasma.workspace.components \
+qt6qmlimport-org.kde.plasma.workspace.osd \
+qt6qmlimport-org.kde.taskmanager \
+signon-plugin-oauth2"
+
+inherit rpm

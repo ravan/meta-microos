@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.1"
 
-RPM_NAME = "augeas-bash-completion-1.14.1-1.1.aarch64.rpm"
-RPM_HASH = "07d938fe0cb5325fd5f54f28d466376a2d4fce666de9ea6dbd2e300a282a9a3934a2d5a398658d1da4bd6a2d5220404cfe0e328ca1142b0bf43312dec8172df9"
+RPM_NAME = "augeas-bash-completion-1.14.1-2.6.aarch64.rpm"
+RPM_HASH = "6e2b2678e23047779c7e32c5822226a02d20a9729416ffa8f1d01ebbc7e3f687adb8a710d4b155a3e8abeb383267fd20ac5b53f27b4d05fdb6182d5f087ea970"
 
 RPROVIDES:${PN} += "augeas-bash-completion"
 

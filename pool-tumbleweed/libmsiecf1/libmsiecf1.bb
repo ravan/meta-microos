@@ -2,10 +2,10 @@ SUMMARY = "Library to parse MS Internet Explorer Cache Files"
 DESCRIPTION = "libmsiecf is a library to parse MS Internet Explorer Cache Files."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221024"
+PV = "20260525"
 
-RPM_NAME = "libmsiecf1-20221024-4.1.aarch64.rpm"
-RPM_HASH = "51d1a88641f4fa86530618386c756f7eb10208e902efb4538c0efd4c6cf1beda4555aff55a985defb257c6bd7695f0d0de60951b89b275e5885c9cd89f41b6bb"
+RPM_NAME = "libmsiecf1-20260525-1.11.aarch64.rpm"
+RPM_HASH = "3238c9fe6bfc1f8cc8704f596696f9a055ec5dc4e650cfc4e685fd77e97c945f74694b1e0bd0bdd7ab963aca6da1f3095cfd4c843c425fa89066e68de92dfa33"
 
 RPROVIDES:${PN} += "libmsiecf.so.1 \
 libmsiecf1"

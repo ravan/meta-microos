@@ -5,56 +5,61 @@ same time and comes with extended features to make it a full-featured client \
 for BitTorrent."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ktorrent-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "0f8d645007860842ac7829403dfeee35eff5dee30c31efc5453bdbc0fc1232d9e105f9f9b2d63cb6c359d0c8e861dc8cc3835f7185ec5acbed87672250fc0c90"
+RPM_NAME = "ktorrent-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "eed74aafc27be78f784b389e3cc337287f836fc88a1be3dcaf3384f9a8cf359f48f40b410ec3e204a2e7164e98cc606839f39acf58d13fed4e72d5b9f2586602"
 
 RPROVIDES:${PN} += "ktorrent \
 libktcore.so.16"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5DNSSD.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5KCMUtils.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5NotifyConfig.so.5 \
-libKF5Parts.so.5 \
-libKF5Plotting.so.5 \
-libKF5Syndication.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5Torrent.so.6 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5WebEngineCore.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6Archive.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6DNSSD.so.6 \
+libKF6GlobalAccel.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Notifications.so.6 \
+libKF6NotifyConfig.so.6 \
+libKF6Parts.so.6 \
+libKF6Plotting.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6Syndication.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libKTorrent6.so.6 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6MultimediaWidgets.so.6 \
+libQt6Network.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libkworkspace5.so.5 \
 libm.so.6 \
-libphonon4qt5.so.4 \
+libmaxminddb.so.0 \
 libstdc++.so.6 \
-libtag.so.1"
+libtag.so.2"
 
 inherit rpm

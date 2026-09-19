@@ -7,8 +7,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.52"
 
-RPM_NAME = "tiro-indigo-fonts-1.52-1.2.noarch.rpm"
-RPM_HASH = "87064cad1e7a62d766680c6308b052a174fe096b909949320371f91c5b22c0f8b0db885ae79ea0a1f03cf8548a162a89ef276333f0ca99f5265e61f9e2e0bc8a"
+RPM_NAME = "tiro-indigo-fonts-1.52-2.7.noarch.rpm"
+RPM_HASH = "ba767fe3fd217b668899cf8ee5ec09be9d94522bab10841fba7e6aa1d31982c1318230d4209cd499732d0f86d5b8c222d210ddc7fba32b52285495a8f5fa04a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiro-indigo-fonts"

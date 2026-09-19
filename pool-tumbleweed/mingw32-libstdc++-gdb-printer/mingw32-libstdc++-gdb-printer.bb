@@ -2,10 +2,11 @@ SUMMARY = "MinGW Windows compiler for C++ gdb pretty printer for libstdc++"
 DESCRIPTION = "MinGW Windows compiler for C++ gdb pretty printer for libstdc++"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw32-libstdc++-gdb-printer-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "939e9b515eba26698a805a70a6fbb555d867a5aa93bc150396edda690c48c9ef141b98fbd07b647e8435239b650d641ee05a71bba0471941d99ef6b15c2bfe49"
+RPM_NAME = "mingw32-libstdc++-gdb-printer-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "1fb1c5c5ee4d88d748b99501f40ee3db4757a68b8af316b8fd45d7a8457634226a99af0c061e3ae2023feb4e7d3d1d888a87f1fb4a14b6910795d5530a381489"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-libstdc++-gdb-printer"
 

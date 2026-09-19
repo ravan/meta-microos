@@ -12,10 +12,10 @@ Vienna University. In this case, however, some settings may \
 have to be adjusted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn65651"
+PV = "2026.226.2.9svn77682"
 
-RPM_NAME = "texlive-univie-ling-2023.209.2.3svn65651-54.1.noarch.rpm"
-RPM_HASH = "932b268d05dc17ac7abfca61b1faac7432ae5c5acaa4630b32e8088dddbbb47318a129903d7e12eb99e507e5daf486c06176d28e7654be1fcc31ec82faf610e0"
+RPM_NAME = "texlive-univie-ling-2026.226.2.9svn77682-60.2.noarch.rpm"
+RPM_HASH = "ffb7274c8ab1b849cd1ed50af6cbe589ed5b7cc20dd427b14c4469869908e9db81222338af20fc7874544d86a832637c80ed9fa36ce9b2071346ac59fc40caf1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-univie-ling-expose.cls \
@@ -60,7 +60,7 @@ tex-graphicx.sty \
 tex-helvet.sty \
 tex-hyperref.sty \
 tex-ifthen.sty \
-tex-l3keys2e.sty \
+tex-isodate.sty \
 tex-lastpage.sty \
 tex-mathpazo.sty \
 tex-mathptmx.sty \
@@ -81,12 +81,12 @@ tex-sourcesanspro.sty \
 tex-sourceserifpro.sty \
 tex-tcolorbox.sty \
 tex-textcase.sty \
+tex-tikzpagenodes.sty \
 tex-totpages.sty \
 tex-translator.sty \
 tex-url.sty \
 tex-varioref.sty \
 tex-xcolor.sty \
-tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3.12"
 
-RPM_NAME = "ghc-lifted-base-doc-0.2.3.12-8.8.noarch.rpm"
-RPM_HASH = "d6e6c8237b9bdce30203a1aa8c3adea18051af72e5c8761c54b2095dfa26f8df71008b750cd71af2ec19c7f9aedf9dfd350cb39e0fc702c0f315dd82a5e9eef7"
+RPM_NAME = "ghc-lifted-base-doc-0.2.3.12-8.36.noarch.rpm"
+RPM_HASH = "0ddab65d930c05d2aac6718287c214157c349bfa49fc5a864cfaf6a1e69f3f9828767aed7f86bc558be4f33597a171891cc73cbe2cc15820b76d9343010d72ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-lifted-base-doc"

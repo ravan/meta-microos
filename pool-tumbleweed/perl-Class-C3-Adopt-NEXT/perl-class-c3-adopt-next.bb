@@ -17,14 +17,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Class-C3-Adopt-NEXT-0.14-1.26.noarch.rpm"
-RPM_HASH = "6bcdfb50e026f8142abff2dc1d8a8cfcb16afe0ecad7024de5046777ee09655201021980cf7216ee61070bca4903e2cc7302d9665700f33712bb8eeedebad0d8"
+RPM_NAME = "perl-Class-C3-Adopt-NEXT-0.14-1.40.noarch.rpm"
+RPM_HASH = "5d0a163832ba5c6b56ad0416bfd8f590727a9459a214ddcfadea5d422ff883c9251a30b4b0cef0a8bb95254f286fb3228af5b7d83bf63458b3e8796a4408369f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--C3--Adopt--NEXT \
 perl-Class-C3-Adopt-NEXT"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-List--Util \
 perl-MRO--Compat"
 

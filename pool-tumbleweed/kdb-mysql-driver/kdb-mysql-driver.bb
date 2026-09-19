@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "kdb-mysql-driver-3.2.0-7.17.aarch64.rpm"
-RPM_HASH = "e8af733defc9f02f3a3e1f09c815e9fca3bd0b2ab36bfee65e839f0de4bf71c393fa92bdb0a2006fea6dced8159bbc179eea5d1b529104eeddb5d9f9fb99a574"
+RPM_NAME = "kdb-mysql-driver-3.2.0-10.7.aarch64.rpm"
+RPM_HASH = "0c436a2a3cd320c79149f4c821e1a598ca6b84044aff1097a9c136dfc66425eb7ed932e8fdf9875fbd39358ea1826b7262e354761b0b9277796d1be4ddcebdcd"
 
 RPROVIDES:${PN} += "calligra-kexi-mysql-driver \
 kdb-mysql-driver"

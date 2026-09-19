@@ -14,10 +14,10 @@ that it is an object of a certain class hierarchy, that it possesses \
 certain methods, or applying validation callbacks to arguments."
 LICENSE = "Artistic-2.0"
 
-PV = "1.31"
+PV = "1.310.0"
 
-RPM_NAME = "perl-Params-Validate-1.31-1.4.aarch64.rpm"
-RPM_HASH = "a28f1050e9dafce74f1f6f548626134c35632d9848945d56fd09aa83cc63d62f828f21eb90acd583d074790f02f90813fc93845bcf7725399e458c990e1b8583"
+RPM_NAME = "perl-Params-Validate-1.310.0-1.8.aarch64.rpm"
+RPM_HASH = "426a2ac90da7b972122f103ba176a54049f4e7d7aca05721db90173a4d77c601df9d0a790766581fc6a7742b3ab644350f455d4ed7509c7a1ed4959793d7d8fc"
 
 RPROVIDES:${PN} += "perl-Params--Validate \
 perl-Params--Validate--Constants \
@@ -27,7 +27,7 @@ perl-Params-Validate"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Module--Implementation"
 
 inherit rpm

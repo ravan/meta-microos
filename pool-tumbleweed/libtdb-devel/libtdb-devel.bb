@@ -6,10 +6,10 @@ internally to keep writers from trampling on each other. \
 This package contains libraries and header files need for development."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.4.8"
+PV = "1.4.15"
 
-RPM_NAME = "libtdb-devel-1.4.8-1.2.aarch64.rpm"
-RPM_HASH = "a058dcf98d255b7cbe54c8dbe4b14a2008b6573a5b2eb7842e303eedbbf62f31f32e2b5805aca9a9d886b8dde58657537e792362da1fdc8f5b7b9156dd7e52f3"
+RPM_NAME = "libtdb-devel-1.4.15-1.3.aarch64.rpm"
+RPM_HASH = "11e3b00ee134855f11b8dc6a084d9c4025e91219510797305a05284d638b30f1c44a7b1ecd2ceb8f1a833fc4c2312e2cd93b71378a0ae68489821435e60f4bf3"
 
 RPROVIDES:${PN} += "libtdb-devel \
 pkgconfig-tdb"

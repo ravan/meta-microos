@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfko."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.6.10"
+PV = "2.6.11"
 
-RPM_NAME = "libfko-devel-2.6.10-3.9.aarch64.rpm"
-RPM_HASH = "22a0affa9ee5adaef115c011d619ea90777b767f1bfb511bd2b223e016fa3ca147cd37f363b567fb11f4a60472530c0e50e243f33e0b7141fe0020a4497ae37f"
+RPM_NAME = "libfko-devel-2.6.11-1.10.aarch64.rpm"
+RPM_HASH = "5b93c136f68ae7a902e2c19c6f7cfb779160e22a8d1e9b51cfbc93e204f6b347033251a5bcd8b0424b8a2e39f80cd00bd25c7a599927c5a452cfb9f42ec8952a"
 
 RPROVIDES:${PN} += "libfko-devel"
 

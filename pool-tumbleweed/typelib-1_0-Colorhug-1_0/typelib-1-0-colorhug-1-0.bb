@@ -7,10 +7,10 @@ This package provides the GObject Introspection bindings for the \
 libcolorhug library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.6"
+PV = "1.4.8"
 
-RPM_NAME = "typelib-1_0-Colorhug-1_0-1.4.6-4.1.aarch64.rpm"
-RPM_HASH = "5f9375f826e23e906ccc5e0a53c7e8b55d3f083f82a1ede43cd2e0d94bcea21e41cbec5450ff5f5f3c4291f3c3969adcca09f4b4bd50b67fa652b9cd452c7e26"
+RPM_NAME = "typelib-1_0-Colorhug-1_0-1.4.8-3.1.aarch64.rpm"
+RPM_HASH = "f5971bec6149296b5c10e08fca45bd75a891ec40abb5000bdab20d21e41e1eefdd6bed2bdfd2e7d5fa3f06c8ac3897498173701b2baf2e29860d8cd218f633ae"
 
 RPROVIDES:${PN} += "typelib-1-0-Colorhug-1-0 \
 typelib-Colorhug"
@@ -18,8 +18,10 @@ typelib-Colorhug"
 RDEPENDS:${PN} += "libcolorhug.so.2 \
 typelib-Colord \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-GUsb \
-typelib-Gio"
+typelib-Gio \
+typelib-Json"
 
 inherit rpm

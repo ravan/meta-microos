@@ -11,14 +11,16 @@ DNS services. Comes with sample scripts for use with DHCP, PPP, and \
 cron."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.10.0"
+PV = "4.0.0"
 
-RPM_NAME = "ddclient-3.10.0-2.2.noarch.rpm"
-RPM_HASH = "c22a9d3ecbaf9d8471878bb8f23b3ae2e8daf3915b29cda200945b0d81872db177050b07102d9f1f3c4d7d1fa820009d7a68b2ad4b24e434600c354c7ecbcc8b"
+RPM_NAME = "ddclient-4.0.0-1.4.noarch.rpm"
+RPM_HASH = "912933ba6db8fb5ee9f45760778e4c4112bdbfd958e9f4e1da470b6aca5084c59aef5b25afaadd6b8c221d326379ae1cad863af8b33735d108b1a030880b8dd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-ddclient \
-ddclient"
+ddclient \
+group-ddclient \
+user-ddclient"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
@@ -28,6 +30,7 @@ curl \
 fillup \
 perl \
 shadow \
-systemd"
+systemd \
+sysuser-shadow"
 
 inherit rpm

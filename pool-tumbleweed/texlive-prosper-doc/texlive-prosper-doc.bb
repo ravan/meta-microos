@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-prosper"
 DESCRIPTION = "This package includes the documentation for texlive-prosper"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0hsvn33033"
+PV = "2026.226.1.0hsvn77682"
 
-RPM_NAME = "texlive-prosper-doc-2023.209.1.0hsvn33033-53.1.noarch.rpm"
-RPM_HASH = "bf341951915574f5a2e5da6966fe9322741eb09aba1a870d58420614bcdf8a11d0bbb410500b5dda726b2e8d84ad1100f5b2d97405b54d0559214cb934223f59"
+RPM_NAME = "texlive-prosper-doc-2026.226.1.0hsvn77682-59.2.noarch.rpm"
+RPM_HASH = "f0938b7417b5ef98e8cec08b222edcf8f20c5fb9d564102848e55b008a85001e16c42579419c05852436f8fb0365e13132922430dec46b822f93a7f2b050a28c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-prosper-doc"

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.113"
 
-RPM_NAME = "libaio-devel-0.3.113-3.1.aarch64.rpm"
-RPM_HASH = "afc0a478743763aa3dec709b37c7fa0000111a76fc2869e1a17be6ff8e8618af89b9a148d62a9d8c2634fad3fa60d6a3bcde81d93ae396e5febfda7c9f4a2ced"
+RPM_NAME = "libaio-devel-0.3.113-5.5.aarch64.rpm"
+RPM_HASH = "8e32553db033a81b811b0f63346e49364e7003bf9afaefeb3cb16c3dcd954bf9076090316b7c4e4d41628a84fd81372d24b2a4a25eec049a81002f4f9cd6d490"
 
 RPROVIDES:${PN} += "libaio-devel"
 

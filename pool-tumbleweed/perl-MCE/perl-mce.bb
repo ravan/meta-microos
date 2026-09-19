@@ -6,10 +6,10 @@ that model by adding the ability to chunk the next n elements from the \
 input stream to the next available worker."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.888"
+PV = "1.904.0"
 
-RPM_NAME = "perl-MCE-1.888-1.2.noarch.rpm"
-RPM_HASH = "af1e1962253b1b8e323b074343b4bf3c129ec9f951883fd540c2b5bcedd3d5186676a9b87d625ee81596937837db901b9e81e91028baf13ff103082f69b1d9a6"
+RPM_NAME = "perl-MCE-1.904.0-1.1.noarch.rpm"
+RPM_HASH = "41344a5f0e616f9a94e353cf48e60960353f14dd50127c0dfc5f357f78971c74eb02f7713376b50aae6eb82af35fff2f49254c425915b7e4489b4d1d012e9ac9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MCE \
@@ -22,6 +22,7 @@ perl-MCE--Channel--SimpleFast \
 perl-MCE--Channel--Threads \
 perl-MCE--Channel--ThreadsFast \
 perl-MCE--Child \
+perl-MCE--Core \
 perl-MCE--Core--Input--Generator \
 perl-MCE--Core--Input--Handle \
 perl-MCE--Core--Input--Iterator \
@@ -41,12 +42,11 @@ perl-MCE--Mutex--Flock \
 perl-MCE--Queue \
 perl-MCE--Relay \
 perl-MCE--Signal \
-perl-MCE--Signal---tmpdir \
 perl-MCE--Step \
 perl-MCE--Stream \
 perl-MCE--Subs \
 perl-MCE--Util"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

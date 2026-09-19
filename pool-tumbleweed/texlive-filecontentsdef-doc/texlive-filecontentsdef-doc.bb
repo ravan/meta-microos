@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-filecontentsdef"
 DESCRIPTION = "This package includes the documentation for texlive-filecontentsdef"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn52208"
+PV = "2026.226.1.5svn77682"
 
-RPM_NAME = "texlive-filecontentsdef-doc-2023.209.1.5svn52208-53.1.noarch.rpm"
-RPM_HASH = "dfff9472ac156e6ca77833f79214514f341d1b9ed8f321a46c0372793901590686d0331a6515820e297c12abd1e03ec945d72a19eff315604ce2c99150f30335"
+RPM_NAME = "texlive-filecontentsdef-doc-2026.226.1.5svn77682-59.2.noarch.rpm"
+RPM_HASH = "d711606ab8a3a9d8e58b11e47e6f62024e2bd3bafc5c375333841dc11650601bcdc17f1dea92512a75671049511f22c621006062ec1a2e15c636a4a7ffdec07d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-filecontentsdef-doc"

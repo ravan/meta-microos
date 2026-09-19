@@ -2,10 +2,10 @@ SUMMARY = "Haskell typst-symbols library documentation"
 DESCRIPTION = "This package provides the Haskell typst-symbols library documentation."
 LICENSE = "MIT"
 
-PV = "0.1.4"
+PV = "0.2"
 
-RPM_NAME = "ghc-typst-symbols-doc-0.1.4-1.1.noarch.rpm"
-RPM_HASH = "9b59bb1785c813748887bec662cffabd71a78b35c6bb3d476610eef72c5342894253bf11250829f42b2e0c223e444fce08db903b6d7f3c6f3e306975b0042d45"
+RPM_NAME = "ghc-typst-symbols-doc-0.2-1.2.noarch.rpm"
+RPM_HASH = "cd60baa0d54fe75b3a3660d09ad0ab5b612f35734a29b1e1ba39a7aa8057eb446d19e2d8fddbd7bf066e72f0503e63cd353b2a9c78ac232aa09e131cd0410205"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-typst-symbols-doc"

@@ -5,15 +5,15 @@ http://www.ietf.org/rfc/rfc3987.txt and supports their parsing, \
 serializing, and base resolution."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.011"
+PV = "0.14.0"
 
-RPM_NAME = "perl-IRI-0.011-1.15.noarch.rpm"
-RPM_HASH = "989fdbac8c7834a1533f11cd84e4ab6032aa55f06f9793369a189174b5918402b1403198b0cd1e3f9ad5be7a5f5fe3ca54a5118c1b4b6b11db836b4f817ad1be"
+RPM_NAME = "perl-IRI-0.14.0-1.3.noarch.rpm"
+RPM_HASH = "aa40425cc805f0f485c60989377ee149ddaaea565fafb4532a6139a7c1238c02fac414182fdb471b945e94fb0d276228117d1e639114bb3714dede1e2e29c4e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IRI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moo \
 perl-MooX--HandlesVia \
 perl-Type--Tiny"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-metrix"
 DESCRIPTION = "This package includes the documentation for texlive-metrix"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn52323"
+PV = "2026.226.1.5svn76924"
 
-RPM_NAME = "texlive-metrix-doc-2023.209.1.5svn52323-55.1.noarch.rpm"
-RPM_HASH = "2649cd3e8b0a4bfbbdbfdec9a7060bd6c97e8e556c7f2f5958505bd7d28d6abc8a09eb37486545a26c1ba8edfe10eae1b221139fad3f7c2c179680fc8f7d647e"
+RPM_NAME = "texlive-metrix-doc-2026.226.1.5svn76924-61.2.noarch.rpm"
+RPM_HASH = "052f98c8793c525c4e8ef6813e974ddf4a93ceff991af1cafc146d6d28c9e79bb5cd31610073d08d72d76b270109a15b6db2120d82ae688cb01e511e8f915349"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metrix-doc"

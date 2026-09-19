@@ -2,10 +2,10 @@ SUMMARY = "Shared library for NTP client applications"
 DESCRIPTION = "This package provides the shared library for ntp clients."
 LICENSE = "BSD-2-Clause & NTP & BSD-3-Clause & MIT"
 
-PV = "1.2.2"
+PV = "1.2.5"
 
-RPM_NAME = "libntpc1-1.2.2-1.5.aarch64.rpm"
-RPM_HASH = "a12cb3b483bd42c0e5eb2e08dcca0855a46ed2b9f2b7cd095d4a1ad7aa44e67cb6a19b399e3e0a0c77b2251e4ac83f40583d78524bb35046a0f1facbae28a8b1"
+RPM_NAME = "libntpc1-1.2.5-1.1.aarch64.rpm"
+RPM_HASH = "9e44c703933eed90edf5df6a589de85b45a876913869a3bfc64acf7c99ca6dc2a1f9eb0de9f3e945360c8fac6224f102d7ae2a7f2a92ff139f1b8eaff1ae1a11"
 
 RPROVIDES:${PN} += "libntpc.so.1 \
 libntpc1"

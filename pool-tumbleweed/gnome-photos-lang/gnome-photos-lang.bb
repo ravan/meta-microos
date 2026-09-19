@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-photos"
 DESCRIPTION = "Provides translations for the 'gnome-photos' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "44.0+23"
 
-RPM_NAME = "gnome-photos-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "52496dc5f258a9eec0b6af7e35a4486c0d34e458c9968030ebfd3d8bbc58012165b3de2e841fd8eb6de07dfdf23633af08894b17a4925be31b59d5dc78ab9cd8"
+RPM_NAME = "gnome-photos-lang-44.0+23-3.6.noarch.rpm"
+RPM_HASH = "736a83d1e4f1e5e651eb4b2489cbd5e1d19411d8f341fc89433d2f7264ecfab78bdcf2ccbf5533cba8a5de96178b876b8985e45fbc4430c584483073a3f632b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-photos-lang \

@@ -6,10 +6,10 @@ types of references (identified by a prefix in the reference \
 label), in a very generic manner."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-modref-2023.209.1.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "65828e307c9194cbd86d4c3a8b3b046d8c256c2adb3fb65cfe7dc9505fa5cf543765c01e6f025393168c08705345f18b524010373555a295badf59891b574f16"
+RPM_NAME = "texlive-modref-2026.226.1.0svn15878-61.2.noarch.rpm"
+RPM_HASH = "d5421433aa5dd0e4b534ee7364d86f99c84f08f22b9a2276debc52658505403f15ab9bea3c5b654107613ec23b12d35cb6bc4fd9c08e0a452f3ce37c3a97c317"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-modref.sty \

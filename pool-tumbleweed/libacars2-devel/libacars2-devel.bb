@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libacars."
 LICENSE = "MIT"
 
-PV = "2.2.0"
+PV = "2.2.1"
 
-RPM_NAME = "libacars2-devel-2.2.0-1.1.aarch64.rpm"
-RPM_HASH = "5897dea1e55149dcfc5833954dc8191af2cec4e3fb691996a763d267753b6ae38fbb7fe598cb14b47356d0c2cbaedddc9071f41ec15f20c237367dbf10e30996"
+RPM_NAME = "libacars2-devel-2.2.1-1.4.aarch64.rpm"
+RPM_HASH = "607d9035beb043185fea08891a974d07c40081935887d1688a74e016a56fd70cc64272cf46f196431f92b11c028c487c398ecfa48fedab7df724adaca076be58"
 
 RPROVIDES:${PN} += "libacars2-devel \
 pkgconfig-libacars-2"

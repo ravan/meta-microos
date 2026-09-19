@@ -2,10 +2,10 @@ SUMMARY = "Input Pad with XTEST extension"
 DESCRIPTION = "The input-pad-xtest package contains XTEST extension module"
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.0.99.20140916"
+PV = "1.0.99.20210817"
 
-RPM_NAME = "input-pad-xtest-1.0.99.20140916-5.10.aarch64.rpm"
-RPM_HASH = "bd2293fd359270c09e58090fee71185733f5e3868e25699737330bc1e1efa4e8f08db712d5e61330b98a5dbd0200caec8f369a9a60f3c8246078093a298532bf"
+RPM_NAME = "input-pad-xtest-1.0.99.20210817-1.8.aarch64.rpm"
+RPM_HASH = "89b0fe003ecfeac81781e918038adc2789c78c026468cf2a80d8a6c9feaa7ab563f8619da061ddacd83c7aaceac3e3c650a56f302dc4b15f5ba8c83b3f0ec027"
 
 RPROVIDES:${PN} += "input-pad-xtest \
 libinput-pad-xtest-gdk.so"

@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "1.10.8"
 
-RPM_NAME = "libgraphene-1_0-0-1.10.8-1.8.aarch64.rpm"
-RPM_HASH = "7496ee4ef6afed660dc839b2f5cdebaf6118c185090a5d8a63f99eb28d587fac0f36addee3b7fcb1e563036b15bdc584a15c9b895e24d2a0d0534bd8bd5afdf1"
+RPM_NAME = "libgraphene-1_0-0-1.10.8-3.1.aarch64.rpm"
+RPM_HASH = "40868bd81ccb87e0442beceefc4f106647ce76499411171850ae0b93129473a0a78f12e34795f2408c9f5526f76c38d0d6832e0f448a67da194ac998e55d9cf2"
 
 RPROVIDES:${PN} += "libgraphene-1-0-0 \
 libgraphene-1.0.so.0"

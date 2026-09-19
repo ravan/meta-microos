@@ -1,17 +1,11 @@
 SUMMARY = "Replays VNC macros"
-DESCRIPTION = "rfbplaymacro replays VNC macros as created by rfbproxy to a VNC server. \
- \
- \
- \
-Authors: \
--------- \
-    Tim Waugh <twaugh@redhat.com>"
-LICENSE = "GPL-2.0+"
+DESCRIPTION = "rfbplaymacro replays VNC macros as created by rfbproxy to a VNC server."
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.2"
 
-RPM_NAME = "rfbplaymacro-0.2.2-51.26.aarch64.rpm"
-RPM_HASH = "22e480d56289d20e7987f5b69a018a8bd583de6d69252598b85e2072416c03d64fa028e801d251cc1c808d49faac80ea3b735df175b389859f8b4cabd422bc5a"
+RPM_NAME = "rfbplaymacro-0.2.2-52.7.aarch64.rpm"
+RPM_HASH = "623c371bcad4bb90a2a92931a7df1c8a9e2760c8b3408dfc7934f67220f1f0c39e6659d825a5556aef9f61614706178b131d4313da02df9b0e039005b5df7306"
 
 RPROVIDES:${PN} += "rfbplaymacro"
 

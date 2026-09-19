@@ -1,14 +1,14 @@
 SUMMARY = "Fonts for typesetting classical greek"
-DESCRIPTION = "These fonts are derivatives of Kunth's CM fonts. Macros for use \
+DESCRIPTION = "These fonts are derivatives of Knuth's CM fonts. Macros for use \
 with Plain TeX are included in the package; for use with LaTeX, \
 see lgreek (with English documentation) or levy (with German \
 documentation)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn21750"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-levy-2023.209.svn21750-55.1.noarch.rpm"
-RPM_HASH = "03b5d0fce8e957cc3276b1bbff2e2156d50d0922695fa6fc2d6b5534c7da78364d742fb1e679a099b917388dc6c2d32a70f9c749ae566006f7a8aaae920edbfc"
+RPM_NAME = "texlive-levy-2026.226.svn76924-61.2.noarch.rpm"
+RPM_HASH = "d467d25b34ff2912b9a418faa64545f39723acb79a97bf143a5eff5841f142cb8da225c9bfa10e6b8049de73e43003545728c9053421bb8cfe16e6594e49fb6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grbld10.tfm \

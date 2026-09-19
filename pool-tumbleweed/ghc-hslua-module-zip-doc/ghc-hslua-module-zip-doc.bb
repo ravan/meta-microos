@@ -2,10 +2,10 @@ SUMMARY = "Haskell hslua-module-zip library documentation"
 DESCRIPTION = "This package provides the Haskell hslua-module-zip library documentation."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.2.1"
 
-RPM_NAME = "ghc-hslua-module-zip-doc-1.1.0-1.3.noarch.rpm"
-RPM_HASH = "31a194b41dfa4f8a54fb290fbc65360e13bd996947bb0a82a85fb26f1da549a6015c4342fe00c626d6c8602a79a4175faa77404b13f13eb05f8acf0667906b2b"
+RPM_NAME = "ghc-hslua-module-zip-doc-1.2.1-1.3.noarch.rpm"
+RPM_HASH = "294f139f038114cbf54e813a4ca13489e612ea4dd6ff14e17cba33e11062e6f07768ba44a1fe0eab05ffeadeba020256fe82edaf32c8a8a9bfa908088405c9e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-module-zip-doc"

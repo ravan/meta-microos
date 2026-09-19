@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-latexbug"
 DESCRIPTION = "This package includes the documentation for texlive-latexbug"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0nsvn63596"
+PV = "2026.226.1.0qsvn78101"
 
-RPM_NAME = "texlive-latexbug-doc-2023.209.1.0nsvn63596-55.1.noarch.rpm"
-RPM_HASH = "3ce8316ab26068edfc32a709730bb29ace9585179df2c7d06e236fd1bc5606b2fa1c64a0e4051b1bf719cfb78245b4670d0939e041dd565d0ad4e2ce0b0311d3"
+RPM_NAME = "texlive-latexbug-doc-2026.226.1.0qsvn78101-61.2.noarch.rpm"
+RPM_HASH = "13509972d8267ac9a068e895788040591226639582a499f78b1e709e148697507d3ba0d6ca895b54989e81c952cad60c3eba574d800447243451a32db3cc3f18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexbug-doc"

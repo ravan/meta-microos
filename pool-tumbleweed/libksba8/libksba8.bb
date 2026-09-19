@@ -3,10 +3,10 @@ DESCRIPTION = "KSBA is a library to simplify the task of working with X.509 \
 certificates, CMS data, and related data."
 LICENSE = "(GPL-2.0-or-later | LGPL-3.0-or-later) & GPL-3.0-or-later & MIT"
 
-PV = "1.6.4"
+PV = "1.8.1"
 
-RPM_NAME = "libksba8-1.6.4-1.1.aarch64.rpm"
-RPM_HASH = "145e4f278e2d5fc8c35ead80a582497b66bc43cf7f58fbb52111dccbf2b19b98caaf988e26aa07f2ca2d37167c3b7c22cdec451804b9e845b52f45ea1e188af7"
+RPM_NAME = "libksba8-1.8.1-1.1.aarch64.rpm"
+RPM_HASH = "9305d596df5920ced2b3e96da68102f051f96da9f0f608f772b95057bc292378677d54d8d19cd96578fa38bc0e188bf88cb1fd68b9a773f219766f41eee45913"
 
 RPROVIDES:${PN} += "libksba \
 libksba.so.8 \

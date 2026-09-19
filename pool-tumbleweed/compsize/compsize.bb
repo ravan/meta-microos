@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "compsize-1.5-1.9.aarch64.rpm"
-RPM_HASH = "9f08414f1293d6d2176ac2b94fb6a4b77b0ead4b81a9b8be01193f44ececa5dd343a9fce6ce9da090c97b2a23d1f694bc7787fbf16a46756b6f275deacf56204"
+RPM_NAME = "compsize-1.5-3.5.aarch64.rpm"
+RPM_HASH = "9949dec717b8c7d0210ffac53bdc80660a83862a6c9536b944beef25ea679162d6d1368b5def4e50b80171484d92c5d945e15e0c5596058496e482352fea1349"
 
 RPROVIDES:${PN} += "compsize"
 

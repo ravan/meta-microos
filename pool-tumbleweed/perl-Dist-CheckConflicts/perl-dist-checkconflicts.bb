@@ -1,4 +1,4 @@
-SUMMARY = "declare version conflicts for your dist"
+SUMMARY = "Declare version conflicts for your dist"
 DESCRIPTION = "One shortcoming of the CPAN clients that currently exist is that they have \
 no way of specifying conflicting downstream dependencies of modules. This \
 module attempts to work around this issue by allowing you to specify \
@@ -21,22 +21,22 @@ these keys being valid: \
  \
 * -conflicts \
  \
-  A hashref of conflict specifications, where keys are module names, and \
-  values are the last broken version - any version greater than the \
-  specified version should work. \
+A hashref of conflict specifications, where keys are module names, and \
+values are the last broken version - any version greater than the specified \
+version should work. \
  \
 * -also \
  \
-  Additional modules to get conflicts from (potentially recursively). This \
-  should generally be a list of modules which use Dist::CheckConflicts, \
-  which correspond to the dists that your dist depends on. (In an ideal \
-  world, this would be intuited directly from your dependency list, but the \
-  dependency list isn't available outside of build time). \
+Additional modules to get conflicts from (potentially recursively). This \
+should generally be a list of modules which use Dist::CheckConflicts, which \
+correspond to the dists that your dist depends on. (In an ideal world, this \
+would be intuited directly from your dependency list, but the dependency \
+list isn't available outside of build time). \
  \
 * -dist \
  \
-  The name of the distribution, to make the error message from \
-  check_conflicts more user-friendly. \
+The name of the distribution, to make the error message from \
+check_conflicts more user-friendly. \
  \
 The methods listed below are exported by this module into the module that \
 uses it, so you should call these methods on your module, not \
@@ -52,18 +52,18 @@ the 'Foo' dist which uses Dist::CheckConflicts): \
 As an added bonus, loading your conflicts module will provide warnings at \
 runtime if conflicting modules are detected (regardless of whether they are \
 loaded before or afterwards)."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.11"
+PV = "0.110.0"
 
-RPM_NAME = "perl-Dist-CheckConflicts-0.11-1.27.noarch.rpm"
-RPM_HASH = "5000a07c86510fe9dae0f3a5fbe33b0c802f2e579e18308b2159adee5ac5ba5e4498a8c505a90091f1aa116488a40d01b6302fb91cab5b6d6bfc52053a8f3ce0"
+RPM_NAME = "perl-Dist-CheckConflicts-0.110.0-1.7.noarch.rpm"
+RPM_HASH = "3f112082e634c39b0c998c0b31b963990d6d25dd1548c2c6df8e39d501bb3b34a42dbba0a27663eeb817e0de142e4b535798a3243cb66956128f42c5db7102a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dist--CheckConflicts \
 perl-Dist-CheckConflicts"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Module--Runtime"
 
 inherit rpm

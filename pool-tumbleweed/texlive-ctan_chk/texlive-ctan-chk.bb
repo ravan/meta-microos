@@ -5,10 +5,10 @@ files/projects. It is completely open for users to program \
 additional guidelines as well as CTAN's future adjustments."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0svn36304"
+PV = "2026.226.1.0svn36304"
 
-RPM_NAME = "texlive-ctan_chk-2023.209.1.0svn36304-55.1.noarch.rpm"
-RPM_HASH = "8ea67240aa9dd356b88e8d1aba49e0189d1f00e00e164c563c8c13ad7e54e1804a69ee7f83f8a6811fcc5fcb72d523d454aaee80dcc448427ada5ff0a9c51bbe"
+RPM_NAME = "texlive-ctan_chk-2026.226.1.0svn36304-61.2.noarch.rpm"
+RPM_HASH = "005c562f3df96a2ab53502687945986550f9b878157036cc21adbfccee38465b504d42cedcc251ffdb23ae13d29359361e89aceb2401ff181ef471acef2107d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctan-chk"

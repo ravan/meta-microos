@@ -9,19 +9,22 @@ classroom material. Beware that Japanese stroke order can differ from the \
 stroke order used in other languages that use Chinese characters."
 LICENSE = "BSD-3-Clause"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "fonts-KanjiStrokeOrders-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "75f87b528bac682f44ed5e0e9bbddd842614ac7028c7baa810dc7ce3612e432f80c7138cc2b71ab890c68d8055a167bd0db72213453a8a9a5b2d4a9fa6079d6e"
+RPM_NAME = "fonts-KanjiStrokeOrders-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "ec44cb971b152cb9242bd37ab6fac608ca4f60a566ce4c6114089d4f92434bf9445edaac1003f397b395b2c5894aaa9c3bdcb83ede9a8081de82fcb742f4db1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
 font--lang=af \
+font--lang=agr \
 font--lang=an \
 font--lang=av \
 font--lang=ay \
+font--lang=ayc \
 font--lang=az-az \
 font--lang=be \
+font--lang=bem \
 font--lang=bg \
 font--lang=bi \
 font--lang=br \
@@ -34,6 +37,7 @@ font--lang=cs \
 font--lang=csb \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=en \
 font--lang=eo \
 font--lang=es \
@@ -74,15 +78,21 @@ font--lang=la \
 font--lang=lb \
 font--lang=lez \
 font--lang=li \
+font--lang=lij \
 font--lang=lt \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mhr \
+font--lang=mjw \
 font--lang=mo \
 font--lang=ms \
 font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -117,25 +127,29 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
 font--lang=to \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
 font--lang=ty \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-kanjistrokeorders \
-fonts-KanjiStrokeOrders \
-kdeedu4-%{-kde4-datadir}/fonts/kanjistrokeorders/KanjiStrokeOrders.ttf"
+fonts-KanjiStrokeOrders"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \

@@ -4,10 +4,10 @@ DESCRIPTION = "This project provides 'Remote-Console' (out-of-band) and \
 Platform Management Interface specification."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.11"
+PV = "1.6.18"
 
-RPM_NAME = "freeipmi-1.6.11-1.1.aarch64.rpm"
-RPM_HASH = "3eb3fdac22e92cec82c58243b63fb3386671a08584a066f70538a07135be9c93c7a563f5c0b984ea0798cb18555309b6ae13a6be031b9e1f3dcaa89166680343"
+RPM_NAME = "freeipmi-1.6.18-1.3.aarch64.rpm"
+RPM_HASH = "fd8dd9d363364b6b375824246a66231b4f983d96e7cabeb3d15a2b6fd9cef4a12cacc32a2f1d88cc819adf43b72c01936d20a1322242d51bdb6411857681d1fe"
 
 RPROVIDES:${PN} += "config-freeipmi \
 freeipmi \

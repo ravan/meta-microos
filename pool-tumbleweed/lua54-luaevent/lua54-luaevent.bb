@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.4.6"
 
-RPM_NAME = "lua54-luaevent-0.4.6-4.2.aarch64.rpm"
-RPM_HASH = "3c20e2df55bbc906cfe5166ba5403302c332016265ca80d6138fd6a93c2d5dac95c275ae5985f355619dbcdd32e49d821e5b5a5f69fd65370096e7396a3cc619"
+RPM_NAME = "lua54-luaevent-0.4.6-6.3.aarch64.rpm"
+RPM_HASH = "6f86c94a4a80aed4a16586e106482817c21f102cdcee1da8619e9a9df118e6d2fa5206cdf807730fd6e04478968558b7ec5717476ab344b80f740a1dd4d14ff3"
 
 RPROVIDES:${PN} += "lua-luaevent \
 lua54-event \

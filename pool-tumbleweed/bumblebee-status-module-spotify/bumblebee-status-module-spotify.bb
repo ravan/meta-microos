@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-spotify-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "52dd804e0c4ee6d238919dd4e920db9ed83f1ead7ae03bd21f22ab3ac934babdf643d6097f1f1e90f2a46a712020c3f86035438af8cc261d8b45fbf6decd473d"
+RPM_NAME = "bumblebee-status-module-spotify-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "88f2532fb89895700ddc49ae2e96a718dd41977d4d688b4555dc7edbf8a5fb08f94526364d50b8f9ef8912476b5f5aebad9a695d46e347b0bda6af735d50ef7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-spotify"

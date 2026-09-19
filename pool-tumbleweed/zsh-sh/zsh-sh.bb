@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.9"
 
-RPM_NAME = "zsh-sh-5.9-6.1.noarch.rpm"
-RPM_HASH = "cc73b671d3f7974faf3b168fad4cd65717728d588c42ed22081447ff19769adc70663a05eaf789e80f2bdb086d87097196968fd68686af1a0c3d7e84a577589e"
+RPM_NAME = "zsh-sh-5.9-12.7.noarch.rpm"
+RPM_HASH = "8a47ae825788c9942044e12d6d02fa2463f5de5808e707ad2ed3e591c5f745850bfe778c8dedfee28e23d5ba31028dbc08ff5bda8eae148c7d36766ef5f05d5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/sh \

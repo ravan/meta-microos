@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Cyrillic sc
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-cyrillic-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "8d44ed4361d8aee2fb23ac1c7bf34b9e95a384798f19f81f48ace3840426c3eb154bb1ab85f5893d5edf63c9ae9d085550f59a5a31e8d1694b5a54570663d19f"
+RPM_NAME = "tesseract-ocr-traineddata-script-cyrillic-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "9bb3ff09ff3e77ae76ca5173db472038da5f405f6f54d21d0872e4d31e4bb0dcde94bfa897a0b15e9239e0dba621069cfe533b11d48d0c95945d9e014bc5bba7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-cyrillic"

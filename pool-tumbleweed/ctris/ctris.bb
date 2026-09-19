@@ -2,15 +2,15 @@ SUMMARY = "Console based Tetris clone"
 DESCRIPTION = "A colorized, small and flexible Tetris clone for the console."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.42.1"
+PV = "0.43"
 
-RPM_NAME = "ctris-0.42.1-2.11.aarch64.rpm"
-RPM_HASH = "eaf23d78cccdf7c485e2c130d5addfa71e8ae69a3243e16172f318b7ef34d6efce936ddc4afbf7c08220bb329f0e3ddbddcd8dbd34ef62ccfa8410a8dbc4d53e"
+RPM_NAME = "ctris-0.43-2.5.aarch64.rpm"
+RPM_HASH = "0df1f9ce28d5ca1ece29e451cd9f5c2194ce7b5dc1d17ae9083c6e1c52ee59bd2bda6b72e244e0812e745311f3bf300fd27d11de97af09c98c749560b2c9d698"
 
 RPROVIDES:${PN} += "ctris"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
+libm.so.6 \
 libncurses.so.6 \
 libtinfo.so.6"
 

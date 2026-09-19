@@ -2,10 +2,10 @@ SUMMARY = "Simple docserv webserver"
 DESCRIPTION = "Simple docserv webserver with integrated auxserver for development and test purposes. Not for production."
 LICENSE = "Apache-2.0"
 
-PV = "20230308.4ed55cf"
+PV = "20260707.78c4c29"
 
-RPM_NAME = "docserv-minisrv-20230308.4ed55cf-1.5.aarch64.rpm"
-RPM_HASH = "20bd026ec944640f7a901448bbf59e7c6553980ec2866ec3b3cce250ad1e20cece77a9fd3bd70118210a539a5624863e1b86e8d61496798e5d99619e53c7e861"
+RPM_NAME = "docserv-minisrv-20260707.78c4c29-1.2.aarch64.rpm"
+RPM_HASH = "232b4c1c52e3b90275da7ff099b67222d3822285fd6446290e38522da17ebd9d60fe16bf1c0ea4e612c626c769e4507569ab68d3d0b13389d9bb031b47af1a2c"
 
 RPROVIDES:${PN} += "docserv-minisrv \
 group-docserv-srv \

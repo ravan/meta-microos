@@ -5,10 +5,10 @@ and ellipse drawing, as well as powerful image to text conversion \
 routines."
 LICENSE = "WTFPL"
 
-PV = "0.99.beta20"
+PV = "0.99.beta20+git.1776622070.7c8e333"
 
-RPM_NAME = "libcaca0-0.99.beta20-1.5.aarch64.rpm"
-RPM_HASH = "c4f9eb3280f2b9b909c5a01bca88e3612441037e0ee92cc4c1f6d4db43deed1497bec33853734e048e2bed52c63dfef94aedcaf7d9f0638889b988b07d794fed"
+RPM_NAME = "libcaca0-0.99.beta20+git.1776622070.7c8e333-2.3.aarch64.rpm"
+RPM_HASH = "051af20daac94222d63f7e49d12a95f1516119f6744ea7d818b07aba56ea40543c4b3ede7d2fc37b88c07de114ca30e5a1dd4474869c964691b7f1feaeafc0db"
 
 RPROVIDES:${PN} += "libcaca \
 libcaca++.so.0 \

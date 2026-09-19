@@ -9,24 +9,25 @@ no integrated music store. \
 It's about listening to beautiful music."
 LICENSE = "GPL-3.0-only & LGPL-2.1-only"
 
-PV = "1.10.1"
+PV = "1.12"
 
-RPM_NAME = "musique-1.10.1-1.18.aarch64.rpm"
-RPM_HASH = "20aca3e1632c0bd4de369bcc845d972eab765efad7895aedcf3b0000a27bdcfd11c706b7b1a3f5d6987dbd04ea477dd873dc08653067ec04da4e34a08e280199"
+RPM_NAME = "musique-1.12-3.4.aarch64.rpm"
+RPM_HASH = "0ceb1f511c34d9e968424417c3b56ee4515e8793d93cd7ee72b4fd33084e7a383422b47d20d697a25221d3ef7b4c5198c6cadfa7114f58537a0a0160d5fe4cc0"
 
 RPROVIDES:${PN} += "musique"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libmpv.so.2 \
 libstdc++.so.6 \
-libtag.so.1"
+libtag.so.2 \
+qt6-sql-sqlite"
 
 inherit rpm

@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.14"
 
-RPM_NAME = "ghc-xml-devel-1.3.14-13.8.aarch64.rpm"
-RPM_HASH = "5995ca82601fc12b74a8347ecc9411478b872493921f6cf29a7fa55986da98928e21acdfd88988e84e23305e91f5b2bf9c236a55af965117713f6a0927c2c9cf"
+RPM_NAME = "ghc-xml-devel-1.3.14-13.32.aarch64.rpm"
+RPM_HASH = "04600f0985c108a666cf84f1b75f7e527e8b804a9cfaf4f74000ad7402613c3a6b24a46c17a65121af5156341781183dd59b37e01d342b813bbb5c092b5535f4"
 
-RPROVIDES:${PN} += "ghc-devel-xml-1.3.14-JgZFWdUND2BGObIBmJlnFJ \
+RPROVIDES:${PN} += "ghc-devel-xml-1.3.14-JuCOsTtMISWPxn2nU4HVl \
 ghc-xml-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-text-2.0.2 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-text-2.1.4-cf23 \
 ghc-xml"
 
 inherit rpm

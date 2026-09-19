@@ -5,10 +5,10 @@ simulations. \
 This package contains development libraries and header for GROMACS"
 LICENSE = "Apache-2.0 & LGPL-2.1-or-later & BSD-3-Clause"
 
-PV = "2023"
+PV = "2026.1"
 
-RPM_NAME = "gromacs-devel-2023-1.2.aarch64.rpm"
-RPM_HASH = "a971df4e7d45eb73b00af1536f23c27f2cc13c1fc61ca5f3894c5436c1c1bf41a652ce553ebd38f3302b65d30452e315e59b3401bae54c4d6ec18f25f8921731"
+RPM_NAME = "gromacs-devel-2026.1-2.1.aarch64.rpm"
+RPM_HASH = "7568551bbfab46dbe19d3b7d6a2b8cc439d9c6ac5a7755d151d9d53c6da9f36b52f76fb51ee6794fe649cd23525623242d7ed08faf4cbcfb40385669faf24256"
 
 RPROVIDES:${PN} += "cmake-gmxapi \
 cmake-gromacs \
@@ -18,7 +18,7 @@ pkgconfig-libgromacs"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 gromacs \
 libgmxapi0 \
-libgromacs8 \
+libgromacs11 \
 libnblib-gmx0 \
 pkgconfig-fftw3f"
 

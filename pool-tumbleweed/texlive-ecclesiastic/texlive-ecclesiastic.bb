@@ -6,10 +6,10 @@ are available in order to set accents on all vowels, including \
 y and the diphthongs ae and oe."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn38172"
+PV = "2026.226.0.0.3svn38172"
 
-RPM_NAME = "texlive-ecclesiastic-2023.209.0.0.3svn38172-54.2.noarch.rpm"
-RPM_HASH = "1ae3e427efb8c7a91d684ca639286f791871b0aeafd5f2986b6834009789f3330866b1424a4062bcd5cd214104d9ca29c53fef0f08b5fd27b70b1ecb980e3e58"
+RPM_NAME = "texlive-ecclesiastic-2026.226.0.0.3svn38172-61.4.noarch.rpm"
+RPM_HASH = "80729e0d77f0151ccebbbb57729ceeec7e44e00ae661981128c7285d91aa9e53f02ba2e0ef0aea2fbd5595968f580d926b4326d33a56bf8998821d2ee31bf9f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ecclesiastic.sty \

@@ -1,4 +1,4 @@
-SUMMARY = "CJK Unicode Font Ming Style"
+SUMMARY = "Monospace CJK-Unicode fonts with a Ming (Serif) style"
 DESCRIPTION = "This font was taken from the from the TrueType fonts generously \
 released by Arphic Technologies Taiwan under the Arphic Public License. \
 It was modified with Fontforge by Arne Goetje <arne@linux.org.tw> to \
@@ -14,12 +14,11 @@ LICENSE = "Arphic-1999"
 
 PV = "0.2.20080216.1"
 
-RPM_NAME = "arphic-uming-fonts-0.2.20080216.1-100.2.noarch.rpm"
-RPM_HASH = "2146871feb1df7cac278ddafb14d7b622026308be436d3d258765ae53ba0d11fe96df10dbc9276ac9f746a2ca931a4b48cb4cb826821afbf8f562efac008a9d1"
+RPM_NAME = "arphic-uming-fonts-0.2.20080216.1-101.3.noarch.rpm"
+RPM_HASH = "03ebdff8bd8b8fcfa242a172cbf0c0799aac50082db9de15a1e37dae6257967104749fbc7746b7f8bc0afd2868ce58446c8426a7b0f5e3dc86914ce1b12f8859"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arphic-uming-fonts \
-locale-zh-TW;zh-HK;zh-CN;zh-SG;zh-MO \
 scalable-font-zh-CN \
 scalable-font-zh-HK \
 scalable-font-zh-MO \

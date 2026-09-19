@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-hamnosys"
 DESCRIPTION = "The  separated fonts package for texlive-hamnosys"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.3svn61941"
+PV = "2026.226.1.0.3svn61941"
 
-RPM_NAME = "texlive-hamnosys-fonts-2023.209.1.0.3svn61941-54.2.noarch.rpm"
-RPM_HASH = "90e89892554138ed44169096968820f4466509453ed4573f3b2a81bcddec78ce006cf6d65feb0bca49005837a6ad7860a650660bd6f995a59cc1254085d9fecf"
+RPM_NAME = "texlive-hamnosys-fonts-2026.226.1.0.3svn61941-60.4.noarch.rpm"
+RPM_HASH = "8efc36129985862eb65217df155f533d2de8a016fe537692a47e0b8308f06084997d64f5c1cbb0d741b3fe10bba1ce99dc23ada897facc78ea3609ef52df5900"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-hamnosysunicode \

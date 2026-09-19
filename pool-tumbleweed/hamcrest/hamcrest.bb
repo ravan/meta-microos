@@ -5,10 +5,10 @@ used in other frameworks. Typical scenarios include testing frameworks, \
 mocking libraries and UI validation rules."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2"
+PV = "3.0"
 
-RPM_NAME = "hamcrest-2.2-1.4.noarch.rpm"
-RPM_HASH = "b8e4e9f63d3b119e5b3d6d71868c36ccf55352859ccbedbcaaf8068ab9e3057415ff699d611c018aac1e9590c2f7298e2b80b6b2402710799d91113dbf9bc3c8"
+RPM_NAME = "hamcrest-3.0-1.8.noarch.rpm"
+RPM_HASH = "c6d8b46038fb0afa74c62f99f033e403c331cf3a1341fb0d4a48954b0448053c28afad09e697d7569224a606248670f13a935f3ac7e9e9f2aeff8e02b8354241"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hamcrest \

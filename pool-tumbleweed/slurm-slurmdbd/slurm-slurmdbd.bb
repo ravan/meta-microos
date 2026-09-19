@@ -2,20 +2,21 @@ SUMMARY = "SLURM database daemon"
 DESCRIPTION = "The SLURM database daemon provides accounting of jobs in a database."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.4"
+PV = "25.11.2"
 
-RPM_NAME = "slurm-slurmdbd-23.02.4-2.1.aarch64.rpm"
-RPM_HASH = "062443795ce25914c666b3c794f18311f7d5d0dd29d06b418c048d3596fcce539efc1700d6f26fc8e37f535300fee108b72822e10098cee4221a335ea02b1c44"
+RPM_NAME = "slurm-slurmdbd-25.11.2-1.6.aarch64.rpm"
+RPM_HASH = "877a8e294ecc4bd1499226473a50952d59af7292a8f46084c47e156fe13cada9e7051dff7dc348f4520cde43a60b18184bbebdebb5628eb0c3d6bd832e582554"
 
 RPROVIDES:${PN} += "config-slurm-slurmdbd \
 slurm-slurmdbd"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+group-slurm \
 libc.so.6 \
 libslurmfull.so \
 slurm-config \
 slurm-plugins \
-slurm-sql"
+slurm-sql \
+user-slurm"
 
 inherit rpm

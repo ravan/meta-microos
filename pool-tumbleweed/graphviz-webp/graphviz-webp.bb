@@ -1,14 +1,14 @@
 SUMMARY = "WebP support for graphviz"
 DESCRIPTION = "The graphviz-webp package contains files needed for the support of WebP images"
-LICENSE = "EPL-1.0"
+LICENSE = "EPL-2.0"
 
-PV = "2.49.3"
+PV = "15.0.0"
 
-RPM_NAME = "graphviz-webp-2.49.3-6.9.aarch64.rpm"
-RPM_HASH = "92e28b51bb29e5fe626c413ecafc292ace176d76a121faf41219ae1492165e7db7dd86cc9c94af72df62e5365199a2ba4044c89696a6a2a155527156f3e1ed3c"
+RPM_NAME = "graphviz-webp-15.0.0-2.3.aarch64.rpm"
+RPM_HASH = "118dd557d39e01d85213d9fa5ae67161e40784cd9ac465d5d70ba949d4e92e29bc4f873287689eaa44e87ef0223480ca25cf97911b8946cb6b95d1821ce2cdc4"
 
 RPROVIDES:${PN} += "graphviz-webp \
-libgvplugin-webp.so.6"
+libgvplugin-webp.so.8"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 graphviz \
@@ -16,7 +16,7 @@ graphviz-gnome \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
-libgvc.so.6 \
+libgvc.so.7 \
 libwebp.so.7"
 
 inherit rpm

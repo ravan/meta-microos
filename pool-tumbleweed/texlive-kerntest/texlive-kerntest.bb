@@ -10,10 +10,10 @@ loaded by fontinst to introduce the user-made kernings into the \
 virtual font for later use in LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.32svn15878"
+PV = "2026.226.1.32svn15878"
 
-RPM_NAME = "texlive-kerntest-2023.209.1.32svn15878-56.1.noarch.rpm"
-RPM_HASH = "3aa60def32f79d9975f782b157ccb769edb049148a3d08073c32009659ac6140cf7f98faf6c710bd4f9dfb1a1a7ddab8c48d847b9301df0d68fc2d0d897f7d8c"
+RPM_NAME = "texlive-kerntest-2026.226.1.32svn15878-63.2.noarch.rpm"
+RPM_HASH = "3ba2281f7fe632a8d3f6216d2fe9897e017e7324a6d065392595c4502e3ad8f682f54a13bd1474d0de6136188c718e804375e1fd938bb44fbadad8628544551e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kerntest.cls \

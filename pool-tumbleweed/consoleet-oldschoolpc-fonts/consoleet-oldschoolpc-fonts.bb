@@ -3,10 +3,10 @@ DESCRIPTION = "A modification of the int10h oldschoolpc font pack with some font
 redone with smooth edges."
 LICENSE = "CC-BY-SA-4.0"
 
-PV = "2.2.1"
+PV = "2.2.2"
 
-RPM_NAME = "consoleet-oldschoolpc-fonts-2.2.1-1.1.noarch.rpm"
-RPM_HASH = "5cde35d99246541fc2555899e0efe778b1ae35756d4caaf60877b6212f20c3398a8cd9c9d666fdc1994fb02e65372427ff7a4809d239020fccfca58be535c084"
+RPM_NAME = "consoleet-oldschoolpc-fonts-2.2.2-1.2.noarch.rpm"
+RPM_HASH = "9afc915c76d405c09ef191953ee15fd9dfc57993e17dbad3492d95604f53be4c5992e0444e31e9603f6e2bc91efa514d77f285c298ab888190badcc758daa81f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "consoleet-oldschoolpc-fonts"

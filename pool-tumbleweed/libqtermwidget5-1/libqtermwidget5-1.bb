@@ -9,10 +9,10 @@ code dealing with user interface parts and session management was \
 removed."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.0"
+PV = "1.4.0"
 
-RPM_NAME = "libqtermwidget5-1-1.3.0-1.2.aarch64.rpm"
-RPM_HASH = "74014548c054f3e91714801b1eb2be0a2055c3bf81ec9b64431bfd97fab1a4edea594e7b3f5d92b9e28f20176a1cb36fefe340d83988b3e8db4d5e38120425d8"
+RPM_NAME = "libqtermwidget5-1-1.4.0-2.7.aarch64.rpm"
+RPM_HASH = "39204a461be819efdaf99f0dcb60681126b8a5ae621de4c961d0c19496db4bc79d23152ff1cffe926b9c36e0724b2afd7dba4a6abbe74bad8fadc4d244efd2a6"
 
 RPROVIDES:${PN} += "libqtermwidget5-1 \
 libqtermwidget5.so.1"
@@ -24,7 +24,7 @@ libQt5Gui.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
 libstdc++.so.6 \
-libutf8proc.so.2 \
+libutf8proc.so.3 \
 qtermwidget-qt5-data"
 
 inherit rpm

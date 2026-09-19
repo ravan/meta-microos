@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ascmac"
 DESCRIPTION = "This package includes the documentation for texlive-ascmac"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.2.1svn53411"
+PV = "2026.226.2.1svn53411"
 
-RPM_NAME = "texlive-ascmac-doc-2023.209.2.1svn53411-54.1.noarch.rpm"
-RPM_HASH = "200db026166848e7c3f29877703ec2b36e1dfe1f84b57097186f25fdaae679c78fc728dd72a847d65a48329ac775fa5b3b5d8ca547db8b006aa87fbbf9dc0653"
+RPM_NAME = "texlive-ascmac-doc-2026.226.2.1svn53411-60.2.noarch.rpm"
+RPM_HASH = "09b218da244afee15af6bb27357e78604c00948837a4d8177cd4e4826db2e52a399a4d3b99edbd769906d25adca2a181267ab34e194e6683e154105252ff886c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ascmac-doc-ja \

@@ -4,15 +4,14 @@ measurements for point-to-point and global communication operations for \
 a range of message sizes."
 LICENSE = "BSD-3-Clause"
 
-PV = "2021.3"
+PV = "2021.10"
 
-RPM_NAME = "imb-mvapich2-2021.3-1.3.aarch64.rpm"
-RPM_HASH = "be8031bb3be5a34a81f945e818fe75804934150dceb75f9b3ef91dfa8d45ab4f2971d45a3737740b29003d9f068acb89b65bfab4783a8846200c708c32d88823"
+RPM_NAME = "imb-mvapich2-2021.10-2.3.aarch64.rpm"
+RPM_HASH = "c074e6b9c1e770f9e02a0efc1d4b197e28a01292cb0b0525ee83245eaa0dceefe1ae4323a2d097b51dff0a900ba9846b6f14c6f34ed3d39e59b8fdd737a6d749"
 
 RPROVIDES:${PN} += "imb-mvapich2"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libmpi.so.12 \

@@ -4,10 +4,10 @@ for use with LaTeX when typesetting things using his Bookhands \
 fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn21271"
+PV = "2026.226.1.0svn21271"
 
-RPM_NAME = "texlive-b1encoding-2023.209.1.0svn21271-54.1.noarch.rpm"
-RPM_HASH = "20a99525ad73f800eb69838cbd3daa3430488411ba2c1679901aa4a472775826d0646d679de248747688a221f8a23da0758179d497251812c4180bfb80fa9db0"
+RPM_NAME = "texlive-b1encoding-2026.226.1.0svn21271-60.2.noarch.rpm"
+RPM_HASH = "f4b4001edc0568410ffce067a0f042f6862f17462904315cd0e87b493e78695d07399d0cbef7e362f1c91a5e438daa3bd2017ae224038a1bdd4f1c567ab81faf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-TeXB1.enc \

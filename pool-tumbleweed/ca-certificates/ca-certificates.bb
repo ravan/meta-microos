@@ -4,18 +4,18 @@ SSL libraries like OpenSSL or GnuTLS in sync with the system's CA \
 certificate store that is managed by p11-kit."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2+git20230406.2dae8b7"
+PV = "2+git20260727.241e0ff"
 
-RPM_NAME = "ca-certificates-2+git20230406.2dae8b7-1.2.noarch.rpm"
-RPM_HASH = "5ce1e55285f18c926bd06ee1e5f1282608fa03e9a79b3344406feb311104beb0da9955700bb9175a8fd68cd08880f79d7447ec48d8501bc26f60558b2a71a221"
+RPM_NAME = "ca-certificates-2+git20260727.241e0ff-1.1.noarch.rpm"
+RPM_HASH = "e076a078f4041a7d6e09d44ec221329f65bf0f22106b7da2e3a0dfca2fe6ef5873ac0c7cd6fea593892dc9f1471bd379dc143ad2d30f4a94ff3709428c4b8bbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates \
 java-ca-certificates"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/readlink \
+RDEPENDS:${PN} += "/usr/bin/readlink \
 /usr/bin/sh \
+coreutils \
 p11-kit \
 p11-kit-tools"
 

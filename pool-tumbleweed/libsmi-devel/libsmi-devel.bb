@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.4.8"
 
-RPM_NAME = "libsmi-devel-0.4.8-25.8.aarch64.rpm"
-RPM_HASH = "7284f7c4c58f3d5d4334e83b1d9eb4d9e831acfbf32ad89c20dc33014e90094f8e872f5c7a88a23a350c2582a42f1d78adb3c688f4cc7c015d495cb687813c1f"
+RPM_NAME = "libsmi-devel-0.4.8-29.6.aarch64.rpm"
+RPM_HASH = "d25c391386d7d28cb623c2ebc1e8d4e32a9156de90d8b7b193899cbf190753638f80b05f6210248a75151179ad55018fd7e290dce586d215dd86ac6348fd0b71"
 
 RPROVIDES:${PN} += "libsmi-devel \
 pkgconfig-libsmi"

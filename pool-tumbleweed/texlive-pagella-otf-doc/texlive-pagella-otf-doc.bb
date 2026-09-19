@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pagella-otf"
 DESCRIPTION = "This package includes the documentation for texlive-pagella-otf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn64705"
+PV = "2026.226.0.0.02svn77682"
 
-RPM_NAME = "texlive-pagella-otf-doc-2023.209.0.0.02svn64705-52.1.noarch.rpm"
-RPM_HASH = "fa78c05c8141af88ce2878d1954aed04a9303d4835abdd116c53159499cef8c0feccf3fdb6d8c6a24939990de77f6a443ae9e21e4ece8f7c0b3028384f7b1afe"
+RPM_NAME = "texlive-pagella-otf-doc-2026.226.0.0.02svn77682-58.2.noarch.rpm"
+RPM_HASH = "ac00106855b228c0e9ff9922ca6e6528b857cdb5e98c1e0594f64af5c66e95b4bf74a7e8b2baad964a3a6ea5d790ac148e95edff4a2600c3b6028723ed5f7f52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pagella-otf-doc"

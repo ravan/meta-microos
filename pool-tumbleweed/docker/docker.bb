@@ -8,10 +8,10 @@ web deployments, database clusters, continuous deployment systems, private PaaS,
 service-oriented architectures, etc."
 LICENSE = "Apache-2.0"
 
-PV = "24.0.5_ce"
+PV = "29.7.2_ce"
 
-RPM_NAME = "docker-24.0.5_ce-2.1.aarch64.rpm"
-RPM_HASH = "da9f74897c3c4595fb529200c5ad292effdc625851ecae3c016d0003a1cf0a7dab350d68662b2c3507e83935e2d6919b6b377e390e33eee6396ddf457b47fec7"
+RPM_NAME = "docker-29.7.2_ce-41.1.aarch64.rpm"
+RPM_HASH = "754a2270f9be61bdf68d5851184b9bf6d70e1f97c81051ed113d3dd5f6a15044aeaacdba4ae4b3e413ee1e16f804c61048bf4b3e7bc51613a3450f1be98afd16"
 
 RPROVIDES:${PN} += "config-docker \
 docker \
@@ -23,16 +23,14 @@ user-dockremap"
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \
-apparmor-parser \
 ca-certificates-mozilla \
 catatonit \
 containerd \
-e2fsprogs \
+docker-buildx \
 fillup \
 iproute2 \
 iptables \
 libc.so.6 \
-libdevmapper.so.1.03 \
 libsystemd.so.0 \
 procps \
 runc \

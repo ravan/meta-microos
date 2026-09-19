@@ -8,10 +8,10 @@ scripts (from shell or Perl) or via frontends that poll network devices and \
 put a friendly user interface on it."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.11.0"
 
-RPM_NAME = "rrdtool-1.8.0-3.5.aarch64.rpm"
-RPM_HASH = "2ffcfbce9cf6464e1f073a92d2c4bdfa0f8de3aebed8b7470cea577141e735d504dfdb819c31177f0d0749211a6e3dc9e495bba4b304b620ca42f5c846797f7e"
+RPM_NAME = "rrdtool-1.11.0-1.1.aarch64.rpm"
+RPM_HASH = "899704e2ba95361ab0d1e3396cb219e9ecc54a55dfa36ff4f27d308a6ed77211543ca5cfad3c0bf437e798042020eae58370d04d56124be1e9e9687b37e001c6"
 
 RPROVIDES:${PN} += "rrdtool"
 

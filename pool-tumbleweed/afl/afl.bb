@@ -12,21 +12,23 @@ practical: it has modest performance overhead, uses a variety of highly \
 effective fuzzing strategies and effort minimization tricks, requires \
 essentially no configuration, and seamlessly handles complex, real-world \
 use cases - say, common image parsing or file compression libraries."
-LICENSE = "Apache-2.0"
+LICENSE = "AGPL-3.0-or-later & Apache-2.0"
 
-PV = "4.08c"
+PV = "5.03c"
 
-RPM_NAME = "afl-4.08c-1.1.aarch64.rpm"
-RPM_HASH = "f1967a750e4dd89b1a45f7974476d6c13b16e662f64caea975b87eb8cd45460c1b87e32ae8ce2576766c1c655f0eddb278c5ac21240d198432a6981d00523eae"
+RPM_NAME = "afl-5.03c-1.1.aarch64.rpm"
+RPM_HASH = "841bca72862df971eac6e4a1c7ff79f691cca59928bb68d8c7791a3568178a3234d2c1b5010f7078938d588c4ba50d35bc98e15433957d96101ee54f4894f222"
 
 RPROVIDES:${PN} += "afl"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/env \
 /usr/bin/sh \
+gcc16 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libstdc++.so.6 \
 lld"
 

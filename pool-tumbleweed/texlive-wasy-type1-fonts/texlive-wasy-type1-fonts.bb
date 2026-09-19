@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-wasy-type1"
 DESCRIPTION = "The  separated fonts package for texlive-wasy-type1"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.001.002svn53534"
+PV = "2026.226.001.002svn53534"
 
-RPM_NAME = "texlive-wasy-type1-fonts-2023.209.001.002svn53534-54.1.noarch.rpm"
-RPM_HASH = "60ce82f204e7d7e13b36b3285e41756def9d2229bea6ba260857a125ddacdd66a569349a647a9119a6f2bff6a954e0e79abd23f5a03e68d7ea740b209faabf9a"
+RPM_NAME = "texlive-wasy-type1-fonts-2026.226.001.002svn53534-60.2.noarch.rpm"
+RPM_HASH = "36ffe30987be3c7bfd53f8a50f60a850e7b53d9f193b8aa6f1fb3836725d98fd17022d52a13048864483f494735fadc3014fecea948c42dae9cca9beba98bef5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-wasy \

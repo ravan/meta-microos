@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "2.0.10"
 
-RPM_NAME = "felix-bundlerepository-2.0.10-1.7.noarch.rpm"
-RPM_HASH = "ac6df9448c12de0d50811348f1519573e62ac2af261ad41138b1caaa95b7d35a82ab259f8dbfa292e5a253def9a56e8c8ca06c1a8cfcb1dc4c582d063e8b57d6"
+RPM_NAME = "felix-bundlerepository-2.0.10-2.7.noarch.rpm"
+RPM_HASH = "ac729d59cd5af130fc6f7479c8d9f29ed89ccf278c0a33af115b85e79a4c6d3e2894e5ff532fd73bfe8b5046c0a5c831230b81a97a1ace889713ea52ba2fab2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-bundlerepository \

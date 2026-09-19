@@ -2,10 +2,10 @@ SUMMARY = "Translations for package lxqt-sudo"
 DESCRIPTION = "Provides translations for the 'lxqt-sudo' package."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "lxqt-sudo-lang-1.3.0-1.2.noarch.rpm"
-RPM_HASH = "f127e5de3853067cd3c39592a50962fe9413c16eae10bec1b8e6ed86b8da0612fd5da94c2145ee23f3138044593e5f9209de145703f281b4bf98a3c9c3f08e4b"
+RPM_NAME = "lxqt-sudo-lang-2.4.0-1.2.noarch.rpm"
+RPM_HASH = "802e98baca267429cea63dc70fefe10956da66b20e2a87fb9d89b7adc4fcb3861cf3cbf6367370ef86e6ea1c26d774ca2571456e2a0329073547cb75a86e5b96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-sudo-lang \

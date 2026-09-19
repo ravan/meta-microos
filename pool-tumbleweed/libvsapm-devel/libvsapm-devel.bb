@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libvsapm."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230506"
+PV = "20260713"
 
-RPM_NAME = "libvsapm-devel-20230506-1.1.aarch64.rpm"
-RPM_HASH = "dbc0d06cd9274654338c3fafd12b5457ed216b613fce331db2c5ccff34c809bd8db73874449638693864ef6f0f2a026607ae41f3c50197f229573b4a2e05902a"
+RPM_NAME = "libvsapm-devel-20260713-1.2.aarch64.rpm"
+RPM_HASH = "9b71e2c04013ead59efd2c7ba9a2e1eb8ecf147cc5634bd37b7c53b7ce57e61259bfbac8683770e2b9dfff2bf26219f13d2f7e97ac5433a1b37d73f65184af00"
 
 RPROVIDES:${PN} += "libvsapm-devel \
 pkgconfig-libvsapm"

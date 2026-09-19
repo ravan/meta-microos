@@ -1,11 +1,11 @@
 SUMMARY = "Provides libknet1 nss support"
 DESCRIPTION = "Provides NSS crypto support for libknet1."
-LICENSE = "GPL-2.0+ & LGPL-2.1+"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21"
+PV = "1.33"
 
-RPM_NAME = "libknet1-crypto-nss-plugin-1.21-1.10.aarch64.rpm"
-RPM_HASH = "779ce13ebc18f23179fad2ffb63b498341a3011f2969457a8db938404920bc55c7255947e25c90c63f1a21e49bbddd70c8b3e6da937e3ae6fd09ea38ab8ed2a5"
+RPM_NAME = "libknet1-crypto-nss-plugin-1.33-2.2.aarch64.rpm"
+RPM_HASH = "3dbd715e4edfaea46bbcb36e3e98a07cb9a850a0fc143fdee84d18d3b665973b203d1e769feedb6b1ab2e9a4b6df111c99ae7c9bf92c2a1535890045830386bc"
 
 RPROVIDES:${PN} += "libknet1-crypto-nss-plugin"
 

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.27"
 
-RPM_NAME = "clutter-gst-devel-3.0.27-2.5.aarch64.rpm"
-RPM_HASH = "d322ecc2751733414a4fd5a859a1d93f3269dfacd81ba86efffffdb0aa081f62fe43eb2fa209b04f2450111d3f535dee519a4351dc34792ca303c2814a8c7279"
+RPM_NAME = "clutter-gst-devel-3.0.27-2.16.aarch64.rpm"
+RPM_HASH = "c6a53f3433442119b7dbf5ee2bd7985e6abd9821a131909bef6bc48efbdb53eabf49dbe3206aad5457890a243745a45bbb844ca60cf1c27ed440a2c3f39ae419"
 
 RPROVIDES:${PN} += "clutter-doc \
 clutter-gst-devel \

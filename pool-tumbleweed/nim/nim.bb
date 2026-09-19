@@ -32,16 +32,15 @@ Elegant: \
 * Statements are grouped by indentation but can span multiple lines."
 LICENSE = "MIT"
 
-PV = "1.6.14"
+PV = "2.2.12"
 
-RPM_NAME = "nim-1.6.14-2.1.aarch64.rpm"
-RPM_HASH = "d855aa3a808a98524fef15139de923397a7c75df493fc981e8b22ba23357e594f8bc929d262d24b2173adbee83e2dbf13c721c2c21f1d4686aa97409aadf679e"
+RPM_NAME = "nim-2.2.12-1.1.aarch64.rpm"
+RPM_HASH = "517cc91e6c64acd8c86eb627c95547da611e99860ad30b0d7e1868e27491544f6c57910901779fc8616439c4aa465a9d81a21b8d809163e224383617fae34e51"
 
 RPROVIDES:${PN} += "config-nim \
 nim"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-gcc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6"

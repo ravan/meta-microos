@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cmdtrack"
 DESCRIPTION = "This package includes the documentation for texlive-cmdtrack"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn28910"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-cmdtrack-doc-2023.209.svn28910-54.1.noarch.rpm"
-RPM_HASH = "41f1b284c37e7f2e7a8b0069262ece689033131ada52fb75d5b9644dae51a44d7ff4ed977af8caa86c9f5f11c10da1160b422de1921240ff1c4f664972e32cea"
+RPM_NAME = "texlive-cmdtrack-doc-2026.226.svn78101-60.2.noarch.rpm"
+RPM_HASH = "e62fbf138432c68168d9bbb5ed0adabd7dafcdba967ad1ce0aa9c3b0ccf8cfb43f7b32527428dda63cd29ade6a2d41f91778b55436095839fe75b09db86e61d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmdtrack-doc"

@@ -3,37 +3,40 @@ DESCRIPTION = "Angelfish is a mobile web browser. It supports typical browser fe
 as bookmarks, history and tabs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "angelfish-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "5a9739dff6f67a200934a463cbdb32c12f325e7559e5f5f26c3ff0e9b335e9090b9ac973e6e00a5635d9cba9c9b69912d8f1f64250f9b827c19ccad48880bb56"
+RPM_NAME = "angelfish-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "b21b3d358f51124184653fbd592a902f7a25ebe5889ddc03db8630d0de5eb61d0e2f39b5a6799bfe5ec29ce473f64dbab156351e1ef9c43c56f892a1a19cdb74"
 
 RPROVIDES:${PN} += "angelfish"
 
-RDEPENDS:${PN} += "kirigami-addons \
-kirigami2 \
+RDEPENDS:${PN} += "kf6-kirigami-imports \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5Notifications.so.5 \
-libKF5WindowSystem.so.5 \
-libQCoro5Quick.so.0 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Sql.so.5 \
-libQt5WebEngine.so.5 \
-libQt5WebEngineCore.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6Notifications.so.6 \
+libKF6WindowSystem.so.6 \
+libQCoro6Qml.so.0 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Sql.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineQuick.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libfuturesql5.so.0 \
+libfuturesql6.so.0 \
 libgcc-s.so.1 \
-libstdc++.so.6"
+libm.so.6 \
+libstdc++.so.6 \
+qt6-sql-sqlite"
 
 inherit rpm

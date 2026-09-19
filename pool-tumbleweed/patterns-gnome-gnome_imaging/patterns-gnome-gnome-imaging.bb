@@ -2,10 +2,10 @@ SUMMARY = "GNOME Graphics"
 DESCRIPTION = "Handling of digital photos and graphics"
 LICENSE = "MIT"
 
-PV = "20201210"
+PV = "20250310"
 
-RPM_NAME = "patterns-gnome-gnome_imaging-20201210-16.1.aarch64.rpm"
-RPM_HASH = "b53d54a56d24959ddb10cd33ae7168dca0d9b70d7df67a83a727c0a18b335bd5e993f8b2f12061aa4aec7a95876070e997ef18935261f8e95a9a3198ed8c031c"
+RPM_NAME = "patterns-gnome-gnome_imaging-20250310-10.2.aarch64.rpm"
+RPM_HASH = "9697dc026fbc7d89f1808ca8d5531d5e12ecc81ff17eefe63005bf7c4213e1f61812cf0a3c27981ad3a24ad5b8d8ed720428836cbcadf5b58b5ad78898af459b"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

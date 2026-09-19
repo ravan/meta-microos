@@ -1,12 +1,12 @@
 SUMMARY = "ISO country flags in PNG"
 DESCRIPTION = "A collection of country flags in PNG. \
 They correspond to the fancy 4x3 set in 320x200 resolution."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "1.0.2"
+PV = "1.0.4"
 
-RPM_NAME = "iso-country-flags-png-1.0.2-1.11.noarch.rpm"
-RPM_HASH = "f68976403c7d96507cb6cb321de1c23f26e7fe9217ccac1d1802d3b8e77bd198f54da870fc254c649bc7531e23fa4235cf9b781b762e44e67c2c0073c7a895ff"
+RPM_NAME = "iso-country-flags-png-1.0.4-1.2.noarch.rpm"
+RPM_HASH = "867761b75dab041fd17698c6fb26f3da68f1f71072e646fbef5ce3b25d1ce45038b3086545cd600cf073975a3a01f07826dd48be72a418614ce7787d4be9e217"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iso-country-flags-png"

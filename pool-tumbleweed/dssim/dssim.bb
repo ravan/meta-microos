@@ -1,12 +1,12 @@
 SUMMARY = "This tool computes (dis)similarity between two (or more) PNG images"
 DESCRIPTION = "This tool computes (dis)similarity between two PNG images using \
 (my approximation of) algorithms approximating human vision."
-LICENSE = "AGPL-3.0-only"
+LICENSE = "AGPL-3.0-only & (BSD-2-Clause & AOMPL-1.0) & Apache-2.0 & BSD-2-Clause & (MIT | Apache2) & MIT & VP8 & MPL-2.0 & Apache-2.0-with-LLVM-exception"
 
 PV = "3.2.3"
 
-RPM_NAME = "dssim-3.2.3-1.2.aarch64.rpm"
-RPM_HASH = "c3128f337e0e7c6bb932e83436b9c23df1292ba0e8055a70d36f579093c2852944919ff9a4c27f7db78a804a1639bf673d9ac152e45dc059ff8ddadf6283834e"
+RPM_NAME = "dssim-3.2.3-2.13.aarch64.rpm"
+RPM_HASH = "a191d0ec8784c6be57be3526ef3749386644cfb794dabc427895a5750b8622df2cb6e2423659deb93b9e92616b08a42bc980968d47c15bd58f1909ebf7601a3a"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-ahash \

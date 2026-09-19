@@ -5,10 +5,10 @@ on different CPUs, computers in a network or whatever else. \
 This package contains examples for paexec."
 LICENSE = "MIT"
 
-PV = "1.1.4"
+PV = "1.1.6"
 
-RPM_NAME = "paexec-examples-1.1.4-2.10.noarch.rpm"
-RPM_HASH = "3c419caa4b099d012be064ec09df2276d4401b838fa7c5a0f5cb44993fbc9141b3f06ee270ade9fb6fccf1294b585728fe1a692badfaa5fe0382c1533eb118e8"
+RPM_NAME = "paexec-examples-1.1.6-1.9.noarch.rpm"
+RPM_HASH = "39ce9fa2add44a0edde77e0523890042bc38cd13fb1870a5b6a2ddfd3c01d82c5000eb893161035ec5fcab8a08a0154cf4e455dc397f13a8946ede9cb875a323"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paexec-examples"

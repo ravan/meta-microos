@@ -7,10 +7,10 @@ dynamic omnidirectional shadows, global illumination, HDR lighting, deferred \
 shading and morphological/temporal/multisample anti-aliasing."
 LICENSE = "Zlib"
 
-PV = "2018_02_01"
+PV = "2024_06_15"
 
-RPM_NAME = "tesseract-2018_02_01-3.12.aarch64.rpm"
-RPM_HASH = "2e6aff1135b6bdf0f03da437c3e379cba1bdb2272b3e597dccb59d12df12fc912caa3b772b1558d8fcf723cfb8aa8a9da8728575a03850e175677c1b109b0bbe"
+RPM_NAME = "tesseract-2024_06_15-2.1.aarch64.rpm"
+RPM_HASH = "85463cd44a65dd733c33d9cd4ef83d8342bd8af64aee26700783887228877a7432ec2e11505928e9e564729369f86bb890357bd98d682d428e5e660a1cae8752"
 
 RPROVIDES:${PN} += "tesseract"
 
@@ -20,6 +20,7 @@ libGL.so.1 \
 libSDL2-2.0.so.0 \
 libSDL2-image-2.0.so.0 \
 libSDL2-mixer-2.0.so.0 \
+libX11.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6 \

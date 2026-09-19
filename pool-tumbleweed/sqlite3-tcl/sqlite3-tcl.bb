@@ -5,18 +5,18 @@ language SQLite. \
 SQLite is a C library that implements an embeddable SQL database \
 engine. Programs that link with the SQLite library can have SQL \
 database access without running a separate RDBMS process."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "3.42.0"
+PV = "3.53.2"
 
-RPM_NAME = "sqlite3-tcl-3.42.0-1.2.aarch64.rpm"
-RPM_HASH = "b8976f25eb50429568bee5dbc120aac3d5c878c834ebb132ff4d00ee797f4eedf0023bc8b798a4369ea5af71b0fd7b412a0ea3335b74c0f0c21cbecd84c965d2"
+RPM_NAME = "sqlite3-tcl-3.53.2-3.2.aarch64.rpm"
+RPM_HASH = "118d7c58052767e12d8fbb04b826983e38bde45181a859c53637ee2679067bdac61d224d88cfacd58e6b57d0e2de4b6c729622e43e979ecb051c19358b3681b3"
 
-RPROVIDES:${PN} += "libtclsqlite3.so \
+RPROVIDES:${PN} += "libsqlite3.53.2.so \
 sqlite3-tcl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libsqlite3.so.0"
+libm.so.6"
 
 inherit rpm

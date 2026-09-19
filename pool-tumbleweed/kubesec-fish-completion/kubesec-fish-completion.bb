@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for kubesec"
 DESCRIPTION = "Fish command line completion support for kubesec."
 LICENSE = "Apache-2.0"
 
-PV = "2.13.0"
+PV = "2.14.2"
 
-RPM_NAME = "kubesec-fish-completion-2.13.0-1.1.noarch.rpm"
-RPM_HASH = "872dd199c9b116ce4b6f9d6d040ac8312d39ecd1b784682834a5e30334f2cb73c014f0979891be4214f57bf6b34f5d6e46dd2d789dec552e721b700c00254b80"
+RPM_NAME = "kubesec-fish-completion-2.14.2-1.11.noarch.rpm"
+RPM_HASH = "a357958e8c90c1ea7e962dd834485af6f6cd213d1094fc318ee64f764005dd30915d8895ed371170f98de1f69b7db670d4ce3e5532a828311899e21b198f206c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubesec-fish-completion"

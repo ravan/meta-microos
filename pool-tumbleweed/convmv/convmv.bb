@@ -13,10 +13,10 @@ though it does not enforce it. Darwin, the base of Macintosh OS X, \
 enforces Normalization Form Canonical Decomposition (NFD)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.05"
+PV = "2.06"
 
-RPM_NAME = "convmv-2.05-2.14.noarch.rpm"
-RPM_HASH = "9f75a81dcff9fa4c0050eae6eb92c5bb02942f5c0d818eba4146a940957af43264cf92b00c4c3dc742a8df6b9804792f44228ba4314637a6701072bdfefdedc6"
+RPM_NAME = "convmv-2.06-1.5.noarch.rpm"
+RPM_HASH = "47a82ea239212b7fa992104359e520465e0f45202025a10a1c62b7016c8ecd3f8e6cbae7e3b9e2a8bee2fe030de717b13220a5e2bd12c6d19c4e57537a35b085"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "convmv"

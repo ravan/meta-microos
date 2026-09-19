@@ -2,16 +2,16 @@ SUMMARY = "Translations for package ksnakeduel"
 DESCRIPTION = "Provides translations for the 'ksnakeduel' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ksnakeduel-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "8016e48da7a970fefe11596f82c5459fa10d3c7c82e317ff3972c72fe7b03a1b50494069247bc489815ccb16cd8466de825252453230dafea6eae4c768ecd82a"
+RPM_NAME = "ksnakeduel-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "b2b6854d80cb0662055c1547db7c75dea81f3595b23b830baeb5f00a8daadd926de0e6053b6f5c79e398df542437da46e4e37f90458ddfdf4c2605abf200ba3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksnakeduel-lang \
 ksnakeduel-lang-all \
 locale-ksnakeduel-ar \
-locale-ksnakeduel-bg \
+locale-ksnakeduel-ast \
 locale-ksnakeduel-bs \
 locale-ksnakeduel-ca \
 locale-ksnakeduel-ca@valencia \
@@ -28,8 +28,11 @@ locale-ksnakeduel-fi \
 locale-ksnakeduel-fr \
 locale-ksnakeduel-ga \
 locale-ksnakeduel-gl \
+locale-ksnakeduel-he \
+locale-ksnakeduel-hi \
 locale-ksnakeduel-hr \
 locale-ksnakeduel-hu \
+locale-ksnakeduel-ia \
 locale-ksnakeduel-is \
 locale-ksnakeduel-it \
 locale-ksnakeduel-ja \

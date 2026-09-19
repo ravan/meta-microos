@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-file-management"
 DESCRIPTION = "API documentation for maven-file-management."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.0"
+PV = "3.2.0"
 
-RPM_NAME = "maven-file-management-javadoc-3.0.0-4.1.noarch.rpm"
-RPM_HASH = "af7b3d542e73436cb943f8dbfbb7b25ab4cc4aceb925dcbaf494bb21cac527e3082fec70194d545e6470544be8b020d48a4a1dfd4897df5ef908c95b24044924"
+RPM_NAME = "maven-file-management-javadoc-3.2.0-1.6.noarch.rpm"
+RPM_HASH = "10c867840e45bf65890d8ded62a38c83d2348233f4a332e2863ab3b988c6b23377118fc2e23cd744d4dea8f6a1bf9b715d8fd017f987df90214287165c33880e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-file-management-javadoc"

@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "libgstbadaudio-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "f36705aad2201e9b2596a68632668d14fd2d4f245fbaf5a3ed209907031a1f2570506f9864e12f38b521ea4ee0854a2b82038c25e6e4141abcb520e3174ae108"
+RPM_NAME = "libgstbadaudio-1_0-0-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "1dd33498c5167c67c20f53c1962817ddbbc25343e167dd95f04336e3e79ce418a9a2e06d6d82462994da7f8cb6e5412f5e02af63be70e2835e5fe92c0fb97609"
 
 RPROVIDES:${PN} += "libgstbadaudio-1-0-0 \
 libgstbadaudio-1.0.so.0"

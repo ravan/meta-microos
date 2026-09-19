@@ -5,10 +5,10 @@ capabilities into an existing Apache installation. \
 To load the module into Apache, run the command 'a2enmod jk' as root."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.48"
+PV = "1.2.50"
 
-RPM_NAME = "apache2-mod_jk-1.2.48-2.16.aarch64.rpm"
-RPM_HASH = "ec67e5512e07d22406b08b4205f157ae83d0b55eb00d83bb682e46c398010725d146adc60bf013b5de74062b1f1a355bdaa1a42bd068c4d381398c53bf498f4e"
+RPM_NAME = "apache2-mod_jk-1.2.50-3.6.aarch64.rpm"
+RPM_HASH = "b393f0bc3039777b2f77a93f0373ed4502cb608ea41f669650461d5b327cac4342f849ee0b21d36c698362c571fa9cea367de63119864d127373181abc05a19a"
 
 RPROVIDES:${PN} += "apache2-mod-jk \
 mod-jk \

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.1"
 
-RPM_NAME = "enchant-1-backend-zemberek-1.6.1-6.4.aarch64.rpm"
-RPM_HASH = "ff47f9ba1b9e81ad250899849946b3d905fc5b9abb0482bd5537d181c6115cda4bb7b16e81250ac1bae001ad269a95a4df6c82a0ae45401d4ad4cfcc72e4e1d5"
+RPM_NAME = "enchant-1-backend-zemberek-1.6.1-8.10.aarch64.rpm"
+RPM_HASH = "e8c6d565e89d89addc1d723303336183065ed7ed8e0b7754cd6190bef013bb195e41c9d6998e78eba852060fcc2c6b55c3ab18286bbd9f23bf4e78c887927af1"
 
 RPROVIDES:${PN} += "enchant-1-backend \
 enchant-1-backend-zemberek \

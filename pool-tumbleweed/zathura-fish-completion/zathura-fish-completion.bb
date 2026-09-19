@@ -2,10 +2,11 @@ SUMMARY = "Zathura fish completion"
 DESCRIPTION = "Optional dependency offering fish completion for zathura"
 LICENSE = "Zlib"
 
-PV = "0.5.2"
+PV = "2026.07.18"
 
-RPM_NAME = "zathura-fish-completion-0.5.2-1.3.aarch64.rpm"
-RPM_HASH = "5eeddb6b6e723e2fcf028cfcb083aafa5a574759c2caa87e18bc9abe36b8f91bfbc0f8c1753d3ca7a581d232b7e4d1936f4a2c4a4fa9841730953bc205743c72"
+RPM_NAME = "zathura-fish-completion-2026.07.18-1.1.noarch.rpm"
+RPM_HASH = "48eb231082ce3a2d836cc4d050446dad9b48c7793e7fea63ea16372db8cf7e877d128d6a52044553c415502bc9b199033861b0819d56d414de509408f5a375b2"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zathura-fish-completion"
 

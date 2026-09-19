@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.3.2"
 
-RPM_NAME = "drush-8.3.2-1.10.noarch.rpm"
-RPM_HASH = "a6b08522b35457e9967cae17fba33f8b8ee9284088e8f5af0e3d0ef6a51c043c5d98407976d6f239dc87f7fc76acc4221d379af4eada406dd4dd42019ad17071"
+RPM_NAME = "drush-8.3.2-1.18.noarch.rpm"
+RPM_HASH = "ad44d96fc234445ea7e32bc0216f8bd88b87703a514ea18a948facad4040fe8b520d9b75b0b10478d1d79becf42fde712d094d55dc8bdbdadf287a19549102f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drush \

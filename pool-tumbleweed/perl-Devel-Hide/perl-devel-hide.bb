@@ -77,15 +77,16 @@ suppresses diagnostic output. You will still get told about errors. This is \
 passed to child processes if -from:children is in effect."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.0015"
+PV = "0.0016"
 
-RPM_NAME = "perl-Devel-Hide-0.0015-1.10.noarch.rpm"
-RPM_HASH = "5b9517270fffa01dd0558bb1a5ddbefc5a5c272866ba6ea2f12624c225c2ed02619bebdcd459bfeaeb4454ccb2d511cf0d2d7502fbf57ced19408bb057e8d331"
+RPM_NAME = "perl-Devel-Hide-0.0016-1.5.noarch.rpm"
+RPM_HASH = "240cc9bdf713ef4c4475d64c8a7462de6983180a57e2f9bfbc2c0422dd9540719d7d8883f6e74887d43e4a234a9779ee736eba6fdc75f558020a3486c18cd07d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--Hide \
 perl-Devel-Hide"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Test--More"
 
 inherit rpm

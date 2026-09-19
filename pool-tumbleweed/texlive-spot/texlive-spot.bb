@@ -5,10 +5,10 @@ in Beamer presentations, but it can be used in other document \
 classes as well."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn22408"
+PV = "2026.226.1.1svn22408"
 
-RPM_NAME = "texlive-spot-2023.209.1.1svn22408-58.1.noarch.rpm"
-RPM_HASH = "d55b114defd7d7524dcbd613fe0dd1ab659604bbe731d5f9d885e4db54cd6de548420b396921d21bced0b770ca4b187dab661a6c7ae717698b706fd886133970"
+RPM_NAME = "texlive-spot-2026.226.1.1svn22408-64.2.noarch.rpm"
+RPM_HASH = "c89d46bc1f075e438466934b0e00dcdd8a03efa986e9c625d14313ed1a9d91efb5afed28f44abcfb39e3ed4f1a724e1c2672826e50b6a18c727d9ae0d0f998b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spot.sty \

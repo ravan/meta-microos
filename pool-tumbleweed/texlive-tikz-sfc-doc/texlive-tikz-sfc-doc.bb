@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-sfc"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-sfc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn49424"
+PV = "2026.226.1.0.1svn49424"
 
-RPM_NAME = "texlive-tikz-sfc-doc-2023.209.1.0.1svn49424-53.1.noarch.rpm"
-RPM_HASH = "b95a4802a5c25e778cd05883b0cfa77ef488622bcba753f57e15f3c967196de31bcd8faf5b5cfa4b7853bd4e4759d3f4af04e12bb81518f25c8b3d7fe97a088c"
+RPM_NAME = "texlive-tikz-sfc-doc-2026.226.1.0.1svn49424-59.2.noarch.rpm"
+RPM_HASH = "e346aa7a14c68357d1944a684feb209269d892e8143eec9b47bab0dd11c96322bc66e561c54867cdf46a55a2b24076b57049d7493af3194133c64a8c8c3b7934"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-sfc-doc"

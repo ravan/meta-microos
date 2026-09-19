@@ -2,10 +2,10 @@ SUMMARY = "Mousepad plugin provider"
 DESCRIPTION = "A plugin provider for the Mousepad text editor"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.1"
+PV = "0.7.0"
 
-RPM_NAME = "libmousepad0-0.6.1-1.1.aarch64.rpm"
-RPM_HASH = "2a804d03f8779205b023c48bd9746b5d24aeff74c842c9793818c09515141301af498980307a0830c9eb54ffe379e53d035ebf7fc97a03d12c94e29d7ee9ddab"
+RPM_NAME = "libmousepad0-0.7.0-1.2.aarch64.rpm"
+RPM_HASH = "ecdc2bb6c9a66c4aca7f2a004f6bf0c6dff4c281a41c89215c2238d98beb0bd1d9cb9917ad18e135fb9ae0573316e5506d1b04388871d46eb0ceabc298f1a947"
 
 RPROVIDES:${PN} += "libmousepad.so.0 \
 libmousepad0"

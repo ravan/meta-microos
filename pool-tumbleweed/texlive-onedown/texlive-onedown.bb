@@ -11,10 +11,10 @@ terms. Extensive documentation: User manual, Reference manual, \
 and Examples."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn59010"
+PV = "2026.226.1.7svn69067"
 
-RPM_NAME = "texlive-onedown-2023.209.1.6svn59010-55.1.noarch.rpm"
-RPM_HASH = "2db419f053a3c787aa15011fdc715b126e3e083806705a732379e7b7a49c21ecf50a9c2f100dd33ca33dff2569ff849a3e9009a70b62d34dc096ff80bb2cd7ec"
+RPM_NAME = "texlive-onedown-2026.226.1.7svn69067-61.2.noarch.rpm"
+RPM_HASH = "7c84b2e163168e5b34e100ab1b59dab1538f2488d86de18c3861b7b186638b1680871b2d92f0daa973f3ea1f917e1dab409830a7681d7e523be1330c3cf1c7f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-onedown.sty \

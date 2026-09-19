@@ -20,8 +20,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.37"
 
-RPM_NAME = "vorbisgain-0.37-3.1.aarch64.rpm"
-RPM_HASH = "babe732da8084cf66a66638ede71fefd5d46cda2cf9c13fc04eb3f9e43b7c69baae6b38494b3e36d0ca9d9c859d8e218df77802fc5b84fb8f1396230284d9868"
+RPM_NAME = "vorbisgain-0.37-3.12.aarch64.rpm"
+RPM_HASH = "8eba573fa4e41836d799d8ec7fcd2ef83f60f2974e113e070dd7d6f195c68c55b581527ecfb386e5955e920f8760744379eea35f054eba150c660519a9865297"
 
 RPROVIDES:${PN} += "vorbisgain"
 

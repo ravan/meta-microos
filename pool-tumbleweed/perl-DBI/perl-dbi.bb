@@ -16,97 +16,17 @@ at least the following perl manuals first: perlreftut, perldsc, perllol, \
 and perlboot."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.643"
+PV = "1.653.0"
 
-RPM_NAME = "perl-DBI-1.643-2.17.aarch64.rpm"
-RPM_HASH = "85822a81923fb4dac4e5c4b93d0a7ec6411c91f4bc674c62ee4c63d1c2168b44086b26a013e59f6eb8f9e7ddb97c90f35c8f80aecf4e07ec989554ac56e369b7"
+RPM_NAME = "perl-DBI-1.653.0-1.1.aarch64.rpm"
+RPM_HASH = "962d626d3db635675222062580d18ccbfc7b2aba4480844f995ea5d489551a4c033f748cf336ad2d228560bb39c038c6c5ae304456da115dbf919961b350b1b6"
 
-RPROVIDES:${PN} += "perl-Bundle--DBI \
-perl-DBD--DBM \
-perl-DBD--DBM--Statement \
-perl-DBD--DBM--Table \
-perl-DBD--DBM--db \
-perl-DBD--DBM--dr \
-perl-DBD--DBM--st \
-perl-DBD--ExampleP \
-perl-DBD--File \
-perl-DBD--File--DataSource--File \
-perl-DBD--File--DataSource--Stream \
-perl-DBD--File--Statement \
-perl-DBD--File--Table \
-perl-DBD--File--TableSource--FileSystem \
-perl-DBD--File--db \
-perl-DBD--File--dr \
-perl-DBD--File--st \
-perl-DBD--Gofer \
-perl-DBD--Gofer--Policy--Base \
-perl-DBD--Gofer--Policy--classic \
-perl-DBD--Gofer--Policy--pedantic \
-perl-DBD--Gofer--Policy--rush \
-perl-DBD--Gofer--Transport--Base \
-perl-DBD--Gofer--Transport--corostream \
-perl-DBD--Gofer--Transport--null \
-perl-DBD--Gofer--Transport--pipeone \
-perl-DBD--Gofer--Transport--stream \
-perl-DBD--Mem \
-perl-DBD--Mem--DataSource \
-perl-DBD--Mem--Statement \
-perl-DBD--Mem--Table \
-perl-DBD--Mem--db \
-perl-DBD--Mem--dr \
-perl-DBD--Mem--st \
-perl-DBD--NullP \
-perl-DBD--Proxy \
-perl-DBD--Proxy--db \
-perl-DBD--Proxy--dr \
-perl-DBD--Proxy--st \
-perl-DBD--Sponge \
-perl-DBDI \
-perl-DBI \
-perl-DBI--Const--GetInfo--ANSI \
-perl-DBI--Const--GetInfo--ODBC \
-perl-DBI--Const--GetInfoReturn \
-perl-DBI--Const--GetInfoType \
-perl-DBI--DBD \
-perl-DBI--DBD--Metadata \
-perl-DBI--DBD--SqlEngine \
-perl-DBI--DBD--SqlEngine--DataSource \
-perl-DBI--DBD--SqlEngine--Statement \
-perl-DBI--DBD--SqlEngine--Table \
-perl-DBI--DBD--SqlEngine--TableSource \
-perl-DBI--DBD--SqlEngine--TieMeta \
-perl-DBI--DBD--SqlEngine--TieTables \
-perl-DBI--DBD--SqlEngine--db \
-perl-DBI--DBD--SqlEngine--dr \
-perl-DBI--DBD--SqlEngine--st \
-perl-DBI--Gofer--Execute \
-perl-DBI--Gofer--Request \
-perl-DBI--Gofer--Response \
-perl-DBI--Gofer--Serializer--Base \
-perl-DBI--Gofer--Serializer--DataDumper \
-perl-DBI--Gofer--Serializer--Storable \
-perl-DBI--Gofer--Transport--Base \
-perl-DBI--Gofer--Transport--pipeone \
-perl-DBI--Gofer--Transport--stream \
-perl-DBI--Profile \
-perl-DBI--ProfileData \
-perl-DBI--ProfileDumper \
-perl-DBI--ProfileDumper--Apache \
-perl-DBI--ProfileSubs \
-perl-DBI--ProxyServer \
-perl-DBI--ProxyServer--db \
-perl-DBI--ProxyServer--dr \
-perl-DBI--ProxyServer--st \
-perl-DBI--SQL--Nano \
-perl-DBI--SQL--Nano--Statement- \
-perl-DBI--SQL--Nano--Table- \
-perl-DBI--Util---accessor \
-perl-DBI--Util--CacheMemory \
-perl-DBI--common"
+RPROVIDES:${PN} += "perl-DBI"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0 \
+perl-Module--Load"
 
 inherit rpm

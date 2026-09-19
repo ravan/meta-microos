@@ -3,16 +3,15 @@ DESCRIPTION = "This package contains HTML documentation, including tutorials and
 reference for python-SQLAlchemy."
 LICENSE = "MIT"
 
-PV = "1.4.46"
+PV = "1.4.54"
 
-RPM_NAME = "python-SQLAlchemy1-doc-1.4.46-3.3.noarch.rpm"
-RPM_HASH = "044988ea48f2f120e9addc92ea59a8e1b706111b84df87fd228a3474ab9f66c2aa3392836f3b68964d09000a032b64b7e8ddd81363b6fccadbb6c2881482824e"
+RPM_NAME = "python-SQLAlchemy1-doc-1.4.54-3.7.noarch.rpm"
+RPM_HASH = "02e0989cfb017d7854c393c67e61a2e4fafe57675385a7054189db7d498017edd0b8957c3f010b739a24f688edaaba360afb8a198f7a90de9e3952dd2f7fb78e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-SQLAlchemy1-doc \
-python310-SQLAlchemy-doc \
-python311-SQLAlchemy-doc \
-python39-SQLAlchemy-doc"
+python313-SQLAlchemy-doc \
+python314-SQLAlchemy-doc"
 
 RDEPENDS:${PN} += ""
 

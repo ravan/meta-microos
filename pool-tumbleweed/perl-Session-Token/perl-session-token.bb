@@ -28,18 +28,18 @@ RC4 algorithm in some important areas. For instance, it doesn't have short \
 cycles or initial bias like RC4 does. A theoretical shortest possible cycle \
 in ISAAC is '2**40', although no cycles this short have ever been found \
 (and probably don't exist at all). On average, ISAAC cycles are '2**8295'."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.503"
 
-RPM_NAME = "perl-Session-Token-1.503-1.16.aarch64.rpm"
-RPM_HASH = "624a00e904cc85432a05e593488a07acecaf2fb527b2a58c1b66a8bbe7778d5405435e66f486fff84f46ca9facc11018f1f77b8f0152cbea8efd130aa04bc2e1"
+RPM_NAME = "perl-Session-Token-1.503-2.8.aarch64.rpm"
+RPM_HASH = "a0e8ac296fecaa1d43562ccc82e364a92f55f4363fa8fe7c0453119efaef498a479273549268614138092b5c1cd707f333524d371599808ff6c9ce919a3c1df4"
 
 RPROVIDES:${PN} += "perl-Session--Token \
 perl-Session-Token"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

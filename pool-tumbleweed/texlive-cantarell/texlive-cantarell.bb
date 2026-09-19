@@ -8,10 +8,10 @@ package using FontForge from its sources, for full support with \
 Dvips."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.2svn54512"
+PV = "2026.226.3.2svn77682"
 
-RPM_NAME = "texlive-cantarell-2023.209.3.2svn54512-53.1.noarch.rpm"
-RPM_HASH = "3e43ec9d66115b9c97aae8fc73ab4d1e3154f8e5b076f657cc0224fd3952ce0f2ded066616604713e4e756a183ff1a759413b31550422d37d8664663ff21ae25"
+RPM_NAME = "texlive-cantarell-2026.226.3.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "b3a877627b84762bc93121b5a1cc074eaa448b7d0d803e92ff8ca317a92fb2964c38e580b194cd0545c43a2689523f8b9bd3cf0eb7d157f11853f427d29a36ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Cantarell-Bold-OT1-LF--base.tfm \

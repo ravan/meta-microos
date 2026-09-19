@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kmix"
 DESCRIPTION = "Provides translations for the 'kmix' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmix-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "0016c80251c78ed45147fa3a380acce08ab154cd523f982c242c9560018cfe0c61cd0487bf9ff58111e1890e52413bc29be1fa452e8f898877de7aee9fa957d5"
+RPM_NAME = "kmix-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "4e2eeb7b9c14963cbcf3770d8171f441196c87a11e3ad93636efbf985eec307b36b0d20fc9f7e4fff9dc107fe36baf41eed5d407403a13ba82b5675e84242ccf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmix-lang \

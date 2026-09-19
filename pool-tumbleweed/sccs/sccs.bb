@@ -6,10 +6,10 @@ any of the previous versions of the original source code and the \
 changes which are stored."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "sccs-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "5d137a029a85e42c386f07183f7a3fdfc8bc60eee185796af9bedc5944676c96997992b2175c4a11d197b92d1649948c1f69e71f18db53c38383591435dd1450"
+RPM_NAME = "sccs-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "8236558b9227c5d5a6cc4f2d7f0c2615e3de126c0d4c060d38dfa9f91aff9523b0e95cc06e8ebb636265f5c82060ea29986aaaeda5315e5a4f2a9f6a18ea23f8"
 
 RPROVIDES:${PN} += "sccs"
 

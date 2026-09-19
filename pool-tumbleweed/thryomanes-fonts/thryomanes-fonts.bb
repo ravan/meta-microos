@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.2"
 
-RPM_NAME = "thryomanes-fonts-1.2-179.17.noarch.rpm"
-RPM_HASH = "6aee4494af0fdcb6f610ff708efcccc7f494c6c97a8833f6a76e2bec81d351aec8a469e5ffb00dc5057a1193ff78bfcfb1b3e098bc57af056c5d0cf004a15766"
+RPM_NAME = "thryomanes-fonts-1.2-179.25.noarch.rpm"
+RPM_HASH = "f13319a2240f6d6b5e1238aa3c1462f49369979f3e2be337e91b874791c1554a9a775a893d66700bd57e6c0d266ad4e04bacb63093f6969cb37bd8c3ed1321f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fonts-thryomanes \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-magneticfield"
 DESCRIPTION = "This package includes the documentation for texlive-pst-magneticfield"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.17svn63821"
+PV = "2026.226.1.17asvn69493"
 
-RPM_NAME = "texlive-pst-magneticfield-doc-2023.209.1.17svn63821-53.1.noarch.rpm"
-RPM_HASH = "0e85e3559cebd81e73d7e7705b035632f88b27a94ba49a81261d35fc8121d661fda6f98b35df211d1e542cd456785ccc5bc8de627232985e7e120224aa3b0b8c"
+RPM_NAME = "texlive-pst-magneticfield-doc-2026.226.1.17asvn69493-59.2.noarch.rpm"
+RPM_HASH = "3b449f67d94c601c888d887476c4d6a945f0514f0c7f7a9c4d52046df540c6ae6e35a3c6b00fd31f8ae09a9c3d1a5faf69f07829bca24a25d35d947b98ab04d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-magneticfield-doc"

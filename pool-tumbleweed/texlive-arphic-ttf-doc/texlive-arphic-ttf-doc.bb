@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-arphic-ttf"
 DESCRIPTION = "This package includes the documentation for texlive-arphic-ttf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn42675"
+PV = "2026.226.svn42675"
 
-RPM_NAME = "texlive-arphic-ttf-doc-2023.209.svn42675-54.1.noarch.rpm"
-RPM_HASH = "a4c5828070080fbc5b7f91477141e20da50832895df6654709d0a2bde82eae4f7158fc8fa786f65f0af0aa45ff8f805dc3ee4d10a908ba70bb2813b39286ab35"
+RPM_NAME = "texlive-arphic-ttf-doc-2026.226.svn42675-60.2.noarch.rpm"
+RPM_HASH = "f64f79bed9b8a37429f9afb46738dc8a03a62cc92963ac9fb61875bc88c14e78feb6b98238ce2ed3306ef1a77165a556b24e33ff30a2cbe1ea95eac3fb6d9685"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-arphic-ttf-doc"

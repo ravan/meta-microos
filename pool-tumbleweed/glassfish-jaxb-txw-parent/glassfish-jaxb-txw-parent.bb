@@ -4,15 +4,14 @@ LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.3.1"
 
-RPM_NAME = "glassfish-jaxb-txw-parent-2.3.1-4.5.noarch.rpm"
-RPM_HASH = "75481ae29f02d5e916fd16f051e34ec1e3ed0988ccfb1b24fdf0951128cd386a143a35298bb54405d26889ef11a631fa9d5bc5dc1501b5f02235db2460dbea68"
+RPM_NAME = "glassfish-jaxb-txw-parent-2.3.1-12.4.noarch.rpm"
+RPM_HASH = "5bccc70ab26bceac929556485843d6f8774317caf65a959a44fa6a7176abf77a616bb5af574c8d8ad66de495aa59cea25f336c938b780e18ce26e27b49ff7053"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-txw-parent \
 mvn-com.sun.xml.bind.mvn-jaxb-txw-parent-pom-"
 
-RDEPENDS:${PN} += "java-headless \
-javapackages-filesystem \
+RDEPENDS:${PN} += "javapackages-filesystem \
 mvn-com.sun.xml.bind.mvn-jaxb-parent-pom-"
 
 inherit rpm

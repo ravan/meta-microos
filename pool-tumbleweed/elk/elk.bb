@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.7.2"
 
-RPM_NAME = "elk-8.7.2-1.4.aarch64.rpm"
-RPM_HASH = "ddbfd7b7af6615bbd70c553fe1b66552d4b652029e0e093865316ef2da443d0047d366b33992622c2a0cdb9f4e3e712914c1e9cc1715990f655b9ed64602d5cf"
+RPM_NAME = "elk-8.7.2-2.13.aarch64.rpm"
+RPM_HASH = "35783e5266eebca93091be5fe34903d05753c4c52556dd8f898f6634e9f1cbfccdca045d4cb740fcfb1a9af56812018e0ff209b9a37090290973dc628aad301c"
 
 RPROVIDES:${PN} += "elk"
 
@@ -22,6 +22,7 @@ libgfortran.so.5 \
 libgomp.so.1 \
 liblapack.so.3 \
 libm.so.6 \
+libmvec.so.1 \
 libwannier.so \
 libxc.so.12 \
 wannier90-devel"

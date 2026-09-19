@@ -1,18 +1,17 @@
 SUMMARY = "Character Entity Sets for ISO 8879:1986"
-DESCRIPTION = "Character entity sets for ISO 8879:1986."
+DESCRIPTION = "ISO 8879:1986 and ISO 9573-15:1993 character entity sets"
 LICENSE = "SUSE-Permissive"
 
 PV = "2000.11.03"
 
-RPM_NAME = "iso_ent-2000.11.03-829.1.noarch.rpm"
-RPM_HASH = "931005ef3283eb9aa8e61460252d5d2778350dfed0a647ba61a0a0a7af2ebb9b1f44e469212136680500465f78b732203d31a35a7d8674836598f31261f26e83"
+RPM_NAME = "iso_ent-2000.11.03-831.2.noarch.rpm"
+RPM_HASH = "2446a1e973c9c2eff83e6ca294fc96d1b0e465e5e26303dc9853804b35166a90510c58ea5477f1059bb42b302f05290e3b6ec02f572e42467c1cea9deb82be05"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config-iso-ent \
-iso-ent \
+RPROVIDES:${PN} += "iso-ent \
 iso-entities"
 
-RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog \
-/usr/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh \
+sgml-skel"
 
 inherit rpm

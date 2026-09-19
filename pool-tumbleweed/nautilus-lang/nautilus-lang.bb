@@ -2,10 +2,10 @@ SUMMARY = "Translations for package nautilus"
 DESCRIPTION = "Provides translations for the 'nautilus' package."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "44.2"
+PV = "50.3.1"
 
-RPM_NAME = "nautilus-lang-44.2-2.1.noarch.rpm"
-RPM_HASH = "3b1ffa165952e3320dd348161fc022d8b8d03c881244607cc38a110e7726b1d086b7fc646486cffca8eece0935bb860d07faa93dd7b675abb4069e2172d7686a"
+RPM_NAME = "nautilus-lang-50.3.1-1.1.noarch.rpm"
+RPM_HASH = "ebc87daf4479623cedc485d8732a73a72e428dc2b7053d07ce796506a80ce93e0cebe18a2f7ff10cb969414ab557a5e2d57b9433c472d72d37a91bcfb58a515a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-nautilus-af \
@@ -47,6 +47,7 @@ locale-nautilus-he \
 locale-nautilus-hi \
 locale-nautilus-hr \
 locale-nautilus-hu \
+locale-nautilus-ia \
 locale-nautilus-id \
 locale-nautilus-is \
 locale-nautilus-it \

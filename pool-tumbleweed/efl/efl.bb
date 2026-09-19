@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-only & Zlib"
 
 PV = "1.26.3"
 
-RPM_NAME = "efl-1.26.3-30.8.aarch64.rpm"
-RPM_HASH = "11be69d4a24f77cf87c695f991fd5178092cb8b61836447cc3d3732f3f4f01835533262b68f3ade0bcb8628af07eab4ab294ce7e94eca53dd4e8b2808518515e"
+RPM_NAME = "efl-1.26.3-37.1.aarch64.rpm"
+RPM_HASH = "177d052f41cc2a874c5986da4d768465561f033ee3f05031a0cfbfb1d3d813bacfcfaa6d3c070e0b8fb6405b022d4d1b799b33f132653dd8f2e3ebbc90bcef65"
 
 RPROVIDES:${PN} += "ecore \
 edje \
@@ -88,12 +88,12 @@ libexactness-record.so.1"
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libBulletCollision.so.3.17 \
-libBulletDynamics.so.3.17 \
-libBulletSoftBody.so.3.17 \
+libBulletCollision.so.3.25 \
+libBulletDynamics.so.3.25 \
+libBulletSoftBody.so.3.25 \
 libEGL.so.1 \
 libGLESv2.so.2 \
-libLinearMath.so.3.17 \
+libLinearMath.so.3.25 \
 libX11-xcb.so.1 \
 libX11.so.6 \
 libXcomposite.so.1 \

@@ -13,10 +13,10 @@ current version of hyperref actually loads the package \
 automatically if it detects that it is running under memoir."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.3.7.19svn65040"
+PV = "2026.226.3.8.4bsvn77682"
 
-RPM_NAME = "texlive-memoir-2023.208.3.7.19svn65040-53.1.noarch.rpm"
-RPM_HASH = "511c4222a19cab4e06b934a7133975d713fc660bcefedec7456edfa811ebf43f1842b96944f26763e3f6d38c1f75549956079655f369a46867d0335f6f6f1500"
+RPM_NAME = "texlive-memoir-2026.226.3.8.4bsvn77682-59.2.noarch.rpm"
+RPM_HASH = "0ff2050d1c1126ba61fdc0428502c45ff32a7fa5fda6a633cf312b38479b485f1d1a72837828d3bfa1e1a4e6dbb351e6f02f5b39f12ace06aff0001d9f9b16b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mem10.clo \
@@ -42,16 +42,17 @@ findutils \
 grep \
 sed \
 tex-array.sty \
+tex-booktabs.sty \
 tex-dcolumn.sty \
 tex-delarray.sty \
-tex-etex.sty \
-tex-etoolbox.sty \
 tex-fontenc.sty \
 tex-hyperref.sty \
 tex-iftex.sty \
-tex-mparhack.sty \
+tex-nameref.sty \
+tex-shortvrb.sty \
 tex-tabularx.sty \
-tex-textcase.sty \
+tex-verbatim.sty \
+tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

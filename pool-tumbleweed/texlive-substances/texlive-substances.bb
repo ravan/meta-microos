@@ -5,10 +5,10 @@ retrieved in the document; an index of the chemicals mentioned \
 in the document can be created.."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2asvn40989"
+PV = "2026.226.0.0.2asvn76924"
 
-RPM_NAME = "texlive-substances-2023.209.0.0.2asvn40989-58.1.noarch.rpm"
-RPM_HASH = "8553600da7b67c7f386ee162d7deeb01bff4c7e7969e74984b3d2b2b8d1d494056651c2906a065048bb61a343814ef86a10a4175b067b8e35795761192a35bef"
+RPM_NAME = "texlive-substances-2026.226.0.0.2asvn76924-64.2.noarch.rpm"
+RPM_HASH = "e0e394a81f399241324385a159e2105b0a3e6538b6c8abf693099e9208fc6e1e8491e51e44d909fa80c00a1309a8703ba84922f0dafa400444eae8bd363728ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-substances-default.def \

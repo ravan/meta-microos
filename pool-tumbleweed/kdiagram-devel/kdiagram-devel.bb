@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "kdiagram-devel-2.8.0-1.15.aarch64.rpm"
-RPM_HASH = "e09e5e512cc7633604a17ccf5683516e8ac0e5217d2a34df831dba795b21aef59ff4cce57f437c5bffe3ee3c84685630e85189edd12258a35eb91889f21fa96c"
+RPM_NAME = "kdiagram-devel-2.8.0-2.5.aarch64.rpm"
+RPM_HASH = "2f88189702ca5a5b9af4346726a678f40de6bf46b4a709098a670a37b5682a9bf709766f9622b6bb198519141a10876e8107c0d385310752caf71f44501686d9"
 
 RPROVIDES:${PN} += "cmake-KChart \
 cmake-KGantt \

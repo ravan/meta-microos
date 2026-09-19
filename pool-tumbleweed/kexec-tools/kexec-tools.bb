@@ -5,10 +5,10 @@ kernel may be asked to start the loaded kernel on reboot, or to start \
 the loaded kernel after it panics."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.27"
+PV = "2.0.32+git15.g677dd2f"
 
-RPM_NAME = "kexec-tools-2.0.27-1.1.aarch64.rpm"
-RPM_HASH = "5dfe9a0e1a1cfc37aeadf76cfe5990272d17b3f082c60c2841154f9ed03bff9dd2c026710f46b077298e2c7bb944405332bb4e8e3b3c1bb90f68cb3edc15c3ca"
+RPM_NAME = "kexec-tools-2.0.32+git15.g677dd2f-1.3.aarch64.rpm"
+RPM_HASH = "4b30ec4e00ce2b747cd5d1182c025a87ad5f7ab4f2db0258b7f0cf005604cfb4ef1553c7341fd7862b31343dff4a9ccc6d0f4cb1a0589f9ad04c05325d8dc37f"
 
 RPROVIDES:${PN} += "kexec-tools"
 

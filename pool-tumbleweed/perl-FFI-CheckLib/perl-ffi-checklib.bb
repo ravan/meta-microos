@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.31"
 
-RPM_NAME = "perl-FFI-CheckLib-0.31-1.4.noarch.rpm"
-RPM_HASH = "5e5414e6914bf21082d199fd0fac321582b9f1e41838e82b316c0a95bf4879f72120be47a35d5dbd67e3ca74194187205c6ae0981f4b6982fd55c9661cbc261f"
+RPM_NAME = "perl-FFI-CheckLib-0.31-1.18.noarch.rpm"
+RPM_HASH = "e3b00d61dd139d8d87402952008af57e287d9516be04b3b8e25efc7c01df243eef4595816f158ef5b22e4271072b53322a2048154cc4fe5b43e2c7b2639a96d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-FFI--CheckLib \
 perl-FFI-CheckLib"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-File--Which \
 perl-List--Util"
 

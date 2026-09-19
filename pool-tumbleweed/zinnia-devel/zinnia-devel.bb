@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.07"
 
-RPM_NAME = "zinnia-devel-0.07-2.8.aarch64.rpm"
-RPM_HASH = "db247a19d3bdbd2947a220459c76597718c71fd0610d730437a2d0d0106346e5e877f9a2563149f76dae4dba4d7848ed777f426e9892349516866f24847c6058"
+RPM_NAME = "zinnia-devel-0.07-2.19.aarch64.rpm"
+RPM_HASH = "0b1e889dd370a5613915fa58727279ed53a21e0510ea45bebcc33ccfcd30d40ba0acd4733e858ba1f9bd66d26e934ce3d2fd6980b96bbc70999f1ed0ffeb4316"
 
 RPROVIDES:${PN} += "pkgconfig-zinnia \
 zinnia-devel"

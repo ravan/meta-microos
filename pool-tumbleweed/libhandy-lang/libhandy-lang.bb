@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libhandy"
 DESCRIPTION = "Provides translations for the 'libhandy' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.8.2"
+PV = "1.8.3"
 
-RPM_NAME = "libhandy-lang-1.8.2-1.4.noarch.rpm"
-RPM_HASH = "51fab9fef629f146706b51190230c8c709017c2331aefa7d6a3b2a8a1952fd4ab567d0cd8fbfea9c5c10a4cceb6e963d1214f584de9ffcba67a70d2a0099c2f0"
+RPM_NAME = "libhandy-lang-1.8.3-2.3.noarch.rpm"
+RPM_HASH = "9dbd0e2a215fe19478071853343d95916d41c7c4ff57acf9f208dbc8afcce5d53cc3c29e5c7774796b29240a48d9c943054c975b31c42cc1abe5681289a038dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libhandy-lang \

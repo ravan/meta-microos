@@ -1,15 +1,15 @@
 SUMMARY = "Optional, additional dictionaries for SKK"
-DESCRIPTION = "optional, additional dictionaries for SKK"
-LICENSE = "GPL-2.0-or-later & SUSE-Permissive & SUSE-Public-Domain"
+DESCRIPTION = "optional, additional dictionaries for SKK."
+LICENSE = "Unicode-DFS-2016"
 
-PV = "20160304"
+PV = "20240829"
 
-RPM_NAME = "skkdic-extra-20160304-3.10.noarch.rpm"
-RPM_HASH = "8e5d21d82b0e3e927227e487a4bf1114dbbf696c1927657e87db6a9a3090537b0cd2bd95880ca59622ba3fd6a4cac45583b0c23bc2baa49f19aea0b532bd4f59"
+RPM_NAME = "skkdic-extra-20240829-2.4.noarch.rpm"
+RPM_HASH = "8944fe98e9616cc3820898bb24e977a5c8111e9901dbbe27ceedb81d57291410723363d7228caa07831a89ee69c0c9804d54627c3c7d51557474f87167560934"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skkdic-extra"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "info"
 
 inherit rpm

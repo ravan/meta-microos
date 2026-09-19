@@ -4,10 +4,10 @@ that allows access to USB based media players based on the MTP (Media \
 Transfer Protocol) authored by Microsoft."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.21"
+PV = "1.1.23"
 
-RPM_NAME = "libmtp-devel-1.1.21-1.1.aarch64.rpm"
-RPM_HASH = "1733a396a79499d1fbb2b5325f98965381b0299b357a257eaa36594d04788554ec9deda7d60e3404cff2e43f21c6911983aceea6df0966c35bfbc07ffccf31d8"
+RPM_NAME = "libmtp-devel-1.1.23-1.3.aarch64.rpm"
+RPM_HASH = "02b808ac7ced659284f5f63d8a79e65ae2e0cbccb1f95f7caf6f0537d6b5e724e5546251273ad5f1516a4a5458ec52ad05d9792404c21487f8102fb9e972a564"
 
 RPROVIDES:${PN} += "libmtp-devel \
 pkgconfig-libmtp"

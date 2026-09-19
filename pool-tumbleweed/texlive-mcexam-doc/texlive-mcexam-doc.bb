@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mcexam"
 DESCRIPTION = "This package includes the documentation for texlive-mcexam"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.5svn60481"
+PV = "2026.226.0.0.5svn60481"
 
-RPM_NAME = "texlive-mcexam-doc-2023.208.0.0.5svn60481-53.1.noarch.rpm"
-RPM_HASH = "44f73154c6eb5a71531b7da273ae405f093129468a2c91427a5d498ec00b65b91e985a549bb067a1f5671e0ae488dc349452279fb542b23c862f1aaa96e0a931"
+RPM_NAME = "texlive-mcexam-doc-2026.226.0.0.5svn60481-59.2.noarch.rpm"
+RPM_HASH = "dab793ab3bf8b7c173caf4fd3773efda334c7ae6d5f2910b9b3d9738171689e68270ae76c394ab733ec3705c5c8972bcabd678a96c5f7c468cc05029d8744c35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mcexam-doc"

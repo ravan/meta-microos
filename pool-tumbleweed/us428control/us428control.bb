@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.6"
 
-RPM_NAME = "us428control-0.4.6-24.4.aarch64.rpm"
-RPM_HASH = "32bb80640484b4f7bfb4baf55ebcb8857073aa32bc98066f090e04df408c7bba572b7559162cf3992cef2f3e293c7eee4e3c57fb0c45a96de3bc35501c36490f"
+RPM_NAME = "us428control-0.4.6-29.4.aarch64.rpm"
+RPM_HASH = "fbc05339254e7e8be5c5b2deffae8048c68f4d0d352b995b9d6eaafe2615e60064d6d8ee0c4c157157d4fc2882b8f05f329f5986ff1a8e013d2eb1f2ad9cc1b6"
 
 RPROVIDES:${PN} += "alsa-tools-/usr/bin/us428control \
 us428control"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.5"
 
-RPM_NAME = "yishu-lang-1.2.5-1.17.noarch.rpm"
-RPM_HASH = "f6cf0c95451505344aaa64f623b585a8c7925251abca14d912d51e269e73b95e72e9b797a3b666adeea21acbf9cd75397dbea21715bb99535fe59a5ca1f46481"
+RPM_NAME = "yishu-lang-1.2.5-2.9.noarch.rpm"
+RPM_HASH = "c95c75a5beea379961f85cfcd79083c2ed9d1f96b5d8eb9e782e97c36d248a021cfc5bbc23f9c352a50b981d7ca959f3e2b544c3e8cbd30ffce9015c4e86a1a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yishu-af \

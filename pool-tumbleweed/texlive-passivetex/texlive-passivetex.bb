@@ -3,10 +3,10 @@ DESCRIPTION = "Packages providing XML parsing, UTF-8 parsing, Unicode \
 entities, and common formatting object definitions for jadetex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn69742"
 
-RPM_NAME = "texlive-passivetex-2023.209.svn15878-52.1.noarch.rpm"
-RPM_HASH = "42aec2cdc65ad710d6a5a994b784ef49564a76106941c207e4b94c42508ecf52c76c60ae3beb60b9e2c486b274d0cdcec4e1e99fe7c7d766031d4ab59a0dfecb"
+RPM_NAME = "texlive-passivetex-2026.226.svn69742-58.2.noarch.rpm"
+RPM_HASH = "609fcfee7259b30b9bf11eff18f183adcfbeebea00648669da6a800985a2cb1b14c9dee91f20e50a7d22dde5a01745dcbe6b9020cefdf244b0eecbe0f014e5df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dummyels.sty \

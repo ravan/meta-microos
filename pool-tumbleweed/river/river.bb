@@ -2,10 +2,10 @@ SUMMARY = "A dynamic tiling Wayland compositor"
 DESCRIPTION = "River is a dynamic tiling Wayland compositor with flexible runtime configuration."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.4+g953"
+PV = "0.3.12"
 
-RPM_NAME = "river-0.2.4+g953-2.1.aarch64.rpm"
-RPM_HASH = "56c51974029ab3685feada06b338ba3215ac76241bd82fd236ed8e68901022e7b4138f2db057d1ef3ae6389c4a8580b48e33a0c49cba43c243bc1b037ad4e9de"
+RPM_NAME = "river-0.3.12-2.6.aarch64.rpm"
+RPM_HASH = "186af1f3a4d6eb5d561d30db4d7c9323e28542cb2dc22d20c529cbb3a1b0d820ace89bf0fc9c1ca20ad4761ac902e3ed8c802630e49920c3eaaad249ed546604"
 
 RPROVIDES:${PN} += "river"
 
@@ -16,7 +16,7 @@ libevdev.so.2 \
 libinput.so.10 \
 libpixman-1.so.0 \
 libwayland-server.so.0 \
-libwlroots.so.11 \
+libwlroots-0.19.so \
 libxkbcommon.so.0 \
 river-riverctl \
 river-rivertile"

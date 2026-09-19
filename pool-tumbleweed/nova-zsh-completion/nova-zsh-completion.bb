@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for nova"
 DESCRIPTION = "zsh command line completion support for nova."
 LICENSE = "Apache-2.0"
 
-PV = "3.7.0"
+PV = "3.12.0"
 
-RPM_NAME = "nova-zsh-completion-3.7.0-1.1.noarch.rpm"
-RPM_HASH = "64a7e1646f3d909b66dc5d55b5d35c6601bdcd506af95f48d46c69f8f662a0491609b7632f218e334caaa38008667e65cb38d56fd8fad0301f54925b8bbb4b8d"
+RPM_NAME = "nova-zsh-completion-3.12.0-1.4.noarch.rpm"
+RPM_HASH = "fb5eb20747954c7a154aedf64e1aed1222ff23243b6616418e6a2a22c2e0ba83722c86c226323c70aa852cdb3c8a3a77ac58c414b1975dc3aca1edf0854aad0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nova-zsh-completion"

@@ -5,10 +5,10 @@ It is intended for graphs that represent the memory of a \
 computer program during its execution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.1.1svn49631"
+PV = "2026.226.0.0.1.1svn49631"
 
-RPM_NAME = "texlive-memorygraphs-2023.208.0.0.1.1svn49631-53.1.noarch.rpm"
-RPM_HASH = "efd909097c1b12b36825d7eb876bb91ab92eb84b646770315d98c12d52b93c360f3e91581b70e15a07a030d6c4bff4d4af8cb171947d5294ba9680cadf67b159"
+RPM_NAME = "texlive-memorygraphs-2026.226.0.0.1.1svn49631-59.2.noarch.rpm"
+RPM_HASH = "cd9069d4cc2a90c948206a18da0a03673faffef87bafd9b1c389c9047b06b10eea05d947f26a4f774e6c154eb9c275d347ed5c3b88293e9a5efdc8a543fbd498"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-memorygraphs.sty \

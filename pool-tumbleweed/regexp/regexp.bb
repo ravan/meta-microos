@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5"
 
-RPM_NAME = "regexp-1.5-23.7.noarch.rpm"
-RPM_HASH = "a3749999731ab851449b4eac68350e7d64555a29aa498c64e5590c99d8105b933459899d7fd8e6094821a98bce50f7a90dcb9199bbaf616186fe46621660bbc9"
+RPM_NAME = "regexp-1.5-24.8.noarch.rpm"
+RPM_HASH = "35084ac8754aa8cd4846ad49a578ccb5ef3502765c455cc3969c80ff5be7820a9282fcc94b1f01779020b753f395b0b20782c1a8492e6106455501c6508fbc3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-jakarta-regexp-jakarta-regexp \

@@ -8,10 +8,10 @@ graphics model, and control structures such as loops and \
 conditionals are available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.01svn31585"
+PV = "2026.226.2.01svn31585"
 
-RPM_NAME = "texlive-sseq-2023.209.2.01svn31585-58.1.noarch.rpm"
-RPM_HASH = "cd2c176b1aec98828f50d65b22aad99d91f3a142a84f15dc26a82f656f8b08c66ddd9d8328ad398abcfb4702bbcebf3527adbce979eaa73040c70db7473ec368"
+RPM_NAME = "texlive-sseq-2026.226.2.01svn31585-64.2.noarch.rpm"
+RPM_HASH = "f8df2da6d80fd01b2bf9ff9ee39e01a52c0af3bb48c8be370635faec1840f5bbf22101846ecfb9f0c41b6808f57635b95b615ff0bb1cdcc45044e8064857d421"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sseq.sty \

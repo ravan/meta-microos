@@ -3,24 +3,24 @@ DESCRIPTION = "This package provides the Haskell http-client-restricted library 
 development files."
 LICENSE = "MIT"
 
-PV = "0.0.5"
+PV = "0.1.1"
 
-RPM_NAME = "ghc-http-client-restricted-devel-0.0.5-2.8.aarch64.rpm"
-RPM_HASH = "2a8bc396434200b686f77076c4ab74768d36a79886beb8bdd1f5b6180e108817d2b3f8ac7730eb74392b349768c875962a5e3f01ad259a3afd114eca8702cf40"
+RPM_NAME = "ghc-http-client-restricted-devel-0.1.1-1.4.aarch64.rpm"
+RPM_HASH = "9858dd32edb4c033c3353e8c2cf95e0bb12788c76844fc87597544fdcc333471b04333778be4d7bae3a6c2d71785f39052823f956e13ed21b95eed0e753a8c4f"
 
-RPROVIDES:${PN} += "ghc-devel-http-client-restricted-0.0.5-6W52ptKb3gq2u8nffCvr0t \
+RPROVIDES:${PN} += "ghc-devel-http-client-restricted-0.1.1-6CI3ni80WE31wg508CrdwB \
 ghc-http-client-restricted-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-connection-0.3.1-HritGhbYIMl4OD06E3KY8G \
-ghc-devel-data-default-0.7.1.1-4TeAZDN81Uu1IorgFaPMOc \
-ghc-devel-http-client-0.7.14-ElkaPC2YNimBwgzZzglgPe \
-ghc-devel-http-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1 \
-ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-devel-network-bsd-2.8.1.0-6HwBWPM2Dri1VSrR1y6aDh \
-ghc-devel-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-crypton-connection-0.4.6-EpYbEhgynWEHAydR26M0y \
+ghc-devel-data-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ \
+ghc-devel-http-client-0.7.19-4BIOUl8FXXcE32miDzHR9M \
+ghc-devel-http-client-tls-0.4.0-D4cx6zdDU3O6iLaLdAAVnV \
+ghc-devel-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-devel-network-bsd-2.8.1.0-Eim1HbjRi8aBvcsvglmxNx \
+ghc-devel-utf8-string-1.0.2-FCJm07Id8m53KWoTjjdHEG \
 ghc-http-client-restricted"
 
 inherit rpm

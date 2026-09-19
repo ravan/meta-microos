@@ -1,15 +1,15 @@
-SUMMARY = "Read information from an Excel file."
+SUMMARY = "Read information from an Excel file"
 DESCRIPTION = "The Spreadsheet::ParseExcel module can be used to read information from \
 Excel 95-2003 binary files. \
  \
 The module cannot read files in the Excel 2007 Open XML XLSX format. See \
-the the Spreadsheet::XLSX manpage module instead."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+the Spreadsheet::XLSX module instead."
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.65"
+PV = "0.660.0"
 
-RPM_NAME = "perl-Spreadsheet-ParseExcel-0.65-3.28.noarch.rpm"
-RPM_HASH = "c67cb4466f18c0558f9965839229b3bf902f24a35046cc290b0e3c9938d1036227022fb790ed196c397a6063e7f92e0a186a569eb4f01bdbd39901b2ff2ae5dd"
+RPM_NAME = "perl-Spreadsheet-ParseExcel-0.660.0-2.12.noarch.rpm"
+RPM_HASH = "0479856572655144ce4c64a423351e071014a374e9bd2284b10e29b55e5e1f96063d674905a57ad04341dbb64f88f06388d44513aaeda71738f05a3e2794c03c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Spreadsheet--ParseExcel \
@@ -29,7 +29,7 @@ perl-Spreadsheet--ParseExcel--Workbook \
 perl-Spreadsheet--ParseExcel--Worksheet \
 perl-Spreadsheet-ParseExcel"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Crypt--RC4 \
 perl-Digest--Perl--MD5 \
 perl-IO--Scalar \

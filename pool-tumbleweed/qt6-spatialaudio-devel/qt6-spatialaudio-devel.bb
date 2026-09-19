@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 SpatialAudio library - Development files"
 DESCRIPTION = "Development files for the Qt 6 SpatialAudio library."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-spatialaudio-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "71ee0ecf0c703edd71b08a012f720914578f5cd112e0073da9cfe4c4759d1653fb903695b3c9e2a7d372d3f747a192e27d85cd6077da1af98fd5eea9650413a7"
+RPM_NAME = "qt6-spatialaudio-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "fce125d86936260e29b59592a640403c555872ff122fdd502c42f513413cd1353aa2c1c9bbc35b75ac6334066f9e01c9d2841dc6d3dd561b12088a6d7979bbc5"
 
 RPROVIDES:${PN} += "cmake-Qt6SpatialAudio \
 pkgconfig-Qt6SpatialAudio \

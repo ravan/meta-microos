@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.9"
 
-RPM_NAME = "lua54-linenoise-0.9-2.5.aarch64.rpm"
-RPM_HASH = "72d8579bd910db9bb7ca8214333dd349f25ae6ff09995c246bcefec9d9eaa06c584d6b2eec78c6ce86d43b1b29f001559b37ff64710b9a5842c3cdce2e696063"
+RPM_NAME = "lua54-linenoise-0.9-5.4.aarch64.rpm"
+RPM_HASH = "3e06342444f01fdd827590805a6e643dc82a6ba35513133d9264ccb0157a7f4358a7905537638a52fc255284e5c4c7dd931852197beb857aaa480068cfe2cecb"
 
 RPROVIDES:${PN} += "lua-linenoise \
 lua54-linenoise"

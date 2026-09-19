@@ -4,10 +4,10 @@ application executing in OP-TEE.For a general overview of OP-TEE, the \
 Open Platform Trusted Execution Environment, see the Notice.md file."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.9.0"
+PV = "4.6.0"
 
-RPM_NAME = "libckteec0-3.9.0-1.12.aarch64.rpm"
-RPM_HASH = "621c631fe67d3386aabb7f372108449eb13bec7cf1463ae0b38f5e82bbb3ba6c2d93bdcd85467d4c5832809e7b5ee93d72d8c3ffaa4badfd317744de328885e3"
+RPM_NAME = "libckteec0-4.6.0-1.6.aarch64.rpm"
+RPM_HASH = "4e8aff4ab3232abf06d4d690c5b6c8c31b8ce3e6c4727909399aa886a7030b8279e4292d4accab3f59832308a259086c2809c756c9970194ca2f1e974cba615c"
 
 RPROVIDES:${PN} += "libckteec.so.0 \
 libckteec0"
@@ -15,6 +15,6 @@ libckteec0"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libteec.so.1"
+libteec.so.2"
 
 inherit rpm

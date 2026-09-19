@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tracklang"
 DESCRIPTION = "This package includes the documentation for texlive-tracklang"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6.1svn65263"
+PV = "2026.226.1.6.6svn77682"
 
-RPM_NAME = "texlive-tracklang-doc-2023.209.1.6.1svn65263-53.1.noarch.rpm"
-RPM_HASH = "15f004d11d03f4d18433418ae3a5af7bd72d42c24081acbb4cad5644b8d05158923522cf36ede1b798c1e5728bdb489a349e6eda5178d448988ec88d0000572d"
+RPM_NAME = "texlive-tracklang-doc-2026.226.1.6.6svn77682-59.2.noarch.rpm"
+RPM_HASH = "ee67aac38ff21eb6c7f308cb71bc4b34531374a87d6f344c7833ddf4317fc1b828ca122d81c952a55fe1ab02776cb07acca91e64e84c493947a6e607d9e6cd1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tracklang-doc"

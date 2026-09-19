@@ -7,15 +7,15 @@ obstruction isolator algorithms, and tester/isolator algorithms for \
 subgraphs homeomorphic to K_{2,3}, K_4, and K_{3,3}."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.0.2.0"
+PV = "5.1.0.0"
 
-RPM_NAME = "edge-addition-planarity-suite-3.0.2.0-1.2.aarch64.rpm"
-RPM_HASH = "097964ee9182718002a3ca6ba7c1a6f5addd6df971b867c8df946006b60dffb35e4cff8c66dbc2da6fbfa0342d2465e6ef0470f3735527e7368dcb6a1f834302"
+RPM_NAME = "edge-addition-planarity-suite-5.1.0.0-1.1.aarch64.rpm"
+RPM_HASH = "8ddf657b3e1be20d1eb392fe8aacfe7248674e73a387bce859a7fe5eeee1254b27dd7bd68e2942691180fe34839547f4f8ef9a17b6bb455db4bb50dedfaa906b"
 
 RPROVIDES:${PN} += "edge-addition-planarity-suite"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libplanarity.so.0"
+libplanarity.so.4"
 
 inherit rpm

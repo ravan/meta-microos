@@ -1,11 +1,11 @@
 SUMMARY = "Efficient and performance-portable SIMD"
 DESCRIPTION = "Highway is a C++ library that provides portable SIMD/vector intrinsics."
-LICENSE = "Apache-2.0"
+LICENSE = "Apache-2.0 | BSD-3-Clause"
 
-PV = "1.0.5"
+PV = "1.4.0"
 
-RPM_NAME = "libhwy1-1.0.5-1.1.aarch64.rpm"
-RPM_HASH = "99d50d1aa659836d851ac2fbb60171227e00989a92900329900a8e44b27cd3471294652b69835fd21bf9f5ee48e0d39b3d80b048bbc93c8e4de4698751cf674f"
+RPM_NAME = "libhwy1-1.4.0-1.3.aarch64.rpm"
+RPM_HASH = "077ca940549d7cc8ea0db1ad3e793a024bad40048dc0582efe6b79dd175b65c9c6f71c48f4ac932c277e7a398f26b8af8d8ea14ac5eb3bca607d6f5e6b38d05a"
 
 RPROVIDES:${PN} += "libhwy-contrib.so.1 \
 libhwy-test.so.1 \

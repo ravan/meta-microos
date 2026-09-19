@@ -2,19 +2,21 @@ SUMMARY = "Mesa vulkan driver for LVP"
 DESCRIPTION = "This package contains the Vulkan parts for Mesa."
 LICENSE = "MIT"
 
-PV = "23.1.7"
+PV = "26.2.2"
 
-RPM_NAME = "libvulkan_lvp-23.1.7-357.1.aarch64.rpm"
-RPM_HASH = "c784cc405e5ab25a9aca0a3ab2a11b4cb3d21633fa196b0cc4755569bef6f45b86674ff41b8a963a0a01a9f10e4c8e3c0a028c76b04744f73a7bc172f70600c1"
+RPM_NAME = "libvulkan_lvp-26.2.2-2.1.aarch64.rpm"
+RPM_HASH = "360e356298a0c4a6fc0de06d1da70193a920c8bca529e03970498067074b1fa05f14b494e1fa039918860c0657f039c1abec0cb99c6fe9f1ad511cae924838f2"
 
 RPROVIDES:${PN} += "libvulkan-lvp \
 libvulkan-lvp.so"
 
 RDEPENDS:${PN} += "Mesa-vulkan-device-select \
 ld-linux-aarch64.so.1 \
-libLLVM.so.16 \
+libLLVM.so.23.1 \
+libSPIRV-Tools-2026.3~rc1.so \
 libX11-xcb.so.1 \
 libc.so.6 \
+libdisplay-info.so.3 \
 libdrm.so.2 \
 libexpat.so.1 \
 libgcc-s.so.1 \

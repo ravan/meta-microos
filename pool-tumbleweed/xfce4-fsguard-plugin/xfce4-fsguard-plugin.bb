@@ -3,10 +3,10 @@ DESCRIPTION = "The FSGuard plugin constantly monitors free space of a given moun
 displays it as an icon in the panel."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.1.3"
+PV = "1.2.0"
 
-RPM_NAME = "xfce4-fsguard-plugin-1.1.3-1.1.aarch64.rpm"
-RPM_HASH = "dea97075f49333b264ea7c6999eb050e496c13d3f9b2c28abde1d44e13f8e9d49350b71358d385b4e694274e675dbf0f22ee34d02594e9c3afb86d6b06fa77c0"
+RPM_NAME = "xfce4-fsguard-plugin-1.2.0-1.4.aarch64.rpm"
+RPM_HASH = "a2a719dc493f03ec737e92a70350019125f1af15feb16b688f658e8e8d1a7caee9d861dca6a5c5a7a7f74a9558a7c0e390abe6338ecfbde310e44e004a9af89e"
 
 RPROVIDES:${PN} += "libfsguard.so \
 xfce4-fsguard-plugin \

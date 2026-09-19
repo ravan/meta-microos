@@ -6,15 +6,15 @@ README.) The TeX/LaTeX support is licensed under LPPL. (See \
 README, manifest.txt.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1bsvn54512"
+PV = "2026.226.1.4svn78142"
 
-RPM_NAME = "texlive-adforn-2023.209.1.1bsvn54512-55.1.noarch.rpm"
-RPM_HASH = "178af1bcecf32c6f8f66b5ba36ec29cc546a1d41a861e3400e18f0fe3e57cd9e752cdd2506d611877e545b60fcac27d79f32edd5129acab55532e208d1e882ce"
+RPM_NAME = "texlive-adforn-2026.226.1.4svn78142-61.2.noarch.rpm"
+RPM_HASH = "3e8e9f2182dedb5ab932aab6df5747f496d495e32ab51375435656677bc1f18d90880a15b23adff63a77e161a731b328b61a1190c9a6c88c2f9a8998d65bd088"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-OrnementsADF.enc \
-tex-OrnementsADF.map \
 tex-OrnementsADF.tfm \
+tex-adforn.map \
 tex-adforn.sty \
 tex-uornementsadf.fd \
 texlive-adforn"
@@ -25,7 +25,10 @@ ed \
 findutils \
 grep \
 sed \
-tex-pifont.sty \
+tex-expl3.sty \
+tex-fixtounicode.sty \
+tex-l3keys2e.sty \
+tex-svn-prov.sty \
 tex-updmap.cfg \
 texlive \
 texlive-adforn-fonts \

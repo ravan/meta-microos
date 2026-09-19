@@ -6,10 +6,10 @@ multiple flagpoles, different comment styles, customizable \
 symbols and label namespaces."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.10svn15878"
+PV = "2026.226.0.0.10svn15878"
 
-RPM_NAME = "texlive-flagderiv-2023.209.0.0.10svn15878-53.1.noarch.rpm"
-RPM_HASH = "da0d18e18dc2670381926f8821ca6c16e39f63746d5328c6ee4551acfd311976bab2eae9f9de54562a567efbab95e50d13b53e27315095bed8847aa62bdb9043"
+RPM_NAME = "texlive-flagderiv-2026.226.0.0.10svn15878-59.2.noarch.rpm"
+RPM_HASH = "547937ffca9cdf8f7ddc9956d8bc4f8e09119ecc13179f725f8065338b7518dfd53f629cdbe45d5aacaf4e075c5d64cbe1232467f0805db67d01274d39863b8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-flagderiv.sty \

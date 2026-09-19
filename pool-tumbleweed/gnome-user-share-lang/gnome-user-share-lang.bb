@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-user-share"
 DESCRIPTION = "Provides translations for the 'gnome-user-share' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "43.0"
+PV = "48.3"
 
-RPM_NAME = "gnome-user-share-lang-43.0-1.4.noarch.rpm"
-RPM_HASH = "a099b90c738a245d2c6d10fc002960a4361bccfb764212279792708734be830d09211884b237f20514b48793f9ce891ed407884d3ac23164a596b4d4c233ae7d"
+RPM_NAME = "gnome-user-share-lang-48.3-1.4.noarch.rpm"
+RPM_HASH = "7fd57eb27d7d1e7922dd548b133ccbd7eea371556f33596d60b3b3104ff3c19cc43a73f9c7ade7c9910af824257b9005341d457519ea1f7e5f2605fc1442d1cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-user-share-lang \

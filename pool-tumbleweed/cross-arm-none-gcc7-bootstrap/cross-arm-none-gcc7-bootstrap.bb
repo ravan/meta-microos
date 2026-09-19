@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-arm-none-gcc7-bootstrap-7.5.0+r278197-14.2.aarch64.rpm"
-RPM_HASH = "21c18cf186238f14a25cbb01545f708dc0f4d8a9283a23462090e107ac9fb8ab10794b948b3efdd6163b494665ee1eb44a892292acac94bb9f8d0942a908cdbc"
+RPM_NAME = "cross-arm-none-gcc7-bootstrap-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "f25e74f271c92470a7060c0f0782d184584f2272b25129404f72e822d583e47bce06aef411cb1d2d819b2793f4531c27205e0bebce47f83a3bcebfb9134a2c37"
 
 RPROVIDES:${PN} += "arm-none-eabi-gcc \
 cross-arm-none-gcc7-bootstrap \

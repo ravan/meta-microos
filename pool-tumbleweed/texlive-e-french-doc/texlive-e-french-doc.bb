@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-e-french"
 DESCRIPTION = "This package includes the documentation for texlive-e-french"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.11svn52027"
+PV = "2026.226.6.11svn52027"
 
-RPM_NAME = "texlive-e-french-doc-2023.209.6.11svn52027-54.2.noarch.rpm"
-RPM_HASH = "06315216c4c1652d0b1b46c0ad5504f683ccb064e4ca13fb95eb3cd360860c2e62511c6e8e39eeb1c6202aec80a2abfe89cff8b14f8c08e2b5c6e0af51081b88"
+RPM_NAME = "texlive-e-french-doc-2026.226.6.11svn52027-61.4.noarch.rpm"
+RPM_HASH = "c48baa953c945955c3768753ddb798edc2e09017e0f8aaad25e8ff1eb41906609a83201181e29d44070b87ea73673b262a13c765214deb3719fed680a1cee6c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-e-french-doc-en;fr \

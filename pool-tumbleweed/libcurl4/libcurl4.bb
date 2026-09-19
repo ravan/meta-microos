@@ -3,10 +3,10 @@ DESCRIPTION = "The cURL shared library for accessing data using different \
 network protocols."
 LICENSE = "curl"
 
-PV = "8.2.1"
+PV = "8.22.0"
 
-RPM_NAME = "libcurl4-8.2.1-1.1.aarch64.rpm"
-RPM_HASH = "35e83cff6943787858768dbedc4cf488e231be7293285141f0bec907d4c1acf287f083bce2df3d1d9c8548c1ae9870d1c0a8f126f96dd8b0c7a744096a49b45c"
+RPM_NAME = "libcurl4-8.22.0-1.1.aarch64.rpm"
+RPM_HASH = "38bb1cdf55ab6629e12fb3ca298bdbf875efafcc70bcdbb3225bdc9db4b0708f78f4fbdba87dff98a19cb29e266819196e7305811b073661aab0016e345a8d9c"
 
 RPROVIDES:${PN} += "libcurl.so.4 \
 libcurl4"
@@ -21,6 +21,9 @@ libidn2.so.0 \
 liblber.so.2 \
 libldap.so.2 \
 libnghttp2.so.14 \
+libnghttp3.so.9 \
+libngtcp2-crypto-ossl.so.0 \
+libngtcp2.so.16 \
 libpsl.so.5 \
 libssh.so.4 \
 libssl.so.3 \

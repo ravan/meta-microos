@@ -6,10 +6,10 @@ several XEPs that make it ideal for writing any kind of Jabber/XMPP client \
 or component."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.0.24"
+PV = "1.0.28"
 
-RPM_NAME = "libgloox18-1.0.24-2.6.aarch64.rpm"
-RPM_HASH = "829f03d8df81b951c017335fc14f9ab963319a9c1f2dbb19953e7d8700adda473171219da4cdfcdce94201a38a7138af8066c6e78191380c5ca35cd36969b7cc"
+RPM_NAME = "libgloox18-1.0.28-1.10.aarch64.rpm"
+RPM_HASH = "4dfbf4df3330d96a594bc9dc9e1106c9314fe5c5fa40747312ea58e128280403c4c123704cb648cdaedc6e5357a19c965b9f075d61c3225c282e7eb8012fc6ce"
 
 RPROVIDES:${PN} += "libgloox.so.18 \
 libgloox18"

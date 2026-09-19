@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4"
 
-RPM_NAME = "monitoring-plugins-qlogic_sanbox-1.4-1.5.noarch.rpm"
-RPM_HASH = "a4ed72703089395afe69252ac2ab74cb72640f93f39c1abbf9a1b0edf33e491851009940d6999fe71f158d9ee05cc0bdb14608cad583e03d0426460af10ede93"
+RPM_NAME = "monitoring-plugins-qlogic_sanbox-1.4-1.13.noarch.rpm"
+RPM_HASH = "1e0abd1cdb38c18ab5078f1e3ea2456ee31f3181bab9a5ada63d2eb88b5ef6163db4566fb156c6ed371c094fc5dfeabdd71d04f833c2a1b98b479cd697a2eb42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-qlogic-sanbox \

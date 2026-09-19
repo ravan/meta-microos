@@ -2,13 +2,18 @@ SUMMARY = "Qt 6 QuickControls2 library"
 DESCRIPTION = "The Qt 6 QuickControls2 library."
 LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6QuickControls2-6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "da93d5cc4b381c9e857398d25153a9888a75aaf4e494d1361638ed4e0fc226a3bbada8e8323396bb19e7f8af2bd6a49bfae2b537ea0bc9286efb949369c230ed"
+RPM_NAME = "libQt6QuickControls2-6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "60b0cc27e2945bd709ab7a6cfad4e9f70389c73cae1e594a50753dcd4a683545b85d4722cbfab55fb7c99d457721db765a1ea09deb6afdf71e4755a5b75101be"
 
 RPROVIDES:${PN} += "libQt6QuickControls2-6 \
-libQt6QuickControls2.so.6"
+libQt6QuickControls2.so.6 \
+libQt6QuickControls2Basic.so.6 \
+libQt6QuickControls2Fusion.so.6 \
+libQt6QuickControls2Imagine.so.6 \
+libQt6QuickControls2Material.so.6 \
+libQt6QuickControls2Universal.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \

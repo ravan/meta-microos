@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lithuanian"
 DESCRIPTION = "This package includes the documentation for texlive-lithuanian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66461"
+PV = "2026.226.svn66461"
 
-RPM_NAME = "texlive-lithuanian-doc-2023.209.svn66461-55.1.noarch.rpm"
-RPM_HASH = "240f6a7033af67edb48558742b0f5da9c08a9b05b077cdb9eb6ca0a2b7163864473b1cfd6f8c15951f44953ac3dcfe1f48dbe2ce90d3c9f4614fc4a61a622a33"
+RPM_NAME = "texlive-lithuanian-doc-2026.226.svn66461-61.2.noarch.rpm"
+RPM_HASH = "9d5f9ae3504b9a1f4da60c7ff2480b4edbdcde5c966e2128e61580501f8a12411fccd97e93be867427fbfe1f84a479b588410a4943d267f1cad1d2fbba0fe0b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lithuanian-doc"

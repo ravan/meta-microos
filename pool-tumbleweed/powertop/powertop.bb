@@ -4,10 +4,10 @@ from your system and presents an overview of how well your laptop is \
 doing in terms of power savings."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.15"
+PV = "2.16"
 
-RPM_NAME = "powertop-2.15-1.4.aarch64.rpm"
-RPM_HASH = "f63f0c46111cb9ccfb05b2f5496e8b1cbf6f860c4d0e13be93c075974ae459644c00081e78ecc1f313812ef7e72ba3b9a88634e6c8de4c805d205312be093faa"
+RPM_NAME = "powertop-2.16-2.1.aarch64.rpm"
+RPM_HASH = "c863a4feb70722c3569df8566ec2d5dd332a3a262113d2d5af49b557d0a404d4082c745ce46f73c595116edb3e9b8a90d959b00ef9e3f923ac213d13a5904335"
 
 RPROVIDES:${PN} += "powertop"
 
@@ -22,6 +22,8 @@ libnl-genl-3.so.200 \
 libpci.so.3 \
 libstdc++.so.6 \
 libtinfo.so.6 \
+libtraceevent.so.1 \
+libtracefs.so.1 \
 systemd"
 
 inherit rpm

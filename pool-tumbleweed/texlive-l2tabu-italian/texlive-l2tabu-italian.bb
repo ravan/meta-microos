@@ -3,10 +3,10 @@ DESCRIPTION = "Italian translation of the l2tabu practical guide to LaTeX2e (a \
 list of obsolete packages and commands)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn25218"
+PV = "2026.226.2.3svn25218"
 
-RPM_NAME = "texlive-l2tabu-italian-2023.209.2.3svn25218-56.1.noarch.rpm"
-RPM_HASH = "657fbc367ceaf4d6b18f4687e87e572bcc2d1b8bb8f7d338db677b79edc266286911d2f7d3526421704eba8b00009e285fb613c43aeddb455d110d16df28bddd"
+RPM_NAME = "texlive-l2tabu-italian-2026.226.2.3svn25218-63.2.noarch.rpm"
+RPM_HASH = "d0ea3f96fd507b41cb6ec8393de1f3bca58c1c3104f7d1eb043caa7d5aebf449e0a66ba3e581b081d0c1bb945a7b054d2eeeac41774b01f268021d1aeab95f4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-l2tabu-italian"

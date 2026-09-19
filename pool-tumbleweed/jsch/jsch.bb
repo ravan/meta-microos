@@ -4,10 +4,10 @@ X11 forwarding, file transfer, etc., and you can integrate its \
 functionality into your own Java programs."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.9"
+PV = "0.2.22"
 
-RPM_NAME = "jsch-0.2.9-1.2.noarch.rpm"
-RPM_HASH = "e0856f410ea1fe7314a284b282a49ec9033495aa832e2159db5de66785b8301dc18ff13d571ce3dbf46967971f2deaf4a4a7c8b3373a5f3da50fa99408616d1d"
+RPM_NAME = "jsch-0.2.22-1.7.noarch.rpm"
+RPM_HASH = "54ef08162f4adf4078f6470e56652ff3bdead64008b04c957245b4bf1eb9f8fe780369a12a2e42236e1d230ce6c1347afe1f95afd840eb5e7d45a57fec29c0f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch \
@@ -17,8 +17,7 @@ mvn-com.jcraft-jsch \
 mvn-com.jcraft-jsch-pom- \
 osgi-com.jcraft.jsch"
 
-RDEPENDS:${PN} += "java \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 
 inherit rpm

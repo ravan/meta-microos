@@ -6,10 +6,10 @@ C++ module support. \
 This package contains the development headers for developing modules for ZNC."
 LICENSE = "Apache-2.0"
 
-PV = "1.8.2"
+PV = "1.10.3"
 
-RPM_NAME = "znc-devel-1.8.2-3.8.aarch64.rpm"
-RPM_HASH = "003477736c75537434a2aab56dae46465ece8209820550240c73587e0892f017fe667f24492019e6f9a8841c6efcb2c1f988d1ebbc964fa297a7a78b2d32f340"
+RPM_NAME = "znc-devel-1.10.3-1.1.aarch64.rpm"
+RPM_HASH = "8e7b585d5309b46213cfd6bb180845a6c5a5389781d7ccd3088c46ab18bdf2752559a0933f0652e61ff1f8fead3d45216aa645020323ccfa447767cfe3c109b9"
 
 RPROVIDES:${PN} += "pkgconfig-znc \
 znc-devel"

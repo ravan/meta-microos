@@ -3,10 +3,10 @@ DESCRIPTION = "The package permits simpler control of delimiters without \
 excessive use of \\big... commands (and the like)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn23974"
+PV = "2026.226.1.0svn23974"
 
-RPM_NAME = "texlive-delim-2023.209.1.0svn23974-53.1.noarch.rpm"
-RPM_HASH = "c8393844963c3c4419b8f83a44c5815a9c2a153874170b128fd482e305736eebd7209fb34672b2d3b139090ce85591e36cac1ad34a6aa8d8d640a2f0c93d856e"
+RPM_NAME = "texlive-delim-2026.226.1.0svn23974-59.2.noarch.rpm"
+RPM_HASH = "4b3aff37d5adfc20162e7c1095a6604ea94d86ba584aaaf323f390ab0c399f3c72be8a486d6e335c305296a253eadcf14a370d3a9d0290c03f4bb62382b9ebe8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-delim.sty \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "libopeniscsiusr0-0.2.0-101.1.aarch64.rpm"
-RPM_HASH = "46c005217d6a6f6597b6d88fe13682706c6f33a6eb10b2074fe5485d95a394608fa96e83ada606603152f2d8f0fddc7163e596c3449e45d04eefd2fbfdcd4c91"
+RPM_NAME = "libopeniscsiusr0-0.2.0-113.1.aarch64.rpm"
+RPM_HASH = "8615bdcf5733fd3d6693c6a9e99d90d499c281ff28349144c8a96b45651301ebe4614007c23e9a1ab71313ec90a6aa66cd253f517cfc083d35c1330c9c642ad3"
 
 RPROVIDES:${PN} += "libopeniscsiusr.so.0 \
 libopeniscsiusr0"

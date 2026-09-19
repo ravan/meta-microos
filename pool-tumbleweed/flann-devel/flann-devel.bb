@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.2"
 
-RPM_NAME = "flann-devel-1.9.2-3.4.aarch64.rpm"
-RPM_HASH = "3dd9f8b20a2953aa80bca5e51916062250cfd4177d89f920bf325a97b413704880cbbe4a0ab5cd9a8550953ba3367132e7b3a752cfa3e2d2462e7b134938cee2"
+RPM_NAME = "flann-devel-1.9.2-3.14.aarch64.rpm"
+RPM_HASH = "435fb06d96ae6b345231045a851916e89773d40fcb8889930e26d2c6144c063ddb6fe4cc9af5b4331c2af55295789b5cac43e89ee30fd718ba985e3fbb241b56"
 
 RPROVIDES:${PN} += "cmake-flann \
 flann-devel \

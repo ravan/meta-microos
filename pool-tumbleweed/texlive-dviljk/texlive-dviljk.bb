@@ -6,10 +6,10 @@ simply with the sources in this distribution; it needs a full \
 available from the TeX Live source tree."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn66186"
 
-RPM_NAME = "texlive-dviljk-2023.209.svn66186-54.2.noarch.rpm"
-RPM_HASH = "c0bd50021b361000b241262e46ce40917a4c56f405dadeec99deb4fd1db65f8f24bd57bbe1f7c55c8fa4dbaa0fac808b4afa6129fe79ed82d359cdbe3ac67b56"
+RPM_NAME = "texlive-dviljk-2026.226.svn66186-61.4.noarch.rpm"
+RPM_HASH = "ac9c0fb8835b950accb9578cc69a59de551a60077b8a8da34924acd092944ed83e8871cb4f581e7753a1972565b601caed913426a5b79edfdea1979c35d6df02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvihp.1 \

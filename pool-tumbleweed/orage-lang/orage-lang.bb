@@ -2,10 +2,10 @@ SUMMARY = "Translations for package orage"
 DESCRIPTION = "Provides translations for the 'orage' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.3"
 
-RPM_NAME = "orage-lang-4.18.0-1.4.noarch.rpm"
-RPM_HASH = "ac37bb619545227d9b4c5da4768248b5b27a5ba0db66ce88c5474452ce102bc041aacad60260e6a7c6dbae3afef17ff4c6f158cfa250fd0a28abc8818f0518a5"
+RPM_NAME = "orage-lang-4.20.3-1.3.noarch.rpm"
+RPM_HASH = "b8ac2c7d102a1c5ad20b6abafcb6982a19d77c389e256e64cdb7894978f989670f4e239527084c18e72b3667b2372022c0d8c056e136a360ca66240503f8e5c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-orage-ar \
@@ -50,6 +50,7 @@ locale-orage-ro \
 locale-orage-ru \
 locale-orage-si \
 locale-orage-sk \
+locale-orage-sl \
 locale-orage-sq \
 locale-orage-sr \
 locale-orage-sv \

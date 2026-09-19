@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.24.33"
 
-RPM_NAME = "gtk2-immodule-inuktitut-2.24.33-4.4.aarch64.rpm"
-RPM_HASH = "3792f9533f3daf5d671e79977045664e38c2971fcb4174dc47d550ef434288a4ee94904c1d1d670b7395e05ee77c0bed5a09d53c6f34eff307d4112b12825991"
+RPM_NAME = "gtk2-immodule-inuktitut-2.24.33-18.7.aarch64.rpm"
+RPM_HASH = "c64d5ecadcc4d5cfdb2b2c950a5f66142e38df679373296b8f8c2afd92683e2e4bc43b02f823e1dbf3157d873e534c239e78f8f62044a1a7ff948c9cf7a855c0"
 
 RPROVIDES:${PN} += "gtk2-immodule-inuktitut \
 locale-gtk2-iu"

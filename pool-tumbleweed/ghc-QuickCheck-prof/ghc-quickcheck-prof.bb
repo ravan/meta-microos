@@ -2,21 +2,21 @@ SUMMARY = "Haskell QuickCheck profiling library"
 DESCRIPTION = "This package provides the Haskell QuickCheck profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.14.3"
+PV = "2.15.0.1"
 
-RPM_NAME = "ghc-QuickCheck-prof-2.14.3-1.5.aarch64.rpm"
-RPM_HASH = "a1234619a9772edc50423fae792939008d7804f63a87179d2b86fa4d823aa7ad45effa969f40bfe142002d281ef78dc559b9ede7e9a9e2354b4a71d4ebeb2d65"
+RPM_NAME = "ghc-QuickCheck-prof-2.15.0.1-2.15.aarch64.rpm"
+RPM_HASH = "9a3f6f0d4c839636b30d4ec29c203fc99254439ef8ea464d6d6e92808a3c4035c6cffd6028dad9913e6bb19b24f46eb1cd761efac1b6146609bb3e5c7f034f48"
 
 RPROVIDES:${PN} += "ghc-QuickCheck-prof \
-ghc-prof-QuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8"
+ghc-prof-QuickCheck-2.15.0.1-BiJUyvfspYF6JuhHRqpj7J"
 
 RDEPENDS:${PN} += "ghc-QuickCheck-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
-ghc-prof-splitmix-0.1.0.4-2jzLu9hw0mWH5mdbN14y0O \
-ghc-prof-template-haskell-2.19.0.0 \
-ghc-prof-transformers-0.5.6.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-random-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh \
+ghc-prof-splitmix-0.1.3.2-4FIxgclJzmILwETMtGxhg4 \
+ghc-prof-template-haskell-2.23.0.0-358a \
+ghc-prof-transformers-0.6.3.0-4709"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "The macros provide for nothing more complicated than the \
 standard 19x19 board; the fonts are written in Metafont."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn28628"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-go-2023.209.svn28628-54.2.noarch.rpm"
-RPM_HASH = "f4f88e344a60bdf7a0c9a22dd22380d7d8a35a54a094dfeff99b399475901942fdde3a6a17f05825adca765fc8ad5ff19a2998ec96aa20f3a2e7cb9f5a735a85"
+RPM_NAME = "texlive-go-2026.226.svn78101-60.4.noarch.rpm"
+RPM_HASH = "ea12e269fad9b04a840dae2cf2c1195e6f248452b5e1ca0a4d33c4342ad790ad6818ae5a1cb24a4f1fa476864f396526da6e6e4bdc96a4f52f3151c43175fe28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-go.sty \

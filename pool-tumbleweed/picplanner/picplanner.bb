@@ -5,10 +5,10 @@ Moon and Milky Way in order to plan the position and time for an \
 photograph."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.4.0"
+PV = "0.5.4+git4.2ea8588"
 
-RPM_NAME = "picplanner-0.4.0-1.1.aarch64.rpm"
-RPM_HASH = "6045b6cf743b353dc19e905b72416bde0506bf6318324320b2c76b873d82173cde4125afdb42bc20b9b92e77c48ca2a002fa231b7d6d800cb376f7dec35f6b56"
+RPM_NAME = "picplanner-0.5.4+git4.2ea8588-1.4.aarch64.rpm"
+RPM_HASH = "c7ebb1024581b7f21cad7dca06d847ce028ed1a8895052861935ad2c44ba59ec403d636c07ba5067864d73a37f173dbf6e38d7958ec9d7ff2c690ac4e719ee51"
 
 RPROVIDES:${PN} += "picplanner"
 

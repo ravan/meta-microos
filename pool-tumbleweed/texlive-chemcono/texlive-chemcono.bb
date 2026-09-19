@@ -6,10 +6,10 @@ in documents to be numbered and does not affect the normal \
 citation routines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn17119"
+PV = "2026.226.1.3svn17119"
 
-RPM_NAME = "texlive-chemcono-2023.209.1.3svn17119-54.1.noarch.rpm"
-RPM_HASH = "3788f07971b5b956381279c03d5ea4643a04175463ef4de41c44442fa7fb59671d49356d74894734caffee9bd5a86d8774fcdd7949f444aa799e0e5a498cd1e2"
+RPM_NAME = "texlive-chemcono-2026.226.1.3svn17119-60.2.noarch.rpm"
+RPM_HASH = "8f6d49612bd992cbd48ee14d24afdd1a16fb4e9948c10688177dd529a5f9dcb140b451fc12f81f0a35ac935c0876d66ca003db842501ce875a894115b2b6fb77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemcono.sty \

@@ -6,10 +6,10 @@ relies on a specific \\icite command and can operate with either \
 BibTeX or BibLaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3asvn54512"
+PV = "2026.226.1.3asvn67201"
 
-RPM_NAME = "texlive-icite-2023.209.1.3asvn54512-54.1.noarch.rpm"
-RPM_HASH = "7990fce5babf11f8c9e2b5e3957843eab8180fef014bb03338eb0e6a770590dd5ddb9513b1c6e6ee4d9b759c32b5a4f4b1a55a73687e4898996ab4f740f9d54c"
+RPM_NAME = "texlive-icite-2026.226.1.3asvn67201-60.2.noarch.rpm"
+RPM_HASH = "adcdb50bf156de858cdf091390736363934c4709476f76aadd0cfc30ad2f297629133436ba32c7da78830df4e03d23cb197c58cc2d2eb90e389ae560d30a9cd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-icite.sty \

@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1"
 
-RPM_NAME = "ghc-skylighting-format-latex-prof-0.1-2.11.aarch64.rpm"
-RPM_HASH = "0634195bd529fb40b91dd47647817ee448c487503d40b1d142b00e84bc0b749e26e7faef81b1dcfeb60ac70a896b320a78cfa211363a57a8d631c0561942a948"
+RPM_NAME = "ghc-skylighting-format-latex-prof-0.1-2.79.aarch64.rpm"
+RPM_HASH = "1db3a9db8451f33c7c916210d6176b1641af7711b56a48e13806046a678ac14b5042c40c4ab08839046c8c89a72050d5af5d18647dae4ea5dadb248885254b7c"
 
-RPROVIDES:${PN} += "ghc-prof-skylighting-format-latex-0.1-8a642fGNkPX9imnZQBlyrP \
+RPROVIDES:${PN} += "ghc-prof-skylighting-format-latex-0.1-1TNSCzX0YGK3X45liMm1xQ \
 ghc-skylighting-format-latex-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-skylighting-core-0.13.4.1-LOkep7AnSNN7QJDAXr031n \
-ghc-prof-text-2.0.2 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-skylighting-core-0.14.7-HkvmMdabOkA2nMBfVgE9uo \
+ghc-prof-text-2.1.4-cf23 \
 ghc-skylighting-format-latex-devel"
 
 inherit rpm

@@ -32,12 +32,12 @@ with this: \
     my $stuff < io './mystuff'; \
  \
 And that is a *good thing*!"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.87"
+PV = "0.870.0"
 
-RPM_NAME = "perl-IO-All-0.87-1.23.noarch.rpm"
-RPM_HASH = "5325c59f6cc0c34c9ffb9a9c5c669735b7b54f64a8f4629924f8e7fcab2adc41ba4b86b7d4b67d5a67ac15502d24159e71663b7562fd7f751438b5a5a72a9517"
+RPM_NAME = "perl-IO-All-0.870.0-1.7.noarch.rpm"
+RPM_HASH = "40d032f39718c0a5c32a0366a6a741b313a10230ee94f39ac8af5de869ccc9da181c402e977f82619db2db3c25d52444473d53396f2b5ac697765684866148b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--All \
@@ -55,6 +55,6 @@ perl-IO--All--String \
 perl-IO--All--Temp \
 perl-IO-All"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -6,10 +6,10 @@ The other command modifies \\plot to use a rule instead of dots \
 if the line segment is horizontal or vertical."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-pictex2-2023.209.svn15878-52.1.noarch.rpm"
-RPM_HASH = "b6e28125e62a2b985cfe9fceb8cdc1d99b4ce18321effe065ec9d7ebac9155ceb396efd4df67daf52bf4054775a93a88e6bcf0fbbcaee8a1ccd3ca12ab6974ac"
+RPM_NAME = "texlive-pictex2-2026.226.svn15878-58.2.noarch.rpm"
+RPM_HASH = "8313af9e68505f06f5e9aa68409aed8c115caaccefa21023c3352a52b1bd87e4b5c47295762a7ae4ff16c70ae520d830189105c12fc2cdfcc4484315e0217ce7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pictex2.sty \

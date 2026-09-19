@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-2.0"
 
 PV = "0.0.5"
 
-RPM_NAME = "librevenge-doc-0.0.5-1.4.noarch.rpm"
-RPM_HASH = "6a39e0c501ac48a0a006e3f68d8c0aa38310f2cff9d0641fc251fe71053d8d75ec187bd92e73137188baa123f772f866ebf5ca43e6d1525e1768f921724e8f72"
+RPM_NAME = "librevenge-doc-0.0.5-1.14.noarch.rpm"
+RPM_HASH = "3e776f0751d01f7e80206490d142cd1e0d2756e52b6c5fe61f4a1540dd14598490748ce6f21c78f8e0de5139d425f1f201ad0020c19cc9262b20e85485de7176"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "librevenge-doc"

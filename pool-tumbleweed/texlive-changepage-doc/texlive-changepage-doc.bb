@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-changepage"
 DESCRIPTION = "This package includes the documentation for texlive-changepage"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0csvn15878"
+PV = "2026.226.1.0csvn77682"
 
-RPM_NAME = "texlive-changepage-doc-2023.209.1.0csvn15878-53.1.noarch.rpm"
-RPM_HASH = "0a76ccc5ed41809f783e6d7b2d724e303612994e0ac5524dbd6482bce10a1629c767d8ac43a1b52561574318d3eb34e982ac4f9c8a85808b5b59ba2c549bd124"
+RPM_NAME = "texlive-changepage-doc-2026.226.1.0csvn77682-59.2.noarch.rpm"
+RPM_HASH = "50217b46f7886dc7fc6977bde44eacaaaeb57a4de8faef740498959f33e0af05ad7824728f4ecf9e6dfac8f00135ce6adacf9701b1ccdf043c03fc8cf224c30c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-changepage-doc"

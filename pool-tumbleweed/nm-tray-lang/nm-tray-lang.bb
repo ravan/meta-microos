@@ -2,10 +2,10 @@ SUMMARY = "Translations for package nm-tray"
 DESCRIPTION = "Provides translations for the 'nm-tray' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.5.0"
+PV = "0.5.1"
 
-RPM_NAME = "nm-tray-lang-0.5.0-1.8.noarch.rpm"
-RPM_HASH = "10384d78f1b4b06eaf4233fdac738817306e9e190715cf6e77399c35781f43a3829d2fe6fd93120e1c90431bb7e2ce1ab99f34b6339ae64131cae94cae8951ec"
+RPM_NAME = "nm-tray-lang-0.5.1-1.7.noarch.rpm"
+RPM_HASH = "5da8b2a3a606e6f2836f427f143c7b6cd91e852f1cac0649823765d9b415f26f347239973d0fcd8b7191cca537a946023941e158afc66db531a1d3067493bf45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nm-tray-lang \

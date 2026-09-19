@@ -2,16 +2,16 @@ SUMMARY = "Alien::Build plugin to download from GitLab"
 DESCRIPTION = "This plugin is designed for downloading assets from a GitLab instance."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.01"
+PV = "0.10.0"
 
-RPM_NAME = "perl-Alien-Build-Plugin-Download-GitLab-0.01-1.4.noarch.rpm"
-RPM_HASH = "c803e2fc6eb83f2ba55c133b15c9706a629fc4ed10eb5d6281ec2b8c7e58e570d89fd1931bf5eb96be42e2781a69a00e00724a1eb1921594bd933dd5a844726c"
+RPM_NAME = "perl-Alien-Build-Plugin-Download-GitLab-0.10.0-1.10.noarch.rpm"
+RPM_HASH = "c32f8eccdd69e55dcf9333cea718f9aac4c97883fc467d9e1ad397cb85c7d9f3e3f5382ef85e6f0611f92f58d3163c1cd2a0303d8eef8c9c4af0e0de3c91c1ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Alien--Build--Plugin--Download--GitLab \
 perl-Alien-Build-Plugin-Download-GitLab"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Alien--Build--Plugin \
 perl-JSON--PP \
 perl-Path--Tiny \

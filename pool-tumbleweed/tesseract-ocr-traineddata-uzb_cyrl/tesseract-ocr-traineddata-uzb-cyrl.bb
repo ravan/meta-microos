@@ -3,16 +3,17 @@ DESCRIPTION = "This package contains the fast integer version of the Uzbek (Cyri
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-uzb_cyrl-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "d389756d16e6e524f43c830d842b81b7b0f5d4f61101b02f4d9c69dd6cf5557961b5d69b4f72f5c4a9435f9af7919616f6e28c5b5acb2b9c425376d18f25cb5a"
+RPM_NAME = "tesseract-ocr-traineddata-uzb_cyrl-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "582cfda6dbff98e544f574e9611d9de5d283c56427b38dfb7ab6830c6cc41650da1f66eb4412fed3edfeb5c987196367f0aaf49decd09797a549b7ef0fcf08bd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-uzb-cyrl \
+RPROVIDES:${PN} += "tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-uzb-cyrl \
 tesseract-ocr-traineddata-uzbek-cyrillic \
 tesseract-traineddata-uzbek-cyrillic"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

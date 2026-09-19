@@ -3,15 +3,18 @@ DESCRIPTION = "The libcloudproviders-devel package contains libraries and header
 developing applications that use libcloudproviders."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.3.2"
+PV = "0.4.1"
 
-RPM_NAME = "libcloudproviders-devel-0.3.2-1.1.aarch64.rpm"
-RPM_HASH = "47312c44500759612899398bcfddf0a73743c47393d92e758171e2ce565145707e3ee9226d877b2195bfea465805481268c755f65958910b4b2cfd2b37741822"
+RPM_NAME = "libcloudproviders-devel-0.4.1-1.1.aarch64.rpm"
+RPM_HASH = "dae6d9e69f5d79a1f3aab4fc6ac0ed697de4f7c9b782cafdb700a8ab389b5321a8a7a4e67a5944f964fbd9b0b07d9a0426db9e2e4868ef20848fa8b9d18d677b"
 
 RPROVIDES:${PN} += "libcloudproviders-devel \
 pkgconfig-cloudproviders"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libcloudproviders0"
+libcloudproviders0 \
+pkgconfig-gio-2.0 \
+pkgconfig-gio-unix-2.0 \
+pkgconfig-glib-2.0"
 
 inherit rpm

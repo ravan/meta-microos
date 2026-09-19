@@ -2,14 +2,17 @@ SUMMARY = "Severed fonts for texlive-cs"
 DESCRIPTION = "The  separated fonts package for texlive-cs"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn41553"
+PV = "2026.226.svn41553"
 
-RPM_NAME = "texlive-cs-fonts-2023.209.svn41553-55.1.noarch.rpm"
-RPM_HASH = "3b88931b6401f1414a13b3ad05e7b46b184d46423efec205ed431e4b6347f0a2b00ed5f7967501b2dd374e2828d32bbbc491db37b36b7537387e1f54e4b77c8e"
+RPM_NAME = "texlive-cs-fonts-2026.226.svn41553-61.2.noarch.rpm"
+RPM_HASH = "55f99f41908fbe2f92f0ebe2b0bddec61b175e092f8d1a2161c32b1412178256c1dc631d309685ea2883b0a26a2385d69440da37166f777cca654030dbdcc610"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=cs \
+RPROVIDES:${PN} += "font--lang=agr \
+font--lang=bem \
+font--lang=cs \
 font--lang=de \
+font--lang=dsb \
 font--lang=fj \
 font--lang=ho \
 font--lang=ia \
@@ -37,6 +40,7 @@ font--lang=ts \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
+font--lang=wae \
 font--lang=xh \
 font--lang=za \
 font--lang=zu \

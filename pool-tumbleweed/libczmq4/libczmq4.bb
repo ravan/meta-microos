@@ -14,8 +14,8 @@ LICENSE = "MPL-2.0"
 
 PV = "4.2.1"
 
-RPM_NAME = "libczmq4-4.2.1-1.9.aarch64.rpm"
-RPM_HASH = "8f4b3b1ba4e7dc768f566a63270f4dca478cc626e4b2f07e9eabdfb66f593a8757adee85f5efa606b8f025b0e233df4e487934386bbdf49cdb9ab06dfdc82905"
+RPM_NAME = "libczmq4-4.2.1-1.20.aarch64.rpm"
+RPM_HASH = "7da5db5ffe32a04c2a310711cfade4183905a41250a48d5f993b6db43772c2426563c4c7da5a08feda785cfdb51088c3b28adb946b846e4d4f9502a52c558555"
 
 RPROVIDES:${PN} += "libczmq.so.4 \
 libczmq4"

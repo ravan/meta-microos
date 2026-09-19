@@ -9,10 +9,10 @@ documentation generation, module and library management, extensive \
 customization options, and more."
 LICENSE = "BSD-3-Clause & GPL-3.0-or-later"
 
-PV = "4.1.1"
+PV = "4.4.1"
 
-RPM_NAME = "swig-4.1.1-2.4.aarch64.rpm"
-RPM_HASH = "1c6b1ac5d0a69971398892c903771512a9d683b15183be8c94214623b5df2a59b8baa8d48f625cafff63366950ccf3452b9c15f24a4ca86f4fd2532599b5fdc0"
+RPM_NAME = "swig-4.4.1-2.3.aarch64.rpm"
+RPM_HASH = "8c821f2675d80717aac93551d8c275976938571f646f41ae19dbb1ac462feb1f73bf047e9bd899b4505f3bc21e2a723cbc91f1297c6a257d6dd072afc069a726"
 
 RPROVIDES:${PN} += "swig"
 

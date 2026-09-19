@@ -10,16 +10,17 @@ or porting to other ARMv8-A model and hardware platforms. \
 This package contains fiptool."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.8.6"
+PV = "2.12.8"
 
-RPM_NAME = "arm-trusted-firmware-tools-2.8.6-1.3.aarch64.rpm"
-RPM_HASH = "6c911eb04359a8c012332606be45cfa7ed9bef20e4e4c1499c2f6e1ac4788bf38e98549f3bba7cd96fc98fd3b77cbf21a19c7962d666c54f28c7aeeca9716874"
+RPM_NAME = "arm-trusted-firmware-tools-2.12.8-4.1.aarch64.rpm"
+RPM_HASH = "ee7d4343e2813a9dab517e578154a55a2521cb9d902d5fc19d9649206c177fb97058fa99ace0af5cefe863f4e559380a964b1b9969755a0da90aac0ddf0b596a"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-tools"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libcrypto.so.3 \
-libcryptopp.so.8.8.0 \
+libcryptopp.so.8.9.0 \
 libgcc-s.so.1 \
 libstdc++.so.6"
 

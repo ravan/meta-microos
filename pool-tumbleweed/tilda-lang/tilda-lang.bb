@@ -2,10 +2,10 @@ SUMMARY = "Translations for package tilda"
 DESCRIPTION = "Provides translations for the 'tilda' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.4"
+PV = "2.0.0"
 
-RPM_NAME = "tilda-lang-1.5.4-1.12.noarch.rpm"
-RPM_HASH = "6cf267b87347f6810812b3ddec25a8e6bbb6f849366aec837b2395e0c2f1d60199ddfe13df7f9e6c7ba7ba3d9f43bcdd43840578ec8ae7f7f27c890c3919ae44"
+RPM_NAME = "tilda-lang-2.0.0-1.10.noarch.rpm"
+RPM_HASH = "b052273b219e90ea81af665a43dc45cfeea69b24bbb8507131d73bcad7304a79554aa2e34ccc26526bde5ea2ae7cf1199a9d664cf06da583cb8af083e4ecf97c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tilda-bg \
@@ -16,6 +16,7 @@ locale-tilda-el \
 locale-tilda-en-GB \
 locale-tilda-es \
 locale-tilda-fr \
+locale-tilda-hr \
 locale-tilda-hu \
 locale-tilda-it \
 locale-tilda-lt \
@@ -28,6 +29,7 @@ locale-tilda-sk \
 locale-tilda-sl \
 locale-tilda-sv \
 locale-tilda-tr \
+locale-tilda-uk \
 locale-tilda-zh-CN \
 locale-tilda-zh-TW \
 tilda-lang \

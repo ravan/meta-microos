@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.1"
 
-RPM_NAME = "libmovit8-1.7.1-1.1.aarch64.rpm"
-RPM_HASH = "b1872d4f2e4dcdd8095ce91dedee0b404b6f83055b586db404169cc5900fa4471ef396f921523ea5f2fc2d15204b8782e666147afa1e1f93fe74cb58e3fdfcdd"
+RPM_NAME = "libmovit8-1.7.1-1.13.aarch64.rpm"
+RPM_HASH = "c4521ea6cb1a98a99e4e32eb07431cc413c9343583a193a457e4e3a098c82e8776197aaf7e57f68708886aeaade30af24e6448894ca263feae1b88bc0fbca061"
 
 RPROVIDES:${PN} += "libmovit.so.8 \
 libmovit8 \

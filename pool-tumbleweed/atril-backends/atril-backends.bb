@@ -3,10 +3,10 @@ DESCRIPTION = "Atril is a document viewer capable of displaying multiple and sin
 page document formats like PDF and Postscript."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.4"
 
-RPM_NAME = "atril-backends-1.26.1-1.2.aarch64.rpm"
-RPM_HASH = "b43d7a1041f8452c25020b694ee0c4a7974875e960a567705d5bccdadc7236705964602ea43a99d3b80dede24ea2cf66cafa628d45b4852a8b099add46b5c585"
+RPM_NAME = "atril-backends-1.28.4-1.2.aarch64.rpm"
+RPM_HASH = "cb3480fadd7518756504b45069bfb786c8c3a0ee0faf92d072d99e9ed1be2a94fdc74e5d97b37f27fd8d3483a7d05f3777f782b2f6d56ccaa66218af028345cc"
 
 RPROVIDES:${PN} += "atril-backends \
 libcomicsdocument.so \
@@ -20,6 +20,7 @@ libxpsdocument.so \
 mate-document-viewer-libs-3"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libarchive.so.13 \
 libatrildocument.so.3 \
 libc.so.6 \
 libcairo.so.2 \
@@ -37,7 +38,7 @@ libpango-1.0.so.0 \
 libpoppler-glib.so.8 \
 libspectre.so.1 \
 libtiff.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 mathjax"
 

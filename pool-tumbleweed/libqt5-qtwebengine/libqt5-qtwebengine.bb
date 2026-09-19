@@ -13,12 +13,13 @@ modules: \
   classes to render and interact with web content"
 LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.15.15"
+PV = "5.15.19"
 
-RPM_NAME = "libqt5-qtwebengine-5.15.15-1.1.aarch64.rpm"
-RPM_HASH = "dff43c1bf59a4519c97a4cbf869efb8f3ea225f73b3304b04b03f2d2408fb1591a601b955526f48704bab1838d0f155c57531665ec7df1008687d3014d8f707d"
+RPM_NAME = "libqt5-qtwebengine-5.15.19-3.3.aarch64.rpm"
+RPM_HASH = "014f50b047d1df47d44a87ef5c772806bb59c5b52c9764ed5d5c97e3c935b56852a210850af9f95497b447a52592da3f13df80489d7b5719446d292077f3004d"
 
-RPROVIDES:${PN} += "libQt5WebEngine.so.5 \
+RPROVIDES:${PN} += "bundled-libsrtp2 \
+libQt5WebEngine.so.5 \
 libQt5WebEngineCore.so.5 \
 libQt5WebEngineWidgets.so.5 \
 libqt5-qtwebengine \
@@ -51,9 +52,9 @@ libXfixes.so.3 \
 libXrandr.so.2 \
 libXtst.so.6 \
 libasound.so.2 \
-libavcodec.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
+libavcodec.so.61 \
+libavformat.so.61 \
+libavutil.so.59 \
 libc.so.6 \
 libdbus-1.so.3 \
 libevent-2.1.so.7 \
@@ -66,8 +67,8 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libharfbuzz-subset.so.0 \
 libharfbuzz.so.0 \
-libicui18n.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuuc.so.78 \
 libjpeg.so.8 \
 liblcms2.so.2 \
 libm.so.6 \
@@ -78,15 +79,14 @@ libnssutil3.so \
 libopus.so.0 \
 libpng16.so.16 \
 libpulse.so.0 \
-libre2.so.10 \
 libsnappy.so.1 \
 libstdc++.so.6 \
-libvpx.so.8 \
+libvpx.so.12 \
 libwebp.so.7 \
 libwebpdemux.so.2 \
 libwebpmux.so.3 \
 libxcb.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxslt.so.1 \
 libz.so.1 \
 qt5qmlimport-QtQuick.2 \

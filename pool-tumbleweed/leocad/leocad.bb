@@ -6,10 +6,10 @@ having to spend too much time learning the \
 application."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.03"
+PV = "25.09"
 
-RPM_NAME = "leocad-23.03-1.1.aarch64.rpm"
-RPM_HASH = "47f021588e188a662c5a0b6c0a9dd471bcfdb3f9d1fed28797b7df4e80a54eb5d75069c140814222545d5d14d3d360226e336f4658fbd2e601cca5da15aee7bd"
+RPM_NAME = "leocad-25.09-1.2.aarch64.rpm"
+RPM_HASH = "abc767b8374121962ea968d6cbec49daf5176605d59b41b5629292bde930e6a4f2d95b66ca00b355355a5d6050997611b4880d93f5202ecaf8c6494f7b0497f6"
 
 RPROVIDES:${PN} += "leocad"
 

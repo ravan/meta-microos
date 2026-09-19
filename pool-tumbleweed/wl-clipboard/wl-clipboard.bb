@@ -2,10 +2,10 @@ SUMMARY = "Wayland Clipboard Utilities"
 DESCRIPTION = "This project implements two command-line Wayland clipboard utilities, wl-copy and wl-paste, that let you easily copy data between the clipboard and Unix pipes, sockets, files and so on."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.2.0"
+PV = "2.3.0"
 
-RPM_NAME = "wl-clipboard-2.2.0-1.1.aarch64.rpm"
-RPM_HASH = "6180900455aebe9825f1db8dd7daae622ba853b0065a6bf50a9dbefd2788547d43cc3e6b2dc72fe75a9c3d8da72c65ec1b595afa53716989a2cd566407f38f9f"
+RPM_NAME = "wl-clipboard-2.3.0-1.3.aarch64.rpm"
+RPM_HASH = "6847cb7b8f6f0498d484783e9718428417696e3deb449d51b2d3ca741507e63c7980daa3e6ecfd67bb03544d3c1f647c963bffd6b32041980f80b14cc15f4df4"
 
 RPROVIDES:${PN} += "wl-clipboard"
 

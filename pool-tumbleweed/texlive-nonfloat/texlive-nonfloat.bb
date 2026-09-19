@@ -5,10 +5,10 @@ Also the vertical spaces for table captions above the table are \
 changed."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.0svn17598"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-nonfloat-2023.209.1.0svn17598-55.1.noarch.rpm"
-RPM_HASH = "5e52f5d318f61320907061fee146f9931af22305104c189bf7d666b075be1c384369de0bf8e99ff7b26702af7474da617e9748602fe5b121789c9d90fec0fc7c"
+RPM_NAME = "texlive-nonfloat-2026.226.1.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "d9d4026d983eca3e4da6dcf38b17fb06273715d0621669f8171b54f3f4b45bf9001dcd7cf6f6a9368981efffeeb2b54a2ace50b62b660fae8cc2fed5590f624f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nonfloat.sty \

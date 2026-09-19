@@ -2,16 +2,17 @@ SUMMARY = "Binary files of ptex"
 DESCRIPTION = "Binary files of ptex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn66084"
+PV = "2026.20260301.svn78022"
 
-RPM_NAME = "texlive-ptex-bin-2023.20230311.svn66084-93.2.aarch64.rpm"
-RPM_HASH = "f49f95996bf15c5b25c914e2602161e5af1684a3b4a6c628e6c8ee93b1552f30749d437e27d7e650c19be09f83b4edfa56d65bce2d55b1e858c3afb6d3fd6030"
+RPM_NAME = "texlive-ptex-bin-2026.20260301.svn78022-120.4.aarch64.rpm"
+RPM_HASH = "ca5bd31db08d4b72c0677f9258f33716f70f776aa88dad39ef69145fc70d93a63028d8bed8a723668b375f9e65a2dec2d69661e16faef626554b9729cbff1ee3"
 
 RPROVIDES:${PN} += "texlive-ptex-bin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
+libgmp.so.10 \
 libkpathsea.so.6 \
 libm.so.6 \
 libmpfr.so.6 \

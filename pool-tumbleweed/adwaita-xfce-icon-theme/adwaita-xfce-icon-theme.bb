@@ -3,10 +3,10 @@ DESCRIPTION = "This icon theme is an extension for Adwaita fixing missing icons 
 It is not a complete theme and inherits the bulk of icons from Adwaita."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.0.3+git0.e0f73b9"
+PV = "0.0.4+git0.b33d65a"
 
-RPM_NAME = "adwaita-xfce-icon-theme-0.0.3+git0.e0f73b9-2.2.noarch.rpm"
-RPM_HASH = "790edb95f5af4e7f2380354789ea0ba6fdc6993569c866e433f4959cbc4b4c7443b87b424908d3610d55a9d685f0abe8c1ea6ed44f9df2f4b379d0308624777a"
+RPM_NAME = "adwaita-xfce-icon-theme-0.0.4+git0.b33d65a-1.7.noarch.rpm"
+RPM_HASH = "1a731404f7a534cfa95196e41c26b4b2af33d056a7ad46668e1bb0187eb23e785114258586c313f5eca128ef906b594daf9fab9a89a215622f93a1901c0c734f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adwaita-xfce-icon-theme \

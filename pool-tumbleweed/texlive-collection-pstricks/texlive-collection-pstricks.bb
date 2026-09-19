@@ -2,13 +2,15 @@ SUMMARY = "PSTricks"
 DESCRIPTION = "PSTricks core and all add-on packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn65367"
+PV = "2026.222.svn77232"
 
-RPM_NAME = "texlive-collection-pstricks-2023.208.svn65367-60.1.noarch.rpm"
-RPM_HASH = "a338c6fcba7f03be835ebdca3d75975d3d292cf034b755d9d5aacdfbf31f691f63d43b4fbdc844c00ed401c9a36480200ec7be45dd28a4e1deb9df601c3d7639"
+RPM_NAME = "texlive-collection-pstricks-2026.222.svn77232-68.2.noarch.rpm"
+RPM_HASH = "cd45551729f65840d3f603fddcd28e1b2fdf57002b823623aafa3a3c29e0155b4be1f612cc560224666a8a588947508158b9652cc3db2651a662bf136da2c3c1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-pstricks \
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-pstricks \
 texlive-collection-pstricks"
 
 RDEPENDS:${PN} += "texlive-auto-pst-pdf \
@@ -53,11 +55,13 @@ texlive-pst-feyn \
 texlive-pst-fill \
 texlive-pst-fit \
 texlive-pst-flags \
+texlive-pst-fourbarlinkage \
 texlive-pst-fr3d \
 texlive-pst-fractal \
 texlive-pst-fun \
 texlive-pst-func \
 texlive-pst-gantt \
+texlive-pst-gears \
 texlive-pst-geo \
 texlive-pst-geometrictools \
 texlive-pst-gr3d \
@@ -67,6 +71,7 @@ texlive-pst-hsb \
 texlive-pst-infixplot \
 texlive-pst-intersect \
 texlive-pst-jtree \
+texlive-pst-kepler \
 texlive-pst-knot \
 texlive-pst-labo \
 texlive-pst-layout \
@@ -75,10 +80,12 @@ texlive-pst-light3d \
 texlive-pst-lsystem \
 texlive-pst-magneticfield \
 texlive-pst-marble \
+texlive-pst-massspring \
 texlive-pst-math \
 texlive-pst-mirror \
 texlive-pst-moire \
 texlive-pst-node \
+texlive-pst-nutation \
 texlive-pst-ob3d \
 texlive-pst-ode \
 texlive-pst-optexp \
@@ -104,6 +111,7 @@ texlive-pst-solarsystem \
 texlive-pst-solides3d \
 texlive-pst-soroban \
 texlive-pst-spectra \
+texlive-pst-sphericaltrochoid \
 texlive-pst-spinner \
 texlive-pst-stru \
 texlive-pst-support \

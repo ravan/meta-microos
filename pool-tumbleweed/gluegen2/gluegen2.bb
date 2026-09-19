@@ -13,13 +13,12 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.2"
 
-RPM_NAME = "gluegen2-2.3.2-9.9.aarch64.rpm"
-RPM_HASH = "65d74bf4ce41207a07490864d05c5411844f81cc6a3ca94894201f82bcdc34d24df3a99bb1b2daa92929266fe8705e6966cc3d7266a9ba4130e4d18df7171792"
+RPM_NAME = "gluegen2-2.3.2-12.5.aarch64.rpm"
+RPM_HASH = "ff2d5ce70f34bcc9c27aec610b4cd89c123f4f82c8639925c41966adc7bdf7c9b2335ad517df63563b280c22296f361b0190071d1ed98bb55a0001d0bee52aa3"
 
 RPROVIDES:${PN} += "gluegen2 \
 libgluegen2-rt.so"
 
-RDEPENDS:${PN} += "java \
-libc.so.6"
+RDEPENDS:${PN} += "java"
 
 inherit rpm

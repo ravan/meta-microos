@@ -3,15 +3,15 @@ DESCRIPTION = "cepces is an application for enrolling certificates through CEP a
 This package provides the certmonger integration."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.3.7"
+PV = "0.3.16"
 
-RPM_NAME = "cepces-certmonger-0.3.7-1.4.noarch.rpm"
-RPM_HASH = "37e72d7e1791e3f981da3236fd3dde08633880e8ec37b85eea530be25b63d6cf4b0e45984463f26cde28e2c7acc1ca11ff0ba90691497226ffedd7284c56e7db"
+RPM_NAME = "cepces-certmonger-0.3.16-1.4.noarch.rpm"
+RPM_HASH = "f13d5d885114fd462fded956ca0a57dc56858e166abe02ddc0a6f2166e8f00df7d3141be78906de0867201ada733b52ab04553f9f83b05b5b2329418d3c25fc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cepces-certmonger"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 cepces \
 certmonger"

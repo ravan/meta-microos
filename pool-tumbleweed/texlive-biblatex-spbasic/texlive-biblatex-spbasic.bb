@@ -4,10 +4,10 @@ BibLaTeX/biber for typesetting articles for Springer's \
 journals. It is the same as the old BibTeX style spbasic.bst."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.04svn61439"
+PV = "2026.226.0.0.04svn61439"
 
-RPM_NAME = "texlive-biblatex-spbasic-2023.209.0.0.04svn61439-54.1.noarch.rpm"
-RPM_HASH = "134f2ddc4871c4fa4ca234b3f0ea30845a706c9348747cb189ce87a8566d4865ad9ffbe5abb9ab22e61544f6c715d65fe0585a9651c2d71e53a0c81091c878da"
+RPM_NAME = "texlive-biblatex-spbasic-2026.226.0.0.04svn61439-61.2.noarch.rpm"
+RPM_HASH = "d175fcd0258d1ed9e0b1fcb7436fc1a159eac8d2c60e23c5140f5311fec62734efd57bd1ad702149778f7bfc08bdc71ff7db913a7626fbc4f6924caa20b35c7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-spbasic.bbx \

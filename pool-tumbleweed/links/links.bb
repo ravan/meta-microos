@@ -5,10 +5,10 @@ graphical interface besides the text interface. It has good support for \
 frames, supports ssl, and has a little bit of JavaScript support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.29"
+PV = "2.30"
 
-RPM_NAME = "links-2.29-1.2.aarch64.rpm"
-RPM_HASH = "10538e5597972f4546c9957ed66c73701f1a3fd248624783a0766dd4fcd84902666bc102b8ab6b65c60b51a493e164678e55154bdf603cebb691f7c7f6c34d3c"
+RPM_NAME = "links-2.30-2.3.aarch64.rpm"
+RPM_HASH = "bd626512fecdcc5cf395da75365aeba7de5a61bffcb4d54c734d984a0f2d33bee6de5653d8d4ed4cc384bfd5842dfba503c7b7d959d3729eaa7e175ee65e5ad4"
 
 RPROVIDES:${PN} += "links \
 web-browser"
@@ -25,6 +25,7 @@ libgpm.so.2 \
 libjpeg.so.8 \
 liblzma.so.5 \
 libm.so.6 \
+libmvec.so.1 \
 libpng16.so.16 \
 libssl.so.3 \
 libtiff.so.6 \

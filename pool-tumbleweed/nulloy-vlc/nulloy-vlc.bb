@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the vlc playback plugin for nulloy - a ligh
 music player with a Waveform Progressbar."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.9.5"
+PV = "0.9.9"
 
-RPM_NAME = "nulloy-vlc-0.9.5-1.11.aarch64.rpm"
-RPM_HASH = "df06840b3bb3a559d822fe6e464bcfc46b0fa623f2114e66e663b0b2cf043f3503c79c0407d3741693f71fa6322a3424bd29463cce2a130922735b34fcb1a333"
+RPM_NAME = "nulloy-vlc-0.9.9-1.3.aarch64.rpm"
+RPM_HASH = "c4e09c4abf350635f11a351e8e259c47db2bd2302982da43d941567e1f86900a08a92765f400d77d11d48ad4672c8ca708058ca18ee5474101e15a8078098774"
 
 RPROVIDES:${PN} += "libplugin-vlc.so \
 nulloy-vlc"

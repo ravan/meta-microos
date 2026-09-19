@@ -2,10 +2,10 @@ SUMMARY = "Binary files of pythontex"
 DESCRIPTION = "Binary files of pythontex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn31638"
+PV = "2026.20260301.svn31638"
 
-RPM_NAME = "texlive-pythontex-bin-2023.20230311.svn31638-93.2.aarch64.rpm"
-RPM_HASH = "d27f387eada00bb3e5e0b1eb31c9f6d4b85f52af0d98d6b2c0cae478787d1e810279b9e9ab9b68d7000d1d72c3d0394e276a88ee497d0711aaa251f2b62fb078"
+RPM_NAME = "texlive-pythontex-bin-2026.20260301.svn31638-120.4.aarch64.rpm"
+RPM_HASH = "93254ee2c6dedd2557169816c194678c4aba1ee1ed919a7e7a66fdf3aa83cbf628b36d6fed5965568fd006325ae4e6633d74c67a5dce894bcf34fa78fd6e7ed4"
 
 RPROVIDES:${PN} += "texlive-pythontex-bin"
 

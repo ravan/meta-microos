@@ -3,10 +3,10 @@ DESCRIPTION = "SLIB is a portable Scheme library providing compatibility and uti
 functions for all standard Scheme implementations."
 LICENSE = "SUSE-SLIB"
 
-PV = "3b7"
+PV = "3c1"
 
-RPM_NAME = "slib-3b7-1.2.noarch.rpm"
-RPM_HASH = "cd9f0245862d53b8f006fa0ccbd5c1a3fe6307447f882250a0ccf3220ba740e3b19c18c591393a250a49184d6adaef4a5d17ffee74340b09aa3226ae0f4b54fa"
+RPM_NAME = "slib-3c1-1.6.noarch.rpm"
+RPM_HASH = "c204f1102f1e3a43bd8a6816812ed165d50ee575cff9344d052a09a0e470d90d8ab7739bc53c3a1fff98f938187e599d29b6756ead81c02407b51ce3aff77074"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slib"

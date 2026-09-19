@@ -5,10 +5,10 @@ These themes can be used in combination with existing inner, \
 outer, and color themes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02asvn56087"
+PV = "2026.226.1.02asvn56087"
 
-RPM_NAME = "texlive-beamerauxtheme-2023.209.1.02asvn56087-54.1.noarch.rpm"
-RPM_HASH = "8eecf36c43905c12d30c3ed081a54a39fa6c0d2899feda3bc97448bdba0bb8b4059e46ac355b469e076fdd78e0fa0edeb8fe9a72e651e845e591cf4b9cecbb16"
+RPM_NAME = "texlive-beamerauxtheme-2026.226.1.02asvn56087-61.2.noarch.rpm"
+RPM_HASH = "87f87c790835a78c4969ae1244fbabc4af29de458814917ff64a88eb70890b421ee0d0c50a85ccc8f945fc3b22fb66cd3158399c4b8fcb5744a745f3a7e4c9cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerinnerthemesimplelines.sty \

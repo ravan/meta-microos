@@ -5,10 +5,10 @@ programming language from the ML family of languages. \
 This package contains a documentation generator for OCaml."
 LICENSE = "QPL-1.0"
 
-PV = "4.14.1"
+PV = "5.5.0"
 
-RPM_NAME = "ocaml-ocamldoc-4.14.1-1.4.aarch64.rpm"
-RPM_HASH = "a2069af262189c7c7903c9bf8c70bf7e2e4ab06b71d4d0549e9e3e41c74ebb5ec0e3a0b26f51f2c81d2590a222c57ba7dbf559d466375e7c053c30b6905cda3d"
+RPM_NAME = "ocaml-ocamldoc-5.5.0-2.1.aarch64.rpm"
+RPM_HASH = "4ab5c3af54408415ebd549a9f3f670e690300a88d598a91000d386f3fbb56bccdf706392069e73eacb1768601098b7d98a948a619d8235941f8d761d7766a419"
 
 RPROVIDES:${PN} += "ocaml-Odoc \
 ocaml-Odoc-analyse \
@@ -18,7 +18,6 @@ ocaml-Odoc-class \
 ocaml-Odoc-comments \
 ocaml-Odoc-comments-global \
 ocaml-Odoc-config \
-ocaml-Odoc-control \
 ocaml-Odoc-cross \
 ocaml-Odoc-dag2html \
 ocaml-Odoc-dep \
@@ -30,7 +29,6 @@ ocaml-Odoc-gen \
 ocaml-Odoc-global \
 ocaml-Odoc-html \
 ocaml-Odoc-info \
-ocaml-Odoc-inherit \
 ocaml-Odoc-latex \
 ocaml-Odoc-latex-style \
 ocaml-Odoc-lexer \
@@ -68,7 +66,6 @@ ocamlx-Odoc-class \
 ocamlx-Odoc-comments \
 ocamlx-Odoc-comments-global \
 ocamlx-Odoc-config \
-ocamlx-Odoc-control \
 ocamlx-Odoc-cross \
 ocamlx-Odoc-dag2html \
 ocamlx-Odoc-dep \
@@ -80,7 +77,6 @@ ocamlx-Odoc-gen \
 ocamlx-Odoc-global \
 ocamlx-Odoc-html \
 ocamlx-Odoc-info \
-ocamlx-Odoc-inherit \
 ocamlx-Odoc-latex \
 ocamlx-Odoc-latex-style \
 ocamlx-Odoc-lexer \
@@ -108,9 +104,10 @@ ocamlx-Odoc-type \
 ocamlx-Odoc-types \
 ocamlx-Odoc-value"
 
-RDEPENDS:${PN} += "/usr/bin/ocamlrun \
+RDEPENDS:${PN} += "/usr/bin/ocamlrun-a100 \
 libc.so.6 \
 libm.so.6 \
+libzstd.so.1 \
 ocaml \
 ocaml-Asttypes \
 ocaml-Btype \
@@ -125,6 +122,7 @@ ocaml-Compenv \
 ocaml-Compmisc \
 ocaml-Config \
 ocaml-Ctype \
+ocaml-Data-types \
 ocaml-Depend \
 ocaml-Diffing \
 ocaml-Diffing-with-keys \
@@ -132,6 +130,7 @@ ocaml-Docstrings \
 ocaml-Dynlink \
 ocaml-Env \
 ocaml-Errortrace \
+ocaml-Format-doc \
 ocaml-Ident \
 ocaml-Identifiable \
 ocaml-Includecore \
@@ -142,6 +141,7 @@ ocaml-Location \
 ocaml-Longident \
 ocaml-Main-args \
 ocaml-Misc \
+ocaml-Out-type \
 ocaml-Outcometree \
 ocaml-Parse \
 ocaml-Parser \
@@ -151,7 +151,6 @@ ocaml-Pparse \
 ocaml-Predef \
 ocaml-Primitive \
 ocaml-Printtyp \
-ocaml-Profile \
 ocaml-Shape \
 ocaml-Stdlib \
 ocaml-Stdlib--Arg \
@@ -162,6 +161,7 @@ ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Complex \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Format \
@@ -177,6 +177,7 @@ ocaml-Stdlib--Option \
 ocaml-Stdlib--Parsing \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
+ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--String \
@@ -194,9 +195,12 @@ ocaml-Typedecl-variance \
 ocaml-Typedtree \
 ocaml-Typemod \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Unix \
+ocaml-Value-rec-types \
 ocaml-Warnings \
 ocamlfind-compiler-libs \
+ocamlx-Asttypes \
 ocamlx-Btype \
 ocamlx-CamlinternalOO \
 ocamlx-Clflags \
@@ -204,6 +208,7 @@ ocamlx-Compenv \
 ocamlx-Compmisc \
 ocamlx-Config \
 ocamlx-Ctype \
+ocamlx-Data-types \
 ocamlx-Depend \
 ocamlx-Dynlink \
 ocamlx-Env \
@@ -213,6 +218,7 @@ ocamlx-Location \
 ocamlx-Longident \
 ocamlx-Main-args \
 ocamlx-Misc \
+ocamlx-Out-type \
 ocamlx-Parse \
 ocamlx-Path \
 ocamlx-Pparse \
@@ -239,10 +245,12 @@ ocamlx-Stdlib--Printf \
 ocamlx-Stdlib--Set \
 ocamlx-Stdlib--String \
 ocamlx-Stdlib--Sys \
+ocamlx-Stdlib--Uchar \
 ocamlx-Str \
 ocamlx-Syntaxerr \
 ocamlx-Typemod \
 ocamlx-Types \
+ocamlx-Unit-info \
 ocamlx-Unix \
 ocamlx-Warnings"
 

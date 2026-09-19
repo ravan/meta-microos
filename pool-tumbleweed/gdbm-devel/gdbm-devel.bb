@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.23"
+PV = "1.26"
 
-RPM_NAME = "gdbm-devel-1.23-2.1.aarch64.rpm"
-RPM_HASH = "0226c8ef8ef817124132e1164933a84f3a4383c5bd1ab6caebb16dcbd557cc6f7dff9c48f8faa32c29e658e10d2cbb142ba2eec8019a4d82c763c9d2a2306f21"
+RPM_NAME = "gdbm-devel-1.26-1.6.aarch64.rpm"
+RPM_HASH = "cadfb26e3eb513401e78ea932446008d5fa120394049d22d66bc9a44f5b4bebb3a30cc27439e268545f80473d279f205a9aa5ebcb53eeea5857d6ad372f9457b"
 
 RPROVIDES:${PN} += "gdbm-devel"
 

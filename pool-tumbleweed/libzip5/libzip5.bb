@@ -6,10 +6,10 @@ closing the archive can be reverted.  The API is documented by man \
 pages."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.10.1"
+PV = "1.11.4"
 
-RPM_NAME = "libzip5-1.10.1-1.1.aarch64.rpm"
-RPM_HASH = "8e9af206263e07af241948b4e6ba26fd7ce76493a9a430c3bc3ed58d7f1c373106b5c3bfeef13301515db35f2afd7a9d11e39a599d0cf39d028c4d6d2b428e62"
+RPM_NAME = "libzip5-1.11.4-1.5.aarch64.rpm"
+RPM_HASH = "e249b67a4a896e373ced91c29f55081c590b836c8af93bcc3dacfef1ba07f999db917365019a71ced20e24e7f01e559faa174a3b67c1bea6220a1d1fa7c0b611"
 
 RPROVIDES:${PN} += "libzip.so.5 \
 libzip5"

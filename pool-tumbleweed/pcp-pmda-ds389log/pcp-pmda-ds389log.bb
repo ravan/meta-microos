@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics from a 389 Directory Server log."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-ds389log-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "7d8d013f578801fa7d4234434b61c7c44a3bb11e186e68fbdccc60002103b03c40b08807611e35b78e9de57293c4e19720900da6053ff681ca212634f8d47b99"
+RPM_NAME = "pcp-pmda-ds389log-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "d31c92876076f7b25953bd5cb75036a15cb6ee242b0da50b7afaf60de34ab5af57d14c88619d9dffd848128286594594cd39e070f6e53174f946df1e0cccfcf8"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-ds389log"
 

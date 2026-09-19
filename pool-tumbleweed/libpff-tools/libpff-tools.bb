@@ -5,10 +5,10 @@ File (OFF) format. These are used in several file types: PAB \
 (Offline Storage Table)."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230325"
+PV = "20231205"
 
-RPM_NAME = "libpff-tools-20230325-2.1.aarch64.rpm"
-RPM_HASH = "958d2b897d41a56169b6891528ca5b16b15331a6164425816ca3ea271c6e18a383f1991efd41ec198f525724780384e879dfa50747e391c71111d949ffa886e9"
+RPM_NAME = "libpff-tools-20231205-2.30.aarch64.rpm"
+RPM_HASH = "448001dbb6517cd0b0d5cbdeb46ce0ae05cd7922d517712f697821ffa16ae33922adb13e47970861b4885fa3c6a62fad7cb43208cc000beb315706c6d2daa6d0"
 
 RPROVIDES:${PN} += "libpff-tools"
 

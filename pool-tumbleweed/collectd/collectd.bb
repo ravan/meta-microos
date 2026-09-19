@@ -4,10 +4,10 @@ statistics and updates RRD files. Statistics are very fine grained \
 with an update interval of 10 seconds."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "11f89a25e617ba98ed7366e45c3dc4fbe0cb4ba9e3dd0e605b3be502a9334129f9da4f4d889d8f2ee54ffd39a02f7655b0cbbc1863c3c221e3aeb55e3501b016"
+RPM_NAME = "collectd-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "887c74b8d8f33406c05613a1a5b8fee1327ccbb0c895bbe4566475c5e9592b47c626f8a01dafd7a038b93c52932c72fb47ca8f855f7c38ee1e2ecb60317f58df"
 
 RPROVIDES:${PN} += "collectd \
 collectd-beta \
@@ -40,7 +40,7 @@ libprotobuf-c.so.1 \
 librrd.so.8 \
 libsensors.so.4 \
 libudev.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libyajl.so.2 \
 rrdtool \
 sensors \

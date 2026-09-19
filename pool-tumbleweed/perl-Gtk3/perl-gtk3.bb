@@ -16,14 +16,14 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.038"
 
-RPM_NAME = "perl-Gtk3-0.038-1.13.noarch.rpm"
-RPM_HASH = "8e2bd9f754b5ac4f1d420f8d0a7c853385ed1ca9c962878a3de87d6cbea8eed700fdad216706906caf5d8374a0d3bc31b457a67548368dab2404216f3f8a58af"
+RPM_NAME = "perl-Gtk3-0.038-1.28.noarch.rpm"
+RPM_HASH = "4ac5f43409b7a86cdca30dd70694be10d388eceb66a9c277a474ec817979f59dcf6249fa53fc47e98ba40add204e98c93e0d685c14a8b543ab38d9b1bb67b9ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Gtk3 \
 perl-Gtk3--Gdk--EventMask"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Cairo--GObject \
 perl-Glib--Object--Introspection \
 perl-Test--Simple"

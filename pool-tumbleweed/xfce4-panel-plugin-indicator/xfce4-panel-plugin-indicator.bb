@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.1"
 
-RPM_NAME = "xfce4-panel-plugin-indicator-2.4.1-1.7.aarch64.rpm"
-RPM_HASH = "907329ad0f1a923a21eca9e5354070e8fae0a3c3ac4299c7026706303d0f1951ec5bca3396431a1c7e5d4cd1348a77bb2f8adf659204eac77c2d773e95da3e4a"
+RPM_NAME = "xfce4-panel-plugin-indicator-2.4.1-1.17.aarch64.rpm"
+RPM_HASH = "7af07bfc9c78ebe0aab0ad2f1062858637cd3dbd49b8de5cbcb3e8e27b7cdd91615be33722fba178a4199aa8a5e0bbbefde3d4ae2dfc93ec21ff929818dbf6aa"
 
 RPROVIDES:${PN} += "ayatana-indicator-renderer \
 libindicator-plugin.so \

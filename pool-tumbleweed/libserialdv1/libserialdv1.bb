@@ -3,10 +3,10 @@ DESCRIPTION = "A library that provides an interface for audio encoding and decod
 AMBE3000 based devices in packet mode over a serial link."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.1.4"
+PV = "1.1.5"
 
-RPM_NAME = "libserialdv1-1.1.4-1.9.aarch64.rpm"
-RPM_HASH = "36fd7152c6a9794fa5f2a9a7693d0a579d79f2bc663efdff753e8280b90a80d545e42104b0d712e3d39f1fb8e5074e77a93ca41b350d08fec188e6caabb6147a"
+RPM_NAME = "libserialdv1-1.1.5-1.6.aarch64.rpm"
+RPM_HASH = "1b5451fb1ef0ae01d7c94a872554c7cbf33b1cdc472a331b4d27f47bfa78567b5d740b2e1a379ace0b8c285378d78b229d39cd5fc4fb652cf7e05896c05cb908"
 
 RPROVIDES:${PN} += "libserialdv.so.1 \
 libserialdv1"

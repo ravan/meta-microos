@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.10.1"
 
-RPM_NAME = "ksnip-lang-1.10.1-1.2.noarch.rpm"
-RPM_HASH = "79c30faa626cb64705aa8005ccbe774db9ef27234cdfbad8305b96827021da3dac0c0d2ff222ea4015b578b932a5ad6d71035b75398980a1d247e3dab36c3b88"
+RPM_NAME = "ksnip-lang-1.10.1-3.7.noarch.rpm"
+RPM_HASH = "1581da51a3aada484aa098df5fc747085d73dad10190542ed6e660bf38f633147d67d53960dc55629c6a0e15436ff371cb8eced21ff4a6f1080ce1b25bb56d2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksnip-lang \

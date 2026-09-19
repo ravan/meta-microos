@@ -8,10 +8,10 @@ the one used for 8-bit patterns may be implemented in the \
 future."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-ukrainian-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "93f8cfa5ebe040d9aa2a369dee042f7063f4c38e083eca85746e5715923f4ac48db985af1c76ab44620c7d107c8475cc5c4ba969956318242bab8815f5af7683"
+RPM_NAME = "texlive-hyphen-ukrainian-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "1e007601b91d372e8a8e0ee1498e2e4abf60ac1c2956906d1a1cb8294ed000dd42ace5a1f2e094ba036af70dde08e8ffdadeb8d82019a2d30aeb926c49258b75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-quote-uk.tex \

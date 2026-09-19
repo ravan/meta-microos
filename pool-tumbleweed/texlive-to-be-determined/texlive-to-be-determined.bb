@@ -5,10 +5,10 @@ hide them all with a single package option hide, or just make \
 them disappear entirely with the option off."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.0svn64882"
+PV = "2026.226.0.0.3.2svn72527"
 
-RPM_NAME = "texlive-to-be-determined-2023.209.0.0.3.0svn64882-53.1.noarch.rpm"
-RPM_HASH = "1418bfd26b0ae303238c388d021a9dc33f424d7875771780198465aef8616ec163a5036147969d093dc0cbf71bdbf280444b9c49b65813428a5292cf2e2efdac"
+RPM_NAME = "texlive-to-be-determined-2026.226.0.0.3.2svn72527-59.2.noarch.rpm"
+RPM_HASH = "043cfdbe0afdf9e74f15d05672076f49d3b0891be18a7d7d643c9dd460e13739e4a04db3ba946ff595e4f3e4bfb8a58f0b721cf95dd82c5bfc983c2d2a9c2392"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-to-be-determined.sty \
@@ -20,6 +20,7 @@ ed \
 findutils \
 grep \
 sed \
+tex-mathtools.sty \
 tex-soul.sty \
 tex-xcolor.sty \
 tex-xkeyval.sty \

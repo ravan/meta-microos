@@ -2,10 +2,10 @@ SUMMARY = "Haskell hashtables library documentation"
 DESCRIPTION = "This package provides the Haskell hashtables library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.1"
+PV = "1.4.2"
 
-RPM_NAME = "ghc-hashtables-doc-1.3.1-1.9.noarch.rpm"
-RPM_HASH = "fb4aaee21284d530d1d0791c2f90b9b3448728008be4985b844e17556dfa2f9e62cea53b8ca6531ccbc5d9f926ffbd48069bc0e502111d1202bb8cfd669a186f"
+RPM_NAME = "ghc-hashtables-doc-1.4.2-1.20.noarch.rpm"
+RPM_HASH = "01cfb564fe48cb17da92547da1f0e41c6920c5ca146d55e05d27700f8b9f31dbd23e858d7f7322c63d02ad101614a4f2148aec83b1a0b68647e22b2f141d2cf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hashtables-doc"

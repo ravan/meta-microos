@@ -5,16 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-ssh-3006.0-4.1.aarch64.rpm"
-RPM_HASH = "e467916e62102f6d4c6a009d3922bbd16465c17e81e818cfcac6824d4ef09cd811262231669ffef7721cbe89dda71af5649f1cc40c7fadf50e67ba4564a90148"
+RPM_NAME = "salt-ssh-3006.0-70.1.aarch64.rpm"
+RPM_HASH = "c2d03dafac01986a32ace9c4668a3dbf119fbca7a9ccff274fc3814f0b6c21951f5da0ce691257a55ca3483b73687db3ddc168deb9178a33ecb177dc30163fdd"
 
 RPROVIDES:${PN} += "salt-ssh"
 
-RDEPENDS:${PN} += "/usr/bin/mkdir \
-/usr/bin/python3 \
-/usr/bin/touch \
-fillup \
-salt \
+RDEPENDS:${PN} += "salt \
 salt-master \
 systemd"
 

@@ -1,12 +1,12 @@
 SUMMARY = "Qt 6 WlShellIntegration library"
 DESCRIPTION = "The Qt 6 WlShellIntegration library. \
 This library does not have any ABI or API guarantees."
-LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6WlShellIntegration6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "a5969d1d11f0d3afe9ccb1b457ae2baeb0041b0c90da1555160c1153dba6f561d7adba15127ddb35986c5c9e4c709570bc57d8e218bea77942966fd6e977990d"
+RPM_NAME = "libQt6WlShellIntegration6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "9887f85a00ee0bc0757f02d48564c9cfe55f4aa4b779f58927c06f4d322c6508a46db4d938849772bfa432f1d0330ca3dcab4d91edb1901522c3aefb281be7fc"
 
 RPROVIDES:${PN} += "libQt6WlShellIntegration.so.6 \
 libQt6WlShellIntegration6"

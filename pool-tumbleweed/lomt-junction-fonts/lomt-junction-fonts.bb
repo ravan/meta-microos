@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.20121218"
 
-RPM_NAME = "lomt-junction-fonts-0.20121218-8.7.noarch.rpm"
-RPM_HASH = "214004b93b2d23e0150b9aaf48f70f7b2290a8383b0a5efae920170932701b500fc2f3ea05258e1c009c0e734214d730d30617ffe1a9f7a2238d571050e6cb7a"
+RPM_NAME = "lomt-junction-fonts-0.20121218-8.15.noarch.rpm"
+RPM_HASH = "bcb2fb9ea3f36946d8fa7b0f5cccdea0fe197c922e09ffa3d77e4dbbf0c69ca5bd172824c08465ad7e9181f72ae77f3673f98de86fb5304507461692a76c33ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-junction-fonts"

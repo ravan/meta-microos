@@ -4,13 +4,15 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "system-user-velociraptor-1.0.0-4.1.aarch64.rpm"
-RPM_HASH = "b63282828b4d26188d5690f3268fef63783846a5a030a558b364bf4b07800b372a6740ea80c050d4301569249e009f6641acc2f4b7df2773846f934b37dc75a6"
+RPM_NAME = "system-user-velociraptor-1.0.0-2.4.noarch.rpm"
+RPM_HASH = "380401cd67e444dffebb02d6ffd8ce9663f47404d288c970ad08c869ecda4d080999251f07c69e84fd0cb2dbe3f078416bf46e646fced1e8612adfa61b2fee9e"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-velociraptor \
 system-user-velociraptor \
 user-velociraptor"
 
-RDEPENDS:${PN} += "/usr/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh \
+sysuser-shadow"
 
 inherit rpm

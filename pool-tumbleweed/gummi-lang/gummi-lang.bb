@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.8.3"
 
-RPM_NAME = "gummi-lang-0.8.3-1.7.noarch.rpm"
-RPM_HASH = "f45037675e5d640053a6d96b56489f40788f72532b56e83d50bc6da67ba2cbe7cc585fb143d439251b6d7331dd107e3168eea0bb9164ff551110d2e3bf4227e7"
+RPM_NAME = "gummi-lang-0.8.3-3.6.noarch.rpm"
+RPM_HASH = "c5add394c5a5ecf005b161ddadd673a22abe0d658ecc218a067a0195db0baef1a3304c7721d94386cd8ba4c9a56b9ff6681d0d3f59bd50a78929e089f6d1a4e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gummi-lang \

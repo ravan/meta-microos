@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.11"
 
-RPM_NAME = "dfu-util-0.11-2.3.aarch64.rpm"
-RPM_HASH = "fb8abf556d81eedd8105ce0beba0797af6cdfde6de66bfc1bb48e8e6af867cb4dd745c6a9f74ffa698f8f86fc7208b3f95767756c86bc95002222766cc9023f2"
+RPM_NAME = "dfu-util-0.11-2.13.aarch64.rpm"
+RPM_HASH = "d5a3514ed76e8d4939d8ce79bda558327be22c9a37780e6e41e7b5fb4da2b08fe04811c1da9fdf042bbcfa21ace37898c0f1d4e9c4224fa99f60d3a22db790c1"
 
 RPROVIDES:${PN} += "dfu-util"
 

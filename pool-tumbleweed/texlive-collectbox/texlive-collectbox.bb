@@ -11,10 +11,10 @@ contain verbatim material or other special use of characters. \
 The macros were designed for use within other macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4csvn64967"
+PV = "2026.226.0.0.4csvn77682"
 
-RPM_NAME = "texlive-collectbox-2023.209.0.0.4csvn64967-54.1.noarch.rpm"
-RPM_HASH = "662ec706b49632dd779556764d51a67a9a161341e04129cf6b39ef3d8131ab9705ca7c95e1c40650aba37959d6332c9b0fdaece502fe6d034df1f3e94664985c"
+RPM_NAME = "texlive-collectbox-2026.226.0.0.4csvn77682-60.2.noarch.rpm"
+RPM_HASH = "83fd604cb60105f305dda1cfb9c388d862a82473a352d14a60bdf9c91015aec183d0d9b6dc2d881831be006dde5c95d3ec33cf2946addddc36ae6e0eac935a79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-collectbox.sty \

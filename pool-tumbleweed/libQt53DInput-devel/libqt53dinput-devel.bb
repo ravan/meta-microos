@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 5 Input 3D library"
 DESCRIPTION = "Development files for the Qt 5 Input 3D library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt53DInput-devel-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "1cb06744ba3d92b65099310ded9bcc596877c138645e09ded374f62e1e15ce11244908b481e0b051d53b07b92f53da479344a5294b00400a53bc82799adfc4e7"
+RPM_NAME = "libQt53DInput-devel-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "e61f6b635338d94e8c1ef0586abbb125b12a00b027fd6323d9136cd6f1bf70b78736b7f3559ed958948baa93d802c0b74d556798260d48685c9d1bb2a4794e64"
 
 RPROVIDES:${PN} += "cmake-Qt53DInput \
 libQt53DInput-devel \

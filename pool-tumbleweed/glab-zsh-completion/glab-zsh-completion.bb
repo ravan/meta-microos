@@ -2,10 +2,10 @@ SUMMARY = "Zsh completion for glab"
 DESCRIPTION = "Zsh command line completion support for glab."
 LICENSE = "MIT"
 
-PV = "1.32.0"
+PV = "1.115.0"
 
-RPM_NAME = "glab-zsh-completion-1.32.0-1.1.noarch.rpm"
-RPM_HASH = "fc2f54fcd60ef814f7230a73f8764bed6ec92f13ed3750248c7076d7185cb8f09121446611eea53eee5c593d7ee54b188d4a176fddf2dd87b5f1325b59d889ac"
+RPM_NAME = "glab-zsh-completion-1.115.0-1.1.noarch.rpm"
+RPM_HASH = "00c084935949672ac8bb9216db460b8c798ba735b9cd36a9f21835f9252d81edd316f93b65725db527100344a290cdb490127e6f9ddd83bebd12151b7af0398d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glab-zsh-completion"

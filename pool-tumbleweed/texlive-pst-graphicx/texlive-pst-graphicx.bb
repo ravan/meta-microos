@@ -4,10 +4,10 @@ the graphics bundle's (original) keyval package, which clashes \
 with pstricks' use of xkeyval."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn21717"
+PV = "2026.226.0.0.02svn21717"
 
-RPM_NAME = "texlive-pst-graphicx-2023.209.0.0.02svn21717-53.1.noarch.rpm"
-RPM_HASH = "8c381f7c5cb153359b8a4bf9f4079a444f7ef9c8d6171d425308ae491d86fd9e284f32f732390d4444951153fcd56635a56cfb54c3a968d452b9a275bb20c8c2"
+RPM_NAME = "texlive-pst-graphicx-2026.226.0.0.02svn21717-59.2.noarch.rpm"
+RPM_HASH = "f80ac826644d63d779419cbe37cc64a93a8f9044bd758aaf2bff4133f51dd154c5b645ec0325991ea706739d9ce9800bc0a4cde06be1958f58d03950ef56b78b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-graphicx.tex \

@@ -12,22 +12,20 @@ gstreamer-plugins-good because: \
 - there are possible licensing issues with the code."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-plugins-ugly-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "aa032c472078670f46d238561927395ef3e17a3cee8a2e6b4a4b4911fd42f3c4c86707ffedaf2c789392ef2015c79fa9f0e0fe0898bbc9c4d9165f29e589398f"
+RPM_NAME = "gstreamer-plugins-ugly-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "383c5e0774c8193c0ea9254da91a64ac782d8a536265cab8baff0c5fcd842f3246a9856b4c95024e3d364097fc590cec54b028e0a9c061dcb06709914b30d7b1"
 
 RPROVIDES:${PN} += "gst-plugins-ugly \
 gstreamer-plugins-ugly \
 gstreamer1 \
 libgsta52dec.so \
-libgstamrnb.so \
-libgstamrwbdec.so \
+libgstasf.so \
 libgstcdio.so \
 libgstdvdlpcmdec.so \
 libgstdvdread.so \
 libgstdvdsub.so \
-libgstmpeg2dec.so \
 libgstrealmedia.so \
 patched-subset"
 
@@ -44,13 +42,11 @@ libgstaudio-1.0.so.0 \
 libgstbase-1.0.so.0 \
 libgstpbutils-1.0.so.0 \
 libgstreamer-1.0.so.0 \
+libgstriff-1.0.so.0 \
+libgstrtp-1.0.so.0 \
 libgstrtsp-1.0.so.0 \
 libgstsdp-1.0.so.0 \
 libgsttag-1.0.so.0 \
-libgstvideo-1.0.so.0 \
-libmpeg2.so.0 \
-libopencore-amrnb.so.0 \
-libopencore-amrwb.so.0 \
-liborc-0.4.so.0"
+libgstvideo-1.0.so.0"
 
 inherit rpm

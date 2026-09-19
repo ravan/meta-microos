@@ -1,11 +1,11 @@
 SUMMARY = "Javadoc for dom4j"
 DESCRIPTION = "Javadoc for dom4j."
-LICENSE = "BSD-3-Clause"
+LICENSE = "Plexus"
 
-PV = "2.1.4"
+PV = "2.1.5"
 
-RPM_NAME = "dom4j-javadoc-2.1.4-1.1.noarch.rpm"
-RPM_HASH = "14797e5bbc2f94cd3f82e387776a85f4ec22e56fe0d85f631ad32d2ecfdb23be94c484aa5a611140a61b353707e1ee4d46cc3cc9553972a4ac05acab77f62d34"
+RPM_NAME = "dom4j-javadoc-2.1.5-1.3.noarch.rpm"
+RPM_HASH = "c0c68d9b23dca14e82b58f8ebbd0ac4493de77bf18977cfa16487fe5abb1a2e13e4f515f4f452725fd6ef937041965a08897fd63d599b6a841adf4c50a7ceb4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dom4j-javadoc"

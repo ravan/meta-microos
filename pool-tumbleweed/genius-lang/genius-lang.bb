@@ -2,10 +2,10 @@ SUMMARY = "Translations for package genius"
 DESCRIPTION = "Provides translations for the 'genius' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.0.27"
+PV = "1.0.29"
 
-RPM_NAME = "genius-lang-1.0.27-1.10.noarch.rpm"
-RPM_HASH = "a59d1fc8c563cd3076397c5c372b560c16bda1af5e18ff80489b80c2bf36476ea72342fddf08e74c2407c0a3f36cc9f9393f3741053906e8815713e0f0cc5340"
+RPM_NAME = "genius-lang-1.0.29-2.3.noarch.rpm"
+RPM_HASH = "4a4aba59d5c53e1e26cc0d80538eade59ac8eaebd242416f3d78276d46073cc56a36a438ca746e8f005ec5b89c642a1854ee1ce8615c1da73ab6caa780d5dedb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "genius-lang \

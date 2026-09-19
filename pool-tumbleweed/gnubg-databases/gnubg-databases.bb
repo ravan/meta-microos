@@ -4,10 +4,10 @@ a stronger or weaker opponent calculate you own with tweaked parameters \
 according to the documentation."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.06.002"
+PV = "1.08.003"
 
-RPM_NAME = "gnubg-databases-1.06.002-3.5.noarch.rpm"
-RPM_HASH = "40a21928b25fe79b71ea36ea0b156eed14c3aa28ad3a7471ff0332bf9ed9471838a36460a0bf7ab49d2260addb45b9279c350c396e01143513454d69f65cf264"
+RPM_NAME = "gnubg-databases-1.08.003-1.6.noarch.rpm"
+RPM_HASH = "fecbd40c2458bb3222d898ed67dec4d77fd297859847686c7de71fa4d3224ffba760601269a18db878efedf06c1cbbe98367aee8f40b0f893bfe504d180dbd62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnubg-databases"

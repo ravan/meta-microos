@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "libsharp0-1.0.0-1.12.aarch64.rpm"
-RPM_HASH = "5ea4eb06744081ffb8ffab4b88b6b72ea5949bc06032e62d340d43de81efc2b0c65f148722bf2b6eff1c2efa4ad721f7c1589360315bfc92a2d1c4fb4e447e34"
+RPM_NAME = "libsharp0-1.0.0-1.22.aarch64.rpm"
+RPM_HASH = "8b7c42a6d3184b7eea598d442a628ea8f08a88095a496f1c8cc7c93322dc7aa0f09fe3a881e5e53a49426b337bcd1dc1288307facd66f3e8f3bf4190b2f4941e"
 
 RPROVIDES:${PN} += "libsharp.so.0 \
 libsharp0"

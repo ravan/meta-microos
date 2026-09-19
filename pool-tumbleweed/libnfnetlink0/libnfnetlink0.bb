@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "libnfnetlink0-1.0.2-1.8.aarch64.rpm"
-RPM_HASH = "9a2bfe86a7d4a8f1f25622764add8363f2531f4d608eb2c4fd2dc64f5e5c925bf831b69be518225f2c7d2b181deefcde7ad9a03cd1b9f07710755c84a4bb0773"
+RPM_NAME = "libnfnetlink0-1.0.2-1.17.aarch64.rpm"
+RPM_HASH = "f1d876f6eee96646c56d2b8a4b03248b7013177ebf4c7a7b42b18944f524a0e457d784276b6913dd68a625e918561d7e94b58319c9a62dd4e4b69b824b51e1e7"
 
 RPROVIDES:${PN} += "libnfnetlink.so.0 \
 libnfnetlink0"

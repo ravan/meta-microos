@@ -5,10 +5,10 @@ create standard colormap definitions in order to facilitate sharing of \
 scarce colormap resources among clients using PseudoColor visuals."
 LICENSE = "MIT"
 
-PV = "1.0.5"
+PV = "1.0.6"
 
-RPM_NAME = "xstdcmap-1.0.5-1.2.aarch64.rpm"
-RPM_HASH = "15893358fd9b5f438478f6a2da605069cb82609d4e85cbe0e5e1475abca7b5fa2327be2bfd3cd0b8d42cb3de6b937516152259b9d464aac3cec5093d82667db7"
+RPM_NAME = "xstdcmap-1.0.6-1.2.aarch64.rpm"
+RPM_HASH = "ca830c36ab6904ec0486b4b968eed6ac06e16b457c6b163f31b5a08b81db0fe136c7f83401bbfc62ba047cb23175fe8e104b84369e32712aa4b0582a7b861dac"
 
 RPROVIDES:${PN} += "xstdcmap"
 

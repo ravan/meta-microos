@@ -1,14 +1,13 @@
 SUMMARY = "An SSL/TLS protocol implementation"
-DESCRIPTION = "LibreSSL is an open-source implementation of the Secure Sockets Layer \
-(SSL) and Transport Layer Security (TLS) protocols. It derives from \
-OpenSSL, with the aim of refactoring the OpenSSL code so as to \
-provide a more secure implementation."
+DESCRIPTION = "LibreSSL is an implementation of the Secure Sockets Layer (SSL) and \
+Transport Layer Security (TLS) protocols. It derives from OpenSSL, \
+with refactorings."
 LICENSE = "OpenSSL"
 
-PV = "3.7.0"
+PV = "4.3.2"
 
-RPM_NAME = "libressl-3.7.0-1.3.aarch64.rpm"
-RPM_HASH = "4fd86521f94fddff8825551ed782dfd5eed34c3911a00ba1524591bff73496f7430d6494c6b4b687b715b6add56e0cf77a42694ee282cb6753c6ef8306ef0bf0"
+RPM_NAME = "libressl-4.3.2-1.3.aarch64.rpm"
+RPM_HASH = "8d82caf35a9fcb42f7134a563b6893cfffa03b7c16083c0db8042debf55848a80d1eff23bfc196013dc9d2a2ef72886919e056597dbd67deb06a7d8e5eaed6a5"
 
 RPROVIDES:${PN} += "config-libressl \
 libressl \
@@ -16,9 +15,6 @@ openssl-cli \
 ssl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
-libcrypto.so.50 \
-libssl.so.53 \
-libtls.so.26"
+libc.so.6"
 
 inherit rpm

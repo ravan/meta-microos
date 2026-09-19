@@ -5,10 +5,10 @@ originally developed as part of the OpenBSC project. \
 The libosmogb library contains a GPRS BSSGP protocol implementation."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.8.0"
+PV = "1.14.2"
 
-RPM_NAME = "libosmogb14-1.8.0-1.2.aarch64.rpm"
-RPM_HASH = "80102d71441e75c6d76bc6c192a5e84f1fae4057dc4bf8c6c2a903eeb0e1971cb7f55e94d068dbc69639a17f3d9eaa3ae85a8cdef6415192bc16553ca7d61c4c"
+RPM_NAME = "libosmogb14-1.14.2-1.1.aarch64.rpm"
+RPM_HASH = "8c4434d116d0445be4d81d3c132a9b28aab42d71d02a4ec94c3fcdf14ad8faa324e622ffe75b50d387ffce12af9b85462d8486aae197d37f09b22ba3e68f4dbc"
 
 RPROVIDES:${PN} += "libosmogb.so.14 \
 libosmogb14"
@@ -16,9 +16,9 @@ libosmogb14"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libosmocore.so.20 \
-libosmogsm.so.18 \
-libosmovty.so.9 \
+libosmocore.so.22 \
+libosmogsm.so.20 \
+libosmovty.so.13 \
 libtalloc.so.2"
 
 inherit rpm

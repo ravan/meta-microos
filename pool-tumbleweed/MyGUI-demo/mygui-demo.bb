@@ -5,19 +5,19 @@ for games and 3D applications. \
 This package contains some demo applications for package MyGUI."
 LICENSE = "MIT"
 
-PV = "3.4.1"
+PV = "3.4.3"
 
-RPM_NAME = "MyGUI-demo-3.4.1-2.2.aarch64.rpm"
-RPM_HASH = "468789dd3328bf8a9a090f3693e450902cb3e6ce5054d2a531042e983eb258a6aa7079568df3a8b52f8f1beabe263d5d93d300a210d962acd276aa615469f0c9"
+RPM_NAME = "MyGUI-demo-3.4.3-2.8.aarch64.rpm"
+RPM_HASH = "cb33565b8957081f9cba8f83385cc30bb266483e01dcaa78f7b5fff60574482862e79ea6c24ed872b366b280c237ffcefb14016ef2e2b0f4ab8a272b8259495c"
 
 RPROVIDES:${PN} += "MyGUI-demo"
 
 RDEPENDS:${PN} += "MyGUI \
 ld-linux-aarch64.so.1 \
 libMyGUI.OgrePlatform.so \
-libMyGUICommon.so.3.4.1 \
-libMyGUIEngine.so.3.4.1 \
-libOgreMain.so.13.5 \
+libMyGUICommon.so.3.4.3 \
+libMyGUIEngine.so.3.4.3 \
+libOgreMain.so.13.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of uplatex"
 DESCRIPTION = "Binary files of uplatex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn52800"
+PV = "2026.20260301.svn52800"
 
-RPM_NAME = "texlive-uplatex-bin-2023.20230311.svn52800-93.2.aarch64.rpm"
-RPM_HASH = "91435197682939a9189ddb95d505144100b91fc7ae7f6b9e5e6df70704bdcbd01121de7f04ddec4436008ed433249fba4c3737a117dcc8251ad32a27b7db8b4d"
+RPM_NAME = "texlive-uplatex-bin-2026.20260301.svn52800-120.4.aarch64.rpm"
+RPM_HASH = "8a2ff9983d1c6f95e325477f50a571fe895aafab06620cc5dedb4061d5a68a94ee6d18edceaa8116206293fd7d817126870abb03540a51cf85eb09694a488330"
 
 RPROVIDES:${PN} += "texlive-uplatex-bin"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "The developmental files that must be installed in order to compil
 which use libgme."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.6.3"
+PV = "0.6.5"
 
-RPM_NAME = "libgme-devel-0.6.3-2.5.aarch64.rpm"
-RPM_HASH = "b81df7fd20029148a07d399e37f28ffdb77a47b8b70b387758fe0d99aeb9e31cc727df1519f57a2d590ab82f43966e22ee50ef63ebef978097c26d0b09e60e7d"
+RPM_NAME = "libgme-devel-0.6.5-1.3.aarch64.rpm"
+RPM_HASH = "891a0187990f1d8af6adc00758224889150617e9a94c9d5197046eb5ddbabd0ef5e3e28efa6ba4396d20abb3bfc33fb7bdd540c80b603f29757bfe64d9b9da5a"
 
 RPROVIDES:${PN} += "libgme-devel \
 pkgconfig-libgme"

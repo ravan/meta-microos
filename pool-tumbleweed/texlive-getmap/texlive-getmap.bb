@@ -9,10 +9,10 @@ lua script may be used from the command line; a bash version is \
 provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.11svn50589"
+PV = "2026.226.1.11svn75447"
 
-RPM_NAME = "texlive-getmap-2023.209.1.11svn50589-53.1.noarch.rpm"
-RPM_HASH = "5c27c7b21469e10be448678a51b7edc6901ed1c2955fface244c600d807c4fcd6aba7c2483ae3f45e09c3bc301732cb24ee00cb568c7767151e2287cc4e6551b"
+RPM_NAME = "texlive-getmap-2026.226.1.11svn75447-60.2.noarch.rpm"
+RPM_HASH = "ca36db4c5e1f178fc8fcf675675e8908dcd4bc2161569ab7c366327bc5459337eea66da8066c1247b5df6cf15bb74ca616d6ace8c10581f76991f5bca14b7c15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-getmap.cfg \

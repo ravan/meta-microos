@@ -2,10 +2,10 @@ SUMMARY = "Latex input method for IBus framework"
 DESCRIPTION = "ibus-table-latex provides Latex input method on IBus Table under IBus framework."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.16"
+PV = "1.3.21"
 
-RPM_NAME = "ibus-table-latex-1.3.16-1.1.noarch.rpm"
-RPM_HASH = "b6de075076b7ed914be3f081361b27578577882a510dc65a41c704f1f0d4153b476bc2ae495aa23861dccd78a31fc0810e47bc06c2add7ad2e3c8dc3e1b50bdc"
+RPM_NAME = "ibus-table-latex-1.3.21-1.5.noarch.rpm"
+RPM_HASH = "2e5f49e2802baf82f604ab5073230dbd518d4032b8218157d3f4e49efb629f41779dc5408be1343d22dfb6476f0931d9f5d8d721cced151f99d5a6f9c5846b38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-latex"

@@ -2,10 +2,10 @@ SUMMARY = "Minuet: Build Environment"
 DESCRIPTION = "Development headers and libraries for Minuet."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "minuet-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "df643404dd9d7db8abce2b1f46d6d59dd46c4ac2ee2a2b866bcd605f1903af1efa11f483e250af2567f63377be5ebd5e1d650da1e9feda333e0a5208abe3e089"
+RPM_NAME = "minuet-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "1545eda3c544ddfae41031ef1b8603fccde08d137a1af0a5383043058ed740e73f542d34834017bc89571926d3de740146d924258a53c3989fbe1d251a7a67db"
 
 RPROVIDES:${PN} += "minuet-devel"
 

@@ -8,17 +8,18 @@ RDS groups are printed to the terminal as line-delimited JSON objects \
 or, optionally, undecoded hex blocks (-x)."
 LICENSE = "MIT"
 
-PV = "0.20"
+PV = "1.3.1"
 
-RPM_NAME = "redsea-0.20-1.10.aarch64.rpm"
-RPM_HASH = "73f09cdcde007360f758c4156ba40372375019342654df6b4701488e1f09023a279e796c533bc11b47d7ebba9fcd296c8da4f6159416aa98cf08591ad4ec7308"
+RPM_NAME = "redsea-1.3.1-1.2.aarch64.rpm"
+RPM_HASH = "0163ca1360641656384f699c76dc6314ba582dc96a0afab7fc0a1dc496fc466d4af93fb8e9f9821bd923ed8adaee1c0ebee70a5b962a42f0a395bce2aff2f9c6"
 
 RPROVIDES:${PN} += "redsea"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libliquid.so \
+libliquid.so.1 \
+libm.so.6 \
 libsndfile.so.1 \
 libstdc++.so.6"
 

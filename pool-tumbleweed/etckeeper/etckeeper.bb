@@ -8,10 +8,10 @@ quite modular and configurable, while also being simple to use if you \
 understand the basics of working with version control."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.18.18"
+PV = "1.18.22"
 
-RPM_NAME = "etckeeper-1.18.18-2.3.noarch.rpm"
-RPM_HASH = "f0c3af088af92ce532a1e81e3dd3c9c1035f66ae971d777b147b5fa8536f0601f30aeb7b1027ce360d1593ac133327405217d587e6929f151482e9789781f9dd"
+RPM_NAME = "etckeeper-1.18.22-1.4.noarch.rpm"
+RPM_HASH = "9bff8b55417a2c40e75b61dda35b3850505a0026c5b365419ad31539c409f83cca5376f7fab639f9798e56b3d9ca731cc97406f94cb6d185de7f28eef70a91f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-etckeeper \

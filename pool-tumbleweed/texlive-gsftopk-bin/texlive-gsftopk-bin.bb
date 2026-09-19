@@ -2,10 +2,10 @@ SUMMARY = "Binary files of gsftopk"
 DESCRIPTION = "Binary files of gsftopk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-gsftopk-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "ddd3f14f369d250b5573422e55aec4fb9177920da4ac5bad59d7f93470c7261a3f720b9f2f49f0d1eeb85abbaad9343241013501c0b16b5c8d388b76af02b7ab"
+RPM_NAME = "texlive-gsftopk-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "ccb7d87a9fe5ab641bf82dba382d5494c9c08472d1c1923d8a5e8a82fb7d032b4e0ceb87d40d5b988ca413b971f679c1a8e138c639595325efe5e2f482672e68"
 
 RPROVIDES:${PN} += "texlive-gsftopk-bin"
 

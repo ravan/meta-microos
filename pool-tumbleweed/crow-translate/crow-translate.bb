@@ -3,10 +3,10 @@ DESCRIPTION = "A simple and lightweight translator that allows to translate and 
 text using Google, Yandex and Bing written with Qt5."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.10.0"
+PV = "3.1.0"
 
-RPM_NAME = "crow-translate-2.10.0-1.5.aarch64.rpm"
-RPM_HASH = "742695cf3f135834595a0661367536af382c4b785e5a581537534f053fdb8c9d5646ae816b401378a84d4df0076db136fee9a87a20fb51be51e199cbdbd145c8"
+RPM_NAME = "crow-translate-3.1.0-2.5.aarch64.rpm"
+RPM_HASH = "de354892f2919164fc46cbcc95107882c6a21c99e495a5256036cad57ac2de9655943cf0b538c06a1a12fda1421baa0f941100344bac0a93bdd1c5388846a7db"
 
 RPROVIDES:${PN} += "crow-translate"
 

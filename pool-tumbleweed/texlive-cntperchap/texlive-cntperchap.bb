@@ -9,10 +9,10 @@ memoir.cls, and scrbook.cls. The packages assoccnt (by the same \
 author) and xparse are needed as well."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn37572"
+PV = "2026.226.0.0.3svn37572"
 
-RPM_NAME = "texlive-cntperchap-2023.209.0.0.3svn37572-54.1.noarch.rpm"
-RPM_HASH = "dd74fb19b4436e4cfdfa977a57392587f27938230fffb928d9b17cd97b586505371da4a624976c7e2a7c86e319f26b59d34210dc7662c4dacdc53b4d5cb5c0b1"
+RPM_NAME = "texlive-cntperchap-2026.226.0.0.3svn37572-60.2.noarch.rpm"
+RPM_HASH = "2b977a2ae3a8f18b14a0994b371e3cf06164a515d600b8b3e6e9726fc7e0cb1fca97d394a56245880d39cb41eb97726fbf3c661da8cdf5b5480717fded564272"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cntperchap.sty \

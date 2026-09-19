@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libgtop"
 DESCRIPTION = "Provides translations for the 'libgtop' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.40.0"
+PV = "2.41.3+4"
 
-RPM_NAME = "libgtop-lang-2.40.0-4.4.noarch.rpm"
-RPM_HASH = "8f23724d180c352d5ee622c36d2337a6aafcc01cb9670464d3cea9029e722250471cb30d26cb971b0ed237e74878bf8fea3dd03cf2a02fe0f6bc1ee0a075e861"
+RPM_NAME = "libgtop-lang-2.41.3+4-3.3.noarch.rpm"
+RPM_HASH = "f20435138868c15d0a9095cecd57b4a50650bf5b64f1fc10313c983607248f58bf3726bdcebd20efe5c89a28e2772c0fd2edbc751490211dfbab87c034bdf1fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgtop-lang \

@@ -4,11 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.5.0"
 
-RPM_NAME = "usrsctp-devel-0.9.5.0-1.10.aarch64.rpm"
-RPM_HASH = "1df1f4122422060913a4c49e04c8a9b15d5eeee803d56a8dcfee5b3e843fb985efde45785f70b8278e83fd55ea2e103fdcdbd2a535146eaceb093c4e6ea9f409"
+RPM_NAME = "usrsctp-devel-0.9.5.0-2.5.aarch64.rpm"
+RPM_HASH = "92bea3bcf49ba582f2b71ea76f28549f557454776a6e1b4867c367b6619c41215275e5200cf74a7a30292d4b1b6eb580fbd1112c6c22456c08d7d62957fe3f57"
 
-RPROVIDES:${PN} += "usrsctp-devel"
+RPROVIDES:${PN} += "pkgconfig-usrsctp \
+usrsctp-devel"
 
-RDEPENDS:${PN} += "libusrsctp2"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libusrsctp2"
 
 inherit rpm

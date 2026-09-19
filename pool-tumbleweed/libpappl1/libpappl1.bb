@@ -8,10 +8,10 @@ printing to printers connected via USB and network \
 (AppSocket/JetDirect) connections."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.4"
+PV = "1.4.12"
 
-RPM_NAME = "libpappl1-1.3.4-1.1.aarch64.rpm"
-RPM_HASH = "e338b57d5e8fd99f95c635804094ebacca58a690f99c28fd43e256f3096861f90999a7e49b11cb03211a8c36bff153cc12bd67061ee0ec249ff61f10f99acc1c"
+RPM_NAME = "libpappl1-1.4.12-1.1.aarch64.rpm"
+RPM_HASH = "3fe984d66341cf3b21108bbed43a387f5a807e47cdd4aec9c701b241b14f1e933c757c7753497cc1473fe15417c33a955665042f80a018d9ed7ed4e9496c1e51"
 
 RPROVIDES:${PN} += "libpappl.so.1 \
 libpappl1"

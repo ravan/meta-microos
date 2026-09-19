@@ -13,10 +13,10 @@ package supports the Created, Modified, and Size keys in the \
 EmbeddedFile's Params dictionary."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9svn42099"
+PV = "2026.226.1.9svn77682"
 
-RPM_NAME = "texlive-attachfile-2023.209.1.9svn42099-54.1.noarch.rpm"
-RPM_HASH = "03b91d54e7d121568dd0ace9775ef06fe8ce4973218b97cc3df1e17e614bb0f33081f7e788094081333004ad843638d821318d17ec2d43b0121feeb4166d5990"
+RPM_NAME = "texlive-attachfile-2026.226.1.9svn77682-60.2.noarch.rpm"
+RPM_HASH = "1dd65775900ce0ff4f1cf7f8441015cfbc30bb14be414c6b5a87c61640b71c5bc9612f10c4f2a3335cfd6e48219580ee91b6b2c48880c604bc72509734e0d213"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-attachfile.sty \

@@ -5,10 +5,10 @@ PDF file which can be interpreted by the PDF presenter console \
 and hyperxmp."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.7.0svn63866"
+PV = "2026.226.0.0.7.1svn68610"
 
-RPM_NAME = "texlive-pdfpc-2023.209.0.0.7.0svn63866-52.1.noarch.rpm"
-RPM_HASH = "0f949e70a559751578aa2de5141fd08e59393e3a0ef05d4f856491173fc9680d4ff64087f5c36a3e5fbbe9c015d17260c510094ea46c208a41a97b80f4936433"
+RPM_NAME = "texlive-pdfpc-2026.226.0.0.7.1svn68610-58.2.noarch.rpm"
+RPM_HASH = "5ced98e04a7ca06f9c26f4b6c25d4dbf02d1fa034e6b66b2e061b82895e3e9e60ffe248babe3a181ccb7936dbb930875663eb876ecb98f910a3a2f2e0742a170"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfpc.sty \
@@ -23,6 +23,8 @@ sed \
 tex-hyperxmp.sty \
 tex-iftex.sty \
 tex-kvoptions.sty \
+tex-pdftexcmds.sty \
+tex-stringenc.sty \
 tex-xstring.sty \
 texlive \
 texlive-filesystem \

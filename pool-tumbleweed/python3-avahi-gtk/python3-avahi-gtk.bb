@@ -5,14 +5,14 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "python3-avahi-gtk-0.8-23.1.aarch64.rpm"
-RPM_HASH = "5ebdef4aba76f91d9989555438fcf1d92130b428bbf76afdb15189ed459f2f6ce875f290fed698da1a7010875eb18e433a186988b033fef3664f83d26b00e6c2"
+RPM_NAME = "python3-avahi-gtk-0.8-45.2.aarch64.rpm"
+RPM_HASH = "77e01d7a8b615fe846a9a003e7db95b3e9bf28cec4fdb3b87f982659cfdde7d61f993df3b989671ae52080722ed7d124d7e551c45c94a2d723d9e3fcdedab82a"
 
 RPROVIDES:${PN} += "python-avahi-/usr/bin/avahi-discover \
 python-avahi-gtk \
 python3-avahi-gtk"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 python3-avahi \

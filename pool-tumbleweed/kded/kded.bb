@@ -3,10 +3,10 @@ DESCRIPTION = "KDED runs in the background and performs a number of small tasks.
 Some of these tasks are built in, others are started on demand."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kded-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "ad0e60e8960a39f8bbc979c360cd3f1e7e9cdf5fa4247b17cb7497a1b89f31eafc191d24fd3548e6dc04e92b79c9424d180250f494d8f46821c62d9d77a2388a"
+RPM_NAME = "kded-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "65564b9a4fb73d1413efa9b9966a32705b7ef5a09f476fd125e143f2a137f198b59c361cd2a617e4491714f7535486a0d0643d203da3ab94dcc75e754ea8cd55"
 
 RPROVIDES:${PN} += "kded"
 

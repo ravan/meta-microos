@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & (CDDL-1.0 | GPL-2.0-only)"
 
 PV = "1.0.1"
 
-RPM_NAME = "jboss-jaxrs-2.0-api-1.0.1-3.9.noarch.rpm"
-RPM_HASH = "467e7c1889abf21b25c5e3332eaf0781d8f486a8b833b3af19e0c7918ed4b1637b1b631476d30d762d95f8b7fb6fd6881f418558d3e5cf30059152ff18518308"
+RPM_NAME = "jboss-jaxrs-2.0-api-1.0.1-5.17.noarch.rpm"
+RPM_HASH = "35db1c38538ac3efd8ac8076324b690e5c94c691ee66f613e68be043a4d70505d8ebff5e547a49c5223547b5dfd320503b772a2d2baa4e32076ad1f7b0871da1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-jaxrs-2.0-api \

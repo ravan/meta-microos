@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.7.2"
 
-RPM_NAME = "openobex-apps-1.7.2-3.4.aarch64.rpm"
-RPM_HASH = "0fd7deca8a848b3109c8c5e3d354f4ca687493464075cbc402235f7ac70a69402ad868ccb5f636176c3390c8e788cf7750c246f11db381dafb57a3c5a3637d92"
+RPM_NAME = "openobex-apps-1.7.2-3.14.aarch64.rpm"
+RPM_HASH = "9bdb401dc86e9257f13601773d4cd16121a8a2b6e59142b06cebf902354fa1a38aa1ce6942b51a7c255448f205392331e34ceeeb510b3c95a382b4cca5d74fc1"
 
 RPROVIDES:${PN} += "openobex-apps"
 

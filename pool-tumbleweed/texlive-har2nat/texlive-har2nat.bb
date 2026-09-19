@@ -8,10 +8,10 @@ usepackage{har2nat} It is important that har2nat be loaded \
 after natbib, since it modifies natbib commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn54080"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-har2nat-2023.209.1.0svn54080-54.2.noarch.rpm"
-RPM_HASH = "fe306d6653c6d2c1c19f149fc5006e1363b97bd79ad53dd7f779bc25b78812792d4f6c049b7e928c1d03b3a5d16bca4f5a39312cacf9aee22b7fc23188ca6bd7"
+RPM_NAME = "texlive-har2nat-2026.226.1.0svn77682-60.4.noarch.rpm"
+RPM_HASH = "d6d09d6174e9f4c75ef53cfe56372c41a5513f24ac573ecbd2bc1e788a498fa8decbe0c35aef567d43537f485c0a6203a90e717061abf86147a493003f7d5752"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-har2nat.sty \

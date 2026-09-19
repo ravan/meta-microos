@@ -1,18 +1,20 @@
 SUMMARY = "Development files for libupnpp"
 DESCRIPTION = "The libupnpp-devel package contains libraries and header files for \
 developing applications that use libupnpp."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.22.2"
+PV = "1.0.3"
 
-RPM_NAME = "libupnpp-devel-0.22.2-1.4.aarch64.rpm"
-RPM_HASH = "03017d3b98d985e86e04e30d6e5a044ffeb9f45c876a03341485fa06a28e4d40f1d4555a1a8a65e2a6441924a037cad95f55f28b683fc58bd985f82373606155"
+RPM_NAME = "libupnpp-devel-1.0.3-1.5.aarch64.rpm"
+RPM_HASH = "ff82fc647f2cb485a95b515e1eec93d7e44a9a3f659abab9168098849e3fd581dc34c388aa121dce5172c85393ab93e699303ea6a5437037eacac9e3b318fe3c"
 
 RPROVIDES:${PN} += "libupnpp-devel \
 pkgconfig-libupnpp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libupnpp12 \
-pkgconfig-libcurl"
+libupnpp17 \
+pkgconfig-expat \
+pkgconfig-libcurl \
+pkgconfig-libnpupnp"
 
 inherit rpm

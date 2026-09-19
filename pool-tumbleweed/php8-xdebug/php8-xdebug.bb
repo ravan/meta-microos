@@ -16,10 +16,10 @@ Xdebug also provides: \
   * capabilities to debug your scripts interactively with a debug client"
 LICENSE = "PHP-3.0"
 
-PV = "3.2.2"
+PV = "3.5.3"
 
-RPM_NAME = "php8-xdebug-3.2.2-3.1.aarch64.rpm"
-RPM_HASH = "90690cade66b0dd95faaa260d9bd3b495605e5a0914bbc8d6717e29f658df96d5ef8b643715f8f352cab022f835cacf5f16d40070f4602f8bf334d5b9cd7275b"
+RPM_NAME = "php8-xdebug-3.5.3-16.3.aarch64.rpm"
+RPM_HASH = "4496354c35eb0155e672000bdf97ca73843f2ecb1c70637a3f44443168c7430f478f0de86366043c7e92cc12e5aba52a7ed52dff34232ae7ebeafb4f7eb5bf78"
 
 RPROVIDES:${PN} += "config-php8-xdebug \
 php-xdebug \

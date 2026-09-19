@@ -2,10 +2,10 @@ SUMMARY = "Short introduction to LaTeX, in Mongolian"
 DESCRIPTION = "A translation of Oetiker's Not so short introduction."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.26svn15878"
+PV = "2026.226.4.26svn15878"
 
-RPM_NAME = "texlive-lshort-mongol-2023.209.4.26svn15878-55.1.noarch.rpm"
-RPM_HASH = "083428e16ab50fe5bcb0d8a9c840a72d62f5e37f0c4451539dcb540ff7035b8fb853504bb490b43e4ff1273465f093b5fdc2bc1c2011b671359cce5077b564d9"
+RPM_NAME = "texlive-lshort-mongol-2026.226.4.26svn15878-61.2.noarch.rpm"
+RPM_HASH = "b0fa08b566fe695b2821c25414741008c73f891188020a0675fc80396914e4df3d1cca4b14c8c5e9d22d42ea8c501c1ded9e45d1e689088a30a47eaeea2a2572"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-mongol"

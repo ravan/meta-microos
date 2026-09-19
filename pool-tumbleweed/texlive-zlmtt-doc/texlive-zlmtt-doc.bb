@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-zlmtt"
 DESCRIPTION = "This package includes the documentation for texlive-zlmtt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.032svn64076"
+PV = "2026.226.1.032svn77682"
 
-RPM_NAME = "texlive-zlmtt-doc-2023.209.1.032svn64076-53.2.noarch.rpm"
-RPM_HASH = "e241d0793ed8d0741513397882c548914c479d31cb3a68d4699d7e919d736985383f0ea052e031a0f0ebb6a0f56975b2da8da3ab49028666580560d2863d9539"
+RPM_NAME = "texlive-zlmtt-doc-2026.226.1.032svn77682-59.4.noarch.rpm"
+RPM_HASH = "c5c7afd4b5d82c2dbfe123308b10989290d817e04a698808ced07140e16920aad31350610574d415d2501e3c13dda24c83c2e65442242482ae981c4e34e9ec74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zlmtt-doc"

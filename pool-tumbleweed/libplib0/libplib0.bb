@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.5+svn.2173"
 
-RPM_NAME = "libplib0-1.8.5+svn.2173-6.9.aarch64.rpm"
-RPM_HASH = "3c62f8a8fee83d1c713cd7ce4421db0ee377d5e583da3c877ceeb278c1f2e9b86e103170d743090b070ae30b1989655081df9437d5d25d6ac36cead7e64fafbb"
+RPM_NAME = "libplib0-1.8.5+svn.2173-7.10.aarch64.rpm"
+RPM_HASH = "55123abc2af828a6432a930f1d9fffda5edf386e969e61a311906fdf811a5cf22e8731afe4a6abdb53ea6b01cfc95eda9d85836f3b7eb14a04c7dd88c0e2e362"
 
 RPROVIDES:${PN} += "libplib0 \
 libplibfnt.so.0 \

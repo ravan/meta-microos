@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.8.3"
 
-RPM_NAME = "id3lib-examples-3.8.3-268.10.aarch64.rpm"
-RPM_HASH = "91bf179987880360f9a75f4d523faddcb0282bc5ebca7eeb92d77f83d2a8b91fed3b712201d16a12b1e450559219926ad0e0aad09e5c4e91bb6be0f1e2fe6a64"
+RPM_NAME = "id3lib-examples-3.8.3-271.5.aarch64.rpm"
+RPM_HASH = "4c7ed1be0345b476fb78bc0fbf995a033a63867b0a87ab6fbac7c5ef74f2b633a637e863cd7069e806447d20a88572d13043e1c79d0fae868104b4815980b12b"
 
 RPROVIDES:${PN} += "id3lib-examples"
 

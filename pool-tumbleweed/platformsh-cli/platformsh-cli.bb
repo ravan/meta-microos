@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "3.67.2"
 
-RPM_NAME = "platformsh-cli-3.67.2-1.6.noarch.rpm"
-RPM_HASH = "faaf0865910f4d8f1b6de33e66ade3a295c3475060997bcf3d5f259de0f6f2758133bbdc65a44b9998142baf56bf9cc428b054a318969cd738a68890724b8efc"
+RPM_NAME = "platformsh-cli-3.67.2-1.14.noarch.rpm"
+RPM_HASH = "59249f357ace11906886d2306efad03b698f23534294967f20b7f26de95dababf7531a1883c90c178212467bba8eaca9ca539a3cc723e6c095b6714c3e75bd82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "platformsh-cli"

@@ -5,10 +5,10 @@ This package contains the sound theme following the XDG theming \
 specification."
 LICENSE = "CC-BY-SA-4.0"
 
-PV = "20.10.6.1"
+PV = "24.04.0"
 
-RPM_NAME = "sound-theme-yaru-20.10.6.1-1.6.noarch.rpm"
-RPM_HASH = "436131b2ad5ebd2503c958ec3bfa9988c0d488dd660eaa1dfe12cbda1ea36b20656f85f88e00d26ccd2154bd6576b972c1b6c765defbc19a10f4249aec67c58f"
+RPM_NAME = "sound-theme-yaru-24.04.0-1.9.noarch.rpm"
+RPM_HASH = "6130c003f11e17a44c6ef80cff33c31b2432461cd5ea36d0d67f45662526482a5bcf9ecbf26217f90c8ce579a6ccc0d7cd25827682217460933e5814052a6564"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sound-theme-yaru"

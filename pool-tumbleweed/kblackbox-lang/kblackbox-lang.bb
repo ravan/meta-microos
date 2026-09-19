@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kblackbox"
 DESCRIPTION = "Provides translations for the 'kblackbox' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kblackbox-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "7d285f716bb74756616f00994c40ffdad8b336de764a392e56581b622a157e25da97d5ce77b3edb45cbb29fbecfaf06e84add6041047073596d18af5f626a746"
+RPM_NAME = "kblackbox-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "f2105eda75db0ae5573e92ae633d16e6b3fc6330201c4d2a9eae8256de5613a5bad142cb7adc795bbaa6e9a3e8474df144454fe2a1aaa426ef194d91b9eb761a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kblackbox-lang \
 kblackbox-lang-all \
 locale-kblackbox-af \
 locale-kblackbox-ar \
+locale-kblackbox-ast \
 locale-kblackbox-be \
 locale-kblackbox-bg \
 locale-kblackbox-bn \
@@ -38,6 +39,7 @@ locale-kblackbox-he \
 locale-kblackbox-hi \
 locale-kblackbox-hr \
 locale-kblackbox-hu \
+locale-kblackbox-ia \
 locale-kblackbox-id \
 locale-kblackbox-is \
 locale-kblackbox-it \

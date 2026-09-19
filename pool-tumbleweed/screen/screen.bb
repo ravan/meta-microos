@@ -6,10 +6,10 @@ sessions can also be detached and resumed from another login terminal. \
 Documentation: man page"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.9.0"
+PV = "4.9.1"
 
-RPM_NAME = "screen-4.9.0-2.4.aarch64.rpm"
-RPM_HASH = "236abc29193684c31bf6513b71ecef91c99675445da6e6328a5a5adac160f3b1b78f6a27a221a44ec4b65fd68fff7c9f3789736538be19430e65e843da816de0"
+RPM_NAME = "screen-4.9.1-5.6.aarch64.rpm"
+RPM_HASH = "32e9989122b01c445d299159bced98d101433475cccded1ce74b4972192b23650fdf842bdef02732f6e36c82bf65e022e945c7e9171ba61d9db72e9ca5b54596"
 
 RPROVIDES:${PN} += "config-screen \
 screen"
@@ -20,7 +20,6 @@ libc.so.6 \
 libcrypt.so.1 \
 libpam.so.0 \
 libtinfo.so.6 \
-libutempter.so.0 \
 permissions \
 terminfo-base"
 

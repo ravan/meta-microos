@@ -2,18 +2,18 @@ SUMMARY = "Translations for package kmahjongg"
 DESCRIPTION = "Provides translations for the 'kmahjongg' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmahjongg-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "48b53b92d2739fb207b56b5444aeca9f2929f52195edcdd303e5445514a611bb1a4edb10906467ddd468e7311d58e93c36a1a221a9b50def8e8721a7b650d7af"
+RPM_NAME = "kmahjongg-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "26af5bea6e06f94a6392a0ed772284c3e2a01cc79210c58c54aefeaa00e15aec8923932fb12b968ccd568079308ea83ec2c7ec2bc6f3b2a7be090f6b06a85f22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmahjongg-lang \
 kmahjongg-lang-all \
 locale-kmahjongg-af \
 locale-kmahjongg-ar \
+locale-kmahjongg-ast \
 locale-kmahjongg-be \
-locale-kmahjongg-bg \
 locale-kmahjongg-bn \
 locale-kmahjongg-br \
 locale-kmahjongg-bs \
@@ -38,6 +38,7 @@ locale-kmahjongg-he \
 locale-kmahjongg-hi \
 locale-kmahjongg-hr \
 locale-kmahjongg-hu \
+locale-kmahjongg-ia \
 locale-kmahjongg-id \
 locale-kmahjongg-is \
 locale-kmahjongg-it \

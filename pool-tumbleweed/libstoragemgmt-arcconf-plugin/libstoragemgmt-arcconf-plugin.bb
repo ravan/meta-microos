@@ -3,16 +3,16 @@ DESCRIPTION = "The libstoragemgmt-arcconf-plugin package contains the plugin for
 storage."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.9.8"
+PV = "1.10.3"
 
-RPM_NAME = "libstoragemgmt-arcconf-plugin-1.9.8-1.2.noarch.rpm"
-RPM_HASH = "574cd35e49e499b19ea6149515160de91fcda79a436d6c5c9e4125eac915fb7357f5b46d418833aa5b38cb2b11acec8f1e60558aa5bac11d9a83ee86a537cfd1"
+RPM_NAME = "libstoragemgmt-arcconf-plugin-1.10.3-1.3.noarch.rpm"
+RPM_HASH = "a3e73fa1283a1a6a9beabb79a4fc6d016c9f53ad40f26e0fab7b4e7cf31e0e595bb467b9e8c42f05e957d9494692af3164f358c18795d8732d4991a5a1971190"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libstoragemgmt-arcconf-plugin \
 libstoragemgmt-arcconf-plugin"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 python-abi \
 python3-libstoragemgmt"

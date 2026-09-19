@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.0b4"
 
-RPM_NAME = "php-pear-MDB2_Driver_mysqli-1.5.0b4-1.10.noarch.rpm"
-RPM_HASH = "db1402c299540d61dfb2055ae0cf419f64e5bbcbbbf481aab45000d679dc8fce055e1c732a3f4304b118b66a16103cb9ce01be3c8b1705889274a4078cce9320"
+RPM_NAME = "php-pear-MDB2_Driver_mysqli-1.5.0b4-1.19.noarch.rpm"
+RPM_HASH = "3253ca9424cdfc39fba4e59542733714e054897dc380b1cd37fc3615dfe5e6a28af44eb9d44e220754d4395877c8a7e0f90d1d1f88b55c0d37beab8df72c1d4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-pear-MDB2-Driver-mysqli \

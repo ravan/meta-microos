@@ -2,10 +2,10 @@ SUMMARY = "API documentation for rhino"
 DESCRIPTION = "API documentation for rhino."
 LICENSE = "MPL-2.0"
 
-PV = "1.7.14"
+PV = "1.7.15.1"
 
-RPM_NAME = "rhino-javadoc-1.7.14-2.5.noarch.rpm"
-RPM_HASH = "e6ffe676f7bf4966107898d4539548005ff5ebb6d65e73be5047948212184bb0de022fd51a9c8f744d18a82ba74f76e03ba9cc4fa2e694a613df9feea357b586"
+RPM_NAME = "rhino-javadoc-1.7.15.1-1.5.noarch.rpm"
+RPM_HASH = "9f48b06f00aeee5f23eaa7471399e7c380bf49b318faadf4e9f4814332f7531e12df2c95fd2c6915e5f0dee20165c467d967d59acad13e6385f51788c679891f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rhino-javadoc"

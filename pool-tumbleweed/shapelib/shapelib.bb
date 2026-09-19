@@ -6,16 +6,17 @@ associated attribute file (.dbf). \
 This package contains the executable programs."
 LICENSE = "GPL-2.0-or-later & (LGPL-2.0-or-later | MIT) & SUSE-Public-Domain"
 
-PV = "1.5.0"
+PV = "1.6.3"
 
-RPM_NAME = "shapelib-1.5.0-2.8.aarch64.rpm"
-RPM_HASH = "f112554e8407ee0f4cc781158bb4b8af12c15e44c5521eb8dc63ec3234c5bfe139bcc0ae0554c86386f670b6d2c729fb37ad5895975d0a08684b21cc9d1fc272"
+RPM_NAME = "shapelib-1.6.3-1.1.aarch64.rpm"
+RPM_HASH = "01299fa8800fcc25ba52e234b6b681df15ac09cd613f207f8353477355bec30adc3065cc466d46b018a4a025b37b50575f301894d7730c6ead0a5d2e1f92c6af"
 
 RPROVIDES:${PN} += "shapelib"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libshp.so.2 \
+libm.so.6 \
+libshp.so.4 \
 libstdc++.so.6"
 
 inherit rpm

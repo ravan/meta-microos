@@ -2,18 +2,18 @@ SUMMARY = "Haskell hscolour library development files"
 DESCRIPTION = "This package provides the Haskell hscolour library development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.24.4"
+PV = "1.25"
 
-RPM_NAME = "ghc-hscolour-devel-1.24.4-4.8.aarch64.rpm"
-RPM_HASH = "a4502c226c580cac4ba3307a14e4a9d8742a6a4ed76c547f1c92498dc142c8256e67471f0644bc8fced50f97d8835e21fe86bbb1bbf06f131a1e43b11669ccb3"
+RPM_NAME = "ghc-hscolour-devel-1.25-1.32.aarch64.rpm"
+RPM_HASH = "b26593895fd056a13117a7f8ed2da926c25a91d32c896bb09da6c189464e0b7294b0ac2b80d6681f682dcfa8af1d90542a98967b058aae90a782716c8b53b471"
 
-RPROVIDES:${PN} += "ghc-devel-hscolour-1.24.4-LJeKwNXAf207wSFk6wkP8w \
+RPROVIDES:${PN} += "ghc-devel-hscolour-1.25-7g5wxbCbTVu2XnpAXvjFVU \
 ghc-hscolour-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-containers-0.6.7 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-containers-0.7-d5e1 \
 ghc-hscolour"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "The Bouncy Castle Java APIs for TLS and DTLS, including a provide
 JSSE."
 LICENSE = "MIT"
 
-PV = "1.74"
+PV = "1.85"
 
-RPM_NAME = "bouncycastle-tls-1.74-1.1.noarch.rpm"
-RPM_HASH = "e7c1ecfacd1875e1a6c4c94fce7be5d3789218ed679a70a7a270384e40287e96afa8e2eab79e1482fd4a6e6a90eac75fcd170b42d8832a053f89745fced2e7a4"
+RPM_NAME = "bouncycastle-tls-1.85-1.1.noarch.rpm"
+RPM_HASH = "4b74d573876c7b868ef37a263a0b5b2160e89cc0b3ebb774ef6db7128a5fff423897ff15b739d4772e1728ba9e7482bf3b6a000f1a85ec86450ad4d587f83c86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-tls \
@@ -24,11 +24,8 @@ mvn-org.bouncycastle-bctls-jdk18on \
 mvn-org.bouncycastle-bctls-jdk18on-pom- \
 osgi-bctls"
 
-RDEPENDS:${PN} += "bouncycastle \
-bouncycastle-util \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.bouncycastle-bcprov-jdk18on \
 mvn-org.bouncycastle-bcutil-jdk18on"
 
 inherit rpm

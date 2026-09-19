@@ -4,10 +4,10 @@ can display window and icon names in a tree view, columns can be reordered, and 
 CPU and memory usage are displayed as a graph."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.5"
+PV = "1.6.0"
 
-RPM_NAME = "xfce4-taskmanager-1.5.5-1.4.aarch64.rpm"
-RPM_HASH = "6accf9096bdc23cb60e5c66e49f5721c20521eb2fd3076a1d47402461877cf0a06b01b1ad615536d61585ae2ea79eb986d580a9d15bfa08fdc3df8d925bbcf2a"
+RPM_NAME = "xfce4-taskmanager-1.6.0-1.5.aarch64.rpm"
+RPM_HASH = "06dadbd8eaf0c18dc0bfa4f3e811db35b82687af70e8de7d8a2855742aaf19b546178b7d07c23698e6c2ce9cc64b8320088ec1fc552c07826ca1b4cd3426ac68"
 
 RPROVIDES:${PN} += "xfce4-taskmanager"
 
@@ -16,9 +16,9 @@ ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXmu.so.6 \
 libc.so.6 \
+libcairo-gobject.so.2 \
 libcairo.so.2 \
 libgdk-3.so.0 \
-libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

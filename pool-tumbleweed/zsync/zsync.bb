@@ -8,10 +8,10 @@ needed. It also works with gzip files, and content on the server can be \
 compressed to further reduce download times."
 LICENSE = "Artistic-2.0"
 
-PV = "0.6.2"
+PV = "0.6.3"
 
-RPM_NAME = "zsync-0.6.2-25.15.aarch64.rpm"
-RPM_HASH = "a2de98bb1c77c719491750aca5a513f3f86f7f49a2a1306b4540379b1a43548d42f1f4b48739471c5f9ea2272b2351382e07e2d80bb0400cec0accde88e7fe41"
+RPM_NAME = "zsync-0.6.3-1.6.aarch64.rpm"
+RPM_HASH = "9308d7acbddf23fd289b88657b689a11618f7655a8e25aeec237abf7e855de66c98858de3eb8c0bf54c35acaf5433ba214682b3f50a5b9b0e384c7b3765124f1"
 
 RPROVIDES:${PN} += "zsync"
 

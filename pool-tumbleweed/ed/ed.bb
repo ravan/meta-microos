@@ -8,15 +8,14 @@ Unix, and thus widely available. For most purposes, however, it is \
 superseded by full-screen editors such as GNU Emacs or GNU Moe."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.19"
+PV = "1.22.6"
 
-RPM_NAME = "ed-1.19-1.4.aarch64.rpm"
-RPM_HASH = "9de37bb90dfee7f8fe698aff111a4553c01372e2b298959503c16a35076110b1770e7c47e69af41ba1bc9ddd45038e75eced8c580af60fd9ac9fe588f052cd9c"
+RPM_NAME = "ed-1.22.6-1.1.aarch64.rpm"
+RPM_HASH = "2344ef56dfc2643f378f06bcc0b396b3612cbedbc0231fd83e99cfc2e97624d0040f9c1214221d1e7654d4348214e657f0e5a3ed9f7a06b814b0c9b7535c3d77"
 
 RPROVIDES:${PN} += "ed"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
 libc.so.6"
 
 inherit rpm

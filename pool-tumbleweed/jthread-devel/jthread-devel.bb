@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.3.3"
 
-RPM_NAME = "jthread-devel-1.3.3-1.19.aarch64.rpm"
-RPM_HASH = "eeab4b6506549822a342937db632e41de0bc94031cf6ee07b3c00cd6337c72d3a0fa2768762242087bc5429480dcaf65f2260f8df5e7ea4a4b6d0aed50db2e11"
+RPM_NAME = "jthread-devel-1.3.3-1.29.aarch64.rpm"
+RPM_HASH = "36eccf78d2e3bb37979c1bf475a3fc6351cac1e5b504da64e51c74162099b343b5eb563d287f0615e15d4b8b2ade780efa8f25b6a27152c6c00f9532b9e93e79"
 
 RPROVIDES:${PN} += "cmake-JThread \
 jthread-devel \

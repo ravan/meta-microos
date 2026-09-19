@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later | SPL-1.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "bsh2-classgen-2.1.1-1.1.noarch.rpm"
-RPM_HASH = "4161339fd48079836e60aaed34fc8d1797eeac1e9f8c5985f0af259286714852abe77b6c2ec600f870209dc1fe884eb132d2bc6ff03b2929ba6b8dddc09fc4d7"
+RPM_NAME = "bsh2-classgen-2.1.1-2.9.noarch.rpm"
+RPM_HASH = "97b059c015221e6cdcaa19986e8b4d68f7f7acb6a0a64cfc3fc25e3b243c4e1aecb4dde4091b23ee0f6911f25ebc72c52cbc64b87c4653f851f0f4cb6a83d4aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bsh2-classgen"

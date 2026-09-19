@@ -1,17 +1,17 @@
-SUMMARY = "Porters stemming algorithm for norwegian."
+SUMMARY = "Porters stemming algorithm for norwegian"
 DESCRIPTION = "Porters stemming algorithm for norwegian."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.2"
+PV = "1.200.0"
 
-RPM_NAME = "perl-Snowball-Norwegian-1.2-14.27.noarch.rpm"
-RPM_HASH = "426d20419eb1ffda1741cb688ac2e93c9598522b139849797fe59737fbfa5bd9e8063d8a20cd576bda1ea5a52e3e629ab23555aec489eb5b3d137016cf2ef49d"
+RPM_NAME = "perl-Snowball-Norwegian-1.200.0-1.10.noarch.rpm"
+RPM_HASH = "5f350725d873c0049b1ec921869b71ed94a3116e4e81aa4e4cd67f70679e160ce178174f22e69610ac1dba0a0ebf02289b0e34730ee5566b4f154299354ce656"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--Stem--Snowball--No \
 perl-Snowball-Norwegian"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

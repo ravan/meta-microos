@@ -2,21 +2,21 @@ SUMMARY = "Haskell blaze-html library development files"
 DESCRIPTION = "This package provides the Haskell blaze-html library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.1.2"
+PV = "0.9.2.0"
 
-RPM_NAME = "ghc-blaze-html-devel-0.9.1.2-10.1.aarch64.rpm"
-RPM_HASH = "2086d212ef379537beb82f6acd61c9d9ddd35107ddc696dbe28953eb2efeec4e22e93963084cbd176ab5ba978762ef71df9a755328cc7ef52fc87657565ac55b"
+RPM_NAME = "ghc-blaze-html-devel-0.9.2.0-2.17.aarch64.rpm"
+RPM_HASH = "327cbbd50ef455d99f1108c18e733f046d7c19c4e7d2d77c1884987d6116a2d99f3daf7b08a60726fca4e6049990c9412e56e70be6a0705ad7c709cfbffa7bd5"
 
 RPROVIDES:${PN} += "ghc-blaze-html-devel \
-ghc-devel-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii"
+ghc-devel-blaze-html-0.9.2.0-93B80xR5emg3yG3V6J7j6o"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-blaze-html \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
-ghc-devel-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-text-2.0.2"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-blaze-builder-0.4.4.1-DHhu3j9nndC9LUZIrPJCEG \
+ghc-devel-blaze-markup-0.8.3.0-K4FwMBPUUgu9TB66ALCxf7 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-text-2.1.4-cf23"
 
 inherit rpm

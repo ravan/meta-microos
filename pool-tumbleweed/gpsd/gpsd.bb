@@ -17,10 +17,10 @@ location information, and copes gracefully when the GPS is unplugged \
 and replugged."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.25"
+PV = "3.27.5"
 
-RPM_NAME = "gpsd-3.25-1.4.aarch64.rpm"
-RPM_HASH = "86b1db6563bb595853cdf5dd5d73b668f2a81680e1b4366bc22d0e0a20edf39fc086696d86a96125895b2b13e7c2a6e2290dd53c0edd886ecdf27f4de9dfd403"
+RPM_NAME = "gpsd-3.27.5-3.2.aarch64.rpm"
+RPM_HASH = "404e7a00a0456076f548984b885d20317b44d131358d2d0a182bcd8e468a350b7cf3f902a2d083603611bfec567ed899da26d2700aaf1d0534b791719c42cd05"
 
 RPROVIDES:${PN} += "gpsd"
 
@@ -33,6 +33,7 @@ fillup \
 ld-linux-aarch64.so.1 \
 libbluetooth.so.3 \
 libc.so.6 \
+libcap.so.2 \
 libdbus-1.so.3 \
 libm.so.6 \
 libusb-1.0.so.0 \

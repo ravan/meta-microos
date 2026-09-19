@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-coollist"
 DESCRIPTION = "This package includes the documentation for texlive-coollist"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.1.4svn63523"
+PV = "2026.226.1.4svn67048"
 
-RPM_NAME = "texlive-coollist-doc-2023.209.1.4svn63523-55.1.noarch.rpm"
-RPM_HASH = "c1b0afc64e9349aba0d3923ea70e970f758d301c4a46b05b10d35f594aa5886521b0ebce6297631253cac04bb542d4be1aa1f68883280e2dd2af5245eb4fddbd"
+RPM_NAME = "texlive-coollist-doc-2026.226.1.4svn67048-61.2.noarch.rpm"
+RPM_HASH = "3a5b89e8266e38807444e3a7d713d0ea2c5e3c5b0925be147db734957520972f12e253e5c1c7568672276bda23198038eec6272b4cf05fd887d15897d8c9d519"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-coollist-doc"

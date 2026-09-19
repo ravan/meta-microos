@@ -6,12 +6,13 @@ LICENSE = "Apache-2.0 | LGPL-2.1-only"
 
 PV = "2.3.3.4"
 
-RPM_NAME = "libclucene-core1-2.3.3.4-18.6.aarch64.rpm"
-RPM_HASH = "f94396a53a07fcbc34263b17b5e136730df86c8a4354f36bcc0b3d569a7f2a19a2076388c7cc318fd933672531c5de360624b8e86d12008a5efab7cfca317c34"
+RPM_NAME = "libclucene-core1-2.3.3.4-19.10.aarch64.rpm"
+RPM_HASH = "3cd93494a2b147db081799e17a1671fb09e6c9fd9d3fc3f75422424b23f97b8a627ab87df05b9dfabceb7e0edd911063bb79967fc9d74eeb885736337dfc9dbc"
 
 RPROVIDES:${PN} += "libclucene-core.so.1 \
 libclucene-core1 \
-libclucene2"
+libclucene2 \
+libclucene2-setStartVersion"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \

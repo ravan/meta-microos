@@ -5,10 +5,10 @@ names start with 'BX' or 'PX'). However bxbase package contains \
 a few user-level commands and is of some use by itself."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2asvn66115"
+PV = "2026.226.1.2asvn66115"
 
-RPM_NAME = "texlive-bxbase-2023.209.1.2asvn66115-53.1.noarch.rpm"
-RPM_HASH = "79fbea45d02a64e3beda3c62284af067ce73e66804bf2131bcb2f17e12e5fd39b3fb600cd365214b6dd5804ae52c15308984e3b348b1adad3cf9bc04c8293258"
+RPM_NAME = "texlive-bxbase-2026.226.1.2asvn66115-59.2.noarch.rpm"
+RPM_HASH = "7925822a5c7a93b221a092c236a0b53758632009f8dd147e43e0f31cba34ff20118118756e0300fadbf763ee1d10ce21efa32b524e2677acd6b03aae5d02d41f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxbase.def \

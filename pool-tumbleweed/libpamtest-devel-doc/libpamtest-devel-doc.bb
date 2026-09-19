@@ -2,10 +2,11 @@ SUMMARY = "The libpamtest API documentation"
 DESCRIPTION = "Documentation for libpamtest development."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.1.4"
+PV = "1.1.8"
 
-RPM_NAME = "libpamtest-devel-doc-1.1.4-2.4.aarch64.rpm"
-RPM_HASH = "fb5a1cd016ff7a017138453c01a55b378c36627506f4b4f052495ad53dd3d0604f319bf53ec7be02cc12b98264156c7b68505cfb0140cf48a4a0b1a7d4280605"
+RPM_NAME = "libpamtest-devel-doc-1.1.8-1.4.noarch.rpm"
+RPM_HASH = "5f99ffd90e041b8886a12648cfa037104dd3064c7353336d170f6ccae370efedb5642b69d35f266ab6e41eaedf0ccf78e55cff4582212f4af2340421e050a488"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpamtest-devel-doc"
 

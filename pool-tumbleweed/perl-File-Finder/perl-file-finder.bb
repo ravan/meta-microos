@@ -1,4 +1,4 @@
-SUMMARY = "nice wrapper for File::Find ala find(1)"
+SUMMARY = "Nice wrapper for File::Find ala find(1)"
 DESCRIPTION = "'File::Find' is great, but constructing the 'wanted' routine can sometimes \
 be a pain. This module provides a 'wanted'-writer, using syntax that is \
 directly mappable to the _find_ command's syntax. \
@@ -87,20 +87,19 @@ context, concatenating all the results (similar to 'map'): \
  \
 That's all I can think of for now. The rest is in the detailed reference \
 below."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.53"
+PV = "1.10.0"
 
-RPM_NAME = "perl-File-Finder-0.53-1.25.noarch.rpm"
-RPM_HASH = "5e231c6a20ea2e4e019812e2b1547a4dc581fd2e0c7ea9aa648fc3ed3055f1cf34c407fe6b9f2f2901260b6693e5b05f48b84912e9f74033fe3369cfdaf8fd8b"
+RPM_NAME = "perl-File-Finder-1.10.0-1.6.noarch.rpm"
+RPM_HASH = "e7dd62f0957197d729096515822dfe805ddd0aee256ad3d57be7340d97cbf49b3c369ff7467c3b7690ca4b32b5a0968c7321e7be13019556ddeeac309c789256"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Finder \
 perl-File--Finder--Steps \
 perl-File-Finder"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-Test--More \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Text--Glob"
 
 inherit rpm

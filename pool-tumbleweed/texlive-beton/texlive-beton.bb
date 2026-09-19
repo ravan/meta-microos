@@ -3,10 +3,10 @@ DESCRIPTION = "Typeset a LaTeX2e document with the Concrete fonts designed by \
 Don Knuth and used in his book 'Concrete Mathematics'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-beton-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "bf10b7ed76d1d69ee5b33e31e7f7a99f4f8cd2a1a185809079f93f3a016cc0e2438c930e6e01d06aee107fda1577c6e934c68d25cdf8610ae51407d6b06d9e0a"
+RPM_NAME = "texlive-beton-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "0f86d896243f8e17c757086ff8b5b38b0a5e41aa2d7d5680fb99552eeb47b66aa57d2eb1c33d72eaf2a2d749f7b45686dfa7fb3c2fda9443d1fa026b87f40c09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beton.sty \

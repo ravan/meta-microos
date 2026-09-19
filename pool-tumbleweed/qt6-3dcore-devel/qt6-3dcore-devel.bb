@@ -1,11 +1,11 @@
 SUMMARY = "Development files for the Qt 6 3DCore library"
 DESCRIPTION = "Development files for the Qt 6 3DCore library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-3dcore-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "c7f125c7ef3a9f4b74dd896abf9e1a4689da912d144efc55e704054289b4f131d6a381abec101739a8de96c5f3e2bde2af3ca7a9889ad859d628bc8e9f18bdeb"
+RPM_NAME = "qt6-3dcore-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "80c0b83ba6f453f9f174a64f28a0ecbab8e4fbc04bf34ce97728dc8b05b77afe5bafa5f6c307e64c775bf7143ae7fc1d7334e991b233ea99639ee83fa2589e7e"
 
 RPROVIDES:${PN} += "cmake-Qt63DCore \
 pkgconfig-Qt63DCore \

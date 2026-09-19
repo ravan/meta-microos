@@ -5,12 +5,12 @@ non-Roman writing systems. Graphite can be used to create 'smart fonts' capable 
 of displaying writing systems with various complex behaviors. With respect to \
 the Text Encoding Model, Graphite handles the 'Rendering' aspect of writing \
 system implementation."
-LICENSE = "LGPL-2.1-or-later | MPL-2.0"
+LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MPL-2.0"
 
-PV = "1.3.14"
+PV = "1.3.15"
 
-RPM_NAME = "graphite2-1.3.14-3.8.aarch64.rpm"
-RPM_HASH = "9a10d4782247eae2805d15770e15f43a8031c167e0763e7f395294a2135d0a644ff49771cb598e01a0e815e32682767b1a51114b948abc93ec56cf391745c51c"
+RPM_NAME = "graphite2-1.3.15-1.3.aarch64.rpm"
+RPM_HASH = "7a861fd5562a6adf8212b169ee22de667e4e198d5eb36796a1521af0402b5ab872eec7a794b9630f959f31938aee1c9be0ab1afc25107996d2dd3fe97cefc1d7"
 
 RPROVIDES:${PN} += "graphite2"
 

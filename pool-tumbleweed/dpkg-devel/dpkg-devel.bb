@@ -2,10 +2,10 @@ SUMMARY = "Development files for dpkg"
 DESCRIPTION = "Libraries and header files for dpkg."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.21.22"
+PV = "1.22.22"
 
-RPM_NAME = "dpkg-devel-1.21.22-1.2.aarch64.rpm"
-RPM_HASH = "b13e31d13229cabae46c0d908c1952e95232e6ca4fe44c3d1eb875a529a823176f401b4e93ac83e426946f84477b760ef4208c98e7b87d82471a99bb692bb4a5"
+RPM_NAME = "dpkg-devel-1.22.22-1.4.aarch64.rpm"
+RPM_HASH = "cc904b9b79e9b73335a8a45950fe477f9df8b811fac7183d31179adbd05e680e6edc254985f950a9f9593e9ac8f4fd4a3d6cf1f74b3074883e713314a7364ee5"
 
 RPROVIDES:${PN} += "deb-devel \
 dpkg-devel \

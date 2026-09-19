@@ -1,26 +1,15 @@
-SUMMARY = "The OpenJade Group's SGML and XML Parsing Tools"
-DESCRIPTION = "The tools in this package provide the ability to manage SGML and XML \
-documents. \
- \
-This package contains the parser nsgmls and the related programs \
-sgmlnorm, spcat, spam, spent, and sgml2xml (previously known as sx). \
-Sgml2xml is useful as a tool for converting from SGML to XML, the \
-coming WWW standard. \
- \
-This package is a fork from James Clark's SP suite."
+SUMMARY = "Documentation for OpenSP"
+DESCRIPTION = "This package provides the documentation for OpenSP."
 LICENSE = "MIT"
 
 PV = "1.5.2"
 
-RPM_NAME = "opensp-doc-1.5.2-202.1.noarch.rpm"
-RPM_HASH = "0f65a812d6ef5328bc04e672621fa7c46e9d51af3d7ac36addea5c425691fc8fd0e3a5267c9e2a6f862066905b9878efe219642739762fad3cccc75e3a09cb22"
+RPM_NAME = "opensp-doc-1.5.2-205.3.noarch.rpm"
+RPM_HASH = "044d623752887c2166b0734bea7733713abfb1f9c6c12fe078d3f4bf629da61a5f4679dd0daf395c3ffcc201e914efe4a440a558fb8789d7a59a94775f5a8b5c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "OpenSP \
-opensp-doc \
-sp \
-sp-libs"
+RPROVIDES:${PN} += "opensp-doc"
 
-RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog"
+RDEPENDS:${PN} += ""
 
 inherit rpm

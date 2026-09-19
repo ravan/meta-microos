@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for khal"
 DESCRIPTION = "Bash shell completions for khal"
 LICENSE = "MIT"
 
-PV = "0.10.5"
+PV = "0.14.1"
 
-RPM_NAME = "python-khal-bash-completion-0.10.5-3.5.noarch.rpm"
-RPM_HASH = "9e56f6a3649af242d20af5e42ee381f97c27693ccaec44b50df5d064fcff14f2cde5547ff8b01927bd351d747c65e320989cbd01f281b789132286136792cfa7"
+RPM_NAME = "python-khal-bash-completion-0.14.1-1.1.noarch.rpm"
+RPM_HASH = "8cdec9874e4fd6668675bdf42b1c1b96f5ac36ec79579cf4e970e5f2e77b0afc635fefa7054fd488c294c003f0dcab76064f4e29824a5356ef21686a0ebb6e89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-khal-bash-completion"

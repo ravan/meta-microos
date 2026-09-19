@@ -2,16 +2,17 @@ SUMMARY = "Translations for package gnome-color-manager"
 DESCRIPTION = "Provides translations for the 'gnome-color-manager' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.36.0"
+PV = "3.36.2"
 
-RPM_NAME = "gnome-color-manager-lang-3.36.0-2.10.noarch.rpm"
-RPM_HASH = "83f8f1f33abbff1dfa9285fe6fb1431216f6f7769d1ef721186ed8cf6efe29ec94b7f11fb4c7b98c07a31ed6859ce73516e0466c66ee8a454ee66630a8968511"
+RPM_NAME = "gnome-color-manager-lang-3.36.2-2.4.noarch.rpm"
+RPM_HASH = "3b30bcd9701e9aaa094b108700a861b93aedf724e23868b492a883c59f05d51e8727241ca118e897bfbb16e43e1aa7f49b6193ffda8f9a06cca8b2ec6321d0c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-color-manager-lang \
 gnome-color-manager-lang-all \
 locale-gnome-color-manager-ar \
 locale-gnome-color-manager-as \
+locale-gnome-color-manager-be \
 locale-gnome-color-manager-bg \
 locale-gnome-color-manager-bn-IN \
 locale-gnome-color-manager-bs \
@@ -41,6 +42,7 @@ locale-gnome-color-manager-id \
 locale-gnome-color-manager-is \
 locale-gnome-color-manager-it \
 locale-gnome-color-manager-ja \
+locale-gnome-color-manager-ka \
 locale-gnome-color-manager-kk \
 locale-gnome-color-manager-kn \
 locale-gnome-color-manager-ko \

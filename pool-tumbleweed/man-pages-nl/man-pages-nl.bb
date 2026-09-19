@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Dutch"
 DESCRIPTION = "This package provides translations of man pages in Dutch."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.20.0"
+PV = "4.31.0"
 
-RPM_NAME = "man-pages-nl-4.20.0-1.1.noarch.rpm"
-RPM_HASH = "eb940e79237a13dfc7002c5ffb4d89c000dcb8a715554e49e192cca7ca48affb1b3fd80359b70d3d0a5faca04f89b88dd0853e6d33cf9073fc9969711eb5b0e2"
+RPM_NAME = "man-pages-nl-4.31.0-1.2.noarch.rpm"
+RPM_HASH = "4a29d6bd37eea4a57592daec07c1217049a005f1c2a6e5a3802d5ccd0c1a07a92ff56aa47753144bf1bed35d109ec6205d265cc8ce87b1553a19744fec3e9fc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-nl \

@@ -1,13 +1,13 @@
 SUMMARY = "Development libraries for ScaLAPACK (mvapich2)"
 DESCRIPTION = "This package contains development libraries for ScaLAPACK, compiled against mvapich2."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "2.1.0"
+PV = "2.2.2"
 
-RPM_NAME = "libscalapack2-mvapich2-devel-2.1.0-9.12.aarch64.rpm"
-RPM_HASH = "a6574fedfefe0c494a920c6f6f0e878428a99fcd74077f9a1425ed9c7fca2ecb6d49203123ec2b79b2bdafc51a4c4c485fc1935fd8b7f12db312d2052fe150f7"
+RPM_NAME = "libscalapack2-mvapich2-devel-2.2.2-1.3.aarch64.rpm"
+RPM_HASH = "902f0f881547e7e799fc894d6a36698948d5120b1c050d55af95cfa8a6c6a955c7b68b7c32c38d7a1d56b63490e17e46e550fad3a3356f31b095e64f56b2ad9c"
 
-RPROVIDES:${PN} += "libscalapack.so.2.1.0 \
+RPROVIDES:${PN} += "libscalapack.so.2.2.2 \
 libscalapack2-mvapich2-devel \
 scalapack-mvapich2-devel"
 

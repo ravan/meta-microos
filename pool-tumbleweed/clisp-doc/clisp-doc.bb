@@ -19,10 +19,10 @@ with the file README. The subdirectory \
 contains two nice applications."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "2.49.92"
+PV = "2.49.95"
 
-RPM_NAME = "clisp-doc-2.49.92-5.6.noarch.rpm"
-RPM_HASH = "224c691f6efb90fdba80f046761138e306ee75ab8d50367d711f6a034d8128b7f3b230a45d3a2459f3ad7f918b872b509dd8ba944f69b8256a7bad3702120815"
+RPM_NAME = "clisp-doc-2.49.95-1.10.noarch.rpm"
+RPM_HASH = "9caf34547bfe15a35c2baa0ff3697b9b3c29b75d5a7e14a7fc89041f2cbeaf0b8c9368a03b878ac135c0bd40ccf86b3004a50cbb352dd9b86f05ed1bf3d3b7c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clisp-doc"

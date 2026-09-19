@@ -1,11 +1,12 @@
 SUMMARY = "DjVu support for zathura using the djvulibre library"
-DESCRIPTION = "The zathura-djvu plugin adds DjVu support to zathura by using the djvulibre library."
+DESCRIPTION = "The zathura-djvu plugin adds DjVu support to zathura by using the djvulibre \
+library."
 LICENSE = "Zlib"
 
-PV = "0.2.9"
+PV = "2026.07.18"
 
-RPM_NAME = "zathura-plugin-djvu-0.2.9-1.16.aarch64.rpm"
-RPM_HASH = "40249fcea5bb52dcf8262621b6dd8f9a2f05bf75200449d8021eb9ebef070329127ae8fbd51b035165259c6d2173f84b01385a702c8264a4c1904b260ce16558"
+RPM_NAME = "zathura-plugin-djvu-2026.07.18-1.1.aarch64.rpm"
+RPM_HASH = "dc21be51c66ac795e78086e89bb85083d395ce0adcc9fa99808794357a1df5ed80b4e734e6f84fed524b9a75c55f0366b080251a7cd08a31c6240b84fbb0eb49"
 
 RPROVIDES:${PN} += "libdjvu.so \
 zathura-djvu-plugin \
@@ -15,7 +16,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
 libdjvulibre.so.21 \
-libgirara-gtk3.so.3 \
+libgirara.so.5 \
 libglib-2.0.so.0 \
 zathura"
 

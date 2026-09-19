@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.61"
 
-RPM_NAME = "signond-libs-8.61-1.1.aarch64.rpm"
-RPM_HASH = "0e952b08adac7f3c7db9987966ae18c202119dfe4a8d8d7aa2650de17942cc7266beef301a0ddef7bc4faa05bf6ce3b84c864267f3206f8977a8ba884bdd024f"
+RPM_NAME = "signond-libs-8.61-2.10.aarch64.rpm"
+RPM_HASH = "8d0da58b4d5298d875492b918305dcfc008666b6cb13e82acffbbbecf6c410467a4949eef6ced589af1063da4ce1937e6933fa72571faf2e0d7df2dcb1493a9a"
 
 RPROVIDES:${PN} += "libsignon-extension.so.1 \
 libsignon-plugins-common.so.1 \
@@ -13,8 +13,8 @@ signond-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

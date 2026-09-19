@@ -7,14 +7,13 @@ The dictionary is made available in different formats. This package \
 contains the 'edict'/EUC-JP variant."
 LICENSE = "CC-BY-SA-3.0 & CC-BY-SA-4.0"
 
-PV = "20230511"
+PV = "20260325"
 
-RPM_NAME = "edict-eucjp-20230511-1.1.noarch.rpm"
-RPM_HASH = "f95ab5d9b940efd9670e5c137c8fd44c561ca0ffceed1d0309cf5d62f5fe98edb6928106d5ccb979893650aff4f4f57265287520fcdb8a2a358a8fc17dcc2bc0"
+RPM_NAME = "edict-eucjp-20260325-1.2.noarch.rpm"
+RPM_HASH = "c95fe766b0d47d77876441b40ffedabc0ec4c9f056cf5f7e6e67085240c57ea26940fede202837cbec48ac8960aa0724ea81c0f6c93362147535055cee1746db"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "edict-eucjp \
-locale-ja"
+RPROVIDES:${PN} += "edict-eucjp"
 
 RDEPENDS:${PN} += ""
 

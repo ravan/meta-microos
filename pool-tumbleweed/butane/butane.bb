@@ -3,10 +3,10 @@ DESCRIPTION = "Butane translates human-readable Butane Configs into machine-read
 Ignition configs for provisioning operating systems that use Ignition."
 LICENSE = "Apache-2.0"
 
-PV = "0.18.0"
+PV = "0.27.0"
 
-RPM_NAME = "butane-0.18.0-1.1.aarch64.rpm"
-RPM_HASH = "8654a6cf4c7bd9dce68c8f74963dcec9d7147d765458259e6adcb4d407d2ad94ee94fba504719b3361eb3c0f08760b41451f1fab0ba2599604f8881e12287286"
+RPM_NAME = "butane-0.27.0-1.5.aarch64.rpm"
+RPM_HASH = "a3b2a750cc621f209b6ae80f2d9c03e68a60594e1faa653001279f097711d4c88842bab009a7ced5bac8a5b9c39cb7d0dfd79e8e72555842ac1c0899b136f754"
 
 RPROVIDES:${PN} += "butane \
 ignition-config-transpiler"

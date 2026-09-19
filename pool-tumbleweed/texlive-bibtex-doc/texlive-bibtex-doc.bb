@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bibtex"
 DESCRIPTION = "This package includes the documentation for texlive-bibtex"
 LICENSE = "SUSE-TeX"
 
-PV = "2023.209.0.0.99dsvn66186"
+PV = "2026.226.0.0.99esvn77830"
 
-RPM_NAME = "texlive-bibtex-doc-2023.209.0.0.99dsvn66186-54.1.noarch.rpm"
-RPM_HASH = "8015fb73aa5a06805a3b35b58e3f8e06b5a88b329d550536ab012f007738e446ad582495ddb8db45a871308ed2b50de6092c18f157c8fe1acb340e3a7c6e5eaf"
+RPM_NAME = "texlive-bibtex-doc-2026.226.0.0.99esvn77830-61.2.noarch.rpm"
+RPM_HASH = "e292c944cfeeb92015cd1eef2ee894ffe8d2156d4fa3a788f5b6a01f12fd63caf2f10ab967663ee1bad1962d80e16c70a86d62a0b2e62b5cc3f18637157268ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-bibtex.1 \

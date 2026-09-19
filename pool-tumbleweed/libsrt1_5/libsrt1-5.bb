@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a shared system library for Secure Reliable
 Transport (SRT)."
 LICENSE = "MPL-2.0"
 
-PV = "1.5.2"
+PV = "1.5.7"
 
-RPM_NAME = "libsrt1_5-1.5.2-1.1.aarch64.rpm"
-RPM_HASH = "b04d30d2c9b8fc1d68379ea853e9662d4ad0db4e5fbae74f166d4a4ba536fa218a94d7f42e3f65682d11724494bebefb6acc8df773f6da0ed6cee8beb292c956"
+RPM_NAME = "libsrt1_5-1.5.7-1.1.aarch64.rpm"
+RPM_HASH = "3aca417efdb9cf8950b896352c6d72cd731f32e2185282a32a823098f38cdb19eac489bc9b0e8f6db5ea9f9b79faada83ce6035b66f10aa24bf5400cf28f3533"
 
 RPROVIDES:${PN} += "libsrt.so.1.5 \
 libsrt1-5"

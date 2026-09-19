@@ -45,12 +45,12 @@ the current subroutine is called in the corresponding context: \
         if (VOID)   { print '$server_data{load}\\n'                      } \
         else        { croak q{Bad context! No biscuit!}                 } \
     }"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.004014"
+PV = "0.4.14"
 
-RPM_NAME = "perl-Contextual-Return-0.004014-1.25.noarch.rpm"
-RPM_HASH = "88608921309d08001c24447737d52c5896d0518d369442ea59144f337e3a548afabd03d0b395447b47ac012cb83edb947b76b6ffc732249e3bb05506656c62c2"
+RPM_NAME = "perl-Contextual-Return-0.4.14-1.7.noarch.rpm"
+RPM_HASH = "1b868c69609568f332128155f2a0773d588e66c01ed8ba38b35ffa852532f9e512d5693ba3bba0056a07ec621891709146c6969e73ea2ca57344dab75263670c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Contextual--Return \
@@ -60,7 +60,7 @@ perl-Contextual--Return--Value \
 perl-Contextual-Return \
 perl-DB"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Want \
 perl-version"
 

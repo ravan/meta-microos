@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.3.3"
 
-RPM_NAME = "libptl2-2.3.3-1.11.aarch64.rpm"
-RPM_HASH = "7f32b1bc73919d8527f6964dabc271f62bb0ee08ca3b118ffbed6fe049833b64182fedb976cb353f6f8cefd4c5688166d15470326d0a878f6a1c94c514d190ce"
+RPM_NAME = "libptl2-2.3.3-1.26.aarch64.rpm"
+RPM_HASH = "972207e145f6e26479cb3b4399c2d663dfddbf7e9a2e77f7b2da64b56ceba0ea1a10a5b792ea9ff455ff8494dcc30dbbc1c7d416072d42cd325a7c9fbe07768a"
 
 RPROVIDES:${PN} += "libptl.so.2 \
 libptl2"

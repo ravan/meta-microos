@@ -3,10 +3,10 @@ DESCRIPTION = "A fork of xdg-desktop-portal backend for wlroots for Hyprland. It
 other wlroots-based Wayland compositors too with some limitations."
 LICENSE = "MIT"
 
-PV = "1.0.0"
+PV = "1.4.1"
 
-RPM_NAME = "xdg-desktop-portal-hyprland-1.0.0-5.1.aarch64.rpm"
-RPM_HASH = "24ccfa790ba109477fc2597ee39c8be7dfb17d3b630a0d07d6c3ed694401b8c270cbd8e55705f94fcf85fc1b2e368eabdde309956d6199104a3d6ac19b56c299"
+RPM_NAME = "xdg-desktop-portal-hyprland-1.4.1-1.2.aarch64.rpm"
+RPM_HASH = "a480701fee3658b2a8f4901b276122731f727e2647a75acc63feb0254a8a9759ed566527fce3349d38fd50449c60bae452d749f75adc79c3047df80df9d89c5a"
 
 RPROVIDES:${PN} += "xdg-desktop-portal-hyprland"
 
@@ -19,9 +19,11 @@ libc.so.6 \
 libdrm.so.2 \
 libgbm.so.1 \
 libgcc-s.so.1 \
+libhyprlang.so.2 \
+libhyprutils.so.13 \
 libm.so.6 \
 libpipewire-0.3.so.0 \
-libsdbus-c++.so.1 \
+libsdbus-c++.so.2 \
 libstdc++.so.6 \
 libwayland-client.so.0 \
 xdg-desktop-portal"

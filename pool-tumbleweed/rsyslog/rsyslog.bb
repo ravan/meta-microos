@@ -8,10 +8,10 @@ protected syslog relay chains while at the same time being very easy to \
 setup for the novice user."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2306.0"
+PV = "8.2608.0"
 
-RPM_NAME = "rsyslog-8.2306.0-1.1.aarch64.rpm"
-RPM_HASH = "d9108a815bf77158dc7d3772d0affdf64b15d7e1d061f349cd84d60004703c18fad2c594d43ce9e68d1c36542e54e5ca0691729fe8ef40fedc32684902a25d1b"
+RPM_NAME = "rsyslog-8.2608.0-1.1.aarch64.rpm"
+RPM_HASH = "93248ceb1adc120eb5f10083145dff42d51737ef5e79f5e7c87fbafb8202258f5184f27d235a96f286d153201cdac201a99e55d598879f0576c21184320bf9a3"
 
 RPROVIDES:${PN} += "config-rsyslog \
 rsyslog \
@@ -19,6 +19,7 @@ syslog \
 sysvinit-syslog"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/env \
 /usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \
@@ -32,9 +33,12 @@ libfastjson.so.4 \
 liblogging-rfc3195.so.0 \
 liblognorm.so.5 \
 libm.so.6 \
-librdkafka1 \
+libprotobuf-c.so.1 \
+libresolv.so.2 \
+libsnappy.so.1 \
 libsystemd.so.0 \
 libuuid.so.1 \
+libyaml-0.so.2 \
 libz.so.1 \
 syslog-service"
 

@@ -28,14 +28,14 @@ simple, straight-forward, and extensible. \
 BeOS, and more)"
 LICENSE = "MIT"
 
-PV = "3.2"
+PV = "4.0"
 
-RPM_NAME = "ruby-3.2-1.2.aarch64.rpm"
-RPM_HASH = "403b17259b674ef788308a7a35431dc2a0fecfcb2f22f90512f72fd740da4c784433cae93dbcb0f1677d1cc49bd3f4bc87362dcc89317951eae1a388e3e960aa"
+RPM_NAME = "ruby-4.0-1.6.aarch64.rpm"
+RPM_HASH = "b85378a009304210e4de57f56589f5dbe9fb87a19acdd79ce251ecbbdb138024265cd4816b33ccaea25ec6a6b25e3627c8d4ff26c2dbba979d5e06c293a1175c"
 
 RPROVIDES:${PN} += "ruby \
 rubygems"
 
-RDEPENDS:${PN} += "ruby3.2"
+RDEPENDS:${PN} += "ruby4.0"
 
 inherit rpm

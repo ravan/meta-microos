@@ -2,14 +2,15 @@ SUMMARY = "Bash Completion for ripgrep"
 DESCRIPTION = "The official bash completion script for ripgrep, generated during the build."
 LICENSE = "MIT & Unlicense"
 
-PV = "13.0.0"
+PV = "15.2.0"
 
-RPM_NAME = "ripgrep-bash-completion-13.0.0-5.4.noarch.rpm"
-RPM_HASH = "30e80e683fcf8090aba97808882d61dc0b1b054111f51aec4df6b8272ca2d1e37f8611eda3f094d653d903f2a0043c012f348fad74186a962485948aedabb841"
+RPM_NAME = "ripgrep-bash-completion-15.2.0-1.3.noarch.rpm"
+RPM_HASH = "494bba31aa568f4555d8de1f4825f6dd5da6993b3bd9d30679974f4640c28c770c8f5570eef161f8e2222cac717278d28d9162fb433c1a9c65b6b2e7de03ee78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ripgrep-bash-completion"
 
-RDEPENDS:${PN} += "bash-completion"
+RDEPENDS:${PN} += "bash-completion \
+ripgrep"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "This is a translation of the documentation that comes with the \
 psfrag documentation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-psfrag-italian-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "d2312a1ab40d225561500a4eee4e2783bf983c0ad1bf3740aaa11216674f17b0cc866d902fdffeb4ed883c3e54cb2e42acf097ebb8ec0e243aba19e7a38647d4"
+RPM_NAME = "texlive-psfrag-italian-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "73d8cd4e7d4a4efa975c1f36a6c2bef27d4f54ccf48751ee057504dbac3c6f6cafd54d62238513b8f0965923d88a4a0bfb96e1b711993b22d6089a1a611775ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-psfrag-italian"

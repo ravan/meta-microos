@@ -7,10 +7,10 @@ English-speaking world. The package requires array, babel, and \
 geometry."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.20.23asvn65426"
+PV = "2026.226.20.26asvn77222"
 
-RPM_NAME = "texlive-calxxxx-yyyy-2023.209.20.23asvn65426-53.1.noarch.rpm"
-RPM_HASH = "f8d29d662c02ae533ed08568c0cae997b577886c843cd3c9dbd1b10c29fc0b71488ae50911dffb19d406feeb183e07ab1686e53308b5c4c6adc85b50f5e5d02d"
+RPM_NAME = "texlive-calxxxx-yyyy-2026.226.20.26asvn77222-59.2.noarch.rpm"
+RPM_HASH = "157bba961663cea6426ceec8ca70afd19796755c2f7cc9cd91a030c5c02cbeeb4ad822b4f4a727b8e881d90e43a7869c577b6c4fb49dac77160e805531b9bde6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-calxxxx-yyyy-doc.tex \

@@ -8,10 +8,10 @@ TLS/SSL support, IPv6 support, and more. \
 This package contains documentation and sample configuration files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.4.18"
+PV = "1.4.22"
 
-RPM_NAME = "mpop-doc-1.4.18-1.4.aarch64.rpm"
-RPM_HASH = "0915141c7ba3635337ac127e0e556a269b97878e30ab171f8614fc6165fcadd847574beffae10392dbb78e767e05a1d02532c1aa6399863cbccd6aa8cb42c33f"
+RPM_NAME = "mpop-doc-1.4.22-1.3.aarch64.rpm"
+RPM_HASH = "0bf1ddba17085550fb9bf594d0c84dc2c554e33bca26b3b50cc5af79a777f8193329ade23ea040f22e2bd0768038d32fd7e93964917b3d5b151f5f2eb4a0da55"
 
 RPROVIDES:${PN} += "mpop-doc"
 

@@ -11,10 +11,10 @@ Libaec implements Golomb Rice coding as defined in the Space Data \
 System Standard documents 121.0-B-3 and 120.0-G-2."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.0.6"
+PV = "1.1.7"
 
-RPM_NAME = "libaec0-1.0.6-1.8.aarch64.rpm"
-RPM_HASH = "647af8adeaafb61fdf40f9828f214f36c394a25f275af9cc9d549d45f21f74bb95eceeea681c5808b4f4aa1a800ec42af696576643a95d849d65e19c82c0bb6e"
+RPM_NAME = "libaec0-1.1.7-1.3.aarch64.rpm"
+RPM_HASH = "4f92422368c66c469b5cc51a12e7739980c6940fb544fc2dcbc8e26a604b2d1ff0851922f575eeb2ee8a5dd11de06375560a5169a26c539c799f25795bedb3be"
 
 RPROVIDES:${PN} += "libaec.so.0 \
 libaec0"

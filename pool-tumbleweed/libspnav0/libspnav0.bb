@@ -13,10 +13,10 @@ magellan API can continue using it with a free library without the \
 restrictions of the official SDK."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1"
+PV = "1.2"
 
-RPM_NAME = "libspnav0-1.1-1.2.aarch64.rpm"
-RPM_HASH = "ac7ed4d774a7e0ddf0050de23542063cf16e788690a7a91184247e380dae51fff7261d4866fe6e64fac9cfc11d721d8dabace3fb375870e459e9d5e7784f146d"
+RPM_NAME = "libspnav0-1.2-1.5.aarch64.rpm"
+RPM_HASH = "daad1a4d0ad08cb4f72f3625330d0a7d47b6ed22fb81ff098a126a771a028746cd51028a81463c13eac17dbfa636f4e12d0887e96137cce0065b0e3e7d5a073f"
 
 RPROVIDES:${PN} += "libspnav.so.0 \
 libspnav0"
@@ -24,6 +24,7 @@ libspnav0"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
-libc.so.6"
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

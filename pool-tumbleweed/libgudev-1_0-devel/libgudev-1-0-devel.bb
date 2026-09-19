@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "238"
 
-RPM_NAME = "libgudev-1_0-devel-238-1.1.aarch64.rpm"
-RPM_HASH = "7df384e4588ec8c0c9017aeed82c743c6b2fa0143b9312a82187f39d46e4fbd1f0f01281a532934b9b54e6e03c2574c9e33a65b05c2c902353c3dc4e933be35b"
+RPM_NAME = "libgudev-1_0-devel-238-1.13.aarch64.rpm"
+RPM_HASH = "507efca09d182b61f3dbefb884b9deb2cda6c5a205495a265217cb8a156c413754ba78b1ac83f1e2fcd8d4b4d7fac3dbbe6484242b3eafa09421e2a8be4018fe"
 
 RPROVIDES:${PN} += "libgudev-1-0-devel \
 pkgconfig-gudev-1.0"

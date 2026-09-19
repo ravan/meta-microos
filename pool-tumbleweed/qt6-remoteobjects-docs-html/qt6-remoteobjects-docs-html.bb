@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-remoteobjects in HTML format"
 DESCRIPTION = "This package contains documentation for qt6-remoteobjects in HTML format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-remoteobjects-docs-html-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "05231073280b896d6bab938cdefe535ddce6f19d4203732b61d1b053377299cc7600755f2184b7b7b04c7cf1307cd160589de83e74eac622ea0b19c7fa323e1d"
+RPM_NAME = "qt6-remoteobjects-docs-html-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "3a10317a19d4f498b7a24c0328b97ef81283f2657f50e9b105c760a1a3869858894116f450573ba946903f234599d38f1e0c8f631be226eec3c2537196d6b00c"
 
 RPROVIDES:${PN} += "qt6-remoteobjects-docs-html"
 

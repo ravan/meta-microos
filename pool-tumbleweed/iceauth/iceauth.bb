@@ -4,10 +4,10 @@ information used in connecting with ICE. It operates very much \
 like the xauth program for X11 connection authentication records."
 LICENSE = "MIT"
 
-PV = "1.0.9"
+PV = "1.0.11"
 
-RPM_NAME = "iceauth-1.0.9-1.6.aarch64.rpm"
-RPM_HASH = "6cb7d3ca040e50bc060a5269d25295fd58cd2a22a432cfb1f34d8ee83a831007722df635fbbc57c2025cdcd9fd8ad192d47035df1e96b3e9aac06323d42ddff6"
+RPM_NAME = "iceauth-1.0.11-1.3.aarch64.rpm"
+RPM_HASH = "48e6695ad00c149e0b2517cefff27a2e96334f102b2b097bad922c4770b6a12c24123e63554d8ef31cc81b5f93e1f3d376a5ec558066d2f329a3931c2f2791c9"
 
 RPROVIDES:${PN} += "iceauth"
 

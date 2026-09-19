@@ -9,10 +9,10 @@ screenshot upon displaying info, and even customizing the screenshot \
 command! This script is very easy to add to and can be easily extended."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.9.1"
+PV = "3.9.9"
 
-RPM_NAME = "screenfetch-3.9.1-1.10.noarch.rpm"
-RPM_HASH = "cd5e76d93236e72a92058069d6cd9e5010a80bdb7f919b24b085c81ecebb35fc66fed4d50224642ec5b20884b63c0281369503359e023e217f84ce3189c52bd2"
+RPM_NAME = "screenfetch-3.9.9-1.5.noarch.rpm"
+RPM_HASH = "0176b081e418ec0dd24bf1eddee345de63a544da217172095ba3a5e48fff8dd43f44e65254a3db0b2c94c78a38029edc474d071a95a597adeb124e4c7cb8bd27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "screenfetch"

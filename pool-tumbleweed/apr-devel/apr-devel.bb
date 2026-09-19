@@ -7,10 +7,10 @@ This subpackage contains header files for developing applications \
 that want to make use of APR."
 LICENSE = "Apache-2.0"
 
-PV = "1.7.4"
+PV = "1.7.6"
 
-RPM_NAME = "apr-devel-1.7.4-1.2.aarch64.rpm"
-RPM_HASH = "b128a483087354bb60be236964bc03923d0fd0849589faee40f91e38ca0c7531849408c98dca5921564cbb281080bb287836766ff5e476c1a7676d3494dbe4c0"
+RPM_NAME = "apr-devel-1.7.6-2.2.aarch64.rpm"
+RPM_HASH = "4f0e83a05c7bc8368b88263a23bc4615e50a19feea943edfb480edc4a5303328c9269db11b74bc58efe98aee28bc003507b1fef325cdab68fe08ff0706497e33"
 
 RPROVIDES:${PN} += "apr-devel \
 libapr1-devel \

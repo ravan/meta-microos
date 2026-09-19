@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "4.6.2"
 
-RPM_NAME = "stk-devel-4.6.2-1.4.aarch64.rpm"
-RPM_HASH = "dfea4e68e0490e7f0577bbc9d6622c36b60745bb61f4b8b812f757d1b5bca23ef356ff3de9ee55490130bc3de1f087ed6e39c8956e027027609a1f82aee4a7f8"
+RPM_NAME = "stk-devel-4.6.2-1.14.aarch64.rpm"
+RPM_HASH = "ce77dc4ea06952fae6ef01506f0ebcce6f61843e698a3f44e077c97df43c290e57655be31ba5dd3a5400a63e4b9dec19a41c1613220f9b1ecf6d05809d488645"
 
 RPROVIDES:${PN} += "libstk-devel \
 stk-devel"

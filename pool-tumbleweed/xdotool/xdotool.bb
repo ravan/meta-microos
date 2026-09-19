@@ -4,12 +4,12 @@ mouse activity, move and resize windows, etc. It does this using X11's XTEST \
 extension and other Xlib functions."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.20211022.1"
+PV = "4.20251130.1"
 
-RPM_NAME = "xdotool-3.20211022.1-1.7.aarch64.rpm"
-RPM_HASH = "3c04ced2ea74e58a0e1ae2a9ebf689637df203e3b49e93f82fd3c5c5a25adb141f8ed59b0e31c1333fbd0d86c16e47867c3ea86a8e9e6c5ec809e6681b870418"
+RPM_NAME = "xdotool-4.20251130.1-1.4.aarch64.rpm"
+RPM_HASH = "4668deca4fa03509f429d17832278013fff8130b0e9a645d9e647bc77a73a0102c7378e9041fe33700903c6fde015d5d65e094785033c3e430fd606df1cb400d"
 
-RPROVIDES:${PN} += "libxdo.so.3 \
+RPROVIDES:${PN} += "libxdo.so.4 \
 xdotool"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.9.11"
 
-RPM_NAME = "cracklib-dict-small-2.9.11-1.1.aarch64.rpm"
-RPM_HASH = "631280cbf51d86ff44a70f0a0b14741397f539cb9c39a001fa28d92274990b39880b384b17ef187e9859d4056960e200e7375418081fe7381afb4ef03b61f3ff"
+RPM_NAME = "cracklib-dict-small-2.9.11-1.11.aarch64.rpm"
+RPM_HASH = "e13ae98ed21e08b6335c0792f1ad865713fe322b579deeef1b5e0a1e5e827e227ad689ce93ab6e6fd14c6d4355b21857cb26a5caa7c5f9a511c85e179f193d02"
 
 RPROVIDES:${PN} += "cracklib-dict \
 cracklib-dict-small"

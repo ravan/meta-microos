@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-symbol"
 DESCRIPTION = "The  separated fonts package for texlive-symbol"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn61719"
+PV = "2026.226.svn77161"
 
-RPM_NAME = "texlive-symbol-fonts-2023.209.svn61719-58.1.noarch.rpm"
-RPM_HASH = "898f700dac942bf9e77601687012acfc5255a46bfd96f32f3f47bde38ec9dd206dbc434b992c09abfd728aa26731ebec8a8a5712dcbe0356a62ca254c3f01797"
+RPM_NAME = "texlive-symbol-fonts-2026.226.svn77161-64.2.noarch.rpm"
+RPM_HASH = "fee489883f90b910ac24d9296769239ce3e81ef2a1944ffe45202307a39cff0344a8e197ffbf76a76f5ec17c6062d0b0fd6fc05034f0218765f08bcf70572948"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-standardsymbolsl \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.1"
 
-RPM_NAME = "termit-3.1-1.12.aarch64.rpm"
-RPM_HASH = "d6b053413089b36a0aa3d3b3a902b685355c9548fdc1c48382aa00a1c179b331efe6bb4bacf4741d2767d5dab39c12c1f4f1f5f4902f74e612cf30c6453d7886"
+RPM_NAME = "termit-3.1-1.24.aarch64.rpm"
+RPM_HASH = "92509164f5c7fcc0a91cc24b2de3b3845818ec2418751ac6a66a85de2392d01f4720363cba226784b305a8a529cdd855b7b1705ef36a29f3fe45a1ce778e475e"
 
 RPROVIDES:${PN} += "config-termit \
 termit"

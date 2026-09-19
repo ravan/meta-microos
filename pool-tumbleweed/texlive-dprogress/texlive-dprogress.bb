@@ -7,10 +7,10 @@ subsubsection headers and (if amsmath is loaded) details of the \
 align environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn15878"
+PV = "2026.226.0.0.1svn15878"
 
-RPM_NAME = "texlive-dprogress-2023.209.0.0.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "7dde1712d25ee34530da746a6f24da74a90e65f5b4e0cdafd2a0e6f08fb414ec8d0e3a059298f62fdbb3dd942424100587d1b8e13f27dd0fd3cde786c3afb60f"
+RPM_NAME = "texlive-dprogress-2026.226.0.0.1svn15878-59.2.noarch.rpm"
+RPM_HASH = "645301afb4e95bafa6d16ca7d366d58a4ebf1b203e570185f6d70af986e6390c263424b63d232089850ceca436349ff03f50091decb89d45750b7d44539cb1bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dprogress.sty \

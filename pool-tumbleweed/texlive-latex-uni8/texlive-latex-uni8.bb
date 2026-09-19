@@ -8,10 +8,10 @@ underline (with soul.sty), default text and math fonts \
 pdfLaTeX and LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.03svn49729"
+PV = "2026.226.0.0.03svn49729"
 
-RPM_NAME = "texlive-latex-uni8-2023.209.0.0.03svn49729-56.1.noarch.rpm"
-RPM_HASH = "246012b596e2b5b6830e0a0e78cb800540c4e788f0ac774a306f050be60a386b6dad75c3dcfc159077ce7de562437a03488826b7ede70a100d580ed048aec004"
+RPM_NAME = "texlive-latex-uni8-2026.226.0.0.03svn49729-63.2.noarch.rpm"
+RPM_HASH = "7d0f40acec3a59ce2d12d54e4eac8891194366a5160e9504b44ba3030a2ba54d7f06fb09cc55a61ad93f8d93769bc788ea69106527b9d319e909236d3fbf6163"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uni8.sty \

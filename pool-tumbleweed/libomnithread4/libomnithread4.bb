@@ -2,10 +2,10 @@ SUMMARY = "omniORB thread library"
 DESCRIPTION = "Thread support library for omniORB."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.3.0"
+PV = "4.3.2"
 
-RPM_NAME = "libomnithread4-4.3.0-2.8.aarch64.rpm"
-RPM_HASH = "804969f085b740ff01cb4e93c3df14f7b820d6b432300b6a99eabcde6e542071846a4883dc30aa08cbc6c318f2d36102f78ba13d022bb744fde7ad627146112a"
+RPM_NAME = "libomnithread4-4.3.2-1.10.aarch64.rpm"
+RPM_HASH = "a21d61def09fb30188cccd38994d1567d0af86efd7b8304104d405de92c36e46452855ae01c83b54b535d085c390be932f0cd0033147c507c65bc3e793100b16"
 
 RPROVIDES:${PN} += "libomnithread.so.4 \
 libomnithread4"

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.5.1"
 
-RPM_NAME = "libctl-doc-4.5.1-1.8.aarch64.rpm"
-RPM_HASH = "363f7e73033c0e6acb3eb605c53edae889b6c20bdbe8934826c82561a79655a539c2ba3b5be09b1529dd6d1acdefaa6f3d3cc2da2dfe436c360bef4c1044d42b"
+RPM_NAME = "libctl-doc-4.5.1-1.18.aarch64.rpm"
+RPM_HASH = "5d610cba10d9bf0289bafd34ea290fbb85fbc6b6e27cadab046c31a8ff850967ed1a0c56fce4ef945b6bb8e7adbf2c5d680f8b538623115ec274c61ac5f7c0ae"
 
 RPROVIDES:${PN} += "libctl-doc"
 

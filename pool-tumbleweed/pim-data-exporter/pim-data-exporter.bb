@@ -3,50 +3,51 @@ DESCRIPTION = "This package contains utlities needed by KDE PIM applications to 
 for backup and archival."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "pim-data-exporter-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "2e4b6f52edcca7a5e1ba8c383f596b02047cb875b1cab6fa14b0c16d8984fb9d157ea5b0181a18173dc73f0e3e5f83dfcd422c931e9505fac5fa2ea9fe14acfc"
+RPM_NAME = "pim-data-exporter-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "61fb5bf9a56fa026ca4c364037bae0e73e75526db60332b7257f4ca7ae55086467ee034f86cc33760ab4ea67c24c2ff66991f1dd3a56adda90470618e279f699"
 
-RPROVIDES:${PN} += "libpimdataexporterprivate.so.5 \
+RPROVIDES:${PN} += "libpimdataexporterprivate.so.6 \
 pim-data-exporter"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kontact \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5CalendarCore.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5Contacts.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5ItemViews.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5Notifications.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libKPim5AkonadiCore.so.5 \
-libKPim5AkonadiMime.so.5 \
-libKPim5AkonadiNotes.so.5 \
-libKPim5AkonadiWidgets.so.5 \
-libKPim5IdentityManagement.so.5 \
-libKPim5MailCommon.so.5 \
-libKPim5MailTransport.so.5 \
-libKPim5Mime.so.5 \
-libKPim5PimCommon.so.5 \
-libKPim5PimCommonAkonadi.so.5 \
-libKPim5TextEdit.so.5 \
-libKUserFeedbackCore.so.1 \
-libKUserFeedbackWidgets.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6Archive.so.6 \
+libKF6CalendarCore.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6Contacts.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6ItemViews.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6Mime.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6TextAddonsWidgets.so.1 \
+libKF6TextCustomEditor.so.1 \
+libKF6UserFeedbackCore.so.6 \
+libKF6UserFeedbackWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKPim6AkonadiCore.so.6 \
+libKPim6AkonadiMime.so.6 \
+libKPim6AkonadiWidgets.so.6 \
+libKPim6IdentityManagementCore.so.6 \
+libKPim6MailCommon.so.6 \
+libKPim6MailTransport.so.6 \
+libKPim6PimCommon.so.6 \
+libKPim6PimCommonAkonadi.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

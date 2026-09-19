@@ -4,10 +4,10 @@ hostname changes and updates the Node Description of the rdma devices based \
 on those changes."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "47.0"
+PV = "63.0"
 
-RPM_NAME = "rdma-ndd-47.0-3.1.aarch64.rpm"
-RPM_HASH = "7b3b504623aa804c50d4c07e68f6a284218413ac1679adbe6981aac631a2f2a47ca7e62d2fec1ca73da78f3ca6bd9e981bad88e08d73d5dc562325eb448e71d8"
+RPM_NAME = "rdma-ndd-63.0-1.3.aarch64.rpm"
+RPM_HASH = "3e5bc3dc295f6fb01abe765d9a3a21ad4adf2e93035ee22b07d0ac2ec128fc1d1601db260fd37a60423905d0ac1ebd0f20a975e3f361429990c54a00ae8db0c4"
 
 RPROVIDES:${PN} += "rdma-ndd"
 

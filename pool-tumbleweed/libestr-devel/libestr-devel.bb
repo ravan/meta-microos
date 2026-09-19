@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.11"
 
-RPM_NAME = "libestr-devel-0.1.11-1.16.aarch64.rpm"
-RPM_HASH = "8fc2f281f92afef1abd4724c23ababcd9b8de91966d75f06f966bb225474808db603ca21db9d7008a61283c97ca9dad58951277a821d28c84c1f0a1baea26eba"
+RPM_NAME = "libestr-devel-0.1.11-1.26.aarch64.rpm"
+RPM_HASH = "262e55d6a33f2f4c810b7b6a6e8f55f3aedb24cac085f32f297cf15fa6a28af0bdd11eb35a038315d93d9dbf86d9d8ac845e6d16344661e994f15796323d000c"
 
 RPROVIDES:${PN} += "libestr-devel \
 pkgconfig-libestr"

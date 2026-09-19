@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause-Attribution & OpenSSL"
 
 PV = "0.10.0"
 
-RPM_NAME = "sscep-0.10.0-1.9.aarch64.rpm"
-RPM_HASH = "354ed16b333dbf0ae3f5fbfd15c26b82fdc06848bb941be0da6592dc55f812b39b1e532dff3c2b5b533e5c61c7d3fa0caf9f7cfa3d6ca24deb692307cc353f65"
+RPM_NAME = "sscep-0.10.0-3.5.aarch64.rpm"
+RPM_HASH = "47135339e00a0111709bdb7951fe17368ff0afb60b83783e490774aaf5b99cd21012a66d3992b54532678736c628b26e8848a7da2c3e12c545525bbdac124dad"
 
 RPROVIDES:${PN} += "config-sscep \
 sscep"

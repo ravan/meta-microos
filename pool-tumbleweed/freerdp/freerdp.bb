@@ -4,10 +4,10 @@ following the Microsoft Open Specifications. This package provides the client \
 application."
 LICENSE = "Apache-2.0"
 
-PV = "2.11.0"
+PV = "3.31.0"
 
-RPM_NAME = "freerdp-2.11.0-1.1.aarch64.rpm"
-RPM_HASH = "e34bc9448a4365ce6dacf30848f740914c96d761d1f8c009d65429adb3e740da6c4f901b5a7f1bf1816bc3d0c4934c7b26744ea0da6d24444a59d97abbe25e11"
+RPM_NAME = "freerdp-3.31.0-1.1.aarch64.rpm"
+RPM_HASH = "06909e38378dea91a45c75bc74903be400b506861d49eabd6524bb23f4ca966b2c395d9173c00736c9deb657b465326c791664dd70a7c3f8104ef48a6b3eab7b"
 
 RPROVIDES:${PN} += "freerdp"
 
@@ -21,9 +21,10 @@ libXinerama.so.1 \
 libXrandr.so.2 \
 libXrender.so.1 \
 libc.so.6 \
-libfreerdp-client2.so.2 \
-libfreerdp2-2 \
-libfreerdp2.so.2 \
-libwinpr2.so.2"
+libfreerdp-client3.so.3 \
+libfreerdp3-3 \
+libfreerdp3.so.3 \
+libm.so.6 \
+libwinpr3.so.3"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gvfs"
 DESCRIPTION = "Provides translations for the 'gvfs' package."
 LICENSE = "GPL-3.0-only & LGPL-2.0-or-later"
 
-PV = "1.50.5"
+PV = "1.60.3"
 
-RPM_NAME = "gvfs-lang-1.50.5-1.1.noarch.rpm"
-RPM_HASH = "e11633d1904d42fcd0ca4aaaeef32dc9c4db0fc8c8ee65d491f1ebb8f6059b1aedca130c83a1ab9a9dc185134c285c4fa467e9ecd56af77edde41110e08afe54"
+RPM_NAME = "gvfs-lang-1.60.3-1.1.noarch.rpm"
+RPM_HASH = "bb44f22613ee470d6d5b6cc694d6839b1e810270d76e703f89d8f9730148c5695f37a4f8b0e778d367de0741ef857a487a17d3ebc606e5cb5f40ffa9d7f989ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gvfs-lang \

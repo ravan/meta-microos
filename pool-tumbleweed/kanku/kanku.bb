@@ -6,16 +6,17 @@ It provides a framework for automation of setups, \
 e.g. to prepare development environments or run simple tests."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.14.0"
+PV = "1.0.0"
 
-RPM_NAME = "kanku-0.14.0-1.5.noarch.rpm"
-RPM_HASH = "2c974907be61eb40c24a1e2ccfe48a964b73b2578693b65e1e7c9c43808e28d2a2da8f2c63c7d78b20701b5c13b69fe49d40eb2dce9cfab07554d24014a19f29"
+RPM_NAME = "kanku-1.0.0-2.2.noarch.rpm"
+RPM_HASH = "40c35a2cd496e45fdc0e72b06ee842a90e184d5c756142ec370a89388876175a27c362c891ae1bc98d812637302d1ac8cf81e7ec4da1482f0880ae2e7edf6e05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku"
 
 RDEPENDS:${PN} += "kanku-cli \
 kanku-dispatcher \
+kanku-iptables \
 kanku-scheduler \
 kanku-triggerd \
 kanku-web \

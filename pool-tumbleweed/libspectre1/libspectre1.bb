@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.12"
 
-RPM_NAME = "libspectre1-0.2.12-1.4.aarch64.rpm"
-RPM_HASH = "465c2af43992b0e4a8d0117e2ff74608fe4283dca1b412af6dbdef3faccdfc57aa16b2694b9d378fd4e5acfb7bab3e2bc823d41d4e168c289b0829663cf2556c"
+RPM_NAME = "libspectre1-0.2.12-2.17.aarch64.rpm"
+RPM_HASH = "4fe1d0d9518e997da745aa194b3872e73b49e16a1a1f1efbc9177e5359ff31c69f6a2b7dd13f779bc9595008ddf69182322ec97d8014a039495391e64f520df4"
 
 RPROVIDES:${PN} += "libspectre.so.1 \
 libspectre1"
@@ -15,6 +15,6 @@ libspectre1"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgs.so.9"
+libgs.so.10"
 
 inherit rpm

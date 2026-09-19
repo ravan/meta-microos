@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-topletter"
 DESCRIPTION = "This package includes the documentation for texlive-topletter"
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.0.0.3.0svn48182"
+PV = "2026.226.0.0.3.0svn48182"
 
-RPM_NAME = "texlive-topletter-doc-2023.209.0.0.3.0svn48182-53.1.noarch.rpm"
-RPM_HASH = "c2e2a12b6ae39179c3133ac2f29a13491dd5cdefd847dc7cf51de7775136b2c4c93e3d3be4cd173a44d492aa601c86a2e02e230120d15e38e15b7ba5e1e2b5bc"
+RPM_NAME = "texlive-topletter-doc-2026.226.0.0.3.0svn48182-59.2.noarch.rpm"
+RPM_HASH = "0782888b71bae327375fa7725b2cc96108cb1cccd36abddc2756767036e5c109d467b1e4c6a0af5016ff1a725141a707f6221c9489bcb38e32f8d9e484fab3dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-topletter-doc-it \

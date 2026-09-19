@@ -5,10 +5,10 @@ change_hat operation in order to switch to a user-specific security \
 policy."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "3.1.6"
+PV = "5.0.2"
 
-RPM_NAME = "pam_apparmor-3.1.6-4.1.aarch64.rpm"
-RPM_HASH = "86f388cc41781f409b773a13ad7b100eb06b25402bd576bca6d1b5d3ee73041a7e995fa428acae1a5824e0ad2c5a9ca3f943dd41816e0a4a654874f13875b147"
+RPM_NAME = "pam_apparmor-5.0.2-2.1.aarch64.rpm"
+RPM_HASH = "4344a720f48772eb6cab1254124fd8c5cdf91914d43f3021da5a02aa5fd1718572a9e9ded768daf60eaaef01fd44493408bf57fb622c92c1100c702994971a49"
 
 RPROVIDES:${PN} += "pam-apparmor"
 

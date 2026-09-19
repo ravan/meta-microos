@@ -9,16 +9,16 @@ limited toolset. However, it provides a much simpler interface, and has \
 entertaining, child-oriented additions such as sound effects."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.28"
+PV = "0.9.35"
 
-RPM_NAME = "tuxpaint-0.9.28-1.1.aarch64.rpm"
-RPM_HASH = "e80d06cc6861e655343d8661580d0864243068f9a42005ec3d355d7d0bc9963ae1f6dbe26cad75bd99f10bc10fe3d22765001a6a97c9186e46ad5e2e1d367c27"
+RPM_NAME = "tuxpaint-0.9.35-2.2.aarch64.rpm"
+RPM_HASH = "f89ba7e9415d2948a1cd224620488764125dec4bf558f92f6e51e00a08e947bca79288eeebb758e682006f1caa014f5aff07ec1c6cae747bb9302e767b0b0a88"
 
 RPROVIDES:${PN} += "config-tuxpaint \
 tuxpaint"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-freefont \
+gnu-free-fonts \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libSDL2-Pango.so.4 \
@@ -28,12 +28,17 @@ libSDL2-mixer-2.0.so.0 \
 libSDL2-ttf-2.0.so.0 \
 libc.so.6 \
 libcairo.so.2 \
+libfontconfig.so.1 \
 libfribidi.so.0 \
+libgobject-2.0.so.0 \
 libimagequant.so.0 \
 libm.so.6 \
+libpango-1.0.so.0 \
+libpangoft2-1.0.so.0 \
 libpaper.so.2 \
 libpng16.so.16 \
 librsvg-2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 netpbm"
 

@@ -1,30 +1,37 @@
-SUMMARY = "Icinga Web 2 PHP library"
-DESCRIPTION = "Icinga Web 2 PHP library."
-LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
+SUMMARY = "Icinga Web PHP library"
+DESCRIPTION = "Icinga Web PHP and vendor libraries."
+LICENSE = "GPL-2.0-or-later"
 
-PV = "2.11.4"
+PV = "2.13.0"
 
-RPM_NAME = "php-Icinga-2.11.4-3.1.noarch.rpm"
-RPM_HASH = "1c676e84eef66ef257c526c4a6ba2d29e2296294df4de4e77f99338a120eecef15a399ce91e5263632712d125e0d0666e37ca07b86d48fd0daa5ed33ea79b5d6"
+RPM_NAME = "php-icinga-2.13.0-1.9.noarch.rpm"
+RPM_HASH = "e00ba297dc6f8adac232f55b5cf07a6b3f00bf904fedd4d7846572b297cdcec201cd1bf359e6160db440ec13f3be4e60dc2e0a1e5aafa4000bef1b9da33591d9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "php-Icinga"
-
-RDEPENDS:${PN} += "/usr/bin/sh \
+RPROVIDES:${PN} += "icingaweb2-vendor-HTMLPurifier \
+icingaweb2-vendor-JShrink \
+icingaweb2-vendor-Parsedown \
+icingaweb2-vendor-dompdf \
+icingaweb2-vendor-lessphp \
 icingaweb2-vendor-zf1 \
-php \
-php-ctype \
+php-Icinga \
+php-icinga"
+
+RDEPENDS:${PN} += "icinga-php-library \
+icinga-php-thirdparty \
 php-curl \
 php-dom \
 php-fileinfo \
 php-gd \
 php-gettext \
-php-imagick \
 php-intl \
 php-json \
+php-ldap \
 php-mbstring \
 php-openssl \
 php-pdo \
+php-pdo-mysql \
+php-pdo-pgsql \
 php-posix \
 php-xml"
 

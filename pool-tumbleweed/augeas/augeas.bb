@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.1"
 
-RPM_NAME = "augeas-1.14.1-1.1.aarch64.rpm"
-RPM_HASH = "49ececbd4fb9c2ff7bf26bb8b210f0e7ea649f57611d6109bb627bc59b14c003c2a4e139ec7887942cf972db90d533105fd03db8de53d2d860523a321c9effc8"
+RPM_NAME = "augeas-1.14.1-2.6.aarch64.rpm"
+RPM_HASH = "9ec178a18dcf4194f3e2e3608da5c92244075152573b75cfceeeaff350b4642830e5e74bfb6b88339271f5eb89eecd9daddeffaf2ae3c5f0f46177fb11fa193a"
 
 RPROVIDES:${PN} += "augeas"
 

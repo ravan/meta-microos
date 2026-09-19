@@ -3,10 +3,10 @@ DESCRIPTION = "SystemTap is an instrumentation system for systems running Linux.
 This package contains the server component of systemtap."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.9"
+PV = "5.5"
 
-RPM_NAME = "systemtap-server-4.9-1.2.aarch64.rpm"
-RPM_HASH = "2a59062e486f19643102c78a7fb1b9c030b52e8256877a9e99f327314713d473c6b03ccd377597acd0448a7b003cb2e0b96901510af9411e6ad98e1184149538"
+RPM_NAME = "systemtap-server-5.5-1.3.aarch64.rpm"
+RPM_HASH = "e6918c4eeed7e7e27368631709229ad8cc19259c5d00d71089a81a14ac0efaeaf6a6160df1fd136dbbd56907bb8b9efc592a6f8e09f321257cbec105788d0135"
 
 RPROVIDES:${PN} += "systemtap-server"
 

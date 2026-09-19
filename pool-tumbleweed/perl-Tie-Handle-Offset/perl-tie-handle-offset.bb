@@ -10,14 +10,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.004"
 
-RPM_NAME = "perl-Tie-Handle-Offset-0.004-1.12.noarch.rpm"
-RPM_HASH = "a2daa41deb89d938906902bdbac27f62cd9603c1346a44cc4aa4facd86cdeeae9399741a950264d9bdc67e068f811e159db1bb5e4f7f3831b99cd0f6cc8c2a6f"
+RPM_NAME = "perl-Tie-Handle-Offset-0.004-1.26.noarch.rpm"
+RPM_HASH = "0634b8ba15d42ad1d4991f61349d249b362fd8e3e189745d94eefc99692bbc1603969205295fb27f8bc06d332b3a19005115220b6265d1615d88a0bef97aa832"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tie--Handle--Offset \
 perl-Tie--Handle--SkipHeader \
 perl-Tie-Handle-Offset"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

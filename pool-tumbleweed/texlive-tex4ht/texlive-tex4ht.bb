@@ -19,10 +19,10 @@ Makefile in development, from which the TeX4ht package in TeX \
 Live is updated."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66530"
+PV = "2026.227.svn77990"
 
-RPM_NAME = "texlive-tex4ht-2023.209.svn66530-55.1.noarch.rpm"
-RPM_HASH = "cd2742f06cd1dd07b5b5a80c93e6ed073a49a49c38a3fb7957f01342f160f590668801bffd0bb0773baea4e8420d24bca68837b71a38d84ddeaac85bf38b2026"
+RPM_NAME = "texlive-tex4ht-2026.227.svn77990-62.2.noarch.rpm"
+RPM_HASH = "1203cb8a6dfe8b4b018d62972a6ff94b3d83220fc141633116ace9d79e8eab73478dc827f196d8411bfae1986018a4d9a8cfe95e513ab97240f7a9e80b724a23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-m-tex4ht.tex \

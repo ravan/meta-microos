@@ -9,10 +9,10 @@ MAD supports 24-bit PCM output. MAD computes using 100% fixed-point \
 unit."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.15.1b"
+PV = "0.16.4"
 
-RPM_NAME = "libmad0-0.15.1b-6.3.aarch64.rpm"
-RPM_HASH = "8014a2acc25280940b0d270b1a5bcc669bc98a2e8d26f200949821b4fcf5663ef7b967b951a451a5cc329e94cd5380afaa8fd4be2c07121581e2970c76de18fd"
+RPM_NAME = "libmad0-0.16.4-1.3.aarch64.rpm"
+RPM_HASH = "93191607825e3103146898fba6acbe049d49ee8b65e0121d6102188b63771afa922ba45478e056c5f24790c39c0dd2b28577c80edaea217b428e3eed10502013"
 
 RPROVIDES:${PN} += "libmad.so.0 \
 libmad0"

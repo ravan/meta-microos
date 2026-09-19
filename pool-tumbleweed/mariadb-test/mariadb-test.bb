@@ -1,13 +1,13 @@
 SUMMARY = "Testsuite for MariaDB"
 DESCRIPTION = "This package contains the test scripts and data for MariaDB. \
  \
-To run the testsuite, run /usr/share/mysql-test/suse-test-run."
+To run the testsuite, run /usr/share/mariadb-test/suse-test-run."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "11.0.2"
+PV = "12.3.2"
 
-RPM_NAME = "mariadb-test-11.0.2-1.1.aarch64.rpm"
-RPM_HASH = "bd77c2945655b752af09cbe3fe5cdeb741711ab4293ba200a7f57ae83a5b62a4d658d1c039af8394f608ab8d95b94d1e5babbb4c86f9beac5e7e5f3de2e51947"
+RPM_NAME = "mariadb-test-12.3.2-1.3.aarch64.rpm"
+RPM_HASH = "6cb5aff62a73baa37a4731a3c7df54b0fd778d745f03820c3fcf0e734de4d2ce1870bab122eb69a5015d47c7fe78b139d79e7f7fe5168e240c8dff8cc62ecee8"
 
 RPROVIDES:${PN} += "mariadb-test \
 mysql-test \
@@ -29,6 +29,7 @@ perl-My--SafeProcess--Base \
 perl-My--Suite \
 perl-My--Suite--Archive \
 perl-My--Suite--AuthGSSAPI \
+perl-My--Suite--AuthSHA2 \
 perl-My--Suite--BinlogEncryption \
 perl-My--Suite--CTest \
 perl-My--Suite--Connect \
@@ -49,17 +50,18 @@ perl-My--Suite--Metadata-lock-info \
 perl-My--Suite--OQGraph \
 perl-My--Suite--Plugins \
 perl-My--Suite--Query-response-time \
-perl-My--Suite--Rocksdb \
-perl-My--Suite--Rocksdb-sys-vars \
 perl-My--Suite--S3 \
 perl-My--Suite--SQL-Discovery \
 perl-My--Suite--Sequence \
 perl-My--Suite--Sphinx \
 perl-My--Suite--Spider \
 perl-My--Suite--Sysschema \
+perl-My--Suite--Type-assoc-array \
+perl-My--Suite--Type-cursor \
 perl-My--Suite--Type-inet \
 perl-My--Suite--Type-test \
 perl-My--Suite--Type-uuid \
+perl-My--Suite--Type-xmltype \
 perl-My--Suite--User-variables \
 perl-My--Suite--WSREP \
 perl-My--Suite--WSREP-INFO \
@@ -76,6 +78,7 @@ perl-wsrep--common"
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/sh \
+group-mysql \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libc.so.6 \
@@ -109,6 +112,7 @@ perl-Sys--Hostname \
 perl-Test--More \
 perl-Time--HiRes \
 procps \
-time"
+time \
+user-mysql"
 
 inherit rpm

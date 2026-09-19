@@ -2,17 +2,17 @@ SUMMARY = "KWallet integration for signon framework"
 DESCRIPTION = "KWallet integration for signon framework."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "signon-kwallet-extension-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "a5bb36c4d4ffab9709a13f43eafa080843719c538b1223d819c3794638f4b6598669c83206cd8b8e2a2cd7269a66aafa44d78d384575b43ebf608aa7e71736d9"
+RPM_NAME = "signon-kwallet-extension-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "fd7b6dd89b017154dd857ca993c6a6b46e1e4302ea42fd98ae0062fd587bf3e296aff5d3d7d157ae1e50c709e71a041faa64ac17fb08cb307d6c946d79d7010e"
 
 RPROVIDES:${PN} += "libkeyring-kwallet.so \
 signon-kwallet-extension"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5Wallet.so.5 \
-libQt5Core.so.5 \
+libKF6Wallet.so.6 \
+libQt6Core.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libsignon-extension.so.1 \

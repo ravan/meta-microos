@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a Kanbun (Han Wen , 'Chinese writing') \
 typesetting for (u)pLaTeX and LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn61719"
+PV = "2026.226.2.2.7svn77307"
 
-RPM_NAME = "texlive-gckanbun-2023.209.1.2svn61719-53.1.noarch.rpm"
-RPM_HASH = "85992244c7ff8a87accc471fec69357735656cbe1913ed8ef608354339e0a90c99aad9b1dd3fd025450af9081fd1cbbd13905e56f6392899db5da023bfe01408"
+RPM_NAME = "texlive-gckanbun-2026.226.2.2.7svn77307-60.2.noarch.rpm"
+RPM_HASH = "3801d0557b9aa144bd0e46d5e56cbb75c9067a31fc3e11f2bc675d3749bdf607113813b563797052e2b64f88e1f4bafdffc42406e15e669d421d93b6c06c52dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gckanbun.sty \
@@ -18,9 +18,12 @@ ed \
 findutils \
 grep \
 sed \
+tex-bxghost.sty \
+tex-etoolbox.sty \
 tex-ifluatex.sty \
 tex-ifuptex.sty \
 tex-keyval.sty \
+tex-luatexja-adjust.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

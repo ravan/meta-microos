@@ -5,10 +5,10 @@ autogenerate a full wrapper as it is already done for the python \
 bindings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.9"
+PV = "0.3.11"
 
-RPM_NAME = "libgovirt-devel-0.3.9-1.3.aarch64.rpm"
-RPM_HASH = "82f51e3720d5299677d6d9c491083e791fd43da2dc8764b9170b45d754b648cdafe24bd80749f9f8e7c179a90ace438d0a312bbf2968ae3ad0f05c347623555c"
+RPM_NAME = "libgovirt-devel-0.3.11-1.3.aarch64.rpm"
+RPM_HASH = "ed392fd7957256ed25f060ef334e250ce9a63f3bdcbe9ba986b4517eac2f62767c6fe6eb31d70edc3602f0647f9dbc3b15a6be97f3ac136dd3f351bebc3af196"
 
 RPROVIDES:${PN} += "libgovirt-devel \
 pkgconfig-govirt-1.0"

@@ -2,10 +2,10 @@ SUMMARY = "Qt5 location examples"
 DESCRIPTION = "Examples for libqt5-qtconnectivity module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.10+kde4"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtconnectivity-examples-5.15.10+kde4-1.1.aarch64.rpm"
-RPM_HASH = "566df02b441de06a7d47d5da98c94f8ce8e146d098d0e265b4bad3793896d195dce330001fa9c7601a190570772aa7afa4bf19ed41fcc232965739c12b687bc6"
+RPM_NAME = "libqt5-qtconnectivity-examples-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "0a3c256999a346a060b6668d21e71eef1d51406dfeac304c3742f8bf597bf534d3805228e0aed099f70f4b6b16fdcaca17e2f78bfd4f966a167340522cac84bd"
 
 RPROVIDES:${PN} += "libqt5-qtconnectivity-examples"
 

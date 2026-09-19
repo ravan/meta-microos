@@ -6,10 +6,10 @@ reasons. \
 This package contains data files used by libgnome-dekstop."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.0"
+PV = "44.5"
 
-RPM_NAME = "libgnome-desktop-3_0-common-44.0-1.2.aarch64.rpm"
-RPM_HASH = "06cce19346cb0cf7513013ec82214f030a4a62bd1dae5a6b6fe373c46add8230c9791e307ce34a4759da892ce97ec9059e6c52aef4aaf622e80be3756a8d7682"
+RPM_NAME = "libgnome-desktop-3_0-common-44.5-1.5.aarch64.rpm"
+RPM_HASH = "4e1cab51ddea7429018a1c01cd1be1a14f3fd6fbc0c191a027530aad0bb3b3ec017b6cee04d39ea0e81ad775396caa706d35a429642cdbb9ac2b93d5178b80fc"
 
 RPROVIDES:${PN} += "libgnome-desktop-3-0-common"
 

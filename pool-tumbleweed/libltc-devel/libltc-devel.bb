@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "libltc-devel-1.3.2-1.3.aarch64.rpm"
-RPM_HASH = "1f9a7f957efde2d9fbf7eebf86e1145bc2f4067da4c10f5d3af22ddb9fa2b6d7b73d9565831732635c398737de4a408af70633d74f1d5be931a02bb98c5b88be"
+RPM_NAME = "libltc-devel-1.3.2-1.13.aarch64.rpm"
+RPM_HASH = "d6f4c35d49c21ae61bc0927cc9c17de5d6beec4e853fc2a62183b9daa1fed7eeb876cfba960948f37777ef6154b045b922a9b416aff7978dddf442c574d57066"
 
 RPROVIDES:${PN} += "libltc-devel \
 pkgconfig-ltc"

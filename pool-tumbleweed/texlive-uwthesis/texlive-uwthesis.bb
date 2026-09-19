@@ -2,10 +2,10 @@ SUMMARY = "University of Washington thesis class"
 DESCRIPTION = "The uwthesis package"
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.6.13svn15878"
+PV = "2026.226.6.13svn15878"
 
-RPM_NAME = "texlive-uwthesis-2023.209.6.13svn15878-54.1.noarch.rpm"
-RPM_HASH = "e6335a56ecbe4cc4aac6b0971aafdb10be8e48e95640bb5c13c0424e81eae5341558f28650d333ce677811b9b96fb268b00ecf57d5eacf2dce842448488bd659"
+RPM_NAME = "texlive-uwthesis-2026.226.6.13svn15878-60.2.noarch.rpm"
+RPM_HASH = "dda7538cf4183584ac787ba768b905eefb0dd44a33c4c774a09093ef2e04a8ac3d95626aafc9b0f4392029b6fe7058b36d314bfd3aa8c4a21750c730bb3f886f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uwthesis.cls \

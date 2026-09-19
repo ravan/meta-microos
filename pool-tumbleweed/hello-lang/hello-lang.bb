@@ -2,10 +2,10 @@ SUMMARY = "Translations for package hello"
 DESCRIPTION = "Provides translations for the 'hello' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12.1"
+PV = "2.12.3"
 
-RPM_NAME = "hello-lang-2.12.1-1.4.noarch.rpm"
-RPM_HASH = "deab92401bc36db79ce958d37a8da4cb4313da08133b9ab1e7339c51501168bd1c62455ce77554e0936434c7f066bed4d81a4f3cb3219978a9c4315a2b99b76e"
+RPM_NAME = "hello-lang-2.12.3-1.4.noarch.rpm"
+RPM_HASH = "c0f1e3b6e9d209ddf7f957f1fea3cfcdb363f9022e91453db14cb60848a4827bae45f78688f333eac87dbff9c27ad5f270a7f0c47dd4d17cd7c7a7b4935308a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hello-lang \
@@ -13,6 +13,7 @@ hello-lang-all \
 locale-hello-ast \
 locale-hello-bg \
 locale-hello-ca \
+locale-hello-cs \
 locale-hello-da \
 locale-hello-de \
 locale-hello-el \

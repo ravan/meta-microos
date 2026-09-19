@@ -2,10 +2,10 @@ SUMMARY = "Translations for package blueman"
 DESCRIPTION = "Provides translations for the 'blueman' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.3.5"
+PV = "2.4.6"
 
-RPM_NAME = "blueman-lang-2.3.5-1.4.noarch.rpm"
-RPM_HASH = "e7606e1acfe258d0929a0997ecbb95ec49bca1aab5b508a0f54fbfd2e08281a4eb7134a636d74cd38010c200208896a2e0e6df45beb4c1c17d485135f685edad"
+RPM_NAME = "blueman-lang-2.4.6-1.5.noarch.rpm"
+RPM_HASH = "736b1ff2c45ec3a778595e5affffb2dc4c27fd88cc5e8860a72e608e9db5bfeb16472608edfccb54f452e17f07426a76302383a376ff40164ea842fdbc784fa8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blueman-lang \
@@ -24,20 +24,24 @@ locale-blueman-de \
 locale-blueman-el \
 locale-blueman-en-AU \
 locale-blueman-en-GB \
+locale-blueman-eo \
 locale-blueman-es \
 locale-blueman-et \
 locale-blueman-eu \
 locale-blueman-fa \
 locale-blueman-fi \
 locale-blueman-fr \
+locale-blueman-ga \
 locale-blueman-gl \
 locale-blueman-he \
 locale-blueman-hi \
 locale-blueman-hr \
 locale-blueman-hu \
 locale-blueman-id \
+locale-blueman-is \
 locale-blueman-it \
 locale-blueman-ja \
+locale-blueman-ka \
 locale-blueman-kk \
 locale-blueman-ko \
 locale-blueman-lt \

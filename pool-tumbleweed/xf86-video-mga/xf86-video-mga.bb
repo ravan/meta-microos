@@ -15,10 +15,10 @@ also provides various other enhancements, and may be necessary to use \
 the DVI (digital) output on the G550 (and other cards)."
 LICENSE = "MIT"
 
-PV = "2.0.1"
+PV = "2.1.0"
 
-RPM_NAME = "xf86-video-mga-2.0.1-1.5.aarch64.rpm"
-RPM_HASH = "185f11b9218260990811a330299c7a1c71bb1d304bbd5fe4c147de788b14502e03298ac8a87c34aeec3dffa9d4aba1472c649b1b16bf6aeaf2c10d072754d410"
+RPM_NAME = "xf86-video-mga-2.1.0-1.9.aarch64.rpm"
+RPM_HASH = "b2112f99365b0b459d76a2f218c0bd6b7cf0bde004734ce7e519510182370f80038135c253c2fb05ad39876be71f140de4ccc923b0356f7f57f7e294458f691a"
 
 RPROVIDES:${PN} += "xf86-video-mga"
 

@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The annotations module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.51"
+PV = "9.4.58"
 
-RPM_NAME = "jetty-annotations-9.4.51-2.1.noarch.rpm"
-RPM_HASH = "5de36db8a7d1106b553f50ff14dedf021a0e44df9b6b5d3ffa58a7256cea0cd9361c59036c5df0e17c00497c8ca04befd2401ec45a1e77b6c304c8464b721245"
+RPM_NAME = "jetty-annotations-9.4.58-5.1.noarch.rpm"
+RPM_HASH = "f096cfedf91f60181851b1f5f31931bd48c4f61173711c23c87341844779b74ab44f1b82d1c969c8faa3f6863be6f17b2c953452f9cb4901d1a2798403a95a18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-annotations \

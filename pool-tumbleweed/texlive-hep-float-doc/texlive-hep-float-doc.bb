@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hep-float"
 DESCRIPTION = "This package includes the documentation for texlive-hep-float"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64904"
+PV = "2026.226.1.4svn76220"
 
-RPM_NAME = "texlive-hep-float-doc-2023.209.1.1svn64904-54.2.noarch.rpm"
-RPM_HASH = "8cece77ec14f45d500016c1cb78cb59872e78b552fb23523dc697cd500495d5e828b10f05bec51b75ea24fdce2f167ecd044bf8a0a9ffebf0aff0bb67a086942"
+RPM_NAME = "texlive-hep-float-doc-2026.226.1.4svn76220-60.4.noarch.rpm"
+RPM_HASH = "b415399936574625f30867ed437fa69167ee6a6b48ef8283db3d03aaeba91391044211f0e983366bfc726bfbb09f2347e181650eb594f69d108bbac940345bee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hep-float-doc"

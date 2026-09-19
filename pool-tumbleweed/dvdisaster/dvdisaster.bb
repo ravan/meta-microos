@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.79.10"
 
-RPM_NAME = "dvdisaster-0.79.10-1.1.aarch64.rpm"
-RPM_HASH = "b85e4543cc5e2938998ab96bbc0a143a8e22a85dc666962c21a75313e78224a0cada72588d7112217df20ea9181a92f07cb5e308615bf514eb2d091edffa57b2"
+RPM_NAME = "dvdisaster-0.79.10-3.4.aarch64.rpm"
+RPM_HASH = "a406437c34dc8d81095086318a8b480c627f86eb20725efb81c199caae9cc68bdd896d4edc6c40d4ceab86d3caab0b4ad80bd59c3060de84c01f87cab9920635"
 
 RPROVIDES:${PN} += "dvdisaster"
 

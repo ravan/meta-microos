@@ -17,19 +17,22 @@ subroutines are called only if needed. For more information read the \
 String::Flogger docs."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.005"
+PV = "3.101.0"
 
-RPM_NAME = "perl-Log-Dispatchouli-3.005-1.2.noarch.rpm"
-RPM_HASH = "7392d0a02bf79b24abab8aa4a28804e118bc8ed5f6b0547f908bbeec67daba45bdd4ab30f447cae0759b7feebb4c73bc01e65071f714d81c96c6efc67e8f4302"
+RPM_NAME = "perl-Log-Dispatchouli-3.101.0-1.3.noarch.rpm"
+RPM_HASH = "a4c40d21e25bbbfa0db72409992bbda6762dcc9d35fe83146b8d2db0f8ea8f5472513c15b6890c77a564f172f0163e56cdd0eecd80d83465fc3c26748ed7ac5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Dispatchouli \
 perl-Log--Dispatchouli--Global \
+perl-Log--Dispatchouli--LogFmtTester \
 perl-Log--Dispatchouli--Proxy \
 perl-Log--Fmt \
+perl-Log--Fmt--Test \
 perl-Log-Dispatchouli"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-JSON--MaybeXS \
 perl-Log--Dispatch \
 perl-Log--Dispatch--Array \
 perl-Log--Dispatch--File \
@@ -40,7 +43,10 @@ perl-String--Flogger \
 perl-Sub--Exporter \
 perl-Sub--Exporter--GlobExporter \
 perl-Sys--Syslog \
+perl-Test--Deep \
+perl-Test--More \
 perl-Try--Tiny \
-perl-experimental"
+perl-experimental \
+perl-parent"
 
 inherit rpm

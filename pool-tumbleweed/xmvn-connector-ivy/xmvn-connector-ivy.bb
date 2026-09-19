@@ -5,10 +5,10 @@ attached to default Maven lifecycle when building packages, others can \
 be called directly from Maven command line."
 LICENSE = "Apache-2.0"
 
-PV = "4.0.0~20220623.8da91ea"
+PV = "4.0.0"
 
-RPM_NAME = "xmvn-connector-ivy-4.0.0~20220623.8da91ea-1.2.noarch.rpm"
-RPM_HASH = "3d530f0564d45c22676191df77467f7b89c6de25a209e567ac667e1a748529e800316dbc962577a6cf9f9eb13448517d90fb6fb0d4a9ee323e8a6b7f5df8c037"
+RPM_NAME = "xmvn-connector-ivy-4.0.0-1.7.noarch.rpm"
+RPM_HASH = "d97e3da344f9c7db40596a2132ecd297462412d5a89db252b515a48124baa88b6df3394671289a9b8172863767a1daf303477a14a39425d78f7a7d51d8a0cda1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.fedoraproject.xmvn-xmvn-connector-ivy \

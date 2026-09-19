@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.11.4"
 
-RPM_NAME = "felix-utils-1.11.4-1.13.noarch.rpm"
-RPM_HASH = "80b442d9972c70ea43b28f5a7be5cbfa9938e672195de22d271ab65be6095a2374db02d7d1f2bb0c9fbc5c9e4417036e7947c5ac149d2c6793e683e061073cff"
+RPM_NAME = "felix-utils-1.11.4-3.9.noarch.rpm"
+RPM_HASH = "384988f7108e4b0cfc2bd1804b66c06f3c3b58104e44b8dcd78ccd8c2268f014351765523be180749d699ddb3dc82f1f5b24ac61c5d2565a4c9c7d418066ee5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-utils \

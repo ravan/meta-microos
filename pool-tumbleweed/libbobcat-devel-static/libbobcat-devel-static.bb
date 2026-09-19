@@ -2,13 +2,13 @@ SUMMARY = "Bobcat static library"
 DESCRIPTION = "Bobcat static library"
 LICENSE = "GPL-3.0-only"
 
-PV = "6.02.02"
+PV = "6.15.01"
 
-RPM_NAME = "libbobcat-devel-static-6.02.02-2.4.aarch64.rpm"
-RPM_HASH = "6386d3ab8da7b5063102b82bee7f03d5c4d5a5d1640553906e58e48ec074fb6405042e42556aac6bbaecf3be8cde8cc9b21797d5d5032eb2aac846d73f28789d"
+RPM_NAME = "libbobcat-devel-static-6.15.01-1.1.aarch64.rpm"
+RPM_HASH = "fa3a77503f66d3fc2bc790795e4d302fc8b013b7ac7bbab47559cd2de04948384360308491605dba48e08d86dd97b7dfb7efe03cbebf141b444b81af35c4ab33"
 
 RPROVIDES:${PN} += "libbobcat-devel-static"
 
-RDEPENDS:${PN} += "libbobcat-devel"
+RDEPENDS:${PN} += ""
 
 inherit rpm

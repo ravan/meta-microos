@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Linux kernel headers for riscv64, the kerne
 required for compilation of almost all programs."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4"
+PV = "7.2"
 
-RPM_NAME = "cross-riscv64-linux-glibc-devel-6.4-1.1.noarch.rpm"
-RPM_HASH = "df0a945ef0dc6e3a98f4a11854dea4908ce68dd698df2ea6cdc7250c03b84a6922d305bb32f8f0e675afdd4da23026ea5460e85bb1748df9476056c1310041be"
+RPM_NAME = "cross-riscv64-linux-glibc-devel-7.2-2.1.noarch.rpm"
+RPM_HASH = "79cfb8cc3671cd57f74baf8a43091db26f60185825abc6e171c0f68d059b61dc6368c59ce5a54dea6ad3e7c1ed5a7615755f229c65625a8c0175fdf73b6bb9a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-riscv64-linux-glibc-devel"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ushort"
 DESCRIPTION = "This package includes the documentation for texlive-ushort"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn32261"
+PV = "2026.226.2.2svn32261"
 
-RPM_NAME = "texlive-ushort-doc-2023.209.2.2svn32261-54.1.noarch.rpm"
-RPM_HASH = "a36544194213c2eda740dc2e10b9f1537b573ec02bdf56d0e624ca6f23bb595bfbe64956bda6d6df8f63faf4764b4286e2a60606f93a4d9a5c0855f0557bf5f1"
+RPM_NAME = "texlive-ushort-doc-2026.226.2.2svn32261-60.2.noarch.rpm"
+RPM_HASH = "9a2e245e7159ee77b0d7a54ccc71a831f69f440a0379e9f0702fe59ce0bc77d734ca60326e52f1cba02220667662a28b493bd38a5204ab4be60d845ea5d3798e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ushort-doc"

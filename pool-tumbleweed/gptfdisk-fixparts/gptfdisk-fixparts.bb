@@ -5,10 +5,10 @@ and enables changing primary vs. logical partition status. Also \
 provides a few additional partition manipulation features."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.9"
+PV = "1.0.10"
 
-RPM_NAME = "gptfdisk-fixparts-1.0.9-3.4.aarch64.rpm"
-RPM_HASH = "9c04ad267143ed2e0b7730b7c00ea06f8b2d6399847d311565024dd2d458af5b81a357ed70f63702c5c15d8381797b8391fad62e2e194b8015655965929b6b27"
+RPM_NAME = "gptfdisk-fixparts-1.0.10-1.9.aarch64.rpm"
+RPM_HASH = "f5c05fe82e9ffba2dd8fa69340a38657b668f25361884c4187436105f21832ff5d3419606e8191dd1a96be28847a58ae3005616c8d3807b206e47116c129aa0b"
 
 RPROVIDES:${PN} += "gptfdisk-fixparts"
 

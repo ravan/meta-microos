@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20170128"
 
-RPM_NAME = "gtk3-metatheme-vertex-20170128-3.10.noarch.rpm"
-RPM_HASH = "314d64b36133515f4737cad201a3e8852ec1dac15f35d64f5a20a3cd25f2e1e576131803892d5bdf691a6c6fe162be2ec3009b70cdcd78648355639a98f8be40"
+RPM_NAME = "gtk3-metatheme-vertex-20170128-3.18.noarch.rpm"
+RPM_HASH = "e628211eb307d6bfdb8962a050e0f8899c9d7d6870cbf73b177c7f358aefc781cbc49407210e777a03fc20a2f251b59648572fe5e8683d4082115d2968329d7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-vertex"

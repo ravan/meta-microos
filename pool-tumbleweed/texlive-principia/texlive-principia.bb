@@ -1,13 +1,13 @@
 SUMMARY = "Notations for typesetting the 'Principia Mathematica'"
 DESCRIPTION = "This package supports typesetting the Peanese notation in \
-Volume I of Whitehead and Russell's 1910 'Principia \
+Volumes I-III of Whitehead and Russell's 1910 'Principia \
 Mathematica'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn58927"
+PV = "2026.226.3.4svn74710"
 
-RPM_NAME = "texlive-principia-2023.209.1.3svn58927-53.1.noarch.rpm"
-RPM_HASH = "a4a7a1b8a1e9da14f057f138f3b7ea9bbc5cfdee0164e611c9fef2485cfcccd2c63365e4dafb9c256aabf180c1f159440834db7d315d7e272ce2b4ccafa3cca3"
+RPM_NAME = "texlive-principia-2026.226.3.4svn74710-59.2.noarch.rpm"
+RPM_HASH = "3898cc5a76558e2f7ba1527b7d9e092799d0963c6d6182aed2e3420fcec39feb92fd7e07d8347e2b5eff2fa83d8b3018b43148cd82bfa06bc5c6bb2e83dd2216"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-principia.sty \

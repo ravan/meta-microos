@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.10"
 
-RPM_NAME = "perl-Net-IPv4Addr-0.10-166.26.aarch64.rpm"
-RPM_HASH = "73f7d5f1abc64032bdcc3023b55dfa8a33f3edafca7b0db36765a01ec23e51a8652cf9877d8bb6c1c8abd4f0ffc2c8ade164afeef7f45604581cc3f87d809509"
+RPM_NAME = "perl-Net-IPv4Addr-0.10-167.9.aarch64.rpm"
+RPM_HASH = "edd4c06cb9012c61d9c369f603702275ce93ec97a3b29432171fe32c452a8d517febc8596c6e3f11793ef6619885dc270ba19f445593511cf8fb679d53b0f1f1"
 
 RPROVIDES:${PN} += "Net \
 perl-Net--IPv4Addr \

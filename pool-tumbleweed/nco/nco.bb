@@ -4,24 +4,22 @@ facilitate manipulation and analysis of self-describing data stored \
 in the netCDF and HDF formats."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.1.7"
+PV = "5.3.9"
 
-RPM_NAME = "nco-5.1.7-1.1.aarch64.rpm"
-RPM_HASH = "80a48d3d7d1fc8e6d65e49cc5f2379a96d945d81af5803bda0b87265e98ead1a81576a53f339d0115c0a1e7b36d6d8cf815ff92f42da08e1ea835829a8f82cfe"
+RPM_NAME = "nco-5.3.9-1.2.aarch64.rpm"
+RPM_HASH = "615b04f03e8a9d8764e86e03d91992954bf64e1ddb13f92e1bd393f90297310ebf3a3112c318027e14e2d9fc874b931c87ed63c0b766669946fa074197c316f0"
 
 RPROVIDES:${PN} += "nco"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/env \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libgomp.so.1 \
-libgsl.so.27 \
+libgsl.so.28 \
 libm.so.6 \
-libnco-5.1.7.so \
-libnetcdf.so.19 \
+libnco-5.3.9.so \
 libstdc++.so.6"
 
 inherit rpm

@@ -2,13 +2,12 @@ SUMMARY = "Apache Exporter for Prometheus"
 DESCRIPTION = "Exports apache mod_status statistics via HTTP for Prometheus consumption."
 LICENSE = "MIT"
 
-PV = "1.0.0"
+PV = "1.0.10"
 
-RPM_NAME = "golang-github-lusitaniae-apache_exporter-1.0.0-3.1.aarch64.rpm"
-RPM_HASH = "14fd4156c1e9415e1e1f29c83a177f298a69407e7e0dc3315e6213468ccdd0385febee79398058209c9b289b25b55e184138cd28fb7930e1acc3a17d2c262ddc"
+RPM_NAME = "golang-github-lusitaniae-apache_exporter-1.0.10-3.7.aarch64.rpm"
+RPM_HASH = "f6aadc1af248cf1e24734e2bfa5d64848a4b3e33d59bf4cc399d089cecb7cbc6bc8d7efcd65bc3f1896cdaf3afd841fb4be2c1b22f06db23b659d1a839c5b4d8"
 
-RPROVIDES:${PN} += "config-golang-github-lusitaniae-apache-exporter \
-golang-github-lusitaniae-apache-exporter"
+RPROVIDES:${PN} += "golang-github-lusitaniae-apache-exporter"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 shadow"

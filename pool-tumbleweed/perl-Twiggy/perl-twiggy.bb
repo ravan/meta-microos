@@ -42,8 +42,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.1026"
 
-RPM_NAME = "perl-Twiggy-0.1026-1.12.noarch.rpm"
-RPM_HASH = "a14501e8615ddc24f4ace9ee35d7e738ebb9ca11e931c0cde302c65451cddc35300d1afe68399f1c36a62478175080ce8d5468277ff2968f062f6c5608ab752c"
+RPM_NAME = "perl-Twiggy-0.1026-1.26.noarch.rpm"
+RPM_HASH = "e4fbe3408feaa9cffef54c375496be23637f933f691d53cafad19801b9a06eef93fd963521cd96e07cb920bad3cf7125d7e34f6f03a82484a52ce5756c4b91a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-AnyEvent--Server--PSGI \
@@ -54,7 +54,7 @@ perl-Twiggy--Server--SS \
 perl-Twiggy--Writer"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-AnyEvent \
 perl-HTTP--Status \
 perl-Plack \

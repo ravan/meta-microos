@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.6"
 
-RPM_NAME = "bitlbee-devel-3.6-4.5.aarch64.rpm"
-RPM_HASH = "dfb0254944844c76ee24a1d9bed2d46206ce039ec7f1e51cbb4f21c4fd30eb113aac20f865c38bc24991b1b535113a3ae59d21e44c5454b1d3f3adb7c02c8064"
+RPM_NAME = "bitlbee-devel-3.6-5.11.aarch64.rpm"
+RPM_HASH = "c00f45dff9e0e60feac29e5eaf6c1aaba198de6fd157c36dcf1ad6d70a0a82c3c43da14cdb1df15613317e2da544777d8f34f33380f36f7acc425a41025843ef"
 
 RPROVIDES:${PN} += "bitlbee-devel \
 pkgconfig-bitlbee"

@@ -3,33 +3,30 @@ DESCRIPTION = "Plugin for the Falkon browser that allows tighter integration of 
 such as storing passwords in KWallet."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "falkon-kde-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "e19de1fd492fcfa7cb151c4096dd1a2b1ee4e66132554fa8a5c6c066e7c0388aa1c452486d40d629f6daaecee2d97af6da1d3ccfa278e6bd9905cbf9f10a4c6a"
+RPM_NAME = "falkon-kde-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "4848c93be666e5bffed35276b3462a5654c8272af0292e385aca2409f68b95c20d661d03221eab8b43b02490aa4e2a34682023be4a7e05be027423995dc14eeb"
 
 RPROVIDES:${PN} += "falkon-kde \
 falkon-kwallet \
 qupzilla-kwallet"
 
 RDEPENDS:${PN} += "falkon \
-kwalletd5 \
 ld-linux-aarch64.so.1 \
 libFalkonPrivate.so.3 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Purpose.so.5 \
-libKF5PurposeWidgets.so.5 \
-libKF5Wallet.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5WebEngineCore.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KIOCore.so.6 \
+libKF6Purpose.so.6 \
+libKF6PurposeWidgets.so.6 \
+libKF6Wallet.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

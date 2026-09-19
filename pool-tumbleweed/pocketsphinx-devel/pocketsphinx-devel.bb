@@ -7,16 +7,16 @@ real-time. \
 This is the development package for pocketsphinx."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.8"
+PV = "5.0.3+git20241211.69167fb"
 
-RPM_NAME = "pocketsphinx-devel-0.8-5.16.aarch64.rpm"
-RPM_HASH = "69e431e5d33ee8f015720c9192767c7eda6ff695c49756f9df3a9a619f7e7c291f800b9a6f2e806ca2ee60e7ee847e87c14887eb9abdbaad896e611fe4dddd92"
+RPM_NAME = "pocketsphinx-devel-5.0.3+git20241211.69167fb-1.7.aarch64.rpm"
+RPM_HASH = "32ab188158d46dfce94e53d574508f6aa44f42597454ae88a228699fbb3dd68f5bbef440add405ffcfdc7d5f8b1846918fef79ecfcf94075641126b7ebb1ffa0"
 
 RPROVIDES:${PN} += "pkgconfig-pocketsphinx \
-pocketsphinx-devel"
+pocketsphinx-devel \
+pocketsphinx5-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpocketsphinx1 \
-pkgconfig-sphinxbase"
+pocketsphinx"
 
 inherit rpm

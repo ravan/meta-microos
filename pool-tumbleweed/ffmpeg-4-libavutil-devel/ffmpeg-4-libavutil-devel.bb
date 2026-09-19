@@ -8,10 +8,10 @@ for pixel and sample formats). \
 This subpackage contains the headers for FFmpeg libavutil."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "ffmpeg-4-libavutil-devel-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "17c4ea1ce4d3857ca3834412d94f3104523aff30ea83fe33df5449d166ba3000c14a969f31b680db5098205f0741e6f09a60384b825bc74e66953c583712fa48"
+RPM_NAME = "ffmpeg-4-libavutil-devel-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "a4b2c5f177a2c2ed6ba89acad2ca92e38f147db21398d14e6e593467cf537cb29f27845214a314c5e83de83b4bd8b41f4bfefa0303a3a1b4aded276f8c1b60bf"
 
 RPROVIDES:${PN} += "ffmpeg-4-libavutil-devel \
 libavutil-devel \

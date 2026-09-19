@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mpfonts"
 DESCRIPTION = "This package includes the documentation for texlive-mpfonts"
 LICENSE = "SUSE-TeX"
 
-PV = "2023.209.svn54512"
+PV = "2026.226.svn54512"
 
-RPM_NAME = "texlive-mpfonts-doc-2023.209.svn54512-55.1.noarch.rpm"
-RPM_HASH = "a80a072af9a19f5c42bdc4e1aeb8cc1489801ec667f0fd0c456863e9f953fe72c23c583d72547785074fa983a43a95adcedc11d2c9abed73e4997a6989397769"
+RPM_NAME = "texlive-mpfonts-doc-2026.226.svn54512-61.2.noarch.rpm"
+RPM_HASH = "7e26ada22ee83d432403feea24c104deda3b9f9284e360b9e5c2bec8212e930af7668e8790bc5291ee56b58b4de3bd496e813e75041b56bad8bbae1d4e184d47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mpfonts-doc"

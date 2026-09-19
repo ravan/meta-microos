@@ -3,18 +3,20 @@ DESCRIPTION = "Kawaii-Player is an audio/video manager and multimedia player bas
 and can also work as media server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.0.0.1"
+PV = "8.1.0.1"
 
-RPM_NAME = "kawaii-player-5.0.0.1-2.9.noarch.rpm"
-RPM_HASH = "edb71391be9f434b4a0e213e3b23a18de9ee9f00cd6834e24f157cf4e87b9927656c75aa786c5aaff97170d80a27f87f8e910257332a0706947e891b5121eb04"
-REPO_ARCH = "noarch"
+RPM_NAME = "kawaii-player-8.1.0.1-1.1.aarch64.rpm"
+RPM_HASH = "5d50f9557a6914411df021efff6a4eda320b469688ddcc02432338202142d5598d6f371a9296c774eb190c268fd341a6066f2101223251c792bc6a54b3caf48d"
 
 RPROVIDES:${PN} += "kawaii-player \
-python3.11dist-kawaii-player \
+python3.13dist-kawaii-player \
 python3dist-kawaii-player"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ffmpegthumbnailer \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libmpv.so.2 \
 python-abi \
 python3-Pillow \
 python3-base \
@@ -28,6 +30,6 @@ python3-pycurl \
 python3-pytaglib \
 python3-qt5 \
 python3-qtwebengine-qt5 \
-python3-youtube-dl"
+youtube-dl"
 
 inherit rpm

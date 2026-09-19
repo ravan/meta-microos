@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-xkb-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-xkb-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.3"
+PV = "0.9.0"
 
-RPM_NAME = "xfce4-xkb-plugin-lang-0.8.3-1.4.noarch.rpm"
-RPM_HASH = "c21aa0a7e3b0a67c281ae518786c94ab09692dc73ff0db5802fde2a6ef5422b7c371c5d0d127d708fec637a40227d69c9f352550cea2472731507bbe05992ff9"
+RPM_NAME = "xfce4-xkb-plugin-lang-0.9.0-1.4.noarch.rpm"
+RPM_HASH = "b91076876cd0fa1997812f3bcf6ac1ef9d3aa4d1cc9287413c4d6e31c669fc8cf8c3690ca95725943535262cd6b8716ac266965fa33608f0f9a2da11c98d93db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-xkb-plugin-ar \
@@ -56,7 +56,6 @@ locale-xfce4-xkb-plugin-ug \
 locale-xfce4-xkb-plugin-uk \
 locale-xfce4-xkb-plugin-zh-CN \
 locale-xfce4-xkb-plugin-zh-TW \
-xfce4-panel-plugin-xkb-lang \
 xfce4-xkb-plugin-lang \
 xfce4-xkb-plugin-lang-all"
 

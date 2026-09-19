@@ -8,19 +8,13 @@ the container is deleted. Because of this focus, CNI has a wide \
 range of support and the specification is simple to implement."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.2"
+PV = "1.3.1"
 
-RPM_NAME = "cni-1.1.2-2.5.aarch64.rpm"
-RPM_HASH = "8444d9a468c57a8f918c621bcc5cf4c4d02d53036e812daca096797d014765bb5b5fbd6b37a2a49be40f27f5ab1d800743d1719b0ca6394e340179cd28109189"
+RPM_NAME = "cni-1.3.1-2.1.aarch64.rpm"
+RPM_HASH = "879666bca90edca5ac5d69b9340a917eaa9f63c72e418d1c73096fc24b94ae1a91a69289de08ee5062917679c5c06539ef2b1a6ab2d832f32c8acfb01b0e8b8a"
 
-RPROVIDES:${PN} += "cni \
-config-cni"
+RPROVIDES:${PN} += "cni"
 
-RDEPENDS:${PN} += "/usr/bin/mkdir \
-/usr/bin/sh \
-/usr/bin/touch \
-fillup \
-libc.so.6 \
-systemd"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

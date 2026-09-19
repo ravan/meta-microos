@@ -2,10 +2,10 @@ SUMMARY = "Package providing R-core packages R-compiler"
 DESCRIPTION = "This package provides R-compiler, one of the R-core packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.1"
+PV = "4.6.1"
 
-RPM_NAME = "R-compiler-4.3.1-46.1.aarch64.rpm"
-RPM_HASH = "1c9cce946f820ca05a74654a360ff2fd7e2146dfc8a9127ebcda4b121ec21997c17682feb5a7b97f2ead8b60c8f2a04077f3aeee2374956b5ea09384fba6f029"
+RPM_NAME = "R-compiler-4.6.1-58.3.aarch64.rpm"
+RPM_HASH = "c0bf14b818739168f86e22625d019399253ebda9cbab58c57e902039e022af30b706bf0b55395a19f2cfc8967d508437fd9ef53f6f259c9a24577a59bf239ff7"
 
 RPROVIDES:${PN} += "R-compiler"
 

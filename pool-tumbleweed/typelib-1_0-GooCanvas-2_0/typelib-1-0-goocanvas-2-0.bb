@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "2.0.4"
 
-RPM_NAME = "typelib-1_0-GooCanvas-2_0-2.0.4-2.10.aarch64.rpm"
-RPM_HASH = "1bd0561aa3794f2589f798001af17148609368ab2b13de322331463e0338026763b8fa2f6314284baf88c1155c935dfca3bc3aba7cf7e77f52baa22d4317d2d6"
+RPM_NAME = "typelib-1_0-GooCanvas-2_0-2.0.4-5.6.aarch64.rpm"
+RPM_HASH = "6cd8fd54f7195286940db928ea41f9ebc53e41c838b16962665f981f1d4df57a0df444ed1b8e156339901ed5f39a53cb0a1fceeabc96c96156379dbac05eec30"
 
 RPROVIDES:${PN} += "typelib-1-0-GooCanvas-2-0 \
 typelib-GooCanvas"

@@ -3,12 +3,12 @@ DESCRIPTION = "Package for testing the update stack during product development. 
  \
 An update for this package should mark the update as retracted \
 in zypper."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "5.1"
+PV = "5.2"
 
-RPM_NAME = "update-test-retracted-5.1-1.18.aarch64.rpm"
-RPM_HASH = "6f669fa4c67e3d157ad329d934dc4aeea1b163bef9bc0ea8df03e9d468dc0aba7c2be495a7300df75cb0be6ccb2447ed1ff29178fee89b92257b93f53f814c77"
+RPM_NAME = "update-test-retracted-5.2-1.15.aarch64.rpm"
+RPM_HASH = "e49b30d5f2cdfbea2df004d1c2e3e5cddf81ae6bc3bfaae8f1b8142a2c71626e52d39e99e792135f85c7c40ca7982853a7ba222e7464b5a481af7b572baf562a"
 
 RPROVIDES:${PN} += "update-test-retracted"
 

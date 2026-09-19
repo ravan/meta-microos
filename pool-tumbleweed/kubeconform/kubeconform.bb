@@ -12,13 +12,13 @@ improvements: \
   of Kubernetes."
 LICENSE = "Apache-2.0"
 
-PV = "0.6.1"
+PV = "0.8.0"
 
-RPM_NAME = "kubeconform-0.6.1-1.3.aarch64.rpm"
-RPM_HASH = "d89706d97e8d3a0d49f508d56a5d665c357a0328008a88bae21e4a7b2a373b3ff7c25deadb855c667ffab50a889c78cf7b67e3681c6ead7e30a2cb55829dd0f1"
+RPM_NAME = "kubeconform-0.8.0-1.3.aarch64.rpm"
+RPM_HASH = "c07952acaf3097145d79c182bc5da7a29019b1c726ad2036df51807c4f409e832e85aceeb6ed487f10ab0e4eba0146f52da6963a794d253785da58d99dd0fb7b"
 
 RPROVIDES:${PN} += "kubeconform"
 
-RDEPENDS:${PN} += "libc.so.6"
+RDEPENDS:${PN} += ""
 
 inherit rpm

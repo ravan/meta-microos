@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cmexb"
 DESCRIPTION = "This package includes the documentation for texlive-cmexb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54074"
+PV = "2026.226.svn54074"
 
-RPM_NAME = "texlive-cmexb-doc-2023.209.svn54074-54.1.noarch.rpm"
-RPM_HASH = "69a96c105107476ce3617ccf3bb5c6c71dcc938fef400ee377ad84836332309fe428525fe7f3fdc96418f39473b5ae162e02177c95f8ddad8f572fb27a64336c"
+RPM_NAME = "texlive-cmexb-doc-2026.226.svn54074-60.2.noarch.rpm"
+RPM_HASH = "02b9616b707c53a2f3a18c9a8b1aeb97775103f15b36f344989ca603d699d3f0cfe9e2e3fa807b1783c4625f4b3f65e5b2bfb44d5c069c1f814fb89e74853dc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmexb-doc"

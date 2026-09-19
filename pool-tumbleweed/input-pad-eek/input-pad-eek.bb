@@ -2,10 +2,10 @@ SUMMARY = "Input Pad with eekboard extension"
 DESCRIPTION = "The input-pad-eek package contains eekboard extension module"
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.0.99.20140916"
+PV = "1.0.99.20210817"
 
-RPM_NAME = "input-pad-eek-1.0.99.20140916-5.10.aarch64.rpm"
-RPM_HASH = "9cba19add40a9caa91be716aed6afd69e730c95861ba166a8eeddd93f30979b24e9de3486de7cc1b54b00c0dbc706f704b27f2e35192d5aa69ea563f1a0fc4e2"
+RPM_NAME = "input-pad-eek-1.0.99.20210817-1.8.aarch64.rpm"
+RPM_HASH = "44689043ac3eca6afbd4d35071ca804cb15469fa5d86b0152515f3b662af7d60a851e4f66b77e42931c4148a72d7fec7bf8fa75a620d9004b95e3cc4785c2276"
 
 RPROVIDES:${PN} += "input-pad-eek \
 libinput-pad-eek-gtk.so"

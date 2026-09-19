@@ -5,10 +5,10 @@ complements the AMS STIX2 math fonts, but focuses on new \
 symbols and symbol variants more suited to work in logic."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.13svn63688"
+PV = "2026.226.1.13svn63688"
 
-RPM_NAME = "texlive-logix-2023.209.1.13svn63688-55.1.noarch.rpm"
-RPM_HASH = "ae44d8a62db6549ca458f841d862c4de47ad02de4eb76c64df3e9570b59f85013d63072715df602e0269c5c6e3d36621c1a2ae70a44b1dd662134a1cdfef4c85"
+RPM_NAME = "texlive-logix-2026.226.1.13svn63688-61.2.noarch.rpm"
+RPM_HASH = "e1652684f43f7463495b16aa06d9d83b2ddadce12e738bdec080b5de9d930eeed5e71e70451caffe277dfe4cb7333a79eb27d7d784052160b6ef86a0bce2eb51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-logix.sty \

@@ -17,23 +17,24 @@ Please look in \
  TIPS AND TRICKS what to use in urls.yaml."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.28"
+PV = "2.29"
 
-RPM_NAME = "urlwatch-2.28-1.2.noarch.rpm"
-RPM_HASH = "85ffc7f713fa937bca50c4b1d14193be3a4d267ab0d275df8a6530e639e81155e3f44df4a60d760e27c1e43fad6eb559dea48ee0591c6e297c6455be6d16147c"
+RPM_NAME = "urlwatch-2.29-2.4.noarch.rpm"
+RPM_HASH = "7ca551854f49eee478058f4dfb7a2f0d6e8499c858cbff25b473ae3696e2aa24035b5b2fe642cfbcf4cc55f1a83b28613ec77e6ccabf5db1f34cf6cbd3a61384"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-urlwatch \
+RPROVIDES:${PN} += "python3.13dist-urlwatch \
 python3dist-urlwatch \
 urlwatch"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-PyYAML \
-python3-appdirs \
 python3-cssselect \
+python3-keyring \
 python3-lxml \
 python3-minidb \
+python3-platformdirs \
 python3-requests"
 
 inherit rpm

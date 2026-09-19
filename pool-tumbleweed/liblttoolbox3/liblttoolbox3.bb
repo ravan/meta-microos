@@ -5,10 +5,10 @@ and generation of words. Analysis is the process of splitting a word \
 <neutrum,plural>. Generation is the opposite process."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.7.1"
+PV = "3.8.3"
 
-RPM_NAME = "liblttoolbox3-3.7.1-1.5.aarch64.rpm"
-RPM_HASH = "72351ca54ab54688a5873d32d241b594e989b8aa4832e4e388a8b8e73879543a5b76a73d4229061798074bf0d7e3b534c8aaf11601a941e29f0ee1c9ec9b78ee"
+RPM_NAME = "liblttoolbox3-3.8.3-1.3.aarch64.rpm"
+RPM_HASH = "3f9b169be9a7a2d25763abb8cfad815e6bf004208cdb3112a8841edce3317370bda50ae2d4033a92dfbe82e941cb1c0c3279e85ea4c3d382f597be360c88661c"
 
 RPROVIDES:${PN} += "liblttoolbox.so.3 \
 liblttoolbox3"
@@ -17,10 +17,10 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicuio.so.73 \
-libicuuc.so.73 \
+libicuio.so.78 \
+libicuuc.so.78 \
 libm.so.6 \
 libstdc++.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -4,16 +4,16 @@ DESCRIPTION = "OGRE (Object-Oriented Graphics Rendering Engine) is a scene-orien
 This package contains the development headers for the Ogre Terrain System."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "libOgreTerrain-devel-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "222134bb50c950da2e6412635102efa58e9c47999ff1c0070f3c113a09caa68858121e759780ae69de39f696150d18efa4413e320706aa154d68ff05311d762c"
+RPM_NAME = "libOgreTerrain-devel-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "db5868d0443b08e43df9cfdacf85227668cf2d318def62cb4d1696e233d0befd242fc2753cabeaf413c52f383fdf75b49c0208f3a84373639ec7d599ce1861e7"
 
 RPROVIDES:${PN} += "libOgreTerrain-devel \
 pkgconfig-OGRE-Terrain"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libOgreTerrain13-5 \
+libOgreTerrain13-6 \
 pkgconfig-OGRE \
 pkgconfig-OGRE-Paging"
 

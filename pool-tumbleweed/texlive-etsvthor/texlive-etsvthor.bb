@@ -12,10 +12,10 @@ decided to put them in a package, so they can use it very \
 easily too.'"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn48186"
+PV = "2026.226.1.0svn48186"
 
-RPM_NAME = "texlive-etsvthor-2023.209.1.0svn48186-53.1.noarch.rpm"
-RPM_HASH = "b32d36da646595e376e7cd22fe91dfd4054585b1b452b58e9f1f667f68346ff6f8335aee5f472b1a52a86abdcd9801e302c5f83c318a2307c5daf492eeae11d2"
+RPM_NAME = "texlive-etsvthor-2026.226.1.0svn48186-59.2.noarch.rpm"
+RPM_HASH = "dfb3239e384b062483b52c34e5fc478a66a62252e82ccf587442cc049211133c48a237684cef5cafe141eafa48eeea328ac0bd192563c100ad3f01fe41959391"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-etsvthor.sty \

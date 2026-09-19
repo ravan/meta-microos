@@ -17,10 +17,11 @@ unwinding assembly and is unable to proceed without other DWARF-2 \
 unwind information.]"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw32-libgcc_s_sjlj1-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "650e5a064b8d9b4948744e9f03d9be24050562de3b00459b62db8e7f360d4c0918c1375dd4f3cafcb8b4cded056fabb687f1311d4ddd4a60dd841a3c9a8776f7"
+RPM_NAME = "mingw32-libgcc_s_sjlj1-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "9b5b80eb136cb01c31afb5b2f1ecc63d86301adab6e84688f37a59a987fc40c906b6b806aa476f52d5474fa1218601bca528c7e6af5914c52b0e9a11a06112d2"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-libgcc \
 mingw32-libgcc-s-sjlj-1.dll \

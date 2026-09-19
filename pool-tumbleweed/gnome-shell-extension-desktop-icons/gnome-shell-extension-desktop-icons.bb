@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20.10.0"
 
-RPM_NAME = "gnome-shell-extension-desktop-icons-20.10.0-3.7.noarch.rpm"
-RPM_HASH = "e4c8c03608ea494e6e055e065fc8fe6e50c5ee547a52c9a545d0b74179ec864df2ffcb8fee1cc3375d33831fd56de24af862bd937cf82563d01e0900bd330529"
+RPM_NAME = "gnome-shell-extension-desktop-icons-20.10.0-1.2.noarch.rpm"
+RPM_HASH = "f3bf0c2e54109e2a0250d50b39758bda3a4f5fc34cb781ad98f45142bcf05ae4a680658b0e03e9601a65a347be4aadcf70811b70b75ee83a4e8ea896233d8a31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-desktop-icons"

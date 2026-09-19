@@ -7,10 +7,10 @@ in a Cyrillic alphabet. This directory is part of the LaTeX \
 'required' distribution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.20220601_pl1svn63613"
+PV = "2026.226.svn71408"
 
-RPM_NAME = "texlive-cyrillic-2023.209.20220601_pl1svn63613-55.1.noarch.rpm"
-RPM_HASH = "4006170d1bce6755189ab8fcc70f53c773fb6d9f51cf46a5c41652b41911965ce5f1c1e1a7e28c94b47ab6c96a0599b8213548913792e7a8618105367d01341e"
+RPM_NAME = "texlive-cyrillic-2026.226.svn71408-61.2.noarch.rpm"
+RPM_HASH = "a0903413b54cbc9e5e0ccc9211c143417f9ffeb7e011096eb58b84443802a30f61482cbe5a7a4fb475012723e3aef011cbab57c29c51171a88cac202d0cd6f74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cp1251.def \

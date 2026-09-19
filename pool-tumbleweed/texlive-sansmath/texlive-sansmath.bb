@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines a new math version sans, and a command \
 \\sansmath that behaves somewhat like \\boldmath"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.1svn17997"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-sansmath-2023.209.1.1svn17997-54.1.noarch.rpm"
-RPM_HASH = "7f8aa9917027d6e1ca29e92f9bdd5fae7e1406d838af2bb99279135d9ba942c5baa664579dd85ba1a5b46dc26a11f421c45a579ddca09cd784d5a260017405c3"
+RPM_NAME = "texlive-sansmath-2026.226.1.1svn77682-60.2.noarch.rpm"
+RPM_HASH = "506a356381baa9adc1841c492e9c56661453eb1d497419d07c65fb35695df782b557571a017b2e0926b11094873d9b0a2616cf0f0a2d3b39b2b9c4073cbf2bdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sansmath.sty \

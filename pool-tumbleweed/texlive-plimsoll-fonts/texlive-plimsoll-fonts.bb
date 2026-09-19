@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-plimsoll"
 DESCRIPTION = "The  separated fonts package for texlive-plimsoll"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1svn56605"
+PV = "2026.226.1svn56605"
 
-RPM_NAME = "texlive-plimsoll-fonts-2023.209.1svn56605-53.1.noarch.rpm"
-RPM_HASH = "43073ec6bbb59ced21c2e8659e9ae31c3b0513641ad16a23d02b4a6305e6a58f1ee3900ae1c7c0a80273f5410e0a406837dfc0a2377836d41a3c50616d5a68c4"
+RPM_NAME = "texlive-plimsoll-fonts-2026.226.1svn56605-59.2.noarch.rpm"
+RPM_HASH = "172876416402d8f1d299ee56f14280f82c955aaef1b335d87df8b31662ffe37ba0d18fe9187e00ba0b552d0678fc725d3df540052adef07e6a48cfa59b9776b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-plimsoll \

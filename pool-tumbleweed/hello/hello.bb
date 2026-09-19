@@ -1,16 +1,20 @@
 SUMMARY = "A Friendly Greeting Program"
-DESCRIPTION = "The GNU hello program produces a familiar, friendly greeting.  It \
-allows nonprogrammers to use a classic computer science tool that would \
-otherwise be unavailable to them.  Because it is protected by the GNU \
-General Public License, users are free to share and change it. \
+DESCRIPTION = "The GNU Hello program produces a familiar, friendly greeting. Yes, this is \
+another implementation of the classic program that prints “Hello, world!” when \
+you run it. \
  \
-GNU hello supports many native languages."
+In the context of the GNU project, the program demonstrates standard argument \
+parsing, multi-language support, the GNU coding standards and maintainer \
+practices. \
+ \
+For openSUSE, this package is a sample package demonstrating some rpm packaging \
+methods."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12.1"
+PV = "2.12.3"
 
-RPM_NAME = "hello-2.12.1-1.4.aarch64.rpm"
-RPM_HASH = "ed9fd14e1794c98401bcfdda3820c519f74ec864a213c24a706111fcf35789f9b4096579a3c4578e09de512b426ce101c99e4a0215ea1b6b1c4aef3f9b54110c"
+RPM_NAME = "hello-2.12.3-1.4.aarch64.rpm"
+RPM_HASH = "3fc62bfb001d4da6502bb94f617ef1419b547127a0e2fbba54866eba3113dc06bf3827b32b2ea037d01176143041f81eb81d2d027361d93514a9716d37112ac5"
 
 RPROVIDES:${PN} += "hello \
 mailreader"

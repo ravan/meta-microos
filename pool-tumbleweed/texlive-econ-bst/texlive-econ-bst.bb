@@ -6,10 +6,10 @@ use of 'certified random order' as proposed by Ray Robson \
 (2018)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1.1svn61499"
+PV = "2026.226.3.3svn76907"
 
-RPM_NAME = "texlive-econ-bst-2023.209.3.1.1svn61499-54.2.noarch.rpm"
-RPM_HASH = "3c948605e60371785cf237dc248e8e50f210e395b60c55bc60a2858d7d821b1a30547fd33bd36b8a28642194c9ed3df8a55c4ebe2dc51aa9717918237fb4bc0e"
+RPM_NAME = "texlive-econ-bst-2026.226.3.3svn76907-61.4.noarch.rpm"
+RPM_HASH = "85e5789aa038cf96928b5b1fa5068cb317c58df74b1c5e1a0d9b6325774fd81b3a7d258938819a04cd15f9ac1a00cd43269f3990bff5056edf8fc1686c4ff78b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-econ-bst"

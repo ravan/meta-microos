@@ -10,10 +10,10 @@ float' facility, in the same way that simpler packages like \
 capt-of do. The package supersedes caption2."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66580"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-caption-2023.209.svn66580-53.1.noarch.rpm"
-RPM_HASH = "12794c349cacc24dc93c602c810e51d1c61e24327f53196c35b8fc03e7443725eb555e5dd42c311c700fe3ac7a3b7cb084a4df9db6619e48f012302a10d83180"
+RPM_NAME = "texlive-caption-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "9a1de0c241e05cb44a4eed674105b07e340cd38a8c4f1d1326ba49c1accf814c2c2fc9c35bf18a3c617d281c1bcada17814b1564e5c56bef697c493cc1bdf009"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bicaption.sty \

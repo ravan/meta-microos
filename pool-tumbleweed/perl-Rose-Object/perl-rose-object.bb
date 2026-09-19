@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.860"
 
-RPM_NAME = "perl-Rose-Object-0.860-1.28.noarch.rpm"
-RPM_HASH = "b885097285f9fb3b1d945144cce53d49a259c713bb5afb7a6ed477398810ee5e4cba0fe3c3295978081122dc4541f43fda7ddbdb4f6cf7baa4411b738ef72089"
+RPM_NAME = "perl-Rose-Object-0.860-1.42.noarch.rpm"
+RPM_HASH = "95d01948520c553dfd6aaa06ccc0d1e9f24b990bc49e9c6f84f95e2e239d0c5a4e83161a97ea98841881f0068384113b509e2c1f2279eef4f52a5e25b6c1ccad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Rose--Class \
@@ -19,6 +19,6 @@ perl-Rose--Object--MakeMethods--Generic \
 perl-Rose--Object--MixIn \
 perl-Rose-Object"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -9,10 +9,10 @@ at the Nokia Research Center. \
 This package holds the cli tools what ship with sofia-sip."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.12.11+20110422"
+PV = "1.13.18"
 
-RPM_NAME = "sofia-sip-1.12.11+20110422-1.15.aarch64.rpm"
-RPM_HASH = "c38493527396cc3d56422571bb505d1a6a9f537dce14cc0eb226b497d2cf18653984fa1f4cfae1a6d3d3aeda57e5bbc6bf26311cee207cd8bdcb8e4b59f4762a"
+RPM_NAME = "sofia-sip-1.13.18-1.1.aarch64.rpm"
+RPM_HASH = "c23bc8d0864d4aa01e191be13b22cb302e4ad597b59f787b6c13074d1b00694009e0a9de4cf6743c4e484b17c95d6d9baeeeb353c6d0d77a3baf44f1479c6838"
 
 RPROVIDES:${PN} += "sofia-sip \
 sofia-sip-utils"

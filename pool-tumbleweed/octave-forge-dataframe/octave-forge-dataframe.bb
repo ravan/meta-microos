@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.2.0"
 
-RPM_NAME = "octave-forge-dataframe-1.2.0-1.19.noarch.rpm"
-RPM_HASH = "80630e58a8f6e9f78490f36c8597b1503ed7d638d63ff07c4659a9c56ffe58938a7870b2e3d6dc0348e85e51136d9298a26b2bbb7604b40cd502a124ee8501dc"
+RPM_NAME = "octave-forge-dataframe-1.2.0-1.28.noarch.rpm"
+RPM_HASH = "9a95e12449b386fddfdbd72c7cebdd1ac20f5f69716c194ba0408f5d902a00e610e078326837d2ea0d71b0c98a05310095d180935b4501125be9ff0e29a478fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-dataframe"

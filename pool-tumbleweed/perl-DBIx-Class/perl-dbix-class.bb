@@ -32,10 +32,10 @@ generally made to CPAN before the branch for the next release is merged \
 back to trunk for a major release."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.082843"
+PV = "0.082844"
 
-RPM_NAME = "perl-DBIx-Class-0.082843-1.6.noarch.rpm"
-RPM_HASH = "b1b264ee9684997a2b3cdbe6660941975d1f0b22c6e1dd868b61af85e3491f625ffaebc49f9726c973a7cc2141def0e1256a60813f6146cf5af480c8a153f88b"
+RPM_NAME = "perl-DBIx-Class-0.082844-1.10.noarch.rpm"
+RPM_HASH = "c158c0a23b8a3d435015f809b558ff37e7fe8737e759a8ee171c21aa09f9fcfede019277a2a283b2b90dd93aa37402fa244886e4528ea177a03e78d3f93acab6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DB \
@@ -135,7 +135,7 @@ perl-SQL--Translator--Parser--DBIx--Class \
 perl-SQL--Translator--Producer--DBIx--Class--File"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Accessor--Grouped \
 perl-Class--C3--Componentised \
 perl-Class--Inspector \

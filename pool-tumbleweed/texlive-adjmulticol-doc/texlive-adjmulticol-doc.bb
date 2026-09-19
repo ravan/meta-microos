@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-adjmulticol"
 DESCRIPTION = "This package includes the documentation for texlive-adjmulticol"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn63320"
+PV = "2026.226.1.5svn77682"
 
-RPM_NAME = "texlive-adjmulticol-doc-2023.209.1.5svn63320-55.1.noarch.rpm"
-RPM_HASH = "5cd60d4e7fad00a0ae7519dc62e077f1380bbda89a29c65e4dd9a665a9c347afe0a0a4ed3f80455f1fdea09adf85d274ed1e0ad3d94e15581e70d6f8c6ead06e"
+RPM_NAME = "texlive-adjmulticol-doc-2026.226.1.5svn77682-61.2.noarch.rpm"
+RPM_HASH = "072584fcdb0c75756b5d31555046bdacb784ce75b4ccea8f0166e33e28ef65dd8171caf270c297011b38508ce7cbfcd1aac76416f9bc865be3483ff690ca9782"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-adjmulticol-doc"

@@ -14,13 +14,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.18"
 
-RPM_NAME = "perl-autovivification-0.18-1.31.aarch64.rpm"
-RPM_HASH = "e423001df118a1640ae40473dd20cbd0a33decb433928d44468be16285dbefc0845648ca7359b7875aa923a656c37f3baf4b8bf57656977a90a5d5ab153ac0bd"
+RPM_NAME = "perl-autovivification-0.18-1.48.aarch64.rpm"
+RPM_HASH = "cae49596d27f37f05050d2a08ecaeef98812ad9bd5f2ac9a0e3fbe92712509ff517683b5d240596c63eeda2702c92a5a2250548ee1eadaf9754c6f6cd02e39af"
 
 RPROVIDES:${PN} += "perl-autovivification"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

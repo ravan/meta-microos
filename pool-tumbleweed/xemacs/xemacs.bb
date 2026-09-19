@@ -9,10 +9,10 @@ XEmacs. This is mainly important for translated .elc files and the key \
 macros."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "21.5.34"
+PV = "21.5.36"
 
-RPM_NAME = "xemacs-21.5.34-22.5.aarch64.rpm"
-RPM_HASH = "76ccf68e2e1911e5a3a83abf3e4f2583685234a30fd67aed8c183673104903eeabf061c02b409506caad0e69bcfe509873b49b0792523b363578698c01702417"
+RPM_NAME = "xemacs-21.5.36-1.1.aarch64.rpm"
+RPM_HASH = "a8f92c84cb3a1c6f2c1e2f0b1161ef3b572715793900369addc9d8b70fe70da221f2cf4c6e2ba74646539d392cf834bc91a60488996da78ed3227aaed56d4c83"
 
 RPROVIDES:${PN} += "config-xemacs \
 xemacs"
@@ -41,7 +41,6 @@ libm.so.6 \
 libpng16.so.16 \
 libtiff.so.6 \
 libtinfo.so.6 \
-libwnn.so.0 \
 permissions \
 xemacs-info \
 xemacs-packages \

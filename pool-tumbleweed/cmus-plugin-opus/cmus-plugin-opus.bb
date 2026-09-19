@@ -2,10 +2,10 @@ SUMMARY = "Opus input plugin for the C* Music Player"
 DESCRIPTION = "This package provides Opus input support for the C* Music Player."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "cmus-plugin-opus-2.10.0-2.1.aarch64.rpm"
-RPM_HASH = "b47e8a5a10e2fda0af9f2aa8bb99190a0518139492b48b3ae0782aca9808eed9f7569da8b3c1618d982dc097f6fbad31e49e5d4e7047c2b812dcc3700cfa756b"
+RPM_NAME = "cmus-plugin-opus-2.12.0-3.6.aarch64.rpm"
+RPM_HASH = "68ba0f0d3acb46e80f43426aa087f0a02a7411005d55c6663509930768899eac3d1b11c980998ef57b63a176f950ebe8d1ff1061ef0da1eb4a3a731414b705b9"
 
 RPROVIDES:${PN} += "cmus-plugin-opus"
 

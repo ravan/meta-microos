@@ -6,15 +6,15 @@ This provides development libraries and header files required to compile C++ \
 programs that use VTK-m to do 3D visualization."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.0"
+PV = "2.3.0"
 
-RPM_NAME = "vtk-m-openmpi4-devel-2.0.0-1.2.aarch64.rpm"
-RPM_HASH = "61d868913bc73ee68cac350650f808a252c84d9a0a9cc9e6526a4fddb00b6c78c2a6f0c1628803681ccd4e9678c8c42873eb45812c8f16b62f576e14e9ce3a71"
+RPM_NAME = "vtk-m-openmpi4-devel-2.3.0-2.4.aarch64.rpm"
+RPM_HASH = "004e8ed627c14f102bd514819ad3206aeada3674fac85126ef9b3ab938bce2388bb5024e1b2d1bd942b1815c33be6c3cbfc6c0c0aa25eebfefa5813027306c59"
 
 RPROVIDES:${PN} += "vtk-m-openmpi4-devel"
 
 RDEPENDS:${PN} += "cmake \
-libvtk-m-openmpi4-2-0 \
+libvtk-m-openmpi4-2-3 \
 openmpi4-devel"
 
 inherit rpm

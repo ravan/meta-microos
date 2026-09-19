@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics from the Systemd journal."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-systemd-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "3ff5f30bddbd462b2a0fc651863bde1e17a6305e9a126b8ac3c190f08a402533f515372b3bcde963f68aa7c847ca8071e798558417d89f7553428f259a4bd238"
+RPM_NAME = "pcp-pmda-systemd-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "22350820663f0c60744ad78c07a6190241da7287f2adb668f97db72f9ede956d569c4afcaa5f1bc2ce3663ddad278166e14d1003869b947d050bfa0560c37e78"
 
 RPROVIDES:${PN} += "pcp-pmda-systemd"
 

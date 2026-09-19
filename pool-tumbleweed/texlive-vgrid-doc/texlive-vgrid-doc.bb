@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-vgrid"
 DESCRIPTION = "This package includes the documentation for texlive-vgrid"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn32457"
+PV = "2026.226.0.0.1svn32457"
 
-RPM_NAME = "texlive-vgrid-doc-2023.209.0.0.1svn32457-54.1.noarch.rpm"
-RPM_HASH = "6ef3984a4e649c8602531d36abc22ab559becb6b808aed782e14008d1a7927e4038a8082f76af287f842f284e81f3d5a19b2a39ce28183c681e1fc80d46ae614"
+RPM_NAME = "texlive-vgrid-doc-2026.226.0.0.1svn32457-60.2.noarch.rpm"
+RPM_HASH = "771e50b129c52026b1d6e4b29d2abacd90fe590b64b9e86ff37cdf2c70c042e2ec3e1802aa984e68d3217f7bb1a1b686f1b2c34f0eccccec3974baf06babeac7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vgrid-doc"

@@ -4,10 +4,10 @@ rectangles, and commands for populating locations in the grid. \
 PGF/TikZ is used for placement and population of the cells."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.01svn39542"
+PV = "2026.226.2.06svn72283"
 
-RPM_NAME = "texlive-pas-tableur-2023.209.2.01svn39542-52.1.noarch.rpm"
-RPM_HASH = "1fb10601997058abbd359458d961caa7f91bbf79659af58ad391d3f9e488a55f80c4c33ed2de13f2e5e311214523c51b7e75f589d42ff71951977be61fcae6ff"
+RPM_NAME = "texlive-pas-tableur-2026.226.2.06svn72283-58.2.noarch.rpm"
+RPM_HASH = "d0d1bdc00385a651a19d55d754167c761d3240a985ca00e683d271844313316137a43020de8eb11c3564016a8c78eb16f25d1d04bb036cde25f5ecabfa4ed076"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pas-tableur.sty \

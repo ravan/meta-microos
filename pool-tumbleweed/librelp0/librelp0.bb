@@ -19,10 +19,10 @@ provide ample opportunity to extend the protocol without affecting existing \
 applications."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.11.0"
+PV = "1.13.0"
 
-RPM_NAME = "librelp0-1.11.0-1.3.aarch64.rpm"
-RPM_HASH = "ffca30ca1f8f590ff481069c1b1b5a89939c671e353ea7f0e10b2df46010a5129d19504ae011129f29e99f9166f50924c247ab1f22f0778c0d8555ec19d740f2"
+RPM_NAME = "librelp0-1.13.0-1.1.aarch64.rpm"
+RPM_HASH = "d000f6b2962507df4c5f91298981b5c59920ee9e6f49c3fe6e873634ea7b5c2f15ec833c4cc6734d10f856d318a1adb2458317333fca174d5fc3627820adb089"
 
 RPROVIDES:${PN} += "librelp.so.0 \
 librelp0"

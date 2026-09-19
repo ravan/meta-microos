@@ -2,10 +2,10 @@ SUMMARY = "YaST Server Utilities"
 DESCRIPTION = "YaST tools for server system administration."
 LICENSE = "MIT"
 
-PV = "20220411"
+PV = "20260219"
 
-RPM_NAME = "patterns-yast-yast2_server-20220411-1.4.aarch64.rpm"
-RPM_HASH = "be97e7d505f2d9a9bf55e8876d42c12618ddd74cd99c97326c0669ee53e8389f328aba71bff4045c7f2ca9b5823d626f0a05790ab8171697028d8bd3121661be"
+RPM_NAME = "patterns-yast-yast2_server-20260219-1.2.aarch64.rpm"
+RPM_HASH = "a111decc732f64a6773ba4f76c15441406bc131884a02dd9514985120bf099ed831df848b9993a489fa2325facfdfa36350e1c6bd5f20002fbf10e306a479cbd"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -16,7 +16,6 @@ patterns-yast-yast2-server"
 
 RDEPENDS:${PN} += "yast2-installation \
 yast2-ldap \
-yast2-mail \
 yast2-network \
 yast2-security \
 yast2-services-manager \

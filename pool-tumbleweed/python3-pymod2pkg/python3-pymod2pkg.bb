@@ -5,17 +5,17 @@ corresponding package names which is a common problem in the packaging world. \
 This package contains the Python 3.x module."
 LICENSE = "Apache-2.0"
 
-PV = "0.26.0"
+PV = "0.28.0"
 
-RPM_NAME = "python3-pymod2pkg-0.26.0-2.1.noarch.rpm"
-RPM_HASH = "d36c5d6177dfd6b8022918edafa61d10f2dc00cb612e796f0d1e856238f27aeee38d5851a3b85be3ad1863c73cda79977f1eca5fa901127142107e4aa638d8c4"
+RPM_NAME = "python3-pymod2pkg-0.28.0-1.8.noarch.rpm"
+RPM_HASH = "d74f764f3a430071ef5e279fc55e39888712adddc9ef1dc52ab340cf354d48b32ae9e6e69e1c81a49b033952db4aa995dfd5b4f7c91609b7e1e81e975559ac1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pymod2pkg \
-python3.11dist-pymod2pkg \
+python3.13dist-pymod2pkg \
 python3dist-pymod2pkg"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-distro \
 python3-pbr"

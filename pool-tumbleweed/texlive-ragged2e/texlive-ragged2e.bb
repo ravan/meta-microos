@@ -6,10 +6,10 @@ to allow hyphenation (the corresponding commands in LaTeX, all \
 of whose names are lower-case, prevent hyphenation altogether)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.4svn66152"
+PV = "2026.226.3.6svn77682"
 
-RPM_NAME = "texlive-ragged2e-2023.209.3.4svn66152-54.2.noarch.rpm"
-RPM_HASH = "bb2cdde456c17fbc98a33668e493779dd366ab1d6f3dc2857dc84deb82d8515ad1f7ab7ec6e9a68369d493698c0631c37b4470c60991c42bf66b9fa14caa8bac"
+RPM_NAME = "texlive-ragged2e-2026.226.3.6svn77682-60.4.noarch.rpm"
+RPM_HASH = "83caac83dc20944d2c95a8a62fda71777468981cbf16346137659e8096398bb14395cdce5823a5ed01842f89dd5f4e9cee7eb4bbe9689375562016f58dbd7d55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ragged2e.sty \

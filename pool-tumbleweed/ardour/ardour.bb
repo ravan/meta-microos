@@ -13,13 +13,14 @@ controller, such as the Mackie Digital 8 Bus mixer and many other \
 modern digital mixers."
 LICENSE = "GPL-3.0-only"
 
-PV = "7.5.0"
+PV = "9.8.0"
 
-RPM_NAME = "ardour-7.5.0-1.1.aarch64.rpm"
-RPM_HASH = "ce92f1a877588e308229c9aca7a22d8a9ef22ab1345bb27cb6251af2cebd398a8bd5acd81f3070f31b9d55b80d110f009a4e383396906f027331f3da02e9dd71"
+RPM_NAME = "ardour-9.8.0-1.1.aarch64.rpm"
+RPM_HASH = "ff7d863281608f2dee37147dd6d21de33ea19955fb48f0763bff12b1748e218a2e8184ca69c3d567178aed90e56a3e99228d0f5a630989727d3d78e2066418a4"
 
 RPROVIDES:${PN} += "ardour \
 config-ardour \
+libaaf.so.0 \
 libalsa-audiobackend.so \
 libardour-cc121.so \
 libardour-console1.so \
@@ -30,10 +31,16 @@ libardour-faderport2.so \
 libardour-faderport8.so \
 libardour-generic-midi.so \
 libardour-launch-control-xl.so \
+libardour-launchkey-4.so \
+libardour-launchpad-mini.so \
+libardour-launchpad-pro.so \
+libardour-launchpad-x.so \
+libardour-mcp-http.so \
 libardour-mcp.so \
 libardour-midisurface.so \
 libardour-osc.so \
 libardour-push2.so \
+libardour-ssl-uf8.so \
 libardour-us2400.so \
 libardour-websockets.so \
 libardour.so.3 \
@@ -56,17 +63,27 @@ libpanvbap.so \
 libpbd.so.4 \
 libptformat.so.0 \
 libpulseaudio-backend.so \
+libsuil-x11-in-gtk2.so \
+libsuil.so.0 \
 libtemporal.so.0 \
 libwaveview.so.0 \
-libwidgets.so.0"
+libwidgets.so.0 \
+libydk-pixbuf.so.2 \
+libydk.so.2 \
+libydkmm.so.2 \
+libytk.so.2 \
+libytkmm.so.2 \
+libztk.so.2 \
+libztkmm.so.2"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-desktop-file-utils \
-graphviz \
+ld-linux-aarch64.so.1 \
 libX11.so.6 \
+libXext.so.6 \
+libXinerama.so.1 \
+libXrandr.so.2 \
 libarchive.so.13 \
 libasound.so.2 \
-libatkmm-1.6.so.1 \
 libaubio.so.5 \
 libc.so.6 \
 libcairo.so.2 \
@@ -77,16 +94,14 @@ libfftw3f-threads.so.3 \
 libfftw3f.so.3 \
 libfontconfig.so.1 \
 libgcc-s.so.1 \
-libgdk-pixbuf-2.0.so.0 \
-libgdk-x11-2.0.so.0 \
-libgdkmm-2.4.so.1 \
+libgio-2.0.so.0 \
 libgiomm-2.4.so.1 \
 libglib-2.0.so.0 \
 libglibmm-2.4.so.1 \
+libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-x11-2.0.so.0 \
-libgtkmm-2.4.so.1 \
 libjack.so.0 \
+libjpeg.so.8 \
 liblilv-0-0 \
 liblilv-0.so.0 \
 liblo.so.7 \
@@ -96,21 +111,21 @@ libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpangoft2-1.0.so.0 \
 libpangomm-1.4.so.1 \
+libpng16.so.16 \
 libpulse.so.0 \
 libreadline.so.8 \
-librubberband.so.2 \
+librubberband.so.3 \
 libsamplerate.so.0 \
+libserd-0.so.0 \
 libsigc-2.0.so.0 \
 libsndfile.so.1 \
 libstdc++.so.6 \
-libsuil-0.so.0 \
-libtag.so.1 \
+libtag.so.2 \
 libusb-1.0.so.0 \
 libvamp-hostsdk.so.3 \
 libvamp-sdk.so.2 \
-libwebsockets.so.19 \
-libxml2.so.2 \
-lv2 \
-shared-mime-info"
+libwebsockets.so.21 \
+libxml2.so.16 \
+lv2"
 
 inherit rpm

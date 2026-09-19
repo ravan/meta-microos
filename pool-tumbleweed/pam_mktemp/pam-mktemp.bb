@@ -10,8 +10,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "1.1.1"
 
-RPM_NAME = "pam_mktemp-1.1.1-10.7.aarch64.rpm"
-RPM_HASH = "1727ad845d721ef2e6e64e7b10f9bfa3ef0ed6362bf5296e7ae45761419960eee2094546088d8fe6223c434d21bb864b9fdae62be8250da186078ff3c6826d4b"
+RPM_NAME = "pam_mktemp-1.1.1-11.9.aarch64.rpm"
+RPM_HASH = "5fd12e69c0cc221967a53d0857c57c0b5e8c374d9c8be5cfc5bae09a0972e1f0b92247552f1a9c274e1d43b71916bbbf8657ac9d6719e4631f2084b36165217e"
 
 RPROVIDES:${PN} += "pam-mktemp \
 pam-modules-/usr/lib64/security/pam-mktemp.so"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "glade-catalog-libgda-6.0.0-6.8.aarch64.rpm"
-RPM_HASH = "fd8387d2efb9a4541e5476edac9b887c216282eb44a67f8a88b6bb6e37812ce6c239053ea89b4e71dbba43fb3054308c9ddbb0c3e681b639497a23f882aa9bde"
+RPM_NAME = "glade-catalog-libgda-6.0.0-11.5.aarch64.rpm"
+RPM_HASH = "81aab1ce8b954d557e25b3970a7f2e7e0e1130ca03913ef7f82fd4548aa2b13f17ef0347b191fbbab6568075c4d72a195e64c2401e2ff64aa922688c4329dede"
 
 RPROVIDES:${PN} += "glade-catalog-libgda"
 

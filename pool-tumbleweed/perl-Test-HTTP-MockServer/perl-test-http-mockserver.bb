@@ -26,8 +26,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0.1"
 
-RPM_NAME = "perl-Test-HTTP-MockServer-0.0.1-2.12.noarch.rpm"
-RPM_HASH = "3e19686cce2cb62571a1545030e37b7bc90ba158d8b490c22d515d41d2135d5a9fb5ab0c82609c3eaaa6c77dd6a6b746c8d0168e5c4b35d4c6674fdcfb057c2d"
+RPM_NAME = "perl-Test-HTTP-MockServer-0.0.1-2.26.noarch.rpm"
+RPM_HASH = "f846b488ec1933b3825084cc566ccf78df0b03fd2533c747baf605ae0001ca9b72487abd5bd89e6ad1bf9ed3448b0c4bd5f86090daef618aab3eace9f688ccdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--HTTP--MockServer \
@@ -36,7 +36,7 @@ perl-Test-HTTP-MockServer"
 
 RDEPENDS:${PN} += "libnss-usrfiles2 \
 netcfg \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-HTTP--Parser \
 perl-HTTP--Response \
 perl-JSON--XS"

@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1"
 
-RPM_NAME = "apache-commons-httpclient-demo-3.1-13.12.noarch.rpm"
-RPM_HASH = "6757d68e0f67761328d05c6a03b3cbc5f6df9fd8573e06f54f861ca93b8dd09b60d6b170fb35b818a49e2a45a0b0af6a157911428a05dad961fbad9462a3ee21"
+RPM_NAME = "apache-commons-httpclient-demo-3.1-15.9.noarch.rpm"
+RPM_HASH = "30b853198ce213983644a132b146c69908e0521c93205d3b81bd6a08d69b9d2d8c73b651b78479a5c432a42f841497d30fe9a9ad7b2a91acae75dbeb0dcb4853"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-httpclient-demo"

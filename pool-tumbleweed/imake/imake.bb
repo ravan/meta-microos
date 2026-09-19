@@ -10,10 +10,10 @@ building existing external software programs that have not yet \
 converted."
 LICENSE = "MIT"
 
-PV = "1.0.9"
+PV = "1.0.11"
 
-RPM_NAME = "imake-1.0.9-1.3.aarch64.rpm"
-RPM_HASH = "497ad0ad4abcde95a262e487dcccbc8a76fa1143687f04610782b01c5ca0474f77f33de3beba7e5405f2e67dbb15eef3c39063d822b2c1f329065208c93ce817"
+RPM_NAME = "imake-1.0.11-1.4.aarch64.rpm"
+RPM_HASH = "dfeeb6742b389adbe6fa9ead7cd343caf753821c963f0ea34c11ce99ca9039df61d05c7c63a07cacc2c39828ec2568a41a4d16a76e56781784e4fa5918922d64"
 
 RPROVIDES:${PN} += "imake"
 

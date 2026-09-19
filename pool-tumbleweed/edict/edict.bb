@@ -16,10 +16,10 @@ contains the 'edict'/UTF8 variant, a flat text file format, of: \
 Other formats are in the edict2 and jmdict packages."
 LICENSE = "CC-BY-SA-3.0 & CC-BY-SA-4.0"
 
-PV = "20230511"
+PV = "20260325"
 
-RPM_NAME = "edict-20230511-1.1.noarch.rpm"
-RPM_HASH = "4ef9da38c9b6202705f98347c682ee27f2ab633daebd40190eedb6f9942e79c3ac467a4faa3d4b58df10d6e0487500ca17fed40649b1b03671b4a794ebb4d94c"
+RPM_NAME = "edict-20260325-1.2.noarch.rpm"
+RPM_HASH = "a9f620b1d564ac4d16b8bc63084645f66508e8d2e83d3c47d594c5fa258f9713b628e9f940c8c4f60b888a442193ad90740bda5f320b35bd76547bb75a5bdc49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "edict"

@@ -3,10 +3,10 @@ DESCRIPTION = "With this technology users can install packages and add repositor
 with a simple click on a link in a website."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.0"
 
-RPM_NAME = "yast2-metapackage-handler-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "ade23d7aac6c4dacfc29c960cabc41a79eb865127ac93be1116577624b2eed8e65f42794751227b78ebcf9d93f919e68bd3a61fdc4f408768d786c4f8dace707"
+RPM_NAME = "yast2-metapackage-handler-5.0.0-1.15.noarch.rpm"
+RPM_HASH = "5efa399b12fbe976bd84e56edeb1eac089e6fd3bd305a0686de4de5c2c0e2f31bc340ed2cae676691638212f42305fa7f205886b0b207b8a9418e6d624071a29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-metapackage-handler"

@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.0.35"
 
-RPM_NAME = "perl-Carton-1.0.35-1.8.noarch.rpm"
-RPM_HASH = "6ffb79846ddb316fee888c873a477e545fac0974e987381d0f4decb392159620b53c97c2278cbc39594e81164321eda0bcf3a1b064b21bc9111fd18c1acf14a4"
+RPM_NAME = "perl-Carton-1.0.35-2.7.noarch.rpm"
+RPM_HASH = "4c676901dd3491c4ea8cc98d07023c810a6ef30cb9f697e21d3cb5695e7726ff1df757bc20db33cf3963c548a723088314c5ba048f52780f72c015a8ecf74515"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Carton \
@@ -40,7 +40,7 @@ perl-Carton--Tree \
 perl-Carton--Util"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--Meta \
 perl-CPAN--Meta--Requirements \
 perl-Class--Tiny \

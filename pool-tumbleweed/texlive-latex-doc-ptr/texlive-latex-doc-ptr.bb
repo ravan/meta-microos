@@ -6,10 +6,10 @@ it could be used in the command texdoc latex, in the TeX Live \
 distribution."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn57311"
+PV = "2026.226.svn77050"
 
-RPM_NAME = "texlive-latex-doc-ptr-2023.209.svn57311-56.1.noarch.rpm"
-RPM_HASH = "b2de06c3141bd4ed75ddcba0b98cc3904033699cfaa856ce9b1bfdec3005639ac13d03aa20c3193ad82a4de12de3e9aa56725b5206cabda689a77ead9d2e9979"
+RPM_NAME = "texlive-latex-doc-ptr-2026.226.svn77050-63.2.noarch.rpm"
+RPM_HASH = "d1230f166abe6afb2365ab0b49d6af5ae4a1341df8c845de67ffab833ec1ac372f8c6375c1515d704d9f1ac85210bf94b6ce51d88fe35249d1d7eca9ddcc3b8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-doc-ptr"

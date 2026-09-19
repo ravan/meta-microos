@@ -7,16 +7,15 @@ file parsing, type checking casts and more. \
 This subpackage contains the header files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.14"
+PV = "5.4"
 
-RPM_NAME = "libHX-devel-4.14-1.1.aarch64.rpm"
-RPM_HASH = "da50d8b2513f8cee9769adb90768746803ccd88ee0d4e8aa68ffd271054e5b37af6ad49deeb1b44113c63e2762f604b893a5cfe8fd2aa192c880f0b313b9bcee"
+RPM_NAME = "libHX-devel-5.4-1.3.aarch64.rpm"
+RPM_HASH = "651ad77a9db4d54b971077f23484a924a69cf3b087f9dc9aae64b6fd02381e73c4eb12ba8dda6dcf820e4a46b16215101eff94b7872672f96d748b4163ad175e"
 
 RPROVIDES:${PN} += "libHX-devel \
-libHX-rtcheck.so \
 pkgconfig-libHX"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libHX32"
+libHX43"
 
 inherit rpm

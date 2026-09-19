@@ -6,10 +6,11 @@ there are no users logged in. \
 This package provides color profiles previously provided by shared-color-profiles"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.6"
+PV = "1.4.8"
 
-RPM_NAME = "colord-color-profiles-1.4.6-4.1.aarch64.rpm"
-RPM_HASH = "a531ba35bd0c0a498edb8b9e87a2141eae6b3bda309a729d267bf4e7dcc18954879788fd8ab4c401fb3c6ae4225c4f7f4b31366724cc60e74559c1d0e0a2e964"
+RPM_NAME = "colord-color-profiles-1.4.8-3.1.noarch.rpm"
+RPM_HASH = "6bda1a9a27c4b8698dbfbd9a7974d856aaeaec0d69afb00018219297b0de6992da5878154626adae241023ba8bdd05598e475bdf1a5ebd344d4d1f836b7ad366"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colord-color-profiles \
 shared-color-profiles"

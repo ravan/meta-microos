@@ -15,10 +15,10 @@ Other sample rates may work, or not... \
 This package holds the ladspa plugin."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.03+git1.226f03b"
+PV = "1.21"
 
-RPM_NAME = "ladspa-rnnoise-1.03+git1.226f03b-1.5.aarch64.rpm"
-RPM_HASH = "7a2a2f237fcbc3d98edb79a25b6323cad9359fc47ec353fb079fa1c4745aec0055a742706914a6a5a83df40243629c814fade200b5c2a55b0401d7dd8d2e09cb"
+RPM_NAME = "ladspa-rnnoise-1.21-1.3.aarch64.rpm"
+RPM_HASH = "375cbb28bd7862d2f826c7215f9dd1cb82d0f8fed1aae4fd9dcb4f5b47f1b6aee0de9d714d955f7c5ca07d98c0ddd8b514acda9cb44bb98f229484fc8870759e"
 
 RPROVIDES:${PN} += "ladspa-rnnoise \
 librnnoise-ladspa.so"

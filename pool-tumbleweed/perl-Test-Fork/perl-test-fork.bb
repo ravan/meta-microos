@@ -8,15 +8,15 @@ processes is complicated. Test::Fork provides a function to smooth over the \
 complications."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.02"
+PV = "0.20.0"
 
-RPM_NAME = "perl-Test-Fork-0.02-1.9.noarch.rpm"
-RPM_HASH = "d11c72f199e18fd4570fdd1ee3f607f42289967d541bb2845db422319d4ed603ad74d16bfeb9cc165a4b5adf2a339e464e8d1f5efb2957c9b572bc3b113868aa"
+RPM_NAME = "perl-Test-Fork-0.20.0-1.5.noarch.rpm"
+RPM_HASH = "0abae2cab35881e811ad5505d83f24daf5eb0b2d2d00dd3276dcb293a940048ef495d71f2a2cf75f29ef4d4cadd7cd2dbb08e2ac29be03a4fcffa067b43ca0fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Fork \
 perl-Test-Fork"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

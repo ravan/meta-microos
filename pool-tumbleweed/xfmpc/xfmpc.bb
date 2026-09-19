@@ -3,10 +3,10 @@ DESCRIPTION = "Xfmpc is a Music Player Daemon (MPD) client application for the \
 Xfce desktop environment."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.3.1"
+PV = "0.4.0"
 
-RPM_NAME = "xfmpc-0.3.1-1.1.aarch64.rpm"
-RPM_HASH = "b1f365be4f46a4d14f7c5722bb25cae1696693c1ad5137d40951072a8969c3caf577eef352fdc22d74a7e462769b6aaf1bdd2325a6f5a538d4c3e83b8a4a875a"
+RPM_NAME = "xfmpc-0.4.0-1.6.aarch64.rpm"
+RPM_HASH = "f76833b652995be7503c3818c1bd75573626de01614c793697305303e09f46fddf53f95ba0a75342a12b3853e1b4baff0636e844e36c789a6e736a4b4a52b265"
 
 RPROVIDES:${PN} += "xfmpc"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kerntest"
 DESCRIPTION = "This package includes the documentation for texlive-kerntest"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.32svn15878"
+PV = "2026.226.1.32svn15878"
 
-RPM_NAME = "texlive-kerntest-doc-2023.209.1.32svn15878-56.1.noarch.rpm"
-RPM_HASH = "a1d299ae70418b333dad4bb06cb9f70f0db7a888842803a08a15bb3a633ecb4f69b7e8ee83a1f4d8418e2f666bb58df326f5d6300155574b8d7f49fd533c58ca"
+RPM_NAME = "texlive-kerntest-doc-2026.226.1.32svn15878-63.2.noarch.rpm"
+RPM_HASH = "2540cd1065a34522dbcc6574c06a58df2836d4c7a0f520865b7602054f8f30b95008a01229c1f4939dfd3b4c9968d70880b45508aed3a587c9eb58f4aece9c78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kerntest-doc"

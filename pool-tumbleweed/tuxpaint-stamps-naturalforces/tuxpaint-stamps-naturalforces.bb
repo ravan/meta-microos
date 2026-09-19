@@ -3,10 +3,10 @@ DESCRIPTION = "tuxpaint-stamps-naturalforces package contains a set of 'Rubber S
 images which can be used with the 'Stamp' tool within Tux Paint."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2021.11.25"
+PV = "2023.07.20"
 
-RPM_NAME = "tuxpaint-stamps-naturalforces-2021.11.25-1.5.noarch.rpm"
-RPM_HASH = "69947afc49c8f23fa45e6931e6711f650aa2f16b523aebe0d8c0bd2b8410a3f1f74ddabc05098cb99e62d8b7ecbda0a17a2136b8904cc277ebd38622c15824a0"
+RPM_NAME = "tuxpaint-stamps-naturalforces-2023.07.20-1.9.noarch.rpm"
+RPM_HASH = "2f80de467f3fb8b55324fc50f1fc26af97ca042b8a71515b24d18b1bc8ae51e900dbca8035550a40e0d275043c6e8086a993876aaaffe9799cf5b2d918e8acf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-stamps-category \

@@ -3,15 +3,16 @@ DESCRIPTION = "Files needed to develop applications using the library for filesy
 detection."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.39.1"
+PV = "2.42.2"
 
-RPM_NAME = "libblkid-devel-2.39.1-3.1.aarch64.rpm"
-RPM_HASH = "15c965b70dc64f472236c0f9f3f9a9f326a19669f91e09126926033f85ea525302ea72fdefa0a26f9d0a68c668d5a95a293eab5eced274903d6f7ac99ebece45"
+RPM_NAME = "libblkid-devel-2.42.2-2.1.aarch64.rpm"
+RPM_HASH = "5261f49959fbf54109638874ef7ea9d9e085632aea3765c795ef324e3fc313e1978ff06c3c1f16e1b9409c453c0e3bba509a1a026cbda931a25e3d48efcbc0a8"
 
 RPROVIDES:${PN} += "libblkid-devel \
 pkgconfig-blkid"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libblkid1"
+libblkid1 \
+pkgconfig-libeconf"
 
 inherit rpm

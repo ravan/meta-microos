@@ -10,10 +10,10 @@ defines verbatim text to a macro which can later be used to \
 write the verbatim text to a file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6asvn64833"
+PV = "2026.226.1.6asvn77682"
 
-RPM_NAME = "texlive-newverbs-2023.209.1.6asvn64833-55.1.noarch.rpm"
-RPM_HASH = "f9ae335acb5d0915ebdc4d32d5923f159b034a1eb85c6192ed86cc65533762520a107f4f7cfc15db6c0cb657585be5e387805e4a7eb3d033347b903c53c6ffd3"
+RPM_NAME = "texlive-newverbs-2026.226.1.6asvn77682-61.2.noarch.rpm"
+RPM_HASH = "32a836322a46cdc2778badf3a256affd66f6b4c033f2176ac4d5db84b7045dd7200583c97483cbd30a8a7a92d04b47adcac4b6009083d2ff76ef8bd29fa76c89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-newverbs.sty \

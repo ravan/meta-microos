@@ -2,12 +2,12 @@ SUMMARY = "Tool for Manipulating BibTeX Databases"
 DESCRIPTION = "BibTool is a tool for manipulating BibTeX databases. BibTeX provides a means to \
 integrate citations into LaTeX documents. BibTool allows the manipulation of \
 BibTeX files which goes beyond the possibilities - and intentions - of BibTeX."
-LICENSE = "GPL-1.0-or-later & CC-BY-SA-3.0"
+LICENSE = "CC-BY-SA-3.0 & GPL-1.0-or-later"
 
-PV = "2.63"
+PV = "2.68"
 
-RPM_NAME = "bibtool-2.63-3.15.aarch64.rpm"
-RPM_HASH = "99791f186e0919eb2c54a323f47925417402c2616ed87032e99450deb16fb6f2354d5dc67216a2eab56ad0d0b11be7f4b05ccbd35ee8426bd2cc5f096ce0eb66"
+RPM_NAME = "bibtool-2.68-4.3.aarch64.rpm"
+RPM_HASH = "e27c1b0529886e748d7ded0f77a5c8307ef35982017c355b4440f091ea05abb47aa8567bd1dc41fedff8825fc607993564ff5061f63c16c2feb4b1cba453a99e"
 
 RPROVIDES:${PN} += "bibtool \
 bibtool-doc"

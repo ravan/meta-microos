@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "avahi-compat-howl-devel-0.8-23.3.aarch64.rpm"
-RPM_HASH = "f1d9593f5fe0926784a09c3f4e2e6002ba9f2538f931bcca380583563eed05ffdfe87d5ad374d3329def4a613c1ef5aa418be21c6c0f63d4c9e0080238ec37ae"
+RPM_NAME = "avahi-compat-howl-devel-0.8-45.2.aarch64.rpm"
+RPM_HASH = "715897a354df0dac7c3c3b9510f8358ecb7593b0090014eb223ed656051a99641450a1370615f91dfd3b5e6d37eabbc11280e69f568f2f96f3945f413ca63c1b"
 
 RPROVIDES:${PN} += "avahi-compat-howl-devel \
 pkgconfig-avahi-compat-howl \

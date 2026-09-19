@@ -9,10 +9,10 @@ This subpackage contains the demo binaries for the notcurses \
 library."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.9"
+PV = "3.0.17"
 
-RPM_NAME = "notcurses-demos-3.0.9-1.8.aarch64.rpm"
-RPM_HASH = "9db1ef8305332c2e99d0d9f1c87b9513d0492b02c544ed125cbfcbc79479b181b8d301336c5b54122872c8df181182edadc63f87c30b8e6f58773ea70d7cf5e7"
+RPM_NAME = "notcurses-demos-3.0.17-1.6.aarch64.rpm"
+RPM_HASH = "1390019b667de978abafd92c2d496b27a037919d9098658f3e0ac7ac64a60fe448f784a4e6c756a0c535ab3d8ab3a933045c7e155e567e182b25021dbcb4ad10"
 
 RPROVIDES:${PN} += "notcurses-demos"
 
@@ -20,9 +20,12 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdeflate.so.0 \
 libgcc-s.so.1 \
+libm.so.6 \
 libnotcurses++.so.3 \
 libnotcurses-core.so.3 \
 libnotcurses.so.3 \
-libstdc++.so.6"
+libstdc++.so.6 \
+libtinfo.so.6 \
+libunistring.so.5"
 
 inherit rpm

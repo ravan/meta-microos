@@ -1,7 +1,7 @@
 SUMMARY = "Perl extension for portable daemons"
 DESCRIPTION = "Net::Daemon is an abstract base class for implementing portable server \
-applications in a very simple way. The module is designed for Perl 5.005 \
-and threads, but can work with fork() and Perl 5.004. \
+applications in a very simple way. The module is designed for Perl 5.006 \
+and ithreads, but can work with fork() as well. \
  \
 The Net::Daemon class offers methods for the most common tasks a daemon \
 needs: Starting up, logging, accepting clients, authorization, restricting \
@@ -10,10 +10,10 @@ override those methods that aren't appropriate for you, but typically \
 inheriting will safe you a lot of work anyways."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.49"
+PV = "0.520.0"
 
-RPM_NAME = "perl-Net-Daemon-0.49-1.14.noarch.rpm"
-RPM_HASH = "c2758edf640f107830f28d9f779e3ba17181e92f0c348b7d733c6fc79b187245f7fb934c830f030dd9ce76a7682f9007b336828a6f1e87f3a975cf7ff14cb75d"
+RPM_NAME = "perl-Net-Daemon-0.520.0-1.3.noarch.rpm"
+RPM_HASH = "3e11d594841c73f9e2099e0d65fdf285189bae549696a22be89a3480947f53cfd2659f9b7cf1913ebbb77d5ac739d449c623aa78b8af3c8c1664395ef417b345"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Daemon \
@@ -23,7 +23,7 @@ perl-Net--Daemon--Test--Fork \
 perl-Net--Daemon--Test--Win32 \
 perl-Net-Daemon"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Sys--Syslog"
 
 inherit rpm

@@ -1,19 +1,19 @@
 SUMMARY = "Highlighting typographical flaws with LuaLaTeX"
-DESCRIPTION = "This package tracks common typographic flaws in LuaLaTeX \
-documents, especially widows, orphans, hyphenated words split \
-over two pages, consecutive lines ending with hyphens, \
-paragraphs ending on too short lines, etc. Customisable colours \
-are used to highlight these flaws, and the list of pages on \
-which typographical flaws were found is printed."
+DESCRIPTION = "Prints the list of pages on which typographical flaws were \
+found (i.e. widows, orphans, hyphenated words split across two \
+pages, consecutive lines ending with hyphens, paragraphs ending \
+on too short or nearly full lines, homeoarchy, etc). \
+Customisable colours are used to highlight these flaws."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.65svn66513"
+PV = "2026.226.0.0.88svn77682"
 
-RPM_NAME = "texlive-lua-typo-2023.208.0.0.65svn66513-53.1.noarch.rpm"
-RPM_HASH = "ba7a5dc240b64eaa5631a86eed165adbdb1320a650e1b07217c7340e8f7507b63e0beb99c8105cbd08a0d5e12d6255190b02e7115739e3ac10f104b02f5f8d59"
+RPM_NAME = "texlive-lua-typo-2026.226.0.0.88svn77682-59.2.noarch.rpm"
+RPM_HASH = "7fa7da373151702433870fa0ed3463289b7e1a702a28088556f6e6393b8d8ca4fba608cebf81bbfa3205565051d06dad2f6a5e9d50c41ca1dcc18428e5dd1ab7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lua-typo-2021-04-18.sty \
+tex-lua-typo-2023-03-08.sty \
 tex-lua-typo.cfg \
 tex-lua-typo.sty \
 texlive-lua-typo"

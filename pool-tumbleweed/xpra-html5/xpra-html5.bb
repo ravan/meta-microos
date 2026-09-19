@@ -4,27 +4,18 @@ which can be made available for browsers by the xpra server \
 or by any other web server."
 LICENSE = "GPL-2.0+ & BSD-3-Clause & LGPL-3.0+ & MIT"
 
-PV = "9.0+git20230830.e5fb000"
+PV = "20"
 
-RPM_NAME = "xpra-html5-9.0+git20230830.e5fb000-1.1.noarch.rpm"
-RPM_HASH = "4f3b39b2318b490871e73e82c444661b6beaca679fe1b0340356384c378426ed5070183f643d8c2354ea136cede31a7a61ae205651b7eca72e66917ee7531140"
+RPM_NAME = "xpra-html5-20-1.2.noarch.rpm"
+RPM_HASH = "2b94cd52bf667a341abf74eef8915e6c8b82f3b6615ba2c6123d2328dacdd1a92b418d3e7fb87c1d2a71756827fc3f3d5888653fe41626c4635a5e796bc996e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "bundled-js-aurora \
-bundled-js-bencode \
-bundled-js-broadway \
-bundled-js-forge \
-bundled-js-jquery \
-bundled-js-jquery-ui \
-bundled-js-lz4 \
-bundled-js-zlib \
-config-xpra-html5 \
+RPROVIDES:${PN} += "config-xpra-html5 \
 xpra-html5"
 
 RDEPENDS:${PN} += "cups-client \
 dejavu-fonts \
 python3-avahi \
-python3-netifaces \
 python3-paramiko \
 python3-pyinotify \
 python3-pyxdg \

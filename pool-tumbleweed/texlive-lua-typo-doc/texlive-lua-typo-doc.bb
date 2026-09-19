@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lua-typo"
 DESCRIPTION = "This package includes the documentation for texlive-lua-typo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.65svn66513"
+PV = "2026.226.0.0.88svn77682"
 
-RPM_NAME = "texlive-lua-typo-doc-2023.208.0.0.65svn66513-53.1.noarch.rpm"
-RPM_HASH = "4705a5919d343d8fc58486b30b81fd3b4569a98ca00785a8f299167be292d23a5e1efb047495d39be4fc0382592fd82be8684f4c4a73026bef49e797b6065c25"
+RPM_NAME = "texlive-lua-typo-doc-2026.226.0.0.88svn77682-59.2.noarch.rpm"
+RPM_HASH = "a177cf9fc7d915f7bbdbdf080c961608dd260f8cba3f2a9540bfeb876aa9bcb507da36d2fd3aabcf095dc3d234fc5e592a79c60ed83e6ddd68ce9eaf9a7ab143"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-lua-typo-doc-fr \

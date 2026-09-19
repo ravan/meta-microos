@@ -4,10 +4,10 @@ plotting and handling of large data arrays, as well as window and \
 console modes and for embedding into other programs."
 LICENSE = "GPL-3.0-only"
 
-PV = "8.0.1"
+PV = "8.0.3"
 
-RPM_NAME = "libmgl-glut8-8.0.1-4.2.aarch64.rpm"
-RPM_HASH = "eb7549b2be55a9c26476447f8158194180dd42435b562a349170f1cce6cbdadb92a0adbb13e42ce0b48c89d16ef3ded4dd59f7daada7782eece36b220d0d0260"
+RPM_NAME = "libmgl-glut8-8.0.3-2.6.aarch64.rpm"
+RPM_HASH = "aa52aa69d6ac5a0d5af5c4b0308703740185d4d3d04b0009d58edf87e95067ca8a831d6bced115d16a3243abf11e50ad14d3dedbcc8655eb9832b222385c1ce0"
 
 RPROVIDES:${PN} += "libmgl-glut.so.8 \
 libmgl-glut8"

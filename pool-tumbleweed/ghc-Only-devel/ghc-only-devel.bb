@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1"
 
-RPM_NAME = "ghc-Only-devel-0.1-6.1.aarch64.rpm"
-RPM_HASH = "3390e677f52d2479f544102ef41b9c5885a68b56924d87ad98f304ecaa7c8d29aff7b9e8391b336768a97c6c612687184d5889a519501bd696f525908955143b"
+RPM_NAME = "ghc-Only-devel-0.1-6.17.aarch64.rpm"
+RPM_HASH = "80b7149886fb4433ab5cb7bade25a07110b7aba42c0a0fa92a4c4ee5b0b4d71db661e89433352a81e64bc51a506daf47f49bdeb34abb35f8eed0bcf160af15b1"
 
 RPROVIDES:${PN} += "ghc-Only-devel \
-ghc-devel-Only-0.1-qCrN026ulaL2ZFxnlcrV1"
+ghc-devel-Only-0.1-JTlBo1y3Iulx07n0z4y7"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-Only \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-deepseq-1.4.8.0"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-deepseq-1.5.1.0-1350"
 
 inherit rpm

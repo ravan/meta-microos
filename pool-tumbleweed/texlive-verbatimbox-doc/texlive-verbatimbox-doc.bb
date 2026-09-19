@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-verbatimbox"
 DESCRIPTION = "This package includes the documentation for texlive-verbatimbox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.13svn33197"
+PV = "2026.226.3.2svn77682"
 
-RPM_NAME = "texlive-verbatimbox-doc-2023.209.3.13svn33197-54.1.noarch.rpm"
-RPM_HASH = "aadbdea65e040d85065a80f020ee51e76a93431004cc51800719ebc3c34efcd802bcd2ddbe5e232b18bce8d457f34ee07cf5ddc7a9403ee7e244f6baeabfbeb2"
+RPM_NAME = "texlive-verbatimbox-doc-2026.226.3.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "6d1fa413c86870941967474a7f8bfd40c7d22e6351aa7ea8e78f4d1699686b8b6ad5d8a58d32f9a2e16413953cd771d03cf6c19a8e09491cb1024d40ea08b994"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-verbatimbox-doc"

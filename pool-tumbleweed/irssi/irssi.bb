@@ -7,10 +7,10 @@ there are SILC and ICB modules available. \
 Irssi is not using the ircII code."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.4"
+PV = "1.4.5"
 
-RPM_NAME = "irssi-1.4.4-3.2.aarch64.rpm"
-RPM_HASH = "16151d496e09a735ef1c3405dd90dba71859ac2c03513b8086d2e9f0206d4bf29379be798d0451b819b8456593e8cc490acbd99ce589e67482339362ed426c94"
+RPM_NAME = "irssi-1.4.5-3.17.aarch64.rpm"
+RPM_HASH = "1717213b7ae5e20c3866d31f1c3f6ed28f885290cc6ddbe7184d748f47fc2f3ad6ca6ed9e3d1170e01010b398a1cb999415238741ef9196ffaebbb07adbcb7c7"
 
 RPROVIDES:${PN} += "irssi \
 libfe-perl.so \
@@ -32,8 +32,8 @@ libotr.so.5 \
 libperl.so \
 libssl.so.3 \
 libtinfo.so.6 \
-libutf8proc.so.2 \
+libutf8proc.so.3 \
 perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

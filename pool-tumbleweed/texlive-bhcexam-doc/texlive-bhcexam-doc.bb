@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bhcexam"
 DESCRIPTION = "This package includes the documentation for texlive-bhcexam"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn64093"
+PV = "2026.226.1.8svn72638"
 
-RPM_NAME = "texlive-bhcexam-doc-2023.209.1.7svn64093-54.1.noarch.rpm"
-RPM_HASH = "92dc530e0d95345d5f04170289e1ab5ec10624770fedc2bcdf7e663ed8fee0e5363010b3c49e31609b35f695c47adb9059d8eb4d05e62df96c4d22795e6679ef"
+RPM_NAME = "texlive-bhcexam-doc-2026.226.1.8svn72638-61.2.noarch.rpm"
+RPM_HASH = "d5bd984cce80e1e198dbdc642c285585d19d4848ba5d817003c13e249697fbf7bc63380baa5ac911827621f19b08d528fd888fbf78626a7bba086f0efc6b0700"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-bhcexam-doc-zh \

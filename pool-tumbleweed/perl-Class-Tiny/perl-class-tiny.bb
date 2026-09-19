@@ -30,16 +30,16 @@ it requires MRO::Compat. On Perls older than v5.14, it requires \
 Devel::GlobalDestruction."
 LICENSE = "Apache-2.0"
 
-PV = "1.008"
+PV = "1.8.0"
 
-RPM_NAME = "perl-Class-Tiny-1.008-1.14.noarch.rpm"
-RPM_HASH = "e03c255bd1bc1352143dcc11ccc608ca713da21d82424a01e08ada9259a210bae3ba7391b47c1acf01e75b26bec1c5707ac5faa0baa37eb7371ad96ee4d1d29f"
+RPM_NAME = "perl-Class-Tiny-1.8.0-1.7.noarch.rpm"
+RPM_HASH = "315beb8f7d5245f07cecafa4a99eaf581ddcfc20e14b0fed2c7152e044b16dd61a839806d9affb5e637e45d814078e03bb7636965a6b9a341b459fbdec7800c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Tiny \
 perl-Class--Tiny--Object \
 perl-Class-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

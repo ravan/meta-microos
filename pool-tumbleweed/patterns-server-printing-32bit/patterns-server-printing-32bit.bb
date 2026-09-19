@@ -2,10 +2,10 @@ SUMMARY = "Print Server"
 DESCRIPTION = "The 32bit pattern complementing printing."
 LICENSE = "MIT"
 
-PV = "20210330"
+PV = "20250313"
 
-RPM_NAME = "patterns-server-printing-32bit-20210330-5.1.aarch64.rpm"
-RPM_HASH = "4db33a98baff83617159dae93b769165152d3cd729653eaafdcf6969156ce020f5ab4fd9e8e7ba4d758420cbcdb91ace569e9f5eec90766404a144bc98aaac30"
+RPM_NAME = "patterns-server-printing-32bit-20250313-5.2.aarch64.rpm"
+RPM_HASH = "34e147804125168c2f72fc2299259a185a8dd1b02bcc5048d684748f269e65aba9721e5adec4d9568e6cb2fd20c1a630e1968c932cd355a48ebbe6b9f3aaa468"
 
 RPROVIDES:${PN} += "pattern- \
 patterns-server-printing-32bit"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "libcryptui0-3.12.2-10.4.aarch64.rpm"
-RPM_HASH = "8c005930c4992badd82a3f530ea3071524858bae50b841e81bcb25a54c0f038a3c745e4a08e27afb2259dd0ed8a082721044ed57dbd586ec864b69986a5f40ba"
+RPM_NAME = "libcryptui0-3.12.2-12.7.aarch64.rpm"
+RPM_HASH = "adc835c53b090f78122d2a2a8719caafc57bb03318686123ab38254787705476fdeb321d2f3dd967d1d89197eb0dcd4d74b7e569eb8e48a3c4e7e1b72ab65229"
 
 RPROVIDES:${PN} += "libcryptui \
 libcryptui.so.0 \

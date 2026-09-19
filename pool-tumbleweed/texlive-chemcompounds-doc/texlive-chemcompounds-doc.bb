@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chemcompounds"
 DESCRIPTION = "This package includes the documentation for texlive-chemcompounds"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-chemcompounds-doc-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "f04a2222a4ce433a35b2886c9eb4bbdeebb325f4252bfd515b88151f6d0526460f0ef0cb6c19e2649a485c11da7baf8c91e2516422975659cf18314f578fa1b7"
+RPM_NAME = "texlive-chemcompounds-doc-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "3e8e437a67ba08817a976b45f2b85f910d8f177c9d4ff88da46fbbf1e60e2fae12d7ea8eb8b27c128408102c8c8a4cc35b8726bbfff068b96a58a3596b6e5a9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chemcompounds-doc"

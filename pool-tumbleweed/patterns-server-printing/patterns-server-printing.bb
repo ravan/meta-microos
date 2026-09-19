@@ -4,10 +4,10 @@ needed packages for printing to a locally connected printer, printing using a \
 remote print server and for setting up a print server."
 LICENSE = "MIT"
 
-PV = "20210330"
+PV = "20250313"
 
-RPM_NAME = "patterns-server-printing-20210330-5.1.aarch64.rpm"
-RPM_HASH = "d104e09568c4431fd2781f6841a569f82407dc96c3306d74a03c09f20a5d7068190e663a24384fd1e3db70a625f61e67f737f4d242d953bdb6d27164474439d8"
+RPM_NAME = "patterns-server-printing-20250313-5.2.aarch64.rpm"
+RPM_HASH = "1e5d2f989a3eff24d3c85242f6a0eecc913418bf17d05de919f68b7de18ca42e6c5c8258dc5302f3d5c28add8ae357a4640c60a371a2d8432c4f340fb54e6ed4"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

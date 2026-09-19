@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2b"
 
-RPM_NAME = "xbomb-2.2b-2.3.aarch64.rpm"
-RPM_HASH = "644ce6e7a1f7bdd1cb2c1b6242a9cd3e90aaeec2c658b8b7333dd713f1716585440a76f604ab300a527dd53dc816da30339c908bf2518eafddb77d67169a3bf6"
+RPM_NAME = "xbomb-2.2b-2.13.aarch64.rpm"
+RPM_HASH = "b32797ca9cc881c2ad2081c37cc35c105fdbd643908794c60dcdd1981e1cce906f7c953f04eca1c3465fd673bfcb9a13ef849e46a12b39ebea8f9f8ea5f409b1"
 
 RPROVIDES:${PN} += "xbomb"
 

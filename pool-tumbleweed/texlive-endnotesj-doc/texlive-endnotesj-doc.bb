@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-endnotesj"
 DESCRIPTION = "This package includes the documentation for texlive-endnotesj"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.3.0svn47703"
+PV = "2026.226.3.0svn77682"
 
-RPM_NAME = "texlive-endnotesj-doc-2023.209.3.0svn47703-54.2.noarch.rpm"
-RPM_HASH = "08fb82c4c4fca417a9e9239f3755066be8f85884da142121899354726abd87b8deb2768bf8118d1f58092ec4ac9bd910908f2b119ae38e62b68b608edc919471"
+RPM_NAME = "texlive-endnotesj-doc-2026.226.3.0svn77682-61.4.noarch.rpm"
+RPM_HASH = "c69912e38aaa4fc9be5bed39d0d9d92e91a91021e890ac9a928059f3384263dd7106027092a1d20a5cf9f4c73b8d8b1522cef1ba02184cf69c52e2afee16dfee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-endnotesj-doc-ja \

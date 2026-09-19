@@ -3,13 +3,16 @@ DESCRIPTION = "Packages for law, linguistics, social sciences, humanities, \
 etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn65216"
+PV = "2026.222.svn75384"
 
-RPM_NAME = "texlive-collection-humanities-2023.208.svn65216-60.1.noarch.rpm"
-RPM_HASH = "9f784235b2f34e04fa02eaa0896db23df1f41f2c43e33c8ed89ae3d97bdcb3d9b7e751a19b526ef2bf22b0a33e7fa7a5563c67771f15d78838fb5a77d1442979"
+RPM_NAME = "texlive-collection-humanities-2026.222.svn75384-68.2.noarch.rpm"
+RPM_HASH = "fbce6add23df405c0359afd49315da9215bd5467b9f1bbc5811379579b5f698beca9c18b017632171ca3df86af8d9659563b65fa8a656840614a151a4dbb1fe5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-humanities"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-humanities \
+texlive-collection-humanities"
 
 RDEPENDS:${PN} += "texlive-adtrees \
 texlive-bibleref \
@@ -23,11 +26,15 @@ texlive-dramatist \
 texlive-dvgloss \
 texlive-ecltree \
 texlive-edfnotes \
+texlive-edmac \
 texlive-eledform \
 texlive-eledmac \
 texlive-expex \
+texlive-expex-glossonly \
 texlive-gb4e \
+texlive-gb4e-next \
 texlive-gmverse \
+texlive-interlinear \
 texlive-jura \
 texlive-juraabbrev \
 texlive-juramisc \
@@ -38,9 +45,12 @@ texlive-lexikon \
 texlive-lexref \
 texlive-ling-macros \
 texlive-linguex \
+texlive-linguistix \
 texlive-liturg \
+texlive-liturgy-cw \
 texlive-metrix \
 texlive-nnext \
+texlive-opbible \
 texlive-parallel \
 texlive-parrun \
 texlive-phonrule \

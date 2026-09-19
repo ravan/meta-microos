@@ -8,14 +8,14 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.7.2"
 
-RPM_NAME = "gnome-keysign-0.9.7.2-2.11.aarch64.rpm"
-RPM_HASH = "f7d68d0ed55bc8c34402e2cdf16af1f323daf4a09040874adac1f77c628d85558dfd4708491c2bf30e56c4160c3bf778436026384294afec23f1309d67ab929f"
+RPM_NAME = "gnome-keysign-0.9.7.2-5.4.aarch64.rpm"
+RPM_HASH = "f16e9871ae55244576270641b66d76610fc7ac7e9ccb7d9fd9508c9808687c34331924e32cb54269f5d7fc44dffe469d20977d40da7d692b4c2712fe61cfc1ac"
 
 RPROVIDES:${PN} += "gnome-keysign \
-python3.11dist-gnome-keysign \
+python3.13dist-gnome-keysign \
 python3dist-gnome-keysign"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 gstreamer1 \
 python-abi \
 python3-Twisted \

@@ -3,10 +3,10 @@ DESCRIPTION = "Command line tools that enable to export PKCS#11 modules through 
 Unix domain socket.  Note that this feature is still experimental."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.24.1"
+PV = "0.26.2"
 
-RPM_NAME = "p11-kit-server-0.24.1-2.3.aarch64.rpm"
-RPM_HASH = "8a3bde3b966c9d852a1956a3bb56f50ed7675c5bc37bba1065b8563be70aaa28247f29394c7003424be0dd7327544cd13777d21c982eba6b46215984c1a02322"
+RPM_NAME = "p11-kit-server-0.26.2-1.6.aarch64.rpm"
+RPM_HASH = "6d49ef3737b7af563cc06b7b99d77467c431e5062e38a5218a507d0c1bede6d1c46021da14eea887e2c53fedbaa1f29f7d07b0267aad4cf1edef6d2a371c7d45"
 
 RPROVIDES:${PN} += "p11-kit-server"
 
@@ -14,7 +14,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libp11-kit.so.0 \
-libsystemd.so.0 \
 p11-kit"
 
 inherit rpm

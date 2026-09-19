@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-marginfix"
 DESCRIPTION = "This package includes the documentation for texlive-marginfix"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2svn55064"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-marginfix-doc-2023.208.1.2svn55064-53.1.noarch.rpm"
-RPM_HASH = "b91862ef65291d3974ee5708ad2331c1158c4b025f0c565c913ca82216ddfefc28da6f1f502304b8c85851dcb5eb523723b8596cea16914bd3b0f5317185a040"
+RPM_NAME = "texlive-marginfix-doc-2026.226.1.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "30d7d3f9a0fa735048564f561b129f1a40078039710587039741426effe7ccec7a57d4ff3c2381530bafa9fe6894ae5e86a10019e906081878f49c19255a6f3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-marginfix-doc"

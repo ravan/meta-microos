@@ -15,10 +15,10 @@ Interested parties may review the book itself on the web at the \
 author's institution (it is written in Danish)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn17337"
+PV = "2026.226.svn17337"
 
-RPM_NAME = "texlive-dlfltxb-2023.209.svn17337-53.1.noarch.rpm"
-RPM_HASH = "612e67bc2e9d3d2d3eef37cc88b4b9ad69a01a41cdcbf5ee55fb79c4875cbc86c5b129c1113459ef081fc3d1e6a33c580d25926e7db0c90a543d511bfe9fdc38"
+RPM_NAME = "texlive-dlfltxb-2026.226.svn17337-59.2.noarch.rpm"
+RPM_HASH = "7c6a1f354e2cfbb81bc6a42d2b5562b48bcb8d1b5ae6b056f2db6793b88fe1216af49a714426217ee62774cf2352d96d7e4fb2b9fa2415883d389f801e74820b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dlfltxbcodetips.sty \

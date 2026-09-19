@@ -2,10 +2,10 @@ SUMMARY = "The benchmark module for xstream"
 DESCRIPTION = "This package contains the benchmark module for xstream."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.20"
+PV = "1.4.21"
 
-RPM_NAME = "xstream-benchmark-1.4.20-3.1.noarch.rpm"
-RPM_HASH = "ddb90145cd1b57249055a312f8d5df20d7a075a546b82033e9e77f11be8eed97d2cf38a6689448ed9863ad6ac66d19265ddf795d49957a5df59095ebdc0e6d98"
+RPM_NAME = "xstream-benchmark-1.4.21-1.6.noarch.rpm"
+RPM_HASH = "e07f3bd4fdedf96b3d35c9971a2855415abb17b80e77e05b756f05e5b5a91659bc09cbe02f213346653c86cf239d16ab243977efb384e5a5420f9deec48b2918"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.thoughtworks.xstream-xstream-benchmark \

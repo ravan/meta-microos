@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.0"
 
-RPM_NAME = "libmaia-devel-0.9.0-1.26.aarch64.rpm"
-RPM_HASH = "ba7080b7e66fd3543c112e9b26d2aa7a1ad9f18755c40a52b5e0687bf7363b2d7996745d706a672093381309d57b52b806b19b74d50e26f38099ccc442d916cd"
+RPM_NAME = "libmaia-devel-0.9.0-1.37.aarch64.rpm"
+RPM_HASH = "12a63dd1ada8a8315b60d4d391c54bdc5b60bb7aeb78eaacc16303017754bcfd40c8cb50ab72c84d22ae8c9708b4a8ebdcd2317db91c8d28340e38f8246609ca"
 
 RPROVIDES:${PN} += "libmaia-devel \
 pkgconfig-maia"

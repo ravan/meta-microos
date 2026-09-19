@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "entangle-doc-3.0-2.8.noarch.rpm"
-RPM_HASH = "ed6c031b131184322cde2572ab59da4c079003b83ae4ac0d5bede5159b6093faf15fc1182e27da7eadd790e2f09a489cb742f9ebc9d2f8637c8953fde389c2a5"
+RPM_NAME = "entangle-doc-3.0-3.2.noarch.rpm"
+RPM_HASH = "0e818c9048267f447a6c9ed4c83be2c92f8509e49426aa593c5cc8548c6cd7983443d5bddd30864451ae9c8f26dfae0b23ad176a09c4b024e431994260b85df2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "entangle-doc"

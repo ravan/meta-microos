@@ -2,10 +2,10 @@ SUMMARY = "Intel OSPM plugin for connman"
 DESCRIPTION = "Provides Intel OSPM support for Connman (Connection Manager)."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.41"
+PV = "1.42"
 
-RPM_NAME = "connman-plugin-iospm-1.41-4.8.aarch64.rpm"
-RPM_HASH = "164c0d6ba8781901cc505d90d5d6e0bb545110df11b1acb1605e7b22053fb16fa756bac2625fd82cc249f54a590daa7e5cd66de63fbec21de328a30a651518fc"
+RPM_NAME = "connman-plugin-iospm-1.42-2.16.aarch64.rpm"
+RPM_HASH = "c3c92aab71eaa57bce98779c9d41465dfc570d0bedeeaa3c8b218700972d3a45588d83dbbd257e706c675f7abb7a3ce895e6654d2327820087464b5942b71510"
 
 RPROVIDES:${PN} += "connman-plugin-iospm"
 

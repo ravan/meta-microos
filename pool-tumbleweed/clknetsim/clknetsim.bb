@@ -7,10 +7,10 @@ to quickly test how well the programs control the system clocks in various \
 conditions or to test the network protocols."
 LICENSE = "GPL-2.0-only"
 
-PV = "0+git.20230612"
+PV = "0+git.20260819"
 
-RPM_NAME = "clknetsim-0+git.20230612-1.1.aarch64.rpm"
-RPM_HASH = "a5cd604209d67fd8517f93d99899cc554b2424e54fc6620aa6d9b2ddfad339c54865daa731357599f58478d862e715266369a0735422bea69466a03594124ff1"
+RPM_NAME = "clknetsim-0+git.20260819-1.1.aarch64.rpm"
+RPM_HASH = "d6f642a8dd5660d14049bc9d640de12fb4057b13c64831d22ad689c8a4b3cb142722a0b9d28a4ffd738b755d60f8381efc2bad5cbba8381f247e704805cd9771"
 
 RPROVIDES:${PN} += "clknetsim"
 

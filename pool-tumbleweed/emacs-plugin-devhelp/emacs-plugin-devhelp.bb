@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "emacs-plugin-devhelp-43.0-2.2.aarch64.rpm"
-RPM_HASH = "b85e69feed26caaaca770a8d30bb879486140bed78558b53e38bad8b4ad03dea54a0844c8845faea4dc6ba1aeba61d1201bb4eca14f11192f68649a16ac872d2"
+RPM_NAME = "emacs-plugin-devhelp-43.0-3.7.aarch64.rpm"
+RPM_HASH = "ef8e9fde5e1d11a4cbec87f4933b7fff8e488b0186df7bde1b1b52210576ce8bdef257b1302c8dc0b29c3548441e18c5d5e648b1fd19d4c3b65331031fa3769e"
 
 RPROVIDES:${PN} += "emacs-plugin-devhelp"
 

@@ -2,16 +2,18 @@ SUMMARY = "Documentation for texlive-pdftex"
 DESCRIPTION = "This package includes the documentation for texlive-pdftex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn66243"
+PV = "2026.226.svn77868"
 
-RPM_NAME = "texlive-pdftex-doc-2023.209.svn66243-52.1.noarch.rpm"
-RPM_HASH = "1e5cd5ab62d21a9d95406c481183bc2c98c2b350ac23463d4f111d3fceece1b2e1dc3f438acaeec56e1de0af7f44e72f9301abfb00848e5ce9b8d149c42a8424"
+RPM_NAME = "texlive-pdftex-doc-2026.226.svn77868-58.2.noarch.rpm"
+RPM_HASH = "15b46bdf2e2ae4df022d65ae8d84d613d005bbb8de89627ffe5d5b0cf7279b573764da9114431fa4a6fd768ab32a273c4c756413e6d028bc7a799e9ca74854cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pdfetex.1 \
 man-pdftex.1 \
 texlive-pdftex-doc"
 
-RDEPENDS:${PN} += "/usr/bin/perl"
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/perl \
+/usr/bin/ruby"
 
 inherit rpm

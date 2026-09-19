@@ -3,10 +3,10 @@ DESCRIPTION = "qView is a Qt image viewer designed with minimalism and usability
 No cluttered interface, just your image and a titlebar."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.1"
+PV = "7.1"
 
-RPM_NAME = "qview-6.1-1.1.aarch64.rpm"
-RPM_HASH = "3721d17c4f95d8ba7152a39fb1ec2252eafd60759cb2fff881c3441d7fe0978b7313b18b3ac7a3c99903ad921ea0ac4fcaab1316e1a19e04ad7bec7ab5e86981"
+RPM_NAME = "qview-7.1-1.5.aarch64.rpm"
+RPM_HASH = "63667de278c0ca7fcef49738df60f919d3f3530a2cd5c693d9e3784c060bc3262c849321396f2f477a03798c87ae92aaee906eb5d9da0f7a328aa96cf558059f"
 
 RPROVIDES:${PN} += "qview"
 

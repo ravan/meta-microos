@@ -4,16 +4,16 @@ DESCRIPTION = "A web user interface for GNU Mailman. \
 This package holds the uwsgi configuration."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.3.7"
+PV = "1.3.12"
 
-RPM_NAME = "HyperKitty-web-uwsgi-1.3.7-2.1.noarch.rpm"
-RPM_HASH = "0908be7b21a90547e513d5f52fcd1661af2e6ab6d54f32a5276ded0473a983b89e96a9ae9a8271c171a150bee6fbbdc4caa979647a18a188c055b780e23c8f15"
+RPM_NAME = "HyperKitty-web-uwsgi-1.3.12-7.1.noarch.rpm"
+RPM_HASH = "a1971a885ec3859d309879f5b9e420f7d3dce9032fe230fca9759cbcc0fd8a81d0fd6ad9cc9e6048d2c347e470f85d07f60baf2e95d1f8f8f08053e68e9b21ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "HyperKitty-web-uwsgi \
 config-HyperKitty-web-uwsgi"
 
 RDEPENDS:${PN} += "HyperKitty-web \
-python311-uwsgi-python3"
+python313-uwsgi-python3"
 
 inherit rpm

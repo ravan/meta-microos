@@ -4,24 +4,24 @@ distributed file system. A Ceph CTDB lock helper binary is included so \
 that RADOS locks can be used for CTDB split-brain avoidance."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "samba-ceph-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "6f76ff874bd47e062ec9858ffffda74c382d50cc782f9afe9c68647e5422d5c87baa512e3084bc84b5ccbf7b39d09f45fa64029e9ef9794d7467bf560a0c278e"
+RPM_NAME = "samba-ceph-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "69f3b2b093db7d3f484e1dea300b7fc6e793e1ffde1ac8d47f58ae119299e414b32d6481b2050eca64f32a2e7ced720ca1a19786198011c9676fddd66c057738"
 
 RPROVIDES:${PN} += "samba-ceph"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcephfs.so.2 \
-libgenrand-samba4.so \
+libgenrand-private-samba.so \
 librados.so.2 \
-libsamba-debug-samba4.so \
+libsamba-debug-private-samba.so \
 libsamba-errors.so.1 \
 libsamba-util.so.0 \
-libsamba3-util-samba4.so \
+libsamba3-util-private-samba.so \
 libsmbconf.so.0 \
-libsmbd-base-samba4.so \
+libsmbd-base-private-samba.so \
 libtalloc.so.2 \
 libtevent-util.so.0 \
 libtevent.so.0 \

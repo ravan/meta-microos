@@ -3,10 +3,10 @@ DESCRIPTION = "wimlib is a C library for creating, extracting, modifying, and mo
 the Windows Imaging Format (WIM files)."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "1.14.1"
+PV = "1.14.4"
 
-RPM_NAME = "libwim15-1.14.1-1.1.aarch64.rpm"
-RPM_HASH = "025d35dd513c2b62862ff88815cef188aef6e58d4a3d0b29565a57d15250fc0e0595c5d882014c8cc5fc7898d8b961b7a77bc33b792cb0c972d33272ddf4e498"
+RPM_NAME = "libwim15-1.14.4-1.13.aarch64.rpm"
+RPM_HASH = "27df98252d64ee5132ca47360b8c072e56a8d97b73dd4d331782a14018ea3989ff8fd43a67f1b23f4ea1c32a410ad4b9dcfa4880ddac7199010d770de9617e16"
 
 RPROVIDES:${PN} += "libwim.so.15 \
 libwim15"
@@ -14,7 +14,7 @@ libwim15"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfuse3.so.3 \
-libntfs-3g.so.89"
+libfuse3.so.4 \
+libntfs-3g.so.90"
 
 inherit rpm

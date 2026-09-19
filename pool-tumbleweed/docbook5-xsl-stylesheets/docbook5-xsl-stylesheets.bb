@@ -11,10 +11,10 @@ rendering. For more information about XSL, see the XSL page at the W3C: \
 http://www.w3.org/Style/XSL/"
 LICENSE = "MIT & MPL-1.1"
 
-PV = "1.79.2.1"
+PV = "1.79.2.2"
 
-RPM_NAME = "docbook5-xsl-stylesheets-1.79.2.1-1.1.noarch.rpm"
-RPM_HASH = "174436f416307731117a9f81385c04b7140cb97a19ec330303699342114382ae3da57d26857b8bcbd0f24cd88146fa48d33e72cd896ac8dd1084e60082b9c8b1"
+RPM_NAME = "docbook5-xsl-stylesheets-1.79.2.2-2.7.noarch.rpm"
+RPM_HASH = "0bbd354b17f4c4f281c49b9951d39b9169378aa339b0afb1988893694374545c52c9f6f567baab78cf036600d6ede3d0e02f6a9b207a8ea422f70f855e8b7349"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-docbook5-xsl-stylesheets \

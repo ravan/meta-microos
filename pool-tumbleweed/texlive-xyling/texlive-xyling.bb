@@ -8,10 +8,10 @@ two, and hence they can be modified without unwanted side \
 effects. The macros are based on the xy-pic package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-xyling-2023.209.1.1svn15878-53.2.noarch.rpm"
-RPM_HASH = "5c7d8bbf562b13931768f353eafc4ff79a5abb443f5e2421d88728ab1b4df4014c218baea9603480dee730fd5f1289a015027776656a4c69318bd1ab347378a8"
+RPM_NAME = "texlive-xyling-2026.226.1.1svn15878-59.4.noarch.rpm"
+RPM_HASH = "876eada2227dcd691b80824ab4ca8b8e03b8bb2d38f70d4269019117bc328fc001a1d32e598a6c53af97b293d25a824e58cedcd4b8905d21cc0e3358a95ea1ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xyling.sty \

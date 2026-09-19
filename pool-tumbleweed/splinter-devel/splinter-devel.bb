@@ -9,8 +9,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.0"
 
-RPM_NAME = "splinter-devel-3.0-2.23.aarch64.rpm"
-RPM_HASH = "5f8b2cdaedac0e97025d76fc7ae0558447d61b4ef87e2d451077729acbfbb88a37945460fefa6d9ac664df3ae7a97db1875e3d529e1a664a820dd959c7888471"
+RPM_NAME = "splinter-devel-3.0-4.5.aarch64.rpm"
+RPM_HASH = "f2fbd1ddf2d5b912ae1732d48d33e6d9bcd46ffdc61ec8d5f1259e0514c433ef17fe69ef8d27cd739c5d1b5b1c981916f7154989a05e43d63ed65b69069c96ca"
 
 RPROVIDES:${PN} += "splinter-devel"
 

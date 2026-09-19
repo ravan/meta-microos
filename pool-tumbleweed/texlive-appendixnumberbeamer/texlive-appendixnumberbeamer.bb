@@ -9,10 +9,10 @@ declare the beginning of the appendix as usual using the \
 \\appendix command."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.2svn46317"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-appendixnumberbeamer-2023.209.1.2svn46317-55.1.noarch.rpm"
-RPM_HASH = "90fdd47286953736092762f9d9909ca2977f8948ff1cf6afb9ad7a015b1e3ace037da72f64abc0660a5bff73f31e5f2a7a53244c7b61ba69dd6797fa37f91139"
+RPM_NAME = "texlive-appendixnumberbeamer-2026.226.1.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "7d3316b98893c6c56bd7d06ff9c5056b5f337f76e5a02f162f00a721d629039914322000efcf9a151ffae61857811ae035faa27a46910b5d00318fa685c6b6d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-appendixnumberbeamer.sty \

@@ -46,6 +46,12 @@ In scalar context the numbers are interpolated in a string of the \
 If the date is unrecognized, then the empty list is returned ('undef' in \
 scalar context). \
  \
+As a safeguard against pathological input, strings longer than 64 \
+characters are rejected without being parsed. The length is measured on the \
+string as given, before any leading or trailing whitespace is trimmed, so \
+heavily padded input may be rejected even if its trimmed payload would fit. \
+Every date format this module recognizes is far shorter than this limit. \
+ \
 The function is able to parse the following formats: \
  \
  'Wed, 09 Feb 1994 22:23:32 GMT'       -- HTTP format \
@@ -80,6 +86,12 @@ The function is able to parse the following formats: \
 The parser ignores leading and trailing whitespace. It also allow the \
 seconds to be missing and the month to be numerical in most formats. \
  \
+Numeric-only dates use day/month/year ordering (the ISO and common European \
+convention), not the US month/day/year ordering. So '3/4/2014' is parsed as \
+4 March 2014, and a US-style date such as '3/13/2014' returns undef because \
+13 is not a valid month. To parse US-style dates, swap the first two fields \
+before calling parse_date(). \
+ \
 If the year is missing, then we assume that the date is the first matching \
 date _before_ current month. If the year is given with only 2 digits, then \
 parse_date() will select the century that makes the year closest to the \
@@ -96,16 +108,16 @@ Same as time2str(), but returns a 'YYYY-MM-DD hh:mm:ssZ'-formatted string \
 representing Universal Time."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.06"
+PV = "6.80.0"
 
-RPM_NAME = "perl-HTTP-Date-6.06-1.2.noarch.rpm"
-RPM_HASH = "c186ac2cb23842ef9307cf8ec2bd1bb79ab0bcb6a3f181e54cd5c47f2ac57a9414ee460a1fef5f35c99ee5bdfd6bc231c8eb452212f56975d349a6623d488db4"
+RPM_NAME = "perl-HTTP-Date-6.80.0-1.1.noarch.rpm"
+RPM_HASH = "661e4e4436721e62778dc748f73fd7a9d7e37fd9e0e5852b0ead58b8bc6db981af7a086c58fcf4805ff1c2abfa2ecb79d15209463b75201b64eb73964182cca1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Date \
 perl-HTTP-Date"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Time--Local \
 perl-Time--Zone"
 

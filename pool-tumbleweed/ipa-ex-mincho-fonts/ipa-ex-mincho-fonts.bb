@@ -4,8 +4,8 @@ LICENSE = "IPA"
 
 PV = "004.01"
 
-RPM_NAME = "ipa-ex-mincho-fonts-004.01-1.10.noarch.rpm"
-RPM_HASH = "9c460b4fd0bc86ac6ba03ce91abc6d755714679cee52d7481f000787a880768305deb73f08c94f442ec8e6626ad9c939c772e4e67e7220f99d25a58c602ee0d1"
+RPM_NAME = "ipa-ex-mincho-fonts-004.01-1.18.noarch.rpm"
+RPM_HASH = "424608ce072415599016b593b3f023c8a2b29fedcf482978a72989e59dabd434cdf369f712e208aa6a66d10b89dee8b72edc67878c87f6683a2ca874aca0adb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ipa-ex-mincho-fonts \

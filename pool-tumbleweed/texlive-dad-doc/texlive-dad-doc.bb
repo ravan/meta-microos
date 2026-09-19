@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dad"
 DESCRIPTION = "This package includes the documentation for texlive-dad"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn54191"
+PV = "2026.226.1.2svn54191"
 
-RPM_NAME = "texlive-dad-doc-2023.209.1.2svn54191-55.1.noarch.rpm"
-RPM_HASH = "eab15f26af03ac6028f3da6f70897cf7ba2526216f2a3feec677c26b27933f1c9085c9d4cf0c904af2d101522432b60f558d7b7cbb0efc255ce7f4fc72d8e15b"
+RPM_NAME = "texlive-dad-doc-2026.226.1.2svn54191-61.2.noarch.rpm"
+RPM_HASH = "d5df845e5da5e3520cdc3f89164262a3c854adeebc50551d2b6a059c3322b41f0bf79b01b0d07146aad6d84b9affd420abfc73f86383c0b5ce6c98a47383b3d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dad-doc"

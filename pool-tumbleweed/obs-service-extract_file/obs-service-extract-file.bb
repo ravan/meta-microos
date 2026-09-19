@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4"
 
-RPM_NAME = "obs-service-extract_file-0.4-1.10.noarch.rpm"
-RPM_HASH = "9e3ae9efecabd0de32e6a7f14fdd3486762a31cd46d5604f3269c6794829d8b10052715fc9a7148858fecee65dc99c897a4a17351f4d7b3e3481b55cd26b57e5"
+RPM_NAME = "obs-service-extract_file-0.4-1.18.noarch.rpm"
+RPM_HASH = "64cc9f2ceec911c2e1cf61cc61fab18f4b5759de2d35bd6ee5883f1022c7f772ce6cd0596c0e2d0606b137c716c0d07d78fa47d4be45e95cddd96ed1e82c39f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-extract-file"

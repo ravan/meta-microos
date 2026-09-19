@@ -2,10 +2,10 @@ SUMMARY = "Translations for package policycoreutils"
 DESCRIPTION = "Provides translations for the 'policycoreutils' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "policycoreutils-lang-3.5-4.1.noarch.rpm"
-RPM_HASH = "9c803999ae9210396179ec44b63a8ead4e1a4b56a93ae4443b3ff1593fbcc676acd2e827c1ec27a06084c3feebf9d7dd01efa53058a8d6444b6d6557fa3aa0b6"
+RPM_NAME = "policycoreutils-lang-3.11-2.2.noarch.rpm"
+RPM_HASH = "dc4d0c2fcf4bc390d5cd07f6d073b96eaf7636118e92a7bd7c5ff247292d9b93ed51e73eefac87848cbada13bd19a5492627126f379ab71fdf6e194510f2d821"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-policycoreutils-af \

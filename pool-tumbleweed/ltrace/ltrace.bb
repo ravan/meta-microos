@@ -11,10 +11,10 @@ This is still a work in progress, so, for example, the tracking to \
 child processes may fail or some things may not work as expected."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7.91"
+PV = "0.8.1"
 
-RPM_NAME = "ltrace-0.7.91-14.2.aarch64.rpm"
-RPM_HASH = "aed1871e1100fd35336745d75b7d59ba2b583dde14772247f2ee16cfd1f402c6465dccbad7b2c84bc0bcc1c1b083891280785fb7c2299ef60a64b062e08704cc"
+RPM_NAME = "ltrace-0.8.1-2.4.aarch64.rpm"
+RPM_HASH = "88216985b00b01ddd6c25d1a9101e61a54bcab64270ad5a45078587411d88bcfc9b6590487fb3ba17f21530efd6e0818779aa508d21ce62ec47fd39cacf5ef26"
 
 RPROVIDES:${PN} += "ltrace"
 

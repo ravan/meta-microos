@@ -11,10 +11,10 @@ This package contains the development headers for the library found \
 in libXfont2-2."
 LICENSE = "MIT"
 
-PV = "2.0.6"
+PV = "2.0.7"
 
-RPM_NAME = "libXfont2-devel-2.0.6-1.5.aarch64.rpm"
-RPM_HASH = "6ee9216fe9f90d6461eecccbf5ea0af543b8d511f597ec3762e5cb6101edcbd8b8582b2d9b71708f95bce9c494bcd3b3492b86c69228a031fdd007f7416a843d"
+RPM_NAME = "libXfont2-devel-2.0.7-3.1.aarch64.rpm"
+RPM_HASH = "d816159cb284df67a9ebe26222cea46a9b67f21fa71451141b131cc7e90d952d773953f14d7a38092f0554cbd105362586190508c166f7d083828670e062dfe1"
 
 RPROVIDES:${PN} += "libXfont2-devel \
 pkgconfig-xfont2"

@@ -8,10 +8,10 @@ Vulkan. \
 This package contains the shared libraries for ImGui."
 LICENSE = "MIT"
 
-PV = "0.1.0"
+PV = "0.3.0"
 
-RPM_NAME = "libvsgImGui0-0.1.0-1.2.aarch64.rpm"
-RPM_HASH = "4af198f24134e5679b80d7702f6ea6d57b0be058d2a6a0470ee2e57ce17c57ca17705c6d18d0ef41bcb7509d25ac69236b8dbedfed32bfc4dd533219d85515ac"
+RPM_NAME = "libvsgImGui0-0.3.0-1.10.aarch64.rpm"
+RPM_HASH = "5f24bc3d7f23ca15de40e19390ddb5adaaa041263cd1f92196df6cfe03aa1780c00b7b8303f01df6138405a643d526c0ffae36d61e5eb731b5c369ad7bbd0d38"
 
 RPROVIDES:${PN} += "libvsgImGui.so.0 \
 libvsgImGui0"

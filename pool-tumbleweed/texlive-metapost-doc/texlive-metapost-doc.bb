@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-metapost"
 DESCRIPTION = "This package includes the documentation for texlive-metapost"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.svn66264"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-metapost-doc-2023.209.svn66264-55.1.noarch.rpm"
-RPM_HASH = "2eabafdcdce04c17817cd48c893fe0175415c39daffeace3f7f30a17556eed60f843a4b4f05a7c06b4ff9b6346fc6fc22bc12bb891d98637e3bd1e9b19739f94"
+RPM_NAME = "texlive-metapost-doc-2026.226.svn77830-61.2.noarch.rpm"
+RPM_HASH = "11f6cdb2da6138497aaa34dcd6108b00d4d2e03978811e155b85753b0a886bfa0770a8daeabf92796eecff647430f5c32304298d2cb7bb233351128087b28cf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvitomp.1 \

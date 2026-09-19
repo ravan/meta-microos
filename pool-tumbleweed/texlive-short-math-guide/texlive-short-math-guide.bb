@@ -8,10 +8,10 @@ up to date with references to related packages and other useful \
 information."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn46126"
+PV = "2026.226.2.0svn46126"
 
-RPM_NAME = "texlive-short-math-guide-2023.209.2.0svn46126-54.1.noarch.rpm"
-RPM_HASH = "d15fede38e93ee29679f0ff048b72591e443210f2de0cf03f2e9c644b7bfac43dc82f488a020a31936c3059967f5958ecc17f291cfeeda2f7a30b8d6360ff6ef"
+RPM_NAME = "texlive-short-math-guide-2026.226.2.0svn46126-60.2.noarch.rpm"
+RPM_HASH = "3ea833ca9cb5e844f4f513777add27dc40a559d95f1a352509e1f8e4e81a12ebf8c94a78d4501b9c5e361f8f4a3cc6c5bbf00213a4448cfc3d99c3cd55d8b780"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-short-math-guide"

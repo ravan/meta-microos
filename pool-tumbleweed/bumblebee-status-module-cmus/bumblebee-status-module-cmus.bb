@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-cmus-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "81e84280e2d3f77e4222b06184c48be999c807d22971337a48c59d05aa3f267d00f8745001360416392b33e42ca3faf27e4889d284508993804355a7f8b12eb1"
+RPM_NAME = "bumblebee-status-module-cmus-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "bb10e216f4fe3239f6de0fabe1955b2d94b24b69dfa77d6c2a55dad3a73776a501dd8e707a6fe6922e1659d00085143d6d06eaeecef6460885e3392cdc7f322c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-cmus"

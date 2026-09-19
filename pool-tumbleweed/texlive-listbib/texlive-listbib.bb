@@ -5,10 +5,10 @@ which is better suited for this purpose than the standard \
 styles."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.2svn29349"
+PV = "2026.226.2.2svn29349"
 
-RPM_NAME = "texlive-listbib-2023.209.2.2svn29349-55.1.noarch.rpm"
-RPM_HASH = "9589d613df1f24deb0e53eb82db685345cdf5cea1a418243b51ffdbdfa620568c04419aa5fe44d676647beb76bb20960e6e0d3c441c6bdb2e8297aa3f00955c5"
+RPM_NAME = "texlive-listbib-2026.226.2.2svn29349-61.2.noarch.rpm"
+RPM_HASH = "b159a9727b72f212e03a32fa5d4645f2a6e19ac9d57de853c3bd05846a37ba15901dddd3964b3b47626c4477a19ef58bd20dad2b24603387ef451de841137fd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-listbib.cfg \

@@ -8,17 +8,17 @@ photos and videos taken at different periods in a single day or over \
 consecutive days."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.9.34"
+PV = "0.9.36"
 
-RPM_NAME = "rapid-photo-downloader-0.9.34-2.2.noarch.rpm"
-RPM_HASH = "34e7f8892d530a00add5c0d82c11b81dba973e5e61de5ccf9fc3bf9d5d06560107481550700012e9772e141a7c87455ed8886e22c1a42201ee39341f35855fb9"
+RPM_NAME = "rapid-photo-downloader-0.9.36-3.3.noarch.rpm"
+RPM_HASH = "ccbfbbcb4ca2745f1d4745629d5f7321b807fcbd2ab31e89e2cf9113fb3f6fd3cf748f0cc1dbb5ed654e156d83fba0d7cb6f009ecd42eb4d337599eb688d069f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rapid-photo-downloader \
+RPROVIDES:${PN} += "python3.13dist-rapid-photo-downloader \
 python3dist-rapid-photo-downloader \
 rapid-photo-downloader"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 exiftool \
 ifuse \
 imobiledevice-tools \
@@ -28,13 +28,13 @@ python3 \
 python3-Babel \
 python3-PyPrind \
 python3-arrow \
-python3-cairo \
 python3-colorlog \
 python3-colour \
 python3-easygui \
 python3-gobject \
 python3-gobject-Gdk \
 python3-gphoto2 \
+python3-packaging \
 python3-psutil \
 python3-pymediainfo \
 python3-python-dateutil \

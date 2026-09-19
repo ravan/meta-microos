@@ -13,17 +13,17 @@ You can modify the return value (aliased to @_) here, and do whatever else \
 you need to do. 'wantarray' is correct inside both coderefs; in 'after', \
 though, the return value is ignored and the value 'wantarray' returns is \
 related to the context that the original function was called in."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.03"
+PV = "0.30.0"
 
-RPM_NAME = "perl-Context-Preserve-0.03-1.22.noarch.rpm"
-RPM_HASH = "acf81ed28bc2392d6ae2c2daa1d51900d0cd8208c2a1face41b22eb3df210dc27d109a60cc6fbb0f65ba72b862b156ae792fa6e34af7a22041d1daecabce517c"
+RPM_NAME = "perl-Context-Preserve-0.30.0-1.5.noarch.rpm"
+RPM_HASH = "51f4ee09f01d5316ea62b6c16a6e50a1111a75de96eae2754ac4c76a14452ce540eed72b5cc552e67c37bc6cc8bdf9d9db53b551a9c4d69552e47559fcfcacc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Context--Preserve \
 perl-Context-Preserve"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

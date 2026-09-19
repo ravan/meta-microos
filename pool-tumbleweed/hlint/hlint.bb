@@ -2,15 +2,14 @@ SUMMARY = "Source code suggestions"
 DESCRIPTION = "HLint gives suggestions on how to improve your source code."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.5"
+PV = "3.10"
 
-RPM_NAME = "hlint-3.5-1.17.aarch64.rpm"
-RPM_HASH = "3aa6db43a67ec8e37307880e323cec891c3759849967993220226d8005d52921427070a8b484582796b3b96536e0a1cab628c5a3aacc2998e58efc03d4a9638f"
+RPM_NAME = "hlint-3.10-1.17.aarch64.rpm"
+RPM_HASH = "70498ffd64b09a60c34addb132dd4eee062e7e377688b5825dcdbb9b2347e1ada1f756b673390f7e8ff727994c2ce473fee8c6a739e8280241a9fd5c28ae466b"
 
 RPROVIDES:${PN} += "hlint"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \
 libm.so.6 \

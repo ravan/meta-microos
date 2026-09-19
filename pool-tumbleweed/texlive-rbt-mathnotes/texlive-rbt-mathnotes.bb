@@ -5,10 +5,10 @@ sheets' for exams. Several examples are included, along with \
 rendered PDFs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.2svn61193"
+PV = "2026.226.1.0.2svn76924"
 
-RPM_NAME = "texlive-rbt-mathnotes-2023.209.1.0.2svn61193-54.2.noarch.rpm"
-RPM_HASH = "45e28e30d8ea7e49939c75446d427deb0631ceb7bd0a75b3141f2804102b744ecb09bf1497e388ca5e9ab16b4b2c957ca37268daaf64ff79a5611cb71782d7fe"
+RPM_NAME = "texlive-rbt-mathnotes-2026.226.1.0.2svn76924-60.4.noarch.rpm"
+RPM_HASH = "5f253017d9b52c4ae589a56e932e3a770157901520212e8e502256cfa8e59f91a9865ad5f1d452c5168ed602b49afed7d268b46b1a9a3d49a743391daaf1bb74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rbt-mathnotes-formula-sheet.cls \

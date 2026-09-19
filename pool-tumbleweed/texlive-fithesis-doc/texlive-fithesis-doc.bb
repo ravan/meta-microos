@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fithesis"
 DESCRIPTION = "This package includes the documentation for texlive-fithesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn64135"
+PV = "2026.226.1.1.2svn76028"
 
-RPM_NAME = "texlive-fithesis-doc-2023.209.1.1.0svn64135-53.1.noarch.rpm"
-RPM_HASH = "6b90b559fbeebd01560ea1a2339a9d23e39ae0795ef2a1f78133f076d4860180eab277e6f87141aa09cb82b71f5a6675af31849293a0033aaa3d56740453508e"
+RPM_NAME = "texlive-fithesis-doc-2026.226.1.1.2svn76028-59.2.noarch.rpm"
+RPM_HASH = "f5278050ed53ae44f5dcc8a60996e0e696daf668daae38f08589d99d537acb13481a023f131445d390b91169e62c9ca974fad1e1e6419ccafcdf1652f69698f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fithesis-doc"

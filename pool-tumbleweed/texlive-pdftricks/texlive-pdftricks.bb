@@ -11,10 +11,10 @@ alternatives, users may care to review the discussion in the \
 PSTricks online documentation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.16svn15878"
+PV = "2026.226.1.16svn15878"
 
-RPM_NAME = "texlive-pdftricks-2023.209.1.16svn15878-52.1.noarch.rpm"
-RPM_HASH = "96d583a8233afafbf047262d37692ae6e1767dadb9539dabb608b54eb25da7c28be4e83ab965467ea4f38f8a04f45dd2e7f5c4979690b6149ceebfc67bdcfaa1"
+RPM_NAME = "texlive-pdftricks-2026.226.1.16svn15878-58.2.noarch.rpm"
+RPM_HASH = "4e498a643da3719cb83b7ee1f022e496e4186d1d2e9ad5cf7f3abca69f067853f815d73b57e2c30da55114633e27d4493a2b657e1706db8dbc4c76268fe1d09b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdftricks.sty \

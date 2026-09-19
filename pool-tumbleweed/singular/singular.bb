@@ -1,4 +1,4 @@
-SUMMARY = "Singular CAS"
+SUMMARY = "Computer algebra system for polynomials"
 DESCRIPTION = "Singular is a computer algebra system for polynomial computations, \
 with special emphasis on commutative and non-commutative algebra, \
 algebraic geometry, and singularity theory. \
@@ -16,28 +16,29 @@ a large number of baserings. These include \
  \
 Singular's core algorithms handle \
  \
-* Gröbner resp. standard bases and free resolutions, \
+* Gröbner and standard bases and free resolutions, \
 * polynomial factorization, \
 * resultants, characteristic sets, and numerical root finding."
 LICENSE = "BSD-3-Clause & GPL-2.0-only & GPL-3.0-only & LGPL-2.1-only"
 
-PV = "4.3.1.p3"
+PV = "4.4.1"
 
-RPM_NAME = "singular-4.3.1.p3-1.4.aarch64.rpm"
-RPM_HASH = "092406fdd7a79a1970c564f439e7b322242cf7795e600d93c7671a56c5bd1cf423bcebcfa7951edfa0970ffcd669053dd740092218e2bf5743eb5bbbb8c2184b"
+RPM_NAME = "singular-4.4.1-2.9.aarch64.rpm"
+RPM_HASH = "03b446df88222b674e8b2910d73fd645088cdb4a683ebc6c4ace0599df34940dc40d77b16feb4a85519ded0139a192b940a59032d95cf0411d0050c2ce654233"
 
 RPROVIDES:${PN} += "singular"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libSingular-4.3.1.p3.so \
+libSingular-4.4.1.so \
 libc.so.6 \
-libfactory-4.3.1.p3.so \
+libfactory-4.4.1.so \
+libgcc-s.so.1 \
 libgmp.so.10 \
-libomalloc-4.3.1.p3.so \
-libpolys-4.3.1.p3.so \
-libsingular-resources-4.3.1.p3.so \
+libomalloc-4.4.1.so \
+libpolys-4.4.1.so \
+libsingular-resources-4.4.1.so \
 libstdc++.so.6"
 
 inherit rpm

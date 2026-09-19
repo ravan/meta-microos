@@ -7,16 +7,16 @@ implementation of the Kannan-Fincke-Pohst algorithm that finds a \
 shortest non-zero lattice vector."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.4.4"
+PV = "5.5.0"
 
-RPM_NAME = "fplll-5.4.4-1.4.aarch64.rpm"
-RPM_HASH = "e39553a9ae41f1217ba9a34fc7cca09b7acafdde5eb6025dec47f0f1971d4259065fde223f1579cc2a787e7fdeb400a04586822481507fd2138540e7614b73ab"
+RPM_NAME = "fplll-5.5.0-1.8.aarch64.rpm"
+RPM_HASH = "2e25401ee61808d6042115a06511739e8488588a32e1f63ad2936f3aa973e8be704e4c898d934d9c90ba4d5fd4f5b7cb52dd00bd955c122cc04abd9aa88c05b6"
 
 RPROVIDES:${PN} += "fplll"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfplll.so.8 \
+libfplll.so.9 \
 libgcc-s.so.1 \
 libgmp.so.10 \
 libm.so.6 \

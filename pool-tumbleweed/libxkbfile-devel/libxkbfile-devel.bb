@@ -6,10 +6,10 @@ This package contains the development headers for the library found \
 in libxkbfile1."
 LICENSE = "MIT"
 
-PV = "1.1.2"
+PV = "1.2.0"
 
-RPM_NAME = "libxkbfile-devel-1.1.2-1.3.aarch64.rpm"
-RPM_HASH = "31eec880fd0f6b35ce4a52c25d8ae8cf9708c55131be18ad5996a105acd41850b0377678d74eed53e3ddd642bdf6958b3635c423afed3dd911d7e82447104bbb"
+RPM_NAME = "libxkbfile-devel-1.2.0-1.4.aarch64.rpm"
+RPM_HASH = "a665de0ffff19b7431748014546c293cb3c74549c034d543352064911dd1f1e4b99c39a923ae14c713c9f44a3ba6768732f1d0a2c2d92d1a40bef45ad28941a4"
 
 RPROVIDES:${PN} += "libxkbfile-devel \
 pkgconfig-xkbfile \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-unfonts-extra"
 DESCRIPTION = "This package includes the documentation for texlive-unfonts-extra"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn56291"
+PV = "2026.226.svn56291"
 
-RPM_NAME = "texlive-unfonts-extra-doc-2023.209.svn56291-54.1.noarch.rpm"
-RPM_HASH = "d298fc0102f7ef0d5ebfbc8134973e2e6c9dd24ca4f81707a3b80c325e87f0a48a014fc8aca10af32a4230f41edb6ff1a461fdb363c200019d85bdea03e3c324"
+RPM_NAME = "texlive-unfonts-extra-doc-2026.226.svn56291-60.2.noarch.rpm"
+RPM_HASH = "7ed15abfdc7f0e9f5baa4b5613a55f7bdc751758953ae392209f28147e6054cf7bc6d73716490d05d66bb693960c75f4cf204fa075e16a2de0c5ff5fde43c95a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unfonts-extra-doc"

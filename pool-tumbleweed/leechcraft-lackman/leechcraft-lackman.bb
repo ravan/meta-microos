@@ -14,10 +14,10 @@ Features: \
  * Operates in user's home directory."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-lackman-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "8fc9f03fd7534c5f20ccf7fbc292c243c8ca030bc7f70dea8b4d2787b0cf9237a29db3df852163e41c8817ccde580c9fdf0e75c454e5a13cdd85e5a8d41ec204"
+RPM_NAME = "leechcraft-lackman-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "8659e53fef1fbdf75ddcf5696273278881f3fa54d2c8c3aab9bf0740a0bb0c08578ad7b39e35d577869908a161af6e44fcbc74701468e54f3fa4b95739c75795"
 
 RPROVIDES:${PN} += "leechcraft-lackman \
 libleechcraft-lackman.so"
@@ -25,23 +25,23 @@ libleechcraft-lackman.so"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
 leechcraft-http \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
-libQt5XmlPatterns.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-db-qt5.so.0.6.75.1 \
-libleechcraft-util-gui-qt5.so.0.6.75.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-shortcuts-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-tags-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-util-db-qt6.so.0.6.75 \
+libleechcraft-util-gui-qt6.so.0.6.75 \
+libleechcraft-util-models-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-shortcuts-qt6.so.0.6.75 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-tags-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libstdc++.so.6 \
 xz"
 

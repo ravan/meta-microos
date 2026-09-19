@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing ed"
 DESCRIPTION = "This package contains the symlinks to provide ed with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-ed-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "c125c7cde2689706ac392f90e8375f4f76e3aa028a23f137b6f828f6d66ecb0de9c9d2455950c63ebc0d0b759202cb61a711f23ebad558f75afe75029ad7fc53"
+RPM_NAME = "busybox-ed-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "004cd4c6357895b67b0cdafa10a861b9ecbf2f289e1778c1586a9c4f87f23a338fc9f8df55144044573e6d6348e75f3ae49aa68dba6d173be91744f14705bcfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-ed"

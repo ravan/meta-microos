@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-tweaks"
 DESCRIPTION = "Provides translations for the 'gnome-tweaks' package."
 LICENSE = "CC0-1.0 & GPL-3.0-or-later"
 
-PV = "42.beta+60"
+PV = "49.0"
 
-RPM_NAME = "gnome-tweaks-lang-42.beta+60-1.2.noarch.rpm"
-RPM_HASH = "9c9abfe530cc601184a48e49a4f7c54f7d0a351f6de164f0d7b11a8296368a4573e396f010b3f17e8bb03d2d26cd32d75f619c8eb2c23124569db547a48d8517"
+RPM_NAME = "gnome-tweaks-lang-49.0-2.2.noarch.rpm"
+RPM_HASH = "8dd72f39c3882a4d8a7e3c2526052491042e89c2602701d02d53f253b1d228bc5d427ce74f1aeb104762f6ea3417db6975dc96e500168af4c298303ee9bacdc9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-tweaks-lang \
@@ -32,6 +32,7 @@ locale-gnome-tweaks-fr \
 locale-gnome-tweaks-fur \
 locale-gnome-tweaks-gl \
 locale-gnome-tweaks-he \
+locale-gnome-tweaks-hi \
 locale-gnome-tweaks-hr \
 locale-gnome-tweaks-hu \
 locale-gnome-tweaks-id \

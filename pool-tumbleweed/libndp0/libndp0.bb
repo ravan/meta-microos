@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a library which provides a wrapper for IPv6
 Discovery Protocol."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.8"
+PV = "1.9"
 
-RPM_NAME = "libndp0-1.8-1.6.aarch64.rpm"
-RPM_HASH = "b4fd3e9a62b4667aebe83fb3acbbc8b27bc6b9d91df26ffc701c73bce0e70f9b079cb771e016a5b1feb030016b494662573e91997afbb232d62e406d8b6f233f"
+RPM_NAME = "libndp0-1.9-1.2.aarch64.rpm"
+RPM_HASH = "a7f86294ebe0d3675c5de07728e8268d86da4b30f7f837f0f06f6702ad8c6b1f0730779594f2faab48ef2187d571fe2b7d322b1429b63c8fadb48ec56ecac8c1"
 
 RPROVIDES:${PN} += "libndp.so.0 \
 libndp0"

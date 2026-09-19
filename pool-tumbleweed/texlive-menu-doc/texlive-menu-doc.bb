@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-menu"
 DESCRIPTION = "This package includes the documentation for texlive-menu"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.994svn15878"
+PV = "2026.226.0.0.994svn15878"
 
-RPM_NAME = "texlive-menu-doc-2023.209.0.0.994svn15878-55.1.noarch.rpm"
-RPM_HASH = "55fa46318000f24f1f9e56a6bfdd7a81afc49dc78b31d8f3bccab50b1bcc90b7a51ffc09e819f48ff78911282e402a54d7afeeba53cb7127ac09749e18ea2e87"
+RPM_NAME = "texlive-menu-doc-2026.226.0.0.994svn15878-61.2.noarch.rpm"
+RPM_HASH = "e1d8cac80a7bd2bc1f5ee3d65df1e70e630355233cbc4eedd382767f42d2c740ed4dccab5e4a522bab4d6a9941f35a126942fca977eaecb623773d1bbc3075e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-menu-doc"

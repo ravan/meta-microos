@@ -2,10 +2,10 @@ SUMMARY = "Binary files of epspdf"
 DESCRIPTION = "Binary files of epspdf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn29050"
+PV = "2026.20260301.svn29050"
 
-RPM_NAME = "texlive-epspdf-bin-2023.20230311.svn29050-93.2.aarch64.rpm"
-RPM_HASH = "f3effe481e6f858f65e7a1a0fc72429bbdbfc6f28f675eb0e75b61465a2f980f2ea352895d866d36570e02319a33b683b8e600d2d33623130009d34ba2ebbbf6"
+RPM_NAME = "texlive-epspdf-bin-2026.20260301.svn29050-120.4.aarch64.rpm"
+RPM_HASH = "c769bb8ed5e26ba8a34e3d96858e1c38426f816b77d99ee4db1a34c327e3f981e08f0007b20beb20a653660580d4ce02934c5f7a111cfbedeff3fa6edde47df1"
 
 RPROVIDES:${PN} += "texlive-epspdf-bin"
 

@@ -2,10 +2,10 @@ SUMMARY = "Property displayer for X"
 DESCRIPTION = "xprop displays window and font properties of an X server."
 LICENSE = "MIT"
 
-PV = "1.2.6"
+PV = "1.2.8"
 
-RPM_NAME = "xprop-1.2.6-1.2.aarch64.rpm"
-RPM_HASH = "af6b840c74f5ff7701c1d97785a1e35c538a629cf1e312aae5e0e23c2257d67e44ce19bd11b6c6f2bcedec0afccb239fb3c587850620f6def9eee8edb43c19a4"
+RPM_NAME = "xprop-1.2.8-1.8.aarch64.rpm"
+RPM_HASH = "815c4c4f205e2cf3004c1007ed0577d1654f0f54f8243d6d0042b68a9cb0a194fd9de61838c5e20ce6e123a4cc73a907e1882225cae71bd165983a26b125fea1"
 
 RPROVIDES:${PN} += "xprop"
 

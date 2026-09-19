@@ -2,22 +2,22 @@ SUMMARY = "Haskell http-client-restricted profiling library"
 DESCRIPTION = "This package provides the Haskell http-client-restricted profiling library."
 LICENSE = "MIT"
 
-PV = "0.0.5"
+PV = "0.1.1"
 
-RPM_NAME = "ghc-http-client-restricted-prof-0.0.5-2.8.aarch64.rpm"
-RPM_HASH = "f9812f2a5bfe9a1fdc35b80efb93bd4aa8fbe0ba4e967d52a54c4cd044937e55fb12f4939798bddbf44336e9b52d1765327725e961dec38d3208c5cc393d8fb1"
+RPM_NAME = "ghc-http-client-restricted-prof-0.1.1-1.4.aarch64.rpm"
+RPM_HASH = "86be82b72b5ae587177ff1c10f31f6a33af11680a891f0acb5d2ed99639a49710e1d14799d9c00ec5757700286d479f5a143bca3f2881a538a595a6ac6642ef7"
 
 RPROVIDES:${PN} += "ghc-http-client-restricted-prof \
-ghc-prof-http-client-restricted-0.0.5-6W52ptKb3gq2u8nffCvr0t"
+ghc-prof-http-client-restricted-0.1.1-6CI3ni80WE31wg508CrdwB"
 
 RDEPENDS:${PN} += "ghc-http-client-restricted-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-connection-0.3.1-HritGhbYIMl4OD06E3KY8G \
-ghc-prof-data-default-0.7.1.1-4TeAZDN81Uu1IorgFaPMOc \
-ghc-prof-http-client-0.7.14-ElkaPC2YNimBwgzZzglgPe \
-ghc-prof-http-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1 \
-ghc-prof-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-prof-network-bsd-2.8.1.0-6HwBWPM2Dri1VSrR1y6aDh \
-ghc-prof-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-crypton-connection-0.4.6-EpYbEhgynWEHAydR26M0y \
+ghc-prof-data-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ \
+ghc-prof-http-client-0.7.19-4BIOUl8FXXcE32miDzHR9M \
+ghc-prof-http-client-tls-0.4.0-D4cx6zdDU3O6iLaLdAAVnV \
+ghc-prof-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-prof-network-bsd-2.8.1.0-Eim1HbjRi8aBvcsvglmxNx \
+ghc-prof-utf8-string-1.0.2-FCJm07Id8m53KWoTjjdHEG"
 
 inherit rpm

@@ -6,21 +6,23 @@ This package contains the mvapich2 version utility functions for working \
 with HDF5 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.12.2"
+PV = "1.14.6"
 
-RPM_NAME = "hdf5-mvapich2-1.12.2-5.3.aarch64.rpm"
-RPM_HASH = "14f469ede18ffd55a4fa90a610ef17f6c3d115eddc4cbfa0b59f4c4d8fde340fe1ff7711af79e5613758d050019f6b64c17daeb600e8874e43ea989f5890482a"
+RPM_NAME = "hdf5-mvapich2-1.14.6-2.6.aarch64.rpm"
+RPM_HASH = "4910409266d78964015db6f650c4ade64a114c72c2fb904abaaa51ce694eb6d6c613a9a0390da9015b8d32979d0b562d1a14e692c3ef8809e807d4743a219676"
 
 RPROVIDES:${PN} += "hdf5-mvapich2"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libhdf5-200 \
-libhdf5-fortran200 \
-libhdf5-hl200 \
-libhdf5.so.200 \
-libhdf5hl-fortran200 \
+libhdf5-310 \
+libhdf5-fortran310 \
+libhdf5-hl-fortran310 \
+libhdf5-hl.so.310 \
+libhdf5-hl310 \
+libhdf5-tools.so.310 \
+libhdf5-tools310 \
+libhdf5.so.310 \
 libm.so.6 \
 libmpi.so.12"
 

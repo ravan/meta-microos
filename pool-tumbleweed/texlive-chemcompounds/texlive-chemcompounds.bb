@@ -6,10 +6,10 @@ from the chemcono package by not generating an odd-looking list \
 of compounds inside the text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-chemcompounds-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "e9afe2d9d9605118985232e1ef0b7f22ea0e48b3b23401a2195b018d2edd7e8ebb26c503a920fd67115328d6afc073883738f39c071dfce6ffcdddb8a8cc02e0"
+RPM_NAME = "texlive-chemcompounds-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "e82460b7610295c1babd02402ecd7ae297ea631628e6c88bd22772bad1370af6c4de0889e1997444376ad0a32cf2b094fafbd2ebd0cc5f832cc265cf5a9611bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemcompounds.sty \

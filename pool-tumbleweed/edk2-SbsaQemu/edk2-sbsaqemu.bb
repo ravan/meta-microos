@@ -1,11 +1,14 @@
 SUMMARY = "Firmware required to run the SbsaQemu"
-DESCRIPTION = "Firmware required to run the SbsaQemu"
+DESCRIPTION = " \
+ \
+ \
+Firmware required to run the SbsaQemu"
 LICENSE = "SUSE-Firmware"
 
-PV = "0.0~20230118T162833~201514e6"
+PV = "202502"
 
-RPM_NAME = "edk2-SbsaQemu-0.0~20230118T162833~201514e6-3.1.aarch64.rpm"
-RPM_HASH = "3d7a33491a28820df6b54ed2df77dc70325cfd281e9325075daa751d742796254d81fad1471cc6f464197bb057dbeadf36dd7b0936c8b14414924a5631d5b93a"
+RPM_NAME = "edk2-SbsaQemu-202502-5.3.aarch64.rpm"
+RPM_HASH = "ca5a9170f9f4b465d258704a75aec7ae34375bdec2afccc989670590021e87116b1e0c99970174ece728e8b93cdbaf5c4570b0eb4f5d95966e2fffd17a48ff97"
 
 RPROVIDES:${PN} += "edk2-SbsaQemu"
 

@@ -2,10 +2,10 @@ SUMMARY = "Files and utilities used by daemons"
 DESCRIPTION = "Miscellaneous files and utilities used by other libvirt daemons"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.7.0"
+PV = "12.7.0"
 
-RPM_NAME = "libvirt-daemon-common-9.7.0-1.1.aarch64.rpm"
-RPM_HASH = "aca959c0ecfb99384d2e87db2171c154d73cf5914f4cdb24f5f5701eab174ef4a08e8ab7b7a626fb3029f230358ba997d137986a4454e56e933c321ce809cd84"
+RPM_NAME = "libvirt-daemon-common-12.7.0-1.1.aarch64.rpm"
+RPM_HASH = "2d67673969e5c08191a988a3391502892e5a21865ce40627e76c1eff3e0b6eee06c4ba577920a3a2403fd3ccb1eadafed21abccea84e4b6ae9f276e76d9dca15"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-common \
 libvirt-admin \
@@ -14,7 +14,7 @@ libvirt-daemon-common"
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 bash-completion \
-dbus-1 \
+dbus-service \
 dmidecode \
 gettext-runtime \
 group-libvirt \
@@ -28,8 +28,9 @@ libreadline.so.8 \
 libvirt-admin.so.0 \
 libvirt-libs \
 libvirt.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 logrotate \
+netcat-openbsd \
 pkgconfig-udev \
 systemd"
 

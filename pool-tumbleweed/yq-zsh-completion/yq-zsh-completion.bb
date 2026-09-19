@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for yq"
 DESCRIPTION = "Zsh command line completion support for yq."
 LICENSE = "MIT"
 
-PV = "4.34.2"
+PV = "4.53.3"
 
-RPM_NAME = "yq-zsh-completion-4.34.2-1.1.noarch.rpm"
-RPM_HASH = "80b738aa8aee02aebf7374e7445f0cf777757fe0619e51ec4b9be1b3efbbd73f940863366cb86d02499b3777a524dc626649f57bc7c39875dc24d2a0798826f9"
+RPM_NAME = "yq-zsh-completion-4.53.3-2.1.noarch.rpm"
+RPM_HASH = "ff190ae0a1fd26e8d1957551817f71f6f89bf453a194f9c251f017fa9f760a42e492eda07030ab3f36ae44812ec050a5162c42783dc5d6f40714fbe58caf16f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yq-zsh-completion"

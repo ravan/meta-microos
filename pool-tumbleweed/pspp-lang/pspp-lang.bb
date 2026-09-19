@@ -2,13 +2,14 @@ SUMMARY = "Translations for package pspp"
 DESCRIPTION = "Provides translations for the 'pspp' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.2"
+PV = "2.1.1"
 
-RPM_NAME = "pspp-lang-1.6.2-1.1.noarch.rpm"
-RPM_HASH = "87be69845f55d39999bde7c21e684592a5e7ca2b2e2cb853bb3d42361a30543cf3a60f9d2d39e5138d266eb55f98fd0e71392cbef505dbf75feb80d91e9c32d1"
+RPM_NAME = "pspp-lang-2.1.1-2.2.noarch.rpm"
+RPM_HASH = "c31deafc75f2fd0dc147cbdabf6776beae6e6527c7781ef282999831d708d1c34e88b689c5276e6fae1fc8d482c622ba1f8923ad622fec39d15c40657bcf307c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-pspp-ca \
+RPROVIDES:${PN} += "locale-pspp-ar \
+locale-pspp-ca \
 locale-pspp-cs \
 locale-pspp-de \
 locale-pspp-el \
@@ -17,12 +18,17 @@ locale-pspp-fr \
 locale-pspp-gl \
 locale-pspp-hu \
 locale-pspp-ja \
+locale-pspp-ka \
 locale-pspp-lt \
 locale-pspp-nl \
 locale-pspp-pl \
 locale-pspp-pt-BR \
+locale-pspp-ro \
 locale-pspp-ru \
 locale-pspp-sl \
+locale-pspp-sv \
+locale-pspp-ta \
+locale-pspp-th \
 locale-pspp-tr \
 locale-pspp-uk \
 locale-pspp-zh-CN \

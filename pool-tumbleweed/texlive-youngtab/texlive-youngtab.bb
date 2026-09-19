@@ -4,10 +4,10 @@ for the representations of groups, providing two macros, \
 \\yng(1) and \\young(1) to generate the whole Young-Tableau."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn56500"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-youngtab-2023.209.1.1svn56500-53.2.noarch.rpm"
-RPM_HASH = "91d2f6449de3a34f7fc3c20a73c13c3f0ef7d9c4353ac93b6dd2f9d410a2aa77477bfeb10d203bd40c7b876f3250845c5a32dacc30e7717df03a2906e7049b82"
+RPM_NAME = "texlive-youngtab-2026.226.1.1svn77682-59.4.noarch.rpm"
+RPM_HASH = "ca235392524b8df69416d34a9a6a6a5aa46f7301ac69f76e4775e4ad0fc948d77c712d5e7e0e66749b3ce92ed17bbe4b2f6205a0396beffb37f293b0896b000a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-youngtab.sty \

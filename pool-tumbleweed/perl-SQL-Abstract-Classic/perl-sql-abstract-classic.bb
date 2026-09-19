@@ -15,15 +15,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.91"
 
-RPM_NAME = "perl-SQL-Abstract-Classic-1.91-1.15.noarch.rpm"
-RPM_HASH = "c1a1f7ffe6b63810ac7dc500e8e473f4ce2c9cd149587ae48c94fe3f5e6287aac0857e6b31685b611d7af2da22adf06695ac3bc608c75484229f1230cd57f09c"
+RPM_NAME = "perl-SQL-Abstract-Classic-1.91-1.29.noarch.rpm"
+RPM_HASH = "2a50806f06f7b9e09f7705e611a8618604f80bed481ebb61402151347aa4a18b27c0bced15c3da4f49149e69a2c87663bc84403bb49a4d0189f696cba0866761"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SQL--Abstract--Classic \
 perl-SQL--Abstract--Util \
 perl-SQL-Abstract-Classic"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-MRO--Compat \
 perl-SQL--Abstract \
 perl-Text--Balanced"

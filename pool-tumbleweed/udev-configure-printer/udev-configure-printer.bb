@@ -5,12 +5,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.18"
 
-RPM_NAME = "udev-configure-printer-1.5.18-3.1.aarch64.rpm"
-RPM_HASH = "0663efcabbcea5262511c6aca5525d6245cdbb2e58ea2e210807eab2e25feb4f2ffa9d9b777889a492e44c1cea88a4cbe70e4839db94cb9672d58c96922b9ee0"
+RPM_NAME = "udev-configure-printer-1.5.18-9.6.aarch64.rpm"
+RPM_HASH = "cb6bb17eede89d51f304314c561852d89661dd21c181b35a55189c41c723f07d4e443df652d28e18b4ee7d6867edc88fb6a6f22ca188a6babcf76baa7671074e"
 
 RPROVIDES:${PN} += "udev-configure-printer"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 dbus-1-python3 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

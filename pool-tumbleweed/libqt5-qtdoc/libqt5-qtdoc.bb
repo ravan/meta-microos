@@ -4,10 +4,10 @@ DESCRIPTION = "Qt is a set of libraries for developing applications. \
 This package pulls in the API documentation in HTML and QCH format."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "5.15.9"
+PV = "5.15.19"
 
-RPM_NAME = "libqt5-qtdoc-5.15.9-2.3.noarch.rpm"
-RPM_HASH = "a06d36c5fcad1490b79c5f1619e67f5b43a257b77958d1f077d85f429ef6376a4894cf93bdd6c3f77c017135f232823a5dae953b081da27b662ca789b6d9faec"
+RPM_NAME = "libqt5-qtdoc-5.15.19-1.3.noarch.rpm"
+RPM_HASH = "e38122e7a17ae040173d2a2ae3aed17ae4d44ccc9c435c3e7391c6afb71bfb8fb284cb785d528d3d553f66185605544bafae1f8952ee1f64bf10139a47ac03b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtcharts-docs \

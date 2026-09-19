@@ -7,10 +7,10 @@ domain' certificates. It is also use do highlight domain parts in a user interfa
 and sorting domain lists by site."
 LICENSE = "MIT & MPL-2.0"
 
-PV = "0.21.2"
+PV = "0.23.3"
 
-RPM_NAME = "libpsl5-0.21.2-1.3.aarch64.rpm"
-RPM_HASH = "ee1cc2e071f98027df750a747b62f413d0d1273ab3cbd873f6e3944be4ff6baed58d1c4237274cd7b8eb8d8dce310272a626c03393e50825a73fcc0415131a88"
+RPM_NAME = "libpsl5-0.23.3-1.1.aarch64.rpm"
+RPM_HASH = "eaa95f8c48acb541ea1a1ae76fb804a20f358938af2973dbade2d48122ca39e32cdd79b5128b88347bf5da794e94e64ab236633cf41daebc45514caca7eccec6"
 
 RPROVIDES:${PN} += "libpsl.so.5 \
 libpsl5"

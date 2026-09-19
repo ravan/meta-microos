@@ -2,10 +2,10 @@ SUMMARY = "Support for embedding GCC inside programs and libraries"
 DESCRIPTION = "Package contains header files and documentation for GCC JIT front-end."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.2.1+git7683"
+PV = "13.5.0+git10516"
 
-RPM_NAME = "libgccjit0-devel-gcc13-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "03657cc97511b488c2ec9dd5630fb525e37b2f3039a13122d771076739a7f31d3e1b2e1ef00dc3ddafb039731225d9a5b4fd9f66cb54afbb25d23e8739f8f29a"
+RPM_NAME = "libgccjit0-devel-gcc13-13.5.0+git10516-1.1.aarch64.rpm"
+RPM_HASH = "e0657cfafee5239ecbd116c2fc2ce78bc0d2ee6a614eff0a67e514f686b5f92c27c23422f72c89d37651d052eaa0f59b22d1207104e82593e4269c31d637b4c4"
 
 RPROVIDES:${PN} += "libgccjit0-devel \
 libgccjit0-devel-gcc13"

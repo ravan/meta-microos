@@ -3,10 +3,10 @@ DESCRIPTION = "Various test program with which the functionality of libnl is \
 demonstrated."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.8.0"
+PV = "3.12.0"
 
-RPM_NAME = "libnl-tools-3.8.0-1.1.aarch64.rpm"
-RPM_HASH = "d40600c6d3f4b7e9368a908eda383b7afbfab37331253c057d5cec838858857fddd9a9ff5f2b3a570ae7ccca0160cbdb18f6ceeec92325a95b8dc18e554bb34c"
+RPM_NAME = "libnl-tools-3.12.0-1.5.aarch64.rpm"
+RPM_HASH = "9dec5318958170aaa015968b59571d9847786b02267fcbb84b34750f65ac2f9a926128169864c763c7130f79ea6768df55cf6a9e6ec02bdbe38663088586b7c2"
 
 RPROVIDES:${PN} += "libnl-tools"
 

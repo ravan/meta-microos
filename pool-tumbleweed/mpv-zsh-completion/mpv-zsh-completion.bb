@@ -2,10 +2,10 @@ SUMMARY = "ZSH Completion for mpv"
 DESCRIPTION = "ZSH command line completion support for mpv."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.36.0+git20230826.83c0e980"
+PV = "0.41.0+git20260309.07c3ff3725"
 
-RPM_NAME = "mpv-zsh-completion-0.36.0+git20230826.83c0e980-1.1.noarch.rpm"
-RPM_HASH = "e58b2a4a61299370739d7be550e25997593617bf573db6a7cd100188fc05cc4c75542a18099e87e3fc50d4589c63aac6b5548d3ea297bcf9884bad577eec8b1d"
+RPM_NAME = "mpv-zsh-completion-0.41.0+git20260309.07c3ff3725-2.2.noarch.rpm"
+RPM_HASH = "c7149d1734bdfccba6a2b9898cfec9a4b31f0f79a4c86933773c0375938047f320e12854348335c99a692715cc4c06fc32566a82864924e5ba79b30600a18552"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpv-zsh-completion"

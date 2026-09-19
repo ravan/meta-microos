@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.4.2"
 
-RPM_NAME = "eiskaltdcpp-qt-lang-2.4.2-1.14.noarch.rpm"
-RPM_HASH = "0e7374f0aa3f75ae000985e715e3aa97bfbdeccf0f803769a6500092da44a4190fef4107cb67a239c870d87defd99b24c60b207e40e1ea0b5ca9958f4a76138f"
+RPM_NAME = "eiskaltdcpp-qt-lang-2.4.2-6.2.noarch.rpm"
+RPM_HASH = "dae2870b90cb721bdae2474f0672041c85d450a1f1ad86cb4d305efbb059633cb337f498cbe55bb497442fabdf67f9c43166ce17999c7132f7dabaec1be38db5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eiskaltdcpp-qt-lang \

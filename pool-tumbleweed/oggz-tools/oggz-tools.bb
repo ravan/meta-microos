@@ -6,10 +6,10 @@ will require in addition libspeex, libvorbis, libtheora, and \
 libannodex respectively."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.1"
+PV = "1.1.3"
 
-RPM_NAME = "oggz-tools-1.1.1-15.29.aarch64.rpm"
-RPM_HASH = "d5ac9260ea95f7b96d15a505355c4798b37fffa0095cf728bb29fbb4913124aad5ac77616f839e6c0e930e96ac376d735566fee17c2f6a3a526fecff7615a1dd"
+RPM_NAME = "oggz-tools-1.1.3-2.4.aarch64.rpm"
+RPM_HASH = "eb631ed48e6c07781a1c01945594d760d9729027f2da8b32dd0c5db5464fc26ca6259cf5d923e16dd4a0edf91404b4ea41ffad04933fd004e476b573f3c9332e"
 
 RPROVIDES:${PN} += "oggz-tools"
 

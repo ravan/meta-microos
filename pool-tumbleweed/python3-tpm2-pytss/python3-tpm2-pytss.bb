@@ -10,13 +10,13 @@ tpm2-tools based command line strings and loading tpm2-tools context \
 files."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.1.0"
+PV = "2.3.0"
 
-RPM_NAME = "python3-tpm2-pytss-2.1.0-2.4.aarch64.rpm"
-RPM_HASH = "82d20b45b1f497d1058aecd42d69468bac960549d3e15076f233b5bedf1ef6f5338bf0e7319f4f55be0964251a296192fc79218708c20dd40db38eb000b1a4b0"
+RPM_NAME = "python3-tpm2-pytss-2.3.0-2.6.aarch64.rpm"
+RPM_HASH = "9f9e83643c0c2f817fba76e1c093b9369162732e995cada826c232cc59771c1aa2d6c072bf14c8de689b1d683c0bcce5aca93b59172690f39aa31ae5194235c7"
 
 RPROVIDES:${PN} += "python3-tpm2-pytss \
-python3.11dist-tpm2-pytss \
+python3.13dist-tpm2-pytss \
 python3dist-tpm2-pytss"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
@@ -35,7 +35,6 @@ python3-PyYAML \
 python3-asn1crypto \
 python3-cffi \
 python3-cryptography \
-python3-packaging \
-python3-setuptools"
+python3-packaging"
 
 inherit rpm

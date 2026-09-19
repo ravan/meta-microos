@@ -6,10 +6,10 @@ thread-safe. \
 This package holds the development files."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.1.1"
+PV = "2.1.2"
 
-RPM_NAME = "unibilium-devel-2.1.1-1.8.aarch64.rpm"
-RPM_HASH = "69510247d35fb6a8656dca643735081a6091f7510b8addac66a5bb4d84a7cb435c3a998974ac019f303e3d497a3fe042452581eb07b6b5f4ca22e12306d57f86"
+RPM_NAME = "unibilium-devel-2.1.2-1.5.aarch64.rpm"
+RPM_HASH = "ecda3a361cd311ca77e3bbc85bb7d6db2b749cf821f45d91ddcc5a6d3bb23c7bd14b365a0448a9957b7a457073969ca234b4537537603c83cf86e39afdf0c943"
 
 RPROVIDES:${PN} += "pkgconfig-unibilium \
 unibilium-devel"

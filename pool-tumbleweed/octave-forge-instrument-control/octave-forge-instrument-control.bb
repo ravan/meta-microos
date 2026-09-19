@@ -3,18 +3,20 @@ DESCRIPTION = "Low level I/O functions for serial, i2c, parallel, tcp, gpib, vxi
 This is part of the Octave-Forge project."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.8.0"
+PV = "0.10.1"
 
-RPM_NAME = "octave-forge-instrument-control-0.8.0-1.4.aarch64.rpm"
-RPM_HASH = "022669fb9d0b2153d0d06e95d6678aa77e71220fd1fd85cbc918067ba3b0c94f4a03020f45ab6039320db7fae27731bc02aa665c1e680a136c343a5590f30964"
+RPM_NAME = "octave-forge-instrument-control-0.10.1-1.1.aarch64.rpm"
+RPM_HASH = "7e3d55baf5dc7875255152dd998663c67baba667a19fc4ce65abb3793b0e689949454d170b824fb07f849ad512ab9de0080ad9ee306ddd9f602642fe479f824e"
 
 RPROVIDES:${PN} += "octave-forge-instrument-control"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
+octave-api-v61 \
 octave-cli"
 
 inherit rpm

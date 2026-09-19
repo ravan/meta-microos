@@ -6,10 +6,10 @@ it, from the University. Furthermore there is NO relationship \
 between the University and this theme."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn27036"
+PV = "2026.226.svn27036"
 
-RPM_NAME = "texlive-hobete-2023.209.svn27036-54.2.noarch.rpm"
-RPM_HASH = "e0f50e932a05a2dbe5e52c02e402f828ed542f768cb7ede4ce787d67fe1a71a19c79ce09afa9a46d03a8b53dd7eadd53214eb1887936d8500040b0d9f5a75331"
+RPM_NAME = "texlive-hobete-2026.226.svn27036-60.4.noarch.rpm"
+RPM_HASH = "e3e247fdeddfda63938a31a37bbf305b73061e3945a5717874a6b453ae0b9b7434ca2f4b5cecc75447133c7f07d67c4f01abbe1533bf1ec56010ea4ab9ebec8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemehohenheim.sty \

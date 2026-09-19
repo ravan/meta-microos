@@ -3,10 +3,10 @@ DESCRIPTION = "Several tools for inspecting Windows REGF-type Registry files. \
 Typically used for computer forensics."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230319"
+PV = "20260526"
 
-RPM_NAME = "libregf-tools-20230319-2.1.aarch64.rpm"
-RPM_HASH = "f56ffe4643dc7329a6bc8e5a9b10910708504e9c93dc4881a7c1a1ee552e5b6ce5ec4a966c4b64eb1f6d3f77ebd8669f6163572412c5b91574f7818aed9e8367"
+RPM_NAME = "libregf-tools-20260526-1.10.aarch64.rpm"
+RPM_HASH = "6af648156430b8fbd37ddb881e74dd91a3ce4f0e5439d3401dfde8e8c744590098046dae54c9b472ab60dceef68bfc22fbaeb8dec3f070e0e554e74b17c57eef"
 
 RPROVIDES:${PN} += "libregf-tools"
 
@@ -16,7 +16,7 @@ libcerror.so.1 \
 libclocale.so.1 \
 libcnotify.so.1 \
 libfdatetime.so.1 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libregf.so.1 \
 libuna.so.1"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "liberasurecode is an Erasure Code API library written in C with \
 pluggable Erasure Code backends."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.3"
+PV = "1.8.0"
 
-RPM_NAME = "liberasurecode1-1.6.3-1.5.aarch64.rpm"
-RPM_HASH = "2bdc59776a5de497d17f3fd5488edce0225d38acc39abd0cddb78ab00d69b0996497fa55a35f77c4a738e756e2b1b853236396ee883fd66ea07ac37827118442"
+RPM_NAME = "liberasurecode1-1.8.0-1.3.aarch64.rpm"
+RPM_HASH = "0565cd8d24ca286ac5d44169b417eccbae74708adab63f7131793a46f76be4715a9847dc0c6900baf942f48d3182f7d70f61c18dd06ec8c2f425b1c9feaa3cbd"
 
 RPROVIDES:${PN} += "libXorcode.so.1 \
 liberasurecode-rs-vand.so.1 \

@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "ghc-filepattern-devel-0.1.3-2.11.aarch64.rpm"
-RPM_HASH = "32e7fdceed2aa0437e2f7ef6c193432bc5f1e56ba045780f4643e179caea9b5dc54d86f0edac8d70db769ec0d01d6d0b205c88f602044cec0886026397f432d4"
+RPM_NAME = "ghc-filepattern-devel-0.1.3-2.36.aarch64.rpm"
+RPM_HASH = "7dde3d4885b9bc29f1139efa816abbe5b2e8a3fabf901a8e3de341abc7284eafb0cf252c1300d736674187a4ebbe1c153e2b1907eba39688929e582c233f79f5"
 
-RPROVIDES:${PN} += "ghc-devel-filepattern-0.1.3-4ntZdyOJ0RX8pGnFp1xRde \
+RPROVIDES:${PN} += "ghc-devel-filepattern-0.1.3-KZHQp0sesewHup360RGBuM \
 ghc-filepattern-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-extra-1.7.14-DfcUn0kURmM7zhMG6RTp91 \
-ghc-devel-filepath-1.4.2.2 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-extra-1.8.1-J47FlDu75Mb8OlFkJuPlkW \
+ghc-devel-filepath-1.5.5.0-b25b \
 ghc-filepattern"
 
 inherit rpm

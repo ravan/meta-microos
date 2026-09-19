@@ -5,14 +5,15 @@ punctuation, by making punctuation characters active. This \
 facility is best suppressed (it can interfere with other \
 packages) -- there are package options for suppressing each \
 individual punctuation character. 'Real' attempts at hanging \
-punction should nowadays use the microtype package, which takes \
-advantage of the support offered in recent versions of pdfTeX."
+punctuation should nowadays use the microtype package, which \
+takes advantage of the support offered in recent versions of \
+pdfTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2bsvn15878"
+PV = "2026.226.1.2bsvn77682"
 
-RPM_NAME = "texlive-hanging-2023.209.1.2bsvn15878-54.2.noarch.rpm"
-RPM_HASH = "fea65816eb129c6f6c2b554dcda99f5c9a26fd28ca1407e4a5f7a9859c2e6c9d14cee95958d0f3153cdf0d418a457a55dfd6caeaa293b38963492f37fd57807f"
+RPM_NAME = "texlive-hanging-2026.226.1.2bsvn77682-60.4.noarch.rpm"
+RPM_HASH = "4b436a5292732883c101a3c4cee82ddf6f8f2b84ae3f4baf66e81e237bd608af50d1a178112349d90d709fa7cefe589e4616b47dce9266b9ecd0ff45f3aae7cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hanging.sty \

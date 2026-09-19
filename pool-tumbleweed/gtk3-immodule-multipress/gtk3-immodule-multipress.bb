@@ -7,10 +7,10 @@ This package provides an input method which allows text entry via the \
 multi-press method, as on a mobile phone."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.38"
+PV = "3.24.52+git59.b30343717d"
 
-RPM_NAME = "gtk3-immodule-multipress-3.24.38-2.1.aarch64.rpm"
-RPM_HASH = "ac8e8328f4b12ff3f37d7460b16460943a0dae1e6261f38463624f8fd6d308ea228c3e3b41f107d1449579ba6126cca22d82c8e420c96b64bd76103548e3b004"
+RPM_NAME = "gtk3-immodule-multipress-3.24.52+git59.b30343717d-1.1.aarch64.rpm"
+RPM_HASH = "9cc17b3140e2f1375d844f152f04b9dd1d8295979f5dbefd0ad0e223d1534e24ed761b1fbb8bc86cf966f9dd53a055d2d6478c5ca4c240a47f2aa6e78fc8bdf2"
 
 RPROVIDES:${PN} += "config-gtk3-immodule-multipress \
 gtk3-immodule-multipress"

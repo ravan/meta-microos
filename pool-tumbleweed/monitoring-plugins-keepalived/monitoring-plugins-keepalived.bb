@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.5"
 
-RPM_NAME = "monitoring-plugins-keepalived-0.1.5-1.11.noarch.rpm"
-RPM_HASH = "994e7522430dc34195fcede4b46a7cabe412fd8859f91cb02cc5fc2879a9bba4571ff0843d386a9e572d4c7b153f10271d3443ea0a915c89630099ff15e4cbb9"
+RPM_NAME = "monitoring-plugins-keepalived-0.1.5-2.1.noarch.rpm"
+RPM_HASH = "3db925a0765e142019424ed2d1edc54f1cdae519473ce75e45891414a3213622bc2f36a515c384d5ba14a09e16738162a3aa69593949f0bef01d334ad1858576"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-keepalived \

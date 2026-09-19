@@ -4,10 +4,10 @@ OT1 encoding. Also offered are a couple of Metafont files \
 described in the font package, but not provided there."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-eiad-ltx-2023.209.1.0svn15878-54.2.noarch.rpm"
-RPM_HASH = "c91218fa6285009fb928ae01100b466bbbcb7881717710a918aa84900aa699deb2388fb6690b329129bb8cceda37efe0660edf2f78fb814743732da8f004be7b"
+RPM_NAME = "texlive-eiad-ltx-2026.226.1.0svn15878-61.4.noarch.rpm"
+RPM_HASH = "40a08e9d5dd601da206b640d11fbc1b980da723cca1e321e267def20c07b05af866e72ad6c970ec4db6c7f112f86adbf72faf5734ab58c15c92082c99ac10f95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eiad.sty \

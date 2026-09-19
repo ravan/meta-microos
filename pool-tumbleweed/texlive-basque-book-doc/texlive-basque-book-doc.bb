@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-basque-book"
 DESCRIPTION = "This package includes the documentation for texlive-basque-book"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.20svn32924"
+PV = "2026.226.1.20svn32924"
 
-RPM_NAME = "texlive-basque-book-doc-2023.209.1.20svn32924-54.1.noarch.rpm"
-RPM_HASH = "38c6f847cd61ac6e7b4dd1c2da3a8aa5b2adcbf3fcc0f323744843948f5cffddd53e5ba725491dfbd3d3fc39a54a70e4b878bf86cc996e960d5352bf8532e1cb"
+RPM_NAME = "texlive-basque-book-doc-2026.226.1.20svn32924-60.2.noarch.rpm"
+RPM_HASH = "5414d2cfba4127d58fa3ab65e03e840a37db3b5705c73ceed868102a6b020c82e4436ebc5ec753653a51ec82a2b69eb6bd8312686ee7751ba3159cd143f8884c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-basque-book-doc-en;eu \

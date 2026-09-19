@@ -5,10 +5,10 @@ computer-controlled) try to destroy the opponent's castle with their cannons. \
 Eckhard Kruse's original Ballerburg from 1987 ported to SDL."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.2.1"
+PV = "1.2.3"
 
-RPM_NAME = "ballerburg-1.2.1-1.5.aarch64.rpm"
-RPM_HASH = "c74190da54c043a9c9bf5ac27aefd023c7910d8eb399eae1d6533357c891f0f2b48238f2741d7ec35b5f0b0f410531d9711710b79580fb11336993566b1a1280"
+RPM_NAME = "ballerburg-1.2.3-1.6.aarch64.rpm"
+RPM_HASH = "50c58cf89fd3145b9cb0869c682c075a3e30abd3361df66799c82d105cd0175300456f40d3e84e383f545f1fa11c7fb47d797fff4caf0fe868a40ca511c9c2a6"
 
 RPROVIDES:${PN} += "ballerburg"
 

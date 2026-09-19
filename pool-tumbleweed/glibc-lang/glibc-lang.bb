@@ -2,14 +2,15 @@ SUMMARY = "Translations for package glibc"
 DESCRIPTION = "Provides translations for the 'glibc' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0"
 
-PV = "2.38"
+PV = "2.44"
 
-RPM_NAME = "glibc-lang-2.38-2.1.noarch.rpm"
-RPM_HASH = "2bb470aff2c50af5b20dffe2efaad9f4a6c825d8e4cd089055c8af7be90184077991e39b508b309a19b3fa5e8b4ec55a90bd2905baeb233f1bae2e46b0a8de7c"
+RPM_NAME = "glibc-lang-2.44-2.1.noarch.rpm"
+RPM_HASH = "5667503cda07eb3676b4990d46997d48daa1911cdbb8258a5fa5647a54d0c3fa283cdcadc16487c57f7913333176ad1e21704d951af6110482853c4ef22e068c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glibc-lang \
 glibc-lang-all \
+locale-glibc-ar \
 locale-glibc-be \
 locale-glibc-bg \
 locale-glibc-ca \

@@ -5,10 +5,10 @@ and (because it was easy to implement) linear-linear graph \
 paper with LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn15878"
+PV = "2026.226.0.0.6svn15878"
 
-RPM_NAME = "texlive-logpap-2023.209.0.0.6svn15878-55.1.noarch.rpm"
-RPM_HASH = "df6bed05c322b49d44d3205a74051ebbfd2614c45e3f37f84451ecc74bed6accfd58f6a0e37ef75a24278566973790f99c0884c73eebe6e60bd4888b63d48f2a"
+RPM_NAME = "texlive-logpap-2026.226.0.0.6svn15878-61.2.noarch.rpm"
+RPM_HASH = "132c9e527bdf6ac492ae549d5a0847dc7b7f810ca868dffe64ec99a4ecbd381d2ffc0310a0e671697c5c502e2005cc9b8846437958f030ab7824f4e15e618322"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-logpap.sty \

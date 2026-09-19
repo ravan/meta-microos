@@ -9,10 +9,10 @@ multiple physical databases, without your application code needing to know \
 where the data is stored."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.22"
+PV = "0.270.0"
 
-RPM_NAME = "perl-Data-ObjectDriver-0.22-1.3.noarch.rpm"
-RPM_HASH = "18109c705d72ea553d3a1272d42a35cd7f582392c98969d6277939ce35f9087ef01d6e14867ca1f1f20fd8cc65f2c51f1da947d9ab44581c06c08315616407d7"
+RPM_NAME = "perl-Data-ObjectDriver-0.270.0-1.4.noarch.rpm"
+RPM_HASH = "6987f03391789ad275750fb7a3027c6f734f1aebba70598bcb7d76acfd7a7d59e3ecec6d222886d3727d4adc67647419632db29cd76a0e7ba9e8789105402121"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--ObjectDriver \
@@ -44,7 +44,7 @@ perl-Data--ObjectDriver--SQL \
 perl-Data--ObjectDriver--SQL--Oracle \
 perl-Data-ObjectDriver"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Accessor--Fast \
 perl-Class--Data--Inheritable \
 perl-Class--Trigger \

@@ -5,10 +5,10 @@ This package contains the tools to manage the native o2cb stack for the \
 OCFS2 filesystem."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.8.7"
+PV = "1.8.8"
 
-RPM_NAME = "ocfs2-tools-o2cb-1.8.7-7.5.aarch64.rpm"
-RPM_HASH = "24ffc86f3a606cf1fa80acb04c97da81babdf87add925619d70b4f01dc0aa2484636714d7729f18a2f27afaddd9d993e670fcede5bccf6693b3f171e9f21becc"
+RPM_NAME = "ocfs2-tools-o2cb-1.8.8-8.6.aarch64.rpm"
+RPM_HASH = "aa18fd7bcc824c9f36755e2d15e191cebc1eacbb0778f459b412d2942ee340e6f1e66875ddea0715b90f89b5ce230f943e7e59e74945ffe3396d108607c4c59d"
 
 RPROVIDES:${PN} += "ocfs2-tools-o2cb"
 

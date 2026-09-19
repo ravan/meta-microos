@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-musixtex"
 DESCRIPTION = "This package includes the documentation for texlive-musixtex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.36svn65519"
+PV = "2026.226.1.41svn77682"
 
-RPM_NAME = "texlive-musixtex-doc-2023.209.1.36svn65519-55.1.noarch.rpm"
-RPM_HASH = "30fbe26d9bca89d8246751c9bc39e3f03d726d265ff9d81177045288a5e8c349b1d51d5d744702dea8d38ecf664df12287829fecb3bc8a3cd8442742ce98935a"
+RPM_NAME = "texlive-musixtex-doc-2026.226.1.41svn77682-61.2.noarch.rpm"
+RPM_HASH = "f84032dc186c689a426694806c08482fb38a387ad634c1b84b658d58833a0cb0be274f72187d587e4562160af5252e56299ccd281e01ccb4a0915b076d6f66ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-musixflx.1 \

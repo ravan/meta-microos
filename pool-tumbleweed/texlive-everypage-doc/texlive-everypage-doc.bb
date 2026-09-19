@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-everypage"
 DESCRIPTION = "This package includes the documentation for texlive-everypage"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0bsvn56694"
+PV = "2026.226.2.0bsvn77682"
 
-RPM_NAME = "texlive-everypage-doc-2023.209.2.0bsvn56694-53.1.noarch.rpm"
-RPM_HASH = "46daf3f5818bc832ca3d7508d08a44f70d5b5f51b14268d2e8248eb23d2232b08815b105efb01b7ccbc236df75f02baa70f94416227697721163431f1b846255"
+RPM_NAME = "texlive-everypage-doc-2026.226.2.0bsvn77682-59.2.noarch.rpm"
+RPM_HASH = "0b378aa1385c27196ff1d3f2fcb1fa63a46057b49e529e1f0b24aea98ab75c39d27e6e643dcd9305a4e216411256571ce4cbca1de402c5975dd9c2e13b68ca3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-everypage-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "libXpm facilitates working with XPM (X PixMap), a format for \
 storing/retrieving X pixmaps to/from files."
 LICENSE = "MIT"
 
-PV = "3.5.16"
+PV = "3.5.18"
 
-RPM_NAME = "libXpm4-3.5.16-1.1.aarch64.rpm"
-RPM_HASH = "8be7fe82c0a42a211c8d6b207d2cfb09d5afdfdf4c0dcaf7d60f4f8418c1e61791f79c3f7450acceab08a6618223995fac36847ff837954fc631940a1f4fbd39"
+RPM_NAME = "libXpm4-3.5.18-2.3.aarch64.rpm"
+RPM_HASH = "1710ae15809b1a94c92291e07d4d42d3e6827e5aa4154bfe4f562bdada09413dcd8cefdc8d9d2a6d552a5d79bf055623b02f6c808faee19989f692010226f2ca"
 
 RPROVIDES:${PN} += "libXpm.so.4 \
 libXpm4"

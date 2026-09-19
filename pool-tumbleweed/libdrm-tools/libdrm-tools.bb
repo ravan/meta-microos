@@ -9,10 +9,10 @@ drivers. \
 This package contains diagnostic utilities for DRI and DRM."
 LICENSE = "MIT"
 
-PV = "2.4.116"
+PV = "2.4.134"
 
-RPM_NAME = "libdrm-tools-2.4.116-1.1.aarch64.rpm"
-RPM_HASH = "23c73c64ac2b520474408b1e76e80b3ba25bac4d6cd5ed1d0a2f5deb23b9d86100ab11b8004de83e32e4420ee0ee6206d7bd337ba8b11066ab6ffff9286b90e9"
+RPM_NAME = "libdrm-tools-2.4.134-2.2.aarch64.rpm"
+RPM_HASH = "7cd56ac4ca668af5b6c4d63ce23b72b9096810ecdc9be847c3964af30771855f4a7d0fce738bd562b67443d0881872b25263f651cd0f25a0db41fa7fb0cb3e81"
 
 RPROVIDES:${PN} += "libdrm \
 libdrm-tools"

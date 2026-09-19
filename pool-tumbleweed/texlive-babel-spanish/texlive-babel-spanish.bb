@@ -5,10 +5,10 @@ that separate support is provided for those who wish to typeset \
 Spanish as written in Mexico."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.0qsvn59367"
+PV = "2026.226.5.0qsvn77682"
 
-RPM_NAME = "texlive-babel-spanish-2023.209.5.0qsvn59367-54.1.noarch.rpm"
-RPM_HASH = "76f6f4c6d4c4482ebc416aa46ae754e2c7783fae817d03b0099ecafd33fb45f4574909337d7e0832f850648157af27e6d95abf74ee799c2d3cf22eb72893d646"
+RPM_NAME = "texlive-babel-spanish-2026.226.5.0qsvn77682-60.2.noarch.rpm"
+RPM_HASH = "630e69480ea2b7bb866ad8a28ca086ad57a752ecbebd50623927fe0bfda645a489ac903bad0b055877a11caa10379ea75281c446282ec3d98dffe6a151dd8e36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-romanidx.sty \

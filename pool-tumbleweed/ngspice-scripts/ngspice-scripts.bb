@@ -5,10 +5,10 @@ and Xspice. This package contains the ngspice init scripts shared \
 between ngspice and libngspice."
 LICENSE = "BSD-2-Clause"
 
-PV = "40"
+PV = "46"
 
-RPM_NAME = "ngspice-scripts-40-1.2.aarch64.rpm"
-RPM_HASH = "3d80733eff8bf72e87084f48a79626188a3d794b13a23fd1fbfa7ddb6be87968819d6994d9813c64ca830afc11fd968ff44c0049a9bd4221882603d7764eb85d"
+RPM_NAME = "ngspice-scripts-46-1.2.aarch64.rpm"
+RPM_HASH = "24e251bf0164e28eca6716abc000f78e9e53a0d7d647a052e721b097c907673bb12071a3336374093cfc2da67c2c3a746151d23bd3128743a87b45730fdd1009"
 
 RPROVIDES:${PN} += "ngspice-scripts"
 

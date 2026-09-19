@@ -7,10 +7,10 @@ package provides a switch to choose between the two kinds of \
 Greek uppercase letters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1+svn17967"
+PV = "2026.226.1.1+svn17967"
 
-RPM_NAME = "texlive-mtgreek-2023.209.1.1+svn17967-55.1.noarch.rpm"
-RPM_HASH = "33ab4c3cfd6aecb42f6c37f9aff07dca8ebd07a858569d0ee7ea8524dd20611f86eaf1aee1633d0184e37e7fe7781b9418a4fa558f25d660a44ffba558791192"
+RPM_NAME = "texlive-mtgreek-2026.226.1.1+svn17967-61.2.noarch.rpm"
+RPM_HASH = "09350146cbbd50e3360b898ab68f97ccba1c97770a98f00b87cc23b3c4102d2508193f0374b32eb4509920d235d13dacc3499560d1a2078d5ee25963d519b6df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mtgreek.sty \

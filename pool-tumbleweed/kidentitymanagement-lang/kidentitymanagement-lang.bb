@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kidentitymanagement"
 DESCRIPTION = "Provides translations for the 'kidentitymanagement' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kidentitymanagement-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "3c9941c84eeb0ee948229d74f0b4400c073c72ae9278fa80205894df86c6f1d8e9c46c15c5de1693c07c36614dac30c7793be698c33e824eee0e606d2b19270b"
+RPM_NAME = "kidentitymanagement-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "4ba4ff6f6ca3b6a95d93a4f44109767bc4cf515027cd543002646e4c303e778b15ff7a13340d34fb1d0d8ea62463070de20b61e6585e13b7107bf029a70edfb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kidentitymanagement-lang \
 kidentitymanagement-lang-all \
 locale-kidentitymanagement-ar \
+locale-kidentitymanagement-ast \
 locale-kidentitymanagement-az \
 locale-kidentitymanagement-be \
 locale-kidentitymanagement-bs \
@@ -29,6 +30,7 @@ locale-kidentitymanagement-fi \
 locale-kidentitymanagement-fr \
 locale-kidentitymanagement-ga \
 locale-kidentitymanagement-gl \
+locale-kidentitymanagement-he \
 locale-kidentitymanagement-hi \
 locale-kidentitymanagement-hu \
 locale-kidentitymanagement-ia \
@@ -59,6 +61,7 @@ locale-kidentitymanagement-sr@ijekavian \
 locale-kidentitymanagement-sr@ijekavianlatin \
 locale-kidentitymanagement-sr@latin \
 locale-kidentitymanagement-sv \
+locale-kidentitymanagement-ta \
 locale-kidentitymanagement-th \
 locale-kidentitymanagement-tr \
 locale-kidentitymanagement-ug \

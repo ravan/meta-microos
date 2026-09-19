@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.5.43"
 
-RPM_NAME = "ndppd-0.2.5.43-4.9.aarch64.rpm"
-RPM_HASH = "d185a7c891351c0014a23189ad99baeef01bef88d8881c990e16bd148e8bf39fa373c8fe53b21cafc112d9cdb35a58f33cff9075fd24cfbdee4eda49e3a2bec6"
+RPM_NAME = "ndppd-0.2.5.43-5.9.aarch64.rpm"
+RPM_HASH = "edf21c7c3e5738d9b3478a17744a4550083ddd44eb79cd1ba8f6e7f4000b0e4dbcedc452171bb6b0aeda7eb834d02670cf43ca6157597ab18511e0188be6e5fc"
 
 RPROVIDES:${PN} += "config-ndppd \
 ndppd"

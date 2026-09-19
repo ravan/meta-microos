@@ -1,11 +1,11 @@
 SUMMARY = "Documentation for texlive-fancyqr"
 DESCRIPTION = "This package includes the documentation for texlive-fancyqr"
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64182"
+PV = "2026.226.2.3svn78199"
 
-RPM_NAME = "texlive-fancyqr-doc-2023.209.1.1svn64182-53.1.noarch.rpm"
-RPM_HASH = "e7f99ed5e2a7a7ad6a339820186657bcf849172032cccddee45d80ab8e93a17f0b9e5f1fe4185fd45bff6016ed1115434f741c9e50020ac8f5700f699d667b4b"
+RPM_NAME = "texlive-fancyqr-doc-2026.226.2.3svn78199-59.2.noarch.rpm"
+RPM_HASH = "d237b1a779df07778d9c712342743e1c59ff696214693d5dc84343f7539136a9eddb72f6fb1c32a5f6558db3a482b7adb551594bda2945df86b96aa97668e4fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fancyqr-doc"

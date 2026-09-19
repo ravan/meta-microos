@@ -11,10 +11,10 @@ It is not recommended to install this tool on systems which do not belong \
 to an HPC deployment which uses the module system."
 LICENSE = "MIT"
 
-PV = "8.7.17"
+PV = "8.7.55"
 
-RPM_NAME = "lua-lmod-8.7.17-3.1.aarch64.rpm"
-RPM_HASH = "f873498f38a0dc6756214bddf4944542e13030e57c1a0b156ae6790fdee82a01612e443301f033d49f23ea661bfaafec17385d91863bf6a06a61dc088a85e438"
+RPM_NAME = "lua-lmod-8.7.55-4.5.aarch64.rpm"
+RPM_HASH = "68e65f5de22732e93cb641dfc3ce5b18327e5b06efd0e87c97f98603803154a9157b971c1e4cb443cc14913e7ba343cf4339f92eadd94757afe0c5bde9c6b7da"
 
 RPROVIDES:${PN} += "config-lua-lmod \
 environment-modules \
@@ -26,7 +26,7 @@ rpm-macro-lua-lmod-moduledeps \
 rpm-macro-lua-lmod-modulesdir"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/lua5.4 \
+/usr/bin/lua \
 /usr/bin/sh \
 /usr/bin/tclsh \
 lua54-luafilesystem \

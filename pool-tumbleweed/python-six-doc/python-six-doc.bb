@@ -7,16 +7,15 @@ both Python versions. \
 This package provides documentation for python-six-test."
 LICENSE = "MIT"
 
-PV = "1.16.0"
+PV = "1.17.0"
 
-RPM_NAME = "python-six-doc-1.16.0-3.2.noarch.rpm"
-RPM_HASH = "1d59a8c5a99c47917a671264a5e09fec8ec4558dd0997e9dbf76ac40cbd468c926ccc07e99da7734c47efefb57fbc250bf0236bcf9a12cf126a241e90a7679de"
+RPM_NAME = "python-six-doc-1.17.0-2.1.noarch.rpm"
+RPM_HASH = "afb8d26643ea449dc23445a7036d2ffab4b67f7893a18ed4a11f7f3cdf20c4bc759562041f7932ef53a4e9e72a5eb068bc5420c088fdbf8c9263251fd8f04c98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-six-doc \
-python310-six-doc \
-python311-six-doc \
-python39-six-doc"
+python313-six-doc \
+python314-six-doc"
 
 RDEPENDS:${PN} += ""
 

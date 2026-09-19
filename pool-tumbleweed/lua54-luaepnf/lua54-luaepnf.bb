@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.3+git19"
 
-RPM_NAME = "lua54-luaepnf-0.3+git19-2.1.noarch.rpm"
-RPM_HASH = "03eade3646d35a9d9bf3f6521f17ab13f2a13a498eed0d92b4f4e2e4095137c575449df86c388f7b84ee968ac7e6577aacd2d51d50d9e66232c13d71b6743fef"
+RPM_NAME = "lua54-luaepnf-0.3+git19-5.2.noarch.rpm"
+RPM_HASH = "31133ab84c56e5b2f081f44eb3f6162e5092d3c6a2c25d423616d15906dc713423c3b91c93263e4cbee5e63324217a2edb4a42e86689d7fae92c0cf61fd7cfb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-luaepnf \

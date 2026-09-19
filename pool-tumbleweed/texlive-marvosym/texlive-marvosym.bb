@@ -9,10 +9,10 @@ derived Type 1 font, together with support files for TeX \
 (LaTeX)."
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.2.2asvn29349"
+PV = "2026.226.2.2asvn77682"
 
-RPM_NAME = "texlive-marvosym-2023.208.2.2asvn29349-53.1.noarch.rpm"
-RPM_HASH = "31523b37bcf3421c34567b3c53c0374dc9106c6be4175b357f2758e777771383253cab5326416db281cf78ff19df525fae579a96c1edc6d0c0ed54c884480063"
+RPM_NAME = "texlive-marvosym-2026.226.2.2asvn77682-59.2.noarch.rpm"
+RPM_HASH = "f710e75cfb47436aa07ce43c83939ad22197c8c6f79514ae5350a5c208ebca285ab6e75c372c2d7e72dcf96f534263a0d84c085fcdcc84db143875ec92ca9e70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-marvosym.map \

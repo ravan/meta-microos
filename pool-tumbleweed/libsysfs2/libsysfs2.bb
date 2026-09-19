@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.1.1"
 
-RPM_NAME = "libsysfs2-2.1.1-1.8.aarch64.rpm"
-RPM_HASH = "763fb0c3f8e912b1c9397c7482edd266dfdda680f32cf55b1c780a9738d1f02a44ea57f0650769540f836b433f60756a4de1cf0f432b6ea63c34733fb115dbdd"
+RPM_NAME = "libsysfs2-2.1.1-1.18.aarch64.rpm"
+RPM_HASH = "aaca8a56771030a7e557df3e874ebe57da6ba812d07d1b35c040758c6fd6fbe258e94f9d62ac4d31c9cb69015df317763ae3e386723c5780aef88d09a48b4f6f"
 
 RPROVIDES:${PN} += "libsysfs.so.2 \
 libsysfs2"

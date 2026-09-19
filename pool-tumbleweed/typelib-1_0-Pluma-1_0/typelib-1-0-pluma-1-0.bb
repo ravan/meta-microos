@@ -6,10 +6,10 @@ indentation of source code, and printing and editing of multiple \
 documents in one window."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "typelib-1_0-Pluma-1_0-1.26.1-1.2.aarch64.rpm"
-RPM_HASH = "2fe0e9ddce36ed50b6d47e81f241dfd123c12ca7e9326c18cb4d8b386804ff15c56b63633c5ec555642289a97e4e7dc65e868c8db35c2d4465d13065fea5e9dc"
+RPM_NAME = "typelib-1_0-Pluma-1_0-1.28.1-1.3.aarch64.rpm"
+RPM_HASH = "4382761f3519e06d9b2c4ad5ef8850793b805c694cf9c7cf9f66747444223f3efb572971997d17bfa2b97a86f45e8e295a56b7f0433bde3f5be35512cdf6c5f8"
 
 RPROVIDES:${PN} += "typelib-1-0-Pluma-1-0 \
 typelib-Pluma"

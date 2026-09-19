@@ -42,10 +42,10 @@ optimization of the mechanisms of tables. starfn - Stars as \
 footnote marks. textfrac - Simple slanted fractions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn52334"
+PV = "2026.226.1.2svn52334"
 
-RPM_NAME = "texlive-shipunov-2023.209.1.2svn52334-54.1.noarch.rpm"
-RPM_HASH = "722e1797c4edb45cc5f7d34155d8b6bf7d36bca60846e6d8d677d2a85b8b3ec3f3e69d1827fe27c72f04a119aa4451bf850d46cc334b4081df7d1b63fd1686a4"
+RPM_NAME = "texlive-shipunov-2026.226.1.2svn52334-60.2.noarch.rpm"
+RPM_HASH = "4c9c59da644c20d1b842b87e9a7feccfa3b062141c5b8e5d90cc546c22ef516cad767bd6ddd6922176eb9ff680674c31d24653a5d48563bac9154629ed0a2fc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-add2-shipunov.sty \

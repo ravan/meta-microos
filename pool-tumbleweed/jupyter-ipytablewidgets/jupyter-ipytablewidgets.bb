@@ -4,10 +4,10 @@ DESCRIPTION = "Traitlets and widgets to efficiently data tables (e.g. Pandas Dat
 This package provides the jupyter notebook extension"
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.1"
+PV = "0.3.4"
 
-RPM_NAME = "jupyter-ipytablewidgets-0.3.1-2.1.noarch.rpm"
-RPM_HASH = "f406f4699c674eb4749f50842757f534d6417ba47f2521028c441c68c00dea03256e1ca28bb018912090bb0cc7019410410e4dbc2f04b338b0abc10c6b1298c1"
+RPM_NAME = "jupyter-ipytablewidgets-0.3.4-1.1.noarch.rpm"
+RPM_HASH = "8fbb1f76e76678a79f388c514565988f55943a07df94eb1590036dcfeeae69506e383c210566326bd0a400589d21faf416e1c63a4f3fea5b0c0dd08c52b6f8e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipytablewidgets"

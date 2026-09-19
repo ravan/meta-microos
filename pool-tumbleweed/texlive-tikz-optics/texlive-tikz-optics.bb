@@ -5,10 +5,10 @@ mirror, etc. The geometrically (in)correct computation of light \
 rays through the setup is left to the user."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.3svn62977"
+PV = "2026.226.0.0.2.3svn62977"
 
-RPM_NAME = "texlive-tikz-optics-2023.209.0.0.2.3svn62977-53.1.noarch.rpm"
-RPM_HASH = "2952fd1c483e43f72a878bfa6d81e0b42b9aaf17f7045b073b0cee81f6b58f576b3dad20c360ab1647c90f1a09c94cf36e47412c9c1b302719762ab69a966d80"
+RPM_NAME = "texlive-tikz-optics-2026.226.0.0.2.3svn62977-59.2.noarch.rpm"
+RPM_HASH = "d40648422fc971f6157ba4274b13111a8f856dda12aae1415886c7a9bd95f697fe4251b84609d0339e2ec897fa22793b2e5895bc581056d1d6a5d0d00593e52b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibraryoptics.code.tex \

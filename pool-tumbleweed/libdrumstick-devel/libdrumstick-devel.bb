@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files needed to compile programs that u
 libdrumstick libraries."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "2.7.2"
+PV = "2.11.1"
 
-RPM_NAME = "libdrumstick-devel-2.7.2-1.4.aarch64.rpm"
-RPM_HASH = "494d983594a6bb6347d24c64104478d42ab71195912ada3d1e74fcee0e75f08c9010a1f3e42fb309954c3e5ba127c2b198d216d4b34f6719ab6661cc4ca4e311"
+RPM_NAME = "libdrumstick-devel-2.11.1-1.1.aarch64.rpm"
+RPM_HASH = "acfd9639c5e5207873443891d5a48d7d89b56e3a32b07eff0088f3921a28596e1028e1cc1308567ca2b6de808ce1e8733746daf5e693078a496b3776550d07a5"
 
 RPROVIDES:${PN} += "cmake-drumstick \
 cmake-drumstick-alsa \
@@ -22,11 +22,11 @@ pkgconfig-drumstick-widgets"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 alsa-devel \
-cmake-Qt5Core \
+cmake-Qt6Core \
 glibc-devel \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
 libc.so.6 \
 libdrumstick-alsa2 \
 libdrumstick-file2 \

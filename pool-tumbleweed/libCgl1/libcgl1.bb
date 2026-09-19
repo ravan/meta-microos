@@ -5,10 +5,10 @@ among others, the linear solver Clp or the mixed integer linear programming \
 solvers Cbc or BCP"
 LICENSE = "EPL-2.0"
 
-PV = "0.60.6"
+PV = "0.60.9"
 
-RPM_NAME = "libCgl1-0.60.6-1.4.aarch64.rpm"
-RPM_HASH = "c37516587e3a81a4b93aca4abe69036a6d9ec4328e3b2fcfe940d3df5ec2105c72fa9e7096245d6e87708e4b2e89d546f36a0f0ba9ed00f159e0a4b1cfd02311"
+RPM_NAME = "libCgl1-0.60.9-1.7.aarch64.rpm"
+RPM_HASH = "4174a6cc52268a934157f1b57c27d3c4f041555fd311b778d3a9a742926c4e5debf7b00798b18376bc4b7e7af21135d77336f9200d6547311290d0e5e747bb15"
 
 RPROVIDES:${PN} += "libCgl.so.1 \
 libCgl1"

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.10.26"
 
-RPM_NAME = "php-composer-1.10.26-2.2.noarch.rpm"
-RPM_HASH = "5098b8ca9e0aadf5c8a04cb8f58fd0cbd559db9bdba1a7fc1d93ca8ee41188c2b95bf1e7ba77fa32b04c297195baa4f2c8fae2341cfb48febe171d3e78bcacf8"
+RPM_NAME = "php-composer-1.10.26-2.10.noarch.rpm"
+RPM_HASH = "260bed4ab55bf569266dda58369752faa07257fd8f6766a47a3fbef00c879f79017887be57c5b7e6515dbbda1726297936aa5bde4fe6d778337090b530f038ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "composer \

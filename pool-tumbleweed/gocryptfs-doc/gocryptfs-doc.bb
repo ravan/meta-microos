@@ -2,10 +2,10 @@ SUMMARY = "Documentation for gocryptfs"
 DESCRIPTION = "This package contains the documentation files for gocryptfs."
 LICENSE = "MIT"
 
-PV = "2.4.0"
+PV = "2.6.1"
 
-RPM_NAME = "gocryptfs-doc-2.4.0-1.1.noarch.rpm"
-RPM_HASH = "a82eb4d4eab29d31d050287d4696f4b9eb3d89905cd3fdec3f51ce67369a964182b378edc1a8119e42b73c088e13b4b1dc369dc0d2c3637433c10e8077ba73b1"
+RPM_NAME = "gocryptfs-doc-2.6.1-1.9.noarch.rpm"
+RPM_HASH = "ffbb16ed09d1df215acafe8cb450bd95ac6f447513db1992fe4af6c20867af2d2d04d8f909e5a3545dd93cd95577062645c17c8e3f4d0611dd0157fadcbd8ad2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gocryptfs-doc"

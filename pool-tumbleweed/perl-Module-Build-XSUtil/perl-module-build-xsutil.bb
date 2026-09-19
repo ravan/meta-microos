@@ -38,15 +38,15 @@ Enable compiler warnings flag. It is enable by default. \
 If invoke Build.PL with '-g' option, It will build with debug options."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.19"
+PV = "0.190.0"
 
-RPM_NAME = "perl-Module-Build-XSUtil-0.19-1.17.aarch64.rpm"
-RPM_HASH = "17e3f1666cce870f0b9f3a18c512380e291a02e16567999027f2432fd1e16ee9cfacd14d781ac02068a2fb09861af816a80a39bb1ba1d8244ddf4ef4f85b9bc9"
+RPM_NAME = "perl-Module-Build-XSUtil-0.190.0-1.5.aarch64.rpm"
+RPM_HASH = "f1a965af20dc08f62a06a8ddbaedafdac3c56c7b3c365f6aa5f8cd88ad10e72e1ae8b65811a9043675e37ec136369edebf23670ee9c2168ef1dacc0fd19754f6"
 
 RPROVIDES:${PN} += "perl-Module--Build--XSUtil \
 perl-Module-Build-XSUtil"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Devel--CheckCompiler \
 perl-ExtUtils--CBuilder \
 perl-parent"

@@ -19,10 +19,10 @@ when this is useful: \
   non-standard ways."
 LICENSE = "Apache-2.0"
 
-PV = "3.1"
+PV = "3.3"
 
-RPM_NAME = "objenesis-3.1-2.7.noarch.rpm"
-RPM_HASH = "2bd4ca496b942b9fa4359984d7fe22628f8dcf4c151f5dc66fca0b28e052044704bdd194cb646b9b545e6a3e556bca1c3dc26f2a0b76f1444116b54580cc975c"
+RPM_NAME = "objenesis-3.3-3.8.noarch.rpm"
+RPM_HASH = "c100e63a773ed86370122e83b8fa988111ad82298171b3354ddd72fa2c3b103baaba693fbe4315647664ca827b62d4935302c4777bcab9057dbc7805c71287ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.objenesis-objenesis \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-macroswap"
 DESCRIPTION = "This package includes the documentation for texlive-macroswap"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.1svn31498"
+PV = "2026.226.1.1svn31498"
 
-RPM_NAME = "texlive-macroswap-doc-2023.208.1.1svn31498-53.1.noarch.rpm"
-RPM_HASH = "45a5ccc8e2add7990caecce4ba121170230850b1c46cfcaa723979fa54acce3ac5853e9b6e3498a2219df76e317aab9589b61ea247fa5537ee3399648beefb38"
+RPM_NAME = "texlive-macroswap-doc-2026.226.1.1svn31498-59.2.noarch.rpm"
+RPM_HASH = "6b27f058c1d71b3227710fbdb4d4946f38fb7ecc7c4a16fd2e510d1b7d847358c02ac4a1102c14aafa1a8586c96b6f33ef928834add3bc695dc581ee24cf2176"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-macroswap-doc"

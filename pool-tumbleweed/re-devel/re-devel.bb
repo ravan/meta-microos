@@ -7,10 +7,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libre."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.3.0"
+PV = "4.11.0"
 
-RPM_NAME = "re-devel-3.3.0-1.1.aarch64.rpm"
-RPM_HASH = "2fba6a4c2e01ab20eebe35faec524fe841878baa48f23d499b1cf1e724d8a587644830387473363a3490bc9abc69435a2c7bb7331bbd669fb65c05a92467b150"
+RPM_NAME = "re-devel-4.11.0-1.1.aarch64.rpm"
+RPM_HASH = "429330b18820ab6b64ac8bebc7cd32d188f8f892cb3f9108c61a25e0c28d2cd2bb43fd3a780b955c752aa86c7a6b9d6a903ec57a16f215cd38663bb4774a8513"
 
 RPROVIDES:${PN} += "cmake-libre \
 cmake-re \
@@ -18,6 +18,9 @@ pkgconfig-libre \
 re-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libre16"
+libre45 \
+pkgconfig-libcrypto \
+pkgconfig-libssl \
+pkgconfig-zlib"
 
 inherit rpm

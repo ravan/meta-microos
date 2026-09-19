@@ -4,18 +4,18 @@ DESCRIPTION = "Tool to analyze git dependencies \
 file bugs at https://github.com/aspiers/git-deps/issues"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.2+git.1559732444.7c75531"
+PV = "1.1.0+git.1696898573.89d51e8"
 
-RPM_NAME = "git-deps-1.0.2+git.1559732444.7c75531-4.5.noarch.rpm"
-RPM_HASH = "47642af2b4eb27affb4edd114af391a591a7e0e476d01378620da80e6660048a257ea0763c280e17f85d9eb4d9ec76bcfa4e1050347c5277bf994d47728c2de8"
+RPM_NAME = "git-deps-1.1.0+git.1696898573.89d51e8-4.2.noarch.rpm"
+RPM_HASH = "02b5e1c8e0f9dda0c377ee39a5e1a792411c744f40e3e96aac8ebc7278cdce62132d83e52503d57dfa68e70b61245555625a8f0ac99d48f2bb9974c609b7a311"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-deps \
-python3.11dist-git-deps \
+python3.13dist-git-deps \
 python3dist-git-deps"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
+git \
 npm \
 python-abi \
 python3-Flask \

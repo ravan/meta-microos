@@ -5,10 +5,10 @@ completion, documentation, code navigation, and related \
 functionality to any text editor that speaks the LSP protocol."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.5.1svn65223"
+PV = "2026.226.0.0.6svn72163"
 
-RPM_NAME = "texlive-digestif-2023.209.0.0.5.1svn65223-53.1.noarch.rpm"
-RPM_HASH = "df2f4b4e9070aac5b30e52f643c22159b8fd02a7deefa87d251c0a3ee91ed9c62b5ab35d60dbf272fc3f051940c7ab33a0cb996c9b1c39063d2e21edb15ece39"
+RPM_NAME = "texlive-digestif-2026.226.0.0.6svn72163-59.2.noarch.rpm"
+RPM_HASH = "b4fc2c756b2b45f08ec1c98258b00af8770fd6de4454bf1460d4c9eae3fe9f4b289bc6ea700dc75a56b42ba00134a43133d09e48aef6e807e356679252105de4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-digestif"

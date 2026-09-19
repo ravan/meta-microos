@@ -10,18 +10,18 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "azure-cli-telemetry-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "5f2e2a0083d3f0b3c12ffe559ee82317b03dc6123a652f4d8e8d66b80ac342c42bb743a79a1afff7da1efa562f3e8e57b66d3f70e3a4171ae7a0fe3a9fb7f3cc"
+RPM_NAME = "azure-cli-telemetry-1.1.0-5.4.noarch.rpm"
+RPM_HASH = "975ce15daf27410ff4c293f26a83f0c0caea88c979c1ffee66f7247ad95ce307ad90223b06d379aeee0d3d48f57b36c3ca10859d32046bdb99db0db7371cf43e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "azure-cli-telemetry \
-python3.11dist-azure-cli-telemetry \
+python3.13dist-azure-cli-telemetry \
 python3dist-azure-cli-telemetry"
 
-RDEPENDS:${PN} += "azure-cli-nspkg \
+RDEPENDS:${PN} += "azure-cli-core \
 python-abi \
-python3-applicationinsights \
-python3-azure-nspkg \
-python3-portalocker"
+python313-applicationinsights \
+python313-azure-nspkg \
+python313-portalocker"
 
 inherit rpm

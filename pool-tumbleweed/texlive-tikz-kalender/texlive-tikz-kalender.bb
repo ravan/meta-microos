@@ -1,16 +1,16 @@
 SUMMARY = "A LaTeX based calendar using TikZ"
 DESCRIPTION = "For usage see the example files tikz-kalender-example1.tex, \
-tikz-kalender-example2.tex, and *.events. The Code is inspired \
-by this document and is subject to the >>Creative Commons \
-attribution license (CC-BY-SA)<<. The class tikz-kalender \
-requires the package TikZ and the TikZ libraries calc and \
-calendar."
+tikz-kalender-example2.tex, tikz-kalender-example3.tex, and \
+*.events. The Code is inspired by this document and is subject \
+to the >>Creative Commons attribution license (CC-BY-SA)<<. The \
+class tikz-kalender requires the package TikZ and the TikZ \
+libraries calc and calendar."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4fsvn52890"
+PV = "2026.226.0.0.6bsvn77915"
 
-RPM_NAME = "texlive-tikz-kalender-2023.209.0.0.4fsvn52890-53.1.noarch.rpm"
-RPM_HASH = "d1c581c1f3ed2f38d3d8d724edd493594f87b445725d5bede9739319462a875ab029a74c07c4cfac8c8f82cc509787b3018031694aef6d6e2adae0d081de166b"
+RPM_NAME = "texlive-tikz-kalender-2026.226.0.0.6bsvn77915-59.2.noarch.rpm"
+RPM_HASH = "f796018282c6c21a7dd832817aadbee5c7b551bf24e1c03282bc15e58831157605509e58cefe2a21e37eac555c699945510f090c314039ba998acedfe7b97208"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-kalender-translation.clo \

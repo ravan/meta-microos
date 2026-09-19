@@ -10,10 +10,10 @@ predictable intervals. Please be sure that the password used does not allow \
 access to sensitive system resources."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-radius-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "32188e509f9c874f5b09cd7cddb5ea6143a4c3c6de2ce24e926c2913c7c12d91235445bac93ac0ea0c67167380a857f6f5f767717cc22293024a1de4bb4bbee9"
+RPM_NAME = "monitoring-plugins-radius-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "72d49caa7e013e8d76d5a5d0588e414801f3d343710ee5280da97542f6f1332f97d6ccbd144646baf5c7f96767107c0df84f9b5caf4fd4139031fe90895fc47b"
 
 RPROVIDES:${PN} += "monitoring-plugins-radius \
 nagios-plugins-radius"

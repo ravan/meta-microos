@@ -8,10 +8,10 @@ It features: \
 * MBFv21, UMAPINFO and DSDHacked specification support"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.24.3"
+PV = "0.29.4"
 
-RPM_NAME = "dsda-doom-0.24.3-1.11.aarch64.rpm"
-RPM_HASH = "cf9a7be283113820b33b8d0ed9d40f6ca875c606925d5828947629d5c35f8fb3f48f41e9221a3393fbf464a012ce85c08500c9d53b48290c624eadd467a59744"
+RPM_NAME = "dsda-doom-0.29.4-1.5.aarch64.rpm"
+RPM_HASH = "2666652e7fa17f71026d9f98b85d9faab8e58ea099d9153562daed0a80577928966a232e0f3a282f17b33eeb1824f4fb16f0a8b0e7f5392d832abc5be2cf929b"
 
 RPROVIDES:${PN} += "dsda-doom \
 prboom"
@@ -26,10 +26,14 @@ libc.so.6 \
 libfluidsynth.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpcreposix.so.0 \
+libmad.so.0 \
+libmvec.so.1 \
 libportmidi.so.2 \
+libsndfile.so.1 \
 libstdc++.so.6 \
 libvorbisfile.so.3 \
-libz.so.1"
+libxmp.so.4 \
+libz.so.1 \
+libzip.so.5"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-enlightenment-enlightenment-20170319-2.16.aarch64.rpm"
-RPM_HASH = "5a871781ce90a1c0781b1205df1d91f4de7ef611a644e5707f08eb94a2ddacb4a209173efb6b4073e5184f1ebbc49c733bfcca15d92acc405b42a58da122195c"
+RPM_NAME = "patterns-enlightenment-enlightenment-20170319-2.25.aarch64.rpm"
+RPM_HASH = "ebd2cf4e75b586cfa68041b88147cc2a5d113f7ec8730fe73e79d5d12a96b7968a8f34b56045fa1a14711e23189199759b3667883734c275993632248b7261ad"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

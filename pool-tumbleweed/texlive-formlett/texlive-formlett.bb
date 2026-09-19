@@ -3,10 +3,10 @@ DESCRIPTION = "A package for multiple letters from the same basic source; the \
 package offers parametrisation of the letters actually sent."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.3svn21480"
+PV = "2026.226.2.3svn21480"
 
-RPM_NAME = "texlive-formlett-2023.209.2.3svn21480-53.1.noarch.rpm"
-RPM_HASH = "24f95e57e737cbb8e738dc01cbb99510a6f9e2b8d6eaf54c151da4231a075345fccda7b8021c51364d2300b6224b3fcea24265adff0719d546826aa9a01311ad"
+RPM_NAME = "texlive-formlett-2026.226.2.3svn21480-60.2.noarch.rpm"
+RPM_HASH = "cbd97e5b75debdf22b6982e00417cc2a4d08dcc2c8dbb1dd536fc13a3530d3eb0e05e2d0ac8cad85b33f32560ebdc75d58a170469b6c1ef0da68493b58a670b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-formlett.sty \

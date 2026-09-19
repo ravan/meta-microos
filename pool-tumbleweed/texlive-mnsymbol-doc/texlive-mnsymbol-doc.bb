@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mnsymbol"
 DESCRIPTION = "This package includes the documentation for texlive-mnsymbol"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.4svn18651"
+PV = "2026.226.1.4svn18651"
 
-RPM_NAME = "texlive-mnsymbol-doc-2023.209.1.4svn18651-55.1.noarch.rpm"
-RPM_HASH = "85dd84dad66e906d5376a5afe77dc4ee651b4074dd201ce486257e4c6665641edb480e4837fb2a0c6d38104e9d837f549bf97b2a57dd60cf9b0b4573290c3428"
+RPM_NAME = "texlive-mnsymbol-doc-2026.226.1.4svn18651-61.2.noarch.rpm"
+RPM_HASH = "891ef400cf15e41803b4fd73093e33bf467a3befcb20a3b703e919c178849ec092bbb3dc5d823b5e108ea1c650d66839b67e7a519f23732f8e792a2b6f4a259c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mnsymbol-doc"

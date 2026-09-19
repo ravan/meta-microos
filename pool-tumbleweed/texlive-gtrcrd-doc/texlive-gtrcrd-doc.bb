@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gtrcrd"
 DESCRIPTION = "This package includes the documentation for texlive-gtrcrd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn32484"
+PV = "2026.226.1.1svn32484"
 
-RPM_NAME = "texlive-gtrcrd-doc-2023.209.1.1svn32484-54.2.noarch.rpm"
-RPM_HASH = "a551b2174241219f1be37342707d3eb2aeb04e77cf396119982b2a7a86b36f946204b8bcf843a09a288086e105f85c6afdd37a38853a9daa68a68b2a0b08cb20"
+RPM_NAME = "texlive-gtrcrd-doc-2026.226.1.1svn32484-60.4.noarch.rpm"
+RPM_HASH = "7b2e4c33d258361f09352eb16ccc910f946e01ff2b18dcce5fee03c6ddaa6ed3b523b97098b4f9414d0996de910cded2c8d1d39167fc0cdf728cdc389f89a44e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gtrcrd-doc"

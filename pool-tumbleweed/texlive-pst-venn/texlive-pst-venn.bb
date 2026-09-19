@@ -3,10 +3,10 @@ DESCRIPTION = "This is a PSTricks related package for drawing Venn diagrams \
 with three circles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn49316"
+PV = "2026.226.0.0.01svn49316"
 
-RPM_NAME = "texlive-pst-venn-2023.209.0.0.01svn49316-54.2.noarch.rpm"
-RPM_HASH = "37760d781207b3e3de90a1e2d2e650e3ffe0248101e7164c79a186bea73846284084c1ea9033e68fddf839ca89625c27ded8dccf143cc2a1aeeee875f5e7ede5"
+RPM_NAME = "texlive-pst-venn-2026.226.0.0.01svn49316-60.4.noarch.rpm"
+RPM_HASH = "0cc86a27d32458b40d6bd45da8d74cbf703cecc4f89c46052a746f8d82d647c61d9fc2d570b4f8c529675c7103cb8abdf274dd883e11e704f221652c2d335a11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-venn.sty \

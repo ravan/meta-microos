@@ -5,15 +5,15 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "screenkey-1.5-1.9.noarch.rpm"
-RPM_HASH = "b737047d1190fb4d298991074a58131cef01767edbacf72433c0336eb612ec8d603d12ac0196c03ee932336825faede6078c7dca4849e6619eda692f0fe7bacf"
+RPM_NAME = "screenkey-1.5-1.17.noarch.rpm"
+RPM_HASH = "62afff97cb03f20360ca0a7f188c2c410fd29ef0d225eb42ab64bfd05c9f501bfe6610b6f5031d1606b2320badda7df01a73d4feceb9238d697ae4c2d05a3bdd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-screenkey \
+RPROVIDES:${PN} += "python3.13dist-screenkey \
 python3dist-screenkey \
 screenkey"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3 \
 python3-dbus-python \

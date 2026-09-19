@@ -3,10 +3,10 @@ DESCRIPTION = "Apache Lucene is a full-text search engine written entirely in Ja
 This package provides the 'queryparser' module for lucene."
 LICENSE = "Apache-2.0"
 
-PV = "8.5.0"
+PV = "8.11.4"
 
-RPM_NAME = "lucene-queryparser-8.5.0-5.1.noarch.rpm"
-RPM_HASH = "315e9c09af84109137050064305ebc7e4032ac4da1d8e8738cf600c9bd3023daec0f9caccd9a6027d371713a1d35e5758b24a19687b12b3a4ad84ce5f126d647"
+RPM_NAME = "lucene-queryparser-8.11.4-1.8.noarch.rpm"
+RPM_HASH = "905444a4b05ed3b4de62e4a028b5aecbdcb79efe5b04e99df5cf16bea3384eb21fcc4dadfc8dc830a98992cb10316ca1caa749f890ee0e43821ba30ba30b6482"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-queryparser \

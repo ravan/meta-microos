@@ -16,8 +16,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "libkmip0-0.2.0-1.8.aarch64.rpm"
-RPM_HASH = "d16949763598aa2e36f2e71ff425e2418712324ab99e6d32ca724e9191dbc34cf53ece84d8b6d4649698ba7182472dbeb55d1504144c2a57350ddc8c62c1678e"
+RPM_NAME = "libkmip0-0.2.0-1.18.aarch64.rpm"
+RPM_HASH = "10dd08f6f0424e7d6680fc56f4ed1b077a65df0ae1468f3bfea88c4dbbed5affc2e5213c0644e17dd60a71f1efdea0048c1bf335464499b84fce6151a91a5ff2"
 
 RPROVIDES:${PN} += "libkmip.so.0 \
 libkmip0"

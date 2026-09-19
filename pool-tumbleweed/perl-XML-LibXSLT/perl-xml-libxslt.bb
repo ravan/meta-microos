@@ -4,10 +4,10 @@ extremely good XSLT engine, highly compliant and also very fast. I have \
 tests showing this to be more than twice as fast as Sablotron."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.002001"
+PV = "2.003000"
 
-RPM_NAME = "perl-XML-LibXSLT-2.002001-1.4.aarch64.rpm"
-RPM_HASH = "fc98b97648a7dc0367d1076929003e1553846858abac8a4554e7995482d784963b445bff5bc5bf95743fcb27252f8de6ebd2caa2ae61b0409289d2fe768876da"
+RPM_NAME = "perl-XML-LibXSLT-2.003000-1.18.aarch64.rpm"
+RPM_HASH = "37287205127a0f7c36604c8156b8886dead8c0e895e04f483af976c9c7a0aa5590426262532f733826ca02b4034ce897ea7e284624d8527f24a95c2e621576a0"
 
 RPROVIDES:${PN} += "perl-XML--LibXSLT \
 perl-XML--LibXSLT--Quick \
@@ -18,9 +18,9 @@ perl-XML-LibXSLT"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libexslt.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxslt.so.1 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-File--Path \
 perl-XML--LibXML"
 

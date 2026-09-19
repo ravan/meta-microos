@@ -10,10 +10,10 @@ the Windows world. Makeself archives also include checksums for integrity \
 self-validation (CRC and/or MD5 checksums)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.0"
+PV = "2.7.1"
 
-RPM_NAME = "makeself-2.5.0-1.1.noarch.rpm"
-RPM_HASH = "8feee08b677fb2614c46fe61a216616cdd6551eef0513b90ac7d2e2d2737150953fe32f81cd389384d3de762910320d05179dd93e5a3c31ae104e3d4bd471141"
+RPM_NAME = "makeself-2.7.1-1.3.noarch.rpm"
+RPM_HASH = "cdcccf8447d9ebba46a7153e1c41f73305be9bc742142570105a4bbb57a43a67ad96399f16b6081084ae404809235ac8ced9cacf228b376dd9c5e56b781520e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "makeself"

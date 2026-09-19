@@ -18,10 +18,10 @@ language features such as 'say', subroutine signatures, and postfix \
 dereferences, to improve the minimum perl requirement (since 0.9905)."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.9917"
+PV = "0.9918"
 
-RPM_NAME = "perl-Perl-PrereqScanner-NotQuiteLite-0.9917-1.3.noarch.rpm"
-RPM_HASH = "002f017887a660a6f63a6c1711cda9c9f0cfbaf8a96b1ca0c000f6db771662b84703528e343b8c0952017f8964e47febf72b1e7a4dc885e0376aae2cbf8a17fa"
+RPM_NAME = "perl-Perl-PrereqScanner-NotQuiteLite-0.9918-1.4.noarch.rpm"
+RPM_HASH = "2da95e14cd3a53a53e5d898973ebc476ee931b04e59b922b310cc307b75f17b2ec6f1fa26141535f3a730b786ad53093af496b3f7c7823a934e1890059029bac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--PrereqScanner--NotQuiteLite \
@@ -35,6 +35,7 @@ perl-Perl--PrereqScanner--NotQuiteLite--Parser--ClassAccessor \
 perl-Perl--PrereqScanner--NotQuiteLite--Parser--ClassAutouse \
 perl-Perl--PrereqScanner--NotQuiteLite--Parser--ClassLoad \
 perl-Perl--PrereqScanner--NotQuiteLite--Parser--Core \
+perl-Perl--PrereqScanner--NotQuiteLite--Parser--FeatureCompatClass \
 perl-Perl--PrereqScanner--NotQuiteLite--Parser--Inline \
 perl-Perl--PrereqScanner--NotQuiteLite--Parser--KeywordDeclare \
 perl-Perl--PrereqScanner--NotQuiteLite--Parser--Later \
@@ -64,7 +65,7 @@ perl-Perl--PrereqScanner--NotQuiteLite--Util--Prereqs \
 perl-Perl-PrereqScanner-NotQuiteLite"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--Meta--Prereqs \
 perl-CPAN--Meta--Requirements \
 perl-Data--Dump \

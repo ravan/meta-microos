@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the YaST2 component for the configuration o
 SLP daemon."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-slp-server-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "8bb5e088a0ae69f1508ee43a695515a9817ef2eba2e0ca68194a11e68168754cc8e6f3e5676f412cbac921c5d1450b773f084cfbcf6061b4e9e444607b47ebf9"
+RPM_NAME = "yast2-slp-server-5.0.1-1.2.noarch.rpm"
+RPM_HASH = "2a1d0823d61e155a6b49e571888aa231d7aebab5e515bc1b6ef3e0443d5fdfa629c3379e57da78e06da63765e9cd9468b28bfe8dded5507c3923586f2f4dc23c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-slp-server"

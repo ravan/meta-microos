@@ -4,10 +4,10 @@ DESCRIPTION = "NetworkManager plugin for ADSL connections. \
 This package is needed to configure PPPoE interfaces"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.44.0"
+PV = "1.56.1"
 
-RPM_NAME = "NetworkManager-pppoe-1.44.0-1.1.aarch64.rpm"
-RPM_HASH = "79d5b0cb32a5567af0c32d1f56e24427915b7d8555408cf001078b18f211ed65275d243774a04cc449c833d9067c01320f7b8c31c10c594a913913353011f747"
+RPM_NAME = "NetworkManager-pppoe-1.56.1-4.1.aarch64.rpm"
+RPM_HASH = "2f269aab39024c3fd85bb8715cd3e6b18e693d4cc4bf36a4509558d80ed62c53a6b1075fe4865ef640288ac40b2bdca87d0d4ba650eb4cb5a332ed16cfd96d4e"
 
 RPROVIDES:${PN} += "NetworkManager-pppoe \
 libnm-device-plugin-adsl.so \

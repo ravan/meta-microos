@@ -3,10 +3,10 @@ DESCRIPTION = "Apache SSHD is a 100% pure java library to support the SSH protoc
 the client and server side."
 LICENSE = "Apache-2.0 & ISC"
 
-PV = "2.9.2"
+PV = "2.19.0"
 
-RPM_NAME = "apache-sshd-2.9.2-2.4.noarch.rpm"
-RPM_HASH = "2e9219c91e8ca0a0080a67ba5d46b97bc87774dcd3f6feb3b12482d717e503508691b60d7c5a9e0888556de0b2752b117ccaad136684dcbd5b9322ce25916f67"
+RPM_NAME = "apache-sshd-2.19.0-2.1.noarch.rpm"
+RPM_HASH = "ab6f8c1297c5c5ae496217434c5754d934bd786f2756c047ea352e6ae9d19b9f7e29ee5fdd921e04edfadb3d4ca5b195e96f0bca524729e430de459f986a8cd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-sshd \
@@ -16,7 +16,6 @@ mvn-org.apache.sshd-sshd-core \
 mvn-org.apache.sshd-sshd-core-pom- \
 mvn-org.apache.sshd-sshd-osgi \
 mvn-org.apache.sshd-sshd-osgi-pom- \
-mvn-org.apache.sshd-sshd-pom- \
 mvn-org.apache.sshd-sshd-putty \
 mvn-org.apache.sshd-sshd-putty-pom- \
 mvn-org.apache.sshd-sshd-scp \

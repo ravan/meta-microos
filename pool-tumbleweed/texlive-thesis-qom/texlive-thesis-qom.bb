@@ -9,10 +9,10 @@ the following fonts: XB Niloofar, IranNastaliq, IRlotus, XB \
 Zar, XB Titre, and Yas."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn63524"
+PV = "2026.227.0.0.5svn63524"
 
-RPM_NAME = "texlive-thesis-qom-2023.209.0.0.5svn63524-55.1.noarch.rpm"
-RPM_HASH = "1ef16fb85609abd710a3e98b792693c2ce45277196c82f4e85ed754c18a8fc5a8f304643d7522fa86b1fb198499e0708604e367aa3a88c780802a1e1aa431028"
+RPM_NAME = "texlive-thesis-qom-2026.227.0.0.5svn63524-62.2.noarch.rpm"
+RPM_HASH = "b76261d3c63054ed74f5ba99111c8c3d4155154aaec39f277b0633a8a3601ced9812aa6fbae6eed1ec7ac37a18f7d8c68ab90a3c2fd8a2ac02ad14a7b744f7d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thesis-qom.cls \

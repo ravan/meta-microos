@@ -13,10 +13,10 @@ magellan API can continue using it with a free library without the \
 restrictions of the official SDK."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1"
+PV = "1.2"
 
-RPM_NAME = "libspnav-devel-1.1-1.2.aarch64.rpm"
-RPM_HASH = "9d877a8cfa9d5aff74a23d3fcb7b018efb76473f32ef223e5a1b37b9420ecfde42f991712c7fb54c07c6cbc328a7ef2bd34700348f3288148aac22d57b86d6f3"
+RPM_NAME = "libspnav-devel-1.2-1.5.aarch64.rpm"
+RPM_HASH = "d3b806ea47c1d41c1c908105dd83a9c5d81ee93b4a3fab2b16df8aabf0a7f8b19909405f612a16195cf4561e2540b7be877d55e1ceb81a464d6f6ad3b00ea195"
 
 RPROVIDES:${PN} += "libspnav-devel \
 pkgconfig-spnav"

@@ -16,10 +16,10 @@ In short, Lazarus is a free RAD tool for Free Pascal using its \
 Lazarus Component Library (LCL)."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only & MPL-1.1"
 
-PV = "2.2.6"
+PV = "4.8"
 
-RPM_NAME = "lazarus-2.2.6-2.1.aarch64.rpm"
-RPM_HASH = "2b8755cb52c61f700b62b1be8da0b64c2b94b69ebfc56b7e8117670d8a77cea05a912068c3d6e1bcfd86770887ba8ae524a832204e8f59d3a0e43c631edf8029"
+RPM_NAME = "lazarus-4.8-1.2.aarch64.rpm"
+RPM_HASH = "f624c756351e4078b5dd2c929d09573a0edd48d76cf869fd703bf1712a1b900bcfaf57a2e20bc7390d9e4d5c516ea5e795ed6ffdc5610c465c89376695ddad6c"
 
 RPROVIDES:${PN} += "lazarus"
 

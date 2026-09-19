@@ -1,12 +1,11 @@
 SUMMARY = "Kernel firmware files for Netronome Flow Processor driver"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Netronome Flow Processor driver."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Netronome Flow Processor driver."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
-PV = "20230829"
+PV = "20260610"
 
-RPM_NAME = "kernel-firmware-nfp-20230829-1.1.noarch.rpm"
-RPM_HASH = "fdc3db220adfc463448794fe8c474742d6a68fdcdd36e53d5b0f7645b05dd1f8a042895e356910c2680a8760cda0234f5a195adba4f30ec3f53c4b175c8d179b"
+RPM_NAME = "kernel-firmware-nfp-20260610-1.2.noarch.rpm"
+RPM_HASH = "e17534acbde2dda8b276783a4d3dbbaaac5e1c1f6f1cb6ac9cdc71e5277d1e0c3fb682089b25a33ff6038badddfcadf879331b0a15dfe7e97b455c9ae2ea73fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-netronome/bpf/nic-AMDA0058-0011-2x40.nffw \

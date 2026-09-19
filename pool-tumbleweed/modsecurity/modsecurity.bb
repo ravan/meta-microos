@@ -1,12 +1,12 @@
 SUMMARY = "Web application firewall engine"
 DESCRIPTION = "ModSecurity is a toolkit for real-time web application monitoring, logging, and \
 access control."
-LICENSE = "BSD-2-Clause"
+LICENSE = "Apache-2.0"
 
-PV = "3.0.10"
+PV = "3.0.15"
 
-RPM_NAME = "modsecurity-3.0.10-1.1.aarch64.rpm"
-RPM_HASH = "dc792871834eb26e006a8ce39288576ed28f1e8685c39e1c7b116687c67454641320c9319d171cade2f1e3c5b0766cd5b65686c2d8941a4c32ecb70219737f36"
+RPM_NAME = "modsecurity-3.0.15-2.3.aarch64.rpm"
+RPM_HASH = "492d48f028188d73943fcacabe07efc139a27be9d3f350887c84c195a6cde57e773e0e3ede44218253527e0157bd5e8fbd5b61de6b4fb6095457443452e09eb1"
 
 RPROVIDES:${PN} += "modsecurity"
 

@@ -21,8 +21,8 @@ LICENSE = "SUSE-Ubuntu-Font-License-1.0"
 
 PV = "0.83"
 
-RPM_NAME = "ubuntu-fonts-0.83-1.15.noarch.rpm"
-RPM_HASH = "30eaa6c1982cbbac56ec89e46f829e9324b73b85fc83ce94eed2c24e984249a9e3ee966b4b2958b96ad35783708c82bd2b9ff59a47aaeaa6075afb1c7fa98a0f"
+RPM_NAME = "ubuntu-fonts-0.83-1.23.noarch.rpm"
+RPM_HASH = "58f6cf349a953620782d03183221a5e0c9b5cc8d71165bc98409a4b4e096828b4021a17f07657b8586a6a147d97d96c649129fb78f48cdf755f62aaa87426b83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ubuntu-fonts"

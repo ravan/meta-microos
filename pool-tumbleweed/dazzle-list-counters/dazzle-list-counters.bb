@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.44.0"
 
-RPM_NAME = "dazzle-list-counters-3.44.0-1.8.aarch64.rpm"
-RPM_HASH = "72541c1dae88a39c7a1e54e744b8775806d7ae23ad6644d2d06bdf316ea395ab3d74d6a0ea6257a3da0e07dcb670a9195b78b94f11c37231d7357762aea8b538"
+RPM_NAME = "dazzle-list-counters-3.44.0-2.7.aarch64.rpm"
+RPM_HASH = "f6c61b79fa76f900f804252becf764a8212a3c0c05d2ae0fa009353416cff09c953a4970b9c7f13c676e0cf8c5aedddfafcceee2d97a707e1289bdb97f1458a4"
 
 RPROVIDES:${PN} += "dazzle-list-counters"
 

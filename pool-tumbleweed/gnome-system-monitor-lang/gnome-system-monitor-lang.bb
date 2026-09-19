@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-system-monitor"
 DESCRIPTION = "Provides translations for the 'gnome-system-monitor' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-system-monitor-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "089965fb2c922c1c637fa1b7df56a4ef6c9a05df8fccdac3e80e1de808cd1035ba3568c2b953622d2e90afae1c6236d47eb18bdbfc6c0d9e7dddeb5eea15f0e1"
+RPM_NAME = "gnome-system-monitor-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "772b9885484218b2c7513678c9477b59263d2cfb1f7ccc3a8eb66e255a963ed2aba21ace9252f9a1b8d946e5b99991739172e0ff13ea1fa7181480d13b350570"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-system-monitor-lang \

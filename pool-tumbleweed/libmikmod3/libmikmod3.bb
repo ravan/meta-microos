@@ -6,18 +6,16 @@ also write wav files. Supported file formats include mod, stm, s3m, \
 mtm, xm, and it."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.3.11.1"
+PV = "3.3.14"
 
-RPM_NAME = "libmikmod3-3.3.11.1-1.16.aarch64.rpm"
-RPM_HASH = "a5adaf1c3075fe72afdfa345c05b9dfb0f5febecdbe4babef6eff5969f83e6889479ebe0953481c8455961f695b6846eee468dbd530077dcf0efb2ab3287efa6"
+RPM_NAME = "libmikmod3-3.3.14-1.1.aarch64.rpm"
+RPM_HASH = "2c3e40baf834beae1c4013262bfee8e5199d5768862bcf410166639fcf53cc25e7e388c6dacda518844d8e11c15157adcba7af665e120d0c67e840235e2e243b"
 
 RPROVIDES:${PN} += "libmikmod.so.3 \
 libmikmod3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libc.so.6 \
-libm.so.6 \
-libpulse-simple.so.0"
+libc.so.6"
 
 inherit rpm

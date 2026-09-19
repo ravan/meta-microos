@@ -11,25 +11,23 @@ LICENSE = "MIT"
 
 PV = "1.3.2"
 
-RPM_NAME = "openjade-1.3.2-373.8.aarch64.rpm"
-RPM_HASH = "80a7c38eb82316bca0aff86a9dcdd2c3a729022f689ec071dd06db19a3be2cfe3b0585e1b3aa702a9c7966278276d890c67be428c24ef64ab081448176481c5d"
+RPM_NAME = "openjade-1.3.2-375.3.aarch64.rpm"
+RPM_HASH = "dbc4ad1e0af58cd24442fc3fd7f3b6f93445d11c4594ac6dbb7af20e6377cc67011817f85e60156b1483ed4960795f8e2d6b3b69e8f92841c56b46620d08c48b"
 
-RPROVIDES:${PN} += "config-openjade \
-jade \
-jade-dsl \
+RPROVIDES:${PN} += "jade \
 libogrove.so.0 \
 libospgrove.so.0 \
 libostyle.so.0 \
 openjade"
 
-RDEPENDS:${PN} += "/usr/bin/sgml-register-catalog \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libosp.so.5 \
 libstdc++.so.6 \
-opensp"
+opensp \
+sgml-skel"
 
 inherit rpm

@@ -4,10 +4,10 @@ It depends on libebml to work. You only need this package to compile \
 your own applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.7.1"
+PV = "1.7.2"
 
-RPM_NAME = "libmatroska7-1.7.1-1.4.aarch64.rpm"
-RPM_HASH = "517a7bbbd43cd11723a026655c04fdb0fee614fad030300d99f738f82a24a379e4c350d22b0d66aeb895605e7f89c0e90310c8ee684c8bf9dce966f7429d9a66"
+RPM_NAME = "libmatroska7-1.7.2-1.1.aarch64.rpm"
+RPM_HASH = "c5e5630e7ad36d7a24505aca81543c74063260f36cb6b4a1b57dacf8c3b3acc845263df4688bf3ad26a80b55e8b127cae6f71b43b058081497187353521ac964"
 
 RPROVIDES:${PN} += "libmatroska.so.7 \
 libmatroska7"

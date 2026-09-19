@@ -2,10 +2,10 @@ SUMMARY = "Codehaus MOJO parent project pom file"
 DESCRIPTION = "Codehaus MOJO parent project pom file"
 LICENSE = "Apache-2.0"
 
-PV = "70"
+PV = "82"
 
-RPM_NAME = "mojo-parent-70-1.2.noarch.rpm"
-RPM_HASH = "a43aaafca9d58ab807844d1889220f0bb39eca15ac1be973d8af89bf4e10cd695b124d36a6f474429cfaf0bfe9ac3c1eb17ad5b957f3f67af93b17120b54abd1"
+RPM_NAME = "mojo-parent-82-2.2.noarch.rpm"
+RPM_HASH = "974d2607b0c2e5ab184191f0521c4f8bc817ac59f3427c2f1e04f7de518761fe21bc0aec2b151afa40df829823718883657bd577048c2289dca3dee9800ca336"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mojo-parent \
@@ -13,7 +13,6 @@ mvn-org.codehaus.mojo-mojo-parent-pom- \
 mvn-org.codehaus.mojo-mojo-pom-"
 
 RDEPENDS:${PN} += "java-headless \
-javapackages-filesystem \
-mvn-org.junit-junit-bom-pom-"
+javapackages-filesystem"
 
 inherit rpm

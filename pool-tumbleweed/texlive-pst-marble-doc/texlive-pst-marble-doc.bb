@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-marble"
 DESCRIPTION = "This package includes the documentation for texlive-pst-marble"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn50925"
+PV = "2026.226.1.6svn50925"
 
-RPM_NAME = "texlive-pst-marble-doc-2023.209.1.6svn50925-53.1.noarch.rpm"
-RPM_HASH = "8e16513888a42fce6064e26e116f28b9986575d2eee96745048e0eae6df93c6d3cbfacc6097b0336ca430149ad450f7528f2f69a66a2efde18d4fc0dfb1e87f4"
+RPM_NAME = "texlive-pst-marble-doc-2026.226.1.6svn50925-59.2.noarch.rpm"
+RPM_HASH = "c09ee9601438856f37058c1229c5928655362cb2fd516da2dd8e60380e7f052764bb6a938980c07b5d6799e4b88b34c7364a7bea32995ce9e740fe5e3108d00c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-marble-doc"

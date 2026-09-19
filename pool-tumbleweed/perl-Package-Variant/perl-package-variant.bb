@@ -13,14 +13,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.003002"
 
-RPM_NAME = "perl-Package-Variant-1.003002-1.27.noarch.rpm"
-RPM_HASH = "4461d75de98c21f7eee9fc8e7dc2afc0036b108fa3aaee777767e0807f6da46ee2889f590ecda68526e95a40fe033ee4a79805fbd44f9d0a28dea6e5e636d359"
+RPM_NAME = "perl-Package-Variant-1.003002-1.41.noarch.rpm"
+RPM_HASH = "101889b1ea76f61f8eb05be1f6630315ace5730a1dc157a15d00cc0a7b6e61deed174c3f7ca867c36a730982f691bbeef44b166eca7838d6aa79704cbdd6bad8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Package--Variant \
 perl-Package-Variant"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Import--Into \
 perl-Module--Runtime \
 perl-strictures"

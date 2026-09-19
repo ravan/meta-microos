@@ -12,8 +12,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.4.1"
 
-RPM_NAME = "playerctl-2.4.1-1.9.aarch64.rpm"
-RPM_HASH = "98670b8caee817fa6230abef19a9284da405f128381c4e960996ce83635f8e06033621770b72f199127acfcf1f6294380b248a1be278f64b635f6dfc6d32be83"
+RPM_NAME = "playerctl-2.4.1-1.21.aarch64.rpm"
+RPM_HASH = "eeb4ce17033a7e638eaaaf7d0a9085f1603bf04d540285af5fa5100b41d6bc114bdbc3d349eba2dda5e95e593d006cac69936e3120e410a9f468d0c8ec02efa7"
 
 RPROVIDES:${PN} += "playerctl"
 

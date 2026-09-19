@@ -5,10 +5,10 @@ This is a Qt port from the original Scintilla class for qt6 \
 (http://www.scintilla.org/)."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.13.4"
+PV = "2.14.1"
 
-RPM_NAME = "qscintilla-qt6-2.13.4-1.6.aarch64.rpm"
-RPM_HASH = "0c62c623495c683f869a72e59f61371ff8e75cdcd062d6293c8bd3d823325cd00c769948a7d3182431713192357b80d92eedaa219d04f7990c648a60c45bf721"
+RPM_NAME = "qscintilla-qt6-2.14.1-3.6.aarch64.rpm"
+RPM_HASH = "b1294c88a6d85876aeda2e0d7782a8e2a9007d4efbc785db90a7139fb1c08c74421da712780cfef80263c73dfda1c8e9e30921feaba0d8db465229533d5c58ea"
 
 RPROVIDES:${PN} += "libqscintillaplugin.so \
 qscintilla-qt6 \

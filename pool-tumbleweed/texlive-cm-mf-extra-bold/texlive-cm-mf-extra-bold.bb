@@ -4,10 +4,10 @@ cmtt fonts (all parts of the standard computer modern font \
 distribution), as Metafont base files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn54512"
+PV = "2026.226.svn54512"
 
-RPM_NAME = "texlive-cm-mf-extra-bold-2023.209.svn54512-54.1.noarch.rpm"
-RPM_HASH = "2832d61ed8e5366bd64c2f1962ca9c1a350691d593e25c8e09468ec8faee2c54f460e8196185e1214df7e4f816ae4e5f20a6de6fdad7ba8be68a545059af6d70"
+RPM_NAME = "texlive-cm-mf-extra-bold-2026.226.svn54512-60.2.noarch.rpm"
+RPM_HASH = "447565f2cfa6e76f149210f44587a6909d5813dcd9aeb6747609dbbd6bbcc778dc580417c734f8112554cc75d4297ce8d914de55a2518de3f6d1bd3145fd9c9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmbcsc10.tfm \

@@ -1,5 +1,5 @@
-SUMMARY = "Sparql library for Tracker"
-DESCRIPTION = "Tracker is a desktop-neutral object database, tag/metadata database, \
+SUMMARY = "Sparql library for tinysparql"
+DESCRIPTION = "tinysparql is a desktop-neutral object database, tag/metadata database, \
 search tool and indexer. \
  \
 It consists of a common object database that allows entities to \
@@ -12,13 +12,13 @@ It has the ability to index, store, harvest metadata, retrieve \
 and search all types of files and other first class objects."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5.3"
+PV = "3.11.1"
 
-RPM_NAME = "libtracker-sparql-3_0-0-3.5.3-1.1.aarch64.rpm"
-RPM_HASH = "3dd89d89bd93173e8afa1223d663d8d2ea57a34d054e7930814c46f923abe5fcd618d56ff7352e957924bcfd4945c33f19c453880b7d4e6edd00351ae1cd6990"
+RPM_NAME = "libtracker-sparql-3_0-0-3.11.1-1.3.aarch64.rpm"
+RPM_HASH = "2ef32333127e53b6a67b786b0e0e89d1ac2dff7d0724ea3281db88e133b3024f41bfe8f1920d9466dc51a04cef16d93c2bf8c0e22cfc28734ae3b7e967a4c3c2"
 
-RPROVIDES:${PN} += "libtracker-sparql-3-0-0 \
-libtracker-sparql-3.0.so.0"
+RPROVIDES:${PN} += "libtinysparql-3.0.so.0 \
+libtracker-sparql-3-0-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
@@ -30,6 +30,6 @@ libgobject-2.0.so.0 \
 libjson-glib-1.0.so.0 \
 libm.so.6 \
 libsqlite3.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -9,10 +9,10 @@ package relies on aliascnt, array, colortbl, expl3, l3keys2e, \
 xcolor, and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.2svn65690"
+PV = "2026.226.1.2.3svn76924"
 
-RPM_NAME = "texlive-pseudo-2023.209.1.2.2svn65690-53.1.noarch.rpm"
-RPM_HASH = "47679ba892168598053591e2c935056e84723095b09167f436f7b1f2249f7beb5b303e216aaba333c10c81cc3f527e19748184901521ea36b6c3dd148c61efdf"
+RPM_NAME = "texlive-pseudo-2026.226.1.2.3svn76924-59.2.noarch.rpm"
+RPM_HASH = "b2a3c2e035ed2d8f59949f76db005f6a9f776c150077e69af9ba4bdb493e86ffecfd69763a74892c32a4d1aa16c8b3a8f2f32aa3053d4296c5455a8f7efefbc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pseudo.sty \

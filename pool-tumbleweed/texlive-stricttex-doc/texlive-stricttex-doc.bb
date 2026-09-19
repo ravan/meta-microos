@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-stricttex"
 DESCRIPTION = "This package includes the documentation for texlive-stricttex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2betasvn56320"
+PV = "2026.226.0.0.2betasvn56320"
 
-RPM_NAME = "texlive-stricttex-doc-2023.209.0.0.2betasvn56320-58.1.noarch.rpm"
-RPM_HASH = "af7a6bffbd0f4653f04d0630784ce506d8af315d776ca7ee3b04152b49f034a648f55d27ee3cebea85dde011584e45cb340723e2ef091b136d7f65fd85572a81"
+RPM_NAME = "texlive-stricttex-doc-2026.226.0.0.2betasvn56320-64.2.noarch.rpm"
+RPM_HASH = "2f6d1a94cda855ec43602d835ccab02ad5e5ec8245eeb8041a546222b92e87d04c3ce19c77143cf82fd067ca58a10a4f49e9e528bae90bf0db908c263232f521"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stricttex-doc"

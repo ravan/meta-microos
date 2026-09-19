@@ -2,10 +2,10 @@ SUMMARY = "CLI to install, manage & troubleshoot Kubernetes clusters running Cil
 DESCRIPTION = "CLI to install, manage and troubleshoot Kubernetes clusters running Cilium"
 LICENSE = "Apache-2.0"
 
-PV = "0.15.7"
+PV = "0.19.7"
 
-RPM_NAME = "cilium-cli-0.15.7-1.1.aarch64.rpm"
-RPM_HASH = "ac709f55c16f1e7a3e919563f531e7fd0388c3e06d728ad19b2176785fdda7a193e884d18dbc34a845441ffa76835b7a1f41194185bc02792e82fb6625d94d64"
+RPM_NAME = "cilium-cli-0.19.7-1.1.aarch64.rpm"
+RPM_HASH = "d699869e591a673af3bad13b2ad5778197cbc9f0a55080b7e2ae8aff68b25e62dba2b804de97b55119eaecb65c5821d7eed3de04f04240853284c77cae5401f0"
 
 RPROVIDES:${PN} += "cilium-cli"
 

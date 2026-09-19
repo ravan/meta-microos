@@ -2,21 +2,21 @@ SUMMARY = "Plugins for personal contact handling"
 DESCRIPTION = "This package provides plugins required by PIM applications to read and write contact data."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "akonadi-plugin-contacts-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "e5c3829c4a411e88b6e6a5323671f58dc25d253da06d8f8e399a242a6ae80ccaacffe81175153e4a0abd9b864618768635c32a24c1505086951efae9d28721b7"
+RPM_NAME = "akonadi-plugin-contacts-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "c48c8788893aade883455b388c9b29daa1b5e76d823dbecba1828aec50d0e6d21cb51479ecb4184761e50be32375bdf90c5aa2846a83c54f28f30fcdef66e3c9"
 
 RPROVIDES:${PN} += "akonadi-plugin-contacts"
 
-RDEPENDS:${PN} += "akonadi-contact \
+RDEPENDS:${PN} += "akonadi-contacts \
 ld-linux-aarch64.so.1 \
-libKF5Contacts.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKPim5AkonadiContact.so.5 \
-libKPim5AkonadiCore.so.5 \
-libQt5Core.so.5 \
+libKF6Contacts.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKPim6AkonadiContactCore.so.6 \
+libKPim6AkonadiCore.so.6 \
+libQt6Core.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

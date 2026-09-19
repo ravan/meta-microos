@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-yhmath"
 DESCRIPTION = "The  separated fonts package for texlive-yhmath"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn54377"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-yhmath-fonts-2023.209.1.6svn54377-53.2.noarch.rpm"
-RPM_HASH = "16b921c6e449076deccf284267f20e638130bf971b7a768d3e5c7b0c5ccd4c33d8d5118e68b7528f060f866408e9fef4fd06b63b59b5b1dc2da709c7e5d19192"
+RPM_NAME = "texlive-yhmath-fonts-2026.226.1.6svn77682-59.4.noarch.rpm"
+RPM_HASH = "e9f5f1ed1edbe16798bd634bbf7e6b5ec7fed1762f2063ca9252a8373d4fd0b4dd3535159416b5e4deeac321d14d24ad282c3195b9ac91eb0fed7cf2b2e233e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-yhcmex \

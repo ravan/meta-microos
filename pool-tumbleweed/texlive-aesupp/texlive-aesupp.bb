@@ -7,10 +7,10 @@ Latin Modern fonts are supported. The other fonts in the TeX \
 Gyre bundle do not need this support."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.209.1svn58253"
+PV = "2026.226.1svn58253"
 
-RPM_NAME = "texlive-aesupp-2023.209.1svn58253-55.1.noarch.rpm"
-RPM_HASH = "54f79c395c42862503049c76d32c438cc412d26c8b57470ae86f76fca6cafdcc2c6701e6d67943d81c141bbeb6c37c5d8f8d30a1bc4ab9cfb25ad4b619dea9b0"
+RPM_NAME = "texlive-aesupp-2026.226.1svn58253-61.2.noarch.rpm"
+RPM_HASH = "65c3c5832089266b0135a175084169f2c25c643695e710511fbd379a279bb55841996e7fa675cad0d69098ddb3409e7fb973ac92cc4bac0cb9c1c31c3ae8d879"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aebkbi.tfm \

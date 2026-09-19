@@ -12,10 +12,10 @@ Documentation for the modules contained in this package can be found in \
 /usr/share/doc/packages/postgresql/contrib."
 LICENSE = "PostgreSQL"
 
-PV = "15.4"
+PV = "15.19"
 
-RPM_NAME = "postgresql15-contrib-15.4-1.1.aarch64.rpm"
-RPM_HASH = "741ecd2b26d678b245a31c83a065cae5c72f2921e1173d4f62837e472b3219d568f5d209b6ad084855973abfa89ac072c4c2132b03171e43b68fd9a95c0c84c4"
+RPM_NAME = "postgresql15-contrib-15.19-2.2.aarch64.rpm"
+RPM_HASH = "cbc61096a3ac2565e3538a871bd44d68c6eedf9d1c16e35c8ad5cb4392e27dcb1c39161f99cde648971b8c55f30687f2a4194e6a369a4516dde5c91a7e4c7d24"
 
 RPROVIDES:${PN} += "postgresql-contrib-implementation \
 postgresql15-contrib"
@@ -27,10 +27,10 @@ libcrypto.so.3 \
 libm.so.6 \
 libperl.so \
 libpq.so.5 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libselinux.so.1 \
 libuuid.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxslt.so.1 \
 libz.so.1 \
 postgresql-contrib-noarch \

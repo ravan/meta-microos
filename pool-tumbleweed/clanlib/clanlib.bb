@@ -2,25 +2,26 @@ SUMMARY = "A Portable Interface for Writing Games"
 DESCRIPTION = "ClanLib delivers a platform-independent interface for writing games."
 LICENSE = "Zlib"
 
-PV = "4.1.0"
+PV = "4.2.0"
 
-RPM_NAME = "clanlib-4.1.0-2.11.aarch64.rpm"
-RPM_HASH = "08ce8d0fde48544054bd236b6956859641e1b11014ecd3acf1311543bc08d8588c89c18fc382aeb91b0ccf2217bd4cc1404d25b0c41caeb151fcf97c69b18247"
+RPM_NAME = "clanlib-4.2.0-4.1.aarch64.rpm"
+RPM_HASH = "de5a6c59f5d9970899977547a65c0dff927c17aab0a73396bb16cd259994e7fbaca3531717b5576bd9247ba48270e2ee39a635b8f8882ab85eae172d29a10485"
 
 RPROVIDES:${PN} += "clanlib \
-libclan41App-4.1.so.1 \
-libclan41Core-4.1.so.1 \
-libclan41Display-4.1.so.1 \
-libclan41GL-4.1.so.1 \
-libclan41Network-4.1.so.1 \
-libclan41Sound-4.1.so.1 \
-libclan41UI-4.1.so.1 \
-libclan41XML-4.1.so.1"
+libclan42App-4.2.so.1 \
+libclan42Core-4.2.so.1 \
+libclan42Display-4.2.so.1 \
+libclan42GL-4.2.so.1 \
+libclan42Network-4.2.so.1 \
+libclan42Sound-4.2.so.1 \
+libclan42UI-4.2.so.1 \
+libclan42XML-4.2.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libX11.so.6 \
+libXinerama.so.1 \
 libasound.so.2 \
 libc.so.6 \
 libfontconfig.so.1 \

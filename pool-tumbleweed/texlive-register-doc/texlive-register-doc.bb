@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-register"
 DESCRIPTION = "This package includes the documentation for texlive-register"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn54485"
+PV = "2026.226.2.0svn54485"
 
-RPM_NAME = "texlive-register-doc-2023.209.2.0svn54485-54.2.noarch.rpm"
-RPM_HASH = "a8fff2b6cb94172e1e193725519820519d658b88e19844b11281c868fb6c7b68f0a6aae96642e8bbc4020fcdb06a1635b428d0003a746ae6056dfc2e8e5c35f9"
+RPM_NAME = "texlive-register-doc-2026.226.2.0svn54485-60.4.noarch.rpm"
+RPM_HASH = "b1beef8a056e6c240d8ff6d27efd103e64169c62d5f12324d40ee19e15ded1f893ad1a26c4f5294b152baa838829c0d0e4f05ee21952b69a7763dd83f0214f4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Reg-macro \

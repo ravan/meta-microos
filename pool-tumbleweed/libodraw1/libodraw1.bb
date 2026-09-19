@@ -3,10 +3,10 @@ DESCRIPTION = "libodraw is a library to access optical disc (split) RAW images s
 as BIN/ISO/CUE."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210503"
+PV = "20240505"
 
-RPM_NAME = "libodraw1-20210503-3.9.aarch64.rpm"
-RPM_HASH = "75f1c11d918ac3df7e650fd538818f38e217f050ed6205df5c49e2c50ef73350612c2f49751f2441101785c528855a546d272897f24473a7023521e2709b90f3"
+RPM_NAME = "libodraw1-20240505-1.24.aarch64.rpm"
+RPM_HASH = "ba080f10179d5352ad4ff4d9f9c7b17db6a14ea57bc7579d314be5701c53993d635f019821ae3223caf685126be2e2eecf105997c6a2dd9963c8a023a7f6e385"
 
 RPROVIDES:${PN} += "libodraw.so.1 \
 libodraw1"

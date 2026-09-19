@@ -3,10 +3,10 @@ DESCRIPTION = "Helper tools for using Cyrillic languages with XeLaTeX and \
 babel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn54308"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-xecyr-2023.209.1.2svn54308-53.2.noarch.rpm"
-RPM_HASH = "1a160bc9d71eaf3c0e662335bfb30034d00a38f8086d3bc1a94ef8dbe254188ce293f3a35fd63cb491df343a192db96a72a67d64d44b1e7605cbf3f006334b71"
+RPM_NAME = "texlive-xecyr-2026.226.1.2svn77682-59.4.noarch.rpm"
+RPM_HASH = "4c42067244b014e4d1481ce80dc269b6112cc4a3c5520a3cf053a1f15e2fa1a2cbacf1792b5fc5881ae1a7279ee487e3f2c166703d8c136546ab4267d01201ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xecyr.sty \

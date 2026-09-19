@@ -6,15 +6,15 @@ from the server, and client implementations exist for a number of \
 platforms, including Windows."
 LICENSE = "BSD-3-Clause"
 
-PV = "7.0.7"
+PV = "7.0.11"
 
-RPM_NAME = "hylafax+-7.0.7-1.6.aarch64.rpm"
-RPM_HASH = "56f7cd026714d9fc785a5259abf58ca71f314b069f45cdded2f29215ce2c4026905cd2fe1b4833b2b1b9dbdeecb94c2af106b4d20477a444c8a2e89bb1758a20"
+RPM_NAME = "hylafax+-7.0.11-2.4.aarch64.rpm"
+RPM_HASH = "9f47454e6359492c50325783e42688c31c0acd732f8a0a698ca3da75b2bc442e7e8eceff73827fcc0f63f5daf4f73647117c8d42ba786b8490a3b0623670c896"
 
 RPROVIDES:${PN} += "config-hylafax+ \
 hylafax \
 hylafax+ \
-libfaxserver.so.7.0.7"
+libfaxserver.so.7.0.11"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 gawk \
@@ -25,7 +25,7 @@ hylafax+-client \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypt.so.1 \
-libfaxutil.so.7.0.7 \
+libfaxutil.so.7.0.11 \
 libgcc-s.so.1 \
 libjbig.so.2 \
 liblcms2.so.2 \

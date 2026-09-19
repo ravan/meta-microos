@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for jaxen"
 DESCRIPTION = "Javadoc for jaxen."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.0"
+PV = "2.0.0"
 
-RPM_NAME = "jaxen-javadoc-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "6339489dbc52adaf4ef0239794a56c695cda1aaaa21c1c833326acf02b01d0cf205fdafd8ec405b11d28cf5abc5787e4dc5f5d3e6f4d4bd30900d0d9a6739c5d"
+RPM_NAME = "jaxen-javadoc-2.0.0-1.11.noarch.rpm"
+RPM_HASH = "3b767105591f76a65a2e3ef792d247946daa92d5c3a5415839e90841b7edde118435c35004882079f3cb75f1987fe0a91de4f8e386e894d068e6d28853ffb0a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxen-javadoc"

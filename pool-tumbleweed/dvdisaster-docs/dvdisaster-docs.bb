@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.79.10"
 
-RPM_NAME = "dvdisaster-docs-0.79.10-1.1.noarch.rpm"
-RPM_HASH = "d283d112f6f378b8cc872dfb5a9ee6ea5bc5f5704ab5adcc14ad7f2f53ced6c125106e966ea3e6389eb4f6337820cb021044be76467ce04c309df6e3d7c33563"
+RPM_NAME = "dvdisaster-docs-0.79.10-3.4.noarch.rpm"
+RPM_HASH = "236a9ff80c6e2489629d8da4d17466fc6bd75e36073bb76d5e732706b61fbd905c2d2590b90c848e03fbbca06b8a88bd180caac43ed74cf772ec11900635deac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dvdisaster-docs"

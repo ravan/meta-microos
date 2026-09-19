@@ -6,14 +6,15 @@ Normaliz offers an API, libnormaliz, that allows the user to access \
 the Normaliz computations from C++ programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.9.4"
+PV = "3.11.1"
 
-RPM_NAME = "normaliz-devel-3.9.4-1.5.aarch64.rpm"
-RPM_HASH = "132345cefd1161a52b46fc6e9c39df22e43a5412841e769279fd3ecfc115721df44bf7703260dfd4c50078b5428a886b04b90f82da98d1730441871247c86403"
+RPM_NAME = "normaliz-devel-3.11.1-1.5.aarch64.rpm"
+RPM_HASH = "0973a1377d20f0cfa85332ccb51aac5b4c4741e01f540565a8db2204d2ae27348bb1d3982d6546299e289c9092129f84fcb1a726cf2671509be0f8b9e98aa8c9"
 
 RPROVIDES:${PN} += "normaliz-devel"
 
-RDEPENDS:${PN} += "gmp-devel \
+RDEPENDS:${PN} += "e-antic-devel \
+gmp-devel \
 libnormaliz3"
 
 inherit rpm

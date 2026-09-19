@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides translated error messages for the standalon
 server daemon, embedded server and client."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "11.0.2"
+PV = "12.3.2"
 
-RPM_NAME = "mariadb-errormessages-11.0.2-1.1.noarch.rpm"
-RPM_HASH = "d40844b31a1a07919fcbc424625c1197a867e260743352bab8c94d9a272e02f2e80053e42397aa4ad48c3ec4bfd9f2cb5b1496a8211d752de9342f46cefdeae1"
+RPM_NAME = "mariadb-errormessages-12.3.2-1.3.noarch.rpm"
+RPM_HASH = "4b42a73ef73f40b6037d1f839a614e0d1caf86ddddce927f48686b91f04462286b81ef45f96193745096d3aab03ba5f0f593601577e9251b7eb0ce091072d3cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mariadb-errormessages"

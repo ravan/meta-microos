@@ -5,10 +5,10 @@ processes on your system. It also provides an overview of available \
 resources such as CPU and memory."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.1"
 
-RPM_NAME = "mate-system-monitor-1.26.0-1.10.aarch64.rpm"
-RPM_HASH = "ad81f358cef1010de996a97d01b615e21c09200c29e11a288864ce2f3eaa262c939697c96831f9a12b3ed103599f5ac6d6be3994973648a2d3079238d896a224"
+RPM_NAME = "mate-system-monitor-1.28.1-1.13.aarch64.rpm"
+RPM_HASH = "6d6f417d35c621cb1232b3a21c458ce701e8b294b0282addbb57fc1a31d898fab298187c2fe7ace0c1726afd693e7f50c617a69c903a20df1b4ca54ebc2f9a45"
 
 RPROVIDES:${PN} += "mate-system-monitor"
 
@@ -35,7 +35,7 @@ librsvg-2.so.2 \
 libsigc-2.0.so.0 \
 libstdc++.so.6 \
 libsystemd.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 polkit"
 
 inherit rpm

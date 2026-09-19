@@ -3,12 +3,13 @@ DESCRIPTION = "This package provides a number of tools for managing settings in 
 desktop environment."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "4.18.3"
+PV = "4.20.5"
 
-RPM_NAME = "xfce4-settings-4.18.3-1.1.aarch64.rpm"
-RPM_HASH = "8fa2ecff426c76d989d0dfdf5a705e048936ceed42e07a9b8de8b775501884ab30187909b1654731f87553415050561f4e943c75124a1e669f291c1a001bc04d"
+RPM_NAME = "xfce4-settings-4.20.5-1.1.aarch64.rpm"
+RPM_HASH = "b2ea3154b128b4497929343cbf34cb70d6fcd801840d1444fc7aea68a6ce75eed71d545c3ad90975172e491abd92eaf1441f60d471f028194bf0b6e67c3a03c7"
 
-RPROVIDES:${PN} += "xfce-mcs-manager \
+RPROVIDES:${PN} += "libxfsettingsd-gtk-settings-sync.so \
+xfce-mcs-manager \
 xfce-mcs-plugins \
 xfce4-settings"
 
@@ -17,6 +18,7 @@ RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXcursor.so.1 \
+libXext.so.6 \
 libXi.so.6 \
 libXrandr.so.2 \
 libatk-1.0.so.0 \
@@ -30,12 +32,15 @@ libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtk-layer-shell.so.0 \
 libm.so.6 \
 libnotify.so.4 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
+libwayland-client.so.0 \
 libxfce4kbd-private-3.so.0 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \

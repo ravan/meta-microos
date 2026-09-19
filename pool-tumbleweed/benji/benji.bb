@@ -5,16 +5,16 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.17.0"
 
-RPM_NAME = "benji-0.17.0-1.3.noarch.rpm"
-RPM_HASH = "9fce612f7163bd6bf270eb19b037c1c3d5790bcecf67807e16a24aee094b6349e0f571f1c65297f020f980401cee9bf73618dd396e8121e51e4e4638f1aadc51"
+RPM_NAME = "benji-0.17.0-1.13.noarch.rpm"
+RPM_HASH = "303e27c22d014da28e059a15fad2a67e02e6957f965e2c8b81ff968bb890ff41ed029087dd24ec42d8b615d39916aaaee55acf425cc76194bb68f7d0806cd655"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "benji \
 config-benji \
-python3.11dist-benji \
+python3.13dist-benji \
 python3dist-benji"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-Cerberus \
 python3-PrettyTable \

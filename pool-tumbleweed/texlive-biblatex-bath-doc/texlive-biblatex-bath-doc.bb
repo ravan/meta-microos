@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-bath"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-bath"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.0svn63401"
+PV = "2026.226.7.2svn77530"
 
-RPM_NAME = "texlive-biblatex-bath-doc-2023.209.6.0svn63401-54.1.noarch.rpm"
-RPM_HASH = "3a49417a52107d8231c4ada4e5a60760f8d9caf8aa510ecd78ccdd021849515b8a68971dd977272417866c545c1aea0f1cee517ca7425f35d5dcc0cc146840d7"
+RPM_NAME = "texlive-biblatex-bath-doc-2026.226.7.2svn77530-61.2.noarch.rpm"
+RPM_HASH = "86784d7406bf375ec2049ceb640f5e04d11b67122a7def29c3efcadc38ef202fdfc4204042bd04db8ecab306f89bcca72e33397e0085e5a9779491eb0ad5e222"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-bath-doc"

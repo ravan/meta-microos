@@ -2,10 +2,10 @@ SUMMARY = "Perl bindings for the libsolv library"
 DESCRIPTION = "Perl bindings for libsolv."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.24"
+PV = "0.7.39"
 
-RPM_NAME = "perl-solv-0.7.24-1.4.aarch64.rpm"
-RPM_HASH = "b14f264f14792d323ff15a2439a9bdce8f885121bee1d8969be4fcf71de3d4f0cc8247ab8e569e37c8cca4bb6014ad9879832c67db9821aa97ae4a5a3bac8f8a"
+RPM_NAME = "perl-solv-0.7.39-1.4.aarch64.rpm"
+RPM_HASH = "a6458ae1cf9381f16d221138026a5cab8547756bc61f7db88a3b4a705e21f7f923b26bcf47c577460fd1ace28a7326f40c81d3113bc4c11abb659cb2477be859"
 
 RPROVIDES:${PN} += "perl-solv \
 perl-solv--Alternative \
@@ -41,9 +41,9 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \
 liblzma.so.5 \
-librpm.so.9 \
-librpmio.so.9 \
-libxml2.so.2 \
+librpm.so.10 \
+librpmio.so.10 \
+libxml2.so.16 \
 libz.so.1 \
 libzstd.so.1 \
 perl"

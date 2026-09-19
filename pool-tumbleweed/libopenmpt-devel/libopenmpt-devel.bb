@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development files required to compile p
 using libopenmpt."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.2"
+PV = "0.8.9"
 
-RPM_NAME = "libopenmpt-devel-0.7.2-1.1.aarch64.rpm"
-RPM_HASH = "09dce13556ebb188a3e3b57aa9b1dbcecf6d9e0dfd1f25a90cb0d712d798298faa37498c4da3ce0b21d4572562829f84ddf12e1b194c80eef6e6122f80e9ed3f"
+RPM_NAME = "libopenmpt-devel-0.8.9-1.1.aarch64.rpm"
+RPM_HASH = "ecdb8026cfbdaba4daa579cd277da0b2b087c9a499f2e48902da3193989859e36476393460896beff8be7ce52a3194c4a996621bfcfdfd5ff4da9e1f10d2f8ed"
 
 RPROVIDES:${PN} += "libopenmpt-devel \
 pkgconfig-libopenmpt"

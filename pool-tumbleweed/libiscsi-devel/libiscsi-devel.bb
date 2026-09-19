@@ -2,15 +2,15 @@ SUMMARY = "Development files for libiscsi"
 DESCRIPTION = "Development files for libiscsi"
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "1.19.0+git.20230208"
+PV = "1.20.3"
 
-RPM_NAME = "libiscsi-devel-1.19.0+git.20230208-1.4.aarch64.rpm"
-RPM_HASH = "3c16e207c79dbc431245fd25e135e659a8959a58960beb20a41d807a5a2c28664983e564aebd820307ab1fbc5f64453a3c1c8a11af8123c33d44b9c98e668f72"
+RPM_NAME = "libiscsi-devel-1.20.3-1.3.aarch64.rpm"
+RPM_HASH = "a23edf088082f0f03452782a7c2f1ada05434dff273ac1f16be6f1fa8b57540ecac2a982d3f0b1de7dcffdf0581f50ece9c596f1f056d7e75f34fbc50e91c666"
 
 RPROVIDES:${PN} += "libiscsi-devel \
 pkgconfig-libiscsi"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libiscsi9"
+libiscsi11"
 
 inherit rpm

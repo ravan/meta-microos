@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.3.1"
 
-RPM_NAME = "libacars-devel-1.3.1-1.17.aarch64.rpm"
-RPM_HASH = "fe6e2e997c2369e08a7ebe2c969976d1cedb0bdf859ca715d0142af9839a5fd39c05f4fa39ac26151b5dcf43983450f201b1ad93e230f263d2a23b35796faedb"
+RPM_NAME = "libacars-devel-1.3.1-1.27.aarch64.rpm"
+RPM_HASH = "d4c7fc14b5bc3261dc9c7bd1be0f7abe98e642835c017f4826dbd53a809cb083b64f4c5c0690ba6a7e2769ad9feb618fdf5cde84c79c70e82ed485f2ddf9e4ab"
 
 RPROVIDES:${PN} += "libacars-devel \
 pkgconfig-libacars"

@@ -7,8 +7,8 @@ LICENSE = "Zlib"
 
 PV = "2.6.4"
 
-RPM_NAME = "nunit-2.6.4-4.19.aarch64.rpm"
-RPM_HASH = "13f1ce90dba48c649b6334a0fac4a08c4685184fefaece26e45ec3c2c23c3579771feb55e5a499900957d6d4126dee5d5710b5939aaddb9f99f8f98c229c3540"
+RPM_NAME = "nunit-2.6.4-5.14.aarch64.rpm"
+RPM_HASH = "16a0d3ea1d09b4f1e07d04179d7ec7af36b7b827302e1e2b83fa64b024306741cc840a29e8e20fef178147ac6e1917686c43f917652f9db41f9e78abeecfd2fd"
 
 RPROVIDES:${PN} += "mono-NSubstitute \
 mono-log4net \

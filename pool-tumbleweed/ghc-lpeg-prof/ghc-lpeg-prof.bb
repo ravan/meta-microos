@@ -2,16 +2,16 @@ SUMMARY = "Haskell lpeg profiling library"
 DESCRIPTION = "This package provides the Haskell lpeg profiling library."
 LICENSE = "MIT"
 
-PV = "1.0.4"
+PV = "1.1.0.1"
 
-RPM_NAME = "ghc-lpeg-prof-1.0.4-1.5.aarch64.rpm"
-RPM_HASH = "8c40fc8fd9dd924fb0266c36a9aa05a8fed757155f337fc2a00503fafc1ac2f842ede55472c6d8426d98e72f9ead10f0cc7736e0f418f7ada836516ad329ba35"
+RPM_NAME = "ghc-lpeg-prof-1.1.0.1-1.3.aarch64.rpm"
+RPM_HASH = "697f14d87115a6242a81e9603751076a2eaec0b9fe9f0576d293a554cdc85872d5c14d61c451d885451039d6093c645bf75a7a5e08a02db44318a4077cf6a140"
 
 RPROVIDES:${PN} += "ghc-lpeg-prof \
-ghc-prof-lpeg-1.0.4-DiPCMqCZ1gDFL4TQ30W98B"
+ghc-prof-lpeg-1.1.0.1-Jbb90xEfizAEuGHvVCZgbp"
 
 RDEPENDS:${PN} += "ghc-lpeg-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-lua-2.3.1-IuAZ4Y3Pnt2ACNXikcgl6h"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-lua-2.3.4-GxTlN73bN8C8KbBhVEtsew"
 
 inherit rpm

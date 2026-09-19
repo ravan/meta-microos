@@ -8,13 +8,13 @@ This package contains the mpich version of the PnetCDF runtime \
 libraries."
 LICENSE = "NetCDF"
 
-PV = "1.12.3"
+PV = "1.14.1"
 
-RPM_NAME = "libpnetcdf4-mpich-1.12.3-1.4.aarch64.rpm"
-RPM_HASH = "68fce7f49c067a0475eac1250ac832e7161f4f9724c880957b79f7de9ef1f3ad40ef358a82aba5c5a5e0e6271dcbcb12177d4561c9e6681619185908720feba5"
+RPM_NAME = "libpnetcdf4-mpich-1.14.1-1.3.aarch64.rpm"
+RPM_HASH = "6e55c6bc7b8d7f08e77923bc12cb19110a9aaa186c5df8e6e1ebc92e743915d02eb3447cc19d527408756e608b93fd9f0b96c9eb4ce803f53ec0dc9b4e3f55cb"
 
 RPROVIDES:${PN} += "libpnetcdf-mpich \
-libpnetcdf.so.4 \
+libpnetcdf.so.7 \
 libpnetcdf4-mpich"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

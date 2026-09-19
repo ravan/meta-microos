@@ -12,10 +12,10 @@ package also provides a routine SIMPSON for numerical \
 integration and a solver of linear equation systems."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.66svn64732"
+PV = "2026.226.0.0.67svn77682"
 
-RPM_NAME = "texlive-pst-math-2023.209.0.0.66svn64732-53.1.noarch.rpm"
-RPM_HASH = "c5fcef1eb43dd9c9293de1ec7afe88dc1bc11d200467ba4f91833c0e7a06d0a8ecc1933809254cd6929191ea8dd1a5d0b451b58b223e1f8b5829b9c9a9571df2"
+RPM_NAME = "texlive-pst-math-2026.226.0.0.67svn77682-59.2.noarch.rpm"
+RPM_HASH = "122102bca7e9fc36149a2325d7efb10109247f0e8e53e90aeebedd9d25c1569b037d16d202ef833b8ec38522552349146e162a0433cf3ea5a81542bbdf5f6985"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-math.sty \
@@ -29,7 +29,9 @@ findutils \
 grep \
 sed \
 tex-ifluatex.sty \
+tex-multido.sty \
 tex-pst-calculate.sty \
+tex-pstricks.sty \
 tex-xstring.sty \
 texlive \
 texlive-filesystem \

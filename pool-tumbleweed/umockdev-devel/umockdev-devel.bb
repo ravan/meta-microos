@@ -6,10 +6,10 @@ This package provides the headers and sources needed to build software against \
 umockdev."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.17.17"
+PV = "0.19.7"
 
-RPM_NAME = "umockdev-devel-0.17.17-1.2.aarch64.rpm"
-RPM_HASH = "8caa599c2151c2ae0ffddac36607db61770bfbe221afd0d9ae8f89087bd4219dcf0a472fed1561a067b2df340e457d1810b0d8a69635e86d1a6527ba86847363"
+RPM_NAME = "umockdev-devel-0.19.7-1.4.aarch64.rpm"
+RPM_HASH = "df16b518350927f478eaed493ac2803587024311fc2a89fd1591b3afbd8449cf1b746e447584b195091525ce4dc12f0cc0b709c41700f1e54af01b3fd30b3362"
 
 RPROVIDES:${PN} += "pkgconfig-umockdev-1.0 \
 umockdev-devel"

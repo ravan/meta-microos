@@ -8,8 +8,8 @@ LICENSE = "BSL-1.0"
 
 PV = "v0.5.0+4.ffdf200"
 
-RPM_NAME = "avgtime-v0.5.0+4.ffdf200-4.2.aarch64.rpm"
-RPM_HASH = "cda6af201ea68c1566a88cb186482c8a8927596fe2f68e04ee2e39ae9b2c2ad38013c160cbd7061a351c90e3d1dd2305a03661eac8b1134fc59894e32b6ec161"
+RPM_NAME = "avgtime-v0.5.0+4.ffdf200-4.13.aarch64.rpm"
+RPM_HASH = "a650651f27d8b8fac1ca6b669b626bcc270aa0c939c70fe0968c5a6f29993631f29e7be07bf8ad120c8e7c0b48101b5b34c41a79bf8deb00f83d692f991b5273"
 
 RPROVIDES:${PN} += "avgtime"
 

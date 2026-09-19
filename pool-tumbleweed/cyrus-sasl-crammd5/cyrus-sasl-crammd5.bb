@@ -6,8 +6,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-crammd5-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "c47ea60627a2eedcd50fee0adeeda65b063c41c4dc84c7c87239a8c179cdc8147dd1895c6f692d4ff354d76d92a80720be81c2e18127b39ac3fff64d075d0908"
+RPM_NAME = "cyrus-sasl-crammd5-2.1.28-12.5.aarch64.rpm"
+RPM_HASH = "8694bb83a24ecceccd7ab86c33bd1c30233856cd78007a32005e297a9edcc18861f2738a408d3c692c33046738dcde3741d5dc5e264c847ce10f321cc48e658d"
 
 RPROVIDES:${PN} += "cyrus-sasl-crammd5 \
 libcrammd5.so.3"

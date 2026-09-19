@@ -2,10 +2,10 @@ SUMMARY = "Development files for PolicyKit"
 DESCRIPTION = "Development files for PolicyKit Authorization Framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "121"
+PV = "127"
 
-RPM_NAME = "polkit-devel-121-4.3.aarch64.rpm"
-RPM_HASH = "8326dfc97ec1829d7efd93848f7758f4a0064c1540c379480513d3cb0fdaf2196c766392bfc21a386d297098ae7263e28a449a794dca44fdfcd67fc4db2b9ac6"
+RPM_NAME = "polkit-devel-127-7.2.aarch64.rpm"
+RPM_HASH = "f5c7e66a49a89581fd5a27396ca09a1cb6688142899fa3145b040bb932c31d140972ed5a0fadb6bbf1d9c7df53f334cd875e42eb68a482be7fbe4ab771ddacb9"
 
 RPROVIDES:${PN} += "pkgconfig-polkit-agent-1 \
 pkgconfig-polkit-gobject-1 \
@@ -18,6 +18,7 @@ libpolkit-agent-1-0 \
 libpolkit-gobject-1-0 \
 pkgconfig \
 pkgconfig-gio-2.0 \
+pkgconfig-gio-unix-2.0 \
 pkgconfig-glib-2.0 \
 pkgconfig-polkit-gobject-1 \
 polkit \

@@ -4,10 +4,10 @@ under Linux. Included in this package are: chattr, lsattr, mke2fs, \
 mklost+found, tune2fs, e2fsck, resize2fs, and badblocks."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.47.0"
+PV = "1.47.3"
 
-RPM_NAME = "e2fsprogs-1.47.0-1.1.aarch64.rpm"
-RPM_HASH = "7114fe253642c724f160a277828975bbf273ec1388643c5bfa74437c2d5ba6f6fbb664713f478ce2b971187d6a0443207fa7cbb3e65a2fe26b6b821c95815417"
+RPM_NAME = "e2fsprogs-1.47.3-2.2.aarch64.rpm"
+RPM_HASH = "30f47eb77288e86a6c6062fee39028cb1bd3a7255b9ff4092072c2147b0c5e566f9f7a9f756e4cc717a04b6fc9e988593d8497ad3e2e928e8fe8079129f2f724"
 
 RPROVIDES:${PN} += "config-e2fsprogs \
 e2fsprogs"

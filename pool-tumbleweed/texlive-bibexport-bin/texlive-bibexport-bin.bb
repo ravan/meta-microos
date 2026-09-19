@@ -2,10 +2,10 @@ SUMMARY = "Binary files of bibexport"
 DESCRIPTION = "Binary files of bibexport"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn16219"
+PV = "2026.20260301.svn16219"
 
-RPM_NAME = "texlive-bibexport-bin-2023.20230311.svn16219-93.2.aarch64.rpm"
-RPM_HASH = "f2926f979b5edbd9d1cd4ef7f9034c9d07e408aa406496f3f2cc0a13549cb794ecf3979d03223d7318df3517a44c20c4c07b66b7f23a3afe116ad7bf7fc48b21"
+RPM_NAME = "texlive-bibexport-bin-2026.20260301.svn16219-120.4.aarch64.rpm"
+RPM_HASH = "2d62f5f8d6ae24e841731244b13f3cd77eb98a37c480bdc14f01a4f236246540ff9c37d70f966068ca24468885afe2d998272b08cc0e0e6e6626336e4f1c9b12"
 
 RPROVIDES:${PN} += "texlive-bibexport-bin"
 

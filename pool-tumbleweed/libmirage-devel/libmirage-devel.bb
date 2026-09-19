@@ -8,17 +8,17 @@ file. \
 This package contains files needed to develop with libmirage."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.2.6"
+PV = "3.3.2"
 
-RPM_NAME = "libmirage-devel-3.2.6-1.9.aarch64.rpm"
-RPM_HASH = "e7cb9c10fe4c221e9665334a2ff3eca1f96f550e355472a0a7c8152bdde12b97711cf9cad96b957b0b72362062ebb35c5ee8563a47f11d964487209de9b34f24"
+RPM_NAME = "libmirage-devel-3.3.2-2.1.aarch64.rpm"
+RPM_HASH = "7fbcf9b8036e7f9c660bffb0bb6896229836c216156f3dbdc89cb0f10c20804be6c4b15c5bbc34e6276cb9ce1d3426ef9ef66bea77236f010194618aeca5025d"
 
 RPROVIDES:${PN} += "libmirage-devel \
 pkgconfig-libmirage"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
-libmirage11 \
+libmirage12 \
 pkgconfig-gio-2.0 \
 pkgconfig-glib-2.0 \
 pkgconfig-gmodule-2.0 \

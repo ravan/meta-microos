@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-numname"
 DESCRIPTION = "This package includes the documentation for texlive-numname"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn18130"
+PV = "2026.226.svn18130"
 
-RPM_NAME = "texlive-numname-doc-2023.209.svn18130-55.1.noarch.rpm"
-RPM_HASH = "f24afb511041254175d90475576526f1cd67a08fb12781e3a0b97942cb34e7e8b229c7c376f88daf96ac48e5590d43e9e49be26f9c0fb776c76819cab01184c8"
+RPM_NAME = "texlive-numname-doc-2026.226.svn18130-61.2.noarch.rpm"
+RPM_HASH = "bcb38f8e3e8a50e2cbcd5d65c73d6403ebd8a46bc578fd05d2680c18b99f35fdbaa078e30e9a49c517859973878c41a89e03e3d5b6165d893bb7513a399346a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-numname-doc"

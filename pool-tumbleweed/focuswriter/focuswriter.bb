@@ -9,10 +9,10 @@ position you at the end of your document, so that you can immediately jump \
 back in."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.5"
+PV = "1.9.1"
 
-RPM_NAME = "focuswriter-1.8.5-1.1.aarch64.rpm"
-RPM_HASH = "db23e039eefc5fde75b841a6a28086dfead3c3c3fc8a37af733e5afa17d2ee18f51b317c9d62e0df8d9649d312a5063f35b6da89a2ee51e2a5d5d78455547bdb"
+RPM_NAME = "focuswriter-1.9.1-1.1.aarch64.rpm"
+RPM_HASH = "c9c66771daff311f2ae3f322d870d52a20f4d5b57117309f2272175c2b29b4c41b920052183985387a31ee3052ff45c3f5bbbc0f7daa636d44fdb02db16bb7fb"
 
 RPROVIDES:${PN} += "focuswriter"
 

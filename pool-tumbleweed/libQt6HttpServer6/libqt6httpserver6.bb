@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 HttpServer library"
 DESCRIPTION = "QHttpServer is a simplified API for QAbstractHttpServer and QHttpServerRouter."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6HttpServer6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "ed4c19e157a7b48cf0adf03dc59252190b90c84d968f8c7a5f4c994a63b59d95e29e298db5828bde83f6de741478f820f35b29c61e755aad25a67faa88520078"
+RPM_NAME = "libQt6HttpServer6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "f82b49036c2fef41af32684f3478f975aebd9bdd8756918bcac3ba2257a55ecd6c0e1c200c56750d919c5da59e10a8804b60bf8ca24124f0802524c2342d0ca7"
 
 RPROVIDES:${PN} += "libQt6HttpServer.so.6 \
 libQt6HttpServer6"

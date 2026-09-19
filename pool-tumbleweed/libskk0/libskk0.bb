@@ -6,10 +6,10 @@ This package provides GObject-based library to deal with Japanese \
 kana-to-kanji conversion method."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2.0+git20171110+1.0.3"
+PV = "1.2.0+git20180916+1.0.5"
 
-RPM_NAME = "libskk0-1.2.0+git20171110+1.0.3-2.8.aarch64.rpm"
-RPM_HASH = "be4cae1af9435efed94e2942c9ddd665a9444ceb9ff23658077cf464284446a4028d9eb05b8c9ed5e0af011c1c28097a8488b32b4365e70b64b1851a25dbcd4d"
+RPM_NAME = "libskk0-1.2.0+git20180916+1.0.5-2.7.aarch64.rpm"
+RPM_HASH = "7f77e28db92142136632c953742d742979f5bbe2ce0e2f9e5d4360538a9fa13401a75383e6e250a9aed47b3633397e478e55221352dd21fd721ddcc9f9603a84"
 
 RPROVIDES:${PN} += "libskk.so.0 \
 libskk0"
@@ -22,6 +22,7 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libjson-glib-1.0.so.0 \
+libxkbcommon.so.0 \
 skkdic \
 skkdic-extra"
 

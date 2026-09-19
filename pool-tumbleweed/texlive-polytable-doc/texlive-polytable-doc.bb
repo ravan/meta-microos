@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-polytable"
 DESCRIPTION = "This package includes the documentation for texlive-polytable"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8.6svn55837"
+PV = "2026.226.0.0.8.6svn77682"
 
-RPM_NAME = "texlive-polytable-doc-2023.209.0.0.8.6svn55837-53.1.noarch.rpm"
-RPM_HASH = "fd053ab3e1fce001e12e801b4de6043e47f4d87457cd2965f884bb16248b5c45db73d264d582882584b53d34e614e6f8b163561120406c61f36a38fd77f4b015"
+RPM_NAME = "texlive-polytable-doc-2026.226.0.0.8.6svn77682-59.2.noarch.rpm"
+RPM_HASH = "e2d31fa83c526e218b6c3486bee39d9b3cbed33360944224105a91fa5afea07eb3e04b08a891c391f03d46b11a75c7b80a625fcb355e4244a1660f3416c7e196"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-polytable-doc"

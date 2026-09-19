@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 SensorsQuick library"
 DESCRIPTION = "The Qt6 SensorsQuick library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6SensorsQuick6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "4456b81afde5c1f8389153e0ea7878464806c2f36af869c56bd24b1f043d69de07f4ed3e732d411e1dd0f47dbf1ad702911246f6597904594d40a223cd05f892"
+RPM_NAME = "libQt6SensorsQuick6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "bfef0e4b2139e910ddc041743a5de616c701de7f204d02d1bb5d06197f76c776144847cfe02d098afe802e5be9cb17d6de7be78ed28924399b7bff8d8b47a0a5"
 
 RPROVIDES:${PN} += "libQt6SensorsQuick.so.6 \
 libQt6SensorsQuick6"

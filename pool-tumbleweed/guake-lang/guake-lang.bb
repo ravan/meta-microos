@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.10"
 
-RPM_NAME = "guake-lang-3.10-1.1.noarch.rpm"
-RPM_HASH = "dce4d7c7dd5c63bd38457fa7910f36fa8f995b6efb47ced1d042ac59d0775b6e489d86bb21c541dbd3e6b956bc523b7ecd91adaefc736ab0616e3b60730e2f1c"
+RPM_NAME = "guake-lang-3.10-7.5.noarch.rpm"
+RPM_HASH = "9acce9b8c7075b8bc6f0d37c9e67fadcc3a08ad2cdaa7c2492c1742b5eeaab991408c6cca366d6bc28d6449db33643019abe595b017f57bf7f034db116f63e50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guake-lang \

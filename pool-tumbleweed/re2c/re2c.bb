@@ -4,12 +4,12 @@ tools, it concentrates solely on generating efficient code for matching \
 regular expressions. This makes it suitable for a wide variety of \
 applications. The generated scanners approach hand-crafted ones in \
 terms of size and speed."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "3.1"
+PV = "4.6"
 
-RPM_NAME = "re2c-3.1-1.1.aarch64.rpm"
-RPM_HASH = "8ffb6939fee8a0ed19fb236aa356dbc21732361b8110f3c91ea49c8d15234293ff43474184eda9135d4eed499ab23e6fe642754405bdfd120e159c8f6996dfa1"
+RPM_NAME = "re2c-4.6-1.1.aarch64.rpm"
+RPM_HASH = "e23318e7775485de3c0dd0178e951c4ac5c059926ad00f3ddbfa6ced96e286bc689cd9d83ab2bd666ba4d7de08b9ea28571a2c2772daf86ebbddcc5cd0b70097"
 
 RPROVIDES:${PN} += "re2c"
 

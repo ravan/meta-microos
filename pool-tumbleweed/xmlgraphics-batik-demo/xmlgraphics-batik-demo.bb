@@ -2,10 +2,10 @@ SUMMARY = "Demo for xmlgraphics-batik"
 DESCRIPTION = "Demonstrations and samples for xmlgraphics-batik."
 LICENSE = "Apache-2.0"
 
-PV = "1.15"
+PV = "1.18"
 
-RPM_NAME = "xmlgraphics-batik-demo-1.15-3.1.noarch.rpm"
-RPM_HASH = "393945f9e8b827374f8e359d48b18d2a4aaa911818d2aa91ff85eab32e90c0accdf3c29e6aaef8b1cd092250b175b9e80771db3544a76084c60cfda8e6286b85"
+RPM_NAME = "xmlgraphics-batik-demo-1.18-1.7.noarch.rpm"
+RPM_HASH = "a310c4d0cc23f5b8366670538f2fd9394e24ab3ae2f416f92e56aa184a726e944136fc253893efe77b18e1b0a37422e3cebfe1cf9cddd958d90ca7dab09ec389"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-demo \

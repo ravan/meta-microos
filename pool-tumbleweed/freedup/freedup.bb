@@ -7,12 +7,12 @@ the linking behavior, and the reporting style. You may use batch or interactive 
 mode. Freedup usually only considers identical files, but when comparing audio \
 or graphics files, you may elect to ignore the tags. Multimedia files often are \
 a good target for deduplication."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6~3"
 
-RPM_NAME = "freedup-1.6~3-2.26.aarch64.rpm"
-RPM_HASH = "5f51e74672b149810905c844b2da611d944ebaced88bb6719d7f650ffbf2a5da6a3132ef29e4b2698975f19db1c5027dbdeeab74034caea11e21a4ef81ce618a"
+RPM_NAME = "freedup-1.6~3-4.9.aarch64.rpm"
+RPM_HASH = "3a73caa1d5b44569d67642bbed9533ed90c27ab2256478923f572c4f8df6bf0e333e5e3f70d4ca3d2ebefe107744c8187a2cf19d09e824e8eb0c6e13a10e48c2"
 
 RPROVIDES:${PN} += "freedup"
 

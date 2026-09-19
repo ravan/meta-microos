@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.16.4"
 
-RPM_NAME = "libconfini-devel-1.16.4-1.5.aarch64.rpm"
-RPM_HASH = "1527e87607b84b64374b76195224dae270e012986f9c4cdd9796e953b8a1bff3b78ce53e48dd1bee7a0303cf9a6b476ca7dde0bf6c8c4ba7ac79f4b331efef0a"
+RPM_NAME = "libconfini-devel-1.16.4-1.15.aarch64.rpm"
+RPM_HASH = "9244a515d42509fecdbf5da16f584729e3f7fca9e0c4bf2e0d2de548aaf617e778e3da19b6a19fb828707fa40b9b0cfe7d0ff2f4614c075eecc5b01347529421"
 
 RPROVIDES:${PN} += "libconfini-devel \
 pkgconfig-libconfini"

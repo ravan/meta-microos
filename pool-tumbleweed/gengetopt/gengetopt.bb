@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.23"
 
-RPM_NAME = "gengetopt-2.23-1.14.aarch64.rpm"
-RPM_HASH = "65b24350a55b28e77aacb105369558cc4a1c4e5dc9bfbba34db4f18a13e26cec435849b01fc53f212017aeb35656f905fc4d594ec568b34c8af39090713e4e5c"
+RPM_NAME = "gengetopt-2.23-1.25.aarch64.rpm"
+RPM_HASH = "4825d702359b77de54e93bf49ab1b2bd8a37e8d8248470c29e7ac3d682f2aa959f43b0dc6bc1ebb7c1afe18af4dd18b5e93681b697b4ec2a50c2f5c0b47b25f3"
 
 RPROVIDES:${PN} += "gengetopt"
 

@@ -5,15 +5,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.1.4"
 
-RPM_NAME = "ghc-extensible-exceptions-0.1.1.4-7.3.aarch64.rpm"
-RPM_HASH = "4bf4d78ded6abfd67aa9140d29691e3d5cc3bbe87e504e2034e7c78583f5ed1f4d8679837773cf06d5a1b9e727d1dea4e6515f4c5808c2f0392876acfda79e53"
+RPM_NAME = "ghc-extensible-exceptions-0.1.1.4-7.23.aarch64.rpm"
+RPM_HASH = "93a8a40c8dbc25c80c6eaa933747c3762d83552c81e5195c37476de81c6060398ac26780d2973ffb4a11098da5b48460eefa0bf4537f22328da57c967123f76b"
 
 RPROVIDES:${PN} += "ghc-extensible-exceptions \
-libHSextensible-exceptions-0.1.1.4-1hcTiYLx0LbAr3mhUvVP0e-ghc9.4.6.so"
+libHSextensible-exceptions-0.1.1.4-1DqJiZkXnDRHRXNZtok1ZU-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

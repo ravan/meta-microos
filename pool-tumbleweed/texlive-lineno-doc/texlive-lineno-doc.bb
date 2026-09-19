@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lineno"
 DESCRIPTION = "This package includes the documentation for texlive-lineno"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.1svn65586"
+PV = "2026.226.5.7svn77875"
 
-RPM_NAME = "texlive-lineno-doc-2023.209.5.1svn65586-55.1.noarch.rpm"
-RPM_HASH = "4091f7535e93c5828572f325983f0a8257f65a0a514cdcf573f399347f9e9d8d3a484f9637061a1572079d0eddc9500924902a3c84f13ebbe087cd3322e4b35c"
+RPM_NAME = "texlive-lineno-doc-2026.226.5.7svn77875-61.2.noarch.rpm"
+RPM_HASH = "9254188f3195475de8758ee19dd66bc58190fc6fcbc48527d86c4e1563863989003a93b97bb98aba6e9accf64725b704a3033dee2161ef707a97acfa3e15eab3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lineno-doc"

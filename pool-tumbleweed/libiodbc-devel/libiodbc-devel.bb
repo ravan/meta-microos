@@ -2,10 +2,10 @@ SUMMARY = "Headers for iODBC"
 DESCRIPTION = "This package contains headers for the iODBC Driver Manager."
 LICENSE = "BSD-3-Clause | LGPL-2.0-only"
 
-PV = "3.52.14"
+PV = "3.52.16"
 
-RPM_NAME = "libiodbc-devel-3.52.14-2.6.aarch64.rpm"
-RPM_HASH = "5d0dd0e51c196520407e1e2d551fec8b7c2510f716a275fb5bf8e771ccf3771ea9412c2344078fd041714120cd425911e89e3686b100a37450584d6c05ae7abd"
+RPM_NAME = "libiodbc-devel-3.52.16-2.3.aarch64.rpm"
+RPM_HASH = "1c86635397e638ca26c86e7041792cf5b3d86a330a452710d411e07baac1a0e28c09322a691c2e5f1ead1b910f2c7ac4c2a97e3f4edb0245ab3f31cc43a71bb4"
 
 RPROVIDES:${PN} += "libiodbc-devel \
 pkgconfig-libiodbc"

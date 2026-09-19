@@ -3,10 +3,10 @@ DESCRIPTION = "Exiv2 is a C++ library and a command line utility to access image
 metadata."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "0.28.0"
+PV = "0.28.9"
 
-RPM_NAME = "libexiv2-devel-0.28.0-2.1.aarch64.rpm"
-RPM_HASH = "e1b63e816174a0d74df07b91ca51afee2748fc84eea9423a3b42b52263f9c5e21c626652a70cfa557cee6bb0a41ccfce1e0d23965d93a810f37efa0ad6b46e4d"
+RPM_NAME = "libexiv2-devel-0.28.9-2.1.aarch64.rpm"
+RPM_HASH = "2a55e9f899172f2ad1891c0f2e59b703be98ee07c301b6859775300731493e5794c98f8ef5cb31d06dba66df05907b65d314ee5d291fb0734b11934332a205bc"
 
 RPROVIDES:${PN} += "cmake-exiv2 \
 libexiv2-devel \

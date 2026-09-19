@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xviewer-plugins"
 DESCRIPTION = "Provides translations for the 'xviewer-plugins' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.1"
+PV = "3.4.3"
 
-RPM_NAME = "xviewer-plugins-lang-1.4.1-1.7.noarch.rpm"
-RPM_HASH = "37267edd7b1dc846bad25e0d49e986d5577831507a1e92fa35bacb22118f023fcfbf1278502bbec1b3abe85e36e2e7fb9d1ad5c297c3d742bf954eed8dee98d6"
+RPM_NAME = "xviewer-plugins-lang-3.4.3-1.2.noarch.rpm"
+RPM_HASH = "719e721431c97b8f93384acfe1943c03ffd65e2ef04403cde1ddcc511ccb9fe759e49a29d85e9a1642cc482a4a9c304410359bcccb77dd3dc8f714846f7402f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xviewer-plugins-ar \

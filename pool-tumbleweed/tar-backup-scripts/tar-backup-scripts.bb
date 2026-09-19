@@ -2,10 +2,10 @@ SUMMARY = "Backup scripts"
 DESCRIPTION = "Shell scripts for system backup/restore"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.34"
+PV = "1.35"
 
-RPM_NAME = "tar-backup-scripts-1.34-12.1.noarch.rpm"
-RPM_HASH = "e42ba3abc31f778fc00104c2727a2bb0d65cc142fee4d55fad7edd004ebd3dabe327e7e7724fe27c9d5208b79098e7c827a89a01056d7d26309cce8161595b54"
+RPM_NAME = "tar-backup-scripts-1.35-10.1.noarch.rpm"
+RPM_HASH = "a2c76429fed98c9e0139076906310b9eed37df6e9d72dcd1c8190770f9761b55eb3f503b32ba336d248f92abb946c995e21c01f35cc24bbe59ee91c43e4ad28a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-tar-backup-scripts \

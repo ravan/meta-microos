@@ -3,10 +3,10 @@ DESCRIPTION = "Grilo is a framework for browsing and searching media content fro
 various sources using a single API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.16"
+PV = "0.3.19"
 
-RPM_NAME = "libgrilo-0_3-0-0.3.16-1.1.aarch64.rpm"
-RPM_HASH = "86e789af384ddbf354b2f4fa6976ead66e3045dfd0fd04db63640edadc635da8c52edcf3b11ae0eb682c1afb3bc3798824e6b3c8d67f352ad7959adbbd69a37d"
+RPM_NAME = "libgrilo-0_3-0-0.3.19-2.5.aarch64.rpm"
+RPM_HASH = "ba1d6bcafcc4d1a51bd4e30c5a0e86d863d168af7e6ba5e67f436fcfb1fd54b2d85ba9976ae07965b685a31ec86c4500b40f5f129f74b64892243e549940c54b"
 
 RPROVIDES:${PN} += "grilo \
 libgrilo-0-3-0 \

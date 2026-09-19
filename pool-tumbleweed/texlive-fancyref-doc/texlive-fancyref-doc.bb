@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fancyref"
 DESCRIPTION = "This package includes the documentation for texlive-fancyref"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.9csvn15878"
+PV = "2026.226.0.0.9csvn77682"
 
-RPM_NAME = "texlive-fancyref-doc-2023.209.0.0.9csvn15878-53.1.noarch.rpm"
-RPM_HASH = "41808caa0cb9290e79b1bee69141e2305fb4c15d6ec54bc57b7a8bc2cd40b32d9ecd3b55aabd0a14fe7bae7a283fc6c49dbe26ff439e30b3860b3208aae6d841"
+RPM_NAME = "texlive-fancyref-doc-2026.226.0.0.9csvn77682-59.2.noarch.rpm"
+RPM_HASH = "d6c384ec606fc7c65e3e667701cbcd754ad60c4c1eb7ddd5983dac5864568220f0707e4bee37954ff004347a3c78cfff141324f9cd4815974213e363c70477e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fancyref-doc"

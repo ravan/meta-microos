@@ -3,17 +3,19 @@ DESCRIPTION = "InfluxDB is an distributed time series database with no external 
 It's useful for recording metrics, events, and performing analytics."
 LICENSE = "MIT"
 
-PV = "1.11.1"
+PV = "1.11.8"
 
-RPM_NAME = "influxdb-1.11.1-1.1.aarch64.rpm"
-RPM_HASH = "60d533da6d367f230247f7aa178d920232b18da51328c46339d9df76432066303cde67494b525a48548d493af85348ea74d5f9c7116ccbda53ad6ffd83f67478"
+RPM_NAME = "influxdb-1.11.8-1.17.aarch64.rpm"
+RPM_HASH = "8f23a6ef2a87c2b5ad092971bb366395336167c717595fda64bcd07b506f52b71382133bb8d21d18ec6781442c8971e26fd6cbbaa280c828874693fca519643e"
 
 RPROVIDES:${PN} += "config-influxdb \
-influxdb"
+group-influxdb \
+influxdb \
+user-influxdb"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
-libflux.so.0.193.0 \
+libflux.so.0.199.0 \
 shadow"
 
 inherit rpm

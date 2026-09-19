@@ -4,17 +4,16 @@ be applications or libraries. They can be bound to MIME types or handled by \
 application specific code. Development files"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kservice-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "108225d1a8f1fdca35849e0475c2aafec784fd496b0bdbed874142878fd995b3877bf4cee171e3230e4679bd99ccbb50cbf0b135ccc714e3ddc74e6168335679"
+RPM_NAME = "kservice-devel-5.116.0-1.9.aarch64.rpm"
+RPM_HASH = "37dc7f7909e63efc3a0c1421458ebed27dda8a5cb65bffdba56bb9167afae244cc2e4e4b04a014c59d60d687c900d6f07c7e08bbdad948cb60920dd39789e396"
 
 RPROVIDES:${PN} += "cmake-KF5Service \
 kservice-devel"
 
 RDEPENDS:${PN} += "cmake-KF5Config \
 cmake-KF5CoreAddons \
-extra-cmake-modules \
 kservice"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "watson-fish-completion-2.1.0-1.5.noarch.rpm"
-RPM_HASH = "e442104fb2c1e2f0e18f77db2df94652390286df9fcf40749bb284fd852685915af5a27bc72db54a81d5d9de6357502ebd7937bb6022a2086bd8c4f97170b404"
+RPM_NAME = "watson-fish-completion-2.1.0-1.15.noarch.rpm"
+RPM_HASH = "1c1f43077086a5fd2596c72165ccd82b2a9d36d96d0a20a3485dba6bf908463f5260686457775d2ee3b35ad4aac1cc270da49d0d155b20ddc5406c05450e334b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "watson-fish-completion"

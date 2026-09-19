@@ -22,20 +22,19 @@ predictable (the mixing functions are easily inverted, and two successive \
 outputs suffice to reconstruct the internal state)."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.0.4"
+PV = "0.1.3.2"
 
-RPM_NAME = "ghc-splitmix-0.1.0.4-4.8.aarch64.rpm"
-RPM_HASH = "f835042a4eb05cdbbd90f6d1bbae1a89ddd2d01423ac1a5ed6996c4401bda02557a5e37527f898489118a0918329ebb93e51e328f601b387ad4e070d0fef888c"
+RPM_NAME = "ghc-splitmix-0.1.3.2-1.3.aarch64.rpm"
+RPM_HASH = "7532638af3bc0d38c78785f6a31fb37e4daef2aeb498f46547abeca19a9fe5d959eb0569ffee937f828a4a201877e1629045e021151dc40d50c0345522411d2c"
 
 RPROVIDES:${PN} += "ghc-splitmix \
-libHSsplitmix-0.1.0.4-2jzLu9hw0mWH5mdbN14y0O-ghc9.4.6.so"
+libHSsplitmix-0.1.3.2-4FIxgclJzmILwETMtGxhg4-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

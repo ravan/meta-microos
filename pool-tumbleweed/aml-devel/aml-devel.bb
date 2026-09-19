@@ -2,15 +2,15 @@ SUMMARY = "Development files for aml"
 DESCRIPTION = "Development files and headers for aml."
 LICENSE = "ISC"
 
-PV = "0.3.0"
+PV = "1.0.0"
 
-RPM_NAME = "aml-devel-0.3.0-1.2.aarch64.rpm"
-RPM_HASH = "c9b08231e4d11e055ad7ed643b392b9cdbad1fc715a0c7d10131bb2a05a9fec2ef9bc0e25e03d7b0a39de1817b844dca316fe665fcfe8306b00c3fbfb4cfccef"
+RPM_NAME = "aml-devel-1.0.0-1.3.aarch64.rpm"
+RPM_HASH = "fe44a1e2a9b1e28c7a40ee0e9f5e2b6c54b5ab9c2a166c884c32b8ba3d54135e5d4fbbb6faaeeac4fd199312eb04679b065a8456e031c2a81aac7a58afd56a22"
 
 RPROVIDES:${PN} += "aml-devel \
-pkgconfig-aml"
+pkgconfig-aml1"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libaml0"
+libaml1"
 
 inherit rpm

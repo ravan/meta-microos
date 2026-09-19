@@ -5,10 +5,10 @@ necessary abstractions on top to make things work with other Jackson \
 functionality."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-dataformat-yaml-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "aae4ac4de46531918861661a157a4f9e334d815398754bfe936430c180c2b66e41c4e720569d482a10c381bf4896e76ee7f43426aee8cea68ea098aa82ee7bf4"
+RPM_NAME = "jackson-dataformat-yaml-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "2bf753692b1139d251d5e5bc532af7fd38079185e4d671d8394e2453fdc47ca32bde479a26036b201e1e2081ca6f49c9892df7b84f609b2f504fcefbe71b060d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-yaml \

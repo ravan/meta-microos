@@ -6,10 +6,10 @@ supports PDF file generation, providing the foundation for basic \
 report generation facilities."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5PrintSupport5-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "e2d920c7e9c61d334979e14a3a3048eab9a7fd66d15e86d3244927f7e977b7743244b42a3c1411ca5fa44ebbaa68fbc235fbdd6ce8335d85c08733e75fd00ba8"
+RPM_NAME = "libQt5PrintSupport5-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "34e411d96c4908aa4e55c1431790eede8d683ee6b8f7421596679f5a46894a90993c84fa21fb6ba3357205d1f231a2b4e5e8e00a9a166d958b04ec9bbfcd762d"
 
 RPROVIDES:${PN} += "libQt5PrintSupport.so.5 \
 libQt5PrintSupport5 \
@@ -23,7 +23,6 @@ libQt5Widgets.so.5 \
 libQt5Widgets5 \
 libc.so.6 \
 libcups.so.2 \
-libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

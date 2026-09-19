@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libntlm."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6"
+PV = "1.8"
 
-RPM_NAME = "libntlm-devel-1.6-2.1.aarch64.rpm"
-RPM_HASH = "05ddebb997818ae6a1ce86b60d9c92153e5dd5924f3bd2f0085a834412a5803450cdab824b65a3d567f595412a56349e26d6af409c816f620e28b95e02b16d21"
+RPM_NAME = "libntlm-devel-1.8-2.3.aarch64.rpm"
+RPM_HASH = "b05bffbe455bd3357324cdc95cc3f281bd0cbbb97fa3e4a7930547610311b1082be745535d08bcd932297e38c234af429fe710be9acfa77dccd90d85a0f7667e"
 
 RPROVIDES:${PN} += "libntlm-devel \
 pkgconfig-libntlm"

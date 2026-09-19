@@ -27,8 +27,8 @@ LICENSE = "Apache-2.0 & CC-BY-4.0"
 
 PV = "0.0.13"
 
-RPM_NAME = "spdx-sbom-generator-0.0.13-1.10.aarch64.rpm"
-RPM_HASH = "14fa70d4a284e7e983a88d6a1d1a08b7f738cff7361d437baeb9c9c49628819fc558ed96e82ae13218cf148993324055c6ae605cf67bec4ce5825768277dbb1f"
+RPM_NAME = "spdx-sbom-generator-0.0.13-1.25.aarch64.rpm"
+RPM_HASH = "8fec685fa3484b2189756aff9d2ff47849927619dd46ada111ffb9f38d2508aff7a08c5b38c5f5500b91ae57f5ec068c6b6d32d75308c538f054547c4134d814"
 
 RPROVIDES:${PN} += "spdx-sbom-generator"
 

@@ -1,15 +1,14 @@
 SUMMARY = "Policy to enforce image verification for SLE BCI"
-DESCRIPTION = "This package ships a /etc/containers/policy.json which enforces image verification for SLE BCI."
+DESCRIPTION = "This package ships a /usr/share/containers/policy.json which enforces image verification for SLE BCI."
 LICENSE = "Apache-2.0"
 
-PV = "20230814"
+PV = "20260521"
 
-RPM_NAME = "libcontainers-openSUSE-policy-20230814-1.1.noarch.rpm"
-RPM_HASH = "d7e32536e37019bcef8577297d215d60762ff288993792a2b2bcb49e82e67ab9ed49ba420694f2363eea9e80ad2fb196575fb2b4d2f2ca0ef23ca6d01b2f3d52"
+RPM_NAME = "libcontainers-openSUSE-policy-20260521-1.1.noarch.rpm"
+RPM_HASH = "5d308959ea30541aee941660b65937b3d62113c6e75ad836c8fc896d9f368476b7e4f67db96efad2e96ab9be6dedbaffce8eb4eecd32ada3f3a1180c61bb83bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config-libcontainers-openSUSE-policy \
-libcontainers-openSUSE-policy \
+RPROVIDES:${PN} += "libcontainers-openSUSE-policy \
 libcontainers-policy"
 
 RDEPENDS:${PN} += ""

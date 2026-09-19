@@ -9,10 +9,10 @@ of simple use to check spelling, count words, and highlight \
 syntax of programming languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn51908"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-xesearch-2023.209.0.0.2svn51908-53.2.noarch.rpm"
-RPM_HASH = "ec337f370bc922f4b26617b6f98df5ff528aa5cd85fc9a35799cb915faafe58c38409cc0e6c499fb20d6d73042a7068619082a506be18d44a973edbffa5bfd4a"
+RPM_NAME = "texlive-xesearch-2026.226.0.0.2svn77682-59.4.noarch.rpm"
+RPM_HASH = "6a7de10bf4d8c357382f7aa44470f5248d69e3bacd4b8c9b22a307b162b360d4f61ae786266c1600cc0e9b5fd8d66ee824c9d8902dd5ebc09641fa2a390c8391"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-xesearch.tex \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Canadian (A
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-canadian_aboriginal-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "a4a2eec6d6fdff45b765260761d2e3bf25e6e22c8b7e9810c1a2edd4776c266eb2f993cf973ab17243d8411710ecfb4728dc9609f0512b10afc53b65a3e2ac1c"
+RPM_NAME = "tesseract-ocr-traineddata-script-canadian_aboriginal-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "06600e3670d62cac3db18aec22b367a527cf439fa912825ab445ac8db897ec9b180e48a4ade49f5f56d0b555d021306d6fd85bc7792bb4e2f80c6a5693f9af1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-canadian-aboriginal"

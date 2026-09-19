@@ -10,8 +10,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "mumps-mvapich2-devel-static-compat-5.3.5-3.4.aarch64.rpm"
-RPM_HASH = "eda28e6cc772f579331ba91be57ef8d53e92c8ad89c98323600bd7289cac9bc627c3fa1b5b5c8a3c76aab6d01a830f04cd8c26e471489d110556ecc0ce794136"
+RPM_NAME = "mumps-mvapich2-devel-static-compat-5.3.5-7.7.aarch64.rpm"
+RPM_HASH = "d1294a9747a23f7946b332d27a5e6d0081d930897e1884b3dc96a1c53502373140796c43ec5bfd714bb5702db1d4f067117d44e8403a8c29063ce226b6df5083"
 
 RPROVIDES:${PN} += "mumps-mvapich2-devel-static-compat"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-leftindex"
 DESCRIPTION = "This package includes the documentation for texlive-leftindex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1betasvn56182"
+PV = "2026.226.0.0.2betasvn77682"
 
-RPM_NAME = "texlive-leftindex-doc-2023.209.0.0.1betasvn56182-55.1.noarch.rpm"
-RPM_HASH = "2e9218e9e36e1e8feac1c36cf0563c9b058a5d22b8e50a68ace7ef62af23048ccbc6a86c0d3ace9f9e5f4d2840cad83a27588e8691b0b4520dcc845ad5c90aca"
+RPM_NAME = "texlive-leftindex-doc-2026.226.0.0.2betasvn77682-61.2.noarch.rpm"
+RPM_HASH = "45f745ea5d57d476bc537d88ec986d128d891ccd652fe27f3743a9178e57763cdfada7ee5d7d02ca5908fe91119cbf88f74094926d895f7f427286064737712b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-leftindex-doc"

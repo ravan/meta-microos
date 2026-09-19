@@ -25,15 +25,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.20"
 
-RPM_NAME = "perl-Devel-PartialDump-0.20-1.22.noarch.rpm"
-RPM_HASH = "837280d46122f6a6c0f4d524c098435e8f3b538b2c8c87e43ccd8bd53d102e501eb4bb7ed6392656cf03448ca934cb141a3bc49795a377e72dc5b56e7b1128a9"
+RPM_NAME = "perl-Devel-PartialDump-0.20-1.36.noarch.rpm"
+RPM_HASH = "ddd09ac4a7aed06d2c0bf4879536e69ecdee12b2977e398d3ce981065bdcf79e7c55b4e7e7651e355d0bacb96c82e3db52a29092f51b4d0d69f57d4c618f2602"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DB \
 perl-Devel--PartialDump \
 perl-Devel-PartialDump"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Tiny \
 perl-Sub--Exporter \
 perl-namespace--clean"

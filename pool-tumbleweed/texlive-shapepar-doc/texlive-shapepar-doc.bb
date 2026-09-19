@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-shapepar"
 DESCRIPTION = "This package includes the documentation for texlive-shapepar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn30708"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-shapepar-doc-2023.209.2.2svn30708-54.1.noarch.rpm"
-RPM_HASH = "ba9024a4a0a1d52561a3093e37e70b19f0be8325816350f17afe29d66c7363677e2b3738f68c695495db86166c9bfb3482c64cb3c36baacf165447adc2d92c02"
+RPM_NAME = "texlive-shapepar-doc-2026.226.2.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "f00ac57352185a639ff1912bd13d7bf3e9b7b70b9b5f1b8ab6bdd6d7c361e616955dc97cda9692fbee8f8b8ae7ed332543dc37873b82870aa341ee78292a5798"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shapepar-doc"

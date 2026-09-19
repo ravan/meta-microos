@@ -19,14 +19,12 @@ particularly relevant. \
 The interface to Berkeley DB is implemented with a number of Perl classes."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.65"
+PV = "0.670.0"
 
-RPM_NAME = "perl-BerkeleyDB-0.65-1.8.aarch64.rpm"
-RPM_HASH = "610062fa118d9729fb442d99b413c740a6b8fa9ced36ba0698a1c96b1ea69100e07f4a17ea4c38f21bc6caa67b51b0807a74b27f3ca35b064db1d78e2492f862"
+RPM_NAME = "perl-BerkeleyDB-0.670.0-1.6.aarch64.rpm"
+RPM_HASH = "4ba71625103eee8792000e9bee7eb2e0f644f08abca5bcad5ac503a3a4b4c2cb6c51c5cb7ba5357e676259dff4027e0b4ede8f2f1de74b332983b9e50386fcaf"
 
 RPROVIDES:${PN} += "perl-BerkeleyDB \
-perl-BerkeleyDB---tiedArray \
-perl-BerkeleyDB---tiedHash \
 perl-BerkeleyDB--Btree \
 perl-BerkeleyDB--CDS--Lock \
 perl-BerkeleyDB--Common \
@@ -45,6 +43,6 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdb-4.8.so \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

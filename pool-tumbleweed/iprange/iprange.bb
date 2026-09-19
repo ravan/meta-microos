@@ -2,10 +2,10 @@ SUMMARY = "IP address range management tool for FireHOL"
 DESCRIPTION = "This tool manages IP address ranges for FireHOL."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.4"
+PV = "2.1.1"
 
-RPM_NAME = "iprange-1.0.4-2.16.aarch64.rpm"
-RPM_HASH = "54ab47d0001b753c9938a93b1c45a5ffb3ffe76794c5750daf299025e07d85a1e72b9bedb86c62789e71784a92f804dfbf8f77178fbb858955756ad2729991a7"
+RPM_NAME = "iprange-2.1.1-1.2.aarch64.rpm"
+RPM_HASH = "67cdc747ca5fdc1d68fb38559ea1b05b0e8671b798fdaa07ed656ee43c2c15bc65c548d9026cb0c4d3b44fd89f723b3a1147a25a510c8b131626a18a54d46b14"
 
 RPROVIDES:${PN} += "iprange"
 

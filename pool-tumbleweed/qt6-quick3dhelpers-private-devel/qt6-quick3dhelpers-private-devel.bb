@@ -1,14 +1,15 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 Quick3DHelpers library"
 DESCRIPTION = "This package provides private headers of libQt6Quick3DHelpers that do not \
 have any ABI or API guarantees."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quick3dhelpers-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "33d18f6eb24200baa1d8065cdefbe7376d296cdb63582203dd49d2c647745aa3899781ab6ce5c89b0748e24c691597fe4577118410e2b311cb0a2701ae41c3b7"
+RPM_NAME = "qt6-quick3dhelpers-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "59e0470f7d2ddcf76ea5246af0445042edafde5890db8004163daafde4dfdccf9472f118fbb9cd29136cf629dd1e95ed5a7cf287b93d2477d7163041c9a941d6"
 
-RPROVIDES:${PN} += "qt6-quick3dhelpers-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6Quick3DHelpersPrivate \
+qt6-quick3dhelpers-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6Quick3DHelpers"
 

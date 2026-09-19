@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.6"
 
-RPM_NAME = "mtdev-devel-1.1.6-1.10.aarch64.rpm"
-RPM_HASH = "649704a398165230096035ec30eb725cc20b34c00ae5a967e5f180c18c9f198d24c45a7377371b909aab5cdd4bdab8524bf5ebc58c4a49219a62aebd09aa983f"
+RPM_NAME = "mtdev-devel-1.1.6-1.20.aarch64.rpm"
+RPM_HASH = "03759c93df410d0154b2a03d8f8464cffef8cb4d4700eafc80a5d783d139326c02c756764d6ec187f5c88bf1ddbd3c0a7cd2189e230acc85d7e38ba80d7fcea5"
 
 RPROVIDES:${PN} += "mtdev-devel \
 pkgconfig-mtdev"

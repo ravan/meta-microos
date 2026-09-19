@@ -12,10 +12,10 @@ The tool is capable of acting as: \
 - Use of macros"
 LICENSE = "Apache-2.0"
 
-PV = "5.2.0"
+PV = "6.4.1"
 
-RPM_NAME = "aqute-bnd-5.2.0-3.2.noarch.rpm"
-RPM_HASH = "501e9955eb3afb0dc192990cdf07ee5d2e7b969da875e4253ad704963b97b3c4a93302168868ad270e63aa0f6257487f8b2027e462c56ae070bbffac9773aa66"
+RPM_NAME = "aqute-bnd-6.4.1-7.1.noarch.rpm"
+RPM_HASH = "7d14e323c11acf37a0c30b26d6d1577cb5982509c3fa85db76d99663c762cea75a1d8b2636103cbea302ffc09bd3254917e79ebc1ef3e90cbab54a108e1b1a13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aqute-bnd \
@@ -34,13 +34,11 @@ aqute-bndlib \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn-biz.aQute.bnd-aQute.libg \
-mvn-biz.aQute.bnd-biz.aQute.bnd.annotation \
+mvn-biz.aQute.bnd-biz.aQute.bnd.exporters \
+mvn-biz.aQute.bnd-biz.aQute.bnd.util \
 mvn-biz.aQute.bnd-biz.aQute.bndlib \
 mvn-org.apache.ant-ant \
 mvn-org.osgi-osgi.annotation \
-mvn-org.osgi-osgi.cmpn \
-mvn-org.osgi-osgi.core \
 mvn-org.slf4j-slf4j-api \
 mvn-org.slf4j-slf4j-simple"
 

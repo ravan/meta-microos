@@ -2,10 +2,10 @@ SUMMARY = "Notifications Library"
 DESCRIPTION = "D-BUS notifications library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.8.2"
+PV = "0.8.8"
 
-RPM_NAME = "libnotify4-0.8.2-1.4.aarch64.rpm"
-RPM_HASH = "3b469ffa396d68abcfe5a7c781d387e0fe3b7db0732a28bf4ceed1e51acb611ffe7f4c57420a89acc578ff269580a697ec0e72e253b6aeac31a24735bcf2dca1"
+RPM_NAME = "libnotify4-0.8.8-2.4.aarch64.rpm"
+RPM_HASH = "b12e1c197a5acbc01d272aeaea80f978ee018a996e9345ad9982efc4f411e17dedddce12f264ec77d508a8e80827c1a9a93893cd96f7fd8233237ba2808c7620"
 
 RPROVIDES:${PN} += "libnotify.so.4 \
 libnotify4"

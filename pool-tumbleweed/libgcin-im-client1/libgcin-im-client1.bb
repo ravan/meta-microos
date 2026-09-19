@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.9.0"
 
-RPM_NAME = "libgcin-im-client1-2.9.0-4.18.aarch64.rpm"
-RPM_HASH = "ee6edd728a00036f599d88b9568d539efcfb7e3a93b88bd0950e1652e346146cae71e59224862b95b63a63976c0d12caec0c0ced1ae1866f0f8e76e3460cc861"
+RPM_NAME = "libgcin-im-client1-2.9.0-7.9.aarch64.rpm"
+RPM_HASH = "c8eb3a1f43925c9b47cbb168b7301e4db95c09ae772cb26564f38b7601df1dbe879beb3a3b89fd2f4bf6fe5a177ac57d37c8d6c723b32fdcacaa6d5eb8a7721d"
 
 RPROVIDES:${PN} += "libgcin-im-client.so.1 \
 libgcin-im-client1"

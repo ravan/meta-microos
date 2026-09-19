@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-facture-belge-simple-sans-tva"
 DESCRIPTION = "This package includes the documentation for texlive-facture-belge-simple-sans-tva"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn49004"
+PV = "2026.226.2.1svn67573"
 
-RPM_NAME = "texlive-facture-belge-simple-sans-tva-doc-2023.209.2.1svn49004-53.1.noarch.rpm"
-RPM_HASH = "0239dcbe061c8a2c063cf1e725f59f653996e3235a89c0198b9b0168b828cf148957adf6bbe6e56ac63288de163fbf8a01a00c3483ae96f66b350eceb59cd21e"
+RPM_NAME = "texlive-facture-belge-simple-sans-tva-doc-2026.226.2.1svn67573-59.2.noarch.rpm"
+RPM_HASH = "f3b231fa3c634c36ec02f1380b459882040fda569522baf503cd5f17a9139b474bdef47672a9bad001d3ada69525b78fb53407c38186a21f841cbae5fc0d1921"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-facture-belge-simple-sans-tva-doc"

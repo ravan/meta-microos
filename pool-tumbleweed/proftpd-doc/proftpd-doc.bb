@@ -2,10 +2,10 @@ SUMMARY = "Documentation for ProFTPD"
 DESCRIPTION = "Here are Documentation for ProFTPD"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.7f"
+PV = "1.3.9c"
 
-RPM_NAME = "proftpd-doc-1.3.7f-1.4.aarch64.rpm"
-RPM_HASH = "e4b3b5008663f98f5cba8bf8c7aaecccc318982712ff998bb40af0f232fa01e3fb6b222def17f1419c69f428c3d9a52842691a14892827574444a900c2462327"
+RPM_NAME = "proftpd-doc-1.3.9c-2.1.aarch64.rpm"
+RPM_HASH = "ef916eaa8af29fa52095e726330e06f47a8b8dbbc45e3309929591cbdb2255e56b6ed92631aa07b989f89bf334189d07bd58b6ac36259844600390f0147bf786"
 
 RPROVIDES:${PN} += "proftpd-doc"
 

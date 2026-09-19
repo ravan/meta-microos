@@ -7,15 +7,14 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.21"
 
-RPM_NAME = "libcaribou0-0.4.21-8.8.aarch64.rpm"
-RPM_HASH = "d032c819546e40017a81ee30435a85ee369fb9acd2f54b0b1917260c1299d876666724e14769cdb51b507b2716066dcaf87ccd892aa418a496eb36a5d5ee48bd"
+RPM_NAME = "libcaribou0-0.4.21-10.7.aarch64.rpm"
+RPM_HASH = "4b06200b52dcfe557be78e09b88fa7165b079e40d852b027fe6b73fb28e4668ef927f094eec6876b6647023445d6c4548f56c14675363367bef229ccadf8e2a4"
 
 RPROVIDES:${PN} += "libcaribou.so.0 \
 libcaribou0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 caribou-common \
-ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXtst.so.6 \
 libc.so.6 \
@@ -25,6 +24,6 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libxklavier.so.16 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

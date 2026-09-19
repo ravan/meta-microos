@@ -4,10 +4,10 @@ evtinfo and evtexport. See evtxtools for Windows XML Event Log (EVTX) \
 programs."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221022"
+PV = "20260705"
 
-RPM_NAME = "libevt-tools-20221022-4.1.aarch64.rpm"
-RPM_HASH = "f88798852511d8107e58a4fa642522cfc256c5990db7885d3d7c72b15c1d9dbbe4c2487b50d84a455c7be8f14d7e7e87d43804dd78dd2b4e3fa52af761cdd910"
+RPM_NAME = "libevt-tools-20260705-1.2.aarch64.rpm"
+RPM_HASH = "482101f1f7d38d12df05d331cacacc6cf5ad581dba5ef2b6f17469e5fa38bba6ee5d73c9e681025c5b274eaed3c491fa9f17b7b7585733e5b405ac3579ed1086"
 
 RPROVIDES:${PN} += "libevt-tools"
 

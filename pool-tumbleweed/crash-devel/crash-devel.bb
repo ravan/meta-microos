@@ -13,10 +13,10 @@ Authors: \
     David Anderson <anderson@redhat.com>"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.0.3"
+PV = "9.0.2"
 
-RPM_NAME = "crash-devel-8.0.3-2.3.aarch64.rpm"
-RPM_HASH = "944b4ebe73fe84c6c00588adb46425d1204205406b1102c7c0fae459025af75c34cc1260f7d4111cd5145967ceeea32bb32734b78311d9917c8acba532269a84"
+RPM_NAME = "crash-devel-9.0.2-1.6.aarch64.rpm"
+RPM_HASH = "8e3d8deeaf618c45b6ca849bf1a75e0bf45200e48ce20f37b30a0b931d6f24bcc54e5a27c513705c547ddfc6a27397cb0f2ccd3e4bd39ade4b62547d3bb1b917"
 
 RPROVIDES:${PN} += "crash-devel"
 

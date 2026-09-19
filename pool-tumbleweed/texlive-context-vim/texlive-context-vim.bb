@@ -10,10 +10,10 @@ generate the syntax highlighting. There is a helper \
 2context.vim script to do the syntax parsing in ViM."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn62071"
+PV = "2026.226.svn62071"
 
-RPM_NAME = "texlive-context-vim-2023.209.svn62071-55.1.noarch.rpm"
-RPM_HASH = "029872f1f5829b44a52986826ded34ae86a718ed71f761ed3c967b6bad5782c23a8b41f16cc53c5bba768fde6d0cbe6e641b46755981b4aeb1a4dc2b7870a4d7"
+RPM_NAME = "texlive-context-vim-2026.226.svn62071-61.2.noarch.rpm"
+RPM_HASH = "9a1d370d3b435e5e570e08e9a295cc08c73e0a627cff653ca9366d1eedadbbf109ffadc15b0f8bda6f1cf74206bbb0d3ee1b8fd4ab2bdf44c30ff5da36046d87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-vim.tex \

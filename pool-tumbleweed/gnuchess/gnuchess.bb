@@ -3,10 +3,10 @@ DESCRIPTION = "A worthy chess opponent that runs in text mode. Find an X11 inter
 in the xboard package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.2.9"
+PV = "6.3.0"
 
-RPM_NAME = "gnuchess-6.2.9-2.8.aarch64.rpm"
-RPM_HASH = "385e5f6fbde6c7532d8efab812d21d6370a5ae090ed0151a0a07f832155bbd923e87229939bf968567c05fbcca47b26dfaa0def0c066031867a4958148568255"
+RPM_NAME = "gnuchess-6.3.0-1.6.aarch64.rpm"
+RPM_HASH = "7b430744612807645be93e045e9eb85ddf4924aecffa460ddec8ccc11e2b22e1e14c493bcc8a2fa8b26e99b351131c8a88cbb68a113170cf8a11e5f177e91b63"
 
 RPROVIDES:${PN} += "chess-backend \
 gchess \

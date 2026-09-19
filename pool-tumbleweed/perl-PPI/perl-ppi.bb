@@ -2,10 +2,10 @@ SUMMARY = "Parse, Analyze and Manipulate Perl (without perl)"
 DESCRIPTION = "Parse, Analyze and Manipulate Perl (without perl)"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.276"
+PV = "1.291.0"
 
-RPM_NAME = "perl-PPI-1.276-1.5.noarch.rpm"
-RPM_HASH = "aa32ecf063b661bd6af6e9620208c4db93c3dfa4c58cd8a3d308bc6cced80632b4618d25b5286237a58721491f345eb48d3c495e11ba8c786883d08c6dade355"
+RPM_NAME = "perl-PPI-1.291.0-1.3.noarch.rpm"
+RPM_HASH = "55b59497fcd668925afc78c7bf4c8bb30dae70043cac3e7fae98f6a8b7100706337e3c9468fbdb5b42a98e236217fd4713fa940f347ddd96bbe7b2fba80972f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PPI \
@@ -48,13 +48,11 @@ perl-PPI--Structure--Constructor \
 perl-PPI--Structure--For \
 perl-PPI--Structure--Given \
 perl-PPI--Structure--List \
+perl-PPI--Structure--Signature \
 perl-PPI--Structure--Subscript \
 perl-PPI--Structure--Unknown \
 perl-PPI--Structure--When \
 perl-PPI--Token \
-perl-PPI--Token---QuoteEngine \
-perl-PPI--Token---QuoteEngine--Full \
-perl-PPI--Token---QuoteEngine--Simple \
 perl-PPI--Token--ArrayIndex \
 perl-PPI--Token--Attribute \
 perl-PPI--Token--BOM \
@@ -103,11 +101,14 @@ perl-PPI--Transform--UpdateCopyright \
 perl-PPI--Util \
 perl-PPI--XSAccessor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Clone \
 perl-List--Util \
 perl-Params--Util \
+perl-Safe--Isa \
 perl-Storable \
-perl-Task--Weaken"
+perl-Task--Weaken \
+perl-YAML--PP \
+perl-version"
 
 inherit rpm

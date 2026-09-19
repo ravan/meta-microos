@@ -8,10 +8,10 @@ be defined as simple Moose accessors using the 'option' and 'parameter' \
 keywords respectively."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.42"
+PV = "1.430.1"
 
-RPM_NAME = "perl-MooseX-App-1.42-2.1.noarch.rpm"
-RPM_HASH = "fe6dbbf913829a198c1e9dcf2c4b7b86e0ae021a9d193bf4bef9a4dae4701d87bcab1b10ed0490a9856adcf320f0e9b607859f8616c52066674537b107c98ad7"
+RPM_NAME = "perl-MooseX-App-1.430.1-1.10.noarch.rpm"
+RPM_HASH = "aae1a4eb52963b2a781ea99335d1e294c1c9e0d0439f3ca0ffaac6a76518fc82c9f1d197a5bfaf2b5424e3d9fe49e9121a3ead06f49ba9182a91d9770e537331"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Moose--Meta--Attribute--Custom--Trait--AppDepends \
@@ -68,7 +68,8 @@ perl-MooseX--App--Simple \
 perl-MooseX--App--Utils \
 perl-MooseX-App"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Config--Any \
 perl-List--Util \
 perl-Module--Pluggable \
 perl-Moose \

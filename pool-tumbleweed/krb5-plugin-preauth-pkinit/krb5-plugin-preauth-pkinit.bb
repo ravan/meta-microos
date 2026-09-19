@@ -4,10 +4,10 @@ which can improve network security by eliminating the insecure \
 practice of cleartext passwords. This package includes a PKINIT plugin."
 LICENSE = "MIT"
 
-PV = "1.21.1"
+PV = "1.22.2"
 
-RPM_NAME = "krb5-plugin-preauth-pkinit-1.21.1-1.1.aarch64.rpm"
-RPM_HASH = "845034d3b8159c00cd45638d48d5c0cbdb4a42a7aae0d23be9c73d478c8b980571547dd6bebd8922a79292af405fd2daa677ed0e6efa9dd919be26f696fe58d6"
+RPM_NAME = "krb5-plugin-preauth-pkinit-1.22.2-4.2.aarch64.rpm"
+RPM_HASH = "980d231751b7e867b8210d7900080e9cd809ecec2eb553160ad1d3240b2be0a32b7d786d8ca056fdaf1f4d0932c69c208f8eb95531f8d2baecdeae5c7f72d984"
 
 RPROVIDES:${PN} += "krb5-plugin-preauth-pkinit"
 

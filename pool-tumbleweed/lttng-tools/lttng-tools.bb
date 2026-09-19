@@ -3,23 +3,24 @@ DESCRIPTION = "This package provides the userspace tools for controlling the LTT
 subsystem from userspace."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "2.13.9"
+PV = "2.14.0"
 
-RPM_NAME = "lttng-tools-2.13.9-1.5.aarch64.rpm"
-RPM_HASH = "61a9ee51ecc1b36ae893d903419a0a15cf430dc0a7cf8b52c2c7a63b2cd043175c915a3a59fc3fe470d468031e214cca34f174dcd9bfee108ed1e5fe6fb6089c"
+RPM_NAME = "lttng-tools-2.14.0-1.4.aarch64.rpm"
+RPM_HASH = "089cb8e96ad1d31733eaa80b16c32aad1fe9d002c3c27443acdb2d090c06b01c395a7802f01939bb3e26b89d106ca80e1ce9bcdb6ddbe8cf4cee61f65fbdc014"
 
 RPROVIDES:${PN} += "lttng-tools"
 
-RDEPENDS:${PN} += "babeltrace \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-liblttng-ctl.so.0 \
+libgcc-s.so.1 \
+liblttng-ctl.so.6 \
 liblttng-ust-common.so.1 \
-liblttng-ust-ctl.so.5 \
+liblttng-ust-ctl.so.6 \
 libpopt.so.0 \
+libstdc++.so.6 \
 liburcu-cds.so.8 \
 liburcu-common.so.8 \
 liburcu.so.8 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -5,10 +5,10 @@ representation of a size in bytes. This library takes localization into \
 account. It also provides support for sizes bigger than MAXUINT64."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.9"
+PV = "2.12"
 
-RPM_NAME = "libbytesize1-2.9-1.1.aarch64.rpm"
-RPM_HASH = "a73c227689c1e5012d58fda6fdd3d2b121437fd012a899728969bfb58a500320cbfcd9a2d2a44ba9f266707431b04894d7971a20129312f67e20fcdd09835f17"
+RPM_NAME = "libbytesize1-2.12-1.6.aarch64.rpm"
+RPM_HASH = "f9f6760284211eb160ef6dca3fc09dc937c3afb85024ce3e432520048d63da2924877e28db8d5c938a30d8adae93666e5a396974b4c5d83dffc4169f3feb3c2d"
 
 RPROVIDES:${PN} += "libbytesize \
 libbytesize.so.1 \

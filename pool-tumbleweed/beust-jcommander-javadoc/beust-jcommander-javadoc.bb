@@ -2,10 +2,10 @@ SUMMARY = "API documentation for beust-jcommander"
 DESCRIPTION = "This package contains the API documentation for beust-jcommander."
 LICENSE = "Apache-2.0"
 
-PV = "1.82"
+PV = "1.85"
 
-RPM_NAME = "beust-jcommander-javadoc-1.82-1.1.noarch.rpm"
-RPM_HASH = "a2b8cba3742bf8441d6755c7282d79e34af80f32ed73b5a716b4e14eb83ef08bbebe4ad6bc34feab11a0043be164a2a22e5b7627baee82dd91155e76e85e7e96"
+RPM_NAME = "beust-jcommander-javadoc-1.85-1.9.noarch.rpm"
+RPM_HASH = "7b45c5d0be62072b06ffac164963160b7371a8d697d475bbc38b09daea80b9f84574b06d26cea9b1e5d5cb9d9d99d47d622d69afc7498ec9be60957327720cf3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "beust-jcommander-javadoc"

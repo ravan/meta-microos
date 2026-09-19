@@ -3,10 +3,10 @@ DESCRIPTION = "User MediaWiki LaTeX commands to copy and past formulae from \
 MediaWiki to LaTeX documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn46844"
+PV = "2026.227.1.3svn76874"
 
-RPM_NAME = "texlive-texvc-2023.209.1.1svn46844-55.1.noarch.rpm"
-RPM_HASH = "d5532ee11b243d6166fdd283cf3b5e6c2b74887d878dec631bf2b12e259cc6ddbd12c9ddb08d99aa1f666ac524d92514d3a3052a665a14f3249c5d59e832b79c"
+RPM_NAME = "texlive-texvc-2026.227.1.3svn76874-62.2.noarch.rpm"
+RPM_HASH = "40dc642b04e22caa1bb37768f3064eeac6b266a2dec016d9388c78dc64271521d87b3e62c56c4ac57bfdba3327a3e379e7e0c3217672a6785871d8021eda0679"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texvc.sty \
@@ -21,10 +21,14 @@ sed \
 tex-amsfonts.sty \
 tex-amsmath.sty \
 tex-amssymb.sty \
+tex-arcs.sty \
 tex-babel.sty \
+tex-bbold.sty \
 tex-cancel.sty \
 tex-color.sty \
 tex-eurosym.sty \
+tex-mhchem.sty \
+tex-stix.sty \
 tex-teubner.sty \
 texlive \
 texlive-filesystem \

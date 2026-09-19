@@ -11,10 +11,10 @@ This module forked from File::MimeInfo. \
 This module follows version 0.6 of BaseDir specification."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.09"
+PV = "0.90.0"
 
-RPM_NAME = "perl-File-BaseDir-0.09-1.11.noarch.rpm"
-RPM_HASH = "e601170756807a5a8fb3fbe06d658687a15a0e84f4635976faaf3ce89df5e34857299fc7dae9cc8ecaeffb692e99820c25c7bc31047d4f5ff3ae68b9cefdb3ac"
+RPM_NAME = "perl-File-BaseDir-0.90.0-1.5.noarch.rpm"
+RPM_HASH = "4aa7158b29fa344e1a0ca8feaa2d9420c8db9e2405c0054e999e5e554291b9ef5c9bdc8f4443b9a3e6a42d25b23d9131d058c090002fdc2841936ae71db1cc73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--BaseDir \
@@ -22,7 +22,7 @@ perl-File--IconTheme \
 perl-File--UserDirs \
 perl-File-BaseDir"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IPC--System--Simple"
 
 inherit rpm

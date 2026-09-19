@@ -2,55 +2,62 @@ SUMMARY = "Generic map viewer"
 DESCRIPTION = "Marble is a viewer of map data."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "marble-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "b08da383486a8469e747e43f5fd347238a8af6615765a74b8eef2d77fd886c06360c54edb3a97613a45633e56d1d1526143514e73a57f0a62809474b28879ce8"
+RPM_NAME = "marble-26.08.1-1.2.aarch64.rpm"
+RPM_HASH = "5470c9595208a9054fd5487c0e9ecad921cd55a170836f5e0a8d370e568649fdf36ecfc6d7d40ed6b66f0225cb9c77be3c2d6c9a2f2138e4f028783c3f096cee"
 
 RPROVIDES:${PN} += "libmarble-part.so \
 libmarbledeclarative.so \
-libmarblequick.so \
+libmarbleimageprovider.so \
 marble \
 marble5 \
-qt5qmlimport-org.kde.marble.private.plasma.0 \
-qt5qmlimport-org.kde.marble.private.plasma.1"
+qt6qmlimport-org.kde.marble \
+qt6qmlimport-org.kde.marble.2 \
+qt6qmlimport-org.kde.marble.254 \
+qt6qmlimport-org.kde.marble.6 \
+qt6qmlimport-org.kde.marble.imageprovider \
+qt6qmlimport-org.kde.marble.imageprovider.254 \
+qt6qmlimport-org.kde.marble.imageprovider.6"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Parts.so.5 \
-libKF5Runner.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Positioning.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5SerialPort.so.5 \
-libQt5Sql.so.5 \
-libQt5Svg.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOGui.so.6 \
+libKF6Parts.so.6 \
+libKF6Runner.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6OpenGL.so.6 \
+libQt6Positioning.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6SerialPort.so.6 \
+libQt6Sql.so.6 \
+libQt6Svg.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libastro.so.1 \
 libastro1 \
 libc.so.6 \
-libgcc-s.so.1 \
-libgps.so.30 \
+libgps.so.32 \
 libm.so.6 \
-libmarblewidget-qt5-28 \
-libmarblewidget-qt5.so.28 \
-libphonon4qt5.so.4 \
-libprotobuf.so.23.4.0 \
-libshp.so.2 \
+libmarblewidget-qt6-28 \
+libmarblewidget-qt6.so.28 \
+libphonon4qt6.so.4 \
+libprotobuf.so.36.1.0 \
+libshp.so.4 \
 libstdc++.so.6 \
 libz.so.1 \
 marble-data \

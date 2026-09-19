@@ -1,19 +1,19 @@
-SUMMARY = "KDE PIM Libraries"
+SUMMARY = "Library to assist working with LDAP directories"
 DESCRIPTION = "This package contains additional libraries for KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kldap-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "d3aa1da24d5b42fc4da68b01f4b4b8b3f16f1035b8ad99d581d645eefd3c5f7e9f727a3646dac132341c2f79f35684ca5e195ce7b0af20e3aab10ee729bbf0a4"
+RPM_NAME = "kldap-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "472f7bed9679ca10beb1353c904dc702741af81fe49cf61fbcb080bd65f493c419b11f71014b1ab34fac3999bc0a59722779f800c38e3fdb423c8fc9eb95ade2"
 
 RPROVIDES:${PN} += "kldap"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libKPim5Ldap.so.5 \
-libQt5Core.so.5 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKPim6LdapCore.so.6 \
+libQt6Core.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

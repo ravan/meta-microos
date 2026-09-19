@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-g-brief"
 DESCRIPTION = "This package includes the documentation for texlive-g-brief"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.0.3svn50415"
+PV = "2026.226.4.0.3svn77050"
 
-RPM_NAME = "texlive-g-brief-doc-2023.209.4.0.3svn50415-53.1.noarch.rpm"
-RPM_HASH = "be67a83c7a0b31c35c0f78f8d2ed61dc9d657025ddcfec76f10684c1c702e9969aa5d0b29d2b1892a591ae68d0b1451bf6d5106849ce08785e3288355964bc7c"
+RPM_NAME = "texlive-g-brief-doc-2026.226.4.0.3svn77050-60.2.noarch.rpm"
+RPM_HASH = "69d2438ec1a0b83a681167573cd5b73df534ebea257493b6abc66044a6d3a1a7edfefabb174b2c336a70e0b8e0a78957ef3ff8340b261cc39c3ca96ec28bfbcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-g-brief-doc-de \

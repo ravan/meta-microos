@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-venndiagram"
 DESCRIPTION = "This package includes the documentation for texlive-venndiagram"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn47952"
+PV = "2026.226.1.2svn47952"
 
-RPM_NAME = "texlive-venndiagram-doc-2023.209.1.2svn47952-54.1.noarch.rpm"
-RPM_HASH = "be262b2218842d6c4611f7c44c65e8e9cf5d5fcd40515f33b5d16250f7b0de4c546d2431e14b8ae39ae64563a05c68d11c9c6e631e2e1d3b9f8e8b6f539bb44e"
+RPM_NAME = "texlive-venndiagram-doc-2026.226.1.2svn47952-60.2.noarch.rpm"
+RPM_HASH = "5db7212a3fd23c2dc056b5d59174ba491402ca3dfc6b5b634228d810d64e791493e38c87f748887b5ae86f61f641278e7b0dbc34f803a851da1ea2bf4ffcf501"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-venndiagram-doc"

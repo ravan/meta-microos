@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon CloudWatch Logs"
 DESCRIPTION = "The AWS Java SDK for Amazon CloudWatch Logs module \
 holds the client classes that are used for communicating \
 with Amazon CloudWatch Logs Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-logs-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "ea415380f690390026c8f1487ad7ac986f456df3bb6ee842abaec24eedad701999ec0bc0c2ac5cf201945533010acab7322ed6d27e023f88bdcd2318ba84995c"
+RPM_NAME = "aws-sdk-java-logs-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "df875e0c1ce71f6cbc94a0d44d21a7e9bf2b74d40c1f806ab0f9f5f3f9791b84755dd399e6a850405011cef7153c65a9689317d45170cb9a35dff1c0e97d14af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-logs \

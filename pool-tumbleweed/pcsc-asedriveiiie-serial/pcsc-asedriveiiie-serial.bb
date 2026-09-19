@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.7"
 
-RPM_NAME = "pcsc-asedriveiiie-serial-3.7-7.28.aarch64.rpm"
-RPM_HASH = "0ff57ac977d9477e0b2947f1a5f3ca19134d4d1e4b784c594af864f28d84d7f35b3a851e9ea01c86ba7732ebe7519fd95ca4d959a31d75f5fb397baf2d311b3f"
+RPM_NAME = "pcsc-asedriveiiie-serial-3.7-8.5.aarch64.rpm"
+RPM_HASH = "7cb310f152072467cbfb6381e80ab451c9ee8b8f6a0735e499e1d4ad954fb2b6be18d4fdccdfc4a46d18135522d0b623fe9999d2fcd64618348570565cf3207f"
 
 RPROVIDES:${PN} += "libASESerial.so \
 pcsc-asedriveiiie-serial"

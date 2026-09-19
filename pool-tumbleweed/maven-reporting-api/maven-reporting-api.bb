@@ -6,10 +6,10 @@ from Maven 3 core. \
 This is a replacement package for maven-shared-reporting-api"
 LICENSE = "Apache-2.0"
 
-PV = "3.1.0"
+PV = "4.0.0"
 
-RPM_NAME = "maven-reporting-api-3.1.0-3.8.noarch.rpm"
-RPM_HASH = "cb7174c6bf852e4119b718593799c65ad1cd0061b01fc5868cc0ad59363afdd209319aef028d8bcd935d5888ce30f830199e7a79e63fe02924eca3027f82426e"
+RPM_NAME = "maven-reporting-api-4.0.0-1.8.noarch.rpm"
+RPM_HASH = "e13ae839cd978e5dcfb2f88cf01251b68f4c2e092e9642ea1e966c64b47de1cf89649b5abfdc74448bec062a04f91da7671c35490b6846e3b24b50d3fd184785"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-reporting-api \

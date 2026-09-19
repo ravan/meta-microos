@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-figbas"
 DESCRIPTION = "The  separated fonts package for texlive-figbas"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.3svn28943"
+PV = "2026.226.1.0.3svn28943"
 
-RPM_NAME = "texlive-figbas-fonts-2023.209.1.0.3svn28943-53.1.noarch.rpm"
-RPM_HASH = "b04c62135800d7bc378f9bf28c9993ea3dcca4f8ba1aae2f7e1ac8d78ff88fdfd888cde72caa0ac1746b48afa86f229d7d38e14003a47ffe0c5f7cab36db4ae7"
+RPM_NAME = "texlive-figbas-fonts-2026.226.1.0.3svn28943-59.2.noarch.rpm"
+RPM_HASH = "d859c48c7955fd3296d68b41ae1e2817c41592e7ea61d53020cf528342c77eecc862c3039fd52528b5102d2c580d64e63dd4cfdf84e3daf1e4f253646871fdfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-computermodern \

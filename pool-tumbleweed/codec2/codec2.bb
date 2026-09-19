@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "codec2-1.2.0-1.1.aarch64.rpm"
-RPM_HASH = "74783ec367cfa0b317682f350453c76cbe8519f9ca7bfc9403711caeda16b53137cbaf910b7caf000d10014949d5dd4bd1902c2b9ffeabfc7988f95c78a4cd21"
+RPM_NAME = "codec2-1.2.0-2.8.aarch64.rpm"
+RPM_HASH = "8ee0e3ea8496266adfd5677d2a7915e6f8afa5027fc59398eb7de730acd6d44730a4c080593c4cf4ae3dd30ae5f35cf06a9ff84790f6a9a9999ace41c2860b5e"
 
 RPROVIDES:${PN} += "codec2"
 

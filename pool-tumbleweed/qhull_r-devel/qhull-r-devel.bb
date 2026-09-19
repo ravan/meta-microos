@@ -8,8 +8,8 @@ LICENSE = "Qhull"
 
 PV = "2020.2"
 
-RPM_NAME = "qhull_r-devel-2020.2-3.6.aarch64.rpm"
-RPM_HASH = "689db9f3fe56fb75a227349ff8ac685e74a9fa577f15db8842251a9b9ff969cd50fea57f47812220659cf62f34323d4ca34190ac98d02ebaaaa8bd7738c4d84d"
+RPM_NAME = "qhull_r-devel-2020.2-6.8.aarch64.rpm"
+RPM_HASH = "a5e6926e6a8559f1cab0ec1db405cecc0b9b1dd5836276c0f0bcbf0e1573924a0bfa52126868cf57d0f44d88af3dfc82ffde59cb9eeea9712e0272b4f9448da0"
 
 RPROVIDES:${PN} += "cmake-Qhull \
 pkgconfig-qhull-r \

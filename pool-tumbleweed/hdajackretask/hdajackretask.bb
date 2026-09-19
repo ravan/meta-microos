@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.20120413"
 
-RPM_NAME = "hdajackretask-0.20120413-24.4.aarch64.rpm"
-RPM_HASH = "21576693241e9bf4c8a8856a6b96700d88c1b2fc6d0d122f429ee6d5c4f0d7cb409812ac53598951890bd6a4b214bc963b8747b8bd7db6326ad2ce18c9dff2f5"
+RPM_NAME = "hdajackretask-0.20120413-29.4.aarch64.rpm"
+RPM_HASH = "e613633c729b484be849e013234efa4ddddb51fdef5bd5e6f35b315cd483bd2b55f22f8107e5a2b2d0349677807b79b3b6a38c64478d45958f61beae68946e35"
 
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/hdajackretask \
 hdajackretask"

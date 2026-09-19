@@ -1,15 +1,15 @@
 SUMMARY = "Kernel firmware files for AMDGPU graphics driver"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-AMDGPU graphics driver."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for AMDGPU graphics driver."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
-PV = "20230829"
+PV = "20260829"
 
-RPM_NAME = "kernel-firmware-amdgpu-20230829-1.1.noarch.rpm"
-RPM_HASH = "ab69f33edf72efb60ead5b356a7fe513d93dc22ae70eb41ea15759c9b65575b370deb0066a4695309cbdb1769d3ed9aa24f52dd17b7923b532121c0380d176ab"
+RPM_NAME = "kernel-firmware-amdgpu-20260829-1.1.noarch.rpm"
+RPM_HASH = "5d8259a3cee9eb5cbc9377c5678cfbc22af3e878859c540fefda1b4d50fbde2185482500033acf4296c4879c63710324344b3c8199af50fbfbe4b43d3141b0f2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "firmware-amdgpu/aldebaran-mec.bin \
+RPROVIDES:${PN} += "firmware-amdgpu/aldebaran-ip-discovery.bin \
+firmware-amdgpu/aldebaran-mec.bin \
 firmware-amdgpu/aldebaran-mec2.bin \
 firmware-amdgpu/aldebaran-rlc.bin \
 firmware-amdgpu/aldebaran-sdma.bin \
@@ -21,6 +21,7 @@ firmware-amdgpu/aldebaran-ta.bin \
 firmware-amdgpu/aldebaran-vcn.bin \
 firmware-amdgpu/arcturus-asd.bin \
 firmware-amdgpu/arcturus-gpu-info.bin \
+firmware-amdgpu/arcturus-ip-discovery.bin \
 firmware-amdgpu/arcturus-mec.bin \
 firmware-amdgpu/arcturus-mec2.bin \
 firmware-amdgpu/arcturus-rlc.bin \
@@ -77,6 +78,11 @@ firmware-amdgpu/dcn-3-1-5-dmcub.bin \
 firmware-amdgpu/dcn-3-1-6-dmcub.bin \
 firmware-amdgpu/dcn-3-2-0-dmcub.bin \
 firmware-amdgpu/dcn-3-2-1-dmcub.bin \
+firmware-amdgpu/dcn-3-5-1-dmcub.bin \
+firmware-amdgpu/dcn-3-5-dmcub.bin \
+firmware-amdgpu/dcn-3-6-dmcub.bin \
+firmware-amdgpu/dcn-4-0-1-dmcub.bin \
+firmware-amdgpu/dcn-4-2-dmcub.bin \
 firmware-amdgpu/dimgrey-cavefish-ce.bin \
 firmware-amdgpu/dimgrey-cavefish-dmcub.bin \
 firmware-amdgpu/dimgrey-cavefish-me.bin \
@@ -113,6 +119,7 @@ firmware-amdgpu/gc-10-3-7-mec.bin \
 firmware-amdgpu/gc-10-3-7-mec2.bin \
 firmware-amdgpu/gc-10-3-7-pfp.bin \
 firmware-amdgpu/gc-10-3-7-rlc.bin \
+firmware-amdgpu/gc-11-0-0-imu-kicker.bin \
 firmware-amdgpu/gc-11-0-0-imu.bin \
 firmware-amdgpu/gc-11-0-0-me.bin \
 firmware-amdgpu/gc-11-0-0-mec.bin \
@@ -120,6 +127,8 @@ firmware-amdgpu/gc-11-0-0-mes-2.bin \
 firmware-amdgpu/gc-11-0-0-mes.bin \
 firmware-amdgpu/gc-11-0-0-mes1.bin \
 firmware-amdgpu/gc-11-0-0-pfp.bin \
+firmware-amdgpu/gc-11-0-0-rlc-1.bin \
+firmware-amdgpu/gc-11-0-0-rlc-kicker.bin \
 firmware-amdgpu/gc-11-0-0-rlc.bin \
 firmware-amdgpu/gc-11-0-1-imu.bin \
 firmware-amdgpu/gc-11-0-1-me.bin \
@@ -152,6 +161,77 @@ firmware-amdgpu/gc-11-0-4-mes.bin \
 firmware-amdgpu/gc-11-0-4-mes1.bin \
 firmware-amdgpu/gc-11-0-4-pfp.bin \
 firmware-amdgpu/gc-11-0-4-rlc.bin \
+firmware-amdgpu/gc-11-5-0-imu.bin \
+firmware-amdgpu/gc-11-5-0-me.bin \
+firmware-amdgpu/gc-11-5-0-mec.bin \
+firmware-amdgpu/gc-11-5-0-mes-2.bin \
+firmware-amdgpu/gc-11-5-0-mes1.bin \
+firmware-amdgpu/gc-11-5-0-pfp.bin \
+firmware-amdgpu/gc-11-5-0-rlc.bin \
+firmware-amdgpu/gc-11-5-1-imu.bin \
+firmware-amdgpu/gc-11-5-1-me.bin \
+firmware-amdgpu/gc-11-5-1-mec.bin \
+firmware-amdgpu/gc-11-5-1-mes-2.bin \
+firmware-amdgpu/gc-11-5-1-mes1.bin \
+firmware-amdgpu/gc-11-5-1-pfp.bin \
+firmware-amdgpu/gc-11-5-1-rlc.bin \
+firmware-amdgpu/gc-11-5-2-imu.bin \
+firmware-amdgpu/gc-11-5-2-me.bin \
+firmware-amdgpu/gc-11-5-2-mec.bin \
+firmware-amdgpu/gc-11-5-2-mes-2.bin \
+firmware-amdgpu/gc-11-5-2-mes1.bin \
+firmware-amdgpu/gc-11-5-2-pfp.bin \
+firmware-amdgpu/gc-11-5-2-rlc.bin \
+firmware-amdgpu/gc-11-5-3-imu.bin \
+firmware-amdgpu/gc-11-5-3-me.bin \
+firmware-amdgpu/gc-11-5-3-mec.bin \
+firmware-amdgpu/gc-11-5-3-mes-2.bin \
+firmware-amdgpu/gc-11-5-3-mes1.bin \
+firmware-amdgpu/gc-11-5-3-pfp.bin \
+firmware-amdgpu/gc-11-5-3-rlc.bin \
+firmware-amdgpu/gc-11-7-0-imu.bin \
+firmware-amdgpu/gc-11-7-0-me.bin \
+firmware-amdgpu/gc-11-7-0-mec.bin \
+firmware-amdgpu/gc-11-7-0-mes-2.bin \
+firmware-amdgpu/gc-11-7-0-mes1.bin \
+firmware-amdgpu/gc-11-7-0-pfp.bin \
+firmware-amdgpu/gc-11-7-0-rlc.bin \
+firmware-amdgpu/gc-11-7-1-imu.bin \
+firmware-amdgpu/gc-11-7-1-me.bin \
+firmware-amdgpu/gc-11-7-1-mec.bin \
+firmware-amdgpu/gc-11-7-1-mes-2.bin \
+firmware-amdgpu/gc-11-7-1-mes1.bin \
+firmware-amdgpu/gc-11-7-1-pfp.bin \
+firmware-amdgpu/gc-11-7-1-rlc.bin \
+firmware-amdgpu/gc-12-0-0-imu.bin \
+firmware-amdgpu/gc-12-0-0-me.bin \
+firmware-amdgpu/gc-12-0-0-mec.bin \
+firmware-amdgpu/gc-12-0-0-mes.bin \
+firmware-amdgpu/gc-12-0-0-mes1.bin \
+firmware-amdgpu/gc-12-0-0-pfp.bin \
+firmware-amdgpu/gc-12-0-0-rlc.bin \
+firmware-amdgpu/gc-12-0-0-toc.bin \
+firmware-amdgpu/gc-12-0-0-uni-mes.bin \
+firmware-amdgpu/gc-12-0-1-imu-kicker.bin \
+firmware-amdgpu/gc-12-0-1-imu.bin \
+firmware-amdgpu/gc-12-0-1-me.bin \
+firmware-amdgpu/gc-12-0-1-mec.bin \
+firmware-amdgpu/gc-12-0-1-mes.bin \
+firmware-amdgpu/gc-12-0-1-mes1.bin \
+firmware-amdgpu/gc-12-0-1-pfp.bin \
+firmware-amdgpu/gc-12-0-1-rlc-kicker.bin \
+firmware-amdgpu/gc-12-0-1-rlc.bin \
+firmware-amdgpu/gc-12-0-1-toc.bin \
+firmware-amdgpu/gc-12-0-1-uni-mes.bin \
+firmware-amdgpu/gc-9-4-3-mec.bin \
+firmware-amdgpu/gc-9-4-3-rlc.bin \
+firmware-amdgpu/gc-9-4-3-sjt-mec.bin \
+firmware-amdgpu/gc-9-4-4-mec.bin \
+firmware-amdgpu/gc-9-4-4-rlc.bin \
+firmware-amdgpu/gc-9-4-4-sjt-mec.bin \
+firmware-amdgpu/gc-9-5-0-mec.bin \
+firmware-amdgpu/gc-9-5-0-rlc.bin \
+firmware-amdgpu/gc-9-5-0-sjt-mec.bin \
 firmware-amdgpu/green-sardine-asd.bin \
 firmware-amdgpu/green-sardine-ce.bin \
 firmware-amdgpu/green-sardine-dmcub.bin \
@@ -182,6 +262,7 @@ firmware-amdgpu/hawaii-sdma1.bin \
 firmware-amdgpu/hawaii-smc.bin \
 firmware-amdgpu/hawaii-uvd.bin \
 firmware-amdgpu/hawaii-vce.bin \
+firmware-amdgpu/isp-4-1-1.bin \
 firmware-amdgpu/kabini-ce.bin \
 firmware-amdgpu/kabini-me.bin \
 firmware-amdgpu/kabini-mec.bin \
@@ -281,6 +362,7 @@ firmware-amdgpu/oland-uvd.bin \
 firmware-amdgpu/picasso-asd.bin \
 firmware-amdgpu/picasso-ce.bin \
 firmware-amdgpu/picasso-gpu-info.bin \
+firmware-amdgpu/picasso-ip-discovery.bin \
 firmware-amdgpu/picasso-me.bin \
 firmware-amdgpu/picasso-mec.bin \
 firmware-amdgpu/picasso-mec2.bin \
@@ -360,26 +442,55 @@ firmware-amdgpu/polaris12-sdma1.bin \
 firmware-amdgpu/polaris12-smc.bin \
 firmware-amdgpu/polaris12-uvd.bin \
 firmware-amdgpu/polaris12-vce.bin \
+firmware-amdgpu/psp-13-0-0-sos-kicker.bin \
 firmware-amdgpu/psp-13-0-0-sos.bin \
+firmware-amdgpu/psp-13-0-0-ta-kicker.bin \
 firmware-amdgpu/psp-13-0-0-ta.bin \
 firmware-amdgpu/psp-13-0-10-sos.bin \
 firmware-amdgpu/psp-13-0-10-ta.bin \
 firmware-amdgpu/psp-13-0-11-ta.bin \
 firmware-amdgpu/psp-13-0-11-toc.bin \
+firmware-amdgpu/psp-13-0-12-sos.bin \
+firmware-amdgpu/psp-13-0-12-ta.bin \
+firmware-amdgpu/psp-13-0-14-sos.bin \
+firmware-amdgpu/psp-13-0-14-ta.bin \
+firmware-amdgpu/psp-13-0-15-sos.bin \
+firmware-amdgpu/psp-13-0-15-ta.bin \
 firmware-amdgpu/psp-13-0-4-ta.bin \
 firmware-amdgpu/psp-13-0-4-toc.bin \
 firmware-amdgpu/psp-13-0-5-asd.bin \
 firmware-amdgpu/psp-13-0-5-ta.bin \
 firmware-amdgpu/psp-13-0-5-toc.bin \
+firmware-amdgpu/psp-13-0-6-sos.bin \
+firmware-amdgpu/psp-13-0-6-ta.bin \
 firmware-amdgpu/psp-13-0-7-sos.bin \
 firmware-amdgpu/psp-13-0-7-ta.bin \
 firmware-amdgpu/psp-13-0-8-asd.bin \
 firmware-amdgpu/psp-13-0-8-ta.bin \
 firmware-amdgpu/psp-13-0-8-toc.bin \
+firmware-amdgpu/psp-14-0-0-ta.bin \
+firmware-amdgpu/psp-14-0-0-toc.bin \
+firmware-amdgpu/psp-14-0-1-ta.bin \
+firmware-amdgpu/psp-14-0-1-toc.bin \
+firmware-amdgpu/psp-14-0-2-sos.bin \
+firmware-amdgpu/psp-14-0-2-ta.bin \
+firmware-amdgpu/psp-14-0-3-sos-kicker.bin \
+firmware-amdgpu/psp-14-0-3-sos.bin \
+firmware-amdgpu/psp-14-0-3-ta-kicker.bin \
+firmware-amdgpu/psp-14-0-3-ta.bin \
+firmware-amdgpu/psp-14-0-4-ta.bin \
+firmware-amdgpu/psp-14-0-4-toc.bin \
+firmware-amdgpu/psp-14-0-5-ta.bin \
+firmware-amdgpu/psp-14-0-5-toc.bin \
+firmware-amdgpu/psp-15-0-0-ta.bin \
+firmware-amdgpu/psp-15-0-0-toc.bin \
+firmware-amdgpu/psp-15-0-9-ta.bin \
+firmware-amdgpu/psp-15-0-9-toc.bin \
 firmware-amdgpu/raven-asd.bin \
 firmware-amdgpu/raven-ce.bin \
 firmware-amdgpu/raven-dmcu.bin \
 firmware-amdgpu/raven-gpu-info.bin \
+firmware-amdgpu/raven-ip-discovery.bin \
 firmware-amdgpu/raven-kicker-rlc.bin \
 firmware-amdgpu/raven-me.bin \
 firmware-amdgpu/raven-mec.bin \
@@ -392,6 +503,7 @@ firmware-amdgpu/raven-vcn.bin \
 firmware-amdgpu/raven2-asd.bin \
 firmware-amdgpu/raven2-ce.bin \
 firmware-amdgpu/raven2-gpu-info.bin \
+firmware-amdgpu/raven2-ip-discovery.bin \
 firmware-amdgpu/raven2-me.bin \
 firmware-amdgpu/raven2-mec.bin \
 firmware-amdgpu/raven2-mec2.bin \
@@ -412,12 +524,22 @@ firmware-amdgpu/renoir-rlc.bin \
 firmware-amdgpu/renoir-sdma.bin \
 firmware-amdgpu/renoir-ta.bin \
 firmware-amdgpu/renoir-vcn.bin \
+firmware-amdgpu/sdma-4-4-2.bin \
+firmware-amdgpu/sdma-4-4-4.bin \
+firmware-amdgpu/sdma-4-4-5.bin \
 firmware-amdgpu/sdma-5-2-6.bin \
 firmware-amdgpu/sdma-5-2-7.bin \
 firmware-amdgpu/sdma-6-0-0.bin \
 firmware-amdgpu/sdma-6-0-1.bin \
 firmware-amdgpu/sdma-6-0-2.bin \
 firmware-amdgpu/sdma-6-0-3.bin \
+firmware-amdgpu/sdma-6-1-0.bin \
+firmware-amdgpu/sdma-6-1-1.bin \
+firmware-amdgpu/sdma-6-1-2.bin \
+firmware-amdgpu/sdma-6-1-3.bin \
+firmware-amdgpu/sdma-6-1-4.bin \
+firmware-amdgpu/sdma-7-0-0.bin \
+firmware-amdgpu/sdma-7-0-1.bin \
 firmware-amdgpu/si58-mc.bin \
 firmware-amdgpu/sienna-cichlid-ce.bin \
 firmware-amdgpu/sienna-cichlid-dmcub.bin \
@@ -431,9 +553,15 @@ firmware-amdgpu/sienna-cichlid-smc.bin \
 firmware-amdgpu/sienna-cichlid-sos.bin \
 firmware-amdgpu/sienna-cichlid-ta.bin \
 firmware-amdgpu/sienna-cichlid-vcn.bin \
+firmware-amdgpu/smu-13-0-0-kicker.bin \
 firmware-amdgpu/smu-13-0-0.bin \
 firmware-amdgpu/smu-13-0-10.bin \
+firmware-amdgpu/smu-13-0-14.bin \
+firmware-amdgpu/smu-13-0-6.bin \
 firmware-amdgpu/smu-13-0-7.bin \
+firmware-amdgpu/smu-14-0-2.bin \
+firmware-amdgpu/smu-14-0-3-kicker.bin \
+firmware-amdgpu/smu-14-0-3.bin \
 firmware-amdgpu/stoney-ce.bin \
 firmware-amdgpu/stoney-me.bin \
 firmware-amdgpu/stoney-mec.bin \
@@ -474,6 +602,7 @@ firmware-amdgpu/topaz-rlc.bin \
 firmware-amdgpu/topaz-sdma.bin \
 firmware-amdgpu/topaz-sdma1.bin \
 firmware-amdgpu/topaz-smc.bin \
+firmware-amdgpu/umsch-mm-4-0-0.bin \
 firmware-amdgpu/vangogh-asd.bin \
 firmware-amdgpu/vangogh-ce.bin \
 firmware-amdgpu/vangogh-dmcub.bin \
@@ -485,14 +614,23 @@ firmware-amdgpu/vangogh-rlc.bin \
 firmware-amdgpu/vangogh-sdma.bin \
 firmware-amdgpu/vangogh-toc.bin \
 firmware-amdgpu/vangogh-vcn.bin \
+firmware-amdgpu/vce-1-0-0.bin \
 firmware-amdgpu/vcn-3-1-2.bin \
 firmware-amdgpu/vcn-4-0-0.bin \
 firmware-amdgpu/vcn-4-0-2.bin \
+firmware-amdgpu/vcn-4-0-3.bin \
 firmware-amdgpu/vcn-4-0-4.bin \
+firmware-amdgpu/vcn-4-0-5.bin \
+firmware-amdgpu/vcn-4-0-6-1.bin \
+firmware-amdgpu/vcn-4-0-6.bin \
+firmware-amdgpu/vcn-5-0-0.bin \
+firmware-amdgpu/vcn-5-0-1.bin \
+firmware-amdgpu/vcn-5-3-0.bin \
 firmware-amdgpu/vega10-acg-smc.bin \
 firmware-amdgpu/vega10-asd.bin \
 firmware-amdgpu/vega10-ce.bin \
 firmware-amdgpu/vega10-gpu-info.bin \
+firmware-amdgpu/vega10-ip-discovery.bin \
 firmware-amdgpu/vega10-me.bin \
 firmware-amdgpu/vega10-mec.bin \
 firmware-amdgpu/vega10-mec2.bin \
@@ -507,6 +645,7 @@ firmware-amdgpu/vega10-vce.bin \
 firmware-amdgpu/vega12-asd.bin \
 firmware-amdgpu/vega12-ce.bin \
 firmware-amdgpu/vega12-gpu-info.bin \
+firmware-amdgpu/vega12-ip-discovery.bin \
 firmware-amdgpu/vega12-me.bin \
 firmware-amdgpu/vega12-mec.bin \
 firmware-amdgpu/vega12-mec2.bin \
@@ -520,6 +659,7 @@ firmware-amdgpu/vega12-uvd.bin \
 firmware-amdgpu/vega12-vce.bin \
 firmware-amdgpu/vega20-asd.bin \
 firmware-amdgpu/vega20-ce.bin \
+firmware-amdgpu/vega20-ip-discovery.bin \
 firmware-amdgpu/vega20-me.bin \
 firmware-amdgpu/vega20-mec.bin \
 firmware-amdgpu/vega20-mec2.bin \
@@ -551,6 +691,10 @@ firmware-amdgpu/verde-pfp.bin \
 firmware-amdgpu/verde-rlc.bin \
 firmware-amdgpu/verde-smc.bin \
 firmware-amdgpu/verde-uvd.bin \
+firmware-amdgpu/vpe-2-0-0.bin \
+firmware-amdgpu/vpe-6-1-0.bin \
+firmware-amdgpu/vpe-6-1-1.bin \
+firmware-amdgpu/vpe-6-1-3.bin \
 firmware-amdgpu/yellow-carp-asd.bin \
 firmware-amdgpu/yellow-carp-ce.bin \
 firmware-amdgpu/yellow-carp-dmcub.bin \

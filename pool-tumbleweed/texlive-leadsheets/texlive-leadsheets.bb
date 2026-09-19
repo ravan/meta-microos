@@ -4,10 +4,10 @@ leadsheets of songs, i.e. song lyrics and the corresponding \
 chords."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn61504"
+PV = "2026.226.0.0.7svn61504"
 
-RPM_NAME = "texlive-leadsheets-2023.209.0.0.7svn61504-55.1.noarch.rpm"
-RPM_HASH = "3381bd62c14fefa2d1fbb0ab262fb05a71de6020e7220d87167de49c44732e14c8100f84cb3a57ddf35d5a7f88bbad1ceea14727acdb8ec5e41472f0565499bf"
+RPM_NAME = "texlive-leadsheets-2026.226.0.0.7svn61504-61.2.noarch.rpm"
+RPM_HASH = "7f1260570cff7543e41b0b8b7b138df993be132bda72bdd78b2da6133f3c303e4f002bb328e9683d820169b1ff81fd45b22eeeeaf64396d4181a16be833211a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-leadsheet.cls \

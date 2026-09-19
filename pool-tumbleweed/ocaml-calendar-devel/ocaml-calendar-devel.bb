@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.0.0"
 
-RPM_NAME = "ocaml-calendar-devel-3.0.0-1.5.aarch64.rpm"
-RPM_HASH = "1dc42c22c2c05b3d1e56dad6003139cec72701236de00ce20258815de0b09dc738f82a83a9fdeba839cdcdd67936a1059f49ce59086b174c73abc0114fdb0228"
+RPM_NAME = "ocaml-calendar-devel-3.0.0-3.1.aarch64.rpm"
+RPM_HASH = "0311cb34e7d069206acebbd20c215dca8bc259d33964c923ec56824522e31a7b03a0f049b3d67adef26bd53ba7e6b056251ae53ac6ef4e6e57c8d9b7392c209d"
 
 RPROVIDES:${PN} += "ocaml-CalendarLib \
 ocaml-CalendarLib--Calendar \
@@ -41,26 +41,38 @@ RDEPENDS:${PN} += "ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-Re \
 ocaml-Re-- \
+ocaml-Re--Ast \
 ocaml-Re--Automata \
 ocaml-Re--Category \
+ocaml-Re--Color-map \
+ocaml-Re--Compile \
 ocaml-Re--Core \
 ocaml-Re--Cset \
+ocaml-Re--Dyn \
+ocaml-Re--Fmt \
+ocaml-Re--Group \
+ocaml-Re--Mark-infos \
 ocaml-Re--Pmark \
+ocaml-Re--Replace \
 ocaml-Re--Str \
 ocaml-Stdlib \
 ocaml-Stdlib--Array \
 ocaml-Stdlib--Bigarray \
 ocaml-Stdlib--Buffer \
+ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Complex \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Hashtbl \
 ocaml-Stdlib--Lazy \
 ocaml-Stdlib--List \
 ocaml-Stdlib--Map \
+ocaml-Stdlib--Mutex \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--String \
+ocaml-Stdlib--Sys \
 ocaml-Stdlib--Uchar \
 ocaml-Unix \
 ocaml-calendar \

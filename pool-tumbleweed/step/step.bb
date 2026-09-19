@@ -6,40 +6,38 @@ to the laws of physics. Every property of bodies/forces in the \
 experiment may be changed, even during simulation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "step-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "37b1ebebff8a9346d1e445023b8f9259e245e515390d8b3abbc9abd6584a53ade932f46316c8e62be7dcfc31118ae65001922f920b37264819d10af7d3e6521a"
+RPM_NAME = "step-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "7d3c6dd2f77edd87448230618d4a367e08f427ed314e048b8ae5e6ef9b440c491d15e8f989dc9146e1d4ad37a8a34ce7ae1ca147e8877f2804c13dfb34645154"
 
 RPROVIDES:${PN} += "step \
 step5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5NewStuffWidgets.so.5 \
-libKF5Plotting.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6KIOCore.so.6 \
+libKF6NewStuffWidgets.so.6 \
+libKF6Plotting.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
-libgcc-s.so.1 \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
 libm.so.6 \
-libqalculate.so.22 \
 libstdc++.so.6"
 
 inherit rpm

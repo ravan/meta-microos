@@ -2,10 +2,10 @@ SUMMARY = "Estonian localization files for LibreOffice"
 DESCRIPTION = "Provides Estonian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-et-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "64d155c3f9f283d256d65b1e44d3a64f1f5186d176dce9bf2f2d743ade3def104bead01d4e0b0f9c3efd33925faff3c34a8f29b191eb2250a18fa54fd9fb4f8f"
+RPM_NAME = "libreoffice-l10n-et-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "f8b4221e28369ead6e587d946c6a566ed2a717e3fc9d082ba2e84a90205e6fcd6aafbafad71ccca0639265fba3f4db5de3e157f54760e4e5944a8a313111ca64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-et \

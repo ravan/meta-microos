@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-spectral"
 DESCRIPTION = "This package includes the documentation for texlive-spectral"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64528"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-spectral-doc-2023.209.svn64528-58.1.noarch.rpm"
-RPM_HASH = "1345c15dd5d4cad518a9b7141fd4f91d72d86e3c8a0b2c83e375cc0c089bb4ca128e621c319dcf7728b663d944ffb78864d6df4e685168d3597c35f36d7a7612"
+RPM_NAME = "texlive-spectral-doc-2026.226.svn77682-64.2.noarch.rpm"
+RPM_HASH = "e060ce7f1e00bb64f33bc7f107782432c79b32757d208f22e29712e47023dae6d0289b514630a4f3cb25ae7032ecbc7dc6da2112e48e048d2edf640af8f5fa5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spectral-doc"

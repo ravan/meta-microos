@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.331"
 
-RPM_NAME = "lua53-markdown-0.331-4.2.noarch.rpm"
-RPM_HASH = "ebf6ee4c6fdb34ee955e37ed11606313d2c45becf0347f88e7db5f71b4c503e50d565fc04d714e8ad6faa00d0638d6efb3beb69dd0d9d79e2643c088110273af"
+RPM_NAME = "lua53-markdown-0.331-6.3.noarch.rpm"
+RPM_HASH = "44dd9115838b2bafe8f74c0e5b282cd260945bf99c6de87dec7684632d8de1f9903131c75bfd884c0828d85b56182d92bb8656de9bed1aaeb772fb2f4e262348"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-markdown"

@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "libgstfft-1_0-0-1.22.5-3.1.aarch64.rpm"
-RPM_HASH = "05a4a3f0e6fd11b11c610c583185a3ccc259d42286ca1d4178d2bcbff47964abe3a16af15837a5ff44a3d5e0469df5302dad5c6668eca7dc1b05ff1c448117ac"
+RPM_NAME = "libgstfft-1_0-0-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "5382b70754c3fa60637614dcb24c5b840a35becca95e5d4eeda792c2e4c547975d46ed7678a0720fcdc46d5fd098bf5893d0b5aaa4542f6c3e33d7e22f38b67a"
 
 RPROVIDES:${PN} += "libgstfft-1-0-0 \
 libgstfft-1.0.so.0"

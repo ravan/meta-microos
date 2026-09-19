@@ -5,17 +5,19 @@ provides options to customize the highlighted source code \
 output using fancyvrb."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.7svn65252"
+PV = "2026.226.3.7.0svn77682"
 
-RPM_NAME = "texlive-minted-2023.209.2.7svn65252-55.1.noarch.rpm"
-RPM_HASH = "d6dea3eef7d97d163fa5d7e55c04a34161a3f8aafe58ac65b9d41a530232b4ebb1fd57edbdfdf189cfa68533e4d5769d5e175969ff7a38933334f095d6a4439b"
+RPM_NAME = "texlive-minted-2026.226.3.7.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "c1c6646fc7171c8786093ee56109bfa184ad9213ea910c271e05fa795cbbb5251e555e473848f375b4d15b7504f21f598e991cdd9c01f604816ee015cafb43e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minted.sty \
 tex-minted1.sty \
+tex-minted2.sty \
 texlive-minted"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
+/usr/bin/sh \
 coreutils \
 ed \
 findutils \
@@ -32,32 +34,32 @@ tex-ifplatform.sty \
 tex-ifthen.sty \
 tex-keyval.sty \
 tex-kvoptions.sty \
+tex-latex2pydata.sty \
 tex-lineno.sty \
 tex-newfloat.sty \
 tex-pdftexcmds.sty \
+tex-pgfkeys.sty \
+tex-pgfopts.sty \
 tex-shellesc.sty \
 tex-xcolor.sty \
 tex-xstring.sty \
 texlive \
 texlive-catchfile \
 texlive-etoolbox \
-texlive-fancyvrb \
 texlive-filesystem \
 texlive-float \
-texlive-framed \
 texlive-fvextra \
-texlive-graphics \
-texlive-ifplatform \
 texlive-kpathsea \
 texlive-kpathsea-bin \
-texlive-kvoptions \
-texlive-lineno \
+texlive-latex2pydata \
+texlive-minted-bin \
+texlive-newfloat \
 texlive-pdftexcmds \
+texlive-pgf \
+texlive-pgfopts \
 texlive-scripts \
 texlive-scripts-bin \
 texlive-tools \
-texlive-upquote \
-texlive-xcolor \
-texlive-xstring"
+texlive-xcolor"
 
 inherit rpm

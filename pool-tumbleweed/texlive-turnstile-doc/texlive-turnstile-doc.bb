@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-turnstile"
 DESCRIPTION = "This package includes the documentation for texlive-turnstile"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn64967"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-turnstile-doc-2023.209.1.0svn64967-53.1.noarch.rpm"
-RPM_HASH = "96b874e5732caaef357800a40b43fe1a1a5618db5da72c31e552ea11ec2aab2b0b4e0482d6823a5587f3e0e7434d0b715096218b145db917937ec8780dfc369c"
+RPM_NAME = "texlive-turnstile-doc-2026.226.1.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "a02a1f60ba4ae43bb982754a41f477190f83986969d7f24b16e9d781da30006d3968e696d45c2c56eabdd4ffe544bf547b7b806beabf109a2e3204184fb719d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-turnstile-doc-pt \

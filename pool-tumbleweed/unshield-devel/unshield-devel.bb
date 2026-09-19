@@ -1,19 +1,20 @@
-SUMMARY = "Header files, libraries and development documentation for libunshield0"
+SUMMARY = "Header files, libraries and development documentation for libunshield1"
 DESCRIPTION = "This package contains the header files, static libraries and development \
-documentation for libunshield0. If you like to develop programs using libunshield0, \
+documentation for libunshield1. If you like to develop programs using libunshield1, \
 you will need to install unshield-devel."
 LICENSE = "MIT"
 
-PV = "1.5.1"
+PV = "1.6.2"
 
-RPM_NAME = "unshield-devel-1.5.1-1.10.aarch64.rpm"
-RPM_HASH = "5a87a39537060bb4a803d9cdf5533b70370ace3ddb2480a0f5abe6365e20e2f52d9be159871f4e12360d4c0a4a306deee74760e846e57b3fc1cf079ac7157769"
+RPM_NAME = "unshield-devel-1.6.2-1.4.aarch64.rpm"
+RPM_HASH = "a4681d4217e64faccbf20e0ca70e9f6d10335fd6eefa94eaef63038825bfca7254ac433cde8cb3d260a8869924a0fe8633bdd0a2369e729bfcebd2e5a92516b4"
 
-RPROVIDES:${PN} += "libunshield \
+RPROVIDES:${PN} += "cmake-unshield \
+libunshield \
 pkgconfig-libunshield \
 unshield-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libunshield0"
+libunshield1"
 
 inherit rpm

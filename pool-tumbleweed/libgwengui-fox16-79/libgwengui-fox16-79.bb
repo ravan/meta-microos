@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the interface to the FOX toolkit \
 for Gwenhywfar."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.10.1"
+PV = "5.14.1"
 
-RPM_NAME = "libgwengui-fox16-79-5.10.1-1.5.aarch64.rpm"
-RPM_HASH = "6c85b35404d637c9d475cd41282ad90075514c243a614711000c5079ebdfbf81b0ab9f4393014471d0c14f45c4c8269a592d87852f8d116b618a68f04789d889"
+RPM_NAME = "libgwengui-fox16-79-5.14.1-1.3.aarch64.rpm"
+RPM_HASH = "8a2acd75ba0c06d0dd6c48ea8fd762d3a54fd25a1a45fdb876dcc1cbcd8749f9b690bd66b81efc4f4306a953560ea6081dfac694484ea16122e8dd2724eb29e1"
 
 RPROVIDES:${PN} += "libgwengui-fox16-79 \
 libgwengui-fox16.so.79"

@@ -2,14 +2,13 @@ SUMMARY = "Translations for package skrooge"
 DESCRIPTION = "Provides translations for the 'skrooge' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.28.0"
+PV = "26.8.0"
 
-RPM_NAME = "skrooge-lang-2.28.0-1.12.noarch.rpm"
-RPM_HASH = "ad1ade0e6f74a1982a15a3ebddf163a0465efedb4bb7909a4256060813f83d011be0f91b371703abae98f768335bdf8e255cc28cbfd18a6ec1e26d5ffbb257d8"
+RPM_NAME = "skrooge-lang-26.8.0-1.2.noarch.rpm"
+RPM_HASH = "3f91f585e9989aa4e1df2b7808e8726aaa8743f80c903232ab5e36484caf7831fdafcc990c73d9565e52edfc29ef293f7459fd078cc509fc396bdac2beeaf38c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-skrooge-ar \
-locale-skrooge-bg \
 locale-skrooge-bs \
 locale-skrooge-ca \
 locale-skrooge-ca@valencia \
@@ -21,6 +20,7 @@ locale-skrooge-en-GB \
 locale-skrooge-eo \
 locale-skrooge-es \
 locale-skrooge-et \
+locale-skrooge-eu \
 locale-skrooge-fi \
 locale-skrooge-fr \
 locale-skrooge-ga \
@@ -28,6 +28,8 @@ locale-skrooge-gl \
 locale-skrooge-hu \
 locale-skrooge-ia \
 locale-skrooge-it \
+locale-skrooge-ja \
+locale-skrooge-ka \
 locale-skrooge-ko \
 locale-skrooge-lt \
 locale-skrooge-mr \

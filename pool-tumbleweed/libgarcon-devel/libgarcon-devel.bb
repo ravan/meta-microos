@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files needed for developing application
 garcon."
 LICENSE = "GFDL-1.1-only & LGPL-2.0-only"
 
-PV = "4.18.1"
+PV = "4.20.0"
 
-RPM_NAME = "libgarcon-devel-4.18.1-2.1.aarch64.rpm"
-RPM_HASH = "8c8014b9bfd00a8f95ead96a2fa83c4edf8f01a2b43d3b63d91b247154bce46221f57e04f9b6cffb693ae0973a3acfe8c170a0722839dc22e49558ac142e52cb"
+RPM_NAME = "libgarcon-devel-4.20.0-1.8.aarch64.rpm"
+RPM_HASH = "06da85167c03fffad1a173d1a224bd9caa7b003962ab60e54882d5875ef5e2edbff152bd29a9e54a5af0053957476e1bd0dd962ab7ae7e967d9fc2fd7d532ec0"
 
 RPROVIDES:${PN} += "libgarcon-devel \
 pkgconfig-garcon-1 \

@@ -1,12 +1,12 @@
 SUMMARY = "Slovenian translation of lshort"
 DESCRIPTION = "A Slovenian translation of the Not So Short Introduction to \
-LaTeX 2e."
+LaTeX2e."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.4.20svn55643"
+PV = "2026.226.4.20svn77050"
 
-RPM_NAME = "texlive-lshort-slovenian-2023.208.4.20svn55643-53.1.noarch.rpm"
-RPM_HASH = "51fe9c58b840dc90cedfcde21802e3ab2e4639137aa4865d4b062ce352f15ee4a2e74936a6b378135b2977935c0be4b85949aaaea1013a1abb6b239ccab29a12"
+RPM_NAME = "texlive-lshort-slovenian-2026.226.4.20svn77050-59.2.noarch.rpm"
+RPM_HASH = "dcfbb3d94ef4029db3ce26a58f627447429e2d1a4e8a08fda9d21a2657658c6eb9ca35adbbb32e726755de4540e1fa8742402f27734cc2d6c140d2277aa8d750"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-slovenian"

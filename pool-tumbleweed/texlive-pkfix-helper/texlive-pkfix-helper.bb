@@ -13,10 +13,10 @@ documents fully autonomously but does require the user to \
 verify and, if needed, correct its decisions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn56061"
+PV = "2026.226.1.6svn56061"
 
-RPM_NAME = "texlive-pkfix-helper-2023.209.1.6svn56061-52.1.noarch.rpm"
-RPM_HASH = "75e1a3df391e37944460909998e4cc531e99db740491f71d786f0a15682aa53e066495f4e55787360d833e3e2364704d619874c1c16e010e610ec196fb69716f"
+RPM_NAME = "texlive-pkfix-helper-2026.226.1.6svn56061-58.2.noarch.rpm"
+RPM_HASH = "5bc792c421722f7f4be47dcf0ff00fb3130acf14a61bbd01c2745af16a187a54ceba1995c90b0dc8dea40b1999d31c6169581a4c5664a099ff9097bc03f91cd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pkfix-helper"

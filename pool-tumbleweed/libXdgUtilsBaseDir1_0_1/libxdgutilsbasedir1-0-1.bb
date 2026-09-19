@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "libXdgUtilsBaseDir1_0_1-1.0.1-1.4.aarch64.rpm"
-RPM_HASH = "ebf73c8a0249ea4a8046a38ef23833be1b675f66b1f824f610395adebbc27cffdfea3c373175ff24e1373ab694d7d5d23b86a30046d98eb83a839d885d1fd14e"
+RPM_NAME = "libXdgUtilsBaseDir1_0_1-1.0.1-2.5.aarch64.rpm"
+RPM_HASH = "93a5fd7d0f43303b162d4c9058594811013ef193e77fe7cc313627a320c54f5ac8141721f3cdfa954eea9476bf37360a80adec9dd3c0c6c6318290d561012724"
 
 RPROVIDES:${PN} += "libXdgUtilsBaseDir.so.1.0.1 \
 libXdgUtilsBaseDir1-0-1"

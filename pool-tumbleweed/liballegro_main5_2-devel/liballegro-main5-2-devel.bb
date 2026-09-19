@@ -2,10 +2,10 @@ SUMMARY = "Development files for liballegro_main"
 DESCRIPTION = "Development files needed to build applications which use liballegro_main."
 LICENSE = "BSD-3-Clause & Zlib"
 
-PV = "5.2.8.0"
+PV = "5.2.11.3"
 
-RPM_NAME = "liballegro_main5_2-devel-5.2.8.0-1.4.aarch64.rpm"
-RPM_HASH = "6eaef5d68c66677545fc5ed000416b201e050b8131f40d4d9babfa5d1255fb07caf6ff20cd7eab35e5ae0ee9193aeeb28f44683723c5f9e873e9c485e91b2fa3"
+RPM_NAME = "liballegro_main5_2-devel-5.2.11.3-1.5.aarch64.rpm"
+RPM_HASH = "cff57c6d3f0a873b76162b9330a65fa4f7b0a34222ec83aeabca6f8671c00e6f0ec92bdc20dcab81a952ae1f4ae3e692387b88f1213d583185e08771ceceac25"
 
 RPROVIDES:${PN} += "liballegro-main5-2-devel \
 pkgconfig-allegro-main-5"

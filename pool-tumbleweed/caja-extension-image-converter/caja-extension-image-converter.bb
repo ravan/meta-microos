@@ -5,10 +5,10 @@ image size and file name. A click on 'Resize' finally resizes the \
 image(s) using ImageMagick's convert tool."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-extension-image-converter-1.26.1-2.3.aarch64.rpm"
-RPM_HASH = "cb5a67241d3058d3339c8b70294f5e0c205275d6a723ed79208edf812b7b65bf1f44afa1083946de53d23b5bb6c26d5545602abf852a8a3931fd504fc450bc77"
+RPM_NAME = "caja-extension-image-converter-1.28.0-2.11.aarch64.rpm"
+RPM_HASH = "9cfd58458fdc32ad5f1292587a691792b47bbda38c2c8facb4711285d26c71b107160888269f7ccd1b1648f16db932ec035d084e47650665f26d0b90afe84427"
 
 RPROVIDES:${PN} += "caja-extension-image-converter \
 caja-image-converter \

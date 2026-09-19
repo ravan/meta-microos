@@ -7,10 +7,10 @@ sizes and look nicer for such 'intermediate' document sizes as \
 access the bbm fonts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-sauterfonts-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "2ff044aba4a6c9949d1b2884c0955c559ed32afee6e45dd385cebb49e306d074e78f682a50719054b3aedc7e8984105cc5f128ba8b9f5e67445552a8f839ed1b"
+RPM_NAME = "texlive-sauterfonts-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "44b051308f52fa817d8b57c832950eb65cc1af2a57067ff060f5ee6bb1f0a24d6248054464a64411bc3e3b22e050a058e782717b2f59d8a15f9ecdaabe7af90d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sbbm.sty \

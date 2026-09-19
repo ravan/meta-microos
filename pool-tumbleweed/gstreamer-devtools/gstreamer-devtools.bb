@@ -13,18 +13,20 @@ lib. The third way of using it is to write your own application that \
 links and uses libgstvalidate."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-devtools-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "e634f79ada7a37fdc87b0022d85c80efa540487e09fcc4a4c680a2249ca82278c3e1aaa2315855d6ed81df0fef97a0e7eeb3b026a4385ef36731aba16e0d3003"
+RPM_NAME = "gstreamer-devtools-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "9f0c97d917738298f7b2c58b7f0ed195e175aa3e56efa94db746f47f99be2a61da3a0d89313f6200027eaab24e9b66faa8e46c62c7ab8b341dd71f64bab192ea"
 
 RPROVIDES:${PN} += "gstreamer-devtools \
 gstreamer-validate"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
+libgcc-s.so.1 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

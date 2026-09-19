@@ -2,10 +2,10 @@ SUMMARY = "IB Performance tests"
 DESCRIPTION = "gen2 uverbs microbenchmarks"
 LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
-PV = "4.5"
+PV = "26.04.17"
 
-RPM_NAME = "perftest-4.5-2.4.aarch64.rpm"
-RPM_HASH = "b5781a7bdf829708a3999523a3edee0c20966d951d72ed5f0bba1c30e4b741b1d13bb61e9e2986d65d59912660ad776eeee92df382885ac7f5257820cfbdcb24"
+RPM_NAME = "perftest-26.04.17-1.3.aarch64.rpm"
+RPM_HASH = "dfe935ae12e736dbfe9703cd9f2c2dabe8d828c8e17e25d3d9bc9ab8e3aa976d7755651caac7293ceb3b82791a53d63572da29c3ea51ea6ccd32029a9a9b4870"
 
 RPROVIDES:${PN} += "perftest"
 
@@ -14,6 +14,7 @@ RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libefa.so.1 \
+libhns.so.1 \
 libibumad.so.3 \
 libibverbs.so.1 \
 libm.so.6 \

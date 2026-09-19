@@ -4,10 +4,10 @@ data rate. This can be useful for benchmarking and exercising I/O streaming at \
 desired throughput rates."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.02.13"
+PV = "0.03.01"
 
-RPM_NAME = "sluice-0.02.13-1.9.aarch64.rpm"
-RPM_HASH = "62ca3f7a752f3145b1f8408b692c886e82291a14c668c1bde8aaf3cafe1fd0440e7ef8e834c9e7a9e2869e7496093ab6212a165a3ab949ae08178ce50bcbbaa1"
+RPM_NAME = "sluice-0.03.01-1.5.aarch64.rpm"
+RPM_HASH = "94630064d87d13f083ec16d906e31e5984a81e5ab5a884c985512c0b90bc13b52089ea518ff5eb9d5ac8752311a0eb8e941fbafae409ed3edb6801283bb5f8d6"
 
 RPROVIDES:${PN} += "sluice"
 

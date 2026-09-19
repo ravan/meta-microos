@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gtksourceview5"
 DESCRIPTION = "Provides translations for the 'gtksourceview5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.8.0"
+PV = "5.20.0"
 
-RPM_NAME = "gtksourceview5-lang-5.8.0-1.2.noarch.rpm"
-RPM_HASH = "819f8db2f37c003deb9f2cf4f176d7c7626904e9086bb80245a180a69cb81528f6de7deec0edadaf50ebb41e20bf2c3b25a7e0e6272e5c9069c4d2e9458a4d3c"
+RPM_NAME = "gtksourceview5-lang-5.20.0-2.1.noarch.rpm"
+RPM_HASH = "f30610ad3a2e6584384e4c7fdff9bfc5fac5412c850ac4ec462e3f13417cbe0cdac3c2b6ac62fa268f089626c87aab2beb04ef3cb02e898283676897fbf9ad7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtksourceview5-lang \

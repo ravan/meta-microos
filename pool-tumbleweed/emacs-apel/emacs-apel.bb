@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "10.8+81+g82eb232"
 
-RPM_NAME = "emacs-apel-10.8+81+g82eb232-1.1.noarch.rpm"
-RPM_HASH = "ce289245216f60c5b6dadbb7ceda82697a265e3ba371c626ecf0f72daf1797c813c3cf19d401f9fc1ce37196a51baffb36240453fa31dd2cbbacea326b2c41f9"
+RPM_NAME = "emacs-apel-10.8+81+g82eb232-1.9.noarch.rpm"
+RPM_HASH = "a485695d6ea422b61716ad8589de7b1beea1fe2549981416ab6a5122e7552860e1278df97b49108052e467771f49d993f9ae47e5b352cd8916f27d09dab40f0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apel \

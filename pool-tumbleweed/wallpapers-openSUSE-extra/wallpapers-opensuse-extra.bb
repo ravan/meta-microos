@@ -1,11 +1,11 @@
 SUMMARY = "openSUSE Extra Wallpapers"
-DESCRIPTION = "Extra wallpapers for openSUSE Leap 15"
-LICENSE = "CC-BY-2.0 & CC-BY-SA-2.0 & CC-BY-SA-4.0"
+DESCRIPTION = "Extra wallpapers for openSUSE Leap 16"
+LICENSE = "CC-BY-2.0 & CC-BY-SA-2.0 & CC-BY-SA-4.0 & SUSE-Public-Domain"
 
-PV = "15"
+PV = "16"
 
-RPM_NAME = "wallpapers-openSUSE-extra-15-2.7.noarch.rpm"
-RPM_HASH = "b6705bc2fac8a6145ee331004b2ad5f60422dafb19c0431e439d9a34bea0e5853a5447f951b9edee57f1513416d97d4c1dfcef41efd5afb7a005504359b6078f"
+RPM_NAME = "wallpapers-openSUSE-extra-16-2.2.noarch.rpm"
+RPM_HASH = "4546d59f86d429d7cd88fb6d0dbeb4be0fcee2e2718e43cb1073bf07c7dc63250cfc6ae0b5abaec26cd96b62d8f2fb184a63f14d09ec455cd1f5957e22c505bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "extra-wallpapers \

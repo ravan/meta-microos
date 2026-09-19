@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.7.4"
 
-RPM_NAME = "ghc-safe-exceptions-doc-0.1.7.4-1.2.noarch.rpm"
-RPM_HASH = "898a8e212f337cbfa438d471ed400f90bf193c7a166042da5fd21a6ad73e2b954af151df2728e084316bf0dc02dc5f0bcf7a4dd9a856e9b0cd3d7a19f30436d3"
+RPM_NAME = "ghc-safe-exceptions-doc-0.1.7.4-2.21.noarch.rpm"
+RPM_HASH = "7557a0fefe081d453ed89735f8488f6609513fb9b3052d7e9fe74c263b3f0ef7b1198c76936ca3cc7b4b776a1e2c2b6b15650d8f974de68e14f1e60ea7d57f23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-safe-exceptions-doc"

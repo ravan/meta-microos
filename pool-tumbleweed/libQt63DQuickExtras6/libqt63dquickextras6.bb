@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 3DQuickExtras library"
 DESCRIPTION = "The Qt 6 3DQuickExtras library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt63DQuickExtras6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "e0f2f7d0a8b92a011720ef0503a9e5a623826cc205845a47545e7c1816ceaab5dbf7778035d54743612b33b4671bd4484fa435597f6399e3fca75d3fd0ea7079"
+RPM_NAME = "libQt63DQuickExtras6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "c840f73d7efdff1ce5d2df4c8c2b4e3e88a81ac0a1995730b20f79efa2ad1822e7e0dc9e3975937afc9ade350a96392bcb2601e3858eccc8cf0ebbbbc9b3a9ea"
 
 RPROVIDES:${PN} += "libQt63DQuickExtras.so.6 \
 libQt63DQuickExtras6"

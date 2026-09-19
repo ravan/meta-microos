@@ -8,10 +8,10 @@ of the sticks, and flexibility to draw heaps of different \
 objects."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.1svn64118"
+PV = "2026.226.2.0.1svn64118"
 
-RPM_NAME = "texlive-nimsticks-2023.209.2.0.1svn64118-55.1.noarch.rpm"
-RPM_HASH = "ced68b12f6ff2f8f1b322f5661a00294395ba73b41245a905279c59e464c0088b361b554fc44ef3bd3b3f7281cb285758e75e1d2f3ddcd5046bd96fb92418726"
+RPM_NAME = "texlive-nimsticks-2026.226.2.0.1svn64118-61.2.noarch.rpm"
+RPM_HASH = "0d94e6e0df1a0b40fcc1e9ab6a44e8ffeff38d553c8ece280f0a49b1d09d5fc1513ad0df8f324279addf2b384dc4650942dccbf7a2239199fdceb4db23c6398f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nimsticks.sty \

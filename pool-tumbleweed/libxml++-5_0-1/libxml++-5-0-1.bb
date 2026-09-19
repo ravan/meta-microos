@@ -3,10 +3,10 @@ DESCRIPTION = "libXML++ provides a C++ interface for XML files. It presently use
 libxml2 to access the XML files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.3"
+PV = "5.2.1"
 
-RPM_NAME = "libxml++-5_0-1-5.0.3-1.3.aarch64.rpm"
-RPM_HASH = "815134806b67d3c9a300c8b50e09f3c1316595f4a95d737c26ab346afa75668d90b3ae90109438a0cf3d1b4896949c87a16609f14ab565c2cb9f6d79a10a0b23"
+RPM_NAME = "libxml++-5_0-1-5.2.1-3.6.aarch64.rpm"
+RPM_HASH = "578cb73b665f6ef1aad6492ec537ee4cc578af3a8ea4f4e74d7bc7f380afa9f6aded8b9a85e5154a0c8225a906b8c7f378f565076c814cd7ad7b10bd65d51c3a"
 
 RPROVIDES:${PN} += "libxml++ \
 libxml++-5-0-1 \
@@ -17,6 +17,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

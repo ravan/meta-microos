@@ -3,10 +3,10 @@ DESCRIPTION = "Xfconf is a simple client-server configuration storage and query 
 Xfce desktop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.1"
+PV = "4.20.0"
 
-RPM_NAME = "xfconf-4.18.1-1.1.aarch64.rpm"
-RPM_HASH = "09cfad1a8a8bb991779f894c6be00958aa51b008714acd06d5dcbde0258fc1689a8d301d9c62e2dcc982ccea49497c2bbf86a87c360039da0268dc11591df25d"
+RPM_NAME = "xfconf-4.20.0-1.9.aarch64.rpm"
+RPM_HASH = "b02ceb5a9aa0529ff93b8f620fc3b9da1d1bb0b5362aa8978642383f88ef25e6d08230540f3c1dd345d9ca705339085a73cfcac8aaa1dfa6462701bc422bc5f2"
 
 RPROVIDES:${PN} += "xfconf"
 

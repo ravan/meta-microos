@@ -4,12 +4,12 @@ data structures for the research, design and implementation of high performance 
 concurrent systems. \
  \
 This package holds the development files."
-LICENSE = "BSD-2-Clause & Apache-2.0"
+LICENSE = "Apache-2.0 & BSD-2-Clause"
 
-PV = "0.7.1"
+PV = "0.7.2"
 
-RPM_NAME = "ck-devel-0.7.1-1.9.aarch64.rpm"
-RPM_HASH = "a1dcbee682161e2120ca1cc6df50c156f2307b3a57247929d7520d696517ce83be089b42a0d9e7d66fb9cc7e73cac68726ddd541872fb99a877d22341316b8a0"
+RPM_NAME = "ck-devel-0.7.2-1.1.aarch64.rpm"
+RPM_HASH = "9a8160b047be42e91c1a7153cb86701f0528219d42f6dc97409a0bce8b3b7b90c7d1d029edc4d968d3fff7695f9ce74897253d494c884b1881b61c684f6d5a65"
 
 RPROVIDES:${PN} += "ck-devel \
 pkgconfig-ck"

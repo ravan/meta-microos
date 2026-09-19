@@ -6,15 +6,14 @@ generated. Two output formats are implemented: POSIX and GNU (extended). Input \
 files can optionally be preprocessed before analyzing."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.7"
+PV = "1.8"
 
-RPM_NAME = "cflow-1.7-1.8.aarch64.rpm"
-RPM_HASH = "65573e6e235f545fa57a0f0bdd39ccdd934f5c09c31c8230d687865678f1d3f1d5472c67b4c8f1a51ccce5e181cf16481100a53b5a6a8816e47ade3a17eae597"
+RPM_NAME = "cflow-1.8-2.5.aarch64.rpm"
+RPM_HASH = "67357bbd986a18a98027215bcee0764bbaa58257a2b4c20cdbe93dedaf69a2b0b5069bf5431a6feb1ad31c0872af693f2cb7e7b38190aa0796d1d4dc85b64de7"
 
 RPROVIDES:${PN} += "cflow"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6"
 
 inherit rpm

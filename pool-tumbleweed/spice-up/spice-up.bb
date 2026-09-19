@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.9.1"
 
-RPM_NAME = "spice-up-1.9.1-1.8.aarch64.rpm"
-RPM_HASH = "25d1b7815cbf79c8eb893622a399b166de3b954498d61ebf939478c4236e1f0237fadc9b641bfc4626d3d5df0b9f48565983a43fda1ea26866ed62ef143a666a"
+RPM_NAME = "spice-up-1.9.1-2.9.aarch64.rpm"
+RPM_HASH = "74fcd57c2b56fee3de042892dcceb1dfa5c83ae2da9e0b3784c48254f8bb56255321e9bc652971c04443d7cc3d9def037cefe1de2a49efadba5bd41b2cd7350a"
 
 RPROVIDES:${PN} += "spice-up"
 

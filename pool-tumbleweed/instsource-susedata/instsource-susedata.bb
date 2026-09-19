@@ -2,10 +2,10 @@ SUMMARY = "Utility to add susedata to repomd metadata"
 DESCRIPTION = "This utility scans repodata and adds susedata and EULAs where needed."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.3.7"
+PV = "0.3.8"
 
-RPM_NAME = "instsource-susedata-0.3.7-1.6.noarch.rpm"
-RPM_HASH = "ed1f9b1e28d7440ec8c8a9794c469c335503e1aa871704d9926a1ecee687ae5c7675b8953965e5306eb391f2562d165d4fde61aac8a436d24f9c68b15d918d1b"
+RPM_NAME = "instsource-susedata-0.3.8-1.9.noarch.rpm"
+RPM_HASH = "531e6952acb6e987e688437d97756839488ba235f0acf7ceb2303c32a75c14f4e0ba7953f9da50a7ecf24d7efdb9006310f78eaeb2ac35cd660ff97d60682f69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "instsource-susedata"

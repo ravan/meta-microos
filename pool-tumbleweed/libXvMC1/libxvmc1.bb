@@ -10,10 +10,10 @@ motion compensation (mo comp) and inverse discrete cosine transform \
 comp, iDCT, and VLD (Variable-Length Decoding) for MPEG-2/MPEG-4-ASP."
 LICENSE = "MIT"
 
-PV = "1.0.13"
+PV = "1.0.15"
 
-RPM_NAME = "libXvMC1-1.0.13-1.6.aarch64.rpm"
-RPM_HASH = "da7aa138b04780fe3f5cf6bc6121f429b832a8584c0baa8d73ac413565365186abbc59a9750df6b8a53659c5e270eee340af3f9cc7fe7d2da0e0a764983c2218"
+RPM_NAME = "libXvMC1-1.0.15-1.4.aarch64.rpm"
+RPM_HASH = "b0e5041c1f783df7ad8009a007e5c3940dd52d7fdcdcfb128a493bb2db23940928ff0ad5ad40e214c98af48afbe130f89c8968bef3c734e3f6cc059265ddd3ef"
 
 RPROVIDES:${PN} += "libXvMC.so.1 \
 libXvMC1 \

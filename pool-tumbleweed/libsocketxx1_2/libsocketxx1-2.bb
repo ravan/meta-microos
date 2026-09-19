@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a shared library required by applications t
 are using gdcm for DICOM processing."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.21"
+PV = "3.2.5"
 
-RPM_NAME = "libsocketxx1_2-3.0.21-1.9.aarch64.rpm"
-RPM_HASH = "96704219b7a6e7b056cb457da1ad794d52a26448af5ef4101a3b5d389fca4953d05522e7c6bf2ce48d30855f5c21bef5e3e4e4a2e841ad02e5eeec9ca8f5ee6f"
+RPM_NAME = "libsocketxx1_2-3.2.5-2.3.aarch64.rpm"
+RPM_HASH = "cf11b8ed026208e6bdb8e8624e25b9e7ef9df7e2a8c90bcbc05bfea26711916b858ce316302f25aebaefc4aee3278835ca483f9b8b4e3dddc69b72a2044c83cd"
 
 RPROVIDES:${PN} += "libsocketxx.so.1.2 \
 libsocketxx1-2"

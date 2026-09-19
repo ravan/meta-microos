@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.4.2"
 
-RPM_NAME = "libxcb-icccm4-0.4.2-1.2.aarch64.rpm"
-RPM_HASH = "0e47344397f3505721fc9f2d70c0555a2874c501ebf4c51d870642821fb96052e4a7bae7767b7d6629a480d9ee3dc7ade6771b866adb0f2e5a041dd948aefc00"
+RPM_NAME = "libxcb-icccm4-0.4.2-1.12.aarch64.rpm"
+RPM_HASH = "33fbadb84e5fef688ce5f8ead4b7cb72c3016da9d023f8144ccc9f34e3e34aae9de3aded81581069557f2637322d1cbe24121caa8197cf2a7445330567792d24"
 
 RPROVIDES:${PN} += "libxcb-icccm.so.4 \
 libxcb-icccm4"

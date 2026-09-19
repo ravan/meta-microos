@@ -2,10 +2,10 @@ SUMMARY = "Special fonts for ConTeXt"
 DESCRIPTION = "The jmn package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn45751"
+PV = "2026.226.svn45751"
 
-RPM_NAME = "texlive-jmn-2023.209.svn45751-56.1.noarch.rpm"
-RPM_HASH = "106fbd3a41906139e2a1f266fff252224cc43e059f7173f8e329c7d965150ce736ab032957a6d4b545f81e2c78d9f6762f5eeedfc9bfa8081624248b61fc377d"
+RPM_NAME = "texlive-jmn-2026.226.svn45751-63.2.noarch.rpm"
+RPM_HASH = "56b01957263c6a036ed99f39d95edb4f2af6ba6e34742f38d9a29ec23698b7653ad75eeda3d93315022697b9dd133273e7494711e0ba9c60509e0600a1f635e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hans-sh.tfm \

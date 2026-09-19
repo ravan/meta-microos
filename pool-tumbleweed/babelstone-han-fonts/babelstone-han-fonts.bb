@@ -3,10 +3,10 @@ DESCRIPTION = "BabelStone Han is a dual-width Unicode Han font in Song/Ming styl
 with G-source glyphs used in the People's Republic of China."
 LICENSE = "Arphic-1999"
 
-PV = "15.0.5"
+PV = "16.0.3"
 
-RPM_NAME = "babelstone-han-fonts-15.0.5-1.2.noarch.rpm"
-RPM_HASH = "f05387082568e600e52564a52d93ba88ae3bb70573ab8842b2335d2120e174b6ddca952713a1ef3f11e9bd0147a3e54a7c5a93d056deab929cd0200036ce8899"
+RPM_NAME = "babelstone-han-fonts-16.0.3-1.5.noarch.rpm"
+RPM_HASH = "4c8dfb491f1a67bb469f3bf698215b76da61a99e9a49d88d72ff4fe672d111b909b6234f54bd18435da9259dc64abc1c50fd8ea3b2d2c537702ddab1413a427f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "babelstone-han-fonts"

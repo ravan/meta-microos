@@ -3,10 +3,10 @@ DESCRIPTION = "ibus-table-yawerty provides Yawerty input method on IBus Table un
 framework."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.16"
+PV = "1.3.21"
 
-RPM_NAME = "ibus-table-yawerty-1.3.16-1.1.noarch.rpm"
-RPM_HASH = "07e5e41bca6059d27bffd52fbd79f000cc0bfc57ab92606f160aafd895344432f8110aa2516e630beccb07cb1600b2ddd05e4c40a75c9438bfa4c4416fed472a"
+RPM_NAME = "ibus-table-yawerty-1.3.21-1.5.noarch.rpm"
+RPM_HASH = "d4b749d4ba27f5b01f12c9a2181dc2a4f1160cb3490802a1450d8399f84c3e83fee296425bd6b37085767aaf9fe243e3e55db7a67c414369bb6b2c26b7f2862e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-yawerty"

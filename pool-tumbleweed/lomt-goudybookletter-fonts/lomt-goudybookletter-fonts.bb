@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.20121218"
 
-RPM_NAME = "lomt-goudybookletter-fonts-0.20121218-8.7.noarch.rpm"
-RPM_HASH = "ee0da2144bf9efea8cd6c04bd85d0d925f01d8189b33eb76e4492669210988c82f73d3b79e0c5252aeb9d2a0b24f2ae1d3ef83f1797667ad8174b0078dceef58"
+RPM_NAME = "lomt-goudybookletter-fonts-0.20121218-8.15.noarch.rpm"
+RPM_HASH = "9e93c403435e9eb82ae32f699e40ac1ae29d6c45d26bb94046911a5d08bf99a5daeeaff606346c8ab0463ba4dcb46cf0d1fd49c8cea6603091a57aee60b701bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-goudybookletter-fonts"

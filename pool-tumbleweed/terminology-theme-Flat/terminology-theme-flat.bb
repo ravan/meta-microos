@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & OFL-1.1"
 
 PV = "1.13.0"
 
-RPM_NAME = "terminology-theme-Flat-1.13.0-1.3.aarch64.rpm"
-RPM_HASH = "f2e99caf20ca3fda4986e4f70653365c8bc7dd2adf95d3821a008c1cf3ff973941a771d007fc31b221980c39c8149bd78d8c12625a75be5228500e78e89839d7"
+RPM_NAME = "terminology-theme-Flat-1.13.0-1.13.aarch64.rpm"
+RPM_HASH = "6815092f7a89b045eccb93544e20a3143e83eb3aa89143d6dbbd7e2ca4026fd9d791b2aa375ac3a0345cef61b44e3bd977e13259a293ad05b9812c79fb585746"
 
 RPROVIDES:${PN} += "terminology-theme \
 terminology-theme-Flat"

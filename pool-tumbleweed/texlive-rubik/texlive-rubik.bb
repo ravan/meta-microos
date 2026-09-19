@@ -9,10 +9,10 @@ rubikpatterns, a collection of well known patterns and their \
 associated rotation sequences."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.0svn46791"
+PV = "2026.226.5.0svn46791"
 
-RPM_NAME = "texlive-rubik-2023.209.5.0svn46791-54.1.noarch.rpm"
-RPM_HASH = "acda30f5e0f80e02a3ea42433cb6b8e999155fc86fe955dc984325bac5e7d8e48a81ee02285a965384602b4fa4b96dc060831c39dcf7cfdbf1dac2f0004a8fd1"
+RPM_NAME = "texlive-rubik-2026.226.5.0svn46791-60.2.noarch.rpm"
+RPM_HASH = "796cea85052e2cabe39dd3de5387d37f5ac9d88bdad2d5ccbe872b2a390468d369debba4a9be9415bb8e501978186e187c31e77b2a2a001faabfa4b51fdf38e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rubikcube.sty \

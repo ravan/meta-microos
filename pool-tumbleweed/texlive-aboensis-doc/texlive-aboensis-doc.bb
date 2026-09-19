@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-aboensis"
 DESCRIPTION = "This package includes the documentation for texlive-aboensis"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn62977"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-aboensis-doc-2023.209.svn62977-55.1.noarch.rpm"
-RPM_HASH = "681fd52ea9781772d2a9f948fb1d0321195a6e2c512ee15dd3ef63cb5fffcf1adec31490ccb2b437a8202c9d0e153c4ad3847b9ac20df5ba7e1eed9311abc0fc"
+RPM_NAME = "texlive-aboensis-doc-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "8fae965ffdfe04541ce2a779950cc6ac929ae84fad476c70a6cab398b30109343643c87369b7255f441c5ab7da3fdae0f91feda1cefd936bc6787fdb1359f60e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aboensis-doc"

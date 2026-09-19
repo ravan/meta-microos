@@ -11,10 +11,10 @@ This package contains the javadoc documentation for the Jakarta Commons \
 Validator Package."
 LICENSE = "Apache-2.0"
 
-PV = "1.5.0"
+PV = "1.10.1"
 
-RPM_NAME = "apache-commons-validator-javadoc-1.5.0-3.5.noarch.rpm"
-RPM_HASH = "296e6ba7a0243c75659f4bd5ac84b99d0571654bcf5406a5d177671615661d401a104d412a597bcc257dc36c92b13293266a9d315e5e2cc31bd0f090b7f045d9"
+RPM_NAME = "apache-commons-validator-javadoc-1.10.1-1.2.noarch.rpm"
+RPM_HASH = "9ea8eb0cc7833e2fccfad87ab525a3d5f5f4bb00fcb5b7cf4ed8a00edf615a77e9b3d4f5e2940227f3e2c04f0481c6ad352d81163d3c74fdf80fc4cba3ee6b82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-validator-javadoc"

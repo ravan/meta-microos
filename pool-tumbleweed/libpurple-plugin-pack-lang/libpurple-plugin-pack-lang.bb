@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "libpurple-plugin-pack-lang-2.8.0-1.3.noarch.rpm"
-RPM_HASH = "42aea31617c0f667c6ceab9c160d4dc9cc93598db451c3384f7f5f73744098d57bee993da001a38bbb9d85bc0b61b6e2fc50a2e47402807c19118b4a63082229"
+RPM_NAME = "libpurple-plugin-pack-lang-2.8.0-2.3.noarch.rpm"
+RPM_HASH = "a87a3e9eb43af4a48bca4ea9573fc264f8d44550a0b4f7d41e30e1f9ab6ed1d19f1b73e6382cbd55050f920a531cb47c40d6fbcda34a3a0c599a5b8a8175916b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpurple-plugin-pack-lang \

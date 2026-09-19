@@ -19,10 +19,10 @@ Feature highlights: \
  * Search for contacts in Jabber."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-azoth-xoox-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "cbe18ab9fad805e06118e672990ec46291a2d8b49698416896b16ff783b08ff46b3d62b69e9bd47711c2973db36fd16a80cc5862ba8a7ab421fe4c1c8920a803"
+RPM_NAME = "leechcraft-azoth-xoox-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "23c593fdb517082644e3d63b0a02b1ae44177ac9a5c40cc7095d6681c348e5d670b9ebf3d7cecdd54dd9daacf7363ad63c52f57449164283996168250e45e318"
 
 RPROVIDES:${PN} += "leechcraft-azoth-protocolplugin \
 leechcraft-azoth-xoox \
@@ -30,25 +30,26 @@ libleechcraft-azoth-xoox.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-azoth \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQXmppQt6.so.10 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-db-qt5.so.0.6.75.1 \
-libleechcraft-util-gui-qt5.so.0.6.75.1 \
-libleechcraft-util-network-qt5.so.0.6.75.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-threads-qt5.so.0.6.75 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
-libqca-qt5.so.2 \
-libqxmpp.so.4 \
+libleechcraft-azoth-util-qt6.so.0.6.75 \
+libleechcraft-util-db-qt6.so.0.6.75 \
+libleechcraft-util-gui-qt6.so.0.6.75 \
+libleechcraft-util-network-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-threads-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
+libqca-qt6.so.2 \
 libstdc++.so.6"
 
 inherit rpm

@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.1.4"
 
-RPM_NAME = "ghc-extensible-exceptions-prof-0.1.1.4-7.3.aarch64.rpm"
-RPM_HASH = "1459945aaed3e8cac50cc018fb037fa5bd86b03f5d4aeffbc44ef4efb61525ead6bdd7fc9a7f547d4452e3d176fccd595fb015a500de81c257333d4d519f2369"
+RPM_NAME = "ghc-extensible-exceptions-prof-0.1.1.4-7.23.aarch64.rpm"
+RPM_HASH = "3c965e28bc0d40f30adcf0801636be0f905abcbd261d82b13774a0b02a9cb600b876869c893745478842ad57c767c072ca366866e245485a4fb855450ef49bc5"
 
 RPROVIDES:${PN} += "ghc-extensible-exceptions-prof \
-ghc-prof-extensible-exceptions-0.1.1.4-1hcTiYLx0LbAr3mhUvVP0e"
+ghc-prof-extensible-exceptions-0.1.1.4-1DqJiZkXnDRHRXNZtok1ZU"
 
 RDEPENDS:${PN} += "ghc-extensible-exceptions-devel \
-ghc-prof-base-4.17.2.0"
+ghc-prof-base-4.21.2.0-8844"
 
 inherit rpm

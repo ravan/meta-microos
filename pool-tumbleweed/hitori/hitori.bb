@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "hitori-44.0-1.3.aarch64.rpm"
-RPM_HASH = "d8c3d08facc71c9a3ac910e9712fd91dda7ceeb7bd6a9127a7242c42350ae2993a69582aef64ca4d093b5cf41caaed03b60a229769ed2a6e1ebf5d8518f15a4c"
+RPM_NAME = "hitori-44.0-1.15.aarch64.rpm"
+RPM_HASH = "b83865eee96486fbb5dd3c2fe22edeee6e3853c4fee09457c53aed580c3c50fef83a7f0a112cdd7e411cc822e6f9664d39ffa2d0a169c07c412d0784c152de35"
 
 RPROVIDES:${PN} += "hitori"
 

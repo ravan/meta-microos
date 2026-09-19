@@ -11,10 +11,10 @@ distribution). The package includes font definition files for \
 use with the Latin Modern OpenType fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1hsvn19795"
+PV = "2026.226.0.0.1hsvn19795"
 
-RPM_NAME = "texlive-euenc-2023.209.0.0.1hsvn19795-53.1.noarch.rpm"
-RPM_HASH = "051a665550f1474990ae8fc04096c987679d17930087572eeaeb4ed27b85e3a43d237ff0114ae9d1d32c227d369df942abf5f4ef39d12c73432de8522c902282"
+RPM_NAME = "texlive-euenc-2026.226.0.0.1hsvn19795-59.2.noarch.rpm"
+RPM_HASH = "eeca298b7431e493ea656d6cdae2ad15efdaf4b43d75b38dfe7f1e12d43b70d3ea526f8430662c77f52f835e02390c573a62e49fd2d74e992ef2008facc22286"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eu1enc.def \

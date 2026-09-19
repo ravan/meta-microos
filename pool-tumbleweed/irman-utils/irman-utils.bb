@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "irman-utils-0.5.2-5.12.aarch64.rpm"
-RPM_HASH = "0d9b57f788d48031ceae48146d14cfe82083699ec146004d3818bd1d7bd547d69b26e49f96dcd8b016d0f197b0c5362c091971b9ea78cb3ff5ee3a290aabcede"
+RPM_NAME = "irman-utils-0.5.2-6.3.aarch64.rpm"
+RPM_HASH = "26734f8894e8e4093000353e27bcc26378a14268df0c2744c03373cda88627c234d0b81e66051e99ca9659cca7b011ab12c8847c6c64deeb1246d4a2373aa41b"
 
 RPROVIDES:${PN} += "irman-utils \
 libirman-utils"

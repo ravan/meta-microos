@@ -4,10 +4,10 @@ DESCRIPTION = "Contains three packages: - pfnote to number footnotes per page; \
 make footnotes double-columned."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn48568"
+PV = "2026.226.1.1svn48568"
 
-RPM_NAME = "texlive-yafoot-2023.209.1.1svn48568-53.2.noarch.rpm"
-RPM_HASH = "ace77e0f34f9491df34eda3c9229211b20280e1159aa81ffc82a7bc92a0f1a46074e8a287812f8d5a9be164136e9329e57f9cb3069a8fa3e5ad4a60180e2f2c9"
+RPM_NAME = "texlive-yafoot-2026.226.1.1svn48568-59.4.noarch.rpm"
+RPM_HASH = "39916ff15ba9b83a56bb63792cf2525b3876d7e279f8e71e6db44b17fa687ca5aa26e3c334a39bdb74136685fb14bf44359fe4f493d11a96895457bc13b997e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dblfnote.sty \

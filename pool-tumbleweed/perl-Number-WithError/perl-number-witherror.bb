@@ -18,14 +18,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.01"
 
-RPM_NAME = "perl-Number-WithError-1.01-1.19.noarch.rpm"
-RPM_HASH = "928739a14478797dec5dd344abadc81f538373b7647aea0d915e110b420b0c41895df8e7df4ebf587948405a466e25635ec04f638207c3a9ff9dcd13e4a3d9fa"
+RPM_NAME = "perl-Number-WithError-1.01-2.12.noarch.rpm"
+RPM_HASH = "d26a5d5f28efb9b283d1f096c0ac128d54d85ce047fae11a1cdab0253b3c6ea8f433b6016bc65132a90018ad5b8929d3834f986e54083a397dd7615c027b56f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Number--WithError \
 perl-Number-WithError"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Params--Util \
 perl-prefork"
 

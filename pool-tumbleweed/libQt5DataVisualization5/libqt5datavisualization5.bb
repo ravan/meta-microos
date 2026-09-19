@@ -4,10 +4,10 @@ DESCRIPTION = "Qt Data Visualization module provides a way to visualize data in 
 This package contains a shared library for the QtDataVisualization."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt5DataVisualization5-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "c94e487681570c68c0053cdf03c9a7c29d126e3ae13a3d5834f347da5bba31249215f428f5b9e73f56313e8fd54d5bf728577a1bae3f3e855b11f7774f05ec59"
+RPM_NAME = "libQt5DataVisualization5-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "818bd67483ebf524f4f79213f669b68fbf60ae54d541c979227bd80a089438a04220e98bd93118db59a5084eba895cd81ee158dc56e1f5c3bd45c884b4f6eb78"
 
 RPROVIDES:${PN} += "libQt5DataVisualization.so.5 \
 libQt5DataVisualization5"

@@ -6,10 +6,10 @@ It has a configurable frequency for updates and the number of last unread \
 messages shown."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-gmailnotifier-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "522cfe221478f6b4591382eb383d67c52ba457d1a77c791efdc4eb49add0404a2c198c6d19dbf996f1ea9bd45df3207b1f9100833ac9182bd567c25ff88070d1"
+RPM_NAME = "leechcraft-gmailnotifier-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "93afcba5838dbdff0d0ea8c0b30b6cb28bc4f9aa145741e5c78012887d5d8e7afe02c5bf0d29a5e64355cae3be9d4e997b8ba27159045d5aad5f00a9daad5ded"
 
 RPROVIDES:${PN} += "leechcraft-gmailnotifier \
 libleechcraft-gmailnotifier.so"
@@ -17,22 +17,21 @@ libleechcraft-gmailnotifier.so"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
 leechcraft-http \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5QuickWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-gui-qt5.so.0.6.75.1 \
-libleechcraft-util-qml-qt5.so.0.6.75.2 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-util-gui-qt6.so.0.6.75 \
+libleechcraft-util-qml-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libstdc++.so.6 \
-qt5qmlimport-QtQuick.2"
+qt6qmlimport-QtQuick"
 
 inherit rpm

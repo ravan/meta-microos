@@ -12,10 +12,10 @@ These analyses can be performed on a single image, or a diff can be performed \
 on two images to compare."
 LICENSE = "Apache-2.0"
 
-PV = "0.17.0"
+PV = "0.19.0"
 
-RPM_NAME = "container-diff-0.17.0-1.11.aarch64.rpm"
-RPM_HASH = "7f47c35ee0e07b62c15e34a358e4d4c225e9ec199247a826d271a0c7f6915f64c85b5461e82e865aaa9d60a2d2833fe65fc5f3be4c6c4431ae0f75fa782b9834"
+RPM_NAME = "container-diff-0.19.0-1.4.aarch64.rpm"
+RPM_HASH = "077a0d161fd9ae87d008e44cdda682220224cf27a6b4484972c425b73efee4acbc307da52e17a713e3ee961183388700f233ab26a59cb78d13e1ce89a35e2d5b"
 
 RPROVIDES:${PN} += "container-diff"
 

@@ -6,10 +6,10 @@ unpacking them into a directory which can eventually be chrooted \
 into."
 LICENSE = "MIT"
 
-PV = "1.0.128"
+PV = "1.0.144"
 
-RPM_NAME = "debootstrap-1.0.128-2.1.noarch.rpm"
-RPM_HASH = "c782f170b11635c4eb75be335c153c0e3e2d7abbc18ed11163437f23aa7e9aff43d97882a07e1eac05e4ee57fc47c958ae0803fdc3c2e267e10ce760b98d782d"
+RPM_NAME = "debootstrap-1.0.144-1.2.noarch.rpm"
+RPM_HASH = "879465ec6e240997e0f94423afdc94dc51b66921fb09f333f9a3692cda273665cdfca4c05d364fe43810d93881f940f5ce64dbebc900f0d49e9a7bc45e803ed2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "debootstrap"

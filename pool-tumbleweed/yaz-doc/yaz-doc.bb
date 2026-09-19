@@ -5,10 +5,10 @@ using the ANSI/NISO Z39.50 protocol for Information Retrieval. \
 This package contains the documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.34.0"
+PV = "5.38.0"
 
-RPM_NAME = "yaz-doc-5.34.0-1.4.noarch.rpm"
-RPM_HASH = "7bb7f96b85f5dc4d8befda10e59529bc746ca5208e75c63f2bf194a17f9ed33c5c29f8221727b6055b2617de86fa602ffa45413862b2d7744b7833b840e51142"
+RPM_NAME = "yaz-doc-5.38.0-1.1.noarch.rpm"
+RPM_HASH = "604ddd85c38dab22953aa637418db733e7e85adeaf85f1eec35f614ee628450b0b4fa8caf306fe012a98a9fb65486c285aa5b459ce6c5352d27804cf21b8b7fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yaz-doc"

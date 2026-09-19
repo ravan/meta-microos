@@ -1,11 +1,11 @@
-SUMMARY = "scj input schema for rime"
-DESCRIPTION = "scj input schema for rime."
+SUMMARY = "Smart cangjie(scj) input schema for rime"
+DESCRIPTION = "Smart cangjie(scj) input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-scj-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "f196a0f841ecd970776cc88b38179ca43735f902b86a3d0ea39842886858a4f692ef3a7cd45d03d44175ef5f00a5f6a06ea83603a252a073f75bf13f9f3899f5"
+RPM_NAME = "rime-schema-scj-20250315-1.4.noarch.rpm"
+RPM_HASH = "9e870b968dd5d8944ec419ba7229303930f2f11850605635588aea97a43701d6777bdb3b0fbb2726a82e918de4ddeb904e53a82ac1ec62ac1c78d5bd664d76be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-scj"

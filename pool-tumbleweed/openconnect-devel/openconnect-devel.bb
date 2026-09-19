@@ -6,10 +6,10 @@ This packages provides development files and headers needed to build \
 packages against openconnect."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.12"
+PV = "9.21"
 
-RPM_NAME = "openconnect-devel-9.12-1.1.aarch64.rpm"
-RPM_HASH = "57a2079e742f7a730cca8414e023410c6993b8d845613d9a42bd204dfe8b4b97382d58465ae3cf3bd8fe58ca0ed688d91f8fd04f168bf1040c3fa03d11253151"
+RPM_NAME = "openconnect-devel-9.21-1.3.aarch64.rpm"
+RPM_HASH = "31001a1932720f5c73eeeb19738507c67f782509765a5621b708e8252f898bddab4a72e6cb26eb054467b2f0ff93f5308793bbfda016d1a813df73e4abe8d06b"
 
 RPROVIDES:${PN} += "openconnect-devel \
 pkgconfig-openconnect"

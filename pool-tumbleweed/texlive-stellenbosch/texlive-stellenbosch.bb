@@ -1,26 +1,28 @@
-SUMMARY = "Stellenbosch thesis bundle"
-DESCRIPTION = "The usthesis class/style files are provided to typeset reports, \
-theses and dissertations that conform to the requirements of \
-the Engineering Faculty of the University of Stellenbosch. The \
-class file usthesis.cls is based on the standard LaTeX book \
-class, while usthesis.sty is a style file to be loaded on top \
-of the very powerful memoir class. Both options give identical \
-output, but the benefit of the using memoir is that it has many \
-additional command and environments for formatting and \
-processing of a document. Usthesis is primarily concerned with \
-the formatting of the front matter such as the title page, \
-abstract, etc. and a decent page layout on A4 paper. It also \
-works together with the babel package to provide language \
-options to typeset documents in Afrikaans or in English. \
-Additional packages are provided for bibliographic matter, note \
-title pages, lists of symbols, as well as various graphic files \
-for logos."
+SUMMARY = "Stellenbosch thesis bundle (legacy version)"
+DESCRIPTION = "Note: This bundle should only be used for typesetting legacy \
+documents. For new documents, its successor stellenbosch-2 is \
+available. The usthesis class/style files are provided to \
+typeset reports, theses and dissertations that conform to the \
+requirements of the Engineering Faculty of the University of \
+Stellenbosch. The class file usthesis.cls is based on the \
+standard LaTeX book class, while usthesis.sty is a style file \
+to be loaded on top of the very powerful memoir class. Both \
+options give identical output, but the benefit of the using \
+memoir is that it has many additional command and environments \
+for formatting and processing of a document. Usthesis is \
+primarily concerned with the formatting of the front matter \
+such as the title page, abstract, etc. and a decent page layout \
+on A4 paper. It also works together with the babel package to \
+provide language options to typeset documents in Afrikaans or \
+in English. Additional packages are provided for bibliographic \
+matter, note title pages, lists of symbols, as well as various \
+graphic files for logos."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.11asvn66379"
+PV = "2026.226.11asvn68039"
 
-RPM_NAME = "texlive-stellenbosch-2023.209.11asvn66379-58.1.noarch.rpm"
-RPM_HASH = "8b159c35f95b7668ca85f412a4fc63ba56eacb9b94ee240e8bf170e727fd9536bd9883307da1c10acfbc5e739df8e9c4a0ed5fd5b36d8ea55f95e9f5b183f7b2"
+RPM_NAME = "texlive-stellenbosch-2026.226.11asvn68039-64.2.noarch.rpm"
+RPM_HASH = "310a202e2b0bb192a71b67d7f89c932373fc80a7f5d3748f583dcefb8406f4604359ceb2d29599ffb6f3344ddd067fa013235cfa81ad50ee20086226c4dc54bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-usbib.sty \

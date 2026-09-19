@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0.ge4631e8a"
 
-RPM_NAME = "openhpi-clients-3.8.0.ge4631e8a-3.5.aarch64.rpm"
-RPM_HASH = "736a5dc022a5783d635c984f6db89943e7775d6d86df69322ae83685063d894a3c50899e10844b9e8818319140dd878a34a1818c949c5a9d8d32e90360a7c72e"
+RPM_NAME = "openhpi-clients-3.8.0.ge4631e8a-3.20.aarch64.rpm"
+RPM_HASH = "32f5c07ad3aca6e99bc6792fef075e883fe1f3fccf5639ebeca5f031bba0fcfc5e0fe4cd2c419971e07a1e55769e73dd2c5307dfd46d8d19f7b6ec69b058e93b"
 
 RPROVIDES:${PN} += "openhpi-clients"
 

@@ -1,16 +1,16 @@
 SUMMARY = "Qt6 BundledResonanceAudio static library"
 DESCRIPTION = "The Qt6 BundledResonanceAudio static library. \
 This library does not have any ABI or API guarantees."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-bundledresonanceaudio-devel-static-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "b935f04399a3f77468448628b44cde7700aae2bd6903e0aa29500baf0df74cbfcc4f34d56d06c23fad8a2d5c0280ad71b8a0c9b4a5257c80535716386106b422"
+RPM_NAME = "qt6-bundledresonanceaudio-devel-static-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "5e1522f27718817e72ff7cb7498d3c142814063dca060ccf747eeec2010919db1fdef4359a58bf06b26e55cc1b50f2650f887c983861a123fa5a937d0ab46bd3"
 
 RPROVIDES:${PN} += "cmake-Qt6BundledResonanceAudio \
 qt6-bundledresonanceaudio-devel-static"
 
-RDEPENDS:${PN} += "qt6-core-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate"
 
 inherit rpm

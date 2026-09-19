@@ -7,10 +7,10 @@ although it *should* work (though with varying features) with all \
 devices supported by the wireless kernel extensions by Jean Tourrilhes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.4"
+PV = "0.9.7"
 
-RPM_NAME = "wavemon-0.9.4-1.2.aarch64.rpm"
-RPM_HASH = "e654769e616e310d3c29c25e78a337672feda78ff18a5974be4021467f034178c4b38afe4683db04d71377ee1a4e5c1ef05bc5008ff79f47ec6a346db37c53ba"
+RPM_NAME = "wavemon-0.9.7-1.5.aarch64.rpm"
+RPM_HASH = "9103ba7549078e85dd191d30bd411bcec59e30514bf63a946812f2ede0ff834cd22c4db4dfad934ea249b23c96310b6307b83f9fa60704174f176d03a9d73433"
 
 RPROVIDES:${PN} += "wavemon"
 

@@ -2,10 +2,11 @@ SUMMARY = "Documentation for libcamd"
 DESCRIPTION = "Documentation for libcam."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.13.0"
+PV = "7.14.0"
 
-RPM_NAME = "libcamd-doc-5.13.0-49.2.aarch64.rpm"
-RPM_HASH = "543f2f00bdd2c11f00d56a672105b8325e1b54527ada53ac13895f0af8f1a1ccd82db0572c805aef844d5ef9aa370b058c27717e002bbbb30f38320a47b9cbdc"
+RPM_NAME = "libcamd-doc-7.14.0-1.1.noarch.rpm"
+RPM_HASH = "6d3b39f3d02a78c1d69d339cf71abd79a30993dd1595a0a251dd9f6b8cb4d476a0c7d82f6794d16915d197f29626971099d5e79b2294982b129ee8496afd04d0"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcamd-doc"
 

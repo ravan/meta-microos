@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "seahorse-daemon-3.12.2-10.4.aarch64.rpm"
-RPM_HASH = "ed8ccc240667d76b4619bc4a690854fe21cb2592bdeaa59e12e6e423359c0c7bc6be8e520e5fd05e538a93d0a72a712964e836e7e32323ade70ee621c716bdcf"
+RPM_NAME = "seahorse-daemon-3.12.2-12.7.aarch64.rpm"
+RPM_HASH = "db1a57c9fe342265a031d66529faf895bf4639f0471717af1a10b4853313819adbbb0d34aad253fd4a392f9211b54b5c1e1c1e22eb746982313e2432371dd04e"
 
 RPROVIDES:${PN} += "seahorse-daemon"
 
@@ -21,7 +21,7 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgnome-keyring.so.0 \
 libgobject-2.0.so.0 \
-libgpgme.so.11 \
+libgpgme.so.45 \
 libgtk-3.so.0 \
 libnotify.so.4"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides commands to formalize textual variants in \
 critical editions typeset using eledmac."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn38114"
+PV = "2026.226.1.1asvn38114"
 
-RPM_NAME = "texlive-eledform-2023.209.1.1asvn38114-54.2.noarch.rpm"
-RPM_HASH = "000789339beebb388f7facb43d9e018c84d95d7e3495795f4e5528f8e962ada9ab793d76fc406c2a4b8032fdf60f32ef5c5c17f1183a5c7c6f17ab981660eae0"
+RPM_NAME = "texlive-eledform-2026.226.1.1asvn38114-61.4.noarch.rpm"
+RPM_HASH = "a848f6b70055c6526950c0b293405d73af5b6e69ec25a743a0f674aedf39d716ea61b61534fbace989bb901b487fb0748ae0c7ca80c0caf389017838b8ac6ba6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eledform.sty \

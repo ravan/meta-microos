@@ -7,10 +7,10 @@ types, but does not provide any specific widget. Specific widgets are \
 implemented by other libraries using Xt, such as Xaw and Motif."
 LICENSE = "MIT"
 
-PV = "1.3.0"
+PV = "1.3.1"
 
-RPM_NAME = "libXt6-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "a06d4b82b257590bc632aad3acc5d185208256cde555a9dae90f5a5c0b89c156bdaebc5dc0e91fcbd8444bd64c65718ed50096ea5229ff53c82713862ecc622a"
+RPM_NAME = "libXt6-1.3.1-3.6.aarch64.rpm"
+RPM_HASH = "61b1e469884f9ec06179bffa7bc18dfe6c9d2cb898509744e2d0460ff431430529d605c1fb3b2e98cf951fafa3e549ced52c0fa7a30ebde2e66b58b481822c5f"
 
 RPROVIDES:${PN} += "libXt.so.6 \
 libXt6 \

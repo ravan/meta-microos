@@ -4,13 +4,15 @@ devices. This means the creation, modification or deletion of files \
 on one machine will automatically be replicated to other devices."
 LICENSE = "MPL-2.0"
 
-PV = "1.24.0"
+PV = "2.1.5"
 
-RPM_NAME = "syncthing-1.24.0-1.1.aarch64.rpm"
-RPM_HASH = "70b02efda5532eae95a5ade6e4503c6a68695a35b043a00533e027c723fe95789ef7070e5cbc3eab3f9200179cdc712f830d75f63bc7ad57401b5116e7fbd5d0"
+RPM_NAME = "syncthing-2.1.5-1.1.aarch64.rpm"
+RPM_HASH = "b4f44eacee89da822deefbd98325b981903aa73356541143ccf700d415c933a628c9f5593be2409e38dfcf429a24fa8652b5ed4ed0b54c962f9a164edc8de0ae"
 
 RPROVIDES:${PN} += "syncthing"
 
-RDEPENDS:${PN} += "/usr/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh \
+libc.so.6 \
+libsqlite3.so.0"
 
 inherit rpm

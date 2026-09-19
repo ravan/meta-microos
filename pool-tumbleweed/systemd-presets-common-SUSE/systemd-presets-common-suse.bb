@@ -4,11 +4,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "15"
 
-RPM_NAME = "systemd-presets-common-SUSE-15-30.1.noarch.rpm"
-RPM_HASH = "e013d173709c51d78c20d8fac105bbd1a067ffdaafda4c48c8fec55988d74c91ee733258e51a8b021e7e6039e99e0558586f988344c0b1971ac0653f31f26108"
+RPM_NAME = "systemd-presets-common-SUSE-15-48.2.noarch.rpm"
+RPM_HASH = "41d1f1c4fa7f2f95e348ad5232a5d0e60211ecbbb28510af053801b8dc8967aba4cb857efc7699b9e398ef31c85caf35fe14864bb3f8b8c9136a13d13a20ec9f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "systemd-presets-common-SUSE"
+RPROVIDES:${PN} += "systemd-presets-common-SUSE \
+systemd-presets-common-SUSE-selinux-storeroot-etc-service"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \

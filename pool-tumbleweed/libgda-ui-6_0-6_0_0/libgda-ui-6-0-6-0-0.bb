@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-ui-6_0-6_0_0-6.0.0-6.8.aarch64.rpm"
-RPM_HASH = "5a5e606b85a1a07aee04772a565e75a5be4263f971af6bccc88ed45aee85f3a68d577aadb81bd60a9b7547afbc32d6e8246cb74dd0be29efc0c8ffa81dcce48b"
+RPM_NAME = "libgda-ui-6_0-6_0_0-6.0.0-11.5.aarch64.rpm"
+RPM_HASH = "b151c9b3edbb902995140d63f8f6aaab20f8b0a7aee3c518729a2624fe88014e226d8b71a1c445451f8f06c8da4021038174d2b471243884484785b43ffca88d"
 
 RPROVIDES:${PN} += "libgda-ui-6-0-6-0-0 \
 libgda-ui-6.0.so.6.0.0"
@@ -26,6 +26,6 @@ libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libpango-1.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -1,12 +1,12 @@
 SUMMARY = "A Computer algebra package for Lie group computations"
 DESCRIPTION = "LiE is a computer algebra system that is specialised in computations \
 involving (reductive) Lie groups and their representations."
-LICENSE = "LGPL-3.0+"
+LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.2.2"
 
-RPM_NAME = "LiE-2.2.2-6.33.aarch64.rpm"
-RPM_HASH = "846010e21f5fc87b9bb008c510e1194aef4019a253438a792bdde292c1c93cfb45164d63046f57ec773c3e5357e371d6e61b03d03ffc0ca8b818eb8eed4b76aa"
+RPM_NAME = "LiE-2.2.2-8.9.aarch64.rpm"
+RPM_HASH = "f0225eed9d33b747522180226b57d683cded9b54a4d85e42310dbe43ece43a33714a6e4262234d86eb977cf7046217ebbcdcd63dca5b3e7ee6539bb4a8243b13"
 
 RPROVIDES:${PN} += "LiE"
 

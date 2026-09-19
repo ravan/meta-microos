@@ -4,10 +4,10 @@ malloc checks to catch potential heap corruptions. It's not \
 installed by default as it may degrade performance."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87+git20230815.cab7b44"
+PV = "84.87+git20260610.3b5a868c"
 
-RPM_NAME = "aaa_base-malloccheck-84.87+git20230815.cab7b44-1.1.aarch64.rpm"
-RPM_HASH = "29647bc57a6e30fc0341332442497157f88bb4d86e26bd66a1c2972522bdc07f7249b9587b6640b0e8724b4cd5cbb36945a5856e8ca7e6c1d1427afb54c57603"
+RPM_NAME = "aaa_base-malloccheck-84.87+git20260610.3b5a868c-1.3.aarch64.rpm"
+RPM_HASH = "7db801620630a489689cc5fb1811c7cf731bfe8ddae17e7417463375844b6fc2c5d61adc03d8f62cc6dc37de165f08fb6944bd271d8c191828377c4727f0f62b"
 
 RPROVIDES:${PN} += "aaa-base-malloccheck"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the upstream default settings for \
 MATE Desktop GSchemas."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.2"
 
-RPM_NAME = "mate-desktop-gschemas-branding-upstream-1.26.1-1.2.noarch.rpm"
-RPM_HASH = "7c75af34e2e679f2e3ef1d87ad5b081b649f14e021392981461ef684b07055c90173780a6b9b8d38d4d07a25e2302ee18fc6802c54c98c498e3475c9d8ccd233"
+RPM_NAME = "mate-desktop-gschemas-branding-upstream-1.28.2-1.13.noarch.rpm"
+RPM_HASH = "026a3692c7e5ade6e215b7a8635e56f5a77227a335c5306518689b8ef661233b29f83897c52f0cd967ed74488a12a1dbf6374810b8bcaf38aa029c9b04494b03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-desktop-gschemas-branding \

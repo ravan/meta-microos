@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "libxkbui-devel-1.0.2-13.1.aarch64.rpm"
-RPM_HASH = "8c9a68fd569530d54c52a4843479de05453c84ec7fa4bbc6635f92522b583213211375ed244f59f993af17b62309c496be455788b48e737b6081d12e83e71996"
+RPM_NAME = "libxkbui-devel-1.0.2-13.11.aarch64.rpm"
+RPM_HASH = "bfe53a21ab378b87356084ad878faf3cbd00dd34685ba292ad12b9081cfa735cf79c7889be56c91534ec6d8643a9f6bd80815e7d6f746153bf104279dda6dce4"
 
 RPROVIDES:${PN} += "libxkbui-devel \
 pkgconfig-xkbui"

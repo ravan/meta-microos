@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for AWS Config"
 DESCRIPTION = "The AWS Java SDK for AWS Config module holds the \
 client classes that are used for communicating with \
 AWS Config Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-config-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "66506fc116b8a9c2443a58086838829996616754ea78750eca51d7de6297046b68433c444674d9911376e43e68f25b3d501e1580179b09e25b15993db2cf3b91"
+RPM_NAME = "aws-sdk-java-config-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "9ab0a5e71ab982e837787aaf6fed1c4be9480dd37bdb5d8303d8eadb349cf21f20bb0fbe38b54fed3669da989dfcc662988ecb6f77b84f41f9bf2610e06bf7d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-config \

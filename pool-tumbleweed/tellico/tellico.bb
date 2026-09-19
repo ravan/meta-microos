@@ -4,67 +4,68 @@ default templates for books, bibliographies, videos, music, video games, coins, 
 stamps, trading cards, comic books, and wines."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5.1"
+PV = "4.2.2"
 
-RPM_NAME = "tellico-3.5.1-1.1.aarch64.rpm"
-RPM_HASH = "686ee0e807f307636bd8385fae0b09f75470b45a7a432076e95fc442257d14085d86489ba3656dae2c45727607c91bf30b46733e6113ec468c17938dfc9174f0"
+RPM_NAME = "tellico-4.2.2-1.1.aarch64.rpm"
+RPM_HASH = "2975379a32779e0a079a4512b8ade68dee073f2e1e28d618ebf0c17c9efb0ec62280d9afce2e0f2419502fc24304ec0b4a4f2cf024d06e903b1bad9c537202e2"
 
 RPROVIDES:${PN} += "config-tellico \
 tellico"
 
-RDEPENDS:${PN} += "/usr/bin/dbus-send \
-/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5Cddb.so.5 \
-libKF5Codecs.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5FileMetaData.so.3 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5ItemModels.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5NewStuffCore.so.5 \
-libKF5NewStuffWidgets.so.5 \
-libKF5Sane.so.5 \
-libKF5Service.so.5 \
-libKF5Solid.so.5 \
-libKF5SonnetCore.so.5 \
-libKF5SonnetUi.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5Wallet.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Charts.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKCddb6.so.5 \
+libKF6Archive.so.6 \
+libKF6Codecs.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6FileMetaData.so.3 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6IconWidgets.so.6 \
+libKF6ItemModels.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6NewStuffCore.so.6 \
+libKF6NewStuffWidgets.so.6 \
+libKF6Service.so.6 \
+libKF6Solid.so.6 \
+libKF6SonnetCore.so.6 \
+libKF6SonnetUi.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKSaneWidgets6.so.6 \
+libQt6Charts.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libcdio.so.19 \
 libcsv.so.3 \
 libexempi.so.8 \
 libexslt.so.0 \
 libm.so.6 \
-libpoppler-qt5.so.1 \
+libpoppler-qt6.so.3 \
 libstdc++.so.6 \
-libtag.so.1 \
+libtag.so.2 \
 libv4l1.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxslt.so.1 \
 libyaz.so.5"
 

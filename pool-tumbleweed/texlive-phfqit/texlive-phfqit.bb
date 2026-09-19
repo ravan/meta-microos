@@ -10,10 +10,10 @@ max-entropy, smooth relative entropies, etc.) are also \
 provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.1svn60734"
+PV = "2026.226.4.1svn60734"
 
-RPM_NAME = "texlive-phfqit-2023.209.4.1svn60734-52.1.noarch.rpm"
-RPM_HASH = "f7e8e75cbe0ff62b9f41a70a98a1a0a02d5162c0255525bf0c91576aee6354099a55a12ad83be9f6c1ec0eb89043e0a199e24a91731f57a81ce638db5196d363"
+RPM_NAME = "texlive-phfqit-2026.226.4.1svn60734-58.2.noarch.rpm"
+RPM_HASH = "11f7095ffbe90add672e84ca2bc0effb555f1fc7d5af9c5a7c2b64db7d635747177c24987d8aaa0715e6ac121f2be098c79d8e533617d5db46ce0f427cb5ccd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phfqit.sty \

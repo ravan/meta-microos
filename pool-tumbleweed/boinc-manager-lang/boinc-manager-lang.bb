@@ -2,10 +2,10 @@ SUMMARY = "Translations for package boinc-manager"
 DESCRIPTION = "Provides translations for the 'boinc-manager' package."
 LICENSE = "GPL-3.0-or-later | LGPL-3.0-or-later"
 
-PV = "7.24.1"
+PV = "8.2.15"
 
-RPM_NAME = "boinc-manager-lang-7.24.1-1.1.noarch.rpm"
-RPM_HASH = "8a86a0b7dc85fb9d95157c5290139ebac7b18adbe4a8ed51866c2a5ac847b79e519937a241084b1c9809e342920debc088a0c831773f4c5875eec564df5ea4e9"
+RPM_NAME = "boinc-manager-lang-8.2.15-2.1.noarch.rpm"
+RPM_HASH = "a4e0612998761476d3f3a7422cab7324d7db82722fc99f385301999b733070085ab8d014a3b1ac92fe5ef5afa39a457a54196d62bc0fd376f9f84d0589aa627c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boinc-manager-lang \

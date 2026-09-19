@@ -14,10 +14,10 @@ DESCRIPTION = "PrBoom+ is a conservative Doom source port. It features: \
   mode."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.6.2"
+PV = "2.6.66"
 
-RPM_NAME = "prboom-plus-2.6.2-3.11.aarch64.rpm"
-RPM_HASH = "f6b440820f25042084ecff9101d2611c70ea25515545c42ed5d5567c2ce8e6936042f9f713947d1e4f8ca38d5d54b2a2c5e74ad1c5cd375f9103755c3f273d95"
+RPM_NAME = "prboom-plus-2.6.66-6.5.aarch64.rpm"
+RPM_HASH = "a52568a7525926f701a40c8a7b0a553539706b2a74d66cdb63305ae7d86470ffc9e14284a31aacf37f98940177c8baa6d46c0caa92e6d3ea027fa5b3cda19a96"
 
 RPROVIDES:${PN} += "prboom \
 prboom-plus"
@@ -34,7 +34,7 @@ libc.so.6 \
 libfluidsynth.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpcreposix.so.0 \
+libmvec.so.1 \
 libportmidi.so.2 \
 libstdc++.so.6 \
 libvorbisfile.so.3 \

@@ -2,14 +2,14 @@ SUMMARY = "Documentation for texlive-ejpecp"
 DESCRIPTION = "This package includes the documentation for texlive-ejpecp"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.11.3svn60950"
+PV = "2026.226.1.11.3svn60950"
 
-RPM_NAME = "texlive-ejpecp-doc-2023.209.1.11.3svn60950-54.2.noarch.rpm"
-RPM_HASH = "ec34ed49e510d739faf9a5ec61b6a320cf032c3f66825408dfc8b8835eb660e7e46ce64b256c9f9448548730ad39d96d33c51847608dd8001873cd34c62f1cdd"
+RPM_NAME = "texlive-ejpecp-doc-2026.226.1.11.3svn60950-61.4.noarch.rpm"
+RPM_HASH = "095611ad95535df622a1b17241ccad4f6a926a97ac0dd18039f947eeb198ecbe11a84cb31983806e45e2bb60fb2b0d1ec3d5bc0251a701670295cf67d38f5e28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ejpecp-doc"
 
-RDEPENDS:${PN} += "/usr/bin/python3"
+RDEPENDS:${PN} += "/usr/bin/python3.13"
 
 inherit rpm

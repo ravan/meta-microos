@@ -12,10 +12,10 @@ that are automatically verified to work as expected. Check the \
 README file for details."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn73069"
 
-RPM_NAME = "texlive-qstest-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "1c58a047cd1a37a8486b1f6fead16e0441a734865f9133f5e7b90ba21cb6c68e9646dc930e2bcfe9680d43dd41b1f33fdfa29700576a9539d312887690f2dc3d"
+RPM_NAME = "texlive-qstest-2026.226.svn73069-60.4.noarch.rpm"
+RPM_HASH = "20774725fdd06dd07f26759ae85e9ec4bf2d3ed6317c304a06571f414086b9431e72335a8814fc4a36ddc5fe22a82f28d380e90479ccdf9ccf9b5163e3603dcc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makematch.sty \

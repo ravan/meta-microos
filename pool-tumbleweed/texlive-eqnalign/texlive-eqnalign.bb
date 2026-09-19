@@ -5,10 +5,10 @@ eqnarray. In cases where it fails, manual conversion to align \
 is required, but these cases should be seldom."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn43278"
+PV = "2026.226.1.0asvn43278"
 
-RPM_NAME = "texlive-eqnalign-2023.209.1.0asvn43278-54.2.noarch.rpm"
-RPM_HASH = "73e4759994d6884b9fe374f052ce27a24ef5c1085ea7713301a1c5f8b1c97b0822c6dd9d9529e2ddfcf19d6f767d30d0d1ff61e3c44b3a8964c863eab123b86d"
+RPM_NAME = "texlive-eqnalign-2026.226.1.0asvn43278-61.4.noarch.rpm"
+RPM_HASH = "e17d0e3ff39e49cda7af4bf021b818927677c8b8e5de8efec1662f97e08b2f770c1e9bed7efdb82165748d796e6e680b2a2f7ffc98e0d926c2382a24afc3142e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqnalign.sty \

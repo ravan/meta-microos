@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-polyglossia"
 DESCRIPTION = "This package includes the documentation for texlive-polyglossia"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.60svn65792"
+PV = "2026.226.2.9svn76990"
 
-RPM_NAME = "texlive-polyglossia-doc-2023.209.1.60svn65792-53.1.noarch.rpm"
-RPM_HASH = "c7d8b1aee446b54d490a8af43660c6a68edc2152c372cc0950067158f279626a4db34976dd050882f06d4e1868f8f34296aef62829dd75d1394aa7c678e3b1d3"
+RPM_NAME = "texlive-polyglossia-doc-2026.226.2.9svn76990-59.2.noarch.rpm"
+RPM_HASH = "8bf17b53169e7ff1325b8fba0fb7d234504f87790d84574c2daf750497d08e3c9dbf25395b492bebc2c8060b30a9ee6256a59dea4b6b6417f371442fd37b57d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-polyglossia-doc"

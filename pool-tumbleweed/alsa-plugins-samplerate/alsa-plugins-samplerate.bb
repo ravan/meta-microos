@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the sample rate converter plugin for ALSA \
 library using libsamplerate."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-samplerate-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "4a0b1e50ceed365a3cf23182adbbf3cabc031d4b9c1088e9518cac11fa1666402dc43e60cf5488f91b01d948955982ae5f24deaa621e487ccfc03bffe855f268"
+RPM_NAME = "alsa-plugins-samplerate-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "3233d1f74f9a33b0cbe56d62c5e1e6502af43f0ba0337cf3d43cefc4cfbfe3fd869739513740554b6ba31907d8b3bbfba801e7480361c12ab4e720698cd5db77"
 
 RPROVIDES:${PN} += "alsa-plugins-samplerate \
 libasound-module-rate-samplerate.so"

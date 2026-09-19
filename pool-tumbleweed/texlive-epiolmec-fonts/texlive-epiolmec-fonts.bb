@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-epiolmec"
 DESCRIPTION = "The  separated fonts package for texlive-epiolmec"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-epiolmec-fonts-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "2446eafba1e97714807ab4402598f19e1531c15168bb4c1fecee755b4477c3e094ee627eccbe36426200081654fad51222580e05b1712b9324b4266a6978a57b"
+RPM_NAME = "texlive-epiolmec-fonts-2026.226.svn15878-61.4.noarch.rpm"
+RPM_HASH = "b324cb27389e0095ea54dbc7bc83af55cfa78b5b0ab970d6b663cf4a13fe377d3e80aa60213814154ad6cec77135bd7853e39d558ce60879122cd98450c4bed2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

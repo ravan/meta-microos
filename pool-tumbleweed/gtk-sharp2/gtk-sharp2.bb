@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.12.45"
 
-RPM_NAME = "gtk-sharp2-2.12.45-3.9.aarch64.rpm"
-RPM_HASH = "fd300974edfe095a0baf4b6de24f5df0dead1f1f20e09a622ddcecc5f27cb0f2b751f366e22b7d6cea036ab00c067c4052d77a60629b3b1f51393e7385645aae"
+RPM_NAME = "gtk-sharp2-2.12.45-6.3.aarch64.rpm"
+RPM_HASH = "48777f61bad42472b88fef2b2a888fb5eb4d960af21ccb1e98cad04597985b85bcf18bd07208dcd1b5a52a842f1c10fabfc1b2b80d07538f0ee64f844fef6f83"
 
 RPROVIDES:${PN} += "gtk-sharp2 \
 libatksharpglue-2.so \

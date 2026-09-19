@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon Elastic File System"
 DESCRIPTION = "The AWS Java SDK for Amazon Elastic File System module \
 holds the client classes that are used for communicating \
 with Amazon Elastic File System."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-efs-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "9565e2940205d68f9f3f75b5f26501933f83fb47a12973c5b3d21356ac44f912d7444026100d04b77be5e603d67866d129f944964cb6200916071633dd92f244"
+RPM_NAME = "aws-sdk-java-efs-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "45b62890660c97599ef0a413d7d414a960e4fb37a83c17eea59e9e40f29cfdd257289905cfc3d9f43e3d2fa51f00f076e54d0e495ef4580dce92101f3cf381b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-efs \

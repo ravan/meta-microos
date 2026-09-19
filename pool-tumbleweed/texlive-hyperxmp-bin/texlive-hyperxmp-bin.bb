@@ -2,10 +2,10 @@ SUMMARY = "Binary files of hyperxmp"
 DESCRIPTION = "Binary files of hyperxmp"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn56984"
+PV = "2026.20260301.svn56984"
 
-RPM_NAME = "texlive-hyperxmp-bin-2023.20230311.svn56984-93.2.aarch64.rpm"
-RPM_HASH = "f62dfc9352674f8e1806cfba994f07591bbf41cc950754d5acea9b66ce7314c897467f503dd9fd5d5284d5c37e7fa3c07f5224b69779d26c6fdcf22cc519927a"
+RPM_NAME = "texlive-hyperxmp-bin-2026.20260301.svn56984-120.4.aarch64.rpm"
+RPM_HASH = "5f77367a7038ad8ce0f89b4e166349bf8cadafe3ab0155e71ac5a684152fb43e060d7a3b903ff35b4e038764d797e89b6a3523b37ee9ec7a3c2bb4c25b19d45d"
 
 RPROVIDES:${PN} += "texlive-hyperxmp-bin"
 

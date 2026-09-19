@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.1.4"
 
-RPM_NAME = "ocaml-facile-devel-1.1.4-2.12.aarch64.rpm"
-RPM_HASH = "b1977816e01db40825b8a8d49a78d2cbf90fc974c6cc725f6bcebaaa2b21e712a98cfae1d382af61c31753d87b492aadf6e617a13a2bb1ba342e38c96647b20b"
+RPM_NAME = "ocaml-facile-devel-1.1.4-3.1.aarch64.rpm"
+RPM_HASH = "141a2a6f7cb1e657c8beacbcb17a8534b683d5a7a11781448da5e18f8c734fb205a1f0eaec42eaca67663c352ce4f51d1a8a597d94cd7f1892c316db9cf96f55"
 
 RPROVIDES:${PN} += "ocaml-Facile \
 ocaml-Facile-- \

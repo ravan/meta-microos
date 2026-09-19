@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1"
 
-RPM_NAME = "apache-commons-httpclient-javadoc-3.1-13.12.noarch.rpm"
-RPM_HASH = "d4f8e3f92818075fd8807c68689d6601ef90821aaa412be4fee6e8c1b9ffae95621862b0989eb962cebc7a45dfdf3d231224f759da3ee0c19f04a0df8feb949b"
+RPM_NAME = "apache-commons-httpclient-javadoc-3.1-15.9.noarch.rpm"
+RPM_HASH = "6e92eb03b93574940f33a2a8aabcc7750aab092fd18fd82fc718d4bd9c0aee34cd04a1c9a54f760b796601a50a02e59e32eaa5742f6d41ec399e1a98caea200a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-httpclient-javadoc"

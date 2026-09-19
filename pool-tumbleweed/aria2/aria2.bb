@@ -6,12 +6,12 @@ to speed up downloads with certain networks. The engine in was \
 implemented in a single-thread model. \
  \
 aria2 currently supports HTTP, FTP, and BitTorrent."
-LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
+LICENSE = "LicenseRef-SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "1.36.0"
+PV = "1.37.0"
 
-RPM_NAME = "aria2-1.36.0-1.12.aarch64.rpm"
-RPM_HASH = "987016d8132e22c94e2d65a9e310febe2d2c5bcd873e617c8f2f6b3041a0be8a8fc2c1e859d90568436ad1bbe1ca307864a897d3369163bef47b64084352e037"
+RPM_NAME = "aria2-1.37.0-2.2.aarch64.rpm"
+RPM_HASH = "89578c0bccf326133077015c5f2a2eb15da5cf7062d4040f070d303cd6dff9593af4e78d3b0e7cae316781902e52b2d472596fc8d7c3184462621496ab99b3e1"
 
 RPROVIDES:${PN} += "aria2"
 

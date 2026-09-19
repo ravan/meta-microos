@@ -6,12 +6,12 @@ DESCRIPTION = "perl-libxml-perl is a collection of Perl modules for working with
 Authors: \
 -------- \
     Ken MacLeod <ken@bitsko.slc.ut.us>"
-LICENSE = "Artistic-1.0 | GPL-2.0+"
+LICENSE = "Artistic-1.0 | GPL-2.0-or-later"
 
 PV = "0.08"
 
-RPM_NAME = "perl-libxml-perl-0.08-159.31.aarch64.rpm"
-RPM_HASH = "48224bc4ebc9f34d3988ce1fa7fa41a0ad13fec4cdad9fc338fbba5be5ed20793a2ac2c4492f50978d573b60fde339aa2d1524769dfdcba4d629fb21eef644b5"
+RPM_NAME = "perl-libxml-perl-0.08-161.12.aarch64.rpm"
+RPM_HASH = "7ff15d43f44458cd8df8b6d0d691c338f9b7d77a6985a7be04c6348cad1eab1d740357880f42c156ca7a579a266112b93739b4fd3fa92ee2b7ea9060fc0e282b"
 
 RPROVIDES:${PN} += "perl-Data--Grove \
 perl-Data--Grove--Characters \
@@ -33,7 +33,7 @@ perl-XML--Perl2SAX \
 perl-XML--SAX2Perl \
 perl-libxml-perl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-XML-Parser"
 
 inherit rpm

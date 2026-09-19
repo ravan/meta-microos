@@ -4,10 +4,10 @@ its argument, at the bottom of the page; these stubs may be \
 used (for example) for contact information."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.1.1svn66204"
+PV = "2026.226.0.0.1.1svn75437"
 
-RPM_NAME = "texlive-stubs-2023.209.0.0.1.1svn66204-58.1.noarch.rpm"
-RPM_HASH = "23436c720133ec55843d17c98227ab4f1e233a184705368a65d2d3ed3f281f96d606a1dbd4b6f444183019b60dade651868e834909156bf525f1b412c9e963a4"
+RPM_NAME = "texlive-stubs-2026.226.0.0.1.1svn75437-64.2.noarch.rpm"
+RPM_HASH = "9a0a4d1fa24fb5598d551c6353fdd084521cd2dc7bead8f482d83d854a3b49daee1297afca742cfba80a1057ce8f7205ddafcf8035ed764f020d74f7efaa56e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-stubs.sty \

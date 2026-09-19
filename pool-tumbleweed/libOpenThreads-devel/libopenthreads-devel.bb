@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 
-RPM_NAME = "libOpenThreads-devel-3.6.5-8.7.aarch64.rpm"
-RPM_HASH = "93473fb205c9893a862518e68ffa7ffb8ff74cb0719b9f972f6030496e85885f892610021817422d6b8b40ee9171c46dc45351dee7491eeb4e5d95cb9f036570"
+RPM_NAME = "libOpenThreads-devel-3.6.5-12.8.aarch64.rpm"
+RPM_HASH = "9c4af1100a74c69321113c326930c2e224e9eacbd89983e7e9a6c6249841a9921af6ba693b158c281d2f70fff46562d7488f14f4c240c7720996659de7a346ad"
 
 RPROVIDES:${PN} += "libOpenThreads-devel \
 pkgconfig-openthreads"

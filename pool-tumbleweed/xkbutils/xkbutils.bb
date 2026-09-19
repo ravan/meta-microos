@@ -8,10 +8,10 @@ It includes: \
  xkbwatch - reports changes in the XKB keyboard state"
 LICENSE = "MIT"
 
-PV = "1.0.5"
+PV = "1.0.6"
 
-RPM_NAME = "xkbutils-1.0.5-1.5.aarch64.rpm"
-RPM_HASH = "b17c7c327588f7d789608441fda66144c7adf811844ef0f8cee27c86324513083bf3ca0eaddf9a7c4d2a6d096b162c7abed09d834f204fd2332b42cd9701cf10"
+RPM_NAME = "xkbutils-1.0.6-1.10.aarch64.rpm"
+RPM_HASH = "3e18dd7855a70d13c69a84f8614d5492b4fc45ee7369f37ec857156719ba28ac6854a75b1186f251b049aaebeef196fb9b59e281a18b3406c17a83777b812682"
 
 RPROVIDES:${PN} += "xkbutils"
 

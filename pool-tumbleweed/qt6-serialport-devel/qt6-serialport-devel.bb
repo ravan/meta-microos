@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 SerialPort library - Development files"
 DESCRIPTION = "Development files for the Qt 6 SerialPort library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-serialport-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "16e9f827a6a7ef81910f9d0dc32dc438c8d2fb55a215ae3fa15bde140fcb4332660cb0fdfb447d30bb6b4d6dc37e750deb06b21ffb7745188fe39325acc5e6e5"
+RPM_NAME = "qt6-serialport-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "94de72e484378c8b0dc489b5bab62fd6bec2ec10d287261fb0c6591ffa522e6ac20bb683a43c8bcfc05a2855be4f513649365596bc62f211dd6ea62b596f1e9a"
 
 RPROVIDES:${PN} += "cmake-Qt6SerialPort \
 pkgconfig-Qt6SerialPort \

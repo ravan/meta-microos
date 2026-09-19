@@ -5,10 +5,10 @@ specific publishers as well as extensive documentation aimed at \
 new LaTeX users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn15878"
+PV = "2026.226.2.0svn15878"
 
-RPM_NAME = "texlive-sffms-2023.209.2.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "627d9844f13dff610d8d087c18388b4dfa31642f04f13d9f783baf82b7f8cab3b34bfcec4ffcec2a31ea06b5b462573535300dcde020484d3d7c4532cf79111c"
+RPM_NAME = "texlive-sffms-2026.226.2.0svn15878-60.2.noarch.rpm"
+RPM_HASH = "02701bd985a57472be25249e80cae8ad28ddee642d164bccb07be2638e6b341c0a17364032e04b8ce6875e0b2cf83493acaa8eba0dea8b799bed3c88e3fe144c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sffdumb.sty \

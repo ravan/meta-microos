@@ -8,10 +8,10 @@ debugging and development tool, and should not be needed in normal \
 usage."
 LICENSE = "X11"
 
-PV = "1.2.5"
+PV = "1.2.7"
 
-RPM_NAME = "xev-1.2.5-2.3.aarch64.rpm"
-RPM_HASH = "833babab692ffd666d71d69329534faf12476e024ee01d3f0b1a4557f434f627e0c3e87eeb066909e9c64f3c5076669940131aaa32657666ad3c9702c26a6bbe"
+RPM_NAME = "xev-1.2.7-1.3.aarch64.rpm"
+RPM_HASH = "d856ac3565aaf5f6f22f60cb3578fab36832ea5fc44978da3688b4f03e15983084b008c87a75f9feb912772f434d12c9a845c81d6d8ed05d6a6a2990bb0b717c"
 
 RPROVIDES:${PN} += "xev"
 

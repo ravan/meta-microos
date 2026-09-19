@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 3DRender library"
 DESCRIPTION = "The Qt 6 3DRender library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt63DRender6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "012b0b1c2e82a1ed900e055ef093d97c133243c3e36f29dfd80fdc780b5720f5276b0b4c8749841e9ce757f0d01f61af600eabf9368ff857928e45edb49a0f53"
+RPM_NAME = "libQt63DRender6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "ff76a42b8f277519b71b754d696af7c1d616f1dbfd6f1edbcf43aa7182a2f7e38cc34234822393856d54b200228ed8136f3340c7602ad6bcfe3214ceea7715d5"
 
 RPROVIDES:${PN} += "libQt63DRender.so.6 \
 libQt63DRender6 \
@@ -27,7 +27,7 @@ libQt6Core.so.6 \
 libQt6Gui.so.6 \
 libQt6OpenGL.so.6 \
 libQt6ShaderTools.so.6 \
-libassimp.so.5 \
+libassimp.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

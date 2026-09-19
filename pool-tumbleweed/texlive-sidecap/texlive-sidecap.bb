@@ -4,10 +4,10 @@ figure and table) to typeset captions sideways. Options include \
 outercaption, innercaption, leftcaption and rightcaption."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7asvn65618"
+PV = "2026.226.1.7asvn77682"
 
-RPM_NAME = "texlive-sidecap-2023.209.1.7asvn65618-54.1.noarch.rpm"
-RPM_HASH = "1f37d832c632181291b46e2e7a4802822dad6286d017f35b16b74c54b106fbf74a7bbfea8ffcfeeb71d3f3c34e4cfda5c2cd106249dd0647d0beb03ff070e4ae"
+RPM_NAME = "texlive-sidecap-2026.226.1.7asvn77682-60.2.noarch.rpm"
+RPM_HASH = "0ba20afe5c24ff708ebe636288d88f6d3085bf04876ea38a9dc44aca63364d1d83ca1b5c673a1e789e6a5f612c52d38cac829b856fcf1447c74744d7fd798ec6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sidecap.sty \

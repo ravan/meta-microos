@@ -1,11 +1,11 @@
 SUMMARY = "Crux GTK+ 2 Theme Engine"
 DESCRIPTION = "The Crux engine was a popular theme in the early GNOME 2 days."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engine-crux-2.20.2-19.43.aarch64.rpm"
-RPM_HASH = "edc8da16a7fc7b4eecbc93a5bf766b79f93eef3a21ed7b00420d97d4bf27886bebecdcfcf58a5f494518375feb0441064ed643cca6cfe1696967e9279a7e1fe7"
+RPM_NAME = "gtk2-engine-crux-2.20.2-23.6.aarch64.rpm"
+RPM_HASH = "616a27f688aed0ae76c823f0af8544910377b54a2b35bc6b81e3fadd8e62146dff02abe6cb56a69437c18225c3b1690da3299b669819d510646297a0b081f0b9"
 
 RPROVIDES:${PN} += "gtk2-engine-crux \
 libcrux-engine.so"

@@ -36,16 +36,16 @@ the list of email addresses suitable for the MIME email headers, see \
 Email::MIME::Header::AddressList."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.05"
+PV = "1.50.0"
 
-RPM_NAME = "perl-Email-Address-XS-1.05-1.5.aarch64.rpm"
-RPM_HASH = "cc658744e671fc59cd67c5917e49147bde1ec2637af508c2089eb23a59274fe23bf31190beecfe557cc623af5c6ffafab125f622f8fc0a1f865055c5924eb400"
+RPM_NAME = "perl-Email-Address-XS-1.50.0-1.7.aarch64.rpm"
+RPM_HASH = "a6ae9924e51fbc84733cd8b1b53253f38ff4308572ef851d4895777c88f0f3a2d9edbaf85e05c3e6975936ff4ad483041b529d33257582eaa7925988f93c1cdd"
 
 RPROVIDES:${PN} += "perl-Email--Address--XS \
 perl-Email-Address-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "awesfx-0.5.2-3.14.aarch64.rpm"
-RPM_HASH = "96e795a2d7e56c8e345c69ff4d12ea76363f09884ba82e673bc17c61ab7712301e5c69bcd3b6b79b9df05db1407ca2ad7fe391d8e3065cc22fe8ce6267baa5c7"
+RPM_NAME = "awesfx-0.5.2-6.10.aarch64.rpm"
+RPM_HASH = "5eae05d7506cdb941c1d1281b2d7e6969e9af4d548bf4ce07d06561ffc690d1030011655f271840a2c9d29bdd4aa60a7b3e3841fc28575b9a135e1969d5df2d9"
 
 RPROVIDES:${PN} += "awesfx"
 

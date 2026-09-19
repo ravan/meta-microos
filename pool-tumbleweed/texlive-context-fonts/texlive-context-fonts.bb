@@ -2,13 +2,143 @@ SUMMARY = "Severed fonts for texlive-context"
 DESCRIPTION = "The  separated fonts package for texlive-context"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66546"
+PV = "2026.226.20260219_11_49_asvn78010"
 
-RPM_NAME = "texlive-context-fonts-2023.209.svn66546-55.1.noarch.rpm"
-RPM_HASH = "dcaf57bd838fedf7bbefd44336c63d6b922b2bf4b6c052b0e06582ca0a2fa5dadabe6f268102183aac7252d2c99c9fa47aadba7741de89729717440d294e9e62"
+RPM_NAME = "texlive-context-fonts-2026.226.20260219_11_49_asvn78010-61.2.noarch.rpm"
+RPM_HASH = "3fdc48fa92769746c08fcbb487643d9783b3a62ad7bfefe2c4384ab57e5413f89952bc326e9184a651b6ed87decbe8937109ee2b05dbe5634fe7f46ee7306d6e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font-contextnavigation \
+RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
+font--lang=an \
+font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
+font--lang=bi \
+font--lang=br \
+font--lang=bs \
+font--lang=ca \
+font--lang=ch \
+font--lang=co \
+font--lang=crh \
+font--lang=cs \
+font--lang=csb \
+font--lang=cy \
+font--lang=da \
+font--lang=de \
+font--lang=dsb \
+font--lang=en \
+font--lang=eo \
+font--lang=es \
+font--lang=et \
+font--lang=eu \
+font--lang=fi \
+font--lang=fil \
+font--lang=fj \
+font--lang=fo \
+font--lang=fr \
+font--lang=fur \
+font--lang=fy \
+font--lang=gd \
+font--lang=gl \
+font--lang=gn \
+font--lang=gv \
+font--lang=ho \
+font--lang=hr \
+font--lang=hsb \
+font--lang=ht \
+font--lang=hu \
+font--lang=ia \
+font--lang=id \
+font--lang=ie \
+font--lang=ig \
+font--lang=io \
+font--lang=is \
+font--lang=it \
+font--lang=jv \
+font--lang=ki \
+font--lang=kj \
+font--lang=ku-tr \
+font--lang=kwm \
+font--lang=la \
+font--lang=lb \
+font--lang=lg \
+font--lang=li \
+font--lang=lij \
+font--lang=lt \
+font--lang=lv \
+font--lang=mfe \
+font--lang=mg \
+font--lang=mh \
+font--lang=miq \
+font--lang=mjw \
+font--lang=ms \
+font--lang=mt \
+font--lang=na \
+font--lang=nb \
+font--lang=nds \
+font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
+font--lang=nl \
+font--lang=nn \
+font--lang=no \
+font--lang=nr \
+font--lang=nso \
+font--lang=ny \
+font--lang=oc \
+font--lang=om \
+font--lang=pap-an \
+font--lang=pap-aw \
+font--lang=pl \
+font--lang=pt \
+font--lang=rm \
+font--lang=rn \
+font--lang=rw \
+font--lang=sc \
+font--lang=sg \
+font--lang=sk \
+font--lang=sl \
+font--lang=sma \
+font--lang=smj \
+font--lang=smn \
+font--lang=sn \
+font--lang=so \
+font--lang=sq \
+font--lang=ss \
+font--lang=st \
+font--lang=su \
+font--lang=sv \
+font--lang=sw \
+font--lang=szl \
+font--lang=tk \
+font--lang=tl \
+font--lang=tn \
+font--lang=tpi \
+font--lang=tr \
+font--lang=ts \
+font--lang=unm \
+font--lang=uz \
+font--lang=vo \
+font--lang=vot \
+font--lang=wa \
+font--lang=wae \
+font--lang=wen \
+font--lang=wo \
+font--lang=xh \
+font--lang=yap \
+font--lang=yuw \
+font--lang=za \
+font--lang=zu \
+font-ccicons \
+font-latinmodernmathcompanion \
+font-latinmoderntypewriter \
+font-lmtypewriter10regular \
+font-ralphsmithsformalscriptcompanion \
+font-texgyrebonumcompanion \
+font-texgyrepagellamathcompanion \
+font-texgyretermesmathcompanion \
+font-xitsmathcompanion \
 texlive-context-fonts"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

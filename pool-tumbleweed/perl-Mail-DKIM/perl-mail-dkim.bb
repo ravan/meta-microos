@@ -22,10 +22,10 @@ sorted, you can set $Mail::DKIM::SORTTAGS to a true value, and all created \
 headers will get sorted keys"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.20230630"
+PV = "1.20240923"
 
-RPM_NAME = "perl-Mail-DKIM-1.20230630-1.2.noarch.rpm"
-RPM_HASH = "f433f2069086639c0f3438d3018293a8072a733cba98fd1ce8b2549e22dfc8396c4cc353cdc505a97dcf640d68b273c228d95072cb6c261b17886c26c36c02da"
+RPM_NAME = "perl-Mail-DKIM-1.20240923-1.10.noarch.rpm"
+RPM_HASH = "7afa42472956dfe2a936aec358875ba435bbe3e663bc67a44f9051733e8e75c5475d5a51c82f9b61956a75d18f2e6589a860c3ccdd810d8a416aac49efffd63f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--DKIM \
@@ -66,7 +66,7 @@ perl-Mail--DKIM--TextWrap \
 perl-Mail--DKIM--Verifier \
 perl-Mail-DKIM"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Crypt--OpenSSL--RSA \
 perl-Crypt--PK--Ed25519 \
 perl-Digest--SHA \

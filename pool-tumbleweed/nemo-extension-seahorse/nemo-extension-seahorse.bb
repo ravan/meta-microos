@@ -3,13 +3,12 @@ DESCRIPTION = "seahorse nemo is an extension for nemo which allows encryption \
 and decryption of OpenPGP files using GnuPG."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.2.0"
+PV = "6.4.0"
 
-RPM_NAME = "nemo-extension-seahorse-5.2.0-4.1.aarch64.rpm"
-RPM_HASH = "2e37a4b53c28f7282baa032ac3ee8cc8b17c88699e2e90a43e97733efc013d4fabae59bb357d593f224a5d72d004dfc702b54aae9a9851be1c0e8e0926e79a16"
+RPM_NAME = "nemo-extension-seahorse-6.4.0-6.4.aarch64.rpm"
+RPM_HASH = "0bb40ee84e2841f2e8f699db318b301bd6ca938726d87db2699f5c23972eee1accad2585877e82a0171ab29a2d68dcfa3229bdc126455249814cb70785bf69f3"
 
-RPROVIDES:${PN} += "libnemo-image-converter.so \
-libnemo-seahorse.so \
+RPROVIDES:${PN} += "libnemo-seahorse.so \
 nemo-extension-seahorse \
 nemo-seahorse"
 
@@ -22,7 +21,7 @@ libgcr-base-3.so.1 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgpgme.so.11 \
+libgpgme.so.45 \
 libgtk-3.so.0 \
 libnemo-extension.so.1 \
 libnotify.so.4 \

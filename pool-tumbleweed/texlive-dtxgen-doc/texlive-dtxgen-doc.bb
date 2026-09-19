@@ -2,13 +2,14 @@ SUMMARY = "Documentation for texlive-dtxgen"
 DESCRIPTION = "This package includes the documentation for texlive-dtxgen"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.08svn51663"
+PV = "2026.226.1.09svn75946"
 
-RPM_NAME = "texlive-dtxgen-doc-2023.209.1.08svn51663-53.1.noarch.rpm"
-RPM_HASH = "57c1d569bb5732cd53d652698fe1bd7cec546b2d5c703822be75d3a3262eeb0ab4a91a805403e7b5fb859d0d1ccae84e5a840c35cb1a6ead2a54ccdd9f45cf7e"
+RPM_NAME = "texlive-dtxgen-doc-2026.226.1.09svn75946-59.2.noarch.rpm"
+RPM_HASH = "d153b11f490804cd85cb09d2f96ea2d104c41a463ed32dd2bc246ac4dffaddaf7e11c732352250b3da3c3a81a1620d8f0401fcc8672d6cca1f7da18d1a346878"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-dtxgen-doc"
+RPROVIDES:${PN} += "man-dtxgen.1 \
+texlive-dtxgen-doc"
 
 RDEPENDS:${PN} += ""
 

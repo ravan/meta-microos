@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-aurical"
 DESCRIPTION = "This package includes the documentation for texlive-aurical"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn15878"
+PV = "2026.226.1.5svn77682"
 
-RPM_NAME = "texlive-aurical-doc-2023.209.1.5svn15878-54.1.noarch.rpm"
-RPM_HASH = "082dc1047b99d5eda7d21f457961e7a36fbe8ea27f0a6f3904cef9e6a6dae35d6c5c1956382fdf27b171a08d8d2a6799d93020933f3b1af3a5d3a08d25168e7f"
+RPM_NAME = "texlive-aurical-doc-2026.226.1.5svn77682-60.2.noarch.rpm"
+RPM_HASH = "56d6ebf7aaac5790269dc5d72cfa9fbfda438c39ee1826a480cc535349b861f646483d68f9db3b3bc3868182278c3f236afdff5a9281ab5be372d4280d7cfddb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aurical-doc"

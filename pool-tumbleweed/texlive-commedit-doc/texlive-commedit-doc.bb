@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-commedit"
 DESCRIPTION = "This package includes the documentation for texlive-commedit"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn50116"
+PV = "2026.226.1.02svn50116"
 
-RPM_NAME = "texlive-commedit-doc-2023.209.1.02svn50116-54.1.noarch.rpm"
-RPM_HASH = "3ed3d250ab2e2d0f9d2c703705ecc575d4c3e31a063c4b335d533e7996cccb3af5cd7840ef7bb7df81e994802dc5c7e06699ae1c219523de24a00dbdaa913d5e"
+RPM_NAME = "texlive-commedit-doc-2026.226.1.02svn50116-60.2.noarch.rpm"
+RPM_HASH = "26beb929e56a4ad0f28388c9b18caaf313f8903d0e98d316a4230c9fa614834503b2e913996f8a5aefbc62c9dfe5369a38c860fab3f65748c32752c1a620cee0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-commedit-doc"

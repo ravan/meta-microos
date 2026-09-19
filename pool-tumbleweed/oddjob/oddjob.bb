@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.34.7"
 
-RPM_NAME = "oddjob-0.34.7-2.1.aarch64.rpm"
-RPM_HASH = "e9c20bbe1052d25dfe38c8097fa73f32fe76fdbb650a7ce9631c241632cf8f9d1b0b78443427a4b321beba513d3ebe4c0389d89379c2818ce4f2522df475ef64"
+RPM_NAME = "oddjob-0.34.7-3.9.aarch64.rpm"
+RPM_HASH = "8e8c6e3d4c217b3ec80f160aa5f44aa8df8f7995aa4f770ed6d7e613020a9774ed17b4dd3aa564849e46534bfd9668a4e3431c4c73238f50bcd496fab4e98c0f"
 
 RPROVIDES:${PN} += "config-oddjob \
 oddjob"
@@ -18,7 +18,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \
 libselinux.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 psmisc \
 systemd"
 

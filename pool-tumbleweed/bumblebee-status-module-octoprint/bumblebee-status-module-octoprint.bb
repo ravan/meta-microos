@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-octoprint-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "6515f6ce23d022dbecc4073e5868a8648108f27ae3d1c85622ff4754b003ae5b1bb3840e658c397aabb7928a9df257a713701ef4cea0d06e3a4021940f7790f6"
+RPM_NAME = "bumblebee-status-module-octoprint-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "531503f625935e3f01cb9a3c8593392b7a402772c741abbf387e019254cb2f7ff0dc345eabbd75cb92f8297ca758a1e06ebd77f56f395f4333651fc449f1289a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-octoprint"

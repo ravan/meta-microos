@@ -4,10 +4,10 @@ linear programming (LP) solver, along with derived classes for specific \
 solvers."
 LICENSE = "EPL-2.0"
 
-PV = "0.108.7"
+PV = "0.108.11"
 
-RPM_NAME = "libOsi1-0.108.7-1.4.aarch64.rpm"
-RPM_HASH = "4bb534ac48319c1e29acf90c574a57ed24cb9a81dc9a7c968c2a860e2fe62653b4ed806436301b8ac9817054d5b9ce0efd4ab6ead5b1f050ad3a7f83f2dcbd36"
+RPM_NAME = "libOsi1-0.108.11-1.7.aarch64.rpm"
+RPM_HASH = "ccc6ad882cd6667f0a28987bdd54f7359506701730098cc85e6843843fe8180980e2d325c59f278026fa09f5f961ce95f56f31dc6e0d3816d62d27f4ffebd3a9"
 
 RPROVIDES:${PN} += "libOsi.so.1 \
 libOsi1"

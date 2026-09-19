@@ -2,53 +2,70 @@ SUMMARY = "Itinerary and boarding pass management application"
 DESCRIPTION = "Itinerary and boarding pass management application."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "itinerary-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "f748baea0f144bd408fda7976c6c5138ced5ccc2e0e9091c982496398fb04bbc675c9b3275a1005fdb3e66e06fcb2b7587b25196f6006eefda17808732b929d2"
+RPM_NAME = "itinerary-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "3b430beb417848d4d5360fae83d0f42bccc0046440c4aa18220d039e8977f321d8abe6df5e1eb8bd1d92145552ddaa04f5bc204307d3040b82ddaaedd7abde9a"
 
-RPROVIDES:${PN} += "itinerary \
-libSolidExtras.so \
-libsolidextrasqmlplugin.so \
-qt5qmlimport-org.kde.solidextras.1"
+RPROVIDES:${PN} += "itinerary"
 
-RDEPENDS:${PN} += "breeze5-icons \
-ki18n-imports \
-kirigami2 \
-kopeninghours \
-kosmindoormap \
-kpublictransport \
+RDEPENDS:${PN} += "kf6-breeze-icons \
+kf6-kcalendarcore-imports \
+kf6-kcontacts-imports \
+kf6-kcoreaddons-imports \
+kf6-ki18n-imports \
+kf6-kirigami-imports \
+kf6-kitemmodels-imports \
+kf6-knotifications-imports \
+kf6-prison-imports \
+khealthcertificate-imports \
+kirigami-addons6 \
+kopeninghours-imports \
+kosmindoormap-imports \
+kpkpass-imports \
+kpublictransport-imports \
 ld-linux-aarch64.so.1 \
-libKF5CalendarCore.so.5 \
-libKF5Contacts.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5FileMetaData.so.3 \
-libKF5Holidays.so.5 \
-libKF5I18n.so.5 \
-libKF5I18nLocaleData.so.5 \
-libKF5KIOGui.so.5 \
-libKF5NetworkManagerQt.so.6 \
-libKF5Notifications.so.5 \
-libKF5UnitConversion.so.5 \
-libKF5WindowSystem.so.5 \
+libKF6CalendarCore.so.6 \
+libKF6Contacts.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6FileMetaData.so.3 \
+libKF6Holidays.so.6 \
+libKF6I18n.so.6 \
+libKF6I18nLocaleData.so.6 \
+libKF6I18nQml.so.6 \
+libKF6KIOGui.so.6 \
+libKF6Notifications.so.6 \
+libKF6UnitConversion.so.6 \
+libKF6WindowSystem.so.6 \
+libKHealthCertificate.so.1 \
+libKOSM.so.1 \
 libKOSMIndoorMap.so.1 \
-libKPim5Itinerary.so.5 \
-libKPim5PkPass.so.5 \
+libKPim6Itinerary.so.6 \
+libKPim6PkPass.so.6 \
 libKPublicTransport.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Positioning.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Widgets.so.5 \
+libKPublicTransportOnboard.so.1 \
+libQCoro6Core.so.0 \
+libQCoro6Network.so.0 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Positioning.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Widgets.so.6 \
+libQuotientQt6.so.0.9 \
 libc.so.6 \
+libm.so.6 \
+libqt6keychain.so.1 \
 libstdc++.so.6 \
 libz.so.1 \
-prison-qt5-imports"
+qt6-declarative-imports \
+qt6-location \
+qt6-multimedia-imports \
+qt6-positioning-imports"
 
 inherit rpm

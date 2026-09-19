@@ -8,10 +8,10 @@ fonts themselves are provided in Adobe Type 1 and OpenType \
 formats."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.01svn28484"
+PV = "2026.226.1.01svn77682"
 
-RPM_NAME = "texlive-gfsbodoni-2023.209.1.01svn28484-53.1.noarch.rpm"
-RPM_HASH = "f185988fc3d80468f33c4cca311531fe4aed9ea48e7abd6f7e7828d2423678ce41ba28167e08e1f6b36c13515ef8892b8510433a5b5c5f2fb627e3759a9b9689"
+RPM_NAME = "texlive-gfsbodoni-2026.226.1.01svn77682-60.2.noarch.rpm"
+RPM_HASH = "c27f3e193f0cc4ead4cc11b67058c218b0639a194748763455a195c1e44363283218150029da59683b991a4563267dfb4f124a75dc8753ad38dab565ea204446"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bodoni.enc \

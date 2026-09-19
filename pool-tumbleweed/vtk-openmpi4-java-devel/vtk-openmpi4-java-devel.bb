@@ -8,10 +8,10 @@ LOD control). \
 This provides the Java part of the development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.2.6"
+PV = "9.6.1"
 
-RPM_NAME = "vtk-openmpi4-java-devel-9.2.6-2.5.aarch64.rpm"
-RPM_HASH = "fcf50bd407ee844e4ee5b3fbd3292ce69f1f8cdfb0c93f49570cc4a516176fdbff645ab6af54b35570d5711bf629d70527f646217bc0a735e5403537dff69fae"
+RPM_NAME = "vtk-openmpi4-java-devel-9.6.1-2.2.aarch64.rpm"
+RPM_HASH = "ed46ad6671a823adc9391d84ef4b53ca009d5576ed113e853e12efc7f8a6c9a6352b59c469ff321ad5da2e3f930da9e5ea707f20b814cd9924cfc5c605501377"
 
 RPROVIDES:${PN} += "vtk-openmpi4-devel-/usr/lib64/mpi/gcc/openmpi4/lib64//libvtkJava.so \
 vtk-openmpi4-java-devel"

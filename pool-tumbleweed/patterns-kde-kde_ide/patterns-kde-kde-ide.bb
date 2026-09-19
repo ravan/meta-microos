@@ -2,10 +2,10 @@ SUMMARY = "KDE Integrated Development Environment"
 DESCRIPTION = "KDE software for development (editors, integrated development environments, and associated tools)."
 LICENSE = "MIT"
 
-PV = "20230801"
+PV = "20260830"
 
-RPM_NAME = "patterns-kde-kde_ide-20230801-1.1.noarch.rpm"
-RPM_HASH = "5ee0493097f42b73c9542a0f2c1ec728cadbbce77eb0c6b8a017d405e2eb9f1d019bc76d73bcfd81cb7855b49c9ca823db3191a119837f6305f2dce931442a1c"
+RPM_NAME = "patterns-kde-kde_ide-20260830-1.1.noarch.rpm"
+RPM_HASH = "91cb22de1b517d0f5fdb63dd77a7db4154ea29c3d4ae2447e52c53b1808ff98adb6758c7470da650dd893a1ea62baad16bb1872d07fa809636df64d2f99754a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

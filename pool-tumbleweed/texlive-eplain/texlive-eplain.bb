@@ -9,10 +9,10 @@ color, autopict (a package instance of the LaTeX picture code), \
 psfrag, and url."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.13svn64721"
+PV = "2026.226.3.14svn71409"
 
-RPM_NAME = "texlive-eplain-2023.209.3.13svn64721-54.2.noarch.rpm"
-RPM_HASH = "6ed33dd67f2e02b0107470ff4cdda528dd068b49666935664956875e7cf05498f7fa8ab800d045df9610d9f38ac6b531fb85646faf3a92ede938be3b6964a63e"
+RPM_NAME = "texlive-eplain-2026.226.3.14svn71409-61.4.noarch.rpm"
+RPM_HASH = "9466f081149b644f68b3d29ef22d9284ff91c1a4a46a0847f7eb32de55a458a81b83f59e64f7ee51e17520ed829a402690f986159c46d83bbeda18d2fd1251de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arrow.tex \
@@ -30,30 +30,19 @@ tex-language.dat \
 tex-language.dat.lua \
 tex-language.def \
 texlive \
-texlive-atbegshi \
-texlive-atveryend \
 texlive-babel \
 texlive-cm \
 texlive-dehyph \
 texlive-eplain-bin \
-texlive-everyshi \
 texlive-filesystem \
-texlive-firstaid \
 texlive-hyph-utf8 \
-texlive-hyphen-base \
 texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
-texlive-l3backend \
-texlive-l3kernel \
-texlive-l3packages \
-texlive-latex \
 texlive-latex-fonts \
 texlive-pdftex \
 texlive-plain \
 texlive-scripts \
-texlive-scripts-bin \
-texlive-tex-ini-files \
-texlive-unicode-data"
+texlive-scripts-bin"
 
 inherit rpm

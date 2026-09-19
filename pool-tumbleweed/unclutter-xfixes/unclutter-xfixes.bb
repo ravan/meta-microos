@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.6"
 
-RPM_NAME = "unclutter-xfixes-1.6-1.1.aarch64.rpm"
-RPM_HASH = "89c4975ad70b574a3be4cce6c8dea2d2934bfe1d1bdfd867f8c1536d7ee9457b33e6a0f9b55df410dc45f07d928569316a8bc75b62fc46b96fc0ef2be5ee816f"
+RPM_NAME = "unclutter-xfixes-1.6-1.11.aarch64.rpm"
+RPM_HASH = "1afb9e5e2f7f36617bb800e82eeb27db1f0dc37f2679ab9724c842dbcf8e4f923f3a8e0c5fdd60cc25d46daf227a835a8b9a6849564b4d5d33369b0276eb3a2d"
 
 RPROVIDES:${PN} += "unclutter-xfixes"
 

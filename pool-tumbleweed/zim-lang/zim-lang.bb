@@ -2,10 +2,10 @@ SUMMARY = "Translations for package zim"
 DESCRIPTION = "Provides translations for the 'zim' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.75.2"
+PV = "0.77.2"
 
-RPM_NAME = "zim-lang-0.75.2-1.1.noarch.rpm"
-RPM_HASH = "8a48898da12b1ea4bba03abfc4d99bb69514c9686c3a451f3af1b3a9dea92a083c07f001238d0e938450fd7e059180eae241ee8ff6bc8e5179b5e4c7c4576934"
+RPM_NAME = "zim-lang-0.77.2-1.1.noarch.rpm"
+RPM_HASH = "acad22b810dc237d0f38736d592651e9a09e290fec6822669552f5ee44a7169a9dd5e2a0f12b7121637252def8b5c8227231032e27aa54a8e71dcd9dd8e81144"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-zim-ar \
@@ -28,6 +28,7 @@ locale-zim-hu \
 locale-zim-id \
 locale-zim-it \
 locale-zim-ja \
+locale-zim-ka \
 locale-zim-ko \
 locale-zim-nb \
 locale-zim-nl \
@@ -42,6 +43,7 @@ locale-zim-sl \
 locale-zim-sq \
 locale-zim-sr \
 locale-zim-sv \
+locale-zim-ta \
 locale-zim-tr \
 locale-zim-uk \
 locale-zim-vi \

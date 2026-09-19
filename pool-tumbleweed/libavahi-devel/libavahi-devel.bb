@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "libavahi-devel-0.8-23.3.aarch64.rpm"
-RPM_HASH = "450d2ef06fa5c9fea01d88fadaa8b1d85155ca1b1aec50281fae3eb8859f4b9a37c6831800a846d87a5450e717e342d6315fed27ac1bc33cc2531bfbc1c24974"
+RPM_NAME = "libavahi-devel-0.8-45.2.aarch64.rpm"
+RPM_HASH = "cdd4a6703d7c5385ad61327a7334b4b138dfaaa9c5c94a58bc484b492bbd64bb2bd94bd2def2196a8d49d69a7dfc6265f55261497bde5ab77a38ac28abfcfeff"
 
 RPROVIDES:${PN} += "avahi-devel \
 libavahi-devel \

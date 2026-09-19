@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "swing-layout-1.0.3-37.7.noarch.rpm"
-RPM_HASH = "4b50060f76c0b5d6b72f8b4d6bd660f21609c44513d8b6f799477308210d5ed50578f7b57d66ad2e52560860e92b6ab11e576286fc06328eae58cf11b3b546b7"
+RPM_NAME = "swing-layout-1.0.3-37.18.noarch.rpm"
+RPM_HASH = "a44f0f1bfaa9c5e9eeae755986e4abc2caa3f61898dc14a0b67ff8519397b784e7db3144055bc12a42cf359fabef26c9d07758d4d7b29527cf196a29f14e0caa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swing-layout"

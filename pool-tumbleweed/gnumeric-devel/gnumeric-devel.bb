@@ -17,10 +17,10 @@ needs. \
 Gnumeric is part of the GNOME project."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.12.55"
+PV = "1.12.61"
 
-RPM_NAME = "gnumeric-devel-1.12.55-1.5.aarch64.rpm"
-RPM_HASH = "3d5673efc0b5125fe559e9954e48234ec6ed39a1a3cb9ff12f5ab096e9a3400d0478369994fb367a5c0bd52619461fe919979a260d306ea7be8df20187d0842a"
+RPM_NAME = "gnumeric-devel-1.12.61-1.3.aarch64.rpm"
+RPM_HASH = "2591891886152dfca58a02a703fa567e35e06a6c28284fa8a059e6ae148d8142e6f9d3bebcd4cfe902997ea7e138f59ef28fed32211351d3d70a89e4102c3bd8"
 
 RPROVIDES:${PN} += "gnumeric-devel \
 pkgconfig-libspreadsheet-1.12"

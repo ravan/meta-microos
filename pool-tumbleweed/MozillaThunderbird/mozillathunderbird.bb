@@ -5,19 +5,19 @@ managing email, news feeds, chat, and news groups. It is a local \
 yet easy to use."
 LICENSE = "MPL-2.0"
 
-PV = "115.2.0"
+PV = "140.15.0"
 
-RPM_NAME = "MozillaThunderbird-115.2.0-1.1.aarch64.rpm"
-RPM_HASH = "44a68f9297d45ef8e3b3e3bcafaad8daebd8c886b37619c2a3074b4c35a0c58d9f3b19974b5654cd38e9e2db1ee2197186d2cca1cef678573075e2fedbad6cb2"
+RPM_NAME = "MozillaThunderbird-140.15.0-1.1.aarch64.rpm"
+RPM_HASH = "dd99fbdd67106cf47d4905a01024f0654fd650bdef94a0c0e61e9adb16ac216fce907d08196a67181dc762f9a18fac99eac5a8d7ab87251910205d165bc4cc7d"
 
 RPROVIDES:${PN} += "MozillaThunderbird \
 MozillaThunderbird-devel \
 appdata- \
 appdata-thunderbird.appdata.xml \
-mozilla-kde4-version \
 thunderbird"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+MozillaThunderbird-openpgp \
 coreutils \
 desktop-file-utils \
 fileutils \
@@ -29,14 +29,12 @@ libXdamage.so.1 \
 libXext.so.6 \
 libXfixes.so.3 \
 libXrandr.so.2 \
-libXtst.so.6 \
 libasound.so.2 \
 libatk-1.0.so.0 \
 libc.so.6 \
 libcairo-gobject.so.2 \
 libcairo.so.2 \
 libdbus-1.so.3 \
-libdbus-glib-1.so.2 \
 libfontconfig.so.1 \
 libfreetype.so.6 \
 libfreetype6 \

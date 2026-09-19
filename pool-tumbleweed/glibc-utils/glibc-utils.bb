@@ -6,17 +6,17 @@ debugging. \
 If you are unsure if you need this, do not install this package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.38"
+PV = "2.44"
 
-RPM_NAME = "glibc-utils-2.38-2.1.aarch64.rpm"
-RPM_HASH = "f80e3bbd3976ffe1006820207a9b7ddcb93ef33b4a6935ad3254a22b0143b1730c740bdab537b00c485cd24d9b95ee8d0c1825142caa98be118b3d94b013afde"
+RPM_NAME = "glibc-utils-2.44-2.1.aarch64.rpm"
+RPM_HASH = "7f347c67a02a3fced1718ec1819420c5435ed53525522cf10366f27b83a51c3ca6818020298acf952554c84aaae026eb3f13f1a4526baf3f63a04822d3e0d980"
 
 RPROVIDES:${PN} += "glibc-utils \
 libmemusage.so \
 libpcprofile.so"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/perl \
+/usr/bin/sh \
 glibc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

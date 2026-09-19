@@ -2,12 +2,12 @@ SUMMARY = "Enclosure LED Utilities"
 DESCRIPTION = "The ledctl application and ledmon daemon are part of Intel(R) LED \
 ControlUtilities. They help to enable LED management for software RAID \
 solutions."
-LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
+LICENSE = "GPL-2.0-only"
 
-PV = "0.97"
+PV = "1.1.0"
 
-RPM_NAME = "ledmon-0.97-1.2.aarch64.rpm"
-RPM_HASH = "4c072861e5afa4483ffab603a253d75aafbe6a8126cfcf730678bd9bb1623f2009b64d93e7c4d062dbaa3d2797b8d0d0033b8dad28de0a527fe881582be297ac"
+RPM_NAME = "ledmon-1.1.0-2.5.aarch64.rpm"
+RPM_HASH = "c04d932985edcbaa170f9af3f096563c1563a1521a4500b961c693993e7635b90ab9b515cb33087bcd9600987c53c46b18c4286d08c4d3930295c13016af0313"
 
 RPROVIDES:${PN} += "ledmon \
 sgpio-/sbin/ledmon \

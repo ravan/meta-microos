@@ -3,10 +3,10 @@ DESCRIPTION = "The audaspace-doc package contains documentation for \
 developing applications that use audaspace."
 LICENSE = "Apache-2.0"
 
-PV = "1.4.0"
+PV = "1.10.0"
 
-RPM_NAME = "audaspace-doc-1.4.0-1.5.noarch.rpm"
-RPM_HASH = "8b94becb9e2865fe0408a1fc20be046f55134e2eb8671a18c5d5e96f4fdc6f56fa45a7e187aa044dc5efeb05881fed07ffefa33b937dbef10d4dc082fe00500d"
+RPM_NAME = "audaspace-doc-1.10.0-1.1.noarch.rpm"
+RPM_HASH = "4d44b3eab5bf06fc9e9625dfa9d6ea953a2dc42cb7557b5b5ac0c6d83bbf3ecba7e7a2bdef086766531efcf11483b2923d872df1057942b497907b06b1f0a3dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "audaspace-doc"

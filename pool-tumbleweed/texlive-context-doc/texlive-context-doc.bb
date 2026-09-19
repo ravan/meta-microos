@@ -2,50 +2,52 @@ SUMMARY = "Documentation for texlive-context"
 DESCRIPTION = "This package includes the documentation for texlive-context"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66546"
+PV = "2026.226.20260219_11_49_asvn78010"
 
-RPM_NAME = "texlive-context-doc-2023.209.svn66546-55.1.noarch.rpm"
-RPM_HASH = "ce16d8e81efcf002c207c9d5ff2e4fcdafb460469cfcbbbf4d8c131e754beaa4daf3d2260f0ad555e24857f8e5c0dfcfb4da552fb288aabf29c1a09f46e28ee3"
+RPM_NAME = "texlive-context-doc-2026.226.20260219_11_49_asvn78010-61.2.noarch.rpm"
+RPM_HASH = "a99bcd5ac16658a5233af4916f1ae2d338b242a1b030aaf24ece10487ca382c36bb46bc16aa1fce8948aa6c2c7c098bbb86b11e5c237b9d08a80397a262fb26a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-context.1 \
-man-luatools.1 \
-man-mtx-babel.1 \
-man-mtx-base.1 \
-man-mtx-bibtex.1 \
-man-mtx-cache.1 \
-man-mtx-chars.1 \
-man-mtx-check.1 \
-man-mtx-colors.1 \
-man-mtx-context.1 \
-man-mtx-dvi.1 \
-man-mtx-epub.1 \
-man-mtx-evohome.1 \
-man-mtx-fcd.1 \
-man-mtx-flac.1 \
-man-mtx-fonts.1 \
-man-mtx-grep.1 \
-man-mtx-interface.1 \
-man-mtx-metapost.1 \
-man-mtx-modules.1 \
-man-mtx-package.1 \
-man-mtx-patterns.1 \
-man-mtx-pdf.1 \
-man-mtx-plain.1 \
-man-mtx-profile.1 \
-man-mtx-rsync.1 \
-man-mtx-scite.1 \
-man-mtx-server.1 \
-man-mtx-spell.1 \
-man-mtx-texworks.1 \
-man-mtx-timing.1 \
-man-mtx-tools.1 \
-man-mtx-unicode.1 \
-man-mtx-unzip.1 \
-man-mtx-update.1 \
-man-mtx-vscode.1 \
-man-mtx-watch.1 \
-man-mtx-youless.1 \
+man-mtxrun-babel.1 \
+man-mtxrun-bibtex.1 \
+man-mtxrun-cache.1 \
+man-mtxrun-chars.1 \
+man-mtxrun-check.1 \
+man-mtxrun-colors.1 \
+man-mtxrun-context.1 \
+man-mtxrun-convert.1 \
+man-mtxrun-ctan.1 \
+man-mtxrun-dvi.1 \
+man-mtxrun-epub.1 \
+man-mtxrun-evohome.1 \
+man-mtxrun-fcd.1 \
+man-mtxrun-fixpdf.1 \
+man-mtxrun-flac.1 \
+man-mtxrun-fonts.1 \
+man-mtxrun-grep.1 \
+man-mtxrun-interface.1 \
+man-mtxrun-kpse.1 \
+man-mtxrun-metapost.1 \
+man-mtxrun-modules.1 \
+man-mtxrun-package.1 \
+man-mtxrun-patterns.1 \
+man-mtxrun-pdf.1 \
+man-mtxrun-plain.1 \
+man-mtxrun-profile.1 \
+man-mtxrun-rsync.1 \
+man-mtxrun-scite.1 \
+man-mtxrun-server.1 \
+man-mtxrun-spell.1 \
+man-mtxrun-synctex.1 \
+man-mtxrun-texworks.1 \
+man-mtxrun-tools.1 \
+man-mtxrun-unicode.1 \
+man-mtxrun-unzip.1 \
+man-mtxrun-update.1 \
+man-mtxrun-vscode.1 \
+man-mtxrun-watch.1 \
+man-mtxrun-youless.1 \
 man-mtxrun.1 \
 texlive-context-doc"
 

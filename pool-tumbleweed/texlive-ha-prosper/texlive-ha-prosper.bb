@@ -7,10 +7,10 @@ demonstrate how to expand the functionality of prosper even \
 further."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.21svn59651"
+PV = "2026.226.4.21svn59651"
 
-RPM_NAME = "texlive-ha-prosper-2023.209.4.21svn59651-54.2.noarch.rpm"
-RPM_HASH = "6725c0d655506473eb6fbe2ba3fb119fd8f229ced33d192c2e93f3fd276d4250daeb9001ec9b81c0871bee7dd0b817f976d290fe658f3d5ad7149c85fa38023b"
+RPM_NAME = "texlive-ha-prosper-2026.226.4.21svn59651-60.4.noarch.rpm"
+RPM_HASH = "2e312c7abb7538b9a756e33517373af36a60c704683ceba98445928aa669333115e959a2d18076db864a565d5c748aedfdbafa252db3ae1d8264fa5dd1cab89d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-HA-prosper.cfg \

@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt D-Bus module is a library that can be used to perform \
 inter-process communication using the D-Bus protocol."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6DBus6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "48e617b26019c5ded043375512fca8c4f4fb0935d5910fa40d87b37eca81fbc07700be6636825bc5541f6e3d6af2b7cbafc398a7a4fbdf356315627173e8bdca"
+RPM_NAME = "libQt6DBus6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "aa694dc263ed04e3892b6fdeb6b87e59f8c8db4566cc0f5e8ca0fb8c230ab25f94c72a70f7a5108e1286419f892490c1786cb7619cc534bcee2e998c926d097a"
 
 RPROVIDES:${PN} += "libQt6DBus.so.6 \
 libQt6DBus6"

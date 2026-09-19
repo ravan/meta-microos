@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the Vancouver reference style for \
 BibLaTeX. It is based on the numeric style and requires biber."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.1svn55339"
+PV = "2026.226.0.0.1svn75301"
 
-RPM_NAME = "texlive-biblatex-vancouver-2023.209.0.0.1svn55339-54.1.noarch.rpm"
-RPM_HASH = "53e83abb0affe0b266ca39f3298dbca6e252fb28d8017dc0f3d4671f653a4680274b0c201ad2c2139517458babb85326f2df0ee4b2bf0b1fa52748c17125316c"
+RPM_NAME = "texlive-biblatex-vancouver-2026.226.0.0.1svn75301-61.2.noarch.rpm"
+RPM_HASH = "cb54c79542a0206a338c284e6033f7696df9b77a43319e61717e56593b8bf4218a02cf082d196bc981bba88546dd8e2885e128fdcc4e5ea00120762693442cd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-vancouver.bbx \

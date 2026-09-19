@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.66"
 
-RPM_NAME = "perl-Template-GD-2.66-1.23.noarch.rpm"
-RPM_HASH = "2a5db5fc3e0f570ecb2d3064c95b37c3e26f4e9c51f715f962687649c5a3b71b070e1b497321b69701f375e51f8589e004cd22244308d7cb1d1bda4e1647cad7"
+RPM_NAME = "perl-Template-GD-2.66-1.37.noarch.rpm"
+RPM_HASH = "b1ef98d4328695bc35d659dffe4dce5c7f865e460844055ca234f7c781562a578d3d29a221bbaa999d6e5a65a3fa5dea38815f6f5fda43176cc3bf592252faba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Template--Plugin--GD \
@@ -27,7 +27,7 @@ perl-Template--Plugin--GD--Text--Align \
 perl-Template--Plugin--GD--Text--Wrap \
 perl-Template-GD"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-GD \
 perl-Template"
 

@@ -2,10 +2,10 @@ SUMMARY = "omniORB libraries"
 DESCRIPTION = "Shared libraries providing the omniORB CORBA implementation."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.3.0"
+PV = "4.3.2"
 
-RPM_NAME = "libomniORB4-3-4.3.0-2.8.aarch64.rpm"
-RPM_HASH = "487b022a2755cdd1ab0b8fd60746f5168a330ed03778fa9da281e694c000b3928b6619b1dc8b0d3902b657e7b637386a344e74b764266f0fd8cb3945c9ca2cde"
+RPM_NAME = "libomniORB4-3-4.3.2-1.10.aarch64.rpm"
+RPM_HASH = "326b76f9caa83c303f7f446c702959a7d4281fa768df370116e3aae2c673dded3ca57da28fcce11e50d4ce8918a5a8d71f54b2193ca92e915d8a53040ae22a00"
 
 RPROVIDES:${PN} += "libCOS4.so.3 \
 libCOSDynamic4.so.3 \

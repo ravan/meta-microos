@@ -3,15 +3,18 @@ DESCRIPTION = "This package contains header files needed for writing \
 C++ programs that connect to a PostgreSQL database."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.4.5"
+PV = "7.10.3"
 
-RPM_NAME = "libpqxx-devel-6.4.5-1.20.aarch64.rpm"
-RPM_HASH = "df0e1f8c2080f0bda88d7cfff7ecc6c8c4f27e31dc98a41ae55142aef2631feefaa2b2c38ece9db442de483b51bbf4c79ff071cf23a73bd7788580b123c55df6"
+RPM_NAME = "libpqxx-devel-7.10.3-1.4.aarch64.rpm"
+RPM_HASH = "cf8c82c58269ce68cdc71182d1154781f47469a05d6083bff8fe2fc572371801c67a785f6860f6c263d78c2295f80005c90190093ca9619ee807a1c2d9f9ddc3"
 
-RPROVIDES:${PN} += "libpqxx-devel \
+RPROVIDES:${PN} += "cmake-libpqxx \
+libpqxx-devel \
 pkgconfig-libpqxx"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpqxx-6-4"
+gcc-c++ \
+libpqxx-7-10 \
+pkgconfig-libpq"
 
 inherit rpm

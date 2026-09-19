@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.09"
 
-RPM_NAME = "perl-Class-Adapter-1.09-1.19.noarch.rpm"
-RPM_HASH = "d787e02eb85c59061f035b0d53df1e626dc243247dce26ab3ba0c6677c6c54b1b290ac0f739b0c74e97d94886c150c3c65d17234282d3dbdc372ed9d768f29a3"
+RPM_NAME = "perl-Class-Adapter-1.09-1.33.noarch.rpm"
+RPM_HASH = "78909aa43be186d9db4b36d659a8b10c9d895b81d2172ab728938d28017a897b0b4cf0a59d151cd99742f8f1e554dcb80921fb858485a78826be35410684f4b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Adapter \
@@ -14,6 +14,6 @@ perl-Class--Adapter--Builder \
 perl-Class--Adapter--Clear \
 perl-Class-Adapter"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

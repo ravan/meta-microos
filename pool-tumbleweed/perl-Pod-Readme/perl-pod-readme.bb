@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.2.3"
 
-RPM_NAME = "perl-Pod-Readme-1.2.3-1.17.noarch.rpm"
-RPM_HASH = "b241ddb7a98a3fccfbecb7cff9b5bd932b6824908b1903aee8b8c64db9bca2590adc6532ba7810a75009267825341c4c1defb9950c3c95f61c242b495341dace"
+RPM_NAME = "perl-Pod-Readme-1.2.3-1.31.noarch.rpm"
+RPM_HASH = "d1a33fd5444a57148d56130b1695907397b8a20fa28c338cbc93542d0e5ec2d23a847536c672d4f87cdf349d2333a0f853afb3a29494b5fd9a3fdf55e6e8add1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Readme \
@@ -19,7 +19,7 @@ perl-Pod--Readme--Types \
 perl-Pod-Readme"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--Changes \
 perl-CPAN--Meta \
 perl-Class--Method--Modifiers \

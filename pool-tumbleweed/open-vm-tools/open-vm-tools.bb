@@ -23,10 +23,10 @@ useful functions like: \
 guests and from guest to guest"
 LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "12.3.0"
+PV = "13.1.0"
 
-RPM_NAME = "open-vm-tools-12.3.0-1.1.aarch64.rpm"
-RPM_HASH = "52bb274dd8e3a1b74eabe4654a6ecf2a9914254d2a50b2adc052b1428365725bdfacf149c362ad902288fe2aabb99a90104efda3d699ffc3fea73e466c5a4d08"
+RPM_NAME = "open-vm-tools-13.1.0-2.3.aarch64.rpm"
+RPM_HASH = "08d84ab46799fb4633b601faf86de34aac3a0d55b621571d4d73393b10b30f5d1fbc18f28b65f32a927137d90b80ec522af78769c6664c66ae6e170da42ab147"
 
 RPROVIDES:${PN} += "config-open-vm-tools \
 libappInfo.so \
@@ -49,7 +49,7 @@ libDeployPkg.so.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libdrm.so.2 \
-libfuse3.so.3 \
+libfuse3.so.4 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
@@ -61,7 +61,7 @@ libudev.so.1 \
 libvgauth.so.0 \
 libvmtools.so.0 \
 libvmtools0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxmlsec1-openssl1 \
 libxmlsec1.so.1 \
 net-tools \

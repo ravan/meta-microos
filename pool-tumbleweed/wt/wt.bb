@@ -1,4 +1,4 @@
-SUMMARY = "Web Toolkit"
+SUMMARY = "C++ library for developing web applications (Web Toolkit)"
 DESCRIPTION = "Wt is a C++ library and application server for developing and \
 deploying web applications. The widget-centric API is inspired by \
 existing C++ GUI APIs. It offers complete abstraction of any \
@@ -8,28 +8,30 @@ the library generates the necessary HTML, Javascript, CGI, and AJAX \
 code."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.8.1"
+PV = "4.12.6"
 
-RPM_NAME = "wt-4.8.1-3.8.aarch64.rpm"
-RPM_HASH = "7c552f798946be5ae12dca2f8db77c44e8076bbf0dcd90291a64793cd4aa2c0f98d196dc3c78843e2925f90649f30d928b40233294534f88c975d8061049c3ce"
+RPM_NAME = "wt-4.12.6-1.4.aarch64.rpm"
+RPM_HASH = "7c570bbb05749ac467bccf37da420561ac77bf08baec68f5c1e44bfe8a0bf7a07f09f7e68af9118f81304f7f60d33c53154653ccc6ff01168e4618d8d11e8e41"
 
 RPROVIDES:${PN} += "config-wt \
-libwt.so.4.8.1 \
-libwtfcgi.so.4.8.1 \
-libwthttp.so.4.8.1 \
-libwttest.so.4.8.1 \
+libwt.so.4.12.6 \
+libwtfcgi.so.4.12.6 \
+libwthttp.so.4.12.6 \
+libwttest.so.4.12.6 \
 wt"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 FastCGI \
+group-www \
 ld-linux-aarch64.so.1 \
-libGL.so.1 \
-libGLEW.so.2.2 \
+libGLEW.so.2.3 \
+libGLX.so.0 \
 libGraphicsMagick-Q16.so.3 \
+libOpenGL.so.0 \
 libX11.so.6 \
-libboost-filesystem.so.1.82.0 \
-libboost-program-options.so.1.82.0 \
-libboost-thread.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
+libboost-program-options.so.1.91.0 \
+libboost-thread.so.1.91.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libfcgi++.so.0 \
@@ -38,13 +40,14 @@ libfontconfig.so.1 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libhpdf.so.2 \
+libhpdf.so.2.4 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangoft2-1.0.so.0 \
 libssl.so.3 \
 libstdc++.so.6 \
 libz.so.1 \
-openssl"
+openssl \
+user-wwwrun"
 
 inherit rpm

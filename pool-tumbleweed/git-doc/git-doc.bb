@@ -7,10 +7,10 @@ This subpackage contains Git's documentation in text/plain and \
 text/html formats. (The manpages are in the main package.)"
 LICENSE = "GPL-2.0-only"
 
-PV = "2.42.0"
+PV = "2.55.0"
 
-RPM_NAME = "git-doc-2.42.0-1.1.noarch.rpm"
-RPM_HASH = "489f1b4623bff86d246f6130769140bc730c846d328835074cf76cd3c53cb60e8dd808fb6a2a3cdc9e83b4cbff512c4fe127e838c2cd0589612d41bc88ac7e8d"
+RPM_NAME = "git-doc-2.55.0-3.2.noarch.rpm"
+RPM_HASH = "b785f569eb3dace7d6eb4286653452ae1c0d9912dbfa4fb9df8cc089ab364dba170794885d53bac85dbd0a4a7eca928be45310efe012f64c2b851c10f27e8a1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-doc"

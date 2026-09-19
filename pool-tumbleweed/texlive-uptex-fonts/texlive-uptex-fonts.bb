@@ -4,14 +4,17 @@ is a redistribution derived from the upTeX distribution by \
 Takuji Tanaka."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn65657"
+PV = "2026.226.svn74119"
 
-RPM_NAME = "texlive-uptex-fonts-2023.209.svn65657-54.1.noarch.rpm"
-RPM_HASH = "16e28ec06351fb77e993c3ed3d12c729f20551894fbfefe00f9a2f936e9c69b10203f6acea45f7f8ec6b129656931d18d0e4462d6239a81123fac343cd2d9a40"
+RPM_NAME = "texlive-uptex-fonts-2026.226.svn74119-60.2.noarch.rpm"
+RPM_HASH = "ca313d441591e32da37254ffbc0b6e69af4a34e93ea3554da178b019f2a002e1c80d3b0befda74ea566c9eee55057b142d38cb08d055036cff489bb022ad23d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makejvf-upjis.cnf \
 tex-makejvf-upjpn.cnf \
+tex-makejvf-upkor.cnf \
+tex-makejvf-upsch.cnf \
+tex-makejvf-uptch.cnf \
 tex-ugbm.tfm \
 tex-ugbmv.tfm \
 tex-ugoth10.tfm \

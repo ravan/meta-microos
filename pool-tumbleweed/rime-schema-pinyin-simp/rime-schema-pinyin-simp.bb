@@ -1,11 +1,11 @@
-SUMMARY = "pinyin-simp input schema for rime"
+SUMMARY = "Pinyin-simp input schema for rime"
 DESCRIPTION = "pinyin-simp input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-pinyin-simp-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "ae9c27dcc378007908f04b408dd39f11234d6e3234095736d08422d60391b080c64e8ba1625bfc7e6316d89571bd5e5ead8e891ca7e7dcfb12c5dc94539b2716"
+RPM_NAME = "rime-schema-pinyin-simp-20250315-1.4.noarch.rpm"
+RPM_HASH = "427f56c3af24ea2c6dc77894ef3192f96a54b080350894078de480b16121b014818230e567f2a22cc9a6bbd5b37fba4e1fa67da17500c9d57d5eb349eb5f1b2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-pinyin-simp"

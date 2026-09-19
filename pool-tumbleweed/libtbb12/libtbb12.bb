@@ -1,19 +1,21 @@
-SUMMARY = "Threading Building Blocks (TBB)"
-DESCRIPTION = "Threading Building Blocks (TBB) offers a rich and complete approach to \
-expressing parallelism in a C++ program. It is a library that helps you take \
-advantage of multi-core processor performance without having to be a threading \
-expert. Threading Building Blocks is not just a threads-replacement library. It \
-represents a higher-level, task-based parallelism that abstracts platform \
-details and threading mechanism for performance and scalability."
+SUMMARY = "Core library for oneAPI Threading Building Blocks"
+DESCRIPTION = "oneTBB (previously known as TBB) is a flexible C++ library that simplifies the \
+work of adding parallelism to complex applications. The library lets you easily \
+write parallel programs that take full advantage of the multi-core performance. \
+oneTBB provides you with functions, interfaces, and classes to parallelize and \
+scale the code. \
+ \
+This package provides the core shared library corresponding to oneTBB."
 LICENSE = "Apache-2.0"
 
-PV = "2021.10.0"
+PV = "2023.0.0"
 
-RPM_NAME = "libtbb12-2021.10.0-1.1.aarch64.rpm"
-RPM_HASH = "b7de53864c41549b87004bdba8c07a39eb4ce39513e3e558850ab91a01daf6f7a6f70d58db34a2a3ce221c0800f83435fad9aff270669d6bee3186f860b0ec48"
+RPM_NAME = "libtbb12-2023.0.0-1.3.aarch64.rpm"
+RPM_HASH = "c13f22332e15e37a14d482789f04b01f4f0a0833fbbb0b36bdf3f9ed8393e36340c4611fb9086d7fc44b2d4bd8ccb0107121d8ba43baa4018019e9984677b10e"
 
 RPROVIDES:${PN} += "libtbb.so.12 \
 libtbb12 \
+onetbb \
 tbb"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

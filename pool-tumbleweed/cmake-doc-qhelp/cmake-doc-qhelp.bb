@@ -2,10 +2,10 @@ SUMMARY = "CMake documentation for offline reading - qhelp version"
 DESCRIPTION = "CMake documentation for offline reading - qhelp version."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.27.2"
+PV = "4.4.3"
 
-RPM_NAME = "cmake-doc-qhelp-3.27.2-1.1.aarch64.rpm"
-RPM_HASH = "4a6a7cb6dec94b7a2e03af2664f79f155063319b0ec8683125df8436586bbdcf8ff825ea8a53aa0167dfdae8edcd728e99e515a18055a120e244d0b80b2b8fd9"
+RPM_NAME = "cmake-doc-qhelp-4.4.3-1.1.aarch64.rpm"
+RPM_HASH = "f1e6d56a8fe14f1f318706b3ccd14bb46ff9152c5cdc6da869411e5997f441bbf0a85d1c8edb5aa22057ed5465493210dfbda03e227b9c9ba420bd24e7c1969d"
 
 RPROVIDES:${PN} += "cmake-doc-qhelp"
 

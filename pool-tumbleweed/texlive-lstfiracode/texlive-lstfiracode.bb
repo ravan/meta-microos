@@ -4,10 +4,10 @@ the listings package. This style contains almost all ligatures \
 in Nikita Prokopov's Fira Code family of fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.1csvn49503"
+PV = "2026.226.0.0.1csvn49503"
 
-RPM_NAME = "texlive-lstfiracode-2023.208.0.0.1csvn49503-53.1.noarch.rpm"
-RPM_HASH = "3764be73f9ef50a47070511ffe20b9ca4c07c54147ecb82c846095986ced024202bb9702e399247404dfd430fa7dcecc05fa5ca4148e652d37d2bc085dcc8ae6"
+RPM_NAME = "texlive-lstfiracode-2026.226.0.0.1csvn49503-59.2.noarch.rpm"
+RPM_HASH = "bfa206bafe536886b50aed0a0cd42171f2864c69d392b55b79a4a88f46351a909ad3498063dc2dc66ea266e9d104e1d42e6b6a884d5bb851e1cdd02f0fd6e861"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lstfiracode.sty \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "15.0.17"
 
-RPM_NAME = "golang-packaging-15.0.17-2.2.noarch.rpm"
-RPM_HASH = "3fd049a7dbbc326ef81d8280003e7521200a1288450063d2a9c734557c90e5f92d2c008ae021be4a6bac955c782dfcbdd4cea06ec4401b03e773d944f56c21f2"
+RPM_NAME = "golang-packaging-15.0.17-2.10.noarch.rpm"
+RPM_HASH = "90b3e361c18a783c59d808f486e973733dc5452c22307eed826f86f7ee0e4b907be317de9635524e23054cab04dfcb56854624201aa04f472853ecb57471a841"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-packaging \

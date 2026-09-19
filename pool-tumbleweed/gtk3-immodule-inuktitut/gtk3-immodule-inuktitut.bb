@@ -6,10 +6,10 @@ ranging from small one-off projects to complete application suites. \
 This package provides an input method for Inuktitut."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.38"
+PV = "3.24.52+git59.b30343717d"
 
-RPM_NAME = "gtk3-immodule-inuktitut-3.24.38-2.1.aarch64.rpm"
-RPM_HASH = "d979f94f2bb87e43584f578d9a9e5a3f22a42dce2aabb8c6bdf6cbb5539910b25db93c1a17aa2ef131dc854eb4073481fb99d6e86579798d01383ff3c25dc63f"
+RPM_NAME = "gtk3-immodule-inuktitut-3.24.52+git59.b30343717d-1.1.aarch64.rpm"
+RPM_HASH = "6cccc8c6000a56c723261b488c014c6c8d098313d5c114fd54fb2bc810366c5f6293e11da6360ca4ac68118fdb95b2c081a946feeb1756bdd69f14d4e1fad4c6"
 
 RPROVIDES:${PN} += "gtk3-immodule-inuktitut \
 locale-gtk3-iu"

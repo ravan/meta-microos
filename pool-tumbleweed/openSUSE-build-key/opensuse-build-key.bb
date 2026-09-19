@@ -6,12 +6,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "openSUSE-build-key-1.0-48.1.aarch64.rpm"
-RPM_HASH = "d58b4f28fff2788eb24bdcf411c6e60ce3d7c8c366bbb463130dc60bc825da6b3f24e005dbe20a887d1af19960f02734a4e3beeaaaea7c5fb0d6c9fe779777d5"
+RPM_NAME = "openSUSE-build-key-1.0-68.1.aarch64.rpm"
+RPM_HASH = "787beacba04d885b7fa2b849437942bec08f47767fbdb51600c4cf610bce6d07a9f8947606e272525804569395888facdeca733c4a991e6c9de98f0bba912f22"
 
 RPROVIDES:${PN} += "build-key \
 openSUSE-build-key"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

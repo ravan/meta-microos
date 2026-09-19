@@ -3,10 +3,10 @@ DESCRIPTION = "Subunit C bindings.  See the python-subunit package for test proc
 functionality."
 LICENSE = "Apache-2.0 | BSD-3-Clause"
 
-PV = "1.4.2"
+PV = "1.4.6"
 
-RPM_NAME = "subunit-1.4.2-3.2.aarch64.rpm"
-RPM_HASH = "4ed4dc544162a9d010c4559f7a23746282a3ee122722d8f7a3d1a0d9eba447e33ac70281c1d4791bd4e054259b5c2c2067342154fb45428dc2d5fed9867a20f3"
+RPM_NAME = "subunit-1.4.6-1.2.aarch64.rpm"
+RPM_HASH = "505931d92f23916aacf7f183584142e2aa7a5393ae032f45cd0c1f393e1af764f64eacd1774c6dff4ced17e76270136ea219722c131b6df3c896981c68634082"
 
 RPROVIDES:${PN} += "subunit"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ecltree"
 DESCRIPTION = "This package includes the documentation for texlive-ecltree"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn15878"
+PV = "2026.226.1.1asvn15878"
 
-RPM_NAME = "texlive-ecltree-doc-2023.209.1.1asvn15878-54.2.noarch.rpm"
-RPM_HASH = "481f676d216e43acead21f1e409262b133a835889b6b7eb3de7c1d3894708bb43d7f290fb3c41e2145a40a4659c209334bbbdeb5e3ecf1dada0ee3883793251e"
+RPM_NAME = "texlive-ecltree-doc-2026.226.1.1asvn15878-61.4.noarch.rpm"
+RPM_HASH = "70bbbce2e64fb3f5742b5175f888dca49a57b679720c27aba5ec1afe474fe3aec1fb062fe1ddaf1f5ed885e200177c5b6ac1b5cd86dfaea90ec10475d81ec3ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ecltree-doc"

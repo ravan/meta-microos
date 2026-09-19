@@ -7,36 +7,34 @@ DESCRIPTION = "Zeal is an offline API documentation browser inspired by Dash \
  * Don't be dependent on your internet connection. \
  * Integrate Zeal with Emacs, Sublime Text, or Vim. See Usage » \
    Editor plugins for details."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.0~git20200517.404c3aa"
+PV = "0.9.1"
 
-RPM_NAME = "zeal-2.7.0~git20200517.404c3aa-2.14.aarch64.rpm"
-RPM_HASH = "a04a627a0f6aaf32e1fec77da7d0cee65c34cc7cae8b54069dd1c0aee7b0552c9ead27e39189bc5e64b1ac4430b5d4d158b066233aa115b8861387feb7d01e43"
+RPM_NAME = "zeal-0.9.1-1.1.aarch64.rpm"
+RPM_HASH = "9f951440d707c355c6463a209f72dd5f64203f59cb1fc768cd9e26b3e5d5a114e572d79f70b10f2c7c73147e8d4fb7a6f23fffdd39be6419132e200a89f5a3b6"
 
 RPROVIDES:${PN} += "zeal"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-hicolor-icon-theme \
+RDEPENDS:${PN} += "hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
-libQt5Concurrent.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Sql5-sqlite \
-libQt5WebChannel.so.5 \
-libQt5WebEngineCore.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
-libX11.so.6 \
+libQt6Concurrent.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Sql6 \
+libQt6Svg.so.6 \
+libQt6WebChannel.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
 libarchive.so.13 \
 libc.so.6 \
 libgcc-s.so.1 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
-libxcb-keysyms.so.1 \
-libxcb.so.1 \
+libtomlplusplus.so.3 \
+libz.so.1 \
 update-desktop-files"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "gtkdatabox-devel-examples-1.0.0-1.10.aarch64.rpm"
-RPM_HASH = "d0d86a62aca0da004c43565bae1a3f345efa8d74232d1b0fe829b8ee90cce100269c52037249d047a14cb207c2b0ae71a2464a8eb060a0a2bf66fa2eb2151eb9"
+RPM_NAME = "gtkdatabox-devel-examples-1.0.0-1.21.aarch64.rpm"
+RPM_HASH = "e5781e4ff5462606cfe27b55a6d21fa19ba3a7640f58fe61e1f774996234e586a7164b712b14971d21a274c5995c0f451e151ebde376c05403007f70cde74c98"
 
 RPROVIDES:${PN} += "gtkdatabox-devel-examples"
 

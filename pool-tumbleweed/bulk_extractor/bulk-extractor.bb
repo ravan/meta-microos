@@ -7,10 +7,10 @@ tools. bulk_extractor also created a histograms of features that it finds, \
 as features that are more common tend to be more important."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.0.0"
+PV = "2.1.1"
 
-RPM_NAME = "bulk_extractor-2.0.0-4.1.aarch64.rpm"
-RPM_HASH = "02bec0f722055e4c878252fc749e5ba5bde4e98121672991ba1d116b654c7b17f421eb48af6683ee1c285aa25bc8e49680ff2c29d53af360e965f9b9f94d8530"
+RPM_NAME = "bulk_extractor-2.1.1-1.4.aarch64.rpm"
+RPM_HASH = "6e0c24a511381408444ae503ad95ebd42117379e6e3c66394b0dfe0126b1a8be70fa07a3d02747c023281a10aa6e49910ad1e06afab591ed919c894cd8ec94f5"
 
 RPROVIDES:${PN} += "bulk-extractor"
 
@@ -21,6 +21,7 @@ libewf.so.3 \
 libexpat.so.1 \
 libgcc-s.so.1 \
 libm.so.6 \
+libre2.so.11 \
 libstdc++.so.6 \
 libz.so.1 \
 sleuthkit"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package allows to start Leechcraft as a Desktop Environment 
 the Openbox Window Manager."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-fenet-openbox-0.6.70+git.14794.g33744ae6ce-3.2.noarch.rpm"
-RPM_HASH = "0eac91b9bdd574cb63362143b460739ce33c538aeac4ed9edf9db9855faf2ff8af3d3c3ad2978310d270a5442ccbc35d29aa6592d01a90b8ac87953aca7f1fba"
+RPM_NAME = "leechcraft-fenet-openbox-0.6.70+git.18808.g3467692359-3.1.noarch.rpm"
+RPM_HASH = "b5426e8f1864a8c119a7a59b925f042c689469367fc588b66f7a02374a0c0487e16de1f72b5db3d8fc7d305a1d9b5f767cbbb30969c95b5b3cca65c840d2e137"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "leechcraft-fenet-openbox \

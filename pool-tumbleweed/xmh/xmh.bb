@@ -4,10 +4,10 @@ MH Message Handling System. To actually do things with your \
 mail, it makes calls to the MH package."
 LICENSE = "MIT"
 
-PV = "1.0.4"
+PV = "1.0.5"
 
-RPM_NAME = "xmh-1.0.4-1.4.aarch64.rpm"
-RPM_HASH = "7c9ecdf0334e91059cc0f62ea0d9bd236d707ac89576e232d8aebd9744bbd35433869c27e243a62c07f0886260b6a5ab81fb086c0028879be722b5b4325fb587"
+RPM_NAME = "xmh-1.0.5-1.9.aarch64.rpm"
+RPM_HASH = "e4f084f50c3e725f8aa5a2121de593cfc19157aa25ecf7b2092645f87325882aa89c01c15d933898dd191f9c390105301063b96ef945de85f4a307a9cf8b89bd"
 
 RPROVIDES:${PN} += "xmh"
 

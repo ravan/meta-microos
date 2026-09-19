@@ -1,16 +1,16 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 WebChannel library"
 DESCRIPTION = "This package provides private headers of libQt6WebChannel that do not have any \
 ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-webchannel-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "43da795d64a75363d7fdedaea5551119acf16211dec40b80ffe5928cb53b25c1f8adefc91b83fe3ade3475a230cd632141634c161cb38404536085cb0eb3acc2"
+RPM_NAME = "qt6-webchannel-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "b3eb1f9bd13f05bc350b71988ea29943541ea33667e318118a4fe58f4ba8f648abdb79a24482d1f1583687590ab8cb95ed9dc125dbc8c36394cc6223b0749767"
 
-RPROVIDES:${PN} += "qt6-webchannel-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6WebChannelPrivate \
+qt6-webchannel-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6WebChannel \
-qt6-core-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6WebChannel"
 
 inherit rpm

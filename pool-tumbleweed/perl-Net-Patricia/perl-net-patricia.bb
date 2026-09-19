@@ -1,4 +1,4 @@
-SUMMARY = "Patricia Trie perl module for fast IP address lookups"
+SUMMARY = "Patricia Trie for fast IP address lookups"
 DESCRIPTION = "This module uses a Patricia Trie data structure to quickly perform IP \
 address prefix matching for applications such as IP subnet, network or \
 routing table lookups. The data structure is based on a radix tree using a \
@@ -15,10 +15,10 @@ The BSD radix code is thoroughly described in 'TCP/IP Illustrated, Volume \
 Table for Berkeley Unix'' by Keith Sklower."
 LICENSE = "BSD-2-Clause & GPL-2.0-or-later"
 
-PV = "1.22"
+PV = "1.240.0"
 
-RPM_NAME = "perl-Net-Patricia-1.22-6.5.aarch64.rpm"
-RPM_HASH = "aab0816719507915713a69b6960e0df0189236a78db3e0f29729e2d27462260b2185d9f0fe8458c42b340cf761092cde77b329448c7e957053276ecaf6fa42b8"
+RPM_NAME = "perl-Net-Patricia-1.240.0-1.6.aarch64.rpm"
+RPM_HASH = "8a726f14b41881c4d5d41a67afc19156319b8b7e26f457854e7fa1420ec24b903972a786dab97b40db40cee0a47fc07a55f6ab0b0ac2a96ec130f484be68c00b"
 
 RPROVIDES:${PN} += "perl-Net--Patricia \
 perl-Net--Patricia--AF-INET \
@@ -27,10 +27,9 @@ perl-Net-Patricia"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Net--CIDR--Lite \
 perl-Socket6 \
-perl-Test--More \
 perl-version"
 
 inherit rpm

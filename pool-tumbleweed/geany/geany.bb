@@ -5,10 +5,10 @@ for many formats, case folding, symbol name autocompletion, autoclose \
 XML/HTML tags, provides code navigation and has a plugin interface."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.38"
+PV = "2.1"
 
-RPM_NAME = "geany-1.38-3.8.aarch64.rpm"
-RPM_HASH = "f3eb1e4a73396974efa5a6eaeb2a7f2a9193d4a7f09b9f3054908acdcb30a99b55e2d6bcbef84f88c4cb79b4675ce52f1c99c5593bc6d558209d26a89fdf586e"
+RPM_NAME = "geany-2.1-1.7.aarch64.rpm"
+RPM_HASH = "005369f2d0b9fa671220a5d5bb1a7702c0c807f16c52958c105ee1405f816354a935c38d2df18ff5e562f0f99eee1e7968e17b6982be09bef79dcbd03e6c7a49"
 
 RPROVIDES:${PN} += "geany"
 

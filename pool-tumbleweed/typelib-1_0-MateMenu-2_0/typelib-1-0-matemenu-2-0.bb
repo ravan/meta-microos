@@ -3,16 +3,17 @@ DESCRIPTION = "The libmate-menu library implements the 'Desktop Menu Specificati
 from freedesktop.org."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "typelib-1_0-MateMenu-2_0-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "0784470ecb4c48db16273f1fd87e10cb7b84b1a83c6b6841d2f2b35e6d83715bc44ddd50059213b0ba8230e31b49f705bd905e40de937b817953dd080ba8acde"
+RPM_NAME = "typelib-1_0-MateMenu-2_0-1.28.0-2.5.aarch64.rpm"
+RPM_HASH = "b70f2d3291e8f76e8ab1d46e85aad1b51c0531b0c02dff7707d1d743f9b9ec85e84dc04953cec0779ae84c4d4b133a62ff9ee7a524aa306e00c5bdd072a85dd6"
 
 RPROVIDES:${PN} += "typelib-1-0-MateMenu-2-0 \
 typelib-MateMenu"
 
 RDEPENDS:${PN} += "libmate-menu.so.2 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

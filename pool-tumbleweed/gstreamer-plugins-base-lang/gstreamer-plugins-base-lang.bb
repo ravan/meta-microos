@@ -2,15 +2,16 @@ SUMMARY = "Translations for package gstreamer-plugins-base"
 DESCRIPTION = "Provides translations for the 'gstreamer-plugins-base' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-plugins-base-lang-1.22.5-3.1.noarch.rpm"
-RPM_HASH = "ffa824fd712d2673fa066a787d0463cb660ef30a9987ddd9019a72d499c52d192e5301ec64e006d2eaf14da8878f43e8139a205cfe509993a83591cb92480a6d"
+RPM_NAME = "gstreamer-plugins-base-lang-1.28.7-1.1.noarch.rpm"
+RPM_HASH = "f34ea55727b89837f819b5a75758f6f6510cd14a3973b6f31a407b3b744fe019f5d1714d41ed25d4b05b104cd5494d273554d7ea26c68bf97825333ae46e9e13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gstreamer-plugins-base-lang \
 gstreamer-plugins-base-lang-all \
 locale-gstreamer-plugins-base-af \
+locale-gstreamer-plugins-base-ar \
 locale-gstreamer-plugins-base-az \
 locale-gstreamer-plugins-base-bg \
 locale-gstreamer-plugins-base-ca \
@@ -32,6 +33,7 @@ locale-gstreamer-plugins-base-id \
 locale-gstreamer-plugins-base-it \
 locale-gstreamer-plugins-base-ja \
 locale-gstreamer-plugins-base-ka \
+locale-gstreamer-plugins-base-kk \
 locale-gstreamer-plugins-base-lt \
 locale-gstreamer-plugins-base-lv \
 locale-gstreamer-plugins-base-nb \

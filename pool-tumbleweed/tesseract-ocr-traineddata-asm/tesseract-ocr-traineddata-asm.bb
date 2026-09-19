@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Assamese la
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-asm-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "f9f07ea15351717950c175699ebe8d6a2cc74c9539173f620211ec364623ffe1ad9cea3cc6310206b9cd9332a4c0a40f40affab95b575420569732e85517d3bb"
+RPM_NAME = "tesseract-ocr-traineddata-asm-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "1cbd5b3226ce4f2c9d6ce3617f058596bbdc9d606e874464155331a4eb9b3ebc16b9f3d3a3dd5d4eb8523367c669f88c06bfa268355d3c8316613cbddd7c7c94"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-asm \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-as \
+tesseract-ocr-traineddata-asm \
 tesseract-ocr-traineddata-assamese \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-assamese"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

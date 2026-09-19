@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.1.1"
 
-RPM_NAME = "sysfsutils-devel-2.1.1-1.8.aarch64.rpm"
-RPM_HASH = "d56a5d5a1578997ccdfa0e3951f7c03f12d9ca4610a2c5cbe636e8f9b8d376fa52bc126e597d6528cb9d23675b646383fa826289739f522da69d78c0272afba3"
+RPM_NAME = "sysfsutils-devel-2.1.1-1.18.aarch64.rpm"
+RPM_HASH = "8525353cdd126eb5fcdc9f3c883dab4198e121924af971bdf976d33cbed332a34a21f83260a6f2e3daec3ad68f9f1a2fd4ba84cdd7cba19667e0d2f8febe3fd0"
 
 RPROVIDES:${PN} += "pkgconfig-libsysfs \
 sysfsutils-devel"

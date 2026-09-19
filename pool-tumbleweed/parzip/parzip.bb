@@ -19,8 +19,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "parzip-1.4.0-1.2.aarch64.rpm"
-RPM_HASH = "f2b8ddc28ed1d1f719d364b3c2d8b4574973883ddbccf97af40f7f076bc1c66aa14ecafdd724c5dabb607f5afe5026f0f553bd53d5aa575a57267bb8f0aabebf"
+RPM_NAME = "parzip-1.4.0-2.9.aarch64.rpm"
+RPM_HASH = "e7d9b6be83113c5f7d215001d008ddc6fa3164d124f0a4022753703ed1360812d5685e27b01b2ce4b4dcdb03cef4f4201cd97cb52c440373bf201ab22f2f1a31"
 
 RPROVIDES:${PN} += "parzip"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Greek scrip
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-greek-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "332b6fea8a4bab2e5e114339a29046b0bc2b16e67ff7c87f09d4f475a763d34d9a096938916d6809bd5490e0bf8e6b0389fd60a97e8d2d4aac02824e69ee48dd"
+RPM_NAME = "tesseract-ocr-traineddata-script-greek-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "2e6ebe355bf8e22227e61ca14f3db1b3bc636be130cd6eaa6c98ee8ec03841ae8b6e44022a210b361d41941d75bd1638b30b563ca6327d9ba9b3e6d9ed61353c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-greek"

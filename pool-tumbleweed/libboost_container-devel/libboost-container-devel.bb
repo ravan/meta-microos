@@ -9,14 +9,13 @@ C++ standard. \
 This package installs the default Boost version of the library."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_container-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "0e963f949af196fb23e4db5eff836b54e6d11526715dd841250802ee29971ba389181cd688dd3f2908756cccd32a3ab346e7fc65033ef421ad274a19ef36edf4"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_container-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "365f87621aeeaad32c4bc4b36b3df09f514d3bf3051c5fce308a273e410cd5cc3a11620084cbc7fea60c1a791a4b98d0b1f4fbde95603b3cbbed374b0e496403"
 
 RPROVIDES:${PN} += "libboost-container-devel"
 
-RDEPENDS:${PN} += "libboost-container1-82-0-devel"
+RDEPENDS:${PN} += "libboost-container1-91-0-devel"
 
 inherit rpm

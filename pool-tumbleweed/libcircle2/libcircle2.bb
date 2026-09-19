@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause-LBNL"
 
 PV = "0.3"
 
-RPM_NAME = "libcircle2-0.3-1.9.aarch64.rpm"
-RPM_HASH = "88de384c9ee28be430cc7e08e19e46c3a630289cf6a3fd3ec9dca4bd045121db44064d3415e6bc8fd45788ab6b17fdd57be3f7ca81a50f35b2709245a1b73b51"
+RPM_NAME = "libcircle2-0.3-2.3.aarch64.rpm"
+RPM_HASH = "dac2593bc7e329217ce508090da6784d5831f3495a11ef1b89b5e8e389fbd855f17176093ea072f8bd808393cd3dbfc1a68a956b97d07525a3edeef18b936081"
 
 RPROVIDES:${PN} += "libcircle.so.2 \
 libcircle2"
@@ -14,6 +14,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmpi.so.40 \
-openmpi4-libs"
+openmpi5-libs"
 
 inherit rpm

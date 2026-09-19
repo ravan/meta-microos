@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8.4"
 
-RPM_NAME = "clutter-gtk-lang-1.8.4-5.18.noarch.rpm"
-RPM_HASH = "ed8242b8b07aade9ad3a2a8f292df2002f826fb67330ec5a5e6e851d878be782b52a333d110a5b488ea2ff07c7097270db632be1477dd138d37d627e95978802"
+RPM_NAME = "clutter-gtk-lang-1.8.4-5.30.noarch.rpm"
+RPM_HASH = "da3d84e9a16829cb849dbebe104473699d30747b483a3a441456e6ba5f76a946a13fc8baba6e18ebd6aedf2349c5a6dca6c655acbc05ab450c9bf25c504d6f4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clutter-gtk-lang \

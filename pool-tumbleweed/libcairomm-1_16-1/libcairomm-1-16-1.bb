@@ -2,10 +2,10 @@ SUMMARY = "C++ interface for Cairo"
 DESCRIPTION = "This package provides a C++ interface for Cairo."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.16.1"
+PV = "1.18.1"
 
-RPM_NAME = "libcairomm-1_16-1-1.16.1-2.4.aarch64.rpm"
-RPM_HASH = "c0b983bc54263086d2009b11da44ebf00a4a61f25d04a86d7102a2d406011262f3cc9b85069d6864efac83753936e49f8c123b9d6c280fad6026e2bae6a365bb"
+RPM_NAME = "libcairomm-1_16-1-1.18.1-1.1.aarch64.rpm"
+RPM_HASH = "a8755d19ecb8634163dcfc513f42b79b99c6dc8d0ba8bc880255bc8edcabdbbf7767a27127bcb823f674cee7c983cbe32b6b4588b9d07a0031e156e8311a0a13"
 
 RPROVIDES:${PN} += "libcairomm-1-16-1 \
 libcairomm-1.16.so.1"

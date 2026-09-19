@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "0.3.8"
 
-RPM_NAME = "ghc-xml-types-prof-0.3.8-4.3.aarch64.rpm"
-RPM_HASH = "a0dc4b5f4eb3a893264a5a04e2da416a4afff66457570d501eb86c9a51af668e49c6d2d1313bff24784014af123c57b2875f8e2ce4ea2bbdaa8aa7d8dd9cdbbc"
+RPM_NAME = "ghc-xml-types-prof-0.3.8-4.23.aarch64.rpm"
+RPM_HASH = "4807aa3862cab7c591e6c17d838205addc12bc022cc57b70a138d214cd5ae4ddc66b4a23c1bf6ee0b5a5af1699d26bd5fb32b720c90ba577ef65b32b77642b0e"
 
-RPROVIDES:${PN} += "ghc-prof-xml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6 \
+RPROVIDES:${PN} += "ghc-prof-xml-types-0.3.8-35OA2z37X8M4UCRyGooeYw \
 ghc-xml-types-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-text-2.0.2 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-text-2.1.4-cf23 \
 ghc-xml-types-devel"
 
 inherit rpm

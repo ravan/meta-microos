@@ -3,10 +3,10 @@ DESCRIPTION = "String viewer \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.1"
+PV = "2.14.3"
 
-RPM_NAME = "ftstring-2.13.1-1.1.aarch64.rpm"
-RPM_HASH = "b38b98ab63c73034488d8b70cfe02ffc7e77de695e22ac7e36d84d10ec69633907d39c4b21feb4a6c3e58003c8fecdb839e8cbf2ab93124ebf892e76688e894c"
+RPM_NAME = "ftstring-2.14.3-1.2.aarch64.rpm"
+RPM_HASH = "efb02f7effdf906c8d3d16554b02d8af279cc46a202603615a36c408f39d2c70518931c3a4b05455db80ef57553af898b8a0c2f6ea33b590cacfd3425716c92f"
 
 RPROVIDES:${PN} += "ftstring"
 

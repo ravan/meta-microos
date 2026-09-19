@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gtk4"
 DESCRIPTION = "Provides translations for the 'gtk4' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.12.0"
+PV = "4.22.5"
 
-RPM_NAME = "gtk4-lang-4.12.0-2.1.noarch.rpm"
-RPM_HASH = "b2a7de0883a17e04a32a1072ffe46bcc2fc24a0be45191e958565667f4498110489afb6918ea21b22997a7bd42d01bafb9f72cd1febca13b327300001f9884bf"
+RPM_NAME = "gtk4-lang-4.22.5-1.1.noarch.rpm"
+RPM_HASH = "ee1527e11755426602091062dce6ff66fb88e74147b0ad590239048f34d19411f2bdbde17070ea0ffc576442b946515d75028f7cf025ad5056ff9c03ba8445f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-lang \

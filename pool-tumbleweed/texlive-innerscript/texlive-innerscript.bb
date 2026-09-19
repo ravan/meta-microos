@@ -1,15 +1,18 @@
-SUMMARY = "Modifies automatic mathematics spacing"
-DESCRIPTION = "This package modifies two aspects of TeX's automatic interatom \
-mathematics spacing. It uses LuaTeX's \\Umath primitives to make \
-superscripts and subscripts more closely resemble \\textstyle \
-and \\displaystyle math and to treat \\mathinner subformulas as \
-\\mathord, effectively eliminating this class."
+SUMMARY = "Small modifications to math formatting"
+DESCRIPTION = "This package optionally modifies four aspects of TeX's \
+automatic math formatting to improve typesetting: (1) it adds \
+extra space around relation and operation symbols in \
+superscripts and subscripts; (2) it removes extra space around \
+\\left-\\right delimiter pairs; (3) it adds extra space after \
+right delimiters in certain situations; and (4) it forces \\left \
+and \\right delimiters to completely cover their contents. Using \
+LuaLaTeX is required."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn57672"
+PV = "2026.226.1.4asvn75161"
 
-RPM_NAME = "texlive-innerscript-2023.209.1.1svn57672-54.1.noarch.rpm"
-RPM_HASH = "2b836604899a05f50344bdcac615119ac4a5aa00e3c581bef973b9886e48b44ca502924b657d580d97792b8c4f510b73f4bee5b812622c05adf989a1072b135e"
+RPM_NAME = "texlive-innerscript-2026.226.1.4asvn75161-60.2.noarch.rpm"
+RPM_HASH = "a5567f43fb677546d28466bfa0c4a8c38e742919dd622b412a29f9751805b81e25c8152121124f14c88ae7c74c46df8ccf51102b97ddd8adc1113e718f93bba3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-innerscript.sty \

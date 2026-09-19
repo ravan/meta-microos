@@ -5,10 +5,10 @@ schema or you can use the elegant DSL schema-builder JSON::Validator::Joi \
 to define the schema programmatically."
 LICENSE = "Artistic-2.0"
 
-PV = "5.14"
+PV = "5.190.0"
 
-RPM_NAME = "perl-JSON-Validator-5.14-1.3.noarch.rpm"
-RPM_HASH = "b167440224435450cd8b55023423619c9d67b0054813a67a9a29f36334083aea19fac0f2bc7347066dd8953c5569c7a97a00f3d4c1df1ac8699eb001115bde82"
+RPM_NAME = "perl-JSON-Validator-5.190.0-1.3.noarch.rpm"
+RPM_HASH = "76767a83df4e05c8241634162705aa4e120d30e7e07c06aedec42a3435d086aeca2fbf3b500936517baeac5cf046972ef977e8333c386f5ab314f88ee97827db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-JSON--Validator \
@@ -27,9 +27,12 @@ perl-JSON--Validator--URI \
 perl-JSON--Validator--Util \
 perl-JSON-Validator"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Data--Validate--Domain \
+perl-Data--Validate--IP \
 perl-List--Util \
 perl-Mojolicious \
+perl-Net--IDN--Encode \
 perl-YAML--XS"
 
 inherit rpm

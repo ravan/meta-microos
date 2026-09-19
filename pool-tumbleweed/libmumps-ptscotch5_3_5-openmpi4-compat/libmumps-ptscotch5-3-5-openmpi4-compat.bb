@@ -10,8 +10,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "libmumps-ptscotch5_3_5-openmpi4-compat-5.3.5-3.4.aarch64.rpm"
-RPM_HASH = "d83fb8643d7a61b52154cebeaccdba669a79302058571cf5d78030560a1dd1111a5a43760c4bd3b2c260929583889d84b62330565031e45cd3787879aaf0fbf4"
+RPM_NAME = "libmumps-ptscotch5_3_5-openmpi4-compat-5.3.5-7.8.aarch64.rpm"
+RPM_HASH = "4045a83463387b16fdc7277b3db82b278f7f70c53ddcc04e14ee817e0ba97f90e49f852fc3f9be18b80ff63747b509167a5ed32d52b67bd77e2fdb6a5183fab4"
 
 RPROVIDES:${PN} += "libmumps-ptscotch5-3-5-openmpi4-compat"
 

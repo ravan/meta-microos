@@ -14,10 +14,10 @@ build this module with the system libyaml instead, if you remove the \
 libyaml sources and call 'Makefile.PL' with 'WITH_SYSTEM_LIBYAML=1'."
 LICENSE = "MIT"
 
-PV = "0.013"
+PV = "0.14.0"
 
-RPM_NAME = "perl-YAML-LibYAML-API-0.013-1.10.aarch64.rpm"
-RPM_HASH = "527562f2cb7243098c7bee30a45b89bb5f5e52f0861fccaafcc2e6ea697e698a98303aa80184d2b446139b79d92be55ec965e22ca25ec3155123d33d747c5569"
+RPM_NAME = "perl-YAML-LibYAML-API-0.14.0-1.16.aarch64.rpm"
+RPM_HASH = "4e16425c3490d156cf98f8976feaf8e56de70f0a268eabf1c41bd9cca07148ebe19c50018ee390e809ca31e45c73b54f77706fd7fdf8dbd062ceec64df368d11"
 
 RPROVIDES:${PN} += "perl-YAML--LibYAML--API \
 perl-YAML--LibYAML--API--XS \
@@ -25,7 +25,7 @@ perl-YAML-LibYAML-API"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-YAML--PP--Common"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "bosh is a Bourne-style POSIX command interpreter (shell), similar
 but supports multibyte input/output."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "bosh-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "c17ee68523cbefe94f62e0d8c5a11efa181593d5682396c93f901f226b9e8da6f3dd227cacb4e75ac56ba835339c613073e2101987f71f4e0a5cfd45dcb95728"
+RPM_NAME = "bosh-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "9c20de672a97b7e40d2a50f92fe211aa172a3cdcb0ba8ed1c3c7a3a977a38d21490d6975cd1b459676ed44a5eab3ac7dc1beb9f2f0334e6177b1c065f356d641"
 
 RPROVIDES:${PN} += "bosh"
 

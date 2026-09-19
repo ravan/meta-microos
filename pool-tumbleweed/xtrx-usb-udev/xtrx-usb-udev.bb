@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.0.0+git.20201202"
 
-RPM_NAME = "xtrx-usb-udev-0.0.0+git.20201202-2.7.noarch.rpm"
-RPM_HASH = "2e6242547bfc371aa48f475395736d68348dc4933886a9ca08abb811d4bd48cb47890289ec231f6c9dfdd1ba4e410542f28ed03a588114ae027a577d64e9b0ac"
+RPM_NAME = "xtrx-usb-udev-0.0.0+git.20201202-3.9.noarch.rpm"
+RPM_HASH = "ff2a92005c58dd5c3cfd8f76af1b9e257d209d8d017e2674b98f480174928c915db8d4372c2f3b97cea94334660cd13d02301e73fcbb5f3a110086de3d5ded89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xtrx-udev \

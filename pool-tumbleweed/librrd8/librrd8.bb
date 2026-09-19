@@ -3,10 +3,10 @@ DESCRIPTION = "RRD stands for Round Robin Database. RRD is a system to store and
 display time-series data."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.11.0"
 
-RPM_NAME = "librrd8-1.8.0-3.5.aarch64.rpm"
-RPM_HASH = "c3451fcca70dfe32efd1a83b5b49179f90c575535cc827a14a9b9e16b509d071303ee69e028f2f08719e8041646d3dcbd3a3d4b9bcf8c0b89f770337b0e60104"
+RPM_NAME = "librrd8-1.11.0-1.1.aarch64.rpm"
+RPM_HASH = "e79b779f16595f63351bbb2369c2bd61183f73aeebc042379094f2040611b0a596ad6b91db7ba535dfddfe6a84919ff4ee7463fad3be10a57db871087713e541"
 
 RPROVIDES:${PN} += "librrd.so.8 \
 librrd8"
@@ -22,6 +22,6 @@ libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

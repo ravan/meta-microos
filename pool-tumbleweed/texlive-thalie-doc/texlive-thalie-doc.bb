@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-thalie"
 DESCRIPTION = "This package includes the documentation for texlive-thalie"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.13asvn65249"
+PV = "2026.227.0.0.13asvn65249"
 
-RPM_NAME = "texlive-thalie-doc-2023.209.0.0.13asvn65249-55.1.noarch.rpm"
-RPM_HASH = "960c126c844c7483d46c4be713470e73df66a74020c9e0899a3f98b6b5d18913a467eab82733a3bdc23058c4fb1bdb6abbb8d4b704b43a668d1c15c18fda7d86"
+RPM_NAME = "texlive-thalie-doc-2026.227.0.0.13asvn65249-62.2.noarch.rpm"
+RPM_HASH = "db5db88810e642ee7fc129eb387bcfb3878682b1b7306d33d1407c37930789813fd22832eb505dc17220e4cee3f5d4bef4f84ef3800a4cef5866fdd8168a77a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-thalie-doc"

@@ -2,17 +2,17 @@ SUMMARY = "Haskell entropy profiling library"
 DESCRIPTION = "This package provides the Haskell entropy profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.1.10"
+PV = "0.4.1.11"
 
-RPM_NAME = "ghc-entropy-prof-0.4.1.10-3.4.aarch64.rpm"
-RPM_HASH = "3db88733e039bfd89c92bc5fcc51c60148effc7d1745ae8d85aca6c736b234f468e8d2c6eaca7eacc0c5cb1955277be6552eeec25fd62ca18e79030141d39906"
+RPM_NAME = "ghc-entropy-prof-0.4.1.11-2.3.aarch64.rpm"
+RPM_HASH = "80aefaa6d22cb7850e49cb2f9a319646551b57192812bbf0a980933d30c6261a59e8fdccd63d6854ac7bf41574df0d984c4edddc08ebad9fe433e630a58076e2"
 
 RPROVIDES:${PN} += "ghc-entropy-prof \
-ghc-prof-entropy-0.4.1.10-J8gEYIp8YzV1E0Yqy7gqyc"
+ghc-prof-entropy-0.4.1.11-4UsuhibEvcjLW75DCXDx9X"
 
 RDEPENDS:${PN} += "ghc-entropy-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-unix-2.7.3"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-unix-2.8.8.0-178a"
 
 inherit rpm

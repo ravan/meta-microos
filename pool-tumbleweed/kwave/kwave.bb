@@ -8,37 +8,37 @@ wave-file in several ways and presents a graphical view with a complete zoom- \
 and scroll capability."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kwave-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "2b879464829e60f78a8f5cb23bd9d39782deb132fe7cb1d5123ec202bc2a5673b677166e2513ef0cc1dec71496b9c334a06ad22ffaf78c29a5a6d4e149ddb6ca"
+RPM_NAME = "kwave-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "dfcaa4baf75fcbf04075a67a87952dee755ee9144b7c558fda573f8971c9cf6d1f426cf5c3791094123d95aff1f37fc0572dda661f3f266a78b323072dba9ff7"
 
 RPROVIDES:${PN} += "kwave \
-libkwave.so.23 \
-libkwavegui.so.23"
+libkwave.so.26 \
+libkwavegui.so.26"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libFLAC++.so.10 \
-libFLAC.so.12 \
-libKF5Archive.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libFLAC++.so.11 \
+libFLAC.so.14 \
+libKF6Archive.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libasound.so.2 \
 libaudiofile.so.1 \
 libc.so.6 \

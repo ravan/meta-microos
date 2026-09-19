@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines a single macro \\upca, to print UPC-A \
 barcodes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn22511"
+PV = "2026.226.svn22511"
 
-RPM_NAME = "texlive-upca-2023.209.svn22511-54.1.noarch.rpm"
-RPM_HASH = "4727254ccdefc4200aa8da4969cfd436651a43856b0f25bc5dba272b00121c1544155cff1052ff571d1c387a2886e06cb3540d229c6fd0ef44f01659e423d477"
+RPM_NAME = "texlive-upca-2026.226.svn22511-60.2.noarch.rpm"
+RPM_HASH = "9add88505f8897b3f98eff6c314c8d348940d8eeface93f49e1b9e8f3547754fc8302d88f79d565e18a30b3f3d19a92199ce485ad57c273fabb8293c99c73f6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-upca.tex \

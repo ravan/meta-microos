@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-umlaute"
 DESCRIPTION = "This package includes the documentation for texlive-umlaute"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn15878"
+PV = "2026.226.2.1svn15878"
 
-RPM_NAME = "texlive-umlaute-doc-2023.209.2.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "dc9e89a6d6c86efa14e73a85dce943dfa8436729f4aae5a3d9334372cbd3dabfd6a1219f0119f967cf8f30169725c96c3b55fcb21a13f43dd0aa4cd5b0841e87"
+RPM_NAME = "texlive-umlaute-doc-2026.226.2.1svn15878-60.2.noarch.rpm"
+RPM_HASH = "1378f9d58b14b8f7a049875790d8122340fdb0e41bf7a22e0b68f40d424df096579af8c3118d7625cf44ae41895875cbf37e4b8c6429a9492bca4dc45541c827"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-umlaute-doc"

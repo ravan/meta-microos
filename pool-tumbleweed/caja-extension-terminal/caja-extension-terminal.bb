@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.10"
 
-RPM_NAME = "caja-extension-terminal-0.10-3.7.noarch.rpm"
-RPM_HASH = "8e9b54aba132a72f6ff995b657ba3fa1c749cf777b69af58183a63632085555f798ed20caa300a7a0b963f0ebbc3cc5f0a478bfffca0385f0342c675f5d36447"
+RPM_NAME = "caja-extension-terminal-0.10-3.15.noarch.rpm"
+RPM_HASH = "dd3c6a852552e0c92819a3a650d42f8f0508143886bf388bea84eb92ad0e76c50db67614e7819d9120a08c13d77b3526120e1c1d5ca7378bf0863a32fbd29b98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-extension-terminal"

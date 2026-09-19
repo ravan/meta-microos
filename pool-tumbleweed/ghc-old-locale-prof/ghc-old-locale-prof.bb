@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0.7"
 
-RPM_NAME = "ghc-old-locale-prof-1.0.0.7-13.3.aarch64.rpm"
-RPM_HASH = "4e5ac7cf0ceafe3372d686954da94a2746523bca6b9fcf87e8d4127cae1d2323393a46d7f55e00b0f8277034f7825beb2bb32bcc4cd26c821077f78d1db4ebcd"
+RPM_NAME = "ghc-old-locale-prof-1.0.0.7-13.23.aarch64.rpm"
+RPM_HASH = "bd816c2ff629e569a56c4027fc74722019b09f419e4ab312beb97650be86193a4fef21dcba96fab35c9f2d12bca9fea235ceadec844974a2e38058193a079370"
 
 RPROVIDES:${PN} += "ghc-old-locale-prof \
-ghc-prof-old-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk"
+ghc-prof-old-locale-1.0.0.7-DplRrAcnBM96ijBftoXSc5"
 
 RDEPENDS:${PN} += "ghc-old-locale-devel \
-ghc-prof-base-4.17.2.0"
+ghc-prof-base-4.21.2.0-8844"
 
 inherit rpm

@@ -4,10 +4,10 @@ DESCRIPTION = "Qt is a set of libraries for developing applications. \
 This package contains a virtual keyboard."
 LICENSE = "GPL-3.0"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtvirtualkeyboard-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "8c7ea9c7176b5bf70fa3bbd7aa5da3ef72ed5f07ae58547c1409626e6d3890f0bc33915599eb3fb0513692e5236d8e1f73b4a8ca6b60c4e753005d09467ec03f"
+RPM_NAME = "libqt5-qtvirtualkeyboard-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "7cdaf63c56205abcefcf152c18749d68b02ce5b51287781f55e4e73c9329e19dc3a9c003d4ade5f406f39fa03094f6a5f97ba157a125e7b6623f22e0eeb1ef76"
 
 RPROVIDES:${PN} += "libqt5-qtvirtualkeyboard \
 libqtquickvirtualkeyboardplugin.so \
@@ -30,6 +30,12 @@ libQt5Svg.so.5 \
 libQt5VirtualKeyboard.so.5 \
 libQtQuick5 \
 libc.so.6 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt5qmlimport-Qt.labs.folderlistmodel.2 \
+qt5qmlimport-QtQuick.2 \
+qt5qmlimport-QtQuick.Layouts.1 \
+qt5qmlimport-QtQuick.VirtualKeyboard.Settings.2 \
+qt5qmlimport-QtQuick.VirtualKeyboard.Styles.2 \
+qt5qmlimport-QtQuick.Window.2"
 
 inherit rpm

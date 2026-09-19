@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pcmanfm-qt"
 DESCRIPTION = "Provides translations for the 'pcmanfm-qt' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.0"
+PV = "2.4.1"
 
-RPM_NAME = "pcmanfm-qt-lang-1.3.0-1.2.noarch.rpm"
-RPM_HASH = "f21aa52947c176c337b5e54e680cbc808c7656bf92823d5451cb5a14abea13769a79c3e92ba1c2eb8108b6cbb5045c0ab33acc20d562d6877746bb83cb881aa6"
+RPM_NAME = "pcmanfm-qt-lang-2.4.1-1.1.noarch.rpm"
+RPM_HASH = "6499b7d4f8c5340f862422186c0481f569bacf2388fcf7ed741a67f007c3af67614847105b352188b92a3f30e6d77e0d4a540ddd7e663b7edd98f702291f8118"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcmanfm-qt-lang \

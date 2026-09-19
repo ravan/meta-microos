@@ -8,10 +8,10 @@ prettyref interprets the 'sec:' part. The package is compatible \
 with hyperref and with other packages."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.3.0svn15878"
+PV = "2026.226.3.0svn77682"
 
-RPM_NAME = "texlive-prettyref-2023.209.3.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "a6192a915e5f76a045d4d725e7bd8a300bb4c141862c79e41a940bbb7b877f735d74f71a944a3f7eeaab8a384f4120f5c1cca875887f47b015d21f6c34eb1f6a"
+RPM_NAME = "texlive-prettyref-2026.226.3.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "2aa11bacfd8cde9f02949a0bbf9964d25d15964b7b367da443fbf1f27b4cc616ea2dbb3b130371b33678d5d27caff7f8f781c5e522df6ef74ce994e70193de98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-prettyref.sty \

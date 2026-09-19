@@ -3,14 +3,15 @@ DESCRIPTION = "Perl library files of Biber a BibTeX replacement for users of Bib
 This package is required by the package texlive-biber-bin."
 LICENSE = "LPPL-1.0"
 
-PV = "2.19"
+PV = "2.21"
 
-RPM_NAME = "perl-biber-2.19-93.2.noarch.rpm"
-RPM_HASH = "fc951ef1450bbc5ad2927a9e8e5b965d25e7bad8af5cd64e7bb565ae434ca9c586c53d8dfaedfa20c2f740e7fe7c8c571ade0d4b5587652d50a07e1d2f2b0953"
+RPM_NAME = "perl-biber-2.21-120.4.noarch.rpm"
+RPM_HASH = "635baef7072ea2fa85e4b2b7c50b102789871085998d52274d44a3154a4c427408430f378bbf74025762cf16412e1837478906af79735350a9d555fe80ab8565"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Biber \
 perl-Biber--Annotation \
+perl-Biber--CodePage \
 perl-Biber--Config \
 perl-Biber--Constants \
 perl-Biber--DataList \
@@ -66,6 +67,7 @@ perl-LWP--Simple \
 perl-List--AllUtils \
 perl-List--MoreUtils \
 perl-Log--Log4perl \
+perl-Parse--RecDescent \
 perl-Regexp--Common \
 perl-Sort--Key \
 perl-Text--BibTeX \

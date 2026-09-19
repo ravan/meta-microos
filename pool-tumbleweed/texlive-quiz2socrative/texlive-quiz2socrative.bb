@@ -8,10 +8,10 @@ etoolbox, graphicx, ifthen, listofitems, moresize, TikZ, \
 pgfmath, xcolor, and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn52276"
+PV = "2026.226.1.0svn52276"
 
-RPM_NAME = "texlive-quiz2socrative-2023.209.1.0svn52276-54.2.noarch.rpm"
-RPM_HASH = "8274caa8c096b1ba98b516cbca5c3f7c17c0cdf452da68e3f0ff9edc80d9998d543edcce184f982b8942c3b8bd5ae1161e3a9404b85f6db2d5c409229e53cb86"
+RPM_NAME = "texlive-quiz2socrative-2026.226.1.0svn52276-60.4.noarch.rpm"
+RPM_HASH = "6b7aef7f02689e1ca9108d895649169f545b32f57dd9439f76c044136811228645d7adebb71f885ed3c71cca3476e659b9303b7a28ab484ecdadc7def701362a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quiz2socrative.sty \

@@ -4,10 +4,10 @@ featuring a small footprint, latency hiding, direct access to the \
 protocol, improved threading support, and extensibility."
 LICENSE = "MIT"
 
-PV = "1.16"
+PV = "1.17.0"
 
-RPM_NAME = "libxcb-xf86dri0-1.16-1.1.aarch64.rpm"
-RPM_HASH = "e4300248e9a833b0865129d404f7a8e79553b45d29106a9009f4b070ad8ed14deb921a6b59f29430a0ea3e65c29e5c7305ea4f46819331c5bf4396fca770cc35"
+RPM_NAME = "libxcb-xf86dri0-1.17.0-2.7.aarch64.rpm"
+RPM_HASH = "800bb09c4bd7628c37c8499832af254aa2aa5c8aaffe7128142e3c7c481a04cb3d6b0e5b1291bc26d720684269cd59f9b6dfccfc5cd1b5aa69bf9721b6e86254"
 
 RPROVIDES:${PN} += "libxcb-xf86dri.so.0 \
 libxcb-xf86dri0"

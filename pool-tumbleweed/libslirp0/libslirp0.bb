@@ -3,10 +3,10 @@ DESCRIPTION = "A user-mode networking library used by virtual machines, containe
 or various tools."
 LICENSE = "MIT"
 
-PV = "4.7.0+44"
+PV = "4.9.3+4"
 
-RPM_NAME = "libslirp0-4.7.0+44-3.3.aarch64.rpm"
-RPM_HASH = "added6968d380ee4040597a6b0190ede7c195f3f4df346147b0f5e1bab8e17d4457b0ced98afca71e00fac7fd953905e86f9f4fba37e77732a46a781b7c3b710"
+RPM_NAME = "libslirp0-4.9.3+4-1.3.aarch64.rpm"
+RPM_HASH = "6b04ed56fb67acafecf25d095d6b7b69e1c783f6f4347ce301a505d2a6cb9e7feb064e1f448504d03618c74df785a589b43cbc9b5b99f9693145f33f7d503e35"
 
 RPROVIDES:${PN} += "libslirp.so.0 \
 libslirp0"

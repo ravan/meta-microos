@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only & LGPL-2.1-only"
 
 PV = "13.10.0+bzr20161028"
 
-RPM_NAME = "libido3-0_1-0-13.10.0+bzr20161028-3.17.aarch64.rpm"
-RPM_HASH = "06a0b22192f97cdf32e3f638d35cb2a6b62c6b2330cdaf904cf5027d9c5260e14ff1ee49c2139d28b05d6b31e1fb7500de5950ed1d5012d1c997a3912d6342c6"
+RPM_NAME = "libido3-0_1-0-13.10.0+bzr20161028-4.10.aarch64.rpm"
+RPM_HASH = "4be3ebf9387c480e0063fce02ac5113e10ecd774f378bf865129647f6a8481ec246e2247bb1dccadcee92a5fb22b9a8e291c6b8e81e0bdbba4dde38dcfbfee82"
 
 RPROVIDES:${PN} += "libido3-0-1-0 \
 libido3-0.1.so.0"

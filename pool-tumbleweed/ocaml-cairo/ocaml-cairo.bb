@@ -2,10 +2,10 @@ SUMMARY = "Binding to Cairo, a 2D Vector Graphics Library."
 DESCRIPTION = "This is an OCaml binding for the Cairo library, a 2D graphics library with support for multiple output devices."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6.4"
+PV = "0.6.5"
 
-RPM_NAME = "ocaml-cairo-0.6.4-2.4.aarch64.rpm"
-RPM_HASH = "aead376a61c2685e3571c7eba5cf3c180a7c49f5c347450de4ba755af6aee5e019473a5be0250f994615a42f421ef0f9fe0093dfc60ff16e40fb2ca7c8e6fc73"
+RPM_NAME = "ocaml-cairo-0.6.5-2.2.aarch64.rpm"
+RPM_HASH = "965cfaa5b96c7f1b7c323453164e9ce3e93129e1ba0520c0d2ce3a89681d827c0e9ce17d20827ea3756c8c089f71b8d7fc463fc1703803cbef5139d38dbf1922"
 
 RPROVIDES:${PN} += "ocaml-cairo"
 

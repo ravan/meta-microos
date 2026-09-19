@@ -8,12 +8,12 @@ This package contains a simple utility wrapping the canlock library, \
 which may be used for both the generation and the verification of \
 cancel locks, along with a message header parser and a header field \
 parser."
-LICENSE = "MIT"
+LICENSE = "MIT & NLPL"
 
-PV = "3.3.0"
+PV = "3.3.3"
 
-RPM_NAME = "canlock-3.3.0-1.3.aarch64.rpm"
-RPM_HASH = "17895a13eea3a481587aa2d3c0a4ca308a1c30a3a02a2f167fbd2e9a0ba4df2a8fda4903e45aa14e8a27971b5edaf2b7c0cf220fa2d6e5fddfa234e54496cb02"
+RPM_NAME = "canlock-3.3.3-1.2.aarch64.rpm"
+RPM_HASH = "902e8da70772fde9a95d38a3d7af017ee8da4fb9ddccfa0184696110dcad19bb4f333d82a953cb9236fca5a52b5b501edbcddc9652efd4bb13968723fea43a15"
 
 RPROVIDES:${PN} += "canlock"
 

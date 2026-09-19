@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.1"
 
-RPM_NAME = "enchant-1-backend-voikko-1.6.1-6.4.aarch64.rpm"
-RPM_HASH = "2564f8d5315f834f983ab6ce2f6413193e09f00ebc064ace3ac0f6a46fef9a22b34525b57b598a736e2c46005ecdf63f0449d5c697fe9b949b446358a9eef4e0"
+RPM_NAME = "enchant-1-backend-voikko-1.6.1-8.10.aarch64.rpm"
+RPM_HASH = "121908a1ff5ed0a1b2004dab84dcbd3a2373d8aad3e5cba4d2cc8f807b6053d8bb798493647f79ad2db695a5612204c03cee37110833e95bbc9302c805c3bcdc"
 
 RPROVIDES:${PN} += "enchant-1-backend \
 enchant-1-backend-voikko \

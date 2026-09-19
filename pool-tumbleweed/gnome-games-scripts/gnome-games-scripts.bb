@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.8.0"
 
-RPM_NAME = "gnome-games-scripts-3.8.0-6.11.noarch.rpm"
-RPM_HASH = "16cab82872a7f984ee0cc97ba856ccaf978ec8a6f8268fdf42a4b99e389a1e359398439c976a052e9e3098671990c915c929ed91f09aec831b75eaedc71bcb3d"
+RPM_NAME = "gnome-games-scripts-3.8.0-6.19.noarch.rpm"
+RPM_HASH = "a06e7184e19e96283508e7275b01af3d993883a43d22b5664c55bb11ddd02b9ef4bf9be5358446a89ab946c89ae887ee824d5b4b70bbed755b07be634f5998b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-games-scripts"

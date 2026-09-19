@@ -4,10 +4,10 @@ constructions to present mathematical demonstrations with \
 successive braces for the deductions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2asvn65757"
+PV = "2026.226.1.2asvn76924"
 
-RPM_NAME = "texlive-cascade-2023.209.1.2asvn65757-53.1.noarch.rpm"
-RPM_HASH = "bb39b363ae95be2aec3ce10afadf691bf79c1fa025819fa1315fe466c20f9282d5762bf2e5a3373a9f4c2ee01fe91d7c4dba4e29ca6788d1f5b9c7c62022e177"
+RPM_NAME = "texlive-cascade-2026.226.1.2asvn76924-59.2.noarch.rpm"
+RPM_HASH = "626e47420f015a56ba1b61f05be75cc316c218d8faf0651d03b1ad6a2be1b1793d4535db2a7eb7e001d233bc70acd258d20bdce3936db9f05d0864f6f9f38b35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cascade.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kpathsea"
 DESCRIPTION = "This package includes the documentation for texlive-kpathsea"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.svn66209"
+PV = "2026.226.svn77861"
 
-RPM_NAME = "texlive-kpathsea-doc-2023.209.svn66209-56.1.noarch.rpm"
-RPM_HASH = "8d19bd273b035646fe8b274bb1b84eb1fd8622ea91b60cb1fffc0e0464acb2d02076893cd67537025e12d6fdca44c73f0080b73905dd65555a1a4785a4b512dd"
+RPM_NAME = "texlive-kpathsea-doc-2026.226.svn77861-63.2.noarch.rpm"
+RPM_HASH = "3288d9a25cabeabda2b6b5ecd81e1e73d02c5b93fc24eda2df6765f5b545e9ca3ebc67f1a02f34cb52c8758f7c9d57d12bd059a7abc9fc915e5bf2cee3441d1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-kpseaccess.1 \

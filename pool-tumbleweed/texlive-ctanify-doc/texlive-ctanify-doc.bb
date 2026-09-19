@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ctanify"
 DESCRIPTION = "This package includes the documentation for texlive-ctanify"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9.1svn44129"
+PV = "2026.226.1.9.1svn44129"
 
-RPM_NAME = "texlive-ctanify-doc-2023.209.1.9.1svn44129-55.1.noarch.rpm"
-RPM_HASH = "a05c476393e78b681460ccad4b0c0af3067927c880a8113f50732c2cc07e1154d65b58d4655897c7b02672770d31f50e2dca19250f5daf39be68dc69d6579abb"
+RPM_NAME = "texlive-ctanify-doc-2026.226.1.9.1svn44129-61.2.noarch.rpm"
+RPM_HASH = "414b039ea8b84bd03e21660746d194fc5de603998619526129fa5767e6c0f9fe5ebb1b61ea1e572a44b44fc0ff1f3264c9553ddfd82db0d84810221fe074c8ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-ctanify.1 \

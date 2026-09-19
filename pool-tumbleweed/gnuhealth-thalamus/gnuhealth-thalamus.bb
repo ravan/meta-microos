@@ -19,18 +19,18 @@ Thalamus is part of the GNU Health project, but it is a self contained, \
 independent server that can be used in different health related scenarios."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.9.14"
+PV = "0.9.16"
 
-RPM_NAME = "gnuhealth-thalamus-0.9.14-1.11.noarch.rpm"
-RPM_HASH = "6fc9b7ff518474673abf36540ef4fe97646159c644df06710ad1e28db92b9934235a1042213191418ffcd8f822e08f41e3c7a8eda7ad284b9b7578a061d28362"
+RPM_NAME = "gnuhealth-thalamus-0.9.16-1.3.noarch.rpm"
+RPM_HASH = "0895c287d1f8ff1229b0de2d5ce3b661f11a6b6e538144c27257d97658dd3677d9b06064be8d4b6b115ee811fa21a8c8c7e16f224d3f29a607ba7b6893ce5619"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuhealth-thalamus \
-python3.11dist-thalamus \
+python2-gnuhealth-thalamus \
+python3.13dist-thalamus \
 python3dist-thalamus"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-postgresql-server \
 python-abi \
 python3-Flask \
 python3-Flask-HTTPAuth \

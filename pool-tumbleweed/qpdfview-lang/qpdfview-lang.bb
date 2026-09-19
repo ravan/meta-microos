@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "qpdfview-lang-0.5.0-2.1.noarch.rpm"
-RPM_HASH = "24e2f7fa8b2c1d8e727580b8f178aa9a426f6e05114e289e2d6d42752e3f06a8f7aacc2d6f86163e70f30f493da0d2b0af0a309d1d395e7211c395f77d6c224f"
+RPM_NAME = "qpdfview-lang-0.5.0-4.5.noarch.rpm"
+RPM_HASH = "f2b9bd1d968e017dff13fd88c43b696e1e90fa55d7879f83204a83f5baf3e3bb4026808edac14051905fcbe6eaa6f7e148a9e264990e57de11e4cde38cc02fb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qpdfview-lang \

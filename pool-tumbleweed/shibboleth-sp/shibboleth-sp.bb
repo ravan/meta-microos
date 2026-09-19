@@ -7,37 +7,38 @@ This package contains the Shibboleth Service Provider runtime libraries, \
 daemon, default plugins, and Apache module."
 LICENSE = "Apache-2.0"
 
-PV = "3.4.1"
+PV = "3.5.1"
 
-RPM_NAME = "shibboleth-sp-3.4.1-1.5.aarch64.rpm"
-RPM_HASH = "b2ad1eb7916b5fdfab6ac9862bd2c23221c491b792b39506f390f889ef62af8aac6732c9ca8e4c4ce29e91dd6e06d219d792c9bf5934f19de1cdb2f7f9179324"
+RPM_NAME = "shibboleth-sp-3.5.1-2.3.aarch64.rpm"
+RPM_HASH = "10d7264f101824f7b07dfa18efb9d090418b392e61f352c719ac043ad69134ea6e4747d724feab407eda01bb5980ae39754dc67744b38377b953e0f9db31edbf"
 
 RPROVIDES:${PN} += "config-shibboleth-sp \
-shibboleth-sp"
+group-shibd \
+shibboleth-sp \
+user-shibd"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libapr-1.so.0 \
-libaprutil-1.so.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libgssapi-krb5.so.2 \
 liblog4shib.so.2 \
 libmemcached.so.11 \
 libodbc.so.2 \
-libsaml.so.12 \
-libshibsp-lite.so.11 \
-libshibsp.so.11 \
+libsaml.so.13 \
+libshibsp-lite.so.12 \
+libshibsp.so.12 \
 libstdc++.so.6 \
 libsystemd.so.0 \
-libxerces-c-3.2.so \
-libxmltooling-lite.so.10 \
-libxmltooling.so.10 \
+libxerces-c-3.3.so \
+libxmltooling-lite.so.11 \
+libxmltooling.so.11 \
 opensaml-schemas \
 openssl \
 shadow \
 systemd \
+sysuser-shadow \
 xmltooling-schemas"
 
 inherit rpm

@@ -4,10 +4,10 @@ featuring a small footprint, latency hiding, direct access to the \
 protocol, improved threading support, and extensibility."
 LICENSE = "MIT"
 
-PV = "1.16"
+PV = "1.17.0"
 
-RPM_NAME = "libxcb-dbe0-1.16-1.1.aarch64.rpm"
-RPM_HASH = "f14c85fb95d6bbf3a3bee258844a61635097096c16b2662f73f1470aa0ebe8fdeca81e45735033dcd7ed047d9ce692757b877bfa79f6c1f82cf17e740a5b6605"
+RPM_NAME = "libxcb-dbe0-1.17.0-2.7.aarch64.rpm"
+RPM_HASH = "8730d64b89f3c86f811a4f0bfcd7a2fbbb03eb2f5871e158ea8aad68e3641f451661f1aa7630bab117b9d20ea9c881a2c9402438559a29345cc4f0d95f3be46d"
 
 RPROVIDES:${PN} += "libxcb-dbe.so.0 \
 libxcb-dbe0"

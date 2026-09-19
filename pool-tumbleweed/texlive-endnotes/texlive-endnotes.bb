@@ -4,10 +4,10 @@ used as a replacement for \\footnote), and places them at the \
 end of the section, chapter or document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn53319"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-endnotes-2023.209.svn53319-54.2.noarch.rpm"
-RPM_HASH = "84201e265cea438f2bc8fd66c51fee76356f0ee24ec401f06d1f08ef2c0731c85b12a699f0ec5ebc66d9a5e8f37b079073d2a1f7f54f280d72ab98accdfc284c"
+RPM_NAME = "texlive-endnotes-2026.226.svn77682-61.4.noarch.rpm"
+RPM_HASH = "b097a8b09fc95908ab716be8aabe81bd006453f8b0bd629d25f3625cf0847bb51d16ec0078be70a5b4ee714a2dc50eb7c0f5c4e52980450006026c6b11860f31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endnotes.sty \

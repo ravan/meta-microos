@@ -14,10 +14,10 @@ the pmx preprocessor compiles a simpler input language to \
 MusiXTeX macros.."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.36svn65519"
+PV = "2026.226.1.41svn77682"
 
-RPM_NAME = "texlive-musixtex-2023.209.1.36svn65519-55.1.noarch.rpm"
-RPM_HASH = "c56d5fa0f80ddacf03fed3151790972147ffb1e13ccba4922345ea61c4441e0385310248801d56b86a963c14bea00a78d16d8dedf331d9b6073b7e44a22e4e9f"
+RPM_NAME = "texlive-musixtex-2026.226.1.41svn77682-61.2.noarch.rpm"
+RPM_HASH = "d5cb1a2095f4adfdf4570d5af875b23fbdf951b0bc8aead1e9d49fd59cf5ec1797fce497a2b2343c458e42605d08116eb21bccc1aed984be2ab7fee98fb64253"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-musixadd.tex \
@@ -27,6 +27,7 @@ tex-musixbbm.tex \
 tex-musixblx.tex \
 tex-musixbm.tex \
 tex-musixcho.tex \
+tex-musixcls.tex \
 tex-musixcpt.sty \
 tex-musixcpt.tex \
 tex-musixcrd.sty \
@@ -34,6 +35,7 @@ tex-musixcrd.tex \
 tex-musixdat.tex \
 tex-musixdbr.tex \
 tex-musixdia.tex \
+tex-musixebgr.tex \
 tex-musixec.tex \
 tex-musixeng.tex \
 tex-musixesf.tex \
@@ -54,6 +56,7 @@ tex-musixltx.tex \
 tex-musixlyr.tex \
 tex-musixmad.tex \
 tex-musixmkm.tex \
+tex-musixmtab.tex \
 tex-musixper.tex \
 tex-musixplt.tex \
 tex-musixpoi.tex \
@@ -66,6 +69,7 @@ tex-musixste.tex \
 tex-musixstf.tex \
 tex-musixstr.tex \
 tex-musixsty.tex \
+tex-musixt1.def \
 tex-musixtex.sty \
 tex-musixtex.tex \
 tex-musixthacc.tex \

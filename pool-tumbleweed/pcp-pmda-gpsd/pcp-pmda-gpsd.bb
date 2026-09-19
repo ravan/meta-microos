@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about a GPS Daemon."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-gpsd-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "c31c020b1ca18aafb09c55fc35a8eb205f41f93fbbb2bd412c3627e9e484a9c168e25d5be0ecddcb059b80fc64f5c1d70fa247203e3c6c0ba856e584960a1b95"
+RPM_NAME = "pcp-pmda-gpsd-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "bd8990d67ef03d6d94546563bec75eed7ec65c2c8b6f793a36e0b1a066e05a8ba5fc86942cf3e04aae2105a704a6feb77bef757e43eb7ff9562369e9402e7b95"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-gpsd"
 

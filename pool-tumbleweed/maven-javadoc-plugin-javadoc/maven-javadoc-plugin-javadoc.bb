@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-javadoc-plugin"
 DESCRIPTION = "API documentation for maven-javadoc-plugin."
 LICENSE = "Apache-2.0"
 
-PV = "3.3.2"
+PV = "3.12.0"
 
-RPM_NAME = "maven-javadoc-plugin-javadoc-3.3.2-4.4.noarch.rpm"
-RPM_HASH = "71c37175e3c9e155f01dc20aa8784c49101d90b80f2cc0eaaa3185a50800db53172f7583e54f39f9b59ab7ba6498d272eea35de55b20e2feb603999e80437d7d"
+RPM_NAME = "maven-javadoc-plugin-javadoc-3.12.0-3.1.noarch.rpm"
+RPM_HASH = "c7f4525e965b8535372dc92d9f89c99b78793e16b00e5a03cf1a07510fbfce05d5548cb2c5760d12c852bdf97d53341af44cfd0534a9f22d6733e38357205e77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-javadoc-plugin-javadoc"

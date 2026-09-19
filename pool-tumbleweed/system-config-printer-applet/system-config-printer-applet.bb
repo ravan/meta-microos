@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.18"
 
-RPM_NAME = "system-config-printer-applet-1.5.18-3.1.noarch.rpm"
-RPM_HASH = "e1d60a5f377a192836f3a506048d54bbf401b4579808cff14f2d2fe59d390facf429e59115a6d85b819d8c716b8c3675a6b9e19cdacc044b393873ecdbbd20c7"
+RPM_NAME = "system-config-printer-applet-1.5.18-9.6.noarch.rpm"
+RPM_HASH = "6059b54274951fbc56138ea33ac725cae10035d1260c5d2c1eb1595e2f1fdf7bfa1b1e196a3f52020d248154b6c4a2645e0af6793b6af4158cbf25734d7ecc0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-com.redhat.NewPrinterNotification \

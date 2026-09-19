@@ -10,10 +10,10 @@ This package provides libraries that applications using the VOMS functionality \
 will bind to."
 LICENSE = "Apache-2.0"
 
-PV = "2.1.0~rc3"
+PV = "2.1.3"
 
-RPM_NAME = "libvomsapi1-2.1.0~rc3-1.4.aarch64.rpm"
-RPM_HASH = "4071adc94c59fdbeafc0f8161b42e1ccb4a51032f4e6f99012ed730e0e453c7741457c9d3bd171a6b3c44ec31d413d6e338c9672040b164a7a407f177e67d139"
+RPM_NAME = "libvomsapi1-2.1.3-1.3.aarch64.rpm"
+RPM_HASH = "779dc08d7b93ac4f3ae2962312ec018b3568a55cc63fad47401aa86b94b7b962804ea0f56ea642e30401ac5fb513688cf9f4b48312b72d4495f63077c32d787b"
 
 RPROVIDES:${PN} += "libvomsapi.so.1 \
 libvomsapi1"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-simplecd"
 DESCRIPTION = "This package includes the documentation for texlive-simplecd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn29260"
+PV = "2026.226.1.4svn29260"
 
-RPM_NAME = "texlive-simplecd-doc-2023.209.1.4svn29260-54.1.noarch.rpm"
-RPM_HASH = "04b359ab154db042cee0d213a96b0e94080156c53131027fbce0622bce785ff9bb946c8fccd42d56620183a968484de09ae7fe37d7cb94a9814a9d25d5c43e80"
+RPM_NAME = "texlive-simplecd-doc-2026.226.1.4svn29260-60.2.noarch.rpm"
+RPM_HASH = "e2f822b19bfdc2d702396887b63662b65e037e055813e5119e3c8fcbf9c2879d6f34bfa88e72bfe177dafca6203cd8f3abb84db0253fc08aaf714b3497297c79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-simplecd-doc"

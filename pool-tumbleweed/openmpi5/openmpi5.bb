@@ -16,15 +16,16 @@ one-sided communication techniques. \
  \
 This package provides general tools (mpirun, mpiexec, etc.) and the \
 Module Component Architecture (MCA) base and plugins necessary for \
-running Open MPI/OpenSHMEM version 5 jobs."
+running Open MPI/OpenSHMEM version 5.0.10 jobs."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.0.0"
+PV = "5.0.10"
 
-RPM_NAME = "openmpi5-5.0.0-4.1.aarch64.rpm"
-RPM_HASH = "ec1e8260b18fac9bf0ea83936398088273e8147361df573c5bf6cb0960c33f3447d86dbf2fb0f99a49ccfb2089ee82b1b942002e615bb44771934ffb08eefc81"
+RPM_NAME = "openmpi5-5.0.10-2.2.aarch64.rpm"
+RPM_HASH = "697af9edb380a4a29244cea0d9a18dccc706c92f53943c2489225acbda3f2ae1461e8b78e44d9c71cdcf3c3345d31c63c8c20eb0cf80315d28392400407b33f1"
 
 RPROVIDES:${PN} += "mpi \
+openmpi \
 openmpi5"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

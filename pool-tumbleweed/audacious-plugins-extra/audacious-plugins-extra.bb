@@ -2,17 +2,17 @@ SUMMARY = "Extra plugins for Audacious"
 DESCRIPTION = "Extra plugins for the Audacious audio player."
 LICENSE = "BSD-2-Clause & GPL-2.0-or-later & MIT"
 
-PV = "4.3"
+PV = "4.6.1"
 
-RPM_NAME = "audacious-plugins-extra-4.3-1.6.aarch64.rpm"
-RPM_HASH = "719ebed0a822de7a71ca46d5212b202fe42278799364427780f881d554d531835ab53cb7d6cd508086c34b4853e69a3028a6c99df56119c8c20883a4314c1e05"
+RPM_NAME = "audacious-plugins-extra-4.6.1-1.2.aarch64.rpm"
+RPM_HASH = "873fed16c14f373f65161b44461163183fecac814347601692ec54e0d4a3e2f7533456f5ef522649ec3a549c0a95b948b7b4e2944b23a06c4ef0787a89fa9a77"
 
 RPROVIDES:${PN} += "audacious-plugins-extra"
 
 RDEPENDS:${PN} += "audacious-plugins \
 ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
-libaudcore.so.5 \
+libFLAC.so.14 \
+libaudcore.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \

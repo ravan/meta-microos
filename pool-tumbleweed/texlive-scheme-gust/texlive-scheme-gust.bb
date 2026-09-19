@@ -4,13 +4,16 @@ sufficient to typeset Polish plain TeX, LaTeX and ConTeXt \
 documents in PostScript or PDF."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn59755"
+PV = "2026.222.svn59755"
 
-RPM_NAME = "texlive-scheme-gust-2023.208.svn59755-60.1.noarch.rpm"
-RPM_HASH = "eb0355aa65176cb7937e7c58db19ca385788f198d4d702037ebc12d48fc79854cef4dbab7475b7a7583b94b34d963ab56c05fcc4e8b70c4f3a85856f8549b239"
+RPM_NAME = "texlive-scheme-gust-2026.222.svn59755-68.2.noarch.rpm"
+RPM_HASH = "3669a1266958b292aef8b66422015b06b4e96e23800f391e8580bd982551d168edeab08ca7c19d8714aaabdd38330affd3caba7e934e5b251798e9d139ad2ed1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-scheme-gust"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-gust \
+texlive-scheme-gust"
 
 RDEPENDS:${PN} += "texlive-amslatex-primer \
 texlive-amstex \

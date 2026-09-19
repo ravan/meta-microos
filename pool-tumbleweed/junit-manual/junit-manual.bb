@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "4.13.2"
 
-RPM_NAME = "junit-manual-4.13.2-4.2.noarch.rpm"
-RPM_HASH = "bc63316e209841927547ac28ea52e919cfc3035b01db8b40edb0073cbdff8432b9a81d59e90b427f1e67d2fb5637a54bd46528b3b27c589344edcdd6e505a68b"
+RPM_NAME = "junit-manual-4.13.2-8.9.noarch.rpm"
+RPM_HASH = "90a6e5c3c33e195356ab17eb364898af8529bc844bedc712b3e3ce71709bc21a73892c4712d8b870fce3db171f7dfe08eb005f31c6bcb185311a82fddf980518"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junit-manual \

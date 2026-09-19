@@ -8,10 +8,10 @@ development of the existing qobitree package, offering a new \
 front end."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1bsvn15878"
+PV = "2026.226.3.1bsvn15878"
 
-RPM_NAME = "texlive-qtree-2023.209.3.1bsvn15878-54.2.noarch.rpm"
-RPM_HASH = "b17a125a485799dadbb247a2dda4ca9170c59fdc2ae7042529507a016ab45be38ca7516becb84910129bf6454355fd2f8bf981f62e90082f075a460acaa8302b"
+RPM_NAME = "texlive-qtree-2026.226.3.1bsvn15878-60.4.noarch.rpm"
+RPM_HASH = "42b2c9a5f59eec332514acb51ee26a721355da12403af9bb41643f32a8fc9d53b9b2305b8bd78255fba4ca353fd15373e57a716e1a9c86383c0a255b1ae07de3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qtree.sty \

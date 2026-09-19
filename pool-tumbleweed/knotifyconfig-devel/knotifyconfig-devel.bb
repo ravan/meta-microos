@@ -3,16 +3,15 @@ DESCRIPTION = "KNotifyConfig provides a configuration dialog for desktop notific
 can be embedded in your application. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "knotifyconfig-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "b29ce6558161e1e7101eadd4782db02966d9038abc066307ce663aeb1d5049a706c161b3a5d2dd038129b409b4e24fc4e5c3f8990ed5f76d829c26e88fc45900"
+RPM_NAME = "knotifyconfig-devel-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "01bf965e587f4da16362734e91b144be064e216b15c5324133ffe96d33fa179d89fe2a75dea42258a325567034fc9050ba42df2933729ca046f643878f70222a"
 
 RPROVIDES:${PN} += "cmake-KF5NotifyConfig \
 knotifyconfig-devel"
 
 RDEPENDS:${PN} += "cmake-Qt5Widgets \
-extra-cmake-modules \
 libKF5NotifyConfig5"
 
 inherit rpm

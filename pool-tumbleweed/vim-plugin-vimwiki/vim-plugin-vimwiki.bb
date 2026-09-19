@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.1"
 
-RPM_NAME = "vim-plugin-vimwiki-2.1-56.1.noarch.rpm"
-RPM_HASH = "72a4fdc884d8afaade9fb511ff7c29451436534fe5538fe76ab1880b6025b247458913b259adbb689cc890d0d80b7be3330e0cb716e7105351343b37bb7148d5"
+RPM_NAME = "vim-plugin-vimwiki-2.1-64.2.noarch.rpm"
+RPM_HASH = "1c12f76db1bfb42f4646d623030109a7a09fe3ea9c8389858281495745704c8328a504cd3e0892d66d9cf6e4a1db41cc0be7767292ec79cff4b0f13f7238b5e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-vimwiki"

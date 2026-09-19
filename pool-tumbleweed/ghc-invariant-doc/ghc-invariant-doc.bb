@@ -2,10 +2,10 @@ SUMMARY = "Haskell invariant library documentation"
 DESCRIPTION = "This package provides the Haskell invariant library documentation."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.6.2"
+PV = "0.6.5"
 
-RPM_NAME = "ghc-invariant-doc-0.6.2-1.2.noarch.rpm"
-RPM_HASH = "f78c1ce069be581daf7c7dd9f3ebe708fbfafaba15f337a67a52f18ee93a1c7f3de3fbdf0f68300682c01ceeb297a2adb82c6f49f2c7bcbf6bc84e21dd51da54"
+RPM_NAME = "ghc-invariant-doc-0.6.5-1.3.noarch.rpm"
+RPM_HASH = "9c123bd7bc1aa2ad7b0934ab89eb321dbc0561c0633a9e1fa29a8dcd0bec89b6f051e23e54d985987bd2cfa476e91214ed8b4e137410b0e6a216a1ee6d50dfdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-invariant-doc"

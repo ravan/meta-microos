@@ -20,14 +20,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.02"
 
-RPM_NAME = "perl-constant-boolean-0.02-9.26.noarch.rpm"
-RPM_HASH = "6c65a7238e53564c3933b304dc41b557d9ebbbb2adcf283cd70f6468f6aee5bab7071020ccd23fb46d60af1e952ecd08d9f3f58bd0a1c72f8da553b3fa587b92"
+RPM_NAME = "perl-constant-boolean-0.02-9.40.noarch.rpm"
+RPM_HASH = "9cab21b00f330c23dd4ae98b56611c1d72705549e7873e7b73ffbfa3a16c95c5c6dc6f2a90f5f0716ccc72ab2a8d610150e9d7db79ed1314e3fb19044802786e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-constant--boolean \
 perl-constant-boolean"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Symbol--Util"
 
 inherit rpm

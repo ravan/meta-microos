@@ -5,14 +5,14 @@ package. It accompanies the pre-testing kernel code \
 users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0wsvn65181"
+PV = "2026.226.pre_release_1svn77483"
 
-RPM_NAME = "texlive-latex-firstaid-dev-2023.209.1.0wsvn65181-56.1.noarch.rpm"
-RPM_HASH = "afe2df949252b8632deb29a9b2701f59d9d3fd41038f10d695f380f45595566c6aa479bed49b6d6c220b141d47ac0dac110f53999754803ab20c431fc9525e67"
+RPM_NAME = "texlive-latex-firstaid-dev-2026.226.pre_release_1svn77483-63.2.noarch.rpm"
+RPM_HASH = "f65c863de4fb154234e03fe79f7ceb60f5ca4f744c3aeff06a3ddfc4f761d203414546a6e8606bcde11b5d22f171132ca06445382cbb1e128498a1fe2431fac2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texdev-everysel-ltx.sty \
-texdev-filehook-ltx.sty \
+RPROVIDES:${PN} += "texdev-filehook-ltx.sty \
+texdev-underscore-ltx.sty \
 texlive-latex-firstaid-dev"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

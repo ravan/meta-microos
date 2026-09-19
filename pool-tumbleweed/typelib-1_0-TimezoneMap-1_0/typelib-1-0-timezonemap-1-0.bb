@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the GObject Introspection bindings for \
 timezonemap library."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.4.4"
+PV = "0.4.6"
 
-RPM_NAME = "typelib-1_0-TimezoneMap-1_0-0.4.4-2.10.aarch64.rpm"
-RPM_HASH = "76159db626b35531084788667096aac93b8c37a1c8563713cc2a635b6f7f3e283df7f2cb2cc0c74e42459c70cc9ab903ba9c8d4ff967e6c492e227aff19ddd3f"
+RPM_NAME = "typelib-1_0-TimezoneMap-1_0-0.4.6-1.11.aarch64.rpm"
+RPM_HASH = "659a03db63f1a1bcb4eb21118d520289816f5c7f633e6a68fecb9b60044d5476085f6862bb231f657b6f91242576b1af3b607959dadc899ede4ee48bf0a43736"
 
 RPROVIDES:${PN} += "typelib-1-0-TimezoneMap-1-0 \
 typelib-TimezoneMap"

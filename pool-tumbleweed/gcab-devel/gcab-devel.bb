@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "gcab-devel-1.6-1.1.aarch64.rpm"
-RPM_HASH = "fcd83b8501632725b331235b571973b6fc2cab0657783cb2d4d980b5c073cfa9ecefaea8f42d08a957dfa713a55a14fdbc25f874551ee7ff200dc95c5cbb2e31"
+RPM_NAME = "gcab-devel-1.6-2.1.aarch64.rpm"
+RPM_HASH = "9684b1489224750d7d6f97a1368db6ffa7677d591ed271037db7b399d3a8e14a7f4dab48a03cfdedc10a94cabe28f94bad72ae8d6f6f39ba84a6ea376888fceb"
 
 RPROVIDES:${PN} += "gcab-devel \
 pkgconfig-libgcab-1.0"

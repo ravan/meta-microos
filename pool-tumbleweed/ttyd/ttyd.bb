@@ -11,10 +11,10 @@ Features include: \
  * Cross platform: macOS, Linux, FreeBSD, OpenWrt/LEDE, Windows"
 LICENSE = "MIT"
 
-PV = "1.7.3"
+PV = "1.7.7"
 
-RPM_NAME = "ttyd-1.7.3-1.2.aarch64.rpm"
-RPM_HASH = "9983d49e52e26eb2ea8390e4dd1808c25ded1143f869d87f00a7ca201c424f2689d683d7a057f883148f1f16bed4e62e9c446b70d7b3b9f5da8eb9238c8bc52b"
+RPM_NAME = "ttyd-1.7.7-1.6.aarch64.rpm"
+RPM_HASH = "c24ed6d76be2a461d108f76506dca04ae588a55010861edd47b3794d819a396cba8a1d977a978e7dca80b23cdab247526bc6040a4d72eefb91e56e0a9f9964ee"
 
 RPROVIDES:${PN} += "ttyd"
 
@@ -24,7 +24,7 @@ libcrypto.so.3 \
 libjson-c.so.5 \
 libssl.so.3 \
 libuv.so.1 \
-libwebsockets.so.19 \
+libwebsockets.so.21 \
 libz.so.1"
 
 inherit rpm

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.21.0"
 
-RPM_NAME = "enlightenment-x-Flat-icon-theme-0.21.0-30.8.aarch64.rpm"
-RPM_HASH = "82905b798db1eb103934cb6e396d7cccec9355fc8666b4a1d880d86e69763f8c38d770ee140434edecdbec24621ffea854bacc324fb4894ac9f0092e4d62c381"
+RPM_NAME = "enlightenment-x-Flat-icon-theme-0.21.0-37.1.aarch64.rpm"
+RPM_HASH = "240116f62b1130cab407ca1294b76bb680a590bc973e446a6a0c987bacf27fd3458756baf0220d260733fad8e8f699c1d7b874fa3fa8219e1bdad0ad20a11145"
 
 RPROVIDES:${PN} += "enlightenment-x-Flat-icon-theme"
 

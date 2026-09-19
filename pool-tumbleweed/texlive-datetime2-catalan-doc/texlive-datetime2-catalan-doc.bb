@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-datetime2-catalan"
 DESCRIPTION = "This package includes the documentation for texlive-datetime2-catalan"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn47032"
+PV = "2026.226.1.1svn47032"
 
-RPM_NAME = "texlive-datetime2-catalan-doc-2023.209.1.1svn47032-53.1.noarch.rpm"
-RPM_HASH = "ef115e87c408e0227f778592eef11ac204e5b132b9c9ace8f6b64cec1b5b4f8e1c14d21517269dea98bd1afe6235e13f067924ca8d6626368e0774cc1ce53374"
+RPM_NAME = "texlive-datetime2-catalan-doc-2026.226.1.1svn47032-59.2.noarch.rpm"
+RPM_HASH = "cb56a8ef35df4e3d4bf10f9c11297870b0cf99ee5d0097e82ef4c2b7b26b33b748133c5269f539dc28ef00806265b82566d011e27bd88563b04bda63a0b6cd4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-datetime2-catalan-doc"

@@ -9,10 +9,10 @@ together when viewing the document, while the document itself \
 is not obscured."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.92svn23492"
+PV = "2026.226.0.0.92svn77682"
 
-RPM_NAME = "texlive-pdfmarginpar-2023.209.0.0.92svn23492-52.1.noarch.rpm"
-RPM_HASH = "5d76602c5f33bf5ac9ba389f9d075e75cc0f92917a61e01b6818cac6d7ead52dae7f616fa7d62c76d24fe0056bb772ee2dd72ec8715057434ad6a4af1d7287dc"
+RPM_NAME = "texlive-pdfmarginpar-2026.226.0.0.92svn77682-58.2.noarch.rpm"
+RPM_HASH = "7366d5a760ac7ddeae68bdbd168dba80e6f03583b3cb77a0945ffcfcec56a472e447fb3cbd49f277c5ac1bb44e31b8fe717a5b1498170a66067008bcee125c00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfmarginpar.sty \

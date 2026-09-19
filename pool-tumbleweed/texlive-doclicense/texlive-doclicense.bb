@@ -6,10 +6,10 @@ supported, but this package is designed to handle all kinds of \
 licenses."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2.0svn63340"
+PV = "2026.226.3.3.0svn77682"
 
-RPM_NAME = "texlive-doclicense-2023.209.3.2.0svn63340-53.1.noarch.rpm"
-RPM_HASH = "beb4f34718cf0fab8e5f9f713f724a6f9006bdab26d89cf7a855471f67edd371b828f051d5a065bc28cecae1acc066a6e6036a6f0bd68a5e88e4078366f0337e"
+RPM_NAME = "texlive-doclicense-2026.226.3.3.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "8cb8dcfcc1822ab5faf60c88404d94e7f87504eba8ebb30db9bf10d829500e1061ae1daab561c945843e786b4c991a8f7402a12d9935eb610b69a062e0638e62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-doclicense-CC-by-3.0-latex.tex \
@@ -43,6 +43,7 @@ tex-doclicense-USenglish.ldf \
 tex-doclicense-acadian.ldf \
 tex-doclicense-american.ldf \
 tex-doclicense-australian.ldf \
+tex-doclicense-austrian.ldf \
 tex-doclicense-brazilian.ldf \
 tex-doclicense-british.ldf \
 tex-doclicense-bulgarian.ldf \
@@ -58,16 +59,20 @@ tex-doclicense-esperanto.ldf \
 tex-doclicense-french.ldf \
 tex-doclicense-galician.ldf \
 tex-doclicense-german.ldf \
+tex-doclicense-greek.ldf \
 tex-doclicense-italian.ldf \
 tex-doclicense-japanese.ldf \
 tex-doclicense-marathi.ldf \
+tex-doclicense-naustrian.ldf \
 tex-doclicense-newzealand.ldf \
 tex-doclicense-ngerman.ldf \
+tex-doclicense-nswissgerman.ldf \
 tex-doclicense-polish.ldf \
 tex-doclicense-portuguese.ldf \
 tex-doclicense-russian.ldf \
 tex-doclicense-spanish.ldf \
 tex-doclicense-swedish.ldf \
+tex-doclicense-swissgerman.ldf \
 tex-doclicense-ukrainian.ldf \
 tex-doclicense.sty \
 texlive-doclicense"

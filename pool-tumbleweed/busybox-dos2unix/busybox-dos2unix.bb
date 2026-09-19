@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing dos2unix"
 DESCRIPTION = "This package contains the symlinks to provide dos2unix with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-dos2unix-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "89ef959d2d2dfbfc3938f20cee79143f914cd3cfa32cb3395dfc6c73280bd5cff32ce35c7bf14baed29b2b67fde1b8e66ee75181e1335e52a6f40d69eea124c5"
+RPM_NAME = "busybox-dos2unix-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "20f4fda7012d8e972e9e99799258823eb2f41d5e482c97280e44f258826130aded7e18a1f871792923bc2b80921ce3a90ea911f8acc4734f07fc05b8e2e0f58d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-dos2unix"

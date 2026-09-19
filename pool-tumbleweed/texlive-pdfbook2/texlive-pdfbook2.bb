@@ -10,18 +10,18 @@ all pages are cropped to the same dimensions. Extra margins can \
 be defined at the edges of the booklet and in the middle where \
 the binding occurs. The output is written to INPUT-book.pdf. \
 Existing files will be overwritten. All input files are \
-processed seperately."
+processed separately."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.4svn53521"
+PV = "2026.226.1.4svn76924"
 
-RPM_NAME = "texlive-pdfbook2-2023.209.1.4svn53521-52.1.noarch.rpm"
-RPM_HASH = "93b27476ab8cf6286bd5c6edc966ab77a97934ef34bd4b6af08e72486fe441d96408f6ff0b982ec3bd65c8763b00e5b552b4e81b92ce540834bfc06447015b9a"
+RPM_NAME = "texlive-pdfbook2-2026.226.1.4svn76924-58.2.noarch.rpm"
+RPM_HASH = "eede58d6ff2806108c1e48f1d44a4c5d18620908c966f666e9779a5488aa8a4bb185d348e7a2de7168c23b438f4ca9a52cd4ad855b141d0594522513aa7e0a46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfbook2"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ed \

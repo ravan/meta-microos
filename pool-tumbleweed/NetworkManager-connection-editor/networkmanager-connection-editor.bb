@@ -3,10 +3,10 @@ DESCRIPTION = "NetworkManager Configuration tool - take control over your \
 connection settings."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.32.0"
+PV = "1.36.0"
 
-RPM_NAME = "NetworkManager-connection-editor-1.32.0-1.2.aarch64.rpm"
-RPM_HASH = "903f6a3dc9fb26dec6e66737553abc4992da70f9ad5a125b6f2a42309605ce300ebd28e24ab15d62b589d7c10ddc30a9cb57228250be4a56c489863b9d752a14"
+RPM_NAME = "NetworkManager-connection-editor-1.36.0-5.3.aarch64.rpm"
+RPM_HASH = "88813b219101ef1b185f0564d27aca6c4b2213465ce73d9189d2d8fc8ccb36739c9a9008be6a504318a77924d6aceaf67ad1b14a43b0eb119ff77b6702fd96ce"
 
 RPROVIDES:${PN} += "NetworkManager-connection-editor"
 

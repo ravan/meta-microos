@@ -6,16 +6,18 @@ This package contains the development headers for the library found \
 in libfontenc1."
 LICENSE = "MIT"
 
-PV = "1.1.7"
+PV = "1.1.9"
 
-RPM_NAME = "libfontenc-devel-1.1.7-1.3.aarch64.rpm"
-RPM_HASH = "73c14ae493643280f98bd5e32839e649910ad11d144d446c9f3b6ca2086469954678c3c430738d13b7d859f0dec79ac96cc9ccb7d43caf25d8cf8c8be70c4047"
+RPM_NAME = "libfontenc-devel-1.1.9-1.4.aarch64.rpm"
+RPM_HASH = "4be92f7bec902c9396592900e30f03ab6111503acba58bfd20cbef42baf86853aa8636d0384889cd4743723a186b470e04fa6c4be59ca0c038883255f505c200"
 
 RPROVIDES:${PN} += "libfontenc-devel \
 pkgconfig-fontenc \
 xorg-x11-libfontenc-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libfontenc1"
+libfontenc1 \
+pkgconfig-xproto \
+pkgconfig-zlib"
 
 inherit rpm

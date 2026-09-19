@@ -2,10 +2,10 @@ SUMMARY = "Busybox sh, ash and hush"
 DESCRIPTION = "This package contains the busybox sh, ash and hush."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-sh-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "634c6e225e241da05f6a4daeb6420392906dbef6bf537a3991a1cd14cb3ea96e4290bb6ffa0a2325b80c81bcb997858193b5420a7db52077e1033e19ca7c47c5"
+RPM_NAME = "busybox-sh-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "40d52fa84ef8b5c0cc7adabeff35a5a2708e08d3ceb14e94171ae37b31a4d7f4d8ecacae758b39d62c548a9134406ecd4f15240e6d680dad564a961e334af2d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/sh \

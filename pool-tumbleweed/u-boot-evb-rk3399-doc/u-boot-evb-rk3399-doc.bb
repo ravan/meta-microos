@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains documentation for U-Boot firmware."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-evb-rk3399-doc-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "eb594d2e16e7f5b4fce9a028e708551d721d38d56f1bc150b4fb6e7a611de14e42870202e5c606472e2e2920c96bed256e268eb2d90cd229896a413f2fbcc983"
+RPM_NAME = "u-boot-evb-rk3399-doc-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "c219a2704c3f3141ecc10b41866c1a588867d6b1f7f214d194e6a9cb6398b8d7195686f9785ad54892520939b1cbc0b82e16ce452ec64a8aea1b318c143e4227"
 
 RPROVIDES:${PN} += "u-boot-evb-rk3399-doc"
 

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "3.1"
 
-RPM_NAME = "fluid-soundfont-gm-3.1-5.16.noarch.rpm"
-RPM_HASH = "2dd0ccaec2bf6c2cb2981307f76c54f71af9795618151c9d3e602f508b8e8bcbbba6c0e488692f9e59e470030bbaca4f9d465363d74c749c7aad51622826f5f5"
+RPM_NAME = "fluid-soundfont-gm-3.1-5.24.noarch.rpm"
+RPM_HASH = "3b4fee172f59b6d3b419f8e2421d22c6ff451dbab4a6ec15378dc5ad27a318513075445eeb2745f059edfe464a4d2268ce780d05a8287381fa74e89255b0fabc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-fluid-soundfont-gm \

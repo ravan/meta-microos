@@ -8,8 +8,8 @@ LICENSE = "CC-BY-NC-4.0"
 
 PV = "1.000"
 
-RPM_NAME = "rmit-sansforgetica-fonts-1.000-1.10.noarch.rpm"
-RPM_HASH = "4306f66e642ae419bc14e3eddb6df46604e9e415eb98023273d67bc6251a4d1de5c0b9d3e973476eb90eafbbf0a219d89f6d6d287be2a12cdd8276890fc591f9"
+RPM_NAME = "rmit-sansforgetica-fonts-1.000-1.18.noarch.rpm"
+RPM_HASH = "26fb25de2888d6e5279feeceae3d8493676f4f7a1bb412855f577b410c806621d2f37a745d88948a69f52bff9a32d2f42b29ed466f431f012a6c03a18d957c30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rmit-sansforgetica-fonts"

@@ -6,22 +6,22 @@ A set of known commands per OS-name is tested for presence, and the first \
 one found is executed. With an optional parameter, all known commands are \
 checked. \
  \
-The the 'open_browser' manpage uses the 'system()' function to execute the \
-command. If you want more control, you can get the command with the the \
-'open_browser_cmd' manpage or the 'open_browser_cmd_all' manpage functions \
-and then use whatever method you want to execute it."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+The 'open_browser' uses the 'system()' function to execute the command. If \
+you want more control, you can get the command with the 'open_browser_cmd' \
+or 'open_browser_cmd_all' functions and then use whatever method you want \
+to execute it."
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.04"
+PV = "0.40.0"
 
-RPM_NAME = "perl-Browser-Open-0.04-5.28.noarch.rpm"
-RPM_HASH = "5b823ecdd2059ae25f4c3a5bc705213630205c030f3d5bf9fd99b3bb23ab9461ef1cfa96a601422428d8136c5228b8599c5f4071d10e85e1f7a2f80069e0df12"
+RPM_NAME = "perl-Browser-Open-0.40.0-1.7.noarch.rpm"
+RPM_HASH = "066511b4e4bbd868d38420b785f58fe8b794dfff98915dbcb54f7e77e416ecc28ef9351e0e742da00479d0b2eb0f574c0a9ba0a5ee397e06a0cd7ab6623fdaac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Browser--Open \
 perl-Browser-Open"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Test--More \
 perl-parent"
 

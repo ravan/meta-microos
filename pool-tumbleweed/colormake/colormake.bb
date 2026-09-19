@@ -6,14 +6,14 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.9.20140503"
 
-RPM_NAME = "colormake-0.9.20140503-3.26.noarch.rpm"
-RPM_HASH = "f4cd9a61af61f7538acc748c4e77f6ec68d9abf1a346f77fc74083356725914b2bb09164ee8a2f6e0e7a9a485503d7de1b53c2b46c2da0a81c70beb3f53ee46a"
+RPM_NAME = "colormake-0.9.20140503-4.12.noarch.rpm"
+RPM_HASH = "568997e95cfd448b53c3d101d9df67cf41a52114b4f00d5671ddce23cc103e3f1cf52b62fa72edfd0f30503a0764e387c03119c4b6a432dc13e7ec5bdee89610"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colormake"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

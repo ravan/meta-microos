@@ -5,10 +5,10 @@ PDF-ebooks on small ebook-readers. The package has been tested \
 with Kindle e-ink and iPad mini."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn29466"
+PV = "2026.226.svn29466"
 
-RPM_NAME = "texlive-ebook-2023.209.svn29466-54.2.noarch.rpm"
-RPM_HASH = "b2751e6f3163f28414f0f62aa4a3ca068d040481e63df0f9f9d40ce45c577e54baa88b7fe72294eb00ac740e4639c5196afc9488ae61421ec5a4b0da8f1dcbcb"
+RPM_NAME = "texlive-ebook-2026.226.svn29466-61.4.noarch.rpm"
+RPM_HASH = "e99741c74f8e97fb42f6275c09eb4a8babeb319776a87934befec158d0e803da8cc184b673f062431c7e6d11e931e9947369587956fcc32f7a2dc378005c73ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ebook.sty \

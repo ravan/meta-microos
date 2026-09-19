@@ -5,10 +5,10 @@ github.com/OpenHantek/OpenHantek6022 - but only for Hantek 6022BE/BL and \
 compatible scopes (Voltcraft, Darkwire, Protek, Acetech, etc.)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.3.2.2"
+PV = "3.3.3"
 
-RPM_NAME = "openhantek-3.3.2.2-1.2.aarch64.rpm"
-RPM_HASH = "ae2dd3cd75cfab72d92c431884d6b255dfa75cd7984ac1cf30f1c39335717c981bd9a716e8738e6e51dc54b0d5592ad6b5dd47c532c21429c353dc37abd6b3f6"
+RPM_NAME = "openhantek-3.3.3-1.12.aarch64.rpm"
+RPM_HASH = "0cc3e796c923c0614d056f1ac8e17482d7565c97bc01d48e9bf6228e642bcd3a3d20484ef6081cdbb68b1aa591d38631c9c75bd26a485791bbfdece1df5dc2d2"
 
 RPROVIDES:${PN} += "openhantek"
 

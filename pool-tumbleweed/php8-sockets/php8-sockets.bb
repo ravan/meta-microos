@@ -4,10 +4,10 @@ communication functions based on the BSD sockets API, providing the \
 possibility to act as a socket server as well as a client."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-sockets-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "afa1dfa55c91bd42eba908ce30d3b00a77374551c9c34c7348209abb402a70b3d7536c561907d5e23f1485077f36f5e20bf4d6c899a5c7410a2c5d1dd86e8b12"
+RPM_NAME = "php8-sockets-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "8fe2d5e5c76832060044471fe9bf549f7ca8847b1c7e635ee5d81dd05c0246ffb608fe62dccbf5888bd04b836a33ebd499941a00472657a91a64e07c292a05a2"
 
 RPROVIDES:${PN} += "config-php8-sockets \
 php-sockets \

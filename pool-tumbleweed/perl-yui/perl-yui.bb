@@ -10,10 +10,10 @@ Authors: \
 -    dmacvicar@suse.de"
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "perl-yui-4.6.0-1.4.aarch64.rpm"
-RPM_HASH = "da8a7a34db626178fe70a1f89a36442fe68cdacc8ce4cd91fb4010b15ee439efa79a436344ce8d498305f658573c8dd1c1e689ff745571a72ddc9a5b0a2e4ca6"
+RPM_NAME = "perl-yui-4.7.7-1.3.aarch64.rpm"
+RPM_HASH = "ab62033cda4cc512c414abfc58297bfc2da87f4ebcbbe746094fa492230bb39a041e3c74b9e60b42572812989f41df852978f1fa03095ec1e46a3c5f3120b7b8"
 
 RPROVIDES:${PN} += "perl-yui \
 perl-yui--YAlignment \
@@ -135,6 +135,6 @@ libgcc-s.so.1 \
 libperl.so \
 libstdc++.so.6 \
 libyui.so.16 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

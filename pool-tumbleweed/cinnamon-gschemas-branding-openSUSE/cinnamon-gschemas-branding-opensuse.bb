@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "42.2"
 
-RPM_NAME = "cinnamon-gschemas-branding-openSUSE-42.2-5.18.noarch.rpm"
-RPM_HASH = "580686a747dd08e78412eaf567b6265e02c8bcf402620d60f7bec8359e52d23f00a04e566540ad77776954c0301d800544dfb71904b8c69d279fadb030342faf"
+RPM_NAME = "cinnamon-gschemas-branding-openSUSE-42.2-1.6.noarch.rpm"
+RPM_HASH = "78ee5f953a0e34253546f0fcff591a420d061b13694ff55eb9dcc9cd59a49059a3d480c4839e8f27e219785d3ea6ea21ba1d2081deab9bb85d77a7adf11a9ed8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-branding-openSUSE \

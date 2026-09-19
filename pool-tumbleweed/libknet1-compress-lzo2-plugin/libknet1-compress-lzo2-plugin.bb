@@ -1,11 +1,11 @@
 SUMMARY = "Provides libknet1 lzo2 support"
 DESCRIPTION = "Provides lzo2 compression support for libknet1."
-LICENSE = "GPL-2.0+ & LGPL-2.1+"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21"
+PV = "1.33"
 
-RPM_NAME = "libknet1-compress-lzo2-plugin-1.21-1.10.aarch64.rpm"
-RPM_HASH = "c72346dc34ab0aabedf5b1af483ebd5b56655f54a15521973c33cf1a9cc46d5111c6e8502be95113eb336de9d4859813eaf287afd46e13d006356ad6f703771b"
+RPM_NAME = "libknet1-compress-lzo2-plugin-1.33-2.2.aarch64.rpm"
+RPM_HASH = "570f974bbd4edf302b98860e4261bcce6d17a3c6ac280f806156d93595c3053df87db8ab1606c7aea1e8255fc193aae927187baac2f906315e145658377566db"
 
 RPROVIDES:${PN} += "libknet1-compress-lzo2-plugin"
 

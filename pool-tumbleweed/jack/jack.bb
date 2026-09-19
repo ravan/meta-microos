@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.22"
 
-RPM_NAME = "jack-1.9.22-2.2.aarch64.rpm"
-RPM_HASH = "176f620d93706b39fa06acab3df4fe1ea54746822e1b60a74ad0d7921202338799653763e818de55d91e422491d53dff2a9a4a214263f0d85719791b3b36e7de"
+RPM_NAME = "jack-1.9.22-5.5.aarch64.rpm"
+RPM_HASH = "2a5965d9e5ef7758de86e1b6aa2b86fbc268be71dca44b57d48d7d2b62b81e1a36dfdf35622f1d416f93711698cd825d368fa81ea3e572f6e3cfd009f06f58dd"
 
 RPROVIDES:${PN} += "jack \
 jack-audio-connection-kit \
@@ -26,11 +26,13 @@ RDEPENDS:${PN} += "jack-dbus \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \
-libcelt0.so.2 \
 libdbus-1.so.3 \
 libffado.so.2 \
 libgcc-s.so.1 \
+libjack0 \
+libjacknet0 \
 libjackserver.so.0 \
+libjackserver0 \
 libm.so.6 \
 libopus.so.0 \
 libsamplerate.so.0 \

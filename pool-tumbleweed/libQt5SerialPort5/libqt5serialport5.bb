@@ -6,10 +6,10 @@ of the RS-232 pinouts. This module does not support terminal features \
 change notification)."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt5SerialPort5-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "5f287ed29b2c0ec6724f3c9ec36bf09dfbfef72e71286af0df0251501cdff02d72e1837bd3189f22734447465cc70498a43a02c4eb53381603527193988cfb29"
+RPM_NAME = "libQt5SerialPort5-5.15.19+kde0-1.3.aarch64.rpm"
+RPM_HASH = "a0e62709b4ddffd1aa014456be134dcc25e3c2e3902434651dc702d53f6e684c329c1efe576d2ac622b35ac55ebfd98ee9c7e5de92a91f4e2b9d5d40f0d623e5"
 
 RPROVIDES:${PN} += "libQt5SerialPort.so.5 \
 libQt5SerialPort5"

@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon SQS"
 DESCRIPTION = "The AWS Java SDK for Amazon SQS module holds the \
 client classes that are used for communicating with \
 Amazon Simple Queue Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-sqs-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "993ea269d5ae2d492ce0c77e32eb544ddb6b623b952da1716334db7ecee8183c4cf85675032ad0fcef2e1190db4e5a60b7ad59d3485d1b6cfb80c120595f40fa"
+RPM_NAME = "aws-sdk-java-sqs-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "b051d771dc61a56900886685d55a6ee452d2c3b68cbe7690ce5bfd04bd8e449a8d17388cdc9be334c38d9ee2fb9f0b11de6d5d0314f2dc27859f054039603b9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-sqs \

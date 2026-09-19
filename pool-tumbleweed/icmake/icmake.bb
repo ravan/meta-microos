@@ -6,10 +6,10 @@ offers various special operators as well as a set of support functions \
 that have proven to be useful in program maintenance."
 LICENSE = "GPL-3.0-only"
 
-PV = "10.03.00"
+PV = "13.06.01"
 
-RPM_NAME = "icmake-10.03.00-3.4.aarch64.rpm"
-RPM_HASH = "1390027cfcbdfcfa49e341fa9c140b2dfa5b41cd8d063d3fbf22485175fd31420697f91782032998e839dd6839ce91deb3f43359679b3d5acdfbf9ca55e2c34c"
+RPM_NAME = "icmake-13.06.01-1.1.aarch64.rpm"
+RPM_HASH = "3cabc04adeb4f553c3cd73c52acda7642b182dbf9ee58905b7c30a9864669130db947a459b80595efa48c048b436a73d2433425952e246b496f880dcccc5bba3"
 
 RPROVIDES:${PN} += "config-icmake \
 icmake"

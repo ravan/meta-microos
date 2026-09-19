@@ -9,10 +9,10 @@ the CM-super, Latin Modern and (in a restricted way) CM-LGC \
 font sets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn15878"
+PV = "2026.226.1.4svn15878"
 
-RPM_NAME = "texlive-ae-2023.209.1.4svn15878-55.1.noarch.rpm"
-RPM_HASH = "f92f4838b0fffe4ff17b0a3831630b2667af280c120e0131b79ab9f4842e8af2b902b3a475ac2762cb6b5647bb20313404cffeaa8b8e7efe5f8dafc50a78b4b3"
+RPM_NAME = "texlive-ae-2026.226.1.4svn15878-61.2.noarch.rpm"
+RPM_HASH = "4fff33a09eb46eb06dbbdf6423766b748ece5215624d82b2ad6625ecff875fd369ed79fe24e5d34a32e6e0e8513f8e761bec58bfc8cbb89fb7d5a7c5685c0628"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ae.sty \

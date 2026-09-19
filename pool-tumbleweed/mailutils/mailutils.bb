@@ -20,10 +20,10 @@ for delivering and reading electronic mail, including \
 pop3d, imap4d and a universal mail delivery agent, called maidag."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.16"
+PV = "3.21"
 
-RPM_NAME = "mailutils-3.16-1.3.aarch64.rpm"
-RPM_HASH = "0b6297c677a1987f85d5c80ff693f96640b9eb298754705975f6660da92e04c3320bcc1bf5846d0a61f9ef606f629f7cc6bc82d2bff906732df748b383763312"
+RPM_NAME = "mailutils-3.21-1.6.aarch64.rpm"
+RPM_HASH = "7378cb7dab39fb2a8eb6dfd00bbb44950ff71e636c36b7dd857229e30bf5f289648e49ba5047f128a1167105b5907e5678fd14820672751f1d379f3990ef3271"
 
 RPROVIDES:${PN} += "mailutils"
 

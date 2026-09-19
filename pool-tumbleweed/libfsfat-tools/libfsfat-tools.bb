@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage provides the utilities from libfsfat, which allow
 reading FAT File Systems."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220925"
+PV = "20260826"
 
-RPM_NAME = "libfsfat-tools-20220925-4.2.aarch64.rpm"
-RPM_HASH = "1f79b89736abd48a43a175fbd8840e47917fa8ea871482fd5e31d17d55624e1675cf8d2f8e9a29b9e3ed6d63985b4ffbc5a8f4e91a841006836e9d96578ccce7"
+RPM_NAME = "libfsfat-tools-20260826-1.1.aarch64.rpm"
+RPM_HASH = "d9d40083a4f081f643bc2daee6d3750ac86e0ace8de3f2479ca8a5ee8286212ebb0bd77cc618231527fd615acb148cfc44f1abd60f259dc0af9ee2993afc3f77"
 
 RPROVIDES:${PN} += "libfsfat-tools"
 
@@ -18,6 +18,7 @@ libclocale.so.1 \
 libcnotify.so.1 \
 libfdatetime.so.1 \
 libfsfat.so.1 \
+libfuse3.so.4 \
 libhmac.so.1 \
 libuna.so.1"
 

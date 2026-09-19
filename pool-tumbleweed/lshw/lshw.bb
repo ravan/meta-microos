@@ -12,10 +12,10 @@ included documentation or go to the lshw Web page, \
 http://www.ezix.org/software/lshw.html"
 LICENSE = "GPL-2.0-only"
 
-PV = "B.02.19.2+git.20230320"
+PV = "B.02.20"
 
-RPM_NAME = "lshw-B.02.19.2+git.20230320-1.2.aarch64.rpm"
-RPM_HASH = "3ec27c3df526986bbe1384ea5242786ec8d448cf0f7b1b7e846a93814d971493ad73784938a9dafc2ec6a45aefc53081c462d6f98decbec71111ee156240f87e"
+RPM_NAME = "lshw-B.02.20-3.3.aarch64.rpm"
+RPM_HASH = "caa6d450958c87cf38c90e802014d4c48721883292bdace827826cd44df01ad1cc3bbc1eca43d881041aa67969c81bc5355713748c897dbf6fc5c16b75981adf"
 
 RPROVIDES:${PN} += "lshw"
 

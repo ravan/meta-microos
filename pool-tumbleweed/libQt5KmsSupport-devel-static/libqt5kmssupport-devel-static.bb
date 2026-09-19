@@ -2,10 +2,10 @@ SUMMARY = "Qt KMS support module"
 DESCRIPTION = "Qt module to support Kernel Mode Setting."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5KmsSupport-devel-static-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "9ffb6992dce847d61995fc23eea2703c3db4cddf0570961333fefe8df42d92e83323e736e2c365b1726c3a257c28cdb12665f9998411ebedc97354fdb43f887f"
+RPM_NAME = "libQt5KmsSupport-devel-static-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "bb7625c2bd9b859a44a5089d2b3523709f66ad4446ce8bd3ecab39b8a2af857a6203944ada14d28ceaed7e969cf13c864de6915a1cf6c3c6a18cad2b7a554ee9"
 
 RPROVIDES:${PN} += "cmake-Qt5KmsSupport \
 libQt5KmsSupport-devel-static"

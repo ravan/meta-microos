@@ -1,11 +1,11 @@
 SUMMARY = "Chinese Lunar calendar library development files"
 DESCRIPTION = "Development files for Chinese Lunar calendar library"
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.9.3"
+PV = "3.0.1"
 
-RPM_NAME = "lunar-date-devel-2.9.3-2.15.aarch64.rpm"
-RPM_HASH = "771542f7bf8bc1189173dff74df6e7236a22c9f123de6c865a9c5fe68bd64221c29bf43a884e3cf07c9423f1efaa35b96b9074ccfd1378692486ac3a811895df"
+RPM_NAME = "lunar-date-devel-3.0.1-1.13.aarch64.rpm"
+RPM_HASH = "808bd0ef04848187b542188f10412de52415ee18bb485bdaf664377ccb36f069a897d2bfb79deb0256fa912d030ebd7207dfd92b830e552b96288ab0dd83cc39"
 
 RPROVIDES:${PN} += "lunar-date-devel \
 pkgconfig-lunar-date-3.0"

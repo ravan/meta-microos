@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-kbdleds-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-kbdleds-plugin' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.2.5"
+PV = "0.3.0"
 
-RPM_NAME = "xfce4-kbdleds-plugin-lang-0.2.5-1.7.noarch.rpm"
-RPM_HASH = "ed3165f326d99454691b35279e5c282fe7966ff380fd7c30fcaf88e4f09136776c1535c321ea13e3419ffda5a39b36cff4872780dfc549264348172521936e9b"
+RPM_NAME = "xfce4-kbdleds-plugin-lang-0.3.0-1.9.noarch.rpm"
+RPM_HASH = "ea0e847c2cf731541c0f4f6cc197cf4fbce2ee78e9e7bd80b4b42c43bf5f34a31eab4b85fb699f3724eba31437d37e8c148f33a307181952f9861e4a696c31dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-kbdleds-plugin-ru \

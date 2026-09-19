@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.2.4"
 
-RPM_NAME = "liblog4c-doc-1.2.4-5.27.aarch64.rpm"
-RPM_HASH = "0d6980af1a803e10139f663ea7686f68e091ae053b81e43f35fc4eddb40f6609ee1dbb513c1366722d090a6c5438b44477d483ea85350592bd91ea30209baff2"
+RPM_NAME = "liblog4c-doc-1.2.4-5.38.aarch64.rpm"
+RPM_HASH = "dbbe6bd69b14938ee6c7ad9ccd17d003b416239f20ea80a7c5848aaa5ecdb0105a02672500ccc721e22aeae6ef73b8a6d7bf3f704ca30cd142c3ac62bef6278c"
 
 RPROVIDES:${PN} += "liblog4c-doc"
 

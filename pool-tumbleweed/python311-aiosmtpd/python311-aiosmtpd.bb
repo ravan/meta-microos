@@ -13,23 +13,22 @@ this reimplementation. \
 This package provides such an implementation of both the SMTP and LMTP protocols."
 LICENSE = "Apache-2.0"
 
-PV = "1.4.4.post2"
+PV = "1.4.6"
 
-RPM_NAME = "python311-aiosmtpd-1.4.4.post2-2.1.noarch.rpm"
-RPM_HASH = "d65cee251df4498ea6a00b0f84955b57b731960e1c114a14ab1d500acad6c38a478e9743f84be47098992ea855a93395686506bd633d068664d8da27921c5677"
+RPM_NAME = "python311-aiosmtpd-1.4.6-5.2.noarch.rpm"
+RPM_HASH = "783d4916c3cd68598f4ccf1acdd7d97330f7ba2989df18d30f410cbc3b58535b1824a946c16c1f1b8cc72a242da6e61bd3288fbbfae90cb5e04cb446367f4b35"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-aiosmtpd \
-python3.11dist-aiosmtpd \
+RPROVIDES:${PN} += "python3.11dist-aiosmtpd \
 python311-aiosmtpd \
 python3dist-aiosmtpd"
 
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
+alts \
 python-abi \
 python311-atpublic \
 python311-attrs \
-update-alternatives \
 user-nobody"
 
 inherit rpm

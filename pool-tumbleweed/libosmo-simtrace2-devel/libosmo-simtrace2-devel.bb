@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.0"
 
-RPM_NAME = "libosmo-simtrace2-devel-0.8.0-1.8.aarch64.rpm"
-RPM_HASH = "dc3ac7b097baf8a2fed0e718e311ed462d878765d6a187b4c92777b0add5bbd08692f8bd212a58ff98858720a94d8ca61d2df097606eb8111dc26c5619b34882"
+RPM_NAME = "libosmo-simtrace2-devel-0.8.0-1.19.aarch64.rpm"
+RPM_HASH = "0fec9f1ec8862caa7ac29c6294133942d0160c9f512ca1f376a81ec61f86d4e8b234efb7e62d2ddcabe75e89bc2776c0cfb73633b592a378b30d1e7ee51db734"
 
 RPROVIDES:${PN} += "libosmo-simtrace2-devel \
 pkgconfig-libosmo-simtrace2"

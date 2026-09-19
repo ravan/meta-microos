@@ -10,14 +10,14 @@ LICENSE = "ISC"
 
 PV = "1.135"
 
-RPM_NAME = "perl-Text-Table-1.135-1.4.noarch.rpm"
-RPM_HASH = "a744107eed8ee6e03aaf675e1f217b0af73b76dd3654adc095fc5f82d0024829a6b405a4c4fec91229989d156c1b31cabf45512b2f1904cf6edfd05c54164c8b"
+RPM_NAME = "perl-Text-Table-1.135-1.18.noarch.rpm"
+RPM_HASH = "f67d13f9e41f000a4a89859edebfe1e84bebb67e4fce6223423e6e1553223b418c5a0fe64d9517fc3ccd4ed08bd1dc3798a60bf2e602dab35a95220477f3804d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Table \
 perl-Text-Table"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Text--Aligner"
 
 inherit rpm

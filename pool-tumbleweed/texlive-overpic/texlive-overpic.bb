@@ -6,10 +6,10 @@ included graphic. LaTeX commands can be placed on the graphic \
 at defined positions; a grid for orientation is available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn53889"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-overpic-2023.209.1.3svn53889-52.1.noarch.rpm"
-RPM_HASH = "40cf620e9414fa4cae4903a0d6082fb4b2322a53c3634d3f37ab8aa3aabbd7c71f2c2914a3b0c06420376b7c824ea128dbd2066274530ba4acf42b335e4a6320"
+RPM_NAME = "texlive-overpic-2026.226.2.2svn77682-58.2.noarch.rpm"
+RPM_HASH = "7670fa2f251b9f14c5cdff0b4995431e2be4267c1acbb4862998b62928b6376aaef7ab2b7e9f2440d0d59d5949cc1de8fd5211b5ffcb1a81a3052468507fd811"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-overpic.sty \
@@ -23,6 +23,7 @@ grep \
 sed \
 tex-epic.sty \
 tex-graphicx.sty \
+tex-keyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

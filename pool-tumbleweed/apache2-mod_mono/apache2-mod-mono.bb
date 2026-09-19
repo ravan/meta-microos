@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.13"
 
-RPM_NAME = "apache2-mod_mono-3.13-1.10.aarch64.rpm"
-RPM_HASH = "94a184313a95346372ac003dc845375f77d20b07de4d1a0d328ded0c27dea856d0d5963b3fa2ab38b53faf437c30f19029cee0e72913c7f0c7fc2f53f0908ad3"
+RPM_NAME = "apache2-mod_mono-3.13-1.20.aarch64.rpm"
+RPM_HASH = "d45fb324c68ff3cd163580fd5ac06d44d89ffcb0b943dabe3e35e82bb52bfa38c87552bcbd730282066d55ae49dac1ad739ae0f0323036275d76f6ff79ae32d9"
 
 RPROVIDES:${PN} += "apache2-mod-mono \
 config-apache2-mod-mono \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-berenisadf"
 DESCRIPTION = "This package includes the documentation for texlive-berenisadf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.004svn32215"
+PV = "2026.226.2.1svn77682"
 
-RPM_NAME = "texlive-berenisadf-doc-2023.209.1.004svn32215-54.1.noarch.rpm"
-RPM_HASH = "71235ef8bfa5754c7a6e689874ea8ab071f3b99b410d609e63151d741e6a5410fec23b372492c811a699f1234840f16a1a4f9de4494000dd68a4d065a6264123"
+RPM_NAME = "texlive-berenisadf-doc-2026.226.2.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "0d06e9ba86d4bc20de03df6287e3cef94d20b4f2dab51cd9c4c0eeb9b711809291347eec8502653bd04ec3c28c51159519794a8318993f10b6d9886d1fd95d88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-berenisadf-doc"

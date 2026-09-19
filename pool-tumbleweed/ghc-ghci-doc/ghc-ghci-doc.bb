@@ -2,10 +2,10 @@ SUMMARY = "Haskell ghci library documentation"
 DESCRIPTION = "This package provides the Haskell ghci library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.6"
+PV = "9.12.4"
 
-RPM_NAME = "ghc-ghci-doc-9.4.6-1.1.noarch.rpm"
-RPM_HASH = "65143efa25df10b1f4d06b2f84c685b1891c0d768347a0be863098e4170f90c954127a03534deaaacb0da0e07342ba0d56fc7817541853338f5830aaf581cf95"
+RPM_NAME = "ghc-ghci-doc-9.12.4-1.3.noarch.rpm"
+RPM_HASH = "2312388c7fe07aec35e49fb34106926e598a3d0e93881b6cfcc655111b3edd2e95442d99e90959560afb69e4fb17dc1582a7294559b32f11608d05d636c30f3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-ghci-doc"

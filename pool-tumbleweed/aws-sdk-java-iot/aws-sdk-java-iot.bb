@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for AWS IoT"
 DESCRIPTION = "The AWS Java SDK for AWS Iot Service module holds the \
 client classes that are used for communicating with \
 AWS IoT Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-iot-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "7dd6d06a9579bdb73b8501d20c0bc4e30ccbf66bb213dca24c9f8909a5f357e48a609ea51ef94004acab7017805d0281bd99291b2b4a24e464dca041749c1489"
+RPM_NAME = "aws-sdk-java-iot-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "c84bee0e6a6cb8d7c605dcd063aab53a21c5ee7d92064b7f4c20bcf11f43827d90d75d3f15f1f8314d806c2ec050bcc9135f3c2a47edd65017ba254525f7a51b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-iot \

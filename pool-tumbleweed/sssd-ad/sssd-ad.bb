@@ -1,27 +1,25 @@
 SUMMARY = "The ActiveDirectory backend plugin for sssd"
-DESCRIPTION = "Provides the Active Directory back end that the SSSD can utilize to \
-fetch identity data from and authenticate against an Active Directory \
-server."
+DESCRIPTION = "A back-end provider that the SSSD can utilize to fetch identity data \
+from, and authenticate with, an Active Directory server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.2"
+PV = "2.13.1"
 
-RPM_NAME = "sssd-ad-2.9.2-1.1.aarch64.rpm"
-RPM_HASH = "82855117ece87abcab6a1ac59eaa851d59d96c8e6c0aff674d42f175d49ff4a43a2e24f0b0c4d7edb08cc5a3ba0d7507ebca956dff968540187f5463abecd9b2"
+RPM_NAME = "sssd-ad-2.13.1-2.1.aarch64.rpm"
+RPM_HASH = "819637625765dd097091bc483958bb7ce25349f93036ec341933c75c587a41a5c284249ab99cf8b4e9f84c2e683d5b6698dfd836eda616b6bcffd43cd202d48a"
 
 RPROVIDES:${PN} += "libsss-ad.so \
 sssd-ad"
 
-RDEPENDS:${PN} += "adcli \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdhash.so.1 \
-libini-config.so.5 \
+libini-config.so.8 \
 libldap.so.2 \
 libldb.so.2 \
 libndr-krb5pac.so.0 \
 libndr-nbt.so.0 \
-libndr.so.3 \
+libndr.so.6 \
 libpopt.so.0 \
 libsasl2.so.3 \
 libselinux.so.1 \

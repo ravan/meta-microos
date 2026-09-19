@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.6"
 
-RPM_NAME = "libplot2-2.6-29.4.aarch64.rpm"
-RPM_HASH = "fe7b4644760f5798ae1b381d78cc5264c0c594a582818715f37eebc84694b7fc20ee5bc6745fffa65c0d8fd49f879c85438cee73539c9d31811cc34d6c3994e9"
+RPM_NAME = "libplot2-2.6-31.7.aarch64.rpm"
+RPM_HASH = "f542b576fd9e3f18cde6b5f5fb49949e7897b4bd4368e92089980eba7b65cab6607b4184e672104a457385e045fbba6303c317aa62bf503ea43e21e2a2c95f32"
 
 RPROVIDES:${PN} += "libplot.so.2 \
 libplot2"

@@ -1,13 +1,12 @@
-SUMMARY = "Development files for the opam file syntax parser"
-DESCRIPTION = "This is a parser and a printer for the opam file syntax. \
- \
-This package contains development files for package opam-file-format."
+SUMMARY = "Development files for opam-file-format"
+DESCRIPTION = "The opam-file-format-devel package contains libraries and signature files for \
+developing applications that use opam-file-format."
 LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
-PV = "2.1.6"
+PV = "2.2.0"
 
-RPM_NAME = "opam-file-format-devel-2.1.6-1.2.aarch64.rpm"
-RPM_HASH = "59131477e021f67e2c1e8e1187824daba90ffbb3867e655b5191d3b045ef77c4eb031199a4be38abdd5470af987e15deb7990812fa06e0ba81b0f31807995aa0"
+RPM_NAME = "opam-file-format-devel-2.2.0-2.1.aarch64.rpm"
+RPM_HASH = "6eacddca06a31b33f929b9858cdf96c0e7cba331d07ead0dfe4f4436baa31d37d4e622d475ffcfd11c42dfc9909c8a9f302c22d8f073579fa08c10bd5346de48"
 
 RPROVIDES:${PN} += "ocaml-OpamBaseParser \
 ocaml-OpamLexer \
@@ -27,6 +26,7 @@ ocaml-Stdlib \
 ocaml-Stdlib--Array \
 ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Char \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Hashtbl \
@@ -46,6 +46,7 @@ ocamlx-Stdlib \
 ocamlx-Stdlib--Array \
 ocamlx-Stdlib--Buffer \
 ocamlx-Stdlib--Char \
+ocamlx-Stdlib--Domain \
 ocamlx-Stdlib--Format \
 ocamlx-Stdlib--Hashtbl \
 ocamlx-Stdlib--Lexing \

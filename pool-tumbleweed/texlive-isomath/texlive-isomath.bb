@@ -8,10 +8,10 @@ characters, and defines macros for markup of vector, matrix and \
 tensor symbols."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6.1svn27654"
+PV = "2026.226.0.0.6.1svn27654"
 
-RPM_NAME = "texlive-isomath-2023.209.0.0.6.1svn27654-56.1.noarch.rpm"
-RPM_HASH = "a953b461c67f8f2d65e5ce9b23d60a06f0a6a16e181e574c640401cbde8b9f2387018c9f3a443293c0540bfaae5e6b343c987d1db18bae5ea5ce9e2ec274e270"
+RPM_NAME = "texlive-isomath-2026.226.0.0.6.1svn27654-63.2.noarch.rpm"
+RPM_HASH = "7150b5d28cae5c861979eb018e58e44de4f3ea4d0fc7e3a49762ae4c9d906fad7510daafcaf77698cba39d3ff8788705ba605404861b0958fa59317a11aa10eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-isomath.sty \

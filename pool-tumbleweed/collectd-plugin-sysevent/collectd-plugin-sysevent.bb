@@ -3,10 +3,10 @@ DESCRIPTION = "Optional collectd plugin to listen to rsyslog events and submit m
 ."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-sysevent-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "e676c787394e1f07bcde82061beb4635f0859bbd3afdf52ca6e71fc17dbef0acb65512c8ab58800fa36c408e2e450d0aed4d92de59c844674c5494559a309f7d"
+RPM_NAME = "collectd-plugin-sysevent-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "7e0c251d94e8bed4929dea538fa42c3b27e0eac1e036f6c905bf744d239758a3e2652e9f2bca094b2acf57a23e1534877a193b0525b7d4d95626736ac2e08c93"
 
 RPROVIDES:${PN} += "collectd-plugin-sysevent"
 

@@ -7,10 +7,10 @@ This package provides the header files needed to compile C/C++ codes with \
 awkward."
 LICENSE = "BSD-3-Clause"
 
-PV = "21"
+PV = "53"
 
-RPM_NAME = "awkward-devel-21-2.1.aarch64.rpm"
-RPM_HASH = "39bc518fad3918da2a9c73f366255d4f4dea295302f1b2bfa9a948032f8f3dbe1016a5c46b13a59f75d2e10e23b639491c75b1e9e24efff75777d8c9964d6301"
+RPM_NAME = "awkward-devel-53-1.3.aarch64.rpm"
+RPM_HASH = "d787e776bb7ee07836bc268aab969098a5868bdc9c875eda6ddbd5b1eaceb10bdcf0181e7eec29bac90dba70e4e9d8b8957d3badcaf3a8ec7dbaa068228a0558"
 
 RPROVIDES:${PN} += "awkward-devel \
 cmake-awkward-headers"

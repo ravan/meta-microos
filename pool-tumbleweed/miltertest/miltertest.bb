@@ -7,14 +7,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.0"
 
-RPM_NAME = "miltertest-1.6.0-7.16.aarch64.rpm"
-RPM_HASH = "d9dfd487031e232115491a97f6df4fcaa4bdd75a1c8d42615788dc2f8f5d48049ce5ffc02b85e6d0c29a3e3616adbc66ae83e8e341a525a7f195dc826d6cad42"
+RPM_NAME = "miltertest-1.6.0-13.5.aarch64.rpm"
+RPM_HASH = "ef559442a5e55d90cb36d2d958ecc3b1c86e38a9114c65a1649c76ace52f9b4d108fdba806f0453d2843e714fbe7e4d893842e7ea9efaadf8cb289c5ae446ebf"
 
 RPROVIDES:${PN} += "miltertest"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libbsd.so.0 \
 libc.so.6 \
-liblua5.1.so.5"
+liblua5.3.so.5"
 
 inherit rpm

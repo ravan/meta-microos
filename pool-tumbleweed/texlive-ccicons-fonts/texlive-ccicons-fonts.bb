@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-ccicons"
 DESCRIPTION = "The  separated fonts package for texlive-ccicons"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn54512"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-ccicons-fonts-2023.209.1.6svn54512-53.1.noarch.rpm"
-RPM_HASH = "0302983a781990e2f58d1831004818cd18ba2acafd8880706a11840a99c2d33941fb539c18932d12b2311899340ebcf8d61a05f174f53ecd0c4f8bddb2461172"
+RPM_NAME = "texlive-ccicons-fonts-2026.226.1.6svn77682-59.2.noarch.rpm"
+RPM_HASH = "414d4f80a01b8bb0ab9f56d83de4766337eca881925480453658355b866135848d03c0844be43c64286d24820161bfc812d591b66695b4a11c1344dfde91488a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-ccicons-fonts \

@@ -11,10 +11,10 @@ You can find the more information at \
 http://udk.openoffice.org/python/python-bridge.html"
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-pyuno-7.6.1.1-1.1.aarch64.rpm"
-RPM_HASH = "d5cf3ba15ce182cf4f27b3e9c4c4b3cbd9fb0b9f513d0bf392b461ab24681f8d98988cb6df20aa866ac4f2d4b65aa6bfc3cb04cbb1c1ae83703f6826f12ecf24"
+RPM_NAME = "libreoffice-pyuno-26.8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "6298601424a0cc6281dd8c47c487bb129e0aa3bef7a0491144cb4bc27539be58917cb0d6fbeeedcbeee6e6e0ab1463db4f0fd65530324bb84e069497cbbcf903"
 
 RPROVIDES:${PN} += "config-libreoffice-pyuno \
 libpythonloaderlo.so \
@@ -25,7 +25,8 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpython3.11.so.1.0 \
+libmergedlo.so \
+libpython3.13.so.1.0 \
 libreoffice \
 libstdc++.so.6 \
 libuno-cppu.so.3 \

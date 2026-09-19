@@ -3,10 +3,10 @@ DESCRIPTION = "This plugin provides a log file pattern detector - excluding old 
 logfile entries and searching for the given query."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-log-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "bfc8523090e112f7d81c25c8d7dc5682263c3b0d221a032c6538c2baa53367d03607f5d8858e5806cb10999460248e152891a8a1cd5928704c2a2c93ee6b7830"
+RPM_NAME = "monitoring-plugins-log-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "f81a36317248ace88026f299be5baed14f0708ee8459856d427bc91958631f3479dfe04adbf068e193c814d81abf48c4f9cc9f402003f24371a8720c2713090d"
 
 RPROVIDES:${PN} += "monitoring-plugins-log \
 nagios-plugins-log"

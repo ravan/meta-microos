@@ -2,13 +2,14 @@ SUMMARY = "(No) Arabic hyphenation patterns"
 DESCRIPTION = "Prevent hyphenation in Arabic."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54568"
+PV = "2026.226.svn74115"
 
-RPM_NAME = "texlive-hyphen-arabic-2023.209.svn54568-54.1.noarch.rpm"
-RPM_HASH = "8fba7819cf87c345f55f1df2abca0395f0101c2589c806a85911e21ed00172051e3c778cc9d2f996607157456cb5b3bc3d3d1d3f700ff00eaa8c026c0d4334e6"
+RPM_NAME = "texlive-hyphen-arabic-2026.226.svn74115-60.2.noarch.rpm"
+RPM_HASH = "cd266580056aa5dd225b1592eb343cdddedd0aeb433a801c6cdd2cda5204cec60975549a9f1c352cfc47fbb08055d5c5f5c99570d2df11c64a15baed9ac341a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-hyphen-arabic"
+RPROVIDES:${PN} += "tex-hyph-ar.tex \
+texlive-hyphen-arabic"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \

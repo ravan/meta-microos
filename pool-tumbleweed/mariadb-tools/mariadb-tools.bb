@@ -3,10 +3,10 @@ DESCRIPTION = "A set of scripts for administering a MariaDB or developing \
 applications with MariaDB."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "11.0.2"
+PV = "12.3.2"
 
-RPM_NAME = "mariadb-tools-11.0.2-1.1.aarch64.rpm"
-RPM_HASH = "5c7b01546486b42f0beb018e3461ba686f6bb5e113062cf7b53ca0cd768903a811cfce9412405eadc4c164a8d45a88af2daa4e9e9bbac31a03ddff996fb01d09"
+RPM_NAME = "mariadb-tools-12.3.2-1.3.aarch64.rpm"
+RPM_HASH = "e9a48788b227372e901f19e17f41506e32d2b4bdac5fd89822a4d7c06b60175e3f26f0c12888b051a485acbf6ea7c9e77a32a29477351149dc2be38587ef744c"
 
 RPROVIDES:${PN} += "mariadb-tools \
 mysql-/usr/bin/mysqlhotcopy \

@@ -5,10 +5,11 @@ designed for efficient handling of very large distributed projects. \
 This package contains its tests."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.5.2"
+PV = "7.2.4"
 
-RPM_NAME = "mercurial-tests-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "1d90a07815f12d78897bad0d9f8c9b19253fb7e2322c9cd77ce6c6db71a4e4c26300ef31271cbf524825c4335aa037af85deb30be931366085ae04b71961410f"
+RPM_NAME = "mercurial-tests-7.2.4-1.2.noarch.rpm"
+RPM_HASH = "98a72157eddffcb9db945a805b5ac49097c0f9a7f969abc2cc3b1399c01c9e9a688196b67f2d34b969f2b7209fd623a9981f0cfd0489b063169298dd44854ca3"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mercurial-tests"
 

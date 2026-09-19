@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-polkit"
 DESCRIPTION = "Provides translations for the 'mate-polkit' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "mate-polkit-lang-1.26.1-1.3.noarch.rpm"
-RPM_HASH = "8afa7ca86efaad9d47aa53766a522d4403a8fa84dfa6448820e186aeb25875cca8d114c89d639d3d443113fd066103a93e7069f73f3c9e4f5cb99fe665f1bfca"
+RPM_NAME = "mate-polkit-lang-1.28.1-1.10.noarch.rpm"
+RPM_HASH = "115023be4e67d333b748fe9890fa5eba71cd244de54a8bcc5c2524cd42c92d4186afcff9dbdd8acd5a18b0b42d56f3ce86177aa01cdfb0ac8b1880636c514c9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-polkit-af \

@@ -5,14 +5,15 @@ It also includes the Python and LUA Scripts, and the documentation to develop \
 C/C++ plugins for Orthanc."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.12.1"
+PV = "1.13.0"
 
-RPM_NAME = "orthanc-doc-1.12.1-1.2.noarch.rpm"
-RPM_HASH = "bcd4301e8cdbeffba8c60298ce873ff8e5f0e58b0b2dfcca1815292f2611b407f77cb3bae53317aac43593c14559667145c7a11799e3466ae1324f966c73b1c9"
+RPM_NAME = "orthanc-doc-1.13.0-1.2.noarch.rpm"
+RPM_HASH = "5d7a63dee7a9ee2d10cf92e3efea09711dfe698f80bced624c09be751fb3f2d83da822edbc6f44bedb2de1110b23755ce505b190bed904fdde6fe54f6e577184"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orthanc-doc"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "group-orthanc \
+user-orthanc"
 
 inherit rpm

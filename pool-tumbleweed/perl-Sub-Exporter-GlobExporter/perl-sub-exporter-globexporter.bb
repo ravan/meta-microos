@@ -28,14 +28,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.006"
 
-RPM_NAME = "perl-Sub-Exporter-GlobExporter-0.006-1.4.noarch.rpm"
-RPM_HASH = "6151fd69620894792485c460f7350d849443571f857b4cdf6a37cbea18caaddcf5d09421b089059dbc787559c0c3972e207c12d2867af698dbc827f66dd11e3e"
+RPM_NAME = "perl-Sub-Exporter-GlobExporter-0.006-1.18.noarch.rpm"
+RPM_HASH = "aefd8d827208bdbe86a9c1f56ff411e187f5f0cd2227baacdc2e41b0b46d12ab1d0c8f592bf72368b9dc5d76ab3a9ce6ec56a02268688959d4c3c9f6db8b4c03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--Exporter--GlobExporter \
 perl-Sub-Exporter-GlobExporter"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Sub--Exporter"
 
 inherit rpm

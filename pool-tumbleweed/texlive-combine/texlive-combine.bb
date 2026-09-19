@@ -7,10 +7,10 @@ of Contents. The package cooperates with the abstract and \
 titling packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7asvn19361"
+PV = "2026.226.0.0.7asvn19361"
 
-RPM_NAME = "texlive-combine-2023.209.0.0.7asvn19361-54.1.noarch.rpm"
-RPM_HASH = "2eacbdd889b7484d90ac26a32d8235185dbe47139e4fecbc761d59074a842e0f3d77334481bc533bf9026ae94658f6c747cf8456fb18daac494a2ffcb827876f"
+RPM_NAME = "texlive-combine-2026.226.0.0.7asvn19361-60.2.noarch.rpm"
+RPM_HASH = "d28760075d40abb1931494c8f10d2f74a8794babcf6525c665eeb58626d75109d5eeab098406fccf88bc3f15ade0cf3509d6306648bab1fc34bc64a609031613"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-combcite.sty \

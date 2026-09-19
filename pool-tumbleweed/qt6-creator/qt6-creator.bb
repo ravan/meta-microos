@@ -3,14 +3,18 @@ DESCRIPTION = "Qt Creator is an integrated development environment (IDE) designe
 facilitate development with the Qt application framework."
 LICENSE = "BSD-3-Clause & GPL-3.0-only & GPL-3.0-with-Qt-Company-Qt-exception-1.1 & (LGPL-2.1-only | LGPL-3.0-only) & LGPL-3.0-only"
 
-PV = "11.0.2"
+PV = "20.0.1"
 
-RPM_NAME = "qt6-creator-11.0.2-2.1.aarch64.rpm"
-RPM_HASH = "89414c456769e994f8d31ba976d18065b276f3076f62cb17c8fd06e154de0edfdd6ac6f702b7ca47464c54667fbd73f22b09bb0335b9406a963edcf8713f55cb"
+RPM_NAME = "qt6-creator-20.0.1-1.3.aarch64.rpm"
+RPM_HASH = "39adc552d1be0285794791629a22154982ba6469cd0e53b3797d1cfaa653308db8020d3e52c001823b7a847d5c36e5af1c8a898f52f403e3e99dddc78c700445"
 
-RPROVIDES:${PN} += "libAdvancedDockingSystem.so.11 \
-libAggregation.so.11 \
+RPROVIDES:${PN} += "libAcpClient.so \
+libAcpLib.so.20 \
+libAdvancedDockingSystem.so.20 \
+libAggregation.so.20 \
 libAndroid.so \
+libAnt.so \
+libAppStatisticsMonitor.so \
 libAutoTest.so \
 libAutotoolsProjectManager.so \
 libAxivion.so \
@@ -18,18 +22,20 @@ libBareMetal.so \
 libBazaar.so \
 libBeautifier.so \
 libBinEditor.so \
-libBookmarks.so \
 libBoot2Qt.so \
 libCMakeProjectManager.so \
-libCPlusPlus.so.11 \
+libCPlusPlus.so.20 \
 libCVS.so \
+libCargo.so \
 libClangCodeModel.so \
 libClangTools.so \
 libClassView.so \
 libClearCase.so \
+libCmdBridgeClient.so.20 \
 libCoco.so \
 libCodePaster.so \
 libCompilationDatabaseProjectManager.so \
+libCompilerExplorer.so \
 libConan.so \
 libCopilot.so \
 libCore.so \
@@ -38,87 +44,114 @@ libCppcheck.so \
 libCtfVisualizer.so \
 libDebugger.so \
 libDesigner.so \
+libDevContainer.so.20 \
+libDevContainerPlugin.so \
 libDiffEditor.so \
 libDocker.so \
+libDotnet.so \
+libEffectComposer.so \
 libEmacsKeys.so \
-libExtensionSystem.so.11 \
+libExtensionManager.so \
+libExtensionSystem.so.20 \
 libFakeVim.so \
 libFossil.so \
-libGLSL.so.11 \
+libGLSL.so.20 \
 libGLSLEditor.so \
+libGNProjectManager.so \
 libGenericProjectManager.so \
 libGit.so \
 libGitLab.so \
-libHaskell.so \
+libGradle.so \
 libHelloWorld.so \
 libHelp.so \
 libImageViewer.so \
 libIncrediBuild.so \
 libIos.so \
-libKSyntaxHighlighting.so.11 \
+libKSyntaxHighlighting.so.20 \
 libLanguageClient.so \
-libLanguageServerProtocol.so.11 \
-libLanguageUtils.so.11 \
+libLanguageServerProtocol.so.20 \
+libLanguageUtils.so.20 \
+libLearning.so \
+libLua.so \
+libLuaLanguageClient.so \
 libMacros.so \
-libMarketplace.so \
+libMcpServerLib.so.20 \
 libMcuSupport.so \
 libMercurial.so \
 libMesonProjectManager.so \
 libModelEditor.so \
-libModeling.so.11 \
+libModeling.so.20 \
+libMultiPropertyEditor.so \
+libNanotrace.so.20 \
 libNim.so \
 libPerfProfiler.so \
 libPerforce.so \
-libProParser.so.11 \
+libProParser.so.20 \
 libProjectExplorer.so \
 libPython.so \
 libQbsProjectManager.so \
 libQmakeProjectManager.so \
-libQmlDebug.so.11 \
-libQmlDesignerBase.so \
-libQmlEditorWidgets.so.11 \
-libQmlJS.so.11 \
+libQmlDebug.so.20 \
+libQmlDesigner.so \
+libQmlDesignerCore.so.20 \
+libQmlEditorWidgets.so.20 \
+libQmlJS.so.20 \
 libQmlJSEditor.so \
 libQmlJSTools.so \
 libQmlPreview.so \
 libQmlProfiler.so \
 libQmlProjectManager.so \
 libQnx.so \
+libQtApplicationManagerIntegration.so \
 libQtSupport.so \
+libQtTaskTree.so.20 \
 libRemoteLinux.so \
 libResourceEditor.so \
 libSafeRenderer.so \
+libScreenRecorder.so \
 libScxmlEditor.so \
 libSerialTerminal.so \
 libSilverSearcher.so \
-libSqlite.so.11 \
+libSqlite.so.20 \
 libSquish.so \
 libSubversion.so \
+libSwift.so \
 libTerminal.so \
+libTerminalLib.so.20 \
 libTextEditor.so \
 libTodo.so \
-libTracing.so.11 \
-libUtils.so.11 \
+libTracing.so.20 \
+libUtils.so.20 \
 libValgrind.so \
 libVcpkg.so \
 libVcsBase.so \
 libWebAssembly.so \
 libWelcome.so \
-libqlitehtml.so.11 \
+libZenMode.so \
+libcomponentsplugin.so \
+libmcpserver.so \
+libptracepreload.so.20 \
+libqlitehtml.so.20 \
+libqmlpreviewplugin.so \
 libqt5-creator \
+libqtkeychain.so.20 \
+libqtquickplugin.so \
+qt-creator \
 qt5-creator \
 qt6-creator"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
+libQt6Charts.so.6 \
 libQt6Concurrent.so.6 \
 libQt6Core.so.6 \
-libQt6Core5Compat.so.6 \
+libQt6DBus.so.6 \
 libQt6Designer.so.6 \
 libQt6DesignerComponents.so.6 \
 libQt6Gui.so.6 \
 libQt6Help.so.6 \
+libQt6HttpServer.so.6 \
 libQt6Network.so.6 \
 libQt6PrintSupport.so.6 \
 libQt6Qml.so.6 \
@@ -134,26 +167,46 @@ libQt6SerialPort.so.6 \
 libQt6Sql.so.6 \
 libQt6Svg.so.6 \
 libQt6SvgWidgets.so.6 \
+libQt6Test.so.6 \
 libQt6Widgets.so.6 \
 libQt6Xml.so.6 \
+libarchive.so.13 \
 libc.so.6 \
 libdw.so.1 \
 libelf.so.1 \
 libgcc-s.so.1 \
+libglib-2.0.so.0 \
 libm.so.6 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.8 \
+libyaml-cpp.so.0.9 \
 libzstd.so.1 \
 qt6-sql-sqlite \
-qt6qmlimport-Qt.labs.platform.1 \
-qt6qmlimport-Qt.labs.qmlmodels.1 \
+qt6qmlimport-Qt.labs.platform \
+qt6qmlimport-Qt.labs.qmlmodels \
+qt6qmlimport-QtCharts \
+qt6qmlimport-QtCore \
+qt6qmlimport-QtGraphs \
+qt6qmlimport-QtQml \
+qt6qmlimport-QtQml.Models \
+qt6qmlimport-QtQuick \
 qt6qmlimport-QtQuick.2 \
+qt6qmlimport-QtQuick.Controls \
 qt6qmlimport-QtQuick.Controls.2 \
 qt6qmlimport-QtQuick.Controls.6 \
+qt6qmlimport-QtQuick.Controls.Basic \
+qt6qmlimport-QtQuick.Controls.impl \
+qt6qmlimport-QtQuick.Dialogs \
+qt6qmlimport-QtQuick.Layouts \
 qt6qmlimport-QtQuick.Layouts.1 \
-qt6qmlimport-QtQuick.Shapes.1 \
+qt6qmlimport-QtQuick.Shapes \
+qt6qmlimport-QtQuick.Templates \
 qt6qmlimport-QtQuick.Templates.2 \
+qt6qmlimport-QtQuick.Timeline \
 qt6qmlimport-QtQuick.Timeline.1 \
-qt6qmlimport-QtQuick.Window.2"
+qt6qmlimport-QtQuick.Window \
+qt6qmlimport-QtQuick.Window.2 \
+qt6qmlimport-QtQuick3D \
+qt6qmlimport-QtQuick3D.Helpers \
+qt6qmlimport-QtQuick3D.Particles3D"
 
 inherit rpm

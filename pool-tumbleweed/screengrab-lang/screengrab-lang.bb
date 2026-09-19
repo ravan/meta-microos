@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package screengrab"
 DESCRIPTION = "Provides translations for the 'screengrab' package."
-LICENSE = "GPL-2.0-only"
+LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
-PV = "2.6.0"
+PV = "3.2.0"
 
-RPM_NAME = "screengrab-lang-2.6.0-1.2.noarch.rpm"
-RPM_HASH = "b3f89753461309c2d5e0bf95751b2247f7752d87d0d5410734b09fc2a05b3f0f4082abd3fb34256dc9aa15d606f41bc2036e14ed33d292c196b43f7fec4ba8eb"
+RPM_NAME = "screengrab-lang-3.2.0-2.1.noarch.rpm"
+RPM_HASH = "6c0eeb11fca7fe85fcee3a62b1a0c5665f3d8e047a31063c881157bd31bc45693e81fc792e7fbf68871a65c2f4cc590a503e4482b6cf2d75ecae0e10e03265e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "screengrab-lang \

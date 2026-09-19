@@ -2,10 +2,10 @@ SUMMARY = "Maven Archetype Descriptor model"
 DESCRIPTION = "Maven Archetype Descriptor model."
 LICENSE = "Apache-2.0"
 
-PV = "3.2.1"
+PV = "3.4.1"
 
-RPM_NAME = "maven-archetype-descriptor-3.2.1-2.1.noarch.rpm"
-RPM_HASH = "fb2eb4f77efeaa644dfe8d719cc93d6db84d2f47c19ad43d2034da1f0bfbf628f6677623355aba04fdee5a1a61d72942d0036aab6486edf51697514ca9112461"
+RPM_NAME = "maven-archetype-descriptor-3.4.1-1.7.noarch.rpm"
+RPM_HASH = "51b24b87eadfd7fca8ab9292d9a3cdb1cb86867456296d2c98a2243dfaba8bc9b7b957b2b11578639fd49fae0120dfa60156d39ab0db7ea7f855a37baa8b6577"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-archetype-descriptor \
@@ -15,6 +15,7 @@ osgi-org.apache.maven.archetype.descriptor"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.codehaus.plexus-plexus-utils"
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.codehaus.plexus-plexus-xml"
 
 inherit rpm

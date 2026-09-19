@@ -7,10 +7,10 @@ more sizes than you could reasonably imagine. A sample of these \
 fonts appears in the blackboard bold sampler."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-bbm-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "3a9ad56f440b0aee4140c4ce51681160af4bfc50ec421921ffa318554201cdf37be7fe970ce87ae960dcfb69a3d514c330a4dc5f394780f2e9867d198bce7cc8"
+RPM_NAME = "texlive-bbm-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "81d21b8f8813bca5f73c5a9467c6a616cb5138afa1f71b87ea2ffc247daed3ad73ca1f0a569a3b9f73f57e54731f50cbcb0e01d6dfff7c9881dcbd3c19e43e11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bbm10.tfm \

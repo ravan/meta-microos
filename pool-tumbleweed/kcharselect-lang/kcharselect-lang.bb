@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kcharselect"
 DESCRIPTION = "Provides translations for the 'kcharselect' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kcharselect-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "506efef80f1b7a146a61315d360bb1540239d2547631c9846960439d91cff79dd4163961bffe993d8aac2ca5ff76afc6e18da0d52d23a6cc305173e4ead70f92"
+RPM_NAME = "kcharselect-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "149ace2f984ffb79144d684945171811b37493515c8eddc64a0704808c94ca399f17152f5dab802feb3739a8aeb32316fd25440ffa6d46837137679989c0e9f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcharselect-lang \
 kcharselect-lang-all \
 locale-kcharselect-af \
 locale-kcharselect-ar \
+locale-kcharselect-ast \
 locale-kcharselect-be \
 locale-kcharselect-bg \
 locale-kcharselect-br \

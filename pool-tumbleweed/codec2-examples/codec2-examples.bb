@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2.0"
 
-RPM_NAME = "codec2-examples-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "d2d57de006c7d1f1f6b0351fb0f028a3e75798540006a38a228dad9fa00ba2b13eea66033fb3e64d17f8f9ec3f2348c0eeb0d52d94d0d808d4cfd9a9016ed895"
+RPM_NAME = "codec2-examples-1.2.0-2.8.noarch.rpm"
+RPM_HASH = "35fbd1bfac879c78c0949c35e066953e234153f90eeb1e5483839afb752c1bd290f565295823f8f12f33525a032590ef0d6a476c38c3411b347116c20bc32a78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "codec2-examples"

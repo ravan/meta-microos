@@ -3,10 +3,10 @@ DESCRIPTION = "A Qt 6 library which is used for connection with an SQL server. Y
 will need also a plugin package for a supported SQL server."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Sql6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "6f3d1f2f809b9811bcc0745847c2a6d047985bc7b237c830191cf551636d34e93ef91bfd3a0daa1607fd71931c2e774037b5dc6a98b7e7489759f8c323b7a62e"
+RPM_NAME = "libQt6Sql6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "8985305c00b25145ceabf3b0f8e03a43154b21002614fb830548b2004dcf8a0815cb2df97ab7b1eb3562bbd6880dae924334274649dc6cb72f2f23538f7e3c27"
 
 RPROVIDES:${PN} += "libQt6Sql.so.6 \
 libQt6Sql6"

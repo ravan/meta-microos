@@ -4,10 +4,10 @@ and company ID data as provided by IEEE.org.  This package is only \
 needed if you want to build the arpwatch-ethercodes package."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.3"
+PV = "3.9"
 
-RPM_NAME = "arpwatch-ethercodes-build-3.3-2.3.aarch64.rpm"
-RPM_HASH = "43d519996d396a3550fc3d787ca8e70f868abb5b8d18144736120313814add5bf411f09b1b55741871e6c91adcd896fd698a6402dda535cf5864459ac44ebd41"
+RPM_NAME = "arpwatch-ethercodes-build-3.9-1.4.aarch64.rpm"
+RPM_HASH = "8ccbc98a6913eee4318187e1443da95c4990beee6fd51d1b54e8481bcc4c1580fff6f6d6bd352845fecdd1107e35761e7bc7c46705d6ad3a8a5e0d8ddb5f1b3a"
 
 RPROVIDES:${PN} += "arpwatch-ethercodes-build"
 

@@ -15,10 +15,10 @@ language, so that it is easy to incorporate Greek letters and \
 mathematical symbols in labels."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12.23"
+PV = "2.12.27+git20240405.4d93a4e"
 
-RPM_NAME = "gri-2.12.23-23.14.aarch64.rpm"
-RPM_HASH = "0bc355c0ad60f6b6a758afbff48e283e2e827c6a96ce9a004564299a839135513e6926d38efc5034ccd4208e17fdcff81ecda82769da87f88401c92204274d66"
+RPM_NAME = "gri-2.12.27+git20240405.4d93a4e-2.1.aarch64.rpm"
+RPM_HASH = "54526d524483e5ec8348f205440a14da4ae3238fd45239a97bbd67f47d3425e03bb160c77869ddf9ff3def30ec9e0a746f575fef37b68c4f74dd5862ca9772cc"
 
 RPROVIDES:${PN} += "gri"
 

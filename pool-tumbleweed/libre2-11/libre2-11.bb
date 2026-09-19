@@ -12,24 +12,27 @@ searches run in time linear in the size of the input, at the expense of some \
 missing features (e.g. back references and generalized assertions)."
 LICENSE = "BSD-3-Clause"
 
-PV = "20230901"
+PV = "20251105"
 
-RPM_NAME = "libre2-11-20230901-56.2.aarch64.rpm"
-RPM_HASH = "153ae7fd037c64fba297225491295258ea6275ece02218947406b9507dcc62e6014b54e707dfd03d85e3a668857c5eeb00534df695483a937740621930bd160a"
+RPM_NAME = "libre2-11-20251105-69.7.aarch64.rpm"
+RPM_HASH = "efe8078a32104afa8accf6b6d1c612fed05143b65108dd09ba4293a2695da9289990107fd97e00c511fb97b3a540d60adfd0aea3e18973014242a23554309048"
 
 RPROVIDES:${PN} += "libre2-11 \
 libre2.so.11"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libabsl-hash.so.2308.0.0 \
-libabsl-raw-hash-set.so.2308.0.0 \
-libabsl-spinlock-wait.so.2308.0.0 \
-libabsl-str-format-internal.so.2308.0.0 \
-libabsl-synchronization.so.2308.0.0 \
+libabsl-hash.so.2608.0.0 \
+libabsl-log-internal-message.so.2608.0.0 \
+libabsl-raw-hash-set.so.2608.0.0 \
+libabsl-spinlock-wait.so.2608.0.0 \
+libabsl-str-format-internal.so.2608.0.0 \
+libabsl-strings.so.2608.0.0 \
+libabsl-synchronization.so.2608.0.0 \
+libabsl-throw-delegate.so.2608.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicuuc.so.73 \
+libicuuc.so.78 \
 libm.so.6 \
 libstdc++.so.6"
 

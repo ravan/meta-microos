@@ -21,14 +21,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.01"
 
-RPM_NAME = "perl-XML-Filter-BufferText-1.01-9.28.noarch.rpm"
-RPM_HASH = "c8f97d8b81436bfbedb70e4220d3f02013788d7cc3c3529beb9d38f161f6f54494ff1cc27100d3c32e9ed3186ef40497b3ee4c234b449b1506a8a2cb1274640b"
+RPM_NAME = "perl-XML-Filter-BufferText-1.01-9.42.noarch.rpm"
+RPM_HASH = "c44dd91a8f25d95e38fdc924edf875d947ca2b9e98abeea45190730e008abf8da5050fc72a89ca36d17142188499ef2896eb391c257d11f9f4592efd57f6f31c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Filter--BufferText \
 perl-XML-Filter-BufferText"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-XML--SAX \
 perl-XML--SAX--Base"
 

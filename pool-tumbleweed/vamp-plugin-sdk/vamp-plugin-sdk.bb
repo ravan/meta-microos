@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.10.0"
 
-RPM_NAME = "vamp-plugin-sdk-2.10.0-1.13.aarch64.rpm"
-RPM_HASH = "f85f66393d84124f803141f0016dbd34addef1968c9da54ec233b8c4c206330fb34b989e109bdf1d4ea53ef821f4be4a0cb7f9ea6302a3950030b39ec964c45e"
+RPM_NAME = "vamp-plugin-sdk-2.10.0-1.24.aarch64.rpm"
+RPM_HASH = "9e4ae041a1d6c118040d3a7fd8d618a0ee40e719c2ea08f8e7c05a1ec88b77df926f6540d76be7acbca34bfe4997d28359839977484359d7b5dd0eb1724f77ce"
 
 RPROVIDES:${PN} += "vamp-plugin-sdk"
 

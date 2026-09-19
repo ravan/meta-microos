@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains development files for the Tesseract Open So
 Engine."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "5.3.1"
+PV = "5.5.3"
 
-RPM_NAME = "tesseract-ocr-devel-5.3.1-1.1.aarch64.rpm"
-RPM_HASH = "f43cbeb9db9199e9daa895b15cbd673ca655ab3a60ca164a32061ace81f4f4944a5536949c9f32b2a0251e3c207f4cb915f01237ced86083fe1a322a3478a3bb"
+RPM_NAME = "tesseract-ocr-devel-5.5.3-1.1.aarch64.rpm"
+RPM_HASH = "f7db865cb84ba6ef688ba68e0d1bacf643b8e585d97bf53c9322ed85d059395c7264078e124f11c765b12447ed748f224356c8cb5a78bac77512543ecad6087b"
 
 RPROVIDES:${PN} += "pkgconfig-tesseract \
 tesseract-ocr-devel"

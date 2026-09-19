@@ -5,16 +5,16 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "qpdfview-plugin-image-0.5.0-2.1.aarch64.rpm"
-RPM_HASH = "33d8655d9a5f3bbfc704e43dca263448ff29b868a7a85afaa907dc511f63e3de574b29510e119c8387cf137c681952a6e362ecf8157088c2c51e40d15df9b400"
+RPM_NAME = "qpdfview-plugin-image-0.5.0-4.5.aarch64.rpm"
+RPM_HASH = "4323730220cdd5f528fffb1bf5f2615a2c6de662e326e8b999f20b4c402f6a9b56fd65889a4199fe65964e468f830bd4c812640acc9bd3c18c641863e8847e16"
 
 RPROVIDES:${PN} += "libqpdfview-image.so \
 qpdfview-plugin-image"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

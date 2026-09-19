@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-applets"
 DESCRIPTION = "Provides translations for the 'mate-applets' package."
 LICENSE = "GFDL-1.1-only & GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-applets-lang-1.26.1-1.5.noarch.rpm"
-RPM_HASH = "0ee3f80e80e12f9fbd665fb7b559f3b112037733e8c47dda8f03b9a45863dc934413de9c59cfefd1aa19b7a9ca34a6bc0b933fe61d6a5f30757bb281a61902cb"
+RPM_NAME = "mate-applets-lang-1.28.0-1.11.noarch.rpm"
+RPM_HASH = "c03fea1503bc3cddeea5e2266cbc6d257a59972a9f08cb982c1b06c0e9004904b054b647ce7c608248f216cb36519becb65ee104dd2429e185423c6b6b80a45f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-applets-af \

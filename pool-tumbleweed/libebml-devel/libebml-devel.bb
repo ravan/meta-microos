@@ -3,10 +3,10 @@ DESCRIPTION = "libebml is a C++ library to parse EBML files. See the EBML RFC at
 http://www.matroska.org/technical/specs/rfc/index.html ."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.4.4"
+PV = "1.4.7"
 
-RPM_NAME = "libebml-devel-1.4.4-1.4.aarch64.rpm"
-RPM_HASH = "98fd9b9dbf7fa28ae34605bc7d48fad9d29f805a4fcf1558d359e7b737103ceec5f3494e9b350066dc7a8a91f2a583d7ff2e8571b93b436ca6bb737d4b42339c"
+RPM_NAME = "libebml-devel-1.4.7-1.1.aarch64.rpm"
+RPM_HASH = "e511d69444dea0e9ae8991afb751b61e02bd11cac7ddcd4865c73af06ea9411ce4664c262fab8fa5c5d55bb999caed1c9b20f2086ec2a7330a7c57588315ba48"
 
 RPROVIDES:${PN} += "cmake-EBML \
 libebml-devel \

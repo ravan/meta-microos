@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-ext"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-ext"
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.209.0.0.4.2svn64920"
+PV = "2026.226.0.0.6.2svn75014"
 
-RPM_NAME = "texlive-tikz-ext-doc-2023.209.0.0.4.2svn64920-53.1.noarch.rpm"
-RPM_HASH = "bc9db0c36b9f5d6e6b17ffc413ae731b6b599c8e712b627a5deee9cf99f40f59cffe2c775a678e35e5fac8b13a2cca937c1b698412223d8b7a1859e54955d098"
+RPM_NAME = "texlive-tikz-ext-doc-2026.226.0.0.6.2svn75014-59.2.noarch.rpm"
+RPM_HASH = "e2ec267931570a512a830cf8a18f1f2cc03fd2bbd5ccb49a76fa633be3790fcfa1c8296e2306cef24bd1970f8c393bace2690f807097b5c968227e9e38bfd4b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-ext-doc"

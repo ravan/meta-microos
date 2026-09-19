@@ -7,10 +7,10 @@ XPath and XSLT transforms. \
 This package includes files needed for development with xml-security-c."
 LICENSE = "Apache-2.0"
 
-PV = "2.0.4"
+PV = "3.0.0"
 
-RPM_NAME = "libxml-security-c-devel-2.0.4-1.10.aarch64.rpm"
-RPM_HASH = "c79e60eb5c1118626761ca8fee3adcdd756ba62c98194a8463753f6299af5c5b0199244f9c4ae5bdf97360832926773a05dd53218588019856643c32783a829d"
+RPM_NAME = "libxml-security-c-devel-3.0.0-1.8.aarch64.rpm"
+RPM_HASH = "48e59eb314ef2d3602471afff9c003280bd73020e5be0425cd9ad3c163594d22bbb569d0c52d4625c39e31abc0bec56ed9ea4b287a928e366ca32c85c31be40f"
 
 RPROVIDES:${PN} += "libxml-security-c-devel \
 pkgconfig-xml-security-c \
@@ -19,7 +19,7 @@ xml-security-c-devel"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxalan-c-devel \
 libxerces-c-devel \
-libxml-security-c20 \
+libxml-security-c30 \
 openssl-devel \
 pkgconfig-libcrypto \
 pkgconfig-xerces-c"

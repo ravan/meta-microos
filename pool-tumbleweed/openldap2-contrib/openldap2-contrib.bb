@@ -18,10 +18,10 @@ variant       allows attributes/values to be shared between several entries \
 vc            implements the verify credentials extended operation"
 LICENSE = "OLDAP-2.8"
 
-PV = "2.6.4"
+PV = "2.6.13"
 
-RPM_NAME = "openldap2-contrib-2.6.4-2.2.aarch64.rpm"
-RPM_HASH = "189471e721892cc1bfbaf3868fd2fee682feb4c24086b4841a508427d8fa025960f34b3d5f12877e949ab70b07bd99f462cf0ef7db001d585fbdf8a19cd2757c"
+RPM_NAME = "openldap2-contrib-2.6.13-1.6.aarch64.rpm"
+RPM_HASH = "8810eafda465bc621c6bd4aee96a0dfa5a5cc207337ade4f7c3811837cb32e9216ec585c87f40d64c439443db47d56e1c70ee65e00a598465e41d1207d4d3afa"
 
 RPROVIDES:${PN} += "openldap2-contrib"
 

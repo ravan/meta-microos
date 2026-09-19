@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chktex"
 DESCRIPTION = "This package includes the documentation for texlive-chktex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.7.8svn64797"
+PV = "2026.226.1.7.10svn78219"
 
-RPM_NAME = "texlive-chktex-doc-2023.209.1.7.8svn64797-54.1.noarch.rpm"
-RPM_HASH = "190be014048d1ccf2bd4d9c1202ac69aedcfe61f4b65783ae5efdbf8027b988aa196d328406c655018c50e68ac93aeb038b1f9bf74c9d2f063a94298c3dadb1a"
+RPM_NAME = "texlive-chktex-doc-2026.226.1.7.10svn78219-60.2.noarch.rpm"
+RPM_HASH = "f262526816d7ed09451e1231e57d63a9878a7d8dbc758e79b4b7be729c0ff66deb03eceaeb24f4636a948c4c3bd4fe310f79d494d3f0deabab1e710a3f4dca86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-chktex.1 \

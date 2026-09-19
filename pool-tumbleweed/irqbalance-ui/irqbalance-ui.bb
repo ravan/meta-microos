@@ -1,11 +1,11 @@
 SUMMARY = "UI for IRQ balance Daemon"
 DESCRIPTION = "Text UI for the IRQ balance daemon."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-2.0-only"
 
-PV = "1.9.2.24.git+184c950"
+PV = "1.9.5.3.git+48ab93a"
 
-RPM_NAME = "irqbalance-ui-1.9.2.24.git+184c950-1.1.aarch64.rpm"
-RPM_HASH = "7ab5e912d3aebde24006603ddacd3b37bc4cffc8f360f7bbc84c2459f8934cfb7a3f6ace76913bb5d79a92f4acf9a90172b39e9f790801ae699026ca02e6883f"
+RPM_NAME = "irqbalance-ui-1.9.5.3.git+48ab93a-1.5.aarch64.rpm"
+RPM_HASH = "7995661999587049d32ea1684cc6e2fda885453b116787eff9c846fcb8069a765a61c5c6740f91fef44efac8fb1d9ca64255f84a9cbf8a17a7c997bf601c007f"
 
 RPROVIDES:${PN} += "irqbalance-ui"
 

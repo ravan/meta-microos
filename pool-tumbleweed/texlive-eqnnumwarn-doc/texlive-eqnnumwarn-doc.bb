@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eqnnumwarn"
 DESCRIPTION = "This package includes the documentation for texlive-eqnnumwarn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn45511"
+PV = "2026.226.1.0svn75878"
 
-RPM_NAME = "texlive-eqnnumwarn-doc-2023.209.1.0svn45511-54.2.noarch.rpm"
-RPM_HASH = "a28640999833e4a9134573e14ac78d06a24d62f51773c817f78565019200a70b678c51085fa510ac831faeeef8a60dd2060b0627cd57e1a632756c8d2a14afb1"
+RPM_NAME = "texlive-eqnnumwarn-doc-2026.226.1.0svn75878-61.4.noarch.rpm"
+RPM_HASH = "64cb420cdfcb4a0d4ada300712b5de36e8787bba3222c442c52a2daf2b7e83121d989ed19fbe263f008b8f5e51edebab7f7a0b0d17062f7073022ffcba3b6bb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eqnnumwarn-doc"

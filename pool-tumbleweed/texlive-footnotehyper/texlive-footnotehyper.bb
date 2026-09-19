@@ -1,13 +1,16 @@
-SUMMARY = "Hyperref aware footnote.sty"
-DESCRIPTION = "The footnote package by Mark Wooding dates back to 1997 and has \
-not been made hyperref compatible. The aim of the present \
-package is to do that."
+SUMMARY = "A hyperref aware footnote environment"
+DESCRIPTION = "This package provides a footnote environment allowing verbatim \
+material and a savenotes environment which captures footnotes \
+across problematic environments. It is a successor to the \
+footnote package by Mark Wooding which had various \
+compatibility issues with modern packages (hyperref, color, \
+xcolor, babel-french)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1esvn60374"
+PV = "2026.226.1.1fsvn77682"
 
-RPM_NAME = "texlive-footnotehyper-2023.209.1.1esvn60374-53.1.noarch.rpm"
-RPM_HASH = "04ae9d12cbe9fc04b8dfb6e4911561851c065b40e82fc7c67d2f32a832f07e9142c4459f07ae9e613bedced9de06c84efc3f8e2fb8e92e5944b8bfdb07493673"
+RPM_NAME = "texlive-footnotehyper-2026.226.1.1fsvn77682-60.2.noarch.rpm"
+RPM_HASH = "352124070cfe760319068e57154019bd0957e4b8478afa51daa9cc790ee8dc43a71583f0d05d0e578a38ba15eec09a4d19daaf6e092e2c1bffae10aa0224cf1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-footnotehyper.sty \

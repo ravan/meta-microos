@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-selectp"
 DESCRIPTION = "This package includes the documentation for texlive-selectp"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.0svn20185"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-selectp-doc-2023.209.1.0svn20185-54.1.noarch.rpm"
-RPM_HASH = "99809982293debb05e1dccb68b6a38abbfadb04dbbd099c566e36e5cdb25dcac351560fd97fe3539e1be5a3b50cd2c03bf85d9f3d2c17fc65a1bad53f52ab856"
+RPM_NAME = "texlive-selectp-doc-2026.226.1.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "2b89df530ed13493c8401516cbb66657c0039b1e157cc94c5c217908703622389fb63ebee546b915ee6ab08a2c224d4e20708ca4b98bbb1ebea527e0fd2612f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-selectp-doc"

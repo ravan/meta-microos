@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.0+git.20210311"
 
-RPM_NAME = "dumpzilla-bash-completion-0.0.0+git.20210311-1.2.noarch.rpm"
-RPM_HASH = "1716fab32380de6a44e540b3a060d663f3037a2d1f5954187e0fd3ec8d9d9f2d8776bab2a34f32877bda077a9d7eb54ec8be72255e23a68c5c06bc064ce4c9f5"
+RPM_NAME = "dumpzilla-bash-completion-0.0.0+git.20210311-1.10.noarch.rpm"
+RPM_HASH = "e9577d38ff6d2d130739fc205aa556261bf8b22615a73028ce4ae034430146c7ddfa204292649299edf60aafa8643b74122bab4d851fe734f6464a6cb7920603"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dumpzilla-bash-completion"

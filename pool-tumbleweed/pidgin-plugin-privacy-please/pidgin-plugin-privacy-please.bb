@@ -18,8 +18,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.7.1"
 
-RPM_NAME = "pidgin-plugin-privacy-please-0.7.1-1.25.aarch64.rpm"
-RPM_HASH = "a0c3234d3db7188367089bd9b17252286f8a47eb0567f0427ab0d5f62c33530d97f80b47882dbb096875d5c83ea40c26787c96b506cc2070c4fae14fa8987d2a"
+RPM_NAME = "pidgin-plugin-privacy-please-0.7.1-1.35.aarch64.rpm"
+RPM_HASH = "abbb40284056e3a909afcf35e88ae42a946132ed1be8d7fa6640eab8f6985f8d4a6c571eb6bd0f022fbf0fa3367a5f9ef44451380146793d3c43102c97c7f324"
 
 RPROVIDES:${PN} += "libpidgin-pp.so \
 pidgin-plugin-privacy-please"

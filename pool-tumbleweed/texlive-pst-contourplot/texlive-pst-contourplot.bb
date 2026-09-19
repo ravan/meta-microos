@@ -5,10 +5,10 @@ marking the points and arrowing the curve at points chosen by \
 the user. The package uses the 'marching squares' algorithm."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn48230"
+PV = "2026.226.0.0.6svn48230"
 
-RPM_NAME = "texlive-pst-contourplot-2023.209.0.0.6svn48230-53.1.noarch.rpm"
-RPM_HASH = "b72239bd85808f9440ff01fb794f2259b4aa569b718a7d2d5d57e28481472aa6935e6d316a4ebf799bcd7015e58d8681a550c2495da0d19b0f1fdd7f560164a4"
+RPM_NAME = "texlive-pst-contourplot-2026.226.0.0.6svn48230-59.2.noarch.rpm"
+RPM_HASH = "1f89d030bdb4f6facecb8ac9e32cc18b3acf6c4e87585049391f7845d956c912af6c25365e936a31a211c2f27f61ebda1d90a47247a37c8bd419ed0fd1a5a774"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-contourplot.sty \

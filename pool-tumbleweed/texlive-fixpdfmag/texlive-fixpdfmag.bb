@@ -5,10 +5,10 @@ the page dimension variables from pt to truept, thus evading \
 the effects of \\mag."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-fixpdfmag-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "fb11b966966ed950bf30a5a0e674e8c0e4fded0ef2c86402ae2e41869cf48ee76decc489667afc5dd67f6c9a9a7bde4f8e1509e82f41f4c101e81b8381d768dc"
+RPM_NAME = "texlive-fixpdfmag-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "d0828ca818c22c63d2217cddfa10a2b4dd01df19862fcc00b7686e4d4edf49b3e45cc123ff84b8a68ab290bf21892f1634ce14dde92b0ff394fc9171db707941"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fixpdfmag.tex \

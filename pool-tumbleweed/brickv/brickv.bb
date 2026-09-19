@@ -2,17 +2,17 @@ SUMMARY = "Tinkerforge Brick Viewer"
 DESCRIPTION = "Small Qt GUI to control and test all Bricks and Bricklets from Tinkerforge."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.4.25"
+PV = "2.4.27"
 
-RPM_NAME = "brickv-2.4.25-1.4.noarch.rpm"
-RPM_HASH = "ea3eea7410adab6ea2b85ceb9175f22a43d0ce639e1da31ae935a56ea59b98bf201a44626ac45ad77cc55581a9a40869d2f5b3ea0fab37aea176d07555188eb0"
+RPM_NAME = "brickv-2.4.27-1.3.noarch.rpm"
+RPM_HASH = "98dc7b1b8deba8f72c6b93b12d69f001f7fe2cfee0d6f8bca907eb218a22613de00f0aa2585a9fbda802321dd5af631d48176a10f2dbdb863e363fa3887fbfeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brickv \
-python3.11dist-brickv \
+python3.13dist-brickv \
 python3dist-brickv"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-pytz \
 python3-qt5 \

@@ -26,12 +26,12 @@ The texlive package includes a full texmf tree, many programs like tex, \
 dvips, etc., shell script configuration, and a big collection of \
 documentations. This package is easily configured by the script \
 texconfig and has multilanguage options."
-LICENSE = "Apache-2.0 & Artistic-1.0 & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & LPPL-1.3c & LPPL-1.0 & MIT & BSD-3-Clause & SUSE-TeX & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & Artistic-1.0 & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & LPPL-1.3c & LPPL-1.0 & MIT & BSD-3-Clause & SUSE-TeX & LicenseRef-SUSE-Public-Domain"
 
-PV = "2023.20230311"
+PV = "2026.20260301"
 
-RPM_NAME = "texlive-2023.20230311-93.2.aarch64.rpm"
-RPM_HASH = "84465cf6333ee21e2c4cfcbdc0ba740e628989c50efb7b86b4f6afa225deb3b3bb00916e214b91254a90de39b6e9b9d87930d82c2beffa9c17e78378ad0380ee"
+RPM_NAME = "texlive-2026.20260301-120.4.aarch64.rpm"
+RPM_HASH = "9ac94f7d1d753dae83227d07502897f96f0c652b237b94063be693ddbd6047d9d550a7cf876428a1219b49e2ed9fab263789ecdc129e8c35c41b974f9fba9593"
 
 RPROVIDES:${PN} += "texlive"
 

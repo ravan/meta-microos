@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-latex-firstaid-dev"
 DESCRIPTION = "This package includes the documentation for texlive-latex-firstaid-dev"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0wsvn65181"
+PV = "2026.226.pre_release_1svn77483"
 
-RPM_NAME = "texlive-latex-firstaid-dev-doc-2023.209.1.0wsvn65181-56.1.noarch.rpm"
-RPM_HASH = "adfedb9df61b4d9527af9ce4310a5bdfa93b331951f2149f17e718c88e0bd95d1d84c46294056f137830d4a305087c03e62f310a29b0a0e6e42b685728c43bc1"
+RPM_NAME = "texlive-latex-firstaid-dev-doc-2026.226.pre_release_1svn77483-63.2.noarch.rpm"
+RPM_HASH = "281f6714ff44e08817861ea63302601a0f486003fec6e0ba1be0e0969e06040501d2269931c33b118dcb0c45223d69d32c7b9c64069a445004d0188e483fa085"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-firstaid-dev-doc"

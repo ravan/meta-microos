@@ -4,10 +4,12 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.4"
 
-RPM_NAME = "usbauth-notifier-1.0.4-1.7.aarch64.rpm"
-RPM_HASH = "bae717c863421c7992e229cb11f11737565a71e445426eaea491ef96f4554bc80b0a0681e71eb345fdcaa6d0bc1c7c7e22c8cbf3c0bb39ee77b97c68ed11f8e7"
+RPM_NAME = "usbauth-notifier-1.0.4-2.10.aarch64.rpm"
+RPM_HASH = "6550b21ddeed4d846f6bb2ae023ec46b389381d448903402743282a56f65e2984c9774330b66b61a1abf3351b90f93c15e63c7d34323187098a8ec218a2ac538"
 
-RPROVIDES:${PN} += "usbauth-notifier"
+RPROVIDES:${PN} += "group-usbauth \
+group-usbauth-notifier \
+usbauth-notifier"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \

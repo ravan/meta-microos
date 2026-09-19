@@ -1,11 +1,11 @@
 SUMMARY = "Convert AFM to TeX property list (.pl) metrics"
-DESCRIPTION = "Program home page: http://tex.aanhet.net/afm2pl/"
+DESCRIPTION = "Program home page: https://tex.aanhet.net/afm2pl/"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn71515"
 
-RPM_NAME = "texlive-afm2pl-2023.209.svn66186-55.1.noarch.rpm"
-RPM_HASH = "bb7a228d1957f7d755a7a8b4030293242f85da844712b3edadc40acc71172ee257820b9e646811739b5b12bf087091fde680cec006e64d1876955c5ca7630f22"
+RPM_NAME = "texlive-afm2pl-2026.226.svn71515-61.2.noarch.rpm"
+RPM_HASH = "f9ea8340cb5846865f4118f208493f73f3223de4d99025d3270b2d879af3ff06be2df540476719f1eb76925378733bbe9c0b89af1c719aba2cfcd6db07e814d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-afm2pl-ot1.enc \

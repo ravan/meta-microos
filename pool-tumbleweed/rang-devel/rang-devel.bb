@@ -1,11 +1,11 @@
 SUMMARY = "A C++ library for color emission in the terminal"
 DESCRIPTION = "A minimal, header only C++ library for emitting colors in the terminal."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "3.2"
+PV = "3.3"
 
-RPM_NAME = "rang-devel-3.2-1.2.aarch64.rpm"
-RPM_HASH = "0c8c8c4af21b4d833a2ad8a4eb55c3d9851d3114a7b4733df2711c3b00abf825c92f67d6d9ef952b8bfdd0a01e75cc8def6ed98a4879ba3354a198a9a2fd6b35"
+RPM_NAME = "rang-devel-3.3-1.2.aarch64.rpm"
+RPM_HASH = "6e2e6016f9b9261310f9e8abd15a849a5af34d0da5a8d0c42a0fa64bfe50f77fa1f258fd49b78682425b2786dd94366d36b24fa102fe82869bca7de787005326"
 
 RPROVIDES:${PN} += "pkgconfig-rang \
 rang-devel"

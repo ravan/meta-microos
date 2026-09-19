@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.100"
 
-RPM_NAME = "libmp3lame-devel-3.100-5.4.aarch64.rpm"
-RPM_HASH = "132ad6377adb5825dd9c7a57fafd1ebb8d4c879e592e4cdf22eccc1b863f31b5661c462f23977d150241ae0c47ccbcd0579b527c7eecf2f9afff007c34e48e7b"
+RPM_NAME = "libmp3lame-devel-3.100-5.15.aarch64.rpm"
+RPM_HASH = "f2282f672c43ad096e4d50f455b0cbd02a6c03b2be88621f5edb70f942018c9c7659de925eb41ef7d04b8f67a9499a216a17898ef9b2ad85076327e8efa01960"
 
 RPROVIDES:${PN} += "libmp3lame-devel \
 pkgconfig-lame \

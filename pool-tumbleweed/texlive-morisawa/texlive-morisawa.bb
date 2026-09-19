@@ -5,10 +5,10 @@ as part of jsclasses bundle, and the TFM/VF files were \
 previously distributed as part of the ptex-fonts package."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn46946"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-morisawa-2023.209.svn46946-55.1.noarch.rpm"
-RPM_HASH = "a1f9fa33401842ddb4fe9e2a5f788ab40c9a6c7225d4e589665648845fabecaaf1ca7be64b35e479e6a32ef2bea8761e2948a3053d6ae878ed2fe81340e50e0e"
+RPM_NAME = "texlive-morisawa-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "8c1e4e18c41a47d93fe5324c88fbf72b24ff97b2379d1952aaa66b171772f37eee66d2d3ae6707a0ea0f06ee0dbdd35ddef59117416e82d63bca524e5e95e618"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-FutoGoB101-Bold-H.tfm \

@@ -3,10 +3,10 @@ DESCRIPTION = "xyscan is a tool for scientists in need of extracting data points
 i.e. numeric values, from a plot."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.64"
+PV = "4.68"
 
-RPM_NAME = "xyscan-4.64-1.7.aarch64.rpm"
-RPM_HASH = "dbfed6572bc1fcb71a903c17506a34825f6845c5d0b955419f07381a54c38e9ffc60f3947e2bff1c54e13eb4943be918d79b2f46c81d89e1a6003ed62b6dd2a5"
+RPM_NAME = "xyscan-4.68-1.3.aarch64.rpm"
+RPM_HASH = "07b073cde59539e8004bd634c61c2af75b2e2f8e4ece8816d5e2c4baca51d5879df84ac80447e50bb226e6c2feea044a79a1538701fb97453609ffc695bd4a4b"
 
 RPROVIDES:${PN} += "xyscan"
 

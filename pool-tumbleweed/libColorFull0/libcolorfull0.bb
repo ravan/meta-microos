@@ -11,12 +11,12 @@ DESCRIPTION = "ColorFull is a C++ library for calculations in QCD (SU(Nc)) color
 * Be interfaced to Herwig++ (>= 2.7) via Matchbox. \
  \
 This package provides the shared library for ColorFull."
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
 PV = "1.1"
 
-RPM_NAME = "libColorFull0-1.1-1.25.aarch64.rpm"
-RPM_HASH = "98e385bb4e79696c68157faff0750b4390cc3c6d0456f5d6dc476559762685a279b9457fce2e26fb1569bb551c92b5688046441e200b6581a58a8d17003cf643"
+RPM_NAME = "libColorFull0-1.1-2.9.aarch64.rpm"
+RPM_HASH = "24d598c0f3bff6c4ce98d4368b25f1b83a08e29302b18bc2e557b2f20ae75820a55733152e68732ba18edf9763411af30dce730e9d824582dec33bdc477c2901"
 
 RPROVIDES:${PN} += "libColorFull.so.0 \
 libColorFull0"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kurdishlipsum"
 DESCRIPTION = "This package includes the documentation for texlive-kurdishlipsum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn47518"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-kurdishlipsum-doc-2023.209.1.1svn47518-56.1.noarch.rpm"
-RPM_HASH = "3a5c093349bef64f38475037f17f02120bbe03e61e8ec47c4c7608750da1efc6417d3cedf1d9b68cf76a640dfff8ca7ae9bf45b6f250199e0126c4801fd44590"
+RPM_NAME = "texlive-kurdishlipsum-doc-2026.226.1.1svn77682-63.2.noarch.rpm"
+RPM_HASH = "9d139d55b2c457b08a8755dea8b770b524d53a8774967c7f89bcf55f14a2ea8beac3d3ef5430e56c5f8536e147e504615d2871d42b976eed412a3bfb2ec926b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kurdishlipsum-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-hungarian"
 DESCRIPTION = "This package includes the documentation for texlive-babel-hungarian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5csvn49701"
+PV = "2026.226.1.6asvn77586"
 
-RPM_NAME = "texlive-babel-hungarian-doc-2023.209.1.5csvn49701-54.1.noarch.rpm"
-RPM_HASH = "47b3bf388d10fd9fc7bca37ac157649dd0d8eccd858daac502316c91864b7142d5d9569b28b695f9b8f8200f4a3e7aaf1cd52a1e22161c46950b9ab20a156d40"
+RPM_NAME = "texlive-babel-hungarian-doc-2026.226.1.6asvn77586-60.2.noarch.rpm"
+RPM_HASH = "f932b3159ab74ae9fe52b590f18062ea8c3cb028bc05e3765fbf8548e3a6daa8e853814d5687173ef7735a5e7bd093c472ee1b85d1b3b90d35256d6a14935de4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-hungarian-doc"

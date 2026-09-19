@@ -1,4 +1,4 @@
-SUMMARY = "CLI tool to lint prose text with syntax awareneness and extensible markup format support"
+SUMMARY = "CLI tool to lint text with extensible markup format support"
 DESCRIPTION = "Vale is a command-line tool that brings code-like linting to prose. It's fast, \
 cross-platform (Windows, macOS, and Linux), and highly customizable. \
  \
@@ -13,13 +13,15 @@ style-be it a standard editorial style guide or a custom in-house set of rules \
 https://vale.sh/"
 LICENSE = "MIT"
 
-PV = "2.28.3"
+PV = "3.17.1"
 
-RPM_NAME = "vale-2.28.3-1.1.aarch64.rpm"
-RPM_HASH = "4888de298103174bdae1961ff36876c114da01af9a60df8cba65016ef6c320a9806f037cdb4553349f27dba12a411f35c2f34a6780cb915f2b3294990bad334b"
+RPM_NAME = "vale-3.17.1-1.1.aarch64.rpm"
+RPM_HASH = "01f6e603139bee30a66aa3829bfda7ae3eaf0d887f172813442a8fb76a3cf434e2f723f8d8316326f8853679969e3ffb3d3d1d1477573e512c3ca2acb4ff6296"
 
 RPROVIDES:${PN} += "vale"
 
-RDEPENDS:${PN} += "libc.so.6"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6"
 
 inherit rpm

@@ -7,8 +7,8 @@ LICENSE = "Zlib"
 
 PV = "1.55"
 
-RPM_NAME = "tomatoes-1.55-2.24.aarch64.rpm"
-RPM_HASH = "8872878d528c51ae066575f10db79f3ccbce7ad7a2dc5e9c0fd6ab10caa79530800d08b8146203409dbc38db27ed97a9171ec75d1fe19a54733ea1bc644c2158"
+RPM_NAME = "tomatoes-1.55-4.4.aarch64.rpm"
+RPM_HASH = "6d5af7273707be927f63d7bb5d78adc1ba0c5c6be437bed149718ab8effa81b6874a0efe20ed50b54347ee0de82b2c822a5d0d392f6aaa47691fa4920511d924"
 
 RPROVIDES:${PN} += "config-tomatoes \
 tomatoes"

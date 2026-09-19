@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-algorithmicx"
 DESCRIPTION = "This package includes the documentation for texlive-algorithmicx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-algorithmicx-doc-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "27a80ac394cb10490b33ea2c279000bd63c6dc31f30caec0b5fe53e1d5f91aba76677aeccb85f711f83b2e8a658eeaa1508a888d6b1dd530e449bcb315509e8d"
+RPM_NAME = "texlive-algorithmicx-doc-2026.226.svn78101-61.2.noarch.rpm"
+RPM_HASH = "535630ead00d0ae8d9fbbe114824d5818f31135b9dc3375d1eb57c89839e24899c68381d428804cb84e419ece1207cfe1aadb5b109b411c5ecade4f706a34d29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-algorithmicx-doc"

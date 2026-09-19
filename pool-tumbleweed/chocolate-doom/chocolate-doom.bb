@@ -7,12 +7,13 @@ bugs and crashes found in the DOS executable that were fixed before \
 the initial open-sourcing of the Doom engine."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.1"
+PV = "3.1.1"
 
-RPM_NAME = "chocolate-doom-3.0.1-3.2.aarch64.rpm"
-RPM_HASH = "e4f80233237ad1253e0e220550c912a06846ddbdb7c5c37a3996f659460576d8849a24e59d49d2a804ac744b3339eb1be22d6274e730e88edfd54d25c3ce8012"
+RPM_NAME = "chocolate-doom-3.1.1-1.6.aarch64.rpm"
+RPM_HASH = "012cdf74f9ccd55e735d3e7e05543d75059aac3e97187c2afb7c5f318ba4848b392a8324f550006d327879b87c04fa0bd89f43a1a304f4ffb57d2c67950980ca"
 
 RPROVIDES:${PN} += "chocolate-doom \
+chocolate-doom-bash-completion \
 chocolate-heretic \
 chocolate-hexen \
 chocolate-strife"
@@ -23,6 +24,7 @@ libSDL2-2.0.so.0 \
 libSDL2-mixer-2.0.so.0 \
 libSDL2-net-2.0.so.0 \
 libc.so.6 \
+libfluidsynth.so.3 \
 libm.so.6 \
 libpng16.so.16 \
 libsamplerate.so.0"

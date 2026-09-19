@@ -4,12 +4,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.4"
 
-RPM_NAME = "distcc-server-3.4-5.5.aarch64.rpm"
-RPM_HASH = "2c2370ec80cd43d77e564c5a6719f791e341bca176afbf3c12a25521b6f99e971b460966cffc7e8e45db22926084b534003d6c44c5de3df77a58076f2a29531b"
+RPM_NAME = "distcc-server-3.4-6.7.aarch64.rpm"
+RPM_HASH = "7da1b28396501dd01910b7b69781b459599535a7ffa00583981934a62fbf91f5e740f935524c3d4b48f22f34234b8e69f110ffd1ef0a13aab1688fe780bae871"
 
 RPROVIDES:${PN} += "config-distcc-server \
 distcc-server \
-python3.11dist-include-server \
+python3.13dist-include-server \
 python3dist-include-server"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

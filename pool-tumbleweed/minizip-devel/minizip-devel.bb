@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libraries and header files needed for \
 developing applications which use minizip."
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.1"
 
-RPM_NAME = "minizip-devel-1.2.13-4.2.aarch64.rpm"
-RPM_HASH = "4a306fa70673c72e6078e5ee1d2f3f282e7f67e05d737811b0e8c1e56af3831ec640bd4661a7a6a89e720d5e20e5686cdc4c45c129188249f804e926a317826c"
+RPM_NAME = "minizip-devel-1.3.1-3.3.aarch64.rpm"
+RPM_HASH = "70ac459802fb88514efb5b301cad970f521e4bd36643dc4e1cf7635f49569e376e7ef49654960856e3bbb01ebf20410335d76604099561108cf9bc68123c780e"
 
 RPROVIDES:${PN} += "minizip-devel \
 pkgconfig-minizip"

@@ -7,10 +7,10 @@ experimental software for current Internet Drafts. \
 This package holds the tools/examples from ldns."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.8.3"
+PV = "1.9.2"
 
-RPM_NAME = "ldns-1.8.3-1.8.aarch64.rpm"
-RPM_HASH = "051cb1a04d181704eecba84750edde889f47325b415d9140c8ca92698bf585067ebdd73cf84c04e286c0fd3a2cdb1be9d5af97617c329954c9c0c7f159cfa7ac"
+RPM_NAME = "ldns-1.9.2-1.4.aarch64.rpm"
+RPM_HASH = "753757963e8365e6ad5e150034e30884d6003ef7c51fca630f12dc492731bf82897dc8383f129238e478d9a4a6ad495028e26e62e071befcff6133b9691319b7"
 
 RPROVIDES:${PN} += "ldns"
 

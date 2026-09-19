@@ -12,15 +12,16 @@ It includes the following features: \
 * Support for 12 different languages."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.2.5"
+PV = "6.3.2"
 
-RPM_NAME = "remind-4.2.5-1.2.aarch64.rpm"
-RPM_HASH = "fda8fb9eaf81721210cd4886550915e2b5295b2023cf3bcf4dfb9a1c0a903a1cdb2ee7e5296fcb35c479517f4d4d309f43a78f4d728d5ef05828d345d07fca35"
+RPM_NAME = "remind-6.3.2-1.1.aarch64.rpm"
+RPM_HASH = "936266f43c8ddde020a85e640c69f755a12c84442703d9d023d9154ea831eca6055e778f2394b552dbd882925d92a019b4d0009de42d859098a81d36328ba030"
 
 RPROVIDES:${PN} += "perl-Remind--PDF \
 perl-Remind--PDF--Entry \
 perl-Remind--PDF--Entry--UNKNOWN \
 perl-Remind--PDF--Entry--color \
+perl-Remind--PDF--Entry--formatted \
 perl-Remind--PDF--Entry--html \
 perl-Remind--PDF--Entry--htmlclass \
 perl-Remind--PDF--Entry--moon \
@@ -30,6 +31,7 @@ perl-Remind--PDF--Entry--psfile \
 perl-Remind--PDF--Entry--shade \
 perl-Remind--PDF--Entry--week \
 perl-Remind--PDF--Multi \
+perl-Remind--PDF--Weekly \
 remind"
 
 RDEPENDS:${PN} += "/usr/bin/perl \

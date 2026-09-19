@@ -3,10 +3,10 @@ DESCRIPTION = "Revelation is a password manager. It organizes accounts in \
 a tree structure, and stores them as AES-encrypted XML files."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.5.4"
+PV = "0.5.6"
 
-RPM_NAME = "revelation-0.5.4-2.7.noarch.rpm"
-RPM_HASH = "3df23c8e6094aaed6f3d04ff6b791d218542310433874ef9ff6174c502fa2099b17ee7b6532f1de9ffd3dbdcb9a79affa2ed793fc60615e9e85b72e482c1598e"
+RPM_NAME = "revelation-0.5.6-1.3.noarch.rpm"
+RPM_HASH = "876e533fdd543645d218e7a325beccdf05b421a00005a6c5444fe9c8e6ab9946d8c724ac728d48627e89cacbcea3dcb75bc4bc50a29b56f00bcb5185eb4645a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "revelation"

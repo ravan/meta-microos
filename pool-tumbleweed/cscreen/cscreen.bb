@@ -3,10 +3,10 @@ DESCRIPTION = "This package allows to run multiple consoles in one 'screen' and 
 to start the screen automatically during boot."
 LICENSE = "BSD-4-Clause"
 
-PV = "1.4"
+PV = "1.8"
 
-RPM_NAME = "cscreen-1.4-1.6.noarch.rpm"
-RPM_HASH = "51bcade709e5e56727957ecfc7932663ee2543732f0703b316a4aaff4b55248485f543ae8dca11f8c56c4a12c7a166ebd33d89f4fb907512ee8a84ff75af2447"
+RPM_NAME = "cscreen-1.8-1.7.noarch.rpm"
+RPM_HASH = "9f60ae7e51c79e82324b0b08aa0591c530469ce800ebe3baa99e62600f2cb90b48c8d13b18f46a820728b771edbb609972c0341f9298842e7654b0efae011f50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-cscreen \
@@ -15,8 +15,10 @@ cscreen"
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 coreutils \
+group--cscreen \
 screen \
-shadow \
-sudo"
+sudo \
+system-user-cscreen \
+user--cscreen"
 
 inherit rpm

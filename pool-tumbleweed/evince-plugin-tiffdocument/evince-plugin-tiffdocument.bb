@@ -2,10 +2,10 @@ SUMMARY = "TIFF document support for Evince"
 DESCRIPTION = "A plugin for Evince to read TIFF images."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "48.4"
 
-RPM_NAME = "evince-plugin-tiffdocument-44.3-1.1.aarch64.rpm"
-RPM_HASH = "11859b40e50b55f58d98a3835f83ff0020e3208fc226b6c1e462ed72110698915307d16db60a4afd0915cba3abd628ac0f4c81df4d97d95b7d73be66443d2cc8"
+RPM_NAME = "evince-plugin-tiffdocument-48.4-2.1.aarch64.rpm"
+RPM_HASH = "51f7eefc4f40b992f3ba73fdbe17e914dcf6a63617e884453e8f3f351e1a56b60689d13c7b43e23c209c66a8cbab7c234a4fc20027b676c94d2c99bba9dc9bb1"
 
 RPROVIDES:${PN} += "evince-plugin-tiffdocument \
 libtiffdocument.so"

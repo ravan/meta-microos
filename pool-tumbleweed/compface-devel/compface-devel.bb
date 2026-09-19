@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.5.2"
 
-RPM_NAME = "compface-devel-1.5.2-158.27.aarch64.rpm"
-RPM_HASH = "74180d451e1ed7701a75ae9a45c2ef2b40b6a6fbbd6159ab24181348b631e331281fa188c658b50872d1fbe10f4cef04b0b347b4d2cd77d34917f7fb49962ec1"
+RPM_NAME = "compface-devel-1.5.2-160.7.aarch64.rpm"
+RPM_HASH = "38cf07c38ccd8cb2e9e6bd353abaebdddf2b2cf4aaba0ad06f2cd50b7e10954b96b55f54146c1a4af40339238c7739afd23802c9794bc585746c5e63afee963c"
 
 RPROVIDES:${PN} += "compface-devel"
 

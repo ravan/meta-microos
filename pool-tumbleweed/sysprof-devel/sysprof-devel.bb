@@ -1,20 +1,26 @@
 SUMMARY = "Development files for sysprof"
-DESCRIPTION = "The sysprof-devel package contains libraries and header files for \
-developing applications that use sysprof."
+DESCRIPTION = "The sysprof-devel package contains header files for developing \
+applications that use sysprof."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.48.0"
+PV = "50.0"
 
-RPM_NAME = "sysprof-devel-3.48.0-2.2.aarch64.rpm"
-RPM_HASH = "2968f1f48e2494dff1ceabeacd8ca9dc1031855e8b4766ffafe3b28e83267dd94d8c153c019fec523546c4c7003f3eef71c3d2aaab2cf4457354583c37eab71b"
+RPM_NAME = "sysprof-devel-50.0-1.3.aarch64.rpm"
+RPM_HASH = "4e200dc6020670d28852c018a033edcacc45fbd67c59e8561c854dc3a5c5e46be305de8a4abd4cb82c86235a82d8e56f832a1d923e14cf1fe00d2fa91159b67d"
 
-RPROVIDES:${PN} += "pkgconfig-sysprof-4 \
+RPROVIDES:${PN} += "pkgconfig-sysprof-6 \
+pkgconfig-sysprof-capture-4 \
 sysprof-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libsysprof-6-6 \
 pkgconfig-gio-2.0 \
 pkgconfig-gio-unix-2.0 \
+pkgconfig-glib-2.0 \
 pkgconfig-json-glib-1.0 \
+pkgconfig-libdebuginfod \
+pkgconfig-libdex-1 \
+pkgconfig-libsystemd \
 pkgconfig-polkit-gobject-1 \
 sysprof"
 

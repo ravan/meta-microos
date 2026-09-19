@@ -3,16 +3,15 @@ DESCRIPTION = "Grub2's systemd-sleep plugin for directly booting hibernated kern
 swap partition while in resuming"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12~rc1"
+PV = "2.14"
 
-RPM_NAME = "grub2-systemd-sleep-plugin-2.12~rc1-2.1.noarch.rpm"
-RPM_HASH = "9f3e03d98b7a69f3d05a7cc5259b98c698e93031cfa7042c264cc418999f251c5d98d91777fe15a619338a036434e0e6d89032113dd1d83150d20edd4127376c"
+RPM_NAME = "grub2-systemd-sleep-plugin-2.14-19.1.noarch.rpm"
+RPM_HASH = "769db8d6529f1bddd4efd5dd8f6e246458991181fec7f191471aa86e08430ef3cb4851b5a7e967bf0c684d222ebadd6c0fdce75696af3bd285bd549ceff515e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-systemd-sleep-plugin"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-grub2 \
 util-linux"
 
 inherit rpm

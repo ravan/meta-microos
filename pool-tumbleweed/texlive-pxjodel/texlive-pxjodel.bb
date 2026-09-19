@@ -14,10 +14,10 @@ using japanese-otf. So pxjodel is really about japanese-otf's \
 singing, although some sense of word-play is intended."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn64072"
+PV = "2026.226.0.0.3asvn77682"
 
-RPM_NAME = "texlive-pxjodel-2023.209.0.0.3svn64072-54.2.noarch.rpm"
-RPM_HASH = "a60192e40ddd96a9c8a17c130b2c3a832db610280bdd75411d56b8e2e08ef629e75ea1230431c725db769b4c814cd2caf3f679232337a0a7378e2085e6f50d98"
+RPM_NAME = "texlive-pxjodel-2026.226.0.0.3asvn77682-60.4.noarch.rpm"
+RPM_HASH = "2fe41ccf1ea08fef4475782f9f3da9cc1a6001a0a1dc8a29633b5c0b29c5d3c1a4416d3a2e9340dd45bbf1178174029487f23cafc9b9b3a5c1960f64a240c32d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jodhgothb-hq.tfm \
@@ -38,12 +38,12 @@ tex-jodhgothrn-h.tfm \
 tex-jodhgothrn-h.vf \
 tex-jodhgothrn-v.tfm \
 tex-jodhgothrn-v.vf \
-tex-jodhmgothe-hq.tfm \
-tex-jodhmgothe-hq.vf \
-tex-jodhmgothen-h.tfm \
-tex-jodhmgothen-h.vf \
-tex-jodhmgothen-v.tfm \
-tex-jodhmgothen-v.vf \
+tex-jodhmgothr-hq.tfm \
+tex-jodhmgothr-hq.vf \
+tex-jodhmgothrn-h.tfm \
+tex-jodhmgothrn-h.vf \
+tex-jodhmgothrn-v.tfm \
+tex-jodhmgothrn-v.vf \
 tex-jodhminb-hq.tfm \
 tex-jodhminb-hq.vf \
 tex-jodhminbn-h.tfm \
@@ -69,8 +69,8 @@ tex-zu-jodhgotheb-hq.tfm \
 tex-zu-jodhgotheb-hq.vf \
 tex-zu-jodhgothr-hq.tfm \
 tex-zu-jodhgothr-hq.vf \
-tex-zu-jodhmgothe-hq.tfm \
-tex-zu-jodhmgothe-hq.vf \
+tex-zu-jodhmgothr-hq.tfm \
+tex-zu-jodhmgothr-hq.vf \
 tex-zu-jodhminb-hq.tfm \
 tex-zu-jodhminb-hq.vf \
 tex-zu-jodhminl-hq.tfm \
@@ -91,6 +91,8 @@ tex-hgothebn-h.tfm \
 tex-hgothebn-v.tfm \
 tex-hgothrn-h.tfm \
 tex-hgothrn-v.tfm \
+tex-hmgothrn-h.tfm \
+tex-hmgothrn-v.tfm \
 tex-hminbn-h.tfm \
 tex-hminbn-v.tfm \
 tex-hminln-h.tfm \

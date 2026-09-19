@@ -5,10 +5,10 @@ of modulated signals, wave carrier, signal modulation, signal \
 recovery and signal demodulation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn19591"
+PV = "2026.226.1.02svn19591"
 
-RPM_NAME = "texlive-pst-am-2023.209.1.02svn19591-53.1.noarch.rpm"
-RPM_HASH = "1b0b71c2b3faea379f64add04dc76a9a22363d2f822900e67002acc979d98d0f53680b8c7757fa73e90bbabbf287167852c2d9ff6e29a8e8e06073f5bc88d50e"
+RPM_NAME = "texlive-pst-am-2026.226.1.02svn19591-59.2.noarch.rpm"
+RPM_HASH = "02f228c6455b9a109369c7fbf70ecdcb3f6a5735e013aa3c82055132c7f01873e5125c5f77fb940d4e9cc360b61e32215785c27092bd5cb3a3b200d9ce59121f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-am.sty \

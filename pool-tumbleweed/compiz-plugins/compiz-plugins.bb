@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-plugins-0.8.18-2.9.aarch64.rpm"
-RPM_HASH = "cb9bd2ca07b7c5eab3a072fda464265c7f732fab59a905d4c4d6f0c19804ec0d737ff9dd5cffca4b87157226e599f46666d1732b466c993aa96f5bcbfce29e51"
+RPM_NAME = "compiz-plugins-0.8.18-4.5.aarch64.rpm"
+RPM_HASH = "4537981ff3089131beeb1798689f1842a5d5f41a5893dbf20718aea55674ab7ed6326d4237dea037ee8d773fa33e16ddd3bc1369da5f0da50ceb76aff6727364"
 
 RPROVIDES:${PN} += "compiz-plugins \
 libannotate.so \
@@ -53,6 +53,6 @@ libgobject-2.0.so.0 \
 libm.so.6 \
 libpng16.so.16 \
 librsvg-2.so.2 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

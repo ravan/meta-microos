@@ -3,10 +3,10 @@ DESCRIPTION = "tuxpaint-stamps-seasonal package contains a set of 'Rubber Stamp'
 which can be used with the 'Stamp' tool within Tux Paint."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2021.11.25"
+PV = "2023.07.20"
 
-RPM_NAME = "tuxpaint-stamps-seasonal-2021.11.25-1.5.noarch.rpm"
-RPM_HASH = "efdaa69db7be86673a90c97f7bc19aeec520d8b7af1c39c76418f566a2edc273538dd2c7ba39d89bf3c0e5741d54c50f3d5a657744e534ae4da0be692fc788f0"
+RPM_NAME = "tuxpaint-stamps-seasonal-2023.07.20-1.9.noarch.rpm"
+RPM_HASH = "01bce7c21a9b6180fcad9cda61e7592445e662accc6d5647106341ceb580dbd52f89175ad4a12db4f0a5ef4e1737a6dbeba46f90eb1e100ce5bade282741035f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-stamps-category \

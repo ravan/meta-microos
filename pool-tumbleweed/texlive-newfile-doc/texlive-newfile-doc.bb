@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-newfile"
 DESCRIPTION = "This package includes the documentation for texlive-newfile"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0csvn15878"
+PV = "2026.226.1.0csvn15878"
 
-RPM_NAME = "texlive-newfile-doc-2023.209.1.0csvn15878-55.1.noarch.rpm"
-RPM_HASH = "c16e008689698c9eef063a65573f5e2aa4401056e7fd3575e0db10db0995cad69b5c0120232024a9ac38ea6341d3ab0d52fbd52918eaa9c8b1787d10d49c38da"
+RPM_NAME = "texlive-newfile-doc-2026.226.1.0csvn15878-61.2.noarch.rpm"
+RPM_HASH = "911917b35b8069695f85f7a2fd7e98089ff72d6e47c672dbf874828715bfaba4695d1da04800cfddde25d663038e09db4f5e8dbfc4e3cf03532e46296c818316"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newfile-doc"

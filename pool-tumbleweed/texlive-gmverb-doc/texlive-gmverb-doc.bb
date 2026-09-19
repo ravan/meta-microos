@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gmverb"
 DESCRIPTION = "This package includes the documentation for texlive-gmverb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.98svn24288"
+PV = "2026.226.0.0.98svn24288"
 
-RPM_NAME = "texlive-gmverb-doc-2023.209.0.0.98svn24288-54.2.noarch.rpm"
-RPM_HASH = "0019e70fbc7bc76389c28a5a75d9f365ba5f4daaf1e6f2754de9fc202d53fa1722e5f10a7f211a17620ea7a9a7aea2f5a24eafde84449c5998932a91af29f132"
+RPM_NAME = "texlive-gmverb-doc-2026.226.0.0.98svn24288-60.4.noarch.rpm"
+RPM_HASH = "9e49e85d51525c43fab485f741346ce0bcf9dd13f9940dfe638857fb2b82e7ad04bdb46986924bc4e344d1dce2d9f1a2235a714ea28984371001ab973f0558d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gmverb-doc"

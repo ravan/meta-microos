@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-stanli"
 DESCRIPTION = "This package includes the documentation for texlive-stanli"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.0svn54512"
+PV = "2026.226.3.0svn54512"
 
-RPM_NAME = "texlive-stanli-doc-2023.209.3.0svn54512-58.1.noarch.rpm"
-RPM_HASH = "5d1422d914d513c8008b967951a2cfc2c5631447347ec0df28783f7f86b32b9b5ddd90ef38b58a077b4737c9a7f1f319beeb259eb5c3b6a4f2be75fcf7b1084c"
+RPM_NAME = "texlive-stanli-doc-2026.226.3.0svn54512-64.2.noarch.rpm"
+RPM_HASH = "e214eaa58a4e2f3580fe18950b7b3bd313130d630ed9aaf1e0f082841b5c508272aabe0a973075bf87a55dc2995000c5b95e2150a1684453ad9bc38276fa5c8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stanli-doc"

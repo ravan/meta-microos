@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-only"
 
 PV = "0.21.0"
 
-RPM_NAME = "enlightenment-theme-upstream-0.21.0-30.8.aarch64.rpm"
-RPM_HASH = "194b368a412958c98b0a29a302fab2a71555eae8562f14b5fff11073c5ba1a350fe279d655de90182311f488803f2e59c0d88ec3d882dacde4e213a23dac0c71"
+RPM_NAME = "enlightenment-theme-upstream-0.21.0-37.1.aarch64.rpm"
+RPM_HASH = "38252e6e236052dbf9a5047e312b5d19725dc2690f159487001be8fd168481a218bd46797bc04158caeaf214bc1ca87e815b99fbabd96781fd62cc9eab1ec48d"
 
 RPROVIDES:${PN} += "enlightenment-theme \
 enlightenment-theme-dft \

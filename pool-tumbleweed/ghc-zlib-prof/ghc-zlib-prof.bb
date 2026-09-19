@@ -2,16 +2,16 @@ SUMMARY = "Haskell zlib profiling library"
 DESCRIPTION = "This package provides the Haskell zlib profiling library."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.6.3.0"
+PV = "0.7.1.1"
 
-RPM_NAME = "ghc-zlib-prof-0.6.3.0-4.2.aarch64.rpm"
-RPM_HASH = "646923f3c890df12d027731737a942f6e17fa18d85249a0f879f08ab03cb0712ec2d0d21ef6bb0f02488df217b9f7371fa77a1cbdc912548ec1a9ef3dcf9ac7a"
+RPM_NAME = "ghc-zlib-prof-0.7.1.1-1.9.aarch64.rpm"
+RPM_HASH = "ceb94f867af3d9cabd683ea7b2e35ed2e09a38a2ec85808929349fd9378fa3a214438b01a8e263d603883ee6e8b45fa989002c58eecb4c728b25ae4820df79a2"
 
-RPROVIDES:${PN} += "ghc-prof-zlib-0.6.3.0-ENQBvbHWSlQ4ss0TzRHRuj \
+RPROVIDES:${PN} += "ghc-prof-zlib-0.7.1.1-9wvDfX7JlnE99sTdZLYOpU \
 ghc-zlib-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
 ghc-zlib-devel"
 
 inherit rpm

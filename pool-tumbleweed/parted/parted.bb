@@ -3,10 +3,10 @@ DESCRIPTION = "GNU Parted is a program for creating, destroying, resizing, check
 and copying partitions, and the file systems on them."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.5"
+PV = "3.7"
 
-RPM_NAME = "parted-3.5-4.5.aarch64.rpm"
-RPM_HASH = "b21cff72f5dd2551e3343a31515f43b2a4e45d48e2184312f50c56b18f1b02647387a8c4236b4aefd1113ab5ae2950ee24047fd226a50dedc697d26accc0ae83"
+RPM_NAME = "parted-3.7-1.3.aarch64.rpm"
+RPM_HASH = "e41a6b5b01d5a96981bb153a510701a627db3fee82dfadf584fa9818d3fb407d9d6cb8fe15bc415ad1b02edb5a9ca297124e09700c900265d918fd95988612e0"
 
 RPROVIDES:${PN} += "parted"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "GNU libtextstyle provides an easy way to add styling to programs 
 It does this in a way that allows the end user to customize the styling using the industry standard, namely Cascading Style Sheets (CSS)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.21.1"
+PV = "1.0"
 
-RPM_NAME = "libtextstyle0-0.21.1-2.2.aarch64.rpm"
-RPM_HASH = "b9e304bd71e7c47c87554ecdaa3aa00c3aedf22165643fcde89833ef47cce5a5e3c5e25b75aa7dd977562833ec7abfd0a55d1b3daff6c7892eda6736003df9ad"
+RPM_NAME = "libtextstyle0-1.0-2.4.aarch64.rpm"
+RPM_HASH = "307f6fce06de4d865a06b33c69b1a90c610fdcd48c20f3ddb518bf70c317224cec9d00b3664ecb3a4f97ed669acb000b95bb347dd50f4cdcd4d773c8e1e77762"
 
 RPROVIDES:${PN} += "libtextstyle.so.0 \
 libtextstyle0"

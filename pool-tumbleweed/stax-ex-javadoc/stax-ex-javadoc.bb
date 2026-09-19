@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only"
 
 PV = "1.8"
 
-RPM_NAME = "stax-ex-javadoc-1.8-5.1.noarch.rpm"
-RPM_HASH = "1067e924f0b96ae5475a9444508dbde10ace2f694944b44884033903a2747a715c6ec8f21897e6709fac8facb271d11e2fe43bced38d5135ba74a2522bf28446"
+RPM_NAME = "stax-ex-javadoc-1.8-7.6.noarch.rpm"
+RPM_HASH = "4b315eeb488c97cc866a73f49ae1b29b2846791d08ecdd36ab9cec6c9e62ec1684e8f55788e97e924d802cb500c28092f3534c59145e3742eb124240e53e3948"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stax-ex-javadoc"

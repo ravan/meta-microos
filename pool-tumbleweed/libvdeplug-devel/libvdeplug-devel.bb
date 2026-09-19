@@ -1,11 +1,11 @@
 SUMMARY = "VDE plug header files"
 DESCRIPTION = "This package contains VDE plug header files"
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
 PV = "2.3.2+svn587"
 
-RPM_NAME = "libvdeplug-devel-2.3.2+svn587-3.24.aarch64.rpm"
-RPM_HASH = "9565b530f7fb07d187c9ab6a67339d5a6e07af9feaa38a2b5ed94c91ba097cb3c3f025e691441ad9f7587d404dd9432751d0cb6d8cb81c86d2842a6f143edf10"
+RPM_NAME = "libvdeplug-devel-2.3.2+svn587-6.6.aarch64.rpm"
+RPM_HASH = "65a117bff44587300d1f3c2db2e258b7c071590651f148df5f29aa66d477a2ba709ad997d51c13bbef348e5711601837c5a466077ff7cdb44b4d418009bfe52e"
 
 RPROVIDES:${PN} += "libvdeplug-devel \
 libvdeplug3-devel \

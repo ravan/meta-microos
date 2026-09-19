@@ -4,10 +4,10 @@ on Microsoft Windows machines. This package contains the header file \
 necessary for building ID mapping plugins for cifs-utils."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.0"
+PV = "7.7"
 
-RPM_NAME = "cifs-utils-devel-7.0-2.4.aarch64.rpm"
-RPM_HASH = "6ca680c728ce58e342797addbe51245400e9fdf8ad660a2321fbdc33560c906ab0555b814b045ffd8efee020928a406504a1232ca9706a26d8d3a61c82139a41"
+RPM_NAME = "cifs-utils-devel-7.7-2.1.aarch64.rpm"
+RPM_HASH = "8675bbd845f96eb54682e0a6c926b99882ea6f877afce9e69b7b3861b5c6c5deaf57819309b789780ca3cb54bc4c99c7c387653d50f1c9af2ebbbd30fa16ef8c"
 
 RPROVIDES:${PN} += "cifs-utils-devel"
 

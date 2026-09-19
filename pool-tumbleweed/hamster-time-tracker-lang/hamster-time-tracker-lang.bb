@@ -2,10 +2,10 @@ SUMMARY = "Translations for package hamster-time-tracker"
 DESCRIPTION = "Provides translations for the 'hamster-time-tracker' package."
 LICENSE = "CC-BY-SA-3.0 & GPL-3.0-or-later"
 
-PV = "3.0.3~20"
+PV = "3.0.3"
 
-RPM_NAME = "hamster-time-tracker-lang-3.0.3~20-8.1.noarch.rpm"
-RPM_HASH = "b31806549ccfff5922857d734382f387c8f6a47a443af90f2c24f6ad8e5083ece8295389e30518762f3d4c2c08b54ef8eb4d96f02900245fd5295b956e74efa9"
+RPM_NAME = "hamster-time-tracker-lang-3.0.3-17.2.noarch.rpm"
+RPM_HASH = "85863d47e130cb36fe841041f8ae5b2b17b863bec2c4b7f8083a65fd2120db84e75ee4be67b7e2bc9aa2548d205341b9e4649bb7a358a8d318c3dcc8830c5e44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hamster-time-tracker-lang \

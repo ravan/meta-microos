@@ -2,10 +2,10 @@ SUMMARY = "Arabic Fonts for the X Window System"
 DESCRIPTION = "Arabic fonts for the X Window System."
 LICENSE = "HPND & SUSE-Redistributable-Content & SUSE-Public-Domain"
 
-PV = "1.2.1"
+PV = "1.4.2"
 
-RPM_NAME = "intlfonts-arabic-bitmap-fonts-1.2.1-16.15.noarch.rpm"
-RPM_HASH = "eb445542c8fa211797b613532776325dc0e69fed3d965b76789e408b02b0b40c955e930e449f1c6d6d2492dab11c45d5999be6b592e0ca9483824d308dc4ef1b"
+RPM_NAME = "intlfonts-arabic-bitmap-fonts-1.4.2-1.6.noarch.rpm"
+RPM_HASH = "42c152b5118c902e5bbe04a3d52c92d36f74e9c07a82f54d63570513c2d1b19b82de243fcf010d0309d76dd554190a1d4767a23df1f433f3bc2ed2b458d4a70d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ifntarab \

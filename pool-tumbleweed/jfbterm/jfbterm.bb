@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.7"
 
-RPM_NAME = "jfbterm-0.4.7-11.28.aarch64.rpm"
-RPM_HASH = "fde1a92ea3f4dacc46ecd490acd0ed7ee39bffa59e9eb7263d436f4fbed0a75c629e6873cecd3f77334e844278af6ea83d04f65d1884b8b0d065f3a4a821658d"
+RPM_NAME = "jfbterm-0.4.7-14.7.aarch64.rpm"
+RPM_HASH = "7b17b00b5ad8e2f42e05aebc4cd9ae1f1571ba84c9123cd46fe6a6eb9aa453bed16a7ca9b4e65611dcc06cf5516be70ada70d0eb7cef6dc6a0138a96d7c495f3"
 
 RPROVIDES:${PN} += "config-jfbterm \
 jfbterm"
@@ -16,6 +16,7 @@ jfbterm"
 RDEPENDS:${PN} += "/usr/bin/cat \
 /usr/bin/grep \
 /usr/bin/sh \
+group-tty \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

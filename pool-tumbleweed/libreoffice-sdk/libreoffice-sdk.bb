@@ -6,15 +6,16 @@ tools, etc. \
 The documentation is in the package libreoffice-sdk-doc"
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-sdk-7.6.1.1-1.1.aarch64.rpm"
-RPM_HASH = "3a378b40d364de40af93d558c109aa0c53e656c24190041db874f832aa7e1114e940a4c39114f3ff8737a45c056e9d209cd111325069bfb54df2d0555a4494f9"
+RPM_NAME = "libreoffice-sdk-26.8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "287a9de87933a398d45a64607ab84037f002b44a839cf21154bb6faa4747b1afd05e6cebbb726458a495fb9215ee24823b0ef77df231abf963e604e919fa6bb6"
 
 RPROVIDES:${PN} += "libreoffice-sdk \
 libreoffice-ure-devel"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 gcc-c++ \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

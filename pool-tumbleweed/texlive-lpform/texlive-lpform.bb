@@ -9,10 +9,10 @@ be used to display any series of aligned equations with easy \
 labeling/referencing and other customization options."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn36918"
+PV = "2026.226.svn36918"
 
-RPM_NAME = "texlive-lpform-2023.209.svn36918-55.1.noarch.rpm"
-RPM_HASH = "094d4a2817123a883bed525723e3bb3db7ab8705eebc6fa700c5693c89edb746c5e0682984596e260c21a0f18c88b738e3c9e9d796d1f9e913a3a8fa8b46db52"
+RPM_NAME = "texlive-lpform-2026.226.svn36918-61.2.noarch.rpm"
+RPM_HASH = "2a6d1aa8b9adb33fbb4c2ba5c23fc85a794346e786c361a81dda0fce18d9397e90784db172e1280fd81c9b910ccf3033547b628a998f9166e1938d175403d5a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lpform.sty \

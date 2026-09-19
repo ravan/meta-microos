@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libsoup"
 DESCRIPTION = "Provides translations for the 'libsoup' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.4.2"
+PV = "3.6.6"
 
-RPM_NAME = "libsoup-lang-3.4.2-1.1.noarch.rpm"
-RPM_HASH = "518e34088711e670d54b8db6b1ce0f5e088590b7623f079af8361855a5e185cb88c313942119490d73397ce135a3f748cb7fac5e97357b9514b08290739c1ea2"
+RPM_NAME = "libsoup-lang-3.6.6-8.1.noarch.rpm"
+RPM_HASH = "3a30d37e807b1282c1b77a2aa0a1fe50ecf39a38349e0d72e50bf99dcb65b6b36ad60f15e5aaa32180e7d5664c410418ef28607d7cbddc5dcf9bd45f4f23fc4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsoup-lang \
@@ -41,6 +41,7 @@ locale-libsoup-id \
 locale-libsoup-it \
 locale-libsoup-ja \
 locale-libsoup-ka \
+locale-libsoup-kk \
 locale-libsoup-kn \
 locale-libsoup-ko \
 locale-libsoup-lt \

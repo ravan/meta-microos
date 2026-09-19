@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "15.1"
 
-RPM_NAME = "gdm-branding-openSUSE-15.1-3.1.noarch.rpm"
-RPM_HASH = "9ba4bec54256ae08efebf728dc03b5994747c87fb4fefe17e0308a5712aeb9e6a5d6daaecf54a17084c42b8ad0bc4b28e3f1ce379e0fbf720f1a8d7a18703aba"
+RPM_NAME = "gdm-branding-openSUSE-15.1-4.2.noarch.rpm"
+RPM_HASH = "ae023b3f93b6ffaa1ef07146486ee74725275b931f8edb669e9d5a9743f65916b05d1e7adcdb75d40edc5e8ed4ceada9c3f4147087ce5a25df52fc2c8b2c0df2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-gdm-branding-openSUSE \

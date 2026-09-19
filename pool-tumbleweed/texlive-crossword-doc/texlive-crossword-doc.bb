@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-crossword"
 DESCRIPTION = "This package includes the documentation for texlive-crossword"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.11svn64375"
+PV = "2026.226.1.15svn78219"
 
-RPM_NAME = "texlive-crossword-doc-2023.209.1.11svn64375-55.1.noarch.rpm"
-RPM_HASH = "d34f9ef1bae9d5c7449ce1a78f969deacf6a3a7b3bd13e23da422a8aae674abba0da5c2fd7801dd6c348078888ba3705b68d39fffa55ed7528a22c5c2d8be215"
+RPM_NAME = "texlive-crossword-doc-2026.226.1.15svn78219-61.2.noarch.rpm"
+RPM_HASH = "d9eea220262a213b3d10eed14c9c2f130e58ee5ab9ab59178d4d1cd67cdb27ca89f41de08563379022563205c16fc0ae247f9ba69f5f4e9100e64191c1bde4c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-crossword-doc"

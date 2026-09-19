@@ -2,15 +2,16 @@ SUMMARY = "Translations for package bomber"
 DESCRIPTION = "Provides translations for the 'bomber' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "bomber-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "a5f623853cb35e6c3c8855005160f7403d7b05f741ab95ed0fc00de4458731bb60567f60d7471b6a740a65472682ea9ecc4a1abdd5f3da214d430152dc05501a"
+RPM_NAME = "bomber-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "d53cb856ea0fe613875f4a80e42ac26f3d30e13e38fd24879f54baaef2281893f6a99e062b868e6827892e69597fcb551a1343033bfcc6a27fd8561cff9a94a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bomber-lang \
 bomber-lang-all \
 locale-bomber-ar \
+locale-bomber-ast \
 locale-bomber-bg \
 locale-bomber-bs \
 locale-bomber-ca \
@@ -30,8 +31,10 @@ locale-bomber-ga \
 locale-bomber-gl \
 locale-bomber-gu \
 locale-bomber-he \
+locale-bomber-hi \
 locale-bomber-hr \
 locale-bomber-hu \
+locale-bomber-ia \
 locale-bomber-id \
 locale-bomber-is \
 locale-bomber-it \

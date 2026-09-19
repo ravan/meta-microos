@@ -3,19 +3,21 @@ DESCRIPTION = "A program for displaying man pages on the screen or sending them 
 printer (using groff)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.11.2"
+PV = "2.13.1"
 
-RPM_NAME = "man-2.11.2-2.1.aarch64.rpm"
-RPM_HASH = "d1956cbe1996b408bfd403578bc4a662e1f1d0cb5169b17ade72b72d24ad6d53d85d33ad90811bcfe009282d2a7050de3122cafa425c70b42b9e829175982190"
+RPM_NAME = "man-2.13.1-7.3.aarch64.rpm"
+RPM_HASH = "e842f4032299d52e9e1a96c52db04b4eaf8a90e7ee7414cae7a6ddd915c4151d8f1b447dab2f3ce54c1659c2a8c8a0920999005f45bb45c58941e7542979cdc6"
 
 RPROVIDES:${PN} += "config-man \
-libman-2.11.2.so \
-libmandb-2.11.2.so \
+libman-2.13.1.so \
+libmandb-2.13.1.so \
 man \
 man-db"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/mkdir \
 /usr/bin/sh \
+/usr/bin/touch \
 coreutils \
 fillup \
 glibc-locale-base \
@@ -29,7 +31,6 @@ libgdbm.so.6 \
 libpipeline.so.1 \
 libz.so.1 \
 libzio.so.1 \
-systemd \
 user-man"
 
 inherit rpm

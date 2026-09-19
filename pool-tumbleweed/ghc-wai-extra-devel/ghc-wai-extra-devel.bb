@@ -2,43 +2,43 @@ SUMMARY = "Haskell wai-extra library development files"
 DESCRIPTION = "This package provides the Haskell wai-extra library development files."
 LICENSE = "MIT"
 
-PV = "3.1.13.0"
+PV = "3.1.18"
 
-RPM_NAME = "ghc-wai-extra-devel-3.1.13.0-2.13.aarch64.rpm"
-RPM_HASH = "9dd0f67c763f1468e46b72a77eff33e52ec0c39d61f21886ef490dbdd0274f8581208300c7ad759ad9dfc376b726e586c8881bb66d4668d5c64dbe3cb0fea04d"
+RPM_NAME = "ghc-wai-extra-devel-3.1.18-1.17.aarch64.rpm"
+RPM_HASH = "7e45eb95acfc69e3c56ae5ba3b44f02cde926094c952fa98ed9d21fb46ae4908937c5588380c06a3637b94b191f60555759d885b3165878123ddb9ac9177d84a"
 
-RPROVIDES:${PN} += "ghc-devel-wai-extra-3.1.13.0-7b9ndOLV0UtHl4QVen1kNF \
+RPROVIDES:${PN} += "ghc-devel-wai-extra-3.1.18-ITQet8OpxGX98ABokzjnL2 \
 ghc-wai-extra-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-HUnit-1.6.2.0-3fsauNNRJvI5u5lqiyApf4 \
-ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-devel-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-call-stack-0.4.0-nQZfFxinEdIa1BWxMyadt \
-ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-cookie-0.4.6-7v2XoXnZEAdFFWtj85fg3L \
-ghc-devel-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-fast-logger-3.1.2-2QS5oj3W57wGcX3QgTrERi \
-ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-devel-iproute-1.7.12-A34D1N9dJmL5ps3agDCHa7 \
-ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-devel-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-devel-streaming-commons-0.2.2.6-B2lYThdR4DPIZXSlcc8I7z \
-ghc-devel-text-2.0.2 \
-ghc-devel-time-1.12.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unix-2.7.3 \
-ghc-devel-vault-0.3.1.5-JTstBlaocLP2eokwHW0Uig \
-ghc-devel-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
-ghc-devel-wai-logger-2.4.0-9HbB2lkmWIvBhHGAMxm4Zs \
-ghc-devel-warp-3.3.25-9kawobphGNJ1pZTKG2KRtq \
-ghc-devel-word8-0.1.3-DFPYFbOkkGxAoNpsP1UPBD \
+ghc-devel-HUnit-1.6.2.0-HyPyPtOZKKe7vLdGCWHz7V \
+ghc-devel-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-devel-ansi-terminal-1.1.5-KiVHPj6W9e81bxE9dBsVtZ \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-base64-bytestring-1.2.1.0-9fPiMCS8Y4g8itFjJTGk2y \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-call-stack-0.4.0-5oZIckzxOZr1eMyD6xWtI3 \
+ghc-devel-case-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-cookie-0.5.1-ICQl8upm830Ct2nb3AM1Ft \
+ghc-devel-data-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-fast-logger-3.2.6-JkXOEB4fbDV8mDlAr0wMkH \
+ghc-devel-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-devel-iproute-1.7.15-E8DjYDi46DFHUJbuCQco8p \
+ghc-devel-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-devel-resourcet-1.3.0-F8ZRgExkptBLIQxE9m0AZE \
+ghc-devel-streaming-commons-0.2.3.1-LJ82XapHNc8JLhXXxelQgC \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-time-1.14-a7dc \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unix-2.8.8.0-178a \
+ghc-devel-vault-0.3.2.0-GYOqPpJA2DW5Qz2IFtkvei \
+ghc-devel-wai-3.2.4-Is1UVC1czjX2cAufnl3tJW \
+ghc-devel-wai-logger-2.5.0-3cHzLKgypSbCdVbvyxsJiz \
+ghc-devel-warp-3.4.9-4LBlVKyJZyS6kjQUEE5DAG \
+ghc-devel-word8-0.1.3-DJye6up9iU5LN32ihJcMva \
 ghc-wai-extra"
 
 inherit rpm

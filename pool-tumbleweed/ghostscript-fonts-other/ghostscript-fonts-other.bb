@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "9.06"
 
-RPM_NAME = "ghostscript-fonts-other-9.06-13.10.noarch.rpm"
-RPM_HASH = "5c8506c0a91b760646cbe5530c3b00ed5a3e7fb37a9f3fad6964dd7a4e6624910be574812d5bc26dfcba78ff2e99cf68a6b0b2a5b5a98f9371283323d3d15431"
+RPM_NAME = "ghostscript-fonts-other-9.06-14.4.noarch.rpm"
+RPM_HASH = "92e47148a088b91fa3b58f1cb31ce70ef852ef3975d4f7d977682b57eab0f979886bc22deb196e49dc0f18c53310edffa05bd9c9de1ed4febdf614e7f2357cf5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghostscript-fonts-other"

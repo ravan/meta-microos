@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-keyvaltable"
 DESCRIPTION = "This package includes the documentation for texlive-keyvaltable"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn65416"
+PV = "2026.226.2.3svn77682"
 
-RPM_NAME = "texlive-keyvaltable-doc-2023.209.2.3svn65416-56.1.noarch.rpm"
-RPM_HASH = "8e043eb6fdaaf5c6b40cc5cc24039feed395a24ab0ef6a873db99f5ed400da221dbe66ed6b94ebd5c8b0f308876424e45dc45a7c44d34246645151156cd7c7ad"
+RPM_NAME = "texlive-keyvaltable-doc-2026.226.2.3svn77682-63.2.noarch.rpm"
+RPM_HASH = "e79c0053f6a47abad61960ce1b317cf36964cbda332fb116d0e41a4dcca8fd1e3491fad52fc8001b7deb2d5fab86be4a57733dd7ffe0d79ace885342082faaa7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-keyvaltable-doc"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.0.24"
 
-RPM_NAME = "jcommon-1.0.24-2.7.noarch.rpm"
-RPM_HASH = "789715d463a30e60736e125fa537e48d1726a20c22d41541c03661367990568ed7e666206dbc6c2b9053697ef1783f23fa6f58d9e3eca793149060affa71a6c9"
+RPM_NAME = "jcommon-1.0.24-3.8.noarch.rpm"
+RPM_HASH = "abbe59db6e8e95026fb8e96ca5688752f378aafde86cab800785366d3e2b7bf1bc84b591befa6f5e466dc022a606afece4c0375f9ba29feeeaae8c71f1b76388"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcommon \

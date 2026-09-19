@@ -4,10 +4,10 @@ clients. This program is very dangerous, but is useful for aborting \
 programs that have displayed undesired windows on a user's screen."
 LICENSE = "X11"
 
-PV = "1.0.6"
+PV = "1.0.7"
 
-RPM_NAME = "xkill-1.0.6-1.3.aarch64.rpm"
-RPM_HASH = "0671f23bf953254052657a7a3b7e4380c59811b2b0ab790735327b4a6c91b2958a516693aa3a04f037967db9dc47007955de5db3bdb9b59711e73fc1c5ff4b86"
+RPM_NAME = "xkill-1.0.7-1.5.aarch64.rpm"
+RPM_HASH = "543be1af944c547b09e28412c46407360bbdfa17aeb4968bf3bc5e296c0a50ee56d65036c592d3d3225c90f24045570c65bf826f33726a4cc028c4cf6aac7806"
 
 RPROVIDES:${PN} += "xkill"
 

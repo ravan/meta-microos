@@ -15,18 +15,18 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.11"
 
-RPM_NAME = "sphinx-2.2.11-7.8.aarch64.rpm"
-RPM_HASH = "e41f0fefab3d44a3bc7781c5f794fe00c3e7e44b266973447d690e6ff26aa7fc399c94e648d45d167d8f45ef44994eeac1ad4fb755731694dbf47de014241790"
+RPM_NAME = "sphinx-2.2.11-10.10.aarch64.rpm"
+RPM_HASH = "438e026c9fb4c76b610708138e832058ac547eeed664d6275704d026d2c5ab9bfdefbae789e2efad11b6d1261b387bccaa2c210a9a8a610854ac0dded3b0dc3f"
 
 RPROVIDES:${PN} += "config-sphinx \
+group-sphinx \
 searchd \
-sphinx"
+sphinx \
+user-sphinx"
 
-RDEPENDS:${PN} += "/usr/bin/getent \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \
-/usr/sbin/useradd \
 fillup \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
@@ -37,6 +37,7 @@ libmariadb.so.3 \
 libpq.so.5 \
 libstdc++.so.6 \
 libz.so.1 \
-logrotate"
+logrotate \
+sysuser-shadow"
 
 inherit rpm

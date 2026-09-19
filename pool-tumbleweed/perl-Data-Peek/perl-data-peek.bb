@@ -5,17 +5,17 @@ utilities that no other module provided yet, using the lowest level of the \
 perl internals API as possible."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.52"
+PV = "0.540.0"
 
-RPM_NAME = "perl-Data-Peek-0.52-1.4.aarch64.rpm"
-RPM_HASH = "16a9604ff1a37b50d6efdfbd0f3d8c620009eaabe284a80fcdcd1037e2b3348bf351069d1d93ab0de1bfe2cab62f2adc6e7024b1bd22746c8ad2681e183cd2e3"
+RPM_NAME = "perl-Data-Peek-0.540.0-1.6.aarch64.rpm"
+RPM_HASH = "425f181bc8e04252fca583c75a79b43a505dfccca586f571283c36b5bd208b0515e49f8571cb1a89ee13265a844d32086e414823c8f28bb6a29f6dda1045a546"
 
 RPROVIDES:${PN} += "perl-Data--Peek \
 perl-Data-Peek"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Test--More \
 perl-Test--Warnings"
 

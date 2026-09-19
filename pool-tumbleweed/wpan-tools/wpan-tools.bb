@@ -4,10 +4,10 @@ compatible with IEEE 802.15.4-2003 (and to a lesser extent, \
 2006)."
 LICENSE = "ISC"
 
-PV = "0.9"
+PV = "0.10"
 
-RPM_NAME = "wpan-tools-0.9-1.14.aarch64.rpm"
-RPM_HASH = "77781759181dd8c39cf6db718f650aa0907f676ceb4ebdf4f3d2a4f3dc872ee12dcffe1f95a3d62bfd09505fcd620eee3a1d1faf1b17086adcfeb198701def9b"
+RPM_NAME = "wpan-tools-0.10-1.8.aarch64.rpm"
+RPM_HASH = "9b77fdb040a77e3200887e424391408e5ebeac9190c8e6d98023c1979ed546c8d0087a5b3c223ec976a6a15405951ad6ab203d2c8c5f7da0a0502d4c5d0baa99"
 
 RPROVIDES:${PN} += "wpan-tools"
 

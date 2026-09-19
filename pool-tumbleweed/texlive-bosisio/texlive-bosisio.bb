@@ -3,10 +3,10 @@ DESCRIPTION = "A collection of packages containing: accenti dblfont; envmath; \
 evenpage; graphfig; mathcmd; quotes; and sobolev."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn16989"
+PV = "2026.226.svn16989"
 
-RPM_NAME = "texlive-bosisio-2023.209.svn16989-53.1.noarch.rpm"
-RPM_HASH = "c02c338157904d3e5b4fd337d0b45717d478ffdd5c9c24dfd12c97f782bb2e8112ba02bb2e278e709642457ac9334dbc49437091ca9f35463174b55568e7017d"
+RPM_NAME = "texlive-bosisio-2026.226.svn16989-59.2.noarch.rpm"
+RPM_HASH = "11db13eadf4bbfdfbaec4559572c8fc0afced3b421cfbb88f036f0bb186f6e4be18c168872bcace06b3a3a2af4b9620d0dfd613bb0002b2b0d4d3c6a15af0b2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-accenti.sty \

@@ -15,15 +15,15 @@ release of 'PAR-Dist' on CPAN, built for perl 5.8.0 running on \
 'i386-freebsd'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.52"
+PV = "0.530.0"
 
-RPM_NAME = "perl-PAR-Dist-0.52-1.3.noarch.rpm"
-RPM_HASH = "2faf512b0b24fe487f2171c1409a2896e973c1a08a2c6aa129a7c8d4c5407c1329c67946fb0de01f7d7017be036f919bfc438d5a1d7d581a8d33e7ba27b45035"
+RPM_NAME = "perl-PAR-Dist-0.530.0-1.12.noarch.rpm"
+RPM_HASH = "7034910b85953085171de10a5a557aedc95a763820e60852c0835130219077a043f778c1c5ac855f082bd54b79597291a8aafd08ec361f8cf385fc5a160e137d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PAR--Dist \
 perl-PAR-Dist"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

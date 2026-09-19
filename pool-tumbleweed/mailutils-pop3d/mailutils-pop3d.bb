@@ -2,10 +2,10 @@ SUMMARY = "POP3 daemon from GNU Mailutils"
 DESCRIPTION = "The 'pop3d' daemon implements the Post Office Protocol Version 3 server."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.16"
+PV = "3.21"
 
-RPM_NAME = "mailutils-pop3d-3.16-1.3.aarch64.rpm"
-RPM_HASH = "508dcf64734150902cf9c4e7fc50560ec548b9b73daaa24ed69b4e1ef5d351affc71030f3b9ddb25c9a6fd01788d111f71ccdff52e4ca4dc10bbf904a822ac7a"
+RPM_NAME = "mailutils-pop3d-3.21-1.6.aarch64.rpm"
+RPM_HASH = "2e2d14bbc24282c123d84f72fe390d6966b3259c09aa1cce69582676c2e130e455eacdf268efd4081368530d07a019df26c0c7af92e8d5f3b1b83321066e2dff"
 
 RPROVIDES:${PN} += "mailutils-pop3d"
 

@@ -4,10 +4,10 @@ list of graphics file extensions recognised by package \
 graphics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn53024"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-grfext-2023.209.1.3svn53024-54.2.noarch.rpm"
-RPM_HASH = "8f263af808d557f3cd074650918993762a91ba0681f92f2380cb341e1018e85f05a3d2113e7e659658f3e8cd131afc3b680c7a92348446cdd5ed2d029dcb6e3a"
+RPM_NAME = "texlive-grfext-2026.226.1.3svn77682-60.4.noarch.rpm"
+RPM_HASH = "7227139e9ecffe01f64ebdd2608641112f2a55f328727af7d224a6c09bf18e066fe088df3cb28195058262ea74d6bcd6626af2b91d4780e714a4de78958f0897"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grfext.sty \

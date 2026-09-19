@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-burmese"
 DESCRIPTION = "The  separated fonts package for texlive-burmese"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25185"
+PV = "2026.226.svn25185"
 
-RPM_NAME = "texlive-burmese-fonts-2023.209.svn25185-53.1.noarch.rpm"
-RPM_HASH = "f93c43c3b961408cfead0f319b0be7e869f2a9dbf59b869b731305eddab731e891d0800ac880fb4bdc38c193050a4369af2386bccb6ebbdeb44eb159716d920e"
+RPM_NAME = "texlive-burmese-fonts-2026.226.svn25185-59.2.noarch.rpm"
+RPM_HASH = "7df89411179e7b7212be164290eba1cd7141f65a37bb157fa2c9fece9f455e2402d582c61d69367f2f85fe5c46e8a7274b91f37aa6e91f3b4721bc60220094d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=id \

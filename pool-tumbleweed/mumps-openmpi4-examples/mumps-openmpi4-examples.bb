@@ -10,14 +10,14 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "mumps-openmpi4-examples-5.3.5-3.4.aarch64.rpm"
-RPM_HASH = "e443b3aa236935737177c41ceebb667213542a2baf2bce2468ea9ff988a16cdba1ee93df718f427da87b84271f49fcfe0fd8aef23a397704af0dba0175abb991"
+RPM_NAME = "mumps-openmpi4-examples-5.3.5-7.7.aarch64.rpm"
+RPM_HASH = "b07e2b7431e502c15a65a14965c4b21ad38efccd61cf69dde0198b00dd047cdbd22c2d9b3a51104919c7a6eeca5c7b09b1f0bb09d76f36e31e5b8c958f1e7de6"
 
-RPROVIDES:${PN} += "mumps-examples)(openmpi \
+RPROVIDES:${PN} += "mumps-examples)( \
 mumps-openmpi4-examples"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libblacs.so.2.1.0 \
+libblacs.so.2.2.2 \
 libblas.so.3 \
 libc.so.6 \
 libcmumps.so.5.3.5 \
@@ -33,7 +33,7 @@ libmpi.so.40 \
 libmumps-common$.so.5.3.5 \
 libmumps5-3-5-openmpi4 \
 libpord.so.5.3.5 \
-libscalapack.so.2.1.0 \
+libscalapack.so.2.2.2 \
 libsmumps.so.5.3.5 \
 libzmumps.so.5.3.5"
 

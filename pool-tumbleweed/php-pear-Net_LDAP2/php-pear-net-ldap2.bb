@@ -10,10 +10,10 @@ With Net_LDAP2 you have: \
 Net_LDAP2 layers itself on top of PHP's existing ldap extensions."
 LICENSE = "LGPL-3.0-only"
 
-PV = "2.2.0"
+PV = "2.3.0"
 
-RPM_NAME = "php-pear-Net_LDAP2-2.2.0-1.12.noarch.rpm"
-RPM_HASH = "3b8c1d6d64442430d218c90cfdfe1909a7687e299e2cfd25296e7a58cae26380e1229e18bd828915f96abbccb57437d91d08f2520856596610e7dc4b807c30d4"
+RPM_NAME = "php-pear-Net_LDAP2-2.3.0-1.8.noarch.rpm"
+RPM_HASH = "9652046b54ff4fd55ea58c4d82e428149e46f75f8bff5c3a1d36b81a0a97ea05fd429774b1b4735c68b88df3ebc1b4a1e1037e8553f5c512515d364c3d893d13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-pear-Net-LDAP2 \

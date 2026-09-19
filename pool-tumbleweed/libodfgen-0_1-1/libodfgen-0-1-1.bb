@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.1.8"
 
-RPM_NAME = "libodfgen-0_1-1-0.1.8-3.9.aarch64.rpm"
-RPM_HASH = "2ff0f9f9ff5c5309afd82661883c932d616fbb61aa62b62e1c28371824563c15772f510b4e2574895a8087a3a3d6101ea9a85b495c9bb447ac0a5dc5f0e94377"
+RPM_NAME = "libodfgen-0_1-1-0.1.8-4.6.aarch64.rpm"
+RPM_HASH = "677214f261ccdda46ae744ffa13cbf999da0840511867ff087c82c0f32b467c6439a3db039bcc7488f7173e8ab1e1ceb9cbb1845501b62b7768ccd511040c7b2"
 
 RPROVIDES:${PN} += "libodfgen-0-1-1 \
 libodfgen-0.1.so.1"
@@ -18,6 +18,6 @@ libgcc-s.so.1 \
 libm.so.6 \
 librevenge-0.0.so.0 \
 libstdc++.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

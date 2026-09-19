@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3+git20161111"
 
-RPM_NAME = "litetran-1.3+git20161111-3.10.aarch64.rpm"
-RPM_HASH = "bb6610d69b94ea3dee823a605f9fcc783a1a08716ad175fcf2094315afcdb2ec167f7f50e9e0c4fcbbffc73542593a7568e916df4af811c706a52dd9100c1902"
+RPM_NAME = "litetran-1.3+git20161111-5.3.aarch64.rpm"
+RPM_HASH = "c7a59b856c73e31676c69e980f78f4e2cc94ef08532f5fb8e43bb690cbad395ac9ec5ff7d0b0e0aa001e82957bebc153d7cd7ec869d582f146b584b0dfc39657"
 
 RPROVIDES:${PN} += "litetran"
 

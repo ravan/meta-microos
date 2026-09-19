@@ -8,10 +8,10 @@ Type Enforcement, Role-based Access Control and Multi-Level \
 Security.)"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "checkpolicy-3.5-1.4.aarch64.rpm"
-RPM_HASH = "c151fce1152dcfb34897a36e52a37fe62866891c43338381a6614efd75bf91b6d08f590798db6b81f023735f74300395694ab149a8d7f786febb62dfbc29099c"
+RPM_NAME = "checkpolicy-3.11-1.2.aarch64.rpm"
+RPM_HASH = "dcccd01a6c0b084075a9c3e841193f9b19cc991a294fcbff403f07b325804ca39cc379a4a28bdd6542fff9a7106f269ae1eaee695f101d2a24fdfffe29d3750d"
 
 RPROVIDES:${PN} += "checkpolicy"
 

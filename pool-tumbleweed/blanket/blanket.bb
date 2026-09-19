@@ -3,10 +3,10 @@ DESCRIPTION = "Improve focus and increase your productivity by listening to diff
 Or allows you to fall asleep in a noisy environment."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.6.0"
+PV = "0.8.0"
 
-RPM_NAME = "blanket-0.6.0-1.4.noarch.rpm"
-RPM_HASH = "d5f651bb85f4e1d2b809578c122c63980327a8f64b809117ec30b4ba9d29619f58a8a60b239ca2eb5405d4f79aea0eecd96c7ccaf9e70266a3e8b14e23c2ae0b"
+RPM_NAME = "blanket-0.8.0-1.5.noarch.rpm"
+RPM_HASH = "589840cbd0f8f6e540ebf7c72ca6b38ad774c3704885190b7fe4be9d6ccf498d2fad430d5f479b67f8aa1a07ed1dccbcc1c43dbffd69fb6c0aff4cda8a222937"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blanket"
@@ -18,7 +18,7 @@ typelib-GObject \
 typelib-Gdk \
 typelib-Gio \
 typelib-Gst \
-typelib-GstPlayer \
+typelib-GstPlay \
 typelib-Gtk"
 
 inherit rpm

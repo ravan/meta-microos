@@ -8,10 +8,10 @@ speed optimizations allows for either better compression than even lzma can \
 provide, or better speed than gzip, but with bzip2 sized compression levels."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.651"
+PV = "0.702"
 
-RPM_NAME = "lrzip-0.651-2.2.aarch64.rpm"
-RPM_HASH = "0f616a56ff57ef2296653cb6db860c505957964c3a8f365571d829d3b2692f75ba63ad136965363c913646913d3fa88165475cb2ad5a374bd0490547d2b21cb8"
+RPM_NAME = "lrzip-0.702-1.1.aarch64.rpm"
+RPM_HASH = "8f0f333dccfe0cc728073a4390f4eb38a3f43d8ceb8649cf72419e91e2b561546fb912968f6c2e269230cb5ef85d929ce751456fd901461f5a297ac445afd882"
 
 RPROVIDES:${PN} += "lrzip"
 

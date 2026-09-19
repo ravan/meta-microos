@@ -4,10 +4,10 @@ using the X Window System or convert them to standard formats such as \
 PNG, JPEG, PS, EPS, and more."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.2.13"
+PV = "0.2.15"
 
-RPM_NAME = "libwmf-gnome-0.2.13-1.1.aarch64.rpm"
-RPM_HASH = "f4b4ef485c7f6cc55d8a71ce7be427ef4a8462532ae7b62bacfb6e6dd7eda5460ddaf3c00ff03955298192289b656e255f93adf48e4df478b73e660d9250e224"
+RPM_NAME = "libwmf-gnome-0.2.15-1.3.aarch64.rpm"
+RPM_HASH = "095c22a97ed506532a31510ff0f533077484f6f958b82efd787c849c8f556c100015d1ab870a254abfa7dfb280879e51e26e8d885dc112b5b3b8d1a308490a46"
 
 RPROVIDES:${PN} += "libwmf-gnome"
 

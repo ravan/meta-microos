@@ -10,8 +10,8 @@ LICENSE = "MPL-1.1 | GPL-2.0 | LGPL-2.1"
 
 PV = "1.0.4"
 
-RPM_NAME = "conkeror-1.0.4-1.20.aarch64.rpm"
-RPM_HASH = "2033a87fe93d5557942948c0e7bdfdb72fdad6cebfdc1f0153c4b80ecd2134e3775604a61bafddc905c477a23895b29ad5984b8f17e1cb80095fc328ee0093c1"
+RPM_NAME = "conkeror-1.0.4-2.11.aarch64.rpm"
+RPM_HASH = "23d5e817294bc2e5eb16333484e3991d73a9f6dde31fe19da10479db9ebeb66287052ae4a9e9dff684b2a43808cdbdaccf276e6f4b97edd325076e9829bc5115"
 
 RPROVIDES:${PN} += "conkeror"
 

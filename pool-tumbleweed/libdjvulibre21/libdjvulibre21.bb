@@ -5,10 +5,10 @@ software platform for distributing documents and images. \
 This package contains the shared libraries."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5.28"
+PV = "3.5.30"
 
-RPM_NAME = "libdjvulibre21-3.5.28-6.1.aarch64.rpm"
-RPM_HASH = "b8509f824e2cbf38a626a095b3f5b17dfa02a23cf2eb01b6b13e1e0171041250049442afd752ee0afeb9cfabcc7c6b1d83562cf32ba7d9e5d51d95d520e66dcf"
+RPM_NAME = "libdjvulibre21-3.5.30-1.3.aarch64.rpm"
+RPM_HASH = "ef30c6f3503325ecb5f217fae64a68f793cd39ccac847c4194523f1cb6fba9806cd2495d0c05835f2c82fa6286144b6f6843b6411b9a2d7f07e23050684399bc"
 
 RPROVIDES:${PN} += "libdjvulibre.so.21 \
 libdjvulibre21"

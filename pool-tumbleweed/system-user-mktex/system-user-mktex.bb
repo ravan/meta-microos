@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "system-user-mktex-1.0.0-2.6.noarch.rpm"
-RPM_HASH = "d27a19dc3f89d31462f294678fa6d769d342e01f44d5458e5b02b04542041482c9962e48021d579a9c82f81cdbfea6e840392b767fcc4522e45c1b82657c54fb"
+RPM_NAME = "system-user-mktex-1.0.0-2.14.noarch.rpm"
+RPM_HASH = "6e18a7357d2e48902e6e08f3a7e8f146d2aedb872f1cf3a292062599fe325a5d8769df6feb738888f38dcf7fbe6e1b50720e89bd8845a6943f53801e63a2b790"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-mktex \

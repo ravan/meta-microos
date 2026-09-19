@@ -2,10 +2,10 @@ SUMMARY = "Haskell bitvec library documentation"
 DESCRIPTION = "This package provides the Haskell bitvec library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.5.0"
+PV = "1.1.6.0"
 
-RPM_NAME = "ghc-bitvec-doc-1.1.5.0-1.1.noarch.rpm"
-RPM_HASH = "87444f54dbdd9141fbb640df9fd02845cc90501337426406ea15504f824c7fa19fd59c6337746dbbd9ef447ee6a78e9c18de2feccad2c86b3ac5b3f47475e620"
+RPM_NAME = "ghc-bitvec-doc-1.1.6.0-1.3.noarch.rpm"
+RPM_HASH = "2a523f44a395c27fe7644fb006e7605a7bea445aee16735bc56dd3410aca5b38ad1ec55047713916c024432afc80c53bb48b4011b7a1b54d4263dc64dde42fc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-bitvec-doc"

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-base-packagekit-5.0-73.1.aarch64.rpm"
-RPM_HASH = "332ce9a22e55d1559894e443743660442bd5c0b1162582cc37b747107257ef9dad596a36bfda015eccd26fcacb7c65fae19a131cbd8a29f9655cd2fbf692a791"
+RPM_NAME = "patterns-microos-base-packagekit-5.0-111.1.aarch64.rpm"
+RPM_HASH = "1a30a92342c857d658afd47da2857eae333d39df27bd83515b34ddddd229f6a0584c7ce29ef224f3f24764f1ea239a8d663835b46c30c4dcdc586803d4149c6d"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -17,7 +17,7 @@ patterns-microos-base-packagekit"
 
 RDEPENDS:${PN} += "PackageKit \
 PackageKit-branding-openSUSE \
-libdnf-plugin-txnupd \
+libdnf5-plugin-txnupd \
 pattern-"
 
 inherit rpm

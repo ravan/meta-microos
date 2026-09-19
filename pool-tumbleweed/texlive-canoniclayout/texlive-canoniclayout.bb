@@ -4,10 +4,10 @@ inscribed within the enclosing page. The package allows the \
 user to use a canonic layout with the memoir class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn64889"
+PV = "2026.226.1.0svn64889"
 
-RPM_NAME = "texlive-canoniclayout-2023.209.1.0svn64889-53.1.noarch.rpm"
-RPM_HASH = "56b91831b1b75ea6a1a8f48a960904f6d0f368c731fc6fe23dc3a6861f89b9a6cfd57f17bcf59ab40d111426538ace03c4e824b3cb9f63d9cea5c6ba08c69ea5"
+RPM_NAME = "texlive-canoniclayout-2026.226.1.0svn64889-59.2.noarch.rpm"
+RPM_HASH = "3e40fcb3dbf9f478ce068ced4f1bc61ff7f946f1fda30e66334f29cefa7fe9c6e347bb0068117c535bd4ee5fbfdd036d5e574c07d1bf98f6de45b9f80a0ae5ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-canoniclayout.sty \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.3"
 
-RPM_NAME = "gperiodic-3.0.3-2.12.aarch64.rpm"
-RPM_HASH = "dc9070d6d64c096c70618c80ef21d67d804299dea3fffd015deeb93a03f00ed6a155dd6db977fac67c2454543c27e567d19adfb2ddb1444e7a866632107e27c6"
+RPM_NAME = "gperiodic-3.0.3-3.8.aarch64.rpm"
+RPM_HASH = "7b344c6fb6fab0ae6acc387226eafa23e8cf0d9ebae28439772901093d3e23cf5839be6cd719eb005fe5cf42b65ee5b160ed28a9c7e047feecd31bd7466436d9"
 
 RPROVIDES:${PN} += "gperiodic"
 

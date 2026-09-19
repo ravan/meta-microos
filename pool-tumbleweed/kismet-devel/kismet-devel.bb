@@ -6,10 +6,10 @@ This subpackage contains files files for developing applications that \
 want to make use of kismet."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023_07_R1"
+PV = "2025_09_R1"
 
-RPM_NAME = "kismet-devel-2023_07_R1-1.1.aarch64.rpm"
-RPM_HASH = "255250cc37b78cd8e803812b4644bef448321efc515589ea59e97fbf02e3a8a55ec28f1bfe965f4e8783a5cf674ad7b93dfd71c52c664319e2786f3aa726feb9"
+RPM_NAME = "kismet-devel-2025_09_R1-2.3.aarch64.rpm"
+RPM_HASH = "b32e96b65da0b13dbcfcfb01febee5b2ac456cb728d9060f8f9647658958b0c7f4b03e82759f7f55de271e804be6221269a27f8b27386215ef762ec83c306c50"
 
 RPROVIDES:${PN} += "kismet-devel \
 pkgconfig-kismet"

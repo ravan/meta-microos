@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mylatex"
 DESCRIPTION = "This package includes the documentation for texlive-mylatex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn56751"
+PV = "2026.226.svn77050"
 
-RPM_NAME = "texlive-mylatex-doc-2023.209.svn56751-55.1.noarch.rpm"
-RPM_HASH = "bdac456bf35d5cab8afeecf9fbce78b60daaaf6339240401de9daab171d70abebd0d5735ebcd191d981e55f0751fbe34e70d3ca72aaf128b1e97d9a116a346c8"
+RPM_NAME = "texlive-mylatex-doc-2026.226.svn77050-61.2.noarch.rpm"
+RPM_HASH = "acceacf1a6057d5a3bc31409f216ad5ce8fb2f7325f36234d747599f8240a8bab147d7a2dd4cd714847d91ceeed6e14366e9c9647daac30caf48e8b60caad7d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mylatex-doc"

@@ -4,18 +4,19 @@ size, strings, and strip. These utilities are needed whenever you want \
 to compile a program or kernel."
 LICENSE = "GFDL-1.3-only & GPL-3.0-or-later"
 
-PV = "2.40"
+PV = "2.45"
 
-RPM_NAME = "cross-hppa-binutils-2.40-5.1.aarch64.rpm"
-RPM_HASH = "6d12518f89102d51e045ba764391f962f438b197c476e6c221484a1a17e88566cfccc3bd1748a204396f25a7ffd313b2b1768749efdcbead2f158d5bd7ba7205"
+RPM_NAME = "cross-hppa-binutils-2.45-4.3.aarch64.rpm"
+RPM_HASH = "766730204d813ef9fe14461834e983e02ac3ee297d4d6a1a16395bbae80d279b55921751effec568e9db3ccd80a28946ce2db6a7193cc3afb5887177377fe524"
 
 RPROVIDES:${PN} += "cross-hppa-binutils"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+alts \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libsframe2 \
 libz.so.1 \
-libzstd.so.1 \
-update-alternatives"
+libzstd.so.1"
 
 inherit rpm

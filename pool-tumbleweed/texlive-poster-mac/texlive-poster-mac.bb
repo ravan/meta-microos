@@ -9,10 +9,10 @@ page. This is true of most printers, including laser printers \
 and PostScript printers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn18305"
+PV = "2026.226.1.1svn18305"
 
-RPM_NAME = "texlive-poster-mac-2023.209.1.1svn18305-53.1.noarch.rpm"
-RPM_HASH = "296e89427ca65487f5d98a8133ad043c4d0dac172e2ec11306329c46c707c8f44a0540494d9b7dad5a2c8632eaf96996776453da0da5c9e22bc0e61f94f9030e"
+RPM_NAME = "texlive-poster-mac-2026.226.1.1svn18305-59.2.noarch.rpm"
+RPM_HASH = "6742ae5b297609b28d310c7525a60e16c1e9fd58d18f4b333a4dc6d19d74b6153727ce7fef67a371ce21762fb12d868acca93e6b610ea29db9910f4fd07da63b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-poster.sty \

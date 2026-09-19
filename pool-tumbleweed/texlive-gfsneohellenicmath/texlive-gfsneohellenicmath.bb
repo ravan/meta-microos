@@ -12,10 +12,10 @@ Greek), and it is distributed (both text and math) under the \
 OFL license."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.02svn63928"
+PV = "2026.226.1.02svn77682"
 
-RPM_NAME = "texlive-gfsneohellenicmath-2023.209.1.02svn63928-53.1.noarch.rpm"
-RPM_HASH = "025da9695debeb7d301d648b80f2c20190bf51475dc5b4348beaf66b8d90708094a337ced9afd8c33b3d82d130801a1aaef2f2f03e6bb9de1902cbbc56da59db"
+RPM_NAME = "texlive-gfsneohellenicmath-2026.226.1.02svn77682-60.2.noarch.rpm"
+RPM_HASH = "7e64056de92f28979ca56478c25eb64bc3b449d170b71dafd94e222e00772bca9d02b0a8e384e1cfbb7221e4a082134d4ab04d5d0141e37b7577d715ee74d91f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gfsneohellenicot.sty \

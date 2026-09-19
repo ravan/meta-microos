@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pix"
 DESCRIPTION = "Provides translations for the 'pix' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.2"
+PV = "3.4.7"
 
-RPM_NAME = "pix-lang-3.0.2-1.1.noarch.rpm"
-RPM_HASH = "ff1bf9c81b35bb2a90512a6dc2dc85d82f2e8a8f90b2676332735529fdb378625ed95458ee0f31df7d6cb90ad95fc37d44135fb66216610b6c9570632d898416"
+RPM_NAME = "pix-lang-3.4.7-1.8.noarch.rpm"
+RPM_HASH = "0ca2bc122680cfec8ded03b590153eb2d1ec8be15029626bfdc740bcaee9ddb833ff5fe29bffdcd5ee5dd98e1c4d0845c27d045dceb27b967554256f2be096ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pix-af \
@@ -14,6 +14,7 @@ locale-pix-az \
 locale-pix-be \
 locale-pix-bg \
 locale-pix-bn \
+locale-pix-br \
 locale-pix-ca \
 locale-pix-ca@valencia \
 locale-pix-cs \
@@ -44,6 +45,7 @@ locale-pix-id \
 locale-pix-is \
 locale-pix-it \
 locale-pix-ja \
+locale-pix-ka \
 locale-pix-kk \
 locale-pix-kn \
 locale-pix-ko \

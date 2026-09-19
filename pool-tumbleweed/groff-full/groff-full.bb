@@ -4,10 +4,10 @@ components to read manual pages in ASCII, Latin-1, and UTF-8, plus the \
 PostScript device (groff's default)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.22.4"
+PV = "1.23.0"
 
-RPM_NAME = "groff-full-1.22.4-10.5.aarch64.rpm"
-RPM_HASH = "0c5996f66ca194e782c9ecc5c1e1ef3dfb18003ed0592638daf322ed82a6572839e506e18b4e4bf36bd56579e64ab2ddc11511bd4c524d1f4e7bf5292f75120f"
+RPM_NAME = "groff-full-1.23.0-6.5.aarch64.rpm"
+RPM_HASH = "e82e6fda222557ac5cb4c75e9f87aafeee6a02742311139835f1a2f03cf1717081142b767d2e33705b97134eb25356ffeb47449a52bb2c5f5a59d7531dc352a6"
 
 RPROVIDES:${PN} += "groff-devx \
 groff-full \

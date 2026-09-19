@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.18.0"
 
-RPM_NAME = "libimagequant0-2.18.0-1.4.aarch64.rpm"
-RPM_HASH = "787afd27beb4877e4ecf6f01d5f2610af9c7ae1139e2ef10a6cd556a1d5b65576e75599889f4b1102a842b4bea1416ca420a6207f78f7dcfb1a98831ad50aebb"
+RPM_NAME = "libimagequant0-2.18.0-1.15.aarch64.rpm"
+RPM_HASH = "70cf20cb1411db14ba17c7386980d64ec1e932f2f21fe65c1b8d620aba315d7aa322f58e12444763596af1f47069bfeedfec8f95e12f27bfeed154b372053a44"
 
 RPROVIDES:${PN} += "libimagequant.so.0 \
 libimagequant0"

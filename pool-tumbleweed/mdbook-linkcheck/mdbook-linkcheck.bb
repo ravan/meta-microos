@@ -1,0 +1,172 @@
+SUMMARY = "A backend for mdbook which will check your links for you"
+DESCRIPTION = "A backend for mdbook which will check your links for you. For use alongside the \
+built-in HTML renderer."
+LICENSE = "MIT"
+
+PV = "0.7.7"
+
+RPM_NAME = "mdbook-linkcheck-0.7.7-2.8.aarch64.rpm"
+RPM_HASH = "6eab252bbecd0366ffca6797b35fe8c68b4ddf13bde11d157f6c4cc84856625835d72ded5a6eb02d05e9092672b63eb51cbb8630e9ed82a9a6b3c999b4d76698"
+
+RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
+bundled-rust-crate-ansi-term \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
+bundled-rust-crate-anyhow \
+bundled-rust-crate-atty \
+bundled-rust-crate-autocfg \
+bundled-rust-crate-base64 \
+bundled-rust-crate-bitflags \
+bundled-rust-crate-block-buffer \
+bundled-rust-crate-bstr \
+bundled-rust-crate-bytes \
+bundled-rust-crate-cc \
+bundled-rust-crate-cfg-if \
+bundled-rust-crate-chrono \
+bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
+bundled-rust-crate-clap-complete \
+bundled-rust-crate-clap-lex \
+bundled-rust-crate-codespan \
+bundled-rust-crate-codespan-reporting \
+bundled-rust-crate-colorchoice \
+bundled-rust-crate-cpufeatures \
+bundled-rust-crate-crypto-common \
+bundled-rust-crate-dbus \
+bundled-rust-crate-digest \
+bundled-rust-crate-dunce \
+bundled-rust-crate-encoding-rs \
+bundled-rust-crate-env-filter \
+bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
+bundled-rust-crate-errno \
+bundled-rust-crate-fastrand \
+bundled-rust-crate-fnv \
+bundled-rust-crate-foreign-types \
+bundled-rust-crate-foreign-types-shared \
+bundled-rust-crate-form-urlencoded \
+bundled-rust-crate-futures \
+bundled-rust-crate-futures-channel \
+bundled-rust-crate-futures-core \
+bundled-rust-crate-futures-executor \
+bundled-rust-crate-futures-io \
+bundled-rust-crate-futures-macro \
+bundled-rust-crate-futures-sink \
+bundled-rust-crate-futures-task \
+bundled-rust-crate-futures-util \
+bundled-rust-crate-generic-array \
+bundled-rust-crate-getopts \
+bundled-rust-crate-h2 \
+bundled-rust-crate-handlebars \
+bundled-rust-crate-hashbrown \
+bundled-rust-crate-heck \
+bundled-rust-crate-http \
+bundled-rust-crate-http-body \
+bundled-rust-crate-httparse \
+bundled-rust-crate-httpdate \
+bundled-rust-crate-humantime \
+bundled-rust-crate-hyper \
+bundled-rust-crate-hyper-tls \
+bundled-rust-crate-iana-time-zone \
+bundled-rust-crate-idna \
+bundled-rust-crate-indexmap \
+bundled-rust-crate-ipnet \
+bundled-rust-crate-is-terminal-polyfill \
+bundled-rust-crate-itoa \
+bundled-rust-crate-jobserver \
+bundled-rust-crate-lazy-static \
+bundled-rust-crate-libc \
+bundled-rust-crate-libdbus-sys \
+bundled-rust-crate-linkcheck \
+bundled-rust-crate-linkify \
+bundled-rust-crate-linux-raw-sys \
+bundled-rust-crate-log \
+bundled-rust-crate-mdbook \
+bundled-rust-crate-mdbook-linkcheck \
+bundled-rust-crate-memchr \
+bundled-rust-crate-mime \
+bundled-rust-crate-mio \
+bundled-rust-crate-native-tls \
+bundled-rust-crate-num-traits \
+bundled-rust-crate-once-cell \
+bundled-rust-crate-opener \
+bundled-rust-crate-openssl \
+bundled-rust-crate-openssl-macros \
+bundled-rust-crate-openssl-probe \
+bundled-rust-crate-openssl-src \
+bundled-rust-crate-openssl-sys \
+bundled-rust-crate-percent-encoding \
+bundled-rust-crate-pest \
+bundled-rust-crate-pest-derive \
+bundled-rust-crate-pest-generator \
+bundled-rust-crate-pest-meta \
+bundled-rust-crate-pin-project-lite \
+bundled-rust-crate-pin-utils \
+bundled-rust-crate-pkg-config \
+bundled-rust-crate-proc-macro-error \
+bundled-rust-crate-proc-macro-error-attr \
+bundled-rust-crate-proc-macro2 \
+bundled-rust-crate-pulldown-cmark \
+bundled-rust-crate-pulldown-cmark-escape \
+bundled-rust-crate-quote \
+bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
+bundled-rust-crate-regex-syntax \
+bundled-rust-crate-reqwest \
+bundled-rust-crate-rustix \
+bundled-rust-crate-rustls-pemfile \
+bundled-rust-crate-ryu \
+bundled-rust-crate-semver \
+bundled-rust-crate-serde \
+bundled-rust-crate-serde-derive \
+bundled-rust-crate-serde-json \
+bundled-rust-crate-serde-urlencoded \
+bundled-rust-crate-sha2 \
+bundled-rust-crate-shlex \
+bundled-rust-crate-slab \
+bundled-rust-crate-socket2 \
+bundled-rust-crate-strsim \
+bundled-rust-crate-structopt \
+bundled-rust-crate-structopt-derive \
+bundled-rust-crate-syn \
+bundled-rust-crate-sync-wrapper \
+bundled-rust-crate-tempfile \
+bundled-rust-crate-termcolor \
+bundled-rust-crate-terminal-size \
+bundled-rust-crate-textwrap \
+bundled-rust-crate-thiserror \
+bundled-rust-crate-thiserror-impl \
+bundled-rust-crate-tinyvec \
+bundled-rust-crate-tinyvec-macros \
+bundled-rust-crate-tokio \
+bundled-rust-crate-tokio-native-tls \
+bundled-rust-crate-tokio-util \
+bundled-rust-crate-toml \
+bundled-rust-crate-topological-sort \
+bundled-rust-crate-tower-service \
+bundled-rust-crate-tracing \
+bundled-rust-crate-tracing-core \
+bundled-rust-crate-try-lock \
+bundled-rust-crate-typenum \
+bundled-rust-crate-ucd-trie \
+bundled-rust-crate-unicase \
+bundled-rust-crate-unicode-bidi \
+bundled-rust-crate-unicode-ident \
+bundled-rust-crate-unicode-normalization \
+bundled-rust-crate-unicode-segmentation \
+bundled-rust-crate-unicode-width \
+bundled-rust-crate-url \
+bundled-rust-crate-utf8parse \
+bundled-rust-crate-vcpkg \
+bundled-rust-crate-vec-map \
+bundled-rust-crate-version-check \
+bundled-rust-crate-want \
+mdbook-linkcheck"
+
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6"
+
+inherit rpm

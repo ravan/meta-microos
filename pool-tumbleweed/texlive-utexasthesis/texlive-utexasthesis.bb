@@ -4,10 +4,10 @@ Requirement for Masters and Ph.D. thesis submissions of the \
 University of Texas at Austin."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn48648"
+PV = "2026.226.1.0svn48648"
 
-RPM_NAME = "texlive-utexasthesis-2023.209.1.0svn48648-54.1.noarch.rpm"
-RPM_HASH = "902caa60eb42158c04f4edcdd8df96857f3ff35ea6bd96c9f1d868d00b0665ae4b3c76561facf8f1a0a6ea85ba50f87c24e9915ff7af78ac26a587cb5178826f"
+RPM_NAME = "texlive-utexasthesis-2026.226.1.0svn48648-60.2.noarch.rpm"
+RPM_HASH = "0b2ad700d039bb0bc06f824d5af6c475b08f8a3850a9d0d24550e46c71429919ab3920047f68759ab795bd563d45997b12e528765cd9863c59d34aedc0daa70e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-utexasthesis.cls \

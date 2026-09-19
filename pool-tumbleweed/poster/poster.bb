@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "20060221"
 
-RPM_NAME = "poster-20060221-93.25.aarch64.rpm"
-RPM_HASH = "4400b34e2d8c10232d3c5220e4cd7edca1ab78e29c1c0ad5685b2fc07ccaaeb185901eafa62f13dcb2826e8f4fee7f9637bff8cc5dfa2aab39e099ddf8b2c29c"
+RPM_NAME = "poster-20060221-93.35.aarch64.rpm"
+RPM_HASH = "e8eb433c3dcad65102b201a6223a5ddfc00c66abff92f037b4bb1dbfbb321cf9008e32ee96c9ea2b990b621f68c1ad101d409b4d12340f31ed3d1968a8847e5c"
 
 RPROVIDES:${PN} += "poster"
 

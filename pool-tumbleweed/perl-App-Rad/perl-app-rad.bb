@@ -6,12 +6,12 @@ program. \
  \
 It also provides an interface for common command-line \
 tasks."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.05"
+PV = "1.50.0"
 
-RPM_NAME = "perl-App-Rad-1.05-1.25.noarch.rpm"
-RPM_HASH = "df5a23951caeeb54092ac15328b4192d05bcd3bdfe9a616ab2d0c0e9db3d0e6643311ff29538bac4052f63b9db5823f26f0ef9a9686bc4a901664e78fe33c108"
+RPM_NAME = "perl-App-Rad-1.50.0-1.7.noarch.rpm"
+RPM_HASH = "1e4a786ebd7c092e550d564d2cbb0658c753fc63c0f31d9a6d9c3edae02cbd80fee33573a4513beb734414c3fb458a14caa144fddc32883a4753bec43d050820"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Rad \
@@ -21,7 +21,7 @@ perl-App--Rad--Help \
 perl-App--Rad--Include \
 perl-App-Rad"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Getopt--Long"
 
 inherit rpm

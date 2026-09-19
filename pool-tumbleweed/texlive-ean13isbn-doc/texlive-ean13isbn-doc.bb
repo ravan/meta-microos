@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ean13isbn"
 DESCRIPTION = "This package includes the documentation for texlive-ean13isbn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn57514"
+PV = "2026.226.svn57514"
 
-RPM_NAME = "texlive-ean13isbn-doc-2023.209.svn57514-54.2.noarch.rpm"
-RPM_HASH = "9d9f6ef061edc80ff8d4b71c6063c480175127c564509d7a9e55d6f3d40ac8dced36bca40248ac4f87a1de2df33d73746165287aeb0638ffdb61c82d61594185"
+RPM_NAME = "texlive-ean13isbn-doc-2026.226.svn57514-61.4.noarch.rpm"
+RPM_HASH = "9674f4236ef43a320c8c013f704e612f7bc81ac61590f8ed3222a664217a76050a22548a8e75f6c060e834f9dac4afb864cd2d95d80d283fd9c67c4e7c634b63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ean13isbn-doc"

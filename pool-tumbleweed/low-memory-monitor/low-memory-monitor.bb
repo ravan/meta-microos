@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.1"
 
-RPM_NAME = "low-memory-monitor-2.1-3.9.aarch64.rpm"
-RPM_HASH = "bb39442fae3bde900ad328faeae470dfce71585c55feeb6bb560fd4d9526c7897cf3205d3f8fc099b5a366a127d49eb201b66ab144d5c5f4a4a84c92440de98f"
+RPM_NAME = "low-memory-monitor-2.1-3.21.aarch64.rpm"
+RPM_HASH = "9e4deed4d647d059d35a8013df20ccf1aa8422dc11e2550e6afb781ebeafcfc9abbc2d7825a39c7e811a292feffeb69d29b1b9938322165bc9877d0ab83409bb"
 
 RPROVIDES:${PN} += "low-memory-monitor"
 

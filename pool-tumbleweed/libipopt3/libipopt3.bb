@@ -3,10 +3,10 @@ DESCRIPTION = "Ipopt (Interior Point OPTimizer, pronounced eye-pea-Opt) is a sof
 package for large-scale nonlinear optimization."
 LICENSE = "EPL-2.0"
 
-PV = "3.14.12"
+PV = "3.14.19"
 
-RPM_NAME = "libipopt3-3.14.12-1.2.aarch64.rpm"
-RPM_HASH = "790dedb52ede8a90becbc613fda5df9673ef16f0ee046ca5450a5fe76830fe841623e997a75f3a077713556d86b7d5f94db74f17affc461f6726c4301d9add75"
+RPM_NAME = "libipopt3-3.14.19-1.7.aarch64.rpm"
+RPM_HASH = "f407d0101d3ebb6456c7bf8c929ceb684e1759bfd56cf0481735c8a9e983e87e8dd260820ac4616dea56fa03b5cc92041e4297458c1affb6243a21746e293c82"
 
 RPROVIDES:${PN} += "libipopt.so.3 \
 libipopt3 \

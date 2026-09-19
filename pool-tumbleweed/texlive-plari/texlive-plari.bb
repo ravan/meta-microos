@@ -5,10 +5,10 @@ headings, and with paragraphs vertically separated rather than \
 indented."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-plari-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "50dd77ceaa7da642c5ee88b9d7480a627d353af19833b479f5a69f3f8ff77881bc3b79846a46a41d5987bec7e86772b5587c50349868d44a1c51326e7bcbb420"
+RPM_NAME = "texlive-plari-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "7f66fbf1e06f2bf20508bc28d40a96dfd7ab312f9c1c938fc2742a9ea4ffc01652d34ddf7481e44707b01f163147469b6f8b4edc8224dce3ef2a217c18ea9af5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plari.cls \

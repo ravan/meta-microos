@@ -42,16 +42,16 @@ other Test::Builder based testing modules. As the SYNOPSIS shows, another \
 testing module must be used as the basis for your test suite."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.700.0"
+PV = "0.720.0"
 
-RPM_NAME = "perl-Test-Differences-0.700.0-1.2.noarch.rpm"
-RPM_HASH = "1c5e90038dcadc3096bb29713ee571261e66b72e54eb625d56a29888fe0ad97f794006464b6dfab0b88e1a0d5ee3f970afa85be3ff1b9bfcd5b747d32a04c367"
+RPM_NAME = "perl-Test-Differences-0.720.0-1.6.noarch.rpm"
+RPM_HASH = "b53b65aa139bac2555dbd1ba58b8a70960d43fc702fbde54dedc5e06f50afdd55782c95ac168a0abe490147df26dd3e1a9021a742e347196857ffbd8ff6674cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Differences \
 perl-Test-Differences"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Capture--Tiny \
 perl-Data--Dumper \
 perl-Test--More \

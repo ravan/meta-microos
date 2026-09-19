@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170506"
 
-RPM_NAME = "patterns-office-office-20170506-3.12.aarch64.rpm"
-RPM_HASH = "4c00e212b4afd69f5c15b0d3f2833a7504a4976014ba3cf919faa034c6df46a88efef349b0c28249fda1074e20f06f34a858167a873345ebdce620a48d97324d"
+RPM_NAME = "patterns-office-office-20170506-3.20.aarch64.rpm"
+RPM_HASH = "7324bddc043e5a9b3caee861a3a8b2ba16b50ee96c5ff445d0eb38090175764fc28cfc9262b5fc48634e597387f5577ea50d9f0b04276b2fbdd9728b164def14"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

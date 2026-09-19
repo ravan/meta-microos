@@ -3,10 +3,10 @@ DESCRIPTION = "Several tools for inspecting Windows 9x/Me REGF-type Registry fil
 Typically used for computer forensics."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210625"
+PV = "20260523"
 
-RPM_NAME = "libcreg-tools-20210625-6.1.aarch64.rpm"
-RPM_HASH = "efdece8e50a775e6cf32b0195c96d1eed09d5e569404e3c28f69465449a2126501a07ea23e2fa3e7c5764538539d010acddaa5b868f06b85af4825dd22c1c7cc"
+RPM_NAME = "libcreg-tools-20260523-1.10.aarch64.rpm"
+RPM_HASH = "44a354adf7688fd9e6e7aebdec8dc3c476bf5046372d000c8c82dde4c1b8f4cc828a4058eeae54f56149acc41462b98897270091b36f7c23bb18c151899abe84"
 
 RPROVIDES:${PN} += "libcreg-tools"
 
@@ -16,7 +16,7 @@ libcerror.so.1 \
 libclocale.so.1 \
 libcnotify.so.1 \
 libcreg.so.1 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libuna.so.1"
 
 inherit rpm

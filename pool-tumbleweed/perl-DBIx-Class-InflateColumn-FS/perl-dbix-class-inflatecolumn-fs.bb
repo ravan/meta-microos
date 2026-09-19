@@ -16,15 +16,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.01007"
 
-RPM_NAME = "perl-DBIx-Class-InflateColumn-FS-0.01007-2.19.noarch.rpm"
-RPM_HASH = "41f2ea8b60755d640f0e9c307737e61fe623a4382ba4eff38b5eee07189bc5be92b1dc4f6cd231dab72f02c32af846947b0d703414229554eb6b4c920545d717"
+RPM_NAME = "perl-DBIx-Class-InflateColumn-FS-0.01007-2.33.noarch.rpm"
+RPM_HASH = "e89e11362d8d22d9a23eb9e50942ff3d4d4259ae873c3cc8e5008a5404ab88eadffab0e34d528fbcff142f5bb67de5a7e7af93423e2cdf2eecc45c2b413ecabd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--InflateColumn--FS \
 perl-DBIx--Class--InflateColumn--FS--ResultSet \
 perl-DBIx-Class-InflateColumn-FS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBD--SQLite \
 perl-DBICx--TestDatabase \
 perl-DBIx--Class \

@@ -3,19 +3,20 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop applications that make use of multiple email identities."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kidentitymanagement-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "cc20e22afecfc47a3f4c1800be6d12813545febe75a8ab9dd73a53115ea449071f88f4c626522b84cc896d469e7960a38449a2ab31d66b1500695a8499564030"
+RPM_NAME = "kidentitymanagement-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "48430afaed3881d4885666352f8ff92584735323f60c167a5fae8f41c02d4b29cc32bdd8f3a909747990a9584afdf8679350de8940c1b946bdf0a0fb57c83752"
 
-RPROVIDES:${PN} += "cmake-KF5IdentityManagement \
-cmake-KPim5IdentityManagement \
+RPROVIDES:${PN} += "cmake-KPim6IdentityManagementCore \
+cmake-KPim6IdentityManagementQuick \
+cmake-KPim6IdentityManagementWidgets \
 kidentitymanagement-devel"
 
-RDEPENDS:${PN} += "cmake-KF5CoreAddons \
-cmake-KF5TextEditTextToSpeech \
-cmake-KPim5TextEdit \
-libKPim5IdentityManagement5 \
-libKPim5IdentityManagementWidgets5"
+RDEPENDS:${PN} += "cmake-KF6CoreAddons \
+cmake-KPim6TextEdit \
+libKPim6IdentityManagementCore6 \
+libKPim6IdentityManagementQuick6 \
+libKPim6IdentityManagementWidgets6"
 
 inherit rpm

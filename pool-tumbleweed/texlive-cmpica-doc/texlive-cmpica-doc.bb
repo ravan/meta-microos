@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cmpica"
 DESCRIPTION = "This package includes the documentation for texlive-cmpica"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-cmpica-doc-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "7e10900687588924014c53d22d29e3d0767cf8a6d6361e7cfd8937d49747a8dd8236edb9cfa099f45c8e2891ec2f3726c3ba0b5098bade4a06d778d45b9039dc"
+RPM_NAME = "texlive-cmpica-doc-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "8cba0644698cce675d6d0380e988f0378aa896350b11521a21edae798f0b4441e9903060bc69c1b97747e3ca0aeee8097afa3200b5bac3776a6dafce3450fe96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmpica-doc"

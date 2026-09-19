@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.7.0"
 
-RPM_NAME = "ghc-githash-prof-0.1.7.0-1.5.aarch64.rpm"
-RPM_HASH = "ac037afeb67adfd94c4d4e8ba2d3f9b88f0a4810dfb3359d7c3eb1380b71079a1e8c4cdc4f2d3d34c7e9946dd8082ca1c300753d29bd64fdf9015c5627bcf18b"
+RPM_NAME = "ghc-githash-prof-0.1.7.0-1.34.aarch64.rpm"
+RPM_HASH = "b3639dedb75d5eb7e41cd04de682d51d1b00e7b2689d21ab905f970c5dc55f50c72a2bf5e8faac888e663342da8a55a5c379732cd190575cccdf36d696d0611c"
 
 RPROVIDES:${PN} += "ghc-githash-prof \
-ghc-prof-githash-0.1.7.0-AdGnnqehkm8HwhDMWfn4qF"
+ghc-prof-githash-0.1.7.0-CZogn6tBFSRH7zyPP5YHJu"
 
 RDEPENDS:${PN} += "ghc-githash-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-process-1.6.17.0 \
-ghc-prof-template-haskell-2.19.0.0 \
-ghc-prof-th-compat-0.1.4-F5a7GnDk5rxHGhOle8BcYS"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-process-1.6.26.1-905d \
+ghc-prof-template-haskell-2.23.0.0-358a \
+ghc-prof-th-compat-0.1.7-A4ZdivYymzPCDISaa5LNtp"
 
 inherit rpm

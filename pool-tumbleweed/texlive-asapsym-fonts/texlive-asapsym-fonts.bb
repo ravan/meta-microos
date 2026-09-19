@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-asapsym"
 DESCRIPTION = "The  separated fonts package for texlive-asapsym"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn40201"
+PV = "2026.226.1.0svn40201"
 
-RPM_NAME = "texlive-asapsym-fonts-2023.209.1.0svn40201-54.1.noarch.rpm"
-RPM_HASH = "74d0906ec752663dfec7bb689437b5c0b903f76cac6b062986934a1616b74716e5fa318fefcbbdca94738ead69f5d6505e4cbd9ff59c3ebf821648f0817c0722"
+RPM_NAME = "texlive-asapsym-fonts-2026.226.1.0svn40201-60.2.noarch.rpm"
+RPM_HASH = "4f08a9300c5fe885c9c352ca2de07193e84ed446c16ef74f2b0c51474db186a155db91c47a5af2d1bfb565057282db24b947a1bd473cbf8bd51c9c72bc01ccb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-asap \

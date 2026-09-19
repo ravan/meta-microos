@@ -5,10 +5,10 @@ timing jitter. It depends on a high-resolution time stamp. \
 This package contains the static library."
 LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
-PV = "3.4.1"
+PV = "3.6.3"
 
-RPM_NAME = "jitterentropy-devel-static-3.4.1-2.2.aarch64.rpm"
-RPM_HASH = "6ef9e44b031783ab53d8ca21fb94774d73f5d3b91bb8408698f4cd383e9fe3207af936c99cc613336d3b0bae607cb0513dd96b86ab351278d4b7554c6ccaedf1"
+RPM_NAME = "jitterentropy-devel-static-3.6.3-1.6.aarch64.rpm"
+RPM_HASH = "6a8fe2fa6dc78fb3364fa650a72ec007390d9f67689a474fcb3dbffd6acb3b1a12fe133272dc3937714a8774fa30239d36ed4c4e07738afa0f633098cc559f97"
 
 RPROVIDES:${PN} += "jitterentropy-devel-static"
 

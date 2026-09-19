@@ -3,10 +3,10 @@ DESCRIPTION = "GUPnP A/V is a small utility library that aims to ease the handli
 implementation of UPnP A/V profiles."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.14.1"
+PV = "0.14.5"
 
-RPM_NAME = "libgupnp-av-1_0-3-0.14.1-3.1.aarch64.rpm"
-RPM_HASH = "c59c11002ceee2177f96fc8d992e8db901ca253486533c61a0024c13107eb8b588623775c05c2fc2dd837b8db080fb931f244fcecdb0213a8b1e9af1bbdd3f72"
+RPM_NAME = "libgupnp-av-1_0-3-0.14.5-1.3.aarch64.rpm"
+RPM_HASH = "a3cf551313d06ea3b844c3508c153b002025600d839b960697588da4bff2386c2cd4e2f210741a183cdf25e9d535d3363241221c171f3a6cfe6181d4f5f8d43c"
 
 RPROVIDES:${PN} += "libgupnp-av-1-0-3 \
 libgupnp-av-1.0.so.3"
@@ -17,6 +17,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

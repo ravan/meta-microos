@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "libspeexdsp1-1.2.1-2.1.aarch64.rpm"
-RPM_HASH = "4b401bc721eddd24b7f1a1f10ad9313bd78e7c855f8877645e640d74995eb254be5e36fc4791afd8074c98aaf8078189868517adef479c4578ae8e1d781664d5"
+RPM_NAME = "libspeexdsp1-1.2.1-2.12.aarch64.rpm"
+RPM_HASH = "f454e4650c31965a732b3522e89701bf352d9e4927c3ed1bde114a74fdaee9ac22312620cc25b566227cbe7b09688d8079043a565ceeab5699e0b8d717a7ea14"
 
 RPROVIDES:${PN} += "libspeexdsp.so.1 \
 libspeexdsp1"

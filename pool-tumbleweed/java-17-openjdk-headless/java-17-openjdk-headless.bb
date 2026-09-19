@@ -1,11 +1,11 @@
 SUMMARY = "OpenJDK 17 Runtime Environment"
 DESCRIPTION = "The OpenJDK 17 runtime environment without audio and video support."
-LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
+LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & LicenseRef-SUSE-Public-Domain & W3C"
 
-PV = "17.0.8.1"
+PV = "17.0.20.1"
 
-RPM_NAME = "java-17-openjdk-headless-17.0.8.1-1.1.aarch64.rpm"
-RPM_HASH = "4f49eac83520cdf0d73d0b60db96e0057ef9dfe947ad4361f218c19f20a754a427a6ba2c282d3f908358edf90aa63183cee5621cd8f7aa0b561603032cf56958"
+RPM_NAME = "java-17-openjdk-headless-17.0.20.1-1.1.aarch64.rpm"
+RPM_HASH = "2fa404a3c6068ff95359ed54e55a867808c9898f1831fa6513d79d34a6edae555e59ab83071e0c9067108a90ed540f6ac99c76d50293ac9233d012a4b4455f04"
 
 RPROVIDES:${PN} += "config-java-17-openjdk-headless \
 jaas \
@@ -57,9 +57,13 @@ libsctp.so \
 libsyslookup.so \
 libsystemconf.so \
 libverify.so \
-libzip.so"
+libzip.so \
+timezone-java \
+tzdata-java"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+alts \
+file \
 java-ca-certificates \
 jpackage-utils \
 ld-linux-aarch64.so.1 \
@@ -75,7 +79,6 @@ libpcsclite.so.1 \
 libstdc++.so.6 \
 libz.so.1 \
 mozilla-nss \
-rtld-GNU-HASH \
-update-alternatives"
+rtld-GNU-HASH"
 
 inherit rpm

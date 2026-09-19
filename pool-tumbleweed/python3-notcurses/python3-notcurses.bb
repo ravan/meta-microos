@@ -9,13 +9,13 @@ This subpackage contains the python3 bindings for the notcurses \
 library."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.9"
+PV = "3.0.17"
 
-RPM_NAME = "python3-notcurses-3.0.9-1.8.aarch64.rpm"
-RPM_HASH = "d692e1e47da9d8667c51f17461ff43c61ed88d85f239df22aeb42adab24598c5df5123e48cdef93d33fc27697aeac046912b724b28e341883a9318d715a29b5d"
+RPM_NAME = "python3-notcurses-3.0.17-1.6.aarch64.rpm"
+RPM_HASH = "9ee3d37124021ee9353db14ce6180d02d42acbf3f8455d97cb7d31c441f3985d581a9c82592d79d4c00ac06378677f9dd63886d951a6b5f66040cb04dc884ccb"
 
 RPROVIDES:${PN} += "python3-notcurses \
-python3.11dist-notcurses \
+python3.13dist-notcurses \
 python3dist-notcurses"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

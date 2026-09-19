@@ -1,13 +1,13 @@
 SUMMARY = "A simple citation style for Chinese users"
 DESCRIPTION = "The package provides a simple and easily extensible \
-biblography/citation style for Chinese LaTeX users, using \
+bibliography/citation style for Chinese LaTeX users, using \
 BibLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.6svn64866"
+PV = "2026.226.0.0.3.7svn76790"
 
-RPM_NAME = "texlive-biblatex-caspervector-2023.209.0.0.3.6svn64866-54.1.noarch.rpm"
-RPM_HASH = "2f6c8a31e1e2828f5b53fa0e0fe8b5ea097947a47bee201dc4108c5903499cc463a394323aef34e8b379a64c53786f7537a3f0d510fec354b0129eba389cd932"
+RPM_NAME = "texlive-biblatex-caspervector-2026.226.0.0.3.7svn76790-61.2.noarch.rpm"
+RPM_HASH = "9a0b7bfa97934dbc49a16c84fa0e5f212dfd370ce32a9a7382a4d9b55cd2a020e9d6f648fc8850887e7c7410d05e3dc9a522a6e4dac46aba44dc4b74cb6649fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blx-caspervector-base.def \

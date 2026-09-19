@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "7"
 
-RPM_NAME = "sonatype-oss-parent-7-2.11.noarch.rpm"
-RPM_HASH = "10eb5e69a5aed70e0298a60c6e255815184b1a8927336432498a53b789740d1f765769eccc0eee8998536da8fbb947f61536eafe0152ec0ddb1a966aa9e24454"
+RPM_NAME = "sonatype-oss-parent-7-2.19.noarch.rpm"
+RPM_HASH = "bb7bdca24237756fc503df212899ef6b4e99ea48800768ac5c53d1933111e39d12c2f5c89389afd438841bb9269e2e52a41b84c5073e221d2b7d78386404b952"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.sonatype.oss-oss-parent-pom- \

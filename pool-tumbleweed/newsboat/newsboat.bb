@@ -5,10 +5,10 @@ for example news or blog articles. Newsboat is designed to be used on \
 text terminals."
 LICENSE = "MIT"
 
-PV = "2.32"
+PV = "2.44"
 
-RPM_NAME = "newsboat-2.32-1.1.aarch64.rpm"
-RPM_HASH = "2ee01367d0a492803533860b87bfd2928ea35082d2ee44601a04b3f3d1cfcb7f0f3f18b88c016cbf7ba6698d981da76e2b5c54f088b65b9d535fb6786aa94972"
+RPM_NAME = "newsboat-2.44-1.2.aarch64.rpm"
+RPM_HASH = "12f95498302149bc393e0a3a08da2d4a2f76f9c358d9e4d675b346ea44a062b739f43dd6a58e7482449e275253754e6fab810c6c96bee587411a51dd4b07a686"
 
 RPROVIDES:${PN} += "newsbeuter \
 newsboat"
@@ -23,6 +23,6 @@ libsqlite3.so.0 \
 libstdc++.so.6 \
 libstfl.so.0 \
 libtinfo.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

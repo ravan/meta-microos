@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "20030909"
 
-RPM_NAME = "netconsole-tools-20030909-158.2.noarch.rpm"
-RPM_HASH = "3f1e87f234c64d10776ef2f632de4eeb897ab6d41f0985a8a0d7ffc45a3487308f464bee0936483858c47451e66d85144b9674bf111d0f27956b61c88f744814"
+RPM_NAME = "netconsole-tools-20030909-158.10.noarch.rpm"
+RPM_HASH = "09bb429b7c4c50f2fe3e6b64145bfb14cef37d1ec98e0842ced86d108c6275d968ec38e38bf9e41c219b0a21b44c5ee20c4858116eef42290096ca4cc3ff8e11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netconsole-tools"

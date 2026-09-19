@@ -14,8 +14,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.2"
 
-RPM_NAME = "thessalonica-oldstandard-otf-fonts-2.2-11.18.noarch.rpm"
-RPM_HASH = "7239281c39571702c7c8f5404df300730298b0c028f60a9c8c9c6a4e9e90852e8fb9b090e7dcaa11169611bd6381a080cbecaa64829c877aa372f1f904c2910b"
+RPM_NAME = "thessalonica-oldstandard-otf-fonts-2.2-11.26.noarch.rpm"
+RPM_HASH = "f65c2722e10665cd9599e24b37baccdd2472d4e7df4bfd8818cc629512c19d465092db878b805c4247f0f253e66b6bc78009a39cc3bbb4e817199669da7519ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-el;ru \

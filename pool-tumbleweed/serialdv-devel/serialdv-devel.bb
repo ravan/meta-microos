@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libserialdv."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.1.4"
+PV = "1.1.5"
 
-RPM_NAME = "serialdv-devel-1.1.4-1.9.aarch64.rpm"
-RPM_HASH = "1298d4a4a7a3f9c6d12a7dffe9cddc41dec93714dbbc761df4162f6e7af02b00cb1d6540b0bd39fdc7648883683d671f5d29f8a9fd5de3489c390420a91a9dd9"
+RPM_NAME = "serialdv-devel-1.1.5-1.6.aarch64.rpm"
+RPM_HASH = "4d92f51f5fbec91f6583eb8477e7e247e5e4063584122871e490d4849a7af51eba8d1b6425f4bfa7512f9c7ac39dff51fd161146558424624be6c6e579da387a"
 
 RPROVIDES:${PN} += "serialdv-devel"
 

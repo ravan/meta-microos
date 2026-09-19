@@ -3,15 +3,15 @@ DESCRIPTION = "This package provides private headers of libQt6Coap that do not h
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-coap-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "56e14cd1173201abef0e6e7dcd724eff9c65c258568e506586232d12bda88e1e9df3884d915d7f8077b88528b774077da2f95ebc12961e4b13f5c3aad33be41f"
+RPM_NAME = "qt6-coap-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "a7cdcf90e89f7b0d853f1115ef4d5aac5acf53251a99ab0b8c1094d4785803fe211c70b291f163b4932113e3d918eea56b9846c0bf11e3d0a77f162864eed8ab"
 
-RPROVIDES:${PN} += "qt6-coap-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6CoapPrivate \
+qt6-coap-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6Coap \
-cmake-Qt6Network \
-qt6-core-private-devel"
+cmake-Qt6Network"
 
 inherit rpm

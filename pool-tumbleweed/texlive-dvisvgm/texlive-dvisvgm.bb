@@ -14,10 +14,10 @@ the kpathsea library. For more detailed information, see the \
 project page."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.0.4svn66532"
+PV = "2026.226.3.6svn77830"
 
-RPM_NAME = "texlive-dvisvgm-2023.209.3.0.4svn66532-54.2.noarch.rpm"
-RPM_HASH = "6ae783a15e45702a6df6b03776d9aae8ff40bd9921003a9159b3d37878503c68e0be25ef2a36f49a0807ac704806a61e9b649e20273af89047ead799ebc99ba2"
+RPM_NAME = "texlive-dvisvgm-2026.226.3.6svn77830-61.4.noarch.rpm"
+RPM_HASH = "9dcc1dcb0b74b567cc6c063ebda34d8758500cd67c0456f7f59674dad0a81090fd30469ca1930d0884d795386259210731f52ed74e75f9145ce812b7d5e3c4bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvisvgm.1 \

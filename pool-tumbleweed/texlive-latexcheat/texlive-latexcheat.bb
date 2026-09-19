@@ -4,10 +4,10 @@ many other such sheets, this sheet does not focus on \
 typesetting mathematics (though it does list some symbols)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.13svn15878"
+PV = "2026.226.1.13svn15878"
 
-RPM_NAME = "texlive-latexcheat-2023.209.1.13svn15878-55.1.noarch.rpm"
-RPM_HASH = "dcd28c091d208500772b2d472ceaec9892d283da808c4f2df1b8bd5e5e5c7608630f6dfa658d857346d6384c334835e033a557b35b75af7e4fae86611ece0ac4"
+RPM_NAME = "texlive-latexcheat-2026.226.1.13svn15878-61.2.noarch.rpm"
+RPM_HASH = "97b0ee4f9afc09e9e0093b9772f70f6c72c447350160fad3fb0e4a23f103e95b087843f956e41fc6cb91de7e70427a458ad4e8a33e09b12a2bcf6dce8c259502"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexcheat"

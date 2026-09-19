@@ -3,22 +3,22 @@ DESCRIPTION = "It will search through your binary install blob, identify and ext
 buried within and drop them in a local directory. No higher permissions required, \
 the only thing that is executed is the Perl script which lives up to Perl's \
 reputation of easy inspection."
-LICENSE = "GPL-3.0"
+LICENSE = "GPL-3.0-only"
 
-PV = "0.2.0"
+PV = "0.3.0"
 
-RPM_NAME = "unpack-install-jammer-0.2.0-1.10.noarch.rpm"
-RPM_HASH = "12650d73c8337496eccba35e4afcc510df87fa138027430f545c1cb40cb110385098d51201305f7c82440bae5d9cebc2e9e38a48138239b96a0ab565ae9f03d4"
+RPM_NAME = "unpack-install-jammer-0.3.0-1.1.noarch.rpm"
+RPM_HASH = "bead59dd341ec11aaa38c7d9a31e8b7cd5404a4f5c157b58d5507cdf2f63e9ff4b582f71434b1c2e825ec4f1a68874201fe49937f96349c4da02b9746f875890"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unpack-install-jammer"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
-perl-Compress-Raw-Lzma \
-perl-Data-Dump \
-perl-File-HomeDir \
-perl-Modern-Perl \
-perl-Term-ProgressBar"
+perl--MODULE-COMPAT-5.44.0 \
+perl-Compress--Raw--Lzma \
+perl-Data--Dump \
+perl-File--HomeDir \
+perl-Modern--Perl \
+perl-Term--ProgressBar"
 
 inherit rpm

@@ -9,10 +9,10 @@ available. The philosophy, and the design process, of the \
 Kerkis fonts is discussed in a paper in TUGboat 23(3/4), 2002."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.11svn56271"
+PV = "2026.226.1.11svn56271"
 
-RPM_NAME = "texlive-kerkis-2023.209.1.11svn56271-56.1.noarch.rpm"
-RPM_HASH = "4c503cf49171ef97e4433576fa86d838c6a76fbee5174fb23e8b0fb58f6f86e8cd4e785ec4f3151b0d47c9e865cdb9f350212e8cc4d47f9edd5111aed8fe04d6"
+RPM_NAME = "texlive-kerkis-2026.226.1.11svn56271-63.2.noarch.rpm"
+RPM_HASH = "ad90c703f07b370bb4b13c278e496e7aa68cb76be92e4edf3c78fd497da2346abbf95abb354839828e0389e6a2aa0273903e76e397de05be3acb744917271979"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ek8a.tfm \

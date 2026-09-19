@@ -2,10 +2,10 @@ SUMMARY = "Budgie Desktop Environment"
 DESCRIPTION = "The Budgie Desktop is a feature-rich, modern desktop designed to keep out the way of the user."
 LICENSE = "MIT"
 
-PV = "20220527"
+PV = "20250305"
 
-RPM_NAME = "patterns-budgie-budgie-20220527-2.2.aarch64.rpm"
-RPM_HASH = "19540f2de1cf1630f1b86e930afded96647922f00af6bfacedbea395b9078c18a2ef92e45bcbe44c03ab7ffe30fa96398a771f1a39b27c38f182fc53f27b1ff1"
+RPM_NAME = "patterns-budgie-budgie-20250305-2.4.aarch64.rpm"
+RPM_HASH = "5e21072d66024738d47ca5f70fe50f3171c7879f605e112348f9de07001da308356d1c6990c263abf4239c967b463519a94d0dd9afdfcc03a6c9a5d270eb6850"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -15,7 +15,6 @@ pattern-visible- \
 patterns-budgie-budgie"
 
 RDEPENDS:${PN} += "budgie-desktop \
-lightdm \
 pattern-"
 
 inherit rpm

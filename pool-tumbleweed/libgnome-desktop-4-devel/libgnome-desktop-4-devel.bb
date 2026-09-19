@@ -4,10 +4,10 @@ on the desktop, but that cannot live in the platform for various \
 reasons."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.0"
+PV = "44.5"
 
-RPM_NAME = "libgnome-desktop-4-devel-44.0-1.2.aarch64.rpm"
-RPM_HASH = "e12f81c83a4b8793cc129eca0f123c8bed6367a4eb7cbc740ac50d61a9d2a9a0ec2c9fdb95cbd4be841efcf6ebf60622bf1441d95d02c910cf7570072d7b8e2c"
+RPM_NAME = "libgnome-desktop-4-devel-44.5-1.5.aarch64.rpm"
+RPM_HASH = "9bed3750e08e71c59ae12bb420a2e9ccde16a98ae05c2677cfabf654e8529250159f5b5c79af8e12b8c2bc752c0342b0e0234490426b37719e89044e44ecfd3a"
 
 RPROVIDES:${PN} += "libgnome-desktop-4-devel \
 pkgconfig-gnome-bg-4 \

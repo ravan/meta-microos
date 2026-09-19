@@ -14,8 +14,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20130822"
 
-RPM_NAME = "xemacs-packages-20130822-12.8.noarch.rpm"
-RPM_HASH = "6e04720c6a45f94f826f36d284b0f9c2d33144d8b23100b02620926444fd4c9c565519737641a4ce362e49830883ab072acf3ed64e398136b2c1d720afc764db"
+RPM_NAME = "xemacs-packages-20130822-17.7.noarch.rpm"
+RPM_HASH = "8ff821d373aa86531438a1b0ebf8247d42685df1e09e523d5d4ea9d6a0ee3fb0bb652c069e020951bfa5b57b8d1f706f45601fb9aad91e87b897e64deb9a55c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-xemacs-packages \

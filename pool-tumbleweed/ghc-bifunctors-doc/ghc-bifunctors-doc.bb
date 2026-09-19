@@ -2,10 +2,10 @@ SUMMARY = "Haskell bifunctors library documentation"
 DESCRIPTION = "This package provides the Haskell bifunctors library documentation."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.5.15"
+PV = "5.6.3"
 
-RPM_NAME = "ghc-bifunctors-doc-5.5.15-1.9.noarch.rpm"
-RPM_HASH = "109f67900df52425b520d531af29fb99bbbba4ec11692a6d6bdf09365b806f0b8a81e105fc24454425018bbac8a20987d2bf0ff3baaa61aea7a8b0a03d5fbfa0"
+RPM_NAME = "ghc-bifunctors-doc-5.6.3-1.3.noarch.rpm"
+RPM_HASH = "a7e6a3866e647deddc0b59fe66d6a9ae01a73a9aa4b3b15b0879266e01f5007a61832e4a2a5ab1e1673571d86b74586b80b9d23e1a774243a9662e65d0c62c22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-bifunctors-doc"

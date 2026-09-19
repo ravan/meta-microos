@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.2"
 
-RPM_NAME = "jsr-305-3.0.2-2.7.noarch.rpm"
-RPM_HASH = "7ac35e8b8158f600800036ad13d430bea44d464fd694e6589ba87b3b94d772fce9757fccd6fcb9370a4b609dbf3354d4d71e3608b51681a895f3cd573e42bec2"
+RPM_NAME = "jsr-305-3.0.2-3.8.noarch.rpm"
+RPM_HASH = "56ae9aacb795964980ad02bf59711d7ebd5dfcc45f6907155981721ab66d80dc3a7dedaa836be2ee068678eca53f9cd4366fb2716be53a609120b3ea4b2f7edb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsr-305 \

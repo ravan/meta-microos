@@ -6,10 +6,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7"
 
-RPM_NAME = "aircrack-ng-1.7-2.4.aarch64.rpm"
-RPM_HASH = "906a673cbe52de5edc50356fb6553bbb8d8b93d564dc30875ec300beffa175ff9dc5ba8fdfa574fb276bc93d86cea9167bc0e885fa8bf5d9157cb8e5e2fe4eb1"
+RPM_NAME = "aircrack-ng-1.7-5.5.aarch64.rpm"
+RPM_HASH = "0c3e37d22f7becea5ac91383edf3b5972f2e36dc0333316c2bb46bf226c97975c95ff028fce488b91a4088f6980154f0ee310a59b22db3378389edf368fcea26"
 
-RPROVIDES:${PN} += "aircrack-ng"
+RPROVIDES:${PN} += "aircrack-ng \
+python3.13dist-airdrop-ng \
+python3.13dist-airgraph-ng \
+python3dist-airdrop-ng \
+python3dist-airgraph-ng"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
@@ -23,7 +27,7 @@ libm.so.6 \
 libnl-3.so.200 \
 libnl-genl-3.so.200 \
 libpcap.so.1 \
-libpcre.so.1 \
+libpcre2-8.so.0 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
 libz.so.1 \

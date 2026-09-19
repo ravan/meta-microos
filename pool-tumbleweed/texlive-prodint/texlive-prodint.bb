@@ -7,10 +7,10 @@ for them. The authors have remedied that situation by proposing \
 the symbol and providing this font."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn21893"
+PV = "2026.226.svn21893"
 
-RPM_NAME = "texlive-prodint-2023.209.svn21893-53.1.noarch.rpm"
-RPM_HASH = "bcbb76e99b387048ea101888a4aea2394e32f91574e1c24df873de0cd9b70fa364d4afc2c11ddd69a3d6d498b1436935c962c0b0558b993f7586bd0bd1d81bfb"
+RPM_NAME = "texlive-prodint-2026.226.svn21893-59.2.noarch.rpm"
+RPM_HASH = "42d2a7fa8968969512e6f422311a31a0dafe76fa3aec1851b2072fe746273bba849a65d66356f7dac58ba3f9c93e9cf10cfb04c82e3a6876c0dcf0d94cac58bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-prodint.map \

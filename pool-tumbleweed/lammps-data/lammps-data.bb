@@ -14,10 +14,10 @@ designed to be easy to modify or extend with new functionality. \
 This subpackage contains LAMMPS's potential files"
 LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "20201029"
+PV = "20250722.03"
 
-RPM_NAME = "lammps-data-20201029-5.2.noarch.rpm"
-RPM_HASH = "4182306ab37a269df55225b583545f33b6e4934c503dac5c283091ceacf30fb19bb0e0404358ccd079f4ddacc3ea7956333c43c32d030c3b3127357b9cdc9365"
+RPM_NAME = "lammps-data-20250722.03-1.6.noarch.rpm"
+RPM_HASH = "9196fe7522c64494f4e70352ebd27688ae8ccbed47717b096c2d4fe53e4e6619116ab11d03b2f6d80c2674e239d5af14c122caf658def9364f4aae6fe1904d2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-lammps-data \

@@ -10,10 +10,10 @@ It includes support for the EXSLT set of extension functions as well \
 as some common extensions present in other XSLT engines."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.38"
+PV = "1.1.45"
 
-RPM_NAME = "libxslt1-1.1.38-1.1.aarch64.rpm"
-RPM_HASH = "2dc91838ef4ad8c8e74ba258576a724ae974d8a16146f432c35418bde2476b4070fc23161f62374ebb1af84debe53b4ff3e3ef93b4b1421f161daa83d29b4589"
+RPM_NAME = "libxslt1-1.1.45-1.4.aarch64.rpm"
+RPM_HASH = "d8633770e718284749309edd2228742f5a3886dcd001c0648a7ed954e38d3d2df09bc4e10d699b0a9d348e369ef8ed804fe88b90d9b4eb84a4e29c29c3c09e0a"
 
 RPROVIDES:${PN} += "libxslt.so.1 \
 libxslt1"
@@ -22,6 +22,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

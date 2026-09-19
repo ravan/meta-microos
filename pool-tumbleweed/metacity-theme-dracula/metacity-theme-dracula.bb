@@ -2,10 +2,10 @@ SUMMARY = "Dracula Metacity themes"
 DESCRIPTION = "This package contains the metacity themes."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.0+git94.9840b6b"
+PV = "4.0.0+git146.2618a03"
 
-RPM_NAME = "metacity-theme-dracula-3.0+git94.9840b6b-1.1.noarch.rpm"
-RPM_HASH = "4725ce48288112d9ddfa5c450308644b1e5e23e9d12f789c4f8d51469afee2770a7ca573c0af4bd4db33e0d1d69a13ad3c02bfc33d253fa3cfd4427dbbfb830b"
+RPM_NAME = "metacity-theme-dracula-4.0.0+git146.2618a03-1.2.noarch.rpm"
+RPM_HASH = "8047b25eb74b4a78217e72203462efadcfb32d0874e2022d720e6c88338a66b65724c0acc71df792b5f3f25b61cee030969a8e822a6e67459fdb0436c3bebd31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracula-gtk-theme \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.24.2"
 
-RPM_NAME = "obexftp-0.24.2-1.25.aarch64.rpm"
-RPM_HASH = "ce65ae26deb98030fefae34b1347315cd3224c0ccb0820f1d491a4ca40e64602a1b92a392e27aedf889695ba01551a3d8256d3cb0c2cf311d5e618aeeaac8357"
+RPM_NAME = "obexftp-0.24.2-3.10.aarch64.rpm"
+RPM_HASH = "bd2dc2feca7d75f495d961bf40abb0e04f989be551740af062a43b2d0a205622257428359cf57cd18763b18880b45abd89364f201cb2143961a36dcdfd94523e"
 
 RPROVIDES:${PN} += "libbfb.so.1 \
 libmulticobex.so.1 \

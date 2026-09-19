@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xfakebold"
 DESCRIPTION = "This package includes the documentation for texlive-xfakebold"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.08svn55654"
+PV = "2026.226.0.0.10svn77682"
 
-RPM_NAME = "texlive-xfakebold-doc-2023.209.0.0.08svn55654-53.2.noarch.rpm"
-RPM_HASH = "ec6da8bd10dcbaba98d0785eea8375de470ce05ea793e88adf196920d167ce2828fcc411ba7788c2adafc627d606f552fa5f97f207b4c448e560818a2c5ee9e9"
+RPM_NAME = "texlive-xfakebold-doc-2026.226.0.0.10svn77682-59.4.noarch.rpm"
+RPM_HASH = "9562c34df7553ddb126c4d3082e54399ea4ac880fb1b5e9a4fa602d1bf939d59d39fe42ccc40b047228c5408406fdbb0059017c4070df33fbc2657aa8203586b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xfakebold-doc"

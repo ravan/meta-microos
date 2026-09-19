@@ -9,10 +9,10 @@ from libav should depend on these private headers which are expected to \
 break compatibility without any notice."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "ffmpeg-4-private-devel-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "6a2cbc02e404f41fff24704aa38ea0611129bb992fa4f879025c3d9dc08bf99e8d1af1a1d88c2b49106145659fa5d5192ea846d64a21520fee4087b676092553"
+RPM_NAME = "ffmpeg-4-private-devel-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "46b86c806607517d1a5975693bb731eaf3aaf1191c79ce9ead7de5263b3c91ea1ca2838b9e32f525dc1c0dcd40ae1a8e3b94619bd6c1c4883d281eedbedaea65"
 
 RPROVIDES:${PN} += "ffmpeg-4-private-devel \
 ffmpeg-private-devel"

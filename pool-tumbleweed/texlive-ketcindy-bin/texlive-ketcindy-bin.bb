@@ -2,10 +2,10 @@ SUMMARY = "Binary files of ketcindy"
 DESCRIPTION = "Binary files of ketcindy"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn49033"
+PV = "2026.20260301.svn49033"
 
-RPM_NAME = "texlive-ketcindy-bin-2023.20230311.svn49033-93.2.aarch64.rpm"
-RPM_HASH = "41470ae9acbcf28ef58a86fbc695e8202ff5bfdabe87ab8a06e40d516d27adfed34f28dcb63c7b43ee5c4e22f4ccfc6a7d0a85b85d655f21626469f4ef239782"
+RPM_NAME = "texlive-ketcindy-bin-2026.20260301.svn49033-120.4.aarch64.rpm"
+RPM_HASH = "9a03653f027c2063c7478fe2bd93b731fe93f1b013a06ca6dc2068a92c6949a4cae19a30bb931944ced2073d1243304478691c652f648f3e3fc52ae3d2932b6b"
 
 RPROVIDES:${PN} += "texlive-ketcindy-bin"
 

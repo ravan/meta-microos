@@ -3,10 +3,10 @@ DESCRIPTION = "libimobiledevice is a software library that talks the protocols t
 iOS devices. It does not depend on any existing libraries from Apple."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.0+190git.20230705"
+PV = "1.4.0+0git.20251010"
 
-RPM_NAME = "libimobiledevice-1_0-6-1.3.0+190git.20230705-1.1.aarch64.rpm"
-RPM_HASH = "7947421c13a5b9684192f7dafaeea3531d8f34268868ade5c7baf74fe369a6f6d468dbc61f7b3068640bf5515f3d31dfa6dd323875881a7a361b880fef249d33"
+RPM_NAME = "libimobiledevice-1_0-6-1.4.0+0git.20251010-1.6.aarch64.rpm"
+RPM_HASH = "6274a701ad32392fe279dc4eaf04ef9a640f83db0c276175e1f8cfbe8bdbd4f6878d5f1046e709ac47064c64cd15fa030e0b6ce7308cc8edd2a17dd30a34f040"
 
 RPROVIDES:${PN} += "libimobiledevice-1-0-6 \
 libimobiledevice-1.0.so.6"
@@ -18,6 +18,6 @@ libcrypto.so.3 \
 libimobiledevice-glue-1.0.so.0 \
 libplist-2.0.so.4 \
 libssl.so.3 \
-libusbmuxd-2.0.so.6"
+libusbmuxd-2.0.so.7"
 
 inherit rpm

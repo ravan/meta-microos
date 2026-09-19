@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 Quick3DRuntimeRender library"
 DESCRIPTION = "The Qt 6 Quick3DRuntimeRender library."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Quick3DRuntimeRender6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "207c791efe85d0f17f933d86b2f185c52a521480db2f6d236c22e08ab4131825255076e3cc128f7538bc321557c3d179ba842aadf7a172deb84e4054f2927925"
+RPM_NAME = "libQt6Quick3DRuntimeRender6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "e941cf06386d6f330913cd44a28ff3e6b338c5c96567e0889e5f7f4bb74b9171ab15b55489bb626bf340c50f3814ef0a4104fc8b7c0d428426543344a2439a69"
 
 RPROVIDES:${PN} += "libQt6Quick3DRuntimeRender.so.6 \
 libQt6Quick3DRuntimeRender6"

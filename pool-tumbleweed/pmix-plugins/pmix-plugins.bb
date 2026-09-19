@@ -2,10 +2,10 @@ SUMMARY = "PMI-X plugins version 1"
 DESCRIPTION = "This package contains plugins used by libpmix2."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.3"
+PV = "3.2.5"
 
-RPM_NAME = "pmix-plugins-3.2.3-10.2.aarch64.rpm"
-RPM_HASH = "bdad432cfcd7c849adbff410e739fd2a6eac05a8b3339986452cde1481d4dea9f35d15da04f56504851e62f72bc6a9dff203468d26384f3b334480b48ad80066"
+RPM_NAME = "pmix-plugins-3.2.5-2.10.aarch64.rpm"
+RPM_HASH = "6f27434b1cd787f1b6a2c3f3ae1d625a1fc110d55f73e9c052c8feabe0fa19be791a4f4ed9b89dde559fa678d9ffae2249185e77976a54d5ea975f224d52c132"
 
 RPROVIDES:${PN} += "pmix-plugins"
 

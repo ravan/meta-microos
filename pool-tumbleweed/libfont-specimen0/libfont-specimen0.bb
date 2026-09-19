@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "20150202"
 
-RPM_NAME = "libfont-specimen0-20150202-3.18.aarch64.rpm"
-RPM_HASH = "98e001b4a4f788d2ddc4426381aab31bcd9e0f9b73f747568603896ba4aa1fe1ef3bacf7463c7322b89ed304eb8147ea076ceae3a9b24cf6d871368d33bdf616"
+RPM_NAME = "libfont-specimen0-20150202-3.30.aarch64.rpm"
+RPM_HASH = "3b0408878a8d3232bf369a67e820b9b1c6da33d59271941a77f4e164961bf7ce39ffcb54965dfd021b567ed17640b7753352ef7ca1a9bccf94053198b92c3d8c"
 
 RPROVIDES:${PN} += "libfont-specimen.so.0 \
 libfont-specimen0"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-clipman-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-clipman-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.6.4"
+PV = "1.7.0"
 
-RPM_NAME = "xfce4-clipman-plugin-lang-1.6.4-1.1.noarch.rpm"
-RPM_HASH = "f0a8d9c4ac027dbb645be7f5d0d16257f169611c7c8bbb1ab939ee2bf4925a0af64a511dccc52b4da1f5c9f121c9cdc52b3683a85784a5a685b3f89f0d7a2ede"
+RPM_NAME = "xfce4-clipman-plugin-lang-1.7.0-1.5.noarch.rpm"
+RPM_HASH = "36e5758d4238b39117e76edb4d81538e69dc993f638f4bc0063f546af53e8555ef505d60298bedaa9406f6b9dd891a5c08b6102c5e5829007e91a92d742b42a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-clipman-plugin-ar \
@@ -43,6 +43,7 @@ locale-xfce4-clipman-plugin-oc \
 locale-xfce4-clipman-plugin-pl \
 locale-xfce4-clipman-plugin-pt \
 locale-xfce4-clipman-plugin-pt-BR \
+locale-xfce4-clipman-plugin-ro \
 locale-xfce4-clipman-plugin-ru \
 locale-xfce4-clipman-plugin-sk \
 locale-xfce4-clipman-plugin-sl \

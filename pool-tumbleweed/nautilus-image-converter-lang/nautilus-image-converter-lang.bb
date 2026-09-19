@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.0"
 
-RPM_NAME = "nautilus-image-converter-lang-0.4.0-1.3.noarch.rpm"
-RPM_HASH = "2518836cd536d8727e6c1ca0c79f4a8a37b67f84334c987a2686e74101af3a6b0ae78a607cf6a1cb02a68f3c82f1765f63a49b623ed57a0c188a4f29ccfca317"
+RPM_NAME = "nautilus-image-converter-lang-0.4.0-4.3.noarch.rpm"
+RPM_HASH = "064a727c5e43fb98aebd6230e8534e5fba6f33922e63b989c7658010102253655d6f3e6c60528070f1a06d311f753f4f0aea319c33d294e84abd1b374174b97f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-nautilus-image-converter-bg \

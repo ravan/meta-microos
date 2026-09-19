@@ -2,10 +2,10 @@ SUMMARY = "Binding to Cairo, a 2D Vector Graphics Library."
 DESCRIPTION = "This is an OCaml binding for the Cairo library, a 2D graphics library with support for multiple output devices."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "3.1.3"
+PV = "3.1.5"
 
-RPM_NAME = "ocaml-lablgtk3-3.1.3-2.4.aarch64.rpm"
-RPM_HASH = "841e24e11f83154bdf3c100ba632ed635df3ab797875b473eef69ec981b3d88a04170e11ef3e59d736974234bc4faa7a3a8801b9a01781e5b504fb2239315e2c"
+RPM_NAME = "ocaml-lablgtk3-3.1.5-1.1.aarch64.rpm"
+RPM_HASH = "a40afdcf0443380e193f03b4f7c08351ce8ca55f2882deecc557297267472d7cf22c9d37adf07112993c940376e1d71d25e7824350653742413221f3cec3c171"
 
 RPROVIDES:${PN} += "ocaml-lablgtk3"
 
@@ -20,6 +20,7 @@ libgtksourceview-3.0.so.1 \
 libgtkspell3-3.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \
-libpangocairo-1.0.so.0"
+libpangocairo-1.0.so.0 \
+librsvg-2.so.2"
 
 inherit rpm

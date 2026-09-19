@@ -3,10 +3,10 @@ DESCRIPTION = "This package selects the input encoding by specifying pairs of \
 input characters and their glyph names."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn53098"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-selinput-2023.209.1.6svn53098-54.1.noarch.rpm"
-RPM_HASH = "bf721a41ce5afa9246e4069a8a91912eb2f906f1d5a618ae75c5a5c9bf6ccc6e0685a4dda58e7ce8dcabf742f542b3928cc6fc095eaed04fd30a226ef0f032f5"
+RPM_NAME = "texlive-selinput-2026.226.1.6svn77682-60.2.noarch.rpm"
+RPM_HASH = "1f177e163cb0034b585e51461b347ff011884c5923b8742d8165c9ae665fe2ebee23009f396c8317cccd3af7f37b08cac79ab58c154c4d1c1728c82cdd6fd94d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-selinput.sty \

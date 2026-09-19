@@ -4,10 +4,10 @@ data types, macros, type conversions, string utilities, file utilities, \
 a main loop abstraction, and so on."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.5"
+PV = "2.88.3"
 
-RPM_NAME = "glib2-doc-2.76.5-1.1.aarch64.rpm"
-RPM_HASH = "dd1fb79fb57be5d7c313eb9fb7557ee75688acc2c290dcfd087f93db89c180a48e97850239420232da8f7bb3981c82d21f016f2d35c4077b450d77bc91a12314"
+RPM_NAME = "glib2-doc-2.88.3-1.1.aarch64.rpm"
+RPM_HASH = "23a38751f73cc1359697861e7e70a40ff887f9fd26d2f430f1844c1cff1f7e07ce4c8ea7644102e6abdc12d026d2b2b511a55e57dec356014bb0a630a0e0ceea"
 
 RPROVIDES:${PN} += "glib2-devel-/usr/share/gtk-doc/html/gobject/index.html \
 glib2-doc"

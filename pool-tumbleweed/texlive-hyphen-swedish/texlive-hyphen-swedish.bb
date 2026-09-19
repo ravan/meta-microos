@@ -2,10 +2,10 @@ SUMMARY = "Swedish hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Swedish in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-swedish-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "0018279003d697ce71d13787b17ceaeaf0ff46da046d4b66d3581680e2499f8557a047ce30fbc5a71100ac850e9e0033817bb587150f304ce954157a0ffec707"
+RPM_NAME = "texlive-hyphen-swedish-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "e75dd9da1351402a67784af08bc1ab2ca392f44c271f2f95e308fa6e69bad941fa0bb635763b654f0d18ee52b9849b179f7f5f51b019cc3b335466d9a3b4c2bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-sv.ec.tex \

@@ -3,10 +3,10 @@ DESCRIPTION = "Headers for jemalloc, general-purpose scalable concurrent malloc(
 implementation."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.3.0"
+PV = "5.3.1"
 
-RPM_NAME = "jemalloc-devel-5.3.0-1.7.aarch64.rpm"
-RPM_HASH = "384ff35705523a132201f303e053c64d9be3d72e3b2e6fdb39e2751e1f964d2c3ef847bd006ad556c9ec3bd6bfd11a014405a94f0120e92ca98b9c277677f3bd"
+RPM_NAME = "jemalloc-devel-5.3.1-1.4.aarch64.rpm"
+RPM_HASH = "fe4fa0907fd7387470e5b80dd4c304a536ad670a59c2df87c2c8def577d2d37835ad927a8a8c3bd97920496a93a8cef442e986cce6384442692b985d2477d005"
 
 RPROVIDES:${PN} += "jemalloc-devel \
 pkgconfig-jemalloc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-annee-scolaire"
 DESCRIPTION = "This package includes the documentation for texlive-annee-scolaire"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn55988"
+PV = "2026.226.1.6svn76924"
 
-RPM_NAME = "texlive-annee-scolaire-doc-2023.209.1.6svn55988-55.1.noarch.rpm"
-RPM_HASH = "4762da52a4aacc23b824af1c568cf3d08c9772d3d88cbc951fb7d27968068ccddc6b565bab315bae10fbad39b7d9fdb6deb79e7386004c3c06dbb2a7162524de"
+RPM_NAME = "texlive-annee-scolaire-doc-2026.226.1.6svn76924-61.2.noarch.rpm"
+RPM_HASH = "9575c41780f49505cb3a4eca1adb2f7b522aa3abce87dd1a64c9056f96cf223e5b8eaccfc3c2af1448e9e63d4cd1e9b498bcd414b0fc38e08e45605454c7a605"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-annee-scolaire-doc-fr \

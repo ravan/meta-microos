@@ -2,10 +2,10 @@ SUMMARY = "A TikZ library for drawing celtic knots"
 DESCRIPTION = "The package provides a TikZ library for drawing celtic knots."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn39797"
+PV = "2026.226.1.1svn39797"
 
-RPM_NAME = "texlive-celtic-2023.209.1.1svn39797-53.1.noarch.rpm"
-RPM_HASH = "8ee4b40f1771f60a1d13db1e062282929a49628f4b15aa7438a0632b63f11d405e304ba0cd395a234ec7b0b766527c448e9f05eafb7563b0dd1d663afbd5d853"
+RPM_NAME = "texlive-celtic-2026.226.1.1svn39797-59.2.noarch.rpm"
+RPM_HASH = "65889581bd3589cca873b7b87fd3b8fb3524c8e8b7767aba196780486a1566b303401d671b235388de09bfc7d90c416787bef2ffedb56d59a4420fe16585a1c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibraryceltic.code.tex \

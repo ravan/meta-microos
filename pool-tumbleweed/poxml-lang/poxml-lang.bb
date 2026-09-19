@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package poxml"
 DESCRIPTION = "Provides translations for the 'poxml' package."
-LICENSE = "GPL-2.0-only & GFDL-1.2-only"
+LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "poxml-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "f45afa062c4d10645261ae0587873836d8a61fe2dcef99842ccdb2af39cd24b0da3828a51a07616f2f00221058d8172c8808a489baaafe04108482dde67fcd57"
+RPM_NAME = "poxml-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "2bcf67775c6d04dc845dca67150026b4d19f7df4914e9ab33ba17b7b59d95406698ba4f209dbcbb4054e5a16cb84e7ef1820a56befaa2342ae81d591de9f664d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "poxml-lang \

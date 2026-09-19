@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.8"
 
-RPM_NAME = "zisofs-tools-1.0.8-27.1.aarch64.rpm"
-RPM_HASH = "086f84de13a1d15de37e30e73a43e2655c463297caddca4164b55b69ba79674341eaef7b0d193a24cec2a1e03578675da0a5afacc392abfdfad66e700fa93bc5"
+RPM_NAME = "zisofs-tools-1.0.8-27.11.aarch64.rpm"
+RPM_HASH = "3588aba092806c76fd3a2772730bd2ed9f4240d92b24b36c1fda9faa386704c69a684fafb6c102fd2578eea9f22f726258895cffd9c499c67d24bb4bc5b004d3"
 
 RPROVIDES:${PN} += "zisofs-tools"
 

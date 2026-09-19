@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0"
 
-RPM_NAME = "live-add-yast-repos-1.0-6.6.aarch64.rpm"
-RPM_HASH = "ced8749edcd061272a4a4dd6744be2a46c5cf58e2d27f496e9697ab9bc59ae4d2c4b51afaa1fcecc07868731b34299bf4ef4e1a3246a79e6e9f8c5ca47a30929"
+RPM_NAME = "live-add-yast-repos-1.0-6.15.aarch64.rpm"
+RPM_HASH = "3050f725866b9550a179011a9a6f8a9a0ea4fa77ef1e119628bbbfb084983175f84f3ffb39e8411521a2b65e7dcae209d50febdbb5d0d894d26aeaaa5859050b"
 
 RPROVIDES:${PN} += "live-add-yast-repos"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gridslides"
 DESCRIPTION = "This package includes the documentation for texlive-gridslides"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.1svn54512"
+PV = "2026.226.0.0.1.1svn54512"
 
-RPM_NAME = "texlive-gridslides-doc-2023.209.0.0.1.1svn54512-54.2.noarch.rpm"
-RPM_HASH = "e0e3621127cee5d3d6b06a34d797eb9dcc45af90edcb59832049a50a1c4e624a2e71a322d2ad26ab0dbbc5ef19180d50acc26ef3f58f7982b7781e101a699801"
+RPM_NAME = "texlive-gridslides-doc-2026.226.0.0.1.1svn54512-60.4.noarch.rpm"
+RPM_HASH = "644dcfd102fd210e1ce1e688f49e34a7900c9c5ae8d539c72b1fbc68fc1ab3f74e2c165ac98a9cd0e3d4feacc4bfdb5c2f2081c60a2c5af97768c131e6a9b97b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gridslides-doc"

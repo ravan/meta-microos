@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.1"
 
-RPM_NAME = "make-lang-4.4.1-2.3.noarch.rpm"
-RPM_HASH = "46a4c7baae91786948e982acfc0e69b09422680689d821f15a50fc7ffebbc58f43b651abd6a1b5fad9bcc6b1b64619d9a2b0a54ea0d1ffd6e549b9b7200154c2"
+RPM_NAME = "make-lang-4.4.1-3.10.noarch.rpm"
+RPM_HASH = "c053fc4b844dbef9ed2051f6489f00f32183928963cf9ad66e0c0286ab73a80f20ecdccd4fac95ce72f2371432b1ec51288478ed8fafad95ccf72fc4c56711db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-make-be \

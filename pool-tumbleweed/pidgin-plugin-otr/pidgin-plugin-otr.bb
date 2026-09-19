@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "4.0.2"
 
-RPM_NAME = "pidgin-plugin-otr-4.0.2-3.25.aarch64.rpm"
-RPM_HASH = "3130934e760f90cf787bf3891e87b2f321f9ad24802c653b96778518e5d572bef7a5eb1ac486ba8cb34027a5e552fe81d83a7aeaaa526ec61d22b7d299f6742c"
+RPM_NAME = "pidgin-plugin-otr-4.0.2-3.35.aarch64.rpm"
+RPM_HASH = "8c832eadd224c4002ed9f179ed5fc78ac23f9cd946c02f32489b7af64f3785f6f2fcf169202b55de56708a44137626d7f30fd44e8f3a78678529d07ec17e3cd1"
 
 RPROVIDES:${PN} += "pidgin-otr \
 pidgin-plugin-otr"

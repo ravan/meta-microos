@@ -6,13 +6,15 @@ ConTeXt. They can be used independently of the rest of ConTeXt, \
 yet are maintained as part of it. So in TeX Live we pull them \
 out to this separate package for the benefit of LaTeX users who \
 do not install the rest of ConTeXt. This can be found on CTAN \
-in macros/pdftex/graphics."
-LICENSE = "LPPL-1.0"
+in macros/pdftex/graphics. The files originally come from the \
+ConTeXt distribution. TL uses the repackaging from \
+https://github.com/gucci-on-fleek/context-packaging."
+LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn65952"
+PV = "2026.226.svn78010"
 
-RPM_NAME = "texlive-mptopdf-2023.209.svn65952-55.1.noarch.rpm"
-RPM_HASH = "4cb50eb45cf9e54d3b43d0cd961e95ed45c9a2ef1bd17f0c38e70e42e08066d0b7ba13b12f7881407b9c800f96b9e27f8f3ed6d7bdc4bc6e830e05ad75442a91"
+RPM_NAME = "texlive-mptopdf-2026.226.svn78010-61.2.noarch.rpm"
+RPM_HASH = "2e153088dff5c2e70b068f8f79660f98f378be9ac8c8dfaf730061bd4c3555b4637ebd9d4b1ced42a782e942dc1aab1930fb8306688f8e37323007312d83e8c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mptopdf.tex \
@@ -37,6 +39,7 @@ texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-mptopdf-bin \
+texlive-pdftex \
 texlive-plain \
 texlive-scripts \
 texlive-scripts-bin"

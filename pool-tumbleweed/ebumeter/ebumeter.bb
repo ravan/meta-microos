@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.1"
 
-RPM_NAME = "ebumeter-0.5.1-2.3.aarch64.rpm"
-RPM_HASH = "4cd8cdc4de237503618656eea84460fccdd72a7cb491927067b655bbf1c9d225cd9328cfeaf777dcce1ba7819597aebb86091e40e03782c05cd6cdfb30fec6ca"
+RPM_NAME = "ebumeter-0.5.1-2.16.aarch64.rpm"
+RPM_HASH = "0bb7b04db939f43a4298c22d13cabd169151cd3afbe6eef9493b0b9dd3135c5345916519dcaa9eec4b09dbd47ba104aa0b53f0e21d967c48d698a83ae5fdf16a"
 
 RPROVIDES:${PN} += "ebumeter \
 ebur128"
@@ -24,6 +24,7 @@ libclxclient.so.3 \
 libgcc-s.so.1 \
 libjack.so.0 \
 libm.so.6 \
+libmvec.so.1 \
 libpng16.so.16 \
 libsndfile.so.1 \
 libstdc++.so.6 \

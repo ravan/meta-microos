@@ -2,10 +2,10 @@ SUMMARY = "A class file to typeset exams"
 DESCRIPTION = "This LaTeX document class has been designed to typeset exams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn44960"
+PV = "2026.226.0.0.2svn44960"
 
-RPM_NAME = "texlive-cesenaexam-2023.209.0.0.2svn44960-53.1.noarch.rpm"
-RPM_HASH = "6cd9e78a3b6fee5015f43463c3e7e9b900d99af69ef17086df043409ceaaf80b7a0970a252a8904b4a7424edd36626abe311aa34f04314051f3cff7ddfcd9bce"
+RPM_NAME = "texlive-cesenaexam-2026.226.0.0.2svn44960-59.2.noarch.rpm"
+RPM_HASH = "acc7358d89e095a26b20a4ae61b4696bdcf75959b0c2208f6a4b78c40b1648bd6b6d6acbd3a35c4a082a20e7aaec837dce7be7bf2da6b6af1901af1cc2cf64fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cesenaexam.cls \

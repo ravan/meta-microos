@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the taglib plugin for nulloy - a music play
 with a Waveform Progressbar."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.9.5"
+PV = "0.9.9"
 
-RPM_NAME = "nulloy-taglib-0.9.5-1.11.aarch64.rpm"
-RPM_HASH = "c148403046471a2ddbfe5ce9c8edb7b3512adf813e2b3174fe0109d6dd297c4c7a94c844090924d4291f3b1d40b2a0f1a57f2103d6aeb4f8aacb4d79c00a7ed6"
+RPM_NAME = "nulloy-taglib-0.9.9-1.3.aarch64.rpm"
+RPM_HASH = "15ea33ac1f32e65ef2f8f40cb274f9c61cbbb1a7524394f8f2fca2d37f016bd5a7f571a72fd895c71e2d29edacc5de8331b65590dcf28082043e45e87a441e45"
 
 RPROVIDES:${PN} += "libplugin-taglib.so \
 nulloy-taglib"
@@ -17,7 +17,7 @@ libQt5Gui.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-libtag.so.1 \
+libtag.so.2 \
 nulloy"
 
 inherit rpm

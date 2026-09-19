@@ -7,8 +7,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.52"
 
-RPM_NAME = "tiro-tamil-fonts-1.52-1.2.noarch.rpm"
-RPM_HASH = "2470ebd25e9fd101f46a9e0ad46c220f3671696da693a2d830d7f11ac89f1440bd1d7df769878788285ee9f40a1ac8e5e18ae3b9d4c24f609c117dc2011cb535"
+RPM_NAME = "tiro-tamil-fonts-1.52-2.7.noarch.rpm"
+RPM_HASH = "2ade1f0693f678d633842de439819772f1a25e76eb61b021249b773d21d84c0afd5f3f23f4d20b46b0359902114492dec312a548b8792481210a573a0018a4e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiro-tamil-fonts"

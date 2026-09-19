@@ -2,16 +2,16 @@ SUMMARY = "Sonivox library - Development files"
 DESCRIPTION = "Development files for the sonivox library."
 LICENSE = "Apache-2.0"
 
-PV = "3.6.12"
+PV = "4.0.1"
 
-RPM_NAME = "sonivox-devel-3.6.12-1.1.aarch64.rpm"
-RPM_HASH = "7828b9b34407dbd4d4a64ed5585b2715d91c86311b5de2ccfad4be40b1d7395c9c80e0b6587d4cdd46c406f74e7c0c9e8861d56b97da5c9a529774be761494fe"
+RPM_NAME = "sonivox-devel-4.0.1-1.3.aarch64.rpm"
+RPM_HASH = "a1a0aeb30e34ff8279f0bebdc537d7ecf9883bff0474c3c2b9013f7ebc93b477df46a6c5edd3542d53c1509224a8f73687e7431b1d5a777db5c20a9277cb3096"
 
 RPROVIDES:${PN} += "cmake-sonivox \
 pkgconfig-sonivox \
 sonivox-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsonivox3"
+libsonivox4"
 
 inherit rpm

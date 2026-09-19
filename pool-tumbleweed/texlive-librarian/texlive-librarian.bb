@@ -12,10 +12,10 @@ style is given in a separate file and explained in the \
 documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn19880"
+PV = "2026.226.1.0svn19880"
 
-RPM_NAME = "texlive-librarian-2023.209.1.0svn19880-55.1.noarch.rpm"
-RPM_HASH = "b12b5dd54d2c700628a635bd9d08d90c9e5795cc300382822680827578847bf07e4199999ecf47b1596c33eb8883c894c60bbb47b9aebdafa948f45070d8c768"
+RPM_NAME = "texlive-librarian-2026.226.1.0svn19880-61.2.noarch.rpm"
+RPM_HASH = "e0692f2efdded00d12685bb3bcdc285f5f50702d547beb517229cce2a6385c09e6a72e078f160876f5a425b699a3bab1b18746093c77d462d7a957733d474360"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-librarian.sty \

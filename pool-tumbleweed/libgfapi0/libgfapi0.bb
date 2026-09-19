@@ -3,10 +3,10 @@ DESCRIPTION = "GlusterFS is a clustered file-system capable of scaling to severa
 petabytes."
 LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
-PV = "11.0"
+PV = "11.1"
 
-RPM_NAME = "libgfapi0-11.0-4.1.aarch64.rpm"
-RPM_HASH = "a8fd705ce2b296391ba71b2e4e55b75a1e0011c8f0c3436f4a51147274a2d92e4e5141d1fa752dcc14947c0178f8aa2fd9d6c59bb425d4cc53d990020e458b9e"
+RPM_NAME = "libgfapi0-11.1-4.10.aarch64.rpm"
+RPM_HASH = "954990bcd88b4e67abf8aa20d752092ba385a0ed6983306dd8971390c3bee0de8371dfc26499d2676e62474226b84d735e5fd4fcfdca6f9a46ec98150cacb241"
 
 RPROVIDES:${PN} += "libgfapi.so.0 \
 libgfapi0"
@@ -18,7 +18,6 @@ libc.so.6 \
 libgfrpc.so.0 \
 libgfxdr.so.0 \
 libglusterfs.so.0 \
-libtirpc.so.3 \
-libuuid.so.1"
+libtirpc.so.3"
 
 inherit rpm

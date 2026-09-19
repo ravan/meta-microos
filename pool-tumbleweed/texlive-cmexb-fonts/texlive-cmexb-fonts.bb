@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cmexb"
 DESCRIPTION = "The  separated fonts package for texlive-cmexb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54074"
+PV = "2026.226.svn54074"
 
-RPM_NAME = "texlive-cmexb-fonts-2023.209.svn54074-54.1.noarch.rpm"
-RPM_HASH = "c7e6bf6290bb1daa0e09fd9cba8b1de9284550e4c5699b02a094128782e5bf3fe35398f07e890f185e21af0e88aee1dd6610726009b4fd7e4e6912be59e48d71"
+RPM_NAME = "texlive-cmexb-fonts-2026.226.svn54074-60.2.noarch.rpm"
+RPM_HASH = "ba0a55d0775a6d9e190cd40a064675cc8246ee67a33e18f48018ba9f282a8066dd34298480bdb99297c2b0cda95df087f9486c7bf4730cc8049818bbf2dcb593"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-computermodern \

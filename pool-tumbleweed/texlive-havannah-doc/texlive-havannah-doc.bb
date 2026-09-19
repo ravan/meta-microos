@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-havannah"
 DESCRIPTION = "This package includes the documentation for texlive-havannah"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn36348"
+PV = "2026.226.svn36348"
 
-RPM_NAME = "texlive-havannah-doc-2023.209.svn36348-54.2.noarch.rpm"
-RPM_HASH = "8034251c0496d8b3a6dd538fe0637804ea6f5f7db9803a2e3f2e9aeaae594e30702d796755bf5174f0f7309fdb81bb126a628b7a4801d6de73253fb3fd260c35"
+RPM_NAME = "texlive-havannah-doc-2026.226.svn36348-60.4.noarch.rpm"
+RPM_HASH = "649ff5b7e4bc397a7baf2c29fddf0a67ae5177bea43a86b37441b85a3aa921969a7f0debd4bd1be33c329977e5bd961dd49c17e9e602459e1967960287a52613"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-havannah-doc"

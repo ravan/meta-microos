@@ -5,10 +5,10 @@ straight, and full house. The player is allowed 3 rolls per turn and \
 can hold certain dice with each roll."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "40.9"
+PV = "40.9+8"
 
-RPM_NAME = "tali-40.9-1.3.aarch64.rpm"
-RPM_HASH = "ea3897d9f716e71ec74b1b0a7f4b5189b6487c121e0c4afd284608acaa032985a07360bcb23cc2e3498a48fa2622bf60f3fc9352c3d057ba4e756a6b6729c069"
+RPM_NAME = "tali-40.9+8-1.3.aarch64.rpm"
+RPM_HASH = "bcc0fe3775c1c7bb5d1fdcee5f46a69645a69edd6de66c58ed74969ebf0369d20cb75eaa95333bb855652cc2c4b7aff4b7afa7f9a0c3c8a27e25d73ab88fd3fb"
 
 RPROVIDES:${PN} += "tali"
 

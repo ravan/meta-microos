@@ -2,12 +2,12 @@ SUMMARY = "Kronosnet core switching implementation"
 DESCRIPTION = "The whole kronosnet core is implemented in this library. \
 Please refer to the not-yet-existing documentation for further \
 information."
-LICENSE = "GPL-2.0+ & LGPL-2.1+"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21"
+PV = "1.33"
 
-RPM_NAME = "libknet1-1.21-1.10.aarch64.rpm"
-RPM_HASH = "cd2ca8813b5161e167d9083105266495229eb6cca8fa21cfc10f6f87e888dc677fb806b924584254ca5b299fe73524653190766755a78cf14f0e338ad279bfe0"
+RPM_NAME = "libknet1-1.33-2.2.aarch64.rpm"
+RPM_HASH = "eccd5bc9b544e8d78eeece9948576573ff1851c2036f603ec52ea6fdc4506160cce66b29ad7ff845c78e403387fe222f0b208272d96f1841202d4ac0ea2974b7"
 
 RPROVIDES:${PN} += "libknet.so.1 \
 libknet1"

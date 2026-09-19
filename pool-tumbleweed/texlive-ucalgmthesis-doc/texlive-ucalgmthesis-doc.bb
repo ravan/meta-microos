@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ucalgmthesis"
 DESCRIPTION = "This package includes the documentation for texlive-ucalgmthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn52527"
+PV = "2026.226.svn66602"
 
-RPM_NAME = "texlive-ucalgmthesis-doc-2023.209.svn52527-53.1.noarch.rpm"
-RPM_HASH = "c242f1a697ffd611b4118fed34c0a02afc47ae31901307409f80ddf390574002d23fcd39877511dfe04650819a59f48305278d1622504c7f6fe13118e12cb64b"
+RPM_NAME = "texlive-ucalgmthesis-doc-2026.226.svn66602-59.2.noarch.rpm"
+RPM_HASH = "957a5ebe282e06ebebf4ee0c7055839cf89ec28ce57dfb0ffc150e0058510339fffbcb89e520808bab33450139b987ae97750905d3dfdcc21c64e84d9faba2fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ucalgmthesis-doc"

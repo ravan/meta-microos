@@ -1,11 +1,11 @@
 SUMMARY = "Common files for the Yaru Gtk Theme"
 DESCRIPTION = "This is the theme shaped by the community on the Ubuntu hub."
-LICENSE = "GPL-3.0-or-later & LGPL-2.1-only & LGPL-3.0-only & CC-BY-SA-4.0"
+LICENSE = "CC-BY-SA-4.0 & GPL-3.0-or-later & LGPL-2.1-only & LGPL-3.0-only"
 
-PV = "20.10.6.1"
+PV = "24.04.0"
 
-RPM_NAME = "metatheme-yaru-common-20.10.6.1-1.6.noarch.rpm"
-RPM_HASH = "8d405c56096e1508390f0959505644ddd10c4bcab737d478a24a706541aa010ede8d0554a8c6b91dabe43e4893a1eb4a7ce0a3a77f3e3eacdcf5a520767f977d"
+RPM_NAME = "metatheme-yaru-common-24.04.0-1.9.noarch.rpm"
+RPM_HASH = "f7ea9695287f70fa2800bbc644d0c5969ee18bbdffe1d00b1cc636952e500be05c671aaadadf2dba83ccf5c672fbd3bb01552b0ebed4077e1ffffa46e07d1ed3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-yaru-common"

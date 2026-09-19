@@ -2,10 +2,10 @@ SUMMARY = "Support DVI pos: specials used by ConTeXt DVI output"
 DESCRIPTION = "The dvipos package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn66186"
 
-RPM_NAME = "texlive-dvipos-2023.209.svn66186-54.2.noarch.rpm"
-RPM_HASH = "f5c45a54e9eddc81adbf5b25d8f011ab6a2cba0a45f21f37b9ed65580bb169e30357d05466a786565a21b4077be345ca156b237855a474c9f952f736e677827b"
+RPM_NAME = "texlive-dvipos-2026.226.svn66186-61.4.noarch.rpm"
+RPM_HASH = "87e5753971881f9b3a7e1e9bd3c26a8f294d4453678ce6fba1ed5d3d344f1749e523f2f19cc32d3e19539b2b09fdefdb3d93e74c8d9ca0352c3a1ccc2533588b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvipos.1 \

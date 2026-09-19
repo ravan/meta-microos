@@ -5,29 +5,30 @@ environment. Moreover, the session manager is able to remember the applications 
 use when a user logs out and to restart them the next time the user logs in."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "lxqt-session-1.3.0-1.2.aarch64.rpm"
-RPM_HASH = "3c8ee80503b7705e507995fa0e2fdd6df060104e589a3c71b4bb7313365a18ef5e165ebd441e3ad4c9c2c2c64a96b105d889ef0779eeb551edd8955d5349ad23"
+RPM_NAME = "lxqt-session-2.4.0-1.2.aarch64.rpm"
+RPM_HASH = "93194dfa8ed97476f4bb66bca580ad62a3142c4302817f30472cd9cd7ace1815425af40d46a189870b94c0182c9f4a8728c38c9b8418b6d5091b8be2495c8fe7"
 
 RPROVIDES:${PN} += "config-lxqt-session \
 lxqt-session"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libKF5WindowSystem.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
-libQt5Xdg.so.3 \
+libKF6WindowSystem.so.6 \
+libLayerShellQtInterface.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xdg.so.4 \
 libX11.so.6 \
 libc.so.6 \
-liblxqt.so.1 \
-libprocps.so.8 \
+liblxqt.so.2 \
+libproc2.so.1 \
 libstdc++.so.6 \
 libudev.so.1 \
+lxqt-session-branding \
 qtxdg-tools \
 update-alternatives"
 

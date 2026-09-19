@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.51.0"
 
-RPM_NAME = "intltool-0.51.0-7.11.noarch.rpm"
-RPM_HASH = "b454e890f8e614a305ac6b8ff7e71a24a0ea93386515523454abc71d69b2d3f5b2f63d24802a9942f44e0f6c3bc1892a02c7acd7442f890d6773912dd70f1a19"
+RPM_NAME = "intltool-0.51.0-8.9.noarch.rpm"
+RPM_HASH = "c5aa2eefcdc9ac5800ffac040e9af690fa9141fef0bab078d014667f877002e274b2b52aadaedb506e2edadac07e71aa455620fce7f0070522fe7b1ad4864542"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intltool \
@@ -17,6 +17,6 @@ xml-i18n-tools"
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
 gettext-tools \
-perl-XML-Parser"
+perl-XML--Parser"
 
 inherit rpm

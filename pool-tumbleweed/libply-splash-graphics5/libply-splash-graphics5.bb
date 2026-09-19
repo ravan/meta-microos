@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "libply-splash-graphics5-22.02.122+94.4bd41a3-10.1.aarch64.rpm"
-RPM_HASH = "61e9f7c51bcdfa333d19aead368b097d9bc535395d875102796a1d64dc100df15aea4125c4f6ad4f1e4b921f87984b5a08bc70dce0155dd111d03908dda696be"
+RPM_NAME = "libply-splash-graphics5-22.02.122+94.4bd41a3-20.6.aarch64.rpm"
+RPM_HASH = "729bb8ccdaf57935555627c9ddf5b52f9559ffb6ba6da4f5d2f0395a1a9a15d383e9e22f8b930585d18d38db362e065bae9e1d099c3684fddfae559b433fb78e"
 
 RPROVIDES:${PN} += "libply-splash-graphics.so.5 \
 libply-splash-graphics5"

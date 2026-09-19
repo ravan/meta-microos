@@ -4,10 +4,10 @@ boxes that can then be cut out and pasted on to note cards. The \
 recipe then looks elegant and fits in the box of recipes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn15878"
+PV = "2026.226.2.0svn15878"
 
-RPM_NAME = "texlive-recipecard-2023.209.2.0svn15878-54.2.noarch.rpm"
-RPM_HASH = "a51211c7dbfb105aeae8972c038c05fb66afdd67d19c139f556f35db57fffc587c7a7bc54d1b2ef8c35b2e13c9d75a392ed85a7e9c2ac2b142f96e7d89b56c06"
+RPM_NAME = "texlive-recipecard-2026.226.2.0svn15878-60.4.noarch.rpm"
+RPM_HASH = "023c1d0a70b51ae77ab07eb6d61b33bf2fb85e3626677551df8ac9d27b93385fbb4d709a5f89a9c46d391d1712c433cdcfca07604e76004e1b9bccd36ed76c5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-recipecard.cls \

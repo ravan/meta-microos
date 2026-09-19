@@ -9,15 +9,14 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.9.9"
 
-RPM_NAME = "fuse-devel-2.9.9-6.4.aarch64.rpm"
-RPM_HASH = "08fc83e934afe2959f7b7dfaab68da426c2576cd94e000b555cbd9d8ad78d5d6ec16e68117a7a732ec095a74f0f3d8cb9c0c0fa1bc296975c6c6b4c899a09385"
+RPM_NAME = "fuse-devel-2.9.9-8.6.aarch64.rpm"
+RPM_HASH = "581cca7e62e036d29848b5be9efa68b26b49f8468f207070adfe788f6d0d1797b4d976af049406a7824262755a1954e76857351b64f057eb22693609357c0699"
 
 RPROVIDES:${PN} += "fuse-devel \
 pkgconfig-fuse"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fuse \
-fuse-doc \
 glibc-devel \
 libfuse2 \
 libulockmgr1"

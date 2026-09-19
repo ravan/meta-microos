@@ -47,15 +47,15 @@ longer effect Raygun. \
   Pere::Ubu->Suitcase('Samsonite');"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.09"
+PV = "0.100.0"
 
-RPM_NAME = "perl-Class-Data-Inheritable-0.09-1.11.noarch.rpm"
-RPM_HASH = "210497fdd718351cfb2ad0db7aa0db7f11d9bd58e592b2c4a82ed7c0be0b08499a86065efbc952e0e1850f9a47ec409f39661308eab750b64e872f0a7cdeca4f"
+RPM_NAME = "perl-Class-Data-Inheritable-0.100.0-1.10.noarch.rpm"
+RPM_HASH = "0c4b8ecbc8be997428d84ef36704d24f807ef681961e80c00a410f15c61258daa0474d75ba7bff50742b8fd2240eca9cdf4e0a69dedd11e97cbfea0b1436cf6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Data--Inheritable \
 perl-Class-Data-Inheritable"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

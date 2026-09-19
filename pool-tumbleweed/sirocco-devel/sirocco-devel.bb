@@ -15,13 +15,15 @@ This subpackage contains the include files and library links for \
 developing with the sirocco library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.0"
+PV = "2.1.1"
 
-RPM_NAME = "sirocco-devel-2.1.0-1.9.aarch64.rpm"
-RPM_HASH = "47796df48c00f8553828998deef51a7ee19fe589858baffe517ccb4a21d3742400c973846b2f269db7c92467b8fbf089d592826ebd71bd05f20cfed665f3c1af"
+RPM_NAME = "sirocco-devel-2.1.1-1.5.aarch64.rpm"
+RPM_HASH = "8876eda76d2f67beaca56c1f50c73ac347c011d5e3a7d270151bf476571f1b1adc9a4d2a134af570ec4e03c8185d842a09214122a2ff69199adeb83899452dbb"
 
-RPROVIDES:${PN} += "sirocco-devel"
+RPROVIDES:${PN} += "pkgconfig-libsirocco \
+sirocco-devel"
 
-RDEPENDS:${PN} += "libsirocco0"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libsirocco0"
 
 inherit rpm

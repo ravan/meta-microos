@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-listings-ext"
 DESCRIPTION = "This package includes the documentation for texlive-listings-ext"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.67svn29349"
+PV = "2026.226.67svn29349"
 
-RPM_NAME = "texlive-listings-ext-doc-2023.209.67svn29349-55.1.noarch.rpm"
-RPM_HASH = "991cfe6c3066618aff0055faa9245ddb2c4d41883e0b00dae7915327d7e0383770d7db2cd84600181e10f09b30e72eb212e75a370f80fdc47543b2b52133cfee"
+RPM_NAME = "texlive-listings-ext-doc-2026.226.67svn29349-61.2.noarch.rpm"
+RPM_HASH = "53a1fc2fe5d1f85625d5a69c329159d7178106f0f4739e9b829f73f7e925e11b1f8b2b3f03cf063bb29fdb41b8ede4626bda432609b1976b3ad782b9a78177ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-listings-ext-doc"

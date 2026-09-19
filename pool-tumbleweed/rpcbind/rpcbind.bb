@@ -6,10 +6,10 @@ UDP over IPv6. Moreover, rpcbind provides additional functions in \
 regards to portmap."
 LICENSE = "BSD-4-Clause"
 
-PV = "1.2.6"
+PV = "1.2.9"
 
-RPM_NAME = "rpcbind-1.2.6-5.2.aarch64.rpm"
-RPM_HASH = "78a3654187248d486c9f97b2f6a04afb2f3cca6f29c29f74015939eda31427ada7f6ea56bb2ccfe7b86f408aedb55c7fdd28aadab5e30108465296b4c4f2ef8f"
+RPM_NAME = "rpcbind-1.2.9-2.1.aarch64.rpm"
+RPM_HASH = "8ca9c6937e42e7030161c08a86d8682899aa96a6882c32e5139f0cceab0e8f14bbbd30134010a3b6b9f087c55107d51996af8aee2acc5ffce4dfc6344a984a40"
 
 RPROVIDES:${PN} += "group-rpc \
 portmap \
@@ -25,6 +25,7 @@ libc.so.6 \
 libsystemd.so.0 \
 libtirpc.so.3 \
 libwrap.so.0 \
+system-user-nobody \
 sysuser-shadow"
 
 inherit rpm

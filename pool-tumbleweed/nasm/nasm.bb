@@ -3,10 +3,10 @@ DESCRIPTION = "NASM is a prototype general-purpose x86 assembler. It can current
 several binary formats, including ELF, a.out, Win32, and OS/2."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.16.01"
+PV = "3.02"
 
-RPM_NAME = "nasm-2.16.01-1.4.aarch64.rpm"
-RPM_HASH = "eb25f4813b90c413ef19aac2275f67b41e5ec8087770fc226ddf20137f7777fbac35aae6bf41f2860e72e4f594dee9dee63089aeb1c2d586977348a51fc5714a"
+RPM_NAME = "nasm-3.02-1.2.aarch64.rpm"
+RPM_HASH = "2dd5bb41c3f7fdc6dd4dfa54b109f3615129f6f4c4d7cb8eff46f138a4dc103972f1e7b7aa3db6c3c028bbc66f889f13a381e764256617d00537f90ebf276401"
 
 RPROVIDES:${PN} += "nasm"
 

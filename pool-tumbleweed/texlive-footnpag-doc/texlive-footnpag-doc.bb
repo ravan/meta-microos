@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-footnpag"
 DESCRIPTION = "This package includes the documentation for texlive-footnpag"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-footnpag-doc-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "51010a528ce7c4b1f84ec509f1eabd8d5e3bfa6d057b1698d27d0e57dd57d70ea5004cd8546296cd1aa6e8cc89b057ed2205c1f86be9c5e34952459b07e59c82"
+RPM_NAME = "texlive-footnpag-doc-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "f2287f2cf79deddc6fe976cdee1014d713d6c950a040b3208293f4a7b2dfffdf2b1dcb51531d448bd16e65d00b5cc0a28d103d5925cf18b5c758e05a49b31c5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-footnpag-doc"

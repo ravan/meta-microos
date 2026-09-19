@@ -14,14 +14,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.20"
 
-RPM_NAME = "perl-Lingua-EN-Inflect-Phrase-0.20-1.19.noarch.rpm"
-RPM_HASH = "367ed6420691db796ac44e74621818d5cba9b2b6e9fd981397f3132efdc03b8e3bf159a5e24de21761e1949b3c2f281a3b62e2a6707e21e68e3c20c3c26787fe"
+RPM_NAME = "perl-Lingua-EN-Inflect-Phrase-0.20-1.33.noarch.rpm"
+RPM_HASH = "0f975984f4aa789558cbc1d5bcd71cc12a27326d290179cfd56aae42e6c58881f9cab2685ebdc67b3ee233cb8e03d6b635e18a3b878b9006f5c6c5b158c7434b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--EN--Inflect--Phrase \
 perl-Lingua-EN-Inflect-Phrase"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Lingua--EN--FindNumber \
 perl-Lingua--EN--Inflect \
 perl-Lingua--EN--Inflect--Number \

@@ -3,15 +3,15 @@ DESCRIPTION = "This package contains files necessary for building kernel modules
 kernel module packages) against the default flavor of the kernel. \
  \
  \
-Source Timestamp: 2023-08-25 08:26:31 +0000 \
-GIT Revision: f5aa89b3e95322c79e43c459f5b6862dec51fc5f \
+Source Timestamp: 2026-09-12 06:50:42 +0000 \
+GIT Revision: 6b7e8a968cce3b45e63d59e1d4981c9b7c5bc6b5 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "kernel-default-devel-6.4.12-1.1.aarch64.rpm"
-RPM_HASH = "74d0598fcf5051cbb7a155aa8dcffc957e0dea8982bfa0189a62698542fa86de3cbcfdbfb6e865762bd763dd3b3f5372f5c53e0dd37606a323b21fb3c7b5517d"
+RPM_NAME = "kernel-default-devel-7.2.5-1.1.aarch64.rpm"
+RPM_HASH = "49d5bf1882d5666b661dbfe57275216ee969925ba532379b6d0115544a45925e735216e85d74ebc67f24bcf1b7f0ab2fd49961492b9cac0ed7511d646b2cf34d"
 
 RPROVIDES:${PN} += "kernel-default-devel \
 kernel-preempt-devel \
@@ -20,10 +20,15 @@ multiversion-kernel"
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 dwarves \
+gcc \
 kernel-devel \
 libc.so.6 \
 libcrypto.so.3 \
+libdw.so.1 \
 libelf-devel \
-libelf.so.1"
+libelf.so.1 \
+libz.so.1 \
+pesign-obs-integration \
+zstd"
 
 inherit rpm

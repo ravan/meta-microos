@@ -2,16 +2,17 @@ SUMMARY = "Quick Previewer for Nautilus"
 DESCRIPTION = "Sushi is a quick previewer for Nautilus, the GNOME desktop file manager."
 LICENSE = "SUSE-GPL-2.0-with-plugin-exception"
 
-PV = "44.2"
+PV = "50.0"
 
-RPM_NAME = "sushi-44.2-1.1.aarch64.rpm"
-RPM_HASH = "a326569dc5f56a70586d386f53383e65c7f5b23c24241bb2613d362a47c2204d9bce2901a9b3162028ae2e6a016bb373e90221ac9ff33013b97d4f67eb7890de"
+RPM_NAME = "sushi-50.0-1.3.aarch64.rpm"
+RPM_HASH = "5a15f59dbf7ae219b0474a9d69a8c2bdf2731e0c18a5ef306cf0ed60453d10b2414d557f7df22882279a172703284dd9c9a34f758ee6b910c9f9a781edf7a929"
 
 RPROVIDES:${PN} += "libsushi-1.0.so \
 sushi \
 typelib-Sushi"
 
 RDEPENDS:${PN} += "/usr/bin/gjs \
+evince-plugin-pdfdocument \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
@@ -47,7 +48,6 @@ typelib-GtkSource \
 typelib-HarfBuzz \
 typelib-Pango \
 typelib-Soup \
-typelib-Sushi \
 typelib-WebKit2 \
 typelib-cairo \
 typelib-freetype2 \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1"
 
-RPM_NAME = "pagetools-0.1-2.15.aarch64.rpm"
-RPM_HASH = "3845f25fe20db7a9e98d916e7989db7fa951e51c82b4e946583ace0ce0d9c65f7d63eeba5cf3768760461e6546232ce7f39d931568672fd47fd1ae077ea9590a"
+RPM_NAME = "pagetools-0.1-2.25.aarch64.rpm"
+RPM_HASH = "28f7ccf1064eef61271b8344c4e71826ac8ec51cfafad7290ff0c033b00e62b3e2d7e83355708dbc7bf1dbfddef356b0b7a07d1137fc1eb3db4065f0b39d2fef"
 
 RPROVIDES:${PN} += "pagetools"
 

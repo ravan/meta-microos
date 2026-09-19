@@ -5,10 +5,10 @@ hyphenation patterns for British English and Australian text, \
 and default ('american') patterns for Canadian and USA text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.3rsvn44495"
+PV = "2026.226.3.3rsvn77682"
 
-RPM_NAME = "texlive-babel-english-2023.209.3.3rsvn44495-54.1.noarch.rpm"
-RPM_HASH = "206805006dbc7349d44e0befdd9e0af0ad3d84a6533e92a00ce933b6242d06c9ba8086d4562313f5aaf74ff95de8bbcd28530373e2d69c9c72783877db5536f7"
+RPM_NAME = "texlive-babel-english-2026.226.3.3rsvn77682-60.2.noarch.rpm"
+RPM_HASH = "ae9f39fb7367d6f74d7101b241b6d4bd57cf6eec94da32e0e6524fa2e3d59622bfa093f09f66f360597646297e05dfa0bc4d6f35cb7793d8c59c7f7cbcdc72e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UKenglish.ldf \
@@ -29,6 +29,7 @@ grep \
 sed \
 texlive \
 texlive-filesystem \
+texlive-hyphen-english \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-scripts \

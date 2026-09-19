@@ -5,14 +5,13 @@ serialization interface \
 This package installs the default Boost version of the library."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_mpi_python3-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "7c5e41d0f0957b19068192a5f14b8d5f47a589aa2ca06dbfe8c3fc01854b6feaf955eb90da43525b6dd47d1fe275fb20a4e10a4a92f23fb22f5b186896d99074"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_mpi_python3-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "8a41a4cda4eb461bcac16b50753327709d9ff6042f6edde30e5c7eb5bfa71b0a3ca32d06fdabe734015b18fbcadfe2a24e283d32e219cba4acc29ebcaf384d75"
 
 RPROVIDES:${PN} += "libboost-mpi-python3-devel"
 
-RDEPENDS:${PN} += "libboost-mpi-python-py3-1-82-0-devel"
+RDEPENDS:${PN} += "libboost-mpi-python-py3-1-91-0-devel"
 
 inherit rpm

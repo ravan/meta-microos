@@ -8,10 +8,10 @@ generate in-text citations and bibliography sections \
 appropriately."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn50619"
+PV = "2026.226.1.0svn76790"
 
-RPM_NAME = "texlive-zootaxa-bst-2023.209.1.0svn50619-53.2.noarch.rpm"
-RPM_HASH = "fdfc9eaa1408412a4b51b244a5f99eca0c2755ef3611e2a2e013f10e126595980a42311c55c81739dc399e99652858c8c5d2b2cafe92d39b20fbadeffb84509f"
+RPM_NAME = "texlive-zootaxa-bst-2026.226.1.0svn76790-59.4.noarch.rpm"
+RPM_HASH = "0b6778f88405c28657de1fbf1189479c1431db3cf1ee44a20a8ba6fe3de85f88c860921b605929ffcd63a631143b16edb92fcc65c80cfb5ce46f832c32236404"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zootaxa-bst"

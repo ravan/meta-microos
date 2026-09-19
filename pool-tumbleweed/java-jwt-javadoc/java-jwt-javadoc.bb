@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for java-jwt"
 DESCRIPTION = "API documentation for the Logback library"
 LICENSE = "MIT"
 
-PV = "3.8.3"
+PV = "4.4.0"
 
-RPM_NAME = "java-jwt-javadoc-3.8.3-1.19.noarch.rpm"
-RPM_HASH = "2a5371dad75fe9118e47474c2a69af9ae6d654b8a2739dae391aa561b82392406b42581127ec910b168fa9f816a47396cfcb681e611e41defd0e28e6012c1a9b"
+RPM_NAME = "java-jwt-javadoc-4.4.0-1.8.noarch.rpm"
+RPM_HASH = "4e16447c93700f5b2ac25763cedb840ee51af9d35688de669a261a38e73b2c87c0113eaa7450cca2f74a05007f1ffc6cfd0f16bd5aecf45d62f1ef6cb15abde4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-jwt-javadoc"

@@ -7,10 +7,10 @@ would define the graph of a cubic spline interpolating function \
 y=f(x), which is either periodic or relaxed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn15878"
 
-RPM_NAME = "texlive-splines-2023.209.0.0.2svn15878-58.1.noarch.rpm"
-RPM_HASH = "2db1c4731106f13768e67f14e3d5b641b20268396838b60fbbacbfaa45322922d85411055ee75a7a42376c5a89b9740b94defea56a31e1dc0bc26cf08ed95b14"
+RPM_NAME = "texlive-splines-2026.226.0.0.2svn15878-64.2.noarch.rpm"
+RPM_HASH = "5677253277d2dea45e40a2f929b22bf3988511ec427cb3f6514f44fd602e193cdb92ef004d1b9956cc1e900c50cb5f848fcf5d6d22d866930fe1eccddee90c5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-splines"

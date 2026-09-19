@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+ & MIT"
 
 PV = "0.1"
 
-RPM_NAME = "meson-tools-0.1-1.24.aarch64.rpm"
-RPM_HASH = "e02793f5e3cddd1b82935c4b275c11d21c5214e535bc8208090e892d26893db7145c44f34ada331e8e32d6f23c4c22d4513f2f62671c2f586a024ece3070425a"
+RPM_NAME = "meson-tools-0.1-1.35.aarch64.rpm"
+RPM_HASH = "1dfbb721bd7b710a99db4ad496b4f80e5c1630fe887a18bd26d515b5542c97b2bbbbe012ebe454d510aec017d3526525d0adcdd482a379ffa3326fb2bba51a75"
 
 RPROVIDES:${PN} += "meson-tools"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.10"
 
-RPM_NAME = "lzo-devel-static-2.10-8.3.aarch64.rpm"
-RPM_HASH = "dd7472f7c394a47aa7d5b1e552544ab12b2be1e47e6969be61407b395cecda3f83a8a9471c8dccf584ec5d27742ec60927105fb58959396aa64af1c8839f3ead"
+RPM_NAME = "lzo-devel-static-2.10-9.10.aarch64.rpm"
+RPM_HASH = "1d61beca7f39447a372f9a8adc6fdb440e105163efdd90a8b553530a03b87a82a21a627918a075afd2c42c8439c978d2e4487275b79a47cfc21e0cf172b6586b"
 
 RPROVIDES:${PN} += "lzo-devel-/usr/lib64/liblzo.a \
 lzo-devel-static"

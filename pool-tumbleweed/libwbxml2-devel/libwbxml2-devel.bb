@@ -5,12 +5,13 @@ libxml2. WBXML contains a library and its associated tools to parse, \
 ecode and handle WBXML documents."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.11.8"
+PV = "0.11.10"
 
-RPM_NAME = "libwbxml2-devel-0.11.8-1.2.aarch64.rpm"
-RPM_HASH = "001271529c5b4aa9055e359303b3946022c3b9fe7a6a1e40098284a7914747147e698c508e85833db2fc09a0100d403d16a029665bdd4806923738acff78fb75"
+RPM_NAME = "libwbxml2-devel-0.11.10-1.9.aarch64.rpm"
+RPM_HASH = "23cff8f7fe2d0ec7850ebe0e1591f44fb7b1baf325f83edbfa06b9a6f1fcec4e6a5976d84509ea4329c966c44e6d0271ffacb38e3ab84ae226e68779e58b0b97"
 
-RPROVIDES:${PN} += "libwbxml2-devel \
+RPROVIDES:${PN} += "cmake-libwbxml2 \
+libwbxml2-devel \
 pkgconfig-libwbxml2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

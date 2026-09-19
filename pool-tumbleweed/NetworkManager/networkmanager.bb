@@ -7,14 +7,13 @@ obtain IP addresses from a DHCP server, and change name servers \
 whenever it sees fit."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.44.0"
+PV = "1.56.1"
 
-RPM_NAME = "NetworkManager-1.44.0-1.1.aarch64.rpm"
-RPM_HASH = "243566f6f26b8f32a9c16c09c064c435603f2b4a566acff8a41613e52bde942b1a074db2eaed22563841b5b27b0d5a33b976560dc8ce6c17fd6c5bf94808ca4f"
+RPM_NAME = "NetworkManager-1.56.1-4.1.aarch64.rpm"
+RPM_HASH = "9e1b6f8c1ad991431983659ae08c9c2e43c5842fbc716f1be96c3a20ada2bfbe7bac999e637839027d586bcc29c51c3511def94e4bb45f33dc11bb02661476ca"
 
 RPROVIDES:${PN} += "NetworkManager \
 NetworkManager-wifi \
-config-NetworkManager \
 dhcdbd \
 libnm-device-plugin-wifi.so \
 service-network \

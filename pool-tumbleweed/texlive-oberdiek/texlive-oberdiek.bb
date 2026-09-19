@@ -10,36 +10,34 @@ producing English ordinals; eolgrab: collect arguments \
 delimited by end of line; flags: setting and clearing flags in \
 bit fields and converting the bit field into a decimal number; \
 holtxdoc: extra documentation macros; hypbmsec: bookmarks in \
-sectioning commands; hypcap: anjusting anchors of captions; \
-hypgotoe: experimental package for links to embedded files; \
-hyphsubst: substitute hyphenation patterns; ifdraft: switch for \
-option draft; iflang: provides expandable checks for the \
-current language; pdfcolparallel: fixes colour problems in \
-package parallel; pdfcolparcolumns: fixes colour problems in \
-package parcolumns; pdfcrypt: setting PDF encryption; \
-pdfrender: control PDF rendering modes; protecteddef: define a \
-command that protected against expansion; resizegather: \
-automatically resize overly large equations; rotchiffre: \
-performs simple rotation cyphers; scrindex: redefines \
-environment 'theindex' of package 'index', if a class from \
-KOMA-Script is loaded; setouterhbox: set \\hbox in outer \
-horizontal mode; settobox: getting box sizes; stackrel: \
-extensions of the \\stackrel command; stampinclude: selects the \
-files for \\include by inspecting the timestamp of the .aux \
-file(s); tabularht: tabulars with height specification; \
-tabularkv: key value interface for tabular parameters; \
-telprint: print German telephone numbers; thepdfnumber: \
-canonical numbers for use in PDF files and elsewhere; twoopt: \
-commands with two optional arguments; Each of the packages is \
-represented by two files, a .dtx (documented source) and a PDF \
-file; the .ins file necessary for installation is extracted by \
-running the .dtx file with Plain TeX."
+sectioning commands; hypgotoe: experimental package for links \
+to embedded files; hyphsubst: substitute hyphenation patterns; \
+ifdraft: switch for option draft; iflang: provides expandable \
+checks for the current language; pdfcolparallel: fixes colour \
+problems in package parallel; pdfcolparcolumns: fixes colour \
+problems in package parcolumns; pdfcrypt: setting PDF \
+encryption; protecteddef: define a command that protected \
+against expansion; resizegather: automatically resize overly \
+large equations; rotchiffre: performs simple rotation cyphers; \
+scrindex: redefines environment 'theindex' of package 'index', \
+if a class from KOMA-Script is loaded; setouterhbox: set \\hbox \
+in outer horizontal mode; settobox: getting box sizes; \
+stackrel: extensions of the \\stackrel command; stampinclude: \
+selects the files for \\include by inspecting the timestamp of \
+the .aux file(s); tabularht: tabulars with height \
+specification; tabularkv: key value interface for tabular \
+parameters; thepdfnumber: canonical numbers for use in PDF \
+files and elsewhere; twoopt: commands with two optional \
+arguments; Each of the packages is represented by two files, a \
+.dtx (documented source) and a PDF file; the .ins file \
+necessary for installation is extracted by running the .dtx \
+file with Plain TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65521"
+PV = "2026.226.svn71916"
 
-RPM_NAME = "texlive-oberdiek-2023.209.svn65521-55.1.noarch.rpm"
-RPM_HASH = "d200da5bc983c62269aa6840a478be4255d929513924eb6fa14b76a0d62af7071d07613f978fd5c83b7a6e7793f75009da060da8f076fe230c48cb8d0fcec740"
+RPM_NAME = "texlive-oberdiek-2026.226.svn71916-61.2.noarch.rpm"
+RPM_HASH = "3b17f21cbb36d19855ca96f26607b8138ae90e23fe349e5c9c5b1c1b4d1144e4e5bac7912cdac80301ef86c0e7ce749eb2e53e425d1e3d9c382dc411f9bc13af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aliascnt.sty \
@@ -61,7 +59,6 @@ tex-fibnum.sty \
 tex-flags.sty \
 tex-holtxdoc.sty \
 tex-hypbmsec.sty \
-tex-hypcap.sty \
 tex-hypgotoe.sty \
 tex-hyphsubst.sty \
 tex-ifdraft.sty \
@@ -69,7 +66,6 @@ tex-iflang.sty \
 tex-pdfcolparallel.sty \
 tex-pdfcolparcolumns.sty \
 tex-pdfcrypt.sty \
-tex-pdfrender.sty \
 tex-protecteddef.sty \
 tex-resizegather.sty \
 tex-rotchiffre.sty \
@@ -80,7 +76,6 @@ tex-stackrel.sty \
 tex-stampinclude.sty \
 tex-tabularht.sty \
 tex-tabularkv.sty \
-tex-telprint.sty \
 tex-thepdfnumber.sty \
 tex-twoopt.sty \
 texlive-oberdiek"
@@ -110,7 +105,6 @@ tex-intcalc.sty \
 tex-keyval.sty \
 tex-kvoptions.sty \
 tex-kvsetkeys.sty \
-tex-letltxmacro.sty \
 tex-ltxcmds.sty \
 tex-parallel.sty \
 tex-parcolumns.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package swell-foop"
 DESCRIPTION = "Provides translations for the 'swell-foop' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "41.1"
+PV = "50.0"
 
-RPM_NAME = "swell-foop-lang-41.1-1.7.noarch.rpm"
-RPM_HASH = "8071328c1770a74c9975840b6b8dbf37dee962e5cff57eb98114a157311912a5f9d55743ec150f0e77e39c3f587a856a9edef4f2cd92c7b6a362a41a453e6689"
+RPM_NAME = "swell-foop-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "fcd800ae250e1dc8098976944df8ec12e79120b7830fa20145f660d69980bd4f6d17152ddfb1d37394ebe23ecc3134e3fb2b0d496c6cf984a517325e921ef6c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-swell-foop-af \

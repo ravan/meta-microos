@@ -5,17 +5,17 @@ It is using the native Apple 'AFC' protocol, over the normal USB cable in order 
 to access the iPhone's, iPod Touch's or iPad's media files under Linux."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.1.4"
+PV = "1.2.1"
 
-RPM_NAME = "ifuse-1.1.4-1.11.aarch64.rpm"
-RPM_HASH = "0ee6c47e9709b03a84f65ee672efebc4bd7446e2814b67a108135f1e6500e5beae6014d2090237129e703aac4d05bd48ba3f846f4dbd3aad72edbf90f571fa57"
+RPM_NAME = "ifuse-1.2.1-1.3.aarch64.rpm"
+RPM_HASH = "45e8a2f7bad7abf85809185096620735a8c748d20e96a1afd0aa4689f35106448b692512f0fc70128db128d50cbd99e4bee5122ff28892f5b4b593645b0c2297"
 
 RPROVIDES:${PN} += "ifuse"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libimobiledevice-1.0.so.6 \
 libplist-2.0.so.4"
 

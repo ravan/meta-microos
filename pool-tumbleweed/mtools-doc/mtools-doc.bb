@@ -3,10 +3,10 @@ DESCRIPTION = "Mtools allows access to an MS-DOS file system on disk without \
 mounting it. This subpackage contains the documentation for it."
 LICENSE = "GFDL-1.3-only & GPL-3.0-or-later"
 
-PV = "4.0.43"
+PV = "4.0.49"
 
-RPM_NAME = "mtools-doc-4.0.43-1.2.aarch64.rpm"
-RPM_HASH = "40f3b22f85a8ffa0c0fc5068bb52780dc4a12e38451ac3deab7a02e55c2cfcba5735d57f608aa4b5435374c1ec9517213d062652f1e7d3a29cc612372d5e9b6b"
+RPM_NAME = "mtools-doc-4.0.49-1.6.aarch64.rpm"
+RPM_HASH = "4c40e2324664b5656ee953e1bb5260a0c79ae58d49327d21d70b298b6ace8147b7875c627f3b1f5836c4102a94d6ef8ef3542599e131c248187bfaaf24c8ddd4"
 
 RPROVIDES:${PN} += "mtools-doc"
 

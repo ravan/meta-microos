@@ -5,10 +5,10 @@ FoilTeX and providing support for FoilTeX commands in \
 LaTeX2HTML."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn61937"
+PV = "2026.226.1.2svn61937"
 
-RPM_NAME = "texlive-foilhtml-2023.209.1.2svn61937-53.1.noarch.rpm"
-RPM_HASH = "9f4a25bfa4908a9860cf5486479891a6d50402e39fb7d4669fbe2772caabbd2dc04af2cc28499e387260483dfbec861295cac669b3b3023d0b274f79c8255974"
+RPM_NAME = "texlive-foilhtml-2026.226.1.2svn61937-60.2.noarch.rpm"
+RPM_HASH = "f14ba4bbbc1b29c9d24f5d66d14d0a5ba4c5cc30dfb7681a5188430cc0b5536000ad21672a4b2aa89d6ac928c100a2444b662d65563a98a949cb41d452b57514"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-foilhtml.cfg \

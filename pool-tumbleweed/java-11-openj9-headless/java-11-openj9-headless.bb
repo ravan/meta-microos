@@ -2,12 +2,12 @@ SUMMARY = "OpenJDK 11 Runtime Environment with Eclipse OpenJ9"
 DESCRIPTION = "The OpenJDK 11 runtime environment without audio and video support. \
  \
 Supported architectures are ppc64le, s390x and x86_64"
-LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
+LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & LicenseRef-SUSE-Public-Domain & W3C"
 
-PV = "11.0.20.1"
+PV = "11.0.32.1"
 
-RPM_NAME = "java-11-openj9-headless-11.0.20.1-1.1.aarch64.rpm"
-RPM_HASH = "b8badb0b589c9f4e5cab4c7064d327133f1b0e82562397e1929b2b53b750a1b7bc22113b11b5df1400ca7a9cbe3f95ac834c9285b75c4e251914a5987e7dab46"
+RPM_NAME = "java-11-openj9-headless-11.0.32.1-1.1.aarch64.rpm"
+RPM_HASH = "8864abec1dd40f5b2257e592dcf95b3df708d9281fcc197ac8f1aef51f8bb374c75a464132649285a08adfea815ff0004e30382f90db30d4926eac312607999d"
 
 RPROVIDES:${PN} += "config-java-11-openj9-headless \
 jaas \
@@ -41,7 +41,6 @@ libinstrument.so \
 libj2gss.so \
 libj2pcsc.so \
 libj2pkcs11.so \
-libj9criu29.so \
 libj9dmp29.so \
 libj9gc-full29.so \
 libj9gc29.so \
@@ -89,6 +88,7 @@ libverify.so \
 libzip.so"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+alts \
 java-ca-certificates \
 jpackage-utils \
 ld-linux-aarch64.so.1 \
@@ -102,7 +102,6 @@ liblcms2.so.2 \
 libm.so.6 \
 libpcsclite.so.1 \
 libstdc++.so.6 \
-libz.so.1 \
-update-alternatives"
+libz.so.1"
 
 inherit rpm

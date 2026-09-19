@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides support, within babel, of the Turkish \
 language."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn51560"
+PV = "2026.226.1.4svn51560"
 
-RPM_NAME = "texlive-babel-turkish-2023.209.1.4svn51560-54.1.noarch.rpm"
-RPM_HASH = "1101c8d44f723e0f0f316de6889e419ea56ed4cf6f8bb7bb8df14d01469364d9a377961bde58ac991feb08f0fd61eca1af6a7c8891ad80c1aed9381d28a73eb5"
+RPM_NAME = "texlive-babel-turkish-2026.226.1.4svn51560-60.2.noarch.rpm"
+RPM_HASH = "d08c3bfa566609c64d0b63e97c9228ef6912415a0f0a202ec78c9db9dc5bf248407bc53f32597ad19fd20d702000f93d7ce61b02b47335fa41bd196b6fc394ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-turkish.ldf \

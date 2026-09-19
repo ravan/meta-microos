@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "20191216"
 
-RPM_NAME = "sierra-gtk-theme-20191216-1.11.noarch.rpm"
-RPM_HASH = "110351eee7e461ce3da201d534853cb7d52203cd0d1b2f32c26b82353acd9a6c47db932218f83b2c6bcf6fa801686641300bcbfb553349de9fb457048c81eaf7"
+RPM_NAME = "sierra-gtk-theme-20191216-1.19.noarch.rpm"
+RPM_HASH = "f8d71aa7ba3565b30b073ac4ee2d357880250afd861deefc6bb191513354e2473b4f606c828f023d3bd87e3352d84dff259e53d08017f0c15daa60ffbdddc15e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sierra-gtk-theme"

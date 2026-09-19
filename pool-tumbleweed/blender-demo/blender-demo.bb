@@ -1,17 +1,17 @@
-SUMMARY = "Some Blender demo files"
-DESCRIPTION = "Some Blender demo scenes \
+SUMMARY = "Package to pull in the latest blender for you"
+DESCRIPTION = "This is a wrapper package to pull in the versioned packages of blender. \
  \
-geeko_example_scene: showing raytracing, rigging, animation, curves, \
-                     shading, texturing, vertex groups and rendering."
-LICENSE = "CC-BY-4.0"
+This package by defaudemo pulls in the latest demo version for you."
+LICENSE = "GPL-2.0-or-later"
 
-PV = "3.6.2"
+PV = "5.2.0"
 
-RPM_NAME = "blender-demo-3.6.2-1.1.noarch.rpm"
-RPM_HASH = "a660c0a4effc42400ff71df688223b51951d8efe6d9b3a1bceae3871146a3cc144b5870972b067eac361f019f7889971bbb0ad4c370ca434626d5ab66d34c305"
+RPM_NAME = "blender-demo-5.2.0-1.1.noarch.rpm"
+RPM_HASH = "158e494b04a993ef6b840f9a28d477284e262e0ebce19445fb4e7c146e704cfc6d169d5c973755f47a4bcde30ace9b042ec9ac196c5dd80a2108d6d477a12515"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "blender-demo"
+RPROVIDES:${PN} += "blender-demo \
+blender-wrapper-demo"
 
 RDEPENDS:${PN} += ""
 

@@ -18,10 +18,10 @@ Unsupported ext format features: \
 * encryption"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230603"
+PV = "20260821"
 
-RPM_NAME = "libfsext1-20230603-2.1.aarch64.rpm"
-RPM_HASH = "7809b9edbb3f254d563944d05c80843ecdd62962c7d17be7a62e2b9b0730b0274949ba7e0c1e44b757a9eb221ca7281b663c40aead1ccee29a911337e8ececfd"
+RPM_NAME = "libfsext1-20260821-1.1.aarch64.rpm"
+RPM_HASH = "2a1f762481e36c0faad14a8bc7912816cfeb02979259bd8dbade56f4f36919bfcdd835080e8a9b72cbd74799e0c4b2c532fb99068eb6e36c1ba87d0d4bb8603d"
 
 RPROVIDES:${PN} += "libfsext.so.1 \
 libfsext1"

@@ -4,10 +4,10 @@ on the desktop, but that cannot live in the platform for various \
 reasons."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.0"
+PV = "44.5"
 
-RPM_NAME = "libgnome-desktop-3-devel-44.0-1.2.aarch64.rpm"
-RPM_HASH = "8e5d182930784a2c2744050ac26cf1a036a3766707bc32a468cee8bdc6c7766ed5dc72435186ce7e9bfbdbf0581d561013ce2bca8229a9157b0b15767a2684af"
+RPM_NAME = "libgnome-desktop-3-devel-44.5-1.5.aarch64.rpm"
+RPM_HASH = "540d8413984548fd0410164f08325fad4b7ee67156b00af8464ee983773e9f1bce80de81b22753f9579a0faa25f21c2e21c7ecf67e731403c202373bdd9091b8"
 
 RPROVIDES:${PN} += "gnome-desktop-devel \
 gnome-desktop-doc \

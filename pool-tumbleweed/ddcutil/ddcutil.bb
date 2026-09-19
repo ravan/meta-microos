@@ -10,20 +10,23 @@ the time a monitor is calibrated, and then restored when the calibration is \
 applied."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.1"
+PV = "2.2.7"
 
-RPM_NAME = "ddcutil-1.4.1-2.2.aarch64.rpm"
-RPM_HASH = "29d36d0b4477288193912988d0f19a8c70cf122de496def737a343454a97045aed8db343f5ae388d9eca4dc47e5eb83b3514350c7131ee8ef77b7a72ff189a1c"
+RPM_NAME = "ddcutil-2.2.7-1.1.aarch64.rpm"
+RPM_HASH = "65f355a746f615bafa34a453eafceeabbb8c292dde6d5bdc44501c9fc543c810b64ff6c4ac33aa5fc0e0a621300abe83fb30a08db87376847e4f1bb4e8a6ed92"
 
 RPROVIDES:${PN} += "ddcutil"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libX11.so.6 \
+libXext.so.6 \
 libXrandr.so.2 \
+libacl.so.1 \
 libc.so.6 \
+libdbus-1.so.3 \
 libdrm.so.2 \
 libglib-2.0.so.0 \
-libkmod.so.2 \
+libjansson.so.4 \
 libudev.so.1"
 
 inherit rpm

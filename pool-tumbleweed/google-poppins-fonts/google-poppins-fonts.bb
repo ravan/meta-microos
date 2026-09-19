@@ -10,8 +10,8 @@ LICENSE = "OFL-1.1"
 
 PV = "4.003"
 
-RPM_NAME = "google-poppins-fonts-4.003-1.7.noarch.rpm"
-RPM_HASH = "5e872b7bf69f590a6119d06bce20dbc41dd3e6303b0396ee41041bc747bbb3728bf7042e5707b4475ef89114c98a1100628d8c84db4813cfa4e1a852b4819e56"
+RPM_NAME = "google-poppins-fonts-4.003-1.15.noarch.rpm"
+RPM_HASH = "652a8f0d8a78db873103212bcf0071c2a23a024d94e2b08f82b0769d66dc3a98139f43d85459285ac33bdd2b9520e21b80db5dd5700e89f7b635786dc8b55877"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-poppins-fonts"

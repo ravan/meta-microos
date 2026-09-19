@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.4.0"
 
-RPM_NAME = "peksystray-0.4.0-22.18.aarch64.rpm"
-RPM_HASH = "02b3bc848bee737911604111d5f30bb2c88605a87d9c0c4b5eb8408b5c3d4f3a9c2b3e6a41196189d95bdd181b5254ed0a44eb7ac26d9ce7cf7cecafda3a03c5"
+RPM_NAME = "peksystray-0.4.0-23.9.aarch64.rpm"
+RPM_HASH = "e474479c96893c37485345e601b4723056ef9d204cbadd4479a3d9cc395208ea562c02c5a9d3b2bbebc50676c06f93327bb99cc9628610e1af41e41d4996dc8d"
 
 RPROVIDES:${PN} += "peksystray"
 

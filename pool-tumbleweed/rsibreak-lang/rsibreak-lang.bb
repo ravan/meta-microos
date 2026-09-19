@@ -2,14 +2,15 @@ SUMMARY = "Translations for package rsibreak"
 DESCRIPTION = "Provides translations for the 'rsibreak' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.12.15"
+PV = "0.13.0"
 
-RPM_NAME = "rsibreak-lang-0.12.15-1.5.noarch.rpm"
-RPM_HASH = "fee9825b09c696e185573d01590a420522f2d623221b705c1b82df88049f44160cb884fa16baa2811a9454ff488a2335ee301af7780e88f79370eb3b7515e5af"
+RPM_NAME = "rsibreak-lang-0.13.0-1.9.noarch.rpm"
+RPM_HASH = "4863ba9d4ea6e35412c73509c95ce3ea5797dba4ca77743109adca2a590a999676479b27624e732dc3723c51cc66ad0d787c4629b42dd1fc3c267cfa5b17f078"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rsibreak-ar \
 locale-rsibreak-be \
+locale-rsibreak-bg \
 locale-rsibreak-bs \
 locale-rsibreak-ca \
 locale-rsibreak-ca@valencia \
@@ -21,10 +22,12 @@ locale-rsibreak-en-GB \
 locale-rsibreak-eo \
 locale-rsibreak-es \
 locale-rsibreak-et \
+locale-rsibreak-eu \
 locale-rsibreak-fi \
 locale-rsibreak-fr \
 locale-rsibreak-ga \
 locale-rsibreak-gl \
+locale-rsibreak-he \
 locale-rsibreak-hi \
 locale-rsibreak-hr \
 locale-rsibreak-hu \
@@ -33,6 +36,7 @@ locale-rsibreak-id \
 locale-rsibreak-is \
 locale-rsibreak-it \
 locale-rsibreak-ja \
+locale-rsibreak-ka \
 locale-rsibreak-km \
 locale-rsibreak-ko \
 locale-rsibreak-lt \

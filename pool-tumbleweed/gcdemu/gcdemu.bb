@@ -16,10 +16,10 @@ Features: \
  * Daemon and device status changes notification via libnotify."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.2.6"
+PV = "3.3.1"
 
-RPM_NAME = "gcdemu-3.2.6-1.4.noarch.rpm"
-RPM_HASH = "b42bb800c2386c64a00de93b0082a290bc4135e011cabe285a330dc0dce650abfe244cfea99e289f197276f282f2aa01c9f045cb8a976602028963d6a35f78c4"
+RPM_NAME = "gcdemu-3.3.1-1.3.noarch.rpm"
+RPM_HASH = "33b967ce4d7ef77596adddd2ac7e49746f56344711a52ba4bd54093a10eadce43ee3b00e5ab85a35ed224db1163bc77edaeaa63bd2d919be3373badfb3d38e7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcdemu"

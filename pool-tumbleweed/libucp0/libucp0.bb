@@ -3,10 +3,10 @@ DESCRIPTION = "High-level API uses UCT framework to construct protocols commonly
 found in applications (MPI, OpenSHMEM, PGAS, etc.)"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.14.1"
+PV = "1.21.0"
 
-RPM_NAME = "libucp0-1.14.1-1.1.aarch64.rpm"
-RPM_HASH = "ece0ed92d95aef94b56de46acaa9a33ee41c114983867ee34e3df25a8e9ad413199e81411d65373068b274855f2c2d9260d340aea7562debbeb2b109f6c1e1b2"
+RPM_NAME = "libucp0-1.21.0-1.2.aarch64.rpm"
+RPM_HASH = "91b74ce6dd05bc1047bafd4b3b9506974d1173ad562f10d0c07745f42d6ca57d1aa3a058090869df045636ed6161f52a453f64e4d5cbb54dd4a9c790ffa1bfcb"
 
 RPROVIDES:${PN} += "libucp.so.0 \
 libucp0"

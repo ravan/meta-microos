@@ -2,10 +2,10 @@ SUMMARY = "Shared library libvacuumutils for Vacuum-IM"
 DESCRIPTION = "This package includes shared libraris needed to work Vacuum-IM program."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.3.0+git1571036065.9f3952b2"
+PV = "1.3.0+git1639054987.g0abd5e1"
 
-RPM_NAME = "libvacuumutils37-1.3.0+git1571036065.9f3952b2-1.21.aarch64.rpm"
-RPM_HASH = "f44d3b0edcbcf706dde6e41fdbbf4846bd2bd8be5ba5ffbbf530e0b47327aec8c08f865bf9b20b4aac8def78dad9d09ef2dec7574c23274ff7042c64aae1d274"
+RPM_NAME = "libvacuumutils37-1.3.0+git1639054987.g0abd5e1-1.9.aarch64.rpm"
+RPM_HASH = "f5a49bdbe92e6a64d086c087ae2370a26cca3a1d4a054a0bf148078eb6b5b46c35380b90e9ea2e213cbc407677c7960cd74b842f37043296b29a997b3cecca05"
 
 RPROVIDES:${PN} += "libvacuumutils.so.37 \
 libvacuumutils37"

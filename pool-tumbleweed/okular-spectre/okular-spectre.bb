@@ -4,24 +4,24 @@ many other formats. This package contains the plugins required \
 to display PostScript documents and images."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "okular-spectre-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "fd4ba009562af95608bd2ac60455df3feae5622acdde87af0430fba9134049a38ee565fde87de98fccb0d1c1b75b61895e911fe6d0f0f667794dd281ed10dd0c"
+RPM_NAME = "okular-spectre-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "205f3eb77fc275a45263ad4fa86e597ba9732376cc7165e6308ac0e2f3fea1ce5676c3865fa1ed7e5d88d2b3cdef3ee4140f1ec5f5a1a49c57fbd543d089e2d9"
 
 RPROVIDES:${PN} += "okular-spectre"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libOkular5Core.so.11 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libOkular6Core.so.4 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libspectre.so.1 \
 libstdc++.so.6 \

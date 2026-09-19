@@ -4,17 +4,17 @@ DESCRIPTION = "Flawfinder scans through C/C++ source code, identifying lines \
 sorted by severity, with the riskiest lines first."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.19"
+PV = "2.0.20"
 
-RPM_NAME = "flawfinder-2.0.19-1.9.noarch.rpm"
-RPM_HASH = "550c0518ca86175d614835b5c7ab5df9ed8112f1ce29294baa766d2800f022f079445a467f5dc7169bc44c3926d5ff8c36310c8cab4b3e6be9e38139d59b738b"
+RPM_NAME = "flawfinder-2.0.20-1.2.noarch.rpm"
+RPM_HASH = "30f2e964dc7423fe8d0e267bb8437e9a2ab6bea782060ca4a31f637ec542afd0be95fcaa18fc3458706114572cbd95fb988b7922e85df4009ad5295688649ee0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flawfinder \
-python3.11dist-flawfinder \
+python3.13dist-flawfinder \
 python3dist-flawfinder"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3"
 

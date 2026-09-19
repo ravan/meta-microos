@@ -5,10 +5,10 @@ non-uniform resizing of images by the seam-carving technique. \
 This package contains the development files for liblqr."
 LICENSE = "LGPL-3.0-only"
 
-PV = "0.4.2"
+PV = "0.4.3"
 
-RPM_NAME = "liblqr-devel-0.4.2-7.4.aarch64.rpm"
-RPM_HASH = "a4da5cd8c046f8fbee406c23f3c8fadd6baca8db184ae264c87522394cfd7b508d233f67f8449c73a736620c3633c874da4f83f9a76e5fa2ff85a3ab961547cd"
+RPM_NAME = "liblqr-devel-0.4.3-1.1.aarch64.rpm"
+RPM_HASH = "320df211c54cf3b241eab600c5949d9d2bf2c7097671f929a4eb01a32c6344a3938d29399bf5612caee855960961d030a2eae25051b03922018c070610f0cbc2"
 
 RPROVIDES:${PN} += "liblqr-devel \
 pkgconfig-lqr-1"

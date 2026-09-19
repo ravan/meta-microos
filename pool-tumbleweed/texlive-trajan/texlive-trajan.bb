@@ -7,10 +7,10 @@ legacy. The font is uppercase letters together with some \
 punctuation and analphabetics; no lowercase or digits."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-trajan-2023.209.1.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "b2ec30d7e95959e7a45978e072d888b85fd5aa6a5c939427785897b1793454021e9ccf4c12249c186751c03df10272b303ffa4c4f654ad22054b9c99e88c6379"
+RPM_NAME = "texlive-trajan-2026.226.1.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "7e575df734fc6a6f54eaa1c392b36f006b2e4ac7a89c76b9ba03abc697d50f5bdec30e9529c64931908c1f32ae45ceb7659e28473cd1aeee317ee62f627cc507"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t1trjn.fd \

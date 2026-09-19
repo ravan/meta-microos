@@ -7,10 +7,10 @@ proposal templates for both undergraduate and postgraduate that \
 meet the school's requirements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.1.2.0svn66472"
+PV = "2026.226.6.2.7.2svn76924"
 
-RPM_NAME = "texlive-xduts-2023.209.6.1.2.0svn66472-53.2.noarch.rpm"
-RPM_HASH = "117eda64c2aeee1231d4aa728c28cdbd1ef00137044e4e8dbcca56a026bffe68c0ab70d0f0f323a47664b2ffb53fed9556c7515c9fa429b6d4a603f649ccbe85"
+RPM_NAME = "texlive-xduts-2026.226.6.2.7.2svn76924-59.4.noarch.rpm"
+RPM_HASH = "4170e98262f6dfb4e2d96116db98e53ff7a1e4caf240ab7af2e19c33104533b76987533d47410e2dbae63b1038d19b4e6334f2db0a3e3b5139bea21ab94b72e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xdufont.sty \

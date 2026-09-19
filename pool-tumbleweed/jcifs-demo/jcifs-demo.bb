@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.19"
 
-RPM_NAME = "jcifs-demo-1.3.19-3.7.noarch.rpm"
-RPM_HASH = "1bd53c473e99b7ac6c60d1fb300f22a12b1584626ad2284d820e089ed4ba99af0d8fc0972d4bde622bb00b2990da967b3d430c8e871cc810bd0667e012fc0ede"
+RPM_NAME = "jcifs-demo-1.3.19-5.9.noarch.rpm"
+RPM_HASH = "f5c8070f030b2244b52ecc7a51791458cdddfbfcffa1d06c856b0a786f64ba44648e14530fc0f15eff2d560094d4bdd8e544332e16b957715c21ac994cae7410"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcifs-demo"

@@ -4,10 +4,10 @@ refreshing sans serif design which is metrically compatible \
 with Arial."
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.svn64548"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-arimo-2023.209.svn64548-55.1.noarch.rpm"
-RPM_HASH = "c4324bc0ef6e1d2251a7a064574f4b015c18b8d41f48a4daadcc063efd8bccdd481e5b4fb72f9acdbc9eb6689736a5b9f08dc08d78c835ef915db712e873f2c4"
+RPM_NAME = "texlive-arimo-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "5d626ee09cc95ae586a2c7f9035b46e6e1cdf1efd59510c0f7175cfe19d2fe59faadc5efe5d2f89e3101a5a10c43444a03afb5599129798803eb301ebe922d0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Arimo-Bold-tlf-ly1.tfm \

@@ -1,14 +1,14 @@
 SUMMARY = "Place boxes at arbitrary positions on the LaTeX page"
-DESCRIPTION = "A package to facilitate placement of boxes at absolute \
+DESCRIPTION = "A package to facilitate the placement of boxes at absolute \
 positions on the LaTeX page. There are several reasons why this \
-might be useful, an important one being to help the creation of \
-large-format conference posters."
+might be useful, one important example being to help the \
+creation of large-format conference posters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10.1svn63967"
+PV = "2026.227.1.10.1svn77682"
 
-RPM_NAME = "texlive-textpos-2023.209.1.10.1svn63967-55.1.noarch.rpm"
-RPM_HASH = "60590b81b2c6ff1edc34079edaa9349dfea11def8b76aef5712ca651b2171b15021806a1324f026ce9b5957b967dbc6aed27d750c1a6f790d66e49d9d93233d8"
+RPM_NAME = "texlive-textpos-2026.227.1.10.1svn77682-62.2.noarch.rpm"
+RPM_HASH = "fe6a6d7020fd1f036c8e7dcea7ff4f93874a287cb1c0b548520b9fc45e6935b2511e7d2a0e82fe2de56458916a2710b09e36d38122be91dd634a4e1d6bee539d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-textpos.sty \

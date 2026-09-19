@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the German lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-deu-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "ce1d70b82240f3083ae4948ddf81ff1fa1ef89925cf036986fbe236fd8e2836daa5d816ddef0c117ce9c93d5443c4bfeacb29cf6043394adf3c3315290189a5b"
+RPM_NAME = "tesseract-ocr-traineddata-deu-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "736514c1771626e5ab62b310eba2577af71541fa00acc0ad0fa53cb149584e92877089ab02877046b494f2afa9cc8a0d4a90ca1dab27b76812be6eb1e5aee366"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-deu \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-de \
+tesseract-ocr-traineddata-deu \
 tesseract-ocr-traineddata-german \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-german"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

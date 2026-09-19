@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains sources and header files needed to build ap
 that use the LAL Inference library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.0.0"
+PV = "4.1.9"
 
-RPM_NAME = "lalinference-devel-4.0.0-1.2.aarch64.rpm"
-RPM_HASH = "5028024727d4e6f90cd29237b4dd21007c9a507e84e5751e65747c88debc3d15f2bf00538a3902977becda7e03981eef07940882b77a111aa998d7fce88e97fa"
+RPM_NAME = "lalinference-devel-4.1.9-3.1.aarch64.rpm"
+RPM_HASH = "e893e6804d6bdcbab21ca774686adebc5965d43625835a7b5b446c18c0722ee9ddf9a710732e18194dce081f7cd64a65427b0e4e05f25c768b0e1dfc009bac7f"
 
 RPROVIDES:${PN} += "config-lalinference-devel \
 lalinference-devel \

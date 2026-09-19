@@ -6,10 +6,10 @@ The package can be used either in conjunction with BibTeX or as \
 a replacement for BibTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.14svn61937"
+PV = "2026.226.2.14svn78101"
 
-RPM_NAME = "texlive-amsrefs-2023.209.2.14svn61937-55.1.noarch.rpm"
-RPM_HASH = "31ab1406c52d830690fa16e7f28260fb301bb93ffde3b405618141ef729090dd6f4e98a8554bc89a3fd0ac740c72c9eeab543abfcdcac694ec7f44f676455652"
+RPM_NAME = "texlive-amsrefs-2026.226.2.14svn78101-61.2.noarch.rpm"
+RPM_HASH = "791c46c3d5986d05bc218ae32d1f6fdfdaae196c0b38c1f7d10124651f2830c8664af31e173716677349c241d776c8d7d55a577ee95fb348c07f5b27def667d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-amsbst.sty \

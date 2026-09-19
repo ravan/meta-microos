@@ -5,10 +5,10 @@ with them. It is also responsible for handling the icons on the MATE \
 desktop. It works on local and remote filesystems."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-devel-1.26.1-1.5.aarch64.rpm"
-RPM_HASH = "d4229b56653945854cc481a018a45e877de3a4cf01dcdbfc444faddfd6442f5df820d636cc9a29240c9ab6117216998c959eb3d90bf36f40d9972ae8ee2e4bf6"
+RPM_NAME = "caja-devel-1.28.0-1.14.aarch64.rpm"
+RPM_HASH = "fcb4787e84bcb42849a07a71daa7ce1b1e527df0e094c4dd5906b69af8be2eebe4b15a88347bbe3186d6db0369445af965bedb08e6f64238e5eaa32c090210cb"
 
 RPROVIDES:${PN} += "caja-devel \
 mate-file-manager-devel \

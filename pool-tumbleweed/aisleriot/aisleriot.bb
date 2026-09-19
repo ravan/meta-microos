@@ -2,10 +2,10 @@ SUMMARY = "Solitaire Card Games for GNOME"
 DESCRIPTION = "Aisleriot is a compilation of 80 different solitaire card games."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.22.29"
+PV = "3.22.35"
 
-RPM_NAME = "aisleriot-3.22.29-1.2.aarch64.rpm"
-RPM_HASH = "ff5bf3a34db80614ff49d3c0ddc0a869d7f7fcef57161936223353ac728cfa1fd8bf1758df6c963f2f5bc84274f8d085b3ac90273c795bc59ddaea115e0a8d24"
+RPM_NAME = "aisleriot-3.22.35-3.4.aarch64.rpm"
+RPM_HASH = "349ac15284b236667830c0210a8520ac07e77f9e3e09fb05d87952c45f7ff2aca52955f5051a38521c0e795eb3fe6128c612656926143d68de5eca642ffc36d3"
 
 RPROVIDES:${PN} += "aisleriot"
 

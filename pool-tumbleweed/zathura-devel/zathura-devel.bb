@@ -2,17 +2,17 @@ SUMMARY = "Development files for zathura"
 DESCRIPTION = "Development and header files for the zathura package."
 LICENSE = "Zlib"
 
-PV = "0.5.2"
+PV = "2026.07.18"
 
-RPM_NAME = "zathura-devel-0.5.2-1.3.aarch64.rpm"
-RPM_HASH = "8cfdbdfdbe25560b6f9796249f19a03957165dc831bd7ddb75cc93f9bcb1773178c0208fe743f2b02a1fc44112e66274883b4a778ca75cb0af1bde0d6ed068bd"
+RPM_NAME = "zathura-devel-2026.07.18-1.1.aarch64.rpm"
+RPM_HASH = "8972bcdc8e4c3a126801ae2edf73949f01060181656207f5eee6c57cb3ea5ddb063d3276aa3640a139e5062009417e68e6e26bc93c0b4f05a4aaeb243c21c542"
 
 RPROVIDES:${PN} += "pkgconfig-zathura \
 zathura-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pkgconfig-cairo \
-pkgconfig-girara-gtk3 \
+pkgconfig-girara \
 zathura"
 
 inherit rpm

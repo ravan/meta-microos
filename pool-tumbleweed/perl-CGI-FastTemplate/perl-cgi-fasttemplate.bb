@@ -1,20 +1,16 @@
 SUMMARY = "Perl extension for managing templates, and performing variable interpolation"
-DESCRIPTION = "CGI::FastTemplate manages templates and parses templates replacing \
-variable names with values. It was designed for mid to large scale \
-web applications (CGI, mod_perl) where there are great benefits to \
-separating the logic of an application from the specific \
-implementation details."
+DESCRIPTION = "Perl extension for managing templates, and performing variable interpolation."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.09"
+PV = "1.90.0"
 
-RPM_NAME = "perl-CGI-FastTemplate-1.09-21.19.noarch.rpm"
-RPM_HASH = "d2449e449baacb3b94a61434650c0d6a1e0ab04a1472a5f7399d28e77b2bac7fdcd7a9b89c3789a9575ce4132e153825e5b17af95d30b157df3f467dfe3c57a4"
+RPM_NAME = "perl-CGI-FastTemplate-1.90.0-1.7.noarch.rpm"
+RPM_HASH = "c29381f7949d4d7f6ee3f3ccf86b604b1f476fe1c277754f6d1e4dc133882159b877440b915597ab3312eaaf0fa53a28ff72e6b69fe61e645b77f84b3bb08086"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--FastTemplate \
 perl-CGI-FastTemplate"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

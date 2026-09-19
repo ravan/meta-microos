@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the header files for the Qt graph component
 for libyui."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui-qt-graph-devel-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "2509fcd69a4e6f99edc6e65f7f9718fc9a1665628557f82b16e5234380ec460afc3b666a4c39ef79c5f11131eeb6bf5c32528f2f3a5566ee8bb99f7171bc32fb"
+RPM_NAME = "libyui-qt-graph-devel-4.7.7-1.1.aarch64.rpm"
+RPM_HASH = "e6347e0e63281c484fc9ff3ba96016b5005823388b186137e83a4280c13affdf16cd45ca4b45730f65ffad153417bc7bae5932cc78638dcb2f2b881b09a05653"
 
 RPROVIDES:${PN} += "libyui-qt-graph-devel"
 

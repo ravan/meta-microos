@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-2.0"
 
 PV = "0.9.6"
 
-RPM_NAME = "writerperfect-0.9.6-2.8.aarch64.rpm"
-RPM_HASH = "e70f3e86a8b792c8ba20979610ff1a2b11df736436350890f8c1d88b23a8753953b188610e8c99f6b6101c8062e5c4c65bbf4dc46b050dacbd34b8cad1dc70ee"
+RPM_NAME = "writerperfect-0.9.6-2.17.aarch64.rpm"
+RPM_HASH = "b245a4b0bd04cf5262793e221d951c02169b517d962383c5e2d620e1a5a691ead4f6826b7714cb2f3e952b15b10abfac120717ea24761124ea3dad1b92110926"
 
 RPROVIDES:${PN} += "abw2abw \
 abw2epub \

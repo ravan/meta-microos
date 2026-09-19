@@ -2,10 +2,10 @@ SUMMARY = "Simple and flexible tool for managing secrets"
 DESCRIPTION = "Simple and flexible tool for managing secrets"
 LICENSE = "MPL-2.0"
 
-PV = "3.7.3"
+PV = "3.13.3"
 
-RPM_NAME = "sops-3.7.3-1.7.aarch64.rpm"
-RPM_HASH = "f60859d5c22bdd7a5d311c83fbbe3a2af8dd4d6f5f27ec91eda7c6920242b2f3ea19663470cc24b5f609beb6403deb740b95c7e8e6acf3ac3b2dafa616687f53"
+RPM_NAME = "sops-3.13.3-1.2.aarch64.rpm"
+RPM_HASH = "6ab637228d8ede12c75b9bd0d6061c357bdc7cda952812912ae606872ada43ae2cb614fa45e837cc8f3f4b71fb66f034a85a134a2f53c2adb26d0df9730bc8a5"
 
 RPROVIDES:${PN} += "sops"
 

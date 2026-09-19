@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kvoptions"
 DESCRIPTION = "This package includes the documentation for texlive-kvoptions"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.15svn63622"
+PV = "2026.226.3.15svn77682"
 
-RPM_NAME = "texlive-kvoptions-doc-2023.209.3.15svn63622-56.1.noarch.rpm"
-RPM_HASH = "5f8be46e1ab38dd757d74e63168d7bffbe669111524c2cd450bb0bcbd0d3d898cd9be86b5254a63ab42fbfa948003bc2a4b84ed84c26a56c7653f8c0ccf7c727"
+RPM_NAME = "texlive-kvoptions-doc-2026.226.3.15svn77682-63.2.noarch.rpm"
+RPM_HASH = "cfeb4f2bec5a9b8a58599278aa12063cb1e01f6679836c2428dcda7226d887df580f4ad7abb46611fd43c6f992b6c46abd2ec7fc51ec9a0e4ae7feba8043782e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-kvoptions-doc-en \

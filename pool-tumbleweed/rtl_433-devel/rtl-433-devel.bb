@@ -5,10 +5,11 @@ This subpackage contains header files for developing applications that want \
 to make use of rtl_433."
 LICENSE = "GPL-2.0-only"
 
-PV = "22.11"
+PV = "25.12"
 
-RPM_NAME = "rtl_433-devel-22.11-1.4.aarch64.rpm"
-RPM_HASH = "c7a1cfaed6cecb6618e2b5950bf7f64274f2250f65d3a3cf4de6da5bc9875468c19915fae91a16e6fb23bb9d1dca96a33dbbe7ec0cbec1ed6ed5d5b5319bbfca"
+RPM_NAME = "rtl_433-devel-25.12-1.5.noarch.rpm"
+RPM_HASH = "b988175e41dd9a02e4f833cd50d18a07aa8d4e66da61063ff1fcd0c10248fdad755022d0eafdb7948fe45188ceede0316ce15fdf239336431cd6f90276e5d9b7"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rtl-433-devel"
 

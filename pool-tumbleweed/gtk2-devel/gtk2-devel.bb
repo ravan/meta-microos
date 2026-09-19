@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.24.33"
 
-RPM_NAME = "gtk2-devel-2.24.33-4.4.aarch64.rpm"
-RPM_HASH = "f1c7f232b70e784d96579fa5a18c14dabc120f18b7d71a201c6e899587e0e8059e2dffda82198274a3d1782ab119abaab116ddbb38a55972e158151b67365e25"
+RPM_NAME = "gtk2-devel-2.24.33-18.7.aarch64.rpm"
+RPM_HASH = "8d14ec93cba0f76a9a2eb6d5edcb7ae72478a23152aacc9593abd06cfc14b61e938fa16eb80530de7db68e5b9871501193450f6081d9af9183af868af48eee57"
 
 RPROVIDES:${PN} += "gail-devel \
 gtk2-devel \
@@ -26,7 +26,7 @@ rpm-macro-gtk2-immodule-postun \
 rpm-macro-gtk2-immodule-requires"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libatk-1.0.so.0 \
 libc.so.6 \

@@ -2,14 +2,13 @@ SUMMARY = "Translations for package rocs"
 DESCRIPTION = "Provides translations for the 'rocs' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "rocs-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "3ca382508d196bf42fbb8c18f3ce2fcffff30b99dc0f4e8556762d3e9075f4c7c0fccaf976a2ab9d7e2c0d4a59826fef2d78bff2197e2c34fc5bfc45fffe2ae9"
+RPM_NAME = "rocs-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "9ddd641bf9a099c320c530b6a7a4c46d8544d55e601462b311f737e2de5b1191970382fdf7dced664b7f96f3bfbb4f4f5461b44d9866734f76f7ded82200f4ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rocs-ar \
-locale-rocs-bg \
 locale-rocs-bs \
 locale-rocs-ca \
 locale-rocs-ca@valencia \
@@ -21,10 +20,12 @@ locale-rocs-en-GB \
 locale-rocs-eo \
 locale-rocs-es \
 locale-rocs-et \
+locale-rocs-eu \
 locale-rocs-fi \
 locale-rocs-fr \
 locale-rocs-ga \
 locale-rocs-gl \
+locale-rocs-he \
 locale-rocs-hr \
 locale-rocs-hu \
 locale-rocs-it \

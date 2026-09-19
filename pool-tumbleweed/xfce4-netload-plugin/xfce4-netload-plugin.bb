@@ -3,10 +3,10 @@ DESCRIPTION = "The Netload plugin allows to monitor the netowrk load of a given 
 interface."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.1"
+PV = "1.5.0"
 
-RPM_NAME = "xfce4-netload-plugin-1.4.1-1.1.aarch64.rpm"
-RPM_HASH = "38d043048e53a53811e972a97099535873c114be39c7d88f228b864762324a1382454d7b5c5bcf1cf07e9c4f8efb47b656e70abae0bdbdf22c5f7f63484e56ff"
+RPM_NAME = "xfce4-netload-plugin-1.5.0-1.4.aarch64.rpm"
+RPM_HASH = "7436f0532325322b6276da194c655232092c1598ab35a9a8e08b3dc6b4884b575d15dea374d270c5d5f14badfba9d6a57318ebf7f8ebac139e4627b38c41e123"
 
 RPROVIDES:${PN} += "libnetload.so \
 xfce4-netload-plugin \

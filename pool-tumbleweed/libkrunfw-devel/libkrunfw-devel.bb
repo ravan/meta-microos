@@ -11,13 +11,14 @@ This package contains the libraries needed to develop programs \
 that consume the guest payload integrated in libkrunfw."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.8.1"
+PV = "5.5.0"
 
-RPM_NAME = "libkrunfw-devel-3.8.1-1.6.aarch64.rpm"
-RPM_HASH = "7cdb9df54b9c7e9f0bc54057587b6b653fadc664236cf44c283539fe36614a9db4a6bd39b7ebe2f4c3babc7bacc9ba3bf2d16f3efcef529b0b9ce7f52473c458"
+RPM_NAME = "libkrunfw-devel-5.5.0-2.1.aarch64.rpm"
+RPM_HASH = "a0e5194c9a07b47a2e51385af652970e129703ca549435d2784d61e56c6a787738804eaa0e823b2a8a11c56a3cdfec3cb53f10e9008c9a84c3989c0560c27dad"
 
-RPROVIDES:${PN} += "libkrunfw-devel"
+RPROVIDES:${PN} += "libkrunfw-/usr/lib64/libkrunfw.so \
+libkrunfw-devel"
 
-RDEPENDS:${PN} += "libkrunfw3"
+RDEPENDS:${PN} += "libkrunfw5"
 
 inherit rpm

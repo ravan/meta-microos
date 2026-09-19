@@ -2,10 +2,10 @@ SUMMARY = "Simple PDF comparison tool"
 DESCRIPTION = "diff-pdf is a simple tool for comparing two PDF files."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "0.5"
+PV = "0.5.3"
 
-RPM_NAME = "diff-pdf-0.5-2.4.aarch64.rpm"
-RPM_HASH = "59f0e2cc6d306f5bf2113a9f2b647aaa0bef9f3faa6fc241ec9072de4812de3b7cc2591d99720e01be65d028c95dfc5ef74d97de6ee0ceaec3f8d83e661fa422"
+RPM_NAME = "diff-pdf-0.5.3-1.1.aarch64.rpm"
+RPM_HASH = "497fbd5f2f7e85260bc0b7e0b0b9a1b4fd73447e2376ef5847079c05e3a377f95bce943bc164f0943297e94a4e4e47f8c4315ac681c4e491f1bf85ff8b54882a"
 
 RPROVIDES:${PN} += "diff-pdf"
 
@@ -17,7 +17,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libpoppler-glib.so.8 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0"
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk2u-core-suse.so.16.0.0"
 
 inherit rpm

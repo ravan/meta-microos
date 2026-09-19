@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the Apache webserver."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-apache-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "e5f6f31e5aba8c8856602d09d2c540a349e1ce2fa4520b2cd21a0091e40b7cee2e588f996df30770aa103fd25140bf6f8492b62461c07a946be440089db2c2c6"
+RPM_NAME = "pcp-pmda-apache-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "ceeb028a32b0bdad76cd5d087ecb2d84890a4b1c4a3311a1e4df6ca619c7c7dcc0f86aae28e214ba0adf2d6961fbe9deee3cd7de6e951ac786c2efdf23d7eb44"
 
 RPROVIDES:${PN} += "pcp-pmda-apache"
 

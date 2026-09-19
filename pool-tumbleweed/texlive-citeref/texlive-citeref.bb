@@ -3,10 +3,10 @@ DESCRIPTION = "The package does its job without using the indexing facilities, \
 and needs no special \\cite-replacement package."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.1.1svn47407"
+PV = "2026.226.1.1svn47407"
 
-RPM_NAME = "texlive-citeref-2023.209.1.1svn47407-54.1.noarch.rpm"
-RPM_HASH = "a286f07dd5c580125d673e2a06216efd5a1f883282c32d1442c44d3a0d069d3d5f8aee6ca28522ebc65474e6fd7ae118f0bb3f16cea21b0ffd058110f7b0267e"
+RPM_NAME = "texlive-citeref-2026.226.1.1svn47407-60.2.noarch.rpm"
+RPM_HASH = "e79d07b2e9128493412c400dbf063fd8b51f241a6214eaaa7be3b11ae376b394cd30b487e3f0db6b9e8a4fa315d1951f02340fe16d1bd2e22432794104bba644"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-citeref.sty \

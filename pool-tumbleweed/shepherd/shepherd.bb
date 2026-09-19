@@ -8,10 +8,10 @@ system where Guile is available. In particular, it is used as PID 1 by \
 GNU Guix."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.8.1"
+PV = "0.10.2"
 
-RPM_NAME = "shepherd-0.8.1-1.10.aarch64.rpm"
-RPM_HASH = "f62cc9c9d949b2451b78a20d5f33cf1ad0c9e8cc5a29329be80caa200ff5d3149b743f45e470b2fd8cba783c062dba707f8a9e615da0fa9fc65ed2de93096160"
+RPM_NAME = "shepherd-0.10.2-1.10.aarch64.rpm"
+RPM_HASH = "330110a5327aad75e59d0231b31208b325b7f946842f35806eb0844d81fc4de85c3e754a916750b8169b06fe9a9b0a46403eec0c45dd1990baa91f8a0a018d45"
 
 RPROVIDES:${PN} += "shepherd"
 

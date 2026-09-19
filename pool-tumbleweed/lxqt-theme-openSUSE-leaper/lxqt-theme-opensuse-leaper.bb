@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-4.0"
 
 PV = "0.1"
 
-RPM_NAME = "lxqt-theme-openSUSE-leaper-0.1-2.14.noarch.rpm"
-RPM_HASH = "b80603e749103e2d706ee48f3680b1b862df1ffaf5299f86b9382caefe62299d2f96505919e16c2b09770404867715687c87cbc4db584e4f078e371986fc8519"
+RPM_NAME = "lxqt-theme-openSUSE-leaper-0.1-2.22.noarch.rpm"
+RPM_HASH = "e2a1e023a8369bc0adb5c4f115b30989d64ce956b199e01c53dbcc2cbe286a7f1eb1f93af0c2ef3f9c424a9f391a5a8f6e87e0fc3a63234598b8e82d86b6d1c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-theme-openSUSE-leaper"

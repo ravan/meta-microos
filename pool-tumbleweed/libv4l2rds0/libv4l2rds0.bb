@@ -5,10 +5,10 @@ to access the received RDS information. \
 This package contains shared lib for packages that use libv4l2rds."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.24.1"
+PV = "1.32.0"
 
-RPM_NAME = "libv4l2rds0-1.24.1-1.4.aarch64.rpm"
-RPM_HASH = "14893f35ed6c2325de8d88dbc80f90199b428c00b9152f6000ed318d962ecbdff3313d3a3c6f079ca23521efe9893e8213b352ced0e934a4e24954095dee1343"
+RPM_NAME = "libv4l2rds0-1.32.0-2.4.aarch64.rpm"
+RPM_HASH = "a6893d2afaed6854db429ec532382d1bc7cf8e28d83af49e9a4a2afdd95330e9c626d30efab142b36eff701767bdf61adfe1d2f4646dc07b9a880c1caadf48d8"
 
 RPROVIDES:${PN} += "libv4l2rds.so.0 \
 libv4l2rds0"

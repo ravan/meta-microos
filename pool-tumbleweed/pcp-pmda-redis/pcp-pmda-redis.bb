@@ -3,12 +3,14 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics from Redis servers (redis.io)."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-redis-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "00123745ddf3392e0e24753aa9af8669749e1b3b00c381c4aaaecfcdcfa91be2c9452dfda54997dcd7ad7aad6bd19322956d41b69c28a7f8c935358f11eb1ea1"
+RPM_NAME = "pcp-pmda-redis-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "b68290427cc44d19bc91dd1942584a33a802c8c8034e88766adeac4022dd75caf3897d40ade000d8342d6626b732c9aa5c3f84efcd6b2e7569a7fb4048bb60c7"
+REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pcp-pmda-redis"
+RPROVIDES:${PN} += "config-pcp-pmda-redis \
+pcp-pmda-redis"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 perl-PCP-PMDA"

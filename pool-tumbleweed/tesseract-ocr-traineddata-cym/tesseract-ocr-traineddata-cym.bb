@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Welsh langu
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-cym-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "77bd51b5c7a8eb1e3b1567bf8dd52f65a5b61086e08cc67318eea6490f982fe3e31fdd90d5440c77da47e9c0cc4d2a0b751ff871fda2a4e98a3c3bdac1c6666e"
+RPM_NAME = "tesseract-ocr-traineddata-cym-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "081da588f49153f344d89e400f9048200a29a7e61229ad97425631deddef20304a3a4c2dc1fe10cd58d40be98ee6d4094c5d9ebfff93ec1cd6d36b25a1144a25"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-cym \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-cy \
+tesseract-ocr-traineddata-cym \
+tesseract-ocr-traineddata-provider \
 tesseract-ocr-traineddata-welsh \
 tesseract-traineddata-welsh"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

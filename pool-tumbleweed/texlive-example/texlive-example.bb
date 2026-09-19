@@ -4,10 +4,10 @@ It provides an example environment, which typesets its contents \
 on the left of the page, and prints it verbatim on the right."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn33398"
+PV = "2026.226.svn33398"
 
-RPM_NAME = "texlive-example-2023.209.svn33398-53.1.noarch.rpm"
-RPM_HASH = "8ecbe92c65579e68372b73feb3573ab7182b74f234416173b944a8a562d640730b1b14d2e1a24f88e6ce9c900d91c397502f31d10ce609310e2ec67bf050393e"
+RPM_NAME = "texlive-example-2026.226.svn33398-59.2.noarch.rpm"
+RPM_HASH = "12b8e18c234043615d83015ad513322225f8702db35919967c8f109c04d0c35134b5bc806121c1948f096d5588837609426b856476597fb1f15055f85da91670"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-example.sty \

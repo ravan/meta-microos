@@ -2,10 +2,10 @@ SUMMARY = "Fish completion for wl-clipboard"
 DESCRIPTION = "Fish command line completion support for wl-clipboard."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.2.0"
+PV = "2.3.0"
 
-RPM_NAME = "wl-clipboard-fish-completion-2.2.0-1.1.noarch.rpm"
-RPM_HASH = "f52610ded42f9eec87fe92418e304aa33a53e39e9c6fc53b0e1f95dc38221eec3dc68bf88ed3103293c920222d74e37904febed3afd9b1d20e5d7e9165a132a4"
+RPM_NAME = "wl-clipboard-fish-completion-2.3.0-1.3.noarch.rpm"
+RPM_HASH = "b9fb9546a296ac63fe15ef75bff5b3b29570c57b071b65d21fc4c8eb7c2de9002470902c1194e792bb71d56b8c739ad60a46e6c73f3064f9b0a54d29fcec2232"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wl-clipboard-fish-completion"

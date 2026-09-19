@@ -3,10 +3,10 @@ DESCRIPTION = "The ibus-devel package contains the header files and developer \
 docs for ibus."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.5.28"
+PV = "1.5.34"
 
-RPM_NAME = "ibus-devel-1.5.28-2.2.aarch64.rpm"
-RPM_HASH = "3b05d9c99ef015fbdd1832ae3d19c7cc80d56e2e3aefa3b895dc188aff1685a4fa3953bb10e7ab21316e3728dc087450286325f8af89c541a5584f13a91ed1f8"
+RPM_NAME = "ibus-devel-1.5.34-2.1.aarch64.rpm"
+RPM_HASH = "078d37df7df07d82d120bcd81f4926da84743957691a4172b0c038adfb21b8136ff501ccc7b5badd194e4f4f58aa8e2b256834822666c5d5b01adcc519505a27"
 
 RPROVIDES:${PN} += "ibus-devel \
 pkgconfig-ibus-1.0"

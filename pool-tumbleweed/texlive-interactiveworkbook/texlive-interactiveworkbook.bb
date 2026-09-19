@@ -6,10 +6,10 @@ meant to be used by Internet students and that, in particular, \
 freely use mathematical notation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-interactiveworkbook-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "1d6fc011f0589560146c8ca73b5288fe55757a3ece12d7f36a252179e96f02448ad20947bdf55e30db21d5188121321e0be534fd47a56611a900efe991e4e5ed"
+RPM_NAME = "texlive-interactiveworkbook-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "98a132333e2443df2160ed4ac58524b1a989b3f6c306312d52c3f4b2b3ff6fd019624e3514705be74d6e2f9d0bd52f51cdba09b541edb0276d28b7469eac7817"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-interactiveworkbook-web.sty \

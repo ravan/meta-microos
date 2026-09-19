@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & SUSE-Permissive-Modify-By-Patc
 
 PV = "0.99.f7.1"
 
-RPM_NAME = "aspell-ru-0.99.f7.1-2.14.aarch64.rpm"
-RPM_HASH = "4f68e5b91fb2505553adef0c974a6e8160842981f27ff7af85be7ac6d55bca151ef73139052228b738abc08d822b4652ea553b8fe65d4d77d8c5855d9e0ab3c3"
+RPM_NAME = "aspell-ru-0.99.f7.1-4.7.aarch64.rpm"
+RPM_HASH = "a83776370910b8e32130bafbf5795fdab1bbf3b40f9ce5e668d959424f6724d7ec5fa323e1ca4b923848f9beb38314bc05351654f5e093e092081442d4cdebbf"
 
 RPROVIDES:${PN} += "aspell-ru \
 locale-aspell-ru"

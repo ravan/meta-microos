@@ -4,10 +4,10 @@ This package is just needed to run the testsuite and does not contain \
 anything interesting."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.5"
+PV = "4.1.8"
 
-RPM_NAME = "openmpi4-testsuite-4.1.5-2.1.noarch.rpm"
-RPM_HASH = "ffde875370fad302fbdb439858eca4f13a1f4491aeeff0c6726d415b1f2ff6ee6fb4ecdf7203bb3ea4e87063ffc3bef4dbcf453ca3daf421af9a4979a92f1e02"
+RPM_NAME = "openmpi4-testsuite-4.1.8-4.7.noarch.rpm"
+RPM_HASH = "c6baad2948bb086a65c90afe455e98bb6fd9b8a4d3e6d7a1c0e2db63a69a6f9be5b717ffa54a6f0b549892199eb5f1441b3705a9fcef1f46b7269475778c61bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpi \
@@ -15,7 +15,6 @@ openmpi4-testsuite"
 
 RDEPENDS:${PN} += "mpi-selector \
 openmpi-runtime-config \
-openmpi4-libs \
 openssh"
 
 inherit rpm

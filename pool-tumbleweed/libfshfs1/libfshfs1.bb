@@ -22,10 +22,10 @@ Unsupported HFS format features: \
 * 'uncompressed', compression methods 1, 9 and 10"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220831"
+PV = "20260826"
 
-RPM_NAME = "libfshfs1-20220831-4.1.aarch64.rpm"
-RPM_HASH = "d7f1e68814248de52535fefdee75055cfff6f173362633b1a9cd578f0ce8f97824da6b61337877e92895bb93e8e4d3eb05c58b6fcd3f1b34a79ae5efb6031f6e"
+RPM_NAME = "libfshfs1-20260826-1.1.aarch64.rpm"
+RPM_HASH = "a344c5542c456877142a199f34ec105c0e5c3d04ae0b14b0850469b8cff9d801e9b2f08fbfb30b0cf84bfba69980adc60ddd00e297c53568ae1324129fd24e53"
 
 RPROVIDES:${PN} += "libfshfs.so.1 \
 libfshfs1"

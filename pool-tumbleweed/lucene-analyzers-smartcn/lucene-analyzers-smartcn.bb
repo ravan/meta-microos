@@ -3,10 +3,10 @@ DESCRIPTION = "Apache Lucene is a full-text search engine written entirely in Ja
 This package provides the 'analyzers-smartcn' module for Lucene."
 LICENSE = "Apache-2.0"
 
-PV = "8.5.0"
+PV = "8.11.4"
 
-RPM_NAME = "lucene-analyzers-smartcn-8.5.0-5.1.noarch.rpm"
-RPM_HASH = "6151b91ce10e7a594ad430968699fa63854e57df8cb161ca525f0e83347dcf74aa060b50c9c7f70e0f68934c1278a33d6f6e1307df1b9eea1d54affe38c22b0a"
+RPM_NAME = "lucene-analyzers-smartcn-8.11.4-1.8.noarch.rpm"
+RPM_HASH = "ee3473cc3eae5edccc52a354fe5843d7e3410d36ea97aeb0fc129b9ec68ab48c89a81c4d5d5c185aa8cfef738f82c875a68e036e24dcdcfc987e0f307e03b270"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-analyzers-smartcn \

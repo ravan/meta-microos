@@ -2,10 +2,10 @@ SUMMARY = "Package provides recommended R-survival"
 DESCRIPTION = "This packages provides R-survival, one of the recommended packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "3.5.5"
+PV = "3.8.6"
 
-RPM_NAME = "R-survival-3.5.5-46.1.aarch64.rpm"
-RPM_HASH = "839977ecd667b243293e8b334cb4a88b29e07b397a8b606fb7eba4d148caec3a60f6f8bfffa83c36289f98ca8af65b4e60d864841d1fc2e59d02a21476f5ec7f"
+RPM_NAME = "R-survival-3.8.6-58.3.aarch64.rpm"
+RPM_HASH = "d9fcda2a080b52e318858628a20a8e7efdf75c7fc7ad2f8af67586661747a84d7a0eacf47cba7122a5267f50d2224a8fbdabdb9facfeb62308c1c3c4011122c2"
 
 RPROVIDES:${PN} += "R-survival"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "The elfutils-debuginfod-client package contains a command-line fr
 The package is dummy."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.189"
+PV = "0.194"
 
-RPM_NAME = "debuginfod-dummy-client-0.189-5.1.aarch64.rpm"
-RPM_HASH = "5b66844dd9eb037225ba7b3d56b8b5b9d7ba7cb1ad845073bd7a636fa7e2aeee7118f2d0e80c9159346a8ccb4ca5769c2afbb65a9042f7fe5afef4c83144b8ed"
+RPM_NAME = "debuginfod-dummy-client-0.194-1.4.aarch64.rpm"
+RPM_HASH = "c4a6abbd3c89b8fcd5a82e702ad9c0d16f05bcd2dd66d893a6810c3bf6727486bcea6af750331a943063f380922f9980c87386c5318eeacefb8c04f2f7d2f632"
 
 RPROVIDES:${PN} += "debuginfod-client \
 debuginfod-dummy-client"

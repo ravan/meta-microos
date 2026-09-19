@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kcoreaddons"
 DESCRIPTION = "Provides translations for the 'kcoreaddons' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kcoreaddons-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "a86adebf7e664549fd4ca39f50a170ed2234235f11c74f0b601d3a432478b2183924f982a14c0a1f3832b73b003929343c1ed09d53b6e80b319ebf6bfbf7da26"
+RPM_NAME = "kcoreaddons-lang-5.116.0-1.9.noarch.rpm"
+RPM_HASH = "7982085c4f0fcb914be1c8c5e85560ebec82497d0b28b5b4e35a42426c73966eef140c5a12c43429cc7e469b01e7fe776aebb7fdf13afdb20dfdcdc0955936d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcoreaddons-lang \

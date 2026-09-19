@@ -2,18 +2,18 @@ SUMMARY = "Haskell prettyprinter library development files"
 DESCRIPTION = "This package provides the Haskell prettyprinter library development files."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.7.1"
+PV = "1.7.2"
 
-RPM_NAME = "ghc-prettyprinter-devel-1.7.1-2.3.aarch64.rpm"
-RPM_HASH = "dafd84c93956b8e23b0bdd8328223e3460657d6f77629e215f7c7a6c17df8c3d502c0516f3386610c0473b0c845d9725c8e4a506986cf29b008dad854f2949ef"
+RPM_NAME = "ghc-prettyprinter-devel-1.7.2-1.3.aarch64.rpm"
+RPM_HASH = "676cc9ff35386a00f17178e1453db6425922b2b3a165cd3f224bd8e686c032579bca3387de2793e84067c2be51f34903f6deef2d297fe4424725afd5a0553270"
 
-RPROVIDES:${PN} += "ghc-devel-prettyprinter-1.7.1-2SxWyEsMZJMFYq1EQglPJB \
+RPROVIDES:${PN} += "ghc-devel-prettyprinter-1.7.2-I8Z9oIqYCiwIS8uRvukUd0 \
 ghc-prettyprinter-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-text-2.0.2 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-text-2.1.4-cf23 \
 ghc-prettyprinter"
 
 inherit rpm

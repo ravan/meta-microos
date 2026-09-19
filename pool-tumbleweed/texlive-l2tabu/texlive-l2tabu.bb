@@ -5,10 +5,10 @@ This original is in German; it has been translated into \
 English, French, Italian, and Spanish."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.4svn63708"
+PV = "2026.226.2.4svn63708"
 
-RPM_NAME = "texlive-l2tabu-2023.209.2.4svn63708-56.1.noarch.rpm"
-RPM_HASH = "ab902839134160a6eedc868129dff3215472b7dfa0d86de6ae74623a67b56b50362043a6932dc668c9f7bcb6536314613fd74167595c4da129c5b001ca3f8746"
+RPM_NAME = "texlive-l2tabu-2026.226.2.4svn63708-63.2.noarch.rpm"
+RPM_HASH = "e44689b3cec7bf1328889e435ca097a5479446e0d78cdd08ed4838ae40afeaf1535f74850e63487a38692562fcd31d4c5c708ce164956ea99d2aae5c8a8cb4b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-l2tabu"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-algobox"
 DESCRIPTION = "This package includes the documentation for texlive-algobox"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3svn52204"
+PV = "2026.226.1.3svn67201"
 
-RPM_NAME = "texlive-algobox-doc-2023.209.1.3svn52204-55.1.noarch.rpm"
-RPM_HASH = "f9e462d1a10d868e599ae1d7e4e2d6f7262f89df81fb45bb0c31752064b0f8d42a3879d2d0f8775e078ac584c2fd0e67a08a32d3633fe93bfa3e4aca274da0cb"
+RPM_NAME = "texlive-algobox-doc-2026.226.1.3svn67201-61.2.noarch.rpm"
+RPM_HASH = "357a1408a87332311af5bc1d6ed5933b48ab0c6300cc29e7ffe65ad8c519c9cd6dda55e2ac6721cce7d57a2f5376db4bb403505889da6be28edd1d8d1119e4a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-algobox-doc"

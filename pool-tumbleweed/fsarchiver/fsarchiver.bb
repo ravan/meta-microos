@@ -9,10 +9,10 @@ If the archive is corrupt, you just loose the current file, not \
 the whole archive."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.8.7"
+PV = "0.8.9"
 
-RPM_NAME = "fsarchiver-0.8.7-1.2.aarch64.rpm"
-RPM_HASH = "55c04244e4f816a1b5291edfc452adf9b4365669bd1a03a0c3d71d75b463ff4689bde1444a68160ec01440978cdb2c05a14d05a1999f150dbf5ce4c897d8b0aa"
+RPM_NAME = "fsarchiver-0.8.9-1.4.aarch64.rpm"
+RPM_HASH = "7434eff93e89d616ceefe7717fc8107ac15d78842b2df8d2bd0630a423205f31f207b2b9eafa2fcfc206c2624579d84f396d58573df7fcb6c60a221382a8a628"
 
 RPROVIDES:${PN} += "fsarchiver"
 

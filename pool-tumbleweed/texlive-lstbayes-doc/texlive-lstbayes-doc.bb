@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lstbayes"
 DESCRIPTION = "This package includes the documentation for texlive-lstbayes"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn48160"
+PV = "2026.226.svn48160"
 
-RPM_NAME = "texlive-lstbayes-doc-2023.208.svn48160-53.1.noarch.rpm"
-RPM_HASH = "cfa99cacaa9b31fd83feb7082b082895862b20748b3533020c9e07b9e74fdb7e4da47523061b0a1fcce7ccfce4241fb7b242478845b5f21c16b7204dbde3fbfc"
+RPM_NAME = "texlive-lstbayes-doc-2026.226.svn48160-59.2.noarch.rpm"
+RPM_HASH = "b9e38e497080504892ac3993b799491072782a476d720146754b492982917f3f3538063a520f4c0804853a74331d0836eaf84ee5b47b71dec29ed129ddd24165"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lstbayes-doc"

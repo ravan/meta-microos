@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.0"
 
-RPM_NAME = "pdns-common-4.0-3.4.noarch.rpm"
-RPM_HASH = "fff196ee524a1d012a0adbdffe6f7a8ff84e3b940915e3acfb7f5375486f95d2cdffbfe77a340d1b785bb994d97f86fc2a87b6f1dc3a836d99dfcdbd59b9238b"
+RPM_NAME = "pdns-common-4.0-4.5.noarch.rpm"
+RPM_HASH = "685462f0c700f1f982fdbb50e47007be0cc5cecfde432f2b236079290eef42fb957f38b5de306acc2e82925b32bb461f94b9bb7f9a57950380a521e1ce578e8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-pdns \

@@ -2,10 +2,10 @@ SUMMARY = "Marble documentation"
 DESCRIPTION = "Marble is a viewer of map data. This package contains its documentation."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "marble-doc-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "d87f619e22aacbb58a81361598af025c5baab93b1a01433d4f65746823d6268040aa0b7a1d15001b2339a0edc802f02e03a2c34c3759b3633fd57a208251801c"
+RPM_NAME = "marble-doc-26.08.1-1.2.noarch.rpm"
+RPM_HASH = "b6cffc689e55c410d477160579b645c7d0ba6f76602faf9a32c55b37a2176c73a6f5606fb2ca774d65281194a6055cd26923de8cda88e0b60eb79a8c1215093e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "marble-doc \

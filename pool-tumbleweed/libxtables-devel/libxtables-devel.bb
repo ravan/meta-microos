@@ -7,10 +7,10 @@ Link your extension (iptables plugins) with $(pkg-config xtables \
 xtables --variable=xtlibdir)."
 LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
-PV = "1.8.9"
+PV = "1.8.13"
 
-RPM_NAME = "libxtables-devel-1.8.9-1.4.aarch64.rpm"
-RPM_HASH = "dfade1fbc873a6415f523453f4573a26f3978ef0df55d9f2d72bdc8d5f8c1d490b6265adebc48158b3786ab96e7937c1f90f280836f7b394096d571afe1a663c"
+RPM_NAME = "libxtables-devel-1.8.13-1.4.aarch64.rpm"
+RPM_HASH = "de1e297ca290c3cd8a98f4efdafdb1658b5b95ddbb50f40176eb9e92495a1f5352acd16657a6d6dbb284c07247e35e4d89aa1cbebd9a6f23321758ccaa6217c7"
 
 RPROVIDES:${PN} += "libxtables-devel \
 pkgconfig-xtables"

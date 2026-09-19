@@ -4,10 +4,10 @@ other shack hardware. It is a software layer, not a complete user \
 application."
 LICENSE = "LGPL-2.1-only"
 
-PV = "4.5.5"
+PV = "4.7.2"
 
-RPM_NAME = "libhamlib4-4.5.5-2.2.aarch64.rpm"
-RPM_HASH = "9138588dfba73049197550e248c5f1a733d4dc5f041697716bc9483ff49cc5fa65b0b1692f5241c5c6cc6fa440825dc8b105b83ed3be029337d63f90bfa0d9c7"
+RPM_NAME = "libhamlib4-4.7.2-1.3.aarch64.rpm"
+RPM_HASH = "f285cb6f458c0fb02262e836ca4a40005b9a6741b25c98a53789b850b5fbe9e27489e75eca73c6fb321b6f87a4c3640ec9c2a2bf76d8d48c5aba5092cd55743c"
 
 RPROVIDES:${PN} += "libhamlib.so.4 \
 libhamlib4"

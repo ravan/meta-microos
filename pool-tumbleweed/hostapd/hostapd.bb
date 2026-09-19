@@ -7,10 +7,10 @@ madwifi, and prism54 drivers. It also supports wired IEEE 802.1X \
 authentication via any ethernet driver."
 LICENSE = "BSD-3-Clause | GPL-2.0-only"
 
-PV = "2.10"
+PV = "2.11"
 
-RPM_NAME = "hostapd-2.10-2.10.aarch64.rpm"
-RPM_HASH = "033e3333d1110f7a980cb730da288da178f058e43132f42766e005b94bc2bd2041c0adfafc9cb08e77994f4aceeba59751aa26a9900f7b1453ba78f40143e77f"
+RPM_NAME = "hostapd-2.11-5.1.aarch64.rpm"
+RPM_HASH = "1fa5ad250a1b1fffaf773b844224f4494dd3e1ab23b2099c0dd289f70b04d665c2f72c0de4eae1dc10f9436ff16b2cf97ae585dc8a5571e77db6e9f8f2197be3"
 
 RPROVIDES:${PN} += "config-hostapd \
 hostapd"

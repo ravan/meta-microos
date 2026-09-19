@@ -1,13 +1,13 @@
-SUMMARY = "Class for Ryerson Unversity Graduate School requirements"
+SUMMARY = "Class for Ryerson University Graduate School requirements"
 DESCRIPTION = "The class offers support for formatting a thesis, dissertation \
 or project according to Ryerson University's School of Graduate \
 Studies thesis formatting regulations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.36svn33945"
+PV = "2026.226.1.36svn76924"
 
-RPM_NAME = "texlive-ryethesis-2023.209.1.36svn33945-54.1.noarch.rpm"
-RPM_HASH = "26ffbf8d25cd3ff528e6191a833e1d0be069d5603530cf9dfb08d3ad755d61904ca09e760fb786fb8e6c6fdecb1acc468b1d332ac45c7547ecc3f0924252cbe7"
+RPM_NAME = "texlive-ryethesis-2026.226.1.36svn76924-60.2.noarch.rpm"
+RPM_HASH = "3d16025eeb7ab61c045069173c97aca64fb4c456d85086c9d64fc15d90e3561af9850e4e0aeba4c696a6d49cdf5ac7c1bf498190eb599ff49b38e11f374224bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ryethesis.cls \

@@ -2,36 +2,38 @@ SUMMARY = "Haskell ghc library development files"
 DESCRIPTION = "This package provides the Haskell ghc library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.6"
+PV = "9.12.4"
 
-RPM_NAME = "ghc-ghc-devel-9.4.6-1.1.aarch64.rpm"
-RPM_HASH = "8770e04e76dad01b2c3a87d97ff0e93a5607fcf3f74c4270ba9ed4946153eaca1095ff116dba8df2c572d158d1248c5cc889714294e6f54bebe80c15e7999226"
+RPM_NAME = "ghc-ghc-devel-9.12.4-1.3.aarch64.rpm"
+RPM_HASH = "e8e77e9392109873ea0552ce05ba37e98ce8b800bacbe06ea1321c00f2b0de776ac5670d29f4b4b84b2cc9d1e614c3c714a4febe750ed5960de6be54ff2292db"
 
-RPROVIDES:${PN} += "ghc-devel-ghc-9.4.6 \
+RPROVIDES:${PN} += "ghc-devel-ghc-9.12.4-ced2 \
 ghc-ghc-devel \
 ghc-ghc-static"
 
 RDEPENDS:${PN} += "ghc-compiler \
-ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-binary-0.8.9.1 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-exceptions-0.10.5 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-ghc-boot-9.4.6 \
-ghc-devel-ghc-heap-9.4.6 \
-ghc-devel-ghci-9.4.6 \
-ghc-devel-hpc-0.6.1.0 \
-ghc-devel-process-1.6.17.0 \
-ghc-devel-stm-2.5.1.0 \
-ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-terminfo-0.4.1.5 \
-ghc-devel-time-1.12.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unix-2.7.3 \
+ghc-devel-array-0.5.8.0-2a42 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-binary-0.8.9.3-9861 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-exceptions-0.10.12-f655 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-ghc-boot-9.12.4-a5b3 \
+ghc-devel-ghc-boot-th-9.12.4-0605 \
+ghc-devel-ghc-heap-9.12.4-167c \
+ghc-devel-ghci-9.12.4-0749 \
+ghc-devel-hpc-0.7.0.2-1e89 \
+ghc-devel-os-string-2.0.10-5320 \
+ghc-devel-process-1.6.26.1-905d \
+ghc-devel-rts-1.0.3 \
+ghc-devel-semaphore-compat-1.0.0-cc95 \
+ghc-devel-stm-2.5.3.1-6d74 \
+ghc-devel-time-1.14-a7dc \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unix-2.8.8.0-178a \
 ghc-ghc"
 
 inherit rpm

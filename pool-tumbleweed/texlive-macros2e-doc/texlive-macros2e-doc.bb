@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-macros2e"
 DESCRIPTION = "This package includes the documentation for texlive-macros2e"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.4asvn64967"
+PV = "2026.226.0.0.4asvn77050"
 
-RPM_NAME = "texlive-macros2e-doc-2023.208.0.0.4asvn64967-53.1.noarch.rpm"
-RPM_HASH = "21f264f1e2e942e9357c5feab5a459170637c95eab8dbaf3583d98094e0385a8f79ad06f442f13d9521526622bc4eb50d370bd92d6b8f7f3a0aed8acfb257158"
+RPM_NAME = "texlive-macros2e-doc-2026.226.0.0.4asvn77050-59.2.noarch.rpm"
+RPM_HASH = "6ff548ad4ea968f392bb209b82a399c768753b92588bd2a374281b7eb8cb02b5d101937b10429c9e0c299b346d8499418059e3712d4e0de22f8794c93198b756"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-macros2e-doc"

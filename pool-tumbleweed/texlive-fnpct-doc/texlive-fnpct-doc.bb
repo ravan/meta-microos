@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fnpct"
 DESCRIPTION = "This package includes the documentation for texlive-fnpct"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn62248"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-fnpct-doc-2023.209.1.1asvn62248-53.1.noarch.rpm"
-RPM_HASH = "ce7ecfd7bc03fdefaa6d4d6e9f5d631ad5fcd6917032876d91570536952acec62f1ea92fde63daaca4e0c3ce01a4885ed3ce04788808a0f09273b45e5654a313"
+RPM_NAME = "texlive-fnpct-doc-2026.226.1.1asvn77682-60.2.noarch.rpm"
+RPM_HASH = "29f573c58d6e25445f2e135806e9cd1ddc63e5092f40546a9c31faf0827708a1f9992a7c36c05982d99b681efc9fb5953ab9409bfd211809c096685eec28c114"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fnpct-doc"

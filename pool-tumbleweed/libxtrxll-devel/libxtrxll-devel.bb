@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.0.0+git.20201202"
 
-RPM_NAME = "libxtrxll-devel-0.0.0+git.20201202-2.7.aarch64.rpm"
-RPM_HASH = "bf473f40f9d874a8fb3667907155dc639956003fc4bb707c69a7587e7c37404e6f528148ae772d07349d19ff763dd606a50a37526c56d68359ce0f1fea62d857"
+RPM_NAME = "libxtrxll-devel-0.0.0+git.20201202-3.9.aarch64.rpm"
+RPM_HASH = "b7ea0055be3c115c1a61f27b0560e9ab70c323ca323ff247f61818c62fc122c0685804baa73ffa31c46bed42056b75b5047623b7b285e2bce2a49849d4297a64"
 
 RPROVIDES:${PN} += "libxtrxll-devel \
 pkgconfig-libxtrxll"

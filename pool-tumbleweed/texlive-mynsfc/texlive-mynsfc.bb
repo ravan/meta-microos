@@ -1,18 +1,18 @@
-SUMMARY = "XeLaTeX template for writing the main body of NSFC proposals"
-DESCRIPTION = "The package provides a XeLaTeX template for writing the main \
-body of National Natural Science Foundation of China (NSFC) \
-proposals, which are allowed to apply online. The package \
-defines styles of the outlines and uses BibLaTeX/biber for the \
-management of references."
+SUMMARY = "A CTeX-based template for writing the main body of NSFC proposals"
+DESCRIPTION = "This package provides a CTeX-based template for writing the \
+main text of National Natural Science Foundation of China \
+(NSFC) proposals. The package defines styles of the outlines \
+and uses BibLaTeX/biber for the management of references."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.30svn60280"
+PV = "2026.226.2.00svn77520"
 
-RPM_NAME = "texlive-mynsfc-2023.209.1.30svn60280-55.1.noarch.rpm"
-RPM_HASH = "ba5b2e293cb414b58ce2b6c2fc93953ffbb6a3aacabb022f4010d327c3733342e27add404e6436b2abaa1b2b338370469a541f08658c7cf4e8eb9af53943b84f"
+RPM_NAME = "texlive-mynsfc-2026.226.2.00svn77520-61.2.noarch.rpm"
+RPM_HASH = "993690e38d8d0409d9827eacb27e2b5ac7488ffe9f5453a3b197c6ca864bc68406e949c565f55fed6319d435b464b7e528494e9a48ada7d0dcac1614a26ea2b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mynsfc.cls \
+tex-mynsfc.def \
 texlive-mynsfc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -23,20 +23,15 @@ grep \
 sed \
 tex-amsmath.sty \
 tex-amssymb.sty \
-tex-calc.sty \
 tex-caption.sty \
 tex-ctexart.cls \
+tex-etoolbox.sty \
 tex-geometry.sty \
 tex-graphicx.sty \
 tex-hyperref.sty \
 tex-kvoptions.sty \
-tex-marvosym.sty \
-tex-paralist.sty \
 tex-subcaption.sty \
-tex-subfig.sty \
-tex-titlesec.sty \
 tex-xcolor.sty \
-tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

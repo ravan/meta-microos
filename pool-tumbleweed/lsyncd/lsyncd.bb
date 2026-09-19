@@ -2,10 +2,10 @@ SUMMARY = "Live Syncing (Mirror) Daemon"
 DESCRIPTION = "Lsyncd (Live Syncing (Mirror) Daemon) uses rsync to synchronize local directories with a remote machine running rsyncd. It watches multiple directory trees through inotify. The first step after adding the watches is to rsync all directories with the remote host, and then the software synchronizes single files by collecting the inotify events. lsyncd is a lightweight live mirror solution that should be easy to install and use while blending well with your system."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.2.3"
+PV = "2.3.1"
 
-RPM_NAME = "lsyncd-2.2.3-3.8.aarch64.rpm"
-RPM_HASH = "89ea23f3911e27b466a706bd8600cce9bfec35ec735197280fe4bb70723c86ae3db5eff449a9975176e48426dce1c99021e00a8f03864b52e19aad8884182a06"
+RPM_NAME = "lsyncd-2.3.1-2.12.aarch64.rpm"
+RPM_HASH = "069556efd45de6c20d078aec3ee6891f4ea253d76ccb2fa8e01cbd8a8e391a3345e23c3d7d6b5f575e62d3b2dcf1176f991bcbadd228da1d8f4abcfb511fed97"
 
 RPROVIDES:${PN} += "config-lsyncd \
 lsyncd"

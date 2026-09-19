@@ -4,10 +4,10 @@ features and a traditional user experience. It's easy to use, \
 powerful and flexible."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
-PV = "5.2.7"
+PV = "6.4.6"
 
-RPM_NAME = "cinnamon-5.2.7-2.8.aarch64.rpm"
-RPM_HASH = "bb7b4b566d47a660442078e2f6fce9dfd022f011cb6e91b1736aad9eb4a448c0fb6a9722ea1a3d4f8384cc44fa72533b9b2af17670b289dd19af06490008c74c"
+RPM_NAME = "cinnamon-6.4.6-3.6.aarch64.rpm"
+RPM_HASH = "9f47b1a00b5c1fbff99151744d460366082fbac75ea62d327c62e3799664dd5d25a0e6c77b9538e657045651d89fa0f8a0caeaae854fb988be8962a316cbf94b"
 
 RPROVIDES:${PN} += "cinnamon \
 cinnamon-2d \
@@ -38,7 +38,7 @@ glib2-tools \
 gnomekbd-tools \
 iso-country-flags-png \
 ld-linux-aarch64.so.1 \
-libGL.so.1 \
+libGLESv2.so.2 \
 libX11.so.6 \
 libXfixes.so.3 \
 libatk-1.0.so.0 \
@@ -46,8 +46,10 @@ libatk-bridge-2.0.so.0 \
 libc.so.6 \
 libcairo.so.2 \
 libcinnamon-desktop-data \
+libcinnamon-desktop.so.4 \
 libcinnamon-menu-3.so.0 \
 libcjs.so.0 \
+libgcr-base-3.so.1 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
@@ -58,14 +60,18 @@ libgstbase-1.0.so.0 \
 libgstreamer-1.0.so.0 \
 libgtk-3.so.0 \
 libm.so.6 \
-libmuffin-clutter-0.so \
-libmuffin-cogl-0.so \
-libmuffin-cogl-pango-0.so \
-libmuffin-cogl-path-0.so \
+libmuffin-clutter-0.so.0 \
+libmuffin-cogl-0.so.0 \
+libmuffin-cogl-pango-0.so.0 \
+libmuffin-cogl-path-0.so.0 \
 libmuffin.so.0 \
+libnm.so.0 \
 libpango-1.0.so.0 \
-libstartup-notification-1.so.0 \
-libxml2.so.2 \
+libpolkit-agent-1.so.0 \
+libpolkit-gobject-1.so.0 \
+libsecret-1.so.0 \
+libxapp.so.1 \
+libxml2.so.16 \
 muffin \
 nemo \
 pkgconfig \
@@ -101,9 +107,13 @@ typelib-GL \
 typelib-GLib \
 typelib-GModule \
 typelib-GObject \
+typelib-GSound \
+typelib-Gck \
+typelib-Gcr \
 typelib-Gdk \
 typelib-GdkPixbuf \
 typelib-Gio \
+typelib-Graphene \
 typelib-Gtk \
 typelib-HarfBuzz \
 typelib-ICal \
@@ -117,6 +127,8 @@ typelib-Nemo \
 typelib-Notify \
 typelib-Pango \
 typelib-PangoCairo \
+typelib-Polkit \
+typelib-PolkitAgent \
 typelib-Soup \
 typelib-TimezoneMap \
 typelib-UPowerGlib \
@@ -126,7 +138,6 @@ typelib-freetype2 \
 typelib-xfixes \
 typelib-xlib \
 update-alternatives \
-v4l-tools \
 wget \
 xdg-user-dirs \
 xdg-user-dirs-gtk"

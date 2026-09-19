@@ -4,10 +4,10 @@ fonts. That bundle also offers support within LaTeX; the \
 present package is to be preferred."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn27389"
+PV = "2026.226.1.1svn27389"
 
-RPM_NAME = "texlive-punk-latex-2023.209.1.1svn27389-54.2.noarch.rpm"
-RPM_HASH = "e4754a3b5c9e3ae55d13f0687c689975b8dfd3aa1c4dbcc1c01da2f82111c8523671cae4d16609f812590a3dc75faeb226b2f5e4b3953eb2d4cf4a636b8d718b"
+RPM_NAME = "texlive-punk-latex-2026.226.1.1svn27389-60.4.noarch.rpm"
+RPM_HASH = "ca63570c780977be5526487e235a5e45ac021110304df08bdc55775b7fdcfcc5215e66946a9c7136c68f815e5ed3638ba594b9229bcd2c509bd2cb3661976d2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ot1pnk.fd \

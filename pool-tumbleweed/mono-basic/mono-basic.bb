@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "4.7"
 
-RPM_NAME = "mono-basic-4.7-2.9.noarch.rpm"
-RPM_HASH = "3c782e4b3d3e0c1b08b9488fbbb2ce3e9709352faea4cd82d8c1b6f73e0b1248858f901b8e174fda4b7da1740f50b5970ae9c84765d146a64842438b77d2ee56"
+RPM_NAME = "mono-basic-4.7-3.6.noarch.rpm"
+RPM_HASH = "e24d7023eff2461a00c49b4e93b4291e2d2f1465663abf779ce8da76a7a940136a38fd8439b3b65c1ae8c6a6e25e9418d8219b433e1e1edc2673050f9ea11e56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-Microsoft.VisualBasic \

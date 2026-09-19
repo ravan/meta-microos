@@ -5,10 +5,10 @@ Breakout clone. Tiled is written in C++, using the Qt application \
 framework."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.2"
+PV = "1.12.2"
 
-RPM_NAME = "tiled-1.10.2-1.1.aarch64.rpm"
-RPM_HASH = "b404116e5e5da36333ad33f2b13e133144b90fc31bb4709584a3fd41efab78e6db039e99ca58f3eae369b6d8b8e7a8d4967a2420c22cfcedb5b815340edab3d8"
+RPM_NAME = "tiled-1.12.2-1.2.aarch64.rpm"
+RPM_HASH = "9bddadc1787b2b9c81ac0fe75eab2a4d8cbf8deef82430aa20e0b00bc7cb587ca0155476b1506fd543cdffc5b94b3f42dfe0232981701893cca1eea1d8a55ecf"
 
 RPROVIDES:${PN} += "libcsv.so \
 libdefold.so \
@@ -20,6 +20,7 @@ libjson.so \
 libjson1.so \
 liblua.so \
 libreplicaisland.so \
+librpd.so \
 librpmap.so \
 libtbin.so \
 libtengine.so \
@@ -43,6 +44,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libz.so.1"
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

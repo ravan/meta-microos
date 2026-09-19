@@ -4,10 +4,10 @@ DESCRIPTION = "cglm is a C99-compatible version of the previous OpenGL Mathemati
 based on the OpenGL Shading Language (GLSL) specifications."
 LICENSE = "MIT"
 
-PV = "0.8.9"
+PV = "0.9.6"
 
-RPM_NAME = "libcglm0-0.8.9-1.4.aarch64.rpm"
-RPM_HASH = "b6cf26ce8757fb4e420480cb52e0a20c275e1d44b88a2a005d5b3af6fa0adbf63a2b91d6e830000975aa634940ce44f1c2388a5fb5854c896900c2d8b4658e7c"
+RPM_NAME = "libcglm0-0.9.6-1.4.aarch64.rpm"
+RPM_HASH = "f10556f234d1be69dea147e899fb553be8a141fd9a800f474e3edfab31e6ae078decb7022927d4c8007991d4f4434f0b25185f4d8edbf0a62796c7eede592c82"
 
 RPROVIDES:${PN} += "libcglm.so.0 \
 libcglm0"

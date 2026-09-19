@@ -6,10 +6,10 @@ This package contains the development headers for the libteam and \
 libteamdctl libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.31"
+PV = "1.32"
 
-RPM_NAME = "libteam-devel-1.31-4.1.aarch64.rpm"
-RPM_HASH = "7bdfb767bb0536edba411faa59dfeb1fe08a2f7488be29af39d46632611f599692bf59b61a92a2c5d1989cc161f7917d695bdc0d15ad798a10d7659b2607d002"
+RPM_NAME = "libteam-devel-1.32-2.10.aarch64.rpm"
+RPM_HASH = "41b5fb74388007b8c59cada7321c1e386d0265b5f44c0bd71df224608f7788fa35429c8d319d6b44f478fec87695608fac49561d3d137950367adeb55ea6a086"
 
 RPROVIDES:${PN} += "libteam-devel \
 pkgconfig-libteam \

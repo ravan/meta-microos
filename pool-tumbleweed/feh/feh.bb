@@ -7,10 +7,10 @@ supports the creation of montages as index prints with many \
 user-configurable options."
 LICENSE = "LGPL-2.0-or-later & MIT"
 
-PV = "3.9.1"
+PV = "3.11.1"
 
-RPM_NAME = "feh-3.9.1-2.3.aarch64.rpm"
-RPM_HASH = "e25fa297f986e28737a1e9462228ac2422b620e48ec5a104c6339fb2340a67b27cfc7bfd69a0d931116a615168f41ece867d89200bb6c8ae23a6c5a0b6b8f972"
+RPM_NAME = "feh-3.11.1-1.7.aarch64.rpm"
+RPM_HASH = "d685eff3279adeb4d89f8c8bf60f3e58dfeca420f878e1b7af71fec38537e4fafda1384fc28af0245df9514bcfa638ac9ede190dffc7b479fc1cecacb94ebaab"
 
 RPROVIDES:${PN} += "feh"
 

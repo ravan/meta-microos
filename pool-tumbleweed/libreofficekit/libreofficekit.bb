@@ -3,10 +3,10 @@ DESCRIPTION = "LibreOfficeKit can be used to access LibreOffice functionality \
 through C/C++, without any need to use UNO."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreofficekit-7.6.1.1-1.1.aarch64.rpm"
-RPM_HASH = "e08a024288a44965fcfad652dfa5117de98ba7280aa7535bd7c10e02c6b6ab42e47286c136b4795715467255237de9fad6312fb3971e591cb8cb81c983c34389"
+RPM_NAME = "libreofficekit-26.8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "8b3016c275b37f24712a7032147a1df6d0eba52a5414b278b053477c4531bf2c5e18b8699f8cabf87745a0f025008f1da55dd2c8ff49343231b0184f3b5e689a"
 
 RPROVIDES:${PN} += "libreofficekit \
 typelib-LOKDocView"

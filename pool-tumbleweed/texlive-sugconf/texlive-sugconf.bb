@@ -5,10 +5,10 @@ The layout produced by the class is based on that published by \
 SAS Institute (2021)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58752"
+PV = "2026.226.svn58752"
 
-RPM_NAME = "texlive-sugconf-2023.209.svn58752-58.1.noarch.rpm"
-RPM_HASH = "285cf707a6a6dbd23cb19b190947d1cc92c76660d69073b7114342e77ac201db129469cd765fa51d8a11a16367def98ac9ff17ad3fe4a66aa60315b728b9e3c5"
+RPM_NAME = "texlive-sugconf-2026.226.svn58752-64.2.noarch.rpm"
+RPM_HASH = "dcc747af259b659ece134919b5420bfd8af781d4a4822d84de0ec26fecee1f04f7f773cd1f483ac33f094cab7ca558cd44dc54bae2c2c6ddff66456016373c31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sugconf.cls \

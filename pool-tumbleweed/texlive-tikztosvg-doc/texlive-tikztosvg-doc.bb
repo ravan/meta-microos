@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikztosvg"
 DESCRIPTION = "This package includes the documentation for texlive-tikztosvg"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.3.0svn60289"
+PV = "2026.226.0.0.3.0svn60289"
 
-RPM_NAME = "texlive-tikztosvg-doc-2023.209.0.0.3.0svn60289-53.1.noarch.rpm"
-RPM_HASH = "5d1c5233347af7c877c591345bf6bf805eb11efe8eb85c3a9e0872268d9de9087d767a6ff502d0b72357b1c668221fba3b9f05d822b25c64aa010638921358bb"
+RPM_NAME = "texlive-tikztosvg-doc-2026.226.0.0.3.0svn60289-59.2.noarch.rpm"
+RPM_HASH = "0d87c5d01d7ed04bcd6a69bb45231c2ac9f800ca05ddf2eb76e0642a7766eff96562f8d0a6f8060092588b91929c2f6559e3a6dcdbbdb9da24fb4bf6b67e569d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-tikztosvg.1 \

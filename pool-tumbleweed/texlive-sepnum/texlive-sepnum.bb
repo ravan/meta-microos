@@ -8,10 +8,10 @@ configurable). The macro is fully expandable and not fragile \
 macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn20186"
+PV = "2026.226.2.0svn20186"
 
-RPM_NAME = "texlive-sepnum-2023.209.2.0svn20186-54.1.noarch.rpm"
-RPM_HASH = "0a7988c55475544e632e3dc08d2ae4bb66b0b39b51220096ca122e8df0c127d2b89a638f63ff9dd2b607932f0722cf4a58f701307ee76480102866177e1c0c86"
+RPM_NAME = "texlive-sepnum-2026.226.2.0svn20186-60.2.noarch.rpm"
+RPM_HASH = "4e1a04ed2e04c550b229930133228cce3e1ed6a883092dfdca3d0bfe222c5b1d76ad0376b6d4b5b00814a56613c8c7d64385c6f452cf5251d3a8914f1b504ade"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sepnum.sty \

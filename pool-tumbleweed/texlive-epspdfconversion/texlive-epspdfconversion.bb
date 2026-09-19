@@ -5,10 +5,10 @@ conversion options (such as grayscale, prepress or pdfversion) \
 to the epspdf converter."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.61svn18703"
+PV = "2026.226.0.0.61svn18703"
 
-RPM_NAME = "texlive-epspdfconversion-2023.209.0.0.61svn18703-54.2.noarch.rpm"
-RPM_HASH = "0cfeba188629fffcd9a93f3bb1c340afc3616d0240deaf21d81094e3ef95271d8cca835c1a6d3c1c046f914c11412632d82c9b25e886c0ed844e05f031fa9f9c"
+RPM_NAME = "texlive-epspdfconversion-2026.226.0.0.61svn18703-61.4.noarch.rpm"
+RPM_HASH = "542da2181a7a6c4365064a58b49f263beffb50b142e6334c56f4f48019351cd393059f6091e5f606b8b330264e5fbedf2eb051774425e0a2a4594c2d5f146506"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epspdfconversion.sty \

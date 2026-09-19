@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-devel-tcl-devel_tcl-20170319-2.11.aarch64.rpm"
-RPM_HASH = "6e25ecd66e73ded8c5e7df99ae9fba622837d4ab72f445155d121f83436391e81a11133ddec2017ce6698300f8cad6faf9c0b9e375ff8c49fc4b9b3bfabcea52"
+RPM_NAME = "patterns-devel-tcl-devel_tcl-20170319-2.19.aarch64.rpm"
+RPM_HASH = "04e04781e26c5b49564d0265646ae646ece20187918d44ec35c8024f6f58f6a361de058e3dcd46e7b39d3c2a6a660ea7f9c159659b407bf252e746b3a61ffe37"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

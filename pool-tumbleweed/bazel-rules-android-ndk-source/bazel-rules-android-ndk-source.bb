@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20220902"
 
-RPM_NAME = "bazel-rules-android-ndk-source-20220902-1.1.noarch.rpm"
-RPM_HASH = "c11e207fbaf16e63894dce2524c77c93fd4615f682f7112b9a283e3e582eb9c0ae4f85bb65419f50c6e2ed6aea5bb64f49d27bca5bff2dae30ac0ecad97870a8"
+RPM_NAME = "bazel-rules-android-ndk-source-20220902-1.9.noarch.rpm"
+RPM_HASH = "a27b5e2c03401c503072c08f2fd49cf5a7af8dd278586f2a812780e692ed394ce97f6f9da8bb0e63d0e62698be6142ea9726d8ac4193ac3c5c6f704e3f2944f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-android-ndk-source"

@@ -21,8 +21,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.10"
 
-RPM_NAME = "glyrc-1.0.10-3.9.aarch64.rpm"
-RPM_HASH = "3cfbec80487b47a63dd69a39c94d118c477421120803e79374ba81d46c84bb68dcbbbece43663a6d5ffc42cdec50e34b0b3f8b423a8377914bddad2f6865b9c1"
+RPM_NAME = "glyrc-1.0.10-5.4.aarch64.rpm"
+RPM_HASH = "4805d3d30fde3ace1b0b78f8cd419784505d9071a855d085d0623622816d2cffabe501536f38f65b663fd2051bdbd5347cac3f34e5b35a574dc8dda9a5ee7c4d"
 
 RPROVIDES:${PN} += "glyr \
 glyrc"

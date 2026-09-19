@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.05"
 
-RPM_NAME = "perl-ExtUtils-Typemaps-Default-1.05-3.26.noarch.rpm"
-RPM_HASH = "88db5c93e6c100da7a81f860ac69b8c1f9240ef7ef2b77e68e75a6c9101ebf8559864106e1fd03c4fb0d99ee58a0089f9ef0250a7e1304f819eaf96486dc7f4c"
+RPM_NAME = "perl-ExtUtils-Typemaps-Default-1.05-3.40.noarch.rpm"
+RPM_HASH = "96066588d2d38e09212a2402614d7f030fbb6d94d80a6d8e6f9045624432d3fae2d68fefaacc379239376f47fbfdd561fa31d0f24ba66bd81e3e95e04ec0e6fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-ExtUtils--Typemap--Basic \
@@ -30,7 +30,7 @@ perl-ExtUtils--Typemaps--STL--String \
 perl-ExtUtils--Typemaps--STL--Vector \
 perl-ExtUtils-Typemaps-Default"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-ExtUtils--Typemaps"
 
 inherit rpm

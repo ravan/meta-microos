@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cm-unicode"
 DESCRIPTION = "This package includes the documentation for texlive-cm-unicode"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.7.0svn58661"
+PV = "2026.226.0.0.7.0svn58661"
 
-RPM_NAME = "texlive-cm-unicode-doc-2023.209.0.0.7.0svn58661-54.1.noarch.rpm"
-RPM_HASH = "356a69c0ba7da94c389d95ff1b1b0b2b54269826ccc4d8e6a4cdb71cdd635a16570cbea480907a52fa3dc96a11c169b5389c7999fc9d710ea7c5e237763e2a7c"
+RPM_NAME = "texlive-cm-unicode-doc-2026.226.0.0.7.0svn58661-60.2.noarch.rpm"
+RPM_HASH = "974e7d2186ad62538ad5b010d521146915d251b97456707552bde1f91b31d2385e577c7b009746f0092316b4380efc885333ba0db5f710d89774ad95caff85e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cm-unicode-doc"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3"
 
-RPM_NAME = "uom-parent-1.3-1.19.noarch.rpm"
-RPM_HASH = "7e6f14be3245972391fbd5c2e23ada786eda05778f27547994be31a2648d2abf84df7b1afcd8dbef4e12fd20db2df98a8189ef0dd392a70a805a4ab08084f8d6"
+RPM_NAME = "uom-parent-1.3-1.27.noarch.rpm"
+RPM_HASH = "6f4a6e6a2a51ddc3d18ec204962cc7b63fb8a38f9551e0160ad5958ee1ebe8a357e4ecf5521f90445ec3cbc51c8265705b0e205a1104dd7b6f9c3c652f21444b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-tech.uom-uom-parent-pom- \

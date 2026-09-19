@@ -1,11 +1,12 @@
 SUMMARY = "Really Slick Screensavers Port to GLX"
-DESCRIPTION = "Cool collection of 3D screensavers. Linux port of Really Slick Screensavers"
+DESCRIPTION = "Cool collection of 3D screensavers. Linux port of Really Slick Screensavers - \
+Web's most visually exciting collection of original, open-source screensavers."
 LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "rss-glx-0.9.1-23.11.aarch64.rpm"
-RPM_HASH = "387413e82290d1dcb461ee0aafc3785ad0cd9e7a15d9a66816c6ccac0c1701e74e6b5681a0f2952b9be531f7ce3eef1120acadc9308761728b72b2925d97740d"
+RPM_NAME = "rss-glx-0.9.1-26.4.aarch64.rpm"
+RPM_HASH = "290cf7a3b2b6c80cc058024b67398b19cf9e9199035c21cdd98143247908ccb05c06d4494a41aede8623c548b844f5ed9e47b766fba563cbb934d7619370f34f"
 
 RPROVIDES:${PN} += "config-rss-glx \
 libImplicit.so.0 \
@@ -14,6 +15,7 @@ librsMath.so.0 \
 rss-glx"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/env \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libGLU.so.1 \

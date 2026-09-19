@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.5"
 
-RPM_NAME = "swtcalendar-0.5-3.7.noarch.rpm"
-RPM_HASH = "14e1ead821d2360dab3fb96ba0b3b353e40d0cb4558b4be8e8f8c1c4c1860dc218cb6d584e94531f101fd0eb3ebe0e2456f2ee1688fdb7ee7cb63b04b62bb082"
+RPM_NAME = "swtcalendar-0.5-4.6.noarch.rpm"
+RPM_HASH = "f42bfc1441ce66b186ee7c06ef97b8d8c22a0519bc01aebb138b8abfd6158dc7ccc50e8efc12f263f8e674aa651d0aa72a5023ef08c4af8a095da633807eba08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swtcalendar"

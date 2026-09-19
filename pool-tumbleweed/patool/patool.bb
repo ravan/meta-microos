@@ -14,17 +14,18 @@ RPM (.rpm), RAR (.rar), TAR (.tar), XZ (.xz), and ZIP (.zip, .jar) formats. \
 It relies on helper applications to handle those archive formats."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.12"
+PV = "4.1.0"
 
-RPM_NAME = "patool-1.12-2.7.noarch.rpm"
-RPM_HASH = "94d0e2db387e9dc03677e59e9ecf49b04504821e90b5fd6c045100cc37c62c52c74140fe746e234cb6cb052c53a91541092528e639b64a9ddef28c1430779725"
+RPM_NAME = "patool-4.1.0-1.1.noarch.rpm"
+RPM_HASH = "2b123ba7fd54cfa09528305814ab8bfbf1c070e76ccb6f9b9c8a23a9ed2b085e32bc79b55b1f8a60db368a0fbfb2ed64c9b24ddb5db7aad6a99583ea92208ecf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "patool \
-python3.11dist-patool \
+patool-bash-completion \
+python3.13dist-patool \
 python3dist-patool"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi"
 
 inherit rpm

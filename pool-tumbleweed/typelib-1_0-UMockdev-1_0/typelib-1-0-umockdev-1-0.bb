@@ -6,10 +6,10 @@ This package provides the GObject Introspection bindings for the library \
 umockdev."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.17.17"
+PV = "0.19.7"
 
-RPM_NAME = "typelib-1_0-UMockdev-1_0-0.17.17-1.2.aarch64.rpm"
-RPM_HASH = "1f944d049bd13b7c0d4ede1d442fcb241d0c10937533fbfe49eedda25735161b244d8fb9b4b6999d10bd20efac72ed345779eaa3fb6b304f593cf7988b099e5e"
+RPM_NAME = "typelib-1_0-UMockdev-1_0-0.19.7-1.4.aarch64.rpm"
+RPM_HASH = "26a95d6e10f950378873aaf2974781ab8a06fa83c1384eaf99a53633a0642a29980dbe656065ec36b7c5668a25b68e190a3014fd33587195b847ad746d838c40"
 
 RPROVIDES:${PN} += "typelib-1-0-UMockdev-1-0 \
 typelib-UMockdev"

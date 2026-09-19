@@ -3,10 +3,10 @@ DESCRIPTION = "Guice is a dependency injection framework for Java 5 \
 and above. This package provides Bill of Materials module for Guice."
 LICENSE = "Apache-2.0"
 
-PV = "5.1.0"
+PV = "6.0.0"
 
-RPM_NAME = "guice-bom-5.1.0-1.2.noarch.rpm"
-RPM_HASH = "4b6a2fc428e13a07c10bfc8be440bc8eb36e3f52a4911f274fd6fbb4fed2b82d97f1379055af36d7de29ba3bbd3ff330966efdf8b331ed9b21bdf8a2b650c78c"
+RPM_NAME = "guice-bom-6.0.0-3.6.noarch.rpm"
+RPM_HASH = "fbe2b167eb4e8e206890fb3bcb9f0e39ef0ccb848216b6e86f7d89e8b75d4eb7befcb4223c849407843efb44718adad98dc153c7aa8292d5b7b8e09570f9b0b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-bom \

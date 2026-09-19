@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-stringenc"
 DESCRIPTION = "This package includes the documentation for texlive-stringenc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.12svn52982"
+PV = "2026.226.1.12svn77682"
 
-RPM_NAME = "texlive-stringenc-doc-2023.209.1.12svn52982-58.1.noarch.rpm"
-RPM_HASH = "8216ea65cf5be2c9eb9a4595163447b4975b7403a25c73495e5d075ed2d8091c9b238d7108f3a8a1c4b600915bf6be0fae20b8b4898f181c6594b0cd603c223f"
+RPM_NAME = "texlive-stringenc-doc-2026.226.1.12svn77682-64.2.noarch.rpm"
+RPM_HASH = "9de3d0eb0492b1e491967c5be86c858c0cfc6dfdd270dacbba53b8467acd9915f769859af707cc799556d2093e15cbb920ac2a9e5b6292e166bd569e95485af5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stringenc-doc"

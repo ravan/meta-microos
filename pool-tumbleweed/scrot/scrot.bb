@@ -3,21 +3,21 @@ DESCRIPTION = "A nice and straightforward screen capture utility implementing \
 the dynamic loaders of imlib2."
 LICENSE = "SUSE-Scrot"
 
-PV = "1.8.1"
+PV = "1.12.1"
 
-RPM_NAME = "scrot-1.8.1-1.2.aarch64.rpm"
-RPM_HASH = "8ae0e3f23bb7b74b33c090d297c16c441695b30bca3fc3cb7105351805e5b3d4ed52516d594f1d9bebf58c05809de5fcfbabc14162b76bd4fc82f7b20294e51c"
+RPM_NAME = "scrot-1.12.1-2.4.aarch64.rpm"
+RPM_HASH = "a64df5be1d638929e1af15917d677265d55b47d6260278de4bf50fc4351343a623c60ceec2fa578a5392f0e4dd44aa9e9b2ee6e2d7770a3422deb4c9716e26b2"
 
 RPROVIDES:${PN} += "scrot"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "imlib2 \
+ld-linux-aarch64.so.1 \
 libImlib2.so.1 \
 libX11.so.6 \
 libXcomposite.so.1 \
 libXext.so.6 \
 libXfixes.so.3 \
 libXinerama.so.1 \
-libbsd.so.0 \
 libc.so.6"
 
 inherit rpm

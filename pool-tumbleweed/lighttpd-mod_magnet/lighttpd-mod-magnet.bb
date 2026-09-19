@@ -4,18 +4,19 @@ DESCRIPTION = "A module to control the request handling in lighttpd. \
 It is the successor of mod_cml."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.71"
+PV = "1.4.85"
 
-RPM_NAME = "lighttpd-mod_magnet-1.4.71-1.2.aarch64.rpm"
-RPM_HASH = "3dee7aa3fe22549b3a375d5796064be398e0882a5dd0949b71b19315778d846a456788bd643dadf8a4ce1d34e897751d8c72a7d85f2c04de5dabbc297a3e8449"
+RPM_NAME = "lighttpd-mod_magnet-1.4.85-1.2.aarch64.rpm"
+RPM_HASH = "a75ff3eeaeac58eb36faf8e4c79d3a504d0ddf66e37b6c5216154161f2387040c3d528183253b5b4b7ae79ff3760e8577694c25eda176843816cb0177f14a232"
 
 RPROVIDES:${PN} += "config-lighttpd-mod-magnet \
 lighttpd-mod-magnet"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "group-lighttpd \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcrypto.so.3 \
-liblua5.1.so.5 \
+liblua5.4.so.5 \
+libnettle.so.8 \
 lighttpd"
 
 inherit rpm

@@ -4,10 +4,10 @@ insights into a website's visitors and marketing campaigns, so the \
 strategy and online experience of visitors may be optimized."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.15.1"
+PV = "5.13.0"
 
-RPM_NAME = "matomo-4.15.1-1.1.noarch.rpm"
-RPM_HASH = "7ee2da3ec1bb3679d6a5d28946a5231b6a539a5e1fa89e06d8b26ee6648665a49cabf4ddeb53192822114f624dfb669b3e5040cc6f6607efbf6ebe9335208a81"
+RPM_NAME = "matomo-5.13.0-1.1.noarch.rpm"
+RPM_HASH = "d70acb5ed8ecabb5861eb00d4d3e59e30c0978d072a59134ade595cac8eae6f5b93d4819a9996678e76b7a9a92bf822d53b6cc1c46dbd034f0695beba8fd1b02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-matomo \

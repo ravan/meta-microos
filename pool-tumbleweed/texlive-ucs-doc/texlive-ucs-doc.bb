@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ucs"
 DESCRIPTION = "This package includes the documentation for texlive-ucs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn64114"
+PV = "2026.226.2.4svn78101"
 
-RPM_NAME = "texlive-ucs-doc-2023.209.2.3svn64114-54.1.noarch.rpm"
-RPM_HASH = "1b1db7669f1b0aab7ea2fc5d979498363508b4b0d2b4066c2423dc52761495afcefcb5c1421ff62e663923c84f65e25b1b24d6830e05fa93e437fbaa38345af6"
+RPM_NAME = "texlive-ucs-doc-2026.226.2.4svn78101-60.2.noarch.rpm"
+RPM_HASH = "b68e04b716fd7b8c57382a364cc168793ef3ecd115c69d8bdecc25ce791a2cf2c98e3f1b7ff94f1180dd1d4773607949b87b04dab471f51c9bc5053fcbbe71c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ucs-doc"

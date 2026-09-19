@@ -9,10 +9,10 @@ package wasy-type1. Support under LaTeX is provided by Axel \
 Kielhorn's wasysym package."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.5svn53533"
+PV = "2026.226.2.5svn53533"
 
-RPM_NAME = "texlive-wasy-2023.209.2.5svn53533-54.1.noarch.rpm"
-RPM_HASH = "b6ea55e25b16d4e576d81f3be59e65510634f304c0608a8f36e1ffbb863434a55851bf43481e1c3a22e6b45273e1f0315d6455d41a052f12ee647a5dc138216f"
+RPM_NAME = "texlive-wasy-2026.226.2.5svn53533-60.2.noarch.rpm"
+RPM_HASH = "39808001974554dfaa1c9500a26c471caa4fdebee55ec34541fac2a0fcb5ed7c4d0361ed72383f0ad19ef4a276c0d9a3173d2f9760aadfc29f5ea189784ff286"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wasy10.tfm \

@@ -49,16 +49,16 @@ itself. This means that if you provide several different error messages for \
 the same feature, all of those errors will appear."
 LICENSE = "Artistic-2.0"
 
-PV = "0.18"
+PV = "0.180.0"
 
-RPM_NAME = "perl-Package-DeprecationManager-0.18-1.3.noarch.rpm"
-RPM_HASH = "e0a448474716db4d774cd0fcf09cbd9e2c6b77c12ea5e7e8d804e8fa2ed8f41bc008f5ecb3e834e793936d07b343442ab1c5141fc8c86d2281ada451259a8f74"
+RPM_NAME = "perl-Package-DeprecationManager-0.180.0-1.7.noarch.rpm"
+RPM_HASH = "589b5ee5cbbae6e07c41aab0ec325f690591d2f08f4a8917c480ca32b59b5c5802a4d41a1f142459156a1ba91871fc8c240083d104b8908f88fb854f439b2325"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Package--DeprecationManager \
 perl-Package-DeprecationManager"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-List--Util \
 perl-Package--Stash \
 perl-Params--Util \

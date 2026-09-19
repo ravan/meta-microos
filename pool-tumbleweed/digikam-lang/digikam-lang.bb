@@ -2,10 +2,10 @@ SUMMARY = "Translations for package digikam"
 DESCRIPTION = "Provides translations for the 'digikam' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.1.0"
+PV = "9.1.0"
 
-RPM_NAME = "digikam-lang-8.1.0-2.1.noarch.rpm"
-RPM_HASH = "d1e34e5cf56d01129f9dfef0ba493e6cf67216a3910506578d3628ff22ecce068ca1be1a3faacb567bb91deba3dba4ea7fd39e645f0bb140cd4ff3a2e0ca5374"
+RPM_NAME = "digikam-lang-9.1.0-1.2.noarch.rpm"
+RPM_HASH = "fc820c949a0f500b1f66daa539579367e62590cc9b6233229ec1478c1210cebd863b8ce62fd1bcde63ee9c5dd79f557b92432f6d08eee4cc1949b7ef1f3e6c47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "digikam-lang \

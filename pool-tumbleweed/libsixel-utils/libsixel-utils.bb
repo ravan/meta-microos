@@ -2,10 +2,10 @@ SUMMARY = "Utilities for the SIXEL encoder/decoder libsixel"
 DESCRIPTION = "img2sixel and sixel2png utilities for libsixel, a C encoder/decoder implementation for DEC SIXEL graphics."
 LICENSE = "MIT"
 
-PV = "1.10.3"
+PV = "1.10.5"
 
-RPM_NAME = "libsixel-utils-1.10.3-1.8.aarch64.rpm"
-RPM_HASH = "7c230abcf27f9c82b758ae3cad065ad23995916d5f031bbf0ba90b3105bbcf9c32c5bfd1e3ae7193196b8d2d908ccb7960c2fdfb3dcc098ef26241552e47a765"
+RPM_NAME = "libsixel-utils-1.10.5-2.7.aarch64.rpm"
+RPM_HASH = "bc423b5094c69c363240aaf9b03ad1a63b5eefda2a41788f580353455f532bd82d08c8badc9a0b3ab9b0197874a507ac511cabfcd7786a7f97efe172561c7972"
 
 RPROVIDES:${PN} += "libsixel-utils"
 

@@ -2,10 +2,10 @@ SUMMARY = "Libao output plugin for the C* Music Player"
 DESCRIPTION = "This package provides libao output support for the C* Music Player."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "cmus-plugin-libao-2.10.0-2.1.aarch64.rpm"
-RPM_HASH = "11a1fee6c0036e79988938114587dde08003b7f504c499e81f038e28229b989b3fdab04cdfec5ae4d4e7e12025ea561ef278d6760729942984d8b45f703c48bb"
+RPM_NAME = "cmus-plugin-libao-2.12.0-3.6.aarch64.rpm"
+RPM_HASH = "7bb7cfc807244f7cf4a79da290bff912bce3f161f5ab1302f002ca623d8475e4131ec395ddc24528a447900f2d3cb9180f5dfa71c294467a9599f6c302c17ae6"
 
 RPROVIDES:${PN} += "cmus-plugin-libao"
 

@@ -2,10 +2,10 @@ SUMMARY = "Monospace terminal fonts from Microsoft"
 DESCRIPTION = "Cascadia Code is a monospaced font that was designed also with Visual Studio / Visual Studio Code in mind."
 LICENSE = "OFL-1.1"
 
-PV = "2102.25"
+PV = "2407.24"
 
-RPM_NAME = "saja-cascadia-code-fonts-2102.25-1.7.noarch.rpm"
-RPM_HASH = "86dbdeb340f1e07a5ded333b046f184e982c67429d98e7fb99a1b2568915a3fe493f0284efb8c3b67c68f7643843307e188683c10b044e35715e224f2b13ddf2"
+RPM_NAME = "saja-cascadia-code-fonts-2407.24-1.4.noarch.rpm"
+RPM_HASH = "2a41dd092b2a9c70911b972c42d0ac0b8e30eea9ddc431fc139c2317680fbe4f564588bc6752c04f1393973272cd57847cfd0f15ef20ae7e70ef1f1168a89077"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saja-cascadia-code-fonts"

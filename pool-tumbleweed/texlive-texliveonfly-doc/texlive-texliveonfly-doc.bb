@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-texliveonfly"
 DESCRIPTION = "This package includes the documentation for texlive-texliveonfly"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn55777"
+PV = "2026.227.svn76924"
 
-RPM_NAME = "texlive-texliveonfly-doc-2023.209.svn55777-55.1.noarch.rpm"
-RPM_HASH = "e1d87e707be3f34d55ef205dd27588addce1152a53ccd2f258e7639312a5f40b59766e68a31d3db420758b69cf858c7505bc59a31f6ac39a414b5553cfa32c5e"
+RPM_NAME = "texlive-texliveonfly-doc-2026.227.svn76924-62.2.noarch.rpm"
+RPM_HASH = "3a926293f53534575694f725e4a6edd6b555becebab046a31539ad81470a3ac82cc8acd093d89dfe98df0404b7333c294eaef9295f6ac01aa63beff06bd23d1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texliveonfly-doc"

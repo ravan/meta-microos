@@ -10,10 +10,10 @@ Some of its features include: \
  * Sandboxed applications support."
 LICENSE = "MIT"
 
-PV = "0.3.79"
+PV = "1.6.8"
 
-RPM_NAME = "pipewire-0.3.79-1.2.aarch64.rpm"
-RPM_HASH = "9247f60746d12a02027e5d3d1f3a094d7551c202fc532f153406d7365d2535b905cbbf7c2928fe0df878e0afcd96ba7b15d3acd791bdbca4859a15e04f9821e0"
+RPM_NAME = "pipewire-1.6.8-2.1.aarch64.rpm"
+RPM_HASH = "81e7d66d2045ae401030173e98110766d2ff9bcb904188e88197b07a547daae5b3de1040da768e5d8c38209bc37ac755de438f2a027992287a17d72163b493e1"
 
 RPROVIDES:${PN} += "pipewire"
 

@@ -1,12 +1,12 @@
 SUMMARY = "Test programs for ScaLAPACK (openmpi4)"
 DESCRIPTION = "This packages contains some test programs for ScaLAPACK compiled against \
 openmpi4."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "2.1.0"
+PV = "2.2.2"
 
-RPM_NAME = "scalapack-openmpi4-test-2.1.0-9.12.aarch64.rpm"
-RPM_HASH = "e80e1cbbb1b4cba8c9c8ea0ef20d99495d33a333ff54065a3c3dc4d273afb2df41ab3757902cddbf6e1b61f8219002adf8d01ecd48a1106eebf4bcbac47ba5d1"
+RPM_NAME = "scalapack-openmpi4-test-2.2.2-1.3.aarch64.rpm"
+RPM_HASH = "0c0c3c64270631d3fb77a02b1fb9745e7456255b32646476711f224e8130e7cdf83352e3c980aeb8486a48f8811c54721e079eb2d41843d1f9e686a6dabe3cac"
 
 RPROVIDES:${PN} += "scalapack-openmpi4-test"
 

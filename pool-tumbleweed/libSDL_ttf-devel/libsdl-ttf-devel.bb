@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "2.0.11"
 
-RPM_NAME = "libSDL_ttf-devel-2.0.11-7.26.aarch64.rpm"
-RPM_HASH = "55ddf17d60f1546e31a7e4d5cc0dc30b1bc7bac23f9c210e1de74a19269ffe44262e804a3de8fb111b035ad77674db16c51d0025f2c602f43163b8f818c99c78"
+RPM_NAME = "libSDL_ttf-devel-2.0.11-7.35.aarch64.rpm"
+RPM_HASH = "0e75c235c6b2c2e86685e1b3d0fe172fba3b1c3378953fb271c3a798d12fe69d21e3fbbc936f38b762478bae0ce3f0d84951975dc0453441f19a82ef49465c8b"
 
 RPROVIDES:${PN} += "SDL-ttf-devel \
 libSDL-ttf-devel \

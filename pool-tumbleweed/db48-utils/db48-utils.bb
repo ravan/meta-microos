@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & Sleepycat"
 
 PV = "4.8.30"
 
-RPM_NAME = "db48-utils-4.8.30-42.1.aarch64.rpm"
-RPM_HASH = "4a02d79103079e1e34e5d3f9736213e0a75a6911bb695f7182297f08d94c843acfdecacf4b75aef97b7359c3bc1808270a6496c5ed89b5a17fbdbf37774ef835"
+RPM_NAME = "db48-utils-4.8.30-48.3.aarch64.rpm"
+RPM_HASH = "be8d2852d9c93cc0599a454d993f297ab04db435655d50efdd36c8c0509a5045f015abaa7d08b4f0410de6ad1e931ba651bb76758c9fc4385cecbba92ebbc801"
 
 RPROVIDES:${PN} += "db-utils \
 db48-utils"

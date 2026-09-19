@@ -5,10 +5,10 @@ there is more than one bold tt-family font set, the version \
 required is selected by a package option."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn17076"
+PV = "2026.226.0.0.1svn78101"
 
-RPM_NAME = "texlive-bold-extra-2023.209.0.0.1svn17076-53.1.noarch.rpm"
-RPM_HASH = "9712d55d01ff90b06817cda3f431f0c706f96e47cf89bcd63164f77e4b307f7bc5e05e56559452a185b251e60072532a39245053e02fa6e9774a6e91ab387f18"
+RPM_NAME = "texlive-bold-extra-2026.226.0.0.1svn78101-59.2.noarch.rpm"
+RPM_HASH = "46986c8445ddb7418e002c5339e1cb6deb6d956b28b8d40e3dce5b466a63d9855d7d729c2e72c18c75db8d7d07ab456680d68a61205ac0e109779e372c300e28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bold-extra.sty \

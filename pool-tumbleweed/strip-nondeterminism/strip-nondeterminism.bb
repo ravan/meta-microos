@@ -10,10 +10,10 @@ strip-nondeterminism contains the File::StripNondeterminism Perl module, \
 and the strip-nondeterminism command line utility."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.13.1"
+PV = "1.15.0"
 
-RPM_NAME = "strip-nondeterminism-1.13.1-1.2.noarch.rpm"
-RPM_HASH = "292edf157731af23cfdf0d7933dca94126dae4f9b341b01c316b7862e5c7a55f77902534591c4ebd6aee95d473d0d0d823ac4e486662e5748c0c75a7a292817b"
+RPM_NAME = "strip-nondeterminism-1.15.0-1.5.noarch.rpm"
+RPM_HASH = "21eec1ecf9f72578446c43daffe47baa2ae251ea7951f9aeaa17bf2436734c8a3178b52fdbdd9b0b8a50e94281e33fb17fd377ae885fbe61aaabd52864210c88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--StripNondeterminism \
@@ -36,9 +36,8 @@ strip-nondeterminism"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Archive--Zip \
-perl-Sub--Override \
 perl-base"
 
 inherit rpm

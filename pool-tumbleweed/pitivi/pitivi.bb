@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2023.03"
 
-RPM_NAME = "pitivi-2023.03-1.2.aarch64.rpm"
-RPM_HASH = "58fea6277fd754f7e58db2eeead0ec0b076636e6702f305c2d07fb9142ff6f1a285b6d40d0d6fecc27d3bf75a925e6ca7ba93f89c1fdb4f0a8acd7786b8988dc"
+RPM_NAME = "pitivi-2023.03-3.2.aarch64.rpm"
+RPM_HASH = "42ff8a11f9dd4d49b227fd15657cbfd90915a8177342633877d5200ffafa7e0da2c3e499cdf7c260693112545e150ab5556a26445c7d00249e33dbde15e33ee3"
 
 RPROVIDES:${PN} += "pitivi"
 
@@ -23,7 +23,7 @@ libcairo.so.2 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgstreamer-1.0.so.0 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 python3-cairo \
 python3-gobject \
 python3-gst \

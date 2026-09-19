@@ -3,10 +3,10 @@ DESCRIPTION = "Macros and Type 1 fonts for Typesetting the Cherokee language \
 with the Omega version of LaTeX (known as Lambda)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25689"
+PV = "2026.226.svn25689"
 
-RPM_NAME = "texlive-ocherokee-2023.209.svn25689-55.1.noarch.rpm"
-RPM_HASH = "1f550a7d5c817af068d5c78af5b1ef77a3694a3537d0abbafc1017d836fcc14a88ee3db4eeec67f41c5c39bca569e0f82199f348767dfaf7bd00fd6b0d555aec"
+RPM_NAME = "texlive-ocherokee-2026.226.svn25689-61.2.noarch.rpm"
+RPM_HASH = "d064bfa912d5b550927f5ad0e318e12d024e06d676bc17dee7646af69d1550779d8655767650705163e3da9e4d5716a8e040d41637dcb9c5651b09e4237080f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Cherokee.tfm \

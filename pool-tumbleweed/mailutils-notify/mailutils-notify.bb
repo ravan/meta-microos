@@ -3,10 +3,10 @@ DESCRIPTION = "Comsatd is the server which receives reports of incoming mail and
 notifies users wishing to get this service."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.16"
+PV = "3.21"
 
-RPM_NAME = "mailutils-notify-3.16-1.3.aarch64.rpm"
-RPM_HASH = "dac81d04416872d1e8019a657c4fd090d6a8aa0da09505a74f13f51a71913ca429410a8d66bb00d68902b3f755d247d35d57de697d333da2441576ea3305846b"
+RPM_NAME = "mailutils-notify-3.21-1.6.aarch64.rpm"
+RPM_HASH = "6923e89a1820894dc59772d5be6f8030a3cec40e7e5a85e499a65d459c1216ce7dbb319e5a7cf1c121d03999bb41a77ae4ef7f0694fe1e359ba04dc3c262ba3d"
 
 RPROVIDES:${PN} += "mailutils-notify"
 

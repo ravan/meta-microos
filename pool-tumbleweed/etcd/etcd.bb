@@ -1,6 +1,6 @@
-SUMMARY = "Highly-available key value store for configuration and service discovery"
-DESCRIPTION = "etcd is a distributed, consistent key-value store for shared configuration and \
-service discovery, with a focus on being: \
+SUMMARY = "Reliable key-value store for the most critical data of a distributed system"
+DESCRIPTION = "etcd is a distributed reliable key-value store for the most critical data of a \
+distributed system, with a focus on being: \
  \
 - Simple: well-defined, user-facing API (gRPC) \
 - Secure: automatic TLS with optional client cert authentication \
@@ -8,17 +8,21 @@ service discovery, with a focus on being: \
 - Reliable: properly distributed using Raft"
 LICENSE = "Apache-2.0"
 
-PV = "3.5.9"
+PV = "3.7.1"
 
-RPM_NAME = "etcd-3.5.9-1.2.aarch64.rpm"
-RPM_HASH = "f171514c7104f7303ffd53dd52cb679310d546afcbb6a45fad65bd3a5d840e35cc636f7b1d597da2b4e606721f1125b14031c5db9c0f94d9c9bbc38922306f9b"
+RPM_NAME = "etcd-3.7.1-1.2.aarch64.rpm"
+RPM_HASH = "e945474109cf43ddf76f3b0e2e9580d00dc3f1e0da67542b695b7af2c47674d9b8f1b0586b73a230ad69798f64b5fb1b2f10b5d38d444dc8983649a6bcf8874d"
 
-RPROVIDES:${PN} += "etcd"
+RPROVIDES:${PN} += "config-etcd \
+etcd \
+group-etcd \
+user-etcd"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \
 fillup \
+libc.so.6 \
 sysuser-shadow"
 
 inherit rpm

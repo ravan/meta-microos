@@ -2,16 +2,16 @@ SUMMARY = "YaST2 - Update"
 DESCRIPTION = "Use this component if you wish to update your system."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "5.0.2"
 
-RPM_NAME = "yast2-update-4.6.1-1.1.aarch64.rpm"
-RPM_HASH = "f1c67d0871a14fe6a8699b8590e57ed340f8753e6bac219986e630b5e3afca97f6c4701cfad2a09b4255ba4fd9b011426c72610e0fc3e4d97bcb620d7d941f45"
+RPM_NAME = "yast2-update-5.0.2-1.2.aarch64.rpm"
+RPM_HASH = "82f2c4a192bfaba389f7875d48fc368e03830107c67a7fb1300f873d73893fabf93f7957263aab746006bbedf39674b2c676940a6152e7a362105a052ef1f628"
 
 RPROVIDES:${PN} += "yast2-installation-/usr/share/YaST2/clients/vendor.ycp \
 yast2-update"
 
 RDEPENDS:${PN} += "pigz \
-rubygem-ruby-3.2.0-nokogiri \
+rubygem-ruby-4.0.0-nokogiri \
 yast2 \
 yast2-installation \
 yast2-packager \

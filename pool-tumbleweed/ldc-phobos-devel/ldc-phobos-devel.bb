@@ -3,14 +3,14 @@ DESCRIPTION = "This package contains the Phobos development files necessary for 
 with LDC."
 LICENSE = "Artistic-1.0 & BSD-3-Clause"
 
-PV = "1.32.2"
+PV = "1.42.0"
 
-RPM_NAME = "ldc-phobos-devel-1.32.2-1.1.aarch64.rpm"
-RPM_HASH = "ffd49a17b9f95aee75f7f442a2b3b833fee77463b56bd101dba686cf1b29d3a077d3024b0015ce45117071e224d97fb9442ecea5a5ae81179627c67354c1625e"
+RPM_NAME = "ldc-phobos-devel-1.42.0-1.3.aarch64.rpm"
+RPM_HASH = "dbead76a10bfc9c8ff3b5da5783a2d242e3ee8be5ea2e5c473c0ba554c132e5cadd0bae29e5442ebcd5dd0870073558460a209dfe4b70a3bb1f40da68fdbd597"
 
 RPROVIDES:${PN} += "ldc-phobos-devel"
 
 RDEPENDS:${PN} += "ldc-runtime-devel \
-libphobos2-ldc102"
+libphobos2-ldc112"
 
 inherit rpm

@@ -7,10 +7,10 @@ arithmetic extensions if they are available (they are, in most \
 modern distributions)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn53409"
+PV = "2026.226.2.1svn77682"
 
-RPM_NAME = "texlive-widetable-2023.209.2.1svn53409-54.1.noarch.rpm"
-RPM_HASH = "a9de4f61740da21c780c15fe0f8946cc4f5508e19f6b74c618262be4bd199beb2129b1f5917c5774e898e4a799fa55204c7d080ac9e63d2698750872f57b0cc4"
+RPM_NAME = "texlive-widetable-2026.226.2.1svn77682-60.2.noarch.rpm"
+RPM_HASH = "244027ff92279ae9e17c492523b320bd5098f5a4bab9ca2d4106d823809db46b667359e6509310219de78ce8700c880b8d5c112954e8f49029a0bf78218ea2f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-widetable.sty \

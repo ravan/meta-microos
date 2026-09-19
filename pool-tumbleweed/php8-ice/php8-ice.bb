@@ -4,10 +4,10 @@ learn or use the C language, since the functionality is exposed as \
 PHP classes."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.10.1"
+PV = "1.11.0"
 
-RPM_NAME = "php8-ice-1.10.1-8.1.aarch64.rpm"
-RPM_HASH = "78441b9cbdd3869afe2bae1b7ece2cafdf3c83141d6612de4ce63e619cefac9d8b0082620b5005360d645f654a7a65a7d798f449353781493ec38c421e526537"
+RPM_NAME = "php8-ice-1.11.0-2.5.aarch64.rpm"
+RPM_HASH = "9302c989a28591adfcc778855daf3f4e4f81b48c0bc24ba990f195f0e1686f870104c60fbdb4aa83fe25a530470c4d7e726b0eea57c049c7f9fc91dd861b30a8"
 
 RPROVIDES:${PN} += "config-php8-ice \
 php8-ice"

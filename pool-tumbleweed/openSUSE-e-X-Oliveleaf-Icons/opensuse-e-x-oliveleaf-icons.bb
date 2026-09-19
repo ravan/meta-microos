@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "20220219.1.26"
 
-RPM_NAME = "openSUSE-e-X-Oliveleaf-Icons-20220219.1.26-1.12.noarch.rpm"
-RPM_HASH = "d94b2e339ab43822a53f7022d8ce521417a6a6aeb4496f8ba8184e51f3114429571a7e6620a008cc54b9af4a7be57fd4556ed8c05b04652b5c4782b0bfaabb13"
+RPM_NAME = "openSUSE-e-X-Oliveleaf-Icons-20220219.1.26-2.2.noarch.rpm"
+RPM_HASH = "fb7b08cac3f2ded73752e79293eb9db37353816c817a8e6072b4d510fb784baeaf1f75ace4e392ab6bb52e85866a106f7305c0fd3dbbf83aaa83f9a0d574b0f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openSUSE-e-X-Oliveleaf-Icons"

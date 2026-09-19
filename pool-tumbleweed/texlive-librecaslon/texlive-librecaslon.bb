@@ -5,10 +5,10 @@ work well as conventional text fonts. An artificially generated \
 BoldItalic variant has been added."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64432"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-librecaslon-2023.209.svn64432-55.1.noarch.rpm"
-RPM_HASH = "9f5fd51f251b8771499bf90eebf31ec6a2a43ff9bc3ece487a7bc4f560744b481ba744cbb5f6787b9dc2a65d124eeb470cba65e3fa38b0d9419373569b02ad64"
+RPM_NAME = "texlive-librecaslon-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "9c3983a90df906b7e44c9ca4986a29ea7b08e1073ccc3ca7e39c2bf4d0082948bf48b2113fe28673785b366ed92eda2ed91e6d0952dd57ea4e514757c1557a83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1LibreCsln-Inf.fd \

@@ -4,10 +4,10 @@ extensible abstraction for dealing with different spell checking \
 libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.2.15"
+PV = "2.8.19"
 
-RPM_NAME = "enchant-2-backend-voikko-2.2.15-3.4.aarch64.rpm"
-RPM_HASH = "4e4c8919e03c7ad1622e83fb18cc3c8554cedf464852202a9bc66e091a9220ee742dbabb766737719ba204f35a19e97a43953ab69d0f405130d07160e1236949"
+RPM_NAME = "enchant-2-backend-voikko-2.8.19-1.1.aarch64.rpm"
+RPM_HASH = "4bfed8865834b352cb3e766e83f3a09422c6c394082c6708716302bec75e7676eaadee9d8395c57533b4614eaf66869bc2c33090c21b1766692812393b7a49b3"
 
 RPROVIDES:${PN} += "enchant-2-backend \
 enchant-2-backend-voikko \
@@ -16,6 +16,7 @@ locale-libenchant-2-2-fi"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libenchant-2.so.2 \
+libglib-2.0.so.0 \
 libvoikko.so.1"
 
 inherit rpm

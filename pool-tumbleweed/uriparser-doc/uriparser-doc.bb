@@ -2,13 +2,14 @@ SUMMARY = "Documentation files for the uriparser URI parsing library"
 DESCRIPTION = "uriparser is a strictly RFC 3986 compliant URI parsing library \
 and supports Unicode. \
  \
-This subpackage contains the documentation for uriparser."
+ \
+This package contains the documentation for uriparser."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.7"
+PV = "1.0.2"
 
-RPM_NAME = "uriparser-doc-0.9.7-1.4.aarch64.rpm"
-RPM_HASH = "7e0a1c45ca0db425390034c3049bda3a0da06a9c250a65634d288f1fa148d5884c7f6c41d07df364d884166c764eb0568f8d77a7848ed9b5f0ea0005a8b23428"
+RPM_NAME = "uriparser-doc-1.0.2-2.1.aarch64.rpm"
+RPM_HASH = "e440e48be505250b80f8e75d3c5cc4b266b23209a111e22c61fdfac7c5c160409de5ed98178767aaa551f25ae79466f6bb9798b835b6315fb4e94d7af404780d"
 
 RPROVIDES:${PN} += "uriparser-doc"
 

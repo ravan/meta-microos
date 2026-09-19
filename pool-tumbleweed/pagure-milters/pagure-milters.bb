@@ -3,10 +3,10 @@ DESCRIPTION = "Milters (Mail filters) allowing the integration of pagure and ema
 This is useful for example to allow commenting on a ticket by email."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.13.3"
+PV = "5.14.1"
 
-RPM_NAME = "pagure-milters-5.13.3-1.5.noarch.rpm"
-RPM_HASH = "e64854c94dfda8166fc1ae5ce40c868c4ed994223aa031b6e0a646b0ee781ce8c1ef49825b7f9256de8358f1cfe352a507da6d57e7604983ad684c358daa3b3f"
+RPM_NAME = "pagure-milters-5.14.1-3.3.noarch.rpm"
+RPM_HASH = "004a29bf436b8366a8789853eea8c0cad717d28c84234ba684cee0fddb0f025b9de0da7b321d6557bb64628846f57b0bd363eee55397a6c3a36a2ebcca42cee7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-milters"

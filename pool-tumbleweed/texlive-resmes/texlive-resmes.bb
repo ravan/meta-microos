@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a simple macro \\resmes that prints the \
 measure restriction symbol."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn65375"
+PV = "2026.226.1.0svn65375"
 
-RPM_NAME = "texlive-resmes-2023.209.1.0svn65375-54.2.noarch.rpm"
-RPM_HASH = "0fec57931b14665e3f4d13bc3abc5145b6edb2d362340ce48dfdf74b9edb9c84702ecd491b6b13a2b227a63ab557e80d4077b056e2f6466e93c443da41ecb794"
+RPM_NAME = "texlive-resmes-2026.226.1.0svn65375-60.4.noarch.rpm"
+RPM_HASH = "a1cc9d905769ced05d1c5a828d328f7e210d9d05d47f23f2b245a430682492530646cc3d58ad10c17c36389eb9920f5c1cdf645c92967b57831d6dd68c06d18d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-resmes.sty \

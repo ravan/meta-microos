@@ -3,10 +3,10 @@ DESCRIPTION = "This package adds support for Evolution Calendar, such as appoint
 into GNOME Shell calendar."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
-PV = "44.4"
+PV = "50.4"
 
-RPM_NAME = "gnome-shell-calendar-44.4-1.1.aarch64.rpm"
-RPM_HASH = "6f6b457baaaee2ba9257bae575ee7cc62df59f7fd86487c36e577ce5cba205a4225bd220e8fe9dd868150518813cc4c2d2f66718b381e57d451f1026b872fd23"
+RPM_NAME = "gnome-shell-calendar-50.4-1.1.aarch64.rpm"
+RPM_HASH = "d5baf570fcaa7c6a82dc7dee0348d0758cf9774159d554b8242dd2709c2ec14c62e5e40e06307abfeeac0ec991288d5df0f9b41344059aa483e26030da3af04c"
 
 RPROVIDES:${PN} += "gnome-shell-calendar"
 
@@ -14,7 +14,7 @@ RDEPENDS:${PN} += "evolution-data-server \
 gnome-shell \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libecal-2.0.so.2 \
+libecal-2.0.so.3 \
 libedataserver-1.2.so.27 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \

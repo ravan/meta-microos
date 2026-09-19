@@ -2,26 +2,24 @@ SUMMARY = "Mesa OpenCL implementation (Rusticl)"
 DESCRIPTION = "This package contains the Mesa Rust-written OpenCL implementation."
 LICENSE = "MIT"
 
-PV = "23.1.7"
+PV = "26.2.2"
 
-RPM_NAME = "Mesa-libRusticlOpenCL-23.1.7-357.1.aarch64.rpm"
-RPM_HASH = "85832d46370b751c1d263f948ebd55b86802665022627e5f08c894b9f0660bff575b6feb53041076430e8bc428852a965f2565706a3bb04f4b5a0227a4e6a5fe"
+RPM_NAME = "Mesa-libRusticlOpenCL-26.2.2-2.1.aarch64.rpm"
+RPM_HASH = "a0f249b2fa54b7f7ee0f6467a03ab3185599b8efd72b4cc3cccaab6931d269e014e36c3c35418032d42168b2476b98c4c0d297e7117e7a027d81443a22623edb"
 
 RPROVIDES:${PN} += "Mesa-libRusticlOpenCL \
 libRusticlOpenCL.so.1"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libLLVM.so.16 \
-libLLVMSPIRVLib.so.16 \
-libSPIRV-Tools-2023.4~rc2.so \
-libSPIRV-Tools-link-2023.4~rc2.so \
-libSPIRV-Tools-opt-2023.4~rc2.so \
+libLLVM.so.23.1 \
+libLLVMSPIRVLib.so.23.1 \
+libSPIRV-Tools-2026.3~rc1.so \
+libSPIRV-Tools-link-2026.3~rc1.so \
+libSPIRV-Tools-opt-2026.3~rc1.so \
 libc.so.6 \
-libclang-cpp.so.16 \
-libclc-llvm16 \
+libclang-cpp.so.23.1 \
+libclc-llvm23 \
 libdrm-amdgpu.so.1 \
-libdrm-nouveau.so.2 \
-libdrm-radeon.so.1 \
 libdrm.so.2 \
 libelf.so.1 \
 libexpat.so.1 \

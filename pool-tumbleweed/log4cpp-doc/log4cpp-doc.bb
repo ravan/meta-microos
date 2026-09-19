@@ -3,10 +3,10 @@ DESCRIPTION = "The log4cpp-doc package contains HTML formatted API documention g
 the popular doxygen documentation generation tool."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.1.3"
+PV = "1.1.6"
 
-RPM_NAME = "log4cpp-doc-1.1.3-2.20.noarch.rpm"
-RPM_HASH = "cf8410f4451c6a12ec302ea48807fdafd825b5f614db1d7e3735a6d385cfdd2c011953cce8af6277bf05c0f7ff2a02f8749599e5ffd1c304391a52dff6437d0d"
+RPM_NAME = "log4cpp-doc-1.1.6-1.4.noarch.rpm"
+RPM_HASH = "a4fa95e5dac3035ce4d17c81ff13db25b072cb8ed6bdc5998d979112851b2b8b3926adc4c3931f182bb0b3743e1c0117aa0e0a2d5271de0376da1532be94184d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4cpp-doc"

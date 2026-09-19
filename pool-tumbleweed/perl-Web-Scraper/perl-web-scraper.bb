@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.38"
 
-RPM_NAME = "perl-Web-Scraper-0.38-1.11.noarch.rpm"
-RPM_HASH = "be85f110f2002254163ab0693dd51aa03cf8cb137bae9da8d4789f23ab573430f7b62bd7ce63c7d35358a6d216246cc345c5b5bb2fffe414cd555b4221226df3"
+RPM_NAME = "perl-Web-Scraper-0.38-1.25.noarch.rpm"
+RPM_HASH = "4fc49bc8d0bc03653bcd4df5401b47c42d8196d0e89990be9dd3035f34841f6e27d08f2e022033afa47c42e921552de21036dbfedcbdbfd7d3844a9a3b9013d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Web--Scraper \
@@ -19,7 +19,7 @@ perl-Web--Scraper--Filter \
 perl-Web--Scraper--LibXML \
 perl-Web-Scraper"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTML--Entities \
 perl-HTML--Selector--XPath \
 perl-HTML--Tagset \

@@ -22,10 +22,10 @@ Please note that 'Dumbbench' works entirely with wallclock time as reported \
 by 'Time::HiRes'' 'time()' function."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.503"
+PV = "0.505.0"
 
-RPM_NAME = "perl-Dumbbench-0.503-1.8.noarch.rpm"
-RPM_HASH = "23712fe15e7ec486b273084690595c37db6747315c0bef36101b13f8845b61a65788eec383a1d0cb4cb37a0dfe5d4829912309798d528233e55ceb158af9fc18"
+RPM_NAME = "perl-Dumbbench-0.505.0-1.10.noarch.rpm"
+RPM_HASH = "518ac31cfe77b0cd1a5f3ca966b6a03e7b52666dedee7b29f428b21e4d99e0debdd53ef9e899b738787d9d991cc1331acb6c1e9e34754ec1597a8af1e48af96b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Benchmark--Dumb \
@@ -40,7 +40,7 @@ perl-Dumbbench--Result \
 perl-Dumbbench--Stats"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Capture--Tiny \
 perl-Class--XSAccessor \
 perl-Devel--CheckOS \

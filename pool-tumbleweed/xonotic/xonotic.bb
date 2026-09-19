@@ -1,13 +1,16 @@
 SUMMARY = "Fast-paced first person shooter"
-DESCRIPTION = "Fast-paced first-person shooter that works on Windows, OS X and Linux. The project is geared towards providing addictive arena shooter gameplay which is all spawned and driven by the community itself. Being a direct successor of the Nexuiz project with years of development between them, and it aims to become the best possible open-source FPS (first-person-shooter) of its kind."
+DESCRIPTION = "Fast-paced first-person shooter. It provides arena shooter gameplay \
+and is a direct successor of the Nexuiz project."
 LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.6"
 
-RPM_NAME = "xonotic-0.8.6-1.1.aarch64.rpm"
-RPM_HASH = "fb2c88142f14456932e2e4ad391f51bdfc62f2184507805d1b829d8aceb094ac21830d700ce2b10c1bddfa31a19f421f8c4a13f929a17bf694bf54614b276307"
+RPM_NAME = "xonotic-0.8.6-6.8.aarch64.rpm"
+RPM_HASH = "c45010878fd87257f927b0bcb9d66cb615ca80dd8023901e5f2ad30d9762ce6756641b7842df94709946199222be833806fac069758d0d2138878da22adcc8bd"
 
-RPROVIDES:${PN} += "xonotic"
+RPROVIDES:${PN} += "group-xonotic \
+user-xonotic \
+xonotic"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \

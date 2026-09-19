@@ -29,17 +29,17 @@ You can make INS and DEL the same operation in a simple way: \
  1) give both the same cost \
  2) change the output string DEL to INS/DEL (o whatever) \
  3) change the output string INS to INS/DEL (o whatever)"
-LICENSE = "GPL-2.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.02"
+PV = "0.20.0"
 
-RPM_NAME = "perl-Text-Brew-0.02-3.28.noarch.rpm"
-RPM_HASH = "964281ac67cf0da4489d93360bac8640e210fd9d2f633729bb9c6e9e36d86f8dab3efc474dbe90ff2e200053eecc5dc5409fdb45844547b9f2d71f47152fad7c"
+RPM_NAME = "perl-Text-Brew-0.20.0-1.5.noarch.rpm"
+RPM_HASH = "665e6a10fdd698aa5d37f2156eccaa542fd5139166c8a555c56734d4268fcf3a6e002c7abe54c4f2f9ac909ad4e1eb15065c8b4691e5214653e2296e2561632f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Brew \
 perl-Text-Brew"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

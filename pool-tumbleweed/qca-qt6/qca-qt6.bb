@@ -8,10 +8,10 @@ It can be extended by further plug-ins, for example, with qca-sasl for \
 SASL support."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.7"
+PV = "2.3.12"
 
-RPM_NAME = "qca-qt6-2.3.7-1.1.aarch64.rpm"
-RPM_HASH = "0da70639f7112aebc696f2a5a4c81dcdb109001fe381c5bd1d51039bc95098a581cc6bd2e83be9027abf1b2786ef32c4c0ac2d836db97d074cf7100f8c10e143"
+RPM_NAME = "qca-qt6-2.3.12-1.1.aarch64.rpm"
+RPM_HASH = "6e06f02f9f62453a967b0ee3e90d0b09b1d6f74a7abaec361dbc05e1b6692e6ca109d515acbafebe894c2f0e03d8976766ef7aa7fa6c55070ac188d5d47dc1ea"
 
 RPROVIDES:${PN} += "libqca-gcrypt.so \
 libqca-gnupg.so \

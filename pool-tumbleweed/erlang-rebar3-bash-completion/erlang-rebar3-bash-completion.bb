@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for erlang-rebar3"
 DESCRIPTION = "The official bash completion script for rebar3."
 LICENSE = "Apache-2.0"
 
-PV = "3.18.0"
+PV = "3.23.0"
 
-RPM_NAME = "erlang-rebar3-bash-completion-3.18.0-1.2.noarch.rpm"
-RPM_HASH = "d635d9fd03c1f19f3579eb361a1b929bad5a1c6a9a72dcf57c9962eddc379f0490e1c85923463311585bf0a48bea010fc5cf275b6002dcb900100040ee2776ab"
+RPM_NAME = "erlang-rebar3-bash-completion-3.23.0-2.9.noarch.rpm"
+RPM_HASH = "119ca64eafda76702be9875e83bc5053962a49d28de66a05da06580acba0b0e7d0a9e34ada0092cc593e00eb864b0ad5eecf09c3e791a7d6fd807948e10fe068"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "erlang-rebar3-bash-completion"

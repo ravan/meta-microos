@@ -1,15 +1,17 @@
 SUMMARY = "Gregorian calendar date calculations"
-DESCRIPTION = "* * \
+DESCRIPTION = "  * 'use Date::Calc qw( Days_in_Year Days_in_Month ... );' \
  \
-  'use Date::Calc qw( Days_in_Year Days_in_Month ... );' \
+  * 'use Date::Calc qw(:all);' \
  \
-* *"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+You can either specify the functions you want to import explicitly by \
+enumerating them between the parentheses of the ''qw()'' operator, or you \
+can use the '':all'' tag instead to import *ALL* available functions."
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.4"
+PV = "6.400.0"
 
-RPM_NAME = "perl-Date-Calc-6.4-2.3.noarch.rpm"
-RPM_HASH = "365f1f5f407e5ba68df1be8c7020911a0a4a1281640dfcf02773f54db7e7ed4fc969af62045b0d2938f99caad3c5728757766c6842535383fd432e5ebba8302d"
+RPM_NAME = "perl-Date-Calc-6.400.0-1.9.noarch.rpm"
+RPM_HASH = "8a6261d5f8bfd4030f67aeedd789a023c10a797ef2c6b3c0a6269f554a61df35f4754f87065a2dac7598bf0c5943311e56fd527016e39a2bba4c8c81b301d693"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Date--Calc \
@@ -20,7 +22,7 @@ perl-Date--Calendar--Profiles \
 perl-Date--Calendar--Year \
 perl-Date-Calc"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Bit--Vector \
 perl-Carp--Clan"
 

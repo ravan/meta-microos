@@ -3,22 +3,22 @@ DESCRIPTION = "This package adds Zeroconf support to KIO, allowing the use of th
 in all applications that are using KIO."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdnssd-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "2e514a12969c8c9dc25bac82f7a6eb5283955162dd0eea174c40dda007f4d31fdc825b70d4bcd6e3ced228dd70e56eb3c99ab34656e91db65d269549a92b6316"
+RPM_NAME = "kdnssd-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "60bf1581b9af86ce2d2b011cbb0226545c808279500c30d92763db21554eef1f3bd73b09540a18f671205d7b25309e6c954341fbf90383e74881d6f5430f220a"
 
 RPROVIDES:${PN} += "kdnssd"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5DNSSD.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
+libKF6CoreAddons.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6DNSSD.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

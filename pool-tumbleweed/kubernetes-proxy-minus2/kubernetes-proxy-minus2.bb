@@ -2,13 +2,13 @@ SUMMARY = "Kubernetes proxy for container image"
 DESCRIPTION = "This subpackage contains the kube-proxy binary for Kubic images"
 LICENSE = "Apache-2.0"
 
-PV = "1.25.12"
+PV = "1.35.8"
 
-RPM_NAME = "kubernetes-proxy-minus2-1.25.12-34.1.aarch64.rpm"
-RPM_HASH = "738f68f451e400b4a66b197fe123bc11d79cbbc31799f3f8fc53eb4dd1f6b7a281e206c01962a43711a7de74613ca72f117fb1d82d0a061a2c6f27b38a5fd413"
+RPM_NAME = "kubernetes-proxy-minus2-1.35.8-72.1.aarch64.rpm"
+RPM_HASH = "d3f2a7c8d41da649757919b78f73d54e879b476725e4c90755678c5db97f5eac256fb585cde8be09cffcb962a0be14c0c6d3b2508816a135aa9bdcda4f84ebaf"
 
 RPROVIDES:${PN} += "kubernetes-proxy-minus2"
 
-RDEPENDS:${PN} += "kubernetes1.25-proxy"
+RDEPENDS:${PN} += "kubernetes1.35-proxy"
 
 inherit rpm

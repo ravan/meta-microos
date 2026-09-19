@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-eucl"
 DESCRIPTION = "This package includes the documentation for texlive-pst-eucl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.75svn56474"
+PV = "2026.226.1.77svn77682"
 
-RPM_NAME = "texlive-pst-eucl-doc-2023.209.1.75svn56474-53.1.noarch.rpm"
-RPM_HASH = "feb0457b9fe9a92c161cd23833229bb6db5f6b96f37182a0d91fceaf08109ef68e727ebd1d532c677a78ca852cc95a629144c9167b7b7060672ed39e7ab3c78b"
+RPM_NAME = "texlive-pst-eucl-doc-2026.226.1.77svn77682-59.2.noarch.rpm"
+RPM_HASH = "7d996283a240c3c8ebce9eaad2d380a2d7b0724bfff19369d5acedb4e7e7ab38c1af21d27766f9066d030d39fa93f46635b719ecc203d0ab22910105a0a76b23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-eucl-doc-en \

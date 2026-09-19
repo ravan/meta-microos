@@ -2,14 +2,20 @@ SUMMARY = "A tool for inspecting low-level hardening characteristics of ELF bina
 DESCRIPTION = "This package contains a Perl script that allows checking \
 a number of hardening characteristics of ELF binaries. \
  \
-This includes checks for PIE executables, stack protection, source \
-fortification, read-only relocations and immediate binding."
-LICENSE = "GPL-2.0+"
+This includes checks for: \
+ \
+- PIE executables \
+- stack protection \
+- source fortification macros \
+- read-only relocations \
+- immediate binding \
+- branch protection"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "2.6"
+PV = "2.25.19"
 
-RPM_NAME = "hardening-check-2.6-3.19.aarch64.rpm"
-RPM_HASH = "d862bcb595de4e72bd23634ae6fd2d517e95e3c19ef3c4802a0ecb3d1c71333620f44dc5041cb2f7de9059ad9feed97c1f6eb8bd0d3ef9347a31c04e7b9d774d"
+RPM_NAME = "hardening-check-2.25.19-1.4.aarch64.rpm"
+RPM_HASH = "46fc1fef1a26f36fcafb4bbbdd9e1483e7f9580dcd9bcf06cb35273283893b82b8c3002197bc4aa06b5fa91d3f32a83f2312f14dee28580709d55479d4dd898f"
 
 RPROVIDES:${PN} += "hardening-check"
 

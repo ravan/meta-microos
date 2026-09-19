@@ -10,20 +10,20 @@ preserves enough information to 'Spread' (copy data and scripts to their \
 final locations) at any later time."
 LICENSE = "MIT"
 
-PV = "0.41.2"
+PV = "0.48.0"
 
-RPM_NAME = "python311-wheel-0.41.2-2.1.noarch.rpm"
-RPM_HASH = "1c1bbb5901df1645b51512dde6fd54ac5c3ebec815e99514c8de6cc95e4a783750c3c5c45868e671bf7e6164287e112fc0dbb4b1b3f027a1906390f9ae6166be"
+RPM_NAME = "python311-wheel-0.48.0-1.1.noarch.rpm"
+RPM_HASH = "f549e97d2b276e7efc89e89217dc6c90f9b692e8816e445577fd881c0cc92563fcf1ccb75963e4258d10ef693bfd0618a7d6f82da8d5429d48ae104871ac59ef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wheel \
-python3.11dist-wheel \
+RPROVIDES:${PN} += "python3.11dist-wheel \
 python311-wheel \
 python3dist-wheel"
 
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 alts \
-python-abi"
+python-abi \
+python311-packaging"
 
 inherit rpm

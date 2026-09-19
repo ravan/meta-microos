@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.6.4"
 
-RPM_NAME = "xf86-input-joystick-1.6.4-1.3.aarch64.rpm"
-RPM_HASH = "fe44a64ea54b180f6b10d7695d26d04187463fb82d83867026f68d07953d32111518d8406f86aaeb472533931a861e1b0738fe6747a1bd77dd793e926e0fd36a"
+RPM_NAME = "xf86-input-joystick-1.6.4-1.13.aarch64.rpm"
+RPM_HASH = "900ba02ace2b3555e211e2e118823ac0a2cb4571797fa5e820abadd00628c8c0614cccaacaa9e2e4849d91c71a81473d192eeb0570fa994f03954f153daa5be0"
 
 RPROVIDES:${PN} += "xf86-input-joystick"
 

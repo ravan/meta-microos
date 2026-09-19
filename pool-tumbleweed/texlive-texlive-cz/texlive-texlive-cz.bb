@@ -2,10 +2,10 @@ SUMMARY = "TeX Live manual (Czech/Slovak)"
 DESCRIPTION = "The texlive-cz package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn62854"
+PV = "2026.227.svn77067"
 
-RPM_NAME = "texlive-texlive-cz-2023.209.svn62854-55.1.noarch.rpm"
-RPM_HASH = "4bd8c0760be77ddffcf78568a1633d2b85d043f4f49baf02d7818b094b65153fefa3ae1d11690dfec3f80f3090610ae29756a6896404d7bb84a81024d58feb4e"
+RPM_NAME = "texlive-texlive-cz-2026.227.svn77067-62.2.noarch.rpm"
+RPM_HASH = "0e230ed42115f1330c50c68be54a72dc7fdefa6925bfb147c8de5e422d3b6ae433025dca4f7393630e03cbdb8cec0d83f393cddd78bcd06ce707614c5843bc1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlive-cz"

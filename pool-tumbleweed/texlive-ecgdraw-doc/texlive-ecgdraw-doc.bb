@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ecgdraw"
 DESCRIPTION = "This package includes the documentation for texlive-ecgdraw"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn41617"
+PV = "2026.226.0.0.1svn76130"
 
-RPM_NAME = "texlive-ecgdraw-doc-2023.209.0.0.1svn41617-54.2.noarch.rpm"
-RPM_HASH = "638e15f1960cd8dcd66b2285be7e58ff1bc966fc9a1b3bb954d0515dd7269b84ba754bf399fde13e2cdcbbe42e5ab030023001965b3880f3a8101cf3c8b5810c"
+RPM_NAME = "texlive-ecgdraw-doc-2026.226.0.0.1svn76130-61.4.noarch.rpm"
+RPM_HASH = "897e5cf5172feb281b50d24d2c0298e64e9e26b8c933ca1ff0b4978af91b432bd5c22fae8883c7a63d0b27c1bbb805baffcb2eeb998738da7329414e38f1b7c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ecgdraw-doc-it \

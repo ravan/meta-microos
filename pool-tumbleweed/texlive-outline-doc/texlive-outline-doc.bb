@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-outline"
 DESCRIPTION = "This package includes the documentation for texlive-outline"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn18360"
+PV = "2026.226.svn18360"
 
-RPM_NAME = "texlive-outline-doc-2023.209.svn18360-55.1.noarch.rpm"
-RPM_HASH = "feae699e76f3a553dd215e3f12acfec27f090ef45f535884445c6a85f4ab4709fb2eadc04d342d020cceca4cff46d053a67082ba3d473299d5803ec169a14e01"
+RPM_NAME = "texlive-outline-doc-2026.226.svn18360-61.2.noarch.rpm"
+RPM_HASH = "4327fb3ced8bdfe4fc613641a4cf3bbc9e5e0dc42ee5efa9521e909bc12243093fd0b90747df635966275c4e017a0b7faae4c3ec33ced9ed30516aa5994910b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-outline-doc"

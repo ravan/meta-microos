@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-glossaries-nynorsk"
 DESCRIPTION = "This package includes the documentation for texlive-glossaries-nynorsk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn55189"
+PV = "2026.226.1.0svn67201"
 
-RPM_NAME = "texlive-glossaries-nynorsk-doc-2023.209.1.0svn55189-54.2.noarch.rpm"
-RPM_HASH = "88cc5a922b83a8c1f756206323c70997ba44bf487400717e95d2f555b3e7a19c1b7ecdc6e46f1cb5214b2134276a07698bae4394e2940bcda56a79076b788d87"
+RPM_NAME = "texlive-glossaries-nynorsk-doc-2026.226.1.0svn67201-60.4.noarch.rpm"
+RPM_HASH = "b04212ca62e2dc5a81f352a7d6a5267073e38076140557dafc8b5480ba301ace65b9ba8c235e5dbb4854e396e17c410ed88594521d23ad374b4905ed72abb2a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-nynorsk-doc"

@@ -28,14 +28,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.1.0"
 
-RPM_NAME = "perl-Export-Attrs-0.1.0-1.22.noarch.rpm"
-RPM_HASH = "8ae5adf1cd12b6a8b8d0a97a94502fd8df6c4e5b35283162bc21b4365d6d536821c25c958e3e2f3c47bfa9d8a45514ff8a79920d5c71834f303346a237305dcd"
+RPM_NAME = "perl-Export-Attrs-0.1.0-1.36.noarch.rpm"
+RPM_HASH = "52862d11083d1dc10573bb019bb22e62444691a19a9596b869a4c4463e3e16188e2b9834de85ac02c6ab5b4bb9da65e441ce5c0bc78558149c49df41f181296c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Export--Attrs \
 perl-Export-Attrs"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-PadWalker"
 
 inherit rpm

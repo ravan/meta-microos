@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.8s"
 
-RPM_NAME = "mingetty-1.0.8s-24.2.aarch64.rpm"
-RPM_HASH = "168e3c33c2fee52efdf5de86575154b0e779b9220469df6a118a6d9c94b3031a2caf4969b9fb1565a8e4d77007dc6ddcdd6fcca4226407a784c511c607c10dbd"
+RPM_NAME = "mingetty-1.0.8s-25.9.aarch64.rpm"
+RPM_HASH = "58c4e663e511778fa3a44220dac3c39157cd038b033c1cde0e087668c55d505c0dfc65028bf1d827e93e755fdcff7e8931c11e65290a71fe0158d3cb2d19c3f2"
 
 RPROVIDES:${PN} += "mingetty \
 sysvinit-/sbin/mingetty"

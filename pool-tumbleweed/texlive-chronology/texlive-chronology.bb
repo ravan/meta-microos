@@ -5,10 +5,10 @@ unit specification, adjustable tick mark step size, and scaling \
 to specified width."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.1svn37934"
+PV = "2026.226.2.0svn67973"
 
-RPM_NAME = "texlive-chronology-2023.209.1.1.1svn37934-54.1.noarch.rpm"
-RPM_HASH = "50fc5034811ec53eff350e11d238722946213148822ee28c403cb98038ee6fa89b20c7df610dee18f519af34f48cea85f36fb69195e10aab85124437a494ea62"
+RPM_NAME = "texlive-chronology-2026.226.2.0svn67973-60.2.noarch.rpm"
+RPM_HASH = "d844b2f51093c60258ddf6219794c8af72a984edb7696bf03b64bffd3f07fced15acf2452c0fe7d6edda48515e067c4cfc4d6c93cde99094c2c5e03102b85510"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chronology.sty \

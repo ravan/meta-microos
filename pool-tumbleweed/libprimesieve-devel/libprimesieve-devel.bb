@@ -4,16 +4,16 @@ files for developing applications that use the primesieve library. \
 It also contains the API documentation of the library."
 LICENSE = "BSD-2-Clause"
 
-PV = "11.1"
+PV = "12.15"
 
-RPM_NAME = "libprimesieve-devel-11.1-1.2.aarch64.rpm"
-RPM_HASH = "4955a546de4273a9db0d375049b59260b7add8e1393ce2c5ae9a08f8cfa1529d242f0bdcb25ff1f24ecf048547534d759ae6117847fd65e22876e532ac549dfe"
+RPM_NAME = "libprimesieve-devel-12.15-1.2.aarch64.rpm"
+RPM_HASH = "c612a6a4de7b7b6c1ed72785eb5901d57727113dc97db3e664151c767366050281dab7b05e7651e683dd8a3702faab25063b2baa92c503c00c71b9b9669d7f60"
 
 RPROVIDES:${PN} += "cmake-primesieve \
 libprimesieve-devel \
 pkgconfig-primesieve"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libprimesieve11"
+libprimesieve12"
 
 inherit rpm

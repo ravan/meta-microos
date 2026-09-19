@@ -7,14 +7,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.242"
 
-RPM_NAME = "perl-Test-File-Contents-0.242-1.4.noarch.rpm"
-RPM_HASH = "8129d0e715d4b0aa008cd638f619524efff201b2039c3d02b20e6233f0b5f22119aed67f651c01df92e7ea68cf1d764e0815214a4c5329c540637e588627de52"
+RPM_NAME = "perl-Test-File-Contents-0.242-1.18.noarch.rpm"
+RPM_HASH = "19615cccb0046acb076dc52a28b9553d3e09060b4dc786ecdb51487f80f1cf6e804c843fd6cffd49c2496413f2ac50d912b4f0dd23702fa9eb25372aa20f01a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--File--Contents \
 perl-Test-File-Contents"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Test--Builder \
 perl-Text--Diff"
 

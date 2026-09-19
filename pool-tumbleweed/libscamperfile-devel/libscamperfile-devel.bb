@@ -9,13 +9,13 @@ This package contains development headers and other ancillary files for the \
 libscamperfile library."
 LICENSE = "GPL-2.0-only"
 
-PV = "20230614b"
+PV = "20260902"
 
-RPM_NAME = "libscamperfile-devel-20230614b-1.1.aarch64.rpm"
-RPM_HASH = "776081f8d3acfaa8848759ef7ada1aaddbca2544f8d76296d1b1b4f527de50f9c5c11da8303565161bfde22fb670908308014508ed8a03cb664af590d421c3da"
+RPM_NAME = "libscamperfile-devel-20260902-1.1.aarch64.rpm"
+RPM_HASH = "7b8e88f594e8749f59999d007c87b7c408243780a272e98d8956a75118df02e6ecd5442ae2c88394b35fb86fcf296d6e33c06498308f6a9679b865fad4c3eb07"
 
 RPROVIDES:${PN} += "libscamperfile-devel"
 
-RDEPENDS:${PN} += "libscamperfile6"
+RDEPENDS:${PN} += "libscamperfile13"
 
 inherit rpm

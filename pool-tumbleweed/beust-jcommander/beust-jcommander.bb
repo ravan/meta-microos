@@ -3,10 +3,10 @@ DESCRIPTION = "JCommander is a Java framework that allows parsing command line \
 parameters (with annotations)."
 LICENSE = "Apache-2.0"
 
-PV = "1.82"
+PV = "1.85"
 
-RPM_NAME = "beust-jcommander-1.82-1.1.noarch.rpm"
-RPM_HASH = "19319c6137e6517450e47ad418ae6e84c079501ce50eb6f2405b1565e177e1257810de6a863115ded9a80717b78c6a0246dd0e05e88b8aab0f29934e0b5009ac"
+RPM_NAME = "beust-jcommander-1.85-1.9.noarch.rpm"
+RPM_HASH = "b8aee68b4631b2f937f7404d29a631133a8a6e1864157bb553e7149df21a47b867b9025e6ea96c467d4ab459b9a6d7621e8dfd60ca2afa5e1a866f1f16c37120"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "beust-jcommander \
@@ -16,7 +16,6 @@ mvn-com.beust-jcommander-pom- \
 osgi-com.beust.jcommander"
 
 RDEPENDS:${PN} += "java \
-java-headless \
 javapackages-filesystem"
 
 inherit rpm

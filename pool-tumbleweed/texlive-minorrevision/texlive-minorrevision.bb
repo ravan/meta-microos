@@ -10,10 +10,10 @@ loads the package lineno, so (in effect) shares lineno's \
 incompatibilities."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn32165"
+PV = "2026.226.1.1svn32165"
 
-RPM_NAME = "texlive-minorrevision-2023.209.1.1svn32165-55.1.noarch.rpm"
-RPM_HASH = "f5bcf62aae23be5b7126eff24f64ab0accab542e98129bf44017d09f6c013ba8fbaec60224df36fc6a6ce3c8c29c503ac7b116c62b1e46ba0189c2f65555ce20"
+RPM_NAME = "texlive-minorrevision-2026.226.1.1svn32165-61.2.noarch.rpm"
+RPM_HASH = "fd4bd8b68fd8ac51b492dee251e7540ff3c9d21fcb43f703fda8ba75c8a2cfff9385852f8ce9cb2e6b92d59793334212c88e92e58df175c3e8c032d8f66596ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minorrevision.sty \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.4.7"
 
-RPM_NAME = "hostap-utils-0.4.7-204.26.aarch64.rpm"
-RPM_HASH = "b58afa8b3fd721da4b781f5e95dde4d1e88f5ed58bfa071b723e1644d42e34cfeb8c21af0f4c8b43cfbbaa726201019eaf4787f8a0de605e4e3c26a484e44422"
+RPM_NAME = "hostap-utils-0.4.7-205.9.aarch64.rpm"
+RPM_HASH = "0c8976df4f09f0d17d8f9a4db1409e599815d9fa68a3e68123e8e9d717a9340bbcfb98b83a6cef8fd02f8505e6517eedaf2da173e9c48000335fd7caa1ba1214"
 
 RPROVIDES:${PN} += "hostap-utils"
 

@@ -2,10 +2,10 @@ SUMMARY = "DBD driver for MySQL"
 DESCRIPTION = "DBD driver for MySQL database."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6.3"
+PV = "1.6.5"
 
-RPM_NAME = "libapr-util1-0-dbd-mysql-1.6.3-1.3.aarch64.rpm"
-RPM_HASH = "5a0c67eb0fb1affd7467adb90cd2f58b0ab6d9ad137db8795e7620dc007bfffe1238a47b6815a22194a492c28754219cc96c42155b0be60b7cb7b865da1d6f5d"
+RPM_NAME = "libapr-util1-0-dbd-mysql-1.6.5-1.1.aarch64.rpm"
+RPM_HASH = "9910850b73fb172c590db91de8c7d700bd6c75ccff7b62ef8a530205d591248e5b15e267031722a0e22d62b8c6a66084c9092eca430754715b0dc299ae5ede36"
 
 RPROVIDES:${PN} += "libapr-util1-0-dbd-mysql"
 

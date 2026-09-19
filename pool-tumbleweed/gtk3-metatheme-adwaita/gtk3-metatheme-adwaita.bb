@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.28"
 
-RPM_NAME = "gtk3-metatheme-adwaita-3.28-1.20.noarch.rpm"
-RPM_HASH = "7a0e4b4f0b5c422a96c3f0f07a3189c80e720de7f0d8cc5fe1a9a026903ddbfbce84af663955f7e9b21760ddb0022ad3d8d88fe5e5e91a1c89b0b8e16d474dd6"
+RPM_NAME = "gtk3-metatheme-adwaita-3.28-3.5.noarch.rpm"
+RPM_HASH = "ef0fb9d6d266c48fd45a136be4fc9c842df7bbc46a4d65550d1979804a166b349cf0817ae57917ea9def05f1b2afd6d0851dfc1baa5b480ca4ec487b4dd07934"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-adwaita"

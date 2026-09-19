@@ -65,17 +65,17 @@ for the databases belonging to domain 'domain' in the directory 'dirname' \
 _bind_textdomain_codeset(domain, codeset)_ instructs the retrieval \
 functions to translate the returned messages to the character encoding \
 given by *codeset* if the encoding of the message catalog is known."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.07"
 
-RPM_NAME = "perl-gettext-1.07-1.63.aarch64.rpm"
-RPM_HASH = "2e1c9881c84223ca0f8e55501f7894657509aff1f680a8b42087e7a1065769ada2fcdaa0a40512f90d46db1ded295a0af2134f8b171bada16849bf98229efd59"
+RPM_NAME = "perl-gettext-1.07-2.17.aarch64.rpm"
+RPM_HASH = "a9eccb38dc6140197f4ce2d3271616d770cc15e50a05e2ddef1f8de587696313825e3cf5caa508cf1e7886731d37a5479b9c5583645102d2d7ea584f0b46d151"
 
 RPROVIDES:${PN} += "perl-Locale--gettext \
 perl-gettext"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

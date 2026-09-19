@@ -4,10 +4,10 @@ algorithms. This jar contains JCE provider and lightweight API for the \
 Bouncy Castle Cryptography APIs for JDK 1.5 to JDK 1.8."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "1.74"
+PV = "1.85"
 
-RPM_NAME = "bouncycastle-1.74-1.1.noarch.rpm"
-RPM_HASH = "90ca62bf4e88816a407a040acaf693a484fc42ef0f9020780dda8b67fabc82cea3ca1fac319977c81f2fce5054d12d063d0da633e6e2b9689b5c8c7b4ca02e10"
+RPM_NAME = "bouncycastle-1.85-1.1.noarch.rpm"
+RPM_HASH = "4fbd5bd9099fc25882270ec56e3887b9b05aed200dbb3c848a5b59a9257a498836e574455fa3635cfa951193bec84509c6fca8edd5b5b7c939224dbc815e2f6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcprov \

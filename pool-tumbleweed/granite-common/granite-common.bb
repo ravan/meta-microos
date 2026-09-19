@@ -1,13 +1,12 @@
 SUMMARY = "Common files for the Granite development library"
-DESCRIPTION = "Granite is an extension of GTK+. \
- \
-This package contains the common files needed by the library."
-LICENSE = "LGPL-3.0-or-later & LGPL-3.0-or-later"
+DESCRIPTION = "This package contains the common files needed by the library."
+LICENSE = "LGPL-3.0-or-later"
 
-PV = "6.2.0"
+PV = "7.8.1"
 
-RPM_NAME = "granite-common-6.2.0-1.8.aarch64.rpm"
-RPM_HASH = "72b66a820dd0e251902df019c1c7bb004621aece25fccfac551b455af4dea99e11e9c2e1fb0f6b80000653abed83d1137693b9575ffabc25a545401e9d58605e"
+RPM_NAME = "granite-common-7.8.1-1.3.noarch.rpm"
+RPM_HASH = "10d9978273e452520b7416fa5d10265266b7d14777d51bd4a0fb66d2808b419e562db69346fb48a928f7f191cf4e8fe0a667a2f245fb2bc978cce01304c220e5"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "granite-common"
 

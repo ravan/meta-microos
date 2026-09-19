@@ -6,10 +6,10 @@ styles 'on behind layer', 'on above layer', 'on glass layer' as \
 an option to a {scope} environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9svn46660"
+PV = "2026.226.0.0.9svn46660"
 
-RPM_NAME = "texlive-tikz-layers-2023.209.0.0.9svn46660-53.1.noarch.rpm"
-RPM_HASH = "72f1e3066abb928bb99c7eea0d984733cd73bef66a342abe0160bdf45d51f8200019dc6f7bc2d508078cc34ab27ff77512415d8d82c4ecdd018c37f3a397282a"
+RPM_NAME = "texlive-tikz-layers-2026.226.0.0.9svn46660-59.2.noarch.rpm"
+RPM_HASH = "d75e0f08d71fc14be20f8e290293793204cd55d56b590bf361850c7ce68fd876d8b88ba9ea38514193a3d2f5f15dcf6ddc404a76c18e2ebb92538c026b66136b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-layers.sty \

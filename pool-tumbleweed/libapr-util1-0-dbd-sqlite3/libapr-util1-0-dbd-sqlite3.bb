@@ -2,10 +2,10 @@ SUMMARY = "DBD driver for SQLite 3"
 DESCRIPTION = "DBD driver for SQLite 3 database."
 LICENSE = "Apache-2.0"
 
-PV = "1.6.3"
+PV = "1.6.5"
 
-RPM_NAME = "libapr-util1-0-dbd-sqlite3-1.6.3-1.3.aarch64.rpm"
-RPM_HASH = "f106b30bd5ee3eea80359316d8d5d3dbfd9228c13a7527c829fff1b33ea893f13dfeedf74637878175d63483851d3023dd2f2d7317493d950ed9dc272566a9f8"
+RPM_NAME = "libapr-util1-0-dbd-sqlite3-1.6.5-1.1.aarch64.rpm"
+RPM_HASH = "2c41c3cf293dfcebbd95d88f74dbd316286155fb7fa564af84e33a49bd69b33b4b6722b3f60030253210a971bacb6c079db45dc2d421aa45dd59c8733348edc8"
 
 RPROVIDES:${PN} += "libapr-util1-0-dbd-sqlite3"
 

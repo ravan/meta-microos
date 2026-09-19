@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0.2"
 
-RPM_NAME = "ghc-sop-core-devel-0.5.0.2-4.8.aarch64.rpm"
-RPM_HASH = "daff03a89ddb664ead7a7a5863dcefd8a137a08984354fb96319c98637d738e66407c7282717a4edac823749a012ee81268e71f9da4b74aa033e090594723028"
+RPM_NAME = "ghc-sop-core-devel-0.5.0.2-8.3.aarch64.rpm"
+RPM_HASH = "263208c9782b6d1e9c9b361d01178cc82ff9b41ba5cf647cb4ac815a31e8ad95c660a4f5bf1caea8c643fdd9f593e286cf8b2a3156fa136fd0e30b4fa7a6acb6"
 
-RPROVIDES:${PN} += "ghc-devel-sop-core-0.5.0.2-4Gqw6OnhbZAJM3BBTi5hGD \
+RPROVIDES:${PN} += "ghc-devel-sop-core-0.5.0.2-JbzyU3U5Jc9a9b8Omhy6m \
 ghc-sop-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-deepseq-1.4.8.0 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-deepseq-1.5.1.0-1350 \
 ghc-sop-core"
 
 inherit rpm

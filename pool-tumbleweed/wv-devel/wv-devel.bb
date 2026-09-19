@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.9"
 
-RPM_NAME = "wv-devel-1.2.9-2.10.aarch64.rpm"
-RPM_HASH = "cd5fcc2a555a92563a50d0bbcca35699f1187ba5c51343d0ccb8534b5184f855f254715d1f84a874c1afa7650cbd81a4d52750b6d99f17c46153062930e53263"
+RPM_NAME = "wv-devel-1.2.9-4.8.aarch64.rpm"
+RPM_HASH = "9e2417c3b4c1e82caf75f25d3c9a5959e4782760cb55a9edf4b99bc9afb79f9b77b1131431084c139bf607d5c58a9af21b0cee325899713dd76fc17414be41df"
 
 RPROVIDES:${PN} += "pkgconfig-wv-1.0 \
 wv-devel"

@@ -2,14 +2,14 @@ SUMMARY = "Fish Completion for fuzzel"
 DESCRIPTION = "Fish command-line completion support for fuzzel."
 LICENSE = "MIT"
 
-PV = "1.9.2"
+PV = "1.14.0"
 
-RPM_NAME = "fuzzel-fish-completion-1.9.2-1.1.noarch.rpm"
-RPM_HASH = "38035b30e98b21706614627ca0cf95df60bf7840766f43ac38391778f7caaea301f5810514aa1bc4f483d5329157940ac09117fbaa94cad90c02193166398afc"
-REPO_ARCH = "noarch"
+RPM_NAME = "fuzzel-fish-completion-1.14.0-1.7.aarch64.rpm"
+RPM_HASH = "d666ed40b35eed9d8e27911f5f3bb193274a7cbbf8cfc4b98396c4017e8980f653e0e833dbe4c206ea6025abb9d70968e3c4e6454c6bc07e3be51dc43505dd71"
 
 RPROVIDES:${PN} += "fuzzel-fish-completion"
 
-RDEPENDS:${PN} += "fish"
+RDEPENDS:${PN} += "fish \
+fuzzel"
 
 inherit rpm

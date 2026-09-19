@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "0.12"
 
-RPM_NAME = "ibsim-0.12-1.1.aarch64.rpm"
-RPM_HASH = "514b9ec122abf5d8a131e44cb48ae26d924c80afaea2a5ee4b7da9d20bd9d0a1d7d02522930fd976322773a9089cba4572ac525e6365c87703070f40f2275fd4"
+RPM_NAME = "ibsim-0.12-3.7.aarch64.rpm"
+RPM_HASH = "cddab58b2fc0c6660cbcd95726982dd034d8af2a25f053c849077774a6b6c01595cc64029f56e10cff8ea220bbe463cdea17d7e78826a18ceebb76e126c575d8"
 
 RPROVIDES:${PN} += "ibsim \
 libumad2sim.so"

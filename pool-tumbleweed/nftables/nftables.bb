@@ -10,14 +10,15 @@ similar to iptables, support for different protocols, access to connection \
 tracking and NAT and logging."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.8"
+PV = "1.1.7"
 
-RPM_NAME = "nftables-1.0.8-1.1.aarch64.rpm"
-RPM_HASH = "88b164cd228c7ed7a5eb588d508b9fbcf4b0d0035639cbed66a7fef4d97a2c67ee2ef8c9c3244e80f3a14880ff5ad7965f4158d9dc6877231aa07553c9803d96"
+RPM_NAME = "nftables-1.1.7-1.1.aarch64.rpm"
+RPM_HASH = "d53d0f55d810b258454fd7952af81f0b7941e68cec8926115143b85585c1256500f1918ab6d6c578e50933642566dd10edef82cbaf8f7ae5640163678c6979c7"
 
 RPROVIDES:${PN} += "nftables"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/sh \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libedit.so.0 \
 libnftables.so.1"

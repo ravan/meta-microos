@@ -4,10 +4,10 @@ untidy; this package (though it is no substitute for a \
 properly-designed class) helps alleviate this untidiness."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0hsvn58358"
+PV = "2026.226.2.0hsvn77682"
 
-RPM_NAME = "texlive-parskip-2023.209.2.0hsvn58358-52.1.noarch.rpm"
-RPM_HASH = "525d7231603799779d6865e8e2ee4620bc07f3e5e926699a3fbf3b27ba03eb826819f75666b9407fe049ce3d875673f51bc6af3ee62ffdf9852dd6d88ddfb7e1"
+RPM_NAME = "texlive-parskip-2026.226.2.0hsvn77682-58.2.noarch.rpm"
+RPM_HASH = "9161ccaad24a8e310d92d37f9adf8f4560b8ac733428a789d66be6ae91cd667582f03f3517da03830b7975a83cced8339a5fff901762859de10e9b606d9deac6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-parskip-2001-04-09.sty \

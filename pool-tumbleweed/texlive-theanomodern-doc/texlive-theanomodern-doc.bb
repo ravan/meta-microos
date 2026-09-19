@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-theanomodern"
 DESCRIPTION = "This package includes the documentation for texlive-theanomodern"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64520"
+PV = "2026.227.svn64520"
 
-RPM_NAME = "texlive-theanomodern-doc-2023.209.svn64520-55.1.noarch.rpm"
-RPM_HASH = "270ca0edbbd6ec87c42ecb8f90872945de33299c6562f1b6fc9ee85f0dcbdef65de4092e4292c83768122a475f0903a1c04e5e7310952984552b2afbc41cff27"
+RPM_NAME = "texlive-theanomodern-doc-2026.227.svn64520-62.2.noarch.rpm"
+RPM_HASH = "8e62316af00c2bb71aaf27dd737b8b938fdb578c9d0b0b83301bb58be8e92dce7c5584c2e1eb1d552c03bf8f2b58c40d820ec4aae55b0541d6de5b6c28edb4a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-theanomodern-doc"

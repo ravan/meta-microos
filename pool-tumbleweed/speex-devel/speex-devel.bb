@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "speex-devel-1.2.1-1.5.aarch64.rpm"
-RPM_HASH = "88d2997799f142544b4ecb41644dda9de6d630e7df2e62dd73cc970c7c139068c89e5c3a66dc2ca40e87a1df626eb3c01db1ab40627bed484d0fc308f4a94dc1"
+RPM_NAME = "speex-devel-1.2.1-2.10.aarch64.rpm"
+RPM_HASH = "e3d7717fb210ccdbf64cd6f308c9bd4372e3329c78115a9b58c4fba423002b579478e1f6a07fdda1521daa3d90366390d53a4ce69e4a338a1c9e993c550a22a7"
 
 RPROVIDES:${PN} += "libspeex-devel \
 pkgconfig-speex \

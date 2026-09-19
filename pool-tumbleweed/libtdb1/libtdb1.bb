@@ -6,10 +6,10 @@ internally to keep writers from trampling on each other. \
 This package contains the tdb1 library."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.4.8"
+PV = "1.4.15"
 
-RPM_NAME = "libtdb1-1.4.8-1.2.aarch64.rpm"
-RPM_HASH = "9070b3686847a71ec64ca592ab5d68d2cc03066d28f9d6dbbf80ab5c7e888f71b0c9f74ee630ddcb61a102583293533e4edadccb089e1f070136a5fab5472ff7"
+RPM_NAME = "libtdb1-1.4.15-1.3.aarch64.rpm"
+RPM_HASH = "53bd2290698e54df69dbb5f98e09030d2c15b82c2169734583420f8fe83e926e2c90629e7e8731682301d00aa3fb48c676f67234d16e4a6cf7085d2a4e096ba9"
 
 RPROVIDES:${PN} += "libtdb.so.1 \
 libtdb1"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.8"
 
-RPM_NAME = "languagetool-core-javadoc-4.8-3.2.noarch.rpm"
-RPM_HASH = "a0394fb488820cbc38b03e91b6f467a69223fe916d25b355e4bd0a7bde5f050bfed2d3d7795834546cdd36d0964a22a25b08dbde606730b0e48dccf23d1368a9"
+RPM_NAME = "languagetool-core-javadoc-4.8-13.1.noarch.rpm"
+RPM_HASH = "55d03bb306e9dea109acb3b12db3a8688ddb27541c29835bed1add4169df4540c6aee2e756d748054ff96cd2ef0fa9b68ac5d9a6b85c8cce63ec4aa02f6246ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "languagetool-core-javadoc"

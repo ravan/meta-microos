@@ -4,24 +4,24 @@ DESCRIPTION = "This package provides a standard styles support plugin for LeechC
 Standard styles are the ones in LeechCraft's own format."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-azoth-standardstyles-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "53923c074ee148a40517ce166cba19f9cc1fdeb9b1f40dc22637934183d53e2bcc506d1070984ae735fd8ddab58e2e7ee84f24c732f934f84f454bb33c42930e"
+RPM_NAME = "leechcraft-azoth-standardstyles-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "547d7b6ac9550bfb28de94f768d3b53e693040db7fd43ccd3f75ed3b275d038222d999dff765a759c0cae1ff82fade7424d84553ea409e0b28365a9eb4a20605"
 
-RPROVIDES:${PN} += "leechcraft-azoth-chatstyler \
-leechcraft-azoth-standardstyles \
+RPROVIDES:${PN} += "leechcraft-azoth-standardstyles \
 libleechcraft-azoth-standardstyles.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-azoth \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5WebEngineWidgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

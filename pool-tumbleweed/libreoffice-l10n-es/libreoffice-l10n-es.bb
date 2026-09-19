@@ -2,10 +2,10 @@ SUMMARY = "Spanish localization files for LibreOffice"
 DESCRIPTION = "Provides Spanish translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-es-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "f2102808021a7dd981a96facc280b881ac61cbc8b63a9ab30f175eb9da03431dfa52c0a70d5de0b6210622e98180fe9bf16aa439903d0a59a9ea5939c32c8884"
+RPM_NAME = "libreoffice-l10n-es-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "0ff5bf0afa133b40b22a7c80ecc9d11a0c86dce1ee043244fee5a18376b31f1c9783218bbe9c7d2bfb696173d3bc44511114e578ad7b7328d1c70d8f3dee6767"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-es \

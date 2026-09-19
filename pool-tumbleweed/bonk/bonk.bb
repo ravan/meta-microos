@@ -3,10 +3,10 @@ DESCRIPTION = "Bonk is a touch alternative with an added feature to \
 create directories."
 LICENSE = "MIT"
 
-PV = "0.3.2"
+PV = "0.4.0+g0"
 
-RPM_NAME = "bonk-0.3.2-1.3.aarch64.rpm"
-RPM_HASH = "c3780192e929d45b3de79d96e7b72aa1c9a5ebd3c7c7acd01c24cf586bdff2d2f8fd1e2bca10430bc04893d85204090acae2c1fb64b2de6fbee143ca0bcbe77c"
+RPM_NAME = "bonk-0.4.0+g0-2.8.aarch64.rpm"
+RPM_HASH = "f36cc3411a3ff5e99e787a53649e994beb1685642d149fead5b7253330acdbccfa94e7a989095d0e1cf8f8fa8fbf75bf5fdd9b425f9218f570dd71c871202f35"
 
 RPROVIDES:${PN} += "bonk \
 bundled-rust-crate-bonky"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-coolstr"
 DESCRIPTION = "This package includes the documentation for texlive-coolstr"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.2.2svn15878"
+PV = "2026.226.2.2svn67015"
 
-RPM_NAME = "texlive-coolstr-doc-2023.209.2.2svn15878-55.1.noarch.rpm"
-RPM_HASH = "5bff7fbfd04c9f9bfd6793a1e8f83b060b68a708dc608f2bf9176dfd4c858f7b07ff60cb024b65596618828d944125713f93a111ef61b978083bf54b9c8d42f1"
+RPM_NAME = "texlive-coolstr-doc-2026.226.2.2svn67015-61.2.noarch.rpm"
+RPM_HASH = "80ba6a996b49f17cc28abcfcf07baab9361bc12b2e3bddf6c02032e1c7a653f6e62a9334eb279ebfc32b0e6a7a2294aefa67162613b86786b31ebcfd2ed8347f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-coolstr-doc"

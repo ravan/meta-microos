@@ -2,13 +2,16 @@ SUMMARY = "Greek"
 DESCRIPTION = "Support for Greek."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn65038"
+PV = "2026.222.svn65038"
 
-RPM_NAME = "texlive-collection-langgreek-2023.208.svn65038-60.1.noarch.rpm"
-RPM_HASH = "6beb1218492971a13f3dfadccde873a0431d7d73df4da86ef2414cfd6f6aaaa8e9ba3bed9141c3c50d3442bffd3dc83aeecc13f6822acdd3895b5ed2b1371760"
+RPM_NAME = "texlive-collection-langgreek-2026.222.svn65038-68.2.noarch.rpm"
+RPM_HASH = "4ff6e6d42244b1aeb9489ff79d8f97f08f3074c8ea130a44830689235583b29504685c87cbf2f7ae1b08f2ef43e30cf39183c318e4cd236ab0082de20088fe5f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langgreek"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-greek \
+texlive-collection-langgreek"
 
 RDEPENDS:${PN} += "texlive-babel-greek \
 texlive-begingreek \

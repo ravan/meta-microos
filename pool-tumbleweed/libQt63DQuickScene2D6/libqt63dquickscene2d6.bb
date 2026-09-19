@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 3DQuickScene2D library"
 DESCRIPTION = "The Qt 6 3DQuickScene2D library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt63DQuickScene2D6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "848b84eb1b71b19787ec7c5b989c875b5eaa1c7b5d3d8578f1647516ef2e3715094f01b8f3c0ac1f58d1d36dd339e3603e0e3ec870b21451ff23b1218fd09f8b"
+RPM_NAME = "libQt63DQuickScene2D6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "a0f7750c0e6507a221317fc9eb7215467c172ced108a3cac6a8fd9de1ab0c96c78016fca6401800f24f929b02ae76986cf6f39042e3256cee57aa65909c98666"
 
 RPROVIDES:${PN} += "libQt63DQuickScene2D.so.6 \
 libQt63DQuickScene2D6 \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "35.1"
 
-RPM_NAME = "lua53-luaposix-35.1-2.3.aarch64.rpm"
-RPM_HASH = "42d57fb353a642b23f9fa6d5d7c7b8da20f692ab6119da1e952e17988ad1905f481f67b138724f8a73d709e3fa6b15ef655b7475fa50a5ba748a171bcd553647"
+RPM_NAME = "lua53-luaposix-35.1-4.3.aarch64.rpm"
+RPM_HASH = "d85e726aa492244b850f4f236c5cd955576ba5b8c9bbc21c9a361cb32a9222a7ab0afefaa574dd8cc36d030c9027cf58e7d1db1de88c8cfa96e99c4bad3652ce"
 
 RPROVIDES:${PN} += "libgen.so \
 lua53-luaposix"

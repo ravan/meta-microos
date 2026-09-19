@@ -2,17 +2,13 @@ SUMMARY = "Xviewer slideshowshuffle plugin"
 DESCRIPTION = "xviewer Slideshow Shuffle plugin"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.1"
+PV = "3.4.3"
 
-RPM_NAME = "xviewer-plugin-slideshowshuffle-1.4.1-1.7.aarch64.rpm"
-RPM_HASH = "f1b820a673806170d5f7fdb18a19bb50f81aec59f31c7c332b8d1a92e2fbe3c371b90d82077d0f215738bd48ad5c08ca6911def6c05ab9bc6f5929e77f2a1124"
+RPM_NAME = "xviewer-plugin-slideshowshuffle-3.4.3-1.2.aarch64.rpm"
+RPM_HASH = "7a00c3ce369102fa2eab7ec2edeaf90c8db5144a60a09642612b1e4ede4d87e0f2fddf3557c943cf4062f3052d1d14c8b6c8ff90092d189701bb0a20c2ca2edf"
 
-RPROVIDES:${PN} += "xviewer-plugin-slideshowshuffle \
-xviewer-plugins-/usr/lib64/xviewer/plugins/slideshowshuffle.plugin"
+RPROVIDES:${PN} += "xviewer-plugin-slideshowshuffle"
 
-RDEPENDS:${PN} += "typelib-GObject \
-typelib-Gtk \
-typelib-Xviewer \
-xviewer-plugins-data"
+RDEPENDS:${PN} += "xviewer-plugins-data"
 
 inherit rpm

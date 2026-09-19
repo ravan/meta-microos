@@ -5,10 +5,10 @@ binding, category, collator, condition, copy, illustrations, \
 introduction, location, pages, size, value, volumes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn37536"
+PV = "2026.226.0.0.2svn76790"
 
-RPM_NAME = "texlive-bookdb-2023.209.0.0.2svn37536-53.1.noarch.rpm"
-RPM_HASH = "c940931d3944bcd35c27ad8c5592c59f6125f4762018d696cef52719870a8fc91cc8de2acb7a61e5dc55a057739dc689735d944bbf2e88805a03b9d9a63e36c0"
+RPM_NAME = "texlive-bookdb-2026.226.0.0.2svn76790-59.2.noarch.rpm"
+RPM_HASH = "8e08b26101e0d45ff8811ee70f2aae3b1a33666c40d6c64da615ad946a41294d49476d326bbb3eeb50cf4e3887f94df7a43b75ea274b317b42786005d509ec8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bookdb"

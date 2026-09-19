@@ -1,16 +1,12 @@
 SUMMARY = "Python bindings for the Nemo File manager"
-DESCRIPTION = " \
- \
- \
- \
- \
+DESCRIPTION = "Provides:       python-nemo-devel = 6.4.0 \
 Includes Python bindings for the Nemo Filemanager."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.2.0"
+PV = "6.4.0"
 
-RPM_NAME = "python3-nemo-5.2.0-4.1.aarch64.rpm"
-RPM_HASH = "341d0ff7eb352a3c4bdf1ad810725cb8a20d37a02c0da7a5c1870f6b992700deca431c0e1f783fb9d47ed67d4eb81f0d202b44698acd290ad4561de431e18f30"
+RPM_NAME = "python3-nemo-6.4.0-6.4.aarch64.rpm"
+RPM_HASH = "e8f865d2e356859ae852da17a9c454b0215d4ec5c261ecf08055beb0eb06634f24540f2244308e60e1f2520e9f0d794773bfe1a78dc4ab00537848798ef49413"
 
 RPROVIDES:${PN} += "libnemo-python.so \
 nemo-python \
@@ -28,7 +24,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libnemo-extension.so.1 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 nemo"
 
 inherit rpm

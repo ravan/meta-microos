@@ -6,10 +6,10 @@ libosmoctrl is an SNMP-like control interface. In contrast to the VTY \
 interface, the control interface is meant to be used by programs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.14.2"
 
-RPM_NAME = "libosmoctrl0-1.8.0-1.2.aarch64.rpm"
-RPM_HASH = "ecac29f559bd2e42ad7dd5b5f52a78e055c81bbe7773af3710a7fe9b02970f21399ca8fbce2582bb8ba9c68c3968b01f07eb71b66b5d27484e24f29c527b5e4e"
+RPM_NAME = "libosmoctrl0-1.14.2-1.1.aarch64.rpm"
+RPM_HASH = "d82ef93ff5d2be69f2b067c893a0ce73dd34f1814ee40cc1eaa5f73650048a210832f15a7f6850da61dc8158a92090f456393e516ea3148f74ccc25c00318cf7"
 
 RPROVIDES:${PN} += "libosmoctrl.so.0 \
 libosmoctrl0"
@@ -17,9 +17,9 @@ libosmoctrl0"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libosmocore.so.20 \
-libosmogsm.so.18 \
-libosmovty.so.9 \
+libosmocore.so.22 \
+libosmogsm.so.20 \
+libosmovty.so.13 \
 libtalloc.so.2"
 
 inherit rpm

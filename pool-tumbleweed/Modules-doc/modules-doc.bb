@@ -22,8 +22,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.8.0"
 
-RPM_NAME = "Modules-doc-4.8.0-1.8.noarch.rpm"
-RPM_HASH = "54a032da67ba0723e61d8d30c0c7f0b1743b9763f4b44ff124df03daffebdb32e4c5256207f8b31a9aa932f69b75636e023f9b11199a21281421ee68e50319e0"
+RPM_NAME = "Modules-doc-4.8.0-4.7.noarch.rpm"
+RPM_HASH = "15504810b3eb6a78a1ecac48a829e5dff5177e326a53596ee2acb0ee95393d5a65e78002c28b02206b9670aa273d444a0183f60ed54f2a448a16c00657aa91dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Modules-doc"

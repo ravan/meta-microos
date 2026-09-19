@@ -4,10 +4,10 @@ applications on Linux. See https://wiki.gnome.org/Projects/SandboxedApps for \
 more information."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.14.4"
+PV = "1.18.2"
 
-RPM_NAME = "flatpak-1.14.4-1.3.aarch64.rpm"
-RPM_HASH = "8a5a4d0fc0a3aa241cc986176a86c47533cad35ebfb6c557d8a6b6b1e7f9a635a7f41ffc78b89f328181779223f39fff269b4bfd3010bf1173c6fdcaa4324a9d"
+RPM_NAME = "flatpak-1.18.2-1.1.aarch64.rpm"
+RPM_HASH = "982b15a14ba8f61ed1abb2596d68da4f3066026714fa2efb8543c24a5e7059ec1b0f130e7ffe46daeea387c7c617408bec48c6ba749ccd12a94cc874e776b928"
 
 RPROVIDES:${PN} += "config-flatpak \
 flatpak \
@@ -17,24 +17,26 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 bubblewrap \
 ld-linux-aarch64.so.1 \
 libXau.so.6 \
-libappstream.so.4 \
+libappstream.so.5 \
 libarchive.so.13 \
 libc.so.6 \
 libcurl.so.4 \
 libdconf.so.1 \
 libflatpak0 \
-libfuse3.so.3 \
+libfuse3.so.4 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
+libgpgme.so.45 \
 libjson-glib-1.0.so.0 \
 libostree-1.so.1 \
 libpolkit-agent-1.so.0 \
 libpolkit-gobject-1.so.0 \
 libseccomp.so.2 \
 libsystemd.so.0 \
-libxml2.so.2 \
+libwayland-client.so.0 \
+libxml2.so.16 \
 libzstd.so.1 \
 ostree \
 user-flatpak \

@@ -5,10 +5,10 @@ It conforms to contemporary DNS standards documents. \
 This package holds the PostgreSQL backend for pdns."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.8.0"
+PV = "4.9.8"
 
-RPM_NAME = "pdns-backend-postgresql-4.8.0-1.2.aarch64.rpm"
-RPM_HASH = "43fd5a4d5478b3bb1366e77873db89af73157851f6f14020e185bab60e3e5b4f1d8a20b2cf9abd94e3b9881fadb08397e764c0f81bd131a8c419473caaf9dbc4"
+RPM_NAME = "pdns-backend-postgresql-4.9.8-1.12.aarch64.rpm"
+RPM_HASH = "a9bca6320d27096dda429cc713ca41108d8d8c004f9988600f7515a03c15c05ee3072e1f5874e22a6a5cec53ddcd0cc79f4f278673ba65e0ed6b3a3c1ba0d15b"
 
 RPROVIDES:${PN} += "libgpgsqlbackend.so \
 pdns-backend-postgresql"

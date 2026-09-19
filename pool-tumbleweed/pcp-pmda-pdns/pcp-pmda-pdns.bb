@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the PowerDNS."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-pdns-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "d3c1dbbb07f1faebba06d4750a583dd5e15ba16ff89be3106ae4cd506cf262080cffc25f1ef0e8d39dd61a96b8830662b2eb0708ccf8aebeac20751a9b773d3e"
+RPM_NAME = "pcp-pmda-pdns-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "6be7618d27ca65bf42894dad3085473863d039c43e08b1a9838fe1cd8124cbfe4e457fd428a47a11eac5a345dd96924a5e4cf58e4c758d14b8091ea2235d6bc7"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-pdns"
 

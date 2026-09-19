@@ -3,10 +3,10 @@ DESCRIPTION = "The YaST2 component for configuration of NFS. NFS stands for netw
 file system access. It allows access to files on remote machines."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1"
+PV = "5.0.2"
 
-RPM_NAME = "yast2-nfs-client-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "bee8861427bf50bd55d06889e7899b6dfc24fc95b85f68b5a923165b1634589202c34694a954e0b2f5bfc12e2d1bacb76bd55d188c4d6556b2aef076735f54b4"
+RPM_NAME = "yast2-nfs-client-5.0.2-1.2.noarch.rpm"
+RPM_HASH = "9a667583dcfe5b9739a5ff2223cce8427d1163cfe8dfabdffd7a773b480293ad71e0d675d590a716d492d48da5f2e46c12a70d82da8227956becdfc32a68e192"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-config-network-/usr/lib/YaST2/clients/lan-nfs-client.ycp \

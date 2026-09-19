@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-zhmetrics"
 DESCRIPTION = "This package includes the documentation for texlive-zhmetrics"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.r206svn22207"
+PV = "2026.226.r206svn22207"
 
-RPM_NAME = "texlive-zhmetrics-doc-2023.209.r206svn22207-53.2.noarch.rpm"
-RPM_HASH = "9686837f516be4c9926fa100c59eebe9c4045221d5fcdaf237a1f077e8052013893e4b0796bd9f6a775d90d21ad574f3e4d80290346d2a374a3f8b7c537ed646"
+RPM_NAME = "texlive-zhmetrics-doc-2026.226.r206svn22207-59.4.noarch.rpm"
+RPM_HASH = "536aa1517f62a4a4257a0e81b0c5b4f797827709797ac149fc136a6f389651884fc82312f76539a12bd493809850ca3aa8db89055116ab83b23443d1b8acbc91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zhmetrics-doc"

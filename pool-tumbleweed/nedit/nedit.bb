@@ -3,12 +3,12 @@ DESCRIPTION = "NEdit is a GUI style plain text editor for workstations with the 
 and Motif. NEdit provides all of the standard menu, dialog, editing, \
 mouse support, macro extension language, syntax highlighting, \
 and a lot other nice features (and extensions for programmers)."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "5.7"
 
-RPM_NAME = "nedit-5.7-2.27.aarch64.rpm"
-RPM_HASH = "db1e6e85c44f39e7b1f2ae92fe91401f81b397708a13cce9d2eab31bfb483b6df8a35e2b5e24e702fd1113348c91ba1cbdcae78258acb4e3367b20daaef083ac"
+RPM_NAME = "nedit-5.7-4.7.aarch64.rpm"
+RPM_HASH = "7d5a7c61b744b7f4f1fccf96148ec96046b72c44bbf69ccf6fde0e972f088be6488b3097447bdc809f2c791098a418c13f668d92f12913e2774e7149e6d70c09"
 
 RPROVIDES:${PN} += "nedit"
 

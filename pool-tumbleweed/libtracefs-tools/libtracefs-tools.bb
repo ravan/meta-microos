@@ -4,10 +4,10 @@ DESCRIPTION = "This library provides C APIs to access the kernel trace file syst
 This subpackage contains tools."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.7.0"
+PV = "1.8.3"
 
-RPM_NAME = "libtracefs-tools-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "28b6d98c583f576c1fbd4caf573af632f81bcb4cc2ae39ebf98f7b470374092d978deb5e8f5c0a131a0e20eaf6665b6be681888c51e0c9d7328458ea201783a8"
+RPM_NAME = "libtracefs-tools-1.8.3-1.3.aarch64.rpm"
+RPM_HASH = "120c5f316acdc86732bfcebac90a2981b69c44f763824d2220b38d7f4121f7a26c85eb53559b08317e918c857e04ec38d7b9065d1b7cac4ca073576a178babf0"
 
 RPROVIDES:${PN} += "libtracefs-tools"
 

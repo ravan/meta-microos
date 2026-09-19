@@ -2,10 +2,10 @@ SUMMARY = "Translations for package iagno"
 DESCRIPTION = "Provides translations for the 'iagno' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.38.1"
+PV = "50.0+8"
 
-RPM_NAME = "iagno-lang-3.38.1-2.13.noarch.rpm"
-RPM_HASH = "175068217faf1bfa391a22ad1e2826e3296ac766396f6bd3bfbf09a9945c349c81330250744e7059879dead764469bea6e81241384f59c232375679f19e9fe53"
+RPM_NAME = "iagno-lang-50.0+8-1.2.noarch.rpm"
+RPM_HASH = "8b78e46f78cc2dd80d7427b820da65c48d7b57026ec8b29770504f87db632514b2c785337940ceaf2516fb2b1c51354479b8473ec46f8122dfa49653448d5f96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iagno-lang \

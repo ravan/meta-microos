@@ -2,18 +2,23 @@ SUMMARY = "Severed fonts for texlive-fonts-churchslavonic"
 DESCRIPTION = "The  separated fonts package for texlive-fonts-churchslavonic"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.2.2svn56350"
+PV = "2026.226.2.3svn67473"
 
-RPM_NAME = "texlive-fonts-churchslavonic-fonts-2023.209.2.2svn56350-53.1.noarch.rpm"
-RPM_HASH = "572695e3af02d27c5ba652a8019193404f5f632539c58e3fea180d38c54809de09c45ce246775e1a4e16c1a9ace6fd5bce7472584abeb8f555f5214c6149a3c4"
+RPM_NAME = "texlive-fonts-churchslavonic-fonts-2026.226.2.3svn67473-60.2.noarch.rpm"
+RPM_HASH = "fff59c89a7a215ae6048fef3aa066e1eb8425eec71a7e52d80992ce992abfd17fde9115539fba44e3cfd667f48437bc69612faa619f8c62a706442b1ab1b2a99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=ab \
 font--lang=af \
+font--lang=agr \
 font--lang=an \
 font--lang=av \
 font--lang=ay \
+font--lang=ayc \
+font--lang=ba \
 font--lang=be \
+font--lang=bem \
 font--lang=bg \
 font--lang=bi \
 font--lang=br \
@@ -22,13 +27,17 @@ font--lang=bua \
 font--lang=ca \
 font--lang=ce \
 font--lang=ch \
+font--lang=chm \
 font--lang=co \
 font--lang=crh \
 font--lang=cs \
 font--lang=csb \
 font--lang=cu \
+font--lang=cv \
+font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=el \
 font--lang=en \
 font--lang=eo \
@@ -59,22 +68,31 @@ font--lang=io \
 font--lang=is \
 font--lang=it \
 font--lang=jv \
+font--lang=kaa \
 font--lang=ki \
 font--lang=kj \
+font--lang=kk \
 font--lang=kl \
+font--lang=ku-am \
 font--lang=ku-tr \
 font--lang=kum \
+font--lang=kv \
 font--lang=kw \
 font--lang=kwm \
+font--lang=ky \
 font--lang=la \
 font--lang=lb \
 font--lang=lez \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mhr \
+font--lang=mjw \
 font--lang=mk \
 font--lang=mn-mn \
 font--lang=mo \
@@ -84,6 +102,8 @@ font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -102,10 +122,13 @@ font--lang=rn \
 font--lang=ro \
 font--lang=ru \
 font--lang=rw \
+font--lang=sah \
 font--lang=sc \
 font--lang=se \
 font--lang=sel \
 font--lang=sg \
+font--lang=sgs \
+font--lang=sh \
 font--lang=shs \
 font--lang=sk \
 font--lang=sl \
@@ -122,27 +145,36 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
+font--lang=tg \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
 font--lang=to \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=tt \
 font--lang=ty \
+font--lang=tyv \
 font--lang=uk \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-acathist \
 font-cathismaunicode \
 font-fedorovskunicode \
+font-firaslav \
 font-indictionunicode \
 font-menaionunicode \
 font-mezenetsunicode \
@@ -154,6 +186,8 @@ font-ponomarunicode \
 font-shafarik \
 font-triodionunicode \
 font-vertogradunicode \
+font-vilnius \
+font-voskresensky \
 texlive-fonts-churchslavonic-fonts"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

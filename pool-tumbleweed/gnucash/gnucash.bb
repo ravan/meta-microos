@@ -12,12 +12,12 @@ Feature Highlights: \
  * QIF/OFX/HBCI Import, Transaction Matching; \
  * Scheduled Transactions; \
  * Financial Calculations."
-LICENSE = "SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-exception"
+LICENSE = "LicenseRef-SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-exception"
 
-PV = "5.3"
+PV = "5.16"
 
-RPM_NAME = "gnucash-5.3-1.1.aarch64.rpm"
-RPM_HASH = "df05b23bbfbbb0da2549d0aab0ff00f4e216652ec0b2522361279b6b358ba5d7e926061f8e514a939db7d242b06f106653750c4ba5663acafa8004fa8669300b"
+RPM_NAME = "gnucash-5.16-1.1.aarch64.rpm"
+RPM_HASH = "e9914caef167004e8dc21e3b58c7b071e92670d083d8a632f491d76fdf1b809a6dec3c80262df59a98ec4cab7b354718c1f82b4ec192efd68ac00f831745fbfc"
 
 RPROVIDES:${PN} += "config-gnucash \
 gnucash \
@@ -56,9 +56,9 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libaqbanking.so.44 \
-libboost-filesystem.so.1.82.0 \
-libboost-locale.so.1.82.0 \
-libboost-program-options.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
+libboost-locale.so.1.91.0 \
+libboost-program-options.so.1.91.0 \
 libc.so.6 \
 libcairo.so.2 \
 libdbi.so.3 \
@@ -73,17 +73,17 @@ libgtk-3.so.0 \
 libguile-3.0.so.1 \
 libgwengui-gtk3.so.79 \
 libgwenhywfar.so.79 \
-libicui18n.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuuc.so.78 \
 libm.so.6 \
 libofx.so.7 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libsecret-1.so.0 \
 libstdc++.so.6 \
 libwebkit2gtk-4.1.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

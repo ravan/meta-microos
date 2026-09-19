@@ -2,10 +2,10 @@ SUMMARY = "Development documents of libfprint"
 DESCRIPTION = "This package contains the development documents for libfprint."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.94.6+tod1"
+PV = "1.94.10+tod1"
 
-RPM_NAME = "libfprint-doc-1.94.6+tod1-1.1.noarch.rpm"
-RPM_HASH = "098b81486bedcaec6819d3256cc5614ff7b4b1ab0a3b49273b6146c7ad83636341a5095d8df4cc3850dfcefd514f0034edb20f2c4816d13881d898387697ce95"
+RPM_NAME = "libfprint-doc-1.94.10+tod1-3.1.noarch.rpm"
+RPM_HASH = "093c62efc3ca425656dfe2714be9afffc8e3311932abb7c011813ed8af23353e73bd1131154585ef4cfa6fb50539a24c522be3a0a50f4f234b3b7c1fd47018bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfprint-doc"

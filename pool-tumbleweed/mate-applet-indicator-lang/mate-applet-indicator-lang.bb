@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-applet-indicator"
 DESCRIPTION = "Provides translations for the 'mate-applet-indicator' package."
 LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "mate-applet-indicator-lang-1.26.0-1.9.noarch.rpm"
-RPM_HASH = "2d6978531c694c0bc1e82cc297bf6ff55acd00346979dcf55bb4585d843eaea79c861153c96fefdbf04f304b821e23a0706d716c93aeceadafa48c7d22c90824"
+RPM_NAME = "mate-applet-indicator-lang-1.28.0-1.9.noarch.rpm"
+RPM_HASH = "91e59c7b1af7e164ec2317d7cd926c3baf6ea8722b9a0ef8da8bfb630585fbac7f24c77f87c0b8ae5de7803f3eb66353ff0af7235cffb6a21fe6bfd3d1d10c81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-applet-indicator-af \

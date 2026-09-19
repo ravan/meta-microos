@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-oubraces"
 DESCRIPTION = "This package includes the documentation for texlive-oubraces"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn21833"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-oubraces-doc-2023.209.svn21833-55.1.noarch.rpm"
-RPM_HASH = "707b5600e117e815ea9f63d0ca79022444b3722b0eaccef0b7c2b5244bc2cef0c1f2506c45f04b9827d52047ad721f6a77d423dd25b846a1a7e77ad965858676"
+RPM_NAME = "texlive-oubraces-doc-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "6b7f01ad7f4672b25ed173d2149c4c84fd5fac174e95f89ca49d3b752d56847d04edda50255753f91c257a1180fd3a7301c5fdd098edcb41a8abe0fdc94287ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-oubraces-doc"

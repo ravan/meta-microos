@@ -9,10 +9,10 @@ package. The package needs a lot more work: this is only a \
 beginning..."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn61719"
+PV = "2026.226.1.0svn61719"
 
-RPM_NAME = "texlive-grid-2023.209.1.0svn61719-54.2.noarch.rpm"
-RPM_HASH = "48bba75ebf650907b31d611bf20b16fdbd23f2393e84c0cbbd0ad69f756472220ab32d178fe20a5484dbc0666db041272045d23ba6da2c7547a05c34919dc741"
+RPM_NAME = "texlive-grid-2026.226.1.0svn61719-60.4.noarch.rpm"
+RPM_HASH = "4c75bf1461cb2b36cf53e013b9d3127cea46bfd6cec6d12a814c240c937b0727759ab32572be0f9a2f2a3512449a9f5ee0790811323d24fe788cc261c954c34a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grid.sty \

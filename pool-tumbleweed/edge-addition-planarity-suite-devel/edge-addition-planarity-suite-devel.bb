@@ -5,13 +5,15 @@ graph embedding algorithm and related algorithms \
 This subpackage provides the development headers for it."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.0.2.0"
+PV = "5.1.0.0"
 
-RPM_NAME = "edge-addition-planarity-suite-devel-3.0.2.0-1.2.aarch64.rpm"
-RPM_HASH = "94a535432474879bbf88511782ea7fd2941f988613313208d4c85889667a6fdbef0bbc8b244364a7d39698792a68114adbddcf7fed1f83bc9f84c6d74ed05615"
+RPM_NAME = "edge-addition-planarity-suite-devel-5.1.0.0-1.1.aarch64.rpm"
+RPM_HASH = "f71937b85e087bbc086535b73e23df24bf6a0f77bada4c4f15c45b56e7a3e0f23f18e2a87bcf8a1e02a82af34389c8ca012eda2b47219c606e310d40d28fd381"
 
-RPROVIDES:${PN} += "edge-addition-planarity-suite-devel"
+RPROVIDES:${PN} += "edge-addition-planarity-suite-devel \
+pkgconfig-libplanarity"
 
-RDEPENDS:${PN} += "libplanarity0"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libplanarity4"
 
 inherit rpm

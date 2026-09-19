@@ -3,10 +3,10 @@ DESCRIPTION = "This package uses the xcolor package to define macros for the \
 colour palette of The University of Western Australia."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn60443"
+PV = "2026.226.1.0.0svn60443"
 
-RPM_NAME = "texlive-uwa-colours-2023.209.1.0.0svn60443-54.1.noarch.rpm"
-RPM_HASH = "332544e9d1da3281685106a668d9b35fb95a8a89c1e5864eb54d23f73e018f01f03fe6640f57824ceed2cc3a2c026cc6b5641cd13ceaaf7d1f688e3337cae347"
+RPM_NAME = "texlive-uwa-colours-2026.226.1.0.0svn60443-60.2.noarch.rpm"
+RPM_HASH = "06952b0e4291d188dba26d3ac3f3ef7cde7e4fb8eda5c47cd4db6c4bae232dcca41619317bc381b2499caf5226cfcf8f257234e1a02ec7d0d2f3f8dd6fc04070"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uwa-colours.sty \

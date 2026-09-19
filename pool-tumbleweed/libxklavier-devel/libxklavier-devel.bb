@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "5.4"
 
-RPM_NAME = "libxklavier-devel-5.4-1.8.aarch64.rpm"
-RPM_HASH = "b06cd68f6b0faff8878ba62ad428a4219298c9b54d78869a5c0fe7d2faf89c6d28a41b8cb6c9d27fc9598e7e146edd036db2d97a1a9939f5b2f546f31e50f13a"
+RPM_NAME = "libxklavier-devel-5.4-2.11.aarch64.rpm"
+RPM_HASH = "1c99d62418f16947c56d97a24b65e10276f2888926013baa12c5ec8fdc231bde298185b2963df542cc29fd198fb7efb44abbe38b643bb30764dd11a77e97c587"
 
 RPROVIDES:${PN} += "libxklavier-devel \
 pkgconfig-libxklavier"

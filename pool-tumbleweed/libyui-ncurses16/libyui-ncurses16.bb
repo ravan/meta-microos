@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the NCurses (text based) user interface \
 component for libyui."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui-ncurses16-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "e90a703e05ff5ae12d629cfb4214b4daa813edd5a71bb6d8084ff2769f235a1f682df0d5b7de939c87b969143a51627a9fed28ae7fc0e83b97918156c10cfdae"
+RPM_NAME = "libyui-ncurses16-4.7.7-1.2.aarch64.rpm"
+RPM_HASH = "36c907415f72d5e228f16e40f502c47be30b3f08239a69f0a566744bc8adda452d58a005ddd0c9ae8f627aab8fc4f7c7eee434346f57c1695fe4af168ec14ec0"
 
 RPROVIDES:${PN} += "libyui-ncurses \
 libyui-ncurses.so.16 \

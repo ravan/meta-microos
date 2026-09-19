@@ -5,10 +5,10 @@ volume system. \
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221029"
+PV = "20260911"
 
-RPM_NAME = "libvsgpt1-20221029-4.1.aarch64.rpm"
-RPM_HASH = "3e35bcf1e56e8635008ba87cc27c274d3c97aa5d9e6274aa66c68ed5e6973e76f8c44155829f4b885cbd4ebaa6a8c4b79cff9aa7e572f7776996d1c2a8b7b30b"
+RPM_NAME = "libvsgpt1-20260911-1.1.aarch64.rpm"
+RPM_HASH = "f0364f9d613e60323667ce63aa7650b84f64b9673b44c44d1487b9a107215a318554a3ec82a2d73f3ad72415025bbdfa6a4808c4d53e369cb8537939a4ec5037"
 
 RPROVIDES:${PN} += "libvsgpt.so.1 \
 libvsgpt1"

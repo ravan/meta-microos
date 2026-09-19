@@ -17,8 +17,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-trx-usrp1-1.4.0-1.16.aarch64.rpm"
-RPM_HASH = "e1e6ba64991b845422e3e757efe719d834ff6ef65a86e970a0370fd4a435fc80b9f4a88d92eb5ad06b2c807b655afa9393a6e703c0290a03c7e5a70b3840ebf9"
+RPM_NAME = "osmo-trx-usrp1-1.4.0-3.6.aarch64.rpm"
+RPM_HASH = "312cf7f9748aa1103bf917b40c2e66fe859084c1b676cbb9b4580710c5860b8ba69677b32d7880c0f585d390f3a9448919d33c5b8595132a11ec8ff9fbdaaa28"
 
 RPROVIDES:${PN} += "osmo-trx-usrp1"
 
@@ -28,9 +28,9 @@ libc.so.6 \
 libfftw3f.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
-libosmocore.so.20 \
+libosmocore.so.22 \
 libosmoctrl.so.0 \
-libosmovty.so.9 \
+libosmovty.so.13 \
 libstdc++.so.6 \
 libtalloc.so.2 \
 libusrp.so.1"

@@ -4,14 +4,14 @@ LICENSE = "MIT"
 
 PV = "0.2.1.0"
 
-RPM_NAME = "ghc-unliftio-core-prof-0.2.1.0-1.8.aarch64.rpm"
-RPM_HASH = "bfb1f85bc5116bfa27f76cc1f2af917bd8ef9be3bb81b09f1d866e03c0cd9fc251ee8089d1464b072344f66b44e99d41d0a28e5220fb84e87797bf86181f4456"
+RPM_NAME = "ghc-unliftio-core-prof-0.2.1.0-3.23.aarch64.rpm"
+RPM_HASH = "8653d169ff668a150912207f9d0f86d86ed64d14120d4f4d45351317d1b1edc30bad2379c30d785c6378300a4610a789ca65f652884a0d48def7b858af551e65"
 
-RPROVIDES:${PN} += "ghc-prof-unliftio-core-0.2.1.0-LP03A4AUPGIIJc7XWMX3ES \
+RPROVIDES:${PN} += "ghc-prof-unliftio-core-0.2.1.0-HFUY5mS3bsg3RW1edumY92 \
 ghc-unliftio-core-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-transformers-0.5.6.2 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-transformers-0.6.3.0-4709 \
 ghc-unliftio-core-devel"
 
 inherit rpm

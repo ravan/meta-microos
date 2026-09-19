@@ -10,10 +10,10 @@ long ARG_STR data to programs, and on-the-fly inclusion of additional \
 config files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3"
+PV = "1.4.1"
 
-RPM_NAME = "dotconf-devel-1.3-16.9.aarch64.rpm"
-RPM_HASH = "a2dfc4369810a57be6eca08b7ee2a07f8da798fa01495b5d8dbdb26a9223a76019e3bcd6187a757cb1cc7c793d987e40235b2ec5d33aa28a861aa47648a828ce"
+RPM_NAME = "dotconf-devel-1.4.1-1.9.aarch64.rpm"
+RPM_HASH = "4afa85e8b4d4dad51ae99cc06e795142b6c93813de639d681d6da25c55a63048afe0d13311ac0ff823192d43ecc5b53dd8d2fc4273a7bd22e28aa3c87b85a849"
 
 RPROVIDES:${PN} += "dotconf \
 dotconf-devel \

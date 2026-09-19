@@ -11,10 +11,10 @@ implementation for shared-memory (non-distributed) systems, and \
 classes for managing asynchronous computations in GUI applications."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Concurrent6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "2bfba0bee362b4cf455d7f24e8eb1d1e63287eb2628e1a6b0b7f9565cb262d9db25a5b22846e45810f3967eb2f4e47f8318a696d89150e3e9ea697245e371bfd"
+RPM_NAME = "libQt6Concurrent6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "24db202b877dc5ee23c31ced618ddbbb209e86c99fbf0b2258397f841c5fee17109d9550d0c96996f8f72398e415ec87b23fdc8fc871213ccba5999cc61f26eb"
 
 RPROVIDES:${PN} += "libQt6Concurrent.so.6 \
 libQt6Concurrent6"

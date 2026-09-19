@@ -7,10 +7,11 @@ is the native exception handling mechanism for Windows. \
 which is why the 32bit mingw package set does not contain it.]"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw64-libgcc_s_seh1-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "f310032995d688b4005a08edea91d96acf5bf6a1cf7d517544d6b2c0ee5cdaa725da142a6bdf1a41f5e078ee6127c27b0a48c32b8b1f9f36edbc03c6d6237738"
+RPM_NAME = "mingw64-libgcc_s_seh1-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "9c42d9240daa59204faa3a81282a46740fe49873f06723597a01e7facd8c5c7255f500a2f12bf6d2abc41764127d5dbbdc6e3cdeaf39b82452d63cd9f06adb69"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-libgcc \
 mingw64-libgcc-s-seh-1.dll \

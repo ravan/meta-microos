@@ -2,13 +2,13 @@ SUMMARY = "Python3 bindings for notmuch"
 DESCRIPTION = "Python3 interface (bindings) for notmuch"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.37"
+PV = "0.38.3"
 
-RPM_NAME = "python3-notmuch-0.37-3.1.aarch64.rpm"
-RPM_HASH = "ba54ce1f00babcfa0d2c1cdab2cda96b63fc04104379916572a08676a2295037b4e9cb1e41c92cc8738bb4b6eb31057c1565bf59175d927bd11d7e324323ed45"
+RPM_NAME = "python3-notmuch-0.38.3-5.6.aarch64.rpm"
+RPM_HASH = "1406441f7974cef60aec5a80f9260d3a0d9ccecc6b4988274fd3a8d0adcd0a51f6dbec57df322ab5df3e1ccd60ee203a0fdfa8243556cdf7ca3ba9bb05a9d553"
 
 RPROVIDES:${PN} += "python3-notmuch \
-python3.11dist-notmuch \
+python3.13dist-notmuch \
 python3dist-notmuch"
 
 RDEPENDS:${PN} += "python-abi"

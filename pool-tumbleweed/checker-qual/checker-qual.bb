@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.22.0"
 
-RPM_NAME = "checker-qual-3.22.0-1.5.noarch.rpm"
-RPM_HASH = "10d4982a91781f49d4b69740c3bec5e15f2186e1a59f9c0262d163b0ade25063e0e9350fc983a51996fed26c5f8c13cd0714702b37fa5cd37fb21d014bf47128"
+RPM_NAME = "checker-qual-3.22.0-2.8.noarch.rpm"
+RPM_HASH = "a29587bc3357c8df2f94e047281dfc25dcf544edbc371189c59e7e5f335f7a5064ac8c738e0f8babe85ec9e99da1f33e80eadfb82ff7896e685f9c169e7f9db6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "checker-qual \

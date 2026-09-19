@@ -2,10 +2,10 @@ SUMMARY = "Best Mega Pack 1+3"
 DESCRIPTION = "Bestplugins Mega Pack 1+3 contains dozens of guitar sounds from famous bands."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.44.1"
+PV = "0.47.0"
 
-RPM_NAME = "bestplugins-0.44.1-2.3.aarch64.rpm"
-RPM_HASH = "8e43aa1b23df2862a778fc45ef2261a139d06e9562b4c5192fe12276b27905264cd5890779212d9b1f3791d6a8b8b7a5f41ff8c8bde9ce96fc5b52a0227bb698"
+RPM_NAME = "bestplugins-0.47.0-2.3.aarch64.rpm"
+RPM_HASH = "efb3ceaa6772dc80363c66290d394d690fd53db1b3b9c36e440149a00e69229343a19d5bc04a2a936b865439e13c9276dd4d93bde6ca86b531fa41eac0441031"
 
 RPROVIDES:${PN} += "bestplugins"
 

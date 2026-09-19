@@ -10,17 +10,17 @@ we write shouldn't need to have documentation/comments. If you need \
 something with more power, move up to CSS.pm. With the increasing \
 complexity of CSS, this is becoming more common, but many situations can \
 still live with simple CSS files."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.20"
+PV = "1.200.0"
 
-RPM_NAME = "perl-CSS-Tiny-1.20-1.26.noarch.rpm"
-RPM_HASH = "056a42d09a4e05b336046c3d116f8af3e0dc2713e6d44a5863d4355bd7405e845d5b903a2d4a9afaf675fa83701786cbbdbf7936845b80feb2b0e0d32c0cdba5"
+RPM_NAME = "perl-CSS-Tiny-1.200.0-1.7.noarch.rpm"
+RPM_HASH = "0cc4d9ac0b8b6f09e74eef7331d95acc8ac537c2039663e0737a807cff72d6e1545ea9ae1be1dd7622119d07ccc282a76cbd2b104ba39260e45bfd81a9d917aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CSS--Tiny \
 perl-CSS-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.0200"
 
-RPM_NAME = "perl-DBICx-Sugar-0.0200-1.13.noarch.rpm"
-RPM_HASH = "f0d24df9850de98fe2edbff10c5207bafa8a9053f9d5cd4ce4e92723057f6b5e7b339f027fdd097648899b0f431aa8c9349f92a9ee066abfb1e0b757c4deeeac"
+RPM_NAME = "perl-DBICx-Sugar-0.0200-1.27.noarch.rpm"
+RPM_HASH = "2e4f04dd6e2beb700c4ef5e7f8783f488baf7a84f195fc5949a7e19758e1718eb1d3674d2ab7ce7c56a0fed1dc914de1996cfcbe762e0ae45b5810513c6dfd68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBICx--Sugar \
 perl-DBICx-Sugar"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBIx--Class \
 perl-Module--Load \
 perl-SQL--Translator \

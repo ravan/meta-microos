@@ -4,10 +4,10 @@ enclaves. The Nitro CLI needs to be installed on the parent instance, \
 and it can be used to start, manage, and terminate enclaves."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.2~git0.4ccc639"
+PV = "1.5.0~git0.2950b36"
 
-RPM_NAME = "aws-nitro-enclaves-cli-1.2.2~git0.4ccc639-1.5.aarch64.rpm"
-RPM_HASH = "6c7253569d05deb7987d07274f4d44a398afc549c2b1b0a416b9cea7d8a69c73c26b2a112c7140d0ffb5831f41851283729a686cba045537273b0060f76da62d"
+RPM_NAME = "aws-nitro-enclaves-cli-1.5.0~git0.2950b36-1.1.aarch64.rpm"
+RPM_HASH = "dbdd1cb8992e6f402a810d0a3a4f142d9e41a366cb5f8feb3eea1e5ccec9cd500097cd69684013ce746bba3d09cbc35c368ea507c097860788357101929b18f8"
 
 RPROVIDES:${PN} += "aws-nitro-enclaves-cli"
 

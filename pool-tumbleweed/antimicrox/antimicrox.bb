@@ -10,18 +10,19 @@ This application is continuation of project called AntiMicro, \
 which was later abandoned and revived by juliagoda."
 LICENSE = "GPL-3.0-or-later & Zlib"
 
-PV = "3.3.4"
+PV = "3.6.1"
 
-RPM_NAME = "antimicrox-3.3.4-1.1.aarch64.rpm"
-RPM_HASH = "73086b4546fdd592a34681cce2f1e6fafe4462389fe54c80369202a7c01c9e669eb8b30f84d994d7922b80ad0b3158f6e3ccaaf46c0f04a5e2307f83dc7402b4"
+RPM_NAME = "antimicrox-3.6.1-1.2.aarch64.rpm"
+RPM_HASH = "0c7d6315f22705c3041a53ae771c4d54e4f77fbea37482cac87c77d5937a1ee036637692498a9bc6b880ee73da06ffe51d8c1e116e90421e12d5efda867879f0"
 
 RPROVIDES:${PN} += "antimicrox"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
 libSDL2-2.0.so.0 \
 libX11.so.6 \
 libXi.so.6 \

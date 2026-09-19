@@ -6,10 +6,10 @@ achicago bibstyle, attrib, blkcntrl, compsci, dialogue, lips, \
 moredefs, newclude, slemph, titles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-frankenstein-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "a80d0972245089ab51746c16448a66b20e372bceaa3f61614b5267fced6692af918671fb406e9a3ad5f07bd93ce9330e2d0d9c8833c8c7fa128ae17d776a4072"
+RPM_NAME = "texlive-frankenstein-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "453839b5bc403995da335b0859749cf78da461090b95633686c8f25bb8cb62e6a1b2b023dbdf7918b00308a9ee7a8a70095a828a5897a94893831396b3a8146f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-abbrevs.cfg \

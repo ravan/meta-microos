@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains header files needed for developing plugins 
 Workrave."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.10.50"
+PV = "1.10.54"
 
-RPM_NAME = "workrave-devel-1.10.50-2.3.aarch64.rpm"
-RPM_HASH = "1c216bb215aef99c98f29e771600a6db1c89f4f6d35448d9e84582348e55056c376f412b4acdc55277c54b31e2848f5710c33f97633cc7a234f8d6a1562e2230"
+RPM_NAME = "workrave-devel-1.10.54-1.10.aarch64.rpm"
+RPM_HASH = "c524272a32f5e45b4584a673868dc6e3f3acce85a19f6380c3018a227c2b2058af76d311ae156741233fea05cdb484cd68f6da6c52b3f4e3d398656cc4ecb341"
 
 RPROVIDES:${PN} += "workrave-devel"
 

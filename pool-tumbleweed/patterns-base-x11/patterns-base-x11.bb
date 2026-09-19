@@ -2,10 +2,10 @@ SUMMARY = "X Window System"
 DESCRIPTION = "The X Window System provides the only standard platform-independent networked graphical window system bridging the heterogeneous platforms in today's enterprise: from network servers to desktops, thin clients, laptops, and handhelds, independent of operating system and hardware."
 LICENSE = "MIT"
 
-PV = "20200505"
+PV = "20241218"
 
-RPM_NAME = "patterns-base-x11-20200505-42.1.aarch64.rpm"
-RPM_HASH = "1c55c735d5f1d74f797d76257d1bd78b4815d293bc1b33c7c69c9cb19a22f3fb68db729c230fddb5800f7597a6e4ad2a4ccaca78be936c34e4a2a68289a44d79"
+RPM_NAME = "patterns-base-x11-20241218-34.1.aarch64.rpm"
+RPM_HASH = "f0e469f50d32767cc786665a3bcfd816883d9d2331b21e2792086877ddcc3b3ef20aeb42406bb3e2650ab95f3d84633f850d1c19224c1134ecf4ae0a97f70b72"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

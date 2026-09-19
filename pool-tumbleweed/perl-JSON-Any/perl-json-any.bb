@@ -51,16 +51,16 @@ being used: \
  \
     use JSON::Any qw(CPANEL PP); # same as JSON::MaybeXS \
  \
-This will check in that order, and will never attempt to load the JSON::XS \
-manpage, the JSON.pm/JSON manpage, or the JSON::DWIW manpage. This can also \
-be set via the '$ENV{JSON_ANY_ORDER}' environment variable. \
+This will check in that order, and will never attempt to load JSON::XS, \
+JSON.pm/JSON, or JSON::DWIW. This can also be set via the \
+'$ENV{JSON_ANY_ORDER}' environment variable. \
  \
-the JSON::Syck manpage has been deprecated by its author, but in the \
-attempt to still stay relevant as a 'Compatibility Layer' JSON::Any still \
-supports it. This support however has been made optional starting with \
-JSON::Any 1.19. In deference to a bug request starting with JSON 1.20, the \
-JSON::Syck manpage and other deprecated modules will still be installed, \
-but only as a last resort and will now include a warning. \
+JSON::Syck has been deprecated by its author, but in the attempt to still \
+stay relevant as a 'Compatibility Layer' JSON::Any still supports it. This \
+support however has been made optional starting with JSON::Any 1.19. In \
+deference to a bug request starting with JSON.pm 1.20, JSON::Syck and other \
+deprecated modules will still be installed, but only as a last resort and \
+will now include a warning. \
  \
     use JSON::Any qw(Syck XS JSON); \
  \
@@ -68,9 +68,8 @@ or \
  \
     $ENV{JSON_ANY_ORDER} = 'Syck XS JSON'; \
  \
-At install time, JSON::Any will attempt to install the JSON::PP manpage as \
-a reasonable fallback if you do not appear have *any* backends installed on \
-your system. \
+At install time, JSON::Any will attempt to install JSON::PP as a reasonable \
+fallback if you do not appear have *any* backends installed on your system. \
  \
 WARNING: If you call JSON::Any with an empty list \
  \
@@ -78,17 +77,17 @@ WARNING: If you call JSON::Any with an empty list \
  \
 It will skip the JSON package detection routines and will die loudly that \
 it couldn't find a package."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.39"
+PV = "1.420.0"
 
-RPM_NAME = "perl-JSON-Any-1.39-1.28.noarch.rpm"
-RPM_HASH = "0c0dbaa3ac7423e333d6185dd07d1feaf4984550033f1a438269385ed91548ee2c7c3e13ad34863e56074fde7c755ec47dff8ec50f2f9b52e8922b2f98311040"
+RPM_NAME = "perl-JSON-Any-1.420.0-1.2.noarch.rpm"
+RPM_HASH = "57230dbf89ab2ee9d96fb3bf831a99ab4441713c590f97e99143993e49c1234066b73e658c0ad22c3cfac06f350aee144f484a5e263dd6e2280a84085c37f1e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-JSON--Any \
 perl-JSON-Any"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

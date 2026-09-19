@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "2.1.0"
 
-RPM_NAME = "gtk3-metatheme-paper-2.1.0-2.16.noarch.rpm"
-RPM_HASH = "5056c65b36948bccf234a81fff3da5fc6429d115d9310953855ffbe2ab313838b3211f72dc9147178d72164c6be4c366a0193b0b120587c30da34134aad6bcd6"
+RPM_NAME = "gtk3-metatheme-paper-2.1.0-2.24.noarch.rpm"
+RPM_HASH = "f3ebf11dbc53daccf1089c87499347cca866402ac5b3bb85b5a0cd780c56652dbf5fec8ef50bea1a18d6b98f03532a29811212f089bcaa2f24f2087c408d4fe4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-paper"

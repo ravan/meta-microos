@@ -2,10 +2,10 @@ SUMMARY = "Header files for ulfius"
 DESCRIPTION = "Development and header files for libulfius."
 LICENSE = "MIT"
 
-PV = "2.7.12"
+PV = "2.7.15"
 
-RPM_NAME = "ulfius-devel-2.7.12-1.4.aarch64.rpm"
-RPM_HASH = "cb37ed20a0296e50c6e66f37665252b2970d151452ab1c8fc6fda2b09f492d4c505e5b45efcc37dd956ca44ab96866b9e18af932c5cafecc46604b3effdb333d"
+RPM_NAME = "ulfius-devel-2.7.15-2.1.aarch64.rpm"
+RPM_HASH = "33aaf41d6090fe29c6979acbcf9c099321b4fea0b2b11e142f4edb5814bbf021f5de5e4b833146dc968ab9c2a7b51533e1fa38bcd04f56b1edf58b12b49faa93"
 
 RPROVIDES:${PN} += "cmake-Ulfius \
 pkgconfig-libulfius \

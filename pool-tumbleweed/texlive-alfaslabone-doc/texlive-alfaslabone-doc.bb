@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-alfaslabone"
 DESCRIPTION = "This package includes the documentation for texlive-alfaslabone"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.0.1svn57452"
+PV = "2026.226.0.0.0.1svn77682"
 
-RPM_NAME = "texlive-alfaslabone-doc-2023.209.0.0.0.1svn57452-55.1.noarch.rpm"
-RPM_HASH = "0ef6390384156cc457b6e15f8e61111c27691273cc95996585668bc2a3aeecb88ff6edb16293672de45c362b12430e8c356f573c08cf4607b1cb507a76cafde1"
+RPM_NAME = "texlive-alfaslabone-doc-2026.226.0.0.0.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "f2b64e86a6746ba79f65df3f88ae5970782db68f1d3b2d541071bc472b714cd0872a5d6705cacb0c31870bceddb4ee4bdd9a5a5288319e32fec95d84aab89e25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alfaslabone-doc"

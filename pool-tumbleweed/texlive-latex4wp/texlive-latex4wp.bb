@@ -5,10 +5,10 @@ LaTeX typesetting environment. It aims at helping WP users use \
 LaTeX instead."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.209.1.0.10svn35999"
+PV = "2026.226.1.2svn68096"
 
-RPM_NAME = "texlive-latex4wp-2023.209.1.0.10svn35999-55.1.noarch.rpm"
-RPM_HASH = "e0c46e0af5f2f03416c285f58e7ee03620610722e02b3cb00344bb7fc736b94eb23c385835d11c16314a18479db04c9522532f20ebe9c2e2c0dae1962637022b"
+RPM_NAME = "texlive-latex4wp-2026.226.1.2svn68096-61.2.noarch.rpm"
+RPM_HASH = "0864c7914c9868ca2192fe8632fe86e5d8e0e7983214dd10218d9f61bbac4bbf203ac12cd0b4190345d1267b05109432eaf7e99667d76bf64d52dc78f1f10ecd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex4wp"

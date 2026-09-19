@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "22"
 
-RPM_NAME = "google-lekton-fonts-22-11.17.noarch.rpm"
-RPM_HASH = "820d0e652964e1afb863b135ae36113d7df329e44cd2624a28c00e85658fc85ff95fd229ac17fe484bcd08db4386877f0ec6d723deb447a2895960242e5a73f8"
+RPM_NAME = "google-lekton-fonts-22-11.25.noarch.rpm"
+RPM_HASH = "294725dfec57717ffd4d8badeb95ef12aa67b042a8f664e33da2f4bde36ad756849c27ceb135cc908377c5cbeac24052d2349137c0a92358aa7a70da6f951920"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-lekton-fonts"

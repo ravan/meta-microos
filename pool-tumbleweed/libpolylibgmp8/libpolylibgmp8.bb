@@ -1,12 +1,12 @@
 SUMMARY = "Library for computing homotopy continuation of roots"
 DESCRIPTION = "The Polyhedral Library (PolyLib) operates on objects made up of \
 unions of polyhedra of any dimension."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "MIT"
 
-PV = "5.22.5"
+PV = "5.22.8"
 
-RPM_NAME = "libpolylibgmp8-5.22.5-2.1.aarch64.rpm"
-RPM_HASH = "6158d0a31393337035d3bd2e30ae858e9f9e186f1288ea64ff64be4ae2217226b8d4b90bd7830d5b6fffabdec7723dc4ffd5be8412a3973159b3ecd5511dc17b"
+RPM_NAME = "libpolylibgmp8-5.22.8-1.5.aarch64.rpm"
+RPM_HASH = "8507eebb51bde49695a40901cc380794533f17d5d9dae5e1389912c0305856d55ac1b999137ae812bc526ead74315c69bd0b80d1d81ef17c54fa30698f615820"
 
 RPROVIDES:${PN} += "libpolylibgmp.so.8 \
 libpolylibgmp8"

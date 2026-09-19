@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-3.0-only"
 
 PV = "1.6.1"
 
-RPM_NAME = "lightdm-slick-greeter-branding-upstream-1.6.1-1.4.noarch.rpm"
-RPM_HASH = "1c14acfe9f7ba959d0ca41eda880131f8cb60c6829df982125c58cb0f79f9c7067715342a53f0bbd867adc1b5930bb1bc8b1505654b1422b5b2a714604d4959d"
+RPM_NAME = "lightdm-slick-greeter-branding-upstream-1.6.1-2.10.noarch.rpm"
+RPM_HASH = "d2c1d1aee2e71deb6b0b134273a82efb2fe657da64105d9d863df7ea858cad3b0aebf3b8dcf95137380884db889c901249f47619fb56bcd847104a9d09877d0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightdm-slick-greeter-branding \

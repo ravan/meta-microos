@@ -11,10 +11,10 @@ This package contains the OpenBSD rewrite of netcat, including support \
 for IPv6, proxies, and Unix sockets."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.203"
+PV = "1.229"
 
-RPM_NAME = "netcat-openbsd-1.203-4.7.aarch64.rpm"
-RPM_HASH = "1a880302ec6d9a309f9c5830fc05a001ec1d7af44a9c390faf4184f76ff4e37417eb7014a85654093417d8bdbbe286387163e524e035010fc2e92bfc7f55d707"
+RPM_NAME = "netcat-openbsd-1.229-1.5.aarch64.rpm"
+RPM_HASH = "455a49abc98f10df79ab00a7f71dd761c4a0bad12f28ce769c64978cbb0cca3e04a445110af1d6dee67236ee113ff2f1c682b76addbe38866e51f0856ee79146"
 
 RPROVIDES:${PN} += "nc6 \
 netcat \

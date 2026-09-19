@@ -4,10 +4,10 @@ It is loaded into X server as a module if enable in X server's \
 configuration."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "1.13.1"
+PV = "1.16.1"
 
-RPM_NAME = "xorg-x11-Xvnc-module-1.13.1-3.3.aarch64.rpm"
-RPM_HASH = "aecfb275ecc27253870347d6a51d48a2c38f2635caed548c92f062eb9c8f16d53642b4f9e12ef45a949ce9d0c6548e5c1ef4728e722fa6aa0560197275a37b4d"
+RPM_NAME = "xorg-x11-Xvnc-module-1.16.1-3.1.aarch64.rpm"
+RPM_HASH = "b34e292a58d2b3993a387367a1304021331a8d46d71eb3dc6c75be2c243b3e15958395692a2149a200c777444a852e0d3018e32914bd104b755facb921ac6242"
 
 RPROVIDES:${PN} += "libvnc.so \
 xorg-x11-Xvnc-module"
@@ -15,15 +15,7 @@ xorg-x11-Xvnc-module"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgmp.so.10 \
-libgnutls.so.30 \
-libhogweed.so.6 \
-libjpeg.so.8 \
-libnettle.so.8 \
-libpam.so.0 \
-libpixman-1.so.0 \
 libstdc++.so.6 \
-libz.so.1 \
 xorg-x11-Xvnc"
 
 inherit rpm

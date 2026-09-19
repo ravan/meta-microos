@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.14"
 
-RPM_NAME = "mailgraph-apache-1.14-9.7.noarch.rpm"
-RPM_HASH = "18a53e519170da7da4891a8c37c595dd4d3b0a68fb07e612e14ebcebc9a9dbd14c931bff8e6344d5c199f7560909f30630cc1fd266d9f6ac95ca65845ffba8d2"
+RPM_NAME = "mailgraph-apache-1.14-11.6.noarch.rpm"
+RPM_HASH = "227e0c32a06534cc2299b7b3c96f0293da5d9b70af868373972e55589e0636403fa6c30f5f1f3db18f2cc1cfa06af8717ed839836fd8050626f2fee135a5396a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mailgraph-apache"

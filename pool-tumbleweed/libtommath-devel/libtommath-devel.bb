@@ -8,10 +8,10 @@ can be used to write one [Used in LibTomCrypt for RSA, DH and ECC public key \
 routines]."
 LICENSE = "Unlicense"
 
-PV = "1.2.0"
+PV = "1.3.0"
 
-RPM_NAME = "libtommath-devel-1.2.0-3.1.aarch64.rpm"
-RPM_HASH = "652c11737414161f44da7950787eb55caf1a9bb7ccd2cb60b3e09c4624cab9ca56e6420ed99a33ff6dab99ab516d6e1067af5d30e26c8015c257849c6192246e"
+RPM_NAME = "libtommath-devel-1.3.0-1.9.aarch64.rpm"
+RPM_HASH = "f1879958adb2f25f7dfcfe9b013c6650bcdecbbbc5bbc55920b999f37f1d21f7a576f9d01db021e31f36a2f890be148e06df57b4f63c2d0c0baf7a0f5e382a76"
 
 RPROVIDES:${PN} += "libtommath-devel \
 libtommath0-devel \

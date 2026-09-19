@@ -2,10 +2,10 @@ SUMMARY = "Documentation for gcr"
 DESCRIPTION = "This packages provides the documentation for various gcr packages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.1.0"
+PV = "4.4.0.1"
 
-RPM_NAME = "gcr-doc-4.1.0-1.2.noarch.rpm"
-RPM_HASH = "5e0b69a0df2c423d8fffd9376e344139d51c182ead6091a98e736aa0dbd4052c6fddc7356d2a848cc752a71bb6d09ce78a998721e1b29abfb5caec4b3c4d2e7f"
+RPM_NAME = "gcr-doc-4.4.0.1-3.3.noarch.rpm"
+RPM_HASH = "a268fd02ad8f5e65f9cbc5d895a24e20c7cd310ba43630c9d32e75b5e22c7e55f4bed6a2757cf6e70fd9744a1915fcced74dc8dac437165681006b6f35c23466"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcr-doc"

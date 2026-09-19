@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kaidan"
 DESCRIPTION = "Provides translations for the 'kaidan' package."
 LICENSE = "AML & GPL-3.0-or-later & SUSE-GPL-3.0+-with-openssl-exception & MIT & CC-BY-SA-4.0"
 
-PV = "0.9.1"
+PV = "0.16.0"
 
-RPM_NAME = "kaidan-lang-0.9.1-1.2.noarch.rpm"
-RPM_HASH = "1396243cdcac7dbe2de407ca0d5177265be1e75f833bc93e3f441339d26d1ca9fecc9ea6937fc0093daf3ae2d4ea99f783d3dc13cc2c8206a8f769e897beb701"
+RPM_NAME = "kaidan-lang-0.16.0-1.2.noarch.rpm"
+RPM_HASH = "6364c27aff9af5d31960e07c774e8fe021d63dfadfe681294aece54d208de860fef92eb2d0919c037112c7fbdba79fb429d2ae5b207740c3ecdb0734deba9250"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kaidan-lang \
@@ -17,16 +17,21 @@ locale-kaidan-cs \
 locale-kaidan-de \
 locale-kaidan-el \
 locale-kaidan-en-GB \
+locale-kaidan-eo \
 locale-kaidan-es \
 locale-kaidan-eu \
 locale-kaidan-fi \
 locale-kaidan-fr \
+locale-kaidan-ga \
 locale-kaidan-gl \
 locale-kaidan-he \
 locale-kaidan-hu \
 locale-kaidan-it \
+locale-kaidan-ja \
 locale-kaidan-ka \
 locale-kaidan-ko \
+locale-kaidan-lt \
+locale-kaidan-mr \
 locale-kaidan-ms \
 locale-kaidan-nb \
 locale-kaidan-nl \
@@ -39,7 +44,9 @@ locale-kaidan-sk \
 locale-kaidan-sl \
 locale-kaidan-sv \
 locale-kaidan-tr \
-locale-kaidan-uk"
+locale-kaidan-uk \
+locale-kaidan-zh-CN \
+locale-kaidan-zh-TW"
 
 RDEPENDS:${PN} += "kaidan"
 

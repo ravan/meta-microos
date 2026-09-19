@@ -7,10 +7,10 @@ Features: \
 - Spotlight effect"
 LICENSE = "GPL-2.0-only"
 
-PV = "0.13.1"
+PV = "0.13.2"
 
-RPM_NAME = "impressive-0.13.1-1.5.noarch.rpm"
-RPM_HASH = "84ff618d4d2438ea22a780db046b4d8a3519d6cc0a283b8a7913fd9cb13367d9f47c83b1358cb6b2556e81dfa2c96d6081e4762a9e6e264651fda5a9b024fe02"
+RPM_NAME = "impressive-0.13.2-1.9.noarch.rpm"
+RPM_HASH = "8c57d628e0cb4f5fa060ce70a7c897a67c3979db9efa9faed9108f15765cb73faa8ce90561627134a9c0065a55dd770326e0b0026d6212b9230a1faacacbe72f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "impressive"

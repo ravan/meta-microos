@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries \
 needed to develop applications that require these."
 LICENSE = "GPL-2.0-only & GPL-3.0-or-later & MIT"
 
-PV = "5.8.0"
+PV = "6.6.0"
 
-RPM_NAME = "cinnamon-control-center-devel-5.8.0-1.1.aarch64.rpm"
-RPM_HASH = "b280fd19f4734820bf7d0eeb22ebd197251bfcf8fb802d8d105316c8507658371c6e22233332c354364d2027cc90d1959a0a3793ad936d07fde6dfef117d7437"
+RPM_NAME = "cinnamon-control-center-devel-6.6.0-1.3.aarch64.rpm"
+RPM_HASH = "82f9b60070ee7e502a0f864f7376dd52d0df03eecf31a32dfb2917377b1b6baee4717313b5b41433dce31db2c01715014af25ce2a3c7f0f8cef889a9998f5422"
 
 RPROVIDES:${PN} += "cinnamon-control-center-devel \
 pkgconfig-libcinnamon-control-center"

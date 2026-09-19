@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.32"
 
-RPM_NAME = "lsscsi-0.32-1.3.aarch64.rpm"
-RPM_HASH = "27a95e497e4605f4638dccbe99df7019feb68443456fa37d089004f6b25de01d062caaaaaff6ed10d64c46dd499ac5334510ea346184317a8ee327204ffea832"
+RPM_NAME = "lsscsi-0.32-1.13.aarch64.rpm"
+RPM_HASH = "82e1ddbb4fc2740382772550d2db2c068335f53c83afcb71fb5dbaaacc235a32f67bc909c7398302a4448be1eeba1648d815abd161fdcd86ecc208dc81c0a776"
 
 RPROVIDES:${PN} += "lsscsi \
 scsi-/usr/bin/lsscsi"

@@ -7,10 +7,10 @@ that enables you to connect to your camera and preview, download, or \
 delete your images, is provided."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.1.0"
+PV = "9.1.0"
 
-RPM_NAME = "digikam-8.1.0-2.1.aarch64.rpm"
-RPM_HASH = "32ff5141ea83cffb91654246c5c00e9325bf3c4ded0f5f7680c96f036ca041ff18796c0cf5e485ec4656b6fc6954b05f9ff2096aa409cd031f806786647ac97a"
+RPM_NAME = "digikam-9.1.0-1.2.aarch64.rpm"
+RPM_HASH = "fb61f55ce3a0ebe4424b17b71d0c828dbec99f244e581b7893b14fbe3d398e79ff3cd1113a83dfa5436bc9481a10ccbb3b04018ca31ec1d5737a34d204d0af91"
 
 RPROVIDES:${PN} += "digikam \
 digikam-doc \
@@ -24,20 +24,21 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
 digikam-plugins \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
 libMagick++-7.Q16HDRI.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Sql.so.5 \
-libQt5Sql5-sqlite \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libdigikamcore.so.8.1.0 \
-libdigikamdatabase.so.8.1.0 \
-libdigikamgui.so.8.1.0 \
+libdigikamcore.so.9.1.0 \
+libdigikamdatabase.so.9.1.0 \
+libdigikamgui.so.9.1.0 \
 libgcc-s.so.1 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6-sql-sqlite"
 
 inherit rpm

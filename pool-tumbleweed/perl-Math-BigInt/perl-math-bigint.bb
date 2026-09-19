@@ -3,19 +3,20 @@ DESCRIPTION = "Math::BigInt provides support for arbitrary precision integers. O
 is also provided for Perl operators."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.999839"
+PV = "2.005003"
 
-RPM_NAME = "perl-Math-BigInt-1.999839-1.2.noarch.rpm"
-RPM_HASH = "3aab2e17d631dd6415aece37d25f84a8ba61f5643e3e0d789f54326d7af690c2feb1321e030e054183405c43f69bb3986adda0d6e5532ebf84ef44203fc21f71"
+RPM_NAME = "perl-Math-BigInt-2.005003-1.7.noarch.rpm"
+RPM_HASH = "cf10e7f810fa260da3291bb83f13c4493eca2aa4f86ebc731d0c6563314ac0ce11ddff82ad9b2519335b652ee40beaade6642a34f74df04fd5bc655ab964b454"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Math--BigFloat \
 perl-Math--BigInt \
 perl-Math--BigInt--Calc \
 perl-Math--BigInt--Lib \
+perl-Math--BigRat \
 perl-Math-BigInt"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Carp \
 perl-Math--Complex"
 

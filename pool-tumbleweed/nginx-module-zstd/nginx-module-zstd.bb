@@ -5,10 +5,10 @@ Zstd, short for Zstandard, is a lossless compression algorithm. Speed \
 vs. compression trade-off is configurable in small increments."
 LICENSE = "BSD-2-Clause"
 
-PV = "0~g23"
+PV = "0.1.1"
 
-RPM_NAME = "nginx-module-zstd-0~g23-1.4.aarch64.rpm"
-RPM_HASH = "d60eb24dc959d84f67faf09bab985f3aee061f07425ebc9a65834128fad8479368016783d9b7f923ecb9f6244bd555fb52bbb73a1745182d4277558cac072d29"
+RPM_NAME = "nginx-module-zstd-0.1.1-2.19.aarch64.rpm"
+RPM_HASH = "3ac09ce0062de56d783427e62ff1fb2f9e46beed234d10b7b5b6ded5e2ef5121e31ddebe448085a10749b9ae5e8a10101b1c74001ff81d3e3faeee77db136b95"
 
 RPROVIDES:${PN} += "nginx-module-zstd"
 

@@ -7,21 +7,21 @@ you can choose your favourite compare tool for one-on-one, \
 three-way and multi-compare situations."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.0"
+PV = "6.4.0"
 
-RPM_NAME = "nemo-extension-compare-5.2.0-4.1.noarch.rpm"
-RPM_HASH = "001adedd2bc0494f92641e7ca72beca8503cf745f4558ab94736c9956771464f4740aeeb82bef74bdbbd5efc0df84b746c1e0cbb4ed6d1e3bcd901c8df4a5fb7"
+RPM_NAME = "nemo-extension-compare-6.4.0-6.4.noarch.rpm"
+RPM_HASH = "3da8dc74a279a92b56f715d053a15fbcee53135a2d1b770a04f9b7a0754dd693f07c4364b10a27bbc96f14d38d61cbe73d6979557323ca7a789c0b2fa2fc1b99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-compare \
 nemo-extension-compare \
-python3.11dist-nemo-compare \
+python3.13dist-nemo-compare \
 python3dist-nemo-compare"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/python3.13 \
 meld \
 nemo \
-python-abi \
 python3-gobject \
 python3-nemo \
 python3-pyxdg \

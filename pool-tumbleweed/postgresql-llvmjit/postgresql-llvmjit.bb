@@ -10,15 +10,17 @@ deforming into native code, with the goal of accelerating analytics \
 queries."
 LICENSE = "PostgreSQL"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "postgresql-llvmjit-15-2.12.noarch.rpm"
-RPM_HASH = "b283605d3660628b6538f46e72829327c87159a7258e869de98e02b90f01e36c217884d4c098b6e322ed76104ee9759ed63f32e4495e812466141ce6fc4620e2"
+RPM_NAME = "postgresql-llvmjit-18-3.4.noarch.rpm"
+RPM_HASH = "facce6fa18b7f7df46b5444fdc0270cc5b5cdd2928ef5c0a8f31a6f037788e1fbba5dc0daac6cf27447bb84d41ac148e08cc65103eb8450667a28bb00412ea3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-llvmjit \
 postgresql-llvmjit-noarch"
 
-RDEPENDS:${PN} += "postgresql-llvmjit-implementation"
+RDEPENDS:${PN} += "postgresql \
+postgresql-llvmjit-implementation \
+postgresql-noarch"
 
 inherit rpm

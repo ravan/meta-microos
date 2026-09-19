@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.76"
 
-RPM_NAME = "libpst4-0.6.76-1.4.aarch64.rpm"
-RPM_HASH = "7ffb9bb2c33ba8bfbbe8e58b5b7dd37ba3df2ab448a62901a84f667d89d89af38e175d670c3a66e4a1187594424dc26cde2fd1fb150b85077670854068390ae8"
+RPM_NAME = "libpst4-0.6.76-3.6.aarch64.rpm"
+RPM_HASH = "82838e988080529f6c884ddea928a7648a149a6fc541747ab06b4df25d39d47b17d5bdfb4e8d9a2e97b7d5ce85b3b85547c10e4f9904583f3caaac535f5faac0"
 
 RPROVIDES:${PN} += "libpst.so.4 \
 libpst4"

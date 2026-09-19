@@ -7,16 +7,16 @@ format. \
 Compatibility package."
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.2"
 
-RPM_NAME = "mingw32-libz-1.2.13-3.2.noarch.rpm"
-RPM_HASH = "7085f31308a67b5958f004cc5d2364ba58596639071e01c2e5e120c84e0e1ffc5da9e2b8392d76a22fdafe8763a8ac81c7c8d8985d8a3fc34082bf9edfb9faa4"
+RPM_NAME = "mingw32-libz-1.3.2-1.6.noarch.rpm"
+RPM_HASH = "8e477a69869e5f8af0b061fd321c073bfebe9284625fc7ec8725a91ec1462c907f6a59b9ecc2df1633ddcc0b10fe78eb4ce59baa538912e620428dd8a2aece33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-libz \
 mingw32-libz.dll \
 mingw32-zlib"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "mingw32-libgcc-s-sjlj-1.dll"
 
 inherit rpm

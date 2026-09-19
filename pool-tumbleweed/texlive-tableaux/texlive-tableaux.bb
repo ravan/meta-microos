@@ -5,10 +5,10 @@ Placement of labels within the boxes may be absolute, or as a \
 percentage of the width; various other controls are available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn42413"
+PV = "2026.226.svn42413"
 
-RPM_NAME = "texlive-tableaux-2023.209.svn42413-58.1.noarch.rpm"
-RPM_HASH = "88aba5017be174dfd56ba47346f686eb139e37714d810f68f71f124f1014d456542895a8b8a9d819adfe7adc00148163787e5478363ee869c0d3bc0206d00d2f"
+RPM_NAME = "texlive-tableaux-2026.226.svn42413-64.2.noarch.rpm"
+RPM_HASH = "adff4c3b587eab34bfbbe0fe34b836518ca4a26e38ea94455afa72a872fd03dbde2fe5316c16562ade3d1402406f6bdd5cc6e49048d10527d4bc0c3ccc621af9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minimum.sty \

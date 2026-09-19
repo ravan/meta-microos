@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files needed to compile programs that u
 the FLAC library."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & GFDL-1.2-only"
 
-PV = "1.4.3"
+PV = "1.5.0"
 
-RPM_NAME = "flac-devel-1.4.3-1.1.aarch64.rpm"
-RPM_HASH = "34c21a3d2d9f5040a1321b9ad6668ef61ecbdad61151cc9772fa33c024d2e71c8eb26a7ae55389b27cb7578f24bdee466014e1e7a0d59e035d96f4c88d1221f9"
+RPM_NAME = "flac-devel-1.5.0-1.8.aarch64.rpm"
+RPM_HASH = "e3cf846271858c37fc01833b9028854076a331684e40744993d69094d751bc4107810660b9a102c6bbc694fd4e03ac214db8348d8a32f50a7e376cd8ce0e10bd"
 
 RPROVIDES:${PN} += "flac-devel \
 pkgconfig-flac \
@@ -14,8 +14,8 @@ pkgconfig-flac++"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
-libFLAC++10 \
-libFLAC12 \
+libFLAC++11 \
+libFLAC14 \
 libstdc++-devel \
 pkgconfig-flac \
 pkgconfig-ogg"

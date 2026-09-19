@@ -13,10 +13,10 @@ or by running \
 gphoto2 --list-cameras"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.5.31"
+PV = "2.5.34"
 
-RPM_NAME = "libgphoto2-6-2.5.31-1.1.aarch64.rpm"
-RPM_HASH = "54855c8412a47115e1180960879e0416b85278de991b8d7e4fa89b1f01b1b8b6fd235394299d03d23bb826219dec0f3e5b9a3fd6781cfa30f813784a7b02e277"
+RPM_NAME = "libgphoto2-6-2.5.34-1.3.aarch64.rpm"
+RPM_HASH = "dbb277bb30730b0364102269c413ea671db016a4c49ff9d9b8d9c446f126647df7b38609fcfb20e201c5b869e24f7f2f79888fcbb419d5bf707d933117c3782d"
 
 RPROVIDES:${PN} += "libgphoto2-6 \
 libgphoto2.so.6"
@@ -31,7 +31,7 @@ libgphoto2-port.so.12 \
 libjpeg.so.8 \
 libltdl.so.7 \
 libm.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 udev"
 
 inherit rpm

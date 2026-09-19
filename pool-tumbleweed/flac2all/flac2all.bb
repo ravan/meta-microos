@@ -6,15 +6,15 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.1"
 
-RPM_NAME = "flac2all-5.1-1.10.noarch.rpm"
-RPM_HASH = "9335e7cb09b051bfe65c81222462c357d35b00e15005fe398f84aca4b44cdf37d13188df06d814b2a1e3c9603cac4c48e081a6eaf79e44eee833bb216b5cc20c"
+RPM_NAME = "flac2all-5.1-1.20.noarch.rpm"
+RPM_HASH = "484806cea20e6ce31e6783a4cddc1f7960590c711507a58dee44f031c95027d5698c652bf44640f436453d58136c9ad29491e8b58aefa32eebacd83b348ffb36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flac2all \
-python3.11dist-flac2all \
+python3.13dist-flac2all \
 python3dist-flac2all"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-curses"
 

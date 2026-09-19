@@ -4,10 +4,10 @@ of different messaging transports. \
 This package contains the documentation."
 LICENSE = "Apache-2.0"
 
-PV = "14.3.1"
+PV = "18.3.0"
 
-RPM_NAME = "python3-oslo.messaging-doc-14.3.1-1.1.noarch.rpm"
-RPM_HASH = "f5fe838028cad04a24589fe1c0ec5dcf0f077a2ecbc1dd19284231f9ee7b4b2633338f33ee1baea11511251ff2653165034b6de3868d7fba8bc53f4f7948c31b"
+RPM_NAME = "python3-oslo.messaging-doc-18.3.0-1.1.noarch.rpm"
+RPM_HASH = "b1d260e25c39b9c35ede63689927e697419ead04f181d7fa78c1f2bb3bf5c0f919614a237046cd4f991bbbd91d2341b75cde94f45b89f1312c7bda85619f3486"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.messaging-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-varindex"
 DESCRIPTION = "This package includes the documentation for texlive-varindex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn32262"
+PV = "2026.226.2.3svn32262"
 
-RPM_NAME = "texlive-varindex-doc-2023.209.2.3svn32262-54.1.noarch.rpm"
-RPM_HASH = "407ddb09775f9c76ba6f35ff12d91dbf4dec2cbccb59f3fe3d17a464bc3660378239e86cfc28b696c06bebe75a99be3ea4b58f7b25c5a9deafd33bb2d2bf3392"
+RPM_NAME = "texlive-varindex-doc-2026.226.2.3svn32262-60.2.noarch.rpm"
+RPM_HASH = "e6218a93dfda0924f4089c72bd2d92b9caa8cd55aa42780516f6dad00f7b68858150b74a23e9b9312be7d0e627bf5c07e5e08ad2a9b790eb1cb3d01a7c034545"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-varindex-doc"

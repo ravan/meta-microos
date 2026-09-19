@@ -11,10 +11,10 @@ queries and fetch data. PDO does not provide a database abstraction; \
 it does not rewrite SQL or emulate missing features."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-pdo-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "ddaade97ae2f9b5470f0b3471a8b776857b95569b6bd211429dc7653a71d68cf420e9059582208ca5dc371c7400b14bdca1044324703aebd8d2a44737a987373"
+RPM_NAME = "php8-pdo-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "f4de1dc0309be2793e836facccc4d0f11735c26375c3ae0a2fa091547f038dbc8ea2abd3b87f6a68c8108a47f42cb0325a1f1a7fdb1d4780326692c6dd9660b9"
 
 RPROVIDES:${PN} += "config-php8-pdo \
 php-pdo \

@@ -10,8 +10,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "soci-postgresql-devel-4.0.2-4.5.aarch64.rpm"
-RPM_HASH = "bd626abae0d48aacd2661b8d6ce03297898ca20226c36b79c5feec6e63aeb27f4a2ab561e2f5024e597ef56d606b81b90410817183d5ebd15d18946a11995b0e"
+RPM_NAME = "soci-postgresql-devel-4.0.2-5.10.aarch64.rpm"
+RPM_HASH = "d77acccd327fac1642d2a6ee8a56a91000dea8ba70cbda3c04ebbc50cabd5be0aed444e71ce57ed36049ba0a01961ddf7b87d5b4b14bddbfd9ee420bcea5e5a3"
 
 RPROVIDES:${PN} += "soci-postgresql-devel"
 

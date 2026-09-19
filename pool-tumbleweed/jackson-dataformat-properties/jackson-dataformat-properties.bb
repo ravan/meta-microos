@@ -5,10 +5,10 @@ assuming dotted notation, but configurable from non-nested to other \
 separators)."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-dataformat-properties-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "36eb82cae53d79ab9f682391dbb4a60272054788db44488beec49c4b84dbbfee8f9bab0f4657828adc2e3d20209072707d349760943fd58c1525560071f4d4ea"
+RPM_NAME = "jackson-dataformat-properties-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "4bfd044aa0490a8958448a5f17eed8512be3aa827bd94f71c86fe658fb76df15b4a5d1331b0d3ecc8443aecc5b5caa4c55caf34a7de077ce78249837f5753093"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-properties \

@@ -11,10 +11,10 @@ letters, and each letter will have its own table of contents, \
 etc., independent from the other ones."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.36dsvn61719"
+PV = "2026.226.0.0.36dsvn61719"
 
-RPM_NAME = "texlive-cdpbundl-2023.209.0.0.36dsvn61719-53.1.noarch.rpm"
-RPM_HASH = "934cc5c7a08743156bd00ab0ade933f5012958c3c59e6e2d416ce528473f2d974798b1357351d43707162726dcf468b9caaf7e8f4cb789042e29a2a07fb9473d"
+RPM_NAME = "texlive-cdpbundl-2026.226.0.0.36dsvn61719-59.2.noarch.rpm"
+RPM_HASH = "e3113bda7b2d28d998b1d8672c16a1536537bd1e4ac289e64fc346fa4ccb7cbf266926aa660846f4b03a599477a751287202e230b4c8310a4c8f0726de17044b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-articoletteracdp.cls \

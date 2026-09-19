@@ -8,10 +8,10 @@ in square brackets, doing the right thing in ignoring leading \
 and trailing spaces."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn56615"
+PV = "2026.226.0.0.3svn77682"
 
-RPM_NAME = "texlive-environ-2023.209.0.0.3svn56615-54.2.noarch.rpm"
-RPM_HASH = "f841af72b3de647e5aa6701f2056cc74d70b4245b104ef1dc3af15db8a89d5fe6c7e81c174394222e8d4d98a9f17d8e6d370e91386cb7a3b9aa1d1fb3857b3a1"
+RPM_NAME = "texlive-environ-2026.226.0.0.3svn77682-61.4.noarch.rpm"
+RPM_HASH = "f993e4e8606004d21a2a010600116c93bef5f17237b6a5e07c644392dcf75e4f81c721fa54469d2eacfe0b7a7cb6577f5fa1b40620f3307741c79ef4c20138f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-environ.sty \

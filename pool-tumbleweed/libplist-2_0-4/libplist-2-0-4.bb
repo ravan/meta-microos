@@ -2,10 +2,10 @@ SUMMARY = "Library for handling Apple Binary and XML Property Lists"
 DESCRIPTION = "libplist is a library for handling Apple Binary and XML Property Lists."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "2.3.0"
+PV = "2.6.0"
 
-RPM_NAME = "libplist-2_0-4-2.3.0-1.2.aarch64.rpm"
-RPM_HASH = "ddba07be68dc1ca82985d140241a493c8ed712e5120b8e94f5458caabb7fd0c9b44ddd95d707c59c3464cf4e7322b48c1fabe89d92c70ab3c15d5b059d4c1712"
+RPM_NAME = "libplist-2_0-4-2.6.0-3.6.aarch64.rpm"
+RPM_HASH = "92f057293051e3981300fdcce883260814d8243986c42ae9a8e3808788f1a28cd10694cd148f283ff53e384a0fa697a64ba1bd50b6d6dd122e61dd83140d2307"
 
 RPROVIDES:${PN} += "libplist-2-0-4 \
 libplist-2.0.so.4"

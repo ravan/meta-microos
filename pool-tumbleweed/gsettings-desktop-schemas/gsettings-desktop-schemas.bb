@@ -3,10 +3,10 @@ DESCRIPTION = "A collection of GSettings schemas for settings shared by various 
 components of a desktop."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.0"
+PV = "50.1"
 
-RPM_NAME = "gsettings-desktop-schemas-44.0-1.1.aarch64.rpm"
-RPM_HASH = "6b143f2c16277178fc7ce9ac30b800a88f88fe787f73c68d361dab6a7b638214787adcff9a56e4b8fd239a5f64e248c75921cba2f33c678c606d63a7bebead75"
+RPM_NAME = "gsettings-desktop-schemas-50.1-1.2.aarch64.rpm"
+RPM_HASH = "8a22e17a777a6afd9a91f76a52a0b932e85bbf9bd1b0e7558cf2377e7475deadc14f95c9cdee25251684ec868533703f6df08fe187a93c9e6565d1aa276c35c7"
 
 RPROVIDES:${PN} += "gsettings-desktop-schemas \
 typelib-GDesktopEnums"

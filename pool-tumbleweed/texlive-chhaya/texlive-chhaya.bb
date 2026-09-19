@@ -5,10 +5,10 @@ aajnyaasNc. This package provides macros for linguistic \
 glossing as per the rules given by Mumbai University."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.4svn61719"
+PV = "2026.226.0.0.4svn61719"
 
-RPM_NAME = "texlive-chhaya-2023.209.0.0.4svn61719-54.1.noarch.rpm"
-RPM_HASH = "7f869049e4a3b51c09c20172a0d3f4d9d3e5ed1cd220daf62cfa220641901dd6c77e60ba118fc15bd9823b8e5bb5dac63942f5f761af0d4564400a1e5493825c"
+RPM_NAME = "texlive-chhaya-2026.226.0.0.4svn61719-60.2.noarch.rpm"
+RPM_HASH = "9e2dd6163667b7cb6a6305db0f9c3678625417c0ad7bc41f1a29a2d024e0dc9929fb873f8748b2632d3170ce9b01b9bc2b254b40668c34a6ab90dafc07077b4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chhaya.sty \

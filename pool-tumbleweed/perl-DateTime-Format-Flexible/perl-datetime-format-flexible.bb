@@ -7,10 +7,10 @@ _DateTime::Format::Flexible_ attempts to take any string you give it and \
 parse it into a DateTime object."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.34"
+PV = "0.370.0"
 
-RPM_NAME = "perl-DateTime-Format-Flexible-0.34-1.11.noarch.rpm"
-RPM_HASH = "9c3ff1241a9a685455937b208e62038d772bedecb9877d46d7adb86a84dba401c3577892e9199edc408d46b3fc3d1c434f8fb8ee1b7c3a49396f4c2c6bc7bc2b"
+RPM_NAME = "perl-DateTime-Format-Flexible-0.370.0-1.10.noarch.rpm"
+RPM_HASH = "89f55623bf661e56ac7cb6bb029b13c2a56d0c95fd64521146312f5daeb6d8baaa5151c586fcdc338d0d69afd7c27a2d487f61854803e52ea56722813cc96c15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--Flexible \
@@ -20,10 +20,9 @@ perl-DateTime--Format--Flexible--lang--en \
 perl-DateTime--Format--Flexible--lang--es \
 perl-DateTime-Format-Flexible"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DateTime \
 perl-DateTime--Format--Builder \
-perl-DateTime--TimeZone \
-perl-List--MoreUtils"
+perl-DateTime--TimeZone"
 
 inherit rpm

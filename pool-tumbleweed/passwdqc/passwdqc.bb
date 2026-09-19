@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.0"
 
-RPM_NAME = "passwdqc-1.4.0-2.8.aarch64.rpm"
-RPM_HASH = "9baaac93dc5ef9fb3cc3305ff7adc1b90e09feca3ef9e832244df9512293eb0a066431da49abbca6ec6bc253b1c14e2128856aa5f6afc47e454bbaee813fbbe6"
+RPM_NAME = "passwdqc-1.4.0-2.18.aarch64.rpm"
+RPM_HASH = "02447b490bbdc9c29a5bf693fa1c60a6d1b40dc27514c846c29e6c67b36a0a99f3a0d0641579f13a5385e563679aabc28c7ba222379e5b40dc4351a9866cc19b"
 
 RPROVIDES:${PN} += "config-passwdqc \
 passwdqc"

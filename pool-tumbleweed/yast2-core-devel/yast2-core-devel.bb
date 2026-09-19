@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains include and documentation files for develop
 applications using the YaST2 YCP interpreter."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.4"
 
-RPM_NAME = "yast2-core-devel-4.6.0-1.5.aarch64.rpm"
-RPM_HASH = "eec154d234bd3cc4ede6772d93a9d84069890785d02c11abd06db17a45fdcd458be829990bdb6101ca5967afacda1104aac83b09f4d93088ca6e14a6de30f617"
+RPM_NAME = "yast2-core-devel-5.0.4-1.6.aarch64.rpm"
+RPM_HASH = "b04b95fcd71dc17608e0e63d9316d1c7cd6dd912ecf7184d10a60548a5ac03b1b84e444d992f4b043df91ac4ffb92cdc406c7472abcd8dde87ca4549d41db9ca"
 
 RPROVIDES:${PN} += "liby2util-devel \
 pkgconfig-yast2-core \

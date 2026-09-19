@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "opentracing-cpp-source-1.6.0-1.10.noarch.rpm"
-RPM_HASH = "85aab07d67825371da34ad454b6712241dbad6b89260a57268d5e25db6df926b7130d4ca42eeb0a44d5271cb6c21066c1c5a5abbf80f18e1d8e940cf108d9495"
+RPM_NAME = "opentracing-cpp-source-1.6.0-1.20.noarch.rpm"
+RPM_HASH = "9084139c727e247ae2be818dd730033a26ac46e37ba95963760d53f19bc5f3077bde3ebfa1483f907ae3d2f08e671a5a65c822d7d7552dde0c56b13c03d9830b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opentracing-cpp-source"

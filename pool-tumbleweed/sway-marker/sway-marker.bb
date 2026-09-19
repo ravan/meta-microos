@@ -1,14 +1,18 @@
 SUMMARY = "Simple popup for using marks in Sway"
 DESCRIPTION = "This allows you to use vim-like marks to switch between different \
 containers (windows) in sway easily."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "0.3~0"
+PV = "0.3+git.1746186296.bd4364d"
 
-RPM_NAME = "sway-marker-0.3~0-2.3.aarch64.rpm"
-RPM_HASH = "b777d8cb9521fffce5ab2add1793567a45ae4d6231be998ae6bc5fd45be30ca1387d5a929014556ec2771f9f0e7690844619552df7655c89e8c03cf1d7fabcfe"
+RPM_NAME = "sway-marker-0.3+git.1746186296.bd4364d-1.7.aarch64.rpm"
+RPM_HASH = "62a1e5a668286a87bdb17df03fe90adc96a2f3ed30129d84c431711ecc5954304bae9f5fd4df88f0d235e95e928e069aa3be43a3910379a2c76b88c502b1712d"
 
-RPROVIDES:${PN} += "bundled-rust-crate-anyhow \
+RPROVIDES:${PN} += "bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
+bundled-rust-crate-anyhow \
 bundled-rust-crate-atk \
 bundled-rust-crate-atk-sys \
 bundled-rust-crate-autocfg \
@@ -17,7 +21,10 @@ bundled-rust-crate-cairo-rs \
 bundled-rust-crate-cairo-sys-rs \
 bundled-rust-crate-cfg-expr \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-field-offset \
 bundled-rust-crate-futures-channel \
 bundled-rust-crate-futures-core \
@@ -44,19 +51,14 @@ bundled-rust-crate-gtk3-macros \
 bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
 bundled-rust-crate-indexmap \
-bundled-rust-crate-io-lifetimes \
-bundled-rust-crate-is-terminal \
+bundled-rust-crate-is-terminal-polyfill \
 bundled-rust-crate-itoa \
 bundled-rust-crate-libc \
-bundled-rust-crate-linux-raw-sys \
 bundled-rust-crate-memchr \
 bundled-rust-crate-memoffset \
-bundled-rust-crate-nom8 \
 bundled-rust-crate-once-cell \
-bundled-rust-crate-os-str-bytes \
 bundled-rust-crate-pango \
 bundled-rust-crate-pango-sys \
-bundled-rust-crate-pest \
 bundled-rust-crate-pin-project-lite \
 bundled-rust-crate-pin-utils \
 bundled-rust-crate-pkg-config \
@@ -66,13 +68,13 @@ bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
 bundled-rust-crate-rustc-version \
-bundled-rust-crate-rustix \
 bundled-rust-crate-ryu \
 bundled-rust-crate-semver \
-bundled-rust-crate-semver-parser \
 bundled-rust-crate-serde \
+bundled-rust-crate-serde-core \
 bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
+bundled-rust-crate-serde-spanned \
 bundled-rust-crate-slab \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-strsim \
@@ -81,16 +83,17 @@ bundled-rust-crate-swayipc \
 bundled-rust-crate-swayipc-types \
 bundled-rust-crate-syn \
 bundled-rust-crate-system-deps \
-bundled-rust-crate-termcolor \
+bundled-rust-crate-target-lexicon \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-toml \
 bundled-rust-crate-toml-datetime \
 bundled-rust-crate-toml-edit \
-bundled-rust-crate-ucd-trie \
 bundled-rust-crate-unicode-ident \
+bundled-rust-crate-utf8parse \
 bundled-rust-crate-version-check \
 bundled-rust-crate-version-compare \
+bundled-rust-crate-winnow \
 sway-marker"
 
 RDEPENDS:${PN} += "libc.so.6 \

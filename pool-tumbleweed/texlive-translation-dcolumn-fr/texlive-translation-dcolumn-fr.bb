@@ -2,10 +2,10 @@ SUMMARY = "French translation of the documentation of dcolumn"
 DESCRIPTION = "A French translation of the documentation of dcolumn."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn24345"
+PV = "2026.226.svn24345"
 
-RPM_NAME = "texlive-translation-dcolumn-fr-2023.209.svn24345-53.1.noarch.rpm"
-RPM_HASH = "50534f9a2cf4fcca37104994f0fe701ffffe8e7dc50c4477d89d71cb1dcdb1a4e05430c82f6c08eab166cf29c9c21ddc6af99862f62acd6b217031bda2cb3769"
+RPM_NAME = "texlive-translation-dcolumn-fr-2026.226.svn24345-59.2.noarch.rpm"
+RPM_HASH = "5f5dc779f6965680fdd8d9280f44019ce2bd191c669e0725eac16393af2b98ec425b15ae7dbbef597562663db78c0eb9d264e7a3b03ce3cf89e76f9486c17c83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-dcolumn-fr"

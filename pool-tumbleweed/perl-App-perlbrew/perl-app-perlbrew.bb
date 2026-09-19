@@ -15,10 +15,10 @@ https://perlbrew.pl/. The following documentation features the API of \
 read."
 LICENSE = "MIT"
 
-PV = "0.97"
+PV = "1.10.0"
 
-RPM_NAME = "perl-App-perlbrew-0.97-1.3.noarch.rpm"
-RPM_HASH = "a6dc0041b06d8e21d0c9a44068bfcd554f21a5d8dccdb30ea0025fd294958149040682568097566cb193979e325493a87477696b25b0d5897bcdf8d8a256f7fb"
+RPM_NAME = "perl-App-perlbrew-1.10.0-1.7.noarch.rpm"
+RPM_HASH = "274e0695a7518c1d84c536909384c87e11334c0a4c6643fec604d9bd2f5aea874d8ac7f43e757c499af4ab0220ffd39eee9a45e39bd6a91d5367ff83bd657a57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Perlbrew--HTTP \
@@ -26,12 +26,13 @@ perl-App--Perlbrew--Path \
 perl-App--Perlbrew--Path--Installation \
 perl-App--Perlbrew--Path--Installations \
 perl-App--Perlbrew--Path--Root \
+perl-App--Perlbrew--Sys \
 perl-App--Perlbrew--Util \
 perl-App--perlbrew \
 perl-App-perlbrew"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--Perl--Releases \
 perl-Capture--Tiny \
 perl-Devel--PatchPerl \

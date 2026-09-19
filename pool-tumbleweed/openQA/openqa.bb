@@ -1,4 +1,4 @@
-SUMMARY = "The openQA web-frontend, scheduler and tools"
+SUMMARY = "Framework for automated system-level testing (web-frontend, scheduler and tools)"
 DESCRIPTION = "openQA is a testing framework that allows you to test GUI applications on one \
 hand and bootloader and kernel on the other. In both cases, it is difficult to \
 script tests and verify the output. Output can be a popup window or it can be \
@@ -18,10 +18,10 @@ combination of hardware configuration, installation options and variant of the \
 operating system."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1694101660.598baea"
+PV = "5.1788605562.29b45941"
 
-RPM_NAME = "openQA-4.6.1694101660.598baea-1.1.aarch64.rpm"
-RPM_HASH = "4d9e11e0166688ccbc095c86169c63a20809a5ef63c06a3015b49b378a4b93adda72ed25d9ed05685a6208b525ccc675248f6a0aa90780614722cef8b1f168e4"
+RPM_NAME = "openQA-5.1788605562.29b45941-1.1.aarch64.rpm"
+RPM_HASH = "3846f34fec86fe2eab38c55450243dcd74a0bc2a50848832736582c3cb4e2212eefc38b55c84e3f96505cccdb9a1d757a8b9ce10d83dbad4bca2f222107dfe5b"
 
 RPROVIDES:${PN} += "config-openQA \
 group-geekotest \
@@ -32,7 +32,9 @@ perl-OpenQA--Resource--Jobs \
 perl-OpenQA--Resource--Locks \
 perl-OpenQA--Scheduler--Client \
 perl-OpenQA--Scheduler--Controller--API \
+perl-OpenQA--Scheduler--DynamicLimit \
 perl-OpenQA--Scheduler--Model--Jobs \
+perl-OpenQA--Scheduler--WorkerSlotPicker \
 perl-OpenQA--Schema--Profiler \
 perl-OpenQA--Schema--Result--ApiKeys \
 perl-OpenQA--Schema--Result--Assets \
@@ -82,7 +84,9 @@ perl-OpenQA--Schema--ResultSet--Needles \
 perl-OpenQA--Schema--ResultSet--ScheduledProducts \
 perl-OpenQA--Schema--ResultSet--Screenshots \
 perl-OpenQA--Schema--ResultSet--Users \
+perl-OpenQA--Schema--ResultSet--Workers \
 perl-OpenQA--WebAPI--Auth--Fake \
+perl-OpenQA--WebAPI--Auth--None \
 perl-OpenQA--WebAPI--Auth--OAuth2 \
 perl-OpenQA--WebAPI--Auth--OpenID \
 perl-OpenQA--WebAPI--Command--gru \
@@ -91,7 +95,6 @@ perl-OpenQA--WebAPI--Command--gru--run \
 perl-OpenQA--WebAPI--Controller--API--V1 \
 perl-OpenQA--WebAPI--Controller--API--V1--Asset \
 perl-OpenQA--WebAPI--Controller--API--V1--Bug \
-perl-OpenQA--WebAPI--Controller--API--V1--Command \
 perl-OpenQA--WebAPI--Controller--API--V1--Comment \
 perl-OpenQA--WebAPI--Controller--API--V1--Feature \
 perl-OpenQA--WebAPI--Controller--API--V1--Iso \
@@ -101,6 +104,7 @@ perl-OpenQA--WebAPI--Controller--API--V1--JobSettings \
 perl-OpenQA--WebAPI--Controller--API--V1--JobTemplate \
 perl-OpenQA--WebAPI--Controller--API--V1--Locks \
 perl-OpenQA--WebAPI--Controller--API--V1--Mm \
+perl-OpenQA--WebAPI--Controller--API--V1--Routes \
 perl-OpenQA--WebAPI--Controller--API--V1--Search \
 perl-OpenQA--WebAPI--Controller--API--V1--Table \
 perl-OpenQA--WebAPI--Controller--API--V1--User \
@@ -124,14 +128,19 @@ perl-OpenQA--WebAPI--Controller--Appearance \
 perl-OpenQA--WebAPI--Controller--Developer \
 perl-OpenQA--WebAPI--Controller--File \
 perl-OpenQA--WebAPI--Controller--Main \
-perl-OpenQA--WebAPI--Controller--Running \
 perl-OpenQA--WebAPI--Controller--Step \
 perl-OpenQA--WebAPI--Controller--Test \
 perl-OpenQA--WebAPI--Description \
 perl-OpenQA--WebAPI--Plugin--AMQP \
 perl-OpenQA--WebAPI--Plugin--AuditLog \
-perl-OpenQA--WebAPI--Plugin--HashedParams \
 perl-OpenQA--WebAPI--Plugin--Helpers \
+perl-OpenQA--WebAPI--Plugin--IssueReporter--Context \
+perl-OpenQA--WebAPI--Plugin--IssueReporter--OpenSuseBCIbug \
+perl-OpenQA--WebAPI--Plugin--IssueReporter--OpenSuseBugzillaUtils \
+perl-OpenQA--WebAPI--Plugin--IssueReporter--OpenSuseGenericBug \
+perl-OpenQA--WebAPI--Plugin--IssueReporter--OpenSuseIssueReporter \
+perl-OpenQA--WebAPI--Plugin--IssueReporter--OpenSuseKernelBug \
+perl-OpenQA--WebAPI--Plugin--IssueReporter--OpenSuseProgressIssue \
 perl-OpenQA--WebAPI--Plugin--MIMETypes \
 perl-OpenQA--WebAPI--Plugin--MemoryLimit \
 perl-OpenQA--WebAPI--Plugin--ObsRsync \
@@ -158,11 +167,12 @@ group-nogroup \
 hostname \
 openQA-client \
 openQA-common \
+openssh-clients \
 perl-BSD--Resource \
 perl-CSS--Minifier--XS \
 perl-Carp \
 perl-CommonMark \
-perl-Config--Tiny \
+perl-CryptX \
 perl-DBD--Pg \
 perl-DBI \
 perl-DBIx--Class \
@@ -201,6 +211,7 @@ perl-Mojo--Pg \
 perl-Mojo--RabbitMQ--Client \
 perl-Mojo--URL \
 perl-Mojo--Util \
+perl-Mojolicious \
 perl-Mojolicious--Commands \
 perl-Mojolicious--Plugin \
 perl-Mojolicious--Plugin--AssetPack \

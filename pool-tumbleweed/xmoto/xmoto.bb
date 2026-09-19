@@ -7,16 +7,15 @@ later you'll compete with yourself and others, racing against the \
 clock."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.2"
+PV = "0.6.3"
 
-RPM_NAME = "xmoto-0.6.2-1.4.aarch64.rpm"
-RPM_HASH = "20fa213dbaab67999c7fb25be77b863e0fc931cdb1c77daae06d14a5847789b8eced383b186a2fc1de3cb452b8e72e78c85c30d942b028136a14b31f42883962"
+RPM_NAME = "xmoto-0.6.3-1.7.aarch64.rpm"
+RPM_HASH = "32ce7dd8bdf5f33d0d05eb590d91370c3c42f098b3d0e83882f33b2c02e11a231e96086ae907dfee191fd825cd371ffa4928a71fd0681aeccf6f8a123febf514"
 
 RPROVIDES:${PN} += "xmoto"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libGLU.so.1 \
-libOpenGL.so.0 \
 libSDL2-2.0.so.0 \
 libSDL2-mixer-2.0.so.0 \
 libSDL2-net-2.0.so.0 \
@@ -31,7 +30,7 @@ libm.so.6 \
 libpng16.so.16 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 xmoto-data"
 

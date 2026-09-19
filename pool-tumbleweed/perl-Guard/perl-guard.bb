@@ -10,13 +10,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.023"
 
-RPM_NAME = "perl-Guard-1.023-1.37.aarch64.rpm"
-RPM_HASH = "32a96c35ace7f703a6a5668695ca7bc004dbd614bcd1e4d40793b90c081a842df9c078aa109e115b272a54803bdf5dd48fe654e8f82869b01a38c0af8804a3a7"
+RPM_NAME = "perl-Guard-1.023-1.54.aarch64.rpm"
+RPM_HASH = "421e96146d19eb9153004314cd71b69233c2c7a3031298ff374479f8e70ff7abc03b5b88f49a05c9eea1c82671e716f3cd0ee7c95ec77f7765325c3a3761b913"
 
 RPROVIDES:${PN} += "perl-Guard"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

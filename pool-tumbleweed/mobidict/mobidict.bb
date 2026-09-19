@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2"
 
-RPM_NAME = "mobidict-1.2-1.25.aarch64.rpm"
-RPM_HASH = "c045943c789f4c3078a3f66d9f175e8f169b386b796de5b815591866fd6270182909dea81bb0ef6dbf43ddedfb19a1df4573f54080cf81eaba5ae25d6ee3631b"
+RPM_NAME = "mobidict-1.2-1.35.aarch64.rpm"
+RPM_HASH = "c1bf65ac3bc98122b6780f2fc5702fea715d600ce94db45c218d447b81a165eac0b9decf1450ccaf57a7aca6b7fc49fb31b0b36071eb100030e73cdb835b43fc"
 
 RPROVIDES:${PN} += "mobidict"
 

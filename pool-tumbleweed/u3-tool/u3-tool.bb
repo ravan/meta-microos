@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0+svn60"
 
-RPM_NAME = "u3-tool-1.0+svn60-2.3.aarch64.rpm"
-RPM_HASH = "2bb318aff6159cbc38b75d95ab0b7f118bb6004e4d0da82f5e6b246d08191f80035898d9024bf22afcb37eec057dfa9c0b17c6ae775014bffad30e5f7e24d3d8"
+RPM_NAME = "u3-tool-1.0+svn60-3.9.aarch64.rpm"
+RPM_HASH = "019ae38e676d336f437b1716badb49f04fd37e7ebd2aad6a106292c48164baaa69cb4a2ea45ffe6011673a21cc1d906e234777b668d5769bb9e0fffcaa571ae9"
 
 RPROVIDES:${PN} += "u3-tool"
 

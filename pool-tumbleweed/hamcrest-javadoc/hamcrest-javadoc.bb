@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for hamcrest"
 DESCRIPTION = "Javadoc for hamcrest."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2"
+PV = "3.0"
 
-RPM_NAME = "hamcrest-javadoc-2.2-1.4.noarch.rpm"
-RPM_HASH = "aee026b4194487b1ba8ebf9f05a586dd388b87f50b79bdb336cf4664357ea0fa6e1e64f3a60e830c50226955e9a317734020a579a38fbd2d57b4eda348e80378"
+RPM_NAME = "hamcrest-javadoc-3.0-1.8.noarch.rpm"
+RPM_HASH = "d26195adbe0d38d1dc3f82aee4faf4845ef8f53079e0f89cc6f58925321704ede2df5212152fe865deb2359f1647fcc5b09f45165442add469ca306dd34e9ba2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hamcrest-javadoc"

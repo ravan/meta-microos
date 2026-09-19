@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon Redshift"
 DESCRIPTION = "The AWS Java SDK for Amazon Redshift module holds the \
 client classes that are used for communicating with \
 Amazon Redshift Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-redshift-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "579c32c468fa7805d299fee5c7c31f7ec35b7bcd6a2f0db56b593731a9111164cbf28c138f764c50e16fb9512a7c4fc959c40b4da244a6aa6b82c91f0278faa3"
+RPM_NAME = "aws-sdk-java-redshift-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "1730e68eace3e6a77af640bcbc9ead12b0c84d6a8c66664c4f6314e706efc0c9d15a6252a987457ad9dd58fa558574bc16512e6364050039a95f18eaf9a167c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-redshift \

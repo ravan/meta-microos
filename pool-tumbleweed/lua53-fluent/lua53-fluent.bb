@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.2.0"
 
-RPM_NAME = "lua53-fluent-0.2.0-2.1.noarch.rpm"
-RPM_HASH = "c71746723af68a3b08fc1547f31b8146bcc938514d30091b602d26f0d5bda248791b0b4f1e5d1d19a1fae03b0facbe14ea90bc7ec8507d2910a58f17cd9b66bb"
+RPM_NAME = "lua53-fluent-0.2.0-4.2.noarch.rpm"
+RPM_HASH = "8da202bc57a305bc1fca4e442e4193a004abe7d324b7916cabe2052ad05098208d541b6b380bb4ee59f48457665c0a0b13c2abd735e68ca1568c94197c0dd0ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-fluent"

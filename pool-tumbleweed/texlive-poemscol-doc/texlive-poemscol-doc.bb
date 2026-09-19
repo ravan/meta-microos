@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-poemscol"
 DESCRIPTION = "This package includes the documentation for texlive-poemscol"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1415926svn56082"
+PV = "2026.226.3.1415926svn56082"
 
-RPM_NAME = "texlive-poemscol-doc-2023.209.3.1415926svn56082-53.1.noarch.rpm"
-RPM_HASH = "c1994be1f95f8d35613e853df21811603f2aad68a479fc14886d0ac88e94ae28564ce62ec2046f070ad794f4bdf2d28a52ed28525546995c4e5f4c882daed8fd"
+RPM_NAME = "texlive-poemscol-doc-2026.226.3.1415926svn56082-59.2.noarch.rpm"
+RPM_HASH = "3605b608c1b5009cbcd06e88de4d51df070361fae71ff8aea57b47e487dd6eb8ec4380ce063b78347fbd205f769b75a9027faf76c0957ac44d260f46c918c9d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-poemscol-doc"

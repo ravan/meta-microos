@@ -23,10 +23,10 @@ compare XML files. It can also few XSD files. \
 * Element display via user customizable rules."
 LICENSE = "LGPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "0.9.17"
+PV = "0.9.18.1"
 
-RPM_NAME = "qxmledit-0.9.17-1.6.aarch64.rpm"
-RPM_HASH = "0ef2e3fe82ed29ed4c88b69ab1b06f04155eaa0d19d59e910bb063f7739fe3b86229bbecddcdd095f8b6338e706647196aed62d57ac7194278fe3d84fd628f15"
+RPM_NAME = "qxmledit-0.9.18.1-1.1.aarch64.rpm"
+RPM_HASH = "fed39c3dffdec8d82075ab20a7a12949feddd1d040e7921f6f3ecd2dedd1f463d6e4508a1ea203dbe066c5b705618d686b2bb5c46a7b175fa4ad8a452ed84140"
 
 RPROVIDES:${PN} += "qxmledit"
 

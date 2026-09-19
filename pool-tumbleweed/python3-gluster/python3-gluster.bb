@@ -3,10 +3,10 @@ DESCRIPTION = "GlusterFS is a clustered file-system capable of scaling to severa
 petabytes."
 LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
-PV = "11.0"
+PV = "11.1"
 
-RPM_NAME = "python3-gluster-11.0-4.1.noarch.rpm"
-RPM_HASH = "9d4a643885b5afde0fc8b60975c96d8ceeeae19d2617d59d8369da3539428636da4ff2161c0840679514362e3d50df92b389ad314448d1715163d0df400cb292"
+RPM_NAME = "python3-gluster-11.1-4.10.noarch.rpm"
+RPM_HASH = "d0600b7d359c1c13c4968766cc92b474975f6fd34638ed874eb6581c36d3ae82ebc27ab64d23e8621e1a6b2d3b190a289d1876c9534a502cd071570428eb45eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-gluster"

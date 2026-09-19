@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the static library files for \
 the ncurses library in its ABI version 6 form."
 LICENSE = "MIT"
 
-PV = "6.4.20230819"
+PV = "6.6.20260815"
 
-RPM_NAME = "ncurses-devel-static-6.4.20230819-19.1.aarch64.rpm"
-RPM_HASH = "fe79842dc073977913476f30d741ec92b00cb1d533228974522bd4a811dae041099a2ff2f3bf5dcb44bd633e6a502ca4ed8d4fc39d6c495cff886c97f15ecf8b"
+RPM_NAME = "ncurses-devel-static-6.6.20260815-111.1.aarch64.rpm"
+RPM_HASH = "cd65c66d368d910c70fcb7e0ce342dfc6e66680ba8f5cc321e0a52d2d82a5a10811396f6e928d7ed9f780b70c8c329d28c0d14ee3678169bc1e73b218019d289"
 
 RPROVIDES:${PN} += "ncurses-devel-/usr/lib64/libform.a \
 ncurses-devel-/usr/lib64/libformw.a \

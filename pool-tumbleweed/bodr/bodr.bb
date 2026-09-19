@@ -7,8 +7,8 @@ LICENSE = "CC0-1.0"
 
 PV = "10"
 
-RPM_NAME = "bodr-10-1.10.noarch.rpm"
-RPM_HASH = "7729440840f873e0bff0feeaf156fd94eca7b1eb10313c854fb9ab286ad1e9c45346d515b43d50fd4e27b6f3fee562d967d54d8cbb9c90b483cd1460f2e3a6af"
+RPM_NAME = "bodr-10-1.18.noarch.rpm"
+RPM_HASH = "3e3df9fd4babb857ca1156f15a08bbb37b729678279788b1bf6a5f1c86f65f6a96ee5e8ac9d71c1790d8ea49ce6db076c6b28b55e43ad75aebe18f35087d22fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bodr \

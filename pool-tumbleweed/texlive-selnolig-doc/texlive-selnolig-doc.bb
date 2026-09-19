@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-selnolig"
 DESCRIPTION = "This package includes the documentation for texlive-selnolig"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.302svn38721"
+PV = "2026.226.0.0.302svn77682"
 
-RPM_NAME = "texlive-selnolig-doc-2023.209.0.0.302svn38721-54.1.noarch.rpm"
-RPM_HASH = "a8c9e7b02009c907cc2f89bccd5febe1e1f968c8ceac81efc8155e95832678a3fa7625c03de29d44894aa6054b595420435d58f1c03229a3da69a9ae0628bd43"
+RPM_NAME = "texlive-selnolig-doc-2026.226.0.0.302svn77682-60.2.noarch.rpm"
+RPM_HASH = "deeefe4e1a2b425ca4572de0d000c39fb18c7088e8f108bb7f726856e971b54766590799efc75dd707b2a068918b8097b2964e92e03af0d67ce45dbc3d155928"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-selnolig-doc"

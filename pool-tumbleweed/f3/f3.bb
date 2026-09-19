@@ -11,10 +11,10 @@ algorithm. Some extra tools are also provided, among them one for using \
 the actual storage capacity of fake drives as safely as possible."
 LICENSE = "GPL-3.0-only"
 
-PV = "8.0"
+PV = "10.0"
 
-RPM_NAME = "f3-8.0-1.12.aarch64.rpm"
-RPM_HASH = "f9074ff79d23efa80145df3df7bd2a8b7f48e37d249bc3e22903688ae82bcd188386de5470c12dda2c59900cb05d2f5c24e255d2cecac001447c7aa81dcad396"
+RPM_NAME = "f3-10.0-1.2.aarch64.rpm"
+RPM_HASH = "da5444865badd26fa22a077b09d528b33a9691b9016049404afbf7185bed13538b99aba2def5d8e4e55c844cabacefb5958f60d78d11de48b7e9a6fdac5ecf2d"
 
 RPROVIDES:${PN} += "f3"
 

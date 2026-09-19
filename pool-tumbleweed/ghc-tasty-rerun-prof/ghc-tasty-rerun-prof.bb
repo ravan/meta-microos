@@ -2,23 +2,24 @@ SUMMARY = "Haskell tasty-rerun profiling library"
 DESCRIPTION = "This package provides the Haskell tasty-rerun profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.18"
+PV = "1.1.20"
 
-RPM_NAME = "ghc-tasty-rerun-prof-1.1.18-6.5.aarch64.rpm"
-RPM_HASH = "cb71f2df18f763afe5092a185abae13e9e398c0f38262a2211f916440d88b0a1d830b107e8af54f34f31d8e5abde6122fd353a0d5ead075c1b2d7cd056b0e0ea"
+RPM_NAME = "ghc-tasty-rerun-prof-1.1.20-3.7.aarch64.rpm"
+RPM_HASH = "ad207a5ddfa3b15a218a4a103621ba68a5ee7444d4168779560964f1f25510e3a597488c7363004d1ba9db6ee4704fc52392497831c5b25be160f88f1e02c049"
 
-RPROVIDES:${PN} += "ghc-prof-tasty-rerun-1.1.18-1dvQzPS8A67DYD4eAA2wLL \
+RPROVIDES:${PN} += "ghc-prof-tasty-rerun-1.1.20-ApQVGOIA4TkE6635pNBbel \
 ghc-tasty-rerun-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-optparse-applicative-0.18.1.0-7FhZIXYdOMtK1gl2fqKmzm \
-ghc-prof-split-0.2.3.5-J6pekuQs6yKFxqDJQyglHu \
-ghc-prof-stm-2.5.1.0 \
-ghc-prof-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
-ghc-prof-tasty-1.4.3-EvDBAB3nA5D6U1ANfXkHR \
-ghc-prof-transformers-0.5.6.2 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-optparse-applicative-0.19.0.0-GyrRSLDSSh1GQCxnTYbnDq \
+ghc-prof-split-0.2.5-DF0qBqNymX3Hv5Ta0307xc \
+ghc-prof-stm-2.5.3.1-6d74 \
+ghc-prof-tagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7 \
+ghc-prof-tasty-1.5.4-1HxvBgEXkE5Beb2ChlE06d \
+ghc-prof-transformers-0.6.3.0-4709 \
 ghc-tasty-rerun-devel"
 
 inherit rpm

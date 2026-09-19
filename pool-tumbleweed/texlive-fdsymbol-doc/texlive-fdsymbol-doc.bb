@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fdsymbol"
 DESCRIPTION = "This package includes the documentation for texlive-fdsymbol"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.8svn61719"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-fdsymbol-doc-2023.209.0.0.8svn61719-53.1.noarch.rpm"
-RPM_HASH = "67831c8e75e9c6945884fd66e1efe4010eb731d65bd31e6ab4ccbad7903f5e2b2a09d11cc1cfa67e79d614f7ba03d43310cfec2ed91d82a6e48998c570daf15e"
+RPM_NAME = "texlive-fdsymbol-doc-2026.226.1.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "1b5d7066f8340eaebc152f46c055aab62cc1bb5aaf4ab04982447d16eca59cbbfd1ef3065871a1a6e2cec8f39b5a2600265910d3d7d686b29ef2c928d3699d21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fdsymbol-doc"

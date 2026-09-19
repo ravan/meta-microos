@@ -9,10 +9,10 @@ this, while allowing asynchronous event systems to provide an \
 implementation of these operations."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.14"
+PV = "0.170.0"
 
-RPM_NAME = "perl-Future-IO-0.14-1.3.noarch.rpm"
-RPM_HASH = "3db0de924b8e8ac7e2d8d8de9e7a9f7d3aef754d2585ad3942280222a7b54d47fb5b29f3947ff28792bfd449812b42797bcbc78e1c816900710622db80c034db"
+RPM_NAME = "perl-Future-IO-0.170.0-1.6.noarch.rpm"
+RPM_HASH = "5c75bafb48bb3049e8b2a0cd61324b85885b7f4f00159147d80ff44235aacdca52a044f4de7a017d43c4517d84c245305aab0fa605ae4ff8914159f91fba3d91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Future--IO \
@@ -20,7 +20,7 @@ perl-Future--IO--ImplBase \
 perl-Future--IO--System \
 perl-Future-IO"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Future \
 perl-Struct--Dumb"
 

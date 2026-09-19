@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.1"
 
-RPM_NAME = "libcuckoo-devel-0.3.1-1.4.aarch64.rpm"
-RPM_HASH = "827a3ea800b73f3c16d21bde9cb3e73c7397cee8ab88ab359c1eaee50763c6effb8a7802937a41f731bfc89fe13bfba9aebcd8f57b4dd7119f67d975b8892dc8"
+RPM_NAME = "libcuckoo-devel-0.3.1-1.14.aarch64.rpm"
+RPM_HASH = "099394ac6de3dad4bb1dd206dfb39aacde07b6b240edcdcc2a2d9b0e4617503603ffcfcbadde911cf6779a0efb62636c21445b236a3f3dc6e4a8279b79659fb4"
 
 RPROVIDES:${PN} += "cmake-libcuckoo \
 libcuckoo-devel"

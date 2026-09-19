@@ -10,10 +10,10 @@ in the PDF document (by means of the /ActualText attribute \
 and/or suitable tags) in correspondence to each formula."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0svn57105"
+PV = "2026.226.3.0svn77682"
 
-RPM_NAME = "texlive-axessibility-2023.209.3.0svn57105-54.1.noarch.rpm"
-RPM_HASH = "c8a5b7c27f85e18acd3e5d833d8b1851e38ab7c4f2cf9c728cd4208dad392093f2391ee0c126c14d5efe7226d519d4d638a90b90f16936f506c7d8456f110e28"
+RPM_NAME = "texlive-axessibility-2026.226.3.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "264b51874e46b10323d303d00530cacd5d887538e784021ce3f8bd6564f6c9bfbe3ac714905149a5d7e53c15e0edde36fc067512d58f6c91ba9f24fb586d1a63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-axessibility.sty \

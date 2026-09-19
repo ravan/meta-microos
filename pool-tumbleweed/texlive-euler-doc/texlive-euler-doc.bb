@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-euler"
 DESCRIPTION = "This package includes the documentation for texlive-euler"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.5svn42428"
+PV = "2026.226.2.5svn77682"
 
-RPM_NAME = "texlive-euler-doc-2023.209.2.5svn42428-53.1.noarch.rpm"
-RPM_HASH = "b0e8e4d34d32f39ab72d695ae648223257be6b1b7a65ea937ca47c94c6697a91c074800c349bbae1eb655da292325586f98c609e77749e40cd239e98c2b0afee"
+RPM_NAME = "texlive-euler-doc-2026.226.2.5svn77682-59.2.noarch.rpm"
+RPM_HASH = "0076571623fddc552d3204b66fee40c53940e41b6b67a9a041f645140686734340647eb64bf255ca039819278035dd26a4931ada7a7e9ad930512ee06df3075f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-euler-doc"

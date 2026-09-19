@@ -7,10 +7,10 @@ reliability and throughput of a cluster by reducing preventable job failures due
 to misconfiguration, hardware failures, etc."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.2"
+PV = "1.4.3"
 
-RPM_NAME = "warewulf-nhc-1.4.2-1.10.noarch.rpm"
-RPM_HASH = "77e65f3d12fd9b4da93ec351131b196f5bdfeeea4b4c9f7a0e93e249b0558b101002b2b586833e98f69ca1f64046b62084123cb223ef9869a5c550e013fcb64e"
+RPM_NAME = "warewulf-nhc-1.4.3-1.10.noarch.rpm"
+RPM_HASH = "49b70870fdd81a6a1d34cf0d8eb2345b609097da5ae88dd557150b608b4620231619517e8fe43e553f301cd60dce48f8fa23b48d8b08612e5307c88c06550a61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-warewulf-nhc \

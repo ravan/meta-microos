@@ -2,15 +2,16 @@ SUMMARY = "Translations for package konversation"
 DESCRIPTION = "Provides translations for the 'konversation' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "konversation-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "4666406c57d172ca3b880574c3779c53493f9f3724b4048d4c4e9c2f6cef96e71c56453692e43c567f500874328e70e4ef201cf25e46849ed005805310b24861"
+RPM_NAME = "konversation-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "e7de2cabb99c71e1f37c6c97f9eb531610268367134989df2aedc9b857331a1cf90b9dc6d5dae94bd154a3c4457ee5af14612ba1fa8806df53349b37c83f9e81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "konversation-lang \
 konversation-lang-all \
 locale-konversation-ar \
+locale-konversation-ast \
 locale-konversation-bg \
 locale-konversation-br \
 locale-konversation-bs \
@@ -43,6 +44,7 @@ locale-konversation-kk \
 locale-konversation-km \
 locale-konversation-ko \
 locale-konversation-lt \
+locale-konversation-lv \
 locale-konversation-mr \
 locale-konversation-ms \
 locale-konversation-nb \

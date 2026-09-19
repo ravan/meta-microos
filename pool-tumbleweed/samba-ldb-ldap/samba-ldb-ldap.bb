@@ -3,29 +3,39 @@ DESCRIPTION = "samba-ldb-ldap contains the ldb ldap module required by samba-too
 samba-gpupdate."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "samba-ldb-ldap-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "c3d510f816cd8148de852a9cb3f1564291f423f3dc547ad6f280b8e1fec2777e254c5fcef33ab80c44ca22f30a2403225f0e7954abe3703cefd891d711c5d109"
+RPM_NAME = "samba-ldb-ldap-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "c8b44518ee8acf5d85988ebec0557a6c15d84366fed21a3a6f8f0a8801519aa1c9abe41c1e8c9a2ddcde9dd583f908420c0eb842e465e507c32c113961efc8f8"
 
 RPROVIDES:${PN} += "samba-ldb-ldap"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libMESSAGING-SEND-private-samba.so \
+libMESSAGING-private-samba.so \
 libc.so.6 \
-libcli-ldap-common-samba4.so \
-libcli-ldap-samba4.so \
-libcmdline-samba4.so \
-libgensec-samba4.so \
+libcli-ldap-common-private-samba.so \
+libcli-ldap-private-samba.so \
+libcmdline-private-samba.so \
+libdcerpc-binding.so.0 \
+libdsdb-module-private-samba.so \
+libgensec-private-samba.so \
+liblber.so.2 \
+libldap.so.2 \
 libldb.so.2 \
-libldbsamba-samba4.so \
-libreplace-samba4.so \
+libldbsamba-private-samba.so \
+libndr-samba4-private-samba.so \
+libndr.so.6 \
+libreplace-private-samba.so \
 libsamba-credentials.so.1 \
-libsamba-debug-samba4.so \
+libsamba-debug-private-samba.so \
 libsamba-hostconfig.so.0 \
 libsamba-util.so.0 \
-libsamdb-common-samba4.so \
+libsamdb-common-private-samba.so \
 libsamdb.so.0 \
+libsmbconf.so.0 \
 libtalloc.so.2 \
+libtevent-util.so.0 \
 libtevent.so.0"
 
 inherit rpm

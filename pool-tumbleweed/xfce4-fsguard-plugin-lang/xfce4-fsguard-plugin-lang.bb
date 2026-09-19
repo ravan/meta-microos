@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-fsguard-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-fsguard-plugin' package."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.1.3"
+PV = "1.2.0"
 
-RPM_NAME = "xfce4-fsguard-plugin-lang-1.1.3-1.1.noarch.rpm"
-RPM_HASH = "fcedf7aedb6ff2cc12ed78618628bc9c7b9904d33ca17bd277cf5e762177ca5756bfbc76f5f12fb6cd614789b8448524dcb441248c66cb7b43b4a8761162114d"
+RPM_NAME = "xfce4-fsguard-plugin-lang-1.2.0-1.4.noarch.rpm"
+RPM_HASH = "c22f458afadc506fd714d40056ad56cc4067f030a073f26313b018c12aa7cd76dd0201f5985b46aad34ce614940991e205de795774f7b12bf69ab248c09c387e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-fsguard-plugin-ar \
@@ -44,6 +44,7 @@ locale-xfce4-fsguard-plugin-pa \
 locale-xfce4-fsguard-plugin-pl \
 locale-xfce4-fsguard-plugin-pt \
 locale-xfce4-fsguard-plugin-pt-BR \
+locale-xfce4-fsguard-plugin-ro \
 locale-xfce4-fsguard-plugin-ru \
 locale-xfce4-fsguard-plugin-sk \
 locale-xfce4-fsguard-plugin-sl \

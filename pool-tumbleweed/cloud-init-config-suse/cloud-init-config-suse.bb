@@ -1,12 +1,12 @@
 SUMMARY = "Configuration file for Cloud node initialization tool"
 DESCRIPTION = "This package contains the product specific configuration file \
 for cloud-init."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-3.0"
 
-PV = "23.1.2"
+PV = "25.1.3"
 
-RPM_NAME = "cloud-init-config-suse-23.1.2-1.1.aarch64.rpm"
-RPM_HASH = "1d2894a4649d3a0605b93a2920a34fb97651969a26643b8fae91d58cfb6ba28755f374960af5e3afd64b40116a8ff84c0d4a89b194cae1e67b4ebc4b5d4bb7f4"
+RPM_NAME = "cloud-init-config-suse-25.1.3-6.1.aarch64.rpm"
+RPM_HASH = "d5cff8d453fc6b0bebfae5e1f986b6e8a18f6e47b7423dde3c4cd3321b360ef16cc81d4b277fce44050a407a60e7ec4129cd44d8d24b2bc3e17268446fd2b7b2"
 
 RPROVIDES:${PN} += "cloud-init-config \
 cloud-init-config-suse \

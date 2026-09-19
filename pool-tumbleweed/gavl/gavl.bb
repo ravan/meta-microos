@@ -8,12 +8,12 @@ structures for carrying audio samples or video images inside an application. \
 In addition, it handles the sometimes ugly task to convert between all these \
 formats and provides some elementary operations (copying, scaling, alpha \
 blending etc)."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0rsvn4256"
 
-RPM_NAME = "gavl-1.4.0rsvn4256-2.31.aarch64.rpm"
-RPM_HASH = "5337b003130c8e8f9b058d51d4550aa5357a6e656cfa3013a5a465605315d2865751ba3b105c4203641e1bd1181c2bacb0404abc04d3706da569f2f59d820787"
+RPM_NAME = "gavl-1.4.0rsvn4256-3.9.aarch64.rpm"
+RPM_HASH = "879e1249b4d6e135fcc20e4f90af96266a10340dee6644a1f5d5f64f4a669cf6033252e37cea61733ffac45407935a82412225fa4c7f635b2f63517727399cf5"
 
 RPROVIDES:${PN} += "gavl"
 

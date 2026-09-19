@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The proxy module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.51"
+PV = "9.4.58"
 
-RPM_NAME = "jetty-proxy-9.4.51-2.1.noarch.rpm"
-RPM_HASH = "e1e7f37bae29f7f2c3ff19c3250d5b2cbac343369ea9003cbd1a7babcd35ed54502d76987845f4eaee3319914558b20021a9e8b682ad81f25548197c36039336"
+RPM_NAME = "jetty-proxy-9.4.58-5.1.noarch.rpm"
+RPM_HASH = "7c41b0ab948d6558ac693eba27185af5e2af78d390421c6a7c9f324b46fd0f070e17d272b33067ec08e868436cb58a40465702f99ec7c2cdaa98309462bef36b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-proxy \

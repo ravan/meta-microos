@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tablefootnote"
 DESCRIPTION = "This package includes the documentation for texlive-tablefootnote"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1csvn32804"
+PV = "2026.226.1.1csvn77682"
 
-RPM_NAME = "texlive-tablefootnote-doc-2023.209.1.1csvn32804-58.1.noarch.rpm"
-RPM_HASH = "0cbb740f9a689fc1c468d4e5b366a7fa7b25893e9f700971a74c12d82cf7b1f737035473d587bbbd44f31a59c625b52b32f0ce139e53d99f8491cd21743f37ff"
+RPM_NAME = "texlive-tablefootnote-doc-2026.226.1.1csvn77682-64.2.noarch.rpm"
+RPM_HASH = "d5e721207398342ab74286eb8ed8582f320b8eb016bac162134bf2eb3d6559dafe56dd96b836bfecd9b11885ad35ab4a7fa5cc15f7d65ef5e8056d80b993f9aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tablefootnote-doc"

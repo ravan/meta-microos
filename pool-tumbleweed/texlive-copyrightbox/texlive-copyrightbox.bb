@@ -4,10 +4,10 @@ command>}{<text>}, which places the text as a copyright notice \
 relating to the matter created by the image command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn24829"
+PV = "2026.226.0.0.1svn24829"
 
-RPM_NAME = "texlive-copyrightbox-2023.209.0.0.1svn24829-55.1.noarch.rpm"
-RPM_HASH = "7dda07f290a2cc34a5173807803729c8919498a06bd5594228361eb8caa370b76d7b92308f313d2773a5a9d329968d772620c10443c2798fbac370430acef514"
+RPM_NAME = "texlive-copyrightbox-2026.226.0.0.1svn24829-61.2.noarch.rpm"
+RPM_HASH = "257058ff688a9db02f889b6060cc74487b51016dcdca67b48fc2f429e6c4e4f94b8c526b907ef1172d52e503f45fe6e91c33555505d2a9f3f5020c7f630acc51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-copyrightbox.sty \

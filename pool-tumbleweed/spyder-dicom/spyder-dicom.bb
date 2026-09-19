@@ -6,10 +6,10 @@ This package contains the plugin that allows Spyder to read and write \
 DICOM files."
 LICENSE = "MIT"
 
-PV = "5.4.4"
+PV = "5.5.1"
 
-RPM_NAME = "spyder-dicom-5.4.4-1.1.noarch.rpm"
-RPM_HASH = "1a4b5d81551ce9ded4dd834f1b19e3fd29bb9c44fb444e18ae3221192fa362ccfa304a17de88238f1c0c6565bafce4cb4843675516ca6dcc75b6dd32ba11f772"
+RPM_NAME = "spyder-dicom-5.5.1-1.1.noarch.rpm"
+RPM_HASH = "f26e7e99897afd9f5cce1d65d525b1e93172a1e00c138420274dcaacb34b878cb22376116fd9e4da97f6b55a1f5b4c7b662aa4e999009d48767015677173c90c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spyder-dicom \

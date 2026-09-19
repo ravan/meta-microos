@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-libvirt-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "7cf7961a05bc441557625e6c62dbe11f74e8385767b233127cc33d86b98d28a3b46a5adb404967457defaef8506b5aa9f0658a45b401c969bc5a38dd1bd8017d"
+RPM_NAME = "bumblebee-status-module-libvirt-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "feb350daa560582a5f2120b3f5775d95757e9623bed859095e4aa4107b97909c51f52a62d71fa1f646a2f7a85d254e5d65a18ca565329ca1f358fae5a17777c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-libvirt"

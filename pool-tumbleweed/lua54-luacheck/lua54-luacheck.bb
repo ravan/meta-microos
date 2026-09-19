@@ -10,18 +10,17 @@ The options can be used on the command line, put into a config or directly into 
 checked files as Lua comments."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.2.0"
 
-RPM_NAME = "lua54-luacheck-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "dd7c7b070645c280b02bc172ed6b077255d9416975f7915c129c75e54e3e8c4665a87cdbfd4604c8b377ece1d506d94e3584ff84c704ccdf1d74c8cd19148ebe"
+RPM_NAME = "lua54-luacheck-1.2.0-1.1.noarch.rpm"
+RPM_HASH = "c99b15605e332cdda8c9205b46720f32e6d054620b9d2cdb620e7f3363bc25b6449b9bb55d6ccc9372cb397e6ca10ffc6bc7a3e2c7fa21d594330bd057cde94f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-luacheck \
 lua54-luacheck \
 luacheck"
 
-RDEPENDS:${PN} += "/usr/bin/lua5.4 \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 lua54 \
 lua54-argparse \
 lua54-luafilesystem \

@@ -4,10 +4,10 @@ within texts written using LaTeX. The package macros make use \
 of commands of PStricks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn15878"
+PV = "2026.226.0.0.4svn15878"
 
-RPM_NAME = "texlive-vaucanson-g-2023.209.0.0.4svn15878-54.1.noarch.rpm"
-RPM_HASH = "de51ab3e6529de6ea81335e159fd47c9b9d76659215503c911ccb97f3cac9d0dff6964c837733c3150ab8b10bf1ef81ae35cd186310c2e6b3b88796fcec11203"
+RPM_NAME = "texlive-vaucanson-g-2026.226.0.0.4svn15878-60.2.noarch.rpm"
+RPM_HASH = "7386f6edb9a3d437e718559f2c9274f1ea2f2a55c01e7869897c22021bace1e406435764e3979513a7a95f47ee04547b80e3c51d9c856847d052edad6881d848"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-VCColor-names.def \

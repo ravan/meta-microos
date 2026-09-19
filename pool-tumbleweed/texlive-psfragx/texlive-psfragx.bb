@@ -16,10 +16,10 @@ A Matlab script (LaPrint) is provided, to export an EPS file \
 with psfragx annotations ready embedded."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn26243"
+PV = "2026.226.1.1svn26243"
 
-RPM_NAME = "texlive-psfragx-2023.209.1.1svn26243-53.1.noarch.rpm"
-RPM_HASH = "c19c32e3d0e7770a849ccc33da81cb390233f0b8853611b24f66c72639d0dce67d19a01f757a27692280030b20c5e67f81ff96b67d1f385820814ab16f5af77d"
+RPM_NAME = "texlive-psfragx-2026.226.1.1svn26243-59.2.noarch.rpm"
+RPM_HASH = "fc6cb28ecdf33b2832d8c6fb7313e39d63e9185b60dc75bb47e86c70332048c54deec1640cc9709ac7973dbf8c64b0952dbf490a0f61591766bd1369e2bb4afc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-psfragx.cfg \

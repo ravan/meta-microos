@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "libwoff2dec1_0_2-1.0.2-4.4.aarch64.rpm"
-RPM_HASH = "f9287aa4b25ec9b6c2801e53de8f624fd8af7b4b3abb063602affc083200b05a54bcbcc8fca4f568edea2e23f4c5a46331a706b8298c1c4b73ef296bf2499de2"
+RPM_NAME = "libwoff2dec1_0_2-1.0.2-6.5.aarch64.rpm"
+RPM_HASH = "7327ad541aee4f55aca15ba8156d8824ff71df5988dfad8c023d0bf73edd758e6be85ed960263b84180769b8ae1168f02108faab9e772548a67fc84862dcd850"
 
 RPROVIDES:${PN} += "libwoff2dec.so.1.0.2 \
 libwoff2dec1-0-2"

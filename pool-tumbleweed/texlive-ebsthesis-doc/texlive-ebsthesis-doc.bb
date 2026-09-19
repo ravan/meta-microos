@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ebsthesis"
 DESCRIPTION = "This package includes the documentation for texlive-ebsthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-ebsthesis-doc-2023.209.1.0svn15878-54.2.noarch.rpm"
-RPM_HASH = "94bc00a9985afabc5eec73707a9d8218520832b0d5a1e5ccb397272ea93ffbdb268346f725aea3f6b15f32cc5d9dbc61c68e98d1c47591c5f7fab70727e9af98"
+RPM_NAME = "texlive-ebsthesis-doc-2026.226.1.0svn15878-61.4.noarch.rpm"
+RPM_HASH = "6c408db94d30b373dab41446ba485d2483523958aa5593bd4a9a2cb4ab89e1c84a3ab400950dddb15673b9041796ca7192c84cfe67caff4891d10243dda14bb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ebsthesis-doc"

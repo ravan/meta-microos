@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.20.0"
 
-RPM_NAME = "mate-icon-theme-faenza-gray-1.20.0-1.12.noarch.rpm"
-RPM_HASH = "f3d635bccc072626e53bc3cd441947aed1bc058574287744565083392459036d743c6d72806a9443d05f1d86b3ff030b1516d8ab17109a9064e8500da7514f03"
+RPM_NAME = "mate-icon-theme-faenza-gray-1.20.0-1.20.noarch.rpm"
+RPM_HASH = "75daab29ddaca37d02bad9fb7c94cfa9c4edbd077753d7f3416293f7c08d04a26dbab11295630c9b96f08c9e863312691a897a8ba23018e77548f7714623dcfa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-icon-theme-faenza-gray"

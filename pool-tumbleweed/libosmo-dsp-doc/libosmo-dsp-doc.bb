@@ -1,15 +1,17 @@
-SUMMARY = "SDR DSP primitives - Documentation"
-DESCRIPTION = "A library with SDR DSP primitives headers - Documentation"
+SUMMARY = "Documentation for the Osmocom SDR DSP primitives"
+DESCRIPTION = "libosmo-dsp is a C language library for common DSP (Digital \
+Signal Processing) primitives for SDR (Software Defined Radio). \
+This subpackage contains the API documentation."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.4.0"
+PV = "0.5.0"
 
-RPM_NAME = "libosmo-dsp-doc-0.4.0-1.19.noarch.rpm"
-RPM_HASH = "ae6e88d9dbfa622b3ea11577e7608dcc047798788cf25dcac7a402c1864adf9266b686b92857bab6c1258fc1a9a903295cc00521c8a6b72c2cced6c573d0db04"
+RPM_NAME = "libosmo-dsp-doc-0.5.0-2.3.noarch.rpm"
+RPM_HASH = "d70a1a0b9e580d49f20901aa5bfc783e68a912c4f81bb734ad8b48e9a0bae1b0157f1f6d30945441b349ec6069b27278631b3fc00d93167aa369870291bdaabb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libosmo-dsp-doc"
 
-RDEPENDS:${PN} += "libosmodsp0"
+RDEPENDS:${PN} += ""
 
 inherit rpm

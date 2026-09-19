@@ -4,14 +4,18 @@ contains the necessary files for setting up a relay server, either \
 joined to the syncthing relay pool or private."
 LICENSE = "MPL-2.0"
 
-PV = "1.24.0"
+PV = "2.1.5"
 
-RPM_NAME = "syncthing-relaysrv-1.24.0-1.1.aarch64.rpm"
-RPM_HASH = "50977ee7662a7b3f99ce809604102db7195f117ac1f99445d7262223203066736f767481a8a81f1692ec10fe4a1cf17eacbbb73d0da12f6eeecc906998ca4d51"
+RPM_NAME = "syncthing-relaysrv-2.1.5-1.1.aarch64.rpm"
+RPM_HASH = "bd6f3cc58ca3cf1bacccfa463cf7d10e1878e71a027a9593b353a7abc7f2a6f15246dd74cb82350c9d3f90f49469e5bc672e9bb24d2093fabcbe4e29ff03771d"
 
-RPROVIDES:${PN} += "syncthing-relaysrv"
+RPROVIDES:${PN} += "group-strelaysrv \
+syncthing-relaysrv \
+user-strelaysrv"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-pwdutils"
+libc.so.6 \
+shadow \
+sysuser-shadow"
 
 inherit rpm

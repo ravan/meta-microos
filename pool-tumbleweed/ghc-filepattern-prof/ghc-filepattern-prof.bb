@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "ghc-filepattern-prof-0.1.3-2.11.aarch64.rpm"
-RPM_HASH = "df5b6ad02a42091ab471739340e3e21529d0f41e6960358a9ab76284e7c41c938131256cf93132dea3ea2f1802fa7cd3d89156e51b6ad4e3850b8520bc60563b"
+RPM_NAME = "ghc-filepattern-prof-0.1.3-2.36.aarch64.rpm"
+RPM_HASH = "ab330b0d627c4b1fd7510e3205533b0868441dd54cc9381a6f5603d8a5b5ea8de870e32e86e4498a6c4563d7ed298e7eba8cbbc557bc36ae55f04a279bd0c266"
 
 RPROVIDES:${PN} += "ghc-filepattern-prof \
-ghc-prof-filepattern-0.1.3-4ntZdyOJ0RX8pGnFp1xRde"
+ghc-prof-filepattern-0.1.3-KZHQp0sesewHup360RGBuM"
 
 RDEPENDS:${PN} += "ghc-filepattern-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-extra-1.7.14-DfcUn0kURmM7zhMG6RTp91 \
-ghc-prof-filepath-1.4.2.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-extra-1.8.1-J47FlDu75Mb8OlFkJuPlkW \
+ghc-prof-filepath-1.5.5.0-b25b"
 
 inherit rpm

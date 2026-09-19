@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.6"
 
-RPM_NAME = "libxmi0-2.6-29.4.aarch64.rpm"
-RPM_HASH = "3c1cb278f88cbe50e38851e5abd4c1333099f57ec62769ec65823ce74af8a6ad73ca3c957ca7341b4460c5c968520f3d75aa46aa3e0c371f5ea4719c77c6f383"
+RPM_NAME = "libxmi0-2.6-31.7.aarch64.rpm"
+RPM_HASH = "ef8d198f44586271dc59f53515d9d78491cc34ededba257d4deb862955f78a42d10d642a38a2decc0204d05658834f165f31725b354e3245e9e892bddf09fb5d"
 
 RPROVIDES:${PN} += "libxmi.so.0 \
 libxmi0"

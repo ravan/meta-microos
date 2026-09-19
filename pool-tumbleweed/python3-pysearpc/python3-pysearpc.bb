@@ -2,10 +2,10 @@ SUMMARY = "Python files for libsearpc"
 DESCRIPTION = "The python-pysearpc package contains python files to make use of libsearpc."
 LICENSE = "Apache-2.0"
 
-PV = "3.3.0.20230527"
+PV = "3.3.0.20250303"
 
-RPM_NAME = "python3-pysearpc-3.3.0.20230527-1.1.aarch64.rpm"
-RPM_HASH = "c3037f1617db052fddb86090196ab5af8d1c6799af2889a5a759072862833f2aa2b97c858b2487e0f03f09abacfce61423b878ef0ccd896a4c14db4218f9ceef"
+RPM_NAME = "python3-pysearpc-3.3.0.20250303-1.6.aarch64.rpm"
+RPM_HASH = "24f82bb38154b3575090555d7f125bd305e654ad3d3ef3daeea83f2be3ecbe5e40acb04d18fc2555c85b1d2dbb6ad1bec39d681f5e9f9176057236ea5d006ff8"
 
 RPROVIDES:${PN} += "python3-pysearpc"
 

@@ -9,10 +9,10 @@ first try on a non-technical Mini-HOWTO and FAQ on NTP). Edited by \
 Ulrich Windl and David Dalton."
 LICENSE = "BSD-3-Clause & MIT & BSD-4-Clause & GPL-2.0-only"
 
-PV = "4.2.8p17"
+PV = "4.2.8p18"
 
-RPM_NAME = "ntp-doc-4.2.8p17-1.1.aarch64.rpm"
-RPM_HASH = "583e54d5231260d5600cc47f089d249d2c0e5c9719e19fa7aa4277615f7dc58dda615ca4ee44cb8c16e1bfde8ccb881a0fe3c2c8562d085f994a6c70e267d326"
+RPM_NAME = "ntp-doc-4.2.8p18-3.3.aarch64.rpm"
+RPM_HASH = "4ffaa59762aef8d5af4a912566200dec79ef1b586f94ce3984e61fff9527ef401ba5807bd44a9676a57a787335be05f8cd0efb19d959b6270507145de10df525"
 
 RPROVIDES:${PN} += "ntp-doc \
 ntpdoc \

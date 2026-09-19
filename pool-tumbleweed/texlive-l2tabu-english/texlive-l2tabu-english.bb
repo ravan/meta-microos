@@ -3,10 +3,10 @@ DESCRIPTION = "English translation of the l2tabu practical guide to LaTeX2e by \
 Mark Trettin. A list of obsolete packages and commands."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.8.5.7svn15878"
+PV = "2026.226.1.8.5.7svn15878"
 
-RPM_NAME = "texlive-l2tabu-english-2023.209.1.8.5.7svn15878-56.1.noarch.rpm"
-RPM_HASH = "00888d18df5c8e683922917b3866a221ced4c8b4e4b6f823f598a8f7384948a172b1d8f1f67468883aa22f306615e09a8ed24ce391c6f479b5e2625eb827a0b8"
+RPM_NAME = "texlive-l2tabu-english-2026.226.1.8.5.7svn15878-63.2.noarch.rpm"
+RPM_HASH = "af8882679b27d3b997fe21387eada6d019de90c257e4d464a84c470f155fae2ed168219adbcb49d1a9b93e827923d63fec33f51a2662d0878f9a526b45c95915"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-l2tabu-english"

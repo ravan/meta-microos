@@ -4,24 +4,18 @@ DESCRIPTION = "Provides generalisations of 'swap :: (a,b) -> (b,a)' and 'assoc :
 'Either', 'These')."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1"
+PV = "1.1.1"
 
-RPM_NAME = "ghc-assoc-1.1-1.6.aarch64.rpm"
-RPM_HASH = "c1df9f4d967895ca3c388a4b14bda0869424d5210986baea3b34f01e982ece3b52328ac5e5ca40320b57ffaa7d7b452aea8966ace68641f2720bf6eaa07a57b1"
+RPM_NAME = "ghc-assoc-1.1.1-3.3.aarch64.rpm"
+RPM_HASH = "567a0b234d4cc573fbe9903348210fa9f68a7656e4870000a71a368d04ac7c795a0c617c07afaae7c0d063a81a411e8180182e6666c61e113f69f5dd0aaa4000"
 
 RPROVIDES:${PN} += "ghc-assoc \
-libHSassoc-1.1-J44kuPbAMT5GyespKCFdbT-ghc9.4.6.so"
+libHSassoc-1.1.1-7ZKlIzFkmc1FQCJcpfYrTi-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

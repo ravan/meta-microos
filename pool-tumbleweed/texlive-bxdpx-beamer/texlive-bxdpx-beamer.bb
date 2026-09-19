@@ -5,10 +5,10 @@ and \\framezoomed regions when using dvipdfmx as PDF generator \
 'user' commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn41813"
+PV = "2026.226.0.0.3svn41813"
 
-RPM_NAME = "texlive-bxdpx-beamer-2023.209.0.0.3svn41813-53.1.noarch.rpm"
-RPM_HASH = "235848954d6d19f8bf09d512ca4ee8ce8c214f3409bf6671b5c76e82fbfd30b8b6a3150d2560198fffa90bf7d8ecf535238140806835adaf176884bf87c39255"
+RPM_NAME = "texlive-bxdpx-beamer-2026.226.0.0.3svn41813-59.2.noarch.rpm"
+RPM_HASH = "4e275c24be75c5a7386bbb2153cb399512579076f2950299924607a31e223f124b94a9338cc5a9776a3bdab4578d849979bbba5e0496fbb66ca90a5071b180f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxdpx-beamer.sty \

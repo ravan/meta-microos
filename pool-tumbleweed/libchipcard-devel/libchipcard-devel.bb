@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.1.6"
 
-RPM_NAME = "libchipcard-devel-5.1.6-1.12.aarch64.rpm"
-RPM_HASH = "6c4217e995247faec4268a181c1b1daee1ed7d2e88b4da51636f517c12a7e884a4683e89af96280bfec00541df8d3f0d1c11d5cc7dd5bd67a866ee2c0e4894b5"
+RPM_NAME = "libchipcard-devel-5.1.6-2.9.aarch64.rpm"
+RPM_HASH = "f4994c54d584cc53b2bcb0573f7ca837bfac6711839d47b36a9cad889c0880556b57834adb7bf104cc95915c906d92622cad692945bc99a90ff74198419f80bb"
 
 RPROVIDES:${PN} += "libchipcard-devel \
 pkgconfig-libchipcard-client \

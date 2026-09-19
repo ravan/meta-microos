@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the GPFS filesystem."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-gpfs-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "a204163100de52f9c440b23821b7f577c81ed0198576e41d4fb8cf60173de250184ea01201777a6d2982bf5d4e9439165357e68d0b8afaafe9d0ea86f7cfdc0b"
+RPM_NAME = "pcp-pmda-gpfs-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "1c64cc5cee3e95f0a6adf4e91541fee2594bd16e9a66c7e7f4b031f80836e2a44114cfbedab8ca4ff476ba3ae26782ff32a78adabe6f352d0f92c7fdf551fb28"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-gpfs"
 

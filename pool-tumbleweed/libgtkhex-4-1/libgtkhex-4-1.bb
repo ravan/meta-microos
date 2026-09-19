@@ -4,10 +4,10 @@ in either hex or ASCII. It is a must for anyone playing games that use \
 a non-ASCII format for saving."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "50.3"
 
-RPM_NAME = "libgtkhex-4-1-44.2-1.1.aarch64.rpm"
-RPM_HASH = "d70192e139ee21405bd693f24d282dbb121bced8d7ae4973f475301461c2d6f54340651337d7881e53cec6fb2679578bc01f384c12997821816ef3c37884eeb8"
+RPM_NAME = "libgtkhex-4-1-50.3-1.1.aarch64.rpm"
+RPM_HASH = "703592c522751b2fc9c60a0fc873ee50ab91932c3d64a764188294c03d1cbda7c4480108bd3efcfb4e90424c759f807a848c8565586ae464a5068fc0a24a9183"
 
 RPROVIDES:${PN} += "libgtkhex-4-1 \
 libgtkhex-4.so.1"

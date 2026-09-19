@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-amsaddr"
 DESCRIPTION = "This package includes the documentation for texlive-amsaddr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn64357"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-amsaddr-doc-2023.209.1.2svn64357-55.1.noarch.rpm"
-RPM_HASH = "90e97c120346c4c8bab8a2364beadc51cb3bcd7b0650e1fb4d81467c6a1c4f65210239b544fe8600cba17abd8cee3a5af2567e0d2c314385516d2a1fa9c423bd"
+RPM_NAME = "texlive-amsaddr-doc-2026.226.1.3svn77682-61.2.noarch.rpm"
+RPM_HASH = "a23fed0988674bf079dadbcaecd5269bbe6cfc6a966479ee962c90124acb5c28367e207c3e2b6612d02bf2ea9162cac1f365ca79453a908864928669afb17fc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amsaddr-doc"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.1"
 
-RPM_NAME = "libfuturesql6-0-0.1.1-1.1.aarch64.rpm"
-RPM_HASH = "1fb372d17b14000fa4b6b198cfe59f258a0ebdd5d56ccadaa597ab9ed8ebef98b4bd201c358568166db823a4fd94b68a8b9a3f79ef144566423c1fed69a10e46"
+RPM_NAME = "libfuturesql6-0-0.1.1-1.11.aarch64.rpm"
+RPM_HASH = "2bf8b708af22e489c31f00a3a7f54a3327b3229dc984e5e931e347c565ec28640c7bf9022fdc7ef354851c3fc157bf928cd646c57c1ec7e84fe8800f2ceb1f10"
 
 RPROVIDES:${PN} += "libfuturesql6-0 \
 libfuturesql6.so.0"

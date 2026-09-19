@@ -4,10 +4,10 @@ presentation drafting. It comes with several sample .tex files \
 so that you can quickly start working with it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn47963"
+PV = "2026.226.1.0.0svn47963"
 
-RPM_NAME = "texlive-powerdot-tuliplab-2023.209.1.0.0svn47963-53.1.noarch.rpm"
-RPM_HASH = "9418107f995e47b4e8bce954c50ce8397ef5e50044197b9777e3625f9dd19bb68340f46a7f0aaa7174b5bf02e17d628f35ad231a72244cade96f6194e4dc22dd"
+RPM_NAME = "texlive-powerdot-tuliplab-2026.226.1.0.0svn47963-59.2.noarch.rpm"
+RPM_HASH = "09a60e2d87c33926d3cf8b029c2003a0a3775b68d6bee86e67d75170005b2040c2445da846b1c681a92bf39b7a88e2f4b6a63817d151d57d9ca95b3d1ddbf639"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-powerdot-tuliplab.sty \

@@ -30,15 +30,14 @@ description of the 'topo' and 'dot' operations as well as how to enable \
 tab-completion."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7.3.0"
+PV = "0.7.6.1"
 
-RPM_NAME = "cabal-plan-0.7.3.0-2.4.aarch64.rpm"
-RPM_HASH = "59ccad474a0c5597e40abe6fbc8075180f091e11c0779170d5d6cbb1aa1d1c1fdef2ba26957f900e42f458f3edea1909ef171beb5fffc6ce2293434942db418b"
+RPM_NAME = "cabal-plan-0.7.6.1-1.15.aarch64.rpm"
+RPM_HASH = "ed9d2fba8f123db02c41f92de4715ac4a64a4bb4ba1105dc43e90829714ea09e847af25d9362f2c4efd535e953c365338dc425f588b9eb20db5157c4df8dd9f3"
 
 RPROVIDES:${PN} += "cabal-plan"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \
 libm.so.6 \

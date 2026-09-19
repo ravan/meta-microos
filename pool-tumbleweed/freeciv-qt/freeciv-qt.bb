@@ -2,29 +2,27 @@ SUMMARY = "Qt client for freeciv"
 DESCRIPTION = "Freeciv executable using Qt library"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.8"
+PV = "3.2.6"
 
-RPM_NAME = "freeciv-qt-3.0.8-1.1.aarch64.rpm"
-RPM_HASH = "9f2c823080066a0be45b0c0b392c762be130ebc53c67b20a95fdf2f5403a67600f9cde007fde2a1c83213515f384e0bf951cfe0b0554c3b607dec33e99611d9a"
+RPM_NAME = "freeciv-qt-3.2.6-2.1.aarch64.rpm"
+RPM_HASH = "9e9f3701c5ed30cd066c9f9ba6d90d79b2788cb04d1e6dd9ad87b779fa0401a2df084fbde38aa080c161134146b3bdc45fe20800e27ceb0d2ba6c66350bb2525"
 
-RPROVIDES:${PN} += "freeciv-client-3.0.8 \
+RPROVIDES:${PN} += "freeciv-client-3.2.6 \
 freeciv-qt"
 
 RDEPENDS:${PN} += "freeciv \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libSDL2-2.0.so.0 \
-libSDL2-mixer-2.0.so.0 \
-libbz2.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libSDL3-mixer.so.0 \
+libSDL3.so.0 \
 libc.so.6 \
-libcurl.so.4 \
+libfreeciv.so \
 libgcc-s.so.1 \
-libicuuc.so.73 \
-liblzma.so.5 \
+liblua5.4.so.5 \
 libm.so.6 \
-libstdc++.so.6 \
-libz.so.1"
+libsqlite3.so.0 \
+libstdc++.so.6"
 
 inherit rpm

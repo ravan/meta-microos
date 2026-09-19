@@ -3,15 +3,16 @@ DESCRIPTION = "Tio is a simple TTY terminal application which features a straigh
 commandline interface to easily connect to TTY devices for basic input/output."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.6"
+PV = "3.9"
 
-RPM_NAME = "tio-2.6-1.1.aarch64.rpm"
-RPM_HASH = "6dd7f41bc92a5ab51a8ed498f6f12514dc7142744a1500ef73a6f77f2c3274689283baaadc2b2782c305b466967b8d80f49ef674b56af80ccdbc5359942a58e7"
+RPM_NAME = "tio-3.9-1.6.aarch64.rpm"
+RPM_HASH = "d945646ddf4c4d499adab7540bfab412fa9e788a83225c1d26b734a1919245193b82efef75b36362320dccb48c010d308c05da7fc36048fc772dd1dfc402bcf5"
 
 RPROVIDES:${PN} += "tio"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libinih.so.0"
+libglib-2.0.so.0 \
+liblua5.3.so.5"
 
 inherit rpm

@@ -4,10 +4,10 @@ any kind of terms with a continuous number. Candidate terms may \
 appear inside an equation or eqnarray environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn18923"
+PV = "2026.227.1.1svn18923"
 
-RPM_NAME = "texlive-termlist-2023.209.1.1svn18923-55.1.noarch.rpm"
-RPM_HASH = "ff296d2d04e173516e4a92654bdc49a648ab53421099310791cbd59c9e06baf65c0e0f4362c56df9bcb062cb8befff5e75ad69a2f13e6fb1ecf02b12835f381a"
+RPM_NAME = "texlive-termlist-2026.227.1.1svn18923-62.2.noarch.rpm"
+RPM_HASH = "7943220bebaeaa678d439638018dc7dfb5f2848c0499fe61f179897f6206e9b41aba662f7413e000e42b073cbd2dee8dac7258020c5cec2d9a140c8b82c04c4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-termlist.sty \

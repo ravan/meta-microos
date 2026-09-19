@@ -1,23 +1,23 @@
-SUMMARY = "Libraries and Header Files to Develop Programs with libiniparser Support"
-DESCRIPTION = "This package contains the static libraries and header files needed to \
-develop programs which make use of the libiniparser programming \
-interface. \
+SUMMARY = "Libraries and header files to develop programs with libiniparser support"
+DESCRIPTION = "This package contains the static libraries and header files needed to develop \
+programs which make use of the libiniparser programming interface. \
  \
-The libiniparser offers parsing of ini files from the C level.	See a \
-complete documentation in HTML format, from the \
-/usr/share/doc/packages/libiniparser-devel directory open the file \
-html/index.html with any HTML-capable browser. \
- \
-Libraries and Header Files to Develop Programs with iniparser Support."
+The libiniparser offers parsing of ini files from the C level. See a complete \
+documentation in HTML format, from the /usr/share/doc/packages/libiniparser-devel directory \
+open the file html/index.html with any HTML-capable browser."
 LICENSE = "MIT"
 
-PV = "4.1"
+PV = "4.2.6"
 
-RPM_NAME = "libiniparser-devel-4.1-3.1.aarch64.rpm"
-RPM_HASH = "34a9e0c1e5964df3fc7b534b36e35477f56b6b032ab1e0258938e9ebe4b7098063176af59873bca6cd77297f0c2fc7d25b0f8a16e1149fc69bde6950faf88c8f"
+RPM_NAME = "libiniparser-devel-4.2.6-2.2.aarch64.rpm"
+RPM_HASH = "46aa92d4c34500a037bbd3d539c5b1a41418fafb034f5e7a8dedadc8f4edceae2134358c60af9ce83c260e8d75f3350c38fe17ae55547ebd211256fcd1f5275d"
 
-RPROVIDES:${PN} += "libiniparser-devel"
+RPROVIDES:${PN} += "cmake-iniparser \
+cmake-unity \
+libiniparser-devel \
+pkgconfig-iniparser"
 
-RDEPENDS:${PN} += "libiniparser1"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libiniparser4"
 
 inherit rpm

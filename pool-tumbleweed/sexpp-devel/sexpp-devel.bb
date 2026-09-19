@@ -6,10 +6,10 @@ LISP S-expressions. \
 This package contains the files required for developing using sexpp."
 LICENSE = "MIT"
 
-PV = "0.8.7"
+PV = "0.9.2"
 
-RPM_NAME = "sexpp-devel-0.8.7-1.1.aarch64.rpm"
-RPM_HASH = "5d77001ddcb0361dd836b69bbd0e430630c2dce8d983abe2ed842af23a4b7230f479699cb31c6a063ce6e215a3e2e5585a643160c555591cb503f2831be976f2"
+RPM_NAME = "sexpp-devel-0.9.2-1.5.aarch64.rpm"
+RPM_HASH = "89e0633a94c21d469ac06882a6b664fd4d78f76bd50465ccafa84dda4e62180f6ea413b39f0ff8d0dcb1e52a9307075322d97b9f866d3bd15c5bef307f661397"
 
 RPROVIDES:${PN} += "pkgconfig-sexpp \
 sexpp-devel"

@@ -1,11 +1,11 @@
 SUMMARY = "General Data for KDE Games"
-DESCRIPTION = "This package contains data which is required by KDE games."
-LICENSE = "GPL-2.0-or-later"
+DESCRIPTION = "Common code, backgrounds and tile sets for games using Mahjongg tiles."
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libkmahjongg-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "106d1a6fd14b207778888ec12715899adb196f6107dad49c87ef30d6f0bce6e0a6f5c3c3459da61d33bcaee1399d026d4305a663735253c8718e1cd4469a3c4b"
+RPM_NAME = "libkmahjongg-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "4e45e1ae88b252f292487ece50c08a7182aef37695b3b0d6621956bd038c54f8a88b3cdd1cf7ff9cc59b01b6543ddaf3d89f699d143113861006c4f30f7d3928"
 
 RPROVIDES:${PN} += "libkmahjongg \
 libkmahjongg-kf5"

@@ -6,17 +6,17 @@ buttons on the side. Whisker Menu keeps a list of most recent used \
 applications launched from it."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.7.3"
+PV = "2.10.1"
 
-RPM_NAME = "xfce4-whiskermenu-plugin-2.7.3-1.2.aarch64.rpm"
-RPM_HASH = "df30e59a59119b145fddfda030888435037037337baa9c5aed436286710322fe617928a89c86495e0e72fdaf52e65a5484ed13454662796ea73f63f319dba132"
+RPM_NAME = "xfce4-whiskermenu-plugin-2.10.1-1.2.aarch64.rpm"
+RPM_HASH = "8196c3466b894b9958bce1a1f00d626a3b36eef6f47c14d7ca7c8a633048dd218987d9d831591de631561c38a2e8a14c0befdbc06f8a09a053be6a0fe3f44a6f"
 
 RPROVIDES:${PN} += "libwhiskermenu.so \
 xfce4-panel-plugin-whiskermenu \
 xfce4-whiskermenu-plugin"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libaccountsservice.so.0 \
 libc.so.6 \
 libcairo.so.2 \
 libexo-2.so.0 \
@@ -28,9 +28,11 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtk-layer-shell.so.0 \
 libstdc++.so.6 \
 libxfce4panel-2.0.so.4 \
 libxfce4ui-2.so.0 \
-libxfce4util.so.7"
+libxfce4util.so.7 \
+libxfconf-0.so.3"
 
 inherit rpm

@@ -6,10 +6,10 @@ This package contains the development headers for the library found \
 in libXaw6/libXaw7/libXaw8."
 LICENSE = "MIT"
 
-PV = "1.0.15"
+PV = "1.0.16"
 
-RPM_NAME = "libXaw-devel-1.0.15-1.4.aarch64.rpm"
-RPM_HASH = "eccf81d28f91b11726c016b29175b41e316d25c4adea80902f10cc0168dd6d3f8f9e9cc2a5c0a2abf2f8ce376ee278f082df2007889e4fc1806e4796d2c4d16b"
+RPM_NAME = "libXaw-devel-1.0.16-1.9.aarch64.rpm"
+RPM_HASH = "b4303c71850350aa4cb9160e09e980b125bf739803c1606a9afb1ad4dbdbaa9a444676ab8bb142f4eb7d0237b6bf0496895f6afbb6be9605d75d283d2ef01e31"
 
 RPROVIDES:${PN} += "libXaw-devel \
 pkgconfig-xaw6 \

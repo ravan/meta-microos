@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.19"
 
-RPM_NAME = "popt-devel-1.19-1.4.aarch64.rpm"
-RPM_HASH = "ea04e9e0b6843519cc4a6a1e8a26fe8c8c93f3cfc482eeb2a80e2292840e3fc361c7a815716cf862111616072ec39613fb5b0e3e856a2889d5ada4f20be53c33"
+RPM_NAME = "popt-devel-1.19-2.3.aarch64.rpm"
+RPM_HASH = "b260fed0f55178eddc1e2278d5e5badc70b99374fdf9009327b045ba5586b7f1ef0bf27db03fa84f7d0f66df78f4e54aa06ea8fa6e45a3b7364f9c8cf0de9010"
 
 RPROVIDES:${PN} += "pkgconfig-popt \
 popt-devel"

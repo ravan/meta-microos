@@ -16,10 +16,10 @@ follow a consistent naming scheme making them easy to use and \
 understand."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn63850"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-derivative-2023.209.1.2svn63850-53.1.noarch.rpm"
-RPM_HASH = "54e4373fb4b3cb10b29d51345bd0400336634f1e9ebc7d65e7f046b4cae160e625f815e2094af7435117f32083dc145203cf7e83e4fa6a5717869d2594c2f1f4"
+RPM_NAME = "texlive-derivative-2026.226.1.4svn77682-59.2.noarch.rpm"
+RPM_HASH = "307a4b09247b1e585e73f71ba110d13dcef2185b0641004fa4ffe3fcdc1f910b223df0042cc4dd10fcf544e0fbfc87d8fb5d2f07325a2a81c5029435a6bf9fe5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-derivative.sty \
@@ -33,7 +33,6 @@ grep \
 sed \
 tex-expl3.sty \
 tex-l3keys2e.sty \
-tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -30,13 +30,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.0203"
 
-RPM_NAME = "perl-Symbol-Util-0.0203-5.26.noarch.rpm"
-RPM_HASH = "d510e089cba5086e1f8664ed745540508f1207adbdf710cbb1d3eb38c67e791a26c3f8ac8488926a906f6baab87105aef42be118cefcf3a0e6fd9073a70f7899"
+RPM_NAME = "perl-Symbol-Util-0.0203-5.40.noarch.rpm"
+RPM_HASH = "7db0b1c0b37d2ed83de82ab7fcc4764cb307b089f7f0e217c4d11619e152cc439d274821ef151cd88a031ffb82d7ef1f7ad37ecec70807ad8e2ee6700f5a7290"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Symbol--Util \
 perl-Symbol-Util"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

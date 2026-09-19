@@ -10,19 +10,19 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.4"
 
-RPM_NAME = "logstalgia-1.1.4-1.5.aarch64.rpm"
-RPM_HASH = "070155cc7fbfe79f317334e52c152280cb43f10064f55145a93b63d2052864bd5f3d947bef5ff8200599abe89246c51d97a7d4413e0c29c0873a8153b61260f0"
+RPM_NAME = "logstalgia-1.1.4-2.10.aarch64.rpm"
+RPM_HASH = "fc87101617c7a6c4d32c3316bf3faf4d42033b581cb3cd886758597f42d6383e4760068dd19a19e3a76e38f7c6850a79b3bb8493a98df75fe6a38ebec4a72597"
 
 RPROVIDES:${PN} += "logstalgia"
 
 RDEPENDS:${PN} += "freefont \
 ld-linux-aarch64.so.1 \
-libGL.so.1 \
-libGLEW.so.2.2 \
+libGLEW.so.2.3 \
 libGLU.so.1 \
+libOpenGL.so.0 \
 libSDL2-2.0.so.0 \
 libSDL2-image-2.0.so.0 \
-libboost-filesystem.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
 libc.so.6 \
 libfreetype.so.6 \
 libgcc-s.so.1 \

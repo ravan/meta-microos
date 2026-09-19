@@ -9,20 +9,23 @@ Features: \
  * Export to file, web"
 LICENSE = "GPL-3.0-only"
 
-PV = "12.1.0"
+PV = "14.0.0"
 
-RPM_NAME = "flameshot-12.1.0-2.2.aarch64.rpm"
-RPM_HASH = "224f39a91ce0a81f14fa34e89ce0bcb509b4b0d262531f67789b754eec45c186de192171883bc2b20d9eb896151e715efa2b46ccd2482409f9fa3c94d6da78e1"
+RPM_NAME = "flameshot-14.0.0-1.2.aarch64.rpm"
+RPM_HASH = "2ce26b2e56e0fd6ad23d21ab8afa778c77e94d8a50703637220c7fb510214ccf2454c6d7384ada7a9c06b33afd65fd6c9d208026bc9a6c4c0f474e75c900b08d"
 
 RPROVIDES:${PN} += "flameshot"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5GuiAddons.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+RDEPENDS:${PN} += "hicolor-icon-theme \
+ld-linux-aarch64.so.1 \
+libKF6GuiAddons.so.6 \
+libQt6Core.so.6 \
+libQt6Core6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Svg6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

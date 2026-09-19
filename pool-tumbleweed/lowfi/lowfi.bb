@@ -1,0 +1,193 @@
+SUMMARY = "An extremely simple lofi player"
+DESCRIPTION = "A tiny rust app that serves a single purpose: play lofi. \
+It'll do this as simply as it can: no albums, no ads, just lofi. \
+All of the audio files played in lowfi are from Lofi Girl's website, \
+https://lofigirl.com/ \
+under their licensing guidelines : https://form.lofigirl.com/CommercialLicense"
+LICENSE = "MIT & MPL-2.0"
+
+PV = "2.0.7"
+
+RPM_NAME = "lowfi-2.0.7-2.2.aarch64.rpm"
+RPM_HASH = "9bf4fa6506d5644713bb383106d0597809fbd999f22f1388d68394be01e0c2b687d104fb4cef3e2caed98e8b699e990d1dedebfd6c6da7ee2f824329210737a7"
+
+RPROVIDES:${PN} += "bundled-rust-crate-alsa \
+bundled-rust-crate-alsa-sys \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
+bundled-rust-crate-arrayvec \
+bundled-rust-crate-atomic-waker \
+bundled-rust-crate-autocfg \
+bundled-rust-crate-aws-lc-rs \
+bundled-rust-crate-aws-lc-sys \
+bundled-rust-crate-base64 \
+bundled-rust-crate-bitflags \
+bundled-rust-crate-bytemuck \
+bundled-rust-crate-bytes \
+bundled-rust-crate-cc \
+bundled-rust-crate-cfg-aliases \
+bundled-rust-crate-cfg-if \
+bundled-rust-crate-chrono \
+bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
+bundled-rust-crate-clap-derive \
+bundled-rust-crate-clap-lex \
+bundled-rust-crate-cmake \
+bundled-rust-crate-colorchoice \
+bundled-rust-crate-cpal \
+bundled-rust-crate-crossterm \
+bundled-rust-crate-dasp-sample \
+bundled-rust-crate-dirs \
+bundled-rust-crate-dirs-sys \
+bundled-rust-crate-displaydoc \
+bundled-rust-crate-document-features \
+bundled-rust-crate-dunce \
+bundled-rust-crate-encoding-rs \
+bundled-rust-crate-equivalent \
+bundled-rust-crate-errno \
+bundled-rust-crate-eyre \
+bundled-rust-crate-fastrand \
+bundled-rust-crate-find-msvc-tools \
+bundled-rust-crate-fnv \
+bundled-rust-crate-form-urlencoded \
+bundled-rust-crate-fs-extra \
+bundled-rust-crate-futures-channel \
+bundled-rust-crate-futures-core \
+bundled-rust-crate-futures-io \
+bundled-rust-crate-futures-macro \
+bundled-rust-crate-futures-sink \
+bundled-rust-crate-futures-task \
+bundled-rust-crate-futures-util \
+bundled-rust-crate-getrandom \
+bundled-rust-crate-h2 \
+bundled-rust-crate-hashbrown \
+bundled-rust-crate-heck \
+bundled-rust-crate-http \
+bundled-rust-crate-http-body \
+bundled-rust-crate-http-body-util \
+bundled-rust-crate-httparse \
+bundled-rust-crate-hyper \
+bundled-rust-crate-hyper-rustls \
+bundled-rust-crate-hyper-util \
+bundled-rust-crate-iana-time-zone \
+bundled-rust-crate-icu-collections \
+bundled-rust-crate-icu-locale-core \
+bundled-rust-crate-icu-normalizer \
+bundled-rust-crate-icu-normalizer-data \
+bundled-rust-crate-icu-properties \
+bundled-rust-crate-icu-properties-data \
+bundled-rust-crate-icu-provider \
+bundled-rust-crate-idna \
+bundled-rust-crate-idna-adapter \
+bundled-rust-crate-indenter \
+bundled-rust-crate-indexmap \
+bundled-rust-crate-ipnet \
+bundled-rust-crate-is-terminal-polyfill \
+bundled-rust-crate-itoa \
+bundled-rust-crate-jobserver \
+bundled-rust-crate-lazy-static \
+bundled-rust-crate-libc \
+bundled-rust-crate-linux-raw-sys \
+bundled-rust-crate-litemap \
+bundled-rust-crate-litrs \
+bundled-rust-crate-lock-api \
+bundled-rust-crate-log \
+bundled-rust-crate-lowfi \
+bundled-rust-crate-lru-slab \
+bundled-rust-crate-memchr \
+bundled-rust-crate-mio \
+bundled-rust-crate-num-bigint \
+bundled-rust-crate-num-integer \
+bundled-rust-crate-num-rational \
+bundled-rust-crate-num-traits \
+bundled-rust-crate-once-cell \
+bundled-rust-crate-openssl-probe \
+bundled-rust-crate-option-ext \
+bundled-rust-crate-parking-lot \
+bundled-rust-crate-parking-lot-core \
+bundled-rust-crate-percent-encoding \
+bundled-rust-crate-pin-project-lite \
+bundled-rust-crate-pkg-config \
+bundled-rust-crate-potential-utf \
+bundled-rust-crate-ppv-lite86 \
+bundled-rust-crate-proc-macro2 \
+bundled-rust-crate-quinn \
+bundled-rust-crate-quinn-proto \
+bundled-rust-crate-quinn-udp \
+bundled-rust-crate-quote \
+bundled-rust-crate-rand \
+bundled-rust-crate-rand-chacha \
+bundled-rust-crate-rand-core \
+bundled-rust-crate-reqwest \
+bundled-rust-crate-ring \
+bundled-rust-crate-rodio \
+bundled-rust-crate-rustc-hash \
+bundled-rust-crate-rustix \
+bundled-rust-crate-rustls \
+bundled-rust-crate-rustls-native-certs \
+bundled-rust-crate-rustls-pki-types \
+bundled-rust-crate-rustls-platform-verifier \
+bundled-rust-crate-rustls-webpki \
+bundled-rust-crate-scopeguard \
+bundled-rust-crate-serde \
+bundled-rust-crate-serde-core \
+bundled-rust-crate-shlex \
+bundled-rust-crate-signal-hook \
+bundled-rust-crate-signal-hook-mio \
+bundled-rust-crate-signal-hook-registry \
+bundled-rust-crate-slab \
+bundled-rust-crate-smallvec \
+bundled-rust-crate-socket2 \
+bundled-rust-crate-stable-deref-trait \
+bundled-rust-crate-strsim \
+bundled-rust-crate-subtle \
+bundled-rust-crate-symphonia \
+bundled-rust-crate-symphonia-bundle-mp3 \
+bundled-rust-crate-symphonia-core \
+bundled-rust-crate-symphonia-metadata \
+bundled-rust-crate-syn \
+bundled-rust-crate-sync-wrapper \
+bundled-rust-crate-synstructure \
+bundled-rust-crate-thiserror \
+bundled-rust-crate-thiserror-impl \
+bundled-rust-crate-tinystr \
+bundled-rust-crate-tinyvec \
+bundled-rust-crate-tinyvec-macros \
+bundled-rust-crate-tokio \
+bundled-rust-crate-tokio-macros \
+bundled-rust-crate-tokio-rustls \
+bundled-rust-crate-tokio-util \
+bundled-rust-crate-tower \
+bundled-rust-crate-tower-http \
+bundled-rust-crate-tower-layer \
+bundled-rust-crate-tower-service \
+bundled-rust-crate-tracing \
+bundled-rust-crate-tracing-core \
+bundled-rust-crate-try-lock \
+bundled-rust-crate-unicode-ident \
+bundled-rust-crate-unicode-segmentation \
+bundled-rust-crate-untrusted \
+bundled-rust-crate-url \
+bundled-rust-crate-utf8-iter \
+bundled-rust-crate-utf8parse \
+bundled-rust-crate-want \
+bundled-rust-crate-writeable \
+bundled-rust-crate-yoke \
+bundled-rust-crate-yoke-derive \
+bundled-rust-crate-zerocopy \
+bundled-rust-crate-zerofrom \
+bundled-rust-crate-zerofrom-derive \
+bundled-rust-crate-zeroize \
+bundled-rust-crate-zerotrie \
+bundled-rust-crate-zerovec \
+bundled-rust-crate-zerovec-derive \
+lowfi"
+
+RDEPENDS:${PN} += "libasound.so.2 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6"
+
+inherit rpm

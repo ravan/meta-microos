@@ -4,26 +4,19 @@ package repositories, search for packages, install, remove, or update packages, 
 install patches, hardware drivers, verify dependencies, and more. \
  \
 Zypper can be used interactively or non-interactively by user, from scripts, \
-or front-ends. \
- \
-Authors: \
--------- \
-    Jan Kupec <jkupec@suse.cz> \
-    Michael Andres <ma@suse.de> \
-    Duncan Mac-Vicar <dmacvicar@suse.de> \
-    Martin Vidner <mvidner@suse.cz> \
-    Josef Reidinger <jreidinger@suse.cz>"
+or front-ends."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.14.64"
+PV = "1.14.101"
 
-RPM_NAME = "zypper-1.14.64-1.1.aarch64.rpm"
-RPM_HASH = "795c48a1c951539187bb868efdc083fa2fbccfb83031c353cbfeb87708b96c215860060522d20479765ce40de9a59a2bcffd9eba68f3072afab749fe5a97ab12"
+RPM_NAME = "zypper-1.14.101-1.1.aarch64.rpm"
+RPM_HASH = "d393f688536031476c21f1cb724b03363408b1fc580515fff131782e2992203bc80abb44d83deebbee7d30973f3512ee886f8aa4c3a21c328f487cbdfe57a17d"
 
 RPROVIDES:${PN} += "config-zypper \
 y2pmsh \
 zypper \
 zypper-auto-agree-with-product-licenses \
+zypper-include-all-archs \
 zypper-oldpackage \
 zypper-purge-kernels \
 zypper-updatestack-only"
@@ -36,9 +29,8 @@ libc.so.6 \
 libgcc-s.so.1 \
 libreadline.so.8 \
 libstdc++.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 libzypp \
-libzypp.so.1722 \
-procps"
+libzypp.so.1735"
 
 inherit rpm

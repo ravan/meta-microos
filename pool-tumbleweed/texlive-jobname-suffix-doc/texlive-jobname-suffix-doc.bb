@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jobname-suffix"
 DESCRIPTION = "This package includes the documentation for texlive-jobname-suffix"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn64797"
+PV = "2026.226.1.0svn64797"
 
-RPM_NAME = "texlive-jobname-suffix-doc-2023.209.1.0svn64797-56.1.noarch.rpm"
-RPM_HASH = "8f17ed28a688e9195247a1411c12a8fc57155bda51361a2e80103a156a8715a27354ef65e5e20b473f7147eb022f4e553e297591f0823258b3112dec9dc99b3e"
+RPM_NAME = "texlive-jobname-suffix-doc-2026.226.1.0svn64797-63.2.noarch.rpm"
+RPM_HASH = "6a63fa79090771ef21b71ae4245e11feaae5275e7a65a2d7e861b9562ffd5707792b403817931d77d5678cc85b9d89d0131ff1cc768b60a96221b10c86a4d0b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jobname-suffix-doc"

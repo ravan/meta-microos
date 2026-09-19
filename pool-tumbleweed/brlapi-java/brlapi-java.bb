@@ -11,10 +11,10 @@ ignored, whereas each piece of data coming from the braille terminal is \
 sent to the application, rather than to brltty."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.6"
+PV = "6.9.1"
 
-RPM_NAME = "brlapi-java-6.6-1.1.aarch64.rpm"
-RPM_HASH = "952f2800d5176517c3e6c29723ef1fdb11a568859aa8e7994a1e51096e3601389a5d68f317965629a58d18042633233e6eab3f9a09129b40cfcb7e1eba3b1179"
+RPM_NAME = "brlapi-java-6.9.1-2.1.aarch64.rpm"
+RPM_HASH = "34ecf985e9782d9562581fbd817a5cdc9ab5056019f4d9c3a456bd1d717b9c092ad53900e86beefccb847563563336bf109070dc13d4b4a7f15bb80c203ab442"
 
 RPROVIDES:${PN} += "brlapi-java \
 libbrlapi-java.so.0.8"

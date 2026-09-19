@@ -2,10 +2,10 @@ SUMMARY = "Sindhi localization files for LibreOffice"
 DESCRIPTION = "Provides Sindhi translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-sd-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "782179da07d1026d4dd64b58c2bfdce4be90525eff0dd71554fe6f5d9a65e5247c9055f32fb9cd13034751774d1c356fd033b2a4df2574a9b9e832ed635ea150"
+RPM_NAME = "libreoffice-l10n-sd-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "592a2395f41f0b31bcb6bd3deff0de52208e58d4b06bcf4da309debc6a087138a01556ef72bb3190b4526d022438eacdeeee3136ff7b9e375aae9211ed4e5932"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sd \

@@ -11,20 +11,23 @@ Postfix Admin supports: \
 - Packaged with over 25 languages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.3.13"
+PV = "3.3.15"
 
-RPM_NAME = "postfixadmin-3.3.13-1.2.noarch.rpm"
-RPM_HASH = "c2884ef3f74ee28376f6feca72a84935b67df925bfa46cd756aa22497bdba48632cb4535fab3f1f0ec7fe765af5752042816c807b5d073dd67caacf0e708cc5e"
+RPM_NAME = "postfixadmin-3.3.15-1.7.noarch.rpm"
+RPM_HASH = "d0df2ef6a3ec914988f99ae5d7d47058cd8aa9f9001c6a5ab22d8e3cbee6a8cc5e350c841e1b5e618159b268527a473bb6576fb1f7a3a7116b1c1e0f03f3f84f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-postfixadmin \
-postfixadmin"
+group-vacation \
+postfixadmin \
+user-vacation"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/perl \
 /usr/bin/sh \
 /usr/sbin/sendmail \
+group-www \
 perl-DBI \
 perl-Email--Sender--Simple \
 perl-Email--Sender--Transport--SMTP \
@@ -53,6 +56,7 @@ php-any-db \
 php-mbstring \
 php-phar \
 php-spl \
-shadow"
+shadow \
+sysuser-shadow"
 
 inherit rpm

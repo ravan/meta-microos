@@ -5,10 +5,10 @@ intended to provide production-quality NAT64 service for networks where \
 dedicated NAT64 hardware would be overkill."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.2"
+PV = "0.9.5"
 
-RPM_NAME = "tayga-0.9.2-2.9.aarch64.rpm"
-RPM_HASH = "db33172ae9cc838ef2cec305f448ace807e6e142a6677ed1990251dec3c30739ad78141f84d7a3fa2593576074267bc48d14f65e0b00157c4d7790f532f7750a"
+RPM_NAME = "tayga-0.9.5-1.5.aarch64.rpm"
+RPM_HASH = "25926ed6c4707116de4fa298f95e6cd73ccb5da876eaf1d92dda2b664ff88f7e0bdc4082877300dbf0b585084d7dfff51b11ab1bc49e30438cfea10444a62264"
 
 RPROVIDES:${PN} += "config-tayga \
 tayga"

@@ -1,13 +1,18 @@
-SUMMARY = "Draw wheelcharts with TikZ"
+SUMMARY = "Diagrams with circular or other shapes using TikZ and LaTeX3"
 DESCRIPTION = "This package is based on the package TikZ and can be used to \
-draw wheelcharts with TikZ. It provides several options to \
-customize the wheelcharts."
+draw various kinds of diagrams such as bar charts, doughnut \
+charts, infographics, pie charts, ring charts, square charts, \
+sunburst charts, waffle charts and wheel charts. It provides \
+several options to customize the diagrams. It is also possible \
+to specify a plot for the shape of the chart. Furthermore a \
+legend can be added and the table of contents can be displayed \
+as one of these diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn64373"
+PV = "2026.226.5.0svn78219"
 
-RPM_NAME = "texlive-wheelchart-2023.209.1.0svn64373-54.1.noarch.rpm"
-RPM_HASH = "8450335d5bb69eaee7f0fbf129644698fc3c6ac3046f0302df705f6e70932a9f1442fb6e5a5ee0b2998d18a4ae3d9e27ea09cb02262ea817304b29e7a66aacec"
+RPM_NAME = "texlive-wheelchart-2026.226.5.0svn78219-60.2.noarch.rpm"
+RPM_HASH = "21ab5683cb0cc6e78c450f9552a0af2d81ea74b4c7a274046f4c1c9c2778b4de9d01d2f67eaf1491134f3ef1ff11b2a20f15fc66b6c95ebef1ec6cb3ddb911ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wheelchart.sty \

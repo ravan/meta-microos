@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a language definition file that enables \
 support of Bosnian with babel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn38174"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-babel-bosnian-2023.209.1.1svn38174-54.1.noarch.rpm"
-RPM_HASH = "72b70c6fc18ab6318fc853083c3b00ac5b8d4b987f37408c2579e3d38dbb58d3435c057a8d1f89a73f7f28af2eac9cbbd4b73812430976b3bfb5159b450d8105"
+RPM_NAME = "texlive-babel-bosnian-2026.226.1.1svn77682-60.2.noarch.rpm"
+RPM_HASH = "68dd7a2a61fd39f7679e528f0effec8f7c950bc0868d4d873e7d75a96296260fda90dc39c27f818c757ac63a69b679373384a74f95ba8081822b1b092dd7b2ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bosnian.ldf \

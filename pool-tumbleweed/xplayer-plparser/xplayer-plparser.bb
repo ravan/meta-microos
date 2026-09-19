@@ -3,17 +3,16 @@ DESCRIPTION = "xplayer-plparser is a simple GObject-based library to parse a hos
 of playlist formats, to save them too."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.0.2"
+PV = "1.0.3"
 
-RPM_NAME = "xplayer-plparser-1.0.2-2.13.aarch64.rpm"
-RPM_HASH = "fb340cbfe41fe0e0ffe04e7689383185acd657b8a9ec6af0619234022881a5f1bfe6ee3bb7e9209b2a3ca3e7ce60a29718484925e86d202292e75cf02f1b997a"
+RPM_NAME = "xplayer-plparser-1.0.3-1.13.aarch64.rpm"
+RPM_HASH = "c6e756d3e7ddef90fe4c1403c7a6cbd96a87ad7e1efa67a6d470e2a32f3d1320c68c6bcd025cea21b63fb07dd14cd056d7c4c84d9038320a1e2651c49acdb2eb"
 
 RPROVIDES:${PN} += "xplayer-plparser"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \
-libquvi-0.9-0.9.4.so \
-libquvi-scripts"
+libquvi-0.9-0.9.4.so"
 
 inherit rpm

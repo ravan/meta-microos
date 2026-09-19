@@ -7,10 +7,10 @@ Backgammon Server -- at its strongest, it ranks in the top 5 of over 6000 rated 
 players there and is gradually improving."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.06.002"
+PV = "1.08.003"
 
-RPM_NAME = "gnubg-1.06.002-3.5.aarch64.rpm"
-RPM_HASH = "478ce338fdbdfc253edd74b01a629f5725dc10283f4e472fff69fb63d84651307721334f8e8236f4de147992ea7a706469c94eeb07f9e7cca578f04b73941d7c"
+RPM_NAME = "gnubg-1.08.003-1.6.aarch64.rpm"
+RPM_HASH = "77d654d62796906c52a72e0e577e43d327b375fe9bc00bee2f6873a5c8f5b97afb3cff49e55f99a09f48397920d5fe5484056bea1f05c95a767e57ab479aff48"
 
 RPROVIDES:${PN} += "gnubg"
 
@@ -33,10 +33,11 @@ libgobject-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 libgtkglext-x11-1.0.so.0 \
 libm.so.6 \
+libmvec.so.1 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libreadline.so.8 \
 libsqlite3.so.0"
 

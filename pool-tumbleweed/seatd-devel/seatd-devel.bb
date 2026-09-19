@@ -2,10 +2,10 @@ SUMMARY = "Development files for seatd"
 DESCRIPTION = "Development files for seatd."
 LICENSE = "MIT"
 
-PV = "0.8.0"
+PV = "0.9.3"
 
-RPM_NAME = "seatd-devel-0.8.0-1.1.aarch64.rpm"
-RPM_HASH = "0a501d0255f7f2ae1bdb1f365c1e8a93faf1f10517588abe39adf7e776c00e06bcf593ef369785dc52ae3e1d20d7dfd42cf5df39c0684b0271b6dacd6cf66273"
+RPM_NAME = "seatd-devel-0.9.3-1.3.aarch64.rpm"
+RPM_HASH = "cc3815ab07ca5ba764c46a4a1525487c02bef1ab5ee376cfb4ae8f189b7c8106cb4fb5cb66c8b406dbd64f207871c191d8804c5c1e865fc9f66bf01ca0f3bfb7"
 
 RPROVIDES:${PN} += "pkgconfig-libseat \
 seatd-devel"

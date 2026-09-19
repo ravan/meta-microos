@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cmdstring"
 DESCRIPTION = "This package includes the documentation for texlive-cmdstring"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-cmdstring-doc-2023.209.1.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "b28ccf430fc937481dba74cdaac0179d87d0c2222c0a188284416eed0a3c25e7c5e771d0bccff2b2e67b5e5925c443efee844a89d1f74f894c7ca761416cbe38"
+RPM_NAME = "texlive-cmdstring-doc-2026.226.1.1svn15878-60.2.noarch.rpm"
+RPM_HASH = "8a12c4e3d6800508abbe09205328e160b82fd30e825293405558b91e960a1acaf5ab684eed3c744d4664c2692057849e3d3a861f9fe130ef28a568c1e6f0ce24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmdstring-doc"

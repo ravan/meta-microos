@@ -2,10 +2,10 @@ SUMMARY = "Binary files of checklistings"
 DESCRIPTION = "Binary files of checklistings"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn38300"
+PV = "2026.20260301.svn38300"
 
-RPM_NAME = "texlive-checklistings-bin-2023.20230311.svn38300-93.2.aarch64.rpm"
-RPM_HASH = "55eb35a5b11b588907e6662142eae6e0b9221d1230bebfffa97ce725f6bb80633c8652c552207ac944a446231950990243fcc9a0024a918e67b5e2674962360d"
+RPM_NAME = "texlive-checklistings-bin-2026.20260301.svn38300-120.4.aarch64.rpm"
+RPM_HASH = "a1d04c98e92a237251abb16a913b19555d7ecb951af8dcc687552f7ba91bcdfb0e0b573e92661fec33be85cff64578c1981032fd77e2e188e7cec7d66bd5ca3e"
 
 RPROVIDES:${PN} += "texlive-checklistings-bin"
 

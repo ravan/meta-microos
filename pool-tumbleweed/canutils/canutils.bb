@@ -8,18 +8,19 @@ Research to the Linux kernel. \
  \
 This package contains some userspace utilities for the Linux \
 SocketCAN subsystem."
-LICENSE = "BSD-3-Clause & GPL-2.0-only"
+LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.0-only"
 
-PV = "2023.03"
+PV = "2025.01"
 
-RPM_NAME = "canutils-2023.03-1.4.aarch64.rpm"
-RPM_HASH = "4b98fd80618c7dd8a2f77c16951e6579000e874236b65c97e6beb3bf762a05822e1381bccf09b4e22c09946bfc46287ff9afee801d5c4b3d5879000e8603cfb4"
+RPM_NAME = "canutils-2025.01-1.7.aarch64.rpm"
+RPM_HASH = "2faed8ec4ee26d2964ac7cf85e6a9b2a03542a72240df767cff5b39f8d633a198f0bf70277dd63793fc672a1d3bafd64ad4586f26e9ee0f341e8e5f74973e35f"
 
 RPROVIDES:${PN} += "can-utils \
 canutils \
 canutils-linuxcan"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6"
+libc.so.6 \
+libisobusfs.so.0"
 
 inherit rpm

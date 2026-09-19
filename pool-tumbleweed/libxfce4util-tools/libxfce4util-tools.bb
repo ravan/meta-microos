@@ -2,10 +2,10 @@ SUMMARY = "Tools for libxfce4util"
 DESCRIPTION = "This package contains tools for libxfce4util."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.18.1"
+PV = "4.20.1"
 
-RPM_NAME = "libxfce4util-tools-4.18.1-1.4.aarch64.rpm"
-RPM_HASH = "5e25eee183193799a51921b052655ef6247007ef81fe2504f4ac78c0ea2200220d9c900acfe3d15105ace19e35336af3a1306cc35c545df85505583950a4659c"
+RPM_NAME = "libxfce4util-tools-4.20.1-1.5.aarch64.rpm"
+RPM_HASH = "f48b6dce2d90153a60be5a515cebbb9bac9e18f7e72ebc5b078056f44a426a75528b04859f8cd2e895c96186974793902b44ec226967886729545dfaba90287d"
 
 RPROVIDES:${PN} += "libxfce4util-/usr/sbin/xfce4-kiosk-query \
 libxfce4util-tools"

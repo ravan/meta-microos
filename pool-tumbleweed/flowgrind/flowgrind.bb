@@ -6,14 +6,14 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.8.2"
 
-RPM_NAME = "flowgrind-0.8.2-1.4.aarch64.rpm"
-RPM_HASH = "5d390b8d64559003a7e4413335453a8afd098cade9b24517313988baa26f3c997663d0cfef3f6134c991086c1b242082ec9bab1509d8b9e19118b602af566920"
+RPM_NAME = "flowgrind-0.8.2-2.3.aarch64.rpm"
+RPM_HASH = "852e0792d2bed15308885375f07b31c13620000c7a739e993c327cc60c3750dabb49819f3941793efd029767f09532e9d8aec299bcd2203a4d76f1a6e5cb9720"
 
 RPROVIDES:${PN} += "flowgrind"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
 libm.so.6 \
 libpcap.so.1 \

@@ -2,10 +2,10 @@ SUMMARY = "Bash completions for nnn"
 DESCRIPTION = "The official bash completion script for nnn."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.9"
+PV = "5.2"
 
-RPM_NAME = "nnn-bash-completion-4.9-1.1.noarch.rpm"
-RPM_HASH = "6ccec4e1ec5abfa0267be6edb14a389b55b3c9f1d148c6fc6ee72c03b92311c9e2d7c12f37002b0d9e46de446244ae3ccbb3bf4eb3871acb688af837d6425e3b"
+RPM_NAME = "nnn-bash-completion-5.2-1.3.noarch.rpm"
+RPM_HASH = "75141497c1f0d5be5cbe75bff3d24f9250b6eb7c7d7f593523419a5362a74bb5906273242fd9d7c81fd2bca514998f45093b83cab475e8662f0bfd42b7ee0f10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nnn-bash-completion"

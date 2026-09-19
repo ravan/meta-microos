@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Chinese (Tr
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-chi_tra_vert-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "8b13950404952c064904dc5052177c88959d15a7ee377f2d8674b5e7ffedb3e4a8c771e533a0d391cacc83b8584b58fc06e2f4da855f5417706af5edcf6955e6"
+RPM_NAME = "tesseract-ocr-traineddata-chi_tra_vert-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "d892d6f4cbd441f4f167bd7e4099f3f436fbca24f0b776686672d9a13f9f254a7c8f00258bb44bb728887dfd7e4113d3b8f71eb1af8afc0b2a35672d2ed46ec8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-chi-tra-vert \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-zh-TW \
+tesseract-ocr-traineddata-chi-tra-vert \
 tesseract-ocr-traineddata-chinese-traditional-vertical \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-chinese-traditional-vertical"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

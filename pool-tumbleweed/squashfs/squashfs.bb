@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6.1"
 
-RPM_NAME = "squashfs-4.6.1-2.1.aarch64.rpm"
-RPM_HASH = "af786716ee9ff768759d76c2d19dda0565c5a22744dd9d4257faf4036e38edbcea8ef2ca492c03d9a7747a72874f99fd3e75e54a98dff55c3dac6cfe9f882747"
+RPM_NAME = "squashfs-4.6.1-2.11.aarch64.rpm"
+RPM_HASH = "a2a858d20f344d2b4b9240b9e6954281175b5869c2531ead24fca42efef0bfacd692349cc56bd3c285b0192326218055fac17ea7632025bad982581db58b15b8"
 
 RPROVIDES:${PN} += "squashfs"
 

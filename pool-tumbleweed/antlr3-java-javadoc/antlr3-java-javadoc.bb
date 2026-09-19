@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5.3"
 
-RPM_NAME = "antlr3-java-javadoc-3.5.3-2.4.noarch.rpm"
-RPM_HASH = "b68e291b4379791e25964ef6193c6913a32cdb0c3120fd738fbb36b0f0a3426d531f86ab6c80c10896a2fb66eacd371e09df0ed012af0d220bc602db7f9fae12"
+RPM_NAME = "antlr3-java-javadoc-3.5.3-8.3.noarch.rpm"
+RPM_HASH = "0d3ee8d2ccb58f89a5b691d25a92022e0c92ab8e1ff82d71657732b1dc99167c2c7440a5d89e0b3f06b3ad97352d2aea11cf6ff0a66304d5101f0d175e99de6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr3-java-javadoc"

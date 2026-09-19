@@ -3,10 +3,10 @@ DESCRIPTION = "This package implements color support based on LuaTeX's node \
 attributes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.17svn57829"
+PV = "2026.226.1.18svn77682"
 
-RPM_NAME = "texlive-luacolor-2023.208.1.17svn57829-53.1.noarch.rpm"
-RPM_HASH = "2ed3dc7139912ec5c1d6a3b7d6e08daadff722ae7621e1ca5d0bc85d731253847cb514af70d885f8265ee2917bbaed0f706c02e57a0bf20362bb1a99b7fdd60c"
+RPM_NAME = "texlive-luacolor-2026.226.1.18svn77682-59.2.noarch.rpm"
+RPM_HASH = "45da514afbe4474834cdd6e8147e5227eeb518da08a1fccd2e29db9251eca7966ef78a9327f6bc3b6983b45b4b384f60c54a6b301db99d13cdb6c1e49a5c943f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luacolor.sty \

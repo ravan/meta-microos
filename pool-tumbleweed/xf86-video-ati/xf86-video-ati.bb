@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "22.0.0"
 
-RPM_NAME = "xf86-video-ati-22.0.0-1.1.aarch64.rpm"
-RPM_HASH = "afdefcc51d52fe0f2f749a944177fd81ab7c57f21644a29c61f3e7ec0c29fb5f7e14298fdedc49529b3011012e65539495be596c1022ecbae70d3fe62e23d3c9"
+RPM_NAME = "xf86-video-ati-22.0.0-1.11.aarch64.rpm"
+RPM_HASH = "c104e0327160a4dc9c651c8b1fc27767fe9dc6d24e7fbcf95d966ccfedcc347fa594f9e86c6c1049df7de738e72ed72dcc6d3d20ecf93781248c2d7fdb351c0b"
 
 RPROVIDES:${PN} += "xf86-video-ati"
 

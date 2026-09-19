@@ -5,10 +5,10 @@ It conforms to contemporary DNS standards documents. \
 This package holds the GeoIP backend for pdns."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.8.0"
+PV = "4.9.8"
 
-RPM_NAME = "pdns-backend-geoip-4.8.0-1.2.aarch64.rpm"
-RPM_HASH = "05ff5b9d3e33ee9a407f1d4efd82c3f0dcc25f4ca79a32104cf988ab5e3690a9746debbae9444f3dcbe5e8f5959369d05e921dad359df4e73fc7e2f8d8d125c4"
+RPM_NAME = "pdns-backend-geoip-4.9.8-1.12.aarch64.rpm"
+RPM_HASH = "ec8f487659fe9bf4221f37b05d72b512551e0c5765c8db1dd966dfd77449a945dcd4c32ef0b7f104b3bbeae00ccbeb26ed8c796ac7269dbd5cd71030365c7de7"
 
 RPROVIDES:${PN} += "libgeoipbackend.so \
 pdns-backend-geoip"
@@ -18,7 +18,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libmaxminddb.so.0 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.8 \
+libyaml-cpp.so.0.9 \
 pdns"
 
 inherit rpm

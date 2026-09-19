@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gfsbaskerville"
 DESCRIPTION = "This package includes the documentation for texlive-gfsbaskerville"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn19440"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-gfsbaskerville-doc-2023.209.1.0svn19440-53.1.noarch.rpm"
-RPM_HASH = "09d6a437dfa3e8e3ba50ba86b0986009b9ae37f999a3cb8a39425d5eccf82aef192142484fb245b7cb20e84cbe7be16c4d6e16c8fc45ac6c28d03eafa0bb9e92"
+RPM_NAME = "texlive-gfsbaskerville-doc-2026.226.1.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "0d2660b7496431b8c52110037aaff4f1565678627a4cc306bd2316b1386575710dc861143cadd0005ceb93463d9501794f10ea432c76c71d694d8a66bd59ab9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsbaskerville-doc"

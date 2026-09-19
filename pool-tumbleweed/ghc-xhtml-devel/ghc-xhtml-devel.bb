@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3000.2.2.1"
 
-RPM_NAME = "ghc-xhtml-devel-3000.2.2.1-1.1.aarch64.rpm"
-RPM_HASH = "93ed93a8ac69bc8b035bd3c69825364e286df829f412cebc78b193e7f6f04eece205e88ae9b358bce51c06b79f261ab1a9330d5149fefe7d7e841c9c29a3db65"
+RPM_NAME = "ghc-xhtml-devel-3000.2.2.1-1.3.aarch64.rpm"
+RPM_HASH = "19a567a823fa286cb8e955488d33202843e3c6944b437ea01b059f5cceb56cbc74aa554a79e3267df68d8c9aeef50c589638ad6837eeeb52e5cf3da7cbf10567"
 
-RPROVIDES:${PN} += "ghc-devel-xhtml-3000.2.2.1 \
+RPROVIDES:${PN} += "ghc-devel-xhtml-3000.2.2.1-fadd \
 ghc-xhtml-devel \
 ghc-xhtml-static"
 
 RDEPENDS:${PN} += "ghc-compiler \
-ghc-devel-base-4.17.2.0 \
+ghc-devel-base-4.21.2.0-8844 \
 ghc-xhtml"
 
 inherit rpm

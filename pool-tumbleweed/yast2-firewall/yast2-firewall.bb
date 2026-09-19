@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Firewall Configuration"
 DESCRIPTION = "A YaST2 module to be used for configuring a firewall."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.2"
 
-RPM_NAME = "yast2-firewall-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "f7c5934c9b91ebc18c8a2f612a3dacb7db287dcc0880f0560fa7d583a8e14071b056ed96b5ba3ea37c6fb5aae16a4416aa74529fb74fe2a6d5159d5754fee6d6"
+RPM_NAME = "yast2-firewall-5.0.2-1.2.noarch.rpm"
+RPM_HASH = "909b175f103d36ec692beb34481346ba1b5b27bece452431e70c432535de17ccb7780b5162b0621dfe716ea3591fff2c7aa41986cf8ff8dfde429954013870b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-config-firewall \

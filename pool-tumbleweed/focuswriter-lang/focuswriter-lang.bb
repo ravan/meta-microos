@@ -2,10 +2,10 @@ SUMMARY = "Translations for package focuswriter"
 DESCRIPTION = "Provides translations for the 'focuswriter' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.5"
+PV = "1.9.1"
 
-RPM_NAME = "focuswriter-lang-1.8.5-1.1.noarch.rpm"
-RPM_HASH = "ff8d3471b47950589031b7fce8b50f3dbe7b5b7e54ca5396432e6988f922e3eb0a842683bec800d06ead6789e591e86058e92ac65d9ade8a3c1e6d6072d03780"
+RPM_NAME = "focuswriter-lang-1.9.1-1.1.noarch.rpm"
+RPM_HASH = "a8e1141e3f44f0844ad97bc6ad784b025d9f867b730cfa7efab6a26e8053470e3c3b6cc35d6603714d743e8cd1b7fed54cadaa9bea4ee7adce8714a03900dc81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "focuswriter-lang \

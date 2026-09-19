@@ -17,10 +17,10 @@ de/compression and de/encryption. The lzo plugin is packaged in the \
 dd_rescue-lzo, the crypt plugin in the dd_rescue-crypt subpackage."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.99.13"
+PV = "1.99.22"
 
-RPM_NAME = "dd_rescue-1.99.13-2.3.aarch64.rpm"
-RPM_HASH = "3b7014c2848bb59f9969ea6e4f7ce9fb1bebc4d26fb2b7818fd9d5a8e961681f462500ddffae8cfdf63aa3d3947a7d28bd0a49db5a0eaaae792c6f4a98b835c3"
+RPM_NAME = "dd_rescue-1.99.22-1.4.aarch64.rpm"
+RPM_HASH = "887f35e98c6233364e83829a8afe7e5059197c185ccfd8ed0133d81bf4edf92bec3cfec1fc3f13971da6ccb22e88c10d75747cb4968ec27489dd6b9c0d67c167"
 
 RPROVIDES:${PN} += "dd-rescue \
 ddrescue \

@@ -12,10 +12,10 @@ shared memory functionality, time routines, as well as user and group \
 ID services."
 LICENSE = "Apache-2.0"
 
-PV = "1.7.4"
+PV = "1.7.6"
 
-RPM_NAME = "libapr1-0-1.7.4-1.2.aarch64.rpm"
-RPM_HASH = "7bb061ad2c4026a583835fb7456df72ba3a7945f2452d6914ac27e46bdb9f0ea1e35522ac5d3e59229f637b054af4b7ce4673b8a065c989678e706dab767ad5f"
+RPM_NAME = "libapr1-0-1.7.6-2.2.aarch64.rpm"
+RPM_HASH = "1e3fc76051feac7408d048b8a7d43b3582401be3fd1976fab7156ba0a035f813ecb5b9926f05cd0970e942bb4d1f7fe772329ede85bbd22c68a2b79b3a87a7e5"
 
 RPROVIDES:${PN} += "libapr-1.so.0 \
 libapr1-0"

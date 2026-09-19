@@ -1,16 +1,15 @@
 SUMMARY = "Keyboard and mouse configuration tool"
 DESCRIPTION = "LXinput is just the LXDE Keyboard and mouse config tool"
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
-PV = "0.3.5"
+PV = "0.3.6"
 
-RPM_NAME = "lxinput-0.3.5-1.27.aarch64.rpm"
-RPM_HASH = "81d2458f43757f56e5421f491e36b2a29a4f74bf573c01de1736f4e3d93f4d38eb026e4f428b96869349ec113796b005d5a309a91fc76e83d1d32e004c68e52c"
+RPM_NAME = "lxinput-0.3.6-1.3.aarch64.rpm"
+RPM_HASH = "0a5b1873fa8c7732be0b7cfd2385ee1a70f300d9f99ef7ba2990e3a1015b8841cad7b68da0b5cbcf8f3dbd8b5f67f71a0b85fb9182707f658132d0003e25a84d"
 
 RPROVIDES:${PN} += "lxinput"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \
 libgdk-x11-2.0.so.0 \

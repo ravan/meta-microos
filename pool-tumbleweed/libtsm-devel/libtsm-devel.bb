@@ -9,13 +9,12 @@ This package contains the development headers for the library found \
 in libtsm4."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.0.2"
+PV = "4.7.1"
 
-RPM_NAME = "libtsm-devel-4.0.2-1.4.aarch64.rpm"
-RPM_HASH = "000d2694977f5e7617ba795d3d6aa96a8c139943519cb534466643b2b2e9955eb20e6c22901855dcd6a67d2a38124dede34fac15e6639a79e55933308d0f8ad5"
+RPM_NAME = "libtsm-devel-4.7.1-1.1.aarch64.rpm"
+RPM_HASH = "2bf1f737a7224635b462c949c7469c90c659daef7441675a9ae2e02fbb5bc4552e54969c6a59c17c4329fcf5d43961136c6976eb84ea760fc73fb8422e06f8c8"
 
-RPROVIDES:${PN} += "cmake-libtsm \
-libtsm-devel \
+RPROVIDES:${PN} += "libtsm-devel \
 pkgconfig-libtsm"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

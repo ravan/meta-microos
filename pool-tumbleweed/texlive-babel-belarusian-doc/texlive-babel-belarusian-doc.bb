@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-belarusian"
 DESCRIPTION = "This package includes the documentation for texlive-babel-belarusian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn49022"
+PV = "2026.226.1.5svn49022"
 
-RPM_NAME = "texlive-babel-belarusian-doc-2023.209.1.5svn49022-54.1.noarch.rpm"
-RPM_HASH = "e1fc0237ff17a5d72c8478a1e4e5d85f878f259af2f9f799f788b33daaaebbadc8bd254519561c4c519169a9378d508e5bcae55912fa79440cc3710c65bcf851"
+RPM_NAME = "texlive-babel-belarusian-doc-2026.226.1.5svn49022-60.2.noarch.rpm"
+RPM_HASH = "2b43c309b8be000e9c6a3ba10511cfceb503a809744dda3896edb035402176fc014e3b6ff0bb5ba8d6ca81d22fd56ef14bf5c93118deab973a3e0c62ebddd580"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-belarusian-doc"

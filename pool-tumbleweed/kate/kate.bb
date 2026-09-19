@@ -2,48 +2,47 @@ SUMMARY = "Advanced Text Editor"
 DESCRIPTION = "Kate is an advanced text editor by KDE."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kate-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "24346d0323d27b6ce7dc2b387cfea1a5f9bb24c7878d5a69d2dc186fbd775243a2f206da340bb9cde58f7ab255f100daab24032a32e57664a5d50a2bb257d98f"
+RPM_NAME = "kate-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "bd923c595e709b9861dcf4a8ac55f3d42794a8efe44260a6cd70241db6256a319b2664041eccab11ffdf4fd33869394f57a4cff13ded99c3016f266c7ee5241a"
 
 RPROVIDES:${PN} += "kate \
 kate5 \
-libkateprivate.so.23.08.0"
+libkateprivate.so.26.08.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/bash \
 kate-plugins \
 ld-linux-aarch64.so.1 \
-libKF5Activities.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Parts.so.5 \
-libKF5Service.so.5 \
-libKF5SyntaxHighlighting.so.5 \
-libKF5TextEditor.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libKUserFeedbackCore.so.1 \
-libKUserFeedbackWidgets.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
-libQt5Xml.so.5 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Parts.so.6 \
+libKF6Service.so.6 \
+libKF6SyntaxHighlighting.so.6 \
+libKF6TextEditor.so.6 \
+libKF6UserFeedbackCore.so.6 \
+libKF6UserFeedbackWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

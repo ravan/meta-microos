@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-datetime2-norsk"
 DESCRIPTION = "This package includes the documentation for texlive-datetime2-norsk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn48267"
+PV = "2026.226.1.1svn48267"
 
-RPM_NAME = "texlive-datetime2-norsk-doc-2023.209.1.1svn48267-53.1.noarch.rpm"
-RPM_HASH = "af68492cd7acfc8bd2bd19f000a645e3e12e60ebce3c4a0bef9afc04c66b3aeddc1abf6c7b18a0e5defa557b6842fa60b8f93113fb403d79cee481778f7ed922"
+RPM_NAME = "texlive-datetime2-norsk-doc-2026.226.1.1svn48267-59.2.noarch.rpm"
+RPM_HASH = "80210af4c2f49e79449d7607aca1c10f0526d49377eb95fec2aa0dcf31300c613271bfa67fc3baff843308f530fc967c41dbc09500533e0d1296011b745d22c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-datetime2-norsk-doc"

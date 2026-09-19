@@ -7,10 +7,10 @@ aligned with specific columns. It also makes a passable but \
 limited text font."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.052svn56864"
+PV = "2026.226.1.054svn77682"
 
-RPM_NAME = "texlive-algolrevived-2023.209.1.052svn56864-55.1.noarch.rpm"
-RPM_HASH = "bb49564c934544474c925c9d234b6975cb0f10353d9f5cdbfdc26edbfa470ec77140141e99aa9b4e7a0bc9ab698535c7c72c433b1def652b9cfa91d6a996c617"
+RPM_NAME = "texlive-algolrevived-2026.226.1.054svn77682-61.2.noarch.rpm"
+RPM_HASH = "3ad472246932712a3ed630d94ca4f8baf693552b8309cd972c3ea79eb11dbabf537ceed7f7f1dc8ae4accabb576f341ff5e54ec7fdcb1e6ee9d7a4d2398d1070"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-AlgolRevived-Medium-inf-ly1.tfm \

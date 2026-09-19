@@ -3,10 +3,10 @@ DESCRIPTION = "Metapackage that installs collectd and all the available \
 monitoring plugin subpackages."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugins-all-5.12.0.134.g4cebbfc-1.6.noarch.rpm"
-RPM_HASH = "252107bbaf0a908ff7582afe85df6e101582734bc67aefda5ab2d08cf410a8291548e94e17ed5224ba306bb3a24a526dd5f55fa8f229ef1fcd7480e2e9f56135"
+RPM_NAME = "collectd-plugins-all-5.12.0.382.g2cd055fe-3.1.noarch.rpm"
+RPM_HASH = "f0d3d1e65ad40355d263e39823c7a2ae4f5876ecac75a145d304c94d287eaa1317a4e498a3b0ff44ab8a5d99143d0d7cd8dbc366beaee716268813e1a6bd0314"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-plugins-all"
@@ -27,6 +27,7 @@ collectd-plugin-modbus \
 collectd-plugin-mqtt \
 collectd-plugin-mysql \
 collectd-plugin-notify-desktop \
+collectd-plugin-nut \
 collectd-plugin-openldap \
 collectd-plugin-ovs \
 collectd-plugin-pcie \

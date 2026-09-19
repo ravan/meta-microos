@@ -4,10 +4,10 @@ lowercase for the Computer Modern font family in blackboard \
 bold."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn56414"
+PV = "2026.226.1.0svn56414"
 
-RPM_NAME = "texlive-cmathbb-2023.209.1.0svn56414-54.1.noarch.rpm"
-RPM_HASH = "ff2a652f55c2e92657e443372dae995180944eba647bcad50a6fa197d32f51b7649693f1c173b361b434c535d7881753c3144b3ec3701af8a989d3085eabec2f"
+RPM_NAME = "texlive-cmathbb-2026.226.1.0svn56414-60.2.noarch.rpm"
+RPM_HASH = "1aecc3e6c622856b93276e32462191bca4fdb804765271968a0fb7c7389c924ca50280454fd5378d0c3f5f972dd1247b319c3e847494a2fc0214029acdb24875"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-a-ghauqe.enc \

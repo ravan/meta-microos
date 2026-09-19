@@ -10,15 +10,15 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.16.0"
 
-RPM_NAME = "trojan-1.16.0-1.15.aarch64.rpm"
-RPM_HASH = "3d0be239402ff99814d080c41370da38b8ce04d2a28d989ed010aad6edabc9152fdbc0d9ee13fec205d5261318f353594921131922ed99a1ccaa0c93cdc055e5"
+RPM_NAME = "trojan-1.16.0-3.7.aarch64.rpm"
+RPM_HASH = "3e7b6122b3844eae7b0ff1a2e198b0803c3c913fcfe17d16c4a58b889771d92961e64a86f2359666094b7deacf096ae6bb312c844e07d2858d32bd6ac830d52e"
 
 RPROVIDES:${PN} += "config-trojan \
 trojan"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libboost-program-options.so.1.82.0 \
+libboost-program-options.so.1.91.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \

@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfsfat."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220925"
+PV = "20260826"
 
-RPM_NAME = "libfsfat-devel-20220925-4.2.aarch64.rpm"
-RPM_HASH = "1edcd88a599cec921937bd3e360e709bef1c6b642d0832bc021838002064154ca1e95ee4b67659b7b84313ba583ebe40cc8711cee65dbc79d4cd617255e27964"
+RPM_NAME = "libfsfat-devel-20260826-1.1.aarch64.rpm"
+RPM_HASH = "54f5dda71a7e17091dab1ec4f15efd7374f807fc49417e975144150b6f0af02c511291467a96e455bcda00a567d7f8bd576faa9b06588f9cf45d550c5ded0e09"
 
 RPROVIDES:${PN} += "libfsfat-devel \
 pkgconfig-libfsfat"

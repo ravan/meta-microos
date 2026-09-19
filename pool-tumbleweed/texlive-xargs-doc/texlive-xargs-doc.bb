@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xargs"
 DESCRIPTION = "This package includes the documentation for texlive-xargs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-xargs-doc-2023.209.1.1svn15878-53.2.noarch.rpm"
-RPM_HASH = "244d7b03351be607796a4ca300152c8d8976beb67e44e11c333c46f6d06910da17fd6a08c3324759b5a87b8f438a24414e8af4c98b412384e97444fc88fc986d"
+RPM_NAME = "texlive-xargs-doc-2026.226.1.1svn77682-59.4.noarch.rpm"
+RPM_HASH = "d9497c4572cf7cccd48c992fb867790779c2023c9692593a6dd322a95d1e0affc57103468de4c699717a218e17c04eff70a23090b3994ad0a0cdf47ce5d9e71a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xargs-doc-fr;en \

@@ -6,10 +6,10 @@ know a range of options that allow wide customization of the \
 output. The package's drawing is done with the help of TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn54512"
+PV = "2026.226.0.0.7svn54512"
 
-RPM_NAME = "texlive-guitarchordschemes-2023.209.0.0.7svn54512-54.2.noarch.rpm"
-RPM_HASH = "53ee3b141cc6defc45d985084ddb91433f372164afdb641cac7934635ac3c640b4771f6cd42ff94c14b8e43c377211363e6235b94684c25ef773711e6663bb9a"
+RPM_NAME = "texlive-guitarchordschemes-2026.226.0.0.7svn54512-60.4.noarch.rpm"
+RPM_HASH = "12a90a4334152ec4388e98d505f5186f319811db0653d6a242ae229ac84d87f1d79276d750f057aff54d8b8be1a2793e876855f1ad561947e608cd685c578a97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-guitarchordschemes.sty \

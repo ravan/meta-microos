@@ -1,11 +1,11 @@
 SUMMARY = "Handle behaviour of /bin/sh"
 DESCRIPTION = "Use dash as /bin/sh implementation."
-LICENSE = "BSD-3-Clause"
+LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "0.5.12"
+PV = "0.5.13.4"
 
-RPM_NAME = "dash-sh-0.5.12-2.3.noarch.rpm"
-RPM_HASH = "b3670a8edd25568ac1a28966696676d0a2be6dcb941643bb814788c8bb930d706eedc1d95ab91ef5ce9acc86d3767d38d122702478bca88decee33e40335c92b"
+RPM_NAME = "dash-sh-0.5.13.4-1.3.noarch.rpm"
+RPM_HASH = "da96fe58383bad6943f7886b7db3f783d11424207392b16500eb2870c4cecace6c31365bbd7f19ad6c4d9d8af60282b53c74ae4d7d19a5659d0fb305a2c8d530"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/sh \

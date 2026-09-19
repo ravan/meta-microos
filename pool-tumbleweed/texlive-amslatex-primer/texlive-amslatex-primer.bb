@@ -10,10 +10,10 @@ diagrams using Xy-pic; and a section describing how to use \
 amsrefs to create a bibliography."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn28980"
+PV = "2026.226.2.3svn28980"
 
-RPM_NAME = "texlive-amslatex-primer-2023.209.2.3svn28980-55.1.noarch.rpm"
-RPM_HASH = "fb7ff3921d4d675c0110149e17875782212e61529901cdb5b573a8d289921d566897a2b2219f498e63f150f2a3cbb0df15039107fbd8ad4a67acc280e54ad1c4"
+RPM_NAME = "texlive-amslatex-primer-2026.226.2.3svn28980-61.2.noarch.rpm"
+RPM_HASH = "cc584a78ead61909da76cc7d7278d4b2db30742011b288268a6329e66d3b3cc332552e436e6e91d211a2cd440022ae7a93b1177229041e6e653e8c9133a3616e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amslatex-primer"

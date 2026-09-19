@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.24.2"
 
-RPM_NAME = "python3-obexftp-0.24.2-1.25.aarch64.rpm"
-RPM_HASH = "389c313ba8263ad05ba6c03fd3f83c9bd182a872a7f78952c487f55e8d09d86b5b03b3a372e4e98681bd5efa01bde13beb2fe90888715b13b505196946346c5f"
+RPM_NAME = "python3-obexftp-0.24.2-3.10.aarch64.rpm"
+RPM_HASH = "0ac4bfa91723c39905bac0d296ffe26ba1054f2464efc96c2b5e972d5de14675377e04a9dc62d4246fcfc6e69a45214b3e875701546f036e6061964b40ff8673"
 
 RPROVIDES:${PN} += "python3-obexftp"
 

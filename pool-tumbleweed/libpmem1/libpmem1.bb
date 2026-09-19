@@ -4,10 +4,10 @@ support for the persistent memory instructions for flushing changes \
 to pmem."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "2.1.1"
 
-RPM_NAME = "libpmem1-1.11.1-1.9.aarch64.rpm"
-RPM_HASH = "2784103c4bb1b334fab5a44fdcf4ee18db91bec9601a455e2d469d4ec4d9b14ed0ffd6fd4265d3f73e193b0d164b4c2cac7f1be758846255a96896d7e27ce5fb"
+RPM_NAME = "libpmem1-2.1.1-1.5.aarch64.rpm"
+RPM_HASH = "a71a357fa695c5027cd49f017f774ac691312601033c7fc1f8adf74d716a68e604d1f5ee8f04194ccf4a44c75b86f02986d8f03c106ecc88a933259b0b63a7c4"
 
 RPROVIDES:${PN} += "libpmem.so.1 \
 libpmem1"

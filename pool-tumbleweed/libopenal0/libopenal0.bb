@@ -4,10 +4,10 @@ libopenal.so.0 is just a wrapper around libopenal.so.1 for \
 compatibility with old software."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.2"
+PV = "1.24.3~179"
 
-RPM_NAME = "libopenal0-1.22.2-1.5.aarch64.rpm"
-RPM_HASH = "61aaab850f646b3f50770e99e1c00d9ed4e44860a9ef702cb355fcbb8e8406f56ed10c9a1985b07b5736e550567b549788f67fad89adb761c4546b0be9962cbd"
+RPM_NAME = "libopenal0-1.24.3~179-1.6.aarch64.rpm"
+RPM_HASH = "2a79a93284ab8f638fd816947141fa231aec86a7bacd097c3efa2152545b3e937c64b950496f703a7ac01783bc89fa243917e204dcdd226698a1d99ea750fb28"
 
 RPROVIDES:${PN} += "libopenal.so.0 \
 libopenal0"

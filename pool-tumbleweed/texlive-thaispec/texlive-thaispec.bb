@@ -7,10 +7,10 @@ fontspec, ucharclasses, polyglossia, setspace, kvoptions, \
 xstring, and xpatch."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2021.03.01svn58019"
+PV = "2026.227.2021.03.01svn77682"
 
-RPM_NAME = "texlive-thaispec-2023.209.2021.03.01svn58019-55.1.noarch.rpm"
-RPM_HASH = "4361f40018e31401ca2236da139cd677696b6d16388e714ebc78f0fd5ace41966962fb569b338dc32a2bffa3771d5561fcc6a824a4a8482dbdeabd8f03340d5e"
+RPM_NAME = "texlive-thaispec-2026.227.2021.03.01svn77682-62.2.noarch.rpm"
+RPM_HASH = "2fbab2ad34747434dfac6537512c54f1cdeaeb2a568c32e28436337e79c440f950a48fd655df59290e702f7899a449f117486b0a7c8ddefc04ffc2ededc4786b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thaispec.sty \

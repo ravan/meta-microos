@@ -5,10 +5,10 @@ Macros to define environments using this syntax are also \
 provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn64967"
+PV = "2026.226.1.0svn64967"
 
-RPM_NAME = "texlive-multienv-2023.209.1.0svn64967-55.1.noarch.rpm"
-RPM_HASH = "93a45827e6ca8b66c0736b4ecfd34132d2932fd3bf79162a6ef21b2fc79f4703321299d66a21c2d313d228bc58a3eae4f80aaad4eb0c518f5575d132ddd5cd87"
+RPM_NAME = "texlive-multienv-2026.226.1.0svn64967-61.2.noarch.rpm"
+RPM_HASH = "05d86c78b9a24d520c1afbb06147ccd2bdec82ee657ed343f28eb5168e044e09685ddf76d52048eb802201e30dbcd447f1e31412a371ec4d8af272de1bd62c85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multienv.sty \

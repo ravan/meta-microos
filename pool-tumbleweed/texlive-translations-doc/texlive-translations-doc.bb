@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-translations"
 DESCRIPTION = "This package includes the documentation for texlive-translations"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.12svn61896"
+PV = "2026.226.1.12svn77682"
 
-RPM_NAME = "texlive-translations-doc-2023.209.1.12svn61896-53.1.noarch.rpm"
-RPM_HASH = "4a4251c5084ce5564544c03e399f6e430c2a60178ff6439c511e0d1bd2819e58a399d8af3d5d8326e1ef9a1f3322017d9919e8fd73eaff22bc2c128d357cff6a"
+RPM_NAME = "texlive-translations-doc-2026.226.1.12svn77682-59.2.noarch.rpm"
+RPM_HASH = "c08d6c7945221af8bcbf4934ecab92464f7c728d5b02b95778e14814e2f4731b76f3cfa93492a8d362f4cadb606eab54702f362061b72ab57881a73d6c9799de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-translations-doc-en \

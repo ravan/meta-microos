@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.03.1"
 
-RPM_NAME = "aspell-am-0.03.1-2.14.aarch64.rpm"
-RPM_HASH = "f41ff0213778a57107650ebe31ef284420456e11611a417ee7bab8c430c63bbc88a01a49287716cc8b8bf4ec3d802de54a21b807853006e98738943917c5f68f"
+RPM_NAME = "aspell-am-0.03.1-4.7.aarch64.rpm"
+RPM_HASH = "08ff72ff95421b0eb1cfdd8fa64b824ba3241f122f0917427bea4f9bc11ed82d8dedb9729a31e9a875ded0b509931b08dba6941931fbc0d3014ce3a5ec1b097f"
 
 RPROVIDES:${PN} += "aspell-am \
 locale-aspell-am"

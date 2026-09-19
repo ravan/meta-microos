@@ -5,10 +5,10 @@ SECSH-ARCH, SECSH-FILEXFER, SECSH-DHGEX, SECSH-NUMBERS, and \
 SECSH-PUBLICKEY."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.0"
+PV = "1.11.1"
 
-RPM_NAME = "libssh2-1-1.11.0-1.1.aarch64.rpm"
-RPM_HASH = "ea3cae4724daae698757d0713251130284f1bc880c6677bffbbc91906deccbb738aa0011d933caa989b6944ba0e1986450a029227cdb4b03cdf69df7ea5054bd"
+RPM_NAME = "libssh2-1-1.11.1-4.1.aarch64.rpm"
+RPM_HASH = "c1f8f4dba263682de0ffa8651dec799b1ca6d1aa3ff947c16ad0a3a0beb732242b558888375eb438d3a16b2723df729b1b134ce781fec403fc320fe3c7be493f"
 
 RPROVIDES:${PN} += "libssh2-1 \
 libssh2.so.1"
@@ -16,7 +16,6 @@ libssh2.so.1"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcrypto.so.3 \
-libz.so.1"
+libcrypto.so.3"
 
 inherit rpm

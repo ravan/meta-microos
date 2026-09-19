@@ -3,10 +3,10 @@ DESCRIPTION = "The virgil3d rendering library is a library used by \
 qemu to implement 3D GPU support for the virtio GPU."
 LICENSE = "MIT"
 
-PV = "0.9.1"
+PV = "1.3.0"
 
-RPM_NAME = "libvirglrenderer1-0.9.1-3.8.aarch64.rpm"
-RPM_HASH = "e13270bc045ad948cb9a0a6f6df8c0b2daa55c308e8f9098db3d4b16af5c93c0a5b72019040baf39d6e33a76a9cf4f26c544e54dc0f48bcf4fb6017e44ca89c8"
+RPM_NAME = "libvirglrenderer1-1.3.0-1.4.aarch64.rpm"
+RPM_HASH = "763eda4e308fae4350469332531fcc66ca8d64ecfd6997cfba861633fbd3a45e30a43608bdaf1d64284206b2802398a2d7b4bfdbd8bc9fc1da32db6593281324"
 
 RPROVIDES:${PN} += "libvirglrenderer.so.1 \
 libvirglrenderer1"
@@ -18,6 +18,8 @@ libc.so.6 \
 libdrm.so.2 \
 libepoxy.so.0 \
 libgbm.so.1 \
-libm.so.6"
+libm.so.6 \
+libva-drm.so.2 \
+libva.so.2"
 
 inherit rpm

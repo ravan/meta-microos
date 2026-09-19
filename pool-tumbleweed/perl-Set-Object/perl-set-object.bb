@@ -1,4 +1,4 @@
-SUMMARY = "Set of objects and strings"
+SUMMARY = "Unordered collections (sets) of Perl Objects"
 DESCRIPTION = "This modules implements a set of objects, that is, an unordered collection \
 of objects without duplication. \
  \
@@ -14,10 +14,10 @@ will lose any magic (eg, tie) or other special bits that they went in with; \
 only strings come out."
 LICENSE = "Artistic-2.0"
 
-PV = "1.42"
+PV = "1.420.0"
 
-RPM_NAME = "perl-Set-Object-1.42-1.10.aarch64.rpm"
-RPM_HASH = "6d4a2f67afa730ff44a654add78848a2f038fc82956b0363d0f7dc8790af993dcdca5c6f1b024d0d685d5355daaafa1f6edc6e4f8c2c672d887f564cea2ba5b0"
+RPM_NAME = "perl-Set-Object-1.420.0-1.9.aarch64.rpm"
+RPM_HASH = "ba024aef19c7906fe66d979e8065663958a0581b31437b4c9b8e203dfde0c7fdea89168ed4d20a313e031073cb9af9ba1038310f95ce2e256f54e5392051f449"
 
 RPROVIDES:${PN} += "perl-Set--Object \
 perl-Set--Object--Weak \
@@ -25,6 +25,6 @@ perl-Set-Object"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

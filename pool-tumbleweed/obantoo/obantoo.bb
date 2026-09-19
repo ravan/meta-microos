@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "2.1.12"
 
-RPM_NAME = "obantoo-2.1.12-4.7.noarch.rpm"
-RPM_HASH = "f70eebb990c80c96ed6b41d616f6a6eb36e6cca4d24c335c4a125f1c8a22c35ba29e34972c9e606948149866d12c11872b5dbcb7346e38efcad9a3fced321bbd"
+RPM_NAME = "obantoo-2.1.12-5.7.noarch.rpm"
+RPM_HASH = "f7406f7fe263931509fb8271ccecf18acd2926e05d07b3e7782a3d6a6827d94681397aa2e4883ec42a2f1a40aeb925f2f9fec85fc8edc81cf8abb3c502416dbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obantoo"

@@ -3,10 +3,10 @@ DESCRIPTION = "A seat management library allowing applications to use whatever s
 Supports: seatd, (e)logind, embedded seatd for standalone operation"
 LICENSE = "MIT"
 
-PV = "0.8.0"
+PV = "0.9.3"
 
-RPM_NAME = "libseat1-0.8.0-1.1.aarch64.rpm"
-RPM_HASH = "86d8bed77cd116336a381992cbc7890c9d1a2f69aafc686d294e3423e6f5a4b3aa14f85e59007280edd5a7f48e5dbb549c2fadfa1f833ebc2df59ce9b3ceaeda"
+RPM_NAME = "libseat1-0.9.3-1.3.aarch64.rpm"
+RPM_HASH = "0b8dbb80e0850b9f9e9b497f6b1932288743e5daaf8bf16f632c4f6eb08039070c055dd0eeec7b6371adc27e16f3f433b10c744b21c9fa9dbd2dd97ac364c6b5"
 
 RPROVIDES:${PN} += "libseat.so.1 \
 libseat1"

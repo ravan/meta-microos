@@ -14,10 +14,10 @@ equation numbers. Calculations are allowed inside hints \
 although numbering and commenting is then disabled."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn35973"
+PV = "2026.226.1.0svn35973"
 
-RPM_NAME = "texlive-calculation-2023.209.1.0svn35973-53.1.noarch.rpm"
-RPM_HASH = "4ad83c3abf8941bc88c7ded9581880979a74559a7ad68b9916b858da6eaf4f4bffd34f76dd1a098c7fb94411bb4847343c100ce3a190356d4486eb6f814782dc"
+RPM_NAME = "texlive-calculation-2026.226.1.0svn35973-59.2.noarch.rpm"
+RPM_HASH = "a3bfff1a25dd0bf29e38dbfee86c916bb816fffda1f3091987b989342f63562d6317fc73bf9b6ac5757edea3e493c7f803cb22a06c294919cc82630015dd40a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-calculation.sty \

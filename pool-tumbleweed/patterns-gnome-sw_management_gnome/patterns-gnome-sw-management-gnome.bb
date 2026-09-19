@@ -2,10 +2,10 @@ SUMMARY = "Package Management - Graphical Tools for GNOME"
 DESCRIPTION = "Package Management - Graphical Tools"
 LICENSE = "MIT"
 
-PV = "20201210"
+PV = "20250310"
 
-RPM_NAME = "patterns-gnome-sw_management_gnome-20201210-16.1.aarch64.rpm"
-RPM_HASH = "7dbf9a360dd8cacc4f0671b5d21c570bc6a848167e3a41885659c114d9ccdec439fbbc1479904bb3b4fe55146bfd794801ac46ae8c099ea8ec694fd9633758c1"
+RPM_NAME = "patterns-gnome-sw_management_gnome-20250310-10.2.aarch64.rpm"
+RPM_HASH = "f64539865931873081715efb9278d6be4caf3c4030b530c2adf7509f5f5fb128f10bd9c07cceca54350b7f00738829fabb355331b823f45ba1b03418f896fb40"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

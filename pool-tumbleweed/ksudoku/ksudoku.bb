@@ -6,37 +6,38 @@ be filled by the player using numbers from 1 to 9, without repeating a \
 number twice on each column, row, or subsquare."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ksudoku-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "44a80e3e7677b136becb3f71e06d1101609fbda04c819875cd7dcd1fbe2478430b016fba45fb7e60645b32ed236cf8c42eab23da328b4b5ff440cab461fefab3"
+RPM_NAME = "ksudoku-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "b61383976694db2b0f9a432aefb96b54d671d213f80f42124cc870a880e7cb7fb287977e590c6801ad6f55972d91e810b23e855eeb0c7a6a1a297d1744d5e74a"
 
 RPROVIDES:${PN} += "config-ksudoku \
 ksudoku \
 ksudoku5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGLESv2.so.2 \
 libGLU.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KDEGames.so.7 \
-libKF5KIOCore.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
 libOpenGL.so.0 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5OpenGL.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

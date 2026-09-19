@@ -6,10 +6,10 @@ couple of page styles that use the words that have been \
 extracted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn29803"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-fwlw-2023.209.svn29803-53.1.noarch.rpm"
-RPM_HASH = "951cf56f92731dca07a8a716bf5e5abc3360286c2c04be2e4ef864d8cb9754cdaf944635faacc0b75ae89129e0774f29ffd7fed5cc856c6f718e4e8a1948631e"
+RPM_NAME = "texlive-fwlw-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "03cff9127ace7eff5b8e96a592913dca9e8fb61d64cdb2dbf5209dc57e0cded07ea85c33f0a92e94d79640891ce7a1394533109f41763c96ca9e99f8196940b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fwlw.sty \

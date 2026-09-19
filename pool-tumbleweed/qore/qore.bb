@@ -4,14 +4,15 @@ It applies a scripting-based approach to interface development and \
 can also be used as a general purpose language."
 LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MIT"
 
-PV = "1.18.1"
+PV = "2.2.1"
 
-RPM_NAME = "qore-1.18.1-1.1.aarch64.rpm"
-RPM_HASH = "8cacca4a0a5f2abc8447c3a919dca059ec51a3049afcd82c8e01fc7932e34c21a8f4547984f89a4b283db0d6456be740a02c8f1049e0ddce938b98760b2adcb6"
+RPM_NAME = "qore-2.2.1-1.1.aarch64.rpm"
+RPM_HASH = "08f1df9fb98262984b9dbe8e4f4a19fa5d3a31be28b39727875b34c10aa6e37ca737503ec88f4a382b99effcbb34a032707ce7045fa9263114b23ac7f0002aeb"
 
 RPROVIDES:${PN} += "qore"
 
 RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

@@ -3,10 +3,10 @@ DESCRIPTION = "This module provides the 'ukrainian' style that can be set \
 using \\DTMsetstyle provided by datetime2.sty."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2asvn47552"
+PV = "2026.226.1.2asvn47552"
 
-RPM_NAME = "texlive-datetime2-ukrainian-2023.209.1.2asvn47552-53.1.noarch.rpm"
-RPM_HASH = "69ed44a8eb2a362834ef1dfc6cf2a954a539fabccb63bfa842e2401552ad204aafbb0872235f0cc882bafb23840c227e4fb45c1908c0d30318bbacd6516ed49a"
+RPM_NAME = "texlive-datetime2-ukrainian-2026.226.1.2asvn47552-59.2.noarch.rpm"
+RPM_HASH = "55095ac41de5fe9114983583e7e656ec14e664af3863d21484325fc53f13c5bd982f1a144a829aecdfa1fe69a4050090af3baea117b0fe9ede6111d9c8086d0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-ukrainian-ascii.ldf \

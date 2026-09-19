@@ -2,10 +2,10 @@ SUMMARY = "Translations for package trader"
 DESCRIPTION = "Provides translations for the 'trader' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.18"
+PV = "7.21"
 
-RPM_NAME = "trader-lang-7.18-1.4.noarch.rpm"
-RPM_HASH = "796c8b466698649c13b974613edf7233005464680e62b40fd59c89fd4ff62c5d962c11dd52182c54481bbaa3fbbf9ce0192328a253871519b408bb766f7b2dff"
+RPM_NAME = "trader-lang-7.21-2.3.noarch.rpm"
+RPM_HASH = "f1ca8e49fceb1813b5047ced7d34a5a1880dd163eeb2e1e7d835e5ca2f17756acfe1a3e60cf4424c8af62eab8619d8a4e9710942711a484efea0041221c4134a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-trader-da \
@@ -21,10 +21,13 @@ locale-trader-fr \
 locale-trader-hr \
 locale-trader-hu \
 locale-trader-nb \
+locale-trader-pl \
 locale-trader-pt-BR \
+locale-trader-ro \
 locale-trader-ru \
 locale-trader-sr \
 locale-trader-sv \
+locale-trader-uk \
 trader-lang \
 trader-lang-all"
 

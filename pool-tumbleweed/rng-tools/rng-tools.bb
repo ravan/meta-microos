@@ -4,10 +4,10 @@ random  number  entropy  pool,  after	first checking the data to \
 ensure that it is properly random."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.16"
+PV = "6.17"
 
-RPM_NAME = "rng-tools-6.16-1.2.aarch64.rpm"
-RPM_HASH = "54bb9d1e8e85d37aee65f6742db2df2a4e9bbcb03d7fae32ddaa8e91e57506ba0eede87c1be8189b1345b42f41c3e9bc68d7ed52f79707a4c94c7bf65c86dcb5"
+RPM_NAME = "rng-tools-6.17-5.5.aarch64.rpm"
+RPM_HASH = "590a2aba569ff1a111e017df00e3b2b0e3f501425687eb04004742415910e6e23380f0c5e9aa1bedc37240385bd6dd7c41620bf95971bcc4487906fe29877c1d"
 
 RPROVIDES:${PN} += "rng-tools"
 
@@ -16,6 +16,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \
 libcrypto.so.3 \
+libjitterentropy.so.3 \
 libp11.so.3 \
 opensc \
 systemd"

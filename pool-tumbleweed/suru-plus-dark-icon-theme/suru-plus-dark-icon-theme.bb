@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "25.1"
 
-RPM_NAME = "suru-plus-dark-icon-theme-25.1-2.6.noarch.rpm"
-RPM_HASH = "e13a3f9603fc43933705f67a9b4b95c0b05a3b5697b5e2e371a4c61b75729c1e4045a71850ae725d0f28a7e9a0ddca5795a5f89f8358729a30933323d98ecc78"
+RPM_NAME = "suru-plus-dark-icon-theme-25.1-2.14.noarch.rpm"
+RPM_HASH = "84512f2051f7bc6bf37b7bb25fe31d270b7872f2ab25c11552f6862b7130053e1c71b595566332e8b73fbb9f24a73db334909c48b3fba93e94266b33953d6299"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "suru-plus-dark-icon-theme"

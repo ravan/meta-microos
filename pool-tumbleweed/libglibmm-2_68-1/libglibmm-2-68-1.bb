@@ -4,10 +4,10 @@ library Glib. It provides non-UI API that is not available in standard \
 C++ and makes it possible for gtkmm to wrap GObject-based APIs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.0"
+PV = "2.88.1"
 
-RPM_NAME = "libglibmm-2_68-1-2.76.0-1.2.aarch64.rpm"
-RPM_HASH = "9da9becb8919da1773ff99ecb146a54a90ebb124b0644046e72ac4f2f387cf0b45f85c2f7995c3b53a960bc04fefcec2d6d760350927dcf6042e16ceb74dafaa"
+RPM_NAME = "libglibmm-2_68-1-2.88.1-1.2.aarch64.rpm"
+RPM_HASH = "b539957799bc60a554db3448502f4c0dbae67fa94e877d6786648eff3cdf3bce56057a8441fcba0b8c95178699d8989a84ac065fd028251c782d6cfa1182decc"
 
 RPROVIDES:${PN} += "libglibmm-2-68-1 \
 libglibmm-2.68.so.1 \

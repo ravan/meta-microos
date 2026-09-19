@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-musixtnt"
 DESCRIPTION = "This package includes the documentation for texlive-musixtnt"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn40307"
+PV = "2026.226.svn69742"
 
-RPM_NAME = "texlive-musixtnt-doc-2023.209.svn40307-55.1.noarch.rpm"
-RPM_HASH = "14697d470b02f158f41e192c57edd4ddf3384f70e49cce2afc82109eabb715337b60c79cf7916032957cc75eaaf4bf3010de611055b4c48ebc23f2772a07e27c"
+RPM_NAME = "texlive-musixtnt-doc-2026.226.svn69742-61.2.noarch.rpm"
+RPM_HASH = "dc701103a0c5039573f4cfce5ea4e092c82c7812797c4f446d9e4ac454ec184d2e06b3f7783d02560cdf8b9adf364899c2e80a9418b5c8d083e1cbdcb7501c11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-msxlint.1 \

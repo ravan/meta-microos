@@ -5,10 +5,10 @@ used to make it easier to reuse existing data beans that used with JAXB \
 framework to read and write XML."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-module-jaxb-annotations-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "a8a9ebcc5ad0e820bf2c57a7467ab9dde87904617e5d0246fbe8fc3061bbd0c922beb67948d6a6cad28e00945ce4497e6939764723655c76d9c9e1209eac7493"
+RPM_NAME = "jackson-module-jaxb-annotations-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "13db36dd45cb8c2db6e47e91476b2712b30487b23b0af8e7ef1769d5d8a8b5ee336bed516b037fdf929a72efcea5517eaa85683d4cffd8388402199716584031"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-jaxb-annotations \

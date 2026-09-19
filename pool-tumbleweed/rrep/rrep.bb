@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.7"
 
-RPM_NAME = "rrep-1.3.7-1.2.aarch64.rpm"
-RPM_HASH = "78321af7f2b9aefedf2dfc48e4e3686fe3adf2c04002a1d8c710558b4580a6a4b1a8f324cb5d9f1abaecd9db1dffc9d192cc1c902584e9bb6e66bb93c8ddebf2"
+RPM_NAME = "rrep-1.3.7-1.14.aarch64.rpm"
+RPM_HASH = "fde906a30a586fb611537d8ebca7f22aad3ac17c9b4ae598d647f1318c3b681abbc40510e3c2115a5f7a76ad8e7fa8946dfc915244c91e880a94c2b26ddd7d47"
 
 RPROVIDES:${PN} += "rrep"
 

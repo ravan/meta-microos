@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sexam"
 DESCRIPTION = "This package includes the documentation for texlive-sexam"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn46628"
+PV = "2026.226.1svn46628"
 
-RPM_NAME = "texlive-sexam-doc-2023.209.1svn46628-54.1.noarch.rpm"
-RPM_HASH = "7a23fe08ee9616dd68ea9c5c28f152b9666fe776679d58e4871593d5799269012d2caf294324f47ab38f0c704148248adbf700058b0448563de43a2efc284564"
+RPM_NAME = "texlive-sexam-doc-2026.226.1svn46628-60.2.noarch.rpm"
+RPM_HASH = "4ff9ed4ca091d8eca70174fee7d5cc4662ad5b155994a049f8561bb0ff823fe544f8ad95877a60376abc9b49765d34cc3b068ab6bc119d7ec24d292ee959456d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-sexam-doc-ar-dz \

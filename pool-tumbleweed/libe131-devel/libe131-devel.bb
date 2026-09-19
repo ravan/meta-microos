@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "libe131-devel-1.4.0-1.10.aarch64.rpm"
-RPM_HASH = "747d8d190fdc5de27f65fc2f992bfee7050ca9b2f850ced0838cfd3229219556c93236f4d338f1f110745acdf556e7e36df85162e69ac8fbffcc5b66eb83639e"
+RPM_NAME = "libe131-devel-1.4.0-1.21.aarch64.rpm"
+RPM_HASH = "bb354ee3d936e2c4d45c349f819a7d3ac6a8012f8c6ebae706afaca9ce76a91c69c26aa60918a928ab97e94cf4f54b8c8dbd51aa4ca7dc63af81cc7a42973441"
 
 RPROVIDES:${PN} += "libe131-devel \
 pkgconfig-libe131"

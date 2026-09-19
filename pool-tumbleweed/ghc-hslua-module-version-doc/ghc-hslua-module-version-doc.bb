@@ -2,10 +2,10 @@ SUMMARY = "Haskell hslua-module-version library documentation"
 DESCRIPTION = "This package provides the Haskell hslua-module-version library documentation."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.2.0.1"
 
-RPM_NAME = "ghc-hslua-module-version-doc-1.1.0-1.3.noarch.rpm"
-RPM_HASH = "3278aa60406fc63feb81540ff3de3313f8853ded9b7ea7401af5dd16723b9a02baf509632dcce36c041ac8d0480fb49d044e9c22802749294b28a36011769ab3"
+RPM_NAME = "ghc-hslua-module-version-doc-1.2.0.1-1.2.noarch.rpm"
+RPM_HASH = "092198f6888216cf929b185680cf031ac1b2e317dbe016af0d41e95be509cebf9f8253b3b5a8e3eb51b46cf2ef6726f1b9718aa8b51e9d1e62a14a19db978b25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-module-version-doc"

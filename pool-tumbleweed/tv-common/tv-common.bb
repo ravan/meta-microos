@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.107"
 
-RPM_NAME = "tv-common-3.107-2.11.aarch64.rpm"
-RPM_HASH = "a0f90702552f85a542eb0c4e896a51a882285253d0e9c9ec7e2ec4362471a42bcbc84287c8e3558ed86a1082e4afcb56a494e0cf62dd7cc745a03a827e7a4501"
+RPM_NAME = "tv-common-3.107-3.9.aarch64.rpm"
+RPM_HASH = "fbb2ca635b7173a230aa56cf83cd0d1c0717bd951c29a41f527cd9395dd1e5fe8b0e0fcda7fb0be181a701fc32cafb535e14deacb366133bdaaa116fdb7cae2f"
 
 RPROVIDES:${PN} += "tv-common \
 xawtv-/usr/X11R6/lib/X11/fonts/misc/led-iso8859-1.bdf"

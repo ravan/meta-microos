@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Telugu lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-tel-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "9cbd3324fe7ce3defaf678e363d92a29da2eeb814cbffc7f4b3a259852492703bf747520090ecb68ac70e2bd7780c90518cff2c90f2929ce857cb104e977f8bc"
+RPM_NAME = "tesseract-ocr-traineddata-tel-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "09a4aae9214f076c258e3e7c22007deed29daf48d16c0bcca6b624b3e1d4d46486c0b93df050bba1f81d13df2c2e4d064038df036be0dd57639560eda1291c8d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-tel \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-te \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-tel \
 tesseract-ocr-traineddata-telugu \
 tesseract-traineddata-telugu"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

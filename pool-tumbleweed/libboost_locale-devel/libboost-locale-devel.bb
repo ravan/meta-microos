@@ -4,14 +4,13 @@ DESCRIPTION = "This package contains development headers for Boost.Locale librar
 This package installs the default Boost version of the library."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_locale-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "a3360b0406b43b23e1126c2f9cce47b16f98dea56c537c1bb1a9251b520ed779aea552fe7e26231d46d48fd2fe18451d39127aae5fe0799aa360e31769206f45"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_locale-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "046e681ad0adf3f877c23732237f1d4300e35f3c8d6db639f9cb20a9797447d64664cffde1580e26769a934ca0207f0dba7fe723523a7009d0463acb83ededb2"
 
 RPROVIDES:${PN} += "libboost-locale-devel"
 
-RDEPENDS:${PN} += "libboost-locale1-82-0-devel"
+RDEPENDS:${PN} += "libboost-locale1-91-0-devel"
 
 inherit rpm

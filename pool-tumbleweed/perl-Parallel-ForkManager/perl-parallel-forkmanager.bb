@@ -1,4 +1,4 @@
-SUMMARY = "Simple Parallel Processing Fork Manager"
+SUMMARY = "Simple parallel processing fork manager"
 DESCRIPTION = "This module is intended for use in operations that can be done in parallel \
 where the number of processes to be forked off should be limited. Typical \
 use is a downloader which will be retrieving hundreds/thousands of files. \
@@ -38,9 +38,9 @@ You must specify the maximum number of processes to be created. If you \
 specify 0, then NO fork will be done; this is good for debugging purposes. \
  \
 Next, use $pm->start to do the fork. $pm returns 0 for the child process, \
-and child pid for the parent process (see also perlfunc(1p)/fork()). The \
-'and next' skips the internal loop in the parent process. NOTE: $pm->start \
-dies if the fork fails. \
+and child pid for the parent process (see also perlfunc/fork). The 'and \
+next' skips the internal loop in the parent process. NOTE: $pm->start dies \
+if the fork fails. \
  \
 $pm->finish terminates the child process (assuming a fork was done in the \
 'start'). \
@@ -50,17 +50,17 @@ you want to manage another set of subprocesses in the child process, you \
 must instantiate another Parallel::ForkManager object!"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.02"
+PV = "2.40.0"
 
-RPM_NAME = "perl-Parallel-ForkManager-2.02-1.11.noarch.rpm"
-RPM_HASH = "8cbe99047ac618662266c38bef95e962dd52d4ec2cd745cca9824d8940c16e229dbad2c21881b34ceae80b7bb32d3385a71e0172e7f722aac4c944c92b905105"
+RPM_NAME = "perl-Parallel-ForkManager-2.40.0-1.5.noarch.rpm"
+RPM_HASH = "77db64f633aaeb03a7f6e841eed08ba5e20f9fdbdf826fa79f1dabf3f01018bbe91ce0c58cbf2d451cb849aee775c3093ed7d91931cea34c699bec737960e82b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parallel--ForkManager \
 perl-Parallel--ForkManager--Child \
 perl-Parallel-ForkManager"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moo \
 perl-Moo--Role"
 

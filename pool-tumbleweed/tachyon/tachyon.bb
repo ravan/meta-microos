@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.99.5"
 
-RPM_NAME = "tachyon-0.99.5-1.4.aarch64.rpm"
-RPM_HASH = "58f9361f31933ed17625244d21ba6fae2302abcb9ee85b7e93dab46fd5876ec38eb90f65bbfb1e3ff8db195b1a87a72b1325e00e9afb8a4c27ca3f203f8fa062"
+RPM_NAME = "tachyon-0.99.5-1.16.aarch64.rpm"
+RPM_HASH = "aaeb37dd803f838ce6d86af76f1970f6a3d60c77396e3f851b42a563c392355004299065a9263e935df2d828d585beb5c32cc6ccb91c90507fe732de9b56a0a9"
 
 RPROVIDES:${PN} += "tachyon"
 

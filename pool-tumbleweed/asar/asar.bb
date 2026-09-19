@@ -4,30 +4,47 @@ that concatenates all files together without compression, while \
 having random access support."
 LICENSE = "MIT & ISC"
 
-PV = "3.2.3"
+PV = "4.0.0"
 
-RPM_NAME = "asar-3.2.3-1.3.noarch.rpm"
-RPM_HASH = "7bb3ba254575c9889a88cab80df131b9e1efc7e5d4e1f7884167e9bad2012b1189d6c49c7e19da890a9286971e459326ee1d2d937c7a16a3ad1c295963ffd1c5"
+RPM_NAME = "asar-4.0.0-1.4.noarch.rpm"
+RPM_HASH = "c1ec014058d3b0d948b5681f1af0bc4e38e676e3201c9278bbaaba6e9566fca5ee1cbc866d47a753eeb4656805ef01fbfd134269830e38879e5f010c4c3229d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asar \
 nodejs-asar \
 npm-@electron/asar \
+own-@isaacs/cliui \
+own-ansi-regex \
+own-ansi-styles \
 own-balanced-match \
 own-brace-expansion \
-own-chromium-pickle-js \
+own-color-convert \
+own-color-name \
 own-commander \
-own-concat-map \
-own-fs.realpath \
+own-cross-spawn \
+own-eastasianwidth \
+own-emoji-regex \
+own-foreground-child \
 own-glob \
-own-inflight \
-own-inherits \
+own-is-fullwidth-code-point \
+own-isexe \
+own-jackspeak \
+own-lru-cache \
 own-minimatch \
-own-once \
-own-path-is-absolute \
-own-wrappy"
+own-minipass \
+own-package-json-from-dist \
+own-path-key \
+own-path-scurry \
+own-shebang-command \
+own-shebang-regex \
+own-signal-exit \
+own-string-width \
+own-strip-ansi \
+own-which \
+own-wrap-ansi"
 
-RDEPENDS:${PN} += "/usr/bin/node \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/node \
 nodejs-engine"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "The package attempts to emulate the XeTeX bidi package, in the \
 context of LuaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.5svn54512"
+PV = "2026.226.0.0.6svn68432"
 
-RPM_NAME = "texlive-luabidi-2023.208.0.0.5svn54512-53.1.noarch.rpm"
-RPM_HASH = "bd0691878fb5d9229147262faec8c1f2f0ad70f6ea9b0a0cb452e2bfe01bf98c30355abbab85a09d59bc86520446376cf0da16fc8a2363b6b8e94c69b1ab9d50"
+RPM_NAME = "texlive-luabidi-2026.226.0.0.6svn68432-59.2.noarch.rpm"
+RPM_HASH = "a20414089ae63511590faedfbda6f46739ee75c224533fe392a481dac92365f91460dae7746b88f510ac011c6e72fc09c811424e11db1fadb38a42cb2d4ca213"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luabidi-arabmaths.def \

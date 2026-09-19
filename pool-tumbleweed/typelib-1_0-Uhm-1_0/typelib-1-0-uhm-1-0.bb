@@ -4,16 +4,17 @@ It provides a library, libuhttpmock, which implements recording and \
 playback of HTTP request/response traces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.9.0"
+PV = "0.11.0"
 
-RPM_NAME = "typelib-1_0-Uhm-1_0-0.9.0-1.4.aarch64.rpm"
-RPM_HASH = "063b90f5d0139d90e0e56485884b7ed77d5b401bf9422cda5604c6719b7e90d2e295e46e7f3b46a556d954bfb9d90774929a46dd4fa229603a37756a18d4ffd6"
+RPM_NAME = "typelib-1_0-Uhm-1_0-0.11.0-2.4.aarch64.rpm"
+RPM_HASH = "48fc742825166b358d978efedfd8b0a8048a745dee428a821f52ed0d3621ef5b77f6f9f1f4c5045ce5769fc9f96ca0483abde813ccc0af5eb10d3e2f096a27f7"
 
 RPROVIDES:${PN} += "typelib-1-0-Uhm-1-0 \
 typelib-Uhm"
 
 RDEPENDS:${PN} += "libuhttpmock-1.0.so.1 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio \
 typelib-Soup"

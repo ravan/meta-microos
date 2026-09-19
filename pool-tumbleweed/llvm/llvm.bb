@@ -11,13 +11,13 @@ llvm that openSUSE currently supports.  Packages that \
 don't require a specific LLVM version should depend on this."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.6"
+PV = "23"
 
-RPM_NAME = "llvm-16.0.6-1.1.aarch64.rpm"
-RPM_HASH = "7f6e2b53fafecf9c963354822fe1c90936332ecd638715ef56c0437180869f0625521b80a5a6e30a7e7365e68c034d6bf057d6315dcb78cb1a9e182cb5ec84da"
+RPM_NAME = "llvm-23-1.1.aarch64.rpm"
+RPM_HASH = "ba1ffa5b384555fc5b300dd51f08102d2486fc2d70d464e509ec7e0d16c1041f0ece5c3512f6186cdf5115a68661416495061bb7dec64b9960a8feed06112aae"
 
 RPROVIDES:${PN} += "llvm"
 
-RDEPENDS:${PN} += "llvm16"
+RDEPENDS:${PN} += "llvm23"
 
 inherit rpm

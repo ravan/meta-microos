@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "beansbinding-1.2.1-29.12.noarch.rpm"
-RPM_HASH = "e1c961efad0af7ff646431f0f977ab32d10578db4071f91ee55e522035012fe4ecd314d8158be0dee0fcc36b2ed6dfccb30df4769426467ba4795cdd4743eb8e"
+RPM_NAME = "beansbinding-1.2.1-29.24.noarch.rpm"
+RPM_HASH = "9035990db27d9546baebfb1fdc62b5eee351d8c5ecc5076b4d35c22827fe21ca656385929b20c19b83babac2d058611cdcb0ccdf04ac3d170773436871d46447"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "beansbinding"

@@ -4,8 +4,8 @@ LICENSE = "CC0-1.0"
 
 PV = "0.3.2"
 
-RPM_NAME = "ghc-network-multicast-doc-0.3.2-4.4.noarch.rpm"
-RPM_HASH = "0390443183cb081e197ab395ff131f54ea086e5468b2d72ecd14f68d02424abf92cef27f24141cb9b3b8c867cb9fa3a7db4ad00a3ab2bd6d1ed6078507d285f9"
+RPM_NAME = "ghc-network-multicast-doc-0.3.2-4.24.noarch.rpm"
+RPM_HASH = "2299d8d03a545e5c1173a4b6478f0bb8dc83cfc52328d7717fce9b128cf1c3b9ca5b84cc04c1831a3c2b0dd25841d4e3118305fd584535cdf64c0d0be254f090"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-network-multicast-doc"

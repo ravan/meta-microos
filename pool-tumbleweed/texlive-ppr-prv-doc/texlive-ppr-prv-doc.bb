@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ppr-prv"
 DESCRIPTION = "This package includes the documentation for texlive-ppr-prv"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.13csvn15878"
+PV = "2026.226.0.0.13csvn15878"
 
-RPM_NAME = "texlive-ppr-prv-doc-2023.209.0.0.13csvn15878-53.1.noarch.rpm"
-RPM_HASH = "73549a23f44ed82232978702ec094d52e63084abe345e0bf34bc2e9d7eab7b735b70d1cd2c4f678c12589c09989ff2f80303244dad9150cff6e1e60afade010d"
+RPM_NAME = "texlive-ppr-prv-doc-2026.226.0.0.13csvn15878-59.2.noarch.rpm"
+RPM_HASH = "80506aacc6cfd73b33834d0fb190202336ef00a3f18588619bc1745779272457fafd6417234d30c656340f31f6b0b02daf87c5006993ce54e8f5ac948b4d27ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ppr-prv-doc"

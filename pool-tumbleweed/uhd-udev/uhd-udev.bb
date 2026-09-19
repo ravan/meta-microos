@@ -7,10 +7,10 @@ UHD driver standalone or with 3rd party applications. \
 This package contains udev rules for UHD."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.0.0"
+PV = "4.10.0.0"
 
-RPM_NAME = "uhd-udev-4.4.0.0-1.5.aarch64.rpm"
-RPM_HASH = "75bda779f59ac05d98fcb5029c1321696b657fd8773bdeb206901f7a095d1ea2412be8ff45d71b7ae080f68bf279e6cd6c699314498a5fdc16e324e8d246101b"
+RPM_NAME = "uhd-udev-4.10.0.0-2.1.aarch64.rpm"
+RPM_HASH = "3268ab6c780d951f842b02fa2f60099cfa33667e391451db10b2e27a1bf119caa56c5ddfb69913fc0bf10c818a2d80272eb97f5fe2071cae9c2412138a6ca630"
 
 RPROVIDES:${PN} += "uhd-udev"
 

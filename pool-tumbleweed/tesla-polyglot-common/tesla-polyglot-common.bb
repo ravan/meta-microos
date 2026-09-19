@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "0.4.5"
 
-RPM_NAME = "tesla-polyglot-common-0.4.5-1.4.noarch.rpm"
-RPM_HASH = "58b5ed6daafac57d4f714da69055a877795d90b30901ba222ee72000f34440a564b9a1e20416f541f5cd741d82ae84b81e71fd9cbeec94a526fa4a658cc1c7a5"
+RPM_NAME = "tesla-polyglot-common-0.4.5-2.7.noarch.rpm"
+RPM_HASH = "a09ac9658ee78382b24da489a8de03d118804cf9ac6ea5cd4b677880ca54850de0058e90573f4129170ab0ce77b0d53d353088cdf059bf947f3eba6c252926e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-io.takari.polyglot-polyglot-common \

@@ -2,10 +2,10 @@ SUMMARY = "Configuration files for Apache 2.4 to serve docserv directory"
 DESCRIPTION = "This package contains example configuration files for Apache 2.4 to act as web server for docserv manpages."
 LICENSE = "Apache-2.0"
 
-PV = "20230308.4ed55cf"
+PV = "20260707.78c4c29"
 
-RPM_NAME = "docserv-config-apache2-20230308.4ed55cf-1.5.noarch.rpm"
-RPM_HASH = "c8c3f6bab1ff0324c51f1a1f6dfb131bb2b17861321840cb6bcef8ae1d1ebdeb3dc13f62214e937947fd35d0b07f6720980fcadc7b562733ff0f7191aeabfb67"
+RPM_NAME = "docserv-config-apache2-20260707.78c4c29-1.2.noarch.rpm"
+RPM_HASH = "c7988678ebbe19a1a45961f80c28a5ba7ecd1941b6e8f7405e297aae1f091039835512327d02d8c2ce699d663738f3c0fbb18bc304b07cab25dff18c4ca0f8e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docserv-config-apache2"

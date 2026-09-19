@@ -14,10 +14,10 @@ comes with a daemon process called iscsid, and a management utility, \
 iscsiadm."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.1.9"
+PV = "2.1.12"
 
-RPM_NAME = "open-iscsi-2.1.9-101.1.aarch64.rpm"
-RPM_HASH = "dad98a27773c03d534a5991da302534a7c1bb395d3ac19befc00a407a211701587152b11dcabf95bdff87319ce59777016ec5fff978ed1bd8122166d7d80c5eb"
+RPM_NAME = "open-iscsi-2.1.12-113.1.aarch64.rpm"
+RPM_HASH = "543a21d4141e56c22b7cab14223bbd7434c180efc8a27a520125f1bff8e4b0de8c775d8062084e299d15924f56bbe21434128fda5693368567c7562d21f63ca6"
 
 RPROVIDES:${PN} += "config-open-iscsi \
 open-iscsi"

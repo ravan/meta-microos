@@ -2,16 +2,17 @@ SUMMARY = "Documentation for texlive-gnu-freefont"
 DESCRIPTION = "This package includes the documentation for texlive-gnu-freefont"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn29349"
+PV = "2026.226.svn68624"
 
-RPM_NAME = "texlive-gnu-freefont-doc-2023.209.svn29349-54.2.noarch.rpm"
-RPM_HASH = "5606fd93e219537959048e432f6508c071f0650873032cd72badcc0a0e3f5ffb9a1dcec231c06c6558f3d8a2326231997e29f629d9d467bedd83c27a03086fa0"
+RPM_NAME = "texlive-gnu-freefont-doc-2026.226.svn68624-60.4.noarch.rpm"
+RPM_HASH = "1d09c8586942243de9e3a8fb2701f7204bcc5649b55d241e2abdf6330f0ae1d43787623b6e113f86cbedff87d93e2159c2d7b4f043fbfe83973b81bd50ee67dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gnu-freefont-doc"
 
-RDEPENDS:${PN} += "/usr/bin/perl \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/perl \
+/usr/bin/python3.13 \
 /usr/bin/sh"
 
 inherit rpm

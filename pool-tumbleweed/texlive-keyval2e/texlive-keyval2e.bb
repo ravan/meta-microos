@@ -6,10 +6,10 @@ ease of use and speed of processing are the design aims of the \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.2svn23698"
+PV = "2026.226.0.0.0.2svn23698"
 
-RPM_NAME = "texlive-keyval2e-2023.209.0.0.0.2svn23698-56.1.noarch.rpm"
-RPM_HASH = "3a9644643dea0bdd78610c451727889cca035948c61a008a9ab6286b1c2359cc0c4e89f9773bd3b68060cd3fa9110f9d2181071eab33cfa57f52a02839470b85"
+RPM_NAME = "texlive-keyval2e-2026.226.0.0.0.2svn23698-63.2.noarch.rpm"
+RPM_HASH = "91289f088621586edd416948d91e544ac6ac8e7616a4ab855cc3496bd141c85419745b45de5b6174f8aad8e6ac9d3a4ea9656a86bd7882621f7fbc004cf2cdbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-keyval2e.sty \

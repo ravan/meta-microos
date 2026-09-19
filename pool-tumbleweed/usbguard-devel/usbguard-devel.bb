@@ -3,10 +3,10 @@ DESCRIPTION = "The usbguard-devel package contains libraries and header files fo
 developing applications that use usbguard."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.2"
+PV = "1.1.4"
 
-RPM_NAME = "usbguard-devel-1.1.2-3.2.aarch64.rpm"
-RPM_HASH = "0f18a2dd4cbae3287e24abb421f9bd956585a22619e79fdfdf7063cab2617c55fb5dafeebca1fb209da25e9ced9ef3855adf649d0160496de243b038cfd0347d"
+RPM_NAME = "usbguard-devel-1.1.4-3.9.aarch64.rpm"
+RPM_HASH = "64b192dcd8603b2c69f143ec95464c4fe4375308465077c32e8d6a4e31b5acdca6169f4f54d3a1520ed9f3638ee7a9522a5b22e0577784d8db66cc933f96c9bc"
 
 RPROVIDES:${PN} += "pkgconfig-libusbguard \
 usbguard-devel"

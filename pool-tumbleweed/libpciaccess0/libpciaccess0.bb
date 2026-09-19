@@ -3,10 +3,10 @@ DESCRIPTION = "Provides functionality for X to access the PCI bus and devices in
 platform-independent way."
 LICENSE = "MIT"
 
-PV = "0.17"
+PV = "0.19"
 
-RPM_NAME = "libpciaccess0-0.17-1.2.aarch64.rpm"
-RPM_HASH = "f8598bce412e3a0501def8da7af9c2728a660d7a0c6e1d4516cf45095a12bef54763da5964f31603c3a2930b7626e61d0d22db5dc763ac4c3bf978943bc453d9"
+RPM_NAME = "libpciaccess0-0.19-1.3.aarch64.rpm"
+RPM_HASH = "14de31747643c7fc42e30a3498532a3e90a8826e9f539d806c569a93ba688a13916e58b418b4a1be76bf0ca1aeb6896cd63a467971c331fcc70e1d9e1f08483b"
 
 RPROVIDES:${PN} += "libpciaccess.so.0 \
 libpciaccess0"

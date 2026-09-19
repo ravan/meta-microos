@@ -4,10 +4,10 @@ shadow to the text that is given as its argument. The colour \
 and positioning of the shadow are customisable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn26522"
+PV = "2026.226.0.0.3svn78101"
 
-RPM_NAME = "texlive-shadowtext-2023.209.0.0.3svn26522-54.1.noarch.rpm"
-RPM_HASH = "164be85c1a9715ba2b85a22b501d6b35f4a1e702d786132ebdbc51ba2f00813f626b7b88c098803e1228cc4ec87c75346043ab7c47aa87203eeb3150da0712dd"
+RPM_NAME = "texlive-shadowtext-2026.226.0.0.3svn78101-60.2.noarch.rpm"
+RPM_HASH = "ddc90c1e5b4e2a2411cb9b0e8b62f3ccf38bd8eca94aa964dadc87dc6763775d7ba24b5aa8460602468e8eca046e9ae6cbd4def103ea182cf0d288859038a51b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-shadowtext.sty \

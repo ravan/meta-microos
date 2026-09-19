@@ -1,5 +1,5 @@
 SUMMARY = "Running headers of the form 'Notes to pp.xx-yy'"
-DESCRIPTION = "Endheads provides running headers of the form 'Notes to pp. \
+DESCRIPTION = "This package provides running headers of the form 'Notes to pp. \
 xx-yy' for endnotes sections. It also enables one to reset the \
 endnotes counter, and put a line marking the chapter change in \
 the endnotes, at the beginning of every chapter. Endheads \
@@ -7,10 +7,10 @@ requires the fancyhdr, needspace, ifthen, and endnotes \
 packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn43750"
+PV = "2026.226.1.7svn73959"
 
-RPM_NAME = "texlive-endheads-2023.209.1.6svn43750-54.2.noarch.rpm"
-RPM_HASH = "529b7b6e54d95af4b49b8de14225059757b3f968779c039a051ade09a643005e92382539f7ee13f19ad1e265baff5f986857e6341c41ff156512095e4aa66941"
+RPM_NAME = "texlive-endheads-2026.226.1.7svn73959-61.4.noarch.rpm"
+RPM_HASH = "fcf9e7124423424dee0741568c8b520c370d414402a5070b742a75436e7d9db5f59cbf7e6f41f261e3c92941c9845e9d0eb41a73e2a59efadcfd9e40db0fcb14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endheads.sty \

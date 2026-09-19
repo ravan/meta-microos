@@ -7,12 +7,12 @@ to TCP network sniffer programs like the old and famous snoop on Sun \
 Solaris or tcpdump on Linux (which is in fact a kind of a clone of SunOS \
 'snoop'). You may also analyze offline mpeg streams, e.g. stored on DVD or \
 mpeg2 movie files."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.50"
 
-RPM_NAME = "dvbsnoop-1.4.50-22.9.aarch64.rpm"
-RPM_HASH = "366974bb06ad1a6b011ab2e3e3b73ea9413085cc6de0a9060178080d3a11483c35fd711cdd2177dd0771e38620581aa6d9a995a3a8f2fb771325842cb6d2de52"
+RPM_NAME = "dvbsnoop-1.4.50-23.5.aarch64.rpm"
+RPM_HASH = "e5ef67d2ebb1e208ebc9f73c54ff0f33db03d841875894ec8f21f0be95a03e216241e1113ac5d4561e332c0fb79231f40a1080008f5ab2663ee625495808c72b"
 
 RPROVIDES:${PN} += "dvbsnoop"
 

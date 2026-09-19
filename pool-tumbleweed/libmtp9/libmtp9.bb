@@ -7,10 +7,10 @@ Common devices using this technology are Creative Zen, iRiver, Samsung \
 and others."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.21"
+PV = "1.1.23"
 
-RPM_NAME = "libmtp9-1.1.21-1.1.aarch64.rpm"
-RPM_HASH = "03ab5e35789fb490a46489d0c1fb0a08634d582ce8360417474817ccf732754dc0de50f81ad65a43fa1f02fe7fde8b782837241037eb70f49a173391b8d856a0"
+RPM_NAME = "libmtp9-1.1.23-1.3.aarch64.rpm"
+RPM_HASH = "1ccb95614762d7a372143cbd32278eaec77a5a1eb8be41eca1b49217e4cf3f4e02d0c4fe43c03451728925818246af7367cdb18e026a589491e6dabbcad8258c"
 
 RPROVIDES:${PN} += "libmtp.so.9 \
 libmtp9"

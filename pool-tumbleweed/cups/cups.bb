@@ -16,10 +16,10 @@ and limited support for the server message block (SMB) protocol. \
 CUPS comes with a built-in web-based interface."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.2"
+PV = "2.4.19"
 
-RPM_NAME = "cups-2.4.2-6.1.aarch64.rpm"
-RPM_HASH = "e9b9b1d980603c3761f42dcb2ec3a255e9a4000536ea9102622cffe96b78659363b44e335aa88db629cb33e4b984bffb406263e3004cdf830a6d5d709234a597"
+RPM_NAME = "cups-2.4.19-3.1.aarch64.rpm"
+RPM_HASH = "f921c495ab4359a546882686324e0c8165a2c4bfc0285aa9f26cd94e6ea4f5b9342358d2ca43a25496a243f9d15cf01ea6a89d0cd868859437a613ca54ba90d3"
 
 RPROVIDES:${PN} += "config-cups \
 cups"
@@ -29,6 +29,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 coreutils \
 cups-client \
 cups-config \
+group-lp \
 ld-linux-aarch64.so.1 \
 libavahi-client.so.3 \
 libavahi-common.so.3 \

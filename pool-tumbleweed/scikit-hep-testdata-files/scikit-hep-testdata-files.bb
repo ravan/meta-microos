@@ -10,10 +10,10 @@ repositories. \
 This subpackage contains the data files for all python flavors."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.31"
+PV = "0.6.7"
 
-RPM_NAME = "scikit-hep-testdata-files-0.4.31-1.1.noarch.rpm"
-RPM_HASH = "67bf7440262450061ce1c30002322e69e857c6e56146b44f7a1908c69fc3a84b59bb93ec3777a22c3b5ce39a09f097fe800aa1a7ce27c823c16d3bc23108b276"
+RPM_NAME = "scikit-hep-testdata-files-0.6.7-1.1.noarch.rpm"
+RPM_HASH = "40029869df17c4965a54f6d189fffefd5d14a50684475a5f73204f03e472b21db8561378e7fb22c85e5be690fc1c64f9cd3d8663e108c755d83725b91aa05df0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scikit-hep-testdata-files"

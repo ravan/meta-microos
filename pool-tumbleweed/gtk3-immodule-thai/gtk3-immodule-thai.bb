@@ -6,10 +6,10 @@ ranging from small one-off projects to complete application suites. \
 This package provides an input method for Thai-Lao."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.38"
+PV = "3.24.52+git59.b30343717d"
 
-RPM_NAME = "gtk3-immodule-thai-3.24.38-2.1.aarch64.rpm"
-RPM_HASH = "52bb01322e1606861c6e30ef85860755a0b7a5f4796085267f9011e96b5a655ee36b04abef1761abfa253fa663145195dcc5fba34bfcce11ef3388e6c5f0a0a6"
+RPM_NAME = "gtk3-immodule-thai-3.24.52+git59.b30343717d-1.1.aarch64.rpm"
+RPM_HASH = "f38ed0345d6b649eb311b7fae59097c11ba08a5066e50fbd40cd377ccb3fb812e67f14317a5ec0fc06025e806cc5d5804b45e3e0de7efaffbf655004be441fad"
 
 RPROVIDES:${PN} += "gtk3-immodule-thai \
 locale-gtk3-lo \

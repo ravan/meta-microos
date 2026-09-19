@@ -2,10 +2,10 @@ SUMMARY = "System user vscan"
 DESCRIPTION = "This package provides the system user 'vscan'."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-user-vscan-20170617-24.16.noarch.rpm"
-RPM_HASH = "65e0f419188ed350e5ddf56f23fbead3421e56ebab8d82c5c58154aedb7d84654342e54d3c1f8414266c699914cb184daa658eab0cee56de101f76632684ee8a"
+RPM_NAME = "system-user-vscan-20250822-2.3.noarch.rpm"
+RPM_HASH = "59635c39d50bbd76951afc2b5833c0b24e30d331da8b943990a4a7afad70066e2777b465b5203555a18098eae928f6eb4f469a3d3a1d9f0cb576bcf4e1a76e93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-vscan \

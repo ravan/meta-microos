@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.029"
 
-RPM_NAME = "perl-Config-INI-0.029-1.3.noarch.rpm"
-RPM_HASH = "5cdc6bb1fe03667300d912860151542b30a22a4a3baec170dbe0acb79373b0ef11483210abfe4b66d9bd7d18746dd4ec41ddfb4eba9a07599b8611d8e322bba9"
+RPM_NAME = "perl-Config-INI-0.029-1.17.noarch.rpm"
+RPM_HASH = "2e930c07ff30c7fc94ba45bd1ec261cf19f6e85b33ed8d74fd08f644c2f933ed8e036510cea3c077e93b54d02c8dee3b8fe89847d0c44fb1eef733c658919f50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--INI \
@@ -13,7 +13,7 @@ perl-Config--INI--Reader \
 perl-Config--INI--Writer \
 perl-Config-INI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Mixin--Linewise--Readers \
 perl-Mixin--Linewise--Writers"
 

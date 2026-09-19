@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.4"
 
-RPM_NAME = "ghc-pem-devel-0.2.4-8.8.aarch64.rpm"
-RPM_HASH = "3a13f04123b58c258f463942aad71772cfa48cef4c1c5e040450002b495b575e9adb21f60ea7a593440a538d966d4b81532696ce5054f48b09336c4c5144a1a5"
+RPM_NAME = "ghc-pem-devel-0.2.4-8.31.aarch64.rpm"
+RPM_HASH = "1bbf3eec24f2073239cb76517ca90e0e14fe1f5fbc73dbaae3750a2d98582521b0d42219f8b0801a5b81c33c42c85e2962badf1110bff6682c8930442ff49d95"
 
-RPROVIDES:${PN} += "ghc-devel-pem-0.2.4-F5Ih0vrB4sf5XALvrxfus2 \
+RPROVIDES:${PN} += "ghc-devel-pem-0.2.4-HqB1KmdaogjHqJ1PBuavhl \
 ghc-pem-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-basement-0.0.16-JDtFhm6hoERETf7Hqk4dh9 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-basement-0.0.16-EFfarL5MHPIHNlTrgpSdN2 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-memory-0.18.0-4OCVGiXkS6t9StTfiwlZlu \
 ghc-pem"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gitg"
 DESCRIPTION = "Provides translations for the 'gitg' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "41"
+PV = "50"
 
-RPM_NAME = "gitg-lang-41-2.10.noarch.rpm"
-RPM_HASH = "5058343e36796f7c43fd732e34de768e42aba52ed86c70b427b94832fe112858e60b7eff3cb4a89b0f54c8954e780f8413499ea185a3c9c7c36b9ab25890f232"
+RPM_NAME = "gitg-lang-50-1.1.noarch.rpm"
+RPM_HASH = "0672a9d53b7b5fad29a2eb65b992a597bb60c4941e17781f81f3c971b31feaec391d585854ef98c490bb7c04d11ee40d8bb157a82e402a46a731820bc146e5a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gitg-lang \
@@ -28,10 +28,13 @@ locale-gitg-fr \
 locale-gitg-fur \
 locale-gitg-gl \
 locale-gitg-he \
+locale-gitg-hi \
+locale-gitg-hr \
 locale-gitg-hu \
 locale-gitg-id \
 locale-gitg-it \
 locale-gitg-ja \
+locale-gitg-ka \
 locale-gitg-kk \
 locale-gitg-ko \
 locale-gitg-lt \
@@ -53,6 +56,7 @@ locale-gitg-sl \
 locale-gitg-sr \
 locale-gitg-sr@latin \
 locale-gitg-sv \
+locale-gitg-ta \
 locale-gitg-tr \
 locale-gitg-uk \
 locale-gitg-vi \

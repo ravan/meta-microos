@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-zref-vario"
 DESCRIPTION = "This package includes the documentation for texlive-zref-vario"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.7svn65453"
+PV = "2026.226.0.0.1.12svn77682"
 
-RPM_NAME = "texlive-zref-vario-doc-2023.209.0.0.1.7svn65453-53.2.noarch.rpm"
-RPM_HASH = "a5f207be1589056653be44e568345cdd222b6e66ce2d4692ae8f5b4aaed6652bb5bdde7e89d8ece2dafbf371ef01e525fa486e27f70ab3fcc452a14561839258"
+RPM_NAME = "texlive-zref-vario-doc-2026.226.0.0.1.12svn77682-59.4.noarch.rpm"
+RPM_HASH = "3a2b377f3ce861fac3bb3abd1eb78369565d5b8f6091aff5ea35840eb1256d75aae1b462f4addcebe59732c22cbb6d15e314843c78ed2b0006b74d980fcac083"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zref-vario-doc"

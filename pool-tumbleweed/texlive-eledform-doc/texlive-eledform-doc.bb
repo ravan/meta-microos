@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eledform"
 DESCRIPTION = "This package includes the documentation for texlive-eledform"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn38114"
+PV = "2026.226.1.1asvn38114"
 
-RPM_NAME = "texlive-eledform-doc-2023.209.1.1asvn38114-54.2.noarch.rpm"
-RPM_HASH = "2f4778e12b6e13e0836d077bdf6e7b377f5eb7065d7d70984891b4f4659d5f1ba5dd3bcce29a6082e60b90fa39741eabbc638f5351d4a4768189508c554cd635"
+RPM_NAME = "texlive-eledform-doc-2026.226.1.1asvn38114-61.4.noarch.rpm"
+RPM_HASH = "51b796c5a74bf1280a570210b2a2737028a1065373cbfed7d130b83d49dff166f32083add0a31562f1610a7a95e61b73a1ac883af3231bd2b20fdda1420d33fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eledform-doc"

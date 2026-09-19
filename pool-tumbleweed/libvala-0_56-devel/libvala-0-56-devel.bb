@@ -2,10 +2,10 @@ SUMMARY = "Programming language for GNOME"
 DESCRIPTION = "Development files for the Vala runtime library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.56.13"
+PV = "0.56.19"
 
-RPM_NAME = "libvala-0_56-devel-0.56.13-1.1.aarch64.rpm"
-RPM_HASH = "f7fc6ae169feea6f657d7818e90427a76296bb4c998ac63fe6e976fe239de7d0ae03695cdd62f9d3697c93f05b2ea75c87fdf3ce780de4ae4e2c91c1195e7acc"
+RPM_NAME = "libvala-0_56-devel-0.56.19-1.4.aarch64.rpm"
+RPM_HASH = "479b821bd7a90d3414ff6544508647264b1af524c368edca6746a19450acfcdd75f4affb835132cfb46e0cdefdaab9b6aee7ad73165549c397866baf823ff263"
 
 RPROVIDES:${PN} += "libvala-0-56-devel \
 libvala-devel \

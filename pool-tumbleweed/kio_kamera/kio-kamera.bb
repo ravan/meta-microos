@@ -1,27 +1,27 @@
-SUMMARY = "KDE I/O Slave for Cameras"
+SUMMARY = "KDE I/O Slave for cameras"
 DESCRIPTION = "This package contains a KIO slave to access digital cameras."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kio_kamera-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "93e860672fe628e889b9c6546fb5675793c28f9d2fa22a17036bb12fbcf8436d9fde72283cd311e8f821c269edd37e679ca34245325b0ff53a33eb98e0c28996"
+RPM_NAME = "kio_kamera-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "43b8cfcd26c78502178f924fe71c9d9261f37439a457f2cfe378d63985faaed311c1d691bc715f15a4afdf7e41b473921bea9a14b1ba8b39f3bbb5dd827c644d"
 
-RPROVIDES:${PN} += "kamera \
-kio-kamera"
+RPROVIDES:${PN} += "kio-kamera"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KCMUtilsCore.so.6 \
+libKF6KIOCore.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgphoto2-port.so.12 \
 libgphoto2.so.6 \

@@ -2,14 +2,13 @@ SUMMARY = "Documentation for texlive-tugboat"
 DESCRIPTION = "This package includes the documentation for texlive-tugboat"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.29svn66513"
+PV = "2026.226.2.36svn77682"
 
-RPM_NAME = "texlive-tugboat-doc-2023.209.2.29svn66513-53.1.noarch.rpm"
-RPM_HASH = "340008006682de378f73dca920a62b721502e63b786c18e945f20ef5f926637447f0f8a72740b662a295743e937be67eef46ac0d836173e533d069b7ccc6f22a"
+RPM_NAME = "texlive-tugboat-doc-2026.226.2.36svn77682-59.2.noarch.rpm"
+RPM_HASH = "d004abecbcbd0a6a2c88f4ffa724f57e9253aa0767ec62714abfc20150f67886e3ef6c3944060f44c51a0716ea7ab326eb1caa7f39ae253b4ce1f889ffa2f0a0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-texlive-tugboat-doc-en \
-texlive-tugboat-doc"
+RPROVIDES:${PN} += "texlive-tugboat-doc"
 
 RDEPENDS:${PN} += ""
 

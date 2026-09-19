@@ -14,14 +14,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.05"
 
-RPM_NAME = "perl-MouseX-ConfigFromFile-0.05-4.19.noarch.rpm"
-RPM_HASH = "508a38ba551fcd829dc90d1560669fb432df8deb215961eb8f6489847c3231b7758fe8a9da5c2ca69207246eb7d90f5bf9f892d7edae450a75634621fc3f37af"
+RPM_NAME = "perl-MouseX-ConfigFromFile-0.05-4.33.noarch.rpm"
+RPM_HASH = "6a91cff691dfe618f81a260184c5c02631115b436d887eb0c674154b5a54ce954c41bc20f81d05dc8ad5736e77b4990fb21f177af37e667c77497c21edcd9477"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MouseX--ConfigFromFile \
 perl-MouseX-ConfigFromFile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Mouse \
 perl-MouseX--Types--Path--Class"
 

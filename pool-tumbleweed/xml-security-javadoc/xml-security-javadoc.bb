@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.7"
 
-RPM_NAME = "xml-security-javadoc-2.1.7-3.11.noarch.rpm"
-RPM_HASH = "a6db4957497f8b0cd1da43f020af02208b3000b588f7877bde21eac2902230505d549fb753f20d04985ed88cbbff1c2f99595efd29763bea5d40c49409292919"
+RPM_NAME = "xml-security-javadoc-2.1.7-5.10.noarch.rpm"
+RPM_HASH = "062442f153c334b830458ef0ded2dd165c3f8af3e45fec6af53695be6664337b38beb81c88b1f3f82b442e0b291d1001561d97ed07e7641723075ded08650c09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xml-security-javadoc"

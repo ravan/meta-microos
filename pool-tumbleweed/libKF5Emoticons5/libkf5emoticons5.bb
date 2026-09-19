@@ -4,10 +4,10 @@ images in HTML. It supports setting different themes for emoticons coming \
 from different providers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5Emoticons5-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "6798118c5a74bc7989596541c39dff8ad1ddbcd8c534aab749150e31b837de63d92fbc8110d3feaaaa843a4cb407ab659db62b29c13f60f7dc08fcf6ad271c6d"
+RPM_NAME = "libKF5Emoticons5-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "54c005eab6ff9f38b6a7aaf281879cd55ef5997e5775c1c46fd8ca4b9f07e804a6f5f4fdf6b767171ecad637da5df80b46ce4f77b67d3f02a66ffbe42382a095"
 
 RPROVIDES:${PN} += "libKF5Emoticons.so.5 \
 libKF5Emoticons5"

@@ -10,8 +10,8 @@ LICENSE = "(GPL-2.0-or-later | LGPL-2.1-or-later | MPL-1.1+) & LGPL-2.1-or-later
 
 PV = "1.7.2"
 
-RPM_NAME = "libhunspell-1_7-0-1.7.2-1.4.aarch64.rpm"
-RPM_HASH = "ff120822cb594d79f9b1bd7c14deae6686c060db69076e0d60344cbe868b6426a622777699b48257d854ecdd1e5b1a67d4f009ab61967eb65f25aeaa4155e06b"
+RPM_NAME = "libhunspell-1_7-0-1.7.2-1.14.aarch64.rpm"
+RPM_HASH = "95c623f4deb3a26d204a9276d8acf9a47d1587945794af10187b13ddeec39193ab05599b6df468530463626cf27b01db46788c94ce3b05648fe9d5513dcab2e3"
 
 RPROVIDES:${PN} += "libhunspell-1-7-0 \
 libhunspell-1.7.so.0"

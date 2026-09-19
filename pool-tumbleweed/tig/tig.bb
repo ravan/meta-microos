@@ -9,10 +9,10 @@ and showing the commit with the log message, diffstat, and the diff. \
 Using it as a pager, it will display input from stdin and colorize it."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.8"
+PV = "2.6.1"
 
-RPM_NAME = "tig-2.5.8-1.3.aarch64.rpm"
-RPM_HASH = "8e82b4825390bc16ea4f1b9889b74a6206cfe52b853ab40725f47daec0e4cd987050c0f9678203b037bb6e11fcf2ed7f3de2647b3becfc6bcf1e07b8bac73703"
+RPM_NAME = "tig-2.6.1-1.3.aarch64.rpm"
+RPM_HASH = "facc57e4646d846779c7245980e4e16f074402978a4a667209ccf3c7bfc00cb8432107c99f8895e64c1c5965ea8c6187a519662d4953ec76268233b4d844c61a"
 
 RPROVIDES:${PN} += "config-tig \
 tig"

@@ -3,10 +3,10 @@ DESCRIPTION = "Tools for HackRF, an open source hardware project to build a Soft
 Defined Radio (SDR) peripheral."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.01.1"
+PV = "2026.01.3"
 
-RPM_NAME = "hackrf-2023.01.1-1.3.aarch64.rpm"
-RPM_HASH = "3bc0389358c4d2db704cc8f5ca65c2b63c2a471e3e636a926346122b077ca134a676494508fdd405213156cf54f9d293d6f7307325e6b876fce8f2b9c3c153a9"
+RPM_NAME = "hackrf-2026.01.3-1.4.aarch64.rpm"
+RPM_HASH = "b78dc9b3812ffd747e3b8fcadd89af2942dfd24990ae876dfe12f5591347e579bfd31123db8bb5169c65724359173a5ce1f6b25d226940c8180414d3e54733d8"
 
 RPROVIDES:${PN} += "hackrf"
 

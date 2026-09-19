@@ -5,10 +5,10 @@ pleaseedit is a method to permit editing of files without \
 elevation."
 LICENSE = "(0BSD | MIT | Apache-2.0) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & Apache-2.0 & MIT & GPL-3.0-or-later"
 
-PV = "0.5.1~git0.ce9627c"
+PV = "0.5.6~git0.3ca6938"
 
-RPM_NAME = "pleaser-0.5.1~git0.ce9627c-7.3.aarch64.rpm"
-RPM_HASH = "a05e1a32215e83b369cd8f0c34cb65c512a5952d73ff7a4c1cb85e4a4e76dda6b1520415a2f3c1f1e40b4122aa899262d99293f930122ae35cf4393ee889db9f"
+RPM_NAME = "pleaser-0.5.6~git0.3ca6938-1.10.aarch64.rpm"
+RPM_HASH = "dbeb3ebc4a253d6ab8e48e9cc03144a6594a1c35adc222f0e9386409cd01fd4094488497ce34c8fa6d362951d405e5f2c13ed3f9fd020214a47cb0d6554e4f68"
 
 RPROVIDES:${PN} += "config-pleaser \
 pleaser"
@@ -16,7 +16,7 @@ pleaser"
 RDEPENDS:${PN} += "/usr/bin/sh \
 libc.so.6 \
 libgcc-s.so.1 \
-libm.so.6 \
+libpam-misc.so.0 \
 libpam.so.0 \
 pam \
 permissions"

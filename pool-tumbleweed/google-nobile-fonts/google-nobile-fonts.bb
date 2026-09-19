@@ -13,8 +13,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.0.38"
 
-RPM_NAME = "google-nobile-fonts-1.0.38-11.17.noarch.rpm"
-RPM_HASH = "642c9d296771f0cda4efef4fc94e15b1218bc0a760c2121fd83df77a13f6c1fc684c5792a701f24e47435b39f8efe404eade9cd9ad2795d33033a5a7e159ea58"
+RPM_NAME = "google-nobile-fonts-1.0.38-11.25.noarch.rpm"
+RPM_HASH = "755fa7a87f6bbc0692a8707a287e84d21f7742ed429e128337e643244e5e30e5050bf63231ffae662e376ef45f0477e426b37d5f437a7de55371a9f68cdebfd4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-nobile-fonts"

@@ -7,10 +7,10 @@ calc library), xpatch, and xparse (thus also requiring the \
 experimental LaTeX3 environment)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn52323"
+PV = "2026.226.1.5svn76924"
 
-RPM_NAME = "texlive-metrix-2023.209.1.5svn52323-55.1.noarch.rpm"
-RPM_HASH = "86ac93392f188e8145815510d2304d6a7eacf3d44f5ae7e40b15902553cba44aec346d8ffc8f17eaab265089b4d7caffa20e7dc71cdc820327049f476a60640d"
+RPM_NAME = "texlive-metrix-2026.226.1.5svn76924-61.2.noarch.rpm"
+RPM_HASH = "b40b8862228d7a93bf0c66d8d6df01bfd943f6449c10a42ec56b7649e09f512ec8d96d1d534e46334b6e047b356c102ac88bef68254b1820fbf0441ae9dc8244"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-metrix.sty \

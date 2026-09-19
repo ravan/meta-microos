@@ -6,17 +6,16 @@ This subpackage contains the NXP KW41Z BTLE and Zigbee Sniffer capture \
 helper."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023_07_R1"
+PV = "2025_09_R1"
 
-RPM_NAME = "kismet-capture-nrf-nxp-kw41z-2023_07_R1-1.1.aarch64.rpm"
-RPM_HASH = "64987d19a14bfa2589fa45bb9a05dcd901db6f8789a335fc0a647a9b81db7d005d110aa6f0d4812f5463d61ccbb6129ce3544c25c8787d8cbfec22b5a6975408"
+RPM_NAME = "kismet-capture-nrf-nxp-kw41z-2025_09_R1-2.3.aarch64.rpm"
+RPM_HASH = "07ed75af1e0a286f4ea37cd2b38ccc3a8200728dbdeb8589f9d61cc0f13f38055e6a71430ea97079a7b1d75ed1288439265d6caa3a3d0836f076f82a85753f16"
 
 RPROVIDES:${PN} += "kismet-capture-nrf-nxp-kw41z"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \
-libprotobuf-c.so.1 \
-libwebsockets.so.19"
+libwebsockets.so.22"
 
 inherit rpm

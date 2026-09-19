@@ -6,23 +6,27 @@ newsserver of the ISP and additionally offer local (site-specific) \
 groups to a LAN."
 LICENSE = "MIT"
 
-PV = "2.0.0+git.1677927696.44d2783"
+PV = "2.0.0~git.1745443528.0925b70"
 
-RPM_NAME = "leafnode-2.0.0+git.1677927696.44d2783-3.4.aarch64.rpm"
-RPM_HASH = "eba562c695eefe74959f7ea609405125b98ddcba84a6af4bf85ebe5d302b53aacc04f4fc5a2f848760d22e70aee0b84a7c25b4ec59e38d0cfb40aeacea4c8bc6"
+RPM_NAME = "leafnode-2.0.0~git.1745443528.0925b70-2.3.aarch64.rpm"
+RPM_HASH = "705806c6902a5bd41840bb8036eb18d15293e6f9a729b85c8b2c4e0b0abd35f51bc7420b2aaf2acba7ea132ffd0e9b19f51e895add86e1ba503821cee991064d"
 
 RPROVIDES:${PN} += "config-leafnode \
-leafnode"
+group-news \
+group-newsadmin \
+leafnode \
+user-news \
+user-newsadmin"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/perl \
+RDEPENDS:${PN} += "-group(maildrop) and postfix \
+/usr/bin/bash \
 /usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypt.so.1 \
 libpam.so.0 \
-libpcre.so.1 \
+libpcre2-8.so.0 \
 permissions \
 shadow \
 systemd"

@@ -2,19 +2,19 @@ SUMMARY = "Haskell base-compat library development files"
 DESCRIPTION = "This package provides the Haskell base-compat library development files."
 LICENSE = "MIT"
 
-PV = "0.13.0"
+PV = "0.14.1"
 
-RPM_NAME = "ghc-base-compat-devel-0.13.0-1.5.aarch64.rpm"
-RPM_HASH = "523c848036aa2ae8ae43cd3a85ae04733371679af126458c84f83610b90dc6c4d0f4a4c1f81009b2976e848fe8d5c824b27628cf1b7f1b120d46a58a910ba3db"
+RPM_NAME = "ghc-base-compat-devel-0.14.1-1.15.aarch64.rpm"
+RPM_HASH = "d41dbf21e59b44cf7994dce91f3523bfb5762947a0a04304c6360edd7b08873511752106b7fccbbbda07d885e6395fb522e7767a43cde3b6a94796801c544ad8"
 
 RPROVIDES:${PN} += "ghc-base-compat-devel \
-ghc-devel-base-compat-0.13.0-ASw4phAd2I0LrTJ4o8lXb1"
+ghc-devel-base-compat-0.14.1-KqldihVKqBMDOTSpHrHMJy"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-base-compat \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-ghc-prim-0.9.1 \
-ghc-devel-unix-2.7.3"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-ghc-prim-0.13.0-f55c \
+ghc-devel-unix-2.8.8.0-178a"
 
 inherit rpm

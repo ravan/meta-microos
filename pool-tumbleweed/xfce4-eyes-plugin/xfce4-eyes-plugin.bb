@@ -2,10 +2,10 @@ SUMMARY = "Eyes Plugin for the Xfce Panel"
 DESCRIPTION = "The Eyes plugin adds moving eyes to the panel which watch your activities."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "4.7.0"
 
-RPM_NAME = "xfce4-eyes-plugin-4.6.0-1.8.aarch64.rpm"
-RPM_HASH = "fdc26b025916a2d81b805847709b7987322c14fe839dcbde8cd5c28d7f6c6bdbd78044a49c8cd5d4240b5555a019fae7b29335638db60c62d1726a8930c8d1b8"
+RPM_NAME = "xfce4-eyes-plugin-4.7.0-1.4.aarch64.rpm"
+RPM_HASH = "c9421f43485a0bfac3bb791861d6050149e94d960368a81982b9744a4e285770b819d96dee6b006034858cc21d82744e61ef830b92905ffc69b3b1bce9fda261"
 
 RPROVIDES:${PN} += "libeyes.so \
 xfce4-eyes-plugin \

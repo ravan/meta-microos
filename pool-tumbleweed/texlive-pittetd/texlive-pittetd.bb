@@ -6,10 +6,10 @@ detailed guide for users who wish to use the class to prepare \
 their thesis or dissertation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.618svn15878"
+PV = "2026.226.1.618svn15878"
 
-RPM_NAME = "texlive-pittetd-2023.209.1.618svn15878-52.1.noarch.rpm"
-RPM_HASH = "53d5fcf48bca51db541efbd89f092d5acae6318e6ed11fd6964d06496c8681dc891c7896d98273660ea0d125a703231284474cd57ed7748fb0ce40e78aeeaa21"
+RPM_NAME = "texlive-pittetd-2026.226.1.618svn15878-58.2.noarch.rpm"
+RPM_HASH = "4e36eec19d0168bfd72a887ea15ca292cd115cb9929e4cad40ab9335bf84b103895491ecf62211435f714822710b14ac4a5ade170dee2eac04c432cfbe965099"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pitetd10.clo \

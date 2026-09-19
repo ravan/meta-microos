@@ -2,20 +2,20 @@ SUMMARY = "Haskell hslua-repl profiling library"
 DESCRIPTION = "This package provides the Haskell hslua-repl profiling library."
 LICENSE = "MIT"
 
-PV = "0.1.1"
+PV = "0.1.2"
 
-RPM_NAME = "ghc-hslua-repl-prof-0.1.1-1.3.aarch64.rpm"
-RPM_HASH = "b6f15e88667f3cdcf64393cb000a4ef9efb4dda1bc6dd910060895b26998dba6b59e5c53a3ddabd6fa0a5ab39b83f98c4e503cd1d57105d053070c8a0d79d2cc"
+RPM_NAME = "ghc-hslua-repl-prof-0.1.2-1.23.aarch64.rpm"
+RPM_HASH = "48a1c6ee4312d80c4c920c2b044694096cc4ec8f938d9804d1693dbb3af6c146f545038ca46d0ca1b779c1dc1b38d419a20b2f5f0c912e0c379cef7fd2f9d2d3"
 
 RPROVIDES:${PN} += "ghc-hslua-repl-prof \
-ghc-prof-hslua-repl-0.1.1-AT3e5G0H4So5vj4IgGLSDC"
+ghc-prof-hslua-repl-0.1.2-KdgSeGpN6Tl9J954qfH0X5"
 
 RDEPENDS:${PN} += "ghc-hslua-repl-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
-ghc-prof-isocline-1.0.9-5gDpTZgmtmsDJNf9j9fI7b \
-ghc-prof-lua-2.3.1-IuAZ4Y3Pnt2ACNXikcgl6h \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-hslua-core-2.3.2.1-GIcwwMIDhKVEx4MlcixfFr \
+ghc-prof-isocline-1.0.9-1LtJKbO57TxJAL2UMR5S4N \
+ghc-prof-lua-2.3.4-GxTlN73bN8C8KbBhVEtsew \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

@@ -11,10 +11,10 @@ This package contains the Secure Shell daemon, which allows clients to \
 securely connect to your server."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "9.3p2"
+PV = "10.5p1"
 
-RPM_NAME = "openssh-server-9.3p2-1.1.aarch64.rpm"
-RPM_HASH = "94c4d940571ab6d5acc1af54f5ead359dc3e3868cb79353c85acd490d6a30cf3f3b94b8921364902b7c2fd933d6d4c1944253273695ad384d47d99b705549c7f"
+RPM_NAME = "openssh-server-10.5p1-1.2.aarch64.rpm"
+RPM_HASH = "2c9c142b2f3bbd510ca5bb148240076fd9bdaf35afaca50df2efc4883dfeca57111af227be2d9c6d4633b280de8347da375e00046fd7e8e9cd9cab74450b833e"
 
 RPROVIDES:${PN} += "config-openssh-server \
 group-sshd \
@@ -25,6 +25,7 @@ user-sshd"
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \
+crypto-policies \
 fillup \
 findutils \
 grep \

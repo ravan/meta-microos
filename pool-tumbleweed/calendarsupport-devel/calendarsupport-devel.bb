@@ -1,20 +1,19 @@
 SUMMARY = "Development package for the KDEPIM Calendarsupport library"
 DESCRIPTION = "The development package for the calendarsupport libraries"
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "calendarsupport-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "ce7b6223d362035d0a1a75a423fd1bdde1b9f6285f0db57b5739a1f91c4c5b2becd0712a98482c28fd4acaeb31e07d358564a8597c5fc7bf36707bfcb68d258c"
+RPM_NAME = "calendarsupport-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "670bc47cf8c539fc424cec1d5180eb057ceb7c1f2ff1c674d4b0f4867cf0f4a833f8ebbbded84809a06fdb7e384211e7bc51e98e01119535351cd5ce9716af22"
 
 RPROVIDES:${PN} += "calendarsupport-devel \
-cmake-KF5CalendarSupport \
-cmake-KPim5CalendarSupport"
+cmake-KPim6CalendarSupport"
 
-RDEPENDS:${PN} += "cmake-KPim5AkonadiCalendar \
-cmake-KPim5IdentityManagement \
-cmake-KPim5Mime \
-cmake-Qt5PrintSupport \
-libKPim5CalendarSupport5"
+RDEPENDS:${PN} += "cmake-KF6Mime \
+cmake-KPim6AkonadiCalendar \
+cmake-KPim6IdentityManagementCore \
+cmake-Qt6PrintSupport \
+libKPim6CalendarSupport6"
 
 inherit rpm

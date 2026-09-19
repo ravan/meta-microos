@@ -3,10 +3,10 @@ DESCRIPTION = "Hiredis is a minimalistic C client library for the \
 Redis database."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.0"
+PV = "1.3.0"
 
-RPM_NAME = "hiredis-1.1.0-1.4.aarch64.rpm"
-RPM_HASH = "e5510cd6d5214cde7d1d48ac39078ad245affb4548366c9b356a751e05b5b1ee95b9fd9047e27e8defcf09cbe079a22f359d8e858b888939441756311caf6543"
+RPM_NAME = "hiredis-1.3.0-1.6.aarch64.rpm"
+RPM_HASH = "fefd93d202c67293b4fbd6d1ca6866c77054a4b133a0cd98d19afa9c1e864bfe4e6ed37acc59211501b100283cf83d867fd19ccd48c5ea4f21abd1eba012085f"
 
 RPROVIDES:${PN} += "hiredis"
 

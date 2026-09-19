@@ -8,10 +8,10 @@ movie again will resume at the same point it was left, and with the \
 same chosen audio track, subtitles and volume level."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.6.0"
+PV = "25.6.0"
 
-RPM_NAME = "smplayer-23.6.0-1.1.aarch64.rpm"
-RPM_HASH = "43aeed73bf4315d2b66ccee68106ef7aa4b6b460bdd3cbfc6cfe550f84d5f02f4adb7653fa75c1c7bbba99ba2381b6a33cb9e7cd6aed279fb0926b27fc8b864a"
+RPM_NAME = "smplayer-25.6.0-2.2.aarch64.rpm"
+RPM_HASH = "437c55b23a7d9394898de264646842f81def71c8e10f1b708c5f9d4922ac5c16f5622a9516dd4108bf396f63b87f37b00f166715ad9009a69d25584af50856b5"
 
 RPROVIDES:${PN} += "smplayer"
 
@@ -20,6 +20,7 @@ libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \
 libQt5Network.so.5 \
+libQt5Qml.so.5 \
 libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libX11.so.6 \

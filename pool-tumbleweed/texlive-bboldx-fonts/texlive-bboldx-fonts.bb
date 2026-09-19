@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-bboldx"
 DESCRIPTION = "The  separated fonts package for texlive-bboldx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.032svn65424"
+PV = "2026.226.1.032svn77682"
 
-RPM_NAME = "texlive-bboldx-fonts-2023.209.1.032svn65424-54.1.noarch.rpm"
-RPM_HASH = "6ff25700fb57b4298bd0afb19558e971a2463f1f041f7fc8bcf0ea76d7f76394ea48ab7316407824c78ac019e49eba397ce66c1b44f5207c13dfccb82a390183"
+RPM_NAME = "texlive-bboldx-fonts-2026.226.1.032svn77682-61.2.noarch.rpm"
+RPM_HASH = "c2ae3f21486a2f1bd482b722feabb74d1207e92ed220e281bc47acd7e4acdf092d842a152bfa368afbd989d63a5d70da7ad520f8658d42ab8eacda84e746606e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

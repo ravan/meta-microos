@@ -2,16 +2,19 @@ SUMMARY = "Simple on-screen Keyboard"
 DESCRIPTION = "Onboard is an onscreen keyboard useful for tablet PC users and for mobility impaired users."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.4.1"
+PV = "1.4.4.5"
 
-RPM_NAME = "onboard-1.4.1-7.7.aarch64.rpm"
-RPM_HASH = "fdebf77b93a57061c7a16b49ec3ca9221cf65ddfe55a717e4309047ec9fef5d2febc584d1668540973141119c2db96379adce7d9fd8d8462c549121ee758ce1e"
+RPM_NAME = "onboard-1.4.4.5-2.1.aarch64.rpm"
+RPM_HASH = "c9d06e704fdb399188328753c670ff14278ea3bc62bcdf43a812bb572523d57e2b45d761e9f336884a73deb2178630d081bc54a6d460ba2ba0bd360d0e13d455"
 
-RPROVIDES:${PN} += "onboard \
-python3.11dist-onboard \
+RPROVIDES:${PN} += "config-onboard \
+onboard \
+python3.13dist-onboard \
 python3dist-onboard"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/python3 \
+/usr/bin/python3.13 \
 dbus-1-python3 \
 gdk-pixbuf-loader-rsvg \
 gsettings-desktop-schemas \
@@ -40,6 +43,7 @@ python3-gobject-Gdk \
 python3-gobject-cairo \
 typelib-AppIndicator3 \
 typelib-Atspi \
+typelib-AyatanaAppIndicator3 \
 typelib-GLib \
 typelib-GObject \
 typelib-Gdk \
@@ -47,6 +51,7 @@ typelib-GdkPixbuf \
 typelib-GdkX11 \
 typelib-Gio \
 typelib-Gtk \
+typelib-GtkLayerShell \
 typelib-Pango \
 typelib-PangoCairo"
 

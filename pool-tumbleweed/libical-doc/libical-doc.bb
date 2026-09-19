@@ -5,10 +5,10 @@ parses iCal components and provides a C API for manipulating the \
 component properties, parameters, and subcomponents."
 LICENSE = "LGPL-2.1-only | MPL-2.0"
 
-PV = "3.0.16"
+PV = "3.0.20"
 
-RPM_NAME = "libical-doc-3.0.16-1.5.noarch.rpm"
-RPM_HASH = "0a82dfe2d276e9a65fa31e5e69c9c7117944c619fe2d02caa5941d79288f4e6ae61ecbca1c4d8622516d1a9fc177ddf4ce0389c66108d5e3fe30fd37529c536f"
+RPM_NAME = "libical-doc-3.0.20-1.6.noarch.rpm"
+RPM_HASH = "acdd4dca64a9bebd54d531d053a40b92aa86bcd4becd7e5f32296e9422b1ce056733658ef6b9dce9b04404d31daf4b883b038cc8b61f5856ea278a7d30269e20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libical-doc"

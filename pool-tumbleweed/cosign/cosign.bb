@@ -9,13 +9,13 @@ Cosign supports: \
 - Built-in binary transparency and timestamping service (Rekor)"
 LICENSE = "Apache-2.0"
 
-PV = "2.2.0"
+PV = "3.1.2"
 
-RPM_NAME = "cosign-2.2.0-1.1.aarch64.rpm"
-RPM_HASH = "bc4593f41e5ddba8c62473c3829de93fdd3d727f43bc2a797b6c5a103b28c43c9fda08d76a5e8886dfab7867451e0f3b471a780af8e74727d9e46bdb9a328c5f"
+RPM_NAME = "cosign-3.1.2-1.2.aarch64.rpm"
+RPM_HASH = "bb9db283599c1e2adf05972f420d8db5e4e2cc5e1fb4915dd061218305407deee8adf7ff21cc46200a54fdfcb5c184c653a921f1f1e3f7c2fe848a38813fa253"
 
 RPROVIDES:${PN} += "cosign"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "libfityk4-1.3.2-1.5.aarch64.rpm"
-RPM_HASH = "82fa179971c7cb00e2042698fa9ce059eaade2cc4415d20ea7739784f922dd6cc7ac4b32c35829fe90f3749927222d1674083edceab1bd5513b7a06d33258ec3"
+RPM_NAME = "libfityk4-1.3.2-2.6.aarch64.rpm"
+RPM_HASH = "a22eff5cf000c4023a5c3da11aeefb17c5a1e70eea1364f95a9792a18c2ed8b2661568b4142762952cfceb6d411e6a00154924da9e6aa6a8a6d32a95799e44e0"
 
 RPROVIDES:${PN} += "libfityk.so.4 \
 libfityk4"
@@ -18,7 +18,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 liblua5.4.so.5 \
 libm.so.6 \
-libnlopt.so.0 \
+libnlopt.so.1 \
 libstdc++.so.6 \
 libxy.so.3 \
 libz.so.1"

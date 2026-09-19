@@ -1,11 +1,11 @@
 SUMMARY = "MySpell an_ES Dictionary"
 DESCRIPTION = "Aragonese spelling dictionary."
-LICENSE = "AGPL-3.0-only & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & CC-BY-SA-1.0 & CC-BY-SA-3.0 & GFDL-1.1-only & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-only & LGPL-2.1-or-later & LGPL-3.0-only & LGPL-3.0-or-later & MPL-1.1"
+LICENSE = "AGPL-3.0-only & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & CC-BY-SA-1.0 & CC-BY-SA-3.0 & CC-BY-SA-4.0 & GFDL-1.1-only & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-only & LGPL-2.1-or-later & LGPL-3.0-only & LGPL-3.0-or-later & MPL-1.1"
 
-PV = "20221012"
+PV = "20240321"
 
-RPM_NAME = "myspell-an_ES-20221012-1.2.noarch.rpm"
-RPM_HASH = "822dd8e81955e34b336fe83bc2d4f1cdff4ac2d357ed6f1a3b319a06375ebb4154595edbbf594f0cd03c779f9653c0f1bee13107962a647c94d4f3a3a1e7be66"
+RPM_NAME = "myspell-an_ES-20240321-1.7.noarch.rpm"
+RPM_HASH = "b2329dc934890dd8d2ad3b9fcb825e6fb8991613dff345807708af8658028e375e766b85a7336a63379963ab7a488d706cdeccde7b6215525ecaf1cc0bf97c18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-libreoffice-an-ES \

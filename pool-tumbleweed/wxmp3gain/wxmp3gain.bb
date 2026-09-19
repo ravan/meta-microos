@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0"
 
-RPM_NAME = "wxmp3gain-4.0-1.24.aarch64.rpm"
-RPM_HASH = "d07aaba84d94f68b0945619cc11e5ed75e10b7de82bcfbd815a37a87bf89d656ad16bc26941f43a8ef7a4e8f66a649beace21bd76e070fe9bf5e622f74426282"
+RPM_NAME = "wxmp3gain-4.0-3.9.aarch64.rpm"
+RPM_HASH = "3fd3a19257745e7d9675bd1ac433804f455c88453b4b43737391e7e5b0457d0ce12d85eef3ef68b4d2c6e153661aa28b41821a4b63e0f546a2eae34041825c16"
 
 RPROVIDES:${PN} += "wxmp3gain"
 
@@ -14,9 +14,8 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.3.0.5 \
-libwx-gtk2u-adv-suse.so.3.0.5 \
-libwx-gtk2u-core-suse.so.3.0.5 \
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk2u-core-suse.so.16.0.0 \
 mp3gain"
 
 inherit rpm

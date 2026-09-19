@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.19"
 
-RPM_NAME = "enca-devel-1.19-2.4.aarch64.rpm"
-RPM_HASH = "433015f08ac03b632c524239455569888167a9219bc190c72ca3fd8e4b6da33760b6753d79a85fd8e890bfff295982b85ac62ca1c7ee2d93d95bda31b17598c4"
+RPM_NAME = "enca-devel-1.19-2.14.aarch64.rpm"
+RPM_HASH = "104a8b041f01142098f129e585806b4cde89f74df2da1d5cdf64a072aa8fe83457e6c17a2aff7d0dcf7d2621c84b01c84bf32ac9c66f49295ecfdcd3b555da11"
 
 RPROVIDES:${PN} += "enca-devel \
 pkgconfig-enca"

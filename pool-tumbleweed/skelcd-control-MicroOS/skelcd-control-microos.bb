@@ -2,20 +2,19 @@ SUMMARY = "The MicroOS control file needed for installation"
 DESCRIPTION = "The package contains the MicroOS control file needed for installation."
 LICENSE = "MIT"
 
-PV = "20230125"
+PV = "20260814"
 
-RPM_NAME = "skelcd-control-MicroOS-20230125-1.2.aarch64.rpm"
-RPM_HASH = "8f61721c710730c207b1df43d274158559ffd62371f61be43f843f38e6500d135352cd1e69c72c4c3603cc32353112d956f4eb38b0804b3243d0e3cb71afff74"
+RPM_NAME = "skelcd-control-MicroOS-20260814-1.1.aarch64.rpm"
+RPM_HASH = "39571292a987446fd408b0c6824ca6c4b7431723037bbd97f0b1e3d938234aca47c32e937e8434ebdf90a262a6fd72b8f28cd7822c3a77a43b24845e58f3b156"
 
 RPROVIDES:${PN} += "product-control \
 skelcd-control-MicroOS"
 
 RDEPENDS:${PN} += "autoyast2 \
 kdump \
-rubygem-ruby-3.2.0-byebug \
+rubygem-ruby-4.0.0-byebug \
 yast2-add-on \
 yast2-buildtools \
-yast2-caasp \
 yast2-devtools \
 yast2-fcoe-client \
 yast2-firewall \

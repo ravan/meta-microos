@@ -11,15 +11,16 @@ parts into permanent support packages), and the current \
 testphase bundle will be removed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.95xsvn66532"
+PV = "2026.226.0.0.96ysvn77467"
 
-RPM_NAME = "texlive-pdfmanagement-testphase-2023.209.0.0.95xsvn66532-52.1.noarch.rpm"
-RPM_HASH = "a01704cd4ff7f803aa82fc7d19bb2b24c0ca51f5d78f9b76f711ebc8037ef62158a5b030f9f9b4fbc2017b6fae91d74d52ce6e93a55f14885b7abd73114ac383"
+RPM_NAME = "texlive-pdfmanagement-testphase-2026.226.0.0.96ysvn77467-58.2.noarch.rpm"
+RPM_HASH = "04c8769f5e6079074b878b124664249a1a53c7c5f5da0b49dc5abdf5b4677b4df5f6c2226afd30c2dcb1973a086579ef4e54c396ebc0987e85e25e738a9a1ded"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-color-ltx.sty \
 tex-colorspace-patches-tmp-ltx.sty \
 tex-hgeneric-testphase.def \
+tex-hgeneric.def \
 tex-hyperref-colorschemes.def \
 tex-l3backend-testphase-dvipdfmx.def \
 tex-l3backend-testphase-dvips.def \
@@ -28,10 +29,10 @@ tex-l3backend-testphase-luatex.def \
 tex-l3backend-testphase-pdftex.def \
 tex-l3backend-testphase-xetex.def \
 tex-l3pdffield-testphase.sty \
-tex-l3ref-tmp.sty \
-tex-output-patches-tmp-ltx.sty \
+tex-l3pdffield.sty \
 tex-pdfmanagement-firstaid.sty \
 tex-pdfmanagement-testphase.sty \
+tex-pdfmanagement.sty \
 tex-xcolor-patches-tmp-ltx.sty \
 texlive-pdfmanagement-testphase"
 

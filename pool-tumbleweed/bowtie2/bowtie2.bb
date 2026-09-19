@@ -8,10 +8,10 @@ human genome, its memory footprint is typically around 3.2 GB. Bowtie 2 \
 supports gapped, local, and paired-end alignment modes."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.5.1"
+PV = "2.5.4"
 
-RPM_NAME = "bowtie2-2.5.1-1.4.aarch64.rpm"
-RPM_HASH = "bff9789ddb9522a9604f568c79f306f9af82a8d51214e1da6f7e10f396e2243e45ad8822cab673ccd5534380f0442af53c835deab224b6167fe7f9dc5f39978c"
+RPM_NAME = "bowtie2-2.5.4-2.7.aarch64.rpm"
+RPM_HASH = "8ec31e363ae2dacddc60cdc5b72e2b5c18ffee29e8121d22c4f4b3ae3d81efd155a43a47a7d06862d965a4b27d96bd5125f21d0dd8e109ae3cecf4bcc25432c8"
 
 RPROVIDES:${PN} += "bowtie2"
 

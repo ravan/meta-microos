@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sanskrit"
 DESCRIPTION = "This package includes the documentation for texlive-sanskrit"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2.4svn64502"
+PV = "2026.226.2.2.4_bsvn76869"
 
-RPM_NAME = "texlive-sanskrit-doc-2023.209.2.2.4svn64502-54.1.noarch.rpm"
-RPM_HASH = "c2e6de763cf394fbd8c1bb63d05272ee5fcb722f0a04662d5162ca7868fa2656661c65e80de7a24af8ec46b3224c83c0775a729a1c43e589a80071f8e8d3017d"
+RPM_NAME = "texlive-sanskrit-doc-2026.226.2.2.4_bsvn76869-60.2.noarch.rpm"
+RPM_HASH = "c29e03af627d3b17895650534848c185e5cf575bc3386ee4a501990b09689fe2739d4cd3036119bf1b11c8918eb7fa34eaea5e700739c51ebb5445b6d24aef8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sanskrit-doc"

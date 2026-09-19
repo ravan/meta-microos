@@ -3,10 +3,10 @@ DESCRIPTION = "xgamma allows X users to query and alter the gamma correction of 
 monitor via the X video mode extension (XFree86-VidModeExtension)."
 LICENSE = "MIT"
 
-PV = "1.0.7"
+PV = "1.0.8"
 
-RPM_NAME = "xgamma-1.0.7-1.3.aarch64.rpm"
-RPM_HASH = "6643c4845e17484e7f7efe2b44d8122982536f3efd830bc77f98d9e23a334db3afeab362f500f373c708ffd9f7975db6ec43c73bc524cd9a782ec85e272ac61a"
+RPM_NAME = "xgamma-1.0.8-1.4.aarch64.rpm"
+RPM_HASH = "001f66e434bc03d4c9d704ec4cdfddc03e7db8080205e7b660d8030f9bccc1fee38803e7918cb5c57bf5137b18f4a12a379fe3f8ecbc66bf41acf69d9b8f86a1"
 
 RPROVIDES:${PN} += "xgamma"
 

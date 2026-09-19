@@ -6,15 +6,15 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.1.11"
 
-RPM_NAME = "arandr-0.1.11-1.3.noarch.rpm"
-RPM_HASH = "f0cdd6ae3128d27149d59803430fd51a91ec55ff0a6e07be347637d5a9f880a8040d9732ade4568cf71a0486092c15a6908c1b14300cb630b9a0a76963d3384c"
+RPM_NAME = "arandr-0.1.11-5.5.noarch.rpm"
+RPM_HASH = "af215212e2013ff11f0c8c9b56a99857ed13ec07fe52c6e7ccc40b5a390f2f13abe440644f7d658a76e1d639c5d35357ab29a090970f8d479b69ee7530d0feb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arandr \
-python3.11dist-arandr \
+python3.13dist-arandr \
 python3dist-arandr"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-gobject \
 python3-gobject-Gdk \
@@ -25,6 +25,6 @@ typelib-Gdk \
 typelib-Gtk \
 typelib-Pango \
 typelib-PangoCairo \
-xrandr"
+xorg-x11"
 
 inherit rpm

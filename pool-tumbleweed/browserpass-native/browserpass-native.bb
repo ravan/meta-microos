@@ -6,11 +6,11 @@ LICENSE = "ISC"
 
 PV = "3.1.0"
 
-RPM_NAME = "browserpass-native-3.1.0-1.5.aarch64.rpm"
-RPM_HASH = "d88da3de19131197a4ff4ff32d424dcc6465f86fb40a17f005ac2c476e2c3e58147be0afe1e19b439e09e9576fb94d6b636dc7ef9646dd66a326177cc3307547"
+RPM_NAME = "browserpass-native-3.1.0-3.8.aarch64.rpm"
+RPM_HASH = "cd58053da143a76338e827b46d8890a2fedbba07be4e07b180394cd54476cc91333b8a82361b1fe9eb776f489ddd104165833d2ab2116b364a29b3d4c73163fe"
 
 RPROVIDES:${PN} += "browserpass-native"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

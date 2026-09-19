@@ -6,27 +6,43 @@ This package contains all files needed to create projects that use the \
 mpich version of ADIOS2."
 LICENSE = "Apache-2.0"
 
-PV = "2.9.1"
+PV = "2.12.0"
 
-RPM_NAME = "adios2-mpich-devel-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "99fd738d52a36b47a1a6e4f35573189169c8acc79be4efbd59a02eb811227af8a9432369f41d2ee4821ddca33bd00cc3cc0aca04785375e21c60b49361076b15"
+RPM_NAME = "adios2-mpich-devel-2.12.0-1.2.aarch64.rpm"
+RPM_HASH = "0909d00cb18d076c4c7542fbc1d4baf07b638103f30edcd69e13b0ff0e965eca68dba1c5b70f06adcde6e6da59f4c3d5512f76168e8bab30c756626fde9e413b"
 
-RPROVIDES:${PN} += "adios2-mpich-devel"
+RPROVIDES:${PN} += "adios2-mpich-devel \
+libEncryptionOperator.so"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
-libadios2-atl.so.2.9 \
-libadios2-core-mpi.so.2.9 \
-libadios2-core.so.2.9 \
-libadios2-cxx11-mpi.so.2.9 \
-libadios2-cxx11.so.2.9 \
-libadios2-evpath.so.2.9 \
-libadios2-ffs.so.2.9 \
-libadios2-mpich-2-9 \
+libadios2-atl.so.2.12 \
+libadios2-core-mpi.so.2.12 \
+libadios2-core.so.2.12 \
+libadios2-cxx-mpi.so.2.12 \
+libadios2-cxx.so.2.12 \
+libadios2-evpath.so.2.12 \
+libadios2-ffs.so.2.12 \
+libadios2-mpich-2-12 \
+libbz2-devel \
 libc.so.6 \
+libffi-devel \
 libgcc-s.so.1 \
+liblz4-devel \
 libm.so.6 \
 libmpi.so.12 \
-libstdc++.so.6"
+libpng16-devel \
+libsodium.so.26 \
+libstdc++.so.6 \
+libzfp.so.1 \
+libzstd-devel \
+mpich-devel \
+python3-devel \
+python3-mpi4py-devel \
+python3-numpy-devel \
+zeromq-devel \
+zfp-devel \
+zlib-devel"
 
 inherit rpm

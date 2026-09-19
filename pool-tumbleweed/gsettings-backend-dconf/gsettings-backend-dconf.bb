@@ -7,10 +7,10 @@ This package provides a GSettings backend that uses dconf to store \
 the settings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.40.0"
+PV = "0.49.0"
 
-RPM_NAME = "gsettings-backend-dconf-0.40.0-3.4.aarch64.rpm"
-RPM_HASH = "62dc2d405cf8445676ac6b34e1869e0acb65defbfe02cf0c198f8703bcaf48d7f35263329bac09535142810aeb9702bb7487b69e3f7e039a8cabf2520185e744"
+RPM_NAME = "gsettings-backend-dconf-0.49.0-1.5.aarch64.rpm"
+RPM_HASH = "17764b03d5726b85b7af0c34f5d3aff401832c5551766d1f63f49ae06bba07cde7393ac0056f077d469fee88db62c37ea785c9dc89d623dcd1032af13d12380e"
 
 RPROVIDES:${PN} += "gsettings-backend-dconf \
 libdconfsettings.so"

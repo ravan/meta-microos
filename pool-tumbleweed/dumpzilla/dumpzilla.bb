@@ -25,8 +25,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.0+git.20210311"
 
-RPM_NAME = "dumpzilla-0.0.0+git.20210311-1.2.noarch.rpm"
-RPM_HASH = "657571437b1d0b9fb71b902ef7abc8eb16ffd8e1e71a070021107388cbd853eb1d0887ea8b7ada1383e5eec43b7cdbd4cd88e6f1dd7dee6b94f13137a7aace37"
+RPM_NAME = "dumpzilla-0.0.0+git.20210311-1.10.noarch.rpm"
+RPM_HASH = "a24bc0296ceb6fcf4704753808193dfeda324dbbd1670ac28a5a165517a22a96ea8a2f033ce42581ef01f9b750c498491eafd36e9675f15f484d7373e3b9ec19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dumpzilla"

@@ -2,22 +2,22 @@ SUMMARY = "Mesa vulkan driver for Broadcom"
 DESCRIPTION = "This package contains the Vulkan parts for Mesa."
 LICENSE = "MIT"
 
-PV = "23.1.7"
+PV = "26.2.2"
 
-RPM_NAME = "libvulkan_broadcom-23.1.7-357.1.aarch64.rpm"
-RPM_HASH = "7620a10f5634bc59b375e4baa9c631dc25d009ba46037c1f267badef29de477b49d6dfbfedf33e91b8d533cc26ccd5ec77cff657ad2be5cdc00c9f1cfee47853"
+RPM_NAME = "libvulkan_broadcom-26.2.2-2.1.aarch64.rpm"
+RPM_HASH = "df195cc0ff7f4037803d2fa50e8577b4e7aea5f8de94db422746064bc99c24a1b2133ea82fd0959838f8ad6efcafc606779bb3c0bb9364117dfdcb7faab08f94"
 
 RPROVIDES:${PN} += "libvulkan-broadcom \
 libvulkan-broadcom.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSPIRV-Tools-2026.3~rc1.so \
 libX11-xcb.so.1 \
 libc.so.6 \
+libdisplay-info.so.3 \
 libdrm.so.2 \
 libexpat.so.1 \
-libgcc-s.so.1 \
 libm.so.6 \
-libstdc++.so.6 \
 libwayland-client.so.0 \
 libxcb-dri3.so.0 \
 libxcb-present.so.0 \

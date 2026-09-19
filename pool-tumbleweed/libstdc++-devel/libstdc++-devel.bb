@@ -2,13 +2,13 @@ SUMMARY = "The system GNU C++ development files"
 DESCRIPTION = "The system GNU C++ development files."
 LICENSE = "GPL-3.0-only-with-GCC-exception-3.1"
 
-PV = "13"
+PV = "16"
 
-RPM_NAME = "libstdc++-devel-13-1.5.aarch64.rpm"
-RPM_HASH = "3e8e8467fb17c8427fbdfe89e339f8e16a2e5eb7dd5c051c8f5ad6d49c4ebeac7e3e8dec6cc8e09390078504e5c5e71263c395fa7946cb43dc6290a1f2ab878b"
+RPM_NAME = "libstdc++-devel-16-1.1.aarch64.rpm"
+RPM_HASH = "358e007e03d8986cfd74c42278b0654c0ebb9687b877eda8fbe325bccda6a98361b8d8fd4ba9e31146bc3bbb27d6f1371420ba77ac9c837a6f20e88e946b8c12"
 
 RPROVIDES:${PN} += "libstdc++-devel"
 
-RDEPENDS:${PN} += "libstdc++6-devel-gcc13"
+RDEPENDS:${PN} += "libstdc++6-devel-gcc16"
 
 inherit rpm

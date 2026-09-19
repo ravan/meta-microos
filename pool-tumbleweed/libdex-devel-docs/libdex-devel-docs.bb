@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains developer documentation for writing \
 applications with libdex."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.2.0"
+PV = "1.1.0"
 
-RPM_NAME = "libdex-devel-docs-0.2.0-1.1.noarch.rpm"
-RPM_HASH = "cb60015a64a1a5e0c27eae67c1255916c15c7dacc5bacfca270bc359912410bd2f392d278d492357eaade8e0c6dfcdc4e54c031c5899582210249fd096068eb6"
+RPM_NAME = "libdex-devel-docs-1.1.0-1.4.noarch.rpm"
+RPM_HASH = "be1de139691f3e6be6606cc210c043b8c4c74aeff966274d8c30526333e0ada75fb53af66ef17c56f839a1ef18ab9de8e47d5111a0d647ddb5297e1295cc52cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdex-devel-docs"

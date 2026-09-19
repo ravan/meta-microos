@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.0"
 
-RPM_NAME = "pam_passwdqc-1.4.0-2.8.aarch64.rpm"
-RPM_HASH = "45f4273817012d4f78251c8c8c7d86fb6890ac61d9543349d9aca041862783277f22667eac1f9d26987ba358433ab69485cf35db2006097bdc17334da3507a4a"
+RPM_NAME = "pam_passwdqc-1.4.0-2.18.aarch64.rpm"
+RPM_HASH = "346a6547f0d2cbe78f4f9db9fd5a79842f90e989ae5568fb1f050e6746a96834c2e62b5bf260504479fc31845296b73707a32462359880c5e514c7c79defb2bc"
 
 RPROVIDES:${PN} += "pam-modules-/usr/lib64/security/pam-passwdqc.so \
 pam-passwdqc"

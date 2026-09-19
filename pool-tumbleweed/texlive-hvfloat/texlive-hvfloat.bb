@@ -10,10 +10,10 @@ and rotated. Setting nonFloat=true results in placing the float \
 here."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.45svn65671"
+PV = "2026.226.2.56svn77682"
 
-RPM_NAME = "texlive-hvfloat-2023.209.2.45svn65671-54.1.noarch.rpm"
-RPM_HASH = "ff4c8618b2cb1c504323b518dcb45aaffb2ad375e5963b773142ae4579ddc0bdb9b81b44f36e7b6afd6ce3d6eb18e7662bc14109816e4619b8cc55106fc48ce6"
+RPM_NAME = "texlive-hvfloat-2026.226.2.56svn77682-60.2.noarch.rpm"
+RPM_HASH = "76efaf6c27909574eba48fa879c886e92a0abdc382c53c64272311a7e23d1a7d8842d871207570dfbc6e3c1ed30ac5af19300ea4ccd8caf8c6c8c58751ea7bca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hvfloat-fps.sty \
@@ -31,6 +31,7 @@ tex-atbegshi.sty \
 tex-caption.sty \
 tex-etoolbox.sty \
 tex-expl3.sty \
+tex-fbox.sty \
 tex-graphicx.sty \
 tex-hyperref.sty \
 tex-ifoddpage.sty \
@@ -42,6 +43,7 @@ tex-subcaption.sty \
 tex-trimclip.sty \
 tex-varwidth.sty \
 tex-xkeyval.sty \
+tex-zref-savepos.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

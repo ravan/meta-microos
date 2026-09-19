@@ -11,10 +11,10 @@ attempts to explain all of the possibilities in a readable way, \
 with many examples."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn56734"
+PV = "2026.226.1.0.0svn56734"
 
-RPM_NAME = "texlive-skills-2023.209.1.0.0svn56734-58.1.noarch.rpm"
-RPM_HASH = "22255678c1a6aa043aef576bb990c0d6e260c8403b587d86b3064428700579ba40bac646f68568ddf8eced205ad33f04d6611575c54db48344f6443fdaed332e"
+RPM_NAME = "texlive-skills-2026.226.1.0.0svn56734-64.2.noarch.rpm"
+RPM_HASH = "4cf6562e64c35d803b5e9428e1511da6ed629493ae91eb8af8a0f6aaaa72c661ead39b2902aa2b04ad75711884110c2b30223254be8dcc1e4a81468c9ba0d3e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skills.sty \

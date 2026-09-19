@@ -9,20 +9,21 @@ virtualization. \
 This package provides arm emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-arm-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "efd8e18f4e6e351824195038129986d717414f079c453a915af394230b0c1e753b91531243767bfc368e12e616ba972660fb7e664f4175d1ba03c8104cd7156b"
+RPM_NAME = "qemu-arm-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "808ddb6a7fb907d45924de380d34c256c88c431b4802a9f1eac74aeb50e90fed6770ae1ae2ec344fb64407f5e83ebf40c1d87504a80e06bf4a4ed0b26891a08e"
 
 RPROVIDES:${PN} += "qemu-arm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ipxe-qemu \
+ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libbpf.so.1 \
 libc.so.6 \
-libcapstone.so.4 \
+libcapstone.so.5 \
 libfdt.so.1 \
-libgcc-s.so.1 \
+libfuse3.so.4 \
 libgcrypt.so.20 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
@@ -31,6 +32,7 @@ libgnutls.so.30 \
 libgobject-2.0.so.0 \
 libibverbs.so.1 \
 libjpeg.so.8 \
+libkeyutils.so.1 \
 liblzo2.so.2 \
 libm.so.6 \
 libnuma.so.1 \
@@ -45,6 +47,7 @@ libsnappy.so.1 \
 libudev.so.1 \
 liburing.so.2 \
 libvdeplug.so.3 \
+libxdp.so.1 \
 libz.so.1 \
 libzstd.so.1 \
 qemu"

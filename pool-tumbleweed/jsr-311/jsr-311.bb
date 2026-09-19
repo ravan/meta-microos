@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "1.1.1"
 
-RPM_NAME = "jsr-311-1.1.1-3.11.noarch.rpm"
-RPM_HASH = "26422d301b9a2af8fbc4f7e5af912351dd93d6b8d45537407df41bfc1f492d2580a644f8b869fc14b2ed5e082d77138e8a745bfe7b05bf4d326a32415a08dd7e"
+RPM_NAME = "jsr-311-1.1.1-4.10.noarch.rpm"
+RPM_HASH = "f73ff482d5b8bf4057eeee8afc1e401e991c80131f1ad7de808866d3984e38e15ce30722d030faad1c07ef0babb67ce596cc2f9c5d32b35aafb6db3be93a757c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsr-311 \

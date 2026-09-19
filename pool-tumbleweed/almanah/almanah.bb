@@ -4,12 +4,12 @@ personal diary. It's got good editing abilities, including text formatting \
 and printing. Evolution tasks and appointments will be listed to ease the \
 creation of diary entries related to them. At the same time, you can create \
 diary entries using multiple events."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "0.12.3"
+PV = "0.12.4"
 
-RPM_NAME = "almanah-0.12.3-2.9.aarch64.rpm"
-RPM_HASH = "da387647f26dabe53c296656036edad0c030dd0b5d570205a33291cf0e5a7101f38280cd22196eb43d04eebd2b6a78269e88043e46719b0b43e82b37fcefc0da"
+RPM_NAME = "almanah-0.12.4-2.5.aarch64.rpm"
+RPM_HASH = "4116e921fb4cb31e2d168c4f82a9b8991cd50c2bd9a916651e374c3710c38fa92b5b4c30a83b29f629e5e25d22146df64af148804096333f5b7e5125c54666a8"
 
 RPROVIDES:${PN} += "almanah"
 
@@ -19,16 +19,16 @@ libatk-1.0.so.0 \
 libc.so.6 \
 libcairo.so.2 \
 libcryptui.so.0 \
-libecal-2.0.so.2 \
+libecal-2.0.so.3 \
 libedataserver-1.2.so.27 \
-libgcr-base-3.so.1 \
+libgcr-4.so.4 \
 libgdk-3.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgpgme.so.11 \
+libgpgme.so.45 \
 libgtk-3.so.0 \
-libgtksourceview-3.0.so.1 \
+libgtksourceview-4.so.0 \
 libgtkspell3-3.so.0 \
 libical-glib.so.3 \
 libpango-1.0.so.0 \

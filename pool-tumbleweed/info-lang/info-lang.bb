@@ -2,10 +2,10 @@ SUMMARY = "Translations for package info"
 DESCRIPTION = "Provides translations for the 'info' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.0.3"
+PV = "7.3"
 
-RPM_NAME = "info-lang-7.0.3-1.4.noarch.rpm"
-RPM_HASH = "5dd21913795e7d72bc96b3680024ae3863fce9ba2def5495a5e6a9010789477003356187b1db03f13e202e3262b43802b7d5a2f67cbc0db57a3791103f3340f0"
+RPM_NAME = "info-lang-7.3-1.5.noarch.rpm"
+RPM_HASH = "71ae64ceca391bb8d6f37556b837ae30786096364ee55a920361f4717b601d719e818e118adc25ce0ae619c84d6fca9459dcc6f782521b31bb6165ca57f42295"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "info-lang \
@@ -25,6 +25,7 @@ locale-info-hu \
 locale-info-id \
 locale-info-it \
 locale-info-ja \
+locale-info-ka \
 locale-info-nb \
 locale-info-nl \
 locale-info-pl \

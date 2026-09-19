@@ -3,10 +3,10 @@ DESCRIPTION = "Hyphenation patterns for Hungarian in T1/EC and UTF-8 \
 encodings."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-hungarian-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "34174c02bbbee711461b1e50895f9fb9236b91e7b1f63625772b06f72c1d9d15d99f4c8de5e554848baed91d30bbeef48b4cb58732a8cd5090d2b3f486542458"
+RPM_NAME = "texlive-hyphen-hungarian-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "872ef3e47878d01433a1a1469a452ea7daf625f10b12cba8e51760872b9a2306bb96913dda687a91f842774cd2114267a872623779ef500908107fd8ffcb9236"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-hu.ec.tex \

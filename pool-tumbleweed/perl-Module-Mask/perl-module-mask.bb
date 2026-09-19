@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.06"
 
-RPM_NAME = "perl-Module-Mask-0.06-1.10.noarch.rpm"
-RPM_HASH = "dbdc9f3a773ec1c57e90203c0a92bdc3a628ae4e6272a226ed8ad06fe9c98b969cb633082f7f7a9aeab79c9879afbb8c5287f230cd2f0fe8c8335a7463596fcc"
+RPM_NAME = "perl-Module-Mask-0.06-1.24.noarch.rpm"
+RPM_HASH = "e4d239cc9ee4d84eeaa2f5943a57b1efb238181f2a83f316598036f1e6861cf3a6a144c90372120fccfc279f7f5d83152ba7d40a9ff104c75b498a86a984534e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Mask \
 perl-Module-Mask"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Module--Util"
 
 inherit rpm

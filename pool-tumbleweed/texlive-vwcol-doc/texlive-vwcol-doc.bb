@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-vwcol"
 DESCRIPTION = "This package includes the documentation for texlive-vwcol"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn36254"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-vwcol-doc-2023.209.0.0.2svn36254-54.1.noarch.rpm"
-RPM_HASH = "6e6071ce6736faedc5b403300235e026e16d95fd69163d66c4ce655c1a48cba796184ae9e7230a44c9813b09e78bc29f517609ed56541b4ad9d1d804e656686a"
+RPM_NAME = "texlive-vwcol-doc-2026.226.0.0.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "b790623b8decf6bce95f4e066070590a37398931e7700eae2b933f8dacbf875843c7025d584273250e42919560a0086720b7805d748cf8ea7fb33d2a4ab2b7a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vwcol-doc"

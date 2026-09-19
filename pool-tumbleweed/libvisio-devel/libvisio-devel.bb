@@ -5,10 +5,10 @@ cross-platform, at the moment it can be build on Microsoft Windows and Linux. \
 This package contains the libvisio development files."
 LICENSE = "MPL-2.0"
 
-PV = "0.1.7"
+PV = "0.1.11"
 
-RPM_NAME = "libvisio-devel-0.1.7-1.27.aarch64.rpm"
-RPM_HASH = "7d0f45440bad6ac5292c8cd762552bfbd1d1caf99fea451d9390ca28c27ccc74be37dd418efb6e956ad8fa3ae8cd479890340a07db9dc238e13fdaea04015a03"
+RPM_NAME = "libvisio-devel-0.1.11-1.3.aarch64.rpm"
+RPM_HASH = "9767142915913802dd5b9ce86a5832ef8ea9e7fffdcb26093fa18188c298969b746544c0cda453c9a63cb53b3b8007ef9793f9e78042aaccdf66d92e33886ac2"
 
 RPROVIDES:${PN} += "libvisio-devel \
 pkgconfig-libvisio-0.1"

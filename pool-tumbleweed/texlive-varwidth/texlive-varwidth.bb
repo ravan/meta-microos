@@ -4,10 +4,10 @@ but the specified width is just a maximum value -- the box may \
 get a narrower 'natural' width."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.92svn24104"
+PV = "2026.226.0.0.92svn77682"
 
-RPM_NAME = "texlive-varwidth-2023.209.0.0.92svn24104-54.1.noarch.rpm"
-RPM_HASH = "ba41771d272a49492dd694d268bfc8ec887368943307b6d0f11dde968e40c929732cf6fadb9c9f8cad565bda75904cc7d4ca2b2eb97f284ebd5e7e928dd046cb"
+RPM_NAME = "texlive-varwidth-2026.226.0.0.92svn77682-60.2.noarch.rpm"
+RPM_HASH = "ce794911521938c14d0a88f02e32719b9a575980c6a00ee46becd84f3563dbd87e5e69e9e92c117bc06d440ef204ed0019b7462e4da2b15bb97643b206ad5cd3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-varwidth.sty \

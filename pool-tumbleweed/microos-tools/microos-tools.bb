@@ -2,16 +2,18 @@ SUMMARY = "Files and Scripts for openSUSE MicroOS"
 DESCRIPTION = "Files, scripts and directories for openSUSE MicroOS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.21+git0"
+PV = "4.0+git29"
 
-RPM_NAME = "microos-tools-2.21+git0-2.1.aarch64.rpm"
-RPM_HASH = "f257d44ef6236e66adeee9caea0dff28b9475bd6487ae2d2b9c8d1e14563143a76973da5c53bf2a2600a5ce6dd08abd990e2b3b8e987544e9195f75675514e1e"
+RPM_NAME = "microos-tools-4.0+git29-1.1.aarch64.rpm"
+RPM_HASH = "d0c1deecbd93bd4cd2d8adc34c29e1553aacc0f542e03388e9ae3dae1a9914cfb21967e58984b79dc55ec509a22bd121fa01dbca761921cbabd4cd1831e58a86"
 
 RPROVIDES:${PN} += "config-microos-tools \
 microos-tools"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/sh \
-read-only-root-fs"
+RDEPENDS:${PN} += "/usr/bin/sh \
+man-online \
+read-only-root-fs \
+selinux-autorelabel \
+zypp-single-rpmtrans"
 
 inherit rpm

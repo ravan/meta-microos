@@ -13,10 +13,10 @@ Other tools in the xa package are: \
  * uncpk    - a c64 cpk archive manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.3.14"
+PV = "2.4.1"
 
-RPM_NAME = "xa-2.3.14-1.2.aarch64.rpm"
-RPM_HASH = "e473fcf72d7e228b86b8431e8acd4e080ce1fff36762b4e76c1cdb62a27f92dabbca38ba8a59732a3b5ce4dcf14a3fbc9b14dd8a8747e6ffd0345cf345fe348f"
+RPM_NAME = "xa-2.4.1-1.9.aarch64.rpm"
+RPM_HASH = "b050dbf06fff8d803e236ec5c308190b2ed4aa1f77e4559eb845903caaf19dcaf82f35c6b99b5c1fb8fc4f397a3ccf1eddf9cd21f808afabdb649893473d0ad5"
 
 RPROVIDES:${PN} += "xa"
 

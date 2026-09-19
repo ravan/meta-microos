@@ -2,16 +2,17 @@ SUMMARY = "Translations for package ktimer"
 DESCRIPTION = "Provides translations for the 'ktimer' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ktimer-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "4c3094718014bc0de0dea4b2422fbe0ef6e4d32747efef8616186919a613ef5327844ff85c0f565550489c55140c0a68ae996b0ae6cf35721085b9fdcf2f5d03"
+RPM_NAME = "ktimer-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "cf52f0316bfae4a2ea8c1bb35871a388bba9791273aa6fde10a740600706380ebf2a8246b5bdbd60d7f8f18704c299e1b39a4a87e661bfc8e8281adea6775bc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktimer-lang \
 ktimer-lang-all \
 locale-ktimer-af \
 locale-ktimer-ar \
+locale-ktimer-ast \
 locale-ktimer-be \
 locale-ktimer-bg \
 locale-ktimer-br \

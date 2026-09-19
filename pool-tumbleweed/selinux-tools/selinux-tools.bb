@@ -6,12 +6,12 @@ Security. \
  \
 This subpackage contains utilities to inspect and administer the \
 system's SELinux state."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "selinux-tools-3.5-4.1.aarch64.rpm"
-RPM_HASH = "34fa4faf76386d947a622147d600ac054ebab2f9cb08caf9e593823bef8baf96b822a945b0da4b9aa4c3b9f3e03e05b5c7226f57b3809b078690db6363bdeda7"
+RPM_NAME = "selinux-tools-3.11-2.1.aarch64.rpm"
+RPM_HASH = "426f349fa4fb9e056595cd9435bc3c68bb16a35e38dbfff94164d244252eb1fe7745186c1348b2449da1d7787e42c016d0a68880b5f2ee5bdde8e33420b4ee3e"
 
 RPROVIDES:${PN} += "libselinux-utils \
 selinux-tools"

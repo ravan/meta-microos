@@ -2,17 +2,18 @@ SUMMARY = "Haskell filepath-bytestring profiling library"
 DESCRIPTION = "This package provides the Haskell filepath-bytestring profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.2.1.13"
+PV = "1.5.2.0.5"
 
-RPM_NAME = "ghc-filepath-bytestring-prof-1.4.2.1.13-1.5.aarch64.rpm"
-RPM_HASH = "03e3904dc4e75f8034fcfd1dec28557635f9ef22ba9563c20ab9eab82c2e47f175d5330ed9f5b90c31f6ddc32f2ddf42d8d90279f5a19d3ff4a4025a51e3867f"
+RPM_NAME = "ghc-filepath-bytestring-prof-1.5.2.0.5-1.3.aarch64.rpm"
+RPM_HASH = "cf722c2e03e12448d4dbd385222c266894709e7df9224b5e0a024f9128a5920677a4e881df8373c3239b5811bdad6bcd4e01fcc4290536d5c06ed12338e5d38a"
 
 RPROVIDES:${PN} += "ghc-filepath-bytestring-prof \
-ghc-prof-filepath-bytestring-1.4.2.1.13-KgttGjs0pYw2aEgCzIFOnB"
+ghc-prof-filepath-bytestring-1.5.2.0.5-91PzjYWe6JYJhPT4RGVSOc"
 
 RDEPENDS:${PN} += "ghc-filepath-bytestring-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-unix-2.7.3"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-unix-2.8.8.0-178a"
 
 inherit rpm

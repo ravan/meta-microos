@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains header files, and libraries needed to devel
 application that use libtins."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.4"
+PV = "4.6"
 
-RPM_NAME = "libtins-devel-4.4-2.2.aarch64.rpm"
-RPM_HASH = "bb4c1412c6b3611d3aabbb90f50c958bc52d2ba7ff56296b178c1ea657f19477e09b6e4b2aa35812049ecc5bedc47c3937eca0e7b835c93f8a400590164e0224"
+RPM_NAME = "libtins-devel-4.6-1.1.aarch64.rpm"
+RPM_HASH = "7e21ed2153b026e53fcd3376e3cdd57cbe0eb6020b7572ffe57ff540aa8ec16f03fd3412644dea88ddf380847f4730f81e64b62dc8f87c438b860f40b21e3a4c"
 
 RPROVIDES:${PN} += "cmake-libtins \
 libtins-devel \
@@ -14,6 +14,6 @@ pkgconfig-libtins"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpcap-devel \
-libtins4-4"
+libtins4-6"
 
 inherit rpm

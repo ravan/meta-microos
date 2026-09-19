@@ -4,10 +4,10 @@ output but with pretty 'syntax' highlighting. Colour schemes can be \
 customized."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.21"
+PV = "1.0.22"
 
-RPM_NAME = "colordiff-1.0.21-1.2.noarch.rpm"
-RPM_HASH = "51caef57d096c5ed41cd545693e03a23a41ebb0081e07243445341940b38548da5f8ff40a29f58d5ee8fab3dbde60c56e1cbf11eab40127c128f0b46f2076e3b"
+RPM_NAME = "colordiff-1.0.22-1.1.noarch.rpm"
+RPM_HASH = "e68846ef018aeac5245184734ff62eff9023c4655d85c5aa6533c0645aecf9fd45edd56f2bf4e36ad9c5aee03ce1fef2a7826f15ba4a295aab976efa054c336f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colordiff \

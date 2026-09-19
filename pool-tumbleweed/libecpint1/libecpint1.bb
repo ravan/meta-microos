@@ -5,10 +5,10 @@ code and Gauss-Chebyshev quadrature. It is designed to be standalone and \
 generic."
 LICENSE = "MIT"
 
-PV = "1.0.7"
+PV = "v1.0.7+git20230218.8e788d4"
 
-RPM_NAME = "libecpint1-1.0.7-2.11.aarch64.rpm"
-RPM_HASH = "31c64d989db3d3b690e9683a375cb6e7705fa3bbbe7eaa40377d2369080c44870ac53fc8368c77636f85a26211d4ff9e8bd131a87dd2c18f24a4ec07eba95846"
+RPM_NAME = "libecpint1-v1.0.7+git20230218.8e788d4-1.9.aarch64.rpm"
+RPM_HASH = "7579e5e0ee24edc811f5093c8590227f3fee9edea73538cd7297bb0d432027c08622fc997518baa7a7c5785868dd2af28696d3db4368fc16f64cb6383fb52566"
 
 RPROVIDES:${PN} += "libecpint.so.1 \
 libecpint1"

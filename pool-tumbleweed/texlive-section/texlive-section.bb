@@ -3,10 +3,10 @@ DESCRIPTION = "The package implements a pretty extensive scheme to make more \
 manageable the business of configuring LaTeX output."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20180"
+PV = "2026.226.svn20180"
 
-RPM_NAME = "texlive-section-2023.209.svn20180-54.1.noarch.rpm"
-RPM_HASH = "1688168cf755c2b5668639499c6edb72110f727a032a8faf1ac26a812375d78f11a6b6a4d610b92d7fe6a1506fead577499f3e9f78aee7ebffb0f0b40ba0ef09"
+RPM_NAME = "texlive-section-2026.226.svn20180-60.2.noarch.rpm"
+RPM_HASH = "5f00947d1db62222f5496c65a3fe42dd361ab5de0d7d9ffbde681caa2c57105d504933cdacea1256eae1bd0346494d898c723a2811e652330989c05a2304214f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-section.sty \

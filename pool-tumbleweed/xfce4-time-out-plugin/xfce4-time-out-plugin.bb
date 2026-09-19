@@ -4,16 +4,17 @@ periodical intervals and will provide a notification and lock the screen each \
 the break time has been reached."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.3"
+PV = "1.2.0"
 
-RPM_NAME = "xfce4-time-out-plugin-1.1.3-1.1.aarch64.rpm"
-RPM_HASH = "1cea6c6f428e7fc310b51d7d34baabf744a157f83aacdbaeed144a1338eda0377eccf1755899924d5e645200fb749c7e0544bb1fb55d93861c0b24c6d240d616"
+RPM_NAME = "xfce4-time-out-plugin-1.2.0-1.4.aarch64.rpm"
+RPM_HASH = "b7a4d123add793b2337e1b77e855b76c4342c56db5f45ee244f9bee5b774082679969f782c129324a581e00057bc0f60d7d8f2bc1be07380bfdd59a8cc2b454a"
 
 RPROVIDES:${PN} += "libtime-out.so \
 xfce4-panel-plugin-timeout \
 xfce4-time-out-plugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
 libc.so.6 \
 libcairo.so.2 \
 libgdk-3.so.0 \

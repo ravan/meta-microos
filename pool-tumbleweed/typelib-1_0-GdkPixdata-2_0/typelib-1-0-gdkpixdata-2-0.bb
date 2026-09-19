@@ -6,10 +6,10 @@ Clutter. \
 This package provides the GObject Introspection bindings for gdk-pixdata."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.42.10"
+PV = "2.44.7"
 
-RPM_NAME = "typelib-1_0-GdkPixdata-2_0-2.42.10-1.5.aarch64.rpm"
-RPM_HASH = "3913a2ab25e1f72dfb0b45486948ae8a74d599c60e6c143a06ec9df6e2421cc4b94b81d4eafa46b15f8cbec53ef827fae7b50a4bf52df7c9094737f445b7fd32"
+RPM_NAME = "typelib-1_0-GdkPixdata-2_0-2.44.7-1.2.aarch64.rpm"
+RPM_HASH = "749bb8f2473c37305b5d8a14648b83c86fe417e538040958442c6e6470942d807c9dce77091b7a43dcb1f64aa985d570fb66aea064a840b022c07c8d61411c18"
 
 RPROVIDES:${PN} += "typelib-1-0-GdkPixdata-2-0 \
 typelib-GdkPixdata"

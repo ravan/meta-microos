@@ -5,10 +5,10 @@ cinnamon-about program as well as some desktop-wide documents. \
 This package contains development files for libcinnamon-desktop."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "5.8.0"
+PV = "6.4.1"
 
-RPM_NAME = "libcinnamon-desktop-devel-5.8.0-1.1.aarch64.rpm"
-RPM_HASH = "590ec65727ecb21cbb8ac118e027f44cf2fc1f8ca26817b8ffecf7105ad17d7411362b5f9220ec057ad60214c913a3a40a55de2b1deb793bc9330ebbc284313a"
+RPM_NAME = "libcinnamon-desktop-devel-6.4.1-1.8.aarch64.rpm"
+RPM_HASH = "c82a916bbab78da35390c93aa5371ce656c9c16af4a30a6aa686b1978b6c8b6179dd84d16f4136183870378f2d60d8a0dd8ff063f2235fe7c2b265c2f8d8f4bf"
 
 RPROVIDES:${PN} += "cinnamon-desktop-devel \
 libcinnamon-desktop-devel \

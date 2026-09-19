@@ -2,10 +2,10 @@ SUMMARY = "Tool to analyze git deps - HTML parts"
 DESCRIPTION = "Documentation for git-deps."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.2+git.1559732444.7c75531"
+PV = "1.1.0+git.1696898573.89d51e8"
 
-RPM_NAME = "git-deps-html-1.0.2+git.1559732444.7c75531-4.5.noarch.rpm"
-RPM_HASH = "e1fd21d14cd6f5e98cc1480941348a839057689f118fb697cb912d2929a6c831253e7c24a8e87b1c52ca096020c11af972ac352b0f1ebc940c2dc9f602a59186"
+RPM_NAME = "git-deps-html-1.1.0+git.1696898573.89d51e8-4.2.noarch.rpm"
+RPM_HASH = "3f12f0fd085748f3b586bbe668ec9c99b9b66d49e665c504239d9996545fa7b1b0fc68374bb2089f2acb410e9d1b7abcd359f6fd0bf0b19b97fce9a3e4d5694d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-deps-html"

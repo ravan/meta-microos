@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-svg in QCH format"
 DESCRIPTION = "This package contains documentation for qt6-svg in QCH format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-svg-docs-qch-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "4acf9b1adce7d5267d61728edf8c487e98e12de91deebbe531af80d541b06e29ac56a43543093803c7a0f298cff41271e0e37150f78f0409a94edc177cc384fc"
+RPM_NAME = "qt6-svg-docs-qch-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "134772a030193cebbbae33b7a176bc9e6caabdfc05a4e27540a85dad61c4030949094b1f42b1032208ed7f72bec68407389053ad047ca5320d08da237c3d6f6f"
 
 RPROVIDES:${PN} += "qt6-svg-docs-qch"
 

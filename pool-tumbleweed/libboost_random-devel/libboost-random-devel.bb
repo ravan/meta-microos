@@ -4,14 +4,13 @@ DESCRIPTION = "This package contains Boost.Random development headers. \
 This package installs the default Boost version of the library."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_random-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "40efa89e096a95bf24f0fad33a7f85dfff20b716a88a5e516599199e10572f33131956b4299af226b7f55e5b0fb41bfc694b0775b5fc20706319180fe5166c41"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_random-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "a27bad18612deb5c5e708799ef2b4d186a71db9ca3819f735d3293fb98498b73fde8478c1f5c9f6d7572a500110cff4870d4c8f57bd509a0822c9828f0caa20c"
 
 RPROVIDES:${PN} += "libboost-random-devel"
 
-RDEPENDS:${PN} += "libboost-random1-82-0-devel"
+RDEPENDS:${PN} += "libboost-random1-91-0-devel"
 
 inherit rpm

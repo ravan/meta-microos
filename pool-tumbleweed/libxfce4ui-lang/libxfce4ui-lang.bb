@@ -2,10 +2,10 @@ SUMMARY = "Languages for package libxfce4ui"
 DESCRIPTION = "Provides translations to the package libxfce4ui"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.18.4"
+PV = "4.20.2"
 
-RPM_NAME = "libxfce4ui-lang-4.18.4-1.1.noarch.rpm"
-RPM_HASH = "93ef6a7864985af0d5b0d915c0ac46425a7495be450e9fc0d0d0f12426296a9596a1d1c7b490c49c837b5326e0af0e4dde208cece38c808d9902cf8e270d51b5"
+RPM_NAME = "libxfce4ui-lang-4.20.2-1.5.noarch.rpm"
+RPM_HASH = "e56cf400e6f1009bd9314887a02c7d4d781d32ebf415deeb20af00342abe0ff16c277b3d45571d5b664fce550d7b7a595de1466c343ef03cffbbfdcd9a2f2408"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libxfce4ui-lang \
@@ -23,6 +23,7 @@ locale-libxfce4ui-de \
 locale-libxfce4ui-el \
 locale-libxfce4ui-en-AU \
 locale-libxfce4ui-en-GB \
+locale-libxfce4ui-eo \
 locale-libxfce4ui-es \
 locale-libxfce4ui-et \
 locale-libxfce4ui-eu \

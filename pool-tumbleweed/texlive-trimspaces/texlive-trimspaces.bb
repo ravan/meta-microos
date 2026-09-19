@@ -6,10 +6,10 @@ spaces within a macro definition, or to define space-stripped \
 macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-trimspaces-2023.209.1.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "f650010a383d4a4c63051537c47f68768c34db70b010fca304b2d206ecdc136e950941ebf5f2970347617fd8fb5c8c563f756bc45ccd91a628b8e14476ef8808"
+RPM_NAME = "texlive-trimspaces-2026.226.1.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "acef968e10ac977b5c6a70dcd234036ed83659c139bd917824a5e5f0056c2dbf4dce1eacc770bef8fcc79e19927334be59240a92fab3d7467ca90a3719c5f4b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-trimspaces.sty \

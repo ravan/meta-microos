@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.6"
 
-RPM_NAME = "mda-lv2-1.2.6-1.7.aarch64.rpm"
-RPM_HASH = "8a50c43a2cca03366efe707e6a0fddca4bc81d439d5f6e65c1bb863d89617901136457f7afc4e652897988453e227c9a60b6fd83e1c872a539a9fc28ddcd641b"
+RPM_NAME = "mda-lv2-1.2.6-1.18.aarch64.rpm"
+RPM_HASH = "076e513b2da38cd0545a60f980aed549c80968e3c0fad4550d85c8a3067a18dded2344a0db6cf54b1bf9e1d5eb438930fdead8bb04a7d13e090ab3055d999a1a"
 
 RPROVIDES:${PN} += "mda-lv2"
 

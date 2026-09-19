@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210421"
 
-RPM_NAME = "libhibr-tools-20210421-3.6.aarch64.rpm"
-RPM_HASH = "ff24ea2aa32f213dc2d3a3bc663c4385b92f8ffd1cdb2796e9117e8dcdf455471684f30389a1efa057760aefeda6dac6f9e1d30dc30b099744a3f5a5b0884155"
+RPM_NAME = "libhibr-tools-20210421-3.35.aarch64.rpm"
+RPM_HASH = "05d5b939efcc9f4f337e63ea3676be69aa4d10d452d884258cd9d6a87e1b79e8d11ff6cc7d80ea089ff1a78840d6061d2149018f115681ca9873f4284e29c5fb"
 
 RPROVIDES:${PN} += "libhibr-tools"
 

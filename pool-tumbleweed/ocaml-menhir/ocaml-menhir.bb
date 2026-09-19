@@ -2,10 +2,10 @@ SUMMARY = "LR(1) parser generator for the OCaml programming language"
 DESCRIPTION = "LR(1) parser generator"
 LICENSE = "LGPL-2.0"
 
-PV = "20230415"
+PV = "20260209"
 
-RPM_NAME = "ocaml-menhir-20230415-1.2.aarch64.rpm"
-RPM_HASH = "4b44a4c093ecc82d77a8cd0e282f0e9f1daf7a6a58e8298bd5e4b094ffa6775809230a7324ca26d78126148eb0bd31a4ec139279ca3d1739dd57ddc43b57511e"
+RPM_NAME = "ocaml-menhir-20260209-1.2.aarch64.rpm"
+RPM_HASH = "b0818d18426cd390d3411a60d41b730af23d640cb71106ae59d91942419d8dae6f81f641734898edaf2cd3621ea792e57e54a554bd863e0f8b358906035aa11d"
 
 RPROVIDES:${PN} += "ocaml-menhir"
 

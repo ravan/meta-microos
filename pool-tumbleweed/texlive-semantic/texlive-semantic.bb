@@ -4,10 +4,10 @@ Includes T-diagrams, various derivation symbols and inference \
 trees."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn15878"
+PV = "2026.226.2.0svn15878"
 
-RPM_NAME = "texlive-semantic-2023.209.2.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "5c7b2bbed4415eb4a96c8f8cff2427eb2a4d924bf43825c26c39643c4b78265372d789438fecb39b1400a766b38be8ccd219bbecef83e1ff72fb5782d79f7d22"
+RPM_NAME = "texlive-semantic-2026.226.2.0svn15878-60.2.noarch.rpm"
+RPM_HASH = "1808b71b484ea2ee5f87d55be6891901a385ab107255c8b45a557961c68087490362a8d35a208b722c882c16fe35ab665eb47c81e4201755f482255dd3a000b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-infernce.sty \

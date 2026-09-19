@@ -5,10 +5,10 @@ incremental indexing, ranked searching, field-based searches and \
 multi-index searches."
 LICENSE = "Apache-2.0"
 
-PV = "8.5.0"
+PV = "8.11.4"
 
-RPM_NAME = "lucene-core-8.5.0-5.1.noarch.rpm"
-RPM_HASH = "15a8c87ca3fdf1e3101bc90c0d3cbb0e89fa08b5c77698d77d78e759a52882a7662d608f3d8881f10b1f98a807c3078faad74ab162ea565976ae57f942107e93"
+RPM_NAME = "lucene-core-8.11.4-1.8.noarch.rpm"
+RPM_HASH = "d4ba71b6c1708e76b93ceca7afe6651fd4bbc68b47071b98751c40e2030d3bb48118bd3725b5ef98d0dc592b373127ae829f46c2aa281683d8d951399e1fb1c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene \

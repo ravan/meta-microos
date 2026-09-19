@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-only & MIT & MS-PL"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-core-6.12.0-5.4.aarch64.rpm"
-RPM_HASH = "4b3bc2573bb9789cb7ab73bde8c60c4253b75a9be6a2bf1240e9efce0c3da5ff1468b5ce9e3b03ef7c0335dfae4a9b19f72ac7f2ed5e56ddbd40791e48dc2691"
+RPM_NAME = "mono-core-6.12.0-8.11.aarch64.rpm"
+RPM_HASH = "624def7fa0d54b8a21b3e597b53bbf4a96460d05aa3b753553700f17c1cd2acfd0ab581f31915d24571feb947c455c3e166db45e2d7a0410045bb0ba42ea1593"
 
 RPROVIDES:${PN} += "config-mono-core \
 libMonoPosixHelper.so \

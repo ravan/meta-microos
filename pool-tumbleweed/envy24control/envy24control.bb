@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "envy24control-0.6.0-24.4.aarch64.rpm"
-RPM_HASH = "3fc8640ed58aeb0399aecaadc190398e7a01a1a31d2024ebc1d8566d2e1651f525986603a3adf4b4038724dabde69b4b20356446de9f09913ff612712e31f8d1"
+RPM_NAME = "envy24control-0.6.0-29.4.aarch64.rpm"
+RPM_HASH = "a23a091736a433cbf2e74e327a45970aa7d5bab32b09924fc4471570c32235d36dd97fb3117693e4ff26ba4f40121587822819661c5e69ca303066f5f9d2b14c"
 
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/envy24control \
 envy24control"
@@ -14,9 +14,9 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \
-libgdk-x11-2.0.so.0 \
+libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-x11-2.0.so.0"
+libgtk-4.so.1"
 
 inherit rpm

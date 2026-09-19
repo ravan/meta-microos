@@ -1,14 +1,14 @@
-SUMMARY = "An open source implementation of the Lightweight Directory Access Protocol"
+SUMMARY = "An implementation of the Lightweight Directory Access Protocol"
 DESCRIPTION = "OpenLDAP is a client and server reference implementation of the \
 Lightweight Directory Access Protocol v3 (LDAPv3). \
  \
 The server provides several database backends and overlays."
 LICENSE = "OLDAP-2.8"
 
-PV = "2.6.4"
+PV = "2.6.13"
 
-RPM_NAME = "openldap2-2.6.4-2.2.aarch64.rpm"
-RPM_HASH = "fee805164de9c5f8b42abd13ee79530581d85988d8d4152b64d7efc7053478d305e60ee473d8d5b920c03f08cf1271e85787ed6a6a3b852f245d671c0b72b88b"
+RPM_NAME = "openldap2-2.6.13-1.6.aarch64.rpm"
+RPM_HASH = "1724062d1d2ba7179372d3439b7e2930ae044289409df257378bd435cb23fda6c6da258e3a171834868f8ce7402b873d9e13297a2f9932f5e6e8a0c97f17d9bb"
 
 RPROVIDES:${PN} += "config-openldap2 \
 group-ldap \
@@ -30,7 +30,6 @@ libldap.so.2 \
 libldap2 \
 libltdl.so.7 \
 libsasl2.so.3 \
-libslp.so.1 \
 sysuser-shadow"
 
 inherit rpm

@@ -3,13 +3,13 @@ DESCRIPTION = "The company module defines the concepts of company and employee a
 extend the user model in the Tryton application platform."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.0.6"
+PV = "7.0.4"
 
-RPM_NAME = "trytond_company-6.0.6-1.8.noarch.rpm"
-RPM_HASH = "8fa7c0c155a1632c665300a4ca3423cf5b9b7e5d29d074638072cc75e4832adbd64208d5af04bb97eb4e4f7c2bf48b9dd1124a47ee3ef51a03b00e4c66b5747d"
+RPM_NAME = "trytond_company-7.0.4-1.1.noarch.rpm"
+RPM_HASH = "aa8fca64f6a6f4ecb4a262413cc93564e2b9715d0cabfcf0148aa63f5de217f0db702a764f93b3e52223da3efb4a8870e4a0b36845c2db9d60cc2e08bb2da4d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-trytond-company \
+RPROVIDES:${PN} += "python3.13dist-trytond-company \
 python3dist-trytond-company \
 trytond-company"
 

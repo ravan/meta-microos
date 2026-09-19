@@ -12,10 +12,10 @@ Kerberos 5, Nameprep, SASL, and XMPP are included. Punycode and ASCII \
 Compatible Encoding (ACE) via IDNA is supported."
 LICENSE = "(GPL-2.0-or-later | LGPL-3.0-or-later) & GPL-3.0-or-later"
 
-PV = "1.41"
+PV = "1.44"
 
-RPM_NAME = "libidn-tools-1.41-1.3.aarch64.rpm"
-RPM_HASH = "1ff9c0d520c6fce7748737d6ab98e0ca06e3c7df529ecdc0bbb633a285d7b670ac12d21db5196a42db083d939c9bbd5a35edf30d1af9bc046c15fa311cb4f38e"
+RPM_NAME = "libidn-tools-1.44-1.3.aarch64.rpm"
+RPM_HASH = "47aff0fefc797709231bd068be52cdfb3d65cb649ccee0ab478134bb580b474a67cc0bdde484871692da613b81765ecec4cc7ac4c3d1218404f48768655f1956"
 
 RPROVIDES:${PN} += "libidn-tools"
 

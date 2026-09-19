@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.5"
 
-RPM_NAME = "ladspa-vlevel-0.5-4.29.aarch64.rpm"
-RPM_HASH = "658e1edf414fc5cecf0ec87ff1929a230f99700428dd8e9246b92ff2c69cbab9c2b409a15c8b07ea7a4947fbd6498f86c1a0b55c67b15d9f1182930644376e14"
+RPM_NAME = "ladspa-vlevel-0.5-4.39.aarch64.rpm"
+RPM_HASH = "1660fbb0b03936cf222f3e4d8d337513d239ad92bacab31aa36e0207baa4a7b10f71bc9b82f068aa28797d704e5503ab6e546ba069125b6bd7e4336a776efee9"
 
 RPROVIDES:${PN} += "ladspa-vlevel"
 

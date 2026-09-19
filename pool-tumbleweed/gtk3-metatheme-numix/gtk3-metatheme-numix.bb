@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.6.7.1617863126.0d6b4c8"
 
-RPM_NAME = "gtk3-metatheme-numix-2.6.7.1617863126.0d6b4c8-2.6.noarch.rpm"
-RPM_HASH = "0e29760cdd57fc1ff1f85dd8e167d374f89045984a87a7fd75dfd3d5e87bb6ba1c1cbba880bf58650dd2ac9c8c088750d939c65a7abba274259dd371f381e4e0"
+RPM_NAME = "gtk3-metatheme-numix-2.6.7.1617863126.0d6b4c8-4.2.noarch.rpm"
+RPM_HASH = "241dcab28be14bfa289b5169f8cd4d527e681c8cf276cd8005ef3817a82ac2ad5c770c4f5518b1c1eea1eb15f515c7e5117c28f71c772ce82cfe221af24f5cc9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-metatheme-numix"

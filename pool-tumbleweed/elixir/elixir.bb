@@ -14,10 +14,10 @@ This means one can invoke Erlang code from Elixir (and vice-versa) \
 without any conversion or performance impact."
 LICENSE = "Apache-2.0"
 
-PV = "1.14.2"
+PV = "1.20.4"
 
-RPM_NAME = "elixir-1.14.2-3.4.noarch.rpm"
-RPM_HASH = "3b3c200ccac0e6b4e9880c76defa7bf6b37cae9e4f1819bb7bdb061e88ca201452d528220495eb6d73cd0fe4e77e50047bdab081d9e2906d5ed3657c11497372"
+RPM_NAME = "elixir-1.20.4-1.1.noarch.rpm"
+RPM_HASH = "55b0e4dde1f9f835e0d8cd6b5634ba472c30e061e811940af8554bec1c363bec25fd4f67174b207d39bfceb72ee1acb7153704e0d69ec2d4e476ce4b14f4671f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elixir \

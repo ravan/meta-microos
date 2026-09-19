@@ -18,10 +18,10 @@ Also, CMocka tries to avoid the use of some of the newer features of C \
 compilers."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.7"
+PV = "2.0.2"
 
-RPM_NAME = "libcmocka0-1.1.7-3.1.aarch64.rpm"
-RPM_HASH = "fd90a0b4cb83a32b44ac23fed74ea8ef0553b60ed6f23052d7d1f76b535c1b90cc80f994923510f761f36f9488e9eace38ea2898364dec899fae2e22c2946c76"
+RPM_NAME = "libcmocka0-2.0.2-1.4.aarch64.rpm"
+RPM_HASH = "b7b301e93c4ea367a5660660a09776d33238d836f83b2de3464ca6588af6253da2c8777d798dd18909dd169c8d68b7a2051df4002dba8d4bf4bb1af7af44720c"
 
 RPROVIDES:${PN} += "libcmocka.so.0 \
 libcmocka0"

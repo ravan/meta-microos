@@ -5,10 +5,10 @@ compatible with Python's ConfigParser. \
 This package provides the development headers for INIH including the C++ bindings."
 LICENSE = "BSD-3-Clause"
 
-PV = "57"
+PV = "62"
 
-RPM_NAME = "libinih-devel-57-1.1.aarch64.rpm"
-RPM_HASH = "0f476f48921cf75eabe0ee57e3b00cf4e8dce6844225f7bedd08845c4f45090ce75b9f547dbfe89a26db2a2dc7a5a978000cbe19b22bea565f44d0df8ce53343"
+RPM_NAME = "libinih-devel-62-1.5.aarch64.rpm"
+RPM_HASH = "2aed9f7dcabc817e0d6e89518268107e4cf87223c9ae4702594e43e342b0ac3ef9266fa6e7d39dfa140245bd82aa661ce13a878dd2eb8fb8369b654b2235c8a9"
 
 RPROVIDES:${PN} += "libinih-devel \
 pkgconfig-INIReader \

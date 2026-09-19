@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "liblightgrep0-1.4-5.34.aarch64.rpm"
-RPM_HASH = "adf8316f29a2a058644b73b6d5eb318f7ccba91322da8763dee89611da60ca28c7f6f1df77c7eaa1965a8fe49955229fec2a733faa593b74158c560f2d796f0c"
+RPM_NAME = "liblightgrep0-1.4-7.6.aarch64.rpm"
+RPM_HASH = "8a5c19db9f44c3c1cf0c9ea25749e72e8b38d97dffbc5b2b7e1f42fab701249427aa6be3347f8b9cd4bcde653455c97e63bb246f639e2c542e75f7b90af1f940"
 
 RPROVIDES:${PN} += "liblightgrep.so.0 \
 liblightgrep0"
@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicuuc.so.73 \
+libicuuc.so.78 \
 libstdc++.so.6"
 
 inherit rpm

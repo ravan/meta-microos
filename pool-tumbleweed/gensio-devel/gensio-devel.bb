@@ -13,10 +13,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libgensio."
 LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "2.7.5"
+PV = "3.0.4"
 
-RPM_NAME = "gensio-devel-2.7.5-1.1.aarch64.rpm"
-RPM_HASH = "f862589a14e8bcb22d9756dbd8bcfafbc6b71fa8156d5a71c33a8e1db57a9508200cc497a5a93ff71cfbc7655dd02be823d66142ed2cc5f89524bae9fa432be9"
+RPM_NAME = "gensio-devel-3.0.4-1.1.aarch64.rpm"
+RPM_HASH = "fbb696c73190fdbb62ae76317a6289c089159f8f85c35316e228482af40ccea2635926a90baca49a70bbe5948557cf97d55f622b832e94d7877ecef31001d0ed"
 
 RPROVIDES:${PN} += "gensio-devel \
 pkgconfig-libgensio \
@@ -28,8 +28,8 @@ pkgconfig-libgensioosh \
 pkgconfig-libgensiooshcpp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libgensio6 \
-libgensiocpp6 \
+libgensio14 \
+libgensiocpp14 \
 lksctp-tools-devel \
 pkgconfig-OpenIPMI \
 pkgconfig-avahi-client"

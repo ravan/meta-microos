@@ -8,13 +8,15 @@ LICENSE = "APL-1.0 & CC-BY-SA-3.0 & GPL-2.0-with-font-exception & MIT & OFL-1.1"
 
 PV = "2019.1"
 
-RPM_NAME = "unknown-horizons-2019.1-7.7.noarch.rpm"
-RPM_HASH = "21a2a4d9b8cc4a2089f513e2b7ab44937bc11eed744d74370c7b0863bf830d6680df11905c61892d271a5c860ca8ceb7c2bd57847d1163bf2ede0b346c0afbcb"
+RPM_NAME = "unknown-horizons-2019.1-10.4.noarch.rpm"
+RPM_HASH = "e0c97f67d5ead34985bff0e8dbd56087bef4c237237fcd9e5fb56f0aff21863857257489971135ed8b6abde65a7d9bf130570c970328a8be04de73707648a822"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "unknown-horizons"
+RPROVIDES:${PN} += "python3.13dist-unknownhorizons \
+python3dist-unknownhorizons \
+unknown-horizons"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 hicolor-icon-theme \
 python-abi \
 python3-Pillow \

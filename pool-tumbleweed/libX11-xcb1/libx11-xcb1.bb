@@ -1,18 +1,13 @@
 SUMMARY = "XCB X11 protocol client library"
-DESCRIPTION = "The X Window System is a network-transparent window system that was \
-designed at MIT. X display servers run on computers with either \
-monochrome or color bitmap display hardware. The server distributes \
-user input to and accepts output requests from various client \
-programs located either on the same machine or elsewhere in the \
-network. Xlib is a C subroutine library that application programs \
-(clients) use to interface with the window system by means of a \
-stream connection."
+DESCRIPTION = "libX11-xcb provides functions needed by clients which take advantage \
+of Xlib/XCB to mix calls to both Xlib and XCB over the same X \
+connection."
 LICENSE = "MIT"
 
-PV = "1.8.6"
+PV = "1.8.13"
 
-RPM_NAME = "libX11-xcb1-1.8.6-1.1.aarch64.rpm"
-RPM_HASH = "63fbadc00daf5c91aaf2dec769b57dae27c4e31bdbfd236b2c778d433bee71f869ff35a7ebe76c1ebe153baca15c6a64328388abe7272fb856210b5506be1d5d"
+RPM_NAME = "libX11-xcb1-1.8.13-1.4.aarch64.rpm"
+RPM_HASH = "0e69fd3a5bd0a572fcf17413e6a261446f931134cec75d971fa961edb5696124f23f7baf056e927ff567eb57b8becd396db1054c3699f83094d7679310f98a18"
 
 RPROVIDES:${PN} += "libX11-xcb.so.1 \
 libX11-xcb1"

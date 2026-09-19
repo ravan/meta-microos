@@ -5,10 +5,10 @@ Each implements 100% of the OpenStack Ironic API. \
 This package contains auto-generated documentation."
 LICENSE = "Apache-2.0"
 
-PV = "5.1.0"
+PV = "6.3.0"
 
-RPM_NAME = "python-ironicclient-doc-5.1.0-1.4.noarch.rpm"
-RPM_HASH = "75f0513160ac2c69f639e0d2ed6d2d0376005f22aa096c00d58db67053246b74970931d66889e30588e3e888b2767d77edff3f1c2bdff061bb139b217e5526d2"
+RPM_NAME = "python-ironicclient-doc-6.3.0-1.1.noarch.rpm"
+RPM_HASH = "a553560cc92cfbfa7b4324abfc7d69f0df9861a677be986f2c65353919a6ee6d408be1448a0d0d023bc6bbac1dbb1ba472b7a237678242b682829c7e03886647"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ironicclient-doc"

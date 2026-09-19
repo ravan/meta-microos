@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-calculator"
 DESCRIPTION = "Provides translations for the 'gnome-calculator' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "50.0+16"
 
-RPM_NAME = "gnome-calculator-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "dc65a4ea916b673fe5c6c652023b2b9a2fed0fde105fc32588956e34383619fde745f7a24c00b09417316d196ea9a6f1f71d1d9d54064346efb87b2df8fadd8f"
+RPM_NAME = "gnome-calculator-lang-50.0+16-1.3.noarch.rpm"
+RPM_HASH = "fd6f6bd5daf25c03c69720606857571feb434fad0dc10aaba9027b201f398ee3714f6e6b1503dcaaac2795d8bdd75ce01400d4d90898ee67da715e56f5df76dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-calculator-lang \

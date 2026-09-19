@@ -6,13 +6,15 @@ extensible DHCP server engine for use by enterprises and service \
 providers, either as-is or with extensions and modifications."
 LICENSE = "MPL-2.0"
 
-PV = "2.4.0"
+PV = "3.2.0"
 
-RPM_NAME = "kea-2.4.0-1.1.aarch64.rpm"
-RPM_HASH = "8c3bbcbbeb72e3929b4d11559b59d58becc7ff157b9f3c8215e31f896638d4917afe6c1079483d46ba3804a9036e503204de1577eda6a9c6311299eadcaddca3"
+RPM_NAME = "kea-3.2.0-1.2.aarch64.rpm"
+RPM_HASH = "b570e063ee8f3e63794fcfcd1119101eac65ab91cbdf919aca45a8ed85d8880d7944918fc9e1c5d4e20cd6ead2056c309af9d7091e87d6bf5e1709039db214c5"
 
 RPROVIDES:${PN} += "config-kea \
-kea"
+group-keadhcp \
+kea \
+user-keadhcp"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
@@ -20,26 +22,26 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
-libkea-asiolink.so.56 \
-libkea-cc.so.54 \
-libkea-cfgclient.so.51 \
-libkea-cryptolink.so.38 \
-libkea-d2srv.so.30 \
-libkea-database.so.48 \
-libkea-dhcp++.so.73 \
-libkea-dhcp-ddns.so.41 \
-libkea-dhcpsrv.so.89 \
-libkea-dns++.so.42 \
-libkea-eval.so.52 \
-libkea-exceptions.so.23 \
-libkea-hooks.so.77 \
-libkea-http.so.56 \
-libkea-log.so.48 \
-libkea-process.so.57 \
-libkea-stats.so.29 \
-libkea-util.so.68 \
+libkea-asiolink.so.105 \
+libkea-cc.so.98 \
+libkea-cfgrpt.so.3 \
+libkea-config.so.98 \
+libkea-cryptolink.so.76 \
+libkea-d2srv.so.75 \
+libkea-database.so.88 \
+libkea-dhcp-ddns.so.82 \
+libkea-dhcp.so.129 \
+libkea-dhcpsrv.so.149 \
+libkea-dns.so.84 \
+libkea-eval.so.97 \
+libkea-exceptions.so.55 \
+libkea-hooks.so.139 \
+libkea-log.so.86 \
+libkea-process.so.105 \
+libkea-stats.so.64 \
+libkea-util.so.118 \
 libm.so.6 \
 libstdc++.so.6 \
-shadow"
+sysuser-shadow"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "This is a document class called ijsra which is used for the \
 International Journal of Student Research in Archaeology."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn44886"
+PV = "2026.226.1.1svn44886"
 
-RPM_NAME = "texlive-ijsra-2023.209.1.1svn44886-54.1.noarch.rpm"
-RPM_HASH = "e9e603327bac98cd03195093fb84fdac87539b9f9085bbd3aa6e5109e10052bcf6629ce506521d0d58f19db4976a6c501360d0fce3cf189f56b9b722348b1762"
+RPM_NAME = "texlive-ijsra-2026.226.1.1svn44886-60.2.noarch.rpm"
+RPM_HASH = "36d0e55c658f12a28a94393ec072846d31a002b52444f87bfcb35046567066c365732c2827b245d0069d737322651488b7867e3bff09ca1ad35edf1b30160a81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ijsra.cls \

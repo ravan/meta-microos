@@ -9,10 +9,10 @@ packages and extends the commands from the float package to \
 define rotated versions of the new floats, too."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn18292"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-rotfloat-2023.209.1.2svn18292-54.1.noarch.rpm"
-RPM_HASH = "52134250a730b638323d9926cf42063eae3dba4052e4950046098c1a866b54ce77633e13d71a5ad1e96c61e73060ddfadcfec278274678fd6441ebe95ba82740"
+RPM_NAME = "texlive-rotfloat-2026.226.1.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "1c82d1237c805bfabc3026e1021b12b7015a99d01cb6c77a21ea2249b89d69ebd7c0795f4fbfa2c273f4db38e1043ed3d788c7f8ea860c3c93ad60c6783c96ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rotfloat.sty \

@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0"
 
-RPM_NAME = "ghc-timeit-devel-2.0-6.3.aarch64.rpm"
-RPM_HASH = "51a510976e9b858ba673d14fa6e1f06f0a035a85ecce5d5031e3d6643487527bda13aeb6c8dac6f0f08e9eb81a1eea02fa99566caf04b21a9665dc2dd9384b07"
+RPM_NAME = "ghc-timeit-devel-2.0-6.19.aarch64.rpm"
+RPM_HASH = "14d042e2e7d6f1f6001120f5619b52d78e1bcccbc78de8d6d8c5e79d7b1c06e4910f217cc7e1f4d37335002b0181f7792af312d42d6a88ac4f7e7a72ab3f78f3"
 
-RPROVIDES:${PN} += "ghc-devel-timeit-2.0-4alyyqlO7m4DFFkjYuUzq9 \
+RPROVIDES:${PN} += "ghc-devel-timeit-2.0-3tAgGDzIoCu1cNsnFuFQeC \
 ghc-timeit-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
+ghc-devel-base-4.21.2.0-8844 \
 ghc-timeit"
 
 inherit rpm

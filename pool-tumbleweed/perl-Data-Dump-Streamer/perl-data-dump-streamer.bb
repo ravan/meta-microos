@@ -20,10 +20,10 @@ perform structural analysis, and then in depth first mode to actually \
 produce the output, but obeying the depth relationships of the first pass."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.42"
+PV = "2.420.0"
 
-RPM_NAME = "perl-Data-Dump-Streamer-2.42-1.4.aarch64.rpm"
-RPM_HASH = "237ff130ac6c14437b3b98af0da3e9dd5feea7a1075b7bf2d07d0e4f19eb14ac1e70359e0b24c67f38bd03b9ff6bf2a7f5bb0c7965532ad8e3c709274f03cfca"
+RPM_NAME = "perl-Data-Dump-Streamer-2.420.0-1.8.aarch64.rpm"
+RPM_HASH = "af0e14f79d2ca1eb9b118117c3a8ff3d87a9183cadf762a99b0d7b236744f1bab7b1eb5329c6a0b96546fc7c1e91b03f9989f653be54741d7f3edd68d673d13e"
 
 RPROVIDES:${PN} += "perl-Data--Dump--Streamer \
 perl-Data--Dump--Streamer--Deparser \
@@ -31,7 +31,7 @@ perl-Data-Dump-Streamer"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-B--Utils"
 
 inherit rpm

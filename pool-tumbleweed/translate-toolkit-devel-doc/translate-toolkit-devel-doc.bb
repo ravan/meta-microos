@@ -3,10 +3,10 @@ DESCRIPTION = "The translate-toolkit-devel-doc package contains Translate Toolki
 toolkit or to use the libraries in other localization tools."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.9.2"
+PV = "3.19.9"
 
-RPM_NAME = "translate-toolkit-devel-doc-3.9.2-1.1.noarch.rpm"
-RPM_HASH = "bc5b9240d680f0ccc1d9bce39870c202689637790ec09344c173971c40002df128b8f8851ed1b01cb93c702a5ee7b712b64415d8d0dae091412d91d6e7ecf388"
+RPM_NAME = "translate-toolkit-devel-doc-3.19.9-1.2.noarch.rpm"
+RPM_HASH = "d2407f920d96b7b38f413a0f8eb464cab8a7a2c197c1504720834d1d50e27b9fa3574e15dd8a89445de3254e3368048dd58e9c2bdf28d52012b41fdc9b718e0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "translate-toolkit-devel \

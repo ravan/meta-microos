@@ -7,10 +7,10 @@ they can be used in any expandable context, such as an argument \
 to a \\url command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn25527"
+PV = "2026.226.1.0svn25527"
 
-RPM_NAME = "texlive-bibleref-mouth-2023.209.1.0svn25527-54.1.noarch.rpm"
-RPM_HASH = "0aba349a8571bb85a79329f6afbe557e1cdbdbb1e9d458c94d216b8f76a3e8f4b443e86f3ee005b98298720acdb66fbbe8a81e1b273aab91cf5c0b0fe699b7df"
+RPM_NAME = "texlive-bibleref-mouth-2026.226.1.0svn25527-61.2.noarch.rpm"
+RPM_HASH = "0ee2ebb5611d1a5b94eb33ab1b25c7f6884ea4c30bfd69e9744c54e4889b68c2fcf6dee59fb8cca76ec858f752261a8f91db64bc06ec204ae6480fb9c552c7ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibleref-mouth.sty \

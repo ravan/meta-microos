@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xevlna"
 DESCRIPTION = "This package includes the documentation for texlive-xevlna"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn43864"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-xevlna-doc-2023.209.1.1svn43864-53.2.noarch.rpm"
-RPM_HASH = "cb8bfd35a2cebf2ff6365e790ee80a7d6da177e875389e2359fc6e8459543061b9405c7d4dfc53e5aa30985c93cd7e96cf961c724b7f276fd50cf255c3a46054"
+RPM_NAME = "texlive-xevlna-doc-2026.226.1.1svn77682-59.4.noarch.rpm"
+RPM_HASH = "a67542e60d1997af5412a9080cf31f0ab267179c1682f69e5d2401060afa86154d20ccd0cfe0ab43fdb07daaadd0cf378def400fda7c7f17b33d4d0c79a9e5b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xevlna-doc"

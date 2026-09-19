@@ -5,10 +5,10 @@ hardware brute-force attacks than alternative functions such as PBKDF2 or \
 bcrypt."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.1"
+PV = "1.3.3"
 
-RPM_NAME = "scrypt-1.3.1-1.12.aarch64.rpm"
-RPM_HASH = "8baa9dced763cf9f706a4b7a35efa7d6fac143b12e415d256cfaea34baefc056e6910128d376011a9ec6b3e979e8278d0ef13b29cc795f76093c39a8736c0996"
+RPM_NAME = "scrypt-1.3.3-1.5.aarch64.rpm"
+RPM_HASH = "900ce72798cd6c214740007db420c9c0fd7007a4c7f36e9464691da3ac5b3890dc9b1f33b1ee00d49166d2b9a1c7ea2cc34db001f58bdc570f8716f31a8a1193"
 
 RPROVIDES:${PN} += "scrypt"
 

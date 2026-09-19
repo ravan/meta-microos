@@ -3,10 +3,10 @@ DESCRIPTION = "libguestfs-man-pages-ja contains Japanese (ja) man pages \
 for libguestfs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.50.1"
+PV = "1.60.1"
 
-RPM_NAME = "libguestfs-man-pages-ja-1.50.1-4.2.noarch.rpm"
-RPM_HASH = "4bdc0a92d3ecd806e6f0fa91db2a6963acabdde94c748752973679e4caaf27fe5825b78733da642136d158a0144724af490ca900944430ee5397faa39e60505c"
+RPM_NAME = "libguestfs-man-pages-ja-1.60.1-1.1.noarch.rpm"
+RPM_HASH = "c4f60984100067db2df655236d9d2c33f7d3f5451debeed80b877682624b69c5cbd843ecb8eb6619cd0f15b3eb35a446294998ea3c6ce83ab8bbac5d3987d8a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libguestfs-man-pages-ja"

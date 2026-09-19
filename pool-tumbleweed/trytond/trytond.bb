@@ -6,19 +6,21 @@ database engine. Tryton provides modularity, scalability and \
 security."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.0.35"
+PV = "7.0.55"
 
-RPM_NAME = "trytond-6.0.35-1.1.noarch.rpm"
-RPM_HASH = "693d1e25abb4aea263f839f4e9a9d64e0d2a05bfc09ba42887aaf5b8d60809a052b91fc9bd5229d0dd4f736b248071e977e75ebeffea6beec2a5340b9b20e782"
+RPM_NAME = "trytond-7.0.55-1.1.noarch.rpm"
+RPM_HASH = "9102154609b1e4e64144a38371bbd1b5b55ab42e22a3e17cb89b09432644035b0ceb8957c7ae4655886e5c38bcf072aa02d2f8f05c18e476dcf8bdc36e87aae9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-trytond \
-python3.11dist-trytond \
+group-tryton \
+python3.13dist-trytond \
 python3dist-trytond \
-trytond"
+trytond \
+user-tryton"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
@@ -42,6 +44,7 @@ python3-pydot \
 python3-python-sql \
 python3-relatorio \
 python3-weasyprint \
+python3-webcolors \
 python3-wrapt \
 unoconv"
 

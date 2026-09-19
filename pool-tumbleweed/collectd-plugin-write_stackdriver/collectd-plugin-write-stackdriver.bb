@@ -2,10 +2,10 @@ SUMMARY = "Write Stackdriver plugin for collectd"
 DESCRIPTION = "Optional collectd plugin to to write to Google Stackdriver."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-write_stackdriver-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "e02ff4867c79e02241a6378e0d8d70b0ded04b826323436a524d0713a2122203c03cc854b6b386bdf319189391e6d5081729c7523c04a52bae9613985e3604b2"
+RPM_NAME = "collectd-plugin-write_stackdriver-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "801a8d49bfe2c0344c8dc86ccb32784eeb0e4e03636f7c57d330069b3c15aba7be1f249297d2190010af53d2f219d5232ea356abec0304728b73a2b6042e52f3"
 
 RPROVIDES:${PN} += "collectd-plugin-write-stackdriver"
 

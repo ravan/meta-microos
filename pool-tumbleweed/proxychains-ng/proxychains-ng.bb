@@ -14,10 +14,10 @@ with \
     proxychains4 application"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.16"
+PV = "4.17"
 
-RPM_NAME = "proxychains-ng-4.16-1.7.aarch64.rpm"
-RPM_HASH = "4f7bb6994536ff97ad8de4054ed124f24b75a10ff37bf632acbbdb4d6808abbadc758e74144d9c44d3ca7bf0785899ba1fcd4f8401d2c52940c61b7ec5c97d72"
+RPM_NAME = "proxychains-ng-4.17-1.9.aarch64.rpm"
+RPM_HASH = "eda0d6ed640c939df180e2b20d8e003c39547d1025fc82e68c9550f2babaf5d3b710bceacac55024d0deb88a64dbe85d39e7571736778090999f7668f6519f53"
 
 RPROVIDES:${PN} += "config-proxychains-ng \
 libproxychains4.so \

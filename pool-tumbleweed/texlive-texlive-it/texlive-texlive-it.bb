@@ -2,10 +2,10 @@ SUMMARY = "TeX Live manual (Italian)"
 DESCRIPTION = "The texlive-it package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58653"
+PV = "2026.227.svn58653"
 
-RPM_NAME = "texlive-texlive-it-2023.209.svn58653-55.1.noarch.rpm"
-RPM_HASH = "8264352257bc1fd3d9ff334828c039a36ab6ef5cb290b1f39ff7a2734f6231fb98941587788f62873815f66b54cbc41860069f6954316c883b1dea0adf491580"
+RPM_NAME = "texlive-texlive-it-2026.227.svn58653-62.2.noarch.rpm"
+RPM_HASH = "ba5778b6384d0385600b4fc6e87f08f8c2e637a1c1fe1e1d49cf53b53c17cec534a80d8a9001a8ba82ecc5b9fcc51b734f2487094fb42283c5a00bc71d4988d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlive-it"

@@ -5,10 +5,10 @@ common negotiation mechanisms and to be multiplexed over a single \
 transport connection."
 LICENSE = "MIT"
 
-PV = "1.1.1"
+PV = "1.1.2"
 
-RPM_NAME = "libICE6-1.1.1-1.4.aarch64.rpm"
-RPM_HASH = "f0c4060690d6fa5bad61837db5a8733e04298c3c9b0c2097e6d247dfc4fa2bd8c80326c0144e4af976d462f079ec8fa0bf6ddec7d9f9bfd48ed4e16f40193e16"
+RPM_NAME = "libICE6-1.1.2-1.7.aarch64.rpm"
+RPM_HASH = "458bfb55fa7eb50ca105a848555e12c3af8d54b8a5f6e96657f63850dd314e29e9772701b852e363c6b6b107b091dddb77565b95f23b097f3059cf60b64a9bdd"
 
 RPROVIDES:${PN} += "libICE.so.6 \
 libICE6 \

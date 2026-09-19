@@ -10,10 +10,10 @@ equations; box plots; matrix plots; and pie charts. The package \
 makes use of PostScript routines provided by pst-math."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.93svn65067"
+PV = "2026.226.3.94svn77682"
 
-RPM_NAME = "texlive-pstricks-add-2023.209.3.93svn65067-54.2.noarch.rpm"
-RPM_HASH = "194a70c4f55befd875e3004ca6b8165e7918aa9791759b7f3614b6a89dc2775ae210d8685de524f547ed768b912b476bd0b94550fd2babd472e7b237c9e4aaf1"
+RPM_NAME = "texlive-pstricks-add-2026.226.3.94svn77682-60.4.noarch.rpm"
+RPM_HASH = "b595924cb4fd47700e0a0fadc3ca5499863cf4fced49a8aeb375a19ee5cbdc9fb72e71ed9c1fd0f6a6b7736c468374c187e1eaeb46816b328fa71fb66d652a02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pstricks-add.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This is the NBD client library in userspace, a simple library for
 writing NBD clients."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.14.1"
+PV = "1.25.7"
 
-RPM_NAME = "libnbd0-1.14.1-2.2.aarch64.rpm"
-RPM_HASH = "80b01b3fd0fbe6a13335a8ccd4df4f6e3fee9a1ce8e28c133c697fbcfdaeea52619ee2966ddee9f1f7b13fccc826920da59776122a6ece37d8b121e2709bd362"
+RPM_NAME = "libnbd0-1.25.7-1.1.aarch64.rpm"
+RPM_HASH = "b8d8530bdc03eb8a581485bf5921458bf2c7db8db57d585216904ba13d1b68f43e218e58ec273241f7b5f293866eb126c3351294d2db2b7af8f2054e3e97b10c"
 
 RPROVIDES:${PN} += "libnbd.so.0 \
 libnbd0"
@@ -15,6 +15,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgnutls.so.30 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

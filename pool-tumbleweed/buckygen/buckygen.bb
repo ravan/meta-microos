@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "buckygen-1.1-1.12.aarch64.rpm"
-RPM_HASH = "96946790fdfe72874a7c21900fdcca3bd1a6804f003a8adecfb0da26064296dddc1f95176070024ced4c3a4c18fec81d66218fb26aecb294c8625f1ad10f10fc"
+RPM_NAME = "buckygen-1.1-2.5.aarch64.rpm"
+RPM_HASH = "3a4e14b610b8b9cafac228f20369e26ae124ab418bb2f4411c0d93eb60db6f2918f81139b7c46e7a88354fed892af5ff355b4bbe9c9594937e2efb46f5a63bd3"
 
 RPROVIDES:${PN} += "buckygen"
 

@@ -5,10 +5,10 @@ pLaTeX2e and upLaTeX2e. Currently patches for the latex-tools \
 bundle and Martin Schroder's ms bundle are included."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn66185"
+PV = "2026.226.svn72097"
 
-RPM_NAME = "texlive-platex-tools-2023.209.svn66185-53.1.noarch.rpm"
-RPM_HASH = "fdaf118f3744e2ac75f0799e66f5c922391f0718ed3fbbcf932bcfedb44b82cbccbcfe4db5f9e8b646c8363bb649061ae0337804bfbfaacde7a1ef148d8d1310"
+RPM_NAME = "texlive-platex-tools-2026.226.svn72097-59.2.noarch.rpm"
+RPM_HASH = "4013f111e653958e85c018fc0b02515b083c164ff828ccd426e4477960c6b0f680a55d1f1e7fd5735af922d165cc277aad309423753db1125000a73be216c5f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plarray.sty \

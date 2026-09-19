@@ -6,10 +6,10 @@ the shape of each country; each glyph is at the same \
 cartographic scale."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.23svn54512"
+PV = "2026.226.0.0.23svn77682"
 
-RPM_NAME = "texlive-countriesofeurope-2023.209.0.0.23svn54512-55.1.noarch.rpm"
-RPM_HASH = "90406fe58ba1cd5ccebbda8d1bc9dfbf93ecb9ac373824152f5108bed6ccf0994bf1854a602486dd076abb8c6ad8da1effc5e195da2d891913a4517ee464a780"
+RPM_NAME = "texlive-countriesofeurope-2026.226.0.0.23svn77682-61.2.noarch.rpm"
+RPM_HASH = "470832fe28b40e43a6c1498ba503ebe99a8fc7771c699ad31ef0abdb005363edbe6d519a2b08fa87aae8e0bb28e0e0329a3410bcea3de20b215a9b57e45f5a9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-countriesofeurope.enc \

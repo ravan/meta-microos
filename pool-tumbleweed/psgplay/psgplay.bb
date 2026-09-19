@@ -4,12 +4,12 @@ your PC. \
  \
 You can find a comprehensive archive on the World Wide Web at \
 http://www.nocrew.org/software/psgplay/tunes/"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "psgplay-0.6-861.27.aarch64.rpm"
-RPM_HASH = "4381ef2a206288d68878f71fa13b178e6825359c3e40e9ee6aac7e11dafbf57d4198e2bd4feda100de5c9d6694317cb88ca965835ba5e734acdc9d16c661bcb9"
+RPM_NAME = "psgplay-0.6-863.9.aarch64.rpm"
+RPM_HASH = "dab8e1b74f83ae9df360e29be9f91560867514ef3ad898deaef6742623f5545bcde27e2a789489a4bf95fa2dbefa39a6620b18ffecb4e96807c61b0cec9b2348"
 
 RPROVIDES:${PN} += "psgplay"
 

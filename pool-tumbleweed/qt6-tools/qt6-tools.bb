@@ -3,12 +3,12 @@ DESCRIPTION = "The QtTools modules contains some tools mostly useful for applica
 development. \
  \
 Included are Qt Designer (GUI design), QDbusViewer and more."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
+LICENSE = "(GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-tools-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "c01b7eac329928a28b1f1fc99c7eeb706faaecc2bf5ad1575f6dfe2d4edc47061412d33bad59bd48062f8f226435065bb8536b703d63be6d5664bfcb2cbcfa95"
+RPM_NAME = "qt6-tools-6.11.2-2.3.aarch64.rpm"
+RPM_HASH = "586d1c22375856700349dc96806612d6c20b8d72eff6f58ad57f740d2b4783282f4301e458c4bb7764e809678ce118ff6e6fc2172ea1bdd9cf203261b275db5d"
 
 RPROVIDES:${PN} += "qt6-tools"
 

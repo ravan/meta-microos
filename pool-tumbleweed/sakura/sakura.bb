@@ -4,10 +4,10 @@ emulator that only depends on GTK and VTE. It uses a notebook to allow \
 multiple tabs in the same window."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.8.7"
+PV = "3.8.9"
 
-RPM_NAME = "sakura-3.8.7-1.1.aarch64.rpm"
-RPM_HASH = "8a35aafe2595b860758fcae4fa3b5317df5de3cdb8635ad2cd4278a225204462c4d118bce14ff8aa7c84634e15f8100d7ea87960b41f31dde33b962cd0e2bf20"
+RPM_NAME = "sakura-3.8.9-2.3.aarch64.rpm"
+RPM_HASH = "7b06a00c901fa85ea092d098dd6e54a1b9f95419d062972f6f7d4dc1b74c35a218f2af6dc3994ba2069e20f20887c677797bfd5d8ed5b08d378e212d207f1639"
 
 RPROVIDES:${PN} += "sakura"
 

@@ -4,10 +4,10 @@ portions of them); the arrays should have been created using \
 the arrayjobx package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn31576"
+PV = "2026.226.1.0svn31576"
 
-RPM_NAME = "texlive-arraysort-2023.209.1.0svn31576-54.1.noarch.rpm"
-RPM_HASH = "e257fde19a04bf1daa568d6aa995d7d062a789309b829bf16db6793ceccbc182eb716431c38b7424b333c82d61c7019001300400b298fb8a41d741ce718f7530"
+RPM_NAME = "texlive-arraysort-2026.226.1.0svn31576-60.2.noarch.rpm"
+RPM_HASH = "fd25a6f6935f32d8be6a224a6952383636a9d9b7b5852298e510761a2914657816605ce91e8b9f6feb2e274038cdb40ed16a792363c5e4e949d37d9693f789ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arraysort.sty \

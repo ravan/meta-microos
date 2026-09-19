@@ -13,14 +13,16 @@ The specification of the Brotli Compressed Data Format is defined in \
 RFC 7932."
 LICENSE = "MIT"
 
-PV = "1.0.9"
+PV = "1.2.0"
 
-RPM_NAME = "brotli-1.0.9-3.4.aarch64.rpm"
-RPM_HASH = "0db214b852c4bc498674d4fa440e12bd78d00d428272f364cdea4a5eb939907c0b90ab43e653582d52964ef244097732715f1ca993713e5e497781fbbce14438"
+RPM_NAME = "brotli-1.2.0-2.3.aarch64.rpm"
+RPM_HASH = "b0511906653ac976a4b0981ba00154c53f36459359eeb62a16fd87a5a66d2e98d21b5fe9d3d63d26838cfd9b0f9a2761c08c994eec6e9c91746c875e482ef21a"
 
 RPROVIDES:${PN} += "brotli"
 
-RDEPENDS:${PN} += "libc.so.6 \
-libm.so.6"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbrotlidec.so.1 \
+libbrotlienc.so.1 \
+libc.so.6"
 
 inherit rpm

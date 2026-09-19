@@ -1,28 +1,23 @@
-SUMMARY = "Programmatic Qt 5 library interface to GnuPG"
-DESCRIPTION = "GnuPG Made Easy (GPGME) is a library designed to make access to GnuPG \
-easier for applications. It provides a high-level crypto API for \
-encryption, decryption, signing, signature verification, and key \
-management. \
+SUMMARY = "Qt5 API bindings/wrapper for GPGME"
+DESCRIPTION = "QGpgme provides a very high level Qt API around GpgMEpp. \
  \
-This package contains the Qt 5 bindings."
-LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
+This package contains the shared library built for Qt5."
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.22.0"
+PV = "2.2.0"
 
-RPM_NAME = "libqgpgme15-1.22.0-1.1.aarch64.rpm"
-RPM_HASH = "5349b37f61e1e448ba903c81eca14b8fd0c1f8c76776e46a7582efc84aa8e091cc544974dbd620e7d655561a3b8a971162440b8233c98d52132d28f31bbe13a9"
+RPM_NAME = "libqgpgme15-2.2.0-1.1.aarch64.rpm"
+RPM_HASH = "d158f9b7a6b71150039d6abd9c08054935168645f7b3be2952b9483871db73aa60a5e03d66f88d25890da2e24c4d5a4ac92e6448c992b342b18910781cd419e1"
 
 RPROVIDES:${PN} += "libqgpgme.so.15 \
 libqgpgme15"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-gpg2 \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgpg-error.so.0 \
-libgpgmepp.so.6 \
+libgpgmepp.so.7 \
 libstdc++.so.6"
 
 inherit rpm

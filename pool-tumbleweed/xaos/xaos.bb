@@ -7,18 +7,18 @@ In addition, switching between Julia and Mandelbrot fractal types and \
 displaying planes is provided."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.2.1"
+PV = "4.3.4"
 
-RPM_NAME = "xaos-4.2.1-1.12.aarch64.rpm"
-RPM_HASH = "065e1c4c850f7d4bb8d100d0bf76b835fcb23e40d5dec35e714cc4f5301a0bc3b5d776bee0aa2e5d2f25cd41f6c1d6d4125e7f6129da21541d50c9f6147de81d"
+RPM_NAME = "xaos-4.3.4-1.6.aarch64.rpm"
+RPM_HASH = "db7eac775bf90905934982de34208dd21903ac440cb29045e16535e0c08cb3b03d741dc9370a3cc50f93b9a84a5b12380d5c8308bfcda241a9b7e8a12d4009a2"
 
 RPROVIDES:${PN} += "XaoS \
 xaos"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

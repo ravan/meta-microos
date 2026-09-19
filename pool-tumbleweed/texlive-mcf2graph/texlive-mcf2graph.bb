@@ -4,10 +4,10 @@ describing chemical structure diagrams. This package converts \
 MCF to graphic files using MetaPost."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.4.92svn65666"
+PV = "2026.226.5.29svn76506"
 
-RPM_NAME = "texlive-mcf2graph-2023.208.4.92svn65666-53.1.noarch.rpm"
-RPM_HASH = "d7ee8fbbfeec85adc42326564121c29b8914961f3f55b5f78b010e334a8f3c38259b20ca2310cf37c8b1a16280bbd106f16de570b09253e2ffde701e37fef623"
+RPM_NAME = "texlive-mcf2graph-2026.226.5.29svn76506-59.2.noarch.rpm"
+RPM_HASH = "9ebf76f0cab6914e2f474e68702106a5f0ec60c3642c98c30cad23a51414014c4672fc0a0c94099deaf560bc435544405ff6176f29d2c0b3d634f1d95ba39099"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mcf2graph"

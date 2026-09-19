@@ -6,8 +6,8 @@ LICENSE = "Apache-1.1"
 
 PV = "1.12"
 
-RPM_NAME = "relaxngcc-1.12-3.4.noarch.rpm"
-RPM_HASH = "776ac1e1995dc0cc439597382f999e133a8f212454d1603cbc2a0fc46c45d565c130df7e8e6eab6ecd58952a58c11899b7cf450f6ce7095725b37cbd063edd58"
+RPM_NAME = "relaxngcc-1.12-3.13.noarch.rpm"
+RPM_HASH = "c124afac19eb7c5904a59c10531d41d3ad3df73cb019c45f21de9e28b3e9fb7472bc56432dddbfa8f087769ae74fd648d524663d3e6354f7fc4cc3af774be428"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "relaxngcc"

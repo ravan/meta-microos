@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & SUSE-Public-Domain"
 
 PV = "2.2"
 
-RPM_NAME = "spooles-devel-2.2-1.5.aarch64.rpm"
-RPM_HASH = "2397d34667a24926bf9361066c76f9d15a6cdc7bc94887804b4c6e84911781c3ca826014abbe1bea5d7dc05c91f7f5320e05e0f52ecd7f0dafcdfca7de54c99d"
+RPM_NAME = "spooles-devel-2.2-3.8.aarch64.rpm"
+RPM_HASH = "4d31a1697e0bae17aa02b763d46764ee3925b527bbdba234a7bc332756e9bb92bf3a0d48761228e543786d3868767f74b6cac22dfc739a184f0b67ef514308fe"
 
 RPROVIDES:${PN} += "spooles-devel"
 

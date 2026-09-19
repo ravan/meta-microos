@@ -15,10 +15,10 @@ modern maths, computer modern bright maths, or Euler fonts. The \
 package is part of the TeXPower bundle."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.6svn42428"
+PV = "2026.226.0.0.6svn42428"
 
-RPM_NAME = "texlive-tpslifonts-2023.209.0.0.6svn42428-53.1.noarch.rpm"
-RPM_HASH = "649562491530b810814c76ffb63e42e4fcfc6d941032e7b6910f785bb398078bfe41ef91796e1c4d32cbd692c4c433528a9b094799cbbe5237c97a7431349263"
+RPM_NAME = "texlive-tpslifonts-2026.226.0.0.6svn42428-59.2.noarch.rpm"
+RPM_HASH = "0ac71c01f8f17453e903dfc1f44d8d8c5de757fc9c0834f1a343ecd30ca8dbd4d61b9f58f82485eace2a35736e6d72e048d0b2007034a4841d51787e22137b76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tpslifonts.sty \

@@ -5,21 +5,16 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-j2ee-connector-1_5-api-1.2-37.1.noarch.rpm"
-RPM_HASH = "2a80dfd585572d1083c75ae9b3733e2a50672d418353219a0d9fdd461d5d73a92279784d0d618072291367a31e210b045175df2453e67fae98249e5df755ceeb"
+RPM_NAME = "geronimo-j2ee-connector-1_5-api-1.2-41.6.noarch.rpm"
+RPM_HASH = "55f46877b378c91f849dd4a1f4143c5f6f1985e7039ed5ec0c741f45709498aa20fa30805a5409d58c3fbd46dd185aa9722130ca669397f19c3c394c78262645"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-j2ee-connector-1-5-api \
-j2ee-connector \
-j2ee-connector-1-5-api \
-j2ee-connector-api \
 mvn-org.apache.geronimo.specs-geronimo-j2ee-connector-1.5-spec \
 mvn-org.apache.geronimo.specs-geronimo-j2ee-connector-1.5-spec-pom-"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "geronimo-jta-1-0-1B-api \
 java-headless \
-javapackages-filesystem \
-jta-1-0-1B-api \
-update-alternatives"
+javapackages-filesystem"
 
 inherit rpm

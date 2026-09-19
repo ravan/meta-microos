@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tkz-fct"
 DESCRIPTION = "This package includes the documentation for texlive-tkz-fct"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7csvn61949"
+PV = "2026.226.1.7csvn61949"
 
-RPM_NAME = "texlive-tkz-fct-doc-2023.209.1.7csvn61949-53.1.noarch.rpm"
-RPM_HASH = "872e4bfa12abf5a2aae4cadb8c64325e793e66d79e3f110649b1fbf0fb48ece8825247052adca0bcce98e56199eee129267480c6eb988af1ec0139a9f4c51efe"
+RPM_NAME = "texlive-tkz-fct-doc-2026.226.1.7csvn61949-59.2.noarch.rpm"
+RPM_HASH = "c7d079e7b0e38eb6f1b522fcc7bd388f175e0c29e0b9a2905902194541b98a2df1fbff4256392481d5b229f49836ba74f99f1c74c077415c2b6ec13d0bb8cb99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-tkz-fct-doc-fr \

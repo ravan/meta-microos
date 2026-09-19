@@ -4,10 +4,10 @@ send files over e-mail or instant messaging protocols via Evolution, \
 Empathy and Pidgin."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-extension-sendto-upnp-1.26.1-2.3.aarch64.rpm"
-RPM_HASH = "a8ba899f103e7824d33d4956049e56191f4f307c88a3e5700fa091f9b9dfa4697ea2e71ee2fb90707ce7be8c4317fef9225e0253e4b41271f2f531ebcd41d327"
+RPM_NAME = "caja-extension-sendto-upnp-1.28.0-2.11.aarch64.rpm"
+RPM_HASH = "a78f54c36d7baad86dd383229a3390b408b38feea50c390c7e22afec1b01f7c8ba147207ac3340a911cdef23c053677f96dc71f75be0cc3b1b336ae814c4083f"
 
 RPROVIDES:${PN} += "caja-extension-sendto-upnp \
 caja-sendto-upnp \

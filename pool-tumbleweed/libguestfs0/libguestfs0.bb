@@ -3,10 +3,10 @@ DESCRIPTION = "Shared object library for libguestfs tools which are used to acce
 and modify virtual machines."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.50.1"
+PV = "1.60.1"
 
-RPM_NAME = "libguestfs0-1.50.1-4.2.aarch64.rpm"
-RPM_HASH = "6a64e7d614f471875510f1b42c6c7f34a1261f76af5491e256840416666e308bf41fb70e7ca02d85a51c887ec1ab3eeda110bf2d3619a39bd1a6ee5456dc780a"
+RPM_NAME = "libguestfs0-1.60.1-1.1.aarch64.rpm"
+RPM_HASH = "fc3f7b58a59a687401af3114367b79309b9f0efe30e3356a1e1554b07994fc64ae4d632c09111186ddac102a844031a2ac3deeb13fcbb1376ebc2cbe0cad5481"
 
 RPROVIDES:${PN} += "libguestfs.so.0 \
 libguestfs0"
@@ -15,12 +15,12 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/qemu-system-aarch64 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfuse.so.2 \
-libjansson.so.4 \
+libfuse3.so.4 \
+libjson-c.so.5 \
 libpcre2-8.so.0 \
 libselinux.so.1 \
 libtirpc.so.3 \
 libvirt.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

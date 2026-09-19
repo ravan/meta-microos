@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.5"
 
-RPM_NAME = "quvi-0.9.5-5.9.aarch64.rpm"
-RPM_HASH = "6b4aaeb6d693b6c8a4b7b361519d5067f482f9c6d8672ee9acf0008ee79a102b60a15dd20c4f9ca502ea17b486e9fef3d46a573d5969a91b9a0c26e7f4da66ea"
+RPM_NAME = "quvi-0.9.5-5.23.aarch64.rpm"
+RPM_HASH = "df05a3ac24f177be03be2ddd74316813fbf26cde9fdcf7c2163a37528a0670d33f2760a813bad19d07920346d3eec5748e9ab49f7a73db1d28ed3a0174ffa268"
 
 RPROVIDES:${PN} += "quvi"
 
@@ -17,6 +17,6 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libjson-glib-1.0.so.0 \
 libquvi-0.9-0.9.4.so \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

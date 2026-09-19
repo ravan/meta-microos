@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the Named nameserver."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-named-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "a01fea3d952abe6a5f3d393373aa9e286f648eb0ad17e1f34c0ae0cf89d1b5bba92f4f70723fa23aee1032fe1edd3d396bd326409d7dd5c329f3a0e4aca16ac4"
+RPM_NAME = "pcp-pmda-named-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "b177b0b340803497c6a4c047f02bf05ebb78575323242181c34ef596941d0e6a1391d4cb998fa834a4d139ee21faabb54b326d2db09c933aeb9f459f876450e8"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-named"
 

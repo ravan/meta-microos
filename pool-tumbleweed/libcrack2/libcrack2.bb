@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.9.11"
 
-RPM_NAME = "libcrack2-2.9.11-1.1.aarch64.rpm"
-RPM_HASH = "6ed2c5c16ac8de218df721a62b9566f343e8ceaf103911210a8ca9bdd9365fe7229eb7fe43c7168e5ba1c6d29faf7a16cf6ea874538bcfbef1b43457bd35a926"
+RPM_NAME = "libcrack2-2.9.11-1.11.aarch64.rpm"
+RPM_HASH = "21030f241255707dee49b99c7da65f9a9ee633cec038e4411f8cc16fb89186503bef4dc47d80d55db9f3ec9c8ed0b4664d2b8bf968ad54e7cc749d70cc2dbbc5"
 
 RPROVIDES:${PN} += "libcrack.so.2 \
 libcrack2"

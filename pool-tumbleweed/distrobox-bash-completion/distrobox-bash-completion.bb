@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for distrobox"
 DESCRIPTION = "Bash command line completion support for distrobox."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.5.0.2"
+PV = "1.8.2.5"
 
-RPM_NAME = "distrobox-bash-completion-1.5.0.2-1.1.noarch.rpm"
-RPM_HASH = "70473733c357a7f9c19233677476bb18e4f14d0ed30a73b45b5975a26dbe22efa6a0a47296b44d6178cf1ca42c44529b4aa7b4d2fb8861efadbf6cc8e0410789"
+RPM_NAME = "distrobox-bash-completion-1.8.2.5-3.2.noarch.rpm"
+RPM_HASH = "da8a9d39d8246f5e931040a2e91358b30484811fdbbed73f4b49c62a326859486565e876e43371196755e684be40672ac2e1228668c8de82902dc4a2f7819d6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "distrobox-bash-completion"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-swimgraf"
 DESCRIPTION = "This package includes the documentation for texlive-swimgraf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25446"
+PV = "2026.226.svn25446"
 
-RPM_NAME = "texlive-swimgraf-doc-2023.209.svn25446-58.1.noarch.rpm"
-RPM_HASH = "c821c493876d970c7bc5ebd0a29c012c1d09a6d8ef6f009a6e5891d5ac892b8ff8d93b090637bade9066f5feda75115acf604f184d8d60ed137b7d485a29a834"
+RPM_NAME = "texlive-swimgraf-doc-2026.226.svn25446-64.2.noarch.rpm"
+RPM_HASH = "deb131b7edfcde1d04b5a8a9b7b95ef1b26ec25409811ebac1609f88c618d13e879cac0e57507028c6e869b84b4e6f83a5dbc4bfea41e1902e6629db69a23fa3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-swimgraf-doc"

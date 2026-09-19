@@ -3,15 +3,13 @@ DESCRIPTION = "This package supports the free otf fonts from the IBM Plex \
 project which are available from GitHub or already part of your \
 system (Windows/Linux/...). This package supports only XeLaTeX \
 or LuaLaTeX; for pdfLaTeX use plex-mono.sty, plex-sans.sty, \
-and/or plex-serif.sty from the plex package. IBM Plex has no \
-math symbols. You will have to use one of the existing math \
-fonts if you need them."
+and/or plex-serif.sty from the plex package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.07asvn47562"
+PV = "2026.226.0.0.11asvn77682"
 
-RPM_NAME = "texlive-plex-otf-2023.209.0.0.07asvn47562-53.1.noarch.rpm"
-RPM_HASH = "f0171ab3b0645fd34781744fc8cd8070d604b48fdfe1bda886ef112a42cfa2c6cb06baf5a981ff61a0e3f9952518240557fb168891c14f450dff801e30277412"
+RPM_NAME = "texlive-plex-otf-2026.226.0.0.11asvn77682-59.2.noarch.rpm"
+RPM_HASH = "f9d9178686579a91148a32bcd433ed941fdd17966e79f7cba93ed70d4252fb5b73c1409caff983e6f7dd4de7eecf233659b2215a0a16b1e16a0f7c0fc3cba379"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plex-otf.sty \
@@ -23,10 +21,9 @@ ed \
 findutils \
 grep \
 sed \
-tex-fontspec.sty \
-tex-ifluatex.sty \
-tex-ifxetex.sty \
+tex-iftex.sty \
 tex-textcomp.sty \
+tex-unicode-math.sty \
 tex-xkeyval.sty \
 texlive \
 texlive-filesystem \

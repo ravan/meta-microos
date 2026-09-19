@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-stepgreek"
 DESCRIPTION = "This package includes the documentation for texlive-stepgreek"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.0b1svn57074"
+PV = "2026.226.3.0b1svn57074"
 
-RPM_NAME = "texlive-stepgreek-doc-2023.209.3.0b1svn57074-58.1.noarch.rpm"
-RPM_HASH = "299d95a03b63908a0d1f8f23fba718b3c4e45ebb31ebd48f45e94779a34f6242ec2d3d29728a2de9efc10c7be4f32665d4e29c149e0049bf7974af9d51c9b2e9"
+RPM_NAME = "texlive-stepgreek-doc-2026.226.3.0b1svn57074-64.2.noarch.rpm"
+RPM_HASH = "30d14be64d00e6cbafc3457bba37b6916d8554224a96bb62e7cf63e86395bba7fbdd9d5bf0310e9aa5e7d2f77cd1572d2e809d016c7180698c209be0fbb2cf80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stepgreek-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "For each font, at least a .pfb and a .tfm file is provided, \
 with an .fd file for use with LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54080"
+PV = "2026.226.svn54080"
 
-RPM_NAME = "texlive-initials-2023.209.svn54080-54.1.noarch.rpm"
-RPM_HASH = "c849929a1a1bef7b1833cceecea5daf73481fd91717203c63e18330e8aeea2f7502be31bba875befcfc0fea4630551eb7ad2648841bc7e26dd1bd82d29ff7dab"
+RPM_NAME = "texlive-initials-2026.226.svn54080-60.2.noarch.rpm"
+RPM_HASH = "b8f3506f4b3d56748c1bad1ef4a2c2adbc83a335d9635b047c95831cddad7955cacc946f295318c329c115decf4e599fe80c8484856ba32d9a717713be5560e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Acorn.fd \

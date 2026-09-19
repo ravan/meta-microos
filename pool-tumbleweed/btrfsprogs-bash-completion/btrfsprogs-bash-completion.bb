@@ -1,11 +1,11 @@
 SUMMARY = "Bash completion for btrfsprogs"
-DESCRIPTION = "bash command line completion support for btrfsprogs."
+DESCRIPTION = "Command line completion support for bas for utilities from btrfsprogs."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.5"
+PV = "7.1"
 
-RPM_NAME = "btrfsprogs-bash-completion-6.5-1.1.aarch64.rpm"
-RPM_HASH = "fb248047b7e1a3e6489a58d0d36dd78ccbadeb131fea278599d132ab956a0e4918e897896b8f0bf632c1340ddbb83b0cd595b8fdb7bd863e72c5d06fd39986e3"
+RPM_NAME = "btrfsprogs-bash-completion-7.1-1.2.aarch64.rpm"
+RPM_HASH = "2822258d3a6216dae19a07119fd399c8edfd957e166339c735133417c91cac1eeff15298fb313880ee84825d39cc10086e316f98dd67435d434eba80d18c58ee"
 
 RPROVIDES:${PN} += "btrfsprogs-bash-completion"
 

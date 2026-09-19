@@ -8,10 +8,10 @@ and routines for manipulating coefficients. \
 This is part of the Octave-Forge project."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.5.0"
+PV = "2.6.0"
 
-RPM_NAME = "octave-forge-ltfat-2.5.0-1.5.aarch64.rpm"
-RPM_HASH = "39215450c6ca53693a58e0e69c67a057663e667ac2c31a60ffb651b6c9dfa505de1b29a31794d0dd17af5339dbc02c3c6af3e246ce933d1ff7f7e7c291664791"
+RPM_NAME = "octave-forge-ltfat-2.6.0-2.7.aarch64.rpm"
+RPM_HASH = "14bd2ee723c6af5ae4fe62f93ce4507748476fd253562f4d89bd07f43f96efe0ad01a175f7b4e7e122f088f1015906ba364185244a0905a8972bee80e5b57af5"
 
 RPROVIDES:${PN} += "octave-forge-ltfat"
 
@@ -23,9 +23,11 @@ libfftw3.so.3 \
 libfftw3f.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
+liboctmex.so.1 \
 libopenblas.so.0 \
 libportaudio.so.2 \
 libstdc++.so.6 \
+octave-api-v61 \
 octave-cli"
 
 inherit rpm

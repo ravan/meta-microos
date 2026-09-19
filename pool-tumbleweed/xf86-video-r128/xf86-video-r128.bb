@@ -9,10 +9,10 @@ text mode restoration for VT switching. Dualhead is supported on M3/M4 \
 mobile chips."
 LICENSE = "MIT"
 
-PV = "6.12.1"
+PV = "6.13.0"
 
-RPM_NAME = "xf86-video-r128-6.12.1-1.3.aarch64.rpm"
-RPM_HASH = "68b7765717ee5f6eaf778c7aa5604bfe2e6856b2c35f759e88e295c2e51bd262b1b6c58c6b196dbbe5d0130c61df90605c0d86a4de76caf24505795823ec51dc"
+RPM_NAME = "xf86-video-r128-6.13.0-1.9.aarch64.rpm"
+RPM_HASH = "76c4c4174ff8d8551c446613903a7b37dbb7d66093fd6f64b21457e20b1d54d2b7ca659e4929c5b01a015d9811ffe09d50f1ad69b8d7eb644581d1069092f4f9"
 
 RPROVIDES:${PN} += "xf86-video-r128"
 

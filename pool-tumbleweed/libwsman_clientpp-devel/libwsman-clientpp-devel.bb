@@ -4,10 +4,10 @@ DESCRIPTION = "OpenWSMAN is an implementation of the WS-Management protocol stac
 Development files for the C++ interface to the OpenWSMAN client library."
 LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
-PV = "2.7.2"
+PV = "2.8.1"
 
-RPM_NAME = "libwsman_clientpp-devel-2.7.2-2.9.aarch64.rpm"
-RPM_HASH = "e423aecabd5719fbc912943c16007220aa1f09c5fb8116972ee3b72ca8607c3df4722af9ac0bc3b3e9358fea05c1fc6cd20892f158579f19c5cd5c4bc14d3293"
+RPM_NAME = "libwsman_clientpp-devel-2.8.1-5.1.aarch64.rpm"
+RPM_HASH = "701a8ff9cd7d70d6e74af9b06f580abfe2ba6b513aa38f085f0d42edcbdb033fbb7410195fb0846d0e6c6d3cfcd5ba497e15078d763d06c83700ea426959fe7f"
 
 RPROVIDES:${PN} += "libwsman-clientpp-devel"
 

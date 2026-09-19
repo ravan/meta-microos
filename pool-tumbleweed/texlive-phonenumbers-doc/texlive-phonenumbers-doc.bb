@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-phonenumbers"
 DESCRIPTION = "This package includes the documentation for texlive-phonenumbers"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.5svn63774"
+PV = "2026.226.2.6svn77682"
 
-RPM_NAME = "texlive-phonenumbers-doc-2023.209.2.5svn63774-52.1.noarch.rpm"
-RPM_HASH = "e8fb16555b62d03186e11a7ced4be0836fb12eb8a2d10e1c7dabf6fa4320aafe1f7fc1ada29946f7d8fa9ddcba74181c8f1e8027d42c93d500d65570dfc3f256"
+RPM_NAME = "texlive-phonenumbers-doc-2026.226.2.6svn77682-58.2.noarch.rpm"
+RPM_HASH = "65f085c7483049a9e614fca36453e8fa75af40345ff3ab4b5dfa6d96b4e3d02f718d1354cabfc4816dfc0686aaa086227a6cdc5b5edabc3af414efcee820c73f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-phonenumbers-doc-de \

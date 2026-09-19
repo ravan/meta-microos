@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-showdim"
 DESCRIPTION = "This package includes the documentation for texlive-showdim"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn28918"
+PV = "2026.226.1.2svn78101"
 
-RPM_NAME = "texlive-showdim-doc-2023.209.1.2svn28918-54.1.noarch.rpm"
-RPM_HASH = "12ac733701b4f0c96de37b60582bbe523a23dfd1b08462fa35d896920b9b8c11690a25fda2513bd66b0a3d60314e96f241035534482c217411385bcd96326d1b"
+RPM_NAME = "texlive-showdim-doc-2026.226.1.2svn78101-60.2.noarch.rpm"
+RPM_HASH = "62d33019d30e58c4ade2c6bfcbf5b65f504d4e1f7545d4b2df15a46b9a415d9d1fed00cb1438ff6071355238e064d98bb493aa22ad6f2a3067757f56b0664386"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-showdim-doc"

@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libevtx."
 LICENSE = "GFDL-1.3-only & LGPL-3.0-or-later"
 
-PV = "20221101"
+PV = "20260705"
 
-RPM_NAME = "libevtx-devel-20221101-4.1.aarch64.rpm"
-RPM_HASH = "cecf222b5baea08fecb2767f6e98e33972ffe15f14e77515ce1a2a91c158efc946b6b01d2fa9afad70059e5de3fb9672431b76f0a462154ae4cc69b7f2f0824e"
+RPM_NAME = "libevtx-devel-20260705-1.2.aarch64.rpm"
+RPM_HASH = "cdd3063f80e61230176c7211128994e8eabcc84c06b6b415eb4d3d16f38fb2dd839600d1709e6b91c06d68adb9b4972a7be4c79ed336b9c15e130ae6c684f62e"
 
 RPROVIDES:${PN} += "libevtx-devel \
 pkgconfig-libevtx"

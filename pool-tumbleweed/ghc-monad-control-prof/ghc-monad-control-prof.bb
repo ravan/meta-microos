@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3.1"
 
-RPM_NAME = "ghc-monad-control-prof-1.0.3.1-2.3.aarch64.rpm"
-RPM_HASH = "5219abdc6b92189775c08a07e286722561b18132e8cdeba72adcf95b388fa9162cf46734b848e33bc069919ef83c82d98d58ec129817fb76f5a41ec9fea7a86e"
+RPM_NAME = "ghc-monad-control-prof-1.0.3.1-2.24.aarch64.rpm"
+RPM_HASH = "02df954285400963668afe2279b33600e9a8096e2558bfa4a8795f7b207a179551772836daeb2b49f41b4574eeef3ba88789ffc87a149f4710cbbf758c2c969c"
 
 RPROVIDES:${PN} += "ghc-monad-control-prof \
-ghc-prof-monad-control-1.0.3.1-CVPvK8bh5F0Gvv9Wu0W98B"
+ghc-prof-monad-control-1.0.3.1-EAQeykrh4iCEl5x3Heycqt"
 
 RDEPENDS:${PN} += "ghc-monad-control-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-stm-2.5.1.0 \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-transformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44 \
-ghc-prof-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-stm-2.5.3.1-6d74 \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-transformers-base-0.4.6.1-AexBYmHB9CZDEWAojzlCzB \
+ghc-prof-transformers-compat-0.7.2-Je4epVh1rXP8zT22dFNkMW"
 
 inherit rpm

@@ -5,10 +5,10 @@ transcoders and web streamers. \
 This package contains python bindings."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.16.0"
+PV = "7.40.0"
 
-RPM_NAME = "python3-mlt-7.16.0-1.2.aarch64.rpm"
-RPM_HASH = "09b89570d251858903287aece84aa2421d74deb0f274d4496cdcaf4deb6aa619c9281a7a84bd5a657384e1994bf6450a4da6bf422ca769fdbb6a94358a3c5c19"
+RPM_NAME = "python3-mlt-7.40.0-1.1.aarch64.rpm"
+RPM_HASH = "d94cfc01a88c32dda1c083b0905b730e4adb2f08f7fb873279a53f16e5d11a3bd35d1fe748fc06771c11443bd0a44c65865daee48e80534d07733b641b3cf3e7"
 
 RPROVIDES:${PN} += "python3-mlt"
 

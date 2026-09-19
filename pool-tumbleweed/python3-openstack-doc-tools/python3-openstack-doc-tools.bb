@@ -4,14 +4,14 @@ DESCRIPTION = "Tools used by the OpenStack Documentation Project. \
 This package contains the Python 3.x module."
 LICENSE = "Apache-2.0"
 
-PV = "3.3.1"
+PV = "4.0.3"
 
-RPM_NAME = "python3-openstack-doc-tools-3.3.1-1.4.noarch.rpm"
-RPM_HASH = "1a2b82dae4b3354f9e3537cee5b8c56cfea225dfd1c1c78314cf9112760bd9c7b9f1b0080b60ee3a5b7accfab37404589d6063b26499c64794c9a58e22087096"
+RPM_NAME = "python3-openstack-doc-tools-4.0.3-1.2.noarch.rpm"
+RPM_HASH = "829aa3ae646dd17c3d0bab606e3f61f2c82ace45808e5ec8bc5a6e994c2398b2eb6770e44741d2dcefeeea89f5c57c3358c0f5f2300170667ffd85dce09cc8da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openstack-doc-tools \
-python3.11dist-openstack-doc-tools \
+python3.13dist-openstack-doc-tools \
 python3dist-openstack-doc-tools"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

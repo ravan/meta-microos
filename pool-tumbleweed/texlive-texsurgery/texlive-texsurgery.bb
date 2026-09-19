@@ -6,10 +6,10 @@ to work with texsurgery, and also has other uses, always in \
 tandem with the texsurgery pypi package."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.0.0.6.0svn59885"
+PV = "2026.227.0.0.6.0svn59885"
 
-RPM_NAME = "texlive-texsurgery-2023.209.0.0.6.0svn59885-55.1.noarch.rpm"
-RPM_HASH = "04cda25777a40837199c9ed0e8eab9cded571101617801a9925e840a273838845bc1a26393f3e9be026e6dd3e7a883e7f577e54f99bd9e4691ebf164889458ad"
+RPM_NAME = "texlive-texsurgery-2026.227.0.0.6.0svn59885-62.2.noarch.rpm"
+RPM_HASH = "e72fd6c8fc4de0cf40fa9866cf32c95729c716ed9ba5df2d67268a58174a19c58eb183b472d289cfc2109e35eed25489e9af7b53db803e592d6e93b1a62bab84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texsurgery.sty \

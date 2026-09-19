@@ -2,14 +2,13 @@ SUMMARY = "Documentation for texlive-pst-diffraction"
 DESCRIPTION = "This package includes the documentation for texlive-pst-diffraction"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.03svn62977"
+PV = "2026.226.2.06asvn71819"
 
-RPM_NAME = "texlive-pst-diffraction-doc-2023.209.2.03svn62977-53.1.noarch.rpm"
-RPM_HASH = "a7daa449b0714d18cab61246b1d88684aac89a10d69ab92fabf67bc180a3c1ace3a077145bbfcb8543cb0c97e41e3883ed3508a4217d3206589761bcd484254e"
+RPM_NAME = "texlive-pst-diffraction-doc-2026.226.2.06asvn71819-59.2.noarch.rpm"
+RPM_HASH = "966f2e1b058c14818e3fcc29c43b690663b2529b9e81940e4aa17f07e87af40013764d3b3f041593edb9a364931682a59b8a7d276e590a6a3e0c93b4533acf9d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-texlive-pst-diffraction-doc-de;en;fr \
-texlive-pst-diffraction-doc"
+RPROVIDES:${PN} += "texlive-pst-diffraction-doc"
 
 RDEPENDS:${PN} += ""
 

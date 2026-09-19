@@ -9,24 +9,27 @@ accessibility information. \
 In essence, Accerciser is a next generation at-poke tool."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.40.0"
+PV = "3.48.0"
 
-RPM_NAME = "accerciser-3.40.0-1.4.noarch.rpm"
-RPM_HASH = "ae828f40fd9e05b5a8ec4139c324f4fc4b287c7b22bae2a102316bbd1974ea795d131512fa3701bfb4ae72bbdb9bce627d6be77bf5a0bfd0c4e94c03e16d6c55"
+RPM_NAME = "accerciser-3.48.0-1.4.noarch.rpm"
+RPM_HASH = "7041c3d65f41a1d2bcba23d2a63c4dbd33b337a624fc13b4ea79e3e5397917ae43028a92f8365fa580314921edf191e44960f44f22aed577add903f117bba214"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "accerciser"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/python3.13 \
 py3atspi \
 python-abi \
 python3-gobject-Gdk \
 python3-python-xlib \
 typelib-Atk \
+typelib-Atspi \
 typelib-GLib \
 typelib-GObject \
 typelib-Gdk \
 typelib-GdkPixbuf \
+typelib-Gio \
 typelib-Gtk \
 typelib-Pango \
 typelib-Rsvg \

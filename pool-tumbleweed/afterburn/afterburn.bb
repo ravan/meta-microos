@@ -2,10 +2,10 @@ SUMMARY = "A cloud provider agent"
 DESCRIPTION = "Afterburn is a one-shot agent for cloud-like platforms which interacts with provider-specific metadata endpoints."
 LICENSE = "Apache-2.0"
 
-PV = "5.4.1"
+PV = "5.10.0.git73.b97f772"
 
-RPM_NAME = "afterburn-5.4.1-1.3.aarch64.rpm"
-RPM_HASH = "4590fdd0ca730825cc34103ff5749fbe92cdcc5a062eac8972708652dc551bd54f42480e0c43d020c13e93415d28d52851ef141e4a80af7a5cb848f2069a7c42"
+RPM_NAME = "afterburn-5.10.0.git73.b97f772-2.2.aarch64.rpm"
+RPM_HASH = "28e65cd9e6ffc97e40a143c6219425c103cf8e31b4a83220a6cecf7e652ac6dc9d966de5a282f5ace28cb35dcd264d26576b5bc3a982e9239d4828879f9b08dd"
 
 RPROVIDES:${PN} += "afterburn"
 

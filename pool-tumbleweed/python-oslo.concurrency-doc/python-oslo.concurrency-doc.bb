@@ -5,10 +5,10 @@ external processes. \
 This package contains the documentation."
 LICENSE = "Apache-2.0"
 
-PV = "5.0.1"
+PV = "7.6.1"
 
-RPM_NAME = "python-oslo.concurrency-doc-5.0.1-1.3.noarch.rpm"
-RPM_HASH = "7697872b1a2501b105df62809fbbd415ebce858ab0ff1ebae5715485444507ffeee81578f778c7be07ddb89535576a024ccc2b7a713df2e8f74f1f9371f3335c"
+RPM_NAME = "python-oslo.concurrency-doc-7.6.1-1.1.noarch.rpm"
+RPM_HASH = "85571f1ef0cef2e83e0ba718ccbf0145af5a4d68ded026eafdd4bfbea6d5007d771df1ca3506b2a46445de924280ac6aa72ad7a1482559bf3d3272534f35697a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.concurrency-doc"

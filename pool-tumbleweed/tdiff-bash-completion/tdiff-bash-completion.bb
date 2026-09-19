@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for tdiff"
 DESCRIPTION = "Bash completion script for tdiff."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.8.6"
+PV = "0.8.9"
 
-RPM_NAME = "tdiff-bash-completion-0.8.6-1.4.noarch.rpm"
-RPM_HASH = "2d0638d1d1a384c4e373d9aad942142967b289f4132b470ad96a96f03e085bc3f1040cb9659b9f97cc91bc2b4d38346836d7dcf096a63b2d1a4709c009ccdee1"
+RPM_NAME = "tdiff-bash-completion-0.8.9-1.5.noarch.rpm"
+RPM_HASH = "d6ac0808a33f62bbd3179a8a25eab49376a6625bd3adb43c12e394a89888cba1ccf7fde28cbca9769d28278b53b44388685bdf9952c5c450ab675677fd003e79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tdiff-bash-completion"

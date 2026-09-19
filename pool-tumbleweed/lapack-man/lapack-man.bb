@@ -1,17 +1,13 @@
-SUMMARY = "Manpages for LAPACK and BLAS"
-DESCRIPTION = "The lapack-man package contains documentation for LAPACK \
-(Linear Algebra PACKage) and BLAS (Basic Linear Algebra \
-Subprograms) routines, in the form of man pages."
+SUMMARY = "Man pages for BLAS, CBLAS, and LAPACK"
+DESCRIPTION = "This package provides the man pages for BLAS, CBLAS, and LAPACK."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.0"
+PV = "3.12.1"
 
-RPM_NAME = "lapack-man-3.9.0-9.1.noarch.rpm"
-RPM_HASH = "4b4513ef1e2dc52cd7c7e914a61243edcda2d88abff0021bc0ee2fa299acf790d88749fc3c641d2a3dc98034d33bb5be92adb769a83326309718c76dc96b849f"
-REPO_ARCH = "noarch"
+RPM_NAME = "lapack-man-3.12.1-5.1.aarch64.rpm"
+RPM_HASH = "54f2791381a798d64a5f896f643639f5476af989e479b89f4e7880b3213736afe547c88c94f4f8e2230487ac46f3a9c577ae5264d5622e335aeb0155fb79fd31"
 
-RPROVIDES:${PN} += "blas-man \
-lapack-man"
+RPROVIDES:${PN} += "lapack-man"
 
 RDEPENDS:${PN} += ""
 

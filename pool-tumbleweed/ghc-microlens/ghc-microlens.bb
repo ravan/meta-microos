@@ -10,8 +10,8 @@ This library is an extract from <http://hackage.haskell.org/package/lens lens> \
 world”, but merely a small one. It is compatible with lens, and should have \
 same performance. It also has better documentation. \
  \
-There's a longer readme <https://github.com/monadfix/microlens#readme on \
-Github>. It has a migration guide for lens users, a description of other \
+There's a longer readme <https://github.com/stevenfontanella/microlens#readme \
+on Github>. It has a migration guide for lens users, a description of other \
 packages in the family, a discussion of other lens libraries you could use \
 instead, and so on. \
  \
@@ -58,17 +58,18 @@ Note that microlens has no dependencies starting from GHC 7.10 (base-4.8). \
 Prior to that, it depends on transformers-0.2 or above."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.13.1"
+PV = "0.5.0.0"
 
-RPM_NAME = "ghc-microlens-0.4.13.1-2.3.aarch64.rpm"
-RPM_HASH = "c9e95523f22bb47781f932fe9dbbbe832f36a9e5d8770de6f0e4785513a27693b094e79bb9d844853e5e84d28f3407c76a3eeae1d20db6445f7ce1590e2bc6b9"
+RPM_NAME = "ghc-microlens-0.5.0.0-1.9.aarch64.rpm"
+RPM_HASH = "a8c058961fbe2b016d5530e1ff3b5097ea70a51ec22d2497cce9ad4379d3c17c5c8d66f9e3159420edffae3d5cb22c038a87d82816a50d6924c007e15b2838db"
 
 RPROVIDES:${PN} += "ghc-microlens \
-libHSmicrolens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3-ghc9.4.6.so"
+libHSmicrolens-0.5.0.0-K1fQqqDyjwS5maOWIXQxx3-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

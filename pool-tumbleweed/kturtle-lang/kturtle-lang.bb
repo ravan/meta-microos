@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kturtle"
 DESCRIPTION = "Provides translations for the 'kturtle' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kturtle-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "77909fba00d12431762d2b8fce98d2dd83d020015afec8f055c1c26c988f73bb75b9a865a28fbd151d450508b149829d7a5edb0ec16774a64253f85a0a1ec73e"
+RPM_NAME = "kturtle-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "c534c72f63303705db87492ffe1a958203d382d1ff9ef39786b37351844fefd59d4c0e108acf81abaedaeb4e803f596fe3c141e38ff56197b2cf50ea51fdecc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kturtle-lang \
 kturtle-lang-all \
 locale-kturtle-ar \
+locale-kturtle-ast \
 locale-kturtle-be \
 locale-kturtle-bg \
 locale-kturtle-bn \
@@ -37,6 +38,7 @@ locale-kturtle-he \
 locale-kturtle-hi \
 locale-kturtle-hr \
 locale-kturtle-hu \
+locale-kturtle-ia \
 locale-kturtle-is \
 locale-kturtle-it \
 locale-kturtle-ja \

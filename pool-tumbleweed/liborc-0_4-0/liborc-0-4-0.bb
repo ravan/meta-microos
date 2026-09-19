@@ -6,13 +6,14 @@ architectures, including saturated addition and subtraction, and many \
 arithmetic operations."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.34"
+PV = "0.4.44"
 
-RPM_NAME = "liborc-0_4-0-0.4.34-1.1.aarch64.rpm"
-RPM_HASH = "e12bbeab6ee95f0b0239d31ee2ffefb56f66e6d6086921b1701c159249a21ff3004ccb5f2e8177d52072d3d6f3924a76119f864dd32dafc74db4f0ef9357bb48"
+RPM_NAME = "liborc-0_4-0-0.4.44-1.1.aarch64.rpm"
+RPM_HASH = "53674481e637616a89d69954aa68a49ee3e90dfe5ed57145a0f533e1c244bb59d2f3b350b39384342b4a98fe1b9b28a68af4ec12afdb2cc7ef7e51025bee72f0"
 
 RPROVIDES:${PN} += "liborc-0-4-0 \
-liborc-0.4.so.0"
+liborc-0.4.so.0 \
+liborc-test-0.4.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \

@@ -5,12 +5,12 @@ EB, EBG, EBXA, EBXA-C, S-EBXA, and EPWING formats.  CD-ROM books in \
 those formats are popular in Japan.  Because CD-ROM books themselves \
 are based on the ISO 9660 format, you can mount the CDs in the same way \
 as other ISO 9660 CDs."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "4.4.3"
 
-RPM_NAME = "libeb16-4.4.3-3.29.aarch64.rpm"
-RPM_HASH = "c7ca62487dd1e55a6eb0b8d2a2961e89fd3505633eb770e32123464652dd3f77932eb6e65cec7e0a35630f97af822bddc88c13a61bd25fe7a4e553ea53bcf61d"
+RPM_NAME = "libeb16-4.4.3-7.5.aarch64.rpm"
+RPM_HASH = "9b437c793db5aa1208d2a77893ffbc8cd8ede8d2a03f13f09e1392301b338042b678e75c0bba8d2b09d0778dd900d54b386f5c42a404f2a877376f59f0f6b0e1"
 
 RPROVIDES:${PN} += "libeb.so.16 \
 libeb16"

@@ -7,10 +7,10 @@ weights in terms of the fundamental weights and the simple \
 roots. The package makes use of the author's coollist package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn67016"
 
-RPM_NAME = "texlive-dyntree-2023.209.1.0svn15878-54.2.noarch.rpm"
-RPM_HASH = "7acc09e4f78e6ae80f2a333bad282152e410d8e6b2c1b077828b185b2ed71f817875e301e692f59696dbcfcfd776efd87df65c680d5551f372ad254396bb7fef"
+RPM_NAME = "texlive-dyntree-2026.226.1.0svn67016-61.4.noarch.rpm"
+RPM_HASH = "f6908c34686e9b73d916d2a413994e9e1a7494f7f77cf4023dfa4db39a59340779726f34d545ccfcce9e18740f6363f9544750bcd5c66c3adf885ed9f283c151"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dyntree.sty \

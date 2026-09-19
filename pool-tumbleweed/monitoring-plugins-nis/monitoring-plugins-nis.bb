@@ -15,8 +15,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.2"
 
-RPM_NAME = "monitoring-plugins-nis-1.2-1.16.noarch.rpm"
-RPM_HASH = "20387e7e5101161eff933db2e364db338c794bd7851084087e118235b842033fc61454062e8ddb04d90389c44a524afb1e64b1849c869b45ba9efdc289b442ac"
+RPM_NAME = "monitoring-plugins-nis-1.2-1.24.noarch.rpm"
+RPM_HASH = "8fa397d678fb82d329a23fd20d291f125c191fa4922dcf26f67f9b0cfd3e18b616598008b5d84ac91d74870b0f94bb4afdab0b6a4ee7286f25736e16edae3bf3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-nis \

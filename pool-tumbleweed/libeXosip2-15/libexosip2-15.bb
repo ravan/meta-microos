@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.3.0"
 
-RPM_NAME = "libeXosip2-15-5.3.0-1.4.aarch64.rpm"
-RPM_HASH = "5c745115dc5abd369f4fabbb81ded93a408b6f0409631e14e1c2703e4e55d6abae5162bb039bd6344baccd1b313ea9e7ce9831f511ef1413005e5f794ed07a44"
+RPM_NAME = "libeXosip2-15-5.3.0-1.14.aarch64.rpm"
+RPM_HASH = "e4fce6224750d071a7fec1f9bce50d06b6c41d4d1dbd0b4f19f6fa782b692be5d4db573420c0ab53b03b7fac52ce2362bad8aab9ff479b6121fe8ef5b42c9190"
 
 RPROVIDES:${PN} += "libeXosip2 \
 libeXosip2-15 \

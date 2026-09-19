@@ -2,10 +2,10 @@ SUMMARY = "System user and group tss"
 DESCRIPTION = "This package provides the system account and group 'tss'."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-user-tss-20170617-24.16.noarch.rpm"
-RPM_HASH = "6be45ec1693623e93d09a7b2ca47f127641757cab2b6ee4a0ce49a64cb0f165753163674b014a9ad22bc3dfcff05da2669d14e6591df950eee3c43adacff2e60"
+RPM_NAME = "system-user-tss-20250822-2.3.noarch.rpm"
+RPM_HASH = "5e69b90c5556d04b8aaff94dc660bfa9e14f7ddbe731392779e8c37033c08c4324d8c8bcdc5d60573af26f1b70c120ab0da4cba8046e4eaa04c8b1bbc28c0c85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-tss \

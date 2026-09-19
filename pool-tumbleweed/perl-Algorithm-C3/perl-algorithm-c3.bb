@@ -10,15 +10,15 @@ Below is a brief explanation of C3 taken from the Class::C3 module. For \
 more detailed information, see the SEE ALSO section and the links there."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.11"
+PV = "0.110.0"
 
-RPM_NAME = "perl-Algorithm-C3-0.11-1.13.noarch.rpm"
-RPM_HASH = "7d50f4c374b144cbbf3557d75c8c6e3e6e0b97c998f504674d7f3495ea3e9a4a1eeb283dd1602692fe7e6a61b6eb06c245b880e760ade6f59305489f28af55ae"
+RPM_NAME = "perl-Algorithm-C3-0.110.0-1.10.noarch.rpm"
+RPM_HASH = "1c70167168161f26499960b89622cf8e42c1c3b6ad0efc4a6f3a6094c94545e79d5f3b7029a802aeb508ca8dc9f36da941d3c199fe27834384039b572489c092"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Algorithm--C3 \
 perl-Algorithm-C3"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

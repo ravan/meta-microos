@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libfm"
 DESCRIPTION = "Provides translations for the 'libfm' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "1.4.1"
 
-RPM_NAME = "libfm-lang-1.3.2-1.13.noarch.rpm"
-RPM_HASH = "6d792b3d0dfc4a74f953d59123ec8784a6195ee38b86f9c1b73d7b1cb4414cface1d589fdbb204cb45ee055c33ea14ef2fd8147cc5c758241fddbdc55b064fd1"
+RPM_NAME = "libfm-lang-1.4.1-2.5.noarch.rpm"
+RPM_HASH = "0816d3ff0cd59ea3ee815e0aac1a4f78389b2a0aebf516c590d0cff35dbe43a0faa892cb05112178863c09225bd7ff6ac69f59d22e99d10e3451276f6127ba7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfm-lang \
@@ -36,6 +36,7 @@ locale-libfm-id \
 locale-libfm-is \
 locale-libfm-it \
 locale-libfm-ja \
+locale-libfm-ka \
 locale-libfm-kk \
 locale-libfm-ko \
 locale-libfm-lt \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ocr-b-outline"
 DESCRIPTION = "This package includes the documentation for texlive-ocr-b-outline"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20969"
+PV = "2026.226.svn20969"
 
-RPM_NAME = "texlive-ocr-b-outline-doc-2023.209.svn20969-55.1.noarch.rpm"
-RPM_HASH = "4883eebf77918c0f1763231c577e762681555a0050bb7afa57df1962cd1051428f193d6969b265ac6e539cc785f8bf0e664fa6cb362c1dff7e252f8611b748f9"
+RPM_NAME = "texlive-ocr-b-outline-doc-2026.226.svn20969-61.2.noarch.rpm"
+RPM_HASH = "2b350ab97a12b70ed24e1847c4d92e27c93d20670100090530eb22032b8095f28292fab343fed5008fad0e46c3ff4b68654ca03d8835ba38b368a5674be662c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ocr-b-outline-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "The qwt6-qt5-designer package contains the plugin for the Qt5 Use
 designer tool."
 LICENSE = "SUSE-QWT-1.0"
 
-PV = "6.2.0"
+PV = "6.3.0"
 
-RPM_NAME = "qwt6-qt5-designer-6.2.0-2.1.aarch64.rpm"
-RPM_HASH = "b9ff67593d237b0568d392123d9d79f3fd0ab701ff71daf8e937a468faa9cac4ce57ff2db9203eb2d4dd4bc36a5d4b6a1f92d808ba76230e058068041fb9224a"
+RPM_NAME = "qwt6-qt5-designer-6.3.0-1.9.aarch64.rpm"
+RPM_HASH = "fc0abcd95d7d20e313e89d142293d90257a3b195981ece1c06704d27542de1bb761204d1a35b53c835e12795d79bdd51dc39e4ec6d14bf57e9903fa86b3732b5"
 
 RPROVIDES:${PN} += "libqwt-designer-plugin.so \
 qwt-qt5-designer \
@@ -18,7 +18,7 @@ libQt5Gui.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libqwt-qt5.so.6.2 \
+libqwt-qt5.so.6.3 \
 libstdc++.so.6 \
 qwt6-qt5-devel"
 

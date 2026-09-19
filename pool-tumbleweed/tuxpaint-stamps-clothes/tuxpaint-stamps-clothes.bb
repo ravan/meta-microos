@@ -3,10 +3,10 @@ DESCRIPTION = "tuxpaint-stamps-clothes package contains a set of 'Rubber Stamp' 
 which can be used with the 'Stamp' tool within Tux Paint."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2021.11.25"
+PV = "2023.07.20"
 
-RPM_NAME = "tuxpaint-stamps-clothes-2021.11.25-1.5.noarch.rpm"
-RPM_HASH = "7ccb3e2d669f3a2ab8071f498aba4c1c7c8e85164331bf1d2a27995bc21790ead02afbbc6b8e464b11ec6eb89a73e19e47817e9a2a2b37f71573f1fb4c97fe6b"
+RPM_NAME = "tuxpaint-stamps-clothes-2023.07.20-1.9.noarch.rpm"
+RPM_HASH = "f5d0ccdd3ce114a13e499b6c49c174953b6f34f746bbdf77b60af66cb34fbd9ef1c235f0ae27c75e7cd16e1dbcd1cf431c999feb90049157f77c92b74b8c5a27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-stamps-category \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-notes-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-notes-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.0"
+PV = "1.12.0"
 
-RPM_NAME = "xfce4-notes-plugin-lang-1.10.0-1.1.noarch.rpm"
-RPM_HASH = "282c5698de4003f3864ddcda4fcc8f234c35fd1fbe7580ef93bb216c99f821aac80d72187c5272ba1cdbbcf6a8aa6ab358025cb79200fc8fae6f86bcaffd690c"
+RPM_NAME = "xfce4-notes-plugin-lang-1.12.0-1.6.noarch.rpm"
+RPM_HASH = "d7f6cc27f6cea0442a9ae3adb9b64a1a62acc5b37e952bdb9606b38484589c242f7be9b3c510b09ab6047ecb6f73d317d576c7dc45280a787365eb439a6c8908"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-notes-plugin-ar \

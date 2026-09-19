@@ -9,11 +9,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "qtodotxt-1.9.0-3.2.noarch.rpm"
-RPM_HASH = "903573f6825416dd23f3383d992f71a3f8026a0e9233307cd5f21f8290d4d7528db8ec1da330c4d615cb49c1c71bcd8988b5bdf9ebf6836bb454f63b61bac22f"
+RPM_NAME = "qtodotxt-1.9.0-3.11.noarch.rpm"
+RPM_HASH = "c460434a0f7485db843b540b9cc11b86deec190f8a5609362b41bcf8a870fad5b3009820217845cd986a4e73fa726324ec46515b2e95aa8b9849d5dd89a303b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-qtodotxt \
+RPROVIDES:${PN} += "python3.13dist-qtodotxt \
 python3dist-qtodotxt \
 qtodotxt"
 

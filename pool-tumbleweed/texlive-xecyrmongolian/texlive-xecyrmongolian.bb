@@ -6,10 +6,10 @@ hyphenation patterns so to be able to create multilingual \
 documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn53160"
+PV = "2026.226.1.0svn53160"
 
-RPM_NAME = "texlive-xecyrmongolian-2023.209.1.0svn53160-53.2.noarch.rpm"
-RPM_HASH = "7ffd03b8467515a9af8ecd0f23bc2f7111fa2476803a36b1142dcf15bf816c0417dc9897132fb5d978a75c2a40d9c2bc0f61de25ab44fce4b969521fbe5f29a4"
+RPM_NAME = "texlive-xecyrmongolian-2026.226.1.0svn53160-59.4.noarch.rpm"
+RPM_HASH = "22cab1099d7fed10e6fde2a9181764cbea294fcb9dac9f745a0447c2de38fa692ad26f070915eb5972978ba53e36ce4561b0eeb3eb869615af3ff758dae10a75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xecyrmongolian.sty \

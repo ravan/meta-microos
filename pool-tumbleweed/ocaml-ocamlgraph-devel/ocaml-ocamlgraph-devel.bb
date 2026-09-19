@@ -1,13 +1,12 @@
-SUMMARY = "Development files for the OcamlGraph graph library"
-DESCRIPTION = "OCamlgraph is a graph library for Objective Caml. \
- \
-This package contains development files for ocaml-ocamlgraph."
+SUMMARY = "Development files for ocaml-ocamlgraph"
+DESCRIPTION = "The ocaml-ocamlgraph-devel package contains libraries and signature files for \
+developing applications that use ocaml-ocamlgraph."
 LICENSE = "LGPL-2.1"
 
-PV = "2.0.0"
+PV = "2.2.0"
 
-RPM_NAME = "ocaml-ocamlgraph-devel-2.0.0-1.16.aarch64.rpm"
-RPM_HASH = "3f1f9678a816869e9fe1f62e44e3796316ccb4eebc5fcffeda0220e5933de5696a1241be77bf065d3794520ec731ef2d63a4a362401c345ec639f620381f31ba"
+RPM_NAME = "ocaml-ocamlgraph-devel-2.2.0-2.1.aarch64.rpm"
+RPM_HASH = "56dfaefb75a283c166dce4011bd922f8c972f86e82395c49fabc7bdb31dd9928cb4aed90504514675b2907928a89b0b83495a184e52b71b225e871522b5d5ef0"
 
 RPROVIDES:${PN} += "ocaml-Graph \
 ocaml-Graph-- \
@@ -21,17 +20,20 @@ ocaml-Graph--Cliquetree \
 ocaml-Graph--Coloring \
 ocaml-Graph--Components \
 ocaml-Graph--Contraction \
+ocaml-Graph--Cycles \
 ocaml-Graph--DGraphModel \
 ocaml-Graph--DGraphRandModel \
 ocaml-Graph--DGraphSubTree \
 ocaml-Graph--DGraphTreeLayout \
 ocaml-Graph--DGraphTreeModel \
 ocaml-Graph--Delaunay \
+ocaml-Graph--Deque \
 ocaml-Graph--Dominator \
 ocaml-Graph--Dot \
 ocaml-Graph--Dot-ast \
 ocaml-Graph--Dot-lexer \
 ocaml-Graph--Dot-parser \
+ocaml-Graph--Eulerian \
 ocaml-Graph--Fixpoint \
 ocaml-Graph--Flow \
 ocaml-Graph--Gmap \
@@ -79,16 +81,19 @@ ocamlx-Graph--Cliquetree \
 ocamlx-Graph--Coloring \
 ocamlx-Graph--Components \
 ocamlx-Graph--Contraction \
+ocamlx-Graph--Cycles \
 ocamlx-Graph--DGraphModel \
 ocamlx-Graph--DGraphRandModel \
 ocamlx-Graph--DGraphSubTree \
 ocamlx-Graph--DGraphTreeLayout \
 ocamlx-Graph--DGraphTreeModel \
 ocamlx-Graph--Delaunay \
+ocamlx-Graph--Deque \
 ocamlx-Graph--Dominator \
 ocamlx-Graph--Dot \
 ocamlx-Graph--Dot-lexer \
 ocamlx-Graph--Dot-parser \
+ocamlx-Graph--Eulerian \
 ocamlx-Graph--Fixpoint \
 ocamlx-Graph--Flow \
 ocamlx-Graph--Gmap \
@@ -128,9 +133,11 @@ ocaml-CamlinternalOO \
 ocaml-Stdlib \
 ocaml-Stdlib--Array \
 ocaml-Stdlib--Buffer \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Format \
+ocaml-Stdlib--Fun \
 ocaml-Stdlib--Hashtbl \
 ocaml-Stdlib--Int32 \
 ocaml-Stdlib--Int64 \
@@ -140,6 +147,7 @@ ocaml-Stdlib--List \
 ocaml-Stdlib--Map \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
+ocaml-Stdlib--Option \
 ocaml-Stdlib--Parsing \
 ocaml-Stdlib--Printf \
 ocaml-Stdlib--Queue \
@@ -152,7 +160,6 @@ ocaml-Stdlib--String \
 ocaml-Stdlib--Sys \
 ocaml-Stdlib--Uchar \
 ocaml-ocamlgraph \
-ocamlfind-stdlib-shims \
 ocamlx-CamlinternalLazy \
 ocamlx-CamlinternalMod \
 ocamlx-CamlinternalOO \
@@ -161,11 +168,13 @@ ocamlx-Stdlib--Array \
 ocamlx-Stdlib--Buffer \
 ocamlx-Stdlib--Filename \
 ocamlx-Stdlib--Format \
+ocamlx-Stdlib--Fun \
 ocamlx-Stdlib--Hashtbl \
 ocamlx-Stdlib--Int64 \
 ocamlx-Stdlib--Lexing \
 ocamlx-Stdlib--List \
 ocamlx-Stdlib--Map \
+ocamlx-Stdlib--Option \
 ocamlx-Stdlib--Parsing \
 ocamlx-Stdlib--Printf \
 ocamlx-Stdlib--Queue \

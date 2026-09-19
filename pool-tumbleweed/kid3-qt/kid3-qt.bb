@@ -21,18 +21,18 @@ This package does not use KDE libraries, if you use KDE you should use kid3. \
 For a commandline interface you can use kid3-cli."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.9.3"
+PV = "3.9.7"
 
-RPM_NAME = "kid3-qt-3.9.3-1.4.aarch64.rpm"
-RPM_HASH = "658e8ebd5b6efca736b35a02fbff9621671a81324959a98569af2e9685b6bd829afa29cb0f33f60e0cc1520f249e20f7a3809d5a5b4d73f6d73b5a1f2e6721dd"
+RPM_NAME = "kid3-qt-3.9.7-2.6.aarch64.rpm"
+RPM_HASH = "330b772d7c3c235bbcfede7009c3d5cc6ad6d410805386bf47f7c96942174a0d4025497634d6f31aada704baf2c5c208c089421a825cd7e7502237a02a9ea7a3"
 
 RPROVIDES:${PN} += "kid3-qt"
 
 RDEPENDS:${PN} += "kid3-core \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libkid3-core.so \

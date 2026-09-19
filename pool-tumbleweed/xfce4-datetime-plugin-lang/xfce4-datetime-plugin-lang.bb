@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "xfce4-datetime-plugin-lang-0.8.3-1.3.noarch.rpm"
-RPM_HASH = "6e87046287a585001c1ece5ba081dcdc88cc526d7014cc4f9dc3a860a0001908c49988856625998eb43a7e1af07db3bab133748cea0bd6cc8ca312abb79cb58e"
+RPM_NAME = "xfce4-datetime-plugin-lang-0.8.3-1.14.noarch.rpm"
+RPM_HASH = "f6369c8cbb2fedeb33169086c12021ae94e8792feaefa3afe608bb4fd335e97350c94ef2cc896f465176d0f27f61fb7b4d39b5e8e7a56e8c4ab309ccced7c63f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-datetime-plugin-ar \

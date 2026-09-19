@@ -5,17 +5,16 @@ applications, either as a KPart or using the KF5::TextEditor library. \
 This subpackage provides the header files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "ktexteditor-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "cfa5ef452f27713c11df34166b1689b869b2a578161d7ed4350506a3ced465a4903621feb9a239d3bbef150e7ff58fa535f7a4a51b6f9c2c56ec3e330dc8581a"
+RPM_NAME = "ktexteditor-devel-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "eecc71a930bcc02a5ca45f3caaa5a759118e8f51f40ac9fc4088e16f2cc67bd2254f54c6d57605f4dd24271ecf1704152f5823c501a8a1dd7baea443181f2d13"
 
 RPROVIDES:${PN} += "cmake-KF5TextEditor \
 ktexteditor-devel"
 
 RDEPENDS:${PN} += "cmake-KF5Parts \
 cmake-KF5SyntaxHighlighting \
-extra-cmake-modules \
 ktexteditor"
 
 inherit rpm

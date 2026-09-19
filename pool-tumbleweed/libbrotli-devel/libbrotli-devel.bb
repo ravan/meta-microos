@@ -6,10 +6,10 @@ The specification of the Brotli Compressed Data Format is defined in \
 RFC 7932."
 LICENSE = "MIT"
 
-PV = "1.0.9"
+PV = "1.2.0"
 
-RPM_NAME = "libbrotli-devel-1.0.9-3.4.aarch64.rpm"
-RPM_HASH = "7d16c5684cd3274c6301e1f2791c5778a4553cf7ce6092a518ea1ec405075d431040bf00bc3e032b18017c180f82c377ff05ab1f82f06193edb1b3ba992918bd"
+RPM_NAME = "libbrotli-devel-1.2.0-2.3.aarch64.rpm"
+RPM_HASH = "9f417b355f916742a2d3497f8fe5c29b5a1387df235f87f3e88b8a57bda81ce9439a2509f91ce8b763c23a98420136e46ca1af09dcf27b52aa7c30114544f88e"
 
 RPROVIDES:${PN} += "libbrotli-devel \
 libbrotlicommon-devel \

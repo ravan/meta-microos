@@ -7,24 +7,25 @@ coding, respectively, for the best compression ratios currently possible. \
  \
 For AVIF libaom, dav1d, or rav1e are used as codecs. HEIF support is not \
 provided."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LGPL-3.0-only & MIT"
 
-PV = "1.16.2"
+PV = "1.23.4"
 
-RPM_NAME = "libheif1-1.16.2-1.2.aarch64.rpm"
-RPM_HASH = "73a54b979f3d4df44e06c5a71d616e0663c63f755bdc11d5b043b2b4d9666c053f571272fb6da84ef08f63e5146d8a2953e749e0ea94a65bac158b06f5768269"
+RPM_NAME = "libheif1-1.23.4-1.1.aarch64.rpm"
+RPM_HASH = "e4fddb9884ab5ca797636144fb9bc9d81ca89e5c50d8baf5afea97f531fe7a7d237dd5f46e65e9c85e299a143fa9d8f689f58f0718b3af34eba9ba57787cc4c7"
 
 RPROVIDES:${PN} += "libheif.so.1 \
 libheif1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libaom.so.3 \
+libbrotlidec.so.1 \
+libbrotlienc.so.1 \
 libc.so.6 \
-libdav1d.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libsharpyuv.so.0 \
-libstdc++.so.6"
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

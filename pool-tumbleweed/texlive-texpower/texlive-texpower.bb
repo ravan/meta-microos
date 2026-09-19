@@ -9,10 +9,10 @@ existing class for preparing slides (such as foiltex or \
 seminar) or another package such as pdfslide."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.2svn29349"
+PV = "2026.227.0.0.2svn29349"
 
-RPM_NAME = "texlive-texpower-2023.209.0.0.2svn29349-55.1.noarch.rpm"
-RPM_HASH = "2064e91d6f6ac64832bd4208bab013392021c02a7f994a57911d4276293b7e25b6468fa6eb6e7a8ba3785c0f0f804190a6217f6b38de8202ba9e681250172da3"
+RPM_NAME = "texlive-texpower-2026.227.0.0.2svn29349-62.2.noarch.rpm"
+RPM_HASH = "180171dcb9449436a9af8f6aa312e7d6d9ec8579408e9bb133f10e3af160487816ab7d9ba4cd145673c043cc88211b263fe45d3d6a96186861fec52a9832273b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-automata.sty \

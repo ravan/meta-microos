@@ -5,24 +5,23 @@ components and links to the corresponding HIG pages and \
 code examples on cgit"
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kirigami-gallery-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "79055c7858d606bc14032b1111d3cd4050aa0924f6271aff727174126f2a8c70c39b07dcd70dd1c3194d616db590b6b72b1c4db359f68eece0a78ad3f7e0cba8"
+RPM_NAME = "kirigami-gallery-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "4fa14d7336290a83cb1adb763c34cb1dbe7af87d2e253c8054f68c664a1e651dd53db31c04b3a98acc43f4a703d967a2b15f5402a10776c27d0da15f0e2cd543"
 
 RPROVIDES:${PN} += "kirigami-gallery"
 
-RDEPENDS:${PN} += "kirigami2 \
-kitemmodels-imports \
+RDEPENDS:${PN} += "kf6-kirigami-imports \
+kf6-kitemmodels-imports \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libqt5-qtgraphicaleffects \
-libqt5-qtquickcontrols2 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6-declarative-imports"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package audacity"
 DESCRIPTION = "Provides translations for the 'audacity' package."
 LICENSE = "CC-BY-3.0 & GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "3.3.3"
+PV = "3.7.9"
 
-RPM_NAME = "audacity-lang-3.3.3-2.1.noarch.rpm"
-RPM_HASH = "889f5211c1954b92b36058ec0ad5628eea5459f8d7de8f06766e789ffc6b61b8d498e913b7fba2b2a3d9530161b97f1170fe775a2239aba2495b4ef9857cf6f1"
+RPM_NAME = "audacity-lang-3.7.9-1.1.noarch.rpm"
+RPM_HASH = "fab32909b88a7d469051b5ad9483c0e85d2611477047b54f8920ed644df32760cff8ff9fa93c6b9f7a973660d793a619218a09b0e33cef6586f9df6e9822a0d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "audacity-lang \

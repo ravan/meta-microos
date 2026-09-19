@@ -5,10 +5,10 @@ This package contains the core user-space tools needed for creating and \
 managing the file system."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.8.7"
+PV = "1.8.8"
 
-RPM_NAME = "ocfs2-tools-1.8.7-7.5.aarch64.rpm"
-RPM_HASH = "8f4c39dfa878809febe5af0f16135b841130a4c3f604c490c37f21ad896c34296fddb3decc64a4aa4155f3695497a01257b38b2dca47e579b907b4fa8472f2e1"
+RPM_NAME = "ocfs2-tools-1.8.8-8.6.aarch64.rpm"
+RPM_HASH = "bd7935d51963b358e9ac0ce88903b5a76e089a3ad3cbeb890bee0e2fdb623fb6637ac92de42f29c9d291fdf03726b4fd684822821f727d23aa21ef385ba86cff"
 
 RPROVIDES:${PN} += "ocfs2-tools"
 

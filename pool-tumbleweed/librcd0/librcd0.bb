@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.1.14"
 
-RPM_NAME = "librcd0-0.1.14-4.27.aarch64.rpm"
-RPM_HASH = "a2dd37d1e7f76c8656a5b2a71ba99284fc15b3ca532bd98d0e674216e72c96feb68f174dc44c6571ec0bef6db76feb3c5640645cb8a3ec000ee95721a8a5a048"
+RPM_NAME = "librcd0-0.1.14-5.5.aarch64.rpm"
+RPM_HASH = "c09388ddb4ac6390c9ce713ed476b93e1872711c05b65d1ad35790b0fc7270c08cb6f4cdb0b6cba68aa3adac95355ce4a16443c1491d163ac55b1b40b09374ba"
 
 RPROVIDES:${PN} += "librcd.so.0 \
 librcd0"

@@ -3,15 +3,16 @@ DESCRIPTION = "This package provides private headers of libQt6Network that do no
 ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-network-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "5def49ece37f62241d1ec755f834bf6ae847688c8943e6b8f50b51d134e61a15297e27fd8805df0ae217914e1f20974f3fa3c7f128800eec0810bce7d9fad0e8"
+RPM_NAME = "qt6-network-private-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "53cda7133ee5c531fd767e42ac0b67fd5cd75aae294b41ed142753c1f56aa9c742c6cfdbb060e254c6a0b54bbb7388b9ce78a78ca8b7678f125d5cf35a100a61"
 
-RPROVIDES:${PN} += "qt6-network-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6NetworkPrivate \
+qt6-network-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6Network \
-libopenssl-3-devel \
-qt6-core-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate \
+cmake-Qt6Network \
+libopenssl-3-devel"
 
 inherit rpm

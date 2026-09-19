@@ -2,27 +2,29 @@ SUMMARY = "Tool for filesystem snapshot management"
 DESCRIPTION = "This package contains snapper, a tool for filesystem snapshot management."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.10.5"
+PV = "0.13.1"
 
-RPM_NAME = "snapper-0.10.5-2.1.aarch64.rpm"
-RPM_HASH = "86511fe1dcc0d0674580c535c4579af35f5d5349f6dcce7695cdfb24c0c249d81b7440ab2c20386d0cc8dbcff3f1fb6f959252b5b474c96775bc8916311e547c"
+RPM_NAME = "snapper-0.13.1-3.3.aarch64.rpm"
+RPM_HASH = "721e326785c4f77881ed7ebf0de439b398782326ce0903084f8148209f3dac6a2e43aef6ec8ecce25b62533a6ea31ddc5f960102aa3aa023999c6210b090c5b9"
 
 RPROVIDES:${PN} += "snapper"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+dbus-service \
 diffutils \
 ld-linux-aarch64.so.1 \
-libboost-thread.so.1.82.0 \
+libboost-thread.so.1.91.0 \
 libc.so.6 \
 libdbus-1.so.3 \
 libgcc-s.so.1 \
 libjson-c.so.5 \
 libm.so.6 \
 libmount.so.1 \
-libsnapper.so.7 \
-libsnapper7 \
+libsnapper.so.8 \
+libsnapper8 \
 libstdc++.so.6 \
 libtinfo.so.6 \
+libxml2.so.16 \
 systemd"
 
 inherit rpm

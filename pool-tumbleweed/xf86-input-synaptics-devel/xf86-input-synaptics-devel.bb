@@ -6,10 +6,10 @@ drivers, this driver allows more advanced features of the touchpad to \
 become available."
 LICENSE = "MIT"
 
-PV = "1.9.2"
+PV = "1.10.0"
 
-RPM_NAME = "xf86-input-synaptics-devel-1.9.2-1.4.aarch64.rpm"
-RPM_HASH = "49fbeb58237541988d67079fadbed74f930613e26ff6972cb7a40bcdbfa26890d8a346025a777f514e6026012c68cb1d75b86e93c7fb51d61cab7c9c609babd4"
+RPM_NAME = "xf86-input-synaptics-devel-1.10.0-1.8.aarch64.rpm"
+RPM_HASH = "b571fba43ed17de6b090f8d38107764fefbdd4547b12aa1f6c3f67f8c41f85ff301b6c2b105906ee234e23fbfe53ba3a59365732ffc4f155516515b32c726aad"
 
 RPROVIDES:${PN} += "pkgconfig-xorg-synaptics \
 xf86-input-synaptics-devel"

@@ -7,10 +7,10 @@ This package provides utilies for making use of the PulseAudio sound \
 server."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "16.1"
+PV = "17.0"
 
-RPM_NAME = "pulseaudio-utils-16.1-4.1.aarch64.rpm"
-RPM_HASH = "476acc65fb45354308545d08483006210cde058a4f6c9975601b3315ad0578e30e87444689e9a50576d954f9c593e8d957cd8ef2a3ebf2a9c4ce97c1335d312f"
+RPM_NAME = "pulseaudio-utils-17.0-7.5.aarch64.rpm"
+RPM_HASH = "12784255af7dccaba30aaab616a5f438faa6b601213715fa1d865d295fad5c15b45f567abae61ee326ee9e0e5343668669c296d883bd5e74067cb87e4196fe59"
 
 RPROVIDES:${PN} += "libpulsedsp.so \
 pulseaudio-utils"
@@ -22,7 +22,7 @@ libc.so.6 \
 libpulse-mainloop-glib0 \
 libpulse.so.0 \
 libpulse0 \
-libpulsecommon-16.1.so \
+libpulsecommon-17.0.so \
 libsndfile.so.1 \
 libxcb.so.1 \
 pulseaudio-daemon"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
 PV = "0.5.4"
 
-RPM_NAME = "libavc1394-0-0.5.4-19.15.aarch64.rpm"
-RPM_HASH = "ed24ff3cf6a39a048af3b6cfdac3ba2e3a66ca5db73aa1e8cbc3ba6e350b13352c90d76aa550831ddabc6c799e833ec2d98ec3f889c3d227d331a39e860c908e"
+RPM_NAME = "libavc1394-0-0.5.4-20.9.aarch64.rpm"
+RPM_HASH = "909bcbf8606b6013a1fb9476ac3957dcdd0885e19a927b10069d02d0f231fcbcce6a270ba75ae787c81715293e999fdaadea4152fa221073b55aab08692249a5"
 
 RPROVIDES:${PN} += "libavc1394-0 \
 libavc1394.so.0 \

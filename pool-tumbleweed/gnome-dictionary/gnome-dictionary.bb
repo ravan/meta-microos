@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "40.0"
 
-RPM_NAME = "gnome-dictionary-40.0-3.7.aarch64.rpm"
-RPM_HASH = "090720da73b805f5d9e76e6de2179154424da6e976a1a0743755a1b89659d98df75a476d6a8744536d9c33032097240c05ff3a36eca89a23f3b9a1a01c29dd52"
+RPM_NAME = "gnome-dictionary-40.0-4.13.aarch64.rpm"
+RPM_HASH = "6749d2afe237f8c4a0ef50189eea1db2f9af60f8b906e98e9f6cd14275b28f044a7b2f38a283742298dca0f4b01a4020dd021cb1c96d95ee67f44bd462138025"
 
 RPROVIDES:${PN} += "gnome-dictionary"
 

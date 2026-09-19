@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "10.beta11"
 
-RPM_NAME = "nodejs-packaging-10.beta11-4.2.noarch.rpm"
-RPM_HASH = "a3ab44bea35feba8028e3cb54251ac6c778604abd99eb1e5c884d154969decf026033dc8b05a360343aecdeb4f7ca8794adf606502c357dbf161c6e704495ff4"
+RPM_NAME = "nodejs-packaging-10.beta11-4.12.noarch.rpm"
+RPM_HASH = "1d146f2d41ecde57fe4b801267af9824b181bd64d4ff8e185c8a3bb1f82c72173992715f75987252a993313e5b2f27a703b2a91ccda9a243a340231a688f488c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nodejs-packaging \

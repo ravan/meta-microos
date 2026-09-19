@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-smartbookmark-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-smartbookmark-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.5.2"
+PV = "0.6.0"
 
-RPM_NAME = "xfce4-smartbookmark-plugin-lang-0.5.2-1.12.noarch.rpm"
-RPM_HASH = "55bf0480908e1e4647ec23531d394d0b01a4cee8e11b928356bf4dbe8c455e74c476d57f05ee19b05328f8b71c1097925017521546b34fc82b1ede968e1728f3"
+RPM_NAME = "xfce4-smartbookmark-plugin-lang-0.6.0-1.4.noarch.rpm"
+RPM_HASH = "787219d06bab20ba78dced0f083f5c87160a66948bda9357d04c3f8d08f8871d5fd745e7325f00ac1ea2261fa47f1f98484d4fcb04737e356f049b2476f87857"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-smartbookmark-plugin-ar \
@@ -43,6 +43,7 @@ locale-xfce4-smartbookmark-plugin-oc \
 locale-xfce4-smartbookmark-plugin-pl \
 locale-xfce4-smartbookmark-plugin-pt \
 locale-xfce4-smartbookmark-plugin-pt-BR \
+locale-xfce4-smartbookmark-plugin-ro \
 locale-xfce4-smartbookmark-plugin-ru \
 locale-xfce4-smartbookmark-plugin-sk \
 locale-xfce4-smartbookmark-plugin-sl \

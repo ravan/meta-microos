@@ -7,10 +7,10 @@ initializing of SCSI tape drive modes at system startup, or when \
 new tape drivers are added."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7"
+PV = "1.8"
 
-RPM_NAME = "mt-st-1.7-1.2.aarch64.rpm"
-RPM_HASH = "7dead4d91b5d4c8013359d88397f9b8a6af947b9dc64d031d54fe2348dc527778843e6d65105ddd9f6a873cdb917bdd371efb9692ae066036a5f9cb86dd9d9e6"
+RPM_NAME = "mt-st-1.8-1.5.aarch64.rpm"
+RPM_HASH = "dd4ae88e0c90dfb907bde580971a8617a49cc77e21ad78bf01439ac5a5babecb403cc86f49eceeeb390367d526719e933e3029ac523503669961ab05cdce6c9f"
 
 RPROVIDES:${PN} += "config-mt-st \
 mt \

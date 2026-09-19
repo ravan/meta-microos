@@ -2,10 +2,10 @@ SUMMARY = "VNC Protocol Plugin for Remmina"
 DESCRIPTION = "This package provides the RDP protocol plugin for Remmina."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.31"
+PV = "1.4.43"
 
-RPM_NAME = "remmina-plugin-vnc-1.4.31-1.1.aarch64.rpm"
-RPM_HASH = "fb3a6ff3cdc4f26dbb52c05d7d4afafe0a2a94fdde98e32e0c05a5122e02a6d76d740ba739379206b4fce17a96cb9a6bc3d86754ed8e3fd44e97392c1e5aab14"
+RPM_NAME = "remmina-plugin-vnc-1.4.43-2.2.aarch64.rpm"
+RPM_HASH = "f45b5a98c8c7cd3539871fd34f07ccb08fb66fe6a77d6aa001330eebd159effa94aa0c06068d5e1b538868444e2b0ac6ebf73750984fc24081a16c0668645335"
 
 RPROVIDES:${PN} += "remmina-plugin-vnc"
 

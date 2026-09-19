@@ -7,10 +7,10 @@ This package contains the dynamic libraries required to make existing \
 applications become socks clients."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.3"
+PV = "1.4.4"
 
-RPM_NAME = "libsocks0-1.4.3-2.9.aarch64.rpm"
-RPM_HASH = "759111b3c948f2e554cd87b6a2a9da3ec47cc7b6689a4e77bf8fc1fcd0c84e789c04a6418e08e7ace278a1c60417533f4b8bf8bf7009ea172eecf3cc435deb97"
+RPM_NAME = "libsocks0-1.4.4-2.4.aarch64.rpm"
+RPM_HASH = "e030633c81d578aac21b7245b18c03e8141ea0f17341603c206de701e2adbc84ea33add3cab068e0848fe209435ff4a05229447b654f61a6163179a52759b11b"
 
 RPROVIDES:${PN} += "libsocks.so.0 \
 libsocks0"
@@ -19,6 +19,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgssapi-krb5.so.2 \
-libminiupnpc.so.17"
+libminiupnpc.so.21"
 
 inherit rpm

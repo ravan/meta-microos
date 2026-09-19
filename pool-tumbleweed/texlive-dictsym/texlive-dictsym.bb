@@ -6,10 +6,10 @@ commonly used in dictionaries. The accompanying macro package \
 makes the symbols accessible as LaTeX commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20031"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-dictsym-2023.209.svn20031-53.1.noarch.rpm"
-RPM_HASH = "138d2c3f96401ebc783458db553ca2ae2a3e99b4e16170dddaa76851b8f5f9b76f13a6013f74d240e43911cfb248dadf514158fddc9b322934683e3496095a71"
+RPM_NAME = "texlive-dictsym-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "502af4c8e5815223a681727327583bae83de75148094a10f6b7613d67aef201cb4c3e21119b53381ed0945db4efd0a12ac702d671904bfb9fa0aff5fd16a3159"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dictsym.map \

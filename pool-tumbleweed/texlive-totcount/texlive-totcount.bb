@@ -5,10 +5,10 @@ incremented when they are changed, the recorded value will \
 usually be the maximum value."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn21178"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-totcount-2023.209.1.2svn21178-53.1.noarch.rpm"
-RPM_HASH = "72b4aa8d674e4c94b28bdca4e29d0358cb5e24f0b62d863958be28a30947ccaaca09d869bb2ff47b965f436e542b13b0c95f5af093a2fce4b81fb9d134097f45"
+RPM_NAME = "texlive-totcount-2026.226.1.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "dcfd55354edc18f24244712b64032a227da6619b5224251343762093fcffa5102bde9a2b77e82754bbf50346c033e96bddc9d2c6d16ef6228eb062df27302c21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-totcount.sty \

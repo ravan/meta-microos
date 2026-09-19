@@ -1,12 +1,13 @@
 SUMMARY = "Change folders color of Papirus icon theme"
-DESCRIPTION = "Papirus Folders is a command-line utility that allows changing the color of folders in Papirus icon theme. \
-Type 'papirus-folders --help' to see all options available."
+DESCRIPTION = "Papirus Folders is a command-line utility that allows changing the color of \
+folders in Papirus icon theme.  Type 'papirus-folders --help' to see all \
+options available."
 LICENSE = "MIT"
 
-PV = "1.12.1"
+PV = "1.14.0"
 
-RPM_NAME = "papirus-folders-1.12.1-1.1.noarch.rpm"
-RPM_HASH = "e322c687f70fe46efa5a065465afb234eb4ae3cfe7e4f8ae249726ac28aa8cdeb41c8012ab9911a10f28f368f7082128f97b0f49d2edee3d3cc38a67e3b9d7e7"
+RPM_NAME = "papirus-folders-1.14.0-1.3.noarch.rpm"
+RPM_HASH = "6d6f64abff33c028d830c5f483a980fc423e338f8217bf51ac3777624ceb58cd288188326bb0fdf44e9724825075f287df29fc3f4c1cf3b3e0c68698d8e39d59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "papirus-folders"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a command for the LaTeX programmer for \
 testing whether an argument is empty."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2bsvn47544"
+PV = "2026.226.1.2bsvn77682"
 
-RPM_NAME = "texlive-ifmtarg-2023.209.1.2bsvn47544-54.1.noarch.rpm"
-RPM_HASH = "e7f43ccb7aa8de22c610c11e9c828af32d672e3f3983db0a2a2b607b4236a07fc0ea0163f66f99eae10c8e6b20f46d128fd9502c631eec3436bebfb752fc9bef"
+RPM_NAME = "texlive-ifmtarg-2026.226.1.2bsvn77682-60.2.noarch.rpm"
+RPM_HASH = "66e10d815a7b70b8494d4a8d6fbf3fad8fde916c87bc874ba5fb6164dc637760d1aa791949c22accfac33ae758022810c5b6d076ceb647580806ce7881ba710a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifmtarg.sty \

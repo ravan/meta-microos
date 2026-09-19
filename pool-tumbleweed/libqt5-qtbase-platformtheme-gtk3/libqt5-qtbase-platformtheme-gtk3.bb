@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 gtk3 plugin"
 DESCRIPTION = "Qt 5 plugin for better integration with gtk3-based desktop enviroments."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libqt5-qtbase-platformtheme-gtk3-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "1c9bd7f8988616ebf021f1ee8782899ef0b19436b27b00a6b301dcf308d6151316c5b5b706f989e843e98538866005530c438a611dd63e3d17d885ec8b94f324"
+RPM_NAME = "libqt5-qtbase-platformtheme-gtk3-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "730038f653f2f63830af2a3b9d7eacb025e8d813ab9edbf58df687e55c037c744a6ae4d5ab3c00f79a5efcb371f4f0a9ea8cd2a306e5b9594c7f80eb2e342780"
 
 RPROVIDES:${PN} += "libqgtk3.so \
 libqt5-qtbase-platformtheme-gtk3"

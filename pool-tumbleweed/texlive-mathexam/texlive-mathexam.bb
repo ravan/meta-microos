@@ -9,10 +9,10 @@ and footers, and will let you include instructions and space \
 for students to put their name."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.00svn15878"
+PV = "2026.226.1.00svn15878"
 
-RPM_NAME = "texlive-mathexam-2023.208.1.00svn15878-53.1.noarch.rpm"
-RPM_HASH = "43f17a7c6c8dad4565636d1c4346589c53ba66e4c04a0ca3a2f7850035dbcfa4e92c4ec1181cec6a8368c5bd1f06bdb918e647562c61dc2c5bc57555e658b926"
+RPM_NAME = "texlive-mathexam-2026.226.1.00svn15878-59.2.noarch.rpm"
+RPM_HASH = "5a26631e36f5104e5540c514270c77d24340feecbc1e0f196e49d6ac4eda1f270c9ac197cc1ded101c391f59020b37e98d89527e27b1fb62d8b27cc78fa05136"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathexam.sty \

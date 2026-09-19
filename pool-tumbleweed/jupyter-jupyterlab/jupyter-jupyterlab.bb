@@ -8,10 +8,10 @@ Notebook (notebook, terminal, text editor, file browser, rich outputs, \
 etc.)."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.0.5"
+PV = "4.5.10"
 
-RPM_NAME = "jupyter-jupyterlab-4.0.5-2.1.noarch.rpm"
-RPM_HASH = "2aeea8484d0356e52c70f6dec8c9ea80221912ecb716d8121830944fd6821859e28f588c0856d6a94a0b4fce5f530eca498cf3fde82e4adad22953cc3c0d9003"
+RPM_NAME = "jupyter-jupyterlab-4.5.10-1.1.noarch.rpm"
+RPM_HASH = "3b210eb8ec579e49dfe0e226222f2978c71bcd7700c801e05e2e0be33578210c0ff044abe6294a2fab1893f71a0381d8e62335c0d7f12d72c16f565f83dc49cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab \

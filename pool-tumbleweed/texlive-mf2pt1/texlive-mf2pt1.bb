@@ -9,10 +9,10 @@ points than can be reverse-engineered by TeXtrace, mftrace, and \
 other programs which convert bitmaps to outline fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.7svn61217"
+PV = "2026.226.2.8svn71883"
 
-RPM_NAME = "texlive-mf2pt1-2023.209.2.7svn61217-55.1.noarch.rpm"
-RPM_HASH = "fb60e944598de1d8489cc6d0d614ab37a483ee5951ac59566b9532c74d0fd73a97567d79ab461a5566e44bf81b313b54d543fd552bdb729ea44664e17dff0b16"
+RPM_NAME = "texlive-mf2pt1-2026.226.2.8svn71883-61.2.noarch.rpm"
+RPM_HASH = "57b5b4735f5b849b7a2e31a8c413f60f1da95225df213999ec414635ae259fe1bd0c1a47b026f071dd8cec41dfa20d6cdda51932833de2615464af92453174b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mf2pt1"

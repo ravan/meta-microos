@@ -11,12 +11,12 @@ Authors: \
     Marius Tomaschewski <mt@suse.de> \
     Stanislav Visnovsky <visnov@suse.cz> \
     Ladislav Slezak <lslezak@suse.cz>"
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0"
 
-PV = "5.0.5"
+PV = "5.0.7"
 
-RPM_NAME = "libzypp-testsuite-tools-5.0.5-1.8.aarch64.rpm"
-RPM_HASH = "e8972129c1c0f44ea7d58cf13e1ce3ed7f2c92c026c2d89a4a9af6bd989bf37bf16acd077d9387f811bb060e4713b3427f29ef3ab50fdf8fc67d7d17ae8832e4"
+RPM_NAME = "libzypp-testsuite-tools-5.0.7-1.4.aarch64.rpm"
+RPM_HASH = "1d15280256228020bab507a766aaf6286f72da9cc3093cb5cac0334ea95a153c963001bbca2ae687f34e67576f48928cf047d716316365215cb5ba21f8024eb4"
 
 RPROVIDES:${PN} += "libzypp-testsuite-tools"
 
@@ -24,6 +24,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-libzypp.so.1722"
+libzypp.so.1735"
 
 inherit rpm

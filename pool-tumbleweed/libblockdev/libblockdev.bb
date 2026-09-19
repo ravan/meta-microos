@@ -8,20 +8,22 @@ that it is stateless from the storage configuration's perspective (e.g. it has \
 no information about VGs when creating an LV)."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libblockdev-2.28-1.6.aarch64.rpm"
-RPM_HASH = "1eb29e12f1159ba957e6b82b15711e09d30259b9a24743f93aed31396ccab72f37240a0c45601bb8b72746c11b8bea38aa8a64546193e8674aab9cb12a9b4313"
+RPM_NAME = "libblockdev-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "69759615be172c0662d9ed996084d7bebaf40bf14c44895121103456111a8cdea600a08f135c0323fd18f56d475e18c7570d8cbd7b8e5ba2b9cddf3ac4db0f9d"
 
 RPROVIDES:${PN} += "config-libblockdev \
 libblockdev"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libblockdev-lvm \
-libblockdev.so.2 \
-libblockdev2 \
+libblockdev.so.3 \
+libblockdev3 \
 libbytesize.so.1 \
 libc.so.6 \
-libglib-2.0.so.0"
+libglib-2.0.so.0 \
+libparted-fs-resize.so.0 \
+libparted.so.2"
 
 inherit rpm

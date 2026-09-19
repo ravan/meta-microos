@@ -12,10 +12,10 @@ Secure: Yarn uses checksums to verify the integrity of every installed package \
 before its code is executed."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.22.19"
+PV = "1.22.22"
 
-RPM_NAME = "yarn-1.22.19-1.5.noarch.rpm"
-RPM_HASH = "0ff39d35896df3af1d17316c22450b95335f31f66a0e9b1ed6aeeb97d0f003993b403cb747e429a3e6a32ae52dde943306a5097f6d2e0a63120ad0be280151ea"
+RPM_NAME = "yarn-1.22.22-1.8.noarch.rpm"
+RPM_HASH = "5fba8176b08043d28ab259e1dd929895c1e00fb29edf1aa69c1e3a0783c96f936b3ab8eba949c4286a59084f3837eee4c980883e15fa255b35bd02440892cc00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yarn"

@@ -4,14 +4,14 @@ used by applications to filter or limit the access of child \
 accounts to inappropriate content."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.10.4"
+PV = "0.13.1"
 
-RPM_NAME = "malcontent-0.10.4-1.6.aarch64.rpm"
-RPM_HASH = "c152484483be1732090168d22fb0c421f18a39b40311f37ea825b8ab9cd3c6b7dd129b24f7fc92cd8b21ce8c8023c9a4176f825c8809f12da369072b3e02dc51"
+RPM_NAME = "malcontent-0.13.1-1.6.aarch64.rpm"
+RPM_HASH = "470041e4e53b2a6ddc98e24c7324b3837da7f667eb94340166b7f71f57b358fdaa841c1503e0f268d3fa64d38b94466fcddfff2574734e82735be8498767acf5"
 
 RPROVIDES:${PN} += "malcontent"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

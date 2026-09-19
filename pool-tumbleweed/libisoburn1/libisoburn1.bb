@@ -8,10 +8,10 @@ audio (CD-DA) or any other CD layout which does not entirely consist of \
 ISO-9660 sessions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.6"
+PV = "1.5.8"
 
-RPM_NAME = "libisoburn1-1.5.6-1.1.aarch64.rpm"
-RPM_HASH = "ac451493507542b27add0fcde6ed393311e7f500e70f82e5eb84be41871cdf0bf64c153fe284ff371f2dc49d6671b8d923a18a95af8e4854c408f0b93144588e"
+RPM_NAME = "libisoburn1-1.5.8-1.2.aarch64.rpm"
+RPM_HASH = "b28bbbc1c3ba42acde8e06719aa7b9b13de058910e284b876daca95168ce92a3f4ab45c446fe2d8ca75717eef0b7b3084ff268eddca19e8a7488b4ccfd4e87bb"
 
 RPROVIDES:${PN} += "libisoburn.so.1 \
 libisoburn1"

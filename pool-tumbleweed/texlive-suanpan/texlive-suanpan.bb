@@ -4,10 +4,10 @@ drawing Chinese and Japanese abaci, TUGboat (volume 30, number \
 1, 2009, pages 74-79)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-suanpan-2023.209.svn15878-58.1.noarch.rpm"
-RPM_HASH = "2858c66442c730208844fc05d8a4d56d10999c61abe500834be4f661dd71742deb63d70bbd255a86d3ed64b6e9b7e06091fa09fa4addfe4b16160d2f72be18f7"
+RPM_NAME = "texlive-suanpan-2026.226.svn15878-64.2.noarch.rpm"
+RPM_HASH = "b05dabbf2bb4d2ce7fa74194461acc323c343f1d6df2f2c6751e39ffb0622ae780305715c05822f0617d3e8bf7716db12f92619812f68b1d0cc2d65c868fdae9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-suanpan"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "virt-viewer-11.0-4.5.aarch64.rpm"
-RPM_HASH = "350ff662035f7f599fbdeea695d888171665a994ad89cfc1e3f59e19f8aba2735366392cb40299fd681fffc23b2cf5ce9b817bdb0dd037feb0edc5f30a6baf3f"
+RPM_NAME = "virt-viewer-11.0-10.1.aarch64.rpm"
+RPM_HASH = "16eb1862df15702e90edb62ad013dfe1efd76219b0956670cd99a7933a051ebe01ff2ba3deb3d9e5d53a01b3a92ccfdde4b4c0dc702e610fb1c1f19f7e4f82f8"
 
 RPROVIDES:${PN} += "virt-viewer"
 
@@ -27,7 +27,7 @@ libspice-client-gtk-3.0.so.5 \
 libvirt-glib-1.0.so.0 \
 libvirt.so.0 \
 libvte-2.91.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 netcat"
 
 inherit rpm

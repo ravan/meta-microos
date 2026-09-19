@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mousepad"
 DESCRIPTION = "Provides translations for the 'mousepad' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.1"
+PV = "0.7.0"
 
-RPM_NAME = "mousepad-lang-0.6.1-1.1.noarch.rpm"
-RPM_HASH = "975c0884ed1cc80de4045302102de3f70d5dec2ccd3d5144325189511821d3b692161e1374edc5be01f5f50da8c9763d229a1d3877b130882084fbb4a862ef4b"
+RPM_NAME = "mousepad-lang-0.7.0-1.2.noarch.rpm"
+RPM_HASH = "e43f6746cbb65734090b404f9a001083222d559e56189b756b63fc99e97f25160563a9a595f857a5a743be9b19755952b9cc36e172ef69a98e5b8faed77ba9e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mousepad-ar \
@@ -55,6 +55,7 @@ locale-mousepad-th \
 locale-mousepad-tr \
 locale-mousepad-ug \
 locale-mousepad-uk \
+locale-mousepad-vi \
 locale-mousepad-zh-CN \
 locale-mousepad-zh-TW \
 mousepad-lang \

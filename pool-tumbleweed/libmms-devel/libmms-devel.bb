@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.6.4"
 
-RPM_NAME = "libmms-devel-0.6.4-5.27.aarch64.rpm"
-RPM_HASH = "43da457ca5dfedd72bc9f7c60fc4ceef8e1febd67f5888c192e893cb1383a901d9df3a712da7c5bb3ce1e4a8f77e5aebe40af1c338a740fd7911e9cf30cf5d38"
+RPM_NAME = "libmms-devel-0.6.4-6.9.aarch64.rpm"
+RPM_HASH = "48697d5323ad67b3d190a484737e3fc9f10e8cb69ff407bbc1c07c661785fd2aa6d646d8e330b3d25235dd27f8e240b80357a98accb4c216eb525a10e91aad7a"
 
 RPROVIDES:${PN} += "libmms-devel \
 pkgconfig-libmms"

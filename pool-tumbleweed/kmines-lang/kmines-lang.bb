@@ -2,18 +2,18 @@ SUMMARY = "Translations for package kmines"
 DESCRIPTION = "Provides translations for the 'kmines' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmines-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "aa3c834701710f24389aa9d297a9384418155cbf5fc64e289fabdc681eb39cfed7439a7080ce2efb3064af0b2d3b8f4ecdf5abc63d11557405ad076d65b7f570"
+RPM_NAME = "kmines-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "2c4a7e3c98486e0d459155e9b19f599ee6c20ba153e69a542b5e549c196869cdfdee140352e13f3cee7f23726f132cdb9ff162638a4c52687f75f8326dc5cfc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmines-lang \
 kmines-lang-all \
 locale-kmines-af \
 locale-kmines-ar \
+locale-kmines-ast \
 locale-kmines-be \
-locale-kmines-bg \
 locale-kmines-bn \
 locale-kmines-br \
 locale-kmines-bs \
@@ -38,6 +38,7 @@ locale-kmines-he \
 locale-kmines-hi \
 locale-kmines-hr \
 locale-kmines-hu \
+locale-kmines-ia \
 locale-kmines-id \
 locale-kmines-is \
 locale-kmines-it \

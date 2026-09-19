@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for programs using libunistring and documentati
 for UniString library."
 LICENSE = "GPL-3.0-or-later | LGPL-3.0-or-later"
 
-PV = "1.1"
+PV = "1.4.2"
 
-RPM_NAME = "libunistring-devel-1.1-3.1.aarch64.rpm"
-RPM_HASH = "e2e03fdd2046f7cf7f1344d3bf5847575c3175d6ea68b3076f7f9f19881daa88c5d1bc04cab01d93c3a7b91089733c0e49a49939833c83315df7573bd4be4b2c"
+RPM_NAME = "libunistring-devel-1.4.2-1.3.aarch64.rpm"
+RPM_HASH = "3b44ff16c7fa531d38e22a3ed15ce86121b82453a64ec479b56be452cf91f7481949e209e2dcc8647e8314ebf164dcd1e948ef6a59d8312cc3e63d68c2f2d4d6"
 
 RPROVIDES:${PN} += "libunistring-devel"
 

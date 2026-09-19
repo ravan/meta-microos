@@ -9,10 +9,10 @@ uses librdmacm to handle connection bring up/tear down.  The librdmacm \
 library knows how to talk directly to the ibacm daemon to retrieve data."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "47.0"
+PV = "63.0"
 
-RPM_NAME = "ibacm-47.0-3.1.aarch64.rpm"
-RPM_HASH = "b60c14963b702824bb9799d084d2029d367dab284d6b94ebb8af3cda3d97ac21647a699576bb62856ae4bf294caa3ff21c611756a90216c78dfa5ad8584b5713"
+RPM_NAME = "ibacm-63.0-1.3.aarch64.rpm"
+RPM_HASH = "17992f98210b9a81a3890d66dfc7115ae67cc4e7a9e733f0101fd45f6bb972a8d94c9b8d2106298502b00964fc5e2bafd7a8c4cbdeceab3e074e80313d1e0a2d"
 
 RPROVIDES:${PN} += "config-ibacm \
 ibacm \

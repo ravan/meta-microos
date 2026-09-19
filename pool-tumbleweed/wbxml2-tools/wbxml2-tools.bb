@@ -5,10 +5,10 @@ libxml2. WBXML contains a library and its associated tools to parse, \
 ecode and handle WBXML documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.11.8"
+PV = "0.11.10"
 
-RPM_NAME = "wbxml2-tools-0.11.8-1.2.aarch64.rpm"
-RPM_HASH = "869d25ad44c2a3d6cedb6c5cb49921712572570455b1a5bf192d3afe44d4abab9a60d5e8981961ea1eb634914a343b4639ae54e831a6e2696044bbcf33bcf7e5"
+RPM_NAME = "wbxml2-tools-0.11.10-1.9.aarch64.rpm"
+RPM_HASH = "c4a73cb4c88de0ba10128bee6ad7bcaf63b6cf2a5c3a22c1d2e804a491035510fc73f0773bdd3a9dc62eb1e4729d40d586c2cd692a086e2bcd4d83836cf02b95"
 
 RPROVIDES:${PN} += "wbxml2 \
 wbxml2-tools"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for ucblogo - a free logo interpreter"
 DESCRIPTION = "This package provides additional documentation for ucblogo."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.2.4"
+PV = "6.2.5"
 
-RPM_NAME = "ucblogo-doc-6.2.4-1.3.noarch.rpm"
-RPM_HASH = "1da27deaeecab7a5618c8d2df72eb6d4decc2c544f2a48d74a408b50633c72552b48e5f71c305fae7d3cd92ac3c5b96ae9e77303d44e62a636101b4a3b7b54bd"
+RPM_NAME = "ucblogo-doc-6.2.5-1.9.noarch.rpm"
+RPM_HASH = "1f693169bf5b2af8ae980eb1ea9331eeaacfa865f43e715d52a5c01b22662037dd08bc2353f5bee27833e0414232d885949431d323c5a4022a3075b015fbd68a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ucblogo-doc"

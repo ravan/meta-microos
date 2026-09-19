@@ -5,10 +5,10 @@ because requests can be broadcast, and they will normally not be \
 routed."
 LICENSE = "MPL-2.0"
 
-PV = "4.4.2.P1"
+PV = "4.4.3.P1"
 
-RPM_NAME = "dhcp-relay-4.4.2.P1-14.4.aarch64.rpm"
-RPM_HASH = "dd17e67d2f6a43e567dd1081aa679b1ee425b313943117f147999548c00621250758673e100e985aa2150e16b36ece33c2dc44f9fae695540621cdd74decfc9e"
+RPM_NAME = "dhcp-relay-4.4.3.P1-1.2.aarch64.rpm"
+RPM_HASH = "5c98e2bd62b86ae93998b6f4ace128d29a4f1bea18ba72cca0f561d1b4bb1bfb511ffe8ef450061ff5d9cbea0ac02887735d19c2854afbd573b75380633b0c97"
 
 RPROVIDES:${PN} += "dhcp-relay"
 

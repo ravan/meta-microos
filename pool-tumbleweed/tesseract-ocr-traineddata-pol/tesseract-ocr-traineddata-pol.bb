@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Polish lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-pol-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "3016eb8d84ef3f22e19db8177725bf0711c5343214513cfcb583d3405b69a4baba37a84bdcbee9faf089c00eb3299976b803f8c165d453c85a42efd66524371a"
+RPM_NAME = "tesseract-ocr-traineddata-pol-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "064a071a60d8d7bcffc73cc7b7c22a82a3e00454dc9efd599c29965dfa793236d8f3954621c22150e0a6bc808922377136ffa6fa0055a000abeb0bfe7aeb29f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-pol \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-pl \
+tesseract-ocr-traineddata-pol \
 tesseract-ocr-traineddata-polish \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-polish"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

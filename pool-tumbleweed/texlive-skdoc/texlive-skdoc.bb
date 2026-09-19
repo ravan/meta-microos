@@ -8,10 +8,10 @@ installing packages. It has the ability to generate both \
 documentation and code in a single run of a single file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5dsvn56950"
+PV = "2026.226.1.5esvn76924"
 
-RPM_NAME = "texlive-skdoc-2023.209.1.5dsvn56950-58.1.noarch.rpm"
-RPM_HASH = "07eb76fd137588fe510016bd60202202a04256c12dd73711276da54fa735089c472095dc6fd72942591751d3f6774c051cccdc31b438c1e25d5e5d939474aa3a"
+RPM_NAME = "texlive-skdoc-2026.226.1.5esvn76924-64.2.noarch.rpm"
+RPM_HASH = "25e0b3a7de1ead1d6f3a270a7d4cc2d54cf27de31a1dcded23e685836dd44fdef585850e3c00303c15ac7c33a42840cfb8287ab2a07cd895517ff546bd8877aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skdoc.cls \
@@ -37,7 +37,7 @@ tex-hyperref.sty \
 tex-kvoptions.sty \
 tex-marginnote.sty \
 tex-microtype.sty \
-tex-minted.sty \
+tex-minted2.sty \
 tex-multicol.sty \
 tex-needspace.sty \
 tex-opensans.sty \

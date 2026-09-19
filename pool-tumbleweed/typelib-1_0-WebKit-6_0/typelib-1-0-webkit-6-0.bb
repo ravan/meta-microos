@@ -1,4 +1,4 @@
-SUMMARY = "Introspection bindings for webkit2gtk4"
+SUMMARY = "Introspection bindings for webkitgtk4"
 DESCRIPTION = "WebKit is a web content engine, derived from KHTML and KJS from KDE, \
 and used primarily in Apple's Safari browser.  It is made to be \
 embedded in other applications, such as mail readers, or web browsers. \
@@ -11,10 +11,10 @@ This package provides the GObject Introspection bindings for the GTK+ \
 port of WebKit2."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.5"
+PV = "2.52.6"
 
-RPM_NAME = "typelib-1_0-WebKit-6_0-2.40.5-3.1.aarch64.rpm"
-RPM_HASH = "6e610223f4ca3c0d23f5ca8c443bdea51132ceea654699da0edd91b678e2682704e6d3d527fa76bc41f1221cb2063b80293f227cb43ca33ed6353e068f114e16"
+RPM_NAME = "typelib-1_0-WebKit-6_0-2.52.6-1.2.aarch64.rpm"
+RPM_HASH = "9245d4173936ec0d50c6c04a609245027c301ec727ad1b91141a906b4f0ffb23c6a5b76b79742c282f921c566bc99285a458235f31046e5cb278cc8de1f8c72b"
 
 RPROVIDES:${PN} += "typelib-1-0-WebKit-6-0 \
 typelib-WebKit"

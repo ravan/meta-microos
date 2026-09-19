@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.9+5"
 
-RPM_NAME = "farstream-devel-0.2.9+5-2.4.aarch64.rpm"
-RPM_HASH = "3eae7af0f2ec5bb66da5ee07f458de37350e92f44095b23d74b470ea312dbd092742d4fb0c77f896b85bf58e29dfb66e79df07987a742bdee08549ebbf5ce418"
+RPM_NAME = "farstream-devel-0.2.9+5-3.3.aarch64.rpm"
+RPM_HASH = "46e5358218e8211e58db81dd1612f4a4d79bf9a95d8aed492eadcdfb80102a3e675a9c43845c9188761eaa84d65762ed6bfaf42ce39d5be2ed17b13ee357e686"
 
 RPROVIDES:${PN} += "farstream-devel \
 pkgconfig-farstream-0.2"

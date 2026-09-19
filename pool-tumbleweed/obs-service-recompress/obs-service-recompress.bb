@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "obs-service-recompress-0.5.2-1.5.noarch.rpm"
-RPM_HASH = "95801cadfe41a508569ee23321ebf7ce5a374dfbd24ad12a4e2b5ecbaed5b871b39754903903968e72564e4bcbd930420a621b2b5342dff87a27e9f88a1de358"
+RPM_NAME = "obs-service-recompress-0.5.2-3.3.noarch.rpm"
+RPM_HASH = "66487b65dda139555aa617639dfceef3f6b368ed5f8dbc1fb2bc245e885eadbd9266eae1e11b68ede93c15e66a87051b746cf805dd3e0a7f5714e3d46a947300"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-recompress"

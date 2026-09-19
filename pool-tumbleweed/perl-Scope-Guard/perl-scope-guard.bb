@@ -12,13 +12,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.21"
 
-RPM_NAME = "perl-Scope-Guard-0.21-1.28.noarch.rpm"
-RPM_HASH = "0a5e37fb3f2bb9e1e0284593ba5e3366ee667cc9b68a72255f32bc8d72c55e8d276bc42a22e7e58ec15df03fc2624aacd50376fdbd24d3d624e387126e93366e"
+RPM_NAME = "perl-Scope-Guard-0.21-1.42.noarch.rpm"
+RPM_HASH = "ff200ed4f05485ae3af8cc2a486954fd36ee31aa74d73a611545fe948bf7b5830e144207641f28a3273d51040aa8437f124b12ff467f1641557b55e4d6674130"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Scope--Guard \
 perl-Scope-Guard"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

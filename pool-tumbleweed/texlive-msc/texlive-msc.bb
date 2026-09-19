@@ -7,10 +7,10 @@ MSC. The current version of the MSC macro package supports the \
 full MSC2000 language."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.00svn63291"
+PV = "2026.226.2.00svn67718"
 
-RPM_NAME = "texlive-msc-2023.209.2.00svn63291-55.1.noarch.rpm"
-RPM_HASH = "6c10272129e4385f913aaea5d9ab35bc712d274f441f634c52df2710a371dc89108828bd9b5b3ef3612fc1ee5054962d0260a6b09aee4254df511064b8c8a853"
+RPM_NAME = "texlive-msc-2026.226.2.00svn67718-61.2.noarch.rpm"
+RPM_HASH = "d53d1d95ffef20f73470c68c0651a21a75ce72fc7a4ed79010a9e894092b1fdb7edab8b079159637354f50035ae63ceeaaf9102ef1134b25191e46cbde54cb1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-msc.sty \

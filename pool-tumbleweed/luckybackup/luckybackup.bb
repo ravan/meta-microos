@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "luckybackup-0.5.0-1.25.aarch64.rpm"
-RPM_HASH = "645756ced12640a6918a963d55e5ba89a3b7f5cab9aeda29f3ec163acf94940304083021e71e2d2b8f4c98e253b091f08507b2102cdaea0b24f9d9a4c12eef84"
+RPM_NAME = "luckybackup-0.5.0-2.8.aarch64.rpm"
+RPM_HASH = "a69c211ea570405630258de61fb348fe64a8e9b5e91000e97bd7953fb7b819db7793d4a35e47b0d54d460d026bb522a3bb18d8ab1a54a5e09c49e42c7cc56867"
 
 RPROVIDES:${PN} += "luckybackup"
 

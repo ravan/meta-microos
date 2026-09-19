@@ -4,10 +4,10 @@ deleted. You may also specify a date or age since deletion, and file types \
 to ignore or to recover exclusively."
 LICENSE = "GPL-3.0-only"
 
-PV = "12.0"
+PV = "15.0"
 
-RPM_NAME = "xfs_undelete-12.0-1.2.noarch.rpm"
-RPM_HASH = "41b83d1af953a9ef80d9827a3b43fdf0fe53045a2746891345793cacb2be7230c686d3c74db9a235d31657255bba7878697eeedb9f29822be7c7f11e13501e24"
+RPM_NAME = "xfs_undelete-15.0-2.5.noarch.rpm"
+RPM_HASH = "55fb467d5599b6c3013f391a4767a40377bfb569732ed9ab2651c842d9cf520eca1c67d4f8dd824ffba5547d29891c1c26c42f2bde3e36bcf04724c6bff4d459"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xfs-undelete"

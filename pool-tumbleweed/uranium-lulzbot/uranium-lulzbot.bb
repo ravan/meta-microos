@@ -8,8 +8,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "3.6.21"
 
-RPM_NAME = "uranium-lulzbot-3.6.21-2.4.aarch64.rpm"
-RPM_HASH = "c891f55bc8cfa7b39864ddfa0fb335bae2f56071659a6941bca272f915d2b342b99aab3f8782665afa04996bfa0a0f0a060c4f6081ad6b9e7ff788bb475af790"
+RPM_NAME = "uranium-lulzbot-3.6.21-7.4.aarch64.rpm"
+RPM_HASH = "e4e04c517cd90e82cba8cbc55cd493e21401d7dcb670f06cc0b88a6ef52587ec0a81bcbd088aba6c2d0b88896a5548300fc03401c39800ea90d8d204dbdc51d3"
 
 RPROVIDES:${PN} += "uranium-lulzbot"
 

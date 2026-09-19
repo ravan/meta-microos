@@ -11,12 +11,12 @@ dictionary are derived from the SKK dictionaries. If interested  in the \
 naming of KAKASI, consult a Japanese-English dictionary. \
  \
 (1) 'Romaji' is an alphabetical description of Japanese pronunciation."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.3.6"
 
-RPM_NAME = "kakasi-2.3.6-3.32.aarch64.rpm"
-RPM_HASH = "815637a92f46e6fa6a0e72a4e3550f2aa72411a2309ca9dbb4ec8818bd29178526bd08b98fe768c7867ea281f2e7e3e0b3298c41055e4cd59255b2469d557add"
+RPM_NAME = "kakasi-2.3.6-9.6.aarch64.rpm"
+RPM_HASH = "a368d8431e173ab6ab05deffa2756ff37522fd579856f529547854d812d009670ddb8e6b5cc44e6d46cc531b12e6bf3acb8711b53105b6d06f0e70863b4cac20"
 
 RPROVIDES:${PN} += "kakasi \
 libkakasi.so.2"

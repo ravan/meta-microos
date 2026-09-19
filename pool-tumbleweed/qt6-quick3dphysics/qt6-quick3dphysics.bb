@@ -6,10 +6,10 @@ density, gravity and friction are customizable. This makes it possible to create
 physically correct behavior in 3D scenes without having to handcraft animations."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quick3dphysics-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "a5697a8cbb2c0e13992a9cfbcd9e483941c70583cb601dac9c7beb77d7f3f317e1d11d24ebc1e4f971728a01e0cdf6d80de90728bbd7f7594a33e5f3129839ab"
+RPM_NAME = "qt6-quick3dphysics-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "0fd7d67537e0db6be420a6c04b3c22ea99a162f077a1d5e0feeb1290b4b6d2ee63b85c4e2acbb48406b01da137c37a76349b2ec7e816aab4464752a41e7cad63"
 
 RPROVIDES:${PN} += "qt6-quick3dphysics"
 

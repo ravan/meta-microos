@@ -7,10 +7,10 @@ appropriate backend drivers. \
 This package provides the shared libraries needed by iODBC."
 LICENSE = "BSD-3-Clause | LGPL-2.0-only"
 
-PV = "3.52.14"
+PV = "3.52.16"
 
-RPM_NAME = "libiodbc2-3.52.14-2.6.aarch64.rpm"
-RPM_HASH = "ef0f9f08040cfbe6f0059870f2f67f608bbff0f3c7ae6c324b0254c5f20c7e425095676dc733a65101452d548743d038882fcab84db36d9e2769a5902257cfb6"
+RPM_NAME = "libiodbc2-3.52.16-2.3.aarch64.rpm"
+RPM_HASH = "d7ea7b11cf8feb89675c610355682cf27a1abc24ce125d3da65faef3bd9506dc7c37a543728fed7756c347e751debbbb4e999ba260c3c8b3eed95eb8b8a10985"
 
 RPROVIDES:${PN} += "libiodbc.so.2 \
 libiodbc2 \

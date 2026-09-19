@@ -3,10 +3,10 @@ DESCRIPTION = "This package includes libraries and header files for building too
 access mailutils features."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.16"
+PV = "3.21"
 
-RPM_NAME = "mailutils-devel-3.16-1.3.aarch64.rpm"
-RPM_HASH = "47a4eff3214a5f35ebd2f47890e6e6422faf096c850fcb0ff454d177b749d5fe7a9980ecfaf5525787b78ae63dbf911384f3970b678f0ccf2b921e882efc4dca"
+RPM_NAME = "mailutils-devel-3.21-1.6.aarch64.rpm"
+RPM_HASH = "eae2ddaf0b196430de76c7ef3ee36697cd3db20a8d578ce9850c81e69b54ae4665c07164dd7b8570d9924c153b3e310ecbfb7e1ac8e5e103f99cb3117cdb8e9c"
 
 RPROVIDES:${PN} += "mailutils-devel"
 

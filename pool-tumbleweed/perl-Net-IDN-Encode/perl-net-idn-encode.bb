@@ -1,4 +1,4 @@
-SUMMARY = "Internationalizing Domain Names in Applications (IDNA)"
+SUMMARY = "Internationalizing Domain Names in Applications (UTS #46)"
 DESCRIPTION = "This module provides an easy-to-use interface for encoding and decoding \
 Internationalized Domain Names (IDNs). \
  \
@@ -15,20 +15,19 @@ correctly encoded input. See perlunitut, perluniintro and perlunicode for \
 details."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.500"
+PV = "2.502.0"
 
-RPM_NAME = "perl-Net-IDN-Encode-2.500-1.20.aarch64.rpm"
-RPM_HASH = "944dbc3a9a4248983f55221878b41cfc86e37adf8bd9fd92cdb068167e8c557c58a10a679dd1406581c8bde00f9329be555f48ae73289f3f3f10cf8d9307f07b"
+RPM_NAME = "perl-Net-IDN-Encode-2.502.0-1.1.aarch64.rpm"
+RPM_HASH = "25859b62548b03e7a4edf49adf2045a26bd24914644c59f2868e5b4fc138bd14a60a23bc7e17f1226e165c6a48a0bc0d01188a3571b18bde790343b7622eacad"
 
 RPROVIDES:${PN} += "perl-Net--IDN--Encode \
 perl-Net--IDN--Punycode \
 perl-Net--IDN--Punycode--PP \
 perl-Net--IDN--UTS46 \
-perl-Net--IDN--UTS46---Mapping \
 perl-Net-IDN-Encode"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

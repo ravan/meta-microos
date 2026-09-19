@@ -1,11 +1,11 @@
 SUMMARY = "openSUSE Branding of mate-panel"
 DESCRIPTION = "This package provides the openSUSE look and feel for the MATE Panel."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "mate-panel-branding-openSUSE-42.1-5.5.noarch.rpm"
-RPM_HASH = "e6e34caff9a2120433e6e1829f701d5b3c0cd4c973bfc56faefa5032def5ea7549b24173a076899efef550efa3d4b6bd2939d65cf68a37e94ce04b4b431783ee"
+RPM_NAME = "mate-panel-branding-openSUSE-42.1-9.6.noarch.rpm"
+RPM_HASH = "69caa0150a97dfd71f3bfeab25b58a43cdf187998a1ef4fc607730711e9f26e85c1d2e2fac0ef9a680db4806c5bd536a05177c4a3332ae4461034cac550cefb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-panel-branding \

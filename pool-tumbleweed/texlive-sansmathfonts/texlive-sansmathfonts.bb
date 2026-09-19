@@ -3,10 +3,10 @@ DESCRIPTION = "Sans serif small caps and math fonts for use with Computer \
 Modern."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64661"
+PV = "2026.226.svn77723"
 
-RPM_NAME = "texlive-sansmathfonts-2023.209.svn64661-54.1.noarch.rpm"
-RPM_HASH = "802391f8a47287b6dd58bfe4a899c2fbafd1d7a2982166ff59f2ee75e3ae48c3f3d3ac6c76dd460195fc6beb8fb1e011bb773cf293f661b011248625cb29711b"
+RPM_NAME = "texlive-sansmathfonts-2026.226.svn77723-60.2.noarch.rpm"
+RPM_HASH = "fb08f8702758a7c03a1f3165f335724136ca92dc901d6c84ee7674d512794eae4c391fd6a651fed58665677cbc13241a0aba230720fbbea19ec67dda90c8d38e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmsmf10.tfm \
@@ -99,6 +99,10 @@ tex-cmssbsy6.tfm \
 tex-cmssbsy7.tfm \
 tex-cmssbsy8.tfm \
 tex-cmssbsy9.tfm \
+tex-cmssbx12-cmsmfcopy.tfm \
+tex-cmssbx17-cmsmfcopy.tfm \
+tex-cmssbx8-cmsmfcopy.tfm \
+tex-cmssbx9-cmsmfcopy.tfm \
 tex-cmssbxcsc10.tfm \
 tex-cmsscsc10.tfm \
 tex-cmsscsc8.tfm \
@@ -129,6 +133,11 @@ tex-cmsssy7.tfm \
 tex-cmsssy8.tfm \
 tex-cmsssy9.tfm \
 tex-cmssu10.tfm \
+tex-cmssxi10-cmsmfcopy.tfm \
+tex-cmssxi12-cmsmfcopy.tfm \
+tex-cmssxi17-cmsmfcopy.tfm \
+tex-cmssxi8-cmsmfcopy.tfm \
+tex-cmssxi9-cmsmfcopy.tfm \
 tex-cmssxicsc10.tfm \
 tex-eczi0500.tfm \
 tex-eczi0600.tfm \

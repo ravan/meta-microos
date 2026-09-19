@@ -16,13 +16,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.05"
 
-RPM_NAME = "perl-Parse-Distname-0.05-1.4.noarch.rpm"
-RPM_HASH = "d2fd683ca24714b2217491259f484f1c5a57fe6d73ee897f3f01d70fd2d25bce70b58d738f8020e0522a957ab4a57aad6e31849cd45e5769f309bd8fb75f42c3"
+RPM_NAME = "perl-Parse-Distname-0.05-1.18.noarch.rpm"
+RPM_HASH = "7629df68f0ce744a54dda68b4c68edd6e19d542d6385061b3266088d61a69efd1222a45eeb4bd94bee2610bc2478f206273203d6bac1ba59af89a7785774cd1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parse--Distname \
 perl-Parse-Distname"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

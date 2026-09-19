@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.1.0"
 
-RPM_NAME = "hte-2.1.0-3.13.aarch64.rpm"
-RPM_HASH = "27123e53c26427904b4fdbe42222307fb451b4861180599a1b7b9ac346da0c191ba3aea90d4f3ce3e09a9bae2828cad18efcb4d0c331b61e5f31ef1de5d728aa"
+RPM_NAME = "hte-2.1.0-4.6.aarch64.rpm"
+RPM_HASH = "7b3c6abb0816724ca3fc54bccec6e8323cf55102c02d67fdafca91408b7106958be727dbbb2e3a34232ce7ed6ef88d5cbc92fd6b67f229ee953c5e8140a5eebc"
 
 RPROVIDES:${PN} += "hte"
 

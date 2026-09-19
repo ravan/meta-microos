@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nowidow"
 DESCRIPTION = "This package includes the documentation for texlive-nowidow"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn24066"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-nowidow-doc-2023.209.1.0svn24066-55.1.noarch.rpm"
-RPM_HASH = "38b3ce5a937c93af7a6a08544343ba08d6c43505830eb367b5e2bb870a5ce5c11cad9430e943a4912e485a481e766131e77065fc6ba179d279e67c275c7befab"
+RPM_NAME = "texlive-nowidow-doc-2026.226.1.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "2366b0036888a78a56d1be3db86fd2820e569396ceef37bd963af97d1e64b705a364211f21d54cd6d6fc265a423adf7a694c60c675be4260c0cf187e448ccb8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nowidow-doc"

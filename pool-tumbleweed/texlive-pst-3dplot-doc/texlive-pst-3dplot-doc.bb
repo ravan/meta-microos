@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-3dplot"
 DESCRIPTION = "This package includes the documentation for texlive-pst-3dplot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.07asvn61615"
+PV = "2026.226.2.09svn68727"
 
-RPM_NAME = "texlive-pst-3dplot-doc-2023.209.2.07asvn61615-53.1.noarch.rpm"
-RPM_HASH = "4bbf2e3f6a1ea555041399678a07292b4eda2329809fff6fbf0a7c61e82e6d0a5bce6e9384452ead94fa5965f705247bae88018c3044dbb17aa4ed9de6589f48"
+RPM_NAME = "texlive-pst-3dplot-doc-2026.226.2.09svn68727-59.2.noarch.rpm"
+RPM_HASH = "e3f89d3fd23f12e758ae337b911c18eef06766fd0ae2a6154c99ac03fc96ff3bbb19a7ab9f225c78ebdf86dd9dffa30edb1d1f075eff3cd9e3c63f1e5f779aca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-3dplot-doc"

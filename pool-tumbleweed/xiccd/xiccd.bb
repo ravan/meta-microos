@@ -16,10 +16,10 @@ native colour management yet, such as MATE, Xfce, LXDE, to name a \
 few."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.3.0"
+PV = "0.4.1"
 
-RPM_NAME = "xiccd-0.3.0-1.13.aarch64.rpm"
-RPM_HASH = "0beb56f6c0c12f54368f7e7b1e4c24056329715045ca0911bde46e1baadd2a2bcfe936c39ed91df0144d8a2a001890d52a68274a25e14cce155434b7da267b0c"
+RPM_NAME = "xiccd-0.4.1-1.4.aarch64.rpm"
+RPM_HASH = "82b2aa439aa986edd1411f90f5d382544e64d889893b7a9e076b467bfa12caca3a5a1ae93b96032fc2e2aaead052254060d026a6f7218a76aaec750ff192f9cc"
 
 RPROVIDES:${PN} += "xiccd"
 

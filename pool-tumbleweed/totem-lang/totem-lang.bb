@@ -2,10 +2,10 @@ SUMMARY = "Translations for package totem"
 DESCRIPTION = "Provides translations for the 'totem' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "43.0"
+PV = "43.2+git402.b8d8108e0"
 
-RPM_NAME = "totem-lang-43.0-2.4.noarch.rpm"
-RPM_HASH = "eecbb00c46c0eb032ad08b695502297a4829fee80dc352a60b904e6ac4aeb7a2d1c7b9a4e970185dfdca4f0d55c3a263398acf5f980419c0e03fa0be52e09a14"
+RPM_NAME = "totem-lang-43.2+git402.b8d8108e0-2.3.noarch.rpm"
+RPM_HASH = "f57a2de7c818c8698e9d85aa58b5b489875f161f8ea566d11c8728ff1d74e5f7e991e23aa4cca33b0bbd8a59fafb1c31f5cfd7ec21947cc044dcc02c794b169e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-totem-af \

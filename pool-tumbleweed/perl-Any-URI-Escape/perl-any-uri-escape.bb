@@ -6,16 +6,16 @@ The insides of this module aren't completely shaken out yet, so patches \
 welcome."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.01"
+PV = "0.10.0"
 
-RPM_NAME = "perl-Any-URI-Escape-0.01-1.14.noarch.rpm"
-RPM_HASH = "57434b7b13baf59aff20df4fbe2345f97b365de71f8d10817043647fe1acbbec2b11f27ca442e20e8e428d2a2d8b76d70770d3f5f167ef820044dbdbe7e0d766"
+RPM_NAME = "perl-Any-URI-Escape-0.10.0-1.9.noarch.rpm"
+RPM_HASH = "9c6e71a919014ca5b5d573ca461ebad05e41fda7c0c06f839d0e29398f660730296a80ccad01dd815fb9bb6b7e3098d3db7d5b58c9e0e68826d6e86519d70df3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Any--URI--Escape \
 perl-Any-URI-Escape"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-URI--Escape"
 
 inherit rpm

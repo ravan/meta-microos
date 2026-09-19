@@ -8,24 +8,26 @@ DESCRIPTION = "Graphical desktop application for updating Flipper Zero firmware 
 * Backup and restore settings, progress and pairing data"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.1~rc1+git1.1684488882.0199220"
+PV = "1.3.3+git0.1699609231.bfce851"
 
-RPM_NAME = "qFlipper-1.3.1~rc1+git1.1684488882.0199220-1.1.aarch64.rpm"
-RPM_HASH = "3b4ff79a13a91a68841996e9f00bd84591d4c325bc144ca0a07923542a8624217dee1a0bd1f9820d44f0806402c8488a7ee7d5b70da421008c8c71f26f55a387"
+RPM_NAME = "qFlipper-1.3.3+git0.1699609231.bfce851-4.11.aarch64.rpm"
+RPM_HASH = "9e72af3fd2cc3f4393c0489b9bebf5b637db411e5394a500b6df0cfe770ddc41c29692f8217cb93e8aedeef42079f773a2a40a16e571001d1d8ec9f5456f391e"
 
 RPROVIDES:${PN} += "qFlipper"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5SerialPort.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6SerialPort.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
+libm.so.6 \
 libstdc++.so.6 \
 libusb-1.0.so.0 \
 libz.so.1 \

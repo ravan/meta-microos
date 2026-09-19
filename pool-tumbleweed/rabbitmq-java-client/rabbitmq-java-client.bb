@@ -1,16 +1,20 @@
 SUMMARY = "Java AMQP client library"
 DESCRIPTION = "The RabbitMQ Java client library allows Java code to interface to AMQP servers."
-LICENSE = "GPL-2.0-or-later & MPL-1.1"
+LICENSE = "Apache-2.0 & GPL-2.0-or-later & MPL-2.0"
 
-PV = "3.5.0"
+PV = "5.20.0"
 
-RPM_NAME = "rabbitmq-java-client-3.5.0-4.3.noarch.rpm"
-RPM_HASH = "6ced17cf73577a8155866a8b6d9efa672bf9019c60976b4716b62067d4af0ae42f0ec1e486ab1f68586219104790406e46463aa96aeacd9b1da016fe67c96442"
+RPM_NAME = "rabbitmq-java-client-5.20.0-2.7.noarch.rpm"
+RPM_HASH = "423da31099a38862fe92e2cd528d77e99641f7ec1bb35f2b74f2627862ad57792a925419c86047c19157d87f1140d41f34efce0892b0cbcaa88a56f517ffcdf6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "rabbitmq-java-client"
+RPROVIDES:${PN} += "mvn-com.rabbitmq-amqp-client \
+mvn-com.rabbitmq-amqp-client-pom- \
+osgi-com.rabbitmq.client \
+rabbitmq-java-client"
 
-RDEPENDS:${PN} += "apache-commons-io \
-jakarta-commons-cli"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

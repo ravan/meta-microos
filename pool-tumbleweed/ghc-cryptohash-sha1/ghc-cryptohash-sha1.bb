@@ -19,22 +19,21 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.101.0"
 
-RPM_NAME = "ghc-cryptohash-sha1-0.11.101.0-4.8.aarch64.rpm"
-RPM_HASH = "4344ab4955a4a97e863dcb7c2481784192130b9f6786eee425c524a0147a1febfb9b04ff285d6f54fb1dec6379402cd0750212b0e7eb5efeb18f096b87a06ee9"
+RPM_NAME = "ghc-cryptohash-sha1-0.11.101.0-8.15.aarch64.rpm"
+RPM_HASH = "61ab0009af3f8ef6d95e68de31bc21585ca73e9b77f8bc51c6ad1b230deabc60ef82bc95af5a955f456be374381db34366c41c5cd3ed198a19542ace1fab1054"
 
 RPROVIDES:${PN} += "ghc-cryptohash-sha1 \
-libHScryptohash-sha1-0.11.101.0-6Awf3EmibUqDJxbZJLf3j4-ghc9.4.6.so"
+libHScryptohash-sha1-0.11.101.0-8eRxmtRH1AP4nYxJeWtthM-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

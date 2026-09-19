@@ -4,10 +4,10 @@ for the support of others of the author's packages (which are \
 compiled under the ltxdoc class)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn24500"
+PV = "2026.226.1.0svn24500"
 
-RPM_NAME = "texlive-fcltxdoc-2023.209.1.0svn24500-53.1.noarch.rpm"
-RPM_HASH = "fa5c5624f522bad2c80c6773428e2c3d73f9232077c29fe26000d06f1376b7e21c2b92efb7dfaaecaf1087b889909d7074d8804bb321823de8ef2a2657ae729c"
+RPM_NAME = "texlive-fcltxdoc-2026.226.1.0svn24500-59.2.noarch.rpm"
+RPM_HASH = "ac1cabe62233f29477ac20d1aea44cb005ad1d7082f27c15071be50db6a6a2245f31987b0d12fcb97171de7cb4bc841af64b8ae6badf5be84476ba92e3f06f24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fcltxdoc.sty \

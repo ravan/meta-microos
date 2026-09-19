@@ -2,10 +2,10 @@ SUMMARY = "Wayland compositor image grabber"
 DESCRIPTION = "This tool can grab images from a Wayland compositor."
 LICENSE = "MIT"
 
-PV = "1.4.1"
+PV = "1.5.0"
 
-RPM_NAME = "grim-1.4.1-1.1.aarch64.rpm"
-RPM_HASH = "326bd2a73e70e257a0baf3956116f917a71db4ccf04af852f936c3ad5bff901d3f4b478d067c2c9e6e85d840d392e204824cdc12d0656487e9210d9e61fa175f"
+RPM_NAME = "grim-1.5.0-1.4.aarch64.rpm"
+RPM_HASH = "490988bab73c135baaf1bbafa5ce60d5657f371384b97dad2900e2e80330234fd948d9d60493f8923b6fb493971382f6cd618b1f16784f415a1ab73d1790c589"
 
 RPROVIDES:${PN} += "grim"
 

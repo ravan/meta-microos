@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.3"
 
-RPM_NAME = "apg-2.2.3-1.25.aarch64.rpm"
-RPM_HASH = "cb952730fb67338dafa39ad80d38f8eab56bcbae47c599c15de179ac4d3a32c56f943d4cae3d7acce24ede3f0cfc69f17ed5bf18497ff656eb51eb06ae4f7d2a"
+RPM_NAME = "apg-2.2.3-2.9.aarch64.rpm"
+RPM_HASH = "a31b8c1a5b41ed2e45c49935216136d6971dab53d69708a9efc2fb85e02d72715d3d93227ecaf412f606f99056323a1fcc2f3c088e59e0fa834a4c9580702bbd"
 
 RPROVIDES:${PN} += "apg"
 

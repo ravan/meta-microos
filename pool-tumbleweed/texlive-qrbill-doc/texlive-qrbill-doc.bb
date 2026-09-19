@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-qrbill"
 DESCRIPTION = "This package includes the documentation for texlive-qrbill"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.00svn66301"
+PV = "2026.226.2.01svn76924"
 
-RPM_NAME = "texlive-qrbill-doc-2023.209.2.00svn66301-54.2.noarch.rpm"
-RPM_HASH = "ab3fd0eaab8012e2f9eba89871f73b848263c27ff8e79d6f32ce193e302907e3b959348e0d8a178ce16814fe381391a2bd1bb4a04137565838100a1c0a389695"
+RPM_NAME = "texlive-qrbill-doc-2026.226.2.01svn76924-60.4.noarch.rpm"
+RPM_HASH = "d7f171a93c2d2d7a5e34d465b9bb01ba36b65e97c1828886cc7dfc5feeb27ae06b55fcbc67d1def1cf617fe4981a8a1b00312fac26e9ca96ee7934d2a07a5cce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qrbill-doc"

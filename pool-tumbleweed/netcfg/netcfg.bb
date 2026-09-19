@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "11.6"
 
-RPM_NAME = "netcfg-11.6-10.4.noarch.rpm"
-RPM_HASH = "adb713f3e2c9ee42ffb6c33d880949cbd29fb6bb09b3a00779fd63813d0c87e4982e7543aa4dfa1b687699dd1620947375e9e63b53d3f9b108c5f5a9dc816c17"
+RPM_NAME = "netcfg-11.6-14.2.noarch.rpm"
+RPM_HASH = "bb6b5f85cdad1956dd292551a85c4beec21f2cadfc881c38a7ffb8b265cc710f7a83f29b06005a5e80fb003458b3694511fef8b6959dbd7427d9dae8c642c0fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-netcfg \

@@ -23,10 +23,10 @@ environment's name and the line it started on; and zref-xr, \
 provide the facilities of the xr and xr-hyper packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.34svn62977"
+PV = "2026.226.2.36svn78101"
 
-RPM_NAME = "texlive-zref-2023.209.2.34svn62977-53.2.noarch.rpm"
-RPM_HASH = "3519d71b9fe0549a3249d9e6b0c3d3fa073c8530b102af25bb3ca2e9ce47eace3a67858e2411b0a50af9cbf5ce75dc0f5a1b67080b298bd38add13933cc235c8"
+RPM_NAME = "texlive-zref-2026.226.2.36svn78101-59.4.noarch.rpm"
+RPM_HASH = "280364f5d2f6852a324e2a6a86e7879829241af4458086526630951e496619b0a69809c36ca48f8563ba21ed852363d38a5ccf43e3aea085318413db88d4e481"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zref-abspage.sty \
@@ -59,7 +59,6 @@ findutils \
 grep \
 sed \
 tex-atbegshi.sty \
-tex-atveryend.sty \
 tex-auxhook.sty \
 tex-etexcmds.sty \
 tex-gettitlestring.sty \

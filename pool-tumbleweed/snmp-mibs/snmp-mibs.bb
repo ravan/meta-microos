@@ -13,10 +13,10 @@ and SNMP v3 using both IPv4 and IPv6. The suite includes: \
 This package holds the MIB files from the net-snmp package."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "5.9.3"
+PV = "5.9.5.2"
 
-RPM_NAME = "snmp-mibs-5.9.3-4.11.aarch64.rpm"
-RPM_HASH = "6476456a147fa5fa76bc5aacbc547e6e9bcf0fee4226f3202d6e779926dcdec9dee166bc056a12a2593b7fcd1bdceee2a735580c3c2a9f263af978aecd79d3a1"
+RPM_NAME = "snmp-mibs-5.9.5.2-2.4.aarch64.rpm"
+RPM_HASH = "960a0d3568231ea1e30e0cc2aae17816e9bcf25102b5f46e966519a88d2c178eeb87cea88ac5d7b9a10cb7a49a1098c561924cdba9fc3bb91747032aeaec1bd3"
 
 RPROVIDES:${PN} += "snmp-mibs"
 

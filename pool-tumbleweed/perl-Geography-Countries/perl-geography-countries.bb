@@ -6,13 +6,13 @@ LICENSE = "MIT"
 
 PV = "2009041301"
 
-RPM_NAME = "perl-Geography-Countries-2009041301-1.28.noarch.rpm"
-RPM_HASH = "9cba6965202dd9929bcadfae9f74dd97a16421fff37eee7a2b4fe91ead8bb831720e59d04a757a2309d0b9f736564909d870d55898d899cfd8dddb953170023a"
+RPM_NAME = "perl-Geography-Countries-2009041301-1.42.noarch.rpm"
+RPM_HASH = "6fb48f72f21352f27e3dd3d5a039ca6841e00956030dc17ecb111c7094079977392de8645f9dea41f2120d5fe28cb480b01dc8a0cbc16cfce28a37e65e37e5e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Geography--Countries \
 perl-Geography-Countries"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

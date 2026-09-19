@@ -16,8 +16,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.9.2"
 
-RPM_NAME = "lftp-4.9.2-3.1.aarch64.rpm"
-RPM_HASH = "27e6afffc76de2b94b66a20c815e7f70202b5fba9bcb872875e9bec941d3e3c75a28af2d14b01cde2a3dbf267de396b67207829a945c112c0c9a221e3ff29ba2"
+RPM_NAME = "lftp-4.9.2-9.3.aarch64.rpm"
+RPM_HASH = "046512e0dd241ff2a69ae5db306a1c527c3f5836835be04bfe6f75017d6855a1c0d89f5291a7c71e884be886fb3c2a62623494f70c59b2156bbb68fb28ad7d23"
 
 RPROVIDES:${PN} += "config-lftp \
 lftp \
@@ -26,7 +26,8 @@ liblftp-network.so \
 liblftp-pty.so \
 liblftp-tasks.so.0"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
@@ -41,7 +42,6 @@ libreadline.so.8 \
 libssl.so.3 \
 libstdc++.so.6 \
 libtinfo.so.6 \
-libz.so.1 \
-update-alternatives"
+libz.so.1"
 
 inherit rpm

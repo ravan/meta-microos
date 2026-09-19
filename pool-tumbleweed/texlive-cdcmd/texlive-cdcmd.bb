@@ -4,10 +4,10 @@ styledcmd package. The difference is that cdcmd can define \
 expandable conditional commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn60742"
+PV = "2026.226.1.0svn76924"
 
-RPM_NAME = "texlive-cdcmd-2023.209.1.0svn60742-53.1.noarch.rpm"
-RPM_HASH = "df203224bd4a3c051479ef336abf8384fd302e3480a428253333f45fc8618ca7808873d3a0446fb2431b45df33c6a1a359dc0f4cfd7b9b454d5c6e3e1986d78d"
+RPM_NAME = "texlive-cdcmd-2026.226.1.0svn76924-59.2.noarch.rpm"
+RPM_HASH = "2cfc9944d18a1b9361911cdb56c8fbbf07c5b3180d43a7abf76efe3fd946d68294e536233b9576e7303f42f73a0f3422a0812faa8ac9effc522616482ab0c1e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cdcmd.sty \

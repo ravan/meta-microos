@@ -2,10 +2,10 @@ SUMMARY = "A tool for measuring SMTP server delay, delay variation and throughpu
 DESCRIPTION = "A tool for measuring SMTP server delay, delay variation and throughput."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.1.4"
+PV = "1.1.5"
 
-RPM_NAME = "smtpping-1.1.4-1.8.aarch64.rpm"
-RPM_HASH = "2cac56369cf6d22220cd0f9b78cc70740622cd7c8694d4de476eeae8e2816ff669fa7e0dd27b873026a5d4701e3520b4b29d1f9cb659e6c2b6c27d528760e135"
+RPM_NAME = "smtpping-1.1.5-1.1.aarch64.rpm"
+RPM_HASH = "9eaf4cca8c13b94089bc2b13dd78d95584b550ad4b2d4b8f7f4ed98f6022a6a8f27a5e4d4006c2b196c120ef470266831bea444c094566c139d96b086a2365f0"
 
 RPROVIDES:${PN} += "smtpping"
 

@@ -2,19 +2,25 @@ SUMMARY = "A GTK eBook reader"
 DESCRIPTION = "A GTK eBook viewer, built with GJS and Epub.js."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.6.4"
+PV = "3.3.0"
 
-RPM_NAME = "foliate-2.6.4-2.5.noarch.rpm"
-RPM_HASH = "bb686d3350f96e15841a0052b2d1b397d89f1ad355d26fd5122c9b9c8c5f6027f0ba8bf71cfda0f7b185ad4c3c0db9ed83354290f3183d288ea15c91deb5c7be"
+RPM_NAME = "foliate-3.3.0-3.2.noarch.rpm"
+RPM_HASH = "4c88033b7871e9fc71dea8d95fd743c54a6ed6d9497b726e78303d5f7b76e5ee860d204469c3168e6d755a1d8ed4d2b2636a87c800901cbdf95239676f03f4ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "foliate"
 
 RDEPENDS:${PN} += "gjs \
+typelib-Adw \
+typelib-GLib \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
 typelib-Gio \
-typelib-Gspell \
 typelib-Gtk \
-typelib-Handy \
-typelib-WebKit2"
+typelib-Pango \
+typelib-Tracker \
+typelib-WebKit \
+typelib-cairo"
 
 inherit rpm

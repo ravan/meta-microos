@@ -14,10 +14,10 @@ generates suitable 'hints' to enhance quality at small sizes or \
 poor resolutions. The programs are written in Perl."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.25svn18835"
+PV = "2026.226.0.0.25svn18835"
 
-RPM_NAME = "texlive-accfonts-2023.209.0.0.25svn18835-55.1.noarch.rpm"
-RPM_HASH = "64fedb3727a8a8a4e005bf3a398a809a59ea68cfb40202ff5fb920fdcdc94ce9add530ecdc7a859dfa21c9c30e5923f42a0ea38724107ff147443e0eb319a98d"
+RPM_NAME = "texlive-accfonts-2026.226.0.0.25svn18835-61.2.noarch.rpm"
+RPM_HASH = "4962ad204453fde5da3eafb7bf8a85c0d1d7f06a33f64ed25d8fed22f3fe04f5fe645f176006693bf7d79517ea93e0079f0e6c3b338953a616dcd227eab874d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CSX.def \

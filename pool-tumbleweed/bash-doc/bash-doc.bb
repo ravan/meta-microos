@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the documentation for using the bourne shel
 interpreter Bash."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.15"
+PV = "5.3.15"
 
-RPM_NAME = "bash-doc-5.2.15-8.6.noarch.rpm"
-RPM_HASH = "53d5483dd4ddcb90b8c76bb3568b69343ab802953bec181e3848092b3794e48327a71cbc590ef52c6cb04bdfa90fd2bf86f620105bcb9e9dd4a057a4b7a15244"
+RPM_NAME = "bash-doc-5.3.15-8.2.noarch.rpm"
+RPM_HASH = "f5c6384111f4a9a9809ca0430684402593967f4f3d85beeb9c34436d4c9b0c4bc245f616db778217baa0e42c4d51026642e40692b805aa1d3c006fd62eb7104c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-/usr/share/info/bash.info.gz \

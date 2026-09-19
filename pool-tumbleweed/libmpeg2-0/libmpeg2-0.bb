@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.1"
 
-RPM_NAME = "libmpeg2-0-0.5.1-3.13.aarch64.rpm"
-RPM_HASH = "7ce9943fd508a053885ca8ded7a7ce4ccf166f76fef17e32b6435dad33e82482df61529f81f592c6f0150b0a8218d07c11bf476b7701d50e57fc2a5ed83e0c80"
+RPM_NAME = "libmpeg2-0-0.5.1-3.23.aarch64.rpm"
+RPM_HASH = "e589f3e736136bd09ed252cc76a07e1119fceea5c85709af1324d4191ba8bba58bbd4cf7c81e70be5ef14d86ac3199ae3ddfbc7b2416090f70542412338fca7c"
 
 RPROVIDES:${PN} += "libmpeg2-0 \
 libmpeg2.so.0"

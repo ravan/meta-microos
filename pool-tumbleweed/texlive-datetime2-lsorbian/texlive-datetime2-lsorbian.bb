@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn47749"
+PV = "2026.226.1.1svn47749"
 
-RPM_NAME = "texlive-datetime2-lsorbian-2023.209.1.1svn47749-53.1.noarch.rpm"
-RPM_HASH = "fe05828c67544bc03f1c35f60429fd7f114713f7ef74d3da22a775c102637cd1ffe21a6014629c78bf6ba950500e406f28496c301e077a333263f7b12e81582c"
+RPM_NAME = "texlive-datetime2-lsorbian-2026.226.1.1svn47749-59.2.noarch.rpm"
+RPM_HASH = "ef17fb31a849dc7b88903a01905275afec7973b72da3469d55ebe7285aa36d730b080741acea512eef6ab6039debd6f1bb4e14f48fbae69c1bd3df75b61d74df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-lsorbian-ascii.ldf \

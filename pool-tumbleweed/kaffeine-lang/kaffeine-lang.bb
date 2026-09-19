@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kaffeine"
 DESCRIPTION = "Provides translations for the 'kaffeine' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.18git.20230531T022124~afc6c12"
+PV = "2.0.19git.20250316T013712~afc3f87"
 
-RPM_NAME = "kaffeine-lang-2.0.18git.20230531T022124~afc6c12-1.1.noarch.rpm"
-RPM_HASH = "bacdd81d7c5f9cd97b84503b4dc3f01f34d067857aac2ee9db0025b81c9fe16322f4eec49975b7c9d2bab9f2515c97630e947c7a4fcac531908d37013b8b154e"
+RPM_NAME = "kaffeine-lang-2.0.19git.20250316T013712~afc3f87-1.6.noarch.rpm"
+RPM_HASH = "7dffca4077dde0076f13b914681c8f34b09fde79eff029a02e7fa74215b65e5b9e9ac4240c66ad44ca6062e22c813c1eb0a779d1a5309c4b89bbec4037d98e4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kaffeine-lang \
@@ -29,6 +29,8 @@ locale-kaffeine-fi \
 locale-kaffeine-fr \
 locale-kaffeine-ga \
 locale-kaffeine-gl \
+locale-kaffeine-he \
+locale-kaffeine-hi \
 locale-kaffeine-hr \
 locale-kaffeine-hu \
 locale-kaffeine-ia \

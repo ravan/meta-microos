@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Macedonian 
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-mkd-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "dde5c1727b7a317cf56bba244581b3c99bbb004935d2761ab483e386009e4304c574110b6efb36a66cdf366bca85927bb8a568bd45af821fb710558f632c54e5"
+RPM_NAME = "tesseract-ocr-traineddata-mkd-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "c41ea6b9aa5d9e7e82120b70b48c98e3c5d582de445ec28598cfed8b9219fa8b5a642df7dbc475f6636ae92f27fe722b5c414f6137f2e083fb32f3482b497fb6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-macedonian \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-mk \
+tesseract-ocr-traineddata-macedonian \
 tesseract-ocr-traineddata-mkd \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-macedonian"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

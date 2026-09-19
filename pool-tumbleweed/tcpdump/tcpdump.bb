@@ -3,10 +3,10 @@ DESCRIPTION = "This program can 'read' all or only certain packets going over th
 ethernet. It can be used to debug specific network problems."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.99.4"
+PV = "4.99.6"
 
-RPM_NAME = "tcpdump-4.99.4-1.2.aarch64.rpm"
-RPM_HASH = "8776f4a695425ed9547d36c3404b0f7b2b4d89b6f81cc97c4387b209d86a869c1c3fbd1d79784395b9c429cff8df4fa83f2c62c4b2539c115e05425c0f560740"
+RPM_NAME = "tcpdump-4.99.6-1.4.aarch64.rpm"
+RPM_HASH = "a51341c9d9ead4d82e5a5516d9e912d2eae798fcc67c663579bdb7ae8f6d4cb69c37d5614050e37a8dcbd09c8f9ecff7fac012f8d7eb0aa869447e721e265dbd"
 
 RPROVIDES:${PN} += "tcpdump"
 

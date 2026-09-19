@@ -1,22 +1,30 @@
 SUMMARY = "The ConTeXt macro package"
 DESCRIPTION = "A full featured, parameter driven macro package, which fully \
-supports advanced interactive documents. See the ConTeXt garden \
-for a wealth of support information."
+supports advanced interactive documents. See the ConTeXt Wiki \
+for more information. This content on CTAN is packaged \
+independently of the ConTeXt project, so if you have a problem \
+with ConTeXt itself, it is best to report it to the official \
+ntg-context@ntg.nl mailing list. If you notice that ConTeXt is \
+mispackaged in TeX Live or CTAN, then please open a new issue \
+on GitHub, email the public ntg-context@ntg.nl or \
+tex-live@tug.org mailing lists, or email me privately at \
+tex@maxchernoff.ca. Pull requests are also gladly accepted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66546"
+PV = "2026.226.20260219_11_49_asvn78010"
 
-RPM_NAME = "texlive-context-2023.209.svn66546-55.1.noarch.rpm"
-RPM_HASH = "3f6432431af5b5c26c15eecab0ac5a67d5df89a02ed6d605cba4167419adcd14b42774d41454c012c9fa22ee720dac568b1c973ffeb43c710244e93e914b0614"
+RPM_NAME = "texlive-context-2026.226.20260219_11_49_asvn78010-61.2.noarch.rpm"
+RPM_HASH = "d484486c096a786dc499bc685b52495f02e40abce37af7fa3d7058c594a8ce414707dd03cc3ef21b9e40713b1d5f2317fc54bd9108db2f5b9dbca05073a511fd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl-Tk--path-tre \
+RPROVIDES:${PN} += "config-texlive-context \
 tex-aesop-de.tex \
+tex-alfredsson-sv.tex \
 tex-aristotle-grc.tex \
 tex-bidi-symbols.tex \
 tex-bryson.tex \
-tex-capek-cz.tex \
-tex-capek-vlnka-cz.tex \
+tex-capek-cs.tex \
+tex-capek-vlnka-cs.tex \
 tex-carey.tex \
 tex-carrol.tex \
 tex-cervantes-es.tex \
@@ -24,8 +32,6 @@ tex-context-lmtx-error.tex \
 tex-context-performance.tex \
 tex-context-test.tex \
 tex-context-todo.tex \
-tex-contnav.map \
-tex-contnav.tfm \
 tex-darwin.tex \
 tex-davis.tex \
 tex-dawkins.tex \
@@ -34,11 +40,13 @@ tex-demo-symbols.tex \
 tex-demo-tex.tex \
 tex-demo-xml.tex \
 tex-dequincey.tex \
+tex-dijkstra.tex \
 tex-douglas.tex \
-tex-dyrynk-cz.tex \
-tex-dyrynk-vlnka-cz.tex \
+tex-dyrynk-cs.tex \
+tex-dyrynk-vlnka-cs.tex \
 tex-export-example.tex \
-tex-filenames.tex \
+tex-falstaff-sv.tex \
+tex-gabriel.tex \
 tex-gray.tex \
 tex-greenfield.tex \
 tex-hawking.tex \
@@ -49,17 +57,21 @@ tex-hviezdoslav-vlnka-sk.tex \
 tex-i-readme.tex \
 tex-jaros-sk.tex \
 tex-jaros-vlnka-sk.tex \
+tex-jaynes.tex \
 tex-jojomayer.tex \
 tex-khatt-ar.tex \
 tex-khatt-en.tex \
 tex-klein.tex \
+tex-knuth-gpt.tex \
 tex-knuth.tex \
-tex-kollar-cz.tex \
-tex-kollar-vlnka-cz.tex \
-tex-komensky-cz.tex \
-tex-komensky-vlnka-cz.tex \
+tex-knuthmath.tex \
+tex-kollar-cs.tex \
+tex-kollar-vlnka-cs.tex \
+tex-komensky-cs.tex \
+tex-komensky-vlnka-cs.tex \
 tex-krdel-sk.tex \
-tex-kun-cz.tex \
+tex-kun-cs.tex \
+tex-lansburgh-letterspacing-sv.tex \
 tex-linden.tex \
 tex-lorem.tex \
 tex-luatex-basics-prepare.tex \
@@ -77,13 +89,11 @@ tex-luatex-preprocessor.tex \
 tex-luatex-swiglib-test.tex \
 tex-luatex-swiglib.tex \
 tex-luatex-test.tex \
-tex-m-ch-de.sty \
-tex-m-ch-en.sty \
-tex-m-ch-nl.sty \
-tex-m-pictex.sty \
 tex-m-tikz-pgfplots.tex \
 tex-m-tikz-pgfplotstable.tex \
 tex-materie.tex \
+tex-math-knuth-dt.tex \
+tex-math-kontinuitet-sv.tex \
 tex-mcnish.tex \
 tex-montgomery.tex \
 tex-mtx-context-arrange.tex \
@@ -92,6 +102,7 @@ tex-mtx-context-common.tex \
 tex-mtx-context-compare.tex \
 tex-mtx-context-copy.tex \
 tex-mtx-context-domotica.tex \
+tex-mtx-context-fixpdf.tex \
 tex-mtx-context-fonts.tex \
 tex-mtx-context-hashed.tex \
 tex-mtx-context-ideas.tex \
@@ -106,7 +117,6 @@ tex-mtx-context-sql.tex \
 tex-mtx-context-timing.tex \
 tex-mtx-context-trim.tex \
 tex-mtx-context-xml.tex \
-tex-original-context-symbol.map \
 tex-poe.tex \
 tex-pope-en.tex \
 tex-pope-es.tex \
@@ -114,32 +124,9 @@ tex-quevedo-es.tex \
 tex-reich.tex \
 tex-s-abbreviations-extras.tex \
 tex-s-abbreviations-logos.tex \
-tex-s-cdr-01.tex \
-tex-s-faq-00.tex \
-tex-s-faq-01.tex \
-tex-s-faq-02.tex \
-tex-s-faq-03.tex \
-tex-s-pre-00.tex \
-tex-s-pre-06.tex \
-tex-s-pre-07.tex \
-tex-s-pre-08.tex \
-tex-s-pre-12.tex \
-tex-s-pre-13.tex \
-tex-s-pre-16.tex \
-tex-s-pre-18.tex \
-tex-s-pre-22.tex \
-tex-s-pre-23.tex \
-tex-s-pre-26.tex \
-tex-s-pre-27.tex \
-tex-s-pre-50.tex \
-tex-s-pre-66.tex \
-tex-s-pre-67.tex \
-tex-s-pre-93.tex \
-tex-s-pre-96.tex \
 tex-sample.tex \
 tex-samples.tex \
 tex-sapolsky.tex \
-tex-scite-context-readme.tex \
 tex-shakespeare-en.tex \
 tex-shakespeare-es.tex \
 tex-shelley-en.tex \
@@ -149,8 +136,8 @@ tex-slova-sk.tex \
 tex-smrek-sk.tex \
 tex-smrek-vlnka-sk.tex \
 tex-stork.tex \
+tex-tchaikovsky.tex \
 tex-thuan.tex \
-tex-tlig.map \
 tex-tufte.tex \
 tex-vallejo-trilce-es.tex \
 tex-waltham.tex \
@@ -158,46 +145,25 @@ tex-ward.tex \
 tex-weisman.tex \
 tex-welcome-to-context.tex \
 tex-zapf.tex \
+tex-zelensky.tex \
 texlive-context"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-/usr/bin/texlua \
 coreutils \
 ed \
 findutils \
 grep \
-perl-Config \
-perl-Cwd \
-perl-Data--Dumper \
-perl-File--Copy \
-perl-File--Find \
-perl-FindBin \
-perl-Getopt--Long \
-perl-Tk \
-perl-Tk--DirTree \
-perl-Tk--ROText \
-perl-Tk--widgets \
-perl-base \
-perl-lib \
-perl-strict \
 sed \
-tex-pst-plot.sty \
-tex-pstricks.sty \
-tex-updmap.cfg \
 texlive \
-texlive-amsfonts \
 texlive-context-bin \
 texlive-context-fonts \
+texlive-dejavu \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-lm \
 texlive-lm-math \
-texlive-luatex \
-texlive-manfnt-font \
-texlive-mflogo-font \
 texlive-scripts \
-texlive-scripts-bin \
-texlive-stmaryrd"
+texlive-scripts-bin"
 
 inherit rpm

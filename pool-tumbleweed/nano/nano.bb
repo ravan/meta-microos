@@ -3,10 +3,10 @@ DESCRIPTION = "GNU nano is a small and friendly text editor. It aims to emulate 
 the Pico text editor while also offering a few enhancements."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.2"
+PV = "9.2"
 
-RPM_NAME = "nano-7.2-1.4.aarch64.rpm"
-RPM_HASH = "5d2449f0007c06382ee54f312eacaa1f9c479eba8e746d3b93d528df636613b91c4fe1ce1bb690e25966278ffc9d64c66a120929536ca7ce37580b710e7b3d04"
+RPM_NAME = "nano-9.2-1.1.aarch64.rpm"
+RPM_HASH = "eb18975d9eb2f39bd334d0493af2bb4d016da1e7bdf40059aec7a109b37aa74e2befc38b0fa567e62ab2c70390ee66b2f4951c42a9e8394570e3c175ec74d0a9"
 
 RPROVIDES:${PN} += "config-nano \
 nano"

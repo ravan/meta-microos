@@ -7,15 +7,15 @@ the settings for various font and paper sizes. More details are \
 to be read in the script itself."
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.1.63svn53131"
+PV = "2026.226.1.63svn53131"
 
-RPM_NAME = "texlive-latex-papersize-2023.209.1.63svn53131-56.1.noarch.rpm"
-RPM_HASH = "7ade9e18d4d7ee68853d8fb06840e30740e874de06e58c56eb77f19525827a3211b00337d028bced57b952fbbf43c60a92c8a1fdfd952466bacba26a16b6f63e"
+RPM_NAME = "texlive-latex-papersize-2026.226.1.63svn53131-63.2.noarch.rpm"
+RPM_HASH = "c0df4ee4ce75d378605ac2f27cede1741e9a6723f465c95390a18ad71b8320bf1d43dcbebaeb64d15f4690b8c1bd8054fce4c94f43b709c0c67eb7b388d81ef9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-papersize"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ed \

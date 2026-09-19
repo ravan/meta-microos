@@ -5,10 +5,10 @@ analytical expansion of sin and cos (the more recent trig uses \
 a 'numerical analyst's' expansion)."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.209.svn43006"
+PV = "2026.226.svn43006"
 
-RPM_NAME = "texlive-trigonometry-2023.209.svn43006-53.1.noarch.rpm"
-RPM_HASH = "a194837cc200efd9b7308b2f8860609456c3bb0e48e76127001913a105d47b8912031fb5e132d185886ca4131268c1144632d27eb85483715787a26b98172c67"
+RPM_NAME = "texlive-trigonometry-2026.226.svn43006-59.2.noarch.rpm"
+RPM_HASH = "bfd0b9188c9cf8bcc91d3323725bc521372c2db35a62a5f0842e87e0d33c0fc29f12c1ec5a46616858471158ee6f8ce52977d6a6969555395487362351d353ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-trigonometry.tex \

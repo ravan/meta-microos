@@ -8,10 +8,10 @@ instance to annotate the diagram, to add crashes to the \
 processes, checkpoints, ..."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn63116"
+PV = "2026.226.1.2svn69123"
 
-RPM_NAME = "texlive-messagepassing-2023.209.1.0svn63116-55.1.noarch.rpm"
-RPM_HASH = "e4ccfef14d69546368f7f2505ea32d42f407a2100cdfdb00631378024f2e5326e9806a3ad987047c285459d36ea989cfd92c5a112f15c993213a89d9d48b8d89"
+RPM_NAME = "texlive-messagepassing-2026.226.1.2svn69123-61.2.noarch.rpm"
+RPM_HASH = "bc7555f0d15b4b14cc461475d1de3bb7da9713ed5e291c793a3c9dcb60d67b7f6259252667e8963493383b47daea43b886f310f2f2dd6b334c576ddb92cd7c03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-messagepassing.sty \

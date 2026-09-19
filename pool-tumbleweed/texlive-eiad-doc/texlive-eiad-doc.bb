@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eiad"
 DESCRIPTION = "This package includes the documentation for texlive-eiad"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-eiad-doc-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "ae69d4c87c756c6e60e8336963750a5900753cdde071344caf1a1cdb53ca735462d4919d341f854227cc395ab096f7044b63eb59ac8239af9be5602648586971"
+RPM_NAME = "texlive-eiad-doc-2026.226.svn15878-61.4.noarch.rpm"
+RPM_HASH = "22b36f32f8fdb665a4c9c8e5037cddb03f23b9bae2d30e44c5b21135aa964ad1938beef8cddfd1232afa42ec6aeae6ff3bb2a7d38367a81100ced848e7d45324"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eiad-doc"

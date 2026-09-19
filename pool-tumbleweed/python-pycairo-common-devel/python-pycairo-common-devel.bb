@@ -5,23 +5,20 @@ This package provides the headers and development files needed to build \
 packages that depend on Pycairo."
 LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
-PV = "1.24.0"
+PV = "1.29.1"
 
-RPM_NAME = "python-pycairo-common-devel-1.24.0-1.1.aarch64.rpm"
-RPM_HASH = "5444270dd8014f3f03dd4f6c7214362f07b6679e71c0aefc48a342cb0355e024853c4484ed11125272a3afe4797eb5a174de872162a4a2557cdd9d211f19a72f"
+RPM_NAME = "python-pycairo-common-devel-1.29.1-1.1.aarch64.rpm"
+RPM_HASH = "b558957e761784d9b06d502fd66fe4dc941eca74c8b10175150438a535d49c4937b8ff14fedf25a24575257f5026b4f43b2f619f25019e7abd32dd956036fb8c"
 
 RPROVIDES:${PN} += "pkgconfig-py3cairo \
 python-cairo-common-devel \
 python-pycairo-common-devel \
-python310-cairo-common-devel \
-python310-cairo-devel \
-python310-pycairo-common-devel \
-python311-cairo-common-devel \
-python311-cairo-devel \
-python311-pycairo-common-devel \
-python39-cairo-common-devel \
-python39-cairo-devel \
-python39-pycairo-common-devel"
+python313-cairo-common-devel \
+python313-cairo-devel \
+python313-pycairo-common-devel \
+python314-cairo-common-devel \
+python314-cairo-devel \
+python314-pycairo-common-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cairo-devel \

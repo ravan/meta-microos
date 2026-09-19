@@ -3,15 +3,15 @@ DESCRIPTION = "Ixion is a general purpose formula parser & interpreter that can 
 multiple named targets, or 'cells'."
 LICENSE = "MIT"
 
-PV = "0.18.1"
+PV = "0.20.0"
 
-RPM_NAME = "libixion-devel-0.18.1-1.1.aarch64.rpm"
-RPM_HASH = "254a9fada8285ec0519d963e2ace9177d5156bcd9e30b1c740d0ca275200cd1e3b8a1bb32d0d37f5aa4e0193382cf5985c8c6e3da13c9a20cd8f9b805a26feae"
+RPM_NAME = "libixion-devel-0.20.0-4.7.aarch64.rpm"
+RPM_HASH = "0d1083c2733350ecbb82b0275bf35419b1a38553fc36316d3fad995e5ec33a5a420518b4be60c847fbded2ae1356b822342254c6929dba61dd78b1af4baf422c"
 
 RPROVIDES:${PN} += "libixion-devel \
-pkgconfig-libixion-0.18"
+pkgconfig-libixion-0.20"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libixion-0-18-0"
+libixion-0-20-0"
 
 inherit rpm

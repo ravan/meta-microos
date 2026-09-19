@@ -2,17 +2,17 @@ SUMMARY = "Translations for package ksudoku"
 DESCRIPTION = "Provides translations for the 'ksudoku' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ksudoku-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "038889077c7e21c3401140d7ad0a4ed3ba125c69502c2bafdf62d7868fe6320cf1bb14f58bcffe2adfb4f9eafd5b3b52d88fe265c2e7cfee99c4e53e6badad3e"
+RPM_NAME = "ksudoku-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "246d3695a4b2e3eb5d378bbe6b58e40429add4ba3701259b59fa73e1b2f060e0c14da3e7d82f5aa38a075e55f0c0aa6a9bb5f71d3afc81688a17ab153ecfb1fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksudoku-lang \
 ksudoku-lang-all \
 locale-ksudoku-ar \
+locale-ksudoku-ast \
 locale-ksudoku-be \
-locale-ksudoku-bg \
 locale-ksudoku-bs \
 locale-ksudoku-ca \
 locale-ksudoku-ca@valencia \
@@ -30,9 +30,11 @@ locale-ksudoku-fi \
 locale-ksudoku-fr \
 locale-ksudoku-ga \
 locale-ksudoku-gl \
+locale-ksudoku-he \
 locale-ksudoku-hi \
 locale-ksudoku-hr \
 locale-ksudoku-hu \
+locale-ksudoku-id \
 locale-ksudoku-is \
 locale-ksudoku-it \
 locale-ksudoku-ja \

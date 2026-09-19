@@ -2,10 +2,10 @@ SUMMARY = "Parent pom for Apache Logging Services projects"
 DESCRIPTION = "Parent pom for Apache Logging Services projects."
 LICENSE = "Apache-2.0"
 
-PV = "5"
+PV = "12.1.1"
 
-RPM_NAME = "apache-logging-parent-5-1.5.noarch.rpm"
-RPM_HASH = "965ce66236fc4d589be776c8cbe16a297e1f410cdd7d9b2b3d281e30365499a4b8289a7e9b0fa45e98b400de5f315fed8087f42a4b0025da8bb940965e3a2ae2"
+RPM_NAME = "apache-logging-parent-12.1.1-1.1.noarch.rpm"
+RPM_HASH = "a8e0f19628701d02f925a68cbbdb50a872ca1cc52a52822df5641f4f95b41cee81f92d6e01ed36ea0714af962f403bf5a012cd9107444f088bc152a16310fa3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-logging-parent \
@@ -13,6 +13,13 @@ mvn-org.apache.logging-logging-parent-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.apache-apache-pom-"
+mvn-biz.aQute.bnd-bnd-baseline-maven-plugin \
+mvn-biz.aQute.bnd-bnd-maven-plugin \
+mvn-org.apache-apache-pom- \
+mvn-org.apache.maven.plugins-maven-compiler-plugin \
+mvn-org.apache.maven.plugins-maven-failsafe-plugin \
+mvn-org.apache.maven.plugins-maven-jar-plugin \
+mvn-org.apache.maven.plugins-maven-surefire-plugin \
+mvn-org.codehaus.mojo-build-helper-maven-plugin"
 
 inherit rpm

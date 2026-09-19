@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mhequ"
 DESCRIPTION = "This package includes the documentation for texlive-mhequ"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.72svn64978"
+PV = "2026.226.1.72svn64978"
 
-RPM_NAME = "texlive-mhequ-doc-2023.209.1.72svn64978-55.1.noarch.rpm"
-RPM_HASH = "df78ba6e859b0cabf426c1c821832cd77fa320c2013619f7ba0af03ea8fa5e494dde8ab52d7686a65a153576df40d36b62bc198e11d5f8069083520274010f81"
+RPM_NAME = "texlive-mhequ-doc-2026.226.1.72svn64978-61.2.noarch.rpm"
+RPM_HASH = "ec58b50985df56f2fc875bc742f56fe3cfb15e42983061788647c22a1d6b3b52349950f292dadf679f80e270ef8de6895c27d6efeb276094cc409a8003e5ad92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mhequ-doc"

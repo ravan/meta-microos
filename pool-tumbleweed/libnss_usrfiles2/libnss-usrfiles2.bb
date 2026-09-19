@@ -3,10 +3,10 @@ DESCRIPTION = "The NSS usrfiles plugin additionally looks in /usr/etc for passwd
 group, rpc, services, protocols and more."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.27"
+PV = "2.27.1"
 
-RPM_NAME = "libnss_usrfiles2-2.27-3.15.aarch64.rpm"
-RPM_HASH = "19ee32a217f939a7f49b631f16f745e7b5546b0982122879f5d1a5a159336c5b6f2155bbe22c4a82e0f9278db4d80774e2923bd2dfe889c847141576c52cb107"
+RPM_NAME = "libnss_usrfiles2-2.27.1-1.11.aarch64.rpm"
+RPM_HASH = "70e6b65ccc4683bc689e4ac104f8e5d681d94ddc5585eebc33c47be5196281405b8da4549086448cb407952832354e72dd7f90dddf96b4acd3f34401d5dbe103"
 
 RPROVIDES:${PN} += "libnss-usrfiles.so.2 \
 libnss-usrfiles2"

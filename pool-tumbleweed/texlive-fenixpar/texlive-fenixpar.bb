@@ -12,10 +12,10 @@ extensions; with them, they work either with Plain TeX or with \
 LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.92svn24730"
+PV = "2026.226.0.0.92svn24730"
 
-RPM_NAME = "texlive-fenixpar-2023.209.0.0.92svn24730-53.1.noarch.rpm"
-RPM_HASH = "74ad207c3248c3002c3ac21d844f276e2ed4676312c440bc002a57fa956a8a8bc6a736a04ff42294860343ff4e99af9a842924f64c670b99c2f4263922d4b35b"
+RPM_NAME = "texlive-fenixpar-2026.226.0.0.92svn24730-59.2.noarch.rpm"
+RPM_HASH = "af54b38467ab95439d1b57c0db54b72930bf229a6864ba9f6643581b659d4ce3a10970f9daa970868a3f242754bcb3c35ee0e36d8a11c9023b015b6124f774f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fenixpar.sty \

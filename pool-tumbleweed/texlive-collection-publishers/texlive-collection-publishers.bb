@@ -2,26 +2,31 @@ SUMMARY = "Publisher styles, theses, etcetera"
 DESCRIPTION = "The collection-publishers package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn66330"
+PV = "2026.222.svn77878"
 
-RPM_NAME = "texlive-collection-publishers-2023.208.svn66330-60.1.noarch.rpm"
-RPM_HASH = "b77672b92d0cccaba70a53da75ede136b5f10bf12e99e6e74101fc143e7982d7f007c683590876d2a78ff70b8d902a757491533faff73c7867a318299f5360c0"
+RPM_NAME = "texlive-collection-publishers-2026.222.svn77878-68.2.noarch.rpm"
+RPM_HASH = "1ed3303274a92b0ff76bf829e9ef5c4be26bdb3c73295869ad936438f50acf6935e400346091641b6eb8aac49077d71b0aecbaae43543b2c0dfec069c97d6e1c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-publishers"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-publishers \
+texlive-collection-publishers"
 
 RDEPENDS:${PN} += "texlive-aastex \
 texlive-abnt \
 texlive-abntex2 \
 texlive-abntexto \
+texlive-abntexto-uece \
 texlive-acmart \
 texlive-acmconf \
 texlive-active-conf \
 texlive-adfathesis \
-texlive-afparticle \
+texlive-aeskwadraat \
 texlive-afthesis \
 texlive-aguplus \
 texlive-aiaa \
+texlive-amnestyreport \
 texlive-anonymous-acm \
 texlive-anufinalexam \
 texlive-aomart \
@@ -57,23 +62,31 @@ texlive-cesenaexam \
 texlive-chem-journal \
 texlive-chifoot \
 texlive-chs-physics-report \
+texlive-cidarticle \
 texlive-cje \
+texlive-cjs-rcs-article \
 texlive-classicthesis \
 texlive-cleanthesis \
 texlive-cmpj \
 texlive-collection-latex \
 texlive-confproc \
+texlive-contract \
+texlive-cqjtuthesis \
 texlive-cquthesis \
 texlive-dccpaper \
+texlive-deutschesmuseum \
 texlive-dithesis \
+texlive-dlrg-templates \
 texlive-ebook \
 texlive-ebsthesis \
 texlive-ecothesis \
+texlive-edmaths \
 texlive-ejpecp \
 texlive-ekaia \
 texlive-elbioimp \
 texlive-els-cas-templates \
 texlive-elsarticle \
+texlive-elteiktdk \
 texlive-elteikthesis \
 texlive-emisa \
 texlive-erdc \
@@ -84,6 +97,7 @@ texlive-fbithesis \
 texlive-fcavtex \
 texlive-fcltxdoc \
 texlive-fei \
+texlive-fhj-script \
 texlive-ftc-notebook \
 texlive-gaceta \
 texlive-gammas \
@@ -96,8 +110,10 @@ texlive-gzt \
 texlive-h2020proposal \
 texlive-hagenberg-thesis \
 texlive-har2nat \
+texlive-hduthesis \
 texlive-hecthese \
 texlive-hep-paper \
+texlive-heria \
 texlive-hfutexam \
 texlive-hfutthesis \
 texlive-hithesis \
@@ -106,6 +122,10 @@ texlive-hitszthesis \
 texlive-hobete \
 texlive-hu-berlin-bundle \
 texlive-hustthesis \
+texlive-hustvisual \
+texlive-iacrj \
+texlive-iaria \
+texlive-iaria-lite \
 texlive-icsv \
 texlive-ieeeconf \
 texlive-ieeepes \
@@ -121,8 +141,11 @@ texlive-jacow \
 texlive-jmlr \
 texlive-jnuexam \
 texlive-jourcl \
+texlive-jourrr \
 texlive-jpsj \
+texlive-jsonresume \
 texlive-jwjournal \
+texlive-jyu-chem-thesis \
 texlive-kdgdocs \
 texlive-kdpcover \
 texlive-kfupm-math-exam \
@@ -137,14 +160,17 @@ texlive-llncs \
 texlive-llncsconf \
 texlive-lni \
 texlive-lps \
+texlive-maine-thesis \
 texlive-matc3 \
 texlive-matc3mem \
 texlive-mcmthesis \
 texlive-mentis \
+texlive-mitthesis \
 texlive-mlacls \
 texlive-mluexercise \
 texlive-mnras \
 texlive-modeles-factures-belges-assocs \
+texlive-modernnewspaper \
 texlive-msu-thesis \
 texlive-mucproc \
 texlive-mugsthesis \
@@ -165,12 +191,19 @@ texlive-njuvisual \
 texlive-nostarch \
 texlive-novel \
 texlive-nrc \
+texlive-nstc-proposal \
 texlive-nwafuthesis \
 texlive-nwejm \
+texlive-nxuthesis \
+texlive-omgtudoc-asoiu \
 texlive-onrannual \
 texlive-opteng \
+texlive-oststud \
+texlive-ou-tma \
 texlive-oup-authoring-template \
+texlive-pats-resume \
 texlive-philosophersimprint \
+texlive-phimisci \
 texlive-pittetd \
 texlive-pkuthss \
 texlive-powerdot-fuberlin \
@@ -182,12 +215,17 @@ texlive-prtec \
 texlive-ptptex \
 texlive-qrbill \
 texlive-quantumarticle \
+texlive-rebuttal \
+texlive-regulatory \
 texlive-resphilosophica \
 texlive-resumecls \
+texlive-retosmatematicos \
 texlive-revtex \
 texlive-revtex4 \
 texlive-revtex4-1 \
+texlive-rub-kunstgeschichte \
 texlive-rutitlepage \
+texlive-rwth-ci \
 texlive-ryersonsgsthesis \
 texlive-ryethesis \
 texlive-sageep \
@@ -201,6 +239,7 @@ texlive-se2thesis \
 texlive-seu-ml-assign \
 texlive-seuthesis \
 texlive-seuthesix \
+texlive-sfee \
 texlive-shortmathj \
 texlive-shtthesis \
 texlive-smflatex \
@@ -209,9 +248,12 @@ texlive-sphdthesis \
 texlive-spie \
 texlive-sr-vorl \
 texlive-srdp-mathematik \
+texlive-sshrc-insight \
 texlive-stellenbosch \
+texlive-stellenbosch-2 \
 texlive-suftesi \
 texlive-sugconf \
+texlive-sysuthesis \
 texlive-tabriz-thesis \
 texlive-technion-thesis-template \
 texlive-texilikechaps \
@@ -225,6 +267,7 @@ texlive-thubeamer \
 texlive-thucoursework \
 texlive-thuthesis \
 texlive-tidyres \
+texlive-tiet-question-paper \
 texlive-timbreicmc \
 texlive-tlc-article \
 texlive-topletter \
@@ -237,13 +280,17 @@ texlive-tui \
 texlive-turabian \
 texlive-uaclasses \
 texlive-uafthesis \
+texlive-ualberta \
 texlive-uantwerpendocs \
 texlive-ucalgmthesis \
 texlive-ucbthesis \
 texlive-ucdavisthesis \
+texlive-ucph-revy \
 texlive-ucsmonograph \
 texlive-ucthesis \
+texlive-udepcolor \
 texlive-udes-genie-these \
+texlive-udiss \
 texlive-uestcthesis \
 texlive-ufrgscca \
 texlive-uhhassignment \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-schwalbe-chess"
 DESCRIPTION = "This package includes the documentation for texlive-schwalbe-chess"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.12svn63708"
+PV = "2026.226.2.13svn78101"
 
-RPM_NAME = "texlive-schwalbe-chess-doc-2023.209.2.12svn63708-54.1.noarch.rpm"
-RPM_HASH = "712a25e7ca25867710362edd2f3c876b2cf48a2a21b6fc364bfea81dfe36cd90179b65a7d6e091b95443242f68c55d47042462330e0c27b5ed6f519c410e37d3"
+RPM_NAME = "texlive-schwalbe-chess-doc-2026.226.2.13svn78101-60.2.noarch.rpm"
+RPM_HASH = "4c05d49d503085d777d31973951c5fa8533bd9738beb7733297609e5ae1ce857bff544f07748cb77989bd5d46a1c06c498be7b1f561279f4e9320a503540894e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-schwalbe-chess-doc-de \

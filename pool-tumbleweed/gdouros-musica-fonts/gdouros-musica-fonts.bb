@@ -7,8 +7,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "3.17"
 
-RPM_NAME = "gdouros-musica-fonts-3.17-1.15.noarch.rpm"
-RPM_HASH = "c9a47dcd33c2542012471b748504805eeb7b7e7cc90904d36e5db13140a062f3b0b08b03bcb1261868305ab846901eed96c786de95f1038bedbd84046cca371f"
+RPM_NAME = "gdouros-musica-fonts-3.17-1.23.noarch.rpm"
+RPM_HASH = "f96f98a3075cf304181199ff8c2666207c93bb02a1dd970b60d56a82c35722d96a5cf28a5c845b1ae9bd4401438994417b98d2841b3f1b95676fec73c34118f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdouros-musica-fonts \

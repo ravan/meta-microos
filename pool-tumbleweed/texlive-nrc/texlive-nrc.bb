@@ -5,10 +5,10 @@ Council Research Press. At present, only nrc2.cls (for \
 two-column layout) should be used."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.01asvn29027"
+PV = "2026.226.2.01asvn29027"
 
-RPM_NAME = "texlive-nrc-2023.209.2.01asvn29027-55.1.noarch.rpm"
-RPM_HASH = "39ae603a320d1277f8d08016d84d6375e2d9b4a0156513c74fb951fea0655fa67390cc0cc1558330623db3170fcfbeb540894803d6e8245aadfe5842be7583f8"
+RPM_NAME = "texlive-nrc-2026.226.2.01asvn29027-61.2.noarch.rpm"
+RPM_HASH = "71f40d1b0bff9aa7fdea10f7a23c01f50a3744dcf7dedf6b9a3b7f0faddbb94d91c18ca88a8100ca160e986072dff66774312111ebf12f45fe79453ae77fdf66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nrc1.cls \

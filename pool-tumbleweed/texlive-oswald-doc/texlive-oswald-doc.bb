@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-oswald"
 DESCRIPTION = "This package includes the documentation for texlive-oswald"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn60784"
+PV = "2026.226.svn60784"
 
-RPM_NAME = "texlive-oswald-doc-2023.209.svn60784-55.1.noarch.rpm"
-RPM_HASH = "0f17bebb4faf1ad3320909946082f28a67e2d7cab040401df42cd62d78faaa1bfb18a1dc6338033c49ba8a1cf5beda5d5e491e2676ccccdaeb96ac8399d06d0e"
+RPM_NAME = "texlive-oswald-doc-2026.226.svn60784-61.2.noarch.rpm"
+RPM_HASH = "5d3c3644eacd4b9ab99af6d8283250202951a675b7a8c6f41b8c896cfc1702374eb914d6da8982bfdd0cac3a4b3605edad058fa6e4a7e00f9aa97442326e8f16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-oswald-doc"

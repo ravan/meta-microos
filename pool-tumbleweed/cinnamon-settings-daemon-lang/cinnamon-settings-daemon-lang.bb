@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cinnamon-settings-daemon"
 DESCRIPTION = "Provides translations for the 'cinnamon-settings-daemon' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.8.2"
+PV = "6.6.2"
 
-RPM_NAME = "cinnamon-settings-daemon-lang-5.8.2-1.1.noarch.rpm"
-RPM_HASH = "2770c0de0da7bda936aab4b3599c0ef9a96bdd2a576986dd2d24de71be49eb47c3c966b711dff1b3275533a5a6c3831bf8bf374af05e130e94301cd016872481"
+RPM_NAME = "cinnamon-settings-daemon-lang-6.6.2-1.2.noarch.rpm"
+RPM_HASH = "ca5a67fdaca293eec27b7b9e1e98f39d7f6cd1a75d4cc9b894310caf2b8aa4c7ddf67aaaf9887935aa65885fba2c7c2479dad6e362391f1d193b694b37f1519d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-settings-daemon-lang \

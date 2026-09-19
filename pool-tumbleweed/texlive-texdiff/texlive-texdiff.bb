@@ -6,10 +6,10 @@ Furthermore, passages with changes are marked at the margin \
 with grey bars by the LaTeX changebar package."
 LICENSE = "Artistic-1.0"
 
-PV = "2023.209.0.0.4svn29752"
+PV = "2026.227.0.0.4svn29752"
 
-RPM_NAME = "texlive-texdiff-2023.209.0.0.4svn29752-55.1.noarch.rpm"
-RPM_HASH = "2a8c9b045ebe7ff8de262714915e0697342c2cc1662afe6fa097e29257535c2680975107cc36347a7d4c5c7ac36612ad025b2737e54ed5f1d24785d4fbd6873f"
+RPM_NAME = "texlive-texdiff-2026.227.0.0.4svn29752-62.2.noarch.rpm"
+RPM_HASH = "1e7e46b224895bd8c29166e138cd25e1431509e8cf691b215be743a76683a4fbf37274b6f3fb8515bb8f7756cf0554b142a40de8aedb9abe7e60cad867f95deb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texdiff"

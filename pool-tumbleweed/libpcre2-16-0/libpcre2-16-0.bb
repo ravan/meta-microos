@@ -7,12 +7,12 @@ PCRE2 is a re-working of the original PCRE library to provide an entirely new \
 API. \
  \
 libpcre2-16 supports 16-bit and UTF-16 strings."
-LICENSE = "BSD-3-Clause"
+LICENSE = "BSD-2-Clause & BSD-3-Clause-with-PCRE2-exception"
 
-PV = "10.42"
+PV = "10.48"
 
-RPM_NAME = "libpcre2-16-0-10.42-3.5.aarch64.rpm"
-RPM_HASH = "0af7721f24c2a48fbd864f12bf3c396d348cecca70193c5100d22747505f460ccd38f079c7ba10bb34af356148c382e48d9c26c4bb6df835538e8e6dc2bb6f2e"
+RPM_NAME = "libpcre2-16-0-10.48-1.1.aarch64.rpm"
+RPM_HASH = "a2caf2f257411eb9b30d8d1943fd78a0a483a6e551d9d1ef368b1aef0608fd7784c54e1b3925c45a57faf6f4b5dbb36c46c7350dc5411a387c311e76ce8507eb"
 
 RPROVIDES:${PN} += "libpcre2-16-0 \
 libpcre2-16.so.0"

@@ -9,15 +9,17 @@ With this module one can use Perl to write stored procedures, \
 functions, and triggers."
 LICENSE = "PostgreSQL"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "postgresql-plperl-15-2.12.noarch.rpm"
-RPM_HASH = "9d9dedd591e463e9dc95540312fcd3075345568bc4263676732fab584696610284a68f148438bbbf638a4305bef786fe9d5a487766498bd23e5aaf36de774437"
+RPM_NAME = "postgresql-plperl-18-3.4.noarch.rpm"
+RPM_HASH = "e6dae7aa895a740019a96294060a066e5945c4fb75186420976b4ddb8ab7b6e60a994170b0e19f49c0d0108b52ac0cab39d82ab0259c4f8abaf3a43b4bc204d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-plperl \
 postgresql-plperl-noarch"
 
-RDEPENDS:${PN} += "postgresql-plperl-implementation"
+RDEPENDS:${PN} += "postgresql \
+postgresql-noarch \
+postgresql-plperl-implementation"
 
 inherit rpm

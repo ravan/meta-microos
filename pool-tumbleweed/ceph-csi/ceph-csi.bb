@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.3.1+git0.a07260f19"
 
-RPM_NAME = "ceph-csi-3.3.1+git0.a07260f19-1.13.aarch64.rpm"
-RPM_HASH = "48a1535cf16e14e15c5ab2459b3e628e52d3e2ba91b58bf66e1c761b12045358ca6a394ba317ed644bdc28ca0aba65f2018d61cb51f448768ba25a7750853cc6"
+RPM_NAME = "ceph-csi-3.3.1+git0.a07260f19-1.29.aarch64.rpm"
+RPM_HASH = "04dbf77088be7743bb23167fe3db0667c08dbd06ce43ec7ed4eb6de921127fd4a98708597626ecaf8ac102b65cedbcacfc9303c42cd9e0d5e7d07e730d152b7f"
 
 RPROVIDES:${PN} += "ceph-csi"
 

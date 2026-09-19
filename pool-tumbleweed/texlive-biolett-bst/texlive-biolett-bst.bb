@@ -5,10 +5,10 @@ style was produced independently and hence has no formal \
 approval from the Royal Society."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66115"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-biolett-bst-2023.209.svn66115-53.1.noarch.rpm"
-RPM_HASH = "bf6e417b37433ad3ff97666a33046ee6ecc319f96f7338e60582aa6c082060f523998e2f4356a3df0663aff78e27039773db988fc29e7c72ecbc7e68ea8169d4"
+RPM_NAME = "texlive-biolett-bst-2026.226.svn76790-59.2.noarch.rpm"
+RPM_HASH = "872a2d113173fbbad2db023ea6f90396b800ae87476784efbb575c0bc09b68384f1eac06e633ab59b75553dba327a6b04ad3e3322a88edd6b853ac01a868e41d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biolett-bst"

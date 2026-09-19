@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.1.6"
 
-RPM_NAME = "libbase-javadoc-1.1.6-1.5.noarch.rpm"
-RPM_HASH = "8616371fe27c13818b4fd2fa03e154bc0b958cf6702a2165f50f122e8d44927951191dda8a75d5a347b259a23c8aa06d920e3fb5c58b27189e2f6824d3dec647"
+RPM_NAME = "libbase-javadoc-1.1.6-2.9.noarch.rpm"
+RPM_HASH = "85ceebdb07187fbaa5faf2a1702162a1806849fd81a247773fb10c7e5184ea5247e90526165ff838fb9b9b61e8d290b004427d92ebe7be735ec29c120824a7c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libbase-javadoc"

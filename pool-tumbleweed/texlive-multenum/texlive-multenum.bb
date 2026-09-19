@@ -6,10 +6,10 @@ where there are many rather small items; the multienumerate \
 environment goes some way to making such lists look neater."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn21775"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-multenum-2023.209.svn21775-55.1.noarch.rpm"
-RPM_HASH = "dee93b42c97a2afaf3f6611ff5f1953c0d9372c4ae21fe9370dceb375fdb8000e3da46597cca4780ae8238d76806d746e94b65a945b8388b687c4e94dd7e2f1a"
+RPM_NAME = "texlive-multenum-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "a2590cf43ebce9f64fa21b5afe34e175e2d9581b9e883a1b925aeff6660ddf6692fb94e92143ffe99268ced746510e0766deb4a709c1676c2f4e1de3854ff7ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multienum.sty \

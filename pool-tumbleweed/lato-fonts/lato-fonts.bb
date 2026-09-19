@@ -12,8 +12,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.015"
 
-RPM_NAME = "lato-fonts-2.015-1.4.noarch.rpm"
-RPM_HASH = "d208410ed52fb0278a6e867eda24225cc82360db41a3a26b5c58ad27eb603b8a5085ffa5ba4cb3915c5589e8942f912576e942ecc140c93a70d18245c16e3dfc"
+RPM_NAME = "lato-fonts-2.015-1.12.noarch.rpm"
+RPM_HASH = "ec57e850021cd74b571c339d9c8d7bcf1306a439bc4a997b8eaeb6562bc25140f4fc456f060811f3005acbb13ce4869705a44197571aeb1e4a282ab9d8b745ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-lato-fonts \

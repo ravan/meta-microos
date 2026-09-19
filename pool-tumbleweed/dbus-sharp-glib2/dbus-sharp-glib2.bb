@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "dbus-sharp-glib2-0.6.0-2.8.noarch.rpm"
-RPM_HASH = "6c2601d27c63d4aa6f9e3a1082388b46f4569f74aa080359713351d49e148e8a4c5a2aeded2b66c90e84b188cfaae4538770562b18c57c14928c31071bcb4e0e"
+RPM_NAME = "dbus-sharp-glib2-0.6.0-2.16.noarch.rpm"
+RPM_HASH = "a6ef40d4ce0e5cb1d9d421f77403650fe060591cf98b0883c48d5dcf5f6d55505dad9efbd0b056d9edbb55ea550a30f9b1733179ab8f0db89af958cae40bedd3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbus-sharp-glib2 \

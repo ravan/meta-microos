@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.28"
 
-RPM_NAME = "gnome-themes-accessibility-3.28-1.20.noarch.rpm"
-RPM_HASH = "f9b1d17333e8bdacbcf137b6b067e31771a9cc48ce6a1b25ff34665d18c5833df7102d43cd386f6dccca23a7b3da5d39d4e5317e5b5e9779655811ce0132ec47"
+RPM_NAME = "gnome-themes-accessibility-3.28-3.5.noarch.rpm"
+RPM_HASH = "6f840b54dbb16e263336a18497f947175f05477dfb320af68f40b3f2c4571f3f1104eef369be9844121af51432af4f262e796c8aaa42c8153abeda75d15f8def"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-themes-accessibility"

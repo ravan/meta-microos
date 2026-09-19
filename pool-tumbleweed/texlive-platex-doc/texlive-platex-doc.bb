@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-platex"
 DESCRIPTION = "This package includes the documentation for texlive-platex"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-platex-doc-2023.209.svn66186-53.1.noarch.rpm"
-RPM_HASH = "647fe5db3ca3b914f667412932aab302f16e49f5706961d6f6dec4694bf7c3c73fde4f48c06e907655da0381f08c8a309f50e43af44a8035a5bd8c130474fbb5"
+RPM_NAME = "texlive-platex-doc-2026.226.svn77830-59.2.noarch.rpm"
+RPM_HASH = "1b68160940413fcc1662a22871e9bad30752c84621562c5cb2ac23ad8cb1119d7f997927e3fea9167e0811614718d76ce32947cf9e58db610996ddef6b6efcf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-platex-doc-ja \

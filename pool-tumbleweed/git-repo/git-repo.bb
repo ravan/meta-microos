@@ -4,10 +4,10 @@ revision control systems, and automates parts of the development  workflow. Repo
 replace Git, only to make it easier to work with Git."
 LICENSE = "Apache-2.0"
 
-PV = "2.35"
+PV = "2.66.1"
 
-RPM_NAME = "git-repo-2.35-1.1.noarch.rpm"
-RPM_HASH = "a0b435c1446d386e9f1716f65ebd245f73ba859669bc4c57efc7b9b1890a89d33a6fe071fdf9d3f073700112a6517600e231e4d3ca79bb5745dbc99d2c009bb6"
+RPM_NAME = "git-repo-2.66.1-1.1.noarch.rpm"
+RPM_HASH = "050585609204fe9ad65416e0e4bd83f3ffe49307a2df6740208b39ce96b88e035ea9a5c9d265936037d3233ede304bdf7b5c4edb1daec4ad21e5ce5e6913d56d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-repo"

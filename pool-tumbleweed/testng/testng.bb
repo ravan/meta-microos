@@ -5,10 +5,10 @@ distributed test running.  It is designed to cover unit tests as well as \
 functional, end-to-end, integration, etc."
 LICENSE = "Apache-2.0"
 
-PV = "7.4.0"
+PV = "7.10.2"
 
-RPM_NAME = "testng-7.4.0-3.3.noarch.rpm"
-RPM_HASH = "a5b6e719c5553ad12dae83de10f01ba4af894db4dbf1356fb26d10878d4d98a612a4b875a4bd960f55c1a762fca3c12aaa95378659c3b344b6a621b7e2c43d73"
+RPM_NAME = "testng-7.10.2-1.8.noarch.rpm"
+RPM_HASH = "219e0c972eec8079ac31c7aa1d06de936e29c16e5359b631dc8a283f538f995d584f58ae6625619b36e8c4e8d12d4fa684228c4152e87c675908dbe35da657da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.testng-testng \
@@ -21,6 +21,6 @@ testng"
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-com.beust-jcommander \
-mvn-org.yaml-snakeyaml"
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

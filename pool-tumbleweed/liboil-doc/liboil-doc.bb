@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.17"
 
-RPM_NAME = "liboil-doc-0.3.17-26.8.noarch.rpm"
-RPM_HASH = "6bd15ce5e5b5effff487400ccf34bdff4b8a8d2507d13dac03229a028ea4647f0ce9b37c8cafe37d7f134f5dc68264fd843eeeae3b4a3bd430d85287ba42a3a4"
+RPM_NAME = "liboil-doc-0.3.17-26.18.noarch.rpm"
+RPM_HASH = "24fe20a54de46cc2bcfa5bbbbec9ea85e22430308dc2516569650901a39aa3cc7272188b27670afdbbf9cec4fe5c4c9a1ac6ff3f9646d407a2cfded4c70e8524"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liboil-doc"

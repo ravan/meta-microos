@@ -6,10 +6,10 @@ federated environment where several otherwise-independent storage endpoints \
 want to delegate trust for an issuer for managing a storage allocation."
 LICENSE = "Apache-2.0"
 
-PV = "0.6.3"
+PV = "1.1.3"
 
-RPM_NAME = "scitokens-cpp-devel-0.6.3-2.2.aarch64.rpm"
-RPM_HASH = "a1cd5106acc3cea9119e48200bee66257bba6af3a4010fbb55e9ca1ecbc048de54526c80c66cf44f8f683d9aa61bbde143f575bebeb575fa23f23aabffd7f3f1"
+RPM_NAME = "scitokens-cpp-devel-1.1.3-1.5.aarch64.rpm"
+RPM_HASH = "869ebf3bcd261c2df0ae8ea6df037e345df6a01b138c925ab516b7c3f423866f97d1675c4d92d85b91a990b06c0c5133b2303f172494e05269accd90e2797859"
 
 RPROVIDES:${PN} += "scitokens-cpp-devel"
 

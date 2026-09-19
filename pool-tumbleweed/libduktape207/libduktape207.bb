@@ -6,14 +6,15 @@ LICENSE = "MIT"
 
 PV = "2.7.0"
 
-RPM_NAME = "libduktape207-2.7.0-1.1.aarch64.rpm"
-RPM_HASH = "e3adb3e9e646a687721d29eaa6df8b32bf2a5211d672d48edcdb2593f9979a918df322ed64f09358a8b687e7ee2bddb083c1c37071cc6971a1632bef85a43b47"
+RPM_NAME = "libduktape207-2.7.0-3.11.aarch64.rpm"
+RPM_HASH = "c9e7444a2549955b5cbc9903a05e970527effa260ff852a285a2b45f26ce0d12ef0f78574edbcb0c9383d0b6c34f2f08f79c4ce965d9b9250b7d8831eab71bf2"
 
 RPROVIDES:${PN} += "libduktape.so.207 \
 libduktape207 \
 libduktaped.so.207"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6"
 

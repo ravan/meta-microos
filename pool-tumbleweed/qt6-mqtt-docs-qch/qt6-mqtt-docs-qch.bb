@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-mqtt in QCH format"
 DESCRIPTION = "This package contains documentation for qt6-mqtt in QCH format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-mqtt-docs-qch-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "b7e425960d7a7b5c20ba2157da67d77f049a616a29cf78a2778a698d19bbb0b018ee9367d40d2421c54b5782c29fde54e61df18085fc9883083d7ce3bec4fddb"
+RPM_NAME = "qt6-mqtt-docs-qch-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "ec31d660b4fbf3319e31a100e6e3850b8b4a6fb80bfd0eb532db46bb7f269aff82a4a7f2b43f23ffca06210f33f0e5e8b795936b803cb2b7824326c2e861fd84"
 
 RPROVIDES:${PN} += "qt6-mqtt-docs-qch"
 

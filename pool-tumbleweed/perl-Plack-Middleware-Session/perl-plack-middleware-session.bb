@@ -12,10 +12,10 @@ needed. \
 of 'plack.session'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.33"
+PV = "0.360.0"
 
-RPM_NAME = "perl-Plack-Middleware-Session-0.33-1.17.noarch.rpm"
-RPM_HASH = "e2dfb39c43697d626eb1d117ffe7ae8f6e68b62bdc08ba3f20396971c2b52a2e218c066fc02a8c19a94f24306c6268b293cb1e28e205f08324ce539a5dbbe244"
+RPM_NAME = "perl-Plack-Middleware-Session-0.360.0-1.5.noarch.rpm"
+RPM_HASH = "fca053ac1227fa5fc575cf5b8140d74ff3703e41d6f9fe643480327a07947d8f87675f5325e10a705e70fd76b730983399b901a216d43458e4b25da3f6b91d95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Plack--Middleware--Session \
@@ -31,10 +31,10 @@ perl-Plack--Session--Store--File \
 perl-Plack--Session--Store--Null \
 perl-Plack-Middleware-Session"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Cookie--Baker \
+perl-Crypt--SysRandom \
 perl-Digest--HMAC-SHA1 \
-perl-Digest--SHA \
 perl-Plack"
 
 inherit rpm

@@ -17,16 +17,15 @@ transferring them to other computers. The git-annex webapp makes it easy to set 
 up and use git-annex this way."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & BSD-2-Clause & MIT & GPL-2.0-only"
 
-PV = "10.20230828"
+PV = "10.20260624"
 
-RPM_NAME = "git-annex-10.20230828-1.1.aarch64.rpm"
-RPM_HASH = "e998640f46551a87f9a555760f2f2910d23ef62e082d2c213ea5ea839aa750bde261b6d665c6900fdcd418273fd1f17272810feb1fe62e895313333d757ad9d3"
+RPM_NAME = "git-annex-10.20260624-1.3.aarch64.rpm"
+RPM_HASH = "1e822575ed613496f92d7ce6ea2ae8cf313bf30f46f54a3ae147706aee2fac4d5b16e22fc2441cc0b012be3ebc3e358cd08098c5e2a3af6eb06717f1452d20e8"
 
 RPROVIDES:${PN} += "git-annex"
 
 RDEPENDS:${PN} += "desktop-file-utils \
 hicolor-icon-theme \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \

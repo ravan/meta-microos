@@ -10,28 +10,32 @@ DNSSEC (secure DNS) validation and stub-resolvers (that do not run \
 as a server, but are linked into an application) are easily possible."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.18.0"
+PV = "1.26.0"
 
-RPM_NAME = "unbound-1.18.0-1.1.aarch64.rpm"
-RPM_HASH = "b95beeb7dde67cc743b9da2761cb44fff8ddb6eeda2e69b2d57460c85f281a7981b4316142eef920ca7c4730676bb32195d22ff01df65a57fff8c9753f375c00"
+RPM_NAME = "unbound-1.26.0-2.1.aarch64.rpm"
+RPM_HASH = "cf8a46de4e3728e5e52af65e9611fe2cb0ce8fe3afdc380872a2bc321fe306242d7df4356cc77c6c616059bcb15269ac2305ebab0725f93c936f3272f98cc940"
 
 RPROVIDES:${PN} += "config-unbound \
 unbound"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-unbound \
 ld-linux-aarch64.so.1 \
 ldns \
 libc.so.6 \
 libcrypto.so.3 \
 libevent-2.1.so.7 \
+libhiredis.so.1.3.0 \
 libnghttp2.so.14 \
+libngtcp2-crypto-ossl.so.0 \
+libngtcp2.so.16 \
 libprotobuf-c.so.1 \
-libpython3.11.so.1.0 \
-libsodium.so.23 \
+libpython3.13.so.1.0 \
+libsodium.so.26 \
 libssl.so.3 \
 libunbound.so.8 \
 openssl \
-sudo \
-systemd"
+systemd \
+user-unbound"
 
 inherit rpm

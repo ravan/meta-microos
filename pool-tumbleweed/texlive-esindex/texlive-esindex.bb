@@ -1,15 +1,15 @@
-SUMMARY = "Typset index entries in Spanish documents"
-DESCRIPTION = "This package helps you to create indexes in Spanish. With \
-esindex you can write, say, \\esindex{canon} and the entry will \
-be correctly alphabetized in the index. This release of esindex \
-works with accented characters in any encoding, and without \
-babel."
+SUMMARY = "Generate sorting keys for indexes"
+DESCRIPTION = "With this package sorting keys can be automatically generated. \
+It was originally devised for Spanish, so that, say, \
+\\esindex{canon} is correctly alphabetized in the index, but it \
+can be configured to generate sorting keys for other languages, \
+with custom replacements and multilevel comparisons."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn52342"
+PV = "2026.226.1.8svn71111"
 
-RPM_NAME = "texlive-esindex-2023.209.1.7svn52342-54.2.noarch.rpm"
-RPM_HASH = "bff1ae255d73d634cba1aef8e20b2b9cac011b11225416fba0a4ad088fbac924936abe86f3253d7ea49611bb3fa020346aef8609ecfb3cb8e1e4c8c75d61d764"
+RPM_NAME = "texlive-esindex-2026.226.1.8svn71111-61.4.noarch.rpm"
+RPM_HASH = "089be4d4330fd1a4115a47d1c13ed45b7f64d5b08e3daba175475a2ab694ba453336fd4d6c6dd6835986fb037eff8829527364d178a498fc5f41e05d232e858c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esindex.sty \

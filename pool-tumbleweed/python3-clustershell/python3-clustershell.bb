@@ -2,19 +2,18 @@ SUMMARY = "ClusterShell module for Python 3"
 DESCRIPTION = "ClusterShell Python 3 module and related command line tools."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.9.1"
+PV = "1.10.1"
 
-RPM_NAME = "python3-clustershell-1.9.1-1.2.noarch.rpm"
-RPM_HASH = "7423444278296b5c5a4501a5902912686df7f8ba8ad95afd567ab83de2b8d5a36cd06078844e7eb9852e3178728c71189033122b6bf463e2aa3a964112148e66"
+RPM_NAME = "python3-clustershell-1.10.1-1.1.noarch.rpm"
+RPM_HASH = "0e5ed65eeca454fb623707b958c6e18716302959db54276b7f2794f52b9195e7630e4f17ac14890a612e921066e1fbd20e1bd337103ddb803b4a8670a461dcf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-clustershell \
-python3.11dist-clustershell \
+python3.13dist-clustershell \
 python3dist-clustershell"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
-python3-PyYAML \
-python3-setuptools"
+python3-PyYAML"
 
 inherit rpm

@@ -2,28 +2,29 @@ SUMMARY = "Screen Ruler"
 DESCRIPTION = "A screen ruler for the Plasma desktop environment"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kruler-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "3b2ef9896478f31f14f707b7e46cfa471345e26be1d78e4f86f0e0180e6e9ccc62ab78b25b74f68ef94b6ecb579a91c47ff8e89d5a811a36bb9a7b0fd6e66e56"
+RPM_NAME = "kruler-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "a0aef7918223880c0219e616315321ba4061643fd9c7665dc6280ed06e7c44e93af42a3b99e1ac7bf3fa80e0e94f499c0f618e12ea6678f973d9bdf950e6abf8"
 
 RPROVIDES:${PN} += "kruler \
 kruler5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5Notifications.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6Notifications.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

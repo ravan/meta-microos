@@ -18,8 +18,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.2+git0.ge8fd65f08"
 
-RPM_NAME = "rook-integration-1.6.2+git0.ge8fd65f08-2.9.aarch64.rpm"
-RPM_HASH = "41552dc19e40aaa4abd98bdcb385318b86a87a891fef1612c040ee84bca11e4622922b58687801be61bb318daeaab1f1515b6e3bc84a591e037504e3fca1c85a"
+RPM_NAME = "rook-integration-1.6.2+git0.ge8fd65f08-3.16.aarch64.rpm"
+RPM_HASH = "fa2df03fcf500b69f510e9baf51625e0cec6fd80f775d0c066860a16f1a69625a59fb2e153f492608e892377ff7ba620d6381b3959e05418e324a8db14db12fe"
 
 RPROVIDES:${PN} += "rook-integration"
 

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "libNE10_test10-1.2.1-3.14.aarch64.rpm"
-RPM_HASH = "0ec6139e3f255ff9abba66c1897de3f992fd14a0d0fe5026cd56e1a5a035aafaef31b324b6d762a08368cea6791cb5559472ee72db055c91dcb1e1b84a8b4517"
+RPM_NAME = "libNE10_test10-1.2.1-4.3.aarch64.rpm"
+RPM_HASH = "41e36c45bb7179f16f8bcb9dc90a52ea8e38eb927f53ec150ee165bb55cb5aea4fa72da775f83f157d5f109f8d69216bf83da3e7613f21e6d2f6c3f09c520075"
 
 RPROVIDES:${PN} += "libNE10-test.so.10 \
 libNE10-test10"

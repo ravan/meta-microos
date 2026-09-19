@@ -5,10 +5,10 @@ ultimately the king. It can be played in 2D or 3D mode, full screen or \
 in a window."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "43.2"
+PV = "50.0"
 
-RPM_NAME = "gnome-chess-43.2-1.2.aarch64.rpm"
-RPM_HASH = "97fff67e51617538820a5b5ab5486386372f271d4a3d397faf503252235c25c45b917288a7a1ef06e0b3dfcd0b2cebff1016e6839c069d9e91c3bfada9b20e77"
+RPM_NAME = "gnome-chess-50.0-1.3.aarch64.rpm"
+RPM_HASH = "10e19ffa913e521c7b3a60b24e3ff18f2e7bb6f79c3e864bd7d10d48190bd6790a266f1a282fb4876c351683da99eabdef1f89301c4b7c16306c49b414f7bfdd"
 
 RPROVIDES:${PN} += "config-gnome-chess \
 gnome-chess"

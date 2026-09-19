@@ -4,10 +4,10 @@ color spaces: Adobe, CIE, ColorMatch, NTSC, Pal-Secam, \
 ProPhoto, SMPTE, and sRGB."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.06bsvn60959"
+PV = "2026.226.1.06bsvn60959"
 
-RPM_NAME = "texlive-pst-cie-2023.209.1.06bsvn60959-53.1.noarch.rpm"
-RPM_HASH = "27ed008d22ffe725aed21c0a9dd823775819c27c527698404a6034d5fb2968ff616d767537fd313ff29e8cf6aac3767e0a2713e9be44317d4df1c83540d6af2d"
+RPM_NAME = "texlive-pst-cie-2026.226.1.06bsvn60959-59.2.noarch.rpm"
+RPM_HASH = "15fb703f1e49918a5d4059df2945886846f5369d05f75080e3ebc2249948665b0f9cf2bed9c903eb37d763ccfd322e92ecec8b457f2581d9ae9e9d0812cc6a9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-cie.sty \

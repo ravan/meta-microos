@@ -4,10 +4,10 @@ Science (LNCS). It extends the standard BiBTeX model by an \
 acronym entry."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn65280"
+PV = "2026.226.0.0.7svn67053"
 
-RPM_NAME = "texlive-biblatex-lncs-2023.209.0.0.6svn65280-54.1.noarch.rpm"
-RPM_HASH = "3803a79bfd3424f0903854b89f2eb3b337023258448427b405d386f2d0705caa765afbea7b91b234dc8261f32b884eff8eb88d918bd9ebd0b7e3221200c3a082"
+RPM_NAME = "texlive-biblatex-lncs-2026.226.0.0.7svn67053-61.2.noarch.rpm"
+RPM_HASH = "8cd22767262b0813de5d238655231e1a62523521bb114707be2b0e329b9959c12a60dd5d99f12b89813b5898d2226708d27868b3266dcb54a2f7a0fb73a37945"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lncs.bbx \

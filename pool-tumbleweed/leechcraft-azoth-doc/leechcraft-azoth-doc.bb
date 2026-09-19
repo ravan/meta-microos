@@ -7,10 +7,10 @@ to corresponding packages (like leechcraft-doc). This documentation \
 is also available online at http://doc.leechcraft.org/azoth/"
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-azoth-doc-0.6.70+git.14794.g33744ae6ce-3.3.noarch.rpm"
-RPM_HASH = "255337b06a6c4e034e8c4aac952d532447f60ff3b827666809d890ebbf8715e126c1377ea2a6b2df30dd3c6621189f2f5af6eef8314244753af15e344c449484"
+RPM_NAME = "leechcraft-azoth-doc-0.6.70+git.18808.g3467692359-3.1.noarch.rpm"
+RPM_HASH = "09a29bd35311b3e12be9ebb86a74980902cbf0c08345573e4c6e697d3f03ee60696425387655c094531e1c3f8c05fae0c281c6a2820037cc783e1ea6ca155fd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "leechcraft-azoth-doc"

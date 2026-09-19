@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains documentation for U-Boot firmware."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-mvebudbarmada8k-doc-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "5c8026ff9c3234d61eeb1fee3c8c9ce79dccf670e85c7f8ff92f6e993440709eba5ea0fabf92092dcec233eff705cde7701a7751bc2ba1e9241e72a8ef348fff"
+RPM_NAME = "u-boot-mvebudbarmada8k-doc-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "5edf7d34525c1d8adf8291022f27d5c46f36b33c2326bae6882abca367da181f336c5bd4dd64ae2b8452c4eb2a3777bea9d0dee449391a1c0705f14bd20e7b36"
 
 RPROVIDES:${PN} += "u-boot-mvebudbarmada8k-doc"
 

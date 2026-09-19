@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.0"
 
-RPM_NAME = "dbench4-4.0-4.14.aarch64.rpm"
-RPM_HASH = "119e0564af0991d654e50736644fba31b10a028e5c388c53677d4d9226f7029d0dffa3b61a16f25a987fcf9cfa2c44ccad6def94aa185ad1017bd7eae1a90e77"
+RPM_NAME = "dbench4-4.0-5.9.aarch64.rpm"
+RPM_HASH = "d89e2f005621debe85b199bb2fc7bd3762a1b9e2670f54685b47bea24f5379fdf4618d1cb61c6a023fb380bc56996abb0492c0bd5e33a046594fffc16c7fea99"
 
 RPROVIDES:${PN} += "dbench4"
 

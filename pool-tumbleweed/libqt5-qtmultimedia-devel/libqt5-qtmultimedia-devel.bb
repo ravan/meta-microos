@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 Multimedia library"
 DESCRIPTION = "You need this package if you want to compile programs with qtmultimedia."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde3"
+PV = "5.15.19+kde2"
 
-RPM_NAME = "libqt5-qtmultimedia-devel-5.15.10+kde3-1.1.aarch64.rpm"
-RPM_HASH = "13ce8e62c1dd6c952f8345c5c912eb978cfb61128bb91280b2012b0cc92b1d794db562c9a9f46a11c91856e800b7cb910565943281959659b5f3e2b14ea8db8d"
+RPM_NAME = "libqt5-qtmultimedia-devel-5.15.19+kde2-1.2.aarch64.rpm"
+RPM_HASH = "de6b70f8c6d24c651963ce88361e7f40574caa96b471136dc4a061764e1f644cef2468cade32f38b01c2993b0f32e813706327adf8fbd22fa69342e080402ca8"
 
 RPROVIDES:${PN} += "cmake-Qt5Multimedia \
 cmake-Qt5MultimediaGstTools \

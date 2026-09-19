@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.1"
 
-RPM_NAME = "libetrophy0-0.5.1-8.30.aarch64.rpm"
-RPM_HASH = "af9ef5a1263bee24c46f79a55c964df69d4d138e1098da6ef285cfe353c7bed0ccd8d20ce2c03a0d13a3718939f3d22d583d6cf036e268ce4ba621067ea7ed4b"
+RPM_NAME = "libetrophy0-0.5.1-8.38.aarch64.rpm"
+RPM_HASH = "559f0985620f3be5ec9c1b459d98ac4f535fafadd6dd556c04445c4a9cf551bf789bdbb181a2dd275dc128f44fd07f977288dc642a827925b0938a6fe78179c7"
 
 RPROVIDES:${PN} += "libetrophy.so.0 \
 libetrophy0"

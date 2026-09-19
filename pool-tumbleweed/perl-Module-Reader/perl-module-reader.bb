@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.003003"
 
-RPM_NAME = "perl-Module-Reader-0.003003-2.1.noarch.rpm"
-RPM_HASH = "32e08570babb3f3d298a7ce1e7c12d4db96e1974460cc89b836cdcf2abd4b0bb8a3f1ce88dc2dc54595cb21889f622bb07ae45c7e12424b6b2ac414a7a1ade4d"
+RPM_NAME = "perl-Module-Reader-0.003003-2.15.noarch.rpm"
+RPM_HASH = "13baeb22e4f31ce4ba37756fd36d8b3271ce35e08f6dafc315172d4b1f5b50dc15c623a878ddae6cd6885acd855dafdd544e3d0ec74e8f468df1b836d4280f2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Reader \
 perl-Module--Reader--File \
 perl-Module-Reader"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -4,10 +4,10 @@ callouts, notes, arrows, and the like can be placed to describe \
 certain parts of a picture."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn44899"
+PV = "2026.226.svn44899"
 
-RPM_NAME = "texlive-callouts-2023.209.svn44899-53.1.noarch.rpm"
-RPM_HASH = "a0960815f869005a8548a7cf6040fbb8d32a77a6b42b61cbf6692017d1ee6bf03a9adbbbe8e78b39f5109546e520afdc2f8ffebfcdb0a0342756a58794ff3e68"
+RPM_NAME = "texlive-callouts-2026.226.svn44899-59.2.noarch.rpm"
+RPM_HASH = "69b03e0f7e2f3b35a7996c3c70cca024f9385983f40a3d74ba21c853eee178b382ae0685505f495290b6774c80ad18c0d8befe2cc4b574e6e3ac85f62a72daf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-callouts.sty \

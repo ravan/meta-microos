@@ -17,10 +17,10 @@ suitable diagrams. Features: \
 * Zoom with mouse wheel"
 LICENSE = "CC-BY-SA-3.0 & GPL-3.0-only"
 
-PV = "4.2.0"
+PV = "4.5.0"
 
-RPM_NAME = "heimer-4.2.0-1.2.aarch64.rpm"
-RPM_HASH = "d513083fc37e7a1435cda97ee46e3f1789cd7f1466dc3908f1b1da85b4c13031db43dfccc4008a9281ab52c902dafe51eb49580aa663aca2cbd50759c14877b9"
+RPM_NAME = "heimer-4.5.0-1.6.aarch64.rpm"
+RPM_HASH = "0daa364bd3dbf7d30979aa8c5a9ec725634e3ccaf3df7aa657f0dcaa322b955379f1d57f02f752fa8e8b5608329ab7326883066cd3c933eb9be7956a7f751506"
 
 RPROVIDES:${PN} += "heimer"
 

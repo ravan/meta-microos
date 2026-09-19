@@ -5,10 +5,10 @@ University of California, Berkeley. It is based on the memoir \
 class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.6svn51690"
+PV = "2026.226.3.6svn51690"
 
-RPM_NAME = "texlive-ucbthesis-2023.209.3.6svn51690-53.1.noarch.rpm"
-RPM_HASH = "4326269293b3b2911569db89997e5aef1e11a874eb37bd8e6e04e8cf6184f50cb057b4dc25a327ee396bcb5820edb513c273ae4ca3d3479fca9be863e40a4c9d"
+RPM_NAME = "texlive-ucbthesis-2026.226.3.6svn51690-59.2.noarch.rpm"
+RPM_HASH = "e1c1e50745d483fb19553c76677cb89f72c00e051ef0826db0ee62dc1ace714d6ba2ba7ad611fa90649aedc6420f879585b0f0404f8496ab40b3d8346a204dd3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ucbthesis.cls \

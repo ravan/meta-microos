@@ -7,10 +7,10 @@ behavior of fragile environments. Moving arguments, and \
 corresponding 'tables of ...' work happily."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0esvn21209"
+PV = "2026.226.1.0esvn77682"
 
-RPM_NAME = "texlive-cprotect-2023.209.1.0esvn21209-55.1.noarch.rpm"
-RPM_HASH = "58fc065bb62d82350d0dbe6f1a6c82e699f9ff125dfb291c7462646d019e793bbe7916e0d02b128a5bc422067a8077c7c657e5862d6c0bbf4841c83014cc9de0"
+RPM_NAME = "texlive-cprotect-2026.226.1.0esvn77682-61.2.noarch.rpm"
+RPM_HASH = "94a5e759d4e5e21a422edf92f51a9688da7656f1e638ebb610a8ad5b09ce09b2b7c85ea5709f91d9edef302f5df32cb59b0e5b2da31f499dabd1268944fe05fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cprotect.sty \

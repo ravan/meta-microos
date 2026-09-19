@@ -2,15 +2,18 @@ SUMMARY = "Fonts for displaying math"
 DESCRIPTION = "A collection of Math symbol fonts for LyX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.3.7"
+PV = "2.5.2"
 
-RPM_NAME = "lyx-fonts-2.3.7-1.4.noarch.rpm"
-RPM_HASH = "a20a427a5ee718dfe2a68e1e57a3557a949b97205af808cce5a7af74ffb62296f7503f64fc542e7f1bb8cb3688a848be2f4a2f4d1b2c12ad26c707f2e287512b"
+RPM_NAME = "lyx-fonts-2.5.2-1.1.noarch.rpm"
+RPM_HASH = "bf6f9330ad8d59c2d2fc750ed488bd3aff50482b946c978fc8b1b00442486dcb9823ff0243b349a82a20d3b4394637f35e25d5bac632234abe6cc5f0621746b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -40,7 +43,9 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -70,12 +75,16 @@ font--lang=su \
 font--lang=sv \
 font--lang=sw \
 font--lang=tl \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-cmex10 \
@@ -92,6 +101,9 @@ font-stmary10 \
 font-wasy10 \
 lyx-fonts"
 
-RDEPENDS:${PN} += "/usr/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh \
+aaa-base \
+coreutils \
+perl"
 
 inherit rpm

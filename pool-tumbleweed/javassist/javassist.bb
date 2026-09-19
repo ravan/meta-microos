@@ -12,10 +12,10 @@ compiles it on the fly. On the other hand, the bytecode-level API \
 allows the users to directly edit a class file as other editors."
 LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
-PV = "3.29.2"
+PV = "3.30.2"
 
-RPM_NAME = "javassist-3.29.2-2.1.noarch.rpm"
-RPM_HASH = "14c316978c0c7909ff1848116caa27d62abd4b394829abd2366a34103e2088660fa78c8bf5ff9972ca390238f1abd96d765e6b40f94cf2654b96aeb855db32d4"
+RPM_NAME = "javassist-3.30.2-1.8.noarch.rpm"
+RPM_HASH = "96ccf3c90c8d02a9444ee0619c1965b4c367b4ec06c2ff858d49073a9b5b2ca50c6b7eacb95d30313e931469711e7e09f0b5f8fda1b108bcf680c2fe892c4921"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javassist \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-psfragx"
 DESCRIPTION = "This package includes the documentation for texlive-psfragx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn26243"
+PV = "2026.226.1.1svn26243"
 
-RPM_NAME = "texlive-psfragx-doc-2023.209.1.1svn26243-53.1.noarch.rpm"
-RPM_HASH = "206a39ca4bae9ee2327347989037a2c274202a0b7bd0c2f45496f545917cbce656a60047a6de62876c5369f952b6ba2cf3407d5038dcb116ed111f9148714a51"
+RPM_NAME = "texlive-psfragx-doc-2026.226.1.1svn26243-59.2.noarch.rpm"
+RPM_HASH = "b35d879a3f89bb6ed63299030016a9828625088ae813b78f36186d737f2ae05d60c5b306602d3067c42704548f923082ae04a506e92c1999ebdcb16c6d3a513a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-psfragx-doc"

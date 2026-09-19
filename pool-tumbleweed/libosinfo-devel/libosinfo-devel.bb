@@ -7,10 +7,10 @@ This package provides includes to compile with the libosinfo library, \
 as well as Vala bindings for the libosinfo library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.10.0"
+PV = "1.12.0"
 
-RPM_NAME = "libosinfo-devel-1.10.0-3.4.aarch64.rpm"
-RPM_HASH = "cb43ccfde6e7458ddf3aaa719d5b3951d2cc4bb309b6cdb4269ce363e8a334f97ce5ba09cfbd469f41791ae0efbab497b5c42e22a75693d7d13ec3295f0bab77"
+RPM_NAME = "libosinfo-devel-1.12.0-3.6.aarch64.rpm"
+RPM_HASH = "630b314102305eb07d566702a3c2d5bc7a982bb32eb15cc809af8a30031f1426c8dd48da5776fdaec02fdf2186d8b63a7ec8ae65b50140dec7ac5e86edea506a"
 
 RPROVIDES:${PN} += "libosinfo-devel \
 pkgconfig-libosinfo-1.0"

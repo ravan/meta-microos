@@ -14,14 +14,14 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.2"
 
-RPM_NAME = "clFFT-2.12.2-6.9.aarch64.rpm"
-RPM_HASH = "d166aa742d4a6077e8da599babd0c26ec618b085eb73a5770656e27e1dcb58f3d23c59f06a6b38c0b97149d65b1d3fd7a40c44f4250d5e35e24f07f8272d0fe6"
+RPM_NAME = "clFFT-2.12.2-8.2.aarch64.rpm"
+RPM_HASH = "96f8244a4be6c5f3c23f852384498164d4064285ae2f412f8ae8a18a5eb2d9aac2eebdb6e3fe4e1c405dbd16db2c587477f2c50e4d971d769c8a242d9d08f448"
 
 RPROVIDES:${PN} += "clFFT"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libOpenCL.so.1 \
-libboost-program-options.so.1.82.0 \
+libboost-program-options.so.1.91.0 \
 libc.so.6 \
 libclFFT.so.2 \
 libgcc-s.so.1 \

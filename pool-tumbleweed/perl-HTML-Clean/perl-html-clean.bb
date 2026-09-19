@@ -1,33 +1,33 @@
-SUMMARY = "Cleans up HTML code for web browsers, not humans"
+SUMMARY = "HTML::Clean - Cleans up HTML code for web browsers, not humans"
 DESCRIPTION = "The HTML::Clean module encapsulates a number of common techniques for \
 minimizing the size of HTML files. You can typically save between 10% and \
 50% of the size of a HTML file using these methods. It provides the \
 following features: \
  \
-* Remove unneeded whitespace (beginning of line, etc) \
+* Remove unneeded whitespace (begining of line, etc) \
  \
 * Remove unneeded META elements. \
  \
 * Remove HTML comments (except for styles, javascript and SSI) \
  \
-* Replace tags with equivalent shorter tags (<strong> --> <b>) \
+* Replace tags with equivilant shorter tags (<strong> --> <b>) \
  \
 * etc. \
  \
-The entire process is configurable, so you can pick and choose what you want \
+The entire proces is configurable, so you can pick and choose what you want \
 to clean."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.4"
+PV = "1.400.0"
 
-RPM_NAME = "perl-HTML-Clean-1.4-1.17.noarch.rpm"
-RPM_HASH = "541288ad24c4c4e70a4b90d2e541615e8368038b8b784c71e5a3f78fe6dc16f88ebb072f6bf222cba351777e3a861ef7209d63b3a2abab41ad1989eb9589f6af"
+RPM_NAME = "perl-HTML-Clean-1.400.0-1.9.noarch.rpm"
+RPM_HASH = "47fdee3694a93ffd08ac7e10b005d6b708c0e3263fd4c9dc8fc5a014a68e96276cb50d6af038bfe292ecdc18c17284f39a617d2e8cefe2a6dfc41d0060e87b4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--Clean \
 perl-HTML-Clean"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

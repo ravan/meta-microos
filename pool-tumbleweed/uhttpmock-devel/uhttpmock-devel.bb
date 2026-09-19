@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains libraries, header files and documentation f
 developing applications that use uhttpmock."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.9.0"
+PV = "0.11.0"
 
-RPM_NAME = "uhttpmock-devel-0.9.0-1.4.aarch64.rpm"
-RPM_HASH = "bb7f11279729e7915564279c1d248f6793fcb29a52b1c6883a5f9c4d64988e022fab07bc7170971c535ebdbedbfa2a17922ecffcbc3be17231c9ffda1dd6165e"
+RPM_NAME = "uhttpmock-devel-0.11.0-2.4.aarch64.rpm"
+RPM_HASH = "e40ef1691567932f0ff780b0d169d992db1f7c624d794b7e37609f8b226e054857fd3838e76d1f767010ef0036b53fb67387c046a92a725daf075945eaae401c"
 
 RPROVIDES:${PN} += "pkgconfig-libuhttpmock-1.0 \
 uhttpmock-devel"

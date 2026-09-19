@@ -5,10 +5,10 @@ low-end boxes. \
 This package provides Documents for it."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.3.5"
+PV = "3.3.6"
 
-RPM_NAME = "shadowsocks-libev-doc-3.3.5-3.2.noarch.rpm"
-RPM_HASH = "540ebc8dfb97eb9362320f3030a6689fb1fcb7255b81c38e959f8ecc01e85e038694c50dcdbeeed5032758b14182824ac3f441a7e2e8735315b1715642349ff5"
+RPM_NAME = "shadowsocks-libev-doc-3.3.6-3.3.noarch.rpm"
+RPM_HASH = "adae3e6f6ae29c0884a1e62159c5751f8a5c8f4ed2133b234b8e6734287f036c480ab264b897f88e986ce55cc2948f4a3259ea48c48e9b23962f074667ee28ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shadowsocks-libev-doc"

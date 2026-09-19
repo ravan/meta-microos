@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikzpfeile"
 DESCRIPTION = "This package includes the documentation for texlive-tikzpfeile"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn25777"
+PV = "2026.226.1.0svn25777"
 
-RPM_NAME = "texlive-tikzpfeile-doc-2023.209.1.0svn25777-53.1.noarch.rpm"
-RPM_HASH = "8a155fb871ce6016362891a890419c242f443efc92fc9de3b7e7d0959acaebae1179d1fec3199ef96fbed99ee23710c1c160ebaf51260fc0bd4b18d4efd63ea0"
+RPM_NAME = "texlive-tikzpfeile-doc-2026.226.1.0svn25777-59.2.noarch.rpm"
+RPM_HASH = "d4fd8db6f782d41fa4816fb3e5aa2966ecdbf334547ffea059d669a7e1465111754947d28220eb89394368aa0bbcd2e460a57b6f13a0be49118eef0369498739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzpfeile-doc"

@@ -3,55 +3,60 @@ DESCRIPTION = "Hackage documentation generation is not reliable. For up to date 
 please see: <http://www.stackage.org/package/http-client>."
 LICENSE = "MIT"
 
-PV = "0.7.14"
+PV = "0.7.19"
 
-RPM_NAME = "ghc-http-client-0.7.14-1.2.aarch64.rpm"
-RPM_HASH = "629bd4abf640f425d56350a062fe5129aa0d803a06cb0abc0a85bcff6e5ca9a25b1095fe02d9c97799785d913fd9f0ef59a4e7d19654a2e05e6bed958002008b"
+RPM_NAME = "ghc-http-client-0.7.19-1.19.aarch64.rpm"
+RPM_HASH = "fbaa98547c752497d92e6bd858c6174d724e9604dae9a71014b51bf344a573f7b2fed8b9e8fb5eee6bbf8c69122d871f5efa28bc072288ada55d8499d39e65bc"
 
 RPROVIDES:${PN} += "ghc-http-client \
-libHShttp-client-0.7.14-ElkaPC2YNimBwgzZzglgPe-ghc9.4.6.so"
+libHShttp-client-0.7.19-4BIOUl8FXXcE32miDzHR9M-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSappar-0.1.8-1lWb1vtDAvc6rz1D87iAo-ghc9.4.6.so \
-libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSasync-2.2.4-LcXCzTmy8C6G7Wa774EctI-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbase64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM-ghc9.4.6.so \
-libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
-libHSbyteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
-libHScontainers-0.6.7-ghc9.4.6.so \
-libHScookie-0.4.6-7v2XoXnZEAdFFWtj85fg3L-ghc9.4.6.so \
-libHSdata-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSdirectory-1.3.7.1-ghc9.4.6.so \
-libHSexceptions-0.10.5-ghc9.4.6.so \
-libHSfilepath-1.4.2.2-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
-libHShttp-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p-ghc9.4.6.so \
-libHSiproute-1.7.12-A34D1N9dJmL5ps3agDCHa7-ghc9.4.6.so \
-libHSmime-types-0.1.1.0-oV8uh4Pssd1mRIrSbk6Ab-ghc9.4.6.so \
-libHSmtl-2.2.2-ghc9.4.6.so \
-libHSnetwork-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs-ghc9.4.6.so \
-libHSnetwork-uri-2.6.4.2-3utC1p6H7mg92qIH44jQaM-ghc9.4.6.so \
-libHSparsec-3.1.16.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHSprocess-1.6.17.0-ghc9.4.6.so \
-libHSrandom-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k-ghc9.4.6.so \
-libHSsplitmix-0.1.0.4-2jzLu9hw0mWH5mdbN14y0O-ghc9.4.6.so \
-libHSstm-2.5.1.0-ghc9.4.6.so \
-libHSstreaming-commons-0.2.2.6-B2lYThdR4DPIZXSlcc8I7z-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStext-2.0.2-ghc9.4.6.so \
-libHSth-compat-0.1.4-F5a7GnDk5rxHGhOle8BcYS-ghc9.4.6.so \
-libHStime-1.12.2-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
-libHSunix-2.7.3-ghc9.4.6.so \
-libHSzlib-0.6.3.0-ENQBvbHWSlQ4ss0TzRHRuj-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSappar-0.1.8-WSZSnBitxp1mS4dOP2hyq-ghc9.12.4.so \
+libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSasync-2.2.6-4fW0sXrepSt4QxgAnnLVB6-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbase64-bytestring-1.2.1.0-9fPiMCS8Y4g8itFjJTGk2y-ghc9.12.4.so \
+libHSbinary-0.8.9.3-9861-ghc9.12.4.so \
+libHSblaze-builder-0.4.4.1-DHhu3j9nndC9LUZIrPJCEG-ghc9.12.4.so \
+libHSbyteorder-1.0.4-2KwV8jNH81I9JBUzKyr4X2-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHScase-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC-ghc9.12.4.so \
+libHScontainers-0.7-d5e1-ghc9.12.4.so \
+libHScookie-0.5.1-ICQl8upm830Ct2nb3AM1Ft-ghc9.12.4.so \
+libHSdata-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ-ghc9.12.4.so \
+libHSdata-default-class-0.2.0.0-3moOzwNUrN6FLgYZMunU62-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSdirectory-1.3.10.1-b1d7-ghc9.12.4.so \
+libHSexceptions-0.10.12-f655-ghc9.12.4.so \
+libHSfile-io-0.1.6-8374-ghc9.12.4.so \
+libHSfilepath-1.5.5.0-b25b-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHShashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr-ghc9.12.4.so \
+libHShttp-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM-ghc9.12.4.so \
+libHSiproute-1.7.15-E8DjYDi46DFHUJbuCQco8p-ghc9.12.4.so \
+libHSmime-types-0.1.2.2-6XnqAsimqz1GLkPrdggNkp-ghc9.12.4.so \
+libHSmtl-2.3.2-37ef-ghc9.12.4.so \
+libHSnetwork-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI-ghc9.12.4.so \
+libHSnetwork-uri-2.6.4.2-BA29PoG9pX1EAcGKolsVh8-ghc9.12.4.so \
+libHSos-string-2.0.10-5320-ghc9.12.4.so \
+libHSparsec-3.1.18.0-be05-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHSprocess-1.6.26.1-905d-ghc9.12.4.so \
+libHSrandom-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh-ghc9.12.4.so \
+libHSsplitmix-0.1.3.2-4FIxgclJzmILwETMtGxhg4-ghc9.12.4.so \
+libHSstm-2.5.3.1-6d74-ghc9.12.4.so \
+libHSstreaming-commons-0.2.3.1-LJ82XapHNc8JLhXXxelQgC-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStext-2.1.4-cf23-ghc9.12.4.so \
+libHSth-compat-0.1.7-A4ZdivYymzPCDISaa5LNtp-ghc9.12.4.so \
+libHStime-1.14-a7dc-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
+libHSunix-2.8.8.0-178a-ghc9.12.4.so \
+libHSunordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu-ghc9.12.4.so \
+libHSzlib-0.7.1.1-9wvDfX7JlnE99sTdZLYOpU-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6 \

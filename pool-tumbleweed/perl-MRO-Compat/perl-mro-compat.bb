@@ -26,15 +26,15 @@ the function basically does, and what differences between MRO::Compat and \
 interface docs, and contain a lot of other useful information."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.15"
+PV = "0.150.0"
 
-RPM_NAME = "perl-MRO-Compat-0.15-1.9.noarch.rpm"
-RPM_HASH = "154ebb272c6c69c41a63ec367d64538d03cacc86abf2de0e688304d118c86a22e78b3a773837489abfc03c02d5aefcb8bd370036a8037d86a939f62cb82bf129"
+RPM_NAME = "perl-MRO-Compat-0.150.0-1.7.noarch.rpm"
+RPM_HASH = "bb56347c24e680aabbb3913234060218d9b39aa5f5b9dacaeb2a4166db0ef4d440004fb13aa51ac826a1b557101b1d8a52ef9e489a8d5b2fc009814aa7d79edf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MRO--Compat \
 perl-MRO-Compat"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

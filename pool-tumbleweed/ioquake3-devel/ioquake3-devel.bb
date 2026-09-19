@@ -3,10 +3,10 @@ DESCRIPTION = "Quake III development tools for creating mods: q3lcc, q3rcc, q3cp
 q3asm"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36+git.20221123"
+PV = "1.36+git.20250612"
 
-RPM_NAME = "ioquake3-devel-1.36+git.20221123-1.4.aarch64.rpm"
-RPM_HASH = "3962139bd637c806548058b468b4f2a876f967287b2b009499beebb44254e10070d1fd49fd5b98f926fde86f18676e2eb394c2a68e5eb81e7185d2e518adc13a"
+RPM_NAME = "ioquake3-devel-1.36+git.20250612-1.5.aarch64.rpm"
+RPM_HASH = "1d2955dfb9cfc6ae7f5b94685f2c2bca401b2950b495958545910bbb769d422b8bc0f1a27a74e741472aef2aabc17d3235ed086379b0e91245ab0f56ed831a91"
 
 RPROVIDES:${PN} += "ioquake3-devel"
 

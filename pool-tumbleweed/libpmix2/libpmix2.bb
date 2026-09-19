@@ -2,10 +2,10 @@ SUMMARY = "PMI-X lib version 1"
 DESCRIPTION = "This package contains the shared library used by the PMI-X standard"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.3"
+PV = "3.2.5"
 
-RPM_NAME = "libpmix2-3.2.3-10.2.aarch64.rpm"
-RPM_HASH = "5ab6bfe057d4a116152acd7e376982564c5efefb1c54268398e89662f8e10c850e141fd8711dde770207fd3829ed6b0606c160d5d94b4e23df64cfaadf519a63"
+RPM_NAME = "libpmix2-3.2.5-2.10.aarch64.rpm"
+RPM_HASH = "085555da25545dcc012ebc5a272620618f26584ab8993970fe912f6f08bb17b7002db5f2734c961cbf5046a8ec9c0469edc8609da3fac3f1ef81c5c9fa6b4e27"
 
 RPROVIDES:${PN} += "libpmix.so.2 \
 libpmix2"

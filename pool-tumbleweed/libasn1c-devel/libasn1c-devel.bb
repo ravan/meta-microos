@@ -7,10 +7,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libasn1c."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.9.35"
+PV = "0.9.38"
 
-RPM_NAME = "libasn1c-devel-0.9.35-1.1.aarch64.rpm"
-RPM_HASH = "8e75c457d57c69e316c26c794ea3ff52dfdc5a332365325302a73c4098a9f6e6c1fc4145e802b0ca255be378d0a6c6d453ec213a8506a90b748e1bb5a0dcf040"
+RPM_NAME = "libasn1c-devel-0.9.38-1.7.aarch64.rpm"
+RPM_HASH = "1fa9bf4b30135d393c4153923c269ba3bf44d17570e475227485b61ad54b0805738225526709776224265641fd9818af91d5b5f3b9c4890ecddf5646eadf7f89"
 
 RPROVIDES:${PN} += "libasn1c-devel \
 pkgconfig-libasn1c"

@@ -4,10 +4,10 @@ three extra questions (with their answers) that Michael Downes \
 didn't manage to get onto CTAN."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-around-the-bend-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "08b062b2ae51a99228aa1418f241f02b723ec7be72fc0625ae2be96c824c3314b6f3bc030ded85e225eb3f362442e3252237674bd67e7136440fddb9f3307fc1"
+RPM_NAME = "texlive-around-the-bend-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "fcc595af631fc96f9412fb58b902edf991b8af17dbfbe241b1c9cf12de8b200fedd7f35f7cd91879a79beeb501b91bdf3f88359a74053401e4f92e7a2a282ea9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-around-the-bend"

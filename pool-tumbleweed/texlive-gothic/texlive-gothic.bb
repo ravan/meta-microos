@@ -8,10 +8,10 @@ fonts, providing T1, using virtual fonts, and OT1 and T1, using \
 Metafont."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn49869"
+PV = "2026.226.svn49869"
 
-RPM_NAME = "texlive-gothic-2023.209.svn49869-54.2.noarch.rpm"
-RPM_HASH = "07238bf3228ba97c796294bc3b3e7cb1606680f599646ac77aad08203b9207e962a0d0f5c8aae11eeb10b1e34d12bb12d8509b46ebaf066bb551b62ad73d5636"
+RPM_NAME = "texlive-gothic-2026.226.svn49869-60.4.noarch.rpm"
+RPM_HASH = "e0519ad427d27fcccf57f3656fb332c64f3b302859759760130a0dcb0cad08af7d015906598bdc52a2277c0632f4319ea2f75e3af1b9e86ce68f9697833e0dfe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmfrak.tfm \

@@ -4,16 +4,15 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.9.0"
 
-RPM_NAME = "libgtkdsv-3-0-3.9.0-2.12.aarch64.rpm"
-RPM_HASH = "886675fad3e853537e4845dc572e043e053d3d7c39560b3a8a92494482a3cf618c423a3b9b8c0d092ef72d38a6504952e33c4c605751d020ded629310f8601a8"
+RPM_NAME = "libgtkdsv-3-0-3.9.0-3.10.aarch64.rpm"
+RPM_HASH = "1085646ae19c6f18519a5697c85c34dc25acd81030ffd5ac62e2c1e6acf6d2d19310c97a528d75d345a2690458d61e56283f2c654509ba0a8c7b4b4592ec520d"
 
 RPROVIDES:${PN} += "libgtkdsv-3-0 \
 libgtkdsv-3.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6 \
-libdruntime-ldc-shared.so.102 \
-libgcc-s.so.1 \
-libphobos2-ldc-shared.so.102"
+libdruntime-ldc-shared.so.112 \
+libgcc-s.so.1"
 
 inherit rpm

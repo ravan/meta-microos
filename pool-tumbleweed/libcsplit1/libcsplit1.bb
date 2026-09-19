@@ -4,10 +4,10 @@ DESCRIPTION = "Library for C split string functions. \
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220109"
+PV = "20260703"
 
-RPM_NAME = "libcsplit1-20220109-3.3.aarch64.rpm"
-RPM_HASH = "aa431a5fc2baed09c48d5db28f7cb09b8d2278856fe3eae1f419c01d2ccbcfc535018cbf61168c92058be7f63c42da86f2c5625b31df963479b9ba3b69f0dc24"
+RPM_NAME = "libcsplit1-20260703-1.2.aarch64.rpm"
+RPM_HASH = "652faaa587dfafc2296abae6220e45d50794124fcf6231025b8397776ed81b7ebbe8a8f3c9f811bb541b0a42cbde52e503a63dedf4a23d8c89dea0288731f366"
 
 RPROVIDES:${PN} += "libcsplit.so.1 \
 libcsplit1"

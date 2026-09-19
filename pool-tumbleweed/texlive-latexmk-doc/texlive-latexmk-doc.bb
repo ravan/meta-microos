@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-latexmk"
 DESCRIPTION = "This package includes the documentation for texlive-latexmk"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.4.79svn65485"
+PV = "2026.226.4.87svn75540"
 
-RPM_NAME = "texlive-latexmk-doc-2023.209.4.79svn65485-55.1.noarch.rpm"
-RPM_HASH = "149fe3d1ac03d57a18420706fc546bdbcc9a6783dc967b38d3f14ba4223c73ea782e55c4579d5a6632f0218f6d848e94a184052d4c64d534df15990dbf42a789"
+RPM_NAME = "texlive-latexmk-doc-2026.226.4.87svn75540-61.2.noarch.rpm"
+RPM_HASH = "e8a5c8ca2aa01c1acec7700ed42b091b4accc50df345fa8f5b32dfa1be222f6efe78e1f8f2d88bc353d2be171f02816422cc7c8da3241e455f8cb12ffc9a28a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-latexmk.1 \

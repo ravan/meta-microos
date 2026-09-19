@@ -5,10 +5,10 @@ the years into one comprehensive package. It provides a set of tools \
 which enable you to do all your LaTeX-ing without needing to quit Vim."
 LICENSE = "Vim"
 
-PV = "1.10.0+20220519"
+PV = "1.10.0+20250111"
 
-RPM_NAME = "vim-plugin-latex-1.10.0+20220519-56.1.noarch.rpm"
-RPM_HASH = "e513fc42738d5094eef4080ac38166dac5d4722024d9b9583b51d7bfa275629113e3d944f877185a11d1bc9a817b2ed1a3983c5099727a03ddfd88334796c63f"
+RPM_NAME = "vim-plugin-latex-1.10.0+20250111-64.2.noarch.rpm"
+RPM_HASH = "e8ea3f54748d7223e8eee82d4401b6a490ff1f9b9dab5c69c47feea765bc18d84e4f5c26d20295736ca88dded20b24238e86159607b0b81431e516be7aa399b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-latex"

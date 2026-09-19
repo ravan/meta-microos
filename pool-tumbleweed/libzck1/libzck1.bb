@@ -8,10 +8,10 @@ downloaded is in fact the file you wanted. \
 This package contains the zchunk library, libzck."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "1.3.1"
+PV = "1.5.4"
 
-RPM_NAME = "libzck1-1.3.1-1.1.aarch64.rpm"
-RPM_HASH = "c38861607114cc40950ec02cdb43f4de3f6cdc7f7fffccf72725863b5be0ac2869f23222ed169549d6e123f7f4a69f9d8b20bd527e3a2108129bba425d0c8f9e"
+RPM_NAME = "libzck1-1.5.4-1.1.aarch64.rpm"
+RPM_HASH = "e1e4502d48592ab6e359b3cf95ab7445a7036c45901912df420c35aa47ba05d2edbcb84492f40acf434cefb291caacd23b3c8bd57ee86cdf764ad68bd3c67adb"
 
 RPROVIDES:${PN} += "libzck.so.1 \
 libzck1"

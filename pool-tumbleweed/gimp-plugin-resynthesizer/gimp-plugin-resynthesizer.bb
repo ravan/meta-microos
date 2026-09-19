@@ -7,24 +7,21 @@ The package includes: \
 - various plugins (in Python language) that call the resynthesizer engine"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.0.3~git.20220422"
+PV = "3.0.1+git21.a05427e"
 
-RPM_NAME = "gimp-plugin-resynthesizer-2.0.3~git.20220422-1.3.aarch64.rpm"
-RPM_HASH = "608e1b2d8ce89ec5cb316e497e3e2f3586755dd197df6d913d7f4587ee5f197c2473c6b3e0895304c4e930ca9b42b2e64ee86b8fa7de3388f91c9ce17b69b23f"
+RPM_NAME = "gimp-plugin-resynthesizer-3.0.1+git21.a05427e-1.2.aarch64.rpm"
+RPM_HASH = "9017ec26f031df84fc5a9288051d847f663b658bf5348315b9e01a4db43b4686c8d5fd138dccffd5271396c225d0237c2e5f7e8247d418cdcb7617af2203bb9b"
 
 RPROVIDES:${PN} += "gimp-plugin-resynthesizer"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-gimp-plugins-python \
+RDEPENDS:${PN} += "/usr/bin/gimp-script-fu-interpreter-3.0 \
 ld-linux-aarch64.so.1 \
+libbabl-0.1.so.0 \
 libc.so.6 \
-libgdk-x11-2.0.so.0 \
-libgimp-2.0.so.0 \
-libgimpbase-2.0.so.0 \
-libgimpui-2.0.so.0 \
-libgimpwidgets-2.0.so.0 \
+libgegl-0.4.so.0 \
+libgimp-3.0.so.0 \
 libglib-2.0.so.0 \
-libgtk-x11-2.0.so.0 \
+libgobject-2.0.so.0 \
 libm.so.6"
 
 inherit rpm

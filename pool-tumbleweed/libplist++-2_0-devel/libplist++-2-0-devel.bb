@@ -4,10 +4,10 @@ DESCRIPTION = "libplist is a library for handling Apple Binary and XML Property 
 This package contains the development files for C++."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "2.3.0"
+PV = "2.6.0"
 
-RPM_NAME = "libplist++-2_0-devel-2.3.0-1.2.aarch64.rpm"
-RPM_HASH = "4efe42d27bf3077fba8fad7c7bd20784cfc43bb9b3961a2563847a0a42c81b3f7acd0bd0b028df67ad963bf961d0a1425095c45ae5ee10c4bec2c7f37b314533"
+RPM_NAME = "libplist++-2_0-devel-2.6.0-3.6.aarch64.rpm"
+RPM_HASH = "f944b0ae225523e04019d4d892ea864545efb3350333e49a6220bbee526fb79e6e51f21c95ed4b5e92593ae396be198df47c31d32d4cc062998421897a701a22"
 
 RPROVIDES:${PN} += "libplist++-2-0-devel \
 libplist++-devel \

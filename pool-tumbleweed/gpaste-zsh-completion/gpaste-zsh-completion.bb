@@ -3,10 +3,10 @@ DESCRIPTION = "GPaste is a clipboard management daemon with DBus interface. \
 This package provides zsh tab-completion for gpaste."
 LICENSE = "BSD-2-Clause"
 
-PV = "44.1"
+PV = "50.9"
 
-RPM_NAME = "gpaste-zsh-completion-44.1-1.1.noarch.rpm"
-RPM_HASH = "e78c76173cb4c5753300b47cf8d130a604c62962b5e8ceb87ef27d3d0135b0c7373d9692a7a0eb66b8c6f6859c96335677d4c475440417f0f553a9721851c9d1"
+RPM_NAME = "gpaste-zsh-completion-50.9-1.1.noarch.rpm"
+RPM_HASH = "d5b18c74398344dacca07d2cef377fe0ca141a7aeb7a8f8158627f23014cc0be3a69a2ad17a984c5e36e22f82c66f83bd7cba29746f051716cddbc5b0fe37713"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpaste-zsh-completion"

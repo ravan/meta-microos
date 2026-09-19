@@ -19,13 +19,13 @@ LICENSE = "Artistic-2.0"
 
 PV = "2.86"
 
-RPM_NAME = "razor-agents-2.86-1.6.aarch64.rpm"
-RPM_HASH = "c4641f4f2ac09ddd94a924af51da0faaff4f9388c3d3d21f0bfec5585f807709e8e866932ba4464e5185c5083d320e690e865745df05b3304b176dbdb17ac63c"
+RPM_NAME = "razor-agents-2.86-1.23.aarch64.rpm"
+RPM_HASH = "6bcaa4ba936f2fe8a8dba6bfcc4de5aa30e406e434c10d9162259f13f31f2f41f760753bb8c51bf8e49f8d5f8ce4dc2beb1233e8b787198c6d768ed32c49d5bd"
 
 RPROVIDES:${PN} += "razor-agents"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-razor-agents"
 
 inherit rpm

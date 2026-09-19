@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-boondox"
 DESCRIPTION = "The  separated fonts package for texlive-boondox"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.02dsvn54512"
+PV = "2026.226.1.02dsvn77682"
 
-RPM_NAME = "texlive-boondox-fonts-2023.209.1.02dsvn54512-53.1.noarch.rpm"
-RPM_HASH = "daeafeb4cd3e23c51d4b8bc1f720cca8da91244dc7effdf5356ea40772f7adf152ce847efb113d7f7b25f887a0d8d0ad71d1178073ce595971014b4b64eddaca"
+RPM_NAME = "texlive-boondox-fonts-2026.226.1.02dsvn77682-59.2.noarch.rpm"
+RPM_HASH = "de706daf211db8e219f4b1fcf78632dbc617040c3b04b17ca2665f91dce46d780829944d23380cd65ccfae65bdd4d8a6612865bffabcf23863dd656a696e7801"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

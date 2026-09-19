@@ -5,10 +5,10 @@ VPNs, including Cisco's 'AnyConnect' VPN. \
 This packages provides documentation and help files for openconnect."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.12"
+PV = "9.21"
 
-RPM_NAME = "openconnect-doc-9.12-1.1.noarch.rpm"
-RPM_HASH = "96eba23d99e9ef5189b699f52db8b271fcf8260cbc63d24f7df7f04400435cb18129f76acd6eb91ccc345193fec553481d19e9cafaea375cb04f3a2db25b3e87"
+RPM_NAME = "openconnect-doc-9.21-1.3.noarch.rpm"
+RPM_HASH = "683c04c478b4ade7f179f0e30e378503ec673b694e69175ee9af19221062aadc7195a4181d4582d5edf40e6a1047c6ac5023298d310f0c539638eeb82c45a9d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openconnect-doc"

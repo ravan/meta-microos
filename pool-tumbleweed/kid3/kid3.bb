@@ -29,25 +29,25 @@ This package uses KDE libraries, if you do not use KDE you should use kid3-qt. \
 For a commandline interface you can use kid3-cli."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.9.3"
+PV = "3.9.7"
 
-RPM_NAME = "kid3-3.9.3-1.4.aarch64.rpm"
-RPM_HASH = "2b5b79937406c00d38a286e11232c8ab0f0c03e4dd7611dff3a7a115d57b10d910968f4d58705b7aa55ea74838d0218d89ed4cad1f7895f8c9d03d8a721abc2f"
+RPM_NAME = "kid3-3.9.7-2.6.aarch64.rpm"
+RPM_HASH = "546fa98a9822b49ce1ce445702156b00a09a93eb23a4b79303165914b7fbd80e9092869dc076e0363b5124085ca6d21043cded3ef38c9f94730d6aeaa4baa0c1"
 
 RPROVIDES:${PN} += "kid3"
 
 RDEPENDS:${PN} += "kid3-core \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5KIOCore.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6KIOCore.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libkid3-core.so \

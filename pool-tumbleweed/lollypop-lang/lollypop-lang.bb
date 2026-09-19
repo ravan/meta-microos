@@ -2,10 +2,10 @@ SUMMARY = "Translations for package lollypop"
 DESCRIPTION = "Provides translations for the 'lollypop' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.4.37"
+PV = "1.4.40"
 
-RPM_NAME = "lollypop-lang-1.4.37-1.3.noarch.rpm"
-RPM_HASH = "11d86327a7f81de1b05538f2332ac03d231ad480850de1cde7b10f755ae448607d7ccd36cdc39596be3afda0e0dcef347de0c6c2df78b3761f4324f2b7381a30"
+RPM_NAME = "lollypop-lang-1.4.40-1.7.noarch.rpm"
+RPM_HASH = "ad4a08a3f72c47a78dfd43f54f091983689e60b96ef858b49431edeed0b1748c712dc9bdebf37f1eb59abf35b55cb62ee4e0c9423852ea1b834a596433366253"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lollypop-ar \

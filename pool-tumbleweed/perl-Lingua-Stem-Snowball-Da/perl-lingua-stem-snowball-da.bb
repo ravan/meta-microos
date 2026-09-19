@@ -6,13 +6,13 @@ LICENSE = "GPL-2.0"
 
 PV = "1.01"
 
-RPM_NAME = "perl-Lingua-Stem-Snowball-Da-1.01-1.26.noarch.rpm"
-RPM_HASH = "94110e8aa4a87f1be2bb9e0324a75f5c0f22836c017830d3d6d811513d0a5dec75c60fd6ad4b4bd8a9fc5d4287bfa1debc1ccd7612bb7885cf3633ad5b911925"
+RPM_NAME = "perl-Lingua-Stem-Snowball-Da-1.01-1.40.noarch.rpm"
+RPM_HASH = "9b215a7e35fe9a462fcb2058b0b1f5b68631edf60ca72479f4d6d3e369f13dd0a28e0f1f714d5e3075d652b4dc1398613d878fd5ccca82d48cfd039e739badbf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--Stem--Snowball--Da \
 perl-Lingua-Stem-Snowball-Da"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

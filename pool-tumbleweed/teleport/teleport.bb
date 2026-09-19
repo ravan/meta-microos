@@ -1,19 +1,22 @@
 SUMMARY = "Identity-aware, multi-protocol access proxy"
-DESCRIPTION = "Teleport is the easiest, most secure way to access all your infrastructure. Teleport is an identity-aware, multi-protocol access proxy which understands SSH, HTTPS, RDP, Kubernetes API, MySQL, MongoDB and PostgreSQL wire protocols. \
+DESCRIPTION = "Teleport is the easiest, most secure way to access all your infrastructure. \
+Teleport is an identity-aware, multi-protocol access proxy which understands \
+SSH, HTTPS, RDP, Kubernetes API, MySQL, MongoDB and PostgreSQL wire protocols. \
  \
-On the server-side, Teleport is a single binary which enables convenient secure access to behind-NAT resources such as: \
+On the server-side, Teleport is a single binary which enables convenient secure \
+access to behind-NAT resources such as: \
 * SSH nodes - SSH works in browsers too! \
 * Kubernetes clusters \
 * PostgreSQL, MongoDB, CockroachDB and MySQL databases \
 * Internal Web apps \
 * Windows Hosts \
 * Networked servers"
-LICENSE = "Apache-2.0"
+LICENSE = "AGPL-3.0-only"
 
-PV = "13.3.8"
+PV = "17.7.26"
 
-RPM_NAME = "teleport-13.3.8-1.1.aarch64.rpm"
-RPM_HASH = "b1b356738f384517112082f81696933fd115b055873aad488dfca51a379d5e68da9a3d55197d76f4d3d20621467e84b7c725c3fa902b79479fc49f91633a547b"
+RPM_NAME = "teleport-17.7.26-1.4.aarch64.rpm"
+RPM_HASH = "a269a5b293e43af93776a6e4057906d19aded3e83b0a7ba1b82cef3ca2e5c1b8287a1c8275f887f91da23a146a51d135de5f5ade1ca012e66bfa39d316fd754e"
 
 RPROVIDES:${PN} += "config-teleport \
 teleport"

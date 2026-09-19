@@ -5,14 +5,15 @@ multimedia keys in desktop environments such as GNOME and KDE \
 as well as through tools like playerctl."
 LICENSE = "MIT"
 
-PV = "1.0"
+PV = "1.2"
 
-RPM_NAME = "mpv-mpris-1.0-1.1.aarch64.rpm"
-RPM_HASH = "b0a430a6c03e88ec6821036afefe5476acb4431153c67a53f6a83c11952b3d147ee7e0d41d00ed6cf5ed047faa00233a295b74fd0969fe9388d4197bbd45f383"
+RPM_NAME = "mpv-mpris-1.2-1.6.aarch64.rpm"
+RPM_HASH = "a2fcb441c8190404788f10c16e2159d30e61adab204a42de0fd3591ec6ca58958325c9dcb9448614bcbfd037520ab4cc4a09e0e62caba4fe0fd67aedcb1cc85e"
 
 RPROVIDES:${PN} += "mpv-mpris"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "libavformat.so.62 \
+libc.so.6 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0"
 

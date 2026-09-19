@@ -5,10 +5,10 @@ designing beamer themes. Using the package, you don't need to \
 write \\definecolor before using a color."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn41042"
+PV = "2026.226.0.0.2svn41042"
 
-RPM_NAME = "texlive-coloring-2023.209.0.0.2svn41042-54.1.noarch.rpm"
-RPM_HASH = "223475718b47298ee0325a5d24ccd915a19308264c6680d5f8b70f7cce38438082b62032fa9f4618a0cd784e87c384b8ea1a6779aa1eabf9bc70cfecdfd79993"
+RPM_NAME = "texlive-coloring-2026.226.0.0.2svn41042-60.2.noarch.rpm"
+RPM_HASH = "4333edd2d316ea7e69528d80b2ce8320f938303588e674042680061f8fea5c0eb6c1c12456c3dc5d44986ddc8b97cf9635bc3bd6ee3bb7e3af6af154e3542b45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-coloring.sty \

@@ -43,10 +43,10 @@ NYTProf is effectively two profilers in one: a statement profiler, and a \
 subroutine profiler."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.12"
+PV = "6.150.0"
 
-RPM_NAME = "perl-Devel-NYTProf-6.12-1.5.aarch64.rpm"
-RPM_HASH = "a529cc86e4a49386c77fe26c276df721444ef76b73416782d0cbc9d4f11dbe94bfce73623a3b11737914add389affea178c9c932a92eba396347f7f92efc9877"
+RPM_NAME = "perl-Devel-NYTProf-6.150.0-1.5.aarch64.rpm"
+RPM_HASH = "def393ef872fb91e0ecc6f68e8511a4c852edcafd9203cc63feb99220be7741ceb2df5cb72b49fa6b6c9a2392be5f985e00546bb7a0bcdc1c407b1f921bf174b"
 
 RPROVIDES:${PN} += "perl-Devel--NYTProf \
 perl-Devel--NYTProf--Apache \
@@ -66,7 +66,7 @@ perl-Devel-NYTProf"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-File--Which \
 perl-JSON--MaybeXS"
 

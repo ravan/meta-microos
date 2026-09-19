@@ -3,10 +3,10 @@ DESCRIPTION = "The kpartx program maps linear devmaps to device partitions, whic
 makes multipath maps partionable."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.9.6+71+suse.f07325e"
+PV = "0.15.1+229+suse.6c6f63e"
 
-RPM_NAME = "kpartx-0.9.6+71+suse.f07325e-1.1.aarch64.rpm"
-RPM_HASH = "76f846d2144c71a803ffcfbe58c65d0ca47a54baa1d6b18c3d69e9d17480219380f83ed98baadc8bfddb08dbdee794705a1d138fa8291f5a1801b5fc9c40af6a"
+RPM_NAME = "kpartx-0.15.1+229+suse.6c6f63e-1.1.aarch64.rpm"
+RPM_HASH = "7596f38e8585967825522f23de0fd4ffbfe594f59285b22fd7f5b46249e3e570dd10b9a34045aa6c9004a9a49cb27a39a0cf208b8cbbd74d1bafa41b43fb0b57"
 
 RPROVIDES:${PN} += "kpartx"
 
@@ -14,6 +14,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 device-mapper \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libdevmapper.so.1.03"
+libdevmapper.so.1.03 \
+libgcc-s.so.1"
 
 inherit rpm

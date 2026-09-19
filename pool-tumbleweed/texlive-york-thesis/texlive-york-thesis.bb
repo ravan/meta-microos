@@ -4,10 +4,10 @@ theses and dissertations. The established york-thesis class \
 file now implements the changes made in Spring 2005."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.6svn23348"
+PV = "2026.226.3.6svn23348"
 
-RPM_NAME = "texlive-york-thesis-2023.209.3.6svn23348-53.2.noarch.rpm"
-RPM_HASH = "3341b8429e9490be6f95284d7d23ce24a5be7615714e10293f1a1efeb8d98203b76c1ac4905f806d0f5c73d236775123915dcdd02b9ecc1219f3d4c29ae26e76"
+RPM_NAME = "texlive-york-thesis-2026.226.3.6svn23348-59.4.noarch.rpm"
+RPM_HASH = "8ef4aa25c98b30591714790d9f56c0725d5160e7ce140928774f4dd00d364d3b63d21667cd884ef7e3d85117af399b428b87740f58b171f038fcfe72a9648e7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-york-thesis.cls \

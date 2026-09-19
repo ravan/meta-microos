@@ -4,10 +4,10 @@ written in Ukrainian. The support is adapted for use under \
 legacy TeX engines as well as XeTeX and LuaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4esvn56674"
+PV = "2026.226.1.4esvn56674"
 
-RPM_NAME = "texlive-babel-ukrainian-2023.209.1.4esvn56674-54.1.noarch.rpm"
-RPM_HASH = "d5afa6a28bd35cdc72af0ba5988a261c57763744475d8ab2414f7b671fea5ba27b291ecb7d3b1b0b6b12b32f3f4d4cbdd8e1852ac93d1a7f007d0255d6457f9d"
+RPM_NAME = "texlive-babel-ukrainian-2026.226.1.4esvn56674-60.2.noarch.rpm"
+RPM_HASH = "4d8b2cb64878cf3a38c79d898a508e340371db53a4d4855ef1e662f605d0afb282fd64bd101f1ad4b04bda2ebe8b049efc7dcdf38a17a756766a364644c2d4da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ukraineb.ldf \

@@ -4,10 +4,10 @@ coroutines in connection with certain asynchronous Qt actions. This package \
 provides a library for Qt Quick operations support."
 LICENSE = "MIT"
 
-PV = "0.9.0"
+PV = "0.13.0"
 
-RPM_NAME = "libQCoro5Quick0-0.9.0-1.1.aarch64.rpm"
-RPM_HASH = "0de4e7176fd5e4b7e832f92c2c086bee22ffb0573149ee0aa029ea79899fe5c3a051f0a8857411956d67794a71272503c09d69a36a09d9a6718d20a2172efe3d"
+RPM_NAME = "libQCoro5Quick0-0.13.0-1.2.aarch64.rpm"
+RPM_HASH = "b3d60f6aca0f4484dd55744087f9bf9287ea1a0a739372f541eccd9ad522a25568ee079aecb8027922ba864e1410c3296f90cb2effa54813878e5b22c2211c5a"
 
 RPROVIDES:${PN} += "libQCoro5Quick.so.0 \
 libQCoro5Quick0"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.07"
 
-RPM_NAME = "libzinnia0-0.07-2.8.aarch64.rpm"
-RPM_HASH = "8de722eb9c67330018f3e99cc56de37790fe08a7288ac3bec39f2030affd865603fd70fbebfea3ac3a50be5a0ad815816c7a94f492602cecbed33c16bf9ef09e"
+RPM_NAME = "libzinnia0-0.07-2.19.aarch64.rpm"
+RPM_HASH = "faa9415ec44e13b41274533cac66d45813fd2879946fd6d40bbaae90d905ccd801c0a368304b06815c7b4f26a1152a751e4b9baea27aaf2062e42eb3437f64a8"
 
 RPROVIDES:${PN} += "libzinnia.so.0 \
 libzinnia0"

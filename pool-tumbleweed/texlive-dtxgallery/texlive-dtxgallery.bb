@@ -7,10 +7,10 @@ companion to Scott Pakin's excellent and influential dtxtut \
 example of producing LaTeX packages in this way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn49504"
+PV = "2026.226.1svn49504"
 
-RPM_NAME = "texlive-dtxgallery-2023.209.1svn49504-53.1.noarch.rpm"
-RPM_HASH = "e57c082094734c3354c8d71909418d1d8955b3f496387a4867a5b388e19e14a2bcfd3ddf04082a722f50aed069483ccf56995d8982ddd3a383ae6e8735edcb6a"
+RPM_NAME = "texlive-dtxgallery-2026.226.1svn49504-59.2.noarch.rpm"
+RPM_HASH = "3138f266dc12e9af7446256dacae94f0aa7572863670f22af9132e43766c11fccb4e2ab6d9607036abcd7f65627551a44964d3e2c30e750f0de5a814cfbd0b96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dtxgallery \

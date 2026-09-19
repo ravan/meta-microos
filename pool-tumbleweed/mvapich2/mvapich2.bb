@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.7"
 
-RPM_NAME = "mvapich2-2.3.7-5.1.aarch64.rpm"
-RPM_HASH = "0789e1c73550b6ee04178ea3cf14a09b4e256b4d7d9e4e2fba83e31a003a883a461d53432fd9bf174177d2683c0cca3c59300091b4afbc425636c60eb920357c"
+RPM_NAME = "mvapich2-2.3.7-12.6.aarch64.rpm"
+RPM_HASH = "0b907fecf334cd25b0a17c6a4225b2e1f0ba4c03778c7827d2b12110eafcb2747b8b4734361bf0c6eb71da44aff4eceadf95e4e34fb08969b141226b2c6211c9"
 
 RPROVIDES:${PN} += "libmpi.so.12 \
 libmpicxx.so.12 \
@@ -28,7 +28,7 @@ libnuma.so.1 \
 libpciaccess.so.0 \
 librdmacm.so.1 \
 libstdc++.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 mpi-selector"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "This plugin collects data from the NSClient service running on a 
 Windows NT/2000/XP/2003 server."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-nt-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "ce1d54919e2c260c8399ceaad1d46a4dbba8bc8e3ad69aef84aa731d6fec8e0d82942a9f104e85b1259622a59cf3eb6aa23d29a07a1c023021afd19da1315c0e"
+RPM_NAME = "monitoring-plugins-nt-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "823d88061768d56e9b4f6e580faaa44e9f79a8cecd4804559113f5c6f342ffc9f8298d8f9dc48890a5b1bd0ec5abf0e919b8d899feaa87809f79756823794d72"
 
 RPROVIDES:${PN} += "monitoring-plugins-nt \
 nagios-plugins-nt"

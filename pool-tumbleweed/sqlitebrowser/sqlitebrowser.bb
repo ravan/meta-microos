@@ -16,25 +16,27 @@ Controls and guided dialogs are available for users to: \
 	* Examine a log of all SQL commands issued by the application"
 LICENSE = "GPL-3.0-or-later & MPL-2.0"
 
-PV = "3.12.2"
+PV = "3.13.99"
 
-RPM_NAME = "sqlitebrowser-3.12.2-2.12.aarch64.rpm"
-RPM_HASH = "29b77c4490a4106465b88dedfca85ce797a757ef9a13909effde28a42572f4c4ba49c8fb7f250221e724cd366af458d0f65595d9a62c53b8872d1f7411ba2924"
+RPM_NAME = "sqlitebrowser-3.13.99-2.4.aarch64.rpm"
+RPM_HASH = "4e2a0a042f72e968040d50b925e8a050f5801fe9afde0e03d4bb9ab24d3ff7999aa9529710298800cbaa72b2a60099a65e1de74123a8261f27b7e8f9e0b9798d"
 
 RPROVIDES:${PN} += "sqlitebrowser"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libqscintilla2-qt5.so.15 \
-libsqlcipher-3.41.2.so.0 \
+libqhexedit.so.0 \
+libqscintilla2-qt6.so.15 \
+libsqlcipher.so.0 \
 libstdc++.so.6"
 
 inherit rpm

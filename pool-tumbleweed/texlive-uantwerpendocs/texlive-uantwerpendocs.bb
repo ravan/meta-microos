@@ -7,10 +7,10 @@ future versions of the house style of the University of \
 Antwerp."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.4svn64165"
+PV = "2026.226.4.11svn76924"
 
-RPM_NAME = "texlive-uantwerpendocs-2023.209.4.4svn64165-53.1.noarch.rpm"
-RPM_HASH = "779264f8d82d66df2a96119a4d03f64bcf08b345828fc573c30ca4cd358e07cc37745129351b8386f6b4a41ffb1f832de238504136cecf92f3d39ff86b01127a"
+RPM_NAME = "texlive-uantwerpendocs-2026.226.4.11svn76924-59.2.noarch.rpm"
+RPM_HASH = "a6e67084defe960ede0e710b75d6b54379f90560495ec5f016237497abd2aeb5b67446fa9a41892c41bae4b9900ce323f919b055fc7bd00b139c1155bc997036"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeuantwerpen.sty \
@@ -23,6 +23,7 @@ tex-uantwerpencolorlogoscheme.sty \
 tex-uantwerpencommonoptions.clo \
 tex-uantwerpencoursetext.cls \
 tex-uantwerpenexam.cls \
+tex-uantwerpenletter.cfg \
 tex-uantwerpenletter.cls \
 tex-uantwerpenphdthesis.cls \
 tex-uantwerpenreport.cls \
@@ -40,7 +41,6 @@ tex-bm.sty \
 tex-cmbright.sty \
 tex-color.sty \
 tex-crop.sty \
-tex-ean13isbn.sty \
 tex-environ.sty \
 tex-eso-pic.sty \
 tex-etoolbox.sty \
@@ -48,6 +48,7 @@ tex-expl3.sty \
 tex-fancyhdr.sty \
 tex-fontspec.sty \
 tex-geometry.sty \
+tex-graphbox.sty \
 tex-graphicx.sty \
 tex-iftex.sty \
 tex-ifthen.sty \

@@ -15,10 +15,10 @@ environment giving them full control over the embedded document, its \
 appearance and behavior."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-officebean-7.6.1.1-1.1.aarch64.rpm"
-RPM_HASH = "5a2ff45b63ae9c3f71ee1ee6f706004acfa4bddf77cc4a9427d721bcfec1089d4849a5a8a050d93ce4987c211cbd7021f1f9ef6c3685520b0bb8f0c1337dd53a"
+RPM_NAME = "libreoffice-officebean-26.8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "3f87279483343ba2dcfdfca5e81da3bdf35fb33dd9384850c94845fa1c15c6519da60f1b08f40100396deb56fc0f77f1878f4b805eeb28ce5986581e2042dccd"
 
 RPROVIDES:${PN} += "libofficebean.so \
 libreoffice-officebean"

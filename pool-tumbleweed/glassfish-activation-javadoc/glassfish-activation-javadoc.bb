@@ -4,8 +4,8 @@ LICENSE = "(BSD-3-Clause & GPL-2.0-only-with-Classpath-exception-2.0) | CDDL-1.1
 
 PV = "1.2.0"
 
-RPM_NAME = "glassfish-activation-javadoc-1.2.0-4.4.noarch.rpm"
-RPM_HASH = "5195851ed25ac2239479bcd2c12a7abf7220182d0d76c80088b2084aedca00d1fa3495e4ef680012b21b2368c3801b51707ba743ab01104f3f25ccd803b2b679"
+RPM_NAME = "glassfish-activation-javadoc-1.2.0-6.8.noarch.rpm"
+RPM_HASH = "8883bb0ed39c0c58a045cc29988cccbaa7296d44ecdae8585ad9b4ed3cbd0f1b85344bdc6885062fdccaddcfb06e96c3566dc7f622d28601c1315057d87acea7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-activation-javadoc"

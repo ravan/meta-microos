@@ -1,12 +1,12 @@
-SUMMARY = "A GIO-style async APIs for most Flatpak portals -- Development files"
+SUMMARY = "Headers for the libportal GTK4 integration library"
 DESCRIPTION = "The libportal-gtk4-devel package contains libraries, build data, and \
 header files for developing applications that use libportal."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.7"
+PV = "0.10.0"
 
-RPM_NAME = "libportal-gtk4-devel-0.7-1.1.aarch64.rpm"
-RPM_HASH = "6b1fb2fb37d3bb83ab02b1e2ce5982bff6b93e6fbec1393656138e689e093777c13f527976c35239fcc7e27bd38484c9092d269a4425fb19953a9951f4e2957b"
+RPM_NAME = "libportal-gtk4-devel-0.10.0-1.2.aarch64.rpm"
+RPM_HASH = "a7fa6aadfbc6b2ab9264a9dce693df23d38ea0e2a70cf767447147a33733cb9fc5c4003673785f537377f132045d0c2ae8a23c3b7789dce2ff43789008671010"
 
 RPROVIDES:${PN} += "libportal-gtk4-devel \
 pkgconfig-libportal-gtk4"

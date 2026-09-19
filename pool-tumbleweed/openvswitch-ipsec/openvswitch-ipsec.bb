@@ -2,17 +2,19 @@ SUMMARY = "Open vSwitch IPsec tunneling support"
 DESCRIPTION = "This package provides IPsec tunneling support for OVS tunnels."
 LICENSE = "Apache-2.0"
 
-PV = "3.1.0"
+PV = "3.7.1"
 
-RPM_NAME = "openvswitch-ipsec-3.1.0-15.1.aarch64.rpm"
-RPM_HASH = "8e2c9c5d951c26393d25f83730207bbc1cd623cd3dfa103d9040376eaf790d5cff8b433d62cb0650a0de3f933b55af7035915cb24bb897852f11b8ae47d22d58"
+RPM_NAME = "openvswitch-ipsec-3.7.1-37.1.noarch.rpm"
+RPM_HASH = "0f529557a5c1ef664bd29815656dc7c2ec54e608de6feb1b38c31c19d28fe8e3c4f151451ad78752451b8622afb11fd80426ec18eba2bdc53ee357238b18f7b3"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openvswitch-ipsec"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
+/usr/sbin/ipsec \
 openvswitch \
-python3-ovs \
+python3-openvswitch \
 strongswan"
 
 inherit rpm

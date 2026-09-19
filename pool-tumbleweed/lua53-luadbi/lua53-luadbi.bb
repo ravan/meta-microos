@@ -9,10 +9,10 @@ with native database drivers. But openSUSE version doesn't build with DB2 and \
 Oracle."
 LICENSE = "MIT"
 
-PV = "0.7.2"
+PV = "0.7.5"
 
-RPM_NAME = "lua53-luadbi-0.7.2-2.11.aarch64.rpm"
-RPM_HASH = "287a34fbe0383cefdbbf38244327e999f27654c73aa281c6b372acb67a569c7f1278ea91f76c7f096f6fe20d41b44f98d0ccd9274286de56ae048cc298225314"
+RPM_NAME = "lua53-luadbi-0.7.5-2.3.aarch64.rpm"
+RPM_HASH = "f4a374a897968128880b868606ec1f0d0683d2315402a04d86874b4d02be357d4b285fcf24a8f3a0c89937ce085c5e7f79c156f266609328029cfe3344bdc8dc"
 
 RPROVIDES:${PN} += "lua53-luadbi"
 

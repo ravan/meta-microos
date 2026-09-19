@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "NetworkManager-iodine-lang-1.2.0-7.3.noarch.rpm"
-RPM_HASH = "57b818961cabd03fb47522b1bc24a6b3b07119fa97f0e4e4779e42b02ddb5d82d2ea7822a562ec0f2c72147491baed4467c318c936cb3e827735fbef24b15eeb"
+RPM_NAME = "NetworkManager-iodine-lang-1.2.0-12.5.noarch.rpm"
+RPM_HASH = "6e1a15653873755a38af3ce678e516e00f6837005b88231496213db9e514e45ce081d2e795179913c016ca7779e9241829a40eca5b7415b11137cdad21909b59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-iodine-lang \

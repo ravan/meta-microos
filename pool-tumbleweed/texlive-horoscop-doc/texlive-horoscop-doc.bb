@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-horoscop"
 DESCRIPTION = "This package includes the documentation for texlive-horoscop"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.01svn56021"
+PV = "2026.226.1.01svn56021"
 
-RPM_NAME = "texlive-horoscop-doc-2023.209.1.01svn56021-54.2.noarch.rpm"
-RPM_HASH = "eb0880d9975e24dabe2474e16606ff6ea4f6960a787365046b79b77eadf8d0a5ce09803c67ff27db219dd3c8c2032264230a7b6b40cc263d134d3f5ef80f3151"
+RPM_NAME = "texlive-horoscop-doc-2026.226.1.01svn56021-60.4.noarch.rpm"
+RPM_HASH = "6b59387f49d5c112bbc04c8c4dd19172d44ef009c10287226272022633580be765efa3931f4c6f6795dc02a38a45b07e37972fd67123f2610aaddde5aae7436a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-horoscop-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Rime for Linux/IBus"
 DESCRIPTION = "Rime Input Method Engine for Linux/IBus"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.5.0"
+PV = "1.6.0"
 
-RPM_NAME = "ibus-rime-1.5.0-1.10.aarch64.rpm"
-RPM_HASH = "2317d7ace47a7ebf562c775947602e95678c0d9243065d7ce0e6b6f1579f1bae0aa9ea5550091895f8495b1f103762cd0b4938b1566b2eca3d070c17f0bec571"
+RPM_NAME = "ibus-rime-1.6.0-1.5.aarch64.rpm"
+RPM_HASH = "a4344d2bdff836803dcbb062543a0e1d16f3bdbab465364a70d104558ee4d80f30411a628ced1e474336d0a3cb097b5c5d560c3ccd08c8cf9ac0036d5b3fe0e7"
 
 RPROVIDES:${PN} += "ibus-rime"
 

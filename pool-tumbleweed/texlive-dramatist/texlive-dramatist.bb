@@ -7,10 +7,10 @@ stage directions; and automatic generation of a `dramatis \
 personae' list."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.2esvn35866"
+PV = "2026.226.1.2esvn35866"
 
-RPM_NAME = "texlive-dramatist-2023.209.1.2esvn35866-53.1.noarch.rpm"
-RPM_HASH = "ee1b6dd65c3532154cf60466837c88cfadc2ad45fdc599d13864f2f27d69e49e67bde08f0b258029be7c327d7e400b36a70a89163649d9bc83d01886b6de3bb0"
+RPM_NAME = "texlive-dramatist-2026.226.1.2esvn35866-59.2.noarch.rpm"
+RPM_HASH = "9808af4404d85b835ca00b46451a9e96be0a3de8cbb705e48c0ba27cc8ac53ddebcd5b91dfd7e4338b415e86da9ff571db66295ba7cdfb6a4b87607b70164bf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dramatist.sty \

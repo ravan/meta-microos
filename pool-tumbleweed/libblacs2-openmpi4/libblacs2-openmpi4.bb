@@ -7,14 +7,14 @@ The length of time required to implement efficient distributed memory \
 algorithms makes it impractical to rewrite programs for every new \
 parallel machine. The BLACS exist in order to make linear algebra \
 applications both easier to program and more portable."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "2.1.0"
+PV = "2.2.2"
 
-RPM_NAME = "libblacs2-openmpi4-2.1.0-9.12.aarch64.rpm"
-RPM_HASH = "1d84f5661deebe6f6b67b1d37fc3fcbf050ebed80dee5dc78ae9d4911cd59a212f4354fa72e40826da926617987ebf7bfaaf583dd456bdd42340cb8577ba88ca"
+RPM_NAME = "libblacs2-openmpi4-2.2.2-1.3.aarch64.rpm"
+RPM_HASH = "3c6a91009de25d3708be095a3c7f82f15dda81d428948535b3002a17e748d8621bfaf2257903d961c7d0e4a1e9f02d053709ae1acf65e294c371b2eb69a03db9"
 
-RPROVIDES:${PN} += "libblacs.so.2.1.0 \
+RPROVIDES:${PN} += "libblacs.so.2.2.2 \
 libblacs2-openmpi4"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

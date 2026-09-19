@@ -3,15 +3,14 @@ DESCRIPTION = "Lazarus is a cross-platform IDE and component library for Free Pa
 This package contains the common parts of the Lazarus Component Library."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only & MPL-1.1"
 
-PV = "2.2.6"
+PV = "4.8"
 
-RPM_NAME = "lazarus-lcl-2.2.6-2.1.aarch64.rpm"
-RPM_HASH = "10644716c478e260c115a1560ba517cbbb7ae992b9d6b3dbfc2ec0eb56e61dcd65b1c96fb40306725d8c64afa4e75667c3c6917661d7a5f24195e956b43df390"
+RPM_NAME = "lazarus-lcl-4.8-1.2.aarch64.rpm"
+RPM_HASH = "62b6f533b66c56efee4ce603c55197ca01adedb3478b30f2411a5d69e1ac8146da4a77cf8443cecdc04ba5ff8176cc2255f2e0cc871fd96baf33c1ec1dfefdfe"
 
 RPROVIDES:${PN} += "lazarus-lcl"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/env \
 /usr/bin/sh \
 libX11.so.6 \
 libatk-1.0.so.0 \

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.1.2"
 
-RPM_NAME = "signpost-core-1.2.1.2-3.11.noarch.rpm"
-RPM_HASH = "7381af0df4c4af2d68f3b7a3b50b88dff1d0d88a20de3e49d4b4d2349bb1a94bacd68e4f7d56809eb46d75111bbb803919449c7c592e110e632cb73aaa8e1c25"
+RPM_NAME = "signpost-core-1.2.1.2-3.20.noarch.rpm"
+RPM_HASH = "c4f8ec47be41b7f4c110116546f5681a190da0fd5486ff13388ea0ab1cea04d2e6d9f5648f5b55123eb73d1c962e813ff0fa3b8ec0c3d247557e61b3a558bf93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-oauth.signpost-signpost-core \

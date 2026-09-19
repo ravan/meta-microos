@@ -5,10 +5,10 @@ for literary studies in faculty of humanities at the Bergische \
 Universitat Wuppertal."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn31541"
+PV = "2026.226.0.0.2svn31541"
 
-RPM_NAME = "texlive-uni-wtal-ger-2023.209.0.0.2svn31541-54.1.noarch.rpm"
-RPM_HASH = "6753aafe350523f5d84fe1b24c7e5afc4566980c7c3834d62740d8610751d39b5cc4f2bc890b2cd174ae75853ebeca6e318520607bf14a49ad769579ef441fb0"
+RPM_NAME = "texlive-uni-wtal-ger-2026.226.0.0.2svn31541-60.2.noarch.rpm"
+RPM_HASH = "4cc2de290a2e5f14355a5af24852c3513cb6da523e728a64944ce156dbf8c8f2337a0704546eab5a60274ee01bde1e5491e0ffb25605aece8e4fe8fb1dd90138"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uni-wtal-ger.bbx \

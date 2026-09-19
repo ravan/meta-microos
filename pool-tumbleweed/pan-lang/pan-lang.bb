@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pan"
 DESCRIPTION = "Provides translations for the 'pan' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.154"
+PV = "0.165"
 
-RPM_NAME = "pan-lang-0.154-2.4.noarch.rpm"
-RPM_HASH = "95d8c08af60827afa302838344de32f333d4391d55c0fab270f97164106d13d0977b87be827e4aefdc46135c1d23f29753bca1b66a8f7a587032a2954d94905d"
+RPM_NAME = "pan-lang-0.165-1.3.noarch.rpm"
+RPM_HASH = "6657a7c5997c65d2e5c5607fc3364579ef91a016d16c62a5b2fdf0d36ac2a62624664297518aee7f8c4917c557f96e584fc07eb9755f37eba68ebd881beacb14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pan-ar \
@@ -33,6 +33,7 @@ locale-pan-hu \
 locale-pan-id \
 locale-pan-it \
 locale-pan-ja \
+locale-pan-ka \
 locale-pan-ko \
 locale-pan-lt \
 locale-pan-lv \

@@ -8,10 +8,10 @@ make will know which object files must be recompiled when a dependency \
 has changed."
 LICENSE = "MIT"
 
-PV = "1.0.8"
+PV = "1.0.10"
 
-RPM_NAME = "makedepend-1.0.8-2.4.aarch64.rpm"
-RPM_HASH = "1ffc3bd70a1d3df8bd8c0cd6646b004abe3fd909358777439e81b735d4f61b0babe9a822409d4f0e0a60a8874da5a3f017da475a24e8b4482d3a15069440ab6d"
+RPM_NAME = "makedepend-1.0.10-1.1.aarch64.rpm"
+RPM_HASH = "fbc8b3dab4c7c37c6238da5cc818bc5c2091e8a69449a013f8768065315bcf6c231e742a341908a20336e652aaaa1b05bf1149c833804af607ebc28ce775271e"
 
 RPROVIDES:${PN} += "makedepend"
 

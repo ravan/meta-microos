@@ -30,8 +30,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.3"
 
-RPM_NAME = "qemacs-0.3.3-1.9.aarch64.rpm"
-RPM_HASH = "d43c86cae9a779542b7dedcb0404c6409127cd9645ee4541bbcf45df74735dd30006a887c8029861794b45679cfaeec6c3df572abf0fa757c491d3362b121b0a"
+RPM_NAME = "qemacs-0.3.3-3.5.aarch64.rpm"
+RPM_HASH = "a5b3d1b7cbb4d65e9c14fd4cb5cea23b48cc7937ce5e563b4f0d79bdfcb4574a6e7f6a7e2eca80f457a935cd8d94ab7bbd387a77a1b5395f1818157f7833c5cd"
 
 RPROVIDES:${PN} += "qemacs"
 

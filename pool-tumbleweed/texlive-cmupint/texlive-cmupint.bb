@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains various upright integral symbols to match \
 the Computer Modern font."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn54735"
+PV = "2026.226.1.1svn54735"
 
-RPM_NAME = "texlive-cmupint-2023.209.1.1svn54735-54.1.noarch.rpm"
-RPM_HASH = "3f3e984d6c079e99e2bfd0b5f68c9e514a7744e82d44fc023a7ef20a8ead93728d8e2d2ac70b8a0eb8111eda7db743a4d5761a1f5bdaef5639650fb2e67a16a4"
+RPM_NAME = "texlive-cmupint-2026.226.1.1svn54735-60.2.noarch.rpm"
+RPM_HASH = "8e381e3b6daa2dbddc43789d605a068b6b9f7392b2bc540d70d8070974de2203c69165c1f5c9401e4685e92ef22f3c8fae07c0124b1abf751bd383bbaf9f89ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmupint.map \

@@ -3,13 +3,13 @@ DESCRIPTION = "The stock lot module defines lot of products. \
 A lot is by default just a number to tag moves. It is possible to define per product when the lot is required by selecting the type of location involved in the move."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.0.1"
+PV = "7.0.7"
 
-RPM_NAME = "trytond_stock_lot-6.0.1-1.1.noarch.rpm"
-RPM_HASH = "09f404baf7eaf97505940f0d2634f2d869f7533b63d4455163a72a589f794a329ac0b115be6ed36a7e4ea3de617743e8b246e5eb4226f6ca879d79d0545a66b4"
+RPM_NAME = "trytond_stock_lot-7.0.7-1.1.noarch.rpm"
+RPM_HASH = "dc85fd984c09dafb9a294880f138954f2cf9c5bc61e565d121357bf8a3b8dcd08d63bdc8c9f04fa63726266d6d1d6fa05b28d8a9b5e36f1956d7f21e9c1b06e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-trytond-stock-lot \
+RPROVIDES:${PN} += "python3.13dist-trytond-stock-lot \
 python3dist-trytond-stock-lot \
 trytond-stock-lot"
 

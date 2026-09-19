@@ -6,10 +6,10 @@ form processing, jndi, i18n, velocity, etc. Plexus also includes an \
 application server which is like a J2EE application server."
 LICENSE = "MIT"
 
-PV = "1.0~a7"
+PV = "1.3.1"
 
-RPM_NAME = "plexus-resources-1.0~a7-2.7.noarch.rpm"
-RPM_HASH = "35bdb656d13081ad59f80e26016457dfd4d7c35afc6cacd85e08e49ebfd1ea703670b5b6ed801c666c9f92d79efa065052cd17afd6c206df0fd50acc12cb27e5"
+RPM_NAME = "plexus-resources-1.3.1-1.5.noarch.rpm"
+RPM_HASH = "b8a276f7852bb64926c117a00852cba26e1417829423f1ed443782863bbad55dbb787c732f6fa5b94c344837c686b86c3d6869d0c5b971f5fce053cabc2756db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-resources \
@@ -18,7 +18,9 @@ plexus-resources"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.codehaus.plexus-plexus-container-default \
-mvn-org.codehaus.plexus-plexus-utils"
+mvn-javax.inject-javax.inject \
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.codehaus.plexus-plexus-xml \
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

@@ -5,10 +5,10 @@ desktop environments and required to implement cross-DE solutions. \
 This library is used by several XApp applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.6.1"
+PV = "3.2.2"
 
-RPM_NAME = "libxapp1-2.6.1-1.1.aarch64.rpm"
-RPM_HASH = "7e9767afd4747cd92292a88f4b6a025365d27efd6bb0a7743cf1b65bf6b634a87a0273a81e6b4cd6336e8bda937976b685a0717e9bfbf537744085b809b10ed0"
+RPM_NAME = "libxapp1-3.2.2-1.4.aarch64.rpm"
+RPM_HASH = "e3b50b48dd9df3c17c05a976c1f1a3aeae525962cb0961cb4e94f7de9e3f8c9d7d47033a20be7f26ebe8925b07d2589444ab924e89d12cd048512426d1739e2a"
 
 RPROVIDES:${PN} += "libxapp.so.1 \
 libxapp1"

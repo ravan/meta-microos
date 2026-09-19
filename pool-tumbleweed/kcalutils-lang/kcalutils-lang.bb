@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kcalutils"
 DESCRIPTION = "Provides translations for the 'kcalutils' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kcalutils-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "b1d4297ebb13faf3bb4453d5fde322cc90ad2ecd8b11a08869b897c76f91adbadda9cb0d36c64df3070ec03f83404533b3a5ef0dc7fbde04a4da65431357a32a"
+RPM_NAME = "kcalutils-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "4dc6bc24174d4e9a951c65fdd1dbff17d06957b4857aac91b6e7fa558632e15b57f53a5633f3f173996c404ae7c10c200e8ff192e2b6da8c44c4718bf00d70bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcalutils-lang \
 kcalutils-lang-all \
 locale-kcalutils-ar \
+locale-kcalutils-ast \
 locale-kcalutils-az \
 locale-kcalutils-bg \
 locale-kcalutils-bs \
@@ -21,6 +22,7 @@ locale-kcalutils-da \
 locale-kcalutils-de \
 locale-kcalutils-el \
 locale-kcalutils-en-GB \
+locale-kcalutils-eo \
 locale-kcalutils-es \
 locale-kcalutils-et \
 locale-kcalutils-eu \
@@ -28,6 +30,8 @@ locale-kcalutils-fi \
 locale-kcalutils-fr \
 locale-kcalutils-ga \
 locale-kcalutils-gl \
+locale-kcalutils-he \
+locale-kcalutils-hi \
 locale-kcalutils-hr \
 locale-kcalutils-hu \
 locale-kcalutils-ia \

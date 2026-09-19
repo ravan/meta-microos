@@ -12,10 +12,10 @@ minimal example, which can be used as a debugging aid when you \
 encounter errors in your LaTeX documents."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.209.svn32925"
+PV = "2026.226.svn32925"
 
-RPM_NAME = "texlive-dickimaw-2023.209.svn32925-53.1.noarch.rpm"
-RPM_HASH = "7684b3d26398aa33ec8009aecc57be361dee54f27dbc3ba916df306076927206b3d2ce40a5f3a15535859c5c57c765dd44f19b777ebc09826bad41f76b066d34"
+RPM_NAME = "texlive-dickimaw-2026.226.svn32925-59.2.noarch.rpm"
+RPM_HASH = "29be38ff7af1cd8bca94eda732079d5fe3242b4d1e0417f4a77020ba658a4a2387f0aff47d7184d9a6e57fdc5af245c0b1ab0dae354cb27281dd8538275f2776"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dickimaw"

@@ -2,10 +2,10 @@ SUMMARY = "Static library for capstone"
 DESCRIPTION = "Statically linked libcapstone."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.0.2"
+PV = "5.0.6"
 
-RPM_NAME = "libcapstone-devel-static-4.0.2-2.4.aarch64.rpm"
-RPM_HASH = "230753ef8663886e4fee6c5cb68b5e7ec0e9309d5c5d28c25d7a076ea1d685d7b57bb84be608afe03cf99d54952828dfbb99ea271f5deca1391786ab0acfe2e4"
+RPM_NAME = "libcapstone-devel-static-5.0.6-2.3.aarch64.rpm"
+RPM_HASH = "be254662a8080e6f1c205ce21cb242cb8015d97edfc8dacd9857c0b71d6d1c639bb36c9545052025e9e886061bf200b5391fb1f453b37bd820858de551196faf"
 
 RPROVIDES:${PN} += "libcapstone-devel-static"
 

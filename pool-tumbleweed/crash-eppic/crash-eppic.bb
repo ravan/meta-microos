@@ -8,10 +8,10 @@ embedded in any tools that is C friendly. \
 This package provides the extension for the crash utility."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.99.git.1682279748.c294e5b"
+PV = "4.99.git.1773318907.51b15e7"
 
-RPM_NAME = "crash-eppic-4.99.git.1682279748.c294e5b-1.2.aarch64.rpm"
-RPM_HASH = "2f979587460b95986a9219dc5f211eb833d6d955c80ecad17df4340bde1de886e62c90b0a7f92b4531472548d14800ec013c9f9e6e56d5cd06777afc3cfc8364"
+RPM_NAME = "crash-eppic-4.99.git.1773318907.51b15e7-1.4.aarch64.rpm"
+RPM_HASH = "b4045d93237299f8ead170ad29aca82fabde8f6af24a583c7bb4c9d4b57278b9519e33873dc6dfd742b9b6927c28807f31feb3d098a3bad46b7082607eb9ec9a"
 
 RPROVIDES:${PN} += "crash-eppic"
 

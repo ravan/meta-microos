@@ -2,10 +2,10 @@ SUMMARY = "Binary files of lilyglyphs"
 DESCRIPTION = "Binary files of lilyglyphs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn31696"
+PV = "2026.20260301.svn31696"
 
-RPM_NAME = "texlive-lilyglyphs-bin-2023.20230311.svn31696-93.2.aarch64.rpm"
-RPM_HASH = "11eae5e0144620dd44f342898e835937f14f3fcadec5e643e0085b96ed2406584762a4fa36f63bcc2b6bbc1b30a74cf5535223d74efd1b658134de60fc14d729"
+RPM_NAME = "texlive-lilyglyphs-bin-2026.20260301.svn31696-120.4.aarch64.rpm"
+RPM_HASH = "6bb94f5ae10505afcf75fe054b339d5b6980b72c40459dcb500452b240507b01929b65097a25d4cede80bbfa61f4266abfdf82c0bc47883ee902e41c016fd26e"
 
 RPROVIDES:${PN} += "texlive-lilyglyphs-bin"
 

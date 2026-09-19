@@ -2,20 +2,19 @@ SUMMARY = "Haskell hslua-module-version profiling library"
 DESCRIPTION = "This package provides the Haskell hslua-module-version profiling library."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.2.0.1"
 
-RPM_NAME = "ghc-hslua-module-version-prof-1.1.0-1.3.aarch64.rpm"
-RPM_HASH = "c54a439edaadaac64e8ca0446c09f5435d2dc55bb36f8c12babaeae5d55ef5a29e40fbb3c8ef998c20e2d300c6c21122fe79eae7b38f2a9b06e2a38b8016283c"
+RPM_NAME = "ghc-hslua-module-version-prof-1.2.0.1-1.2.aarch64.rpm"
+RPM_HASH = "75084e3f27bb389e0cd265c405e34e94f1afe9905bb3e7aca2456e59d85dd109d065cb1764b8baeeb5317252e58ccb44f46e8b442cad3afe7e84c6fd7849f215"
 
 RPROVIDES:${PN} += "ghc-hslua-module-version-prof \
-ghc-prof-hslua-module-version-1.1.0-C6IULHIw2X5B1pQoolTNUq"
+ghc-prof-hslua-module-version-1.2.0.1-7Ta1Mn5URCJ9Pe3cHjwQh"
 
 RDEPENDS:${PN} += "ghc-hslua-module-version-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
-ghc-prof-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
-ghc-prof-hslua-packaging-2.3.0-4zNLfL9evW33fw96RBrzdD \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-hslua-core-2.3.2.1-GIcwwMIDhKVEx4MlcixfFr \
+ghc-prof-hslua-marshalling-2.3.2-4wJit3DV8Bh1LNaOjZB33o \
+ghc-prof-hslua-packaging-2.4.1-1RYRM22n0e3FXJMrP5sdLA \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

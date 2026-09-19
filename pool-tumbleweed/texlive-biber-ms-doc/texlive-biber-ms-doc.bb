@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biber-ms"
 DESCRIPTION = "This package includes the documentation for texlive-biber-ms"
 LICENSE = "Artistic-2.0 & GPL-2.0-or-later"
 
-PV = "2023.209.4.0_1svn66478"
+PV = "2026.226.4.0_1svn66478"
 
-RPM_NAME = "texlive-biber-ms-doc-2023.209.4.0_1svn66478-54.1.noarch.rpm"
-RPM_HASH = "3b43a7d4c67606e50e4ddd638428e1dc47f477a3022b4b04d456f296fcce8f91a70248ff6b51d4170ebe3273317cd7e4ce2512534df7915143e97ccfb5796fcc"
+RPM_NAME = "texlive-biber-ms-doc-2026.226.4.0_1svn66478-61.2.noarch.rpm"
+RPM_HASH = "0a63174cc0a2674076df8d7408e65f97bb0532863911736725ad43cfd57fef8bd996bc960ff00d495b6ebdfc0004c54dac26edc190e0411a1835f5ca4881551c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biber-ms-doc"

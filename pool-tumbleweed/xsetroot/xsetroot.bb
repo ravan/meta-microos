@@ -3,10 +3,10 @@ DESCRIPTION = "The xsetroot program allows you to tailor the appearance of the \
 background ('root') window on a workstation display running X."
 LICENSE = "MIT"
 
-PV = "1.1.3"
+PV = "1.1.4"
 
-RPM_NAME = "xsetroot-1.1.3-1.2.aarch64.rpm"
-RPM_HASH = "e6226c6a396aa17b660ed87609740bc84310e962b52c9d8aa4b5fc83b72d494f109f5b0dd9b86e15e33ee44dd461390435df4741d77f226b3abde4586b650bcd"
+RPM_NAME = "xsetroot-1.1.4-1.2.aarch64.rpm"
+RPM_HASH = "5f702b50a2a13c59809f56aadb472dfa0ddfcc1310aa6db5e236162f2e2b502a75b2a9c0c62f33b554d38f86b7ffa3cf3e25a9760b0e2434b3273f4a6f50b89b"
 
 RPROVIDES:${PN} += "xsetroot"
 

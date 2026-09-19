@@ -3,21 +3,20 @@ DESCRIPTION = "Cap'n Proto is a binary data interchange format and capability-ba
 RPC system."
 LICENSE = "MIT"
 
-PV = "0.10.4"
+PV = "1.5.0"
 
-RPM_NAME = "capnproto-0.10.4-1.2.aarch64.rpm"
-RPM_HASH = "9d5cbade7413dc8ada53ade33f044319bb5cd84544e87c3cd1dbe18eb4458b7a1162aa8ad325795a9aba28768017f4d3800e9d79f5b180fb50df8ab03bb63cd3"
+RPM_NAME = "capnproto-1.5.0-1.3.aarch64.rpm"
+RPM_HASH = "1a83a2f1f3f39cea9251b7563658bf5f17377969e5e6a224d42956983717261a43fdfd232a7014cdf32017eb831e0ef12f7196b229fd264c741c7567c8b98ab6"
 
 RPROVIDES:${PN} += "capnproto"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
-libcapnp-0-10-4 \
-libcapnp-0.10.4.so \
-libcapnp-json-0.10.4.so \
-libcapnpc-0.10.4.so \
+RDEPENDS:${PN} += "libc.so.6 \
+libcapnp-1-5-0 \
+libcapnp-json.so.1.5.0 \
+libcapnp.so.1.5.0 \
+libcapnpc.so.1.5.0 \
 libgcc-s.so.1 \
-libkj-0.10.4.so \
+libkj.so.1.5.0 \
 libstdc++.so.6"
 
 inherit rpm

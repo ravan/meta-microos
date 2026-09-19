@@ -3,10 +3,10 @@ DESCRIPTION = "This library features TrueType fonts for open source projects. Th
 version also contains an autohinter for producing improved output."
 LICENSE = "FTL & GPL-2.0-only"
 
-PV = "2.13.1"
+PV = "2.14.3"
 
-RPM_NAME = "libfreetype6-2.13.1-1.1.aarch64.rpm"
-RPM_HASH = "ca90c529eae02021cfe9ecd665a4240ba56c5c081c192fb37f029d7d7c87de5281fb88d4572a344d1991f5f2de20c05eba62d0e048c6008b87c2bd77180025d4"
+RPM_NAME = "libfreetype6-2.14.3-1.2.aarch64.rpm"
+RPM_HASH = "2c64e54581f9c63b08c7b7cacf5414f00e92be7b6adde7b0da87d788073d7b17e97b091c90963317784e2ecacc74f5e2d232d3c7b8f0e45e63cc58470d3fe7b0"
 
 RPROVIDES:${PN} += "freetype2 \
 libfreetype.so.6 \

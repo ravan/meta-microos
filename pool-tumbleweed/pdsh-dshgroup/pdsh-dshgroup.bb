@@ -2,10 +2,10 @@ SUMMARY = "Dsh plugin for pdsh"
 DESCRIPTION = "Plugin for pdsh to determine nodes from dsh-style 'group' files"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.34"
+PV = "2.36"
 
-RPM_NAME = "pdsh-dshgroup-2.34-12.1.aarch64.rpm"
-RPM_HASH = "337da0c3fe2f011b47cafbe70656fd4ffa2b3e8ca207829a22d4ec0ad2f2d736f05caf2506ef8018d91ba679815dbd31c213ae67798f50df1f24785aab7bff09"
+RPM_NAME = "pdsh-dshgroup-2.36-1.2.aarch64.rpm"
+RPM_HASH = "91d17b351bdd56b061ba05dd09af8f124e570dedb6fc138a817988453bb1173e91a8340459c430f89acf164a7af17056b02171c7c63e873f05bb30eaed06a9b9"
 
 RPROVIDES:${PN} += "pdsh-dshgroup"
 

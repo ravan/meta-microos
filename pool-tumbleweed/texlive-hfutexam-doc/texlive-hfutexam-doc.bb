@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hfutexam"
 DESCRIPTION = "This package includes the documentation for texlive-hfutexam"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn66550"
+PV = "2026.226.1.10svn75068"
 
-RPM_NAME = "texlive-hfutexam-doc-2023.209.1.7svn66550-54.2.noarch.rpm"
-RPM_HASH = "afd1c2ac7d795c86bac1b8200a09bb817c55017076aee975451b531aac03751093a20d0815f64b935d82278ecff4e495de601226dc391d79e692407fd27414b3"
+RPM_NAME = "texlive-hfutexam-doc-2026.226.1.10svn75068-60.4.noarch.rpm"
+RPM_HASH = "bf63711bef3332ecc481a5c0baa2d2ec67ba01c8d5d979753b8c0572dc3c90eff69580163b79aa9bb912707927ea7adbdf2a00905996df3758aa4d9286d248e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hfutexam-doc"

@@ -7,10 +7,12 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.13.0"
 
-RPM_NAME = "libantlr4-runtime-devel-4.13.0-2.1.aarch64.rpm"
-RPM_HASH = "0f0e45ce250f4ce293eb3756b96df2814b943f5dd0eb447d98da652bd5dcef38b903b596a3ff26517f1c3ee676470cff0eb5ae3824a839da292887fe26e70e71"
+RPM_NAME = "libantlr4-runtime-devel-4.13.0-7.5.aarch64.rpm"
+RPM_HASH = "3e53f3d2cbb9e6e2b8485ad90a8a251460ca0f87ef2afa093c15ef264387e0c07490d22136daafe1b96cc7780345738369ef2f1d4b7d378c10d127bf71a8636b"
 
-RPROVIDES:${PN} += "libantlr4-runtime-devel"
+RPROVIDES:${PN} += "cmake-antlr4-generator \
+cmake-antlr4-runtime \
+libantlr4-runtime-devel"
 
 RDEPENDS:${PN} += "libantlr4-runtime4-13-0 \
 utfcpp-devel"

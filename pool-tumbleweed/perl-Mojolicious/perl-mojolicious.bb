@@ -8,10 +8,10 @@ first class Unicode support and much more for you to discover. \
 Take a look at our excellent documentation in Mojolicious::Guides!"
 LICENSE = "Artistic-2.0"
 
-PV = "9.33"
+PV = "9.490.0"
 
-RPM_NAME = "perl-Mojolicious-9.33-1.2.noarch.rpm"
-RPM_HASH = "465f58267a4ac3c1ddfbd38fbe0ad7f2c0f58f7ca60e6cc1b53da4ac41765508f53ef5e609e05c65173cf9e9874e39315cb8ce3444121d19e20f8eb2e182186d"
+RPM_NAME = "perl-Mojolicious-9.490.0-1.1.noarch.rpm"
+RPM_HASH = "dc3c631b6c4adc82d6dbd37e849aa3493971e71e4150bdc3fa69bd46abc74fe49c202091552733454e46b25d7d57d54ceb84b03db2c8341e03dbcd809fc89425"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo \
@@ -19,6 +19,7 @@ perl-Mojo--Asset \
 perl-Mojo--Asset--File \
 perl-Mojo--Asset--Memory \
 perl-Mojo--Base \
+perl-Mojo--BaseUtil \
 perl-Mojo--ByteStream \
 perl-Mojo--Cache \
 perl-Mojo--Collection \
@@ -49,7 +50,6 @@ perl-Mojo--JSON \
 perl-Mojo--JSON--Pointer \
 perl-Mojo--Loader \
 perl-Mojo--Log \
-perl-Mojo--Log---Capture \
 perl-Mojo--Message \
 perl-Mojo--Message--Request \
 perl-Mojo--Message--Response \
@@ -59,6 +59,7 @@ perl-Mojo--Promise \
 perl-Mojo--Reactor \
 perl-Mojo--Reactor--EV \
 perl-Mojo--Reactor--Poll \
+perl-Mojo--SSE \
 perl-Mojo--Server \
 perl-Mojo--Server--CGI \
 perl-Mojo--Server--Daemon \
@@ -67,7 +68,6 @@ perl-Mojo--Server--Morbo \
 perl-Mojo--Server--Morbo--Backend \
 perl-Mojo--Server--Morbo--Backend--Poll \
 perl-Mojo--Server--PSGI \
-perl-Mojo--Server--PSGI---IO \
 perl-Mojo--Server--Prefork \
 perl-Mojo--Template \
 perl-Mojo--Transaction \
@@ -81,7 +81,6 @@ perl-Mojo--UserAgent--Proxy \
 perl-Mojo--UserAgent--Server \
 perl-Mojo--UserAgent--Transactor \
 perl-Mojo--Util \
-perl-Mojo--Util---Guard \
 perl-Mojo--WebSocket \
 perl-Mojolicious \
 perl-Mojolicious--Command \
@@ -129,7 +128,7 @@ perl-Test--Mojo \
 perl-ojo"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-IO--Socket--IP \
 perl-Sub--Util"
 

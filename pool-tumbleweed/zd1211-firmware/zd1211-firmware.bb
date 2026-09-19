@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "zd1211-firmware-1.5-2.7.noarch.rpm"
-RPM_HASH = "d89d47dd60d46f7a942804e6212b89102d4070ce41d66ba8c6c210a0f19a409cdcaf13084989b20776f93e2b73a89fcedae220948ac1897d2438619cade2aae1"
+RPM_NAME = "zd1211-firmware-1.5-2.15.noarch.rpm"
+RPM_HASH = "ca84e065e47a937d244bcaf24ef4b204eccec9a212b6f6cf486538172167f1e9017b879c5a28bff5b39353211d0a5a96488665c590937c42c364c23f48d84aa7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-zd1211/zd1211-ub \

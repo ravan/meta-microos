@@ -2,10 +2,10 @@ SUMMARY = "Binary files of luafindfont"
 DESCRIPTION = "Binary files of luafindfont"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn61207"
+PV = "2026.20260301.svn61207"
 
-RPM_NAME = "texlive-luafindfont-bin-2023.20230311.svn61207-93.2.aarch64.rpm"
-RPM_HASH = "36502fc05c647488156179a89df34e596bfbde9f1a10954b57fff102524b753d511024ffee26a20a3e52fe07e3b22cf8655cbbd744ecbdb9f8f580b3d24e2de6"
+RPM_NAME = "texlive-luafindfont-bin-2026.20260301.svn61207-120.4.aarch64.rpm"
+RPM_HASH = "63cd8c1a7e433bf106faf5e08fca5b05d90ee1c1892a7d9ca518baf5ea4687b9e6c436c24113870cc174d265b9f3c76bc1cacc7aab156dc82ffc84bf2f28e53b"
 
 RPROVIDES:${PN} += "texlive-luafindfont-bin"
 

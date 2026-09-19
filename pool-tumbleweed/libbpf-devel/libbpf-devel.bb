@@ -2,10 +2,10 @@ SUMMARY = "Development files for libbpf"
 DESCRIPTION = "libbpf is a C library which provides API for managing eBPF programs and maps."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.2.2"
+PV = "1.7.0"
 
-RPM_NAME = "libbpf-devel-1.2.2-1.1.aarch64.rpm"
-RPM_HASH = "08298b4ead2e3487546356e1a14dbc36e9bd6ee1f36482cef8c434fd29c7563ad293276063af10902f0027d941fe2ab324201aa891363868f0efa34529c9ab9c"
+RPM_NAME = "libbpf-devel-1.7.0-2.1.aarch64.rpm"
+RPM_HASH = "f29b7ef71c149fdddd9fbe2ad4d63d3a7993aa5965d38f22959f2bcf13127bbfc4af19d3e2f7d4840b6693d86160dc56a7679998284cbc068754fcd7affafb60"
 
 RPROVIDES:${PN} += "libbpf-devel \
 pkgconfig-libbpf"

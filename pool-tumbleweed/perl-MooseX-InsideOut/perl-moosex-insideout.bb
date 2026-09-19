@@ -7,15 +7,15 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.106"
 
-RPM_NAME = "perl-MooseX-InsideOut-0.106-9.27.noarch.rpm"
-RPM_HASH = "2afc20f584409392becc78725ae1bb9e73d268f736037ef48579dcd3f21bcd0121e839702b921bdac595e3a92e1ced7f320613d8db00c1cbff272e19b815456f"
+RPM_NAME = "perl-MooseX-InsideOut-0.106-9.41.noarch.rpm"
+RPM_HASH = "9c88e08e1928348df9610c6ca5d8737c38f6983c4d66e4b01ad307cdea62c96039129e50ee7b7d00bc4edd9a8d6e8a4736493e14c5b5209126321f7f3612e2e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--InsideOut \
 perl-MooseX--InsideOut--Role--Meta--Instance \
 perl-MooseX-InsideOut"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--MOP \
 perl-Hash--Util--FieldHash--Compat \
 perl-Moose \

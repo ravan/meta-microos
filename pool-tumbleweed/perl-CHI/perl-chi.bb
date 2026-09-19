@@ -12,15 +12,13 @@ adhering to the basic Cache API but adding new features and addressing \
 limitations in the Cache::Cache implementation."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.61"
+PV = "0.610.0"
 
-RPM_NAME = "perl-CHI-0.61-1.10.noarch.rpm"
-RPM_HASH = "794c64a97415cfc536da899a5838022601f8eeacf3da858652f9d99f039e2390ad53ba3f0a13d12ede1df0e74910607be03801891efc351da2d84a98fafa6652"
+RPM_NAME = "perl-CHI-0.610.0-1.7.noarch.rpm"
+RPM_HASH = "1357236dba1207d4a3be1fa8324b8200e4aec0cfab8f28565bc7042d7cac75e5ed95e5e2633a078b53b14157629faff30286e65ec4b79be8acd51de7e96444d2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl-Bar \
-perl-Baz \
-perl-CHI \
+RPROVIDES:${PN} += "perl-CHI \
 perl-CHI--CacheObject \
 perl-CHI--Constants \
 perl-CHI--Driver \
@@ -36,51 +34,11 @@ perl-CHI--Driver--Role--HasSubcaches \
 perl-CHI--Driver--Role--IsSizeAware \
 perl-CHI--Driver--Role--IsSubcache \
 perl-CHI--Driver--Role--Universal \
-perl-CHI--Serializer--JSON \
-perl-CHI--Serializer--Storable \
 perl-CHI--Stats \
-perl-CHI--Test \
-perl-CHI--Test--Class \
-perl-CHI--Test--Driver--NonMoose \
-perl-CHI--Test--Driver--Readonly \
-perl-CHI--Test--Driver--Role--CheckKeyValidity \
-perl-CHI--Test--Driver--Writeonly \
-perl-CHI--Test--Util \
 perl-CHI--Types \
-perl-CHI--Util \
-perl-CHI--t--Bugs \
-perl-CHI--t--Config \
-perl-CHI--t--Constants \
-perl-CHI--t--Driver \
-perl-CHI--t--Driver--CacheCache \
-perl-CHI--t--Driver--FastMmap \
-perl-CHI--t--Driver--File \
-perl-CHI--t--Driver--File--BadTempDriver \
-perl-CHI--t--Driver--File--DepthZero \
-perl-CHI--t--Driver--File--NoTempDriver \
-perl-CHI--t--Driver--Memory \
-perl-CHI--t--Driver--NonMoose \
-perl-CHI--t--Driver--RawMemory \
-perl-CHI--t--Driver--Subcache \
-perl-CHI--t--Driver--Subcache--l1-cache \
-perl-CHI--t--Driver--Subcache--mirror-cache \
-perl-CHI--t--GetError \
-perl-CHI--t--Initialize \
-perl-CHI--t--Null \
-perl-CHI--t--RequiredModules \
-perl-CHI--t--Sanity \
-perl-CHI--t--SetError \
-perl-CHI--t--Subcache \
-perl-CHI--t--Subclass \
-perl-CHI--t--Subclass--Driver--HasUnsupported \
-perl-CHI--t--Util \
-perl-DummySerializer \
-perl-Foo \
-perl-My--CHI \
-perl-My--CHI--Memo \
-perl-My--CHI--Subclass"
+perl-CHI--Util"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Carp--Assert \
 perl-Class--Load \
 perl-Data--UUID \

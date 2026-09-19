@@ -2,10 +2,10 @@ SUMMARY = "Pidgin integration for the Caja file manager"
 DESCRIPTION = "This package provides Pidgin integration to the Caja file manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-extension-sendto-pidgin-1.26.1-2.3.aarch64.rpm"
-RPM_HASH = "42ba45d02932d3576338eaae1ca19c2622d6ef998ed343e8cb9347d058ea812a9e98556439aa2cc2e9dec3197629d943b1c4e7fee8bef1560a1f515fecb0d984"
+RPM_NAME = "caja-extension-sendto-pidgin-1.28.0-2.11.aarch64.rpm"
+RPM_HASH = "713cc66efa34bbf3c0be0f3c33a5bc7c25c21b464dc830779e6ce9760d211e22fa627f15d6785c8690bd2e31f47610e0191e6b91f7ea17013f4c4d5879eb2d36"
 
 RPROVIDES:${PN} += "caja-extension-sendto-pidgin \
 caja-sendto-pidgin \

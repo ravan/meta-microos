@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-emerald-devel-0.8.18-2.14.aarch64.rpm"
-RPM_HASH = "b01b88c0e8e6080d381c136bdf17d77e76d188fccd7653563f070866f92a9824fbd95e27ad77ba0b60ae08aef25c3034eaa59ece4e87154cdee16bf2fe664289"
+RPM_NAME = "compiz-emerald-devel-0.8.18-2.25.aarch64.rpm"
+RPM_HASH = "96ba60a5dc1bc0d5382514e2438408e0df0ceaf6562381123776cf18105031c4be4b8b09970a456731d8306e80244dc75e6123b6c0cd0ccd90730df6b46836ce"
 
 RPROVIDES:${PN} += "compiz-emerald-devel \
 pkgconfig-emeraldengine"

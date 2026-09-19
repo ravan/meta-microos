@@ -2,10 +2,10 @@ SUMMARY = "Asynchronous Python 3 Bindings for Qt 5"
 DESCRIPTION = "A QML Plugin that provides access to a Python 3 interpreter from QML."
 LICENSE = "ISC"
 
-PV = "1.5.9"
+PV = "1.6.2"
 
-RPM_NAME = "python-pyotherside-1.5.9-1.28.aarch64.rpm"
-RPM_HASH = "f61ebfa0c89a15d9c50d4c507689bb7d9671d137ecb1329ceb9cc61b01bbaac73dedf5b91b665335a66f194c22fa22d80003228749e0093ac3dcb7806918902b"
+RPM_NAME = "python-pyotherside-1.6.2-1.7.aarch64.rpm"
+RPM_HASH = "d6ff0be65cd587559a96d944580280b8e19225afecc11b95e9095b7293e9443a2513b41de9134101f44475f756995e7dadc6e69746331b6cbe3de621416a3de6"
 
 RPROVIDES:${PN} += "libpyothersideplugin.so \
 pyotherside \
@@ -21,7 +21,7 @@ libQt5Quick.so.5 \
 libQt5Svg.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libstdc++.so.6"
 
 inherit rpm

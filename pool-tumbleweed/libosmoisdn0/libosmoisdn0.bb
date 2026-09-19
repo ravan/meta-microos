@@ -5,17 +5,18 @@ inside the Osmocom family of projects. It includes an I.460 \
 sub-channel multiplex and a generic LAPD core."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.14.2"
 
-RPM_NAME = "libosmoisdn0-1.8.0-1.2.aarch64.rpm"
-RPM_HASH = "1c8b8ffe3d7225cfd7f2ac065fde7f592b54a207382b26ef818eb304b9461638ff38138f1993075f80301a0e541fc4b9812ac8b5cb076ea77cb4586b228fd51a"
+RPM_NAME = "libosmoisdn0-1.14.2-1.1.aarch64.rpm"
+RPM_HASH = "9919efc4ec845ef7886f8dcbe7390e44ceeff80f1b6b2eecda49aa619afe64839614ab742861aaddcb3f41eab9757183c5532c2147ae77eeaf7cd7513be7894a"
 
 RPROVIDES:${PN} += "libosmoisdn.so.0 \
 libosmoisdn0"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
-libosmocore.so.20 \
+libosmocore.so.22 \
 libtalloc.so.2"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.6"
 
-RPM_NAME = "fifth-leg-font-0.6-25.17.noarch.rpm"
-RPM_HASH = "57aeb5ec541ad3773e13c20616127641950a35e39c23658f2988b0ab7106f3a35909ce44a14278313a9030d4a1f61370f0c3cccb942e3abb2e3ef376e88914a6"
+RPM_NAME = "fifth-leg-font-0.6-25.25.noarch.rpm"
+RPM_HASH = "b691b77e2b2d5ccfa71ecd70582696e43090e4c45ee13a3f6b4842833597856038096491ee1f10f1257b67ee0dc91fc1fe2a454b9c6f59d10c8adfef0bfcd0e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fifth-leg-font"

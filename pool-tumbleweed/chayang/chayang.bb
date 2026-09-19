@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "git20230209.61ad53b"
 
-RPM_NAME = "chayang-git20230209.61ad53b-1.1.aarch64.rpm"
-RPM_HASH = "2f9a32974607284138f36b266bdad2ac1ffbac333fe5a3bd837acc72a80fd36ead9a8a12906c83d08bce53a93393f5d41da7db6a34b1a41a0887e5f606e94baf"
+RPM_NAME = "chayang-git20230209.61ad53b-1.12.aarch64.rpm"
+RPM_HASH = "dca265bacd8a0c1fdfe834af796cb9ce2593e4ce58f16bfc70131d16eefaaafa5c078efca0dd1232da7a5f37560627b70ba3b7947ea7267d96151b0d1b66e3e1"
 
 RPROVIDES:${PN} += "chayang"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-l3kernel"
 DESCRIPTION = "This package includes the documentation for texlive-l3kernel"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66094"
+PV = "2026.226.svn77438"
 
-RPM_NAME = "texlive-l3kernel-doc-2023.209.svn66094-56.1.noarch.rpm"
-RPM_HASH = "0c13a44d1715e89eb7709c216ca8d88fea5e02c9081dca414f7efbc975213ef53f02e40095dad9aa317f276a78ce14bba59471d5682ef17bb1e0c230793e9e93"
+RPM_NAME = "texlive-l3kernel-doc-2026.226.svn77438-63.2.noarch.rpm"
+RPM_HASH = "785d2a57ad484488a03ca1417ff3a9dea4ac8225e3ef8c91f3e9390598f6c0b6cb89092ee16d3b9d802bbdd808f0e2b48983bae5d9e08ff219868774330b4eca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-l3kernel-doc"

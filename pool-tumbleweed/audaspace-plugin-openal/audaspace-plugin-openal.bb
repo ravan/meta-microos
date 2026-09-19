@@ -3,17 +3,17 @@ DESCRIPTION = "Audaspace (pronounced 'outer space') is a high-level audio librar
 This package contains the OpenAL plugin"
 LICENSE = "Apache-2.0"
 
-PV = "1.4.0"
+PV = "1.10.0"
 
-RPM_NAME = "audaspace-plugin-openal-1.4.0-1.5.aarch64.rpm"
-RPM_HASH = "ed3df1297a99cc0abf0a82c15a9b0406c9d7845579d49b9815d4c9d752465f901b3799d270e230478e306b280f22da5b0aa66ac28ec6e7365b078bf06c8224fc"
+RPM_NAME = "audaspace-plugin-openal-1.10.0-1.1.aarch64.rpm"
+RPM_HASH = "680c55d5298723e9464437bd60ab5c83d082046a88ffcbe370b85453a21af2eceda94d879a288ea9d0a1307cda7af1588267eff5961c47ed1acd9edb44b5d71c"
 
 RPROVIDES:${PN} += "audaspace-deviceplugin \
 audaspace-plugin-openal \
 libaudopenal.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libaudaspace.so.1.4 \
+libaudaspace.so.1.10 \
 libc.so.6 \
 libgcc-s.so.1 \
 libopenal.so.1 \

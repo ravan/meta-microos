@@ -8,16 +8,16 @@ msitools can be used for packaging and deployment of \
 cross-compiled Windows applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.102"
+PV = "0.106"
 
-RPM_NAME = "msitools-devel-0.102-1.1.aarch64.rpm"
-RPM_HASH = "44759370926dca2a93ef6ce1884f8752f6310d55168591c6715d99b7dfef3b58cf8a3a4e65a65713788588d802acd74f9a7fdee7331b6cb8d43608a3a7da9a38"
+RPM_NAME = "msitools-devel-0.106-1.7.aarch64.rpm"
+RPM_HASH = "6304aef55ed4834571d661b1d7bc77b40b04c0c311aef2a34a74541a2e0f68c52deb8a28c6c8972ae1d93f98c50cf8e536f3a036cc1bc9b43d40485002b83bb9"
 
 RPROVIDES:${PN} += "msitools-devel \
 pkgconfig-libmsi-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libmsi0 \
+libmsi-1-0-0 \
 msitools \
 pkgconfig-gio-2.0 \
 typelib-1-0-Libmsi-1-0"

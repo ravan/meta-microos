@@ -9,10 +9,10 @@ framed/shaded matter. There is also a command \\MakeFramed to \
 make your own framed-style environments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.96svn26789"
+PV = "2026.226.0.0.96svn77682"
 
-RPM_NAME = "texlive-framed-2023.209.0.0.96svn26789-53.1.noarch.rpm"
-RPM_HASH = "24e15c34c90622ac2d21272868ebdb69498169d611d530009d9a7982e9939d848f1f3ca1b55c9af93f668f148f0fb44cb065382b728cc36ffe030db6c96deca2"
+RPM_NAME = "texlive-framed-2026.226.0.0.96svn77682-60.2.noarch.rpm"
+RPM_HASH = "9512c7db5c64955e31df1e25f53b120fff12148ffe991e6e0a47c6f2e3f727447733b328bc048447891feff9063fd86ad20124f14fafd918971e58fdafcb237d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-framed.sty \

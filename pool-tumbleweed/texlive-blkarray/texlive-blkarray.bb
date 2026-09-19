@@ -10,10 +10,10 @@ main array. What's more, the \\footnote command works inside a \
 blockarray."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.07svn36406"
+PV = "2026.226.0.0.07svn77682"
 
-RPM_NAME = "texlive-blkarray-2023.209.0.0.07svn36406-53.1.noarch.rpm"
-RPM_HASH = "a3b338eabb9301fb0aa616017c7ffbd59bc9e9cfbbe826ea7534f91a72cca648c4285fbc945a50294ad12409072981d25557b478d454e1a31b10ed803604c039"
+RPM_NAME = "texlive-blkarray-2026.226.0.0.07svn77682-59.2.noarch.rpm"
+RPM_HASH = "9639644decdd608a5319878ab112f43a19b64b6879875ba73ef24070c37bb0444a29a2b114945615192c4765090084f1703b8cdabad04a7a63de8141d9b344c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blkarray.sty \

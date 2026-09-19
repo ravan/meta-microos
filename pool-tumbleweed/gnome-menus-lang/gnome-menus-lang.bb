@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-menus"
 DESCRIPTION = "Provides translations for the 'gnome-menus' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.36.0"
+PV = "3.38.1"
 
-RPM_NAME = "gnome-menus-lang-3.36.0-3.4.noarch.rpm"
-RPM_HASH = "87e76d1cfb645d13a114cf2249b701e50518cb052d6f8514a8446a21161af7d84d53182144f975c8a69cf2d9982dc727f1776113cf42f213642f05ae6434b035"
+RPM_NAME = "gnome-menus-lang-3.38.1-1.6.noarch.rpm"
+RPM_HASH = "0b9b25fc2402c51bf8ce140c2b1ec769d4f8b568f3f9a3a911146597b7e8c998b502fc29642c99909b02b11c91ed93a2697ac2fb64afc874aefb4bc836e4a4cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-menus-lang \

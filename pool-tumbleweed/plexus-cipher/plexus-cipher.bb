@@ -2,10 +2,10 @@ SUMMARY = "Plexus Cipher: encryption/decryption Component"
 DESCRIPTION = "Plexus Cipher: encryption/decryption Component"
 LICENSE = "Apache-2.0"
 
-PV = "2.0"
+PV = "2.1.0"
 
-RPM_NAME = "plexus-cipher-2.0-2.8.noarch.rpm"
-RPM_HASH = "b86dbd0b7842e3b4ac5196eb874fb05f776bf0fd8b978d2f84db0bf87309efd7b73f4b549e14c0ec28abcf9155680fc3aee1f49a9772f88c1b67cc3f2240d6ec"
+RPM_NAME = "plexus-cipher-2.1.0-2.5.noarch.rpm"
+RPM_HASH = "7d6263460d0cfd4315780caf7cd51455a9bcb3f327f2b09da1379a21d6191323490c2837eef738cbb23b79600acbd4edc2dc9620bf9a4941e91898b9f1275790"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-cipher \

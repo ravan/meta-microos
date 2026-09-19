@@ -3,10 +3,10 @@ DESCRIPTION = "This package allows adding a custom symbol at the end of an \
 environment (e.g. theorems, definitions, remarks)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.0.0.2svn62164"
+PV = "2026.226.0.0.2svn62164"
 
-RPM_NAME = "texlive-atendofenv-2023.209.0.0.2svn62164-54.1.noarch.rpm"
-RPM_HASH = "e192a47ed003618b2733a4b73b55669e945067a4e8e6a7cc6bd73785320a1cedd46480ea2e94f64f453479236dabf398008bacb0311998372d47d5bf8ea028eb"
+RPM_NAME = "texlive-atendofenv-2026.226.0.0.2svn62164-60.2.noarch.rpm"
+RPM_HASH = "92025750aa55bf7f7569cd1f6a1e2e48127f935c5de6bf962e305e3495f250f063d953763f759c06cedd00c8db1835d8440960733e8d05b26002184358caecd1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-atendofenv.sty \

@@ -2,14 +2,15 @@ SUMMARY = "MPC multiple-precision complex library development files"
 DESCRIPTION = "MPC multiple-precision complex library development files."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.3.1"
+PV = "1.4.1"
 
-RPM_NAME = "mpc-devel-1.3.1-1.5.aarch64.rpm"
-RPM_HASH = "3a3c4c43d6a0f96d526622f180e05a7567d82d555305c4a030f9ec43fdd0e37d6b3f09b41ea4ac3fa5848f52c4f76c06c23e3d96e5a91f097ae47a5ee90d3ac2"
+RPM_NAME = "mpc-devel-1.4.1-1.3.aarch64.rpm"
+RPM_HASH = "658dd041cc6aff64a0c81dd55dec7fa3ec231508052ed1bc8b40be8c7e59b10bab41cb804ddadb261274f96a2a6294b8d1e5b92d57d202e7d37c2bf6ac829ef8"
 
-RPROVIDES:${PN} += "mpc-devel"
+RPROVIDES:${PN} += "mpc-devel \
+pkgconfig-mpc"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmpc3 \
 pkgconfig-gmp \
 pkgconfig-mpfr"

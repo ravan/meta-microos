@@ -10,15 +10,16 @@ The module provide a single function: \
 Returns the absolute path to the Mozilla's CA cert bundle PEM file."
 LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later"
 
-PV = "20230807.0.0"
+PV = "20250602.0.0"
 
-RPM_NAME = "perl-Mozilla-CA-20230807.0.0-1.1.noarch.rpm"
-RPM_HASH = "6aa264fb461a56e20911cb35b9dd60902fb2ec27f1a23fbc6194dd74267c1fdf63f07aca4d0d1c6451ea175fa6772396ee405fb119a2721a088308b7eaf0c7cd"
+RPM_NAME = "perl-Mozilla-CA-20250602.0.0-1.7.noarch.rpm"
+RPM_HASH = "f04e5aaeaf5affeca88fab29c29ab33ec9ee0fd82a9dbd123d3453d8b7ab08e1135565fbf160b405ad75ef065077cbcce2a2f28e89b16697b1191550e58b1ffe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mozilla--CA \
 perl-Mozilla-CA"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "ca-certificates-mozilla \
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

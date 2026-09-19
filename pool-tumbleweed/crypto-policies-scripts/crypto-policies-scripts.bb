@@ -8,13 +8,14 @@ The package also provides a tool fips-mode-setup, which can be used \
 to enable or disable the system FIPS mode."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "20230614.5f3458e"
+PV = "20250714.cd6043a"
 
-RPM_NAME = "crypto-policies-scripts-20230614.5f3458e-2.1.noarch.rpm"
-RPM_HASH = "95977bce7e10b90ada6bbaacaa6ba99f567e0af154164d72260242bb33f0fd425cbb345ab072f2e8c4b3949e2f01090d1ce31bcb84529cba63c85d163fb901bc"
+RPM_NAME = "crypto-policies-scripts-20250714.cd6043a-5.2.noarch.rpm"
+RPM_HASH = "0382702a3e329ca511549e92288d810299923139aeab41f7ed1e1bc4a1438bb3afe5d2f0cab65f589b484da768b16e2fefd1692d180154fbc2d69bace0c54e3d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "crypto-policies-scripts"
+RPROVIDES:${PN} += "crypto-policies-scripts \
+fips-mode-setup"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \

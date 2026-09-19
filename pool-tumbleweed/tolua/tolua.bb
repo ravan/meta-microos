@@ -9,12 +9,12 @@ Using Lua-5.0 API and tag method facilities, the current version \
 automatically maps C/C++ constants, external variables, functions, \
 namespace, classes, and methods to Lua. It also provides \
 facilities to create Lua modules."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2.4"
 
-RPM_NAME = "tolua-5.2.4-4.3.aarch64.rpm"
-RPM_HASH = "0b9820e839600e3d485dcc4a5f1b40237e127ecf9cfb1440e478f1f0216b2d6600b1ef111867a288c6e6a1222ea39a96f01aa85e310cdc1e3bcf4907e8739f4b"
+RPM_NAME = "tolua-5.2.4-5.9.aarch64.rpm"
+RPM_HASH = "c12255df137240d51513f396a9861c8892568e682d8b8996eedf4d320d132aadad2fc8e0d87a39309b1fd109c0420e49efe6cbe41ebceff527e7da996f4ce168"
 
 RPROVIDES:${PN} += "tolua"
 

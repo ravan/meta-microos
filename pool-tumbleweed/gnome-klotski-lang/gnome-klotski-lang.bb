@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-klotski"
 DESCRIPTION = "Provides translations for the 'gnome-klotski' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.38.2"
+PV = "3.38.2+47"
 
-RPM_NAME = "gnome-klotski-lang-3.38.2-1.14.noarch.rpm"
-RPM_HASH = "f279713a3677b528e0d54c4e8852969f807d95c15bc2ac92073dd005913cdd187956baa637fcb8a1a56fe7b26e9c376c3bd8331776eb07adb7ac5b6504cd0918"
+RPM_NAME = "gnome-klotski-lang-3.38.2+47-1.3.noarch.rpm"
+RPM_HASH = "675a3be778a0a99f7703ccbfd5eeca353d9f732f2647b85fd1647f64dca199cef4c714675cf7cc390d0e1501e056971dfcfd92759cbab32c1bd8c5dad26c3752"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-klotski-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lcd"
 DESCRIPTION = "This package includes the documentation for texlive-lcd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn16549"
+PV = "2026.226.0.0.3svn16549"
 
-RPM_NAME = "texlive-lcd-doc-2023.209.0.0.3svn16549-55.1.noarch.rpm"
-RPM_HASH = "77966c339d3ba3cbbf10ade5e62e5808dd13eebee48be7b759399936971c916801c39caa9a129b3e288b504414e48b1a89a2b8256f3db6b3dcc3a97071387c11"
+RPM_NAME = "texlive-lcd-doc-2026.226.0.0.3svn16549-61.2.noarch.rpm"
+RPM_HASH = "90e8bdf58be4c114a0847e4e041ea658c8d058c3be0fce8b8f85fb1bd1cd5e90c1726847287d5160d7f8dcf199584278d3d96b8576e21bafda361ffd3ba9ec27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lcd-doc"

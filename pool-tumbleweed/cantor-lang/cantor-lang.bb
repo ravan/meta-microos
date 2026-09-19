@@ -2,16 +2,15 @@ SUMMARY = "Translations for package cantor"
 DESCRIPTION = "Provides translations for the 'cantor' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "cantor-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "7724c098df8527303c6d00dd73715c15ddab80e237d6e56dad16bbe1ebd9173993b289d3b5a7eb4b6b18988054e45be2be399289dcd731e87b66ff45c37fb8b4"
+RPM_NAME = "cantor-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "6def752ccc29c888b7741f8e1bb4f2e6df4e78b5ce4f5fb74b1f5ea1feb4ec37040cd1f952d57ce915ad4b4ba2f66d8bed29e8b4192266523daa8f62c91592c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cantor-lang \
 cantor-lang-all \
 locale-cantor-ar \
-locale-cantor-bg \
 locale-cantor-bs \
 locale-cantor-ca \
 locale-cantor-ca@valencia \
@@ -28,6 +27,8 @@ locale-cantor-fi \
 locale-cantor-fr \
 locale-cantor-ga \
 locale-cantor-gl \
+locale-cantor-he \
+locale-cantor-hi \
 locale-cantor-hr \
 locale-cantor-hu \
 locale-cantor-ia \

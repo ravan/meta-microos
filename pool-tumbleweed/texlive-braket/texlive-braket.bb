@@ -7,10 +7,10 @@ If the package finds itself operating under e-tex, it uses the \
 extended primitive \\middle for more reliable results"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn17127"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-braket-2023.209.svn17127-53.1.noarch.rpm"
-RPM_HASH = "bc0611982dec55409334c4e057df6c818ad2cba7d7f3906aa7926e6e7be59df1e2cb92b6d96a7a3f529122e47ecc67d96af05390e7f44e653920cc14bd25b42c"
+RPM_NAME = "texlive-braket-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "f1eee26322f51fa6cd1de5a96cc8b735f63c6afc845bd5da21ace4a85c11d24952a48ffddad800636d7ce0fa1ad3a61c1cc0b71f4ebd70b3edccae14d7edf1da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-braket.sty \

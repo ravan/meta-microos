@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "libinfinity-0_7-0-0.7.2-4.7.aarch64.rpm"
-RPM_HASH = "a38a841b088bf86043ab380caf29cbfbf25b0a72ef5d4da06f70e05bef8aa21fdc228ea123600e3988afe51f93bae7dd8ba102897d7883c8a0d88b4f17e34c6d"
+RPM_NAME = "libinfinity-0_7-0-0.7.2-4.20.aarch64.rpm"
+RPM_HASH = "c09af0d2c55b3c416c825db0456eb55df1c94aa2514a3e51b85ea54ac2bb56a547a54b70ce1fc8ef0e2d11fa011ae3473544b1528f7a66ab2292ffd1d7d6db08"
 
 RPROVIDES:${PN} += "libinfgtk-0.7.so.0 \
 libinfinity \
@@ -31,9 +31,9 @@ libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgnutls.so.30 \
 libgobject-2.0.so.0 \
-libgsasl.so.7 \
+libgsasl.so.18 \
 libgtk-3.so.0 \
 libm.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

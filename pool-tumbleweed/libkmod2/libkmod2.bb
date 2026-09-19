@@ -3,10 +3,10 @@ DESCRIPTION = "libkmod was created to allow programs to easily insert, remove an
 list modules, also checking its properties, dependencies and aliases."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "30"
+PV = "34.2"
 
-RPM_NAME = "libkmod2-30-8.1.aarch64.rpm"
-RPM_HASH = "10531f4b24ef2799a54805414dc7059beba92a6c04dd52fa6c1ae7b662d64942016d1f8f13bb02a95029effdae82a16f337f82f17259ea68c8aafb959391e32c"
+RPM_NAME = "libkmod2-34.2-5.3.aarch64.rpm"
+RPM_HASH = "f3a5740d0408162aceef5a7aad7601862692f241200eacffa0ecb16c54909e2297bc54094671325720509d9f88ffe8578b464bd74f56e54216756727da14109b"
 
 RPROVIDES:${PN} += "libkmod.so.2 \
 libkmod2"

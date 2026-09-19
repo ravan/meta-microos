@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kspaceduel"
 DESCRIPTION = "Provides translations for the 'kspaceduel' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kspaceduel-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "1087446b3d79e95d28cf4a87ebd97e4e9e709294b5d1a837e6f60bb0c20edc7057ac95aefc7fdfd59bd035bbb3cee55961bb6475f8892eb034458def8ac78180"
+RPM_NAME = "kspaceduel-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "cca513a3026c4a18424e738db68d2a4bd4328906750b38b7110af3ac9df02c91ff80e7b95ee0b2a37ac61b10e6b8b56d128411aa3a0117cbab0c716a67768585"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kspaceduel-lang \
 kspaceduel-lang-all \
 locale-kspaceduel-af \
 locale-kspaceduel-ar \
+locale-kspaceduel-ast \
 locale-kspaceduel-be \
 locale-kspaceduel-bg \
 locale-kspaceduel-br \
@@ -37,6 +38,7 @@ locale-kspaceduel-he \
 locale-kspaceduel-hi \
 locale-kspaceduel-hr \
 locale-kspaceduel-hu \
+locale-kspaceduel-ia \
 locale-kspaceduel-is \
 locale-kspaceduel-it \
 locale-kspaceduel-ja \

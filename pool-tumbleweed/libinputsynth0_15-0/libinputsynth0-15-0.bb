@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.15.0"
 
-RPM_NAME = "libinputsynth0_15-0-0.15.0-1.4.aarch64.rpm"
-RPM_HASH = "69fd6d7451dc937930805ee4197ed139f11988bad21865cd3cef5fdb84b6476cfc80d6cab3c848e51380e3493eef1864f277fa840a3159cb81a5b4a8f0a35d42"
+RPM_NAME = "libinputsynth0_15-0-0.15.0-1.15.aarch64.rpm"
+RPM_HASH = "c6ed4ada5abe9b9d4533f7fdbac34228f6179293d0c60ebb657e7ac87e0f4a9a7ef33ea52b3bd722d8c39dda4643ced68f0c4fe4b8af56c58a58bf05a099b7aa"
 
 RPROVIDES:${PN} += "libinputsynth-0.15.so.0 \
 libinputsynth-xdo.so \
@@ -21,6 +21,6 @@ libc.so.6 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
-libxdo.so.3"
+libxdo.so.4"
 
 inherit rpm

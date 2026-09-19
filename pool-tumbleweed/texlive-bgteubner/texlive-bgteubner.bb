@@ -12,10 +12,10 @@ two paper sizes: DIN A5 and 17cm x 24cm; only two font families \
 are supported: Times and European Computer Modern)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.11svn54080"
+PV = "2026.226.2.11svn54080"
 
-RPM_NAME = "texlive-bgteubner-2023.209.2.11svn54080-54.1.noarch.rpm"
-RPM_HASH = "c04c8e4330854dd7b47270b79d4421856f5efc7bae0ea99e9f55ae5b37f16a799a7db732d6f18ab999aedc567cb838e323b124a94a9606eb3c4ae695f4cfd960"
+RPM_NAME = "texlive-bgteubner-2026.226.2.11svn54080-61.2.noarch.rpm"
+RPM_HASH = "4ee7a6dcaf4ff1e1b05958d7204c6d0586cb81902ba4727afce0d2fb5beffe68f201c171d70561e2237c0942a4f6401f0fba500692e9c2a57c42c4a4e7670d13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bgteubner.cls \

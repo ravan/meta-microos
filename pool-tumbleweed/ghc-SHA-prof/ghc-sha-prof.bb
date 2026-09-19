@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.4.4"
 
-RPM_NAME = "ghc-SHA-prof-1.6.4.4-8.3.aarch64.rpm"
-RPM_HASH = "fff231b9bdf2b6a8c6486b300b1ef60ed84fb80f8918e5aad0a460b69b75dfb8c36049b82a46136960b481f775955b58a003866a5b362f61d64c2b1c79e5b586"
+RPM_NAME = "ghc-SHA-prof-1.6.4.4-8.23.aarch64.rpm"
+RPM_HASH = "3b7db8aac7ca6e089b718a896bbd6084cc8c583d82213f2c4e497659ea8e8c81ac786d700fdaf51a3721b4585cecd7a7a901468f8b1e923e2808b7987528b7ff"
 
 RPROVIDES:${PN} += "ghc-SHA-prof \
-ghc-prof-SHA-1.6.4.4-ECOkYIcPN6aC9icBjFCZ1l"
+ghc-prof-SHA-1.6.4.4-F68cMQUf1qw5myCdTNffCM"
 
 RDEPENDS:${PN} += "ghc-SHA-devel \
-ghc-prof-array-0.5.4.0 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-binary-0.8.9.1 \
-ghc-prof-bytestring-0.11.5.1"
+ghc-prof-array-0.5.8.0-2a42 \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-binary-0.8.9.3-9861 \
+ghc-prof-bytestring-0.12.2.0-65be"
 
 inherit rpm

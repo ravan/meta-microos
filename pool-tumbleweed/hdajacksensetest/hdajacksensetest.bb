@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.20141006"
 
-RPM_NAME = "hdajacksensetest-0.20141006-24.4.aarch64.rpm"
-RPM_HASH = "3b6d138b0f36065974324028faf6aa62ed57f906d3058519dcab4f14af1d42f0fbd22a79d471a527547404d04546166dd307c55ddfc5e5dbc1bb14b8ae01d178"
+RPM_NAME = "hdajacksensetest-0.20141006-29.4.aarch64.rpm"
+RPM_HASH = "a7751f7821f4cc54cd5cce50f671948707f2c6f9e9ac4e1c26553e44c195fca1719aa1d3a750caa83c7864957becfae11453e5f1ce6b1709a2d29e1e8a5b00a1"
 
 RPROVIDES:${PN} += "hdajacksensetest"
 

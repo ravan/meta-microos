@@ -4,10 +4,10 @@ OsmoSDR Gnuradio Source supports the OsmoSDR hardware, but it also offers a \
 wrapper functionality for FunCube Dongle, Ettus UHD and rtl-sdr radios."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.2.4"
+PV = "0.2.6"
 
-RPM_NAME = "python3-gr-osmosdr-0.2.4-1.3.aarch64.rpm"
-RPM_HASH = "8aa057a75795719d5a56dad8adbc8b4a2b392859fb2ed7cf63129c05e401bf6fe81618e626549a718d74c1aafe7952522dd5f72fa59ff5e6b117b4ce55ed3640"
+RPM_NAME = "python3-gr-osmosdr-0.2.6-3.9.aarch64.rpm"
+RPM_HASH = "645d69059c663a06bdbd3f7ed1869dca72517cb2bad337fe2e2f06de32ca63201e0461053ee471e9b74975f529663f48783f3fa103e77816de261dd3ab1fed63"
 
 RPROVIDES:${PN} += "python3-gr-osmosdr"
 
@@ -15,7 +15,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libgnuradio-osmosdr.so.0.2.0 \
-libgnuradio-runtime.so.3.10.7 \
+libgnuradio-runtime.so.3.10.12 \
 libstdc++.so.6 \
 python-abi"
 

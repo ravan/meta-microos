@@ -7,10 +7,10 @@ typesetting translations, but it can have value when comparing \
 any two texts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-parallel-2023.209.svn15878-52.1.noarch.rpm"
-RPM_HASH = "dff732eb97fbf6eba320d0967cff4e73ae85c796c0979ee6c08896695f5e54ea9dd2c777453d4dac32e93e15d3303ef88e363e0b0310d42c9ae60bea031392df"
+RPM_NAME = "texlive-parallel-2026.226.svn77682-58.2.noarch.rpm"
+RPM_HASH = "f42a864c85509bb08fcba58debd2b812b87ef0b56fe9bdb5e4a5ee92858add0ebfa7af93d19c57258224305646c90556c3f31318aee3f9cd1f01fcc835d2737d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-parallel.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all files from the Qt Creator source direct
 (aka QTC_SOURCE) necessary to compile plugins."
 LICENSE = "BSD-3-Clause & GPL-3.0-only & GPL-3.0-with-Qt-Company-Qt-exception-1.1 & (LGPL-2.1-only | LGPL-3.0-only) & LGPL-3.0-only"
 
-PV = "11.0.2"
+PV = "20.0.1"
 
-RPM_NAME = "qt6-creator-plugin-devel-11.0.2-2.1.aarch64.rpm"
-RPM_HASH = "dacce41d081d40c784a9571c13f5812c72ce7dcb0b852a57ca02cf86a2a9df141481303ade90388a58958669ec025cd5d40fff2b22420ab718e071ef70e61288"
+RPM_NAME = "qt6-creator-plugin-devel-20.0.1-1.3.aarch64.rpm"
+RPM_HASH = "99974aff9d880312d1aa92a2efbd0fc0f54bc40f8ae6d5d8fa433c25707829a8594416df4cc889ccaf70fe24c4b11986d9588a630b967a48702325c2dd2a9594"
 
 RPROVIDES:${PN} += "cmake-QtCreator \
 libqt5-creator-plugin-devel \

@@ -6,10 +6,10 @@ doesn't support the roman8 and atari encodings, so umlaute \
 remains the sole source of that support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn15878"
+PV = "2026.226.2.1svn15878"
 
-RPM_NAME = "texlive-umlaute-2023.209.2.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "1597d607c442cea8d21b6b45cce4d477a515cdd45acd1daad489f0dcf2281f16b2f030f7b08a35c942185b0b98c8298f76962206b01720badc4b9ff33c8b1db0"
+RPM_NAME = "texlive-umlaute-2026.226.2.1svn15878-60.2.noarch.rpm"
+RPM_HASH = "3eb0614b894370812fa0ae3e38e335dc256744539f603c1244cf51855b484df725cd3a2765f68a3ffbfee4de86f07689bab854e458d6837a78baf9bdfee754f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-atari.def \

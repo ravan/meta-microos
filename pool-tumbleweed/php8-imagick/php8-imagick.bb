@@ -3,10 +3,10 @@ DESCRIPTION = "PHP extension to create, modify and obtain meta information of im
 the ImageMagick API."
 LICENSE = "PHP-3.01"
 
-PV = "3.7.0"
+PV = "3.8.1"
 
-RPM_NAME = "php8-imagick-3.7.0-2.6.aarch64.rpm"
-RPM_HASH = "af727df7fa59f6f41b6c8265231d4b2e81e105a7503ad7f341c0b5ef5a668ef0c3f4ebb15843618b99c690fba82cc32e3484155893574b721f0085da5974e6d0"
+RPM_NAME = "php8-imagick-3.8.1-2.4.aarch64.rpm"
+RPM_HASH = "d9d292ce013d60be623feb42b9cead33228d317aea73d8a34091d8b04f4222b38d40a8f8397bc80715c5d876809dad028f3c5cb6bd65e6b8e7a9556549bdc3c4"
 
 RPROVIDES:${PN} += "config-php8-imagick \
 php-imagick \

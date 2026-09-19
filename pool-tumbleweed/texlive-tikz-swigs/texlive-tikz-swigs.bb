@@ -6,10 +6,10 @@ represent Single-World Intervention Graph (SWIG) models which \
 are used in counterfactual causal inference."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn59889"
+PV = "2026.226.svn59889"
 
-RPM_NAME = "texlive-tikz-swigs-2023.209.svn59889-53.1.noarch.rpm"
-RPM_HASH = "4d539fe7247e71a27568aa54f17f557ea50fe2673de411a80165aec91266962a6ae40289b9424d92debba1663aa60d710cc630a775e07465fc5cb48c0fe0b892"
+RPM_NAME = "texlive-tikz-swigs-2026.226.svn59889-59.2.noarch.rpm"
+RPM_HASH = "42cfb9a110d8f3858c2e6c2490d664442edf7854dc1a66c0754bd395a0fc10e4a675ce48c3ee6c1c2b76de9b5cbd09eaaf328dff3aabfb35e9c0aa3a0edf63a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibraryswigs.code.tex \

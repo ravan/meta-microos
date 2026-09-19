@@ -9,10 +9,10 @@ Metafont's GF output, and put coding information and other \
 Xerox-world information in the TFM file."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.4.2svn61719"
+PV = "2026.226.4.4svn77365"
 
-RPM_NAME = "texlive-modes-2023.209.4.2svn61719-55.1.noarch.rpm"
-RPM_HASH = "e40ba4e56cf14020cb79d68e2e3932f8fecaab85dc9d24ea6162c92ba58be5fdac524a86ae97b90f1c28fe9645776e786b2a0ea100f8740cf7b8c4670bac355e"
+RPM_NAME = "texlive-modes-2026.226.4.4svn77365-61.2.noarch.rpm"
+RPM_HASH = "e7dbf5a0e0f93b51cbd662031150cf7b8e76618776abe2ed14415b64ac2a3edf79c14e1e18c79011631a12360380e61c76e8420cea6225c921bee4c79401c9ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-modes"

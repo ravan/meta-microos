@@ -2,13 +2,13 @@ SUMMARY = "Documentation for texlive-lettrine"
 DESCRIPTION = "This package includes the documentation for texlive-lettrine"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.30svn64511"
+PV = "2026.226.2.83svn77053"
 
-RPM_NAME = "texlive-lettrine-doc-2023.209.2.30svn64511-55.1.noarch.rpm"
-RPM_HASH = "961978d11bf4d847e174f6adf0213b6093f7e679d68f3555a5b5f3be76f09f662ba3add5c9f7ec51d32032f2ffaf2068c2c418f1f13a5a34f1a9db55605029fd"
+RPM_NAME = "texlive-lettrine-doc-2026.226.2.83svn77053-61.2.noarch.rpm"
+RPM_HASH = "36fc4722e8774afaf09c9ed87477ee58248112cac7ba73dc7e86bcad966f3b855bea08745025e12bb1be7f130f4ef8eaae65bea3eb5c61925622cc9b31a6ef64"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-texlive-lettrine-doc-de;fr \
+RPROVIDES:${PN} += "locale-texlive-lettrine-doc-ar;de;fr \
 texlive-lettrine-doc"
 
 RDEPENDS:${PN} += ""

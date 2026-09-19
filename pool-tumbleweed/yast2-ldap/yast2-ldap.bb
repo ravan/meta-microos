@@ -4,10 +4,10 @@ enables searching the LDAP tree and adding/deleting/modifying items on \
 an LDAP server."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.0"
 
-RPM_NAME = "yast2-ldap-4.6.0-1.4.aarch64.rpm"
-RPM_HASH = "fd30e98491285023e311d1fd1306d75078e111fd420ebd3d00113d74bde805fd014a43e81cb54691ba7b4825f290e5a4545e3b2e16a88322d5f12639b5498921"
+RPM_NAME = "yast2-ldap-5.0.0-1.13.aarch64.rpm"
+RPM_HASH = "e46251007db2ba89ea99631bfd3fb1af2e39bb166eeae1022878b79bd65780ad952ab8111964b546c3523c19dd4c2d5fc1a7aaa5a63564b2ae78c1f7805ed7fb"
 
 RPROVIDES:${PN} += "libpy2ag-ldap.so.2 \
 perl-LdapServerAccess \

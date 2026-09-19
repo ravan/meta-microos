@@ -7,10 +7,10 @@ sets. \
 This package provides development headers needed to build software using Vc."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.3"
+PV = "1.4.5"
 
-RPM_NAME = "Vc-devel-1.4.3-1.7.aarch64.rpm"
-RPM_HASH = "546b83a7f4ac41f289a1fefdc99d2a60fd53ab5d182b985f8814258bd8a4146b3847a97fe6ef795547afa418f3d679479c373dd0ba6332071b0fde59028f35b5"
+RPM_NAME = "Vc-devel-1.4.5-1.10.aarch64.rpm"
+RPM_HASH = "f8e2a3cc6e734ced39b07b604b1778630ab68af03fd1ad0e42e3b33653c59cf42d88522e16133a8490edac5a552299c6b3449e67706575119e01944614fc148c"
 
 RPROVIDES:${PN} += "Vc-devel \
 cmake-Vc"

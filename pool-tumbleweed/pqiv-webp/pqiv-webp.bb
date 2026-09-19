@@ -2,10 +2,10 @@ SUMMARY = "Backend webp for pqiv"
 DESCRIPTION = "Backend webp for pqiv"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12"
+PV = "2.13.3"
 
-RPM_NAME = "pqiv-webp-2.12-1.4.aarch64.rpm"
-RPM_HASH = "a99ee38d8a2f5535edafd93369621eea13a604692b7088a73b9faa088284382c78e4464ab04f95b96a2b756267a582e7d74c23c619029a4e45e4943e5abb1ca2"
+RPM_NAME = "pqiv-webp-2.13.3-1.4.aarch64.rpm"
+RPM_HASH = "71832ecb8fac7052dce1c6cc8498650e04a7952ec074fb38f05392522a9dc98e1e0c4bf3051732553f8e8ebf5b8c5b3450d02d4f810b008ca253b89d62e2ed06"
 
 RPROVIDES:${PN} += "pqiv-webp"
 

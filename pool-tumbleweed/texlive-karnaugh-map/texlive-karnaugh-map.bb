@@ -7,10 +7,10 @@ map. This package depends on the keyval, kvoptions, TikZ, \
 xparse, and xstring packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn61614"
+PV = "2026.226.2.0svn61614"
 
-RPM_NAME = "texlive-karnaugh-map-2023.209.2.0svn61614-56.1.noarch.rpm"
-RPM_HASH = "c5c96f9ef9a14052bf84ad1ed8fc94e5ad267f13a910478ba2c5051afa3c4e5f8191dbe57e8be8208d739d8af87962be3cb5e051f3ac45424bd8e7d8efbe5b60"
+RPM_NAME = "texlive-karnaugh-map-2026.226.2.0svn61614-63.2.noarch.rpm"
+RPM_HASH = "75c644339ad8a2c10d53f435a574b2bd15985a7b1a67e6602d8878ada724335869a502a1bfb8bb6ca111a80d5af31b6ae1fcccc1edaaae5db933241ca99794fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-karnaugh-map.sty \

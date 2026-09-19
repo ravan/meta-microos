@@ -7,8 +7,8 @@ LICENSE = "Apache-1.1"
 
 PV = "1.1.4c"
 
-RPM_NAME = "xpp3-minimal-1.1.4c-6.7.noarch.rpm"
-RPM_HASH = "e4ec94e7410c46ac8f79f2ede44b53b00d351115eeecdffc6cdc1e480659a5296011a092ff382bb13a399d073f42ea75eaeb24dcff4dbeec329be47b38d44785"
+RPM_NAME = "xpp3-minimal-1.1.4c-11.8.noarch.rpm"
+RPM_HASH = "4192ea8f201ed4b93ca48dc8a51c9115de88f523f9546b8d43cae741520b7a710c9d4ad9c00d62f2e427c7092b39b1b859f1b8e90136290457c59941bd9cf87f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-xpp3-xpp3-min \

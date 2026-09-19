@@ -2,43 +2,29 @@ SUMMARY = "Hangman Game"
 DESCRIPTION = "Classical hangman game by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "khangman-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "d768d01e091ee22a9b3395f96a3418a51be4317e666b1583056215dced05cab2fc451868edb9f3a1119fdb6d7414c1251bdd4706f0001253f8b67c84948982cd"
+RPM_NAME = "khangman-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "04b103eb86c4485242eb021e7a5d0e58845be4a15a0bc03cd3b6afaeb6e8f6a954d9945382ca1dfd00d1ab71dff67aa84cf78ca44fc15ced8b69fc90df7786da"
 
-RPROVIDES:${PN} += "config-khangman \
-khangman \
+RPROVIDES:${PN} += "khangman \
 khangman5"
 
 RDEPENDS:${PN} += "kdeedu-data \
 ld-linux-aarch64.so.1 \
 libKEduVocDocument.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5NewStuff.so.5 \
-libKF5NewStuffCore.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5QuickWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6I18nQml.so.6 \
+libKF6NewStuffCore.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
-libstdc++.so.6 \
-qt5qmlimport-QtGraphicalEffects.1 \
-qt5qmlimport-QtMultimedia.5 \
-qt5qmlimport-QtQml.2 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Controls.1 \
-qt5qmlimport-QtQuick.Controls.Styles.1 \
-qt5qmlimport-QtQuick.Dialogs.1 \
-qt5qmlimport-QtQuick.Layouts.1 \
-qt5qmlimport-QtQuick.Window.2 \
-qt5qmlimport-org.kde.newstuff.1"
+libstdc++.so.6"
 
 inherit rpm

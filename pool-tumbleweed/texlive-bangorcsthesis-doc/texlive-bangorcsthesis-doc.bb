@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bangorcsthesis"
 DESCRIPTION = "This package includes the documentation for texlive-bangorcsthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.5svn61770"
+PV = "2026.226.1.5.7svn75154"
 
-RPM_NAME = "texlive-bangorcsthesis-doc-2023.209.1.5.5svn61770-54.1.noarch.rpm"
-RPM_HASH = "893e15f1e3020d46c60f6562e1826c281aad4b33b615ccafc3961c33d070382dd17ec6909571395c01dd95ada32a97135a30fb70a148dd791018edc00bf98240"
+RPM_NAME = "texlive-bangorcsthesis-doc-2026.226.1.5.7svn75154-60.2.noarch.rpm"
+RPM_HASH = "250b9e58f0dac44f43539e4b14c8f20e20654fdd63e6fa5602944996a815f95ae8f762f5cf6b10a6c2ab75411e531b22f988982ffa439062af019b0d29d73213"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bangorcsthesis-doc"

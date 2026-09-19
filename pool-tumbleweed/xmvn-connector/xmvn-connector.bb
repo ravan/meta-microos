@@ -5,10 +5,10 @@ adapter which allows XMvn resolver to be used as Maven workspace \
 reader."
 LICENSE = "Apache-2.0"
 
-PV = "4.2.0"
+PV = "4.3.0"
 
-RPM_NAME = "xmvn-connector-4.2.0-4.1.noarch.rpm"
-RPM_HASH = "24c7755cf57c32b6dd595b2e6caf4721988f957d59ce01debc60b5d23de39cca0998c1ef66005bc48d51b092bc9dda685743fa6b5b832a2472204acce27b12e5"
+RPM_NAME = "xmvn-connector-4.3.0-8.1.noarch.rpm"
+RPM_HASH = "0e6a610a90d56e1d1dde4550575731d785214897514abc1025add646a9a6b7877770a60e38a5682beb696d097560febb8f823e0f1823485e9226389e76d54b3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.fedoraproject.xmvn-xmvn-connector \

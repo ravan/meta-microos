@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mucproc"
 DESCRIPTION = "This package includes the documentation for texlive-mucproc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn43445"
+PV = "2026.226.1.02svn43445"
 
-RPM_NAME = "texlive-mucproc-doc-2023.209.1.02svn43445-55.1.noarch.rpm"
-RPM_HASH = "d657718c49607dc0e06520b6c623f7f69e672e7fe6efd38e56e44a753105a4e4d3789cc2f11ba7f59295f116ea2b41a90602065480a71157489f19c1afa655f9"
+RPM_NAME = "texlive-mucproc-doc-2026.226.1.02svn43445-61.2.noarch.rpm"
+RPM_HASH = "769eca846e5429da0ec9487226b382b0bb8e954c36903fed6e35343bc60c166e5988bbce8af27d6e19cf994e0ef322145799b89f00cfad81593d2e1f57a59a4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mucproc-doc"

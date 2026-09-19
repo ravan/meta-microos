@@ -10,10 +10,10 @@ behaviour, maybe limited to certain parts of the document \
 source."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn23379"
+PV = "2026.226.0.0.3svn23379"
 
-RPM_NAME = "texlive-ifnextok-2023.209.0.0.3svn23379-54.1.noarch.rpm"
-RPM_HASH = "0eefb06c4fba9e5641227a25a839a3e758363e0259bd59c14d6a30b464c034cfea4aa8ef0d211d4cf0e3d8923f3bcfb65b0ba032d3b3e65a097076c9a63d1184"
+RPM_NAME = "texlive-ifnextok-2026.226.0.0.3svn23379-60.2.noarch.rpm"
+RPM_HASH = "87a992703765a9460e1f44712be940efc894403362873f6458aa24f4854e90d7d840235972c5bcf6e0b56e38bf89f77b6804e33b67153d5030d4d9ee9a220e20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifnextok.sty \

@@ -7,10 +7,10 @@ made with ruler, compass and also with ellipsograph. This \
 package extends the functionalities of the curve2e package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.1svn60697"
+PV = "2026.226.0.0.2.2svn67608"
 
-RPM_NAME = "texlive-euclideangeometry-2023.209.0.0.2.1svn60697-53.1.noarch.rpm"
-RPM_HASH = "215f6066270532133ac99079ad4b55327646d7f231ffcd553c47b53c368e88dec33740a5deb55875a4e19ebf35ebb56ca5fe1e4eb77dfa996d3ff54b655e72f1"
+RPM_NAME = "texlive-euclideangeometry-2026.226.0.0.2.2svn67608-59.2.noarch.rpm"
+RPM_HASH = "847be6f890970c660d938a193cd9ea8133ad16adf81803703a3b313ae39bd279cc3e4303fde7832d73ef6f60d0f5b23e5ccd565822b50eac79a387e9c922090a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-euclideangeometry.sty \

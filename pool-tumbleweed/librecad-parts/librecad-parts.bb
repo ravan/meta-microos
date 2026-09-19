@@ -3,10 +3,10 @@ DESCRIPTION = "Collection of parts for LibreCAD, a Qt application to design 2D \
 CAD drawings."
 LICENSE = "(Apache-2.0 | SUSE-GPL-3.0+-with-font-exception) & GPL-2.0-only"
 
-PV = "2.2.0.2"
+PV = "2.2.1.5"
 
-RPM_NAME = "librecad-parts-2.2.0.2-1.1.noarch.rpm"
-RPM_HASH = "a3416865c77b6e80f83e60a46621185907e6c6ec4866311c393e155fedbfd2422d25abbfa4d1f365b84f9a796aafda0d668e46b94c3cd2a789e877e0e92bbfc4"
+RPM_NAME = "librecad-parts-2.2.1.5-1.1.noarch.rpm"
+RPM_HASH = "abce153fa620f5bb95a4f0ed9f216d59e35c4a4404f999c9874daafcc45c972c5f6462d3ee408bbe851722ccf2861b1122b751f69006db87558719033802013b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "librecad-parts"

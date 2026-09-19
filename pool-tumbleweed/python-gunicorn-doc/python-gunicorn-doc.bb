@@ -6,16 +6,15 @@ compatible with various web frameworks. \
 This package contains the documentation."
 LICENSE = "MIT"
 
-PV = "20.1.0"
+PV = "25.3.0"
 
-RPM_NAME = "python-gunicorn-doc-20.1.0-4.2.noarch.rpm"
-RPM_HASH = "114310108747640c16d90f8a2241df996bf2a8080cc68f78fe4af904194f53fe0ac4731b6c902cb92e4e1f63898baabb7812a49c2930bd9fb4ee027d79dec9df"
+RPM_NAME = "python-gunicorn-doc-25.3.0-1.3.noarch.rpm"
+RPM_HASH = "5027ba03bbf99d5751a06c7ff0f0ab9400e4312200cf65cf0307f82a66e100b8bea032ce99c7db8736867fd0ef532c07353b3149ad37701334c3a00ad218d0c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-gunicorn-doc \
-python310-gunicorn-doc \
-python311-gunicorn-doc \
-python39-gunicorn-doc"
+python313-gunicorn-doc \
+python314-gunicorn-doc"
 
 RDEPENDS:${PN} += ""
 

@@ -2,15 +2,15 @@ SUMMARY = "Haskell lukko profiling library"
 DESCRIPTION = "This package provides the Haskell lukko profiling library."
 LICENSE = "GPL-2.0-or-later & BSD-3-Clause"
 
-PV = "0.1.1.3"
+PV = "0.1.2"
 
-RPM_NAME = "ghc-lukko-prof-0.1.1.3-5.8.aarch64.rpm"
-RPM_HASH = "11c1cb243cf8f6e7b0d4504e546a62fba673be580f1099fa6febf2ee2b6519bc9aed528106f6592b83a0ff2854f6dc71c1f98b107b516229a09ecb01a07c15bd"
+RPM_NAME = "ghc-lukko-prof-0.1.2-2.14.aarch64.rpm"
+RPM_HASH = "6d818ae25d6630e38763c730054b6872698fd1602e84e974ab51605ec7d0007a9ae3d65059b3755b1f95fc605896942f7125cd77cd60f33d7893d3d88c4f9a47"
 
 RPROVIDES:${PN} += "ghc-lukko-prof \
-ghc-prof-lukko-0.1.1.3-IWqFfSgydIZCIQyWjUior5"
+ghc-prof-lukko-0.1.2-KyYOwE0CZU8A6c79eyT2Xk"
 
 RDEPENDS:${PN} += "ghc-lukko-devel \
-ghc-prof-base-4.17.2.0"
+ghc-prof-base-4.21.2.0-8844"
 
 inherit rpm

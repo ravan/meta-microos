@@ -3,10 +3,10 @@ DESCRIPTION = "A VNC client written in java that can be used as standalone appli
 an applet inside web page."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "1.13.1"
+PV = "1.16.1"
 
-RPM_NAME = "xorg-x11-Xvnc-java-1.13.1-3.3.noarch.rpm"
-RPM_HASH = "c91541c985bd910db6f45733258ce61b4041f8a79763890e12efd163770c478079c85d8a3985a19579d7bdb76bb4876c9ea0a7798d686d6839be34475ac117c2"
+RPM_NAME = "xorg-x11-Xvnc-java-1.16.1-3.1.noarch.rpm"
+RPM_HASH = "0a1bde4bd4f50597a8ecf4dd21f0f11dcc5a6642d1f8a2c61c0edb866197c5c5012cec17ae826c4ae746913415641fbfd6582b1efed7296396e19cbee6e32b0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-x11-Xvnc-java"

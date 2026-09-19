@@ -11,18 +11,19 @@ generation of classes and implementation of syntactic sugar. These features \
 make use of (evil) UNIVERSAL::AUTOLOAD hooking, and are implemented in this \
 class because these hooks can only be done by a one module, and \
 Class::Autouse serves as a useful place to centralise this kind of evil :)"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.01"
+PV = "2.20.0"
 
-RPM_NAME = "perl-Class-Autouse-2.01-11.22.noarch.rpm"
-RPM_HASH = "7d00f725ec41bf579c9ef8ccf066a9462d2c0a097d0a67ff26ab1f37eae827780380f6c93bb8fcd1596b1b088ac933f53254f08b14c33411d1ab08e6e67f7eb2"
+RPM_NAME = "perl-Class-Autouse-2.20.0-1.6.noarch.rpm"
+RPM_HASH = "5b9dda8b884bb0b8fc53e1162a2d0a0cf93d3f0242c197064eff46a485fed2de8ada2a22eec4e61bc5080d4b0cfb51581644e674d24a32b315b19a57368f216e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Autouse \
 perl-Class--Autouse--Parent \
 perl-Class-Autouse"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-prefork"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "8.0.0"
 
-RPM_NAME = "libGLw1-8.0.0-7.3.aarch64.rpm"
-RPM_HASH = "d61cbdc36bfd466ae5490aab7c5dda6b68d9fd67a1a8168b03a0fd4b518fd486351c3a2f30e1cef08cb1846b6caf96aa51d3d85737a3f76a9fef49aaf4b2d514"
+RPM_NAME = "libGLw1-8.0.0-7.13.aarch64.rpm"
+RPM_HASH = "52fbd471a200c0a5f295ed81bd315cd235a3e3f97cc733e4a3fc1b858a25c47809760a152d6909ae5f44a09bdc4ff6c14a4d39c30f965d99d9cd8b87eed1cf3c"
 
 RPROVIDES:${PN} += "GLw1 \
 MesaGLw \

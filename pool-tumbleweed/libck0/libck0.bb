@@ -4,12 +4,12 @@ data structures for the research, design and implementation of high performance 
 concurrent systems. \
  \
 This package holds the shared library."
-LICENSE = "BSD-2-Clause & Apache-2.0"
+LICENSE = "Apache-2.0 & BSD-2-Clause"
 
-PV = "0.7.1"
+PV = "0.7.2"
 
-RPM_NAME = "libck0-0.7.1-1.9.aarch64.rpm"
-RPM_HASH = "f146b9186ec50a5c5542c6d2b04aefd08e8bf573a3f47dd6d2252eb8e8fede235c94362cc53bc19b2d0f7092c057bc52cdd1a040ec1190e004e2be27a9cd963d"
+RPM_NAME = "libck0-0.7.2-1.1.aarch64.rpm"
+RPM_HASH = "ef61fe0bb0e78d40c0ec0a9d5510286873b4bb2eab922e96663fcfc30e2ec440a23afc1605b494c95edd5a64c03310d23c78dc7146de36c38c3455082993e6c3"
 
 RPROVIDES:${PN} += "libck.so.0 \
 libck0"

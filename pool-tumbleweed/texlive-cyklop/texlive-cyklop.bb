@@ -19,7 +19,7 @@ Vietnamese). The upright variant was generated and it was more \
 complicated task than it appeared at the beginning. 11 upright \
 letters of the Cyclop typeface were presented in the book by \
 Filip Trzaska, 'Podstawy techniki wydawniczej' ('Foundation of \
-the publishing techonology'), Warsaw 1967. But even the author \
+the publishing technology'), Warsaw 1967. But even the author \
 of the book does not know what was the source of the presented \
 examples. The fonts are distributed in the Type1 and OpenType \
 formats along with the files necessary for use these fonts in \
@@ -28,10 +28,10 @@ TeX and LaTeX including encoding definition files: T1 (ec), T5 \
 Czech fonts)."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.209.0.0.915svn18651"
+PV = "2026.226.0.0.915svn77682"
 
-RPM_NAME = "texlive-cyklop-2023.209.0.0.915svn18651-55.1.noarch.rpm"
-RPM_HASH = "8d7452cc6d06c1751a8968904486be39d19494fd7ba9df519a40986b2d7031efa707ee4b6dd336cfa6f65d85225d33ac9c5c33adc7b7764a413ec8392c12e8f7"
+RPM_NAME = "texlive-cyklop-2026.226.0.0.915svn77682-61.2.noarch.rpm"
+RPM_HASH = "d1f2cd6649f8b50bb3740e1415a44f45f110e79a35c3171d43a50b6b6c36ca5d26f95042f9ed38a423fdce509f95b4e6919ff602215cbb8b8be4ff740cfdf426"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cs-cyklop-sc.enc \

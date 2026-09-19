@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 3DQuick library"
 DESCRIPTION = "The Qt 6 3DQuick library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt63DQuick6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "d99127a204fd6b81a92340a9da40880c53a1186f88490aaf5ee866f62fbb6c99177f11dabac403165cf693d1e6dce650b1fe7a0015564f8ee6e4e9577c6316b3"
+RPM_NAME = "libQt63DQuick6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "769d3102abe40579777a0cf64666322cbc3e6bcadb2737564cb56a59a89ad84357fee3fb419b5992951d40b34170d3ba43352c83e34f6b0f0d8d56cba1a0c76b"
 
 RPROVIDES:${PN} += "libQt63DQuick.so.6 \
 libQt63DQuick6"

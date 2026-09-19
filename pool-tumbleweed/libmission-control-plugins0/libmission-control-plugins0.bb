@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "5.16.6"
 
-RPM_NAME = "libmission-control-plugins0-5.16.6-1.10.aarch64.rpm"
-RPM_HASH = "64402761446554de9d0d01fd3f4582fbdee9ed59e182c66134679ed081162829cae35cb31723c21f433b792abb41c2cef5002cc8d7cee6b1acbd22e7b9c46671"
+RPM_NAME = "libmission-control-plugins0-5.16.6-1.19.aarch64.rpm"
+RPM_HASH = "3d89ca5ef0e0e8233406776dc928dde4b5c58d188fcc596abcbfba5c7dabe5178e9b8ca492ec07ea3faf96a096465e90219dcf9785c201af61dbdda2c5098ab2"
 
 RPROVIDES:${PN} += "libmission-control-plugins.so.0 \
 libmission-control-plugins0"

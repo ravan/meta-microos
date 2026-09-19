@@ -6,10 +6,10 @@ This package provides the documentation files for the ATK library's \
 C++ bindings."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.36.2"
+PV = "2.36.4"
 
-RPM_NAME = "atkmm-doc-2.36.2-2.4.noarch.rpm"
-RPM_HASH = "0e615616282cc45eed275390b71d88959f745f4cbf841f7fc475e2c053a82e1d7e2bd67745236f50c9834cc393e59d57f16138b01e4e989838c353af3b2052a5"
+RPM_NAME = "atkmm-doc-2.36.4-1.3.noarch.rpm"
+RPM_HASH = "0fea1a2f709ad743c3f9ef505489dd2885eb90281da5e52d55058800a9ae0abc4bb765e62be041f0a196ae48416dfb3ade5d9572cde78a38e12331be006fe8a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atkmm-doc"

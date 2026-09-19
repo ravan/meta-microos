@@ -1,12 +1,12 @@
 SUMMARY = "Cryptsetup LUKS2 SSH token"
 DESCRIPTION = "Experimental cryptsetup plugin for unlocking LUKS2 devices with \
 token connected to an SSH server."
-LICENSE = "LGPL-2.0-or-later & SUSE-GPL-2.0-with-openssl-exception"
+LICENSE = "LGPL-2.0-or-later-with-cryptsetup-OpenSSL-exception"
 
-PV = "2.6.1"
+PV = "2.8.7"
 
-RPM_NAME = "cryptsetup-ssh-2.6.1-3.1.aarch64.rpm"
-RPM_HASH = "bf87657c421af42d2f345b7f9a358f487d13c23723c44a1b89fad84e4f4f4be6f6725bf1ee56e2ffcfb95e5d5c847114962771fccf792549f71fdcf44232c511"
+RPM_NAME = "cryptsetup-ssh-2.8.7-1.2.aarch64.rpm"
+RPM_HASH = "d8c4b57f7818785559bb90d3a93b1a692a44a18e36206b5e6f47e4ac57884310a2577b2228ab486c97fce1c39fe222859e6cafef6cafe98581b8720bc248e8e5"
 
 RPROVIDES:${PN} += "cryptsetup-ssh \
 libcryptsetup-token-ssh.so"

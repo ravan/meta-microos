@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-econ-bst"
 DESCRIPTION = "This package includes the documentation for texlive-econ-bst"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1.1svn61499"
+PV = "2026.226.3.3svn76907"
 
-RPM_NAME = "texlive-econ-bst-doc-2023.209.3.1.1svn61499-54.2.noarch.rpm"
-RPM_HASH = "686bb4e61bcd091e3cb3aa7bcfb2b0a72bca62ea20c2b65e8c344ea55e7b7dc267f6c06c86a7fd94f1c3b3ebfb7f2a168ad947812a3cb6286557415f25e7d4fd"
+RPM_NAME = "texlive-econ-bst-doc-2026.226.3.3svn76907-61.4.noarch.rpm"
+RPM_HASH = "3cbeea930ea99d19ea43bfedbfda60289c9b0f0e05e8790576b4aba347d0b257135446e17427720d60b6a2c8ab5f1770f26db7633f02d46266cdad313a21c869"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-econ-bst-doc"

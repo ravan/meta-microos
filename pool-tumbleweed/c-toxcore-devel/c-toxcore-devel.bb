@@ -2,10 +2,10 @@ SUMMARY = "Development files for c-toxcore"
 DESCRIPTION = "Development libraries and headers needed to build software using c-toxcore."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.18"
+PV = "0.2.23"
 
-RPM_NAME = "c-toxcore-devel-0.2.18-1.5.aarch64.rpm"
-RPM_HASH = "950e14753f4023fd83857a508fc92164242180e909e9d1af4399c5d9cac52400acbde6d9b5c1dd174545ebe33df3e72f1201f11cc39e945e991176cbe0075589"
+RPM_NAME = "c-toxcore-devel-0.2.23-1.3.aarch64.rpm"
+RPM_HASH = "6847489018efc235e1c6d4a4da9c8568f79bda88d250e1b3db77259cf1ba9fd1275defbd4bca016a8ab53084973acd10880d7e694b3833e81be32fb198edf485"
 
 RPROVIDES:${PN} += "c-toxcore-devel \
 pkgconfig-toxcore"

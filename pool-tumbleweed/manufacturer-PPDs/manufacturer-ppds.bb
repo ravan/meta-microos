@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later & MIT"
 
 PV = "10.2"
 
-RPM_NAME = "manufacturer-PPDs-10.2-277.2.noarch.rpm"
-RPM_HASH = "98fe24f2017997a2fce0c616a0836eb2ab17f604ec0bedb6a37d82f51c10f4480e64295789ecd2d4d8ce9d98543084135def2a2edb19dc505fed7750814e2f18"
+RPM_NAME = "manufacturer-PPDs-10.2-277.10.noarch.rpm"
+RPM_HASH = "fa7ff2fa9cde9a37aa4c7caecb823622b1c094ce04d5aedc99e5321d47da67b41873672d9a31fe7d41423e6d093634c7d42ba8224e95133d590db6adf3f61230"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "manufacturer-PPDs \

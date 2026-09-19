@@ -3,30 +3,33 @@ DESCRIPTION = "This package contains the KDE game Kubrick which is based on Rubi
 Cube."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kubrick-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "abbd62440559b2a42d7fc51c0e60c888f5c300c89acdfb6ee43967bf102677157a6907497b0e0ce799378fcbedaf6f01a48fe73bfd0e8aa4746ebbd30a951551"
+RPM_NAME = "kubrick-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "176b3742361a8129502f62f9f30cc8130c1eb55801dc442c9e4e5bca0e9adba35ec4ec1a3bdd60cd9955f5e93086828c80687c82fb116b772cffec10f272d736"
 
 RPROVIDES:${PN} += "kubrick \
 kubrick5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libGLESv2.so.2 \
 libGLU.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
 libOpenGL.so.0 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5OpenGL.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6OpenGL.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6"

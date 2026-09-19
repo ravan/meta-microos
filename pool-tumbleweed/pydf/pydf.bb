@@ -3,10 +3,10 @@ DESCRIPTION = "pydf displays the amount of used and available space on your file
 just like df, but in colors. The output format is completely customizable."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "12"
+PV = "16"
 
-RPM_NAME = "pydf-12-3.14.noarch.rpm"
-RPM_HASH = "42931b0c5c51cd37647d3a526b7587ca9c08906a7bd044092da5b1caf9ddc612226f7649a534739f3ff49ae46ab1dde98aae533c25f9b8637897fbc9829661ae"
+RPM_NAME = "pydf-16-1.2.noarch.rpm"
+RPM_HASH = "ccc552c92dfbeba93501148262b72dead38b0703d7fcc1466fcb55d35cf446bd2567c0022ecd490884ce8491be2b1e1769cda739eb88b0d4807b936970adc552"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pydf \

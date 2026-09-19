@@ -4,10 +4,10 @@ TeX installation (i.e., what extensions it supports). An \
 example document that examines the installation is available."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.2svn19387"
+PV = "2026.226.0.0.2svn19387"
 
-RPM_NAME = "texlive-diagnose-2023.209.0.0.2svn19387-53.1.noarch.rpm"
-RPM_HASH = "968225a7b2f52dbe6720e4da5a5c87833e3fc4ac914b647e5992472f1f857a68dbc3c9c854e44e00722fe445a4429817b1daf97e0e4187fb8409b080a07f6acf"
+RPM_NAME = "texlive-diagnose-2026.226.0.0.2svn19387-59.2.noarch.rpm"
+RPM_HASH = "4ae0097ea7ca2ae2e65866ae93f673313df82b4322d3a3aea841f4be3ae414d88999990f2b027b7bfd203f12ddcd78a5f34f76623a3ffdac29281d34ae54d3eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-diagnose.sty \

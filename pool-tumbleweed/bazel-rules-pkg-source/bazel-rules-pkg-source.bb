@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "bazel-rules-pkg-source-0.7.0-1.1.noarch.rpm"
-RPM_HASH = "2acecea55b5fb04d1a50a876ff4cc782466e74ed87af0900abf2266e4790b7851e7177e232f25041e83ab22937b516a5ca193ff4bd35d308056c8c7284fb8e5e"
+RPM_NAME = "bazel-rules-pkg-source-0.7.0-1.9.noarch.rpm"
+RPM_HASH = "e5a8c7bfed27d33d0d48773a5c811ecb9d5e5010c1e898b7b4d514b10fba8d1702d1e9661c900a17bcc6a55cf9770032a27b96fca193c8f0403475e278784672"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-pkg-source"

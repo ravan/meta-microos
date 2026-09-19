@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-svgcolor"
 DESCRIPTION = "This package includes the documentation for texlive-svgcolor"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-svgcolor-doc-2023.209.1.0svn15878-58.1.noarch.rpm"
-RPM_HASH = "762eafe66a06b3de361af5b48622a54710f024df279daa0eb4b2de24eb5a47f3b95eeba8317609ea44d4762839a00ac4681d909983f6e7cffe7f7d416c8284a2"
+RPM_NAME = "texlive-svgcolor-doc-2026.226.1.0svn15878-64.2.noarch.rpm"
+RPM_HASH = "fea32740e445922b1bb7ca29df5d3360c7ed76980e089059b0f07190e6d8cb1f906d9cd1a1e3899e6f3d50cd9a93840e5fdfde5d58718219ee67b139f0b765d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-svgcolor-doc"

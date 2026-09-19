@@ -7,14 +7,15 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "gnome-browser-connector-42.1-2.3.aarch64.rpm"
-RPM_HASH = "61d83b965e9ecc4eafa1b62ab3b898af4939353c0c0cf304ef2969c16a63cd84e032aacfcb944d3e70929f398d5b954f0cc3b3cb3b2eb63c1f06a3bfe9851cf2"
+RPM_NAME = "gnome-browser-connector-42.1-5.3.aarch64.rpm"
+RPM_HASH = "f8f64b22906ffa86eb5db3266aeebbdb9608e42ad2a77e12824bdf91da0d9e6a2a9fef34283b8327ed0b0f0c0d1dc36aa11a29328bdf1d9f0b5713d869e5cb9b"
 
 RPROVIDES:${PN} += "chrome-gnome-shell \
 config-gnome-browser-connector \
 gnome-browser-connector"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-python-abi"
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
+python-abi \
+unzip"
 
 inherit rpm

@@ -7,8 +7,8 @@ LICENSE = "CC-BY-SA-4.0 & GPL-2.0-only"
 
 PV = "3.95.0.11"
 
-RPM_NAME = "plank-theme-adapta-3.95.0.11-3.5.noarch.rpm"
-RPM_HASH = "16cb5a7a81e97ce929564420e50c6560814220273b60769e9bba6ab60a729af1898f68f2cb886673db18e65f39ca36f1ec5db79112bb632e19297e19e9bb370f"
+RPM_NAME = "plank-theme-adapta-3.95.0.11-3.1.noarch.rpm"
+RPM_HASH = "906b44659f07734cd87b3441d897f6dd5aa2b655719f9ea98746b940b98f1100b9565c2edd3f76b48a58e979460c6059d5b9582aeb637e1af2b9bd7d7a8fdfbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plank-theme-adapta"

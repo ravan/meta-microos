@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2020.1.2"
 
-RPM_NAME = "openstack-macros-2020.1.2-3.1.noarch.rpm"
-RPM_HASH = "c1b9acb3dce3f7d09436701ff753f9cc37eee129b592759270b080a52452d2dd3d7dcc6922ac25ffd752835abedffa91927e368efbec48b9340556738bb8c784"
+RPM_NAME = "openstack-macros-2020.1.2-3.9.noarch.rpm"
+RPM_HASH = "e05ddb6f773fada115b3f15044f3af6f4a14b68f84179220a6d4ae9bdbd623e1445afd033198007faed032d5dc57ae4ad58171329caa0e68084ba1b480025f14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openstack-macros \

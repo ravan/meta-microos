@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "xcb-util-keysyms-devel-0.4.1-1.2.aarch64.rpm"
-RPM_HASH = "c3868ff61fe336f0a01d0e36b0932c6ea15b4b892127deab1a8e5a927a6720a4819cfcabcd7616fb161b0f1993724ff49bc06be26b22e02a7a19745c8e6bf53d"
+RPM_NAME = "xcb-util-keysyms-devel-0.4.1-1.12.aarch64.rpm"
+RPM_HASH = "512967c32faa886427d4ecff240e7144a6d8ff4b4da315352c9938a9e766241172eafc34175e86e14147790108d53864c1302c22ec92004b0e0285aeef32a6f6"
 
 RPROVIDES:${PN} += "pkgconfig-xcb-keysyms \
 xcb-util-keysyms-devel"

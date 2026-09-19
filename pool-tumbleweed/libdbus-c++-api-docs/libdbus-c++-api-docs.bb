@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.1+git20170322"
 
-RPM_NAME = "libdbus-c++-api-docs-0.9.1+git20170322-4.10.noarch.rpm"
-RPM_HASH = "3f44cbba4b7cae9cf91c4cff0900ef34d74cd2c20c2424e37bbb2a3f61374806ba99de13f89db0b85e30416bc02e0dee46c74562eda8d0ba250ea3ea00c78f74"
+RPM_NAME = "libdbus-c++-api-docs-0.9.1+git20170322-5.8.noarch.rpm"
+RPM_HASH = "1ec0054ebb54b1ecc5eec95a56df17d9cac6424d0878a0a4712652b601fd164e92e3461555e8b486d6530ae33c8a31c1dac78d86b914b76ab3e31538a917e9fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdbus-c++-api-docs"

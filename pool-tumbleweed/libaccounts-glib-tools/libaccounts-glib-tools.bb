@@ -2,10 +2,10 @@ SUMMARY = "Tools for libaccounts-glib"
 DESCRIPTION = "This package contains the tools for the accounts-glib library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.26"
+PV = "1.27"
 
-RPM_NAME = "libaccounts-glib-tools-1.26-1.4.aarch64.rpm"
-RPM_HASH = "3943af84fc585d20e16c4b13d16069e11d233d92402311d680335db28909a85e9ca71c654201cca968dcd47aef37c28d809a1d135c1dbdfa2b7b534c2c3ebb3b"
+RPM_NAME = "libaccounts-glib-tools-1.27-1.10.aarch64.rpm"
+RPM_HASH = "faf5188925de15a30f537cef836052dc6df6ed9ca263f384356d16d20e41f88f8d7ff83b609f8c9c39981dfd561f14ca25ce5a69f7ee90dae18c2df69f8ce99b"
 
 RPROVIDES:${PN} += "libaccounts-glib-tools"
 

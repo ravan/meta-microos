@@ -2,10 +2,10 @@ SUMMARY = "A Portable Interface for Writing Games"
 DESCRIPTION = "ClanLib delivers a platform-independent interface for writing games."
 LICENSE = "Zlib"
 
-PV = "4.1.0"
+PV = "4.2.0"
 
-RPM_NAME = "clanlib-examples-4.1.0-2.11.noarch.rpm"
-RPM_HASH = "9c8e409bff5cc1b634f6f84cada4afdf6c2a4cc387538bbb549c9e19b1009ca2ea3b0c0c229025a59dae2043143ac35780ce5c7747afe82eadb7f96ab70e1e3a"
+RPM_NAME = "clanlib-examples-4.2.0-4.1.noarch.rpm"
+RPM_HASH = "c2e9ac595d53f736dcb51ed44e3a8dfa4e9fcf8f51b38a2da83a9f495c23b48689c1850aa1ba83bc3c3718d7996f91d85d96259cace91da048cc297df4135228"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clanlib-examples"

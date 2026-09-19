@@ -2,10 +2,10 @@ SUMMARY = "Haskell typed-process library documentation"
 DESCRIPTION = "This package provides the Haskell typed-process library documentation."
 LICENSE = "MIT"
 
-PV = "0.2.11.0"
+PV = "0.2.13.0"
 
-RPM_NAME = "ghc-typed-process-doc-0.2.11.0-1.9.noarch.rpm"
-RPM_HASH = "a40ac6aa054380f8a6898fb2e0969b10692fe3f1aaa998adc6d7a48009e3267758b5dfffd1eb4ce1cf7f64dd59d3b1a34010c37b29e0d8a7e8ea9fd7916d09ee"
+RPM_NAME = "ghc-typed-process-doc-0.2.13.0-1.12.noarch.rpm"
+RPM_HASH = "6dc44ce3930cd9681f91a04184a98e94e7317a91ab864f46da67376d0e2d70defece076464ef984b1fa5470c408094fa113746c9abe37b0d8f3fe183e02fc3c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-typed-process-doc"

@@ -11,12 +11,12 @@ local network in the latter case). The default combination is human vs \
 computer, i.e. the human player starts the game against the computer. \
 This can be changed by clicking on the 'Actions' menu (see below for \
 more details)."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5"
 
-RPM_NAME = "xquarto-2.5-814.23.aarch64.rpm"
-RPM_HASH = "390d34de10053d40121f88abc468c74568b0de0f7a30c0fa6d8c3d0849f6b94e102c6787fb73404e7ff83d8ac117b789d25c560dd478ad0fcc5f65ee65d6c8c6"
+RPM_NAME = "xquarto-2.5-818.5.aarch64.rpm"
+RPM_HASH = "5b03f060100ab673ddfcdccaa217ddc44f6d681d624ca66bb6ef74d5efc800bb13fb82ff789bc26bace1e037e8510c3392b7e76e49f16b52f22888131f3ef447"
 
 RPROVIDES:${PN} += "xquarto"
 

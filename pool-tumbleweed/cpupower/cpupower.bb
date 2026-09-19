@@ -1,17 +1,27 @@
 SUMMARY = "Tools to determine and set CPU Power related Settings"
 DESCRIPTION = "This tool accesses the Linux kernel's processor power subsystems \
-like CPU frequency switching (cpufreq) or CPU sleep states (cpuidle)."
+like CPU frequency switching (cpufreq) or CPU sleep states (cpuidle). \
+Also part of the package are: \
+turbostat version 2026.04.21 \
+intel-speed-select 1.26 \
+Kernel changelog: \
+* Sat Sep 12 2026 jslaby@suse.cz \
+- Update \
+... \
+- commit 6b7e8a9"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "cpupower-6.4.12-4.23.aarch64.rpm"
-RPM_HASH = "8a27b322a7b90912dbed971a7b16bf90ac30566c205d9bbf38549a5bf8cf8c83ef27e3e5f8135fe0574171400c4f33525d676756a1bc9ce61e0e999c2a4375af"
+RPM_NAME = "cpupower-7.2.5-14.14.aarch64.rpm"
+RPM_HASH = "1561613c591d730ea5f95d36186cf661901fb4f693ac30f0ea09552dec618a82be79f9635ecd5a4f5e7e156f5c950854e64635d1f57ef1ffca0365b108392800"
 
-RPROVIDES:${PN} += "cpupower"
+RPROVIDES:${PN} += "config-cpupower \
+cpupower"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/sh \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcpupower.so.0"
+libcpupower.so.1"
 
 inherit rpm

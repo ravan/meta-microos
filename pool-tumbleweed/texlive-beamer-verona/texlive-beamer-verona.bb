@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the 'Verona' theme for the beamer class \
 by Till Tantau."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn39180"
+PV = "2026.226.0.0.2svn39180"
 
-RPM_NAME = "texlive-beamer-verona-2023.209.0.0.2svn39180-54.1.noarch.rpm"
-RPM_HASH = "381033a513bdc09a9f260c3b9e38dfb7fd4c2d68af2ee2b1fbcb49bd073130990893e5aca42ebc2359a6ddf72be68091e7370f9bcee9a14a4d5abc5d32241e60"
+RPM_NAME = "texlive-beamer-verona-2026.226.0.0.2svn39180-61.2.noarch.rpm"
+RPM_HASH = "f4f87d1b444dec02c3e000fa8e61d2fa7740793747ae098dee1aca45d16df4f8cfe58166e01e67b29d3987593894a4bc89dce8e36dd70fa14d4ef8f43eed698a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerthemeVerona.sty \

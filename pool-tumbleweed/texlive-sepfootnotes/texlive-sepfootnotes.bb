@@ -5,10 +5,10 @@ files. This is achieved with commands \\sepfootnotecontent and \
 the latter typesets that note."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3csvn41732"
+PV = "2026.226.0.0.3dsvn77682"
 
-RPM_NAME = "texlive-sepfootnotes-2023.209.0.0.3csvn41732-54.1.noarch.rpm"
-RPM_HASH = "3cb5049d8ba84a786ba63bfea75814e5d9b70881e50e1dbff97421252c4ad779cf49b793c205f202286d9b160d902e187e029482aec7f5c599a2332dd9f067c1"
+RPM_NAME = "texlive-sepfootnotes-2026.226.0.0.3dsvn77682-60.2.noarch.rpm"
+RPM_HASH = "1918304099d6097ec89f4c60582a84ca0a27867f2119ef9b0ac23694b4e13ee04cedc771ad0186a0b90934dcebb64bdee0df23278801757e308f6048d12df86d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sepfootnotes.sty \

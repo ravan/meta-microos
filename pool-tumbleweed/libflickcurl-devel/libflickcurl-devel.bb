@@ -7,12 +7,12 @@ reading photo, tag, and comments information, the photo upload and searching \
 APIs, and writing tags and comments. It provides utilities such as 'flickcurl' \
 to exercise the API and 'flickrdf' to get RDF metadata descriptions out of \
 photos, tags, and machine tags."
-LICENSE = "LGPL-2.1"
+LICENSE = "LGPL-2.1-only"
 
 PV = "1.26"
 
-RPM_NAME = "libflickcurl-devel-1.26-3.25.aarch64.rpm"
-RPM_HASH = "aee5380623073d7f5f09de1125abd37d31bca54d77ffeef408deab75e1928b4f12224bae441b900378385597f0345c066552a834c54111cb8f95495302a2be55"
+RPM_NAME = "libflickcurl-devel-1.26-6.5.aarch64.rpm"
+RPM_HASH = "4593a199c9936008a049f4f11ac443425a38b8ab3eb6300ebf0adab8699b3a2968925f596dbb70e8c8eb9aecf4e083a1d9e3d840a568e4fb8c91230a6acc236d"
 
 RPROVIDES:${PN} += "libflickcurl-devel \
 pkgconfig-flickcurl"

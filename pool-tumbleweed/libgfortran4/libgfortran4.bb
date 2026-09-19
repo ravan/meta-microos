@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "libgfortran4-7.5.0+r278197-14.6.aarch64.rpm"
-RPM_HASH = "702cf2f591660be14dd32ce171c509c6d901df1a193c2410a2d8b1a55699598f5a6f669b6bb4c1e53af5fe5ba9b5a5d40feafc49cdfc24a477a2ec7fcf00f54e"
+RPM_NAME = "libgfortran4-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "bd6dcdde902695230bf08a5a194e98ff8e61fe687af1cf3fcbc5ffbbc28b1ded1da8b1360993f6e77c9d8d0bb397b05620bbdb3d897a4ee97703ecedf0d346bd"
 
 RPROVIDES:${PN} += "libgfortran.so.4 \
 libgfortran4"

@@ -8,20 +8,29 @@ file with nodes, menus, cross-references, and indices using the included \
 makeinfo tool."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.0.3"
+PV = "7.3"
 
-RPM_NAME = "texinfo-7.0.3-1.4.aarch64.rpm"
-RPM_HASH = "dd116ba637bdd663d07e73642f2697f713a183208e07b93d0581c3f16e917fd61e7b8c4d3091b29f8ff166c3fa4e00ee8146c2a3e8d0b0c7338df88d6e5ed7d5"
+RPM_NAME = "texinfo-7.3-1.5.aarch64.rpm"
+RPM_HASH = "6a8597d92d4c14d6a9b0f3993028976f1e6f492dff77b3b315ee8489448188fe0e93363f0a5d680e0b429623953f224ab6a580124410d30b5370446213738e2d"
 
 RPROVIDES:${PN} += "texinfo"
 
-RDEPENDS:${PN} += "/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/cat \
+/usr/bin/cmp \
+/usr/bin/diff \
+/usr/bin/grep \
+/usr/bin/perl \
+/usr/bin/sed \
 /usr/bin/sh \
+/usr/bin/tar \
+/usr/bin/uniq \
 makeinfo \
 perl \
-perl-Text-Unidecode \
-perl-gettext \
+texlive-biber \
 texlive-bibtex \
+texlive-dvipdfmx \
+texlive-dvips \
 texlive-latex \
 texlive-makeindex \
 texlive-pdftex \

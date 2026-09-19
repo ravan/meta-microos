@@ -2,10 +2,10 @@ SUMMARY = "The utils for PostGIS"
 DESCRIPTION = "The postgis-utils package provides utilities for PostGIS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.3.4"
+PV = "3.6.4"
 
-RPM_NAME = "postgresql14-postgis-utils-3.3.4-1.1.noarch.rpm"
-RPM_HASH = "1a95321db03fdf80c489511aa037762a3896d9dacf8d25213bfe9bf3755b7865056b8b2c89f2adce294aa3a91e1736f15773add8fe39d046354ff52177d99c13"
+RPM_NAME = "postgresql14-postgis-utils-3.6.4-1.3.noarch.rpm"
+RPM_HASH = "08a51d5ac8270fb0537f53612107e1774ec101647f4577b8018cafc87ad6d1df9902ffb2d679117d4a2aa1399abb5bcafb9b9fa99b8b224342960edfc9e284a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgis-utils \

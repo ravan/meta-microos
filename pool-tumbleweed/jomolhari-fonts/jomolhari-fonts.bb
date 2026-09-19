@@ -8,8 +8,8 @@ LICENSE = "OFL-1.1"
 
 PV = "alpha003"
 
-RPM_NAME = "jomolhari-fonts-alpha003-3.17.noarch.rpm"
-RPM_HASH = "1cda1152c892f8cd1b63f2833389588347a67c867b52c1b24fa60043204e97dd5845fbc11c10e191f43533c5aa0fca4cfc51982aae47bf48dfbd1884ddb1c7c5"
+RPM_NAME = "jomolhari-fonts-alpha003-3.25.noarch.rpm"
+RPM_HASH = "2b270986343dbfd782902beda009e20543f622828da9f12417b90458786b5a04f83eaa65c965f8539b9b2557927e66ccddca32d6b2c6282cc722cdeefe5b645d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jomolhari-fonts"

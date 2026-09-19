@@ -4,30 +4,32 @@ This package contains applications that are built on tools in the LSC \
 Algorithm Library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "9.0.0"
+PV = "10.1.0"
 
-RPM_NAME = "lalapps-9.0.0-1.3.aarch64.rpm"
-RPM_HASH = "2703be9fa31b1c7258cf7dfac4326aa013f9ad2cfa41eb372bf4d46b88dfd7074c7edb315786e6d5390f11f324901d562db8846dca48054a7d416995bd9645d2"
+RPM_NAME = "lalapps-10.1.0-1.4.aarch64.rpm"
+RPM_HASH = "c6ff328b8a9580befb3338c601452b3da8ddf130241312819c33f57df1f2304944ce2bc6f6a8a2f7349cbd373b5f79cc35e74f5b4c65617549d820c2921fe567"
 
 RPROVIDES:${PN} += "config-lalapps \
 lalapps"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3.10 \
+/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcfitsio.so.10 \
 libframel.so.8 \
-libgsl.so.25 \
+libgsl.so.28 \
 liblal.so.20 \
-liblalburst.so.6 \
-liblalframe.so.13 \
+liblalburst.so.8 \
+liblalframe.so.14 \
 liblalinference.so.23 \
-liblalinspiral.so.17 \
-liblalmetaio.so.10 \
-liblalsimulation.so.31 \
+liblalinspiral.so.18 \
+liblalmetaio.so.11 \
+liblalpulsar.so.30 \
+liblalsimulation.so.37 \
 liblalsupport.so.14 \
 libm.so.6 \
+libmetaio.so.1 \
 python3-lalapps"
 
 inherit rpm

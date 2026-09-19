@@ -2,10 +2,10 @@ SUMMARY = "USB Library"
 DESCRIPTION = "Libusb is a library that allows userspace access to USB devices."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.0.26"
+PV = "1.0.30"
 
-RPM_NAME = "libusb-1_0-devel-1.0.26-1.5.aarch64.rpm"
-RPM_HASH = "10ba6c3208ed13e0b75d398dc33915f1565820467b0f91e38fdcf1b0f9e228873a7ee2d0b912ef3de9fd5eca578831400318c664465e9298937aaf786dbe532f"
+RPM_NAME = "libusb-1_0-devel-1.0.30-1.3.aarch64.rpm"
+RPM_HASH = "727a4bcf88598b47e804becf971bab7a558ad7bf80bac2b3d0b355f799b116d3d0eacd64b69d897f58e61c4dceefad80cd2fb0c33d7e37666762565e2f5d9169"
 
 RPROVIDES:${PN} += "libusb-1-0-devel \
 pkgconfig-libusb-1.0"

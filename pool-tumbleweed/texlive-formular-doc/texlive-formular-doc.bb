@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-formular"
 DESCRIPTION = "This package includes the documentation for texlive-formular"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn15878"
+PV = "2026.226.1.0asvn15878"
 
-RPM_NAME = "texlive-formular-doc-2023.209.1.0asvn15878-53.1.noarch.rpm"
-RPM_HASH = "76d1974edbfe7f24b15976aa05c02b56980909da69fd7f1f8b015712e0930f05c3012e0ad7d4b5ddbb3c98a19f7f64761f30410910b7431f296469b1379f1e14"
+RPM_NAME = "texlive-formular-doc-2026.226.1.0asvn15878-60.2.noarch.rpm"
+RPM_HASH = "29254550ae24c6f1397b9909803636e8d8167293ffa2284c6b434683e07e706e6f333c14d79a5b585bcfed97e8f5721356af19465c6e2db829bb4d24dccb81f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-formular-doc"

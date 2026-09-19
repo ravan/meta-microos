@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0.7"
 
-RPM_NAME = "kubectl-oomd-0.0.7-1.5.aarch64.rpm"
-RPM_HASH = "d33f912fde127f4a41e0d7de7ae292b98eeb4ceaaa70b653db01c089550a1df4d1131feab049f42f57bbc6a81f3e98b4ea3fe1926ac5c3e4266161a78d767972"
+RPM_NAME = "kubectl-oomd-0.0.7-1.21.aarch64.rpm"
+RPM_HASH = "ef3461ad1f1a599880ff612366a12a103e89bc42b9133b85888a3d8a923ca634031d5c0db3e3356db420ca19470cf18c15973c4c5e06d450e0cfbfffabf4ea51"
 
 RPROVIDES:${PN} += "kubectl-oomd"
 

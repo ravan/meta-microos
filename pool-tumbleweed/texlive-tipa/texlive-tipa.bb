@@ -6,10 +6,10 @@ addendum symbols as encoding TS3. 'Times-like' Adobe Type 1 \
 versions are provided for both the T3 and the TS3 fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn29349"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-tipa-2023.209.1.3svn29349-53.1.noarch.rpm"
-RPM_HASH = "0cb8521ef2bfffac50cae19c2c271d4300fc352cb285eac87e7285bf16ff916c9b2439cf856839a93dd4fa07eba3fc814b5796fa8f98d4b4fb0f59bf065cdf03"
+RPM_NAME = "texlive-tipa-2026.226.1.3svn77682-59.2.noarch.rpm"
+RPM_HASH = "a1962f8e0f432cce52aef59c6272789e81bfb0fe2f34fbae80a6f05b3cb5c704d32224cc017c8c48fc708f056b56582b8b0a10085622613ee8e9e94d57f011ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exaccent.sty \

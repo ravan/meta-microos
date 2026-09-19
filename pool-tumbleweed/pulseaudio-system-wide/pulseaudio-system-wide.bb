@@ -11,10 +11,10 @@ mode: \
 http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/WhatIsWrongWithSystemWide"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "16.1"
+PV = "17.0"
 
-RPM_NAME = "pulseaudio-system-wide-16.1-4.1.aarch64.rpm"
-RPM_HASH = "65243ef7a49ef7d769861e25244ac898f6e96c997292f5ad66d830f9c4f92c9b6fbf3d5113a7021307f0b15267176708e6a6aa37de0747c5ecc06f06e4fd7863"
+RPM_NAME = "pulseaudio-system-wide-17.0-7.5.aarch64.rpm"
+RPM_HASH = "e1a8bee257c0f6fc2d3593d8e79c45751e3acf73731fcec58e9c914235051231de117f9d4c7677ab48d13285505306855e60934535a2ccc060186cefd8bdd71d"
 
 RPROVIDES:${PN} += "pulseaudio-system-wide"
 

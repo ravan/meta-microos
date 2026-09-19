@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kteatime"
 DESCRIPTION = "Provides translations for the 'kteatime' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kteatime-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "9159707eee8ac7165b93784724cfa665d6c6392fbd69439d4e77481009ba519a0a4e0373e70b4bf7685c7e8a687256e47ecb0228dbaf2ed56a6421ffdaf72530"
+RPM_NAME = "kteatime-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "da5514ee279268cfd6c2b18b44764d4b9c67f9ef2f46798ec6ee0bc928b90dd57f043c8ce409d178cec25924a9dfd9e3f09057e47c2963722cd26cdc7f661bc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kteatime-lang \
 kteatime-lang-all \
 locale-kteatime-af \
 locale-kteatime-ar \
+locale-kteatime-ast \
 locale-kteatime-be \
 locale-kteatime-bg \
 locale-kteatime-bn \

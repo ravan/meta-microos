@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-carolmin-ps"
 DESCRIPTION = "The  separated fonts package for texlive-carolmin-ps"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-carolmin-ps-fonts-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "6f2abb9e78c70a40b22bd432a252d590c8ffe1050844c0042555cb1fd20d038ffb1234deb451f2c67f0bbdc331c49158883aac503524648a0d607b32feb4614c"
+RPM_NAME = "texlive-carolmin-ps-fonts-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "f09fbe92b214dfb904ee94b9b10bceebe4efea7ffa26aff10db7824d802b6ddbffba43ed2f42ad996707259148958131b9ff1166cc7141529c96a8cb411a7b94"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

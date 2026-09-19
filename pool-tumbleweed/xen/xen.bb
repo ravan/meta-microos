@@ -8,10 +8,10 @@ This package contains the Xen Hypervisor. (tm) \
 [Hypervisor is a trademark of IBM]"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.17.2_02"
+PV = "4.22.0_04"
 
-RPM_NAME = "xen-4.17.2_02-1.1.aarch64.rpm"
-RPM_HASH = "dd927851a5b8713c801d7ae870d43b4ef32f4408ad94ae6bcf36b1d40d3bb8fe771e2748d459612ae80dba022791afaac78ab509d13bb2e3e7434edb115042fa"
+RPM_NAME = "xen-4.22.0_04-1.1.aarch64.rpm"
+RPM_HASH = "290da2c649175e99274730818ca92a0cab117ce6514dc76be75a955aad2bacdbd4ed6efb023af99d35856bff2d41ffc3e5993083ce3ce7aa8c2cce59ca898694"
 
 RPROVIDES:${PN} += "installhint-reboot-needed \
 xen"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gitstatus"
 DESCRIPTION = "This package includes the documentation for texlive-gitstatus"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64662"
+PV = "2026.226.1.1svn64662"
 
-RPM_NAME = "texlive-gitstatus-doc-2023.209.1.1svn64662-54.2.noarch.rpm"
-RPM_HASH = "13dc620bf407ddd9b4506fb11ce9319015684fa28c320ac7c0dd1f6a548bb6cf3518f38e77f5e21c637c7c62affeebc20d5ed27a0fccf280bd4bb27063024443"
+RPM_NAME = "texlive-gitstatus-doc-2026.226.1.1svn64662-60.4.noarch.rpm"
+RPM_HASH = "c9ff8af06fbf661d62214e8abbf157ac4bda9aaea2e331882f6b62136e00dbbc5d6533e0db0c6003e27cf1d2a452eea45afcd4c6c62a9f4c768266fba9db5543"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gitstatus-doc"

@@ -4,10 +4,10 @@ DESCRIPTION = "Matcha is a flat Design theme for GTK 4, GTK 3, GTK 2 and Gnome-S
 This package contains the metacity themes."
 LICENSE = "GPL-3.0-only"
 
-PV = "20230403"
+PV = "20250411"
 
-RPM_NAME = "metacity-theme-matcha-20230403-1.1.noarch.rpm"
-RPM_HASH = "e2b4efdfcf4995ee0afa625f42186c4868ad6d67b8a9aed61fdd23e22ac47b482f3d3f9d601e86d39a7fef7ce1f95de4f8befd6e9d0a243298fe75c488964c38"
+RPM_NAME = "metacity-theme-matcha-20250411-1.4.noarch.rpm"
+RPM_HASH = "373056a3d98d09edbd110646b1ce8f8eef2fc9950b2e15914eed91bcc07c47b7416ebbf8a3292ec3e71c441a0261fe571333b4bfb2edcbb39010b9b08e6d0a90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metacity-theme-matcha"

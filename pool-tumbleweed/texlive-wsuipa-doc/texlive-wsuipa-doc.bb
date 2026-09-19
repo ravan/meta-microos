@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-wsuipa"
 DESCRIPTION = "This package includes the documentation for texlive-wsuipa"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25469"
+PV = "2026.226.svn25469"
 
-RPM_NAME = "texlive-wsuipa-doc-2023.209.svn25469-53.2.noarch.rpm"
-RPM_HASH = "befe6360666fd72a71929f119e2f6d443fe3faba6fb10882fb193b9ba95ac3bfad9e32a8b2cbd71a47d566a154541a1645644f7a6e7e51f1f84a0f8a0e01032f"
+RPM_NAME = "texlive-wsuipa-doc-2026.226.svn25469-59.4.noarch.rpm"
+RPM_HASH = "d2d722195d3950c294b0feaf5dd8734a07e58607bfafd78fea89368532222c1ab2197bc7548809ef1a6e15217d821cbcf3f8e29562e5eca6ba169f6b9eec9c04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wsuipa-doc"

@@ -6,19 +6,20 @@ This package provides the GObject Introspection bindings for the library \
 for address book backends."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.4"
+PV = "3.60.2"
 
-RPM_NAME = "typelib-1_0-EBookContacts-1_2-3.48.4-1.1.aarch64.rpm"
-RPM_HASH = "984a7ef4e245b4c2bee51089291f223597be55582cd3467c46b17dd391148c52cc14ddd1fd20f164a5660d204168eb51c9c4dc651d42a17542fd1ed565474666"
+RPM_NAME = "typelib-1_0-EBookContacts-1_2-3.60.2-3.1.aarch64.rpm"
+RPM_HASH = "964cec5d1f8e65d2877d0e8ffe2c1c4ff241f2181eedeed52337e419f5312a93adbaebbeda804449001335047e98201db2843d76efe0f55ed9ad86f13a0cfc12"
 
 RPROVIDES:${PN} += "typelib-1-0-EBookContacts-1-2 \
 typelib-EBookContacts"
 
-RDEPENDS:${PN} += "libebook-contacts-1.2.so.4 \
+RDEPENDS:${PN} += "libebook-contacts-1.2.so.5 \
 libedataserver-1.2.so.27 \
 typelib-Camel \
 typelib-EDataServer \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio \
 typelib-Json \

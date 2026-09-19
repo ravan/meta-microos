@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the web interface assets for styling \
 a Pagure server with the same look and feel as Pagure.io."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.13.3"
+PV = "5.14.1"
 
-RPM_NAME = "pagure-theme-pagureio-5.13.3-1.5.noarch.rpm"
-RPM_HASH = "17a47c0e8ffe4ba1a1c30eeb0279c2cf00b078e7658a05324cbc962191d0364d5d280d6edeec61ebe97bbc5008038b0e2904406372885536296eabe1b25adb3d"
+RPM_NAME = "pagure-theme-pagureio-5.14.1-3.3.noarch.rpm"
+RPM_HASH = "fee476ab3644f6be9e66f52fb0082149f27e4cc9adefca96e0307ca95ed22a60d632fe4c88a844f451bad3c9116fe78affb76e412808f322cbe41b10c82091bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-theme-pagureio"

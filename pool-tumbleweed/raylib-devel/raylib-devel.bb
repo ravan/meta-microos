@@ -2,17 +2,17 @@ SUMMARY = "Development files for raylib"
 DESCRIPTION = "Development files and headers for raylib."
 LICENSE = "Zlib"
 
-PV = "4.5.0"
+PV = "6.0"
 
-RPM_NAME = "raylib-devel-4.5.0-1.1.aarch64.rpm"
-RPM_HASH = "14d9dba6f2fdee3d139b7329788a36a967a552f28a0afc68ab76248e14e5580c39b60e295e5d78b6072f1031c1fd7471dcf0414a91ef1e86d160e00716f6149e"
+RPM_NAME = "raylib-devel-6.0-1.4.aarch64.rpm"
+RPM_HASH = "6379d6bfd93ad8899c7f978371f0e7e4d825b8252a3f832d394f1e3e1166f8ca84cdfb12cf62d8147d14499810a616fe022c5684ecf98b14e46f4d379d75dc44"
 
 RPROVIDES:${PN} += "cmake-raylib \
 pkgconfig-raylib \
 raylib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libraylib420 \
+libraylib600 \
 openal-soft-devel"
 
 inherit rpm

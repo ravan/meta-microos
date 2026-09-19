@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dashbox"
 DESCRIPTION = "This package includes the documentation for texlive-dashbox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.14svn23425"
+PV = "2026.226.1.14svn77682"
 
-RPM_NAME = "texlive-dashbox-doc-2023.209.1.14svn23425-55.1.noarch.rpm"
-RPM_HASH = "5ff9c3511260627a9466a32129a7dee5cb24d6838e5710f2c6ded2c2ce6398c8292002e31cfaae30141106270a76bd6b816d96cb28153f6bc00faf8a876ee74c"
+RPM_NAME = "texlive-dashbox-doc-2026.226.1.14svn77682-61.2.noarch.rpm"
+RPM_HASH = "4f7beaaf87a3625c0104b86d2d6936233767a68829e574f7d1e5089bc7939efc83e348973fb1dc0975469b1e510aba7cfcb1b981fe4eb5adb53d315f168e28bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dashbox-doc"

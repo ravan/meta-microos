@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-textglos"
 DESCRIPTION = "This package includes the documentation for texlive-textglos"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn30788"
+PV = "2026.227.1.0svn30788"
 
-RPM_NAME = "texlive-textglos-doc-2023.209.1.0svn30788-55.1.noarch.rpm"
-RPM_HASH = "0b56df20ef6582b6e43d8b6f64e339e29a45e5996636989234ea1a63fc08c7fad2c42e1d47bec318a97cb4c8afc76cc7079bf5d8128d0b6e33be4102edcd9ce1"
+RPM_NAME = "texlive-textglos-doc-2026.227.1.0svn30788-62.2.noarch.rpm"
+RPM_HASH = "0136f2156f16194fbaeb0ea91d7804d85bbcb8976f5b6293d6f950b72844e83796415084eff9fb7220dbda18cb5818e6bc5e04656d14f9b3b6cc3d803b124139"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-textglos-doc"

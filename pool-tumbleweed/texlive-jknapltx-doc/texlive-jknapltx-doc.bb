@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jknapltx"
 DESCRIPTION = "This package includes the documentation for texlive-jknapltx"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn19440"
+PV = "2026.226.svn19440"
 
-RPM_NAME = "texlive-jknapltx-doc-2023.209.svn19440-56.1.noarch.rpm"
-RPM_HASH = "87040617216bd2971116195c10733532ccfa4a31564f2ef28814c9cb5cd5332460ce685e9ad3ffb99f22b58f12df3a7b3377ae31d4d9a62d6d2d3f94b352c48c"
+RPM_NAME = "texlive-jknapltx-doc-2026.226.svn19440-63.2.noarch.rpm"
+RPM_HASH = "4b04dee28c37e24d189242ef2f7d81705eb4dcd8743682e36e1282ab4f3cebf167239a61104d027cc03426a8ad2a6492b725ae1617d6ad8f98ee40f7549d9f62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jknapltx-doc"

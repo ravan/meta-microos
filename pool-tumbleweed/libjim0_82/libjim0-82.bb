@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.82"
 
-RPM_NAME = "libjim0_82-0.82-1.1.aarch64.rpm"
-RPM_HASH = "3567857f715e501fed717feb27f899fd5e07f4e03ffc6981424ffbeaaad4043b0a28fb0a8d289c79f77bcb629b79e7bdc667c3a7e992ee6c17650d615dcff66b"
+RPM_NAME = "libjim0_82-0.82-1.11.aarch64.rpm"
+RPM_HASH = "0be80169dfe03b4771a8a3ee57ab3314ae9c7b3848dce00e737c7d2ca069f2dc7ac99d1d6c52bbdf52cb514afeae4d427c68ac413416cb4d9f0bcf084df65254"
 
 RPROVIDES:${PN} += "libjim.so.0.82 \
 libjim0-82"

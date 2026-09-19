@@ -3,10 +3,10 @@ DESCRIPTION = "Metapackage to keep the same user experience as before the split 
 the monolithic R-base-devel"
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.1"
+PV = "4.6.1"
 
-RPM_NAME = "R-base-devel-4.3.1-46.1.aarch64.rpm"
-RPM_HASH = "5e005875498dec692ba2125d4d61061f2fe11e2b73dafe9cee19ea38f1740ca58bea3c0b1180ec8e49849d2200be958e6b45b030cf910f74800a3a0e8781c033"
+RPM_NAME = "R-base-devel-4.6.1-58.3.aarch64.rpm"
+RPM_HASH = "9b053cbeb804d813e1a979b084497f3c8439e03e3edb46576f7ea545e4b84e25baf2787e5b610e66105f4dcf4a9a637328673e6c9b09bcea4b80f5599d6dadc5"
 
 RPROVIDES:${PN} += "R-base-devel"
 

@@ -2,10 +2,10 @@ SUMMARY = "GUI for DreamSourceLab USB-based instruments"
 DESCRIPTION = "GUI for DreamSourceLab USB-based instruments"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2.2"
+PV = "1.3.2"
 
-RPM_NAME = "DSView-1.2.2-1.4.aarch64.rpm"
-RPM_HASH = "aaa20ba23e6c639fe01f95594042fc103b8cc7635a32cc2dcd89260c7f26ec2ffd8a0b7cbb6f126d95463bcfd1130cd514917d937b35da9082852e13f558dd3e"
+RPM_NAME = "DSView-1.3.2-1.9.aarch64.rpm"
+RPM_HASH = "f35febfe8ff123689f9c4ab6bdc68b1832f3a84a3d7aa5bedaeb5e8d3cd48057319b283798c1349a339260a077fce4e45603ddfa5cc3e7dbd7054e0599e63e68"
 
 RPROVIDES:${PN} += "DSView"
 
@@ -18,7 +18,7 @@ libfftw3.so.3 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libm.so.6 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libstdc++.so.6 \
 libusb-1.0.so.0 \
 libz.so.1"

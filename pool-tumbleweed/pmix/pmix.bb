@@ -9,10 +9,10 @@ expected for exascale operations remains challenging. \
 This RPM contains all the tools necessary to compile and link against PMIx."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.3"
+PV = "3.2.5"
 
-RPM_NAME = "pmix-3.2.3-10.2.aarch64.rpm"
-RPM_HASH = "ac71a7b53bb8a931f542bae3ead38a4649a82d7139163bde5b1cf70d277975fba7210cb1c2b912e0e965c1eceac908f27c09eafa26c038a1c36c6bf2ef35c182"
+RPM_NAME = "pmix-3.2.5-2.10.aarch64.rpm"
+RPM_HASH = "772fb8bf64a19fcc5f6a845911359a1c5335447e6c5fea84b85406e9c6a99b801325715be4a6b35458559b426842af4a1e840844b3b0dc66ad26b9fa747fad5f"
 
 RPROVIDES:${PN} += "pmix"
 

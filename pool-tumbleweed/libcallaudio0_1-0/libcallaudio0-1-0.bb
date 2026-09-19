@@ -3,10 +3,10 @@ DESCRIPTION = "A daemon for audio calls. \
 This package contains the shared library files for callaudiod."
 LICENSE = "GPL-3.0-or-later & MIT"
 
-PV = "0.1.7"
+PV = "0.1.99"
 
-RPM_NAME = "libcallaudio0_1-0-0.1.7-1.1.aarch64.rpm"
-RPM_HASH = "8a590910a0eb1508b2fd1066c088ac1d0bf976bb92bd1c0e7a8e6083c827ed908d14e7ded2d200d6baf349b9ffddfed3e151972f537800d5d754b89e388d2d89"
+RPM_NAME = "libcallaudio0_1-0-0.1.99-2.1.aarch64.rpm"
+RPM_HASH = "e00c4254360a1d57a1345e681765b5fa500e8c3ed9957ace77015c91110de09549aa80a9bb5018ad62af24cd4196cd7327af7f8a095c590367d7d30f637e2421"
 
 RPROVIDES:${PN} += "libcallaudio-0.1.so.0 \
 libcallaudio0-1-0"

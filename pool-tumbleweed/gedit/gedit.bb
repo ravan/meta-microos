@@ -5,46 +5,44 @@ It features a multi-document frame, syntax highlighting, autoindent \
 options, autosave, and plugins."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "50.0"
 
-RPM_NAME = "gedit-44.2-1.5.aarch64.rpm"
-RPM_HASH = "7a7c9449d53cc386349e285f8b9829a43435d74d8723b5ef4b890cf354b91b2c19cff2f3b7518b084ca993e2d05348603c2c27bd117784c41a6501b6d767a775"
+RPM_NAME = "gedit-50.0-1.3.aarch64.rpm"
+RPM_HASH = "e75213083fdddef3c6a4df21a2676ea2936bae5d9204a0325641e3f7403003801b29a4c9bb134798d6e50f4891b2e5bc8e5d8ca7a3f120ac1767ec03d08fb3ed"
 
 RPROVIDES:${PN} += "gedit \
 gedit2 \
+libcodecomment.so \
 libdocinfo.so \
 libfilebrowser.so \
-libgedit-44.so \
+libgedit-50.so \
 libmodelines.so \
 libquickhighlight.so \
 libsort.so \
 libspell.so \
+libtextsize.so \
 libtime.so \
 typelib-Gedit"
 
 RDEPENDS:${PN} += "gsettings-desktop-schemas \
 ld-linux-aarch64.so.1 \
-libamtk-5.so.0 \
-libatk-1.0.so.0 \
 libc.so.6 \
 libcairo.so.2 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
+libgedit-amtk-5.so.0 \
+libgedit-gfls-1.so.0 \
+libgedit-gtksourceview-300.so.5 \
+libgedit-tepl-6.so.4 \
 libgio-2.0.so.0 \
-libgirepository-1.0.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgspell-1.so.2 \
+libgspell-1.so.3 \
 libgtk-3.so.0 \
-libgtksourceview-4.so.0 \
 libpango-1.0.so.0 \
-libpeas-1.0.so.0 \
-libpeas-gtk-1.0.so.0 \
-libtepl-6.so.2 \
-python3-cairo \
-python3-gedit \
-python3-gobject \
-python3-gobject-cairo \
+libpeas-1.0.so.1 \
+libpeas-gtk-1.0.so.1 \
+typelib-Amtk \
 typelib-Atk \
 typelib-GLib \
 typelib-GModule \
@@ -56,8 +54,7 @@ typelib-Gtk \
 typelib-GtkSource \
 typelib-HarfBuzz \
 typelib-Pango \
-typelib-Peas \
-typelib-PeasGtk \
+typelib-Tepl \
 typelib-cairo \
 typelib-freetype2 \
 typelib-xlib"

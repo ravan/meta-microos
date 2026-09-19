@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "0.3.1.1"
 
-RPM_NAME = "ghc-text-conversions-doc-0.3.1.1-2.3.noarch.rpm"
-RPM_HASH = "e6ce5f11a245d090949d8e10ef7cbf6d528c18dade797c5fe5eca6384f0b5adfdd893c30e26ee9de41c423e89ba4d561491958a3e15181f99394a19d374b892e"
+RPM_NAME = "ghc-text-conversions-doc-0.3.1.1-2.23.noarch.rpm"
+RPM_HASH = "b6c05e4173b1831fd8162bb0381b0bfbe2d1cd18a8a90337f520428bc9d3fda2aa9b85624e1f1ebe22f39dba5b59cb48862ebcca5172f01edd82bb2617da0738"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-text-conversions-doc"

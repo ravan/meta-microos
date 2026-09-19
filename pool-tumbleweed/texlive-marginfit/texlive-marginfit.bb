@@ -6,10 +6,10 @@ of the bottom of the page. This package provides a drop-in \
 replacement solution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.1svn48281"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-marginfit-2023.208.1.1svn48281-53.1.noarch.rpm"
-RPM_HASH = "059c0750dd80d5c595a0adb57fa0837f8f469ed33b3a82f27088cf2cfa55a330c4e7e8a6c8f0d1064935650905afac2f252ccee53a34bd7952afff6b1c43e961"
+RPM_NAME = "texlive-marginfit-2026.226.1.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "06329783839e331324d45319c4161e75053681a9e65439e54e42d3624a8c0964a36eeff2aaa0b6423c8519cbe0329155d661e7e5a3a6c6163c523bc02f71123b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-marginfit.sty \

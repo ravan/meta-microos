@@ -1,12 +1,12 @@
 SUMMARY = "The lunar-calendar libraries -- GTK+ 3 Module"
 DESCRIPTION = "This package contains a GTK+ 3 module of lunar-calendar. Calendar applications \
 base on GTK3 can display Chinese Lunar calendar by this module."
-LICENSE = "GPL-2.0+"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.0.0+git20191124.f91a880"
+PV = "3.0.1"
 
-RPM_NAME = "lunar-calendar-gtk3-module-3.0.0+git20191124.f91a880-1.15.aarch64.rpm"
-RPM_HASH = "7821277d673db92695adc6f3edbe9daead5aba18f450d76f4cab60c4da2e0ebd0580828e0c171b79e1b6c8162f373550913f42759cfe10ae6cddd7c800e2fe00"
+RPM_NAME = "lunar-calendar-gtk3-module-3.0.1-1.13.aarch64.rpm"
+RPM_HASH = "b3ebea7bbf499901df362fad189b376376e33786ff12317babb77cfdf71704485c90fbd5e1705931be0277aaec1f686c626b0b112383c60c580a00ad140a1d82"
 
 RPROVIDES:${PN} += "config-lunar-calendar-gtk3-module \
 liblunar-calendar-module.so \

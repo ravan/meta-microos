@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "apache-commons-jexl-javadoc-2.1.1-2.7.noarch.rpm"
-RPM_HASH = "f2abd8d78675798161c676db5dffe3974ee4aae3a1fbb42d00eaedab12d83880caf50ea835ea8a2987eca28f3e02b2cf796ec47653da349e4f7e64d20615df64"
+RPM_NAME = "apache-commons-jexl-javadoc-2.1.1-4.8.noarch.rpm"
+RPM_HASH = "2ab9a91854ce18376187f60c5541665260e319d32d935776cb011e8e35760bf81090f68e26c9c8f694a87326e89bd8e2ec828c4c75800a7584646adee7367c8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-jexl-javadoc \

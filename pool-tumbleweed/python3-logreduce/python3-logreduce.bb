@@ -17,26 +17,21 @@ LICENSE = "Apache-2.0"
 
 PV = "0.6.1"
 
-RPM_NAME = "python3-logreduce-0.6.1-2.8.noarch.rpm"
-RPM_HASH = "70b09d6bc0984a3064a6c4bfdd9d606e561231f71b958aca14c1c9e54c238169414116e7f1b55a4da02358ca5145e0145c3fd0bb310e3bec191f102fea4ced33"
+RPM_NAME = "python3-logreduce-0.6.1-4.4.noarch.rpm"
+RPM_HASH = "317a03084855c92abcd216e4f0db7bf82acb2ee6a193b9d931799e3ca42aa1a072735fa2666c0895338865d826eb305ac514963e49ef3398f49eb4348475b64f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-logreduce \
-python3.11dist-logreduce \
+python3.13dist-logreduce \
 python3dist-logreduce"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
-python3-CherryPy \
 python3-PyYAML \
-python3-SQLAlchemy \
 python3-aiohttp \
-python3-alembic \
-python3-gear \
 python3-numpy \
 python3-requests \
 python3-scikit-learn \
-python3-scipy \
-python3-voluptuous"
+python3-scipy"
 
 inherit rpm

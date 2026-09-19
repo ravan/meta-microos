@@ -5,22 +5,22 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.1.0"
 
-RPM_NAME = "ghc-language-javascript-devel-0.7.1.0-4.9.aarch64.rpm"
-RPM_HASH = "db36aeef8749eaaa4fa71f37135b317b33b716024b8d582bb6201910c62147c8959bd4b3fdafbee7bde06a215d77317ffe1aaef2bb2bd3c8d96975b7c5a99137"
+RPM_NAME = "ghc-language-javascript-devel-0.7.1.0-4.37.aarch64.rpm"
+RPM_HASH = "3bff7118a98195a630bf52c99c701854c108ca3d97e9cc0c8e6587da38f51afc7a7e312d5a0731e003a84cc231ae9d52119d7c3a7a92a33044029ed4163a1391"
 
-RPROVIDES:${PN} += "ghc-devel-language-javascript-0.7.1.0-5tkeoDchqnObRztPRYxz4 \
+RPROVIDES:${PN} += "ghc-devel-language-javascript-0.7.1.0-KLLAIgUSnFo2SkJxZVCcjo \
 ghc-language-javascript-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-mtl-2.2.2 \
-ghc-devel-text-2.0.2 \
-ghc-devel-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
+ghc-devel-array-0.5.8.0-2a42 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-blaze-builder-0.4.4.1-DHhu3j9nndC9LUZIrPJCEG \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-mtl-2.3.2-37ef \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-utf8-string-1.0.2-FCJm07Id8m53KWoTjjdHEG \
 ghc-language-javascript"
 
 inherit rpm

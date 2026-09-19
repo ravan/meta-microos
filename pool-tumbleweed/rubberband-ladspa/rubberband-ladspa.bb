@@ -2,10 +2,10 @@ SUMMARY = "LADSPA plugin for librubberband"
 DESCRIPTION = "Package rubberband-ladspa is LADSPA plugin that can change the pitch of a sound in real-time."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.0"
+PV = "4.0.0"
 
-RPM_NAME = "rubberband-ladspa-3.1.0-1.4.aarch64.rpm"
-RPM_HASH = "07f4d721e53bba666de30165ed6960aaf0b45948475476f9b545ddb66195c8d1c4ff4283085cc126a97cdc5b7d191cf290c11cd46d45604cce951483a931a73d"
+RPM_NAME = "rubberband-ladspa-4.0.0-1.6.aarch64.rpm"
+RPM_HASH = "37c8aedea55d63203ddd0e852c3b8ec1e3e17786b2f33f5d65cf0d30cddf35b479b08f0b952e7fe896990b146872a0b25f63e39cce3c09c1c778b243d6224d96"
 
 RPROVIDES:${PN} += "rubberband-ladspa"
 
@@ -14,7 +14,7 @@ libc.so.6 \
 libfftw3.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
-librubberband2 \
+librubberband3 \
 libstdc++.so.6"
 
 inherit rpm

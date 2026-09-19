@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.8.1"
 
-RPM_NAME = "lua53-alt-getopt-0.8.1-4.2.noarch.rpm"
-RPM_HASH = "ba2118febdcbf9a24df5e21e6e943785ddab851f16e0682c371eb6537d698a7cfdf30d9f5315f98a1d2bf4ed2099317288d32041fc3e7f3f0419860c726deef0"
+RPM_NAME = "lua53-alt-getopt-0.8.1-6.3.noarch.rpm"
+RPM_HASH = "d5021873af73ed9acac7de624b93f53de89b1f94b1e5b7162ab028562a02ecf13310ec1f02100c05a357521230f30f788659e99eb7e7c69b8823d3ecd9a7d9c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-alt-getopt"

@@ -8,16 +8,15 @@ automatically loaded on the first attempt to execute it. \
 In addition, a detailed help system is available for Tcl/Tk: tclhelp."
 LICENSE = "BSD-3-Clause & SUSE-Permissive"
 
-PV = "8.6.2"
+PV = "8.6.3"
 
-RPM_NAME = "tclx-8.6.2-1.1.aarch64.rpm"
-RPM_HASH = "dc1123e95c91f0f26c4d0d82e8195989b6ab38ac8a00e8d80bb332aabfcae5b496319bba7a0bebd45dc3be247d2839e9660607bca579e7d1586c1fb203a169f8"
+RPM_NAME = "tclx-8.6.3-1.3.aarch64.rpm"
+RPM_HASH = "3ffdca1ca0ac38b8597d7add70c642ce41bc8aa3d153e67520f60f3d11770495e76caf9dfcb3659e49fabf29c0ba9830dfd3c13f724a62067064b077baf164b0"
 
 RPROVIDES:${PN} += "libtclx8.6.so \
 tclx"
 
-RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6"
 
 inherit rpm

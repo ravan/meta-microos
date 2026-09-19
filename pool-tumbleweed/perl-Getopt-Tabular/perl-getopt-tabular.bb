@@ -1,4 +1,4 @@
-SUMMARY = "table-driven argument parsing for Perl 5"
+SUMMARY = "Table-driven argument parsing for Perl 5"
 DESCRIPTION = "*Getopt::Tabular* is a Perl 5 module for table-driven argument parsing, \
 vaguely inspired by John Ousterhout's Tk_ParseArgv. All you really need to \
 do to use the package is set up a table describing all your command-line \
@@ -12,46 +12,18 @@ replace '@ARGV' with the stripped-down argument list.) If there are any \
 invalid options, 'GetOptions' will print an error message and return 0. \
  \
 Before I tell you all about why Getopt::Tabular is a wonderful thing, let \
-me explain some of the terminology that will keep popping up here. \
- \
-* argument \
- \
-  any single word appearing on the command-line, i.e. one element of the \
-  '@ARGV' array. \
- \
-* option \
- \
-  an argument that starts with a certain sequence of characters; the \
-  default is '-'. (If you like GNU-style options, you can change this to \
-  '--'.) In most Getopt::Tabular-based applications, options can come \
-  anywhere on the command line, and their order is unimportant (unless one \
-  option overrides a previous option). Also, Getopt::Tabular will allow any \
-  non-ambiguous abbreviation of options. \
- \
-* option argument \
- \
-  (or _value_) an argument that immediately follows certain types of \
-  options. For instance, if '-foo' is a scalar-valued integer option, and \
-  '-foo 3' appears on the command line, then '3' will be the argument to \
-  '-foo'. \
- \
-* option type \
- \
-  controls how 'GetOptions' deals with an option and the arguments that \
-  follow it. (Actually, for most option types, the type interacts with the \
-  'num_values' field, which determines whether the option is scalar- or \
-  vector-valued. This will be fully explained in due course.)"
-LICENSE = "GPL-2.0+ | Artistic-1.0"
+me explain some of the terminology that will keep popping up here."
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.3"
+PV = "0.300.0"
 
-RPM_NAME = "perl-Getopt-Tabular-0.3-1.28.noarch.rpm"
-RPM_HASH = "5ebe29a2d863023d4241e6a6b9e595bc8b9458ce122f26edd72ca7e342bd9d6e6afdd8031a72ffa28ff4c837c14f10d0945ca1984e3174e60d4e5883e75236f3"
+RPM_NAME = "perl-Getopt-Tabular-0.300.0-1.9.noarch.rpm"
+RPM_HASH = "ecddc880b5556eba3246c20f2b5dc83b1a68df71a91a385226427dee18ee416577ab441592bf9d6d85c55052a1fc6b5608bd82693a2271629196e5bbc29fa828"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Getopt--Tabular \
 perl-Getopt-Tabular"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

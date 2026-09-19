@@ -3,10 +3,10 @@ DESCRIPTION = "Package rubberband-cli contains a command-line utility that can b
 Rubber Band's capabilities."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.0"
+PV = "4.0.0"
 
-RPM_NAME = "rubberband-cli-3.1.0-1.4.aarch64.rpm"
-RPM_HASH = "f4f30d286042ccd4969c6b98ca5012cf8172237b6b14bec2c90cafb61db629fd3b7d89d582a547af4e13868d4597097c5386715b208f68b7855b7357903588fe"
+RPM_NAME = "rubberband-cli-4.0.0-1.6.aarch64.rpm"
+RPM_HASH = "af5c311cc5e20209694a4cb89a4b8c5cebcf7248324ffbdfa35769ed9ac95b38872fdbfaeee9f35895a6a5986b30d4443b287eb14be0020c7f7ae34335804443"
 
 RPROVIDES:${PN} += "rubberband-cli"
 
@@ -15,7 +15,7 @@ libc.so.6 \
 libfftw3.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
-librubberband2 \
+librubberband3 \
 libsndfile.so.1 \
 libstdc++.so.6"
 

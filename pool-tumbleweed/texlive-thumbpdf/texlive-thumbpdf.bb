@@ -7,10 +7,10 @@ thumbnails. This arrangement works with both plain TeX and \
 LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.17svn62518"
+PV = "2026.227.3.17svn62518"
 
-RPM_NAME = "texlive-thumbpdf-2023.209.3.17svn62518-55.1.noarch.rpm"
-RPM_HASH = "11b483c30605d077d903657398a9ea03a079fffc55bc0777cfe30dbda7ef1cb7b6aacb05f7ba746b60126e8278ef835be9f603f109cb446552d8c29b25a8c206"
+RPM_NAME = "texlive-thumbpdf-2026.227.3.17svn62518-62.2.noarch.rpm"
+RPM_HASH = "0d31aa9306abfd121eec888ab7661ad5bbbd53384926eef4673d6ff3743a11123f2a7b4fc82aa1d1cd8b0a4e6937cc30ec363c4df50047250d0ffa04e6b5110e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thumbpdf.sty \

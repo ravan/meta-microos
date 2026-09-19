@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fduthesis"
 DESCRIPTION = "This package includes the documentation for texlive-fduthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9svn66188"
+PV = "2026.226.0.0.9asvn67231"
 
-RPM_NAME = "texlive-fduthesis-doc-2023.209.0.0.9svn66188-53.1.noarch.rpm"
-RPM_HASH = "abaac14ee0a28fd02587c9026ac6f06015748a874920f93f420dec33a9ce70b195b8c8055c5e49a96860ee83b520ed2ae1f25c85dd59af32f5c4fdc981ce0df3"
+RPM_NAME = "texlive-fduthesis-doc-2026.226.0.0.9asvn67231-59.2.noarch.rpm"
+RPM_HASH = "3cc6d97e1aa2daabc56582c0ec83179ddaf1c04b9c450b5595f94690cb5581971b7724290cc6ee3bfdc1a5ea5f6d83c8a332374bca246434e2dfff8a3dc90bbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-fduthesis-doc-zh;en \

@@ -2,10 +2,10 @@ SUMMARY = "Korean localization files for LibreOffice"
 DESCRIPTION = "Provides Korean translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-ko-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "aa845e91ddbb20854f8aa6616a19c17d122f48d721ee2b2514e37bd546ff4bbcf4bbb132dd661356c6a4b0496c680fe7e9cc62f34589b6a88b26f7a2fd1b9e21"
+RPM_NAME = "libreoffice-l10n-ko-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "a55dead7154d243d288fa17cff205ffa43709cf4c6cc428d811c47aa1f5702a3fbb26444c71caa6114d922e2f48fdb8855794d888af10865f93dd3765b91f99a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ko \

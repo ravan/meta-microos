@@ -4,10 +4,10 @@ database, avoiding the potentially large (macro) impact \
 associated with \\nocite{*}."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn17116"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-biblist-2023.209.svn17116-54.1.noarch.rpm"
-RPM_HASH = "0db223e3108d5f03b1020eb69deb8723c0f1d804fc9677afe62db85c013d9c28bb0bba7ad7bb25b9a32dfc894d51de8015094ca2c9f3501b2ffb6cae86d255ff"
+RPM_NAME = "texlive-biblist-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "5391e9435d267c913b19b0bfa29e0395777cc1008b8af73bbc247e5c0844bf8590fb562bd19e451f2da8e2bfddc1f319d2dcebcfa02dccf2d7db85a945b33796"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblist.sty \

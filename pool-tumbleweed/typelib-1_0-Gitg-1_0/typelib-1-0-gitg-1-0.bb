@@ -4,10 +4,10 @@ convenient tool to visualize git history and actions that benefit from a \
 graphical presentation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "41"
+PV = "50"
 
-RPM_NAME = "typelib-1_0-Gitg-1_0-41-2.10.aarch64.rpm"
-RPM_HASH = "3dcacd86b6b58e70422036d9645dc7f12b69c79a125e68618f16e5ee7e12783fa7349365d78b3e52453aeb8136c0a369125d53d2c348543829963eb28645836c"
+RPM_NAME = "typelib-1_0-Gitg-1_0-50-1.1.aarch64.rpm"
+RPM_HASH = "82fabbdd2adda00085efa5b86555314b346fa16a3e064ea5ea99959af063dde5e5975da51f37cb57a3a41eb9ac8dfe6be88845aebc5914230f0f8428f33f1d6a"
 
 RPROVIDES:${PN} += "typelib-1-0-Gitg-1-0 \
 typelib-Gitg"
@@ -23,6 +23,7 @@ typelib-Gee \
 typelib-Ggit \
 typelib-Gio \
 typelib-Gtk \
+typelib-GtkSource \
 typelib-HarfBuzz \
 typelib-Pango \
 typelib-cairo \

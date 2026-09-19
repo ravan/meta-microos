@@ -3,12 +3,12 @@ DESCRIPTION = "Subtitle Editor is a GTK+3 tool to edit subtitles. \
 It can be used for new subtitles or as a tool to transform, edit, correct \
 and refine existing subtitle. This program also shows sound waves, which \
 makes it easier to synchronise subtitles to voices."
-LICENSE = "GPL-3.0"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "0.54.0"
+PV = "0.56.2"
 
-RPM_NAME = "subtitleeditor-0.54.0-4.17.aarch64.rpm"
-RPM_HASH = "54e631161765f875e88c2a63e885322a4ba2f1c613f7e4a8aa9a30c9e89b8cc318415fab19905ac69997f1573b52100820f8cba671c903eaea7141650aec2eca"
+RPM_NAME = "subtitleeditor-0.56.2-1.4.aarch64.rpm"
+RPM_HASH = "9a713f799619f3f9d67abbd299780616dc0e6ec0080112d655af5c3dfbc3665c662267c076c44d962cae3291d0d2565b18a7bdfcf7a0f9322286cb4e0622d4c8"
 
 RPROVIDES:${PN} += "libabout.so \
 libadjusttime.so \
@@ -16,6 +16,7 @@ libadobeencoredvdntsc.so \
 libadobeencoredvdpal.so \
 libadvancedsubstationalpha.so \
 libapplytranslation.so \
+libautowrap.so \
 libavidds.so \
 libbestfit.so \
 libbitc.so \
@@ -34,6 +35,7 @@ liberrorchecking.so \
 libextendlength.so \
 libexternalvideoplayer.so \
 libfindandreplace.so \
+libfindbytime.so \
 libinsertsubtitle.so \
 libinsertsubtitlefromkeyframe.so \
 libitalicize.so \
@@ -54,6 +56,8 @@ libsami.so \
 libsbv.so \
 libscalesubtitles.so \
 libselection.so \
+libslidetimings.so \
+libslidewords.so \
 libsortsubtitles.so \
 libspellchecking.so \
 libsplitdocument.so \
@@ -90,7 +94,6 @@ libglibmm-2.4.so.1 \
 libgobject-2.0.so.0 \
 libgstpbutils-1.0.so.0 \
 libgstreamer-1.0.so.0 \
-libgstreamermm-1.0.so.1 \
 libgstvideo-1.0.so.0 \
 libgtk-3.so.0 \
 libgtkmm-3.0.so.1 \
@@ -99,6 +102,6 @@ libpangomm-1.4.so.1 \
 libsigc-2.0.so.0 \
 libstdc++.so.6 \
 libsubtitleeditor.so.0 \
-libxml++-2.6.so.2"
+libxml++-3.0.so.1"
 
 inherit rpm

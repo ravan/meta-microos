@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Latin langu
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-lat-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "9c9d05a67a62d7868f1f6b0b2fbcb2bf5161533757eef816de64b4b768afd0c7e704552c6e4fa4652b92cb26f33dba17f85ec98fd934ff8b148fd06c4ead936e"
+RPM_NAME = "tesseract-ocr-traineddata-lat-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "ceec545cb002f099d9d008633e2bce166a5c69da2c757e62a2632d85f365798213fe8fa4ebdd4372ef52f2a6ec212e2bd802041164c26717c89394c493c29bba"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-lat \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-lat \
+tesseract-ocr-traineddata-lat \
 tesseract-ocr-traineddata-latin \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-latin"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

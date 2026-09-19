@@ -7,12 +7,13 @@ still-image compression standard from the Joint Photographic Experts Group \
 This package provides the development files for openjpeg2."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.5.0"
+PV = "2.5.4"
 
-RPM_NAME = "openjpeg2-devel-2.5.0-3.4.aarch64.rpm"
-RPM_HASH = "212365507510766485831bd55f22186f6e0e4859b239418f77bea25ada66cb0ebc4a5905d79682e705f1556870be754d9661332e72016ac4916620ba479a3730"
+RPM_NAME = "openjpeg2-devel-2.5.4-2.6.aarch64.rpm"
+RPM_HASH = "8dc6b4642720c46f2883752f0960b43c3b7dec72511c20ea8ed80001dedddb7664da0c92832ef99df32d80974a73b928935e27f56ebf90bbe1e22857d5fba209"
 
-RPROVIDES:${PN} += "openjpeg2-devel \
+RPROVIDES:${PN} += "cmake-OpenJPEG \
+openjpeg2-devel \
 pkgconfig-libopenjp2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

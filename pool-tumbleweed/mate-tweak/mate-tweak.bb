@@ -11,25 +11,28 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.10.0"
 
-RPM_NAME = "mate-tweak-22.10.0-1.2.noarch.rpm"
-RPM_HASH = "01bf5942515b363b167512a4bbf6b9d59843125396b6a56c5a5485a4b137f98f6fa539c5462311942c77b82f143044d25b17e29b01fb31b9981f3a07ede85fdc"
+RPM_NAME = "mate-tweak-22.10.0-2.5.noarch.rpm"
+RPM_HASH = "04f23f02bbbcd34d19c5ad336b3fdfec0b583e4566e6dfe5d727ffcac02c3fe5d69fe213a879a629c0049860c081ef2c5a087f9d09fb927791b12f46aef14705"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-tweak \
-python3.11dist-mate-tweak \
+python3.13dist-mate-tweak \
 python3dist-mate-tweak"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/python3.13 \
 Mesa-demo-x \
 dconf \
 mate-panel \
+python3-base \
 python3-configobj \
 python3-distro \
 python3-gobject \
 python3-gobject-Gdk \
 python3-psutil \
 python3-setproctitle \
+python3-setuptools \
 typelib-GLib \
 typelib-GObject \
 typelib-Gdk \

@@ -4,10 +4,10 @@ evaluating and debugging of scripts, and advanced use of objects and \
 functions. It also gives access to a low-level ECMAScript engine API."
 LICENSE = "(LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later) & LGPL-2.0-or-later & LGPL-2.1-only"
 
-PV = "5.15.14"
+PV = "5.15.19"
 
-RPM_NAME = "libQt5Script5-5.15.14-1.1.aarch64.rpm"
-RPM_HASH = "a5e7f58889a6f938cdb6f5e8a3ee5193a282f3ee86578bc8a73b7db5b1701a6d791c41a02502cdd8bd42a8a1228c1bc7d278ba79280b5780c4177ddaf29484d9"
+RPM_NAME = "libQt5Script5-5.15.19-1.3.aarch64.rpm"
+RPM_HASH = "ed39af37c221b8b00c6838da6a1f3167358efd193c0e57d6111185635f7794ab02408128258e53cc324c21be6c7b190f2555e9c4610a5e4151ea7edaee0266e1"
 
 RPROVIDES:${PN} += "libQt5Script.so.5 \
 libQt5Script5 \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tocvsec2"
 DESCRIPTION = "This package includes the documentation for texlive-tocvsec2"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3asvn33146"
+PV = "2026.226.1.3asvn77682"
 
-RPM_NAME = "texlive-tocvsec2-doc-2023.209.1.3asvn33146-53.1.noarch.rpm"
-RPM_HASH = "87cb09b73acbc13f7f9c7fbf1e8ea12ee06db98262452bed9378e479aba9ac60553b492f13e10ada583dfd2b895b3dec1f2316fde32b4ea14f5a9df3f4059aa8"
+RPM_NAME = "texlive-tocvsec2-doc-2026.226.1.3asvn77682-59.2.noarch.rpm"
+RPM_HASH = "cc374230fadf8e861eb6526cf392a2a1868829da1d86fa973359bebb833a0b828da4bb663868a3dc4076db1e2f4bea4df28f764d2586c71d69995fd87647a038"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tocvsec2-doc"

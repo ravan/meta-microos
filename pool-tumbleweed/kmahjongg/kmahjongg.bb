@@ -4,30 +4,29 @@ same name. In the game you have to empty a game board filled with piece \
 by removing pieces of the same type."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmahjongg-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "a436d8ff610e86c048c2b88eb9883f7cd789ed66dfb709620bb3ba1344cd7756df6916604209e46fec4d3a735ef938cdbeda72698a018d470171c97e2d847064"
+RPM_NAME = "kmahjongg-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "fe7472151cdebb3897239fbd7dbe05ee31088bcdfb207fee6e401692cdbca0f9e8aaa5d43b6fe7d7ec3e48f2d6edca9da15d9d3d029c87046c11b34d1c976652"
 
 RPROVIDES:${PN} += "kmahjongg \
 kmahjongg5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5KMahjongglib.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKMahjongg6.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

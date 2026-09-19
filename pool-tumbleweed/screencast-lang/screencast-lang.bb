@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "screencast-lang-1.0.0-2.11.noarch.rpm"
-RPM_HASH = "0f01c827ec2fd0b7a40258007e42f34f96063ddaf704197d59e234d9bf0e3327ea0624661e25270789619786c170b18c8cb93002f6d8156e6cd5a445a94f5fba"
+RPM_NAME = "screencast-lang-1.0.0-3.8.noarch.rpm"
+RPM_HASH = "2901140fcede6c07fbf42d94d8c641840e11f749003b47b8665f91b8f96d7ab887600f007b0b495e3de89ba407c0a89a30119107b5d6d2f933184a49a7b4d873"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-screencast-af \

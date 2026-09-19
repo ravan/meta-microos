@@ -3,10 +3,10 @@ DESCRIPTION = "This package includes the libraries (scripts) that are included b
 of the standard checks."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-common-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "679726a0e6983b57f042112eb4d0d907b09a58841cd46295e6b3b1880c5a80829a948618bde02f70a30e78825238ac05a3c57478d33f220b231e8fbe30b50a70"
+RPM_NAME = "monitoring-plugins-common-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "5259ec1028051e0c7bb49964cd99fbf46b560f4914faaab10ac1a7ce6112cc8f472699f8b49d2270e3230325c65f07d0cebe7441bf1bdfe1552ca217028988de"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-common \
 monitoring-plugins-common \

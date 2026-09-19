@@ -2,21 +2,21 @@ SUMMARY = "Haskell http-types library development files"
 DESCRIPTION = "This package provides the Haskell http-types library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.12.3"
+PV = "0.12.5"
 
-RPM_NAME = "ghc-http-types-devel-0.12.3-6.9.aarch64.rpm"
-RPM_HASH = "97a53c289c7591ce513746323cc85a8f3f8f8b07ed98918cbcaab747e2cac119fc7877b7ab5259fd488bb5ba30f294d3f4832ba0f8c17a3f5fce2e808d2ee274"
+RPM_NAME = "ghc-http-types-devel-0.12.5-1.3.aarch64.rpm"
+RPM_HASH = "8d65920dc2910af0e3e03c3c799dc2cf32728bc0dce206bfd98e740ecd41db6d09a3976940228e323c703800bf8abd5db9e132527e0bed9e9b5c8b0de07e9770"
 
-RPROVIDES:${PN} += "ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
+RPROVIDES:${PN} += "ghc-devel-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
 ghc-http-types-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
-ghc-devel-text-2.0.2 \
+ghc-devel-array-0.5.8.0-2a42 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-case-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC \
+ghc-devel-text-2.1.4-cf23 \
 ghc-http-types"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "ProFTPD is a configurable FTP daemon for Unix and Unix-like \
 operating systems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.7f"
+PV = "1.3.9c"
 
-RPM_NAME = "proftpd-1.3.7f-1.4.aarch64.rpm"
-RPM_HASH = "138b244ff56a4f13c5d66a1fc472bd8a0034474b7651bf44b6d0b93eb10f28b20e368e79fe560e7d0ce8875d265e3f5dd4b6b389a50faf158eb307a93fb820a5"
+RPM_NAME = "proftpd-1.3.9c-2.1.aarch64.rpm"
+RPM_HASH = "6fb93cbc9234ddb8dcd6f189d70737f396ed151bf1f164de440c730ee62941ba17252cfd28fe82acfb165fc59996625cd7c81d78c565d0d804f08489b0cc7345"
 
 RPROVIDES:${PN} += "config-proftpd \
 proftpd"
@@ -19,14 +19,15 @@ libacl.so.1 \
 libc.so.6 \
 libcrypt.so.1 \
 libcrypto.so.3 \
-libhiredis.so.1.1.0 \
+libhiredis-ssl.so.1.3.0 \
+libhiredis.so.1.3.0 \
 libmemcached.so.11 \
 libmemcachedutil.so.2 \
 libncursesw.so.6 \
 libpam.so.0 \
-libpcre.so.1 \
-libpcreposix.so.0 \
-libsodium.so.23 \
+libpcre2-8.so.0 \
+libpcre2-posix.so.3 \
+libsodium.so.26 \
 libssl.so.3 \
 libtinfo.so.6 \
 libz.so.1 \

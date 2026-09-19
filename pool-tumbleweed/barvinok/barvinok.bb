@@ -3,10 +3,10 @@ DESCRIPTION = "This is a library for computing homotopy continuation of a given 
 of one dimensional sections of bivariate complex polynomials."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.41.7"
+PV = "0.41.8"
 
-RPM_NAME = "barvinok-0.41.7-1.1.aarch64.rpm"
-RPM_HASH = "6068f85f8e454ade7e8a8883f7ccabff0625b17c7f4d536c2e76ba497875c0b6ae58b62b28793c9d88916549dce40ba9f1cd770badb86890259d61783bd48ec7"
+RPM_NAME = "barvinok-0.41.8-1.8.aarch64.rpm"
+RPM_HASH = "9a10856c67f2b135d05cbad40fb700714409c300fd0c373325c06d0195cee4d7848b010b51d7eb82e9773c738b5ec4843be44642f335865e2ec618209545997d"
 
 RPROVIDES:${PN} += "barvinok \
 bundled-4ti2"
@@ -17,7 +17,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libgmp.so.10 \
 libisl.so.23 \
-libntl.so.44 \
+libntl.so.45 \
 libpolylibgmp.so.8 \
 libstdc++.so.6"
 

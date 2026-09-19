@@ -19,10 +19,10 @@ historical basis of amslatex, which should now be used to \
 prepare submissions for the AMS."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.01svn66186"
+PV = "2026.226.2.01svn77830"
 
-RPM_NAME = "texlive-amstex-2023.209.2.01svn66186-55.1.noarch.rpm"
-RPM_HASH = "4f581b2c664fa75f9302a03a61a95b6ceb05b317fff9a64d0d2c081ee24040d53415d92b6727e45f033f4f4ad13c92a0ef7f265fa7157bc51943ac499cad5017"
+RPM_NAME = "texlive-amstex-2026.226.2.01svn77830-61.2.noarch.rpm"
+RPM_HASH = "3aada1e98fa6db62e0b152d17f4e42ce41e821dc730a861434a06d816b91c83370978ec6ba8680ff63869845af7523ac62bd4b3c0236c823178fbb0ec411244a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-amstex \
@@ -49,6 +49,7 @@ texlive-hyphen-base \
 texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-pdftex \
 texlive-plain \
 texlive-scripts \
 texlive-scripts-bin \

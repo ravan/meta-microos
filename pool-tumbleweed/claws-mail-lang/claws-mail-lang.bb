@@ -2,10 +2,10 @@ SUMMARY = "Translations for package claws-mail"
 DESCRIPTION = "Provides translations for the 'claws-mail' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.1.1"
+PV = "4.4.0"
 
-RPM_NAME = "claws-mail-lang-4.1.1-2.7.noarch.rpm"
-RPM_HASH = "b0eb892b87d87bdc69acdf0c5a1352ad4aa468bd945ace08fdedadab31cca6c49b7447e06f209985c0ac59097e65188cc4b05e5e9dfc5795f24f24bed11e03a0"
+RPM_NAME = "claws-mail-lang-4.4.0-1.7.noarch.rpm"
+RPM_HASH = "1fc221404a7b89a0c2a2bfbbbe2b60624be1440d1347df1e30b0641a21392c20324575d7e0d08fffa9f9385bfa76d93b0da8b1935cb0c7ffce49a45b9b5f9edd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "claws-mail-lang \
@@ -26,9 +26,11 @@ locale-claws-mail-nb \
 locale-claws-mail-nl \
 locale-claws-mail-pl \
 locale-claws-mail-pt-BR \
+locale-claws-mail-pt-PT \
 locale-claws-mail-ro \
 locale-claws-mail-ru \
 locale-claws-mail-sk \
+locale-claws-mail-sq \
 locale-claws-mail-sv \
 locale-claws-mail-tr \
 locale-claws-mail-zh-TW"

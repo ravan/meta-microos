@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.26.0"
 
-RPM_NAME = "mate-netbook-lang-1.26.0-1.9.noarch.rpm"
-RPM_HASH = "f79b6ddb4f2f86140747abac28616dc39e3e07194dd5271de844f47243b27d45a20bcdd68c1a68486823f347c19fcbdfbe3cb421e64f4ef04e2df5a9c8f9352f"
+RPM_NAME = "mate-netbook-lang-1.26.0-1.20.noarch.rpm"
+RPM_HASH = "57655eb719f526b0e98312381a0bf6bc83eca3bcc96f6e1688f5df2fceda286bb686a46ec71b8b2acc738b3dc215dd3365050292545d44fc25337a090ee42a0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-netbook-af \

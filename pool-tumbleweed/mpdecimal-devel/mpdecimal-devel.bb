@@ -3,14 +3,17 @@ DESCRIPTION = "The package contains documentation and development headers for \
 libmpdec and libmpdec++."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.5.1"
+PV = "4.0.1"
 
-RPM_NAME = "mpdecimal-devel-2.5.1-2.14.aarch64.rpm"
-RPM_HASH = "454f5150bd5b89f848430f884c8148b1735600043e97a4c2cce30178558b53b7536c18d05c6172f21b70eab5d7a5ac824c96992bf1ff953f9c7320bd9f0e1d8b"
+RPM_NAME = "mpdecimal-devel-4.0.1-2.6.aarch64.rpm"
+RPM_HASH = "9b5f80dc607dce90717c1bfb1b5968dee60f959e225fc44bb89bb7bb6844cc987157f2532c6eb8afa402e59b703be6a4b487390c1b684b50f26445a0687b935c"
 
-RPROVIDES:${PN} += "mpdecimal-devel"
+RPROVIDES:${PN} += "mpdecimal-devel \
+pkgconfig-libmpdec \
+pkgconfig-libmpdec++"
 
-RDEPENDS:${PN} += "libmpdec++3 \
-libmpdec3"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libmpdec++4 \
+libmpdec4"
 
 inherit rpm

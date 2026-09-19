@@ -8,10 +8,10 @@ containing the version and date of compilation. The package \
 requires hyperref, catchfile, pdftexcmds, and datetime."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn63920"
+PV = "2026.226.1.4svn76924"
 
-RPM_NAME = "texlive-gitver-2023.209.1.4svn63920-54.2.noarch.rpm"
-RPM_HASH = "f5516a8c747af71004eabdd54a0f415c22b02b4d5376722ceae3c43b09cdc03aab1d526fd2261bec4bf82eae7ce770d002b35427c93def0c00a674f260d888d9"
+RPM_NAME = "texlive-gitver-2026.226.1.4svn76924-60.4.noarch.rpm"
+RPM_HASH = "ba3eb3ceffea17c107da729cfd1bb2cf087c75d3b52e0e851e7f6db3133d800f68524a1328b8060382023a395a482c1485db5c8e0170cac60ca8849945a76cd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gitver.sty \

@@ -2,13 +2,15 @@ SUMMARY = "Translations for package pavucontrol"
 DESCRIPTION = "Provides translations for the 'pavucontrol' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.0"
+PV = "6.2"
 
-RPM_NAME = "pavucontrol-lang-5.0-1.10.noarch.rpm"
-RPM_HASH = "29fe935f9c941c40acd33425098e56e639f5fb1b6c1156cf94859367a6a28769d7c9a1dfbf9dd11551328486641d34fbb71ecc36195939e8b2d86dd71a8fe144"
+RPM_NAME = "pavucontrol-lang-6.2-1.3.noarch.rpm"
+RPM_HASH = "117a0cb8cd72656a4b06c2ea2565d4f3bb6623c01c5529ec7991c914d468b125d4a374b9cb244b0f9899988cb0944f16248e314e4516b4059a5ca871e456bbe5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-pavucontrol-as \
+RPROVIDES:${PN} += "locale-pavucontrol-af \
+locale-pavucontrol-ar \
+locale-pavucontrol-as \
 locale-pavucontrol-ast \
 locale-pavucontrol-be \
 locale-pavucontrol-bn-IN \
@@ -28,8 +30,10 @@ locale-pavucontrol-he \
 locale-pavucontrol-hi \
 locale-pavucontrol-hr \
 locale-pavucontrol-hu \
+locale-pavucontrol-id \
 locale-pavucontrol-it \
 locale-pavucontrol-ja \
+locale-pavucontrol-ka \
 locale-pavucontrol-kk \
 locale-pavucontrol-kn \
 locale-pavucontrol-ko \
@@ -44,6 +48,7 @@ locale-pavucontrol-pa \
 locale-pavucontrol-pl \
 locale-pavucontrol-pt \
 locale-pavucontrol-pt-BR \
+locale-pavucontrol-ro \
 locale-pavucontrol-ru \
 locale-pavucontrol-si \
 locale-pavucontrol-sk \

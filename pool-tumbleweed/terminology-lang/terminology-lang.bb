@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & OFL-1.1"
 
 PV = "1.13.0"
 
-RPM_NAME = "terminology-lang-1.13.0-1.3.noarch.rpm"
-RPM_HASH = "3988e270668af51d7de4ab3a87e057fee3b5fb6c37f16cc90f4b04fb5651afe1d816ac66744df7685346768b3010c18b533673c2b9731cd9be6827ef4179f7df"
+RPM_NAME = "terminology-lang-1.13.0-1.13.noarch.rpm"
+RPM_HASH = "f239ff23717ccaef1c12bbe293f539607ed20ff9756645a5c1ca39bf9b39376ed9b00f5b81f20cdcd1f125a96a8be1da061225364726ba0fd6c206eb6b9b6973"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-terminology-ca \

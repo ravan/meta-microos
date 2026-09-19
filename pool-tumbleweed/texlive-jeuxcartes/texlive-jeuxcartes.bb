@@ -4,10 +4,10 @@ or hand, or random-hand, Poker or French Tarot or Uno, from png \
 files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.3svn66190"
+PV = "2026.226.0.0.3.5svn76966"
 
-RPM_NAME = "texlive-jeuxcartes-2023.209.0.0.2.3svn66190-56.1.noarch.rpm"
-RPM_HASH = "04f919b76f6721f872bea982abe17f14ceb350f873d5e4868b334614aea0002278eee5e4893cde07fbfe361332304d1e07d029839e3b76f93f88b21754e03a18"
+RPM_NAME = "texlive-jeuxcartes-2026.226.0.0.3.5svn76966-63.2.noarch.rpm"
+RPM_HASH = "472351f1543f01bf125e1b965bd3438aca19de94c37cf2b137197c9f88febcf2d44cf4a3476d485f535fea2a1580decd425df0218e483cec944df9a288414e6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-JeuxCartes.sty \
@@ -26,10 +26,7 @@ tex-pifont.sty \
 tex-randomlist.sty \
 tex-simplekv.sty \
 tex-tikz.sty \
-tex-xcolor.sty \
-tex-xfp.sty \
 tex-xinttools.sty \
-tex-xparse.sty \
 tex-xstring.sty \
 texlive \
 texlive-filesystem \

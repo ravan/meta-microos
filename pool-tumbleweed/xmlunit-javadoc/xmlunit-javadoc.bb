@@ -1,11 +1,11 @@
 SUMMARY = "Javadoc for xmlunit"
 DESCRIPTION = "Javadoc for xmlunit. Also contains userguide."
-LICENSE = "BSD-3-Clause"
+LICENSE = "Apache-2.0"
 
-PV = "1.6"
+PV = "2.11.0"
 
-RPM_NAME = "xmlunit-javadoc-1.6-2.7.noarch.rpm"
-RPM_HASH = "0e3ec6f5d2a784b6b366a51cb6b4515eb071760b8631ff7f39761c26b00701502da49d721e6dfd3688ff08202d0795442ccf5912d7818c0824a4f17ec3381765"
+RPM_NAME = "xmlunit-javadoc-2.11.0-2.4.noarch.rpm"
+RPM_HASH = "1df72c165585dd49a13fe35c94c2c0dd2c008b99b170546c4b668f00534f737c02ef4a6a6e29c91b5578258c673c944f5a000c6535d8a277326e75abe6ed517b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlunit-javadoc"

@@ -5,15 +5,15 @@ application. \
 This package provides the GObject Introspection bindings for gspell."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.12.2"
+PV = "1.14.4"
 
-RPM_NAME = "typelib-1_0-Gspell-1-1.12.2-1.1.aarch64.rpm"
-RPM_HASH = "b0cdff8b0280340633deca8b5369d35e72b660e5eeb6111496440c92330620380afbbdffee75f11b4d33f1c156f6002d8b0625408f8a2dfdd5075902299e72e8"
+RPM_NAME = "typelib-1_0-Gspell-1-1.14.4-2.1.aarch64.rpm"
+RPM_HASH = "83394fe44356533f2a1893b05f93e02ec6a2986a985881927268d80e319943d151f82d8e22bc0788a3e095392dfea362ed66a0aa5939e7d5b227b21927527a5f"
 
 RPROVIDES:${PN} += "typelib-1-0-Gspell-1 \
 typelib-Gspell"
 
-RDEPENDS:${PN} += "libgspell-1.so.2 \
+RDEPENDS:${PN} += "libgspell-1.so.3 \
 typelib-Atk \
 typelib-GLib \
 typelib-GModule \

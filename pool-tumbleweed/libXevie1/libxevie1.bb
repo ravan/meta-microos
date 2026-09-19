@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.3"
 
-RPM_NAME = "libXevie1-1.0.3-13.1.aarch64.rpm"
-RPM_HASH = "520dc007ad9a9459f67275fa44d920ee00c32cce3ebe2d1766e2994edb98437bb62295fd8b5ba0a4a8762624f69c053b75d034f5aeabc118ddb94868a1b5a547"
+RPM_NAME = "libXevie1-1.0.3-13.11.aarch64.rpm"
+RPM_HASH = "5bca563bb1dfa96d49116bc7c0f56b683ccf898c78e2c9ff008fd60027fae9631f1622dd17160bfd6c7575016e81dbeb2964c2899d99d29e975dd8df58aedbe7"
 
 RPROVIDES:${PN} += "libXevie.so.1 \
 libXevie1"

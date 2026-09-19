@@ -5,10 +5,10 @@ for use in writing mathematical software. \
 This package contains the documentation files"
 LICENSE = "BSD-3-Clause"
 
-PV = "6.3.0"
+PV = "7.9.0"
 
-RPM_NAME = "sundials-doc-6.3.0-2.5.noarch.rpm"
-RPM_HASH = "3e9b0887dac9d1c71954f9cf84ff7ac7058304a17acd8d7ec1c4d245d24d41c302dbae87d81d50908ca0f0d19a54d4a510843d15e9ccc125b111acdf500ba4c0"
+RPM_NAME = "sundials-doc-7.9.0-1.1.noarch.rpm"
+RPM_HASH = "405803b0fc5031ec80e2a2c5706c2c058dcfb379d7900e655221a63ec99a922e53a6303f1937969524da985c66ecd955ec9c59ffc51b1f436429f7a03ab31e7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sundials-doc"

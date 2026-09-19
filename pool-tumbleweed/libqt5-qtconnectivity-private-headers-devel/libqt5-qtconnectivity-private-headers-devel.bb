@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde4"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtconnectivity-private-headers-devel-5.15.10+kde4-1.1.noarch.rpm"
-RPM_HASH = "8e5b63a2410793b19e8b6157594c648e7e6032e9199d1d318329d094168257a1e7f5430a29b256d594694abed608d54d75baf4fec5231003c5a094f6d31483ca"
+RPM_NAME = "libqt5-qtconnectivity-private-headers-devel-5.15.19+kde0-1.2.noarch.rpm"
+RPM_HASH = "29d6390ba33d7e7e56766fa33061359a141b3399e415f53d30640251d00165b750719e69a75bd4f87a17a72190f12c5b8d756c38bc3805c67007b476d23bc9c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtconnectivity-private-headers-devel"

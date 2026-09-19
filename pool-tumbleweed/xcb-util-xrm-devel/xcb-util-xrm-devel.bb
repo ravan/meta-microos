@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.3"
 
-RPM_NAME = "xcb-util-xrm-devel-1.3-1.10.aarch64.rpm"
-RPM_HASH = "89448e008dc195b2c8e1b53dc811af17b897f5e17656ccd8569cbc18d4408aeccaa7424b1beeaf75164bac8ab07d7596509f96b47564457ef854e533a7fe3320"
+RPM_NAME = "xcb-util-xrm-devel-1.3-1.20.aarch64.rpm"
+RPM_HASH = "9589001bfe8c3386a8043be5f7ea93ee94c6e0bf0cee7f1ab5e38caa652d1b50301444fc08b13d29f0c8df562986bd34530c173b1aebf0e4c163e7e1b1e6e165"
 
 RPROVIDES:${PN} += "pkgconfig-xcb-xrm \
 xcb-util-xrm-devel"

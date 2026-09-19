@@ -5,10 +5,10 @@ can be used as a library or as an independent spell checker. \
 This package contains the aspell library."
 LICENSE = "GFDL-1.1-or-later & LGPL-2.1-only & HPND & SUSE-BSD-Mark-Modifications"
 
-PV = "0.60.8"
+PV = "0.60.8.2"
 
-RPM_NAME = "libaspell15-0.60.8-5.5.aarch64.rpm"
-RPM_HASH = "7aef986176457049d14f1605f63553493eb8a22ef74bb6347257046bb5b84f94100c93ed90d67da8269fae000bb9b863b7e9f4373633ba1d051406533e545a44"
+RPM_NAME = "libaspell15-0.60.8.2-1.3.aarch64.rpm"
+RPM_HASH = "096084b045c6781672c1c42fcc27eddfa29da2e1d1b96bff2e893859a156d6034898abe65d81263547fd7452f5cf3fafe1c1bbff2888cf2cb93b244e35f61a7c"
 
 RPROVIDES:${PN} += "libaspell.so.15 \
 libaspell15"

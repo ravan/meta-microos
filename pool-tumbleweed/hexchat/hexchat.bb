@@ -5,10 +5,10 @@ talk publicly, private one-on-one conversations, etc. File transfers \
 are possible."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.16.1"
+PV = "2.16.2"
 
-RPM_NAME = "hexchat-2.16.1-2.8.aarch64.rpm"
-RPM_HASH = "cabbcb8398f62d272ae3c4140d5377e3fec962188be2912d8c54bb9d3736a372ab60ff707e8da1612bfa40d5b3986cef6937adf26697ae1e7d1df5ac07f3d659"
+RPM_NAME = "hexchat-2.16.2-4.1.aarch64.rpm"
+RPM_HASH = "88df1f48aadfa7f918a62e9852c412d115b8eee0e3e7afecc14e7de16e5df409075be861f286dd4a036d06139dcdaef014dff65c07ed41e5a265c8e3cc621661"
 
 RPROVIDES:${PN} += "hexchat \
 xchat"

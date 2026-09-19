@@ -3,21 +3,21 @@ DESCRIPTION = "The firewall panel applet provides a status information of firewa
 the firewall settings."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.0"
+PV = "2.3.2"
 
-RPM_NAME = "firewall-applet-2.0.0-2.1.noarch.rpm"
-RPM_HASH = "9a2715609a891653d6602d10b990cdfcf7e9dc3d14680ffad6effb7727b76c225210608225d0d10b4594b53eb3bc02b7b109fc26115f12ae010fc5571e0f0e0e"
+RPM_NAME = "firewall-applet-2.3.2-2.1.noarch.rpm"
+RPM_HASH = "bfb3a6976bc59b656f53093cc2ffb1381ccb8b90a48ca292797c3b2ff50c11117b9b3341e9bad878d7036da96007c7520dad4cc59af790a8346d7caa5041125a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-firewall-applet \
 firewall-applet"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 firewall-config \
 hicolor-icon-theme \
+python3-PyQt6 \
 python3-gobject \
-python3-qt5 \
 typelib-Notify"
 
 inherit rpm

@@ -8,10 +8,10 @@ commands and basic windows manipulations and provides a preferences dialog for \
 advanced tweaks."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "xfwm4-4.18.0-1.4.aarch64.rpm"
-RPM_HASH = "9756e6541faeaf79fb336cfe6528a555458aa0c1f24a6316aeb47266e754f39d32c3e0ba82c29431c088c50b693e17eed8568c5a9dec48455781805ea24c28af"
+RPM_NAME = "xfwm4-4.20.0-1.8.aarch64.rpm"
+RPM_HASH = "deab071fef72e0212c1720815c3b620bc0baa6d624658a4829d47b05c706366d92d152e8bb14cd5e88488815b7b60a97bb8338a75ab8417aedcb93e8ca310ef7"
 
 RPROVIDES:${PN} += "windowmanager \
 xfwm4 \

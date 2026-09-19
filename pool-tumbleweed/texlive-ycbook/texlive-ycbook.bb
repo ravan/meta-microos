@@ -8,10 +8,10 @@ the most common LaTeX classes, while keeping a clear appearance \
 and a smooth flow."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn46201"
+PV = "2026.226.svn46201"
 
-RPM_NAME = "texlive-ycbook-2023.209.svn46201-53.2.noarch.rpm"
-RPM_HASH = "4a96eaa0037024fe4e1b0f11acfb81672273c026ad8c4856ea0cc85d818bb32e4bf458893dda0247f79b5b752b0bdd78d121163f891768897788e6b5a5be4c8e"
+RPM_NAME = "texlive-ycbook-2026.226.svn46201-59.4.noarch.rpm"
+RPM_HASH = "c2f92a468a52837852ab323741b6a064ea5ad0a1f312b6b66118f66bcf4e832295c11033b3c2390353c353fcdc92b7066eb828540e8bbeaec6ac79c3a38e1d37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ycbook.cls \

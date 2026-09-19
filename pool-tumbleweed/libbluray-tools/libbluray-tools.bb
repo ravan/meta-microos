@@ -4,15 +4,15 @@ intended for software that want to support Blu-ray playback (such as VLC and \
 MPlayer). We, the authors of this library, do not condone nor endorse piracy."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.4"
+PV = "1.4.1"
 
-RPM_NAME = "libbluray-tools-1.3.4-1.4.aarch64.rpm"
-RPM_HASH = "ef7dc97837954a388aca5d93c8a1ebdf738ce65df7edac0615055750c9d85f53ef9846d99586396f8237d439bd28c932f21e7e8aa92dec9a2c6488fe2bccea78"
+RPM_NAME = "libbluray-tools-1.4.1-1.3.aarch64.rpm"
+RPM_HASH = "1cf4c78dad1582b5c708687d36cb65f1a687576359a3f9225fcc1061eca3993fde849263db12f1b245b81b0c408ed62e085a64b90fcfc382996a91bb855b83d8"
 
 RPROVIDES:${PN} += "libbluray-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libbluray.so.2 \
+libbluray.so.3 \
 libc.so.6"
 
 inherit rpm

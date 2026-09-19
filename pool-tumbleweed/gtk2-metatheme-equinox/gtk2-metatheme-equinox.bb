@@ -1,12 +1,12 @@
 SUMMARY = "Equinox Metathemes for GTK+"
 DESCRIPTION = "This package provides a set of elegant GTK+ themes that use the Equinox \
 engine."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50"
 
-RPM_NAME = "gtk2-metatheme-equinox-1.50-10.29.aarch64.rpm"
-RPM_HASH = "802cc7bc9ff17b0b51faf3a5d1e0cb18909f64f5d4d31183df5fb262a12cbbafe1925759d980f3202b7b5c69e07e32d87e84ea529899117506107b493ce087a3"
+RPM_NAME = "gtk2-metatheme-equinox-1.50-11.8.aarch64.rpm"
+RPM_HASH = "1ca677dd6d8bc1c226ea8362480e27d1c632768298b3837bf7984bcc2e3a30719de206188f191e7b956132c0eae9d3acedfe255fd1b64a114092a45f9ac3d602"
 
 RPROVIDES:${PN} += "gtk2-metatheme-equinox"
 

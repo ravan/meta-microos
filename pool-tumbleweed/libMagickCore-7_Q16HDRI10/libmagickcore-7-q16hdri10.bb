@@ -10,10 +10,10 @@ the command line as well as through C, C++, and Perl-based programming \
 interfaces."
 LICENSE = "ImageMagick"
 
-PV = "7.1.1.15"
+PV = "7.1.2.30"
 
-RPM_NAME = "libMagickCore-7_Q16HDRI10-7.1.1.15-1.1.aarch64.rpm"
-RPM_HASH = "fe697bbacd4c038dab1b31f88f11975f1fcf21ad47fd1d7260c90d214df12926fee7c0ee89940a481e9411a88a328dfad4fad32caf2face5e62e72b15542dd0a"
+RPM_NAME = "libMagickCore-7_Q16HDRI10-7.1.2.30-1.1.aarch64.rpm"
+RPM_HASH = "f994634b39b90ab8f83b2c3299e4023fc5153feed44534eb354207b0ba0c9c23028ba13b59aac9c541d9750c0db53227bbc627dbc4a3ff93baf6aa89aeafaded"
 
 RPROVIDES:${PN} += "libMagickCore-7-Q16HDRI10 \
 libMagickCore-7.Q16HDRI.so.10"
@@ -21,7 +21,8 @@ libMagickCore-7.Q16HDRI.so.10"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 imagick-config-7 \
 ld-linux-aarch64.so.1 \
-libOpenEXR-3-1.so.30 \
+libOpenEXR-3-4.so.33 \
+libOpenEXRCore-3-4.so.33 \
 libX11.so.6 \
 libXext.so.6 \
 libbz2.so.1 \
@@ -35,8 +36,8 @@ libgobject-2.0.so.0 \
 libheif.so.1 \
 libjbig.so.2 \
 libjpeg.so.8 \
-libjxl-threads.so.0.8 \
-libjxl.so.0.8 \
+libjxl-threads.so.0.11 \
+libjxl.so.0.11 \
 liblcms2.so.2 \
 liblqr-1.so.0 \
 libltdl.so.7 \
@@ -45,13 +46,13 @@ libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
-libraw-r.so.23 \
+libraw-r.so.25 \
 librsvg-2.so.2 \
 libtiff.so.6 \
 libwebp.so.7 \
 libwebpdemux.so.2 \
 libwebpmux.so.3 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

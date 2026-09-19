@@ -2,49 +2,47 @@ SUMMARY = "Winbind Daemon libraries"
 DESCRIPTION = "This package contains the libraries required by the Winbind daemon."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "samba-winbind-libs-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "7010d87c96a861d36cbf3382b92781a481bdc4c99b3a5483f7ab1733b6ef8f50ea26c629da38e75197fcfbfc04966bbdc46ca1163eaf0ee94cca67e8656a4769"
+RPM_NAME = "samba-winbind-libs-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "6464d3c96d7ffd39c54bb614e9111cf86d6da996113c010f8a0572bd7d773e5ca82e532c51d9ace46675a9813cc3f60d7cc78fea09943f20a7ebee71f18a2ccf"
 
-RPROVIDES:${PN} += "libidmap-samba4.so \
-libnss-info-samba4.so \
+RPROVIDES:${PN} += "libidmap-private-samba.so \
+libnss-info-private-samba.so \
 libnss-winbind.so.2 \
 samba-winbind-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libads-samba4.so \
-libasn1util-samba4.so \
+libads-private-samba.so \
+libauthkrb5-private-samba.so \
 libc.so.6 \
-libcli-ldap-common-samba4.so \
+libcli-ldap-common-private-samba.so \
 libcom-err.so.2 \
-libdbwrap-samba4.so \
-libgensec-samba4.so \
-libgse-samba4.so \
+libdbwrap-private-samba.so \
+libgenrand-private-samba.so \
+libgse-private-samba.so \
 libkrb5.so.3 \
 libldap.so.2 \
-libndr.so.3 \
+libldb.so.2 \
 libpam.so.0 \
-libreplace-samba4.so \
-libsamba-debug-samba4.so \
+libsamba-debug-private-samba.so \
 libsamba-errors.so.1 \
 libsamba-hostconfig.so.0 \
-libsamba-modules-samba4.so \
+libsamba-modules-private-samba.so \
 libsamba-passdb.so.0 \
-libsamba-security-samba4.so \
-libsamba-sockets-samba4.so \
+libsamba-security-private-samba.so \
 libsamba-util.so.0 \
-libsamba3-util-samba4.so \
-libsecrets3-samba4.so \
+libsamba3-util-private-samba.so \
+libsecrets3-private-samba.so \
 libsmbconf.so.0 \
 libsmbldap.so.2 \
-libsmbldaphelper-samba4.so \
+libsmbldaphelper-private-samba.so \
 libtalloc.so.2 \
 libtdb.so.1 \
 libtevent-util.so.0 \
 libtevent.so.0 \
-libutil-tdb-samba4.so \
+libutil-tdb-private-samba.so \
 samba-client-libs"
 
 inherit rpm

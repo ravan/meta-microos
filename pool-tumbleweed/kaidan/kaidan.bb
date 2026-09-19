@@ -1,43 +1,55 @@
 SUMMARY = "A XMPP client based on KDE Framework"
 DESCRIPTION = "Kaidan is a simple Jabber/XMPP client providing a user-interface using \
 Kirigami and QtQuick. The back-end of Kaidan is entirely written in C++ \
-using the qxmpp XMPP client library and Qt 5."
+using the qxmpp XMPP client library and Qt 6."
 LICENSE = "AML & GPL-3.0-or-later & SUSE-GPL-3.0+-with-openssl-exception & MIT & CC-BY-SA-4.0"
 
-PV = "0.9.1"
+PV = "0.16.0"
 
-RPM_NAME = "kaidan-0.9.1-1.2.aarch64.rpm"
-RPM_HASH = "92c68ac3f67d43525d3e9e79ad9f48640d4d39048b3accca29810f8f0642a51d19b3d978419cce8112ee2132fc0472460a59641c9cc6e83a4bbef2fee078c1d5"
+RPM_NAME = "kaidan-0.16.0-1.2.aarch64.rpm"
+RPM_HASH = "8bca3dc3d89967b16cd78bcffbbe5bf14cfe1d92dd1afc37267cfa94ab51f2e0cebd7877ae287214e75c44298265f573fd26152308211c002b6bfad890ec9749"
 
 RPROVIDES:${PN} += "kaidan"
 
-RDEPENDS:${PN} += "kirigami-addons \
-kirigami2 \
-kquickimageeditor-imports \
+RDEPENDS:${PN} += "gstreamer-plugins-good-qtqml6 \
+kf6-kirigami-imports \
+kf6-prison-imports \
+kirigami-addons6 \
+kquickimageeditor6-imports \
 ld-linux-aarch64.so.1 \
-libKF5CoreAddons.so.5 \
-libKF5ItemViews.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libQXmppOmemo.so.4 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Network.so.5 \
-libQt5Positioning.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libZXing.so.3 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6ItemModels.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6Notifications.so.6 \
+libKF6Prison.so.6 \
+libKF6WindowSystem.so.6 \
+libQXmppOmemoQt6.so.10 \
+libQXmppQt6.so.10 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Positioning.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libm.so.6 \
-libqt5-qtquickcontrols2 \
-libqxmpp.so.4 \
-libstdc++.so.6"
+libglib-2.0.so.0 \
+libgobject-2.0.so.0 \
+libgstreamer-1.0.so.0 \
+libicuuc.so.78 \
+libkdsingleapplication-qt6.so.1.2 \
+libqt6keychain.so.1 \
+libstdc++.so.6 \
+qt6-declarative-imports \
+qt6-location \
+qt6-multimedia-imports \
+qt6-positioning-imports \
+qt6-sql-sqlite"
 
 inherit rpm

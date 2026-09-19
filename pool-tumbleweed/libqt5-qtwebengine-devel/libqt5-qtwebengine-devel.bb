@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 WebEngine library"
 DESCRIPTION = "You need this package if you want to compile programs with Qt WebEngine."
 LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.15.15"
+PV = "5.15.19"
 
-RPM_NAME = "libqt5-qtwebengine-devel-5.15.15-1.1.aarch64.rpm"
-RPM_HASH = "bee714bfa9c799d0c6c8ff6d401a77edb2e8eee1abaaf7f83188bfc6f7502916f083e06a0a003305b89eaf01627d3ebc5a75398beaabf442c209c3b6639840d9"
+RPM_NAME = "libqt5-qtwebengine-devel-5.15.19-3.3.aarch64.rpm"
+RPM_HASH = "98f6153dcdaf36c07f27b1901c0509a222ef8a352f81414fe549cb8e45fc17eee1b3a23ffdf726f6f95825690d768cb9ef4cc557b7fd15d1a32676eeb75ea475"
 
 RPROVIDES:${PN} += "cmake-Qt5WebEngine \
 cmake-Qt5WebEngineCore \

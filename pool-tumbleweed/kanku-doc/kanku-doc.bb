@@ -2,10 +2,10 @@ SUMMARY = "Documentation files for kanku"
 DESCRIPTION = "This package contains the documentation files for kanku."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.14.0"
+PV = "1.0.0"
 
-RPM_NAME = "kanku-doc-0.14.0-1.5.noarch.rpm"
-RPM_HASH = "bc8958230e2f96497e67d1efca58ea09a8915399b7d784fd856404d7998a0151b34cc78c725bd53499f9a376e53f9a6f477ce0317744643a54e2caa66d7fe8fb"
+RPM_NAME = "kanku-doc-1.0.0-2.2.noarch.rpm"
+RPM_HASH = "f4c1266d348f7c9638ed22879a703d92278fed29a270e7d021dfd3c5ed913ec42036c4d8a737292fed617f195d784e8f8b4882099a9bbe91c2365ccee89ae1af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-doc"

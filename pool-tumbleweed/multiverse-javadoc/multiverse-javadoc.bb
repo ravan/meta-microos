@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "multiverse-javadoc-0.7.0-3.11.noarch.rpm"
-RPM_HASH = "b76c9e6f55a4e4573e6763e873bfcb618c3115efbbf13f29ce07fa4c71d53d0c7909bf44aa650bf94aea31caf3980fbc85a3fc4d339c665046138d1a39ac7918"
+RPM_NAME = "multiverse-javadoc-0.7.0-3.21.noarch.rpm"
+RPM_HASH = "14d5a1534a2ca59db1beaada495b874184fea193b8813ee2a5542c34cfae7f623c017392be53108853297d92b0f4b859061d6709a4fe91b1539a18d4f4365d3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "multiverse-javadoc"

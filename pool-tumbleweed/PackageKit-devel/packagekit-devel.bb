@@ -4,10 +4,10 @@ configuration files and development tools (with manual pages) needed to \
 compile and link applications using PackageKit."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.5"
+PV = "1.3.6"
 
-RPM_NAME = "PackageKit-devel-1.2.5-9.4.aarch64.rpm"
-RPM_HASH = "624abebadf0389298f9e07f02033dc7fbe1a055f886f1e12f84750c3ff8d4c04a75e0bc290d08a09d1a5efdae14b3184d496b701febdb224f32e380aad27b26e"
+RPM_NAME = "PackageKit-devel-1.3.6-2.1.aarch64.rpm"
+RPM_HASH = "f22c60f97b4bbbe83b7cb7e53899b5e475aa09240a31943c7d9502e689424e99ea95ee47139985ce5ad46af1e284dda17449264b158b92dca3a883b8758291a4"
 
 RPROVIDES:${PN} += "PackageKit-devel \
 libpk-backend-test-fail.so \
@@ -16,7 +16,7 @@ libpk-backend-test-spawn.so \
 libpk-backend-test-succeed.so \
 libpk-backend-test-thread.so"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/env \
 PackageKit \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

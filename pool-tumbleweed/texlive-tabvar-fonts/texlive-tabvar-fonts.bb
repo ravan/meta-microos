@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-tabvar"
 DESCRIPTION = "The  separated fonts package for texlive-tabvar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8svn63921"
+PV = "2026.227.1.8svn63921"
 
-RPM_NAME = "texlive-tabvar-fonts-2023.209.1.8svn63921-55.1.noarch.rpm"
-RPM_HASH = "65ee7db8e142edeb9bf7c4ae838d92b7d782490d2fcbcf154ca73f8846fa984b213a2cbc5f1dea4142aac02a92089efb8dee53b914d0b990e121e0617f70cc6c"
+RPM_NAME = "texlive-tabvar-fonts-2026.227.1.8svn63921-62.2.noarch.rpm"
+RPM_HASH = "5a7096eb7dabcd6dad519bd31c3c475cfc25fb62c1e1d83e0d3f2c71d215a4cdba6f5ce2da84be110c8d1e2e6926135a8b7993a4430f2e933f39c01c9e7171f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-tabvar \

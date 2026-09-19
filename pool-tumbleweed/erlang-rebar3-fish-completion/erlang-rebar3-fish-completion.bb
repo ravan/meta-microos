@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for erlang-rebar3"
 DESCRIPTION = "The official fish completion script for rebar3."
 LICENSE = "Apache-2.0"
 
-PV = "3.18.0"
+PV = "3.23.0"
 
-RPM_NAME = "erlang-rebar3-fish-completion-3.18.0-1.2.noarch.rpm"
-RPM_HASH = "b0691cf09db294818136fb9bcbb566c43fdbdfeacf0d67152b41cb79a2da1181c50848e145b61b1c8150c41f5a40a0b34719a92cfb23bdc392a2c83296082041"
+RPM_NAME = "erlang-rebar3-fish-completion-3.23.0-2.9.noarch.rpm"
+RPM_HASH = "47d195cea0a2cca2af4ddbe456ffa605ae07295438b797e4687d37b1a6153a8f77fcb2c8464e3406ebb4d253e27c8b23d54db220807bc4d80368782b3b2fce38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "erlang-rebar3-fish-completion"

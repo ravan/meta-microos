@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-docmute"
 DESCRIPTION = "This package includes the documentation for texlive-docmute"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn25741"
+PV = "2026.226.1.4svn78101"
 
-RPM_NAME = "texlive-docmute-doc-2023.209.1.4svn25741-53.1.noarch.rpm"
-RPM_HASH = "f78df9d9052301c66060ae4f4f4f077fb9013002bb29f032be86b10141907e7d1de97a2e81b6f861ea14d83a98f13751008ff4d6620a824cf326ae15799fbc11"
+RPM_NAME = "texlive-docmute-doc-2026.226.1.4svn78101-59.2.noarch.rpm"
+RPM_HASH = "8222564e44407f847a1965188341f2038bcb289eaa35e2e187e98ebae7c154c7c23e036cf6e9f28122afc80f4fcc649655c35c12bec1f95128504c02e01be44b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-docmute-doc"

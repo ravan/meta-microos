@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5ItemViews5"
 DESCRIPTION = "Provides translations for the 'libKF5ItemViews5' package."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5ItemViews5-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "298df856b2bcec3a084461ba5903094da8ba292014fb855e01e441d2f09a3cd501a462d595653e7ba035ba7dac38aafcd9cf4702e1a4329398cad1a6c697c1f0"
+RPM_NAME = "libKF5ItemViews5-lang-5.116.0-1.8.noarch.rpm"
+RPM_HASH = "c70e41b6c2f70c9bb259445879c90d64d3035b11b722fb558fbb7e956b4710541b804d14e2a98d8bcde8dd078bf7583753de7f58100e9170530b776f07ca7766"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5ItemViews5-lang \

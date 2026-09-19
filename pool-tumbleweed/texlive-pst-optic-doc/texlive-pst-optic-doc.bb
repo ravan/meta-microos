@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-optic"
 DESCRIPTION = "This package includes the documentation for texlive-pst-optic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn62977"
+PV = "2026.226.1.05svn72694"
 
-RPM_NAME = "texlive-pst-optic-doc-2023.209.1.02svn62977-53.1.noarch.rpm"
-RPM_HASH = "d9bec42bac4685ec6714fff894b176f016ab3255a08a0702fb965caf894b2114d0ed7611836ab3fece409fc71be3a403b094e3a937b16cc4179417510949cb3c"
+RPM_NAME = "texlive-pst-optic-doc-2026.226.1.05svn72694-59.2.noarch.rpm"
+RPM_HASH = "516240a7563b86efc4fbc3cc90c5f0f859927bde8d69ddc4bdd242f15d2a36f4cdd8a81e545bab5b11fd612fe79a8760223822884cde1d8e8b23caec6c88755a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-optic-doc"

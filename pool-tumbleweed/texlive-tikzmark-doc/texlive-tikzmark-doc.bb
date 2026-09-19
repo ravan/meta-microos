@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikzmark"
 DESCRIPTION = "This package includes the documentation for texlive-tikzmark"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.15svn64819"
+PV = "2026.226.1.15svn64819"
 
-RPM_NAME = "texlive-tikzmark-doc-2023.209.1.15svn64819-53.1.noarch.rpm"
-RPM_HASH = "1c9b0542e081324360b5a6fa977a5408dd353c0321abca98bf50fc7bc75765be6246e3d9935343a07987c0aa4ddde83cf8ec68ab3a540e289c68be3000407f39"
+RPM_NAME = "texlive-tikzmark-doc-2026.226.1.15svn64819-59.2.noarch.rpm"
+RPM_HASH = "193caf5e656fdc1c4746acd13cb2a709a5171bb9fbcef51a7840fccac456a743159e66084e4a26c273556dfb9cae14c08afa40a66b5f8b0886142e65ec61d988"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzmark-doc"

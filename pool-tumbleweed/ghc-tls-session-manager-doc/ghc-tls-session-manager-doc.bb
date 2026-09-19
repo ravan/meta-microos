@@ -2,10 +2,10 @@ SUMMARY = "Haskell tls-session-manager library documentation"
 DESCRIPTION = "This package provides the Haskell tls-session-manager library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.4"
+PV = "0.1.0"
 
-RPM_NAME = "ghc-tls-session-manager-doc-0.0.4-4.6.noarch.rpm"
-RPM_HASH = "8b1dc1201d34eacc5f334c9d9aa7435029cb4401c3f835d17113f3b901df20b66c7a3e219cc2ce953cde56cd6b0b66e2d076f1ab041d8a4b0ea5779052df03aa"
+RPM_NAME = "ghc-tls-session-manager-doc-0.1.0-1.2.noarch.rpm"
+RPM_HASH = "c2ed338c0bd2dd9d3028165d80149d4981878b7016212f42530b204df1fd6d3d4a1c440e917caa19c8dd9b1af76414fd0b363e42014e682c7edfa738292c7158"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-tls-session-manager-doc"

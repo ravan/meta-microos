@@ -8,10 +8,10 @@ can be used. A powerful template system is available to easily \
 develop new styles. A LyX layout file is provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn59272"
+PV = "2026.226.1.7svn77682"
 
-RPM_NAME = "texlive-powerdot-2023.209.1.7svn59272-53.1.noarch.rpm"
-RPM_HASH = "2ba1eb4d0619167481e2cfd9a198ea945ca63ed18e71bae6f1ddb1b96597183da9429f3b10e863339ddd9ac9a47362973f82a01d62b79e28d5072d8bb73cfabf"
+RPM_NAME = "texlive-powerdot-2026.226.1.7svn77682-59.2.noarch.rpm"
+RPM_HASH = "c58cdaa2ab146a5264e09a4f3a9ff50e024b31bd52962ca393d749da4adf945c6d8403147736b4113406e40ffd8ac770a4937e181b47017d239b57d45ff46a52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-powerdot-aggie.sty \

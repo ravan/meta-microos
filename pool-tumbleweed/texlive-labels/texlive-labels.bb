@@ -9,10 +9,10 @@ Rows, columns, borders can all be specified to match the label \
 sheet being used."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.13svn15878"
+PV = "2026.226.0.0.13svn15878"
 
-RPM_NAME = "texlive-labels-2023.209.0.0.13svn15878-56.1.noarch.rpm"
-RPM_HASH = "142259aff968547e784f3371653d3c9bdcca72f2b4f1508a923c1f038d34939d13dd1ac3f6fe60d98bb804bbc26b56bec88d268e3f1b51d5271c444880ab9c9f"
+RPM_NAME = "texlive-labels-2026.226.0.0.13svn15878-63.2.noarch.rpm"
+RPM_HASH = "5fa97b513f11918da840e80ec878788d42dc6f875fc8b6ed6ce07564a7d1ff14c312c7b4071788448076846906b16a00e68422607f6fe0782d40bd4b2e45e340"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-labels.sty \

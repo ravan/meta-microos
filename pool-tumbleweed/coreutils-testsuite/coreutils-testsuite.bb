@@ -13,13 +13,13 @@ the GNU fileutils, sh-utils, and textutils packages. \
   uptime users vdir wc who whoami yes"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.4"
+PV = "9.11"
 
-RPM_NAME = "coreutils-testsuite-9.4-1.1.aarch64.rpm"
-RPM_HASH = "9d26848f0465274e6fea21042dafa327fb09af10be84debe93d787e5c826c249c3856524707211a4955103b06e66bfeeb20f3e02e9e420fe61c814c6fd708e9a"
+RPM_NAME = "coreutils-testsuite-9.11-5.1.aarch64.rpm"
+RPM_HASH = "8928162e7df564e4fd92564ddc0804cff0fddf23a54487aea71973bb37f0664a83ddc31ee9e8f8ee3ab182676f4b8d9ba084a5224b5cd866f444b4ab0cfe2e10"
 
 RPROVIDES:${PN} += "coreutils-testsuite"
 
-RDEPENDS:${PN} += "/usr/bin/sh"
+RDEPENDS:${PN} += ""
 
 inherit rpm

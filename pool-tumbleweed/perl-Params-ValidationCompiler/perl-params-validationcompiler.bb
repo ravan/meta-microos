@@ -7,10 +7,10 @@ In addition to type checks, it also supports parameter defaults, optional \
 parameters, and extra 'slurpy' parameters."
 LICENSE = "Artistic-2.0"
 
-PV = "0.31"
+PV = "0.310.0"
 
-RPM_NAME = "perl-Params-ValidationCompiler-0.31-1.3.noarch.rpm"
-RPM_HASH = "50b3f2aa27fbc3b31800e150ce8fecc98dbce02bf67a44aa6e19dd87a5a95b92c70a882ae5dbdcebd7f98332acd4d62f3aa9194b0879ee40023f3b2945f5fb3c"
+RPM_NAME = "perl-Params-ValidationCompiler-0.310.0-1.5.noarch.rpm"
+RPM_HASH = "fd575dddb38b1d6f46383b1a55e1e529bcf0b12b68f4a53fbe9a5ebcfc826e864a14e17e78f02707dc93447e9a82e07df886fc70d5e189c6dae0a6c6f8a056fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Params--ValidationCompiler \
@@ -18,7 +18,7 @@ perl-Params--ValidationCompiler--Compiler \
 perl-Params--ValidationCompiler--Exceptions \
 perl-Params-ValidationCompiler"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Eval--Closure \
 perl-Exception--Class \
 perl-List--Util"

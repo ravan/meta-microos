@@ -9,10 +9,10 @@ generated within the package, while those for German are \
 generated using the package zahl2string."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn29173"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-fnumprint-2023.209.1.1asvn29173-53.1.noarch.rpm"
-RPM_HASH = "d88e33ddcd1c1191ba67a383c65aa4783a54dff4385f80a3d8467381e6d6fc19581e5e75f6f4ddb56a675d59ee1f934a9db50f416c00299370b1d488f596b509"
+RPM_NAME = "texlive-fnumprint-2026.226.1.1asvn77682-60.2.noarch.rpm"
+RPM_HASH = "557044e8fb444ff824113e1716c28bf05dc6512f8f91ecf0d9c7b43f2e1638de0ee004be5380b675df972fe105dcead5e279a6edeb8d365ba2343c85362f3c0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fnumprint.sty \

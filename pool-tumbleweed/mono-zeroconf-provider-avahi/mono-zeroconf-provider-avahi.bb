@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "mono-zeroconf-provider-avahi-0.9.0-22.18.noarch.rpm"
-RPM_HASH = "923071042a01e0dff61e331b37822a8c8c7e23d6452fbf045102d0b428723e897a32b1a6509dfb51502dc44983faf0cc3c82425fc307551173bed8d74300e6bc"
+RPM_NAME = "mono-zeroconf-provider-avahi-0.9.0-23.6.noarch.rpm"
+RPM_HASH = "f5557a6e8092e0e783f1f69c65ba725e46aa3226576fa70843061b087dac7e7a83f7fccde12bc86f94c67f109a39be96903cb3eeb7f93f5d5cd6f4fe3b46c4ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-Mono.Zeroconf.Providers.AvahiDBus \

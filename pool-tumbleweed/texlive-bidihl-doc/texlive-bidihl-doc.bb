@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bidihl"
 DESCRIPTION = "This package includes the documentation for texlive-bidihl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1csvn37795"
+PV = "2026.226.0.0.1csvn77682"
 
-RPM_NAME = "texlive-bidihl-doc-2023.209.0.0.1csvn37795-54.1.noarch.rpm"
-RPM_HASH = "2581c300a14263fb43d1631789cd181e64f5e87489e188438fca90913d6aa68dbfa6d21ee69674830bb3f0bef9cd0f80530f541ae6aa3d311a91695b19bb1627"
+RPM_NAME = "texlive-bidihl-doc-2026.226.0.0.1csvn77682-61.2.noarch.rpm"
+RPM_HASH = "508f94a3a4ae9433d8bd5725117fcb0fa98f251a6a81f4d0717c879024ab1ac62a5164a9baaae13c8f6f9c5d0720d74beb802d8f492c03d9818d1f9c659acc44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bidihl-doc"

@@ -1,16 +1,16 @@
 SUMMARY = "Python 3 libraries for the RADOS block device"
 DESCRIPTION = "This package contains Python 3 libraries for interacting with Ceph RADOS \
 block device."
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "python3-rbd-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
-RPM_HASH = "77275cb89d473b9b0ffdbda04a061af2ed6843bf9738d0eb1a4be116368641fddb27d56d8305a9a395dee60a758459876b0de834f5c19c32588d344b6c5267ab"
+RPM_NAME = "python3-rbd-18.2.7-8.1.aarch64.rpm"
+RPM_HASH = "5bc2eb44c49c143e34e02350d82d3b7aa9b913ba5ed6a9d3ab2e4fba629f1634542c4f6b1143c33516761b41fece52359d129a510f00abdb65723a3dbb186eff"
 
 RPROVIDES:${PN} += "python-rbd \
 python3-rbd \
-python3.11dist-rbd \
+python3.13dist-rbd \
 python3dist-rbd"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

@@ -3,7 +3,7 @@ DESCRIPTION = "The package provides a Perl script that converts a .sty file \
 (LaTeX package) to .dtx format (documented LaTeX source), by \
 surrounding macro definitions with macro and macrocode \
 environments. The macro name is automatically inserted as an \
-argument to the macro environemnt. Code lines outside macro \
+argument to the macro environment. Code lines outside macro \
 definitions are wrapped only in macrocode environments. Empty \
 lines are removed. The script should not be thought to be fool \
 proof and 100% accurate but rather as a good start to the \
@@ -14,10 +14,10 @@ automatically to the 'Usage' section of the .dtx file. A \
 corresponding .ins file can be generated as well."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.4svn64967"
+PV = "2026.226.2.4svn76924"
 
-RPM_NAME = "texlive-sty2dtx-2023.209.2.4svn64967-58.1.noarch.rpm"
-RPM_HASH = "fdb0b547c5315725c9ff084628f8eddda1ef3265a855744602705ba864442aa28bef95ae2058daafeda55c03a6385eb83d817f3ec1efd08329dd7e2c3ae25b2f"
+RPM_NAME = "texlive-sty2dtx-2026.226.2.4svn76924-64.2.noarch.rpm"
+RPM_HASH = "bba3acbf35f0edbd9f4a87fdc094a563cae3ae742f86e76fac92b8e93fd9f3997ee222a202a534aa5e4adf6f08fc578bb7d604157102a17b98211b7d7f5fe3b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sty2dtx"

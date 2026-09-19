@@ -5,10 +5,10 @@ same author. It also provides a few user commands to assist in \
 creating Japanese documents using (u)pLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn66187"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-pxbase-2023.209.1.4svn66187-54.2.noarch.rpm"
-RPM_HASH = "cba04019a6fc10c03eb545573164219ca2cfc41061852960f80b24e43144ed888bc67efbe0c4116556de080d6b1515911dca6cdc4db6fc40b8895514d6f59665"
+RPM_NAME = "texlive-pxbase-2026.226.1.4svn77682-60.4.noarch.rpm"
+RPM_HASH = "6dce288820e0aff81c645bdf9492e496fd172c64a8016d8b256be600ee59864eb9e6490cd578d70d36744c191b24dffd09f8c4f0c0e829f60f559bade3d7fb1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxbabel.sty \

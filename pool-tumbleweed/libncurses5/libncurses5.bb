@@ -5,17 +5,15 @@ controlling output to the screen and input from the user. \
 This package contains the library built with the version 5 ABI."
 LICENSE = "MIT"
 
-PV = "6.4.20230819"
+PV = "6.6.20260815"
 
-RPM_NAME = "libncurses5-6.4.20230819-19.1.aarch64.rpm"
-RPM_HASH = "182581fa94f4eaacd7bc3144399d5b8ec0d97c08ea56cb47c5d320ea9f79ad95eae33c3c17f620212f74c171f4b261f23550055b5286b2ebb502f742c2794507"
+RPM_NAME = "libncurses5-6.6.20260815-111.1.aarch64.rpm"
+RPM_HASH = "727d1c2ee2d641ca83fb95ff06f4d92694ddc4b82c8438df9706e8d9a20ba714c07bf69f725bdbdf81a8693038a7bef49f4e9013600d49cdf647e8e3840db240"
 
 RPROVIDES:${PN} += "libform.so.5 \
 libformw.so.5 \
 libmenu.so.5 \
 libmenuw.so.5 \
-libncurses++.so.5 \
-libncurses++w.so.5 \
 libncurses.so.5 \
 libncurses5 \
 libncursesw.so.5 \
@@ -30,8 +28,6 @@ ncurses"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgcc-s.so.1 \
-libstdc++.so.6 \
 terminfo-base"
 
 inherit rpm

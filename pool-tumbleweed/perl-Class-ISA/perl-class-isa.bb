@@ -19,13 +19,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.36"
 
-RPM_NAME = "perl-Class-ISA-0.36-10.28.noarch.rpm"
-RPM_HASH = "2cc8935944a7ab19cf3d7a647e73cbe8abe94de65ace1158a0e1e8d2c5bfa58c1d377244e70032d4993904e4e73d221032376ff4a001dd6f2a71a7b46b413e0c"
+RPM_NAME = "perl-Class-ISA-0.36-10.42.noarch.rpm"
+RPM_HASH = "15c49e1ea4b6d53398ebeff694ba14dd1e1ce42295aeae61f5a2d6cc4b36bf0bf1cab1c5458c3f97bb7c1c7a42fbda1736ad240195fb6a66adb276b8108f8ed5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--ISA \
 perl-Class-ISA"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

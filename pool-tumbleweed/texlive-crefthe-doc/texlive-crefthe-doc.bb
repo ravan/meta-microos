@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-crefthe"
 DESCRIPTION = "This package includes the documentation for texlive-crefthe"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64498"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-crefthe-doc-2023.209.svn64498-55.1.noarch.rpm"
-RPM_HASH = "461c14f756f9e321491021cde52cd8a7532d6d94c855eb80905eccb4d4a41455636aa1021cd66fff271c6c95aa142a3d7eb763cdbf2bf0837bf98859d9d90b3b"
+RPM_NAME = "texlive-crefthe-doc-2026.226.svn76924-61.2.noarch.rpm"
+RPM_HASH = "c9d1e827aaf308ea6ee5d27aa71b574035c9496477791e3002faeb7f00f4517dd64565fd7193d7e1e47929b5b367150fa292ead63f22894d5dcf0bfc4321b076"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-crefthe-doc"

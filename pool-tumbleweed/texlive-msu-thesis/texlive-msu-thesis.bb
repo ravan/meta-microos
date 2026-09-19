@@ -8,10 +8,10 @@ class is based on the memoir document class, and inherits the \
 functionality of that class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.0bsvn65462"
+PV = "2026.226.4.3bsvn71883"
 
-RPM_NAME = "texlive-msu-thesis-2023.209.4.0bsvn65462-55.1.noarch.rpm"
-RPM_HASH = "454ce8e1714c126a380f11a7e147f19b2b96fb3ee8731e822b7bbe3fe1965a3661c295642a587d56bb98d0d8826e52912b4242a34ff55a732b787254cd6bf4f4"
+RPM_NAME = "texlive-msu-thesis-2026.226.4.3bsvn71883-61.2.noarch.rpm"
+RPM_HASH = "0db02b831b4f7bda717a608b55c19bad9a75543e5c1566057fdbee27f187d965900b0994cea4bcf56760df56432d62b66b6dd8633179d11d99e3f9c29d2fcdbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-msu-thesis.cls \
@@ -25,6 +25,7 @@ grep \
 sed \
 tex-etex.sty \
 tex-etoolbox.sty \
+tex-expl3.sty \
 tex-memoir.cls \
 tex-pdflscape.sty \
 tex-textpos.sty \

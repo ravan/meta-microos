@@ -2,10 +2,10 @@ SUMMARY = "File Server"
 DESCRIPTION = "File services to host files so that they may be accessed or retrieved by other computers on the same network. This includes the FTP, SMB, and NFS protocols."
 LICENSE = "MIT"
 
-PV = "20210330"
+PV = "20250313"
 
-RPM_NAME = "patterns-server-file_server-20210330-5.1.aarch64.rpm"
-RPM_HASH = "27c03c862178ed679d0708d9770cf07ca76a03e0211d4705bec3f65c034b6587c812870c102ed8bccee201db95a9c914baa2859886ba5c733eef2cf8c555ba16"
+RPM_NAME = "patterns-server-file_server-20250313-5.2.aarch64.rpm"
+RPM_HASH = "f0a137e4a3e08e23c86d5f6d53540b02f1d672591e166d98b0b03d063d7ae293418ac4c4a3bb074c9c4830c3a9fbe3892319087fe39d5359bd15e901e16d4986"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

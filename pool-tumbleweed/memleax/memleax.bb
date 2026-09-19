@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.1.1"
 
-RPM_NAME = "memleax-1.1.1-3.3.aarch64.rpm"
-RPM_HASH = "f30ac6695fe4fc0425d41a8fdf059e25f9c50b748a6bcc712c24ccf95ebc012a41a42e73b4f2d05132316f83e0ccdadc6c8d4729ddf695fb4c11e6cd7b77a115"
+RPM_NAME = "memleax-1.1.1-3.13.aarch64.rpm"
+RPM_HASH = "cab0825e5ffb83907ee2e70642b8d309babf585ccb57e8e4cb1485ad3528f2004c4ae164b3748183fe18fa12d738f0ef0ccdaf7a5c4c572be9e6c188f51898a3"
 
 RPROVIDES:${PN} += "memleax"
 

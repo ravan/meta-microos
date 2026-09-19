@@ -3,45 +3,50 @@ DESCRIPTION = "Hotspot is a standalone GUI for performance data with an UI like 
 around Linux perf."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.1"
+PV = "1.6.0"
 
-RPM_NAME = "hotspot-1.4.1-1.4.aarch64.rpm"
-RPM_HASH = "83b6a3563204cc2d135e54e4811a8b7b9eede9dbb9b1a8fcd9f3d0bc0e8983191a0930a034be2c9060621c26fbd442a5ca0dc3303936160a74afde4661dc8251"
+RPM_NAME = "hotspot-1.6.0-2.2.aarch64.rpm"
+RPM_HASH = "41a4d6f3b7abf208750bb4e815e2ce4a61bd52cac925c1cfb7dc6a97b1ab399e17e3feea5d2354a0b5ea3edc77e8861447175dd422bc28cd37955b9dbc5f4bd0"
 
-RPROVIDES:${PN} += "hotspot"
+RPROVIDES:${PN} += "bundled-hotspot-PrefixTickLabels \
+bundled-hotspot-perfparser \
+hotspot"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5Parts.so.5 \
-libKF5Solid.so.5 \
-libKF5SyntaxHighlighting.so.5 \
-libKF5ThreadWeaver.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
+RDEPENDS:${PN} += "binutils \
+ld-linux-aarch64.so.1 \
+libKF6Archive.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Notifications.so.6 \
+libKF6Parts.so.6 \
+libKF6Solid.so.6 \
+libKF6SyntaxHighlighting.so.6 \
+libKF6ThreadWeaver.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libdebuginfod.so.1 \
 libdw.so.1 \
 libelf.so.1 \
 libgcc-s.so.1 \
-libkddockwidgets.so.1.7 \
+libkddockwidgets-qt6.so.3 \
 libm.so.6 \
-libqcustomplot.so.2 \
+libqcustomplot-qt6.so.2 \
 libstdc++.so.6 \
 libzstd.so.1 \
-perf"
+perf \
+pkexec"
 
 inherit rpm

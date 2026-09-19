@@ -2,10 +2,10 @@ SUMMARY = "Haskell microlens-platform library documentation"
 DESCRIPTION = "This package provides the Haskell microlens-platform library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.3.3"
+PV = "0.4.4.2"
 
-RPM_NAME = "ghc-microlens-platform-doc-0.4.3.3-2.6.noarch.rpm"
-RPM_HASH = "9327ebc3061c7bb2519442a94ba05400081ac6852f6675aab278d8fc5c9cbe156b5e3c427aeb30ef7a919b157852214f3d1a394ae6af65cdda6bdecbc7b247e0"
+RPM_NAME = "ghc-microlens-platform-doc-0.4.4.2-1.11.noarch.rpm"
+RPM_HASH = "dfffb5ec983fe3a91c3c6fb638b6147848873137e2210a4a73ea75767fd248e64d94b49f60f763e1dbc5db00e95aafa37d1eb193c25a4ad57c5cd442b73a7217"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-microlens-platform-doc"

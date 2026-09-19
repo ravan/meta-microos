@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.21"
 
-RPM_NAME = "caribou-gtk-module-common-0.4.21-8.8.aarch64.rpm"
-RPM_HASH = "63f6b52f857a433654c35608372295c0f64f4657cf4dd88758d025518873148d9295a440e36f33064483de582d56b5a2a9048468599915adfe0908fe36d52e6d"
+RPM_NAME = "caribou-gtk-module-common-0.4.21-10.7.aarch64.rpm"
+RPM_HASH = "13bda0d0a1d12ce92c9c48917f68193a1c247584cdcf45a123bdbb43c327a8615cc8162f8ae0b462235c639f74377169b718911227edea6797cdd33cb3024400"
 
 RPROVIDES:${PN} += "caribou-gtk-module-common"
 

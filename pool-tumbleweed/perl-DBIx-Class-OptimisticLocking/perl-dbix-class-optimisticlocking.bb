@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.02"
 
-RPM_NAME = "perl-DBIx-Class-OptimisticLocking-0.02-1.28.noarch.rpm"
-RPM_HASH = "5f7578ef83200b22bfc4fd448e14b198a7fe0c034cd4e513e27d2dded95ef084fd7039cd44df896e766864a4e03c27d99aea07e75c348709717bd5094293cade"
+RPM_NAME = "perl-DBIx-Class-OptimisticLocking-0.02-1.42.noarch.rpm"
+RPM_HASH = "47fa76c88c33b34d923dd97978abef53348bfda7fcdc39b3dffcf42f2430f68c861b575367970b460dfa43357a9b022959a631befcd8aa0d1b47b1cf528431f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--OptimisticLocking \
 perl-DBIx-Class-OptimisticLocking"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBIx--Class"
 
 inherit rpm

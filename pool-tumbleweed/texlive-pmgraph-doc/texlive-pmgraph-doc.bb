@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pmgraph"
 DESCRIPTION = "This package includes the documentation for texlive-pmgraph"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-pmgraph-doc-2023.209.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "c968a97aa31df7d612a4bf542459607c50988edb677b044dd074d4f630fbd6452bb3533df7c9f32dd2f5adfe8b4a7cb40f9b83c9b1b3a1cf57657473788997d2"
+RPM_NAME = "texlive-pmgraph-doc-2026.226.1.0svn15878-59.2.noarch.rpm"
+RPM_HASH = "b349215cdb91a89456906266e4f1aac41abcb8f27d1d13ed48018bb4d5d8b48e0843a52884d349fb07d77a43cf8980dcdc83d0208b32fcb2435b308b65058751"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pmgraph-doc"

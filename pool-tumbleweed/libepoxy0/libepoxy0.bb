@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.5.10"
 
-RPM_NAME = "libepoxy0-1.5.10-2.2.aarch64.rpm"
-RPM_HASH = "0772d515b7b0d0a5742f4fe88061e6cd46e4b417f68240da1d961381d2cdd370ba0f363e05f72eef92707f5ae485d50b76c882fda2ec0d770a8e5f87e64969a2"
+RPM_NAME = "libepoxy0-1.5.10-2.11.aarch64.rpm"
+RPM_HASH = "3e8d746e9156fd3bea41c346d6c3823b9caf343dcb0e2ee933b2dc6da1998fab02f6fe36371347f319a217dbf8a416430c1b2de9c4630eea2a64921eec055ed2"
 
 RPROVIDES:${PN} += "libepoxy.so.0 \
 libepoxy0"

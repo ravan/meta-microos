@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.21"
 
-RPM_NAME = "perl-Module-Install-1.21-1.3.noarch.rpm"
-RPM_HASH = "187bdd8bbcf533cf02279de61acc6000af70a490bfa497179dd5a048558910e3b383a519c106c0f6559b77204c8577bb2c4e5bd99d738092f0b322f68a5a141c"
+RPM_NAME = "perl-Module-Install-1.21-1.17.noarch.rpm"
+RPM_HASH = "42f43c660133c31da6998614d13e5ebfac3aea65e5e10c6d052a4946e0da4b147b3e6a5f80ee0fae1398bda69e745040345fc3e247871230cd9c7955946dd93c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--AutoInstall \
@@ -52,7 +52,7 @@ perl-Module--Install--WriteAll \
 perl-Module-Install \
 perl-inc--Module--Install"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Devel--PPPort \
 perl-ExtUtils--Install \
 perl-ExtUtils--MakeMaker \

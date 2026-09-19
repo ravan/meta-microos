@@ -17,10 +17,10 @@ all of them are standard packages and should be part of every \
 LaTeX installation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn63509"
+PV = "2026.226.1.01svn63509"
 
-RPM_NAME = "texlive-coverpage-2023.209.1.01svn63509-55.1.noarch.rpm"
-RPM_HASH = "94799b6aabac9c4f6c066282a2520e617a9888e118d781b12bd911991f7068d2f4e8d2f717934f2a8e00c66b5ea7e9082d49368886e734d4d032c05ffbe3df99"
+RPM_NAME = "texlive-coverpage-2026.226.1.01svn63509-61.2.noarch.rpm"
+RPM_HASH = "69ca56a25e51dd8ea9112330205d8fe5ab29f555eade25ba04a2b014aa897733a9be9052d5a585ef280ce6cf9cec2c959f29a0f654c976ad9922eaa58b10ee4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CoverPage.cfg \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.3"
 
-RPM_NAME = "mustang-plug-1.4.3-2.2.aarch64.rpm"
-RPM_HASH = "3b3b17cab2ebe0df26e5b9c64d358dcfc1725a724306b0fc5b1c9b5518cc2d79b3a68592ab6a5f2b8a53f15418ff1562b401ab3e694b4b8bb4e82d8e76b6a3cd"
+RPM_NAME = "mustang-plug-1.4.3-2.12.aarch64.rpm"
+RPM_HASH = "22fa6383b5c75c9ec2a2eea44100edbddaad80f26e477c6ae3c2820514c9f77d7711a8cbfdc56e03156fec2bf23f4d99915521ab70b0020ca1fc4f0c13099d6b"
 
 RPROVIDES:${PN} += "mustang-plug"
 

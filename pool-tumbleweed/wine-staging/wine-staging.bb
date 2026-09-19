@@ -8,43 +8,41 @@ Windows applications into your desktop. \
  \
  \
 This WINE flavor contains the 'staging' development patchset \
-on top of the regular Wine release. \
- \
- \
- \
- \
- \
- \
-You can run your Windows executables with it and write your Windows \
-programs under Linux and link against the WINE libraries. It is not \
-necessary to have a Windows installation to run WINE. \
- \
-Refer to /usr/share/doc/packages/wine/README.SUSE. There is more \
-documentation available in that directory. Read 'man wine' for further \
-information. \
- \
-You can invoke wine by entering 'wine program.exe'. Configure it by \
-running 'winecfg'."
+on top of the regular Wine release."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.17"
+PV = "11.17"
 
-RPM_NAME = "wine-staging-6.17-1.1.aarch64.rpm"
-RPM_HASH = "833052f23e7743f490f2eab73ff23886c660ac6b1ff4f02563668b87b5d94a3212365eb61a0565f1dc41f32335b884fff65ba4c2b4af0530199e9dd5ac4e6e04"
+RPM_NAME = "wine-staging-11.17-1.1.aarch64.rpm"
+RPM_HASH = "ee52c92d498817680e3faf55ae45960f394b3ae755c5836a68b81302fb5249d4a3b3da871e95d495bdc8e3ae539a27a316e994651e480ccf6ac5909646ec35ac"
 
-RPROVIDES:${PN} += "config-wine-staging \
-libwine.so.1 \
+RPROVIDES:${PN} += "bundled-FAudio \
+bundled-capstone \
+bundled-fluidsynth \
+bundled-jpeg \
+bundled-libgsm \
+bundled-libjxr \
+bundled-liblcms2 \
+bundled-libpng \
+bundled-libxml2 \
+bundled-libxslt \
+bundled-mpg123 \
+bundled-musl \
+bundled-openldap2 \
+bundled-tiff \
+bundled-tomcrypt \
+bundled-tommath \
+bundled-vkd3d \
+bundled-zlib \
 wine \
 wine-mp3 \
 wine-staging"
 
-RDEPENDS:${PN} += "/sbin/ldconfig \
-/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libFAudio.so.0 \
+libEGL.so.1 \
 libGL.so.1 \
-libOSMesa.so.8 \
 libOpenCL.so.1 \
 libSDL2-2.0.so.0 \
 libX11.so.6 \
@@ -58,48 +56,42 @@ libXrandr.so.2 \
 libXrender.so.1 \
 libXxf86vm.so.1 \
 libasound.so.2 \
+libavcodec.so.62 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libcups.so.2 \
 libdbus-1.so.3 \
-libdl.so.2 \
 libfontconfig.so.1 \
 libfreetype.so.6 \
-libgcrypt.so.20 \
 libglib-2.0.so.0 \
 libgnutls.so.30 \
 libgobject-2.0.so.0 \
 libgphoto2-port.so.12 \
 libgphoto2.so.6 \
-libgsm.so.1 \
 libgssapi-krb5.so.2 \
 libgstaudio-1.0.so.0 \
 libgstreamer-1.0.so.0 \
+libgsttag-1.0.so.0 \
 libgstvideo-1.0.so.0 \
-libjpeg.so.8 \
 libkrb5.so.3 \
-liblber-2.4.so.2 \
-liblcms2.so.2 \
-libldap-r-2.4.so.2 \
 libm.so.6 \
-libmpg123.so.0 \
-libopenal.so.1 \
+libnetapi.so.1 \
+libodbc.so.2 \
 libpcap.so.1 \
-libpng16.so.16 \
-libpthread.so.0 \
+libpcsclite.so.1 \
 libpulse.so.0 \
-libresolv.so.2 \
-librt.so.1 \
 libsane.so.1 \
-libtiff.so.5 \
 libudev.so.1 \
-libunwind.so.8 \
 libusb-1.0.so.0 \
 libv4l2.so.0 \
-libvkd3d-shader.so.1 \
-libvkd3d.so.1 \
+libva-drm.so.2 \
+libva.so.2 \
 libvulkan.so.1 \
-libxml2.so.2 \
-libxslt.so.1 \
+libwayland-client.so.0 \
+libwayland-egl.so.1 \
+libxkbcommon.so.0 \
+libxkbregistry.so.0 \
 samba-winbind"
 
 inherit rpm

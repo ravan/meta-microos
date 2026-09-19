@@ -4,10 +4,10 @@ in order to enable printing text over a background without the \
 need of a coloured box around the text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.14svn18950"
+PV = "2026.226.2.14svn77682"
 
-RPM_NAME = "texlive-contour-2023.209.2.14svn18950-55.1.noarch.rpm"
-RPM_HASH = "98dde256025083996c50f0bb1aeb6d4323d36c85c1a31b9a83d9ca23c60a6e7517aba49d045a4699e532dcdcfafdbeaf0ebc3a7bd27f7d3a24f8b80171a51d3b"
+RPM_NAME = "texlive-contour-2026.226.2.14svn77682-61.2.noarch.rpm"
+RPM_HASH = "cc647b0d3eea885645742cd28ea640972778b877e3f128447852e48747596b73e768b6a766639bd0a5533c032110398f4e0ab887fb6e78825c4a8a28d4ec90de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-contour.cfg \

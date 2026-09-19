@@ -4,10 +4,10 @@ legislation. The libre font Palatine Parliamentary is required \
 to use this package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.2svn65485"
+PV = "2026.226.1.2.1svn69362"
 
-RPM_NAME = "texlive-ukbill-2023.209.1.0.2svn65485-54.1.noarch.rpm"
-RPM_HASH = "dcdbcd132d7e87ef325022f3dae6a4976dba374c06e019fc869214b900df5895696679e8c7b1b2230cbc00088cf11cd1be853fef5577d6462b44654008923709"
+RPM_NAME = "texlive-ukbill-2026.226.1.2.1svn69362-60.2.noarch.rpm"
+RPM_HASH = "a8d1fa8f7658bde46f10be985b7795fbf4f2b8da18621aac4dd6f1c172db4b16cf529440974a456824a30ba565a9d4f2f94ff907b63477939cb7f1479ad2b754"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ukbill.cls \

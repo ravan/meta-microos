@@ -15,17 +15,18 @@ system logs at once: \
  \
 By creating probes you contribute to the HDD/SSD Real-Life \
 Reliability Test study: https://github.com/linuxhw/SMART"
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "BSD-4-Clause & LGPL-2.1-or-later"
 
-PV = "1.6"
+PV = "1.6.5"
 
-RPM_NAME = "hw-probe-1.6-1.1.noarch.rpm"
-RPM_HASH = "07546134aa8a7f9daaf40f493799a193686f128881bd5ac91fb178b62eb70078e594eaf7040cf3449cb7dc3e051a229cd79d933327f1c66d762b3d3d9fb0a350"
+RPM_NAME = "hw-probe-1.6.5-1.9.noarch.rpm"
+RPM_HASH = "378002c3c1c5a0d79817ff3d6d232950e8035b8f78bd314dfdcbf92a8a7ea6ba0a73bd2570f4f7ce289b41ba45d694efde5d16b6808263e7c7fd8877864b1da4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hw-probe"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
+/usr/bin/sh \
 acpica \
 curl \
 dmidecode \

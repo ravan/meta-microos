@@ -7,15 +7,16 @@ specific  file or all the files in a file system may be selected by \
 path."
 LICENSE = "Zlib"
 
-PV = "4.98.0"
+PV = "4.99.7"
 
-RPM_NAME = "lsof-4.98.0-2.1.aarch64.rpm"
-RPM_HASH = "aea0d3d9b3216c272e6e36c3d35d7928a13898072d88709bf6c7058650d3f41d3dc529c80a57620712125efbf19e86fb1b8abe3fed20b2d2c7aefb21068031b6"
+RPM_NAME = "lsof-4.99.7-1.3.aarch64.rpm"
+RPM_HASH = "94fabbc26de33afad8971189b7b46d790f4795f0d05d26ce3af1aeb0a6feb2608eba2b1f88414ea2d50c2f2d1a4d1c5c12019d584711f8e83d2c861b2147c73e"
 
 RPROVIDES:${PN} += "lsof"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libselinux.so.1"
+libselinux.so.1 \
+libtirpc.so.3"
 
 inherit rpm

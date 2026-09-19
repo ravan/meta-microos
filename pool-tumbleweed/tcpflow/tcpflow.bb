@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.1"
 
-RPM_NAME = "tcpflow-1.6.1-2.10.aarch64.rpm"
-RPM_HASH = "d5693bcaaf8def60d94778afb3b64a5409dfbfcbc1cbaec704172bd24bfa9b6502096b31a0f5d1b7d65c81b2026bb2ba7d79a49e7886f8a4b8427c74138dbc42"
+RPM_NAME = "tcpflow-1.6.1-2.21.aarch64.rpm"
+RPM_HASH = "241b6eb4aaf804dfb365e8f8a3ec67be99d43be5d6b65111ec63d0dcf9132363c5a06449b607fb13af37de539ac7c1ec5f7954014ba067af6aa94d79030a4644"
 
 RPROVIDES:${PN} += "tcpflow"
 

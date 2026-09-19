@@ -7,18 +7,19 @@ mail server. It is intended to be very easy to setup and use. See also \
 'FEATURES' below, and as usual, read this documentation. \
  \
 There is also a FAQ (see 'NOTES')."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.80"
+PV = "0.820.0"
 
-RPM_NAME = "perl-Mail-Sendmail-0.80-1.23.noarch.rpm"
-RPM_HASH = "5e510a7060b1554c77f5d29213a2a75ec6f838ee4b71d5eb10bdfeea0e87e7e8d4d802bfed17477cc1cd10a3728efe7e1b10cadd113ce0655c8eb396a01a95d2"
+RPM_NAME = "perl-Mail-Sendmail-0.820.0-1.6.noarch.rpm"
+RPM_HASH = "e5bee3fb7aef4ecd9a698810534d09b355640137d8037d5b0cf2ab06975f58f5eefec492ab328c79aa626daeb3ee5d8b3c6b39b47fedbd36ca4655bce2779e7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Sendmail \
 perl-Mail-Sendmail"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Sys--Hostname--Long \
 perl-parent"
 
 inherit rpm

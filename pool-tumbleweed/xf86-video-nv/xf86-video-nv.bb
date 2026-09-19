@@ -8,10 +8,10 @@ visuals are supported for the other depths with the exception of the \
 Riva128 which only supports TrueColor in the higher depths."
 LICENSE = "MIT"
 
-PV = "2.1.22"
+PV = "2.1.24"
 
-RPM_NAME = "xf86-video-nv-2.1.22-1.5.aarch64.rpm"
-RPM_HASH = "3b99e6edae0f4382e34d6dea01c41ed080513614d93bf2ea0ed9d568847f1accfbc227b8c460de371f04a7cd83711b55212611df0b7ba8c65a417ded50e8bac9"
+RPM_NAME = "xf86-video-nv-2.1.24-1.3.aarch64.rpm"
+RPM_HASH = "7d96db1e5f8673bcc77da1f514e3e28fece1e89dede851e21eccee503220461373f2f09929ab40cdfb9fc4114602f4123a1805e9f42420053e169887b379d664"
 
 RPROVIDES:${PN} += "xf86-video-nv \
 xorg-x11-driver-video-nvidia"

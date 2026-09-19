@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.6.13"
 
-RPM_NAME = "libcroco-0.6.13-5.4.aarch64.rpm"
-RPM_HASH = "70e5de1a66489219dbd06b0e1eb36453b37f2f8fe3926b67774f9baaa727afe24ee4a7e131f7859d9603fd8cf67409a3df89fbbfe99a527f5f9382b75b524179"
+RPM_NAME = "libcroco-0.6.13-6.13.aarch64.rpm"
+RPM_HASH = "272b71ca967a8404218dc3945f181589180c36dd0a2a644167e1eca0cab39b8eff486f9cc9a455197aae44884015039c60d5692b924723c0d1e238dd38f8c5b4"
 
 RPROVIDES:${PN} += "libcroco"
 
@@ -14,6 +14,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcroco-0.6.so.3 \
 libglib-2.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

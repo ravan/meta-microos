@@ -2,10 +2,10 @@ SUMMARY = "Binary files of m-tx"
 DESCRIPTION = "Binary files of m-tx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn78123"
 
-RPM_NAME = "texlive-m-tx-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "2162fc4a0e6e9e9db2b97814cb115c0365c41e235d9f17168f38aa1ac22e2c065be8754a880ed14ba958d78d3f21e21cf140a683dc699c2b673fcd9dbbdec428"
+RPM_NAME = "texlive-m-tx-bin-2026.20260301.svn78123-120.4.aarch64.rpm"
+RPM_HASH = "9e7e3e36e923b214534bc36f28c640e81bc12551775db75d05437f42e70b0c344b9abbb502a7457d25b97fe1c29c7bcfc53e826d3b89247b39e797ed7ab15c96"
 
 RPROVIDES:${PN} += "texlive-m-tx-bin"
 

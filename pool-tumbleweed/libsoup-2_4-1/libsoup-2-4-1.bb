@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.74.3"
 
-RPM_NAME = "libsoup-2_4-1-2.74.3-2.1.aarch64.rpm"
-RPM_HASH = "7e20ec49fbaa72c12c57ecbd559e7cdda8972fa262d97e140162879c07836f9640a590b6f1c1b85fffdaf134828372e425eb9cd33202cff9d5aaa86140a60bf1"
+RPM_NAME = "libsoup-2_4-1-2.74.3-22.1.aarch64.rpm"
+RPM_HASH = "3a6da05dc9b426f28b8026a7154c1df4350dfdb16197f555d4e9c0240f018235cd8f0869284bca6c09f200580034fd9405269c1ea675439f1acfa3ff3985f65f"
 
 RPROVIDES:${PN} += "libsoup-2-4-1 \
 libsoup-2.4.so.1 \
@@ -34,7 +34,7 @@ libgobject-2.0.so.0 \
 libgssapi-krb5.so.2 \
 libpsl.so.5 \
 libsqlite3.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

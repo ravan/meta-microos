@@ -3,10 +3,10 @@ DESCRIPTION = "The Java/Mapscript extension provides full map customization capa
 within the Java programming language."
 LICENSE = "MIT"
 
-PV = "8.0.0"
+PV = "8.6.6"
 
-RPM_NAME = "libjavamapscript-8.0.0-2.7.aarch64.rpm"
-RPM_HASH = "0c92380cdc2b67c68d43a1661e3866e86c7bfe9d7961708e10bb3265e5ed264627f19371e0485998d64219b8e645e8a728459fe2ec32bcccd6e60daaa094b36d"
+RPM_NAME = "libjavamapscript-8.6.6-1.1.aarch64.rpm"
+RPM_HASH = "c818787845869ee1ff770f7e610f1b425be6681a10486efce971064c59ce056743a5fc1fb0d12ab7c5faff0fb60aecc7ca5a1c72b312154a6d89a85ccb0ca960"
 
 RPROVIDES:${PN} += "java-mapscript \
 libjavamapscript \

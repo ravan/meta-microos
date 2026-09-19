@@ -4,10 +4,10 @@ DESCRIPTION = "VecCore is a simple abstraction layer on top of other vectorizati
 This package provides the headers and cmake modules for VecCore."
 LICENSE = "Apache-2.0"
 
-PV = "0.8.1"
+PV = "0.8.2"
 
-RPM_NAME = "VecCore-devel-0.8.1-1.1.aarch64.rpm"
-RPM_HASH = "97a26fef46371d320d8c60e91777be2ab9ded2408daef5eced1ec6aed85bc50669d04d75364f9f16364387d42d0e894de546a0a01dab3672807c5d69750ca7b3"
+RPM_NAME = "VecCore-devel-0.8.2-2.4.aarch64.rpm"
+RPM_HASH = "7fb8e49b650d3ebf98d9fef08a685f97bb26daea36ffab14d655fdacb028649d0ac010b6d8e148fabbb2ac8486c4f9d3083dc108161e1af1abe0fe0e098df854"
 
 RPROVIDES:${PN} += "VecCore-devel \
 cmake-VecCore"

@@ -2,10 +2,10 @@ SUMMARY = "Mathematics symbols table for ibus-table"
 DESCRIPTION = "The package contains table for writing Unicode mathematics symbols."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.16"
+PV = "1.3.21"
 
-RPM_NAME = "ibus-table-mathwriter-1.3.16-1.1.noarch.rpm"
-RPM_HASH = "1e3e0bbdcd2b5e342995673204795abbf7ffcf0a0b92818aecbde7de388285eb5888665bf2025109df0620ce53f92b0bd896087e45df8192e77ad5271e3a0b24"
+RPM_NAME = "ibus-table-mathwriter-1.3.21-1.5.noarch.rpm"
+RPM_HASH = "b41cde80b2d79453ae8bc6e72fcd066e9e1cf5bf65695b380eec93fcb21a4a818da52d1941fce4b014f872d7b36d414ee429119fc169a2eeb43cde222a8e3b90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-mathwriter"

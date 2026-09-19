@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.0"
 
-RPM_NAME = "aelfred-7.0-8.6.noarch.rpm"
-RPM_HASH = "fb792ffb2434eb10cc15fce8186f51ecc9ccbe3389c5b878041d593d3eb5072362a2443c7eb452bae2f5edb5b6b5527065bf4b0bf17be0cef37ec5ea45899313"
+RPM_NAME = "aelfred-7.0-10.9.noarch.rpm"
+RPM_HASH = "ae7b8c9af9208f265f4410dfc728e834824505445825a1a27b2bc0d013d79581c76ea1c3b3054d7712adb798e2543e45cfac1538b0baca70f29daea377a7defc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aelfred"

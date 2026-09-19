@@ -2,10 +2,10 @@ SUMMARY = "Debuginfo dependencies for openSUSE installation-images"
 DESCRIPTION = "Package that holds debuginfo dependencies for image files in installation-image."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.91"
+PV = "17.178"
 
-RPM_NAME = "installation-images-debuginfodeps-openSUSE-17.91-1.100.aarch64.rpm"
-RPM_HASH = "852a22c5b786255bae819fc514f37b75f3ef965e8f9600ec642f350896d50d0df3c30f27bc146ac7df16fcbdb9ca1a190fea4d136769e6285c0f2e5b1cef0b19"
+RPM_NAME = "installation-images-debuginfodeps-openSUSE-17.178-1.9.aarch64.rpm"
+RPM_HASH = "f7ccc281c0acf86796be913e722818ab0a494ff3eb88454da1f9749ece21df3ed1aaaf680295201c12c10d29e8285593a809d80986d48b53ee5802b455e5c684"
 
 RPROVIDES:${PN} += "debuginfo-build-id \
 installation-images-debuginfodeps \

@@ -4,10 +4,10 @@ and e-pTeX. This is a community edition forked from the \
 original ASCII edition (ptex-texmf-2.5)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-platex-2023.209.svn66186-53.1.noarch.rpm"
-RPM_HASH = "71997be6d61fb66d1e33a50067104b52a0a2a54f2f174653a7253d94157d147089d432cec109528156d8ba49715e8b2490d0f28366e99008ce46c0e9563a28eb"
+RPM_NAME = "texlive-platex-2026.226.svn77830-59.2.noarch.rpm"
+RPM_HASH = "a374a16c8b382a86ce8058644e2270b29b74a960dc20fe2a3046bfd5b50e682ffe6ed010575f0891b346eef0edb63fae96c6d93a2fea45b0fc3e6034ed3e8506"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exppl2e.sty \
@@ -70,19 +70,18 @@ tex-plautopatch.sty \
 tex-shortvrb.sty \
 tex-tracefnt.sty \
 texlive \
-texlive-atbegshi \
-texlive-atveryend \
 texlive-babel \
 texlive-cm \
-texlive-everyshi \
 texlive-filesystem \
 texlive-firstaid \
 texlive-hyphen-base \
+texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-l3backend \
+texlive-l3backend-dev \
 texlive-l3kernel \
-texlive-l3packages \
+texlive-l3kernel-dev \
 texlive-latex \
 texlive-latex-base-dev \
 texlive-latex-firstaid-dev \

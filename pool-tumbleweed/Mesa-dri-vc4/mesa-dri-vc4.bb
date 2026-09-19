@@ -4,28 +4,13 @@ acceleration on the Raspberry Pi to work. It is packaged separately \
 since it is still experimental."
 LICENSE = "MIT"
 
-PV = "23.1.7"
+PV = "26.2.2"
 
-RPM_NAME = "Mesa-dri-vc4-23.1.7-357.1.aarch64.rpm"
-RPM_HASH = "7d42f6b9b77eba4f9a221e6ce0fdea11bd223d207164890a547b182fcc72351150aff7236180f5d3c7476d1f570d77e0571b452a0937a17b5f7fd5a0b52bbf57"
+RPM_NAME = "Mesa-dri-vc4-26.2.2-2.1.aarch64.rpm"
+RPM_HASH = "a4c90f5fc30ff6c26ccbf962387bd72d4e6412f3e22520d1ed010812e971ab1a11ef70517168e541c235537949d706aa1ff23212ccd47c5b32324602e1506d70"
 
-RPROVIDES:${PN} += "Mesa-dri-vc4 \
-libgallium-dri.so"
+RPROVIDES:${PN} += "Mesa-dri-vc4"
 
-RDEPENDS:${PN} += "Mesa \
-ld-linux-aarch64.so.1 \
-libLLVM.so.16 \
-libc.so.6 \
-libdrm-amdgpu.so.1 \
-libdrm-nouveau.so.2 \
-libdrm-radeon.so.1 \
-libdrm.so.2 \
-libelf.so.1 \
-libexpat.so.1 \
-libgcc-s.so.1 \
-libglapi.so.0 \
-libm.so.6 \
-libstdc++.so.6 \
-libz.so.1"
+RDEPENDS:${PN} += "Mesa"
 
 inherit rpm

@@ -4,10 +4,10 @@ header of a presentation, just like some websites do in order \
 to simplify navigation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4.1svn64602"
+PV = "2026.226.0.0.4.1svn64602"
 
-RPM_NAME = "texlive-crumbs-2023.209.0.0.4.1svn64602-55.1.noarch.rpm"
-RPM_HASH = "77c2ed799decc0542d5a2319573d6b31b85e10b21e6d082498ac43dc76e51c26e7182a75b6a2d6a38dcfaf1c1612ce23f388ed003d3aa7030e475dac25357a02"
+RPM_NAME = "texlive-crumbs-2026.226.0.0.4.1svn64602-61.2.noarch.rpm"
+RPM_HASH = "54fe163a43c2aa7a2bd0e21e53cd2dd48fc922a0d7d180d64c8f7b42ef02d304c50251d829c5fa42b2acbbc0bba56a0ac504e705a74cbe280d4b7787f802496d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-crumbs.sty \

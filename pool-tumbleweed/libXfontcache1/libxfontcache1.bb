@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.5"
 
-RPM_NAME = "libXfontcache1-1.0.5-13.1.aarch64.rpm"
-RPM_HASH = "cf4ebef67de4b351eb00acf3a9b4054f45a8411615a41db712566359710d01b975e372a0fcabd858e1ad696d6e1391bcd96b8c58ab8c6df3c0b4e1c96b03763d"
+RPM_NAME = "libXfontcache1-1.0.5-13.11.aarch64.rpm"
+RPM_HASH = "22ee05708ee4a566388676285383d09ae5b5c2d44ad06cc1f6e16b25cf73aa6c284c5df682c4269f1f8d3cbe782cd45677f98ffe3c163b4c574d214c1e51c058"
 
 RPROVIDES:${PN} += "libXfontcache.so.1 \
 libXfontcache1"

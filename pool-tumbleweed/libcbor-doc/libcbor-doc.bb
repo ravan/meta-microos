@@ -6,10 +6,10 @@ It supports flexible memory management, UTF-8, streams & incremental \
 processing, and has a layered architecture."
 LICENSE = "MIT"
 
-PV = "0.10.2"
+PV = "0.14.0"
 
-RPM_NAME = "libcbor-doc-0.10.2-1.1.aarch64.rpm"
-RPM_HASH = "8ee62de7dc06d8f683735377ff20ad3ca74d9bea07cc47a4c79da50fee6b1799a2a3aa44b7356ed5e1cc457137e19d4f50da50da5937ea3baf18b1eada57daff"
+RPM_NAME = "libcbor-doc-0.14.0-1.2.aarch64.rpm"
+RPM_HASH = "1f708b4628b50afde65e62ec884d326473e02aa66e896695c42eb7ec4b46603784d53e82197be8933f6f5f5d178ed7155b59d3f1ca42fb86e3aa6228b9e96520"
 
 RPROVIDES:${PN} += "libcbor-doc"
 

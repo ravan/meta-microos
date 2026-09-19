@@ -2,10 +2,10 @@ SUMMARY = "Maven Artifact Resolver Connector Basic"
 DESCRIPTION = "A repository connector implementation for repositories using URI-based layouts."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.12"
+PV = "2.0.22"
 
-RPM_NAME = "maven-resolver-connector-basic-1.9.12-1.1.noarch.rpm"
-RPM_HASH = "e4f8ce0bd9d63b3353922bd0173fb4a2fa95defb0f2b60ea1e1f3428d5b2209c009270c9d8b83334abeb2a4c19167da7ff9ec9ca05ddb36f1808eba51dd211d9"
+RPM_NAME = "maven-resolver-connector-basic-2.0.22-1.1.noarch.rpm"
+RPM_HASH = "eaea6a8ce350d169859e0442a0836ebf951dfaf70846cb9b7da46733477e9be8704ef79027310c4ac9778aff91f375a37afa0861ead0816ca6340da66dba29ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-connector-basic \

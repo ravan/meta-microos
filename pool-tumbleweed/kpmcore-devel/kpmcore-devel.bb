@@ -3,16 +3,16 @@ DESCRIPTION = "Library for managing partitions. Common code for KDE Partition Ma
 other projects. \
  \
 Development package for kpmcore."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kpmcore-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "92fa759ea5bb0bc4115739ad33e24164fbde4f056a380699dbc7cac8a84fa80d6ea15c345585ae7ee61d59332f14c035696cf2481def0c329692842dfbf7122d"
+RPM_NAME = "kpmcore-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "a086384e35b3fcedd76dfeded9aca29557ed12155d45ada3a42501a00ecb5500f62ac8d706e94739276964ef75373bfaade721c7485b490b002eca4049d2b16c"
 
 RPROVIDES:${PN} += "cmake-KPMcore \
 kpmcore-devel"
 
-RDEPENDS:${PN} += "libkpmcore12"
+RDEPENDS:${PN} += "libkpmcore13"
 
 inherit rpm

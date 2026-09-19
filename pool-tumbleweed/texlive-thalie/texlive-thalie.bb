@@ -5,10 +5,10 @@ directions, to divide a play into acts and scenes and to build \
 the dramatis personae automatically."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.13asvn65249"
+PV = "2026.227.0.0.13asvn65249"
 
-RPM_NAME = "texlive-thalie-2023.209.0.0.13asvn65249-55.1.noarch.rpm"
-RPM_HASH = "7b0a44c4b665fd4e3ebc1fb7071f33a63bea2145cd7829a45ba51a244fcd86ca811e8d1e05c80602fd0776526dc9ed389028f246260d1e48b8aefb702c6209e1"
+RPM_NAME = "texlive-thalie-2026.227.0.0.13asvn65249-62.2.noarch.rpm"
+RPM_HASH = "6f970cc7faa6f52c0174ef64e1875b83db0866147147ad1fb8d7dccd565419c73e6e3944a70c66be84124d7e579624eaf8f70eb44d9c182086086a09b91ca1db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thalie.sty \

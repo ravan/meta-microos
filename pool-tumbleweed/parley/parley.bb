@@ -2,10 +2,10 @@ SUMMARY = "Vocabulary Trainer"
 DESCRIPTION = "Parley is a vocabulary trainer by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "parley-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "a5708a44e1a73ce70e597a9d952b2871078236d6c02f7727ccff00a234ed3c16527da66302f62c81e19f9f373c43097e498f9fb1f1effa71a20fc1cf7c24966d"
+RPM_NAME = "parley-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "e65536a8066c1f026e4a9d920e2958f43672232426b835f7c6999440138c1aaa5caea03b02321b0601037153ad9035f1ac06262ea14202ce3fc1a643fad57801"
 
 RPROVIDES:${PN} += "parley \
 parley5"
@@ -13,29 +13,30 @@ parley5"
 RDEPENDS:${PN} += "kdeedu-data \
 ld-linux-aarch64.so.1 \
 libKEduVocDocument.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5NewStuffCore.so.5 \
-libKF5NewStuffWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5SonnetCore.so.5 \
-libKF5SonnetUi.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Svg.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6NewStuffCore.so.6 \
+libKF6NewStuffWidgets.so.6 \
+libKF6Notifications.so.6 \
+libKF6SonnetCore.so.6 \
+libKF6SonnetUi.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Svg.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

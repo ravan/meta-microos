@@ -7,10 +7,10 @@ numbers of iterations). The package uses the pst-xkey package, \
 part of the xkeyval distribution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.12svn64714"
+PV = "2026.226.0.0.12svn64714"
 
-RPM_NAME = "texlive-pst-fractal-2023.209.0.0.12svn64714-53.1.noarch.rpm"
-RPM_HASH = "65238eeb144d2419367cb04480f690cb70edcc96fb26304e321f86ceedc3a7606f4727e47b8c923246b41ee9b0217ce96d520d9c75f1b2aa72c0c31a0e44a535"
+RPM_NAME = "texlive-pst-fractal-2026.226.0.0.12svn64714-59.2.noarch.rpm"
+RPM_HASH = "aba897dd3966c95945aa38180652962579c57edc10143d90054be3e78822f390ffe3b1e7e5c7a6b3d6d764f0772f8492efa8bd84de8b1dc1ebfe0021f5724b3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-fractal.sty \

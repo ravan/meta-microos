@@ -7,10 +7,10 @@ DShow, and ALSA. \
 This subpackage contains the headers for FFmpeg libavcodec."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "ffmpeg-4-libavdevice-devel-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "c727b858d53ad7d980bd30e7d8391930f69ddb670d4d632b24b6aa06b175de6e23601de7f3c6493abcdee00ec024d38ebf54e887a7389983245cfd03ff451182"
+RPM_NAME = "ffmpeg-4-libavdevice-devel-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "e108b50e4d5240f040f4014b7eb1c6bc32cb1b399736bb1cc9814ff1972b9ac799ebb7f63227300dcbb12fc6881fa3a8ad8c7184a087bef9c72e71b473f5f04e"
 
 RPROVIDES:${PN} += "ffmpeg-4-libavdevice-devel \
 ffmpeg-devel \

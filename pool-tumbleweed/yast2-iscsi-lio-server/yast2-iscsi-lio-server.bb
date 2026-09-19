@@ -2,10 +2,10 @@ SUMMARY = "Configuration of iSCSI LIO target"
 DESCRIPTION = "This package contains configuration of iSCSI LIO target"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.0"
 
-RPM_NAME = "yast2-iscsi-lio-server-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "923707676dde4a1a44d5ceea178637c8a5a1b19b4eff55d856190b4437b2c0ff2d5712a8168e0d9fac9691bd8a07d4c7f4c6faa933a600e7580e55a897522467"
+RPM_NAME = "yast2-iscsi-lio-server-5.0.0-1.15.noarch.rpm"
+RPM_HASH = "3943ce03f75a4bc9de0905b72f238b730af755e3241950020e8b3380a33d1fdc320931d5f56ec31babb7a317cf255857221ca99d775732016e11d0ad937f1012"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-iscsi-lio-server"

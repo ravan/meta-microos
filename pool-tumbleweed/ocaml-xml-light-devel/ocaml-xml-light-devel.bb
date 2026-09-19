@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "2.5"
 
-RPM_NAME = "ocaml-xml-light-devel-2.5-1.3.aarch64.rpm"
-RPM_HASH = "2f2083817a2c708e01bff915cbe94be740b24eff00975409fab2e2cda6ce6c5effee10f48e418e3eb7bcc8a4ad3d9bb2c85ca657a6cf4a6d4d77e144979491cf"
+RPM_NAME = "ocaml-xml-light-devel-2.5-2.1.aarch64.rpm"
+RPM_HASH = "37de6f7828c9998b7e875f2c565581d7f953c9da80543b268f9cd704f10f7fc90364cf878780fefa1e82fe674e46c2caf24e7429bc306a32113ff97d87535be8"
 
 RPROVIDES:${PN} += "ocaml-Dtd \
 ocaml-Xml \

@@ -2,10 +2,10 @@ SUMMARY = "LUKS integration for Clevis"
 DESCRIPTION = "LUKS integration for Clevis."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "19"
+PV = "21"
 
-RPM_NAME = "clevis-luks-19-2.2.aarch64.rpm"
-RPM_HASH = "2eeb9487679678c0b0111eb27610059b3709d99c2c6821e6c4169839d4d6589e72dbdb2a6f51718e47283c8ef22b66f7115d6e06b9a300e8866d73dcb9d6fbbd"
+RPM_NAME = "clevis-luks-21-1.6.aarch64.rpm"
+RPM_HASH = "9a5112ba7f08405d47cce8e6a0b174d51398474c7f6abd6e9237ead98dcb80dd2773575b3bcdba8cbdcc8aa3555ba33caefaed3ae05a167f03accf8040f9e23e"
 
 RPROVIDES:${PN} += "clevis-luks"
 

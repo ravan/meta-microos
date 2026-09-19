@@ -6,10 +6,10 @@ its sibling xpatch is that this package sports a very powerful \
 experimental packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2fsvn58668"
+PV = "2026.226.0.0.2fsvn77682"
 
-RPM_NAME = "texlive-regexpatch-2023.209.0.0.2fsvn58668-54.2.noarch.rpm"
-RPM_HASH = "f9423e9f47129e77a4a085a77a08f2b6d107ca6f12b69280d4e32d5f88736e5f6885623292ba17fbdb9e2ec92927d7edeb1d18d68ba60a0191770ae5f29382e3"
+RPM_NAME = "texlive-regexpatch-2026.226.0.0.2fsvn77682-60.4.noarch.rpm"
+RPM_HASH = "144437e12ea2a39aca3ddaf1a067094d01d4a1dcbf2ea7283dfc71b7351704cfc92a1117e7a1e26f7630ede48dd204f84b589eff5c9986d079cacf46d44e569a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-regexpatch.sty \

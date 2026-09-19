@@ -1,15 +1,17 @@
 SUMMARY = "Qt 6 RemoteObjects library - Development files"
 DESCRIPTION = "Development files for the Qt 6 RemoteObjects library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-remoteobjects-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "bb66ee8a5211d70386d791e5a2e0049a7fe1b803a57a7288ed00c2104e98196effc4555b7077cc545379a972d9a482a282d80522468d10cc6f0f2d08f58e1a47"
+RPM_NAME = "qt6-remoteobjects-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "5fd7b706d41283a6b1731d01a11f2f31fccbaf13bce67edbf85298ddf9ff182182fe6b0c9255349a21ac35ad0ee3d60efc93bd8193674d729e3652a6fd830426"
 
 RPROVIDES:${PN} += "cmake-Qt6RemoteObjects \
 cmake-Qt6RemoteObjectsTools \
+cmake-Qt6RepParser \
 pkgconfig-Qt6RemoteObjects \
+pkgconfig-Qt6RepParser \
 qt6-remoteobjects-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

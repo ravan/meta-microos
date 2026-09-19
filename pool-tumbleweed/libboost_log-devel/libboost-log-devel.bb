@@ -7,14 +7,13 @@ the library. \
 This package installs the default Boost version of the library."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_log-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "926e07bd723cbd43f4ee679482f7eacc8464103c8d40d8ced5c3623589425510fc134d338ad8b520f3b40a460e214f828f615b021d88cbaf343a4b0a5f2a9d6f"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_log-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "f4e25cf16fe8e07a5dbb583ca41c89dc856e051e86146781b3e04c2ef51d052b203c0df42a921f5bf642677829cb45ae1f354e06f114f3fd757408ef07265d88"
 
 RPROVIDES:${PN} += "libboost-log-devel"
 
-RDEPENDS:${PN} += "libboost-log1-82-0-devel"
+RDEPENDS:${PN} += "libboost-log1-91-0-devel"
 
 inherit rpm

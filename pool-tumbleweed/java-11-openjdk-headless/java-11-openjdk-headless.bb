@@ -1,15 +1,14 @@
 SUMMARY = "OpenJDK 11 Runtime Environment"
 DESCRIPTION = "The OpenJDK 11 runtime environment without audio and video support."
-LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
+LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & LicenseRef-SUSE-Public-Domain & W3C"
 
-PV = "11.0.20.1"
+PV = "11.0.32.1"
 
-RPM_NAME = "java-11-openjdk-headless-11.0.20.1-1.1.aarch64.rpm"
-RPM_HASH = "eab2d63bd1e5ee99f956d4149fcb1f5bbd4edd7d8f2258a3ee0f306f184ab42cbc0a424a34e43aadc5c216b7ac68f1e5b9b5821acc0a892f40feb8df5f2a31bf"
+RPM_NAME = "java-11-openjdk-headless-11.0.32.1-2.1.aarch64.rpm"
+RPM_HASH = "7f38ec6cc4b4da22f5086766c8cac330680ec06e9ae24d59b9f5307a4390a3e051c2524581206b49c2f305241606f12de68709ce605b6d90c75ecad592e0bae0"
 
 RPROVIDES:${PN} += "config-java-11-openjdk-headless \
 jaas \
-java-10-openjdk-headless \
 java-11-headless \
 java-11-openjdk-headless \
 java-headless \
@@ -59,9 +58,13 @@ libsunec.so \
 libsystemconf.so \
 libunpack.so \
 libverify.so \
-libzip.so"
+libzip.so \
+timezone-java \
+tzdata-java"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+alts \
+file \
 java-ca-certificates \
 jpackage-utils \
 ld-linux-aarch64.so.1 \
@@ -77,7 +80,6 @@ libnss3.so \
 libpcsclite.so.1 \
 libstdc++.so.6 \
 libz.so.1 \
-mozilla-nss \
-update-alternatives"
+mozilla-nss"
 
 inherit rpm

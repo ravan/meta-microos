@@ -7,12 +7,12 @@ strives to be a superset of Vim, notwithstanding some intentionally \
 removed misfeatures; excepting those few and carefully-considered \
 excisions, Neovim is Vim. It is built for users who want the good \
 parts of Vim, without compromise, and more."
-LICENSE = "Apache-2.0 & Vim"
+LICENSE = "Apache-2.0 & Vim & GPL-3.0-or-later & CC-BY-3.0"
 
-PV = "0.9.2"
+PV = "0.12.5"
 
-RPM_NAME = "neovim-0.9.2-1.1.aarch64.rpm"
-RPM_HASH = "aa031aa95c43c45ac9f09ecb5f7b02d366adf0626cc9a4b36f3b96dc646a7a2036766da7ccac8a6bdd0fc96316ed9093f44ee3f58248930a5f84512c3cef6162"
+RPM_NAME = "neovim-0.12.5-1.1.aarch64.rpm"
+RPM_HASH = "2f45e9a4779fdca39344767bd18f1ab19060cdd485ac2008acae6b7b53841ba24ffc56e51aa87bb588eff482ab0c29dd499da55295420cb4eee744c9764240dd"
 
 RPROVIDES:${PN} += "config-neovim \
 neovim"
@@ -24,15 +24,24 @@ libc.so.6 \
 libluajit-5.1.so.2 \
 libluv.so.1 \
 libm.so.6 \
-libmsgpackc.so.2 \
-libtermkey.so.1 \
-libtree-sitter.so.0 \
+libtree-sitter.so.0.26 \
 libunibilium.so.4 \
+libutf8proc.so.3 \
 libuv.so.1 \
-libvterm.so.0 \
 libvterm0 \
-lua51-bit32 \
-lua51-luv \
+luajit-bit32 \
+luajit-compat-5.3 \
+luajit-lpeg \
+luajit-luarocks \
+luajit-luv \
+tree-sitter \
+tree-sitter-c \
+tree-sitter-lua \
+tree-sitter-markdown \
+tree-sitter-python \
+tree-sitter-query \
+tree-sitter-vim \
+tree-sitter-vimdoc \
 xdg-utils"
 
 inherit rpm

@@ -15,16 +15,16 @@ The package will by default enable protrusion and expansion if \
 they can safely be assumed to work. Disabling ligatures \
 requires pdfTeX or LuaTeX, while the adjustment of interword \
 spacing and of kerning only works with pdfTeX. Letterspacing is \
-available with pdfTeX or LuaTeX. The alternative package \
+available with pdfTeX, LuaTeX or XeTeX. The alternative package \
 'letterspace', which also works with plain TeX, provides the \
 user commands for letterspacing only, omitting support for all \
 other extensions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1asvn66587"
+PV = "2026.226.3.2dsvn78228"
 
-RPM_NAME = "texlive-microtype-2023.209.3.1asvn66587-55.1.noarch.rpm"
-RPM_HASH = "e6e4fe0946bb4ff6567666046defe7b79767ea306eddfd637409e023e00c95ee69122411af95a28651975e5accae8b4bb2eb23cfc33e2d7caed2e3c5dbe4e2eb"
+RPM_NAME = "texlive-microtype-2026.226.3.2dsvn78228-61.2.noarch.rpm"
+RPM_HASH = "11f88c12806b583e8f9b0d0249f8a943905bc758c28ede2a5c89ab3d305922ef85e20266b8561145cf3dddd285c44c4b4e7d16866a0aeb42fb08e3174e6c2642"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-letterspace.sty \
@@ -71,6 +71,7 @@ tex-luaotfload.sty \
 tex-luatexbase.sty \
 tex-xcolor.sty \
 texlive \
+texlive-etoolbox \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \

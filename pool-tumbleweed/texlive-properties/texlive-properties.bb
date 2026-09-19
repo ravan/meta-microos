@@ -3,10 +3,10 @@ DESCRIPTION = "The package loads properties (key, value) from a properties \
 file, e.g. \\jobname.properties."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn15878"
 
-RPM_NAME = "texlive-properties-2023.209.0.0.2svn15878-53.1.noarch.rpm"
-RPM_HASH = "322323012987fba06ed104e194be855e89283bee24e348c3e5250d2f8c698511405ec5fcf070e08ca7c791700309506f724a907f5dc4891a60d3f2f65ec8c70d"
+RPM_NAME = "texlive-properties-2026.226.0.0.2svn15878-59.2.noarch.rpm"
+RPM_HASH = "2a07cbe4acce6d9a97a76ab192136983618575948c1984b56985bba599686321b8b77524a7b9aca6676b2f6bebdf1034bc0ecd2d1b1fd21e7a617f9569973ee9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-properties.sty \

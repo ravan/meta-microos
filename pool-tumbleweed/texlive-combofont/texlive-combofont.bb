@@ -9,10 +9,10 @@ an incompatible way. So if you use it in a production \
 environment: You have been warned."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn51348"
+PV = "2026.226.0.0.3svn51348"
 
-RPM_NAME = "texlive-combofont-2023.209.0.0.3svn51348-54.1.noarch.rpm"
-RPM_HASH = "08386bf4cdea00866a889c528ef25eb7644172218cb5ca8eaac8fdc7bfd120734d523daa92fab17d6470a230e5de806d27b83438998f1afde6bd2c362e4af9a8"
+RPM_NAME = "texlive-combofont-2026.226.0.0.3svn51348-60.2.noarch.rpm"
+RPM_HASH = "a6f1acc4a2d5cff3946008dd359144869b27b3ed6cf1a5a7e26f350fbf642543e54ba0c3764f09752f99c90ffeaf8fbdb9eaefc9a0db5896bc06fed76dfc1c3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-combofont.sty \

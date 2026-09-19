@@ -16,26 +16,20 @@ data that may (or may not be) placed on a map, such as waypoints, \
 tracks, and routes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.10.0"
 
-RPM_NAME = "gpsbabel-1.8.0-1.6.aarch64.rpm"
-RPM_HASH = "c7de2a13270ce85d590d7d2bf1aff58c824bd15fb71d8e6513c8ab320e941c7d928ad8631692944eaa499165fad128a6bc2ff6c7ee9376d9bd5e587e17ceb070"
+RPM_NAME = "gpsbabel-1.10.0-3.2.aarch64.rpm"
+RPM_HASH = "30d350e009fef13439cca7a67d0800b56f90e8a8efecf7fe2dfaa1c42dcc34dc8cee19e0f872f20e743290bbe90d2e86a67b6da1e8bbc3ab0b5f26e750c4f567"
 
 RPROVIDES:${PN} += "gpsbabel"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5SerialPort.so.5 \
-libQt5WebChannel.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libshp.so.2 \
+libshp.so.4 \
 libstdc++.so.6 \
 libusb-1.0.so.0 \
 libz.so.1"

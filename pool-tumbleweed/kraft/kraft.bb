@@ -8,38 +8,38 @@ through the KDE addressbook, highly configurable PDF output and more. \
 See the website http://volle-kraft-voraus.de for more information."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.0"
+PV = "2.0.0"
 
-RPM_NAME = "kraft-1.0-2.2.aarch64.rpm"
-RPM_HASH = "7e05cf86b7365a4cac4565fde25cece91da4c0654363d13646ea9201c77862e4dc9084a3aad9015939bf55f8db23f4c0ddf0f6c44800227a83af26c05bd53e8b"
+RPM_NAME = "kraft-2.0.0-2.1.aarch64.rpm"
+RPM_HASH = "31b772be9817fbc2c82b935a9fcaaac51e8e73ee7610a38a8bb16bef1e6bfa698d0b7b911345223ab00375b46661be3d558324fb8d4b60a86068ac263222e7ee"
 
 RPROVIDES:${PN} += "kraft"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
-libGrantlee-Templates.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5Contacts.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKPim5AkonadiContact.so.5 \
-libKPim5AkonadiCore.so.5 \
-libKPim5AkonadiWidgets.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Sql.so.5 \
-libQt5Sql5-sqlite \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6Contacts.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6TextTemplate.so.6 \
+libKPim6AkonadiContactCore.so.6 \
+libKPim6AkonadiContactWidgets.so.6 \
+libKPim6AkonadiCore.so.6 \
+libKPim6AkonadiWidgets.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
-libctemplate.so.3 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-python3-PyPDF2 \
 python3-base \
-python3-reportlab \
-python3-six"
+python3-pypdf \
+python3-six \
+python3-weasyprint \
+qt6-sql-mysql \
+qt6-sql-sqlite"
 
 inherit rpm

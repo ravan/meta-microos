@@ -2,13 +2,13 @@ SUMMARY = "Library for checking installation or Live media"
 DESCRIPTION = "Library for checking installation or Live media. Used by checkmedia and linuxrc."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.2"
+PV = "7.1"
 
-RPM_NAME = "libmediacheck-devel-6.2-1.1.aarch64.rpm"
-RPM_HASH = "0a4a830d2e9470753d2cfafc204fdca788cae084caead070c93cd3eef3e4c3a0ad188f3f38f409d76d1b72e340a3f2455f0c7b5f647736e845d0e922f420a647"
+RPM_NAME = "libmediacheck-devel-7.1-1.3.aarch64.rpm"
+RPM_HASH = "ebea1231d71cce1ba7915b13163d0ae23a41f6bfc1d2be9fc361a240550ef089ecc902625f66c9d95c4c4300f13e2c3844d4a69072acbedef3f66c07bf1f76e2"
 
 RPROVIDES:${PN} += "libmediacheck-devel"
 
-RDEPENDS:${PN} += "libmediacheck6"
+RDEPENDS:${PN} += "libmediacheck7"
 
 inherit rpm

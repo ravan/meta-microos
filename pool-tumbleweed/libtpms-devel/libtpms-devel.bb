@@ -2,10 +2,10 @@ SUMMARY = "Include files for libtpms"
 DESCRIPTION = "Libtpms header files and documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.6"
+PV = "0.10.2"
 
-RPM_NAME = "libtpms-devel-0.9.6-1.4.aarch64.rpm"
-RPM_HASH = "f0c858815b281bcbb257d2abee13c1394a345262e3d2514716f1c1b1227479561fcb5b6fe3c42dbdf83c044d78baf5f2222026209252af04c54ddfe068dedee2"
+RPM_NAME = "libtpms-devel-0.10.2-1.3.aarch64.rpm"
+RPM_HASH = "71ed781506a22d10bb946a86b1e06611e518326e9f8ba05ea09c82bbc4db38767a4833baf72ea0e4263b61b6e744d8bef3f429e7e4e2f9f7d8851fb6e87b13e6"
 
 RPROVIDES:${PN} += "libtpms-devel \
 pkgconfig-libtpms"

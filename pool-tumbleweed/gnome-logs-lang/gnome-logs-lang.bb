@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-logs"
 DESCRIPTION = "Provides translations for the 'gnome-logs' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "43.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-logs-lang-43.0-1.3.noarch.rpm"
-RPM_HASH = "a853fa4800f9c25706af0633624a2e4791e27cf299f90f555da4e8940cff5b3ffe9eab49bd24f08ae0941c025fe32028804bab05663a428ab40c270c6cdc46cd"
+RPM_NAME = "gnome-logs-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "e0aaf86bb9843203f91298db2d114e3d8c3019d2cc13b573b078d4219ea76c9d95c9e90df9f2ca875384d82c18cdea1a25988e88e9e3ba68c733fb9d4791f8ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-logs-lang \
@@ -33,8 +33,10 @@ locale-gnome-logs-ga \
 locale-gnome-logs-gd \
 locale-gnome-logs-gl \
 locale-gnome-logs-he \
+locale-gnome-logs-hi \
 locale-gnome-logs-hr \
 locale-gnome-logs-hu \
+locale-gnome-logs-ia \
 locale-gnome-logs-id \
 locale-gnome-logs-is \
 locale-gnome-logs-it \
@@ -65,6 +67,7 @@ locale-gnome-logs-ta \
 locale-gnome-logs-te \
 locale-gnome-logs-th \
 locale-gnome-logs-tr \
+locale-gnome-logs-ug \
 locale-gnome-logs-uk \
 locale-gnome-logs-vi \
 locale-gnome-logs-zh-CN \

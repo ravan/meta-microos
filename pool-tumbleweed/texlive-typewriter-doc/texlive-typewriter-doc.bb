@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-typewriter"
 DESCRIPTION = "This package includes the documentation for texlive-typewriter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn46641"
+PV = "2026.226.1.3svn73877"
 
-RPM_NAME = "texlive-typewriter-doc-2023.209.1.1svn46641-53.1.noarch.rpm"
-RPM_HASH = "8517efc3b80a8ec9c3ab35cb3f031eb8c5829ac545e9036c9b5b0251d6e6e9dca6d0396841ddea1a1e651979d52409715ba2236dcfe825e2283a51bd9eb0c1d5"
+RPM_NAME = "texlive-typewriter-doc-2026.226.1.3svn73877-59.2.noarch.rpm"
+RPM_HASH = "3c250477dfbb1ba65d88be8a38ec45797f3e20daa17157b9f70f645c84e0f05033d2815384b83b1a6b04069811cfb54a6de508695ac2125883898e30c54bd7fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-typewriter-doc"

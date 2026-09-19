@@ -2,14 +2,15 @@ SUMMARY = "Fish Completion for tealdeer"
 DESCRIPTION = "Fish command-line completion support for tealdeer."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "1.6.1"
+PV = "1.8.0"
 
-RPM_NAME = "tealdeer-fish-completion-1.6.1-2.3.noarch.rpm"
-RPM_HASH = "62467954e8824708e1e5f2db923a9afb773802bdfeca8dffa53445ee818cc2f590c1ee3f2e9a5a42dcc155e443f476d568032c8d4a050893b0c3f61b58f3f1f2"
+RPM_NAME = "tealdeer-fish-completion-1.8.0-1.7.noarch.rpm"
+RPM_HASH = "75bd2870654853a2b11734c0e931b11893866740b49fb2d6916feb9672a267a1267f9630ba0c3de0758fd4f16c81a1ef976d61cc4d83e33d8930d54b399c2755"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tealdeer-fish-completion"
 
-RDEPENDS:${PN} += "fish"
+RDEPENDS:${PN} += "fish \
+tealdeer"
 
 inherit rpm

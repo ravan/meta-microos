@@ -2,18 +2,18 @@ SUMMARY = "Translations for package konquest"
 DESCRIPTION = "Provides translations for the 'konquest' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "konquest-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "410f5592aa2d97f1e01ed962a20aeffef9de54dde53ce015c463171435c80d0cf9abb433959ec36439c4df8547ef7a30e5fdd06d50f42efebbc3cfdd46009399"
+RPM_NAME = "konquest-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "6263a779465abab8946c7441c9082b18278441ba6efafec69fb5acfeaafebaabcc3703b44fabb673add44c8b65fd3686e5b5cdbf65ef94d9ab4a3e815ca8c425"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "konquest-lang \
 konquest-lang-all \
 locale-konquest-af \
 locale-konquest-ar \
+locale-konquest-ast \
 locale-konquest-be \
-locale-konquest-bg \
 locale-konquest-br \
 locale-konquest-bs \
 locale-konquest-ca \
@@ -37,6 +37,7 @@ locale-konquest-he \
 locale-konquest-hi \
 locale-konquest-hr \
 locale-konquest-hu \
+locale-konquest-ia \
 locale-konquest-is \
 locale-konquest-it \
 locale-konquest-ja \

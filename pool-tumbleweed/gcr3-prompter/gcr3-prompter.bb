@@ -2,10 +2,10 @@ SUMMARY = "Prompt dialog for gcr"
 DESCRIPTION = "This package provides the prompt dialog needed by libgcr."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.41.0"
+PV = "3.41.2"
 
-RPM_NAME = "gcr3-prompter-3.41.0-3.4.aarch64.rpm"
-RPM_HASH = "9158b6d284f35e59534f46eab7eeb7b3d6f3b288c243a24d18083286cde709f572abb176d28304d499eb81740d746cb98bef68c9b4be10bc923eae62379eeae1"
+RPM_NAME = "gcr3-prompter-3.41.2-5.4.aarch64.rpm"
+RPM_HASH = "4398d1bb4a13dc51a52079148a3b955c50893d6470d2c37d8e88f6dfc00dd5934c417e37a8a47d98033260a23e19ae0603a97956a344fc378bf5bdb9d6cf57f4"
 
 RPROVIDES:${PN} += "gcr-prompter \
 gcr3-prompter"

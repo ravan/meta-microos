@@ -14,10 +14,10 @@ modifiers (\\FE@modifiers); Some purely expandable numerics \
 etex and the etoolbox packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1415926svn20694"
+PV = "2026.226.3.1415926svn20694"
 
-RPM_NAME = "texlive-etextools-2023.209.3.1415926svn20694-53.1.noarch.rpm"
-RPM_HASH = "80255ab13e2a10576ddb3a2bff2a64a84803fb5623731906ba276e37559d6ab1bad400d89f5f9a1d5e7e1bba02681773718de5aede0048b13ae398de59fddf6b"
+RPM_NAME = "texlive-etextools-2026.226.3.1415926svn20694-59.2.noarch.rpm"
+RPM_HASH = "99b2864a3c0db3e68493ff0ab1d5373f8279394c1b67b81856cf30108827a241b2a1cbb37dd33016ea3b99e3fea1d2a9d041a1ac9c8e21f0d66c99c6ac44d467"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-etextools.sty \

@@ -2,10 +2,10 @@ SUMMARY = "SLF4J JDK14 Binding"
 DESCRIPTION = "SLF4J JDK14 Binding."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "1.7.36"
+PV = "2.0.18"
 
-RPM_NAME = "slf4j-jdk14-1.7.36-4.2.noarch.rpm"
-RPM_HASH = "47ae527edd30147c6919e5901c3623484bb288f0681e56937b566fe5d5cccbe322aa0271d9250ff2ba174f3a2b6f994d2e73992edf2e47b4b3277206170e4b0a"
+RPM_NAME = "slf4j-jdk14-2.0.18-1.2.noarch.rpm"
+RPM_HASH = "ebf2adb9f60f7d93f52d6d3d42a2af06ecfc7dce44b2cdef670561c1371da24f24b4447eee8443a4fdc6241c663d68337833df95ff4baca5da00d26412d74db4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.slf4j-slf4j-jdk14 \

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "ocaml-result-1.5-3.7.aarch64.rpm"
-RPM_HASH = "ee9a991d4cd5b759889b8b00e038ccd79f8e1726c5edb348c5fa775e3a8136176bc04cef913e35c6914a7a1252ffcb43edd85d10e5b5a8d63b5d458265921390"
+RPM_NAME = "ocaml-result-1.5-4.1.aarch64.rpm"
+RPM_HASH = "b3133eee95d2be77f430572bacc3b8e839a46cbcbadedb728040001641ad289431db16cf2d28934e0754852f6c4a34db83c6048da7d13d9838649ce300259e4a"
 
 RPROVIDES:${PN} += "ocaml-result"
 

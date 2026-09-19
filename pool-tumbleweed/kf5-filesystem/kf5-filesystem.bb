@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "20220307"
 
-RPM_NAME = "kf5-filesystem-20220307-2.2.aarch64.rpm"
-RPM_HASH = "c70fa328583c448ec089e8d4bb7f4147393505edf3ba946592fc93326efc088ffa62e6f3bce1609810fcf0d5c898087c197bdaa272e8fcfc032e022de2d79a4d"
+RPM_NAME = "kf5-filesystem-20220307-3.3.aarch64.rpm"
+RPM_HASH = "54aa799c49c31ba9b30c5dbf91155b4c0d47132b01f2ac9f0d7610587635f6f2a81dcfbecadee1c6a08e125d926b1ecbdafe8903fb5dd6a2b2c422b23537ecb9"
 
 RPROVIDES:${PN} += "kf5-filesystem \
 rpm-macro--kf5-applicationsdir \

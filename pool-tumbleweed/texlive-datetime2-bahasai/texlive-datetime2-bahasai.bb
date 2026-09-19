@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn46287"
+PV = "2026.226.1.01svn46287"
 
-RPM_NAME = "texlive-datetime2-bahasai-2023.209.1.01svn46287-55.1.noarch.rpm"
-RPM_HASH = "755524cc1402e8f1778e7a0899dac849681ee9c7d85623d12030cfe2113bdc48e31054bc6500b067d7689547330125aad4a1e5f11f937a04101015fb6a3b1ade"
+RPM_NAME = "texlive-datetime2-bahasai-2026.226.1.01svn46287-61.2.noarch.rpm"
+RPM_HASH = "7d1e3ce70104b14ac1fc48649edb711989a4fe827333c378098b73449bd344536f02e46841dd71142f872591827af09eb7e79fc07592a48c6610117b9f2b8414"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-bahasai.ldf \

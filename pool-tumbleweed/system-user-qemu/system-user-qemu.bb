@@ -2,10 +2,10 @@ SUMMARY = "System user and group qemu"
 DESCRIPTION = "This package provides the system account and group 'qemu'."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-user-qemu-20170617-24.16.noarch.rpm"
-RPM_HASH = "5cb8d4c2a60541d218f4f0501599faabdcb6aeda3cb58dd52a7fe99575a3d500debfbcfba95918486a70c347a250a9c5aa02ba992dc5efa60ebd2bc6e3ad6c67"
+RPM_NAME = "system-user-qemu-20250822-2.3.noarch.rpm"
+RPM_HASH = "e51ae6fa4ffe1035e63c51d21987c3b6df9dfb18e6d0187a40b9e75d62282ef43f94ce30f8bccca27c91c278af06e0d997b5b0d1ccd1d1764b39b7cc1915ddf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-qemu \

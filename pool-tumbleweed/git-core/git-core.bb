@@ -6,16 +6,17 @@ full access to internals. \
 These are the core tools with minimal dependencies."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.42.0"
+PV = "2.55.0"
 
-RPM_NAME = "git-core-2.42.0-1.1.aarch64.rpm"
-RPM_HASH = "36aef593f38479b2d5baf2f8f4b9736bddd344af5863cd54f87c405d407ae806553aa258468f4949d74e7e627cecf17565bb5e02c0a63f43dfe963839c529151"
+RPM_NAME = "git-core-2.55.0-3.2.aarch64.rpm"
+RPM_HASH = "f4ce1ea411cde314cc8767b36e5f31b1311249fa13ec2e008f1f8f30f51108e4bace2b4efbca83f78bca1a70d171b122e2dfae5aaefe4c27d059739786157fd6"
 
 RPROVIDES:${PN} += "git-core"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/awk \
+/usr/bin/less \
+/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-less \
 libc.so.6 \
 libcrypto.so.3 \
 libcurl.so.4 \
@@ -23,7 +24,6 @@ libexpat.so.1 \
 libpcre2-8.so.0 \
 libsha1detectcoll.so.1 \
 libssl.so.3 \
-libz.so.1 \
-openssh-clients"
+libz.so.1"
 
 inherit rpm

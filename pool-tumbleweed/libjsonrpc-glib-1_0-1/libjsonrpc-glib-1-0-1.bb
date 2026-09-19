@@ -7,10 +7,10 @@ of JSON when both peers support it. \
 This package contains the Jsonrpc-GLib shared library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.44.0"
+PV = "3.44.2"
 
-RPM_NAME = "libjsonrpc-glib-1_0-1-3.44.0-1.2.aarch64.rpm"
-RPM_HASH = "7b63639fb88d27b3fbf48903885b1dabf40c1177eb81842fa18431346f2fbdcdb7c5d1e3bd1e9d5e7ec82d6c9478e7a4ee60ae9648acfa2ab6d71008ec5db260"
+RPM_NAME = "libjsonrpc-glib-1_0-1-3.44.2-1.6.aarch64.rpm"
+RPM_HASH = "c257aa16fa21b76324e73ec5845df37909507fce637d7c12d17d2f31e94b30c51cd30fc22ad5d93eefbb16d12b83d79c2f74bd1f0a193c727f4adbf841f26ce5"
 
 RPROVIDES:${PN} += "libjsonrpc-glib-1-0-1 \
 libjsonrpc-glib-1.0.so.1"

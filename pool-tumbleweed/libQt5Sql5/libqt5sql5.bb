@@ -3,10 +3,10 @@ DESCRIPTION = "Qt 5 libraries which are used for connection with an SQL server. 
 will need also a plugin package for a supported SQL server."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5Sql5-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "29c0ca8970e7ff05a4292dcf25f27b47576030edff4bdbae036166c1d5d5f767a4a13de5b7d2661963795ee49fbf66df2ac8d3b8164cdbdb975adaff6a7871cb"
+RPM_NAME = "libQt5Sql5-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "52233aa00a73f3c3870e867e1ac81314cd1a24487f50184db6f189d69ce5cf4af5d5c1fe1ad1630159fd2ad5410253cc40d561e18537c354c393ad1cc253f8e4"
 
 RPROVIDES:${PN} += "libQt5Sql.so.5 \
 libQt5Sql5"

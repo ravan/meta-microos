@@ -1,19 +1,19 @@
 SUMMARY = "Translations for package kiten"
 DESCRIPTION = "Provides translations for the 'kiten' package."
-LICENSE = "GPL-2.0-or-later & CC-BY-SA-3.0 & CC-BY-SA-4.0"
+LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later & CC-BY-SA-4.0"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kiten-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "5f1d79c0ed4b580240b13e65a4b5fa163c0199a0fd80c45c6096479eaf355c28c9dd2a74bb7dcb64a2820a461397c3ca659615b31f18fcdf16a251fe1cea8a4c"
+RPM_NAME = "kiten-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "c6fac1bcadecfb5a10abf20b601599948c46d48994b9ddee4e842ca576b59674445ab8d148cc38f08e4dc30075fab366d526825062fcec3f4670824b9e9ac079"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kiten-lang \
 kiten-lang-all \
 locale-kiten-af \
 locale-kiten-ar \
+locale-kiten-ast \
 locale-kiten-be \
-locale-kiten-bg \
 locale-kiten-br \
 locale-kiten-bs \
 locale-kiten-ca \
@@ -33,9 +33,11 @@ locale-kiten-fi \
 locale-kiten-fr \
 locale-kiten-ga \
 locale-kiten-gl \
+locale-kiten-he \
 locale-kiten-hi \
 locale-kiten-hr \
 locale-kiten-hu \
+locale-kiten-ia \
 locale-kiten-is \
 locale-kiten-it \
 locale-kiten-ja \

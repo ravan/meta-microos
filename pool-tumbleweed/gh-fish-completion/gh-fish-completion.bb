@@ -2,10 +2,10 @@ SUMMARY = "Fish completion for gh"
 DESCRIPTION = "Fish command line completion support for gh."
 LICENSE = "MIT"
 
-PV = "2.34.0"
+PV = "2.100.0"
 
-RPM_NAME = "gh-fish-completion-2.34.0-1.1.noarch.rpm"
-RPM_HASH = "64d16212396b734c56991eba985bab5556f8473df5baaff2749be2e76836df8b2bdcfa79be28d952f0ad5bb4dd15547947751b34fcd1aeaf7965065e679c61c1"
+RPM_NAME = "gh-fish-completion-2.100.0-1.1.noarch.rpm"
+RPM_HASH = "920de6f48c750469b3f22de9ce27db5a650a1d1c9510b6e6f6e28c7bf4003379b92184d51c086e7bb82867f43fa619c9c290795e6ea9faceba9ae0f81b9f7411"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gh-fish-completion"

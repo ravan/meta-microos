@@ -5,10 +5,10 @@ Telepathy connection managers) to create metacontacts. \
 This package provides the development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.15.6"
+PV = "0.15.12"
 
-RPM_NAME = "folks-devel-0.15.6-1.2.aarch64.rpm"
-RPM_HASH = "7d606e1b72dd6a50251a2aa66b6b37a46714e324a57a26194f35f79eaef59af1bb8a62455a9e04e15b53c503db3c661d43302c9be96104c6cdd898ab1e792a67"
+RPM_NAME = "folks-devel-0.15.12-2.4.aarch64.rpm"
+RPM_HASH = "21a83b1b199ed00c93affe7718428cda82dc990df89ebb11dc84de2ac3b55ab6bb8693e1b54e2279e46a0445b5b13671d02a29fc34649c0ef858f6c168e89dab"
 
 RPROVIDES:${PN} += "folks-devel \
 pkgconfig-folks \

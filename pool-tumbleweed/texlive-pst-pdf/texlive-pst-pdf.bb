@@ -9,10 +9,10 @@ instead of the original PostScript code. The package works with \
 pstricks and requires a recent version of the preview package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2fsvn56622"
+PV = "2026.226.1.2fsvn77682"
 
-RPM_NAME = "texlive-pst-pdf-2023.209.1.2fsvn56622-54.2.noarch.rpm"
-RPM_HASH = "c06c090848e49ced6d964ac8d04a4f0e6fe2ab7f3d162b00fe3bb23249069321365b3b5774d955bb1a20a3f685e9308531c456c206e547363b0ecbd975c8cdac"
+RPM_NAME = "texlive-pst-pdf-2026.226.1.2fsvn77682-60.4.noarch.rpm"
+RPM_HASH = "cdc943ab6b1c0ce80375938f6cc8d67ff4f592f2333b88f60532358bf148775f0e9e76bb1a63ce9beacf24a9e42600ce39034a8c6ddb22ec7d91a75854d5252a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-pdf.sty \

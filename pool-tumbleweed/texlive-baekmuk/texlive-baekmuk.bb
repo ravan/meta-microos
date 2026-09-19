@@ -5,10 +5,10 @@ hline.ttf: headline These fonts were originally retrieved from \
 http://kldp.net/baekmuk/ and are no longer maintained."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2.1svn56915"
+PV = "2026.226.2.2.1svn56915"
 
-RPM_NAME = "texlive-baekmuk-2023.209.2.2.1svn56915-54.1.noarch.rpm"
-RPM_HASH = "96e87a1b3dd5834456550b62aa5c76737b06ac2d0f41ad0f5e8ca28f0144e78d7f4df365c82d801d36aa29d9cf8bc4f9a30bf3d56a80d29ec6ec0b6acb84c779"
+RPM_NAME = "texlive-baekmuk-2026.226.2.2.1svn56915-60.2.noarch.rpm"
+RPM_HASH = "02e94e23a38d65e3762459edca1fbca7719a069b780130f637cab2fa8123f522503f81286c8b0b2fe4c2247e0a69c8f07d4e5c331a50df6c977d940ee4a72710"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-baekmuk"

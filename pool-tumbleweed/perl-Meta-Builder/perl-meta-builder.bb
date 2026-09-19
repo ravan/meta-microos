@@ -22,8 +22,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.004"
 
-RPM_NAME = "perl-Meta-Builder-0.004-1.19.noarch.rpm"
-RPM_HASH = "dc27a56f729f0fc6bd97888a43c15271211cd86bd8cea47c2adb4064a8767073e55e0f26d9d51c00b21c3ac9f31ce12723c97b557bac8cd8e313886039a6e1cf"
+RPM_NAME = "perl-Meta-Builder-0.004-1.33.noarch.rpm"
+RPM_HASH = "916eb461144ec9f92a0ec643db05e44f35b792b6cd4ab15ce8ce61148c01b04aadae9cb519e8a865fd2992ff074a5dedf7ae7e5d51d3c96dbf6bd8b5d7db8038"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Meta--Builder \
@@ -31,6 +31,6 @@ perl-Meta--Builder--Base \
 perl-Meta--Builder--Util \
 perl-Meta-Builder"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

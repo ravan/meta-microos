@@ -1,18 +1,17 @@
-SUMMARY = "Shell scripts interfacing to pdfpages"
+SUMMARY = "Shell script interface to pdfpages"
 DESCRIPTION = "The package makes available the pdfjam shell script that \
 provides a simple interface to much of the functionality of the \
 excellent pdfpages package (by Andreas Matthias) for LaTeX. The \
-pdfjam script takes one or more PDF files (and/or JPG/PNG \
-graphics files) as input, and produces one or more PDF files as \
-output. It is useful for joining files together, selecting \
-pages, reducing several source pages onto one output page, \
-etc., etc."
+pdfjam script takes one or more PDF (and/or JPG/PNG) files as \
+input, and produces one or more PDF files as output. It is \
+useful for joining files together, selecting pages, reducing \
+several source pages onto one output page, etc., etc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.03svn56991"
+PV = "2026.226.4.2svn75152"
 
-RPM_NAME = "texlive-pdfjam-2023.209.3.03svn56991-52.1.noarch.rpm"
-RPM_HASH = "aef6d32a78272dff8053061cf6304e2549d91289dce373179213fccd061e6515e8b7467a8c70beab86d5987917799461fc7f61554ee3a3259a95a8d0ddf8382f"
+RPM_NAME = "texlive-pdfjam-2026.226.4.2svn75152-58.2.noarch.rpm"
+RPM_HASH = "ac53f0ab0f05e7ab3787a064315be9a85426b98e3496467c67fb4db887780dff8601d04f806139d09c9371999a50ed9f34f91f81b3de35993439b03bb0877cf5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfjam"

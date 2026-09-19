@@ -3,10 +3,10 @@ DESCRIPTION = "fwknop stands for the 'FireWall KNock OPerator', and implements a
 scheme called Single Packet Authorization (SPA)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.6.10"
+PV = "2.6.11"
 
-RPM_NAME = "fwknopd-2.6.10-3.9.aarch64.rpm"
-RPM_HASH = "a197e532491f1af5d4718fedf2afa0717839817b4df4c5d0665418dd4ec1609f0eb3a4eb4b79791f7c737c4eda405e637103cf3ca0f7188216ea347db0e8311e"
+RPM_NAME = "fwknopd-2.6.11-1.10.aarch64.rpm"
+RPM_HASH = "38ec1f4f18098f7a56dfd69186bd7f031da973dd34893b2699ccd5010aba993bf15cd07fd71ea81728cddd65aefc2e9f663aa5bea01529cb4a13e803cf023562"
 
 RPROVIDES:${PN} += "config-fwknopd \
 fwknopd"

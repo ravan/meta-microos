@@ -2,10 +2,10 @@ SUMMARY = "Documentation for switcheroo-control"
 DESCRIPTION = "This package contains the documentation for switcheroo-control."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.6"
+PV = "3.0"
 
-RPM_NAME = "switcheroo-control-doc-2.6-1.5.noarch.rpm"
-RPM_HASH = "f7a2f4837a8b23805d2b04f2c0176a4ea4c5d1de2172275c2f0d43712cba8c2b97611cd6b603ade152565fa5deeeaa011323b7faab5f72bf6de65e136f3ce279"
+RPM_NAME = "switcheroo-control-doc-3.0-1.6.noarch.rpm"
+RPM_HASH = "3f307f1ae3bafb71873f66069cb2f9bd8e0354d0aaf08f91241e7e2603ba69c1d5e72344067aa0e331af94c4cbe52fe9a39696d114990a4f9b0eeccd882af447"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "switcheroo-control-doc"

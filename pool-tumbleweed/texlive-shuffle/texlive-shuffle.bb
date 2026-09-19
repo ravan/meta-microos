@@ -4,10 +4,10 @@ source) for the shuffle product which is used in some part of \
 mathematics and physics."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn78101"
 
-RPM_NAME = "texlive-shuffle-2023.209.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "de641f2d474199c0c44827fc1eeba4481ee3cce426de51b1c20aa2571f3582745a46db6b19fc81b3299081be52bf7ffc993fa02b6537c653bb6496fc9cd54ed9"
+RPM_NAME = "texlive-shuffle-2026.226.1.0svn78101-60.2.noarch.rpm"
+RPM_HASH = "9449b1d38534bbd3d528079bec2bb6bf183cf10ce9416bb50a79d663fc6941678578b21fd87608f2ddd2548a753e0713c46a63ff86aeeae35aa868538db00b1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Ushuffle.fd \

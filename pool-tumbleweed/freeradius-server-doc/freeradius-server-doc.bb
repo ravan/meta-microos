@@ -2,10 +2,10 @@ SUMMARY = "FreeRADIUS Documentation"
 DESCRIPTION = "FreeRADIUS documentation."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.2.3"
+PV = "3.2.8"
 
-RPM_NAME = "freeradius-server-doc-3.2.3-1.1.aarch64.rpm"
-RPM_HASH = "1a2e8cea17d70b21d54b08ee48510b4373b950136bcfb6d75f1ae12010d34132a598ff059ded9c3751c201ed2e6c9c5e76694f2c82549a61a785d3d1b4b05e06"
+RPM_NAME = "freeradius-server-doc-3.2.8-1.8.aarch64.rpm"
+RPM_HASH = "c49d0ca752a7ace9dd63ec3466eb286c13b63ff25fa0d56e02ad129f454e6c0c78a5cb27601708cb92da518363ceaa16a788c2a5d5a95667a4abf66040870752"
 
 RPROVIDES:${PN} += "freeradius-server-doc"
 

@@ -1,11 +1,11 @@
-SUMMARY = "Fonts"
-DESCRIPTION = "Base fonts and font configuration."
+SUMMARY = "Fonts (Extra)"
+DESCRIPTION = "Extra fonts and font configuration."
 LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-fonts-fonts_opt-20170319-10.1.aarch64.rpm"
-RPM_HASH = "e2a01e2063df813de2a92b4b39e0872281f43ab5eaed8b237bf29367c3a02ca945d9482a32bbf5fb296280fb270b93a888f6a8ba873a432814579fdf79fc08c2"
+RPM_NAME = "patterns-fonts-fonts_opt-20170319-13.2.aarch64.rpm"
+RPM_HASH = "0bc223228b88c9d110bb1ed7a58f32a9736c7467db1adad113e60017defdd9938d9da93514acf2150d169e78e4d8b2c30c5ebd599a2786faa487f853c582f55c"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

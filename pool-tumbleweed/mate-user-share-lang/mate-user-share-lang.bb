@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-user-share"
 DESCRIPTION = "Provides translations for the 'mate-user-share' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "mate-user-share-lang-1.26.0-1.9.noarch.rpm"
-RPM_HASH = "08914d630f17bf17ce55bfd29f7bbf4a9fe9dabc47242426d5f40c79df3e38f25ed5df028a156085f495c5cf95ba784f95654edba96ada6eb57ad719ac5d1019"
+RPM_NAME = "mate-user-share-lang-1.28.0-2.4.noarch.rpm"
+RPM_HASH = "de963b59a51431e241d3213cdf271ead24401d0763f1100f1974ec1f205a38c0c491fdfb05e1e5df6eaa20ee19437bbe1f53f1cf2bba28ce9185d8572ff7822e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-user-share-af \

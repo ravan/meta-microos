@@ -6,10 +6,10 @@ This package contains the files necessary for developing and building \
 applications using the library."
 LICENSE = "LGPL-3.0-only-with-LGPL-3.0-linking-exception"
 
-PV = "1.15.1"
+PV = "1.18.6"
 
-RPM_NAME = "dqlite-devel-1.15.1-1.1.aarch64.rpm"
-RPM_HASH = "64322b82c914022dca4cd78eb9ba9a2b3db9ced8015ec56b007faa11ffa0545bca1db7ca2f883f7f0519e9e82d6ce83486cb5f973c9480f8524642f7204aaf86"
+RPM_NAME = "dqlite-devel-1.18.6-1.3.aarch64.rpm"
+RPM_HASH = "c99856bfaf5e4907e4dfb1acaedbf4e66524c142657839e34140e9c7a1c4bc803ae917f54dce6e8e367be1c8644212de3c97e0a8733d780f56f8be2d582f4cac"
 
 RPROVIDES:${PN} += "dqlite-devel \
 pkgconfig-dqlite"

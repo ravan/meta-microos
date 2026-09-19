@@ -4,10 +4,10 @@ as similar things such as Dirac bra-ket notation, conditional \
 probabilities, etc. The package is at least inspired by braket."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn47085"
+PV = "2026.226.svn47085"
 
-RPM_NAME = "texlive-context-mathsets-2023.209.svn47085-55.1.noarch.rpm"
-RPM_HASH = "2c3142e8852648d9ba87f9d799fd126514013c0a0e39704f95670570cf8aef4af724bd57384c27399f83423934751ec5445e61d67b59ee6db8b3170885c18a78"
+RPM_NAME = "texlive-context-mathsets-2026.226.svn47085-61.2.noarch.rpm"
+RPM_HASH = "c37a48b87879d5a35e69015eb3e8d6596f3d1073b37ed4e60eb31807e9075d12d7980d6a2a7a5729d53236b6d22dac64e4dc11d49def92f967a0e1a0ccb388a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-mathsets.tex \

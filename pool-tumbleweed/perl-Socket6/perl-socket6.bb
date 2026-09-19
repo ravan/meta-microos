@@ -5,15 +5,15 @@ If you use the Socket6 module, be sure to specify 'use Socket' as well as \
 'use Socket6'."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.29"
+PV = "0.290.0"
 
-RPM_NAME = "perl-Socket6-0.29-1.19.aarch64.rpm"
-RPM_HASH = "66ec002eb3f47906f9c0a59d20745d2e44f28f6d7fb95e61800e6488ad12b9264300c9d0eb94404c88bd0b8b6a1ebdd7ffbcdaf13cd32b1e4fa0f72f085ce4b2"
+RPM_NAME = "perl-Socket6-0.290.0-1.8.aarch64.rpm"
+RPM_HASH = "a8adc637efbda8e3d81b77c0e0b6604e59398aa4789392702b6b0e4405f8030c6d278b24f893585daf16841ad25c0f976c986c4187b8698f7ad68a30122675df"
 
 RPROVIDES:${PN} += "perl-Socket6"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package agenda"
 DESCRIPTION = "Provides translations for the 'agenda' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.1.2"
+PV = "1.2.1"
 
-RPM_NAME = "agenda-lang-1.1.2-1.11.noarch.rpm"
-RPM_HASH = "e56bdb58d49d627a1903400dfe23fd18c66b44e5495a528e00ef429a22ff7ca6ee3b9a4619861d83c1f9ac83aa1df66d4d54140c77531f3c997ca8c643b77303"
+RPM_NAME = "agenda-lang-1.2.1-1.5.noarch.rpm"
+RPM_HASH = "ec03d1a7502da0b3ff22917e765abe235e652e4659ffc9ebaefccc1e1d457f99df48211c2c31c754eccdfcb4d0dcf8775207879cc3ce3785ce65d639249ba0d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "agenda-lang \
@@ -35,6 +35,7 @@ locale-agenda-ms \
 locale-agenda-nb \
 locale-agenda-nl \
 locale-agenda-nn \
+locale-agenda-oc \
 locale-agenda-pl \
 locale-agenda-pt \
 locale-agenda-pt-BR \

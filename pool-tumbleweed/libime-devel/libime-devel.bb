@@ -2,10 +2,10 @@ SUMMARY = "Development files for libime"
 DESCRIPTION = "This package provides development files for libime."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.1"
+PV = "1.1.13"
 
-RPM_NAME = "libime-devel-1.1.1-1.1.aarch64.rpm"
-RPM_HASH = "7afc3404ecc4ebe99c80c70168acbe0ca5211e98c80d723b7fff58308131382ce0759165303293bd4e029f15b57008ce817cb9900f817f6bcfe32c262729def6"
+RPM_NAME = "libime-devel-1.1.13-1.5.aarch64.rpm"
+RPM_HASH = "24b6a75702fb48cf692eaee14abb947974dd41dcf5628342f2d8bf77eb3976d9abbfec0a3cdf2d7f7710c9c7ab6d4906487ab3d5bb394f4f817c5248905e384e"
 
 RPROVIDES:${PN} += "cmake-LibIMECore \
 cmake-LibIMEPinyin \

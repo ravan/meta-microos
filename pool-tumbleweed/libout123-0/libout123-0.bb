@@ -4,10 +4,10 @@ layers 1,2 and 3 (most commonly MPEG 1.0 layer 3 aka MP3), as well as re-usable 
 and output libraries."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.31.3"
+PV = "1.33.7"
 
-RPM_NAME = "libout123-0-1.31.3-1.3.aarch64.rpm"
-RPM_HASH = "abe32e0d415863bb21dd9f6399fb05e5eb5f72ec93adad64b5fe13a8f7fb06300f9969b6c74161e7193d72c0d418cf72a31fed803810d68591893d81bd3c7aed"
+RPM_NAME = "libout123-0-1.33.7-1.1.aarch64.rpm"
+RPM_HASH = "3d5ee7cf42089ad0ff8c3d3fdd40c35e1d12bb5dadbdab91d6a18d733c0b8227c3e7a4311175ef5ec96ebbd6439f0536f9f01fda8abaae3514b40cb2dc2e3023"
 
 RPROVIDES:${PN} += "libout123-0 \
 libout123.so.0"

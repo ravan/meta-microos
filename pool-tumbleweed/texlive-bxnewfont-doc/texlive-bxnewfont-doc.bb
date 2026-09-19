@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bxnewfont"
 DESCRIPTION = "This package includes the documentation for texlive-bxnewfont"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2bsvn44173"
+PV = "2026.226.0.0.2bsvn44173"
 
-RPM_NAME = "texlive-bxnewfont-doc-2023.209.0.0.2bsvn44173-53.1.noarch.rpm"
-RPM_HASH = "b7721bca309b797e8ea3f5ac3aebbb3cb55da867425556bdc8ca13dbb62ec435b77976df0762862fd4786e73a05cc0ff399ba2dc2f1ede5c0f706d0af99da753"
+RPM_NAME = "texlive-bxnewfont-doc-2026.226.0.0.2bsvn44173-59.2.noarch.rpm"
+RPM_HASH = "5a54077d1fe2cbb8a76531b7bc334ef5eb1e5166b1b3e5294d1c78288633baacf0ee49966fae2cfdd500ec9f62516b50e7207caa7509a9bbbc6f95a74bccaaea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxnewfont-doc"

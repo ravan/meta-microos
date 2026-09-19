@@ -7,12 +7,14 @@ DESCRIPTION = "C/C++ library that exports various synchronization primitives: \
 	waitable bit (useful for cancellation, or other conditions)"
 LICENSE = "Apache-2.0"
 
-PV = "1.23.0"
+PV = "1.29.2"
 
-RPM_NAME = "libnsync-devel-1.23.0-2.13.aarch64.rpm"
-RPM_HASH = "0a9a788a2b2bfe56c5354fc442f30af04c613fd5aa439d68e87d76bb546948dc8c6eee8088f8fb8201f8c20fc2e5f08e6226b0f61e854efcf3bb3c00d049da0c"
+RPM_NAME = "libnsync-devel-1.29.2-1.4.aarch64.rpm"
+RPM_HASH = "0e8970ae1e36a99608c7255a3921261769d19bc9760ef1c41367c776ef7cdf0036b6f7b9810ae163fb71d8173de448cd59f51e26c1bf11471e954ab96929d92f"
 
-RPROVIDES:${PN} += "libnsync-devel"
+RPROVIDES:${PN} += "cmake-nsync \
+cmake-nsync-cpp \
+libnsync-devel"
 
 RDEPENDS:${PN} += "libnsync-cpp1 \
 libnsync1"

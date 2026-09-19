@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains header files for developing applications
 that want to make use of the APR Utility library."
 LICENSE = "Apache-2.0"
 
-PV = "1.6.3"
+PV = "1.6.5"
 
-RPM_NAME = "apr-util-devel-1.6.3-1.3.aarch64.rpm"
-RPM_HASH = "896f24c7146a52d09d53a6ff7ee0174f8075002d62d1cf6195615286eb26d6cb35aa3f34dd3cf2a0e4b7c50b45187d25edb25e12dbdc4d5a5729ccbb3d4e118f"
+RPM_NAME = "apr-util-devel-1.6.5-1.1.aarch64.rpm"
+RPM_HASH = "86c4f2d495b194eed43efe88a9bdbe8b52c652d91f9923257054a45b590f5879445e4b63f4f0fa632a09b1f22a820dfa235c3c4f334a7c00d5707e4bd5b82517"
 
 RPROVIDES:${PN} += "apr-util-devel \
 libapr-util1-devel \

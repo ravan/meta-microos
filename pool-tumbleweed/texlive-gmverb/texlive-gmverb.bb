@@ -8,10 +8,10 @@ package of the LaTeX distribution. The package depends on the \
 gmutils package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.98svn24288"
+PV = "2026.226.0.0.98svn24288"
 
-RPM_NAME = "texlive-gmverb-2023.209.0.0.98svn24288-54.2.noarch.rpm"
-RPM_HASH = "272379c9ce966f3dc7843eeeae5d1a299ebbe90b4dd8ce872393c4eeb0f1cbb3ee2506d53f094662c474decef18cffd8bf96d501e744606d35d732298810aeae"
+RPM_NAME = "texlive-gmverb-2026.226.0.0.98svn24288-60.4.noarch.rpm"
+RPM_HASH = "8f469c8af446d014c159758b4dfe68987a20d0620e4488df4e7fddb0055c707adb7c841477e8f88db885b618c7bb3465c91ba82963ebe7cf0051458033c5987b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gmverb.sty \

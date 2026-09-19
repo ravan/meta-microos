@@ -5,10 +5,10 @@ The counter itself may be shipped out to the DVI file. The \
 package uses the everyshi package for its task."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.00svn15878"
+PV = "2026.226.2.00svn77682"
 
-RPM_NAME = "texlive-totpages-2023.209.2.00svn15878-53.1.noarch.rpm"
-RPM_HASH = "491d6960ff0352bc1629bd498b017de8c0f822a881e12e7178810f81267bdd137d866b48685414554373852907527d5578681cc55ec3423dc1c38ad4d6905421"
+RPM_NAME = "texlive-totpages-2026.226.2.00svn77682-59.2.noarch.rpm"
+RPM_HASH = "d395b84ddee03b9d88a8faf7108825b5f070c7ddc6ab093fee5160b3f01a640818eae2f45bf3cf3792de3da5061fb3c68b10138dba1259fb98fce94c1ddf5dcf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-totpages.sty \

@@ -8,15 +8,17 @@ copied to to a higher level read-write branch if the copy-on-write \
 (cow) mode was enabled."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1"
+PV = "3.7"
 
-RPM_NAME = "unionfs-fuse-2.1-1.8.aarch64.rpm"
-RPM_HASH = "9343f974581c132d176cb1ee7af334feb0f850de458227b45e5828c6fbf27609b44cb6af093ab0d48498852c1e4fac969ccd82ed5c39e75fea11ca945ca67e25"
+RPM_NAME = "unionfs-fuse-3.7-1.5.aarch64.rpm"
+RPM_HASH = "c6868c993096fc84b509564f866ae0a3a5e94b26a041a7580db5e511b0bc2a07f35c04c3cd00e29770d52b440e7ca02b2441eab723e23c17bb7e2650fd378881"
 
 RPROVIDES:${PN} += "unionfs-fuse"
 
-RDEPENDS:${PN} += "fuse \
+RDEPENDS:${PN} += "/usr/bin/bash \
+fuse3 \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfuse.so.2"
+libfuse3.so.4"
 
 inherit rpm

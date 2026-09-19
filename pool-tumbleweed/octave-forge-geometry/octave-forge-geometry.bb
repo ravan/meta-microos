@@ -3,12 +3,12 @@ DESCRIPTION = "Library for geometric computing extending MatGeom functions. \
 Useful to create, transform, manipulate and display geometric \
 primitives. \
 This is part of Octave-Forge project."
-LICENSE = "GPL-3.0-or-later & BSD-2-Clause"
+LICENSE = "BSD-2-Clause & GPL-3.0-or-later"
 
-PV = "4.0.0"
+PV = "4.1.0"
 
-RPM_NAME = "octave-forge-geometry-4.0.0-2.9.aarch64.rpm"
-RPM_HASH = "b7eef6003b2e9a4fcd579b91bbda0bb70a749107db97868911270fcd7dc322b141f2cc78e6321c650f959cf40903b1743206e9bb2d9b520e879684b3a182175c"
+RPM_NAME = "octave-forge-geometry-4.1.0-1.7.aarch64.rpm"
+RPM_HASH = "163b62b5e02d0f4ea0c7da7bd6933fb4c652528307dde22717159f2431030651de75369a59163ca6fe57b04a470150489d18b3447b16a740af3f99a33a9889ca"
 
 RPROVIDES:${PN} += "octave-forge-geometry"
 
@@ -17,7 +17,9 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
+liboctmex.so.1 \
 libstdc++.so.6 \
+octave-api-v61 \
 octave-cli \
 octave-forge-matgeom"
 

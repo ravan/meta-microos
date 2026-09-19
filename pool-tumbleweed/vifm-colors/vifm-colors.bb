@@ -2,10 +2,10 @@ SUMMARY = "Color themes for vifm"
 DESCRIPTION = "Color themes for vifm file manager."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.12"
+PV = "0.13"
 
-RPM_NAME = "vifm-colors-0.12-1.2.noarch.rpm"
-RPM_HASH = "c1680217fda3bced5c1fba864e0868b7a6266738bf89b3136c8dea445a3b077147b596c1a2a422df6e2f6b3f0c046a87511d36a7d9d544109b2d0965bf75506a"
+RPM_NAME = "vifm-colors-0.13-1.9.noarch.rpm"
+RPM_HASH = "819ad231762efa5dbbe93891389b038c661ad7e24baf0240800e27931c995b1c8bdeac150abb50999a7a8360a944b8745e66cac417aeb5ec409fe1bc51d33e01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-vifm-colors \

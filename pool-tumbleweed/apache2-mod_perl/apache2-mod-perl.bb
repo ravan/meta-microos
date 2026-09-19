@@ -13,10 +13,10 @@ embedded interpreter if the additional performance is needed, but may \
 require modifications to the scripts."
 LICENSE = "Apache-2.0"
 
-PV = "2.0.12"
+PV = "2.0.13"
 
-RPM_NAME = "apache2-mod_perl-2.0.12-2.1.aarch64.rpm"
-RPM_HASH = "b34f2c2a9ff2860f7d6ee7c1aff0a288e8e6148a8d01bdec822aa29a12b43eb329207613fdd60eba21276e622e78ac6edf9022301bd8c4f2e881190858cc010b"
+RPM_NAME = "apache2-mod_perl-2.0.13-4.9.aarch64.rpm"
+RPM_HASH = "7c3e9c78dc9d7c20bdfb57dca1ad99cb51e48b37a1db66968d3d3d42976ef295858f7212d244dbe82daa4f5c78abf74a2fa11c23bd2757d64b26e0458521bb6c"
 
 RPROVIDES:${PN} += "apache2-mod-perl \
 config-apache2-mod-perl \

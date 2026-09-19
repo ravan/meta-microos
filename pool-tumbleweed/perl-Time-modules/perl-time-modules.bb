@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "2013.0912"
 
-RPM_NAME = "perl-Time-modules-2013.0912-1.21.aarch64.rpm"
-RPM_HASH = "3776dce44a0fcbe48824f0d96ed44ab24ed84cfad8b6d08433db399e6cdea3232a9242318952fb3882d79515ff476a620357156de3fa81611378219bd68b8417"
+RPM_NAME = "perl-Time-modules-2013.0912-2.10.aarch64.rpm"
+RPM_HASH = "a32fbca3ba1e7b0bd0c1963ac50db25d48216b03a2c3621dba53fe58917d5e9f88324c236e16977d763daedea5c8323c658431353870d2bfa0f4d049fd523503"
 
 RPROVIDES:${PN} += "perl-Time--CTime \
 perl-Time--DaysInMonth \
@@ -14,6 +14,6 @@ perl-Time--ParseDate \
 perl-Time--Timezone \
 perl-Time-modules"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -4,10 +4,10 @@ the user to change the layout of individual pages and their \
 texts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn16094"
+PV = "2026.226.1.0svn16094"
 
-RPM_NAME = "texlive-changelayout-2023.209.1.0svn16094-53.1.noarch.rpm"
-RPM_HASH = "ad8f160e674c16305b205f1ced479cfc303133a6cd679d13318de6dca42e16f40ce60870323a5a85a401e685f223808b521748ee4de9ea3fc57a9063375bc449"
+RPM_NAME = "texlive-changelayout-2026.226.1.0svn16094-59.2.noarch.rpm"
+RPM_HASH = "b962098c12b156fcb9614bc627a9214e12ff72313c60fd7e6e87615b7e4d2a927782c1d5d70f1eca2126f4aa8404695f39b358ed03436c3d9ce69bf17004376c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-changelayout.sty \

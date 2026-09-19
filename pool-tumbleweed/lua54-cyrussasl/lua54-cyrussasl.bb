@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0"
 
-RPM_NAME = "lua54-cyrussasl-1.1.0-3.2.aarch64.rpm"
-RPM_HASH = "0b1c13b059cef2361412f2b7c90cd562878d22e1ee8b3090c8e0851ab2921d8d588877073bccf0d2ea93b480ab7d129b346fb65f04b4675052223e0ee8c55fbe"
+RPM_NAME = "lua54-cyrussasl-1.1.0-5.3.aarch64.rpm"
+RPM_HASH = "3a21f0f6e7a9fe7cb4ee05066fd73a4a195f4a6b36278e40a36b81f8609a98f6f5f3530add00839a40178583608d6dde21a0bb94b161f937d75a8fadac62c48b"
 
 RPROVIDES:${PN} += "lua-cyrussasl \
 lua54-cyrussasl"

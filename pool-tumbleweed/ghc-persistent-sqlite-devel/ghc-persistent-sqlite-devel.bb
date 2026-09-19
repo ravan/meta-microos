@@ -3,34 +3,33 @@ DESCRIPTION = "This package provides the Haskell persistent-sqlite library devel
 files."
 LICENSE = "MIT"
 
-PV = "2.13.1.1"
+PV = "2.13.3.1"
 
-RPM_NAME = "ghc-persistent-sqlite-devel-2.13.1.1-2.15.aarch64.rpm"
-RPM_HASH = "115efc1f87518c9963bf9efe580f38cbc696896c5f014f407d7a306c55572470b7fd7ea03ea9cb44ba71a30c3b798a5c9abd9fbf3987824536f3109e9b692507"
+RPM_NAME = "ghc-persistent-sqlite-devel-2.13.3.1-1.26.aarch64.rpm"
+RPM_HASH = "6567e071ffcb8eeec99d7915189421971f682f735c34dff6a7d9f94ae41353df6b871410be28ef2dcc302063fd30712398ff33582bca1de5c1e7f0e46ea29b9c"
 
-RPROVIDES:${PN} += "ghc-devel-persistent-sqlite-2.13.1.1-LFBaiZpqiPx36cLUcGmy9U \
+RPROVIDES:${PN} += "ghc-devel-persistent-sqlite-2.13.3.1-IdOK9Fw5cMI6O2h4Rb96Ym \
 ghc-persistent-sqlite-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
-ghc-devel-containers-0.6.7 \
-ghc-devel-microlens-th-0.4.3.13-K3KDbjSa5xkBUVjBxtDTLF \
-ghc-devel-monad-logger-0.3.40-7M7roko8a7PJ68wJBTUT6s \
-ghc-devel-mtl-2.2.2 \
-ghc-devel-persistent-2.14.5.1-Gjrp3WYLCFS91AokYH8j1m \
-ghc-devel-resource-pool-0.4.0.0-7uUtnYEtaeP22tTkIEO3ty \
-ghc-devel-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-devel-text-2.0.2 \
-ghc-devel-time-1.12.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unliftio-core-0.2.1.0-LP03A4AUPGIIJc7XWMX3ES \
-ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
+ghc-devel-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-conduit-1.3.6.1-DuJaiNNDon54jV6QjcNayt \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-microlens-th-0.4.3.18-5y491C8iAr58VYbwqIS2QN \
+ghc-devel-monad-logger-0.3.42-GqHwch1CK1c5RziOTPSbJG \
+ghc-devel-mtl-2.3.2-37ef \
+ghc-devel-persistent-2.17.1.0-4wNOAx2iKPh9qy3cL3mEtA \
+ghc-devel-resource-pool-0.5.0.1-CRHTi96cJqx7YSyfyqtukW \
+ghc-devel-resourcet-1.3.0-F8ZRgExkptBLIQxE9m0AZE \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-time-1.14-a7dc \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unliftio-core-0.2.1.0-HFUY5mS3bsg3RW1edumY92 \
+ghc-devel-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
 ghc-persistent-sqlite \
-glibc-devel \
-sqlite3-devel"
+glibc-devel"
 
 inherit rpm

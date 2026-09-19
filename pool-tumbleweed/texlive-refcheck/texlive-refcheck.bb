@@ -6,10 +6,10 @@ also display label names in text near corresponding numbers of \
 equations and/or bibliography references."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.9.1svn29128"
+PV = "2026.226.1.9.2svn77682"
 
-RPM_NAME = "texlive-refcheck-2023.209.1.9.1svn29128-54.2.noarch.rpm"
-RPM_HASH = "c93367675f512fe553401bafa32252025256891de4887843e8db1dcad9a8089b95475735d61b552e0424f43370dd1af1892294f029bc5d22fcf5452eef1f61d9"
+RPM_NAME = "texlive-refcheck-2026.226.1.9.2svn77682-60.4.noarch.rpm"
+RPM_HASH = "39bbf58b44d47d60e5f7deb600990395129d52f0ea47a3d1082c304d8ab8692e95e7f797666f882eceab2434e35a2eccffd9b5f0eebb11995a3e6161a8825394"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-refcheck.sty \

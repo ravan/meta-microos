@@ -3,10 +3,10 @@ DESCRIPTION = "A Gtk client and libraries for SPICE remote desktop servers, (Lin
 Contains helpers needed by the spice glib client library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.42"
+PV = "0.43"
 
-RPM_NAME = "libspice-client-glib-helper-0.42-2.1.aarch64.rpm"
-RPM_HASH = "e042eac9913c51695d6b326846c6339d29193c62f15a25f5a0993a18e6f461a00682c867f78f05348ff4be42c1b55c8dc11e0313423f608d4c026ea23d6af466"
+RPM_NAME = "libspice-client-glib-helper-0.43-1.1.aarch64.rpm"
+RPM_HASH = "6541132baf7caf5577980a0f5bd9e5121d046c2f0289c0863ed004d49c53ac470618677520ff8986065dcd43553e5fdbc680695179c457956ba21229ce3f72c9"
 
 RPROVIDES:${PN} += "libspice-client-glib-helper"
 

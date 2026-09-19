@@ -1,12 +1,13 @@
-SUMMARY = "Typeset Python listings with LPEG"
+SUMMARY = "Typeset computer listings with LPEG of LuaLaTeX"
 DESCRIPTION = "This package uses the Lua library LPEG to typeset and highlight \
-Python listings."
+computer listings in several languages. It requires the use of \
+LuaLaTeX. It won't work with XeLaTeX, nor pdfLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn65835"
+PV = "2026.226.4.11svn77682"
 
-RPM_NAME = "texlive-piton-2023.209.1.4svn65835-52.1.noarch.rpm"
-RPM_HASH = "ee708005feee5b7200fb62ea55e33e227e64db030744aaa87cdbaee538177d6d107b945dc17b7fe0a47aca448cdfea81fb85eb3d67de12c0114ec7e1b0906169"
+RPM_NAME = "texlive-piton-2026.226.4.11svn77682-58.2.noarch.rpm"
+RPM_HASH = "c26fc12ffc986f74aac99070f54f69fd2bccfd188b4e57e48246424b1857d19e7b5e31dde10d5d0439f55de0d9486546b987981e6a6ca48a0228e62538a7aabc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-piton.sty \
@@ -18,11 +19,14 @@ ed \
 findutils \
 grep \
 sed \
+tex-amstext.sty \
 tex-footnote.sty \
 tex-footnotehyper.sty \
-tex-l3keys2e.sty \
 tex-luacode.sty \
-tex-luatexbase.sty \
+tex-marginalia.sty \
+tex-tcolorbox.sty \
+tex-transparent.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

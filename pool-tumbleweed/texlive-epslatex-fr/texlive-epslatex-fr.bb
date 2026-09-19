@@ -3,10 +3,10 @@ DESCRIPTION = "This is the French translation of epslatex, and describes how \
 to use imported graphics in LaTeX(2e) documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn19440"
+PV = "2026.226.svn19440"
 
-RPM_NAME = "texlive-epslatex-fr-2023.209.svn19440-54.2.noarch.rpm"
-RPM_HASH = "8cac29ffe39c16c1b94819e632271a2a63e151615dabfcd4046ff729b2fc5b388298d32ad51b302013bab47783d0f4c7e68b4c57769bf480b22589e57e09f23a"
+RPM_NAME = "texlive-epslatex-fr-2026.226.svn19440-61.4.noarch.rpm"
+RPM_HASH = "a7e1e154886f51b9992db91be394f6a4fcf6226faac0ad4c0e2beb0f66df4b0d2348f726ee955040f50966b4d4af31ddc618bc8b079905223f163cec83114470"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epslatex-fr"

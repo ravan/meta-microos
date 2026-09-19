@@ -7,13 +7,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.18"
 
-RPM_NAME = "system-config-printer-common-1.5.18-3.1.noarch.rpm"
-RPM_HASH = "ab6b123e95f23a76176a10299b6544105154ad8e0af563d41e6bae8d1ae4332cffc97cba769b3dbcf3b9249ea2761008c3374b83437e3f2e93ad77719472ab7b"
+RPM_NAME = "system-config-printer-common-1.5.18-9.6.noarch.rpm"
+RPM_HASH = "d8618687fa250176ce6b04fc4abba752fa71a6987d08a08a8aa2d9c11957d49a3e4f9cc229e03cd475dbcf678e735ffa8110e5d0ea9abd0710a90606dae06ba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "system-config-printer-common"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 dbus-1-python3 \
 python3-cairo \
 python3-cups \

@@ -4,10 +4,10 @@ At its core libdmtx is a native shared library, allowing C/C++ programs to use \
 its capabilities without extra restrictions or overhead."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.7.7"
+PV = "0.7.8"
 
-RPM_NAME = "libdmtx-devel-0.7.7-1.5.aarch64.rpm"
-RPM_HASH = "e6ce66fb03defe8edd517f17a3cf82b3c0dc240c55965082847971716769f0bbcd7ac2dcf449d8e591d7c7030f5bec1b68bd3b71b44c8980b2060a4fc0a19f7a"
+RPM_NAME = "libdmtx-devel-0.7.8-1.5.aarch64.rpm"
+RPM_HASH = "2432af7be04ff850c6fa63aae87cbf0b6acd8a2f17a2ab90f472dbb8215c95669ecf4302b168f4f39dff380a074c9a868748cf188184464b445539fbb346217f"
 
 RPROVIDES:${PN} += "libdmtx-devel \
 pkgconfig-libdmtx"

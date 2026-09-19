@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-acroterm"
 DESCRIPTION = "This package includes the documentation for texlive-acroterm"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn61719"
+PV = "2026.226.0.0.1svn61719"
 
-RPM_NAME = "texlive-acroterm-doc-2023.209.0.0.1svn61719-55.1.noarch.rpm"
-RPM_HASH = "ac78373169e60de13907ea2ea940547fae187b0c1f015ba8a620dedbe9d94ae1b71b9d2e4a9823f1ec3fcb8ef1a99cc43736077a73242eacab3f96268d0ab80f"
+RPM_NAME = "texlive-acroterm-doc-2026.226.0.0.1svn61719-61.2.noarch.rpm"
+RPM_HASH = "a671b77e4b8e321230b06a56a1e145e7091991fa3a470bff3d3f64ef289ef5de66e37c7bb6741faa99368cffe75a8e9b4179f1b1806d91db0b0b80f81b54d5da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-acroterm-doc"

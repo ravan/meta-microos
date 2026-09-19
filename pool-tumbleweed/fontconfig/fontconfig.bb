@@ -5,10 +5,10 @@ an internal configuration from XML files, and the matching module, \
 which accepts font patterns and returns the nearest matching font."
 LICENSE = "MIT"
 
-PV = "2.14.2"
+PV = "2.18.1"
 
-RPM_NAME = "fontconfig-2.14.2-1.4.aarch64.rpm"
-RPM_HASH = "91a0b7f8c91a44886a7be4be3d920ad85df36ecb75b2bb29a04d1b3c92b6fa26c43ca711087c22cb3163b361692148ebdc20f514b221b6e068260be5815a3be0"
+RPM_NAME = "fontconfig-2.18.1-1.3.aarch64.rpm"
+RPM_HASH = "686a883d8af5ec5c4c2b2d0df02eda22b03a46ac60599ff1d14640d1a2a36ce0b0a2f5650f4dfd9af030190cd130acbde698213e816d46efd83ac88d0b30c698"
 
 RPROVIDES:${PN} += "IPA-fonts-config \
 config-fontconfig \

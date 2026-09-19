@@ -11,10 +11,10 @@ TeX format: LaTeX. TeX engine: pTeX or upTeX. DVIware: \
 dvipdfmx. Prerequisite packages: atbegshi."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9asvn66064"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-pxchfon-2023.209.1.9asvn66064-54.2.noarch.rpm"
-RPM_HASH = "59b59594c1b26a309d96619a8b8124dcaab24eef688b55e2766d8b81fa15995df4795c02dc2c1f27d59f8266e8d7f3e145fdcc3247dcf8e82a20377af8356c25"
+RPM_NAME = "texlive-pxchfon-2026.226.2.2svn77682-60.4.noarch.rpm"
+RPM_HASH = "752efccd7d386ac14a578f3f7d64dbc4dd1d976844f8454d78d2eddd28b4146affe74da02a8d00a8c071b59128cc40fad025f8ac890ef502356a449371b7a4d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cfjam-r-l0j.tfm \
@@ -75,7 +75,6 @@ tex-cfjas-x-ts1.tfm \
 tex-cfjas-x-ts1.vf \
 tex-pxchfon.sty \
 tex-pxchfon0.def \
-tex-pxjafont.sty \
 tex-r-cfjam-r-l0j.tfm \
 tex-r-cfjam-r-t1.tfm \
 tex-r-cfjam-r-ts1.tfm \
@@ -113,6 +112,8 @@ findutils \
 grep \
 sed \
 tex-atbegshi.sty \
+tex-etoolbox.sty \
+tex-keyval.sty \
 tex-pxufont-ruby.sty \
 tex-pxufont.sty \
 texlive \

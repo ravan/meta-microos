@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt Quick Controls module provides a set of controls that \
 can be used to build complete interfaces in Qt Quick."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtquickcontrols-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "c84fe1264525d7d8d8a91f804bf483315e04d623bbf61e07cd00ae14f93a6a07d13136f129797da3b8f4364fbc7dae6ffc9f00a8b32a29f80194ede747aada6a"
+RPM_NAME = "libqt5-qtquickcontrols-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "c7bcde8146edbdd3b3c96b627c852c2aa27a79602aa872bd7c1bc52fdb6cb516c2b3e6be2b57546e5bd7807a669595ed4af30d4ccacd58570a769bea141ce27a"
 
 RPROVIDES:${PN} += "libdialogplugin.so \
 libdialogsprivateplugin.so \
@@ -37,6 +37,7 @@ libQtQuick5 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6 \
+qt5qmlimport-Qt.labs.folderlistmodel.1 \
 qt5qmlimport-Qt.labs.folderlistmodel.2 \
 qt5qmlimport-Qt.labs.settings.1 \
 qt5qmlimport-QtGraphicalEffects.1 \

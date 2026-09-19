@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "tv-fonts-1.1-449.14.noarch.rpm"
-RPM_HASH = "f2e2b9e42738b8083b0d513f90f03c34bd8f5dc690daea66ebe0d5f874f4c454116c7d7c9a5d2b0e1fdbb6ab9c148a390784fed1f3af2f3531f5dd7d6dc41d3c"
+RPM_NAME = "tv-fonts-1.1-450.7.noarch.rpm"
+RPM_HASH = "e46fca0beb95ca89bf63ab1a1d7e05c344cf4ea5f7889772896465b2987647775e691299abf50648414019862189e62cb244956c6464e103b64f3b884e67cbcc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tv-fonts"

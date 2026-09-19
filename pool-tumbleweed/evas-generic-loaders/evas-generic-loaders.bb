@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.26.3"
 
-RPM_NAME = "evas-generic-loaders-1.26.3-30.8.aarch64.rpm"
-RPM_HASH = "ffe9899ee3fdb55db3db1a8c03e4c4a49fb3bff04cd2940b83204127841e6cd8117354aad95096d7355795f5d93c57ae61c534e416083fca3b37c3f67ac241f4"
+RPM_NAME = "evas-generic-loaders-1.26.3-37.1.aarch64.rpm"
+RPM_HASH = "4bd412ae300546a207196785f02f59bc150d71f545c33d651ec239562d3e72151664568102820cd0c4f995c1d64b0ed4686f3c8b2d00157a2e9a22a7dea34a07"
 
 RPROVIDES:${PN} += "evas-generic-loaders"
 
@@ -23,8 +23,8 @@ libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgstreamer-1.0.so.0 \
-libpoppler-cpp.so.0 \
-libraw.so.23 \
+libpoppler-cpp.so.3 \
+libraw.so.25 \
 librsvg-2.so.2 \
 libspectre.so.1 \
 libstdc++.so.6 \

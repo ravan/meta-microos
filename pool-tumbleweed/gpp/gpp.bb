@@ -7,10 +7,10 @@ There are built-in macros for use with C/C++, LaTeX, HTML, XHTML, and \
 Prolog files."
 LICENSE = "LGPL-3.0+"
 
-PV = "2.27"
+PV = "2.28"
 
-RPM_NAME = "gpp-2.27-1.12.aarch64.rpm"
-RPM_HASH = "7ae82fb049e34afdc627e9216aae558d3e79c767d3f0f011de4f98965885477c89e798d3842fb5c76a7d7ce03c555c80fa823ad9e4c95240584e1ee5b0041bf5"
+RPM_NAME = "gpp-2.28-1.11.aarch64.rpm"
+RPM_HASH = "8d4d6ddf7d13f2ed91641f840b4e8d4114ae481f8e84e76189d1a731a41cd68a6712c872b6af49029e63edbede20d89e5feebdf43b09b529adce29be6f546d20"
 
 RPROVIDES:${PN} += "gpp"
 

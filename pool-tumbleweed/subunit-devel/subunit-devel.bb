@@ -2,10 +2,10 @@ SUMMARY = "Header files for developing C applications that use subunit"
 DESCRIPTION = "Header files and libraries for developing C applications that use subunit."
 LICENSE = "Apache-2.0 | BSD-3-Clause"
 
-PV = "1.4.2"
+PV = "1.4.6"
 
-RPM_NAME = "subunit-devel-1.4.2-3.2.aarch64.rpm"
-RPM_HASH = "6b75e1b460cc16fe8f2b1c68970061c0358616e8b9b4bdb83b8d1db05c68ce4dba0136ba01fc56efa8b6ce71307a10502f6b6748734c8dfe938d3318c9ae243b"
+RPM_NAME = "subunit-devel-1.4.6-1.2.aarch64.rpm"
+RPM_HASH = "3adc95f8834ebd7034aa1785b3e5ddb979f34444626f8e332bc6e95b78c4ac68cbbc3adb37d27bf96aa4944708dee8182f557e071a53264afb539334a2a08231"
 
 RPROVIDES:${PN} += "pkgconfig-libsubunit \
 subunit-devel"

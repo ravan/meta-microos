@@ -5,10 +5,10 @@ support for a wide range of color models and pixel storage formats for \
 input and output."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "0.4.46"
+PV = "0.4.72"
 
-RPM_NAME = "gegl-0_4-0.4.46-1.1.aarch64.rpm"
-RPM_HASH = "c5ca449b74cbbe711fceea2a3401bf55326f1ba47398e9770719468e1211436b49f6d65debb79c183a075fde9c8136744ddd3a06a725cbb06ffeb8402d5a1e26"
+RPM_NAME = "gegl-0_4-0.4.72-1.1.aarch64.rpm"
+RPM_HASH = "924826616e7d34054760013dedf5fd182dcc06ef951fd09d1f00470acfab57c77bf5b2262084ec6dec0eaf7ad57cffc43ac8dc20b20e014e7fc4f91a438cd57c"
 
 RPROVIDES:${PN} += "gegl-0-4 \
 libgegl-npd-0.4.so \
@@ -16,11 +16,9 @@ libgegl-sc-0.4.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libOpenEXR-3-1.so.30 \
+libOpenEXR-3-4.so.33 \
 libSDL2-2.0.so.0 \
-libavcodec.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
+libSDL3.so.0 \
 libbabl-0.1.so.0 \
 libc.so.6 \
 libcairo.so.2 \
@@ -42,12 +40,11 @@ libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
 libpoppler-glib.so.8 \
-libraw.so.23 \
+libraw.so.25 \
 librsvg-2.so.2 \
 libstdc++.so.6 \
-libswscale.so.7 \
 libtiff.so.6 \
-libumfpack.so.5 \
+libumfpack.so.6 \
 libwebp.so.7"
 
 inherit rpm

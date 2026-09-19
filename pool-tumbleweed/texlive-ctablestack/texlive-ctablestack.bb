@@ -7,10 +7,10 @@ which uses ctablestack to provide a back-compatibility form of \
 this concept."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn38514"
+PV = "2026.226.1.0svn78101"
 
-RPM_NAME = "texlive-ctablestack-2023.209.1.0svn38514-55.1.noarch.rpm"
-RPM_HASH = "04bf016f4ae7015c1b3fc6d5f0323b1d6891032ab21ad3ac096af03f9f61eb8d512e78ed35ecc99a57e77bc3450d7179de413d92e6c5b47e6ed2e6bea71c02d6"
+RPM_NAME = "texlive-ctablestack-2026.226.1.0svn78101-61.2.noarch.rpm"
+RPM_HASH = "2c04cb802a28215c1ded2bd2e571f367ce6edbb6fe601e5380b652abd6f9214c41dd1e5b77aa77fe84ba37d7d52c155b06019ce16e1554271e6b4f6a202ce58e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ctablestack.sty \

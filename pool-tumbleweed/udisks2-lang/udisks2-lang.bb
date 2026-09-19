@@ -2,10 +2,10 @@ SUMMARY = "Translations for package udisks2"
 DESCRIPTION = "Provides translations for the 'udisks2' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "2.9.4"
+PV = "2.11.2"
 
-RPM_NAME = "udisks2-lang-2.9.4-6.4.noarch.rpm"
-RPM_HASH = "3b8c990b26eafa5e2ed50cb1f9f06ab1e5b332be9c667185415a9e04429a5c0b6185ab581862b0d5be3a0d8effd4657b2095629f52e2236a8bd4355a0a857585"
+RPM_NAME = "udisks2-lang-2.11.2-1.1.noarch.rpm"
+RPM_HASH = "ed6acf04ecaee39ddc71d18287f1f97cbc62f98174b5f76c17fdda7e63acadc1ff63a883a8721c7ea60897dc453267efd23ccb6c9fd41dc8bc707f362fd8a380"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-udisks2-af \

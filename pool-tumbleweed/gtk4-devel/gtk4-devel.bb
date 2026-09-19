@@ -6,13 +6,14 @@ ranging from small one-off projects to complete application suites. \
 This package contains the development files for GTK+ 4.x."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.12.0"
+PV = "4.22.5"
 
-RPM_NAME = "gtk4-devel-4.12.0-2.1.aarch64.rpm"
-RPM_HASH = "cd8d64c574e437eaff667f999c52ebba9182a3fa90d541fed8b44f098f7ba8a02e36f5f5044f50599add19543aedbf59557fba7614fd978dcc9ec7a128eb45df"
+RPM_NAME = "gtk4-devel-4.22.5-1.1.aarch64.rpm"
+RPM_HASH = "c3a32bb52aecb161f505ccf85f37c47cbbcf1580e6ca1bf4de949c9c3c2a13e68b639f71e8aeaa50fb69d72cb2070408d739c60e2e2e49d5829faf0be96a33f0"
 
 RPROVIDES:${PN} += "gtk4-devel \
 pkgconfig-gtk4 \
+pkgconfig-gtk4-atspi \
 pkgconfig-gtk4-broadway \
 pkgconfig-gtk4-unix-print \
 pkgconfig-gtk4-wayland \
@@ -28,28 +29,17 @@ gtk4-tools \
 libgtk-4-1 \
 pkgconfig-cairo \
 pkgconfig-cairo-gobject \
-pkgconfig-cairo-xlib \
-pkgconfig-epoxy \
-pkgconfig-fontconfig \
 pkgconfig-gdk-pixbuf-2.0 \
 pkgconfig-gio-2.0 \
-pkgconfig-gio-unix-2.0 \
 pkgconfig-graphene-gobject-1.0 \
 pkgconfig-gtk4 \
 pkgconfig-pango \
 pkgconfig-pangocairo \
-pkgconfig-pangoft2 \
+pkgconfig-vulkan \
 pkgconfig-wayland-client \
 pkgconfig-wayland-egl \
 pkgconfig-x11 \
-pkgconfig-xcursor \
-pkgconfig-xdamage \
-pkgconfig-xext \
-pkgconfig-xfixes \
-pkgconfig-xi \
-pkgconfig-xinerama \
 pkgconfig-xkbcommon \
-pkgconfig-xrandr \
 typelib-1-0-Gtk-4-0"
 
 inherit rpm

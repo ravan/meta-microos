@@ -19,10 +19,10 @@ the Test::*, like Test::HTML::Lint modules, you can check the fetched \
 content and use that as input to a test call."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.17"
+PV = "2.220.0"
 
-RPM_NAME = "perl-WWW-Mechanize-2.17-1.3.noarch.rpm"
-RPM_HASH = "b8f1e29e4291d29c950a74786850c0c10687a22df0c5a94e318c6259707da6e907e46deba3b0fb16f8d9ceadaf3f7e5343b4bce0898768689e9623aff8663970"
+RPM_NAME = "perl-WWW-Mechanize-2.220.0-1.3.noarch.rpm"
+RPM_HASH = "05bf6c989e30a11cae30c32495e164996194345647de28a85f933a6530dfcdfc32a603c4f69e843e960a75843ec325c379fab762f6b4f2383d2b8a06356792ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-WWW--Mechanize \
@@ -31,16 +31,18 @@ perl-WWW--Mechanize--Link \
 perl-WWW-Mechanize"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-HTML--Form \
 perl-HTML--HeadParser \
 perl-HTML--TokeParser \
 perl-HTML--TreeBuilder \
 perl-HTTP--Cookies \
+perl-HTTP--Message \
 perl-HTTP--Request \
 perl-HTTP--Request--Common \
 perl-LWP--UserAgent \
 perl-URI--URL \
-perl-URI--file"
+perl-URI--file \
+perl-parent"
 
 inherit rpm

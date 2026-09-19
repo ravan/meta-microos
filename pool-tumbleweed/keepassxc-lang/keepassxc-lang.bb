@@ -2,10 +2,10 @@ SUMMARY = "Translations for package keepassxc"
 DESCRIPTION = "Provides translations for the 'keepassxc' package."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "2.7.6"
+PV = "2.7.12"
 
-RPM_NAME = "keepassxc-lang-2.7.6-1.1.noarch.rpm"
-RPM_HASH = "2ee769e69989905ac8058c513b7b53e7fbdbb7e1dcd0d43131c50faf990949351d91562d1278df7f0656ac4b45ff664a92c453f3285f676ce3f63de55fef49cd"
+RPM_NAME = "keepassxc-lang-2.7.12-1.7.noarch.rpm"
+RPM_HASH = "2803fc3460c40de61e3ca0bcfe546b924e8907470ed95de096e6d804f27cccbc92f691e971eb88363e66f008dea8129bd27c5fa3dfe1f74ff7ab30700a455907"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keepassxc-lang \

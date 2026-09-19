@@ -8,8 +8,8 @@ LICENSE = "OFL-1.1"
 
 PV = "7.100"
 
-RPM_NAME = "sil-mondulkiri-fonts-7.100-1.11.noarch.rpm"
-RPM_HASH = "f3a34574c9da5863c51e9fb79e60a05505b81d105c7a8279f5ac2bb57e3cdc4f0eb6f96225c226a0dd3319451206b534d57cf89c6f45c2b4e84d082fa6db5a18"
+RPM_NAME = "sil-mondulkiri-fonts-7.100-1.19.noarch.rpm"
+RPM_HASH = "f26817bc22da0dfb9afe7dd94cd90c3d0f181fcc93e57c76bd074c128bd5b6f3f28a37e8f8d53bff319bd99d4aff09913dc9ab8e79360d9ae43b7767527d00e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sil-mondulkiri-fonts"

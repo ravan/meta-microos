@@ -2,26 +2,26 @@ SUMMARY = "Application to excercise fractions"
 DESCRIPTION = "KBruch is an application to learn calculating with fractions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kbruch-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "de236a4a0edaacc194a5b50bdbe3b92ad74fac784baef84323ed7c2eceedb0f3f2130fc33c9989b06211196baa1a60396b508bebccb32813ddec7e07b6eb09c5"
+RPM_NAME = "kbruch-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "cf7588ee1e1118087f5f15bae5666f56ef56cfb5dc26046d5c9d239ada75da27bbca33cda68f07001a25e37e4a0b0337bc94eda7ab70eb723646e53ddd9fd556"
 
 RPROVIDES:${PN} += "kbruch \
 kbruch5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

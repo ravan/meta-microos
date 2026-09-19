@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.11"
 
-RPM_NAME = "hdspmixer-1.11-24.4.aarch64.rpm"
-RPM_HASH = "465194086cd999cf34d0f5e8e65939ffc088844b6f7b03e7648f6a688e9d2d1ea84142372b359773e61de8115f467e5110e9ae5e18bc2a52755d56f9703211e6"
+RPM_NAME = "hdspmixer-1.11-29.4.aarch64.rpm"
+RPM_HASH = "54633d97363b5cd3bbf120a244b11f59c7aa61faf39c4b978e9e798fe4e318cb8d64a8c42d446f22cd8d2459dd17e657f988baa75b6e8bb5a9c1639badd3a1cf"
 
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/hdspmixer \
 hdspmixer"

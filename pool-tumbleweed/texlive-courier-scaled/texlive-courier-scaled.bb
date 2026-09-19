@@ -4,10 +4,10 @@ possible scale factor (in the same way as the helvet package \
 for Helvetica works for sans serif)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn24940"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-courier-scaled-2023.209.svn24940-55.1.noarch.rpm"
-RPM_HASH = "d14ef0aeb50e99f24148d83e3c2116e4d57f2dbf2cbd039671bab9fb2f4ee07ac5504a2a4461f82dc2681c8858911ecb034ab91e1960462a8dbfa6e42c1fac57"
+RPM_NAME = "texlive-courier-scaled-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "4960d3a1829f7515639cb4a2546978b9694f8d5317ce32b31682c0190095c1b445b7ebf9019b5603091a806b206e118afc53f6953c3fca24d9fd07aadaab3489"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-8rpcrs.fd \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-scripts"
 DESCRIPTION = "This package includes the documentation for texlive-scripts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66584"
+PV = "2026.227.svn78213"
 
-RPM_NAME = "texlive-scripts-doc-2023.209.svn66584-55.1.noarch.rpm"
-RPM_HASH = "48cfed2177787074cb9c5e517d6b7a144514bcb225ddc80a264ea4e3288cddede7942b9443df3e1d0abff3d1a80ca58bbe2e27bdb88e317854dc3ff11d581e1f"
+RPM_NAME = "texlive-scripts-doc-2026.227.svn78213-62.2.noarch.rpm"
+RPM_HASH = "365063355d2ff99fd1a4dce6e02a073896854bcdb1e5fcab023d90e09198d5f9ceab6599820f4bbf08983647d1dfd5373ba6df79cd6a4f48bff352e21ede1de3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-fmtutil-sys.1 \

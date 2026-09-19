@@ -3,10 +3,10 @@ DESCRIPTION = "This plugin adds support for using speech-dispatcher for speech s
 with the Qt5 Speech module."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde1"
+PV = "5.15.19+kde1"
 
-RPM_NAME = "libqt5-qtspeech-plugin-speechd-5.15.10+kde1-1.1.aarch64.rpm"
-RPM_HASH = "e9b74f07f9c882f1673fd634eca32c8b9834952e1a032cc8c3c018ff3f10bd291c308101183b6cec4313fa1f2aacde825b3415335a05609f02548a6bbb65b1a7"
+RPM_NAME = "libqt5-qtspeech-plugin-speechd-5.15.19+kde1-1.2.aarch64.rpm"
+RPM_HASH = "f0c72df232bba6aee31b2a15c2acb8ce268f293c82d794a3f20e25e6c2b285a568d23398f21318d7d5f076befc013d367e3e4f7e7d22d742075b7cf6dad251b3"
 
 RPROVIDES:${PN} += "libqt5-qtspeech-plugin-speechd \
 libqtexttospeech-speechd.so"

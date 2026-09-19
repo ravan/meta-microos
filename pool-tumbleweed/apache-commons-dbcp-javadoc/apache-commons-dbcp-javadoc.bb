@@ -10,10 +10,10 @@ testing for valid connections, PreparedStatement pooling, and other \
 features."
 LICENSE = "Apache-2.0"
 
-PV = "2.1.1"
+PV = "2.14.0"
 
-RPM_NAME = "apache-commons-dbcp-javadoc-2.1.1-6.17.noarch.rpm"
-RPM_HASH = "6782465882cf4eeb55ac7db6e82dc05f1ba8b35c8c0f48cc7e330b953ae20ec3299f3748b90924bb5e14c38725239e1eab117b2245c6a9bf1b6192e7bc6d2abb"
+RPM_NAME = "apache-commons-dbcp-javadoc-2.14.0-1.2.noarch.rpm"
+RPM_HASH = "94ef928a6df4f545ff89fb6f0a28a222b734478da35cb1c919c497b25fb907c6716db6f85e31528caf1a4cc349c02545816d2efc9a20ef9becf93bf0bcb5823c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-dbcp-javadoc"

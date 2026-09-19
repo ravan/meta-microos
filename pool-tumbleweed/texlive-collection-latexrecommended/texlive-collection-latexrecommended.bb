@@ -3,13 +3,16 @@ DESCRIPTION = "A collection of recommended add-on packages for LaTeX which \
 have widespread use."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn65512"
+PV = "2026.222.svn77082"
 
-RPM_NAME = "texlive-collection-latexrecommended-2023.208.svn65512-60.1.noarch.rpm"
-RPM_HASH = "168806c6afc40bef6b06c0e91443d84a4b79e0f5fea48fec50e6cff4fd623932dbd06b96320d5c350057cf8a7f214efde11bf66dc22339cea3fac5d274f1fcdb"
+RPM_NAME = "texlive-collection-latexrecommended-2026.222.svn77082-68.2.noarch.rpm"
+RPM_HASH = "561da3a40debebbc82b1527bde68ab28c691e552b4651f75f52576e9c134d21f75f54e7d8e24e4e5ac8c568abf36405b3ad5f0dde70bf615fc8fb0befa939511"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-latexrecommended"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-latexrecommended \
+texlive-collection-latexrecommended"
 
 RDEPENDS:${PN} += "texlive-anysize \
 texlive-attachfile2 \
@@ -23,7 +26,6 @@ texlive-collection-latex \
 texlive-crop \
 texlive-ctable \
 texlive-eso-pic \
-texlive-etoolbox \
 texlive-euenc \
 texlive-euler \
 texlive-everysel \
@@ -47,6 +49,8 @@ texlive-l3experimental \
 texlive-latexbug \
 texlive-lineno \
 texlive-listings \
+texlive-ltx-talk \
+texlive-lua-unicode-math \
 texlive-lwarp \
 texlive-mathspec \
 texlive-mathtools \
@@ -54,7 +58,6 @@ texlive-mdwtools \
 texlive-memoir \
 texlive-metalogo \
 texlive-microtype \
-texlive-ms \
 texlive-newfloat \
 texlive-ntgclass \
 texlive-parskip \
@@ -62,7 +65,6 @@ texlive-pdfcolfoot \
 texlive-pdflscape \
 texlive-pdfmanagement-testphase \
 texlive-pdfpages \
-texlive-pdftexcmds \
 texlive-polyglossia \
 texlive-psfrag \
 texlive-ragged2e \
@@ -81,6 +83,7 @@ texlive-ucharcat \
 texlive-underscore \
 texlive-unicode-math \
 texlive-xcolor \
+texlive-xfrac \
 texlive-xkeyval \
 texlive-xltxtra \
 texlive-xunicode"

@@ -5,20 +5,21 @@ Performance is the primary goal in the design of this package. \
  \
 The Haskell data structures are generated programmatically from the UCD files. \
 The latest Unicode version supported by this library is \
-'<https://www.unicode.org/versions/Unicode15.0.0/ 15.0.0>'."
+'<https://www.unicode.org/versions/Unicode15.1.0/ 15.1.0>'."
 LICENSE = "Apache-2.0"
 
-PV = "0.4.0.1"
+PV = "0.6.0"
 
-RPM_NAME = "ghc-unicode-data-0.4.0.1-3.8.aarch64.rpm"
-RPM_HASH = "b13bbd19cf51d31d27590c0e7960b91e6d8187f460e3a9f2c487331450fd9ca7b548e07e29bd08b42d668d202ffe3368ac9241b2d7b28090d0f0446c59c3808e"
+RPM_NAME = "ghc-unicode-data-0.6.0-1.16.aarch64.rpm"
+RPM_HASH = "20a2e1e1d6a65cf7fa4b9f20944213fd525b32f716a495bc03f1642316f195da56b7ee6cd88a4c00bb017c550f26718f28d62042d5740f5c30b2dd4b1d3a780a"
 
 RPROVIDES:${PN} += "ghc-unicode-data \
-libHSunicode-data-0.4.0.1-DXmKFuEq71jAHQO9x7NPr-ghc9.4.6.so"
+libHSunicode-data-0.6.0-L8MzYkzbuQvKbpFsnfTHmj-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

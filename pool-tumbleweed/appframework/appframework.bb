@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.03"
 
-RPM_NAME = "appframework-1.03-28.19.noarch.rpm"
-RPM_HASH = "805da9960b0ddde39d4f1feac275e2b70ea1ecfdaf6a6cf944260cdf2aa848b9fe6b82e345a6e67b9745f1ec5c9e9bb03100040710253606a2777444f10e8c11"
+RPM_NAME = "appframework-1.03-29.10.noarch.rpm"
+RPM_HASH = "fc0e16e93884f474c0e10554ffc20ffc15eb6685ef12690a640e167f52521c795b420830ec24353e189c967777fced7ab6410c76af863848fd2565e0255ac3ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "appframework"

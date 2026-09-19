@@ -2,19 +2,18 @@ SUMMARY = "Header files for the girara library"
 DESCRIPTION = "Header files for the girara user interface library."
 LICENSE = "Zlib"
 
-PV = "0.4.0"
+PV = "2026.07.18"
 
-RPM_NAME = "girara-devel-0.4.0-1.1.aarch64.rpm"
-RPM_HASH = "33622707a9d01f629e7ac5ca080702f078fbbce01eaf3aa99195f07a450a34e2f38878b98169240256877e074bcc7b2200930395105bcb31b594ad44cecec757"
+RPM_NAME = "girara-devel-2026.07.18-1.2.aarch64.rpm"
+RPM_HASH = "3546941d3aabeaad7a54a146885b359539e1761119f2a15ee7da462baa9328aa3edc8a404285f78d97ffaedd6b0d10d690540bea1a407e50306a3f058474f31f"
 
 RPROVIDES:${PN} += "girara-devel \
-pkgconfig-girara-gtk3"
+pkgconfig-girara"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libgirara-gtk3-3 \
+libgirara5 \
+pkgconfig-gio-2.0 \
 pkgconfig-glib-2.0 \
-pkgconfig-gtk+-3.0 \
-pkgconfig-json-glib-1.0 \
-pkgconfig-pango"
+pkgconfig-gobject-2.0"
 
 inherit rpm

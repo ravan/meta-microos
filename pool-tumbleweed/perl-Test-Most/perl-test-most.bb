@@ -28,17 +28,17 @@ worry about accidentally forgetting them. \
     no warnings;"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.38"
+PV = "0.420.0"
 
-RPM_NAME = "perl-Test-Most-0.38-1.4.noarch.rpm"
-RPM_HASH = "83e564c61e0c2aa48f1a5d5a37f4021bbaa8ed41e97ce3d877b2e65fb9fa8f0c44ab70c8d08db9b15192f96d8603b45caf0c4d93f4c9817333fb22c65b101a46"
+RPM_NAME = "perl-Test-Most-0.420.0-1.3.noarch.rpm"
+RPM_HASH = "2cec4c4c4e2fda8587dc0abbcb839c1f5ac521ef7c4770f314c11a7694fbd682cd5e910340622dd18205a6ab98848bf6d3991651df9f9930aebe0698e64f8f82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Most \
 perl-Test--Most--Exception \
 perl-Test-Most"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Exception--Class \
 perl-Test--Deep \
 perl-Test--Differences \

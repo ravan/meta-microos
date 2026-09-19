@@ -2,10 +2,10 @@ SUMMARY = "Examples and Documentation for python-pymisp"
 DESCRIPTION = "Examples and HTML documentation for python-pymisp."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.4.170.2"
+PV = "2.5.17.3"
 
-RPM_NAME = "python-pymisp-doc-2.4.170.2-1.1.noarch.rpm"
-RPM_HASH = "414a42c72388d52959aea128ad71bd3f2c5b232ed5c48c48a8e1bad753d7bff43d1087e59ce00c0dccbea2886b2ba296bf84d60cfefe299651c310b922e8a74d"
+RPM_NAME = "python-pymisp-doc-2.5.17.3-1.4.noarch.rpm"
+RPM_HASH = "684b9fed955d44f3c6046874cdc3cc71a1bb924f9c3e83216c7761c2c475ba35d3296dff69f934d66f76b23d7fa601f326682ba2528e877f461bbb64256a415b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pymisp-doc"

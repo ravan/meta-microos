@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0~git.20210702"
 
-RPM_NAME = "debugbreak-1.0~git.20210702-1.2.noarch.rpm"
-RPM_HASH = "69cdf2a0458245d6978db667cbbbac327ec0be4b2f40611f5311a90e0bd4591d02a20d819ab911e2ad77de66ab875840957d1a1bb2e4e0ac8f885f1881930ecb"
+RPM_NAME = "debugbreak-1.0~git.20210702-1.10.noarch.rpm"
+RPM_HASH = "15742c5c954e9687a0ff7b66d44f1eb5ea771d07deda8a021e9b44ef8d85bb3207db5296153c40aa46210ecd449b5ccc2f2192e1dccac9ebfd89b09160a5b09b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "debugbreak"

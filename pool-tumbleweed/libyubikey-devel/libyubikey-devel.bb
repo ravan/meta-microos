@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.13"
 
-RPM_NAME = "libyubikey-devel-1.13-3.24.aarch64.rpm"
-RPM_HASH = "43a6910ca4353e4e47bdb83a34621572cd91c045679fc7373fda8eba02e054a9b0351a84d49c58da818b9762dcb338348b953196c28b9fdc79ee94d75133a543"
+RPM_NAME = "libyubikey-devel-1.13-3.34.aarch64.rpm"
+RPM_HASH = "c0d51b47e18324e33b0816347d14ac732097995e9c744be73b03b5e9b8bf2b45c597a421adb0c43ab8d032ed4d131e8f502d0184e3a747a390aa75f06c52c6ec"
 
 RPROVIDES:${PN} += "libyubikey-devel"
 

@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-brushscr"
 DESCRIPTION = "The  separated fonts package for texlive-brushscr"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn28363"
+PV = "2026.226.svn28363"
 
-RPM_NAME = "texlive-brushscr-fonts-2023.209.svn28363-53.1.noarch.rpm"
-RPM_HASH = "e5d1e6f8e0bff18711bd3f192040f2fa3936956bf7f7443b4472d6dd50dca554cee3375b363c61a882359f623cf17bac00b100aaa33ade37ec09e83e8349a1da"
+RPM_NAME = "texlive-brushscr-fonts-2026.226.svn28363-59.2.noarch.rpm"
+RPM_HASH = "ac7ce9f224e1e4b8646b2615cddd219c182c370539821133051fe1eb675d97d7090b6289d9164036c9e08ae8df93150f3446fcadcd28de87ae33acfa56f313ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-brushscriptx \

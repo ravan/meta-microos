@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pdfpc-movie"
 DESCRIPTION = "This package includes the documentation for texlive-pdfpc-movie"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn48245"
+PV = "2026.226.1.0svn67201"
 
-RPM_NAME = "texlive-pdfpc-movie-doc-2023.209.1.0svn48245-52.1.noarch.rpm"
-RPM_HASH = "2713b80eb4e1c9ec94f4b0422ffbbbd780da0fde184994b3d7f9c27ff77755a9685fd8d3e0acab5dcd40be3a1fb03f164e8fb01b0e15ff7492ba00199af3219f"
+RPM_NAME = "texlive-pdfpc-movie-doc-2026.226.1.0svn67201-58.2.noarch.rpm"
+RPM_HASH = "842f09e1dcaf2885dfa30702858fa12608a28c2477b410097a4ab78ce6e0112f96b6d1d572c77dc74f10c02b7cd689ca9a7ae2658d429a3c6d2d248c5628498a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfpc-movie-doc"

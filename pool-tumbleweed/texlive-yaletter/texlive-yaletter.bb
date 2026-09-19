@@ -8,10 +8,10 @@ provides some nice defaults for a few of the more common styles \
 and sizes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn42830"
+PV = "2026.226.1.1svn42830"
 
-RPM_NAME = "texlive-yaletter-2023.209.1.1svn42830-53.2.noarch.rpm"
-RPM_HASH = "b1b0c113235992e77cd6a1561738e029fd2fbde1e4d582fdecaf3a701baf70197eb8cfd92216c6caf08222bb04fe075d1c8b90b84df4caba891f05078ac461f7"
+RPM_NAME = "texlive-yaletter-2026.226.1.1svn42830-59.4.noarch.rpm"
+RPM_HASH = "bdcbb3dec85353b96f9c8fa454945513b7ed579d74909b1c95358392e5adb9954f29cc713d53eeb94ed85a6a3825d8673c7a5db2294de4aed6fb846da4f34050"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yaletter.cls \

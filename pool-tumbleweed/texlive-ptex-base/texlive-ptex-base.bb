@@ -2,10 +2,10 @@ SUMMARY = "Plain TeX format for pTeX and e-pTeX"
 DESCRIPTION = "The bundle contains the plain TeX format for pTeX and e-pTeX."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn64072"
+PV = "2026.226.svn64072"
 
-RPM_NAME = "texlive-ptex-base-2023.209.svn64072-54.2.noarch.rpm"
-RPM_HASH = "a65b329176651477ed1122e887c10662da5c11306425b9e812124849daffb9401674049fab07745934c7fab6f8bb0e2f1f8e43a1fbe95d70bbf91ed9bbaac7bc"
+RPM_NAME = "texlive-ptex-base-2026.226.svn64072-60.4.noarch.rpm"
+RPM_HASH = "111e5eaa906701d40ad88e18774f38b4384ccfd222c6a842192be220ce5d568feda4ff76e69fd326957e9ed5b820f64901775da16547180f2e12a59f2d1e6342"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ascii-jplain.tex \

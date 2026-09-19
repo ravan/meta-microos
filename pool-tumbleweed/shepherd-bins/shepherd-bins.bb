@@ -1,11 +1,12 @@
 SUMMARY = "Shepherd's init binaries"
-DESCRIPTION = "Binaries of shepherd conflicting with other init systems."
+DESCRIPTION = "Binaries of shepherd conflicting with other init systems. \
+BuildArch:      noarch"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.8.1"
+PV = "0.10.2"
 
-RPM_NAME = "shepherd-bins-0.8.1-1.10.aarch64.rpm"
-RPM_HASH = "c14854ffeb1b0772e517aa135c70a7937c52356cb5485f923e0693f3d4b0909ba379d48bfdb52c222180ec7b2dfc4bf6b0ccccabc5a42f039483b72bccdba8c6"
+RPM_NAME = "shepherd-bins-0.10.2-1.10.aarch64.rpm"
+RPM_HASH = "e8f98b2a3a7be988d84610b25bf40585b9dac70540301f860dd44e250dab42afe0f36fa448cfd6b4d4dafc56a4fc4db53e73379777873d07a429bf3805b6c441"
 
 RPROVIDES:${PN} += "/sbin/shutdown \
 shepherd-bins"

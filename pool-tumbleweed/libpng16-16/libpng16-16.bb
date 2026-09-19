@@ -3,10 +3,10 @@ DESCRIPTION = "libpng is the official reference library for the Portable Network
 Graphics format (PNG)."
 LICENSE = "libpng-2.0"
 
-PV = "1.6.40"
+PV = "1.6.58"
 
-RPM_NAME = "libpng16-16-1.6.40-1.1.aarch64.rpm"
-RPM_HASH = "8fea31ca6b4f1e8652fb0851334b20b438a81482305af3c274fe528ab40d59d0d27709c17d7ff208529b3aaa3f4429827eb948fb9b98e18c975401c7ad0d1947"
+RPM_NAME = "libpng16-16-1.6.58-2.1.aarch64.rpm"
+RPM_HASH = "2832a0c10ac07f6e634d5cc9b82b0b1b142e4ce47749995d9d429e6922eedfa18f1586f37e7c770318b50bf5c5388834b3086be33e2e60aac3ab0af5fbc83bcc"
 
 RPROVIDES:${PN} += "libpng \
 libpng16-16 \

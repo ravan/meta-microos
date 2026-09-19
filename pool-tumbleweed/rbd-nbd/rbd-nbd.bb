@@ -1,11 +1,11 @@
 SUMMARY = "Ceph RBD client base on NBD"
 DESCRIPTION = "NBD based client to map Ceph rbd images to local device"
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "rbd-nbd-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
-RPM_HASH = "2c0fd28bb9027f0cce08adebef47872a935d9d4550d3317d9b13c35ba631731d436d240e63e9f319260d29fa601c898501fea820198a2cb26266851bcbaa7d38"
+RPM_NAME = "rbd-nbd-18.2.7-8.1.aarch64.rpm"
+RPM_HASH = "05a8d809fb062774180056a2571bd79aba8c53565e4883f3b31de4a209db125cf0315ad996445aa3ba1012880631691854940b32d86c4a34dd151bc7915f64de"
 
 RPROVIDES:${PN} += "rbd-nbd"
 

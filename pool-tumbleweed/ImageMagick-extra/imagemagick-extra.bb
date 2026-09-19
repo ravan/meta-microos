@@ -1,22 +1,12 @@
 SUMMARY = "Extra codecs for the ImageMagick image viewer/converter"
 DESCRIPTION = "This package adds support for djvu, wmf and jpeg2000 formats and \
-installs optional helper applications. \
- \
-ImageMagick is a robust collection of tools and libraries to read, \
-write, and manipulate an image in many image formats, including popular \
-formats like TIFF, JPEG, PNG, PDF, PhotoCD, and GIF. With ImageMagick, \
-you can create images dynamically, making it suitable for Web \
-applications. You can also resize, rotate, sharpen, color-reduce, or \
-add special effects to an image and save your completed work in many \
-different image formats. Image processing operations are available from \
-the command line as well as through C, C++, and Perl-based programming \
-interfaces."
+installs optional helper applications."
 LICENSE = "ImageMagick"
 
-PV = "7.1.1.15"
+PV = "7.1.2.30"
 
-RPM_NAME = "ImageMagick-extra-7.1.1.15-1.1.aarch64.rpm"
-RPM_HASH = "a36ba7b274e0471675779aed0bff1fa903859c9dbf5c9a6695c9d1b819aa5ff542e595438524a6c05061b68182916e324646e749a90da29e8dc0da74485dc6b4"
+RPM_NAME = "ImageMagick-extra-7.1.2.30-1.1.aarch64.rpm"
+RPM_HASH = "fad2a8fad239ef34a50a0412b2d23163eb2cd475e579922c0e9c8f589c7538665a2da1f1c0fe29e1d23ec6963b96946a0dd7f97e53c227cb7734b82888af7476"
 
 RPROVIDES:${PN} += "ImageMagick-extra"
 

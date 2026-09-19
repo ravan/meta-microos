@@ -7,10 +7,10 @@ inspection. Both commands now support SMP machines when displaying CPU \
 utilization."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "12.6.2"
+PV = "12.7.9"
 
-RPM_NAME = "sysstat-12.6.2-3.1.aarch64.rpm"
-RPM_HASH = "df38f955bb126d83ef2d4c5f9fc37752fe3e61578642c0f405c46a18ece82de63a3657922e606de6a7f63ab6f327e0789e05f802755a68d917d0448932aea784"
+RPM_NAME = "sysstat-12.7.9-1.3.aarch64.rpm"
+RPM_HASH = "273c14a25902837e7d8da72690a8d7f9a5d480bd5f3a24683a66e3da53958f5ce9ee67395677e8b2af31bff16f8c30f594f27566caef9a1c7761d97495beb05b"
 
 RPROVIDES:${PN} += "config-sysstat \
 sysstat"
@@ -21,7 +21,7 @@ libc.so.6 \
 libpcp-import.so.1 \
 libpcp.so.3 \
 libsensors.so.4 \
-procmail \
+util-linux \
 xz"
 
 inherit rpm

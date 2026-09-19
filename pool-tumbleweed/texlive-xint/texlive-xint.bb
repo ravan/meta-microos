@@ -1,32 +1,34 @@
-SUMMARY = "Expandable operations on long numbers"
-DESCRIPTION = "The xint bundle main modules are: xinttools utilities of \
-independent interest such as expandable and non-expandable \
-loops, xintcore expandable macros implementing addition, \
-subtraction, multiplication, division, and powers for \
-arbitrarily long integers, xint extension of xintcore, xintfrac \
-extends the scope of xint to decimal numbers, to numbers using \
-scientific notation and also to (exact) fractions, xintexpr \
-provides expandable parsers of numeric expressions using the \
-standard infix notations, parentheses, built-in functions, user \
-definable functions and variables (and more ...) which do \
-either exact evaluations (also with fractions) or floating \
-point evaluations under a user chosen precision. Further \
-modules of the bundle are: xintkernel (support macros for all \
-the bundle constituents), xintbinhex (conversion to and from \
-hexadecimal and binary bases), xintgcd (provides gcd() and \
-lcm() functions to xintexpr), xintseries (evaluates numerically \
-partial sums of series and power series with fractional \
-coefficients), and xintcfrac (dedicated to the computation and \
-display of continued fractions). All computations are \
-compatible with expansion-only context. The packages may be \
-used with Plain TeX, LaTeX, or (a priori) any other macro \
-format built upon TeX."
+SUMMARY = "Expandable arbitrary precision floating point and integer operations"
+DESCRIPTION = "Loading xintexpr provides \\xinteval and \\xintfloateval. \
+\\xintfloateval evaluates numerical expressions. The floating \
+point precision defaults to 16 decimal digits and can be set by \
+user. Trigonometry, exponential and logarithms are implemented \
+up to a maximal precision of 62 decimal digits. \\xinteval \
+computes exactly with integers, fractions, and decimal numbers \
+or numbers in scientific notation. Note though that multiplying \
+two floating point numbers will about double the number of \
+digits, and so on, because the algebra is done exactly. Both \
+are compatible with expansion-only context. Loading xintexpr \
+imports automatically various other modules that it depends \
+upon. Among them: xinttools: utilities such as expandable and \
+non-expandable loops, xint: macros implementing in particular \
+the basic operations on arbitrarily long integers, xintbinhex: \
+conversions between decimal and binary, octal, or hexadecimal \
+bases for arbitrarily long integers, xintfrac: macros \
+implementing in particular the basic operations on arbitrarily \
+large fractions, decimal numbers, or numbers in scientific \
+notation. Further modules of independent interest include \
+xintgcd, xintseries and xintcfrac. You can use xintexpr (and \
+the other components) with LaTeX (via \\usepackage) or also with \
+Plain TeX, OpTeX, or ConTeXt (via \\input xintexpr.sty). All the \
+components are documented in the file xint.pdf, which also \
+contains the commented source code."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4msvn63562"
+PV = "2026.226.1.4osvn76255"
 
-RPM_NAME = "texlive-xint-2023.209.1.4msvn63562-53.2.noarch.rpm"
-RPM_HASH = "09300ed1f3781aaa6c78f70dfde3177c77c1ee53cced067a2c85aa9959aa7c2c3bebbeee7e34d5976dae58c62e1d1757b075a412406b8b38455ad47fe29b7376"
+RPM_NAME = "texlive-xint-2026.226.1.4osvn76255-59.4.noarch.rpm"
+RPM_HASH = "893086dfb19aa2908ac1104c7b7a62eb8d62a30e0cbc1d89dcb49ed75d5b1e964b212913aaeed6b842d730a9f3003771d1bb89f20a0a6044cda037a3c6444084"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xint.sty \

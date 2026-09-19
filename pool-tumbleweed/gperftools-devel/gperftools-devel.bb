@@ -3,10 +3,10 @@ DESCRIPTION = "The gperftools-devel package contains static and debug libraries 
 files for developing applications that use the gperftools package."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.10"
+PV = "2.18.1"
 
-RPM_NAME = "gperftools-devel-2.10-1.6.aarch64.rpm"
-RPM_HASH = "294e2f109ee7ff7ac4dffffa2be7cbad080874c27dbc098414ae1534643819bf6ab900e7093fba4663942d6588fc79597e7ee25fe602fb452c552a0cf91808f3"
+RPM_NAME = "gperftools-devel-2.18.1-1.4.aarch64.rpm"
+RPM_HASH = "1ae47480ab4ed6430c6470e7f4b749c1aabd10209d64fbc612f744cdba72a5e2207fe2afb0a81cdae5556a00e276c1f2497239a1e8bda75337d7c0d287f642fd"
 
 RPROVIDES:${PN} += "google-perftools-devel \
 gperftools-devel \
@@ -24,6 +24,7 @@ libtcmalloc-and-profiler4 \
 libtcmalloc-debug4 \
 libtcmalloc-minimal-debug4 \
 libtcmalloc-minimal4 \
-libtcmalloc4"
+libtcmalloc4 \
+pkgconfig-libunwind"
 
 inherit rpm

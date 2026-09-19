@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.0007"
 
-RPM_NAME = "perl-XML-SemanticDiff-1.0007-1.18.noarch.rpm"
-RPM_HASH = "fb3e430c65e808ee3a9a16e89ebe3beb988a6dd01086583a206186397f4349228c4720900c0118c6775bd79df8609c584fb0a34d20f8dd39b3ac4218de46a00c"
+RPM_NAME = "perl-XML-SemanticDiff-1.0007-1.32.noarch.rpm"
+RPM_HASH = "b1b99469a3a8636a65ce9f703e988902abed2111a8d947eb3b5e7db2cc02c812ff1b39b71e5a35603a5e07f8c8bb94377573e6e0239dd7c4c7f1b329fab5d97d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--SemanticDiff \
@@ -16,7 +16,7 @@ perl-XML--SemanticDiff--PathFinder \
 perl-XML--SemanticDiff--PathFinder--Obj \
 perl-XML-SemanticDiff"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-XML--Parser"
 
 inherit rpm

@@ -1,5 +1,8 @@
 SUMMARY = "Runtime library for portable C++ threading and sockets"
-DESCRIPTION = "GNU uCommon C++ is a lightweight library to facilitate using C++ \
+DESCRIPTION = " \
+ \
+ \
+GNU uCommon C++ is a lightweight library to facilitate using C++ \
 design patterns even for very deeply embedded applications, such as \
 for systems using uClibc along with POSIX threading support. \
  \
@@ -10,8 +13,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "7.0.1"
 
-RPM_NAME = "ucommon-7.0.1-1.10.aarch64.rpm"
-RPM_HASH = "daf7a61161fc6ab5eb01a17efede968776e5081a17098448ca5916defd1b769104cb2d73d6c5c5ff007c6c1feb52d4ac14acf44135ecd1745b074fc891adcf15"
+RPM_NAME = "ucommon-7.0.1-2.11.aarch64.rpm"
+RPM_HASH = "26bb826876ca380f5342ad2a59d6f3d9ee1a5ac22edd81ea6991638eb302daf0cf2b83983bee5d02da4665f85cb4e4760ee90cf0ff34edca3fa84384d40998de"
 
 RPROVIDES:${PN} += "ucommon \
 ucommon-bin"

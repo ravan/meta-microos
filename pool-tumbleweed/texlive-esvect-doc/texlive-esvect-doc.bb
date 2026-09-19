@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-esvect"
 DESCRIPTION = "This package includes the documentation for texlive-esvect"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3svn32098"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-esvect-doc-2023.209.1.3svn32098-53.1.noarch.rpm"
-RPM_HASH = "fa2452ac3ba234452d1b1ab942d85ec53286d70ba2daea6067b7b7ee809db881dc2303f53c2f85ea1a3ae05a1fc2d3c724f53fb446523897d1f6c1a90210651f"
+RPM_NAME = "texlive-esvect-doc-2026.226.1.3svn77682-59.2.noarch.rpm"
+RPM_HASH = "0be5be74c03b1f25107d1768a03c46ba0af299ba5e9352449354016a09b82132397a7f4ac34abb71a52fdf039d8b5290b6024d7422c1b6c2ce8b76fabd12ff9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-esvect-doc"

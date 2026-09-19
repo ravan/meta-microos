@@ -1,11 +1,12 @@
 SUMMARY = "Usage and stats for processor, memory, disks, network and processes"
-DESCRIPTION = "Resource monitor that shows usage and stats for processor, memory, disks, network and processes. C++ version and continuation of bashtop and bpytop."
+DESCRIPTION = "Resource monitor that shows usage and stats for processor, memory, disks, \
+network and processes. C++ version and continuation of bashtop and bpytop."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.13+git20230615.7e50b03"
+PV = "1.4.7+git20260501.6e39144"
 
-RPM_NAME = "btop-1.2.13+git20230615.7e50b03-1.1.aarch64.rpm"
-RPM_HASH = "0687ef4ecd7d4caa39a68bde0e30252e4b77a892fccd1de7fa12de87013b309cf6d6355898bc83670f491ce384c07ca365d34e33420d352c20c2a527eb527369"
+RPM_NAME = "btop-1.4.7+git20260501.6e39144-1.2.aarch64.rpm"
+RPM_HASH = "f127a425c8684f0f249d1ce7359df93dd01506a4774f1a2134b8f579cec87bb26c558349043494833b2d3ad5d636b5cf2bd058e0247fa82c7e493088545a8053"
 
 RPROVIDES:${PN} += "btop"
 

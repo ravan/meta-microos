@@ -13,16 +13,16 @@ The main supported options are the common '--libs', '--cflags', '--static', \
 '--exists' and '--modversion'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.25026"
+PV = "0.26026"
 
-RPM_NAME = "perl-PkgConfig-0.25026-1.5.aarch64.rpm"
-RPM_HASH = "3a77079ca4fa4694918c1b3528bbd8d45c3d55513dd9ce490a77603e70f5a402143d900120b0e3e468a26e89841e8c4af43178652f63091c960c9cc85ea108aa"
+RPM_NAME = "perl-PkgConfig-0.26026-1.8.aarch64.rpm"
+RPM_HASH = "a509de1f279f01d571831ac2ce57e51a5d0a7d2ead9771e3fdb3e612823f582fa3ab7f3f6b01b78bea240e1f29cca51c4346fa2b2e03f90e784349c5e60986a4"
 
 RPROVIDES:${PN} += "perl-PkgConfig \
 perl-PkgConfig--Script"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Test--More"
 
 inherit rpm

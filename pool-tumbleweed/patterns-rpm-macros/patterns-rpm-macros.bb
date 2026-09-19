@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0"
 
-RPM_NAME = "patterns-rpm-macros-1.0-8.6.noarch.rpm"
-RPM_HASH = "e7f45c13963a45eea8a92d60f85aec885a811d7b1dff203c680543d8a699a6852c34c621d86cb156388cddb742796e0f5ec076d158aff48aba8b4b0555f5d93c"
+RPM_NAME = "patterns-rpm-macros-1.0-9.6.noarch.rpm"
+RPM_HASH = "62cfb8dd76b50ca712211aa12284856ebc0fe5f1dbadab1c19b989f5bbdb1eed70e6f57e0aa179d174fccf43d52f2c78100a9ea7ba7b9c7da06ddbaabc288765"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "patterns-rpm-macros \
@@ -29,7 +29,11 @@ rpm-macro-pattern-primaryfunctions \
 rpm-macro-pattern-proprietarysoftware \
 rpm-macro-pattern-publicclouds \
 rpm-macro-pattern-serverfunctions \
-rpm-macro-pattern-xfcedesktop"
+rpm-macro-pattern-xfcedesktop \
+rpm-macro-recommends-on-traditional \
+rpm-macro-requires-on-traditional \
+rpm-macro-requires-on-transactional \
+rpm-macro-requires-on-transactional-recommends-otherwise"
 
 RDEPENDS:${PN} += ""
 

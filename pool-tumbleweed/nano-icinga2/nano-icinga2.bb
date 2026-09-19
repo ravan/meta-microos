@@ -1,11 +1,11 @@
 SUMMARY = "Nano syntax highlighting for icinga2"
 DESCRIPTION = "Provides Nano syntax highlighting for icinga2."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "2.13.8"
+PV = "2.16.5"
 
-RPM_NAME = "nano-icinga2-2.13.8-2.1.aarch64.rpm"
-RPM_HASH = "f5af35b15a4f54a3be394cccad58e3901277b1283c2c73ec783ffa107b31948d0e17e2c481787f7393f91c76cf24d6db75c162c54b5dd24a82d4295b4454fcec"
+RPM_NAME = "nano-icinga2-2.16.5-1.2.aarch64.rpm"
+RPM_HASH = "c2aa353bc42be01a50f6471c021a3a63ef40c4d4c7469874b727823d90089faefcd000c7084be6da00743c24e576df8970472b17c5f1c61fc3e82513b2a43324"
 
 RPROVIDES:${PN} += "nano-icinga2"
 

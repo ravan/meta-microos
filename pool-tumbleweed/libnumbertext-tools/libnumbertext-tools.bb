@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "1.0.11"
 
-RPM_NAME = "libnumbertext-tools-1.0.11-1.4.aarch64.rpm"
-RPM_HASH = "a2fbf61cf686e4759aea5e17ecf404ca799f84e68395c86df9488c6bc07edf43136330f7115bc267d99ff5227ba0d085533d133c1b5fe1c025fa217b0f5b49cf"
+RPM_NAME = "libnumbertext-tools-1.0.11-1.14.aarch64.rpm"
+RPM_HASH = "3cfc1f71588fbafa024abfb9af8cb6760b4b8ca8fdc12725aee77db351adafb5501bcec1d69f1a697811d01ea2177a3a99d416522eecedf351a0e16688ebe88d"
 
 RPROVIDES:${PN} += "libnumbertext-tools"
 

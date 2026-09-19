@@ -3,10 +3,10 @@ DESCRIPTION = "The Mapserver development package provides necessary files to bui
 against the C Mapserver library."
 LICENSE = "MIT"
 
-PV = "8.0.0"
+PV = "8.6.6"
 
-RPM_NAME = "mapserver-devel-8.0.0-2.7.aarch64.rpm"
-RPM_HASH = "fdbcf6efef3b70d5fdf304b9a2f85fcfe12249b3ddbe81f00b7be4c7949fcbf8df9231833be1d17af89ae7e00655ccdec0e9f7aa6f39140d6e681b73db94179c"
+RPM_NAME = "mapserver-devel-8.6.6-1.1.aarch64.rpm"
+RPM_HASH = "3aee9b7efd60d69af3193cff27f5cc2140fd4064352f71fa4e1ff126bfec71116ba4119da383dcc3031d155cbd9618dd9f0d171e2e3bfab736feb8bc4e7704b4"
 
 RPROVIDES:${PN} += "mapserver-devel"
 

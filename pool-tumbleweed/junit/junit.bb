@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "4.13.2"
 
-RPM_NAME = "junit-4.13.2-4.2.noarch.rpm"
-RPM_HASH = "3456d9ba307e6028e984509dc983360d8716400745754cbd40beb11f1fe96e9ef82f689695abe4d4ea07c88f45bdc997ff887f71228a30b8fde2d13c4bc53beb"
+RPM_NAME = "junit-4.13.2-8.9.noarch.rpm"
+RPM_HASH = "a126294921f8cd64ea716397936e8f6f3931da334b0c6da5dc1481d4ece400f0f415a25b99f2b60d9906b6779bc0e261da93284a489ebc4c8cce2422340b0bff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junit \
@@ -17,7 +17,8 @@ mvn-junit-junit \
 mvn-junit-junit-pom- \
 osgi-org.junit"
 
-RDEPENDS:${PN} += "java-headless \
+RDEPENDS:${PN} += "hamcrest \
+java-headless \
 javapackages-filesystem \
 mvn-org.hamcrest-hamcrest-core"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "TCL plugin loader for Pidgin. This package will allow you to writ
 or use Pidgin plugins written in the TCL programming language."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.14.12"
+PV = "2.14.14"
 
-RPM_NAME = "libpurple-tcl-2.14.12-1.4.aarch64.rpm"
-RPM_HASH = "23bb8142a109164337d3ef282cf17b645a4018103437b8c448e278a3eaa5dded83ed3bf372a71d1e4e499d4abc8b665a96ef33534e76b3bbc1bb247f761475f6"
+RPM_NAME = "libpurple-tcl-2.14.14-2.3.aarch64.rpm"
+RPM_HASH = "b89eeed2db81acc675f4dc9a777c2b872cbafdeae84bc4bc3512a5650d0ae9873cd82d473534b7b22cb20908acc382491f945af6918e842c476b02e0c71d3434"
 
 RPROVIDES:${PN} += "libpurple-tcl"
 

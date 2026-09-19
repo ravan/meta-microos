@@ -7,14 +7,15 @@ Pentax/Asahi, Phase One, Reconyx, Ricoh, Samsung, Sanyo, Sigma/Foveon and \
 Sony."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "12.65"
+PV = "13.59"
 
-RPM_NAME = "perl-Image-ExifTool-12.65-1.1.noarch.rpm"
-RPM_HASH = "6f78dce0513fa9ccf1c2b31a9d8041deab935335ac1604c9f765978ac7e9e69f99e0dc37c89571b71d1b9e7f77ae9360ce2c39cb33897d2ca515bf3aed9f831e"
+RPM_NAME = "perl-Image-ExifTool-13.59-1.3.noarch.rpm"
+RPM_HASH = "4a75e6fa4e617a697b11949ee4f20169a933b7963bd5778eeb5e55566b746dc364662d9b06bdff1ad27f63f76c957e51adde083af9e9dc0d30420e167cac3621"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Image--ExifTool \
 perl-Image--ExifTool--7Z \
+perl-Image--ExifTool--AAC \
 perl-Image--ExifTool--AES \
 perl-Image--ExifTool--AFCP \
 perl-Image--ExifTool--AIFF \
@@ -40,6 +41,7 @@ perl-Image--ExifTool--DICOM \
 perl-Image--ExifTool--DJI \
 perl-Image--ExifTool--DNG \
 perl-Image--ExifTool--DPX \
+perl-Image--ExifTool--DSF \
 perl-Image--ExifTool--DV \
 perl-Image--ExifTool--DarwinCore \
 perl-Image--ExifTool--DjVu \
@@ -58,10 +60,14 @@ perl-Image--ExifTool--FujiFilm \
 perl-Image--ExifTool--GE \
 perl-Image--ExifTool--GIF \
 perl-Image--ExifTool--GIMP \
+perl-Image--ExifTool--GM \
 perl-Image--ExifTool--GPS \
+perl-Image--ExifTool--Garmin \
 perl-Image--ExifTool--GeoTiff \
+perl-Image--ExifTool--Geolocation \
 perl-Image--ExifTool--Geotag \
 perl-Image--ExifTool--GoPro \
+perl-Image--ExifTool--Google \
 perl-Image--ExifTool--H264 \
 perl-Image--ExifTool--HP \
 perl-Image--ExifTool--HTML \
@@ -80,6 +86,7 @@ perl-Image--ExifTool--JPEGDigest \
 perl-Image--ExifTool--JSON \
 perl-Image--ExifTool--JVC \
 perl-Image--ExifTool--Jpeg2000 \
+perl-Image--ExifTool--Kandao \
 perl-Image--ExifTool--Kodak \
 perl-Image--ExifTool--KyoceraRaw \
 perl-Image--ExifTool--LIF \
@@ -103,6 +110,7 @@ perl-Image--ExifTool--Lang--tr \
 perl-Image--ExifTool--Lang--zh-cn \
 perl-Image--ExifTool--Lang--zh-tw \
 perl-Image--ExifTool--Leaf \
+perl-Image--ExifTool--LigoGPS \
 perl-Image--ExifTool--Lytro \
 perl-Image--ExifTool--M2TS \
 perl-Image--ExifTool--MIE \
@@ -134,6 +142,7 @@ perl-Image--ExifTool--Olympus \
 perl-Image--ExifTool--OpenEXR \
 perl-Image--ExifTool--Opus \
 perl-Image--ExifTool--Other \
+perl-Image--ExifTool--PCAP \
 perl-Image--ExifTool--PCX \
 perl-Image--ExifTool--PDF \
 perl-Image--ExifTool--PGF \
@@ -152,8 +161,10 @@ perl-Image--ExifTool--PhaseOne \
 perl-Image--ExifTool--PhotoCD \
 perl-Image--ExifTool--PhotoMechanic \
 perl-Image--ExifTool--Photoshop \
+perl-Image--ExifTool--Plot \
 perl-Image--ExifTool--PostScript \
 perl-Image--ExifTool--PrintIM \
+perl-Image--ExifTool--Protobuf \
 perl-Image--ExifTool--Qualcomm \
 perl-Image--ExifTool--QuickTime \
 perl-Image--ExifTool--RIFF \
@@ -174,24 +185,28 @@ perl-Image--ExifTool--SigmaRaw \
 perl-Image--ExifTool--Sony \
 perl-Image--ExifTool--SonyIDC \
 perl-Image--ExifTool--Stim \
+perl-Image--ExifTool--TNEF \
 perl-Image--ExifTool--TagInfoXML \
 perl-Image--ExifTool--TagLookup \
 perl-Image--ExifTool--Text \
 perl-Image--ExifTool--Theora \
 perl-Image--ExifTool--Torrent \
+perl-Image--ExifTool--Trailer \
 perl-Image--ExifTool--Unknown \
 perl-Image--ExifTool--VCard \
 perl-Image--ExifTool--Validate \
 perl-Image--ExifTool--Vorbis \
 perl-Image--ExifTool--WPG \
 perl-Image--ExifTool--WTV \
+perl-Image--ExifTool--WavPack \
+perl-Image--ExifTool--XISF \
 perl-Image--ExifTool--XMP \
 perl-Image--ExifTool--ZIP \
 perl-Image--ExifTool--ZISRAW \
 perl-Image--ExifTool--iWork \
 perl-Image-ExifTool"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-File--RandomAccess"
 
 inherit rpm

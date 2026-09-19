@@ -5,10 +5,10 @@ allow callers to identify which libinput devices are part of the same \
 physical device."
 LICENSE = "MIT"
 
-PV = "1.24.0"
+PV = "1.31.3"
 
-RPM_NAME = "libinput-udev-1.24.0-1.1.aarch64.rpm"
-RPM_HASH = "8afa9760b2953b32c2ec6320650cf880cc90a31bd32d19cc9fc0c1eaebe5b5abda85dc31054ea7df1c365ae7394a1daaaff98a9868bf4e1d81ac712bbd8c37c5"
+RPM_NAME = "libinput-udev-1.31.3-1.3.aarch64.rpm"
+RPM_HASH = "b4f36307105a93be1a6846708c4b804cc17fd50946ababac3a5cff693f82a95a0b9363774378fb4db7e67bd64dee73354a253450983dfc210b5edcdfefa0a4eb"
 
 RPROVIDES:${PN} += "libinput-udev"
 

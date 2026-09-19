@@ -2,10 +2,10 @@ SUMMARY = "Optional apache xalan2 tasks for ant"
 DESCRIPTION = "Optional apache xalan2 tasks for ant-antlr."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.14"
+PV = "1.10.18"
 
-RPM_NAME = "ant-apache-xalan2-1.10.14-1.1.noarch.rpm"
-RPM_HASH = "d875f4530e5bb80a3c97b423e5ab9cd6c1d82bd6a33b30bcb402cc3dfa7dcef23f6cc5b777704554fb51721ca8df5e377e241ea974fc58dabdb80c36abd1a4b7"
+RPM_NAME = "ant-apache-xalan2-1.10.18-1.1.noarch.rpm"
+RPM_HASH = "e941446fe8b17f38fbf386d8c253cdfe4d02bd5da342850cd37df14f6d9d7f955e7c95dff76a6adde2c43f13632c45d2e86be7b54fb9b2424ac2cae7bf15d087"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-xalan2 \

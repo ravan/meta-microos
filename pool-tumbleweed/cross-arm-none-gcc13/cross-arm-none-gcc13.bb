@@ -2,17 +2,24 @@ SUMMARY = "The GNU Compiler Collection targeting arm-none"
 DESCRIPTION = "The GNU Compiler Collection as a cross-compiler targeting arm-none."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.2.1+git7683"
+PV = "13.5.0+git10516"
 
-RPM_NAME = "cross-arm-none-gcc13-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "f5b3b00dfb53969de8d60cbd428e40fb2a9ecc499f606b1e99a6e8af6d4c18be6e0ee1225f48c5d971aba0db3751b16d6a8664ebe2e1dfcc8b478741435d87aa"
+RPM_NAME = "cross-arm-none-gcc13-13.5.0+git10516-1.1.aarch64.rpm"
+RPM_HASH = "a83d21a32adb59deb250466c6ad346917c7bb865720eb686f725450f683658e2ebb5e2239e60c93658d47a5be7e3eff51cee42816837269b31f3ac314b288182"
 
 RPROVIDES:${PN} += "arm-none-eabi-gcc \
 cross-arm-none-gcc13"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-cross-arm-binutils \
+RDEPENDS:${PN} += "cross-arm-binutils \
+cross-arm-none-newlib-devel \
+libc.so.6 \
+libgmp.so.10 \
+libisl.so.23 \
+libm.so.6 \
+libmpc.so.3 \
+libmpfr.so.6 \
 libstdc++6-devel-gcc13 \
-update-alternatives"
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

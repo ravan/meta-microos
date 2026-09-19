@@ -5,13 +5,12 @@ add comments to images, organize images in catalogs, print images, view \
 slide shows, set your desktop background, and more."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.12.3"
+PV = "3.12.10"
 
-RPM_NAME = "gthumb-3.12.3-1.1.aarch64.rpm"
-RPM_HASH = "639dd10804af420364f7b652e478a1181441c8f5799eb99a6584030626dc22f53249754bf3ee54fba312a084e7ebbe22d6a46cb93b425d95e6335b9e648bf0cc"
+RPM_NAME = "gthumb-3.12.10-2.6.aarch64.rpm"
+RPM_HASH = "2d59e20286fc396dc071acc09f82d36c3c300b2d4488af2ed40cae64d1e170fc5b122b121f5dbf34099ece84ae8e9d1a71ad800700f17e8111485133c1176d27"
 
 RPROVIDES:${PN} += "gthumb \
-lib23hq.so \
 libbookmarks.so \
 libburn-disc.so \
 libcairo-io.so \
@@ -28,8 +27,6 @@ libfile-manager.so \
 libfile-tools.so \
 libfile-viewer.so \
 libfind-duplicates.so \
-libflicker-utils.so \
-libflicker.so \
 libgstreamer-tools.so \
 libgstreamer-utils.so \
 libimage-print.so \
@@ -38,8 +35,7 @@ libimage-viewer.so \
 libimporter.so \
 libjpeg-utils.so \
 liblist-tools.so \
-libmap-view.so \
-liboauth.so \
+libopen-map.so \
 libphoto-importer.so \
 libraw-files.so \
 libred-eye-removal.so \
@@ -56,8 +52,6 @@ libX11.so.6 \
 libbrasero-burn3.so.1 \
 libc.so.6 \
 libcairo.so.2 \
-libchamplain-0.12.so.0 \
-libchamplain-gtk-0.12.so.0 \
 libclutter-1.0.so.0 \
 libclutter-gtk-1.0.so.0 \
 libcolord.so.2 \
@@ -74,21 +68,19 @@ libgstvideo-1.0.so.0 \
 libgtk-3.so.0 \
 libheif.so.1 \
 libjpeg.so.8 \
-libjxl-threads.so.0.8 \
-libjxl.so.0.8 \
+libjxl-threads.so.0.11 \
+libjxl.so.0.11 \
 liblcms2.so.2 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
-libraw.so.23 \
+libraw.so.25 \
 librsvg-2.so.2 \
-libsecret-1.so.0 \
-libsoup-2.4.so.1 \
 libstdc++.so.6 \
 libtiff.so.6 \
-libwebkit2gtk-4.0.so.37 \
 libwebp.so.7 \
+libwebpdemux.so.2 \
 libz.so.1"
 
 inherit rpm

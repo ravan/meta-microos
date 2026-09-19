@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-resumecls"
 DESCRIPTION = "This package includes the documentation for texlive-resumecls"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4.1svn54815"
+PV = "2026.226.0.0.4.1svn54815"
 
-RPM_NAME = "texlive-resumecls-doc-2023.209.0.0.4.1svn54815-54.2.noarch.rpm"
-RPM_HASH = "12ae8a6734a0e46c90038d7baa8d982ecd5dc04c4f8690be43d76818cd9bf01679de057a99fcf41eb3aa87baeb76c952a703da5517e00258c604450d9b400d75"
+RPM_NAME = "texlive-resumecls-doc-2026.226.0.0.4.1svn54815-60.4.noarch.rpm"
+RPM_HASH = "21aa9f36cfa058027a7a967b6ca7b59ac4e0a17dac4a9b2dd1367d2ce80be284b98b20fd4648a3851a801102c897508724952edd8fe612419552e31bb385c73f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-resumecls-doc"

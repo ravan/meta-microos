@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-2.1.5-3.3.aarch64.rpm"
-RPM_HASH = "5f58f7e6fc733f6985552182c887d7492136e9a9737bd70f5052312c1360cee07eb926b39221e4e3ae9db1ae63316584dbd505ed8c5b41d13dfc841103426d8c"
+RPM_NAME = "bumblebee-status-2.1.5-4.7.aarch64.rpm"
+RPM_HASH = "c56537667e8265336d68a15fe9526a2e27e82efd966e976f146264d6a7923f0eb135dfe6ef92b568b3d2d7e407dbec6da6340ab918217022a8e61b563af16fae"
 
 RPROVIDES:${PN} += "bumblebee-status"
 

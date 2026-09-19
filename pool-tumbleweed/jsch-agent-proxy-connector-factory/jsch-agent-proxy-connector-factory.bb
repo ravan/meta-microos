@@ -2,10 +2,10 @@ SUMMARY = "Connector factory for jsch-agent-proxy"
 DESCRIPTION = "Connector factory for jsch-agent-proxy."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.7"
+PV = "0.0.9"
 
-RPM_NAME = "jsch-agent-proxy-connector-factory-0.0.7-4.7.noarch.rpm"
-RPM_HASH = "2f9c8c3ff8dd1ca8127de0970f08aeae70227817adc831e5d457cf11377ca606065bd3885aa703b9c54f8da5a679fed7f3794410685ef1ea35dc4e213b67a8ce"
+RPM_NAME = "jsch-agent-proxy-connector-factory-0.0.9-2.8.noarch.rpm"
+RPM_HASH = "9a43f21e3e2a691c85f2a0dc0e05829137513eb52683dcb5fcb5c477a5eb16b09ae80160cc80512bcb6e3adb918a39ea8b072617dd4d8e2fe216d79a23a507c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-agent-proxy-connector-factory \

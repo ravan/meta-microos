@@ -3,10 +3,10 @@ DESCRIPTION = "The GNOME desktop environment is an intuitive and attractive desk
 This pattern installs components for GNOME to run with Wayland and X11 technologies."
 LICENSE = "MIT"
 
-PV = "20201210"
+PV = "20250310"
 
-RPM_NAME = "patterns-gnome-gnome-20201210-16.1.aarch64.rpm"
-RPM_HASH = "c87b00918a86e4764f810d2f249e9fd6cdaf399e2e3047a9c0c31e27d3e46b4e73072e57aaf10a050d1f15dd661335b82eef075d130d47656bac4ea6a8f58310"
+RPM_NAME = "patterns-gnome-gnome-20250310-10.2.aarch64.rpm"
+RPM_HASH = "fd988d279bcf1e8722f4cd7cc7af577ce36019e0e1a1f3ef3bb9a750eeb92c7dcf335ae2d50cb798b111e37536b3e5ec35c35f5b5e8eabb1a8a0e7478d87e45e"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -15,6 +15,7 @@ pattern-order- \
 pattern-visible- \
 patterns-gnome-gnome"
 
-RDEPENDS:${PN} += "pattern-"
+RDEPENDS:${PN} += "gnome-session-wayland \
+pattern-"
 
 inherit rpm

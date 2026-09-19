@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ean"
 DESCRIPTION = "This package includes the documentation for texlive-ean"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn20851"
+PV = "2026.226.svn20851"
 
-RPM_NAME = "texlive-ean-doc-2023.209.svn20851-54.2.noarch.rpm"
-RPM_HASH = "b92cce7bae2a801b969bc9df6da0684d76eb0b98a489d79856554baeb2e24b44248465282cb770aa833efb6729aa254227a43245e91782872d954e6ecd618be3"
+RPM_NAME = "texlive-ean-doc-2026.226.svn20851-61.4.noarch.rpm"
+RPM_HASH = "29a13237b83728653e748360031668880e0586e6b27d06ef8ed395b45304e7665135814c2fa28f84082d461babf04afbdb24609997e614f0906bc7424ec09e40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ean-doc"

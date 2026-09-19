@@ -4,10 +4,10 @@ for LaTeX. There is only a Regular font face. It's useful for \
 book-chapter headlines."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.0.1svn57452"
+PV = "2026.226.0.0.0.1svn77682"
 
-RPM_NAME = "texlive-alfaslabone-2023.209.0.0.0.1svn57452-55.1.noarch.rpm"
-RPM_HASH = "6d4a22e1ca6c0c90a596757b44ea1a51fd3bdfd475da39238463d591cc56bb43f8d2672361972a522dbb208702e1ecf4cfb1db016a9e336a2bae06a4077c8d85"
+RPM_NAME = "texlive-alfaslabone-2026.226.0.0.0.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "46213e8c03d70c69f99b656066f9e6b794a16917012f9133d559105d8b218a097ad1a388517f8d137233e462643e0886944177e4ecb7e0e7369a70dc518d20c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-AlphaSlabOne-Regular-sup-ly1--base.tfm \

@@ -13,10 +13,10 @@ data. It also supports sequential iteration over all key/data pairs in \
 a database."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.23"
+PV = "1.26"
 
-RPM_NAME = "libgdbm6-1.23-2.1.aarch64.rpm"
-RPM_HASH = "9b30d64ad8ca5721c87132a21b3c59e34459ba419f375d468c22f35cede4a1e7e5ddb2c72cd6087a44eee620ff7b97c00b907665f192f620e69822ebfbf0d3ef"
+RPM_NAME = "libgdbm6-1.26-1.6.aarch64.rpm"
+RPM_HASH = "45c6305c6fbf0b93ad275bff1ae9133402ad27541f710498ca0a0d38fc3ac7dd5a96686292cbe8ad06b45a410cdebdeb865c85b05e7f47920c4cebe043f29d4f"
 
 RPROVIDES:${PN} += "gdbm \
 libgdbm.so.6 \

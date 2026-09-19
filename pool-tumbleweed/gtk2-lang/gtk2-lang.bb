@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.24.33"
 
-RPM_NAME = "gtk2-lang-2.24.33-4.4.noarch.rpm"
-RPM_HASH = "35e74060b5bc20e886b0bdd0dc0eacb33ac96addc8ddf166b03e37093a6e4f647385e5bd49cc1e2dfe8768744acd8cc6ccd0bf057af914614e4efe11c52b1d03"
+RPM_NAME = "gtk2-lang-2.24.33-18.7.noarch.rpm"
+RPM_HASH = "db098d84cf7273015ac571319722e9d1d290bdc704142ef7c249ce0172cd7e0f4c06d3629e1e55808d19178b74de458b4e8c61f81da5347a7a66e9bfa8707105"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-lang \
@@ -30,8 +30,10 @@ locale-gtk2-da \
 locale-gtk2-de \
 locale-gtk2-dz \
 locale-gtk2-el \
+locale-gtk2-en \
 locale-gtk2-en-CA \
 locale-gtk2-en-GB \
+locale-gtk2-en@shaw \
 locale-gtk2-eo \
 locale-gtk2-es \
 locale-gtk2-et \
@@ -39,7 +41,9 @@ locale-gtk2-eu \
 locale-gtk2-fa \
 locale-gtk2-fi \
 locale-gtk2-fr \
+locale-gtk2-fur \
 locale-gtk2-ga \
+locale-gtk2-gd \
 locale-gtk2-gl \
 locale-gtk2-gu \
 locale-gtk2-he \
@@ -53,6 +57,7 @@ locale-gtk2-it \
 locale-gtk2-ja \
 locale-gtk2-ka \
 locale-gtk2-kk \
+locale-gtk2-km \
 locale-gtk2-kn \
 locale-gtk2-ko \
 locale-gtk2-lt \

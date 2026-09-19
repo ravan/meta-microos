@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hepthesis"
 DESCRIPTION = "This package includes the documentation for texlive-hepthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.2svn46054"
+PV = "2026.226.1.5.2svn46054"
 
-RPM_NAME = "texlive-hepthesis-doc-2023.209.1.5.2svn46054-54.2.noarch.rpm"
-RPM_HASH = "b7aaafbfaec4b65b824485d2ec05b929bd4fa1e072b7bcd3fb74020b4dcf89d71bd5a7f7544e69185444c77aea2983f3b6981f6f167b0c6bdd0cd5568bb45ab3"
+RPM_NAME = "texlive-hepthesis-doc-2026.226.1.5.2svn46054-60.4.noarch.rpm"
+RPM_HASH = "2f04277ab3abe5ff5d39002f2513a961718fa53132ae3fbb4ec45e3060336b2a7e4ebcee03bdd07e50735ae1b4186573a772e6dbb1b1a8813f3317146f41ac1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hepthesis-doc"

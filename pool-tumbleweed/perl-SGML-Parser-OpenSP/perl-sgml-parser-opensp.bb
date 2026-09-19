@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-2.0-or-later"
 
 PV = "0.994"
 
-RPM_NAME = "perl-SGML-Parser-OpenSP-0.994-8.1.aarch64.rpm"
-RPM_HASH = "12b5ae6b651d37999064ff8d5e965ad05c27a3e2f07e46423878f56b090756a51b81f057979e6c39853a87833fd922a7365b442d33f2538d2296ea9059ef6b86"
+RPM_NAME = "perl-SGML-Parser-OpenSP-0.994-8.18.aarch64.rpm"
+RPM_HASH = "86258d7c5f81055e442f8f0ea92175b6d629922a787cd82a2ab91b213f75de7fdba554b1a544cfe43ad0cf4a80a31bab50d365fd30904e26b07c5e440c985b8e"
 
 RPROVIDES:${PN} += "perl-SGML--Parser--OpenSP \
 perl-SGML--Parser--OpenSP--Tools \
@@ -19,7 +19,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libosp.so.5 \
 libstdc++.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Accessor"
 
 inherit rpm

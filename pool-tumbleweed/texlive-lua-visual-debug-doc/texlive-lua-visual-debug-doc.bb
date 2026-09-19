@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lua-visual-debug"
 DESCRIPTION = "This package includes the documentation for texlive-lua-visual-debug"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.9svn65464"
+PV = "2026.226.1.0svn77803"
 
-RPM_NAME = "texlive-lua-visual-debug-doc-2023.208.0.0.9svn65464-53.1.noarch.rpm"
-RPM_HASH = "7fb966ed24bbfaa45a0ecdfdd0376ac31598ac25975c45a078fb2932618c0df493d023f36d41a39375e42f867eba869c60bb7c73a1cb781d4171caea12c88f48"
+RPM_NAME = "texlive-lua-visual-debug-doc-2026.226.1.0svn77803-59.2.noarch.rpm"
+RPM_HASH = "ad60948266503fc12119075d3799dfd992ed55ebeeb7e799397bf2a0b4d42e8b4e76ab59f2c1c50d7e4a1382913af83fd2e3b8a5219a017dc6a3ec07fc7dacdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-visual-debug-doc"

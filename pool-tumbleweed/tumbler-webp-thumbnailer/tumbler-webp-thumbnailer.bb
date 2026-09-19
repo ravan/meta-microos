@@ -2,13 +2,16 @@ SUMMARY = "Thumbnailer for WebP images"
 DESCRIPTION = "A thumbnailer for WebP images"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.18.1"
+PV = "4.20.2"
 
-RPM_NAME = "tumbler-webp-thumbnailer-4.18.1-1.1.aarch64.rpm"
-RPM_HASH = "d19fb0c9d85a27ef8110c8e4d541981e851fb3700bf192ad2ee12ab1902c27be665aad7d3ea123d47d6922d6d8b08cb9c1665c32984b3ce0dac8e92416dee966"
+RPM_NAME = "tumbler-webp-thumbnailer-4.20.2-1.1.noarch.rpm"
+RPM_HASH = "35dc9f0c1d8d9bc5dd6c804e4ba3d7f07e21757789c8784ac6da81929880e14008ea3532473272438430f6d874dc7a8aa7c412d14ea65a96dd13a2c668ee5581"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tumbler-webp-thumbnailer"
 
-RDEPENDS:${PN} += "ImageMagick"
+RDEPENDS:${PN} += "/usr/bin/bash \
+ImageMagick \
+libwebp-tools"
 
 inherit rpm

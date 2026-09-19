@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Japanese (V
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-japanese_vert-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "a05bfef97d2f40fa5e2d3e1f940f59fbf31676f81f6029cf046f2fc13e494b8056b2b27ca0358fc812c3394cb102aa5ac4a57ada8184376dc46fcd04acca044d"
+RPM_NAME = "tesseract-ocr-traineddata-script-japanese_vert-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "27a3e7c52ca355b690543e9d5aa8c7eada11f99b4a32d325bfe5c928951091597ddbe09bdb970c06ac71e582d0b9af9385927beda62cd5a3143ca15a6c438972"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-japanese-vert"

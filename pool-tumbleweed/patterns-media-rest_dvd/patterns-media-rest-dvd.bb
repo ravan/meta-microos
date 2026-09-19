@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-media-rest_dvd-20170319-43.1.aarch64.rpm"
-RPM_HASH = "6753174ac86c70714a5120204734b84f874fe5fc6ef47ae08704e4d34b4daf5080e744f31edf05867ebe8c70f6d5c6608fa2391e81ff46275384db90c001be3c"
+RPM_NAME = "patterns-media-rest_dvd-20170319-62.1.aarch64.rpm"
+RPM_HASH = "8b99561e913782cb2d1ba741b38a0d52d1b251a70045ccf99ac4578ef7a92dde1c0cc1b4d78674cccb4a05a825b9ec41a541e84df828fbfc74a3e11dda51c278"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -14,10 +14,7 @@ pattern-order- \
 patterns-media-rest-dvd \
 patterns-openSUSE-rest-dvd"
 
-RDEPENDS:${PN} += "arabic-fonts \
-arphic-uming-fonts \
-breeze5-wallpapers \
-cracklib-dict-full \
+RDEPENDS:${PN} += "cracklib-dict-full \
 indic-fonts \
 ipa-gothic-fonts \
 khmeros-fonts \

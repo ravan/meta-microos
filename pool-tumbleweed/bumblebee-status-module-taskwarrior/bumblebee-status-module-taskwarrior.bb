@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-taskwarrior-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "bfee8529817014d43b9ac1404080b58cd41a345239e214484c3cc17e16a6a82ff4f23bdb9437b23b3e98ae709cedd16f6ad6fb6d379f3234be3484f25a60acef"
+RPM_NAME = "bumblebee-status-module-taskwarrior-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "e46307e25cc2dd8b6e6da7012f6c076a23e6b3ea6a094741a416c0bb3702193efb3cc411bb175539e66a1d040fefcf8b50cf95f5a70cb683fc7149964d85291a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-taskwarrior"

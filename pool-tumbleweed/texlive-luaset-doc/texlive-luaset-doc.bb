@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luaset"
 DESCRIPTION = "This package includes the documentation for texlive-luaset"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn65376"
+PV = "2026.226.1.1svn76924"
 
-RPM_NAME = "texlive-luaset-doc-2023.208.1.0svn65376-53.1.noarch.rpm"
-RPM_HASH = "e97de2ef55da440a2de0167f87542e5aebed94d532fa2c014295fc312cff720a2519cc9860d4815cf0b5a9d16d09ab0ff4794178e8b04a9ffbbe524d22e1d993"
+RPM_NAME = "texlive-luaset-doc-2026.226.1.1svn76924-59.2.noarch.rpm"
+RPM_HASH = "6c66a84180d67bacad2834d8ce4eb51b492788386dd0c88fe164d0c651f77865d9fab0a3a3832ffe311603f3e3706224d4eff1f8e07041b37058118f5eedbc45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luaset-doc"

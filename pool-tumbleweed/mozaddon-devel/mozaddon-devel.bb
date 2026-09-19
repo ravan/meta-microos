@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1"
 
-RPM_NAME = "mozaddon-devel-1-2.6.noarch.rpm"
-RPM_HASH = "91d536a0d177958bb6dbdeb45f3f470ab0fc335e7352faabe9345a6c14561d492d306b739cf4657fb5b106519682f2b99eb71a7ebda7cd647f2ab88c08f90c0f"
+RPM_NAME = "mozaddon-devel-1-2.14.noarch.rpm"
+RPM_HASH = "b23fc4977da68e9164f84366813792104e9e00b3a22f48ab588bd755a3739413d2a5d63ca9126c5b64df82f22a5dd7dbc2d86d21066d4fa80598502f5ee31245"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mozaddon-devel \

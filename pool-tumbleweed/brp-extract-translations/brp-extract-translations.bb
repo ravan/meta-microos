@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "84.87"
 
-RPM_NAME = "brp-extract-translations-84.87-6.2.noarch.rpm"
-RPM_HASH = "db7124b0e41d479f9c738cf6cdc38fc52a325c760d12c53e48d51d4bd011fb6e7e0763b800b3755b1057044ae8cc5252e86519f4182c344103d5f92a5d19f2b4"
+RPM_NAME = "brp-extract-translations-84.87-10.1.noarch.rpm"
+RPM_HASH = "90cb16a63c3566684473406fe2962f63bdad5ee6cb22f36c91499409d4c0cdcb75e9ea6fd15867e0c8c05e2c943ef347818c1a02c0853283cffc62edee96069f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brp-extract-translations \

@@ -5,10 +5,10 @@ guidelines of Gabler Verlag and typographical rules established \
 by the European Business School."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-ebsthesis-2023.209.1.0svn15878-54.2.noarch.rpm"
-RPM_HASH = "68ad364101256b201a39d0276fd66dbd5d00ddef63f84a618aca8aee80e817f95c9e15b1733adf44b4bf82718fac1dd807120f3b2cab435962d923cdde621cb2"
+RPM_NAME = "texlive-ebsthesis-2026.226.1.0svn15878-61.4.noarch.rpm"
+RPM_HASH = "8e220001ce8128e8f43652e6c2c2cbd9cb07fb5dc1c028455d70d0d5091a68556560409f86e22c0323c3a65a26692f5a661cba81970e419a65d74012c39fd4fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ebsthesis.cls \

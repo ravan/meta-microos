@@ -7,32 +7,41 @@ distribution across multiple physical servers similar to VMware’s \
 vNetwork distributed vswitch or Cisco’s Nexus 1000V."
 LICENSE = "Apache-2.0 & LGPL-2.1-only & SISSL"
 
-PV = "3.1.0"
+PV = "3.7.1"
 
-RPM_NAME = "openvswitch-3.1.0-15.1.aarch64.rpm"
-RPM_HASH = "2a9bfa757edf7d29f75f2b88323e54e6baf3a1a75f849995b5ed31744f500429334d2d59544ee4e868a6f10f5afa17e9d98efebdb0ded314856c20b3246af119"
+RPM_NAME = "openvswitch-3.7.1-37.1.aarch64.rpm"
+RPM_HASH = "d4cc9fc03330577157313dfb3e38258095634de18404f4022a7fd00a2f057188e4c81b42fc66a7aa4c12315e79f9b7471d8787d0fe81453025da5c29eecdf21d"
 
 RPROVIDES:${PN} += "config-openvswitch \
+group-openvswitch \
 openvswitch \
 openvswitch-common \
 openvswitch-controller \
 openvswitch-dpdk \
 openvswitch-dpdk-switch \
-openvswitch-switch"
+openvswitch-switch \
+user-openvswitch"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libofproto-3.1.so.0 \
-libopenvswitch-3.1.so.0 \
-libovsdb-3.1.so.0 \
+libofproto-3.7.so.0 \
+libopenvswitch-3.7.so.0 \
+libovsdb-3.7.so.0 \
 modutils \
+python3-click \
+python3-netaddr \
+python3-openvswitch \
+python3-pyparsing \
+python3-rich \
 shadow \
+sysuser-shadow \
 util-linux"
 
 inherit rpm

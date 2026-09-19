@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides commands for typesetting notes for guitar, \
 especially for simplifying guitar notation with MusixTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.2svn21649"
+PV = "2026.226.1.2.2svn21649"
 
-RPM_NAME = "texlive-musixguit-2023.209.1.2.2svn21649-55.1.noarch.rpm"
-RPM_HASH = "de19dabdadf4f78e1290a0567e10c9af54311031b2626c44ef7150751fc79e1a7fb67417b46fd3028d2872f7f1f2659deb21ca179dee53ea1f2e50befa1a4308"
+RPM_NAME = "texlive-musixguit-2026.226.1.2.2svn21649-61.2.noarch.rpm"
+RPM_HASH = "49e9cc92c7a088470f86123369a8c16299904482ca5c0dbc18155b0412f4ec442bfd8d416197c23cdac657268c6f71883e5cc15a64ccc0a18335de9288fb2706"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-musixguit.sty \

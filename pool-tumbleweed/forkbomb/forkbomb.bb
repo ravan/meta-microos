@@ -7,8 +7,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.4"
 
-RPM_NAME = "forkbomb-1.4-3.21.aarch64.rpm"
-RPM_HASH = "58ad2f1bbebadd2299c662a9802925a6415ca2b80e73e0a6b3eea500dce7deff8e966db13005af2bf3900f584b0236f61f6f7000c8fa9c0f500cb1b96f3556d4"
+RPM_NAME = "forkbomb-1.4-3.31.aarch64.rpm"
+RPM_HASH = "cf51bad4d97bf0c8a568ae9c7cb8c4b5f78bfdfb3e48cd616d48157e03a80959b6bdf983c8e083c8decbefafab848ebaa30aa36590a7496df5868f7db512a14b"
 
 RPROVIDES:${PN} += "forkbomb"
 

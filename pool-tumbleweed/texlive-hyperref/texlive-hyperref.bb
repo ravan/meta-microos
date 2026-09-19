@@ -11,10 +11,10 @@ use of the facilities of hyperref. The package depends on the \
 author's kvoptions, ltxcmds and refcount packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.7.00vsvn65758"
+PV = "2026.226.7.01psvn77682"
 
-RPM_NAME = "texlive-hyperref-2023.209.7.00vsvn65758-54.1.noarch.rpm"
-RPM_HASH = "1a1420ef4e3b34a295ad15c9107b0d19a398ed5ed478d117ba5f8edd5a9dd13f1ee20a80ec11538ccd79101618b439bbc07bfe84cb28058acc94056559dc41ea"
+RPM_NAME = "texlive-hyperref-2026.226.7.01psvn77682-60.2.noarch.rpm"
+RPM_HASH = "a56f16d591b4d95f66fe11a89e489093e56621141d2720cb7e16e5f305140a2a04bd7f0cae29838f417664a4a67c40a38517311e71b7852559990a189c9dd604"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-backref.sty \
@@ -43,7 +43,6 @@ tex-pdfmark.def \
 tex-psdextra.def \
 tex-puarenc.def \
 tex-puenc-extra.def \
-tex-puenc-greekbasic.def \
 tex-puenc.def \
 tex-puvnenc.def \
 tex-xr-hyper.sty \
@@ -55,29 +54,22 @@ ed \
 findutils \
 grep \
 sed \
-tex-atbegshi.sty \
-tex-atveryend.sty \
-tex-auxhook.sty \
 tex-bitset.sty \
 tex-color.sty \
-tex-etexcmds.sty \
-tex-expl3.sty \
+tex-etoolbox.sty \
 tex-gettitlestring.sty \
 tex-hycolor.sty \
 tex-iftex.sty \
-tex-infwarerr.sty \
 tex-intcalc.sty \
 tex-keyval.sty \
 tex-kvdefinekeys.sty \
 tex-kvoptions.sty \
 tex-kvsetkeys.sty \
-tex-letltxmacro.sty \
-tex-ltxcmds.sty \
 tex-minitoc.sty \
 tex-ntheorem.sty \
 tex-pdf14.sty \
 tex-pdfescape.sty \
-tex-pdftexcmds.sty \
+tex-puenc-greek.def \
 tex-refcount.sty \
 tex-rerunfilecheck.sty \
 tex-stringenc.sty \
@@ -91,14 +83,18 @@ texlive-etexcmds \
 texlive-filesystem \
 texlive-gettitlestring \
 texlive-hycolor \
+texlive-iftex \
+texlive-infwarerr \
 texlive-intcalc \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-kvdefinekeys \
+texlive-kvoptions \
 texlive-kvsetkeys \
 texlive-letltxmacro \
 texlive-ltxcmds \
 texlive-pdfescape \
+texlive-pdftexcmds \
 texlive-refcount \
 texlive-rerunfilecheck \
 texlive-scripts \

@@ -5,10 +5,10 @@ to use it. The arrows in the font are designed to look more \
 like those in chemistry text-books than do Knuth's originals."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.0.0.9svn17146"
+PV = "2026.226.0.0.9svn17146"
 
-RPM_NAME = "texlive-chemarrow-2023.209.0.0.9svn17146-54.1.noarch.rpm"
-RPM_HASH = "0c6194617883e9c87aac2ba3a7d896fdb94db3a78c5658dfa14de952343f449cbe039fd3a438e582340f5e08543ab9cb686977b70dbd5bbcdcd45a4b87d2aaa8"
+RPM_NAME = "texlive-chemarrow-2026.226.0.0.9svn17146-60.2.noarch.rpm"
+RPM_HASH = "fb7cc2c8cba2fb4c2b7398cadeb842b8973f5becec4c7bd7abc31999cfa5e90d935bf33587a37f15ac0997cb8ac57c4ed2c168c77fc6e58f1937cc8e0aa90f36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arrow.tfm \

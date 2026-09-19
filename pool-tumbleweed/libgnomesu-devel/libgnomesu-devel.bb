@@ -2,10 +2,10 @@ SUMMARY = "Development files for libgnomesu"
 DESCRIPTION = "This package contains all files needed to develop with libgnomesu."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.7"
+PV = "2.0.10"
 
-RPM_NAME = "libgnomesu-devel-2.0.7-2.3.aarch64.rpm"
-RPM_HASH = "338c989298c9022ac1a8c27e89e7d4b38845cd6ec744a8881c9d7321d6e2b08c7fab44a0e09e817852b7c242f1c3d07c92039951b92ddf0e53a50b95abd75eca"
+RPM_NAME = "libgnomesu-devel-2.0.10-1.5.aarch64.rpm"
+RPM_HASH = "45ef1a5a8ab049fb138dda257acb6bc52cde53798216dc868a82279dcee098ad927d5cc236dc650fbb85221e043c723b51ce6c5231f5ba266e5ee7dd0b2fee9a"
 
 RPROVIDES:${PN} += "libgnomesu-devel \
 pkgconfig-libgnomesu-1.0"

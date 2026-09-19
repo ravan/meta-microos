@@ -4,10 +4,10 @@ for Feynman diagrams. The package is based on the macros of the \
 old package axodraw but uses the capabilities of PSTricks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn48781"
+PV = "2026.226.0.0.01svn48781"
 
-RPM_NAME = "texlive-pst-feyn-2023.209.0.0.01svn48781-53.1.noarch.rpm"
-RPM_HASH = "6e3fa296a212c4e435dc94e9c369c99a28dae9bce5832673bc800d048d3bb40ec0936ff7e0ceb0914284b18ec601273c4c4a8cb3c205fcfa6e003da31d3d5941"
+RPM_NAME = "texlive-pst-feyn-2026.226.0.0.01svn48781-59.2.noarch.rpm"
+RPM_HASH = "7d82a8ab6b79bd7762bcbff4a5915c8d4fd2046aa732f2a463a0ec8ccce926f53c4c9b3c40cae53329dfa052eb95dffedd8a72f3ffdd4f17bdc3256994fa85f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-feyn.sty \

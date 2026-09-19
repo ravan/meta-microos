@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.218"
 
-RPM_NAME = "perl-Email-Simple-2.218-1.3.noarch.rpm"
-RPM_HASH = "af984e676793d70d17b8685032d3478efce8b30f0c43f86b81fcc18c608b58778810ad9d65c60fc5e067e10680c96cd0d08505e8559019939e11ae751ff49e02"
+RPM_NAME = "perl-Email-Simple-2.218-1.17.noarch.rpm"
+RPM_HASH = "cc4e893c0ce959d0159d2f3916afbbc643d40d6ca4fb5b1b1b93d8489a02769c59d4f02a0b4df0123db3ae006c1ea4333b2c0451f07f90fc9ae986fdcc0751bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--Simple \
@@ -16,7 +16,7 @@ perl-Email--Simple--Creator \
 perl-Email--Simple--Header \
 perl-Email-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Email--Date--Format"
 
 inherit rpm

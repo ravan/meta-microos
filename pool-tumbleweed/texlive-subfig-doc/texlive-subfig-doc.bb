@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-subfig"
 DESCRIPTION = "This package includes the documentation for texlive-subfig"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn15878"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-subfig-doc-2023.209.1.3svn15878-58.1.noarch.rpm"
-RPM_HASH = "fea6082e8c9ddd929cc5651b690f51e2ecdf7110688ef1427cce8b94b8a527e224b197ea7a70e56afd6de9f7f8911f5cdf862c3ca514c3ef45a36a96e751d12f"
+RPM_NAME = "texlive-subfig-doc-2026.226.1.3svn77682-64.2.noarch.rpm"
+RPM_HASH = "3857fd0d26d61e2c3752c8ff27bae02a2a2a07b0f8cb5252fd011173f0591d4459da02ac17ae1c0ec51f37c44c6ff7024cc779f360576d08db736977d2a0ef16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-subfig-doc"

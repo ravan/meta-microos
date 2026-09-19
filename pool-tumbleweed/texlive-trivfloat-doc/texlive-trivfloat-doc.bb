@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-trivfloat"
 DESCRIPTION = "This package includes the documentation for texlive-trivfloat"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3bsvn15878"
+PV = "2026.226.1.3bsvn77682"
 
-RPM_NAME = "texlive-trivfloat-doc-2023.209.1.3bsvn15878-53.1.noarch.rpm"
-RPM_HASH = "556c95b2dcf8c79eb0f1ea15dfd8b0587391c31ad72c211c3f5323375a826942cd8ee0f4cb06575421e9439e8b68d2a441e1d467f5f6274936b6a68a7ab19aa8"
+RPM_NAME = "texlive-trivfloat-doc-2026.226.1.3bsvn77682-59.2.noarch.rpm"
+RPM_HASH = "1d3ab6146b2a352d4bddbf53b06c118cd6114b98b8b500566d1907694eac90bb38fc6b9ebf8abf9f19de5725dece4cdb0359c75de8ebb60f41bbc55651ce8fbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-trivfloat-doc"

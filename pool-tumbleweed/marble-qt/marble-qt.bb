@@ -2,24 +2,23 @@ SUMMARY = "Qt Frontend for Marble"
 DESCRIPTION = "The Qt frontend for the Marble map viewer"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "marble-qt-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "8109799c4f976ba57245aad6cd7183a8f74b582c56e9065df1feef9c9435ebb9d2f4addf32e1e7fc44b140d74a505e874cdf05cabb6ee85de46b99890a957b8d"
+RPM_NAME = "marble-qt-26.08.1-1.2.aarch64.rpm"
+RPM_HASH = "42f7d1db38d8675706576a6fd7f400934312ad6366ae9ff154203d09baa904147e2f5aefeab90002308ede9cd50bf2b7fae6fd0df8efe1c23b755ee0f0e7bd7c"
 
 RPROVIDES:${PN} += "marble-frontend \
 marble-qt"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libgcc-s.so.1 \
-libmarblewidget-qt5.so.28 \
+libmarblewidget-qt6.so.28 \
 libstdc++.so.6 \
 marble"
 

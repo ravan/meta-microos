@@ -6,16 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-syndic-3006.0-4.1.aarch64.rpm"
-RPM_HASH = "91e0dc82711befa428fcb6503721300583999a0111ca41cc15546cd9898d465d391afc0a08c8359e1dfbe593ee13eaaa8a4d242c519b13b7e1038fd7c82e69ce"
+RPM_NAME = "salt-syndic-3006.0-70.1.aarch64.rpm"
+RPM_HASH = "5d78e9c5ec55af0d9db4422c3d04af1764f33ae3f381cec913e11521f5dd4fb387c0829438ace2dafea4077f4b8d81b0e2fd43c9c96a30572634ebd1fc3c487e"
 
 RPROVIDES:${PN} += "salt-syndic"
 
-RDEPENDS:${PN} += "/usr/bin/mkdir \
-/usr/bin/python3 \
-/usr/bin/sh \
-/usr/bin/touch \
-fillup \
+RDEPENDS:${PN} += "/usr/bin/sh \
 salt \
 salt-master \
 systemd"

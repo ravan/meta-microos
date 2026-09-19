@@ -9,10 +9,10 @@ This subpackage includes the following utilities: \
   - zrun: automatically uncompress arguments to command"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.67"
+PV = "0.70"
 
-RPM_NAME = "moreutils-perl-0.67-2.3.noarch.rpm"
-RPM_HASH = "99679411927430460d6a8be97b2f26efc96ff274d0b57913a8ed2a46c39c63b027a992b3300592cb9cb1dbb152b3f117c7525b1d9d24c70f8b44ebf13866443e"
+RPM_NAME = "moreutils-perl-0.70-1.9.noarch.rpm"
+RPM_HASH = "e300b9e953f27bb25195a08885dcda79a22c49f21527febef047165d7ceb65ea3c22024561b90751a58b93f336865f97bd02ec5c0633c9509635bf32ff67bba1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "moreutils-/usr/bin/combine \

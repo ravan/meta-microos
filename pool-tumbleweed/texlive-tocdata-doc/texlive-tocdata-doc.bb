@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tocdata"
 DESCRIPTION = "This package includes the documentation for texlive-tocdata"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.05svn65451"
+PV = "2026.226.2.07svn77682"
 
-RPM_NAME = "texlive-tocdata-doc-2023.209.2.05svn65451-53.1.noarch.rpm"
-RPM_HASH = "89abbd046edcc0087f72a01c9da2b1981139c222a3d0ae832fff8cbe3ceb9d3599266a1f9f7d9046bb0c7fa3206306984ee3423042b4ba1ff632fa0fe1291b8d"
+RPM_NAME = "texlive-tocdata-doc-2026.226.2.07svn77682-59.2.noarch.rpm"
+RPM_HASH = "e4079e9d6e17b771864c3654459c5a30808c02122c405e495cc1bb947c4bb60cb6dabfab3d838d25e1b60ad8cf9e93a0b43d6c91b1859dd0ca343b4c1d0a60a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tocdata-doc"

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.5"
 
-RPM_NAME = "libucpp13-1.3.5-2.19.aarch64.rpm"
-RPM_HASH = "edca0fe10ebdf918d08ba45790506e48b90fc05b54c1217af678f2269548f8192dc674744708106a3ff1124acee6b9e791ef4e1b01d98bcebb9c4831bc6c7096"
+RPM_NAME = "libucpp13-1.3.5-2.29.aarch64.rpm"
+RPM_HASH = "b1d8aa3af002a829c9575d6e7660eeb8356a68b39ee89ca9c35b5054c701e07cb3e95c2a8e020b09e20b9abe74b6a3d9418bbbf3326dfecd5e33039420562859"
 
 RPROVIDES:${PN} += "libucpp.so.13 \
 libucpp13"

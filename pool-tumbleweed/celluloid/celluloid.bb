@@ -2,10 +2,10 @@ SUMMARY = "Simple GTK+ frontend for MPV"
 DESCRIPTION = "Celluloid is a simple GTK+ frontend for MPV."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.25"
+PV = "0.30"
 
-RPM_NAME = "celluloid-0.25-2.1.aarch64.rpm"
-RPM_HASH = "70cd0a97dd065a7ad0c050d81c341d01fd97d4c3b21e8dc9e6a504c65a72670219d7bba77a7f0abb0ad96cd9cbff75bd57a8a8e4d4d4cb870e1e9f65c0423964"
+RPM_NAME = "celluloid-0.30-1.3.aarch64.rpm"
+RPM_HASH = "e5b7571e3ee6affecd91079e1e3458304f1d95139e976497a4250a8ec7d2758344634e617ccd89a901bb6e36a97bf54e2f183e7d7158b972b99072e4ec6ae87b"
 
 RPROVIDES:${PN} += "celluloid \
 gnome-mpv"
@@ -19,8 +19,6 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-4.so.1 \
-libm.so.6 \
-libmpv.so.2 \
-libpango-1.0.so.0"
+libmpv.so.2"
 
 inherit rpm

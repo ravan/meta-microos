@@ -12,10 +12,10 @@ Brasero is capable of copying CDs/DVDs to an image file on disk and \
 vice-versa. BIN/CUE is supported."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.12.3"
+PV = "3.12.3+43"
 
-RPM_NAME = "brasero-3.12.3-2.8.aarch64.rpm"
-RPM_HASH = "6c79d15be328d1c0bbe71a1eb0ed0e63253ef8b003ee4f74dfdce43fcc62ed99186ddef3714a7a1152f85b15c0cd65eaa3776cd62f0660493720ea49df21fbc9"
+RPM_NAME = "brasero-3.12.3+43-3.3.aarch64.rpm"
+RPM_HASH = "7dc94df767208b5719f3bba60bc851e6e033ee318abb0d067c230886e81c67635ae90f9b97d331a521e8773109c2eeb3572a1d6b69d561820d4c12b81e7a1bd2"
 
 RPROVIDES:${PN} += "brasero \
 brasero-doc \
@@ -72,8 +72,8 @@ libgthread-2.0.so.0 \
 libgtk-3.so.0 \
 libisofs.so.6 \
 libpango-1.0.so.0 \
+libtinysparql-3.0.so.0 \
 libtotem-plparser.so.18 \
-libtracker-sparql-3.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

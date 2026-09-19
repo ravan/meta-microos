@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ucdavisthesis"
 DESCRIPTION = "This package includes the documentation for texlive-ucdavisthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn40772"
+PV = "2026.226.1.3svn40772"
 
-RPM_NAME = "texlive-ucdavisthesis-doc-2023.209.1.3svn40772-53.1.noarch.rpm"
-RPM_HASH = "8e76340a0f270cbed4e176f7c62f7f77c010c52b07950ba7048c6a76ed57d50b5036b2f1941f0b865c57a504522ff181441935f1b87e84cc85dc904ca3019fc7"
+RPM_NAME = "texlive-ucdavisthesis-doc-2026.226.1.3svn40772-59.2.noarch.rpm"
+RPM_HASH = "f766d2717ad05e29f61627608c000c849a91e512c199955762107e8588211bd36df32a748583beed5a6f9fbdd2629ec656ceb518d4d1af6cef912820ee51b6c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ucdavisthesis-doc"

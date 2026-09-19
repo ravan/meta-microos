@@ -3,18 +3,19 @@ DESCRIPTION = "Evolution Data Server provides a central location for your addres
 and calendar in the GNOME Desktop."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.4"
+PV = "3.60.2"
 
-RPM_NAME = "typelib-1_0-ECal-2_0-3.48.4-1.1.aarch64.rpm"
-RPM_HASH = "67a6e39b0c034f1eabb759c77b1dd46eb88d283649aa0028a924637e79298f5bba84c4fc45f35f837e7ff7e2104bdca501cbc5172902859eae4a0275d9295e60"
+RPM_NAME = "typelib-1_0-ECal-2_0-3.60.2-3.1.aarch64.rpm"
+RPM_HASH = "2dd5f9b2be5fe95fdb8e10edb5a83b02d3b462e0cb3aa9c2da6cd3e6d4ae8dcb0f42730e4cc9daeff30a014d5a25504615c1e722d8935da39241d49f60a681a1"
 
 RPROVIDES:${PN} += "typelib-1-0-ECal-2-0 \
 typelib-ECal"
 
-RDEPENDS:${PN} += "libecal-2.0.so.2 \
+RDEPENDS:${PN} += "libecal-2.0.so.3 \
 typelib-Camel \
 typelib-EDataServer \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio \
 typelib-ICalGLib \

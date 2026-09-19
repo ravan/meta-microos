@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "libtntdb5-1.4-1.13.aarch64.rpm"
-RPM_HASH = "c4798372815c386e325c08ae12cd6a329d3c899896caa3c022c0610a5cd7c4046f3fe8ecfeeaafe98f11797e9d8b0d3036bc8cb22dac3d5749950fe724d80d09"
+RPM_NAME = "libtntdb5-1.4-1.22.aarch64.rpm"
+RPM_HASH = "b8e7e38ca7888213da993ade18ccfe16191f255c37b5b44e012998166434decdad611c8d6b7f70115da5092afbc62e9f5571556c22a9e12ed25aec75d7b257ba"
 
 RPROVIDES:${PN} += "libtntdb.so.5 \
 libtntdb5 \

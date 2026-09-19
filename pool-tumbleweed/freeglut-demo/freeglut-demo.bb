@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "3.2.2"
 
-RPM_NAME = "freeglut-demo-3.2.2-1.8.aarch64.rpm"
-RPM_HASH = "964ee7c049e1a3af1693968ef98b8e5654bb708554af3ec47eca58d8628cfe8ba8e7e24dc76e8a92fcbaad17256ff69ed9cbbbc7dd68e92ba9f57c45bed1b7b2"
+RPM_NAME = "freeglut-demo-3.2.2-2.6.aarch64.rpm"
+RPM_HASH = "f1351e9f1abc124abf386b0dda772037fd71725fa9fa9e87c49553927221b5610b664577c34ad8f8a38bf98d1a14a47d9f4bdbf8f39557598039f68d7315412b"
 
 RPROVIDES:${PN} += "freeglut-demo"
 

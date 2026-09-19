@@ -4,10 +4,10 @@ It can blank CD-RWs, burn and create iso images, as well as burn personal \
 compositions of data to either CD or DVD."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7.0"
+PV = "0.8.0"
 
-RPM_NAME = "xfburn-0.7.0-1.4.aarch64.rpm"
-RPM_HASH = "c8e1e74cab208fa1b05748e1b5f39c616500fad6f2cbd910d24485af30b6eeb74e9fc36855eea72d7dba9474795983150d4ad9074e52e61d9789a366acee15af"
+RPM_NAME = "xfburn-0.8.0-1.6.aarch64.rpm"
+RPM_HASH = "41c4efb2ccb72e075aaf37d22962412bd6a558d4d7afe88faa78423d3b751dcd05d2486543a20a79af1fba36fb61ae1cf04790975c0fe311324db0847305b078"
 
 RPROVIDES:${PN} += "xfburn"
 

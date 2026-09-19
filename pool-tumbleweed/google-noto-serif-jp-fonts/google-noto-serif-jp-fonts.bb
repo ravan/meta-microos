@@ -1,21 +1,28 @@
-SUMMARY = "Noto Serif Japanese Font - Regular and Bold"
+SUMMARY = "Noto Serif Japanese Font"
 DESCRIPTION = "Noto's design goal is to achieve visual harmonization (e.g., compatible \
 heights and stroke thicknesses) across languages. This package contains \
-Regular and Bold weights of Serif font for Japanese, hinted."
+Serif font for Japanese, hinted and variable."
 LICENSE = "OFL-1.1"
 
-PV = "2.001"
+PV = "2.002"
 
-RPM_NAME = "google-noto-serif-jp-fonts-2.001-2.3.noarch.rpm"
-RPM_HASH = "31a55ae772df8b432341fc5e38a8931e2908e838d9b34b9577837cf4570fb81b01ca61388e13c2d08ee4fca384d2984cb38bd9e0bac0118a0a098abf8408a968"
+RPM_NAME = "google-noto-serif-jp-fonts-2.002-1.7.noarch.rpm"
+RPM_HASH = "8ae07609e5a2971c671483ec591a776996f753bec88d03b3b828c9f76049be504daed76212df3504606d5e7dbbae3056a234cc0efa10f133fa27d13417e95044"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "google-noto-serif-jp-fonts \
+RPROVIDES:${PN} += "google-noto-serif-jp-black-fonts \
+google-noto-serif-jp-bold-fonts \
+google-noto-serif-jp-extralight-fonts \
+google-noto-serif-jp-fonts \
+google-noto-serif-jp-fonts-full \
+google-noto-serif-jp-light-fonts \
+google-noto-serif-jp-medium-fonts \
+google-noto-serif-jp-regular-fonts \
+google-noto-serif-jp-semibold-fonts \
 locale-ja \
 noto-serif-jp-fonts \
 scalable-font-ja"
 
-RDEPENDS:${PN} += "google-noto-serif-jp-bold-fonts \
-google-noto-serif-jp-regular-fonts"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

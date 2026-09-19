@@ -4,10 +4,10 @@ style and offers several enhancements. It is compatible with \
 the hyperref, url, natbib, and cite packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn66115"
+PV = "2026.226.1.3svn76790"
 
-RPM_NAME = "texlive-alpha-persian-2023.209.1.3svn66115-55.1.noarch.rpm"
-RPM_HASH = "98a984e292a1589a6847d7fe89e6eeac6120d9744d0a0439948742f600a9a72bbf711d23b7858bc3e36387797871418d2ba4cb4f82f86a56fc7b91cec4746c3a"
+RPM_NAME = "texlive-alpha-persian-2026.226.1.3svn76790-61.2.noarch.rpm"
+RPM_HASH = "261612438464ddc50c4bfe479202cfd4059c632c06674a65ae14a82e54d4db8ff2312fbe5c3b06f08de0e40e70df7df8516f0955b2a36492c359db075eac6692"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alpha-persian"

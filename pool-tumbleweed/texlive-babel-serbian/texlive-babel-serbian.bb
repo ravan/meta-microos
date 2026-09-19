@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides support for Serbian documents written in \
 Latin, in babel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2asvn64571"
+PV = "2026.226.2.2asvn64571"
 
-RPM_NAME = "texlive-babel-serbian-2023.209.2.2asvn64571-54.1.noarch.rpm"
-RPM_HASH = "46fa3dafc5dd4d628647ce64771239f11f775a931bdaf5ccf6db24dd6c06a9e67a976eebaccf27d0b795b39d1cb248a4fd83890d4a8d74a68c87baf08b127cab"
+RPM_NAME = "texlive-babel-serbian-2026.226.2.2asvn64571-60.2.noarch.rpm"
+RPM_HASH = "5858652ce6322193479ba75d787f5785f771e8ed6dbedd8b92656320f9a605d76417be40570285a8c90f69e8822c9b2bf68a58410143437691a46a446c35d208"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-serbian.ldf \

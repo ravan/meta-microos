@@ -20,10 +20,10 @@ errors: \
  * Unusual pointer arithmetic"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.10.3"
+PV = "2.21.0"
 
-RPM_NAME = "cppcheck-2.10.3-3.1.aarch64.rpm"
-RPM_HASH = "5e8cf8727590873c4317e96b1bf351b504af7b417f84c4fa90436e7c5c7d2aa412a9902f1f7ba5b48cae596bd47ad373dde2284f99bab0ecb285e7fea9c97e1e"
+RPM_NAME = "cppcheck-2.21.0-1.2.aarch64.rpm"
+RPM_HASH = "bd42a4a105b30ca616060dffd2d38ee39e1fa579e35491a1028d910384b5b785f6bc2f639bd566f99a16f05c5a1863d0754976f25fe032bc09ec71392c7a5666"
 
 RPROVIDES:${PN} += "cppcheck"
 
@@ -32,7 +32,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpcre.so.1 \
 libstdc++.so.6 \
 python3-Pygments"
 

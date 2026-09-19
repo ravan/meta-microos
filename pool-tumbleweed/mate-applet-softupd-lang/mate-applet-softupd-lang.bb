@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.8"
 
-RPM_NAME = "mate-applet-softupd-lang-0.4.8-1.9.noarch.rpm"
-RPM_HASH = "b7fadf49a3bade8da001690f4ad61c8c1b8cdab566cd76a8fe20dc7206afa5f7cf100b935c98b353feaff0d2a929352b8e24a9f8fbaf2b9acaa21125417ce590"
+RPM_NAME = "mate-applet-softupd-lang-0.4.8-1.20.noarch.rpm"
+RPM_HASH = "f262eabc70e8c96eeb2fcf3d014502665e5354d4420887d046bc19d9ef67a731d6dfb58cdf4bfa73ed7ea8646af5cb8530d9a9c53f4b7885ed5cdf6adad966cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-applet-softupd-en-GB \

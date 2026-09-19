@@ -2,16 +2,20 @@ SUMMARY = "Mathematics, natural sciences, computer science packages"
 DESCRIPTION = "The collection-mathscience package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn65753"
+PV = "2026.222.svn77561"
 
-RPM_NAME = "texlive-collection-mathscience-2023.208.svn65753-60.1.noarch.rpm"
-RPM_HASH = "30217701776ca4b5b505ed9a6bcd496483a99e2b189ba0d095b0bef5446a58b9d793c67af13592703890b1208205affa0a625b36ba0cdfde8002b6f5ec45c7b1"
+RPM_NAME = "texlive-collection-mathscience-2026.222.svn77561-68.2.noarch.rpm"
+RPM_HASH = "3a653172a8fa3f5ed89d6aebd6491973cec9766335733ba9df25c0dc759c36e2a084f13f6560de75deebd5979f5952b8aca8c4a382126a9b163350583f99d817"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-mathscience"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-mathscience \
+texlive-collection-mathscience"
 
 RDEPENDS:${PN} += "texlive-12many \
 texlive-accents \
+texlive-aiplans \
 texlive-alg \
 texlive-algobox \
 texlive-algorithm2e \
@@ -24,6 +28,8 @@ texlive-amscdx \
 texlive-amstex \
 texlive-annotate-equations \
 texlive-apxproof \
+texlive-aspen \
+texlive-atableau \
 texlive-autobreak \
 texlive-axodraw2 \
 texlive-backnaur \
@@ -36,8 +42,11 @@ texlive-bohr \
 texlive-boldtensors \
 texlive-bosisio \
 texlive-bpchem \
+texlive-bracealign \
 texlive-bropd \
+texlive-broydensolve \
 texlive-bussproofs \
+texlive-bussproofs-colorful \
 texlive-bussproofs-extra \
 texlive-bytefield \
 texlive-calculation \
@@ -51,6 +60,7 @@ texlive-chemcompounds \
 texlive-chemcono \
 texlive-chemexec \
 texlive-chemformula \
+texlive-chemformula-ru \
 texlive-chemgreek \
 texlive-chemmacros \
 texlive-chemnum \
@@ -64,16 +74,21 @@ texlive-clrscode3e \
 texlive-codeanatomy \
 texlive-collection-fontsrecommended \
 texlive-collection-latex \
+texlive-coloredtheorem \
 texlive-commath \
 texlive-commutative-diagrams \
 texlive-complexity \
+texlive-complexpolylongdiv \
 texlive-computational-complexity \
 texlive-concmath \
 texlive-concrete \
 texlive-conteq \
+texlive-cora-macs \
 texlive-correctmathalign \
 texlive-cryptocode \
+texlive-cs-techrep \
 texlive-csassignments \
+texlive-csthm \
 texlive-cvss \
 texlive-decision-table \
 texlive-delim \
@@ -83,6 +98,7 @@ texlive-derivative \
 texlive-diffcoeff \
 texlive-digiconfigs \
 texlive-dijkstra \
+texlive-domaincoloring \
 texlive-drawmatrix \
 texlive-drawstack \
 texlive-dyntree \
@@ -96,17 +112,23 @@ texlive-engtlc \
 texlive-eolang \
 texlive-eqexpl \
 texlive-eqnarray \
+texlive-eqnlines \
 texlive-eqnnumwarn \
+texlive-euclidean-lattice \
 texlive-euclideangeometry \
 texlive-extarrows \
 texlive-extpfeil \
 texlive-faktor \
 texlive-fascicules \
+texlive-fitch \
 texlive-fixdif \
 texlive-fixmath \
 texlive-fnspe \
+texlive-fodot \
 texlive-formal-grammar \
 texlive-fouridx \
+texlive-freealign \
+texlive-freemath \
 texlive-functan \
 texlive-galois \
 texlive-gastex \
@@ -118,29 +140,40 @@ texlive-grundgesetze \
 texlive-gu \
 texlive-helmholtz-ellis-ji-notation \
 texlive-hep \
+texlive-hep-graphic \
 texlive-hep-reference \
 texlive-hepnames \
 texlive-hepparticles \
 texlive-hepthesis \
 texlive-hepunits \
+texlive-hideproofs \
 texlive-ibrackets \
 texlive-includernw \
 texlive-interval \
+texlive-intexgral \
 texlive-ionumbers \
 texlive-isomath \
+texlive-isphysicalmath \
 texlive-jkmath \
 texlive-jupynotex \
 texlive-karnaugh \
 texlive-karnaugh-map \
 texlive-karnaughmap \
+texlive-keytheorems \
 texlive-kvmap \
 texlive-letterswitharrows \
 texlive-lie-hasse \
+texlive-linearregression \
+texlive-linkedthm \
 texlive-logicproof \
+texlive-logictools \
 texlive-longdivision \
 texlive-lpform \
 texlive-lplfitch \
 texlive-lstbayes \
+texlive-lua-regression \
+texlive-luanumint \
+texlive-math-operator \
 texlive-mathcommand \
 texlive-mathcomp \
 texlive-mathfixs \
@@ -152,6 +185,7 @@ texlive-matlab-prettifier \
 texlive-matrix-skeleton \
 texlive-mattens \
 texlive-mecaso \
+texlive-medmath \
 texlive-membranecomputing \
 texlive-memorygraphs \
 texlive-messagepassing \
@@ -160,6 +194,7 @@ texlive-mhchem \
 texlive-mhequ \
 texlive-miller \
 texlive-mismath \
+texlive-moremath \
 texlive-multiobjective \
 texlive-naive-ebnf \
 texlive-namedtensor \
@@ -169,10 +204,12 @@ texlive-nchairx \
 texlive-nicematrix \
 texlive-nuc \
 texlive-nucleardata \
+texlive-numbersets \
 texlive-numerica \
 texlive-numerica-plus \
 texlive-numerica-tables \
 texlive-objectz \
+texlive-odesandpdes \
 texlive-oplotsymbl \
 texlive-ot-tableau \
 texlive-oubraces \
@@ -182,10 +219,13 @@ texlive-perfectcut \
 texlive-pfdicons \
 texlive-physconst \
 texlive-physics \
+texlive-physics-patch \
 texlive-physics2 \
+texlive-physics3 \
 texlive-physunits \
 texlive-pinoutikz \
 texlive-pm-isomath \
+texlive-pmdraw \
 texlive-polexpr \
 texlive-prftree \
 texlive-principia \
@@ -196,19 +236,28 @@ texlive-pseudo \
 texlive-pseudocode \
 texlive-pythonhighlight \
 texlive-qsharp \
+texlive-quantikz \
+texlive-quantum-chemistry-bonn \
+texlive-quantumcubemodel \
+texlive-quickreaction \
+texlive-quiver \
+texlive-qworld \
 texlive-rank-2-roots \
 texlive-rbt-mathnotes \
 texlive-rec-thy \
+texlive-reptheorem \
 texlive-resolsysteme \
 texlive-rest-api \
 texlive-revquantum \
 texlive-ribbonproofs \
+texlive-rigidnotation \
 texlive-rmathbr \
 texlive-sankey \
 texlive-sasnrdisplay \
 texlive-sciposter \
 texlive-sclang-prettifier \
 texlive-scratchx \
+texlive-seqcalc \
 texlive-sesamanuel \
 texlive-sfg \
 texlive-shuffle \
@@ -230,6 +279,7 @@ texlive-statistik \
 texlive-statmath \
 texlive-steinmetz \
 texlive-stmaryrd \
+texlive-string-diagrams \
 texlive-structmech \
 texlive-struktex \
 texlive-substances \
@@ -240,14 +290,18 @@ texlive-syllogism \
 texlive-synproof \
 texlive-t-angles \
 texlive-tablor \
+texlive-temporal-logic \
 texlive-tensind \
 texlive-tensor \
+texlive-tensormatrix \
 texlive-tex-ewd \
 texlive-textgreek \
 texlive-textopo \
 texlive-thermodynamics \
 texlive-thmbox \
+texlive-thmtools \
 texlive-tiscreen \
+texlive-tkz-interval \
 texlive-turnstile \
 texlive-ulqda \
 texlive-unitsdef \
@@ -258,6 +312,7 @@ texlive-yhmath \
 texlive-youngtab \
 texlive-yquant \
 texlive-ytableau \
+texlive-zeckendorf \
 texlive-zx-calculus"
 
 inherit rpm

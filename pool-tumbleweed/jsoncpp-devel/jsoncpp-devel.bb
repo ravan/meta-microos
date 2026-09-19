@@ -8,15 +8,16 @@ existing comment in unserialization/serialization steps, making it a convenient 
 format to store user input files."
 LICENSE = "MIT"
 
-PV = "1.9.5"
+PV = "1.9.8"
 
-RPM_NAME = "jsoncpp-devel-1.9.5-2.4.aarch64.rpm"
-RPM_HASH = "f2f05c5266dc062d65f1c51ffe676b7293f2add0a7ec8b9ba1ae7e05cc7441927d07a53accbfc74aaec52728d0144d46ea0e01cf1874b75ceaff4f418a7e924d"
+RPM_NAME = "jsoncpp-devel-1.9.8-2.3.aarch64.rpm"
+RPM_HASH = "deadb176cdcbb4f6c59b93d5e4b9959d21da7d0ea9d95cd03c4c8ebe2ea652b0f6642139498027cc76660752eea452ee86a5826116ab9e4020f98c388d8272c6"
 
-RPROVIDES:${PN} += "jsoncpp-devel \
+RPROVIDES:${PN} += "cmake-jsoncpp \
+jsoncpp-devel \
 pkgconfig-jsoncpp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libjsoncpp25"
+libjsoncpp27"
 
 inherit rpm

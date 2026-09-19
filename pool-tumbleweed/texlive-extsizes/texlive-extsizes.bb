@@ -6,10 +6,10 @@ be used with nonstandard document classes. But it cannot be \
 guaranteed to work with any given class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4asvn17263"
+PV = "2026.226.1.4asvn78101"
 
-RPM_NAME = "texlive-extsizes-2023.209.1.4asvn17263-53.1.noarch.rpm"
-RPM_HASH = "b5f6bc8b55980f1e66c94df4099e30b141db1b9ca3f6681de67ff8a86c84a1a75985d67d5aa0d1376c59c055d4dfc84f82c53ad06cf06b31cae3fe2c03906d06"
+RPM_NAME = "texlive-extsizes-2026.226.1.4asvn78101-59.2.noarch.rpm"
+RPM_HASH = "890922b86482ec200fa3293489b635908c99e32058e4bfc0a3bae0082741ddafb07d3590690f9ac30741d60d0a5d021b26b89e5606d947d52cd3a737f99ec3dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autopagewidth.sty \

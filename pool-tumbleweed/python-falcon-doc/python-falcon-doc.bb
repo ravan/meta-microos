@@ -2,16 +2,15 @@ SUMMARY = "Documentation files for python-falcon"
 DESCRIPTION = "HTML documentation including API documentation and changelog for python-falcon."
 LICENSE = "Apache-2.0"
 
-PV = "3.1.1"
+PV = "4.3.1"
 
-RPM_NAME = "python-falcon-doc-3.1.1-2.3.noarch.rpm"
-RPM_HASH = "3d7868e4c2068c770c2623e86e2c0f21edbc4c8af5bfc679cd8785f62494ee451699f87c8d1b931fb9fec58f8d6cd1485bac61a5341bcc38cb7d1dbabf5da6a8"
+RPM_NAME = "python-falcon-doc-4.3.1-1.1.noarch.rpm"
+RPM_HASH = "d8939d13b5ecccdfdc2d1cc3c384b4090242fa81afc4152d9535e743d3a69cfdb47e51b28af38b0840279039e282345bf4c7789b3022ffb6f410be7b86ca85f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-falcon-doc \
-python310-falcon-doc \
-python311-falcon-doc \
-python39-falcon-doc"
+python313-falcon-doc \
+python314-falcon-doc"
 
 RDEPENDS:${PN} += ""
 

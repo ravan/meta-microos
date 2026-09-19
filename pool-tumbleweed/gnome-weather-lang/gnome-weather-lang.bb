@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-weather"
 DESCRIPTION = "Provides translations for the 'gnome-weather' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-weather-lang-44.0-2.1.noarch.rpm"
-RPM_HASH = "b001265211949f8db134b3944e63511ee880f9385dd037175cdec6c8278cb4aac6c7dc2d8225854997d309995fcc9e546eb4851cd9ac4a20732e8a617d1d57c1"
+RPM_NAME = "gnome-weather-lang-50.0-1.2.noarch.rpm"
+RPM_HASH = "8ff01962bdab03535b5f97e04e807aab18e981411a5f59a50aec24bb710894cd7713cfe60d67ff7c97f344200a6917b92ca792d1b908b75ef1567255683acf09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-weather-lang \
@@ -13,8 +13,11 @@ gnome-weather-lang-all \
 locale-gnome-weather-af \
 locale-gnome-weather-ar \
 locale-gnome-weather-as \
+locale-gnome-weather-az \
 locale-gnome-weather-be \
+locale-gnome-weather-be@latin \
 locale-gnome-weather-bg \
+locale-gnome-weather-bn \
 locale-gnome-weather-bn-IN \
 locale-gnome-weather-bs \
 locale-gnome-weather-ca \
@@ -35,10 +38,12 @@ locale-gnome-weather-fur \
 locale-gnome-weather-ga \
 locale-gnome-weather-gd \
 locale-gnome-weather-gl \
+locale-gnome-weather-gu \
 locale-gnome-weather-he \
 locale-gnome-weather-hi \
 locale-gnome-weather-hr \
 locale-gnome-weather-hu \
+locale-gnome-weather-ia \
 locale-gnome-weather-id \
 locale-gnome-weather-is \
 locale-gnome-weather-it \
@@ -54,6 +59,7 @@ locale-gnome-weather-ms \
 locale-gnome-weather-nb \
 locale-gnome-weather-ne \
 locale-gnome-weather-nl \
+locale-gnome-weather-nn \
 locale-gnome-weather-oc \
 locale-gnome-weather-pa \
 locale-gnome-weather-pl \
@@ -70,6 +76,7 @@ locale-gnome-weather-ta \
 locale-gnome-weather-te \
 locale-gnome-weather-th \
 locale-gnome-weather-tr \
+locale-gnome-weather-ug \
 locale-gnome-weather-uk \
 locale-gnome-weather-vi \
 locale-gnome-weather-zh-CN \

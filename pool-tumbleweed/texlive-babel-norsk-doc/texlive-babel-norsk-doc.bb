@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-norsk"
 DESCRIPTION = "This package includes the documentation for texlive-babel-norsk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0isvn65093"
+PV = "2026.226.2.0ksvn77682"
 
-RPM_NAME = "texlive-babel-norsk-doc-2023.209.2.0isvn65093-54.1.noarch.rpm"
-RPM_HASH = "3ed0e1c6b36451f781c0d5acf34f06ddea6902e45d2e4c081d236b22bc70ec6951f127a459a6573e3a12ed9e668cfb1463eb73fa441b21b9264ea1f685ed90f4"
+RPM_NAME = "texlive-babel-norsk-doc-2026.226.2.0ksvn77682-60.2.noarch.rpm"
+RPM_HASH = "5cd81dc9e5080e593eb516f029d0bb1823fda5dbf58e6830d8b30fa38bdd7e6fcd7f5e435012425b78bb2e9dedb891a0f0c57ed6ce1003e1de3e508a1508d4ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-norsk-doc"

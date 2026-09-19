@@ -6,10 +6,10 @@ Consistent style for figures, tables, mathematical theorems, \
 definitions, lemmas, etc."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn43058"
+PV = "2026.226.svn43058"
 
-RPM_NAME = "texlive-simple-thesis-dissertation-2023.209.svn43058-54.1.noarch.rpm"
-RPM_HASH = "f2e0518d7b85d104039cd0e08caf0cd617381865a9d2f105be796b8ca5037f4286a6ed375295c2fa3c3aef4a274e55a3c959e363b11b67d5f76a1a0dd1e9511e"
+RPM_NAME = "texlive-simple-thesis-dissertation-2026.226.svn43058-60.2.noarch.rpm"
+RPM_HASH = "95627fc88752f40ee3e180a48d27c937fe4cdf0b6e3862b3c4bd1785706c442c8516f745b692dae85b19727e4ce06250ea36fbdac96d7df2773b6941c3a45dcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simplethesisdissertation.cls \

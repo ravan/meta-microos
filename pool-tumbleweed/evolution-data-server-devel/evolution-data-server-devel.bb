@@ -5,10 +5,10 @@ use the Evolution Data Server for storing contact and calendar \
 information."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.4"
+PV = "3.60.2"
 
-RPM_NAME = "evolution-data-server-devel-3.48.4-1.1.aarch64.rpm"
-RPM_HASH = "ff7d42642fc3f9b7848035fd11c64909c51fdeaef055ec1d4f0857af78aaab9fae9b6c6d35bf2332e9f2a5b63569fcce7801d8926ef09f202b6327ed2f08ff02"
+RPM_NAME = "evolution-data-server-devel-3.60.2-3.1.aarch64.rpm"
+RPM_HASH = "acaa1064b5fcf6408440e3d6a133d1a083d0e8ad46d28486863127bc025b90fea63297a820cfed623cc7321e54c6d5ad07e7f2695678f6674568f3c727443151"
 
 RPROVIDES:${PN} += "evolution-data-server-devel \
 pkgconfig-camel-1.2 \
@@ -25,11 +25,11 @@ pkgconfig-libedataserverui4-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 evolution-data-server \
-libcamel-1-2-64 \
+libcamel-1-2-67 \
 libebackend-1-2-11 \
 libebook-1-2-21 \
-libebook-contacts-1-2-4 \
-libecal-2-0-2 \
+libebook-contacts-1-2-5 \
+libecal-2-0-3 \
 libedata-book-1-2-27 \
 libedata-cal-2-0-2 \
 libedataserver-1-2-27 \

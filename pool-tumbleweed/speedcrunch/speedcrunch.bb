@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12"
 
-RPM_NAME = "speedcrunch-0.12-2.1.aarch64.rpm"
-RPM_HASH = "f7fa4b548f3fb64cf010fde9e30ac323476b97409b98a6f40f25e027df75f2e35abfc22541d74dcfa0bbc4ba4558bd411298e43c1f394df3467e6e4ecd9bad75"
+RPM_NAME = "speedcrunch-0.12-3.6.aarch64.rpm"
+RPM_HASH = "6aee614b731a1aa9adb48adb4b3b5827c1d37d72fd30d2833e5595503f99b23e3c1ba768213add75a6ad62d63710f2bf4055e9f9470e7b2c64a85fc2e50a5fe0"
 
 RPROVIDES:${PN} += "speedcrunch"
 

@@ -6,16 +6,16 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libosmocore."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.14.2"
 
-RPM_NAME = "libosmocore-devel-1.8.0-1.2.aarch64.rpm"
-RPM_HASH = "8f41d4e8b4b6279fd3d129e037394433791ac49c3bf271d5aa350cb74c0e83d5a0702e6fb1c59174e5a7c1037dab8a4812869b3a7cebfef83586046f258e0872"
+RPM_NAME = "libosmocore-devel-1.14.2-1.1.aarch64.rpm"
+RPM_HASH = "43e0d618b8463e300d74a503ebe5cd87650e20d2c91b6702c831a689e844c40fe82a1fe380cc137ecb798fd1d7397e561d7c84cd463763d7737278fb16cb0d77"
 
 RPROVIDES:${PN} += "libosmocore-devel \
 pkgconfig-libosmocore"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libosmocore20 \
+libosmocore22 \
 libtalloc-devel \
 pkgconfig-libmnl \
 pkgconfig-libsctp \

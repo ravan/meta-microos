@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.2"
 
-RPM_NAME = "Cadence-0.9.2-2.1.aarch64.rpm"
-RPM_HASH = "203f191c00e32bc3fd30b8b1937115f43218fe828de89a275e4f9fd3e1d032f2dad52c8c408f04b15bac48f0706db722c04eb43f68ac0fe8f0b217750dac6893"
+RPM_NAME = "Cadence-0.9.2-2.10.aarch64.rpm"
+RPM_HASH = "fdc1d30e7b8074cafc049fa59cc74fc92618d1adfed21d2cbb35af77bb707749c1e3d0a6fed54f307e7fc487f2cb38de4fe37b0d801b1fc34e6607e3eee59e38"
 
 RPROVIDES:${PN} += "Cadence"
 

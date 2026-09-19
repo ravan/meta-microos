@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.14"
 
-RPM_NAME = "perl-UNIVERSAL-ref-0.14-1.15.aarch64.rpm"
-RPM_HASH = "5ce176159b3a466694828d3a6227de3c9d5cba0ddaaad0a9a0e4037dce3a9ce96d1e14852b3f2a835b37614b8e2af5e94b9551eb7066392ec55deb29091025ab"
+RPM_NAME = "perl-UNIVERSAL-ref-0.14-2.14.aarch64.rpm"
+RPM_HASH = "7e24971481e9fc84c076777d3d93fe61723ebad879493ccd7d638d6711c0490eff709381f752411b8e5b5748e0f097b41cf3dcd92e9b14689a9d1d810c0dd082"
 
 RPROVIDES:${PN} += "perl-UNIVERSAL--ref \
 perl-UNIVERSAL-ref"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-B--Utils"
 
 inherit rpm

@@ -1,14 +1,18 @@
 SUMMARY = "Network UPS Tools Library (Uninterruptible Power Supply Monitoring)"
-DESCRIPTION = "Shared library for the Network UPS Tools. \
+DESCRIPTION = "Shared stub library for the Network UPS Tools with memory-backed configurations, \
+primarily used by tests and mocks with its and third-party C++ clients. \
  \
 Network UPS Tools is a collection of programs which provide a common \
-interface for monitoring and administering UPS hardware."
+interface for monitoring and administering UPS hardware. \
+ \
+Detailed information about supported hardware can be found in \
+/usr/share/doc/packages/nut."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.8.0"
+PV = "2.8.5"
 
-RPM_NAME = "libnutclientstub1-2.8.0-4.1.aarch64.rpm"
-RPM_HASH = "bbe6c6674c8534f7a2e598db35b1d1378f4270a73ea6dbb6f48be5f8a91a11890240d667279cb8eb537a0e21215cc4cd7b3ac2883dcb39fda30846e8b18a4b85"
+RPM_NAME = "libnutclientstub1-2.8.5-2.2.aarch64.rpm"
+RPM_HASH = "45f77423173494a649858b5111b27ee52d8551300789c6e248c56493446e5fc51e43e4f50496c8712161f44da72627f1351e0f46b7be4b06b67cafdcf05dc26a"
 
 RPROVIDES:${PN} += "libnutclientstub.so.1 \
 libnutclientstub1"

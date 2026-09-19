@@ -10,10 +10,10 @@ This package provides the source files required for development \
 with rk."
 LICENSE = "X11"
 
-PV = "1.7"
+PV = "1.8"
 
-RPM_NAME = "rk-devel-1.7-2.8.aarch64.rpm"
-RPM_HASH = "fa0e739d0272cb03fd93206b15c7fad9e4fb06294611c5ca4b6ad5b6da0bfd7023bba8bd1bf7f605a33afcbc24fbc367d58af372b7457a062812d4dec58b629e"
+RPM_NAME = "rk-devel-1.8-1.11.aarch64.rpm"
+RPM_HASH = "9c61e7c3a45bade074add1ff000de2ec9e8e1fcc472021254c768ddba8b71e9e7cc54cea0a8599d290d321c1c0a78535ad5bb9a4ce42e556c156333424134858"
 
 RPROVIDES:${PN} += "pkgconfig-rk \
 rk-devel"

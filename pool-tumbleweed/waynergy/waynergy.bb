@@ -6,16 +6,16 @@ support and a bit of paranoia). \
 NOTE: See README.md for using uinput."
 LICENSE = "MIT"
 
-PV = "0.16+3"
+PV = "0.17+0"
 
-RPM_NAME = "waynergy-0.16+3-1.1.aarch64.rpm"
-RPM_HASH = "3013ae717a18bc6e6827cde2ead45d52b5df7e9e119cc0b9ca64eefe8e6c505290014f5b357f00d509364418aa8b3be5afb1de8919c4dcea1041d35b5f6f513f"
+RPM_NAME = "waynergy-0.17+0-1.13.aarch64.rpm"
+RPM_HASH = "ea8253e62c34aca6943210c5a353a181c6d69a05df25c6eb20f41ac0a96636f3ac78ea65bf9f88925f4aed1e688e7db44b1ce15370ae37ada1f60ae85bb37e66"
 
 RPROVIDES:${PN} += "waynergy"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libtls.so.26 \
+libtls.so.33 \
 libwayland-client.so.0 \
 libxkbcommon.so.0"
 

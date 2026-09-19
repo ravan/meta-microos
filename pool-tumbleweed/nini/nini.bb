@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "nini-1.1.0-14.17.noarch.rpm"
-RPM_HASH = "7a1b92f8522227ad18ff5f82f6a1d3f81dab1c63aab3ebe629bff3dd34a379977e87a83b37f989f06ce87f7a7564324f1c00584d05dff9f627b8a5beb8e1bd67"
+RPM_NAME = "nini-1.1.0-14.24.noarch.rpm"
+RPM_HASH = "73627a4186ea853560e129a0872642409c0e23e6df4c62da72d6ce53e330fd15ae9ce51cdb98b47789cfe8da80810fd0f68cf1a513b120d6bdcebe119163491f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-Nini \

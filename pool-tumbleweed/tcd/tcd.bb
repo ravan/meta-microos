@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "tcd-2.2.0-7.4.aarch64.rpm"
-RPM_HASH = "64760dec0e75223577ccc8ae3ce9b1d25ed2c7a76e5f30a0e779db26d34c146fcdf8d6b48d6c00c7589683da5be3fd34d52c32946f253dc3f0aa87760cb02aa2"
+RPM_NAME = "tcd-2.2.0-7.13.aarch64.rpm"
+RPM_HASH = "7e44d19423181208ee6e8df5055435af90a0802cf9fbc4bdd9e0e6b6190cb7a443499bf419bc6fe5d0a06b3caa2d0e0cdf138ea12f46c47c6987565eb3eacab8"
 
 RPROVIDES:${PN} += "tcd"
 

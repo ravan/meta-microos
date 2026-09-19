@@ -14,10 +14,10 @@ global coordinate systems is supported only partly as a gama-g3 \
 program."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.25"
+PV = "2.33"
 
-RPM_NAME = "gama-2.25-1.1.aarch64.rpm"
-RPM_HASH = "3fa491433f314cae1f826255ffae2c419c602331e42dd38e9c210be6353cf21c04abb19014571855ff25fdc78a0633f349d3dbe5354cd8c37d8963b344decab1"
+RPM_NAME = "gama-2.33-1.9.aarch64.rpm"
+RPM_HASH = "62633f6fd1e6f7561b73eff6dd636e790452205d986a15f9e83e09547cf23aebacf6cdded240bd293254b71338c2c60f9b2d41907b7f9574e4af3dcb748916c8"
 
 RPROVIDES:${PN} += "gama"
 
@@ -28,6 +28,7 @@ libgcc-s.so.1 \
 libm.so.6 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
-libxml2-tools"
+libxml2-tools \
+libyaml-cpp.so.0.9"
 
 inherit rpm

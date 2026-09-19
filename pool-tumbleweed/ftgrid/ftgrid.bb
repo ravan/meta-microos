@@ -3,10 +3,10 @@ DESCRIPTION = "Simple glyph grid viewer \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.1"
+PV = "2.14.3"
 
-RPM_NAME = "ftgrid-2.13.1-1.1.aarch64.rpm"
-RPM_HASH = "4b45c4a2d75cf266021ca8218d37b33bb4b4ff5f4220b9fe5a5740a91d85f6c060db33c113f07388bd0a237b4d2044e2f17032f178a8018994d5b7ba7a7c3064"
+RPM_NAME = "ftgrid-2.14.3-1.2.aarch64.rpm"
+RPM_HASH = "f1ed4bcaee32c7a740b545c64cb6f74e89670c561a647aeb07f41d1a47b5e9a04397f8323f8ae4c59c1ea8fc8055014bf61d3ae2ce3352792c26aa2742472e7f"
 
 RPROVIDES:${PN} += "ftgrid"
 
@@ -16,6 +16,7 @@ libc.so.6 \
 libcairo.so.2 \
 libfreetype.so.6 \
 libgobject-2.0.so.0 \
+libm.so.6 \
 libpng16.so.16 \
 librsvg-2.so.2"
 

@@ -6,8 +6,8 @@ LICENSE = "MPL-1.1"
 
 PV = "1.0.6"
 
-RPM_NAME = "libchardet-devel-1.0.6-1.7.aarch64.rpm"
-RPM_HASH = "446303ee2b94e7f35be4831aa7a8dda57c578867d8c8f550f0e5428eb20a340b7fca473187c12d7e675b29417b839d65120feb2bd21fcf229e86529d7e4ba47d"
+RPM_NAME = "libchardet-devel-1.0.6-2.7.aarch64.rpm"
+RPM_HASH = "2f60750fcd849cb9bc7ebf741ac137dcc516816e1e925db689dc34269867da3987347c4c9b78579b7fe96cabe49aa3eb66e140cfea3f0decdabe7e715fec8913"
 
 RPROVIDES:${PN} += "libchardet-devel \
 pkgconfig-chardet"

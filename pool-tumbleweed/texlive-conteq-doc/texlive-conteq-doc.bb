@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-conteq"
 DESCRIPTION = "This package includes the documentation for texlive-conteq"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.1svn37868"
+PV = "2026.226.0.0.1.1svn37868"
 
-RPM_NAME = "texlive-conteq-doc-2023.209.0.0.1.1svn37868-55.1.noarch.rpm"
-RPM_HASH = "59f8a4b0d165c84044894683f0b83cfab7d6fa7caf62aa50463f37cd15f6b123b3b8d123b51211f2a6ddd04b72505773d3c0ae836b7bcbdc78c382f4e39ba0cc"
+RPM_NAME = "texlive-conteq-doc-2026.226.0.0.1.1svn37868-61.2.noarch.rpm"
+RPM_HASH = "c53191954e46c7f2acf2431f27bcceb56b33c57eb225927b0ff3088f6f11c0589b36222613add19a3698896666a580dece7c163e3102ff791eb350bf7da924db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-conteq-doc"

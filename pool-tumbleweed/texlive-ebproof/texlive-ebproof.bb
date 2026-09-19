@@ -8,10 +8,10 @@ inference rules, placement of labels, etc. The package requires \
 expl3 and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.1svn57544"
+PV = "2026.226.2.1.1svn77682"
 
-RPM_NAME = "texlive-ebproof-2023.209.2.1.1svn57544-54.2.noarch.rpm"
-RPM_HASH = "229ad4dd3a8dfeb0175e7e6cf0abec7632a504420aca171da2397957e709f29596028396bfeccb91c7db03bc6c85378e3c60ed38a61861df112b28a369318353"
+RPM_NAME = "texlive-ebproof-2026.226.2.1.1svn77682-61.4.noarch.rpm"
+RPM_HASH = "8250a3959f88a5619fa92ddc57fdd5f0094312fb0a1f062d8dd222b71e53b8e9ddba67ac8a3973d5e62c6096fb695fdfe43371c754f73308923d2380186632e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ebproof.sty \

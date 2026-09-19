@@ -5,10 +5,10 @@ numbers generated from hidden processor state. \
 For more information, see http://www.issihosts.com/haveged/ ."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.9.18"
+PV = "1.9.21"
 
-RPM_NAME = "haveged-1.9.18-2.4.aarch64.rpm"
-RPM_HASH = "24fdaa62b7e7acd871b5a4398e55f166d83b1aa2e4a9e20bc08e613d320dbd043691a8f23d4f6949893d9dc370dbcaf59aaf9949973938ad6cdc7fc6bca0e310"
+RPM_NAME = "haveged-1.9.21-1.3.aarch64.rpm"
+RPM_HASH = "7c9b485e62b0a53dd9a1b954e79225542a30d24e2e07cb94d2de25d548f8d558482f1fcf452e8f3d90d2bdd769cc2bda7b1ffbddf64a96411cabe568923431ea"
 
 RPROVIDES:${PN} += "haveged"
 

@@ -5,10 +5,10 @@ achieved via plain text file and extending i3 is possible using its \
 Unix domain socket and JSON based IPC interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.22"
+PV = "4.25.1"
 
-RPM_NAME = "i3-4.22-1.4.aarch64.rpm"
-RPM_HASH = "02a84fed05e469e547cb35167d2a65d3988a022d9ca4515694b2a3c8b2de56c7d4aef70b117d406f0f4e0dd776b1faa3bcdedd3cb0ad8f8aaff3b0aec71d806e"
+RPM_NAME = "i3-4.25.1-1.6.aarch64.rpm"
+RPM_HASH = "a283e07f484316827fdc212733eaa58562b7fb9cf4121337fe44d418a19b4edb671a37dd3a817546632b0dfa0e4063c3aa91d9accbb17f6db1fb0d75c08bc79f"
 
 RPROVIDES:${PN} += "config-i3 \
 i3 \

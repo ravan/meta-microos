@@ -2,10 +2,10 @@ SUMMARY = "Translations for package easytag"
 DESCRIPTION = "Provides translations for the 'easytag' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4.3"
+PV = "2.4.3+173"
 
-RPM_NAME = "easytag-lang-2.4.3-7.5.noarch.rpm"
-RPM_HASH = "7791cbef6ac45fc75e8bd48e623e1b3ad207c067be8c8fe94dfead0fa01aee7cb2e6a313f2dd620333bbd293fbe92dff7d82fed776eaf919adf17d83d760db10"
+RPM_NAME = "easytag-lang-2.4.3+173-1.3.noarch.rpm"
+RPM_HASH = "bda086dbbaa0f6272342b2f994a5de3ab5bd06c2299189f275aa809f2c10007ec9607fbea00b0ba9ec3cf5e332713c6f17febcda2ac595cd4370420a25dd3b8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "easytag-lang \
@@ -19,13 +19,17 @@ locale-easytag-de \
 locale-easytag-el \
 locale-easytag-en-GB \
 locale-easytag-es \
+locale-easytag-eu \
 locale-easytag-fr \
 locale-easytag-he \
+locale-easytag-hi \
 locale-easytag-hr \
 locale-easytag-hu \
 locale-easytag-id \
 locale-easytag-it \
 locale-easytag-ja \
+locale-easytag-ka \
+locale-easytag-kk \
 locale-easytag-ko \
 locale-easytag-lt \
 locale-easytag-nb \

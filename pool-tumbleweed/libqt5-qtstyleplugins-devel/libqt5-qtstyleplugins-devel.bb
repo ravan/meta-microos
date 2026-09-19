@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "5.0.0+git20170311"
 
-RPM_NAME = "libqt5-qtstyleplugins-devel-5.0.0+git20170311-10.12.aarch64.rpm"
-RPM_HASH = "5df2cf7b452a83466a83387e8f6fa450f50be0c84e48e0016364aa7079df69b32fda403a46935e3147c39871979acb0075d3d30458635bf72c4d2c3a095a19c2"
+RPM_NAME = "libqt5-qtstyleplugins-devel-5.0.0+git20170311-10.34.aarch64.rpm"
+RPM_HASH = "dfe219bf219b1d70274c232f1df0bc807900800713c6cba722d56a3d9ba5466375e4c62c4e10b21ece614fe2815a9f3f34dd4bc5b15c75611140692aa70aed9b"
 
 RPROVIDES:${PN} += "libqt5-qtstyleplugins-devel"
 

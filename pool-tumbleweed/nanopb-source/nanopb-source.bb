@@ -3,16 +3,15 @@ DESCRIPTION = "Source code of nanopb - a C implementation of Google's Protocol B
 format."
 LICENSE = "Zlib"
 
-PV = "0.4.6"
+PV = "0.4.9.2"
 
-RPM_NAME = "nanopb-source-0.4.6-2.4.noarch.rpm"
-RPM_HASH = "c3d2064210d2207c35324360184834de155316896d22fde7dcc858eca4fc8f387f8219b2f08df94217d6651165517f8869b11e36f1c486a0c0e9d336e72672d2"
+RPM_NAME = "nanopb-source-0.4.9.2-1.1.noarch.rpm"
+RPM_HASH = "77dce0f244c4d25fde1aa9137e4cad982daa29448f27cae19614065b26bba62e13f51c062d0beec3e9c4b4a823e8b024a52d24aafd3bfb587baceecb309291ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nanopb-source"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python2 \
 /usr/bin/python3 \
 /usr/bin/sh"
 

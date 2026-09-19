@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "gprompter-0.9.1-13.2.aarch64.rpm"
-RPM_HASH = "375fdec1f340a13df6b12df0e04d7bcfa90496b63bd362bb7cc9dc843512a9c6274d2864a608085b7f7258b3f9c2db3e29dd712057ed4f8471d41d05a6372a21"
+RPM_NAME = "gprompter-0.9.1-18.6.aarch64.rpm"
+RPM_HASH = "bb4b42d98a612feaeb58fa2ad9eee3cf5538ee7c1caa757ba8175e745249f75a61f2b84db0eb8089a3b09a823731105e9c179ec8e016becc2c82231c06d02758"
 
 RPROVIDES:${PN} += "gprompter"
 

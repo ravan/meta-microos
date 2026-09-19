@@ -2,10 +2,11 @@ SUMMARY = "Documentation for libdwarf"
 DESCRIPTION = "Documentation for libdwarf."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7.0"
+PV = "2.3.2"
 
-RPM_NAME = "libdwarf-doc-0.7.0-1.1.aarch64.rpm"
-RPM_HASH = "1a02da2d0347befd082461760ab7e696f7ecd2c0584bfa7e5a868e1f784fbe67fef2a2f9d8d1d6e58da8c3fdd7846be517b2a78b594938198d36dfe04a1e28e0"
+RPM_NAME = "libdwarf-doc-2.3.2-1.2.noarch.rpm"
+RPM_HASH = "31f481d577da8c92022ac0c2a9ec28da8d48b86ce3b430c27fe55d825420893058c12bcba4c270fd2286a818c0d93e5978cc4796fe86bdb2570d312b3665ff0c"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdwarf-doc"
 

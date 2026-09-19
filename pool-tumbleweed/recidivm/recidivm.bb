@@ -2,10 +2,10 @@ SUMMARY = "Tool for estimating peak virtual memory use"
 DESCRIPTION = "recidivm estimates the target program's peak virtual memory use by running it multiple times with different memory limits."
 LICENSE = "MIT"
 
-PV = "0.2"
+PV = "0.2.1"
 
-RPM_NAME = "recidivm-0.2-1.13.aarch64.rpm"
-RPM_HASH = "126ab99272644ae4def5e3a5bd6afeeffd25216a559a275f01ea89788f010219e9dfc4bd8bd1da34ecf34009fcaf380cede1bc6d65286b39f0bbe51445942a05"
+RPM_NAME = "recidivm-0.2.1-1.10.aarch64.rpm"
+RPM_HASH = "886d599942e1780e2f77592693e287e9b4f03554295c6a5aef4805b4344b48c35a5fee9ee48d70f4be663f3e3e060861f651561cace1f91eff696758b481b6a5"
 
 RPROVIDES:${PN} += "recidivm"
 

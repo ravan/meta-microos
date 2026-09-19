@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-newtxtt"
 DESCRIPTION = "The  separated fonts package for texlive-newtxtt"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.056svn54512"
+PV = "2026.226.1.059svn77682"
 
-RPM_NAME = "texlive-newtxtt-fonts-2023.209.1.056svn54512-55.1.noarch.rpm"
-RPM_HASH = "99c99613aa4181260076562ba47c58bdb02170d25a6b8096915cc70edf483616431a967bc8a712b2130e59afc5efb4a539f7b482bc376b9a0bb6dddba10227db"
+RPM_NAME = "texlive-newtxtt-fonts-2026.226.1.059svn77682-61.2.noarch.rpm"
+RPM_HASH = "e3b6448318cc59aa7745fd82c7abb873e6c847562671a2a8dfde1c347fd858e7eb16d4682b4cf621b745059101560f8ebd359b6c6c16fb3ac0b5f2a1c32bf767"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -20,6 +23,7 @@ font--lang=cs \
 font--lang=csb \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=en \
 font--lang=es \
 font--lang=et \
@@ -50,7 +54,10 @@ font--lang=ku-tr \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -85,17 +92,23 @@ font--lang=sw \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
+font-newtcxbtt \
+font-newtcxtt \
 font-newtxbtt \
 font-newtxbttsc \
 font-newtxtt \

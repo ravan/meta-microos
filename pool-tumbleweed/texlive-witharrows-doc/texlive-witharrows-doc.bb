@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-witharrows"
 DESCRIPTION = "This package includes the documentation for texlive-witharrows"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.8asvn65841"
+PV = "2026.226.2.9asvn77682"
 
-RPM_NAME = "texlive-witharrows-doc-2023.209.2.8asvn65841-54.1.noarch.rpm"
-RPM_HASH = "5a8b63952803e9bbae23f52478a8388cd1b942b35543de1519dbe2be96e12e8bea52e44f222b26e2538c598a66d80c94e7236c5fc7abbfbc925ba45d9f903e2b"
+RPM_NAME = "texlive-witharrows-doc-2026.226.2.9asvn77682-60.2.noarch.rpm"
+RPM_HASH = "cfbe9e2eb4465b6762172cf9c08a6fb3dd7e43968b94627d5d6ac055aefbac3a254e97c17e3c28444f65593204241b9f9709ace182e5d324cc2119f7cb538788"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-witharrows-doc-fr \

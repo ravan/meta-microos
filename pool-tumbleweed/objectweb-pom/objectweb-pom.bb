@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5"
 
-RPM_NAME = "objectweb-pom-1.5-1.11.noarch.rpm"
-RPM_HASH = "aad7993f5d2d7567077549d2f0c30d1f42e456bde5267a46a315ec3a996124dc0b38500149f5470decc339702299e731a6811bfc49442c754a2b34eabbc00c5f"
+RPM_NAME = "objectweb-pom-1.5-1.18.noarch.rpm"
+RPM_HASH = "54a25f4adfb846e93fd5460d1b811a3e6bff805386164b336c1726976ae28767d5d68c066ef7408b18e27df701ea973495e52ebef0c30092897618106c19d8eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.ow2-ow2-pom- \

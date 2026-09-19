@@ -7,10 +7,10 @@ objective reduction (Orch OR) theory of consciousness as \
 applied to the three brains model of psychological experience.'"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65768"
+PV = "2026.226.svn65768"
 
-RPM_NAME = "texlive-sacsymb-2023.209.svn65768-54.1.noarch.rpm"
-RPM_HASH = "269a01fb19bd1f655612f5041a48b051053ae2885ff9bb4546a72236b8a6ecc96cecebdec1dd5034ff2b2fbb56228afacae0a8f89360e7d5364b8c162311f4f9"
+RPM_NAME = "texlive-sacsymb-2026.226.svn65768-60.2.noarch.rpm"
+RPM_HASH = "481abb94071150ec5f6776c6b48cf9a4ff3e5b63b42a2be091da17d6af52c6b7c5d01bcbee6b9f3f0560a7c227b47c9e81c389f1317f18329fba8cf17b425732"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sacsymb.sty \

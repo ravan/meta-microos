@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.18.16"
 
-RPM_NAME = "autogen-5.18.16-7.7.aarch64.rpm"
-RPM_HASH = "55b1520de377a34e61b260a4610b113ed112de27661ea0600b8d1fa69a93690b13dabc532076a605c5e4180a90d8dfa469bb0e6f75773eb5de1919bc3c4bda39"
+RPM_NAME = "autogen-5.18.16-9.5.aarch64.rpm"
+RPM_HASH = "0b3e1d01ebdd5eb07b1b9bfddba44d682f5e84b80dfc1a05bd1965c500cb5caa7b1d8a0b5cf31104213534d08bc536d5ef5bb64f15b3aa2d2f4f12d6fd42e379"
 
 RPROVIDES:${PN} += "autogen"
 
@@ -18,6 +18,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libguile-3.0.so.1 \
 libopts.so.25 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

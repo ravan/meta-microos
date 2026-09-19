@@ -19,10 +19,10 @@ Interactive Hardware Accelerated Remote 3D-Visualization' (Engel, Sommer, \
 Ertl 2000.)"
 LICENSE = "LGPL-2.1-only & SUSE-wxWidgets-3.1"
 
-PV = "3.0.2"
+PV = "3.1.4"
 
-RPM_NAME = "VirtualGL-3.0.2-1.4.aarch64.rpm"
-RPM_HASH = "ec49753830e256d28d856eba7bc5e7ca307c298906bc7174330901891d7cfecd195408179169e10935cff191325d5b2354d7344340c8b2d6f86944c78c0340c6"
+RPM_NAME = "VirtualGL-3.1.4-1.5.aarch64.rpm"
+RPM_HASH = "62d20b9502a021c6a99ab2c99e256dd0fb779f46804a176f1b733781199481d540ff50a71b02723c402b51b7b42933adb35bfaa1b23e0cf8f41ddd3d5edba86d"
 
 RPROVIDES:${PN} += "VirtualGL \
 libdlfaker.so \
@@ -37,6 +37,7 @@ ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libGL.so.1 \
 libGLU.so.1 \
+libOpenCL.so.1 \
 libX11.so.6 \
 libXext.so.6 \
 libXtst.so.6 \

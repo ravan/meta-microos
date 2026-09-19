@@ -4,13 +4,13 @@ multiple purposes, leaving the original YAML untouched and usable \
 as is."
 LICENSE = "Apache-2.0"
 
-PV = "4.5.7"
+PV = "5.8.1"
 
-RPM_NAME = "kustomize-4.5.7-1.4.aarch64.rpm"
-RPM_HASH = "01e5735867801a4ec26f807fa3647d3fadacc461e79bdb82d1db67980265c162e0e03e141541f93e48596c93260228259025c03e88a03019aab58f000ecf2783"
+RPM_NAME = "kustomize-5.8.1-1.3.aarch64.rpm"
+RPM_HASH = "67b97ff7e513611c27b192eb630be89907566d219b6440df4dd2d3e7927d788d72b15af33f849a878a23f0f418d37a146a2518950040562718d3fa77f613289f"
 
 RPROVIDES:${PN} += "kustomize"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

@@ -1,17 +1,17 @@
-SUMMARY = "Headers and development library for libsuperlu6"
-DESCRIPTION = "SuperLU headers and libraries files needed for development %{with_hpc:(HPC variant)}"
+SUMMARY = "Headers and development library for libsuperlu7"
+DESCRIPTION = "SuperLU headers and libraries files needed for development"
 LICENSE = "BSD-3-Clause"
 
-PV = "6.0.1"
+PV = "7.0.1"
 
-RPM_NAME = "superlu-devel-6.0.1-1.1.aarch64.rpm"
-RPM_HASH = "2750eb2eb77cc3257229098f5bf4a2982636af12c2da46b8b8792b2c9e599ac6dda5eccd4ffcfd31861c8eb1f1d9831f11675fbb610932bd051538a5289a9079"
+RPM_NAME = "superlu-devel-7.0.1-1.5.aarch64.rpm"
+RPM_HASH = "cfa6f28a632bd66c7b8d43f4c2911cd70661bab1f019e6cd2b35474403c8d36b8f664dcaad61709aa998e6e42cbc7bfc4102c1f0f3ca6ea695542274cfea1ca9"
 
 RPROVIDES:${PN} += "cmake-superlu \
 pkgconfig-superlu \
 superlu-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsuperlu6"
+libsuperlu7"
 
 inherit rpm

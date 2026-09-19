@@ -1,13 +1,12 @@
 SUMMARY = "CDDB library for KDE Applications"
-DESCRIPTION = "The KDE Compact Disc DataBase library provides an API for \
-applications to fetch and submit audio CD \
-information over the Internet."
+DESCRIPTION = "The KDE Compact Disc DataBase library provides an API for applications to fetch \
+and submit audio CD information over the Internet."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "25.04.3"
 
-RPM_NAME = "libKF5Cddb5-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "5491758671a6cb5a9b8b8b7728b04c20429c84a1f941928fa9356899ad369480d84f4ad6516fd59b234ece4d9dfd94d084eb3f7ba80354749647999650e7887c"
+RPM_NAME = "libKF5Cddb5-25.04.3-15.1.aarch64.rpm"
+RPM_HASH = "5df233adf04baa623dd0c859ffd90020baa333ae89c2cb915dd675ac44bc9fcba7594f1a182db5fc71004e51032e5f54a397ab1d7b0a6809542965024814673c"
 
 RPROVIDES:${PN} += "libKF5Cddb.so.5 \
 libKF5Cddb5"

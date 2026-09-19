@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "typelib-1_0-Avahi-0_6-0.8-23.1.aarch64.rpm"
-RPM_HASH = "a8ecc30e9f9ae9aa3c27d6bc9ce2f9c141da4a3bd8f466248f3c4253d44d51445ea7ac0e8515ff879a52261eefb1b5086b4802f53eeca3f891720d3e88f5390d"
+RPM_NAME = "typelib-1_0-Avahi-0_6-0.8-45.2.aarch64.rpm"
+RPM_HASH = "bdcc22e3b2c3afd8c1f8ae6655e8ebc7fee117901b3cfc50e0709845001800c65190f21a37a6fec316b996fb891214c4659b6b655d63a517fe253e2847d41be3"
 
 RPROVIDES:${PN} += "typelib-1-0-Avahi-0-6 \
 typelib-Avahi \

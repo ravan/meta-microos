@@ -4,10 +4,10 @@ pass; useful, for example, to ensure all floats for a section \
 appear before the next \\section command."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.2svn19848"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-placeins-2023.209.2.2svn19848-52.1.noarch.rpm"
-RPM_HASH = "aad881888b6187427a804c1f3b3109f7789d39043c38581d0e27358878863ccccd2974aa712a2b5cf0a43f3bad2b844ee9e3e48977ec7a99293feaebae8d4120"
+RPM_NAME = "texlive-placeins-2026.226.2.2svn77682-58.2.noarch.rpm"
+RPM_HASH = "4945b5b6cc8ac24b7a984216f23948fdac7e6f9c57bad9c1714d4a4b9319139334c8c968a5d71dca91c6aa13ef899254a05a22c77106475b923f7dabfb3b04a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-placeins.sty \

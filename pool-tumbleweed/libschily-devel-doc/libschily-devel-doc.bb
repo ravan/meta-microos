@@ -5,10 +5,10 @@ tools. \
 This subpackage contains manual pages for the APIs exposed by libschily."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "libschily-devel-doc-2022.10.16-47.4.noarch.rpm"
-RPM_HASH = "381a326b87a9eb9fd4207697301bc090c8673f48e9a405fa477abc9e2341448c7920dffe665a8447ecb9adce8a41aaa96e11fb34f9679c79f938263d1b51d07a"
+RPM_NAME = "libschily-devel-doc-2024.03.21-53.5.noarch.rpm"
+RPM_HASH = "d8d67f31a993b6d6284b51e580eaa70dbd96402ac4455aa19d178e6e39927c2c015adaa4c698e78861c02427036de1e09bd4b13018d345ef324fbac5dcf41982"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libschily-devel-doc"

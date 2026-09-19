@@ -6,12 +6,12 @@ DESCRIPTION = "The spu-tools package contains user space tools for Cell/B.E. \
  \
 - spu-ps: a tool like ps, which dumps a report on the currently running \
 SPU contexts."
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
 PV = "2.3.0"
 
-RPM_NAME = "spu-tools-2.3.0-27.25.aarch64.rpm"
-RPM_HASH = "1eb5a2d37e28541429a8e848eb4ba1163f5b6a3d349ffb26496f25da46bd63e411b6f0cc3badda60497923aebc19b840caf6eb8715203314836fa642a40b70e1"
+RPM_NAME = "spu-tools-2.3.0-30.5.aarch64.rpm"
+RPM_HASH = "a96b339d55bd0d0aa796e60f8126091eeb3bf44021e1210e149254636ca14dd380c377fc827ef5b8ed00fe4226322e315b80b910566ce40593544babb8e4a484"
 
 RPROVIDES:${PN} += "spu-tools"
 

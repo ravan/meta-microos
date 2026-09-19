@@ -7,10 +7,10 @@ The main format expected to be converted to/from is the \
 Common Trace Format (CTF)."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "2.0.5"
+PV = "2.1.0"
 
-RPM_NAME = "babeltrace2-devel-2.0.5-1.1.aarch64.rpm"
-RPM_HASH = "0afd0038513946d4fabcac90cb443c2075f777470d8c2d4cdb9755c6b7c41bb1cf7580b604b88244cc8869bf9ae409a75b47531c42ce790d7e126f9353ba48a5"
+RPM_NAME = "babeltrace2-devel-2.1.0-2.7.aarch64.rpm"
+RPM_HASH = "5ec0af06dbeae1869e701c780c5dbd3d967241117400730e9f8325fa82091caf3745221f9c3af2a550d6df14849cd1fef9ab87c7073ab90e7dbee8f3a3afd658"
 
 RPROVIDES:${PN} += "babeltrace2-devel \
 pkgconfig-babeltrace2 \

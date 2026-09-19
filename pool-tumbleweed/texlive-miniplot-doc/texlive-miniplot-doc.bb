@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-miniplot"
 DESCRIPTION = "This package includes the documentation for texlive-miniplot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn17483"
+PV = "2026.226.svn17483"
 
-RPM_NAME = "texlive-miniplot-doc-2023.209.svn17483-55.1.noarch.rpm"
-RPM_HASH = "dc3ed6cdfba4230fd3199e6d8b9a5a288c833be2e10216b4af6a2e696842b4fc1487c48fd01aa9d2bb5b9d69f70b1175e48192800f6b336ca8642534ecee82ed"
+RPM_NAME = "texlive-miniplot-doc-2026.226.svn17483-61.2.noarch.rpm"
+RPM_HASH = "efdc205ce4a941612baa94a70e3b9e7c4031c2d7337d2ae15f9014423e465cfbcfa879d8082bfc669376174c6779d1cf3353e916248095f928f057e2994ed609"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-miniplot-doc"

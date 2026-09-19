@@ -3,10 +3,10 @@ DESCRIPTION = "liblscp is an implementation of the LinuxSampler control protocol
 proposed as a C language API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.9.9"
+PV = "1.0.1"
 
-RPM_NAME = "liblscp6-0.9.9-1.1.aarch64.rpm"
-RPM_HASH = "c4f24d6d70663dadc367686d6c23016b3d4579d51216419c4275811fb78fbdd4c6a34278cddd6c60a8ecf46bd6a66522bddbab3b1e72d53f0640e5926ae44cc8"
+RPM_NAME = "liblscp6-1.0.1-1.4.aarch64.rpm"
+RPM_HASH = "aa2f8b99a6037f10ec4d5cbb4c1770a6dcb8146b373eb14a48141623a541d305f1d2ced597f173f328a550afaed6b18a6cd0f041a6340f5ce4ef68bf111710de"
 
 RPROVIDES:${PN} += "liblscp.so.6 \
 liblscp6"

@@ -6,10 +6,10 @@ This library is designed to permit the extraction and parsing of the \
 GeoTIFF keys in new files."
 LICENSE = "MIT & SUSE-Public-Domain"
 
-PV = "1.7.1"
+PV = "1.7.4"
 
-RPM_NAME = "libgeotiff5-1.7.1-2.3.aarch64.rpm"
-RPM_HASH = "c6039325d2cb2ccbc8efcbcedc2f9723650fe8dd8e30ba425933fe69af0aa64eede57c9801a81f6d2486c9241e1a4725e59b3c8262e594fdb55e21a312a22184"
+RPM_NAME = "libgeotiff5-1.7.4-1.7.aarch64.rpm"
+RPM_HASH = "f4c406405cfe48cd6ca3483664bfed826eb2df7fc16e9b30e60b847fb4812111212ffe8bdea023cc080c1636707351786e59bbe0f3209f842a8a940466eb5f55"
 
 RPROVIDES:${PN} += "libgeotiff.so.5 \
 libgeotiff5"

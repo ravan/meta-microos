@@ -2,10 +2,10 @@ SUMMARY = "YaST Installation Packages"
 DESCRIPTION = "YaST tools for installing your system."
 LICENSE = "MIT"
 
-PV = "20220411"
+PV = "20260219"
 
-RPM_NAME = "patterns-yast-yast2_install_wf-20220411-1.4.aarch64.rpm"
-RPM_HASH = "b0ded87ed9ae9e0db43680bb57c8b6d4361c4373a11ae20c335f5eb572f88b3c3a0b7db630a61fe4884dc9b825bebb3dd64a1b95fc9645cf056b6802a2c93c3e"
+RPM_NAME = "patterns-yast-yast2_install_wf-20260219-1.2.aarch64.rpm"
+RPM_HASH = "e952f4fbfbe6a85959c289ef31b925899e1df41da70d5936db8bc276e844a639bc92b2b36e2328118e835c264daab123a99be54791d825f4b28ae363ae806318"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

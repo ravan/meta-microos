@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "5.9"
 
-RPM_NAME = "zsh-5.9-6.1.aarch64.rpm"
-RPM_HASH = "de1b4390a65287c7d69bd2ea0ce223bb0a770fc76de35b54b55070095ca84d57d292a2f8ea95123a2ba2980a84a42784c3a957adca966c4d1630480993568cd6"
+RPM_NAME = "zsh-5.9-12.7.aarch64.rpm"
+RPM_HASH = "77202623e4be5862493c1e19567a0fa2c06f0a46a98a7469b313106ae93fae05c7ca055098a0ef790c7e8bf9d6098ce5995db521c5cf5022291ef195f845c3b4"
 
 RPROVIDES:${PN} += "/usr/bin/zsh \
 config-zsh \
@@ -22,7 +22,7 @@ libc.so.6 \
 libcap.so.2 \
 libm.so.6 \
 libncursesw.so.6 \
-libpcre.so.1 \
+libpcre2-8.so.0 \
 libtinfo.so.6"
 
 inherit rpm

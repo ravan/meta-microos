@@ -4,10 +4,10 @@ used by the groff command.  gxditview is used by groff if called with \
 the -X option."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.22.4"
+PV = "1.23.0"
 
-RPM_NAME = "gxditview-1.22.4-10.5.aarch64.rpm"
-RPM_HASH = "0879bc48adcc6ba11523d5bf9a02dcfdac21466a7cc3d1ffde815785e60fbe7fb14e66b634baa6e60d5b9d38805e54c33e792cdc4611300342c119fcf9a240b7"
+RPM_NAME = "gxditview-1.23.0-6.5.aarch64.rpm"
+RPM_HASH = "783f923e6a7e3e8b14fab448e0c152a6b7a190130d99a6c0a051c0f34ef41bc78996015c4161733985976915cf68e2690ec6d5bbd8316077ba76754563898bfd"
 
 RPROVIDES:${PN} += "gxditview \
 gxdview"

@@ -7,13 +7,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.56"
 
-RPM_NAME = "perl-Memoize-ExpireLRU-0.56-1.25.noarch.rpm"
-RPM_HASH = "ba3a10bd9597114836091ff81d1f97d096ec33737858efc84e76c993ad4c11a5a4bdf587fa8115ddda1db8fd9cae2b7b90b8418c76889f6552c784bd8e742994"
+RPM_NAME = "perl-Memoize-ExpireLRU-0.56-1.39.noarch.rpm"
+RPM_HASH = "c5875d73cf01ff9e17b9e259f1e65bd3341088088183e083bc8a2a024116fc93a8dd706d95c40229ef6c7d45e9392d5a30b9cf432428b484421e896238b4c542"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Memoize--ExpireLRU \
 perl-Memoize-ExpireLRU"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

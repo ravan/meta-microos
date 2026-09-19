@@ -1,11 +1,12 @@
 SUMMARY = "Utilities for the Btrfs filesystem"
-DESCRIPTION = "Utilities needed to create and maintain btrfs file systems under Linux."
+DESCRIPTION = "Utilities needed to create and maintain Btrfs file systems under Linux (btrfs, \
+mkfs.btrfs, btrfs-convert, btrfs-image, ...)."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.5"
+PV = "7.1"
 
-RPM_NAME = "btrfsprogs-6.5-1.1.aarch64.rpm"
-RPM_HASH = "c3f5278718e07159dfa8f3edce2adf0960be7281aa61acc9cceaee96c482d7961ee914d0b18a4a6dfda76e8683517d7d224e0f91e3afc5bb0c86ac2bd9d1b4d7"
+RPM_NAME = "btrfsprogs-7.1-1.2.aarch64.rpm"
+RPM_HASH = "f49a84c757dfa6ca7e5360d260fa56ba578d27a38faf7a6811f42bfc5e30681829296fe0ae0eab56428780e17562caa7b55bfb793aace05204469018875b3982"
 
 RPROVIDES:${PN} += "btrfs-progs \
 btrfs-progs-aarch64 \

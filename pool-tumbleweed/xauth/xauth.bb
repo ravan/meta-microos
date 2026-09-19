@@ -3,10 +3,10 @@ DESCRIPTION = "The xauth program is used to edit and display the authorization \
 information used in connecting to the X server."
 LICENSE = "MIT"
 
-PV = "1.1.2"
+PV = "1.1.5"
 
-RPM_NAME = "xauth-1.1.2-1.5.aarch64.rpm"
-RPM_HASH = "7aac9a16e0581d757772ba1e222b1fe73c8b09edd51d9ffe0394f047651c311ee205c7a1a2da491d6f66dc1c3f95bdf52c2afc4ecc2a5369d685662c37530580"
+RPM_NAME = "xauth-1.1.5-1.4.aarch64.rpm"
+RPM_HASH = "63f49f246ba8ae64279c6f1a3d8c685ee12317d4247daa06a10e034c52d4edb1fa0f01faab01025904253e87fede2f595ebfba247ac1170ab697aa469478e299"
 
 RPROVIDES:${PN} += "xauth \
 xorg-x11-xauth"

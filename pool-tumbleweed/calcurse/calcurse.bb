@@ -6,10 +6,10 @@ between different color schemes and layouts. All of the commands are \
 documented within an online help system."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.8.1"
+PV = "4.8.2"
 
-RPM_NAME = "calcurse-4.8.1-1.1.aarch64.rpm"
-RPM_HASH = "f9fffff0024dbc0714e40528b4e5a26627b87cecdb176d7f02485ace5d541de5f49fbcd85cdce32ec265a4f8075b0cd89261deefd50bc750c69754bb976e1930"
+RPM_NAME = "calcurse-4.8.2-1.6.aarch64.rpm"
+RPM_HASH = "3baa05925370bd6f12826e0e5f6ac1c4f0ad30dbec57505de7e512e71b6c27fea4dabed54f384160f30de24be07170041ab52f6b1576e00ebc92adbda7c30b47"
 
 RPROVIDES:${PN} += "calcurse"
 

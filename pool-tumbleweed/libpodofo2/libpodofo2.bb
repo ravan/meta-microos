@@ -2,10 +2,10 @@ SUMMARY = "PDF parsing and creation library"
 DESCRIPTION = "A cross platform PDF parsing and creation library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.10.1"
+PV = "0.10.5"
 
-RPM_NAME = "libpodofo2-0.10.1-1.1.aarch64.rpm"
-RPM_HASH = "5a5a5fc6608495cb1c8798744dc9af0b797f882a7907d95ba6e014b9c5cddfe981776ccf5e8f56d54c9679c8d2f1a6456a5730caab60d0a689d75c65f4119efe"
+RPM_NAME = "libpodofo2-0.10.5-1.8.aarch64.rpm"
+RPM_HASH = "122d6abf64f997bd68792dac4be43cdb0d6580589c27878aaa2d17ce756c27228ab5888129bdc328df1b84f35ef3e8af18b84f75b3364ea48cac165300e7394c"
 
 RPROVIDES:${PN} += "libpodofo.so.2 \
 libpodofo2"
@@ -22,7 +22,7 @@ libm.so.6 \
 libpng16.so.16 \
 libstdc++.so.6 \
 libtiff.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

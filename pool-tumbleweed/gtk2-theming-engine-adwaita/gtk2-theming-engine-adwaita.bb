@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.28"
 
-RPM_NAME = "gtk2-theming-engine-adwaita-3.28-1.20.aarch64.rpm"
-RPM_HASH = "f27b725bd5b289f7ec02c9833973af7a2fa41e074455ce2f2b202f9295ce61a5d23a8359d49372e9ed19b6887962748b421b43d474ec5e8747f5badda2e2b128"
+RPM_NAME = "gtk2-theming-engine-adwaita-3.28-3.5.aarch64.rpm"
+RPM_HASH = "6a4c2fc6a28e73667cc6e9c6eaada1c61073bc6a04ac7b785c8cfd6ba9e13ba11cc5426c81ac546a20ea64528464ea0879cf2ebfb00a6fe271e8b040c6cacc47"
 
 RPROVIDES:${PN} += "gtk2-theming-engine-adwaita \
 libadwaita.so"

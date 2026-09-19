@@ -2,17 +2,16 @@ SUMMARY = "Haskell boring profiling library"
 DESCRIPTION = "This package provides the Haskell boring profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.1"
+PV = "0.2.2.1"
 
-RPM_NAME = "ghc-boring-prof-0.2.1-1.4.aarch64.rpm"
-RPM_HASH = "ba98f0027c0390b1825a084af864e54d33503357768ed7dc74253982428cdcbf1a6bf94430d88c336c2d6b940725b8bac7151baf570d8519550f0e9fb3313987"
+RPM_NAME = "ghc-boring-prof-0.2.2.1-1.3.aarch64.rpm"
+RPM_HASH = "812b762fafe468fc78deac06ece114bad020ab5033ad69ba5a0bc0cf4620c6ed7e0f278c0fddd4aa7b01474fc9bc6e2df5f29923c752d9deb5b7b70a368e6b6b"
 
 RPROVIDES:${PN} += "ghc-boring-prof \
-ghc-prof-boring-0.2.1-8UoR96J8uAp13B13xTdCnI"
+ghc-prof-boring-0.2.2.1-8s8A4hTb7xgDndEEz6qoTw"
 
 RDEPENDS:${PN} += "ghc-boring-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
-ghc-prof-transformers-0.5.6.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-tagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7"
 
 inherit rpm

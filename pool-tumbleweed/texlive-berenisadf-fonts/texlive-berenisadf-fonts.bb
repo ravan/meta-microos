@@ -2,18 +2,21 @@ SUMMARY = "Severed fonts for texlive-berenisadf"
 DESCRIPTION = "The  separated fonts package for texlive-berenisadf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.004svn32215"
+PV = "2026.226.2.1svn77682"
 
-RPM_NAME = "texlive-berenisadf-fonts-2023.209.1.004svn32215-54.1.noarch.rpm"
-RPM_HASH = "75e44353857ab3085691f03397a38373ca2b98ba33c3af03aae5523d77e177b3cae3ba8530fbab3a20a8ef734a85801c79e6639eed6f3d9a317fba85e817094b"
+RPM_NAME = "texlive-berenisadf-fonts-2026.226.2.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "98268f02d7df29ec7a416cfb7dfc58a50bff49105d17c827f317eed6b49f2a204f78b3ad3fd96cde930e24dbe87298da5575e29c8499b8ea504141f4994ea3e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-berenisadf-fonts \
 font--lang=aa \
 font--lang=af \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
 font--lang=az-az \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=bs \
@@ -26,6 +29,7 @@ font--lang=csb \
 font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=en \
 font--lang=eo \
 font--lang=es \
@@ -62,16 +66,21 @@ font--lang=la \
 font--lang=lb \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mjw \
 font--lang=ms \
 font--lang=mt \
 font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -104,23 +113,31 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-berenisadfpro \
 font-berenisadfprosc \
+font-romandeadfscriptstd \
+font-romandeadfstd \
+font-romandeadfstylestd \
 texlive-berenisadf-fonts"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

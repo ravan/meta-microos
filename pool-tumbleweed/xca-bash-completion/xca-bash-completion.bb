@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for xca"
 DESCRIPTION = "Bash completion script for xca."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.4.0"
+PV = "2.9.0"
 
-RPM_NAME = "xca-bash-completion-2.4.0-2.4.noarch.rpm"
-RPM_HASH = "4819efc0a9ff5209aeb9fdce38dacc326760f97243aec7467665756a3ead2aebcf978824d2608e75b897b20eef25d766598801cf863bb95f6352cbec2f93ac0b"
+RPM_NAME = "xca-bash-completion-2.9.0-4.1.noarch.rpm"
+RPM_HASH = "2aa72755fc8617cc706c7bf59ce65e59f9175908b5f6d12b6cd25ddd4e0c960baa9124c5814950b56367029585182e5deb64517f6029036104bc100ce91a33e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xca-bash-completion"

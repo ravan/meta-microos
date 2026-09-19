@@ -1,11 +1,11 @@
 SUMMARY = "Chinese Lunar calendar"
 DESCRIPTION = "This is the traditional Chinese calendar application."
-LICENSE = "GPL-2.0+"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.0.0+git20191124.f91a880"
+PV = "3.0.1"
 
-RPM_NAME = "lunar-calendar-3.0.0+git20191124.f91a880-1.15.aarch64.rpm"
-RPM_HASH = "62d24c882fca0ccc376b57e1eb6e670cc904199c6f7eb5afac0d9e1e2ce0ac8ef72e1bed6884cf35b2c36ad03d0be3533a817497a438ee7971ef14726255ac41"
+RPM_NAME = "lunar-calendar-3.0.1-1.13.aarch64.rpm"
+RPM_HASH = "337900333c4ee11bd2e9e886c8fc67a1208e5ee15da579c3ee38da5b0c0a091e9eb5b29b35b2ebecc249982c832c7acd0e924d41124de80ac75f168872f4d291"
 
 RPROVIDES:${PN} += "lunar-calendar"
 

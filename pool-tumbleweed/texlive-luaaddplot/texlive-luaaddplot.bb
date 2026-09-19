@@ -7,10 +7,10 @@ devices with external scripts. This package can be used with \
 plain LuaTeX or LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn62842"
+PV = "2026.226.1.0asvn72350"
 
-RPM_NAME = "texlive-luaaddplot-2023.208.1.0svn62842-53.1.noarch.rpm"
-RPM_HASH = "842ac6d21838d1caa72d7b8e6e396d4c30e9ca146fa442e81bb60a5fba8b4b35862068f230bf0d8d9e6c080a43ff56bf955234e99f8693768ae8354417e90b10"
+RPM_NAME = "texlive-luaaddplot-2026.226.1.0asvn72350-59.2.noarch.rpm"
+RPM_HASH = "13b0b905bc469330a7e5bd898a33373dcc102b52730a2cf26f76e2496e761e22ee34c5c0b5d2035d299b2827cd9d37fc6f702a88f53164d3d481cbe190f2a3c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luaaddplot.sty \

@@ -8,21 +8,21 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.4.0"
 
-RPM_NAME = "PlayOnLinux-4.4.0-2.3.noarch.rpm"
-RPM_HASH = "5dd964a37b70cfddb97c1c1a97e8364d4a939c16478de52886b338ed9a2d00ca8c978f05cae8c182e1c20a23203e579ca1399648528aefd06de5fe4408c3fdf9"
+RPM_NAME = "PlayOnLinux-4.4.0-5.2.noarch.rpm"
+RPM_HASH = "37c5decf415882db0cb86fdeb20a093dfe7653de4db0616e432ffac2de1e8faf530211dfe7eec96a96f668a8658089fdfbbcd15d141130937574d51db68f9bc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "PlayOnLinux"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 ImageMagick \
 gettext \
 icoutils \
 jq \
 p7zip-full \
-python3 \
+python3-base \
 python3-natsort \
 python3-wxPython \
 unzip \

@@ -13,10 +13,10 @@ Authors: \
     The Tcl Core Team <tcl-core@lists.sourceforge.net>"
 LICENSE = "TCL"
 
-PV = "8.6.13"
+PV = "8.6.18"
 
-RPM_NAME = "tk-devel-8.6.13-1.4.aarch64.rpm"
-RPM_HASH = "89a7c6c8d1a81195c078bc6b6033cb6c450da368f02fcb88a2aa3655ad0fea509eb61513fff92f00e16e44a17178bf1a416c6da2894615806a3d30999c3f27d6"
+RPM_NAME = "tk-devel-8.6.18-1.3.aarch64.rpm"
+RPM_HASH = "6deaf75e6de4b2b2d50a337c12883251ba038d2e32bcd24f240c1c8503b86b43414e934d9a2b2df0b8cee2cdb67bf785e998540ec09438d8a253241ae697857f"
 
 RPROVIDES:${PN} += "pkgconfig-tk \
 tk-devel"

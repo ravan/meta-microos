@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a module for accessing ceph (rbd,rados) ima
 for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-block-rbd-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "9fd7af304a8e4ca06438f2be1c3feba69828b0d58c12627abb20dacf9989a3b84589539e0f328374b7d1f46111fb63fe4733a87338b41d945c2ebf4a476d9d83"
+RPM_NAME = "qemu-block-rbd-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "ac035808f41aeaa5eda67044c6fef0df0022633203872c34082e9e6869bf74ea79d51bdb007768053247e9d0ccd18e338f38ab0c00a6e7cec68e9bf93e8c882c"
 
 RPROVIDES:${PN} += "qemu-block-rbd"
 

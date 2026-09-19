@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.9"
 
-RPM_NAME = "permlib-devel-0.2.9-1.10.noarch.rpm"
-RPM_HASH = "5b7a2515d18ec1688da48230a25ddd895939f59ea626bf4d50cbff61407344b631f52514d6256dbca9d59454aa59c8e2119492aee0ba810cc99efc5c01a89d63"
+RPM_NAME = "permlib-devel-0.2.9-1.18.noarch.rpm"
+RPM_HASH = "12050fff10ab6ac9856d12eb2f1a81e29de63936a53e353e3b933ec5ddfaec9c9d4502bbadfc467165f1d24decf74a238690114d27d851570410c942c2dd69e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "permlib-devel"

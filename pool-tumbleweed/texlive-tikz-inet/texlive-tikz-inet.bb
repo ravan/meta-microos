@@ -2,10 +2,10 @@ SUMMARY = "Draw interaction nets with TikZ"
 DESCRIPTION = "The package extends TikZ with macros to draw interaction nets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn15878"
+PV = "2026.226.0.0.1svn15878"
 
-RPM_NAME = "texlive-tikz-inet-2023.209.0.0.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "f65fd4c7565cbcad3fddf61750515466a3208d0f8f8d2b95e3145581fe062dd0ec6966bc1bcda818e8788a3fa9aeb79be38bb04c89c01f6403a643e99ec3f0eb"
+RPM_NAME = "texlive-tikz-inet-2026.226.0.0.1svn15878-59.2.noarch.rpm"
+RPM_HASH = "052fb2ad87fb5d0107661184d7f43a47fd0b60e48c86720a1b64cee09c466f837c664d2beb67fb5c9a16ef627720b4f7f09cd1a164b8e04785a47a22caf462eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-inet.sty \

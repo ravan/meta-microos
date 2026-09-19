@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gpg2"
 DESCRIPTION = "Provides translations for the 'gpg2' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.3.8"
+PV = "2.5.22"
 
-RPM_NAME = "gpg2-lang-2.3.8-3.1.noarch.rpm"
-RPM_HASH = "8d6d44beff7a73abbdb3e582cb8fb6a115b80d3bb703a6f40f1b382e921cd8b6e575809bcb2227380089aaf3889a9eff13ec7a5ec70346c1e5e091920370dcfd"
+RPM_NAME = "gpg2-lang-2.5.22-1.1.noarch.rpm"
+RPM_HASH = "c21770e5f1732766801e7452b0a76f8d6aa8651da32f1297d122d7c08447806f97e9f0be4cd20e796009f5b5b53b18169f5546e39137cb5338b2032c6ae8b185"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpg2-lang \
@@ -15,6 +15,8 @@ locale-gpg2-cs \
 locale-gpg2-da \
 locale-gpg2-de \
 locale-gpg2-el \
+locale-gpg2-en@boldquot \
+locale-gpg2-en@quot \
 locale-gpg2-eo \
 locale-gpg2-es \
 locale-gpg2-et \
@@ -25,7 +27,9 @@ locale-gpg2-hu \
 locale-gpg2-id \
 locale-gpg2-it \
 locale-gpg2-ja \
+locale-gpg2-ka \
 locale-gpg2-nb \
+locale-gpg2-nl \
 locale-gpg2-pl \
 locale-gpg2-pt \
 locale-gpg2-ro \

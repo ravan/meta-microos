@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.16"
 
-RPM_NAME = "libgtkspell0-2.0.16-23.9.aarch64.rpm"
-RPM_HASH = "35342cb90610ecff749c633c56b5b78bdcd1306a4aa3719e1af0d239cecef83f55399a45be2323b2ac88b092deba5e6238694faec401ebe4bb82ea7ff92f34a0"
+RPM_NAME = "libgtkspell0-2.0.16-25.4.aarch64.rpm"
+RPM_HASH = "e95100313c72d5dcf411136ee61e996d1458a94f6f1cb2447611f149b4835e5404befea370746d4d175f9416aa1a62311ec37383d2b50cdedd5c9826f3d48833"
 
 RPROVIDES:${PN} += "gtkspell \
 libgtkspell.so.0 \

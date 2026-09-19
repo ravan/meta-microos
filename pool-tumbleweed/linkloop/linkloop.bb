@@ -8,12 +8,12 @@ Authors: \
 -------- \
     Oron Peled <oron@actcom.co.il> \
     Dominique Domet de Mont <Dominique.Domet-de-Mont@hp.com>"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "linkloop-1.0.0-22.26.aarch64.rpm"
-RPM_HASH = "891219366a4ca7c237af3aab545e014cf733c95a31ffd07a67801a3b999b6d04c8a1374f74f6b75975c9bb3d7187badf4d3380befe324eda50be808f077f4e4a"
+RPM_NAME = "linkloop-1.0.0-25.5.aarch64.rpm"
+RPM_HASH = "670dc38645e5854fdb5916d19fd352d1b05382639fbff811666b305392b248c7cb8d7ac3fed8875a296a1d09d519b793e9549f0487d469fe436b04b1fb3793e6"
 
 RPROVIDES:${PN} += "linkloop"
 

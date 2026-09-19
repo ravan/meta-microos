@@ -5,10 +5,10 @@ recognition system which is able to recognize speech in real-time. \
 This package provides the GStreamer plugin for pocketsphinx."
 LICENSE = "BSD-2-Clause"
 
-PV = "5~git20200227.e40da77"
+PV = "5.0.3+git20241211.69167fb"
 
-RPM_NAME = "gstreamer-plugin-pocketsphinx-5~git20200227.e40da77-2.4.aarch64.rpm"
-RPM_HASH = "fcd1971537317dd6a3f46d8be9f221a6c1270e04261822a2291ed4bbe99b8f8891d1021c7a0937e9c78dd7c0a55a355591330593a8b6bd0cacd82dee08df8c09"
+RPM_NAME = "gstreamer-plugin-pocketsphinx-5.0.3+git20241211.69167fb-1.7.aarch64.rpm"
+RPM_HASH = "f019a728c57609069ad42ffcd3c273ae5d4099822e80b49dd7796662af334d8e800480063eca7f7859e79b1ad27c42283c2b887a06c7dd5b6fcebd59f2b496c1"
 
 RPROVIDES:${PN} += "gstreamer-plugin-pocketsphinx \
 gstreamer1 \
@@ -18,9 +18,9 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
+libgstbase-1.0.so.0 \
 libgstreamer-1.0.so.0 \
-libpocketsphinx.so.3 \
-libsphinxbase.so.3 \
-pocketsphinx5"
+libpocketsphinx.so.5 \
+pocketsphinx"
 
 inherit rpm

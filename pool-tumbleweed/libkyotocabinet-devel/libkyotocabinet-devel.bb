@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development environment (headers, share
 library symlink, pkg-config file, ...) for libkyotocabinet16"
 LICENSE = "SUSE-GPL-3.0-with-FLOSS-exception"
 
-PV = "1.2.77"
+PV = "1.2.80"
 
-RPM_NAME = "libkyotocabinet-devel-1.2.77-3.1.aarch64.rpm"
-RPM_HASH = "2c6c17ac75d28a35bf665db9ef89cf8616fd32a8cfa8d0f24f2e838e2f87e8b3ad586b5a32d5b5df1b44380955a0e7c37f1fad1154a61a9e976f326379adadf8"
+RPM_NAME = "libkyotocabinet-devel-1.2.80-2.6.aarch64.rpm"
+RPM_HASH = "3abfd178467f54f461ac720aaa7eb3ebee8295091c838de4aef056d1d92d6605396be04616a1d804210105c7258a1e44ce0c963d7857a8e986b4d4f89a13a8d8"
 
 RPROVIDES:${PN} += "libkyotocabinet-devel \
 libkyotocabinet16-devel \

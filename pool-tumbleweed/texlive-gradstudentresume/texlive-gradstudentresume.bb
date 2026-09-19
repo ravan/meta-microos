@@ -4,10 +4,10 @@ academic CV. The goal is to create a flexible template that can \
 be customized based on each specific individual's needs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn38832"
+PV = "2026.226.svn38832"
 
-RPM_NAME = "texlive-gradstudentresume-2023.209.svn38832-54.2.noarch.rpm"
-RPM_HASH = "a4d95b2c24e742a66cd9d2793618ef7167bd291376fc949a81d6c25b092c9e359dd27e4369e0ccd9f30ece13cd16c6c131ef16a8d224f54471622d2ab6f0ac50"
+RPM_NAME = "texlive-gradstudentresume-2026.226.svn38832-60.4.noarch.rpm"
+RPM_HASH = "ebf54815ed6d5c126b6aef82430583184b3d487cb06bcf97080a834e8409bca94e4196decb20f2461d6a32139b6bc8200a310143c121e167396808565f19bdc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gradstudentresume.cls \

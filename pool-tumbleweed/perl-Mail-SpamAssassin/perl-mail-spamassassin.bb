@@ -4,10 +4,10 @@ the filter rules. This package is required for the package \
 'spamassassin', the commandline tool."
 LICENSE = "Apache-2.0"
 
-PV = "4.0.0"
+PV = "4.0.1"
 
-RPM_NAME = "perl-Mail-SpamAssassin-4.0.0-74.6.noarch.rpm"
-RPM_HASH = "fe86e1742f1b6c6f44111bad03110db70a56cbfdbc0c2b2b67c85a31d198fa3900111ef46bdf7add8b223c9451d9088c0deead93b93d858310909e676f868d23"
+RPM_NAME = "perl-Mail-SpamAssassin-4.0.1-78.12.noarch.rpm"
+RPM_HASH = "a8e0f865d08d62adc7339aa9fc0d2e5eeb907dc02c6c39524b2b53962d6ef5ec2f9f0d525ac084e328955e9aee0be03cf58ff7ab711e38f258539a8bc35b354b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-perl-Mail-SpamAssassin \
@@ -111,6 +111,11 @@ perl-Mail--SpamAssassin--Plugin--VBounce \
 perl-Mail--SpamAssassin--Plugin--WLBLEval \
 perl-Mail--SpamAssassin--Plugin--WelcomeListSubject \
 perl-Mail--SpamAssassin--PluginHandler \
+perl-Mail--SpamAssassin--Pyzor \
+perl-Mail--SpamAssassin--Pyzor--Client \
+perl-Mail--SpamAssassin--Pyzor--Digest \
+perl-Mail--SpamAssassin--Pyzor--Digest--Pieces \
+perl-Mail--SpamAssassin--Pyzor--Digest--StripHtml \
 perl-Mail--SpamAssassin--RegistryBoundaries \
 perl-Mail--SpamAssassin--Reporter \
 perl-Mail--SpamAssassin--SQLBasedAddrList \
@@ -126,7 +131,7 @@ perl-Mail--SpamAssassin--Util--TinyRedis \
 perl-Mail-SpamAssassin \
 perl-spamassassin"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Archive--Zip \
 perl-Digest--SHA1 \
 perl-Errno \

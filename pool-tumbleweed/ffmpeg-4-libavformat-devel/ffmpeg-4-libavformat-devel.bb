@@ -7,10 +7,10 @@ container formats. \
 This subpackage contains the headers for FFmpeg libavformat."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "ffmpeg-4-libavformat-devel-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "c01f7da8ea19f15d4d867b93e751d2a24b3f992818706cbd375836cece72df6528ce4d1087837b877d0200b9f336e1e34d0e1d1fc2b97f47b229c2c7e19db4d4"
+RPM_NAME = "ffmpeg-4-libavformat-devel-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "b818856a7ac76b6b1d561e0949a7dfe926c25c1df9e6757a195c31b2906e242c051bbcc696ca8cedf3933e1a6a901c76541273e44d54ca165b417aab8d2b8d6f"
 
 RPROVIDES:${PN} += "ffmpeg-4-libavformat-devel \
 libavformat-devel \

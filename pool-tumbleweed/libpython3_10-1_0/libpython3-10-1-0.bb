@@ -8,10 +8,10 @@ This package contains libpython3.2 shared library for embedding in \
 other applications."
 LICENSE = "Python-2.0"
 
-PV = "3.10.13"
+PV = "3.10.21"
 
-RPM_NAME = "libpython3_10-1_0-3.10.13-1.1.aarch64.rpm"
-RPM_HASH = "98d496918360f5f0f7e0cdbea8e734eb2c017eb6d90dd282214b9e66665f5e28c56e84b3ce464ed12a72b64e36bb961aba5b19fb2d11db14fbf43d90d1675b84"
+RPM_NAME = "libpython3_10-1_0-3.10.21-1.1.aarch64.rpm"
+RPM_HASH = "db50d67b87f050f86a7b84bab3c4e783ff6797295f0a36a01619467f195682261f04205be811fa471d8d067540aa7966c07417794c28bc27c80234237bb4c576"
 
 RPROVIDES:${PN} += "libpython3-10-1-0 \
 libpython3.10.so.1.0"

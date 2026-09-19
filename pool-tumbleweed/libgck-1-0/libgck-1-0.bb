@@ -3,10 +3,10 @@ DESCRIPTION = "GCK is a library for accessing PKCS#11 modules like smart cards, 
 (G)object oriented way."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.41.0"
+PV = "3.41.2"
 
-RPM_NAME = "libgck-1-0-3.41.0-3.4.aarch64.rpm"
-RPM_HASH = "b54d8079599920b379f31337e2f8d6593ee0a85f99710bec596e9c011ecd3a1e4a9022e2d35e8354314d63e24037a4cb1e53322e9744691647e581ce56327e40"
+RPM_NAME = "libgck-1-0-3.41.2-5.4.aarch64.rpm"
+RPM_HASH = "8ea22212442b850c955b8e3ed72f5af1aabaf28c35babc3cd081d5c447cc064f8430aaecec1e26dbb9b826d1bc9ade78561b185ab5ed6118d681361f29b0d802"
 
 RPROVIDES:${PN} += "gck \
 libgck-1-0 \

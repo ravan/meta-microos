@@ -9,20 +9,21 @@ virtualization. \
 This package provides ppc and ppc64 emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-ppc-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "74f7574e99c9a52fc37b7ee046f07ab805cf174c3e8674f15a7c7694ac4e6093ce7f41a899f4784ba0978fa9bb8391a1365966241a4b14977dd8348dac5b7e34"
+RPM_NAME = "qemu-ppc-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "66031cd017853fad244cb8905329d39d8b4404890d1dcbfbd48a2b414cc664f1b57a891febff390481b5260c4e20bee8eff21a56ecaba0b7b4090b59b057bf90"
 
 RPROVIDES:${PN} += "qemu-ppc"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ipxe-qemu \
+ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libbpf.so.1 \
 libc.so.6 \
-libcapstone.so.4 \
+libcapstone.so.5 \
 libfdt.so.1 \
-libgcc-s.so.1 \
+libfuse3.so.4 \
 libgcrypt.so.20 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
@@ -31,6 +32,7 @@ libgnutls.so.30 \
 libgobject-2.0.so.0 \
 libibverbs.so.1 \
 libjpeg.so.8 \
+libkeyutils.so.1 \
 liblzo2.so.2 \
 libm.so.6 \
 libnuma.so.1 \
@@ -45,9 +47,11 @@ libsnappy.so.1 \
 libudev.so.1 \
 liburing.so.2 \
 libvdeplug.so.3 \
+libxdp.so.1 \
 libz.so.1 \
 libzstd.so.1 \
 qemu \
-qemu-SLOF"
+qemu-SLOF \
+qemu-vgabios"
 
 inherit rpm

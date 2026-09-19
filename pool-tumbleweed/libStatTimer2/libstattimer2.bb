@@ -16,8 +16,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.12.2"
 
-RPM_NAME = "libStatTimer2-2.12.2-6.9.aarch64.rpm"
-RPM_HASH = "076ebd64f77c530f702aef6ea3b053f291a5c3fa9345c0f44837c8248736212b8a88fcadbfb3c88b1c0cf0500ed24169e1c2449f80f62f357791682c49093b9f"
+RPM_NAME = "libStatTimer2-2.12.2-8.2.aarch64.rpm"
+RPM_HASH = "cde896c89a54ea8e4e490ba7793c2d8caac82046acfe7b823a44486e1ae4eeabc6fb3366db54ad615c3d6f717c4eb9b3b025d0909a5a77e2476e1dbf7d2ee906"
 
 RPROVIDES:${PN} += "libStatTimer.so.2 \
 libStatTimer2"

@@ -5,10 +5,10 @@ or non-physical properties. \
 This package provides MATLAB interface for CSXCAD."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6.2"
+PV = "0.6.3"
 
-RPM_NAME = "CSXCAD-matlab-0.6.2-3.20.noarch.rpm"
-RPM_HASH = "3eee38239b30e81a017de371ede23943dc9fade365b84e417d24e2dd7dc2e83ae6b68db02a17f2ef47d7c7264630cc142228e7a13c51d1d85fd40ddbdfdac99b"
+RPM_NAME = "CSXCAD-matlab-0.6.3-5.1.noarch.rpm"
+RPM_HASH = "6eaca940366f412ba2a772b0f0c803aa7bb9a2bd227342c9848d387400e4694715003ab1b34a7af4a98c78b9f6a73450da796585fcbb812287a632085b1770a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "CSXCAD-matlab"

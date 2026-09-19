@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.9.9"
 
-RPM_NAME = "vgrabbj-0.9.9-1.11.aarch64.rpm"
-RPM_HASH = "8c545ad60581eb5cda8e2e846894026642e93124c6f58e9ffe14a08de14b6b4f2353369dbadde8516afa3a9d98a3473c6b7bcd60954f2737affa37ee0d99170d"
+RPM_NAME = "vgrabbj-0.9.9-1.23.aarch64.rpm"
+RPM_HASH = "68b94daac208950ea322be638a2bdb144cd09baa170b4340ed15c9878c57bc8748b058cb276c2672c3c6e0df382d09957c25c4f91640e6d9119def5089aed8e4"
 
 RPROVIDES:${PN} += "config-vgrabbj \
 vgrabbj"

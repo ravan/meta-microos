@@ -2,10 +2,10 @@ SUMMARY = "Lua JSON Encoding/Decoding"
 DESCRIPTION = "This is the Lua extension package for JSON encoding/decoding."
 LICENSE = "MIT"
 
-PV = "2.1.0"
+PV = "2.1.0.16"
 
-RPM_NAME = "lua54-cjson-2.1.0-2.2.aarch64.rpm"
-RPM_HASH = "e03be72bc8ee4078f8c04aa3f0cae72b6c574c1c4889e3cb1abfb30492a2fc0387b52cf0ec0df5693da9154c0c491a8e0db34c23df57eca2c6b3ff6a90186263"
+RPM_NAME = "lua54-cjson-2.1.0.16-1.3.aarch64.rpm"
+RPM_HASH = "b67976e87adccf4455cce36f8bc38cfb12e927d3379da06262f6eeaa9f379d772cb33dd7ada89e67d6c485068a9d0d1ee0ab758477652e2d0c22992881fc5492"
 
 RPROVIDES:${PN} += "lua-cjson \
 lua54-cjson"

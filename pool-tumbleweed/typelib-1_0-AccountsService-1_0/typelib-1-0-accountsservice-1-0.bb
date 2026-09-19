@@ -8,14 +8,15 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "23.13.9"
 
-RPM_NAME = "typelib-1_0-AccountsService-1_0-23.13.9-4.1.aarch64.rpm"
-RPM_HASH = "40df8081d93e05ebdbdeafbd3773e00566e74eb4912ee588620bcc98fdc62a21574ad3b94be1be00ac01f75d08cf7451a39a7f894165779634d62d32122ab5df"
+RPM_NAME = "typelib-1_0-AccountsService-1_0-23.13.9-12.3.aarch64.rpm"
+RPM_HASH = "6aa5d88f1312eb6050ea3758c6a65027a731deecaa3c91a765b94b0cbcdb9092780bd883614507cb279298d2099314e011737d670c911e62ee22a0ce1b81f487"
 
 RPROVIDES:${PN} += "typelib-1-0-AccountsService-1-0 \
 typelib-AccountsService"
 
 RDEPENDS:${PN} += "libaccountsservice.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

@@ -1,24 +1,26 @@
-SUMMARY = "Jupyter Server Extension Providing Y Documents"
-DESCRIPTION = "A Jupyter Server Extension Providing Y Documents."
+SUMMARY = "Jupyter Server Extension Providing Support for Y Documents"
+DESCRIPTION = "Jupyter Collaboration is a Jupyter server extension providing Support for Y Documents. \
+ \
+This is a meta-package for: \
+- jupyter-collaboration-ui \
+- jupyter-docprovider \
+- jupyter-server-ydoc"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.0.0"
+PV = "4.2.1"
 
-RPM_NAME = "python311-jupyter-collaboration-1.0.0-2.1.noarch.rpm"
-RPM_HASH = "3c8ce56c8a1f075ec66ea7ea762d5e3222cf9552f20fba9e70fc59b6f469021b7fd85317758dc5bfa93e6fc5f9940eab055590f5ed186d2d8d3150295e92809f"
+RPM_NAME = "python311-jupyter-collaboration-4.2.1-1.1.noarch.rpm"
+RPM_HASH = "29b0c01db6578dc2212a40fa1db1a6b1618152246602721585dbb0ea6a397c6d36c5e11b063cd0d24f42cc7b9454e8bc017477b459eeeb5935e9ebfd194bd30e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-jupyter-collaboration \
-python3.11dist-jupyter-collaboration \
+RPROVIDES:${PN} += "python3.11dist-jupyter-collaboration \
 python311-jupyter-collaboration \
 python3dist-jupyter-collaboration"
 
-RDEPENDS:${PN} += "-python311-jupyter-server >= 2.0.0 with python311-jupyter-server < 3.0.0 \
--python311-jupyter-server-fileid >= 0.6.0 with python311-jupyter-server-fileid < 1 \
--python311-jupyter-ydoc >= 1.0.1 with python311-jupyter-ydoc < 2.0.0 \
--python311-ypy-websocket >= 0.8.3 with python311-ypy-websocket < 0.9.0 \
-jupyter-collaboration \
-python-abi \
-python311-jupyter-events"
+RDEPENDS:${PN} += "-python311-jupyter-collaboration-ui >= 2.2.1 with python311-jupyter-collaboration-ui < 3 \
+-python311-jupyter-docprovider >= 2.2.1 with python311-jupyter-docprovider < 3 \
+-python311-jupyter-server-ydoc >= 2.2.1 with python311-jupyter-server-ydoc < 3 \
+-python311-jupyterlab >= 4.4.0 with python311-jupyterlab < 5 \
+python-abi"
 
 inherit rpm

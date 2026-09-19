@@ -7,10 +7,10 @@ separately, but rather is released and maintained as part of \
 the TeX-live sources."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.3.5"
+PV = "6.4.2"
 
-RPM_NAME = "libkpathsea6-6.3.5-93.2.aarch64.rpm"
-RPM_HASH = "61d061f77d752084f32ac164327aaba03b40539f6add59faf58bf3e65a61315e6d64a4683f224ea796bac211bfff022c9a2f43b5b13c764a4232d096b877ff8c"
+RPM_NAME = "libkpathsea6-6.4.2-120.4.aarch64.rpm"
+RPM_HASH = "a8614f2c14b2e0c44f81a6c88e0525709118bd2b17fb202966fb60003eabdfd065b2b64f5c7a9b81e2437355ad8ef8567caeba5470dfc1545c9fb3c722a6d8c4"
 
 RPROVIDES:${PN} += "libkpathsea.so.6 \
 libkpathsea6"

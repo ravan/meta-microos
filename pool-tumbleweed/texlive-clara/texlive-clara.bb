@@ -10,10 +10,10 @@ capitals, and old-style numerals) and variant forms for \
 particular languages."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn54512"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-clara-2023.209.svn54512-54.1.noarch.rpm"
-RPM_HASH = "a2e747ee97cb995e0259cc18f5eb355d01adaccdcb75d29d0b29535b18badebc9a620016a4b345f5d2593b135698c521b975a44cef27b40b7d2d8fb6e5d6d1ea"
+RPM_NAME = "texlive-clara-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "2a79075e44afb5c287a19455ecad7f1577c71a89337ba2b837d44b93d5af4448f2be1de4eeee304143bf2ed1fdeb45655f2f0e63bc7eea0086cc285ae6740d8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Clara.map \

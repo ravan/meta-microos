@@ -6,10 +6,10 @@ useful guide for beginners as well as a reference manual for \
 advanced users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2023svn65461"
+PV = "2026.226.2026svn77555"
 
-RPM_NAME = "texlive-kaytannollista-latexia-2023.209.2023svn65461-56.1.noarch.rpm"
-RPM_HASH = "68f72ff6298f8741cefa7cfd691728fc24777da4bfd7e627e3ed1b3af8f7926e3ef41bfaac131115e1a33f930ad4ed714550b04e0a421a6c586d9275e62d15a2"
+RPM_NAME = "texlive-kaytannollista-latexia-2026.226.2026svn77555-63.2.noarch.rpm"
+RPM_HASH = "b00430e75f1a6784ca161a5299ad8b59c46897d0d4270a3b59a860858e7603a79ffa720c5c86d3050a88118dc5bc60aadf39e848ddc2ad0e1ffe1f5b08f2d998"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kaytannollista-latexia"

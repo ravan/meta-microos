@@ -17,8 +17,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-only"
 
 PV = "3.1.9"
 
-RPM_NAME = "jeuclid-cli-3.1.9-2.7.noarch.rpm"
-RPM_HASH = "8c23ae0dd8510148a829d4a7a62a8ca4561feed0d4f4e47a41c61732147608cb8e3c6718ce1d4f8ccd84d8dfa7c3815b644d68c0ba8bd3b60895e6d49b60a33e"
+RPM_NAME = "jeuclid-cli-3.1.9-4.4.noarch.rpm"
+RPM_HASH = "719f6cb3192dcf256b3f66311edb327cdd19e86b425ddd5f8cd84ffcee56bea77efad354b9ae6e137adbe39e619d5aaf70926d881bf6de262fbeb7f04ce02ec6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeuclid-cli"

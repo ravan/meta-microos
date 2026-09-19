@@ -2,10 +2,10 @@ SUMMARY = "A meta-build system that generates build files for Ninja"
 DESCRIPTION = "GN is a meta-build system that generates build files for Ninja."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.20210811"
+PV = "0.20260907"
 
-RPM_NAME = "gn-0.20210811-4.4.aarch64.rpm"
-RPM_HASH = "f80927e6d2fc1aa7fffb0b5df83bb0cac972a38d0b73248a96a0caae20a9bc71b6490276ce208702d110e3ce38ccd2f026ba83feb7496514196f0d1c44f228f4"
+RPM_NAME = "gn-0.20260907-1.1.aarch64.rpm"
+RPM_HASH = "f1a3ad3f30d7100be3183f85504b0e521f6e59787d447fbec23377db22fe0eeeb9523da827da1f3d88e170270a165121089afe96eefcfac964640f2186ee7f12"
 
 RPROVIDES:${PN} += "gn"
 

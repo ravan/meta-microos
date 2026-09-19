@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Corsican la
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-cos-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "6fc06b2a9dfab257355fafea75884839866435560fa91bef7f04ae7be89f7e36c5184e6265e1c172499ad1a2faf6d83f326f727438e758fc4c3f6558dbbf4833"
+RPM_NAME = "tesseract-ocr-traineddata-cos-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "1e71777df64503f516038c9702feec4250f280e3094fc3abb63752dd58761e04882d7708a40b50d922fe1fdf0846c79d5f63a4e87e71ed4d65d1963b7cb098f8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-corsican \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-co \
+tesseract-ocr-traineddata-corsican \
 tesseract-ocr-traineddata-cos \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-corsican"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

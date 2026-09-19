@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sfg"
 DESCRIPTION = "This package includes the documentation for texlive-sfg"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.91svn20209"
+PV = "2026.226.0.0.91svn20209"
 
-RPM_NAME = "texlive-sfg-doc-2023.209.0.0.91svn20209-54.1.noarch.rpm"
-RPM_HASH = "164e31bc997dc271c3eaf26b3ab954cff4d6c4d0b669f0512bb70ff7d5ee0ecfd303b4eece437d9a1a4f68fe157d94ea1675d4946f330c38b1ad02305c6f0f06"
+RPM_NAME = "texlive-sfg-doc-2026.226.0.0.91svn20209-60.2.noarch.rpm"
+RPM_HASH = "b13f7a4d44ef2b8c0870464aa1d080dd068f081b5e003f1c8ef73eb4e7b6a2942932d95ce39334e2ea72d1c955ea1f5f1af5159ad3872e31c4e71705bf24f609"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sfg-doc"

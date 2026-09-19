@@ -3,10 +3,10 @@ DESCRIPTION = "The libfontenc library is used by the Xorg server and other X fon
 tools for handling fonts with different character set encodings."
 LICENSE = "MIT"
 
-PV = "1.1.7"
+PV = "1.1.9"
 
-RPM_NAME = "libfontenc1-1.1.7-1.3.aarch64.rpm"
-RPM_HASH = "f1c2dd2c7e45f7fcf7abf5a99a0c70ba9f2c8c5e3b656d2f1f9ee06ab3019106bd068e8816fe9412193a5ae120c203262385510a26a5b287013433daa720987d"
+RPM_NAME = "libfontenc1-1.1.9-1.4.aarch64.rpm"
+RPM_HASH = "25a971f17789d9ba7bc4212318e9c3b4cd78bfda0f6c94d6e39da6d5d7974630a970c34373e5fab3bf1f4de576fdad3d344e86aabfb0cf1b2e5566e82518e301"
 
 RPROVIDES:${PN} += "libfontenc.so.1 \
 libfontenc1 \

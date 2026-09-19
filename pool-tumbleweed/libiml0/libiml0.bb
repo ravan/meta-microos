@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.5"
 
-RPM_NAME = "libiml0-1.0.5-5.12.aarch64.rpm"
-RPM_HASH = "b6bb8ba163fda23e03fd9f4d527c61d4e00a6f21ed7a25e9fa2645fcfaa115ad5d228532fd371b76fee3aa03f5ccf111576b4930d649a96be26d6f756f0dc27d"
+RPM_NAME = "libiml0-1.0.5-5.22.aarch64.rpm"
+RPM_HASH = "ed1c28d4b27c9bc5db1f18ad27c5767994a9bdce197f876db50a19a65b50a7d8a27ab7123271ef845d57c864ec796d49993d2e5d600a008c801820a718bbd791"
 
 RPROVIDES:${PN} += "libiml.so.0 \
 libiml0"

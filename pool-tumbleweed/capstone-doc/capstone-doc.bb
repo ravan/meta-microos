@@ -2,10 +2,10 @@ SUMMARY = "Documentation for capstone, a disassembly framework"
 DESCRIPTION = "Capstone is a multi-architecture disassembly framework."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.0.2"
+PV = "5.0.6"
 
-RPM_NAME = "capstone-doc-4.0.2-2.4.noarch.rpm"
-RPM_HASH = "d80edfc31154ee1dadf25511271587a2cb1973a92a40d9afe1f4af16b54304631d6260d90705c90ddbcfe0ff6229ea86b5acd2053f26f26c7eb8593c82f092b9"
+RPM_NAME = "capstone-doc-5.0.6-2.3.noarch.rpm"
+RPM_HASH = "e6345504deccde1ee86f4690c2908a27ec16fe1366f00d5de652aa00bffaff9445dfae72494d6184c2eff29f4d59a13c3fbb4e43d74c0d773cfd6ee07dc1575c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "capstone-doc"

@@ -13,10 +13,10 @@ This subpackage contains the permanent monitoring daemon, to store history \
 information about processes and system resources."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.9.0"
+PV = "2.13.0"
 
-RPM_NAME = "atop-daemon-2.9.0-1.2.aarch64.rpm"
-RPM_HASH = "bd54ef3d4b29a53e77b9bbf092cbeaf686fd5d8baf8e80818b8f7966167cc86e74fb967458123de798accffed8dc9e3a08ea07b72ca3dafa88e5ac7512d287a7"
+RPM_NAME = "atop-daemon-2.13.0-1.1.aarch64.rpm"
+RPM_HASH = "f1130508693336facff1c34acea3597e21f0edea7b522517244c2b04050c23b615cb917160f30bba2fcafa8c45b18723d6745c9306ce1a9dc3d5dd882d398369"
 
 RPROVIDES:${PN} += "atop-daemon \
 config-atop-daemon"

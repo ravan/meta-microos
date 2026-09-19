@@ -2,10 +2,10 @@ SUMMARY = "Performance Co-Pilot run-time import library"
 DESCRIPTION = "Performance Co-Pilot (PCP) run-time import library"
 LICENSE = "LGPL-2.1+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "libpcp_import1-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "bbbaaea4f4e54ce96f75a47a47859c0f537b457e519317c2f8e70abd1cdbb9ebd8ddcc3161e8f4033a9b9f81aa614e2cad8f2bf10da49db0376bf291ca111762"
+RPM_NAME = "libpcp_import1-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "09ecea92138a71a1eb7e263bc675a1e032a012c671fc71ee83fe18852dc8b1ae54d190d90285fa8377d2d3cfd0ebbdb44870193499a3ad36ed7c05243ccd2d13"
 
 RPROVIDES:${PN} += "libpcp-import.so.1 \
 libpcp-import1"

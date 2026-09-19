@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5NewStuff5"
 DESCRIPTION = "Provides translations for the 'libKF5NewStuff5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5NewStuff5-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "4a96566a060c333039f28c1dd7258551e9c42ce8487a0834794396787aaaa22b2228549dd797009f00c678fb0ea25991647233159afabba660713a6b86b6127c"
+RPM_NAME = "libKF5NewStuff5-lang-5.116.0-1.8.noarch.rpm"
+RPM_HASH = "16730e1b88efffb4ae577ad3ee0cffed858712e29ad49a67eaff5a6ca3fad62bd1282b18fb73f64c8a0da70f8af5c3afc5c1aa42b21ba26e2cbdf6ca52ae1cdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5NewStuff5-lang \

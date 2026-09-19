@@ -8,10 +8,10 @@ that is intended to take care of the OS-specific details when writing \
 software that uses serial ports."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.1.1"
+PV = "0.1.2"
 
-RPM_NAME = "libserialport-devel-0.1.1-2.13.aarch64.rpm"
-RPM_HASH = "11eca32a0de3d05b773424709fb8d94fdd4bf2a3d65e0d85592ae8dd86d5e0c703824d3aef14076673fd621bde14f7eff6925af64d424582fbf5a73acd4d00ee"
+RPM_NAME = "libserialport-devel-0.1.2-1.7.aarch64.rpm"
+RPM_HASH = "54c246a2061ab82a7de2eb5859b6efb77b75ab8e44cf9b92261d37a042a646678df0493e7bf4d54d1c168748a494c3a5c8a528342c61f67770024166be02340d"
 
 RPROVIDES:${PN} += "libserialport-devel \
 pkgconfig-libserialport"

@@ -4,10 +4,10 @@ document. The glossary is prepared by an external program, such \
 as xindy or makeindex, in the same way that an index is made."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-makeglos-2023.208.svn15878-53.1.noarch.rpm"
-RPM_HASH = "2d2df6535ad3e441d16c41f29f5eab84ec063ac2440c1704cd7941aa6f592307f7223f707a1fa2fd656ad616695665d232a4e8e4f0d9e6c00d596853988e7354"
+RPM_NAME = "texlive-makeglos-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "67692922ef3850c97a07dd81e0ad1a3a92ca276c39c7a9a58e5f5eb45a72991addb7fdab1c7647b085ad2dd678b009287f04ed8eba941ca065de17bbf434284d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makeglos.sty \

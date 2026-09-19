@@ -15,22 +15,22 @@ unacceptable. \
  \
 In doing so, it is hoped that *Test::Script* can become a module that you \
 can safely make a dependency of all your modules, without risking that your \
-module won't on some platform because of the dependency. \
+module won't install on some platform because of the dependency. \
  \
 Where a clash exists between wanting more functionality and maintaining \
 platform safety, this module will err on the side of platform safety."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.29"
+PV = "1.310.0"
 
-RPM_NAME = "perl-Test-Script-1.29-1.11.noarch.rpm"
-RPM_HASH = "755a81665edab77ca909ba7fb3ddd06c201de787f9e8c6a8cf49caf761e5a0909f147824960737e72e4ed67fa9d70dc98757bf6d8a7a4dc0dc8aea80c55a1508"
+RPM_NAME = "perl-Test-Script-1.310.0-1.5.noarch.rpm"
+RPM_HASH = "34e4189c9755ea98abc62d140304354f656e44420d8263d3dbee1a2eb261ac2c018e8f5731a091170920f41cbb92d05977ba4ac58e13fc3f9bd0c8e7ea881c0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Script \
 perl-Test-Script"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Capture--Tiny \
 perl-Probe--Perl \
 perl-Test2--API"

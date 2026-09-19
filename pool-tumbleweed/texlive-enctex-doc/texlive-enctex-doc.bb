@@ -2,15 +2,15 @@ SUMMARY = "Documentation for texlive-enctex"
 DESCRIPTION = "This package includes the documentation for texlive-enctex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn34957"
+PV = "2026.226.svn34957"
 
-RPM_NAME = "texlive-enctex-doc-2023.209.svn34957-54.2.noarch.rpm"
-RPM_HASH = "7a2c280107923ff26bf85d0751f35acd69206dd9d314f17272499e107fd7e0a00f8e55e595f14cd9d07f94cbffb1b27cf4657675e18f6196c2072f85f927a4e2"
+RPM_NAME = "texlive-enctex-doc-2026.226.svn34957-61.4.noarch.rpm"
+RPM_HASH = "52fda6265f4cfd4e7091aaa0189d0e7c9d2445f0aeb445575bce673be4873e36c98ea2bc5dd2bb8399af254ec6eec4895369c799069fd1f6da027ae55806f620"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-enctex-doc-en;cs \
 texlive-enctex-doc"
 
-RDEPENDS:${PN} += "/usr/bin/python3"
+RDEPENDS:${PN} += "/usr/bin/python3.13"
 
 inherit rpm

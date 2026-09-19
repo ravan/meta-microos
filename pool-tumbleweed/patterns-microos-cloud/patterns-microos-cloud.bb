@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-cloud-5.0-73.1.aarch64.rpm"
-RPM_HASH = "6e2a09352ae4341a039f977a4b6a25d101c44b5f192793417a4b00274ecefa0497d5c996b0b37a6bb22bed4bda47cf0bf88e3147f928dbf0a12fc60221294e98"
+RPM_NAME = "patterns-microos-cloud-5.0-111.1.aarch64.rpm"
+RPM_HASH = "d0d230c256676aba83ef88ad51426ae75af58f5dc63a037493e86f2f20f4daf967ddcdec6c36fb03ff452db8b665ebc2286d3875657f38cfdbcf565bcf9f00f8"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

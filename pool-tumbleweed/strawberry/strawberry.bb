@@ -13,19 +13,19 @@ Features: \
   - Edit tags on music files \
   - Fetch tags from MusicBrainz \
   - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer, Tidal, Qobuz and Spotify \
-  - Song lyrics from Lyrics.com, Genius, Musixmatch, ChartLyrics, lyrics.ovh and lololyrics.com \
+  - Song lyrics from multiple sources \
   - Support for multiple backends \
   - Audio analyzer \
   - Equalizer \
   - Transfer music to iPod, MTP or mass-storage USB player \
-  - Scrobbler with support for Last.fm, Libre.fm and ListenBrainz \
+  - Scrobbler with support for Last.fm and ListenBrainz \
   - Subsonic streaming support"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.0.18"
+PV = "1.2.30"
 
-RPM_NAME = "strawberry-1.0.18-1.3.aarch64.rpm"
-RPM_HASH = "c9fca605799e23afe865d76db1ebdfc12409eb88bbda14d4fcd50936f91e9d4f3fe7a798d606b18f99b6bbbca0cb880e00ee16603a83770a5605b6980a0067e7"
+RPM_NAME = "strawberry-1.2.30-1.1.aarch64.rpm"
+RPM_HASH = "d409fa21e40112cc929dc4857669ef9c1a081c10c33b1ac0d5b54ea3da6a84c79803d380b05d3ace4af2442d14ebde815191e921eefddd9930a75d003fab6a63"
 
 RPROVIDES:${PN} += "strawberry"
 
@@ -42,12 +42,13 @@ libasound.so.2 \
 libc.so.6 \
 libcdio.so.19 \
 libchromaprint.so.1 \
+libcrypto.so.3 \
+libebur128.so.1 \
 libfftw3.so.3 \
 libgcc-s.so.1 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
-libgnutls.so.30 \
 libgobject-2.0.so.0 \
 libgpod.so.4 \
 libgstapp-1.0.so.0 \
@@ -55,15 +56,15 @@ libgstaudio-1.0.so.0 \
 libgstpbutils-1.0.so.0 \
 libgstreamer-1.0.so.0 \
 libgsttag-1.0.so.0 \
-libicui18n.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuuc.so.78 \
+libkdsingleapplication-qt6.so.1.2 \
 libm.so.6 \
 libmtp.so.9 \
-libprotobuf.so.23.4.0 \
 libpulse.so.0 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
-libtag.so.1 \
+libtag.so.2 \
 qt6-sql-sqlite"
 
 inherit rpm

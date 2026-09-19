@@ -1,15 +1,19 @@
 SUMMARY = "A Monitoring Daemon for Maintaining High Availability Resources"
-DESCRIPTION = "ldirectord is a stand-alone daemon for monitoring the services on real \
-servers. Currently, HTTP, HTTPS, and FTP services are supported. \
-ldirectord works with the heartbeat code (http://www.linux-ha.org/). \
+DESCRIPTION = "The Linux Director Daemon (ldirectord) was written by Jacob Rief. \
+<jacob.rief@tiscover.com> \
  \
-See `ldirectord -h` and linux-ha/doc/ldirectord for more information."
+ldirectord is a stand alone daemon for monitoring the services on real \
+servers. Currently, HTTP, HTTPS, and FTP services are supported. \
+ldirectord is simple to install and works with Pacemaker \
+(http://clusterlabs.org/). \
+ \
+See 'ldirectord -h' and linux-ha/doc/ldirectord for more information."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "4.12.0+git50.5c26404e"
+PV = "4.18.0+git94.6c50a9b"
 
-RPM_NAME = "ldirectord-4.12.0+git50.5c26404e-1.1.aarch64.rpm"
-RPM_HASH = "0b66fec4f4697bb74559b711ea5f506c510ed617fc5e1a92bf2a435677b1a147299e0f6272cbb3144ad2e75bb6ce557e78a700b42edf444b79c285c5716ee102"
+RPM_NAME = "ldirectord-4.18.0+git94.6c50a9b-1.1.aarch64.rpm"
+RPM_HASH = "dc50448e819dc4f66106f79d45c014c48b0eb08d1fa3a4f657a0e8b4322010a80d2d68216e991bc5bb291c470dbcaff5cc3d7c80df76bda88ca4531feed3838a"
 
 RPROVIDES:${PN} += "config-ldirectord \
 heartbeat-ldirectord \
@@ -19,11 +23,11 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
 ipvsadm \
 logrotate \
-perl-IO-Socket-INET6 \
+perl-IO--Socket--IP \
+perl-LWP \
 perl-MailTools \
-perl-Net-SSLeay \
+perl-Net--SSLeay \
 perl-Socket6 \
-perl-libwww-perl \
 resource-agents \
 systemd"
 

@@ -12,10 +12,10 @@ englische Paketdokumentation sind deutsche Erlauterungen \
 eingestreut."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.11svn24035"
+PV = "2026.226.0.0.11svn24035"
 
-RPM_NAME = "texlive-dhua-2023.209.0.0.11svn24035-53.1.noarch.rpm"
-RPM_HASH = "ab23a3932638acb82452392d579f23ad62d9281aae4eec09838e4b4eebdce036911ce78ecdf09f8b961eedf4f976ca7c6161ed47818b9a4d57fd6f17908f71f3"
+RPM_NAME = "texlive-dhua-2026.226.0.0.11svn24035-59.2.noarch.rpm"
+RPM_HASH = "7773d699fee74b465213cbc5684621dcd39572da6b59f92a2fdae6f10489886ba1d6fac82420679a9111fce8677823df074f6ad77f746b5b7b1d8fa400eb3baf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dhua.cfg \

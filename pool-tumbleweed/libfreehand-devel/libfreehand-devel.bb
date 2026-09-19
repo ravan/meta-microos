@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.2"
 
-RPM_NAME = "libfreehand-devel-0.1.2-2.19.aarch64.rpm"
-RPM_HASH = "bea4de03206d61951904bbcd421ced7a112d1680012798f741aed3eee22d0500939c53facc8cbfbe007405af917f3046240e48a52889abac049d98c7ef1391f4"
+RPM_NAME = "libfreehand-devel-0.1.2-2.29.aarch64.rpm"
+RPM_HASH = "923d67f90cca463d2f3d93e2933209223ea4a361666bd3b36b1ab2f0b7f143a713636895fbd79960d274975f781548fb74347ec18e2ce3ba66a8379d5696f6fb"
 
 RPROVIDES:${PN} += "libfreehand-devel \
 pkgconfig-libfreehand-0.1"

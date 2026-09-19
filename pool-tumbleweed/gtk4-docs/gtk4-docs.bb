@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains developer documentation for version 4 of th
 widget toolkit."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.12.0"
+PV = "4.22.5"
 
-RPM_NAME = "gtk4-docs-4.12.0-2.1.noarch.rpm"
-RPM_HASH = "ec4d949f8ebc153e7fdd75b267474aeef704902eac57510fb601a7c3debd02adc5dcd10ef1ab1b759056aba76e7065658ab83c5dfe1f6ec903645197c9e71c6a"
+RPM_NAME = "gtk4-docs-4.22.5-1.1.noarch.rpm"
+RPM_HASH = "388a6a52071618be51db70ba18ad6090502de3e1e3f1a1aefbda5cb8705b7321d72cfd09498cceee9ca12851ae8c40bc17afb6c4ace9eec6927f9799c762eb5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-docs"

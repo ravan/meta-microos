@@ -2,10 +2,10 @@ SUMMARY = "Finnish language module for glossaries package"
 DESCRIPTION = "Finnish language module for glossaries package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn54080"
+PV = "2026.226.1.0svn54080"
 
-RPM_NAME = "texlive-glossaries-finnish-2023.209.1.0svn54080-54.2.noarch.rpm"
-RPM_HASH = "75a6c1e84b6e9dda1a4b99c899f35371a2b46e21a41c61c0300cb92d9e25b073ba4b87ecee222f243e3da409a2c4fcdb93c2e71fd3579525f31a3e1ea6d1d57e"
+RPM_NAME = "texlive-glossaries-finnish-2026.226.1.0svn54080-60.4.noarch.rpm"
+RPM_HASH = "bde54b11ec00b3782050f56630ecf076f752a01ec1c1e71c627055805aaef42082963d7cd5bec11b59097b138cb216726c0996d8f385afe1305a4a3ac317cea1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glossaries-finnish-ascii.ldf \

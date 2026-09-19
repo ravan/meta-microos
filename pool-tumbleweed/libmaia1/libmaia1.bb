@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.0"
 
-RPM_NAME = "libmaia1-0.9.0-1.26.aarch64.rpm"
-RPM_HASH = "f453b8375efc2a2ba2df36ca540757d41b6ac155b59fb67824c312d2d491f8c323e08aaae206366c6746a6819c26b9db8a45c966a7d752c841efdba3800fbb34"
+RPM_NAME = "libmaia1-0.9.0-1.37.aarch64.rpm"
+RPM_HASH = "856b67fe1bb54e76524eaffcf2e67a56830221ee0a2b978ad0ffe1d9daeedff26e6255e1b438f28070270f81d09c4a9eb5703d07b9d77025a5795b3375279010"
 
 RPROVIDES:${PN} += "libmaia.so.1 \
 libmaia1"

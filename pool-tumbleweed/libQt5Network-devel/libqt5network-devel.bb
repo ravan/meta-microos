@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 network library"
 DESCRIPTION = "Development files for the Qt5 network library."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5Network-devel-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "ae019099dce0d2ca4e5f3df0801adde32230ea7bde569364d197d57a4a695fc5487e843a135894cb3ea752b93564bb61f9a78cb8a2fe0036c4dc20bb546aa874"
+RPM_NAME = "libQt5Network-devel-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "9eaeb435a0e7a827b7dad1dc5f91b46c1aad8717910ca5492a3ff29bf1ce3c520143eb4cb6b51b0ca2e34624e559e65d37dc5b10027c554fc8427cf2a159e25d"
 
 RPROVIDES:${PN} += "cmake-Qt5Network \
 libQt5Network-devel \

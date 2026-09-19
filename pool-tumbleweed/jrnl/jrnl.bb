@@ -5,19 +5,18 @@ as human-readable plain text, and can also be encrypted using AES \
 encryption."
 LICENSE = "GPL-3.0-only"
 
-PV = "4.0.1"
+PV = "4.2.1"
 
-RPM_NAME = "jrnl-4.0.1-1.1.noarch.rpm"
-RPM_HASH = "86abf97566685d1e6b90a242ba183964a99d0403327cab4ef5091b19c5cb6da3364588074ed19a7cea2664ffb7246850b7a277a7a7b0fbf04ab333f370b6616c"
+RPM_NAME = "jrnl-4.2.1-1.5.noarch.rpm"
+RPM_HASH = "a73c863ec2c4aad151cd20b190899b1c6e3c9a8eb2f9c60cd2c303cdfb52dfeec54f003421dcf4a2a28d0786ebe11f9838641c5787c8c276cea8891c033e4f92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jrnl \
-python3.11dist-jrnl \
+python3.13dist-jrnl \
 python3dist-jrnl"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
-python3-ansiwrap \
 python3-colorama \
 python3-cryptography \
 python3-dateutil \

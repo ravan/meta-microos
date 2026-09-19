@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-srdp-mathematik"
 DESCRIPTION = "This package includes the documentation for texlive-srdp-mathematik"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.11.0svn65293"
+PV = "2026.226.1.14.0svn76697"
 
-RPM_NAME = "texlive-srdp-mathematik-doc-2023.209.1.11.0svn65293-58.1.noarch.rpm"
-RPM_HASH = "892225ff4d5fa022e0806f41982f188d8411c210ae4792fa102cc09a2a28c8310af9643263d7053adbf8fac0f67aab4f11bc51a2c86c6d658eeae99d449996e6"
+RPM_NAME = "texlive-srdp-mathematik-doc-2026.226.1.14.0svn76697-64.2.noarch.rpm"
+RPM_HASH = "5cad6a4297a2d977fbb048451019faaacfd29c58ac70c5191f414209eaed33ab5572bfbcf427eb79d175dea6cfaadc7d2e026bb049f5833d565881fad5b6504c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-srdp-mathematik-doc-de-at \

@@ -4,8 +4,8 @@ LICENSE = "Saxpath"
 
 PV = "1.1.3"
 
-RPM_NAME = "jdom-demo-1.1.3-40.1.noarch.rpm"
-RPM_HASH = "fab23f98624a64468cf1e3369c550a89f22b216283bb2744603732efb2ff756769613704929f60fe1a5f6b980a23784a0f7af13fc3ae3fb2ef473117e90e4c95"
+RPM_NAME = "jdom-demo-1.1.3-42.9.noarch.rpm"
+RPM_HASH = "125e75ec7d00bfbbfb80d5e87607b0f960511f7cdb3878e548531d81a79e9bd141df90f6fb1a238eb122b7bbccd81574e2f53e88cc736a54c616258f972ad28d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdom-demo"

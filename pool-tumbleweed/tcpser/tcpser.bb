@@ -14,10 +14,10 @@ The author also fixed the bug with being unable to connect to real \
 telnet servers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0rc12+git.20191116"
+PV = "1.1.4"
 
-RPM_NAME = "tcpser-1.0rc12+git.20191116-1.14.aarch64.rpm"
-RPM_HASH = "0500afc724aaac84c125ea46120c469fda3fc5c0962a96310c4a8cb194f618f7495f6ded3fd9d8a7b19c8bd2dd665c3e6055f0085145d02ef5c8d82527b0e3d3"
+RPM_NAME = "tcpser-1.1.4-1.3.aarch64.rpm"
+RPM_HASH = "d7a75ffbe0250438f00522d9bd8e4b95059477205283e11051684b3da3498d09fdabc1d33f395ca563e6daa4e82f1c9f9ba3743f35741ae72e02ac4d6f1cfc7a"
 
 RPROVIDES:${PN} += "tcpser"
 

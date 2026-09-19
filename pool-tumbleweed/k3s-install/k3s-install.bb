@@ -19,8 +19,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.24.3+k3s1"
 
-RPM_NAME = "k3s-install-1.24.3+k3s1-1.3.aarch64.rpm"
-RPM_HASH = "86d484ccdaaddac4670c884b53d57220c1b9d658d2e536e7537f9a86b3140b5ab37c3d8126add01be34495f0965fb39e6c998b0fbd5e8ed48b9543943ef4c3ce"
+RPM_NAME = "k3s-install-1.24.3+k3s1-1.11.aarch64.rpm"
+RPM_HASH = "5033a5b4d49d975a0801d54cf8e7b9a5c65a9f11499eea15ebc17b6079acc72654d1dc8c6b118e7a18f71e687bbecfc6e1b40d83f939447c825de6d4fc323ada"
 
 RPROVIDES:${PN} += "k3s-install"
 

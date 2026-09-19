@@ -4,10 +4,10 @@ words it will be loaded only if required). This is a very efficient way \
 of calling Perl from within YaST2 YCP scripts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.5"
 
-RPM_NAME = "yast2-perl-bindings-4.6.0-1.5.aarch64.rpm"
-RPM_HASH = "6969776a98a910fe7821af421d22e1aeaa99ba10d8e96fd9539ac8f36681d2a927a219f67dbf23f6bac81492ca6d4ad4cc552649fc07b4ebbccf6a541e929a59"
+RPM_NAME = "yast2-perl-bindings-5.0.5-1.6.aarch64.rpm"
+RPM_HASH = "90902cb4dd957f0282ee78a275f55a2c98d29a440bc9fa17aa4e168b392ce6a51bae085532ee769f6e54d737fef36db964e7a1fb3439df860babac6248beb7b0"
 
 RPROVIDES:${PN} += "libYCP.so.2 \
 libpy2lang-perl.so.2 \
@@ -33,7 +33,6 @@ libstdc++.so.6 \
 liby2.so.4 \
 liby2util.so.5 \
 libycp.so.5 \
-libycpvalues.so.6 \
 perl \
 perl-Locale--gettext \
 yast2-core \

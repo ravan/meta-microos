@@ -2,10 +2,10 @@ SUMMARY = "Legacy usrmove helper files"
 DESCRIPTION = "Legacy usrmove helper files for the build system. Do not install."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.15"
+PV = "5.3.15"
 
-RPM_NAME = "bash-legacybin-5.2.15-8.6.noarch.rpm"
-RPM_HASH = "d9b8957f96e21de0172919c3b5ee50ce7403c24e3555fdb7095506e07b878ed4dfaa4bb19bce425864eef41d3d1962bf2f1d9b1de791591214c290db64fc2c09"
+RPM_NAME = "bash-legacybin-5.3.15-8.2.noarch.rpm"
+RPM_HASH = "7662cc7c2c3f4b093778bfa8af2810f0e67a7eb1844157e38823e39b18c8a529bd373ff81925c05b26144247ed93e2d82b9379ec537c4aee74d1319101031a27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-legacybin"

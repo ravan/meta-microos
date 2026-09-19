@@ -3,10 +3,10 @@ DESCRIPTION = "Screen gamma calibration helper \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.1"
+PV = "2.14.3"
 
-RPM_NAME = "ftgamma-2.13.1-1.1.aarch64.rpm"
-RPM_HASH = "2d2ce14b157d231b67b306a5569d9ef575740e18f6dd230048a826f504f067734a817ec0d880c085345d4ff9f731786850a21841742ef5e2fd584b33aab5f18a"
+RPM_NAME = "ftgamma-2.14.3-1.2.aarch64.rpm"
+RPM_HASH = "76c22d6a1b8aa41049af370eb605b5b216b002d61586ab381c19bbbf3dd11d10470ca2d741a74827da21d7e00c27e32811900f19db1a9b51e14ac7f2eb0e3418"
 
 RPROVIDES:${PN} += "ftgamma"
 

@@ -3,18 +3,19 @@ DESCRIPTION = "nemo-pastebin is an extension for the Nemo file manager, which \
 allows users to send files to pastebins just a right-click away."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.2.0"
+PV = "6.4.0"
 
-RPM_NAME = "nemo-extension-pastebin-5.2.0-4.1.noarch.rpm"
-RPM_HASH = "8902146a9e51872274391837c549d0c4a519a19a4cba54a6275c4c48d1c05dfbcf1377796396ab0ca60a72fdfef4898e8847071062ca4a6e765fa5ed608767d8"
+RPM_NAME = "nemo-extension-pastebin-6.4.0-6.4.noarch.rpm"
+RPM_HASH = "80b2789f409d1413c39cfc890ba0aaed401381d90a3c22efbe7daea43275d061c5e151764c73e1e3eb435ac6903e99f66b8ab3994306323598e9c2a06d0fab1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-pastebin \
 nemo-pastebin \
-python3.11dist-nemo-pastebin \
+python3.13dist-nemo-pastebin \
 python3dist-nemo-pastebin"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/python3.13 \
 nemo \
 python3-gobject \
 python3-gobject-Gdk \

@@ -7,10 +7,10 @@ complete screen review functionality. \
 This package contains the XWindow braille driver."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.6"
+PV = "6.9.1"
 
-RPM_NAME = "brltty-driver-xwindow-6.6-1.1.aarch64.rpm"
-RPM_HASH = "ee13d33e9a99628765d3472498ef55eba4b7b87f825fffc9d0c0209aa1380d2070837798abfd8b0b5b9db071ae7d7136c671db8836c083a2fb8f3c61f211b46c"
+RPM_NAME = "brltty-driver-xwindow-6.9.1-2.1.aarch64.rpm"
+RPM_HASH = "3ae90f21b463c8268df510631f63d728247597ec61734a4ba050faa04b48c123f971c6b1c0a1f67188463d7c8480b14993f1f21126d2bc4076a46029ee790839"
 
 RPROVIDES:${PN} += "brltty-driver-xwindow \
 libbrlttybxw.so"

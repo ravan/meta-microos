@@ -7,10 +7,10 @@ to access data from a .bib file'. Its principle commands are \
 database."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn25969"
+PV = "2026.226.1.0asvn77682"
 
-RPM_NAME = "texlive-usebib-2023.209.1.0asvn25969-54.1.noarch.rpm"
-RPM_HASH = "fe9c64d58442ebe01ff5cf1964c048ff0c8860809d8b173b9480361623074450b9353e69c7fcde04036648a88d2228c2be7c94f8509101d1e6d6c65931cb0961"
+RPM_NAME = "texlive-usebib-2026.226.1.0asvn77682-60.2.noarch.rpm"
+RPM_HASH = "db81c566ceb32aa44aaf4f1f799daef1411e7d398aa05631fd8b7e9b583f00253dc6e83c82989bb8f7a15aa4592c4372330f0183d8fd00f1ee7f3224c6de19a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-usebib.sty \

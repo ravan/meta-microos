@@ -4,19 +4,19 @@ light gray piece of text) on every page or on the first page of \
 a document. Typical usage may consist in writing words such as \
 DRAFT or CONFIDENTIAL across document pages. The package \
 performs a similar function to that of draftcopy, but its \
-implementation is output device independent. As of today, the \
-package relies on the new shipout hooks directly provided by \
-LaTeX. For users of older versions of LaTeX, the package also \
-provides a legacy version of itself (that is automatically \
-loaded, currently being at release 2.3) which relies on the \
-everypage package. Note that this legacy version will \
-progressively lag behind in terms of features."
+implementation is output device independent. As of December \
+2020, the package relies on the new shipout hooks directly \
+provided by LaTeX. For users of older versions of LaTeX, the \
+package also provides a legacy version of itself (that is \
+automatically loaded, currently being at release 2.3) which \
+relies on the everypage package. Note that this legacy version \
+will progressively lag behind in terms of features."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0svn57099"
+PV = "2026.226.3.3svn77682"
 
-RPM_NAME = "texlive-draftwatermark-2023.209.3.0svn57099-53.1.noarch.rpm"
-RPM_HASH = "abc40b84fee8b2b34840ac9ded4992fd6c31ace97c95f2cd3c4fad2829a1fa4c1ba134e20f95488216b0c4bdc510cc732a7bcdf67cd824b1b3a91d66e79681ec"
+RPM_NAME = "texlive-draftwatermark-2026.226.3.3svn77682-59.2.noarch.rpm"
+RPM_HASH = "baa1c07797b3a873f85e01cb2c9f4ea60c737bc9724a08302af703dc642e9a6fecfad51e4d11ec05be3fc53d33698b3802b552fa7107701bfa0b8eaf82973260"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-draftwatermark-2x.sty \
@@ -33,6 +33,7 @@ tex-color.sty \
 tex-everypage.sty \
 tex-graphicx.sty \
 tex-kvoptions.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

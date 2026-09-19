@@ -11,17 +11,18 @@ HTML documentation for PostgreSQL can be found in the postgresql-docs \
 package."
 LICENSE = "PostgreSQL"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "postgresql-15-2.12.noarch.rpm"
-RPM_HASH = "1303de615afb7114b1a41d2f2efafbc1c24ae0373535c5e41b09c8e94560e5b44242faea956d67a575ed57d1b067d0998f65ad2f316129a4db88404f4e892a2c"
+RPM_NAME = "postgresql-18-3.4.noarch.rpm"
+RPM_HASH = "0345aeec697d52cf2585c716605307bcb366afad097b1b8a118e5f999ae88fa450dfe8353e03401734f0c6c0089dba7e5feccdbe8e61d8ea3a1ffc1f12f6cc0f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "postgresql \
+RPROVIDES:${PN} += "pg-alts \
+postgresql \
 postgresql-noarch"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-postgresql-implementation \
-update-alternatives"
+/usr/bin/sh \
+postgresql-implementation"
 
 inherit rpm

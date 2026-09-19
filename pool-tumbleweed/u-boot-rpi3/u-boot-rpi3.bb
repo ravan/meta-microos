@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the rpi3 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-rpi3-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "ffff195a88750f4089e51af9585fb5192b594805af6e55f6213f25a9e1fd5fe6c405bd88fce130cfeed32aa311c84de62589c29f9f2e774d78720b9f76e0b0e1"
+RPM_NAME = "u-boot-rpi3-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "ca24e70eb023b5be69474559c51d18737a95780cb737e925158de24828ab068a239ca539e5668a872079565f1b08447f218ed8a847d24f94f5567f4ffb243092"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-rpi3"

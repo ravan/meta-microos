@@ -11,10 +11,10 @@ As a bonus (and as an example of doc compatibility) driver \
 files are provided that may be used to typeset the LaTeX Base."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.993svn21292"
+PV = "2026.226.0.0.993svn21292"
 
-RPM_NAME = "texlive-gmdoc-2023.209.0.0.993svn21292-54.2.noarch.rpm"
-RPM_HASH = "c71a7aaf21c970cfc80894076ccdccdfc4d9026fe4eb6ec8d03f5e4c21d23b1559104436ebdc04861c510daacc6835bd1da0db683b905448abb12195de02b4c1"
+RPM_NAME = "texlive-gmdoc-2026.226.0.0.993svn21292-60.4.noarch.rpm"
+RPM_HASH = "f15882c9ff18962464ff68de83c89e0107fa7117d5fb8bd02eef0cd7f2920bed966e18d52e77608627dca161d3d7e1fa215cc6a76b380f55da1fe09fb2fa06ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gmdoc.sty \

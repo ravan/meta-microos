@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.16"
 
-RPM_NAME = "mylvmbackup-0.16-2.16.noarch.rpm"
-RPM_HASH = "656be6d4399eb2e02f49a8b45451d1ad43ae1872b8aea3285663a1c895b8a1d7960fe3301fe9a12cd02c0f1b433a7033c0fcdcae1513602e912d241683459dbb"
+RPM_NAME = "mylvmbackup-0.16-2.24.noarch.rpm"
+RPM_HASH = "c51e5cec76b9b00f3ce73a579479accc8ca8cca3e9a8731e1a0fe40068a5a9c0093af818a4c4af63443281754f4a242c595e53f7ddf9e91b79d4c5ab57bd28a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-mylvmbackup \

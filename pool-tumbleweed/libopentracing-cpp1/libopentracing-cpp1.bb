@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "libopentracing-cpp1-1.6.0-1.10.aarch64.rpm"
-RPM_HASH = "2a111ac91d5ff6d8c20eef6f8f39b967c6df4d12565f6fbe9db86fc460413d3fc003415f5766c072234c600af9d421fb5727965cc833885eb331026e1cf9fec7"
+RPM_NAME = "libopentracing-cpp1-1.6.0-1.20.aarch64.rpm"
+RPM_HASH = "a9b2bba2260c1876fe551ac34e0bcab6e51e624648cf7889dc56f339e8e29d3004495aafab50a5a9df4383fe0af032ca094f7e1ba461b3e6533d358104b5cad8"
 
 RPROVIDES:${PN} += "cmake-OpenTracing \
 libopentracing-cpp1 \

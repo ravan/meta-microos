@@ -3,10 +3,10 @@ DESCRIPTION = "The qd-devel package contains libraries and header files for \
 developing applications that use qd."
 LICENSE = "BSD-3-Clause-LBNL"
 
-PV = "2.3.23"
+PV = "2.3.24"
 
-RPM_NAME = "qd-devel-2.3.23-1.3.aarch64.rpm"
-RPM_HASH = "873a27336a8336a1b9c664db8a5ff9ea261c26de4bd3fe6a0c3200d522f5e128cd3827cec8446d1ec421abe6ea20cfe520008939440cc15f9316d33709959017"
+RPM_NAME = "qd-devel-2.3.24-1.9.aarch64.rpm"
+RPM_HASH = "686d7f1ac08c49c162b8849189bea07aec7bdb0c398264314fc34343635ba2fb4b51df53bd85e247b1ee92f7ecb48c6c065c5131d22370b8834882d1f57d5d22"
 
 RPROVIDES:${PN} += "pkgconfig-qd \
 qd-devel"

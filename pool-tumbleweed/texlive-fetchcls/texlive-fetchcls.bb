@@ -10,10 +10,10 @@ less effort. Just load the package as usual: \
 will hold the name you were looking for."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn45245"
+PV = "2026.226.1.0svn45245"
 
-RPM_NAME = "texlive-fetchcls-2023.209.1.0svn45245-53.1.noarch.rpm"
-RPM_HASH = "c27dc265d9ff2860ab983faaab65fa4a69ad22b903f5e5e1f63bc3dafb8ea6d3a140f5e24fb79a3d515b2d58bd54f47a0bcc2dc307443156d2eeede0095a416a"
+RPM_NAME = "texlive-fetchcls-2026.226.1.0svn45245-59.2.noarch.rpm"
+RPM_HASH = "df5971d45cd0771db019f137fe0410e133611efdabf628d6648233133818c6d7079ac29a81f454b9e67565446995314f8771eedbad627c0561a3034fe91369f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fetchcls.sty \

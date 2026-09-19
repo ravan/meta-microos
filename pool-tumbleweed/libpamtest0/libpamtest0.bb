@@ -3,10 +3,10 @@ DESCRIPTION = "If you plan to test a PAM module, you can use this library, which
 testing of modules."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.1.4"
+PV = "1.1.8"
 
-RPM_NAME = "libpamtest0-1.1.4-2.4.aarch64.rpm"
-RPM_HASH = "e05bd659ba0e950a94674d8d3ea440de89ff0db5c19f7639039f0dd006e6072685b4c34c0f17c68199087261f72910b657f015dc10c94e721343a0d289109b72"
+RPM_NAME = "libpamtest0-1.1.8-1.4.aarch64.rpm"
+RPM_HASH = "dee8e8dc41d6b1716c502bb26ab83f1500f2184e589c40ef994fd00f046b90a9788c3af02eb25e67c9629c1af9f192cc3e25f243c79427e254123e52b980863b"
 
 RPROVIDES:${PN} += "libpamtest.so.0 \
 libpamtest0"

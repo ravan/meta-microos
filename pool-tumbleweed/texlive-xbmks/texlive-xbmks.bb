@@ -9,10 +9,10 @@ auto-detects pdfLaTeX and XeLaTeX, and dvips is the default, so \
 there is actually no need to pass the driver option."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn53448"
+PV = "2026.226.svn53448"
 
-RPM_NAME = "texlive-xbmks-2023.209.svn53448-53.2.noarch.rpm"
-RPM_HASH = "35564db90b28803ffd90e2a563ea609679b635cf34e9ec8fdd0d4298f0feaff17d7c624638582daa2ac762f3f1c408839a6f8f276cee25cd746e7132beca0d94"
+RPM_NAME = "texlive-xbmks-2026.226.svn53448-59.4.noarch.rpm"
+RPM_HASH = "0f6b16ba9cf70da623e08c98a2403c5d2b6aa3069c4f079e823d82ac2432e41a6d0380c94e16276e61676846de7fde0d84e8cebfdf78bdad0d3147597b75c4b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xbmks-pdfmark.def \

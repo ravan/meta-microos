@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-ethiop-t1"
 DESCRIPTION = "The  separated fonts package for texlive-ethiop-t1"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-ethiop-t1-fonts-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "9ba621614093c151be5592b0ceeac8eb20079a37388f53742123a78f6f1e202d546d35d8ce702983a3cca0d010dad0d2ea5ecc99f08a1e5a48d7b059d05cf478"
+RPM_NAME = "texlive-ethiop-t1-fonts-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "dc2c98f1b87e4993f516fa0a021bf958daf3fa8d1194ad6b63843bc4b969c70d757fa04110a139495ea7d25f7539e1bc162421cab296371fce13da8c185360fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-etha10 \

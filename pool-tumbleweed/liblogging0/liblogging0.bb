@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.6"
 
-RPM_NAME = "liblogging0-1.0.6-4.20.aarch64.rpm"
-RPM_HASH = "859c9048545a7aae6321f2ad8c59cf4f1af834cbff6f148da73af17b05463606a29dc281f5db17c64b20d45630a336380b1ef5cceb19d9e56a67a6f4ee53aab6"
+RPM_NAME = "liblogging0-1.0.6-7.5.aarch64.rpm"
+RPM_HASH = "aeca4821f54e86a44aab50609ffff780c10b642abadd1e4c3209b9483a5a644438cf8530dc4503761c1fed00e154ba391d357746bc4006135ff8bed0719a182f"
 
 RPROVIDES:${PN} += "liblogging-rfc3195.so.0 \
 liblogging-stdlog.so.0 \

@@ -7,10 +7,10 @@ cards which are shared with the client machine the emulator is running on, or \
 the cards could be pure software constructs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.8.1"
+PV = "2.8.2"
 
-RPM_NAME = "libcacard0-2.8.1-1.8.aarch64.rpm"
-RPM_HASH = "b4c3b72d8f9bf9c1f8606e1949037aace463a1828134e6e605fb2c2460c6bf15a803fbe7fe3780f1d1eba7af920197e5852099a88ae02ce45fd1795a62c579d7"
+RPM_NAME = "libcacard0-2.8.2-1.3.aarch64.rpm"
+RPM_HASH = "edbdc3fa498c0aa57589afee54341b5362473ad5b5059ffda067db7f591b748802d4bdb293735a5d7e6fd3028317f54a92589d1694b78e9bc238a5a0d370407b"
 
 RPROVIDES:${PN} += "libcacard.so.0 \
 libcacard0"

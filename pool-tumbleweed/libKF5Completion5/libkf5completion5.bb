@@ -3,10 +3,10 @@ DESCRIPTION = "KCompletion provides widgets with advanced completion support as 
 lower-level completion class which can be used with your own widgets."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5Completion5-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "90f9270d82b98c78bfd936134883c013d4f7bc2dfbdb739ada6ed91530b8385d84016fe1476cdaa0fb8275da25537654e8da1ca64f8e9a884bff42215a6e5f48"
+RPM_NAME = "libKF5Completion5-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "32c4e1bb4121a3539ea5b1369009f4d146d8618633b17024d5e19f71044ddbc4d9d9eeb0975d10d8db2a19b2929b8eda45b02d85d628f5ef737a00d00f16e9b4"
 
 RPROVIDES:${PN} += "libKF5Completion.so.5 \
 libKF5Completion5"

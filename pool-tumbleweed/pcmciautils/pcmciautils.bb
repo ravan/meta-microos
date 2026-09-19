@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "018"
 
-RPM_NAME = "pcmciautils-018-3.7.aarch64.rpm"
-RPM_HASH = "77982bfb150e031d69eb2a07a835c08e74d7335fac7002f379a070ba05a75a87397260e0d8db9e43e8af2acbccf3c8337941ee1b5bc919f7653ea7e7f891ec94"
+RPM_NAME = "pcmciautils-018-4.9.aarch64.rpm"
+RPM_HASH = "4d65171d48585a56fa8a4d47b536a0a03c4af5d3ac35d400d635514b6ee6ec3df06ff0e29ed33a3977214dbef0b7cb6e2ec9a4d705025e1b1683712880f441e2"
 
 RPROVIDES:${PN} += "config-pcmciautils \
 firmware-E-CARD.cis \
@@ -18,6 +18,7 @@ pcmcia \
 pcmciautils"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-trusted \
 libc.so.6 \
 libsysfs.so.2 \
 permissions"

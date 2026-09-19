@@ -11,14 +11,14 @@ maps, and we also have an easier and safer replacement \
 for wait and notifyAll."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7"
+PV = "0.11.1"
 
-RPM_NAME = "scala-stm-0.7-2.12.noarch.rpm"
-RPM_HASH = "aba4e4bce32be2321fd4e46f1fa4390afd847c676aaf23a87fa83918ecffb9cf4d517392f1d7b399bc1d59bf25515e2a6a3093384a29ce68e67fa0d3bdb7cf3f"
+RPM_NAME = "scala-stm-0.11.1-2.7.noarch.rpm"
+RPM_HASH = "1687de4dee136f0d274d91d651f5bd89029c20bd71b072e1c48836af91cfc752a67c86b1b30e305c7218cd48be7a213ce5e0149ebdd91d42a26c4fe6b664a95f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn-org.scala-stm-scala-stm-2.10 \
-mvn-org.scala-stm-scala-stm-2.10-pom- \
+RPROVIDES:${PN} += "mvn-org.scala-stm-scala-stm-2.13 \
+mvn-org.scala-stm-scala-stm-2.13-pom- \
 scala-stm"
 
 RDEPENDS:${PN} += "java-headless \

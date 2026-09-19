@@ -2,15 +2,19 @@ SUMMARY = "Development files for libsixel"
 DESCRIPTION = "Development files for libsixel, a C encoder/decoder implementation for DEC SIXEL graphics."
 LICENSE = "MIT"
 
-PV = "1.10.3"
+PV = "1.10.5"
 
-RPM_NAME = "libsixel-devel-1.10.3-1.8.aarch64.rpm"
-RPM_HASH = "b5dc19abd70f50729fca30f00aff84bd1bd1542d360d12bb8a22a6b49d86c534018a812851eb7a6523e24fd7e79572b3b5c93835d69be0ea370d4f7b30808ae4"
+RPM_NAME = "libsixel-devel-1.10.5-2.7.aarch64.rpm"
+RPM_HASH = "46bc1f9757d330b75891a924219e79ffeee9dce0987e9e4af6262dee5b41b22b21cdbcf22d61158d8208f3c7cb6dd71050fc297877cbeea3992d317959cdf0cc"
 
 RPROVIDES:${PN} += "libsixel-devel \
 pkgconfig-libsixel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsixel1"
+libsixel1 \
+pkgconfig-gdk-pixbuf-2.0 \
+pkgconfig-libcurl \
+pkgconfig-libjpeg \
+pkgconfig-libpng"
 
 inherit rpm

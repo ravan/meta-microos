@@ -41,16 +41,15 @@ should be transparent to the end-user, as all the same features are \
 supported."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.14"
+PV = "0.160.0"
 
-RPM_NAME = "perl-Struct-Dumb-0.14-1.3.noarch.rpm"
-RPM_HASH = "ea99e42171796c7522707fac28205868e9f5fcd671442c74f133864ba8335e87ab2c82f2c0b4b8faa43a9aa95280f541e9b9805e7a100768ed434e40fa4443cb"
+RPM_NAME = "perl-Struct-Dumb-0.160.0-1.5.noarch.rpm"
+RPM_HASH = "8fcfe5398f2260a2459f7046f167c6dc44fbfd7fca0f9ddc5e6049f65e6933a26d040b210a369ecfdfd0182dd614d474d4b526ef0e49a66d89c1359de4841be2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Struct--Dumb \
-perl-Struct--Dumb---DestroyWatch \
 perl-Struct-Dumb"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

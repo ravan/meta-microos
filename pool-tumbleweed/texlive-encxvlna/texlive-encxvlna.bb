@@ -7,10 +7,10 @@ and LaTeX. The LaTeX solution tries to avoid conflicts with \
 other packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn34087"
+PV = "2026.226.1.1svn34087"
 
-RPM_NAME = "texlive-encxvlna-2023.209.1.1svn34087-54.2.noarch.rpm"
-RPM_HASH = "55080bd038e9eac005914ace37627a71dcfc2aa07e3d85b73ccfdbc8a24afd7bebf59dffbae98cf3b091beb1cdf9d465217ea99693f6e4b2fef55e5aa811ebde"
+RPM_NAME = "texlive-encxvlna-2026.226.1.1svn34087-61.4.noarch.rpm"
+RPM_HASH = "57e8a1574486afcbd0c2921c69fa4a3af8350e217a6bf7653fba179edeae13d675800fb99525e4ebfc967beea8ff6f41447803faf7592a548156ff43e951be8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-encxvlna.sty \

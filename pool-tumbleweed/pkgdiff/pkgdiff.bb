@@ -4,10 +4,10 @@ The tool is intended for Linux maintainers who are interested in ensuring \
 compatibility of old and new versions of packages."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.7.2"
+PV = "1.8"
 
-RPM_NAME = "pkgdiff-1.7.2-2.8.noarch.rpm"
-RPM_HASH = "4fe34fa6f5680aee0cc9d700a3b8e15b43ccbca1610de79b2c5220d59d76814546a1f9c770b2e7b8274b49ceba1d5e906638a022d65a2857c617f460e0190733"
+RPM_NAME = "pkgdiff-1.8-1.6.noarch.rpm"
+RPM_HASH = "0c92d67516e78f19ce2e9b8aaa5e4432845544b95e9be00b9feea0a69ddb698edf3bc8db77fec50c97a6b41c2e6fa20b864118db19becfabcf19d76fc6dd6f12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgdiff"

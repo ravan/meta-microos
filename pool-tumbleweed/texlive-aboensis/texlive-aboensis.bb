@@ -15,10 +15,10 @@ as initials and two-colored capitals. There are also macros to \
 help achieve even pages with consistent line spacing."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn62977"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-aboensis-2023.209.svn62977-55.1.noarch.rpm"
-RPM_HASH = "ab6c0682f9a934e521023f8a1b29ce96048751cc5dd820dd5e79f22084da8d4bcfb868057383b1caaaa89810716175ff27a3b2d63d3ef64a1a42f1e90b3f7152"
+RPM_NAME = "texlive-aboensis-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "ad42d46260fdf3d01989c3da0a54ffb2d7f771d7f1ac32f95da5a077764a33129c5123afcc313d694537bf9062ecad51c13e0a4bf71688433a8a27477da9b454"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aboensis.sty \

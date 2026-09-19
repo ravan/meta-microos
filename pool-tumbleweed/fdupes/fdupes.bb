@@ -3,10 +3,10 @@ DESCRIPTION = "FDUPES is a program for identifying or deleting duplicate files \
 residing within specified directories."
 LICENSE = "MIT"
 
-PV = "2.2.1"
+PV = "2.4.0"
 
-RPM_NAME = "fdupes-2.2.1-1.4.aarch64.rpm"
-RPM_HASH = "de8d61fecdfe89d1a4a446632f319c8315b9fb98ed398c26537e70533a491c7a28b13c212be4989f4a2e1af93059ac82edf607aae4dbf9668daa9a67323685a3"
+RPM_NAME = "fdupes-2.4.0-1.5.aarch64.rpm"
+RPM_HASH = "dbe1220cb1c211514f2dc6372cb304cad41d1034defc89937b85a5fe2ea2e1eb912b50826a2ce1e4a4d51ffe00a87fb7c12690119a942be36250a6099b61e42d"
 
 RPROVIDES:${PN} += "fdupes \
 rpm-macro-fdupes"

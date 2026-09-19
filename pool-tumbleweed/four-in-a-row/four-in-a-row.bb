@@ -5,10 +5,10 @@ his/her own row of four. Four-in-a-Row can be played against another \
 human or the computer."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "3.38.1"
+PV = "3.38.1+62"
 
-RPM_NAME = "four-in-a-row-3.38.1-1.15.aarch64.rpm"
-RPM_HASH = "e277b11b8e8bfdad653634df5c813d3039a095a4488e3062fbf417dff4fcb27c52361925888c865d2fa8cd349f1e56fa1c9a754e789b7d1f502de4cefc6688bb"
+RPM_NAME = "four-in-a-row-3.38.1+62-1.2.aarch64.rpm"
+RPM_HASH = "f4ac149e84883e6c0bb96d96452235625313dafe99d847f6f347c88e8a01709abfdef90cf50a4e35bc9758d9464fb335b0c4bbeced0c991719e47da834cfd57a"
 
 RPROVIDES:${PN} += "four-in-a-row"
 

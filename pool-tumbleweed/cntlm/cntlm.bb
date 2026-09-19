@@ -6,13 +6,15 @@ proxies, while using by orders or magnitude less RAM and CPU. Manual page \
 contains detailed information."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.92.3"
+PV = "0.94.0"
 
-RPM_NAME = "cntlm-0.92.3-11.8.aarch64.rpm"
-RPM_HASH = "5cf414cba455a2f47f05f06afb92d8735b7609682076b618260dfa12653ebc153d76c4e13687da059f953e3aa58ca4c7b998a9d2f42eccb6edb8314339886bf7"
+RPM_NAME = "cntlm-0.94.0-1.3.aarch64.rpm"
+RPM_HASH = "30aeab40142003cedea4fb4304bd46b769e7ab38c30dc3391544e429c9adc34e6249097e5f2fe63f1e0463af6d2edfdee64a73ce20b7948ca06ac69b8510170f"
 
-RPROVIDES:${PN} += "cntlm \
-config-cntlm"
+RPROVIDES:${PN} += "bundled-duktape \
+cntlm \
+config-cntlm \
+user-cntlm"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \
@@ -22,7 +24,8 @@ grep \
 group-nogroup \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-pwdutils \
+libm.so.6 \
+shadow \
 systemd"
 
 inherit rpm

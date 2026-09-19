@@ -4,10 +4,10 @@ coroutines in connection with certain asynchronous Qt actions. This package \
 provides a library for websockets support."
 LICENSE = "MIT"
 
-PV = "0.9.0"
+PV = "0.13.0"
 
-RPM_NAME = "libQCoro5WebSockets0-0.9.0-1.1.aarch64.rpm"
-RPM_HASH = "2f66f05b289463544089d3854b50f0a94ea1f3269c64542882bd3e7c750d4d41558b4432493241410cf86473216a6bc740496768f7bc4ba30e3fa330776144c2"
+RPM_NAME = "libQCoro5WebSockets0-0.13.0-1.2.aarch64.rpm"
+RPM_HASH = "ce445d1f08b9b3c6a19ba9a838b368de7da41720b10d56bfd02dce1908cec58ccaefe4106b9c612ecd6ac409739f20c9b7e464bfeb8e60bf8ad29232ad3e0950"
 
 RPROVIDES:${PN} += "libQCoro5WebSockets.so.0 \
 libQCoro5WebSockets0"

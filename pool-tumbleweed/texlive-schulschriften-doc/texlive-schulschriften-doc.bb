@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-schulschriften"
 DESCRIPTION = "This package includes the documentation for texlive-schulschriften"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5svn59388"
+PV = "2026.226.5svn59388"
 
-RPM_NAME = "texlive-schulschriften-doc-2023.209.5svn59388-54.1.noarch.rpm"
-RPM_HASH = "0b3a499af22885a5168bf66f6151dc3e7a4e9d08f78ec4ab4a3337dc9e80e2f4418b301ca5f706a36ad86b82110d9a6db2c5fba2618c435b8cf5c895117efd6e"
+RPM_NAME = "texlive-schulschriften-doc-2026.226.5svn59388-60.2.noarch.rpm"
+RPM_HASH = "0956ded8c5eaefa3b02c405205f15701b0d15fd6ccb52737828f9eaecccad2c8d1db5cb020345f4dfcc8bae6c4f25506024dfb97166b74aedebb41f49f575652"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-schulschriften-doc"

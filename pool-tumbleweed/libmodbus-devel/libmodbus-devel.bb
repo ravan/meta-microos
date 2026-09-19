@@ -7,10 +7,10 @@ The functions included in the library have been derived from the Modicon Modbus 
 Protocol Reference Guide which can be obtained from Schneider."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.1.10"
+PV = "3.2.0"
 
-RPM_NAME = "libmodbus-devel-3.1.10-1.2.aarch64.rpm"
-RPM_HASH = "caf3c53d7d47dfa927dc53e6709a8a71140686bf0089a238ac61ad506c5ff95797e6caef03063ae5f84b0f23960db3caaf97f9398eaadc02907ef4c683c19925"
+RPM_NAME = "libmodbus-devel-3.2.0-1.2.aarch64.rpm"
+RPM_HASH = "19d97ca020b35470b8364c50826c99aaea123134f2e1ae03fe68645cc1b3f57c89151f78446121a9548a2f1fdb50e4ae9deafd7b7918f5e99d6b8d40d3410601"
 
 RPROVIDES:${PN} += "libmodbus-devel \
 pkgconfig-libmodbus"

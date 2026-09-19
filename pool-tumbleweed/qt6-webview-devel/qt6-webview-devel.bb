@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 WebView library - Development files"
 DESCRIPTION = "Development files for the Qt 6 WebView library"
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-webview-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "a337932b03b94efb958f25c2340f1668ef20c614dcef6d97290ba1614b11f18dd49e88954a6763887387b2c7f5a6ad20ab3505d89eb8bab8daf6ccf585d3b0c1"
+RPM_NAME = "qt6-webview-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "7f3a3d287b16a67937b3012f3bccb040e72fad00ca0c19d4d577d7dbacf8ca7ff2a6895607eec22bca75cf1a4f691e8981c6186b03eeffb552a094df070965e9"
 
 RPROVIDES:${PN} += "cmake-Qt6WebView \
 pkgconfig-Qt6WebView \

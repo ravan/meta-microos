@@ -15,28 +15,15 @@ Features: \
   metadata containers."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "0.9.7"
+PV = "0.9.9"
 
-RPM_NAME = "eyeD3-0.9.7-1.3.noarch.rpm"
-RPM_HASH = "417f90a3acbcb31182d49cad86ccdaac9ae5acaf46aacd65e85192e94136c5008e8fede6096e68459e2ed544b80ea6759a20f137e826ea9a041afda9a6e94aa6"
+RPM_NAME = "eyeD3-0.9.9-1.4.noarch.rpm"
+RPM_HASH = "5709dc75fc7ff68fc811ece6c2f0f13ff6ca8fd858e893605196bb9c2e224a1521cf5b72a413236dcf5e4ecf3992cbf4dddc898ffea3aa0b978fbf95ab73bcf1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "eyeD3 \
-python3.11dist-eyed3 \
-python3dist-eyed3"
+RPROVIDES:${PN} += "eyeD3"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-python-abi \
-python3-chardet \
-python3-colorama \
-python3-deprecation \
-python3-filetype \
-python3-idna \
-python3-packaging \
-python3-pyparsing \
-python3-requests \
-python3-six \
-python3-toml \
-python3-urllib3"
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
+python313-eyed3"
 
 inherit rpm

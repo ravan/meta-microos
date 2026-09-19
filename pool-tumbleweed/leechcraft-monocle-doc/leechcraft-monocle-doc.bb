@@ -7,10 +7,10 @@ to corresponding packages (like leechcraft-doc). This documentation \
 is also available online at http://doc.leechcraft.org/monocle/"
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-monocle-doc-0.6.70+git.14794.g33744ae6ce-3.3.noarch.rpm"
-RPM_HASH = "c59ba286e1134c168285c86c4d36ed33e593331149ad16ea4ded45512ae4d54067375d9da1e6d57b6a79d9d56566171c46f662043017280079b654b8ab1e7dc2"
+RPM_NAME = "leechcraft-monocle-doc-0.6.70+git.18808.g3467692359-3.1.noarch.rpm"
+RPM_HASH = "aa5e763b8d3f4186c9effbfa894b8dadb2e347ac2e7f0868e903e4421ad46dcac1ba5b4691fccb4d1bed727c90c019ff6ce77d4c3057e980e65272d96e2cf74a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "leechcraft-monocle-doc"

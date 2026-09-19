@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.3"
 
-RPM_NAME = "libkeyutils1-1.6.3-6.1.aarch64.rpm"
-RPM_HASH = "7103b2625f7fbadb727be76fb4a9c646d4a3e7b4aad07cac7b62cfcce5af50676678f262b18c0e7a3fac7183ed7ed0034aeb7b9ef7467f000f351bfe84fb63b1"
+RPM_NAME = "libkeyutils1-1.6.3-7.10.aarch64.rpm"
+RPM_HASH = "9c21d57a4873888cb71ec798122f744adc5d8d3c50bb19e1ce5cde964dedab6bbd57111204f2b41b7656a789699bc02b84945a26d3012fdb3461f02321090115"
 
 RPROVIDES:${PN} += "keyutils-libs \
 libkeyutils.so.1 \

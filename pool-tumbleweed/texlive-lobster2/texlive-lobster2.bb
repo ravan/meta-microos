@@ -6,10 +6,10 @@ and terminal forms; for the best results, use XeLaTeX or \
 LuaLaTeX. There are two weights and italic variants for both."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64442"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-lobster2-2023.209.svn64442-55.1.noarch.rpm"
-RPM_HASH = "4b83f44db613f3c36131a90805ee44e304e03913c7085c04385b82ce382b709794f23e1645e3b4fc0025e8f2137be6dc053900abb6f5a2c4a5525e7c7cc1629d"
+RPM_NAME = "texlive-lobster2-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "e9c59c6af569a6190f929deadc1ede8e8c8b854b5c7a968702b83e3d8ab2c76f4f0de976136444156fb89e06aa3dbd91624936f063e676d39815e74230f1fb28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Lbstr-LF.fd \

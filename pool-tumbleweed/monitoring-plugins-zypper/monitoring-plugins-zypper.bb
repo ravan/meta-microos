@@ -12,10 +12,10 @@ If you like to know the names of available patches and packages, use \
 the '-v' option."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.98.11"
+PV = "1.98.12"
 
-RPM_NAME = "monitoring-plugins-zypper-1.98.11-1.1.noarch.rpm"
-RPM_HASH = "8d914201850f6501fe6c3efef82146185a6a9f66f44a45d0f8bfb2d5028fdc9d9a3bb2ecfc9fbee9a6f39c74874cdb4f603d4182a36fe11c741127bf2f88f44c"
+RPM_NAME = "monitoring-plugins-zypper-1.98.12-1.4.noarch.rpm"
+RPM_HASH = "81134b9eb3b7d4c68162d81bbc451644f3d9ac52c3fbf60316b1393406e2d95cd33d9fe8ec3c95edfe67ec5dff1c4bd9711c3e83865ca94931a5de8779b416ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-zypper \

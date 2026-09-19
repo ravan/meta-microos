@@ -2,10 +2,10 @@ SUMMARY = "Haskell time-compat library documentation"
 DESCRIPTION = "This package provides the Haskell time-compat library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.9.6.1"
+PV = "1.9.9"
 
-RPM_NAME = "ghc-time-compat-doc-1.9.6.1-5.9.noarch.rpm"
-RPM_HASH = "89138ec70ce47b90d46718b4cf4db87316e422c73d8423e2367914fb780e9815ff7265d3fb66b124073348682017241dbaef1bf9eaf9709d4ac7796146a2fca8"
+RPM_NAME = "ghc-time-compat-doc-1.9.9-1.3.noarch.rpm"
+RPM_HASH = "d20ab8270eaf048e99a97bd2e5b59c43799276a2e07719b4d31554b664b36a04fde2879539fd2da1db782d894efa4b42ab38a3314933fec960414a32396373ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-time-compat-doc"

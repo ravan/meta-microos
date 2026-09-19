@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.6"
 
-RPM_NAME = "libsysstat-qt5-0-0.4.6-1.9.aarch64.rpm"
-RPM_HASH = "a948688b351b7b90ba39ebfeaba91a8226017ea8e218072c0f0ace56bb9b924f6025ee7c72a960788a6290811394481fba8ff54fc19c117b07b4af3cee0f645d"
+RPM_NAME = "libsysstat-qt5-0-0.4.6-2.9.aarch64.rpm"
+RPM_HASH = "041664c6fcc04dcd339638f0e0611fad87475d0bf56401df938b96378a829993d6669cff5a2d6deea7f82c83984dc29f0ead761a9bf40e7d9f0a21e8678368da"
 
 RPROVIDES:${PN} += "libsysstat \
 libsysstat-qt5-0 \

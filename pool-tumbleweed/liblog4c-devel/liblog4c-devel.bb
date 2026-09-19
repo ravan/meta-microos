@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.2.4"
 
-RPM_NAME = "liblog4c-devel-1.2.4-5.27.aarch64.rpm"
-RPM_HASH = "8657190ed654ad9c08ec676d0d4bfda4418f902ee815123774657d110d466397923a36eec10f073ccb196624c73eb8f0ff1e6867916c954f42eb2f2544fe65ae"
+RPM_NAME = "liblog4c-devel-1.2.4-5.38.aarch64.rpm"
+RPM_HASH = "526086187e52898db0ca64d4ef835775a362ccdf51cb867437dd33c677944bfbb0918d2d0ca02f92c0177c9b32d6284e6968c532a8af2af45ae63e61df90875c"
 
 RPROVIDES:${PN} += "liblog4c-devel \
 pkgconfig-log4c"

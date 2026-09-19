@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-winforms-6.12.0-5.4.aarch64.rpm"
-RPM_HASH = "e45a92accf58aa5abbae13024397ecf3226231ba6656c40645c20012c4c11582b168f29c9e398d9a6a0f8b6e9a099f53143c1d7922c94dd4e288cefc5571c4db"
+RPM_NAME = "mono-winforms-6.12.0-8.11.aarch64.rpm"
+RPM_HASH = "7e02e001492e7535485b7309fee36ee7a572c8c02e3a4a4ddf8f39746e4f7e4bfb8c32f12feb371cc0941783cf223629b778fce7e41c4bbee32c8453d852d7ed"
 
 RPROVIDES:${PN} += "mono-Accessibility \
 mono-Mono.WebBrowser \

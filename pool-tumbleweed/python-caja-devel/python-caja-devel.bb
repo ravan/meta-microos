@@ -6,10 +6,10 @@ It allows writing menu, property pages and column providers \
 extensions, so that Caja functionality can be easily extended."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "python-caja-devel-1.26.0-1.11.aarch64.rpm"
-RPM_HASH = "e9f680f79f0b4f9d8ec5b6244ae7f81d3ba614623002fc2b8b8edaaf7031d79ad28198de882cb9ff2eefca0cef2b4bbd69b741fc2cca4b0f22923a8a35aed09b"
+RPM_NAME = "python-caja-devel-1.28.0-1.9.aarch64.rpm"
+RPM_HASH = "c1a68d0b8d713bce3cb5c9b1bdff581297d9781758a55ed339adc7853c6dbdf3692b8a24ac3b366bfbb8db4fe9bb81349d5e2516076cd5b597a56b874a294f85"
 
 RPROVIDES:${PN} += "pkgconfig-caja-python \
 python-caja-devel \

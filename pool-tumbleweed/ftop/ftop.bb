@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0"
 
-RPM_NAME = "ftop-1.0-2.6.aarch64.rpm"
-RPM_HASH = "229bf8966e46b399bbb8d6c8da737844f95fff3576f22fc1265c4af54cede9f01c0c4c742fe88a1a617e4f1679eff1b262fc45585be1bdebf330fda23ed0bbb5"
+RPM_NAME = "ftop-1.0-3.9.aarch64.rpm"
+RPM_HASH = "d747290594db9b0ace1a0c88bb2d245f6b3cd0fc0ca55b7cabba31a22b83f277317195db04510a7c5cf5cc06f61c0dd3729b84ecbec4ac033a4a0bb0edea956d"
 
 RPROVIDES:${PN} += "ftop"
 

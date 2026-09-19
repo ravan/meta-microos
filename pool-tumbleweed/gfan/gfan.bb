@@ -3,10 +3,10 @@ DESCRIPTION = "Gfan is a software package for computing Gröbner fans and tropic
 varieties. These are polyhedral fans associated to polynomial ideals."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.6.2"
+PV = "0.7"
 
-RPM_NAME = "gfan-0.6.2-4.14.aarch64.rpm"
-RPM_HASH = "4ada50bbd6b2d9b01cf93f0f1f93724fa806dc954bd009eb2e9bb8d9ae6cd66f11d517b620462ed4f903d2fcf266948b64dd51b2c3e21dbe4d5de923dcf2be89"
+RPM_NAME = "gfan-0.7-2.5.aarch64.rpm"
+RPM_HASH = "a3fab9c1bc2d776ad3a1205bcfb66efe5de4dd8fc1ab167bc045e3dd7b3bcd9c4b2f1210ecca451902a1a5fc56a1b018846d9e85b6781c9fe3845e9098d52a39"
 
 RPROVIDES:${PN} += "gfan"
 

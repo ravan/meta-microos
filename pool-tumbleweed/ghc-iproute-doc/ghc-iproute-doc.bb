@@ -2,10 +2,10 @@ SUMMARY = "Haskell iproute library documentation"
 DESCRIPTION = "This package provides the Haskell iproute library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.12"
+PV = "1.7.15"
 
-RPM_NAME = "ghc-iproute-doc-1.7.12-2.9.noarch.rpm"
-RPM_HASH = "4fec35864501717ba60c8636ad797424dee7a76c596156e2dfc5cbac3b233e12cdd7cb989a743dea6c2b444ed402892771660d6daeaba5d2d5ba8786aff0a480"
+RPM_NAME = "ghc-iproute-doc-1.7.15-1.19.noarch.rpm"
+RPM_HASH = "3b8727e4a09c85b7dd666e0c7fc924afe425197b16fc979201df7bd975acefe188d95c2b2ef878983f82486e3d589a1efe92e962c7ec3a9bbcf75d9af5346eb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-iproute-doc"

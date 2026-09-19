@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.4"
 
-RPM_NAME = "rpcgen-1.4.4-1.1.aarch64.rpm"
-RPM_HASH = "ac5d708250ea57fb2ebf6c1600af0b41eaf8e128cd4a39c787933ecd4813be005101a733eec7fbb2deb85446fd960c46aa5cc58cf5a3a1781c54f280a37f3544"
+RPM_NAME = "rpcgen-1.4.4-1.11.aarch64.rpm"
+RPM_HASH = "de5986fa49ec89032ca284e13e677f3c97ab20dc7530fd9bf61ace4295cf7357b7c0b05959e5eff95bd9b03853ed6af8f2e620976e3de9b23866f8d2c1d4a45c"
 
 RPROVIDES:${PN} += "glibc-devel-/usr/bin/rpcgen \
 rpcgen"

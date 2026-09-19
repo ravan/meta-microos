@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package po4a"
 DESCRIPTION = "Provides translations for the 'po4a' package."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "0.69"
+PV = "0.74+git.1774221329.f4123361"
 
-RPM_NAME = "po4a-lang-0.69-1.4.noarch.rpm"
-RPM_HASH = "7f8ef0a6509b1dc4788c25865b60ea4ae0bd59c24681e617fd66bed5602f242d72a06cba1c01a70b553a4ebc73bd1f87c7492d1f0256c4cab1a9325a2f20124a"
+RPM_NAME = "po4a-lang-0.74+git.1774221329.f4123361-1.4.noarch.rpm"
+RPM_HASH = "9519dc626e03d22e1f0492ec356627cd96776198c6c2d7b5eb89814acfe30b2aff22baae9cf4251fcbedf7eb5b6ae1b542ebc5f1c3816fa7e1aaed9d717d3e34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-po4a-af \
@@ -32,13 +32,15 @@ locale-po4a-nl \
 locale-po4a-pl \
 locale-po4a-pt \
 locale-po4a-pt-BR \
+locale-po4a-ro \
 locale-po4a-ru \
 locale-po4a-sl \
+locale-po4a-sr \
 locale-po4a-sv \
+locale-po4a-ta \
 locale-po4a-uk \
 locale-po4a-vi \
-locale-po4a-zh-CN \
-locale-po4a-zh-HK \
+locale-po4a-zh-Hans \
 locale-po4a-zh-Hant \
 po4a-lang \
 po4a-lang-all"

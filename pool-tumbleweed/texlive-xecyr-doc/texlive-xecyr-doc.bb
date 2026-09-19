@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xecyr"
 DESCRIPTION = "This package includes the documentation for texlive-xecyr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn54308"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-xecyr-doc-2023.209.1.2svn54308-53.2.noarch.rpm"
-RPM_HASH = "d74fa1f8ec837abe9321d659b6a0176727ddbb97b4e6d5cdbad2f75eaf648846260a441df0a82b162f25487b8a24e311ae545107b55209e8c3358f8348d8bffa"
+RPM_NAME = "texlive-xecyr-doc-2026.226.1.2svn77682-59.4.noarch.rpm"
+RPM_HASH = "fa4eeb3b48341d8fa55d244ae22d0f6bfc4e6cd2ec6c008842935eb3738549362c468929c158fe29f8adfe01d74bbdd975f86c576f3961f59a08c379839fc8ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xecyr-doc-ru \

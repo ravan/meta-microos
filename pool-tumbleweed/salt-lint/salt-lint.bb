@@ -175,19 +175,19 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "salt-lint-0.9.2-1.1.noarch.rpm"
-RPM_HASH = "ba10fe2f013e3f04faadfd45972284ca6d7f3107bece8d80309d07343724bc23570dff5f24b081f4bcb1b00c08beb145d5f75c7fcf6155c06cda5df1aba63da8"
+RPM_NAME = "salt-lint-0.9.2-3.1.noarch.rpm"
+RPM_HASH = "84d95ae9a581560fb50ffd2c1c8253a93871b0baa579a03bb9fabc81d9ef032809e1c0454b7575e7685690e347f266fe6f6ce438930a55999a76c7bc7047f5e9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-salt-lint \
+RPROVIDES:${PN} += "python3.13dist-salt-lint \
 python3dist-salt-lint \
 salt-lint"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
-python3 \
-python3-PyYAML \
-python3-pathspec \
-python3-salt"
+python313 \
+python313-PyYAML \
+python313-pathspec \
+python313-salt"
 
 inherit rpm

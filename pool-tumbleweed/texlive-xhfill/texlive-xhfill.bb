@@ -4,10 +4,10 @@ command. It allows modification of the width and the colour of \
 the line."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn22575"
+PV = "2026.226.1.01svn77682"
 
-RPM_NAME = "texlive-xhfill-2023.209.1.01svn22575-53.2.noarch.rpm"
-RPM_HASH = "c99dcfd1f95d4a52e0b3e407b44987d5b5d1ce38ef47e36ece3fd49110dbc7769d8ee17316137f7981e067a7e855620c55d19b850e19f1a1cfc3cb5399b5ef89"
+RPM_NAME = "texlive-xhfill-2026.226.1.01svn77682-59.4.noarch.rpm"
+RPM_HASH = "84ef396bf831af6a7c271a7a448bc0155b0266291416fd1ff9caff0a986a50fedaf71b26c4d846a8020e0e3eab52a8323300ff0b3beb13be0b6d9c5d9cf497c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xhfill.sty \

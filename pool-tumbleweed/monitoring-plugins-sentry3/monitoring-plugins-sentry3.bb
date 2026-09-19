@@ -6,12 +6,12 @@ It checks the following: \
 1) Environmental temperature (Auto-detects all sensors) \
 2) Environmental humidity (Auto-detects all sensors) \
 3) Input power (Auto-detects all input feeds)"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2012"
 
-RPM_NAME = "monitoring-plugins-sentry3-2012-101.14.noarch.rpm"
-RPM_HASH = "034ae4b0c2f91dabb93ab3477cfdb216b22b6611c9d8badff01df1c08457f8c06cd880f5344246357a952c1a9f977b5d6083f113f1b1ecf8b0d394e36712245e"
+RPM_NAME = "monitoring-plugins-sentry3-2012-102.7.noarch.rpm"
+RPM_HASH = "e12e484ca58a8652cf6762f7bb113574c6da230e035c878ffa9d0dd1bb8ba6298055bd718c1c16dc03939e9e65e11541aa428b55494ad17efb9d4d391b0d107b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-sentry3 \

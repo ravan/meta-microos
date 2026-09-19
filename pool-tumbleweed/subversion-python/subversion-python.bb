@@ -2,10 +2,10 @@ SUMMARY = "Allows Python scripts to directly use Subversion repositories"
 DESCRIPTION = "Provides Python (SWIG) support for Subversion version control system."
 LICENSE = "Apache-2.0"
 
-PV = "1.14.2"
+PV = "1.14.5"
 
-RPM_NAME = "subversion-python-1.14.2-6.2.aarch64.rpm"
-RPM_HASH = "cb37b8bb66d54985221819b9d8ab5fe5ddd83162ce6f17d5f28bb8a27d6aa54db33ce9225a54b430542f6f8b00dcac08fae8803b572e2f37217c6ffc686826d3"
+RPM_NAME = "subversion-python-1.14.5-5.3.aarch64.rpm"
+RPM_HASH = "2cc28eecfa118fb7afeac08c564675f94e560e357625c7de1c4230b9497b8319450fe4ebd7cb0785db43306ddaa76c1a26378013680e57dc50a0a96c70541607"
 
 RPROVIDES:${PN} += "libsvn-swig-py-1.so.0 \
 subversion-python"

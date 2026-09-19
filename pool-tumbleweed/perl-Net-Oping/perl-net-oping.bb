@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.10.0"
 
-RPM_NAME = "perl-Net-Oping-1.10.0-1.20.aarch64.rpm"
-RPM_HASH = "adbfcf161bcc99ead538f7ba431bb61c9b84cae7e74bd2ded4dc4751554b39a53ea0228b8f1cbcf81631b337d28ac517f347356b866bc7c73c7bc22942aecfb1"
+RPM_NAME = "perl-Net-Oping-1.10.0-2.15.aarch64.rpm"
+RPM_HASH = "153f96c10627f19288f1e90ad4f83f7e3cc27ef66cd9cd0aebd08cf29c4100a5ae3f7016bc64f74b1affff3049939521ee0c0d258b8fcf42221d6b8110fe413f"
 
 RPROVIDES:${PN} += "perl-Net--Oping \
 perl-Net-Oping"

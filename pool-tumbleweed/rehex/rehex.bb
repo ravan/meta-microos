@@ -10,30 +10,29 @@ Current features include: \
     Highlighting and annotation of ranges of bytes"
 LICENSE = "GPL-2.0-only"
 
-PV = "0.60.1"
+PV = "0.64.0"
 
-RPM_NAME = "rehex-0.60.1-1.1.aarch64.rpm"
-RPM_HASH = "26d17cd8a7955c8f787412cc673fc0124e6e98e9ac3c8a5f2832ee97b81ac80445eb25c4208ae4625873341c9f7cb3e311e3d2f9db43c8464637433664df8d10"
+RPM_NAME = "rehex-0.64.0-1.5.aarch64.rpm"
+RPM_HASH = "d96fe2b987235e96e22ca3a2617b9164187757a146ae8c33fbc9624a885b9a402afeeda539ce51ddc57a17ad7bc367d6a73b1f044be80146567dab4b8c0bfc6a"
 
 RPROVIDES:${PN} += "rehex"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libbotan-3.so.13 \
 libc.so.6 \
-libcapstone.so.4 \
+libcapstone.so.5 \
 libgcc-s.so.1 \
-libgobject-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 libjansson.so.4 \
 liblua5.4.so.5 \
 libm.so.6 \
 libstdc++.so.6 \
 libunistring.so.5 \
-libwx-baseu-net-suse.so.3.0.5 \
-libwx-baseu-suse.so.3.0.5 \
-libwx-gtk2u-adv-suse.so.3.0.5 \
-libwx-gtk2u-aui-suse.so.3.0.5 \
-libwx-gtk2u-core-suse.so.3.0.5 \
-libwx-gtk2u-html-suse.so.3.0.5 \
-libwx-gtk2u-propgrid-suse.so.3.0.5"
+libwx-baseu-net-suse.so.16.0.0 \
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk2u-aui-suse.so.16.0.0 \
+libwx-gtk2u-core-suse.so.16.0.0 \
+libwx-gtk2u-html-suse.so.16.0.0 \
+libwx-gtk2u-propgrid-suse.so.16.0.0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-notification-daemon"
 DESCRIPTION = "Provides translations for the 'mate-notification-daemon' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-notification-daemon-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "9c530499988fea6cbe1e233e6920b6999d162c8da038875f605cedfbe00efc96a755a8e98a9368fc38ee7f2cdd1f56fb7578ad0c80b6767a6b09a875e2dffb1a"
+RPM_NAME = "mate-notification-daemon-lang-1.28.0-1.12.noarch.rpm"
+RPM_HASH = "511e0aff344b7b03570ccfe8033ffb565577ecbecb75d6bbffd53295304063eb2b2fb4efd5ba160169f57a2a78e573555fb996a7b22a18f559406446670a41ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-notification-daemon-af \
@@ -30,7 +30,6 @@ locale-mate-notification-daemon-el \
 locale-mate-notification-daemon-en-AU \
 locale-mate-notification-daemon-en-CA \
 locale-mate-notification-daemon-en-GB \
-locale-mate-notification-daemon-en-US \
 locale-mate-notification-daemon-eo \
 locale-mate-notification-daemon-es \
 locale-mate-notification-daemon-es-AR \

@@ -2,10 +2,10 @@ SUMMARY = "System group libvirt"
 DESCRIPTION = "This package provides the system group 'libvirt'."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-group-libvirt-20170617-24.16.noarch.rpm"
-RPM_HASH = "a2929d4df8a36d94159d432a395234df2172df030ea12cda8be1489ead5ad15f6b3e857be79b468be5244751dfe5ecf14c27f48d5fb9560ec595f1ac16c187bc"
+RPM_NAME = "system-group-libvirt-20250822-2.3.noarch.rpm"
+RPM_HASH = "f3fbcdb179c53ff0ff701ccdb6128d5a1d8152291f49303c8c0b6c76de75cd7836a40cbdfc1832553211fafbc788f98731f91967f442398d99a77ce09f551c91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-libvirt \

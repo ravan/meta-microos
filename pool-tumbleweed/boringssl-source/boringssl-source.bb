@@ -2,17 +2,18 @@ SUMMARY = "Source code of BoringSSL"
 DESCRIPTION = "Source files for BoringSSL implementation"
 LICENSE = "OpenSSL"
 
-PV = "20200921"
+PV = "0.20260813"
 
-RPM_NAME = "boringssl-source-20200921-2.7.noarch.rpm"
-RPM_HASH = "9fdef4a35d453629efc8f3f74afcd348ba98acc0cbf495c25288e3803e337c05a5ce26f4eb2d0c5ad85b75a07bcbd01e63b82db8066ff450278d27f0fbda3183"
+RPM_NAME = "boringssl-source-0.20260813-2.1.noarch.rpm"
+RPM_HASH = "257829be7e9022c1f7b658663e99cd4870e7bf9c433e102dd7e81407321a5f4fcad0c3e57b340b3c33748aa37c7e9630c45da1f1aa32911f0d23efb5d52c1575"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "boringssl-source"
+RPROVIDES:${PN} += "boringssl-source \
+perl-PQCodePackage"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/env \
 /usr/bin/perl \
-/usr/bin/python \
 /usr/bin/python3 \
 /usr/bin/sh"
 

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-yinit-otf"
 DESCRIPTION = "The  separated fonts package for texlive-yinit-otf"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.0svn40207"
+PV = "2026.226.1.0svn40207"
 
-RPM_NAME = "texlive-yinit-otf-fonts-2023.209.1.0svn40207-53.2.noarch.rpm"
-RPM_HASH = "3dd72e56f70472887e53386ba8d4c332464d5f2f7ecd8cf2ee80e62700b70dc439e5eecbe89af88ea05a501ca499496ce590668ec7a16f35ede8958ce2020a67"
+RPM_NAME = "texlive-yinit-otf-fonts-2026.226.1.0svn40207-59.4.noarch.rpm"
+RPM_HASH = "83fbd553f460cff51c2da16432170cb2fe2f69d59cea3e7a85ccdce7276914b5de7645ca662e6d6af86baca983e8630df388659bc7571c5ea41c33703ca7f091"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-yinit \

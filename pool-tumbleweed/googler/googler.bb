@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.3.13"
 
-RPM_NAME = "googler-4.3.13-1.1.noarch.rpm"
-RPM_HASH = "cf14aae8acf995d02be5d5522e92e5bebfd8aabde2b916c4f8bc1d53c29c787cea049634edc16415e97dff9cdbe45adc4ad9eb446a28d4419c85fe579e105a22"
+RPM_NAME = "googler-4.3.13-1.9.noarch.rpm"
+RPM_HASH = "f74d4ceeac13fb51f6be340ecef4215ff89b87c9d8f5230d36133a6bba50f2c92744fa5ae9d73e1f69dc836fd1e81ee43e427d2ed6134ba9b44849e3804e48a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "googler"

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Agent for Various Transfer Protocols"
 DESCRIPTION = "A YaST2 Agent for various Transfer Protocols: FTP, HTTP, and TFTP."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-transfer-4.6.0-1.3.aarch64.rpm"
-RPM_HASH = "e4133e3257509d450d7618453d1b635858c9a8a34d38acd191a78591180701ba7bdb8c0b92acc0401ee08e3445c7ebdb60060b837bd63fee386a4f8b8c60804f"
+RPM_NAME = "yast2-transfer-5.0.1-1.2.aarch64.rpm"
+RPM_HASH = "dc90cdf87e92ad0e8496a89c9a11eadfffe48e0fdc0040bd81d25c493c86840b502bb77be65ac87b6b55a2f4eee8d16da300aaa02353de4266837ac6b3f3990b"
 
 RPROVIDES:${PN} += "libpy2ag-curl.so.2 \
 libpy2ag-tftp.so.2 \

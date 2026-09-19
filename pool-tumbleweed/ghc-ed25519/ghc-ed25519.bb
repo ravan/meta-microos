@@ -7,22 +7,21 @@ LICENSE = "MIT"
 
 PV = "0.0.5.0"
 
-RPM_NAME = "ghc-ed25519-0.0.5.0-16.4.aarch64.rpm"
-RPM_HASH = "cb86e3f8e07f2a87b61df14474329e787f18e557aeed2a372ad6571ce302eddee441ef09fb1251d40216f960f09b7137783846fd5b61f8ecc48d327236a28a97"
+RPM_NAME = "ghc-ed25519-0.0.5.0-18.14.aarch64.rpm"
+RPM_HASH = "102f4d0a8479d2d34b7265c92a92b349516669529f435c41a3b535ce3f93508c05e8f66b96289f8f2bb9d6733182f9e7367f39cf0d00c6f1f0d4d2ebf2eb93f5"
 
 RPROVIDES:${PN} += "ghc-ed25519 \
-libHSed25519-0.0.5.0-5X6chYMa5zJHtTD7kmYRr0-ghc9.4.6.so"
+libHSed25519-0.0.5.0-LJoM5RH0WDTKH6EJLYztMY-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

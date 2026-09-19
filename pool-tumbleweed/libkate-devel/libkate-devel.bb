@@ -13,17 +13,16 @@ color, etc, so scrolling or fading text can be defined. \
 This package contains files for developers."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.1"
+PV = "0.4.3"
 
-RPM_NAME = "libkate-devel-0.4.1-26.16.aarch64.rpm"
-RPM_HASH = "aa14632bea342153af4671c2c285d752de6a67017f3d126b7d73efd3927eef1cd6a983b5bdc82d8c1c0d00c12a9f433a0fd5c99c2d002d21daff13607776404a"
+RPM_NAME = "libkate-devel-0.4.3-1.7.aarch64.rpm"
+RPM_HASH = "d62992959b729aeccef3a28279411f718b6e31ec93cfd071ae8be95ee4e047ee548e577476664ea1e8d627f2a7d447c7e6f8996a96f76c47799e6449c1b0b284"
 
 RPROVIDES:${PN} += "libkate-devel \
 pkgconfig-kate \
 pkgconfig-oggkate"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-glibc-devel \
 libkate1 \
 liboggkate1 \
 pkgconfig-kate \

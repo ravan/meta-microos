@@ -8,10 +8,10 @@ thesis is your own work, etc., which is required in the front \
 of each PhD Thesis."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0.1svn54512"
+PV = "2026.226.3.0.1svn54512"
 
-RPM_NAME = "texlive-uowthesistitlepage-2023.209.3.0.1svn54512-54.1.noarch.rpm"
-RPM_HASH = "68e0762cde47e9adb385da8d7e9d307f5cb6d5591b85702f1bd75887c1d29bdcbd2197f3d9598348ab7fd83238615037c9a856007b713e47f13c6764185d9a4c"
+RPM_NAME = "texlive-uowthesistitlepage-2026.226.3.0.1svn54512-60.2.noarch.rpm"
+RPM_HASH = "e5204e03a7b5adc9f7f1d81c6f24facf464af65482a8936c27bf5a979915a479f5ac92c350f9f1e1a09975860bd0630a73463e83902b520abefa040ee4c3e8d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uowthesistitlepage.sty \

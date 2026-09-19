@@ -7,10 +7,10 @@ margins and set a fixed page style, and sublabel, which permits \
 counters to be subnumbered."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2011svn30447"
+PV = "2026.226.2011svn30447"
 
-RPM_NAME = "texlive-preprint-2023.209.2011svn30447-53.1.noarch.rpm"
-RPM_HASH = "55c055fd3be71bcb38bc6c36af17d4fb86b664ce7f3adf16891bc0e310752592072c23273967bbf31e01abc67d505d5613b17826e82cb2d6ece8f73ce5ef62e8"
+RPM_NAME = "texlive-preprint-2026.226.2011svn30447-59.2.noarch.rpm"
+RPM_HASH = "e8518ba875f72dc32f4a9e062ff6d7247e0e1336f49f2db53dfd2ce662b6633c6d79f0352f4497b2450daed7e5555ef31ce9862ec248f81bfc352c1eecd07c26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-authblk.sty \

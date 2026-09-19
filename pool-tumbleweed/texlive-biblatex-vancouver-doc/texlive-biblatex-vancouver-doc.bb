@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-vancouver"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-vancouver"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.1svn55339"
+PV = "2026.226.0.0.1svn75301"
 
-RPM_NAME = "texlive-biblatex-vancouver-doc-2023.209.0.0.1svn55339-54.1.noarch.rpm"
-RPM_HASH = "ef687ad0ecf8012be74ab1ba819db25af55b5bffda6855b6d10a3d945d5682813f3b0baf4f373d85de9f3185215bb8a6083cdcbe66e7a8d91b6a0cc449213e85"
+RPM_NAME = "texlive-biblatex-vancouver-doc-2026.226.0.0.1svn75301-61.2.noarch.rpm"
+RPM_HASH = "b88fb90b2a79b03cab4369f396cfa086aa2a697e4e4f3e26ccd506fc09eae8fd818c9942da56daacfd7da649d7fb8d6cab1fb64994fd22bf74903743be7b40ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-vancouver-doc"

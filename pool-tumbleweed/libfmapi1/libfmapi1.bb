@@ -4,10 +4,10 @@ DESCRIPTION = "A library for MAPI data types. \
 libfmapi is part of the libyal library collection"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230408"
+PV = "20260521"
 
-RPM_NAME = "libfmapi1-20230408-1.4.aarch64.rpm"
-RPM_HASH = "43397bb23b549cc2b19242d29575c505f0d88a9e3408e856ca595578ffc5b7f5697eab14cf9df217d77db7fc0eb6e7498bc138719d183f29d84aebda0bf2cb35"
+RPM_NAME = "libfmapi1-20260521-1.8.aarch64.rpm"
+RPM_HASH = "996af30600c1b70db104235cf15346389e67f48d10c11f1fd91224066d06242501bdc24ad3967ee5aed8a221efff2546248e45f83629843ad97ec995e2d51ec5"
 
 RPROVIDES:${PN} += "libfmapi.so.1 \
 libfmapi1"

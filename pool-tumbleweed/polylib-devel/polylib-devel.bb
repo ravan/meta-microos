@@ -9,12 +9,12 @@ vertices computation, and Ehrhart polynomials computation. \
  \
 This subpackage contains the include files and library links for \
 developing with PolyLib."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "MIT"
 
-PV = "5.22.5"
+PV = "5.22.8"
 
-RPM_NAME = "polylib-devel-5.22.5-2.1.aarch64.rpm"
-RPM_HASH = "bf6811a1295b690167500c4f9bf9fcf97fc6a8260823d9700c99bb0f89409117bb113eabe6424a151b9f76715df3b3f41cff7144b5ccb59301f9f7844b3ab6c6"
+RPM_NAME = "polylib-devel-5.22.8-1.5.aarch64.rpm"
+RPM_HASH = "07886896472e5528ba793a98c8ae0fcf719d3034f47d76fe719ff361c97c9e59c918e10bc38dc540383216cfc9617de846e0315980dc2a39df7ff8509e207357"
 
 RPROVIDES:${PN} += "pkgconfig-polylibgmp \
 polylib-devel"

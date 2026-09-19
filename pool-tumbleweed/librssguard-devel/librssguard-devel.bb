@@ -1,14 +1,14 @@
-SUMMARY = "Development headers for librssguard-4_3_4"
-DESCRIPTION = "Development headers to be used with librssguard-4_3_4."
+SUMMARY = "Development headers for librssguard-5_2_5"
+DESCRIPTION = "Development headers to be used with librssguard-5_2_5."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-only"
 
-PV = "4.3.4"
+PV = "5.2.5"
 
-RPM_NAME = "librssguard-devel-4.3.4-1.1.aarch64.rpm"
-RPM_HASH = "2e8a09704605f93e8a19ba076536a80616d8b9b00640f53a3c4c13525ae5cbf5f11143e971fd2ad784c80121e13501db1baf5537ee143f6cb283e1eed4f4ee68"
+RPM_NAME = "librssguard-devel-5.2.5-1.1.aarch64.rpm"
+RPM_HASH = "52816a2bb43a1dcc582cf81b3bfb53952da3500fae69cdd060efb42806495e4f410f9bdbefe6902c5777880f5bdd70831407e20861f34196622202e53c861026"
 
 RPROVIDES:${PN} += "librssguard-devel"
 
-RDEPENDS:${PN} += "librssguard-4-3-4"
+RDEPENDS:${PN} += "librssguard-5-2-5"
 
 inherit rpm

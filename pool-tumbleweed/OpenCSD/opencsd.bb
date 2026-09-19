@@ -2,14 +2,15 @@ SUMMARY = "CoreSight Trace Decode library"
 DESCRIPTION = "OpenCSD is an Arm CoreSight Trace Decode library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.0"
+PV = "1.8.3"
 
-RPM_NAME = "OpenCSD-1.4.0-1.3.aarch64.rpm"
-RPM_HASH = "aa5324b4bf2f5a2b69dbc5732664a6e01d502201ebb344a5e0b6ec36ce33ed14c024d80e05d73230ad16a5f13e43e02060ff7eee9db7402a03db1a892b6427d5"
+RPM_NAME = "OpenCSD-1.8.3-1.2.aarch64.rpm"
+RPM_HASH = "f23c48ef9326fb3cdbf1bc235e46c80ca14e3c0a7e260744272a25bd5cf0326d92bc739aa8808df2d72e644ef881b8860b6a276037654c0da5b65b46fe087a1d"
 
 RPROVIDES:${PN} += "OpenCSD"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libgcc-s.so.1 \
 libopencsd.so.1 \
 libstdc++.so.6"

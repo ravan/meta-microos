@@ -6,14 +6,14 @@ clang-doc that openSUSE currently supports.  Packages that \
 don't require a specific Clang version should depend on this."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.6"
+PV = "23"
 
-RPM_NAME = "clang-doc-16.0.6-1.1.aarch64.rpm"
-RPM_HASH = "e165316a3f5c7f645c7a84802d7f2f50486822c4db5434d308c0b6701ef00eacb9a6ed97a2e2dde2db8765becf0fed010820759273b87b57352132e743db19b4"
+RPM_NAME = "clang-doc-23-1.1.aarch64.rpm"
+RPM_HASH = "7a3ff66d4569866b33c9c78b33f169009b76d65d88235d3fd1c4897bc1199a4304e50b2ab2f82c87cfeb60abcd8d510b2e65978a6838ce5f394be6f2eebf2766"
 
 RPROVIDES:${PN} += "clang-doc"
 
 RDEPENDS:${PN} += "clang \
-clang16-doc"
+clang23-doc"
 
 inherit rpm

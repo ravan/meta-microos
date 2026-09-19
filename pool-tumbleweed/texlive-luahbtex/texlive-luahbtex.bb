@@ -2,10 +2,10 @@ SUMMARY = "LuaTeX with HarfBuzz library for glyph shaping"
 DESCRIPTION = "The luahbtex package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-luahbtex-2023.208.svn66186-53.1.noarch.rpm"
-RPM_HASH = "efaa7f592161d6c636e31c2eee72c2efb35721565bab6e537fb2c9b92381fe39ca8d872e3f94e437297ffc142d9ce0aea3776f7148eee3baee4a8631116c02d9"
+RPM_NAME = "texlive-luahbtex-2026.226.svn77830-59.2.noarch.rpm"
+RPM_HASH = "3b61d867960ac3fb2e3df017f595fa24c3744c522a657f3dfbd1397c57152c7ef436cd6a0c834e2331376d1937d7709d1ba763c4d64747a4333c0a634b2eae57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-luahbtex.1 \

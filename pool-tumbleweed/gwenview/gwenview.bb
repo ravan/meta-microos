@@ -1,0 +1,71 @@
+SUMMARY = "Image Viewer by KDE"
+DESCRIPTION = "Gwenview is an image viewer by KDE. It features a folder tree window and a file \
+list window, providing navigation of file hierarchies."
+LICENSE = "GPL-2.0-or-later"
+
+PV = "26.08.1"
+
+RPM_NAME = "gwenview-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "5a130533d5f8c93b2c751dc365d162b6b67ebcdc826a0f296413a8102545054cf3e32bbd5fd8388305621b4e30bdead1104a74e628a1d5339f48fa11b7d67a0c"
+
+RPROVIDES:${PN} += "gwenview \
+gwenview5 \
+libgwenviewlib.so.5"
+
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
+libKDcrawQt6.so.5 \
+libKF6Baloo.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6FileMetaData.so.3 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6IconWidgets.so.6 \
+libKF6ItemModels.so.6 \
+libKF6ItemViews.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Parts.so.6 \
+libKF6Purpose.so.6 \
+libKF6PurposeWidgets.so.6 \
+libKF6Service.so.6 \
+libKF6Solid.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libPlasmaActivities.so.7 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6MultimediaWidgets.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Svg.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6WaylandClient.so.6 \
+libQt6Widgets.so.6 \
+libX11.so.6 \
+libc.so.6 \
+libcfitsio.so.10 \
+libexiv2.so.28 \
+libgcc-s.so.1 \
+libjpeg.so.8 \
+libkImageAnnotator-Qt6.so.0 \
+liblcms2.so.2 \
+libm.so.6 \
+libpng16.so.16 \
+libstdc++.so.6 \
+libtiff.so.6 \
+libwayland-client.so.0"
+
+inherit rpm

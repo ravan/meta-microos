@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "libSDL_sound-1_0-1-1.0.3-96.7.aarch64.rpm"
-RPM_HASH = "20cd6fe2e43eba869590c45e8ee1382278301a3990a7beecbeb73d5d58ed6acf6499d6a96c16eb3c908a00453050edc00e0ec916800c99f24ac7cb6d35203c54"
+RPM_NAME = "libSDL_sound-1_0-1-1.0.3-96.19.aarch64.rpm"
+RPM_HASH = "9f82c44e8b682bd67aca43ac56ce1a9039126bb33d7aeaaeef47a69caad86a05ab38c9d37d9ef07689200b8e5a7c1b5c6ab42e564b8923312c7381661423aa9b"
 
 RPROVIDES:${PN} += "SDL-sound \
 libSDL-sound-1-0-1 \
@@ -17,7 +17,7 @@ libSDL-sound-1.0.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libSDL-1.2.so.0 \
 libc.so.6 \
 libmikmod.so.3 \

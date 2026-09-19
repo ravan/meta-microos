@@ -2,10 +2,10 @@ SUMMARY = "Binary files of convbkmk"
 DESCRIPTION = "Binary files of convbkmk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn30408"
+PV = "2026.20260301.svn30408"
 
-RPM_NAME = "texlive-convbkmk-bin-2023.20230311.svn30408-93.2.aarch64.rpm"
-RPM_HASH = "7fd2f02a55141fdbe6ee2fd7675198fe9d63d7ae8750cf98d338b3ea103ecf9ecbe24f01cebe83fea9331f681a6857d05ddf837023c7cd1d44b7fa299b105f6e"
+RPM_NAME = "texlive-convbkmk-bin-2026.20260301.svn30408-120.4.aarch64.rpm"
+RPM_HASH = "11e55505d3d436f6a377daca8e734b815a5f9b81c07cce7855dfc540f39083c5d09cf8de54b9c2301cf6cc6e4c06f621df6958f4e5e21bdfd87f9087401eca3f"
 
 RPROVIDES:${PN} += "texlive-convbkmk-bin"
 

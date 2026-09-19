@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.9.5"
 
-RPM_NAME = "encfs-lang-1.9.5-2.17.noarch.rpm"
-RPM_HASH = "2781bf0ac4d2d373bbd7c54565ff891e8f1281090a848ab98950559cd12556ed9acc12bda86f7c0fbe78e7f3778432448884c011b7b9fa1ab79e020f673ca1d0"
+RPM_NAME = "encfs-lang-1.9.5-4.6.noarch.rpm"
+RPM_HASH = "7579064aa0bf8b6a20efd9a78e42a2ccbdcd5eaabf8cef8e636bf7b779a21f15251b68320518f81a15680923c5643437486614838e628d2007b21047eed8e6e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "encfs-lang \

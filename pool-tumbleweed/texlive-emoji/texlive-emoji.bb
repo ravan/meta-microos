@@ -4,10 +4,10 @@ It requires the LuaHBTeX engine, which can be called by \
 lualatex since TeX Live 2020, or lualatex-dev in TeX Live 2019."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.2svn59961"
+PV = "2026.226.0.0.2.2svn77682"
 
-RPM_NAME = "texlive-emoji-2023.209.0.0.2.2svn59961-54.2.noarch.rpm"
-RPM_HASH = "33f2b670da5dd0c0b529a93ecce22f8378a7f014f83da2fec21e89ee03d319fa0e8f90ff6e5231c252d5ef3e1279949ae10c16f850a4a2b41d839a02ef40249b"
+RPM_NAME = "texlive-emoji-2026.226.0.0.2.2svn77682-61.4.noarch.rpm"
+RPM_HASH = "d011db286a151bdf3251ec7684074128207f51c76fc128626250b8f75845e3f4862e4b974e347d55281faf25918a57f61b8d856be8e50b3b44198835985b76e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emoji-table.def \

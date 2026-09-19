@@ -3,10 +3,10 @@ DESCRIPTION = "The CLI library provides an API for working with the \
 command line arguments and options."
 LICENSE = "Apache-2.0"
 
-PV = "1.5.0"
+PV = "1.11.0"
 
-RPM_NAME = "apache-commons-cli-1.5.0-1.8.noarch.rpm"
-RPM_HASH = "a6de83925b80c4b43fe7e35eeb01f3553963b609375ca4db895a28b2657250e1beedc38f7c1eb956d717260d1cc01fd4ee80a5eb0eee61faf2f893ed89d3e0ce"
+RPM_NAME = "apache-commons-cli-1.11.0-1.3.noarch.rpm"
+RPM_HASH = "4c226cbc6487f69e4e44dc856fccee2d80f1ecb3d5293928a40f977095fca443652655c99d3893ee5a5e8017f8e697b66231810192f6d23b625bae9c4cc4e0eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-cli \

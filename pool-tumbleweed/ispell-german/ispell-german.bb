@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-german-1.5-422.6.aarch64.rpm"
-RPM_HASH = "160fc7c6d581edfd97322fce52b106085fe583aff5888a6077e0b60b895dc60ec92a275b6b9cce6b12e99e0064ed7b5c278ad13bf7404773012b2db4cc903e2e"
+RPM_NAME = "ispell-german-1.5-426.1.aarch64.rpm"
+RPM_HASH = "5ec88d149fbde1a78d1bb8caae23533d1c9fef80d79326ef086ed986432d277b61caa3a0a2dd9fefc3998b7c5053c495ffb010a83664a7b20415c4ec308f66a3"
 
 RPROVIDES:${PN} += "igerman \
 ispell-dictionary \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xournalpp"
 DESCRIPTION = "Provides translations for the 'xournalpp' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.1"
+PV = "1.3.7"
 
-RPM_NAME = "xournalpp-lang-1.2.1-1.1.noarch.rpm"
-RPM_HASH = "908710baf071b879f8c2456711b85cdeff5bcf8ff8f4c4961b3d513a34514a28f3b89b7ecdf7d2daf546e7b85ec6929e0126b35224fdf9e68426d65b22c348a8"
+RPM_NAME = "xournalpp-lang-1.3.7-1.1.noarch.rpm"
+RPM_HASH = "887dbacb32a68ff477722305136596bbb130030aa9e4ac2934261376ba9a5ee21f88ed9027521983477ab1b78844b2df6eb1ea5ad3fe05cda048ef1391568d87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xournalpp-ar \
@@ -14,6 +14,7 @@ locale-xournalpp-cs \
 locale-xournalpp-da \
 locale-xournalpp-de \
 locale-xournalpp-el \
+locale-xournalpp-en-GB \
 locale-xournalpp-es \
 locale-xournalpp-eu \
 locale-xournalpp-fi \
@@ -32,6 +33,7 @@ locale-xournalpp-pt-BR \
 locale-xournalpp-pt-PT \
 locale-xournalpp-ro \
 locale-xournalpp-ru \
+locale-xournalpp-sl-SI \
 locale-xournalpp-sv \
 locale-xournalpp-th \
 locale-xournalpp-tr \

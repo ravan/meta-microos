@@ -2,10 +2,10 @@ SUMMARY = "Translations for package audacious-plugins"
 DESCRIPTION = "Provides translations for the 'audacious-plugins' package."
 LICENSE = "BSD-2-Clause & GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-only & MIT"
 
-PV = "4.3"
+PV = "4.6.1"
 
-RPM_NAME = "audacious-plugins-lang-4.3-1.6.noarch.rpm"
-RPM_HASH = "4a77bf4dc9da74e44dbea050da39edc493194000e5a248d21373a5de221eafefd96565f420d08dffe3efba7d87e5e40a16ba2a3171c8a9457ea02dca0aa58455"
+RPM_NAME = "audacious-plugins-lang-4.6.1-1.2.noarch.rpm"
+RPM_HASH = "01b109342c1e7c2c4819ae15b2bb552ae497dd8cc6f24b3dda4418ed42cabeb8c193976b6d852ca1e7ef275cf46aaccaf9954d8826a696de247fa61e799591dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "audacious-plugins-lang \
@@ -31,6 +31,7 @@ locale-audacious-plugins-gl \
 locale-audacious-plugins-hu \
 locale-audacious-plugins-it \
 locale-audacious-plugins-ja \
+locale-audacious-plugins-ka \
 locale-audacious-plugins-ko \
 locale-audacious-plugins-lt \
 locale-audacious-plugins-lv \

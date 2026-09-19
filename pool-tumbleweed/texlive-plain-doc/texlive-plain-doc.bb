@@ -5,10 +5,10 @@ of whether the csname is a primitive TeX command, or is defined \
 in plain.tex"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn28424"
+PV = "2026.226.svn28424"
 
-RPM_NAME = "texlive-plain-doc-2023.209.svn28424-52.1.noarch.rpm"
-RPM_HASH = "28c53206a7442775d22934af6d5ae1055b1db1839c02703dbed6cd648f765383a96dce18f057754fbc1ed388cdce5432caf011a13ce9fd20181d40b27fa6b9e5"
+RPM_NAME = "texlive-plain-doc-2026.226.svn28424-58.2.noarch.rpm"
+RPM_HASH = "dc75b3b6c122afed0d4e295e530808599642ff87c539be65c106b3bb8d17d39115695115645e222022cea62cf656cfabb17513c8a60b81166eaba02031e44830"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-plain-doc"

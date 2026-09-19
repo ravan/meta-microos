@@ -4,10 +4,10 @@ the collaboration feature in the Build Service, and to keep up with \
 latest upstream versions."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.104+26"
+PV = "0.104+30"
 
-RPM_NAME = "osc-plugin-collab-0.104+26-1.1.noarch.rpm"
-RPM_HASH = "b4320db5e28e1970ff8ae97bf70fb8b64d1b9bae2df3621e8b159b8d41f106909a2efb90c806e083a8471c2e0101c8c43773a98f765bafb0832a61ba8a50f9cc"
+RPM_NAME = "osc-plugin-collab-0.104+30-1.9.noarch.rpm"
+RPM_HASH = "2e24efdd923a0f9613d74b0347beaa3629dff51257921dc340cfbed91fc575645c54d3654abc8a94508d1032020ad8820c5e699a54f5265595f2e320ad85a2b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "osc-plugin-collab"

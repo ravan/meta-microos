@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "tomoe-0.6.0-51.5.aarch64.rpm"
-RPM_HASH = "64f42bd52c6deeb4f0edf3da765126b378b20ffa67fe33077932c1036dc9c3b508b2c08f6ac6db836212fc99cf602f34c90b9be790e1c20c58f9b001e96697fa"
+RPM_NAME = "tomoe-0.6.0-51.18.aarch64.rpm"
+RPM_HASH = "a740b0189c7205d7dfcfb3edb3d614823a1ccfdb7868e7b506254e7f518f8704b863b813f2df0b5864f71e66abab6d93b6e4e01a2c7c69168fb3fbe7c415da9b"
 
 RPROVIDES:${PN} += "libtomoe.so.0 \
 tomoe"

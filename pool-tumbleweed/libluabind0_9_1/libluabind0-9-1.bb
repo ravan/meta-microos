@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1+git20150408.a0edf58"
 
-RPM_NAME = "libluabind0_9_1-0.9.1+git20150408.a0edf58-2.14.aarch64.rpm"
-RPM_HASH = "d0da6819384ff5d1dbd22c519837c64784a79afd93755cf15d7fcf2c240d8113cae12003f7d8b017d6385fcc5865b75af3f882849ba582094d07576d85bb63a8"
+RPM_NAME = "libluabind0_9_1-0.9.1+git20150408.a0edf58-4.4.aarch64.rpm"
+RPM_HASH = "d957c7b9c0702b9aab49b50afc43cd04a5a7fa3ef0807857a5a670d5388f2c9d4ee4566657548c8eb12c75d0b24f9e1f687c742a740c2b1094c9e026fa363bdb"
 
 RPROVIDES:${PN} += "libluabind.so.0.9.1 \
 libluabind0-9-1"

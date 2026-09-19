@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-articleingud"
 DESCRIPTION = "This package includes the documentation for texlive-articleingud"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn38741"
+PV = "2026.226.0.0.3svn38741"
 
-RPM_NAME = "texlive-articleingud-doc-2023.209.0.0.3svn38741-54.1.noarch.rpm"
-RPM_HASH = "7beb73bd1dd3091487a024e4851b28fbc04de933171d7563fdc1c06df5db171e69efe4486d2c41a2109aa25422cf652ea269a7decb1ff43697492e129af64ab1"
+RPM_NAME = "texlive-articleingud-doc-2026.226.0.0.3svn38741-60.2.noarch.rpm"
+RPM_HASH = "519657ab2f553fc32c1fe78f6a3acada2e5bb2e28e3f17429821931a1d1d1e2f8b3a87d842e231d0b7f6404da5a22b18df8f96fa35d8286ad14f5a01d9ef2da6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-articleingud-doc-es \

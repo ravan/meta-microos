@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dprogress"
 DESCRIPTION = "This package includes the documentation for texlive-dprogress"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn15878"
+PV = "2026.226.0.0.1svn15878"
 
-RPM_NAME = "texlive-dprogress-doc-2023.209.0.0.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "6d5d5b456b3a0565f4ca7cc9de6c598b3cefb9e61c8d940188f4a46e47e5045f860522e90e0152293c7433538041ef84ecc028bf878baf6cbe93c2838e6af834"
+RPM_NAME = "texlive-dprogress-doc-2026.226.0.0.1svn15878-59.2.noarch.rpm"
+RPM_HASH = "6b705ad770028670fe1a70ebc83d90b666efdcb6f4e0e08a7918b01105c708a7dae06144fe3d1c5a9587d687d4ea810116a79449c595633d8dc7b23188bf6a39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dprogress-doc"

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later | MPL-2.0"
 
 PV = "0.0.5"
 
-RPM_NAME = "librevenge-0_0-0-0.0.5-1.4.aarch64.rpm"
-RPM_HASH = "ab344c5aa8cf9d18d67e8f73a9a740661b0db4bbbc355822ab8ad2b854fe323cfb0dabd2ae81229f68ee8b0b7a11a72925badb1166a32fe7b03032978ef5669c"
+RPM_NAME = "librevenge-0_0-0-0.0.5-1.14.aarch64.rpm"
+RPM_HASH = "38a7aac2d7f93c31f30c22b5ce2408bc038250f4b4f3bba7518cab614ed45b33297d7e918c6eaac19e1640a49c11b767387c3f4aa3659c105e6f5e67093eaf2f"
 
 RPROVIDES:${PN} += "librevenge-0-0-0 \
 librevenge-0.0.so.0"

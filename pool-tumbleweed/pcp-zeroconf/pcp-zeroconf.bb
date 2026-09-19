@@ -6,10 +6,11 @@ A timer script also writes daily performance summary reports similar to \
 those written by sysstat."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-zeroconf-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "1ecc85f665906c70e70046ca761ea532ca292ce59100c1829a0a7538f4f84bff259947d85fd328cdcd7eff3c636b79ce03324589d5d91569a740aa795d204315"
+RPM_NAME = "pcp-zeroconf-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "b1081147a5aa762400f69f8d0929ba43b2a088f772cca07c1ee4f31b5b02373fde5b4f065cd9adf97fbf55e95fddf2e062eba5d6caa1ef29383aa0357914e4f0"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pcp-zeroconf \
 pcp-zeroconf"

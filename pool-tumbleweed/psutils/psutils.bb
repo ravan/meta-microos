@@ -21,17 +21,19 @@ describes several Perl scripts for importing PostScript files. A manual \
 page for each ps utility is also included."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.08"
+PV = "3.3.17"
 
-RPM_NAME = "psutils-2.08-2.2.aarch64.rpm"
-RPM_HASH = "6eb14a93850b3b8bc877a30abac2880b1bc3d96c6fb603ffc2ac1120cada93d40884b796ed6e9d2a42b6efc303b1e26885923d58604033103e743beb65e62d06"
+RPM_NAME = "psutils-3.3.17-1.1.aarch64.rpm"
+RPM_HASH = "d5f7c51ffcdd6db2438f9d456cc3319da98398c24cc69fe3dfc6c83312c77e40ce9020965c30f0d9bfca95ced7ce2188f605156535b1ad694890c72f3fdf20fe"
 
-RPROVIDES:${PN} += "perl-PSUtils \
-psutils"
+RPROVIDES:${PN} += "psutils \
+python3.13dist-psutils \
+python3dist-psutils"
 
-RDEPENDS:${PN} += "/usr/bin/perl \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 libpaper-tools \
-perl \
-perl-IPC--Run3"
+python-abi \
+python3-puremagic \
+python3-pypdf"
 
 inherit rpm

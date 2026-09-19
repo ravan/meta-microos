@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the nanopi-m4b-rk3399 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-nanopi-m4b-rk3399-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "b96ac92fea1bf11677ede549804e80ed67d7d20c5841278cf08b3a96b0043618246eead00458ce8c50e85d5a9a4eaeb95d001d0aae5fa30e00251839ae297194"
+RPM_NAME = "u-boot-nanopi-m4b-rk3399-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "8ae23a4e2275c615fef32ce81574e828b16ed46bca889a66f39385f0ef636514e2b29b1b61c149c9e70631d759566a1b931da6d8e6c82d416410db9683e5ffea"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-nanopi-m4b-rk3399"

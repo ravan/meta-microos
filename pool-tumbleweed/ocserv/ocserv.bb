@@ -19,10 +19,10 @@ escalation due to any bug on the VPN handling (worker) process. \
 A management interface allows for viewing and querying logged-in users."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.2.1"
+PV = "1.4.1"
 
-RPM_NAME = "ocserv-1.2.1-1.1.aarch64.rpm"
-RPM_HASH = "c2b151bdb1677fab3f52446ad4b429b9c1a0cd683bb2fd023a701da61a4b71bfea59749761fb64aa296b45148854209766f549c12e001642220ac418d62d4ee4"
+RPM_NAME = "ocserv-1.4.1-1.4.aarch64.rpm"
+RPM_HASH = "24fe73b6d49c74f158b550475d798f1ca113e1b18ee8b7991988e5304d117e34e83efed1bf15bf176148fdf097cf2815727424d4df096cb74d1a5e71413de509"
 
 RPROVIDES:${PN} += "config-ocserv \
 ocserv"

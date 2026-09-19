@@ -4,10 +4,10 @@ is quite limited, most of the work is done by libinput, the driver itself \
 passes on the events (and wrangles them a bit where needed)."
 LICENSE = "MIT"
 
-PV = "1.4.0"
+PV = "1.5.0"
 
-RPM_NAME = "xf86-input-libinput-1.4.0-1.1.aarch64.rpm"
-RPM_HASH = "7cda1d304b46c80985ac234000152528f21ed2206539b0a237fd949b11c139ec7e6b7a789c63371e8a036a647afb0946351b60c144bae5c130d28291c6ce0b0e"
+RPM_NAME = "xf86-input-libinput-1.5.0-1.9.aarch64.rpm"
+RPM_HASH = "0856c419709019c92fc5338df096c413e1f57d55b724771b135cb531fc36e151aee5ba578cb1e54efb20452b3b45492964a1cfb98c427c0b0c4f72dc72e0033a"
 
 RPROVIDES:${PN} += "libinput-drv.so \
 xf86-input-libinput"

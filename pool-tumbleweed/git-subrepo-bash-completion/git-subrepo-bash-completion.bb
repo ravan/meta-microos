@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for git-subrepo"
 DESCRIPTION = "Bash shell completions for git-subrepo"
 LICENSE = "MIT"
 
-PV = "0.4.6"
+PV = "0.4.9"
 
-RPM_NAME = "git-subrepo-bash-completion-0.4.6-1.1.noarch.rpm"
-RPM_HASH = "cb64e63cb2459bd245180605bd3b9be3c21cbf370e19b5f18f6b0f9c0dcfa4038c0c5b97f1579d3b350b8462137473b33e308206cef03136dcefb32de989f7fe"
+RPM_NAME = "git-subrepo-bash-completion-0.4.9-1.1.noarch.rpm"
+RPM_HASH = "85a8d6485b493ebea05c49edd88f27642975f7efb83da35b83f934676539ba41f103e7e23c6c6f4c9aa8c2bd67407a047ffe07cbacb327107831528170860891"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-subrepo-bash-completion"

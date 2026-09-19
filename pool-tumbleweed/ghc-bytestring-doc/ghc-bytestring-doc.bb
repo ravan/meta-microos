@@ -2,10 +2,10 @@ SUMMARY = "Haskell bytestring library documentation"
 DESCRIPTION = "This package provides the Haskell bytestring library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.11.5.1"
+PV = "0.12.2.0"
 
-RPM_NAME = "ghc-bytestring-doc-0.11.5.1-1.1.noarch.rpm"
-RPM_HASH = "595b0764ff1a6726c19537f6ddfb8f884dd79e1dccce44544a14f0c374a1fb750a5c59d3e5ee4d9e10e971e52e76f027c6ec0c2608e7989fbcb84a2c713ff07e"
+RPM_NAME = "ghc-bytestring-doc-0.12.2.0-1.3.noarch.rpm"
+RPM_HASH = "1edfe824911b65a0d1084aa1569a59c9388a7b1a41b19cd0a013b25e7f4b851700266d6c2b2854f604a0592063b38e5349dfd92a77b2a6cc11ed04516aabab08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-bytestring-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "The Places plugin provides a menu with quick access to folders, \
 documents, and removable media."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.2"
+PV = "1.9.0"
 
-RPM_NAME = "xfce4-places-plugin-1.8.2-1.3.aarch64.rpm"
-RPM_HASH = "cd67e275d08bd99b82001285d77add077d8d2c8ac876cfb17ed2b70120db09590dc3008ef0f66b114f470c3f9cef67abaa00c2f54265cead60349bce911e3772"
+RPM_NAME = "xfce4-places-plugin-1.9.0-1.4.aarch64.rpm"
+RPM_HASH = "f684fe5e8252daa2d15cb5897ce4949c74d556e1720e88a28f5ef82b85f3c74f318de44bbc8cc083b907a44edd1762662211b84e9b77f74251b476cb332687c9"
 
 RPROVIDES:${PN} += "libplaces.so \
 xfce4-panel-plugin-places \
@@ -15,6 +15,7 @@ xfce4-places-plugin"
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libcairo.so.2 \
 libexo-2.so.0 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \

@@ -3,19 +3,23 @@ DESCRIPTION = "Support for Japanese; additional packages are in \
 collection-langcjk."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn64603"
+PV = "2026.222.svn76651"
 
-RPM_NAME = "texlive-collection-langjapanese-2023.208.svn64603-60.1.noarch.rpm"
-RPM_HASH = "8dc9d7f77493a5a1868bc2aa1ac7874a1ad46a7060e20685033d819d7189f11ed4365343b0070e96b93d4bbee6093b62d80fc2f6022cc6670fca208b3b08d181"
+RPM_NAME = "texlive-collection-langjapanese-2026.222.svn76651-68.2.noarch.rpm"
+RPM_HASH = "c038a538ce12cb189e62d2baf96721c97965c3ea2bb60df73d49916064c88e24e3d99183c54f382da183eefae43ce3e6c2dbddb49db2f22fb0e939fad5b51e08"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langjapanese"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-japanese \
+texlive-collection-langjapanese"
 
 RDEPENDS:${PN} += "texlive-ascmac \
 texlive-asternote \
 texlive-babel-japanese \
 texlive-bxbase \
 texlive-bxcjkjatype \
+texlive-bxcoloremoji \
 texlive-bxghost \
 texlive-bxjaholiday \
 texlive-bxjalipsum \
@@ -24,8 +28,10 @@ texlive-bxjatoucs \
 texlive-bxjscls \
 texlive-bxorigcapt \
 texlive-bxwareki \
+texlive-chuushaku \
 texlive-collection-langcjk \
 texlive-convbkmk \
+texlive-convert-jpfonts \
 texlive-endnotesj \
 texlive-gckanbun \
 texlive-gentombow \
@@ -46,8 +52,10 @@ texlive-jsclasses \
 texlive-kanbun \
 texlive-lshort-japanese \
 texlive-luatexja \
+texlive-luwa-ul \
 texlive-mendex-doc \
 texlive-morisawa \
+texlive-outoruby \
 texlive-pbibtex-base \
 texlive-pbibtex-manual \
 texlive-platex \

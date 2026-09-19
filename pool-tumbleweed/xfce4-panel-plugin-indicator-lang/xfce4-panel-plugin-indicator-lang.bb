@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.1"
 
-RPM_NAME = "xfce4-panel-plugin-indicator-lang-2.4.1-1.7.noarch.rpm"
-RPM_HASH = "0955f895f5c2f49a4e977f9eb38f82f330eeba022a71343eceb0f3d6ebb1ff6a38b8152b73f60e18e6f6f4f84a21350a6d9fc41f5d291a060835619fc128b192"
+RPM_NAME = "xfce4-panel-plugin-indicator-lang-2.4.1-1.17.noarch.rpm"
+RPM_HASH = "35151ff6f0c5f2d7721dd99521e6be54a2e16f8307e036f4dcca25e5bbdf72026558ba96ed9a59a920ab00e15ab005b7672f3ec1b4bb7c1563405ea8a73df7b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-panel-plugin-indicator-ar \

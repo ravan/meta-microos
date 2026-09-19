@@ -6,12 +6,12 @@ DESCRIPTION = "A front-end for fontconfig. Setup perfect font effects, fast and 
 * Setup font render options, including hinting, antialias, subpixel rendering \
 * Font replacement. Use installed fonts render missing fonts. \
 * Scheme management, 1-click setup and Reset system default functions."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "fontweak-1.3.1-2.21.noarch.rpm"
-RPM_HASH = "f16cec9ba42e44f0919168191ad5a5dc401eb80994a9e001a7c6db80fc9fa477e58400bc7626a868add5b48109d811203ad360330f2d89b65890cb0cd289eaaa"
+RPM_NAME = "fontweak-1.3.1-3.11.noarch.rpm"
+RPM_HASH = "a670a7347c50b38654ff932f25da8240f12401403d6412491fe8a7cbfb4c58e3dea7f5e0516821430f570a1946f1c865a4c02941badc891f03207335e3fdcdb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontweak"

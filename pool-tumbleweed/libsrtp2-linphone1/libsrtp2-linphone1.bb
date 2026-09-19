@@ -8,10 +8,10 @@ specified in RFC 3711. More information about the SRTP protocol \
 itself can be found on the Secure RTP page."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.0~git.20210916"
+PV = "2.4.2~git.20240220"
 
-RPM_NAME = "libsrtp2-linphone1-2.2.0~git.20210916-1.10.aarch64.rpm"
-RPM_HASH = "5e588ccef5a889ea0a4dca77ab652c4a79e6ae6cec0eff5c500c74e8039ec60ff675a9066d9d19cb829218eb5f53e5c9ba530c2f64250db993d2a683f5c25e00"
+RPM_NAME = "libsrtp2-linphone1-2.4.2~git.20240220-1.6.aarch64.rpm"
+RPM_HASH = "ee7ce7e5c19956c806f6ed5489526da90112bb257820723bbf9c0946c0ad49faa900735dc7a901a7218d2e0a9c56bf8271693d585f0811459dee639be17bcf78"
 
 RPROVIDES:${PN} += "libsrtp2-linphone.so.1 \
 libsrtp2-linphone1"

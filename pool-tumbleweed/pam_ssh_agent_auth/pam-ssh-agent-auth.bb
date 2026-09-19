@@ -8,8 +8,8 @@ LICENSE = "OpenSSL"
 
 PV = "0.10.4"
 
-RPM_NAME = "pam_ssh_agent_auth-0.10.4-2.9.aarch64.rpm"
-RPM_HASH = "c9f7bdb4a888a3615835315aac976737cd64f649675b3fece7f41f1ba3ce243d0495d72b1170f04a5603beee8071dab45af3c799b59f5ce8cca2a78401e01735"
+RPM_NAME = "pam_ssh_agent_auth-0.10.4-3.8.aarch64.rpm"
+RPM_HASH = "ed08e069a4fd0f78436b17aba0f983e08011a2581293900976f7a9b3ea2a1d0913f1380c308717d8d0a1cd92df0bb840e002272a218da10901e5c6b5b47e1184"
 
 RPROVIDES:${PN} += "pam-ssh-agent-auth"
 

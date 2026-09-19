@@ -17,10 +17,10 @@ Maths versions of \\makebox, \\llap, \\rlap etc.; Cramped math \
 styles; and more... Mathtools requires mhsetup."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.29svn63767"
+PV = "2026.226.1.31svn77682"
 
-RPM_NAME = "texlive-mathtools-2023.208.1.29svn63767-53.1.noarch.rpm"
-RPM_HASH = "80d0c72d99960a52982858390b0168f6f4fc4b5c009652431e0168b63497f2f78c7eaf972b711db9813fdebd02aac446103458140763ab69be3845bb0cfda1c2"
+RPM_NAME = "texlive-mathtools-2026.226.1.31svn77682-59.2.noarch.rpm"
+RPM_HASH = "5c7fc97741ae320797b94d4897e7ecddb6523105592491a9a6d72a84ead74ce35e9a96e50ec71a2be08126eb2cb85d1b15c4d43047f589048ae76f6ac31c714a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-empheq.sty \
@@ -39,6 +39,7 @@ tex-calc.sty \
 tex-graphicx.sty \
 tex-keyval.sty \
 texlive \
+texlive-amsmath \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \

@@ -15,8 +15,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.36"
 
-RPM_NAME = "perl-Test-WWW-Selenium-1.36-3.27.noarch.rpm"
-RPM_HASH = "169ce69b9bf9ed7bfb5dc4b563c48dff12ce21269170af95de43ea352a2a70c01e5181926197f0230bcb1abbcd220af75c83350819bade504c5d623953c4f1d3"
+RPM_NAME = "perl-Test-WWW-Selenium-1.36-3.41.noarch.rpm"
+RPM_HASH = "3df6934a700b8222990c5d43292ec31cb156a93193fe17c2dd41b1508b27037aae37b9858bfacbc78ba3cf16d2757e00845225b44795aa5dbf6ddf368177f785"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--REPL--Plugin--Selenium \
@@ -25,7 +25,7 @@ perl-Test-WWW-Selenium \
 perl-WWW--Selenium \
 perl-WWW--Selenium--Util"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTTP--Headers \
 perl-HTTP--Request \
 perl-LWP--UserAgent \

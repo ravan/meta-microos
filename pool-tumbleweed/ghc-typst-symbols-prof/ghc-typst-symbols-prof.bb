@@ -2,16 +2,16 @@ SUMMARY = "Haskell typst-symbols profiling library"
 DESCRIPTION = "This package provides the Haskell typst-symbols profiling library."
 LICENSE = "MIT"
 
-PV = "0.1.4"
+PV = "0.2"
 
-RPM_NAME = "ghc-typst-symbols-prof-0.1.4-1.1.aarch64.rpm"
-RPM_HASH = "f28c45a98a261852392b1dc1e9c930d82395e83f5065e4c89ac5469d750eba3715c88cec1d55125c47e108b273b287a73c64d23db3f83d3807c6ebf8e4b9a27c"
+RPM_NAME = "ghc-typst-symbols-prof-0.2-1.2.aarch64.rpm"
+RPM_HASH = "2c6e71124e2c8ffc6ab66c442cea14ba2c87fd2fbbea3d5f1bcf3654bb1745262e8f3f730756dfe2c74d3ef7c070b6ae52401254d6272163dc769c11fcf10add"
 
-RPROVIDES:${PN} += "ghc-prof-typst-symbols-0.1.4-JaoP2leChnCACsgYhrK1kO \
+RPROVIDES:${PN} += "ghc-prof-typst-symbols-0.2-DAnODvBkUY47mTgQn4NVCA \
 ghc-typst-symbols-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-text-2.0.2 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-text-2.1.4-cf23 \
 ghc-typst-symbols-devel"
 
 inherit rpm

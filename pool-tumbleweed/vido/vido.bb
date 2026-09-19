@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.3.0"
 
-RPM_NAME = "vido-2.3.0-1.15.aarch64.rpm"
-RPM_HASH = "b16ef450f9353f03321145f2b1fc5fc84d103a908ebf39b8cb1a477a5b5c9153726dbbad8e3fa73ce20b28b909f48175b3f5096720a0e7432d996bee73998f3d"
+RPM_NAME = "vido-2.3.0-2.11.aarch64.rpm"
+RPM_HASH = "e7223c67460e273e477a7d42fb565eafb0253a4d9c2c39afd1a3b4083c7da540adef9ce0207fabdf7b1c458761ce51691957fc4a609987992163e0f8c22f990c"
 
 RPROVIDES:${PN} += "vido"
 
@@ -19,6 +19,6 @@ libgobject-2.0.so.0 \
 libgranite.so.6 \
 libgtk-3.so.0 \
 libhandy-1.so.0 \
-youtube-dl"
+yt-dlp-youtube-dl"
 
 inherit rpm

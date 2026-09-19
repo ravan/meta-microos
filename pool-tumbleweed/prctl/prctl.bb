@@ -1,12 +1,12 @@
 SUMMARY = "A utility to perform process operations"
 DESCRIPTION = "The prctl utility allows a user to control certain process behaviors in \
 the runtime environment."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.6"
+PV = "1.7"
 
-RPM_NAME = "prctl-1.6-4.25.aarch64.rpm"
-RPM_HASH = "5cd2d3782eab0a33f1fe54bc1f667a2b1f4e88fd6683faf199fc9c40998f48992a6b20c40cf87b666a304f8a860e6f2a5de2a9b5ea7363c69f152062804cdc8d"
+RPM_NAME = "prctl-1.7-1.8.aarch64.rpm"
+RPM_HASH = "e319e1fe135e8631cc671e35db9c1d34c53373f22fe4c04e31bfb5d24fbadd477e802ec3a94c0a9d2a6edc6f4e077ac05fcb2f3325fbfa297f8df5e72b1e2d24"
 
 RPROVIDES:${PN} += "prctl"
 

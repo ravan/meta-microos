@@ -8,10 +8,10 @@ accesses to detect grace periods after which memory reclamation is possible. \
 Accesses to detect grace periods after which memory reclamation is possible."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT & GPL-3.0-or-later"
 
-PV = "0.14.0"
+PV = "0.15.6"
 
-RPM_NAME = "liburcu8-0.14.0-1.3.aarch64.rpm"
-RPM_HASH = "0caef05547d61cf017b85e02a874b7b706252473af16978fa925692e69cf0ae4afc9d72cbcef23ca977185fe6a578fb55a7c9f6b3f6c71cb7ff0f14f986a4bae"
+RPM_NAME = "liburcu8-0.15.6-1.3.aarch64.rpm"
+RPM_HASH = "68c96d153d4bc958a33aec53d84e1e42a7034f57ae749f25ae40a689a44a2e9de7e0efb692249333ba4ec8c646556ca16cff92e5145e21ebf3f2ddee60c469ee"
 
 RPROVIDES:${PN} += "liburcu-bp.so.8 \
 liburcu-cds.so.8 \
@@ -19,7 +19,6 @@ liburcu-common.so.8 \
 liburcu-mb.so.8 \
 liburcu-memb.so.8 \
 liburcu-qsbr.so.8 \
-liburcu-signal.so.8 \
 liburcu.so.8 \
 liburcu8"
 

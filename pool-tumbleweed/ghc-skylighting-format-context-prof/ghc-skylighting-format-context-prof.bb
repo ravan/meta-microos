@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.2"
 
-RPM_NAME = "ghc-skylighting-format-context-prof-0.1.0.2-1.11.aarch64.rpm"
-RPM_HASH = "4c6a5cd3761a3a821f2af81026f760694282b15be278aa738ac380b5c05ca3483735229c6303d691287e8808a5ce01449abc9c97c9ba9deb7b49aa34e7da30cd"
+RPM_NAME = "ghc-skylighting-format-context-prof-0.1.0.2-1.79.aarch64.rpm"
+RPM_HASH = "e0180e0f9643a9e2dd3636d21a885d49241265b8daf4013294f306acd279e1428f8e53ecc3ef2886ca03f3533427e6d8bdec422e651f5018d802467e84727647"
 
-RPROVIDES:${PN} += "ghc-prof-skylighting-format-context-0.1.0.2-4E6TECMrJ1JH7PHte3jxUC \
+RPROVIDES:${PN} += "ghc-prof-skylighting-format-context-0.1.0.2-EzEDygUtfEzGScwK06ebkH \
 ghc-skylighting-format-context-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-skylighting-core-0.13.4.1-LOkep7AnSNN7QJDAXr031n \
-ghc-prof-text-2.0.2 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-skylighting-core-0.14.7-HkvmMdabOkA2nMBfVgE9uo \
+ghc-prof-text-2.1.4-cf23 \
 ghc-skylighting-format-context-devel"
 
 inherit rpm

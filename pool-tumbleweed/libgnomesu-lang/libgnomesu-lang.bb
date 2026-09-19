@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libgnomesu"
 DESCRIPTION = "Provides translations for the 'libgnomesu' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.7"
+PV = "2.0.10"
 
-RPM_NAME = "libgnomesu-lang-2.0.7-2.3.noarch.rpm"
-RPM_HASH = "60e7c8f8ff168f5d4645b7eea49a13e1c411770a372e0e84b11c8270ed70dae308daf412d4ad98d3c5920470b25d88c5ce6af54cf1bc15adf73679bf268f6d09"
+RPM_NAME = "libgnomesu-lang-2.0.10-1.5.noarch.rpm"
+RPM_HASH = "f87859600dcefab4ecd03610749b7b374ee7c079896c2813b086dd42dc7e8b0a33891cbd8555e486ec038f719bbc0654e300ee415cb62365dc2f77ca8c34a7a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgnomesu-lang \
@@ -33,6 +33,7 @@ locale-libgnomesu-hu \
 locale-libgnomesu-id \
 locale-libgnomesu-it \
 locale-libgnomesu-ja \
+locale-libgnomesu-ka \
 locale-libgnomesu-ko \
 locale-libgnomesu-lt \
 locale-libgnomesu-lv \

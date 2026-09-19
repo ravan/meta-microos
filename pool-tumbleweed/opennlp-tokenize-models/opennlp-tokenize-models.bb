@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5"
 
-RPM_NAME = "opennlp-tokenize-models-1.5-1.13.noarch.rpm"
-RPM_HASH = "81975252e761ea81c189a33218069308c336714489010bb8f1be44b137cda1691bd61eb4a0e975238a9d645af00bd4ef27c8b3f3f3801a26d2d592d82b0c4289"
+RPM_NAME = "opennlp-tokenize-models-1.5-2.8.noarch.rpm"
+RPM_HASH = "52b423ca50a1e2840969f6b0cd48af74d866246e7763cb4f62e5d5ffefe042005deff92fd38ad2bd46a5a96bbdc0dfaa59dff8c419e4106ba6eab60afa3ed8eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-edu.washington.cs.knowitall-opennlp-tokenize-models \

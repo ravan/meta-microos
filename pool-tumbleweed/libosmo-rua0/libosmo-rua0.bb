@@ -1,11 +1,11 @@
 SUMMARY = "RANAP User Adaption signalling library"
 DESCRIPTION = "Osmocom code for the RANAP User Adaption signalling."
-LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
+LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.4.0"
+PV = "1.8.1"
 
-RPM_NAME = "libosmo-rua0-1.4.0-1.1.aarch64.rpm"
-RPM_HASH = "2fb950ae1a79b3093da88b1569f4957fd3f3fb7ee9f6498de2a63befb3f11405b57938b0442708283cdd058104c94d709a309c95d62623a1332fed14cdd84758"
+RPM_NAME = "libosmo-rua0-1.8.1-1.1.aarch64.rpm"
+RPM_HASH = "05b3f81aaf9edf625dec41db656f0f242fa69dfb013f02cc78a5460db1845bd340bdcbfbdc2ff86ed5c34325cbc2eb808ee84bac7490579613cefe3c08bfa3d8"
 
 RPROVIDES:${PN} += "libosmo-rua.so.0 \
 libosmo-rua0"
@@ -14,7 +14,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libasn1c.so.1 \
 libc.so.6 \
-libosmocore.so.20 \
+libosmocore.so.22 \
 libtalloc.so.2"
 
 inherit rpm

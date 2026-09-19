@@ -4,14 +4,14 @@ software for Armv7-A and Armv8-A, including a Secure Monitor executing at \
 Exception Level 3 (EL3)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.8.6"
+PV = "2.12.8"
 
-RPM_NAME = "arm-trusted-firmware-rpi3-2.8.6-1.2.noarch.rpm"
-RPM_HASH = "22b52143ff4ca694df1fa2a761e60afee52e826b9a99ce11dfeb1dd4a5186b9bd0551147772e9fe941e6d9c265c1ee18303ea2c1639193155fe8e368b50915b5"
+RPM_NAME = "arm-trusted-firmware-rpi3-2.12.8-4.1.noarch.rpm"
+RPM_HASH = "b13eae082e31271159749605ab8e480478115ea5f03883bdd3b1fd542e4c1ddc994f57f2864caab58ffc227ba32bd211d3455e76b22b00810c7ea3816ef67e4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-rpi3"
 
-RDEPENDS:${PN} += "/usr/bin/sh"
+RDEPENDS:${PN} += ""
 
 inherit rpm

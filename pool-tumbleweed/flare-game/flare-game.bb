@@ -13,10 +13,10 @@ game data, allowing anyone to easily modify game contents. Open formats \
 are preferred (png, ogg). The game code is C++."
 LICENSE = "CC-BY-SA-3.0+"
 
-PV = "1.14"
+PV = "1.15"
 
-RPM_NAME = "flare-game-1.14-1.2.noarch.rpm"
-RPM_HASH = "45c45e099c7f5000fa92dfce4ed26b8747d2befea13e974087abd9c3b9d18d956696e49e1511d8099864345f9ef2b5c083b30bba26692bcc9e5f08ca529b2210"
+RPM_NAME = "flare-game-1.15-1.2.noarch.rpm"
+RPM_HASH = "896095fa724cf927d7c615ed167aba46c60b5d00400acdbaabab0a442dadc8002e195d8b17305d398c1b75c2ddab582b948369c1bc55216e680152f62bd901f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flare-data \

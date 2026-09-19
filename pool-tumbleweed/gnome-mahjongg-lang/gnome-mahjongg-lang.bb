@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-mahjongg"
 DESCRIPTION = "Provides translations for the 'gnome-mahjongg' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.40.0"
+PV = "49.1.1"
 
-RPM_NAME = "gnome-mahjongg-lang-3.40.0-1.1.noarch.rpm"
-RPM_HASH = "9e2eed7ed53b01028a093cebd66473dbdbcccccb0fc9d3e993835f044b4e89277ed2d3ae25f09d0e8a04204fb76b8ee4ab25074fb71bf12f1cb3f4520d109130"
+RPM_NAME = "gnome-mahjongg-lang-49.1.1-2.3.noarch.rpm"
+RPM_HASH = "3380ae5355f2be2c99983bbee52dbdb9a9f82125b15962406a7c4d1baa0c406426410a7d425879baee628978ae75cb95d48a355d371b5dce6a4cab896f775902"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-mahjongg-lang \

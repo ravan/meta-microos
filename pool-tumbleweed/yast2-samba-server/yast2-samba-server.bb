@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the YaST2 component for Samba server \
 configuration."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.2"
 
-RPM_NAME = "yast2-samba-server-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "d22de466b049e75b1f5f1468fce7e67a32d6292c6e55747d125265acfd4bdd0008835ec6f987d43a58be808a8552dc1e1b9ac3fa6e4878acfc7165093a2ee525"
+RPM_NAME = "yast2-samba-server-5.0.2-1.2.noarch.rpm"
+RPM_HASH = "d774dfa3ef4e1a786450dda67e80118d1129a75acef5525c5fc340232e304f27d04a03f39cb656e8d591fa0ec6fbdc32d8044c6fa7632167b22e7bb5b4f4be5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SambaAccounts \

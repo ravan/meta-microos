@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package budgie-control-center"
 DESCRIPTION = "Provides translations for the 'budgie-control-center' package."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "1.3.0+0"
+PV = "2.1.0+0"
 
-RPM_NAME = "budgie-control-center-lang-1.3.0+0-1.1.noarch.rpm"
-RPM_HASH = "6671e8c5060bb212e8bec3171d06bb3db54fa6fcea0012f155d2469bc082d1ec77ddb3de77f9fc8fbb49f966ffa8e79518ae6d04a1d3f847e8224bc911523630"
+RPM_NAME = "budgie-control-center-lang-2.1.0+0-1.3.noarch.rpm"
+RPM_HASH = "6423db3d7983c3b21128bf910e4464447a4ded974471430bbbc8286dd7611e357550cb7825f2762ed742252751ce68cb22f2b811d5fbff4f4939990592b6f2b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-control-center-lang \

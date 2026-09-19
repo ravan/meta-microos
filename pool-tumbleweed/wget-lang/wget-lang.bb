@@ -2,10 +2,10 @@ SUMMARY = "Translations for package wget"
 DESCRIPTION = "Provides translations for the 'wget' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.21.4"
+PV = "1.25.0"
 
-RPM_NAME = "wget-lang-1.21.4-2.1.noarch.rpm"
-RPM_HASH = "541044ee1a2f3b47b1a6a25852c0cd0e639640b9f6d0b6ece1ce53f80286d713feb820a8e61e900f91eff9de8754d4a0302a43e1145f1f1dce4c7a928ceac557"
+RPM_NAME = "wget-lang-1.25.0-7.1.noarch.rpm"
+RPM_HASH = "f4e1179d4699914652fbf9030912dec147b733357ec2b33b1bee99dd298c9d669acdc44103ee814d136c6436b653729028c195f341127367568a0a71bf710bdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-wget-af \

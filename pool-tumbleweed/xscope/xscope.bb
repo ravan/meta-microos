@@ -3,10 +3,10 @@ DESCRIPTION = "XSCOPE is a program to monitor the connections between the X11 wi
 server and a client program."
 LICENSE = "MIT"
 
-PV = "1.4.4"
+PV = "1.4.5"
 
-RPM_NAME = "xscope-1.4.4-1.2.aarch64.rpm"
-RPM_HASH = "a9388b87e8d1d539e6af5e324da8b5721e0ab4b8a52321dca16ccb4bf44f263f6ec3e0c33b5112a886407480dff528043052a093472359093a9259946748571d"
+RPM_NAME = "xscope-1.4.5-1.5.aarch64.rpm"
+RPM_HASH = "66c3e541bbb4fc27eabc16d703c18fb8136356be54feda8de2dcf33dcf598257e8c88bde18fbd102463c5c674ce32487e057aca1f7d2787cdb7cae9acb41ba62"
 
 RPROVIDES:${PN} += "xscope"
 

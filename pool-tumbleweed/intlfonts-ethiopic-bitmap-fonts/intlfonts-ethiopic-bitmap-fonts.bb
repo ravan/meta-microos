@@ -2,10 +2,10 @@ SUMMARY = "Ethiopic Fonts for the X Window System"
 DESCRIPTION = "Ethiopic fonts for the X Window System."
 LICENSE = "HPND & SUSE-Redistributable-Content & SUSE-Public-Domain"
 
-PV = "1.2.1"
+PV = "1.4.2"
 
-RPM_NAME = "intlfonts-ethiopic-bitmap-fonts-1.2.1-16.15.noarch.rpm"
-RPM_HASH = "86e70e77c94ac2da221970c1bf9231606133fe50a783c1142854c203ee6d42d585fb45735e2bad8ac365203a9a49493646fbdea02fb315b1491f7284b8194757"
+RPM_NAME = "intlfonts-ethiopic-bitmap-fonts-1.4.2-1.6.noarch.rpm"
+RPM_HASH = "23be678820192d8e916c8241f4474c752b6273c9f91e7a1df8929d0efc0c130dfe556ae8aad3e405baac41195c1baf640205a043e2f2502ea16fc4ba2b7cd989"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ifntethi \

@@ -12,14 +12,15 @@ DESCRIPTION = "MultimonNG a fork of multimon. It decodes the following digital t
 * FLEX"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.2.0"
+PV = "1.6.0"
 
-RPM_NAME = "multimon-ng-1.2.0-1.4.aarch64.rpm"
-RPM_HASH = "90533d131a554ff150e182e868084bf58aab520086c9a8164c247fc694149442bbd64c254df0362ee3e7e841e8d115bcbe1c3566dbe877b4d66949bade028d8a"
+RPM_NAME = "multimon-ng-1.6.0-1.1.aarch64.rpm"
+RPM_HASH = "699086ab191544bc4adf3e9e5c1457f8a93f89c30ba062f9055ac42ba647cf842371c547151fd037b6b6c47d6f19f28b7b6a50a5cab82eaf40499082d3a0fda8"
 
 RPROVIDES:${PN} += "multimon-ng"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL3.so.0 \
 libX11.so.6 \
 libc.so.6 \
 libm.so.6 \

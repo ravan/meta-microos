@@ -2,15 +2,16 @@ SUMMARY = "Development files for spglib/libsymspg"
 DESCRIPTION = "Spglib is a C library to find and handle crystal symmetries."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.4.0"
 
-RPM_NAME = "spglib-devel-2.0.2-1.4.aarch64.rpm"
-RPM_HASH = "9c01be17d0e0c011a2155b3cd271a34a23f0082f3b7c83e0db73d6a767152aca640c703f6017fa684a04cc860dcec3067e62105295581cf1b6d2548db1b962a0"
+RPM_NAME = "spglib-devel-2.4.0-1.9.aarch64.rpm"
+RPM_HASH = "6b96bcb19d7ad1675ed1789df6b79df137113cc8c058f2691fdfeca0605fc5d46df83597ce77f0502acc0ed46a26a60be1b0d0d1017abac9b365dbefeb92dbc9"
 
-RPROVIDES:${PN} += "pkgconfig-spglib \
+RPROVIDES:${PN} += "cmake-Spglib \
+pkgconfig-spglib \
 spglib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsymspg1"
+libsymspg2"
 
 inherit rpm

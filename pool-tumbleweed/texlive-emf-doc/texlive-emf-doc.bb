@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-emf"
 DESCRIPTION = "This package includes the documentation for texlive-emf"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1svn42023"
+PV = "2026.226.1svn76790"
 
-RPM_NAME = "texlive-emf-doc-2023.209.1svn42023-54.2.noarch.rpm"
-RPM_HASH = "c1b285bc543168ba620ad2548755915c0a2e0c4545fd11864d22b99ecdc5f920b49d4bb3301494d33c2ab765d579dd61a1f97042231f27cccb7b600b1a12a759"
+RPM_NAME = "texlive-emf-doc-2026.226.1svn76790-61.4.noarch.rpm"
+RPM_HASH = "06a765b38c6e86d6cf796a782e2fbb7e45735de7935a1026abd5e526ee2a4d6dec548b4444cc5a15f763ed2b89f8a919d3e8d31ff46bf74311fa549a8b20db73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-emf-doc"

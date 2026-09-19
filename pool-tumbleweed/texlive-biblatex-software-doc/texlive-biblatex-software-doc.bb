@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-software"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-software"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2_5svn64030"
+PV = "2026.226.1.2_8svn77180"
 
-RPM_NAME = "texlive-biblatex-software-doc-2023.209.1.2_5svn64030-54.1.noarch.rpm"
-RPM_HASH = "b03c92814f6ff18793b26243e75ccd8ec304f83dedf3b212d9fbadb1f7aa20334d2ed4f5715069446b8b2f39918d7f6301bb345cbb23749e1b53672f4a3be42e"
+RPM_NAME = "texlive-biblatex-software-doc-2026.226.1.2_8svn77180-61.2.noarch.rpm"
+RPM_HASH = "8a6af2005a144a664c1caf14df98d8cf26cb7157cf911a935347c02d16a93f8cfd89b05f4b789dfc75ff1eb38998e8c8a444cd4fbc82e1105d065fd7b5f5c020"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-software-doc"

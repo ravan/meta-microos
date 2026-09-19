@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "libgstriff-1_0-0-1.22.5-3.1.aarch64.rpm"
-RPM_HASH = "f51900f591cb12e4e9da6d5b097decb565430495712ba873e08d320600204ce86417cae87c91b38253ee4916ad2d6ff276ae5256b7f913f86767cf520e3a8f69"
+RPM_NAME = "libgstriff-1_0-0-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "c2d099cfb929e28bf74100af471ec3f58d61c8d7ce1bb03d9ba631bd2572f931bade8643d7eddbdda974e4ef99f584fde86c0bb86c7f1e85cfb37610041e3356"
 
 RPROVIDES:${PN} += "libgstriff-1-0-0 \
 libgstriff-1.0.so.0"

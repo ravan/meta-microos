@@ -3,10 +3,10 @@ DESCRIPTION = "Libntlm provides routines to manipulate the structures used for t
 client end of Microsoft NTLMv1 authentication."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6"
+PV = "1.8"
 
-RPM_NAME = "libntlm0-1.6-2.1.aarch64.rpm"
-RPM_HASH = "b2c8e70688bc0f674d32ed0435bfc2b4e7088ed66166ffb6d8fbd8888dead8470e55aafec465ef3915937cfee07a03dacdcb0e43643de444ef0d678505acc3b3"
+RPM_NAME = "libntlm0-1.8-2.3.aarch64.rpm"
+RPM_HASH = "5c33aaf36dc285f797e57f7621eef16b7c29a9148fe402314a098f44324d0ed3505edcc041e566d5b53c708100cd6434c272d673dbe75f3a362b572b77e9963c"
 
 RPROVIDES:${PN} += "libntlm.so.0 \
 libntlm0"

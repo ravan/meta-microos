@@ -22,10 +22,10 @@ Run \
 from the directory where the original game files are located."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.1+git20230213"
+PV = "1.1+git20240123.b9e215b"
 
-RPM_NAME = "omnispeak-1.1+git20230213-1.2.aarch64.rpm"
-RPM_HASH = "f6f92d5afd4ba257068ffb670e1c51a9f380152a07c3d6d90514a2363cd485cc6f0e50b3d3f5c22ef44da05bc307033fee0d45795835e22064830630cc6fe9af"
+RPM_NAME = "omnispeak-1.1+git20240123.b9e215b-3.5.aarch64.rpm"
+RPM_HASH = "c9d727eb64d7c773b23b964d65f9eced831d151ef65cbea5b6201205f6193c1c08d6a763623f096eac068b829704c6c61ef3ce82111f447af472072463cb305a"
 
 RPROVIDES:${PN} += "omnispeak"
 
@@ -34,6 +34,7 @@ ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libasound.so.2 \
 libc.so.6 \
+libieee1284.so.3 \
 libm.so.6"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "Claw is a generalist library written in C++ and providing various
 structures (multitype map, AVL binary tree) and algorithms."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.7.4"
+PV = "1.9.1"
 
-RPM_NAME = "libclaw1-1.7.4-4.11.aarch64.rpm"
-RPM_HASH = "a186cc4e4e5eee4fe56b6dd70bf04c2f7d7198cf7c03869179a72231a92d361c023825e6f7b8d7e1eb8d000c0fec01a41bae198b22064f0c95e30593d55c16e6"
+RPM_NAME = "libclaw1-1.9.1-1.9.aarch64.rpm"
+RPM_HASH = "9c1dbc4f01f6d586fda5bbb3372e9d1a976fbf6834f0f005f2de57d2f1618e5f29702d1a2ed8016b664a5ea7ff1e795de911377a3a118dfd790014e760b97c02"
 
 RPROVIDES:${PN} += "libclaw-application.so.1 \
 libclaw-configuration-file.so.1 \

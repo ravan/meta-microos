@@ -10,10 +10,10 @@ program text. This package depends upon the following other \
 LaTeX packages: expl3, TikZ, environ, xparse, and xcolor."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3svn52204"
+PV = "2026.226.1.3svn67201"
 
-RPM_NAME = "texlive-algobox-2023.209.1.3svn52204-55.1.noarch.rpm"
-RPM_HASH = "5a3a1a7fd8767b11c18033330ac5b6107bc031835294b2107c575e0be491c5f7d847c56351034f6f4d399b79f04421f061f74401e7a4bb2a209e4c78cd161fd7"
+RPM_NAME = "texlive-algobox-2026.226.1.3svn67201-61.2.noarch.rpm"
+RPM_HASH = "1305f216ec8d871cb91b170d3c263516ce2a23f03ff004b450463e193a8454d4acf2bf79890a2e29f3cfa082dce1a24051c212d6a282cd94e9536ac7567524e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-algobox.sty \

@@ -6,10 +6,10 @@ Also included is 'wseventmgr', a CLI utility for event management over \
 the WS-Management protocol."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.6.0"
+PV = "2.8.0"
 
-RPM_NAME = "wsmancli-2.6.0-2.20.aarch64.rpm"
-RPM_HASH = "181c525b75bdd8832c492cf15c9eba5b8f622032799a5e04492850f07af78737d964293ae18540879a71c26275b71f762f1b4946199078ae6730e16801116104"
+RPM_NAME = "wsmancli-2.8.0-3.5.aarch64.rpm"
+RPM_HASH = "1f8e5e3628b29fc301cdc7083635d9466088dced4866f64c774386dc4b5f3253f318aea532d8bcd7d5bc4c55d1b5000b9bfbc3c293dc72e06069685bb02e3af7"
 
 RPROVIDES:${PN} += "wsmancli"
 

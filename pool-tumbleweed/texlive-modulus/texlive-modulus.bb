@@ -8,10 +8,10 @@ dividend and divisor. A tiny but occasionally useful package, \
 when doing heavy TeX programming."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn47599"
+PV = "2026.226.1.0svn47599"
 
-RPM_NAME = "texlive-modulus-2023.209.1.0svn47599-55.1.noarch.rpm"
-RPM_HASH = "a44fd7c658b0d2db0ba0607422140421fb447e16e2ae21f4eb18e5243b8623ec74640e043fe27b476bc7cd6f5ef303066ec82766e7f951b2acd8af80c32c3ff6"
+RPM_NAME = "texlive-modulus-2026.226.1.0svn47599-61.2.noarch.rpm"
+RPM_HASH = "6998fd9f5c06a8e76e9731d7823bb8242ece1f57a406d55e13d60a38031fed37a15ef035040a55f73770d3877031bc916ca286ee513dda56ff06a0bd6fa0d935"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-modulus.sty \

@@ -4,10 +4,10 @@ with Data Center Bridging (DCB) for Intel(R) Network Connections \
 'lldpad' plus the configuration tools 'dcbtool' and 'lldptool'."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.1+58.8ca361bab766"
+PV = "1.1+110.f16f944"
 
-RPM_NAME = "open-lldp-devel-1.1+58.8ca361bab766-1.4.aarch64.rpm"
-RPM_HASH = "8d4dfaffad38d9222aac53bcb393b0b8aa901975c990ab17361a56f09c1d95b6d5e0299701379be859c90f9ec36b7e531045970883a2e795a4b39038bb5f5a17"
+RPM_NAME = "open-lldp-devel-1.1+110.f16f944-1.1.aarch64.rpm"
+RPM_HASH = "5d049c50e2829176c8602c0f7dabb37c7dc08c75194b84366936bed07bc8bc6f737a7f91843401ba8d201b2aafba29d3ac4485868915edb77191d97c53ad1dc3"
 
 RPROVIDES:${PN} += "dcbd-devel \
 lldpad-devel \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-screenshooter"
 DESCRIPTION = "Provides translations for the 'xfce4-screenshooter' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.4"
+PV = "1.11.3"
 
-RPM_NAME = "xfce4-screenshooter-lang-1.10.4-1.1.noarch.rpm"
-RPM_HASH = "108362cab53ed0dec12c6a7797128d9dbf0acde3096694b8d84fb0ebc4cf71e6248f54725222a7bd8a00aeb261b446ecbfd15e1572be89f6d8da08d59c52d17e"
+RPM_NAME = "xfce4-screenshooter-lang-1.11.3-2.2.noarch.rpm"
+RPM_HASH = "6a4e9bedc7e2ef85cd86d8bf97b29101d44c3391a664dc5b39bfd11a2d18eb988e1908ca112a8aea0f6c227b513a89320336a5887bf3b4a26b794460b08c9d76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-screenshooter-ar \

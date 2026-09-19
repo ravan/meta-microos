@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-axodraw2"
 DESCRIPTION = "This package includes the documentation for texlive-axodraw2"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.1.1csvn58155"
+PV = "2026.226.2.1.1csvn77682"
 
-RPM_NAME = "texlive-axodraw2-doc-2023.209.2.1.1csvn58155-54.1.noarch.rpm"
-RPM_HASH = "ac3bbfe3c8d047adf45926a0bddbafdf699b3d19d27bd6a842fb294c1c1ad8717a6d64ce7e6c8a02e9e45ab0e24e32e90b9fa2354f04b3699e16ccd096da57e5"
+RPM_NAME = "texlive-axodraw2-doc-2026.226.2.1.1csvn77682-60.2.noarch.rpm"
+RPM_HASH = "b8b943b4c6d5bce9be72c830ec2d0ff27a66450554d0d4e2f75364b7ef9fa0f39e5a562148c6f53afe16f7c8e42a43ee6602086bcbcca9b076ef90be3431cf5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-axohelp.1 \

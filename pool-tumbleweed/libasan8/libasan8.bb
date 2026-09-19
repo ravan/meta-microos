@@ -3,10 +3,10 @@ DESCRIPTION = "The runtime library needed to run programs compiled with the \
 -fsanitize=address option of the GNU Compiler Collection (GCC)."
 LICENSE = "MIT"
 
-PV = "13.2.1+git7683"
+PV = "16.2.0+git9497"
 
-RPM_NAME = "libasan8-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "de07b609d32ef12a59f4389789970406dc68fa20b7d9c503cffac3a819fa2ec83cc0b93aec2dffcaa91d4befe17ae664dcccb2cc29e0b0f99a150e50ed3755ce"
+RPM_NAME = "libasan8-16.2.0+git9497-3.1.aarch64.rpm"
+RPM_HASH = "fdead25f997b411fd68eacc545336d3b957d72eee24838e3363fe323dbf0e798366c800daa235d706ce769ea292b5dd75abf001a82d7813656e4a901b9646da0"
 
 RPROVIDES:${PN} += "libasan.so.8 \
 libasan8"

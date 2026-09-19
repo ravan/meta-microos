@@ -4,15 +4,16 @@ GlobalPlatform TEE standard. For a general overview of OP-TEE, the \
 Open Platform Trusted Execution Environment, see the Notice.md file."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.9.0"
+PV = "4.6.0"
 
-RPM_NAME = "optee-client-3.9.0-1.12.aarch64.rpm"
-RPM_HASH = "a9f80d72fb9c7ede7f55df2c1d1290fc002d8e15036bc4b234e7cfdcb5e144fc31bd8c93efc803ee14eed9969030fc4dc5e34d2ce0489f5538c7c34321035265"
+RPM_NAME = "optee-client-4.6.0-1.6.aarch64.rpm"
+RPM_HASH = "906d8b1cf38907393011af7700e53ae84244eb8290e46f8ec17c47f8eed065f7a6477eee1f4d3ccaaec41cf16def729e03d42b56839a8b7ba8f810e5abb30208"
 
 RPROVIDES:${PN} += "optee-client"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libteec.so.1"
+libteec.so.2 \
+systemd"
 
 inherit rpm

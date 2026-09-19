@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.8"
 
-RPM_NAME = "mate-applet-softupd-0.4.8-1.9.aarch64.rpm"
-RPM_HASH = "94e02c320bf95f62bfa7149ed2c87b114c79c09b8a8217780e90e76afef64dd5b44d1c4de4c308138a3e7373efe3c1a6eb8fa336568486260c9b503f7fd9a81c"
+RPM_NAME = "mate-applet-softupd-0.4.8-1.20.aarch64.rpm"
+RPM_HASH = "aba1a5ca5ad9eb93e023380c0546f64d0cd2e8ba64a089970c1cb9233c365a299017ff2cf73b453b2483fc7b6508763eecd81dc0339eb8cbad18716b1635a158"
 
 RPROVIDES:${PN} += "mate-applet-softupd"
 

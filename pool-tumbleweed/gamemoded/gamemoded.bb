@@ -6,16 +6,20 @@ The GameMode daemon is installed as a D-Bus Service and will start \
 automatically on first access by a client."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7"
+PV = "1.8.2"
 
-RPM_NAME = "gamemoded-1.7-3.1.aarch64.rpm"
-RPM_HASH = "e4cc9942fd2c5c0ed083382fa2039667d361c09847d85a1ad57ef32134ec6f7d317a33042855290029cc55432e621dee76290e89589777437e6a83368866051b"
+RPM_NAME = "gamemoded-1.8.2-1.9.aarch64.rpm"
+RPM_HASH = "d49213dfd03794aa1cae7fcf5421bd609d16b3ea5bb892acdf7569f11f312661734a4cbd0d35451e1eb656dd4dd02a5885f62361b6803120a0d690a42627ce09"
 
-RPROVIDES:${PN} += "gamemoded"
+RPROVIDES:${PN} += "config-gamemoded \
+gamemoded \
+group-gamemode"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/sh \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libinih.so.0 \
-libsystemd.so.0"
+libsystemd.so.0 \
+sysuser-shadow"
 
 inherit rpm

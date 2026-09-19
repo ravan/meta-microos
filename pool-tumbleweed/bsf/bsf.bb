@@ -23,8 +23,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "bsf-2.4.0-17.13.noarch.rpm"
-RPM_HASH = "679109822a70a500afdc494a6cad606a3d68aa4ab65b408bdf569cb5b718709d9d0723e4b9aaf30dbb154ca7bb8905be00a46facba612b00f9c7ffd7ec4d770a"
+RPM_NAME = "bsf-2.4.0-18.9.noarch.rpm"
+RPM_HASH = "f3c4e1ceba8985978ee78c0c64752d6d135870f0ba370e4d9b127f959b85709b5e0d12073626736a9dbcf6d85fab3c9cbd8000a759c15628ec65b1e518a31ec1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bsf \

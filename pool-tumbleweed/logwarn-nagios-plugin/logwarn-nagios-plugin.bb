@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.17"
 
-RPM_NAME = "logwarn-nagios-plugin-1.0.17-1.3.noarch.rpm"
-RPM_HASH = "c12adfc86ea06d1b92c9178a2211d53ca8d77d36f27940f59c91662109571fc1df1c9b13abf3546ba2c70fe55fd576957958163ed15d0f821e0be831f26e8ce6"
+RPM_NAME = "logwarn-nagios-plugin-1.0.17-1.13.noarch.rpm"
+RPM_HASH = "c83760e823e779d0a3dc36b699d28385864bb1d6b7e78c8279e5e7b80d2b69298c0c7459f7a81d84ae09fe3f60b56223206d07b481fc18476e5b6e0f0cdcaeda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "logwarn-nagios-plugin"

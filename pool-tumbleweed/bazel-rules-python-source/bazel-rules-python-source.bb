@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0.1"
 
-RPM_NAME = "bazel-rules-python-source-0.0.1-1.9.noarch.rpm"
-RPM_HASH = "ab5bd23f4964f283d1e805650a3f22375d3c0d6f46a8d6c354ccaba75dc5986bcb36edcd003b8a160f3a877a5d108cb4d4ca6bd81d059b54fd008d76b5c7ee19"
+RPM_NAME = "bazel-rules-python-source-0.0.1-1.17.noarch.rpm"
+RPM_HASH = "0ae2e91bc27a9eced70504fe8073a7676cee2994fb020171fae550ecc52b923af3b990acf85c173b4422adcddd481bfdc21803aa45220859de7da68537809104"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-python-source"

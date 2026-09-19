@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-warpcol"
 DESCRIPTION = "This package includes the documentation for texlive-warpcol"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0csvn15878"
+PV = "2026.226.1.0csvn77682"
 
-RPM_NAME = "texlive-warpcol-doc-2023.209.1.0csvn15878-54.1.noarch.rpm"
-RPM_HASH = "ca06515766deb1037b59f0d275fc255d933240acc2479759fa8505e3824d96f7764cafa0de1f1765b925fbfeefafb6a7c00745da01e4faf9c286c87e5179c808"
+RPM_NAME = "texlive-warpcol-doc-2026.226.1.0csvn77682-60.2.noarch.rpm"
+RPM_HASH = "ccf53d492e517fce7d1f938046220e67888c823e99f8ce28778f01931a4842f17f9293becfdd5f9ed524dd4c483c7544bc7a0a278847a66cb8b7ce7231474407"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-warpcol-doc"

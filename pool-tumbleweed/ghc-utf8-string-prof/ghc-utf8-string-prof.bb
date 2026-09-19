@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.2"
 
-RPM_NAME = "ghc-utf8-string-prof-1.0.2-2.8.aarch64.rpm"
-RPM_HASH = "27964915971d679f52110f850a8cf7fc5a9bb44473ab0499bd1b6bc36e746f6ac14a07b7c7c043420c9f28577868e018864867e6ce6841b7a2ac1f691dc0f26a"
+RPM_NAME = "ghc-utf8-string-prof-1.0.2-2.35.aarch64.rpm"
+RPM_HASH = "c318f300fa40f8ea7ee1d04790728c7ae26e7fc34d3806da3cf95e82050d1b660a62f3094b73ada7ad3802220fe89e8a2275aff8ea63c6ec133c2b2a61b8da0c"
 
-RPROVIDES:${PN} += "ghc-prof-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
+RPROVIDES:${PN} += "ghc-prof-utf8-string-1.0.2-FCJm07Id8m53KWoTjjdHEG \
 ghc-utf8-string-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
 ghc-utf8-string-devel"
 
 inherit rpm

@@ -10,13 +10,13 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.0601"
 
-RPM_NAME = "perl-DateTime-Calendar-Mayan-0.0601-19.30.aarch64.rpm"
-RPM_HASH = "f922597681ba3d00d971614604887ca27508f22cc057da9544eadd1e5fa3212c6641f71995d5e7b9e4bf02c63e8efc7888d8dcb6cce6d6ae6f3fe11e1048ef8a"
+RPM_NAME = "perl-DateTime-Calendar-Mayan-0.0601-21.7.aarch64.rpm"
+RPM_HASH = "8dce7f553015ab2e4e1b02185e2731803de063b03f078f8d4110854c9760182adb19fc75c3bebbfbcca1b7af18effa1a6702fa03743a23ef57631d1f541b25ba"
 
 RPROVIDES:${PN} += "perl-DateTime--Calendar--Mayan \
 perl-DateTime-Calendar-Mayan"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DateTime \
 perl-Params--Validate"
 

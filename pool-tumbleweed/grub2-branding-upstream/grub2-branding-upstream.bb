@@ -2,13 +2,14 @@ SUMMARY = "Upstream branding for GRUB2's graphical console"
 DESCRIPTION = "Upstream branding for GRUB2's graphical console"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12~rc1"
+PV = "2.14"
 
-RPM_NAME = "grub2-branding-upstream-2.12~rc1-2.1.aarch64.rpm"
-RPM_HASH = "aaab67f2868a1d2406a30ea5b822ec246af2f0e19f2607fef724a706906978bbf0b1e3b3f634c69488b8b35064b05185bbd06f988c6b1a22a4511b1571608c09"
+RPM_NAME = "grub2-branding-upstream-2.14-19.1.noarch.rpm"
+RPM_HASH = "f22f46d30277601146e0384761ffa4704b7cd92c8a46a01b3f2ba816fd9382ecea28e3fca0aab8c338d9974912cb33e2cd011edc8b026b9450a00ad7dfe586b9"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-branding-upstream"
 
-RDEPENDS:${PN} += "grub2"
+RDEPENDS:${PN} += "grub2-common"
 
 inherit rpm

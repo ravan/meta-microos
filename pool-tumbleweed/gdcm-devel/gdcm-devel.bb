@@ -3,16 +3,16 @@ DESCRIPTION = "Header files needed for developing applications that want to make
 of GDCM."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.21"
+PV = "3.2.5"
 
-RPM_NAME = "gdcm-devel-3.0.21-1.9.aarch64.rpm"
-RPM_HASH = "5f69e18cce36861f80c8b370f1d60bbeea39a45bd90c48eeda037e4401aa71a58fd53a7d34d701cc432083159ab8bcdbe10dabd235dbb3b0b2d7d96751bf2e1b"
+RPM_NAME = "gdcm-devel-3.2.5-2.3.aarch64.rpm"
+RPM_HASH = "d1bf42859c8d823520539798ec2d7bd54975dfff7e3766c9e5fd282bf5012e8641cf8b256bf7019f6e2e687b592efa10c271a9a4b56bcbbd0e9d9e05cdcc9953"
 
 RPROVIDES:${PN} += "cmake-GDCM \
 gdcm-devel"
 
 RDEPENDS:${PN} += "gdcm-applications \
-libgdcm3-0 \
+libgdcm3-2 \
 libsocketxx1-2"
 
 inherit rpm

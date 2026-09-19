@@ -11,10 +11,10 @@ Xorg server and can pull X clients into the Wayland desktop and act \
 as a X window manager."
 LICENSE = "CC-BY-SA-3.0 & MIT"
 
-PV = "12.0.2"
+PV = "16.0.0"
 
-RPM_NAME = "weston-12.0.2-1.1.aarch64.rpm"
-RPM_HASH = "2d49eab9b20456db455d34e6da6705a35021bbf0761b1a8e59707d0619e35881d01a38f267eda07eb902ef29d9f3ddd86fe4b7c1130775917d3671d935abcbf4"
+RPM_NAME = "weston-16.0.0-1.1.aarch64.rpm"
+RPM_HASH = "11c1282eb0f306e4a7749e8bc8d510398fb9cf3d19c1a57806690fd1e8c76f8cff8f143fbdba9b24ddc7ff9ef03949f51805b5e4165ec969c88fce03997fb368"
 
 RPROVIDES:${PN} += "libexec-weston.so.0 \
 weston"
@@ -22,6 +22,7 @@ weston"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
+libdisplay-info.so.3 \
 libevdev.so.2 \
 libinput.so.10 \
 libjpeg.so.8 \
@@ -33,7 +34,7 @@ libwayland-client.so.0 \
 libwayland-cursor.so.0 \
 libwayland-server.so.0 \
 libwebp.so.7 \
-libweston-12.so.0 \
+libweston-16.so.0 \
 libxkbcommon.so.0 \
 vpx-tools \
 xkeyboard-config"

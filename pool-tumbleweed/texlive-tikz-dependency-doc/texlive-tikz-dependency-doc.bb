@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-dependency"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-dependency"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn54512"
+PV = "2026.227.1.2svn54512"
 
-RPM_NAME = "texlive-tikz-dependency-doc-2023.209.1.2svn54512-55.1.noarch.rpm"
-RPM_HASH = "db540e663730e9ef269347f4263a97adf62376d7d819c828666eacc20c4b84d05cc22cc48292d68475d3a1819365588efeef17488e11b4ca8ee2e0ae19637e7a"
+RPM_NAME = "texlive-tikz-dependency-doc-2026.227.1.2svn54512-62.2.noarch.rpm"
+RPM_HASH = "d26be588ed15c0ee68f91db71af80d404b17b63df7a6db627a50a0edf88d2ac826d61b004b95016285cac21d333ec7b0bceb241633eb4dbf1c514d3c9489d0b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-dependency-doc"

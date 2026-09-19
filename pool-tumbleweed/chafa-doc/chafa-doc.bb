@@ -2,10 +2,10 @@ SUMMARY = "Chafa documentation"
 DESCRIPTION = "Documentation for chafa."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.12.5"
+PV = "1.18.2"
 
-RPM_NAME = "chafa-doc-1.12.5-1.1.noarch.rpm"
-RPM_HASH = "7862c4f9f0be9fdb7438708bc2465610d3cacaa7438b3051e1ed81939f1ccdaaef2cea43609fcabc7598a3eb831cbeff68ff6504ddb72aa32bfd83e18c2a7848"
+RPM_NAME = "chafa-doc-1.18.2-1.3.noarch.rpm"
+RPM_HASH = "a945d25930f075427d1e45290b625353893541d94a64eaca4b47c060906fe260f140a3ede5192a49d49af7a34f98037e14600d9e8ec2e18ac6167ad94208701a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chafa-doc"

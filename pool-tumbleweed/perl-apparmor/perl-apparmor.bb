@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the perl interface to AppArmor. It is used 
 applications interfacing with AppArmor."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "3.1.6"
+PV = "5.0.2"
 
-RPM_NAME = "perl-apparmor-3.1.6-4.1.aarch64.rpm"
-RPM_HASH = "dd780d03c060f470b8f2ebb56a60367092ff3b758888d156ba593f92eaea691de72762ca082b0e28762398d6e10464bec6d96049a56e84c2447b2fc85e94a47d"
+RPM_NAME = "perl-apparmor-5.0.2-2.1.aarch64.rpm"
+RPM_HASH = "4ce85ae3e291fbf395b76c58cca5e3117d2890e08e7949148c99476401f14d7bfaf08b40c7499ed174c9cf3667d214c827428066580d46dd5b386e31fc691b1a"
 
 RPROVIDES:${PN} += "perl-LibAppArmor \
 perl-LibAppArmor--aa-log-record \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package phpMyAdmin"
 DESCRIPTION = "Provides translations for the 'phpMyAdmin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.2.1"
+PV = "5.2.3"
 
-RPM_NAME = "phpMyAdmin-lang-5.2.1-3.1.noarch.rpm"
-RPM_HASH = "a62ff8c2d1657f139f1bdb85faaac72947f28e576d15ce281c569003b364c2f893c2061a37b5d18ed9097f3ca432f0c00e68748ca158c548550585fadc3e7e5c"
+RPM_NAME = "phpMyAdmin-lang-5.2.3-1.3.noarch.rpm"
+RPM_HASH = "f0e61a66e3ad44c041d9d5e15f680ecc412dae11aceb103e4628f07d717cf59eac38c6ad34aa52b6d9b5c3b0a4f4fe33a243b223bb413ff18ccfb6107cc5b059"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-phpMyAdmin-af \

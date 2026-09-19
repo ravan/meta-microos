@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-scripts-extra"
 DESCRIPTION = "This package includes the documentation for texlive-scripts-extra"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn62517"
+PV = "2026.227.svn78162"
 
-RPM_NAME = "texlive-scripts-extra-doc-2023.209.svn62517-55.1.noarch.rpm"
-RPM_HASH = "ec514b948f381307bcd92dbbf42039b003e8f5dae5c5fa6f59d0344516aa8ed1f3c18f80d0d1040830c35ca11ed15b131f332bc1e732b73c8b5ba1eb4bf30941"
+RPM_NAME = "texlive-scripts-extra-doc-2026.227.svn78162-62.2.noarch.rpm"
+RPM_HASH = "f04af99ac64b831baa1eb17a206a15e1332acfad43be9163f6cdb3ea5916506140625dd63959e67de1c52d17365cde767ab2a35928164e08f5c2d1a7a7e32a5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-allcm.1 \

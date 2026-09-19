@@ -4,10 +4,10 @@ functionality of XMvn such as resolution of artifacts from system \
 repository."
 LICENSE = "Apache-2.0"
 
-PV = "4.2.0"
+PV = "4.3.0"
 
-RPM_NAME = "xmvn-core-4.2.0-4.1.noarch.rpm"
-RPM_HASH = "1f647cf66737852b96f69a60264f77b28f316288dcbaaad8d60bff39aeb0bca3a46914ff51110e854600797ebcf137a1fb7cd9b36967b409b51c6c618800a285"
+RPM_NAME = "xmvn-core-4.3.0-8.1.noarch.rpm"
+RPM_HASH = "1ce34d14178b6ce00f580087e8200c87a73ac70035bc7270a5c9541871e1866135fe1a67d1d8689a9581259eb4a60f75e92477b32779e4c081d90d01f132f6bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.fedoraproject.xmvn-xmvn-core \

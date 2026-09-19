@@ -4,10 +4,10 @@ those equations that are referenced. This operation is similar \
 to the showonlyrefs option of the package mathtools."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.11svn36084"
+PV = "2026.226.0.0.3.11svn77682"
 
-RPM_NAME = "texlive-autonum-2023.209.0.0.3.11svn36084-54.1.noarch.rpm"
-RPM_HASH = "b87df969a61fb2b2d8effa9c48f65d23a36355a363d7ac3fbb00a26ef7a6abb72f5efac7362df6de1133371a985ddd31bdedbd31225663936e1b3ef68e43a394"
+RPM_NAME = "texlive-autonum-2026.226.0.0.3.11svn77682-60.2.noarch.rpm"
+RPM_HASH = "400652b96d66d365402af2956a4c19fc08775510f4b9b82d276621eb05b9b7367e6fe0028b0315155ce1389705c834f8a435320f36c0f9f52455444f873b494c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autonum.sty \

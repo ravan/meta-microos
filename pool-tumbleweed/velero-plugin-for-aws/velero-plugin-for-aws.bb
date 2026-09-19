@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "velero-plugin-for-aws-1.4.0-1.7.aarch64.rpm"
-RPM_HASH = "7bdbbe446dc7b77175a98450861270f8bc37e5331391092b8c5c645121e772b97f84e10370086e6922d039b243aea8187310a9c456718a13692d8a8efaf03f2b"
+RPM_NAME = "velero-plugin-for-aws-1.4.0-2.8.aarch64.rpm"
+RPM_HASH = "42e8c6664003c28f6a67ce1d303c68b0561b4ae4d64e21eb6be6d22442a5ae5b336ea4dd739718b20b2be0d7ea6897377cbeb67cc17a14b4a8ff6c994945e9e9"
 
 RPROVIDES:${PN} += "velero-plugin-for-aws"
 

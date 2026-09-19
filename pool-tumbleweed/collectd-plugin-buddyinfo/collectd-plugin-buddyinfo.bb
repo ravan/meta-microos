@@ -2,10 +2,10 @@ SUMMARY = "Buddyinfo plugin for collectd"
 DESCRIPTION = "Optional collectd plugin for memory fragmentation."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-buddyinfo-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "3b86979eb525229551886d947fb6cbf9c72b7847440ec5eba88d08cd8d5ccf345217c6eb47c53a18203fe455a6181f10d9b6d4645a3cc5151b442cf3ced56241"
+RPM_NAME = "collectd-plugin-buddyinfo-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "e65fe2423e8bbf464de48f3174edb7099c39b4460baeaf5726b52b5b244809eba68553f81c5acc9eca2f5391d9fa1df029b98b93a6efad7ae2b1bffb419faaef"
 
 RPROVIDES:${PN} += "collectd-plugin-buddyinfo"
 

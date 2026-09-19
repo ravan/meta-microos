@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt Widgets library provides a set of UI elements to create cl
 desktop-style user interfaces."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Widgets6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "228d22590e863979c357efd5efe1b5805c7ed5ef06972b905820a756aaf7a8cc857dd310dc7b03519a023714866148052b19f5e42c66b500354af13c1269a019"
+RPM_NAME = "libQt6Widgets6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "e8dbd7cebac87b5e5192bf57856cc012c1198039e9ae2df14e25070c95eb80355247a7e7ab73e62d3bda5db638f4239731fb40837274ed0b4773d7cb59cd93d5"
 
 RPROVIDES:${PN} += "libQt6Widgets.so.6 \
 libQt6Widgets6"

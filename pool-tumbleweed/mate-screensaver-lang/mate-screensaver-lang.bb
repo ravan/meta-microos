@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-screensaver"
 DESCRIPTION = "Provides translations for the 'mate-screensaver' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.26.2"
+PV = "1.28.0"
 
-RPM_NAME = "mate-screensaver-lang-1.26.2-1.1.noarch.rpm"
-RPM_HASH = "1e5447462bc99b79523914da4657d5dc8f7e7fa2b2913d86c44aae82d850bea38f879932c512479967ed3706a0179c95c8d38d74f284652038e5c32ad65aba9e"
+RPM_NAME = "mate-screensaver-lang-1.28.0-1.11.noarch.rpm"
+RPM_HASH = "24751529c760ff8a5c1f45679602da79cbe311eaca42707aa5e735c25d6e2959e7aee5f077a5f8d894feeb7ca19567d4b99ff10e652d5bfe783ae43d1aa74550"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-screensaver-af \
@@ -30,7 +30,6 @@ locale-mate-screensaver-el \
 locale-mate-screensaver-en-AU \
 locale-mate-screensaver-en-CA \
 locale-mate-screensaver-en-GB \
-locale-mate-screensaver-en-US \
 locale-mate-screensaver-eo \
 locale-mate-screensaver-es \
 locale-mate-screensaver-es-AR \

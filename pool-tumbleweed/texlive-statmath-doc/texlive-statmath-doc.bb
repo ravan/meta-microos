@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-statmath"
 DESCRIPTION = "This package includes the documentation for texlive-statmath"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn46925"
+PV = "2026.226.0.0.1svn46925"
 
-RPM_NAME = "texlive-statmath-doc-2023.209.0.0.1svn46925-58.1.noarch.rpm"
-RPM_HASH = "ad5759673c997fd0627df8fd6c0d1e302f3a68cbbdc7eafcec5bd002d4b20f5ed3a61bf88436bf44abe786efe08712054d827ec291b81abbff8082d41bc1fa13"
+RPM_NAME = "texlive-statmath-doc-2026.226.0.0.1svn46925-64.2.noarch.rpm"
+RPM_HASH = "8bedb0ebefd1d76f0937661092250599d8fd2908127fba313a4feed219151288b57470410e5a34ea236a2ce16ca8ae11a871bb1aa0ee559637397172d00d3425"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-statmath-doc"

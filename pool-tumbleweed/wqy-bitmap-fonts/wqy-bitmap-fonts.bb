@@ -7,19 +7,24 @@ LICENSE = "GPL-2.0-with-font-exception"
 
 PV = "0.9.9_0"
 
-RPM_NAME = "wqy-bitmap-fonts-0.9.9_0-16.15.noarch.rpm"
-RPM_HASH = "615efa8f795585735b2bb2ab53a44a1452d61c44cd795b565e3ce230ca8a4a995bc3932e397b484982432e3fb0799499456c76a137ad8a2d670af2038a260464"
+RPM_NAME = "wqy-bitmap-fonts-0.9.9_0-17.7.noarch.rpm"
+RPM_HASH = "8890a93b8fd61e6f466bec607dae469b72c7446f6bc01c9dc991e6aea0423afa72a9a9c1812f92e41b1747a70c3a0d6a6694ef0c597176303ed1a99143a2897e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-wqy-bitmap-fonts \
+font--lang=bem \
 font--lang=bg \
+font--lang=cmn \
 font--lang=fj \
+font--lang=hak \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \
 font--lang=kj \
 font--lang=kum \
 font--lang=kwm \
+font--lang=lzh \
+font--lang=mhr \
 font--lang=ms \
 font--lang=ng \
 font--lang=nr \

@@ -6,10 +6,10 @@ Please look at /etc/apache2/conf.d/collectd-js.conf on how to \
 enable."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-web-js-5.12.0.134.g4cebbfc-1.6.noarch.rpm"
-RPM_HASH = "5177a50237a1559e3ba84fd77e4b435b89c70c73701840e246d20c7f65d84e2e23e0ba361c66f91eb8bce724263dfd6efe28fe4120bef0325ef5199b2670da33"
+RPM_NAME = "collectd-web-js-5.12.0.382.g2cd055fe-3.1.noarch.rpm"
+RPM_HASH = "d30671471faf2c51baaa667cec19c17177fc06e98ffd20e5aecf28313d08227c98c323181835dede22bc4cb5ce8930455b9293f339ccd999fed2ec80d9165d49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "collectd-web-js \

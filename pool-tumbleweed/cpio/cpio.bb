@@ -6,10 +6,10 @@ time stamps, and access permissions. The archive can be another file on \
 the disk, a magnetic tape, or a pipe."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.14"
+PV = "2.15"
 
-RPM_NAME = "cpio-2.14-1.1.aarch64.rpm"
-RPM_HASH = "c5612d3681e0d8759aa831681b121659343e2dc54690900b5fcb55358b49a2685d2699d923ca17d014f10d3c8c85925def57cd9d93f29126931d6c4ab3293955"
+RPM_NAME = "cpio-2.15-9.1.aarch64.rpm"
+RPM_HASH = "6958835933dda1404a396f523c2e9171e4b63cf828e056b0afaa03706d7a56dcec19fc80b40cf6c4d06d3df003eea2b4ffad9f810c04a7deea0ce2ebb2e2c927"
 
 RPROVIDES:${PN} += "cpio"
 

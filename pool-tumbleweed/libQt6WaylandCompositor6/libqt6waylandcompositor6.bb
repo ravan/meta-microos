@@ -1,14 +1,18 @@
 SUMMARY = "Qt 6 WaylandCompositor library"
 DESCRIPTION = "The Qt 6 WaylandCompositor library."
-LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "(GPL-2.0-only | LGPL-3.0-only | GPL-3.0-or-later) & GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6WaylandCompositor6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "8c82b84e52b0a7ddba264f4209103b251612bb905875312144d5ad1f6d76c14a353055836db0172576d0d16317b0265c58287ee8105fead89d43a82db214d9c1"
+RPM_NAME = "libQt6WaylandCompositor6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "dabcd2a612d3d693b8fa439121f7b881d3f7a3fd18d019800a02aaac2b9519159fd1162e1a9dacf96637bf44c6da9a4e9221b54ba854fda06ca74ef9518a8593"
 
 RPROVIDES:${PN} += "libQt6WaylandCompositor.so.6 \
-libQt6WaylandCompositor6"
+libQt6WaylandCompositor6 \
+libQt6WaylandCompositorIviapplication.so.6 \
+libQt6WaylandCompositorPresentationTime.so.6 \
+libQt6WaylandCompositorWLShell.so.6 \
+libQt6WaylandCompositorXdgShell.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \

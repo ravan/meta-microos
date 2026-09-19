@@ -2,22 +2,21 @@ SUMMARY = "Additional command line tools for mkv files"
 DESCRIPTION = "This package contains extra command line tools for mkv diagnostic."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "79.0"
+PV = "102.0"
 
-RPM_NAME = "mkvtoolnix-tools-79.0-1.1.aarch64.rpm"
-RPM_HASH = "a3b61527c429f661efc450651ee5b6f3b9b59fda5f3b4e9ae42172d1fa77634487c813b5cc9edd62e9e4edf9cbff721513a0ae6df6b261dfed9b9f011684800c"
+RPM_NAME = "mkvtoolnix-tools-102.0-1.1.aarch64.rpm"
+RPM_HASH = "1f639fb139587922ce7bb43446abdab3adfb62adad1b85fd9fe9e557c18ff6ef8f14d2b48f4c35c38a334996bf8d90d04688111fdf77d892029dafea5b48cb1e"
 
 RPROVIDES:${PN} += "mkvtoolnix-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \
-libboost-filesystem.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
 libc.so.6 \
 libebml.so.5 \
-libfmt.so.9 \
+libfmt.so.12 \
 libgcc-s.so.1 \
 libgmp.so.10 \
-libmatroska.so.7 \
 libpugixml.so.1 \
 libstdc++.so.6"
 

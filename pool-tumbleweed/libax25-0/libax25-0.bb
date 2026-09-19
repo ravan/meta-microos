@@ -2,12 +2,12 @@ SUMMARY = "AX.25 data link layer protocol library"
 DESCRIPTION = "Libraries for AX.25. AX.25 (Amateur X.25) is a data link layer \
 protocol derived from the X.25 protocol suite and designed for use by \
 amateur radio operators."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.0.12~rc5"
 
-RPM_NAME = "libax25-0-0.0.12~rc5-1.10.aarch64.rpm"
-RPM_HASH = "8ed8d261993ffc3de9bc0bc2c0745ac1d36543994eb9d159f264e5f52dae4ef934babe9d435f5e53fd457b9a7303617db4620db36855e0f43f81009036cd4656"
+RPM_NAME = "libax25-0-0.0.12~rc5-2.6.aarch64.rpm"
+RPM_HASH = "3356deef551a1a864bd9a63d82d2535f99bebd125557158b934a2042b6dbf43329aa4d57c94abe669547ee3329cd5da30ba1d7c841e785aa0cd14445a863878d"
 
 RPROVIDES:${PN} += "libax25-0 \
 libax25.so.0"

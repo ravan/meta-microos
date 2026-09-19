@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pagegrid"
 DESCRIPTION = "This package includes the documentation for texlive-pagegrid"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn64470"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-pagegrid-doc-2023.209.1.6svn64470-52.1.noarch.rpm"
-RPM_HASH = "041689ce4b9ac66e3250aab9b05f737ea4f87a7a6bee498fd6611e5e1413d19d527e6062a8c1f440fb3c5c0b27ded0b2df17e6f20c872661473112398a2ceab9"
+RPM_NAME = "texlive-pagegrid-doc-2026.226.1.6svn77682-58.2.noarch.rpm"
+RPM_HASH = "1698284524eef12e1871f236a8afebc9fd37530dea40e94b6a029bb8ef94e8fe649b2c492a16c2181f3da019e234d6e4c4529e3112bd187f61bd80820c863e27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pagegrid-doc-en \

@@ -1,12 +1,12 @@
 SUMMARY = "Documentation package for librasqal-devel"
 DESCRIPTION = "This package contains the documentation and help files to aid with \
 developing software using the Rasqal RDF query language library."
-LICENSE = "LGPL-2.1+ | GPL-2.0+ | Apache-2.0+"
+LICENSE = "Apache-2.0+ | GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "0.9.33"
 
-RPM_NAME = "librasqal-devel-doc-0.9.33-1.31.aarch64.rpm"
-RPM_HASH = "77c1c3f50ccc73c849dcf5f8417012916409f8f67da60120687ab1c7eb3e33bb5e269754c3192dc6c3c36677a0f4f10338ebfec30de90c0f3ea2f4349477f5a6"
+RPM_NAME = "librasqal-devel-doc-0.9.33-3.5.aarch64.rpm"
+RPM_HASH = "138c2f5a8b82ddec6cac7072ba6729f8f25455a072c474b04a18e081b21bad8dc5cf7a22f143028c7f2040495e10be7ab2504d9ff7cec9a8909377a62df8c5c0"
 
 RPROVIDES:${PN} += "librasqal-devel-doc"
 

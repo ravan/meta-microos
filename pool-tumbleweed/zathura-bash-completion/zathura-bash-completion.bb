@@ -2,10 +2,11 @@ SUMMARY = "Zathura Bash completion"
 DESCRIPTION = "Optional dependency offering bash completion for zathura"
 LICENSE = "Zlib"
 
-PV = "0.5.2"
+PV = "2026.07.18"
 
-RPM_NAME = "zathura-bash-completion-0.5.2-1.3.aarch64.rpm"
-RPM_HASH = "a0fe90b08e0071636aeb552c0f1e5b5ff04bc484768dc894f31f3f8825057684d2e0b11c8adfeb5541ef034df0aafa688a72dbe8ebbc0e07bf3ac509396117d6"
+RPM_NAME = "zathura-bash-completion-2026.07.18-1.1.noarch.rpm"
+RPM_HASH = "e05d93012a308998579b0491a7b5207a5859bf408908f4481d8f399dff88ae90267bf4626f4cbcb6395d005d1e2947c71527c26e2c9c1fa23bf1d9fdd57bda39"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zathura-bash-completion"
 

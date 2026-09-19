@@ -48,15 +48,15 @@ learned the 'try'/'finally' pattern from one of these languages, watch out \
 for this."
 LICENSE = "MIT"
 
-PV = "0.31"
+PV = "0.320.0"
 
-RPM_NAME = "perl-Try-Tiny-0.31-1.10.noarch.rpm"
-RPM_HASH = "46ba53e1ae3471437782e193b11bfbb916a0308b1c79f227aea6577c8b141689b5db79b6f257d367f1444a15b4d2d409d741ab339d1cbeca461fad6fbf69fa41"
+RPM_NAME = "perl-Try-Tiny-0.320.0-1.10.noarch.rpm"
+RPM_HASH = "46d40b961cbd335e008ff2d538991dee1d12324f0f3ac772a6b825dd82f29881d7aba4b1de34520602fe4f7d789632dc9cbcc1fe21f62d975c31f0b328b5044e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Try--Tiny \
 perl-Try-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

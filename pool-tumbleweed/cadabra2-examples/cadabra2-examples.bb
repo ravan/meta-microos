@@ -5,10 +5,11 @@ the solution of problems encountered in field theory. \
 This package provides examples for cadabra2."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.4.3.2"
+PV = "2.5.14"
 
-RPM_NAME = "cadabra2-examples-2.4.3.2-1.6.aarch64.rpm"
-RPM_HASH = "bab867fc76255e8007e9437db0852459df4bce1751a88e2b3b3c1e89c582d2841a943f915c787ae6a6370d41873400ddc1dc7d4924e06a5d9b055f0e0cdbdab5"
+RPM_NAME = "cadabra2-examples-2.5.14-3.1.noarch.rpm"
+RPM_HASH = "493d6f4466f82563cfb5d87df1d7d5b893a2563babc172d969469d31d1a372927c1f83d9b23c62c4b83457fce1cd193962f3c58ed8a901362b226d6d2595d783"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cadabra2-examples"
 

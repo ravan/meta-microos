@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.0"
 
-RPM_NAME = "unoconv-0.9.0-1.10.noarch.rpm"
-RPM_HASH = "0b98d3dc266769a52fb79a4553e772d10a361de35d9f79a4587b2f46a97a5e41b63af3caa9823c99d63aedf16686f46f8aafbdea2cfab729ed1e992f467970d8"
+RPM_NAME = "unoconv-0.9.0-1.18.noarch.rpm"
+RPM_HASH = "762e7475d5bbf23f02e0c72fdccf8efc3aaadf7e3a4e430c1dc70f558beb129b1897bd456ca26029fce6bdf85a539a3d50d6c72f6ec75df8d09efa0e45f89aad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unoconv"

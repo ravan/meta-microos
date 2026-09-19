@@ -3,20 +3,21 @@ DESCRIPTION = "The package includes an assembler, binary module parser, \
 disassembler, and validator for SPIR-V."
 LICENSE = "Apache-2.0"
 
-PV = "2023.4~rc2"
+PV = "2026.3~rc1"
 
-RPM_NAME = "spirv-tools-2023.4~rc2-1.1.aarch64.rpm"
-RPM_HASH = "505626b2af84f98f8c3e5f348913fe6884a8907eb74c379d6c75074667b4a9ff76cc4d9bb55758b0af1527e58a3ec226f448dfc0d123fb303d6ddddd69ffecbd"
+RPM_NAME = "spirv-tools-2026.3~rc1-1.2.aarch64.rpm"
+RPM_HASH = "fff8ef3c6a8053cec4e13107f33734bd0a2cd8f933b02fa9c592c94ecce194ca6a1346e8ad64635ffa6deeb964d920f3a09ea598bab418231d3c39cb691a5f87"
 
 RPROVIDES:${PN} += "spirv-tools"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libSPIRV-Tools-2023.4~rc2.so \
-libSPIRV-Tools-link-2023.4~rc2.so \
-libSPIRV-Tools-lint-2023.4~rc2.so \
-libSPIRV-Tools-opt-2023.4~rc2.so \
-libSPIRV-Tools-reduce-2023.4~rc2.so \
+libSPIRV-Tools-2026.3~rc1.so \
+libSPIRV-Tools-diff-2026.3~rc1.so \
+libSPIRV-Tools-link-2026.3~rc1.so \
+libSPIRV-Tools-lint-2026.3~rc1.so \
+libSPIRV-Tools-opt-2026.3~rc1.so \
+libSPIRV-Tools-reduce-2026.3~rc1.so \
 libc.so.6 \
 libstdc++.so.6"
 

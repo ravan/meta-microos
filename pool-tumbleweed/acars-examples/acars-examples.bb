@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "1.3.1"
 
-RPM_NAME = "acars-examples-1.3.1-1.17.aarch64.rpm"
-RPM_HASH = "70d3970baeec8429b311b04f06679eb5c5c64dab2daf50a9527ce62ef20b9492e214cf5138499c9f5b25d5143d4da7ddf5e4914ce0b97fc3206d8c4a34e94d24"
+RPM_NAME = "acars-examples-1.3.1-1.27.aarch64.rpm"
+RPM_HASH = "a1737a9116cfdf1caee37be2f5a62e85ed8b1ff349453d9cf860b792edb3c69df65385f3a145b2f8821ff0bd6c742498a107f404951ad0bd272a0551b7634d9e"
 
 RPROVIDES:${PN} += "acars-examples"
 

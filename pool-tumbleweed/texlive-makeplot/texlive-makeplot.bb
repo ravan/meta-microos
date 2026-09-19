@@ -6,10 +6,10 @@ the pstricks pst-plot functions to plot data that it takes from \
 Matlab output files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0.6svn15878"
+PV = "2026.226.1.0.6svn15878"
 
-RPM_NAME = "texlive-makeplot-2023.208.1.0.6svn15878-53.1.noarch.rpm"
-RPM_HASH = "b3c01ba8265516227270d92c4ed92832f4a5a7c8023f9b8938df5f7a8f338d67f6b881865e04d4a4da1b5e3e15cbbb08f1bbcfaa18ed8d308c4c6d6d0e7d6377"
+RPM_NAME = "texlive-makeplot-2026.226.1.0.6svn15878-59.2.noarch.rpm"
+RPM_HASH = "ab0f0372d9af2a719a946a82d60484add4c48812ebad80310940f8821892f0f38ba051345e3928ddfbd17d8ac316fb609b9cd8da6c4ea24ebe98fd296d091594"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makeplot.sty \

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.2.5"
 
-RPM_NAME = "tclap-doc-1.2.5-3.1.noarch.rpm"
-RPM_HASH = "8bfb6482090981e6d946dec763b617f66f5d25e2b664a9cd7d2ad5deb317696a4364860b1c01d1c5d31fbc6ffce7013bea76e89edad1290faf386ed9a7422fc5"
+RPM_NAME = "tclap-doc-1.2.5-3.10.noarch.rpm"
+RPM_HASH = "a294874656b8355ef19368841987e1a858e3a6d3fd784ec8503848e956682097c7d8a92df6a7c66a4f3cf950a61900c65b732874c0db01b8ece37b2e6fad022e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tclap-doc"

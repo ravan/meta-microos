@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 CoAP Client Library"
 DESCRIPTION = "Qt 6 library to implement a CoAP client."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Coap6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "d29be6fe9c4326c5517438bd078fa2ef295f7417a0dfc7820afaf9cb3c819dc430c795c23bc6161651c5d6cda4496849d82083df194bd5a09ed3dfc25452bbf7"
+RPM_NAME = "libQt6Coap6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "84e71835ce179577f7ebf6d09f15427ddd58022ecbbed5e5304dc64de6f5a967527e37be2e8e184cb53ab365a5f7c3f69b66749fd450215afd111619ab21e6b6"
 
 RPROVIDES:${PN} += "libQt6Coap.so.6 \
 libQt6Coap6"

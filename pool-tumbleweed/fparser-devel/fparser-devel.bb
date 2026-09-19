@@ -15,8 +15,8 @@ LICENSE = "LGPL-3.0"
 
 PV = "4.5.2"
 
-RPM_NAME = "fparser-devel-4.5.2-1.32.aarch64.rpm"
-RPM_HASH = "005cea9428a072b5f2d76441d8fae6e2d06026bc3e6af8c6195c61aba7fc8378a1fe9ab9b655eefdb9cbbb3ffec269985a6ac893201d7cf0b6286130357a0c8f"
+RPM_NAME = "fparser-devel-4.5.2-1.42.aarch64.rpm"
+RPM_HASH = "f60962ca4826609946e25fd3772886ebc216526a4f07612610ea92f6d63ce3fd710158c52ec5ef844a6ad51bd7f958df1e70ef9c5f9dbfaa649ae5e63a8b9099"
 
 RPROVIDES:${PN} += "fparser-devel \
 pkgconfig-fparser"

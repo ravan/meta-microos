@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-qualitype"
 DESCRIPTION = "The  separated fonts package for texlive-qualitype"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn54512"
+PV = "2026.226.svn54512"
 
-RPM_NAME = "texlive-qualitype-fonts-2023.209.svn54512-54.2.noarch.rpm"
-RPM_HASH = "b490de4fa35f026337c2b3bc663362264f19fe2061b95a57accbc1e1209527c3821b32634ba41fe6969e3dcbc5847fb31a024998d5954b3666ffbdf9bed22fc6"
+RPM_NAME = "texlive-qualitype-fonts-2026.226.svn54512-60.4.noarch.rpm"
+RPM_HASH = "483602fd1422348b923cb3027d79d35136a47ec4f36c7e67d0ce0c3aa12506b78075261fa989ad0326f7658d3892775f05c17450036bb7f5b25d8d4e8294d84f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-qtabbie \

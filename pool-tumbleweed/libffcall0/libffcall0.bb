@@ -3,10 +3,10 @@ DESCRIPTION = "A library for building foreign function call interfaces in embedd
 interpreters."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4"
+PV = "2.5"
 
-RPM_NAME = "libffcall0-2.4-2.8.aarch64.rpm"
-RPM_HASH = "5b451cb1acbea565fcb51cfaad9d040e43016e6883f7c3332d4da351c3fe4f7ddf1f24782b075bf28f9b46b37439cc1a952026565ce7450587462eb7dafe93a4"
+RPM_NAME = "libffcall0-2.5-1.9.aarch64.rpm"
+RPM_HASH = "2df40fb47aef403ffd358109eb27e75cd59252825edbd17271f6d13bc4c4df1aad8c900a3040f54fbf9b8b330211020d520a7e0f9889addc1c81b784090b13d6"
 
 RPROVIDES:${PN} += "libffcall.so.0 \
 libffcall0"

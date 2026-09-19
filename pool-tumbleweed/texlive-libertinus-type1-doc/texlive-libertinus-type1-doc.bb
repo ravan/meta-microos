@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-libertinus-type1"
 DESCRIPTION = "This package includes the documentation for texlive-libertinus-type1"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn64958"
+PV = "2026.226.svn76891"
 
-RPM_NAME = "texlive-libertinus-type1-doc-2023.209.svn64958-55.1.noarch.rpm"
-RPM_HASH = "28dd862ddb27ad9aa652149bd068d111d50c0e8565999cf3a950c6596a3ee814256daf013b55cd101c63f47a5ddab2df1dc768494d3b85d76e94d6cbd184b10b"
+RPM_NAME = "texlive-libertinus-type1-doc-2026.226.svn76891-61.2.noarch.rpm"
+RPM_HASH = "7e9fe2a6835606c860f275cd59fed04d4d13cb1370a070718837d18639edd251efc1fa5083ef04c76c354d89830696367a8b056a0a039f8563be8291ed51a515"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libertinus-type1-doc"

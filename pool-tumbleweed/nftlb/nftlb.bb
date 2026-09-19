@@ -24,10 +24,10 @@ traffic distributor using nftables. \
   through a JSON API."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.0.7"
+PV = "1.1.0"
 
-RPM_NAME = "nftlb-1.0.7-1.3.aarch64.rpm"
-RPM_HASH = "09516db95155025b4d0cff949063b4429ce0b573ed2fd28f575c261c9d417e0fd3f5246bcb66061972566bd3275805a03e114e32a495a5df7201db05b639b21a"
+RPM_NAME = "nftlb-1.1.0-1.7.aarch64.rpm"
+RPM_HASH = "deed7ba93b7afc7419a3221b4fc754fe65b872e973456c008f18e1f836b8827b29b25b5c04daf12e7b3a2c8b79a1261ee7313636b3ab9e25d8bc1b5c05933e40"
 
 RPROVIDES:${PN} += "nftlb"
 

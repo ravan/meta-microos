@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.0"
 
-RPM_NAME = "icc-profiles-basiccolor-printing2009-doc-1.2.0-13.17.noarch.rpm"
-RPM_HASH = "26943f8ad5fd0850581dfcc269fc2b7a834127a4cff1f0adb5b943aea54e841837a5b7e9b37cef3985aa57176a33069e455234a0cf7130a7ae29abcd2e10a68c"
+RPM_NAME = "icc-profiles-basiccolor-printing2009-doc-1.2.0-13.25.noarch.rpm"
+RPM_HASH = "9bf5a49703a407a3dd0c2151f630db81ab40d6fff35f1f8ecdb9f84e7377d51633227ad44811e268293c144ce8a56be8124036d6855bd75183255961b454a789"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-profiles-basiccolor-printing2009-doc"

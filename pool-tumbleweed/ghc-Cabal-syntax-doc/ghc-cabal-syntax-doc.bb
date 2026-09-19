@@ -2,10 +2,10 @@ SUMMARY = "Haskell Cabal-syntax library documentation"
 DESCRIPTION = "This package provides the Haskell Cabal-syntax library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.8.1.0"
+PV = "3.14.2.0"
 
-RPM_NAME = "ghc-Cabal-syntax-doc-3.8.1.0-1.1.noarch.rpm"
-RPM_HASH = "6f8bc034099affcc1213cd65b3d1ffe55c0857506c89bf9edd8ec1e9916dc4e27f310158a8b7d6a0e49da0e3f100ea439b112e9031b53110d7f3e3009dd8d296"
+RPM_NAME = "ghc-Cabal-syntax-doc-3.14.2.0-1.3.noarch.rpm"
+RPM_HASH = "88fe11a21bbef2778bfca788ee5d6ef94adb2a403aceb605bec6a930a6ebce7415c21f91a214b4a3dece814f61a5a292864cc12f9471a8775aa82c7328503de2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-Cabal-syntax-doc"

@@ -2,34 +2,36 @@ SUMMARY = "Personal Time Tracker"
 DESCRIPTION = "KTimeTracker tracks time spent on various tasks."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.0.1"
+PV = "6.0.0"
 
-RPM_NAME = "ktimetracker-5.0.1-1.19.aarch64.rpm"
-RPM_HASH = "330a4b9bff29448af8bb4a46ea0b0ef936311f1d230a5a7d7418736137bfeddfaf50a92c97061f4020aa42cb797c0b156e364b130ac4016aa277badc5aa42bba"
+RPM_NAME = "ktimetracker-6.0.0-1.5.aarch64.rpm"
+RPM_HASH = "061399a6a6c9d30535ddd0033b627fc28cb3ed4a36cc3ad68719e556aa12afc6dee80d5bcefd3e488fe81745c5bb7a7a60413c8024e60380bf00e7e829a7c726"
 
 RPROVIDES:${PN} += "ktimetracker"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5CalendarCore.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IdleTime.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5Notifications.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6CalendarCore.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6IdleTime.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KIOCore.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

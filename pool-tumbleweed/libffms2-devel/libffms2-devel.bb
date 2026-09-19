@@ -4,10 +4,10 @@ library around FFmpeg, plus some additional components to deal with file \
 formats libavformat has (or used to have) problems with."
 LICENSE = "MIT"
 
-PV = "2.40+44"
+PV = "5.0+0"
 
-RPM_NAME = "libffms2-devel-2.40+44-1.6.aarch64.rpm"
-RPM_HASH = "ee4fb8cb4ddfb4a2f61528682c6b9a490362b085fcdd7177a5e0f1aef4734cf65c945f145e2c6bbfd05673aabe5c273270a9585a264f94dea386bed231cdf855"
+RPM_NAME = "libffms2-devel-5.0+0-1.14.aarch64.rpm"
+RPM_HASH = "d191ee7d3023a3b82f6d14c7e53e64ce491816e7a8c9ec83a17e104caf57f2fdcbe1f27c0e2a5341e2d56f417f9693dbe10f805ec3c280ad597a37cb2186476b"
 
 RPROVIDES:${PN} += "libffms2-devel \
 pkgconfig-ffms2"

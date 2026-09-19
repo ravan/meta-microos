@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "avahi-utils-0.8-23.3.aarch64.rpm"
-RPM_HASH = "1dd70e350774d541c86b0520ab57934b7bc721e27b52125d555b68d6d66b03d551b708e5ef96f924a63caa9daab0a03bb90605c1960e699ea4b985f884df20de"
+RPM_NAME = "avahi-utils-0.8-45.2.aarch64.rpm"
+RPM_HASH = "84ebe00cfb486763c88d9d0f74f604115cdbe17d57b430ebd40d2ecfcfcdd8b4d4bb2808b3d149cef280263af96567c43049d777b6aa89bd241f5e79cab07d03"
 
 RPROVIDES:${PN} += "avahi-utils"
 

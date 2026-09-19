@@ -2,10 +2,10 @@ SUMMARY = "GSSAPI NTLMSSP Mechanism"
 DESCRIPTION = "A GSSAPI Mechanism that implements NTLMSSP."
 LICENSE = "ISC"
 
-PV = "1.2.0"
+PV = "1.3.1"
 
-RPM_NAME = "gssntlmssp-1.2.0-1.4.aarch64.rpm"
-RPM_HASH = "d697d1eb97cc7bd451b320be2da9d4f73b976e35fabed4aa5d22f09ca19985d575e64db9f68ce2684d65ed0db7c3ed39e60ead9f19b08427b00b615540800a2d"
+RPM_NAME = "gssntlmssp-1.3.1-1.3.aarch64.rpm"
+RPM_HASH = "61a4557d52665ba7dfcbdaf0506e61ef23777167a7a7bc25ef97977c7a96a060334585485f703d150044ccac4447f05e7a7891b0c55a168d5f3dd0b449f02aeb"
 
 RPROVIDES:${PN} += "config-gssntlmssp \
 gssntlmssp"

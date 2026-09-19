@@ -6,10 +6,10 @@ The package should also work with a non-standard table \
 environment."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.4svn17275"
+PV = "2026.226.1.4svn17275"
 
-RPM_NAME = "texlive-ftcap-2023.209.1.4svn17275-53.1.noarch.rpm"
-RPM_HASH = "c67334825cf17f6a0c4f312a257c7f71b8051d22a6df9265c2cc7d9ab0dad32d8d4369e77ee425aaa1f94de7a7fc0e6abea812d3fde2701d3bd02635f9e35322"
+RPM_NAME = "texlive-ftcap-2026.226.1.4svn17275-60.2.noarch.rpm"
+RPM_HASH = "4748a7aa4a84aa50b411999e04f355a2c67cb60566c0e113a563a3b2a7610b83114ff9a7eea2de6185762890a1a1cd4cbb2763d6add6382d5a46fc915f60a10f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ftcap.sty \

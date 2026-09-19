@@ -2,20 +2,26 @@ SUMMARY = "Severed fonts for texlive-arphic-ttf"
 DESCRIPTION = "The  separated fonts package for texlive-arphic-ttf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn42675"
+PV = "2026.226.svn42675"
 
-RPM_NAME = "texlive-arphic-ttf-fonts-2023.209.svn42675-54.1.noarch.rpm"
-RPM_HASH = "610aaca720ca82413da2f2ae69a4dd62eb0f808c22f6d48d3c1220690ef5fa5e0c74b0ed0eb7ae7a74c3b089d814fee5acda9e4de35af148975543caf7cdd551"
+RPM_NAME = "texlive-arphic-ttf-fonts-2026.226.svn42675-60.2.noarch.rpm"
+RPM_HASH = "c7190439f791b4b97002cc58d380c22dce57fc2b9e1a14a61c542710df1035d519a8b1c5bcb662d59ff32472047510d204b8f19df5dc959ac1cb32b5e427e982"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=bg \
+RPROVIDES:${PN} += "font--lang=agr \
+font--lang=bem \
+font--lang=bg \
+font--lang=cmn \
 font--lang=fj \
+font--lang=hak \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \
 font--lang=kj \
 font--lang=kum \
 font--lang=kwm \
+font--lang=lzh \
+font--lang=mhr \
 font--lang=ms \
 font--lang=ng \
 font--lang=nr \

@@ -3,13 +3,15 @@ DESCRIPTION = "Symmetrica is a C library with routines for group theory. \
 This package contains header files."
 LICENSE = "MIT"
 
-PV = "3.0.1"
+PV = "3.1.0"
 
-RPM_NAME = "symmetrica-devel-3.0.1-1.12.aarch64.rpm"
-RPM_HASH = "0a8d4184f93d65c85ee669f90da7d18d0cca34bc3cd2ec4eedb754b675a84943c4acd006e5e4b59509c78a1280337ba5cc3a96a9cd54c02057fac499c03a9010"
+RPM_NAME = "symmetrica-devel-3.1.0-1.6.aarch64.rpm"
+RPM_HASH = "d9089d34cbb78da3493a944f5a7df6854e7dbb720de8f9931bbf2d7b3326e24e7a0d26c214501e9243fbb2dff5998b31fdba9b9e50e023c1e9f656b03d907055"
 
-RPROVIDES:${PN} += "symmetrica-devel"
+RPROVIDES:${PN} += "pkgconfig-symmetrica \
+symmetrica-devel"
 
-RDEPENDS:${PN} += "libsymmetrica2"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libsymmetrica3"
 
 inherit rpm

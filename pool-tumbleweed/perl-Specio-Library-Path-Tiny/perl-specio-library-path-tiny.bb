@@ -4,16 +4,16 @@ These types can be used with Moose, Moo, Params::ValidationCompiler, and \
 other modules."
 LICENSE = "Apache-2.0"
 
-PV = "0.05"
+PV = "0.50.0"
 
-RPM_NAME = "perl-Specio-Library-Path-Tiny-0.05-1.6.noarch.rpm"
-RPM_HASH = "96ed854cb0a169f4515f252753bfacacbdad1da4463c18f6fe8a73e31a3acb202f26446866e144fea5c57514943f2e9e52aa2afc54514b5a7bcf5365ba2f54f5"
+RPM_NAME = "perl-Specio-Library-Path-Tiny-0.50.0-1.7.noarch.rpm"
+RPM_HASH = "716e18f8fc08ffbbf2b69ad88d25f7ff793534c37e13366fe44457e3eaa10c09a968ddd07946a9171d36083d95aabbc6482db6098afaa6ced5ddb65490d5791a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Specio--Library--Path--Tiny \
 perl-Specio-Library-Path-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Path--Tiny \
 perl-Specio \
 perl-Specio--Declare \

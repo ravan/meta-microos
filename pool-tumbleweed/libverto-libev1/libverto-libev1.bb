@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "libverto-libev1-0.3.2-3.1.aarch64.rpm"
-RPM_HASH = "e29c3edd9dd15d874ffd4c5379dea2e146c3d5bfbc72d02c8c66a48def326a763329cca63120d3354c8d04374db69c5fd3c16844951a0257a1ee47d3d3f4362a"
+RPM_NAME = "libverto-libev1-0.3.2-3.11.aarch64.rpm"
+RPM_HASH = "0351fe2735777c0060c5edbc96a342fab6212b06c35c4c8b59677d1944fa67a41821a43ecd2ca293c47959a6875308a43921fc28efc2a102fc5ea5169a5ff255"
 
 RPROVIDES:${PN} += "libverto-libev.so.1 \
 libverto-libev1 \

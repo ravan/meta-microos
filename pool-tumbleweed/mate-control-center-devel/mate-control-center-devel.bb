@@ -5,19 +5,15 @@ aspects of your desktop. \
 This package provides MATE control center development files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-control-center-devel-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "83590a02d4c4b811ce34d2d9722f73998ff3148d5397f3970a579a652d3b3c54d54c4cb911e69305561568b0dbbebf5a1a5158d5d72158de16fbfe286c916eac"
+RPM_NAME = "mate-control-center-devel-1.28.0-1.11.aarch64.rpm"
+RPM_HASH = "fd4d55c0d3900326a1ed0e5529638bdd6caae65a9ff4d06d7d01cde6183d7b04411e876a4f55884ceeed2b2bbe7b85fa2aa3455d4cb38e5b720e58d2c951f684"
 
 RPROVIDES:${PN} += "mate-control-center-devel \
 pkgconfig-mate-default-applications \
-pkgconfig-mate-keybindings \
-pkgconfig-mate-window-settings-2.0"
+pkgconfig-mate-keybindings"
 
-RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libmate-window-settings1 \
-pkgconfig-gtk+-3.0 \
-pkgconfig-mate-desktop-2.0"
+RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

@@ -1,12 +1,12 @@
 SUMMARY = "openSUSE branding for LXDE"
 DESCRIPTION = "This branding-style package sets openSUSE style improvements into LXDE. \
 You should always prefer branding-openSUSE packages to branding-upstream."
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
 PV = "12.1"
 
-RPM_NAME = "lxde-common-branding-openSUSE-12.1-36.17.noarch.rpm"
-RPM_HASH = "b6ff9939bedd9d3496783b16f7118c3c953f7cbaab227ce80caa7b941cf29557c7383cb6dbd80de52df3ef204877a0cc8b8015b2a0d5e4e5be9deb7e83dff8c3"
+RPM_NAME = "lxde-common-branding-openSUSE-12.1-38.8.noarch.rpm"
+RPM_HASH = "38bd0b14700d5897a40dae675cf9fec63c78f45562749d78674942ee16efde328eb4924d4d4777c9168c283067ba78c5ddede41f625620bc865e3e1f9cb0a281"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-lxde-common-branding-openSUSE \

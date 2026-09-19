@@ -5,10 +5,10 @@ problems. These files can be used to make sets, and you can \
 cherry-pick or exclude certain part problems as you see fit."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.0svn50448"
+PV = "2026.226.0.0.3.0svn50448"
 
-RPM_NAME = "texlive-exercisebank-2023.209.0.0.3.0svn50448-53.1.noarch.rpm"
-RPM_HASH = "7b1bf6992ce7edbf7bdc1503e8a0f82f07d74cffde596e6f4eeb2a2062e660fbfc0a0c65a54b580140b0837acbba9094043f0079212fe4affd174e3d5c156b12"
+RPM_NAME = "texlive-exercisebank-2026.226.0.0.3.0svn50448-59.2.noarch.rpm"
+RPM_HASH = "5c5363e440affd047e26be39ed381bffdaad7c3840153746f1592682c3760289bd43f64fa88a8f75ab376a621b720dbb9d51072e128030ada0c648fd076850db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exercisebank.sty \

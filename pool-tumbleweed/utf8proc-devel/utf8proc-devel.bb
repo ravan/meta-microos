@@ -11,15 +11,16 @@ This package provides libraries and header files for developing applications \
 that use utf8proc."
 LICENSE = "MIT"
 
-PV = "2.8.0"
+PV = "2.11.3"
 
-RPM_NAME = "utf8proc-devel-2.8.0-1.2.aarch64.rpm"
-RPM_HASH = "cabdbeefd6e9eb7d6318d576574a78afbdedc262570609902602c0b50dba8ac8936c5f43685eca3e154528f6a0c5748573069f1e1d5d33a4b6ac25932e3df00e"
+RPM_NAME = "utf8proc-devel-2.11.3-1.4.aarch64.rpm"
+RPM_HASH = "174b6b619a7f3bcafef64faf7f743e1a15a7723a6fbc5670a076a0d2a1d9708dd6d44bb7dc23e56efec0f4c0dfc5673d9f3bebeba7380cd14bd8fe0badb556df"
 
-RPROVIDES:${PN} += "pkgconfig-libutf8proc \
+RPROVIDES:${PN} += "cmake-utf8proc \
+pkgconfig-libutf8proc \
 utf8proc-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libutf8proc2"
+libutf8proc3"
 
 inherit rpm

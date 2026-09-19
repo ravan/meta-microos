@@ -4,10 +4,10 @@ on selected mountpoints or directories. Hints for periodic snapshot tuning (eg. 
 for snapper)."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.5"
+PV = "0.5.2"
 
-RPM_NAME = "btrfsmaintenance-0.5-2.8.noarch.rpm"
-RPM_HASH = "feabf298d4579009a0dc3783301ef452574fb8ee10799205ef48b72dba75b7b579048b3bd4b135801920913f22c2a679a2664885d403ab88364fe6a43547af15"
+RPM_NAME = "btrfsmaintenance-0.5.2-2.6.noarch.rpm"
+RPM_HASH = "d9549fc6ec133dd18c95bdc1a5ac36b2ac089d53db5af5c8c7f624a5054623fc9df43fc57bc7a201eec541579b31c5a4922f294f8ef75052599bce20c48d73c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "btrfsmaintenance"

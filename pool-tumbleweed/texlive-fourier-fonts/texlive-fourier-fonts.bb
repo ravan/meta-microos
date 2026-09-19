@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fourier"
 DESCRIPTION = "The  separated fonts package for texlive-fourier"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn61937"
+PV = "2026.226.2.4svn77682"
 
-RPM_NAME = "texlive-fourier-fonts-2023.209.2.3svn61937-53.1.noarch.rpm"
-RPM_HASH = "cd778a94af229419c1c35db0e179df7c6644dba31ffee28cec4d7d4691f6428a7106c0242f7e72e549f03e391a7dce4aed8a58cb7f3d3bebd812012998578343"
+RPM_NAME = "texlive-fourier-fonts-2026.226.2.4svn77682-60.2.noarch.rpm"
+RPM_HASH = "4ac9fd2b7ab1ef968813095179564afbd21c352a1ebea1418961a3b55f77be46e864169d28549b472da082e84e4bd267112ec2bb91e0f1498893ff0c61896c39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-fourier-fonts \

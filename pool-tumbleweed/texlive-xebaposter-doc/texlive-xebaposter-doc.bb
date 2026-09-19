@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xebaposter"
 DESCRIPTION = "This package includes the documentation for texlive-xebaposter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.53svn63513"
+PV = "2026.226.2.54svn75290"
 
-RPM_NAME = "texlive-xebaposter-doc-2023.209.2.53svn63513-53.2.noarch.rpm"
-RPM_HASH = "62a1fe80d757932f1f23b2e916b721cfdb6cd30b849854bb6d92644aeb04b14b5abc57e9cc86b8757547cafad85aca98d70f319760559426eee8c8f3fcb76af1"
+RPM_NAME = "texlive-xebaposter-doc-2026.226.2.54svn75290-59.4.noarch.rpm"
+RPM_HASH = "2624d729964794ec4749b91849e2a022ad91973c265d8ed9118cd9ce62e788b98bda010d4432dc6d8ba3a00c6ff1827b322b7e899f65cd93eeb7942317f1288e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xebaposter-doc-fa \

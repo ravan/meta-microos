@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-dict"
 DESCRIPTION = "Provides translations for the 'xfce4-dict' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.5"
+PV = "0.8.10"
 
-RPM_NAME = "xfce4-dict-lang-0.8.5-1.1.noarch.rpm"
-RPM_HASH = "a04b57bf2256fa7a12eb13fafcbdbc36fad1653ffdf40c4a7cdcc69ae82fecc1f8ac7a5c1310591349d2ea685a1001df5d946153198b95e2df8561d345fa004c"
+RPM_NAME = "xfce4-dict-lang-0.8.10-1.1.noarch.rpm"
+RPM_HASH = "9d7f01f12df33546555cfbcdfd44f173cb525ca4f92805ea8728be1f83c431fe0d4a2eda8ff54e3f32c09a30a1284e8c466f23ff8d62a9e8b1dd7b3f4cac4ba9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-dict-ar \
@@ -31,6 +31,7 @@ locale-xfce4-dict-id \
 locale-xfce4-dict-is \
 locale-xfce4-dict-it \
 locale-xfce4-dict-ja \
+locale-xfce4-dict-ka \
 locale-xfce4-dict-ko \
 locale-xfce4-dict-lt \
 locale-xfce4-dict-lv \
@@ -41,6 +42,7 @@ locale-xfce4-dict-oc \
 locale-xfce4-dict-pl \
 locale-xfce4-dict-pt \
 locale-xfce4-dict-pt-BR \
+locale-xfce4-dict-ro \
 locale-xfce4-dict-ru \
 locale-xfce4-dict-sk \
 locale-xfce4-dict-sl \

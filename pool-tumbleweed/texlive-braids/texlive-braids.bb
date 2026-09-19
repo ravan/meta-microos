@@ -5,10 +5,10 @@ a word in the braid group, and there are many options for \
 styling the strands and for drawing 'floors'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn64817"
+PV = "2026.226.2.3svn76924"
 
-RPM_NAME = "texlive-braids-2023.209.2.2svn64817-53.1.noarch.rpm"
-RPM_HASH = "9ccdd3162bd5106450d7154ef20a8939829a9ca07036c0e035ff6938114c49044de9ade0445729a9d47a0729c51d38c4a6ae794341c60a593d4514a9f17e4947"
+RPM_NAME = "texlive-braids-2026.226.2.3svn76924-59.2.noarch.rpm"
+RPM_HASH = "335f3f9e3758f29733e4c2ab9e3e708ebeef2528e53b53735845fb4bdf92d4a857916670daa878fac5be47ab398e8de380879f001ad9e27f8ea857ca1e1d1668"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-braids.sty \

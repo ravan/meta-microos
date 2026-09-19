@@ -12,19 +12,20 @@ contains a set of utilities to work with this format. \
 * exrmultiview, combine two or more images into one multi-view"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.11"
+PV = "3.4.14"
 
-RPM_NAME = "openexr-3.1.11-1.1.aarch64.rpm"
-RPM_HASH = "bb62c7176452e7d65cd53b676c7f37eb1eaa12a79bd2fd188e2849c5b20522e849cb33b79b9a5e383253bbe52233a0ae3af36315ec82ffad38a51f869766f5ca"
+RPM_NAME = "openexr-3.4.14-1.1.aarch64.rpm"
+RPM_HASH = "2fecbee4198168dbb456cffb6ffc953bbaacff2e5f769c18441303d222e5e8c5f06b8d8d92cdbaeef324f90314c6597834a9f13d894bf57810d897415a2df50b"
 
 RPROVIDES:${PN} += "OpenEXR \
 openexr"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libIex-3-1.so.30 \
-libImath-3-1.so.29 \
-libOpenEXR-3-1.so.30 \
-libOpenEXRCore-3-1.so.30 \
+libIex-3-4.so.33 \
+libIlmThread-3-4.so.33 \
+libImath-3-2.so.30 \
+libOpenEXR-3-4.so.33 \
+libOpenEXRCore-3-4.so.33 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

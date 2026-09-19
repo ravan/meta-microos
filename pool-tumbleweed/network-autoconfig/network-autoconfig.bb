@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0"
 
-RPM_NAME = "network-autoconfig-1.0-4.11.noarch.rpm"
-RPM_HASH = "b6a100d136521e9ddf6c98835ed76317a1443c26e5222c9a1a67c0ea2e529b5f8f3d7effc38fe0227b779ed06d18fbd2295d1c8c113592d986ca6eaf798c4e65"
+RPM_NAME = "network-autoconfig-1.0-4.19.noarch.rpm"
+RPM_HASH = "0812d08aecf077d3f3562b27db772d46ada6bb0d66958d301764149bc292844bd543fc98dfd90eb23aae152b79d053706f20840152a69d942338033cf3512045"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "network-autoconfig"

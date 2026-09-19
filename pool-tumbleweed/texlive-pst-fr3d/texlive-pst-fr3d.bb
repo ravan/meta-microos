@@ -4,10 +4,10 @@ using a macro \\PstFrameBoxThreeD. The macro is especially \
 useful for drawing 3d-seeming buttons."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10svn15878"
+PV = "2026.226.1.10svn15878"
 
-RPM_NAME = "texlive-pst-fr3d-2023.209.1.10svn15878-53.1.noarch.rpm"
-RPM_HASH = "ee359f9e87b784440dc6614e9b64df01cee00e5b65819459001a4ad3eda7275b03b35c6abf2de2d45be483e77e5ab3c99c5f3e12fdb659910aa3c3f6e47dd970"
+RPM_NAME = "texlive-pst-fr3d-2026.226.1.10svn15878-59.2.noarch.rpm"
+RPM_HASH = "5dc3c8a187207b86681edb6e760b775e208b7d4a6cc0ede5248e96e347170915eae7564ec21dfde3b4b250ad59c1889a64ba61a0abd088e256d0fc35495e6bdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-fr3d.sty \

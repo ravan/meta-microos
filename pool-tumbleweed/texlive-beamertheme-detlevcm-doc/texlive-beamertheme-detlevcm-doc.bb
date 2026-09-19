@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamertheme-detlevcm"
 DESCRIPTION = "This package includes the documentation for texlive-beamertheme-detlevcm"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.02svn39048"
+PV = "2026.226.1.02svn39048"
 
-RPM_NAME = "texlive-beamertheme-detlevcm-doc-2023.209.1.02svn39048-54.1.noarch.rpm"
-RPM_HASH = "6de3c5f48cd964572f3c9455c5a5fc09a2fe5236582be11b13075b29affc6e9fb720ab75437a270c6fc927e2476037fe40a02ef1a344a98d48f28e1ed5b221dc"
+RPM_NAME = "texlive-beamertheme-detlevcm-doc-2026.226.1.02svn39048-61.2.noarch.rpm"
+RPM_HASH = "09f4816157459045160cabbabdc4dbdd5c97bf2318677408bcc5d3352768f6f2c1ea96e295fe11d136d3299955b23aab8af9de19e0d31b27f4a870b340af0640"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamertheme-detlevcm-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "The python3-newt package contains the Python 3 bindings for the n
 providing a python API for creating text mode interfaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.52.23"
+PV = "0.52.25"
 
-RPM_NAME = "python3-newt-0.52.23-2.2.aarch64.rpm"
-RPM_HASH = "913d324c5f3044faf52ee4e82ea2c65c69e6904b4dccc2ef7dfe2e567be7e037adadaaff7adc94d37d5e1a983333dbc77e940029bb857c2cee2d57ac768b24aa"
+RPM_NAME = "python3-newt-0.52.25-2.1.aarch64.rpm"
+RPM_HASH = "f59ad64981339904d191bde1969ddbb6f1655e485a96e0fbdb9b30f299752ce7f0b612a8b672dbf876a1e7a4b37ede5cf3eb5f66088e55801b20e0c604bf4e8f"
 
 RPROVIDES:${PN} += "python3-newt"
 

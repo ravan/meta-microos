@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "202021205"
 
-RPM_NAME = "patterns-cinnamon-cinnamon-202021205-2.7.aarch64.rpm"
-RPM_HASH = "aa379f3baaa6c18b30b6c184b591c338e94335f1fbf79076547281f19f665ffdde71ebac07ae1a639221a5555c16764d1555b34116fbcfe4c43a61a7592336df"
+RPM_NAME = "patterns-cinnamon-cinnamon-202021205-2.16.aarch64.rpm"
+RPM_HASH = "47f7b39eb8a1f7a8aa9c9a746c5f5bf47ac64fd4dafe3aea4cb7a66bd5fbb752dff672fc6fd49b293a9f5d7e0e89a6b3088c1cd8dd8723d67d3afd5631efa1f0"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

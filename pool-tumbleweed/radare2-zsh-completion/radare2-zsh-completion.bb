@@ -2,10 +2,10 @@ SUMMARY = "ZSH completion for radare2"
 DESCRIPTION = "zsh shell completions for radare2."
 LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
-PV = "5.8.6"
+PV = "6.2.2"
 
-RPM_NAME = "radare2-zsh-completion-5.8.6-1.2.noarch.rpm"
-RPM_HASH = "532d778f1d8372339096b804a6ef65124587f84847b614adac9f39f3e30559ea5bc594a785d8969d314587bdca00e890c4da24b60525a6a23e2fd0f1ee96e30e"
+RPM_NAME = "radare2-zsh-completion-6.2.2-1.1.noarch.rpm"
+RPM_HASH = "579eaa2a064fc5431208b97300f6ff6f89fd1e4cb16c168a97da28f0ffdb9e4a21f71175d8581b04f35d9f053549754aa45d05aaee581ea53cad135f9a8cc3e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "radare2-zsh-completion"

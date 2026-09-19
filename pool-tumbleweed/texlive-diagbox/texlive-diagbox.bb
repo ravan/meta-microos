@@ -9,10 +9,10 @@ on e-TeX as well as the packages array, calc, fp, keyval, and \
 pict2e."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.4svn54080"
+PV = "2026.226.2.4svn77682"
 
-RPM_NAME = "texlive-diagbox-2023.209.2.4svn54080-53.1.noarch.rpm"
-RPM_HASH = "a789dcb15c75add2f784bf05c48cacb30689300d5569a6fe56742542adaf539337a7dc730b63886dfb0d733775f2c868d44b3a03614b0f544af9ff79233b91dc"
+RPM_NAME = "texlive-diagbox-2026.226.2.4svn77682-59.2.noarch.rpm"
+RPM_HASH = "354cddbc5f9ac464a83fa3c8cea5b5ca6af2c19c0da186115f10e3782d1abd15d902a90129937ee3f418ec3e57fa5aeea8f0cd4acce3277e48ebbc593ecbd885"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-diagbox.sty \

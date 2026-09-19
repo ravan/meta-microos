@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-greek-1.5-422.6.aarch64.rpm"
-RPM_HASH = "076bb4773c8521e407394357fe30b3071ca6bf3d3cd89bd6af8ccef6db82fee5851fd426fd87336d2e43667d83f1b7c513de14707743df8e986e5315386d18b8"
+RPM_NAME = "ispell-greek-1.5-426.1.aarch64.rpm"
+RPM_HASH = "df0a699d5ed12de36bfab8048af64ad3cf39084367320c2909bb4748d8d9fe1a260b423c1e6d70e849322c7145213d6d276f9eed932a24b7924233166aeb8115"
 
 RPROVIDES:${PN} += "igreek \
 ispell-dictionary \

@@ -30,8 +30,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.370"
 
-RPM_NAME = "perl-POE-1.370-1.9.noarch.rpm"
-RPM_HASH = "7106dfaefe3f371935cbe69d9d6841e386e3699da1b995a5df5c49c992d58abee12cb5f14bf98be0678167f9d3d463016dab225c7f69cbcc1b4dd4f307e3189f"
+RPM_NAME = "perl-POE-1.370-1.23.noarch.rpm"
+RPM_HASH = "d3ada4fafe941c99ad05d4f28e95076ee99cb236984f8fca7bad52d4db7d3931c2b73a3b4307a9064700d6d7b25664f230672d99c7af220c73148f570647e112"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-POE \
@@ -83,7 +83,7 @@ perl-POE--Wheel--ReadWrite \
 perl-POE--Wheel--Run \
 perl-POE--Wheel--SocketFactory"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IO \
 perl-IO--Handle \
 perl-IO--Pipely \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mpgraphics"
 DESCRIPTION = "This package includes the documentation for texlive-mpgraphics"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn29776"
+PV = "2026.226.0.0.3svn29776"
 
-RPM_NAME = "texlive-mpgraphics-doc-2023.209.0.0.3svn29776-55.1.noarch.rpm"
-RPM_HASH = "85f74f0ff36ad5f5e4c55b75c0f94702298080be115f4a21789ee9b6d8b480fc931541731d6eb2b9ce56f38179a421f06f54a8651f678212eda0446500e0107e"
+RPM_NAME = "texlive-mpgraphics-doc-2026.226.0.0.3svn29776-61.2.noarch.rpm"
+RPM_HASH = "7f7c1267c8811b4bdde61f9a955ee0d6858f5746779db61ee4b5f97af47085829fb84a3595b9f51a1875469c5afe8f0b71ff3a491a3c9a6d23997be1055d0aaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mpgraphics-doc"

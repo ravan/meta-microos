@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-romansh"
 DESCRIPTION = "This package includes the documentation for texlive-babel-romansh"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn30286"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-babel-romansh-doc-2023.209.svn30286-54.1.noarch.rpm"
-RPM_HASH = "52878ae2d486dcb4b9a057b69ba110f34f7573c07ff428d0e88a9a956e5268735f28b053dd72a933cb164d86e73d7be43968da4de0e92a00fbaaab4b1855c03e"
+RPM_NAME = "texlive-babel-romansh-doc-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "9099610ca70bbe67f02ca0c9ecfb1a34483483104bd45b5831f4233d3e70898d82daca7274a17ee3af5537d3ee73bc9084b9ce827338ca36b2849ecf901fc272"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-romansh-doc"

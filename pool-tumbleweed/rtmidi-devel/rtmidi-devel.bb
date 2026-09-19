@@ -5,17 +5,18 @@ This package contains header files and libraries needed to develop \
 application that use rtmidi."
 LICENSE = "MIT"
 
-PV = "5.0.0"
+PV = "6.0.0"
 
-RPM_NAME = "rtmidi-devel-5.0.0-1.8.aarch64.rpm"
-RPM_HASH = "519e9c8516019b66f7324f1cf73ad8aa73d94a875203f314d4b44359d629831a7d17fbe6d75bf0ce38aca6eb5ad5aed2141707e200945268e2fde95ef4e2a349"
+RPM_NAME = "rtmidi-devel-6.0.0-2.11.aarch64.rpm"
+RPM_HASH = "b5fc94b9dfb0d669266f0f332a2d83020ced6bba56c4a70d3fb10e46b991300a30e1a8f468a1060dff805be4ca37bc99b20c3a00bbf7b9e00dda1f78bbac2244"
 
-RPROVIDES:${PN} += "pkgconfig-rtmidi \
+RPROVIDES:${PN} += "cmake-rtmidi \
+pkgconfig-rtmidi \
 rtmidi-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
-librtmidi6 \
+librtmidi7 \
 pkgconfig-alsa \
 pkgconfig-jack"
 

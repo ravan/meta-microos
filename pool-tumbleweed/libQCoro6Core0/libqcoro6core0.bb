@@ -4,10 +4,10 @@ coroutines in connection with certain asynchronous Qt actions. This package \
 provides the core library."
 LICENSE = "MIT"
 
-PV = "0.9.0"
+PV = "0.13.0"
 
-RPM_NAME = "libQCoro6Core0-0.9.0-1.3.aarch64.rpm"
-RPM_HASH = "dd5ba75e8435fc4ea79010619c401f2b71ca27583638bf6cad730b2b649c9af5473d4d6d1261913ba1abcf898161d236c43b9ee96e9440188bc173619a2dfe67"
+RPM_NAME = "libQCoro6Core0-0.13.0-1.6.aarch64.rpm"
+RPM_HASH = "351f5f2ed407e7c18469b88c2ce8114eadea8a4cd65cb8a2a4c90f53ae8ac050bb0f0d7939f5f6676d84faa4acd3c5c8e804fe7da0adc7fa7be5738fd49d1c85"
 
 RPROVIDES:${PN} += "libQCoro6Core.so.0 \
 libQCoro6Core0"

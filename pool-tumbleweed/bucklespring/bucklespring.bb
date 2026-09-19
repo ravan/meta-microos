@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.5.1"
 
-RPM_NAME = "bucklespring-1.5.1-1.7.aarch64.rpm"
-RPM_HASH = "bb3208173c0759d34c97c08ee9e37a81324ea3d6a1fb4c1f17642d1ecf275b1430346ce239505e1feecb49745f0ec01243ef3c08916c45bf8bf6297ab4c21e7d"
+RPM_NAME = "bucklespring-1.5.1-1.16.aarch64.rpm"
+RPM_HASH = "93552780859b2c93bb25d25d5c6fa85d40c45fedc8e595a142bc7ac48deabebb22694a908bc0e0d758a93ace59ba9829fd4af2bec00f0bc9ef860df9196b2b0e"
 
 RPROVIDES:${PN} += "bucklespring"
 

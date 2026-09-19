@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-scikgtex"
 DESCRIPTION = "This package includes the documentation for texlive-scikgtex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.1svn65256"
+PV = "2026.226.2.2.0svn66764"
 
-RPM_NAME = "texlive-scikgtex-doc-2023.209.2.1.1svn65256-54.1.noarch.rpm"
-RPM_HASH = "34f8d9baadddb084454a27e5a6a09e3260626152afdc06d61a4f501f131541eda6b18643ae386306cdaa9756bb474d00b23ac537595ecc6837c39ada5c2dd7fc"
+RPM_NAME = "texlive-scikgtex-doc-2026.226.2.2.0svn66764-60.2.noarch.rpm"
+RPM_HASH = "bce17a0ad34a9500cc0eae2654c75e75295ae546b4fd5abf499106aaf6c5f736d806cc08f90164ffb3fb2b8d83c019a21047d04fd07071de09441b0a257017c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scikgtex-doc"

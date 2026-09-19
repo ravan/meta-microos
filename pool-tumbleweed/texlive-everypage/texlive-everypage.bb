@@ -7,10 +7,10 @@ watermarks in the background, or in setting the next page \
 layout, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0bsvn56694"
+PV = "2026.226.2.0bsvn77682"
 
-RPM_NAME = "texlive-everypage-2023.209.2.0bsvn56694-53.1.noarch.rpm"
-RPM_HASH = "b44e31f9b08bac8edc766923c592c59ff2565a309de950f1c7a6c9d1fc81e3b857afabded46d2e02f6513943e18e46614cd91e66b3b2e86b3da68eca1558e1a0"
+RPM_NAME = "texlive-everypage-2026.226.2.0bsvn77682-59.2.noarch.rpm"
+RPM_HASH = "b46dd033268d40dcb395f4ede5eb9e56aa4edfe92bc19cacdda67d81d771591712565c29b2ed5ad3edea71025d427c6f44ca354f0023e7932db0ef693e33ffe0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-everypage-1x.sty \

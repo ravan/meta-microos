@@ -5,15 +5,15 @@ Block Command (ZBC), Zoned-device ATA command set (ZAC) disks. \
 This subpackage contains the files needed to build against libzbc."
 LICENSE = "BSD-2-Clause & LGPL-3.0-or-later"
 
-PV = "5.13.0"
+PV = "6.2.0"
 
-RPM_NAME = "libzbc-devel-5.13.0-1.4.aarch64.rpm"
-RPM_HASH = "16890c9f33c1af795793da02ebd062ec4bb8a20d4692f82395fea22e4cb2b6ccd8cbd4ab4aa9986b700192a630a7a288aa751803abb0509455478b439058c8cf"
+RPM_NAME = "libzbc-devel-6.2.0-1.9.aarch64.rpm"
+RPM_HASH = "52e0232b1978b510e36b9bafdbc5d75dd76eddbf4c7d7bea4c7c1fba183a758fa175e711f46a2bb5b063f468d928b700ffe81a67d3796c0e5f551cd8ec032b52"
 
 RPROVIDES:${PN} += "libzbc-devel \
 pkgconfig-libzbc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libzbc5"
+libzbc6"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "WTFPL"
 
 PV = "0.1"
 
-RPM_NAME = "python-pyqt-rpm-macros-0.1-3.2.noarch.rpm"
-RPM_HASH = "8e52894ee933db3c1dfbfc9d4cc14d26c90cc90a5856939e5ba65eadfbba3c8f85fdfc1cf95ab46a6dc718506275a6e76a7851891eca8dad01b8e2710398b98d"
+RPM_NAME = "python-pyqt-rpm-macros-0.1-4.9.noarch.rpm"
+RPM_HASH = "a3aaef5f6842190cebae822daac580304e1a630a499134094e7daff152adc0824fda302e81e646f59d2cb25a1ca28024c8842745560bc06de1e9cb636b206afd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pyqt-rpm-macros \

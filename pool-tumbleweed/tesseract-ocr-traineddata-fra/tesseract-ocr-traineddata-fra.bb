@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the French lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-fra-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "425c27dfd354be520d4c6f255ec8435fed44aec0b628bf0acd539c16dd790abbcb7016af87c3d51b0716bdefe914f12a43e68977257babcc818f1301150b9c2f"
+RPM_NAME = "tesseract-ocr-traineddata-fra-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "5c0298f647c0a261904951e294aa7446827be6a7eb1fd3b8aabffece997a40d63d7974391a933a62b60e49a5546b3c6b6d2093a3cc00aad0c8203e440adc5860"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-fra \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-fr \
+tesseract-ocr-traineddata-fra \
 tesseract-ocr-traineddata-french \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-french"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

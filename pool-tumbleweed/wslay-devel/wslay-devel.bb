@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "wslay-devel-1.1.1-2.9.aarch64.rpm"
-RPM_HASH = "c10c0e453cd510b3df90f42d54902fba0a42fce97f5e07b0b6231f7e82f5ea03bdf5c126d8ab0c6a14110c1a4bd3a4cfb70987396867d6e5cd9a0160637124a7"
+RPM_NAME = "wslay-devel-1.1.1-2.20.aarch64.rpm"
+RPM_HASH = "fc968d75b4c7856773d494bb18ba23d6b9803e8b02e3f1f82b46a0e4067aa73fb5f807134e7d99add32ae5dcf59ec0e07f41b4108c08e6a18e73b99584074632"
 
 RPROVIDES:${PN} += "pkgconfig-libwslay \
 wslay-devel"

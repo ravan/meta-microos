@@ -1,15 +1,15 @@
 SUMMARY = "A short introduction to LaTeX installation written in Chinese"
 DESCRIPTION = "This package will introduce the operations related to \
 installing TeX Live (introducing MacTeX in macOS), upgrading \
-macro packages, and compiling simple documents on Windows 10, \
-Ubuntu 20.04, and macOS systems, and mainly introducing command \
-line operations."
+packages, and compiling simple documents on Windows 11, Ubuntu \
+24.04, and macOS systems, and mainly introducing command line \
+operations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2023.1.1svn65434"
+PV = "2026.226.2026.3.1svn78227"
 
-RPM_NAME = "texlive-install-latex-guide-zh-cn-2023.209.2023.1.1svn65434-54.1.noarch.rpm"
-RPM_HASH = "5a488f75406a299a37dda3424d500289365c2f7a80d727fb3f9f416f15a0f1f60fbf463c51641174f97a0c62fbc216105310073617b70208a9d818ae092697c3"
+RPM_NAME = "texlive-install-latex-guide-zh-cn-2026.226.2026.3.1svn78227-60.2.noarch.rpm"
+RPM_HASH = "ba1180dfdb4eb48f4f5c10ca7fcfbc6ea30b800366a1f5ebd6eb11109cb4967cbcc4692a2d6b2cd160687aeeca9597339d5fa18ff833da190d4df85c0e1ea0c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-install-latex-guide-zh-cn"

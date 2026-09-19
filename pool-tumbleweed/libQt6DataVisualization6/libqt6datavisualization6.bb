@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 DataVisualization library"
 DESCRIPTION = "The Qt 6 DataVisualization library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6DataVisualization6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "f1b8d6ed4dccf1fa461b4cfface174bc3c71cd2f679fa0a903f6699b92066af051cc2ac48a59ca995985c0e3192c699a1577ee44885709cd64829d5ddb37ab0c"
+RPM_NAME = "libQt6DataVisualization6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "6318f32144182975f3f3a31427a1a8825bc6df27432e0d8936b865e05a24bf74627822cc3289c0e8e93247e8cb3409e63c518bcbb5f322d4da8a62f19ca4ea16"
 
 RPROVIDES:${PN} += "libQt6DataVisualization.so.6 \
 libQt6DataVisualization6"

@@ -1,14 +1,14 @@
-SUMMARY = "Command line client for droidcam"
-DESCRIPTION = "This program turns a mobile device into a webcam. \
+SUMMARY = "Command-line client for DroidCam"
+DESCRIPTION = "DroidCam turns an Android or iOS device into a wireless (or USB) webcam. \
  \
-It can be used with chat programs like Skype, Zoom, Teams, or with \
-live streaming programs like OBS."
+This package installs only the command-line client (droidcam-cli), which \
+does not depend on GTK3.  Use it on headless systems or in terminal workflows."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.9.0"
+PV = "2.1.5"
 
-RPM_NAME = "droidcam-cli-1.9.0-1.3.aarch64.rpm"
-RPM_HASH = "1368ea24e6b095854bd40af726a113ef17ae22a8a64747b198c48f7cdfc14358e717d89d687f875a0526fd6003eefdc342853c891cf71f77510786485f344c47"
+RPM_NAME = "droidcam-cli-2.1.5-1.1.aarch64.rpm"
+RPM_HASH = "5901ccccc0d9275c91c8b70ca685a896bf595dcf329d1b41e31e8c76ce82723280c9ade41e7c8bfbf508001749f0fc0150f8cf7bb1e167a7aa948e38955e8122"
 
 RPROVIDES:${PN} += "droidcam-cli"
 
@@ -17,8 +17,8 @@ ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \
 libspeex.so.1 \
-libswscale.so.7 \
+libswscale.so.9 \
 libturbojpeg.so.0 \
-libusbmuxd-2.0.so.6"
+libusbmuxd-2.0.so.7"
 
 inherit rpm

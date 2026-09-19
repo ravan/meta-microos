@@ -7,16 +7,16 @@ external tools for managing PipeWire. \
 This package provides all the necessary files for development with WirePlumber"
 LICENSE = "MIT"
 
-PV = "0.4.14"
+PV = "0.5.17"
 
-RPM_NAME = "wireplumber-devel-0.4.14-2.1.aarch64.rpm"
-RPM_HASH = "98685219789265b93032408da7e859d1baeea0f56fc975f7551af230d9f2996f597079a074f55833c73a8cec1dc3e60cc24df087c20f7d3fe93f7a7cf87c18b9"
+RPM_NAME = "wireplumber-devel-0.5.17-1.1.aarch64.rpm"
+RPM_HASH = "8f6753cf01d2f1f9adabd7517de79258683f0aca6194906d4f82b4e645ea15abb2aecbbf995790d23df43c1ba21f48f54ce8a3fc77df7737c619726b5033a840"
 
-RPROVIDES:${PN} += "pkgconfig-wireplumber-0.4 \
+RPROVIDES:${PN} += "pkgconfig-wireplumber-0.5 \
 wireplumber-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libwireplumber-0-4-0 \
+libwireplumber-0-5-0 \
 pkgconfig-gio-2.0 \
 pkgconfig-gmodule-2.0 \
 pkgconfig-gobject-2.0 \

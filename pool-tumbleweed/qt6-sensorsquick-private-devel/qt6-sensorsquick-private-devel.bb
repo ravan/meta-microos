@@ -1,14 +1,15 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 SensorsQuick library"
 DESCRIPTION = "This package provides private headers of libQt6SensorsQuick that do not have any \
 ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-sensorsquick-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "c08923fa10ab85e1e780ec2c46adf75b374fac93f1dcd811ce700e458281ed9f03332ab6c1b9bed5b02f37985591a1140b857319c022db8516f57d7e22cac97f"
+RPM_NAME = "qt6-sensorsquick-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "1d7a440013aa015e724cf9d8db77f21dda94ce7831a424f290813f1866f708080b28b567babd4d247f9bfc91a9ce3f502efe3240d8a4fcd3872edb0e89659e15"
 
-RPROVIDES:${PN} += "qt6-sensorsquick-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6SensorsQuickPrivate \
+qt6-sensorsquick-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6SensorsQuick"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "Package for solving Diffusion Advection Reaction (DAR) Partial Di
 This is part of the Octave-Forge project."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.6"
+PV = "1.1.8"
 
-RPM_NAME = "octave-forge-bim-1.1.6-1.3.noarch.rpm"
-RPM_HASH = "594b4945da8a94fd083918f83d30c7e55b2bd8e4bfbf335b244338c8f46c2f970a1bdc32cb6a41c4c5e36e6f3771580f8d1843ca2a92801d3f044ddbe131b2b3"
+RPM_NAME = "octave-forge-bim-1.1.8-2.6.noarch.rpm"
+RPM_HASH = "f0838def5dd470a98d6fff28b09cc24ddf597b71a4c1b18743388b203dfcc0c5518f873e54662bb0f413ccb2f107ea705c6cfca39e9a9712e13caca75d8eb967"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-bim"

@@ -5,8 +5,8 @@ LICENSE = "W3C"
 
 PV = "1.04"
 
-RPM_NAME = "libtidyp-devel-1.04-16.28.aarch64.rpm"
-RPM_HASH = "718ed916576c482e6cd0a3d0d69b0b05eb32960c8696207176331457815fcae0f1274fde1efbfed442487a75d3deeb9265d8e36d323ccd8a46251ba9865f3d3d"
+RPM_NAME = "libtidyp-devel-1.04-16.38.aarch64.rpm"
+RPM_HASH = "a76a68f5b2fc5fb23de68578469637248c7c5c9233afecc36e966d56de266eb98171f546283eb611fd761b3463ef82204420018efc34b94ff1c23ddc1f3dd3cd"
 
 RPROVIDES:${PN} += "libtidyp-devel"
 

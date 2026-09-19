@@ -5,15 +5,15 @@ For details about the programming API, please see the docs \
 on the project's site (http://libcpuid.sourceforge.net/)"
 LICENSE = "BSD-2-Clause"
 
-PV = "0.6.3"
+PV = "0.8.1"
 
-RPM_NAME = "libcpuid-devel-0.6.3-1.1.aarch64.rpm"
-RPM_HASH = "799aa226237c7942ec2381e8970a1041cb6ea6573964f0b03b6464f71a97f02cd6c338eabcc22e6b1a387bbca332c8af13b767137a2b1a7ed69b9f04f218a774"
+RPM_NAME = "libcpuid-devel-0.8.1-2.3.aarch64.rpm"
+RPM_HASH = "64f52743135f74def7c48f1b7e9a95ad90f5ffd4d2cc501e43a5ba8b937d92fb17f24692bb8153f11bb1207e6b09bbddfc56f0a52b8ef6f35e204064eaf91309"
 
 RPROVIDES:${PN} += "libcpuid-devel \
 pkgconfig-libcpuid"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libcpuid16"
+libcpuid18"
 
 inherit rpm

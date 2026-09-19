@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt Quick Controls2 module provides a set of controls that \
 can be used to build complete interfaces in Qt Quick."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde6"
+PV = "5.15.19+kde5"
 
-RPM_NAME = "libqt5-qtquickcontrols2-5.15.10+kde6-1.1.aarch64.rpm"
-RPM_HASH = "f7dbdd3da00b426ba53badb84abf5a7dddf36363eb092639d807304ea945caba070e9957ed9cedc61cc722160ad0b65c64a7bdf5fbdead44fa4caf0cc93bf9e5"
+RPM_NAME = "libqt5-qtquickcontrols2-5.15.19+kde5-1.2.aarch64.rpm"
+RPM_HASH = "183e756225ef62d7f7c6fd9ef568b04a663e49db7a419cc9edcd1af2707c499cba07e6595f0f01f0d550f3400dc8532258eeb09ceb840aa726afa84e41c3c14b"
 
 RPROVIDES:${PN} += "libqqc2materialstyleplugin.so \
 libqt5-qtquickcontrols2 \

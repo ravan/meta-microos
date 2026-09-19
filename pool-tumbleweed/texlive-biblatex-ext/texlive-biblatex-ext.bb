@@ -8,10 +8,10 @@ possible, so that most customisation methods can be applied \
 here as well."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.16svn63638"
+PV = "2026.226.0.0.20svn77682"
 
-RPM_NAME = "texlive-biblatex-ext-2023.209.0.0.16svn63638-54.1.noarch.rpm"
-RPM_HASH = "228c0ce2d8eca1e37991fed9a9c1ed56b93fbd823c9875d950d10e6885166b4c112f3dce98469741123f7376a40bcbce76dc949c121a58889018e696669f1656"
+RPM_NAME = "texlive-biblatex-ext-2026.226.0.0.20svn77682-61.2.noarch.rpm"
+RPM_HASH = "b84bbb39d3a5e878af5771a05708f830ee76c63e0f527e1d48ce38fa13854c7aad935f9ceac8c6cb53d56a3584dffcdba8f3792afe980a3b4fa6e75ab8db0989"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-ext-oa-doiapi.sty \
@@ -161,6 +161,7 @@ tex-verbose.bbx \
 tex-verbose.cbx \
 tex-xcolor.sty \
 tex-xparse.sty \
+tex-xsavebox.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

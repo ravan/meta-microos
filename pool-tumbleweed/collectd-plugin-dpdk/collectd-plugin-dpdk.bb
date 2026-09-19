@@ -5,10 +5,10 @@ For OVS or OVS-with-DPDK the Open vSwitch plugins (ovs) should be \
 used for collecting stats and events."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-dpdk-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "cd4a9ace0d872a3e146463494f256ebccc18bc5add851265a8575499666cf685e428b6273bb5f245f947656af3e3cdb301a9c650eff2e095a2c7e911ded191d5"
+RPM_NAME = "collectd-plugin-dpdk-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "ce7cfe6fb873ada4b2a2d11fd6bf9a04440b827d6227687559e8ea3f3b4d3baccba205d0d723d594b0af839dc034b3a313555050cbcc8d0cb710e1aca70f23a5"
 
 RPROVIDES:${PN} += "collectd-plugin-dpdk"
 
@@ -16,7 +16,7 @@ RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libjansson.so.4 \
-librte-eal.so.23 \
-librte-ethdev.so.23"
+librte-eal.so.26 \
+librte-ethdev.so.26"
 
 inherit rpm

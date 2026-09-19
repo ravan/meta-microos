@@ -2,10 +2,10 @@ SUMMARY = "Translations for package frogr"
 DESCRIPTION = "Provides translations for the 'frogr' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.7"
+PV = "1.8.1"
 
-RPM_NAME = "frogr-lang-1.7-1.7.noarch.rpm"
-RPM_HASH = "e0b104c52fe0e334e2f47a8a76ccc3ef805d272b32a0f457a89c23a3ace271b7e3ffcb5e60ce1a1aa33098bcb69053d8bfde7b201a0928af96a1fafa723d9d58"
+RPM_NAME = "frogr-lang-1.8.1-1.13.noarch.rpm"
+RPM_HASH = "9fbeeaece24fe1046b9b50face44dc0e3c25afe08bf3ffc603bf85095a473ce44aa77354c6f73f9dff86feabbe386f39966abc8189f6f819aac4ad1036436e4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "frogr-lang \

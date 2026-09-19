@@ -4,10 +4,10 @@ with LuaLaTeX. This version uses less memory, and operates \
 faster than the original; it also offers several enhancements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn65511"
+PV = "2026.226.svn65511"
 
-RPM_NAME = "texlive-luasseq-2023.208.svn65511-53.1.noarch.rpm"
-RPM_HASH = "471610c3140442f4913148f6a6c368d9676194198086ab51e0c59a4bfb5d3fc81a8838709999947a725feacb1d38b0fad1894556a73276ea06bccea799603348"
+RPM_NAME = "texlive-luasseq-2026.226.svn65511-59.2.noarch.rpm"
+RPM_HASH = "8ca346e54dad2e5b0a728c61c040b7186ab6412237d5cbe23c46f2fec1dcff3e041c2a824b2e6aeed50c105daf5d9b9b72b2cfe24219a2514dd41f3bfd7ef4e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luasseq.sty \

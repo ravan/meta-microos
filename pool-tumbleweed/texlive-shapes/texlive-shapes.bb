@@ -5,10 +5,10 @@ fractionally filled circles (useful for visually demonstrating \
 the nature of fractions) in MetaPost."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn42428"
+PV = "2026.226.1.1svn42428"
 
-RPM_NAME = "texlive-shapes-2023.209.1.1svn42428-54.1.noarch.rpm"
-RPM_HASH = "2ece9c39ac62bc91a9164ae4fd62e08801c4f8bf835bfb046006027bbf314f7475e7c78c2a2e8a156dce0dc34eff4f0c8e51843e3049c0c5b0b68c71917a9027"
+RPM_NAME = "texlive-shapes-2026.226.1.1svn42428-60.2.noarch.rpm"
+RPM_HASH = "2e4247f2006f1b81cae2a57af507566e4310ca26b2a9a4335db1e8cbeef85aa4928241531731b717e95338da05743e9293ea722cd0c7974dc37a62ef449a4839"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shapes"

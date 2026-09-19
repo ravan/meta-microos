@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.40.0"
 
-RPM_NAME = "sound-juicer-lang-3.40.0-1.1.noarch.rpm"
-RPM_HASH = "de04e1c5855721c2834831512c50b6169c856a62382a5987cd5018e38d63371c5c070ed354806307b91f540be99e7bde02ae415d1673922e339ce4073a57dc8b"
+RPM_NAME = "sound-juicer-lang-3.40.0-3.6.noarch.rpm"
+RPM_HASH = "116be6ad12099834c5bd2d322a256cbaa651ced0764b4d8b872a42b6110eb0549fc8b0c8421b8fa27b103749830f09fb97268056f0bd6338efb5dfda57717192"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-sound-juicer-ar \

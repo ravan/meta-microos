@@ -3,10 +3,10 @@ DESCRIPTION = "Some extend documentation about mutt together with muttrc example
 for different environments and requirements."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.2.10"
+PV = "2.4.2"
 
-RPM_NAME = "mutt-doc-2.2.10-2.2.noarch.rpm"
-RPM_HASH = "6ca81919c36d8a6b4780121b770e4998f1af84f62e932edc04b9b47f22106944675252488d00c4076b1768aca323a234b7190f62801e92bc82566a501aceb4e3"
+RPM_NAME = "mutt-doc-2.4.2-1.1.noarch.rpm"
+RPM_HASH = "81d0514d0b39ce56d0a7f1a9a6b4451ef5e6b01f6f37c516a46c5a58bcf88817a0842e67dc81e693f0e18b5c94295b22007bd34f34c27ebe05c509d77dfa5b23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mutt-/usr/share/doc/packages/mutt/COPYRIGHT \

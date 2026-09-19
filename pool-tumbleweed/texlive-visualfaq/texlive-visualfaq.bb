@@ -7,10 +7,10 @@ text and the Visual LaTeX FAQ will send your Web browser to the \
 appropriate page in the TeX FAQ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn61719"
+PV = "2026.226.svn61719"
 
-RPM_NAME = "texlive-visualfaq-2023.209.svn61719-54.1.noarch.rpm"
-RPM_HASH = "542fc71283c0e79dc564cb457fe74b78a7324d5811bfc7bd7a5dccbf5f53d7ddb4f44cf16726c4a67ad6b5c10cdabcaecf76d23f11fd333c894b4bc26b254b2a"
+RPM_NAME = "texlive-visualfaq-2026.226.svn61719-60.2.noarch.rpm"
+RPM_HASH = "05ccfea1b27e9fd40ef23df467bcf44ace1b6daaede0f04519c18485ad22d111836232fcd3c5ab98afdbfa202362742a149fbdbebe800f93cbd637e59d037f38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-visualfaq"

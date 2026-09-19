@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Yiddish lan
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-yid-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "775246ed90f2243555d5ad78efc8b15b3e7ee19b0e281e1ef2be375390c219ab589fa0fede9ad9d5a36c357edd5f73fbcdfcdfec8f882d53faac27eafda61608"
+RPM_NAME = "tesseract-ocr-traineddata-yid-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "3efd58d0b4be1c708eeb98f77732a8a621fce6d926c75b6677fab4fb4b6ef07b9d0acad4b85da1cd6cac3d561ea34675ed1f5f5aa2258a6d9e3a5955c46a7ef3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-yid \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-yi \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-yid \
 tesseract-ocr-traineddata-yiddish \
 tesseract-traineddata-yiddish"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

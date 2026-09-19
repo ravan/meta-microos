@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gtranslator"
 DESCRIPTION = "Provides translations for the 'gtranslator' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "42.0"
+PV = "50.0+157"
 
-RPM_NAME = "gtranslator-lang-42.0-1.6.noarch.rpm"
-RPM_HASH = "086e2b1a1ec1c112327de319413c0745e24eceb6455e5734377ce353fe67da8cb376b2865993f34b751ee8cc0aa1449d540161c7afd5bc1f857e1d6b04492a57"
+RPM_NAME = "gtranslator-lang-50.0+157-1.2.noarch.rpm"
+RPM_HASH = "3e8ad70da62873be393148b28c70f9b8e5f2b6eee694e8d4419f4a4af602705c3247f8dd11567c62791ee36e619160a467bf2f42e8d71408834029dcad0d21c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtranslator-lang \
@@ -35,12 +35,16 @@ locale-gtranslator-fur \
 locale-gtranslator-ga \
 locale-gtranslator-gl \
 locale-gtranslator-he \
+locale-gtranslator-hi \
 locale-gtranslator-hr \
 locale-gtranslator-hu \
+locale-gtranslator-ia \
 locale-gtranslator-id \
 locale-gtranslator-is \
 locale-gtranslator-it \
 locale-gtranslator-ja \
+locale-gtranslator-ka \
+locale-gtranslator-kk \
 locale-gtranslator-ko \
 locale-gtranslator-lt \
 locale-gtranslator-lv \

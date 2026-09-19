@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-fit"
 DESCRIPTION = "This package includes the documentation for texlive-pst-fit"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn45109"
+PV = "2026.226.0.0.03svn70686"
 
-RPM_NAME = "texlive-pst-fit-doc-2023.209.0.0.02svn45109-53.1.noarch.rpm"
-RPM_HASH = "784b352b956fadf80f73fae730000183559b28ed27cf748d6c4d45666b82543040143cd099fa12ae148e54a914b8219ce71bd83f959264c803ebf8b27c7d9c29"
+RPM_NAME = "texlive-pst-fit-doc-2026.226.0.0.03svn70686-59.2.noarch.rpm"
+RPM_HASH = "d09f34af58494e90de359370fde5e68d7a72d5b646e7ce2750bfa645912093e35c1b72a2d2ad13652da6729027d09b060df9677e2f4b98d6e031ad9967915cca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-fit-doc"

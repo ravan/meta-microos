@@ -2,10 +2,10 @@ SUMMARY = "Black Hole Solver development headers"
 DESCRIPTION = "Files needed for building applications against Black Hole Solver."
 LICENSE = "MIT"
 
-PV = "1.12.0"
+PV = "1.14.0"
 
-RPM_NAME = "black-hole-solver-devel-1.12.0-1.2.aarch64.rpm"
-RPM_HASH = "9392e7a6fb6ec6aa80476c7c9ac402e6b168c9a0bd5131fd86a1d1c2120d3118ba4ac0dc0f781fefad9cb6052ef4e2cd182ceef98bca5ef9c180f19c6fc6c341"
+RPM_NAME = "black-hole-solver-devel-1.14.0-1.5.aarch64.rpm"
+RPM_HASH = "8c93e525dbedc0ee9e19a0212be7edf6bfcc21525148b1526c5d2b330494adf461227a7d3681fe0b7389239af9ffc23684cf4b5c896150e4028cada1cff411eb"
 
 RPROVIDES:${PN} += "black-hole-solver-devel \
 pkgconfig-libblack-hole-solver"

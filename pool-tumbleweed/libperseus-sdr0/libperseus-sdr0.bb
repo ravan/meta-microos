@@ -2,10 +2,10 @@ SUMMARY = "Library for Perseus SDR"
 DESCRIPTION = "Perseus Software Defined Radio Control Library."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.8.1"
+PV = "0.8.2"
 
-RPM_NAME = "libperseus-sdr0-0.8.1-1.23.aarch64.rpm"
-RPM_HASH = "ef16366662285d901432fa9d7a0938db5b729a49070cc2d781fa45d1ea0d5c77525266d0cae349ac227e05c6fe524eea1b86946deeb84eb57f14c0c6e20eecd3"
+RPM_NAME = "libperseus-sdr0-0.8.2-1.1.aarch64.rpm"
+RPM_HASH = "ccba21077e91d5b41ddaf1ef1bdef94158424755a6be55010b085deb045952d0ab1be993dfea8072cbd126fc3247be03905125ab13bb9da5612274bb6db225cc"
 
 RPROVIDES:${PN} += "libperseus-sdr.so.0 \
 libperseus-sdr0"

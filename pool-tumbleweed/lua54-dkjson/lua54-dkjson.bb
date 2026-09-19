@@ -9,10 +9,10 @@ dkjson is written in Lua without any dependencies, but \
 when LPeg is available dkjson can use it to speed up decoding."
 LICENSE = "MIT"
 
-PV = "2.5.2"
+PV = "2.8.0"
 
-RPM_NAME = "lua54-dkjson-2.5.2-5.2.noarch.rpm"
-RPM_HASH = "a5423a87e2a674127662609be6373dc134ca5a7f9094cba4c08d4f3aafead07646e87bbf45f822b32ee51e3a5c890dc6d602078c990d0c21be2a945b5ecc033f"
+RPM_NAME = "lua54-dkjson-2.8.0-3.2.noarch.rpm"
+RPM_HASH = "0a3e64a301191ec5e00ace30fafa14814d9001f20bc59119e698fc8b7d0ec81918efe0d2c11b5939247b3ffe11773597b72cc5609c646b36285ae68eb9bae65b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-dkjson \

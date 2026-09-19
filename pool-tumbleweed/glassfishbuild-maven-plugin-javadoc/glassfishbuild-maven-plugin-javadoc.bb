@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "3.2.26"
 
-RPM_NAME = "glassfishbuild-maven-plugin-javadoc-3.2.26-2.11.noarch.rpm"
-RPM_HASH = "bb5df0a772af392f71160c4f11c1a31c4deab88c3a6e1e60e4c82e8eade33f2ae87186d31ee85f18a9b82e1859de491c78a1cbb12d5ac5b2949a1c081c5cbdbc"
+RPM_NAME = "glassfishbuild-maven-plugin-javadoc-3.2.26-3.10.noarch.rpm"
+RPM_HASH = "91b2b423d14428fbac5363da9a0a2abbd69d41b0cacbaacb09a3dc315ccd491734b809657fd4978220a83f98685fcb2a66723b54f4e644128526f19c04cbda10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfishbuild-maven-plugin-javadoc"

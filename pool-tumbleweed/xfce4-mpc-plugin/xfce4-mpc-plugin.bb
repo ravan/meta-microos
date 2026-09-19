@@ -3,10 +3,10 @@ DESCRIPTION = "The Mpc plugin is a simple Music Player Daemon client which can c
 playback and show the currently playing song."
 LICENSE = "ISC"
 
-PV = "0.5.3"
+PV = "0.6.0"
 
-RPM_NAME = "xfce4-mpc-plugin-0.5.3-1.1.aarch64.rpm"
-RPM_HASH = "3cf252242c2a6023cfaeac8b26ada9633f7800f5bc048edf6b2b0c371b6f8e443ee9d1b1cee5fee9846951d474c38c826a11ad9e9e748c67b9a03cdd475fa379"
+RPM_NAME = "xfce4-mpc-plugin-0.6.0-1.4.aarch64.rpm"
+RPM_HASH = "7403cda0bf7f3a44317af003412a0b0e5ffc407ca10b4a3f75e22279551559bdd9cd92028383310da5c2231b921a94f4d11377330c3ac22f6bc76f2ca0055f3a"
 
 RPROVIDES:${PN} += "libmpc.so \
 xfce4-mpc-plugin \

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2020.09.24"
 
-RPM_NAME = "raspberrypi-tools-armstubs-2020.09.24-1.8.aarch64.rpm"
-RPM_HASH = "a5e1653a41ba07378cf3f08a535cdea194fd80506e06c219e419361b04681c847a96965c91717361e17af2865f37cf914dcd30bcb5b44cf8606e5b067cb0b936"
+RPM_NAME = "raspberrypi-tools-armstubs-2020.09.24-2.8.aarch64.rpm"
+RPM_HASH = "7b4a9e3d8b765c61eb8ef26e445ced98dba06f4b9f1f5749081adad39b8620636f5c197cda9d779b5da06dcae62c1ebbaadc204b1042f6565de3ba3e1a86ce0c"
 
 RPROVIDES:${PN} += "raspberrypi-tools-armstubs"
 

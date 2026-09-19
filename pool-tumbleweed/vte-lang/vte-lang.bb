@@ -2,10 +2,10 @@ SUMMARY = "Translations for package vte"
 DESCRIPTION = "Provides translations for the 'vte' package."
 LICENSE = "CC-BY-4.0 & LGPL-3.0-or-later & GPL-3.0-or-later & MIT"
 
-PV = "0.72.2"
+PV = "0.84.1"
 
-RPM_NAME = "vte-lang-0.72.2-1.1.noarch.rpm"
-RPM_HASH = "15c6ce72bc1ff705364be39edd9cf1ecbc7799d5d26083416c8b62763ed9697d40d1cedea641e3432a40c4f8541ba817e987996d65664f49098ae96fce364acb"
+RPM_NAME = "vte-lang-0.84.1-1.2.noarch.rpm"
+RPM_HASH = "549e581dec149fc1e84e6618a081285b99ecb90378388c4c159d37ad378094d615ddaf828537f4ad34c0a7c4dc1353d25e736cd3f904c3d21bd582d09bbd01f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-vte-ar \
@@ -45,6 +45,7 @@ locale-vte-he \
 locale-vte-hi \
 locale-vte-hr \
 locale-vte-hu \
+locale-vte-ia \
 locale-vte-id \
 locale-vte-is \
 locale-vte-it \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.2"
 
-RPM_NAME = "openssl_tpm_engine-0.4.2-8.19.aarch64.rpm"
-RPM_HASH = "423b439fe888c504f637b9c97d9de2949d444f903906a45359182a90cc66827aaae83242facb6019ca0203981868fc8ba985385c21a779cbdee10d34a36aacd3"
+RPM_NAME = "openssl_tpm_engine-0.4.2-9.9.aarch64.rpm"
+RPM_HASH = "39412f7922b11aea34806623d676dfdd385cd6b9570c36c429c5bcbba3b7f0e5acc0bb0b18f3204a5ab7825dfbcfe2322ac65224eda3ec6aa1e7fbf89e7f3fba"
 
 RPROVIDES:${PN} += "openssl-tpm-engine"
 

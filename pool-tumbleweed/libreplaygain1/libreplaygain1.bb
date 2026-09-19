@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "r475"
 
-RPM_NAME = "libreplaygain1-r475-2.14.aarch64.rpm"
-RPM_HASH = "680d771065cb11a023af43f973576dd1166cc55c576a39da0224db12e114de54a2df0d6ac2cdeaa1df8700c5ea34b663f830dacc726094cf8a9e97b8857c4e04"
+RPM_NAME = "libreplaygain1-r475-3.9.aarch64.rpm"
+RPM_HASH = "881098053e6ab972b6dedf696d78d302b8ab9d49a5da45da1e23c77748c6907bdb6566dc2b0081c74d55ea51f60dcfbf87ebcd9ab71fb61e6e3332b4963b8c45"
 
 RPROVIDES:${PN} += "libreplaygain.so.1 \
 libreplaygain1"

@@ -7,20 +7,19 @@ Discovery, DHT, µTP, PEX and magnet links. \
 This package contains a graphical user interface to transmission."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & MIT"
 
-PV = "4.0.3"
+PV = "4.1.3"
 
-RPM_NAME = "transmission-gtk-4.0.3-2.2.aarch64.rpm"
-RPM_HASH = "42f9060be1795dd39ec4c3cfb8c64ed0548c14f2774b8d63f43ebfc760b4eb9dd92c782923aade26e3f2717e8bbb74a0f099e974dc929a3adc5660bc8ab56ba0"
+RPM_NAME = "transmission-gtk-4.1.3-1.2.aarch64.rpm"
+RPM_HASH = "ecd405a9cda0bd32359687c0145a735e302dff51211545d1b9a27a18ac02be7d779310210b4013233ef4988a9c4d071784afeb51a39b52431791e245dfa16e5f"
 
 RPROVIDES:${PN} += "transmission-gtk \
 transmission-ui"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "alts \
 canberra-gtk-play \
 ld-linux-aarch64.so.1 \
-libb64.so.0 \
+libb64.so.1 \
 libc.so.6 \
-libcairomm-1.16.so.1 \
 libcrypto.so.3 \
 libcurl.so.4 \
 libdeflate.so.0 \
@@ -34,12 +33,11 @@ libgobject-2.0.so.0 \
 libgtk-4.so.1 \
 libgtkmm-4.0.so.0 \
 libm.so.6 \
-libminiupnpc.so.17 \
+libminiupnpc.so.21 \
 libpangomm-2.48.so.1 \
 libpsl.so.5 \
 libsigc-3.0.so.0 \
 libstdc++.so.6 \
-transmission-common \
-update-alternatives"
+transmission-common"
 
 inherit rpm

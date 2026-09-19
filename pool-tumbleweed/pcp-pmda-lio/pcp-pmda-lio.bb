@@ -6,14 +6,15 @@ summary instance per iSCSI target, which aggregates all LUN metrics within the \
 target."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-lio-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "6263a6a1db2d83697d8159b20618e059be008f25d1cc2922b05701117b41ccad25a0293d6a7a659e7e5a136d1fd04bee5eabc0e6fb1ccc8b4a9d76839eec495c"
+RPM_NAME = "pcp-pmda-lio-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "1664079524face584cf03fdfca630a996d39c48d04779f9196202abf3637a87c18514969a61c312e1bbe899981b392d9017cc02e4ce54bc30807affaf42df006"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-lio"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 /usr/bin/sh \
 python3-pcp \
 python3-rtslib-fb"

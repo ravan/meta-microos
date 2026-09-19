@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the sample rate converter plugin for ALSA \
 library using Speex sample rate converter."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-speexrate-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "d40ec32806c3acb4453179bb1b9fcd1115515ad3b123d8bb33c044f18c62d125362ace0a9ec0df22efb8f90c31ffa20d7c8221145a9f43ddf017687c70546ae7"
+RPM_NAME = "alsa-plugins-speexrate-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "f99c370f366244762d93f2bdd62e660576a688bbcea838d63403bb74392e3ab898e785d8a32e802bd0b5561b792c3cd458014d419208a90560320f18bf234252"
 
 RPROVIDES:${PN} += "alsa-plugins-speexrate \
 libasound-module-rate-speexrate.so"

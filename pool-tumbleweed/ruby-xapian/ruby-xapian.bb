@@ -6,10 +6,10 @@ This package provides the files needed for developing Ruby scripts \
 which use Xapian."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.4.21"
+PV = "1.4.27"
 
-RPM_NAME = "ruby-xapian-1.4.21-2.7.aarch64.rpm"
-RPM_HASH = "d6cd98f680f2cb262926ca75e6762fbec23aae5db982f83b3a83e012926a7d0f1a23d1ad5f7d6aea28a7bbe9ad6c8d5e42a1cde82277d91aff92b2b6b0b3955e"
+RPM_NAME = "ruby-xapian-1.4.27-1.7.aarch64.rpm"
+RPM_HASH = "f785082dc0ba41a7948501397779c290cbbc6181ea571438e3b5560529ab0108d2dec2102235efb163a594d8fed130854deb6631404b103fd79baa609fb35ca0"
 
 RPROVIDES:${PN} += "ruby-xapian"
 

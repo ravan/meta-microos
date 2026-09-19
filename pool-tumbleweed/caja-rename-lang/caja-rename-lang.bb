@@ -2,10 +2,10 @@ SUMMARY = "Translations for package caja-rename"
 DESCRIPTION = "Provides translations for the 'caja-rename' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "22.10.31"
+PV = "24.5.1"
 
-RPM_NAME = "caja-rename-lang-22.10.31-1.3.noarch.rpm"
-RPM_HASH = "b6555e09385696955208c6c346637b8ef599e7a0d7d4dd6b0897940cc78c39e1d4ed75a8d23bdbd242f41038d46496baf14c7271da089f2c5bc780bbb1a9f957"
+RPM_NAME = "caja-rename-lang-24.5.1-1.11.noarch.rpm"
+RPM_HASH = "a7f210062892ce80d8f56918fcf6ef4eb123a3e2078b00a99e767028ab534cd7bae806a972f128af746424d8d82a72cdf01a7871787c1eddf0a8b69596a6d28a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-rename-lang \
@@ -19,12 +19,17 @@ locale-caja-rename-en-GB \
 locale-caja-rename-es \
 locale-caja-rename-fr \
 locale-caja-rename-hr \
+locale-caja-rename-hu \
 locale-caja-rename-lt \
 locale-caja-rename-nb-NO \
 locale-caja-rename-nl \
 locale-caja-rename-oc \
+locale-caja-rename-pt \
 locale-caja-rename-pt-BR \
+locale-caja-rename-ru \
 locale-caja-rename-sl \
+locale-caja-rename-tr \
+locale-caja-rename-uk \
 locale-caja-rename-zh-Hans"
 
 RDEPENDS:${PN} += "caja-rename"

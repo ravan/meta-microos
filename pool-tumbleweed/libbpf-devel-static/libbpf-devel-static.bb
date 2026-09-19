@@ -2,10 +2,10 @@ SUMMARY = "Static library for libbpf"
 DESCRIPTION = "libbpf is a C library which provides API for managing eBPF programs and maps."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.2.2"
+PV = "1.7.0"
 
-RPM_NAME = "libbpf-devel-static-1.2.2-1.1.aarch64.rpm"
-RPM_HASH = "067464d1f158f853be982a334550a9206c22c8528c0bb373d4b9f5512a1979cbb93bafdc66b7e2a66124300046bc16d0ab2cc78ded013e8c91c32e78854b6b57"
+RPM_NAME = "libbpf-devel-static-1.7.0-2.1.aarch64.rpm"
+RPM_HASH = "a8c3803d084c3d6e804d9f7ef3ff5b8e3c30fed86c666d74a481179eba53e3154e063df57141cbb57864390fefaf9b4e7ae268aaedf2ec75db837ee2f58fb824"
 
 RPROVIDES:${PN} += "libbpf-devel-static"
 

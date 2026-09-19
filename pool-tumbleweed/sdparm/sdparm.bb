@@ -12,8 +12,8 @@ LICENSE = "BSD-2-Clause & BSD-4-Clause"
 
 PV = "1.12"
 
-RPM_NAME = "sdparm-1.12-2.4.aarch64.rpm"
-RPM_HASH = "696fab98dd2520fb8e05c4610f03118ded1753e32cd50aa54126ce3dff1ba78c61f85d8c6ff985a879a1f1bf9d826fd7b421e4df966a730cffc36161da1b94b2"
+RPM_NAME = "sdparm-1.12-2.14.aarch64.rpm"
+RPM_HASH = "11234f5bf10a43badbbe86116ce3813f4c7aa60e4517c895dff6e13dda894ed1f2df0b7debaae42e1ffabcc3895362f82c0f9fa5dc9adc70338e558914a80583"
 
 RPROVIDES:${PN} += "scsi-/sbin/sdparm \
 sdparm"

@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Gaelic; Sco
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-gla-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "0024c69f3fb4aae9b7945ffbe5446edaae199a109ff81a0ad4716dd472f7a1794e19c5b63385d36435c2270fb119082d7009c4c5d0c9c9275b871f6042f5b77d"
+RPM_NAME = "tesseract-ocr-traineddata-gla-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "c210b981dc6cc8f9b87e1fc69d941d2678404a80877ee6c193321c5bbb7fb5defc314e9cb457ee19d551e0514d7e6b8376a5795f6eeaed748df837aa7cb05c9a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-gaelic \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-gd \
+tesseract-ocr-traineddata-gaelic \
 tesseract-ocr-traineddata-gla \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-gaelic"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

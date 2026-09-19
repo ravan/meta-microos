@@ -2,10 +2,10 @@ SUMMARY = "Qt5 multimedia examples"
 DESCRIPTION = "Examples for the libqt5-qtmultimedia module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.10+kde3"
+PV = "5.15.19+kde2"
 
-RPM_NAME = "libqt5-qtmultimedia-examples-5.15.10+kde3-1.1.aarch64.rpm"
-RPM_HASH = "94e5efaaba66c9df8bf335e0da584759cf3829252543d8e439a9ba66a4e7d19a35ccd62994b2579f73a76a06a888ac5d14907f883e48d01de2e5c3208a372fdf"
+RPM_NAME = "libqt5-qtmultimedia-examples-5.15.19+kde2-1.2.aarch64.rpm"
+RPM_HASH = "6c5240bb60a91b23fa12d4af28b0a2730c28725ef319536cb188eba1f26a362ba5ddfd7c702b6a9ca82452dfbdab910fec9f5f4b3cc1b9d51d18d7316bc22261"
 
 RPROVIDES:${PN} += "libqt5-qtmultimedia-examples"
 

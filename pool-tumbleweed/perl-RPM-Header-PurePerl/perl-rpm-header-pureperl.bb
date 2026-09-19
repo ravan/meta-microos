@@ -7,13 +7,13 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "1.0.2"
 
-RPM_NAME = "perl-RPM-Header-PurePerl-1.0.2-1.26.aarch64.rpm"
-RPM_HASH = "ba1a75de703c8f7190195f52e817a0f650569fb0aaf8e1da82d588146b53f48097bd1164aa0a9bbd59ad3f9e81e239363160565dced797ded5f71f68f9116412"
+RPM_NAME = "perl-RPM-Header-PurePerl-1.0.2-1.41.aarch64.rpm"
+RPM_HASH = "a388bce218c4638526655d445c7e73957f5d8f07f503b21051ae54eeb461288d75566e2c3578b8ad9387db6c098e37ab3d23dd9f8de75f4ffc8cc825f6811fd2"
 
 RPROVIDES:${PN} += "perl-RPM--Header--PurePerl \
 perl-RPM--Header--PurePerl--Tagtable \
 perl-RPM-Header-PurePerl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

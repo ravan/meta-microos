@@ -3,10 +3,11 @@ DESCRIPTION = "This package provides the GSettings schemas and a collection of i
 needed by libgcr."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.41.0"
+PV = "3.41.2"
 
-RPM_NAME = "gcr3-data-3.41.0-3.4.aarch64.rpm"
-RPM_HASH = "1d397dc222e7f7130acc8e6afc9e4b3b33d76d42b1f439d3f4c4b7f01e7f492d91990b0494c7884405697f1982c667a5fc52c6e5a1e7bf8d93951b27560342d6"
+RPM_NAME = "gcr3-data-3.41.2-5.4.noarch.rpm"
+RPM_HASH = "8a9926867ddadab27703fe09695fec47e23b3e517e000110387c94d3983b756a87ffe31cf1598cd949e6c8b45d56759bd80960fe4aa9639759fb8dc2dffd8db2"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcr-data \
 gcr3-data"

@@ -6,18 +6,16 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-master-3006.0-4.1.aarch64.rpm"
-RPM_HASH = "f8b677b06158ea5998f9b3b10bd7ad8232aa47e1a6980c8e54cf893e8abf1486633548dea4841d1e2fca2471a7b780aa9f51cb239d3ee91cdf298728ab320aca"
+RPM_NAME = "salt-master-3006.0-70.1.aarch64.rpm"
+RPM_HASH = "6a3cd38083932dd3bee9fb2218de64bbb20127286cc1bff8d89c507371018471cbfe380cf9cac13ca1d944290c412a070c22a67bd0a0267aa361f10b65277e10"
 
 RPROVIDES:${PN} += "config-salt-master \
 salt-master"
 
-RDEPENDS:${PN} += "/usr/bin/mkdir \
-/usr/bin/python3 \
-/usr/bin/sh \
-/usr/bin/touch \
-fillup \
+RDEPENDS:${PN} += "/usr/bin/sh \
+group-salt \
 salt \
-systemd"
+systemd \
+user-salt"
 
 inherit rpm

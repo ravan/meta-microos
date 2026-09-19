@@ -3,36 +3,38 @@ DESCRIPTION = "Assistant to import PIM data from other applications into Akonadi
 KDE PIM applications."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "akonadi-import-wizard-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "47000a7ff0cb1d94125e3bbc9b2049f8cd994274d71f95680e41509b25196efd710e535a3f45ff54e0fb8ef968d41477717c797b62af566fd0f038eed8e78f76"
+RPM_NAME = "akonadi-import-wizard-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "22b943621b5547c2551a80813a4926b9a1d1c2afcc35f4160451f733a1df12450575f1363fe3fba18f182b805f53d2c222f925bd036ca025fc164f2182b0f6f0"
 
 RPROVIDES:${PN} += "akonadi-import-wizard"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5Contacts.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libKPim5AkonadiCore.so.5 \
-libKPim5AkonadiWidgets.so.5 \
-libKPim5IdentityManagement.so.5 \
-libKPim5ImportWizard.so.5 \
-libKPim5MailCommon.so.5 \
-libKPim5MailImporter.so.5 \
-libKPim5MailImporterAkonadi.so.5 \
-libKPim5MailTransport.so.5 \
-libKPim5MessageViewer.so.5 \
-libKPim5PimCommon.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6Contacts.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKPim6AkonadiCore.so.6 \
+libKPim6AkonadiWidgets.so.6 \
+libKPim6IdentityManagementCore.so.6 \
+libKPim6ImportWizard.so.6 \
+libKPim6MailCommon.so.6 \
+libKPim6MailImporter.so.6 \
+libKPim6MailImporterAkonadi.so.6 \
+libKPim6MailTransport.so.6 \
+libKPim6MessageViewer.so.6 \
+libKPim6PimCommon.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

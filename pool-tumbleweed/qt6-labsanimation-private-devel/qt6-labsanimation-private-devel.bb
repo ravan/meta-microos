@@ -1,15 +1,22 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 LabsAnimation library"
-DESCRIPTION = "This package provides private headers of libQt6LabsAnimation that do not have any \
-ABI or API guarantees."
+DESCRIPTION = "Development files for the Qt 6 LabsAnimation library. \
+This library does not have any ABI or API guarantees."
 LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-labsanimation-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "c2147e62e9df6b4866af7643783cf40913bb43503e55e1cbe0c53f357fbe5544a16c209d438584ac4e92f85b868650a260dce4d63b56dfe1ccff52e92436eb44"
+RPM_NAME = "qt6-labsanimation-private-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "0ebd645c4a4ef59bd7fd79c4bfc10e34a4ca9f9907d14fb7eaaf9892370a3561d212fae07748cc282263ae97c330e735c064d19c237ba32cef2458290c4c6145"
 
-RPROVIDES:${PN} += "qt6-labsanimation-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6LabsAnimation \
+cmake-Qt6LabsAnimationPrivate \
+pkgconfig-Qt6LabsAnimation \
+qt6-labsanimation-devel \
+qt6-labsanimation-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6LabsAnimation"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+cmake-Qt6QmlPrivate \
+cmake-Qt6QuickPrivate \
+libQt6LabsAnimation6"
 
 inherit rpm

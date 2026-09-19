@@ -12,10 +12,10 @@ corresponding to: Cork encoding (cork-*.tfm); QX encoding \
 fonts aka TS1 (ts1-*.tfm)."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.209.2.005svn65956"
+PV = "2026.226.2.005svn77682"
 
-RPM_NAME = "texlive-lm-2023.209.2.005svn65956-55.1.noarch.rpm"
-RPM_HASH = "8561cc42a9cbba46441c62d76ad899bd71e64ee114b3fbee3deba1452a7ace0a1963ef8b1036c78f52935afcc9b0b2257010e92b06b91c7f83adc43d4b494bdb"
+RPM_NAME = "texlive-lm-2026.226.2.005svn77682-61.2.noarch.rpm"
+RPM_HASH = "98834bb114d16b10eb878d2f6fb28e387adf4cd406a9ee0fa4fde8f80ef38445850f287ee1be61d76aa08eaca9c15f93b93fd963e5b0be273cef58de10627f74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cs-lmb10.tfm \

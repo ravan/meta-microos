@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.20151229"
 
-RPM_NAME = "vcsh-zsh-completion-1.20151229-3.11.noarch.rpm"
-RPM_HASH = "ffac9465d5727c45e6fe4edecf0938a8d7ae7d39dca7e57072057028cda736ec7e0bd98a1317b881d21a5728268101ffb1770d5a1416501fae051ec977d3fa07"
+RPM_NAME = "vcsh-zsh-completion-1.20151229-4.7.noarch.rpm"
+RPM_HASH = "33f0b64c335f6cab59fc8c00cf87a2dfd750c23f8fe6e25a72f39e9ec19ca6751a47865a495d7057d4dce9acb8328938bd310b112e03440db6c3285875a7e135"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-vcsh-zsh-completion \

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.3.10"
 
-RPM_NAME = "libserf-devel-1.3.10-1.1.aarch64.rpm"
-RPM_HASH = "154b10f787937d85789c03a3536ed650e0240d65564017b5a0a7198def8b7afff2ff9e7ba6daecbaa346bb200ef86eec55779f79637f6b6d3605de51dc7804c8"
+RPM_NAME = "libserf-devel-1.3.10-2.9.aarch64.rpm"
+RPM_HASH = "31a0192695a7b2e4e1f069517110dd0fe998018f2a054b27cc0a2de6bd9ae653f25432616385e6aa2efea69e0d4d519662b9b39519effbf26460253d88decf53"
 
 RPROVIDES:${PN} += "libserf-devel \
 pkgconfig-serf-1"

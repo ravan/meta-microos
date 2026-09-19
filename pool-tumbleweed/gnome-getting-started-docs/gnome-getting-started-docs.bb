@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0"
 
 PV = "3.38.1"
 
-RPM_NAME = "gnome-getting-started-docs-3.38.1-1.7.noarch.rpm"
-RPM_HASH = "e656fff89eb6c322b50af47c84344a9bfa2edded7755e949b23eb2cfb147b3eca0deb0dea3a63a1b6c99c27e3a70d878f867a98c109ec6de2c02ea800bba3a3c"
+RPM_NAME = "gnome-getting-started-docs-3.38.1-1.16.noarch.rpm"
+RPM_HASH = "312e9818bdc1ac32675090a2b7b03c85639b5fc3f78f64457dab7c0de2d06fafc9175b78da0b787a7c3d87cf84949ac482184a45c13aea556db1912afa9cecc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-getting-started-docs"

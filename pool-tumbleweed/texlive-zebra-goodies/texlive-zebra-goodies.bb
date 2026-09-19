@@ -11,10 +11,10 @@ tikzpagenodes, xcolor, and, optionally, microtype. Note: \
 'zebra' is the name of the package author's lab."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8.0svn51554"
+PV = "2026.226.0.0.9.1svn78163"
 
-RPM_NAME = "texlive-zebra-goodies-2023.209.0.0.8.0svn51554-53.2.noarch.rpm"
-RPM_HASH = "abc4c44b3310cfd5ffc5cc943107090cfe91a740032b58a369d8e6be07a160f5f0ceebc671f1f18cac045429f0afb40ba5626ce877e3c7d74a6c5037c47cbf32"
+RPM_NAME = "texlive-zebra-goodies-2026.226.0.0.9.1svn78163-59.4.noarch.rpm"
+RPM_HASH = "5ec04a5dc06cfd59cfd5af76f05fd0f6bea32a8e80fb2f8b6674148b3c4601e7d5a6ec75d4b36ae0e55ce41d2a390258e00d74fa57cb8acd8b34fe93307653ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zebra-goodies.sty \
@@ -26,11 +26,9 @@ ed \
 findutils \
 grep \
 sed \
-tex-kvoptions.sty \
 tex-manfnt.sty \
 tex-marginnote.sty \
 tex-microtype.sty \
-tex-tikzpagenodes.sty \
 tex-xcolor.sty \
 texlive \
 texlive-filesystem \

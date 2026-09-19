@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jacow"
 DESCRIPTION = "This package includes the documentation for texlive-jacow"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.7svn63060"
+PV = "2026.226.2.7svn63060"
 
-RPM_NAME = "texlive-jacow-doc-2023.209.2.7svn63060-56.1.noarch.rpm"
-RPM_HASH = "3062fb241d9287a79af539af14e0320931378c0a4f7af71898a15b3619abbe60fbde808291020a38a63b65a7a72e8c141a796c3deaf1a7e994a2bb5de4b5d5cb"
+RPM_NAME = "texlive-jacow-doc-2026.226.2.7svn63060-63.2.noarch.rpm"
+RPM_HASH = "4501fa2d514e84607b889bc22ec362a9fa82f1f52c14274ee131785575eb7adf2e81e27d696d41d361209ddba4205b64f19d3a8a79a11fa125680aee58eb279d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jacow-doc"

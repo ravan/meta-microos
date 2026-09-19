@@ -10,10 +10,10 @@ mdb-sql -- demo SQL engine program \
 mdb-ver -- print version of database"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.0"
+PV = "1.0.1"
 
-RPM_NAME = "mdbtools-1.0.0-1.8.aarch64.rpm"
-RPM_HASH = "06d2c1f7b3048329569e9e08d7661ff5f88e758a97ac67edac4857511fdf4ff7feda223d38e779ee8816f8c03ff4c2ac9f75f7fcd0d23183e9d0da8deea00067"
+RPM_NAME = "mdbtools-1.0.1-1.6.aarch64.rpm"
+RPM_HASH = "93d691596662cea7ba239ab7e0e0e9e5ad7f211ee6ccd56671224c697b3a10c074cf4c816439433f6d1a6281869d35f6284f7301c82bda650ee1f84ec4c40155"
 
 RPROVIDES:${PN} += "mdbtools"
 

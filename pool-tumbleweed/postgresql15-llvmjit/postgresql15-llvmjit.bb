@@ -10,16 +10,16 @@ deforming into native code, with the goal of accelerating analytics \
 queries."
 LICENSE = "PostgreSQL"
 
-PV = "15.4"
+PV = "15.19"
 
-RPM_NAME = "postgresql15-llvmjit-15.4-1.1.aarch64.rpm"
-RPM_HASH = "12102026a5b97b5bf59978e6f7510e088d9a33c45137b92768fec8d5e80bcdb0ba75a49eae351502314894df3d6a6584df1aa6f4902d03d9e0a5d9de496570b6"
+RPM_NAME = "postgresql15-llvmjit-15.19-2.2.aarch64.rpm"
+RPM_HASH = "36ef29c01521bab41d6147dda1ef47cf7d41c7a983ec28f632f82882f3eb8d2c74d75f52ff52798a1671caf1f76d2511523dc9e78d4110c8e41dec2b84936c95"
 
 RPROVIDES:${PN} += "postgresql-llvmjit-implementation \
 postgresql15-llvmjit"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libLLVM.so.15 \
+libLLVM.so.22.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.6"
 
-RPM_NAME = "libteredo5-1.2.6-5.8.aarch64.rpm"
-RPM_HASH = "cfa662e8348884ffa18689ad8b47c5b52e5da56f66f9131a92fbc12e9e86a9c2b0316120d00673ffd8fcff11277bf5565fb9264582a1b2f0ac387aa1effd3f48"
+RPM_NAME = "libteredo5-1.2.6-5.19.aarch64.rpm"
+RPM_HASH = "85b88c6b907fe3368b2739fcb25310c79347fc2e4399e295ff13133387bc932163964700e1bdc4ee5b7bc121d5376e5caa7cd1e00f859c32f2cd698e04c7289a"
 
 RPROVIDES:${PN} += "libteredo.so.5 \
 libteredo5"

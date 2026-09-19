@@ -3,10 +3,10 @@ DESCRIPTION = "The libqxp-devel package contains libraries and header files for 
 developing applications that use libqxp."
 LICENSE = "MPL-2.0"
 
-PV = "0.0.2"
+PV = "0.0.3"
 
-RPM_NAME = "libqxp-devel-0.0.2-1.20.aarch64.rpm"
-RPM_HASH = "5f65a5441d99edf69737b5689877f9cf8cdaca72ddf15389998c00c1a72beb1806e1468e8353760f6a00d9a88c81c6e7908c833b24c1f438dbee998fc761a6a6"
+RPM_NAME = "libqxp-devel-0.0.3-2.3.aarch64.rpm"
+RPM_HASH = "e60523efcb0e923c7546ca924b5cda8c2af5eca160c9bf174ef64da0c0494280fccf0b9f1d49b5d8cdf016f677ace4af3f7c426088b6c222cad6ad865f7be004"
 
 RPROVIDES:${PN} += "libqxp-devel \
 pkgconfig-libqxp-0.0"

@@ -7,10 +7,10 @@ to give more consistently the naively expected results. The \
 package is loaded with \\usepackage{hep-math-font}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64901"
+PV = "2026.226.1.4svn76220"
 
-RPM_NAME = "texlive-hep-math-font-2023.209.1.1svn64901-54.2.noarch.rpm"
-RPM_HASH = "7bcf6cf0ed9fb02f947c1b091c1e418470adc0f5ea25c54aa0434003ae1b45d063f61cdc312ea7d461f5ba4e99752c2dfea3973e48e7c079fac1afa46aa6e9f5"
+RPM_NAME = "texlive-hep-math-font-2026.226.1.4svn76220-60.4.noarch.rpm"
+RPM_HASH = "0e31c1fce29b76ce818ae1250e69c85ce618e2c5beb13e3918c82ea5c3840bf9381b23d048f9919e5fb92c489293f44bb21f5b45da72943804f7c301de82d23d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-math-font.sty \
@@ -23,17 +23,15 @@ findutils \
 grep \
 sed \
 tex-MnSymbol.sty \
+tex-alphabeta.sty \
 tex-amssymb.sty \
 tex-amstext.sty \
 tex-bm.sty \
 tex-exscale.sty \
 tex-fixmath.sty \
-tex-ifluatex.sty \
-tex-ifxetex.sty \
+tex-iftex.sty \
 tex-kvoptions.sty \
 tex-pdftexcmds.sty \
-tex-substitutefont.sty \
-tex-textalpha.sty \
 tex-xstring.sty \
 texlive \
 texlive-filesystem \

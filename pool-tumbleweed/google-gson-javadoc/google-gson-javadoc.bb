@@ -2,10 +2,10 @@ SUMMARY = "API documentation for google-gson"
 DESCRIPTION = "This package contains the API documentation for google-gson."
 LICENSE = "Apache-2.0"
 
-PV = "2.8.9"
+PV = "2.14.0"
 
-RPM_NAME = "google-gson-javadoc-2.8.9-5.1.noarch.rpm"
-RPM_HASH = "7e9a6cf112fcab94049e4be2cd90dd0173d247865ea48d8115ff7073fe4201e8eb6edfc692e903e619de605459cfd5f8c5b8d3a8337241918723dcb3bc46031c"
+RPM_NAME = "google-gson-javadoc-2.14.0-1.1.noarch.rpm"
+RPM_HASH = "274fe8f949ba6bce7bca339597318c479cbba79ae1da87a6b82ed76e68cd52755cffd4c06f3261676d4c5baa7d52cd2a18dca669e035c170117f87c61b51790e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-gson-javadoc"

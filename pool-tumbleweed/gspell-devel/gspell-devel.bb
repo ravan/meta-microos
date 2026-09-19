@@ -6,18 +6,18 @@ This package provides the files necessary for developing software using \
 gspell."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.12.2"
+PV = "1.14.4"
 
-RPM_NAME = "gspell-devel-1.12.2-1.1.aarch64.rpm"
-RPM_HASH = "aeb51c81c44a7fd9d5e6dc7fd340186cd4878208896e107489705dceb6444c959a81a8b86e8c72f609c4cbbaec1458c8288a7382718a3dd66c3acf049127fac1"
+RPM_NAME = "gspell-devel-1.14.4-2.1.aarch64.rpm"
+RPM_HASH = "73decd91c6cc001e6eebfa922abc3509cc8511cee222f6c168a65a3c9b0d17656f73ac202e687d8ef06aafbac70eb5c1f872a4d39de8795253a88aa33bf93a89"
 
 RPROVIDES:${PN} += "gspell-devel \
 pkgconfig-gspell-1"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libgspell-1-2 \
+libgspell-1-3 \
 pkgconfig-enchant-2 \
-pkgconfig-glib-2.0 \
+pkgconfig-gio-2.0 \
 pkgconfig-gtk+-3.0 \
 pkgconfig-icu-uc \
 typelib-1-0-Gspell-1"

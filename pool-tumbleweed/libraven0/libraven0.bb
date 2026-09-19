@@ -2,10 +2,10 @@ SUMMARY = "Shared library for Raven"
 DESCRIPTION = "Budgie Desktop Notification Center."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.8+0"
+PV = "10.10.0+13"
 
-RPM_NAME = "libraven0-10.8+0-1.1.aarch64.rpm"
-RPM_HASH = "64e9a34b847bca498f5788f44fc4f4d8b0d0e99cab9185488501bfda22bf7b4ef34aace45caab46bab13647b97b00de374c4afd9e5908c32cb8ea0f66d49811e"
+RPM_NAME = "libraven0-10.10.0+13-1.2.aarch64.rpm"
+RPM_HASH = "fae284c561f889c7d0b668f712a61c30a086aaa7ccb24147d6f410e00b387c92e9da9763482663169f28e2e7f614fec575f2ca89d0d598d1b7b884dcfa1390bc"
 
 RPROVIDES:${PN} += "libraven.so.0 \
 libraven0"
@@ -18,11 +18,12 @@ libc.so.6 \
 libcairo.so.2 \
 libgdk-3.so.0 \
 libgio-2.0.so.0 \
-libgirepository-1.0.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
-libpeas-1.0.so.0 \
-libuuid.so.1"
+libgtk-layer-shell.so.0 \
+libpeas-2.so.0 \
+libuuid.so.1 \
+libxfce4windowing-0.so.0"
 
 inherit rpm

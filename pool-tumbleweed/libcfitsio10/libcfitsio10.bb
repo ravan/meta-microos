@@ -5,12 +5,12 @@ simple high-level routines for reading and writing FITS files that insulate the 
 programmer from the internal complexities of the FITS format. CFITSIO also \
 provides many advanced features for manipulating and filtering the information \
 in FITS files."
-LICENSE = "ISC"
+LICENSE = "NASA-1.3"
 
-PV = "4.3.0"
+PV = "4.7.0"
 
-RPM_NAME = "libcfitsio10-4.3.0-1.1.aarch64.rpm"
-RPM_HASH = "51dc9e8b3e39b4f1109005143821eec97625a899365fe178c2625f1c0dcffcbe6eb419205b8c79f65f0ee3ab73d3a0cfdae3750f9edf26ccce5cc85d12f18cdc"
+RPM_NAME = "libcfitsio10-4.7.0-1.1.aarch64.rpm"
+RPM_HASH = "7a75c92cd49dc4786c2e30d5a3b42ab1d46e7c0fe5860a8e5232135745a10d51d0612f3030b75dd2d859d6f95cd7e220690adffbab970de8fdd933ed0f1ae404"
 
 RPROVIDES:${PN} += "libcfitsio.so.10 \
 libcfitsio10"

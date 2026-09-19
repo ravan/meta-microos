@@ -2,10 +2,10 @@ SUMMARY = "Type 1 versions of wasy fonts"
 DESCRIPTION = "Converted (Adobe Type 1) outlines of the wasy fonts."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.001.002svn53534"
+PV = "2026.226.001.002svn53534"
 
-RPM_NAME = "texlive-wasy-type1-2023.209.001.002svn53534-54.1.noarch.rpm"
-RPM_HASH = "7e9374de85c8961b6ec893e93a0954ffc641922b7db4105d0ff66beebf21cb5cf85e3b03ac76a9b8c28791a0c0c011c4b6978539db5955a2dd2953f80e895dbd"
+RPM_NAME = "texlive-wasy-type1-2026.226.001.002svn53534-60.2.noarch.rpm"
+RPM_HASH = "1a0e3f87411ca934107da71b513f37d4e02dcf08eb65ec66073a6c32b76920a8f7d0ea686fca23c1f97adc5ab083a649d79bf4b2b6f29bafc636516e8c154f92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wasy.map \

@@ -2,10 +2,10 @@ SUMMARY = "Development files for the EchoLink"
 DESCRIPTION = "Development files for the EchoLink communications library"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.3.2"
+PV = "1.3.7"
 
-RPM_NAME = "libecholib-devel-1.3.2-5.10.aarch64.rpm"
-RPM_HASH = "58ee6ea238f89b91260e038af959a22d1cf16b3161ecd263234233a4a4f4015fb993cfe93d38b4d46f6708b962c98c0f8d6136af5fe38b95c9dfdf4ff72b19e6"
+RPM_NAME = "libecholib-devel-1.3.7-7.1.aarch64.rpm"
+RPM_HASH = "e64aa0668b8e3b093ac71b2a590306a12cf3c02b54e4c750e13532a1d169ee375869408bca9c04ac69939c9dcf35a7756d450afd92644813e9a2a8816482df15"
 
 RPROVIDES:${PN} += "libecholib-devel"
 

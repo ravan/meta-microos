@@ -17,12 +17,12 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.04"
 
-RPM_NAME = "perl-Class-WhiteHole-0.04-228.31.aarch64.rpm"
-RPM_HASH = "7b6425d3f94e867de056d074b550b61461f605ec4e41703175278fab68f97d734e1dd0f87bdecec556588747cb6805f99224a1985ce187a8af28bbb1645c3b57"
+RPM_NAME = "perl-Class-WhiteHole-0.04-228.46.aarch64.rpm"
+RPM_HASH = "68a4e6080ed236ba85a93845fb3867a36aafa0ef308a481866556c81a63c76864478eb716aa9ca03947f3aab63595bfeabaee50b085f76209b697671978bc2cc"
 
 RPROVIDES:${PN} += "perl-Class--WhiteHole \
 perl-Class-WhiteHole"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

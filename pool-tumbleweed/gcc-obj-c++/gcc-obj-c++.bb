@@ -2,14 +2,14 @@ SUMMARY = "The system GNU Objective C++ Compiler"
 DESCRIPTION = "The system GNU Objective C++ Compiler."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13"
+PV = "16"
 
-RPM_NAME = "gcc-obj-c++-13-1.5.aarch64.rpm"
-RPM_HASH = "5c23c444259d6d80b2f82b61fc3fa28b87b5b0d26e762d9723fb7f81160f9eacd8335f7406a1ab0520d7d612266fc7dcc3cebda16147d71ecfa50397a7e176e4"
+RPM_NAME = "gcc-obj-c++-16-1.1.aarch64.rpm"
+RPM_HASH = "f8e3ba33d2ccf0898ea37bf05573a78f76f4ebb7741781a90237a58529169a30921dc53e20c48da41bbacf908367418edd278929bbea93dc5e25a36e3e58cec5"
 
 RPROVIDES:${PN} += "gcc-obj-c++"
 
 RDEPENDS:${PN} += "gcc-objc \
-gcc13-obj-c++"
+gcc16-obj-c++"
 
 inherit rpm

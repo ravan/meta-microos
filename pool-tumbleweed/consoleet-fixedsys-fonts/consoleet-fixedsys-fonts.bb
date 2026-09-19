@@ -2,10 +2,10 @@ SUMMARY = "Smooth-edge version of Fixedsys Excelsior"
 DESCRIPTION = "Smooth-edge versions of the Fixedsys Excelsior font."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "3.02.9.1"
+PV = "3.09.10"
 
-RPM_NAME = "consoleet-fixedsys-fonts-3.02.9.1-1.1.noarch.rpm"
-RPM_HASH = "5db0a82d7252676e903752861084a6a3bbe6aead66640c9966faf80498e68bdb509905b6215a87ac49837902afa585a1b37618591b86a77808645851ab5c711c"
+RPM_NAME = "consoleet-fixedsys-fonts-3.09.10-1.2.noarch.rpm"
+RPM_HASH = "45b5e431af0c77ecd7fe07a71d9610064c80fb8c5eb29a76edc8047cb1d2942802625b8350d5edc8a5475952cc1a72d91321d9d5901690826cc8885b69d1681d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "consoleet-fixedsys-fonts"

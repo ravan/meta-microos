@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5"
 
-RPM_NAME = "ch341eepromtool-0.5-1.2.aarch64.rpm"
-RPM_HASH = "89075e854b8e8d4d18f3d744890b81d4727d0fd4f8ecc8f5754bc4a6b61a262469e13bb4e4fce01a92ec5954784ce05a332a16b84a00eaaa82af85069dcb101a"
+RPM_NAME = "ch341eepromtool-0.5-2.9.aarch64.rpm"
+RPM_HASH = "912f28f45befdd09c657a3b2747a7ec58c959d17485839d2f26a6862babb08c3419ba1c951cc9283b8b457d7d3f642caaefdc9046606dc86aced1bf07c5bf098"
 
 RPROVIDES:${PN} += "ch341eepromtool"
 

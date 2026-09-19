@@ -17,15 +17,15 @@ AirPrint work; please follow the instructions in: \
   /usr/share/doc/packages/cups-airprint/README.SUSE"
 LICENSE = "MIT"
 
-PV = "1.1"
+PV = "1.2"
 
-RPM_NAME = "cups-airprint-1.1-1.9.noarch.rpm"
-RPM_HASH = "40e837a8637a72ff3c0c0b9073cecadff5eeacc943a12ff8e38d663e9772472b110eb8b4ef0e848592f3a8ad6c2b8d371b6eccd3a7cf5e22adc510087b9c11b5"
+RPM_NAME = "cups-airprint-1.2-1.1.noarch.rpm"
+RPM_HASH = "a2118d54f0f3597d71799daea6af1588abfb7d448f3e8ee5d3c0ed5dbe1921a2e6ad137561759dee3d47de6167abf8b47251b33995f54639fe76fe322782ba2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cups-airprint"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 avahi \
 cups \
 cups-filters \

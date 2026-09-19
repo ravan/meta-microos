@@ -3,10 +3,10 @@ DESCRIPTION = "tikzcodeblocks is a LaTeX package for typesetting blockwise \
 graphic programming languages like scratch, nepo or pxt."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.13svn54758"
+PV = "2026.226.0.0.13svn54758"
 
-RPM_NAME = "texlive-tikzcodeblocks-2023.209.0.0.13svn54758-53.1.noarch.rpm"
-RPM_HASH = "656b44eccf802c523c95a1f6a5035de79d756101a07c2e724107c7fc5ee787cac03e532ba61f508cc332645bd1d4d8ac115023582d75e729a1de2a2f0f06726b"
+RPM_NAME = "texlive-tikzcodeblocks-2026.226.0.0.13svn54758-59.2.noarch.rpm"
+RPM_HASH = "185425a84835f2bad0ed8bf4e5f101e5b950aa6ce447c8ec03bc196593674c87951739be1710d7c67ec870ffc633414e4b9bea94bde175a7bd8d61f6b33e3c52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzcodeblocks.sty \

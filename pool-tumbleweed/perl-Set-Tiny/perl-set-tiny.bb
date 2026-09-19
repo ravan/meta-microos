@@ -5,17 +5,17 @@ checking whether one is contained within the other. \
  \
 For a more complete implementation of mathematical set theory, see \
 Set::Scalar. For sets of arbitrary objects, see Set::Object."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.04"
+PV = "0.60.0"
 
-RPM_NAME = "perl-Set-Tiny-0.04-1.13.noarch.rpm"
-RPM_HASH = "4a7a07eded94dde9c5c3158fcff176b2116762e3507d12b337fd37bcdb56a8536888d85f8c300b80cf11f9591ba28e7804c386660b0806ce6c0e01fa894c2daf"
+RPM_NAME = "perl-Set-Tiny-0.60.0-1.10.noarch.rpm"
+RPM_HASH = "70a1232a58c16584789ccd426076aa3f7f2c98ef33ce2ed8df4713238c2e280cc11b2e4364865c3f4d4572559101493d6117212cc3a43d98e972a12850193f61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Set--Tiny \
 perl-Set-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

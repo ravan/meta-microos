@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause | LGPL-2.1-or-later"
 
 PV = "2.4.13"
 
-RPM_NAME = "pam_krb5-2.4.13-2.8.aarch64.rpm"
-RPM_HASH = "96e6ef9221ccef3d9916045f2675c4348a6fb841eeb8ebfb75b230d8f01e2c8591c3781a62b59f0fdbc99ca1583b9dc671b400b2f2cefd70bd656b8c2d64967c"
+RPM_NAME = "pam_krb5-2.4.13-3.9.aarch64.rpm"
+RPM_HASH = "5e6dc1199cbc4632d2700ab9b06a9fdf6663b092f87a00607f842ae5a967980499d5fb9b25281cc9991f594cf62f71cb7af016e860ecb10d8b721d011bad5774"
 
 RPROVIDES:${PN} += "pam-krb \
 pam-krb5"

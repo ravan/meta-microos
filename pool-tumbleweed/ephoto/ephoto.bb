@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5"
 
-RPM_NAME = "ephoto-1.5-1.29.aarch64.rpm"
-RPM_HASH = "cd9ee673b41dd03baaf3090364ca796cfa17ab5ea0f33d92cea7ac0006b36b01e701993ab6ed0c07917e6a1e2766319c051c57a795630da8e5950f04edf6a5b2"
+RPM_NAME = "ephoto-1.5-1.40.aarch64.rpm"
+RPM_HASH = "1b41791bdecaf15f5e16c97827808584ff4ccfd97fbdfa9b6c20abab1331e907dd142494ed2cae8087dcc6b0359b984b5bf5b919c0290191607c26a2cce414fa"
 
 RPROVIDES:${PN} += "ephoto"
 

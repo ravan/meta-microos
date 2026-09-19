@@ -2,10 +2,10 @@ SUMMARY = "Tools to work with documents in MS Visio file-format"
 DESCRIPTION = "This package contains tools to work with documents in MS Visio file-format."
 LICENSE = "MPL-2.0"
 
-PV = "0.1.7"
+PV = "0.1.11"
 
-RPM_NAME = "libvisio-tools-0.1.7-1.27.aarch64.rpm"
-RPM_HASH = "a86bcf27fc40e5a862b60c6bda1140f815d4ad4b4db74731ea77ac52ca5b2e8293544bde5c80310018c23568f09ee571121d737a9f130b2931f38d0f746da935"
+RPM_NAME = "libvisio-tools-0.1.11-1.3.aarch64.rpm"
+RPM_HASH = "1c164b0e47fa8a58f3c21cbbf94d034381fd9a846dfb4168d0c9f210a165456784b799d5f2b1c5289b96268d69768811e40cb2ed2a33bca230597ce70d6e2586"
 
 RPROVIDES:${PN} += "libvisio-tools"
 

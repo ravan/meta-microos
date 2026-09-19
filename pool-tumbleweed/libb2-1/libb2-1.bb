@@ -7,13 +7,14 @@ LICENSE = "CC0-1.0"
 
 PV = "0.98.1"
 
-RPM_NAME = "libb2-1-0.98.1-1.13.aarch64.rpm"
-RPM_HASH = "6b7eaa7d2fda86049478e40feb0745ad32d3c94ffb4d6cb574a755eafb9cb0cb87baad5d767185ec88538290ba434f4c9e969e4b1b4add9174952879b8534810"
+RPM_NAME = "libb2-1-0.98.1-2.4.aarch64.rpm"
+RPM_HASH = "cc5e98e0b5f090f0411eaa7a5951df242056676f3967574a14e54f9b1f33e3d2ef7bb09d19165b943e27da5a29afb3b94ef5147119436ebcb95385c58453405e"
 
 RPROVIDES:${PN} += "libb2-1 \
 libb2.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgomp.so.1"
 

@@ -9,10 +9,10 @@ files to run a compliance test on Debian. \
 Note that the included profiles are community supplied and not officially supported by SUSE.."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.69"
+PV = "0.1.81"
 
-RPM_NAME = "scap-security-guide-debian-0.1.69-1.1.noarch.rpm"
-RPM_HASH = "048a03acafcd147da029eedd589726a1080cd80ef7dca7fc24ca96b532c2babdd3de7a97e2f4940ecfd1698a8a77b093c523e1012686ba5c10da8544517207c0"
+RPM_NAME = "scap-security-guide-debian-0.1.81-1.3.noarch.rpm"
+RPM_HASH = "05dbd50b5cdc0aa7f551264eaa4b94c35a15473f7b4c74c09c85707a567c816814a6df916051d184e93c9807a7aa6282e6ed8febc8d2ea0ca6faff6252144cea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scap-security-guide-debian"

@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains a library with optimized thread-caching 
 malloc()."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.10"
+PV = "2.18.1"
 
-RPM_NAME = "libtcmalloc_minimal4-2.10-1.6.aarch64.rpm"
-RPM_HASH = "5c9a9cc70733913b0f01bf76a2d173dd3d461e46a707c34e18d8aa36451d881c2825d62b1a0abffb63b81ca9994ce9ced9677d5533779a9f471ecb54d69e0c43"
+RPM_NAME = "libtcmalloc_minimal4-2.18.1-1.4.aarch64.rpm"
+RPM_HASH = "7343b3e6215b401dca809c8bbe21ed2c4900037ab6f2748c36b8a03234144157e09c439c9a4f2a5e51f27a02085884429bdb8d0855a0c6d4341b8ee2f57b71ce"
 
 RPROVIDES:${PN} += "libtcmalloc-minimal.so.4 \
 libtcmalloc-minimal4"

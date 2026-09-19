@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ycbook"
 DESCRIPTION = "This package includes the documentation for texlive-ycbook"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn46201"
+PV = "2026.226.svn46201"
 
-RPM_NAME = "texlive-ycbook-doc-2023.209.svn46201-53.2.noarch.rpm"
-RPM_HASH = "2015ccb8651c9f9db6cce489a05d70e00fde602d9c489d407dc055cf03dee54c3ab0624d6bd84aae3ed46fba5eb073f407935893a4d8bb84b33772fb6d646346"
+RPM_NAME = "texlive-ycbook-doc-2026.226.svn46201-59.4.noarch.rpm"
+RPM_HASH = "1190232b67e113a34faa65d1dc0c7b09f0df0b53602052441079d283d1b717dde96bf8809f9d764b5971781523967e12ba6b3c9812a41a8c4c2819269c07c1f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ycbook-doc"

@@ -4,10 +4,10 @@ statistical presentations. It represents a syntax-incompatible \
 upgrade of statex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn23961"
+PV = "2026.226.2.1svn23961"
 
-RPM_NAME = "texlive-statex2-2023.209.2.1svn23961-58.1.noarch.rpm"
-RPM_HASH = "f2b10de36ff5c7eaa8bcc0bd96d32a3381f8f1b92b101c508485f88e77e411010198ffde2c992f76d780eee29fdb02a61de80b4e0a14347f797a84c6548e31cb"
+RPM_NAME = "texlive-statex2-2026.226.2.1svn23961-64.2.noarch.rpm"
+RPM_HASH = "4a5a8e876857d304814b26a42dc304e23e510e430dc25fed1498e37ccf5c8dc5c4cd27d8aa4981e2970bdb40121c8a2e2855bafc63f47e46168d75e6f5bebd2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-statex2.sty \

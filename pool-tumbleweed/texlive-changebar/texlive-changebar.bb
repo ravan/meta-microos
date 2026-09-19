@@ -6,10 +6,10 @@ can work with dvitoln03, dvitops, dvips, the emTeX and TeXtures \
 DVI drivers, and VTeX and pdfTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.6dsvn63259"
+PV = "2026.226.3.7esvn77682"
 
-RPM_NAME = "texlive-changebar-2023.209.3.6dsvn63259-53.1.noarch.rpm"
-RPM_HASH = "5b8cd6815cd79522baa4b4e27eb973a8d1db566c6d8e0d10e03afd1ac857d0377266b5156e29f509ddb675cb85ea157e99d7a620b88a0981e86a5b7d106ad9b8"
+RPM_NAME = "texlive-changebar-2026.226.3.7esvn77682-59.2.noarch.rpm"
+RPM_HASH = "1c6de650b1c4dfd2a172cad0e4874f409961e7c6db50871ddb7a2e68b53d847a913bc89c8a1e05bd1bac5f8375404d1f33480ac83d502529ccfaf8f8ab4aab23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-changebar.sty \

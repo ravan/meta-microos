@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-abnt"
 DESCRIPTION = "This package includes the documentation for texlive-abnt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn55471"
+PV = "2026.226.svn55471"
 
-RPM_NAME = "texlive-abnt-doc-2023.209.svn55471-55.1.noarch.rpm"
-RPM_HASH = "c2d9291427d0552fa3fd6d39385b5d252d5883119d0baa5831a5c8303b3df8504ba5b7e70a52d988f667b0ee1e625c7aef557b3db348ae72e37db15d6c15ddd6"
+RPM_NAME = "texlive-abnt-doc-2026.226.svn55471-61.2.noarch.rpm"
+RPM_HASH = "6f927f4a959faa616a53440fad9a78af3f0ac31a5831d29cbc07ad7d7b64eef1059b9dd0fcbfcf11113d476e73185dd7fdd5235b50f794f49a019ea920136ba6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-abnt-doc"

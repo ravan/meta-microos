@@ -2,13 +2,12 @@ SUMMARY = "Core part of Maven"
 DESCRIPTION = "Core part of Apache Maven that can be used as a library."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "3.9.2"
+PV = "3.10.0~rc1"
 
-RPM_NAME = "maven-lib-3.9.2-2.1.aarch64.rpm"
-RPM_HASH = "9cddf778981037c8114242aa39e23c7b8a08c9126db44361433c03296bc2146d6fdbf677b8c565044864f9a2963147bf94051a38bd6f6c615f46630a59224ce1"
+RPM_NAME = "maven-lib-3.10.0~rc1-1.1.aarch64.rpm"
+RPM_HASH = "c04212240267d2b72812bf9a9374d3423f0a97450b3458b19d8b08796f4e2e790222dd7b143d47d9fe775a4c8ed5d5d324b2b64c1844aef88a992d487a6a9844"
 
-RPROVIDES:${PN} += "bundled-slf4j \
-config-maven-lib \
+RPROVIDES:${PN} += "config-maven-lib \
 maven-lib \
 mvn-org.apache.maven-maven-aether-provider \
 mvn-org.apache.maven-maven-aether-provider-pom- \
@@ -22,6 +21,8 @@ mvn-org.apache.maven-maven-core \
 mvn-org.apache.maven-maven-core-pom- \
 mvn-org.apache.maven-maven-embedder \
 mvn-org.apache.maven-maven-embedder-pom- \
+mvn-org.apache.maven-maven-jline \
+mvn-org.apache.maven-maven-jline-pom- \
 mvn-org.apache.maven-maven-model \
 mvn-org.apache.maven-maven-model-builder \
 mvn-org.apache.maven-maven-model-builder-pom- \
@@ -44,46 +45,50 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 aopalliance \
 apache-commons-cli \
 apache-commons-codec \
-apache-commons-lang3 \
 apache-commons-logging \
 atinject \
 glassfish-annotation-api \
+google-errorprone-annotations \
+google-gson \
 google-guice \
 guava \
 httpcomponents-client \
 httpcomponents-core \
-jansi \
+j2objc-annotations \
+jakarta-inject \
 java-headless \
 javapackages-filesystem \
-javapackages-tools \
 jcl-over-slf4j \
-junit \
+jline3-jansi-core \
+jline3-native \
+jline3-terminal \
+jline3-terminal-jni \
+jspecify \
 maven-resolver-api \
 maven-resolver-connector-basic \
 maven-resolver-impl \
 maven-resolver-named-locks \
 maven-resolver-spi \
+maven-resolver-supplier-mvn3 \
+maven-resolver-transport-apache \
 maven-resolver-transport-file \
-maven-resolver-transport-http \
 maven-resolver-transport-wagon \
 maven-resolver-util \
-maven-shared-utils \
 maven-wagon-file \
 maven-wagon-http \
 maven-wagon-http-shared \
 maven-wagon-provider-api \
 mvn-com.google.guava-failureaccess \
 mvn-com.google.guava-guava \
-mvn-com.google.inject-guice \
+mvn-com.google.inject-guice--classes- \
 mvn-commons-cli-commons-cli \
 mvn-javax.annotation-javax.annotation-api \
 mvn-javax.inject-javax.inject \
-mvn-org.apache.commons-commons-lang3 \
 mvn-org.apache.maven.resolver-maven-resolver-api \
 mvn-org.apache.maven.resolver-maven-resolver-impl \
 mvn-org.apache.maven.resolver-maven-resolver-spi \
+mvn-org.apache.maven.resolver-maven-resolver-supplier-mvn3 \
 mvn-org.apache.maven.resolver-maven-resolver-util \
-mvn-org.apache.maven.shared-maven-shared-utils \
 mvn-org.apache.maven.wagon-wagon-provider-api \
 mvn-org.codehaus.plexus-plexus-cipher \
 mvn-org.codehaus.plexus-plexus-classworlds \
@@ -91,16 +96,22 @@ mvn-org.codehaus.plexus-plexus-component-annotations \
 mvn-org.codehaus.plexus-plexus-interpolation \
 mvn-org.codehaus.plexus-plexus-sec-dispatcher \
 mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.codehaus.plexus-plexus-xml \
 mvn-org.eclipse.sisu-org.eclipse.sisu.inject \
 mvn-org.eclipse.sisu-org.eclipse.sisu.plexus \
+mvn-org.jline-jansi-core \
+mvn-org.jline-jline-terminal \
+mvn-org.jline-jline-terminal-jni \
+mvn-org.ow2.asm-asm \
 mvn-org.slf4j-slf4j-api \
 objectweb-asm \
 plexus-cipher \
-plexus-classworlds \
 plexus-containers-component-annotations \
 plexus-interpolation \
 plexus-sec-dispatcher \
 plexus-utils \
+plexus-xml \
+python3 \
 sisu-inject \
 sisu-plexus \
 slf4j"

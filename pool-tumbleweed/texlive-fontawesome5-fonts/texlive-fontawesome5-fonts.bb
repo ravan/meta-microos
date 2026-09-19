@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-fontawesome5"
 DESCRIPTION = "The  separated fonts package for texlive-fontawesome5"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.5.15.4svn63207"
+PV = "2026.226.5.15.4svn77682"
 
-RPM_NAME = "texlive-fontawesome5-fonts-2023.209.5.15.4svn63207-53.1.noarch.rpm"
-RPM_HASH = "c8a2ffb275cde7a0b8869640362a9470ceeda97a17208267b77a1bf26a46ea774982022451f1ae9650cb49ce2db39b408bd09eb5bd54102fabbbe6dd2a0b0492"
+RPM_NAME = "texlive-fontawesome5-fonts-2026.226.5.15.4svn77682-60.2.noarch.rpm"
+RPM_HASH = "0956b3194afadfae9ea9db5e1d53ebf97e7d03ceedeb601b110f39ba32aaf1dce49050d642300775490dd713dce4817c0c084696b5e9c8f9e6a28c6f48153901"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-fontawesome5-fonts \
+font--lang=bem \
 font--lang=fj \
 font--lang=ho \
 font--lang=ia \

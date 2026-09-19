@@ -5,10 +5,10 @@ API. It is, for example, used by ntpd to interact with timing \
 devices."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.0.0+git.20211122"
+PV = "1.0.3+git20240314"
 
-RPM_NAME = "pps-tools-devel-0.0.0+git.20211122-1.3.aarch64.rpm"
-RPM_HASH = "62b05b4724f411297059758b090fea63fa7bc7335b979af377af921551a3b46cab7effb0f905f642c8841dcedd9af3bad5d83d60f6685ac735f41d2cbfc89f16"
+RPM_NAME = "pps-tools-devel-1.0.3+git20240314-1.8.aarch64.rpm"
+RPM_HASH = "bd0c5f43d7fca1b32d364935049007d72b40fd76460726a1b012d08011b423db48fc12f5ac4309a317848a536efa557a943328ee52c295f6af7340ddfd7b0eb5"
 
 RPROVIDES:${PN} += "pps-tools-devel"
 

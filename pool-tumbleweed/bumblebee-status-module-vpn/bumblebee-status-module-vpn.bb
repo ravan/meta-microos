@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-vpn-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "1a99589a0feef807ab89f822fdba9364bd12cecf563eb9ed685ec012d2e842e8bd43528038bed6f90da0e000e39b449f63ee3bc590b495c5485d16491523729f"
+RPM_NAME = "bumblebee-status-module-vpn-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "aab9bcf624d5b58211bf31433d00cf169c3561dfb0c1a5d9f9809290a16c9091faa86d42db4d5a6a7b9391ab59b4f0c16d1dfdcf289a19afb2ff56344bdd6680"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-vpn"

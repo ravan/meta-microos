@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later"
 
 PV = "1.1"
 
-RPM_NAME = "jchardet-1.1-2.7.noarch.rpm"
-RPM_HASH = "b0db4e239eb3f0548cec9ec897e95abdd26d7c5d9347987e6fdbd1ddbdaf462e7bc7c39cb0e69983daa9c0e80d8fb7c5c400055f90402bc047c8331bcad17c40"
+RPM_NAME = "jchardet-1.1-3.8.noarch.rpm"
+RPM_HASH = "49658d218d78556ffcef671da6f80547c6958f6cc16d3fa6df73f5831fcb2b8168304ecefd6fbe2dc495d26dc2e9c3099f51ddb68d5d2c9bffc419440d04e6cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jchardet \

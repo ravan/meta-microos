@@ -11,23 +11,25 @@ several GB of space, slowly growing. \
 This package provides bitcoind, headless bitcoin daemon."
 LICENSE = "MIT"
 
-PV = "25.0"
+PV = "31.1"
 
-RPM_NAME = "bitcoind-25.0-1.1.aarch64.rpm"
-RPM_HASH = "d55c8adcb14efa0870d61f477cb79404683e2c144d729bf1d5ba651fa089fb4e007762dbd42ede07eba39e727d3d7e14d094e59c6f4b031fcbf3d165c0cb41be"
+RPM_NAME = "bitcoind-31.1-1.1.aarch64.rpm"
+RPM_HASH = "73bbed88f21e828c35ea264c18dd49fc7c01197e475a1734a057890eb566cf40cefe8af86e3124b93bafe1cddeb1413f2dda273e6184a2b3b8da8bb420da70ab"
 
 RPROVIDES:${PN} += "bitcoind \
-config-bitcoind"
+config-bitcoind \
+group-bitcoin \
+user-bitcoin"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libdb-cxx-4.8.so \
-libevent-2.1.so.7 \
+libevent-core-2.1.so.7 \
+libevent-extra-2.1.so.7 \
 libevent-pthreads-2.1.so.7 \
 libgcc-s.so.1 \
 libm.so.6 \
-libminiupnpc.so.17 \
+libsqlite3.so.0 \
 libstdc++.so.6 \
 libzmq.so.5"
 

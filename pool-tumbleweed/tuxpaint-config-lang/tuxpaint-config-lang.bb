@@ -2,10 +2,10 @@ SUMMARY = "Translations for package tuxpaint-config"
 DESCRIPTION = "Provides translations for the 'tuxpaint-config' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.0.18"
+PV = "0.0.26"
 
-RPM_NAME = "tuxpaint-config-lang-0.0.18-1.8.noarch.rpm"
-RPM_HASH = "696592b92f6575781df084363a8697a5c3c43e8932a245cbf0136eee8c99bc9e569b6255f3ca96566168fe1b9776179cd2253ededcb936d359bbc24ac249c532"
+RPM_NAME = "tuxpaint-config-lang-0.0.26-1.3.noarch.rpm"
+RPM_HASH = "7ffd4b3bb9111ea913d85dea7cbabeec62aad105fb5e540f23decfc6a4295fc9b85eec27e464a377d76027dc6afafef2804decd2a1bd42f7b46ee4780d65f844"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tuxpaint-config-ar \
@@ -48,6 +48,7 @@ locale-tuxpaint-config-sv \
 locale-tuxpaint-config-tr \
 locale-tuxpaint-config-uk \
 locale-tuxpaint-config-vi \
+locale-tuxpaint-config-zh-CN \
 locale-tuxpaint-config-zh-TW \
 tuxpaint-config-lang \
 tuxpaint-config-lang-all"

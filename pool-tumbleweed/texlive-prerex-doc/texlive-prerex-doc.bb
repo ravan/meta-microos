@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-prerex"
 DESCRIPTION = "This package includes the documentation for texlive-prerex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn54512"
+PV = "2026.226.svn54512"
 
-RPM_NAME = "texlive-prerex-doc-2023.209.svn54512-53.1.noarch.rpm"
-RPM_HASH = "c2adb7b09c029ba9916b813512ad995aa957076f12a985630ee4a68481287596cfd1b578d1ac6151acfb2efd7011f4b2d075cebba2854d7addbb1cab4e2b795a"
+RPM_NAME = "texlive-prerex-doc-2026.226.svn54512-59.2.noarch.rpm"
+RPM_HASH = "db3016055188d29a23041de5f7a7c3d56dd18dd92a067a60543199c9e5baaf366df39039b8b2d12a9375f11c1aeedf69d68a640bc6c3fd87d28f3f88910bd8f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-prerex.5 \

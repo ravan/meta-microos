@@ -6,10 +6,10 @@ dvips, some new options, and gets and writes meta information \
 data about the attached files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.11svn57959"
+PV = "2026.226.2.12svn77682"
 
-RPM_NAME = "texlive-attachfile2-2023.209.2.11svn57959-54.1.noarch.rpm"
-RPM_HASH = "84e1f6133f64e3fac684b91fb3a19f241f0c8d88c9643a7a3dd929e5183354e891fde71973dfd2064a79797fb318f0af695e7d4644a2baecfbb4642ac795d0a1"
+RPM_NAME = "texlive-attachfile2-2026.226.2.12svn77682-60.2.noarch.rpm"
+RPM_HASH = "3262903581bcc68de5f67934f26b126a0373defb48ec6cdabf2ef73d457618aa85792f02ffbf77a3c4206ee57026735ab983526ba5cacf5c7512e65842b59c8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-atfi-dvipdfmx.def \

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "libguess-devel-1.2-1.27.aarch64.rpm"
-RPM_HASH = "ae7718662c610adfea20e228e44da233e1ce760e05783854db7e3e7d144743b7dacc1144937d75ad0edb5347226139fad2f86a09a167851b4f69641c942fa16b"
+RPM_NAME = "libguess-devel-1.2-1.37.aarch64.rpm"
+RPM_HASH = "d910256789ded13e8b20721948a8f51044eb0ebd85ff581c3556986030c97571e63c4e9a03c8fc94756d3a409768d8292eb5df029bca5a8fbc38a3800b95a3e3"
 
 RPROVIDES:${PN} += "libguess-devel \
 pkgconfig-libguess"

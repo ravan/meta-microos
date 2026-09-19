@@ -2,10 +2,10 @@ SUMMARY = "PCIe Monitoring Plugin for collectd"
 DESCRIPTION = "Optional collectd plugin to monitor PCIe errors."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-pcie-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "bfb7c629793edd914ee70f34766397db27843334dcf6e62b96ec2d9f14cf6f5618a82e2383a74ed4d38cf1aebcbc0d30108cad02e189d3f9ea8b5cbcf3071ec5"
+RPM_NAME = "collectd-plugin-pcie-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "3554e69ae6a892d823deae01a1a234ffafab510178262179da227cf08eb6487bd35ff1a2ec02b752f194b7b37be447a767662227dbc0ede64b4e6c957fb95038"
 
 RPROVIDES:${PN} += "collectd-plugin-pcie"
 

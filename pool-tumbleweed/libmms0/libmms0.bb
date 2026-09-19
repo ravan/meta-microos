@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.6.4"
 
-RPM_NAME = "libmms0-0.6.4-5.27.aarch64.rpm"
-RPM_HASH = "7874392c40972c98d8bced3ede611d069b7a6438331323a4dc7fbd21d9956a5b2c0237d248086fe111fb72322ffabcbb52067edad783f8cc730eddb4bc5885ec"
+RPM_NAME = "libmms0-0.6.4-6.9.aarch64.rpm"
+RPM_HASH = "df634082ba9f930ed9f3f37b3145c0bed461fa618a9816d35109ab36c5bbccae7c5353f131929ddd195065de48c9bfa4e18ece08f5e2c0b0fd54c3aa8ac54450"
 
 RPROVIDES:${PN} += "libmms.so.0 \
 libmms0"

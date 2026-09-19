@@ -2,26 +2,26 @@ SUMMARY = "Haskell xmonad profiling library"
 DESCRIPTION = "This package provides the Haskell xmonad profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.17.2"
+PV = "0.18.1"
 
-RPM_NAME = "ghc-xmonad-prof-0.17.2-1.8.aarch64.rpm"
-RPM_HASH = "f95fd5a5f82c295c143bdd8a4ff781e0e870d71e6c172ede96e2e55c9bcdbc9814f362ef4b8ed0f79e0f2f1284249ca807b5c5bef88056a77d8e0c428420694b"
+RPM_NAME = "ghc-xmonad-prof-0.18.1-1.3.aarch64.rpm"
+RPM_HASH = "fb898cc4170e498865061832a33e43635082fb6f91d0fc9655f8586ba062fdcabd7ab1840e55bfb2881023cc953187df10ffce6956c790476d3917be273b6cf7"
 
-RPROVIDES:${PN} += "ghc-prof-xmonad-0.17.2-5u18H8h5WrJ4e8esV9nzjE \
+RPROVIDES:${PN} += "ghc-prof-xmonad-0.18.1-92DX9BCe4RIB8NiPfjJWdp \
 ghc-xmonad-prof"
 
-RDEPENDS:${PN} += "ghc-prof-X11-1.10.3-1a2wZgfFAzXBkfyYtNRHp4 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-process-1.6.17.0 \
-ghc-prof-setlocale-1.0.0.10-EX0ACS22UctCUxDRUitp1V \
-ghc-prof-time-1.12.2 \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unix-2.7.3 \
+RDEPENDS:${PN} += "ghc-prof-X11-1.10.3-1WMJghU3kQXBmOfIIGE3Rk \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-data-default-class-0.2.0.0-3moOzwNUrN6FLgYZMunU62 \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-process-1.6.26.1-905d \
+ghc-prof-setlocale-1.0.0.10-1AxYf6FKOpjAmPtKjx6N4K \
+ghc-prof-time-1.14-a7dc \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-unix-2.8.8.0-178a \
 ghc-xmonad-devel"
 
 inherit rpm

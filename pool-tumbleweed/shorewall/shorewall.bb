@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.2.8"
 
-RPM_NAME = "shorewall-5.2.8-5.2.noarch.rpm"
-RPM_HASH = "5f6dbcd416c343e3d00a441e803999aab60bb74a0e0e51c3cd5d833979e90848890636c119c4bc3113c6651be28a89da83b245e0a5931746ed239fc83da019f7"
+RPM_NAME = "shorewall-5.2.8-6.13.noarch.rpm"
+RPM_HASH = "09dc4f41027973ac3f759af5205b3273a4004e4c61f648801060598d798bc2649acebb4aa1b07d0e67d2e3d04fbbcedd8b5d8bdd4e6c798abcd8202118681a2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-shorewall \
@@ -40,7 +40,7 @@ fillup \
 iproute2 \
 iptables \
 logrotate \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-base \
 shorewall-core"
 

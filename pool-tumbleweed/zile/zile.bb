@@ -4,10 +4,10 @@ real-time, open-source display editor.  Zile was written to be as similar \
 as possible to Emacs; every Emacs user should feel at home with Zile."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.6.2"
+PV = "2.6.4"
 
-RPM_NAME = "zile-2.6.2-1.10.aarch64.rpm"
-RPM_HASH = "847f2c3b93b3d0c0ffee37abee9280e37a431def041e45159a298b668df75ed3a3202586958938c380332612e80cb575c39b18d7353d7162f148b79adc5f9e1e"
+RPM_NAME = "zile-2.6.4-1.6.aarch64.rpm"
+RPM_HASH = "bffeb286da3db72da4eca61a423f121f771ace6ea57df1442d41531510900e0420092338791036c3ddedc9b96902753c2a312d6912758df824229b31f39744a2"
 
 RPROVIDES:${PN} += "zile \
 zile-base \

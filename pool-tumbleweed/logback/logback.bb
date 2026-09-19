@@ -14,14 +14,16 @@ Tomcat and Jetty, to provide HTTP-access log functionality. Note that you \
 could easily build your own module on top of logback-core."
 LICENSE = "EPL-1.0 | LGPL-2.1-or-later"
 
-PV = "1.2.11"
+PV = "1.6.0"
 
-RPM_NAME = "logback-1.2.11-2.1.noarch.rpm"
-RPM_HASH = "280d4b3909d871c0b8ffe979bbfcdf55c7647cafa967e47236e7645baf6947afa52cb3108f2cc1a5ddae8692e6919918371b51d01e22b62a580bff7bb7d184e0"
+RPM_NAME = "logback-1.6.0-1.1.noarch.rpm"
+RPM_HASH = "03134a3ac37618329d6c05d15e0f45eb24f2625c0e833ee080aec4967a4d46815f626c53c4767252606f79aba7724577f5ba59b60e8a189fd804ac53b7e62871"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "logback \
 mvn-ch.qos.logback-logback-classic \
+mvn-ch.qos.logback-logback-classic-misc \
+mvn-ch.qos.logback-logback-classic-misc-pom- \
 mvn-ch.qos.logback-logback-classic-pom- \
 mvn-ch.qos.logback-logback-core \
 mvn-ch.qos.logback-logback-core-pom- \

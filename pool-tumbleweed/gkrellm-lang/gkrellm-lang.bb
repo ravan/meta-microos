@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gkrellm"
 DESCRIPTION = "Provides translations for the 'gkrellm' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.3.11"
+PV = "2.5.1"
 
-RPM_NAME = "gkrellm-lang-2.3.11-2.11.noarch.rpm"
-RPM_HASH = "6d142e5fa5515a93511779983b550045632dfafccb385f9a4231db4ab3ea9ac7172970f10512db164792f85304ff4d91356ce73b8a97f6c4ee99fc63a17b21e1"
+RPM_NAME = "gkrellm-lang-2.5.1-1.3.noarch.rpm"
+RPM_HASH = "5bec20ffc8675bd8f4f74b5fb165c76eb11591f69ee3e5d830641aa3135472ae36a653ec3990bce73daea11b234752c04badcfc403ce7f0e8edab82b1f3c3bd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gkrellm-lang \

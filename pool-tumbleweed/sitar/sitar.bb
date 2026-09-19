@@ -13,20 +13,13 @@ The accompanying tool 'cfg2scm' is supplied for checking configuration \
 changes into SCMs (like SVN, CVS, ...) or creating a tar-file with all \
 relevant files. \
  \
-Comment: Sitar is an ancient Indian instrument as well. \
- \
- \
- \
-Authors: \
--------- \
-    Matthias Eckermann  <mge@suse.de> \
-    and contributors"
-LICENSE = "GPL-2.0+"
+Comment: Sitar is an ancient Indian instrument as well."
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.6"
 
-RPM_NAME = "sitar-1.0.6-154.15.noarch.rpm"
-RPM_HASH = "f273a1b6db3e1845f3b48c403939f761a3c6bca0cd1641787a0f9fdc9cf8492a116348f77dfac313f82107e12b82daf8a35297b9f202b3bd4d861b83b9e3f350"
+RPM_NAME = "sitar-1.0.6-156.8.noarch.rpm"
+RPM_HASH = "ef7184df00f34984d8edacd73adabfdcca8280443ff9629f54cd29dfea7e66dbbee83fce41d9a0b16e0ea6038a6d4eb935310163b0988151cbeacb1cf55c4f60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sitar"

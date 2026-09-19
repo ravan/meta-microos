@@ -6,8 +6,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-digestmd5-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "5fc8402f9b3bee8fa5fefd29ea3153e01a04bdd9a022fa2ddba85f7f39434997cf13bfd340de6c7554999c956e82bc76984d23fb542d0a8fe3fdc0321455f0c1"
+RPM_NAME = "cyrus-sasl-digestmd5-2.1.28-12.5.aarch64.rpm"
+RPM_HASH = "392b13cddb1851778d26a2144307b25327cf72805e6179702422be2b1aafb960073316b8335ea1e8c2242efaf3ab12fef9b7c1c69fd5d9b32be17c4d1b5487a7"
 
 RPROVIDES:${PN} += "cyrus-sasl-digestmd5 \
 libdigestmd5.so.3"

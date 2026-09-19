@@ -7,12 +7,12 @@ retrieving the data more difficult.  It operates in one of three modes: \
    (and optionally its name in the directory entry) is destroyed. \
 3) a regular file is created, expanded until \
    the file system is full, then scrubbed as in 2)."
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
 PV = "2.6.1"
 
-RPM_NAME = "scrub-2.6.1-1.27.aarch64.rpm"
-RPM_HASH = "ae9dcf1edda4a878184a5441dd7ca1e8d8a095d7eab8dd660276b8f99ed7553ded774dc8d8b5d0d6b121969566a91fbab6457d253aeb9bb844ae263997a6c02d"
+RPM_NAME = "scrub-2.6.1-2.8.aarch64.rpm"
+RPM_HASH = "75d8465bb88670a49f748293636414b1e3bb2ce0d2a558eaec7dd9218172b62436c375205e05fadebe0f9306c97e35afa802929d996dc607124274ac4b40eb74"
 
 RPROVIDES:${PN} += "scrub"
 

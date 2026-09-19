@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides development files for developing applicatio
 the libxfce4ui library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.18.4"
+PV = "4.20.2"
 
-RPM_NAME = "libxfce4ui-devel-4.18.4-1.1.aarch64.rpm"
-RPM_HASH = "e1c862e7c6b543a849ce2f41efd1b51c98afbd177919ac6751d6c29acbdb9686f8c61c12e81df377f382f71f2bf84062a53ef94d925f45fcc481b7c776ee990f"
+RPM_NAME = "libxfce4ui-devel-4.20.2-1.5.aarch64.rpm"
+RPM_HASH = "733de6c17d2f69bd25590ca642b959239171ba86187f7402e00796ee6336e7334ba0bf8e2bfc32a9bdd3f74f1e5169d806253061352359a3ff2637a0b7e4067b"
 
 RPROVIDES:${PN} += "libxfce4ui-devel \
 libxfce4uiglade2.so \

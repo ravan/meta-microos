@@ -12,10 +12,10 @@ future deprecations. \
 This package contains documentation in HTML format."
 LICENSE = "Apache-2.0"
 
-PV = "2.5.0"
+PV = "3.1.0"
 
-RPM_NAME = "python-debtcollector-doc-2.5.0-1.5.noarch.rpm"
-RPM_HASH = "5ce69d3ec9f7440d1f34d3e7857b4f01acff10e070759333e932a7970496712d1f16b4e099e8d8363a5c8d3098433175b9a48dc08e3b51bd390556fefac028c3"
+RPM_NAME = "python-debtcollector-doc-3.1.0-2.2.noarch.rpm"
+RPM_HASH = "3c23c0b2cff6bbf83089f33e1a2e30326f2e31d854a6f71bf7a9bb998d73cdf4988d633948074f64a23af50cb498afb6e2fb4126fd9645d52d1a07c671adc7e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-debtcollector-doc"

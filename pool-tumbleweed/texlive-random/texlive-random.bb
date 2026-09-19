@@ -5,10 +5,10 @@ random dimensions which can be used to provide random `real' \
 numbers, are also available."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.0.0.2svn54723"
+PV = "2026.226.0.0.2svn54723"
 
-RPM_NAME = "texlive-random-2023.209.0.0.2svn54723-54.2.noarch.rpm"
-RPM_HASH = "233c19260b497185b6dd10b8b7e1db4b1555c5574a4f4e678e0516e6ae3236b952c204649819c652fa35a6a5e6046ab5bd464d5ca154c7a154c2d646fbe462b7"
+RPM_NAME = "texlive-random-2026.226.0.0.2svn54723-60.4.noarch.rpm"
+RPM_HASH = "4da7d32301903f92aba1d106212724f493fbc22a7b9cfd1dfdc026db727456cb5ee46e98905697a5d1fc19f4ac5c0f8ec07b666b564adbc2f373a50b48df64b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-random.tex \

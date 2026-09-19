@@ -5,10 +5,10 @@ for generating a common metadata repository from a directory of \
 rpm packages and maintaining it."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.20.1"
+PV = "1.2.3"
 
-RPM_NAME = "createrepo_c-0.20.1-3.2.aarch64.rpm"
-RPM_HASH = "6cc0bfb52632491a1716eb491653d07798f6d2ca63ae64dbc970b1b2f775810705f5a2a173d0c3694218cae3c472ba7713ac47864216f9f32eeb0f04c313fdb1"
+RPM_NAME = "createrepo_c-1.2.3-1.4.aarch64.rpm"
+RPM_HASH = "95f3d6e469eb728edd35e37c9b39a2a6531466aa160309487f5b33ff104622956ef90920f68d0b02785d22dc2365994d005e2e386193d461334602dacaeb6463"
 
 RPROVIDES:${PN} += "createrepo \
 createrepo-c \
@@ -17,8 +17,8 @@ createrepo-implementation"
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcreaterepo-c.so.0 \
-libcreaterepo-c0 \
+libcreaterepo-c.so.1 \
+libcreaterepo-c1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libmodulemd.so.2 \

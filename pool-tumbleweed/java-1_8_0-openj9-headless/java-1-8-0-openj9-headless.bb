@@ -2,12 +2,12 @@ SUMMARY = "OpenJDK 8 Runtime Environment with Eclipse OpenJ9"
 DESCRIPTION = "The OpenJDK 8 runtime environment without audio and video support. \
  \
 Supported architectures are ppc64le, s390x and x86_64"
-LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
+LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & LicenseRef-SUSE-Public-Domain & W3C"
 
-PV = "1.8.0.382"
+PV = "1.8.0.504"
 
-RPM_NAME = "java-1_8_0-openj9-headless-1.8.0.382-1.1.aarch64.rpm"
-RPM_HASH = "d7a2632383b0a88387e667b9558c8699c0a2312331f4e40b85af1944dfb1420f31c3d68d57a46613ed8efba893ade791c430eae93e72e8849e6d8abf554d128c"
+RPM_NAME = "java-1_8_0-openj9-headless-1.8.0.504-1.1.aarch64.rpm"
+RPM_HASH = "3d9777587a77816261b27f89263c3e245f5b1659054e798bdc8bfd826dc8a2fa33b05264f814045ca1300e88e17e1fdec552e0fac823905b8878759329351980"
 
 RPROVIDES:${PN} += "config-java-1-8-0-openj9-headless \
 jaas \
@@ -87,6 +87,7 @@ libverify.so \
 libzip.so"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+alts \
 jpackage-utils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
@@ -96,7 +97,6 @@ libjpeg.so.8 \
 liblcms2.so.2 \
 libm.so.6 \
 libstdc++.so.6 \
-libz.so.1 \
-update-alternatives"
+libz.so.1"
 
 inherit rpm

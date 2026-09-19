@@ -2,16 +2,16 @@ SUMMARY = "Development headers for the cmocka library"
 DESCRIPTION = "Development headers for the cmocka unit testing library."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.7"
+PV = "2.0.2"
 
-RPM_NAME = "libcmocka-devel-1.1.7-3.1.aarch64.rpm"
-RPM_HASH = "4d79b8e4e542c9d67a02cf5137d3a058bd00d7ec467bc79fb2bc69352636d750b17445955e325e441284d70f070413b596f02224ddd9e3862d2d4bb1dd333668"
+RPM_NAME = "libcmocka-devel-2.0.2-1.4.aarch64.rpm"
+RPM_HASH = "3153b05a67d910e37e6ffc81d3a932cc31df1eb2232bd4e11fb582237c2dd20ef1e16406db8239e4628ecaebc52482743e95d9196b69afd386ff436282b1e486"
 
 RPROVIDES:${PN} += "libcmocka-devel \
 pkgconfig-cmocka"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libcmocka0 \
-pkg-config"
+pkgconf-pkg-config"
 
 inherit rpm

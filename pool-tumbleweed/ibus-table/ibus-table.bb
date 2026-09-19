@@ -2,10 +2,10 @@ SUMMARY = "The Table engine for IBus platform"
 DESCRIPTION = "The package contains general Table engine for IBus platform."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.17.1"
+PV = "1.17.14"
 
-RPM_NAME = "ibus-table-1.17.1-1.1.aarch64.rpm"
-RPM_HASH = "8a447211325acc1e1a320808bda30e82cbfa8113649ce8d42d89db820c8dd8d3bc4a3e68ad45785603dbe8214b16422d67385b22ee81f26f72e61f3be5610f17"
+RPM_NAME = "ibus-table-1.17.14-2.4.aarch64.rpm"
+RPM_HASH = "0e5dfabcac9e49195ac5d05b3e7ae4a60643c1bab37cdd0334f74e0823822488dd4ceb8800be0788f17b01fd7ee22bcd3c558b9e8d6a24cadd6f372109cbea0b"
 
 RPROVIDES:${PN} += "ibus-table"
 

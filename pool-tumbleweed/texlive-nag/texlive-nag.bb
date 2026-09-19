@@ -6,10 +6,10 @@ obsolete things. As an example, we provide an extension that \
 detects many of the 'sins' described in l2tabu."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn24741"
+PV = "2026.226.0.0.7svn77682"
 
-RPM_NAME = "texlive-nag-2023.209.0.0.7svn24741-55.1.noarch.rpm"
-RPM_HASH = "758e7a608b4fb3b1e243d2289211e4d27aa1d9e013a34c5ed9e4de2107ddf09ee196de66dead87a8fb2590ca0329c5f565b86d2c87759dae25f674a1e8802525"
+RPM_NAME = "texlive-nag-2026.226.0.0.7svn77682-61.2.noarch.rpm"
+RPM_HASH = "a8c5a756f2d527cad757330ffc538b09ed4937844edbdde24ff8a5d8d8b657d05bfcb28d0a0067864fba459daf4a2a72bd4d4f84cddca0e3c8fd688c5d2f89b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nag-abort.cfg \

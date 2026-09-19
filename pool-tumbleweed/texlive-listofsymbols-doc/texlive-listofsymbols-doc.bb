@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-listofsymbols"
 DESCRIPTION = "This package includes the documentation for texlive-listofsymbols"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn16134"
+PV = "2026.226.0.0.2svn16134"
 
-RPM_NAME = "texlive-listofsymbols-doc-2023.209.0.0.2svn16134-55.1.noarch.rpm"
-RPM_HASH = "39042d586c19c59437e6af6310e70b99b72857bb1c6e1b5dc86c1870442224ab76be3269d71824667fe30b6e8af4eb341930c36debd54295c78a6d7fb24320a1"
+RPM_NAME = "texlive-listofsymbols-doc-2026.226.0.0.2svn16134-61.2.noarch.rpm"
+RPM_HASH = "1422ee0ffff14fb8e15e5176dd11cbf651de7b297b064395687fc8acd2bf58ce50c8e3384d91c736d20c5f89ff3133c0d079ebfa9d2110d224dc2df6ca991dc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-listofsymbols-doc"

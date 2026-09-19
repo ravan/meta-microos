@@ -10,10 +10,10 @@ which is rather unwieldy. This package provides a simpler \
 syntax for Wick contractions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn39074"
+PV = "2026.226.1.0.0svn71991"
 
-RPM_NAME = "texlive-simpler-wick-2023.209.1.0.0svn39074-54.1.noarch.rpm"
-RPM_HASH = "5a5be760bacd483926256d40a1ad7330febceb0243e7cb8e09a95b42fdf4fa5956bee7fc7b03f7da5a0fc2d7c082b99805c70cea619b2ca9fabb792e7f23ff8b"
+RPM_NAME = "texlive-simpler-wick-2026.226.1.0.0svn71991-60.2.noarch.rpm"
+RPM_HASH = "e7c7cdde833e48982976dccd1c044c95f651ad7c42d21141a4e639a3778012b799e63955a29c9f315906f2dce637547932228fe89c0979e28cda04a0bbce90b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simpler-wick.sty \

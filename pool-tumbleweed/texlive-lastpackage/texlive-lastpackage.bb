@@ -5,10 +5,10 @@ package-placing commands from the author's templatetools. Usage \
 examples are provided in the documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn34481"
+PV = "2026.226.0.0.1svn34481"
 
-RPM_NAME = "texlive-lastpackage-2023.209.0.0.1svn34481-56.1.noarch.rpm"
-RPM_HASH = "0b1764a66f193882f4090ab37ad4bcaad9c1059839f05fd962b2c18e851d5b1520ae7b303413b2d8010e38ace6088c8c7bf7266f0e8c7dcda15774a2c6d55c4a"
+RPM_NAME = "texlive-lastpackage-2026.226.0.0.1svn34481-63.2.noarch.rpm"
+RPM_HASH = "0875356b8a0c441d01392bd5945ce0bcdf575707e6e815cd2010bc63aaf68fcf19cbf81fd1b0b518aecdae14426ae53c003a058440a3c632862d4aef3a566f61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lastpackage.sty \

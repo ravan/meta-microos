@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pgf-periodictable"
 DESCRIPTION = "This package includes the documentation for texlive-pgf-periodictable"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.0svn66010"
+PV = "2026.226.2.1.5svn73886"
 
-RPM_NAME = "texlive-pgf-periodictable-doc-2023.209.2.0.0svn66010-52.1.noarch.rpm"
-RPM_HASH = "37310fcb5601d3c9a9d5e045bc4171744df57f73938736f9acb81cd27ecda244a01f8efe979a3c03f36736df5d087f4906f901b49cca696417577fdad677728c"
+RPM_NAME = "texlive-pgf-periodictable-doc-2026.226.2.1.5svn73886-58.2.noarch.rpm"
+RPM_HASH = "b0c0b9a02d3af4d1314a6ddb0940cba03ab868274d9c23daf05bbae7aa19d39839fbcef2167241fde8c4c00497def17968a7067a4f7f36f60c6e43dc8b98c8e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgf-periodictable-doc"

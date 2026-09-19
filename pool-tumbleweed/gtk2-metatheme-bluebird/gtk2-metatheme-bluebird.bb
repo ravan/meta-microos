@@ -4,12 +4,12 @@ basis of Bluebird, but aims at reworking the intense blue tone to a more \
 neutral blue-ish look that will be more pleasant to look at in everyday use. \
  \
 This package provides the GTK+ 2 support of Bluebird."
-LICENSE = "GPL-2.0-or-later | CC-BY-SA-3.0"
+LICENSE = "CC-BY-SA-3.0 | GPL-2.0-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "gtk2-metatheme-bluebird-1.3-2.9.noarch.rpm"
-RPM_HASH = "ea133f36275bc147b45ec5beb9b7aeda9bdf23b229387fea55bcb4d0048c02605392b650d45652b07a2caf8556f866c3aa933ae66eee5f58c7cfbd5d19669b91"
+RPM_NAME = "gtk2-metatheme-bluebird-1.3-3.6.noarch.rpm"
+RPM_HASH = "2d141fb802eb16aa2238a4667dbdcd5cc5e5bac48f7e7a98df6f077006194e0deafee785d18f412592add96e673dc2510402fd1245a7f6f735aec5e1b276ec84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-bluebird"

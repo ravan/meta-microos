@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xetex-tibetan"
 DESCRIPTION = "This package includes the documentation for texlive-xetex-tibetan"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn28847"
+PV = "2026.226.0.0.1svn28847"
 
-RPM_NAME = "texlive-xetex-tibetan-doc-2023.209.0.0.1svn28847-53.2.noarch.rpm"
-RPM_HASH = "88d05147fa71baa95d18c9711071e9d696a78c323888261e9562aaf33b28374fee6c2b97f19892b3746ce71fe38b84de392503db8d3894fe19fa2a6437828ff5"
+RPM_NAME = "texlive-xetex-tibetan-doc-2026.226.0.0.1svn28847-59.4.noarch.rpm"
+RPM_HASH = "fb2200785c9d7e3d3bd255252732a9dd1876c4f873d2aeb4e067e27e7b35497b0626dbf57abc1bb1e1168a6e4971a214691628d7c4d2088f5824020f019c2734"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xetex-tibetan-doc"

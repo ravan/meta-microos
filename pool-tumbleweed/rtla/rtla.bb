@@ -6,10 +6,10 @@ capabilities to provide precise information about the properties \
 and root causes of unexpected results."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "rtla-6.4.12-5.14.aarch64.rpm"
-RPM_HASH = "1feae00b8afba454d45790f746c589fbcf29ad00b50adb4e179c024e07f6f9e575677c9e07018f0811e1157dd3a586f69d562308ab0556a91ba4b42aeea4cd61"
+RPM_NAME = "rtla-7.2.5-8.105.aarch64.rpm"
+RPM_HASH = "4510e843fa56b427c6b67aa891f09eea466ef4b8028594f14ca51e6c2fac2dd60c336c413a6ed171d5f8d8254ed809f6dd965e4557186cea080c50743e5ceb92"
 
 RPROVIDES:${PN} += "rtla"
 

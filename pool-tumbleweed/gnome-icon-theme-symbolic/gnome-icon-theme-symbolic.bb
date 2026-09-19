@@ -12,8 +12,8 @@ LICENSE = "CC-BY-SA-3.0"
 
 PV = "3.12.0"
 
-RPM_NAME = "gnome-icon-theme-symbolic-3.12.0-3.19.noarch.rpm"
-RPM_HASH = "4ab47ceabda40df5415dfd147fe4ade519372d2e5ba1817d413f8680787a18de5b765c21b457232e5bdd42b5ff7fbd1e34a5a71dd6c444ee7e8ab2e35d75ed8a"
+RPM_NAME = "gnome-icon-theme-symbolic-3.12.0-3.27.noarch.rpm"
+RPM_HASH = "11edf98096662c1f780bc4f8569744ca3e68230b74a78e5f7597704dc912f9a282ec3911c62ac64328504bade791350015918e4f43a3599f63247bc6fcf5c1a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-icon-theme-symbolic \

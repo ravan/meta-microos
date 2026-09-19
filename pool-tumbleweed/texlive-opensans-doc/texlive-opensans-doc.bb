@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-opensans"
 DESCRIPTION = "This package includes the documentation for texlive-opensans"
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.2.2svn54512"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-opensans-doc-2023.209.2.2svn54512-55.1.noarch.rpm"
-RPM_HASH = "fddf350b551fdddbc9fbac7bd485bca10350d947fc056ee538e2a7c8517a7b60e10f0902a7d98f58b0a03d55cb7679b55717acddcfd1d9b59cca69f76361f50a"
+RPM_NAME = "texlive-opensans-doc-2026.226.2.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "24338bd2349423123a4d4e54bd6c7dac8c4cf5e2592d62af88b1cf4421ab895e2ef71ece360ee5e36c082b951c88e19be32a37e3bf74bf307d1cc43c1770a7b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-opensans-doc"

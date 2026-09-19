@@ -1,11 +1,12 @@
 SUMMARY = "Qt 6 LabsWavefrontMesh library"
-DESCRIPTION = "The Qt 6 LabsWavefrontMesh library."
+DESCRIPTION = "The Qt 6 LabsWavefrontMesh library. \
+This library does not have any ABI or API guarantees."
 LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6LabsWavefrontMesh6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "672998dd1d5aa1f4ecdb24f3807373dcb00898699924c1bd69ed9827db9af60347058aeb62b95b74ad2f311dfeced0df0aa3514cde5816052fcf618655571449"
+RPM_NAME = "libQt6LabsWavefrontMesh6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "fc2035ae1c1cd76a82ff689211483ce94c280c1c43879a175b1ce15f0567dee5c5f12b45b4aab7b0b2ccd8b95535601714fd302db074eaa283f69623c4cffe9e"
 
 RPROVIDES:${PN} += "libQt6LabsWavefrontMesh.so.6 \
 libQt6LabsWavefrontMesh6"

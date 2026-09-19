@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-ocherokee"
 DESCRIPTION = "The  separated fonts package for texlive-ocherokee"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25689"
+PV = "2026.226.svn25689"
 
-RPM_NAME = "texlive-ocherokee-fonts-2023.209.svn25689-55.1.noarch.rpm"
-RPM_HASH = "cc9bfdcc5a2e3f40cc718e49d965dbc99d42d46040230d463308ed75f4795e39e6a260b06de79297956d3731f0048320186d333d3164c3ccacd6716d202bcfde"
+RPM_NAME = "texlive-ocherokee-fonts-2026.226.svn25689-61.2.noarch.rpm"
+RPM_HASH = "c8049908e7580dcde61fd93774182d04a777fb2776a1d3aa6ced2f661215a001e42cf99679088d83e1ae1edaaee55a63a22da5b65654b605556bd0ee3dbdae44"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

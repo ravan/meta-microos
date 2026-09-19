@@ -11,18 +11,19 @@ quickly. There are also generators for bipartite graphs, digraphs, \
 and multigraphs."
 LICENSE = "Apache-2.0"
 
-PV = "2.8.6"
+PV = "2.9.3"
 
-RPM_NAME = "nauty-2.8.6-1.4.aarch64.rpm"
-RPM_HASH = "05a36aade3bf4a43f42afb03acbbd2b57b685714b3d5b78454a841a819c0bd675d5b3cecd0faa3f61a4bee85daaa7de7ef42eacd0a9dbfa0afcaa4e76c994440"
+RPM_NAME = "nauty-2.9.3-1.5.aarch64.rpm"
+RPM_HASH = "c73a241a9db79b60c1cd8f6ff161740f5ad0d522d00d72cbcdd69847c4c903a53024adbbe6d342ee249e56c63e1957ac4008ab0c8a5a95491afb69d84aa9e34d"
 
 RPROVIDES:${PN} += "nauty"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
-libnauty-2.8.6.so \
-libnautyL1-2.8.6.so \
-libnautyW1-2.8.6.so"
+libnauty-2.9.3.so \
+libnautyA1-2.9.3.so \
+libnautyL1-2.9.3.so \
+libnautyW1-2.9.3.so"
 
 inherit rpm

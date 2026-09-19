@@ -2,10 +2,10 @@ SUMMARY = "Translations for package avogadro"
 DESCRIPTION = "Provides translations for the 'avogadro' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.97.0"
+PV = "1.100.0"
 
-RPM_NAME = "avogadro-lang-1.97.0-1.4.noarch.rpm"
-RPM_HASH = "9a13bfc4ab81a2d9acf5aa72832d165e710b5cca12a594f08ab30328e5e76fd2cbef34fbe82090767630941361f21ce36ce43062082bf518067b4c3dc2b70036"
+RPM_NAME = "avogadro-lang-1.100.0-1.7.noarch.rpm"
+RPM_HASH = "11b55846a19333e070b9ab68d91f554d9cd4da661088048b5eecf533c0024625fd8a4c1d720bdeba0249caffe19ca2e9928c7c2d88cd481e5cc28ef34e9598be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avogadro-lang \

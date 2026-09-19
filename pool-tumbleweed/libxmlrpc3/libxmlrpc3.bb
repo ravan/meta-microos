@@ -3,10 +3,10 @@ DESCRIPTION = "XML-RPC is a lightweight RPC protocol based on XML and HTTP. This
 package is used by XML-RPC clients and servers written in C and C++."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "1.54.06"
+PV = "1.64.03"
 
-RPM_NAME = "libxmlrpc3-1.54.06-1.4.aarch64.rpm"
-RPM_HASH = "7032895fdc8671cbb50cb1cd25c14634d4960f18e295ed8e87b54894d8b17b5d67afc1e07748892be797e2f6fe6e6ed5829e6eba9467e82ca41b510f2cb05c36"
+RPM_NAME = "libxmlrpc3-1.64.03-2.1.aarch64.rpm"
+RPM_HASH = "bbdb10651d0af03bdca0a91ed0b1b194656c77ed92c7bbda23a8e1262a778ade544eb6e3a6f8aef0bdeb4403af8225d556c525e9176be5cb01f1efb34fb49a80"
 
 RPROVIDES:${PN} += "libxmlrpc.so.3 \
 libxmlrpc3"
@@ -14,7 +14,7 @@ libxmlrpc3"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxmlrpc-util.so.4"
 
 inherit rpm

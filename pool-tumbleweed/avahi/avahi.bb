@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "avahi-0.8-23.3.aarch64.rpm"
-RPM_HASH = "9d96bc9a3ea8dcd4058bc72ce050b6407280b2bdb689a4c314df769ffd817ce7d8f79a61e83138ff43ea66ab260982eb398d6552a6415371ea4ff3cf0f02ceb6"
+RPM_NAME = "avahi-0.8-45.2.aarch64.rpm"
+RPM_HASH = "87883cd6156eed09ddcf2fec97e2c5cc05064a674834c929627b1221701756e11713cd32e12077519bae9e82fd6fedd5884d6a1df043f4141eafefd0e86ebe99"
 
 RPROVIDES:${PN} += "avahi \
 config-avahi \
@@ -32,7 +32,6 @@ libdaemon.so.0 \
 libdbus-1.so.3 \
 libexpat.so.1 \
 nss-mdns \
-sudo \
 sysuser-shadow"
 
 inherit rpm

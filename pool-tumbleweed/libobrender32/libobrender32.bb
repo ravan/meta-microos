@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "3.6.1"
 
-RPM_NAME = "libobrender32-3.6.1-4.1.aarch64.rpm"
-RPM_HASH = "cf57da3fcba9730433318c421ec10aeae0a8445dc091aa116b1304eaf754e477b0c06d37f0140e1f8da730844b23e89bdd787319006e26f86aa911c7767017fd"
+RPM_NAME = "libobrender32-3.6.1-5.12.aarch64.rpm"
+RPM_HASH = "22900d7b1f51e17040553ed11e06b69e028c7a77ec4656534f47376caccb7b537ee2f379cd4a1b4421b6a25c8447e306a9ca9bc5da045876fa263fe49e9853f4"
 
 RPROVIDES:${PN} += "libobrender.so.32 \
 libobrender32"

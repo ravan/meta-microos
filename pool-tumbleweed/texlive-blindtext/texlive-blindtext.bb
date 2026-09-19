@@ -8,10 +8,10 @@ latin; the latin option provides a short 'lorem ipsum' (for a \
 fuller lorem ipsum text, see the lipsum package)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn25039"
+PV = "2026.226.2.0svn77682"
 
-RPM_NAME = "texlive-blindtext-2023.209.2.0svn25039-53.1.noarch.rpm"
-RPM_HASH = "1f0770f2c262be0770383c591fc8a551e802bdd7ed6c0907b7d0aa8154394b8ee4b921f1d4ea31af441d376fee87aab692e5b1a0e42624b0074bf13c2714f1a8"
+RPM_NAME = "texlive-blindtext-2026.226.2.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "4582422c52407146a28a54581e7ca9f8bdec5bacc06789dec1c23794d082cb31337472fc011b7dfff6ec2bdde7a33846fd7f2ef9c0e2a039183ba98946527070"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blindtext.sty \

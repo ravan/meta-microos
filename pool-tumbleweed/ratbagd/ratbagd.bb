@@ -8,10 +8,10 @@ It enables any user that is a member of the group 'games' to configure \
 supported mice via ratbagctl or Piper."
 LICENSE = "MIT"
 
-PV = "0.17"
+PV = "0.18"
 
-RPM_NAME = "ratbagd-0.17-2.2.aarch64.rpm"
-RPM_HASH = "f75cc2eb37d403f48bccd26155e3248c98c1c91e02bde85b14233d62875801c68681719ed4f02e822946b0551400af658caeb6520d732625d2202d2cf6cea100"
+RPM_NAME = "ratbagd-0.18-2.5.aarch64.rpm"
+RPM_HASH = "0492a6255f03db9a771ad577beffac3869d86061d7ff05b355a0c7d896a8771f30940fa8a4516ecb3d14d5a10548e50ec8e3a5ab1b98fdc23c367993ecae7fd2"
 
 RPROVIDES:${PN} += "ratbagd"
 

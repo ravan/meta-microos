@@ -28,18 +28,17 @@ clean: \
   }"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.29"
+PV = "0.310.0"
 
-RPM_NAME = "perl-namespace-autoclean-0.29-1.17.noarch.rpm"
-RPM_HASH = "0ac63a970f42c9c08ae5e4358fa4282925871702a9c923e97b76e67a995029e7c1aef08feb7bca715e03b2d4b8c70d2ac7b27ea55da09917cc6f18f8084d3ae2"
+RPM_NAME = "perl-namespace-autoclean-0.310.0-1.10.noarch.rpm"
+RPM_HASH = "8fde4fb41cca0142bf12d5771f39d683174e271a1793f91762e1d441784725c1bd461457b7c51442d4038df0437eeeed419ce2482172a4867b8331ddebbb13a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-namespace--autoclean \
 perl-namespace-autoclean"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-B--Hooks--EndOfScope \
-perl-Sub--Identify \
 perl-namespace--clean"
 
 inherit rpm

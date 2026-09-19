@@ -2,10 +2,10 @@ SUMMARY = "Core Spice support for QEMU"
 DESCRIPTION = "This package contains a module with core Spice support for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-ui-spice-core-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "b50ee9e7887a56ea5c17682819a79f118a4432925acf6c8cec417a01843850a050c0198b4bd8bc464f0fcfa39aeae1e0af29e0f8345e6eda26e74221fa3aff6d"
+RPM_NAME = "qemu-ui-spice-core-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "9ebb727dbfd552ae59663ef0650ae1f35ebb1123e127ab901d51d33a7e82ed2883d9f837128322315295ef3326899b9f8b9363fbd910ce7a2166625091080989"
 
 RPROVIDES:${PN} += "qemu-ui-spice-core"
 

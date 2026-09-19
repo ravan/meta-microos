@@ -7,8 +7,8 @@ LICENSE = "Zlib"
 
 PV = "2.0.3"
 
-RPM_NAME = "libmng-devel-2.0.3-3.4.aarch64.rpm"
-RPM_HASH = "fffc360324cd307f8eb4a90b171c11a57cf725669e2653da8a0f16b30ffe79b1a3ff61614a721949a811c7ad43318209d57b068680f8c9eda630198ed515a12a"
+RPM_NAME = "libmng-devel-2.0.3-3.14.aarch64.rpm"
+RPM_HASH = "7a9b0eeb59267c3dc3347bf1e64a1f0a673b2eacc012b425e0cde22301247eb96e9cae5ff9970ea756a197c3d727eb6517b84b1ed4bd1eca9a68e862ec345e70"
 
 RPROVIDES:${PN} += "libmng-devel \
 pkgconfig-libmng"

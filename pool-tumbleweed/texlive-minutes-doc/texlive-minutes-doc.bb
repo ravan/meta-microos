@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-minutes"
 DESCRIPTION = "This package includes the documentation for texlive-minutes"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8fsvn42186"
+PV = "2026.226.1.8fsvn42186"
 
-RPM_NAME = "texlive-minutes-doc-2023.209.1.8fsvn42186-55.1.noarch.rpm"
-RPM_HASH = "bc584cd9675b01f9d6be38f37bca28ea6262a36fa7c218177f95e9d0f0e0ec1971252d11ff7a54193cc4d18f936d0b4f5d73c9c81c78a26703176f962c3fa098"
+RPM_NAME = "texlive-minutes-doc-2026.226.1.8fsvn42186-61.2.noarch.rpm"
+RPM_HASH = "3a97d5bb45d2f090596bedc069d9210cfb4791c5af3fa4808b34302cf36256beea547b916bc74b1eb7c9c6d8e22aa1961dc5c4b4bc3452065558b943d0ba796e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-minutes-doc"

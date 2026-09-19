@@ -1,16 +1,21 @@
 SUMMARY = "Small scheme (basic + xetex, metapost, a few languages)"
 DESCRIPTION = "This is a small TeX Live scheme, corresponding to MacTeX's \
 BasicTeX variant. It adds XeTeX, MetaPost, various \
-hyphenations, and some recommended packages to scheme-basic."
+hyphenations, and a few recommended packages to scheme-basic, \
+including the tagged pdf support in LaTeX. It also provides the \
+{pdf,xe,lua,...}latex-dev engines for helping to test LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn54191"
+PV = "2026.222.svn77510"
 
-RPM_NAME = "texlive-scheme-small-2023.208.svn54191-60.1.noarch.rpm"
-RPM_HASH = "f2680a28fc371782123ad4a7c407c493b3486f6ac917fb014421b1e68ac35108ad418280f278fe381ba96d72a52331b44a2422c4d6204200f929851f1f9dee0d"
+RPM_NAME = "texlive-scheme-small-2026.222.svn77510-68.2.noarch.rpm"
+RPM_HASH = "b7c90494e09aa8a55a33bb5572ccd2358e9073b5e48e0d56e95e2d1996e1f8dc8a848b1c1a8490562cae406d8c2f8b1b9f8c247a9de80282963dc0112d181add"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-scheme-small"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-small \
+texlive-scheme-small"
 
 RDEPENDS:${PN} += "texlive-babel-basque \
 texlive-babel-czech \
@@ -33,6 +38,7 @@ texlive-collection-latexrecommended \
 texlive-collection-metapost \
 texlive-collection-xetex \
 texlive-ec \
+texlive-epstopdf \
 texlive-eurosym \
 texlive-hyphen-basque \
 texlive-hyphen-czech \
@@ -49,15 +55,34 @@ texlive-hyphen-polish \
 texlive-hyphen-portuguese \
 texlive-hyphen-spanish \
 texlive-hyphen-swedish \
+texlive-l3backend-dev \
+texlive-l3kernel-dev \
+texlive-latex-amsmath-dev \
+texlive-latex-base-dev \
+texlive-latex-bin-dev \
+texlive-latex-firstaid-dev \
+texlive-latex-graphics-dev \
+texlive-latex-lab \
+texlive-latex-lab-dev \
+texlive-latex-tools-dev \
 texlive-lm \
+texlive-ltx-talk \
+texlive-lua-unicode-math \
 texlive-lualibs \
+texlive-luamml \
 texlive-luaotfload \
 texlive-luatexbase \
+texlive-make4ht \
+texlive-pdfmanagement-testphase \
 texlive-revtex \
 texlive-synctex \
+texlive-tagpdf \
+texlive-tex4ebook \
+texlive-tex4ht \
 texlive-times \
 texlive-tipa \
 texlive-ulem \
+texlive-unicode-math \
 texlive-upquote \
 texlive-zapfding"
 

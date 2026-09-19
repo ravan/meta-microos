@@ -5,10 +5,10 @@ changes. Creates incremental snapshots using rsync or BTRFS snapshots \
 using BTRFS tools."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.07.1"
+PV = "25.12.4"
 
-RPM_NAME = "timeshift-23.07.1-1.1.aarch64.rpm"
-RPM_HASH = "43140b8d4013422cdfee66454b006f5759458c56efb21440b6d5a6cd41da56146e174c2845b3223bb149c2a13eded9f9dfa97e4fe877f07e783baf4c07039528"
+RPM_NAME = "timeshift-25.12.4-1.3.aarch64.rpm"
+RPM_HASH = "25ebefe9ca0412a2d4c9e6835b51c96a033fe2c6d58551c4a031683ff83cbfd6a2bfc20f9e620ff85ebcf0612c3d8bd4ff166ea2e049e4be67c4391e0eef712d"
 
 RPROVIDES:${PN} += "config-timeshift \
 timeshift"

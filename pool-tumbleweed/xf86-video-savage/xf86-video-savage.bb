@@ -6,10 +6,10 @@ Savage2000 (2D only). Dualhead operation is supported on MX, IX, and \
 SuperSavage chips."
 LICENSE = "MIT"
 
-PV = "2.4.0"
+PV = "2.4.1"
 
-RPM_NAME = "xf86-video-savage-2.4.0-1.2.aarch64.rpm"
-RPM_HASH = "a52ddedc4e4a147b2b9aca1f53e92727f1a06dffeaa61b3e445d713b2dcab1d0718a421bb98b3470ac19d58f70d3d6685dd7b4c2668c3183700e96411aff880f"
+RPM_NAME = "xf86-video-savage-2.4.1-1.9.aarch64.rpm"
+RPM_HASH = "196b005e55bfa6dfa312dc1ce29ff5bcba8489e432fab1c2687edb17c713f503a49a7c2f14b11f15a656d6ebed8d9407a5501a421aa2010e15f75adf2806210d"
 
 RPROVIDES:${PN} += "xf86-video-savage"
 

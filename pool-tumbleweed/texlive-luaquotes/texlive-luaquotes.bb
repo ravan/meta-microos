@@ -3,10 +3,10 @@ DESCRIPTION = "This package automatically generates quotation marks and \
 punctuation depending on the selected language."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.4.0svn65652"
+PV = "2026.226.1.4.0svn65652"
 
-RPM_NAME = "texlive-luaquotes-2023.208.1.4.0svn65652-53.1.noarch.rpm"
-RPM_HASH = "4b45ab878bcf5bd8961104fdaf9d706c2a6a47b6a5959bd7367f2c12c394f8bdbc51065310148d3eaa44f239d35f5279953caaea8577ba62b3db03a629c095f7"
+RPM_NAME = "texlive-luaquotes-2026.226.1.4.0svn65652-59.2.noarch.rpm"
+RPM_HASH = "fd6ae563f0b188acc35dd7a5182cc52a3e94cc288264f5a040793e4846de0ea8b372c30f1a496a27738411d9b2e8754881f28bb8e6df4d8b149edbe82bd7513b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luaquotes.sty \

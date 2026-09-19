@@ -7,10 +7,10 @@ DESCRIPTION = "Provides code to generate responses to common SASL mechanisms, in
   - Login (Pseudo mechanism)"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.0"
+PV = "1.2.0"
 
-RPM_NAME = "php-pear-Auth_SASL-1.1.0-1.10.noarch.rpm"
-RPM_HASH = "eb10db89bd1818abcc7bf14b7818879135eef0fd9713fcb51dadb2d94eab9613f343ff4f18d0a14ee9e0de1914ccc900c27793e8631f2380896d811198111ee0"
+RPM_NAME = "php-pear-Auth_SASL-1.2.0-1.10.noarch.rpm"
+RPM_HASH = "40c8b28f1ab97c187accbb0d21482fc63845bd1abe3a96f127af96c1d7493fb2395511eeaf6a3526fcb15f81a9e253fdc83493079c437fe90199a5a51d0de1a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-pear-Auth-SASL \

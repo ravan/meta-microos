@@ -2,28 +2,25 @@ SUMMARY = "Desktop Backup Client based on BorgBackup"
 DESCRIPTION = "Vorta is a backup client for Linux desktops. It integrates BorgBackup with \
 the desktop environment to protect data from disk failure, \
 ransomware and theft."
-LICENSE = "GPL-3.0-only"
+LICENSE = "Apache-2.0 & GPL-3.0-only & OFL-1.1"
 
-PV = "0.8.12"
+PV = "0.11.5"
 
-RPM_NAME = "vorta-0.8.12-1.2.noarch.rpm"
-RPM_HASH = "185210071220ab8c4e15d3f8805d763c7479259380640cae63196fa2f3595b2a71957cdf0b76597e5352295e0e87b68474d4cb1ec5dce44623c6433f31d7cd4b"
+RPM_NAME = "vorta-0.11.5-1.2.noarch.rpm"
+RPM_HASH = "91471cf3da8739e39e6e104ea57ba951e75a85e427041ed9fd130074b505de54bad34e5a398a388453ace966dbc07ab642fc8afc7bd7998bebb6030295a693c3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-vorta \
+RPROVIDES:${PN} += "python3.13dist-vorta \
 python3dist-vorta \
 vorta"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 borgbackup \
 python-abi \
-python3-APScheduler \
-python3-QDarkStyle \
-python3-keyring \
-python3-peewee \
-python3-platformdirs \
-python3-psutil \
-python3-python-dateutil \
-python3-qt5"
+python313-PyQt6 \
+python313-SecretStorage \
+python313-peewee \
+python313-platformdirs \
+python313-psutil"
 
 inherit rpm

@@ -15,27 +15,28 @@ Authors: \
     Ian Pratt <ian.pratt@cl.cam.ac.uk>"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.17.2_02"
+PV = "4.22.0_04"
 
-RPM_NAME = "xen-libs-4.17.2_02-1.1.aarch64.rpm"
-RPM_HASH = "16ad36a89370f0bb66fbbe58669e70775d618760e40912e21052b67ab257e5382e6dd1fa725fde4c267aa5d66af7193b454c584b71546724e1872cce4db43b0a"
+RPM_NAME = "xen-libs-4.22.0_04-1.1.aarch64.rpm"
+RPM_HASH = "af11138859f442b0c67c8a20e847b6ab2d2ca827b90e225e22520851a19a08a1d3ef9738ef3825e8da78d7bfc57991da25e19823e61a92e93abef6331a99c944"
 
 RPROVIDES:${PN} += "libxencall.so.1 \
-libxenctrl.so.4.17 \
+libxenctrl.so.4.22 \
 libxendevicemodel.so.1 \
 libxenevtchn.so.1 \
 libxenforeignmemory.so.1 \
-libxenfsimage.so.4.17 \
+libxenfsimage.so.4.22 \
 libxengnttab.so.1 \
-libxenguest.so.4.17 \
+libxenguest.so.4.22 \
 libxenhypfs.so.1 \
-libxenlight.so.4.17 \
-libxenstat.so.4.17 \
+libxenlight.so.4.22 \
+libxenmanage.so.1 \
+libxenstat.so.4.22 \
 libxenstore.so.4 \
 libxentoolcore.so.1 \
 libxentoollog.so.1 \
-libxenvchan.so.4.17 \
-libxlutil.so.4.17 \
+libxenvchan.so.4.22 \
+libxlutil.so.4.22 \
 xen-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

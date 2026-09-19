@@ -38,10 +38,10 @@ Additional documentation can be found in \
 * * IO::Socket::SSL::Utils - Useful functions for certificates etc"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.083"
+PV = "2.90.0"
 
-RPM_NAME = "perl-IO-Socket-SSL-2.083-1.3.noarch.rpm"
-RPM_HASH = "1901409cfde91067c7b4afe8a890d3db1c669dc6b0ca778f20f1e982ce9b2c5451dae7d7104a97affc92ec2eafece6fe32b84a6192ca0a0d571014764f634731"
+RPM_NAME = "perl-IO-Socket-SSL-2.90.0-1.7.noarch.rpm"
+RPM_HASH = "08a091ade8ce4b6f20e0e0231f693f53ce28ded2e3f203d9d13dca95c222ab3ff2ef6d8ef020e8635f19cb31c5c72ebe52fd903784ce2ee536ef62085d5df901"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Socket--SSL \
@@ -56,7 +56,7 @@ perl-IO--Socket--SSL--Trace \
 perl-IO--Socket--SSL--Utils \
 perl-IO-Socket-SSL"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Net--SSLeay"
 
 inherit rpm

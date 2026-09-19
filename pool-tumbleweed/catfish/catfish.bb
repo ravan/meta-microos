@@ -4,22 +4,22 @@ DESCRIPTION = "Catfish is a GTK+ search utility written in python. Its search is
 zeitgeist."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.1"
 
-RPM_NAME = "catfish-4.18.0-1.1.noarch.rpm"
-RPM_HASH = "5744d8c663e64f929f199532bb8e3457385e4547ef96381e94afbad27d5627a126266000df489e9240e411099f218ab9377be83984dc675ac7758036837736ae"
+RPM_NAME = "catfish-4.20.1-1.5.noarch.rpm"
+RPM_HASH = "a47c5c7fbfab07042e8e2dc646919f4df718c6743b78574d9bf7a8a479bd915018166eaf38166af20de60c2dc71a64724c382582ffd8a680984bf46e308721d3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "catfish \
-python3.11dist-catfish \
-python3dist-catfish"
+RPROVIDES:${PN} += "catfish"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 findutils-locate \
 gdk-pixbuf-loader-rsvg \
 gsettings-backend-dconf \
 python-abi \
+python3 \
 python3-cairo \
+python3-dbus-python \
 python3-gobject \
 python3-gobject-Gdk \
 python3-gobject-cairo \
@@ -33,6 +33,7 @@ typelib-GdkPixbuf \
 typelib-Gio \
 typelib-Gtk \
 typelib-Pango \
-typelib-Xfconf"
+typelib-Xfconf \
+typelib-Zeitgeist"
 
 inherit rpm

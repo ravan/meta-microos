@@ -3,10 +3,10 @@ DESCRIPTION = "Apache Lucene is a full-text search engine written entirely in Ja
 This package provides the 'analyzers-stempel' module for Lucene."
 LICENSE = "Apache-2.0"
 
-PV = "8.5.0"
+PV = "8.11.4"
 
-RPM_NAME = "lucene-analyzers-stempel-8.5.0-5.1.noarch.rpm"
-RPM_HASH = "d4b94fb8dfc3c8948ff5ccb71db3e90ca831d34108eac721e5bcc1224b3a36001e906cb624576bf240dfac8e08e478bbb06fb5052070fdbca2abfb47bc25c38e"
+RPM_NAME = "lucene-analyzers-stempel-8.11.4-1.8.noarch.rpm"
+RPM_HASH = "76c1ab66fa825729a358a38366efd33ef0ed652e00d8581176afd7349c63597ebd252d0badfc29c8f9941e4fe9c56620ca6017c0520a53d12b1d2d3586826e9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-analyzers-stempel \

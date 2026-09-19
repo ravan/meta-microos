@@ -10,8 +10,8 @@ LICENSE = "EPL-2.0 & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.0.7"
 
-RPM_NAME = "ee4j-1.0.7-1.5.noarch.rpm"
-RPM_HASH = "ddb9c7dcd3447bd22cb09662488e78e0d92ee880f116559a3c8d13af05bb14d9542b2fd3274a5a52d4e79fbb3e4b5dd2084c83eafccd9669af202ec3c292c4f9"
+RPM_NAME = "ee4j-1.0.7-1.13.noarch.rpm"
+RPM_HASH = "ae1761382e549eb04d02efb5ec2cf102d7fc4d463885d0cac759104120b5372be0a0dda7fc2bf101662eb16055c0d19fdb7e29a36cb88024b9c181bfa361077d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ee4j \

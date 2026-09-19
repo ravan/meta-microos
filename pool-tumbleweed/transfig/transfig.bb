@@ -9,10 +9,10 @@ graphics description languages using the fig2dev program.  In previous \
 releases, this command was implemented as a shell script."
 LICENSE = "MIT"
 
-PV = "3.2.8b"
+PV = "3.2.9a"
 
-RPM_NAME = "transfig-3.2.8b-4.3.aarch64.rpm"
-RPM_HASH = "c94e03d546baad51dd7fbe97402900966725da05c57d63eb308db62a041041a35464825ed09d0ff1d79b5573d3eb8bbec5a483736409fd5e0b3bec774decafd8"
+RPM_NAME = "transfig-3.2.9a-3.7.aarch64.rpm"
+RPM_HASH = "012212dbc6d09390a824c1cac9e4e2ad3ca0a5b1201b8bd94c32a6d3126ec59475fdd37d0e47ca6d2ff99a0367ebfb63ff1ebde6d309cbeaedf6c0afde73508b"
 
 RPROVIDES:${PN} += "fig2dev \
 transfig"

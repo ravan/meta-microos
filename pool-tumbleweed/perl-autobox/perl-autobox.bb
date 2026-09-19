@@ -1,4 +1,4 @@
-SUMMARY = "Call Methods On Native Types"
+SUMMARY = "Call methods on native types"
 DESCRIPTION = "The autobox pragma allows methods to be called on integers, floats, \
 strings, arrays, hashes, and code references in exactly the same manner as \
 blessed references. \
@@ -13,17 +13,17 @@ to be defined in a class whose name corresponds to the 'ref()' type of that \
 value - or SCALAR if the value is a non-reference."
 LICENSE = "Artistic-2.0"
 
-PV = "3.0.1"
+PV = "3.0.2"
 
-RPM_NAME = "perl-autobox-3.0.1-1.27.aarch64.rpm"
-RPM_HASH = "a2ae47b74afb0faaa3f9fa5a7c31a37e3ec173835ffaf3bdf4bc2d763018db5e121d5242008df3c62014eaed0305a49eb5f298671c151356eb86f4120030e5d5"
+RPM_NAME = "perl-autobox-3.0.2-1.11.aarch64.rpm"
+RPM_HASH = "850a27ab495e2724fe335619ab0258559262c2525e926cecccdc8d5249c8d48f752481a1e9832e72fee75aecce4320fc1a4debfada562487b0bf4eb9871cef8d"
 
 RPROVIDES:${PN} += "perl-autobox \
 perl-autobox--universal"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Scope--Guard \
 perl-version"
 

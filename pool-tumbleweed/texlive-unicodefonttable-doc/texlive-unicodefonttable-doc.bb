@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-unicodefonttable"
 DESCRIPTION = "This package includes the documentation for texlive-unicodefonttable"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0gsvn65009"
+PV = "2026.226.1.0ksvn77682"
 
-RPM_NAME = "texlive-unicodefonttable-doc-2023.209.1.0gsvn65009-54.1.noarch.rpm"
-RPM_HASH = "db1ec5b1b3a8df35c835d42c46f7e9b11add9e638465d7a01dc4be5cf0cf2c9f4f6d2e6f63c8fbbaae1c59311c5b633a5f61c0db6954a106d933c27c47cb4b40"
+RPM_NAME = "texlive-unicodefonttable-doc-2026.226.1.0ksvn77682-60.2.noarch.rpm"
+RPM_HASH = "ea7a05bec55d826930846b416e5c058dc43888f3b720f2f6a3226186e92d8098fda5d126810038cf885eb33944e178e0192cf9807ce875edfdf63de653a3c950"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unicodefonttable-doc"

@@ -8,10 +8,10 @@ page by a watermark or (for custom needs) via provided \
 variables."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64662"
+PV = "2026.226.1.1svn64662"
 
-RPM_NAME = "texlive-gitstatus-2023.209.1.1svn64662-54.2.noarch.rpm"
-RPM_HASH = "3a8c47b68a67006e400c9978c3e12be0f0aed49733a249816b82141f1f1849078327fe277cd58eb20ae0dbb1c2f4faddfbc14ce8723fd571c03adbcedc4cfea9"
+RPM_NAME = "texlive-gitstatus-2026.226.1.1svn64662-60.4.noarch.rpm"
+RPM_HASH = "5d7b38c3784d7213e84bec0b86112d0810ded1c9e99815dd7d56bd72e2a542f2e0e6368748eb0e34e230f6911a3a2aa0dd2f721fd9a83b3f67ec7ab31fb8c362"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gitstatus.sty \

@@ -7,10 +7,10 @@ starts. The author may then either add the hyphenation to the \
 white-list, or adjust the document to avoid the break."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.7asvn47527"
+PV = "2026.226.0.0.7asvn77682"
 
-RPM_NAME = "texlive-lua-check-hyphen-2023.208.0.0.7asvn47527-53.1.noarch.rpm"
-RPM_HASH = "1880840f095795a59a2c09f4ca0d0f817542ea78c38d1ce55ba986ae9b2360deb8993eaab4bdae03c3672591b8d0f1ebbad035be45ff004769100b9e18d96b72"
+RPM_NAME = "texlive-lua-check-hyphen-2026.226.0.0.7asvn77682-59.2.noarch.rpm"
+RPM_HASH = "599c0dc4ceee02689f23b1f1a92ab750fb0ca46366d7ba22dcb867d2060b2fbe85f21ef270fa0c4b7da296ad982d1484e5a14f4e12336ff2683245138c5df838"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lua-check-hyphen.sty \

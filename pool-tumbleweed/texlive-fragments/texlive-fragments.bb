@@ -7,10 +7,10 @@ macro; removefr, for removing 'reset' relations between \
 counters; and subscript, defining a \\textsubscript command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-fragments-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "5e56a301098b8402cc85c86be8fc9541f0c6be36d90035c253ec324db8e1d3b1b28c48134864c27db8d7bf63efb451ae871177a1f5f37baf8dbf0392314c63ee"
+RPM_NAME = "texlive-fragments-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "65cf0c98533dffdc1160297dc5459ecf521910d773f379897ae91d8c3712fc40693413424efb47d7e57e098444586df585128de414aa34930a3961fd6e40fc7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-checklab.tex \

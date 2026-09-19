@@ -1,23 +1,24 @@
 SUMMARY = "Stacked GIT - Source Code Management Tool"
-DESCRIPTION = "StGIT is a Python application providing similar functionality to Quilt \
-(i.e. pushing/popping patches to/from a stack) on top of GIT. These \
-operations are performed using GIT commands and the patches are stored \
-as GIT commit objects, allowing easy merging of the StGIT patches into \
-other repositories using standard GIT functionality."
-LICENSE = "GPL-2.0-or-later"
+DESCRIPTION = "Stacked Git, StGit for short, is an application for managing Git commits \
+as a stack of patches. \
+With a patch stack workflow, multiple patches can be developed \
+concurrently and efficiently, with each patch focused on a single \
+concern, resulting in both a clean Git commit history and improved \
+productivity."
+LICENSE = "GPL-2.0-only"
 
-PV = "1.5"
+PV = "2.6.1"
 
-RPM_NAME = "stgit-1.5-1.8.noarch.rpm"
-RPM_HASH = "e8d2c526e6d37b96edf87c8e832d51b1e23c3ce3339fca7f81869b5fa27aaea661fba00eba3a78dec2c94716a0157d79c835159a1e817d32ade41f97bbd6738e"
-REPO_ARCH = "noarch"
+RPM_NAME = "stgit-2.6.1-3.3.aarch64.rpm"
+RPM_HASH = "f3ecaaf42141aeb098b5cc095e8638aea813c1992c7b828601135afc6210fb5b3be22a76ef2fb2eacc5fdf6c0af2499623c76a3acbb647bfb0d4fc63e0b59352"
 
-RPROVIDES:${PN} += "python3.11dist-stgit \
-python3dist-stgit \
-stgit"
+RPROVIDES:${PN} += "stgit"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-git-core \
-python-abi"
+RDEPENDS:${PN} += "git-core \
+libc.so.6 \
+libcrypto.so.3 \
+libgcc-s.so.1 \
+libssl.so.3 \
+libz.so.1"
 
 inherit rpm

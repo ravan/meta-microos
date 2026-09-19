@@ -16,10 +16,10 @@ This package contains the following checks: \
 * check_udp"
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-tcp-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "9eadb9067f6f1f5eba4a05c2bf6b42005f93391ef3015484d9592062bb9ffcd6d34d1b77c1a678d36b97586f8438889940fb8bad5500ad687d3fe3608b67762f"
+RPM_NAME = "monitoring-plugins-tcp-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "cfe90ad47b468444fb652c0a1f4f6012a04d8fdf1fb4a490ef096a2145db810f4ecd30ad3524361bc1b8198f62beca9b1d1720a55aa2b227e3534896cf442d14"
 
 RPROVIDES:${PN} += "monitoring-plugins-clamd \
 monitoring-plugins-ftp \

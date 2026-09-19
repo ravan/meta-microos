@@ -8,10 +8,10 @@ This package contains a CGI script that visualizes graphs of the \
 collected traffic statistics."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.10"
+PV = "2.13"
 
-RPM_NAME = "vnstat-cgi-2.10-2.3.aarch64.rpm"
-RPM_HASH = "000547f0016041fd2bbd54300ca7076c3493d04d3d5a7cd63907f13a1d357e7bfaaf0506ea07b9aec0d66f6d105dfa48c7f938e9697efac6b373e886f71f4348"
+RPM_NAME = "vnstat-cgi-2.13-1.9.aarch64.rpm"
+RPM_HASH = "397f7e945a74bf40773356fde6e47a0cdcb1cc2d1614569ed68904ac48859b61b420564335caf9cdd3a65151f6784d03a6a3056d4987e758d97983dff7d6996a"
 
 RPROVIDES:${PN} += "config-vnstat-cgi \
 vnstat-cgi"

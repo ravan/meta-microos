@@ -2,10 +2,10 @@ SUMMARY = "Synproxy stats plugin for collectd"
 DESCRIPTION = "Optional collectd plugin to monitor Synproxy stats."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-synproxy-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "58167a1178d329c348834084777a83dd2a2483f2a8fa064ff3424b39b44257ee7aa0c8a0d673bbe05dc8656aa88e0b9fc8ea32291857b22d54678a3936d00e81"
+RPM_NAME = "collectd-plugin-synproxy-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "87c364d1cac594ada7e03970e4f3b9d2b068f52736353740352a9391b4089cebbdfcb09728243f0b11479586a0c9281635564fd082e67f32d91491a9f431877a"
 
 RPROVIDES:${PN} += "collectd-plugin-synproxy"
 

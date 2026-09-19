@@ -16,12 +16,12 @@ Player two controls: \
 Other controls: \
   Enter/exit fullscreen mode: f \
   Quit current game         : escape"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.99.3"
 
-RPM_NAME = "bomns-0.99.3-1.31.aarch64.rpm"
-RPM_HASH = "12d2f924ca212d27b0d2844e3f24d90b16a3d8677fa673fca216f70327c55c4d15c8c48ed39f2cb38e40818418f89cead161e5c1e9f7df07294ca20d40c59774"
+RPM_NAME = "bomns-0.99.3-6.5.aarch64.rpm"
+RPM_HASH = "841786204f26713014049a10776d823e9d38f7c3ea8b722a60112debe242caba4ae064d45efa8e7ca124c3407340f96c69d98d1d12ecfa8a7a4c1aa9f376b668"
 
 RPROVIDES:${PN} += "bomns"
 

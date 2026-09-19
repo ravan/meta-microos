@@ -5,10 +5,10 @@ This package provides the GObject Introspection bindings for the \
 gucharmap library."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "15.0.4"
+PV = "17.0.2"
 
-RPM_NAME = "typelib-1_0-Gucharmap-2_90-15.0.4-1.1.aarch64.rpm"
-RPM_HASH = "0920b5661d63b7ecee33b28cea0bcd2d0582f24d5da6373a6534eca000c5d3ace8a1ce0e2dea008c88b6f2831db964919b94d3d8b324558df1f4c373e4f05bde"
+RPM_NAME = "typelib-1_0-Gucharmap-2_90-17.0.2-1.4.aarch64.rpm"
+RPM_HASH = "ab47cf42e5128db5ca9f5cc5ec4e8162321ecab921088218f2b9d20a503a197a464edfe4b0d909a34c78bc2935bcc294dc164e1d12285177392e6ab2017f096e"
 
 RPROVIDES:${PN} += "typelib-1-0-Gucharmap-2-90 \
 typelib-Gucharmap"

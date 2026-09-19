@@ -6,10 +6,10 @@ Marmalade Quick, Cocos2d-x, GSL-shell, Adobe Lightroom, OpenResty/Nginx and \
 others). It originated from the Estrela Editor."
 LICENSE = "MIT"
 
-PV = "1.90"
+PV = "2.01"
 
-RPM_NAME = "zerobranestudio-1.90-3.6.noarch.rpm"
-RPM_HASH = "eb8790795d2aeeec01edbc0428f7f3a05e81e716ebc654699ccf14c67cb9facf3896fa3478745a4be6718d05aef2253e8e159b85e14bc648883877f1d701b1c4"
+RPM_NAME = "zerobranestudio-2.01-2.3.noarch.rpm"
+RPM_HASH = "7490b7f90e900045c2131dbf130bc835f9c9841bfec28ef2c717b704c601031366f5278fa35254052877391ec701f5b618f6bc8b00b2eeb91cfa05e0bf00f64b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zbstudio \
@@ -19,10 +19,10 @@ zerobranestudio"
 RDEPENDS:${PN} += "/usr/bin/bash \
 Lua-API \
 libwxlua \
-lua-copas \
-lua-lpeg \
-lua-luafilesystem \
-lua-luasec \
-luasocket"
+lua54-copas \
+lua54-lpeg \
+lua54-luafilesystem \
+lua54-luasec \
+lua54-luasocket"
 
 inherit rpm

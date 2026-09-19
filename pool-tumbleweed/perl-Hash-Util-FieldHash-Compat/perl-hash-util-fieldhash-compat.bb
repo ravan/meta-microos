@@ -12,15 +12,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Hash-Util-FieldHash-Compat-0.11-1.25.noarch.rpm"
-RPM_HASH = "e4e5441a0281eace84bbdf96ce6368d75ba24f3d0e96d23f2ab72144c198b1a3b3bb41e4d33d0d06f32a6a99bfa8c31ea804aeb974d70069906cffd4d8657c56"
+RPM_NAME = "perl-Hash-Util-FieldHash-Compat-0.11-1.39.noarch.rpm"
+RPM_HASH = "bf40db2d9e655776c003c29531a5ca05617e446b26f479e24ffe73df076957e486f1690009cc2ba73d91ac08fbdc43940db6ffd2efa568d1ea89489b452b1d51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Hash--Util--FieldHash--Compat \
 perl-Hash--Util--FieldHash--Compat--Heavy \
 perl-Hash-Util-FieldHash-Compat"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-parent"
 
 inherit rpm

@@ -17,9 +17,9 @@ nbdkit-info-plugin          Serves client and server information. \
  \
 nbdkit-memory-plugin        A virtual memory plugin. \
  \
-nbdkit-null-plugin          A null (bitbucket) plugin. \
- \
 nbdkit-ondemand-plugin      Creates filesystems on demand. \
+ \
+nbdkit-ones-plugin          Fill disk with repeated 0xff or other bytes. \
  \
 nbdkit-pattern-plugin       Fixed test pattern. \
  \
@@ -36,10 +36,10 @@ nbdkit-split-plugin         Concatenates one or more files. \
 nbdkit-zero-plugin          Zero-length plugin for testing."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.32.2"
+PV = "1.48.0"
 
-RPM_NAME = "nbdkit-basic-plugins-1.32.2-1.4.aarch64.rpm"
-RPM_HASH = "07cd239c97f6b14195fe3d59df3d75e879132c9f4476b28571ab26bf52c8d5ae5b5168ebb8c4a01de1ae0742c713efcc3baea172a53d32f2a91399b8f8a9a574"
+RPM_NAME = "nbdkit-basic-plugins-1.48.0-1.1.aarch64.rpm"
+RPM_HASH = "6827978eac69135f5732c9c4d018c266d49ef0f20e71ef4a970f8f049f9ce1ea9b40a741831237e515f451544a274e218111d7e011ba1992362f7d441ac9f90b"
 
 RPROVIDES:${PN} += "nbdkit-basic-plugins \
 nbdkit-data-plugin \
@@ -49,15 +49,14 @@ nbdkit-floppy-plugin \
 nbdkit-full-plugin \
 nbdkit-info-plugin \
 nbdkit-memory-plugin \
-nbdkit-null-plugin \
 nbdkit-ondemand-plugin \
+nbdkit-ones-plugin \
 nbdkit-partitioning-plugin \
 nbdkit-pattern-plugin \
 nbdkit-random-plugin \
 nbdkit-sh-plugin \
 nbdkit-sparse-random-plugin \
 nbdkit-split-plugin \
-nbdkit-streaming-plugin \
 nbdkit-zero-plugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

@@ -3,10 +3,10 @@ DESCRIPTION = "Supports the old German orthography (alte deutsche \
 Rechtschreibung)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.5esvn42428"
+PV = "2026.226.2.5esvn42428"
 
-RPM_NAME = "texlive-german-2023.209.2.5esvn42428-53.1.noarch.rpm"
-RPM_HASH = "e871731178303f5950a11f0659d051f8485207704b5ecf0b5ed808ab57747ac9bd949485de8f94697af19e7124e0612a223d3dc6c1290a57e9d59eb0821bde4f"
+RPM_NAME = "texlive-german-2026.226.2.5esvn42428-60.2.noarch.rpm"
+RPM_HASH = "1edf3a8f70a9886aafa462ab88bea7fe29aafcedecc1a4008c1ea0994611d7fa79d6751885e1a1f0cd900ca2a4bfdabcf339e2b6081548c8e5714cab0e0432d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-german.sty \

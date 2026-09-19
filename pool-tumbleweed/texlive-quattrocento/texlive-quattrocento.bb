@@ -10,10 +10,10 @@ also great for display use. Quattrocento Sans is the perfect \
 sans-serif companion for Quattrocento."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64372"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-quattrocento-2023.209.svn64372-54.2.noarch.rpm"
-RPM_HASH = "dcab1f6283b328acef144c24b75563c20b310b1da0279658546a6d4eb1db26acd7ad3d4df6f9d487adea3f9a8f75d248ff283f4997025c90892ac89f8923e7d6"
+RPM_NAME = "texlive-quattrocento-2026.226.svn77682-60.4.noarch.rpm"
+RPM_HASH = "d6b872a8588ee497d294d61bf62941d8c00f6036b1b70f256851ad07b09ecb979189219737e38a931384343893f6993b1a23a6b89de2256d70e6ef12f93ec451"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Quattro-LF.fd \

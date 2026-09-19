@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "libavahi-ui-gtk3-0-0.8-23.1.aarch64.rpm"
-RPM_HASH = "e387695b35c80a9ad4daf61c1d738a97defa76fca9d917b492ac56cb3601b319f45c463ae184274fa1eab9c857e12d1404d1d4b6b185f0f41b0f3208d43a6c52"
+RPM_NAME = "libavahi-ui-gtk3-0-0.8-45.2.aarch64.rpm"
+RPM_HASH = "a228c6f532923a1ca7c746a5ba04b1ec404b9340612ed41be0dbe0675286a2e4164e5d90a5fa8657110345112f23706191f6f4a520966a560bf5d98a1dc54307"
 
 RPROVIDES:${PN} += "libavahi-ui-gtk3-0 \
 libavahi-ui-gtk3.so.0"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "jnr-a64asm-1.0.0-3.1.noarch.rpm"
-RPM_HASH = "5377dc3b50f6f0caab3c44780ff10d5dd0de4683f37da30a75cc13971468690e9c53c6bdaf1da2fabc75c405962327124b842eff259397b4f089cfa2288ee239"
+RPM_NAME = "jnr-a64asm-1.0.0-4.10.noarch.rpm"
+RPM_HASH = "f1290f94716ef32eca71cfd6f2cfa9659ed66188eb597365390cdf015f0567b0c89b04580878a1e2efefe766ff8cf6f551f1e5f3417f8455d13397a9f8211e18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-a64asm \

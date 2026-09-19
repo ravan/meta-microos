@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tabvar"
 DESCRIPTION = "This package includes the documentation for texlive-tabvar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8svn63921"
+PV = "2026.227.1.8svn63921"
 
-RPM_NAME = "texlive-tabvar-doc-2023.209.1.8svn63921-55.1.noarch.rpm"
-RPM_HASH = "4c4627c8b8256952e402c80f8dce77acb68d1924d778cb6c800d4ceaa6506afc715a53241d7ef7f727f203bd4d8038fa71360a8c20871bea7863ee423d9afa54"
+RPM_NAME = "texlive-tabvar-doc-2026.227.1.8svn63921-62.2.noarch.rpm"
+RPM_HASH = "93834686a13136539debb3f1fd2fe244ba4d74aca17863e23c1433c0e1f378c710e825f89a26aef04c86e8bc479732a81e96d65f50e9a2f9dabc834a9debb6ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-tabvar-doc-fr \

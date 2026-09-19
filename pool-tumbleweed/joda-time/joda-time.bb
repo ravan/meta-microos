@@ -9,10 +9,10 @@ Supporting classes include time zone, duration, format \
 and parsing."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.1"
+PV = "2.12.7"
 
-RPM_NAME = "joda-time-2.10.1-2.7.noarch.rpm"
-RPM_HASH = "2e2db0ea0a45b8141e71d6fedc76bf2c5ebdf601510e3bd40ceb3ba6da85772ae2fac4eeddc8830c946cd4d510b9fb92a1c8b56237fb702f8ff38ba881b09d56"
+RPM_NAME = "joda-time-2.12.7-1.8.noarch.rpm"
+RPM_HASH = "1a7821a2cdd537f1001418c505aa194cc4dae2f0082b02cfeec5d50adf0b9dbab45ed2d9f1008963c9f1ade8df06b8e904a18a3b1a792919ba960c813d2481f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "joda-time \

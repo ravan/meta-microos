@@ -6,10 +6,10 @@ Oliver Corff. It provides features like headers in different \
 languages, page numbering in Tibetan and more."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.1svn15878"
+PV = "2026.226.0.0.1svn15878"
 
-RPM_NAME = "texlive-pecha-2023.209.0.0.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "bd3c30670a6d369897030f7ef87c670a6793fdb4dde63eb9b31c9d6f1b459f1d1ccb09a0e6a6fba7d672a1dc27d9410a518bdd22e2a17e27fd4c9f852c01410c"
+RPM_NAME = "texlive-pecha-2026.226.0.0.1svn15878-58.2.noarch.rpm"
+RPM_HASH = "16920eeffe341e01f00aa17fcc78403da9f2c9544d8745adf62bb042016f6cc869d8a9bef9cacaffd6a35bfc5a63b3d10ae11c4338255f866f5e2224c76d2415"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ctibmantra.sty \

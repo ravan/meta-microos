@@ -6,10 +6,10 @@ supporting many language models and frontends. \
 This package provides runtime library for libpinyin."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.8.1"
+PV = "2.10.3"
 
-RPM_NAME = "libpinyin15-2.8.1-1.4.aarch64.rpm"
-RPM_HASH = "075b51294ff5e914ff35c2aa184ae000ad1c8c629cd4373a2addc3bd53518318a5ed9d64f1dd130314577e2de4da042022d3cb25bce7fec382c3a7901ca43f8e"
+RPM_NAME = "libpinyin15-2.10.3-1.7.aarch64.rpm"
+RPM_HASH = "43d025c019c1ddcc32ab6f7d717e74a04e42e2cd1716724840ba036d43168d09a498e320acb1d00833eddc8313c7cbeb2774092e2a2168aa8c31fc4bfd7ad8a3"
 
 RPROVIDES:${PN} += "libpinyin.so.15 \
 libpinyin15"

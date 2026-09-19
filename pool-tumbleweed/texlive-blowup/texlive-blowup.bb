@@ -5,10 +5,10 @@ document. It is similar to the TeX primitive \\magnification but \
 more accurate and user-friendly."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.0svn64466"
+PV = "2026.226.2.2.0svn77682"
 
-RPM_NAME = "texlive-blowup-2023.209.2.1.0svn64466-53.1.noarch.rpm"
-RPM_HASH = "4e894842a9128964473d654a85c59bf9f6f53f4e600c1b959d2e413c7a17f3bd46c2ee17d6bcae0eaa65408eb44b6aa228cc64c5198c289f6dc49df0ba90eb80"
+RPM_NAME = "texlive-blowup-2026.226.2.2.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "51e3c068093c7c85df96578ff405167a20ddb1d89f0c8d7f9a191548cae9db6eb2be1d832f0ae4ed69f480ee9e2dd1cb5b3ee7ebe4c334e31626be0d86ff9df8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blowup.sty \
@@ -20,7 +20,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-atbegshi.sty \
 tex-graphics.sty \
 tex-iftex.sty \
 tex-keyval.sty \

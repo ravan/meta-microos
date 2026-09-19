@@ -9,17 +9,17 @@ They can also be read from, searched and replaced, and navigated in, \
 similar to a file or stream."
 LICENSE = "MIT"
 
-PV = "3.1.9"
+PV = "4.3.1"
 
-RPM_NAME = "python311-bitstring-3.1.9-1.8.noarch.rpm"
-RPM_HASH = "c4ecefd9fda3244ef7097f91697e627059f12377a63193ee407952f265277c90808754bf6b14d27840b8530703e1f0c8922cff6c9a0a098a2c6276129018e0e2"
+RPM_NAME = "python311-bitstring-4.3.1-1.1.noarch.rpm"
+RPM_HASH = "18187d5b2865e0f78b4a7ede6edceea56e82c593a63484f60f73ea7cbb89cc6141a0296252a87e6846e51d66a3eb905be9cc800b0b337d927e2d541e7e8e08ce"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-bitstring \
-python3.11dist-bitstring \
+RPROVIDES:${PN} += "python3.11dist-bitstring \
 python311-bitstring \
 python3dist-bitstring"
 
-RDEPENDS:${PN} += "python-abi"
+RDEPENDS:${PN} += "python-abi \
+python311-bitarray"
 
 inherit rpm

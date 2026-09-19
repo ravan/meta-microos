@@ -1,12 +1,12 @@
 SUMMARY = "Introspections files for libportal"
-DESCRIPTION = "A GIO-style async APIs for most Flatpak portals. \
+DESCRIPTION = "A GIO-style async API for most Flatpak portals. \
 This package contains the introspection files of libportal."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.7"
+PV = "0.10.0"
 
-RPM_NAME = "typelib-1_0-XdpGtk4-1_0-0.7-1.1.aarch64.rpm"
-RPM_HASH = "17b521ab0c601687d94e45ee7b685755a9a686d48683b27767fb486fa366577e5a5cbfc30b0498e532a5fefaa4a8d6d673a62afcab9025a03ce114c5941616d9"
+RPM_NAME = "typelib-1_0-XdpGtk4-1_0-0.10.0-1.2.aarch64.rpm"
+RPM_HASH = "5aaa7f4d773ca151598a4538de5de2757fd5206491e0aa9924db71b33adf0d639c64f7054279b9513278b051c0710fe9e76632df10559801540a9778f8d67843"
 
 RPROVIDES:${PN} += "typelib-1-0-XdpGtk4-1-0 \
 typelib-XdpGtk4"

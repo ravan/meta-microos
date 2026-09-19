@@ -2,10 +2,10 @@ SUMMARY = "A collection of plugins for xviewer"
 DESCRIPTION = "This package contains plugins for additional features in xviewer."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.1"
+PV = "3.4.3"
 
-RPM_NAME = "xviewer-plugins-1.4.1-1.7.aarch64.rpm"
-RPM_HASH = "03638c44fb1b72672b30a96de08d3747e04c5de16d0730bb258ed40942f009c41506bb6fbb917d71c6df9564347982a0a0616346e0495889cd4e27719181ad72"
+RPM_NAME = "xviewer-plugins-3.4.3-1.2.aarch64.rpm"
+RPM_HASH = "78f236861179705eb56b373a45f67176fc11569b528a602a5c21287c527e2d6f881c495881e1d06052ad5bba7a540bb7090096ef18611a3ecfd7f904da25d19a"
 
 RPROVIDES:${PN} += "xviewer-plugins"
 

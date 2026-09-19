@@ -3,10 +3,10 @@ DESCRIPTION = "The environment will centre text, if immediately preceded and \
 followed by \\clearpage."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn17484"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-midpage-2023.209.1.1asvn17484-55.1.noarch.rpm"
-RPM_HASH = "4ff7e812664984a5b9c688b0a07edec3293fbe75fb2a28b5eedf6f62e30b2a8c78f54127d66bef18c84feba90ce0f6fad4028618d3ebb5c8de3262d688f60703"
+RPM_NAME = "texlive-midpage-2026.226.1.1asvn77682-61.2.noarch.rpm"
+RPM_HASH = "db53f8c6cb7bab0083f7a1ac12c358257e58b12600ed275f77aa9673854c770180fbc4cee1639b2f2bd226ba69ffa933c6647fc7d25a30b2105df3b67035adc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-midpage.sty \

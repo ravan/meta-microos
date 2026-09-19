@@ -5,10 +5,10 @@ names. It can be used to determine which resources a particular \
 program will load."
 LICENSE = "X11"
 
-PV = "1.0.6"
+PV = "1.0.7"
 
-RPM_NAME = "appres-1.0.6-1.7.aarch64.rpm"
-RPM_HASH = "eb758ef2d7d0aeae410bde8a92be0d8d9e872dacd9fa00536cb16376e3cd3e57981a99e5dc201547b34714f4631408b0c94c3d928a2dbc605adeeea00a92f9a0"
+RPM_NAME = "appres-1.0.7-1.9.aarch64.rpm"
+RPM_HASH = "04902fdefcb30d98c7a193a55e627dd93d98407768a077abd2f0ffea24a1e3d9a395c9995d2895a57845a0a34e80a7777cfb8a5f0c396818b95dc871f168b9fb"
 
 RPROVIDES:${PN} += "appres"
 

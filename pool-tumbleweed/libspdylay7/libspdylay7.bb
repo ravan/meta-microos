@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "libspdylay7-1.4.0-3.27.aarch64.rpm"
-RPM_HASH = "a7fdc2c725f22745b6789f6033edac3beb27f11f6e2b253c2af5417d6c0f543aa97bcb0642b3fb4fc857cae01fbc0fd182bf382e92690537d3b348e625d9f5ac"
+RPM_NAME = "libspdylay7-1.4.0-3.38.aarch64.rpm"
+RPM_HASH = "ba4c1b48dc4cd6b4993e3fca82ea5cd92dfad7433d15b24d2edc9997620a385d2191039ccd038873ca4086fbbdea9f32defb040340a48d03ffcb44184ec60557"
 
 RPROVIDES:${PN} += "libspdylay.so.7 \
 libspdylay7"

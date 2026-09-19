@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bibtopic"
 DESCRIPTION = "This package includes the documentation for texlive-bibtopic"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1asvn15878"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-bibtopic-doc-2023.209.1.1asvn15878-54.1.noarch.rpm"
-RPM_HASH = "2ee03001eead43993a5d6e1f65c1fd18988c36333263a86a999f98a6cbf8f6b400b339b207f8a1e013427ac8b65b673163259f6294c3ce13298f46aca925c9dc"
+RPM_NAME = "texlive-bibtopic-doc-2026.226.1.1asvn77682-61.2.noarch.rpm"
+RPM_HASH = "051f08218c04f22fbf0cd86061cac1abaa654bd355f03c686051f061573986dd1835bcf494346e08a0491801fd0f8575a6854cf85bad40b0baab33780214f649"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bibtopic-doc"

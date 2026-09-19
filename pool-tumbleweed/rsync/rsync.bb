@@ -9,13 +9,12 @@ source files and the existing files in the destination. Rsync is widely used \
 for backups and mirroring and as an improved copy command for everyday use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.7"
+PV = "3.4.3"
 
-RPM_NAME = "rsync-3.2.7-3.1.aarch64.rpm"
-RPM_HASH = "77bf49e4478282f8341851c4f520e80d393af0163aa89c7987a0c197d9020ae7492c689b41e919f9dde4b08449d9662be27bafb527b7a7ecdcc09f3d607e4491"
+RPM_NAME = "rsync-3.4.3-2.3.aarch64.rpm"
+RPM_HASH = "5f2126c4f563569cc679fef06019249520adaa956e9e9d507afeba3b5e487d78390d9a31d73478e64ebfb951e460178de4bb5be25dd09601c62871ab61cd425e"
 
-RPROVIDES:${PN} += "config-rsync \
-rsync"
+RPROVIDES:${PN} += "rsync"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/sh \
@@ -26,7 +25,6 @@ libc.so.6 \
 libcrypto.so.3 \
 liblz4.so.1 \
 libpopt.so.0 \
-libslp.so.1 \
 libxxhash.so.0 \
 libz.so.1 \
 libzstd.so.1 \

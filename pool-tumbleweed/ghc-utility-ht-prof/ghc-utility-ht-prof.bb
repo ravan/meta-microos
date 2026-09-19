@@ -2,15 +2,15 @@ SUMMARY = "Haskell utility-ht profiling library"
 DESCRIPTION = "This package provides the Haskell utility-ht profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.17"
+PV = "0.0.17.2"
 
-RPM_NAME = "ghc-utility-ht-prof-0.0.17-1.5.aarch64.rpm"
-RPM_HASH = "7186e8599673f89d65d89b585c0ddaef57e2af1550780e6db83a4fa47cc935cc15ad8c6efe077d0399c3c1dba9c72c90128c27a1268176c7848a6454b6c97e11"
+RPM_NAME = "ghc-utility-ht-prof-0.0.17.2-1.16.aarch64.rpm"
+RPM_HASH = "306d4ee457842cee6d8f95e5b301ff9b2501891a3968230c5c839821ccff95e0029648ea880dc4f44ddc9605768a92d9eb866606bf18810a7057c550e4470789"
 
-RPROVIDES:${PN} += "ghc-prof-utility-ht-0.0.17-7cPYZhnhJbDGSMxoZBrT62 \
+RPROVIDES:${PN} += "ghc-prof-utility-ht-0.0.17.2-E9mYTmSklQHJf02bWgeDJF \
 ghc-utility-ht-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
 ghc-utility-ht-devel"
 
 inherit rpm

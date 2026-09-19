@@ -5,10 +5,10 @@ APIs can be used in conjunction with a JCE/JCA provider such as the one \
 provided with the Bouncy Castle Cryptography APIs."
 LICENSE = "MIT"
 
-PV = "1.74"
+PV = "1.85"
 
-RPM_NAME = "bouncycastle-pkix-1.74-1.1.noarch.rpm"
-RPM_HASH = "f191fc8c6a5df9c8513e3dbc8cf18fa37eeb98887b330aff0fb04c0730159b5f6c3d119b5f1c5f28103e9b89aa10bff3d3d4222ad639f51828b0d9d586ea34a8"
+RPM_NAME = "bouncycastle-pkix-1.85-1.1.noarch.rpm"
+RPM_HASH = "fe72e83526bd89afd6aad8bdcdb6b183b4fa6961dec17820d3bfd5915b7d5d9889ffd3606576bf53d7078e33021d161b212b4c33c0a87968f722ce29c8c64406"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-pkix \
@@ -26,11 +26,8 @@ mvn-org.bouncycastle-bcpkix-jdk18on \
 mvn-org.bouncycastle-bcpkix-jdk18on-pom- \
 osgi-bcpkix"
 
-RDEPENDS:${PN} += "bouncycastle \
-bouncycastle-util \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.bouncycastle-bcprov-jdk18on \
 mvn-org.bouncycastle-bcutil-jdk18on"
 
 inherit rpm

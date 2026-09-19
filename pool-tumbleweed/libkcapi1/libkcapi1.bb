@@ -1,11 +1,11 @@
 SUMMARY = "Linux Kernel Crypto API User Space Interface Library"
 DESCRIPTION = "libkcapi allows user-space to access the Linux kernel crypto API."
-LICENSE = "GPL-2.0-only"
+LICENSE = "BSD-3-Clause | GPL-2.0-only"
 
-PV = "1.4.0"
+PV = "1.5.0"
 
-RPM_NAME = "libkcapi1-1.4.0-2.5.aarch64.rpm"
-RPM_HASH = "5710ae86ec02641048f7771dda250c9589ad52793c61ecc421705e475fce0e1f52ace1f44e04fc9132473c3586562034effa6b9b0b17063cd93434c45d9b61e5"
+RPM_NAME = "libkcapi1-1.5.0-1.9.aarch64.rpm"
+RPM_HASH = "8e647c106873b2730e0b094745dbd014f0447e201ddf44b4a8932284fd218adff51298a39398291d5cb90c357bc3927577019c332a202abbd9c2774c0b73435c"
 
 RPROVIDES:${PN} += "libkcapi.so.1 \
 libkcapi1"

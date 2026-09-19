@@ -6,10 +6,10 @@ which increase the sampling quality and, therefore, the efficiency of a \
 renderer."
 LICENSE = "Apache-2.0"
 
-PV = "0.4.1"
+PV = "0.7.1"
 
-RPM_NAME = "libopenpgl0-0.4.1-1.4.aarch64.rpm"
-RPM_HASH = "ac760216427d34e5f2cf18abe77b06f811b9a6127d187f0b226cb58ee1e189963fbd363726576208bd7ad6d3dea5f2b2b8dcd3bf295494a0b8e78e16963f4fd7"
+RPM_NAME = "libopenpgl0-0.7.1-1.5.aarch64.rpm"
+RPM_HASH = "f45a34d04886264ad18d1aa8c6b53c8a39744d2f3ebe3c1748e67cba2b51bb270be5478f2c1af40de1c30fa3bf0f7aebe5ad29b5a382c662f3c9c58df66baff9"
 
 RPROVIDES:${PN} += "libopenpgl.so.0 \
 libopenpgl0"

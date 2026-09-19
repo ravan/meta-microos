@@ -9,10 +9,10 @@ manipulates real files, the second one is made for manipulating \
 abstract filenames."
 LICENSE = "SUSE-LGPL-2.0-with-linking-exception"
 
-PV = "0.6.4"
+PV = "0.6.6"
 
-RPM_NAME = "ocaml-fileutils-0.6.4-1.4.aarch64.rpm"
-RPM_HASH = "69e20861732b5769b5a63aa2c4bc09bae001f0d350784f07bfb33355fd71ef7e7e4258373e77f41b5a3c129bb5e3dcc2849e7e8d4c24fa89a4cffb4ae764d59f"
+RPM_NAME = "ocaml-fileutils-0.6.6-2.1.aarch64.rpm"
+RPM_HASH = "68af23eb0db232d578d0d4ee737dd14ecbfadf71391aede41f42eba7a119aeef1eae2c8cdc61d3630c5b064cb56388bebd94b3844f8d8de6eeb575c5979194af"
 
 RPROVIDES:${PN} += "ocaml-fileutils"
 

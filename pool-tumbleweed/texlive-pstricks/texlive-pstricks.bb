@@ -17,10 +17,10 @@ document is processed XeTeX, without the need for other \
 supporting packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.18svn65346"
+PV = "2026.226.3.22asvn78101"
 
-RPM_NAME = "texlive-pstricks-2023.209.3.18svn65346-54.2.noarch.rpm"
-RPM_HASH = "be5b60fb62e1cdf4366707beef8e104807d453f889295bd54570e2f6833859776eb4c1b98403c0b328770741cfe9166caceb3eb73d538ce192ba31a944de1714"
+RPM_NAME = "texlive-pstricks-2026.226.3.22asvn78101-60.4.noarch.rpm"
+RPM_HASH = "33982737c6fa8ef886cca868c716632768d48face37697663482b9a583474bf3758c6e1d20c4e9dd70bd8e3083913fdeb67e591b3b32d7e5770e070729cbfdba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-README.cfg \
@@ -29,6 +29,13 @@ tex-dvips.cfg \
 tex-dvipsone.cfg \
 tex-gastex.cfg \
 tex-pst-all.sty \
+tex-pst-code-arc.tex \
+tex-pst-code-box.tex \
+tex-pst-code-circle-ellipse.tex \
+tex-pst-code-grid.tex \
+tex-pst-code-pspicture.tex \
+tex-pst-code-put.tex \
+tex-pst-code-ref-rot.tex \
 tex-pst-doc.cls \
 tex-pst-fp.tex \
 tex-pst-key.sty \
@@ -38,6 +45,7 @@ tex-pstricks-arrows.tex \
 tex-pstricks-color.tex \
 tex-pstricks-dots.tex \
 tex-pstricks-pdf.sty \
+tex-pstricks-plain.tex \
 tex-pstricks-tex.def \
 tex-pstricks-xetex.def \
 tex-pstricks.sty \
@@ -62,20 +70,24 @@ tex-biblatex.sty \
 tex-booktabs.sty \
 tex-calc.sty \
 tex-caption.sty \
+tex-csquotes.sty \
 tex-eso-pic.sty \
 tex-everyshi.sty \
 tex-fancyvrb.sty \
 tex-fontenc.sty \
+tex-fontspec.sty \
 tex-footmisc.sty \
-tex-geometry.sty \
 tex-graphicx.sty \
 tex-ifpdf.sty \
 tex-ifplatform.sty \
 tex-iftex.sty \
+tex-juliamono.sty \
 tex-libertinus-otf.sty \
 tex-lscape.sty \
+tex-lua-unicode-math.sty \
 tex-makeidx.sty \
 tex-manfnt.sty \
+tex-minted-code.sty \
 tex-multido.sty \
 tex-nameref.sty \
 tex-paralist.sty \
@@ -90,17 +102,14 @@ tex-pst-pdf.sty \
 tex-pst-plot.sty \
 tex-pst-text.sty \
 tex-pst-tree.sty \
-tex-pst-xkey.sty \
 tex-pstricks-add.sty \
 tex-ragged2e.sty \
-tex-scrartcl.cls \
 tex-scrlayer-scrpage.sty \
 tex-setspace.sty \
 tex-showexpl.sty \
 tex-subfig.sty \
 tex-tabularx.sty \
 tex-textcomp.sty \
-tex-unicode-math.sty \
 tex-varioref.sty \
 tex-xcolor.sty \
 tex-xkeyval.sty \

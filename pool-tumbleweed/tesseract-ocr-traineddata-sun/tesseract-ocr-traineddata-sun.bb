@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Sundanese l
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-sun-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "b413780b5d9a771bfd90c1a0c954a717e526eed0cd9937508618f44715faf7e8fd57aa524f909f311cd6e8f51ee5ec4b4ab329c8e719204f591e112fd0687116"
+RPM_NAME = "tesseract-ocr-traineddata-sun-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "35e218801b5093402efc0f66462313a09824a83539349999abaf1c5bbbd7a1541f437978bb06b1a6180ead13a52406948e79a45bc86b6bfd7192a270ec533c6d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-sun \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-su \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-sun \
 tesseract-ocr-traineddata-sundanese \
 tesseract-traineddata-sundanese"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

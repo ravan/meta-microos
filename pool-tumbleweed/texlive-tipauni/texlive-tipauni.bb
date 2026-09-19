@@ -14,10 +14,10 @@ Unicode. It needs the New Computer Modern font for printing IPA \
 characters."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.7asvn65817"
+PV = "2026.226.0.0.7asvn65817"
 
-RPM_NAME = "texlive-tipauni-2023.209.0.0.7asvn65817-53.1.noarch.rpm"
-RPM_HASH = "52f1cdf9e391dd5716dfa4c4e6d66e0fbdccf5bae905c0d0f841c54bbbe88afd074612331a3514b971dc48685ee80a27660c7ee2547c25a9da4378a12e9d7d3a"
+RPM_NAME = "texlive-tipauni-2026.226.0.0.7asvn65817-59.2.noarch.rpm"
+RPM_HASH = "901ce27e974862c3341b78eeee7ae6795b46f74f8ade8dab3690e1daba2bcf63c06899b67b8ee877188381c96fbe78047844ba069e487d50ed0887650999ee1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tipauni.sty \

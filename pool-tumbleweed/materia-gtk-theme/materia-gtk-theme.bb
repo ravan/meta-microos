@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "20210322"
 
-RPM_NAME = "materia-gtk-theme-20210322-1.6.noarch.rpm"
-RPM_HASH = "892db19f812290d10ced49e5825be00d850f7feea7e6e3322b85f554ceeb9440fc5ce4c898529e65cca293fe328cc003d52f8c2fbac3406c7549683a6500c19d"
+RPM_NAME = "materia-gtk-theme-20210322-1.14.noarch.rpm"
+RPM_HASH = "c20d66e6d480be52376d43b1f8666d2c322003c838d2b803ef2f68231da05cf03dc09b92a8988f72f184e0d7daa91b1551441fcc85c2282a450a4bbee32fe13e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "materia-gtk-theme"

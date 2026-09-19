@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hagenberg-thesis"
 DESCRIPTION = "This package includes the documentation for texlive-hagenberg-thesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65819"
+PV = "2026.226.svn74272"
 
-RPM_NAME = "texlive-hagenberg-thesis-doc-2023.209.svn65819-54.2.noarch.rpm"
-RPM_HASH = "b449ad73765a3a298589ed2e729f27c97fb5cdcc5b9c3eda8fac61b07a3ea92503328236809f1244cd8800648dc87a127c703476e666da662bd2623619744aba"
+RPM_NAME = "texlive-hagenberg-thesis-doc-2026.226.svn74272-60.4.noarch.rpm"
+RPM_HASH = "4a615dff3455741cb619c738620b22c8bb6077082686e12a3593eb270bd7ead3439cee50c0760ff6af094ec259982709efd166e59f64f579b7445bb7e658749d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hagenberg-thesis-doc-de;en \

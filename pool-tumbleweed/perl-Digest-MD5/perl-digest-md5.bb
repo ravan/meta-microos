@@ -1,4 +1,4 @@
-SUMMARY = "Perl interface to the MD5 Algorithm"
+SUMMARY = "Perl interface to the MD-5 algorithm"
 DESCRIPTION = "The 'Digest::MD5' module allows you to use the RSA Data Security Inc. MD5 \
 Message Digest algorithm from within Perl programs. The algorithm takes as \
 input a message of arbitrary length and produces as output a 128-bit \
@@ -15,16 +15,16 @@ well as an object oriented interface that can handle messages of arbitrary \
 length and which can read files directly."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.58"
+PV = "2.590.0"
 
-RPM_NAME = "perl-Digest-MD5-2.58-1.17.aarch64.rpm"
-RPM_HASH = "1984adf517cff8cac80ebc46bbce38ed636fecc549f0aa8ca254b87c0170cc817db45d26f9b46790423fc39b198716b0a26edb886b96bb5838d4dfb6e2b6683c"
+RPM_NAME = "perl-Digest-MD5-2.590.0-2.14.aarch64.rpm"
+RPM_HASH = "be07fd9d1e069cec2d97332f94947ac414ed9c977d3febde9c26cb36bdc3524a880ca2899ecf7b17be29e69363f1f4d506ef6fc556a7536702fb4b2589e3205b"
 
 RPROVIDES:${PN} += "perl-Digest--MD5 \
 perl-Digest-MD5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -9,10 +9,10 @@ combining coffins (using l3coffins) with the placement \
 mechanisms of atbegshi."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn64465"
+PV = "2026.226.0.0.1svn76924"
 
-RPM_NAME = "texlive-abspos-2023.209.0.0.1svn64465-55.1.noarch.rpm"
-RPM_HASH = "e7e9ab63adea21aeee09a1d036d37441106cc9020c12af1dfc44669a326ff7f7fac900ae675f57e98cbee7a7580f84406a89deac9d7772a93e7cc00c3d2640d6"
+RPM_NAME = "texlive-abspos-2026.226.0.0.1svn76924-61.2.noarch.rpm"
+RPM_HASH = "073dc0fc0e27ded2c38b95d4ddf5accc362e6848629617d57e10f999cae2904968c84663ea60ca792d7800ad7e8892be5fd4225f21dc1adaf857250c66292752"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-abspos.sty \

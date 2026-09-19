@@ -2,10 +2,10 @@ SUMMARY = "Documentation for fontconfig"
 DESCRIPTION = "Extended documentation for the fontconfig library."
 LICENSE = "MIT"
 
-PV = "2.14.2"
+PV = "2.18.1"
 
-RPM_NAME = "fontconfig-doc-2.14.2-1.4.noarch.rpm"
-RPM_HASH = "c998bd8546551c31146cc0fbd1d40e09f2c53cdee1fa53eb17b25356db709268e995e3c3202a1d3716fe5d2bac285123ae5a21235c42ee5b70988b94310b530f"
+RPM_NAME = "fontconfig-doc-2.18.1-1.3.noarch.rpm"
+RPM_HASH = "0575d3b4a5892a63c6a876977e632f8b2b69991c34c8361bdc8a4ac52ab2b619390191abf2eb02ddb35f3d6d2bbecb5f09faea7587556b71701f2925500acb23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontconfig-doc"

@@ -7,10 +7,10 @@ that enables temperature reading and fan control from userspace. \
 Don't forget to set the desired temperature values in /etc/thinkfan.conf"
 LICENSE = "GPL-3.0-only"
 
-PV = "1.3.1"
+PV = "2.0.0"
 
-RPM_NAME = "thinkfan-1.3.1-2.9.aarch64.rpm"
-RPM_HASH = "a9bc953b8ae1302e9c70cd46cd61d18f1e5888004e383b951231d36d2fe427b60751ea4dfcaf70256c7ffa1700f252a00ff9a41e712843cb2223be16ba34525f"
+RPM_NAME = "thinkfan-2.0.0-1.1.aarch64.rpm"
+RPM_HASH = "8497a5977bc2f111ca9594ba0725415454b0f4d11989099feff3ebf7bdafc92b63587c5535f6732c4013a05f42d4462d34a44fb7cfdb0f6c9b7c771231f00d82"
 
 RPROVIDES:${PN} += "config-thinkfan \
 thinkfan"
@@ -20,7 +20,8 @@ ld-linux-aarch64.so.1 \
 libatasmart.so.4 \
 libc.so.6 \
 libgcc-s.so.1 \
+libsensors.so.4 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.8"
+libyaml-cpp.so.0.9"
 
 inherit rpm

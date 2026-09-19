@@ -3,10 +3,10 @@ DESCRIPTION = "The ipmiutil-devel package contains headers and libraries which a
 useful for building custom IPMI applications."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.8"
+PV = "3.2.2"
 
-RPM_NAME = "ipmiutil-devel-3.1.8-1.5.aarch64.rpm"
-RPM_HASH = "49103a06f506206550ca2b498b2fb9d2c4b9f09b3956975e7b88ffe8b7cd8843a715e70755a006bd7c4cf3f8b0700b2ab6fcc320cdd19327e366c7c8b16f26dd"
+RPM_NAME = "ipmiutil-devel-3.2.2-1.4.aarch64.rpm"
+RPM_HASH = "bd4c5c81df0748157755d9b5a9e54a32a7f17194540be5ddb1f07d7d6d70e3119e1368b7c1a50557ba988c65e64005d96337fa752c68e3037b96ae6c47f8189a"
 
 RPROVIDES:${PN} += "ipmiutil-devel \
 libipmiutil.so.1"

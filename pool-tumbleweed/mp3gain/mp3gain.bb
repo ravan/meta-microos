@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.2"
 
-RPM_NAME = "mp3gain-1.6.2-2.14.aarch64.rpm"
-RPM_HASH = "de8c7c1d34a07aefeab31f31e6091f05186d2b1862eccd6f1a9e37605f7214357f3eebfaaffcdbca61ffbea4fd3a64d02addbb07e4b7b8494de8fae484c6718d"
+RPM_NAME = "mp3gain-1.6.2-3.9.aarch64.rpm"
+RPM_HASH = "07576c7c9e9c15599646423a66db8aaab8df7742e9c056220104d1ebf19fe55de74965584452e22413957296bb0abda63716eaf27de5c08b8f08af3e3453435a"
 
 RPROVIDES:${PN} += "mp3gain"
 

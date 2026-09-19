@@ -13,10 +13,10 @@ The reading and writing registers may be in decimal, hexadecimal or \
 floating single precision."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.4.11"
+PV = "1.5.4"
 
-RPM_NAME = "mbpoll-1.4.11-1.9.aarch64.rpm"
-RPM_HASH = "3f8ac81ae84501e9c9e14bf77feebb7b4166afc4f9131e2f039300a9035e51d02b2d85a0d2eff862807efd0a7baf0e69453090c5373495dcd53ed3bd0064c38d"
+RPM_NAME = "mbpoll-1.5.4-1.5.aarch64.rpm"
+RPM_HASH = "1c906b1f8bcea2528615da9faa822688914b9a81c15458859c16743a07c5971bdeaf6e2b75ea797a80b86d5a1110bb50c7d54463e2fe2d2de554c8111ebc7524"
 
 RPROVIDES:${PN} += "mbpoll"
 

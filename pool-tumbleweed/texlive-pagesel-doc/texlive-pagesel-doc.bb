@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pagesel"
 DESCRIPTION = "This package includes the documentation for texlive-pagesel"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10svn56105"
+PV = "2026.226.1.10svn77682"
 
-RPM_NAME = "texlive-pagesel-doc-2023.209.1.10svn56105-52.1.noarch.rpm"
-RPM_HASH = "865883900911c8f3e22e7cd70664e114a74a69fc2b62b89dcb4c48e3650c19414342fcfaf9dc0087524f1ff5366a0eacceca19de2a541a2b76bde89499f59a47"
+RPM_NAME = "texlive-pagesel-doc-2026.226.1.10svn77682-58.2.noarch.rpm"
+RPM_HASH = "db4f2c5f72408b12e625e0c4fc5a1787c729020c6cf7e1bfde7d6340253df9d9c6652cd7bdfa61e23d9c5cb4a93ec0bf3e828bed283b9a454f0ef4eac2dc9a58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pagesel-doc-en \

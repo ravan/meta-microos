@@ -2,28 +2,21 @@ SUMMARY = "Plasma widget to view address book contacts"
 DESCRIPTION = "This package provides a Plasma widget to view address book contacts."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "merkuro-plasmoid-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "5c2a41af57292dfd621e2fcde3e19781fa27a3d5926c97bb031d5d9d3983fc7c95081a53af77cec0c07de1415aedd158eeeb83b5c800edab9540c5acff65e59b"
+RPM_NAME = "merkuro-plasmoid-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "be2d297f01c3d8850f91c5f3d711a9981b4b37d65dfe8a9787a6f8262c6ff91abf3c4d8093f81623589e813596612e61eb3a147d304df3daba7e1872ab71f221"
 
 RPROVIDES:${PN} += "kalendar-plasmoid \
 merkuro-plasmoid"
 
-RDEPENDS:${PN} += "merkuro \
-qt5qmlimport-QtGraphicalEffects.1 \
-qt5qmlimport-QtQml.2 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Controls.2 \
-qt5qmlimport-QtQuick.Layouts.1 \
-qt5qmlimport-org.kde.kirigami.2 \
-qt5qmlimport-org.kde.kitemmodels.1 \
-qt5qmlimport-org.kde.kquickcontrolsaddons.2 \
-qt5qmlimport-org.kde.merkuro.contact.1 \
-qt5qmlimport-org.kde.plasma.components.3 \
-qt5qmlimport-org.kde.plasma.core.2 \
-qt5qmlimport-org.kde.plasma.extras.2 \
-qt5qmlimport-org.kde.plasma.plasmoid.2 \
-qt5qmlimport-org.kde.prison.1"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF6CoreAddons.so.6 \
+libPlasma.so.7 \
+libQt6Core.so.6 \
+libQt6Qml.so.6 \
+libc.so.6 \
+libstdc++.so.6 \
+merkuro"
 
 inherit rpm

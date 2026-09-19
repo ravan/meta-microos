@@ -5,10 +5,10 @@ include files and development applications like GUI designers, \
 translator tools and code generators."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libqt5-qtbase-devel-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "4798e79fcd377fcecb8bbe559cc1cb00d4dd93e50fff6da09e40ae1f84c145aeadd48da2f9bc58fc362760a1b30994d4d903304cc981c5c6ff09623cb6cfe205"
+RPM_NAME = "libqt5-qtbase-devel-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "e1514bb8269d22051c1384b6f78c074a6cadcf57a29d0e49f14a1e818499fccabd0bc98fc7148915b31481ae269f4a416b8f1eef428ece6dedb52ce7301c6144"
 
 RPROVIDES:${PN} += "libqt5-qtbase-devel"
 

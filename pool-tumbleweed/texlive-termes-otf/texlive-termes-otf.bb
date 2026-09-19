@@ -5,10 +5,10 @@ LuaLaTeX or XeLaTeX. The missing typefaces like bold math and \
 slanted text are also defined."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn64733"
+PV = "2026.227.0.0.02svn77682"
 
-RPM_NAME = "texlive-termes-otf-2023.209.0.0.02svn64733-55.1.noarch.rpm"
-RPM_HASH = "da246bd3aba96e53110ff775d518f8fcddb7387e542cd4199c7bd15e788b66b7ee4b4860a173dcffc1c45dbb300b6e70914ed92973bd21d0aaec5d0c8fd0401c"
+RPM_NAME = "texlive-termes-otf-2026.227.0.0.02svn77682-62.2.noarch.rpm"
+RPM_HASH = "0f30c5b56e2695f82f44e1dcd83aba93176809dc929495b48e8fba4d9fef6e24898f69873dea49b4b09020f404b3e3806d5ee418e29e0595b9a48244839bb54d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-termes-otf.sty \

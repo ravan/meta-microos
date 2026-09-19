@@ -3,10 +3,10 @@ DESCRIPTION = "flnews is a FLTK-based client with graphical user interface to re
 USENET newsgroups."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.1.0"
+PV = "1.2.1"
 
-RPM_NAME = "flnews-1.1.0-1.7.aarch64.rpm"
-RPM_HASH = "cfffa33a4c35ba6a07be2440765a93460a464de29a254ecbd4469d6a098e6b39a9b29857c5fcd6403b96f943a182e9cd9028e282f14e4adcfe85749e97c41fa1"
+RPM_NAME = "flnews-1.2.1-1.9.aarch64.rpm"
+RPM_HASH = "e65cdb6711c9f753f46b43d6800fe9661768770291a532c91a185171b250848977f2a482358c3434caaca70e1c4d3e53a344cad0e32a0c6f5f9ce051b53f1cb5"
 
 RPROVIDES:${PN} += "flnews"
 

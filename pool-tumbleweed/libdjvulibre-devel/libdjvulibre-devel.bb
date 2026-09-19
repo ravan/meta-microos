@@ -5,10 +5,10 @@ software platform for distributing documents and images. \
 This package contains the development files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5.28"
+PV = "3.5.30"
 
-RPM_NAME = "libdjvulibre-devel-3.5.28-6.1.aarch64.rpm"
-RPM_HASH = "935b05c4bb6724bd7a24afcd0bdd885856cb2ae8b3b153b993352c8b5bcdf87ee7472d31addc7e639c9bf96f8637cbd8083b5a61f74a6f5839fd363966fafa57"
+RPM_NAME = "libdjvulibre-devel-3.5.30-1.3.aarch64.rpm"
+RPM_HASH = "a2dcadaf004cf4bc177f00dbe6eeeb0044548ee84f1576a9f22157bda20c46c7c8059a40bf65622bc44dcbacf8b262b825bf75ff5608a55970624a5bdbbbef30"
 
 RPROVIDES:${PN} += "libdjvulibre-devel \
 pkgconfig-ddjvuapi"

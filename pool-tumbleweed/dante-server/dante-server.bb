@@ -4,10 +4,10 @@ sockd is the server part of the Dante socks proxy package and allows \
 socks clients to connect through it to the network."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.3"
+PV = "1.4.4"
 
-RPM_NAME = "dante-server-1.4.3-2.9.aarch64.rpm"
-RPM_HASH = "606b96a79c05ee62a615bc0e220a6d8cf4606f98777f014c5998d3109b9d798b7d653de71a3cd2da19b9cad3df7ffae63a199d0907d25fcb96ce3f7289e170f0"
+RPM_NAME = "dante-server-1.4.4-2.4.aarch64.rpm"
+RPM_HASH = "d47718321d7d560a009b8c04bdb5140a78e5cac3462ac7d1fa513a23529ab0104db55c58fa40aa6fe7616ceed5b50053827013458e7338d1f5d4cd39526b51dc"
 
 RPROVIDES:${PN} += "config-dante-server \
 dante-server \
@@ -21,7 +21,7 @@ libcom-err.so.2 \
 libcrypt.so.1 \
 libgssapi-krb5.so.2 \
 libm.so.6 \
-libminiupnpc.so.17 \
+libminiupnpc.so.21 \
 libpam.so.0 \
 libwrap.so.0 \
 systemd"

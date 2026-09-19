@@ -5,15 +5,16 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.4.3"
 
-RPM_NAME = "mugshot-0.4.3-1.11.noarch.rpm"
-RPM_HASH = "e54513f5d3790df1094df8d88ddf46d07ba59afbc3be26f6a3a516007a223d257558c6f5489974fa9185720086aa8c7aa545d507f4434b634a35b46d3e5e3f34"
+RPM_NAME = "mugshot-0.4.3-3.3.noarch.rpm"
+RPM_HASH = "6c3443fff70d96e0b0e6a5ac6aaea1063f04728261dde0b73ea79c259d994f42aede120c79e9f86910c108544e1bde450c12ce1ad63be71101f936e9d80a872d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mugshot \
-python3.11dist-mugshot \
+python3.13dist-mugshot \
 python3dist-mugshot"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/python3.13 \
 python-abi \
 python3 \
 python3-base \

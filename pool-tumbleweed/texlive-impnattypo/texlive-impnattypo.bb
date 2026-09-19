@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides useful macros implementing recommendations \
 by the French Imprimerie Nationale."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn50227"
+PV = "2026.226.1.5svn50227"
 
-RPM_NAME = "texlive-impnattypo-2023.209.1.5svn50227-54.1.noarch.rpm"
-RPM_HASH = "f3e1ac93237f1924a3005aeff2da4434d84c6538a1ab2b06dd53a1b13a81bbfdd26d522939ec9f5072430ab2fab0c53549eccf3b9664bd5f1bb8f1f75ddfb537"
+RPM_NAME = "texlive-impnattypo-2026.226.1.5svn50227-60.2.noarch.rpm"
+RPM_HASH = "c7fccdf0c7ef3ebb5b1c455e105c3a0b55f59c6d246ce0c36667bb938c7a091a6301c89206fa0efb943c299d53c8f225afabe79f475b30d31a4e74ec851bf2d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-impnattypo.sty \

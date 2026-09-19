@@ -7,10 +7,10 @@ applications like an image editor or configure an image as the \
 desktop wallpaper."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.13.1"
+PV = "0.14.0"
 
-RPM_NAME = "ristretto-0.13.1-1.1.aarch64.rpm"
-RPM_HASH = "d3036c1bd0e8b6f5a1cacab0e303038f93e6b123542cebad07e6d7f9ace71aab252ccb858508ecb11fcc690a546f5ec830ee9cbee07f4813a6793c4ce8c00364"
+RPM_NAME = "ristretto-0.14.0-1.3.aarch64.rpm"
+RPM_HASH = "9168b55cf30fd9bb04ade547be2b4921bdee68e621e135db0fd95f0ac3941c0173b2bd1ee06a0d35520fefe1df581904823a55f9a17ab1c57ce8bea58d1659dd"
 
 RPROVIDES:${PN} += "ristretto"
 
@@ -19,6 +19,7 @@ libX11.so.6 \
 libc.so.6 \
 libcairo.so.2 \
 libexif.so.12 \
+libexo-2.so.0 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \

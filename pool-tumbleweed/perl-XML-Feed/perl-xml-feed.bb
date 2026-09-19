@@ -23,10 +23,10 @@ for date handling, _XML::Feed_ converts all date formats transparently into \
 DateTime objects, which it then returns to the caller."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.63"
+PV = "1.0.1"
 
-RPM_NAME = "perl-XML-Feed-0.63-1.11.noarch.rpm"
-RPM_HASH = "898fecaac5da8153a9541d53e22e957b8cd1d3b9abb481c96eba99ab233643fbe03a94839aa56396fe19015d948ca3f184f212bdee38f067efa2aeddfe9adb86"
+RPM_NAME = "perl-XML-Feed-1.0.1-1.1.noarch.rpm"
+RPM_HASH = "ca8494c05cc64efa0c9aa1f3e42a0874050f11d47521791ef0f034873b983fb8862b288a9690c2635b4492641716b65958b8c53f52e1b6c6ef19260ebd3fe35e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Feed \
@@ -40,7 +40,7 @@ perl-XML--Feed--Format--RSS \
 perl-XML--Feed--Util \
 perl-XML-Feed"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--ErrorHandler \
 perl-DateTime \
 perl-DateTime--Format--Flexible \
@@ -53,9 +53,11 @@ perl-HTML--Entities \
 perl-HTML--TokeParser \
 perl-LWP--UserAgent \
 perl-Module--Pluggable \
+perl-URI \
 perl-URI--Fetch \
 perl-XML--Atom \
 perl-XML--LibXML \
-perl-XML--RSS"
+perl-XML--RSS \
+perl-XML--XPath"
 
 inherit rpm

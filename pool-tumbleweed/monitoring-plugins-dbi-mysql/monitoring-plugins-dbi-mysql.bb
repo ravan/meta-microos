@@ -7,10 +7,10 @@ This virtual package requires the needed libraries for check_dbi to work \
 with a MySQL/MariaDB database."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-dbi-mysql-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "dc781c79be507a9595d444fc27e64b12ccdca06ebf699708f70adbffb2f6c3eec542b4ea2b16d42a450d5fdf84eb20ac747c3109febac93bf50282661f37c45b"
+RPM_NAME = "monitoring-plugins-dbi-mysql-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "c7f1609e24e2793576322d172b041626843ae150f10f2254eddfac9d8b5e52e3a693b023922a74d682153401bb06cb45321f4432f894227c25447bf2576ecc6d"
 
 RPROVIDES:${PN} += "monitoring-plugins-dbi-backend \
 monitoring-plugins-dbi-mysql \

@@ -6,10 +6,10 @@ by Greg Hudson at MIT. \
 This package provides some tools that make use of c-ares."
 LICENSE = "MIT"
 
-PV = "1.19.1"
+PV = "1.34.8"
 
-RPM_NAME = "c-ares-utils-1.19.1-1.1.aarch64.rpm"
-RPM_HASH = "a0e283eaa58d522cbdf814837ba5b783e78aa556148cd015e637a56a8e550ea1b8eaf23e887b82aba4823871f48b772e243a0c49799a3ef92aa828ae3a968a43"
+RPM_NAME = "c-ares-utils-1.34.8-1.1.aarch64.rpm"
+RPM_HASH = "75550cecb2c9e2a1ec368fce8a892049a29904fce10eac0e7f076b7273a4ca8dde62d598d87601f1b14ceb117bc3cc10abbc56979ccb0075afc0ad4abc9bbb50"
 
 RPROVIDES:${PN} += "c-ares-utils"
 

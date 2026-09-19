@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.23"
 
-RPM_NAME = "git-buildpackage-0.9.23-1.3.noarch.rpm"
-RPM_HASH = "f46c3cf5ec311979a49049695668359bac253747323508b19fc1d5ef23682eb3f340127a3d4068321679a61abf660317f6fe639dc70ea67d82d85ed0580c1434"
+RPM_NAME = "git-buildpackage-0.9.23-1.12.noarch.rpm"
+RPM_HASH = "9e09c95541ada21b6890c263de6d7d502669bb5fe12fd20c7ecfc840bc7ed5b1c772cce753bf4529a07ff32fae7dde7f980957d23bb2bb2037f943db68a3b0cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-buildpackage"

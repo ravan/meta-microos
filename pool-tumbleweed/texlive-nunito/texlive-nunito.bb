@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides LaTeX and pdfLaTeX support for the Nunito \
 family of fonts, designed by Vernon Adams, Cyreal."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.0.1svn57429"
+PV = "2026.226.0.0.0.1svn77682"
 
-RPM_NAME = "texlive-nunito-2023.209.0.0.0.1svn57429-55.1.noarch.rpm"
-RPM_HASH = "918ccc46c34349d6f995220a81cc65351dfa828638e1eb1577cfc16bafdb8288aac8abe5d3f1aab84fafe206d5bbfac6c89a3e46d3cb3be2f025b76d8c3de2ac"
+RPM_NAME = "texlive-nunito-2026.226.0.0.0.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "696a6d35343dc791e5cbc864956a9dbd8897dfbaf1f45ec22c201fab78d6c4f7d2e905620205edfe471afac942ab606357b1db69c6002a5c419693c92d21ccf0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Nunito-Sup.fd \

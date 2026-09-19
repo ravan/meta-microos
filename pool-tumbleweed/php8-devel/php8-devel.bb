@@ -6,10 +6,10 @@ programming language. \
 This package contains the C headers to build PHP extensions."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-devel-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "71348b3d236dd99f31cb3c1c1e913d0d4dd32cc23364502e30cd67f322b5d25f707b4425657644b6aea72ef94e3dd016bfee7ab9af9b616874a9497362f52cac"
+RPM_NAME = "php8-devel-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "b1ba35ecfe6043fedea9be83c38306b445c7474cbb025bb23a68c8599b4e1300335a3a86b4051ef9bbb5e4fff6793de7f696c93c96c29916e4cbdf88dd022b8f"
 
 RPROVIDES:${PN} += "php-devel \
 php8-devel \
@@ -39,7 +39,11 @@ glibc-devel \
 php \
 php8-pear \
 php8-pecl \
+pkgconfig-capstone \
+pkgconfig-libargon2 \
 pkgconfig-libpcre2-8 \
-pkgconfig-libxml-2.0"
+pkgconfig-liburiparser \
+pkgconfig-libxml-2.0 \
+pkgconfig-tinfo"
 
 inherit rpm

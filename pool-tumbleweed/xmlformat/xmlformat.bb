@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause & GPL-3.0-only"
 
 PV = "1.9"
 
-RPM_NAME = "xmlformat-1.9-1.9.noarch.rpm"
-RPM_HASH = "5bb95fc0a8625d657d58df7dc63ab641b4c37e53bb88a84f8d327035a4f855d581c32f7b507850ff2e57c00524e8b16d5104d7eb8ef731b92bce11bc3d7c00cb"
+RPM_NAME = "xmlformat-1.9-1.20.noarch.rpm"
+RPM_HASH = "790f7b4df57f60cc18a5c203b4f5945c2676f62326b982187f6da6f403b3782c80943037551606817246caf3dc1faad062f8b8d66779fe49de6f2c78fef481cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlformat"

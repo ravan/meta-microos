@@ -2,19 +2,18 @@ SUMMARY = "Parallel filesystem I/O benchmark"
 DESCRIPTION = "Parallel filesystem I/O benchmark"
 LICENSE = "GPL-2.0-only"
 
-PV = "3.3.0"
+PV = "4.0.0"
 
-RPM_NAME = "ior-3.3.0-3.1.aarch64.rpm"
-RPM_HASH = "ef12f5c818733327a3daeae74a1e4418fb12f22f098e05da6bfa354a64579d4a2a6c78304593d8a56f0db5aec60dd520d33d6cb4eb8f6b84f920609026382372"
+RPM_NAME = "ior-4.0.0-1.2.aarch64.rpm"
+RPM_HASH = "a5ce45b9f2e98c4304e3e18553d8be826602f8d30518583ca204697c29c169eae52d25388a88125db1c48b005da20711c7196ca514214a219af3afa95d59f9e1"
 
 RPROVIDES:${PN} += "ior \
 mdtest"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libhdf5.so.200 \
+libhdf5.so.310 \
 libm.so.6 \
-libmpi.so.40 \
-librados.so.2"
+libmpi.so.40"
 
 inherit rpm

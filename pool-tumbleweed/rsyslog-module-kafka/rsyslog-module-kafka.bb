@@ -5,10 +5,10 @@ package. \
 This module provides support for Kafka."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2306.0"
+PV = "8.2608.0"
 
-RPM_NAME = "rsyslog-module-kafka-8.2306.0-1.1.aarch64.rpm"
-RPM_HASH = "5c6d75e704b97aea742148d10ce218facf0f69d188c9851747e977951c735d4c8a875bd7cd4f943c54eb57c81c686d7fd25d914fc7ae4164620852b8b4f596e8"
+RPM_NAME = "rsyslog-module-kafka-8.2608.0-1.1.aarch64.rpm"
+RPM_HASH = "70200f684469a3d20f4c6bf13ef0926ebd46fc4b2752932c1e44129cf3d4b67114eeb0be6f82a3c1f14524768dd63ed3a2d54b67d80889956a5f1199cc3fe5ef"
 
 RPROVIDES:${PN} += "rsyslog-module-kafka"
 

@@ -4,24 +4,25 @@ also provides efficient reverse execution under gdb. Set breakpoints and \
 data watchpoints and quickly reverse-execute to where they were hit."
 LICENSE = "MIT"
 
-PV = "5.6.0"
+PV = "5.9.0"
 
-RPM_NAME = "rr-5.6.0-4.1.aarch64.rpm"
-RPM_HASH = "ad5716cca9f295b8831c02e9cd3ef732a3f27f039ff404cd3202f7520eee30150e7832abb5a22bf5f6961e9d86bf30f4d7b1382a8e6da671ac7999b020ebd590"
+RPM_NAME = "rr-5.9.0-2.7.aarch64.rpm"
+RPM_HASH = "749c2f20f41cb245ff141c589090a1fe6ebba9266fd5a284df1bf7212f1fc90877c2dad95d12710f6d862421b0bfc513c90b1b62a5e3f8b9a1485abb320ce9a1"
 
 RPROVIDES:${PN} += "librraudit.so \
 librrpreload.so \
 rr"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcapnp-0.10.4.so \
+libcapnp.so.1.5.0 \
 libgcc-s.so.1 \
-libkj-0.10.4.so \
+libkj.so.1.5.0 \
 libm.so.6 \
 libstdc++.so.6 \
-libz.so.1"
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

@@ -4,10 +4,10 @@ subfonts in Type1 format, which is most suitable for use with \
 the CJK package. Font conversion was done with ttf2pt1."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn47700"
+PV = "2026.226.0.0.5svn47700"
 
-RPM_NAME = "texlive-ipaex-type1-2023.209.0.0.5svn47700-56.1.noarch.rpm"
-RPM_HASH = "3b2b3aecdead61b679a38e9cc227bf7369c91553f1453eba8e4716b98e6488af325768eca74287ec9ffe3235c17208a687e32b92e2d82328252706ee4b751387"
+RPM_NAME = "texlive-ipaex-type1-2026.226.0.0.5svn47700-63.2.noarch.rpm"
+RPM_HASH = "a1c7f699263dfde0c2b5d22a1f7dba5a4a3f25aa40c2e6fbd79ae406c1147dde67c46912a8162784d01ac325d89c11e3c8b22f348ebcd35c3bfac375f5cf1eff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-c70ipxg.fd \

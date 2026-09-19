@@ -5,10 +5,10 @@ programming solver written in C++. \
 This package contains the development headers for coin-or-Cbc."
 LICENSE = "EPL-2.0"
 
-PV = "2.10.8"
+PV = "2.10.13"
 
-RPM_NAME = "coin-or-Cbc-devel-2.10.8-1.4.aarch64.rpm"
-RPM_HASH = "46a16351446fa391781875be797afb0aaf5bf63f5e784ada74f512c09e7026bdffa226cedcd8b0ccd5d32e60371def6fef9a7040ee739e4fb52d1cdab0339133"
+RPM_NAME = "coin-or-Cbc-devel-2.10.13-1.2.aarch64.rpm"
+RPM_HASH = "422bacc561e9ae578b41ca43a5f18c6d98193f6af871608186cc5c9c78aa64faa7128ab2b539e2562b6ad8ec102e373b7df13d964e624cf47e5aa6d61ac951e6"
 
 RPROVIDES:${PN} += "coin-or-Cbc-devel \
 pkgconfig-cbc \

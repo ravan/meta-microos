@@ -6,10 +6,10 @@ one of them being allowing line-break between Latin and CJK \
 characters. The package requires nanumtype1 fonts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.3svn63561"
+PV = "2026.226.2.5svn70300"
 
-RPM_NAME = "texlive-cjk-ko-2023.209.2.3svn63561-54.1.noarch.rpm"
-RPM_HASH = "0680ad1c71281333f1e24840199e61f3e7814c1c60251c8b6a95a67126d49b2bd4fc5e1c1168471c2371fa1b85226c0be49f958369306528b0eaa6785ab2ab84"
+RPM_NAME = "texlive-cjk-ko-2026.226.2.5svn70300-60.2.noarch.rpm"
+RPM_HASH = "7bd11b43afe6172ef3aa18885a8d7e58c9779dc51777def6616af2d54689217ebb90e3ef34638fca66739683559a32a9cc1b409e55df3e3e9aae062bb910f923"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cjkutf8-josa.sty \

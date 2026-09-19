@@ -6,10 +6,10 @@ characters is 1em, the indent before parentheses can be 0.5em, \
 1em or 1.5em deoending on the local rule in effect."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4asvn59641"
+PV = "2026.226.0.0.4asvn59641"
 
-RPM_NAME = "texlive-bxjaprnind-2023.209.0.0.4asvn59641-53.1.noarch.rpm"
-RPM_HASH = "63d63a3c81351939390555ff05847dae6ee7414828c307bab1a26518fd7ea02047f07fc97c43fa0ea25698f8f52269dd002a19d9fdae6456d590d99e40b3af61"
+RPM_NAME = "texlive-bxjaprnind-2026.226.0.0.4asvn59641-59.2.noarch.rpm"
+RPM_HASH = "d3b96265ef1f0e0ad52c54ca5f5007dd01cfc84154f878b467aa508a926b8fb0c90fbd3688025664aa54c19267abe67ae8c50584e8e85d1682335cb6edff6e3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxjaprnind.sty \

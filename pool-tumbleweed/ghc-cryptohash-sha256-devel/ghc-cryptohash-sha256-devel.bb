@@ -5,16 +5,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.102.1"
 
-RPM_NAME = "ghc-cryptohash-sha256-devel-0.11.102.1-3.8.aarch64.rpm"
-RPM_HASH = "3fb9e2edba7860d9e0ae4d29571f08da00c8a95b886f620a483e9ae9829f7bc61a835e446f6fa58ba328b5df6fadf3ec0a8de8363fc19f7cec459439e91b1034"
+RPM_NAME = "ghc-cryptohash-sha256-devel-0.11.102.1-7.15.aarch64.rpm"
+RPM_HASH = "f0a43ac0f5a6d07627d5da258e3896070d728b4a7d0f3b6f2e88cd20afe67d895a51c39ad583ca1cf199486915700cda568fb234a7fbd3c074300fb7da3b06b5"
 
 RPROVIDES:${PN} += "ghc-cryptohash-sha256-devel \
-ghc-devel-cryptohash-sha256-0.11.102.1-53jMaIynRosaQ7D7Mdzyr"
+ghc-devel-cryptohash-sha256-0.11.102.1-23ttH0Xv2YGR2bm1AVxTX"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-cryptohash-sha256 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be"
 
 inherit rpm

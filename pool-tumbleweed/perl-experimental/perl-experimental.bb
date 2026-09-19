@@ -16,16 +16,16 @@ enclosing lexical scope: \
   use experimental 'feature-name';"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.031"
+PV = "0.036"
 
-RPM_NAME = "perl-experimental-0.031-1.3.noarch.rpm"
-RPM_HASH = "db0f3fb58fc8172dc42b0bc3dfdaefe45213f11cf3592694529493361be4f91964c4346ddf56ef57e10d058d7b24202e209761b1a88d559d2f2d761bbfa83f82"
+RPM_NAME = "perl-experimental-0.036-1.6.noarch.rpm"
+RPM_HASH = "c2e4765b6619ff7e3088ef4f904f1f70f050bd8581657f1c367a549453858997bdc27ac2bbac53eeb36c485062534e1de4a6083fff7d0e84fc72b8b9d236c2ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-experimental \
 perl-stable"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-version"
 
 inherit rpm

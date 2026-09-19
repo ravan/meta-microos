@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Latvian Translations"
 DESCRIPTION = "YaST2 - Translations for Latvian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-lv-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "32ecdeb081652c8fdba573ee927613c548b80af416f124794b977bcc4779ee643baa751c7d92eb4ba9f8ceed1f936029d7dbf25398d33da9a39c37d294ac7df6"
+RPM_NAME = "yast2-trans-lv-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "60e4ffb42a1caad117fe9c5b1573e3a35f587456dedb1b80329499bd9911c9489e809eccbdd33f1232a3c183b37994faf5d317a0fa85a61757e3c8f4e3a368de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-lv \

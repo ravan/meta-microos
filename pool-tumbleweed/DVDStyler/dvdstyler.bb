@@ -31,8 +31,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "DVDStyler-3.2.1-2.6.aarch64.rpm"
-RPM_HASH = "fd91101178122f8d3ec09903a6382fcf4f2b20919f6817cb68aea34122cdd487434c3f02cb497f4887a16996ebc96030072a3c29ab849c68e683442d743492d3"
+RPM_NAME = "DVDStyler-3.2.1-5.4.aarch64.rpm"
+RPM_HASH = "230e2bcc8a5a8a2eb71611a53eaa2fdb1ad249faf6e95506a9cbe6280fc3e6967c7a30f3e9b60e44d640b3d93b38883525b585745f7f5767e48ffb712287d39d"
 
 RPROVIDES:${PN} += "DVDStyler"
 
@@ -40,21 +40,21 @@ RDEPENDS:${PN} += "dvd+rw-tools \
 dvdauthor \
 dvdisaster \
 ld-linux-aarch64.so.1 \
-libavcodec.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
+libavcodec.so.61 \
+libavformat.so.61 \
+libavutil.so.59 \
 libc.so.6 \
 libdbus-1.so.3 \
 libfontconfig.so.1 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libswscale.so.7 \
+libswscale.so.8 \
 libudev.so.1 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk3u-core-suse.so.9.0.0 \
-libwx-gtk3u-html-suse.so.9.0.0 \
-libwx-gtk3u-media-suse.so.9.0.0 \
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk3u-core-suse.so.16.0.0 \
+libwx-gtk3u-html-suse.so.16.0.0 \
+libwx-gtk3u-media-suse.so.16.0.0 \
 libwxsvg.so.3 \
 libwxsvg3 \
 mjpegtools \

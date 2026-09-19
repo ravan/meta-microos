@@ -4,29 +4,26 @@ provided basic drawing routines such as lines, circles or polygons and \
 SDL_rotozoom which implemented a interpolating rotozoomer for SDL \
 surfaces. The current components of the SDL_gfx library are: \
  \
-- Graphic Primitives (SDL_gfxPrimitves.h) \
- \
-- Rotozoomer (SDL_rotozoom.h) \
- \
-- Framerate control (SDL_framerate.h) \
- \
-- MMX image filters (SDL_imageFilter.h) \
+* Graphic Primitives (SDL_gfxPrimitves.h) \
+* Rotozoomer (SDL_rotozoom.h) \
+* Framerate control (SDL_framerate.h) \
+* MMX image filters (SDL_imageFilter.h) \
  \
 The library is backwards compatible to the above mentioned code. It is \
 written in plain C and can be used in C++ code."
 LICENSE = "Zlib"
 
-PV = "2.0.26"
+PV = "2.0.27"
 
-RPM_NAME = "libSDL_gfx-devel-2.0.26-1.18.aarch64.rpm"
-RPM_HASH = "197fcbc6a947bfc1ca12844b84d31d1a7c94135d348c014791f2d95b2b45e9fc9c0c020e2ec6168eaf4ab376a9bd6e5a3f9ffa2211c54934488b22c14eb20aa0"
+RPM_NAME = "libSDL_gfx-devel-2.0.27-1.9.aarch64.rpm"
+RPM_HASH = "54cd4e14f07c0ee06e720ff99692d48d272217f5dfb2d607d6cfffafa9a910e246cf0ef95889bbc2a979b9359c70e38c86dd36024e41e1d4dd387a8b87ff0835"
 
 RPROVIDES:${PN} += "SDL-gfx-devel \
 libSDL-gfx-devel \
 pkgconfig-SDL-gfx"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libSDL-gfx15 \
+libSDL-gfx16 \
 pkgconfig-sdl"
 
 inherit rpm

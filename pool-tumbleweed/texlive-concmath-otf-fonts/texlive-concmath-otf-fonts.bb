@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-concmath-otf"
 DESCRIPTION = "The  separated fonts package for texlive-concmath-otf"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.25svn65683"
+PV = "2026.226.0.0.73svn78172"
 
-RPM_NAME = "texlive-concmath-otf-fonts-2023.209.0.0.25svn65683-54.1.noarch.rpm"
-RPM_HASH = "c1f6b571550e80a4a107952469a5286a47ae52b2793429cbba119a5ca951db002b2d0a09d143a46941ca9ef77ace2db297d0075db99c9f5075825403cbd1a865"
+RPM_NAME = "texlive-concmath-otf-fonts-2026.226.0.0.73svn78172-60.2.noarch.rpm"
+RPM_HASH = "0f96c374e9bfd74d01f0f424d7cb992169d939d6da2b3593aa9b9d4822b497e662ebcd75977593f7a75b606dd970225f7f6838f35dc95825a9ffcf2681e871a1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

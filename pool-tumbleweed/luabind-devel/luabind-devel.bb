@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1+git20150408.a0edf58"
 
-RPM_NAME = "luabind-devel-0.9.1+git20150408.a0edf58-2.14.aarch64.rpm"
-RPM_HASH = "b365b25a9a127e342aa108945f8cdc7950a7be2040c3834d46cc5859ebbe76c2c70e12d07590637e3d60862a494f41760605f262307cf238724fde23b4995092"
+RPM_NAME = "luabind-devel-0.9.1+git20150408.a0edf58-4.4.aarch64.rpm"
+RPM_HASH = "91626388e5f69cc7e184e31f98ce9c15dd5ab8e22351548f627eb4432491da03561da6f1aed4df67b9c4985c6a00b699ee06cb096be03bd9dc5821bf662bcf3f"
 
 RPROVIDES:${PN} += "luabind-devel \
 pkgconfig-luabind"

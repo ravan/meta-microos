@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "0.6.4"
 
-RPM_NAME = "libatlascpp-0_6-3-0.6.4-2.7.aarch64.rpm"
-RPM_HASH = "1d8b5dcdba149dd2f72dacbe2c45835baa2e415585c71323d8dac7651c71c1e732a025f5346d4557e29c831d399496db0c0c99047f98465cc26c63949f3df704"
+RPM_NAME = "libatlascpp-0_6-3-0.6.4-3.4.aarch64.rpm"
+RPM_HASH = "2a4699390d0fe06ae4583dddc7d9f5e0282b845d1c5c1071687c565850fd14f9c7d4c0d28c15fe21338cf5725394db9780e0bcbccd0c6ce00e50a67fd9e64a00"
 
 RPROVIDES:${PN} += "libAtlas-0.6.so.3 \
 libAtlasCodecs-0.6.so.3 \

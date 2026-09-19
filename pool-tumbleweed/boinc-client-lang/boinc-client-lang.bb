@@ -2,10 +2,10 @@ SUMMARY = "Translations for package boinc-client"
 DESCRIPTION = "Provides translations for the 'boinc-client' package."
 LICENSE = "GPL-3.0-or-later | LGPL-3.0-or-later"
 
-PV = "7.24.1"
+PV = "8.2.15"
 
-RPM_NAME = "boinc-client-lang-7.24.1-1.1.noarch.rpm"
-RPM_HASH = "977113c0ac25ff9f8dd945b2e988b4958baf18db8fb80f9da7028b1fdc6b2343f4d62e296a4d02f1f78b8829fa1a61d3446214dbccd8b1042c9d0c4e64ce457a"
+RPM_NAME = "boinc-client-lang-8.2.15-2.1.noarch.rpm"
+RPM_HASH = "d2183ad9257c0e331f9d3a48b3bd2833d12b126fea91f431281a0be503dcc680c82f1edc012827d63fd780e584e93c1c6a91561342a11477cb6733d09492efa5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "boinc-client-lang \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2.14"
 
-RPM_NAME = "xosd-devel-2.2.14-1.1.aarch64.rpm"
-RPM_HASH = "c385508395fb06d7a1b36fe5ab1a53b4820939b85dd6665eff41797ab6e7c7f26e7822863cfb8bd9b80f1c18cc8277534bb06dc11aa84f1c42855608517013bc"
+RPM_NAME = "xosd-devel-2.2.14-1.11.aarch64.rpm"
+RPM_HASH = "20a528a5b0bd4dcccf66586d2a3f9904eb870ba1a502202a72dda2c25936aafa7e071d76c57ac4855811b26194c4b338de34ecc7f61ce40f1f6e0406a8919efb"
 
 RPROVIDES:${PN} += "xosd-devel"
 

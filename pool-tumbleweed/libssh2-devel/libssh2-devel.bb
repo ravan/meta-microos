@@ -5,19 +5,18 @@ SECSH-ARCH, SECSH-FILEXFER, SECSH-DHGEX, SECSH-NUMBERS, and \
 SECSH-PUBLICKEY."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.0"
+PV = "1.11.1"
 
-RPM_NAME = "libssh2-devel-1.11.0-1.1.aarch64.rpm"
-RPM_HASH = "92ba5f56d6e113cb53f147fdef1d55f5a294d17083af5a7530d4d7ab69c52119a604881708ccf582c18f0b50ff3d57bf35584b60a8f564d5136cbda6033f0e4a"
+RPM_NAME = "libssh2-devel-1.11.1-4.1.aarch64.rpm"
+RPM_HASH = "d2dfe162136274222eb8c2639600eb17cb179da8ef7e6f19b8df54c4f51cf208fb21ed594c6603ec96dd71974f54048bf4cda0fddb631229e41ca06bb4b9f5ae"
 
-RPROVIDES:${PN} += "libssh2-devel \
+RPROVIDES:${PN} += "cmake-libssh2 \
+libssh2-devel \
 pkgconfig-libssh2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libssh2-1 \
-pkgconfig-libcrypto \
-pkgconfig-libssl \
-pkgconfig-zlib"
+pkgconfig-libcrypto"
 
 inherit rpm

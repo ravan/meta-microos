@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the gstreamer playback plugin for nulloy - 
 music player with a Waveform Progressbar."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.9.5"
+PV = "0.9.9"
 
-RPM_NAME = "nulloy-gstreamer-0.9.5-1.11.aarch64.rpm"
-RPM_HASH = "7f02b71a0c17f859798084e40231c6aa18151c60cf4fd5ac19aaecdeb221e4eba4c4531879c259e4ea4efb7dd885efe6d09e4edc2b0f9cc9df0de586800001a3"
+RPM_NAME = "nulloy-gstreamer-0.9.9-1.3.aarch64.rpm"
+RPM_HASH = "ebd174a4796aaf9b275afce08603a506699dc83f75e793f31ee3074cb2f6ba70b72584196a9fb5533cad2aa5b1d17da4b14f1407b016dbbbebccff821e834f9e"
 
 RPROVIDES:${PN} += "libplugin-gstreamer.so \
 nulloy-gstreamer"

@@ -6,10 +6,10 @@ performing periodic operations, interacting with systemd, etc. \
 This package contains the documentation."
 LICENSE = "Apache-2.0"
 
-PV = "3.1.1"
+PV = "4.8.0"
 
-RPM_NAME = "python-oslo.service-doc-3.1.1-1.4.noarch.rpm"
-RPM_HASH = "000878771536438942e436ec2352b9e86e9af83144d34106a23408b4272b040af8bdbbb03c76b90a08ef2ecab5c755b3f9a50dbb972a2363cb95b3d1a1f3a47b"
+RPM_NAME = "python-oslo.service-doc-4.8.0-1.1.noarch.rpm"
+RPM_HASH = "0a13c951909641ac8f2982f90ac62f2b82441eda9a451d244de1e4558d4342ea560816143932c43ef01d766132f196793590de91083eabc2983f3d891cfe13fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.service-doc"

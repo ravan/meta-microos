@@ -3,10 +3,10 @@ DESCRIPTION = "Apache Lucene is a full-text search engine written entirely in Ja
 This package provides the 'sandbox' module for Lucene."
 LICENSE = "Apache-2.0"
 
-PV = "8.5.0"
+PV = "8.11.4"
 
-RPM_NAME = "lucene-sandbox-8.5.0-5.1.noarch.rpm"
-RPM_HASH = "982cc623b1f7917d7e173e13f41cb68e04858c062fd380b6ce0f5eba46408e2cd7123de64ca208a508b5e8b8c4596bb487f8b0ecf5cc4ba702d00325d3d9556a"
+RPM_NAME = "lucene-sandbox-8.11.4-1.8.noarch.rpm"
+RPM_HASH = "227ea2b4e9419c363dc5032a7a680908d9e4911913a5b729045510400d281b336a32f38a1b10d5b4377709b03eaca2f0162c8f3598a1c0c608351900993daadf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-sandbox \

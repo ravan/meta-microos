@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gtk3"
 DESCRIPTION = "Provides translations for the 'gtk3' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.38"
+PV = "3.24.52+git59.b30343717d"
 
-RPM_NAME = "gtk3-lang-3.24.38-2.1.noarch.rpm"
-RPM_HASH = "e1f5a9b4b5d056b5ba71971b872b4a5f1cada0df2af9a75f773065d2abf617ff1da3242cf1d591df25970e1588086c60c548b5feba23a1a01588f1899c299aee"
+RPM_NAME = "gtk3-lang-3.24.52+git59.b30343717d-1.1.noarch.rpm"
+RPM_HASH = "813445e5d39d0c81960f061d3c3339272bb83a1dce1090346d75d8438d2ad5ae13a784b6f3c8d2187fc673f4a964a4197da545e74f441f835a93772903faa845"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-lang \

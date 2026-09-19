@@ -14,10 +14,10 @@ information about the C-library used in this interface, and the rest of \
 this document and especially the non-trivial decoder program at the end."
 LICENSE = "GPL-1.0-or-later"
 
-PV = "1.8"
+PV = "1.800.0"
 
-RPM_NAME = "perl-Convert-UUlib-1.8-1.16.aarch64.rpm"
-RPM_HASH = "0f424fc496d327d79dda2bae98661046a2705a5bf160dcd58f9dd0e4382e7283dba2de74e78fa0aa44831941faaca635cec7a26a898a7b9e8f47428660dd2641"
+RPM_NAME = "perl-Convert-UUlib-1.800.0-2.8.aarch64.rpm"
+RPM_HASH = "d2ec66fd32f5864369919e3640d2a42395cc4bcaf09ff0f8fa6d5aa2b0fcd703012baa53a4a280786bb8d38fabafa074f4cc213bdebe59c0798b407ad5135f6f"
 
 RPROVIDES:${PN} += "p-conulb \
 perl-Convert--UUlib \
@@ -25,7 +25,7 @@ perl-Convert-UUlib"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-common--sense"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.4.6"
 
-RPM_NAME = "libshout3-2.4.6-1.5.aarch64.rpm"
-RPM_HASH = "3051cdcf66e2026433271eef17110148956c13a485dfe872ab7d0375d0687273ccea32460820fd9805537ad51c4cc2d5a365885b116d6065406fd97e628fa4be"
+RPM_NAME = "libshout3-2.4.6-3.8.aarch64.rpm"
+RPM_HASH = "5e69cf9c2ac8b449ce4b8cbf7f22908402686add95cd3960a9e79a54577a52469030423bcd05bafcfa2d3a0908041e29712d055f06e9cd7f51a0f4367f70e209"
 
 RPROVIDES:${PN} += "libshout.so.3 \
 libshout3"
@@ -15,9 +15,11 @@ libshout3"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libcrypto.so.3 \
 libogg.so.0 \
 libspeex.so.1 \
-libtheora.so.0 \
+libssl.so.3 \
+libtheora.so.1 \
 libvorbis.so.0"
 
 inherit rpm

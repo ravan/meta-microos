@@ -3,24 +3,24 @@ DESCRIPTION = "This package provides a file uploader plugin for LeechCraft \
 with which files can be uploaded to accountless filebin services."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-zalil-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "ef42c909ffad9f3d08ea152192f7663cfb093d3c6f27bdda1ce61b4d1ae856c50d1a219f0f552e0fe60d4b762cabd3f9b8a83853c70157da7e27c5799a628675"
+RPM_NAME = "leechcraft-zalil-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "da75609878baf1275c33dabe78a974109ee9bc4aa050cfc40255e87ada88967120efaf915769b4ac63408fcd8838291fb6d7797552bafb7d2e0d6523cd52a078"
 
 RPROVIDES:${PN} += "leechcraft-zalil \
 libleechcraft-zalil.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libleechcraft-util-models-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

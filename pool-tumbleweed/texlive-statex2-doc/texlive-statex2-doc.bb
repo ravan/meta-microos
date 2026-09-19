@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-statex2"
 DESCRIPTION = "This package includes the documentation for texlive-statex2"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn23961"
+PV = "2026.226.2.1svn23961"
 
-RPM_NAME = "texlive-statex2-doc-2023.209.2.1svn23961-58.1.noarch.rpm"
-RPM_HASH = "991a1431d675ec03a3a0e7b61ae6961a940696554dbbf917dfd62de925b3bf65256479978d41bab46d207a097e36d4dfa9795f612721e1a2b5fc968212f3b389"
+RPM_NAME = "texlive-statex2-doc-2026.226.2.1svn23961-64.2.noarch.rpm"
+RPM_HASH = "113db7ccd58d49e7cad4db454cb28c24804b3a7b79e2b959262cb0b642bdee78f06b7eacd060c7c3da6c6626fb58bd0cbc1d57a64360b51de4564be50663a0f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-statex2-doc"

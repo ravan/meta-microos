@@ -5,10 +5,10 @@ of rules which can be used to model the morphology of a variety \
 of organisms or fractals like the Kochflake or Hilbert curve."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn49556"
+PV = "2026.226.0.0.02svn49556"
 
-RPM_NAME = "texlive-pst-lsystem-2023.209.0.0.02svn49556-53.1.noarch.rpm"
-RPM_HASH = "b66da363f0992e94dac776b60523812ec42e7ca93441171ce9b47cca704bcf868743cad97af518338269a107f98e3291600a318491842b3fbdf5e0e4e2763d96"
+RPM_NAME = "texlive-pst-lsystem-2026.226.0.0.02svn49556-59.2.noarch.rpm"
+RPM_HASH = "a0fc6951547b67f0ce4add7d41dcf5890d65bc73b2adc5de6be28a83c779e7d846e4d3d2cb03bf1cb008cd396fbcef9bf04054a9de79dce7aec38bb88308f26d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-lsystem.sty \

@@ -8,10 +8,10 @@ closely harmonizes with the weights and styles of the serif \
 family. There are four weights and italics for each."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64452"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-merriweather-2023.209.svn64452-55.1.noarch.rpm"
-RPM_HASH = "b98725f7daf1429edec27ed4ac8fa8fdc2f1dea6b6195090fc453ffa32ee93267556b174c83f1197470fc537c239134cb5e13ed09cac398ce07252bf1c8c30ba"
+RPM_NAME = "texlive-merriweather-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "7c98a2f359b771f6be1f46f7f7b56c4909abe668fc689a601384f529c1e8c9d7eb78aefcaafb08d4ca5b07e4665f80bf4e56f6cb06857f5059305eec7ef553b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Merriwthr-LF.fd \

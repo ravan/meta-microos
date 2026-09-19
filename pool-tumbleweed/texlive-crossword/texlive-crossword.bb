@@ -13,14 +13,14 @@ Sudoku and Kakuro puzzles involve filling in grids of numbers \
 according to their own rules. Format may be block-separated, or \
 separated by thick lines. Input to the package is somewhat \
 redundant: specification of the grid is separate from \
-specification of the clues (if they're necessary). The author \
+specification of the clues (if they are necessary). The author \
 considers this style both 'natural' and robust."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.11svn64375"
+PV = "2026.226.1.15svn78219"
 
-RPM_NAME = "texlive-crossword-2023.209.1.11svn64375-55.1.noarch.rpm"
-RPM_HASH = "14085514633fbc5188bd95bddfe0a7abaad1932b0223e85350ae9a66e2ffbb810b5ffb4f682586e1d1c86e7be387a4bd05056f464a80d887c2aef8f1213f926e"
+RPM_NAME = "texlive-crossword-2026.226.1.15svn78219-61.2.noarch.rpm"
+RPM_HASH = "7ead934d64008626441791ccbd8f9c84867321eedd4b68f1735a9e1dd314bb9d309aab0bea0dffcfdfebd964ece88fa1242975a5ed18840be21895c936eb1824"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cwpuzzle.sty \

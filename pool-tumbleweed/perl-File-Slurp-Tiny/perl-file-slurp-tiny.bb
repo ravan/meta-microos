@@ -1,17 +1,17 @@
-SUMMARY = "Simple, Sane and Efficient File Slurper [Discouraged]"
+SUMMARY = "Simple, sane and efficient file slurper [DISCOURAGED]"
 DESCRIPTION = "This module provides functions for fast and correct slurping and spewing. \
 All functions are optionally exported."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.004"
+PV = "0.4.0"
 
-RPM_NAME = "perl-File-Slurp-Tiny-0.004-1.28.noarch.rpm"
-RPM_HASH = "8b663c0f6f6b412881771273a4b629db65f8bea27d4a08a162cab314e9afad62468c434bd0df474688d6919a9f7905d52a2aed7fc539a332494a63ffc4a2ff5b"
+RPM_NAME = "perl-File-Slurp-Tiny-0.4.0-1.7.noarch.rpm"
+RPM_HASH = "c1e7c22b39368a3eabec647d9b56e2e09cf8871239d92713f6dd10b2b4adf7136d382790150c18370a0544f667b06541f07f070f7554c535a859fb501cec21b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Slurp--Tiny \
 perl-File-Slurp-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

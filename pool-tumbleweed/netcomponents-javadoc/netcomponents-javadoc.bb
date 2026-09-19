@@ -17,8 +17,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.8"
 
-RPM_NAME = "netcomponents-javadoc-1.3.8-301.7.noarch.rpm"
-RPM_HASH = "88d3ac02e8ddfb8b0662cd5b8cef03308958813d9d4c0744708e2114e6c8308a38fd671aebad1cb9f3ca50a9bf241617f8f1a6ab101a2f5215220c78ec5fb508"
+RPM_NAME = "netcomponents-javadoc-1.3.8-302.10.noarch.rpm"
+RPM_HASH = "e0e6d6416eb46d74a24f09c69ec3c04886cd7f0a0f7dbb3aa839b0e660b3476c77c62ed6e13283c6710006f951c411aa6cf2517220b1991b9874f4ae8019bbd4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netcomponents-javadoc"

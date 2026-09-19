@@ -10,10 +10,10 @@ the same time. The package is compatible with koma-script and \
 with the babel French option frenchb."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn15878"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-bibunits-2023.209.2.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "365a03096cf013597bca51fb8126af04f6a7b2a50bfda229c1c9902d6218d6ff37e9d1c9c39dfcf654acbcb24beb82e82e5a303e8a23112e1707c8a61be91e88"
+RPM_NAME = "texlive-bibunits-2026.226.2.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "2660a3242cc872340977e43fc759834f561ba14bb9da75cd0093b4823653d617bc8bfdf503386cb6ff8fb7f6a38f9f8bfc6765af252626afafcb035a3ffc7b25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibunits.sty \

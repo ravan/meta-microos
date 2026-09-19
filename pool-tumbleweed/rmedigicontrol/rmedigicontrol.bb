@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.5a"
 
-RPM_NAME = "rmedigicontrol-0.3.5a-24.4.aarch64.rpm"
-RPM_HASH = "0b817658fe415ce6f8bd5a1be888b6ecb227406165dfc37abc8e83db8f73035d8dc9d9eae71708794bec92a56fd2967f299f6deebec29897216a3e089acdc542"
+RPM_NAME = "rmedigicontrol-0.3.5a-29.4.aarch64.rpm"
+RPM_HASH = "04aad8176b125fe2d1733b631417f45880f84020a6a77e8de3fc261db3c0613e6c658cb60ae55e68cef16b3fc6bc63d92350531498cc1629bbbf588380af14fc"
 
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/rmedigicontrol \
 rmedigicontrol"

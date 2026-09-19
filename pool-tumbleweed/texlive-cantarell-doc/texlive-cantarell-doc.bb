@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cantarell"
 DESCRIPTION = "This package includes the documentation for texlive-cantarell"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.2svn54512"
+PV = "2026.226.3.2svn77682"
 
-RPM_NAME = "texlive-cantarell-doc-2023.209.3.2svn54512-53.1.noarch.rpm"
-RPM_HASH = "4a58a7caddffd9512c67851c3ed23499e5f467be4cb9af5b88d721eaa9d76c6da8b33a77ccc11057429e09f170fd649262e1a2a6ee3f057da5beb3e60addcc06"
+RPM_NAME = "texlive-cantarell-doc-2026.226.3.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "6c931f60d6c57eafeb4b32fd5d30ec7e5df0a42808fe91f33010915aaadec1112e1205d925d80436e9726f972b47f338a806f69ef6ddd3b30a718f115bbbdede"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cantarell-doc"

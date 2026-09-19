@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-photobook"
 DESCRIPTION = "This package includes the documentation for texlive-photobook"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.0.0.1.10svn66551"
+PV = "2026.226.0.0.1.31svn71843"
 
-RPM_NAME = "texlive-photobook-doc-2023.209.0.0.1.10svn66551-52.1.noarch.rpm"
-RPM_HASH = "f4b86f5dc106e9c2460b27a675c5bb343eed4fc116ba1a743dea7b20f71039236bccc5cd120420c9b4a6ecc7e04e392f3bc919ece567d7842721a6c327ccb91c"
+RPM_NAME = "texlive-photobook-doc-2026.226.0.0.1.31svn71843-58.2.noarch.rpm"
+RPM_HASH = "61850621ae84983c5ed44cbc785d0f1fc955605b737370daa40e567af20407c3948352665b0051b427f4f45613a7bc9877f52033efc791a70b0067fe2a89f2cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-photobook-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Haskell process library documentation"
 DESCRIPTION = "This package provides the Haskell process library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.17.0"
+PV = "1.6.26.1"
 
-RPM_NAME = "ghc-process-doc-1.6.17.0-1.1.noarch.rpm"
-RPM_HASH = "88c2866f5a8acb5c95958654e87889dc3541e18fc15e6a31ee684e2d0dcc7775503cb6e927574b0745d31e3fa96f284354e41f83f599a4ec8e303eea9f4bb4d4"
+RPM_NAME = "ghc-process-doc-1.6.26.1-1.3.noarch.rpm"
+RPM_HASH = "313f91fcd98aaf465f195a008164d777e17922bd03c5b087631c56398fa4d32d06cac1963eaf1fe3bbd0829939de942ed555176bf3cca7884808f7958953b4f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-process-doc"

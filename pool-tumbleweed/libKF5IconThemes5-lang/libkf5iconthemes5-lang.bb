@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5IconThemes5"
 DESCRIPTION = "Provides translations for the 'libKF5IconThemes5' package."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5IconThemes5-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "725229cf07ea3c3fd8e07596031c046cead8eda497acc05c8bd41d1c39261a1f36c8d58fb058853b85954016bfb3ce098beacf5bbad70bddc2af37a62e3fafaa"
+RPM_NAME = "libKF5IconThemes5-lang-5.116.0-1.14.noarch.rpm"
+RPM_HASH = "e48d22c2a800c906cc6867b98ae08eb289977bd40084507f99bf1f6407698ba328aa387cc1e2dfcda20c1a3af3aa9ad4015b2808ef2114a4949fd874594d6f97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5IconThemes5-lang \

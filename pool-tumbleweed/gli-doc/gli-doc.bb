@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "0.8.2.0"
 
-RPM_NAME = "gli-doc-0.8.2.0-4.4.noarch.rpm"
-RPM_HASH = "f32730533ce8d4bd14647c288a644f4cf0997385c3c27beece88674180e9ef7abbe6024c34fc650bc92e603a4feb0cf4aacc5a9e27dd6f10e718ff70bc18f5ad"
+RPM_NAME = "gli-doc-0.8.2.0-6.5.noarch.rpm"
+RPM_HASH = "58623aa106f20b22c9bc7ddc0c1f41e22f2901ee80147d8d13d3d419011811460ddac132371e183eb82d1f0058045e55b11b87be505aa7602efba3d900adfc33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gli-doc"

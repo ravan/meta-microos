@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.40"
 
-RPM_NAME = "chmlib-examples-0.40-24.9.aarch64.rpm"
-RPM_HASH = "a4ce878a903d675f09cb972ce84834f03ecdcad2c2ec7edd8a933a021b816e379f86b691ba442aaa6dbad370a56da35ac81ab15af9f4efacfce278aa7001a0f1"
+RPM_NAME = "chmlib-examples-0.40-26.5.aarch64.rpm"
+RPM_HASH = "4e2d947a73df9ba8a70c80d1cb938f30180eac807e5a9f26575e890728013c09acc6e63acae1227a85d2704c477efceaa5955f810e107eb933bdf50d8cca4163"
 
 RPROVIDES:${PN} += "chmlib-examples"
 

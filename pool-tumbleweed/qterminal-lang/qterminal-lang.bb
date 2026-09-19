@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package qterminal"
 DESCRIPTION = "Provides translations for the 'qterminal' package."
-LICENSE = "GPL-2.0-only"
+LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "qterminal-lang-1.3.0-1.2.noarch.rpm"
-RPM_HASH = "fef10b996643f81210c1eb0fcdce680dc932a041aa7b1c8a6a1ae5320cb56847dd2cdca46b951584c737f5663e966160904ec9f4a7b2fcfb09856f39a4382baa"
+RPM_NAME = "qterminal-lang-2.4.0-1.2.noarch.rpm"
+RPM_HASH = "bd1623e19533ab1d21cb1ab8339491483b7d3aeb2a1017fbdd4c1ae6163df195ec93ae1c4ea45c793c0b854baf0428c5d3726ad8a74f23e804b59a3cfa534365"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qterminal-lang \

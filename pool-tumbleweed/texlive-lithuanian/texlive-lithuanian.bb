@@ -6,10 +6,10 @@ with L7x encoding extra code page definitions used by inputenc: \
 cp775.def, latin7.def"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66461"
+PV = "2026.226.svn66461"
 
-RPM_NAME = "texlive-lithuanian-2023.209.svn66461-55.1.noarch.rpm"
-RPM_HASH = "78417470fa614e80a9ab091263b89ef1bb4cc287c024b82d030011684b955fbb47732ffdf88ce4e748e4c04b639a4a7431ea9f4cfefadf1e7222c63fe59efb70"
+RPM_NAME = "texlive-lithuanian-2026.226.svn66461-61.2.noarch.rpm"
+RPM_HASH = "e6239bbe6589d127eb771f860d1c2a9724c237a0ce612d60055b93437e137cba5933ecc6f3d723989cdac858d19aeb8e87a5f5346f9f241b0658db01ccca72e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cp775.def \

@@ -2,10 +2,10 @@ SUMMARY = "Haskell http-media library documentation"
 DESCRIPTION = "This package provides the Haskell http-media library documentation."
 LICENSE = "MIT"
 
-PV = "0.8.1.0"
+PV = "0.8.1.1"
 
-RPM_NAME = "ghc-http-media-doc-0.8.1.0-1.1.noarch.rpm"
-RPM_HASH = "a36d591976231f86ae260c62bd6a0d80ab802fff867388a0c5f9bacc96a3ea460c6bc6092f7413598670f935a18945709be41485f71806c136014ffb08e32b00"
+RPM_NAME = "ghc-http-media-doc-0.8.1.1-3.21.noarch.rpm"
+RPM_HASH = "f59d796c507b912c781da4e3204abd179c5c39e4802394f11e8b2e87607af61968038e1e1d2c09792bced0c7af7461dbe4e7f25b9ed22a23c92ebf89479a255a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-http-media-doc"

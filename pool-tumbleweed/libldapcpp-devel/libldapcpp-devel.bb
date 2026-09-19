@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains files needed for development with the LDAP 
 library."
 LICENSE = "OLDAP-2.8"
 
-PV = "2.6.4"
+PV = "2.6.13"
 
-RPM_NAME = "libldapcpp-devel-2.6.4-2.1.aarch64.rpm"
-RPM_HASH = "d2d4f509786d31eb456da88b6644671307b6166252deda5d857c5ccd8ea69aa26c3da946799eb748fd5ea861645bc38cb9dbb98602c412bf4d0c0790d961a395"
+RPM_NAME = "libldapcpp-devel-2.6.13-1.3.aarch64.rpm"
+RPM_HASH = "8677b27b30a4bbcd7261f65612e50f6fb96ac5ef7602f694baf4b3d3e2f7a961752a9b96765ac168f07a2d7445ad8ff000be534aadba8188c8610c6ee988e9c4"
 
 RPROVIDES:${PN} += "libldapcpp-devel"
 

@@ -6,24 +6,18 @@ Code 39, Interleaved 2 of 5 and QR Code. \
  \
 It can be used through the standalone GUI and command-line programs, \
 or integrated by other programs through a library."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.23.90"
+PV = "0.23.93"
 
-RPM_NAME = "zbar-0.23.90-4.1.aarch64.rpm"
-RPM_HASH = "e314eadd9c540f76de76db23b7e7f6c8499bb32114e2a872d837a37d76cd714842d98e578e62de229ef2b99930e80f19d45e83825085a91d0f481e09396d35a9"
+RPM_NAME = "zbar-0.23.93-4.3.aarch64.rpm"
+RPM_HASH = "66e85236900e59d2601cbd00c8d7d2ac1888f3ca65f2e4704568e17d3087b5a6259f271958ff39d8ad17318f77802587e60a068dca0a8cb984563b5d595840f2"
 
 RPROVIDES:${PN} += "zbar"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libMagickWand-7.Q16HDRI.so.10 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
 libc.so.6 \
-libgcc-s.so.1 \
-libstdc++.so.6 \
-libzbar.so.0 \
-libzbarqt.so.0"
+libzbar.so.0"
 
 inherit rpm

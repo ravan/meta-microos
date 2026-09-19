@@ -5,10 +5,10 @@ It secures network connections and protects privacy. \
 This package provide source code for v2ray-core"
 LICENSE = "MIT"
 
-PV = "5.7.0"
+PV = "5.53.0"
 
-RPM_NAME = "golang-github-v2fly-v2ray-core-5.7.0-2.1.noarch.rpm"
-RPM_HASH = "0768a746ff3e521c4f3e4112c93d8ff2f927dd5c75cb957eddab14ea9f65d40d9572c8fa19c908f877dbbdd2bd61eb8d9301313f41d52af26cc7add1f55ab20a"
+RPM_NAME = "golang-github-v2fly-v2ray-core-5.53.0-2.1.noarch.rpm"
+RPM_HASH = "5c80c0938eb3db9f2bb78c4314aba6e4983aced92a6403c9c6c1190ccc8be0672fafd44cf9fb774670bf0c8deec6066ac2a8522b7b2fb1074b99948addedede8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "golang-github-v2fly-v2ray-core"

@@ -4,10 +4,10 @@ software using libhandy, a library to help with developing mobile UI \
 using GTK+/GNOME."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.8.2"
+PV = "1.8.3"
 
-RPM_NAME = "libhandy-devel-1.8.2-1.4.aarch64.rpm"
-RPM_HASH = "03c91a2719b2c647f0e0116c996d5410837c87e9400ad515f7704b7472696b8fe3f99ff404e4ef71ff752fdf83750f617b6831b1af4f44c14d8caf14aec9d202"
+RPM_NAME = "libhandy-devel-1.8.3-2.3.aarch64.rpm"
+RPM_HASH = "195bc6568ca4ce610aed00578c03385ffd1166514738e567612433707b6b574c710b73463594d0781566fdcf8f5b89ffb302fbf3d45a57c28b0901ceb761201f"
 
 RPROVIDES:${PN} += "libhandy-devel \
 pkgconfig-libhandy-1"

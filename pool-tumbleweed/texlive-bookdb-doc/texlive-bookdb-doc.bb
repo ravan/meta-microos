@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bookdb"
 DESCRIPTION = "This package includes the documentation for texlive-bookdb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn37536"
+PV = "2026.226.0.0.2svn76790"
 
-RPM_NAME = "texlive-bookdb-doc-2023.209.0.0.2svn37536-53.1.noarch.rpm"
-RPM_HASH = "17f068baabaea0608e583f34771942b97ab8002bb87ef87e4b8ffb7721f879d77d86ed0f173d99a2d9b416f9b0f179565cb2155bac8b934b52daee405668f5a6"
+RPM_NAME = "texlive-bookdb-doc-2026.226.0.0.2svn76790-59.2.noarch.rpm"
+RPM_HASH = "107cab2a6849c054fe4f6750d5f8c7ca37a172413df8d28b333d33773a45c7f6e46ca1ecf598d6b35131d9fa1cb8bc32f5d6381859aeb3b957b4f8896c272c66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bookdb-doc"

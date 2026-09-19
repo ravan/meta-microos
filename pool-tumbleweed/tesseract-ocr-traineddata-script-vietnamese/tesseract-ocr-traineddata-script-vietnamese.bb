@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Vietnamese 
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-vietnamese-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "5c5ae95819216f0c2653ab39efb91b4442c4a607b5de2ac13bc3ef52fa8e4a7ab25505e4a49d6b16ecb6fb710f13261fb729314b159b59b3b86a8c484acaed14"
+RPM_NAME = "tesseract-ocr-traineddata-script-vietnamese-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "180bb3a5849fca981bf7d6e9129344ff5aaa6ff8036caa96efa1d9f7c2b60cf194f9ba8614f4d04b28f09ac69ad7e5407b148fc184b3880893f7355ef0eb5951"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-vietnamese"

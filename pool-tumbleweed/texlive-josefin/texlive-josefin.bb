@@ -6,10 +6,10 @@ Josefin Sans is available in seven weights, with corresponding \
 italics."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64569"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-josefin-2023.209.svn64569-56.1.noarch.rpm"
-RPM_HASH = "51dfe82d7eb11efa9a1079b6b39bd1cf1b78f653854d3e6724b14633bd2c519862e9f82e608e526bdf71f3f1667d1cbe23cd4124bb72d17ce2c07f519e5e5539"
+RPM_NAME = "texlive-josefin-2026.226.svn77682-63.2.noarch.rpm"
+RPM_HASH = "7f689b150a76e3e888c51065c05e19d90389e7e99ba84264d4c5da7c29676ee831f42c2aea5cb7d0afd2fd5c46887e74d5000080513221470b93cb7f542dc54f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-JosefinSans-Bold-lf-ly1--base.tfm \

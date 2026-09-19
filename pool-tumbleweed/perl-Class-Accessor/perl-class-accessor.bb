@@ -48,12 +48,12 @@ you can use: \
     Foo->mk_accessors( qw(far bar car) ); \
  \
 *Note:* you must call 'follow_best_practice' before calling 'mk_accessors'."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.51"
+PV = "0.510.0"
 
-RPM_NAME = "perl-Class-Accessor-0.51-1.22.noarch.rpm"
-RPM_HASH = "848d6ff0c6a47359cd1687e240f34bdd37380b0240d6f130ed3461eb99949ffb9a08dbdf85225f486d1d999141c4ccef742e14df5de8bc56c920a5c2ef04354d"
+RPM_NAME = "perl-Class-Accessor-0.510.0-1.5.noarch.rpm"
+RPM_HASH = "4783ed60ad5375a11313c2700715ba8b712b2b5b4b11acd479fc98a87c98cc5db748b14b28190458b882624fba65c0f91eeaa073c7526f62fbc92c707a49f854"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Accessor \
@@ -61,6 +61,6 @@ perl-Class--Accessor--Fast \
 perl-Class--Accessor--Faster \
 perl-Class-Accessor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

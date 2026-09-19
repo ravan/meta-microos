@@ -2,10 +2,10 @@ SUMMARY = "Typeset go diagrams with PSTricks"
 DESCRIPTION = "The psgo package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.17svn15878"
+PV = "2026.226.0.0.17svn78101"
 
-RPM_NAME = "texlive-psgo-2023.209.0.0.17svn15878-53.1.noarch.rpm"
-RPM_HASH = "58bdea0e7a6093f1816c791ca85428678ec283aee09a9d7ddfc13a44035c0d02c074ebccf5c1364487aa3e834c54d4fa9c3b49c5c942ec969387523f3d10a9d9"
+RPM_NAME = "texlive-psgo-2026.226.0.0.17svn78101-59.2.noarch.rpm"
+RPM_HASH = "8ad8557480842c09910e0a3c21e99b84e32225d1d2ed83aa46f8d5571572080c4b5ad491b8eaac2491005fc4a357fe58362ac2794c0d969939a5f569bbf6bd25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-psgo.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "Screen Message is a program to display a text as large as possibl
 the screen. The text can be edited while Screen Message is running."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.26"
+PV = "0.28"
 
-RPM_NAME = "screen-message-0.26-1.10.aarch64.rpm"
-RPM_HASH = "0db592487a12518ed4b0ed58a4d3e1a8fdc88bec9b341443f7e615bf80ba05d4fe608ac53da7f88fb09a987c729e8cc708440d6d59f9ccae985d3a63dc33c2c8"
+RPM_NAME = "screen-message-0.28-2.11.aarch64.rpm"
+RPM_HASH = "baa31c1c24484c5ffcd6152b81c6c66121c685bc4ecdbc458fe093e366d0854474b1700a43aeb29d884d6f2bb5ce335c90be2ee1d07a2f878a7a7b5f07bf7081"
 
 RPROVIDES:${PN} += "screen-message"
 

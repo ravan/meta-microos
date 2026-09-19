@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hfbright"
 DESCRIPTION = "This package includes the documentation for texlive-hfbright"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn29349"
+PV = "2026.226.svn29349"
 
-RPM_NAME = "texlive-hfbright-doc-2023.209.svn29349-54.2.noarch.rpm"
-RPM_HASH = "d6721f5837b5280aec6bdd77a4b781edc1e31f078456d384d0c96a444a16d314011974a5cf24a56bfe23ddf823c052331cc334b2935dbeba1b4ff5c1742ee21d"
+RPM_NAME = "texlive-hfbright-doc-2026.226.svn29349-60.4.noarch.rpm"
+RPM_HASH = "24cfce47a82ba0e3e5d11f44b3fcb82863268d75396d921b1c959a334ddcfc2c3130fc079cc850c8e539473497f27f53339218b4f882cfecaf9ac2c51a1a9ab8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hfbright-doc"

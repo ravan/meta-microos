@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamerthemenirma"
 DESCRIPTION = "This package includes the documentation for texlive-beamerthemenirma"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn20765"
+PV = "2026.226.0.0.1svn20765"
 
-RPM_NAME = "texlive-beamerthemenirma-doc-2023.209.0.0.1svn20765-54.1.noarch.rpm"
-RPM_HASH = "9d80fa71969114e5a9ff7a855e219e2a64a758e429e694d595981600a62b3f1d9365fd1906ee10ec65e1524a434596922ee67bacaf6d655f507ad86785e49875"
+RPM_NAME = "texlive-beamerthemenirma-doc-2026.226.0.0.1svn20765-61.2.noarch.rpm"
+RPM_HASH = "f2d3b933002f15ab4d79e6701512f03e01dfc5c4ff50b701c59f463cfb7b7fe24eb098e1a65b8033251e55570855be5772acf4c5b520a87e57488597280221c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamerthemenirma-doc"

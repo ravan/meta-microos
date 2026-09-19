@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.0.5"
 
-RPM_NAME = "sersniff-0.0.5-1.12.aarch64.rpm"
-RPM_HASH = "4871fec9ddb370b1413317bd7c944b69c60b12a57fab02a8f4e5c1d33a6550b1aa90a350f59f77dbfbdb2fa71b6b8365d572824af94979dbdde2a3aedc788287"
+RPM_NAME = "sersniff-0.0.5-1.22.aarch64.rpm"
+RPM_HASH = "92ae085ffb3f40bd6cbb8b43d3f5a63dc60c3ccad53f228886ca16e29f1e3004a46c915fffd2f0c17e72ae5e0509a7de4409b582e52bf18a717855105cd722ff"
 
 RPROVIDES:${PN} += "sersniff"
 

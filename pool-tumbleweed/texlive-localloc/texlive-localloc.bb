@@ -4,10 +4,10 @@ registers, by providing a mechanism for local allocation. The \
 package works with Plain TeX, LaTeX, and LaTeX 2.09."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn56496"
+PV = "2026.226.svn56496"
 
-RPM_NAME = "texlive-localloc-2023.209.svn56496-55.1.noarch.rpm"
-RPM_HASH = "4944cb15acab50b1987305f4eddfd0ca32c3baf9f82754939adadd91e72e063d1c806b301d564f3cb9dcf46787f6ab93b6175db8956d033d0e71ee72c5c704b3"
+RPM_NAME = "texlive-localloc-2026.226.svn56496-61.2.noarch.rpm"
+RPM_HASH = "64c10533af4368d5221a43684ae1a8b59681eff9588bfc54f514270d907b45c2e0573f2e3fb89df723e09ced0b111655702cb49b5f3f2d1406ce2f68470b01e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-localloc.sty \

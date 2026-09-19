@@ -2,10 +2,10 @@ SUMMARY = "Clipboard management system for GNOME"
 DESCRIPTION = "GPaste is a clipboard management daemon with DBus interface."
 LICENSE = "BSD-2-Clause"
 
-PV = "44.1"
+PV = "50.9"
 
-RPM_NAME = "gpaste-44.1-1.1.aarch64.rpm"
-RPM_HASH = "7f47e903ea9e658793ef5f6fc958bcb7f23dcaa1f8bf7ba3fd7f89f6f12634d55a28e189f2c12d8e87d72559f6fc64aca497be70d4bf070f4bbda8c6db0db4f6"
+RPM_NAME = "gpaste-50.9-1.1.aarch64.rpm"
+RPM_HASH = "5d9e4e21523b011cdc385065e1f64f6af40c3687b58424c56157d9fc68515fff3a8281db978f9a438fd20c968eadf8caba4d01c54bc611fbed06cf44f590bb61"
 
 RPROVIDES:${PN} += "gpaste"
 
@@ -15,15 +15,12 @@ libXi.so.6 \
 libadwaita-1.so.0 \
 libc.so.6 \
 libgcr-4.so.4 \
-libgdk-3.so.0 \
-libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgpaste-2.so.0 \
-libgpaste-gtk-3.so.0 \
-libgpaste-gtk4.so.0 \
-libgtk-3.so.0 \
-libgtk-4.so.1"
+libgpaste-gtk4.so.1 \
+libgtk-4.so.1 \
+libpango-1.0.so.0"
 
 inherit rpm

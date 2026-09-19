@@ -7,14 +7,14 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.9"
 
-RPM_NAME = "tarix-1.0.9-1.12.aarch64.rpm"
-RPM_HASH = "f378b5092dc50e75dff0282cdcb5fae7a9a420e402104e457216557af50566d2dc72043c26ac6a56cec6e43bbcfd10e313c6f6885825c719f8da46c621e214c1"
+RPM_NAME = "tarix-1.0.9-2.3.aarch64.rpm"
+RPM_HASH = "6b0f0b72d4e2bb788a5aca8bc87421216c3598c7ed1c27e547777f3d587b3056b7c84c7566ed1ed1d6963132814dcffe8beeb64ae6e4f7ca1c2286cef010157a"
 
 RPROVIDES:${PN} += "tarix"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libglib-2.0.so.0 \
 libz.so.1"
 

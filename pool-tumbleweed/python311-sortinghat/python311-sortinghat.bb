@@ -24,10 +24,10 @@ to store the identities obtained into its database, and later merge them \
 into unique identities (and maybe affiliate them)."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.12.0"
+PV = "1.5.1"
 
-RPM_NAME = "python311-sortinghat-0.12.0-1.1.noarch.rpm"
-RPM_HASH = "0227084ba8e2252469f9c588f3820c368de9f8c2f585c2c0b44b4a36ca2433362f901c44e59d574d5a9e6a1afdf77c50e128db6dd2d5934f9348e5bc0850d3b8"
+RPM_NAME = "python311-sortinghat-1.5.1-1.2.noarch.rpm"
+RPM_HASH = "26c1f9230b085a738533cb8dd1fdbecc0eebfd8897cbc3411573cf6174566b86020893747060b74dde1966dd2eb3cec286dc8eee59c3ffbc303a4cc6b79cca7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sortinghat \
@@ -53,11 +53,14 @@ python311-django-treebeard \
 python311-graphene \
 python311-graphene-django \
 python311-grimoirelab-toolkit \
+python311-importlib-resources \
 python311-mysqlclient \
+python311-numpy \
 python311-pandas \
 python311-python-dateutil \
 python311-requests \
 python311-rq \
+python311-setuptools \
 python311-sgqlc \
 update-alternatives"
 

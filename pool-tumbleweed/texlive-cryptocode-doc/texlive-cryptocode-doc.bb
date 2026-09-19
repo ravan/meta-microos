@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cryptocode"
 DESCRIPTION = "This package includes the documentation for texlive-cryptocode"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.44svn60249"
+PV = "2026.226.0.0.44svn60249"
 
-RPM_NAME = "texlive-cryptocode-doc-2023.209.0.0.44svn60249-55.1.noarch.rpm"
-RPM_HASH = "f49e9a5b1c1148b340c750ae7fa0bce31f861dbf55087a4a75f30d067c38ea1c1fd74e968ac9e8c0597700b30f2af57b33e16c2d71be55e11200df2485f24c7c"
+RPM_NAME = "texlive-cryptocode-doc-2026.226.0.0.44svn60249-61.2.noarch.rpm"
+RPM_HASH = "966a02d8a805619ca41f3eff047f7179bcb676724f40b1fc67cc44d54fcaa91177632fa377188da004500e92d1eae0f734f9243ec9e97d68c274c218a573168d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cryptocode-doc"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.7.1"
 
-RPM_NAME = "nunit3-devel-3.7.1-1.7.noarch.rpm"
-RPM_HASH = "44fefa6aa63fe8b47a88e05ea99c083d0e6c6d783e12fea360c4b9d2339d567f1f6245c3cff4e0447666aa7d4c59016fc7c06839f06342d1cd583b3ade11f6fa"
+RPM_NAME = "nunit3-devel-3.7.1-1.14.noarch.rpm"
+RPM_HASH = "961beb7422ce0abde2bfd7da36c80978a83e11124faae6a1b270dda4b4f9ccefa8219dbcab3f26f5af8561510d2fa1da75b8ccc85e846cba7cfb6a8f5e96823a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nunit3-devel \

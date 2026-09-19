@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 | CC0-1.0"
 
 PV = "20190702"
 
-RPM_NAME = "argon2-devel-20190702-2.7.aarch64.rpm"
-RPM_HASH = "e0ff3c4fd99aea56aaedc603c19e319318ee189dea4683e993035b59dc1886827f5e4cb570dd379e18c5adfbec76473add2937db5c959bcf8d924fd5498cd04f"
+RPM_NAME = "argon2-devel-20190702-4.9.aarch64.rpm"
+RPM_HASH = "57ed8cee38025796cb6917a297bfb50e9103a711e588e972f5f761b513a2889590ef0d4eed1bd973a9f3618eaf94a5446cee1fe70aba2876b0c3eda7814ac7b7"
 
 RPROVIDES:${PN} += "argon2-devel \
 pkgconfig-libargon2"

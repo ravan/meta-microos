@@ -17,8 +17,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.19.13.gbe11d94"
 
-RPM_NAME = "ipmitool-1.8.19.13.gbe11d94-1.1.aarch64.rpm"
-RPM_HASH = "cd87ad6d7384c19ba33efdc51614cfd48ea57d489d85093129e57ab9adbe83db7b36f9b9e1e39e9e0b81b490cda3ec8af263a4a4da11dcd29dd161d72a742b80"
+RPM_NAME = "ipmitool-1.8.19.13.gbe11d94-5.4.aarch64.rpm"
+RPM_HASH = "b9b0357c4f9f59091ff20372bde387da358bfbdb20768e6ffd912957743537abe565cdfd7d45dc9467c01cfab2c36180b5c9677d62d8f403513496d9deee3f5a"
 
 RPROVIDES:${PN} += "config-ipmitool \
 ipmitool"

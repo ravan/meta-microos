@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains libjasper, a library implementing the JPEG-
 image compression standard Part 1."
 LICENSE = "JasPer-2.0"
 
-PV = "4.0.0"
+PV = "4.2.9"
 
-RPM_NAME = "libjasper-devel-4.0.0-1.4.aarch64.rpm"
-RPM_HASH = "d313bdd7d7db6d2196930175929756547fde0bde9eacc9925025bd72ddba3a002ec8ab5f752dcc7355e1367531557d5ae5994001d6408f992235e23a363eb0be"
+RPM_NAME = "libjasper-devel-4.2.9-1.4.aarch64.rpm"
+RPM_HASH = "9deebbc94ec52eb8bfb66a0cbae3315cb9e558d97c9f08d94731c84035f1f27e032d7f074a272733ffb1979df799f92383353fadbb292d1e9ed139448d7dc3d9"
 
 RPROVIDES:${PN} += "libjasper-devel \
 pkgconfig-jasper"

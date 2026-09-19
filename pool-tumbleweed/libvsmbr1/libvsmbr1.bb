@@ -4,10 +4,10 @@ DESCRIPTION = "libvsmbr is a library to access the MS-DOS volume system. \
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210509"
+PV = "20240505"
 
-RPM_NAME = "libvsmbr1-20210509-5.1.aarch64.rpm"
-RPM_HASH = "1ccc6512b9ca0a4be01070aab16fa09ac2c2a9aa6663ef6dd69fb1044032dfe293540cfdacc97f0c7e0a04f89ebe446043aa2b4cbe3edd2f2160b9419c0e41bf"
+RPM_NAME = "libvsmbr1-20240505-1.20.aarch64.rpm"
+RPM_HASH = "3de31a7aa69101695746661aada0ca9440d1007aa627b8517e5f34e191270104fdcd3db7907e0bba540094fa70382f91c3c1310a09adbae87356ea21ec8f87a8"
 
 RPROVIDES:${PN} += "libvsmbr.so.1 \
 libvsmbr1"

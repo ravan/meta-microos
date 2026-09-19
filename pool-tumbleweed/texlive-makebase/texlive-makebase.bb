@@ -8,10 +8,10 @@ the code are welcomed. Warning: this is alpha software and may \
 contain bugs. Please report problems to the author."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.2svn41012"
+PV = "2026.226.0.0.2svn41012"
 
-RPM_NAME = "texlive-makebase-2023.208.0.0.2svn41012-53.1.noarch.rpm"
-RPM_HASH = "36bf86a87b3e3da27f41245c08aeaaaa8d7357c4675308fb7db5a71257109cfbc1892607909fbdf954c6c7f720577bcdaa6c6043ccd653243eeda7471669b830"
+RPM_NAME = "texlive-makebase-2026.226.0.0.2svn41012-59.2.noarch.rpm"
+RPM_HASH = "bc83374efc4600c43a708a172006588296e0f59cc510d94a80cd60e4e21be37368c1581dca1f001c3a39cd43145d1cbb91da93a0cca6c95c0cbc2bdeb69758c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makebase.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-context-mathsets"
 DESCRIPTION = "This package includes the documentation for texlive-context-mathsets"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn47085"
+PV = "2026.226.svn47085"
 
-RPM_NAME = "texlive-context-mathsets-doc-2023.209.svn47085-55.1.noarch.rpm"
-RPM_HASH = "d16cb5ceb2023f4f26a257430d3b94b6b614227adf2ca920bfcdd832790b2fce41d49976296766a330cd8a3b79791ed66432c491c16aca39bbe7f49beaaba30a"
+RPM_NAME = "texlive-context-mathsets-doc-2026.226.svn47085-61.2.noarch.rpm"
+RPM_HASH = "4b3d6633c3b131e22a5ced4ffb20670b3125c74060f481fd1926def86ea59558916ce72501d98ef8ca6dc2f734477037bf5c9333344ea6d7172047dc0b244c96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-mathsets-doc"

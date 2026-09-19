@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.3.1"
 
-RPM_NAME = "glassfish-jaxb-bom-2.3.1-4.5.noarch.rpm"
-RPM_HASH = "999279ace73b023fc6232203e49f3307b4bd3eb1df65b6ae9176784dda30e8d2716e2516569a0a5b7b07e10bc069f95f13f8c3f2a4083aab2280f37ffb4740d3"
+RPM_NAME = "glassfish-jaxb-bom-2.3.1-12.4.noarch.rpm"
+RPM_HASH = "d87a95b44896de1e1ebed6a60dc7b733567687bbfd6255413b15af52bf7835fa85385e50a6e0a3d122d8b0214906c3795d399c4414d04b58e56de26e799ddd6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-bom \

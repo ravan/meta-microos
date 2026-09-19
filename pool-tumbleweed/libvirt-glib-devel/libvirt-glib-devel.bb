@@ -9,10 +9,10 @@ long term stable C API initially for the Xen paravirtualization but \
 should be able to integrate other virtualization mechanisms if needed"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.0.0"
+PV = "5.0.0"
 
-RPM_NAME = "libvirt-glib-devel-4.0.0-1.11.aarch64.rpm"
-RPM_HASH = "2509af9972908e345b4124a9c6753c92147a1efd0ee66913febc66c7136893549b5494feda340a5d01ce8165d16b2995f2fd71ad1373d56d719171b68e8d2a52"
+RPM_NAME = "libvirt-glib-devel-5.0.0-2.8.aarch64.rpm"
+RPM_HASH = "f58c980edcfb43c0adc27864bc37212bc827a1df8e7480db183f5c76a4a1fc5f7598c37dcaae7f4f8e0536c8b5e19c407dff53c34738c87cb2cabfb2527e5ca3"
 
 RPROVIDES:${PN} += "libvirt-glib-devel \
 pkgconfig-libvirt-gconfig-1.0 \

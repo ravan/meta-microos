@@ -2,16 +2,17 @@ SUMMARY = "Changelog listing tool"
 DESCRIPTION = "This tool is to show the changelog of packages in the repository"
 LICENSE = "GPL-2.0-only"
 
-PV = "0.3"
+PV = "0.6"
 
-RPM_NAME = "zypper-changelog-plugin-0.3-1.2.noarch.rpm"
-RPM_HASH = "541c8f811fe729a7f0347fa8ec4166d78ffe49442fe935d1291932a81ee0a3b72e3ae16da47cf68c4b6c106ed5be7ca346123e9b92f9242481f0909e4a4ce0eb"
+RPM_NAME = "zypper-changelog-plugin-0.6-1.6.noarch.rpm"
+RPM_HASH = "aaf82b863e1b8a2cd30cf9c830e7b8feba73ae9636d1fc1a3c6a27014790b520503f75686ec9e12925f1783cc11e4d2a790275c110749720fca76fdefa350f3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-changelog-plugin"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/python3 \
-python3-requests"
+RDEPENDS:${PN} += "/usr/bin/python3 \
+python3-requests \
+python3-rpm \
+zstd"
 
 inherit rpm

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.4"
 
-RPM_NAME = "spawn-fcgi-1.6.4-1.27.aarch64.rpm"
-RPM_HASH = "55c40304ace320bb9fa47e782641af51eb63cefa6b5ffe8413d249896fcacd419b9e688e91d2c6c24fce87e2bca9edba2f57647019b6a7bce223c72859dcfae7"
+RPM_NAME = "spawn-fcgi-1.6.4-1.37.aarch64.rpm"
+RPM_HASH = "614eb9ea37457b0a9e5a88698096d9dc41a2b55a2a7156a611bec364d5db340b1e1e7b79f1b07ed9acaff756edadf730b64211d8cf2b5bd77b03ab2b4e79903c"
 
 RPROVIDES:${PN} += "spawn-fcgi"
 

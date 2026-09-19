@@ -18,16 +18,15 @@ My intent here is to make common assertions easy so that we as programmers \
 have no excuse to not use them."
 LICENSE = "Artistic-2.0"
 
-PV = "2.3.0"
+PV = "2.9.0"
 
-RPM_NAME = "perl-Carp-Assert-More-2.3.0-1.3.noarch.rpm"
-RPM_HASH = "2de968b4e52a9d8f31a7bdc6480307fe57dc0e7f017088704617cdc6dc0365db03728d6e17b300b26b7ffe6e43e55adab7de208807e2d78c1cb794164a178c30"
+RPM_NAME = "perl-Carp-Assert-More-2.9.0-1.8.noarch.rpm"
+RPM_HASH = "91a01c42d4f9c75d725bf2aa2c3f6ea787fb501f147e668e772d14c8368bec938621c62f259485f69ca5d50844ba4a1f5a5d8f3db4ffe44141ccbe27990b1d51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Carp--Assert--More \
 perl-Carp-Assert-More"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-Test--Exception"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

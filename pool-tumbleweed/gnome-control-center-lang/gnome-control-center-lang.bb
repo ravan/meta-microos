@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-control-center"
 DESCRIPTION = "Provides translations for the 'gnome-control-center' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "50.4"
 
-RPM_NAME = "gnome-control-center-lang-44.3-1.1.noarch.rpm"
-RPM_HASH = "26d87915d7fca8744ffeef27b2f11ca159ccaaa5c6c24a32af42b651aad6bea9772617cdb990863090400db4fd897478ed6ebbddf12e82a8a2a0c8a5f6ac442c"
+RPM_NAME = "gnome-control-center-lang-50.4-1.1.noarch.rpm"
+RPM_HASH = "ab7627819a604f73663dc9f1412d70cb579104d587d41b3cc2624f0b74a1aa1e1a71e4b602c4cf1c5f1a8bb9e2b0b696cd62569f0fb41835b854ef65fade6cc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-control-center-lang \
@@ -49,6 +49,7 @@ locale-gnome-control-center-he \
 locale-gnome-control-center-hi \
 locale-gnome-control-center-hr \
 locale-gnome-control-center-hu \
+locale-gnome-control-center-ia \
 locale-gnome-control-center-id \
 locale-gnome-control-center-is \
 locale-gnome-control-center-it \

@@ -2,10 +2,10 @@ SUMMARY = "Examples for the librdmacm library"
 DESCRIPTION = "Example test programs for the librdmacm library."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "47.0"
+PV = "63.0"
 
-RPM_NAME = "librdmacm-utils-47.0-3.1.aarch64.rpm"
-RPM_HASH = "4e01f8e08ab68d06800d644b2526a27761245f7361988629f3cdf79178809478cea4ea3061a429a3172bcec3fff9f1c0f6af210f4770b72be89031b481c0d77b"
+RPM_NAME = "librdmacm-utils-63.0-1.3.aarch64.rpm"
+RPM_HASH = "62176e9ff893c7a7dbe0c2e853302c710ac7781ffd91b68bb8399a871df65603114424e9eb44524a43054855229f4dc704315274d06793d43a884f918360b01b"
 
 RPROVIDES:${PN} += "librdmacm-tools \
 librdmacm-utils"

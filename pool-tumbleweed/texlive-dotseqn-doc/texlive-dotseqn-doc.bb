@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dotseqn"
 DESCRIPTION = "This package includes the documentation for texlive-dotseqn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn17195"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-dotseqn-doc-2023.209.1.1svn17195-53.1.noarch.rpm"
-RPM_HASH = "b7e71cd9de49e939ff28dee1bab6ddc38e1b990d2d05cd0c64631bbdf376324671ad0d731341dd535b9e0081122f99c3cd3fbbcde306330292bc78fa348735c3"
+RPM_NAME = "texlive-dotseqn-doc-2026.226.1.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "2793e8e98ed4d14a3bf45e3d522cc7d5ea737b4f41f6d65ce0faa0dc476ac3417e6056a3bbf88c6ca885fe7ac74cfeec08a2efb6a3ce3ac9b7a1a7e1f63ec653"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dotseqn-doc"

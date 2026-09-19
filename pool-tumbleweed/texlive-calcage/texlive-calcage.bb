@@ -5,10 +5,10 @@ the age in days; conversion from days to years is then \
 performed, taking care of leap years and such odd things."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.90svn27725"
+PV = "2026.226.0.0.90svn27725"
 
-RPM_NAME = "texlive-calcage-2023.209.0.0.90svn27725-53.1.noarch.rpm"
-RPM_HASH = "b9d5d3352067c71320f33112e7306cf1b0f18c0ac2f7b2fbc1ed00f849acc25991d1a963dfd622edb3eebf373402068a0792becbae08cb9ef057efa293848534"
+RPM_NAME = "texlive-calcage-2026.226.0.0.90svn27725-59.2.noarch.rpm"
+RPM_HASH = "a00c30c0028f5d4b47fa91f48965f2e697ac011a0ba806d2cf0366ca0de5cb57e41df781661d9a8676a7c373fb4ed6ca02573b4c29edc02dd003105b4e0fa513"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-calcage.sty \

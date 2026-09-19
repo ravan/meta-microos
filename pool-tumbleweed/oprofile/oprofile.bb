@@ -22,24 +22,22 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "oprofile-1.4.0-2.2.aarch64.rpm"
-RPM_HASH = "938aab297869ba1fd28069f0a90fd0a4d736e8ce3ebcd3ffe64365a80f039f1cf52c53a67ec9a05fe5758d56a664638d7a8e21376645f172e7b8ab7888e3ad73"
+RPM_NAME = "oprofile-1.4.0-5.2.aarch64.rpm"
+RPM_HASH = "64b5c5c3b315556627ebcf23b0310b3a3b4b1b6f573be3a9d9b692c73a9876b90d2c1033ad7bb5475f4475a94cda1b06d93df9b2c01e85353796ac9f71daec5c"
 
-RPROVIDES:${PN} += "libjvmpi-oprofile.so \
-libjvmti-oprofile.so \
+RPROVIDES:${PN} += "libjvmti-oprofile.so \
 oprofile"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-/usr/sbin/groupadd \
-/usr/sbin/useradd \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libopagent.so.1 \
 libpopt.so.0 \
-libsframe.so.0 \
+libsframe.so.2 \
 libstdc++.so.6 \
 libz.so.1 \
-libzstd.so.1"
+libzstd.so.1 \
+pwdutils"
 
 inherit rpm

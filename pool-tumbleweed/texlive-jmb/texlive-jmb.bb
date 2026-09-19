@@ -9,10 +9,10 @@ titles; if your database contains an article with the cite key \
 be printed; otherwise titles will not be printed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.21svn52718"
+PV = "2026.226.1.21svn77682"
 
-RPM_NAME = "texlive-jmb-2023.209.1.21svn52718-56.1.noarch.rpm"
-RPM_HASH = "a85bb7fde31c2da01a1b1b1603db8b97fdb1af2af92515787431c5332779f74e9fd5340729cc749dcdd794761fe43be370d61bfde8890fc295c1f83d6a996d18"
+RPM_NAME = "texlive-jmb-2026.226.1.21svn77682-63.2.noarch.rpm"
+RPM_HASH = "924f04828a418816e6c2fc80d6da2567a82268cf70eef07c906651bd2787692f4cd7e2726c43008502c20b6a812624d029b781698efcb89214a3d8fdbb1e9611"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jmb.sty \

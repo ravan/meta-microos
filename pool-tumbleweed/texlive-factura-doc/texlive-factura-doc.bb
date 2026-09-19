@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-factura"
 DESCRIPTION = "This package includes the documentation for texlive-factura"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.32svn61697"
+PV = "2026.226.4.32svn61697"
 
-RPM_NAME = "texlive-factura-doc-2023.209.4.32svn61697-53.1.noarch.rpm"
-RPM_HASH = "658ebc3c75645b11cc1ff4296a9f5d42a2eee3460b6fcf7360fcbff6b2fdc2a745454e1bf90ee5c27e1e53a902a5f285f655b344e3775627a77e6330ca398f87"
+RPM_NAME = "texlive-factura-doc-2026.226.4.32svn61697-59.2.noarch.rpm"
+RPM_HASH = "1426dd38a5f52025a4b91de6e865b49e525f6b5204c625d16dd441eae15de92181aa84dbb2345e5a9097595e56b9e58cbfb5738721a3693839b2bfc90e7472d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-factura-doc-es-VE \

@@ -8,10 +8,10 @@ API for running sigrok protocol decoders. The protocol decoders themselves \
 are written in Python."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.3"
+PV = "0.6.0~git20241001.71f4514"
 
-RPM_NAME = "libsigrokdecode-devel-0.5.3-2.5.aarch64.rpm"
-RPM_HASH = "fb0f8ea49f9eb40364d83c2dfc9aaf5b11bc4102671190c154567d26bfdaa07c708c7970a0dafb98d0aab67a52ad7b7e19534d2d007f8525bb2b36edc85d79de"
+RPM_NAME = "libsigrokdecode-devel-0.6.0~git20241001.71f4514-1.6.aarch64.rpm"
+RPM_HASH = "d23f6e6e2117fb4d8a15c9571262d67863ab99d9908c9f058a4c676c014a12e5f37a596e184847319971308875212033b3475a1839772a26e5ebde3975bbb748"
 
 RPROVIDES:${PN} += "libsigrokdecode-devel \
 pkgconfig-libsigrokdecode"

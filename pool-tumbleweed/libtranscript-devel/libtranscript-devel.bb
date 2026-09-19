@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libtranscript."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.3.3"
+PV = "0.3.4"
 
-RPM_NAME = "libtranscript-devel-0.3.3-2.15.aarch64.rpm"
-RPM_HASH = "c8b109e6be3b0fe601e348d8eb2fa1d525d54372adcd98452558a74934d2ece13883084b9efd43ae75a8017e32c795b53c866f78c1b9708a511ff76b3c6d5673"
+RPM_NAME = "libtranscript-devel-0.3.4-1.7.aarch64.rpm"
+RPM_HASH = "77338bf034329642e6d92fad27516080f136a17ac244d80af8d9e3ad80626f1faddd1c81425768779c019b9fe7e3f015691289206944c1d8a333040d5561dd0d"
 
 RPROVIDES:${PN} += "libtranscript-devel \
 pkgconfig-libtranscript"

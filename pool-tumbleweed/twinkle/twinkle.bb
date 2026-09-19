@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.10.3"
 
-RPM_NAME = "twinkle-1.10.3-2.2.aarch64.rpm"
-RPM_HASH = "e4663619544413db4a5fb475a5730514e624b47aa2d948df3cd3d865cad7424f0ffe21bb1ccce559c70f29736ae8f0704c6bdc5d5462283533280da10543b894"
+RPM_NAME = "twinkle-1.10.3-5.5.aarch64.rpm"
+RPM_HASH = "f6e75729590924493b70140e05d935c5263dff8b93bade2002fc008b801fe77505e9158625f92e487bc1d353cb103612f6cb9242ab0c1c5382ca3d7c0c8e3603"
 
 RPROVIDES:${PN} += "twinkle"
 
@@ -24,7 +24,6 @@ libccrtp.so.3 \
 libcommoncpp.so.8 \
 libgcc-s.so.1 \
 libgsm.so.1 \
-libilbc.so.0 \
 libm.so.6 \
 libmagic.so.1 \
 libreadline.so.8 \
@@ -35,8 +34,7 @@ libspeexdsp.so.1 \
 libstdc++.so.6 \
 libucommon.so.8 \
 libusecure.so.8 \
-libxml2.so.2 \
-libzrtpcpp.so.4 \
+libxml2.so.16 \
 update-desktop-files"
 
 inherit rpm

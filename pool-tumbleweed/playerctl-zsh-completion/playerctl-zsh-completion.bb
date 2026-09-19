@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.4.1"
 
-RPM_NAME = "playerctl-zsh-completion-2.4.1-1.9.noarch.rpm"
-RPM_HASH = "648aac347f7372eb23dcf23fd815362c4901ff45821bb83b2cd6bb6667a15ad4f2861a6928dd72cf87815e7ff6cdffd6afe176955509c6a29f83d64ba24dcba4"
+RPM_NAME = "playerctl-zsh-completion-2.4.1-1.21.noarch.rpm"
+RPM_HASH = "e602169cb54c9592526496800820f11a97b240b88f4962628dfee7c9ba8a4c8970205942b10440c856220f027ab45b5caed0b50769fb8f394abec6d409504634"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "playerctl-zsh-completion"

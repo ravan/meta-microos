@@ -18,8 +18,8 @@ LICENSE = "CC-BY-SA-3.0 & LGPL-3.0-only"
 
 PV = "0.3.4"
 
-RPM_NAME = "lensfun-data-0.3.4-1.1.noarch.rpm"
-RPM_HASH = "a0a430dacde35321c81eb4b22cecd6a585130287082c57aff8f7ec91dfe55cd6bbc456d6681338acf08bb6ec4feff15d796e3bfae1b7a5a5164970062505b756"
+RPM_NAME = "lensfun-data-0.3.4-7.5.noarch.rpm"
+RPM_HASH = "0cfcc01a25e62fe98338c4b716fb8bdd64c8087841f92cdb516718dac95bda054e47f28849950e2a8e79a06cacfed73b15c8e25fb16896ba7a3748d37b764fc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lensfun-data"

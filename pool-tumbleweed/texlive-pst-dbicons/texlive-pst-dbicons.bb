@@ -9,10 +9,10 @@ commands is required (although such knowledge is useful for \
 exploiting the full functionality of the package)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.16svn17556"
+PV = "2026.226.0.0.16svn17556"
 
-RPM_NAME = "texlive-pst-dbicons-2023.209.0.0.16svn17556-53.1.noarch.rpm"
-RPM_HASH = "92b9e7a75a265a962c0090a797687edcf7ad0c184e1da8fd40fc261393c3bc0743be6c7fc9282a581cc8d48d0a8818632e6009f33e1c9a95e33498ff63a22bee"
+RPM_NAME = "texlive-pst-dbicons-2026.226.0.0.16svn17556-59.2.noarch.rpm"
+RPM_HASH = "6e4695725dd7dec6b081b196307a335c14ebeb50ab3793a8c3a74910392bad8c2d8e834ef4a3cd0b61ddb80dbccd762b1c6d8ac429bed000ce211a6534cc90e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-dbicons.sty \

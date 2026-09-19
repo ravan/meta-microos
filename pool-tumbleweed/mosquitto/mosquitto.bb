@@ -9,13 +9,15 @@ that Andy Stanford-Clark (one of the originators of MQTT) has done in home \
 monitoring and automation with his twittering house and twittering ferry."
 LICENSE = "EPL-1.0"
 
-PV = "2.0.15"
+PV = "2.0.23"
 
-RPM_NAME = "mosquitto-2.0.15-1.5.aarch64.rpm"
-RPM_HASH = "975e042ddbd9dfaa6fe66ce5f3690f65abf94bfa402568dd52f5d50353399a85df26eb2759a0ebb16628d025580150d2fab4e8bc73eb2b31a713ecb3ae03c923"
+RPM_NAME = "mosquitto-2.0.23-1.4.aarch64.rpm"
+RPM_HASH = "bc2acf12c70517daa2d090d063ea701cc0fd0d79b961d4e0ce2ac2495241d6128b70cb41c0756c0d789624c19b3b0fc10d1eb0604408faf9a372d45e8632c1d5"
 
 RPROVIDES:${PN} += "config-mosquitto \
-mosquitto"
+group-mosquitto \
+mosquitto \
+user-mosquitto"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
@@ -25,8 +27,8 @@ libcrypto.so.3 \
 libm.so.6 \
 libmosquitto.so.1 \
 libssl.so.3 \
-libwebsockets.so.19 \
+libwebsockets.so.21 \
 libwrap.so.0 \
-shadow"
+sysuser-shadow"
 
 inherit rpm

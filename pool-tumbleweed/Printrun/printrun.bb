@@ -6,10 +6,10 @@ interface), and a small collection of helpful scripts. Together with skeinforge 
 they form a pretty powerful softwarecombo. This package installs whole Printrun."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.0.0~rc7.1599393390.c451359"
+PV = "2.2.0+73"
 
-RPM_NAME = "Printrun-2.0.0~rc7.1599393390.c451359-3.13.aarch64.rpm"
-RPM_HASH = "3dfcb93d1916c425dded28b2e4530d2e299c35dd07d98a701a96d0920fcc4d58bd937821d2af6679d9533fd86f9585a43e474e4e8d123bad6e480a145740a491"
+RPM_NAME = "Printrun-2.2.0+73-1.6.aarch64.rpm"
+RPM_HASH = "e6f799b026c002dc99ff4c87ae7e2ca815e57793a2d4664f0967ccd9b49a708d5050e872653b7b0c7aaaef090cd646f9563563b08396200757d451ff077ef572"
 
 RPROVIDES:${PN} += "Printrun"
 

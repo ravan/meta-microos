@@ -6,17 +6,18 @@ read/write and WRK (Cakewalk) file read are supported. This library does not \
 depend on ALSA."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "2.7.2"
+PV = "2.11.1"
 
-RPM_NAME = "libdrumstick-file2-2.7.2-1.4.aarch64.rpm"
-RPM_HASH = "ececcd326d788ffc4d7ab9f1fffb28ac353330b7027709692fafc87c4693bb12aefc243dad147ae3fca2065cdd3e296c0d6ffb62f42c825635e2b67c745bf435"
+RPM_NAME = "libdrumstick-file2-2.11.1-1.1.aarch64.rpm"
+RPM_HASH = "bb439778da11a8bd3ed728ff807c1c83d9f115b83de1d45f02f80d6a0c649d2e41a6d36663fc66b845b805f82e5bcc87572d97a8d048e8b342b20026416b62a6"
 
 RPROVIDES:${PN} += "libdrumstick-file.so.2 \
 libdrumstick-file2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

@@ -5,8 +5,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "5.17"
 
-RPM_NAME = "gdouros-anatolian-fonts-5.17-1.17.noarch.rpm"
-RPM_HASH = "97e9bd7dc5a81bfbc32dc2cc8ac242e1f7ac1c4b8c0ab0696329f662f4018bbd1361332fe15905d0c4f42136bd62678f43c76256a3ed3ede5cce36d71d368a93"
+RPM_NAME = "gdouros-anatolian-fonts-5.17-1.25.noarch.rpm"
+RPM_HASH = "4708f38a2a635d2e82c644a8f550897b39b0416afc548cd08346c4a5e39e270e13e7824b142260b37c7c0875a57ff7730fad5219cb7dfc16b58e35c63f820abc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "anatolian-fonts \

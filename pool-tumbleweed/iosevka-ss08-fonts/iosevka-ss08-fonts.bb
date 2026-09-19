@@ -7,10 +7,10 @@ This package contains the Iosevka SS08 typeface (monospace, Pragmata Pro \
 style)."
 LICENSE = "OFL-1.1"
 
-PV = "26.1.0"
+PV = "34.8.1"
 
-RPM_NAME = "iosevka-ss08-fonts-26.1.0-1.1.noarch.rpm"
-RPM_HASH = "3f1fde118d713ec4bc4ea9010282729d688290f5e2f1a087ea5b52625b02cf159a846ae4765a010d9697c3e8e6b2b6e54074e0d0e891ac1a150b5cff659ad9da"
+RPM_NAME = "iosevka-ss08-fonts-34.8.1-1.1.noarch.rpm"
+RPM_HASH = "056a882d34b24f048673d9918a7f6ac6bfcf0a57ee158fe9a693db919bc9c4d4b38491bdfbd9ac8dd5f2d0071cbf9c916aff1920c7a17731dfda0b2244a11d7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss08-fonts"

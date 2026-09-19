@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "3.7.0"
 
-RPM_NAME = "samba-krb-printing-3.7.0-1.26.aarch64.rpm"
-RPM_HASH = "a7b6f0ec9fa8601299c6e8db6911161677e4818639e9794c9ad98b915d4720497d40a6aa798c6cb677c1a5df899c7576f05b0ab6c4412101c362288b360f1d97"
+RPM_NAME = "samba-krb-printing-3.7.0-1.36.aarch64.rpm"
+RPM_HASH = "4e5df31706280939a64cab5f6794b59f6ed01bca8b81a3f870f1febb7096bfeb74404b788a56ad0e2d7f5c612711f0aedcb4f325114f7c903c9daadeb94fb978"
 
 RPROVIDES:${PN} += "samba-gplv3-krb-printing \
 samba-krb-printing"
@@ -13,6 +13,7 @@ samba-krb-printing"
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 cups \
+group-lp \
 libc.so.6 \
 samba-client"
 

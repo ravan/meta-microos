@@ -6,10 +6,10 @@ tools to record and estimate the progress throughout the \
 course."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.12svn49750"
+PV = "2026.226.1.1.3svn74748"
 
-RPM_NAME = "texlive-sesstime-2023.209.1.12svn49750-54.1.noarch.rpm"
-RPM_HASH = "e68c2bdc64d1b1c4b034864bdbfb3ee0eb4a479156a25ef3bb103b1720b809b4287f4bb42a6933f5d191e741febd0efcf58b497fcdbb8193a80d62d9dc97b913"
+RPM_NAME = "texlive-sesstime-2026.226.1.1.3svn74748-60.2.noarch.rpm"
+RPM_HASH = "09578249543a41da3782a345202a4a62bcd2ce1d958311f7fec099c14494b66281382952b3c91e169105dde74f2cb141c35915fc634487f905c7c149a972e0d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sesstime.sty \

@@ -2,35 +2,50 @@ SUMMARY = "Development files for the Kea DHCP server"
 DESCRIPTION = "Development files for the Kea DHCP server"
 LICENSE = "MPL-2.0"
 
-PV = "2.4.0"
+PV = "3.2.0"
 
-RPM_NAME = "kea-devel-2.4.0-1.1.aarch64.rpm"
-RPM_HASH = "2e740fbd61e585f25bffb1eefe0813f24a25c701979f2fc4241f801b7a8ead8ec1d28e2ae7dac06eaff2bbc31416075e5dd6d2263a2800cfef8cb6f3573977fa"
+RPM_NAME = "kea-devel-3.2.0-1.2.aarch64.rpm"
+RPM_HASH = "c4ff2b94b583d549be3e5ef466db76d8d49c31faf3ea0896dcb63217ec07a4d8aeee11957df3e7a342a32c75f83a46cd76d040905d2fe9a3a450777153fbf00a"
 
-RPROVIDES:${PN} += "kea-devel"
+RPROVIDES:${PN} += "kea-devel \
+pkgconfig-kea"
 
-RDEPENDS:${PN} += "libkea-asiodns35 \
-libkea-asiolink56 \
-libkea-cc54 \
-libkea-cfgclient51 \
-libkea-cryptolink38 \
-libkea-d2srv30 \
-libkea-database48 \
-libkea-dhcp++73 \
-libkea-dhcp-ddns41 \
-libkea-dhcpsrv89 \
-libkea-dns++42 \
-libkea-eval52 \
-libkea-exceptions23 \
-libkea-hooks77 \
-libkea-http56 \
-libkea-log48 \
-libkea-mysql53 \
-libkea-pgsql53 \
-libkea-process57 \
-libkea-stats29 \
-libkea-tcp5 \
-libkea-util-io0 \
-libkea-util68"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libkea-asiodns75 \
+libkea-asiolink105 \
+libkea-cc98 \
+libkea-cfgrpt3 \
+libkea-config98 \
+libkea-cryptolink76 \
+libkea-d2srv75 \
+libkea-database88 \
+libkea-dhcp-ddns82 \
+libkea-dhcp129 \
+libkea-dhcpsrv149 \
+libkea-dns84 \
+libkea-eval97 \
+libkea-exceptions.so.55 \
+libkea-exceptions55 \
+libkea-hooks139 \
+libkea-http100 \
+libkea-log-interprocess4 \
+libkea-log.so.86 \
+libkea-log86 \
+libkea-mysql106 \
+libkea-pgsql105 \
+libkea-process105 \
+libkea-stats64 \
+libkea-tcp45 \
+libkea-util-io12 \
+libkea-util.so.118 \
+libkea-util118 \
+libstdc++.so.6 \
+pkgconfig-krb5-gssapi \
+pkgconfig-libpq \
+pkgconfig-log4cplus \
+pkgconfig-openssl"
 
 inherit rpm

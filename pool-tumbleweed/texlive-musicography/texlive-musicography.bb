@@ -9,10 +9,10 @@ larger range of symbols and a more flexible, user-friendly \
 interface written using xparse and stackengine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66115"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-musicography-2023.209.svn66115-55.1.noarch.rpm"
-RPM_HASH = "3a1bb35c86ebe683663438c297118daa866c69569e848512a748d44434f837f54b0157ac0d5da22c2a3223789f49934e0b047b10d80a5e68014f625e0f966e85"
+RPM_NAME = "texlive-musicography-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "a656ac02e59a2a6f90fb655e5bf6a2e1894cff5fb0b8a88f073f6ec44522e5d60cc0e9505ba71e111d106029a25419db20fc5c35dd2263b1d10b55c70bbc923c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-musicography.sty \
@@ -24,8 +24,9 @@ ed \
 findutils \
 grep \
 sed \
+tex-graphicx.sty \
+tex-setspace.sty \
 tex-stackengine.sty \
-tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

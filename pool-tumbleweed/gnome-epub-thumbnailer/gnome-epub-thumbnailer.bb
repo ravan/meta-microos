@@ -2,10 +2,10 @@ SUMMARY = "Thumbnailer for EPub books"
 DESCRIPTION = "Thumbnailer for EPub books."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7"
+PV = "1.8"
 
-RPM_NAME = "gnome-epub-thumbnailer-1.7-1.3.aarch64.rpm"
-RPM_HASH = "0dd2a00c8556272cd8c09277717a29e79571bfb1ce84049e2f44973d6a9e3fa47eda10418bfb8d52eb05c24efc3b3971e615c27d35b1c95b34034da6c03fb3c0"
+RPM_NAME = "gnome-epub-thumbnailer-1.8-1.10.aarch64.rpm"
+RPM_HASH = "7511e060e7acd24a2a16a93b01b291bbbb226ad4dc6e0b79482bbc88ef0798ea2f35ecdb330c68c0dffe8612e24800daebc6938fd9c11ce79ac11197f890bdcf"
 
 RPROVIDES:${PN} += "gnome-epub-thumbnailer"
 
@@ -16,6 +16,6 @@ libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

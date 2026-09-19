@@ -10,10 +10,10 @@ parts. The package depends on the pgf, verbatim, environ, and \
 etoolbox packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.0.1svn65800"
+PV = "2026.227.6.9.0svn77682"
 
-RPM_NAME = "texlive-tcolorbox-2023.209.6.0.1svn65800-55.1.noarch.rpm"
-RPM_HASH = "a6e823c862aab8a8c74e250d6884c734f84c6d639b40a948e02beac868639006b41780487136c5a1aa89987ea7c263d2e7f31410114f568fbc456d36014c13ef"
+RPM_NAME = "texlive-tcolorbox-2026.227.6.9.0svn77682-62.2.noarch.rpm"
+RPM_HASH = "d901ae2b73979fedca006a727fead0b910ef2886e99dfd3af6106924b40d54ef7191a37069304d4eaabed4d5d38840f170eda32ce0c79b21143a35f458141b59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tcbbreakable.code.tex \
@@ -45,13 +45,16 @@ grep \
 sed \
 tex-environ.sty \
 tex-etoolbox.sty \
-tex-pgf.sty \
+tex-tikz.sty \
 tex-verbatim.sty \
 texlive \
+texlive-environ \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-pgf \
 texlive-scripts \
-texlive-scripts-bin"
+texlive-scripts-bin \
+texlive-tools"
 
 inherit rpm

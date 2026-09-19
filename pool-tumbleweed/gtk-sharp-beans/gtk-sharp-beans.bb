@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.14.1"
 
-RPM_NAME = "gtk-sharp-beans-2.14.1-23.12.aarch64.rpm"
-RPM_HASH = "ab034ff29133f38d42162f506df1d3bb45b578f800b95da09f5990a20c8aae40a2195bb4b1f700865f6523252d4b1e53c85818ae64d302206f1bb622b7f29eb6"
+RPM_NAME = "gtk-sharp-beans-2.14.1-23.19.aarch64.rpm"
+RPM_HASH = "f4d31b01ec19a060f4142411a56f0a56e2e821c17e740f61b041b24b7dfd99ec3ed45dae64547264379092c8bcffe2d1468efffc9f8519cdd25903a675798330"
 
 RPROVIDES:${PN} += "gtk-sharp-beans \
 mono-gtk-sharp-beans"

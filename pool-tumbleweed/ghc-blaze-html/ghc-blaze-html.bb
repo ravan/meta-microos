@@ -4,28 +4,29 @@ The Text.Blaze module is a good starting point, as well as this tutorial: \
 <http://jaspervdj.be/blaze/tutorial.html>."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.1.2"
+PV = "0.9.2.0"
 
-RPM_NAME = "ghc-blaze-html-0.9.1.2-10.1.aarch64.rpm"
-RPM_HASH = "ba20a1410b3e41372298e545d230a17070598523433960442633da215ba32442741f1192e2ad218c75126df530b5df4da5069d7c9f88e7a6a9a3ae48dba61de4"
+RPM_NAME = "ghc-blaze-html-0.9.2.0-2.17.aarch64.rpm"
+RPM_HASH = "836cc07b14acb22b628415d34073499a676749e3f2239e8b232baddd40766bbbddc4d8066a17d9d5501dfaead4ba9e2c0b4291c4a6ade97cfb7d8368423a5899"
 
 RPROVIDES:${PN} += "ghc-blaze-html \
-libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so"
+libHSblaze-html-0.9.2.0-93B80xR5emg3yG3V6J7j6o-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHScontainers-0.6.7-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStext-2.0.2-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbinary-0.8.9.3-9861-ghc9.12.4.so \
+libHSblaze-builder-0.4.4.1-DHhu3j9nndC9LUZIrPJCEG-ghc9.12.4.so \
+libHSblaze-markup-0.8.3.0-K4FwMBPUUgu9TB66ALCxf7-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHScontainers-0.7-d5e1-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStext-2.1.4-cf23-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

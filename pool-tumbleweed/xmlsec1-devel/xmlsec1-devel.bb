@@ -3,10 +3,10 @@ DESCRIPTION = "Libraries, includes, etc. you can use to develop applications wit
 Signatures and XML Encryption support."
 LICENSE = "MIT"
 
-PV = "1.2.37"
+PV = "1.2.42"
 
-RPM_NAME = "xmlsec1-devel-1.2.37-3.1.aarch64.rpm"
-RPM_HASH = "a1c2814d570e87ee88a861212109f9633865b834724eb35da962bb4da8be5d0f297ae57df8201dba1d957197fc894225e3492652cfb5e1ac5603831d23ec5527"
+RPM_NAME = "xmlsec1-devel-1.2.42-1.8.aarch64.rpm"
+RPM_HASH = "51d11925c89681e47ff49513c9200c241a15849fce77b78c4dc95fb2073993ca54d774cedefb1d3832f1e6b24d591d6d2c3a3f665b3a65f482155be64870fd02"
 
 RPROVIDES:${PN} += "pkgconfig-xmlsec1 \
 xmlsec1-devel"

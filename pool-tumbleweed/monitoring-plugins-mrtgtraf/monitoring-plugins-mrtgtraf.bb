@@ -7,10 +7,10 @@ Bytes/sec), a CRITICAL status results.  If either of the rates exceed \
 the <iwl> or <owl> thresholds (in Bytes/sec), a WARNING status results."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-mrtgtraf-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "af736fa12f3bf35a1da7f2876b50810e56f0405ab51b0de0dc3bf99901a0f023debf7f98366af51e8508a3e54b877afa2d0896e28dfe42fa2c2ebdf9d13c1e3d"
+RPM_NAME = "monitoring-plugins-mrtgtraf-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "f2543b758b4481168184a78a9775090e7d27d4120d90944358148ae4c4f06ab3ea50a24b08db6e43905dcfa6d63571f5a2612a2c5afc234abc21c4127ccfe6f6"
 
 RPROVIDES:${PN} += "monitoring-plugins-mrtgtraf \
 nagios-plugins-mrtgtraf"

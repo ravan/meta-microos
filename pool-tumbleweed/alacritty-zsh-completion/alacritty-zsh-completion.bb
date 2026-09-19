@@ -2,10 +2,10 @@ SUMMARY = "ZSH Completion for alacritty"
 DESCRIPTION = "The official zsh completion script for alacritty."
 LICENSE = "Apache-2.0"
 
-PV = "0.12.2"
+PV = "0.17.0"
 
-RPM_NAME = "alacritty-zsh-completion-0.12.2-1.1.noarch.rpm"
-RPM_HASH = "fb0b354fdfe61b171e2dceeaadfe507b0d149252246db27908bf8fb6fac09e96d57115a28aeb4a0843d4aa7e318c82cfe0194b363306a49ec1ed57f1aadc8b20"
+RPM_NAME = "alacritty-zsh-completion-0.17.0-1.5.noarch.rpm"
+RPM_HASH = "ea0ba5fbc497d5fee8a600d24e7bd840fd6ce1f8824aeb5628f9e51d502017810178fa607e196d41238b1028b911511780aceb335168b4eadeb7751dd2f6254f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alacritty-zsh-completion"

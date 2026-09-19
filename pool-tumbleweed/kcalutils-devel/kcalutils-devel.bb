@@ -3,18 +3,19 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop applications wanting to use kcalutils."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kcalutils-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "adc61d5bc966ca40e11a5f2b3074bcdee01d75a81b243d8d52abb0e527b4628cdb32c20fb4dd8c858084954ced8e1683728a51bfe3fc9d9eefaf49a18b7e285d"
+RPM_NAME = "kcalutils-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "92e4f46d0d4c79753e845d601d1c92e24139ca77ae3d0522dc82389ceaea9154142dfe6a3820b3d3b41f9d369f8370739b7852b2a66bab3c9ac61ed96e2259bf"
 
-RPROVIDES:${PN} += "cmake-KPim5CalendarUtils \
+RPROVIDES:${PN} += "cmake-KPim6CalendarUtils \
 kcalutils-devel \
 kcalutils5-devel"
 
-RDEPENDS:${PN} += "cmake-KF5CalendarCore \
-cmake-KF5CoreAddons \
-cmake-KF5KDELibs4Support \
-libKPim5CalendarUtils5"
+RDEPENDS:${PN} += "cmake-KF6CalendarCore \
+cmake-KF6Config \
+cmake-KF6CoreAddons \
+cmake-Qt6Widgets \
+libKPim6CalendarUtils6"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "Optional collectd plugin to monitor Self-Monitoring, Analysis and
 Technology (SMART) information from disk drives."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-smart-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "2f9f04013d9b2808ceee331ac9f09e73ac0dcc23c071f61cb2f03cc013d9139fc439a15de57d1dcb6505b47f2158793a6d8f7ef577436d84af6dfc455fb5603c"
+RPM_NAME = "collectd-plugin-smart-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "6dddbe8a5aec18962fd219c1352f11644b2858eb141a192d63d79f13957fcec60ca28dc6aae8165afeaf5ccf8cb82ee05f1fad339c4f5879810c4a4f0cd55740"
 
 RPROVIDES:${PN} += "collectd-plugin-smart"
 

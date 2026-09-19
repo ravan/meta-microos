@@ -2,18 +2,19 @@ SUMMARY = "A utility to trace the system calls of a program"
 DESCRIPTION = "With strace, you can trace the activity of a program.  Information \
 about any system calls the program makes and the signals it receives \
 and processes can be seen.  Child processes can also be tracked."
-LICENSE = "BSD-3-Clause"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.4"
+PV = "7.2"
 
-RPM_NAME = "strace-6.4-1.1.aarch64.rpm"
-RPM_HASH = "dcf21504b5624065b24ee2541b6b18dbe7fe7343bd980e17c5040034c78071da58d5b9c3608a11dfa57ecf8518d8bc43557ad5ee4ae7d94705b2e42daa511401"
+RPM_NAME = "strace-7.2-2.1.aarch64.rpm"
+RPM_HASH = "61a98801a480ccedb17c249f7fdf63b8540bce2f9d07c9530788ecebc6e5cd6eea965ff0898ca140462a8b5d840249853cd5322b166e5826194c5157d28f96ce"
 
 RPROVIDES:${PN} += "strace"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libdw.so.1"
+libdw.so.1 \
+libselinux.so.1"
 
 inherit rpm

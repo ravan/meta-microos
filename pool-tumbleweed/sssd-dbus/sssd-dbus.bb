@@ -1,12 +1,12 @@
 SUMMARY = "The D-Bus responder of sssd"
-DESCRIPTION = "Provides the D-Bus responder of sssd, called InfoPipe, which allows \
+DESCRIPTION = "D-Bus responder of sssd, called InfoPipe, which allows \
 information from sssd to be transmitted over the system bus."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.2"
+PV = "2.13.1"
 
-RPM_NAME = "sssd-dbus-2.9.2-1.1.aarch64.rpm"
-RPM_HASH = "be09e9a7baf71ca707414dc2213cd6d720a1af41f834f2aea21ea048382b84d15b5ac3e548a258d09f72a4a10692a3a4226a6591cbf4b4695e26988cbad7c0fd"
+RPM_NAME = "sssd-dbus-2.13.1-2.1.aarch64.rpm"
+RPM_HASH = "5ebcc7dc4c6ebd464c4ec5e65c37e14d25e61b8a5f1e2501bee14766739a420ea744d10da9779a3f0a9c1b0c7793ce5ce425d32ae5e51d4662eb0b8b1f89ecf5"
 
 RPROVIDES:${PN} += "sssd-dbus"
 

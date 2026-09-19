@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "libvirt-dbus-1.4.1-3.8.aarch64.rpm"
-RPM_HASH = "e261fafad08ae4d266511b34be3c8ac54785e0c3d3373e026d34a3bd98c0a778b85e0f7b29cc129f418f248aec3feda5af0d9302d04578b0259513a4eafa65a8"
+RPM_NAME = "libvirt-dbus-1.4.1-3.18.aarch64.rpm"
+RPM_HASH = "b3f7ce68ef68f1c0e7ef397782989121e1a8b0c8a5a99ae066ec7a7eec67fed5e2585d38a8e59899252018b47b4e648d5a28975477f4963e6a9617e5de1cb1b3"
 
 RPROVIDES:${PN} += "libvirt-dbus"
 

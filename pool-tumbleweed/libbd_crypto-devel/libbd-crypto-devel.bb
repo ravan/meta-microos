@@ -3,15 +3,15 @@ DESCRIPTION = "This package contains header files and pkg-config files needed fo
 with the libbd_crypto plugin/library.."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libbd_crypto-devel-2.28-1.6.aarch64.rpm"
-RPM_HASH = "2651814b8c4fcaa79529ee2cd5ca12a7cefabf19f238cdcf1c376157832344538b6164a58983c713a7c9ee74eca803ca2475189c4e82064e079e1b6f6a76d041"
+RPM_NAME = "libbd_crypto-devel-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "5a31b28bfc64e5609a31e9726c864ffdb2622b11f91a7a770bd08e145283564b89ebf59503b8d342933385c10fb51b02b3c1bb4f0b5b12d013c31f76b7c3b346"
 
 RPROVIDES:${PN} += "libbd-crypto-devel \
 libblockdev-crypto-devel"
 
 RDEPENDS:${PN} += "glib2-devel \
-libbd-crypto2"
+libbd-crypto3"
 
 inherit rpm

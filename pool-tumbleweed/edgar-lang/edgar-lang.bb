@@ -2,10 +2,10 @@ SUMMARY = "Translations for package edgar"
 DESCRIPTION = "Provides translations for the 'edgar' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36"
+PV = "1.38"
 
-RPM_NAME = "edgar-lang-1.36-1.4.noarch.rpm"
-RPM_HASH = "c191f84f527acfba18f048a1f73885b2fdad9a99519808be3a9d8f595f81881eeff174d4da60380bd081e54171c9a0ab49a4ef3391621cbea11e90fb900ca509"
+RPM_NAME = "edgar-lang-1.38-1.5.noarch.rpm"
+RPM_HASH = "e79df0156db7d105b1d1ebf3afe7bede36f83498380ff2d8d38c7f72f57185eef05de52e09cf670fbfe5199a8e994176bd80ea001f06e60ac1fd1dd42ea98dc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "edgar-lang \

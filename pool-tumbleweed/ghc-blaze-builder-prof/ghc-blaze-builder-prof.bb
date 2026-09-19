@@ -2,19 +2,17 @@ SUMMARY = "Haskell blaze-builder profiling library"
 DESCRIPTION = "This package provides the Haskell blaze-builder profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.2.3"
+PV = "0.4.4.1"
 
-RPM_NAME = "ghc-blaze-builder-prof-0.4.2.3-1.1.aarch64.rpm"
-RPM_HASH = "4a12a832a9ecda38d045c68c9ded54cd6c56141b967ece5e23b4e36e9eef7a788a0ec091f4ed01b66aa6a880f62934a359b079a7270d22360dd4406faa753f62"
+RPM_NAME = "ghc-blaze-builder-prof-0.4.4.1-1.9.aarch64.rpm"
+RPM_HASH = "dca22f740826886c90d7e1cf75c52b71d4bc14d5a89b7c45452a422ef613f095995b89e4cde98d39e7caa61d25e368f256184d7425cd3a0aff21c4fed8e7b97e"
 
 RPROVIDES:${PN} += "ghc-blaze-builder-prof \
-ghc-prof-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND"
+ghc-prof-blaze-builder-0.4.4.1-DHhu3j9nndC9LUZIrPJCEG"
 
 RDEPENDS:${PN} += "ghc-blaze-builder-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-ghc-prim-0.9.1 \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

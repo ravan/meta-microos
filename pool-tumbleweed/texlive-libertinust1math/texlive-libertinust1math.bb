@@ -6,16 +6,22 @@ LaTeX. In addition, with option sansmath, it can function as a \
 standalone math font with sans serif Roman and Greek letters."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.2.0.2svn61751"
+PV = "2026.226.2.0.6svn77682"
 
-RPM_NAME = "texlive-libertinust1math-2023.209.2.0.2svn61751-55.1.noarch.rpm"
-RPM_HASH = "e5a69b4f94d3d3264ed562036982684a61b392b5ce1038332878f5bc370cc673673ebe501602bc6a46397d37f82f9c991f02dc5891d59feebb1b61a5b459e728"
+RPM_NAME = "texlive-libertinust1math-2026.226.2.0.6svn77682-61.2.noarch.rpm"
+RPM_HASH = "68593ec957917a3503ce41d6c0c68a2c9822c213d11419cb3f5d788579337d491e0fc72f7c9495f9aa6e7510c8d4616cfd4a01e2f1fc65872006d4fc6a9a7a21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-BDXsfmi-bol.tfm \
 tex-BDXsfmi-reg.tfm \
 tex-BDXsfmr-bol.tfm \
 tex-BDXsfmr-reg.tfm \
+tex-LibertinusSerif-Italic-tlf-t1-tmp.tfm \
+tex-LibertinusSerifTH-Italic-tlf-ot1.tfm \
+tex-LibertinusSerifTH-Italic-tlf-ot1.vf \
+tex-LibertinusSerifTH-Italic-tlf-t1.tfm \
+tex-LibertinusSerifTH-Italic-tlf-t1.vf \
+tex-lbtsth.enc \
 tex-libertinust1-mathbb.tfm \
 tex-libertinust1-mathex.tfm \
 tex-libertinust1-mathit-bold.tfm \
@@ -63,6 +69,9 @@ ed \
 findutils \
 grep \
 sed \
+tex-LibertinusSerif-Italic-tlf-ot1.tfm \
+tex-LibertinusSerif-Regular-tlf-ot1.tfm \
+tex-LibertinusSerif-Regular-tlf-t1.tfm \
 tex-amsmath.sty \
 tex-amsthm.sty \
 tex-etoolbox.sty \

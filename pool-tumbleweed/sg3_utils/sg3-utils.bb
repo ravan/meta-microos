@@ -7,10 +7,10 @@ ATAPI cd/dvd drives and SATA disks that connect via a translation layer \
 or a bridge device are examples of devices that use SCSI command sets."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "1.48~20221101+1.142dace"
+PV = "1.48+36.936c7ae"
 
-RPM_NAME = "sg3_utils-1.48~20221101+1.142dace-1.4.aarch64.rpm"
-RPM_HASH = "cd61c9a12f55a01c525f8a8acc513368cdd7172c03759c7156cddd7f9f5b2d2a4c268cd75d68f0efd1589eb74e741059d34d0f676f567204b25f2bfe8e502442"
+RPM_NAME = "sg3_utils-1.48+36.936c7ae-1.1.aarch64.rpm"
+RPM_HASH = "80c304d93220ecc4e23a8e62385517fc76d4f0845d7d5f863a20cc7b3664b27e86ad045c6856bfc635cfadf80598485b902aba690dce422c3cb94a3af8c2e8c8"
 
 RPROVIDES:${PN} += "scsi \
 sg-utils \

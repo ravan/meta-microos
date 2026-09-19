@@ -2,10 +2,10 @@ SUMMARY = "Translations for package glib2"
 DESCRIPTION = "Provides translations for the 'glib2' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.5"
+PV = "2.88.3"
 
-RPM_NAME = "glib2-lang-2.76.5-1.1.noarch.rpm"
-RPM_HASH = "d4517833605e7015577ef474e00a739168433be83d596ac64f5561c0aa0159715afce37b8366a93cac3ea00d496c24495f236318d1333f93d353d82f87b9161f"
+RPM_NAME = "glib2-lang-2.88.3-1.1.noarch.rpm"
+RPM_HASH = "4d58be63a2ce5d4f322b3db8d7171f6e843756a527e74ce4301b0f21c0a3ce4f499ab7b3ee2dc1e9a7317a22fbde08abbbf2c6b98f401a8d7da6db10a981298d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glib2-lang \

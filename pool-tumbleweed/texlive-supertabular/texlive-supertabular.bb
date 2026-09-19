@@ -5,10 +5,10 @@ more flexible, in many cases, but supertabular retains its \
 usefulness in a few situations where longtable has problems."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.1gsvn53658"
+PV = "2026.226.4.2csvn77682"
 
-RPM_NAME = "texlive-supertabular-2023.209.4.1gsvn53658-58.1.noarch.rpm"
-RPM_HASH = "4857d3a3434ea0c1bf65792514b21b99b22348181457edea53ffc99f37a5c5d6e70bff8cfaf973f411d64d4d1f9e7ffc9955adb8eae633db0436bc61ee78e1db"
+RPM_NAME = "texlive-supertabular-2026.226.4.2csvn77682-64.2.noarch.rpm"
+RPM_HASH = "e366c85a95c25f6a638432d19c47a48fd83696ca40da203909bcfbee34aabb24b9cf6482ae8ac6a2e951ef31b80646da131c6875e6c20a80d3bee83bc0060d6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-supertabular.sty \

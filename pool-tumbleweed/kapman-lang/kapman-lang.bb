@@ -2,16 +2,16 @@ SUMMARY = "Translations for package kapman"
 DESCRIPTION = "Provides translations for the 'kapman' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kapman-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "8ca4948888ab09faaa1041ffa1234a4e8d66988230eb6578ddeffc7ecd4ed969ee57a7fa73376849f56d20145748d78c7fa64291bf222b09f78ebc9f539aa7a0"
+RPM_NAME = "kapman-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "3286f24089a3bc8e7d1d5a093a843c95c4e6297cea24279f76b7905a7d3eb23d8257871d0a9cf58c216ce8e440d28380a46c92e1a24b7fe117d2e53f552872df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kapman-lang \
 kapman-lang-all \
 locale-kapman-ar \
-locale-kapman-bg \
+locale-kapman-ast \
 locale-kapman-bs \
 locale-kapman-ca \
 locale-kapman-ca@valencia \
@@ -29,9 +29,11 @@ locale-kapman-fr \
 locale-kapman-ga \
 locale-kapman-gl \
 locale-kapman-gu \
+locale-kapman-he \
 locale-kapman-hi \
 locale-kapman-hr \
 locale-kapman-hu \
+locale-kapman-ia \
 locale-kapman-id \
 locale-kapman-is \
 locale-kapman-it \

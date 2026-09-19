@@ -2,10 +2,10 @@ SUMMARY = "Translations for package rsvndump"
 DESCRIPTION = "Provides translations for the 'rsvndump' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.6.1"
+PV = "0.6.2"
 
-RPM_NAME = "rsvndump-lang-0.6.1-1.4.noarch.rpm"
-RPM_HASH = "b04730694529d8552c907f38f791b1207ab87e57e61e16411674169ba2292edea1174b786c824b66dd01fddbd7624fa8aca7e08f201023e1ea71348a2fce551b"
+RPM_NAME = "rsvndump-lang-0.6.2-1.10.noarch.rpm"
+RPM_HASH = "c3a515b35dc56a512a2ed6f5830bc91335e18001d22c8c25dc1cc916a552ee8e816062d5d7570798251eec149f1a87aaa73999ae51c4011cbcc45b07cf712140"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rsvndump-de \

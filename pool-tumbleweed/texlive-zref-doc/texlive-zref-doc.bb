@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-zref"
 DESCRIPTION = "This package includes the documentation for texlive-zref"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.34svn62977"
+PV = "2026.226.2.36svn78101"
 
-RPM_NAME = "texlive-zref-doc-2023.209.2.34svn62977-53.2.noarch.rpm"
-RPM_HASH = "027eca7de6277bd47583d9d41fc09eec8979b969ef5a25cecfa60e62db803ff42b4c7b9f24f4b0a29f68c78493a705078a91f12ed0747aecdbf6ed8a1d804c8d"
+RPM_NAME = "texlive-zref-doc-2026.226.2.36svn78101-59.4.noarch.rpm"
+RPM_HASH = "814d81ab5bdcdcaea3fec9d25ec88e4cbe8d4538a35e0b04bc333dc37958321d785acc39a20c8646c583a1027cb36245d29f44df5756bd9564a8720c66998220"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zref-doc"

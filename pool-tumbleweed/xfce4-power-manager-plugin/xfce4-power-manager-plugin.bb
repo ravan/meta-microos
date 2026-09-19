@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a plugin for the Xfce panel for monitoring 
 device charge levels and to regulate display brightness."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.2"
+PV = "4.20.1"
 
-RPM_NAME = "xfce4-power-manager-plugin-4.18.2-1.1.aarch64.rpm"
-RPM_HASH = "0911baa777929696e9f3334a955492221959e33b7d9b5e4d7c984160b317ffc92c010f7b736e2a4fccfd68315c011675e820c28ca624b8c491df95fde63e2a85"
+RPM_NAME = "xfce4-power-manager-plugin-4.20.1-1.1.aarch64.rpm"
+RPM_HASH = "eea20acf8a99d6e710fd914039c1a32ff637a9c8052815fda6ebb6e823f8e9edc648f81bde08301a026645ce0c6b0a15a4de79f6f76cd341b5b3bc4ba194fdc5"
 
 RPROVIDES:${PN} += "libxfce4powermanager.so \
 xfce4-panel-plugin-brightness \
@@ -28,6 +28,7 @@ libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libupower-glib.so.3 \
+libwayland-client.so.0 \
 libxfce4panel-2.0.so.4 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.34"
 
-RPM_NAME = "acpid-2.0.34-2.2.aarch64.rpm"
-RPM_HASH = "0a83e7a8a94a1d7526e7ff5098584a40bca72b0d030135c176034d4eda2b95f74be32bf650df6b18fc81b2e4547c198e6e823c3058edda4c0582142c0d257a5a"
+RPM_NAME = "acpid-2.0.34-3.9.aarch64.rpm"
+RPM_HASH = "6a534beb375b717471a0e4fa8f22371644a0b94323eec5165c73fc600e7b162c8d205635a27ce521672dfdc7b77feefbc50d2739e7e6f46f45f80f31d2dd43df"
 
 RPROVIDES:${PN} += "acpid \
 config-acpid"

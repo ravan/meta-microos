@@ -2,16 +2,14 @@ SUMMARY = "Database URIs"
 DESCRIPTION = "Database URIs"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.21"
+PV = "0.230.0"
 
-RPM_NAME = "perl-URI-db-0.21-1.3.noarch.rpm"
-RPM_HASH = "85cb0765d2eac27109a0b5f1f24c94f7b6306d28a1206f9f967c23380d1a2045dbaa001222609995a824fab137db2488ef7c3cb87ebee9a55efd3b4b65561631"
+RPM_NAME = "perl-URI-db-0.230.0-1.10.noarch.rpm"
+RPM_HASH = "4b1e323a40180ea08aac03c5e61688722a4dae71f5761e18fabb96a770a3634223a55039c85097ef6955eac17e540a958ce0dc0823329cb83e082bf97ae1adf8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl-URI---ado \
-perl-URI---db \
-perl-URI---odbc \
-perl-URI--cassandra \
+RPROVIDES:${PN} += "perl-URI--cassandra \
+perl-URI--clickhouse \
 perl-URI--cockroach \
 perl-URI--cockroachdb \
 perl-URI--couch \
@@ -58,7 +56,7 @@ perl-URI--yugabyte \
 perl-URI--yugabytedb \
 perl-URI-db"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-URI \
 perl-URI--Nested"
 

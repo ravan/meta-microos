@@ -2,10 +2,10 @@ SUMMARY = "Apache configuration for phpMyAdmin"
 DESCRIPTION = "This subpackage contains the Apache configuration files"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.2.1"
+PV = "5.2.3"
 
-RPM_NAME = "phpMyAdmin-apache-5.2.1-3.1.noarch.rpm"
-RPM_HASH = "7b9e25dac8a06ef54edbc92e943a5e93b2b65fcc81ef1cab52daa567519c9569717fb02bb62d6aba31f99ba776447606c467f66258f31acab89801d3821dea76"
+RPM_NAME = "phpMyAdmin-apache-5.2.3-1.3.noarch.rpm"
+RPM_HASH = "606fe102514ea89b8559727f05e16d82e5e781810963a543f43f431c36bcf1215fe670f512ad464d29cfbfa831296a3ac7a205462d01f93080a23aec9e9377f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-phpMyAdmin-apache \

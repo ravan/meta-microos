@@ -6,17 +6,18 @@ Supportconfig Analysis patterns to perform the analysis. \
 See /usr/share/doc/packages/sca-patterns-base/COPYING.GPLv2"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.5.2"
+PV = "1.6.5"
 
-RPM_NAME = "sca-server-report-1.5.2-1.1.noarch.rpm"
-RPM_HASH = "1118d17fe39afd203c6de09662f31e630c62ee7760db9f009c8d17bb117b144c770c795153f6174222573efd5266a9e9b95419cf22ce11c52b08148773001340"
+RPM_NAME = "sca-server-report-1.6.5-1.4.noarch.rpm"
+RPM_HASH = "4a20b7fcfb1cad82d5cea532889e5c4e0dce86cf17c34feed3a0dccb0dcb2085e502bfd45f627546bff46c5979eb021085fe14da0c13de57380693e6411e4b88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-sca-server-report \
 sca-server-report"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 python3-base \
-sca-patterns-base"
+sca-patterns-base \
+sca-patterns-template-gen2"
 
 inherit rpm

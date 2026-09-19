@@ -313,10 +313,10 @@ these methods: \
     $mess->proxy_authorization_basic"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.44"
+PV = "7.40.0"
 
-RPM_NAME = "perl-HTTP-Message-6.44-1.4.noarch.rpm"
-RPM_HASH = "dee24e569b0e1b47626db2e32a36d9b4f67be16dc8f4b93d0b3be475b6a777b160e72c6d75962e83c5504d8200eb32bddcc5f504cdcd54c9200086a35c2ae281"
+RPM_NAME = "perl-HTTP-Message-7.40.0-1.1.noarch.rpm"
+RPM_HASH = "bfafa751d1be94fdc2c16b3df3e5dd673502a3514031eee685ae63a6de118516887aa7f39c0c25ececa3a631692bd923f69193b951b0ddbcf9a7aaa61d33772d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Config \
@@ -331,7 +331,7 @@ perl-HTTP--Response \
 perl-HTTP--Status \
 perl-HTTP-Message"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Clone \
 perl-Compress--Raw--Bzip2 \
 perl-Compress--Raw--Zlib \

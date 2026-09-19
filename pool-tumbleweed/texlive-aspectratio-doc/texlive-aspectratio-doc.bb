@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-aspectratio"
 DESCRIPTION = "This package includes the documentation for texlive-aspectratio"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn25243"
+PV = "2026.226.2.0svn25243"
 
-RPM_NAME = "texlive-aspectratio-doc-2023.209.2.0svn25243-54.1.noarch.rpm"
-RPM_HASH = "7063d1dca113bc9a4b0fb2d867538f5428ce48f1fe30e1ad1ba09153b9ade3eb210523a24175262d11f4f34f82a5c9770ec922c65b153771976a37c96dd304e5"
+RPM_NAME = "texlive-aspectratio-doc-2026.226.2.0svn25243-60.2.noarch.rpm"
+RPM_HASH = "d360fd84409d8cca095a301792b419eba582f83161fdc706f188f08ad444aa4253e38778bbbeb6ec6bffa0dbec10a9c75868baf55cf0155e1ca8bcae1fce7ae8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aspectratio-doc"

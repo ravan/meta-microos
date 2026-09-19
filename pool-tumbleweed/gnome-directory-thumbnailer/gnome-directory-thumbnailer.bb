@@ -2,10 +2,10 @@ SUMMARY = "Directory Thumbnailer"
 DESCRIPTION = "GNOME thumbnailer to generate thumbnails for directories."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.1.11"
+PV = "0.1.11+15"
 
-RPM_NAME = "gnome-directory-thumbnailer-0.1.11-3.3.aarch64.rpm"
-RPM_HASH = "3ce6900c1b82a1c2fae408fff46ecf438efeef482cbb8a7ed4e0657a70f8c40e151d8d441f9c40bd1c76793de3afff0d0f97a149b39d89952b2f20431ea9ccd3"
+RPM_NAME = "gnome-directory-thumbnailer-0.1.11+15-2.2.aarch64.rpm"
+RPM_HASH = "a768be3b47c682f9718106084d30b3927e1f395ee75988df6c924a51ff5ad2446366a8fd430cc1677f1abcc4444b37aee9ba5e5b4b065abe8abefecb4795bc7f"
 
 RPROVIDES:${PN} += "gnome-directory-thumbnailer"
 

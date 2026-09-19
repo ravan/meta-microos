@@ -2,10 +2,10 @@ SUMMARY = "Binary resource files for occt"
 DESCRIPTION = "This package contains resource files imported from the libraries."
 LICENSE = "LGPL-2.1-only-with-OCCT-exception-1.0"
 
-PV = "7.7.0"
+PV = "7.9.3"
 
-RPM_NAME = "occt-resources-7.7.0-1.4.noarch.rpm"
-RPM_HASH = "4dbc6be0eda3a0e6f59f17c42e9fb27b45059540f2f0242cd9802310a197bbcfbd54ec6413e9ed19e8fcb4b77959a60172e4bb2e18398c6cb17e014509798c88"
+RPM_NAME = "occt-resources-7.9.3-1.4.noarch.rpm"
+RPM_HASH = "4f887e8a4ed06f5b17333491505685bce34c4d3035953fae39062f37703cb08a937eea1c312bf2eb09a6e664bced104d134714b0813b9ac38207ce8a06f6df41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "occt-resources"

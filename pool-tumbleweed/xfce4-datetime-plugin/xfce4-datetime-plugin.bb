@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "xfce4-datetime-plugin-0.8.3-1.3.aarch64.rpm"
-RPM_HASH = "d88959529f6e213ab503e54ca742d0e981c3506a668113ea3c69c700bd2f485b8907fde4ea9c207d6339a21229c0ccd74b4c9cbbbc93fb44b049f870b59349f6"
+RPM_NAME = "xfce4-datetime-plugin-0.8.3-1.14.aarch64.rpm"
+RPM_HASH = "8db97d9c7c06052a91e6834c1c59c3f459fe76f3c88bcaa73526111b530179b82a5826792e38c5fab41f35fa14ef3d12caf3c134655e9030ea11ba9af63a4036"
 
 RPROVIDES:${PN} += "libdatetime.so \
 xfce4-datetime-plugin \

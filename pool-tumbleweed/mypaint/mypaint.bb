@@ -7,12 +7,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.1"
 
-RPM_NAME = "mypaint-2.0.1-4.1.aarch64.rpm"
-RPM_HASH = "2ef4d08ca04340d68bc372bf0a6555d118fbd8f04b289f571b5ac9d267376e58eb33bdad562f63abc45f811511dbab316e7a8cd1df046a95e1c6ecf8b261bac3"
+RPM_NAME = "mypaint-2.0.1-6.5.aarch64.rpm"
+RPM_HASH = "4827f7f1a3188cdffa214e314f84e80a346222d8dfcd69438b41257d3a2ff6b25af594761cb280f46b5e9f992af921d9c7919600df42a68aa68ed3c7abc4ee9f"
 
 RPROVIDES:${PN} += "mypaint"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \

@@ -38,10 +38,10 @@ See http://www.openswartz.com/2007/09/06/standard-logging-api/ for the \
 original post proposing this module."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.716"
+PV = "1.720.0"
 
-RPM_NAME = "perl-Log-Any-1.716-1.2.noarch.rpm"
-RPM_HASH = "2171635126f2264c114c8464dd8ba61f36d5ced8cd9f8e27136168eb000f51c9cf6090569778719c4eb4736de8d4fea9ffc56a1660f60213794c290abc9a838a"
+RPM_NAME = "perl-Log-Any-1.720.0-1.3.noarch.rpm"
+RPM_HASH = "17c9cefb6c96732e1176cbcf0d75fbe6bad491ac61c244f3af6be9303bd971af68427cfffe019e46105d225c0a89d9fe002d1287c470bba00e93caaeb9d67be5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Any \
@@ -64,6 +64,6 @@ perl-Log--Any--Proxy--WithStackTrace \
 perl-Log--Any--Test \
 perl-Log-Any"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -4,10 +4,10 @@ mathematical symbols available in standard LaTeX (including the \
 AMS symbols, if available at compile time)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.3.4svn37763"
+PV = "2026.226.3.4svn37763"
 
-RPM_NAME = "texlive-maths-symbols-2023.208.3.4svn37763-53.1.noarch.rpm"
-RPM_HASH = "c2ef636432897a8d98423cbc3fc9bcd15d0a6f114fb05ae1318f6d37af6992508448b096c6295b33e8e37fd8228ff27d442bfb5019f59ba0ecd0c202ff30f5c0"
+RPM_NAME = "texlive-maths-symbols-2026.226.3.4svn37763-59.2.noarch.rpm"
+RPM_HASH = "27420c2e074a07e6fb5b09b7f2def0f431a076dc48e0ce7a260e49c4f86ae443075c45b5760cb5b50780e52def04a5d37839949ff0742ee4cdbd2040632da225"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-maths-symbols"

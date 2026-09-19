@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cstypo"
 DESCRIPTION = "This package includes the documentation for texlive-cstypo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.03svn41986"
+PV = "2026.226.0.0.03svn41986"
 
-RPM_NAME = "texlive-cstypo-doc-2023.209.0.0.03svn41986-55.1.noarch.rpm"
-RPM_HASH = "91745520cf140792a3fe1cdc6e21fa2c413bce86442a319d7399b1dc0bb5dafc5e7418fd72aef9f4a5fb4c889ea3b266517a0440b24442aec1768a138bdc4b4c"
+RPM_NAME = "texlive-cstypo-doc-2026.226.0.0.03svn41986-61.2.noarch.rpm"
+RPM_HASH = "bdce12001c9177b2263d011dd90a3aa9d8cda2386ce3673046ffa41dfb8f141957b2d906917e78c51958d1d35ea9fbd0688c447d3b0562715a75d87a81a1c2e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cstypo-doc"

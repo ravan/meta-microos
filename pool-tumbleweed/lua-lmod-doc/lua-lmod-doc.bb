@@ -2,10 +2,10 @@ SUMMARY = "Documentation for Lmod"
 DESCRIPTION = "Documentation (pdf) for the Lmod Environment Modules System."
 LICENSE = "MIT"
 
-PV = "8.7.17"
+PV = "8.7.55"
 
-RPM_NAME = "lua-lmod-doc-8.7.17-3.1.noarch.rpm"
-RPM_HASH = "f7251376fa5a100441f580724b66c41539696f04c1b7c70817922438075dc4e2277f863ccdbdf0a8991671a4e81224c71d70279dd44ca3ed3231ccf765043ae9"
+RPM_NAME = "lua-lmod-doc-8.7.55-4.4.noarch.rpm"
+RPM_HASH = "27fe0a0d7ecc50a7d84a94e43ae74326a4a27c27399afd6168531267508c4076f21423ae4198c4dc9bf2d503b7f2469c7305ad3e797dcec64c8d88d4ac799e42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-lmod-doc"

@@ -6,24 +6,15 @@ GPIO sysfs interface in Linux 4.8. \
 Command-line tools part."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6.3"
+PV = "2.2.4"
 
-RPM_NAME = "libgpiod-utils-1.6.3-2.4.aarch64.rpm"
-RPM_HASH = "d402c3a511397b019759f3c193ceff78670329f506f2d4883ea59e4501fb50334a88ce224004332d87b9b044ea7b8a0df5411fe01ad6046cd5cec42a08682400"
+RPM_NAME = "libgpiod-utils-2.2.4-1.3.aarch64.rpm"
+RPM_HASH = "c1ac7620045e0f30436a9cde85f4f834e2031e739f0fe4ef6406cc1a8a07a60b19af4549174b5e796811726e5d91e341b9298cdebc4ddd964669df7843ad1f67"
 
-RPROVIDES:${PN} += "libgpiod \
-libgpiod-utils"
+RPROVIDES:${PN} += "libgpiod-utils"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/bats \
-/usr/bin/python3 \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgcc-s.so.1 \
-libglib-2.0.so.0 \
-libgpiod.so.2 \
-libgpiodcxx.so.1 \
-libgpiomockup.so.0 \
-libstdc++.so.6"
+libgpiod.so.3"
 
 inherit rpm

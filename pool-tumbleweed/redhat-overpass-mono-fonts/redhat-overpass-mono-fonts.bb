@@ -6,12 +6,15 @@ LICENSE = "OFL-1.1"
 
 PV = "3.0.5"
 
-RPM_NAME = "redhat-overpass-mono-fonts-3.0.5-1.1.noarch.rpm"
-RPM_HASH = "0991070846ddd08dda02c244b6d19a6a2b41c8ea6f34306a78f5676c6b8a8d136bcf4a2a18b30e5b74029b98d2d956f6dc018090b163c4919e0f7b22b233e30e"
+RPM_NAME = "redhat-overpass-mono-fonts-3.0.5-2.9.noarch.rpm"
+RPM_HASH = "6457c70cd6f79b731be421c2d49c74cff231fd00539d6279db29662aba7daaf4c2c530b8e77122e848dc4edb25acc4991cf9dd1323ec821943b51f687482bc29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "redhat-overpass-mono-fonts"
 
-RDEPENDS:${PN} += "/usr/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh \
+aaa-base \
+coreutils \
+perl"
 
 inherit rpm

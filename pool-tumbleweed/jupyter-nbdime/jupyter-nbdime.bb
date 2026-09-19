@@ -5,10 +5,10 @@ Jupyter Notebooks. \
 This package provides the tools and jupyter notebook extension."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.2.0"
+PV = "7.0.2"
 
-RPM_NAME = "jupyter-nbdime-6.2.0-15.1.noarch.rpm"
-RPM_HASH = "cdff21f0d036b0d7694f0aa60742d8a47f6aa9969ae8a0373db5c5523903c26fff21881d28abef4a638b06163c515241da52e7e60dc4bb2383a6e151248e6cae"
+RPM_NAME = "jupyter-nbdime-7.0.2-18.2.noarch.rpm"
+RPM_HASH = "037a3316d86f2735f472de708efe3fe3f176d138c97cc8116e5e823ffc41838b24eda2b87b621c44e5df6f18fd0b84a4c781b9d675a9bb0131649f31cb68acb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbdime"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Latin scrip
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-latin-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "98199e8f1f5aeb3ff1d7a85d55ffd2cbb651d7a27ab33f70656a20788a84ed1699d7255c0c0307fc3d686b8d30e206595573a0bf54b9e7e124438960e94de1b5"
+RPM_NAME = "tesseract-ocr-traineddata-script-latin-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "9077886a4a82e1fb6aca396980f59d1a7bbdc005191042cbc859b525db90769b26381787e96c165591d5445228288ed98a12115f45602b6319ba3cd741757257"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-latin"

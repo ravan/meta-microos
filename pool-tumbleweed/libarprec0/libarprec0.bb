@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.17"
 
-RPM_NAME = "libarprec0-2.2.17-2.28.aarch64.rpm"
-RPM_HASH = "0c10dc50682d90973c04161f20d3afc3af2ca3a09f16a78bb7ee9232a9a0eea9d82999555381e006367b84ae063fda12e7631bab5efd3a0ca2810b81ec01365f"
+RPM_NAME = "libarprec0-2.2.17-3.9.aarch64.rpm"
+RPM_HASH = "1b463f8368a114fbe8fad1b0fba7ba24083731eb743bb8499c316b74af4a636df4519257675579058c8d692bd738e683e284e9d3c645c068744fb280a10af477"
 
 RPROVIDES:${PN} += "libarpec0 \
 libarprec-f-main.so.0 \

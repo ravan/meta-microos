@@ -2,10 +2,10 @@ SUMMARY = "Binary files of citation-style-language"
 DESCRIPTION = "Binary files of citation-style-language"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn64151"
+PV = "2026.20260301.svn64151"
 
-RPM_NAME = "texlive-citation-style-language-bin-2023.20230311.svn64151-93.2.aarch64.rpm"
-RPM_HASH = "b3310092ffa1ecf5f1b1d0cf24b4bb7ea2411e09595108264f82d70b709aab37a2bafc7d902075d8aea155de7110aacddb6ccfef665464a42a3d4c9f44a07730"
+RPM_NAME = "texlive-citation-style-language-bin-2026.20260301.svn64151-120.4.aarch64.rpm"
+RPM_HASH = "b40fcbc882b4a8ab37f5ee6cd10d673d02c759b26880282f4b3f79a988b6098991909cd623c615ef2194b1bf3c9020f930035b67bc17da4e2ee946263769d863"
 
 RPROVIDES:${PN} += "texlive-citation-style-language-bin"
 

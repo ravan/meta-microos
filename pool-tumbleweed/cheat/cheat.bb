@@ -2,10 +2,10 @@ SUMMARY = "Allows you to create and view interactive cheatsheets on the command-
 DESCRIPTION = "cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember."
 LICENSE = "MIT"
 
-PV = "4.4.0"
+PV = "5.1.0"
 
-RPM_NAME = "cheat-4.4.0-1.5.aarch64.rpm"
-RPM_HASH = "861b09c432d5484b6d9a737bad18e5eec222b8e26054608fa9001a23c205e53dacf4a991754ab6af3e85c817e19fc9d3c5e34c2bf19c8a8ef0dacd5c898e25a6"
+RPM_NAME = "cheat-5.1.0-2.3.aarch64.rpm"
+RPM_HASH = "a87ecafbf52cf24872d327c0352afb9de4ec97b0a8a25d4cb86b1b36828ff9d1141f3dc8d097587c1933f6e0185231aaa8a6a228f48741f0b2c951330b4f5685"
 
 RPROVIDES:${PN} += "cheat"
 

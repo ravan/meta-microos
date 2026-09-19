@@ -13,10 +13,10 @@ English, British English, French, Danish, Swedish, and \
 Norwegian."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.28svn16613"
+PV = "2026.226.2.28svn78101"
 
-RPM_NAME = "texlive-isodate-2023.209.2.28svn16613-56.1.noarch.rpm"
-RPM_HASH = "c2dd5b2d230fec532a976cce44af8094eb6fd99d814b7a9db90d884d7dcdeb799b9e99438c540de810a775836e3f7e2a2cd4061ce2f13c791c2cce7fe384a42a"
+RPM_NAME = "texlive-isodate-2026.226.2.28svn78101-63.2.noarch.rpm"
+RPM_HASH = "2e16c17e23a95d1580804c11c2af1b818380ec2883783c91fb17049c560e6fb026b2a740f2458726ea0caaa8e0121012221be401968224fa84e80c084a2723dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-isodate.sty \

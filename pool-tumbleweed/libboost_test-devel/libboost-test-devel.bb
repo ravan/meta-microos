@@ -6,14 +6,13 @@ monitoring. \
 This package installs the default Boost version of the library."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_test-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "a1520477a4e8a259a1c03a7eddb1aaec3747573f419ee5a235f94d07f4d4bcadc96520005574e7b8052dace23d0a4bef0b33c85f3ea3540186485d689d5c2ff6"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_test-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "10f69de9b3f9efc0e5e085e1d7dbe53a342e2e30bc9aa16bfe2516d46157afcca2023c72700548762ace0acbed3c4e44374f667880d6a2eb4f0fcd99439c1327"
 
 RPROVIDES:${PN} += "libboost-test-devel"
 
-RDEPENDS:${PN} += "libboost-test1-82-0-devel"
+RDEPENDS:${PN} += "libboost-test1-91-0-devel"
 
 inherit rpm

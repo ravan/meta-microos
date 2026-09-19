@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.97.3"
 
-RPM_NAME = "dia-lang-0.97.3-11.12.noarch.rpm"
-RPM_HASH = "9b90f6fe3f9bda96cbf4694d40a495dd6dfe26f9342e9d0f224d8f0357427fe073bbe580c74293bb44dc882a688efeeb02355d00eabea6bbd0f38e3e88a3a642"
+RPM_NAME = "dia-lang-0.97.3-18.6.noarch.rpm"
+RPM_HASH = "e4f50248f29c8ae2c2e3e9a5fe1b14644c20ddf31df28bc38406f7b358fbdf9403fa864b7daa801e5b292c7ad4a1ebbe7d2737f4225ffbd8036018550238a78d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dia-lang \

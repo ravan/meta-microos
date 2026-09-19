@@ -5,10 +5,10 @@ Specification' from freedesktop.org: \
 http://www.freedesktop.org/Standards/menu-spec"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.36.0"
+PV = "3.38.1"
 
-RPM_NAME = "gnome-menus-devel-3.36.0-3.4.aarch64.rpm"
-RPM_HASH = "64a97609fc67cb47f613305143826cef3585baba09bb9a82745709b8569b3b4bb7414ae959503d739762e8a5bad04d7ac4429faeff39179bdf76c8ec6015a953"
+RPM_NAME = "gnome-menus-devel-3.38.1-1.6.aarch64.rpm"
+RPM_HASH = "729e730250c803cea5e3edf104b8ba8792e490a11ce6d660ed911ab9decc496bbf2eab2efbdb8843cf3d818541d87bd446f9c47f4a4ab80b5d330177dcc29299"
 
 RPROVIDES:${PN} += "gnome-menus-devel \
 pkgconfig-libgnome-menu-3.0"

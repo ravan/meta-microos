@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt Quick Timeline module provides QML types to use timelines 
 to animate Qt Quick user interfaces."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtquicktimeline-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "8c1628aa6f87abe12e6a941f9c38e1ec7c29e42579a4468f02fa087cc22b25ab7e152cb20ac4648ebb3e0a966363bb4ce985ea93b71b6d292bf2b9bc9f75faa3"
+RPM_NAME = "libqt5-qtquicktimeline-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "3b3a8b5ae7225b74a79ee625715555b5a1ab71ecc688878c47cf28c89b7086481ad607523b2e397337f080c14d048ab29bd7dd166d35c993f35914678ab85601"
 
 RPROVIDES:${PN} += "libqt5-qtquicktimeline \
 libqtquicktimelineplugin.so \

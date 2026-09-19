@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.2.6"
 
-RPM_NAME = "libebur128-1-1.2.6-1.8.aarch64.rpm"
-RPM_HASH = "9117f4c98f0b0f8c4d73eb7d898cefbefe9411acde29e02ed6acbcd9e18be9d2a017881821cbb43a43ccbdc10f86a3c4bf08c3790de82cc549f376bc2efd5033"
+RPM_NAME = "libebur128-1-1.2.6-2.6.aarch64.rpm"
+RPM_HASH = "c1bfb84b88b90c002679236ebabacb74be14cdc0331eba86e08761e76679e3c86e8acdc0a72d34d9c85d2a60e8e564a24ffd84c3a4e85dcf80f3736d5e75b494"
 
 RPROVIDES:${PN} += "libebur128-1 \
 libebur128.so.1"

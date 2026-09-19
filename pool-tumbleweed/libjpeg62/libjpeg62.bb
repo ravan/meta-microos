@@ -4,10 +4,10 @@ architecture-specific SIMD instructions, such as SSE/SSE2/AVX2, \
 AltiVec, NEON, MIPS DSPR2, and Loongson MMI."
 LICENSE = "BSD-3-Clause"
 
-PV = "62.3.0"
+PV = "62.4.0"
 
-RPM_NAME = "libjpeg62-62.3.0-76.1.aarch64.rpm"
-RPM_HASH = "464e41f22500f5ee0998bf4a99e0570c5b5fcda4c8d8021936372c0b130600292eea374058038661105a845a684cc9f1a30edac625d543737f0efce4e67bf878"
+RPM_NAME = "libjpeg62-62.4.0-85.1.aarch64.rpm"
+RPM_HASH = "84b69064062e7d2daa98788fecfe78725d7561dd7ee09c799cf96d340a3b89862546ded7ad0e11d338ed5da0fb54093e9358c2dfb269c69f776977fb2e4600d0"
 
 RPROVIDES:${PN} += "libjpeg.so.62 \
 libjpeg62"

@@ -5,21 +5,20 @@ single abstract data model to the calling application for all \
 supported formats. The related OGR library (which lives within the \
 GDAL source tree) provides a similar capability for simple features \
 vector data."
-LICENSE = "BSD-3-Clause & MIT & SUSE-Public-Domain"
+LICENSE = "BSD-3-Clause & MIT & LicenseRef-SUSE-Public-Domain"
 
-PV = "3.6.3"
+PV = "3.13.3"
 
-RPM_NAME = "gdal-3.6.3-2.6.aarch64.rpm"
-RPM_HASH = "d517c80b54e171111010c1913c4d62b43a70aeeed79683df5bd2f7e2548b44feae23337ef1847799355eb662cee19fd24122c899226c6d6305a5c80d94301a2f"
+RPM_NAME = "gdal-3.13.3-1.1.aarch64.rpm"
+RPM_HASH = "384f8771a93aa4e4010413547b51c49dd96ccfeb19b3cd27c6976e8f294dbba2c329cfb71bbbb1109a84b744f910637abc91f85448d63e81245d1312fbfccf32"
 
 RPROVIDES:${PN} += "gdal"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgdal.so.32 \
-libstdc++.so.6 \
-python3-GDAL"
+libgdal.so.39 \
+libstdc++.so.6"
 
 inherit rpm

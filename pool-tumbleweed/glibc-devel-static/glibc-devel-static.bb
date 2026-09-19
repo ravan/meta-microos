@@ -4,10 +4,10 @@ for -static linking.  You don't need these, unless you link statically, \
 which is highly discouraged."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0 & GPL-2.0-or-later"
 
-PV = "2.38"
+PV = "2.44"
 
-RPM_NAME = "glibc-devel-static-2.38-2.1.aarch64.rpm"
-RPM_HASH = "7fb73d7dfb4f5d43e4e4cda88866d66c9cf8be7155c8a013d92e455254c4fc2f8143f7fde363ee522726312d254c69b0ba5d7e87728ba0060a4eee4c2fb6cd20"
+RPM_NAME = "glibc-devel-static-2.44-2.1.aarch64.rpm"
+RPM_HASH = "cb41df48e23bba44f159843601de327a14ee621233176418b4f70a9bd5658fd530f2c6f0a3ac51c0432faf490027f122e81b3b2ff93e120635d70e3b5ef27caf"
 
 RPROVIDES:${PN} += "glibc-devel-static \
 glibc-static"

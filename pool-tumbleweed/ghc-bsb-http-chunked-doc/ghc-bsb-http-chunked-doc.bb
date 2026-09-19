@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.0.4"
 
-RPM_NAME = "ghc-bsb-http-chunked-doc-0.0.0.4-6.3.noarch.rpm"
-RPM_HASH = "c91982961070c7d2a9ce5c68bf288f42d2ffbea329727057f3b10f04c6aca1932a56b2d2fb46d1ed44aa10402f02d49ce10037129da817c5670465a5314be6b1"
+RPM_NAME = "ghc-bsb-http-chunked-doc-0.0.0.4-7.17.noarch.rpm"
+RPM_HASH = "36f2617a8b1c105907e8e39fec2bc5aa214eea9ed4bf4f40736904e07a44ad34bf6057b861a21f0b498823a805d84d8eef397da021e308bda6d3f120adf1e484"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-bsb-http-chunked-doc"

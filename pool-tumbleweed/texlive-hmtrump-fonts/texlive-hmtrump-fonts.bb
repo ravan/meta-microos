@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-hmtrump"
 DESCRIPTION = "The  separated fonts package for texlive-hmtrump"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2asvn54512"
+PV = "2026.226.1.2asvn54512"
 
-RPM_NAME = "texlive-hmtrump-fonts-2023.209.1.2asvn54512-54.2.noarch.rpm"
-RPM_HASH = "5217ed21da36fc86aa41c589d20d2ad4ba5c801d926dc91b787351c3c2df5187034a83b1679a4a93bbbba9e4133c5c73caf2af8bc44a8054de3f78c59b6865de"
+RPM_NAME = "texlive-hmtrump-fonts-2026.226.1.2asvn54512-60.4.noarch.rpm"
+RPM_HASH = "14424dc293144ca4c9f67c893fe4db4f0c309a1d7e1398b20867924fd4eec6080ad2ce1ef890b9bd35e273ac6b843b265eb339aa62b68e9f149964f44238cb69"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

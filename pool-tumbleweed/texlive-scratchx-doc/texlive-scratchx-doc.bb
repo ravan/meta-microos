@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-scratchx"
 DESCRIPTION = "This package includes the documentation for texlive-scratchx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn44906"
+PV = "2026.226.1.1svn44906"
 
-RPM_NAME = "texlive-scratchx-doc-2023.209.1.1svn44906-54.1.noarch.rpm"
-RPM_HASH = "4b8f29b18aa4dff44583326ba17f885c7e364da55b74f7930d750e52452fb968ca19622396c6c558c9c50b6358c9385c4b432040db468404e6ca3189f5e7db17"
+RPM_NAME = "texlive-scratchx-doc-2026.226.1.1svn44906-60.2.noarch.rpm"
+RPM_HASH = "fa2dc933c17ba6fc4f7c5a89e55ec127d2874631516403f2b3d94622773433fe925e1e19f136ac97c65ba9a6f23dc387268487344d2a13c7de5811dbbf183a12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-scratchx-doc-fr \

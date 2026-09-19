@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jamtimes"
 DESCRIPTION = "This package includes the documentation for texlive-jamtimes"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.12svn20408"
+PV = "2026.226.1.12svn20408"
 
-RPM_NAME = "texlive-jamtimes-doc-2023.209.1.12svn20408-56.1.noarch.rpm"
-RPM_HASH = "b304d99db149bc6bb064a6bf46d21fcc9ab8ff97c5f64c8b56355cefff112f2c2fee8c70fa933ca4f80b05c44bba86a232ef325da107b55b7c2ea316250d2f9e"
+RPM_NAME = "texlive-jamtimes-doc-2026.226.1.12svn20408-63.2.noarch.rpm"
+RPM_HASH = "c9834d27568077857957f3dba98071734a209279459f7f5859c12b1dddfc03782cb3e3d994148c383b3e57e5edb4c344d1cc609f3d8eb0e0ca0c9e27d18aaac1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jamtimes-doc"

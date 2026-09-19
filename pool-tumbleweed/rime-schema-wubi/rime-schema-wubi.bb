@@ -1,11 +1,11 @@
-SUMMARY = "wubi input schema for rime"
+SUMMARY = "Wubi input schema for rime"
 DESCRIPTION = "wubi input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-wubi-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "d117ad5ac487915c136b2c791710925c0402cc93843d65695e62eb6cba24498672822f065b62dd5c8934493860c0cab175d75fb8d14e561cad54055a3fb4710e"
+RPM_NAME = "rime-schema-wubi-20250315-1.4.noarch.rpm"
+RPM_HASH = "602b42625ac9fe781a1efa9f62994d05584d02cad2a2a4c777465542d58426e27f6a05db8aed50e20a202f0aa0b7979808c8e269733301233fda51f7dfdd3c95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-wubi"

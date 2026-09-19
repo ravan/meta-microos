@@ -17,21 +17,21 @@ running program. The vmstat command displays virtual memory statistics \
 about processes, memory, paging, block I/O, traps, and CPU activity."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.3.17"
+PV = "4.0.7"
 
-RPM_NAME = "procps-3.3.17-14.1.aarch64.rpm"
-RPM_HASH = "ebc0683f99ac568cd0e5c487c3eb47d4271b05e526c88b1919290c1825c7f6df926ffc370f5900cf34a967ca3225756e4250cb3e3f44b35f09cf49ebcd9ffc3a"
+RPM_NAME = "procps-4.0.7-2.1.aarch64.rpm"
+RPM_HASH = "364273dacf10cc489d693c6b144eaf76fefb5851a6f5ba6eddd786dfe2e1ab6bcd37010caeb12e4df89dcf0c8cc784fbc70630f58bcdf87066e995c65c64cf66"
 
 RPROVIDES:${PN} += "/usr/bin/ps \
 procps \
+procps4 \
 ps"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libncurses.so.6 \
 libncursesw.so.6 \
-libprocps.so.8 \
-libprocps8 \
+libproc2.so.1 \
+libsystemd.so.0 \
 libtinfo.so.6"
 
 inherit rpm

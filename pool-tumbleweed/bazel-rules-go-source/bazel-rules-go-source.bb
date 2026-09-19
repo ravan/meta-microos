@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.20.3"
 
-RPM_NAME = "bazel-rules-go-source-0.20.3-2.6.noarch.rpm"
-RPM_HASH = "3ddff5f929903fa4a8fdfeeac910c34880000b0eac6d811195a83e90ab70fc34def41f507f1157e540f771cf0c30f473743ea03354d5b6174200758bdfd3c8b9"
+RPM_NAME = "bazel-rules-go-source-0.20.3-2.14.noarch.rpm"
+RPM_HASH = "8c26361c140243f43288a2720fa0a7a3be9dd2eddd4da2ab082b651496e9a293fd513abdd45da91267290d20075bc1671b5060ee1245b6a327c11af74a44d623"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-go-source"

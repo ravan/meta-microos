@@ -9,10 +9,10 @@ number of features are included to allow the user to customize \
 the output."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.20svn51805"
+PV = "2026.226.1.20svn51805"
 
-RPM_NAME = "texlive-schedule-2023.209.1.20svn51805-54.1.noarch.rpm"
-RPM_HASH = "27a599a713716dec8d53c671f97b759798f6b93c092d84abad90bc3410bc839ee96e20532b598057b6a119926852366c292b837efdbb3d5d78099b2abe579ec6"
+RPM_NAME = "texlive-schedule-2026.226.1.20svn51805-60.2.noarch.rpm"
+RPM_HASH = "14e8ce386d7d88eff3d1f2c8e6177d8dded6722aeaec377926e4a947d18de864abbc18ca910825bf62a6ff578ff70f3dd7677b09e0313f2f2d9e74f64c33ce14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-schedule.sty \

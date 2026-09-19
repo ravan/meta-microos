@@ -4,10 +4,10 @@ for booting vmx images built with KIWI and configured to use an \
 overlay root filesystem"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.25.12"
+PV = "10.3.11"
 
-RPM_NAME = "dracut-kiwi-overlay-9.25.12-1.1.aarch64.rpm"
-RPM_HASH = "27528bc8f50090dc9a82d2eff1ad65097c88accc70f4a546be7ee63a321f252283a95529f5394d1e89f19aeaf3e208e8227aa0af947b56aafe1296a20789dc0e"
+RPM_NAME = "dracut-kiwi-overlay-10.3.11-1.1.aarch64.rpm"
+RPM_HASH = "c2f2572b01e2af217dfb11fc71abe06c512d5dcadac88b8c76778ebd9be1439a2f61bea6a617ef5f16b5174283890664d3b89c3c7277f465d719f08922ba1755"
 
 RPROVIDES:${PN} += "dracut-kiwi-overlay"
 

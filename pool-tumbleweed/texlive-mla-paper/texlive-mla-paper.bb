@@ -5,10 +5,10 @@ other academics in the humanities should be able to typeset \
 their materials, properly, with minimal effort on their part."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54080"
+PV = "2026.226.svn54080"
 
-RPM_NAME = "texlive-mla-paper-2023.209.svn54080-55.1.noarch.rpm"
-RPM_HASH = "e40a926ba331ac7349b19ab1fdf8ce7adbcec14ea3855252c7255c5de13ada68e0473282badf57b7ab4d60301c75484d5997f7d84d3d7c37f6027b3b648d5b0f"
+RPM_NAME = "texlive-mla-paper-2026.226.svn54080-61.2.noarch.rpm"
+RPM_HASH = "096657dd86e7209b57bbc928693b8f0381c7ba48282c376f290a520cf415c8c60b1cb6532ff7494eef1ff3df677e2c4d5963b73d2359b2195c5e2fcb387ac69d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mla.sty \

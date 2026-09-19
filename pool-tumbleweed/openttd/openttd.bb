@@ -4,22 +4,23 @@ DESCRIPTION = "OpenTTD is a reimplementation of the Microprose game 'Transport T
 Use package openttd-dedicated for systems without SDL."
 LICENSE = "GPL-2.0-only"
 
-PV = "13.4"
+PV = "15.3"
 
-RPM_NAME = "openttd-13.4-1.1.aarch64.rpm"
-RPM_HASH = "9e24599b82bb673b328e841c1ded54c64d633164006fd5d7aa13686cf629afa6dda6f122e4cb617a09b401ae02e1285f09f832415e6ca7ad7556a0b649c5cc1a"
+RPM_NAME = "openttd-15.3-1.3.aarch64.rpm"
+RPM_HASH = "064f7d2095b8ff7fa1fb2d703973960f432a8d1cb152578eb84cdf4ed29eea2e49662d8b80679b9980b525d8eaecb90888e6f4f20530181cd64d6523c940a30d"
 
 RPROVIDES:${PN} += "openttd \
 openttd-gui"
 
-RDEPENDS:${PN} += "libSDL2-2.0.so.0 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
 libc.so.6 \
 libfluidsynth.so.3 \
 libfontconfig.so.1 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
-libicui18n.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuuc.so.78 \
 liblzma.so.5 \
 liblzo2.so.2 \
 libm.so.6 \

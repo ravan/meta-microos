@@ -3,12 +3,12 @@ DESCRIPTION = "The javax.servlet package contains a number of classes \
 and interfaces that describe and define the contracts between \
 a servlet class and the runtime environment provided for \
 an instance of such a class by a conforming servlet container."
-LICENSE = "(CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0) & Apache-2.0"
+LICENSE = "Apache-2.0 & (CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
-PV = "3.1.0"
+PV = "4.0.1"
 
-RPM_NAME = "glassfish-servlet-api-3.1.0-2.20.noarch.rpm"
-RPM_HASH = "ac3a72a2a4ad56a167bd98bfed381a7d01f0c6c9e303008c0fe0749469d37ed86ac5a603196e40abf2aafdd3eec90b5ee62de46038338ca3d462e8d82a850e42"
+RPM_NAME = "glassfish-servlet-api-4.0.1-1.7.noarch.rpm"
+RPM_HASH = "bb2587f737a0ce7d8582b745dcb78b9ec8f943765eecf45ef48b845a648893daa380a2c90ea07a5893961fd25f64d70830dc260f1062d431ee7e39eddf300249"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-servlet-api \

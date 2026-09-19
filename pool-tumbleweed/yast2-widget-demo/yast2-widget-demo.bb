@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "yast2-widget-demo-0.9.1-1.9.noarch.rpm"
-RPM_HASH = "c34812585c7f3a9aa0a72645cfab8721cfc385d3f8e12a963a83ffffc21096e6c3fa5d62d2a393f43775bf99544d84bb06b71b77afc1cf5cc365067bac2075d3"
+RPM_NAME = "yast2-widget-demo-0.9.1-1.22.noarch.rpm"
+RPM_HASH = "8fd8d1a0701d70e671c772ee2ea99684f3c4a0459f87c592af449a7d3407a9d4a0e9dd70c37952f13be7d5c38b8b99f06dd2aaee540045697542cd824ec52bad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-widget-demo"

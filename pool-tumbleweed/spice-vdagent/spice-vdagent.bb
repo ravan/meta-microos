@@ -11,10 +11,10 @@ Features: \
   and the client"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.22.1"
+PV = "0.23.0"
 
-RPM_NAME = "spice-vdagent-0.22.1-4.4.aarch64.rpm"
-RPM_HASH = "f5494a7f59e37d681aa9f82ca5f0c5d1b111c26f28e32fb29702b22c436ec045ff38150f5fd5143f29eda4c7848ce4644fa79c8275cae402ec730ec0346f557e"
+RPM_NAME = "spice-vdagent-0.23.0-4.2.aarch64.rpm"
+RPM_HASH = "ecbb4d4981bb273b4fba01a37c7a8bef0d08fa57b302a7ceadd212a89f751b5289e2a8633bfa233367a679df73ccef85a855fb0ce27074f99c9b083a81909bd9"
 
 RPROVIDES:${PN} += "spice-vdagent"
 

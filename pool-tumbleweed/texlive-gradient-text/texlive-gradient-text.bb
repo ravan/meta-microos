@@ -5,10 +5,10 @@ last character are specified as parameters while the rest of \
 the text is colored automatically."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn65567"
+PV = "2026.226.1.2svn76924"
 
-RPM_NAME = "texlive-gradient-text-2023.209.1.2svn65567-54.2.noarch.rpm"
-RPM_HASH = "b27c4880227e2d44ad06c77b7af3c9855211f0aad4e4379c6f5c6a7eea678b5b87b35e54c9cf4e6210005dc790dff56ee311b85333c21521e6f8c2fdbe106bd9"
+RPM_NAME = "texlive-gradient-text-2026.226.1.2svn76924-60.4.noarch.rpm"
+RPM_HASH = "3cf8db0a58995953fcbb7acd43d8066671193af9c1c1bd8408191a9a4e025e4b5eb5c578a729aed0c3dfd4e3c6e505c723eb845032326c5f374b584e7a44ab67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gradient-text.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of petri-nets"
 DESCRIPTION = "Binary files of petri-nets"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn39165"
+PV = "2026.20260301.svn39165"
 
-RPM_NAME = "texlive-petri-nets-bin-2023.20230311.svn39165-93.2.aarch64.rpm"
-RPM_HASH = "72743ff86d421393432cb8ef3365ed74e47ed402b8e4d0df2c06578a8539fafbc2b920019416734eb1c6a076b449a1411d817e918ad4698a5bffdf4fa345174f"
+RPM_NAME = "texlive-petri-nets-bin-2026.20260301.svn39165-120.4.aarch64.rpm"
+RPM_HASH = "0e78934479838f9352c8f79ca9ca04dbafd5531263dc179729e61ccc7b218527f9112205253e0ae612d07dcc2299f6158e9d2eb5fe8c833593882ec47580fa94"
 
 RPROVIDES:${PN} += "texlive-petri-nets-bin"
 

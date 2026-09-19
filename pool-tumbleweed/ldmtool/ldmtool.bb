@@ -4,10 +4,10 @@ Microsoft's LDM metadata. It can inspect them, and also create and remove \
 device-mapper block devices which can be mounted."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.4"
+PV = "0.2.5"
 
-RPM_NAME = "ldmtool-0.2.4-2.11.aarch64.rpm"
-RPM_HASH = "40a235cdae42eb0e26dcfc06d38c8b7f72963592e4807a2ba50ebc9210a58f321ed61c1c195d9e8acb269279dcb33ea131f98698adfc98ef5aa327a223cf41a8"
+RPM_NAME = "ldmtool-0.2.5-1.7.aarch64.rpm"
+RPM_HASH = "a39731dd406e23676157bef04784e0db14c92f103339b8a15fd56d7276d4daeaf26a44c3dc1bc31c16c290038eae495a05071a105f03408dcaf96c2915ff4f8c"
 
 RPROVIDES:${PN} += "ldmtool"
 
@@ -19,6 +19,7 @@ libgobject-2.0.so.0 \
 libjson-glib-1.0.so.0 \
 libldm-1-0-0 \
 libldm-1.0.so.0 \
-libreadline.so.8"
+libreadline.so.8 \
+libuuid.so.1"
 
 inherit rpm

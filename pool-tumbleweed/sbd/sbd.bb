@@ -1,11 +1,12 @@
-SUMMARY = "Storage-based death"
-DESCRIPTION = "This package contains the storage-based death functionality."
+SUMMARY = "Shared-storage based death"
+DESCRIPTION = "A highly reliable fencing or Shoot-the-other-node-in-the-head (STONITH) \
+mechanism that works by utilizing shared storage."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.2+20230316.5ec38cf"
+PV = "1.5.2+20260320.2c43532"
 
-RPM_NAME = "sbd-1.5.2+20230316.5ec38cf-1.1.aarch64.rpm"
-RPM_HASH = "3b43bdedcc2f8b4563d3827cfc6db18cbf2d895cd80b53ac5c748c7da4cee0bb44472679756837b90fe3997a3257200aad54c88c1e7f032d795a781ba70b996b"
+RPM_NAME = "sbd-1.5.2+20260320.2c43532-2.3.aarch64.rpm"
+RPM_HASH = "4586fbc91b692beab8494c743d0b80f42a43522915822cc391ead3ccf43afae937afc74f964beffedb1957a05136a14b09205692fa50828304f9a7ca319747c2"
 
 RPROVIDES:${PN} += "pkgconfig-sbd \
 sbd"
@@ -16,15 +17,14 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 /usr/bin/touch \
 fillup \
-ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libc.so.6 \
-libcib.so.27 \
+libcib.so.54 \
 libcmap.so.4 \
-libcrmcluster.so.29 \
-libcrmcommon.so.34 \
+libcrmcluster.so.53 \
+libcrmcommon.so.68 \
 libglib-2.0.so.0 \
-libpe-status.so.28 \
+libpe-status.so.56 \
 libqb.so.100 \
 libuuid.so.1 \
 libvotequorum.so.8 \

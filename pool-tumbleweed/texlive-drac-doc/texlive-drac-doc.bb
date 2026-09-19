@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-drac"
 DESCRIPTION = "This package includes the documentation for texlive-drac"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn15878"
+PV = "2026.226.1svn15878"
 
-RPM_NAME = "texlive-drac-doc-2023.209.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "864aba41773b7ae463c4a04c0b5890d39ee0c85b26e5e34b93dc4195ac7a18901d186dd4c2c2aacc974ee565cb89d4effd01cc5b4ec6efe8f50e25f8ea5507c9"
+RPM_NAME = "texlive-drac-doc-2026.226.1svn15878-59.2.noarch.rpm"
+RPM_HASH = "91111cd83d44e3347a516fffc3fcd3944616f2b5a21f2753bedbc6e427208fd41a7e48f81d76b97a8d148f722dcb6365e37fe16fad2cc4efe488d0735d3b6de5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-drac-doc-fr;en \

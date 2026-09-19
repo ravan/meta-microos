@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-c90"
 DESCRIPTION = "This package includes the documentation for texlive-c90"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn60830"
+PV = "2026.226.svn60830"
 
-RPM_NAME = "texlive-c90-doc-2023.209.svn60830-53.1.noarch.rpm"
-RPM_HASH = "b90402674cd6181a2aaf5b45ea0131c106c0f93ff0e793a265ff85347fa8aa41ffcae6462b3fcc96e7359c6ec97b2955e22600a6b744c9428e2a4c9cb96753d3"
+RPM_NAME = "texlive-c90-doc-2026.226.svn60830-59.2.noarch.rpm"
+RPM_HASH = "c6a02813ea725a173732494a92fb21f16d754cc0a1e0f599e9833b0e501b44edaaf1cc978736594b107d1f68815d8a4f0684bdef4722d80ba609c5f570c398f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-c90-doc"

@@ -4,10 +4,10 @@ by the Indian Type Foundry, with support for LaTeX and \
 pdfLaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.0.1svn57360"
+PV = "2026.226.0.0.0.1svn57360"
 
-RPM_NAME = "texlive-hindmadurai-2023.209.0.0.0.1svn57360-54.2.noarch.rpm"
-RPM_HASH = "3f641ce39d4f03f41a01a3cd9f92e7d638d1010767fee4102d51c77b1f25c073353ba4dc86871c5aa7cce478e9a40a81c4c54d4963251a8c89e59c88d4d4bee5"
+RPM_NAME = "texlive-hindmadurai-2026.226.0.0.0.1svn57360-60.4.noarch.rpm"
+RPM_HASH = "9b608565c373cce8cd354ae9e7be8a9b08dff5b1683a7e7e71ef2894954a2a3095ab3bb00e895832c349d815e7b222a50d9bcfef59da32bf04ffbfc91ea6180c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-HindMadurai-Bold-tlf-ly1--base.tfm \

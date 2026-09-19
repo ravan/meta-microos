@@ -3,10 +3,10 @@ DESCRIPTION = "This Package contains necessary files for development and buildin
 aware applications."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.3"
+PV = "3.2.5"
 
-RPM_NAME = "pmix-devel-3.2.3-10.2.aarch64.rpm"
-RPM_HASH = "204d7eb25b37e50c83e5cb98a5ac5ad384d875639a35538b41aa3068834061ccbbc6af2393740e3adb94ccdb8967e99195553a0c034ae3b1e5def93b575a31c9"
+RPM_NAME = "pmix-devel-3.2.5-2.10.aarch64.rpm"
+RPM_HASH = "de55ca452432b38e25148782c0eac93bd1922d16901aa5a85f3e6b6e638e3c41dbbc2774dda1932acebd8b42ddbd0fdec6fd03f4be8acee6f70a3637ee14875b"
 
 RPROVIDES:${PN} += "pkgconfig-pmix \
 pmix-devel"

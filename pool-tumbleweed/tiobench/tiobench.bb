@@ -5,10 +5,10 @@ world results, while the tests are simple enough for kernel engineers to \
 analyze changes ..."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.4.1"
+PV = "0.5.0"
 
-RPM_NAME = "tiobench-0.4.1-4.10.aarch64.rpm"
-RPM_HASH = "53e4fc638fb5bb5db41391ddf1fc09265b33936572066f7847431c91b474c9a8b69d774575e734c018ddc78a4d016de9c4eda47d179713b70c762928d3bb6c5f"
+RPM_NAME = "tiobench-0.5.0-1.3.aarch64.rpm"
+RPM_HASH = "26f68086609949734dba4065c8e3534aa9222ec423e0015c2b68dd3767077b16a7a9a33eca44ae26abbc1bb3ed57938df88a659162dae8fcbec691cce9b8decd"
 
 RPROVIDES:${PN} += "tiobench"
 

@@ -2,10 +2,10 @@ SUMMARY = "Development files for libext2fs"
 DESCRIPTION = "Development files for libext2fs. Static libraries."
 LICENSE = "LGPL-2.0-only"
 
-PV = "1.47.0"
+PV = "1.47.3"
 
-RPM_NAME = "libext2fs-devel-static-1.47.0-1.1.aarch64.rpm"
-RPM_HASH = "db6f85b17d1b769e43607bcc1cbe48778f100d31406ddc7430ab49e81dcb758368a8bd1bd1d4a12b921417c102c2272915d8e5fea1ee8a0b5eef564fc3f1273d"
+RPM_NAME = "libext2fs-devel-static-1.47.3-2.2.aarch64.rpm"
+RPM_HASH = "8df8342af205e8db4378e23fefda8c84e3ce24d0647c754bb33a01ddab7126e55a7c040fd8d4067de4ece03a86d5ac42436216332d277cc64748352fc5a5aad1"
 
 RPROVIDES:${PN} += "libext2fs-devel-/usr/lib64/libe2p.a \
 libext2fs-devel-/usr/lib64/libext2fs.a \

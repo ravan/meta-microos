@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3"
 
-RPM_NAME = "hashalot-0.3-9.5.aarch64.rpm"
-RPM_HASH = "1c040abb62f9db6e369ac422580c4f3b5fd057f98b5d3d2de8fa8d101f7d764d4304267673dc4e494f68c5526efc89983f9170d8a91c72fa4470cad18b569cb8"
+RPM_NAME = "hashalot-0.3-10.9.aarch64.rpm"
+RPM_HASH = "110600ba685d0a676e356e43b0ff6de0e4ab78f73a1ea9ae801faec2cb67262d7bebbb9c7db6fc9a35e95436120e2a426c59d7d5bddd68aea30ed32ffeba315a"
 
 RPROVIDES:${PN} += "cryptsetup-/sbin/hashalot \
 hashalot"

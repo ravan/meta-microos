@@ -17,10 +17,10 @@ renamed and have the extension .tex. For details see the \
 manual."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn64113"
+PV = "2026.226.svn64113"
 
-RPM_NAME = "texlive-transparent-io-2023.209.svn64113-53.1.noarch.rpm"
-RPM_HASH = "2a7895e483a0485027fafcc060b6f4a1972a04d0fc9ca26f50a867981a5305a7fe3e756986d5b3ea00f4b12d9353a8dcc1c10a1b2c5b18635ce557b7787eabab"
+RPM_NAME = "texlive-transparent-io-2026.226.svn64113-59.2.noarch.rpm"
+RPM_HASH = "34418cd4e3c2a037c217869bc99d7ba86120177c5c4be3ad9b0b92c0dc6922b187b1e3280b87bd46a60b88ca6db60607d178d0f8f72ff0e4878a12c98a96870c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-transparent-io"

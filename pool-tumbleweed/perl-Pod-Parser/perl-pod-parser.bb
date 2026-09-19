@@ -13,10 +13,10 @@ components of the POD. Subclasses of *Pod::Parser* override these methods \
 to translate the POD into whatever output format they desire."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.66"
+PV = "1.670.0"
 
-RPM_NAME = "perl-Pod-Parser-1.66-1.3.noarch.rpm"
-RPM_HASH = "c8d52eefb490b372bbfb3904c4f5e64d3141eadccff28f5790339fbb5eb3b8a6cb519d49f3af80ef46e29e37e6cb621e4737c87348981e519303cc63acca34d9"
+RPM_NAME = "perl-Pod-Parser-1.670.0-2.12.noarch.rpm"
+RPM_HASH = "9bd505fbea4333093f902aa39ac0d9d88e9bc628c365b81ddf3009992ab0b37a4caea6daad9ca5574d4aaf427dcefdb48bd663db7334033c13426ddf65ca63bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Cache \
@@ -36,6 +36,6 @@ perl-Pod--Select \
 perl-Pod-Parser"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

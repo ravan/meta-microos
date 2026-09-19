@@ -4,10 +4,10 @@ free software projects to bring easy to use user-level file sharing \
 to the masses."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "mate-user-share-1.26.0-1.9.aarch64.rpm"
-RPM_HASH = "5633f164efcbeb82d067c7fa06272fba67f5fdb2b00060b101b86d5b333471882a20f9d2a1a0169a467129286d4b6f3bb06f8ec2821eed4caa4e4a4a92c7b774"
+RPM_NAME = "mate-user-share-1.28.0-2.4.aarch64.rpm"
+RPM_HASH = "daadc77445bdb37678b3d2902b66a2e7f85e85dfa0180d5c1edb17f56350322476027b2589a074836860c8fed85cd6b6c63005c0c5b5ae416722e4d2a35de758"
 
 RPROVIDES:${PN} += "config-mate-user-share \
 libcaja-user-share.so \

@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.00"
 
-RPM_NAME = "blobwars-2.00-3.1.aarch64.rpm"
-RPM_HASH = "e37813620748ba7722d904b8bed89c0dcc5422dc378d45e3f54b37a4d04984c981b9234ae659c69afb606c108cdf2252c3221d78b6067ef7946dc5f922503eea"
+RPM_NAME = "blobwars-2.00-4.10.aarch64.rpm"
+RPM_HASH = "6995519a44eddcf57d0d6bbebb96af1277229557b47a842ddaabcb3ff8d082d85266cab746ffac9d7bc00356cbe3ffbf87c5312c9ed1301559028a08c8b9d472"
 
 RPROVIDES:${PN} += "blobwars"
 

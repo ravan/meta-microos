@@ -3,13 +3,15 @@ DESCRIPTION = "NSD is a complete implementation of an authoritative domain name 
 by NLnet Labs, with the purpose of creating more diversity in the DNS landscape."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.7.0"
+PV = "4.14.3"
 
-RPM_NAME = "nsd-4.7.0-2.1.aarch64.rpm"
-RPM_HASH = "df26a88c1bcb91c54a74df59364a854477fd322169a4432b7e4db9991bda796aed8aa2eb99e05938d9a76f37e24878926d7a319594fed778e3693db0ed0e53bd"
+RPM_NAME = "nsd-4.14.3-1.1.aarch64.rpm"
+RPM_HASH = "d9a439150d94bd1317aca9701bce5fdfc7f7660eb017792011d9c4183de9bec8e905b7e69c8c763fb81ee969be010768314d9137243c6bc8469f0c466dcc6916"
 
 RPROVIDES:${PN} += "config-nsd \
-nsd"
+group--nsd \
+nsd \
+user--nsd"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
@@ -18,7 +20,11 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libevent-2.1.so.7 \
+libfstrm.so.0 \
+libprotobuf-c.so.1 \
 libssl.so.3 \
+libsystemd.so.0 \
+openssl \
 shadow"
 
 inherit rpm

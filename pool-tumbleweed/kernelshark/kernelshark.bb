@@ -4,28 +4,32 @@ analyse. kernelshark visualises the data so that it can be filtered \
 or trimmed."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "2.2.0"
+PV = "2.4.0"
 
-RPM_NAME = "kernelshark-2.2.0-1.4.aarch64.rpm"
-RPM_HASH = "908ca197aa3f8dbd82bc47a1d983247cf33f6d5ae9c370665b136600e31f60368af3f9aad8e4817dd544099fa28c7abfdd75d84cf143a41581805b766a224777"
+RPM_NAME = "kernelshark-2.4.0-1.6.aarch64.rpm"
+RPM_HASH = "bcc7f6f773a51dbd3632fff79a6865dd3f3b5d32b09708776221e81506f3bbfd538fb4cba18dccb048a11573214bb27b3bb4cabecc8d3f80a3540322a6f2a08c"
 
 RPROVIDES:${PN} += "kernelshark \
-libkshark-gui.so.2.2.0 \
-libkshark-plot.so.2.2.0 \
+libkshark-gui.so.2.4.0 \
+libkshark-plot.so.2.4.0 \
 libkshark.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
+libGLESv2.so.2 \
 libGLU.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6StateMachine.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libglut.so.3 \
+libgomp.so.1 \
 libjson-c.so.5 \
 libm.so.6 \
 libstdc++.so.6 \

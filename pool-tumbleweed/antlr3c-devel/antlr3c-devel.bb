@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.4"
 
-RPM_NAME = "antlr3c-devel-3.4-4.26.aarch64.rpm"
-RPM_HASH = "953d0dfe3642011b551dca97c61d58bd3983f748cb7d7c01fbe446dc2d7e5884fe6e5ab86be507695dee36d69c32f606230857f0abe6143c222f093d7a032f76"
+RPM_NAME = "antlr3c-devel-3.4-5.9.aarch64.rpm"
+RPM_HASH = "4c63665deec66112c56b612e70aa605d3ef0ed0631aff6868bb3f6f65d9d3f30d2d45fa08c7b1a9293d3fec91bcaacb43919834c8d673867c57e2fbf68d2d2c3"
 
 RPROVIDES:${PN} += "antlr3c-devel"
 

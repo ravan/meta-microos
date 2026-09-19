@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only & LGPL-2.0-only & LGPL-3.0-only"
 
 PV = "12.10.1~bzr20200706.298"
 
-RPM_NAME = "libappindicator3-devel-12.10.1~bzr20200706.298-2.4.aarch64.rpm"
-RPM_HASH = "f1bc751a3b8545329b5ff6dc618596ed0c4d9958ee0ff2df9cd19573292cf935fac88bf064c0fd0fa59ae059445f5c52899e3fab970af3079ad864104f8227bd"
+RPM_NAME = "libappindicator3-devel-12.10.1~bzr20200706.298-4.10.aarch64.rpm"
+RPM_HASH = "06baad9e2f31c62e895b8dc75094f525f37876932ecdfd4a529c20e481e4c15b2844beac4e570e97a05f4300f5dd9567c0bc8f2c253766f318ced81636111a2c"
 
 RPROVIDES:${PN} += "libappindicator3-devel \
 pkgconfig-appindicator3-0.1"

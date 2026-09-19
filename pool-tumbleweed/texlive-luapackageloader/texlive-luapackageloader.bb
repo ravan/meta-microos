@@ -5,10 +5,10 @@ to load external Lua modules, including modules installed via \
 LuaRocks. This package requires ifluatex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.2svn54779"
+PV = "2026.226.0.0.2svn54779"
 
-RPM_NAME = "texlive-luapackageloader-2023.208.0.0.2svn54779-53.1.noarch.rpm"
-RPM_HASH = "4858619341016a5084849f36c0138291acfca9127684d278d7703293494f3a6ea4dd7562289b10c06c016156fbdac4c6b3d6ed2b749b99581033c799c3314558"
+RPM_NAME = "texlive-luapackageloader-2026.226.0.0.2svn54779-59.2.noarch.rpm"
+RPM_HASH = "f9184686ab24fea009a2fc99ac4e55d7fbc63b84e9bf1083a62129d9d849af139f00cca8e04116ec3e99f22823b74dfec54b8bd0c2bc26310f68c41df7413c34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luapackageloader.sty \

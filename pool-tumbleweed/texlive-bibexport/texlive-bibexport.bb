@@ -6,10 +6,10 @@ built-in ones like month names) and following the \
 cross-references."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.03svn50677"
+PV = "2026.226.3.03svn50677"
 
-RPM_NAME = "texlive-bibexport-2023.209.3.03svn50677-54.1.noarch.rpm"
-RPM_HASH = "75e904b7fa92363150aad8fc47a2167865230c67458cdd801e0703ac4b13e362df34e344044260a26c378c5188e864da8217aa51275c34e8b4e45e8eed73a96d"
+RPM_NAME = "texlive-bibexport-2026.226.3.03svn50677-61.2.noarch.rpm"
+RPM_HASH = "dd010b8d2e3896e5ff9179b8dbefa71ab7e181e4d6998b53acab9e831ade3801d33165386399224b262133eb3db41cf3314fd07085dc33ad07c9a4e5729a7e5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bibexport"

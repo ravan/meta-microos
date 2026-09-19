@@ -5,8 +5,8 @@ LICENSE = "NCSA"
 
 PV = "1.5.2"
 
-RPM_NAME = "nyancat-1.5.2-2.7.aarch64.rpm"
-RPM_HASH = "3358b214177e2884da7aed49b717d7e1e2e587bda93c57f9c8fbeab73eaf1f36e70f28fff6874e1193aee6e9c1fd6d1fd7471492a61a28fbbdd663a6f106c600"
+RPM_NAME = "nyancat-1.5.2-2.17.aarch64.rpm"
+RPM_HASH = "5d0082d5ce097488ebc18af9b0036e0ed23a4a9f302f6a7a9b1ceb6701adf22615511a24d8b006791e8e30db7aa51d6ded6780c0ea053a53d47b9e6f91396816"
 
 RPROVIDES:${PN} += "nyancat"
 

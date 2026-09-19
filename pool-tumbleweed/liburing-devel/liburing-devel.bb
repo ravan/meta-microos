@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides header files to include and libraries to li
 for the Linux-native io_uring."
 LICENSE = "(GPL-2.0-only & LGPL-2.1-or-later) | MIT"
 
-PV = "2.4"
+PV = "2.15"
 
-RPM_NAME = "liburing-devel-2.4-1.1.aarch64.rpm"
-RPM_HASH = "cae3260850d4b431550ccbff8e48601133a5c1b24ae03cd90fad5f75f428c20525c501d903299b7c2c15725b4600c356c99d929ebbaf47f572eb0254d568eef8"
+RPM_NAME = "liburing-devel-2.15-1.1.aarch64.rpm"
+RPM_HASH = "058ad1329d879579db029da21cb8eb1ad2086ebf9960b346e587ed3c9fabedd9eaa081eea0124f881aecaaa8a4473a2f69fdfa000f8d805288383455c55fbb9a"
 
 RPROVIDES:${PN} += "liburing-devel \
 liburing2-devel \

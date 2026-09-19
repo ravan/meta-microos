@@ -10,10 +10,10 @@ In addition, libdeflate provides optional high compression modes \
 above zlib's 'level 9'."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.18"
+PV = "1.25"
 
-RPM_NAME = "libdeflate0-1.18-1.1.aarch64.rpm"
-RPM_HASH = "53233b3cf47fbbdfeb37047ffab54ff31a92180ecdf444b8fcfb3fb720da31b6c7bef023f0605fe7a66e23edb5a14806f401b01c8bd750a9b6ea8d439f96242e"
+RPM_NAME = "libdeflate0-1.25-1.4.aarch64.rpm"
+RPM_HASH = "6e85b8b0c1a44ba6061099ba36eb0d7fa5ffda5cd2e510f5c82380c810e489b834b63ce64428d5ce09903014995a51b3c3ffc59af1464a28b8596cff6727d3c0"
 
 RPROVIDES:${PN} += "libdeflate.so.0 \
 libdeflate0"

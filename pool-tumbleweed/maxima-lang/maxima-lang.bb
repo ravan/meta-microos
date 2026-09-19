@@ -2,10 +2,10 @@ SUMMARY = "Translations for package maxima"
 DESCRIPTION = "Provides translations for the maxima package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.47.0"
+PV = "5.50.0"
 
-RPM_NAME = "maxima-lang-5.47.0-1.3.noarch.rpm"
-RPM_HASH = "ae12e9a01d9180cff29c97908c71e9b4976f14978f8af6c0a9117f5728d27202293f9c91eae199e3c08844ef5356a35741fc0eb6fb562d11b3501fc342da9a33"
+RPM_NAME = "maxima-lang-5.50.0-2.2.noarch.rpm"
+RPM_HASH = "15d0a36454e5970207a9348ac769ccc1cfbece906d5b4857374562773db9b6dd382d8fae5339bf865b88fe884dad45c4d72b3b1a482373697623193b67220284"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-maxima-es \

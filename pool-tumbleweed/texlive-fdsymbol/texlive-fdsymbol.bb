@@ -4,36 +4,36 @@ Fedra family by Typotheque, but it might also fit other \
 contemporary typefaces."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.8svn61719"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-fdsymbol-2023.209.0.0.8svn61719-53.1.noarch.rpm"
-RPM_HASH = "07c224c2eb684bb915526717679c43b2f43c739884a06732bda25f280cd82c6444ee50782a99d6615c1c6855c6531b076dab5b1f9001ff01459da80b99b41cb3"
+RPM_NAME = "texlive-fdsymbol-2026.226.1.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "e5360405525cb2638eb4f9226192da0c8463056e8c51d8e97aba3eb05a60075078fa6186c8e9b3f8461eaeef7d15294b2bd6645b599adf6c77f4100ababb0fe3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-FdSymbolA-Bold.tfm \
 tex-FdSymbolA-Book.tfm \
+tex-FdSymbolA-Demi.tfm \
 tex-FdSymbolA-Medium.tfm \
-tex-FdSymbolA-Regular.tfm \
 tex-FdSymbolB-Bold.tfm \
 tex-FdSymbolB-Book.tfm \
+tex-FdSymbolB-Demi.tfm \
 tex-FdSymbolB-Medium.tfm \
-tex-FdSymbolB-Regular.tfm \
 tex-FdSymbolC-Bold.tfm \
 tex-FdSymbolC-Book.tfm \
+tex-FdSymbolC-Demi.tfm \
 tex-FdSymbolC-Medium.tfm \
-tex-FdSymbolC-Regular.tfm \
 tex-FdSymbolD-Bold.tfm \
 tex-FdSymbolD-Book.tfm \
+tex-FdSymbolD-Demi.tfm \
 tex-FdSymbolD-Medium.tfm \
-tex-FdSymbolD-Regular.tfm \
 tex-FdSymbolE-Bold.tfm \
 tex-FdSymbolE-Book.tfm \
+tex-FdSymbolE-Demi.tfm \
 tex-FdSymbolE-Medium.tfm \
-tex-FdSymbolE-Regular.tfm \
 tex-FdSymbolF-Bold.tfm \
 tex-FdSymbolF-Book.tfm \
+tex-FdSymbolF-Demi.tfm \
 tex-FdSymbolF-Medium.tfm \
-tex-FdSymbolF-Regular.tfm \
 tex-fdsymbol-a.enc \
 tex-fdsymbol-b.enc \
 tex-fdsymbol-c.enc \

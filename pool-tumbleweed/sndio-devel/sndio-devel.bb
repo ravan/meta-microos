@@ -3,13 +3,15 @@ DESCRIPTION = "This package contains files needed for development with the sndio
 library."
 LICENSE = "ISC"
 
-PV = "1.7.0"
+PV = "1.10.0"
 
-RPM_NAME = "sndio-devel-1.7.0-1.11.aarch64.rpm"
-RPM_HASH = "c7e3cd1ca94bc4eee4c089350074b5cd28452089121f9df6a137e2eef6ea3b9c542bd817fa2f1914e43779b5b7030cee2cd56c3b6147550f6a50a9f6e0683d16"
+RPM_NAME = "sndio-devel-1.10.0-1.5.aarch64.rpm"
+RPM_HASH = "9de74d5604bb934e145bd5fe466e79f14faebcad796926977c8f8fb94fd62c9785d10fa3c1ce8e1830f84ab3167a0eb5a5393c9654827910bf5e82ea7bdd7d50"
 
-RPROVIDES:${PN} += "sndio-devel"
+RPROVIDES:${PN} += "pkgconfig-sndio \
+sndio-devel"
 
-RDEPENDS:${PN} += "libsndio7-1"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libsndio7"
 
 inherit rpm

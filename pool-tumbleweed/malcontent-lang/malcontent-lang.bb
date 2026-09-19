@@ -2,10 +2,10 @@ SUMMARY = "Translations for package malcontent"
 DESCRIPTION = "Provides translations for the 'malcontent' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.10.4"
+PV = "0.13.1"
 
-RPM_NAME = "malcontent-lang-0.10.4-1.6.noarch.rpm"
-RPM_HASH = "477ec2c91f1c803ce9324ea51906ecb40bcc17fa20ccd86e3a6be7d6f9dc2c8cfb3f9a25aa77d2dc4eb9398817bae17e893bec13f8ffa6b42fe29df0e0917eb8"
+RPM_NAME = "malcontent-lang-0.13.1-1.6.noarch.rpm"
+RPM_HASH = "0aa5781ab45e17a22265b22fbdfedf8b831d8eb4daccfe612625a7a311a535e66fab0d3e448175128e4274d90fe3b8e439cfaf08a3026fd539d21d344590564c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-malcontent-af \
@@ -33,6 +33,7 @@ locale-malcontent-hr \
 locale-malcontent-hu \
 locale-malcontent-id \
 locale-malcontent-it \
+locale-malcontent-ka \
 locale-malcontent-kk \
 locale-malcontent-ko \
 locale-malcontent-lt \
@@ -57,6 +58,7 @@ locale-malcontent-th \
 locale-malcontent-tr \
 locale-malcontent-uk \
 locale-malcontent-vi \
+locale-malcontent-zh-CN \
 locale-malcontent-zh-TW \
 malcontent-lang \
 malcontent-lang-all"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chinesechess"
 DESCRIPTION = "This package includes the documentation for texlive-chinesechess"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.0svn63276"
+PV = "2026.226.1.2.0svn78101"
 
-RPM_NAME = "texlive-chinesechess-doc-2023.209.1.2.0svn63276-54.1.noarch.rpm"
-RPM_HASH = "7a8a074734c155e7f0d98b05f0d672d819d39fe6579866e220c903e19ff382165e510e33b590c0229b543b709977cc4a8e9735c1c3c0f0f82927329fed9b7d02"
+RPM_NAME = "texlive-chinesechess-doc-2026.226.1.2.0svn78101-60.2.noarch.rpm"
+RPM_HASH = "7c1beb3ad3b16c5c2f12c526bec85792fbfefb5239bda3d26a5d2395ada0491725268e8107a31fb500a8742b6de0fdf39fdd9cf636241131ef9beeb922b5cf46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-chinesechess-doc-zh \

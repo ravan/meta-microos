@@ -8,10 +8,10 @@ Isomorphisms are defined with respect to the imbeddings, so in some \
 cases outputs may be isomorphic as abstract graphs."
 LICENSE = "Apache-2.0"
 
-PV = "5.3"
+PV = "5.8"
 
-RPM_NAME = "plantri-5.3-1.4.aarch64.rpm"
-RPM_HASH = "8a7412eb121c4c540843f81a6391221edb8b252b85bd559b028d8175e489e9880ccb7bccf48502e1f21de24e0c5cf998be1a411e37ef8e8bc766f4a53aa12f79"
+RPM_NAME = "plantri-5.8-1.3.aarch64.rpm"
+RPM_HASH = "f2f22c6b968401407a0e334b18c0b0d7d942c4116085610345cb69c4bae521db7f86aa744f72ad99bf0dfbd3dbb2a48caf86f7214367fa68953d8b681663363d"
 
 RPROVIDES:${PN} += "plantri"
 

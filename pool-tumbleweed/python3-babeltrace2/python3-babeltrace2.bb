@@ -6,19 +6,21 @@ allow its conversion to/from another trace format. \
 Python Bindings for the babeltrace2 package."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "2.0.5"
+PV = "2.1.0"
 
-RPM_NAME = "python3-babeltrace2-2.0.5-1.1.aarch64.rpm"
-RPM_HASH = "5392cded0e9f202e9cea89e2bcbc41f9df5688dfe09bab6d2a54b5c3d076931a4b023f2697fd0304c27e17756cce16ca5d6c1d6072f78c75751a3063b0673ee6"
+RPM_NAME = "python3-babeltrace2-2.1.0-2.7.aarch64.rpm"
+RPM_HASH = "e66fac48ce36d3ec783406deb6de4f2b68023a5daaab7cd17654506a6c544aed5ab6939224e59f93461cff79bd347624869107d5a6c50fa9812d5328a85f86a8"
 
 RPROVIDES:${PN} += "python3-babeltrace2 \
-python3.11dist-bt2 \
+python3.13dist-bt2 \
 python3dist-bt2"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbabeltrace2.so.0 \
 libc.so.6 \
+libgcc-s.so.1 \
 libglib-2.0.so.0 \
+libstdc++.so.6 \
 python-abi"
 
 inherit rpm

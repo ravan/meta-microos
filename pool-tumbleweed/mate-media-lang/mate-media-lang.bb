@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-media"
 DESCRIPTION = "Provides translations for the 'mate-media' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "mate-media-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "d189e0c4750386d46d4464a135d15b2f483f615970900d0d77ccd75424e1c004ee267e824a01060daafd7f57e98ebcbddc085eb6efec0cc643ea58e5ece39df4"
+RPM_NAME = "mate-media-lang-1.28.1-2.10.noarch.rpm"
+RPM_HASH = "d25a61202319334fc3b447e34cca02beaf047ab1b467b5048fd493fdc18e2410f6a687a1f54989adcc2dfe96499a5d53ee643a15abfa3a5f1170ee05eca9070e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-media-af \
@@ -30,7 +30,6 @@ locale-mate-media-el \
 locale-mate-media-en-AU \
 locale-mate-media-en-CA \
 locale-mate-media-en-GB \
-locale-mate-media-en-US \
 locale-mate-media-eo \
 locale-mate-media-es \
 locale-mate-media-es-AR \

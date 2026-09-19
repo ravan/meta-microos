@@ -7,10 +7,10 @@ sites for every needed access path. This should allow each accessor to have a mo
 profile and easily inline for maximum performance."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-module-blackbird-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "0f03ad33a61b4679577b3ab65b1f25609cea78f876e3c2de5e5096019b14a4eb7060b93c15850212ca45bd1bd58d642d4ec6f7fae5b549fa14cd26382daebea3"
+RPM_NAME = "jackson-module-blackbird-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "c63dfabefb4e7bbbfd0d356501f8f145dad43adb2845ad5e7ddb445d4d9753b468ae7bdb9d3306f2f5cbdda91a519dad3c93058cac2f47f707e3d707ace2b584"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-blackbird \

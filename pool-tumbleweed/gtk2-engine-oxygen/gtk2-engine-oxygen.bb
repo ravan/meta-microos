@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4.6"
 
-RPM_NAME = "gtk2-engine-oxygen-1.4.6-5.20.aarch64.rpm"
-RPM_HASH = "e7242852ec560faad4b1c43a60ab2cffe0d5ea1f3e5b03a3dcb69443eb0cc92c8b1a2cdfd744b9b0d75103e88b76049e06f683b69a692beecdfdc16432f4f004"
+RPM_NAME = "gtk2-engine-oxygen-1.4.6-7.6.aarch64.rpm"
+RPM_HASH = "060d8599223f0bd82f9af34044b46779acf2b306fd4b7aca0027dc3f80f9a268f9ea242c4100537cbf0b0e6abccfa12554aecaf80ebc2366865c44ed4c194d98"
 
 RPROVIDES:${PN} += "gtk2-engine-oxygen \
 liboxygen-gtk.so"

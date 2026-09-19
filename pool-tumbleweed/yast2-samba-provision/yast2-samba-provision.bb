@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the YaST2 component to configure samba as a
 Directory Domain Controller."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.5"
+PV = "1.0.6"
 
-RPM_NAME = "yast2-samba-provision-1.0.5-1.8.noarch.rpm"
-RPM_HASH = "6ccc0ef1c2414ddc187f9e17b73361590cd1785d89aba3a864279c2eb2569e01e32226ae2e265f17bef356205d56c416bced99a9f4349d064cb86ae22439e8ae"
+RPM_NAME = "yast2-samba-provision-1.0.6-1.2.noarch.rpm"
+RPM_HASH = "8700918450eac3403a9f367c894a09f9bd17c7888049071a81aa052f2125d78c15b0743898677ff07de6b50d08f3dd77c6a94c44c186cdda8299435812001311"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-samba-provision"

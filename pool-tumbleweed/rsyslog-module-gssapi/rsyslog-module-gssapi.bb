@@ -6,10 +6,10 @@ This module provides the support to receive syslog messages from the \
 network protected via Kerberos 5 encryption and authentication."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2306.0"
+PV = "8.2608.0"
 
-RPM_NAME = "rsyslog-module-gssapi-8.2306.0-1.1.aarch64.rpm"
-RPM_HASH = "744072f39af08bb26e1b47b97ac514d40e34f385625dc035393f0c811b79b24f89e49a9c932cbba3282e891ef9eb7bf10a00f500c7e0ba3cb79bcd1a945609ba"
+RPM_NAME = "rsyslog-module-gssapi-8.2608.0-1.1.aarch64.rpm"
+RPM_HASH = "ac6eebbb972c8ae4463c6d62140c0359d101bf131ea596815d285902df636169c456f67658577eeee0958bc2343fca5b2f455aaefa2747d6f157d73fcc64e1f8"
 
 RPROVIDES:${PN} += "rsyslog-module-gssapi"
 

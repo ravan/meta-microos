@@ -2,10 +2,10 @@ SUMMARY = "Languages for package tumbler"
 DESCRIPTION = "Provides translations to the package tumbler"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.18.1"
+PV = "4.20.2"
 
-RPM_NAME = "tumbler-lang-4.18.1-1.1.noarch.rpm"
-RPM_HASH = "8b3b0fff4b08204c8682ca115b09c233c51c948f3eeb4405b35f27ddb49cd4d94c30a784ffd8209f2d888fb1d59bcce46514e677e9600f7e0ad2ad2ab73a953d"
+RPM_NAME = "tumbler-lang-4.20.2-1.1.noarch.rpm"
+RPM_HASH = "bf0dd368f4fc99c053d6c810931c1ebb8f023d47ace88cd7d356768f42fd1fee29763e2732177bbaf309a1fb77aca0b459829f506c5c2ccd0b0eb829915643e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tumbler-ar \

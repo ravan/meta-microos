@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.2"
 
-RPM_NAME = "zipkin-api-source-0.2.2-1.9.noarch.rpm"
-RPM_HASH = "97e57d4948e5bee26145e715f60fba4ab81cee4e26ca2d0735ebe98cfa8129fbd02e3aff4b3caa75de93ef7d013728728e56b35bc9b768c20550f9c1fd862d95"
+RPM_NAME = "zipkin-api-source-0.2.2-1.17.noarch.rpm"
+RPM_HASH = "d5306f9138c0877d3bce649dcb62ea1c26cd8515fbc0836195ab1ee277dc412b190a654593cd2e39f084cfc6a0d6c94170f3f0ab6559ac0883f6e73f3222533b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zipkin-api-source"

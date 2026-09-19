@@ -1,14 +1,14 @@
 SUMMARY = "Development libraries for BLACS (openmpi4)"
 DESCRIPTION = "This package contains development libraries for BLACS, compiled against openmpi4."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "2.1.0"
+PV = "2.2.2"
 
-RPM_NAME = "libblacs2-openmpi4-devel-2.1.0-9.12.aarch64.rpm"
-RPM_HASH = "c86a9c189f6b7b078f24a2e7d4bec9c634d1b292e82f2b714b0f6f068b324009b3f57f4b449cf09d917338c4025244f32226e57ad47a6f1bad9513c8c07dc102"
+RPM_NAME = "libblacs2-openmpi4-devel-2.2.2-1.3.aarch64.rpm"
+RPM_HASH = "4d60d546075185d642c08f60f7fbe5840c0ae2d4de012e5deee2aeeeabe46b68ddece63e22c024038cf7ae0e6a98d5d66b94e860e8fef94ef4677508b2b82177"
 
 RPROVIDES:${PN} += "blacs-openmpi4-devel \
-libblacs.so.2.1.0 \
+libblacs.so.2.2.2 \
 libblacs2-openmpi4-devel"
 
 RDEPENDS:${PN} += "blacs-devel-headers \

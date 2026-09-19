@@ -2,10 +2,10 @@ SUMMARY = "Translations for package calamares"
 DESCRIPTION = "Provides translations for the 'calamares' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.62"
+PV = "3.4.2"
 
-RPM_NAME = "calamares-lang-3.2.62-1.2.noarch.rpm"
-RPM_HASH = "5a50cef4006a110a4459d70d448dfe3b713a2fc922eab13f54b9533d6d8b3672af446014e24ef41b2ddb18e30dcff21ee357f064861904c9b95c0a424bf7221a"
+RPM_NAME = "calamares-lang-3.4.2-1.1.noarch.rpm"
+RPM_HASH = "c52836880edfdc149afb83de11a6343fc2f1764707d56bf80a48f546089ef0de1810220a765ac66e4d3a4c940fccfb3baea7646678179957af4a4c548213ff6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calamares-lang \
@@ -26,6 +26,7 @@ locale-calamares-el \
 locale-calamares-en-GB \
 locale-calamares-eo \
 locale-calamares-es \
+locale-calamares-es-AR \
 locale-calamares-es-MX \
 locale-calamares-et \
 locale-calamares-eu \
@@ -38,10 +39,13 @@ locale-calamares-he \
 locale-calamares-hi \
 locale-calamares-hr \
 locale-calamares-hu \
+locale-calamares-ia \
 locale-calamares-id \
 locale-calamares-is \
 locale-calamares-it-IT \
 locale-calamares-ja \
+locale-calamares-ka \
+locale-calamares-kk \
 locale-calamares-ko \
 locale-calamares-lt \
 locale-calamares-ml \

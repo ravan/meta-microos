@@ -8,8 +8,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.01"
 
-RPM_NAME = "perl-Class-MakeMethods-1.01-9.26.noarch.rpm"
-RPM_HASH = "7f5368bea57ccc9807d221e045035089a886452b745f3535b00730e59fc52412b2b46cb8d71c5f3c7b13847642097f1be7db5707e7210e0242a0713a2f28e7d9"
+RPM_NAME = "perl-Class-MakeMethods-1.01-9.40.noarch.rpm"
+RPM_HASH = "ede273641e8fd00d70dee7dbb617ff8f5853c5055454f79a2d17b7be253005e6c80b8ccbf4ec160031d754896d8bb9bfafa48272ffea48c5e2cd1c2d54b869bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--MakeMethods \
@@ -69,6 +69,6 @@ perl-Class--MakeMethods--Utility--Ref \
 perl-Class--MakeMethods--Utility--TextBuilder \
 perl-Class-MakeMethods"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

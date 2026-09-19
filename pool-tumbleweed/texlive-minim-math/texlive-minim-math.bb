@@ -6,10 +6,10 @@ mathematical typesetting. Also included are the proper settings \
 and definitions for almost all Unicode mathematical characters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2023_1.2svn66395"
+PV = "2026.226.2025_1.5svn73816"
 
-RPM_NAME = "texlive-minim-math-2023.209.2023_1.2svn66395-55.1.noarch.rpm"
-RPM_HASH = "c71b52eba8c86be060f1b3021500e39b45b5fccd980d74b394efb0c8f09f11afb9b5d871fe175f36ef205e5bf3128c4d4c094d2f8953f5318c714aab5f6351d8"
+RPM_NAME = "texlive-minim-math-2026.226.2025_1.5svn73816-61.2.noarch.rpm"
+RPM_HASH = "7a68b00955390f8a6e4d107a778c8bae6efe00a9610ed94ca35db0dfb093b72eac9a399220a7fef710165e171ba87af24d6e616f7b9ed516f5fcdc629c4c5203"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minim-math.tex \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-imakeidx"
 DESCRIPTION = "This package includes the documentation for texlive-imakeidx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3esvn42287"
+PV = "2026.226.1.3esvn77682"
 
-RPM_NAME = "texlive-imakeidx-doc-2023.209.1.3esvn42287-54.1.noarch.rpm"
-RPM_HASH = "899dcee3bfe63827ca8edc6a2f91e413deba786bed78a50af6dba9d03d8ccf4197013bb156a070a0155be36eb65c39ba05200b396f7302b51e47b2e9dfd7de50"
+RPM_NAME = "texlive-imakeidx-doc-2026.226.1.3esvn77682-60.2.noarch.rpm"
+RPM_HASH = "8726cc746aa07563fa628343218ce48527befd1eb7d20a315ee22cf2735545ce7bc03ea2db382595f8b524c36f9726f0c616dd95bdb0e59ff0427f38e2b0d5c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-imakeidx-doc"

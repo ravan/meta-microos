@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0"
 
-RPM_NAME = "vim-plugin-colorschemes-1.0-56.1.noarch.rpm"
-RPM_HASH = "270131773cc140f9725b34af356ce34b35d16c186c35411b9baaba40605ae64ad6c2950e0838ff11b577a9c43cf149b6f665e701879510f79789afe3f5096565"
+RPM_NAME = "vim-plugin-colorschemes-1.0-64.2.noarch.rpm"
+RPM_HASH = "d45d4c832b59bf321b65159930eb4aaf1adb3788c6be161f0e15f5212d143bc169e34197c5d7626454e630125667f824e32624eb76705daf074cbec449190885"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-colorschemes"

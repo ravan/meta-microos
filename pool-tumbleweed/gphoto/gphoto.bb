@@ -12,10 +12,10 @@ or by running \
 gphoto2 --list-cameras"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.28"
+PV = "2.5.32"
 
-RPM_NAME = "gphoto-2.5.28-2.7.aarch64.rpm"
-RPM_HASH = "acd0ed7def88c31ed18812f8e1334ad4f1e22dd4912827ac0f00f3ba4926a3540017cb7531fadf2adc5d7f43067acbb909e0f5d550f91bcf7e9012feeb7f4551"
+RPM_NAME = "gphoto-2.5.32-2.2.aarch64.rpm"
+RPM_HASH = "0827005593eb4a6b70085bb5a875e42de47b3c63372f115b4bcde21605d00080f54af8fa73c0bf7085813aa9eb98a7d7d01fb89be174e2c4c34d6ed0f737d624"
 
 RPROVIDES:${PN} += "gphoto"
 

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of bundledoc"
 DESCRIPTION = "Binary files of bundledoc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn17794"
+PV = "2026.20260301.svn17794"
 
-RPM_NAME = "texlive-bundledoc-bin-2023.20230311.svn17794-93.2.aarch64.rpm"
-RPM_HASH = "e7ba9bf1caf5c229313f202fd20c82d4d2a9bcb4ae4da78895f0790b593964472cf0035b272b0bed87732181c43f745c9a36428190671397098b64ecad4cf0fc"
+RPM_NAME = "texlive-bundledoc-bin-2026.20260301.svn17794-120.4.aarch64.rpm"
+RPM_HASH = "65976b3a1ad609c1c533a40434c398181aace70848dd1dbe41232afd9d804f7dbfbe21b44befa9cebd5faf5e1dcb3303f121ae5b9ba7650b9714c79835c326be"
 
 RPROVIDES:${PN} += "texlive-bundledoc-bin"
 

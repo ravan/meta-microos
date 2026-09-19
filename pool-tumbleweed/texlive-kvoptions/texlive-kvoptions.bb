@@ -3,10 +3,10 @@ DESCRIPTION = "This package offers support for package authors who want to use \
 options in key-value format for their package options."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.15svn63622"
+PV = "2026.226.3.15svn77682"
 
-RPM_NAME = "texlive-kvoptions-2023.209.3.15svn63622-56.1.noarch.rpm"
-RPM_HASH = "ddf7cf82abea42ba468d28d152a5088e35c8cf014dc5d86d5fbe59e3566032772c7137a9168cd0d0a7f446300e898c79c6f470fe337e26e07c95fd07c3cb480c"
+RPM_NAME = "texlive-kvoptions-2026.226.3.15svn77682-63.2.noarch.rpm"
+RPM_HASH = "ffea9bff971c1e8f8470a816a0d66a6fad1acc517952095683a3312409c5cf6ac409e1d045bf0e42402747e4f45553853b3bf3a4189f922826073dc933f02247"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kvoptions-patch.sty \

@@ -1,18 +1,18 @@
 SUMMARY = "Translations for package libkmahjongg"
 DESCRIPTION = "Provides translations for the 'libkmahjongg' package."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libkmahjongg-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "929bbd8756c0089127e51b6952039484209e6f47031d10332b87e92b4077f9a6597e420451c17fb55ad02255e3430aaadcf6e79c8b938e7789265c08a892d747"
+RPM_NAME = "libkmahjongg-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "709c38830daa014edaeb48848a5835c62bcc7305cea0483244796a4bcc48ff980cb854779e3d12348199f323ae9f3720a5bf6f411467f35fde8f44254d53c8ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkmahjongg-lang \
 libkmahjongg-lang-all \
 locale-libkmahjongg-ar \
+locale-libkmahjongg-ast \
 locale-libkmahjongg-be \
-locale-libkmahjongg-bg \
 locale-libkmahjongg-bs \
 locale-libkmahjongg-ca \
 locale-libkmahjongg-ca@valencia \
@@ -30,9 +30,11 @@ locale-libkmahjongg-fr \
 locale-libkmahjongg-ga \
 locale-libkmahjongg-gl \
 locale-libkmahjongg-gu \
+locale-libkmahjongg-he \
 locale-libkmahjongg-hi \
 locale-libkmahjongg-hr \
 locale-libkmahjongg-hu \
+locale-libkmahjongg-ia \
 locale-libkmahjongg-id \
 locale-libkmahjongg-is \
 locale-libkmahjongg-it \

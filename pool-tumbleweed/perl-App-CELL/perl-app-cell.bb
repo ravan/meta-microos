@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.231"
 
-RPM_NAME = "perl-App-CELL-0.231-1.6.noarch.rpm"
-RPM_HASH = "71bddfb754dcc466071562756a15161d7e2b80eb91388d77e3c4760129162fb459c5d38dc15a41a7642858826fbd9c9df33450ca6a55f296cc1089987a1c152c"
+RPM_NAME = "perl-App-CELL-0.231-1.20.noarch.rpm"
+RPM_HASH = "4f4cc9a3281cdf7cddc6f73b6d51efebba407b40e2f88c3d7c2a91aa7c5f43cb53f66f3425018987c24ce7857b7d963073bd031acf90db585d68a647c4fef965"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--CELL \
@@ -25,7 +25,7 @@ perl-App--CELL--Test--LogToFile \
 perl-App--CELL--Util \
 perl-App-CELL"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Date--Format \
 perl-File--HomeDir \
 perl-File--Next \

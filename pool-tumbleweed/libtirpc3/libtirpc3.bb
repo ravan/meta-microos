@@ -5,10 +5,10 @@ This implementation allows the support of other transports than UDP and \
 TCP over IPv4."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.3"
+PV = "1.3.7"
 
-RPM_NAME = "libtirpc3-1.3.3-1.6.aarch64.rpm"
-RPM_HASH = "6d57e5a855e885d14a26762c6cd358ca97cd4548adc4f8fe71a4f985e264e6037fa154a95ab509eac4f56031aa401ac2c3a5e102a6ddec12977911c90592511b"
+RPM_NAME = "libtirpc3-1.3.7-1.5.aarch64.rpm"
+RPM_HASH = "3c41fcb49221d7bed4aad31269d0e625558f1c37f030f216aca7f30d1e80c5454a6354973ae2a6ec580b7c3de6f3d23ec1afa795485c3421051a9bb198c3c94c"
 
 RPROVIDES:${PN} += "libtirpc.so.3 \
 libtirpc3"

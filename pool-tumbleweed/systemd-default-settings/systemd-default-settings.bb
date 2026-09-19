@@ -1,4 +1,4 @@
-SUMMARY = "Customization of systemd default settings for SUSE distributions"
+SUMMARY = "Generic SUSE Customization of systemd defaults"
 DESCRIPTION = "This package overrides some of the upstream default settings which are \
 better suited for openSUSE or SLE distributions. \
  \
@@ -6,10 +6,10 @@ This package should not be installed alone but is supposed to be \
 pulled in by the branding package instead."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7"
+PV = "0.10"
 
-RPM_NAME = "systemd-default-settings-0.7-2.7.noarch.rpm"
-RPM_HASH = "5baa07b3e2419d5d0fc4c229e6b42d98289d99e5b322fca6b5cb0f2648017479d7dfe2c048aebaa4e4c409f436b660dff668df5810d23bbe4984d56c84c0ebb2"
+RPM_NAME = "systemd-default-settings-0.10-1.7.noarch.rpm"
+RPM_HASH = "5905480df14a7e9dc45c702ee0a2aadd46d060bb0ea2c619f126d660ff1849eeedcbdd0f39b26c474c72214476b084ad0cd61a7a0594c2ec6b040e8a63976e79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-default-settings"

@@ -8,10 +8,10 @@ package serves the same purpose as, Christopher Manning's avm \
 package, but shares no code base with that package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.0svn66016"
+PV = "2026.226.0.0.4.0svn76924"
 
-RPM_NAME = "texlive-langsci-avm-2023.209.0.0.3.0svn66016-56.1.noarch.rpm"
-RPM_HASH = "4f01aee6c01674c304f172e6170a08f61da562942ce538f21a6a570410059bf239979ce39813d05f712f4c664ae811a32dfe89bb61f260bc925fb6c9fb9fbd8b"
+RPM_NAME = "texlive-langsci-avm-2026.226.0.0.4.0svn76924-63.2.noarch.rpm"
+RPM_HASH = "64ff3a202d1caed46a29596fcc7440a36ba2d96b68cd8f5d5a5045efedc861c5d631b27d280e5ea2e207b3a22f4625bab61b770b5a9632745e9c1911f2f62efd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-langsci-avm.sty \

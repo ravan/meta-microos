@@ -13,12 +13,12 @@ LICENSE = "Artistic-1.0 | Artistic-2.0"
 
 PV = "1.11"
 
-RPM_NAME = "perl-Getopt-ArgvFile-1.11-9.31.aarch64.rpm"
-RPM_HASH = "73cb03b34c679113ac3c6a6979f2b987054a432794fe58820d95b5ce0c2da27d123983a1e475cd5473d6824fe4c1f3bf6445fbd1c72be5e95cb1cab964ac609f"
+RPM_NAME = "perl-Getopt-ArgvFile-1.11-10.7.aarch64.rpm"
+RPM_HASH = "fe8b1d40005c1f98e9a69365fa29b4afad33372a39a999b7a6d66ad4c65d1307a0d99aef166d8c165e4c3b0c8407cd1ac9f983e52f23bdf9e4fcd1b8f2a4bd80"
 
 RPROVIDES:${PN} += "perl-Getopt--ArgvFile \
 perl-Getopt-ArgvFile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

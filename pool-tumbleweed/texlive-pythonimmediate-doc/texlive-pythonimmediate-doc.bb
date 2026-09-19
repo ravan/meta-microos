@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pythonimmediate"
 DESCRIPTION = "This package includes the documentation for texlive-pythonimmediate"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4.0svn66461"
+PV = "2026.226.0.0.6.0svn76924"
 
-RPM_NAME = "texlive-pythonimmediate-doc-2023.209.0.0.4.0svn66461-54.2.noarch.rpm"
-RPM_HASH = "a188824ed2c55ab019c4c9a847a2f6d303b665cfff9d3988300b0277a297be507e40c1ef803a110ce8a3d3f7cfcd1b3ac5995b011fa4b436d3f7856dcc917396"
+RPM_NAME = "texlive-pythonimmediate-doc-2026.226.0.0.6.0svn76924-60.4.noarch.rpm"
+RPM_HASH = "4ec020ebe1f65d2dd52040ab2ff361d3180b819f825e3ba227d3e92b883dcced88ab1793219b56ab6c852a1d0c9116fe5833881c8bb069ff34bc54207b8a62ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pythonimmediate-doc"

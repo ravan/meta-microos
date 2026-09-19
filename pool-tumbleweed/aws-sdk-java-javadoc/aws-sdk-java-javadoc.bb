@@ -1,11 +1,11 @@
 SUMMARY = "Javadoc for aws-sdk-java"
 DESCRIPTION = "This package contains javadoc for aws-sdk-java."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-javadoc-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "67bd2605077af5686157b4bbd2c7fe4d149cda89ef13aea81ccf5db65bd6e05d36613bf40af707b5aaeb9a51bc0368c345227bdbbf510e0fdccd21a9292e2cd0"
+RPM_NAME = "aws-sdk-java-javadoc-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "11220882a5bacf2333deb69519304a6cd12ac76d9d9b13889e72a339d5582bab5782819f2c945a3dfbb219d3b4b892892ea02e914f2e8c23f75aeecb377906cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-javadoc"

@@ -8,10 +8,10 @@ time provides integration into IPython notebook and various plotting \
 options."
 LICENSE = "MIT"
 
-PV = "0.5.3"
+PV = "0.7.4"
 
-RPM_NAME = "python310-physt-0.5.3-1.5.noarch.rpm"
-RPM_HASH = "c33473aa80ca17c8d88ec98abff41349f8bc62d327aefea2bca5e95071fc2d9e9494babf57ed71c3c569a910d38b36a990868cada7cb2605b33eab34d31a75dd"
+RPM_NAME = "python310-physt-0.7.4-1.1.noarch.rpm"
+RPM_HASH = "7f0897076d0244ca267c3ea136b8a1d5a8459cf1dd4cf66c4f67f707fd4227460c9efdd53ace9c0999a82f2d4283fe76fe2a97d32ad5a007a2c538f8df3c00ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-physt \
@@ -19,7 +19,9 @@ python310-physt \
 python3dist-physt"
 
 RDEPENDS:${PN} += "python-abi \
+python310-hypothesis \
 python310-numpy \
-python310-pandas"
+python310-packaging \
+python310-typing-extensions"
 
 inherit rpm

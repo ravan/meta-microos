@@ -2,14 +2,15 @@ SUMMARY = "Salt modules and states for SAP Applications and SLE-HA components ma
 DESCRIPTION = "Salt modules and states for SAP Applications and SLE-HA components management"
 LICENSE = "Apache-2.0"
 
-PV = "0.3.18+git.1690200022.db379c1"
+PV = "0.3.19+git.1757602235.33fff4c"
 
-RPM_NAME = "salt-shaptools-0.3.18+git.1690200022.db379c1-1.1.noarch.rpm"
-RPM_HASH = "f8d2a066871729553246c12014e642318fe3b1c7c2e60408524cb8ec5303894b4a170acf67630463ddb757c5d604fb92e5f02c741e88335a90314a600245dae9"
+RPM_NAME = "salt-shaptools-0.3.19+git.1757602235.33fff4c-1.3.noarch.rpm"
+RPM_HASH = "ac37c661055765981a57e8f85d7d76680c7dadf903825d7b7542b0681f81973f7860d06505516c509dd21f7df91ec648a7e7f6192635cdcb70cda121a5491054"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "salt-shaptools"
 
-RDEPENDS:${PN} += "python3-six"
+RDEPENDS:${PN} += "group-salt \
+python3-six"
 
 inherit rpm

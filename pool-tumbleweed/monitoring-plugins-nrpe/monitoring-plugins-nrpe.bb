@@ -10,20 +10,21 @@ The plugin then uses the output and return code from the plugin \
 execution on the remote host for its own output and return code."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.0.3"
+PV = "4.1.1"
 
-RPM_NAME = "monitoring-plugins-nrpe-4.0.3-5.5.aarch64.rpm"
-RPM_HASH = "5791ac926adba170219d06ee0baa848926fa80af4788e64d70ca9399278a6012180a9763b4e7fdd6119e96466e2e882ddf235c855a6850325b198f8bd994b33f"
+RPM_NAME = "monitoring-plugins-nrpe-4.1.1-1.14.aarch64.rpm"
+RPM_HASH = "1a4e79e2b1686486f15d141240244dc346bf685545aaeee889007663b0122d8f0a21244aabdf8f24048f4d398d5792efc607457a9d5e6c00aa2d11a96dbb746a"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-nrpe \
 monitoring-plugins-nrpe \
 nagios-nrpe-server \
 nagios-plugins-nrpe"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "group-nagcmd \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-libssl.so.3"
+libssl.so.3 \
+system-user-nagios"
 
 inherit rpm

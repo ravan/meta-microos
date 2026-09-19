@@ -2,10 +2,10 @@ SUMMARY = "Library for reading Metafile Images"
 DESCRIPTION = "This library reads metafile images."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.2.13"
+PV = "0.2.15"
 
-RPM_NAME = "libwmf-0_2-7-0.2.13-1.1.aarch64.rpm"
-RPM_HASH = "de46db44521d996240bfcde23ab3124001ef0ff4c65bbbe569efeba8cf1e5abb1c1b59469e7559b08460fe3a15f98a07141069ebd3875259d7007abe715c239d"
+RPM_NAME = "libwmf-0_2-7-0.2.15-1.3.aarch64.rpm"
+RPM_HASH = "c0efc18b04b19e8193b66778ba3457d27cc611f337917e398583ff9d2f57de3f89ca3e6204cdbd9ffa8b041ccdbb2fcea1a4a36a20a9ef677ee72eabda333f21"
 
 RPROVIDES:${PN} += "libwmf-0-2-7 \
 libwmf-0.2.so.7 \

@@ -2,14 +2,14 @@ SUMMARY = "Bash Completion for typst"
 DESCRIPTION = "Bash command-line completion support for typst."
 LICENSE = "Apache-2.0"
 
-PV = "0.7.0"
+PV = "0.15.1"
 
-RPM_NAME = "typst-bash-completion-0.7.0-1.1.noarch.rpm"
-RPM_HASH = "dd9b77b3d6f610a2852f15378b54775c255225c4771fc12979d53015c15fd4f723fff5346e0f4e08a414ea014a2a3940df7922c61d75ba968f43888a753f44ea"
+RPM_NAME = "typst-bash-completion-0.15.1-1.1.noarch.rpm"
+RPM_HASH = "3f38fce509391992b8a4439f4b9395592375b710b1e01706222973e467815dde653727c9c8031f7d68784b9722193abf2e8a098d64541a1b813115493d792c57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "typst-bash-completion"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "typst"
 
 inherit rpm

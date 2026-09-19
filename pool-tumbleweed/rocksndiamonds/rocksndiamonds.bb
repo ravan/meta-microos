@@ -7,14 +7,15 @@ If you know the game Boulder Dash (Commodore C64) or Emerald Mine (Amiga), \
 you know what Rocks'n'Diamonds is about."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.6.0"
+PV = "4.4.2.4"
 
-RPM_NAME = "rocksndiamonds-4.3.6.0-1.1.aarch64.rpm"
-RPM_HASH = "3c5ab623bad712f5bb1eeed88cccd9097eeaee5fe5683a8f792fb4bd6b14363f2ad3666621f2642f2463d1993c8ea6981b895f032216d861da1f750a27cbb2bd"
+RPM_NAME = "rocksndiamonds-4.4.2.4-1.1.aarch64.rpm"
+RPM_HASH = "5d59c72c98405a65e6858538aab315b82ab502caa259b12cee73946c85cacd16f55790c3b17a30c42a3a78bc7daaeea6745f881092e56223f939747f92c58f30"
 
 RPROVIDES:${PN} += "rocksndiamonds"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "group-games \
+ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libSDL2-image-2.0.so.0 \
 libSDL2-mixer-2.0.so.0 \

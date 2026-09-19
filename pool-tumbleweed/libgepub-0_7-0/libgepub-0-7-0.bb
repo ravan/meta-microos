@@ -2,10 +2,10 @@ SUMMARY = "EPUB document reader library"
 DESCRIPTION = "A GObject-based library for handling and rendering EPUB documents."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.7.1"
+PV = "0.7.3"
 
-RPM_NAME = "libgepub-0_7-0-0.7.1-1.1.aarch64.rpm"
-RPM_HASH = "2332b6266bfae2d34e6858240d3fee79b5953a4a2e368a9c5a913a894455e6755d816e00677076dc2ba4b23b4172cecdc3636a2f262a88633ed5c94e76274e48"
+RPM_NAME = "libgepub-0_7-0-0.7.3-1.7.aarch64.rpm"
+RPM_HASH = "d3d06288520131615bffc919fb83bb2421eab3d775869674c3dc28703acd5e946cffe762b6930ab97b5306a46a7d54a43eb5d20fb96f2848749e954f1fa470e7"
 
 RPROVIDES:${PN} += "libgepub-0-7-0 \
 libgepub-0.7.so.0"
@@ -19,6 +19,6 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libjavascriptcoregtk-4.1.so.0 \
 libwebkit2gtk-4.1.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -5,10 +5,10 @@ illustrate the breakdown of concepts and categories in \
 Scholastic thought from late medieval and early modern periods."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn58020"
+PV = "2026.226.1.5svn76178"
 
-RPM_NAME = "texlive-schemata-2023.209.1.4svn58020-54.1.noarch.rpm"
-RPM_HASH = "f80887a370585b2a5922d957b39c3b47dca6da0bc8ce4911c62d2c9c8b8d8a4e7e4d8f07e964d5e81e7f663dd5cd25f231216267218cf1f25918508289630994"
+RPM_NAME = "texlive-schemata-2026.226.1.5svn76178-60.2.noarch.rpm"
+RPM_HASH = "7edae46cf0901742eed4162b36d658800e5ad31e61d39ca7e7586a4e16fb96c8d62c864cf9e45b486c2da5169564f0a326c7dc28d96a93e6c7c69a87e82aad47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-schemata.sty \

@@ -2,12 +2,12 @@ SUMMARY = "Development environment for the ZBar library"
 DESCRIPTION = "This package contains all necessary include files, libraries, \
 configuration files and development tools needed to compile and link \
 applications using the zbar library."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.23.90"
+PV = "0.23.93"
 
-RPM_NAME = "libzbar-devel-0.23.90-4.1.aarch64.rpm"
-RPM_HASH = "25c0348690d98e08540262674675102db10fa28a5c154c9d3d4f03c682f0eac7228ac5e5be514ec26aa0f999211f965a9c9d80e403fdb4b30061945c5d34478e"
+RPM_NAME = "libzbar-devel-0.23.93-4.3.aarch64.rpm"
+RPM_HASH = "b583731f28aa5f46ebb1d0ab615f63784dda82c12e03e5318eef17d8e6a1708062b251ce4e466825503d2a28d074d93a9d7c233f7b9a402d309a96418b2b0c9f"
 
 RPROVIDES:${PN} += "libzbar-devel \
 pkgconfig-zbar"

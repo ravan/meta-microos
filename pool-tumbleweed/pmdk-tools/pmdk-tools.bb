@@ -9,10 +9,10 @@ memory-mapped files, as described in the SNIA NVM Programming Model. \
 * daxio: utility to perform I/O on DAX devices"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "2.1.1"
 
-RPM_NAME = "pmdk-tools-1.11.1-1.9.aarch64.rpm"
-RPM_HASH = "9a17783a45f540f9560362b644877c1120f307d068a03f743f314d8479a9b908f65ecd569fbf06a52de578245a9bade28e8b4eb347330b84a9212e82308fb731"
+RPM_NAME = "pmdk-tools-2.1.1-1.5.aarch64.rpm"
+RPM_HASH = "beb72d701a167002e8d0fd65beaaa0ff30539fdd8177fe82ad5f0626109a36509323899f687e13220295621ea41ebb9b9f62bbabc8e2eca7a815940996f7c9d4"
 
 RPROVIDES:${PN} += "nvml-tools \
 pmdk-tools"
@@ -24,8 +24,6 @@ libc.so.6 \
 libdaxctl.so.1 \
 libndctl.so.6 \
 libpmem.so.1 \
-libpmemblk.so.1 \
-libpmemlog.so.1 \
 libpmemobj.so.1 \
 libpmempool.so.1"
 

@@ -4,10 +4,10 @@ DESCRIPTION = "Casacore provides a suite of C++ libraries for radio astronomy da
 This package provides the headers and sources for developing software with casacore."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "3.5.0"
+PV = "3.8.0"
 
-RPM_NAME = "casacore-devel-3.5.0-2.14.aarch64.rpm"
-RPM_HASH = "03aaa8e1e9658a4a86b5ebfb62ad3ac0df6933d0d813ffffff3b00d3cac99cfa01e36d009c954b73fc7ec33924e2a928ffced1e5d70a3248fe3e7c55f28e4736"
+RPM_NAME = "casacore-devel-3.8.0-1.6.aarch64.rpm"
+RPM_HASH = "6cde242716bff0969037553d5f8592d70e015d9bed535197942312d1ff7f1ddc8dd294bd9bcc67c5b5f01febab5a8520ed8a5ea5c2058e674c9f7f7527801bf1"
 
 RPROVIDES:${PN} += "casacore-devel \
 pkgconfig-casacore"
@@ -17,7 +17,7 @@ gsl-devel \
 hdf5-devel \
 lapack-devel \
 libboost-python3-devel \
-libcasacore7 \
+libcasacore9 \
 pkgconfig-cfitsio \
 pkgconfig-fftw3 \
 pkgconfig-ncurses \

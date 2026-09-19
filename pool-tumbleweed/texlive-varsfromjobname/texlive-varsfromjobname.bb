@@ -5,10 +5,10 @@ the package expects the file name to consist of a set of words \
 separated by hyphens."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn44154"
+PV = "2026.226.1.1svn76924"
 
-RPM_NAME = "texlive-varsfromjobname-2023.209.1.0svn44154-54.1.noarch.rpm"
-RPM_HASH = "a9fa58be5138db51c2e286e42b45a4d4becc15308f3071c9c2ee4bdb273128d8a35203e1cf0d203ed0000b37de0da0c56f2c7fc82eac0dd091a5fcdaa740fc5a"
+RPM_NAME = "texlive-varsfromjobname-2026.226.1.1svn76924-60.2.noarch.rpm"
+RPM_HASH = "d67a0789b0204b4810183be17ca9b41d17cc2dd49959cf2118815e6419013878adcdd2bf29ef642a40b8bb6d6556eef89087ef8fd00e33e9ed5985a5909c2ab7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-varsfromjobname.sty \
@@ -21,7 +21,7 @@ findutils \
 grep \
 sed \
 tex-currfile.sty \
-tex-ifthen.sty \
+tex-expl3.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

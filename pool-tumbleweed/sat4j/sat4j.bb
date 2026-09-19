@@ -7,8 +7,8 @@ LICENSE = "EPL-1.0 & LGPL-2.0-only"
 
 PV = "2.3.5"
 
-RPM_NAME = "sat4j-2.3.5-3.1.noarch.rpm"
-RPM_HASH = "c3bd7b4131b3df8f4825be4b77260f9547be7fb3c17c1159c0c3a7980a27a1943e66e9a215448bb8021e6d542df11b4a05365b6f38dd7a0bbe19d18e9491e678"
+RPM_NAME = "sat4j-2.3.5-4.9.noarch.rpm"
+RPM_HASH = "ba626fbb765f3078a6e33bed0e8b0437e7a7bc525c1c82eff53890cabe9dd767c98ca37386bd56002a51af32208bed352eae56f613ae89d0a59f37304c071c94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.ow2.sat4j-org.ow2.sat4j.core \

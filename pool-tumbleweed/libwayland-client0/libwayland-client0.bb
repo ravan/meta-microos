@@ -7,10 +7,10 @@ The clients can be traditional applications, X servers (rootless or \
 fullscreen) or other display servers."
 LICENSE = "MIT"
 
-PV = "1.22.0"
+PV = "1.26.0"
 
-RPM_NAME = "libwayland-client0-1.22.0-1.1.aarch64.rpm"
-RPM_HASH = "d21f487d88da96de869f3b14f776d7401b734a0ae8dbd2d18b03a910b71b9c9b902d4fb46cd48e2dd543f13500d974f2e8dc40443c761e43c4037411aaa46d1a"
+RPM_NAME = "libwayland-client0-1.26.0-1.2.aarch64.rpm"
+RPM_HASH = "3f9b7cdc6f8d70c6e4da5cce88f2fac45d0ad8002f19c9569931e8a0d6ea5f6c365cece85300094119302ad785f22526a006e31a2152fa5a8a224534173673ea"
 
 RPROVIDES:${PN} += "libwayland-client.so.0 \
 libwayland-client0"

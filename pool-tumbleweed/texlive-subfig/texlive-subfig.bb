@@ -18,10 +18,10 @@ functionality of the package is provided by the (more recent \
 still) subcaption package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn15878"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-subfig-2023.209.1.3svn15878-58.1.noarch.rpm"
-RPM_HASH = "12967770e083e2ea975e92114fb96f31473f219e90f6e2e521e341a2e99c0ffba9c93663bbf2c67868865b3cb21629ec79b2431557c4be5e30e15b85ff1ff60f"
+RPM_NAME = "texlive-subfig-2026.226.1.3svn77682-64.2.noarch.rpm"
+RPM_HASH = "ec3e168c3f3e8da8cabc00a7826e22e0eb8d05bcac05c0167fcb30c0890278d5dc7de977bbf808e49cb02692eaea1c3823ee38e1cc1bac238c808293d6f0520e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-altsf.cfg \

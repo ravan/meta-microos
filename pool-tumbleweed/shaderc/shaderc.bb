@@ -8,20 +8,19 @@ Included are: \
 Shaderc wraps around core functionality in glslang and SPIRV-Tools."
 LICENSE = "Apache-2.0"
 
-PV = "2023.6"
+PV = "2026.3"
 
-RPM_NAME = "shaderc-2023.6-1.1.aarch64.rpm"
-RPM_HASH = "16b3d91d14fd1bb55b620e22f8931991701df9d9141d24f0d8f42ed272945b293543e4dace19a9f9264c874bc866e8cf9b435994d5dc4ea04b4dea38bdfffdc2"
+RPM_NAME = "shaderc-2026.3-1.2.aarch64.rpm"
+RPM_HASH = "9aaeaba60f874bdf0aff30dd2936c68f5327a42e36e4220c25d3beeb784728b178da9972a8cc972661288c09371b474c2e3a43fbe6ff67248de1ca63ee17b5bc"
 
 RPROVIDES:${PN} += "shaderc"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libSPIRV-Tools-2023.4~rc2.so \
-libSPIRV-Tools-opt-2023.4~rc2.so \
-libSPIRV.so.13 \
+libSPIRV-Tools-2026.3~rc1.so \
+libSPIRV-Tools-opt-2026.3~rc1.so \
 libc.so.6 \
 libgcc-s.so.1 \
-libglslang.so.13 \
+libglslang.so.16 \
 libstdc++.so.6"
 
 inherit rpm

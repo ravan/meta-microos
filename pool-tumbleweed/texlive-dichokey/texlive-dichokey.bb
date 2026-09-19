@@ -6,10 +6,10 @@ steps automatically. An example file is provided, which \
 demonstrates usage."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn17192"
+PV = "2026.226.svn17192"
 
-RPM_NAME = "texlive-dichokey-2023.209.svn17192-53.1.noarch.rpm"
-RPM_HASH = "8832289b3de835a001ab6bbc5c77c98913281a028f8f79145137ed4d3b3bf0762e4a072bcdbc954797d11a9a31a445b81337551972376ce61041040f03c66735"
+RPM_NAME = "texlive-dichokey-2026.226.svn17192-59.2.noarch.rpm"
+RPM_HASH = "c61c8ce319fd213e57dccc95bec8a7865cdfc785855c84f65cd48765327ad61c38560ce392fe0148d059fa28f045c0d38b69acee3d343b91e4abc8b983b292ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dichokey.sty \

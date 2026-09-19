@@ -4,10 +4,10 @@ DESCRIPTION = "libbfoverlay is a library to provide basic file overlay support. 
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210416"
+PV = "20240505"
 
-RPM_NAME = "libbfoverlay1-20210416-3.4.aarch64.rpm"
-RPM_HASH = "606f25246dabe2f62c0772f4d015b9c52319a6f2f8442b2733c3d496f9a794234200bdd92f25ccff13628fe6e9cf6c8aee0f2c8f3c8936ed8b3bbfa557652743"
+RPM_NAME = "libbfoverlay1-20240505-2.16.aarch64.rpm"
+RPM_HASH = "62787f537d09ccac14af8e72106a0606d1ba698c3713a869857f6e4a2881af7858d93e35d6b54db6bf5ebf43ec5be6cc179f2481a1e77592adc2c218da0eb1c1"
 
 RPROVIDES:${PN} += "libbfoverlay.so.1 \
 libbfoverlay1"
@@ -18,6 +18,7 @@ libbfio.so.1 \
 libc.so.6 \
 libcdata.so.1 \
 libcerror.so.1 \
+libcfile.so.1 \
 libclocale.so.1 \
 libcnotify.so.1 \
 libcthreads.so.1 \

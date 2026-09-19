@@ -4,10 +4,10 @@ vector of bits. The size of the vector may grow dynamically. \
 Individual bits can be manipulated."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn53837"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-bitset-2023.209.1.3svn53837-53.1.noarch.rpm"
-RPM_HASH = "476ae36a2941810bd70ef0dbd950b0b046efd1f33711c6071fdd7ac58dec954b49c00a1ab89aa322ec39264215182fdc950b6af159cd3a42f33b7209af668a4e"
+RPM_NAME = "texlive-bitset-2026.226.1.3svn77682-59.2.noarch.rpm"
+RPM_HASH = "b1600ae55ba9bcff3497fe99dda73065ca093e99bf1a3eb0297e3bbbeb8355285c323a7c7f7d80710717719b51f207588cde8ed10639c253cdcf2e5704666146"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bitset.sty \

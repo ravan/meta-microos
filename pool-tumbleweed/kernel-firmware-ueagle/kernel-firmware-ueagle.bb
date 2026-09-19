@@ -1,37 +1,15 @@
 SUMMARY = "Kernel firmware files for Eagle IV USB ADSL modem driver"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Eagle IV USB ADSL modem driver."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Eagle IV USB ADSL modem driver."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
-PV = "20230829"
+PV = "20260703"
 
-RPM_NAME = "kernel-firmware-ueagle-20230829-1.1.noarch.rpm"
-RPM_HASH = "d32db26fd399280696ca7ed6e77cb351c55db2ce571ac52b93356df9adc1e153c9124ea183146ee46487bbfbe37063f9b48c31c89f7bfcbd26601c3c4093df54"
+RPM_NAME = "kernel-firmware-ueagle-20260703-1.1.noarch.rpm"
+RPM_HASH = "0ad4f2d2e596152184b846fae3f81bb81e4544c7f3c946373ce101080affb32ea6fd1b86a4c13b3b5f5ef55006695e0e0af551488cf5ccd8639aba769b59a017"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "firmware-ueagle-atm/930-fpga.bin \
-firmware-ueagle-atm/CMV4p.bin.v2 \
-firmware-ueagle-atm/CMV9i.bin \
-firmware-ueagle-atm/CMV9p.bin \
-firmware-ueagle-atm/CMVei.bin \
-firmware-ueagle-atm/CMVeiWO.bin \
-firmware-ueagle-atm/CMVep.bin \
-firmware-ueagle-atm/CMVepES.bin \
-firmware-ueagle-atm/CMVepES03.bin \
-firmware-ueagle-atm/CMVepFR.bin \
-firmware-ueagle-atm/CMVepFR04.bin \
-firmware-ueagle-atm/CMVepFR10.bin \
-firmware-ueagle-atm/CMVepIT.bin \
-firmware-ueagle-atm/CMVepWO.bin \
+RPROVIDES:${PN} += "firmware-ueagle-atm/CMV4p.bin.v2 \
 firmware-ueagle-atm/DSP4p.bin \
-firmware-ueagle-atm/DSP9i.bin \
-firmware-ueagle-atm/DSP9p.bin \
-firmware-ueagle-atm/DSPei.bin \
-firmware-ueagle-atm/DSPep.bin \
-firmware-ueagle-atm/adi930.fw \
-firmware-ueagle-atm/eagleI.fw \
-firmware-ueagle-atm/eagleII.fw \
-firmware-ueagle-atm/eagleIII.fw \
 firmware-ueagle-atm/eagleIV.fw \
 kernel-firmware-ueagle"
 

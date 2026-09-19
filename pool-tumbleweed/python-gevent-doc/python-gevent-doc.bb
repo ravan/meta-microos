@@ -2,16 +2,15 @@ SUMMARY = "Documentation for python-gevent"
 DESCRIPTION = "Documentation and examples for python-gevent."
 LICENSE = "MIT"
 
-PV = "23.7.0"
+PV = "26.8.0"
 
-RPM_NAME = "python-gevent-doc-23.7.0-1.1.noarch.rpm"
-RPM_HASH = "e269e4958d0ac34b0b0506a9826480a0aec3cbefe8686c4cd77a7cbffa22b83f1085ffcaafdb28b3977ecba5bb002018a83800fcf81ec97163b7d58f9c2455cb"
+RPM_NAME = "python-gevent-doc-26.8.0-1.1.noarch.rpm"
+RPM_HASH = "d2ae18e91517e040e6af5fa29c340b977e4bbfa657440732a54be346d6fc402974f73732bab6da0613eb3f491dbe690874fee67a882d89a32e3171a65d3dfef0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-gevent-doc \
-python310-gevent-doc \
-python311-gevent-doc \
-python39-gevent-doc"
+python313-gevent-doc \
+python314-gevent-doc"
 
 RDEPENDS:${PN} += ""
 

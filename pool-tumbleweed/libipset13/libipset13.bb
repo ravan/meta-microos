@@ -6,10 +6,10 @@ addresses with MAC addresses in a way, which ensures lightning speed \
 when matching an entry against a set."
 LICENSE = "GPL-2.0-only"
 
-PV = "7.17"
+PV = "7.24"
 
-RPM_NAME = "libipset13-7.17-1.3.aarch64.rpm"
-RPM_HASH = "c5705f39ba95910b9c1682cd4fd7e81fdd4138b8c63b03ac38d5b98cd845b9f7b8cf39ffe465bb4a49415d45b19d94d9789f16e79cfad4233f8c874bc46ecb1a"
+RPM_NAME = "libipset13-7.24-1.6.aarch64.rpm"
+RPM_HASH = "e33ecce9bc386c94aedf196f7a2404b19eea4646ad26aee862422956b207de92ac081325c75b21b88a4f4defc29203ae4e67b16d80c9169f6e30809d9be6e0e5"
 
 RPROVIDES:${PN} += "libipset.so.13 \
 libipset13"

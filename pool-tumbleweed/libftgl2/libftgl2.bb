@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.4.0"
 
-RPM_NAME = "libftgl2-2.4.0-1.15.aarch64.rpm"
-RPM_HASH = "d5e9d7a25b3ce7880a270ca6476dbb3eee5018ce3ca69750048b15c3d286e24e72956c32961eb80f0861df4d2d5a396645c37b1b6a9d28d20a65466ddcbd0933"
+RPM_NAME = "libftgl2-2.4.0-3.5.aarch64.rpm"
+RPM_HASH = "20c36045a4ef6bad226a31763efe3e74a07004f7958d2167b72e5e551cfa178e1bc26d9dcc74d909345b75bb9ced9c0dd16eb7ea19675edebc18d7adbf05d15a"
 
 RPROVIDES:${PN} += "libftgl.so.2 \
 libftgl2"

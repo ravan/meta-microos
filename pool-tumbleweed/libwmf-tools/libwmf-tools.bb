@@ -4,10 +4,10 @@ using the X Window System or convert them to standard formats such as \
 PNG, JPEG, PS, EPS, and more."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.2.13"
+PV = "0.2.15"
 
-RPM_NAME = "libwmf-tools-0.2.13-1.1.aarch64.rpm"
-RPM_HASH = "f2b3af3e89320fd003383097500f5058f0161e67d0674b97640b59d8d8abd4295d2fa28f8326e9d9e09d2f0534614cfcf0d9105f583df1447dffb0230b2837dc"
+RPM_NAME = "libwmf-tools-0.2.15-1.3.aarch64.rpm"
+RPM_HASH = "e931b90f3e0f5d6b0e2ca6a1d78e15eaf4f521119cdad73b67d5df3b431a23a897050a09885ccd4ae333e3b7c226da800d408f2b51a53e27ba9d7b9dd2d4af23"
 
 RPROVIDES:${PN} += "libwmf \
 libwmf-tools \

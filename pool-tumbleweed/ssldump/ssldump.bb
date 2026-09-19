@@ -7,15 +7,14 @@ provided with the appropriate keying material, it also decrypts the \
 connections and displays the application data traffic."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6"
+PV = "1.9"
 
-RPM_NAME = "ssldump-1.6-1.3.aarch64.rpm"
-RPM_HASH = "8f68ad3d4ebdbb3f41e4091ddf65d6dd90d411bb327f5e39c000d52893c9cf05b7d4b75a1162e027321b2c02af2fea1d7278d23c606330c3520a07a9ea347584"
+RPM_NAME = "ssldump-1.9-3.5.aarch64.rpm"
+RPM_HASH = "d63fbd9c9ee1424e556d01a578a4c0c24994805a905d4ad4b03effa8709324d28f5a3a69998fb9ca2af4bbba34a570c90ab1e6627c8d4e640d5772e508339e4e"
 
 RPROVIDES:${PN} += "ssldump"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libcrypto.so.3 \
 libjson-c.so.5 \
 libnet.so.9 \

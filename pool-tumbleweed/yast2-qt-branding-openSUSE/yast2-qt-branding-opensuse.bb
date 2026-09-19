@@ -2,10 +2,10 @@ SUMMARY = "openSUSE Tumbleweed branding for YaST2 Qt"
 DESCRIPTION = "openSUSE Tumbleweed branding for YaST2 Qt, mainly used for installation"
 LICENSE = "BSD-3-Clause"
 
-PV = "84.87.20230227"
+PV = "84.87.20240405"
 
-RPM_NAME = "yast2-qt-branding-openSUSE-84.87.20230227-2.1.noarch.rpm"
-RPM_HASH = "f506d040ad7da5e8506f62064a0678408c58083b3505cb1cfb319f1ff448433c4834fd45cf8604b25bf5701531d1a254bc1cbc2dd3a29a036d222aedc730b269"
+RPM_NAME = "yast2-qt-branding-openSUSE-84.87.20240405-5.5.noarch.rpm"
+RPM_HASH = "68c27d37b196c29d000afa396fd4eafc6790d6d58d14eb1515d3e9841db31067ee01607dbbdfc5c79227f21466dc7228f30336020b4e1a9b6a546406fa57679e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-qt-branding \

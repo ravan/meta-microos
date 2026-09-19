@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5UnitConversion5"
 DESCRIPTION = "Provides translations for the 'libKF5UnitConversion5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5UnitConversion5-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "dd6b55c391423b6898722b27ae992c73d2ab11e775e180138decacfe69c539b86fefebbceac6b271c7e0cb5b11a5ba966c2fb37aa5c499f7dd1f0474b710382f"
+RPM_NAME = "libKF5UnitConversion5-lang-5.116.0-1.8.noarch.rpm"
+RPM_HASH = "b9c9c4160239cc243003a2975745bef5f3d172f5efd5f94a5182710dd97fbf73aa0c4870a03cc05981132dd8d324be2199dd5e5e2f7467c30e42190526a10035"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5UnitConversion5-lang \

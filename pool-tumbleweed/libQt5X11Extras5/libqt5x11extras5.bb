@@ -5,10 +5,10 @@ deployed across several other desktop and embedded operating systems \
 without having to rewrite the source code.)"
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt5X11Extras5-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "c1203afcae09fa6c4be0a4d31eb3b1648ac8101850b80051002bdd5f71d998ef11eff4ddd0e81ff6e2a997abf8fd7b6e009f749ba4a7a53340af232fa362cca6"
+RPM_NAME = "libQt5X11Extras5-5.15.19+kde0-1.3.aarch64.rpm"
+RPM_HASH = "acae482f8267a11ae6ad3b39dc2240ed2ed90b2fb61d234e872dea66a225fbece9ddcf8fa1b813b2774031b4f62e5a09b3ae5fbc44b2c2a33739374819e6a65c"
 
 RPROVIDES:${PN} += "libQt5X11Extras.so.5 \
 libQt5X11Extras5"

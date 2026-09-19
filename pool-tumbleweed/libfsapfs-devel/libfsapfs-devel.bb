@@ -2,10 +2,10 @@ SUMMARY = "Development files for libfsapfs"
 DESCRIPTION = "Development files for libfsapfs."
 LICENSE = "LGPL-3.0-only"
 
-PV = "20230617"
+PV = "20240429"
 
-RPM_NAME = "libfsapfs-devel-20230617-2.1.aarch64.rpm"
-RPM_HASH = "74369c7db9448cbc1de2c91f041d64e4013609adbc806f830815152e24172d1af666f9e6e0c97a8463999dc5b6a82ab2b5da9f3673489438b8576397434537ff"
+RPM_NAME = "libfsapfs-devel-20240429-2.21.aarch64.rpm"
+RPM_HASH = "9c07189c16264f43b3b3807bd0e53e5eb578863dd914245e1ccd9e4e916520b72d2daaea4bd0ab28527c73b5fd151b3085e24c554419695647f6f5da531bd743"
 
 RPROVIDES:${PN} += "libfsapfs-devel \
 pkgconfig-libfsapfs"

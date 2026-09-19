@@ -9,10 +9,10 @@ Note: config.txt should not be used to set manually params (gpu_mem, etc.) \
 please create extraconfig.txt instead."
 LICENSE = "MIT"
 
-PV = "2023.04.25"
+PV = "2026.02.11"
 
-RPM_NAME = "raspberrypi-firmware-config-camera-2023.04.25-2.1.noarch.rpm"
-RPM_HASH = "03a79ff2ef807ba637e23e09bc143527d8906ea2fd90280894c401da882279d350ddd87b6380f208fb501f7bfe8f224ab245e087a1132e08212c075f1ccbc2b0"
+RPM_NAME = "raspberrypi-firmware-config-camera-2026.02.11-3.1.noarch.rpm"
+RPM_HASH = "2bba3efb8fcea1a3d37f0d0038cde8984b10550e1d6fcceec5b9f1a851d43cf372a5c1040e34294ff90a12941a716a38704c2829f2054fba87917a3036f0084d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-raspberrypi-firmware-config-camera \

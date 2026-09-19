@@ -4,10 +4,10 @@ such as footnotes, tables, and metadata. Additionally, it offers mechanisms \
 to convert plain text into LaTeX in addition to HTML."
 LICENSE = "MIT"
 
-PV = "6.6.0"
+PV = "6.8.0"
 
-RPM_NAME = "MultiMarkdown-6-6.6.0-1.12.aarch64.rpm"
-RPM_HASH = "fa1aafcd9776a8afefe665b44b94e621ef67ad7e594363bf727497a03807d5a7476fc0135bf037e8a8893f3ab7a0387e054e9b82967598c129577c8fa0ee86ee"
+RPM_NAME = "MultiMarkdown-6-6.8.0-1.1.aarch64.rpm"
+RPM_HASH = "4cb41671a8fd30649a4e5531f42f7954842ee93c20bfb7c74aab791fc6c462a60ac31f866d5b3ae59586ce193e8bedbc221f295332085cd70702a582ca3bc22f"
 
 RPROVIDES:${PN} += "MultiMarkdown-6 \
 markdown"

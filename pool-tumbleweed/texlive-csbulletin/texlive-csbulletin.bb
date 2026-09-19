@@ -5,10 +5,10 @@ You can see the structure of a document by looking at the \
 source file of the manual."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65250"
+PV = "2026.226.svn77112"
 
-RPM_NAME = "texlive-csbulletin-2023.209.svn65250-55.1.noarch.rpm"
-RPM_HASH = "045e0943f886098f0282330f861eebf2481af971f7616801dc8d2ce2b17211020ec17a0210e885ae5e80187c862076e6f15487b1adea7d07b4e68d1d422607e8"
+RPM_NAME = "texlive-csbulletin-2026.226.svn77112-61.2.noarch.rpm"
+RPM_HASH = "a0df78491c0ac04dc2830209e062caeeff4fe6326c80172de57b8a81b0a63c79f0e4d03c78202d76c6286333e771edbe71607ab0bbf36b7d4ded18162ab3cd9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-csbulacronym.sty \

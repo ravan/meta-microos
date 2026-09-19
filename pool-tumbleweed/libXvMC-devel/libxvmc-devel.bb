@@ -8,10 +8,10 @@ This package contains the development headers for the library found \
 in libXvMC1."
 LICENSE = "MIT"
 
-PV = "1.0.13"
+PV = "1.0.15"
 
-RPM_NAME = "libXvMC-devel-1.0.13-1.6.aarch64.rpm"
-RPM_HASH = "46c7aa1840380c11b8843161cd9d836eebf9dac29f2bf1980ea94ff32480eb4c8c12f4f897d90d56f6ba1435dc8166b7e237f5c0ad3a4a5516a12a3fe13f957b"
+RPM_NAME = "libXvMC-devel-1.0.15-1.4.aarch64.rpm"
+RPM_HASH = "68444ce0737f7661a6748da607941d0be22ef332a241f3fe25b8ff48d5339fef85da1b47d8d569caaeb4f3825da7ba44860775a217d0583cf1b027c476d3a7da"
 
 RPROVIDES:${PN} += "libXvMC-devel \
 pkgconfig-xvmc \

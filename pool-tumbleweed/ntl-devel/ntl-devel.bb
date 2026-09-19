@@ -6,13 +6,17 @@ matrices, and polynomials over the integers and over finite fields. \
 This package contains the headers and library links to libntl."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "11.5.1"
+PV = "11.6.0"
 
-RPM_NAME = "ntl-devel-11.5.1-1.9.aarch64.rpm"
-RPM_HASH = "1c5cf3ec39167a86b0007b1afa248e39cf829279fb9ba967069c9e6e4093e6867fdd5c7c0f656629500c962d94e1e0d5d7a1db4564bbfa8281f78ce9188e2f0e"
+RPM_NAME = "ntl-devel-11.6.0-1.4.aarch64.rpm"
+RPM_HASH = "d17caa13fd8358d04a523a8eb7c96bf3114761b364600333fb8332275c74d5a295d2e02f01b9f9875e7346d867e0846e5aca094c2aefa4bc1511f8909ef148e5"
 
-RPROVIDES:${PN} += "ntl-devel"
+RPROVIDES:${PN} += "ntl-devel \
+pkgconfig-ntl"
 
-RDEPENDS:${PN} += "libntl44"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libntl45 \
+pkgconfig-gf2x \
+pkgconfig-gmp"
 
 inherit rpm

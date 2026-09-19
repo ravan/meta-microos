@@ -18,10 +18,10 @@ geometry, graphicx, grffile, ifthen, kvoptions, tikz, ulem, and \
 xstring."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn50100"
+PV = "2026.226.1.2svn50100"
 
-RPM_NAME = "texlive-pdfreview-2023.209.1.2svn50100-52.1.noarch.rpm"
-RPM_HASH = "2c0611d8c1a2c15008f1050b9fd889578781abda8443c9e89366fa5131e5c076335531969d21b5f65fd4bcde62c38e327079d602f81fec47b795014f6fdc0cf3"
+RPM_NAME = "texlive-pdfreview-2026.226.1.2svn50100-58.2.noarch.rpm"
+RPM_HASH = "58bc55eb406639fe947194406f3a0f4f8a7f0c7c1536fca836123fc8e3e0cd6a70130b016043094eb8115060927390bb5230867c5932bee19a1272dcd526c01d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfreview.sty \

@@ -6,10 +6,10 @@ of log4j.jar with reload4j.jar in a build without needing to \
 make changes to source code."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.20"
+PV = "1.2.25"
 
-RPM_NAME = "reload4j-1.2.20-1.6.noarch.rpm"
-RPM_HASH = "c87486d2ee6dff4e5c2526ffbb4f24767a2cf4826cfa7bd0061cfa039537a4ab2baae14417ed2f674f516ed481b81b9367c499ac6e8d189d64f4e01598f14e54"
+RPM_NAME = "reload4j-1.2.25-2.9.noarch.rpm"
+RPM_HASH = "d97216cd0d8252eea0a2c33b32e8dd25a1eb7fb2f0736fae8898a718e543d4b7eb2d80d277cb4b6b228fb2e383622365584bd755df3b1d331fbdc2237322d274"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4j12 \

@@ -2,10 +2,10 @@ SUMMARY = "TrueType Fonts from the GNU Intlfonts Package"
 DESCRIPTION = "TrueType fonts from the GNU intlfonts package."
 LICENSE = "HPND & SUSE-Redistributable-Content & SUSE-Public-Domain"
 
-PV = "1.2.1"
+PV = "1.4.2"
 
-RPM_NAME = "intlfonts-ttf-fonts-1.2.1-16.15.noarch.rpm"
-RPM_HASH = "c8b36409a24498839d96dd00f8abe9d56d5ef3ae57290b1e65322280d94e618631860a6730e2cfc5a94ebb9c961ac0f601a7e09aaf6be9b2a8f9c367625bcb5a"
+RPM_NAME = "intlfonts-ttf-fonts-1.4.2-1.6.noarch.rpm"
+RPM_HASH = "d321c0fed2d85e62a737c53b2319d879981aecc5e7b14084b666b944528e749daf3e724ec31421d861972982b162b00d3b73868b2621ea2047ff03162b67fa53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-intlfonts-ttf-fonts \

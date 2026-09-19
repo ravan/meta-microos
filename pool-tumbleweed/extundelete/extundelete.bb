@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.2.4"
 
-RPM_NAME = "extundelete-0.2.4-2.20.aarch64.rpm"
-RPM_HASH = "0d9edb1a8c803f8411433b0918905a4fb99ff8d0dd5f13a8ec7475bdd0621d74c2e466e7de49d4dab3b03d04f2b4a71a220612e52208127e082830950e9c44e8"
+RPM_NAME = "extundelete-0.2.4-3.9.aarch64.rpm"
+RPM_HASH = "1ed6ecf519e2592b3abd7cbbb225425cded45c3796d4e2c178b9b4ddbf71935750850fec39ec3771b3f0d9a8c5b377d5e8ced93fe611923d8ef48dc8a7147555"
 
 RPROVIDES:${PN} += "extundelete"
 

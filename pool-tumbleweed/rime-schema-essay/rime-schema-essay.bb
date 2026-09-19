@@ -1,11 +1,11 @@
-SUMMARY = "essay input schema for rime"
+SUMMARY = "Essay input schema for rime"
 DESCRIPTION = "essay input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-essay-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "c0ba148d7a07cf98ff22a422e04ff1bd4b783a2eadad9d84a37409db12cfe24fc663dad50792197dce08430bcab3010190a4fbd7b85bc7da8d46d94c3c805518"
+RPM_NAME = "rime-schema-essay-20250315-1.4.noarch.rpm"
+RPM_HASH = "44abd6f9491ae10e693605786845bd237f6cc48d0b8d373aad76748b4cc02a782b4c88c01fceb4a8cc160b890b09eb7002182ad9830890a5a3838d01066ccc9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-essay"

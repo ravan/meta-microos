@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0"
 
-RPM_NAME = "live-net-installer-1.0-20.8.aarch64.rpm"
-RPM_HASH = "a1cef37ce8f5918c2192f751dc88167fd8ecd86a205f9580ac676d3105802ba7c9685e224d7399ac020df4f80560fee7cfe8d8218fcafa480e615a283c32e5e1"
+RPM_NAME = "live-net-installer-1.0-22.2.aarch64.rpm"
+RPM_HASH = "1c4ddde3107a452bd4d4613f326d61f15197acd7450dedf3e595973ad07898eaf87ffad7592db70cd3a1f9649b8a9b9fc04a57f60da04b6b3f68b2ab73f0ef39"
 
 RPROVIDES:${PN} += "live-net-installer"
 
@@ -15,7 +15,6 @@ bcache-tools \
 btrfsprogs \
 cryptsetup \
 device-mapper \
-dmraid \
 e2fsprogs \
 exfatprogs \
 fcoe-utils \

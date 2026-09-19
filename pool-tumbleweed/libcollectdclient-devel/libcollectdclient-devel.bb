@@ -5,10 +5,10 @@ This package contains the required development environment \
 to write collectd unixsock clients."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "libcollectdclient-devel-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "832eac129bdd7310dd92e5f84414992dd4dff1c9c0b9c60b474ebb0def8910d5ac29c6d4018bd9c205d26803ee83b50c1c1293e91de85d398079db54ea42af22"
+RPM_NAME = "libcollectdclient-devel-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "bdb6f4115ad2b744fae5278333029af0313bad1f889ce6829e5ecb781ebf084331a77a665d230f10d69ca40f41fea80847b3d67c9399f5a9f28871100d56a393"
 
 RPROVIDES:${PN} += "libcollectdclient-devel \
 pkgconfig-libcollectdclient"

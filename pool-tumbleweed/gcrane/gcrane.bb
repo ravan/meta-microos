@@ -3,13 +3,13 @@ DESCRIPTION = "crane is a GCR-specific variant of crane that has richer output f
 subcommand and some basic garbage collection support."
 LICENSE = "Apache-2.0"
 
-PV = "0.12.1"
+PV = "0.22.1"
 
-RPM_NAME = "gcrane-0.12.1-1.3.aarch64.rpm"
-RPM_HASH = "5f2fefbe0129d81964fb57c71165d88d972c28d087b12afce97c3afde1f9e29dcfd953957a72774ff9d6d97491111cc7ad23762239cf1e3335027c7301ec6f20"
+RPM_NAME = "gcrane-0.22.1-1.1.aarch64.rpm"
+RPM_HASH = "0f38227a15196ea74e26504ffaf6977980a3c53f323e6e4e75125a2a81057396f6b6a7cf6911751c7d5245529ea53dd18f284535c0cf1a5a2057e1aae57af8de"
 
 RPROVIDES:${PN} += "gcrane"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

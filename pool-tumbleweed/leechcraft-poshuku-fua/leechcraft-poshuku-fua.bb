@@ -10,23 +10,22 @@ Features: \
 etc. into the User-Agent string in arbitrary places."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-poshuku-fua-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "3d5a3aaadc7b957d69052e157b300a2d60e9081cf24a70ef35e3484ff0b1377bde9ea8e1ed96026ae62451b8048a8c0647dd09201b427b8b6d2e2ffc0daaa719"
+RPM_NAME = "leechcraft-poshuku-fua-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "b3f0a4dffb557b2a128d046655865e44bc6371bda3d03fdda00520dc97f0b9af5a410044242829d5451f5ea0a90fc63916af78f328aa08e5c20b9fcbcd2bb065"
 
 RPROVIDES:${PN} += "leechcraft-poshuku-fua \
 libleechcraft-poshuku-fua.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-poshuku \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

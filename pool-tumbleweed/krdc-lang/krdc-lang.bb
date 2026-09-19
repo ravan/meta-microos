@@ -2,16 +2,17 @@ SUMMARY = "Translations for package krdc"
 DESCRIPTION = "Provides translations for the 'krdc' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "krdc-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "1b7e92afe30fbed4a28082b9de51930c7079f35b6c7f153f0ae610f1dd5eed0942b36d31ab82b0556c71ef9b87926cd4455c63f0363121e98e08907cc4b0b3a4"
+RPM_NAME = "krdc-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "df2db3a290104772543f1915430354ad7a9dd6dcb480d905f0feffbe2f1a1bb6fa1965265e838cf42b2f7d0191371e8bb2910e1eacb38ceae02ce3410b0a5483"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "krdc-lang \
 krdc-lang-all \
 locale-krdc-af \
 locale-krdc-ar \
+locale-krdc-az \
 locale-krdc-be \
 locale-krdc-bg \
 locale-krdc-br \

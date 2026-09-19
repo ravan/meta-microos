@@ -4,10 +4,10 @@ which supports a variety of protocols and local mailbox formats. It can check \
 multiple locations and execute custom actions when it finds new mail."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.3.1"
+PV = "1.4.0"
 
-RPM_NAME = "xfce4-mailwatch-plugin-1.3.1-1.1.aarch64.rpm"
-RPM_HASH = "aa3375879dd446db5188803e0d38cdc36db5953cdeb4efa74979f25a622004167b799f31cd7b356bedaae57683b1cddd38747b3595db3f8adc6335ca57e0592c"
+RPM_NAME = "xfce4-mailwatch-plugin-1.4.0-1.4.aarch64.rpm"
+RPM_HASH = "39955b8a089320c87473992b8049efb0c68e422fd27da30a2ca3ce3dd00f2597ffaa9f1e4b7159093d749385f5b63b856a5652fda57a18c178aa7c8696d2c8fa"
 
 RPROVIDES:${PN} += "libmailwatch.so \
 xfce4-mailwatch-plugin \

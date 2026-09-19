@@ -2,12 +2,13 @@ SUMMARY = "Header files for libADLMIDI"
 DESCRIPTION = "Development and header files for libADLMIDI."
 LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
-PV = "1.5.1"
+PV = "1.6.2.1"
 
-RPM_NAME = "libadlmidi-devel-1.5.1-1.4.aarch64.rpm"
-RPM_HASH = "145e301c9b4b5694351f2ef040a72b673ffaaf9ec5e3749c2b0bce249b044c77ef6c805d6be4cde6a3a97dededa3459565bfb0addd41bf10ce5c74707e13bd10"
+RPM_NAME = "libadlmidi-devel-1.6.2.1-1.1.aarch64.rpm"
+RPM_HASH = "3ba40bf4fc330f8f0eb392e6945b2e916d55c9d17a303d1424f9be1f524d537e3300ccaf216f64428c651267c715e1642d1965473d69ae07d6bbbbe126d8b23d"
 
-RPROVIDES:${PN} += "libadlmidi-devel \
+RPROVIDES:${PN} += "cmake-libADLMIDI \
+libadlmidi-devel \
 pkgconfig-libADLMIDI"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

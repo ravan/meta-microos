@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-deezer-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "340074a242d51a45124c95cf656f39e9cd5653db969b29390b2e773dada19ccea78e7ca0efaf4fb48f58c189cb2420fe62259e609bbd92d3fef9f560f2008686"
+RPM_NAME = "bumblebee-status-module-deezer-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "3f22fc102a98e60287c1223f3c0dd3e80585033de16f88cf132e278e4e2919b400ed31a3bc08df81533ca5b1bb18be68a6191321e5bd1709d4137a9bd170efdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-deezer"

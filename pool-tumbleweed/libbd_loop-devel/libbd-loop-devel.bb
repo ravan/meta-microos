@@ -3,16 +3,16 @@ DESCRIPTION = "This package contains header files and pkg-config files needed fo
 with the libbd_loop plugin/library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libbd_loop-devel-2.28-1.6.aarch64.rpm"
-RPM_HASH = "79372ab5054adc2161d9912a2446725bf797dee6d7165d17e982800b9a823cf658f98a9d2d7b38c0e2778f3554cd46329b455949391b4f110f146582579d9f53"
+RPM_NAME = "libbd_loop-devel-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "73e7f7f742ed936f6446450709c2232745632d3569ffc8f752aaca4e046872d6064cc769e3ab3f9a29520dc0053addaeceaefed5caf50ccf22b559ee82e054e3"
 
 RPROVIDES:${PN} += "libbd-loop-devel \
 libblockdev-loop-devel"
 
 RDEPENDS:${PN} += "glib2-devel \
-libbd-loop2 \
+libbd-loop3 \
 libbd-utils-devel"
 
 inherit rpm

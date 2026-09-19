@@ -2,10 +2,10 @@ SUMMARY = "Bogofilter plugin for the Evolution groupware suite"
 DESCRIPTION = "Adds support for junk-mail filtering via bogofilter."
 LICENSE = "CC-BY-SA-3.0 & LGPL-2.0-only & LGPL-3.0-only & OLDAP-2.8 & GFDL-1.1-only & GFDL-1.3-only"
 
-PV = "3.48.4"
+PV = "3.60.2"
 
-RPM_NAME = "evolution-plugin-bogofilter-3.48.4-1.1.aarch64.rpm"
-RPM_HASH = "688ab723a961c0f1074dcc95803e6607c75c0f0428f6332d74d2561b9f7871177dd31bc0fe82f4aa1bca1ef68d4dfdaca02012786bc3f79982634974944e4f9b"
+RPM_NAME = "evolution-plugin-bogofilter-3.60.2-1.2.aarch64.rpm"
+RPM_HASH = "d3e9f97418f3775a0a3fd683f42e53b0c32282e0032b42896ab734bb1bfa519fca81c21c61ff989015fb9bdfbb3bbb28af50ba4aeb151479335254870e02fe8b"
 
 RPROVIDES:${PN} += "evolution-plugin-bogofilter"
 
@@ -13,7 +13,7 @@ RDEPENDS:${PN} += "bogofilter \
 evolution \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcamel-1.2.so.64 \
+libcamel-1.2.so.67 \
 libedataserver-1.2.so.27 \
 libemail-engine.so \
 libevolution-util.so \

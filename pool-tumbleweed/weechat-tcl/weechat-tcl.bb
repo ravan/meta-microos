@@ -2,10 +2,10 @@ SUMMARY = "Tcl Scripting Support for weechat"
 DESCRIPTION = "Support for weechat scripts written in the Tcl language."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.0.2"
+PV = "4.10.1"
 
-RPM_NAME = "weechat-tcl-4.0.2-1.1.aarch64.rpm"
-RPM_HASH = "43306a89530cc02935956d37d85acf7dd568723b1d6c01bda7af668251d899d19c25b0eb99a134fc6d2e4fff0578db55f06d4b3ee40f215750ce2de961d91ff2"
+RPM_NAME = "weechat-tcl-4.10.1-1.1.aarch64.rpm"
+RPM_HASH = "97b41606d1c31472bfcf5ce3abdebdd373fd920034e3ca252abd14a6f42ca717ad074b83e3530529b7b73920a16ddf8057ce5f5aa0d04949c90a124d0438a20e"
 
 RPROVIDES:${PN} += "weechat-tcl"
 

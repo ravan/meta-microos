@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Mozo, a menu editor for the MATE Desktop, \
 using the freedesktop.org menu specification."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.26.2"
+PV = "1.28.0"
 
-RPM_NAME = "mozo-1.26.2-1.3.noarch.rpm"
-RPM_HASH = "1d2feb095e93418f030ffcc7faffbff4b35fdd890cdf019a67ebbd25fa3fe963118783305f1541f759499a0e03c9254be0cc0cb38ba595235c00dbe2991a8062"
+RPM_NAME = "mozo-1.28.0-2.4.noarch.rpm"
+RPM_HASH = "47519e0f8535586bb51f85ba1b830db6741b92983dfa1fdf26e81d223f51a4279236995055c2793de0a5fe12624bbecbb90e4d0425dd83a6b5df9fe04bccca5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-menu-editor \

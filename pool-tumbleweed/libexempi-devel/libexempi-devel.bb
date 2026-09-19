@@ -5,10 +5,10 @@ This subpackage contains the header files for building applications \
 with Exempi."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.6.3"
+PV = "2.6.6"
 
-RPM_NAME = "libexempi-devel-2.6.3-1.4.aarch64.rpm"
-RPM_HASH = "060f02198bab6fc0dbce1d2ced545b6617f24a01ef4d75173946114c4fc22012a0778037b3e99dc5aa45e079be082b0beb914701c4dab52eec76ee9b6986f64b"
+RPM_NAME = "libexempi-devel-2.6.6-1.5.aarch64.rpm"
+RPM_HASH = "6d4c3ff244b4f68b847afb649d05d0ec114a8fbd8b2fd9017411a36037368b7b22fb7dd057b3f238632379b9aabb1e8c3f044d1d3f12178d6fc3c0289c0b7f6a"
 
 RPROVIDES:${PN} += "libexempi-devel \
 pkgconfig-exempi-2.0"

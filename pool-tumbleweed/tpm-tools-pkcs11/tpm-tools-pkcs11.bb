@@ -14,8 +14,8 @@ LICENSE = "IPL-1.0"
 
 PV = "1.3.9.2"
 
-RPM_NAME = "tpm-tools-pkcs11-1.3.9.2-3.6.aarch64.rpm"
-RPM_HASH = "1a46e06b5792f73041edb17266d7bbb0fb6b9ffc0a4b62fb7e50fa6fe43c448295c3ff5cd7a65dd88278b592fdf07ad8cd2aed13d1f6068b98ec608983d5bf5e"
+RPM_NAME = "tpm-tools-pkcs11-1.3.9.2-3.16.aarch64.rpm"
+RPM_HASH = "c8a34c163989ac58be42446bff4f55be9833ff375df3ae4b5adf6b439cb49dcc826391e175815314c44a76492104cc797cc43ae6556aa2ddfc5b2855ae12dae3"
 
 RPROVIDES:${PN} += "tpm-tools-pkcs11"
 

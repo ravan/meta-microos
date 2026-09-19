@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later"
 
 PV = "0.0.8"
 
-RPM_NAME = "libuchardet0-0.0.8-1.4.aarch64.rpm"
-RPM_HASH = "3871d2b7bc026c589541a171cfa0598ff70fb3bfb7cce458a79b5b5a1c00e30b729196e12f66e40f670efa1b18892b950b1901b268c3d1ac46593a96afece1ee"
+RPM_NAME = "libuchardet0-0.0.8-2.5.aarch64.rpm"
+RPM_HASH = "f8db6a6d6a41a4a7fbfcab65b6a37144620cb347ebb88c8c40efaa900fc75a2039b37779e3b42165d2659f8abe5dcb95f0a87a18110f9f6bcdcc4acf5966f490"
 
 RPROVIDES:${PN} += "libuchardet.so.0 \
 libuchardet0"

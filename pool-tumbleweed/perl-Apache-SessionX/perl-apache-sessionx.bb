@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.01"
 
-RPM_NAME = "perl-Apache-SessionX-2.01-244.29.aarch64.rpm"
-RPM_HASH = "5915e54169c4da7e7c1dc4990b39963fde802305efd23927953df2c7e89ca972291d9ad059b547cd249d0c19884aadbf9f7fef94b9cac64fee4530655e0607b6"
+RPM_NAME = "perl-Apache-SessionX-2.01-245.8.aarch64.rpm"
+RPM_HASH = "81aa526b602049f780b33a1cff04d151caf881c607e2129cfaa1ab7771c4327b01d181981d7c311baa958eecf1c76982f0d349b5d1a9caf25ef5549ed7a85ce4"
 
 RPROVIDES:${PN} += "Apache-SessionX \
 perl-Apache--SessionX \
@@ -18,7 +18,7 @@ perl-Apache--SessionX--Store--File \
 perl-Apache-SessionX"
 
 RDEPENDS:${PN} += "apache2-mod-perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-DBI \
 perl-URI"
 

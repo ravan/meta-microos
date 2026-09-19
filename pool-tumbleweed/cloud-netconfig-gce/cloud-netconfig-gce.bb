@@ -3,19 +3,19 @@ DESCRIPTION = "This package contains scripts for automatically configuring netwo
 in Google Compute Engine with full support for hotplug."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8"
+PV = "1.20"
 
-RPM_NAME = "cloud-netconfig-gce-1.8-1.1.noarch.rpm"
-RPM_HASH = "f2a7d0eed829b9982a61639dedd2bf88d93e5fdf93d2d329e16c477d42095eeb4c5b987b275b2a6f9d36fef425b1e5320530db6fb6fdac55cf89fd86cb0ee247"
+RPM_NAME = "cloud-netconfig-gce-1.20-1.2.noarch.rpm"
+RPM_HASH = "7fdf795d90dfb92799db84532c187686a1bfd10181188c690b196c701363073f0e109fe6d9e9331f8bc30c21293d1af810cda8555348fdc285ef770b56f98805"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cloud-netconfig \
-cloud-netconfig-gce"
+cloud-netconfig-gce \
+cloud-netconfig-nm"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 curl \
-sysconfig-netconfig \
 udev"
 
 inherit rpm

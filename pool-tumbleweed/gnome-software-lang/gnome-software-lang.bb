@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-software"
 DESCRIPTION = "Provides translations for the 'gnome-software' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.4"
+PV = "50.4"
 
-RPM_NAME = "gnome-software-lang-44.4-1.1.noarch.rpm"
-RPM_HASH = "71dd8af85233fd36b1d6e8641109be232eefade4ad1461376322244b29d66857a0268c6e1645af564fde4e26fe08cacf4a3198b69393667c2b663e14ebe5abf9"
+RPM_NAME = "gnome-software-lang-50.4-1.1.noarch.rpm"
+RPM_HASH = "1ebc138c454649325ad0a261726241b2e8638b4862727e40300fdbece899854e01b5aca2fca4bb927027f018852edd8463b597a02c696b1fe76983d9391673e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-software-lang \
@@ -38,6 +38,7 @@ locale-gnome-software-he \
 locale-gnome-software-hi \
 locale-gnome-software-hr \
 locale-gnome-software-hu \
+locale-gnome-software-ia \
 locale-gnome-software-id \
 locale-gnome-software-is \
 locale-gnome-software-it \
@@ -69,6 +70,7 @@ locale-gnome-software-sv \
 locale-gnome-software-te \
 locale-gnome-software-th \
 locale-gnome-software-tr \
+locale-gnome-software-ug \
 locale-gnome-software-uk \
 locale-gnome-software-vi \
 locale-gnome-software-zh-CN \

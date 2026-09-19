@@ -1,30 +1,31 @@
 SUMMARY = "Template for KDE Application Development"
 DESCRIPTION = "This package contains templates to start the development of a new KDE \
 application/part/plugin."
-LICENSE = "GPL-2.0-only & GFDL-1.2-only"
+LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kapptemplate-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "1366ba92c023f16753e3e45ce6194cf9ff0582ba05a72d1d87aa98dffa5e328215ef1b5565fa6424e205f998d8c706d8714218ada63e73049055b04847f5a40e"
+RPM_NAME = "kapptemplate-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "7c81ab95d8212494bcff6e77d937b86de0deea2fe2834104af6cd189b47d27b81209dc5ceab18f4da6c4433749271c8fd893a0579ebd25076e74c759dde8b455"
 
 RPROVIDES:${PN} += "kapptemplate \
 kapptemplate5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6Archive.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

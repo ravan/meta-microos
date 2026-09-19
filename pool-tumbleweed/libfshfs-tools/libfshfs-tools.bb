@@ -3,10 +3,10 @@ DESCRIPTION = "Tools to access the Mac OS Hierarchical File System (HFS). See \
 libfshfs for additional details."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220831"
+PV = "20260826"
 
-RPM_NAME = "libfshfs-tools-20220831-4.1.aarch64.rpm"
-RPM_HASH = "f20dee62074199493d3e1ad71181648892f4f9ae5cdf1897a43e4528eeaa3fed1a1eae95f8bdad50f3535512ac785968671cb5fbdcba509330737d75a4f2b455"
+RPM_NAME = "libfshfs-tools-20260826-1.1.aarch64.rpm"
+RPM_HASH = "bee04eeaa4eef97af7556af20ce25a5c54ede25be67cde4d96752c1aabb4d2f77ace188ea622060b322e7b2494060a3268274ceacfb71bd8b9de754fce0bf03e"
 
 RPROVIDES:${PN} += "libfshfs-tools"
 
@@ -19,7 +19,7 @@ libcnotify.so.1 \
 libfdatetime.so.1 \
 libfshfs.so.1 \
 libfshfs1 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libhmac.so.1 \
 libuna.so.1"
 

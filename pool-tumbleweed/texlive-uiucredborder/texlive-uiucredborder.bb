@@ -4,10 +4,10 @@ that gets signed by the department head, your advisor, and -- \
 for doctoral dissertations -- your thesis committee members."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.00svn29974"
+PV = "2026.226.1.00svn29974"
 
-RPM_NAME = "texlive-uiucredborder-2023.209.1.00svn29974-54.1.noarch.rpm"
-RPM_HASH = "c68cf49cdff3f7d299f86b4c2655adfe5925fdcfd7cf3886c693aedf5ec6924571ef6404eb32234d87f9c37c24b0ccf2b82bac5990d91fdef499a3ffe1f28d6a"
+RPM_NAME = "texlive-uiucredborder-2026.226.1.00svn29974-60.2.noarch.rpm"
+RPM_HASH = "72944dfad1f813d15269f0eddea0887ed955d29176f887f99d473cfe1738f9b1f597a6d8251554e6f8c4ce517b3461f1677c1f53c694692e559cb509e389d3cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uiucredborder.cls \

@@ -15,8 +15,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.15.1"
 
-RPM_NAME = "nss-mdns-0.15.1-1.2.aarch64.rpm"
-RPM_HASH = "6c46a2a6a1a0848bcb718d093b25e5ac842a3a7b3187a125cde1775acb8d7991d14fa03031abc687950b513bd95a8ebaae65a16a7b37061000c0490de206a491"
+RPM_NAME = "nss-mdns-0.15.1-2.4.aarch64.rpm"
+RPM_HASH = "d3d6c5b09c01e3e2918e5f04204404ceea91e9125a4edce68cedaec5191c85a5e628dc911a1bb16cf1c8d53475755886da2a16985caacf1782a40341ca55f279"
 
 RPROVIDES:${PN} += "libnss-mdns-minimal.so.2 \
 libnss-mdns.so.2 \
@@ -32,6 +32,7 @@ avahi \
 grep \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+nsswitch-config \
 sed"
 
 inherit rpm

@@ -4,21 +4,23 @@ and OpenGL. Dust Racing comes with a Qt-based level editor for level \
 creation. A separate engine, MiniCore, is used for physics modeling."
 LICENSE = "GPL-3.0-only & CC-BY-SA-3.0"
 
-PV = "2.1.1"
+PV = "2.2.0"
 
-RPM_NAME = "dustrac-2.1.1-1.13.aarch64.rpm"
-RPM_HASH = "e89543e9fc1642270de7f6f5bc8e959fb4bae131217fd51da1e12c2dac0b48e4b7b52d84b01d87210f996bd7bc72efacc8978b0eb469e61b78986df93ad30033"
+RPM_NAME = "dustrac-2.2.0-1.2.aarch64.rpm"
+RPM_HASH = "c329ffe0d2807d83a4bab04389f50c430d474415405f8f41f534ae832b10882ecfac385489d63e55c3c392f992eb40acf3bed8f169348dd394f4916f5256296e"
 
 RPROVIDES:${PN} += "dustrac"
 
 RDEPENDS:${PN} += "dejavu-fonts \
 ld-linux-aarch64.so.1 \
-libGL.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libGLESv2.so.2 \
+libOpenGL.so.0 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6OpenGL.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libgsf"
 DESCRIPTION = "Provides translations for the 'libgsf' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.14.50"
+PV = "1.14.58"
 
-RPM_NAME = "libgsf-lang-1.14.50-1.6.noarch.rpm"
-RPM_HASH = "1bb4212fc03af9c7e7369e8be17ad302cab736145d9ffed50367cab85269e94fb9703ea6bb82e60a2afae36f4a674ca8fd176a60bbf632d0fed762087c82d8a9"
+RPM_NAME = "libgsf-lang-1.14.58-1.3.noarch.rpm"
+RPM_HASH = "7f2d77a7c5b109ff6443b5d40defdbfd0c32518a5452afcacd1a01312c4b21a19304725fbced3ecd1f120312f80ddc3318068593d4a4c35894ef60c558081201"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgsf-lang \
@@ -26,10 +26,14 @@ locale-libgsf-fi \
 locale-libgsf-fr \
 locale-libgsf-gl \
 locale-libgsf-he \
+locale-libgsf-hi \
+locale-libgsf-hr \
 locale-libgsf-hu \
 locale-libgsf-id \
 locale-libgsf-it \
 locale-libgsf-ja \
+locale-libgsf-ka \
+locale-libgsf-kk \
 locale-libgsf-ko \
 locale-libgsf-lt \
 locale-libgsf-lv \

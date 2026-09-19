@@ -1,11 +1,11 @@
 SUMMARY = "An HTTP and WebDAV Client Library"
 DESCRIPTION = "neon is an HTTP and WebDAV client library with a C interface."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.32.5"
+PV = "0.37.1"
 
-RPM_NAME = "libneon27-0.32.5-1.5.aarch64.rpm"
-RPM_HASH = "d195bb0e8b8c7ca53c4c30866e490a1f65c15b3709fa836bad56e6c13c55434eb747969896d4449278f8e86bb6d53c3cc6ed883b8ae6d9613b60a1d291611c5c"
+RPM_NAME = "libneon27-0.37.1-1.3.aarch64.rpm"
+RPM_HASH = "82eec4a118550aebf52abdb04d719c908b33ba1aaad69806e494c9bbbd0670407657ff3aff02b7442d42a25b1629dc84bdd4212bd7d72ca5273effc1f663190b"
 
 RPROVIDES:${PN} += "libneon.so.27 \
 libneon27 \
@@ -17,6 +17,7 @@ libc.so.6 \
 libcrypto.so.3 \
 libexpat.so.1 \
 libgssapi-krb5.so.2 \
+libntlm.so.0 \
 libproxy.so.1 \
 libssl.so.3 \
 libz.so.1"

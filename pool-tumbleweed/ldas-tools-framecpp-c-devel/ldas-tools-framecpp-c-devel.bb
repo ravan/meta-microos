@@ -3,15 +3,15 @@ DESCRIPTION = "This package provides the headers and sources needed for developi
 with ldas-tools-framecpp in C."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.7.0"
+PV = "3.0.4"
 
-RPM_NAME = "ldas-tools-framecpp-c-devel-2.7.0-2.13.aarch64.rpm"
-RPM_HASH = "94796ddcea522531f4f89f5919746cf38dc40f7ebe0720da09810d6865b8727178378b531086bb8969e89624aa48402e9c3260f137cde49a739c4ab8e32b7408"
+RPM_NAME = "ldas-tools-framecpp-c-devel-3.0.4-2.7.aarch64.rpm"
+RPM_HASH = "7d6ab6d4c2553eb39ffb054f3fcdf8773c7b5b9725e9a7d03928d5e2e95d57586e262d3192a997695c2f1479d83abd4a8e31eda5fd270ff2d2b2c5c075ff2649"
 
 RPROVIDES:${PN} += "ldas-tools-framecpp-c-devel \
 pkgconfig-framecppc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libframecppc3"
+libframecppc4"
 
 inherit rpm

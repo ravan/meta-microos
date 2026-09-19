@@ -8,19 +8,13 @@ remote host.  If necessary, the access will be allowed by sending the \
 magic key (cookie) of the display to the remote host. \
  \
 The script xtelnet starts a local xterm with a telnet session on the \
-remote host. \
- \
- \
- \
-Authors: \
--------- \
-    Werner Fink <werner@suse.de>"
-LICENSE = "GPL-2.0+"
+remote host."
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2"
 
-RPM_NAME = "xlogin-0.2-221.17.noarch.rpm"
-RPM_HASH = "0e42741abf91f20c53ef9cfbf9504ce08ac5ad4b23f9ee089d4a5380e1d892f0565cb778a202a1ef91090627febad1bc7aed170f562ec23021a989a01283de15"
+RPM_NAME = "xlogin-0.2-223.7.noarch.rpm"
+RPM_HASH = "b7e46c54ba843d63f3115803a41f6c29f90a00d697e8774a31199e9f3e86dd47ce4f9f3ab88466bac124e637b96c94b9c5db3692fe5ff931b30d57f8aa192834"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xlogin"

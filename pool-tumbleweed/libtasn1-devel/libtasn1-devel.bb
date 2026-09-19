@@ -5,10 +5,10 @@ is a standardized data description and serialization language. \
 This package contains files required to build against libtasn1."
 LICENSE = "GFDL-1.3-or-later & LGPL-2.1-or-later"
 
-PV = "4.19.0"
+PV = "4.21.0"
 
-RPM_NAME = "libtasn1-devel-4.19.0-1.3.aarch64.rpm"
-RPM_HASH = "da78eec71aba64bee05ff7ba5c5e06c2a02b651861c047cfa87df2c6db3796aebd438d752e6d952677f10e3e9131fec3b93f6f21017afa7755666511ce703106"
+RPM_NAME = "libtasn1-devel-4.21.0-1.5.aarch64.rpm"
+RPM_HASH = "76dac837066dc0af11aeb6b87ffeb207e39fc7ab685a3ae12a14b786e82f9e3f64d7aa731f2d7db8319e7b8307fc1b08f67bc35aca5c2b64de46825b360068e5"
 
 RPROVIDES:${PN} += "libtasn1-devel \
 pkgconfig-libtasn1"

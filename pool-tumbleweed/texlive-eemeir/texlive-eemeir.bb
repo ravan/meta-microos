@@ -10,10 +10,10 @@ once per document, as an environment, or may be flipped on the \
 fly."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1bsvn15878"
+PV = "2026.226.1.1bsvn15878"
 
-RPM_NAME = "texlive-eemeir-2023.209.1.1bsvn15878-54.2.noarch.rpm"
-RPM_HASH = "16ee46c9f97981944aa9a43e36d8621b750f3f9a8f594ea25f8b52238e636d7af36291af75b2de76d1b068396a417ace8ce5a7c3fc6baa2e045530d777dea54a"
+RPM_NAME = "texlive-eemeir-2026.226.1.1bsvn15878-61.4.noarch.rpm"
+RPM_HASH = "33af33e15cd9ede8c97697a1f3612e494578247a694e0ce32dfe81482783ef5a5c39055ee4dee5ff17ba7f6a9831b87792524c7d037b58a9b46882e90ece187a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eemeir.sty \

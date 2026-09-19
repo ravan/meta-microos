@@ -1,13 +1,13 @@
 SUMMARY = "Typeset anthologies of poetry"
 DESCRIPTION = "The package is designed to aid in the management and formatting \
 of anthologies of poetry and other writings; it does not \
-concern itself with actually typesettinig the verse itself."
+concern itself with actually typesetting the verse itself."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0.1svn39921"
+PV = "2026.226.3.0.1svn76924"
 
-RPM_NAME = "texlive-poetrytex-2023.209.3.0.1svn39921-53.1.noarch.rpm"
-RPM_HASH = "d10e977ab854acbed3da8da772639ce43fef52b9ee7d441ef3de9528de1077f63b8d8ba5af4ef97bc8ffd16eb014a337bb7467e8ef9e91f33661e873dfe5dcb9"
+RPM_NAME = "texlive-poetrytex-2026.226.3.0.1svn76924-59.2.noarch.rpm"
+RPM_HASH = "b92961900b3f132dd91f17ff2497a92527f6929fe0c4517a53c1899ce86330e0509e1e64ba551656655f45f8b008a48bd7dd794f6111b1a17ac17e5ee6a590ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-poetrytex.sty \

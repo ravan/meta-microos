@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "3.0.7"
 
-RPM_NAME = "istack-commons-maven-plugin-3.0.7-4.5.noarch.rpm"
-RPM_HASH = "ba8739ef4298faff513261a715b3c1a49cd9d43cbb76075cc7bae75283ea1fd3da94226c085dbb1b2a606a5230846baf06683d8433c16d330bf922bf56a712c3"
+RPM_NAME = "istack-commons-maven-plugin-3.0.7-8.10.noarch.rpm"
+RPM_HASH = "317de3928887ae4724a7c7a8859384120f6136e07a24942a472b48f5b9e4e01908625d9ae6d45eb155cf5e5db1e48da73c3a4526bec9a485d1b4a682862bff6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istack-commons-maven-plugin \

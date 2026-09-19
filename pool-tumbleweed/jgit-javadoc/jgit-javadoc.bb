@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.11.0"
 
-RPM_NAME = "jgit-javadoc-5.11.0-7.2.noarch.rpm"
-RPM_HASH = "0f7c30e4509e1e9f247ef18fa8d51e67205b1bf51440be29b885be86a2a93de238414e41b84482dd10a45978a8b701d7658d2f11df5f9e706eaa7c8d8db2d23c"
+RPM_NAME = "jgit-javadoc-5.11.0-2.4.noarch.rpm"
+RPM_HASH = "c3e48ecfedf47493da8cacbd34ea6581485fc132dd8077870f68890baeddcef6af681bceec547cc7d0b5de315e7babb60981829c0628a6b928d930722f1d9822"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jgit-javadoc"

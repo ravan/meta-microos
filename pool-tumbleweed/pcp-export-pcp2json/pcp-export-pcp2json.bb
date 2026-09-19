@@ -3,14 +3,15 @@ DESCRIPTION = "Performance Co-Pilot (PCP) front-end tools for exporting metric v
 in JSON format."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-export-pcp2json-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "835bdfcee24ba3143379627b60619392ff39f8f7bd68b61ecbc87efa322ca69f661fd21d94ecf35f1e203a641d3c00e10e53c3720383c1fcbddb41b6d8b6a0cb"
+RPM_NAME = "pcp-export-pcp2json-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "8d3e724e6ea57896c1b921b748a8c69381acabc814aa3e9950a549a28a6e8f1054dbe450f3ca6c9496dbfe31302a8b6fa3c94aec9595a7c845be4b8863a87c6d"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-export-pcp2json"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 libpcp3 \
 python3-pcp"
 

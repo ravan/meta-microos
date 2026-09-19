@@ -3,10 +3,10 @@ DESCRIPTION = "This is the Finnish translation of Short Introduction to \
 LaTeX2e, with added coverage of Finnish typesetting rules."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-lshort-finnish-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "d92704ddcbad3b7d9448608c2f05e04865ad349365a4d12bbc35efe35aba830930f6c3243fe218927e3a539fab499904b921cd8f60cff4553d9bd688a4987e66"
+RPM_NAME = "texlive-lshort-finnish-2026.226.svn15878-61.2.noarch.rpm"
+RPM_HASH = "97c486f675008cdac809b39fb7404c995c9c65e86d3da9f2f24d010f6584af7eb70e0ae88c15f811be08a1ef40db1e6484aff7abb101dc47883ab2184363a158"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-finnish"

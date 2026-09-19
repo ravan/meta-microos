@@ -36,10 +36,10 @@ _pp_ may also be used as _.par_ archives: \
 Please see SYNOPSIS for most typical use cases."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.018"
+PV = "1.21.0"
 
-RPM_NAME = "perl-PAR-1.018-1.4.noarch.rpm"
-RPM_HASH = "9be7b6d886a17ab7f2f721db44762476d840df9d373a751655532399cde7a53cfb0a71ab325610fe8f6c7f2c49b107f3120cdff7496b2e5fdaacb666cbbf5f93"
+RPM_NAME = "perl-PAR-1.21.0-1.5.noarch.rpm"
+RPM_HASH = "5cc08a8cab72c0adf6e30da072f8e61f09f14aeb2504a33f91585755ef16ae35b8b30646b03f5107ced7f54a84565c8cc3fb7d47587221d3fcd468ae46eb6a77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PAR \
@@ -47,7 +47,7 @@ perl-PAR--Heavy \
 perl-PAR--SetupProgname \
 perl-PAR--SetupTemp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Archive--Zip \
 perl-AutoLoader \
 perl-Compress--Zlib \

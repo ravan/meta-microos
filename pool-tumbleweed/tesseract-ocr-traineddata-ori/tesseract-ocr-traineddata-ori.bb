@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Oriya langu
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-ori-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "b05e2a9f278676e6c1b9e32b6c5c9dde2393516ef51c4f9de438ac50973094182b9fe8b90d7d5d42a1e43a80b1fae8c4ee9e221e35053ad2d8003a6280cf7429"
+RPM_NAME = "tesseract-ocr-traineddata-ori-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "23adb15b4f8d935f1885a22a7453247c6355b3d79325470fa905b8079deaaa5322e35e9b76b2c031d46cf5b6e45f376fb1ec1eae616b7ebb12eeab996a1369fb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-ori \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-or \
+tesseract-ocr-traineddata-ori \
 tesseract-ocr-traineddata-oriya \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-oriya"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

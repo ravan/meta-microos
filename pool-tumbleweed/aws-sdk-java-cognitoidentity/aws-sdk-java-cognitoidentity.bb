@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon Cognito Identity"
 DESCRIPTION = "The AWS Java SDK for Amazon Cognito Identity module holds the \
 client classes that are used for communicating with \
 Amazon Cognito Identity Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-cognitoidentity-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "6601747de68b7547e1546c936132351f74a8249ab3dca1f5974371d3d7e6ac7f02b0b17d13144aeb222188524cb1f7f804efe41a5de90b4d0d96fecfc69e9431"
+RPM_NAME = "aws-sdk-java-cognitoidentity-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "adb501d2a4ab3003a8ee6fc1ca488ac7c1cb0acf53954357b91efa948743e013ee253130c735dcc7aa72592087afea70df1dd3b03098d04bebfb79a3c31bc667"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-cognitoidentity \

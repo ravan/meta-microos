@@ -5,10 +5,10 @@ normal file and network I/O, interval timing and calendar time, basic \
 memory management (malloc and free), and shared library linking."
 LICENSE = "MPL-2.0"
 
-PV = "4.35"
+PV = "4.40"
 
-RPM_NAME = "mozilla-nspr-4.35-1.4.aarch64.rpm"
-RPM_HASH = "33c94f8eab6cf426ba8c74c9fd850153848bf27cebeac947cb84c874a6f38df6b56607ad873d640414f309d45aa50850545d384a4b4cb77e0696f56186e8deaa"
+RPM_NAME = "mozilla-nspr-4.40-1.1.aarch64.rpm"
+RPM_HASH = "e7481ffc2f28eb08c5cb19cd717af6e873c668b0a74e078408468b53edaf32dedf8d01ab1836e526ee66c31a52cdf2b3eeca5c07d36ebbf13f71bc44098816da"
 
 RPROVIDES:${PN} += "libnspr4.so \
 libplc4.so \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-novel"
 DESCRIPTION = "This package includes the documentation for texlive-novel"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.80svn65848"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-novel-doc-2023.209.1.80svn65848-55.1.noarch.rpm"
-RPM_HASH = "3461b6668a2b17e40102fe7a405b41c926ece216df21fef0a8b58bf6a0f66d7becd5e70c6334ff9482e76ac22fd47a40aef3ac79c6a3358f54fb861976d8e532"
+RPM_NAME = "texlive-novel-doc-2026.226.2.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "c785f22c84ff28f328e01e9386b6fc55da31a273e7f0497a546d024fd56b0b8817cdc67dfb877f04ec81d6d0f6f4fd72bb3d831f458cfe0655adbb9622b58275"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-novel-doc"

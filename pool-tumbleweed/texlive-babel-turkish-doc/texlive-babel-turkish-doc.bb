@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-turkish"
 DESCRIPTION = "This package includes the documentation for texlive-babel-turkish"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn51560"
+PV = "2026.226.1.4svn51560"
 
-RPM_NAME = "texlive-babel-turkish-doc-2023.209.1.4svn51560-54.1.noarch.rpm"
-RPM_HASH = "a44fc0e5ceb02b7cb930e78fe1713b10da34aaadc54e7898bfc219aca72c00c6b57cab466a6b42c064778ae981da076e21f76b4975c220c2af9b195830389a37"
+RPM_NAME = "texlive-babel-turkish-doc-2026.226.1.4svn51560-60.2.noarch.rpm"
+RPM_HASH = "e52cd05ea74ddcce0ef0aab613d1a132156cb8f7fb6aae16498cea8af77fc2dc7267e0342f73699881c18273178e9b32b826570b4f408f5eb355cc01cdc3b41c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-turkish-doc"

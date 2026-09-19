@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.0.7+2"
 
-RPM_NAME = "libdca-devel-0.0.7+2-1.2.aarch64.rpm"
-RPM_HASH = "0d46b7c41c9fbb31dc2f799a4542ac6a6a1eb57e16380e2f69cdf3bfaa1006d4a743b6d7023b4f10ec9630a8190b1f762a68258b225688db693f589f448db7f6"
+RPM_NAME = "libdca-devel-0.0.7+2-1.13.aarch64.rpm"
+RPM_HASH = "6af9cb62bfb1a4aa41ffdb53bd3a62555c7cc73f8a688ed6a5236e1128189971826de1358394be0e401f29cb4012988bcfa3c7916836ded24baac221c29b205c"
 
 RPROVIDES:${PN} += "libdca-devel \
 pkgconfig-libdca \

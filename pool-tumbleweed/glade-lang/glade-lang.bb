@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.40.0"
 
-RPM_NAME = "glade-lang-3.40.0-2.4.noarch.rpm"
-RPM_HASH = "b2b265bee5dc5b12d37ed534e09d522fc870a3abdeaa5cc1648167553c935ae9fa6bec593b699221de55654e67904c15f0982a16dd574753408a07cfe932d24c"
+RPM_NAME = "glade-lang-3.40.0-4.11.noarch.rpm"
+RPM_HASH = "f95c2aeadc087b978cb79427d08d00effba82e5300e2aa1c9faa175e0a7f6caec3807840c56410d14bb6f714fd14411debdeaf869af032cf23db561ce1f34171"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glade-lang \

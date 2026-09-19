@@ -2,23 +2,22 @@ SUMMARY = "Haskell comonad library development files"
 DESCRIPTION = "This package provides the Haskell comonad library development files."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.0.8"
+PV = "5.0.10"
 
-RPM_NAME = "ghc-comonad-devel-5.0.8-3.9.aarch64.rpm"
-RPM_HASH = "5672519f583db59e526e785b8085e64e9d811a2f18ad34d7773bb9c15ebd852689699db6bc40af7fb40aa16385df48de1624dda586adb6727e8d6712c598ae66"
+RPM_NAME = "ghc-comonad-devel-5.0.10-1.3.aarch64.rpm"
+RPM_HASH = "3999fc44d70fd4d206ba7ba8bd27f54c6f6dd7b9466bb3cf0a8d53b8cfe643c08a98e7a0813f7f3024729d5032d4c1a37b7b916b0f28fae6465012d36197bb95"
 
 RPROVIDES:${PN} += "ghc-comonad-devel \
-ghc-devel-comonad-5.0.8-56nFbOwllOwBl7FMfSy83E"
+ghc-devel-comonad-5.0.10-Adp50yscRn74SK6wUdL7QP"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-comonad \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-distributive-0.6.2.1-7gHlNDSCz3vFkde299iroS \
-ghc-devel-indexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO \
-ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-distributive-0.6.3-9lg1Hxwh2KlJVxh3zQCgyL \
+ghc-devel-indexed-traversable-0.1.5-JylwuAInS9n4ImeZ4JChDW \
+ghc-devel-tagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7 \
+ghc-devel-transformers-0.6.3.0-4709"
 
 inherit rpm

@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0"
 
-RPM_NAME = "unit-api-1.0-2.1.noarch.rpm"
-RPM_HASH = "2001bd77559c5f60241cb66b8e19e6d66471bc4a809518910243888d859535580cdf8ec5f01aadc87c8836d4973c5333707ec445801eb71cb1b6cef00dddbe4c"
+RPM_NAME = "unit-api-1.0-3.10.noarch.rpm"
+RPM_HASH = "2fada06dc90b3a7b903cbe2b40e4f39ee1a462902fc04c531ac448ea2654b98af5232dabf615069e68f1b5100d0a2eec74a79d1d55cd4f40bfe21420ee31d683"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-javax.measure-unit-api \

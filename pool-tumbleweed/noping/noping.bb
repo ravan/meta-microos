@@ -5,13 +5,14 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.10.0"
 
-RPM_NAME = "noping-1.10.0-1.20.aarch64.rpm"
-RPM_HASH = "2623cff92bb55a18b9431cb2aa2df8c8953cf66320db1459652d2c04e3140116117261bc75e40d39af9d2a5df0a6a1c3723bf41f8c4b4e82d8b9d58609f104bc"
+RPM_NAME = "noping-1.10.0-2.15.aarch64.rpm"
+RPM_HASH = "e23a490b51ca3f6ae75278a35ab2a3eb32852dfbb2e4961c9dff5db4503b460504fb73223e5607bab2a0aed491546849f45e7168ca27322804f8b4d887fa403f"
 
 RPROVIDES:${PN} += "noping"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libm.so.6 \
 libncursesw.so.6 \
 liboping \
 liboping.so.0 \

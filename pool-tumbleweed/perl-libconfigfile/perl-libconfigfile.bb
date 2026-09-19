@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.1.1"
 
-RPM_NAME = "perl-libconfigfile-1.1.1-164.28.aarch64.rpm"
-RPM_HASH = "82b1dc86d958114462b232eb994cebf4b90049459f48fb78d2f2b734031977724b0bbaf85490e14a456457eca19ba931bd9551d3efb46b7540c904dade494088"
+RPM_NAME = "perl-libconfigfile-1.1.1-165.8.aarch64.rpm"
+RPM_HASH = "329984f419da1eb2541ae6d89ba6cc636ce6aefb59086957d6a3fa0465897c74b3eded85fdb2ebe52093b92d0371fdc2cba2b93600de5aebe8245f534707f830"
 
 RPROVIDES:${PN} += "perl-ConfigFile \
 perl-libconfigfile"

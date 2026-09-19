@@ -4,8 +4,8 @@ LICENSE = "MIT & BSD-3-Clause"
 
 PV = "7.0.1"
 
-RPM_NAME = "newtonsoft-json-7.0.1-3.19.noarch.rpm"
-RPM_HASH = "66acc47a95d541c6a47dd59850f9981a813723c7aff40ef81cf80ce830b789918f1a14836dc250588d3a350ecc1834dab4dfd5b6fabfafaeaddf724e56c77988"
+RPM_NAME = "newtonsoft-json-7.0.1-4.6.noarch.rpm"
+RPM_HASH = "bc505177b40cafdef918410b3cd484ea2a33862bb6cc8630b2a42f7570ad0007772154375cdde7b39ca6c72a91dbb8c0806ee1c1edf78f8a1c83fdf44e6e7ea2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-Newtonsoft.Json \

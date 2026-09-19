@@ -28,13 +28,13 @@ LICENSE = "GPL-2.0"
 
 PV = "1.38"
 
-RPM_NAME = "perl-Text-TabularDisplay-1.38-3.28.noarch.rpm"
-RPM_HASH = "0f71fa6212a682da1738a366405e59b9a9a896e408b92ff0ba0a4a476aead7cb6800e4ab4b5e756ba35f29b1cc2edfeded0b8d9c94d56bc3ba230fc8a9862da5"
+RPM_NAME = "perl-Text-TabularDisplay-1.38-3.42.noarch.rpm"
+RPM_HASH = "ae2bad5e452eb821a2f22c8fa734b2770496cb9ce58e710038e18d9a62164f19e9d54c2bd54472ba48184f964f5b644f8840dffd296afe29a2ac432dd3586b58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--TabularDisplay \
 perl-Text-TabularDisplay"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

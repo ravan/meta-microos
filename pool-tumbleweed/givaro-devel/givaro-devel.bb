@@ -10,10 +10,10 @@ This subpackage contains the include files and library links for \
 developing against the Givaro library."
 LICENSE = "CECILL-B"
 
-PV = "4.2.0"
+PV = "4.2.2"
 
-RPM_NAME = "givaro-devel-4.2.0-2.2.aarch64.rpm"
-RPM_HASH = "d7168011e6c21568f2cabee5870358d431af5987bf81c11cd8c1ab76b35998ae13df89148798de2a1f933f92d5ea5660ee3794f623cd9668108fc7da8461040a"
+RPM_NAME = "givaro-devel-4.2.2-1.3.aarch64.rpm"
+RPM_HASH = "e8fed925163ada86f389fd63a544ce8fef3096cf8084c3554fcb6d350a0c5b3d2c3b7188c4ad8435402eda6e7a5ef34d698f0e88af9b3f8bf75a957c9126708f"
 
 RPROVIDES:${PN} += "givaro-devel \
 pkgconfig-givaro"

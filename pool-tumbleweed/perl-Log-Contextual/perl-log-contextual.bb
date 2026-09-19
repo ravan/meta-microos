@@ -6,8 +6,8 @@ DESCRIPTION = "Major benefits: \
 The default logging functions take blocks, so if a log level is disabled, \
 the block will not run: \
  \
-  \
- log_debug { 'the new count in the database is ' . $rs->count }; \
+   \
+  log_debug { 'the new count in the database is ' . $rs->count }; \
  \
 Similarly, the 'D' prefixed methods only 'Dumper' the input if the level is \
 enabled. \
@@ -17,7 +17,7 @@ enabled. \
 The logging functions return their arguments, so you can stick them in the \
 middle of expressions: \
  \
- for (log_debug { 'downloading:\\n' . join qq(\\n), @_ } @urls) { ... } \
+  for (log_debug { 'downloading:\\n' . join qq(\\n), @_ } @urls) { ... } \
  \
 * * Generic \
  \
@@ -44,12 +44,12 @@ It is bundled with a really basic logger, Log::Contextual::SimpleLogger, \
 but in general you should use a real logger instead. For something more \
 serious but not overly complicated, try Log::Dispatchouli (see SYNOPSIS for \
 example.)"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.008001"
+PV = "0.009001"
 
-RPM_NAME = "perl-Log-Contextual-0.008001-1.20.noarch.rpm"
-RPM_HASH = "3b151038eab209651c1990a4125cbdc86e85636a4bda81aedc4de78d42e876d6a04b163d82942da993d3e195274f422001bf74babda3f382c9c0bd4f1298ac6c"
+RPM_NAME = "perl-Log-Contextual-0.009001-1.12.noarch.rpm"
+RPM_HASH = "6ab782d2c8f4b2f33591f6c3768e128e201716bc736268f659899de70b2b815bd7746f1fd24053b37fd512878fd5a17b8d8b35a907d8bd27ee2b9cae473360e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Contextual \
@@ -65,9 +65,8 @@ perl-Log--Contextual--TeeLogger \
 perl-Log--Contextual--WarnLogger \
 perl-Log-Contextual"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Data--Dumper--Concise \
-perl-Exporter--Declare \
 perl-Moo"
 
 inherit rpm

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "SDL_sound-devel-1.0.3-96.7.aarch64.rpm"
-RPM_HASH = "785f2649fe5269d2a20757df20c57c2ca2728f3f52acfa75ff2daea16cbd9a1779e0241c5a1453f0618ebc9f2968a596e4f4daaa3ee206200bc8f8628f6245bb"
+RPM_NAME = "SDL_sound-devel-1.0.3-96.19.aarch64.rpm"
+RPM_HASH = "d85551cc6a14787a0d5353750e6afcb89998d8cf28ea0ec0d8fdbd8fd670ada37a3728ad5159c2d3247f94252f79da9b7fbbf30e90a4256687f0912af9ba2636"
 
 RPROVIDES:${PN} += "SDL-sound-devel \
 libSDL-sound-devel"

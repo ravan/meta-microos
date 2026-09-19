@@ -1,11 +1,11 @@
 SUMMARY = "VDE hist header files"
 DESCRIPTION = "This package contains VDE hist header files"
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
 PV = "2.3.2+svn587"
 
-RPM_NAME = "libvdehist-devel-2.3.2+svn587-3.24.aarch64.rpm"
-RPM_HASH = "754dbe74a3347b3e2efffd0db22fd40f47172c944e63fbb53c1e988b2acf5557da87e22ee11cc15976280e6ec788957b80a4c5f87fdf5c9aa8c7906f13991cf1"
+RPM_NAME = "libvdehist-devel-2.3.2+svn587-6.6.aarch64.rpm"
+RPM_HASH = "a2b54b53efeafd8228ae6b72e7ae3ae5afa5190d4b6623465c3ff4ae0f4736cddc06a651494c217113363273518166d139cfb194b51669c233c14a3eeb225534"
 
 RPROVIDES:${PN} += "libvdehist-devel \
 libvdehist0-devel \

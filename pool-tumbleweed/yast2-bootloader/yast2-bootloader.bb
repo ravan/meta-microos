@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Bootloader Configuration"
 DESCRIPTION = "This package contains the YaST2 component for bootloader configuration."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.2"
+PV = "5.0.42"
 
-RPM_NAME = "yast2-bootloader-4.6.2-1.1.aarch64.rpm"
-RPM_HASH = "64079f0e89bba7bdc11754a8a6d54149c5dff3aff9d233de3c0027341b459a9eb5aab3c858566211bf6ec3714350d25005900a2b1ca18a2fc64068f5558bdbdc"
+RPM_NAME = "yast2-bootloader-5.0.42-1.1.aarch64.rpm"
+RPM_HASH = "fa3e903ca86ff4583296355feaeada4d4e1f1b22d1e7f7aa927c6ed039783d3b78c7ae92e7de2fef68542126afc9d493512f5652b57b71568961e5ee6a6f42d2"
 
 RPROVIDES:${PN} += "yast2-bootloader"
 
@@ -17,7 +17,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 augeas-lenses \
 fillup \
 parted \
-rubygem-ruby-3.2.0-cfa-grub2 \
+rubygem-ruby-4.0.0-cfa-grub2 \
 yast2 \
 yast2-core \
 yast2-packager \

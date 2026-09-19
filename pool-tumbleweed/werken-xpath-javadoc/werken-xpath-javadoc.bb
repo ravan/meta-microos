@@ -9,8 +9,8 @@ LICENSE = "Apache-1.1"
 
 PV = "0.9.4"
 
-RPM_NAME = "werken-xpath-javadoc-0.9.4-28.7.noarch.rpm"
-RPM_HASH = "6a5d90a62955b7dd443941f702fb1a27280b5482e3adab77663a0f7d213dcf7e7d6f3fee17426f0b5abfb82e0c232e1cbed4ab403ad46c503af6e1f8546b82e7"
+RPM_NAME = "werken-xpath-javadoc-0.9.4-29.9.noarch.rpm"
+RPM_HASH = "f66611c6820914730ed1f7d2710c22e230a79444e3a9da856f47be202b47b033a5ce71058d23012e40b9268e3f9efbe421437168d82941458f736999a45b34dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "werken-xpath-javadoc \

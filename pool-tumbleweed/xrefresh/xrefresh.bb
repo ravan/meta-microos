@@ -4,10 +4,10 @@ to be repainted. This is useful when system messages have messed up \
 your screen."
 LICENSE = "MIT"
 
-PV = "1.0.7"
+PV = "1.1.1"
 
-RPM_NAME = "xrefresh-1.0.7-2.3.aarch64.rpm"
-RPM_HASH = "beb7d66ac5bbc899d146b769ed2a109a068a9562e015d1bc71cbc25c58627e38c71ecfff8ea59557520338483d5fe2c8e4a57c836f83bebaae7ef26a2b4064d4"
+RPM_NAME = "xrefresh-1.1.1-1.2.aarch64.rpm"
+RPM_HASH = "3cba21ec60484ef7e4e0bc61a6bdf96f6e64da9f351de8aa0f2c69e841083ac283d3f5cb5a57e22b314c1230988a947dc65fe989ed0090434797b1d418335340"
 
 RPROVIDES:${PN} += "xrefresh"
 

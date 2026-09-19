@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.0.11"
 
-RPM_NAME = "ocaml-curses-1.0.11-1.4.aarch64.rpm"
-RPM_HASH = "2ea1455aa703e2f32291b08ca11f3a50dc93ce686d3ee776abc508025dfd31f2a9ded9341dab797e2d9f795d6ecaa59dd9dfcab753029eaac2d1dfc1718b24e6"
+RPM_NAME = "ocaml-curses-1.0.11-3.2.aarch64.rpm"
+RPM_HASH = "c70915191ada11449a79f0571d6c3e0b5cdc11a9cb2cfb968630c11127b501464965ed9b1dc1af2b19111d0587bcf8dd72fbed4945f3f9d5f4b0df7e362e9ce1"
 
 RPROVIDES:${PN} += "ocaml-curses"
 

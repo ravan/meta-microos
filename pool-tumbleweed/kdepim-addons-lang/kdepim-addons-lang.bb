@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kdepim-addons"
 DESCRIPTION = "Provides translations for the 'kdepim-addons' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdepim-addons-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "8715820ae03009c01e31d675668c38ed820cef0b7e577a43d700507ff6e0ef3302dc9f13604d833c3b6adff3ec19ed88c9cd1b37fa0433ab455f5a792dc42bf7"
+RPM_NAME = "kdepim-addons-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "c0f471daf97d0ae1c51a4ac8668d0f80573b135641ba4d997367f6c0f49abeafd671e06ac54abc34e947047905c00849c6cab3dc6fd96b5c7329765b9417d4a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdepim-addons-lang \
 kdepim-addons-lang-all \
 locale-kdepim-addons-af \
 locale-kdepim-addons-ar \
+locale-kdepim-addons-ast \
 locale-kdepim-addons-az \
 locale-kdepim-addons-be \
 locale-kdepim-addons-bg \

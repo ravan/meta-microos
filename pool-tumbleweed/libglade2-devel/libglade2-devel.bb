@@ -5,14 +5,14 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.6.4"
 
-RPM_NAME = "libglade2-devel-2.6.4-28.3.aarch64.rpm"
-RPM_HASH = "946eef00fe0d2c3240aa87db48d474af00201eb7e6d30c48664f904dcc541bd4911d38b27b6d0a756249037487c9ba2f2ddba902377c0caa06b47dc2586d0897"
+RPM_NAME = "libglade2-devel-2.6.4-30.11.aarch64.rpm"
+RPM_HASH = "5b6c911e3d758ae78ab824a86f691a061d942cbebcb0dfecd669497abb05c6e8d28ef68d3da61bb635468336379d9a99c8f820c11a9fc11bfc05b3f81c1c48eb"
 
 RPROVIDES:${PN} += "libglade2-devel \
 pkgconfig-libglade-2.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 libglade-2-0-0 \
 pkgconfig-gtk+-2.0 \
 pkgconfig-libxml-2.0"

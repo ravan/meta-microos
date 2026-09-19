@@ -2,10 +2,10 @@ SUMMARY = "Perl bindings for OpenWSMAN client API"
 DESCRIPTION = "This package provides Perl bindings to access the OpenWSMAN client API."
 LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
-PV = "2.7.2"
+PV = "2.8.1"
 
-RPM_NAME = "openwsman-perl-2.7.2-2.9.aarch64.rpm"
-RPM_HASH = "3c4b65eca18565d68650681182404167f1ad978a1dad8b83c1cdfe66f3869cad1a0c7962024d79efe4bb5af7613331c31e44bcc53691c55be8db7086f6ab04b6"
+RPM_NAME = "openwsman-perl-2.8.1-5.1.aarch64.rpm"
+RPM_HASH = "a1d3e2f08b3e77fcd5bb8563ee0a09c675e801b3159865924dd1a37f717c86f310d31edb1afde54784c2e0d848bfb18d21ff1b0ecd41bbbd36b53675cb7b1f67"
 
 RPROVIDES:${PN} += "openwsman-perl \
 perl-openwsman \

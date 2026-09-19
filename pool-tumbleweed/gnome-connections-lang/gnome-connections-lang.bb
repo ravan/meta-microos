@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-connections"
 DESCRIPTION = "Provides translations for the 'gnome-connections' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.1"
+PV = "50.0"
 
-RPM_NAME = "gnome-connections-lang-44.1-1.3.noarch.rpm"
-RPM_HASH = "f07fb5ad2d1f3b494a145030da8a12661ae7f81f63b13284ece0224deac901af67d4bb5bbd39b88b9bee7314ae7f4563c39d119a038433628465cdec26528957"
+RPM_NAME = "gnome-connections-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "c9d479f06b70af3b433453a27f4f290cee564a615f10fb78ea0ef2436c40578cd38656448f2fff5c48c6498b74786889fde2788fc30da44a845959a62980b4d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-connections-lang \
@@ -27,6 +27,7 @@ locale-gnome-connections-fr \
 locale-gnome-connections-fur \
 locale-gnome-connections-gl \
 locale-gnome-connections-he \
+locale-gnome-connections-hi \
 locale-gnome-connections-hr \
 locale-gnome-connections-hu \
 locale-gnome-connections-id \
@@ -51,8 +52,11 @@ locale-gnome-connections-ru \
 locale-gnome-connections-sk \
 locale-gnome-connections-sl \
 locale-gnome-connections-sr \
+locale-gnome-connections-sr@latin \
 locale-gnome-connections-sv \
+locale-gnome-connections-th \
 locale-gnome-connections-tr \
+locale-gnome-connections-ug \
 locale-gnome-connections-uk \
 locale-gnome-connections-vi \
 locale-gnome-connections-zh-CN \

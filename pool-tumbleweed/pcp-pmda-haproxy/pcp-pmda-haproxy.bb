@@ -3,14 +3,16 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 extracting performance metrics from HAProxy over the HAProxy stats socket."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-haproxy-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "9f3531f7fad9133fb41fd66eff92fcf245dcb2ceff3a946177f52f2509c1bc85297b4a6ab936448e323d7eb5396b3f94e9098435c3bd76bcfffeaae064464149"
+RPM_NAME = "pcp-pmda-haproxy-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "651184ee365e0ff13824d9d29a1424fd4a7d260c43babd1c45ebbe004c08d5c326ced75458a2ac996bf4d3eb65c5fc8fb43556052031e8340a9a0537b5cba22c"
+REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pcp-pmda-haproxy"
+RPROVIDES:${PN} += "config-pcp-pmda-haproxy \
+pcp-pmda-haproxy"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 /usr/bin/sh \
 python3-pcp"
 

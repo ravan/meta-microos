@@ -7,10 +7,10 @@ Authors: \
     J. Daniel Schmidt <jdsn@suse.de>"
 LICENSE = "GPL-2.0"
 
-PV = "0.5"
+PV = "0.6"
 
-RPM_NAME = "check-create-certificate-0.5-18.16.noarch.rpm"
-RPM_HASH = "1b339b79dbb8b987fd10a2112f4c86e1a12f24a32c33796a901d5588044f4875a317b1e7ea5e7ada25875b639fad2c55345a736cc63ed77f7d29d330ab3944a3"
+RPM_NAME = "check-create-certificate-0.6-1.2.noarch.rpm"
+RPM_HASH = "d40cbcd0a561b776ca17facc24abf8a7715f8caaa164f8096404dfc94eb79369d5063c8b0140d7f534a61f2cc15d20161c6f63c3fdf1adeb24c0d5cb1b282f15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "check-create-certificate"

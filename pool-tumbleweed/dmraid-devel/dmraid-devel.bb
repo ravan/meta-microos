@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.0.rc16.3"
 
-RPM_NAME = "dmraid-devel-1.0.0.rc16.3-2.4.aarch64.rpm"
-RPM_HASH = "ab3883bffd513ffc70d30f2cfba7c552ca6189222f832cec1f9a28a0e37a29e8eebd208434cd2028b9e8de4c0170fa9a36357179138897c871748baa665e5643"
+RPM_NAME = "dmraid-devel-1.0.0.rc16.3-4.5.aarch64.rpm"
+RPM_HASH = "efa7091f9aea565a2e3e2e40495b82c5517416c8769069d2f538d5b4d1b83554848e3a6df9f1986d88dc9945268dab2fdf546d504995d360fb237db0becc8278"
 
 RPROVIDES:${PN} += "dmraid-devel"
 

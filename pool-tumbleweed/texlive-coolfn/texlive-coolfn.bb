@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides formatting for footnotes in long legal \
 documents, using hanging indents to make them look nicer."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn66221"
+PV = "2026.226.1.2.2svn69007"
 
-RPM_NAME = "texlive-coolfn-2023.209.1.1.0svn66221-55.1.noarch.rpm"
-RPM_HASH = "1895d0f5f4a0303ef7ee13460a911b248631a98fec0d91e2afd2351a8ed782210451658fcc51f08ee12ddbb056f5d42f40f8f4a824d2be5bc99c98d4775d52d6"
+RPM_NAME = "texlive-coolfn-2026.226.1.2.2svn69007-61.2.noarch.rpm"
+RPM_HASH = "61cff8256d4741dece794fcd234c466bfb9dd07dd13505b61f13ab0bf020f69c84e9bbbea4e42eab4ec0f943f368ee734a4aa7ca17546e7eddcc0fb346f7d620"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-coolfn.sty \

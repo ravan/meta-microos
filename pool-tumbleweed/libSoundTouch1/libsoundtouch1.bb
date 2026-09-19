@@ -4,10 +4,10 @@ changing the sound tempo, pitch and playback rate parameters \
 independently from each other."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.2"
+PV = "2.4.1"
 
-RPM_NAME = "libSoundTouch1-2.3.2-1.3.aarch64.rpm"
-RPM_HASH = "d1385396d159fe0526f9e5f008696c6c4baee24a3eb2811098e0df658186526699fbd366c396a80ee6ccd8404a49d4a3737a9b08e7716cb4e103e5340c9f15be"
+RPM_NAME = "libSoundTouch1-2.4.1-1.2.aarch64.rpm"
+RPM_HASH = "02bd51aa1469f6c4cb2946d4034f1d328b611ba5ad56f6063c47a578fa35c218dc86a17666ec4abc1e14bdfb935cb16b3e1dd29f4cc05e79e92a68b6f90e6096"
 
 RPROVIDES:${PN} += "libSoundTouch.so.1 \
 libSoundTouch1"

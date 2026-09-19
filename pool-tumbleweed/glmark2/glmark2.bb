@@ -4,10 +4,10 @@ API. It contains tests for standard OpenGL (ES) 2.0 features, such as vertex \
 arrays, VBOs, texturing and shaders."
 LICENSE = "GPL-3.0-only"
 
-PV = "20230104"
+PV = "20250929"
 
-RPM_NAME = "glmark2-20230104-1.4.aarch64.rpm"
-RPM_HASH = "27962793e61812f8e88b879f0da9755bc469f4a3588bf9cf562aa90dc4f53dfcbc2dcfc0c4bf42d46b4f401b4b57a64f36b41afd3e1761adb5795735ebf4ab5f"
+RPM_NAME = "glmark2-20250929-1.3.aarch64.rpm"
+RPM_HASH = "1622106d0e5dc202fa548a85e6401bbd2dcee03d2c4e12dd3b395cc0a3e71fb6bbf8fa3a2f4b7ed85ea77a382bf7871e37d451b89560368a8c73e636b0bbf5d2"
 
 RPROVIDES:${PN} += "glmark2"
 

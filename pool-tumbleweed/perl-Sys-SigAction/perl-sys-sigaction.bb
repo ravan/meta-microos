@@ -119,18 +119,17 @@ comment out 'use warnings' everywhere. \
 It is hoped that with the use of this module, your signal handling behavior \
 can be coded in a way that does not change from one perl version to the \
 next, and that sigaction() will be easier for you to use."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.23"
+PV = "0.240.0"
 
-RPM_NAME = "perl-Sys-SigAction-0.23-1.25.noarch.rpm"
-RPM_HASH = "4c4d94c90c296b6e1b38b119075c174fec005c32f5143f6860bafcf79242598548c24a945b047385db0e49836bcda33d441586548ccce70b346ca95a528f1a99"
+RPM_NAME = "perl-Sys-SigAction-0.240.0-1.7.noarch.rpm"
+RPM_HASH = "517347e49cb78fb13d22eec0d42bfe3043964ad57a3de5d6776092519e3f2d46147a2c4e7dc12f03346b706b709b62540ce474ba659618b5fef535af84010d88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sys--SigAction \
-perl-Sys--SigAction--Alarm \
 perl-Sys-SigAction"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

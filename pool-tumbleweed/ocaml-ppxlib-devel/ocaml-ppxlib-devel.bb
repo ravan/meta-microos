@@ -3,19 +3,13 @@ DESCRIPTION = "The ocaml-ppxlib-devel package contains libraries and signature f
 developing applications that use ocaml-ppxlib."
 LICENSE = "MIT"
 
-PV = "0.30.0"
+PV = "0.38.0"
 
-RPM_NAME = "ocaml-ppxlib-devel-0.30.0-1.1.aarch64.rpm"
-RPM_HASH = "9aa4e79e465abbacc8cd2f5f96659cfad032c2019df1a25dc6fb614f158347513c1a1d03e46b41e6e556502c5e918a1189cf7f9fb455b525e2f6728f03e075e8"
+RPM_NAME = "ocaml-ppxlib-devel-0.38.0-1.3.aarch64.rpm"
+RPM_HASH = "a20a5b1665d3d5a3b77a6b405f4465e00c08c860e06b32cfeeb7e83ee6564b597bc65d60b8c6c68211dac5fa9a7727e1b16963398510a5dfd6fe6eb652f1dc0c"
 
 RPROVIDES:${PN} += "ocaml-Astlib \
 ocaml-Astlib-- \
-ocaml-Astlib--Ast-402 \
-ocaml-Astlib--Ast-403 \
-ocaml-Astlib--Ast-404 \
-ocaml-Astlib--Ast-405 \
-ocaml-Astlib--Ast-406 \
-ocaml-Astlib--Ast-407 \
 ocaml-Astlib--Ast-408 \
 ocaml-Astlib--Ast-409 \
 ocaml-Astlib--Ast-410 \
@@ -25,23 +19,21 @@ ocaml-Astlib--Ast-413 \
 ocaml-Astlib--Ast-414 \
 ocaml-Astlib--Ast-500 \
 ocaml-Astlib--Ast-501 \
+ocaml-Astlib--Ast-502 \
+ocaml-Astlib--Ast-503 \
+ocaml-Astlib--Ast-504 \
+ocaml-Astlib--Ast-505 \
 ocaml-Astlib--Ast-metadata \
+ocaml-Astlib--Clean \
 ocaml-Astlib--Config \
+ocaml-Astlib--Encoding-502 \
+ocaml-Astlib--Encoding-503 \
+ocaml-Astlib--Encoding-504 \
+ocaml-Astlib--Encoding-505 \
 ocaml-Astlib--Keyword \
 ocaml-Astlib--Location \
 ocaml-Astlib--Longident \
-ocaml-Astlib--Migrate-402-403 \
-ocaml-Astlib--Migrate-403-402 \
-ocaml-Astlib--Migrate-403-404 \
-ocaml-Astlib--Migrate-404-403 \
-ocaml-Astlib--Migrate-404-405 \
-ocaml-Astlib--Migrate-405-404 \
-ocaml-Astlib--Migrate-405-406 \
-ocaml-Astlib--Migrate-406-405 \
-ocaml-Astlib--Migrate-406-407 \
-ocaml-Astlib--Migrate-407-406 \
-ocaml-Astlib--Migrate-407-408 \
-ocaml-Astlib--Migrate-408-407 \
+ocaml-Astlib--Longident-504 \
 ocaml-Astlib--Migrate-408-409 \
 ocaml-Astlib--Migrate-409-408 \
 ocaml-Astlib--Migrate-409-410 \
@@ -58,9 +50,18 @@ ocaml-Astlib--Migrate-414-500 \
 ocaml-Astlib--Migrate-500-414 \
 ocaml-Astlib--Migrate-500-501 \
 ocaml-Astlib--Migrate-501-500 \
+ocaml-Astlib--Migrate-501-502 \
+ocaml-Astlib--Migrate-502-501 \
+ocaml-Astlib--Migrate-502-503 \
+ocaml-Astlib--Migrate-503-502 \
+ocaml-Astlib--Migrate-503-504 \
+ocaml-Astlib--Migrate-504-503 \
+ocaml-Astlib--Migrate-504-505 \
+ocaml-Astlib--Migrate-505-504 \
 ocaml-Astlib--Parse \
 ocaml-Astlib--Pprintast \
 ocaml-Astlib--Stdlib0 \
+ocaml-Ppx-foo-deriver \
 ocaml-Ppxlib \
 ocaml-Ppxlib-- \
 ocaml-Ppxlib--Ast-builder \
@@ -73,6 +74,7 @@ ocaml-Ppxlib--Ast-traverse \
 ocaml-Ppxlib--Ast-traverse0 \
 ocaml-Ppxlib--Attribute \
 ocaml-Ppxlib--Caller-id \
+ocaml-Ppxlib--Clean \
 ocaml-Ppxlib--Code-matcher \
 ocaml-Ppxlib--Code-path \
 ocaml-Ppxlib--Common \
@@ -92,6 +94,7 @@ ocaml-Ppxlib--Longident \
 ocaml-Ppxlib--Merlin-helpers \
 ocaml-Ppxlib--Name \
 ocaml-Ppxlib--Options \
+ocaml-Ppxlib--Pp-ast \
 ocaml-Ppxlib--Quoter \
 ocaml-Ppxlib--Reconcile \
 ocaml-Ppxlib--Skip-hash-bang \
@@ -118,6 +121,9 @@ ocaml-Ppxlib-traverse-builtins \
 ocaml-Stdppx \
 ocaml-ppxlib-devel \
 ocamlfind-ppxlib \
+ocamlfind-ppxlib-tools \
+ocamlfind-ppxlib.--private-- \
+ocamlfind-ppxlib.--private--.ppx-foo-deriver \
 ocamlfind-ppxlib.ast \
 ocamlfind-ppxlib.astlib \
 ocamlfind-ppxlib.metaquot \
@@ -130,12 +136,6 @@ ocamlfind-ppxlib.traverse \
 ocamlfind-ppxlib.traverse-builtins \
 ocamlx-Astlib \
 ocamlx-Astlib-- \
-ocamlx-Astlib--Ast-402 \
-ocamlx-Astlib--Ast-403 \
-ocamlx-Astlib--Ast-404 \
-ocamlx-Astlib--Ast-405 \
-ocamlx-Astlib--Ast-406 \
-ocamlx-Astlib--Ast-407 \
 ocamlx-Astlib--Ast-408 \
 ocamlx-Astlib--Ast-409 \
 ocamlx-Astlib--Ast-410 \
@@ -145,23 +145,21 @@ ocamlx-Astlib--Ast-413 \
 ocamlx-Astlib--Ast-414 \
 ocamlx-Astlib--Ast-500 \
 ocamlx-Astlib--Ast-501 \
+ocamlx-Astlib--Ast-502 \
+ocamlx-Astlib--Ast-503 \
+ocamlx-Astlib--Ast-504 \
+ocamlx-Astlib--Ast-505 \
 ocamlx-Astlib--Ast-metadata \
+ocamlx-Astlib--Clean \
 ocamlx-Astlib--Config \
+ocamlx-Astlib--Encoding-502 \
+ocamlx-Astlib--Encoding-503 \
+ocamlx-Astlib--Encoding-504 \
+ocamlx-Astlib--Encoding-505 \
 ocamlx-Astlib--Keyword \
 ocamlx-Astlib--Location \
 ocamlx-Astlib--Longident \
-ocamlx-Astlib--Migrate-402-403 \
-ocamlx-Astlib--Migrate-403-402 \
-ocamlx-Astlib--Migrate-403-404 \
-ocamlx-Astlib--Migrate-404-403 \
-ocamlx-Astlib--Migrate-404-405 \
-ocamlx-Astlib--Migrate-405-404 \
-ocamlx-Astlib--Migrate-405-406 \
-ocamlx-Astlib--Migrate-406-405 \
-ocamlx-Astlib--Migrate-406-407 \
-ocamlx-Astlib--Migrate-407-406 \
-ocamlx-Astlib--Migrate-407-408 \
-ocamlx-Astlib--Migrate-408-407 \
+ocamlx-Astlib--Longident-504 \
 ocamlx-Astlib--Migrate-408-409 \
 ocamlx-Astlib--Migrate-409-408 \
 ocamlx-Astlib--Migrate-409-410 \
@@ -178,9 +176,18 @@ ocamlx-Astlib--Migrate-414-500 \
 ocamlx-Astlib--Migrate-500-414 \
 ocamlx-Astlib--Migrate-500-501 \
 ocamlx-Astlib--Migrate-501-500 \
+ocamlx-Astlib--Migrate-501-502 \
+ocamlx-Astlib--Migrate-502-501 \
+ocamlx-Astlib--Migrate-502-503 \
+ocamlx-Astlib--Migrate-503-502 \
+ocamlx-Astlib--Migrate-503-504 \
+ocamlx-Astlib--Migrate-504-503 \
+ocamlx-Astlib--Migrate-504-505 \
+ocamlx-Astlib--Migrate-505-504 \
 ocamlx-Astlib--Parse \
 ocamlx-Astlib--Pprintast \
 ocamlx-Astlib--Stdlib0 \
+ocamlx-Ppx-foo-deriver \
 ocamlx-Ppxlib \
 ocamlx-Ppxlib-- \
 ocamlx-Ppxlib--Ast-builder \
@@ -193,6 +200,7 @@ ocamlx-Ppxlib--Ast-traverse \
 ocamlx-Ppxlib--Ast-traverse0 \
 ocamlx-Ppxlib--Attribute \
 ocamlx-Ppxlib--Caller-id \
+ocamlx-Ppxlib--Clean \
 ocamlx-Ppxlib--Code-matcher \
 ocamlx-Ppxlib--Code-path \
 ocamlx-Ppxlib--Common \
@@ -212,6 +220,7 @@ ocamlx-Ppxlib--Longident \
 ocamlx-Ppxlib--Merlin-helpers \
 ocamlx-Ppxlib--Name \
 ocamlx-Ppxlib--Options \
+ocamlx-Ppxlib--Pp-ast \
 ocamlx-Ppxlib--Quoter \
 ocamlx-Ppxlib--Reconcile \
 ocamlx-Ppxlib--Skip-hash-bang \
@@ -239,6 +248,7 @@ ocamlx-Stdppx"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libm.so.6 \
+libzstd.so.1 \
 ocaml-Ast-mapper \
 ocaml-Asttypes \
 ocaml-Build-path-prefix-map \
@@ -249,7 +259,9 @@ ocaml-Clflags \
 ocaml-Cmi-format \
 ocaml-Compmisc \
 ocaml-Config \
+ocaml-Data-types \
 ocaml-Env \
+ocaml-Format-doc \
 ocaml-Ident \
 ocaml-Identifiable \
 ocaml-Load-path \
@@ -262,9 +274,9 @@ ocaml-Outcometree \
 ocaml-Parse \
 ocaml-Parsetree \
 ocaml-Path \
+ocaml-Pprintast \
 ocaml-Ppx-derivers \
 ocaml-Primitive \
-ocaml-Profile \
 ocaml-Sexplib0 \
 ocaml-Sexplib0-- \
 ocaml-Sexplib0--Sexp \
@@ -282,9 +294,11 @@ ocaml-Stdlib--Bytes \
 ocaml-Stdlib--BytesLabels \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Format \
+ocaml-Stdlib--Fun \
 ocaml-Stdlib--Hashtbl \
 ocaml-Stdlib--Int32 \
 ocaml-Stdlib--Int64 \
@@ -295,8 +309,10 @@ ocaml-Stdlib--ListLabels \
 ocaml-Stdlib--Map \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
+ocaml-Stdlib--Option \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
+ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--StdLabels \
@@ -307,23 +323,34 @@ ocaml-Stdlib--Uchar \
 ocaml-Subst \
 ocaml-Type-immediacy \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Warnings \
 ocaml-ppxlib \
 ocamlfind-compiler-libs.common \
 ocamlfind-ocaml-compiler-libs.common \
 ocamlfind-ocaml-compiler-libs.shadow \
 ocamlfind-ppx-derivers \
+ocamlfind-ppxlib \
+ocamlfind-ppxlib.ast \
+ocamlfind-ppxlib.astlib \
+ocamlfind-ppxlib.metaquot-lifters \
+ocamlfind-ppxlib.print-diff \
+ocamlfind-ppxlib.stdppx \
+ocamlfind-ppxlib.traverse-builtins \
 ocamlfind-sexplib0 \
 ocamlfind-stdlib-shims \
 ocamlx-Ast-mapper \
 ocamlx-CamlinternalLazy \
 ocamlx-CamlinternalOO \
+ocamlx-Clflags \
 ocamlx-Compmisc \
 ocamlx-Config \
+ocamlx-Format-doc \
 ocamlx-Location \
-ocamlx-Longident \
+ocamlx-Misc \
 ocamlx-Ocaml-shadow \
 ocamlx-Parse \
+ocamlx-Pprintast \
 ocamlx-Ppx-derivers \
 ocamlx-Sexplib0--Sexp \
 ocamlx-Sexplib0--Sexp-conv \
@@ -337,6 +364,7 @@ ocamlx-Stdlib--BytesLabels \
 ocamlx-Stdlib--Char \
 ocamlx-Stdlib--Filename \
 ocamlx-Stdlib--Format \
+ocamlx-Stdlib--Fun \
 ocamlx-Stdlib--Hashtbl \
 ocamlx-Stdlib--Int32 \
 ocamlx-Stdlib--Int64 \
@@ -345,6 +373,7 @@ ocamlx-Stdlib--List \
 ocamlx-Stdlib--ListLabels \
 ocamlx-Stdlib--Map \
 ocamlx-Stdlib--Nativeint \
+ocamlx-Stdlib--Option \
 ocamlx-Stdlib--Printexc \
 ocamlx-Stdlib--Printf \
 ocamlx-Stdlib--Set \

@@ -8,10 +8,10 @@ This package includes header files used for client applications to \
 contact the settings daemon via its DBus interface."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
-PV = "44.1"
+PV = "50.1+6"
 
-RPM_NAME = "gnome-settings-daemon-devel-44.1-2.1.aarch64.rpm"
-RPM_HASH = "0bd4318c08e578170acd8325665f6baf1306702a4ac3d494da2b73a1994b5983d80984880ef9497c3877cb4cfc1876b7a52dc589dfce0c3221d32b6311b5c617"
+RPM_NAME = "gnome-settings-daemon-devel-50.1+6-1.2.aarch64.rpm"
+RPM_HASH = "5a7eafc4090c33f7028823500491067d11de58bb4688167e4835ac5f2b0e0c71040ca0eeea817b87ee389f13301fe8ab862ece12fc00e10ac27438b967244e61"
 
 RPROVIDES:${PN} += "gnome-settings-daemon-devel \
 pkgconfig-gnome-settings-daemon"

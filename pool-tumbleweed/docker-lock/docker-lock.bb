@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8.10"
 
-RPM_NAME = "docker-lock-0.8.10-1.10.aarch64.rpm"
-RPM_HASH = "c00c36e89c90754802b562bbf2374271bec33f68e54aa782e49d08fedcccf8703c91ff650e94f59a4731fb17a590fd500f6ecbabf2828ec5f8a581759126726d"
+RPM_NAME = "docker-lock-0.8.10-1.26.aarch64.rpm"
+RPM_HASH = "ce605c6e34e5a9dbe99d881ded6e3785d6819615a571f5a92267b13737a4a93731642dbced68036ec502fe4223ba12f331546c03496ccfd463c0c0ed026d2df7"
 
 RPROVIDES:${PN} += "docker-lock"
 

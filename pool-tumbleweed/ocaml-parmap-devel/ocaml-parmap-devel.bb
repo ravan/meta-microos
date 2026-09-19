@@ -5,10 +5,11 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.2.5"
 
-RPM_NAME = "ocaml-parmap-devel-1.2.5-1.5.aarch64.rpm"
-RPM_HASH = "03cbd9b5755d6d89e886857f869cf168db8902ab7719a1b17014ea00130cf23bff89b3afa08045e12ec60bc89f60bb8f172711e61ebe9979e48ec089acb34201"
+RPM_NAME = "ocaml-parmap-devel-1.2.5-3.2.aarch64.rpm"
+RPM_HASH = "4774365c8f80ced1b1529feae0a07fd5580de719d2f6e525eab2fe3c60ca0dc414beb8e9d1d8960b817b6a6193bf476be977360584fd8c1811ef36246d61348b"
 
-RPROVIDES:${PN} += "ocaml-Bytearray \
+RPROVIDES:${PN} += "config-ocaml-parmap-devel \
+ocaml-Bytearray \
 ocaml-Parmap \
 ocaml-Parmap-compat \
 ocaml-Parmap-utils \
@@ -28,12 +29,15 @@ ocaml-Stdlib--Array \
 ocaml-Stdlib--Bigarray \
 ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Complex \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Gc \
+ocaml-Stdlib--Int32 \
 ocaml-Stdlib--List \
 ocaml-Stdlib--Marshal \
+ocaml-Stdlib--Obj \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
 ocaml-Stdlib--Seq \

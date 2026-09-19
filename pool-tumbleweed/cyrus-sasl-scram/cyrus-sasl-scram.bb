@@ -6,8 +6,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-scram-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "36534a437cb57bb7ae6ea204a67c4e108bbe4a971c215e450591423ea02f2123fda6226dd21badf2b4448acc640a89aee5a3dcc2f46be4cb00f80222bff5624f"
+RPM_NAME = "cyrus-sasl-scram-2.1.28-12.5.aarch64.rpm"
+RPM_HASH = "266e1cabce4f844ca35a0e3ce6589fd5e36435d672245992029cab35126ab7080687812915ec18e4f705ce921e823f754b323170705ef986879ed8fd48ee85e7"
 
 RPROVIDES:${PN} += "cyrus-sasl-scram \
 libscram.so.3"

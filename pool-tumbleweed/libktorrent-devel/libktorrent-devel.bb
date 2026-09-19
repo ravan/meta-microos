@@ -2,23 +2,22 @@ SUMMARY = "Development files for libktorrent"
 DESCRIPTION = "This package includes the necessary files for development using libktorrent."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libktorrent-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "3e27f596c28be2c9eae4ffb85e591462f7494d2510d728921105acee6ca45595c48dd6d6ca3963aa0aaabf3d051bf5444bdf2dbb02ccdd1708da9f8077ce2a8f"
+RPM_NAME = "libktorrent-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "e3c43bd3aae37b5763c2ce35d77403eded319767c0658fde6106683dd1f1566f5ac7f85517184dd45341a176ad92362a8c1f1a896ae6b135821a5034fd98d22f"
 
-RPROVIDES:${PN} += "cmake-KF5Torrent \
+RPROVIDES:${PN} += "cmake-KTorrent6 \
 libktorrent-devel"
 
-RDEPENDS:${PN} += "cmake-KF5Archive \
-cmake-KF5Config \
-cmake-KF5KIO \
-cmake-Qca-qt5 \
-cmake-Qt5Core \
-cmake-Qt5Network \
+RDEPENDS:${PN} += "cmake-KF6Archive \
+cmake-KF6Config \
+cmake-KF6KIO \
+cmake-Qt6Core \
+cmake-Qt6Network \
 gmp-devel \
-libKF5Torrent6 \
+libKTorrent6 \
 libboost-headers-devel \
-libgcrypt-devel"
+pkgconfig-libgcrypt"
 
 inherit rpm

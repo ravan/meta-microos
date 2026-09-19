@@ -4,10 +4,10 @@ commands for combinations of left and right sub- and \
 superscripts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn16080"
+PV = "2026.226.1.0svn16080"
 
-RPM_NAME = "texlive-subsupscripts-2023.209.1.0svn16080-58.1.noarch.rpm"
-RPM_HASH = "4126c103208f3f0dc74c1f523822b6d760b7a28bcf8d9b83211d79de7202fdf78121391450ef3f2a48bd14694b0dbcb6a3af48eb9ebd93782158f1ab410c9aca"
+RPM_NAME = "texlive-subsupscripts-2026.226.1.0svn16080-64.2.noarch.rpm"
+RPM_HASH = "bd7607c9bb0d4abd72d94029df3a50460bedd8e15f531929d10db60153be3da6069f2799408f32ae9ae689e15d0177abfbd182f1cd5a5ab8ab388721aa5e231f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subsupscripts.sty \

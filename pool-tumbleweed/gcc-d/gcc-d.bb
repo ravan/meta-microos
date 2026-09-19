@@ -2,15 +2,14 @@ SUMMARY = "The system GNU D Compiler"
 DESCRIPTION = "The system GNU D Compiler."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13"
+PV = "16"
 
-RPM_NAME = "gcc-d-13-1.5.aarch64.rpm"
-RPM_HASH = "494530e15c8e9db9f1dec738ea4e8b45416cc53a3f6ad6907c695b99f3b8e241babd8e961d653c8a8ed40a2f59fcfa07433bb4fdb440ec3e69f623c9a31be209"
+RPM_NAME = "gcc-d-16-1.1.aarch64.rpm"
+RPM_HASH = "6810dd1e69b937eebe783624657c29bf2700f6230428741acba867642598ce7b69fda853431b993f243ed3b99af47a0b84382ee058dba1e86d18691607cede31"
 
 RPROVIDES:${PN} += "gcc-d"
 
 RDEPENDS:${PN} += "gcc \
-gcc13-d \
-update-alternatives"
+gcc16-d"
 
 inherit rpm

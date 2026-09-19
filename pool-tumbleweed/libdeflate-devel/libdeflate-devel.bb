@@ -3,10 +3,10 @@ DESCRIPTION = "The libdeflate-devel package contains libraries and header files 
 developing applications that use libdeflate."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.18"
+PV = "1.25"
 
-RPM_NAME = "libdeflate-devel-1.18-1.1.aarch64.rpm"
-RPM_HASH = "f8820a922c2dacc082f746e557b1925552cb59bd666c77923076997cb7b5ca0331012d9a1f7e14a190583a1dfa341076a31fb252852131b86a8cde1f87bb73f1"
+RPM_NAME = "libdeflate-devel-1.25-1.4.aarch64.rpm"
+RPM_HASH = "6cfa86c65bbf933cf7c992ab23768bdad70a2da1d7a0ecc47751743c8b9019e1d0383c7ff1a250128db098e04a72db6c0cd44029121fa95b14fc62bccc434b1a"
 
 RPROVIDES:${PN} += "cmake-libdeflate \
 libdeflate-devel \

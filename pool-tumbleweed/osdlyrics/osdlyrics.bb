@@ -6,10 +6,10 @@ lyrics scroll from bottom to top. OSD Lyrics can download lyrics from the \
 network automatically."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.14"
+PV = "0.5.15"
 
-RPM_NAME = "osdlyrics-0.5.14-1.1.aarch64.rpm"
-RPM_HASH = "e7ff6098df22e38b6cf072b72bbdb5615a2cae2189aec7796c63fbe6343a600d01de45203b6af0f934facf76e3a3581ec7d0fe5fc9b269390bf9db55e4cbe01d"
+RPM_NAME = "osdlyrics-0.5.15-4.4.aarch64.rpm"
+RPM_HASH = "c918640520f3e608a36bf41841bac9145fe8b7a4f4ea560b3b03ce9e60cced6c3af3ff2cf87248bd87b56ba79e614d0a1f48f67b389f8907eecbdecf2ed9f847"
 
 RPROVIDES:${PN} += "osdlyrics"
 
@@ -32,7 +32,6 @@ libnotify.so.4 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 python3-chardet \
-python3-future \
 python3-pycurl \
 sqlite3"
 

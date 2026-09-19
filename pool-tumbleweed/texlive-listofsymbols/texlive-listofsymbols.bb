@@ -11,10 +11,10 @@ formula do. The concept of creating the list of symbols, \
 though, is different from the way nomencl.sty does it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn16134"
+PV = "2026.226.0.0.2svn16134"
 
-RPM_NAME = "texlive-listofsymbols-2023.209.0.0.2svn16134-55.1.noarch.rpm"
-RPM_HASH = "c5c99314ddea8bbd4738bfc3757ad74ebcb71b4ffc1edd55a7325925497d77bf67cebd9bdf1e977230eb10b6c403228547f84aa236265ceaec08c20d548d9a36"
+RPM_NAME = "texlive-listofsymbols-2026.226.0.0.2svn16134-61.2.noarch.rpm"
+RPM_HASH = "91ec34bc8f20afe9a23fe02b43073055b1668d5cf6570bc2ff353317f85d5b0494a8f3efae0fbaba0c138c10c98aada9c87d7385e9883a26c3f47785a89ee023"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-listofsymbols.sty \

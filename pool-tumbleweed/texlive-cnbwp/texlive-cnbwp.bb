@@ -4,10 +4,10 @@ Czech National Bank (WP CNB). The package was developed for CNB \
 but it is also intended for authors from outside CNB."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn32550"
+PV = "2026.226.2024.02svn69910"
 
-RPM_NAME = "texlive-cnbwp-2023.209.svn32550-54.1.noarch.rpm"
-RPM_HASH = "6260c8460012506765b3e72591b947b503ab0c6f3f121dba40323bb65087fa4133dd9dd4830b29a0253a934e168886a30bccdd240ce1a20cb9577a4ded32a31c"
+RPM_NAME = "texlive-cnbwp-2026.226.2024.02svn69910-60.2.noarch.rpm"
+RPM_HASH = "7abf74ac03b8fa7cea30889e1504c98f12f6c5698120774aa489d53b7a452ae43b6fe1f2a83345c2bd97068afeab27f7a9a385bdc7c026771d5f35ad44fb1c68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cnbwp-manual.sty \

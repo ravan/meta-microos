@@ -7,10 +7,10 @@ it has also a command to do some horizontal movements to get to \
 'tab' positions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn48485"
+PV = "2026.226.0.0.2svn48485"
 
-RPM_NAME = "texlive-returntogrid-2023.209.0.0.2svn48485-54.2.noarch.rpm"
-RPM_HASH = "0a2dc43c56798a4880c9d055d8717f9e86a5eaddd575a7545aa13ddb808ef8d8a3bbbf31acfd1cf6f59a11f3a4aa17593d3f59a3fbdb78c5e246d0b20af705a6"
+RPM_NAME = "texlive-returntogrid-2026.226.0.0.2svn48485-60.4.noarch.rpm"
+RPM_HASH = "f7faf6e60810f20d03f2f1c6f77e44602fc2597eb92e0a0bc03819b44c53e5158076e2dba002e461f55fcaa9647436dbccc65e21990e4264bf3503f6023968c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-returntogrid.sty \

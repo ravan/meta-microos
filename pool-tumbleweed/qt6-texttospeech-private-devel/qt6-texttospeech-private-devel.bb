@@ -1,16 +1,17 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 TextToSpeech library"
 DESCRIPTION = "This package provides private headers of libQt6TextToSpeech that do not have \
 any ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-texttospeech-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "77340e7983f4a1bfa1a5f037a85ff7a3509107746725acf12ab57487b2e203f8565d2f117937908137c668de0c8ef491b552102417d7c9a0968326114c36d3c6"
+RPM_NAME = "qt6-texttospeech-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "f465c2dad31e598bc9c892808931b364c72ba40b1b9b3b9d989904d6d45ed86085f99bcd7af1e34b16c4a77bcf94546c2573eabd96c7ec7418f0de1cedc19c43"
 
-RPROVIDES:${PN} += "qt6-texttospeech-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6TextToSpeechPrivate \
+qt6-texttospeech-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6TextToSpeech \
-qt6-core-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate \
+cmake-Qt6TextToSpeech"
 
 inherit rpm

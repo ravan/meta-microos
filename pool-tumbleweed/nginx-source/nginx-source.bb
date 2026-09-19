@@ -2,10 +2,10 @@ SUMMARY = "The nginx source"
 DESCRIPTION = "The source of nginx [engine x] HTTP server and IMAP/POP3 proxy server."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.25.2"
+PV = "1.31.5"
 
-RPM_NAME = "nginx-source-1.25.2-1.1.noarch.rpm"
-RPM_HASH = "2ff91c2bf5b79c66c77e902975369c0809547a3669516a708497452c2c94b1274f02819fba33babd8dbb3f031e7c20cf0eafbbfe819e5b5e975cc025d583ae8f"
+RPM_NAME = "nginx-source-1.31.5-1.1.noarch.rpm"
+RPM_HASH = "5ab65b012d6d64b5d2b262f3a28f85b5cc2d48e217a2a3d1c410875b304a8a3e16325f88154a6ad8c709a9836c7bbbf3068651419f4473765a44596fd2094e9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nginx-source \

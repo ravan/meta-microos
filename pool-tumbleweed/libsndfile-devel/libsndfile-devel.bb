@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files needed to compile programs that u
 libsndfile library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.0"
+PV = "1.2.2"
 
-RPM_NAME = "libsndfile-devel-1.2.0-2.2.aarch64.rpm"
-RPM_HASH = "ad1e56524199f8ff518db0bde52ae04f223554b66f898f1b5d5a859c9c335b5b422af5e056a063d921db0edcf26e781963c16909c06b612a5aadbae04c786f0c"
+RPM_NAME = "libsndfile-devel-1.2.2-5.3.aarch64.rpm"
+RPM_HASH = "fd8d17011d86c0f7f05a39b220b6796754939b1991c7f5729e9ca017e9a011aacedf1debe22aff51e68188c0e25a192a77fb695a414338ff5eea4c74b23e98fa"
 
 RPROVIDES:${PN} += "cmake-SndFile \
 libsndd \
@@ -20,7 +20,6 @@ libstdc++-devel \
 pkgconfig-flac \
 pkgconfig-ogg \
 pkgconfig-opus \
-pkgconfig-speex \
 pkgconfig-vorbis \
 pkgconfig-vorbisenc"
 

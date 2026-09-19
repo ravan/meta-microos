@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.1.0"
 
-RPM_NAME = "libemf2svg-devel-1.1.0-2.14.aarch64.rpm"
-RPM_HASH = "09cc886da1d46274962617fb8c12e7b665563d7162b896cee10061be6aeb452eedf933b4015e8dc00c86def6de044040e7df30b38a6340ebe74860fc63d5f48a"
+RPM_NAME = "libemf2svg-devel-1.1.0-2.26.aarch64.rpm"
+RPM_HASH = "f5ceb06f4be95353c3e603140cb4b2693c6e0a6d30dfddbf11c76b6cc03b1730451c13c0e0b1e39b2edab4da74e57e0729ca8b7549ffad4afef5751fa2a8a934"
 
 RPROVIDES:${PN} += "libemf2svg-devel"
 

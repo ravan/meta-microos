@@ -4,10 +4,10 @@ Monitoring plugins and additional packages that are available in \
 https://build.opensuse.org/project/show/server:monitoring"
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-all-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "75c6399750a04d4d5bcced21815b8ece3f9c9da643077f51ae034c3a4a8e7a17684206c9b7258632cee1dc3b0f1669f10ef2ceee83bbdffe7a9c6076f5889d5f"
+RPM_NAME = "monitoring-plugins-all-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "b35bf338368f67a42a5e6e0ebdae27c94665a551bfcf296b3b669420fd1072ef2011ceb428b42d23019615df65bf3009a847717af47c804b3cc4fe3c72c46557"
 
 RPROVIDES:${PN} += "monitoring-plugins-all \
 nagios-plugins-all"

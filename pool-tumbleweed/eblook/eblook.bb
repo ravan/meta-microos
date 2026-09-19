@@ -11,12 +11,12 @@ You can get lookup.el from http://lookup.sourceforge.net/. \
  \
 lookup.el is already included as a package in recent versions of \
 XEmacs."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.6.1"
 
-RPM_NAME = "eblook-1.6.1-161.29.aarch64.rpm"
-RPM_HASH = "6d61143357936c46f1ffeecedb767a46cf84e333586cc95520c1a488aa0e1777f21500509ff4fa1530914b838d43f6dcdb517dc8aeda51a02b65a5b99cf93ba6"
+RPM_NAME = "eblook-1.6.1-162.9.aarch64.rpm"
+RPM_HASH = "5757eac486fb729e96c4208e40bae2ba9060907f3d2305c208184b9c8bca29114cf38127f81192c15cb492d1b9fbde0550e262794d38d108fc2c2ed49f78413f"
 
 RPROVIDES:${PN} += "eblook"
 

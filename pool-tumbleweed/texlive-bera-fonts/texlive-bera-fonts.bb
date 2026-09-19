@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-bera"
 DESCRIPTION = "The  separated fonts package for texlive-bera"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20031"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-bera-fonts-2023.209.svn20031-54.1.noarch.rpm"
-RPM_HASH = "abb353108880d0db0604c1fc2eac3e8c8a295330dfe00ea98b9a1ff138d3af8dde490e907db62a304d4886c29c4c03ba8a804e5b7cfdf86f4624f0a07a9c6513"
+RPM_NAME = "texlive-bera-fonts-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "daec2ceee3ee80d069eaed0ade1c281fdcf05fbededcd327cf4f8db0d8d6d03e80d6ef312ff4a203c239e8d7ff9d595f668655b52e5b085bc5d47264df814629"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -46,7 +49,10 @@ font--lang=ku-tr \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -78,14 +84,18 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-berasans \

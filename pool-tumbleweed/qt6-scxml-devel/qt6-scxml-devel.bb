@@ -1,13 +1,14 @@
 SUMMARY = "Qt 6 Scxml library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Scxml library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-scxml-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "e39fd08edf5d7ecbadfb75c85b46a8ce54cd2b5e8eb08d3937a13f25b15d990d7e6ce0a9ec9a4f2969918659c04d6e21280b5e12e16c2f3417a1a5cf9179d4a2"
+RPM_NAME = "qt6-scxml-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "10ff89807dcccdbb90926c023ad28ba44d7d02b3aac505d41f69920f58733f2cc8e8324f0cb0ec216f10656cdbc0a788359a5b72fa8947d288b329264814e674"
 
 RPROVIDES:${PN} += "cmake-Qt6Scxml \
+cmake-Qt6ScxmlGlobalPrivate \
 cmake-Qt6ScxmlTools \
 pkgconfig-Qt6Scxml \
 qt6-scxml-devel"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-labyrinth"
 DESCRIPTION = "This package includes the documentation for texlive-labyrinth"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn33454"
+PV = "2026.226.1.0svn33454"
 
-RPM_NAME = "texlive-labyrinth-doc-2023.209.1.0svn33454-56.1.noarch.rpm"
-RPM_HASH = "97b96b33173b40d5a98278c392698bd544d558bcd57c5f08ee6570207d0004b243487209f3945efebf9b564c8698d14252c3526de8f56c2b6d88a947799d2671"
+RPM_NAME = "texlive-labyrinth-doc-2026.226.1.0svn33454-63.2.noarch.rpm"
+RPM_HASH = "09322d175ea019de08691d0ea43e88dced73bc5113e1da684239f53665bd9330063f43dc360820168cda9cca65f7f09b21be3164a2627e54911aba674659633e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-labyrinth-doc"

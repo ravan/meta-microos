@@ -1,12 +1,12 @@
 SUMMARY = "PulseAudio Volume Meter"
 DESCRIPTION = "PulseAudio Volume Meter (pavumeter) is a simple GTK volume meter for \
 the PulseAudio sound server."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.3"
 
-RPM_NAME = "pavumeter-0.9.3-195.30.aarch64.rpm"
-RPM_HASH = "be901ca359150fa70522de93cb3a2edcd3596c569a17b49ad4b879fef38bc4cba25f7528a353f8b02459812986fd8d998e6032be2d356c697d175d4630156c13"
+RPM_NAME = "pavumeter-0.9.3-197.11.aarch64.rpm"
+RPM_HASH = "df99769c810c801bc8e4053bf8d78922dbd060174394d8f5f75a3df5df56c7c12b681360e964ae197356886b6e3e3a873b36fc8d4fa45fe46b71aea78132e123"
 
 RPROVIDES:${PN} += "pavumeter"
 

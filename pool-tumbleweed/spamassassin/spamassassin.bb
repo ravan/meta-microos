@@ -9,10 +9,10 @@ See the files in the documentation directory \
 use the filter."
 LICENSE = "Apache-2.0"
 
-PV = "4.0.0"
+PV = "4.0.1"
 
-RPM_NAME = "spamassassin-4.0.0-74.6.aarch64.rpm"
-RPM_HASH = "e1112e5d55fab6b11d1a6c793b9b4754775dcba7ffc26e43fedcf1e71cd05145c9f88218d04422e2f4977bc3c5a29b8703c5f197dd3e0e4805493a1d2ae0c429"
+RPM_NAME = "spamassassin-4.0.1-78.12.aarch64.rpm"
+RPM_HASH = "8a99cfb661d9e110a3a4050dbe725e3dbf12eaa2d9afc5d1260fe842a67186a026f1e9451be0d7e94125f54d1fc877aa8a4b818c27f4c5b8a03791fa999013b1"
 
 RPROVIDES:${PN} += "spamassassin"
 

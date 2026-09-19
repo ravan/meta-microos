@@ -2,24 +2,27 @@ SUMMARY = "Severed fonts for texlive-ebgaramond"
 DESCRIPTION = "The  separated fonts package for texlive-ebgaramond"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64343"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-ebgaramond-fonts-2023.209.svn64343-54.2.noarch.rpm"
-RPM_HASH = "ad5b5c3432e339b2725d023d1fb7ce5f4dbafd52210fd04fe0522be85127ececb980ec17c903efea428e541496cb8e249fb708826bbe933af6cf4bc2ea0e2e4d"
+RPM_NAME = "texlive-ebgaramond-fonts-2026.226.svn77682-61.4.noarch.rpm"
+RPM_HASH = "d9f6113bf7c9176bbb0d2bde94d7dec3c295342f53628a30e3fbf61cf60c043b25b3a517c50707fc13ede5c807d6615281ec44eb4a3d450d14441263d5ffc6ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-ebgaramond-fonts \
 font--lang=aa \
 font--lang=ab \
 font--lang=af \
+font--lang=agr \
 font--lang=ak \
 font--lang=an \
 font--lang=ast \
 font--lang=av \
 font--lang=ay \
+font--lang=ayc \
 font--lang=az-az \
 font--lang=ba \
 font--lang=be \
+font--lang=bem \
 font--lang=ber-dz \
 font--lang=bg \
 font--lang=bi \
@@ -40,6 +43,7 @@ font--lang=cv \
 font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=ee \
 font--lang=el \
 font--lang=en \
@@ -97,12 +101,17 @@ font--lang=lb \
 font--lang=lez \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=ln \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mhr \
 font--lang=mi \
+font--lang=miq \
+font--lang=mjw \
 font--lang=mk \
 font--lang=mn-mn \
 font--lang=mo \
@@ -112,6 +121,8 @@ font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -128,6 +139,7 @@ font--lang=pl \
 font--lang=pt \
 font--lang=qu \
 font--lang=quz \
+font--lang=rif \
 font--lang=rm \
 font--lang=rn \
 font--lang=ro \
@@ -139,6 +151,7 @@ font--lang=sco \
 font--lang=se \
 font--lang=sel \
 font--lang=sg \
+font--lang=sgs \
 font--lang=sh \
 font--lang=shs \
 font--lang=sk \
@@ -157,11 +170,13 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tg \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
 font--lang=to \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
 font--lang=tt \
@@ -169,30 +184,23 @@ font--lang=tw \
 font--lang=ty \
 font--lang=tyv \
 font--lang=uk \
+font--lang=unm \
 font--lang=uz \
 font--lang=ve \
 font--lang=vi \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
 font--lang=yo \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-ebgaramond \
-font-ebgaramond-bold \
-font-ebgaramond-bolditalic \
-font-ebgaramond-extrabold \
-font-ebgaramond-extrabolditalic \
-font-ebgaramond-italic \
-font-ebgaramond-medium \
-font-ebgaramond-mediumitalic \
-font-ebgaramond-regular \
-font-ebgaramond-semibold \
-font-ebgaramond-semibolditalic \
 font-ebgaramondextrabold \
 font-ebgaramondinitials \
 font-ebgaramondmedium \

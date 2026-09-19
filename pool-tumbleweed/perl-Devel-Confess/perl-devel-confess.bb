@@ -34,8 +34,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.009004"
 
-RPM_NAME = "perl-Devel-Confess-0.009004-1.25.noarch.rpm"
-RPM_HASH = "3a8c889b3202c39314510aa4788bf95a492543a108cacd6141da684b193752a636341346d25d05b814587bc0123a8d46e1489fcf369a82e08f151b8a62e616b6"
+RPM_NAME = "perl-Devel-Confess-0.009004-1.39.noarch.rpm"
+RPM_HASH = "bb2ce6c718ba02f2074ec75631cf687b4a1781fc611898768f943c09e9c21740b2caf67f1bc5f370b36d3fb5e7db5be9d081053546550e6ec21b9c85d636b9b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--Confess \
@@ -44,6 +44,6 @@ perl-Devel--Confess--Builtin \
 perl-Devel--Confess--Source \
 perl-Devel-Confess"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

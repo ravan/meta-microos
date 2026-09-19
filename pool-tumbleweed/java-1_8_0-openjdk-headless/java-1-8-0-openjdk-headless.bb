@@ -1,11 +1,11 @@
 SUMMARY = "OpenJDK 8 Runtime Environment"
 DESCRIPTION = "The OpenJDK 8 runtime environment without audio and video support."
-LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
+LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & LicenseRef-SUSE-Public-Domain & W3C"
 
-PV = "1.8.0.382"
+PV = "1.8.0.504"
 
-RPM_NAME = "java-1_8_0-openjdk-headless-1.8.0.382-1.1.aarch64.rpm"
-RPM_HASH = "2fb0666e3c449dc291f8d82aa51c8059dcf0e330ea9b45a31501d3278be17cb58db59ad5b8bd5945712bde5157904b8cf1597f5c623b26d40e0eb457adf189d9"
+RPM_NAME = "java-1_8_0-openjdk-headless-1.8.0.504-1.1.aarch64.rpm"
+RPM_HASH = "3cbbb343ec2704ad2a190e8c229ee0d7caded440b711da4c6a91aea901a830ee02f2fc065bb579ba92e3eae7e5d5b6dfe9c06aaf0756e792cdd59f5d6d5680c2"
 
 RPROVIDES:${PN} += "config-java-1-8-0-openjdk-headless \
 jaas \
@@ -62,6 +62,7 @@ libverify.so \
 libzip.so"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+alts \
 jpackage-utils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
@@ -77,7 +78,6 @@ libsctp.so.1 \
 libstdc++.so.6 \
 libthread-db.so.1 \
 libz.so.1 \
-mozilla-nss \
-update-alternatives"
+mozilla-nss"
 
 inherit rpm

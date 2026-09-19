@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.9.9"
 
-RPM_NAME = "libulockmgr1-2.9.9-6.4.aarch64.rpm"
-RPM_HASH = "ac2c1ff1a2ef98fce7988446ac8b5dd352ec8b08730b78eb490d6670a2565d9108d403eae238700e16efc427e197fc7293b8d2612d4e31d1d53d530d551d43eb"
+RPM_NAME = "libulockmgr1-2.9.9-8.6.aarch64.rpm"
+RPM_HASH = "e26682d530b5a566367f9899963f722ccd50ffcc5016d58672b1b7c48fa2424ae95bcd1e465f740a59a517e595c2a2e746d3c8ec59a0fe7acd2e518a3358827d"
 
 RPROVIDES:${PN} += "libulockmgr.so.1 \
 libulockmgr1"

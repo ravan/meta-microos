@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-testidx"
 DESCRIPTION = "This package includes the documentation for texlive-testidx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn60966"
+PV = "2026.227.1.2svn60966"
 
-RPM_NAME = "texlive-testidx-doc-2023.209.1.2svn60966-55.1.noarch.rpm"
-RPM_HASH = "09d6b989a59ca9d85540ce5958a269f8539a44248bc6fa7258436335c54f50495f4eff59cf3e1d649f3dd773433f974924953de59cafdc781adc9f1eb0974418"
+RPM_NAME = "texlive-testidx-doc-2026.227.1.2svn60966-62.2.noarch.rpm"
+RPM_HASH = "9e529db98687ec7f7f9a7fc6d16c652d8739578906ba17ba5f776ac1c2720b9b3c3e09cdd349f8121596c5ba67e66f463746e39efa1dbb286662f8dae2e16a77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-testidx-doc"

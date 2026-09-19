@@ -3,8 +3,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-leechcraft-leechcraft_media-20170319-1.15.aarch64.rpm"
-RPM_HASH = "859ea3f0cd22ae8e7cdd4c38eaddecf43ddaf3dc8466a2cb60f75318bdeca4ef6813d5872a9debe59576baa39327e95769106fb7d8cd5cc6641f4c8149ee5d06"
+RPM_NAME = "patterns-leechcraft-leechcraft_media-20170319-1.24.aarch64.rpm"
+RPM_HASH = "6912e41159dd96b8400c34c449e67e2dfa6e830a479fbe0aa338c5a1c612bbe71738335feabbaa85bc748f3a131276cb9f286de0f4ebf4e2e7e5350f2c7ecd19"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

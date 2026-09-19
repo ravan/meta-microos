@@ -5,12 +5,12 @@ as GNOME. It comes with several backends (ALSA, PulseAudio, null) \
 and is designed to be portable. \
  \
 This package provides the development files for libcanberra-gtk3."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.30"
+PV = "0.30+2"
 
-RPM_NAME = "libcanberra-gtk3-devel-0.30-15.23.aarch64.rpm"
-RPM_HASH = "e4719516301b9791674551569ca2aee4cd857515dd63dad921f96789ded8533141f4de1aa48e11bbdb2cecaaa05474120c58049a04876eca6c8776a479c7963b"
+RPM_NAME = "libcanberra-gtk3-devel-0.30+2-3.6.aarch64.rpm"
+RPM_HASH = "df71a80fcb4a7c4a483d599602fa1ec6978428c38b08a1376daef200dcd594c2974d0557b755eeb67083ad24ae0cc12d33a770e13f6872a5bde064b2beda24b7"
 
 RPROVIDES:${PN} += "libcanberra-gtk3-devel \
 pkgconfig-libcanberra-gtk3"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package requires everything which is needed to build an \
 initramfs (using dracut) which tries to load an IMA policy during startup."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "059+suse.497.ga7feaf12"
+PV = "112+suse.51.gf078a84"
 
-RPM_NAME = "dracut-ima-059+suse.497.ga7feaf12-1.1.aarch64.rpm"
-RPM_HASH = "2f1eafda7dffd9d851a6a19902f29a526b2f1552fbbd8d13ff9581bbe5e46081013e81624e42e7064ae4aba830108724e5f4d0a3feae1f24e5785f45b8ae6429"
+RPM_NAME = "dracut-ima-112+suse.51.gf078a84-1.1.aarch64.rpm"
+RPM_HASH = "82e0d3342f40d887434a3b8155bef604855dbcda3bd2a2192b790906403f61292ec7eec30db36e5dc157b6ef0b09c4584e6ddaa386d8015095ca0409287b2dd5"
 
 RPROVIDES:${PN} += "config-dracut-ima \
 dracut-ima"

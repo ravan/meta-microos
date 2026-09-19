@@ -2,12 +2,12 @@ SUMMARY = "Router ADVertisement Daemon for IPv6"
 DESCRIPTION = "RADVD is the Router ADVertisement Daemon. It sends IPv6 RA packets \
 to advertise available IPv6 networks, and is used for automated \
 configuration of IPv6 clients."
-LICENSE = "BSD-3-Clause"
+LICENSE = "radvd"
 
-PV = "2.19"
+PV = "2.21"
 
-RPM_NAME = "radvd-2.19-3.4.aarch64.rpm"
-RPM_HASH = "b64de2cba5b67003465249a7edae54c3a3d6edf30aca4ff0a677e6b1e7cd636cd255739ea12ee491c9732b69f1a989fa214cc0295f49abcb4b40c8bc6e90c457"
+RPM_NAME = "radvd-2.21-2.2.aarch64.rpm"
+RPM_HASH = "d30733ba9e96fce99442b26b90c9ed2a8e29a0ee299d75a83498ca53a68cc1621c704049e8b880043285a5f8a4348a465d1eec8a2cbc5bd39d22554e0fa7b879"
 
 RPROVIDES:${PN} += "config-radvd \
 group-radvd \

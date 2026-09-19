@@ -7,10 +7,10 @@ Please read \
 for details how to setup this check."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-icmp-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "0f5e5782afaa77eff08d391311ea263ac112afe203a06981e2a10e397d31e67330e01c23b8acdafbda116d52a47b1146eeac08e182165fa6487dc66f37ebd2e1"
+RPM_NAME = "monitoring-plugins-icmp-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "ad0e39b8eb709941350fafb0867cdbf9e43a05c1b6eca7f401f2a1d68a60b683f4f4cf1078321fc804cdc1ba06d13516ec007b6440a0700cae492424083e59e8"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-icmp \
 monitoring-plugins-icmp \

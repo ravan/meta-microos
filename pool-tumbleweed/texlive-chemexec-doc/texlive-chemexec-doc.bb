@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chemexec"
 DESCRIPTION = "This package includes the documentation for texlive-chemexec"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn21632"
+PV = "2026.226.1.0svn21632"
 
-RPM_NAME = "texlive-chemexec-doc-2023.209.1.0svn21632-54.1.noarch.rpm"
-RPM_HASH = "f55d0e82af7b8160b57bc8e7e8bcfc921f68aecaf5dcecbfec1947759e3dc758e3146eedc7bc1e1989ab1122725979853b6c2213458acf9bc7bc12ebb99ab4cf"
+RPM_NAME = "texlive-chemexec-doc-2026.226.1.0svn21632-60.2.noarch.rpm"
+RPM_HASH = "29a73a4981c5a0fe0b16302900b503e52a550afeb838acd7661353a50528819db4da94f1851b1ddd854b6e6a568c287d4a10b9873bb40aa0d9546acfb1c3eaa2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-chemexec-doc-de;en \

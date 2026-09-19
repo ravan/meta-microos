@@ -3,10 +3,10 @@ DESCRIPTION = "This tool will profile official instances of OpenSUSE mirrorcache
 fastest repositories for your system 🧙"
 LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & BSD-3-Clause & MIT & MPL-2.0"
 
-PV = "0.1.2~1"
+PV = "0.1.3~1"
 
-RPM_NAME = "mirrorsorcerer-0.1.2~1-1.1.aarch64.rpm"
-RPM_HASH = "4da36698fcffc53efb8d5150a4f7557ec115ade7e9abbf2632090c7d96774d2eac14e01d9d9c0054d8d04e311e0c05f77d3a0ede478a78e4f94f979a11d49d44"
+RPM_NAME = "mirrorsorcerer-0.1.3~1-1.8.aarch64.rpm"
+RPM_HASH = "47cc62b0d92d02ded20b9eb8dec5df6244ffa12ab2ec457371fc7bb271f62649af5da9b77e601d7905280c6217d81f66607a0a51ae420532839d24c15f03d38b"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \
@@ -15,6 +15,7 @@ bundled-rust-crate-bitflags \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-clap \
 bundled-rust-crate-crc32c \
+bundled-rust-crate-displaydoc \
 bundled-rust-crate-dlv-list \
 bundled-rust-crate-filetime \
 bundled-rust-crate-form-urlencoded \
@@ -22,7 +23,15 @@ bundled-rust-crate-getrandom \
 bundled-rust-crate-glob \
 bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
+bundled-rust-crate-icu-collections \
+bundled-rust-crate-icu-locale-core \
+bundled-rust-crate-icu-normalizer \
+bundled-rust-crate-icu-normalizer-data \
+bundled-rust-crate-icu-properties \
+bundled-rust-crate-icu-properties-data \
+bundled-rust-crate-icu-provider \
 bundled-rust-crate-idna \
+bundled-rust-crate-idna-adapter \
 bundled-rust-crate-inotify \
 bundled-rust-crate-inotify-sys \
 bundled-rust-crate-instant \
@@ -31,6 +40,7 @@ bundled-rust-crate-itoa \
 bundled-rust-crate-lazy-static \
 bundled-rust-crate-lazycell \
 bundled-rust-crate-libc \
+bundled-rust-crate-litemap \
 bundled-rust-crate-lock-api \
 bundled-rust-crate-log \
 bundled-rust-crate-matchers \
@@ -52,6 +62,7 @@ bundled-rust-crate-pnet-base \
 bundled-rust-crate-pnet-macros \
 bundled-rust-crate-pnet-macros-support \
 bundled-rust-crate-pnet-packet \
+bundled-rust-crate-potential-utf \
 bundled-rust-crate-ppv-lite86 \
 bundled-rust-crate-proc-macro-error \
 bundled-rust-crate-proc-macro-error-attr \
@@ -77,16 +88,17 @@ bundled-rust-crate-signal-hook-registry \
 bundled-rust-crate-slab \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-socket2 \
+bundled-rust-crate-stable-deref-trait \
 bundled-rust-crate-structopt \
 bundled-rust-crate-structopt-derive \
 bundled-rust-crate-surge-ping \
 bundled-rust-crate-syn \
+bundled-rust-crate-synstructure \
 bundled-rust-crate-textwrap \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-thread-local \
-bundled-rust-crate-tinyvec \
-bundled-rust-crate-tinyvec-macros \
+bundled-rust-crate-tinystr \
 bundled-rust-crate-tokio \
 bundled-rust-crate-tokio-macros \
 bundled-rust-crate-tracing \
@@ -94,15 +106,23 @@ bundled-rust-crate-tracing-attributes \
 bundled-rust-crate-tracing-core \
 bundled-rust-crate-tracing-log \
 bundled-rust-crate-tracing-subscriber \
-bundled-rust-crate-unicode-bidi \
 bundled-rust-crate-unicode-ident \
-bundled-rust-crate-unicode-normalization \
 bundled-rust-crate-unicode-segmentation \
 bundled-rust-crate-unicode-width \
 bundled-rust-crate-url \
-bundled-rust-crate-users \
+bundled-rust-crate-utf8-iter \
+bundled-rust-crate-uzers \
 bundled-rust-crate-version-check \
 bundled-rust-crate-walkdir \
+bundled-rust-crate-writeable \
+bundled-rust-crate-yoke \
+bundled-rust-crate-yoke-derive \
+bundled-rust-crate-zerocopy \
+bundled-rust-crate-zerofrom \
+bundled-rust-crate-zerofrom-derive \
+bundled-rust-crate-zerotrie \
+bundled-rust-crate-zerovec \
+bundled-rust-crate-zerovec-derive \
 mirrorsorcerer"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

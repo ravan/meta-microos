@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lua-alt-getopt"
 DESCRIPTION = "This package includes the documentation for texlive-lua-alt-getopt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.7.0svn56414"
+PV = "2026.226.0.0.7.0svn56414"
 
-RPM_NAME = "texlive-lua-alt-getopt-doc-2023.208.0.0.7.0svn56414-53.1.noarch.rpm"
-RPM_HASH = "337d89f5843ca9ac2d147b89eeb0a0ce9c7e503447b57bd5f918ee6ce09c033f14dc4fd574aa59909772286abc5393780851b3cd3bae456a90b2e7b588f103dc"
+RPM_NAME = "texlive-lua-alt-getopt-doc-2026.226.0.0.7.0svn56414-59.2.noarch.rpm"
+RPM_HASH = "bbe2a018c11c7d0808ce9690f91113776eb506f741f2a69faf7c128880cb05adacbd34c90dc07f6a5e9443cecf68248053691b99c8d5dddc2970b1a534c16a10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-alt-getopt-doc"

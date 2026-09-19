@@ -2,10 +2,10 @@ SUMMARY = "GNOME Multimedia"
 DESCRIPTION = "GNOME Multimedia"
 LICENSE = "MIT"
 
-PV = "20201210"
+PV = "20250310"
 
-RPM_NAME = "patterns-gnome-gnome_multimedia-20201210-16.1.aarch64.rpm"
-RPM_HASH = "21184005ccb0442f00fbddb8e9d0fe3be5d30f2e09eb8757454b7099e78d395018a25353fa4879ea5e08b965cb70e6ae6757b6cdb2a5786d039d87218a24d6ae"
+RPM_NAME = "patterns-gnome-gnome_multimedia-20250310-10.2.aarch64.rpm"
+RPM_HASH = "dd9eeb717dc8eb7b8731c361f41545cf2d2f84dc2ec633e9aed7d4886516876058871b121afc1ad38c7c4c8e8348de7fa23c1d3dd6cf4ff3eaa039990a30c762"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

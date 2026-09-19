@@ -3,10 +3,10 @@ DESCRIPTION = "This bash script with RPM macros may help packagers to include \
 some legal files of vendored dependencies."
 LICENSE = "EUPL-1.2"
 
-PV = "0.1.0"
+PV = "0.1.1"
 
-RPM_NAME = "vendored_licenses_packager-0.1.0-1.5.noarch.rpm"
-RPM_HASH = "9ad22e188a32993eb1ef4656415751665626fc70c6e9595efa274a6f924073dc7f95de39f2f8eabfc1387f57fec3627322113052aea4d0446f857ce244e9ac96"
+RPM_NAME = "vendored_licenses_packager-0.1.1-1.4.noarch.rpm"
+RPM_HASH = "c82957c1cb622f50c29f586f7b39c98b9e9aa91502b988be179647e441f382e0ff39063539e23bc8c4e2777cb35cde3dd19e7d2124b9dfd0a666f586694f6568"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-macro--set-dir-vendored-source-global \

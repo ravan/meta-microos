@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2"
 
-RPM_NAME = "libreadline5-5.2-140.4.aarch64.rpm"
-RPM_HASH = "011cc32f2a119ccaa8efcbd94cffbbb2323d56c98d049fea03a3d870cf947c60e1c4f5ba261d622183c6185aac824adc3c2dcfdcc857d442d929884ab40381c2"
+RPM_NAME = "libreadline5-5.2-141.11.aarch64.rpm"
+RPM_HASH = "86e3ceba9f88952f96f58c9a789b5fcbd0cf9e766644d1a39b39ed1b84a858f0afb59182c942542c32675abe559298315433ec8422516ae7ee5f8402e92ee13d"
 
 RPROVIDES:${PN} += "bash-/lib64/libreadline.so.5 \
 libhistory.so.5 \

@@ -2,10 +2,10 @@ SUMMARY = "The X Protocol"
 DESCRIPTION = "Utility Macro Headers for X development"
 LICENSE = "HPND"
 
-PV = "1.20.0"
+PV = "1.20.2"
 
-RPM_NAME = "util-macros-devel-1.20.0-1.4.aarch64.rpm"
-RPM_HASH = "90d5dc3306d5a0c07c322d4ddb31e8c3b652ae0929d94647dc5c376c4f1e32162f9b27324de54d88a649e1a6967f6179dc30c6e73ffd9fccb1f88dd96e3d4e4c"
+RPM_NAME = "util-macros-devel-1.20.2-1.7.aarch64.rpm"
+RPM_HASH = "28ce4de2e05a4330020bc8b723cd1d9ac6374a765dd6eb1d3a658de744b1534080955cfe8cb125f0244a04eba38939d1f36fb1c235a4aabe8f24bc0d084cc506"
 
 RPROVIDES:${PN} += "pkgconfig-xorg-macros \
 util-macros-devel \

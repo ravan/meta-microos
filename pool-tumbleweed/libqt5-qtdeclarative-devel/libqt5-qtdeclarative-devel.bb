@@ -2,10 +2,10 @@ SUMMARY = "Qt Development Kit"
 DESCRIPTION = "You need this package, if you want to compile programs with qtdeclarative."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde26"
+PV = "5.15.19+kde23"
 
-RPM_NAME = "libqt5-qtdeclarative-devel-5.15.10+kde26-1.1.aarch64.rpm"
-RPM_HASH = "4a99a5b07c755b74318230e9e7c928b7c49b31b39d995247d45470e5dc2d04c8d97f6f65efc5455ceb603329aa6f75be3df9ebcd38d244e90c976f636e69e518"
+RPM_NAME = "libqt5-qtdeclarative-devel-5.15.19+kde23-1.3.aarch64.rpm"
+RPM_HASH = "2419341af96abc86af28cc6eaec7db366753349b26600e3c7074c0db2ff526bbfb88c66da49b8a8a576e0f03f2041414cfac7151f846a47df42cb637aa22ca0d"
 
 RPROVIDES:${PN} += "cmake-Qt5PacketProtocol \
 cmake-Qt5Qml \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "libicecream-devel-1.4.0-2.6.aarch64.rpm"
-RPM_HASH = "22d3b6236834a2600dc3fec3b3b10d2288fb5621dd09d8c2a76f1a915a4a948ff3052a493b11b03be4d36a8d54627b551ed8180d438027592bb67deed0def9f0"
+RPM_NAME = "libicecream-devel-1.4.0-4.6.aarch64.rpm"
+RPM_HASH = "c44053f2c8c7fb860fd629f05bcbb8ea49122f10a9e5ec2bd4550ace588a4d6504270e416e2055b17de8c589173b434e69b4ed001670614207e0fc74445b97cd"
 
 RPROVIDES:${PN} += "libicecream-devel \
 pkgconfig-icecc"

@@ -1,11 +1,11 @@
 SUMMARY = "Development files for the File Comparator"
 DESCRIPTION = "Development files for the File Comparator package"
-LICENSE = "GPL-2.0-only & GFDL-1.2-only"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kompare-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "de5d1da84a31b2fe6dea583fc9e20e781a8753ab34390293a75463e707e5c42318acdc2149445e06ed1fe990c2edcc5224072365f7b93544ee42e78c03d1aba7"
+RPM_NAME = "kompare-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "ff09e1e2677690fa9963ce591a7f0023083df10403ba167e7663517b1297da25c3c9f3c34d5cb97443e8179ba4fe5db32a9c2c3462ab9c276cc9773dde2dbf58"
 
 RPROVIDES:${PN} += "kompare-devel"
 

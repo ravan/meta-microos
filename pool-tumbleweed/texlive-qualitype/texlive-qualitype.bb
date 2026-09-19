@@ -4,10 +4,10 @@ permisison of John Colletti, these fonts have been released as \
 free and open-source."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn54512"
+PV = "2026.226.svn54512"
 
-RPM_NAME = "texlive-qualitype-2023.209.svn54512-54.2.noarch.rpm"
-RPM_HASH = "fb3051c2cf86d5a51574442371d95933e39f37b5aba14f769cbd4bb2dcccd52af21cfe517fdcda84d45cb8f50cb78611a2bf636e5873508e8756ab4cbacb6908"
+RPM_NAME = "texlive-qualitype-2026.226.svn54512-60.4.noarch.rpm"
+RPM_HASH = "490b4f19c3497fd101bd7cc2cb80a3ac667523264f99958ca06bf2505f92a131a4576e5d38ca48e9e70135bcb2a10a8980ed181bf52b0adb49b07b717ea2dfa5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qualitype"

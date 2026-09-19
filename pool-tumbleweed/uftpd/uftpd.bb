@@ -4,10 +4,10 @@ automatically from the traditional UNIX inetd super server, and is \
 tcpwrapped."
 LICENSE = "ISC"
 
-PV = "2.15"
+PV = "2.17"
 
-RPM_NAME = "uftpd-2.15-1.8.aarch64.rpm"
-RPM_HASH = "829900b326402e66cbce779b057306ba6f88cf0b9ab4db06c1a2583b17c065323010653d403c578b548da5f6b67d87f32cb2877f57e755cdfdf32deb0506dbdc"
+RPM_NAME = "uftpd-2.17-1.1.aarch64.rpm"
+RPM_HASH = "da1b556f2b1e9cbea59a4a8234e5580c2eeacf17618e2adb843401fba314545bf4e908d09c67013d5222b87057f0e0a43205c3e221bf7491c650ee504e62459c"
 
 RPROVIDES:${PN} += "tftp-server \
 uftpd"

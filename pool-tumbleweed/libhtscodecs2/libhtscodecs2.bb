@@ -6,10 +6,10 @@ a dynamic arithmetic coder, and custom codecs for name/ID compression \
 and quality score compression derived from fqzcomp."
 LICENSE = "MIT"
 
-PV = "1.5.0"
+PV = "1.6.1"
 
-RPM_NAME = "libhtscodecs2-1.5.0-1.1.aarch64.rpm"
-RPM_HASH = "41ca5ebb6482e1f5c2220140faa9e8850c533c3308b6c3cf551b5607a31eff5f568824e3bde591e561d7de78de8c7ba3aa126c045cc55328c22ede0484a2bc85"
+RPM_NAME = "libhtscodecs2-1.6.1-1.5.aarch64.rpm"
+RPM_HASH = "eccc861918a56c3a698187e67104ef392fd2474451a2f2db6207fbad45f8c0d8f64a7d6a737ec70dd575ead78c5fdad0871599fa283bce5112e909e9258f6ed4"
 
 RPROVIDES:${PN} += "libhtscodecs.so.2 \
 libhtscodecs2"

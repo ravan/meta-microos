@@ -4,10 +4,10 @@ software for Armv7-A and Armv8-A, including a Secure Monitor executing at \
 Exception Level 3 (EL3)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.8.6"
+PV = "2.12.8"
 
-RPM_NAME = "arm-trusted-firmware-rk3368-2.8.6-1.2.noarch.rpm"
-RPM_HASH = "84875e763c8e56080361a8b0850df44ea93f3010c36112ff5745a9210613f66739b902b9e6e187a7ea6e01974b25506c05f2b47e72d032f8d9ba1477dd67e7e1"
+RPM_NAME = "arm-trusted-firmware-rk3368-2.12.8-4.1.noarch.rpm"
+RPM_HASH = "50ec548a9d54cbab8f3d9aef1ce1c4be06578a1450298c7a75f2c6c3aee3c184e4181589defcfafc2cb427178f15b55e21a8e5ff69e1d4a2f62b60ab66366f0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-rk3368"

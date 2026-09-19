@@ -22,8 +22,8 @@ LICENSE = "Zlib"
 
 PV = "2022.12.22"
 
-RPM_NAME = "nanosvg-devel-2022.12.22-1.1.aarch64.rpm"
-RPM_HASH = "92546605f965b1bad9c8a90fbda936fc013348e5da4991bc111e24ba232a3a4e714dfe33fdc0307e62bf54a3b045fa02b18dbdbae265def2ef3ce1d93201c01f"
+RPM_NAME = "nanosvg-devel-2022.12.22-1.12.aarch64.rpm"
+RPM_HASH = "dd5db97b4109284006150673bb5bf8f7572184e8c7be8a7d581c2252fbaaf39a0f6f6a51bb00ab771f0774f6ece2c954db624ffdc786e302c3216c2d9a1ec296"
 
 RPROVIDES:${PN} += "cmake-NanoSVG \
 nanosvg-devel"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-colortab"
 DESCRIPTION = "This package includes the documentation for texlive-colortab"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn22155"
+PV = "2026.226.1.0svn22155"
 
-RPM_NAME = "texlive-colortab-doc-2023.209.1.0svn22155-54.1.noarch.rpm"
-RPM_HASH = "0dbdce5e756da352bf6b5069eda0256a0fd265602822f163eda295ce33deb11c56d7eb903dbc9e38763aea6f14c4856653a7fb218031e47460480c0c3d2f4072"
+RPM_NAME = "texlive-colortab-doc-2026.226.1.0svn22155-60.2.noarch.rpm"
+RPM_HASH = "87b141163cf9744db816adf7141f9f73bf8524eba3408304f76bb0a0fa1e804ec8f3066f463614e27ad1cb80537a939d9b03baa4ce9aa75e37d2f92440573e4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-colortab-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xdg-user-dirs"
 DESCRIPTION = "Provides translations for the 'xdg-user-dirs' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.18"
+PV = "0.20"
 
-RPM_NAME = "xdg-user-dirs-lang-0.18-2.3.noarch.rpm"
-RPM_HASH = "0c446a3020c8b8fd6f8185e4b1131b45d1e37d5c0113511f71e7647672d41e53bba2d11b0337ccba0fa83c9e5b9549ac0173b74e494ac2fbc83647a7219d2fdf"
+RPM_NAME = "xdg-user-dirs-lang-0.20-2.1.noarch.rpm"
+RPM_HASH = "285276b556f197dd75b3e1fe9e627bd3d1a347bc5abc68095c3ff44442212e195557ee85810040d74cdb65d9c6b1fe95e85c44574e6fdef1f519dab9f2aeb471"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xdg-user-dirs-af \
@@ -43,6 +43,7 @@ locale-xdg-user-dirs-id \
 locale-xdg-user-dirs-is \
 locale-xdg-user-dirs-it \
 locale-xdg-user-dirs-ja \
+locale-xdg-user-dirs-ka \
 locale-xdg-user-dirs-kk \
 locale-xdg-user-dirs-kn \
 locale-xdg-user-dirs-ko \
@@ -74,6 +75,7 @@ locale-xdg-user-dirs-th \
 locale-xdg-user-dirs-tr \
 locale-xdg-user-dirs-uk \
 locale-xdg-user-dirs-vi \
+locale-xdg-user-dirs-wa \
 locale-xdg-user-dirs-zh-CN \
 locale-xdg-user-dirs-zh-HK \
 locale-xdg-user-dirs-zh-TW \

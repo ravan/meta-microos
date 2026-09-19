@@ -2,10 +2,10 @@ SUMMARY = "PolicyKit plugin for connman"
 DESCRIPTION = "Provides PolicyKit support for Connman (Connection Manager)."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.41"
+PV = "1.42"
 
-RPM_NAME = "connman-plugin-polkit-1.41-4.8.aarch64.rpm"
-RPM_HASH = "fb67ba480ff5557610a2d23c325f1071749c6a7c192c58946aa5945476cfb6406e8ae253fe6e33b34f55664843e76f0a73293c6fe619e6fe75d7a64933f83ab7"
+RPM_NAME = "connman-plugin-polkit-1.42-2.16.aarch64.rpm"
+RPM_HASH = "42a120382298e04cfb6127554ca0609ccb9c58b492576337f1a3ca22c692733e3954131fb5d7ff742a518948d52f52657834fcde697c5712b827aa5b786e5c66"
 
 RPROVIDES:${PN} += "connman-plugin-polkit"
 

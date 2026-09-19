@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "libgstcodecparsers-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "58ab2fcad10023112968e31409403c915263be5a1c90896a9b7015a39319ba36507f87fa575c92c05f297dc2aa436d5a5443f5f3625665191fc052768d83ed5e"
+RPM_NAME = "libgstcodecparsers-1_0-0-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "a6d28cb8a0adc1d39ad9777179b6a5b1d34ae9512badd3b7f98b038312602c8bed03fc3793d71a7874526151dd69f8cd2db0ec2cc692570fc9b1687a66d21c3a"
 
 RPROVIDES:${PN} += "libgstcodecparsers-1-0-0 \
 libgstcodecparsers-1.0.so.0"
@@ -19,7 +19,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \
 libgstbase-1.0.so.0 \
-libgstreamer-1.0.so.0 \
-libm.so.6"
+libgstreamer-1.0.so.0"
 
 inherit rpm

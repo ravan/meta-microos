@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package guvcview"
 DESCRIPTION = "Provides translations for the 'guvcview' package."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.8"
+PV = "2.2.2"
 
-RPM_NAME = "guvcview-lang-2.0.8-1.7.noarch.rpm"
-RPM_HASH = "bf53db1d649cc184d9b87faa11ffb8d67f889e73280c67b2a1813c37572c985055578f059970a31195741848ddc6e3c0c786202f0a977385b4660715896a1e9f"
+RPM_NAME = "guvcview-lang-2.2.2-1.7.noarch.rpm"
+RPM_HASH = "264fc296b0e793f6c25394bad9298c120b2e2e6e09172db4a190ab4bafa6fae43c46c258b56372b63d84f32697db0b74d00a5ae3df681428b152403e2c2e137b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guvcview-lang \

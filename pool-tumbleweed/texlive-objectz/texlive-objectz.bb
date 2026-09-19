@@ -3,10 +3,10 @@ DESCRIPTION = "The package will typeset both Z and Object-Z specifications; it \
 develops the original zed package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn61719"
+PV = "2026.226.svn61719"
 
-RPM_NAME = "texlive-objectz-2023.209.svn61719-55.1.noarch.rpm"
-RPM_HASH = "0df44f2a70ab56fb95e2c40eee264760524d51873aea8a2cfb9754f393185d6050713ef75310ef2807086332c750cbb7a9b999d5ed3fee022a77c584bdaa4538"
+RPM_NAME = "texlive-objectz-2026.226.svn61719-61.2.noarch.rpm"
+RPM_HASH = "dfcee3dad06f711cfb452e695870ba2ff79df7a3b44c5816949c828106391f2801bcb410dcc2afd93633cbfb8eb8256ed66b91767877ba49ee0aba2e284afbdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-oz.sty \

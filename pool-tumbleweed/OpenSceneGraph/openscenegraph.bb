@@ -10,13 +10,12 @@ LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 
-RPM_NAME = "OpenSceneGraph-3.6.5-8.7.aarch64.rpm"
-RPM_HASH = "12be07264234df62d798cd72352eb9e9d0700787bb09acce6872fc0a4548bd1dddd9dcc5ef876fb6e69845bc26c94a8b92349be88e0bff8f9434fb195ccc8e6f"
+RPM_NAME = "OpenSceneGraph-3.6.5-12.8.aarch64.rpm"
+RPM_HASH = "e9771048888ca412e0d6db11d9be8808e5304b7bd161fe863f09e7c288e5c8e72908a09b01bb9e40d7d88a046c94d9084066e1cdcf41dab3209e15f9b83074c6"
 
 RPROVIDES:${PN} += "OpenSceneGraph"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libOpenThreads.so.21 \
+RDEPENDS:${PN} += "libOpenThreads.so.21 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

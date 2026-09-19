@@ -2,26 +2,25 @@ SUMMARY = "LeechCraft Radio streams Module"
 DESCRIPTION = "This package provides a radio streams provider plugin for LeechCraft."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-hotstreams-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "eb9bc4a107b6c0d39bd6c0d77b7ee3e3b673163dae7bcb5220a57193924b4996bcd6b74a471f0b275d8092310065da921b541b1a4277dc3023fc1db3b2b50095"
+RPM_NAME = "leechcraft-hotstreams-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "0288636368e05fcf8accb9acbf74805f0c84763957fb1c8a9df767dab71f33b025266ab66318ed96fd31ada991c05b32cb813813698a389e9c40c0695253741f"
 
 RPROVIDES:${PN} += "leechcraft-hotstreams \
 libleechcraft-hotstreams.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-lmp \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

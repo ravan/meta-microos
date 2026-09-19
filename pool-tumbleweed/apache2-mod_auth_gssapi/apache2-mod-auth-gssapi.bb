@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.6.5"
 
-RPM_NAME = "apache2-mod_auth_gssapi-1.6.5-1.1.aarch64.rpm"
-RPM_HASH = "b8f0fbfa8ff22ee09b8121b57b7ee40d3061b3b90a650346183f284b889a891cec78c7a9478e485dda0d16db796b980c59d7bb59b69185b1d5d973f66bcfa4ce"
+RPM_NAME = "apache2-mod_auth_gssapi-1.6.5-3.6.aarch64.rpm"
+RPM_HASH = "b464a0e8b7cfbb9e2f5f1ab570d4528377d89db1fa9bf3789c2eda33351028b5f2f1de764b02243cbf545a683d6320293ff6569d3afce25d92c9fb239fff3a6d"
 
 RPROVIDES:${PN} += "apache2-mod-auth-gssapi"
 

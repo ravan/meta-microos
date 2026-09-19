@@ -1,4 +1,4 @@
-SUMMARY = "Allows conversion between Roman and Arabic algarisms."
+SUMMARY = "Allows conversion between Roman and Arabic algarisms"
 DESCRIPTION = "This package supports both conventional Roman algarisms (which range from \
 _1_ to _3999_) and Milhar Romans, a variation which uses a bar across the \
 algarism to indicate multiplication by _1_000_. For the purposes of this \
@@ -11,17 +11,17 @@ Note: the functions in this package treat Roman algarisms in a \
 case-insensitive manner such that 'VI' == 'vI' == 'Vi' == 'vi'. \
  \
 The following functions may be imported into the caller package by name:"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.5"
+PV = "3.500.0"
 
-RPM_NAME = "perl-Text-Roman-3.5-1.26.noarch.rpm"
-RPM_HASH = "5fdf032ea348651c7c0ce78f9b61ac15af0acb1edf32d9f3fc8c3baad664710cc656f3fa00c6166a34dbe25a143ee0e6a3be521053096cf1144df31a9de46cbf"
+RPM_NAME = "perl-Text-Roman-3.500.0-1.10.noarch.rpm"
+RPM_HASH = "2102b028345dac3377de506a8c96bbe1c851dddf0d340935efd97a1dcf46469f970ff2c123107d589d67fa2f85f5383344fef91e038ab9cf95d28f0bfdcf6825"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Roman \
 perl-Text-Roman"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -9,20 +9,22 @@ virtualization. \
 This package provides i386 and x86_64 emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-x86-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "d9af5544bdb7a65c02e2f4a24bd76128e221a1c1ef39918fb1a49a1854c5f6dc9f2d07b4715aad6e31476ecda34f97b944cc6958ef14a5386efb91d7fa2a2154"
+RPM_NAME = "qemu-x86-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "f7069bd2e2ad84d8af0a12d0b881706355b7978476c70785c8cf275cd2634fb7f26920895dd0a3aef118ab044bdf942157809ffe2712ee58053a7208794129fa"
 
 RPROVIDES:${PN} += "qemu-x86"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ipxe-qemu \
+ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libbpf.so.1 \
 libc.so.6 \
-libcapstone.so.4 \
+libcapstone.so.5 \
+libcbor.so.0.14 \
 libfdt.so.1 \
-libgcc-s.so.1 \
+libfuse3.so.4 \
 libgcrypt.so.20 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
@@ -31,6 +33,7 @@ libgnutls.so.30 \
 libgobject-2.0.so.0 \
 libibverbs.so.1 \
 libjpeg.so.8 \
+libkeyutils.so.1 \
 liblzo2.so.2 \
 libm.so.6 \
 libnuma.so.1 \
@@ -45,11 +48,10 @@ libsnappy.so.1 \
 libudev.so.1 \
 liburing.so.2 \
 libvdeplug.so.3 \
+libxdp.so.1 \
 libz.so.1 \
 libzstd.so.1 \
 qemu \
-qemu-accel-tcg-x86 \
-qemu-ipxe \
 qemu-seabios \
 qemu-vgabios"
 

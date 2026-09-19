@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.0"
 
-RPM_NAME = "jaxb-api-javadoc-4.0.0-2.6.noarch.rpm"
-RPM_HASH = "50d17cd708774e749843b4db4d850ff45e9cfcb5010af0ca35c170da9beccfc9960e09f1d2e255ecb02d4612ab1d490a5d815b688958b7d5b5e95399768e133a"
+RPM_NAME = "jaxb-api-javadoc-4.0.0-3.9.noarch.rpm"
+RPM_HASH = "9ed196633daebed334bdb789562eab167540c4458ef58695fddf1d1aff5f2c68ecea2974854805079291b65673978f7f85fb329c8fb38c712aa31539f6ab5923"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jaxb-api-javadoc"

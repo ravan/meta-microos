@@ -4,10 +4,10 @@ DVD±RW recorder. Be very careful when writing firmware as this \
 program does not check for the correctness of the target device."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "btcflash-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "06faf4ac0ca30704aa8c7b0e8466d01181a10e05c64ed1a8f3e1d2e9109dd1c6d52759c583e98ed37d53393a5a5b36ce3fc7b88ac939e038fca2d5457202e924"
+RPM_NAME = "btcflash-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "1a76453bdf33970c89c9d8f972ee4a8809e72f3f54cd6fd1401baeabea420f7a10a515d4f78a909733e0ad2226c41a40993b047cc05a3f50e73910ad16b0f8ce"
 
 RPROVIDES:${PN} += "btcflash"
 

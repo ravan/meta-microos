@@ -2,10 +2,10 @@ SUMMARY = "SDR driver for RTL2832"
 DESCRIPTION = "Library to run Realtek RTL2832 based DVB dongle as a SDR receiver."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.0"
+PV = "2.0.3"
 
-RPM_NAME = "librtlsdr0-0.6.0-2.9.aarch64.rpm"
-RPM_HASH = "1d96229dea65c4134cca3f5530f63d0691fe2b8bcf1d36bad6230f3c128d5b46def374de72a31c9403ce079f7643a68a692ebd33d94ecd81f3a922f6841b2320"
+RPM_NAME = "librtlsdr0-2.0.3-1.1.aarch64.rpm"
+RPM_HASH = "e6e1ef90d12a810827222db41218bb799c3a2bbc45bf1170df7cd8907c241fcf514f41dfa6c09c9f777bd81e48c219815f5e7f3eb8d160c9f42f2d39e89c74d9"
 
 RPROVIDES:${PN} += "librtlsdr.so.0 \
 librtlsdr0"

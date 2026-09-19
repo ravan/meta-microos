@@ -27,18 +27,18 @@ that it is advertising itself as correctly. \
 This also means that more than one test might be 'counted' for each call to \
 'object_ok'. You should account for this correctly in your expected test \
 count."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.08"
+PV = "0.80.0"
 
-RPM_NAME = "perl-Test-Object-0.08-1.21.noarch.rpm"
-RPM_HASH = "e3423a10b843ebb3a13376561f274c4328d9c16adece6623616f8886e6393784f07fc3abe4fda369f2d313b1eadd7728c544412789d33ddedc8ba46d69476fa9"
+RPM_NAME = "perl-Test-Object-0.80.0-1.7.noarch.rpm"
+RPM_HASH = "ba2a0b0c1e33ed95150fbd060f98ab2d9d91cf89e7919eaf96789200ee3c507879dc8e4881cc13666ada3f9dfa03fdff2ed44a143b20a8857b17118bf2b640f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Object \
 perl-Test--Object--Test \
 perl-Test-Object"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

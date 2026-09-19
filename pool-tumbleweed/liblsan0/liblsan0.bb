@@ -3,10 +3,10 @@ DESCRIPTION = "The runtime library needed to run programs compiled with the \
 -fsanitize=leak option of the GNU Compiler Collection (GCC)."
 LICENSE = "MIT"
 
-PV = "13.2.1+git7683"
+PV = "16.2.0+git9497"
 
-RPM_NAME = "liblsan0-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "f0232fe4314122c6a49818c0653b15254ab2bf990d2cb2bdefdaff0d1eee4c058926d2980e6d8aece3ee2c7bd66980f3543abaea0da0104b215d7a67d8b63226"
+RPM_NAME = "liblsan0-16.2.0+git9497-3.1.aarch64.rpm"
+RPM_HASH = "0bde08c9289f5a26252ccaa4e439fe3c8ef9201b19c534fa086eae8198dfe2598fc8b207aee19694c2cdc8b8a1c9a66d4793be7f26ef35f8daeaac9b043a9d9e"
 
 RPROVIDES:${PN} += "liblsan.so.0 \
 liblsan0"

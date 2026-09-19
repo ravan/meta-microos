@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "190700_20210406"
 
-RPM_NAME = "portaudio-devel-190700_20210406-1.9.aarch64.rpm"
-RPM_HASH = "21b65235c38edf6e6ea0911234619266c9e244a176af339ce7b25815b8a381c2aaa20598c85f97375a6754ad2c550e4d8c8911661628892efbf4bde457ab9a6b"
+RPM_NAME = "portaudio-devel-190700_20210406-1.19.aarch64.rpm"
+RPM_HASH = "7b830ab72dfa4dc7d21acae6067d1917b587194631cfad6e4e66a6a099dabd8d6d652a818ce1999e87586efa5a8e3b3f3a04f720906fbe2c7323fa1c0c6bd49f"
 
 RPROVIDES:${PN} += "pkgconfig-portaudio-2.0 \
 pkgconfig-portaudiocpp \

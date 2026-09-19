@@ -2,10 +2,10 @@ SUMMARY = "openSUSE package repositories"
 DESCRIPTION = "Definitions for openSUSE repository management via zypp-services"
 LICENSE = "MIT"
 
-PV = "20230810.a7534f6"
+PV = "20260423.1a6a0f3"
 
-RPM_NAME = "openSUSE-repos-Tumbleweed-20230810.a7534f6-1.1.aarch64.rpm"
-RPM_HASH = "fe0246ffec43bee2eea9b8296d1194e82caea724933b2761dbce0ff6ef1694179123ec1f1230763edc2d79ee38cfead2decf6c39fe7d36d8c05e8e894400da39"
+RPM_NAME = "openSUSE-repos-Tumbleweed-20260423.1a6a0f3-2.2.aarch64.rpm"
+RPM_HASH = "071bc298e8d3ab46570beb9a35c38d67ba0ac98991862f45bc03d8f36f3675e8069aa2419568447d4a4613d4b33fbc60ad73d7acb287eb4f0c09e4cab9aabffd"
 
 RPROVIDES:${PN} += "openSUSE-repos \
 openSUSE-repos-Tumbleweed"

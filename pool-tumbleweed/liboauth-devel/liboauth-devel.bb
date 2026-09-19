@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.0.3"
 
-RPM_NAME = "liboauth-devel-1.0.3-4.7.aarch64.rpm"
-RPM_HASH = "3a3ab12d668ca5ed3dddb5c4895bc87afd69060c0b4f8ad6b3d0fd3fc0d978b7b03b0719eb0d393305f5a16c236b19296667d383f4bf010e570342c1ed540a84"
+RPM_NAME = "liboauth-devel-1.0.3-5.10.aarch64.rpm"
+RPM_HASH = "5b25062e91bc1b59cbabd0e1137fbc53a81c8183968a91dd54f77eaf5ba643ef1d4f0d1c9ea7325cf66b7f1e7f0155723cef39ea064afa548c3ed1fc072dab82"
 
 RPROVIDES:${PN} += "liboauth-devel \
 pkgconfig-oauth"

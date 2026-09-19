@@ -4,12 +4,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "python3-ccm-0.8.18-2.11.noarch.rpm"
-RPM_HASH = "15f3b7b2628964b6f817941c0ca8a67e1b899692dd8bc0558f3d4a8110253d137c1abd589f0c85920d36862a0309e1c2de9801e5cf23ff77d96e8236a3be85c1"
+RPM_NAME = "python3-ccm-0.8.18-3.3.noarch.rpm"
+RPM_HASH = "bc34f279b5b91dc7b10bbfeecffff0626fa607dad818586678366199bf7b66b6d98295d5f1d3aba477b31bd73b1cd74716d35291ceba23b7df3ae4f136c5aed7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ccm \
-python3.11dist-ccsm \
+python3.13dist-ccsm \
 python3dist-ccsm"
 
 RDEPENDS:${PN} += "compiz \

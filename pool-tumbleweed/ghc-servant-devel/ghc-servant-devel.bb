@@ -2,39 +2,38 @@ SUMMARY = "Haskell servant library development files"
 DESCRIPTION = "This package provides the Haskell servant library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.19.1"
+PV = "0.20.3.0"
 
-RPM_NAME = "ghc-servant-devel-0.19.1-3.5.aarch64.rpm"
-RPM_HASH = "d8b352e8b749a17ed59a89106f25c7ab4126b3d7aa24d5b0985b8eb684bd2150abdea8de2b4db3980b93f4082fbc53b8e86a700b1e5aaa89351e0523bc513fed"
+RPM_NAME = "ghc-servant-devel-0.20.3.0-4.5.aarch64.rpm"
+RPM_HASH = "0e4fd4e9d8bb2af7821fac68ab1f707dc9015a2c0c833c96b5444afbb24177159476baaa2633f1b9448e17556d20e365d99bfe73fe32704d49118ec87826e08c"
 
-RPROVIDES:${PN} += "ghc-devel-servant-0.19.1-3wkqjCY5ZM9IhGFtmRnyia \
+RPROVIDES:${PN} += "ghc-devel-servant-0.20.3.0-AuNk1SYjBzoHus6V4PFhXb \
 ghc-servant-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-QuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8 \
-ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-base-compat-0.13.0-ASw4phAd2I0LrTJ4o8lXb1 \
-ghc-devel-bifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
-ghc-devel-constraints-0.13.4-7HFJx00f7ri8MCLIfNZmvk \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-http-api-data-0.5-9CvKaE1JZO8KjKgwdog9dy \
-ghc-devel-http-media-0.8.1.0-COFozQnKf3L2ra0cnOflYd \
-ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-devel-mmorph-1.2.0-8vW65Nxa2ivI7uZwSjYXdn \
-ghc-devel-mtl-2.2.2 \
-ghc-devel-network-uri-2.6.4.2-3utC1p6H7mg92qIH44jQaM \
-ghc-devel-singleton-bool-0.1.6-32zI19nhSdNCZbR5BPJbeE \
-ghc-devel-sop-core-0.5.0.2-4Gqw6OnhbZAJM3BBTi5hGD \
-ghc-devel-string-conversions-0.4.0.1-3N7tba7YAcNAKUMLxg4Ink \
-ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
-ghc-devel-text-2.0.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-vault-0.3.1.5-JTstBlaocLP2eokwHW0Uig \
+ghc-devel-QuickCheck-2.15.0.1-BiJUyvfspYF6JuhHRqpj7J \
+ghc-devel-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-devel-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bifunctors-5.6.3-9Dfko6C8LIIe8HG4zoeag \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-case-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC \
+ghc-devel-constraints-0.14.4-7xyUtqfmnIL5WxGRWAAF5a \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-generics-sop-0.5.1.4-AvLlDZ30DmSAgpFaUKsIGG \
+ghc-devel-http-api-data-0.6.3-I1ef71ZD4mvBWZMbbifsIw \
+ghc-devel-http-media-0.8.1.1-CGZiZUC7By82YjYrR6pIDk \
+ghc-devel-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-devel-mmorph-1.2.2-8rdXPOqza0cFiQFk7Wz51h \
+ghc-devel-mtl-2.3.2-37ef \
+ghc-devel-network-uri-2.6.4.2-BA29PoG9pX1EAcGKolsVh8 \
+ghc-devel-singleton-bool-0.1.8-HY7gfyx2MgbLc4ChWl2rDv \
+ghc-devel-sop-core-0.5.0.2-JbzyU3U5Jc9a9b8Omhy6m \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-vault-0.3.2.0-GYOqPpJA2DW5Qz2IFtkvei \
 ghc-servant"
 
 inherit rpm

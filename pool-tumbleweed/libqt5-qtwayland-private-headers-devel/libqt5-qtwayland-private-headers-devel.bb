@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde51"
+PV = "5.15.19+kde55"
 
-RPM_NAME = "libqt5-qtwayland-private-headers-devel-5.15.10+kde51-1.1.noarch.rpm"
-RPM_HASH = "0001621a874692ff535c627efb7d54b3de687cba4c1233e654b045a9aa638232a399ddba4ba7b6addcf34329f51f9264771f3a6813b50f6d66fedb4157ae6fa0"
+RPM_NAME = "libqt5-qtwayland-private-headers-devel-5.15.19+kde55-1.2.noarch.rpm"
+RPM_HASH = "3bc3753fbb9bae84b9b8189c67060441ee3aefa7b202d95d5df2bf8db1ace168aaaf3e8baec596246afd4af5b314acee158969e7cf9860b1503274915c11be13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtwayland-private-headers-devel"

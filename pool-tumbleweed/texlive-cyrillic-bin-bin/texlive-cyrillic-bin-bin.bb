@@ -2,10 +2,10 @@ SUMMARY = "Binary files of cyrillic-bin"
 DESCRIPTION = "Binary files of cyrillic-bin"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn53554"
+PV = "2026.20260301.svn53554"
 
-RPM_NAME = "texlive-cyrillic-bin-bin-2023.20230311.svn53554-93.2.aarch64.rpm"
-RPM_HASH = "e7764a2f241b0b5192ab382a63006db362e6e8ac825e57f102f0c171bcd084e94cb24b03a4f451752db33c9e15fee0762d2d82d991f1bc16eca18c2807f78947"
+RPM_NAME = "texlive-cyrillic-bin-bin-2026.20260301.svn53554-120.4.aarch64.rpm"
+RPM_HASH = "62d86e6a284190f0d23bcbfc2758c06770ff1e5a4b932b01c2e2a9095762366ed2567dfb0f13e565c7a7dfebfce59c1d5038ca9f2ecb1b579f5b5e9736f287f7"
 
 RPROVIDES:${PN} += "texlive-cyrillic-bin-bin"
 

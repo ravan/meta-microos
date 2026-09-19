@@ -6,15 +6,15 @@ This package provides a catalog for Glade, to allow the use the libpeas \
 widgets in Glade."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.36.0"
+PV = "1.38.1"
 
-RPM_NAME = "glade-catalog-libpeas-1.36.0-1.2.noarch.rpm"
-RPM_HASH = "ef64d90c3c14f8db3ac7e0228076a3c68cf2e47a0ade64ac7075a1d0ca837e98b039a8bc1048e4b2b492e6acbf5e508d35faf6ee9197426d99abb7a4f1197a61"
+RPM_NAME = "glade-catalog-libpeas-1.38.1-1.3.noarch.rpm"
+RPM_HASH = "6e373bab688d76de349865810aefdb95d893df1c2e79ee6dd5c320282efa07af372dbbe47279dabf055685e6c1493edb8bb3a9c23fe140d9d6dfb8a3c95f59f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glade-catalog-libpeas"
 
 RDEPENDS:${PN} += "glade \
-libpeas-gtk-1-0-0"
+libpeas-gtk-1-0-1"
 
 inherit rpm

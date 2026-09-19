@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chhaya"
 DESCRIPTION = "This package includes the documentation for texlive-chhaya"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.4svn61719"
+PV = "2026.226.0.0.4svn61719"
 
-RPM_NAME = "texlive-chhaya-doc-2023.209.0.0.4svn61719-54.1.noarch.rpm"
-RPM_HASH = "4f101557b3ace9def03d6e2daa7992c01bc7af81d594fb498a9ff78bf1eb89de58967379a6a63a59b43c1793afdfa44a5fc7c621dd9602aefdeaa79d0c363199"
+RPM_NAME = "texlive-chhaya-doc-2026.226.0.0.4svn61719-60.2.noarch.rpm"
+RPM_HASH = "072524298ba2eb7d5844eaad1f549a25aa422dee829227020ab4dc2b4ec944f56a62272fb8d914812b745791796f2d7cb7fa4d639a86a113cf1f253c7c08b814"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-chhaya-doc-mr \

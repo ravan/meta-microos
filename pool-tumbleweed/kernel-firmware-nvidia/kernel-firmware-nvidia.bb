@@ -1,15 +1,33 @@
 SUMMARY = "Kernel firmware files for Nvidia Tegra and graphics drivers"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Nvidia Tegra and graphics drivers."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Nvidia Tegra and graphics drivers."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
-PV = "20230829"
+PV = "20260610"
 
-RPM_NAME = "kernel-firmware-nvidia-20230829-1.1.noarch.rpm"
-RPM_HASH = "49b0cb7308e90ba0806cb5da0c57e2a860f4eef76cfa7c4eddaf93ccc1f1b97361f0404e0277457ddecad2de1159a3c50e147da284f8c7bf526809ba7e64abeb"
+RPM_NAME = "kernel-firmware-nvidia-20260610-2.1.noarch.rpm"
+RPM_HASH = "26d4b2c578c5b773e03ad128348bcf83699fde79e79e41358684d47d7091740ef507eeb78d63c9d7b6acb8398ae09371e9ca1d840bbdea53e741937b1509e0bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "firmware-nvidia/ga102/acr/ucode-ahesasc.bin \
+RPROVIDES:${PN} += "firmware-nvidia/ad102/gsp/booter-load-535.113.01.bin \
+firmware-nvidia/ad102/gsp/booter-load-570.144.bin \
+firmware-nvidia/ad102/gsp/booter-unload-535.113.01.bin \
+firmware-nvidia/ad102/gsp/booter-unload-570.144.bin \
+firmware-nvidia/ad102/gsp/bootloader-535.113.01.bin \
+firmware-nvidia/ad102/gsp/bootloader-570.144.bin \
+firmware-nvidia/ad102/gsp/gsp-535.113.01.bin \
+firmware-nvidia/ad102/gsp/gsp-570.144.bin \
+firmware-nvidia/ad102/gsp/scrubber-570.144.bin \
+firmware-nvidia/ga100/acr/bl.bin \
+firmware-nvidia/ga100/gsp/booter-load-535.113.01.bin \
+firmware-nvidia/ga100/gsp/booter-load-570.144.bin \
+firmware-nvidia/ga100/gsp/booter-unload-535.113.01.bin \
+firmware-nvidia/ga100/gsp/booter-unload-570.144.bin \
+firmware-nvidia/ga100/gsp/bootloader-535.113.01.bin \
+firmware-nvidia/ga100/gsp/bootloader-570.144.bin \
+firmware-nvidia/ga100/gsp/gen-bootloader-570.144.bin \
+firmware-nvidia/ga100/gsp/gsp-535.113.01.bin \
+firmware-nvidia/ga100/gsp/gsp-570.144.bin \
+firmware-nvidia/ga102/acr/ucode-ahesasc.bin \
 firmware-nvidia/ga102/acr/ucode-asb.bin \
 firmware-nvidia/ga102/acr/ucode-unload.bin \
 firmware-nvidia/ga102/gr/NET-img.bin \
@@ -17,6 +35,14 @@ firmware-nvidia/ga102/gr/fecs-bl.bin \
 firmware-nvidia/ga102/gr/fecs-sig.bin \
 firmware-nvidia/ga102/gr/gpccs-bl.bin \
 firmware-nvidia/ga102/gr/gpccs-sig.bin \
+firmware-nvidia/ga102/gsp/booter-load-535.113.01.bin \
+firmware-nvidia/ga102/gsp/booter-load-570.144.bin \
+firmware-nvidia/ga102/gsp/booter-unload-535.113.01.bin \
+firmware-nvidia/ga102/gsp/booter-unload-570.144.bin \
+firmware-nvidia/ga102/gsp/bootloader-535.113.01.bin \
+firmware-nvidia/ga102/gsp/bootloader-570.144.bin \
+firmware-nvidia/ga102/gsp/gsp-535.113.01.bin \
+firmware-nvidia/ga102/gsp/gsp-570.144.bin \
 firmware-nvidia/ga102/nvdec/scrubber.bin \
 firmware-nvidia/ga102/sec2/desc.bin \
 firmware-nvidia/ga102/sec2/hs-bl-sig.bin \
@@ -74,6 +100,15 @@ firmware-nvidia/ga107/sec2/desc.bin \
 firmware-nvidia/ga107/sec2/hs-bl-sig.bin \
 firmware-nvidia/ga107/sec2/image.bin \
 firmware-nvidia/ga107/sec2/sig.bin \
+firmware-nvidia/gb100/gsp/bootloader-570.144.bin \
+firmware-nvidia/gb100/gsp/fmc-570.144.bin \
+firmware-nvidia/gb100/gsp/gsp-570.144.bin \
+firmware-nvidia/gb202/gsp/bootloader-570.144.bin \
+firmware-nvidia/gb202/gsp/fmc-570.144.bin \
+firmware-nvidia/gb202/gsp/gsp-570.144.bin \
+firmware-nvidia/gh100/gsp/bootloader-570.144.bin \
+firmware-nvidia/gh100/gsp/fmc-570.144.bin \
+firmware-nvidia/gh100/gsp/gsp-570.144.bin \
 firmware-nvidia/gk20a/fecs-data.bin \
 firmware-nvidia/gk20a/fecs-inst.bin \
 firmware-nvidia/gk20a/gpccs-data.bin \
@@ -335,6 +370,15 @@ firmware-nvidia/tu102/gr/sw-ctx.bin \
 firmware-nvidia/tu102/gr/sw-method-init.bin \
 firmware-nvidia/tu102/gr/sw-nonctx.bin \
 firmware-nvidia/tu102/gr/sw-veid-bundle-init.bin \
+firmware-nvidia/tu102/gsp/booter-load-535.113.01.bin \
+firmware-nvidia/tu102/gsp/booter-load-570.144.bin \
+firmware-nvidia/tu102/gsp/booter-unload-535.113.01.bin \
+firmware-nvidia/tu102/gsp/booter-unload-570.144.bin \
+firmware-nvidia/tu102/gsp/bootloader-535.113.01.bin \
+firmware-nvidia/tu102/gsp/bootloader-570.144.bin \
+firmware-nvidia/tu102/gsp/gen-bootloader-570.144.bin \
+firmware-nvidia/tu102/gsp/gsp-535.113.01.bin \
+firmware-nvidia/tu102/gsp/gsp-570.144.bin \
 firmware-nvidia/tu102/nvdec/scrubber.bin \
 firmware-nvidia/tu102/sec2/desc.bin \
 firmware-nvidia/tu102/sec2/image.bin \
@@ -404,6 +448,15 @@ firmware-nvidia/tu116/gr/sw-ctx.bin \
 firmware-nvidia/tu116/gr/sw-method-init.bin \
 firmware-nvidia/tu116/gr/sw-nonctx.bin \
 firmware-nvidia/tu116/gr/sw-veid-bundle-init.bin \
+firmware-nvidia/tu116/gsp/booter-load-535.113.01.bin \
+firmware-nvidia/tu116/gsp/booter-load-570.144.bin \
+firmware-nvidia/tu116/gsp/booter-unload-535.113.01.bin \
+firmware-nvidia/tu116/gsp/booter-unload-570.144.bin \
+firmware-nvidia/tu116/gsp/bootloader-535.113.01.bin \
+firmware-nvidia/tu116/gsp/bootloader-570.144.bin \
+firmware-nvidia/tu116/gsp/gen-bootloader-570.144.bin \
+firmware-nvidia/tu116/gsp/gsp-535.113.01.bin \
+firmware-nvidia/tu116/gsp/gsp-570.144.bin \
 firmware-nvidia/tu116/nvdec/scrubber.bin \
 firmware-nvidia/tu116/sec2/desc.bin \
 firmware-nvidia/tu116/sec2/image.bin \

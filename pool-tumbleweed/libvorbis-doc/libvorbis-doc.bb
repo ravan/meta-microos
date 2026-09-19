@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.7"
 
-RPM_NAME = "libvorbis-doc-1.3.7-4.1.noarch.rpm"
-RPM_HASH = "1084886d4fa1d0fb98b73b90b7cb4b8d72c83447076d11dc82cc777c5ea323323561f5515a4c90c9518ed3f9ac27d9ba897cc699f20152541f0d5c2fcb4e18ec"
+RPM_NAME = "libvorbis-doc-1.3.7-5.8.noarch.rpm"
+RPM_HASH = "32f312b49b640622bef652c004f5d3622a6f7fbbf341b6fac3744a614c89d356125667ddbed2e23cc99e399d3cccdc26160d03b095776abb9e9f834c0ed93ad4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libvorbis-doc"

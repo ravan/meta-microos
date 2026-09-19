@@ -7,12 +7,13 @@ mechanism for all assistive technologies to discover and interact \
 with applications running on the desktop."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.48.4"
+PV = "2.60.6"
 
-RPM_NAME = "at-spi2-core-2.48.4-1.1.aarch64.rpm"
-RPM_HASH = "11429a60a1ced0dbf18c7d913a19878d184d4f0a39b7c8b88be5bbcc5235041bc5ccb2f8b222213a5c68a0306084da01adbbcbeb03191db47b8f7f256483beda"
+RPM_NAME = "at-spi2-core-2.60.6-1.1.aarch64.rpm"
+RPM_HASH = "2cc2277d32e28a9cb30202c97682f3277cf3c314d148e7a72113220fb490698745b3402e27bbfaff70b37a62c4ea0711a83a9f2a103c8c38b58d1e0d65abd343"
 
-RPROVIDES:${PN} += "at-spi2-atk-gtk2 \
+RPROVIDES:${PN} += "at-spi2-atk-common \
+at-spi2-atk-gtk2 \
 at-spi2-core \
 libatk-bridge.so"
 
@@ -28,6 +29,8 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
-libsystemd.so.0"
+libsystemd.so.0 \
+python-abi \
+typelib-Atspi"
 
 inherit rpm

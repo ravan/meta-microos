@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ftc-notebook"
 DESCRIPTION = "This package includes the documentation for texlive-ftc-notebook"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn50043"
+PV = "2026.226.1.1svn50043"
 
-RPM_NAME = "texlive-ftc-notebook-doc-2023.209.1.1svn50043-53.1.noarch.rpm"
-RPM_HASH = "2b94f0a1886a14afa9e7b474064ff5f9d6334343c189d4330cb4893a16729c63415b574aa31eaf3e8cb022121024851a12580cec29fa9401b554af7ee92dab43"
+RPM_NAME = "texlive-ftc-notebook-doc-2026.226.1.1svn50043-60.2.noarch.rpm"
+RPM_HASH = "22f5843c4c789bcafd9723a26491982f6d1308eaa65f0f69bd0ff5a4a47084685bb2eff518be82dd49213d23cf1de0cd4707fa649fa45b134df73262c53eb6b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ftc-notebook-doc"

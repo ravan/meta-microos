@@ -2,10 +2,10 @@ SUMMARY = "Development files for libFcitx5GClient"
 DESCRIPTION = "This package provides development files for libFcitx5GClient."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.1.0"
+PV = "5.1.5"
 
-RPM_NAME = "libFcitx5GClient-devel-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "90e05cce243fc485222742c381c717bf7a089586d8e60c2640773844c904c87dd6fb48f9ce6f2725456a8d4cec7d5f58e2be31d072557ac723ccc2e74c7691bb"
+RPM_NAME = "libFcitx5GClient-devel-5.1.5-1.4.aarch64.rpm"
+RPM_HASH = "6ce6359718d7dfbf39a814b22857b85e09548f184db6b9cfec864422832f1e435e89c59d11fde94f44dbaedbd3dafe137c5015de8416831dbb538d9580d4c95d"
 
 RPROVIDES:${PN} += "cmake-Fcitx5GClient \
 libFcitx5GClient-devel \

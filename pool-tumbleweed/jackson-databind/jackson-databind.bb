@@ -2,12 +2,12 @@ SUMMARY = "General data-binding package for Jackson (2.x)"
 DESCRIPTION = "The general-purpose data-binding functionality and tree-model for Jackson Data \
 Processor. It builds on core streaming parser/generator package, and uses \
 Jackson Annotations for configuration."
-LICENSE = "Apache-2.0 & LGPL-2.1-or-later"
+LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-databind-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "707baacbdd454cbbd468b3d595c1ad1806902746d91aba92f3e535cb7f75d15556beea61231d51591f9ce049e4c4c8dc7f1d3f84fa6e9b69a32f78d53e3ec394"
+RPM_NAME = "jackson-databind-2.18.9-2.2.noarch.rpm"
+RPM_HASH = "2518d85185b263a158509fad746fefd947e5fd7ceae60556205d608a45bf17bcbe8c994139023a8255bed47467371681aed548a5e5522929ac106978908d7d22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-databind \

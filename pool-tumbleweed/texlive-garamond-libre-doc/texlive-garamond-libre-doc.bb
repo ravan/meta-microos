@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-garamond-libre"
 DESCRIPTION = "This package includes the documentation for texlive-garamond-libre"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn64412"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-garamond-libre-doc-2023.209.1.4svn64412-53.1.noarch.rpm"
-RPM_HASH = "8f16bfb91cd3dc03a261db139660edaf4cd80a0853ac4fff7bca47e54bcc83a6a7a52c070125f94a32b541545b9081716fb0b2a4596911b3e5734323f258a0dc"
+RPM_NAME = "texlive-garamond-libre-doc-2026.226.1.4svn77682-60.2.noarch.rpm"
+RPM_HASH = "70654bcb787f4348e024be675ffacf76ec9112fa8e0dde4913fd952a4ef1e46a3b36e2966d241f0046f2c29441803a2325ae374df60e1b418ae3051484d85673"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-garamond-libre-doc"

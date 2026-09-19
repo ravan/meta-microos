@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.0"
 
-RPM_NAME = "gnome-themes-lang-3.0.0-22.6.noarch.rpm"
-RPM_HASH = "49da8a87b25c7ce95c5aabe0b0d5202ef71a226fa57733cec043a4a9bf754e52ffa92a1dbbbd78e1ce2b15a6d629f9cad5ac5d2c6f895361b5c31766105f21b6"
+RPM_NAME = "gnome-themes-lang-3.0.0-23.4.noarch.rpm"
+RPM_HASH = "a5944d5d422240bafe5448eeeb258d7acd25b6ddc849339a4b4bbbdcdda665ed7f0bbfb5cea64a7796492b911b9bd7352d16ae22d30d613d38e66897c9a670c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-themes-lang \

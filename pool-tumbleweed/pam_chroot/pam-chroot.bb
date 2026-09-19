@@ -4,20 +4,13 @@ allows system administrators to set authentication policies without \
 having to recompile programs that do authentication. \
  \
 pam_chroot is a Linux-PAM module that allows a user to be chrooted in \
-auth, account, or session. \
- \
- \
- \
-Authors: \
--------- \
-    Matthew Kirkwood (weejock@ferret.lmh.ox.ac.uk) \
-    Ed Schmollinger (schmolli@frozencrow.org)"
+auth, account, or session."
 LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.2"
 
-RPM_NAME = "pam_chroot-0.9.2-64.7.aarch64.rpm"
-RPM_HASH = "0a5dc6bdae1c693d7315800915a91af4de37a7f5348f8d041413b73661ea94e1927ac770fcc7a770155bc519d9710baf205368c28761341ca3758826d8ec7904"
+RPM_NAME = "pam_chroot-0.9.2-65.9.aarch64.rpm"
+RPM_HASH = "2e5ef2ba126ea5fe22e5422276876ce4eb0404175ad1ebc88351ede68759cf834d80db64a73049661a37668c5d6b72a7f47e183b4abec04da57b0092a045e080"
 
 RPROVIDES:${PN} += "config-pam-chroot \
 pam-chroot \

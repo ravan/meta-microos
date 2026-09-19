@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the library needed to run programs dynamica
 with genders. This is the C API."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.28.1"
+PV = "1.32"
 
-RPM_NAME = "libgenders0-1.28.1-2.6.aarch64.rpm"
-RPM_HASH = "52eb5cd16e4a37e45eface13f9ebb70c3308dd0b70dff8d8c8e9fbeb12dd4494c646364617cf6a845f45e40f61e1a785c38a5cedd7f7a95040aa2c169f785bee"
+RPM_NAME = "libgenders0-1.32-1.10.aarch64.rpm"
+RPM_HASH = "d70c6a8f77466711109b5c093f2c61a22016d624d5ebf76155132bc397bbbd4f2f9899220f78ebfd081552eccb50e2b3f1c873ee928f4c2c35cf2621a49a4cab"
 
 RPROVIDES:${PN} += "libgenders.so.0 \
 libgenders0"

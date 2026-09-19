@@ -3,15 +3,18 @@ DESCRIPTION = "Find all open ports fast with RustScan, then automatically \
 pipe them into Nmap."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.1+0"
+PV = "2.4.1+0"
 
-RPM_NAME = "rustscan-2.1.1+0-2.1.aarch64.rpm"
-RPM_HASH = "48f33c0d46782833111414b50de09147cccaedcf9109947799c7f6e18060ae8aa189a1d7cab28d2872ccaa5bfcebf4e48b8f01faa9ce14a3c25c2e998e47a534"
+RPM_NAME = "rustscan-2.4.1+0-1.10.aarch64.rpm"
+RPM_HASH = "ed038f42d45d10bcec73cce0574422630352fe45b2cec57ef093a935a36565c2bb3f440a26af292953e75b633f4da10098a638519a2a97313ee94711e78663ab"
 
-RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
-bundled-rust-crate-adler \
+RPROVIDES:${PN} += "bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-term \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
 bundled-rust-crate-anyhow \
 bundled-rust-crate-async-channel \
 bundled-rust-crate-async-executor \
@@ -22,29 +25,37 @@ bundled-rust-crate-async-std \
 bundled-rust-crate-async-task \
 bundled-rust-crate-async-trait \
 bundled-rust-crate-atomic-waker \
-bundled-rust-crate-atty \
 bundled-rust-crate-autocfg \
-bundled-rust-crate-backtrace \
 bundled-rust-crate-base64 \
 bundled-rust-crate-bitflags \
 bundled-rust-crate-blocking \
+bundled-rust-crate-byteorder \
 bundled-rust-crate-bytes \
 bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
+bundled-rust-crate-cidr \
 bundled-rust-crate-cidr-utils \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
+bundled-rust-crate-clap-derive \
+bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-colored \
 bundled-rust-crate-colorful \
 bundled-rust-crate-concurrent-queue \
 bundled-rust-crate-crossbeam-utils \
-bundled-rust-crate-ctor \
-bundled-rust-crate-debug-helper \
+bundled-rust-crate-data-encoding \
 bundled-rust-crate-dirs \
 bundled-rust-crate-dirs-sys \
+bundled-rust-crate-displaydoc \
 bundled-rust-crate-either \
 bundled-rust-crate-enum-as-inner \
+bundled-rust-crate-env-filter \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
+bundled-rust-crate-errno \
 bundled-rust-crate-event-listener \
+bundled-rust-crate-event-listener-strategy \
 bundled-rust-crate-fastrand \
 bundled-rust-crate-form-urlencoded \
 bundled-rust-crate-futures \
@@ -59,39 +70,54 @@ bundled-rust-crate-futures-task \
 bundled-rust-crate-futures-util \
 bundled-rust-crate-gcd \
 bundled-rust-crate-getrandom \
-bundled-rust-crate-gimli \
+bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
+bundled-rust-crate-hickory-proto \
+bundled-rust-crate-hickory-resolver \
 bundled-rust-crate-hostname \
 bundled-rust-crate-humantime \
+bundled-rust-crate-icu-collections \
+bundled-rust-crate-icu-locid \
+bundled-rust-crate-icu-locid-transform \
+bundled-rust-crate-icu-locid-transform-data \
+bundled-rust-crate-icu-normalizer \
+bundled-rust-crate-icu-normalizer-data \
+bundled-rust-crate-icu-properties \
+bundled-rust-crate-icu-properties-data \
+bundled-rust-crate-icu-provider \
+bundled-rust-crate-icu-provider-macros \
 bundled-rust-crate-idna \
-bundled-rust-crate-iovec \
+bundled-rust-crate-idna-adapter \
+bundled-rust-crate-indexmap \
+bundled-rust-crate-ipnet \
+bundled-rust-crate-is-terminal-polyfill \
 bundled-rust-crate-itertools \
 bundled-rust-crate-itoa \
 bundled-rust-crate-kv-log-macro \
-bundled-rust-crate-lazy-static \
 bundled-rust-crate-libc \
 bundled-rust-crate-linked-hash-map \
+bundled-rust-crate-linux-raw-sys \
+bundled-rust-crate-litemap \
+bundled-rust-crate-lock-api \
 bundled-rust-crate-log \
 bundled-rust-crate-lru-cache \
 bundled-rust-crate-match-cfg \
-bundled-rust-crate-matches \
 bundled-rust-crate-memchr \
-bundled-rust-crate-miniz-oxide \
 bundled-rust-crate-mio \
-bundled-rust-crate-net2 \
 bundled-rust-crate-num-bigint \
 bundled-rust-crate-num-integer \
 bundled-rust-crate-num-traits \
-bundled-rust-crate-object \
 bundled-rust-crate-once-cell \
+bundled-rust-crate-option-ext \
 bundled-rust-crate-parking \
+bundled-rust-crate-parking-lot \
+bundled-rust-crate-parking-lot-core \
 bundled-rust-crate-percent-encoding \
 bundled-rust-crate-pin-project-lite \
 bundled-rust-crate-pin-utils \
+bundled-rust-crate-piper \
 bundled-rust-crate-polling \
 bundled-rust-crate-ppv-lite86 \
-bundled-rust-crate-proc-macro-error \
-bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quick-error \
 bundled-rust-crate-quote \
@@ -99,60 +125,69 @@ bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
 bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
 bundled-rust-crate-resolv-conf \
 bundled-rust-crate-ring \
 bundled-rust-crate-rlimit \
-bundled-rust-crate-rustc-demangle \
+bundled-rust-crate-rustix \
 bundled-rust-crate-rustls \
+bundled-rust-crate-rustls-pemfile \
+bundled-rust-crate-rustls-webpki \
 bundled-rust-crate-rustscan \
 bundled-rust-crate-ryu \
+bundled-rust-crate-scopeguard \
 bundled-rust-crate-sct \
 bundled-rust-crate-serde \
 bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
-bundled-rust-crate-shell-words \
+bundled-rust-crate-serde-spanned \
+bundled-rust-crate-shlex \
 bundled-rust-crate-slab \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-socket2 \
-bundled-rust-crate-spin \
+bundled-rust-crate-stable-deref-trait \
 bundled-rust-crate-strsim \
-bundled-rust-crate-structopt \
-bundled-rust-crate-structopt-derive \
-bundled-rust-crate-subprocess \
 bundled-rust-crate-syn \
-bundled-rust-crate-termcolor \
+bundled-rust-crate-synstructure \
+bundled-rust-crate-terminal-size \
 bundled-rust-crate-text-placeholder \
-bundled-rust-crate-textwrap \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
+bundled-rust-crate-tinystr \
 bundled-rust-crate-tinyvec \
 bundled-rust-crate-tinyvec-macros \
 bundled-rust-crate-tokio \
 bundled-rust-crate-tokio-rustls \
 bundled-rust-crate-toml \
-bundled-rust-crate-trust-dns-proto \
-bundled-rust-crate-trust-dns-resolver \
-bundled-rust-crate-trust-dns-rustls \
-bundled-rust-crate-unicode-bidi \
+bundled-rust-crate-toml-datetime \
+bundled-rust-crate-toml-edit \
+bundled-rust-crate-tracing \
+bundled-rust-crate-tracing-attributes \
+bundled-rust-crate-tracing-core \
 bundled-rust-crate-unicode-ident \
-bundled-rust-crate-unicode-normalization \
-bundled-rust-crate-unicode-segmentation \
-bundled-rust-crate-unicode-width \
 bundled-rust-crate-untrusted \
 bundled-rust-crate-url \
+bundled-rust-crate-utf16-iter \
+bundled-rust-crate-utf8-iter \
+bundled-rust-crate-utf8parse \
 bundled-rust-crate-value-bag \
-bundled-rust-crate-vec-map \
 bundled-rust-crate-version-check \
-bundled-rust-crate-waker-fn \
-bundled-rust-crate-webpki \
-bundled-rust-crate-webpki-roots \
+bundled-rust-crate-winnow \
+bundled-rust-crate-write16 \
+bundled-rust-crate-writeable \
+bundled-rust-crate-yoke \
+bundled-rust-crate-yoke-derive \
+bundled-rust-crate-zerocopy \
+bundled-rust-crate-zerocopy-derive \
+bundled-rust-crate-zerofrom \
+bundled-rust-crate-zerofrom-derive \
+bundled-rust-crate-zerovec \
+bundled-rust-crate-zerovec-derive \
 rustscan"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libgcc-s.so.1 \
-libm.so.6 \
-nmap"
+libm.so.6"
 
 inherit rpm

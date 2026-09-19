@@ -2,10 +2,10 @@ SUMMARY = "Macros for a two language dictionary"
 DESCRIPTION = "The lexikon package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0csvn17364"
+PV = "2026.226.1.0csvn17364"
 
-RPM_NAME = "texlive-lexikon-2023.209.1.0csvn17364-55.1.noarch.rpm"
-RPM_HASH = "eb4fda2c4ded06d9846fac632a03d9a25baf5c4895d32e92bb5da5c9963486c5f1be66a173aa311a0e0e10678812952d3d60835f975c593a473b8ca99304a81f"
+RPM_NAME = "texlive-lexikon-2026.226.1.0csvn17364-61.2.noarch.rpm"
+RPM_HASH = "9ead1ecf6d7d5b4d2bf2654b71fe9ddf3fea42d5685891bac2afaef9d89fee6fcca6c7d0f6b93dede27d616b383b93ae675ac6c433ba3d70ffb6ed4bda4e88ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lexikon.sty \

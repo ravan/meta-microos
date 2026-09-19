@@ -5,10 +5,10 @@ library. \
 This package contains the header files for the library."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.8"
+PV = "1.1.7"
 
-RPM_NAME = "nftables-devel-1.0.8-1.1.aarch64.rpm"
-RPM_HASH = "2d3491538f3cdefdd3438af66464846d5e2e6fca281c7b5df1760b303e58a61861055f743d0b32d9b159ea27fb665bc7343daec84086bb13e3180488f327548f"
+RPM_NAME = "nftables-devel-1.1.7-1.1.aarch64.rpm"
+RPM_HASH = "d8ac9ecc915bb0ccb5dc0967753edfdaf2e7a5d87accc1b6b9794a030b058cd9efbc5763997590bb544ce2990310ad57aedf1d0270e857a7385c85b01b1f0687"
 
 RPROVIDES:${PN} += "nftables-devel \
 pkgconfig-libnftables"

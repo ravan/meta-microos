@@ -8,13 +8,14 @@ with kmod. The aim is to be compatible with tools, configurations and \
 indexes from module-init-tools project."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "30"
+PV = "34.2"
 
-RPM_NAME = "kmod-30-8.1.aarch64.rpm"
-RPM_HASH = "523c09c69c1d319cbd54583c0607ecf78e7b3f7395fccc7b06679b4581386e1ad61418e3ac97726d0ab0cf6fc3ef29ba4d624067e706115b63b5fc9b6814faa1"
+RPM_NAME = "kmod-34.2-5.3.aarch64.rpm"
+RPM_HASH = "e5d138aeec1f10e7a700e291fd99d794484d15255f2a37c26c578d45a100161ac177d3e59c6c283e929b88407926a3c13fb58f8d8c5d4143ffd30c63ace2ea32"
 
 RPROVIDES:${PN} += "/sbin/modprobe \
 kmod \
+kmod-bash-completion \
 kmod-compat \
 kmod-zstd \
 module-init-tools \

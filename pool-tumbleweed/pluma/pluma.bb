@@ -10,10 +10,10 @@ includes support for spell checking, comparing files, viewing VCS \
 ChangeLogs, and adjusting indentation levels."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "pluma-1.26.1-1.2.aarch64.rpm"
-RPM_HASH = "0712010547dbcc92e05039afbf4d361d2084d02973e64285e132124c7a62f90367c0ea8c75b72da5e40dabb6ab07cbe2c21fbc6e5cf961d289d440e96e6a936f"
+RPM_NAME = "pluma-1.28.1-1.3.aarch64.rpm"
+RPM_HASH = "313dcac0aa1e901f9dd6f140b017d851ad8fdecdd193f3bc61523087b9370834b42fd920aed57ba2606422e16846e4df01d7adba1ba20ec104b819987891980f"
 
 RPROVIDES:${PN} += "libdocinfo.so \
 libfilebrowser.so \
@@ -34,19 +34,20 @@ libX11.so.6 \
 libatk-1.0.so.0 \
 libc.so.6 \
 libcairo.so.2 \
-libenchant.so.1 \
+libenchant-2.so.2 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
-libgirepository-1.0.so.1 \
+libgirepository-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libgtksourceview-4.so.0 \
+libmate-desktop-2.so.17 \
 libpango-1.0.so.0 \
-libpeas-1.0.so.0 \
-libpeas-gtk-1.0.so.0 \
-libxml2.so.2 \
+libpeas-1.0.so.1 \
+libpeas-gtk-1.0.so.1 \
+libxml2.so.16 \
 mate-desktop-gsettings-schemas \
 typelib-GLib \
 typelib-GObject \

@@ -2,10 +2,10 @@ SUMMARY = "OpenSSL crypto plugin for XML Security Library"
 DESCRIPTION = "Libraries, includes, etc. for developing XML Security applications with OpenSSL"
 LICENSE = "MIT"
 
-PV = "1.2.37"
+PV = "1.2.42"
 
-RPM_NAME = "xmlsec1-openssl-devel-1.2.37-3.1.aarch64.rpm"
-RPM_HASH = "148db78ef2e9b6991d53a12f7d892834a06f8dd5cadeb79faad09ae19e549932028d5f53f10c665721dd584a00300575dbc45c0e6ac86139271fcfd7ae0d20cc"
+RPM_NAME = "xmlsec1-openssl-devel-1.2.42-1.8.aarch64.rpm"
+RPM_HASH = "28fb64dc53318dde53085e0518360c4f05c762f0dc17b9d7c46857d9e9e12401a741397f1ab321aef58539a0b6173966c525b8ea97c7c586182e123ddd15f2aa"
 
 RPROVIDES:${PN} += "pkgconfig-xmlsec1-openssl \
 xmlsec1-openssl-devel"

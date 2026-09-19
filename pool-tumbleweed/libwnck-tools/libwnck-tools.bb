@@ -5,10 +5,10 @@ write task lists, pagers, and similar GNOME programs. \
 This package provides some utilities based on libwnck."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "43.0"
+PV = "43.3"
 
-RPM_NAME = "libwnck-tools-43.0-3.4.aarch64.rpm"
-RPM_HASH = "cfa04ae04ef0f5492520a8ad694eef48ada3d764b2094f14e923cecb435a7f36bed4dadd6e161eaf5b9c9ee3eace93fac5245bd9ac5bd95ea844a0f354495907"
+RPM_NAME = "libwnck-tools-43.3-2.4.aarch64.rpm"
+RPM_HASH = "01f0051fff74e6dacbb5490be38e376dc0990ea43d530822a3e3241a5ba7121797066a9760aac47dfb62e041a98f87a0ebe0e2ddc493c8061e020530c9770015"
 
 RPROVIDES:${PN} += "libwnck-tools"
 

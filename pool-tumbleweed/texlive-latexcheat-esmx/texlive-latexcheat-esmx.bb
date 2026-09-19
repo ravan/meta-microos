@@ -4,10 +4,10 @@ Chang's LaTeX cheat sheet (a reference sheet for writing \
 scientific papers)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.00svn36866"
+PV = "2026.226.2.00svn36866"
 
-RPM_NAME = "texlive-latexcheat-esmx-2023.209.2.00svn36866-55.1.noarch.rpm"
-RPM_HASH = "5f8e8930e732a74af734e7d2d9846ad14c8f6d2d9eb36bd5ee75cac69a0c5b683cdaeedbfa32e539592aef384638e166b8b0b723be8a91085edaabfc50fe8c6a"
+RPM_NAME = "texlive-latexcheat-esmx-2026.226.2.00svn36866-61.2.noarch.rpm"
+RPM_HASH = "514a2efd01b1e2e8d6b6ed088e4aa6b0b19d55ef21ce0364c3b9c1c0002e13b533698b9c751808236250acb99973d9c1322d83f95a0865fd16c55b19c8ef673a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexcheat-esmx"

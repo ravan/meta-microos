@@ -12,12 +12,12 @@ advantage of all functions if you do not configure XSane correctly. See \
 the documentation at /usr/share/sane/xsane/doc/sane-xsane-doc.html. \
  \
 The XSane home page is http://www.xsane.org/."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.999"
 
-RPM_NAME = "xsane-0.999-4.1.aarch64.rpm"
-RPM_HASH = "d668cfc37a9de3e294aed2b98c40c32cf2952ef48c92216b0eedd8fec1e488d277e2f76033759b30476c34ebf26d900e6490dd6614a685d493807bd1d09bb08d"
+RPM_NAME = "xsane-0.999-8.3.aarch64.rpm"
+RPM_HASH = "31c3f34cd3c7a4162b606b40bf0a447249d911840feadaef873e3f522e7120f6cc99069080e78d562f321c49a3711e08bcfad86a1ac3b9c19252d03bc0c33137"
 
 RPROVIDES:${PN} += "gimp-2.0-scanner-plugin \
 xsane"
@@ -25,8 +25,6 @@ xsane"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-x11-2.0.so.0 \
-libgimp-2.0.so.0 \
-libgimpbase-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-x11-2.0.so.0 \

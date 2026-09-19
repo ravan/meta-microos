@@ -4,10 +4,10 @@ both Type1 and OpenType fonts and selects the latter when using \
 XeLaTeX or LuaLaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.4svn54512"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-sourceserifpro-2023.209.1.4svn54512-58.1.noarch.rpm"
-RPM_HASH = "6c1e9d82c40f6e227e5485c4ac1face77933040e36e63ab92ac2d6b6765ede29b11afff0e32936e7f0a649f548f3de1e14db4c03e8f5eacd8c578b3fc01f1910"
+RPM_NAME = "texlive-sourceserifpro-2026.226.1.4svn77682-64.2.noarch.rpm"
+RPM_HASH = "45a008bd8492d20af4d67e2eedce05304737ffa3c7af949328514e73faf9cfd00e2c26bc31bf8c38a24d8c70871d5e1bbd5a561ba5001e2445a526c6cfef5021"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1SourceSerifPro-Dnom.fd \

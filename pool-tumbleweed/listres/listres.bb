@@ -3,10 +3,10 @@ DESCRIPTION = "The listres program generates a list of X resources for a widget 
 in an X client written using a toolkit based on libXt."
 LICENSE = "X11"
 
-PV = "1.0.5"
+PV = "1.0.7"
 
-RPM_NAME = "listres-1.0.5-1.7.aarch64.rpm"
-RPM_HASH = "c894521aeb1f9069497227743e4c9aa64c4586fb4ec04b090dfa3b97c55c9e28abc3a37df82c56f78df0232b20529caaebbd4d865b7fea12a0845b26db51f92f"
+RPM_NAME = "listres-1.0.7-1.3.aarch64.rpm"
+RPM_HASH = "7f13d64554cc8e6ff88aed2abb4d789ce6a50ccb707976f44c41a91436aead83600a84516affd037e56986718d4b7e307b33305ee6e05fa18e446a89442fd4f4"
 
 RPROVIDES:${PN} += "listres"
 

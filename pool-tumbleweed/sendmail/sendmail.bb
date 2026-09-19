@@ -10,10 +10,10 @@ TCP/IP (with or without a name server) and for systems using UUCP. \
 'sendmail' is a trademark of Sendmail, Inc."
 LICENSE = "Sendmail"
 
-PV = "8.17.2"
+PV = "8.18.2"
 
-RPM_NAME = "sendmail-8.17.2-1.1.aarch64.rpm"
-RPM_HASH = "93a6e738404e1766d524660accfb1378efe3d7a93cba17dbe7b30d02a0085717fe003b071c729fb1b009a45b980c01c8e08d0c8defc205cc9b3162810a744e54"
+RPM_NAME = "sendmail-8.18.2-3.3.aarch64.rpm"
+RPM_HASH = "b017b416fc8a7cf5ba93a510f112b438363567577ac1703193534d9aca72ec02898f8a3a6eb19238387a1e6b528e841a417d291cdef60ab90aa5899aae5b994c"
 
 RPROVIDES:${PN} += "config-sendmail \
 sendcf \
@@ -25,9 +25,12 @@ smtp-daemon"
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/fuser \
 /usr/bin/mkdir \
+/usr/bin/openssl \
 /usr/bin/perl \
 /usr/bin/sh \
+/usr/bin/timeout \
 /usr/bin/touch \
+ca-certificates \
 coreutils \
 filesystem \
 fillup \
@@ -38,7 +41,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libdb-4.8.so \
-libicuuc.so.73 \
+libicuuc.so.78 \
 liblber.so.2 \
 libldap.so.2 \
 libnss-usrfiles2 \
@@ -49,6 +52,7 @@ m4 \
 make \
 netcfg \
 permissions \
+permissions-config \
 procmail \
 sed \
 user-daemon \

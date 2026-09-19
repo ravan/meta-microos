@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "1.6.1"
 
-RPM_NAME = "libmypaint-devel-1.6.1-2.4.aarch64.rpm"
-RPM_HASH = "86bf6162510ad6fdd502bdaae74d3ca30356c75308b826e7b85c813308df1598abea4be5926e2113a23cfd0f6d6444fcc102c565aa582ccc490ddb66cd5e0c80"
+RPM_NAME = "libmypaint-devel-1.6.1-2.14.aarch64.rpm"
+RPM_HASH = "a2e2f49af1267db0297ea3cd500d9b049d4a81bb040e17c70d7703d41b5453af40136cf330df365417d8bec149fd2441257d40072656cc9d1bc26732db8c4961"
 
 RPROVIDES:${PN} += "libmypaint-devel \
 mypaint-devel \

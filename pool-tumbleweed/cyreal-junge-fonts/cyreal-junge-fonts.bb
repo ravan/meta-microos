@@ -9,8 +9,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.002"
 
-RPM_NAME = "cyreal-junge-fonts-1.002-7.17.noarch.rpm"
-RPM_HASH = "51ddeca3f198697624baf49e6a2327bfd5e70c54f9e0a1a8d33d60c8d223e7f8be7f1e72dc36b2610bc44651e5025d136ae187262b34d3c25d9ccfefc64a0b75"
+RPM_NAME = "cyreal-junge-fonts-1.002-7.25.noarch.rpm"
+RPM_HASH = "d46bf4d30777a926f486168a0f13eb3c279123d1e755d42232cdc537522a97b1237c54d38c915645a6e8ea99cb09bcf14af60d3b8e1680570dd279ad18b9f50f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cyreal-junge-fonts"

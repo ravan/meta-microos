@@ -5,8 +5,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.203"
 
-RPM_NAME = "courier-prime-fonts-1.203-2.14.noarch.rpm"
-RPM_HASH = "48a91ed020d1a14d63a8504a098fefc32df2320778b553c246be8aee70b204ae587c2d4ed6c50b78479d60c6f4c86832053ba303e54f0deb2d9ba43579e4623a"
+RPM_NAME = "courier-prime-fonts-1.203-2.22.noarch.rpm"
+RPM_HASH = "bc5a535115d6ef9cc657352b52d19172caa428cc78bb0d0e3961ef44f91f1d6b0583b784d23c1aaedd88c3229f3668e23de8ea4a689d4d1aec52b8a6b24d9ea9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "courier-prime-fonts"

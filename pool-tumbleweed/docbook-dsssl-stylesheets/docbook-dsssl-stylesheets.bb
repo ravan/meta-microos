@@ -12,8 +12,8 @@ LICENSE = "SUSE-XSL-Lint"
 
 PV = "1.79"
 
-RPM_NAME = "docbook-dsssl-stylesheets-1.79-176.10.noarch.rpm"
-RPM_HASH = "cd963c724752a44e7c94a121ddd44e01782559f7049cfcd213f110840cfd2e4a6e935b0561ef83e9806d774492008f0cbf8238d23c02cc384978b2467c82beed"
+RPM_NAME = "docbook-dsssl-stylesheets-1.79-177.3.noarch.rpm"
+RPM_HASH = "91f7b58fff040fa113a7be7f049eea9f64f5a21a7c7d08be5905fd984ee27c45692160050d99134c3bb6288103a47854cc748c16d34ea437b81166346c8e1ab6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbkdsl \

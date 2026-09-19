@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about Usenet News."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-news-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "49e197833757c13b9ab3dcc063853e54f03f339b5b6a9f9ab308661cfcfc594134014df67c471185565457e17836cb8e834f3649f90f749a9afddb80120a7e4f"
+RPM_NAME = "pcp-pmda-news-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "2cdb09a84da99f415911ca6d2dd08439c1f5d6393792c6501012d5250c1b75ce7e81db11646de06aca9e552292337883714b1d6cebea9bfe598d835524e0fc8d"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-news"
 

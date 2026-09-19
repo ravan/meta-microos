@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.14.0"
 
-RPM_NAME = "libpurple-plugin-prpltwtr-lang-0.14.0-1.27.noarch.rpm"
-RPM_HASH = "e1be2c70276c2c4bdbfc2d559016184c54d8c1ae22c190b6d6ab3ca70b3a9bde67026c4ee91260fc72b1b056e8db5a8c8454a3226173b07f55cce8c4e9e90416"
+RPM_NAME = "libpurple-plugin-prpltwtr-lang-0.14.0-2.9.noarch.rpm"
+RPM_HASH = "1dd3af9026c406ac120c4f117b637fd4585076e4423ad443fa7bce383ca9600dd392e65ba09987a04b39a2728447c38d5fac27b8d28df4b2486d739ba6e5b53a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpurple-plugin-prpltwtr-lang \

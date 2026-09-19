@@ -7,10 +7,10 @@ This package contains the development headers for the library found \
 in libXxf86vm1."
 LICENSE = "MIT"
 
-PV = "1.1.5"
+PV = "1.1.7"
 
-RPM_NAME = "libXxf86vm-devel-1.1.5-1.2.aarch64.rpm"
-RPM_HASH = "8ef4979b8d8214c4d2ca166b831e345f9f2494dfd195135ecac315a31a7782cd4846ffc85121d89260d873001238952c2b2771c70f001a0981d278f48d2916a0"
+RPM_NAME = "libXxf86vm-devel-1.1.7-1.4.aarch64.rpm"
+RPM_HASH = "15b705a31849b4b219fd116c02217abece83728d52355c413b11c5ec424f7246096007c9c10a579b8267553e438d5d9d4b948cd82107e34366e9b7a97e7f0674"
 
 RPROVIDES:${PN} += "libXxf86vm-devel \
 pkgconfig-xxf86vm"

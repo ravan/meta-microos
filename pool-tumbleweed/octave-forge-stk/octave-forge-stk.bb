@@ -11,10 +11,10 @@ Machine Learning, Non-parametric Regression, etc.). \
 This is part of Octave-Forge project."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.8.0"
+PV = "2.8.1"
 
-RPM_NAME = "octave-forge-stk-2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "acfcc428cd8e5d1d8f52dc56b8753d29dd1c6f157579b7f320650bf99657418a2db3e3d868bd159346788a68d8408bf2ac5e1bf10a3794d64f3fffdf2ad470f2"
+RPM_NAME = "octave-forge-stk-2.8.1-2.5.aarch64.rpm"
+RPM_HASH = "2bd51036b92e7dae9eb3339b49a7f6bb5f061a7cd44f2a1357209c691e8ce09827ec7aef62e8c8946135dc30dcf53ac67cbb776286514d8f4fdb91fe5af68d1f"
 
 RPROVIDES:${PN} += "octave-forge-stk"
 
@@ -22,6 +22,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
+liboctmex.so.1 \
 octave-cli"
 
 inherit rpm

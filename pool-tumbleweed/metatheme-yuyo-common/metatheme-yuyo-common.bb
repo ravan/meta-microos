@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.3"
 
-RPM_NAME = "metatheme-yuyo-common-0.3-1.16.noarch.rpm"
-RPM_HASH = "a14b527caed5a8f5afd6605608ef9f52eefe4260569239452aa6a434c6f621e4c5c548fea69a74d413e82f0e73d77d1086614981bdb22b5d293d896632258843"
+RPM_NAME = "metatheme-yuyo-common-0.3-1.24.noarch.rpm"
+RPM_HASH = "e1d7f39f07f5696fdc5723dd8ca4655d2a75e6690c3c8b31122d36c75da84fce3be15e8def2ce030f900648ed5f444d63083b7aa42209f9e9a520f8d3acb0af8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-yuyo-common"

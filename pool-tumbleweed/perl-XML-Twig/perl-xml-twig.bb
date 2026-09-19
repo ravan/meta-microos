@@ -1,5 +1,5 @@
-SUMMARY = "Perl Module for Processing Huge Xml Documents in Tree Mode"
-DESCRIPTION = "This module provides a way to process XML documents. It is build on top of \
+SUMMARY = "XML, The Perl Way"
+DESCRIPTION = "This module provides a way to process XML documents. It is built on top of \
 'XML::Parser'. \
  \
 The module offers a tree interface to the document, while allowing you to \
@@ -8,17 +8,17 @@ output the parts of it that have been completely processed. \
 It allows minimal resource (CPU and memory) usage by building the tree only \
 for the parts of the documents that need actual processing, through the use \
 of the 'twig_roots ' and 'twig_print_outside_roots ' options. The 'finish ' \
-and 'finish_print ' methods also help to increase performances. \
+and 'finish_print ' methods also help to increase performance. \
  \
-XML::Twig tries to make simple things easy so it tries its best to takes \
+XML::Twig tries to make simple things easy, so it tries its best to takes \
 care of a lot of the (usually) annoying (but sometimes necessary) features \
 that come with XML and XML::Parser."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.52"
+PV = "3.540.0"
 
-RPM_NAME = "perl-XML-Twig-3.52-2.15.noarch.rpm"
-RPM_HASH = "db1edaec2b78dff36b4a74270df9e9c292d752b96b0970cb3c133e7ba18e61a8e49469681d6c291ebc915c6bb95a256149a8e2cb58cd83cf177c4be758d5604f"
+RPM_NAME = "perl-XML-Twig-3.540.0-1.7.noarch.rpm"
+RPM_HASH = "eb4cdc7026e9b38b1bc3e6cca197236023b54b88ebdaeb5dfb9ec5c02d545ba5427738405ac58d2c9f2e7d33de674c66eaee9415d6345817605a1bcdecf579b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Twig \
@@ -35,7 +35,7 @@ perl-XML-Twig"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 expat \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Encode \
 perl-XML--Parser \
 perl-XML-Parser"

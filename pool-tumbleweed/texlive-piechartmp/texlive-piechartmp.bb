@@ -7,10 +7,10 @@ segments of the chart, thus creating the possibility of several \
 charts from the same data."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.0svn19440"
+PV = "2026.226.0.0.3.0svn19440"
 
-RPM_NAME = "texlive-piechartmp-2023.209.0.0.3.0svn19440-52.1.noarch.rpm"
-RPM_HASH = "071ab988872ce8ac1d07540d84fd38feae0a0a28b8302b3d5ea593620442bc4b11fafeb3265ab1a314b4ac6c4c49e7adb56a6296a026f978bb23f47a9f1f2347"
+RPM_NAME = "texlive-piechartmp-2026.226.0.0.3.0svn19440-58.2.noarch.rpm"
+RPM_HASH = "11d74567d53fe9942f8b96298202891bbdd753346714db01c79f7d6f5c4753de525cb5fd65daf3020f0ae8317db55b16ab0d480a7778e85b98b637e137eaf94f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-piechartmp"

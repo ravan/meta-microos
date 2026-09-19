@@ -2,10 +2,10 @@ SUMMARY = "Development files for chafa"
 DESCRIPTION = "Development files for chafa."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.12.5"
+PV = "1.18.2"
 
-RPM_NAME = "chafa-devel-1.12.5-1.1.aarch64.rpm"
-RPM_HASH = "27379c044167ef640050ea45c3d50f89663fa16bdc17d9fa8bd790655a4c0859c70976f4ab7aefc50dba95faa7686373311df16d86a6dfcc6bff9946700f17b2"
+RPM_NAME = "chafa-devel-1.18.2-1.3.aarch64.rpm"
+RPM_HASH = "51a14e1bc6dc606f2547d36f6fe5c6d28e397f70dfc312802764d3683187c384477bad85afa5e924bc7c4a2d03a69dd04cf38a6abe5cc091d48d760e2cdd73ed"
 
 RPROVIDES:${PN} += "chafa-devel \
 pkgconfig-chafa"

@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package artikulate"
 DESCRIPTION = "Provides translations for the 'artikulate' package."
-LICENSE = "LGPL-3.0-or-later & GPL-2.0-only & BSD-3-Clause"
+LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "artikulate-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "c30b2fd8c0bdad1522e9eddedc5fe50bc0aab6112741b5b5a2b9e83c9535de51778e7e9d8ddc647abc638326aef505663dc94c0e865fb856cb4cea5eae7222d4"
+RPM_NAME = "artikulate-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "1b996dcf5b5751e9bbd96e4d71df158bc081f34e92b453ecdbf68d6de34016be0b127ce66d0a2f8a63c18eadfbecdf0fad009aa1227056f0b5af137a253f81a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "artikulate-lang \
@@ -26,7 +26,9 @@ locale-artikulate-et \
 locale-artikulate-eu \
 locale-artikulate-fi \
 locale-artikulate-fr \
+locale-artikulate-ga \
 locale-artikulate-gl \
+locale-artikulate-he \
 locale-artikulate-hi \
 locale-artikulate-hu \
 locale-artikulate-ia \
@@ -35,6 +37,7 @@ locale-artikulate-ja \
 locale-artikulate-ka \
 locale-artikulate-ko \
 locale-artikulate-lt \
+locale-artikulate-lv \
 locale-artikulate-ml \
 locale-artikulate-mr \
 locale-artikulate-nds \

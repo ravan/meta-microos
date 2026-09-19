@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.10"
 
-RPM_NAME = "guile-bytestructures-1.0.10-1.1.aarch64.rpm"
-RPM_HASH = "8f7407a0d920396ea0f19c43e918e327e7fb0a59cf11722a9056816eed951fb3bb3525c1c3b59b6f41142cf9dce65973f4d723da74b08caae671f1dc271607b1"
+RPM_NAME = "guile-bytestructures-1.0.10-1.15.aarch64.rpm"
+RPM_HASH = "27dfdce513433adcef75344a2eb8197c099ef6fc481fd64093652ea7c4d7cdcd038edf3c84de70835d0e0bf3514d260d92d8de8d85c6ec8848e3a1e12074dd04"
 
 RPROVIDES:${PN} += "guile-bytestructures"
 

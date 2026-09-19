@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-nettool"
 DESCRIPTION = "Provides translations for the 'gnome-nettool' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "42.0"
+PV = "42.0+24"
 
-RPM_NAME = "gnome-nettool-lang-42.0-2.1.noarch.rpm"
-RPM_HASH = "8fbc94aa4915d048c513eacb88b8a9425a7d4442cbcf425a9d294ba1458554d69f3d2b9ab49b1925e5b07cc7d99934f6ae04e0aa46a7c71955b3921386037e50"
+RPM_NAME = "gnome-nettool-lang-42.0+24-1.7.noarch.rpm"
+RPM_HASH = "ed3eada46a6f12180c176570733ffc7af16a3447a8198933b0ceeda5422b5346d661f4344d80bdd5199651158824208faeaaa4031654d488313aa74283e5830e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-nettool-lang \

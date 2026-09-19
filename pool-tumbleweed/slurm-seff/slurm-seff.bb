@@ -4,10 +4,10 @@ it waits for accounting information to be available and includes that \
 information in the email body."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.4"
+PV = "25.11.2"
 
-RPM_NAME = "slurm-seff-23.02.4-2.1.noarch.rpm"
-RPM_HASH = "cf64bbf396d31c946648f12010e4cfd447218b9f6af5a6a00c942263e76a860c0795828df41f54eb08a7bca2da896efde1d48c22dcc0ed8e9979753563545422"
+RPM_NAME = "slurm-seff-25.11.2-1.6.noarch.rpm"
+RPM_HASH = "3afeadd3a30dd0f2f5b384d190155cf02fbd3f9bd74412340fc41c117c506f385ab21f915b90dc255bcfe0bf4a94b3a7451953cef4610ead28cd681d4192c47f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slurm-seff"

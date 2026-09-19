@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.3"
 
-RPM_NAME = "keyutils-devel-1.6.3-6.1.aarch64.rpm"
-RPM_HASH = "f1e46993a1576f5524be1d8cb80af4d603b684349a0e38c581e8c09d043ca32fee9fb1bb101fe96fa42c2668f15a65a937fa1f93bf2d68bd8d5117d19201966c"
+RPM_NAME = "keyutils-devel-1.6.3-7.10.aarch64.rpm"
+RPM_HASH = "7f420922c48f03a91fbb0d6093cd80dc131961e3b1caf3783d73305af680f08146ef3ebd94780d9363783eeaedc42fb8e827d64c2cf02a9849366a93d8591bc3"
 
 RPROVIDES:${PN} += "keyutils-devel \
 pkgconfig-libkeyutils"

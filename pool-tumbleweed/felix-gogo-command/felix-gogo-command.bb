@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.2"
 
-RPM_NAME = "felix-gogo-command-1.1.2-2.1.noarch.rpm"
-RPM_HASH = "375e693c36e616a6e853a03c1eae268bd1ebaa4448f538a07272a727f932bbe607933a810e4c70703a2ab12e2e4ea46a7701da999a1aa620d4d45d83cc6527d6"
+RPM_NAME = "felix-gogo-command-1.1.2-4.4.noarch.rpm"
+RPM_HASH = "fa97e5ff280c5ffaf16a6bd5ae4daf0a6560ee6a7bff3aeb612604b68230aaed3a9ab251925b76a2d242725db2606a6531292530b765bcf572042404c16cfaca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "felix-gogo-command \
@@ -18,7 +18,6 @@ osgi-org.apache.felix.gogo.command"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.apache.felix-org.apache.felix.gogo.runtime \
-mvn-org.osgi-org.osgi.service.log"
+mvn-org.apache.felix-org.apache.felix.gogo.runtime"
 
 inherit rpm

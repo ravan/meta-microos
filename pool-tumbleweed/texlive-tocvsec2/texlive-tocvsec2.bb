@@ -4,10 +4,10 @@ starred sectional commands) and/or the entries in the Table of \
 Contents on a section by section basis."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3asvn33146"
+PV = "2026.226.1.3asvn77682"
 
-RPM_NAME = "texlive-tocvsec2-2023.209.1.3asvn33146-53.1.noarch.rpm"
-RPM_HASH = "e71cff6b74ad43a17cacbcc1aeba9b6d4bde460291d305e624690b1baf63a5cba314d9c3567b77d7ba31e15910a03a860c4241fd99dcb28ddaecaeba4b434b5d"
+RPM_NAME = "texlive-tocvsec2-2026.226.1.3asvn77682-59.2.noarch.rpm"
+RPM_HASH = "826f535705d4939c2410c982b91ed969977d8e1d5b0c3a28867a2255993efd3a7cdfaf2b151bc15dff4f61be6c2ba22f23e8db00acff35d79f8e65bb48fc23ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tocvsec2.sty \

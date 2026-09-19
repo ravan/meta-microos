@@ -4,10 +4,10 @@ unixODBC or iODBC driver managers. This package contains generated \
 documentation."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.9998"
+PV = "0.99991"
 
-RPM_NAME = "sqliteodbc-doc-0.9998-1.16.aarch64.rpm"
-RPM_HASH = "33833d3e5b7070a75c9b275a1b3a304d02a663142fd4f604dd3a1b24c6c56edf144763c8044413617b348590d72349eccd979cb675b45fae45c8c7645cc64392"
+RPM_NAME = "sqliteodbc-doc-0.99991-2.8.aarch64.rpm"
+RPM_HASH = "080aed3cf42deda5422555ec142d2660242082ca7502be4eb1cbfea6ebc4715c06a9931aa68f180f835e9d28cef8f7e7f35ffa2a97e43883e862169c3f16d2cd"
 
 RPROVIDES:${PN} += "sqliteodbc-doc"
 

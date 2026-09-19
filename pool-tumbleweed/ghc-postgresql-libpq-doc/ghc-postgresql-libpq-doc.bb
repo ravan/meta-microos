@@ -2,10 +2,10 @@ SUMMARY = "Haskell postgresql-libpq library documentation"
 DESCRIPTION = "This package provides the Haskell postgresql-libpq library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.5.0"
+PV = "0.11.0.0"
 
-RPM_NAME = "ghc-postgresql-libpq-doc-0.9.5.0-2.9.noarch.rpm"
-RPM_HASH = "110fbde16c279bb4fef82f05e7a56dccca1561f05e7748bb1fe708e72c741fc81321a51125ba0726c048d2e7dd19f23ea4527a8c536c89905fefdb91bf8d27dc"
+RPM_NAME = "ghc-postgresql-libpq-doc-0.11.0.0-3.3.noarch.rpm"
+RPM_HASH = "64665de43d129ec7b5bd6258c00cf8a611b52ee22beb159314d81e6de516b46f51d1922a2895f42bc15ef10028b2b9906c9382a6b28d82e1f3d7d7341b609b0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-postgresql-libpq-doc"

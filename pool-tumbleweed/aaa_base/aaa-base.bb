@@ -2,10 +2,10 @@ SUMMARY = "openSUSE Base Package"
 DESCRIPTION = "This package installs several important configuration files and central scripts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87+git20230815.cab7b44"
+PV = "84.87+git20260610.3b5a868c"
 
-RPM_NAME = "aaa_base-84.87+git20230815.cab7b44-1.1.aarch64.rpm"
-RPM_HASH = "83d1121169b4b82494ba3d58b6936fd61757b8fe68e8525269598aab8047225e826e16fdbbe571c7443068384a6484673db4afa325e40906bdad317ca152cfff"
+RPM_NAME = "aaa_base-84.87+git20260610.3b5a868c-1.3.aarch64.rpm"
+RPM_HASH = "10791f9393397107cb79025d3c9b5231f09a39a3502e0f7b7fff77d66184fa75f363ba2fb1e0cc0ce25e8b64bc58d317293f11f7e1b0cfde3403924d0fe39c3a"
 
 RPROVIDES:${PN} += "/sbin/service \
 aaa-base \

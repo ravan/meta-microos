@@ -5,10 +5,10 @@ is the Metafont source of a slanted Computer Modern Caps and \
 Small Caps font."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.0asvn15878"
+PV = "2026.226.1.0asvn15878"
 
-RPM_NAME = "texlive-asaetr-2023.209.1.0asvn15878-54.1.noarch.rpm"
-RPM_HASH = "c6c57f0256b08acce8fc01dfba5623ac40b11a64bdb9792a46b7bc9675030ba38fe1c8be0b05838aa8d3b3df34202ea3950a3984e8700830dfd1eebd9453a591"
+RPM_NAME = "texlive-asaetr-2026.226.1.0asvn15878-60.2.noarch.rpm"
+RPM_HASH = "6c057e9080426d0b6c78a7c124bd68e1f759b1d884bcbe2074acb7aa638895170b8614b8cfda116067d5b0f0ccbbd5764f617b88d65c4d98f831435417683222"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asaesub.sty \

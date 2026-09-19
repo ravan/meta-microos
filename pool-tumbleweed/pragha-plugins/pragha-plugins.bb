@@ -23,8 +23,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.99.1"
 
-RPM_NAME = "pragha-plugins-1.3.99.1-3.4.aarch64.rpm"
-RPM_HASH = "907ed688a3f7e9be5e29abe695c72a9402879a088e6dae591f75ef1df610a4d5ca6190f09286d1780c7aad63b8b16c12f01dd2637bf7aca7856d3049cc6feef1"
+RPM_NAME = "pragha-plugins-1.3.99.1-5.7.aarch64.rpm"
+RPM_HASH = "73852d60cdd1123b169b34161edc295e169acd57e95e24a66b988adb0a9c65078f03897b4a40bc00395321ed993fbd0a8ab0e6ba268fab2c5085e376d9334a32"
 
 RPROVIDES:${PN} += "libacoustid.so \
 libcdrom.so \
@@ -66,10 +66,10 @@ libm.so.6 \
 libmtp.so.9 \
 libnotify.so.4 \
 libpango-1.0.so.0 \
-libpeas-1.0.so.0 \
+libpeas-1.0.so.1 \
 libpragha.so \
 libsoup-2.4.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 pragha"
 
 inherit rpm

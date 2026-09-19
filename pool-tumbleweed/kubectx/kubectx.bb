@@ -2,14 +2,13 @@ SUMMARY = "Faster way to switch between clusters and namespaces in kubectl"
 DESCRIPTION = "kubectx is a utility to manage and switch between kubectl(1) contexts."
 LICENSE = "Apache-2.0"
 
-PV = "0.9.5"
+PV = "0.11.0"
 
-RPM_NAME = "kubectx-0.9.5-1.1.noarch.rpm"
-RPM_HASH = "442e69aa3902ed72978039bbf4f8cc9c5486b3bc13048648350d4a2707097f97f3f63ad1f9920bf5e8d44683c2b13ee4b0829c3cc20e299ade9e24056badc77e"
-REPO_ARCH = "noarch"
+RPM_NAME = "kubectx-0.11.0-1.5.aarch64.rpm"
+RPM_HASH = "322f67bf9bd49399e747476c0500bda5b22a91355c51b1ae8d69aec7b5dffa8c539a7844c9bf279afe05ded9f2adbe9ed0525dd11aabaf2d0c968fde29ac4593"
 
 RPROVIDES:${PN} += "kubectx"
 
-RDEPENDS:${PN} += "/usr/bin/bash"
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

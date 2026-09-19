@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pdflscape"
 DESCRIPTION = "This package includes the documentation for texlive-pdflscape"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.13svn64851"
+PV = "2026.226.0.0.14svn77682"
 
-RPM_NAME = "texlive-pdflscape-doc-2023.209.0.0.13svn64851-52.1.noarch.rpm"
-RPM_HASH = "211e56d0d8fd8b57c10a47bceb9086acbf43593b6145e7c96da76a2811379b4a22e04998924513a31268a6f0656b35bf0145db1eb78b2e7abeadb8a380b36e4d"
+RPM_NAME = "texlive-pdflscape-doc-2026.226.0.0.14svn77682-58.2.noarch.rpm"
+RPM_HASH = "8f6200f5b66fbdd94e8c9ccbb5da82bec493a49b1b9975a7b5e9f8c4eb5a99864e77dbd1a6719e19ddf247397d330ac164d4611ff5195644e61168b53df022e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdflscape-doc"

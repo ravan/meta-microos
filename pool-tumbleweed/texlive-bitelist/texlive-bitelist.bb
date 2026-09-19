@@ -11,10 +11,10 @@ call. A variant of the operation is provided, that retains \
 outer braces."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn25779"
+PV = "2026.226.0.0.1svn25779"
 
-RPM_NAME = "texlive-bitelist-2023.209.0.0.1svn25779-53.1.noarch.rpm"
-RPM_HASH = "761368b9c245de7c769f3e9a187dd820ae58c8bf4ec479b115417d2f88ec8e583c78877f6c8182359cb199adf0a0c73003aa9568228c77e2f099500d9a062ea8"
+RPM_NAME = "texlive-bitelist-2026.226.0.0.1svn25779-59.2.noarch.rpm"
+RPM_HASH = "d7ea58769018437a834323c129d2d545d0b19888d367048212d28f4918c387dae0ad668275010106e99b29eeb6d76c6bd5ac7a62295e15d4d173f69dc1f26464"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bitedemo.tex \

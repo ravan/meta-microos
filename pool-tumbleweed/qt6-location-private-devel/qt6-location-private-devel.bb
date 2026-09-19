@@ -3,13 +3,18 @@ DESCRIPTION = "This package provides private headers of libQt6Location that do n
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-location-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "5a501d64aa90517b9a283969edee412a63ef8f8792e677c94f21ce27eab4f4e71265ea08ad08bac8e1d88262fc29b704f59f25528ac93103c9ab9b0ee5935041"
+RPM_NAME = "qt6-location-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "65cc5c8538ec9750bd122f1c2ce08c720b5e62f77b25f7841bceab10329ca1e0468b1651273d8efd1099727af3879f81fa5c4457203fe74ca26ce770f3f190b7"
 
-RPROVIDES:${PN} += "qt6-location-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6LocationPrivate \
+qt6-location-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6Location"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate \
+cmake-Qt6Location \
+cmake-Qt6PositioningPrivate \
+cmake-Qt6PositioningQuickPrivate \
+cmake-Qt6QuickPrivate"
 
 inherit rpm

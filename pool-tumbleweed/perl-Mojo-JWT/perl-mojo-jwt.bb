@@ -12,18 +12,17 @@ the data is not encrypted, so don't use it to send secrets over clear \
 channels."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.09"
+PV = "1.20.0"
 
-RPM_NAME = "perl-Mojo-JWT-0.09-1.4.noarch.rpm"
-RPM_HASH = "047bc7d6ec4518fd7de0a8a2cf531a4c02533469064d33ca4d85da3b29599af2fcfc5cf3fd1838ae4ab2cb6711d3838af41398537dd70a03671f689ec71cd304"
+RPM_NAME = "perl-Mojo-JWT-1.20.0-2.1.noarch.rpm"
+RPM_HASH = "d10192bc613090b1e455798b7e459bd4035e3d20543542ffec8bd590838f436c8f22360a5d1ec82585468dc06bce8db8b2067f01afe6f93039166dbc22ef583c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--JWT \
 perl-Mojo-JWT"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-Digest--SHA \
-perl-MIME--Base64 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-CryptX \
 perl-Mojolicious"
 
 inherit rpm

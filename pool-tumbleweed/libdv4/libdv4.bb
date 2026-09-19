@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "libdv4-1.0.0-179.6.aarch64.rpm"
-RPM_HASH = "3f42f33373d45d64c6c9b8dc214f870d8736a4807fd8f4826cf62bdaf14224f337d41e1358b4fb7582d016a63aec1c95639a864e627820ecd9ebe2128f56756e"
+RPM_NAME = "libdv4-1.0.0-181.3.aarch64.rpm"
+RPM_HASH = "e4ef172b665cb039663ddca0d72e997143d9ffbc62b119e126e6fcd3e9e448cd8d017c644acbca4c710db9dd58658d3dd96fe7c087792d0116ea32be15e3edbc"
 
 RPROVIDES:${PN} += "libdv.so.4 \
 libdv4"

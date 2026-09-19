@@ -4,10 +4,10 @@ for upTeX engine, together with a simple DVIPDFMx font mapping \
 of Fandol fonts for DVIPDFMx."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn40728"
+PV = "2026.226.1.0svn40728"
 
-RPM_NAME = "texlive-zhmetrics-uptex-2023.209.1.0svn40728-53.2.noarch.rpm"
-RPM_HASH = "86f4db77868cb6d2285a18553ffa61a152ff6d46203f3dbbd19eb929a1badb80aa255f9b6586468731e1752e0b13c3e8881e1f5aa167f393f3bc71cb44a00b1c"
+RPM_NAME = "texlive-zhmetrics-uptex-2026.226.1.0svn40728-59.4.noarch.rpm"
+RPM_HASH = "b79799748e327d2485972e9b282f62de7de2e6564090d6d02a7c35cafda8d59b3c9ffb5de5694f6e54031ef5dfbaf3fdb9bf21bb95c850e5be7d0368e938205f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-upmono-h.tfm \

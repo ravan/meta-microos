@@ -2,20 +2,20 @@ SUMMARY = "Haskell cassava-megaparsec profiling library"
 DESCRIPTION = "This package provides the Haskell cassava-megaparsec profiling library."
 LICENSE = "MIT"
 
-PV = "2.0.4"
+PV = "2.1.1"
 
-RPM_NAME = "ghc-cassava-megaparsec-prof-2.0.4-3.5.aarch64.rpm"
-RPM_HASH = "162a9fd57f1ccbf85d298a8549746c613531e45ff168773d5adfb0a10db8a4451c19c402a9e8eaba7f7c77c8ab3c89e19a143beebabff88d0f1f9d3706fc5496"
+RPM_NAME = "ghc-cassava-megaparsec-prof-2.1.1-1.21.aarch64.rpm"
+RPM_HASH = "f198f030474f4aaa8e8281e03355b3ade2e738b7749dca14e0a5cb501197757f049a46f8958a36bd2d804ef3c172b3dae76b5d9417c696ded8ae188943e0d50e"
 
 RPROVIDES:${PN} += "ghc-cassava-megaparsec-prof \
-ghc-prof-cassava-megaparsec-2.0.4-C7KekE0MHcyFXF3lsApNgX"
+ghc-prof-cassava-megaparsec-2.1.1-92PMhFSA6UZBxfXRek9rSe"
 
 RDEPENDS:${PN} += "ghc-cassava-megaparsec-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-cassava-0.5.3.0-3BxMB2hl3TbBsSJkTsXVLP \
-ghc-prof-megaparsec-9.3.1-Jdwz39dpTDz8anub3eLd49 \
-ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-cassava-0.5.4.1-8IyxQgBHHLo5YfhT4Ar4sR \
+ghc-prof-megaparsec-9.7.1-3bWkE5RywYh6b8gn4lQrB6 \
+ghc-prof-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-prof-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE"
 
 inherit rpm

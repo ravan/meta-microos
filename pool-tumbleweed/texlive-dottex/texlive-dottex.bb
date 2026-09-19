@@ -8,10 +8,10 @@ otherwise, the conversion must be done manually as an \
 intermediate process before a second LaTeX run."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.6svn15878"
+PV = "2026.226.0.0.6svn15878"
 
-RPM_NAME = "texlive-dottex-2023.209.0.0.6svn15878-53.1.noarch.rpm"
-RPM_HASH = "3dd02c43fee437ebebc8ca97f806c937d597d8fad2f7133b7c796e7101bf31bc2aff589b3f4e70e240011f64568eccff43a0ea062157f165dcbe24dbf8c0c8f6"
+RPM_NAME = "texlive-dottex-2026.226.0.0.6svn15878-59.2.noarch.rpm"
+RPM_HASH = "84760839f370eea56e1f7575e31b87eef3a7db92f4a54f40dffd2d70b065a6a9d33a9090ae0f571c87158a002a20cc952cfc2b9028bebeafa59cdf74eb04333e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dottex.sty \

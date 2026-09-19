@@ -5,10 +5,10 @@ refreshable braille display. It drives the braille display and provides \
 complete screen review functionality."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.6"
+PV = "6.9.1"
 
-RPM_NAME = "brltty-6.6-1.1.aarch64.rpm"
-RPM_HASH = "386d2302638a7ce155e19d815deb94dcf3031b59100c6d48427922bfb32931a43776fd6858fc344b6800a77ae116a989d1aab46a4d84c662029ad0c32ac10d6a"
+RPM_NAME = "brltty-6.9.1-2.1.aarch64.rpm"
+RPM_HASH = "eeb2e31bc053acc91083aed46c2d8a86851174b2b02082f240d61f16a9af61fe2f4e4a510e7841ac246ea92bcd5be7f5c312a1998896ff10cb239efa027c5932"
 
 RPROVIDES:${PN} += "brltty \
 config-brltty \
@@ -49,7 +49,6 @@ libbrlttybts.so \
 libbrlttybtt.so \
 libbrlttybvd.so \
 libbrlttybvo.so \
-libbrlttybvr.so \
 libbrlttybvs.so \
 libbrlttysal.so \
 libbrlttysbl.so \
@@ -61,11 +60,11 @@ libbrlttysxs.so \
 libbrlttyxem.so \
 libbrlttyxfv.so \
 libbrlttyxlx.so \
-libbrlttyxsc.so"
+libbrlttyxsc.so \
+libbrlttyxtx.so"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/env \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
@@ -78,7 +77,7 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgpm.so.2 \
-libicuuc.so.73 \
+libicuuc.so.78 \
 libncursesw.so.6 \
 libpcre2-32.so.0 \
 libpolkit-gobject-1.so.0 \

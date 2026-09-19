@@ -5,10 +5,10 @@ based and therefore makes it possible to use WWW resources on text \
 terminals."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.9.0~dev.10"
+PV = "2.9.3"
 
-RPM_NAME = "lynx-2.9.0~dev.10-1.10.aarch64.rpm"
-RPM_HASH = "b44d99516924373b8caeae7bd756140950d982c05accd69ff484c4bd3b9d44cd4f3d7a3da3d352bcfc329dc2260d12c388dba71e76ad28de96b9b1023aebabcb"
+RPM_NAME = "lynx-2.9.3-1.3.aarch64.rpm"
+RPM_HASH = "788c8a157139a16e6dcd8d3d1df24a140753d4525c178e430accb676980d8e4dfff91b156eafd2c31684a6afafcb460d2f931cdb12f715b812e3790c4a9835a5"
 
 RPROVIDES:${PN} += "config-lynx \
 lynx \
@@ -21,7 +21,6 @@ libcrypto.so.3 \
 libncursesw.so.6 \
 libssl.so.3 \
 libtinfo.so.6 \
-libz.so.1 \
-xli"
+libz.so.1"
 
 inherit rpm

@@ -1,11 +1,11 @@
 SUMMARY = "Development files for the Qt 6 3DQuickInput library"
 DESCRIPTION = "Development files for the Qt 6 3DQuickInput library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-3dquickinput-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "2453d522ee7382d6efa0976c2578f1e4fffa1e09da3708103afebc74ecadb05255febeb00497eeb2a1c3056f929b10c92614156c749212e80510d2308bb52a44"
+RPM_NAME = "qt6-3dquickinput-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "b2dcb68b381ee7d408932d8823e884f8d77de058b89e0c7f9b70985ac5d2e4a4bdbf6fbfb546e2e81bd1f52f902612f551d77457bd3ca79e7a466d54e0befe01"
 
 RPROVIDES:${PN} += "cmake-Qt63DQuickInput \
 pkgconfig-Qt63DQuickInput \

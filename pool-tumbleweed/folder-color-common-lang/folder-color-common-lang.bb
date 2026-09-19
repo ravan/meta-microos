@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.88"
 
-RPM_NAME = "folder-color-common-lang-0.0.88-2.9.noarch.rpm"
-RPM_HASH = "a0366e0d5581474be210f0498680ec984e2e675a94428190a8185b26423d8bdfea993340149962cf0cf8a97988ae7047f3fc31d85344832e9291ca37b972f926"
+RPM_NAME = "folder-color-common-lang-0.0.88-3.4.noarch.rpm"
+RPM_HASH = "a8d437a0abc90a2d4f623b709cf33382705f3aa0778f4a5c122c334881a2e51408298fe1fc7f80b4235b2ca97df165f2c5bea88fac597eeafbbb5a5cf56e0577"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "folder-color-common-lang \

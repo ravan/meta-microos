@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 Test library"
 DESCRIPTION = "Development files for the Qt 6 Test library."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-test-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "7db2726277e9047b3c9837c12a7ee33eb02084a9c30851e043202cfb4115d3f1f6720a8bc74f437204016f9347aa47fa306663b209985d74013779d467266c0b"
+RPM_NAME = "qt6-test-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "f6959c66a381ae3eeaa775ff88070dd3a3a57f46c587063d0cedfd430df3028debe1154bd1c0a1335d54295c35173b228e4c3abdf048594abd40212f46f83f3c"
 
 RPROVIDES:${PN} += "cmake-Qt6Test \
 pkgconfig-Qt6Test \

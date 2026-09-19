@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "phodav-devel-3.0-1.4.aarch64.rpm"
-RPM_HASH = "f1746e9b0d1511047a5622c7faa479ae8aa52dccbfffeba14ac9cabf27a13966d6b18b3e96c8d283554c8fde2c170d67b48b391d42a6210a4f473c820ffc0e12"
+RPM_NAME = "phodav-devel-3.0-3.13.aarch64.rpm"
+RPM_HASH = "93fd402b13df38245e887bca48c24a5e41276e22208dcc05170799c730460970f827dcca9e7e74f118b8abb222dfdd6007ef13c3095e40fb5b3788f75567459d"
 
 RPROVIDES:${PN} += "phodav-devel \
 pkgconfig-libphodav-3.0"

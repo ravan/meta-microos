@@ -10,10 +10,10 @@ the Information Mapping(r) method. The class provides all \
 definitions to typeset a whole document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn44863"
+PV = "2026.226.2.2svn44863"
 
-RPM_NAME = "texlive-limap-2023.209.2.2svn44863-55.1.noarch.rpm"
-RPM_HASH = "4e593390d351694138caaf07627e611e1d4c66b6a8820c7c36b10e3a228d29e2bce27977abeb7be95ca30513d9137395802d9e3248862189b68e37c12c769f94"
+RPM_NAME = "texlive-limap-2026.226.2.2svn44863-61.2.noarch.rpm"
+RPM_HASH = "e766da9a6c9cfe375332746f9916a9a14fe085bb979770668a8b46135890af775ca3f8316362fd11bed2a92621bb4831f884d826554f23cbb31a4bea52a90e62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-limap.cls \

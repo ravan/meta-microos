@@ -12,10 +12,10 @@ This tool will be able to detect deprecated APIs depending on how you deploy you
 * Helm v3 - uses Helm manifests stored as Secrets or ConfigMaps directly in individual namespaces"
 LICENSE = "MIT"
 
-PV = "0.7.0"
+PV = "0.7.3"
 
-RPM_NAME = "kube-no-trouble-0.7.0-1.5.aarch64.rpm"
-RPM_HASH = "7e276cb847dd46431f4bed21ba974e88769850f3bd40502813fa81696f5d9cfa0e8fb0a7c58f3583b74ab5dc2fb7f8da9b527c1d3881c950c367e671afd45ecb"
+RPM_NAME = "kube-no-trouble-0.7.3-1.13.aarch64.rpm"
+RPM_HASH = "3c35c16d03ef03074f7bb778f4b93edaca5bff8d48007babcd99222158696b53ab25d2e5793e83601c608614ed62566cca889e22bc0554d1044c1ba34848a86e"
 
 RPROVIDES:${PN} += "kube-no-trouble"
 

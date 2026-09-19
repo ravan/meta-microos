@@ -42,16 +42,16 @@ whole 'regexp' category useless). \
 What follows is a more thorough discussion of what this module does, and \
 why it does it, and what the advantages (and disadvantages) of this \
 approach are."
-LICENSE = "GPL-1.0-or-later | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.75"
+PV = "3.750.0"
 
-RPM_NAME = "perl-common-sense-3.75-1.15.aarch64.rpm"
-RPM_HASH = "046c09fdad2db383506c641c97aa5a986f55b0e925abec0429054064dc23d4add30244c98b253d6f57e66be739d718c6d9d633960a6f8d2680c8e2b61f408d62"
+RPM_NAME = "perl-common-sense-3.750.0-1.9.aarch64.rpm"
+RPM_HASH = "e9a321f17eb84ebaf234e015ce3a8fea4ebc0189a093dba4ded9078f1fcd2a2e17ce00d6a6edce7cd93dde7c5e385ca2f61711a2c235ff4a161de8672da236af"
 
 RPROVIDES:${PN} += "perl-common--sense \
 perl-common-sense"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

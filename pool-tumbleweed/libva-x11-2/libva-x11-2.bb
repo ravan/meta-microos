@@ -5,10 +5,10 @@ The library loads a hardware dependendent driver. \
 This is the VA/X11 runtime library."
 LICENSE = "MIT"
 
-PV = "2.19.0"
+PV = "2.24.1"
 
-RPM_NAME = "libva-x11-2-2.19.0-1.1.aarch64.rpm"
-RPM_HASH = "8bb8eee64425c09c1aafe8f302c7bb11e8c41307e7825a9ad8151c96261719504b54cbe3b71e695c0747e940b5693fd86b97e060c0ab8350c5949fea536dac1d"
+RPM_NAME = "libva-x11-2-2.24.1-1.1.aarch64.rpm"
+RPM_HASH = "7faff4fd2723651c81051951ab07dbe3dbe85f118ecb882140e84585c4be5c5a8cb16e15efea7ff00e9f2e8feedf6e6a07f3327ea4f2e9d32d58668b015584d6"
 
 RPROVIDES:${PN} += "libva-x11-2 \
 libva-x11.so.2"

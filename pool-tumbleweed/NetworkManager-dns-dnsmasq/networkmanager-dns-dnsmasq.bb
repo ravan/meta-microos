@@ -12,13 +12,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "NetworkManager-dns-dnsmasq-1.0-1.2.noarch.rpm"
-RPM_HASH = "35d16e29d2ca2423322d45ef7fd076406909cea43ffd7702028769ca6c566214c70578d82e9990bd5c2ee328751e24ab45c35e339b2e9c8638fdceb4a87e7795"
+RPM_NAME = "NetworkManager-dns-dnsmasq-1.0-2.6.noarch.rpm"
+RPM_HASH = "fb6fd5693e28cbde24fdf541e6b4ee7728e994e081532254ba54b4d0c48787e0173f4e15de08b2890154cbb0b45a4ea7059df74abdca19239a7b9561c9426596"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-dns-dnsmasq"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-NetworkManager"
+NetworkManager \
+dnsmasq \
+sysconfig"
 
 inherit rpm

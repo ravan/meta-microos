@@ -2,15 +2,16 @@ SUMMARY = "Documentation for Flocq"
 DESCRIPTION = "This package contains the HTML documentation for flocq."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "4.1.1"
+PV = "4.2.2"
 
-RPM_NAME = "flocq-doc-4.1.1-1.5.noarch.rpm"
-RPM_HASH = "6dece66ab1227f68e5e1df35a9aa1ed4459f895805c142791ddbc105341d21bb6af269add1af15e294ceff8c596124b2c36dfb1fff31ab98de18be8ab9e546e5"
+RPM_NAME = "flocq-doc-4.2.2-1.7.noarch.rpm"
+RPM_HASH = "f17de3ae14f45ddf278ec0dc014190d66d73c466bb326dde52340460c8bd64fcb5375797804105844d4451629f3fd134d5484894eb13aab7f379d26c98fd05d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flocq-doc"
 
 RDEPENDS:${PN} += "coq-doc \
-flocq"
+flocq \
+rocq-stdlib-doc"
 
 inherit rpm

@@ -10,16 +10,16 @@ This subpackage contains the development headers for the libusbgx \
 headers and libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.2.0"
+PV = "0.3.0"
 
-RPM_NAME = "libusbgx-devel-0.2.0-1.14.aarch64.rpm"
-RPM_HASH = "1f7a69e0e51bd1b077c16523355d45361144c8f75301053a9bea9947bdaeeb5ec2f9061562d81f98ee43381a3f5a5c7716fec9cec79463e2e470f493785e00cd"
+RPM_NAME = "libusbgx-devel-0.3.0-1.5.aarch64.rpm"
+RPM_HASH = "70f0c3948aa5ea4755ca357f1c1bc9f2480ea371f474bd21750826b6ea9b2c204214f8fa3a63348815e4e19d1ef2c0a6960b9d0d75e902da926f1e28e45d02c9"
 
 RPROVIDES:${PN} += "libusbgx-devel \
 pkgconfig-libusbgx"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libusbgx2 \
+libusbgx3 \
 pkgconfig-libconfig"
 
 inherit rpm

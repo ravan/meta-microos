@@ -8,17 +8,17 @@ description (if present) of the command line options and arguments. If the \
 verbose level is 2, then the entire manual page is printed."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.03"
+PV = "2.05"
 
-RPM_NAME = "perl-Pod-Usage-2.03-1.6.noarch.rpm"
-RPM_HASH = "20b05367dd5a7899881257e83835fcc6c1ca5ee2a6c3f5dd3c0c6a204c57acf048489a42d3ca033b3d404934a798c58ee84eb570f66b77791c73ce838088d943"
+RPM_NAME = "perl-Pod-Usage-2.05-1.7.noarch.rpm"
+RPM_HASH = "23687ea03f9f9be2d1767c1a20aed9eb06e682366c4078d47c904dfeeb16640564deb1cf040627b40e9858ae6beb61c935f6fbfe5aaade2b10815f8a05c8247e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Usage \
 perl-Pod-Usage"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Pod--Perldoc \
 perl-Pod--Simple \
 perl-Pod--Text"

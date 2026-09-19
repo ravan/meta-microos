@@ -3,10 +3,10 @@ DESCRIPTION = "Guice is a dependency injection framework for Java 5 \
 and above. This package provides AssistedInject module for Guice."
 LICENSE = "Apache-2.0"
 
-PV = "5.1.0"
+PV = "6.0.0"
 
-RPM_NAME = "guice-assistedinject-5.1.0-1.2.noarch.rpm"
-RPM_HASH = "8af43472eac1d727a6be0a29d2aa9edb68ae4a4c2aade93ec536eb801e811540b511cffec27b3a6825ae3d5f9a0f4ac1ff45acab823400845e15c0995ebb04aa"
+RPM_NAME = "guice-assistedinject-6.0.0-3.6.noarch.rpm"
+RPM_HASH = "efac3bd6e376d0e71986a4a1f965aedfb2a07572a89cf77c88821265e8413a9bf9133bebed35cf74ae706405270d4223ff96610eefe7645a3fbd4a36b907b570"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-assistedinject \
@@ -18,6 +18,7 @@ osgi-com.google.inject.assistedinject"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-com.google.truth-truth"
+mvn-com.google.errorprone-error-prone-annotations \
+mvn-com.google.inject-guice"
 
 inherit rpm

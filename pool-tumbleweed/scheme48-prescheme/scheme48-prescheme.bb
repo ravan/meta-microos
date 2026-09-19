@@ -12,10 +12,10 @@ transformational compilation, compiles Pre-Scheme to efficient C, applying \
 numerous intermediate source transformations in the process."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.9.2"
+PV = "1.9.3"
 
-RPM_NAME = "scheme48-prescheme-1.9.2-2.20.aarch64.rpm"
-RPM_HASH = "910364a1459fbba8cb265743f82bfa1b9184e864f0100201f231357872a15192ba3def927f833f35aca6295c86cf5e9980b9046ea337bf752e56511923b63d72"
+RPM_NAME = "scheme48-prescheme-1.9.3-1.14.aarch64.rpm"
+RPM_HASH = "17268b2d7b4ef471be7fc1dc433a4a46c873decaf20ada547c93559431c475ef90344c86ac5f07637034b5bf36319b72ef0d8417ec332b4e257aecea42ed44a6"
 
 RPROVIDES:${PN} += "scheme48-prescheme"
 

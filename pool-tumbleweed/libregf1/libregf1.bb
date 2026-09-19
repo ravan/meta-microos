@@ -3,10 +3,10 @@ DESCRIPTION = "libregf is a library to access Windows Registry files of the REGF
 type (a non-text representation)."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230319"
+PV = "20260526"
 
-RPM_NAME = "libregf1-20230319-2.1.aarch64.rpm"
-RPM_HASH = "6b24235ee5adc647d5e96d648c53a509bf54a9747ed8fd0bffc702dab49eb20449fb0bb907ea9e3ec4ee0a477443bd9609ec820f74d1bb877b1994fc167f194d"
+RPM_NAME = "libregf1-20260526-1.10.aarch64.rpm"
+RPM_HASH = "fd10e4ce8c2cd44ebed492a48bf291e6c4ad51bd807304030ace18a2a6367c0df22d63cc3c3bd694494a84bea0db6bc2b0c3924f9412acfa02e433497c393851"
 
 RPROVIDES:${PN} += "libregf.so.1 \
 libregf1"

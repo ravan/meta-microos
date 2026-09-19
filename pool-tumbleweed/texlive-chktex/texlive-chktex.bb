@@ -4,10 +4,10 @@ documents. Filters are also provided for checking the LaTeX \
 parts of CWEB documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.7.8svn64797"
+PV = "2026.226.1.7.10svn78219"
 
-RPM_NAME = "texlive-chktex-2023.209.1.7.8svn64797-54.1.noarch.rpm"
-RPM_HASH = "4677df0561d37b16c311e7e6d50db8c3c8a42f8d2405fc11c0ed45c3e5b60bab97aaed672d84c4255cfbb8eea86f8bb4f541c31ade6afdf9fc4fefae48f8c377"
+RPM_NAME = "texlive-chktex-2026.226.1.7.10svn78219-60.2.noarch.rpm"
+RPM_HASH = "2137d37f049ece111f0de7f597e07f151b6ada5a783da217a8ab33821badd2cb2b1e0af0e8be1617582995fc7f30e200589238460832e092b409d90ac48bf737"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chktex"

@@ -10,10 +10,10 @@ DESCRIPTION = "fd is an alternative to GNU find. It features: \
 * A parallel execution similar to GNU Parallel is available."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "8.7.0"
+PV = "10.4.2"
 
-RPM_NAME = "fd-8.7.0-1.4.aarch64.rpm"
-RPM_HASH = "ea1009dc012806c66cf23025fcfef5537d273a13d9084826b33612b0b782d762c1ccfe23db8dca9a894187b9c8b53fbbfacb89209e35a99e683bc7ee61fe55a7"
+RPM_NAME = "fd-10.4.2-1.5.aarch64.rpm"
+RPM_HASH = "05966817b6fa16c1c53a8e246bfac9f068485e8d1726f5b3b9dcd346e9430ed7dceb74837dfa57aa932eae35a0836fe8484b504035705b3a9283d51cc3b7ba56"
 
 RPROVIDES:${PN} += "bundled-crate(aho-corasick) \
 bundled-crate(ansi-term) \
@@ -86,37 +86,39 @@ bundled-crate(winapi-i686-pc-windows-gnu) \
 bundled-crate(winapi-util) \
 bundled-crate(winapi-x86-64-pc-windows-gnu) \
 bundled-rust-crate-aho-corasick \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
 bundled-rust-crate-anyhow \
 bundled-rust-crate-argmax \
-bundled-rust-crate-atty \
-bundled-rust-crate-autocfg \
 bundled-rust-crate-bitflags \
 bundled-rust-crate-bstr \
 bundled-rust-crate-cc \
+bundled-rust-crate-cfg-aliases \
 bundled-rust-crate-cfg-if \
-bundled-rust-crate-chrono \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-complete \
 bundled-rust-crate-clap-derive \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-crossbeam-channel \
+bundled-rust-crate-crossbeam-deque \
+bundled-rust-crate-crossbeam-epoch \
 bundled-rust-crate-crossbeam-utils \
 bundled-rust-crate-ctrlc \
-bundled-rust-crate-dirs-next \
-bundled-rust-crate-dirs-sys-next \
+bundled-rust-crate-errno \
+bundled-rust-crate-etcetera \
 bundled-rust-crate-faccess \
 bundled-rust-crate-fd-find \
-bundled-rust-crate-fnv \
+bundled-rust-crate-find-msvc-tools \
 bundled-rust-crate-globset \
 bundled-rust-crate-heck \
-bundled-rust-crate-humantime \
-bundled-rust-crate-iana-time-zone \
 bundled-rust-crate-ignore \
-bundled-rust-crate-io-lifetimes \
-bundled-rust-crate-is-terminal \
-bundled-rust-crate-jemalloc-sys \
-bundled-rust-crate-jemallocator \
-bundled-rust-crate-lazy-static \
+bundled-rust-crate-is-terminal-polyfill \
+bundled-rust-crate-jiff \
+bundled-rust-crate-jiff-static \
 bundled-rust-crate-libc \
 bundled-rust-crate-linux-raw-sys \
 bundled-rust-crate-log \
@@ -125,30 +127,24 @@ bundled-rust-crate-memchr \
 bundled-rust-crate-nix \
 bundled-rust-crate-normpath \
 bundled-rust-crate-nu-ansi-term \
-bundled-rust-crate-num-cpus \
-bundled-rust-crate-num-integer \
-bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
-bundled-rust-crate-os-str-bytes \
-bundled-rust-crate-overload \
-bundled-rust-crate-proc-macro-error \
-bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
 bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
 bundled-rust-crate-rustix \
 bundled-rust-crate-same-file \
 bundled-rust-crate-serde \
-bundled-rust-crate-static-assertions \
+bundled-rust-crate-serde-core \
+bundled-rust-crate-shlex \
 bundled-rust-crate-strsim \
 bundled-rust-crate-syn \
-bundled-rust-crate-termcolor \
 bundled-rust-crate-terminal-size \
-bundled-rust-crate-thread-local \
+bundled-rust-crate-tikv-jemalloc-sys \
+bundled-rust-crate-tikv-jemallocator \
 bundled-rust-crate-unicode-ident \
-bundled-rust-crate-users \
-bundled-rust-crate-version-check \
+bundled-rust-crate-utf8parse \
 bundled-rust-crate-walkdir \
 fd"
 

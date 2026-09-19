@@ -2,16 +2,17 @@ SUMMARY = "Translations for package gthumb"
 DESCRIPTION = "Provides translations for the 'gthumb' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.12.3"
+PV = "3.12.10"
 
-RPM_NAME = "gthumb-lang-3.12.3-1.1.noarch.rpm"
-RPM_HASH = "dbd99dba480632e97cade68ca969816e6a89cda15f24bc55effdb36b4cc10c7724c6168a4de338d26a226de392749ba9912bb5933e669916b8ccfec92e44f60d"
+RPM_NAME = "gthumb-lang-3.12.10-2.6.noarch.rpm"
+RPM_HASH = "c97e6ba734607ab49ee12538d794f550c9d38351a0f7af53aa76b482d8564790adebdc9c4ff46d39937b391fd925d1872ccae8d9d078499c0d6d504bc2871b60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gthumb-lang \
 gthumb-lang-all \
 locale-gthumb-ar \
 locale-gthumb-az \
+locale-gthumb-be \
 locale-gthumb-bg \
 locale-gthumb-bs \
 locale-gthumb-ca \

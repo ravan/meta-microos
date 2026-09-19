@@ -2,10 +2,10 @@ SUMMARY = "Eepic facilities using pict2e"
 DESCRIPTION = "The package provides an eepic driver to use pict2e facilities."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn30559"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-bxeepic-2023.209.0.0.2svn30559-53.1.noarch.rpm"
-RPM_HASH = "cbb588501878f3cb1087df9c754491db5b4c651b8afe0e063257ad304fa8687c583d690ecf01038a7252b0e0c1cb83a36eec59dfaa4ead567310530e3d09d63e"
+RPM_NAME = "texlive-bxeepic-2026.226.0.0.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "2433ddd10bdb0c504c39ce889553ec03cb01936d21aedb7ef465083b3dcfe79db6079ef313052c910f069eb54bf9be5f7db33e81fec2df6eeb81e831117b87ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxdpxp2e.def \

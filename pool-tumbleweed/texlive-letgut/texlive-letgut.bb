@@ -24,19 +24,17 @@ et documentee, a meme d'etre publiee sur le CTAN. C'est \
 desormais chose faite avec la presente classe letgut."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9.6svn65548"
+PV = "2026.226.0.0.9.14svn77945"
 
-RPM_NAME = "texlive-letgut-2023.209.0.0.9.6svn65548-55.1.noarch.rpm"
-RPM_HASH = "25c8bea95fb178aec288e1a0bc5f2f7dc1df6d655dcecf3aaebb4fbdf5d80127dfc8ac1643e3d6fff96cde2159debc89507e451bbf47b9e486b309197fa8e7d4"
+RPM_NAME = "texlive-letgut-2026.226.0.0.9.14svn77945-61.2.noarch.rpm"
+RPM_HASH = "d51d5bfe28d736c4810cf94624e58e89bd79a1bbc5f31ec6aa1b7a41eda45cfd1e6911183373850d8fba39061ea67adf19d4230c52c0470828c83da83736b22a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-informations-gut.tex \
 tex-letgut-acronyms.tex \
 tex-letgut-banner.sty \
 tex-letgut-lstlang.sty \
-tex-letgut.cbx \
 tex-letgut.cls \
-tex-letgut.lbx \
 texlive-letgut"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -68,11 +66,9 @@ tex-geometry.sty \
 tex-graphicx.sty \
 tex-hypcap.sty \
 tex-hyperref.sty \
-tex-l3keys2e.sty \
 tex-listings.sty \
 tex-mathtools.sty \
 tex-ninecolors.sty \
-tex-numeric.cbx \
 tex-parskip.sty \
 tex-pgfornament.sty \
 tex-placeins.sty \
@@ -82,6 +78,7 @@ tex-standalone.sty \
 tex-tabularray.sty \
 tex-tcolorbox.sty \
 tex-titlesec.sty \
+tex-typicons.sty \
 tex-varioref.sty \
 tex-xcolor.sty \
 tex-xurl.sty \

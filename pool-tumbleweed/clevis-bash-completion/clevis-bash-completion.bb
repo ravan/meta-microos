@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for Clevis"
 DESCRIPTION = "This package provides Bash completion for Clevis."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "19"
+PV = "21"
 
-RPM_NAME = "clevis-bash-completion-19-2.2.aarch64.rpm"
-RPM_HASH = "2899acb4ada0b0d25cb5e48e608cc73b35d83635c15da7029e13fed47132a5c58e26cec91795ca7812da1734ede7da10290f865b64d3b08b157e58976006684e"
+RPM_NAME = "clevis-bash-completion-21-1.6.aarch64.rpm"
+RPM_HASH = "3f595d6d1b02b127fa4235d51a0d63723dfb8c4432469e89171f519dd9fc70ffcf967adda3798509b6f41882d161a93b42f8c8ed2f2a102859ba0ca8a6941814"
 
 RPROVIDES:${PN} += "clevis-bash-completion"
 

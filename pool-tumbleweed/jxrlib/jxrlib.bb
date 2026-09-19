@@ -4,10 +4,10 @@ DESCRIPTION = "This is an open source implementation of the jpegxr image format 
 This package contains the encoder and the decoder tools."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.1"
+PV = "1.3.2"
 
-RPM_NAME = "jxrlib-1.1-4.10.aarch64.rpm"
-RPM_HASH = "adf9a764e2043ac94975b7a79cc245a39fcc1451df72b01bd0ee11068cec9af9b436ab6f31ed3375181c410693db987d070f94b5f2eed8362f63d3913e5cb12c"
+RPM_NAME = "jxrlib-1.3.2-1.3.aarch64.rpm"
+RPM_HASH = "23ca30f0d43058e218091260a4127f5aecf4bc407e25a7e81c329bf8354f5252334c9f339fea860387a0633bd291914a4ac3f3502b8fa5ae6eee3c593b845bae"
 
 RPROVIDES:${PN} += "jxrlib"
 

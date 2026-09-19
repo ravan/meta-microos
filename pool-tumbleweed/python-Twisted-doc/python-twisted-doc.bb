@@ -5,10 +5,10 @@ on event-based network programming and multiprotocol integration. \
 This package contains the documentation for python-Twisted"
 LICENSE = "MIT"
 
-PV = "22.10.0"
+PV = "26.4.0"
 
-RPM_NAME = "python-Twisted-doc-22.10.0-8.1.noarch.rpm"
-RPM_HASH = "a4b5c58c4e6895fd57a8feddfd6a40810a8f2a3d3fc0685751cbe097f8f486eb6fdd4b60f16ee8164bf99b5d2393db95f3e18c2cd4922e4ddb4a31a50d382de2"
+RPM_NAME = "python-Twisted-doc-26.4.0-3.3.noarch.rpm"
+RPM_HASH = "4e8bf8dfc6702e30373f4041da8c0a224e78ad0a93e794d2c280c49729b4926161f45d4411ccff608c32980c03ee26783a6584145944790f0d9b9649f8efcb0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Twisted-doc"

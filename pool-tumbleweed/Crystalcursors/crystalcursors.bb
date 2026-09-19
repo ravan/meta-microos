@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9"
 
-RPM_NAME = "Crystalcursors-0.9-1.1.noarch.rpm"
-RPM_HASH = "def63b92e8e55399256e1b425438924759bdd37c3e2436af341c35ff85516cdbd3ba349b0fe10371789be2ea6c7ca2ae39720a49792a83be55bcb5d8c3f6e0c7"
+RPM_NAME = "Crystalcursors-0.9-4.1.noarch.rpm"
+RPM_HASH = "72739f380c23fd5c77b8097c8c9b95b21edca22a33c3e053288407d297244218fe4c57f1e84724f5801cfc7f64884c0343e6f96025837b3e6b5f85d3e83795ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Crystalcursors"

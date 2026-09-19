@@ -3,10 +3,10 @@ DESCRIPTION = "The audit-audispd-plugins package contains plugin components for 
 audit dispatcher (audispd)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.1"
+PV = "4.0.2"
 
-RPM_NAME = "audit-audispd-plugins-3.1.1-1.1.aarch64.rpm"
-RPM_HASH = "e22e945a7bda91a0eac6a755ee403249a2cf42843d591fcca36478734f14c838b89e0b855d1794adbb8f78b213893215e0cb133eec72c20030256ea753b8e434"
+RPM_NAME = "audit-audispd-plugins-4.0.2-3.5.aarch64.rpm"
+RPM_HASH = "b8c8bf9b2e7d89d59ea52d20701fa035aa3dec4a615c01144c722c7c168fb8f54695bdf8e4dd6152c2beccc6f7d6294c2fc1a78524ad1ef1cbe854db32e31172"
 
 RPROVIDES:${PN} += "audit-audispd-plugins \
 config-audit-audispd-plugins"

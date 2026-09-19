@@ -2,10 +2,10 @@ SUMMARY = "Translations for package adriconf"
 DESCRIPTION = "Provides translations for the 'adriconf' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.7.0"
+PV = "2.7.4"
 
-RPM_NAME = "adriconf-lang-2.7.0-1.1.noarch.rpm"
-RPM_HASH = "e8794acb5633dfa0468e7c16de673427626259d16e662a0ca7defd0345dc4c11d900aec01cc55598bbb64855c22085d7b8a2dfd595c764253607eb23bf008485"
+RPM_NAME = "adriconf-lang-2.7.4-1.2.noarch.rpm"
+RPM_HASH = "3e2d79aa0ea30d7cf7051257ad2ba272739d1b32c0d3091d86388baee0a957902605babf415ddabba96a8877f128b16b390cdebf11fed3fa339588f50f9ec77f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adriconf-lang \

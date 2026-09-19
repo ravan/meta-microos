@@ -4,17 +4,17 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "simple-ccsm-0.8.18-2.11.noarch.rpm"
-RPM_HASH = "29a606d2b0cf41747fe4e8482b62ae24e9b6a9edc20b925ad13f9f8fe6c43eb6f301534c54f128c93364091bc5ff5cc87b8f3cd78f8e5b69d68a2bbe8875a786"
+RPM_NAME = "simple-ccsm-0.8.18-2.21.noarch.rpm"
+RPM_HASH = "c5132b21b157042c05545501e82a8bf6cd28c9067373573c6521fb56e0702d5e1820368add5f50b41e2bd8cb808fa3e36e880b2ca593b03a447474b060d73da9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ccsm \
-python3.11dist-simple-ccsm \
+python3.13dist-simple-ccsm \
 python3dist-simple-ccsm \
 simple-ccsm \
 simple-ccsm-kde"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 compiz \
 compiz-plugins \
 compiz-plugins-main \

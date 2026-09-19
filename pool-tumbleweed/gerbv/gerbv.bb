@@ -8,10 +8,10 @@ possible to make an RS-274X file out of an RS-274D file and an \
 aperture list."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.9.6"
+PV = "2.13.0"
 
-RPM_NAME = "gerbv-2.9.6-1.4.aarch64.rpm"
-RPM_HASH = "33f5f4f214fc05007f2a57e458214912f1b180a221ad3e5b58b68c8b47484479a3c1172e845cae7c79b7a12fa4bd6c135124249c67e5d8f5c9a0374b6c50ef2b"
+RPM_NAME = "gerbv-2.13.0-3.1.aarch64.rpm"
+RPM_HASH = "28661e9a918895b1652c39b3e8afe272698f6a48c510f0d9eb072162edf226c368792107dac0c88a8039563351a9c9cffafbc99e4421fdb3f8ac131cc3f14f9c"
 
 RPROVIDES:${PN} += "gerbv"
 

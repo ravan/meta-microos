@@ -4,12 +4,12 @@ proposal for a plug-in API for software instruments (soft synths) with \
 user interfaces, permitting them to be hosted in-process by Linux audio \
 applications. Think of it as LADSPA-for-instruments or something \
 comparable to a simpler version of VSTi."
-LICENSE = "GPL-2.0+ & LGPL-2.1+ & SUSE-Public-Domain"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & SUSE-Public-Domain"
 
 PV = "1.1.1"
 
-RPM_NAME = "dssi-1.1.1-11.28.aarch64.rpm"
-RPM_HASH = "4e836ff93d308b034b0cadb55727aabc4182aa75cdd0978bfd1b45e4785bd668f43e8df7ac9c6a62b4d5a20db366a9625a07a845bf3d005be01b2e871eb867a2"
+RPM_NAME = "dssi-1.1.1-14.8.aarch64.rpm"
+RPM_HASH = "0e0b26226dfee32dddb57d25208c5c1da27a2c4e90706987cffdb765a74a876ac2f4c6c3ae5bdfd4f5d4983f469b98009ea1c1d1933b680e0479e1bfb83a7002"
 
 RPROVIDES:${PN} += "dssi"
 

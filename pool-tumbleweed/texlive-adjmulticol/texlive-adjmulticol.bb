@@ -5,10 +5,10 @@ understands the difference between the even and odd margins for \
 two side printing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn63320"
+PV = "2026.226.1.5svn77682"
 
-RPM_NAME = "texlive-adjmulticol-2023.209.1.5svn63320-55.1.noarch.rpm"
-RPM_HASH = "58b0e43f89484e243e2c20b2f4f94edbd2ad0087f73b5a74170c3eb2625ecf587805297104efe61d297507a34ea4c9e9455925ccf51352f46eb8a927e15eb99e"
+RPM_NAME = "texlive-adjmulticol-2026.226.1.5svn77682-61.2.noarch.rpm"
+RPM_HASH = "4a6e09a8806bf475cdec052c66c0933dddc0681bedf9baae75cf10d55111450bc388229f5c4d0ef78a79372d800a8b64db9ec37c994abe9b852c6ac0a89d7908"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-adjmulticol.sty \

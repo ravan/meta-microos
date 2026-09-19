@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.20.7"
 
-RPM_NAME = "libgpm2-1.20.7-19.15.aarch64.rpm"
-RPM_HASH = "85f33fa8fa730e21fcfac2ef20ebd7bc32c7832a2e057a411bef0a48196219dc91ba6ffd21779ba589f9cbd849b1b760ab710860fbcf04608ac1bb6ab2fa4388"
+RPM_NAME = "libgpm2-1.20.7-23.4.aarch64.rpm"
+RPM_HASH = "bdb09757b5db5840b86e0de28a9557dd62ca6c05e4859dbe8f87d208617584a4262ecc0cbe3fa2eeb64d60422ce2d1f922f7bcdbdac16d2c6b446ddd37081009"
 
 RPROVIDES:${PN} += "libgpm.so.2 \
 libgpm2"

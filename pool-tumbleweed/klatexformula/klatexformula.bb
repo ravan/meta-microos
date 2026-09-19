@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.1.0"
 
-RPM_NAME = "klatexformula-4.1.0-1.14.aarch64.rpm"
-RPM_HASH = "b8eb628b5f85788f7e55a9a0bac208c007d095afba0aec025bb4152593ee438bd7545ba7d14493ba9f335510fd7a7c534f59e54e5837cd33aadbb29b7267531b"
+RPM_NAME = "klatexformula-4.1.0-1.26.aarch64.rpm"
+RPM_HASH = "c3e363f0b716fc1092f09ac840aaad97843cabdc900c9ff6ed8964ec6a0c22a86ceb57badd4c0a5ad6bc938fc7237c0d9d25499484ee9f0db902d56ecc7f8949"
 
 RPROVIDES:${PN} += "KLatexFormula \
 klatexformula \

@@ -30,13 +30,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.44"
 
-RPM_NAME = "perl-HTTP-Lite-2.44-1.28.noarch.rpm"
-RPM_HASH = "73c8ded7a966017d68e7a91931e7dec901722efb0df21b2b1ae4d7cc533ecd0e9e35ae786642c984145f0b7298200cf8d6cbce3a6085d39a7763e10d642e06e4"
+RPM_NAME = "perl-HTTP-Lite-2.44-1.42.noarch.rpm"
+RPM_HASH = "564c0b56102f1d7519f6621313c628a9bf72b2d3e550a209c6032d0badcf3c9d084a858aa36c2ac653e5d23977b8edfff9d0e91b849bea7172638adf9035045c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Lite \
 perl-HTTP-Lite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

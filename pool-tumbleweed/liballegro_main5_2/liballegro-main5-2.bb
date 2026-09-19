@@ -7,10 +7,10 @@ the underlying platform. However, Allegro is not a game engine: \
 developers are free to design and structure the program as desired."
 LICENSE = "BSD-3-Clause & Zlib"
 
-PV = "5.2.8.0"
+PV = "5.2.11.3"
 
-RPM_NAME = "liballegro_main5_2-5.2.8.0-1.4.aarch64.rpm"
-RPM_HASH = "919829391a184cb7f695c6fc78328acc51af98148d79a55b77cf9852b6ba48704d799132e9c45932122f66bf3b570abaa8611c27a6aa44168bd9be6e4597bc65"
+RPM_NAME = "liballegro_main5_2-5.2.11.3-1.5.aarch64.rpm"
+RPM_HASH = "dc0067acc64185ac11d0a7bd705ffd2430c71d4d42513c3cbfa164319f4397d95471fc1a9cda52326effc89295b9cf5ca8a17bec19b8caf84a24460dc7c1a0c8"
 
 RPROVIDES:${PN} += "liballegro-main.so.5.2 \
 liballegro-main5-2"

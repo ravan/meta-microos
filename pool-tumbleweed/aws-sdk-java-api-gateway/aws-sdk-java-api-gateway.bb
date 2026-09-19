@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon API Gateway"
 DESCRIPTION = "The AWS Java SDK for Amazon API Gateway module \
 holds the client classes that are used for \
 communicating with Amazon API Gateway."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-api-gateway-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "a225a53b613359c412460f26edf129771a9250426f8bcf69b43e9a83025a2f3795f1c85fe37e568527b31a0e84e6720f499afa8e71773bcb0ae5f77b4828c204"
+RPM_NAME = "aws-sdk-java-api-gateway-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "51d4b368bca2b13d4dcba144ea9c8e0937745f4a312554583c215abf545817c766c8f840ded40c88657ecfcf82da779e45d754929f20369945e02c5f24a34ecc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-api-gateway \

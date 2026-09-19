@@ -3,10 +3,10 @@ DESCRIPTION = "Guice is a dependency injection framework for Java 5 \
 and above. This package provides ThrowingProviders module for Guice."
 LICENSE = "Apache-2.0"
 
-PV = "5.1.0"
+PV = "6.0.0"
 
-RPM_NAME = "guice-throwingproviders-5.1.0-1.2.noarch.rpm"
-RPM_HASH = "345b551dccd9b26d35c3da2a23eddaefcf755ded1e2ccb8034bc470e1b2bf97f722a58f47ba59531cc48c0918da2392c3a758102954ff8c434e32ddffac4ebb1"
+RPM_NAME = "guice-throwingproviders-6.0.0-3.6.noarch.rpm"
+RPM_HASH = "3032b4a9595f3f9b62aef850266a216d0c55da17154e09bfdad7d7209c7efd8ad85f0a9f5aca029465b614984c3dd2c14dc36db03afa013ca34b46e380dfabed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guice-throwingproviders \
@@ -19,6 +19,7 @@ osgi-com.google.inject.throwingproviders"
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-com.google.code.findbugs-jsr305 \
-mvn-com.google.truth-truth"
+mvn-com.google.errorprone-error-prone-annotations \
+mvn-com.google.inject-guice"
 
 inherit rpm

@@ -1,16 +1,16 @@
 SUMMARY = "Qt6 BundledEmbree static library"
 DESCRIPTION = "The Qt6 BundledEmbree static library. \
 This library does not have any ABI or API guarantees."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-bundledembree-devel-static-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "a90fc1d51436f29e9d8ed3310c076fbe181981f6aba46c04d47d6c43901ea28b1c460dfbb61576035133ffaefd5bca06943a46dc6511e25f8bceac8448ee75b6"
+RPM_NAME = "qt6-bundledembree-devel-static-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "86bc456523297214bfd19a1c011e42021289b2e3a752729d0346be1f9438d1e5fd7dfc53de2f5ad1a4e6320327dbf36c10f7c1de3eebc1cdf555f6a91f76c679"
 
 RPROVIDES:${PN} += "cmake-Qt6BundledEmbree \
 qt6-bundledembree-devel-static"
 
-RDEPENDS:${PN} += "qt6-core-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate"
 
 inherit rpm

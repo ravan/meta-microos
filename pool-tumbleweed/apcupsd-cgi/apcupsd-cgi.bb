@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.14.14"
 
-RPM_NAME = "apcupsd-cgi-3.14.14-15.2.aarch64.rpm"
-RPM_HASH = "bf07bc753b3f4176cead65811f7c7aa9ebe3567478d85c4eb423434e00f1804781a0c87e30e33ba819727565bba863554c9159a3a9e1618c4e034c93fad3fbb6"
+RPM_NAME = "apcupsd-cgi-3.14.14-17.9.aarch64.rpm"
+RPM_HASH = "7005666f9fbb608e80ae8c711b91f7a44bb32ed74b4430ef5e2ac0f4c209d67771e048e6614df4655c922d56440ca1f627b42b22ab5008aceea3c8bf59824273"
 
 RPROVIDES:${PN} += "apcupsd-cgi \
 config-apcupsd-cgi"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pittetd"
 DESCRIPTION = "This package includes the documentation for texlive-pittetd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.618svn15878"
+PV = "2026.226.1.618svn15878"
 
-RPM_NAME = "texlive-pittetd-doc-2023.209.1.618svn15878-52.1.noarch.rpm"
-RPM_HASH = "68a8177e16907bd79f408c0956989ebd6ed08407dd93c89339b04085980e1740e5ae9a6df0b5db111a5e60c62211d2405291a02383971e95fe29049decb0200b"
+RPM_NAME = "texlive-pittetd-doc-2026.226.1.618svn15878-58.2.noarch.rpm"
+RPM_HASH = "4c83fc15be3b8dcc36b74d783873052b2da80ca9f2a81e862411294efa1517933cee40e82a168ec0f92a4100284bdf041b5b62e5f9e47242bd4180d373341985"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pittetd-doc"

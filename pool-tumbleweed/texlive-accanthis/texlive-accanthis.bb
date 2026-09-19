@@ -5,10 +5,10 @@ old style, Sabon, and Bembo. The support files are suitable for \
 use with all LaTeX engines."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn64844"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-accanthis-2023.209.svn64844-55.1.noarch.rpm"
-RPM_HASH = "822b64718831fc75307960ed793a5e59bd864bce723eef169e24a967239704892428e074a881dec1f562111490ad42d5fd8b5bac81eebb0b830786257b621421"
+RPM_NAME = "texlive-accanthis-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "d184781aedb197e68832aed13487328fdffdbfa9c6888f3a77936df4dcf7badc9cd7239fdcc7ccb673aaec9aee5e0ba73276078003a7bb0ddb2cce98cb12c48a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-AccanthisADFStdNo3-Bold-lf-ly1--base.tfm \

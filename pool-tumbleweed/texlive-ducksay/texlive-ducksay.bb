@@ -6,10 +6,10 @@ messages are now fully supported. The package comes with two \
 versions, choosable with the version key."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.6svn64655"
+PV = "2026.226.2.8svn76911"
 
-RPM_NAME = "texlive-ducksay-2023.209.2.6svn64655-53.1.noarch.rpm"
-RPM_HASH = "b804641f823437f904b51d58dcc8432c129bb3f1278a1d49425a68e7246a00afc3fe837ac2f4bde8521aac8c8cc4372a242b8957c9cebdc94fb8ffea72565887"
+RPM_NAME = "texlive-ducksay-2026.226.2.8svn76911-59.2.noarch.rpm"
+RPM_HASH = "0558bf914a891840cdf1f20a9aa0ec92239db0db252aea1885ce8542edc80865f5b0453ed36dd722883a9def36417db3f753603dd725dbdec520f7e0c84b79cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ducksay.animals.tex \

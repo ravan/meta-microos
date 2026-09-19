@@ -6,10 +6,10 @@ key can be used for Kanji lookups. It requires a working X input \
 method (such as ibus) for Japanese input."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1"
+PV = "3.2.1"
 
-RPM_NAME = "gjiten-3.1-1.3.aarch64.rpm"
-RPM_HASH = "8c8171b5143fb9cdb4ff00f1d7e93975e4d43472dd5dda7c17b35730e3ce70d78d16c9cc88aedd5f437db0a894af3655d7405f86b668d25226ec377ca0070463"
+RPM_NAME = "gjiten-3.2.1-1.5.aarch64.rpm"
+RPM_HASH = "4ad88d2de51231c912f4061160139ad9c385da13497224a3df2062f7f6ef6908b810072d3d362e91281e5b1540f467579200f566756ad729a193caadc568f464"
 
 RPROVIDES:${PN} += "gjiten \
 locale-libgnome-ja"

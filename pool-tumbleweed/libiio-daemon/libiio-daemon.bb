@@ -4,10 +4,10 @@ DESCRIPTION = "Library for industrial I/O. \
 This sub-package contains the iiod daemon."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.24"
+PV = "0.26"
 
-RPM_NAME = "libiio-daemon-0.24-1.5.aarch64.rpm"
-RPM_HASH = "fb1fc4dace61e9932c41872b74c989109cc0011bda51e2089fdfc14fee75c6043b52a0e86753f91254134598fe1a5ec576a3327cb8e455cab2f97fa9d1662287"
+RPM_NAME = "libiio-daemon-0.26-1.10.aarch64.rpm"
+RPM_HASH = "18a7e500c4502e6e1ec99c5b8a2475248cd535c16e5341a0f46dc4ec5f65b5c13a7c8273ea5f7c09935facbd2736c854a08648e29db51648e3a81dd392e5bd19"
 
 RPROVIDES:${PN} += "libiio-daemon"
 

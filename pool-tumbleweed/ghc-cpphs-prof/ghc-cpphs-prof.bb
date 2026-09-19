@@ -2,18 +2,18 @@ SUMMARY = "Haskell cpphs profiling library"
 DESCRIPTION = "This package provides the Haskell cpphs profiling library."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "1.20.9.1"
+PV = "1.20.10"
 
-RPM_NAME = "ghc-cpphs-prof-1.20.9.1-5.8.aarch64.rpm"
-RPM_HASH = "909cae3c5addcdcafc23f7c45f472dac22d7f13a7fd265b8fe6a59bd457574e8b4a308374cd78e5afca7f9aa635a35a66443a2bc8deb8d1d5ec84560a3a86a5e"
+RPM_NAME = "ghc-cpphs-prof-1.20.10-1.11.aarch64.rpm"
+RPM_HASH = "d05aa5c38dbd8b2909e0bc33d7e13be305f57c4d2b13e3f9ca1ce17350e8f93281cb63d51de4773173096db95f12d731b18146059cb6829e483f0fbc4cf4af9d"
 
 RPROVIDES:${PN} += "ghc-cpphs-prof \
-ghc-prof-cpphs-1.20.9.1-21Hm230EH4MCmgim8IB00q"
+ghc-prof-cpphs-1.20.10-CewphWkQP3qH9WB1ikGBAW"
 
 RDEPENDS:${PN} += "ghc-cpphs-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-polyparse-1.13-BLB26XAC1GDzZMBJpPaUe \
-ghc-prof-time-1.12.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-polyparse-1.13.1-3ls9uCOTvHD6q0HF7GLFSI \
+ghc-prof-time-1.14-a7dc"
 
 inherit rpm

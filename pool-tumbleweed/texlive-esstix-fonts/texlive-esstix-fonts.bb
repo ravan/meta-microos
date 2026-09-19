@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-esstix"
 DESCRIPTION = "The  separated fonts package for texlive-esstix"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.0svn22426"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-esstix-fonts-2023.209.1.0svn22426-53.1.noarch.rpm"
-RPM_HASH = "1146a148cbe40761bfc2ca266f2b162bfad2db4dc31b0df9de919400d8cd5eef27c40a5b46ef73b3aa99ca434f782e31a32277824c77ae996c75877e23283b8a"
+RPM_NAME = "texlive-esstix-fonts-2026.226.1.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "e4da1ed608d395d9226a94efe1f6e0e1e3cc33ffad0580f619655bd4d1c4a82bc8a95b897847d1ed97d3b7983a88c6b74fe94c842656daa8aae08bd3a176424c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

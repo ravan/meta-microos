@@ -9,10 +9,10 @@ overly complex, so that users should find it easy to adapt the \
 macros to their specific needs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2.1svn50048"
+PV = "2026.226.2.2.1svn50048"
 
-RPM_NAME = "texlive-present-2023.209.2.2.1svn50048-53.1.noarch.rpm"
-RPM_HASH = "bd3af9435af464b87c23346d54b815346fad89f17f6f160ee916b5fa25b440ef400dbfa2977647181a6511f33f36b72bd1a415fed8c9caf7ce333d7c3e6f0c6a"
+RPM_NAME = "texlive-present-2026.226.2.2.1svn50048-59.2.noarch.rpm"
+RPM_HASH = "5371d87ee54305dd6d6faa379c1f5b0c7aa9bc131b12674153a2654c326fa9d27facb19671d32cd837393bf8bc7b46a7809e6e0075549c590f696dd91b05acae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-present.tex \

@@ -1,17 +1,17 @@
-SUMMARY = "Development package for chewing"
-DESCRIPTION = "Development package for chewing (An Intelligent phonetic input method library for traditional Chinese)"
+SUMMARY = "Development package for libchewing"
+DESCRIPTION = "Development package for libchewing."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.5.1+git20200627.452f622"
+PV = "0.12.0"
 
-RPM_NAME = "libchewing-devel-0.5.1+git20200627.452f622-1.10.aarch64.rpm"
-RPM_HASH = "8c6c344c166b4190dc0f4b6ec22a04f951559991bf6c8beef22ab01048142702373bd594eaf53ddd868846107d2f7c20988f46b16637a1bdbc87e71e47b6fafe"
+RPM_NAME = "libchewing-devel-0.12.0-1.4.aarch64.rpm"
+RPM_HASH = "ef672c45f555b34a19f4a47b16c1574f1ca8716f010232746a6c1edacd9b9f6e0da92222a589dddbf25bab3d53e6e0cc36f58f2c691fe3ba43fa883398e47a70"
 
-RPROVIDES:${PN} += "libchewing-devel \
+RPROVIDES:${PN} += "cmake-Chewing \
+libchewing-devel \
 pkgconfig-chewing"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libchewing3 \
-python-chewing"
+libchewing3"
 
 inherit rpm

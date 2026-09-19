@@ -6,10 +6,10 @@ extension and other Xlib functions. \
 Library and Header files for xdotool"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.20211022.1"
+PV = "4.20251130.1"
 
-RPM_NAME = "xdotool-devel-3.20211022.1-1.7.aarch64.rpm"
-RPM_HASH = "e7ed1cb906c313b985777cc9da1439033c15124e29781f94d3ff40d9674a6c905ee3e3aca47f112b30ffb414845c36d942dd8db28d0d651a00683c56da72b288"
+RPM_NAME = "xdotool-devel-4.20251130.1-1.4.aarch64.rpm"
+RPM_HASH = "614e119bb9c5e400aa72602f04a70b3916fdc49c4d4128f52cff54f4e6e58ecc3c6488ac207186313e4fe1ffa566de468fbcc239d968489d420e30e166b02a3f"
 
 RPROVIDES:${PN} += "pkgconfig-libxdo \
 xdotool-devel"

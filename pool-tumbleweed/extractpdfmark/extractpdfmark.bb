@@ -11,15 +11,15 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "extractpdfmark-1.1.1-1.4.aarch64.rpm"
-RPM_HASH = "cff392c30cec930cd06fe1c8e33b929a2b7c6396aaa6050c70bb762456ebbb37a56b0153a66eadfafd1bef5cac4bae8c002cb7f9d3ecd86dc1527dd1b6475f10"
+RPM_NAME = "extractpdfmark-1.1.1-1.17.aarch64.rpm"
+RPM_HASH = "f7aba76f1b36aff2aeb72a3fda44114115ca6e927f4804121af0f82577bef9ee53256b42d1c35bd173ae60f6b4d6658728c8ac357883dfbb5bf4237f3bac00d8"
 
 RPROVIDES:${PN} += "extractpdfmark"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpoppler-cpp.so.0 \
+libpoppler-cpp.so.3 \
 libstdc++.so.6"
 
 inherit rpm

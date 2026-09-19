@@ -5,10 +5,10 @@ that can be used with a Doom engine, such as prboom-plus, \
 chocolate-doom or gzdoom, to form a free Doom-based game."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.12.1"
+PV = "0.13.0"
 
-RPM_NAME = "freedoom-0.12.1-1.10.noarch.rpm"
-RPM_HASH = "05f49ac6ea8e4e447d60aaac1a3e5b7ff4a8a088c8022ca34178292dd66af849decf2ae5ff60b304147e1c9f5d6b02d0bb4262004a2ae2f02cc5413309dc3f0e"
+RPM_NAME = "freedoom-0.13.0-1.9.noarch.rpm"
+RPM_HASH = "6c6318412c9201db1e215a5108d16b02a7b28beb554145280daff159725b1de8d00eb01dec249447300d99a1d229d2cdeab4530afe5f97e49ba71661755d5e7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freedoom"

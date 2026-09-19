@@ -3,10 +3,10 @@ DESCRIPTION = "The lvm2 command line library allows building programs that manag
 lvm devices without invoking a separate program."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.03.16"
+PV = "2.03.38"
 
-RPM_NAME = "liblvm2cmd2_03-2.03.16-8.1.aarch64.rpm"
-RPM_HASH = "276cf17682c48a6cd09f8c361a1ee28a01b8ca11fca6a71225fff4e3af6691fb131f6fd8a468d3c8a278827c5e7dd2812efefdd4969b7ea07d497c75b13c6def"
+RPM_NAME = "liblvm2cmd2_03-2.03.38-2.5.aarch64.rpm"
+RPM_HASH = "fc24b757cc2d4f9056565bbc2adbe48a9c3926eb0b34aec2de67f09f469aa55d9a7183ed810508e02b58ce107dc5aadf00c77c29ade6f3816527a0678c8bc511"
 
 RPROVIDES:${PN} += "liblvm2cmd.so.2.03 \
 liblvm2cmd2-03"

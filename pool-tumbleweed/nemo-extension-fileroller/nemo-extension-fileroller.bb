@@ -2,10 +2,10 @@ SUMMARY = "Fileroller support for the Nemo Filemanager"
 DESCRIPTION = "Nemo-fileroller adds File-roller support to the Nemo file manager."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.0"
+PV = "6.4.0"
 
-RPM_NAME = "nemo-extension-fileroller-5.2.0-4.1.aarch64.rpm"
-RPM_HASH = "18d9dd723e2a4613dacad9b917b6ee4131e9312c4f2e10d3dfb52b13238c9c3aca14f941ca218cc675d92963ea2a4df49685e85d9e4a8f38c9eb9afd908e75bb"
+RPM_NAME = "nemo-extension-fileroller-6.4.0-6.4.aarch64.rpm"
+RPM_HASH = "e1075b1bfef39428ae541834cbd14204394f2c7f71f13d811309cff686a0788147e6f0b44b3db49762118d46f6fd560c1d4d40807b1de73e1ed4b77a9c66ed4c"
 
 RPROVIDES:${PN} += "libnemo-fileroller.so \
 nemo-extension-fileroller \

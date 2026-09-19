@@ -3,15 +3,16 @@ DESCRIPTION = "This package provides private headers of libQt6OpenGL that do not
 ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-opengl-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "bb2812d039d81ac029452e856d19b1f308233fc72892f1fd7ed338ddabf5db009cd7245cae50e989b08727cfe0d384355a77f36f087a3b77bb92a2bd9fd8413f"
+RPM_NAME = "qt6-opengl-private-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "d846627b6f310efa6913485d1b32c45dd45c805da52413c6de2d67c5c95ac917a8d52024973581ed11e24256a1480405b54688f0a714724ebd2bb3e571d9fa9c"
 
-RPROVIDES:${PN} += "qt6-opengl-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6OpenGLPrivate \
+qt6-opengl-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6OpenGL \
-qt6-core-private-devel \
-qt6-gui-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate \
+cmake-Qt6GuiPrivate \
+cmake-Qt6OpenGL"
 
 inherit rpm

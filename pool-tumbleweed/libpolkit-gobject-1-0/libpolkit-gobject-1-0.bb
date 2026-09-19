@@ -6,10 +6,10 @@ processes. \
 This package contains the gobject library only."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "121"
+PV = "127"
 
-RPM_NAME = "libpolkit-gobject-1-0-121-4.3.aarch64.rpm"
-RPM_HASH = "970ac63ad22d473afc1a91334b1641f816ac79aa0a38651b5c1bb09e84f10a96175701839a7ff948593f471fd3c62912934f90d500029b4c15ffe66f50efcebc"
+RPM_NAME = "libpolkit-gobject-1-0-127-7.2.aarch64.rpm"
+RPM_HASH = "d9e718d349875513c658b47fdfec2177454450de1c0237625013669e29717617360b7f554a4c8890835dac984e2545167c3976fbad6ff752bfc7cc667e3245a1"
 
 RPROVIDES:${PN} += "libpolkit-gobject-1-0 \
 libpolkit-gobject-1.so.0"

@@ -2,15 +2,17 @@ SUMMARY = "Translations for package kgeography"
 DESCRIPTION = "Provides translations for the 'kgeography' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kgeography-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "687682ec243f1e4f5e7126ab49990b01e410baba8baf11e9c27ecab054a0001dafc463fb96118330eb6ff626218161fe27f57f71670b03f219707475d07f1e36"
+RPM_NAME = "kgeography-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "04ec208b63425f55098456801f52ed63fbb1253ce583ff843444cb90657b481b1827c605823439b1c6ccb55453b132da9d87d69c51877fdf9f5857a624b512b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kgeography-lang \
 kgeography-lang-all \
 locale-kgeography-ar \
+locale-kgeography-ast \
+locale-kgeography-az \
 locale-kgeography-be \
 locale-kgeography-bg \
 locale-kgeography-br \
@@ -37,6 +39,7 @@ locale-kgeography-he \
 locale-kgeography-hi \
 locale-kgeography-hr \
 locale-kgeography-hu \
+locale-kgeography-ia \
 locale-kgeography-is \
 locale-kgeography-it \
 locale-kgeography-ja \

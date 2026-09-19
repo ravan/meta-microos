@@ -2,10 +2,10 @@ SUMMARY = "System user for PulseAudio"
 DESCRIPTION = "System user for PulseAudio"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "16.1"
+PV = "17.0"
 
-RPM_NAME = "system-user-pulse-16.1-4.1.noarch.rpm"
-RPM_HASH = "4ade37809e319bcb29fa6acb3699915808f4d13a415ddce548ae4ea08b6b98c48fe724e2d5fe29f4e5888f06ffaeb9bb65cca0fa61744cabc03c6ba7d3f2a481"
+RPM_NAME = "system-user-pulse-17.0-7.5.noarch.rpm"
+RPM_HASH = "c334566ab0016878fa86d8771a4ada2dfd13300c4dd322718b59f112b9cd03814ead6c7510b5d81baad6993d271acbfeedfadc052734ab78209d9061ca3245bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-pulse \

@@ -3,15 +3,18 @@ DESCRIPTION = "This package contains the development headers and library files f
 libaom, a library for the AOMedia Video 1 (AV1) video coding format."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.6.1"
+PV = "3.13.1"
 
-RPM_NAME = "libaom-devel-3.6.1-1.1.aarch64.rpm"
-RPM_HASH = "778358876fd8180b7d9826b9c403bf43d1a0ee786df6dfb0b76a1bf29030b0f9254f489333c1b68eaa46aa276a19084c5bcd9dceddcec74091b8c8ba523a6d30"
+RPM_NAME = "libaom-devel-3.13.1-2.5.aarch64.rpm"
+RPM_HASH = "27d769bbb0243e6b6ee5394b1797272007605989218d90e93fef2cf7ee63d367e89ae25f957c9058894fef2ec172637a6cae40d765cdf9cbfab97067839b592d"
 
-RPROVIDES:${PN} += "libaom-devel \
+RPROVIDES:${PN} += "cmake-AOM \
+libaom-devel \
 pkgconfig-aom"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libaom3"
+aom-tools \
+libaom3 \
+pkgconfig-libvmaf"
 
 inherit rpm

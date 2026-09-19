@@ -14,10 +14,10 @@ Features: \
     functions from within the callback function"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.22"
+PV = "1.23"
 
-RPM_NAME = "cliquer-1.22-2.7.aarch64.rpm"
-RPM_HASH = "3438708557ffed103032ac72a9bdb085cc79624d8ea34e8d73c487874e2ea4909f317ef23d9cf821380fa0b24ba1369bef504c37b3f67509c9ad4cdff16f29f6"
+RPM_NAME = "cliquer-1.23-1.5.aarch64.rpm"
+RPM_HASH = "7490a05fb7d7dd5310a89878537adf550a5d8db232879b69e894c2023d78b551ff3624df0dcda7138d57836855e5c77c3e7bcb793268465da541ba274394f0d7"
 
 RPROVIDES:${PN} += "cliquer"
 

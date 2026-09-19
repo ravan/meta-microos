@@ -4,18 +4,20 @@ developing programs which will manipulate TIFF format image files using \
 the libtiff library."
 LICENSE = "HPND"
 
-PV = "4.5.1"
+PV = "4.7.2"
 
-RPM_NAME = "libtiff-devel-4.5.1-1.1.aarch64.rpm"
-RPM_HASH = "caeb4bea701d36dff7b69065179fe594e0783fd9776872a8d938e2b2b2556158d183330034e163f6053ad14d407a7be1d662e8a2cdfd349e2d5e3525b9144b66"
+RPM_NAME = "libtiff-devel-4.7.2-1.2.aarch64.rpm"
+RPM_HASH = "496b0cbeee137e5873193c93c5d261ffe28711bbd81b8252b912c6145bfeef9bed19dd4e04d5423fd8facad5da8a9cd6374d0659dd3279cae05dfd0c4def4922"
 
-RPROVIDES:${PN} += "libtiff-devel \
+RPROVIDES:${PN} += "cmake-tiff \
+libtiff-devel \
 pkgconfig-libtiff-4"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 libstdc++-devel \
 libtiff6 \
+pkgconfig-Lerc \
 pkgconfig-libjpeg \
 pkgconfig-liblzma \
 pkgconfig-libzstd \

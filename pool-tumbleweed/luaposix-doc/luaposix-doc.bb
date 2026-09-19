@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "35.1"
 
-RPM_NAME = "luaposix-doc-35.1-2.3.noarch.rpm"
-RPM_HASH = "ccc5648d1caf895e24173f1e526025b4fe8a29e80bdc5f0a9054cec23a5ff4ae13e1f04908821f90d8c6ea3e9cc23af29af75a41ae24bbe341ea254e8afe0326"
+RPM_NAME = "luaposix-doc-35.1-4.3.noarch.rpm"
+RPM_HASH = "f601b3f9aadca854ad383b95f6be1a5927d35993f659c620fa2ccefaf1605f945dd51045e331cb5c4e4eba0d5be7e978781613f6184aa67400052d661f992dba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "luaposix-doc"

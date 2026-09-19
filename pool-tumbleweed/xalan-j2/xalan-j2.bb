@@ -8,12 +8,11 @@ LICENSE = "Apache-2.0"
 
 PV = "2.7.3"
 
-RPM_NAME = "xalan-j2-2.7.3-1.1.noarch.rpm"
-RPM_HASH = "ff899f18995cb67e26d85a72baeffb475c4c525ec58c2acc2e3db94784733cc6a3f556b17439f3432d27ec7693795feb3c22423f9befe9e465b1c316aadab125"
+RPM_NAME = "xalan-j2-2.7.3-4.6.noarch.rpm"
+RPM_HASH = "368bde39b0e238eece9e8be2b6b4d320a4a64da54eae56baabc469fe868fef023bebae52c9210859baf3f784d1c8014a78ba738387730dd8bbc8444c0e83f17c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-xalan-j2 \
-jaxp-transform-impl \
 mvn-xalan-serializer \
 mvn-xalan-serializer-pom- \
 mvn-xalan-xalan \
@@ -22,11 +21,9 @@ osgi-org.apache.xalan \
 osgi-org.apache.xml.serializer \
 xalan-j2"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-jaxp-parser-impl \
 osgi-org.apache.xerces \
-update-alternatives"
+xerces-j2"
 
 inherit rpm

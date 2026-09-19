@@ -16,10 +16,10 @@ polytopes whose coordinates have been pre-computed. The second, \
 pst-coxeterp, is devoted to the infinite series."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.0.0.98_betasvn15878"
+PV = "2026.226.0.0.98_betasvn15878"
 
-RPM_NAME = "texlive-pst-cox-2023.209.0.0.98_betasvn15878-53.1.noarch.rpm"
-RPM_HASH = "04c4d9ee7378762c735d5366d8024cb13dc6b809c403f75128b692f552b085304a454b619879b0030d3c5cf7c282ebd9a0590316b0456686c8bd9c3bbaa12ec7"
+RPM_NAME = "texlive-pst-cox-2026.226.0.0.98_betasvn15878-59.2.noarch.rpm"
+RPM_HASH = "be4cd722316c8a37b64d76391d226b5d3bd4d089159936f9f970e3401b9edddf35b522ffdd0e34683a294c6fd5df677397c342832b90cd4c231cd7fca11e0b37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-coxcoor.sty \

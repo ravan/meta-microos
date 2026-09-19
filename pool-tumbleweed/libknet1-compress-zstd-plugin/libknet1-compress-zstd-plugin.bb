@@ -1,11 +1,11 @@
 SUMMARY = "Provides libknet1 zstd support"
 DESCRIPTION = "Provides zstd compression support for libknet1."
-LICENSE = "GPL-2.0+ & LGPL-2.1+"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21"
+PV = "1.33"
 
-RPM_NAME = "libknet1-compress-zstd-plugin-1.21-1.10.aarch64.rpm"
-RPM_HASH = "4cf513a68af18d48980771909e5766c86f710c2147b5f1f22994a88323e4d3da80cea2e2613bac1fd0119aaa48ee65c37e22acdb400a01a1e602cefeb8f44f07"
+RPM_NAME = "libknet1-compress-zstd-plugin-1.33-2.2.aarch64.rpm"
+RPM_HASH = "ae2604ceb38f9b0999479e4fe807bcdb1c168a06a6f395cb38f187fde93060c2171eec30ffac8da928e965947ac72c5e9c26cae3a755ade573f36147a87108f8"
 
 RPROVIDES:${PN} += "libknet1-compress-zstd-plugin"
 

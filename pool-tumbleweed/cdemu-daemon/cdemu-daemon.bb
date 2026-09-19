@@ -10,10 +10,10 @@ The daemon registers itself on D-BUS's system or session bus \
 that can be used by clients to control it."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.2.6"
+PV = "3.3.1"
 
-RPM_NAME = "cdemu-daemon-3.2.6-1.16.aarch64.rpm"
-RPM_HASH = "7a47987daf22d7db1dab7063370b05f4cc9c017037b1d57bf45aa5eaaeefe568d28159567abe5332574374e90564229729198654b1bfc549ba8fe251fb9c872d"
+RPM_NAME = "cdemu-daemon-3.3.1-1.5.aarch64.rpm"
+RPM_HASH = "d1f6db27c61d0d0ce519bb285c4e224a5254ac0cf8b0565f54889ea9fb87808e4ed31efe8fd95e1637aaf18d1f6a111872ddfa64bb5d012403a153dd8d64656b"
 
 RPROVIDES:${PN} += "cdemu-daemon"
 
@@ -27,7 +27,7 @@ libc.so.6 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libmirage.so.11 \
+libmirage.so.12 \
 vhba-kmp"
 
 inherit rpm

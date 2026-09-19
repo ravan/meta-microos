@@ -4,10 +4,10 @@ chemistry packages (such as chemmacros). The package used to be \
 distributed as a part of chemmacros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn53437"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-chemgreek-2023.209.1.1asvn53437-54.1.noarch.rpm"
-RPM_HASH = "c7e733cfe485d46a828e7cae8a475375275e7383fea3612149c9f34ffb612bd6523bcb1e97cfbf417c6d63700bba311a17b8d3b52fa36f979fe4d0b1570f7821"
+RPM_NAME = "texlive-chemgreek-2026.226.1.1asvn77682-60.2.noarch.rpm"
+RPM_HASH = "248696706aaac6f11a0026ff5ae9932364afc8a5b5707ca4f40f31ec914832a51beb8a1d09111fde10ffb048b92f1225f58cac0a1582bf7857bd3de9aeedbcfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemgreek.sty \

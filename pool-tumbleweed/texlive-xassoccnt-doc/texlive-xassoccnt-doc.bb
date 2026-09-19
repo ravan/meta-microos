@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xassoccnt"
 DESCRIPTION = "This package includes the documentation for texlive-xassoccnt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn61112"
+PV = "2026.226.2.0svn61112"
 
-RPM_NAME = "texlive-xassoccnt-doc-2023.209.2.0svn61112-53.2.noarch.rpm"
-RPM_HASH = "200c41e4af106e4a97e9c3ae302413812e60c12a2d159c25a25a4d9210011d5e2f69b1dceced776e878a32709185313072c13481eccf608529fc6b7d12a1ee05"
+RPM_NAME = "texlive-xassoccnt-doc-2026.226.2.0svn61112-59.4.noarch.rpm"
+RPM_HASH = "cba2b1ae68ba0d34d200f8488ec665a231c19e2867e18d7cbde7d6d9340034051e6a58a847b9ff08783c054d1df9cb8c98b13f3783c0fa50371664dc854f385d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xassoccnt-doc"

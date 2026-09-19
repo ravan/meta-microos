@@ -1,5 +1,5 @@
 SUMMARY = "A LaTeX Source Editor and TeX Shell"
-DESCRIPTION = "Kile is a user-friendly TeX/LaTeX editor by KDE. \
+DESCRIPTION = "Kile is a TeX/LaTeX editor by KDE. \
  \
 The main features are: \
  \
@@ -22,55 +22,54 @@ The main features are: \
  * Advanced editing commands."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.9.93"
+PV = "2.9.95git.20260802T020133~eeeb6da4"
 
-RPM_NAME = "kile-2.9.93-2.22.aarch64.rpm"
-RPM_HASH = "63563c374cfa7e2b89f76fdbec6d8a39d5357fe4d6d7bbe32aa02a48054a8cb2a8ba4d682acae9b5ecdf3c870d810059786d60b3d1909b77d568fec925a8fe8d"
+RPM_NAME = "kile-2.9.95git.20260802T020133~eeeb6da4-1.1.aarch64.rpm"
+RPM_HASH = "59d26f023dc3ba671fe5c2ddcade4e6b41f5d92468f1fd5266c933f95db8693bffe7d23706145c01ebe81cb278103f67da9beff546a34e4b7c58d8d8f48c24f1"
 
-RPROVIDES:${PN} += "kile \
-kile5 \
-libkdeinit5-kile.so"
+RPROVIDES:${PN} += "kile"
 
-RDEPENDS:${PN} += "/usr/bin/perl \
-konsole-part \
+RDEPENDS:${PN} += "konsole-part \
 ld-linux-aarch64.so.1 \
-libKF5Codecs.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KHtml.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Parts.so.5 \
-libKF5Service.so.5 \
-libKF5TextEditor.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Script.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6Codecs.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6IconWidgets.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Parts.so.6 \
+libKF6Service.so.6 \
+libKF6TextEditor.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpoppler-qt5.so.1 \
+libpoppler-qt6.so.3 \
 libstdc++.so.6 \
 okular \
-shared-mime-info \
 texlive-context \
 texlive-latex \
+texlive-tex-bin \
 texlive-xetex"
 
 inherit rpm

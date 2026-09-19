@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "vncmanager-controller-1.0.2-1.1.aarch64.rpm"
-RPM_HASH = "648e9f314ec5f92d3842375563bdd3063c0c9fad647cb2c7ec9e8430a75e8e08ff7f9b1bb039e014a35b9dda3556783573e3c18f90c24d43dc37cf12ce6ded83"
+RPM_NAME = "vncmanager-controller-1.0.2-4.5.aarch64.rpm"
+RPM_HASH = "95b04440f2898258043b5fe884e31d2200701e625a4664a60f622c07942190d83ee5abd57f4ae6b1068e25a64a90dc787ad6a70e68c4223d59e347e1106b0912"
 
 RPROVIDES:${PN} += "vncmanager-controller"
 

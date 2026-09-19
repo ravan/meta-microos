@@ -16,12 +16,12 @@ document for being well-formed. \
  \
 When underlying handlers get called, they receive as their first parameter \
 the _Expat_ object, not the Parser object."
-LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
+LICENSE = "Artistic-2.0"
 
-PV = "2.46"
+PV = "2.590.0"
 
-RPM_NAME = "perl-XML-Parser-2.46-1.21.aarch64.rpm"
-RPM_HASH = "98e13299e66ea7f74a87bfaa43665230d9d0f268163d919eb81fec067ae505cf490fa06f73401c6b979a934f74543f85cf9712fba34aaaaa5e700b17b2b8b4e0"
+RPM_NAME = "perl-XML-Parser-2.590.0-1.4.aarch64.rpm"
+RPM_HASH = "9b4d00760628d01a1a9ac4e7e8e70cb9e279e3fcddc875dbb3b7b43c742113d7f6f74923ffed46e36acf27e2232eaa2ab427c47075192f02e3c7bbbc41eacec7"
 
 RPROVIDES:${PN} += "perl-XML--Parser \
 perl-XML--Parser--Expat \
@@ -35,7 +35,7 @@ perl-XML-Parser"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libexpat.so.1 \
-perl--MODULE-COMPAT-5.38.0 \
-perl-LWP--UserAgent"
+perl--MODULE-COMPAT-5.44.0 \
+perl-File--ShareDir"
 
 inherit rpm

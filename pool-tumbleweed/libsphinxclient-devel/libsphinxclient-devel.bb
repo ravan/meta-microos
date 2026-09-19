@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.11"
 
-RPM_NAME = "libsphinxclient-devel-2.2.11-7.8.aarch64.rpm"
-RPM_HASH = "473b18e2798c6464cc305f407b713e8caff5a0d43132d0adc2add7a6c22a5fc6f72463e1a9b2840b39d3f0e2cbf6eb970ce28c2f209e2f1097d4ca31f6e53e71"
+RPM_NAME = "libsphinxclient-devel-2.2.11-10.10.aarch64.rpm"
+RPM_HASH = "96058b5f25df55c25eae541392c1bc569d22fd40de83de1bd8926d9d7d9173194557ac1308ce6ff4e46a39352c703689833d77326f2a1015655c1c7df82f93dc"
 
 RPROVIDES:${PN} += "libsphinxclient-devel"
 

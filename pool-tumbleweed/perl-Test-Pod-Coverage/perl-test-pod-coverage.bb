@@ -1,9 +1,9 @@
-SUMMARY = "Check for pod coverage in your distribution."
+SUMMARY = "Check for pod coverage in your distribution"
 DESCRIPTION = "Test::Pod::Coverage is used to create a test for your distribution, to \
 ensure that all relevant files in your distribution are appropriately \
 documented in pod. \
  \
-Can also be called with the Pod::Coverage manpage parms. \
+Can also be called with Pod::Coverage parms. \
  \
     use Test::Pod::Coverage tests=>1; \
     pod_coverage_ok( \
@@ -12,9 +12,8 @@ Can also be called with the Pod::Coverage manpage parms. \
         'Foo::Bar, with all-caps functions as privates', \
     ); \
  \
-The the Pod::Coverage manpage parms are also useful for subclasses that \
-don't re-document the parent class's methods. Here's an example from the \
-Mail::SRS manpage. \
+The Pod::Coverage parms are also useful for subclasses that don't \
+re-document the parent class's methods. Here's an example from Mail::SRS. \
  \
     pod_coverage_ok( 'Mail::SRS' ); # No exceptions \
  \
@@ -25,9 +24,9 @@ Mail::SRS manpage. \
     pod_coverage_ok( 'Mail::SRS::Reversable', $trustme ); \
     pod_coverage_ok( 'Mail::SRS::Shortcut', $trustme ); \
  \
-Alternately, you could use the Pod::Coverage::CountParents manpage, which \
-always allows a subclass to reimplement its parents' methods without \
-redocumenting them. For example: \
+Alternately, you could use Pod::Coverage::CountParents, which always allows \
+a subclass to reimplement its parents' methods without redocumenting them. \
+For example: \
  \
     my $trustparents = { coverage_class => 'Pod::Coverage::CountParents' }; \
     pod_coverage_ok( 'IO::Handle::Frayed', $trustparents ); \
@@ -54,18 +53,18 @@ modules in the module distribution: \
     eval 'use Test::Pod::Coverage 1.00'; \
     plan skip_all => 'Test::Pod::Coverage 1.00 required for testing POD coverage' if $@; \
     all_pod_coverage_ok();"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-2.0"
 
-PV = "1.10"
+PV = "1.100.0"
 
-RPM_NAME = "perl-Test-Pod-Coverage-1.10-3.28.noarch.rpm"
-RPM_HASH = "c502fd326f6252f83df023f78977a75f8727462b11bfb5c6af6596ec6fe830358f1b815baf9b12971786efb1dabb8d6461e27e73ebcc752a4958fc4f3d9accff"
+RPM_NAME = "perl-Test-Pod-Coverage-1.100.0-1.3.noarch.rpm"
+RPM_HASH = "a6c9a056d3bc5234c48afa6978cdfd35c9327fc5ea1dc2db7a57ad44c24c3da60180d375569f6662cddd6be1bc96ea727660196512303d29565a626d6e5b0080"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Pod--Coverage \
 perl-Test-Pod-Coverage"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Pod--Coverage"
 
 inherit rpm

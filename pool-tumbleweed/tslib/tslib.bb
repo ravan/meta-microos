@@ -3,12 +3,12 @@ DESCRIPTION = "Tslib is an abstraction layer for touchscreen panel events. \
  \
 The idea of tslib is to have a core library and a set of plugins to \
 manage the conversion and filtering as needed."
-LICENSE = "LGPL-2.1-or-later & GPL-2.0-only"
+LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "1.22"
+PV = "1.24"
 
-RPM_NAME = "tslib-1.22-1.10.aarch64.rpm"
-RPM_HASH = "997189fff266482603a13599d338a661b6c445239409eb5ede6e080fec9fbe3f2c29fcc9c34c9d7a83d774e343b6f298bcac522f44c78f717d0632865667104a"
+RPM_NAME = "tslib-1.24-1.4.aarch64.rpm"
+RPM_HASH = "a2d08f3ce0fe1162dd4fe77f70a18e4bca48035b284ef782ac42f0695710d6324219b76337217c69bf18dded128ee42c76e23f8694d4a415540a1b9202aa48e2"
 
 RPROVIDES:${PN} += "config-tslib \
 tslib"

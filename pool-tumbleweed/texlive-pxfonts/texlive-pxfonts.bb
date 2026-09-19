@@ -12,10 +12,10 @@ Type 1 format (AFM and PFB files), and are supported by TeX \
 metrics (VF and TFM files) and macros for use with LaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-pxfonts-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "14a4734422fbc9b9872e474336d1a19b93a01931741ff66f69c0d7cbce1253e88d954c4981199aa1f604c25f721d9f11c78c0834067b192a2215cef58e5d7f85"
+RPM_NAME = "texlive-pxfonts-2026.226.svn77682-60.4.noarch.rpm"
+RPM_HASH = "8235729c27b96901e0488110b3cc50f68abd689123e77e4ad9a848570b991e24d9d122db0cd7043c8c01373a95538df7d7cc64aef846a6717caa50a647094d2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-omlpxmi.fd \

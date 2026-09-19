@@ -3,10 +3,10 @@ DESCRIPTION = "This package extends the \\hhline command with a !{...} token, \
 which allows to create lines with arbitrary LaTeX commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn54676"
+PV = "2026.226.1.1svn54676"
 
-RPM_NAME = "texlive-ehhline-2023.209.1.1svn54676-54.2.noarch.rpm"
-RPM_HASH = "c9a85e95c47ef0c979e76d1d72e0aaee957c0bf28dc45b862c816aa016a84f1797812b8b0b27536b27cddbabd5d0b744ddb37b8f2c392d35ea3350c75f144039"
+RPM_NAME = "texlive-ehhline-2026.226.1.1svn54676-61.4.noarch.rpm"
+RPM_HASH = "e38c5375a881cd76a13717a267d8d4ac1df762410ad50b1d3112936988dce2a8e7f4f4d027d0a65d3f89f3eeaef4e554dbe5ffc212170cd8d99929379dd8814d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ehhline.sty \

@@ -2,10 +2,10 @@ SUMMARY = "ZSH Completion for fd"
 DESCRIPTION = "The official zsh completion script for fd, generated during the build."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "8.7.0"
+PV = "10.4.2"
 
-RPM_NAME = "fd-zsh-completion-8.7.0-1.4.noarch.rpm"
-RPM_HASH = "41e0483d3e6dc7af02be4ec7cc1322df382d482cf391f091c91f38614dbfbd0427ad18964ec1065eec4b5ea433e8f4eaae036e99313f214b0c0ec9709d096652"
+RPM_NAME = "fd-zsh-completion-10.4.2-1.5.noarch.rpm"
+RPM_HASH = "b30b6a5b6e80772dd5e3c6b6100a317bfef95f75fec5c246011c3b89c9f85c93a8a1c0de01382e7538ee3b7525e84746dcc03e8787be904746306531a331a45d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fd-zsh-completion"

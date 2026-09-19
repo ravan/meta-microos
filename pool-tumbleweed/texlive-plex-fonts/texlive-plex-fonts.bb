@@ -2,21 +2,26 @@ SUMMARY = "Severed fonts for texlive-plex"
 DESCRIPTION = "The  separated fonts package for texlive-plex"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64496"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-plex-fonts-2023.209.svn64496-53.1.noarch.rpm"
-RPM_HASH = "b1fc9a595db4a5cfac556e266d0b29a2ad8d1fca2302fb117bc1021ded8e3bc907168e38db2bc3cbb3bbf60ff985a9b5f462e4bfa71211640bf1f169a29a17e1"
+RPM_NAME = "texlive-plex-fonts-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "6256198bbb5a3f43049e180c1a9f14d3594cd65e0e93878194c2edbb9e08b20a29cb76fb58f3ee2d9f8b94da77b28e5571a568556cb5773323af70c802da3e84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-plex-fonts \
 font--lang=aa \
+font--lang=ab \
 font--lang=af \
+font--lang=agr \
 font--lang=an \
+font--lang=ast \
 font--lang=av \
 font--lang=ay \
+font--lang=ayc \
 font--lang=az-az \
 font--lang=ba \
 font--lang=be \
+font--lang=bem \
 font--lang=bg \
 font--lang=bi \
 font--lang=bin \
@@ -35,6 +40,7 @@ font--lang=cv \
 font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=el \
 font--lang=en \
 font--lang=eo \
@@ -48,6 +54,7 @@ font--lang=fo \
 font--lang=fr \
 font--lang=fur \
 font--lang=fy \
+font--lang=ga \
 font--lang=gd \
 font--lang=gl \
 font--lang=gn \
@@ -58,6 +65,7 @@ font--lang=hr \
 font--lang=hsb \
 font--lang=ht \
 font--lang=hu \
+font--lang=hz \
 font--lang=ia \
 font--lang=id \
 font--lang=ie \
@@ -82,10 +90,16 @@ font--lang=lb \
 font--lang=lez \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mhr \
+font--lang=mi \
+font--lang=miq \
+font--lang=mjw \
 font--lang=mk \
 font--lang=mn-mn \
 font--lang=mo \
@@ -95,6 +109,8 @@ font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -108,6 +124,8 @@ font--lang=pap-an \
 font--lang=pap-aw \
 font--lang=pl \
 font--lang=pt \
+font--lang=qu \
+font--lang=quz \
 font--lang=rm \
 font--lang=rn \
 font--lang=ro \
@@ -118,7 +136,9 @@ font--lang=sc \
 font--lang=se \
 font--lang=sel \
 font--lang=sg \
+font--lang=sgs \
 font--lang=sh \
+font--lang=shs \
 font--lang=sk \
 font--lang=sl \
 font--lang=sm \
@@ -134,56 +154,69 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tg \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
 font--lang=to \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
 font--lang=tt \
 font--lang=ty \
 font--lang=tyv \
 font--lang=uk \
+font--lang=und-zmth \
+font--lang=unm \
 font--lang=uz \
+font--lang=ve \
 font--lang=vi \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
+font-ibmplexmath \
 font-ibmplexmono \
-font-ibmplexmonoextralight \
+font-ibmplexmonoextlt \
 font-ibmplexmonolight \
-font-ibmplexmonomedium \
-font-ibmplexmonosemibold \
+font-ibmplexmonomedm \
+font-ibmplexmonosmbld \
 font-ibmplexmonotext \
 font-ibmplexmonothin \
 font-ibmplexsans \
+font-ibmplexsanscond \
 font-ibmplexsanscondensed \
-font-ibmplexsanscondensedextralight \
-font-ibmplexsanscondensedlight \
-font-ibmplexsanscondensedmedium \
-font-ibmplexsanscondensedsemibold \
-font-ibmplexsanscondensedtext \
-font-ibmplexsanscondensedthin \
-font-ibmplexsansextralight \
+font-ibmplexsanscondextlt \
+font-ibmplexsanscondlight \
+font-ibmplexsanscondmedm \
+font-ibmplexsanscondsmbld \
+font-ibmplexsanscondtext \
+font-ibmplexsanscondthin \
+font-ibmplexsansextlt \
 font-ibmplexsanslight \
-font-ibmplexsansmedium \
-font-ibmplexsanssemibold \
+font-ibmplexsansmedm \
+font-ibmplexsanssmbld \
 font-ibmplexsanstext \
 font-ibmplexsansthin \
 font-ibmplexserif \
-font-ibmplexserifextralight \
+font-ibmplexserifextlt \
 font-ibmplexseriflight \
-font-ibmplexserifmedium \
-font-ibmplexserifsemibold \
+font-ibmplexserifmedm \
+font-ibmplexserifsmbld \
 font-ibmplexseriftext \
 font-ibmplexserifthin \
+font-plxmono \
+font-plxsans \
+font-plxsanscondensed \
+font-plxserif \
 texlive-plex-fonts"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

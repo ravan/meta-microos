@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5I18n5"
 DESCRIPTION = "Provides translations for the 'libKF5I18n5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5I18n5-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "da3b21b6111437af14c7d80826dfbea3eb8a26b676dce19fddba62ff34bbdc442e6da40cc7f8014ace064b250f66594308f3b37a64d6ea87ca6e751715957c6f"
+RPM_NAME = "libKF5I18n5-lang-5.116.0-1.13.noarch.rpm"
+RPM_HASH = "2ad1aca1e21e11706cddb7363ef58769f702ad17ba952fd7c5e042c44214386ca86d3a3623317d6a6a0315e586d6b5a34bfa058cf68945b5c631e311d311b5f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5I18n5-lang \

@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7"
 
-RPM_NAME = "stm32flash-0.7-1.4.aarch64.rpm"
-RPM_HASH = "2591ddf0717e50a3938eb89a2d24c345d8e9f73dfe25229e51116a29484b382eaf42aad0f187eec56dd33baddeecffd142c0487b198961ab2970c3e3b1d27845"
+RPM_NAME = "stm32flash-0.7-1.14.aarch64.rpm"
+RPM_HASH = "b3aab152bf2e2bcee8dfc0b9c1b998256c443e111248d5af264a701d559b4b8219a401990b263eecf686d5e448693425ecadc4029d4be50240d43d5c4f6aee88"
 
 RPROVIDES:${PN} += "stm32flash"
 

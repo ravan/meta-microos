@@ -7,10 +7,10 @@ It is the core memory allocator used in Samba. \
 This package includes the talloc2 library."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.4.0"
+PV = "2.4.4"
 
-RPM_NAME = "libtalloc2-2.4.0-3.2.aarch64.rpm"
-RPM_HASH = "82521fa74cd784d3355cd44c979ebb87f4fcfb1696e5c1e9d977037a937f72b505df33dca95d024cb3b7dcc28545938a0bbf26c776d7836ac5d4f5e9d0b7b040"
+RPM_NAME = "libtalloc2-2.4.4-1.3.aarch64.rpm"
+RPM_HASH = "2ca64c06ff4402432816cf38e0a8c6ea9e37af777cfa2484cc25d65034b7f7fc72750a0c98935f64dfe4a2e53ab0e9309c1206b2d5cf6b23d40c0de4df661784"
 
 RPROVIDES:${PN} += "bundled-libreplace \
 libtalloc.so.2 \

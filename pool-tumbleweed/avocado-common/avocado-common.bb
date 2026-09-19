@@ -5,10 +5,10 @@ framework) to perform automated testing. \
 This package contains common infrastructure files."
 LICENSE = "GPL-2.0-only"
 
-PV = "69.0"
+PV = "113.0"
 
-RPM_NAME = "avocado-common-69.0-6.11.noarch.rpm"
-RPM_HASH = "bc965c2f7f1110f91e07b1d69441fd988e019f91d4e642154807953106a03e1fd692bebe64b12df3175b21336d0f680402e0734612dd76c5e2900cd6e030afaa"
+RPM_NAME = "avocado-common-113.0-1.2.noarch.rpm"
+RPM_HASH = "206031697f0d9f8ad529e0c39b369ed5b1790a64e1ab4007a1502303b0b5dcf34ed2cf756a2edcb7dd6eeaae835742945ef767ba15e810fb738d70d10db42726"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avocado-common \

@@ -6,10 +6,10 @@ Graphics. This package replaces any early LaTeX 2.09 package \
 and 'font' by R. Ramasubramanian and R.W.D. Nickalls."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn29989"
+PV = "2026.226.2.0svn77682"
 
-RPM_NAME = "texlive-ascii-font-2023.209.2.0svn29989-54.1.noarch.rpm"
-RPM_HASH = "f9b1b46f0202a44e184d2a4dba84b3ccfb931668039d3d990d5177e0c64b84b94b54676dcf69e40b8e9a56c6a93c8a7ed2b3929f95675507da0d69e5361a057f"
+RPM_NAME = "texlive-ascii-font-2026.226.2.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "b683d60b0d65c4203817771c7f59c1b4d67c2b043a7dfde2eb0a8b24e355e275ad2302ab2df376484ad8117ca6ee26c6d7a30910e9254a92916e9b49e7c077c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ASCII.tfm \

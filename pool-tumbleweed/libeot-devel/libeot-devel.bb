@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.01"
 
-RPM_NAME = "libeot-devel-0.01-1.27.aarch64.rpm"
-RPM_HASH = "d1137716b9f5926d40ee7c7768b87a741ac8a250bbb05e3b80e6af45cbc3fbcb92d5120bbe96ec2985b18b4d553a0d9b832165a2ac6b7afa3ea60593b6bf1f3b"
+RPM_NAME = "libeot-devel-0.01-1.38.aarch64.rpm"
+RPM_HASH = "ddd25ea86c10aa6f5fc02a32b01f6b1aa75e9cec6cf864be663eb81cfdd101e6b0c573029eb5a483d600243a58e4866a1e2ca588ec3d8709b5cb55e0553c8c91"
 
 RPROVIDES:${PN} += "libeot-devel \
 pkgconfig-libeot"

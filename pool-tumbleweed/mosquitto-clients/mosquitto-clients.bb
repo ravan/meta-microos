@@ -11,10 +11,10 @@ monitoring and automation with his twittering house and twittering ferry. \
 Client for Mosquitto."
 LICENSE = "EPL-1.0"
 
-PV = "2.0.15"
+PV = "2.0.23"
 
-RPM_NAME = "mosquitto-clients-2.0.15-1.5.aarch64.rpm"
-RPM_HASH = "b37659620b32eb789536f7318712f20aafe8c966a651d4e99d1d60fb66f0067f3f43f292eb1c424f8646f4c4007782f212bc1f5261b7952c1ed8516c8d46ee4d"
+RPM_NAME = "mosquitto-clients-2.0.23-1.4.aarch64.rpm"
+RPM_HASH = "6099e804bfe5893fd5aac079af114997f3c80b3a4432b65df37aa6dcfd7e7c062937e9f36f5afba50e5566d88741c9230f47868b10c28c9b1fd27838aed853c5"
 
 RPROVIDES:${PN} += "mosquitto-clients"
 

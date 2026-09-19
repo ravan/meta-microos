@@ -5,10 +5,10 @@ keyboard shortcuts, mouse wheel, a slider in a popup menu, or via \
 a linked external audio mixer tool."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.4.7"
+PV = "0.5.1"
 
-RPM_NAME = "xfce4-pulseaudio-plugin-0.4.7-1.1.aarch64.rpm"
-RPM_HASH = "35a649b85388794cc24f7de00b82749bc967894cbbe9c34f48edb6ad0dc4193453dbe60f067a6a5d5b89f4b219a4c19c4f45e0b04747491186dde848258e7e80"
+RPM_NAME = "xfce4-pulseaudio-plugin-0.5.1-1.4.aarch64.rpm"
+RPM_HASH = "813d647a07a05795a7f659ff8e7788f3905cfd1409130a8c6817b1957990a53cc0028fb4a8ec095de683bd5698c51a3da78037bcefe391979ef134ba30d8a752"
 
 RPROVIDES:${PN} += "libpulseaudio-plugin.so \
 xfce4-panel-plugin-pulseaudio \
@@ -29,10 +29,10 @@ libkeybinder-3.0.so.0 \
 libnotify.so.4 \
 libpulse-mainloop-glib.so.0 \
 libpulse.so.0 \
-libwnck-3.so.0 \
 libxfce4panel-2.0.so.4 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \
+libxfce4windowing-0.so.0 \
 libxfconf-0.so.3 \
 pulseaudio-daemon \
 xfce4-panel"

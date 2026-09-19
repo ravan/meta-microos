@@ -1,11 +1,11 @@
 SUMMARY = "Development files for the Qt 6 3DQuickExtras library"
 DESCRIPTION = "Development files for the Qt 6 3DQuickExtras library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-3dquickextras-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "b51e8d206c7e43aa7d57b126b89fecba845826c5e4a44000ca567fcf2d550126b16327f60ab6068b60dcacae4ca31b44f58a4e38d3bfab7925ba17fab6975218"
+RPM_NAME = "qt6-3dquickextras-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "e7f9dba9434f99cb062ca255bafc8b3f7526a3c7089343e2a7d6a53131cae04822e168775ae1d563461bf2c7c286bee342625901a4ebdde667159c5fc8f29d28"
 
 RPROVIDES:${PN} += "cmake-Qt63DQuickExtras \
 pkgconfig-Qt63DQuickExtras \
@@ -24,6 +24,7 @@ libQt63DQuickExtras6 \
 pkgconfig-Qt63DCore \
 pkgconfig-Qt63DExtras \
 pkgconfig-Qt63DInput \
+pkgconfig-Qt63DLogic \
 pkgconfig-Qt63DQuick \
 pkgconfig-Qt63DRender \
 pkgconfig-Qt6Core \

@@ -11,10 +11,10 @@ customization options, and more. \
 This package contains the SWIG manual."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.1"
+PV = "4.4.1"
 
-RPM_NAME = "swig-doc-4.1.1-2.4.noarch.rpm"
-RPM_HASH = "a50a4eec9fbc8cecfda9927779647d018b4b7eb9ab2196e2160364f92e8dfb308465fa77e737a9c4ad914b3b07d50f46dab2a7c650d19e6555e3e0cbfe97b13f"
+RPM_NAME = "swig-doc-4.4.1-2.3.noarch.rpm"
+RPM_HASH = "d5b12ba30a80fe29a6e36fcc05b4507eeda86d8fb1d423124b7195be1cdd2da0607a53a6197117f3ede1c48080669684312a37fd2d4f0889a4363a9f4cff00b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swig-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-azerbaijani"
 DESCRIPTION = "This package includes the documentation for texlive-babel-azerbaijani"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn44197"
+PV = "2026.226.1.0asvn44197"
 
-RPM_NAME = "texlive-babel-azerbaijani-doc-2023.209.1.0asvn44197-54.1.noarch.rpm"
-RPM_HASH = "e44c8038f3e47556da0a4d180d1a6870a864601cce870d3f7efd7ad9a2010d309fcdafcf5d6974fb925068da3b5ee0b679e7ca5d9d67d7c1c6a45a33ef5dbe5c"
+RPM_NAME = "texlive-babel-azerbaijani-doc-2026.226.1.0asvn44197-60.2.noarch.rpm"
+RPM_HASH = "d4d147968d2a61f4d1336d4a200712c9064dbec9fdb9d2e6968f843f9d51e5461b419cc751d3467818d96e9f4b5db762b166055acc012574ff408cec5507e14c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-azerbaijani-doc"

@@ -6,10 +6,10 @@ matrices, and polynomials over the integers and over finite fields. \
 This package contains the documentation for the NTL API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "11.5.1"
+PV = "11.6.0"
 
-RPM_NAME = "ntl-doc-11.5.1-1.9.noarch.rpm"
-RPM_HASH = "32c48ea238c682fff07fe2bfeed7d57a3a4a43dcd60fc9a51ee86845c4667774f6b732313dfa897e967863bfffc6a27e538023771aad2ddfa421b48d76df2796"
+RPM_NAME = "ntl-doc-11.6.0-1.4.noarch.rpm"
+RPM_HASH = "45fc6f6a1bddabf29e146433feb50e173fe647e02ce15f957d333d02a23f273fe55206275e5715954587f5c9bfcda3510075f9ea905d851e7028452e89780002"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ntl-doc"

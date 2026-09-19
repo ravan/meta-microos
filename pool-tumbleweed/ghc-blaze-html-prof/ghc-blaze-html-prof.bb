@@ -2,19 +2,19 @@ SUMMARY = "Haskell blaze-html profiling library"
 DESCRIPTION = "This package provides the Haskell blaze-html profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.1.2"
+PV = "0.9.2.0"
 
-RPM_NAME = "ghc-blaze-html-prof-0.9.1.2-10.1.aarch64.rpm"
-RPM_HASH = "098a166548dac941608643ffb3d1434074c2090876d5d9a3bf94d9e9b5106e864ccfd6cdc1d1dc7bc3d339e0117f3f4e0f2e65555d7f029d65e9ba259dc8b360"
+RPM_NAME = "ghc-blaze-html-prof-0.9.2.0-2.17.aarch64.rpm"
+RPM_HASH = "6edbf8f30c10977dd6e65a8c802de58eabdf91232410ede0653f43c76cb44e528f568e04c9957bdcee3d22dad1d0883bccb7797c6972a8904cc5f54a82855844"
 
 RPROVIDES:${PN} += "ghc-blaze-html-prof \
-ghc-prof-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii"
+ghc-prof-blaze-html-0.9.2.0-93B80xR5emg3yG3V6J7j6o"
 
 RDEPENDS:${PN} += "ghc-blaze-html-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
-ghc-prof-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-blaze-builder-0.4.4.1-DHhu3j9nndC9LUZIrPJCEG \
+ghc-prof-blaze-markup-0.8.3.0-K4FwMBPUUgu9TB66ALCxf7 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

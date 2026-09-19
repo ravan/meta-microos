@@ -7,10 +7,10 @@ reliable transport protocol, with congestion control, support for \
 transparent multi-homing, and multiple ordered streams of messages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.0.19"
+PV = "1.0.21"
 
-RPM_NAME = "lksctp-tools-devel-1.0.19-2.1.aarch64.rpm"
-RPM_HASH = "fcaa881916f4d1391d77f9c7cdf2022c2f95df025bdbb7c0ff6e36f83ed176c8c435c77ac6506f6f46ae600902ece603d6c9a1527e38522d3824d2ae07dfd865"
+RPM_NAME = "lksctp-tools-devel-1.0.21-1.8.aarch64.rpm"
+RPM_HASH = "c992a69e14cf75d43fe91d00b386b7b57b6ec675a99ee89d4748828c444b2c17d4d6c491dce8942b482cf825554805348f6cb0b07d18bc7f8be32c226d4f2776"
 
 RPROVIDES:${PN} += "lksctp-tools-devel \
 pkgconfig-libsctp"

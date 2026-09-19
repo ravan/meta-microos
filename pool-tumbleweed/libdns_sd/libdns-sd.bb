@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "libdns_sd-0.8-23.3.aarch64.rpm"
-RPM_HASH = "cd70787e877d1cd0c5c086e06f6ac46ac88c45fd0503ab5fa4df00ab61dd5354cb43ad8b0fdebda7bfbb4618cb8d0a620afbe8ddb78514ad79d2cf92b43c6785"
+RPM_NAME = "libdns_sd-0.8-45.2.aarch64.rpm"
+RPM_HASH = "9bd466406f71df0bc4c94fb423d970afdc116a141f0f8b30674a13de27d3eee6868ff622a2419023b533421c2243ed6575f939b185a151b31bff129b3c10186d"
 
 RPROVIDES:${PN} += "avahi-compat-mDNSResponder \
 libdns-sd \

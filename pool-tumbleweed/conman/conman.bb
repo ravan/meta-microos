@@ -16,8 +16,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "conman-0.3.1-1.3.aarch64.rpm"
-RPM_HASH = "43e7f1c6a4c6e41fd269d37d237ee3612ffe1b5b53118ae22d0fcfebeeaea7685df34fcc197578ad812947f004b1f2a19a1694c1c95b53bacda5fd0d985a6d63"
+RPM_NAME = "conman-0.3.1-3.8.aarch64.rpm"
+RPM_HASH = "f52f20bcccff97f03b4bff9db43c95913be668b28311450c58d3c4a7b0bf47e70925031cf3ffa126d39bd7ba66cbc80cf8e8dce6ebc0e78813737327865aebf4"
 
 RPROVIDES:${PN} += "config-conman \
 conman \

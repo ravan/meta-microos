@@ -2,10 +2,10 @@ SUMMARY = "Backend libarchive for pqiv"
 DESCRIPTION = "Backend libarchive/libarchive_cbx for pqiv"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12"
+PV = "2.13.3"
 
-RPM_NAME = "pqiv-libarchive-2.12-1.4.aarch64.rpm"
-RPM_HASH = "57480c3c62d35e704fd618dc2030fb15dda69ed45b871b125363a4cc4d88d56f607d3651faa2dc8a0435bf14e65e3a7bc4f623e62547eabb1581f402b0176395"
+RPM_NAME = "pqiv-libarchive-2.13.3-1.4.aarch64.rpm"
+RPM_HASH = "96783c347ef72627fc006dfe615f2b59471228dfa9a986ec57a0b0bee461619f020ed464e1d4191efe7c7beae396f8006d6968db8ccf34b862b454f178ceaf13"
 
 RPROVIDES:${PN} += "pqiv-libarchive"
 

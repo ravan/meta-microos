@@ -16,10 +16,10 @@ calculated using the accepted values of the fundamental \
 constants."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.2svn58727"
+PV = "2026.226.1.1.2svn58727"
 
-RPM_NAME = "texlive-physconst-2023.209.1.1.2svn58727-52.1.noarch.rpm"
-RPM_HASH = "d7bd15ee331c956e781a479bd62222fe4b8df35077e7ed96a19804692c9564b9b03bc08ff60c88c2e8c10ff3a3c934b11310bdf18f66dc55de430febce7e00dc"
+RPM_NAME = "texlive-physconst-2026.226.1.1.2svn58727-58.2.noarch.rpm"
+RPM_HASH = "9f2ccfbe81cf7fc9f5f8d7f0936a224cd554eb19801c3a066e5d130f2f7eb2a71c5e1ab15f279581c440fff6af7525bafad8a4c444be7d7bc7861683b991cae7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-physconst.sty \

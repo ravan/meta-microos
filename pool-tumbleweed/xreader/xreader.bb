@@ -3,10 +3,10 @@ DESCRIPTION = "Xreader is a document viewer capable of displaying multiple and \
 single page document formats like PDF and Postscript."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "3.8.2"
+PV = "4.6.5"
 
-RPM_NAME = "xreader-3.8.2-1.1.aarch64.rpm"
-RPM_HASH = "3deb65dfc2afa9077c4876fa39a24143db2c0dab3e6474a1c95ea5a07d48c59f45ca6f3b54779cb2ea6f29def51749fef6b8e4c5861468e945f55e69941c84d2"
+RPM_NAME = "xreader-4.6.5-1.2.aarch64.rpm"
+RPM_HASH = "af8bb1c6828d0430b62d24e99fb97036537a6238fe09ea6a55cbc530f109397806069a6b271548bbcdc0776964929ef149734ba1aff01c9507475b3543584d41"
 
 RPROVIDES:${PN} += "caja-extension-xreader \
 nemo-extension-xreader \

@@ -3,10 +3,10 @@ DESCRIPTION = "libsecret is a library for storing and retrieving passwords and o
 secrets. It communicates with the 'Secret Service' using DBus."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.20.5"
+PV = "0.21.7"
 
-RPM_NAME = "libsecret-1-0-0.20.5-1.8.aarch64.rpm"
-RPM_HASH = "f5ba12b414e257b584f9cd6233a9a8ffaa0f97d6c0aa5b0720155f2e3820f568f663dc6728708b119834ace69b6760c0e04480039767e6e72bb8a382f1d65f32"
+RPM_NAME = "libsecret-1-0-0.21.7-2.4.aarch64.rpm"
+RPM_HASH = "934924f69946fcc66fe54e505511a8d9159d3c90db7324520fdc0bec792404d09c7c6bac296b021c94a01811db1ebf8645a45c394a65f5c9fd5e6099459bd7af"
 
 RPROVIDES:${PN} += "libsecret \
 libsecret-1-0 \

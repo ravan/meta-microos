@@ -2,10 +2,10 @@ SUMMARY = "The openSUSEway desktop environment pattern"
 DESCRIPTION = "This pattern installs the openSUSE look and feel for sway."
 LICENSE = "MIT"
 
-PV = "0.15.2"
+PV = "0.17.0"
 
-RPM_NAME = "patterns-openSUSEway-0.15.2-1.1.noarch.rpm"
-RPM_HASH = "fb010bb334ac215a16939eec2646c34ce5f52301143b82594336cb441d57e968358d7c38681b0dcb007634972e3e230bc542a1d8780d0b390d24ed8bbb1e1f60"
+RPM_NAME = "patterns-openSUSEway-0.17.0-1.4.noarch.rpm"
+RPM_HASH = "5d0aa46d76273c6544cee080caf918341453b968858ff3152e231009b5d53fc12145ad40966f0d8213937e6b89563d0304a6f2b96be5de6aead282edda7bddc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

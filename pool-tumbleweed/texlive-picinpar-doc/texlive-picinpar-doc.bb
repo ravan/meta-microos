@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-picinpar"
 DESCRIPTION = "This package includes the documentation for texlive-picinpar"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3svn65097"
+PV = "2026.226.1.3asvn77682"
 
-RPM_NAME = "texlive-picinpar-doc-2023.209.1.3svn65097-52.1.noarch.rpm"
-RPM_HASH = "676ec825d08e549f8fb6e19910e28c08409462c5312db02b872e40870552e57c0c185bdd997ef440ef20a9828d4cf418d67b5141ea0de1074fd1d4f920bfbead"
+RPM_NAME = "texlive-picinpar-doc-2026.226.1.3asvn77682-58.2.noarch.rpm"
+RPM_HASH = "8a295477a8bddef721c0cda715f85f759aee18a373b3e77ad75aa6acbba95fe5e79abf621c80c5744d37923ba93804553b8c06a634ed023125ff747d92d86215"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-picinpar-doc-de;en \

@@ -1,12 +1,12 @@
 SUMMARY = "VDE ecryption module"
 DESCRIPTION = "This package contains CryptCab, which can be used \
 to send encrypted data over an UDP link."
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
 PV = "2.3.2+svn587"
 
-RPM_NAME = "vde2-cryptcab-2.3.2+svn587-3.24.aarch64.rpm"
-RPM_HASH = "8c9bc3ebf19c0a1a97158eff3553b26f42c6f9093168065987f4e3954f749226ab08e0370f15b0fb6616a2c2364ca95306672b5ef3cf0c3238fc48f8a4692d4b"
+RPM_NAME = "vde2-cryptcab-2.3.2+svn587-6.6.aarch64.rpm"
+RPM_HASH = "9f165b95f65cea819f12f1832af57f647bfccade8d8a6280649741d111b0fbd0a3eb2174472303b04b101573b670be5420e192c6d745beb34547049428201031"
 
 RPROVIDES:${PN} += "vde2-cryptcab"
 

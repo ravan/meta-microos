@@ -6,10 +6,10 @@ This package includes files that are shared between several XApp \
 applications (i18n files and configuration schemas)."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.6.1"
+PV = "3.2.2"
 
-RPM_NAME = "xapp-common-2.6.1-1.1.noarch.rpm"
-RPM_HASH = "861d83752ac28c7447d74fe53e3cd52151bc6d49e8ae4bf53ee231ea23c32c8eee2c96e86946214144dc453b3004140852591de600727d3d00a5efd39f20991e"
+RPM_NAME = "xapp-common-3.2.2-1.4.noarch.rpm"
+RPM_HASH = "87c1d49404d30f195752d238823bd8571f2fd4909124bdef6d7ee273b65cb17feab94c7804b6d2988b4d3b07dc66c127a2bf94c6322748bcd79537de1696e4a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xapp-common \

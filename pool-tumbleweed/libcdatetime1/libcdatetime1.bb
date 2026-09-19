@@ -4,10 +4,10 @@ DESCRIPTION = "Library for C date and time functions. \
 libcdatetime is a low level member of the libyal library family."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230115"
+PV = "20260703"
 
-RPM_NAME = "libcdatetime1-20230115-1.3.aarch64.rpm"
-RPM_HASH = "7c0e83dfa4fd2382f782e983a41d3adaae2190b2f598eb8bde8a4fa4d13b7a967ebe1eda524e1451f8b1617df7f1c64e4112e77ba0cfc145cde3b61eb65b7ed6"
+RPM_NAME = "libcdatetime1-20260703-1.2.aarch64.rpm"
+RPM_HASH = "14a1245510093815a61df55a1ae8eece674f405eeeaf3cf6163176b7a9a2d17d44e0c7b42247444007b2f7f84c67f28c73962acc70c06580a077c7e1585e4870"
 
 RPROVIDES:${PN} += "libcdatetime.so.1 \
 libcdatetime1"

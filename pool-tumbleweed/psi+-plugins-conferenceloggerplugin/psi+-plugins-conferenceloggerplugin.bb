@@ -2,19 +2,19 @@ SUMMARY = "Plugin for Psi"
 DESCRIPTION = "This plugin is designed to save conference logs in which the Psi+ user sits."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "1.5.1615+0"
+PV = "1.5.2112+0"
 
-RPM_NAME = "psi+-plugins-conferenceloggerplugin-1.5.1615+0-3.2.aarch64.rpm"
-RPM_HASH = "5800fc54f61276320564eb585acb0401e821fbf635b16574d28b9b65d490f7026272f05d946b545c89ee9feb624f781fc5ad53aa7a04a2fb2c4381d17eb164c5"
+RPM_NAME = "psi+-plugins-conferenceloggerplugin-1.5.2112+0-1.6.aarch64.rpm"
+RPM_HASH = "f928666742aefb813adb3a563a0acd8a0fde36b729d8aa04124fe291f97845997d39aeb814dc14558104dfcaa554f61430780eb68860db32f994b44eb35a40cd"
 
 RPROVIDES:${PN} += "libconferenceloggerplugin.so \
 psi+-plugins-conferenceloggerplugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

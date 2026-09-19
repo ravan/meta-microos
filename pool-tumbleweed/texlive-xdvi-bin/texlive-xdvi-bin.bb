@@ -2,10 +2,10 @@ SUMMARY = "Binary files of xdvi"
 DESCRIPTION = "Binary files of xdvi"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-xdvi-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "c08bc9fc7a7bd406a19768efeb9032e1dea274bf174f70f4ca0563e045ade31bd36e85b298f7b701b8c848a8c948232eb5045358831288c012e141f31ac4a6ee"
+RPM_NAME = "texlive-xdvi-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "bb058a688b7bab01c694a9f70a9b29cc4ae2d1de3cf5949091d61ee8b823550203beb40806ae9764e2252330c630cfdce82970700c6af69f06fd1ab5ca479e51"
 
 RPROVIDES:${PN} += "texlive-xdvi-bin"
 

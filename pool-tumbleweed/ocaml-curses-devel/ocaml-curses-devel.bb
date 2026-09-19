@@ -5,10 +5,11 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.0.11"
 
-RPM_NAME = "ocaml-curses-devel-1.0.11-1.4.aarch64.rpm"
-RPM_HASH = "e3332dc244c3a06a00fa65573789c6e20d0333c190dc7d145093447398b5cf933dad49d9bcbb7d7724612fde7b974942850152fcb2140c032312f9b7ecce0af9"
+RPM_NAME = "ocaml-curses-devel-1.0.11-3.2.aarch64.rpm"
+RPM_HASH = "809c301ad8baa521cc2d6749f5130200fd294762305563075fc6f2eeb4611befa30dbef485d23049a18ac47852f21064bdc0f980b6c0dfe80957df8109446e55"
 
-RPROVIDES:${PN} += "ocaml-Curses \
+RPROVIDES:${PN} += "config-ocaml-curses-devel \
+ocaml-Curses \
 ocaml-curses-devel \
 ocamlfind-curses \
 ocamlx-Curses"
@@ -25,6 +26,7 @@ ocaml-Stdlib--Either \
 ocaml-Stdlib--Hashtbl \
 ocaml-Stdlib--List \
 ocaml-Stdlib--Seq \
+ocaml-Stdlib--Sys \
 ocaml-Unix \
 ocaml-curses \
 ocamlfind-unix \

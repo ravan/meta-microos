@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "00.20.001"
 
-RPM_NAME = "jondo-00.20.001-1.16.noarch.rpm"
-RPM_HASH = "438501ebf57b1d26b10c0a9df4576017307c792613ab353af14faf83cbbf2226fba856d18184d434be0df224555f8fe92a5a07b319ed9d9dd35968eb01ce7da8"
+RPM_NAME = "jondo-00.20.001-2.9.noarch.rpm"
+RPM_HASH = "93656ba54f32cacb85b42d03f426dbdcd9619c1e13adbea0bed4df219496ab7b541168e83c215c4b55300e4f7a2a2817ef8386481b3653e3ee24ff7d3bd0cccb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jondo"

@@ -4,10 +4,10 @@ conversion of LaTeX files to ebook formats such as epub, mobi \
 and epub3. tex4ht is used as the conversion engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3isvn66332"
+PV = "2026.227.0.0.4dsvn78132"
 
-RPM_NAME = "texlive-tex4ebook-2023.209.0.0.3isvn66332-55.1.noarch.rpm"
-RPM_HASH = "f12c139db8a4b5c4a9341102d23a4cf1a34ed7f9a71b6c4cfc9a9e7c1ca880b6cf1785a91ec882ac1b634d444418bfeadbcd24f264c4030ae7131641cff92148"
+RPM_NAME = "texlive-tex4ebook-2026.227.0.0.4dsvn78132-62.2.noarch.rpm"
+RPM_HASH = "78488a07839b4b6ba6a675ac4379821a6ecdf71e45806ef47fd0a08d0886b2043bbeeeb3b54b0dddacba23c06a4292321e586a5c8a8fc9e860952934ecfcc92e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tex4ebook.sty \

@@ -10,10 +10,10 @@ testidx-glossaries.sty uses the indexing interface provided by \
 the glossaries package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn60966"
+PV = "2026.227.1.2svn60966"
 
-RPM_NAME = "texlive-testidx-2023.209.1.2svn60966-55.1.noarch.rpm"
-RPM_HASH = "453a902efea09d22d31c7d122abbd0dd4241ab800ba6bab61ae787ffe0d65e81161bab540759ab9ff18a9814f662053253afb1f355002d75f4a5c17fb4d792a9"
+RPM_NAME = "texlive-testidx-2026.227.1.2svn60966-62.2.noarch.rpm"
+RPM_HASH = "9877467e19521891e82c2eb77dbebf4c19f1e28d0e012f6f5dc516556f7077ff91dc2a8017099fb2b056d422c4d69cbb500b1651db3f4cf772e89542e1161df9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-testidx-glossaries-diglyphs.tex \

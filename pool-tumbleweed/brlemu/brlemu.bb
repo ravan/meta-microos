@@ -1,12 +1,12 @@
 SUMMARY = "Emulates a braille display"
 DESCRIPTION = "Brlemu emulates a braille display. It is intended for testing braille \
 support without needing to acquire expensive hardware devices."
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
 PV = "0.1"
 
-RPM_NAME = "brlemu-0.1-61.21.aarch64.rpm"
-RPM_HASH = "cce451f2f2ce261c42cbf36a6982620eb296364b357a1c67d8906030d395b36e4e968a07fd740a0d2d016629ff239740e71f5b96e76711b4b5845db85a6b8dd2"
+RPM_NAME = "brlemu-0.1-63.9.aarch64.rpm"
+RPM_HASH = "ec43c176b60ed7b5a490dd3499f363dfa1a4bbd5eabf8e73d0b6b32fd41a1c597c9793742b0a2bf72c29aae04fcad0c151e82318bd558fa33b489af373f04752"
 
 RPROVIDES:${PN} += "brlemu"
 

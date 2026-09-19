@@ -10,26 +10,34 @@ changes, which makes Minuet a valuable tool for both novice and \
 experienced musicians."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "minuet-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "58b2a9eaceab8e6ec01e095a3f234c35b01ea31474d38f926e902ad94520deca9cb976996e2fe253304a9d5dd835b13f9c1565f8570309e8e0871cdf43cc8155"
+RPM_NAME = "minuet-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "f29019957543c2b1fe29aff2e0d39ca9398299ed1a96b2f30fa51f7fec77a449cc0b8334f33feba0c9803fac6475e70e8d654f2502789e6a1f9894113f4eeec9"
 
 RPROVIDES:${PN} += "libminuetinterfaces.so.0.3.0 \
 minuet"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+kf6-kcoreaddons-imports \
+kf6-kirigami-imports \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6I18nQml.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Qml.so.6 \
+libQt6QuickControls2.so.6 \
+libaubio.so.5 \
 libc.so.6 \
 libfluidsynth.so.3 \
 libgcc-s.so.1 \
-libqt5-qtquickcontrols2 \
-libstdc++.so.6"
+libm.so.6 \
+libstdc++.so.6 \
+qt6-declarative-imports"
 
 inherit rpm

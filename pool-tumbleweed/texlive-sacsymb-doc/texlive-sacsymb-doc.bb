@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sacsymb"
 DESCRIPTION = "This package includes the documentation for texlive-sacsymb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65768"
+PV = "2026.226.svn65768"
 
-RPM_NAME = "texlive-sacsymb-doc-2023.209.svn65768-54.1.noarch.rpm"
-RPM_HASH = "7328ea8ae2044b0e2a8a5626c3777b07402fe6b598b68abb143bd3f579814247ad16fda508255ba049278a9f89422b20c9abc274dbe6472da06a102200a0c83b"
+RPM_NAME = "texlive-sacsymb-doc-2026.226.svn65768-60.2.noarch.rpm"
+RPM_HASH = "c3c5e50c9b66c0d09cab70ee955a23b98cd1188da1dbfd46f53d067094a123976f8bb73075c4a52760b175593e90058810bf8c8f3a5f6b3e42dae01dcfe9a341"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sacsymb-doc"

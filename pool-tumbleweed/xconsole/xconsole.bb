@@ -3,10 +3,10 @@ DESCRIPTION = "xconsole displays in a X11 window the messages which are usually 
 to /dev/console"
 LICENSE = "MIT"
 
-PV = "1.0.8"
+PV = "1.1.1"
 
-RPM_NAME = "xconsole-1.0.8-1.3.aarch64.rpm"
-RPM_HASH = "ec91276623daa15c2fdc5d497f3a88ada27df70a43fefdddb5edba7a95fc96cf8a916f08a1d8e198d59e0520ed22b354ef797e4f49f2e8abd2406d04b9c89185"
+RPM_NAME = "xconsole-1.1.1-1.3.aarch64.rpm"
+RPM_HASH = "0376857c4023163663116e60084a5de3c53f681ccedd5f2780102ec8f7c32e64ef8b193fc75235fd47935917930d1395278efb98e8923e2b3b260455eec95441"
 
 RPROVIDES:${PN} += "xconsole"
 

@@ -5,10 +5,10 @@ DESCRIPTION = "This package simplifies creation of new documents for the \
 Zagreb) and sample thesis documents are included."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.23svn18020"
+PV = "2026.226.0.0.23svn18020"
 
-RPM_NAME = "texlive-hrlatex-2023.209.0.0.23svn18020-54.1.noarch.rpm"
-RPM_HASH = "c83dc9bd474d52836d6e9aa1825ccc8370f8364f6f2ba0a1b9ddfe5ed1bfb5edbea28823d58ddc1f40ce4f23e79c4149c74678ce71b4ffe965dda85d24d775fa"
+RPM_NAME = "texlive-hrlatex-2026.226.0.0.23svn18020-60.2.noarch.rpm"
+RPM_HASH = "eb40d795c3b2e9000be5fffc251fb7be07d5f2dd130c7051d77a0903aad0b0a4e28246155a280e942b3244ab0b6a2d16c36746e7b4a200fd28fdeed2156f4c37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fsbispit.cls \

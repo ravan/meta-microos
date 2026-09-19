@@ -2,10 +2,10 @@ SUMMARY = "Haskell persistent-sqlite library documentation"
 DESCRIPTION = "This package provides the Haskell persistent-sqlite library documentation."
 LICENSE = "MIT"
 
-PV = "2.13.1.1"
+PV = "2.13.3.1"
 
-RPM_NAME = "ghc-persistent-sqlite-doc-2.13.1.1-2.15.noarch.rpm"
-RPM_HASH = "bb463827fc1221b1f6c1c98b99c69b457f6569daaadc08f1b46b936aa26320e9dc02bf3763e4f2a6878bf0858748ce49994bb45e55bb2a60d3fb5f5218c79bf4"
+RPM_NAME = "ghc-persistent-sqlite-doc-2.13.3.1-1.26.noarch.rpm"
+RPM_HASH = "b3608212a82682dd330daf688381229468f67989fa0f3d39e6a66cd895c55ae9725f70c7745f62dc4b8bfad4ce6237085b436fea714f24f8f75c9d3346b3ac8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-persistent-sqlite-doc"

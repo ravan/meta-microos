@@ -2,13 +2,14 @@ SUMMARY = "Translations for package okular"
 DESCRIPTION = "Provides translations for the 'okular' package."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "okular-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "09cef5eb3c858850f554e337460409ef5ccc624bb893d9f0a69c4f283b37d78d9f42fcd06c679f57ce12d08640ff2de511251066eb35736bea39799ef67394ae"
+RPM_NAME = "okular-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "eda36882bd5e1c2fd6b7d925eee2854bee13f845d16510802c74e56db01af43e91fbb3efa79fa3080c056afe580675a891ad2b5f13b91b371a52f72feceb5fd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-okular-ar \
+locale-okular-ast \
 locale-okular-az \
 locale-okular-be \
 locale-okular-bg \

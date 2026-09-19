@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "10.2+2.0.1"
 
-RPM_NAME = "cd-paranoia-10.2+2.0.1-1.9.aarch64.rpm"
-RPM_HASH = "d6bfc9472d3ff21771348ec6ad974ed739677421519cfb0e90f23f2eadbcdaf5ee330ad51ba18f8512d4e48bb40240b437e3e94ba299c74e2b13cb1d17e573f9"
+RPM_NAME = "cd-paranoia-10.2+2.0.1-1.19.aarch64.rpm"
+RPM_HASH = "76eb302dfe50ed192ef086937e41464457918ede0abeed67161e3150d6be012bd0a45725e0908550680f36abb8ff35fe035112dc55f822c608a664471fbb0d35"
 
 RPROVIDES:${PN} += "cd-paranoia"
 

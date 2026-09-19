@@ -9,26 +9,27 @@ microlens> family; see the readme \
 <https://github.com/stevenfontanella/microlens#readme on Github>."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.3.13"
+PV = "0.4.3.18"
 
-RPM_NAME = "ghc-microlens-th-0.4.3.13-1.2.aarch64.rpm"
-RPM_HASH = "0f1aa67c82140e903d652e7a8a117960dd58bc8fc78be52e1bfd732c60d56586e103ae556967269efcd407b4225d754dece97e29805b028638353b5741604452"
+RPM_NAME = "ghc-microlens-th-0.4.3.18-2.3.aarch64.rpm"
+RPM_HASH = "4d85c1410e3b3e5b6c062f4fcbf57e47626d8fca0a4b2693cc352d333f3e9ccf887ee3ce9f998298ae79425b43155fd52088282aa33776029d0ef8cc955341ac"
 
 RPROVIDES:${PN} += "ghc-microlens-th \
-libHSmicrolens-th-0.4.3.13-K3KDbjSa5xkBUVjBxtDTLF-ghc9.4.6.so"
+libHSmicrolens-th-0.4.3.18-5y491C8iAr58VYbwqIS2QN-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHScontainers-0.6.7-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSmicrolens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHSth-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHScontainers-0.7-d5e1-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSmicrolens-0.5.0.0-K1fQqqDyjwS5maOWIXQxx3-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHSth-abstraction-0.7.2.0-LVMuWnluhDI5se4FHUInw7-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jvlisting"
 DESCRIPTION = "This package includes the documentation for texlive-jvlisting"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn24638"
+PV = "2026.226.0.0.7svn24638"
 
-RPM_NAME = "texlive-jvlisting-doc-2023.209.0.0.7svn24638-56.1.noarch.rpm"
-RPM_HASH = "ed00256cfcb1da89cf08b1f0c085231d8750a87d53f7f6475a0115317c8d17e2819c6e877c2aa2c8fa5d21c9163af2135389f293dad8b262f87d3155a378f14f"
+RPM_NAME = "texlive-jvlisting-doc-2026.226.0.0.7svn24638-63.2.noarch.rpm"
+RPM_HASH = "de8d334c943d6cccc20a3df241fe8171a7db45c27ee9328bdc42862ed58153ff9051ba56f9341256bfc48992c7f83c4d233dc2a668d77f58214a304cf607df78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jvlisting-doc"

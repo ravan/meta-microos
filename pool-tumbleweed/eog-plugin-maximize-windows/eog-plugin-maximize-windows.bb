@@ -2,16 +2,14 @@ SUMMARY = "Eog maximize-windows plugin"
 DESCRIPTION = "The Eye of Gnome Maximize Windows plugin"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "44.1"
 
-RPM_NAME = "eog-plugin-maximize-windows-44.0-1.2.aarch64.rpm"
-RPM_HASH = "200840147c7b23e7c5b94180a70401aabd1b8308e35deb43e734a932bc1eeab1460f9b6aa43500e962d926b75a3cbe12813904fa258edb34a86d0d82f21c404e"
+RPM_NAME = "eog-plugin-maximize-windows-44.1-2.3.aarch64.rpm"
+RPM_HASH = "3c56d466eb4473e8dd7c02dbad3830b9b4de99382c6c8e8a6cf4a77ec5681d7cb2f4f797bde428e24034d5695504422e048a7d37b13e2fab910b83ffbbb0fc10"
 
 RPROVIDES:${PN} += "eog-plugin-maximize-windows \
 eog-plugins-/usr/lib64/eog/plugins/maximize-windows.plugin"
 
-RDEPENDS:${PN} += "eog-plugins-data \
-typelib-Eog \
-typelib-GObject"
+RDEPENDS:${PN} += "eog-plugins-data"
 
 inherit rpm

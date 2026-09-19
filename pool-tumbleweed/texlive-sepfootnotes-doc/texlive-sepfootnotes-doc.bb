@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sepfootnotes"
 DESCRIPTION = "This package includes the documentation for texlive-sepfootnotes"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3csvn41732"
+PV = "2026.226.0.0.3dsvn77682"
 
-RPM_NAME = "texlive-sepfootnotes-doc-2023.209.0.0.3csvn41732-54.1.noarch.rpm"
-RPM_HASH = "78360d9a3d0365f289e73b421fc212f6cef0980b67cbc85e90f90453c47e828c2b3111481069bdf40124633a33d76289aae9f722aa4c593459266b47489feca3"
+RPM_NAME = "texlive-sepfootnotes-doc-2026.226.0.0.3dsvn77682-60.2.noarch.rpm"
+RPM_HASH = "6c25f4fbc5768ede9b8d15115f2fa79872846b19877d09e6adeda9d28a90552ea6fa9022f5b24a418d20547f5fd66c8223dd9308c0c0517be4ba03dc2012706a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sepfootnotes-doc"

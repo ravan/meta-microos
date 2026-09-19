@@ -2,16 +2,15 @@ SUMMARY = "Small audio and MIDI framework"
 DESCRIPTION = "This package contains the controller binary for sndio."
 LICENSE = "ISC"
 
-PV = "1.7.0"
+PV = "1.10.0"
 
-RPM_NAME = "sndioctl-1.7.0-1.11.aarch64.rpm"
-RPM_HASH = "4ebdb121471c68ecffe705d55d697dab1dc46469f04d493dddde97524322331667458eea1478383e3f1a8eb857bdf27cf57126cd5e86c7e3b12ca3d6eb3490cb"
+RPM_NAME = "sndioctl-1.10.0-1.5.aarch64.rpm"
+RPM_HASH = "cf842e1b12a02fe85926504ed8b1938fce0c5d40a395d8907e9bf921efbdf3e6066faaf18f6dac6a9d0a36c1bba21152d64aa4326d55594bce35b78a067768ee"
 
 RPROVIDES:${PN} += "sndioctl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libsndio.so.7.1 \
-libsndio7-1"
+libsndio.so.7"
 
 inherit rpm

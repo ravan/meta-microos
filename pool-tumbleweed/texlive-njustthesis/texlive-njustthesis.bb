@@ -3,10 +3,10 @@ DESCRIPTION = "This is a thesis template for the Nanjing University of Science \
 and Technology>."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.0.1svn62451"
+PV = "2026.226.0.0.0.1svn62451"
 
-RPM_NAME = "texlive-njustthesis-2023.209.0.0.0.1svn62451-55.1.noarch.rpm"
-RPM_HASH = "ef44389972f35a707664a3e31f7faa30147e508411480b9255fe980c639b7a715e56407c8ecfb248aebd7bd2be0efe375bf24fbea7870542cb29ff106e0d2f4e"
+RPM_NAME = "texlive-njustthesis-2026.226.0.0.0.1svn62451-61.2.noarch.rpm"
+RPM_HASH = "52a079bd0f1254ab64e31334033d967d384c634dbabf63fbb403a920ef9728cd6e6859d165dfab3cc9c62fa4d3b1bcac1a079ec9b758a51ad73c11271ad0b9f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-njustthesis.cls \

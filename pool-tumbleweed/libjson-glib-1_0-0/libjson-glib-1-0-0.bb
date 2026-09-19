@@ -12,10 +12,10 @@ GObject classes for direct serialization into, and deserialization from, \
 JSON data streams."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6.6"
+PV = "1.10.8"
 
-RPM_NAME = "libjson-glib-1_0-0-1.6.6-2.9.aarch64.rpm"
-RPM_HASH = "dfcc91f77bbbc73bcc96df17ebf236f4ccc370fc4a2e1be97b1870fd3e086e9fdb9a96ad6c62ba128db520a1005f261d8a85d51e99463fa783cd8660bb84725f"
+RPM_NAME = "libjson-glib-1_0-0-1.10.8-2.1.aarch64.rpm"
+RPM_HASH = "fa7e5829538958d88b2b6abe09610b1a245686b60b3ae9df7dac48e188d07714d99bcc223b0306e2e38541735c946faf9848506e05aed8c47a39662f3aa0a823"
 
 RPROVIDES:${PN} += "json-glib \
 libjson-glib-1-0-0 \

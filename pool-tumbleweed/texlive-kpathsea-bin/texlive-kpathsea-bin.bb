@@ -2,10 +2,10 @@ SUMMARY = "Binary files of kpathsea"
 DESCRIPTION = "Binary files of kpathsea"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-kpathsea-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "6e57795d864ea88591adb3e3746b5effcdee878e511e665f5aec230dffafd7c7cf6b9978a40bba3a6e8d021b46818e530832071c8fee509ff31bf3f70fb19b4b"
+RPM_NAME = "texlive-kpathsea-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "52f1b1b1c5db31f954666c22d08ff4338db6a0fee12bab251c8e52a829a9d6c4e62e0051dce500b05b51f5781dd751298f81916dc1c161a48f9c6ad8ee3e761a"
 
 RPROVIDES:${PN} += "texlive-kpathsea-bin"
 

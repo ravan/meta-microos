@@ -4,10 +4,10 @@ It was originally written for use with xdm, but may also be used with \
 other display managers such as gdm or kdm."
 LICENSE = "MIT"
 
-PV = "1.1.3"
+PV = "1.1.4"
 
-RPM_NAME = "sessreg-1.1.3-1.3.aarch64.rpm"
-RPM_HASH = "4f11c10255f0d042198f1258de1f8da841fbdb108f80f1eae9a0b59fc20304d4ca80e575debf5e62c8e446995e0cb9f88ad503f91d513f1e78f59190200d0f2a"
+RPM_NAME = "sessreg-1.1.4-1.5.aarch64.rpm"
+RPM_HASH = "149b559be560ec50ec7ca8709e33db66b9b05a3ec10d037a0d11c2e8f1bb5880830adfb0ce90e2548cabeae2c75f5e901703f333223d1eeb6e26c9120f7ef89d"
 
 RPROVIDES:${PN} += "sessreg"
 

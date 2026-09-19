@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon Glacier"
 DESCRIPTION = "The AWS Java SDK for Amazon Glacier module holds the \
 client classes that are used for communicating with \
 Amazon Glacier Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-glacier-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "525877e0fe43173aba6cf47a9bb5e01845349dca693e7a10284db506c1227dce608a1d11ea140064e8ab15d4bb1ab2bd71828a57ea09e7a5500173b15bf0a25e"
+RPM_NAME = "aws-sdk-java-glacier-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "4e8e05ea9e2897575ac35296c1aa300239244370914791300cbb3a4c85db781123c3d2bb98234baa990d049c10b63806cc87c2ee7dab6aaec42104bb71b80a0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-glacier \

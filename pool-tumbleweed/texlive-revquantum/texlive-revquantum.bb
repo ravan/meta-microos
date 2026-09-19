@@ -8,10 +8,10 @@ warns when users try to load packages which are known to be \
 incompatible with revtex4-1."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.11svn43505"
+PV = "2026.226.0.0.11svn43505"
 
-RPM_NAME = "texlive-revquantum-2023.209.0.0.11svn43505-54.2.noarch.rpm"
-RPM_HASH = "c13a22a10533cc9accac6a5ed9e40298ea18c4b8c28c885d5c754f16a2459f636982ce37f877c59e4bf6c65e9856327b05471b8fe7fa9fe26d04f696b2ff939b"
+RPM_NAME = "texlive-revquantum-2026.226.0.0.11svn43505-60.4.noarch.rpm"
+RPM_HASH = "0469809a9f6d93412084a30f46cec9788829833cd2f01023c28ab45a0c1b130bdd6637378a59d689b1def39691e014eb80378f4a2776e230b0293a75c2416caa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-revquantum.sty \

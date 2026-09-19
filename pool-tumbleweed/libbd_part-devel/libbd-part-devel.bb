@@ -3,16 +3,16 @@ DESCRIPTION = "This package contains header files and pkg-config files needed fo
 with the libbd_part plugin/library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libbd_part-devel-2.28-1.6.aarch64.rpm"
-RPM_HASH = "2fc6d995a9c2989e9fd5c79306f5168405502d8f0c4f1a60a316aa82c4306c10f699391e4f85b7834042d4c995320d531be4dcb67b5b244ab04e6cb4c513f3f2"
+RPM_NAME = "libbd_part-devel-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "b66ff2fb285b6636c3062b3c5a2d911dddd00fe1def87fc5448c8bc610b958c9af1327f8617e2d20cebd24b14ffa456cc9b5af58e4ae26920dcc30969b71cfab"
 
 RPROVIDES:${PN} += "libbd-part-devel \
 libblockdev-part-devel"
 
 RDEPENDS:${PN} += "glib2-devel \
-libbd-part2 \
+libbd-part3 \
 libbd-utils-devel"
 
 inherit rpm

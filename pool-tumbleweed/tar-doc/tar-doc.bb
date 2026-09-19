@@ -7,10 +7,10 @@ is able to direct its output to any available devices, files or other programs, 
 it may as well access remote devices or files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.34"
+PV = "1.35"
 
-RPM_NAME = "tar-doc-1.34-12.1.noarch.rpm"
-RPM_HASH = "5e85ec8120803e1ab93b59e84379f595a6be40e875b03977ae5412002d2436d3387ffbcc69739a081378f2d5145c9055b8b5f6abf1866c16f556a98c9c92e078"
+RPM_NAME = "tar-doc-1.35-10.1.noarch.rpm"
+RPM_HASH = "7fc1dc9cc8aea575a49df932a4eefda3ee04da81076af90f55a1f9d7783218ed0c3d8f6c27a2d8f345148567a8a0b1f80f5c689e4295a832c6c0091bf10cc99e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tar-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mathpunctspace"
 DESCRIPTION = "This package includes the documentation for texlive-mathpunctspace"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.208.1.1svn46754"
+PV = "2026.226.1.1svn46754"
 
-RPM_NAME = "texlive-mathpunctspace-doc-2023.208.1.1svn46754-53.1.noarch.rpm"
-RPM_HASH = "fa2b51f1669259fa9c80dc0010bafb7e8a4b31815cf6b7d98f8e56ca43b3fa2c0fba6dc517200c513b40d4009aa873e2235336eca7e4b1ab896fea3c65c937a3"
+RPM_NAME = "texlive-mathpunctspace-doc-2026.226.1.1svn46754-59.2.noarch.rpm"
+RPM_HASH = "d137220f990552b119a1a0c209d27f804942dcd01663a7b0833f9499c7de85ed4eb5f3834789b8a9e223457bf20c54ebc1b82bd0e22500ccdcb48b51c94d5b52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mathpunctspace-doc"

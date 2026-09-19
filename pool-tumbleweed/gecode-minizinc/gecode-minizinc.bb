@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.3.0~git20211208.6b09bea4"
 
-RPM_NAME = "gecode-minizinc-6.3.0~git20211208.6b09bea4-1.6.aarch64.rpm"
-RPM_HASH = "e05fcd620ebd05d502c2e086c432be911be87d5a8eef8a980605787e3b52c0b86a9bb62d3eb135b614318e16f8a9019bfa9b6898d3c6fb2faceba4d272cf2c14"
+RPM_NAME = "gecode-minizinc-6.3.0~git20211208.6b09bea4-1.16.aarch64.rpm"
+RPM_HASH = "e505c8672ef1581a3a92cb0e36c6acd2922c64724d3ea6b7a0490a76f18d155ef77897c818def791c982f1b34f487420cce7c163999cd6468bd54692045dffcb"
 
 RPROVIDES:${PN} += "gecode-minizinc \
 libgecodeflatzinc.so.51 \

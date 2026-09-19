@@ -14,10 +14,10 @@ Design goals The main design goals of JFlex are: \
     * JLex compatibility"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.8.2"
+PV = "1.9.1"
 
-RPM_NAME = "jflex-1.8.2-5.2.noarch.rpm"
-RPM_HASH = "b517ea3bfb36b13280f08d6bb5e29cef8a1adc659443e316084d94bfd2064ac6ee327e40a137fbb70df89556edf24cf1908bf0b27030b37997f384cdd223f5b8"
+RPM_NAME = "jflex-1.9.1-1.5.noarch.rpm"
+RPM_HASH = "c590bb4ae9b422ebc344e91b756fd0962f53e27911d1655690726589f87d05f29804f1015dbbc880fe6aaa84349783aa48ea4ff0d9715e54d2fa4bda4b1ca679"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jflex \
@@ -30,6 +30,7 @@ java-headless \
 javapackages-filesystem \
 javapackages-tools \
 mvn-com.github.vbmacher-java-cup-runtime \
+mvn-com.google.code.findbugs-jsr305 \
 mvn-org.apache.ant-ant"
 
 inherit rpm

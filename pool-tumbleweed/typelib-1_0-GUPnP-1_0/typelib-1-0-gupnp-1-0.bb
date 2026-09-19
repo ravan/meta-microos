@@ -9,16 +9,17 @@ libraries utilizing the GUPnP framework. \
 This package provides the GObject Introspection bindings for GUPnP."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6.5"
+PV = "1.6.10"
 
-RPM_NAME = "typelib-1_0-GUPnP-1_0-1.6.5-1.1.aarch64.rpm"
-RPM_HASH = "caf21d3e288d8e50e72fd7b535c154df0e4c5a47aa250fd05b13b860ebc5335df1b1f26273d8531b06918e5cd18ea5400326b989f849fef86e10f7e2a3316db5"
+RPM_NAME = "typelib-1_0-GUPnP-1_0-1.6.10-1.3.aarch64.rpm"
+RPM_HASH = "930c9812fb0a1dd5be950fa753d68c496f285b9ea0a0cb39cb3ae73c5a38b5280d2f6eab8536e0be73377686a120f6545043dde0713063135eeb0fd79854329d"
 
 RPROVIDES:${PN} += "typelib-1-0-GUPnP-1-0 \
 typelib-GUPnP"
 
 RDEPENDS:${PN} += "libgupnp-1.6.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-GSSDP \
 typelib-Gio \

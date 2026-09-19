@@ -17,10 +17,10 @@ For all other use cases please install the \
 'ca-certificates-mozilla' package."
 LICENSE = "MPL-2.0"
 
-PV = "2.62"
+PV = "2.84"
 
-RPM_NAME = "ca-certificates-mozilla-prebuilt-2.62-2.1.noarch.rpm"
-RPM_HASH = "e8faf193cf34811def1f9d88ae62822c244ab406647f7cf62762a84dd37efbe45a276401f875e48a2c972d29618ba72ed7f63c8365ddf6e905bc3b075d4cf87b"
+RPM_NAME = "ca-certificates-mozilla-prebuilt-2.84-1.8.noarch.rpm"
+RPM_HASH = "865d43eb27424713e88f9d49346f0975967b237485f62ff252db89d7ebc41dd2cadff89ddeb798f9104854fb3bf8425ebc34e4274d2e10b34681425de744157d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-mozilla-prebuilt"

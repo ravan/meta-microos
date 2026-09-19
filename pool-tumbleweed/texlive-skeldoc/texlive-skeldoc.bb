@@ -8,10 +8,10 @@ same note mechanism can also be used with ordinary content, \
 e.g., as a to-do mechanism."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.2svn57922"
+PV = "2026.226.0.0.1.3svn76924"
 
-RPM_NAME = "texlive-skeldoc-2023.209.0.0.1.2svn57922-58.1.noarch.rpm"
-RPM_HASH = "d197fdfe2f01b1bc8ab4c952672838a5128815b954dddf5fcc051e20369ed83b66a99bd0e80a2f46f10feb8c0c98394eb0eedb5783849206ba083be9942d040a"
+RPM_NAME = "texlive-skeldoc-2026.226.0.0.1.3svn76924-64.2.noarch.rpm"
+RPM_HASH = "bfbb1b587e0e8e7e978f23a44b9422423d6c65e638bcf905d699124f6be2d89c3d555bcc0b4e6f3551f4947169ef0bdfbd4134a1d00de4a0c94b980dd9c6d4d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skeldoc.sty \

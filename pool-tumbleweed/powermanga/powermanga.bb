@@ -6,13 +6,14 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.93.1"
 
-RPM_NAME = "powermanga-0.93.1-5.4.aarch64.rpm"
-RPM_HASH = "5ff8c372d5cb7f498a5870e8652f0632906818ae7d0abdc1cdcc2a5a9e396f178df0881c4f9da1e97b01acface3437b3875f59751ce615fcb5cfc460e33d7453"
+RPM_NAME = "powermanga-0.93.1-6.11.aarch64.rpm"
+RPM_HASH = "93f8f7aabe0a1861b35218858c9d4f7c761eae43dce5269df3031c2556ca2066b67c24c3276312e7a9efb003b369999baf09caf95547eb4098186b28827a2f62"
 
 RPROVIDES:${PN} += "config-powermanga \
 powermanga"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-games \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
 libSDL-mixer-1.2.so.0 \

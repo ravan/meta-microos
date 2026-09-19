@@ -6,8 +6,8 @@ LICENSE = "Arphic-1999"
 
 PV = "20001125"
 
-RPM_NAME = "arphic-gkai00mp-fonts-20001125-778.2.noarch.rpm"
-RPM_HASH = "5657c008a46cabb79e7c55cf6636cc05a525396afbc493afecd3acb4c2ab10b3ced9493de5423bea481e51280a0e24eb289891c2daa3e62ad0d2347ab00fd480"
+RPM_NAME = "arphic-gkai00mp-fonts-20001125-779.3.noarch.rpm"
+RPM_HASH = "5601fe4a1e1a8c0b032645d348ac5d961cc9ac8805ed3395441485e644609dbf4b84e5968de365e534aff5cb7a49fd65e30d1891551daa09ef3dc3b7d11ac4cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arphic-gkai00mp-fonts \

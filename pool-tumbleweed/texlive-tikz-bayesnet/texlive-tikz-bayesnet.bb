@@ -4,10 +4,10 @@ Bayesian networks, graphical models and (directed) factor \
 graphs in LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn38295"
+PV = "2026.227.0.0.1svn38295"
 
-RPM_NAME = "texlive-tikz-bayesnet-2023.209.0.0.1svn38295-55.1.noarch.rpm"
-RPM_HASH = "f7fc682dc7d8fd195af13774b2feb3800b3f1414c92f75159cbaff9e0438854329a7eb6f468daecf27f652c684972e45df674de2ed83a9078bf09fed05142f9e"
+RPM_NAME = "texlive-tikz-bayesnet-2026.227.0.0.1svn38295-62.2.noarch.rpm"
+RPM_HASH = "bcf9d52f219aaead59e2b4638c94f5f49ce2abf225861fffb6f44b923558785bfb742cc9b268bdac2145ed5b05e73f4093171c75a4c38d4403520848db13338f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarybayesnet.code.tex \

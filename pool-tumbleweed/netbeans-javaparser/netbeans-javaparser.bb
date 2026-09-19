@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-with-classpath-exception"
 
 PV = "6.8"
 
-RPM_NAME = "netbeans-javaparser-6.8-21.7.noarch.rpm"
-RPM_HASH = "863440b35b1018cedf2d27cc3e823db96fbd117fa826ca988d14dff1ea7a06f0bdd4fc4b211ddfdfe7b8aab110ce2541962cdf970c8e1807377adffb0776cc75"
+RPM_NAME = "netbeans-javaparser-6.8-21.19.noarch.rpm"
+RPM_HASH = "d7fdb34676ac03b3c911d4b5cea052cd2f5d26ba3c34fa876d4a32cad4177bc35f6dd1f675a7a8fd9cb0436541f6a59a4024516aae9385ea10a6094e4ccb1ad5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netbeans-javaparser"

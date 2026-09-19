@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Okteta Hex Editor"
 DESCRIPTION = "Contains the development files for the Okteta Hex Editor."
 LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "0.26.13"
+PV = "0.26.28"
 
-RPM_NAME = "okteta-devel-0.26.13-1.1.aarch64.rpm"
-RPM_HASH = "855fa48d9d4eb56021cee4e5ad82d7121ca29446094b89a887b66cc3f0f9e6a28684c29cb9ac2aaaa971ce8db80436e467714cc14cc061bf6f8f5963782e8f4d"
+RPM_NAME = "okteta-devel-0.26.28-1.1.aarch64.rpm"
+RPM_HASH = "b4f6d77f5e06f2bfd6793afeb0a22e3383c23c8ffe600043f36b7ca45f9847c700011c2e51ff06bc2c6e5eacd2c5057de632117c0579b64908d4b9e8ad1d1d22"
 
 RPROVIDES:${PN} += "cmake-KastenControllers \
 cmake-KastenCore \

@@ -5,10 +5,10 @@ metadata for images and PDF. \
 This subpackage contains utilities from the Exempi project."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.6.3"
+PV = "2.6.6"
 
-RPM_NAME = "exempi-tools-2.6.3-1.4.aarch64.rpm"
-RPM_HASH = "6bd999859bceb2baed0042fc49f9b46b001033ecdd1dc9baff031ae413c86cff26cff1f0e19937dd58d4bf2531cf62bbaf3b814d2ca4ed05e2399f7c2d5320d9"
+RPM_NAME = "exempi-tools-2.6.6-1.5.aarch64.rpm"
+RPM_HASH = "471169967eb72c16c29b987d51840615ffe81b22ce58df20f0e3d11a21943f54d7ccb3018d41cd18af00b5566d3e5b7b160ee6b62c7ef74c104b471a1fd85b6d"
 
 RPROVIDES:${PN} += "exempi-tools"
 

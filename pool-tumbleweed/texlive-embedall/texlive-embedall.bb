@@ -6,10 +6,10 @@ particular, it can embed images, external TeX files, external \
 codes and"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn51177"
+PV = "2026.226.2.0svn51177"
 
-RPM_NAME = "texlive-embedall-2023.209.2.0svn51177-54.2.noarch.rpm"
-RPM_HASH = "5ad37281ab94ca001cfa3b41bfb898386e48f206c7eda411b820c194984192513aba77776d1663c1bb5de7510f743ae49fddb35cd09998a976eb5b3ed173d69c"
+RPM_NAME = "texlive-embedall-2026.226.2.0svn51177-61.4.noarch.rpm"
+RPM_HASH = "e4fe35f12aa44a9acabe074fb1d83ccf91c2d14fa546a041396504fe5d59439638fb513fba16ff85c80680bcbf7ac21f5f98ec892a043c5438422742515641a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-embedall.sty \

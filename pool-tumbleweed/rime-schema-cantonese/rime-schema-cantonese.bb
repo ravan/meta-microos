@@ -1,11 +1,11 @@
-SUMMARY = "cantonese input schema for rime"
+SUMMARY = "Cantonese input schema for rime"
 DESCRIPTION = "cantonese(jyutping) input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-cantonese-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "224f429fba4fb2d29267c1587ae0f8024604bd7020b68e74651e1baa9bfc6a855f614e7ef9f63f2f37e59289f44dc7f5550bd834be28aae4abd4f2f488f5492f"
+RPM_NAME = "rime-schema-cantonese-20250315-1.4.noarch.rpm"
+RPM_HASH = "0bed9ab3b6c66c002dea4a8dc19aefd758796d03018f0013238326fb554a7306e583cebd967f1f5710eb5171ea87c9c49cca2487943f50c2a1bbdfd9799f2373"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-cantonese \

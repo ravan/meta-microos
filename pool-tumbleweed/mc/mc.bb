@@ -12,18 +12,17 @@ MC needs several other programs for its various extfs extensions, e.g. \
 isoinfo (from mkisofs) or xorriso for the iso:// extension."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.8.30"
+PV = "4.8.33"
 
-RPM_NAME = "mc-4.8.30-1.1.aarch64.rpm"
-RPM_HASH = "4288b0857770eae132fd5f3a63bf07593b4e8819f579931c54ff9ffb3e61fe4d5c0a88ba4e3e4afb86d3f0754c53f8eadc56bd4a1fc9bf586fe80f1b1b67be97"
+RPM_NAME = "mc-4.8.33-2.6.aarch64.rpm"
+RPM_HASH = "84d25a5429b12e5bc7bf48846ccd3b2817baa1eb220a8da724a91d0cc377ee9741fd3e5c0a751a3ea08788d7c44008af07ab74087f4983df4268031c62da0a2b"
 
 RPROVIDES:${PN} += "config-mc \
 mc"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/env \
 /usr/bin/perl \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

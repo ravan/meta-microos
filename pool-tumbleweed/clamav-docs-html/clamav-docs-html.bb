@@ -2,10 +2,10 @@ SUMMARY = "Documentation for ClamAV in HTML format"
 DESCRIPTION = "Optional HTML documentation for ClamAV antivirus engine"
 LICENSE = "GPL-2.0-only"
 
-PV = "0.103.9"
+PV = "1.5.4"
 
-RPM_NAME = "clamav-docs-html-0.103.9-1.1.noarch.rpm"
-RPM_HASH = "0c96a12d66e46064a73ec87f79e01e33070b08b85cfa52423e30dd6a76ca74871539c482e4cdbb34248f71abbd4b18003fba3e05d691b17ae152fa39f3b1ee52"
+RPM_NAME = "clamav-docs-html-1.5.4-2.1.noarch.rpm"
+RPM_HASH = "3c31854b4e4f8e5d63971dd0c3ea66f6bde0cd248f424ae154341c78d8c8302b3e7a64bc5a7ca2cc66eb924875c2be0e035b82ae4065095f347a735bc7083198"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clamav-docs-html"

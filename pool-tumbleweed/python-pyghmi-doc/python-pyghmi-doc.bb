@@ -5,10 +5,10 @@ pyghmicons and pyghmiutil are example scripts to show how one may incorporate \
 this library into python code"
 LICENSE = "Apache-2.0"
 
-PV = "1.5.61"
+PV = "1.6.19"
 
-RPM_NAME = "python-pyghmi-doc-1.5.61-1.1.noarch.rpm"
-RPM_HASH = "b4594c1b7e71b9762c7e0471aeb54ffef55596767edfe02ccae7a58688d055de30268d9c4aa9c7c70c03879391c1cacb8c82514bd58cd54c0d79a3de18ae5faa"
+RPM_NAME = "python-pyghmi-doc-1.6.19-1.1.noarch.rpm"
+RPM_HASH = "fdaccf14ff62f4f981dc1e7ab8762ce0c3eedc6c170f42dfcb2bf80dc972c3c7595be07aef11f2cd3efe41f945a5be94009f9cd0455e8d2b87cf2fc54e181636"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pyghmi-doc"

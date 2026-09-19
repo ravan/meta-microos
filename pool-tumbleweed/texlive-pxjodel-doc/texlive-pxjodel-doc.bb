@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pxjodel"
 DESCRIPTION = "This package includes the documentation for texlive-pxjodel"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn64072"
+PV = "2026.226.0.0.3asvn77682"
 
-RPM_NAME = "texlive-pxjodel-doc-2023.209.0.0.3svn64072-54.2.noarch.rpm"
-RPM_HASH = "f9f628432950ec53e2676dd810912fd5380a588dec36745e8bc1b7a83df6df2d8cdfe7d9f84df46d8c371d1530cf3328cf307dcbf140e13b5b40caaedebb5a5b"
+RPM_NAME = "texlive-pxjodel-doc-2026.226.0.0.3asvn77682-60.4.noarch.rpm"
+RPM_HASH = "93c9fa154434cc0351c2bbb73c63b7d1dd395753fc94b20cb52f3369cf6ddc193166603ceb9cf4d44a9d591d91dd8d3033dc214939a8f1114d40c8547db24962"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pxjodel-doc"

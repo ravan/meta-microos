@@ -4,10 +4,10 @@ DESCRIPTION = "What happens when you boot up a Pod? What happens to a Service be
 kubespy is a small tool that makes it easy to observe how Kubernetes resources change in real time, derived from the work we did to make Kubernetes deployments predictable in Pulumi's CLI. Run kubespy at any point in time, and it will watch and report information about a Kubernetes resource continuously until you kill it."
 LICENSE = "Apache-2.0"
 
-PV = "0.6.2"
+PV = "0.6.3"
 
-RPM_NAME = "kubespy-0.6.2-1.3.aarch64.rpm"
-RPM_HASH = "00c94d15caed000bb2e0b99ad3983d64f8b5e348ee612f2d933f90444a059180755c8afdb445acbd119a685f8420c7943d396873ea0bdf97590b7ae648fcb29b"
+RPM_NAME = "kubespy-0.6.3-1.14.aarch64.rpm"
+RPM_HASH = "e100e1f0ffbd0fa9a47d7132559e3efc695eb8955fcfc34ffa2f92d25849b8e03d9bd8f487ba45f344c61098e6f6617f47cd1e6e82d949a54f66b986974a846d"
 
 RPROVIDES:${PN} += "kubespy"
 

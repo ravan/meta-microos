@@ -3,10 +3,10 @@ DESCRIPTION = "A Lua library for packing and unpacking binary data, supporting a
 (byte-aligned) widths, named fields, and repetition."
 LICENSE = "MIT"
 
-PV = "2.1.1+git2"
+PV = "2.2.0"
 
-RPM_NAME = "lua54-vstruct-2.1.1+git2-2.1.noarch.rpm"
-RPM_HASH = "dde2e553edd265cd5cb50455e739047a73994180e346a10944a072fcad0c2a21b5e470c273b041404549ce3af7531271708416ef0d594fc0c6dfeae9167bcf7d"
+RPM_NAME = "lua54-vstruct-2.2.0-4.2.noarch.rpm"
+RPM_HASH = "439d8c338eb7ba1c64f72facb59912dee03bb01488985cf1ed7c226d491d66f0963e78d893810493057fd2856cb2fc97631b7bfff86e6da56b1f143173b73fc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-vstruct \

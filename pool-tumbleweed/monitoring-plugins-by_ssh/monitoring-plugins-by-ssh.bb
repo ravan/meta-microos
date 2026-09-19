@@ -10,10 +10,10 @@ invocation arguments, the one remote program may be an agent that can \
 execute additional commands as proxy."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-by_ssh-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "098daf723fd75769dbac44adeb1483f02e635da2a1efad414d657fdc62c2645557e4927960b1dc74de6bfa1f3242e49de9f306c93720e459d0ea83b265bb17b9"
+RPM_NAME = "monitoring-plugins-by_ssh-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "64471ba4c3a4b0a0fbe00f9ea9773aaccd28fc6ea9c4c750c59aa4548edfccc641336fe78e0ce22d3076d08050d8de2374be11f51c94cc41e4dbb8bdd433679f"
 
 RPROVIDES:${PN} += "monitoring-plugins-by-ssh \
 nagios-plugins-by-ssh"

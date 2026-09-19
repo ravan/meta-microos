@@ -3,16 +3,16 @@ DESCRIPTION = "This plugin monitors operational status of a particular network i
 the target host."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-ifoperstatus-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "e3dd4b24a38308dbe36a016566a4f02f1fd01c4e0cd7decb2b77d066576f37a8e11ef74b6fd8c7de549e6492a727a7da151a6b43332ea067ed49499d532f66e7"
+RPM_NAME = "monitoring-plugins-ifoperstatus-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "67e6f78dbf72e7fa6e3fc105ec56d564c4ef0275fd32cad5dd3342cdd0ee0eb0c54e15ca1bf84164d935ea66d0d37e9614157d1dee34812066322042018d5d9b"
 
 RPROVIDES:${PN} += "monitoring-plugins-ifoperstatus \
 nagios-plugins-ifoperstatus"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 monitoring-plugins-common \
-perl-Net-SNMP"
+perl-Net--SNMP"
 
 inherit rpm

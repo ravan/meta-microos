@@ -3,24 +3,20 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kpimtextedit-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "3f964530fd6ab470c68164a6445ee86f08854c98412a50b0a431c8b812c642c92f082ec9405055e33f425aac051b73e81bd9266f446e8d33be60a5535fcabb0e"
+RPM_NAME = "kpimtextedit-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "9eb94513076ab082c89434df6e6314a651c6abb89e4a15469b88a6965b20fa8ef7665cb65b1a240d611b6520026a950c491d031bbd483da02549d7f323e4f1c2"
 
-RPROVIDES:${PN} += "cmake-KF5PimTextEdit \
-cmake-KPim5TextEdit \
+RPROVIDES:${PN} += "cmake-KPim6TextEdit \
 kpimtextedit-devel"
 
-RDEPENDS:${PN} += "cmake-KF5SyntaxHighlighting \
-cmake-KF5TextEditTextToSpeech \
-cmake-KF5TextWidgets \
-ld-linux-aarch64.so.1 \
-libKPim5TextEdit.so.5 \
-libKPim5TextEdit5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libc.so.6 \
-libstdc++.so.6"
+RDEPENDS:${PN} += "cmake-KF6Sonnet \
+cmake-KF6TextCustomEditor \
+cmake-KF6TextEditTextToSpeech \
+cmake-Qt6Core \
+cmake-Qt6Gui \
+cmake-Qt6Widgets \
+libKPim6TextEdit6"
 
 inherit rpm

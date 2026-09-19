@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "18"
 
-RPM_NAME = "procinfo-18-225.11.aarch64.rpm"
-RPM_HASH = "1d798961f0a180de34d8177040733e403f93e5ca9425f52c6015ed58108a423392c6b0ffe141e5f8e8fba5d55f90370b55f19efa174b49823523cf0ee87b47cc"
+RPM_NAME = "procinfo-18-226.9.aarch64.rpm"
+RPM_HASH = "57b0228e4ef3dd17127b9c4fedef96110a7db3100431aba933853371793cdbcdaf78034e0d6dc6e5bf58c56f243c7d3722d59b2aff55266354e86d4267aed7c6"
 
 RPROVIDES:${PN} += "procinfo \
 ps-/usr/bin/lsdev"

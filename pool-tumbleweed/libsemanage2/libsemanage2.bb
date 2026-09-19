@@ -10,10 +10,10 @@ Type Enforcement, Role-based Access Control and Multi-Level \
 Security.)"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "libsemanage2-3.5-2.1.aarch64.rpm"
-RPM_HASH = "306493205909a645c4033d415e6357fd6590054a4297fecc97c6aaa6385520196d19c15ae457488f5737c360cd96cc9df43c062ef0ed97705a4acbf13f0d03e0"
+RPM_NAME = "libsemanage2-3.11-1.2.aarch64.rpm"
+RPM_HASH = "a0d2765c2088e3afbe34fe04ccf5b3f0d50728d747df963a4b77d931d81f4cb55e9cd6f0258648e2dcf9f9da8441e34e424fefb0801770698510bc1c08030abf"
 
 RPROVIDES:${PN} += "libsemanage.so.2 \
 libsemanage2"

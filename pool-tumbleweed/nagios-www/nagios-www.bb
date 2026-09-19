@@ -9,14 +9,13 @@ specify. \
 Several CGI programs are included with Nagios in order to allow you to \
 view the current service status, problem history, notification history, \
 and log file via the web. This package provides the HTML and CGI files \
-for the Nagios web interface. In addition, HTML documentation is \
-included in this package."
+for the Nagios web interface."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.4.7"
+PV = "4.5.12"
 
-RPM_NAME = "nagios-www-4.4.7-2.5.aarch64.rpm"
-RPM_HASH = "0701a4d85cde30f0ae3df16e9dd41040573942dc7406a7d9a569566edbc205327053c923f829d38af70293e531ec0ffff99cfdc0d896d58fac553e211e8b4d0e"
+RPM_NAME = "nagios-www-4.5.12-2.1.aarch64.rpm"
+RPM_HASH = "87fb0211b176da1c4d1c112206be84298e68d35888667223e1ef7041469b1d8b2d57e7f20d459e3cf1ae76f4e557e6b10b48496aa7add63d83b91030cdc4a372"
 
 RPROVIDES:${PN} += "config-nagios-www \
 monitoring-webfrontend \
@@ -30,6 +29,7 @@ coreutils \
 gawk \
 gd \
 grep \
+group-nagcmd \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgd.so.3 \

@@ -11,10 +11,10 @@ body. An appendices environment is provided which can be used \
 instead of the \\appendix command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2csvn53718"
+PV = "2026.226.1.2csvn78101"
 
-RPM_NAME = "texlive-appendix-2023.209.1.2csvn53718-55.1.noarch.rpm"
-RPM_HASH = "0ccd6c51fa325ab5e2712f24ddd31c0dc6d60d1929169c1a13a5a3fff437ff21ff9ff9c0ae864178bb3e93ff7d5ec438935de418aaaed83e71b8598fafa2ef41"
+RPM_NAME = "texlive-appendix-2026.226.1.2csvn78101-61.2.noarch.rpm"
+RPM_HASH = "c475ca1b7906e49355e4014441d30d9f39fe5e926285cc382d9c2d9d0a7c5ce23f00e95aff37e92492dbf7a78bd551931e47e69794bae2689f4bdcaad8d9756b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-appendix.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-networkauth modules"
 DESCRIPTION = "Examples for the qt6-networkauth modules."
 LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-networkauth-examples-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "cb097f7bb5021c2cd5abd1fa9336a13c15b7e4ba4f45cc3c7c80d71ae6383e29648f3d0e10cd4bf3840112df84d742840a37e243156fba6138e52f92b9c8c6c5"
+RPM_NAME = "qt6-networkauth-examples-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "7a5832d509e42b28487f46716692ec2a4610b01db346cba1c17dae0366b3860b86c3b6c3804357b1786bb0c6a0e3a960eafc55abe0b482b89e17a944f372b4a7"
 
 RPROVIDES:${PN} += "qt6-networkauth-examples"
 

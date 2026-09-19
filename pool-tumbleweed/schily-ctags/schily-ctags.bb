@@ -8,16 +8,15 @@ Using the tags file, ex(1) can quickly locate these object \
 definitions."
 LICENSE = "BSD-2-Clause & CDDL-1.0 & GPL-2.0-only & GPL-2.0-or-later & BSD-3-Clause & HPND & ISC"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "schily-ctags-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "f892fd3fae4bcbd3bdaad09abc8267fa0fb2bac7dc7ba9a5c76f0127a6d83ca8d94c3d8aa822acdf5c2cc2feb00f9d4f36320a6ec28863d2a83bf5871c3611f2"
+RPM_NAME = "schily-ctags-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "564645fb563ac74130935351c0edfbcd9d998459268585c8b5a22b0bcfe5edf73da34b6c3d38150469bfea9bb29d2e507bda1c8ee23f204102a75ccb93da80ea"
 
 RPROVIDES:${PN} += "schily-ctags"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "alts \
 ld-linux-aarch64.so.1 \
-libc.so.6 \
-update-alternatives"
+libc.so.6"
 
 inherit rpm

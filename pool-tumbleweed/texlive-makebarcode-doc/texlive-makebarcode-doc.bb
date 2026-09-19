@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-makebarcode"
 DESCRIPTION = "This package includes the documentation for texlive-makebarcode"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-makebarcode-doc-2023.208.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "b77e742a6b2f4ec5491b9a48d75106fbc0086963eacf99c6afa6970de9ab672f7815941706be9f549a5894beca287821b72dcd13a98eed1cd068251724b1c7ad"
+RPM_NAME = "texlive-makebarcode-doc-2026.226.1.0svn15878-59.2.noarch.rpm"
+RPM_HASH = "4138cd532aaad7ae4cdbe4f4d00a0c5eee7916784303f23833135acf3e163ee798b48fca32cbb99b9e1e019258f538496d7a00512183b8c877122b02a5733ade"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makebarcode-doc"

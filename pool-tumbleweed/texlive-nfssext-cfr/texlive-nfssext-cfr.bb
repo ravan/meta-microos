@@ -5,13 +5,15 @@ been developed for use in packages such as cfr-lm and \
 venturisadf,"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn43640"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-nfssext-cfr-2023.209.svn43640-55.1.noarch.rpm"
-RPM_HASH = "c26da4e9a5ee7575f802a28097b9a5aa46d02c890efb82e201272bc33e6d85d82b4d1415f4e8c9802b442d177eec206289dc51a0b65d445f05fae3713a66116f"
+RPM_NAME = "texlive-nfssext-cfr-2026.226.1.3svn77682-61.2.noarch.rpm"
+RPM_HASH = "26c65e25d6b155b4b7e9aba767dd1992475efef28647669243f5c5e14c84fca450fe54043cff3c7e30d65717fafd239fb8bed90ce952ce5d2606814c0525d007"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-nfssext-cfr.sty \
+RPROVIDES:${PN} += "tex-nfssext-cfr-nfss.sty \
+tex-nfssext-cfr-nnfss.sty \
+tex-nfssext-cfr.sty \
 texlive-nfssext-cfr"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -20,8 +22,12 @@ ed \
 findutils \
 grep \
 sed \
+tex-etoolbox.sty \
+tex-expl3.sty \
 tex-ifthen.sty \
+tex-l3keys2e.sty \
 tex-svn-prov.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

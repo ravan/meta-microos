@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-courierten"
 DESCRIPTION = "This package includes the documentation for texlive-courierten"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn55436"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-courierten-doc-2023.209.svn55436-55.1.noarch.rpm"
-RPM_HASH = "d0cc52f93f56cd8052f80432484fded86509052ebbf4d4734be43beb08e96271936fe1967c1d8d3ad3dc42d1cd9a0588b6f151418858d5c75a7aca907fc3543c"
+RPM_NAME = "texlive-courierten-doc-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "cb4dff7a9a844dec113b0182063d856b670b84f728f8dcd2674479b30f6274d76521bc05ffc46d28056fd87b593aeaea6361c6f63b8e93e3bab70eb97e00d5ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-courierten-doc"

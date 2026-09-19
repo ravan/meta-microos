@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - SLP Agent and Library"
 DESCRIPTION = "This package provides YaST modules to lookup/advertise services with SLP."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.0"
 
-RPM_NAME = "yast2-slp-4.6.0-1.3.aarch64.rpm"
-RPM_HASH = "4c1e655eaa7d28e977a56e1873327150eea4d5b7563bb41033691aae2f35de07515becd25d38427d48ffe1efe30ca49df5e0b81bdb374d6a1a6a798b01351c50"
+RPM_NAME = "yast2-slp-5.0.0-1.14.aarch64.rpm"
+RPM_HASH = "2cf1eceb587f8a451d51d8070f484ece2ce0a291f190aeeab5b4071b3746d718819bbf09944529564fa609272fe44fa33fb7f344b9e2eb4679fe870ee531c71b"
 
 RPROVIDES:${PN} += "libpy2ag-slp.so.2 \
 yast2-slp"

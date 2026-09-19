@@ -2,10 +2,10 @@ SUMMARY = "GTP tunnel configuration utilities"
 DESCRIPTION = "Utilities to configure GTP tunnels."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.2.4"
+PV = "1.3.3"
 
-RPM_NAME = "libgtpnl-tools-1.2.4-1.1.aarch64.rpm"
-RPM_HASH = "2bdf3946e8ead21961766ef59d51672f07f627f3f4c91104945006a6fc388bfc0c7c7cd3b3fb580af3074a38cac9509622db6a64a191a7e1d592ecca208dcbaf"
+RPM_NAME = "libgtpnl-tools-1.3.3-1.4.aarch64.rpm"
+RPM_HASH = "4e6bf37cf42a04dd23d54f5f3a2ca06059f00fc88e299560db45c57bc5408d5a458cbaf37ab4cf94e8f2464a91ef2a0af88610db298ea94cd2d6232a31611d87"
 
 RPROVIDES:${PN} += "libgtpnl-tools"
 

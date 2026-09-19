@@ -2,10 +2,10 @@ SUMMARY = "Translations for package alacarte"
 DESCRIPTION = "Provides translations for the 'alacarte' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.44.3"
+PV = "3.58.0"
 
-RPM_NAME = "alacarte-lang-3.44.3-1.1.noarch.rpm"
-RPM_HASH = "48dc0bfe7de9fa1874d1dbe7e6580c1cc04ebfc09a2aa98476c176965646a9057dbab9fee36d0fafbaf69249f2db52c35608379bd34fc9e5dbd0a587b4205ec9"
+RPM_NAME = "alacarte-lang-3.58.0-2.2.noarch.rpm"
+RPM_HASH = "5fe2ee82dd6c76cb6c8640335fe65d8885bc66d6e1ea59372fb4beb4284b28d6f107440df60bb9b7c0880400d2c24fac0462ada214889303d6089c53e0bcab19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alacarte-lang \
@@ -14,6 +14,7 @@ locale-alacarte-af \
 locale-alacarte-ar \
 locale-alacarte-as \
 locale-alacarte-ast \
+locale-alacarte-az \
 locale-alacarte-be \
 locale-alacarte-be@latin \
 locale-alacarte-bg \
@@ -48,6 +49,7 @@ locale-alacarte-hi \
 locale-alacarte-hr \
 locale-alacarte-hu \
 locale-alacarte-id \
+locale-alacarte-is \
 locale-alacarte-it \
 locale-alacarte-ja \
 locale-alacarte-ka \

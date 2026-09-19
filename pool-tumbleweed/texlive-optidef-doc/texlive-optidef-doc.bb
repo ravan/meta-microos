@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-optidef"
 DESCRIPTION = "This package includes the documentation for texlive-optidef"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1svn50941"
+PV = "2026.226.3.1svn50941"
 
-RPM_NAME = "texlive-optidef-doc-2023.209.3.1svn50941-55.1.noarch.rpm"
-RPM_HASH = "026319c34bcf1146f88fa78d125aeb862baf4c7a022b1b27692b8f854053add6e5de07d3462f58024639d7ef7088af717810ffd9cb4ecb094b6a026fc1309622"
+RPM_NAME = "texlive-optidef-doc-2026.226.3.1svn50941-61.2.noarch.rpm"
+RPM_HASH = "fbdecb1c20825da0ce035fc108ff1d263ef7251b2c845f9fb1e74ede8e0d73f9445b067cdb439b1ee982d480040b3a63bbdc9dcef7d4059f828ca1dcaa8637c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-optidef-doc"

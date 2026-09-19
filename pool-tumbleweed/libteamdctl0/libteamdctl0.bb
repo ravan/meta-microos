@@ -4,10 +4,10 @@ a lightweight mechanism for bonding multiple interfaces together. \
 It is a userspace-driven alternative to the existing bonding driver."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.31"
+PV = "1.32"
 
-RPM_NAME = "libteamdctl0-1.31-4.1.aarch64.rpm"
-RPM_HASH = "de1937b2e72616a147ae7a790e5f982f8d8442e8c64377608ecb9243bbe31f8b4080e614fa9dd2a201bcf8b693c2a54f057a4eaf95b319df1ac4d9eb52504abe"
+RPM_NAME = "libteamdctl0-1.32-2.10.aarch64.rpm"
+RPM_HASH = "784dc637a1f65456b728edec43add3d91944d6d7193fd23f483365aedaca794d1f30114031233f4457f7a53a29213a68fe5ccb2d75c2796730c8572f1194af4b"
 
 RPROVIDES:${PN} += "libteamdctl.so.0 \
 libteamdctl0"

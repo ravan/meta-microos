@@ -2,10 +2,10 @@ SUMMARY = "Shared library for google benchmark"
 DESCRIPTION = "A library to support the benchmarking of functions, similar to unit-tests."
 LICENSE = "Apache-2.0"
 
-PV = "1.7.1"
+PV = "1.9.5"
 
-RPM_NAME = "libbenchmark1-1.7.1-1.4.aarch64.rpm"
-RPM_HASH = "7d69644d80fa4e702dd2666810bdd3806b297db404879604c830e620ee0a0feac880ba950d6f49a0049dd9a4c2bd896b4386e7c96e3623edc27eef1b8bbebf5a"
+RPM_NAME = "libbenchmark1-1.9.5-2.3.aarch64.rpm"
+RPM_HASH = "224552c0bd05b1535ace48918c0838ec2a8946ddce49e1a4d07c5887b2d069efaec9a612d2fa488a19f17b8d75b0b7331490affaa9fb92b423d1cedee8f81953"
 
 RPROVIDES:${PN} += "libbenchmark-main.so.1 \
 libbenchmark.so.1 \

@@ -9,10 +9,10 @@ testing firewall, IDS, and IPS, and troubleshooting various network \
 problems."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.7"
+PV = "4.7"
 
-RPM_NAME = "bittwist-3.7-1.1.aarch64.rpm"
-RPM_HASH = "42d65b40012cf91c61b6aa5fbff8f94ec3c7082457555b397b45ad69814d7a63f3e6897eaec584847c4c9accc32c7ea7c979788d01a8730e233c6d359561ac4a"
+RPM_NAME = "bittwist-4.7-1.1.aarch64.rpm"
+RPM_HASH = "8bd0734aafbd17c3b71035d0c7b3eccf8fc17d65c87451dab1d528d8ce2116c766a5d411f2b80eb84e8909048301671954d23a9191d763e51b95670131348fef"
 
 RPROVIDES:${PN} += "bittwist"
 

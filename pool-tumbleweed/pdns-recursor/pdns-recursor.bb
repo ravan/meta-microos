@@ -8,10 +8,10 @@ Authors: \
     http://www.powerdns.com"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.9.1"
+PV = "5.2.5"
 
-RPM_NAME = "pdns-recursor-4.9.1-1.1.aarch64.rpm"
-RPM_HASH = "bd89925c227be644425c43a69c26341d461b68978c01737ef21a1f0b7c00f9a73b6cb9e21b1f9680206c03076f4ce2b981794daafab013916aad3a471be8204d"
+RPM_NAME = "pdns-recursor-5.2.5-2.10.aarch64.rpm"
+RPM_HASH = "ba301bed17a41f0424d77f780efb4f824fd5c6f62d22673de784a984e978a167b7507c20b6a7419c217892d528937898cc54359b7cafd54b174248cc0f6df633"
 
 RPROVIDES:${PN} += "bundled-json11 \
 bundled-luawrapper \
@@ -22,16 +22,20 @@ config-pdns-recursor \
 pdns-recursor"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-pdns \
 ld-linux-aarch64.so.1 \
-libboost-context.so.1.82.0 \
+libboost-context.so.1.91.0 \
+libboost-filesystem.so.1.91.0 \
 libc.so.6 \
 libcrypto.so.3 \
+libcurl.so.4 \
+libfstrm.so.0 \
 libgcc-s.so.1 \
-liblua5.4.so.5 \
+libluajit-5.1.so.2 \
 libm.so.6 \
-libnetsnmp.so.40 \
-libnetsnmpagent.so.40 \
-libsodium.so.23 \
+libnetsnmp.so.45 \
+libnetsnmpagent.so.45 \
+libsodium.so.26 \
 libssl.so.3 \
 libstdc++.so.6 \
 libsystemd.so.0 \

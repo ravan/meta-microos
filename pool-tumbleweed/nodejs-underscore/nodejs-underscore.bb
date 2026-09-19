@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.13.6"
 
-RPM_NAME = "nodejs-underscore-1.13.6-1.3.noarch.rpm"
-RPM_HASH = "22d35b65f713cc48531536a312dd42846ced537dd5f8e1120c24fad70f20962dbd83b8ea219587014ce94f6750a9e5cd1dae4c7fa0726d51952aa59be5d2f61a"
+RPM_NAME = "nodejs-underscore-1.13.6-1.13.noarch.rpm"
+RPM_HASH = "9e0ff3311bbb76dce470d1aad2a03fb753723fb62c67fbc7d6eddf568854a59a35a1bc0fd7722096971384b04c33a34463c4c20c114f7afe8915f8426a6b8119"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nodejs-underscore \

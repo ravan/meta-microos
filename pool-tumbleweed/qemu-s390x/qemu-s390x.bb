@@ -9,10 +9,10 @@ virtualization. \
 This package provides s390x emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-s390x-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "74c1f977103718532e09e3208aabde5e7128614a75dfc33a0541573b67ea29ae144768ce1451fec7588f97fe2da14aeba5597a09880a2d6f5b9485365209142c"
+RPM_NAME = "qemu-s390x-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "300977c8239f4670223284db6e8030516699972c76e33a56aea06ccaea67d7079c2d00bdf4dc37d94a4027a42f0a331e9f51156c583a92533fb7899eaab3357b"
 
 RPROVIDES:${PN} += "qemu-s390 \
 qemu-s390x"
@@ -21,9 +21,8 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libbpf.so.1 \
 libc.so.6 \
-libcapstone.so.4 \
-libfdt.so.1 \
-libgcc-s.so.1 \
+libcapstone.so.5 \
+libfuse3.so.4 \
 libgcrypt.so.20 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
@@ -32,6 +31,7 @@ libgnutls.so.30 \
 libgobject-2.0.so.0 \
 libibverbs.so.1 \
 libjpeg.so.8 \
+libkeyutils.so.1 \
 liblzo2.so.2 \
 libm.so.6 \
 libnuma.so.1 \
@@ -43,10 +43,13 @@ libsasl2.so.3 \
 libseccomp.so.2 \
 libslirp.so.0 \
 libsnappy.so.1 \
+libudev.so.1 \
 liburing.so.2 \
 libvdeplug.so.3 \
+libxdp.so.1 \
 libz.so.1 \
 libzstd.so.1 \
-qemu"
+qemu \
+rtld-GNU-HASH"
 
 inherit rpm

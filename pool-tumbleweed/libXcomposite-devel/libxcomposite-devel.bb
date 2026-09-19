@@ -14,10 +14,10 @@ This package contains the development headers for the library found \
 in libXcomposite1."
 LICENSE = "MIT"
 
-PV = "0.4.6"
+PV = "0.4.7"
 
-RPM_NAME = "libXcomposite-devel-0.4.6-1.2.aarch64.rpm"
-RPM_HASH = "63e9387f212b7ca0d1d5974891ee3dd07ebfe1b9a1fd10a164e94807989959b002b6d5a014275e403bb439e15d59ceb4d285f31160ef60a0a307f9772e41d028"
+RPM_NAME = "libXcomposite-devel-0.4.7-1.4.aarch64.rpm"
+RPM_HASH = "9004ef08f0fd8877a4e5a578513e438059107936b85528e59a70711e428ebe753eb315c7a392b1feae48317184590327dd7f436892cf163ff9065854a5eda66d"
 
 RPROVIDES:${PN} += "libXcomposite-devel \
 pkgconfig-xcomposite"

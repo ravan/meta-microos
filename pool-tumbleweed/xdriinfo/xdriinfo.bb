@@ -3,10 +3,10 @@ DESCRIPTION = "Driinfo can be used to query configuration information of direct 
 drivers (DRI)."
 LICENSE = "MIT"
 
-PV = "1.0.7"
+PV = "1.0.8"
 
-RPM_NAME = "xdriinfo-1.0.7-1.2.aarch64.rpm"
-RPM_HASH = "834fe353ea2d295da0524d40c75be6ada5ec31f7f114cc18fc4ff0b0878d4329dd24680ecb040f4fc5cea402f817e84c85b26d61faab39e0b4355ca9c2ed2346"
+RPM_NAME = "xdriinfo-1.0.8-1.5.aarch64.rpm"
+RPM_HASH = "06035816992b9fe12973060bc2e20461c0b5cd70fcc3d4d73aec7760340f392f966080f99f9e357a3ba4549f2d1ae16b833ead704f49ff602cb248348b12648f"
 
 RPROVIDES:${PN} += "xdriinfo"
 

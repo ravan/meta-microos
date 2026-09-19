@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libregf."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20230319"
+PV = "20260526"
 
-RPM_NAME = "libregf-devel-20230319-2.1.aarch64.rpm"
-RPM_HASH = "293168f7536af5228f3008821430c994ac32085d54387f803a5d627ef4d2b00f637b2902e540f4e1f360661d68054bceba21f391a36dc426f3a0661666332721"
+RPM_NAME = "libregf-devel-20260526-1.10.aarch64.rpm"
+RPM_HASH = "37c93dc36c1edae050a4ef8fde66ba193fbdbd1dc2bd018af56a3491081fd2a07f2ebd10663e28789900c6c850f1b6899e844cd265a9aa124912f470085010c2"
 
 RPROVIDES:${PN} += "libregf-devel \
 pkgconfig-libregf"

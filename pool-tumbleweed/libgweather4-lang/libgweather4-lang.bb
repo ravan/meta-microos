@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libgweather4"
 DESCRIPTION = "Provides translations for the 'libgweather4' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.2"
+PV = "4.6.0"
 
-RPM_NAME = "libgweather4-lang-4.3.2-1.1.noarch.rpm"
-RPM_HASH = "56cc92c027d0f027e290253b2fa5dad08f06421f8c15e38954d31f4271b675978b556649f3b4018f5ca13f48716e1087f96e37dd823f10d29911a0230bc8cb07"
+RPM_NAME = "libgweather4-lang-4.6.0-1.4.noarch.rpm"
+RPM_HASH = "156e3d758a4ed204437460a8e0b94aeb08be6ee45008a1c0c50d6467e0b7f30de9713b10559b2542d5cd39cd397767ef0ff9df02a600d4a35835807322fb4feb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgweather4-lang \
@@ -82,7 +82,6 @@ locale-libgweather4-ml \
 locale-libgweather4-mr \
 locale-libgweather4-ms \
 locale-libgweather4-nb \
-locale-libgweather4-nds \
 locale-libgweather4-ne \
 locale-libgweather4-nl \
 locale-libgweather4-nn \

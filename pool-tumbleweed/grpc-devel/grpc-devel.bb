@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of the gRPC reference implementation."
 LICENSE = "Apache-2.0"
 
-PV = "1.58.0"
+PV = "1.76.0"
 
-RPM_NAME = "grpc-devel-1.58.0-1.1.aarch64.rpm"
-RPM_HASH = "c9b74598811306119756906b513560b9df292957b49f07b9ef220b5d4f671248c80082a7f78123dfe8fb4a76e4c26460b20889cd015d54d3fc27908540bba3f8"
+RPM_NAME = "grpc-devel-1.76.0-3.12.aarch64.rpm"
+RPM_HASH = "ff93257ae5b69540a87d499304fc6d6a338344d80aaaa62c8aae601e1f0d7ef41262f2942c94cdd56b586f3f89296bf7a29371b108a9948b4c90dc38eaa8aab0"
 
 RPROVIDES:${PN} += "cmake-gRPC \
 grpc-devel \
@@ -14,29 +14,37 @@ pkgconfig-gpr \
 pkgconfig-grpc \
 pkgconfig-grpc++ \
 pkgconfig-grpc++-unsecure \
-pkgconfig-grpc-unsecure"
+pkgconfig-grpc-unsecure \
+pkgconfig-grpcpp-otel-plugin"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1 \
-libabsl-hash.so.2308.0.0 \
-libabsl-raw-hash-set.so.2308.0.0 \
+libabsl-hash.so.2608.0.0 \
+libabsl-raw-hash-set.so.2608.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgrpc++1-58 \
-libgrpc-plugin-support.so.1.58 \
-libgrpc1-58 \
-libgrpc35 \
-libprotobuf.so.23.4.0 \
-libprotoc.so.23.4.0 \
+libgrpc++1-76 \
+libgrpc-plugin-support.so.1.76 \
+libgrpc1-76 \
+libgrpc51 \
+libprotobuf.so.36.1.0 \
+libprotoc.so.36.1.0 \
 libstdc++.so.6 \
-libupb35 \
+libupb51 \
+pkgconfig-absl-absl-check \
+pkgconfig-absl-absl-log \
 pkgconfig-absl-algorithm-container \
 pkgconfig-absl-any-invocable \
 pkgconfig-absl-base \
 pkgconfig-absl-bind-front \
+pkgconfig-absl-bits \
+pkgconfig-absl-btree \
+pkgconfig-absl-check \
 pkgconfig-absl-cleanup \
+pkgconfig-absl-config \
 pkgconfig-absl-cord \
 pkgconfig-absl-core-headers \
+pkgconfig-absl-dynamic-annotations \
 pkgconfig-absl-flags \
 pkgconfig-absl-flags-marshalling \
 pkgconfig-absl-flat-hash-map \
@@ -44,21 +52,32 @@ pkgconfig-absl-flat-hash-set \
 pkgconfig-absl-function-ref \
 pkgconfig-absl-hash \
 pkgconfig-absl-inlined-vector \
+pkgconfig-absl-layout \
+pkgconfig-absl-log \
+pkgconfig-absl-log-globals \
+pkgconfig-absl-log-severity \
 pkgconfig-absl-memory \
+pkgconfig-absl-no-destructor \
+pkgconfig-absl-node-hash-map \
 pkgconfig-absl-optional \
+pkgconfig-absl-prefetch \
+pkgconfig-absl-random-bit-gen-ref \
+pkgconfig-absl-random-distributions \
 pkgconfig-absl-random-random \
 pkgconfig-absl-span \
 pkgconfig-absl-status \
 pkgconfig-absl-statusor \
 pkgconfig-absl-str-format \
+pkgconfig-absl-string-view \
 pkgconfig-absl-strings \
+pkgconfig-absl-strings-internal \
 pkgconfig-absl-synchronization \
 pkgconfig-absl-time \
 pkgconfig-absl-type-traits \
 pkgconfig-absl-utility \
-pkgconfig-absl-variant \
 pkgconfig-gpr \
 pkgconfig-grpc \
+pkgconfig-grpc++ \
 pkgconfig-grpc-unsecure \
 pkgconfig-libcares \
 pkgconfig-openssl \

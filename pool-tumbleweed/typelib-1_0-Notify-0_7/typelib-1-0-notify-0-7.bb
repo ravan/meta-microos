@@ -4,10 +4,10 @@ DESCRIPTION = "D-BUS notifications library. \
 This package provides the GObject Introspection bindings for libnotify."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.8.2"
+PV = "0.8.8"
 
-RPM_NAME = "typelib-1_0-Notify-0_7-0.8.2-1.4.aarch64.rpm"
-RPM_HASH = "e1e8628609a03783b91410acc98e6cbecd0c11b204ceb39bc7669e9f009cfbc07f24a0d07b9f512c069eac31a070da94c91ed63d9018ac672d8c29f0143d934e"
+RPM_NAME = "typelib-1_0-Notify-0_7-0.8.8-2.4.aarch64.rpm"
+RPM_HASH = "b76a7e0ad3695207fbb4f8c39ba32fb6047903a3cb1f5d7a3ec8b2b0508024bb3b98aaf6858736850e77d79a28c9b7aeabe410f328a14bcdb099a8bb72443f70"
 
 RPROVIDES:${PN} += "typelib-1-0-Notify-0-7 \
 typelib-Notify"

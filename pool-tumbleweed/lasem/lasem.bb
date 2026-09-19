@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "lasem-0.4.4-2.16.aarch64.rpm"
-RPM_HASH = "3f953afadf138a7f3394ec91f35ac08aa52c81bee0a494a5fd5b8358066d6dd96f8d6246e2beacbbb52f96853b5d0d9b8f662d42c0562836bb9b2253daa55f4f"
+RPM_NAME = "lasem-0.4.4-4.14.aarch64.rpm"
+RPM_HASH = "16bb288c93817de29e4c25ceb5045ae90e51a7ac96d96c82b4059e3754a68d84698440cf0cbde572dc0c81aaf2412c2d5283d54717dfe746eeeec90cd1d40191"
 
 RPROVIDES:${PN} += "lasem"
 

@@ -16,10 +16,11 @@ package. \
 Note: The HTML pages use 'side' and 'main' and frame targets."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.4.7"
+PV = "4.5.12"
 
-RPM_NAME = "nagios-www-dch-4.4.7-2.5.aarch64.rpm"
-RPM_HASH = "4864adf77d3a9774a3362b2f5d3b914d0109f399fcc2b78dd9e09bc2ee1bc1f2b1c8a8e591c170f5cc83ad116a4bd096bc30212079214047923f17b06811087c"
+RPM_NAME = "nagios-www-dch-4.5.12-2.1.noarch.rpm"
+RPM_HASH = "68231386aaceb9a62535d32916db5b72f32c5154f0f3330daf8559ef6c47ee13b544fb676729bb64bc3177f5a88253e1530871ef43a128d34f1d2d4f5d96a46a"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nagios-www-dch"
 

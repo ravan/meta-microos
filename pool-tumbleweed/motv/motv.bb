@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.107"
 
-RPM_NAME = "motv-3.107-2.11.aarch64.rpm"
-RPM_HASH = "42c6fc51df602ca7c0d7c7dcc43f08d1e6b3459cc56f7a2efbe4206a8cfc3b6e6705b91518e788fdc54911241e7368f577716336eca5678aa7f13a4fc5227f97"
+RPM_NAME = "motv-3.107-3.9.aarch64.rpm"
+RPM_HASH = "bcebfa12718aa362e4c50d0c77b55da3b8d62d05427c016aff631a038d914a1e2cafd84736923134b93302b676e423c782d4fbcd038b56e50badf406d00e340b"
 
 RPROVIDES:${PN} += "motv \
 xawtv-/usr/bin/motv"

@@ -3,16 +3,16 @@ DESCRIPTION = "This module allows a role to run a callback when it is applied to
 or to another role."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.008"
+PV = "0.8.0"
 
-RPM_NAME = "perl-Role-Hooks-0.008-1.5.noarch.rpm"
-RPM_HASH = "43228899f9079eb431e13e45c6aac7d8f2ce79a5c19de959be7f716e3a27412ed5ef4a5b82c5e98d83003fc22daa20133e4c0e632ca677c5084cf8da26ac91da"
+RPM_NAME = "perl-Role-Hooks-0.8.0-1.8.noarch.rpm"
+RPM_HASH = "cd488769405860ccf463e3183221474ce3b728aa2b16bfbd77d6d4b721a4f7a4a249a1dce06d551cfe12777144070590584a6233a7944c5e8157a4ec1a1d530a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Role--Hooks \
 perl-Role-Hooks"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Method--Modifiers \
 perl-List--Util"
 

@@ -7,10 +7,10 @@ with some object oriented flavor (it gives the possibility to \
 override the standard behavior of norms, ...)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-functan-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "08cf2106c4d40a15f40da8aab72d9ec0f9f62662735c20de3c374737371b3bc5054d83ed5480324be877305d1ae6ed400bc9345d6b59a895121096bf3fd2b0c2"
+RPM_NAME = "texlive-functan-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "d32f3e7157d24384b3c36c9427a0b794cd8a2e09721f3efab344746569fc8d14d9923df74da0f8909c4d5d7a877dc95187bf001b065a386d5db234475c2691a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-functan.sty \

@@ -2,14 +2,14 @@ SUMMARY = "The system GNU Compiler documentation"
 DESCRIPTION = "The system GNU Compiler documentation."
 LICENSE = "GFDL-1.2-only"
 
-PV = "13"
+PV = "16"
 
-RPM_NAME = "gcc-info-13-1.5.aarch64.rpm"
-RPM_HASH = "6174efc1dbf4d2afc35f841112f5d46e1a4776bbc436bf0d44a5f48dbb823239d25a5a75d4ec365271a4515b0aea65c133c9bbb6c487c57c9b4382bd85e298a9"
+RPM_NAME = "gcc-info-16-1.1.aarch64.rpm"
+RPM_HASH = "57e2c9038c219a872d9388537f2060ef2824806a32257fe15a9985ab25ef2944a5428673e2e38d88d306393906f04d29a38fff90e7de9c15b46b15f15a2c36dd"
 
 RPROVIDES:${PN} += "gcc-info"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-gcc13-info"
+gcc16-info"
 
 inherit rpm

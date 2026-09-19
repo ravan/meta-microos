@@ -2,10 +2,10 @@ SUMMARY = "Neko virtual machine MySQL library"
 DESCRIPTION = "MySQL library for the Neko virtual machine."
 LICENSE = "GPL-2.0+"
 
-PV = "2.3.0"
+PV = "2.4.1"
 
-RPM_NAME = "neko-mysql-2.3.0-3.1.aarch64.rpm"
-RPM_HASH = "289e03e6ca8e471725fc954a0a0889d6f3702a5f12e4c3a3ad84262b297cd66b00b6ae31c02b7699691fc9d52b005589b736b760ae27e9aff1328ae618c2f2e1"
+RPM_NAME = "neko-mysql-2.4.1-3.3.aarch64.rpm"
+RPM_HASH = "921b5181bbbb7a122f80c18b3f5786a7b069591ec9d7407faa54669ea6fdec35a119110c606e9434e758993c62a249f6e35a84fe8c359bd2ab2ab9b36f89d224"
 
 RPROVIDES:${PN} += "neko-mysql \
 nekovm-mysql"

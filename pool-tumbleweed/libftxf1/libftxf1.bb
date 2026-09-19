@@ -4,10 +4,10 @@ DESCRIPTION = "libftxf is a library for Transactional NTFS (TxF) data types. \
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220116"
+PV = "20260521"
 
-RPM_NAME = "libftxf1-20220116-3.3.aarch64.rpm"
-RPM_HASH = "b925d0a55951ac629d8ea0e3e9a4bff3eef930613fc4953b66561853a1893cf185fef1bbb756d5d6fc65686f1c47001436c0697ca8eecb8427866091f0c654d0"
+RPM_NAME = "libftxf1-20260521-1.6.aarch64.rpm"
+RPM_HASH = "c2e6d6a05406d9611660e712fc04266e43329befd408fec3587323baca84cb52f002901e13b6fde3e2a030a629530df90a60f33bde90ad974d1dd44ec5e9cc9f"
 
 RPROVIDES:${PN} += "libftxf.so.1 \
 libftxf1"

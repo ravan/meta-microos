@@ -2,13 +2,12 @@ SUMMARY = "KIWI - manual pages"
 DESCRIPTION = "Provides manual pages to describe the kiwi commands"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.25.12"
+PV = "10.3.11"
 
-RPM_NAME = "kiwi-man-pages-9.25.12-1.1.aarch64.rpm"
-RPM_HASH = "209b2ccd545e016dc77ce51e6acf286f20054b1f2ae382c4fb396da253bf4c0cfbf943107d7cd832334060c4b99cd3323c6f4cf3e64e023703168a776982282c"
+RPM_NAME = "kiwi-man-pages-10.3.11-1.1.aarch64.rpm"
+RPM_HASH = "32e52bf7afab4497abf939e61c9c004cc653c38a69c9b698e0be00198e02c8e40183dc8f0facad4eb407b8d8857670f5d837eb367893e8c13a18812dd30daa21"
 
-RPROVIDES:${PN} += "config-kiwi-man-pages \
-kiwi-man-pages"
+RPROVIDES:${PN} += "kiwi-man-pages"
 
 RDEPENDS:${PN} += ""
 

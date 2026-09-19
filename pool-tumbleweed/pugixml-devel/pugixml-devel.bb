@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides development libraries and headers needed to
 software using pugixml."
 LICENSE = "MIT"
 
-PV = "1.13"
+PV = "1.16"
 
-RPM_NAME = "pugixml-devel-1.13-1.4.aarch64.rpm"
-RPM_HASH = "21e11247a9ace0e555d8552affa682f5ddebef0a7f23ad9f9abca3ad25afa4fb3c57b60c777040e34e70db255dffa824801bbf96a09fcdb6439936665291c17a"
+RPM_NAME = "pugixml-devel-1.16-1.2.aarch64.rpm"
+RPM_HASH = "3c511d217ff92008d3d1feb24ae1b5cdb8195fa8b9a0a582d8a73e068fa7492a84ccfac6242ed321d1edd20fd796d9d892b2c3deaa6e6ab8ef449da8e872ec53"
 
 RPROVIDES:${PN} += "cmake-pugixml \
 pkgconfig-pugixml \

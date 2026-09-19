@@ -7,10 +7,10 @@ The package was initially derived from historische-zeitschrift, \
 with the necessary modifications."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn44627"
+PV = "2026.226.1.1svn73019"
 
-RPM_NAME = "texlive-biblatex-enc-2023.209.1.0svn44627-54.1.noarch.rpm"
-RPM_HASH = "7b0a8d81edfddb4350921e385793d7156074dd488cec2c49f9b4151144448488c55f965c4be5ff3a8dfb1aa0b14b916d15d5999b71c0d5cb418fee3e0778ed99"
+RPM_NAME = "texlive-biblatex-enc-2026.226.1.1svn73019-61.2.noarch.rpm"
+RPM_HASH = "0391f43ed4aae47c61e95e485e7a6093fb96f122c8d770efa549f1fb3e99dc7651ed2db4beeef09a19d228d268292a683dac81c14a286691380982a8c3828f58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-enc.bbx \

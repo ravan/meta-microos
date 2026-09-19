@@ -7,10 +7,10 @@ This package is not needed for writing extensions or applications in \
 the Tcl language itself."
 LICENSE = "TCL"
 
-PV = "8.6.13"
+PV = "8.6.18"
 
-RPM_NAME = "tcl-devel-8.6.13-5.2.aarch64.rpm"
-RPM_HASH = "84aed51c447ec1cc53f316316375b066482a471450128c337cdd93d599f03be3f681e85ba767e079ed9e616395539c87accfdb2f312353bc388eff124bb42106"
+RPM_NAME = "tcl-devel-8.6.18-2.1.aarch64.rpm"
+RPM_HASH = "20d086e7db8b405726d315ee55c179e3f3949bc94fccd9e6216f72c700e687c2997e3ac2868afcde2e8e95abdfbca5a88795076f39072f421362d74f500c144c"
 
 RPROVIDES:${PN} += "itcl-devel \
 pkgconfig-tcl \

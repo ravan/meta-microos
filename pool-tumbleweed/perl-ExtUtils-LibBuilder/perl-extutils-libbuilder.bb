@@ -1,16 +1,16 @@
-SUMMARY = "Tool to Build C Libraries"
+SUMMARY = "Tool to build C libraries"
 DESCRIPTION = "A tool to build C libraries."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.08"
+PV = "0.90.0"
 
-RPM_NAME = "perl-ExtUtils-LibBuilder-0.08-1.26.noarch.rpm"
-RPM_HASH = "22b17417d691baf4802d9d901738d82fc43e39e4ef2763e07bed02ac80772ee0bdb49c2c29a01ae71153df1326e8fb77e8d8be0c1b79922caa4eedf7054f0346"
+RPM_NAME = "perl-ExtUtils-LibBuilder-0.90.0-1.10.noarch.rpm"
+RPM_HASH = "e140822483c360f5deafb39605c7e8646177a5a326064c7a2ada3a4febec6b768c5066b64bd73546eedf761d4b40de269f8d4749d3959b8a7144a435de4fc030"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-ExtUtils--LibBuilder \
 perl-ExtUtils-LibBuilder"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

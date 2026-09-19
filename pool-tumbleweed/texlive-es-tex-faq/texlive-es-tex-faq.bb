@@ -3,10 +3,10 @@ DESCRIPTION = "SGML source, converted LaTeX version, and readable copies of \
 the FAQ from the Spanish TeX users group."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.97svn15878"
+PV = "2026.226.1.97svn15878"
 
-RPM_NAME = "texlive-es-tex-faq-2023.209.1.97svn15878-54.2.noarch.rpm"
-RPM_HASH = "e7a0fe26d78edff34825a0c2930e9a9723122280a75ffa807fce5964c81969257d245760a7cf1120c5a11fcda28ca5b3c540fae19b5d9c9acfb85a810f75821c"
+RPM_NAME = "texlive-es-tex-faq-2026.226.1.97svn15878-61.4.noarch.rpm"
+RPM_HASH = "95054965dadfbada7af5372fe0cc4ea430ef6691648c5082716481a11c2b84939e0b2215020dde06d77f290f6386bfbe0607d6decf42c69ae0fc93cefea942f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-es-tex-faq"

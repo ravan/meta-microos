@@ -2,10 +2,10 @@ SUMMARY = "Qt Bootstrap module"
 DESCRIPTION = "Qt Bootstrap module."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5Bootstrap-devel-static-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "33d63c4820e1ae27214e0b76e8dc2cc484c54b390a454e37fbf32f78579829e030f1e0389650e00148fdcff8c031b24e6afeacdc91ffaf53a608f2f21bee0840"
+RPM_NAME = "libQt5Bootstrap-devel-static-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "3a4090e9d4d2b8eb0e8015a0f3dc3aed3ef5629deffcfb8a4fef7be3563d8f3f32f4a28cb6081721c0e6d7735e4682ac6742ffbb8124644919af45665121deb1"
 
 RPROVIDES:${PN} += "libQt5Bootstrap-devel-static"
 

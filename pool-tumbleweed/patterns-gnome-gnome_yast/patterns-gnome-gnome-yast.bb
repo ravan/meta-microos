@@ -2,10 +2,10 @@ SUMMARY = "YaST GNOME User Interfaces"
 DESCRIPTION = "Graphical YaST user interfaces for the GNOME desktop."
 LICENSE = "MIT"
 
-PV = "20201210"
+PV = "20250310"
 
-RPM_NAME = "patterns-gnome-gnome_yast-20201210-16.1.aarch64.rpm"
-RPM_HASH = "4b554f1dc23fff4390b5379a280650a5ce98454f9b66ccc6c6d5993092dc53e49146ea001c25bd2e475006dafeaca91affb0df7a81850c4579fe6ed043a13b3d"
+RPM_NAME = "patterns-gnome-gnome_yast-20250310-10.2.aarch64.rpm"
+RPM_HASH = "76e0ee3f390f3a63a38d78c013eecbdd189c4c2622d558f00f0a3979bd5dd5d81bcec907a6459a14c1a5739eba36f5c03bb8a83b40d67813a89fb90771fbc626"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5NotifyConfig5"
 DESCRIPTION = "Provides translations for the 'libKF5NotifyConfig5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5NotifyConfig5-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "8277fe835b714510eb684f7b084e168597da2fdbc402eb0bde1fa742225e757028a0e584cf839edbee6ebfb6be98aff93c80e643a950e371c1ebe88e3aee4964"
+RPM_NAME = "libKF5NotifyConfig5-lang-5.116.0-1.8.noarch.rpm"
+RPM_HASH = "116a2e28e48cae9da9dbe0168d71da7f10aad4fd09f82379ab547d9e0a46fc5ce7c6f4cad0cf471f0693a10a68f51c5a42c0e8293da0169352c22ec0f93ef0b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5NotifyConfig5-lang \

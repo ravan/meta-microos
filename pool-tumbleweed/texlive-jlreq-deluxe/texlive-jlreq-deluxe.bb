@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides multi-weight Japanese font support for \
 the jlreq class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4.1svn66115"
+PV = "2026.226.0.0.5.0svn76924"
 
-RPM_NAME = "texlive-jlreq-deluxe-2023.209.0.0.4.1svn66115-56.1.noarch.rpm"
-RPM_HASH = "009bf9ce52d042f289812bc0b7c6e436ed0abeb1dcafb897069f27b2983852d3fd3c439c77b3c9e6a7ed06fddba6ea240d37a1226f26dbddf349e662a3bb68e2"
+RPM_NAME = "texlive-jlreq-deluxe-2026.226.0.0.5.0svn76924-63.2.noarch.rpm"
+RPM_HASH = "8a6df081a3713274f3bafbfe7d4ed255d30ef8c6fa7f3b536264a0b496530fb77d07d178aea64638918d56837740870acc7c71ebea5dcd988b1cb9f9fb91e0c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bjlreq--expgothb-h.tfm \

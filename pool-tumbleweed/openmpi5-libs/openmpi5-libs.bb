@@ -1,4 +1,4 @@
-SUMMARY = "OpenMPI runtime libraries for OpenMPI  version 5.0.0"
+SUMMARY = "OpenMPI runtime libraries for OpenMPI  version 5.0.10"
 DESCRIPTION = "OpenMPI is an implementation of the Message Passing Interface, a \
 standardized API typically used for parallel and/or distributed \
 computing. OpenMPI is the merged result of four prior implementations \
@@ -10,14 +10,14 @@ programming API, which is a Partitioned Global Address Space (PGAS) \
 abstraction layer providing inter-process communication using \
 one-sided communication techniques. \
  \
-This package provides the Open MPI/OpenSHMEM version 5 \
+This package provides the Open MPI/OpenSHMEM version 5.0.10 \
 shared libraries."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.0.0"
+PV = "5.0.10"
 
-RPM_NAME = "openmpi5-libs-5.0.0-4.1.aarch64.rpm"
-RPM_HASH = "b600188d8d8f1a8bdede5d84f6fee7eed53f259ce187e30d4297a04e89f56aacca7375af752b3f28dea23254d8592a51d418ff2cf405055a8922d80188c8d25e"
+RPM_NAME = "openmpi5-libs-5.0.10-2.2.aarch64.rpm"
+RPM_HASH = "8347f1dbf87416212fed9aec998140a7bf2e64b880df6b852f475874490681162687c2cdcca7113943a08cdd867d8859e025b6289287b01ebd19515a22b4ca16"
 
 RPROVIDES:${PN} += "libmpi-mpifh.so.40 \
 libmpi-usempi-ignore-tkr.so.40 \
@@ -27,6 +27,7 @@ libompi-dbg-msgq.so \
 libopen-pal.so.80 \
 liboshmem.so.40 \
 libprrte.so.3 \
+openmpi-libs \
 openmpi5-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

@@ -9,10 +9,10 @@ year's planner automatically. (The last manually-generated \
 LaTeX file remains on the archive.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn34398"
+PV = "2026.226.svn34398"
 
-RPM_NAME = "texlive-yplan-2023.209.svn34398-53.2.noarch.rpm"
-RPM_HASH = "add8741c7b7144292c37ed7fe04be33f53936319163d448476c3fe9f25db63f35edcd87482735424740470801a92fe2671e3d201b6f6cbf336929fadedfeaca6"
+RPM_NAME = "texlive-yplan-2026.226.svn34398-59.4.noarch.rpm"
+RPM_HASH = "c6447ec624808075c371848a1b4ac4aa13b1c709802186b66c7706e2d1806e8504b8d048049151176ac4e2b073703023280a67ef6cc705323fed1e3969c5ff03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yplan.sty \

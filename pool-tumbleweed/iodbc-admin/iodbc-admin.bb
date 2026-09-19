@@ -7,10 +7,10 @@ appropriate backend drivers. \
 This package provides tools for configuring and administering iODBC."
 LICENSE = "BSD-3-Clause | LGPL-2.0-only"
 
-PV = "3.52.14"
+PV = "3.52.16"
 
-RPM_NAME = "iodbc-admin-3.52.14-2.6.aarch64.rpm"
-RPM_HASH = "5092c9bedadd37c279b56d738c535b00dd43b501b1683d6ef4dc51e6bcc338aed9d591c859d5d1b23f6dd5448bf77e05f798138d1b8a8bd7df057dcf5a5397c2"
+RPM_NAME = "iodbc-admin-3.52.16-2.3.aarch64.rpm"
+RPM_HASH = "ecb65dbdd2022f0cb86c8a763386c99ca29bf337bcae4586d15922a73cb6fb9f539ac45979730235387e13d1ba0f2572f87ccd88dd2e6615dada68c93ef593cb"
 
 RPROVIDES:${PN} += "iodbc-admin"
 

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14"
 
-RPM_NAME = "nagios-rpm-macros-0.14-3.6.noarch.rpm"
-RPM_HASH = "e7618899c58bf5045ce16cc996f0df0187426478d3277b616c89ce5f6829efd7490188dc4765f0c624348b28f3cafb583cc20cbf9498d7c50ff76c71880cf008"
+RPM_NAME = "nagios-rpm-macros-0.14-3.14.noarch.rpm"
+RPM_HASH = "dd26c75ded26690323f6576681f8d9fecf1997fdfbe10fd2253849432db8a0ec0701d853b6c5826f8582569313b85f8736847c30ecfd1a4610c0c2a72b535df7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nagios-rpm-macros \

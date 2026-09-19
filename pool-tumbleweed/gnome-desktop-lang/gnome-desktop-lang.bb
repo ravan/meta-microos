@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-desktop"
 DESCRIPTION = "Provides translations for the 'gnome-desktop' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.0"
+PV = "44.5"
 
-RPM_NAME = "gnome-desktop-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "5ae96a19d5f041c3b18ecabaed70b1f42d0eecb5577fd7010ea746db3abda4aae4f41e8f4d76c6e1c10475706acf20fad43a09f49fc66a92d72e4a68b3aaa604"
+RPM_NAME = "gnome-desktop-lang-44.5-1.5.noarch.rpm"
+RPM_HASH = "a4182355f256af2f4cb5ec1054dd28baf90139f585d3f5dc8ba9bad78d9dde7df488cdf349c5f89b1e438ab2b359eda2c73da86e642d661c6d947b5f4eca505c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-desktop-lang \
@@ -49,6 +49,7 @@ locale-gnome-desktop-he \
 locale-gnome-desktop-hi \
 locale-gnome-desktop-hr \
 locale-gnome-desktop-hu \
+locale-gnome-desktop-ia \
 locale-gnome-desktop-id \
 locale-gnome-desktop-is \
 locale-gnome-desktop-it \

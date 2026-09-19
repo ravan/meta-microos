@@ -2,15 +2,15 @@ SUMMARY = "Vanilla Linux kernel sources with minor build fixes"
 DESCRIPTION = "Vanilla Linux kernel sources with minor build fixes. \
  \
  \
-Source Timestamp: 2023-08-25 08:26:31 +0000 \
-GIT Revision: f5aa89b3e95322c79e43c459f5b6862dec51fc5f \
+Source Timestamp: 2026-09-12 06:50:42 +0000 \
+GIT Revision: 6b7e8a968cce3b45e63d59e1d4981c9b7c5bc6b5 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "kernel-source-vanilla-6.4.12-1.1.noarch.rpm"
-RPM_HASH = "de931b58178c540653cfce3986908aa65a5d79631ff262602918dcf1862537c32d9ddbfe0e6c74b1e59f8046f1b596459449fc72d68b3b004ddd6cd32bae880f"
+RPM_NAME = "kernel-source-vanilla-7.2.5-1.1.noarch.rpm"
+RPM_HASH = "11172059b1a6b2c2abf8813c65742536d8545b8f839074243da54c1928bd09eb1edc2d66c4a6db113a28c07caa09f0206c44e10ce67af1d17d67469f58a5aa87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-source-vanilla \

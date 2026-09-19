@@ -8,10 +8,10 @@ embedded in any tools that is C friendly. \
 This package provides the include files and libraries needed for development."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.99.git.1682279748.c294e5b"
+PV = "4.99.git.1773318907.51b15e7"
 
-RPM_NAME = "libeppic-devel-4.99.git.1682279748.c294e5b-1.2.aarch64.rpm"
-RPM_HASH = "0b262f80b0bc15009103335aa432d0e7eb9fe9d404bb937ce18a6b617900e70492a1d3ead9bf8288cea0c3da75f07844f76a46b780f2931c702913b405a3f9db"
+RPM_NAME = "libeppic-devel-4.99.git.1773318907.51b15e7-1.4.aarch64.rpm"
+RPM_HASH = "76134b30f45ffe47b1347978fb86465990d251f0fb65a061888d756bd4ac47c760c960001a3f00f8902ad7d42600325386c1d71c9d1327ea5b8dab1d50905329"
 
 RPROVIDES:${PN} += "libeppic-devel"
 

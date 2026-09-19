@@ -2,12 +2,13 @@ SUMMARY = "Comprehensive template processing system"
 DESCRIPTION = "comprehensive template processing system"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.101"
+PV = "3.106.0"
 
-RPM_NAME = "perl-Template-Toolkit-3.101-1.4.aarch64.rpm"
-RPM_HASH = "6db8e6662b43e36c7e64b5a9a291c9cbd36a64d77ce2418e09c4700e88cfe4039f0a7160c70edc245dfd84e5b3df4b4ea0a45ad8eeedfab7d07b3c7ae39a80da"
+RPM_NAME = "perl-Template-Toolkit-3.106.0-1.4.aarch64.rpm"
+RPM_HASH = "44cc51d6f6083bf4c4f38149055a637260e6347e0be29336ca9892d0270a7ea24a19dbb68b5793555603fd7ea44ac0cdb743e145f3395b7b3fa5cebbf4ee701a"
 
 RPROVIDES:${PN} += "perl-Template \
+perl-Template--App--ttree \
 perl-Template--Base \
 perl-Template--Config \
 perl-Template--Constants \
@@ -37,6 +38,7 @@ perl-Template--Plugin--Format \
 perl-Template--Plugin--HTML \
 perl-Template--Plugin--Image \
 perl-Template--Plugin--Iterator \
+perl-Template--Plugin--List \
 perl-Template--Plugin--Math \
 perl-Template--Plugin--Pod \
 perl-Template--Plugin--Procedural \
@@ -62,7 +64,7 @@ perl-Template-Toolkit"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-AppConfig"
 
 inherit rpm

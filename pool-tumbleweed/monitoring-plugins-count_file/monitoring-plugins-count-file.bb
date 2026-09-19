@@ -9,8 +9,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "232"
 
-RPM_NAME = "monitoring-plugins-count_file-232-1.15.noarch.rpm"
-RPM_HASH = "d094c00d959d58ec964592e45e748d145ee1944329db251b54169b8e843b5700519e6cd7520e4716c21306a01f257fdf42e7c684a7741b7fec72ac6f1f888c3f"
+RPM_NAME = "monitoring-plugins-count_file-232-1.23.noarch.rpm"
+RPM_HASH = "f22bed113e38295942f26249b6a26c6e4446024b1c1ad4c5b4278b9d2c435ffd5539f47a3d62fe2c579e850701e11e8c891959fbfe9de90eb823db5898856803"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-count-file \

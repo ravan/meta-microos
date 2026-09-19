@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-autoarea"
 DESCRIPTION = "This package includes the documentation for texlive-autoarea"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3asvn59552"
+PV = "2026.226.0.0.3asvn59552"
 
-RPM_NAME = "texlive-autoarea-doc-2023.209.0.0.3asvn59552-54.1.noarch.rpm"
-RPM_HASH = "62844a0aaf6eedf524603bdca051b23e22c494e9c18415b41e77b0db6bc7a8efc9a8419e8ef44c3763216b9e25602c49880fbd3f41e3bf1a315633d6131c0da0"
+RPM_NAME = "texlive-autoarea-doc-2026.226.0.0.3asvn59552-60.2.noarch.rpm"
+RPM_HASH = "385f34cec803c694caa149637666b18ac54e8fa560acec64c5a9bd615733cae32c21467f1b007d9e3f8dfc73acf8ad52e30927e563eef8908541bd26463fa10c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-autoarea-doc"

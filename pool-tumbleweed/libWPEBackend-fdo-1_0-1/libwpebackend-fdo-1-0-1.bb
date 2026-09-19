@@ -4,10 +4,10 @@ DESCRIPTION = "A WPE backend designed for Linux desktop systems. \
 This package contains the shared library."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.14.2"
+PV = "1.16.1"
 
-RPM_NAME = "libWPEBackend-fdo-1_0-1-1.14.2-1.1.aarch64.rpm"
-RPM_HASH = "c1b6a6fa232606197dc435dc4f84760e6c94681bab9f7cbefc695d708fcca26c2a24578bbde5d1139323568a9234d0c7ac4fb51541777a07e8ddc99c3fc33adc"
+RPM_NAME = "libWPEBackend-fdo-1_0-1-1.16.1-1.5.aarch64.rpm"
+RPM_HASH = "92db34366a7aeaee6ddc1188c98f276fdb4efcdb701ed4384e85e5c323d2590182d951c72fcda76fde82b49a7216b4be307e849813f0a9a2ca306fafd72d2513"
 
 RPROVIDES:${PN} += "libWPEBackend-fdo-1-0-1 \
 libWPEBackend-fdo-1.0.so.1"

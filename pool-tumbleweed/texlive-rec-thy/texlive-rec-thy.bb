@@ -6,10 +6,10 @@ commands to denote Turing reductions, Turing functionals, c.e. \
 sets, stagewise computations, forcing and syntactic classes."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.3.8.2svn63982"
+PV = "2026.226.4.5svn76924"
 
-RPM_NAME = "texlive-rec-thy-2023.209.3.8.2svn63982-54.2.noarch.rpm"
-RPM_HASH = "5cb90d6a303f41e309fa1c2bb98309c7e6a92e076fd9f839b9cc5f852488ea4a5fbbffe89f16487a5c8fca394af63b9b41ef4fcef7e72cf307293e1e6ef3aadf"
+RPM_NAME = "texlive-rec-thy-2026.226.4.5svn76924-60.4.noarch.rpm"
+RPM_HASH = "bee0e360bc7432953338367c815f5c8ef58ef091ebdd0b43b1112b7000b496e4b164e9b48c862756448c79629007eb0ba25c6332fef6ceb9a999afb7f0e9c750"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rec-thy.sty \
@@ -22,6 +22,7 @@ findutils \
 grep \
 sed \
 tex-amsmath.sty \
+tex-bbm.sty \
 tex-enumitem.sty \
 tex-etoolbox.sty \
 tex-expl3.sty \
@@ -29,9 +30,7 @@ tex-ifmtarg.sty \
 tex-ifpdf.sty \
 tex-iftex.sty \
 tex-ltxcmds.sty \
-tex-mathbbol.sty \
 tex-mathrsfs.sty \
-tex-mathtools.sty \
 tex-pict2e.sty \
 tex-picture.sty \
 tex-suffix.sty \

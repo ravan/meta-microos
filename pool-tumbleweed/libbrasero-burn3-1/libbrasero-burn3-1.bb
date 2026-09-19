@@ -5,10 +5,10 @@ This subpackage contains a library of Brasero with utility functions related to 
 abstract disc image composition (files and audio tracks)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.12.3"
+PV = "3.12.3+43"
 
-RPM_NAME = "libbrasero-burn3-1-3.12.3-2.8.aarch64.rpm"
-RPM_HASH = "cbb8922fb245941922886599f6aec21dd57732480818411008753e26236736507d0c2792ddaba4a96498e68a05c1b74e33d3d3ac96ef415e784322c529d6c059"
+RPM_NAME = "libbrasero-burn3-1-3.12.3+43-3.3.aarch64.rpm"
+RPM_HASH = "25362cebcd82bda7609a8fd5dfbc6c5ee30f3923bac471f93f059ed468cdb9020ec188260c56851bd61880c1bda509dc728ae2c7ac0d18dd1958ca59d1a8e998"
 
 RPROVIDES:${PN} += "libbrasero-burn3-1 \
 libbrasero-burn3.so.1"

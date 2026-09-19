@@ -7,10 +7,10 @@ DESCRIPTION = "A collection of various tools. Some of the important ones: \
 * tailhex(1) — hex dumper with tail-following support"
 LICENSE = "GPL-2.0-or-later & WTFPL"
 
-PV = "20230411"
+PV = "20251011"
 
-RPM_NAME = "hxtools-20230411-1.2.aarch64.rpm"
-RPM_HASH = "d047b6e9119558d152aba25a5dd2ec39c361c44c69ff9d3fb43afa9d563e52baa70c45abef06821838c2f5edb2b3abfcf6ad44c607cda01a86c2fb94f94c980a"
+RPM_NAME = "hxtools-20251011-1.6.aarch64.rpm"
+RPM_HASH = "83122bcb463d413c1d3b2546935e46c90d8b7a0400e17bc106752489aed5035612f1a8a4cadc59eaf7899eae3aedfd5be5d436ea6d62abc4f2a9833db16d5a0b"
 
 RPROVIDES:${PN} += "hxtools"
 
@@ -18,7 +18,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 fd0ssh \
 hxtools-scripts \
 ld-linux-aarch64.so.1 \
-libHX.so.32 \
+libHX.so.43 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

@@ -6,10 +6,10 @@ APIs of libgio. There is also FUSE support that allows applications \
 not using GIO to access the GVfs filesystems."
 LICENSE = "GPL-3.0-only & LGPL-2.0-or-later"
 
-PV = "1.50.5"
+PV = "1.60.3"
 
-RPM_NAME = "gvfs-1.50.5-1.1.aarch64.rpm"
-RPM_HASH = "2a8d62fb4ce8e8c1f84cd88bda7b4ccb09ca1cf5b179d2fb21b32e20426586db76d31186346e7246ecd87101a852b697f12c640733e004a22d2acdb4748fcb36"
+RPM_NAME = "gvfs-1.60.3-1.1.aarch64.rpm"
+RPM_HASH = "07d75590c65b64e8e93907b9d56a8832e2e40e8bda1135cf82edbd171be281660c29a3d095ddfc53908242fd4f2f631bd4c2990bf7fb711fd34b524338b38635"
 
 RPROVIDES:${PN} += "gvfs \
 libgioremote-volume-monitor.so \
@@ -21,7 +21,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 glib2-tools \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgcr-base-3.so.1 \
+libgcr-4.so.4 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

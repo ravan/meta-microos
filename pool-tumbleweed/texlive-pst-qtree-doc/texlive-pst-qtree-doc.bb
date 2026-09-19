@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-qtree"
 DESCRIPTION = "This package includes the documentation for texlive-pst-qtree"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-pst-qtree-doc-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "63911394caced6f5ef63b9db9db24f16ed8db44264e67cf79882c777fee7aab8b29e4721f8ee7321ac17fa888eb5a3cb058abf7aca31cbe159d58f946eed1074"
+RPM_NAME = "texlive-pst-qtree-doc-2026.226.svn15878-60.4.noarch.rpm"
+RPM_HASH = "9b68e7ad8aac76fd9cd0e65f7a084451e50fa55f4fc2f8f3855a73a62d5578a57182d116ee4a3e783213cc6d628f6b32c1db9fe27239926acb6e820430b323d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-qtree-doc"

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "cmh-devel-1.1.1-1.5.aarch64.rpm"
-RPM_HASH = "01ba17941fbc8872b92effe6a1f29644e8735ac8773d927f3ec01620d5bf377343284a9b5e64ba59b1e01a9ae7e8a7378831cde019852c84125b3f840e215619"
+RPM_NAME = "cmh-devel-1.1.1-1.16.aarch64.rpm"
+RPM_HASH = "f0899fca55e504153bff41ab69427f30cb7fcdecdfad51ca415e2e5e80f9553d2eb9082a759e6d8ed8056b8847e8166b31d2cc3318f5cc4ce6ae7272cf0d6a5f"
 
 RPROVIDES:${PN} += "cmh-devel"
 

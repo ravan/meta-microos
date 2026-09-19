@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "zaz-1.0.1-2.4.aarch64.rpm"
-RPM_HASH = "53c0783d6e368f8ca36d231c2339d0809f3848f8a39d54fea92a53210ca1e8e73742879ed40fe558a2f353f6def03b618c615fbe4e920a5f1ad8a095a2ba0476"
+RPM_NAME = "zaz-1.0.1-3.10.aarch64.rpm"
+RPM_HASH = "16f1f76d5e5061da69bb9fea3dc62ed2a0a4ddfd96a4edc7aac01714820c86c98992cd4c714e1e0bf73441dd4e9269208be6be33fabe2672892c97d58fc5ee73"
 
 RPROVIDES:${PN} += "zaz"
 
@@ -27,8 +27,8 @@ libgcc-s.so.1 \
 libm.so.6 \
 libogg.so.0 \
 libstdc++.so.6 \
-libtheoradec.so.1 \
-libtheoraenc.so.1 \
+libtheoradec.so.2 \
+libtheoraenc.so.2 \
 libvorbis.so.0 \
 libvorbisenc.so.2 \
 libvorbisfile.so.3 \

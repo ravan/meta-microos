@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.16014"
 
-RPM_NAME = "perl-DateTime-Format-Pg-0.16014-1.12.noarch.rpm"
-RPM_HASH = "99c93899ae7c1903174c14062ff85e8bf6b646949b9794d1a2984b603e1308602c42353b331c05985189c1d8f7f47013388d51ad5fb7174e125e09485ab6c142"
+RPM_NAME = "perl-DateTime-Format-Pg-0.16014-1.26.noarch.rpm"
+RPM_HASH = "3ba06710a4888c585dbfc001f09385b2fce854d3e3b0dc8c025dd4af5d7680258242cd76464340aed7db4a03fc293ecef96ce0e91271c892cc592cd734959da0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--Pg \
 perl-DateTime-Format-Pg"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DateTime \
 perl-DateTime--Format--Builder \
 perl-DateTime--TimeZone"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.3.20"
 
-RPM_NAME = "python310-cdflib-0.3.20-1.8.noarch.rpm"
-RPM_HASH = "06c80ae578620f03f326851d43e7259983c9628f77c6a8628d5687d12ef6969baf7048161ae2b91b7903ccd4da3c2d3b71d61ec7ef6b402031f27de9d0bb8418"
+RPM_NAME = "python310-cdflib-0.3.20-1.11.noarch.rpm"
+RPM_HASH = "73723ed0722a9dd2508b5f49856abb337e7e2c40eb99a8b84f0f5d65f850ace257bf7f2bc54f286d18fd6b330b2b349ce71814c34dd6a85e058e1cb8a92a069e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-cdflib \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-musikui"
 DESCRIPTION = "This package includes the documentation for texlive-musikui"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn47472"
+PV = "2026.226.1svn47472"
 
-RPM_NAME = "texlive-musikui-doc-2023.209.1svn47472-55.1.noarch.rpm"
-RPM_HASH = "ce47c67bce701cf858d9e82444e330c3da5df21f96fc0c2398b4d140f565647f49e2a27b22b79795913ae0679af40f8e9422f0c59fef3062229645163290c149"
+RPM_NAME = "texlive-musikui-doc-2026.226.1svn47472-61.2.noarch.rpm"
+RPM_HASH = "73c16d24687d1e3e8fe3c37359f0dab799a6a9a60b08fc32aede8fa3103904807ef7999c4a33fc7ea5e9971fc0a9440260441ca75d559e54f800438fd37529f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-musikui-doc"

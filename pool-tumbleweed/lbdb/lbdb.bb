@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.52.1"
 
-RPM_NAME = "lbdb-0.52.1-1.1.aarch64.rpm"
-RPM_HASH = "6ff2e781f97b2b0ab8c4c7dee90154d2bf3a6acd0da183317f752d9fd2d3757cd4bb1d69dbf5707c13a5f6d0af2a464889189eb98ebd4d7e7491749a0d51027f"
+RPM_NAME = "lbdb-0.52.1-1.11.aarch64.rpm"
+RPM_HASH = "6482efc0b0d43ff9718ea94b7a1f29db20f2684aed828928b1e16f97d81bbcf4a8cc3227c8d8db0d4f455a5a42c26c17c5b65584df1defb1cea812330937c538"
 
 RPROVIDES:${PN} += "config-lbdb \
 lbdb"

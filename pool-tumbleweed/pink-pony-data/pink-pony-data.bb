@@ -9,8 +9,8 @@ LICENSE = "CC-BY-3.0 & CC-BY-SA-3.0 & GPL-3.0-or-later & OFL-1.1 & CC0-1.0"
 
 PV = "1.4.1"
 
-RPM_NAME = "pink-pony-data-1.4.1-3.2.noarch.rpm"
-RPM_HASH = "db861e361f1d7483c30b5296f345a14e281d7c432d1f23526823f810077f57e6b19a8c84b91b764a7c25ef5f8c918a17a3e625341b4862641c4246cc28702b52"
+RPM_NAME = "pink-pony-data-1.4.1-6.10.noarch.rpm"
+RPM_HASH = "c3da9d8bbcb169f8fa7dbf0fdf6adac785fbe609abfb7637cd408b5bf327a41c9201ba6a86775698722903bc975f2f0cd06e99e712836b28fd021f4b0dea89a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pink-pony-data"

@@ -5,17 +5,17 @@ LICENSE = "CC0-1.0"
 
 PV = "0.3.2"
 
-RPM_NAME = "ghc-network-multicast-devel-0.3.2-4.4.aarch64.rpm"
-RPM_HASH = "60f2aefa829f9caebf14e87dcb01e745873af49ea33877b5834fa5eea529eb1f5b0c4b6b952f57562b800e015de577818e8beb48fb7612f7e8faa5183e9bc801"
+RPM_NAME = "ghc-network-multicast-devel-0.3.2-4.24.aarch64.rpm"
+RPM_HASH = "a8ada2d16e6b1c3b55303aaa3fc4d1998eab1fed8343215bc52b28e840debb00ab6580b1f3ec1058f3f27dc64081e21ce7dad3fa69a491b2b25fb0814e3d5039"
 
-RPROVIDES:${PN} += "ghc-devel-network-multicast-0.3.2-49FavpxpKt9CEnvETsCD9h \
+RPROVIDES:${PN} += "ghc-devel-network-multicast-0.3.2-DqSeOq9jAwXGqsSQlqcI6u \
 ghc-network-multicast-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-devel-network-bsd-2.8.1.0-6HwBWPM2Dri1VSrR1y6aDh \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-devel-network-bsd-2.8.1.0-Eim1HbjRi8aBvcsvglmxNx \
 ghc-network-multicast"
 
 inherit rpm

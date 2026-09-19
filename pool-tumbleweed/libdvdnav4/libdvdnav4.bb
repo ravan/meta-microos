@@ -2,10 +2,10 @@ SUMMARY = "A DVD Navigation Library"
 DESCRIPTION = "This library contains functions to display DVD video menus."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.1.1"
+PV = "7.0.0"
 
-RPM_NAME = "libdvdnav4-6.1.1-1.10.aarch64.rpm"
-RPM_HASH = "eee7cc36faaa0e1dde2ef63ffc49d2eccf962ec769855710428677f6e3eab14d66ca2e04327e8caf346ad4a5db572eb706e0c925cf2d12dbbc9ae82a47e3f415"
+RPM_NAME = "libdvdnav4-7.0.0-1.3.aarch64.rpm"
+RPM_HASH = "09a1b1fe4ec9af5b573699e3b4d335c8f646ead27cff266588fd65c0c6fa7c8d1424f2ab008be1be1376e2051bc10c5b233c02cc8126c05e48ba4c32932112a6"
 
 RPROVIDES:${PN} += "libdvdnav \
 libdvdnav.so.4 \

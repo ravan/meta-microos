@@ -15,10 +15,10 @@ requirements. The class depends on babel, color, enumitem, \
 fontawesome, framed, numprint, url, and hyperref."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn60455"
+PV = "2026.226.2.0svn68584"
 
-RPM_NAME = "texlive-hecthese-2023.209.1.5svn60455-54.2.noarch.rpm"
-RPM_HASH = "537e3a2a2fbbd79377297d1ced32b5b3c538f1363d1fe1717909ad0e6a02b849c084d922bf1aa51381b253f876dd77609f4bcd2bb366789daaf8bbbbcf6356ce"
+RPM_NAME = "texlive-hecthese-2026.226.2.0svn68584-60.4.noarch.rpm"
+RPM_HASH = "3c4ca0a64e58bcdb3e22bc25fec129782790469b07e5d48b34507c672ecfc9561cf59dbfb44ac50c8a241db579a020e920bc941641ce2ba550641415164323ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hecthese.cls \
@@ -33,8 +33,8 @@ sed \
 tex-amsmath.sty \
 tex-babel.sty \
 tex-calc.sty \
-tex-chapterbib.sty \
 tex-color.sty \
+tex-csquotes.sty \
 tex-enumitem.sty \
 tex-fontenc.sty \
 tex-graphicx.sty \
@@ -42,7 +42,6 @@ tex-iflang.sty \
 tex-ifthen.sty \
 tex-inputenc.sty \
 tex-memoir.cls \
-tex-natbib.sty \
 tex-numprint.sty \
 tex-tocvsec2.sty \
 texlive \

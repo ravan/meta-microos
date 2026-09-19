@@ -8,10 +8,10 @@ mathematical syntax instead of the ASCII syntax used here one \
 should use the vdm package instead"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn56905"
+PV = "2026.226.1.1svn56905"
 
-RPM_NAME = "texlive-vdmlisting-2023.209.1.1svn56905-54.1.noarch.rpm"
-RPM_HASH = "1dc1434877dc8d593852c7ef2fa594ecdeb99e1667cb40b84a8be7e3afd44c6351ae7044357095aec425f7b96e65f2042b9096e716b78a82e53a795827f57ae0"
+RPM_NAME = "texlive-vdmlisting-2026.226.1.1svn56905-60.2.noarch.rpm"
+RPM_HASH = "ba208310140dbf92027d8ab1a01f4c5ee3ee640374b03733bae1d552edc1dd336e135a33bfc7a0b18fc3168e9cae37f8f2a1cfebf8f5a94e0d4697d3ce4d7744"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-vdmlisting.sty \

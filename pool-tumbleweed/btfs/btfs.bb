@@ -5,18 +5,19 @@ downloaded on-demand as they are read by applications. Tools like ls, cat and \
 cp work as expected. Applications like media players can also work without changes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.24"
+PV = "3.3"
 
-RPM_NAME = "btfs-2.24-1.11.aarch64.rpm"
-RPM_HASH = "0f6af4d4f889cf574e6be0448443e1b4a1ad35761b1cbb20a4f80106894de0fe90f817c574c40aca2f1a2655bb5f3136a4eef61df7a56e1895ad1c9a1283a2bc"
+RPM_NAME = "btfs-3.3-1.1.aarch64.rpm"
+RPM_HASH = "a9ace68e02227750a18be725937b54a433a9ff6b409def60622489b46af13b4ef0770680bab5e61557bd4a5d09e2f6bd6c2f040a7de8dfcb2b497d2e6ee07977"
 
 RPROVIDES:${PN} += "btfs"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libcurl.so.4 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \

@@ -3,10 +3,10 @@ DESCRIPTION = "A Qt Quick Controls 2 style engine that uses the desktop style \
 to draw controls with QStyle."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.109.0"
+PV = "5.116.1"
 
-RPM_NAME = "qqc2-desktop-style-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "692b6dbab13d34021c6a2d2a70a551a35e4efc4ac1ced632134e7dcdbbe737709fd0634d1f7da02bf451acdada68cae1a28fdb438b1a4a12c76bd99d537f4892"
+RPM_NAME = "qqc2-desktop-style-5.116.1-1.13.aarch64.rpm"
+RPM_HASH = "b1e16cd5c836b2f04d578551aa6b8caf1f5e3d851f6baaf300a740233eab0ee7c2559c07a4c152f1fbaa4366aee37df53691a48e145046ad1720c9a4770b3539"
 
 RPROVIDES:${PN} += "libqqc2desktopstyleplugin.so \
 plasma5-qqc2-style \

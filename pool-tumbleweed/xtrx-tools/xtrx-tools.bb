@@ -4,22 +4,15 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.0.0+git.20201202"
 
-RPM_NAME = "xtrx-tools-0.0.0+git.20201202-3.8.aarch64.rpm"
-RPM_HASH = "625d39fd0ef7d435e82943427e35cb9aa80e78fc074fb2b55f27645eba3287bc23be8ffc4a6863548cd0de51c5ba2809443958c34fddf13d9d5fe252d1de5f41"
+RPM_NAME = "xtrx-tools-0.0.0+git.20201202-6.3.aarch64.rpm"
+RPM_HASH = "e978faa2dbbf45dc6b3fe27b77e8c75ed2100b3e63089eb3fe028f7a048258b426ef45f27e19c8e9722a11a30447c0b34ed8e3dcb6b784b5f2904a4e96541b76"
 
 RPROVIDES:${PN} += "xtrx-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libSoapySDR.so.0.8 \
+libSoapySDR.so.0.8-3 \
 libc.so.6 \
-libgcc-s.so.1 \
-libm.so.6 \
-libqcustomplot.so.2 \
-libstdc++.so.6 \
 libxtrx.so.0 \
-soapysdr0.8-module-xtrx"
+soapysdr0.8-3-module-xtrx"
 
 inherit rpm

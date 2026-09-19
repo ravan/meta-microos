@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "perl-Dancer2-Plugin-WebSocket-0.3.1-1.11.noarch.rpm"
-RPM_HASH = "3a92fb9811cce80ad75c5af9fb00036200ddd7989c69d33d31235a0951aa037da87c2228744862000d69c4b7a9304ee0e3a3f07b6e55f85731879e25a91107d3"
+RPM_NAME = "perl-Dancer2-Plugin-WebSocket-0.3.1-1.25.noarch.rpm"
+RPM_HASH = "2b469c71b0329d0af5a87ef981397a64c53d84003dda5e64843aaf558d3fcaffed66a8572d181544d211b46ebc6a8950046d75796b089b9d98cd6eec936f0db5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dancer2--Plugin--WebSocket \
@@ -19,7 +19,7 @@ perl-Dancer2--Plugin--WebSocket--Connection \
 perl-Dancer2--Plugin--WebSocket--Group \
 perl-Dancer2-Plugin-WebSocket"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Dancer2--Plugin \
 perl-JSON--MaybeXS \
 perl-Moo \

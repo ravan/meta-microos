@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.2"
 
-RPM_NAME = "authbind-2.1.2-3.8.aarch64.rpm"
-RPM_HASH = "912b092291dd82ef3f1c8d5f60dd35b4a7b619607e5f1052a41862c2df830260d7c7c11f2742e679c0396a1c9dcd11597925369bb53ca83f206a15c2a9dc1dc4"
+RPM_NAME = "authbind-2.1.2-4.9.aarch64.rpm"
+RPM_HASH = "33f9cfce326be7ad0d3527188d5b162fa9d34c353eea2ed5b47f4f861348af30dabd700c5c098dc1e2ff64d14b466c7602c3d61170fe277413fb172c2c5dcdfd"
 
 RPROVIDES:${PN} += "authbind \
 libauthbind.so.1"

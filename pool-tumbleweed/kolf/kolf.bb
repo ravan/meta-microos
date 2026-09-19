@@ -2,32 +2,32 @@ SUMMARY = "Miniature golf game"
 DESCRIPTION = "Kolf is a miniature golf game by KDE."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kolf-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "f9c96b5fa2d858c42054567d61352c4c2bed88d1b68fa82e2067feb16286f61f0a168b9ced7a597abd54ba2f6e0d0179898a3e7e5dc95c5a36aa3a401d39c3fc"
+RPM_NAME = "kolf-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "e61fa4948a74b891af636ba8e398f50ac7587fe6f0f49a4ad1819dc6a9c6fc64e2cc4c0d791e3ea7583ab2f0ed0f7b7cfee0917c719ae20ec1d37ee9fb46c888"
 
 RPROVIDES:${PN} += "kolf"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KDEGames.so.7 \
-libKF5KIOCore.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6KIOCore.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6"

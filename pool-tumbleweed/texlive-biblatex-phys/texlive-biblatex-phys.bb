@@ -9,10 +9,10 @@ options are provided to cover the minor formatting variations \
 between the AIP and APS bibliography styles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1bsvn55643"
+PV = "2026.226.1.1esvn74898"
 
-RPM_NAME = "texlive-biblatex-phys-2023.209.1.1bsvn55643-54.1.noarch.rpm"
-RPM_HASH = "caa101db275558cb6f626f8f50cf1504b376bb128dc992a7a8a1206b69da02d11fc4f49e4e329e1c48cac74452407e681669e3ad07b9a263e4cbb9178fa30b6d"
+RPM_NAME = "texlive-biblatex-phys-2026.226.1.1esvn74898-61.2.noarch.rpm"
+RPM_HASH = "96069fac78a1f20b8fb54283ca165942c845730cdda7841ec3cd7ca1d4da0bd42c8a46d016d347c62eabd9a9faac818a66030ceb208c74666bf2ad3b135c47ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phys.bbx \

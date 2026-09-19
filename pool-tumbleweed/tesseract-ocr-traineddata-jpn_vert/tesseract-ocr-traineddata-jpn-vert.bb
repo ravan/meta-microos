@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the 'Japanese l
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-jpn_vert-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "c7eae544e5cc7a815d3002f554cbe4957847b36dd2d03ea379f84d6416e10487ebe7dec49781ce5af2634c2d886b148a4c2c7937ba66ae1f673e3785fe2a66b0"
+RPM_NAME = "tesseract-ocr-traineddata-jpn_vert-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "cf6265d7b15e0a8a36ddef94b5ad673dcdab9a27542c3d4905f5e74a4b4d28965ffdc82e3328e7f4862ee0965bf9cb0819399a0547b4215d0d584f0ac2ea4c84"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-japanese-vertical \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-ja \
+tesseract-ocr-traineddata-japanese-vertical \
 tesseract-ocr-traineddata-jpn-vert \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-japanese-vertical"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

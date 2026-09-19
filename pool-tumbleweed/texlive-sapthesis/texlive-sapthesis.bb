@@ -4,10 +4,10 @@ adhere to the publishing guidelines of the Sapienza University \
 of Rome."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.1svn63810"
+PV = "2026.226.5.1svn63810"
 
-RPM_NAME = "texlive-sapthesis-2023.209.5.1svn63810-54.1.noarch.rpm"
-RPM_HASH = "f976728d6d0f07c986667e3fe743293c5570c10590606227b9ebf0687d6b1362e30983036a2e3edfccda1edf6593acc83a7881c9164dfc021e996dacbf206bf3"
+RPM_NAME = "texlive-sapthesis-2026.226.5.1svn63810-60.2.noarch.rpm"
+RPM_HASH = "2c9ea2de1ea4032cf8d45097be0829c513d61812d2c62d501a232aca511ae9dff942f4f0ec5dae415c1cb838b102e7082a5e2ba4b1a3be087459eed93e6a0706"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sapthesis.cls \

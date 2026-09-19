@@ -4,10 +4,10 @@ the original is considered as light and the additions as \
 regular and bold."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.032svn65424"
+PV = "2026.226.1.032svn77682"
 
-RPM_NAME = "texlive-bboldx-2023.209.1.032svn65424-54.1.noarch.rpm"
-RPM_HASH = "9f1337606f80de8b4122cb58993cbbe6f591722b4a696718b985764e624901b9d9a2e5d98df9ae168a07d3d3f10c35dd2f35507d44706021f69fceb93eb5eaef"
+RPM_NAME = "texlive-bboldx-2026.226.1.032svn77682-61.2.noarch.rpm"
+RPM_HASH = "73ba872459a07a589a383aacdcca24cf67fd2256f252eeae0127b142f61a631d5689e72e1fb6d8021300e29fd9e2a225697f54cc66d2e2f865dc248c528c5684"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-BBOLDX-Bold.tfm \

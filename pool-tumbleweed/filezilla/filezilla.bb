@@ -17,32 +17,33 @@ Some of the main features are: \
  * Drag&Drop support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.65.0"
+PV = "3.71.1"
 
-RPM_NAME = "filezilla-3.65.0-1.1.aarch64.rpm"
-RPM_HASH = "0c9f54dc5250a723a6c26338b7175aeb66ad2b52f2e27f62a7d094fed22522f002c9fc8936ed6850e7874263ef1cafbc9b089e07e06e2331afe2086ec4003724"
+RPM_NAME = "filezilla-3.71.1-1.1.aarch64.rpm"
+RPM_HASH = "ce3af941aef711a41cac472e3f18c3f9072af617dc376da17a4c05970d7ebb54934af3d03fd4b207ef980ad6d0ed632e3852c5a56e191d4667c25e731df73327"
 
 RPROVIDES:${PN} += "filezilla \
-libfzclient-commonui-private-3.65.0.so \
-libfzclient-private-3.65.0.so"
+libfzclient-commonui-private-3.71.1.so \
+libfzclient-private-3.71.1.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \
-libfilezilla.so.40 \
+libfilezilla.so.59 \
+libfzssh-client.so.14.0.0 \
+libfzssh.so.14.0.0 \
 libgcc-s.so.1 \
-libgdk-x11-2.0.so.0 \
-libgobject-2.0.so.0 \
+libgdk-3.so.0 \
+libgtk-3.so.0 \
 libm.so.6 \
-libnettle.so.8 \
 libpugixml.so.1 \
 libpugixml1 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk2u-aui-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0 \
-libwx-gtk2u-xrc-suse.so.9.0.0"
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk3u-aui-suse.so.16.0.0 \
+libwx-gtk3u-core-suse.so.16.0.0 \
+libwx-gtk3u-xrc-suse.so.16.0.0"
 
 inherit rpm

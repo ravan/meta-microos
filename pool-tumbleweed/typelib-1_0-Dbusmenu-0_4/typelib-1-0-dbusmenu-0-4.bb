@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only & (LGPL-2.1-only | LGPL-3.0-only)"
 
 PV = "16.04.0"
 
-RPM_NAME = "typelib-1_0-Dbusmenu-0_4-16.04.0-9.4.aarch64.rpm"
-RPM_HASH = "9d8815d53e39ba417d49477f772dbe981bc99de3bb2ee57175fcd2244409440c02ab923e17bdeeafd1181d46d8942e5fc627eeb3d5b69974cc12605eef40c0f5"
+RPM_NAME = "typelib-1_0-Dbusmenu-0_4-16.04.0-13.4.aarch64.rpm"
+RPM_HASH = "49c5317cf57a1ba4faab7e73d6b40bce44d5e0dc68b63b660a202b5a46e517358e81a754135eff0ab86645f1a7bb0841cd3b07738fe9bbec982f3385a20eab1b"
 
 RPROVIDES:${PN} += "typelib-1-0-Dbusmenu-0-4 \
 typelib-Dbusmenu"

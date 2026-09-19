@@ -2,10 +2,10 @@ SUMMARY = "Documentation for kid3-qt"
 DESCRIPTION = "This package provides documentation and help files for kid3-qt."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.9.3"
+PV = "3.9.7"
 
-RPM_NAME = "kid3-qt-doc-3.9.3-1.4.aarch64.rpm"
-RPM_HASH = "8a78325ebb06122fb185fc7739ef7ec054fc8f798c9a289fede0f25eee451022e857788281b91205f0de1de02f26efa3d564481b0afa7fd9397e800c91897473"
+RPM_NAME = "kid3-qt-doc-3.9.7-2.6.aarch64.rpm"
+RPM_HASH = "b0ef54356a8ae43d885ab63be9f3963b69378bd505e3bbbf5f60f771e9ec3325fb0c261864deef9860316efc8f2a5a968dcf5680e58802a5588661f4c5bb0c48"
 
 RPROVIDES:${PN} += "kid3-qt-doc"
 

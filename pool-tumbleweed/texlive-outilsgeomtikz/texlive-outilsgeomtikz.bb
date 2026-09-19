@@ -4,10 +4,10 @@ display geometric tools using TikZ, for example a pen, a \
 compass, a rule, a square, a protractor, ..."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.1svn66461"
+PV = "2026.226.0.0.1.7svn75985"
 
-RPM_NAME = "texlive-outilsgeomtikz-2023.209.0.0.1.1svn66461-55.1.noarch.rpm"
-RPM_HASH = "9ce176e21333a351e2d6d4c862c16d82e9cd99366dc095df34cf49ed0f6d9f3d41475a569705fc26c902c04405e0b11c3a957a011a9eb96131058b7722a2d1fe"
+RPM_NAME = "texlive-outilsgeomtikz-2026.226.0.0.1.7svn75985-61.2.noarch.rpm"
+RPM_HASH = "1b6ba9fad6a44aaf739bba43550468ec11d85eca5835bf9e2ac63cad93f24ec77d2d75ad279a54d3f8625898694de6d747b144ade231ab9de56e6db22c6d7db0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-OutilsGeomTikz.sty \

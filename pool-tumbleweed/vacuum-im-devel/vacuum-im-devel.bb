@@ -2,10 +2,10 @@ SUMMARY = "Development files for Vacuum-IM"
 DESCRIPTION = "This package includes files needed to develop Vacuum-IM modules."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.3.0+git1571036065.9f3952b2"
+PV = "1.3.0+git1639054987.g0abd5e1"
 
-RPM_NAME = "vacuum-im-devel-1.3.0+git1571036065.9f3952b2-1.21.aarch64.rpm"
-RPM_HASH = "194264cc2d4a592adb85a6abbc26b7ca0313bb4e9cb39e6af4e9d4386f93b67b81edefb36bf14107f4413f2c7d01229a12a8af808bc9fd2f47fdfbda6f0ee6f5"
+RPM_NAME = "vacuum-im-devel-1.3.0+git1639054987.g0abd5e1-1.9.aarch64.rpm"
+RPM_HASH = "f2e0a19665439fe85c95f712cb65970b11d79853540cfda60e04593953ab24eeee1cde6804e5a270bda01e454294a8278498529f3358a5a659267b7fed6f3730"
 
 RPROVIDES:${PN} += "vacuum-im-devel"
 

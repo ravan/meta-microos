@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides hexadecimal color definitions of the 130 \
 colors included in the Open Color library."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn66363"
+PV = "2026.226.1.0.1svn66363"
 
-RPM_NAME = "texlive-opencolor-2023.209.1.0.1svn66363-55.1.noarch.rpm"
-RPM_HASH = "ba37424498372546af6ad44ad8cfa26ac14badf28d64fc550ccb885b0408803ecf34900a0859ba112830c62bce84167a266586e1a58bfd9d06582230ee39f32c"
+RPM_NAME = "texlive-opencolor-2026.226.1.0.1svn66363-61.2.noarch.rpm"
+RPM_HASH = "71934e34d53955a4308c353db3c16036aad7912e50999efd61a10e022930a6b8cfa3f5506eeec74366a5225ce72cda114221be6e4bcfa58d3dab58e99eee495f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-opencolor.sty \

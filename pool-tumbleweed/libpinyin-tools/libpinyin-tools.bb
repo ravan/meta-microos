@@ -5,10 +5,10 @@ backend supporting many language models and frontends. \
 This package provides the tools used to make data files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.8.1"
+PV = "2.10.3"
 
-RPM_NAME = "libpinyin-tools-2.8.1-1.4.aarch64.rpm"
-RPM_HASH = "4276517fddc22a0a03a41561b7cbc56d0804b4ba8da2ce0b5851ac10a2072853066941ad8bf9ea3406384003724c3f888c3a1b49957414a97d49961319a9ea4b"
+RPM_NAME = "libpinyin-tools-2.10.3-1.7.aarch64.rpm"
+RPM_HASH = "cd8fc16ee79c6e3afb7c1f70502eb58d8fc8dd578afb5daf8df751bc46dd29f890832bf60da6667da57a61d48a0830e6b92f4f51d1fc9dbad296f51db75a9429"
 
 RPROVIDES:${PN} += "libpinyin-tools"
 
@@ -17,6 +17,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libkyotocabinet.so.16 \
+libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

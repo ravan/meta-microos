@@ -5,10 +5,10 @@ and configure ODBC drivers for the ODBC driver manager that is \
 installed on your system."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-sql-unixODBC-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "625a25f432a783a2054d94b9da6ad2d0c3bb4c8f3953a5d7734b6b6971d285e98111b399f23fbd646a70419b990fb08a471c4ceb6a1bc83bf4481796d732befa"
+RPM_NAME = "qt6-sql-unixODBC-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "e775535275378563b66cfc277f934c98eb045d0b5587180f1ea35c2abb600a9025298b75e11097d54162a2844462d12a0f670cdb6da3eca4d5c6204ee9d949bd"
 
 RPROVIDES:${PN} += "libqsqlodbc.so \
 qt6-sql-unixODBC"

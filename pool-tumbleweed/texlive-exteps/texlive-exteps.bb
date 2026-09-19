@@ -5,10 +5,10 @@ not therefore require any post processing of the MetaPost \
 output."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.41svn19859"
+PV = "2026.226.0.0.41svn19859"
 
-RPM_NAME = "texlive-exteps-2023.209.0.0.41svn19859-53.1.noarch.rpm"
-RPM_HASH = "a6812c49e89f8362186cc30ab8e09359647bb342d2d0dbec0bde789405c5e84391d4d9f143f581503d73596f118ecb85575b7d9e58330a834cd8c17a6237f7ef"
+RPM_NAME = "texlive-exteps-2026.226.0.0.41svn19859-59.2.noarch.rpm"
+RPM_HASH = "1bdeb3bd6ff3f98510b1a58db2ff9c47bfde8b25b8cb327ec1d09fac69d820c2e19e519bb7df96540b3aaf032d7b32ff13c893976509c5ea92d67a150836df85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-exteps"

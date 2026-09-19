@@ -4,10 +4,10 @@ provided in ConTeXt, and adapts it to use in Plain TeX and \
 LaTeX. It works under LuaLaTeX only."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.3.23svn64616"
+PV = "2026.226.3.29svn74324"
 
-RPM_NAME = "texlive-luaotfload-2023.208.3.23svn64616-53.1.noarch.rpm"
-RPM_HASH = "7db488c5b7cef1f96abbb223d1f8b32f231149e3c7010910e21f39239f87bab9d66b578360d7b1e0afc7bd6e85115d91a31fda72d78d94f3361b1d1e5de20dae"
+RPM_NAME = "texlive-luaotfload-2026.226.3.29svn74324-59.2.noarch.rpm"
+RPM_HASH = "ff68fb6d725599ebc2008fd23d39a04c5e064b4c7c497305728bdc26b786abf67555c4d972cdb4f2afa698fdabf56ab5b3e0d31e77da9802583dc4d737fec263"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luaotfload-blacklist.cnf \

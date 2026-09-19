@@ -4,23 +4,23 @@ DESCRIPTION = "OGRE (Object-Oriented Graphics Rendering Engine) is a scene-orien
 This package contains the demo applications."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "ogre-demos-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "73697d5c580b2a79c1c0ef5da50cf46f39b963e5936a4f842410421e3f36bff25dc222f53b26ea597b9aa9213109dca910bb22630e53686f82c8d31ce8f2e231"
+RPM_NAME = "ogre-demos-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "68c42ff0ffb15e25b9e302847e48eadebb2271b9cff766642eba1ef2f4143bcb4f8a4759af99c5f561ef45aa8b63563a5e48293ce7e163f93a365e7c943fbdb2"
 
 RPROVIDES:${PN} += "ogre-demos"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libOgreBites.so.13.5 \
-libOgreMain.so.13.5 \
-libOgreMain13-5-plugins \
-libOgreMeshLodGenerator.so.13.5 \
-libOgreOverlay.so.13.5 \
-libOgrePaging.so.13.5 \
-libOgreRTShaderSystem.so.13.5 \
-libOgreTerrain.so.13.5 \
-libOgreVolume.so.13.5 \
+libOgreBites.so.13.6 \
+libOgreMain.so.13.6 \
+libOgreMain13-6-plugins \
+libOgreMeshLodGenerator.so.13.6 \
+libOgreOverlay.so.13.6 \
+libOgrePaging.so.13.6 \
+libOgreRTShaderSystem.so.13.6 \
+libOgreTerrain.so.13.6 \
+libOgreVolume.so.13.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

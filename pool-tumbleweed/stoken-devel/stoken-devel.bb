@@ -4,12 +4,12 @@ SecurID 128-bit (AES) tokens. It is a hobbyist project, not affiliated with or \
 endorsed by RSA Security. \
  \
 This package provides the development files for stoken."
-LICENSE = "LGPL-2.0-or-later & BSD-3-Clause"
+LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "0.92"
+PV = "0.93"
 
-RPM_NAME = "stoken-devel-0.92-1.21.aarch64.rpm"
-RPM_HASH = "2bfd620e12e100bdae676494ef12f830af23a3272fafc29c8365f8c42b705febebc396b4825b7fbd3994b6f2559b279858560e10c78b5c3b4183f3f51fb6d6e9"
+RPM_NAME = "stoken-devel-0.93-1.12.aarch64.rpm"
+RPM_HASH = "14b79606531fd45b0a031a1b36da02fbfadd3ff4f71dafe620d889b1293bb72fdf3ebe26b06f2ebd8e2df74193ec4573c81351490ab7a4b3b99b18b47cadd05a"
 
 RPROVIDES:${PN} += "pkgconfig-stoken \
 stoken-devel"

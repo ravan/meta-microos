@@ -4,13 +4,13 @@ system linkers and runs much faster than them. It also provides features that \
 are useful for toolchain developers."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.6"
+PV = "23"
 
-RPM_NAME = "lld-16.0.6-1.1.aarch64.rpm"
-RPM_HASH = "b9c95b120e9b92d4f7ed6069c8ce3fcd1d61f72f094bbcd688ef3f66ced210954d6731a3e6bf0f78e90c0049c6722b79f9c5cd7b9998eb3de92054dfab906dcf"
+RPM_NAME = "lld-23-1.1.aarch64.rpm"
+RPM_HASH = "cd3ce78e70928551ee6dc5ea4dc4a248e314e6aca501153e48a4211f3fe8e35e042ba379d4e37cfe8c042b29d79d9d3e3ca071bd6e390f54ce7773e195a23795"
 
 RPROVIDES:${PN} += "lld"
 
-RDEPENDS:${PN} += "lld16"
+RDEPENDS:${PN} += "lld23"
 
 inherit rpm

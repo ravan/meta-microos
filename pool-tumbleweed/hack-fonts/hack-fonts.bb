@@ -13,8 +13,8 @@ LICENSE = "Bitstream-Vera & MIT"
 
 PV = "3.003"
 
-RPM_NAME = "hack-fonts-3.003-2.2.noarch.rpm"
-RPM_HASH = "14d041610bbc456c7ac4e2ce48b767620303f2d0a292a33b3f22385b85678f35b8bbd101e5ad737f66c64ac311398f0eca47e854560f38be28f1829ed37ac1fb"
+RPM_NAME = "hack-fonts-3.003-2.10.noarch.rpm"
+RPM_HASH = "d745aeec2bc5435ea1b6bebeb4d13b65fdf3f35e1af2f4da65272f685a66b4e464f3379ac41cfcb7bacaf85e900b0bf4228e8e9273dd45692bac8309baf4e64d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Hack \

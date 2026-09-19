@@ -5,10 +5,10 @@ It uses a range of external programs, and therefore requires \
 that the LaTeX run starts with write18 enabled."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn32377"
+PV = "2026.226.1.1svn32377"
 
-RPM_NAME = "texlive-autopdf-2023.209.1.1svn32377-54.1.noarch.rpm"
-RPM_HASH = "e8740dbbcd7c32909b8208ac2095fa0ba8b0ad246e591b8a9586defcf6f69e286a48ad3380879043663cba1d74c9622d48f6fb3d4b9055e892b30bb62f08b425"
+RPM_NAME = "texlive-autopdf-2026.226.1.1svn32377-60.2.noarch.rpm"
+RPM_HASH = "31c509550da56a1b9f48d2ea79c55ed6a1fe570a40dd6f7fabe04bc9097b5762af9db953ef96cbb0a75b92bdacb47258e24144cbdf38416c549b234f121759fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autopdf.sty \

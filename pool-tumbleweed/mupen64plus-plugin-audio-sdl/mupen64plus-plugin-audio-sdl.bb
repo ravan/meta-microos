@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the SDL audio plugin for the Mupen64plus Ni
 Emulator."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.9"
+PV = "2.6.0"
 
-RPM_NAME = "mupen64plus-plugin-audio-sdl-2.5.9-2.9.aarch64.rpm"
-RPM_HASH = "bf827d4c415a2bad3f3a0d6499e0018586b91a3a4f3671982c1a6733530f42841a3d9aa0f71afc691295339609b1f16e7397432b41fe565f9c1d7d70b7d3e585"
+RPM_NAME = "mupen64plus-plugin-audio-sdl-2.6.0-3.6.aarch64.rpm"
+RPM_HASH = "be86b44ddb7acdd4b7bc337fd5c15bc9627c5635ae9863de33b18d66b8eab3f43464e5aec328c51067bb0c35852268259ad640fe16a1d3a6b22f66e93ce75f99"
 
 RPROVIDES:${PN} += "mupen64plus-plugin-audio \
 mupen64plus-plugin-audio-sdl"

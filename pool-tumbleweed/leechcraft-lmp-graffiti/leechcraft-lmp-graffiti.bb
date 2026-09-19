@@ -3,28 +3,27 @@ DESCRIPTION = "This package provides a tag editor plugin for LeechCraft \
 with with audio file tags can be manipulated."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-lmp-graffiti-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "d94b05059eedba8c8532ade72243a98492a1941fd82a52625daa1ddb298bf7f47b51356f6fb4c757bea67634c287037021bef542ea8b116203d8df8f77464f58"
+RPM_NAME = "leechcraft-lmp-graffiti-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "004bcff763e530409497122e9d5e209d7994b5ee7b665194e309c3d53bba476f5a0c70b68a3a0c6c9b7ec523a83feff3994b33c60f40db07eeb872dd5fbc7ca3"
 
 RPROVIDES:${PN} += "leechcraft-lmp-graffiti \
 libleechcraft-lmp-graffiti.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-lmp \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-gui-qt5.so.0.6.75.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-tags-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libleechcraft-lmp-util-qt6.so.0.6.75 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-tags-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
 libm.so.6 \
 libstdc++.so.6 \
-libtag.so.1"
+libtag.so.2"
 
 inherit rpm

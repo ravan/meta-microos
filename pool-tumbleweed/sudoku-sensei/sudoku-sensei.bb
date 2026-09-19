@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "02_00"
 
-RPM_NAME = "sudoku-sensei-02_00-3.10.aarch64.rpm"
-RPM_HASH = "91f27eb43099bd1e682aa744bdc055e7394168e176eaedfbd477e687593f78536e5738cf13db4081487d4bc07adfc43db402e3264f51e7f5f07e80ee583db3e2"
+RPM_NAME = "sudoku-sensei-02_00-4.11.aarch64.rpm"
+RPM_HASH = "fa73a0b98ae972e147ed7ffc48b366ed79dbe4291173a828119b865e5471b195e29f37f5c5ce882fc915fa48d82afc4f471832b1607b671d938e894e352bd7df"
 
 RPROVIDES:${PN} += "sudoku-sensei"
 

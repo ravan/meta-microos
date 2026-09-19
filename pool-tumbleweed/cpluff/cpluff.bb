@@ -6,10 +6,10 @@ neutral and supports dynamic changes to plug-in configuration without stopping \
 the whole application or framework."
 LICENSE = "MIT"
 
-PV = "0.2.0"
+PV = "0.2.1"
 
-RPM_NAME = "cpluff-0.2.0-2.9.aarch64.rpm"
-RPM_HASH = "893930c14c019a00707169c2309185a03ac5e8246da043c747bae3e940e650c63f70f952d3c3ce0cc07a5c7a8515b4958caa17a41fd26026dbf2206d2b75769e"
+RPM_NAME = "cpluff-0.2.1-1.5.aarch64.rpm"
+RPM_HASH = "55b722bd32b8c40210ba2193bdfb517c716f3f2acee0b767f133515f95ed48f9ef8b8348329feb4332fe8c3bf6ca96a87f761a737de20fefa6e1a719c243ca74"
 
 RPROVIDES:${PN} += "cpluff"
 

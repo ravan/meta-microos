@@ -13,8 +13,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "6.0.1"
 
-RPM_NAME = "perl-Net-SNMP-6.0.1-20.26.noarch.rpm"
-RPM_HASH = "c4d93e696de435ffdaacab939048207478cee28502d325fd83f9d1bd8f62b65f29c22ed22622b498dc6776e261276341206d9d68b231990a6eb57b5be9f592fb"
+RPM_NAME = "perl-Net-SNMP-6.0.1-20.40.noarch.rpm"
+RPM_HASH = "eef4f579ef00d3ff3f98efdb8ddaebb61d3010b01abdcc700d59eea193e4c3312d360f0bec16030aaf2f0ec3a1a2714055baff05f8c45cf83f0afd08d0f74d72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--SNMP \
@@ -35,7 +35,7 @@ perl-Net--SNMP--Transport--IPv6--UDP \
 perl-Net-SNMP"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Carp \
 perl-Crypt--DES \
 perl-Crypt--Rijndael \

@@ -2,10 +2,10 @@ SUMMARY = "OpenLDAP client utilities"
 DESCRIPTION = "OpenLDAP client utilities such as ldapadd, ldapsearch, ldapmodify."
 LICENSE = "OLDAP-2.8"
 
-PV = "2.6.4"
+PV = "2.6.13"
 
-RPM_NAME = "openldap2-client-2.6.4-2.2.aarch64.rpm"
-RPM_HASH = "2ade68b392f5ef1785cf93e68afe2cb5df42bc8e393218d62f77ec6a3f85a06af3b61a8d837e65de86d1becece9b9cfdd8ab7848dce08f86beb629c28cfb319b"
+RPM_NAME = "openldap2-client-2.6.13-1.6.aarch64.rpm"
+RPM_HASH = "67162e0b22d457e694814eb5ce6830be4ab76a5416ea7cc6c181f5fd8a03436fc3d0fa0050789c6557bfc26bca3c984f72c84f51560d509893aa3d37d6acb0da"
 
 RPROVIDES:${PN} += "openldap2-client"
 

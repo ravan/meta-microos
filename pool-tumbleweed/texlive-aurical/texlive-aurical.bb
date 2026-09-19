@@ -8,10 +8,10 @@ and slanted versions. A variant of Lukas Svatba offers a 'long \
 s'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn15878"
+PV = "2026.226.1.5svn77682"
 
-RPM_NAME = "texlive-aurical-2023.209.1.5svn15878-54.1.noarch.rpm"
-RPM_HASH = "0a659ce477a14dc25f899216f439c1407015476382fa88fee6eb08329eecb5a17f2596860cf5daa2130e6661f7b832de86b438de062d6db5ff8d4bd62be31bfc"
+RPM_NAME = "texlive-aurical-2026.226.1.5svn77682-60.2.noarch.rpm"
+RPM_HASH = "b56bf66e744b0f0cced569aca2801935cb97e030847f5d57936f0c6e3135492dc09d15ab7d3a51c31f2603cf2885ed408ae2e73f0cb530e6563f51a5af85c671"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-AmiciLogo.tfm \

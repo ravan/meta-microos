@@ -2,38 +2,51 @@ SUMMARY = "Periodic Table of Elements"
 DESCRIPTION = "Kalzium shows a periodic table of the elements."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kalzium-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "ba89ffaf4085bb0f31cff3fddd46d8f26d83a411d088d06f43f5dff6034f9ced78aeceb18c7df204628ae24ea2c489b9af228e1e2d5927044843cb8042fe378a"
+RPM_NAME = "kalzium-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "eb862a054e8455a6720c70c8c431c00e21807e96872d72edb6f947984ff4aab7353b9443aeb3ba59dce97799bf54c3a9d3f1723bd89dd3d50c2c0e11757d2685"
 
 RPROVIDES:${PN} += "kalzium \
+libcompoundviewer.so.5 \
 libscience.so.5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5ItemViews.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Plotting.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5UnitConversion.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Script.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libAvogadroCore.so.1 \
+libAvogadroIO.so.1 \
+libAvogadroQtGui.so.1 \
+libAvogadroQtOpenGL.so.1 \
+libAvogadroQtPlugins.so.1 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6ItemViews.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6NewStuffCore.so.6 \
+libKF6NewStuffWidgets.so.6 \
+libKF6Plotting.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6UnitConversion.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6Qml.so.6 \
+libQt6StateMachine.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libm.so.6 \
-libopenbabel.so.7 \
+libopenbabel.so.8 \
 libstdc++.so.6"
 
 inherit rpm

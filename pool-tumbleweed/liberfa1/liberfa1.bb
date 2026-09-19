@@ -10,10 +10,10 @@ from the SOFA board, and is avilable in the LICENSE file included in this \
 source distribution."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.0"
+PV = "2.0.1"
 
-RPM_NAME = "liberfa1-2.0.0-1.11.aarch64.rpm"
-RPM_HASH = "ef2f51ff493fdf8037e6369c6dce1191ee1b513d12914633f862205ced506c5cec8b9e8af1a102817c084d536be84b60f0c8d168800f9ca66b5801f2902baab8"
+RPM_NAME = "liberfa1-2.0.1-1.11.aarch64.rpm"
+RPM_HASH = "f27fdad9d34200bb1e0d5052eb94a359611ed8e763521d76c05e940c2220d8df7bd35b73b383ac6cb85e45340730fe56c44a896a3b475225aacf2db49c15556f"
 
 RPROVIDES:${PN} += "liberfa.so.1 \
 liberfa1"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cnbwp"
 DESCRIPTION = "This package includes the documentation for texlive-cnbwp"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn32550"
+PV = "2026.226.2024.02svn69910"
 
-RPM_NAME = "texlive-cnbwp-doc-2023.209.svn32550-54.1.noarch.rpm"
-RPM_HASH = "c5345db4f3487ec37eb043371ba24b3a9fca839c75c1dbf283dc9cedd61abf562e0054b7012b3cff1d68cb13321f2d9dcb8a28589e83ba8b00e7fa4146c78b9a"
+RPM_NAME = "texlive-cnbwp-doc-2026.226.2024.02svn69910-60.2.noarch.rpm"
+RPM_HASH = "6e469da0ba51e4ad42886b7d7eea341d33518172d4f63ad36903059b512ab97b464978da975d96d8bcb124cf1c080345d94a09cc321a273b660e86afd70fd70c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cnbwp-doc"

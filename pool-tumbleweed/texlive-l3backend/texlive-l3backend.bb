@@ -7,10 +7,10 @@ l3kernel to allow this code to be updated on an independent \
 schedule."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65573"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-l3backend-2023.209.svn65573-56.1.noarch.rpm"
-RPM_HASH = "0140e2fdc3205c2bf7c182ca25bcd378a5e3942e49f5edb0e5bb0400a2969908877a1deac9a078e410c671fbef706f7dee750fc14852cb0dd1d3447f6cd3e2b3"
+RPM_NAME = "texlive-l3backend-2026.226.svn76924-63.2.noarch.rpm"
+RPM_HASH = "dd31b0254a0a22574ba25600eb6e0ec1cd4bbbd91df7916f114abcde3ad1911bfbef152be97743804f4c6febb0bb3e0534714552dd55596c9faa08520f907070"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-l3backend-dvipdfmx.def \

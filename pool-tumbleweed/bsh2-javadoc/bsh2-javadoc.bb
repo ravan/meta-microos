@@ -4,12 +4,12 @@ LICENSE = "LGPL-2.0-or-later | SPL-1.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "bsh2-javadoc-2.1.1-1.1.noarch.rpm"
-RPM_HASH = "3d882516b0bcf430ef6789f11acd80207971118c6163da7fd863a55add2230df4ca778d9333cd50ce82942a2fc33aa953023ffd893abbb39f3d7075aaf2ddcba"
+RPM_NAME = "bsh2-javadoc-2.1.1-2.9.noarch.rpm"
+RPM_HASH = "a3ddcf0ab5f7f7407e71374dc0d1fe9f4856a1f614734b04778ebdfec131886760e5c2447212530b4da292842934e6233fdb84654ef193ca085789ac4b901f67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bsh2-javadoc"
 
-RDEPENDS:${PN} += "javapackages-filesystem"
+RDEPENDS:${PN} += ""
 
 inherit rpm

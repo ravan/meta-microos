@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cnltx"
 DESCRIPTION = "This package includes the documentation for texlive-cnltx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.15svn55265"
+PV = "2026.226.0.0.15svn76924"
 
-RPM_NAME = "texlive-cnltx-doc-2023.209.0.0.15svn55265-54.1.noarch.rpm"
-RPM_HASH = "e715574d39f81273ab724010c43e87ec963ecd3d106cb5e133224a9cfbc4c57b4624a1240a18c7461756383142644e9018d39c24a05c4976ad31c74b2d56a9eb"
+RPM_NAME = "texlive-cnltx-doc-2026.226.0.0.15svn76924-60.2.noarch.rpm"
+RPM_HASH = "a7c0675c9f3e09c450d3a23d495649e0ff9012fb2bbbed58aab838204c3aab14a227ff08b53a5b2c5967124f33973fa7de36deed3f5e7fba0abf5756c65f0a81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cnltx-doc"

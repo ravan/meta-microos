@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1"
 
-RPM_NAME = "template-resolver-0.1-2.7.noarch.rpm"
-RPM_HASH = "206525d7751a641f5b12ba4470e31805974392b718b6970290a53bd18ad0e3ad0be6d8c3bd1a91a41d8a6ec751cc3cbdadd6a3055ba2de27e5bda88959af1caa"
+RPM_NAME = "template-resolver-0.1-3.8.noarch.rpm"
+RPM_HASH = "4042ee0e0fb423bbb409604a2d2148738f1a89643192af3cf9a79322febf45af52cdbc6e638ed8fdfaeb556e2f6ed3c26cf625b45f371e1bbfa99b5a3e611ee4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.scala-sbt-template-resolver \

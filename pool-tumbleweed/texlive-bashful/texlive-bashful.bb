@@ -9,10 +9,10 @@ The package requires the -shell-escape flag when LaTeX is \
 processing your document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.93svn25597"
+PV = "2026.226.0.0.93svn25597"
 
-RPM_NAME = "texlive-bashful-2023.209.0.0.93svn25597-54.1.noarch.rpm"
-RPM_HASH = "7b079bbdc94fc936f3a8f33e035fe6017e11516340bae4257a8186d9d0401696c60c484e517080af92a6cf7727c1ee0b7023965b9e709a141c01d089ad0c8026"
+RPM_NAME = "texlive-bashful-2026.226.0.0.93svn25597-60.2.noarch.rpm"
+RPM_HASH = "8b56460539b2d82e701d4b5e9a2afdc41d88f52906c99a5a0720fce2aeedeaae6de4f67dddfdf763ee4e9eeb708616c5c5aadc0e27288d82b51170114c50f2e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bashful.sty \

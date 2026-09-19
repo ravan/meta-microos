@@ -5,8 +5,8 @@ LICENSE = "IPA"
 
 PV = "002.003"
 
-RPM_NAME = "ipa-uigothic-fonts-002.003-67.17.noarch.rpm"
-RPM_HASH = "cfef4c53d0b29c8d7bd9d2bc8db14495634291b22efe41267ff28d0f287030e0bbc498b1ce86d53e3f291ea69252883bdba1669f0db221c16b9dce90d1818728"
+RPM_NAME = "ipa-uigothic-fonts-002.003-67.25.noarch.rpm"
+RPM_HASH = "5e769e4401457b2538124f1e82c06d0dfdc0bfa0a5a98b80c7f25ff740ccaf0d0696e68a76de25db83d57b96721d063def7b14c08c4049a81739e50b1a5a3485"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "IPUIGothic \

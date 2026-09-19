@@ -3,19 +3,19 @@ DESCRIPTION = "TorrentInfo is a command line script that parses .torrent files a
 the information contained within them. Currently, it can display a summary \
 of the whole torrent, information on each file within the torrent, and a \
 full hierarchical dump of the torrent file's contents."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.6"
+PV = "1.8.7"
 
-RPM_NAME = "torrentinfo-1.8.6-3.8.noarch.rpm"
-RPM_HASH = "82b7f155983b33aec0f40a3bd9350e5facab9666e544139419fb37f721a0cc467d7b173a02ec832c4c41f8366854814d34d5fad102874b1c62fab04ab386781d"
+RPM_NAME = "torrentinfo-1.8.7-3.1.noarch.rpm"
+RPM_HASH = "f344e7249438afc37535bc748714b4e4c95b3e856e2e8ede917915ca24b7d9954383f853f7c6a8a975e0818ae9664c6823944b22d6f1e3c5351050ce505009ac"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-torrentinfo \
+RPROVIDES:${PN} += "python3.13dist-torrentinfo \
 python3dist-torrentinfo \
 torrentinfo"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi"
 
 inherit rpm

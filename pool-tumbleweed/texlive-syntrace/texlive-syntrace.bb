@@ -5,10 +5,10 @@ two commands (\\traceLabel and \\traceReference) to set and use a \
 trace."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-syntrace-2023.209.1.1svn15878-58.1.noarch.rpm"
-RPM_HASH = "7217e81cdf9109ff580f6ea4526b2884f6615753819e71f3e81fa0931b03bf06b20856afd5b0b7ccd9d80d71c56903d87ac0931be3ad36348c58782d929a7944"
+RPM_NAME = "texlive-syntrace-2026.226.1.1svn15878-64.2.noarch.rpm"
+RPM_HASH = "38b8bbf38b4c0a70f564ac5a41c4e272db7d6b955994695c38bddcd64c4db19570100d3f6134312067ba3351c769ac4878614586edcda3ad764f9b427de8eb0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-syntrace.sty \

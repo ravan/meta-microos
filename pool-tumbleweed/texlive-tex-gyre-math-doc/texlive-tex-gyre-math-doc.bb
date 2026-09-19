@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tex-gyre-math"
 DESCRIPTION = "This package includes the documentation for texlive-tex-gyre-math"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.209.svn41264"
+PV = "2026.227.svn41264"
 
-RPM_NAME = "texlive-tex-gyre-math-doc-2023.209.svn41264-55.1.noarch.rpm"
-RPM_HASH = "b9830036b90367a8b6f75170b1ff5c00916662424b16e7e43a8023d42ee42a56a474de0a3b890f67a5df1dccee1b4c4906b4a480a55e6c5837b1ac3138ecff53"
+RPM_NAME = "texlive-tex-gyre-math-doc-2026.227.svn41264-62.2.noarch.rpm"
+RPM_HASH = "3ac80a8140904cbc51cea76cfa91e368628ff94983e889e794ea64b376e6e99dd1f9760d392d7f7fe18a5a18bcb533fb0368c79bf4d133bce643b56d3d9aa65b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-gyre-math-doc"

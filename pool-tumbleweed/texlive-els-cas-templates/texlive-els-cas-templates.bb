@@ -7,10 +7,10 @@ accepted for submitting articles both in Elsevier's electronic \
 submission system and elsewhere."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn62931"
+PV = "2026.226.2.4svn71189"
 
-RPM_NAME = "texlive-els-cas-templates-2023.209.2.3svn62931-54.2.noarch.rpm"
-RPM_HASH = "8e7745e829c315248c7a97f71ebdd10b17c247683420e2700e0311495ae42fd1f9691639e2391b32ddb9a5532093fdf67f5e17d927b67fb91fb9c3c1d5973ee7"
+RPM_NAME = "texlive-els-cas-templates-2026.226.2.4svn71189-61.4.noarch.rpm"
+RPM_HASH = "e6cad6f2e42505328b1374e6943aa29d4591fae96c91b6b97924b61ef20abf1148f53c0aceb91bcc7583096061726a43958d4da6de6b47ee0a71236a249f886d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cas-common.sty \

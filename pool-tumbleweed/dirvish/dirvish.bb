@@ -7,8 +7,8 @@ LICENSE = "OSL-2.0"
 
 PV = "1.2.1"
 
-RPM_NAME = "dirvish-1.2.1-2.15.noarch.rpm"
-RPM_HASH = "04edd83b9c53df9ff8d4be7caa2c363605768a33ea09ae1d40ec6fc23ed943475fb27939f2cc145aef7b88ac433fbab4733c703f64b309303f2f8ade2074eaf1"
+RPM_NAME = "dirvish-1.2.1-3.7.noarch.rpm"
+RPM_HASH = "d9af092079d1920b04406749c07314fcdfe98e24dd8077be38577ea70403797214d4c560c8e9a4af5f6227bb20a9d5402c5d9bd1ab41f434f79d7940573c885f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-dirvish \

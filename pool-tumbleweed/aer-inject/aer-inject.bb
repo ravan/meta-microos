@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.2"
 
-RPM_NAME = "aer-inject-0.2-1.28.aarch64.rpm"
-RPM_HASH = "678cc13f746dd5abec2302fb20d9978f3220b5c916d4a06dfba5242be976bc6361d0f3bdf73ffbf57767dcb3be9a8199961158dd0979870420bc2b4b8b480ed7"
+RPM_NAME = "aer-inject-0.2-1.38.aarch64.rpm"
+RPM_HASH = "8025a99ce6f8e074464e040f8c298ff38ec7c6e63d8aad1e313af9cce26da8b00eb09e2bd156a4320b16cca147e19090587300978fec1ffa6b9f1d91777c8713"
 
 RPROVIDES:${PN} += "aer-inject"
 

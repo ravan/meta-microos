@@ -2,10 +2,10 @@ SUMMARY = "WebUI for kanku"
 DESCRIPTION = "WebUI for kanku using perl Dancer"
 LICENSE = "GPL-3.0-only"
 
-PV = "0.14.0"
+PV = "1.0.0"
 
-RPM_NAME = "kanku-web-0.14.0-1.5.noarch.rpm"
-RPM_HASH = "02299c54cae481ba724495d8cf6e446d44c2d157df5521d714b492632fc763655a7634369223550409f946792c24af938473d21cc60d5c54385c577a139cc0ce"
+RPM_NAME = "kanku-web-1.0.0-2.2.noarch.rpm"
+RPM_HASH = "9a81322ffaf6f5b1a3cd6a6860839303f95d3154a47eb9f8cdbd5382ccaa47002e4969281db5b8194a74d394fafb8d356457fbf578f2fb8ec9557c3ba38d6344"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-kanku-web \
@@ -25,6 +25,7 @@ perl-Kanku--REST--Worker"
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
 /usr/bin/sh \
+group-kanku \
 kanku-common \
 kanku-common-server \
 perl-Dancer2--Plugin--WebSocket \
@@ -34,6 +35,7 @@ perl-Net--AMQP--RabbitMQ \
 perl-Template--Plugin--JSON--Escape \
 perl-Twiggy \
 perl-UUID \
-smtp-daemon"
+smtp-daemon \
+user-kankurun"
 
 inherit rpm

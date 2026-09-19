@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.3.3"
 
-RPM_NAME = "libdvbpsi-devel-1.3.3-1.13.aarch64.rpm"
-RPM_HASH = "2702b757cd99747dbc52247517da2ef0f843d21476252c74a5d188480d6204bc63fb7546239fb97e28582ab05cfffdd1f1cba2a3619c101c20563dc73b1d577d"
+RPM_NAME = "libdvbpsi-devel-1.3.3-1.23.aarch64.rpm"
+RPM_HASH = "6752ce31a51d0cf659080775e2f26277f2be152e9821883caad355d6e3399670becaa10f4e87f6f2890130e4a04ae80ee6a74380cc65953481d2d265762f0e5a"
 
 RPROVIDES:${PN} += "libdvbpsi-devel \
 pkgconfig-libdvbpsi"

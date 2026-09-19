@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.5"
 
-RPM_NAME = "lua53-lpeg_patterns-0.5-2.7.noarch.rpm"
-RPM_HASH = "d22d0634edf3cbae97f7a6c6656b8e33f491be128a1ef39bf6f664c39f99444943a8e399413918721cd4afe8db755099a4de536edf34330030cc267d593b3330"
+RPM_NAME = "lua53-lpeg_patterns-0.5-4.2.noarch.rpm"
+RPM_HASH = "68251d609f751493ec41cd3a845e3f75f97e79891bcfed6caceb5eda62a4c1a72a5d3f6b737ea8fd18a6ac6dcf3c0d95948421e8461fa1760fd5cc4bab63508b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-lpeg-patterns"

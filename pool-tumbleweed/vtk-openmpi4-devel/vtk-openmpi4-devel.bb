@@ -9,15 +9,16 @@ This provides development libraries and header files required to \
 compile C++ programs that use VTK to do 3D visualisation."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.2.6"
+PV = "9.6.1"
 
-RPM_NAME = "vtk-openmpi4-devel-9.2.6-2.5.aarch64.rpm"
-RPM_HASH = "0f0355ab8aeba90bb1060388f1b719df1b1bf7511b741f772adc26a40a757d7857563562dd6fd6244274bb07cf2b5fd67bcedef72983a7d9a0811a27a3eed447"
+RPM_NAME = "vtk-openmpi4-devel-9.6.1-2.2.aarch64.rpm"
+RPM_HASH = "c8012fb2f2051c263fcb7fc8e936152f5f725eede2c0b461a1e1017f42d27a428875ab31be5c2147ace2ac32e16feb03a1e2dce9c8bf1446885b9658ce1f1248"
 
 RPROVIDES:${PN} += "vtk-openmpi4-devel"
 
 RDEPENDS:${PN} += "cgns-devel \
 cmake \
+cmake-FastFloat \
 cmake-Verdict \
 cmake-nlohmann-json \
 double-conversion-devel \
@@ -28,13 +29,12 @@ hdf5-openmpi4-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libjpeg-devel \
-libmysqlclient-devel \
-libnetcdf-c++-devel \
 libtiff-devel \
 libvtk1-openmpi4 \
 libvtkWrappingTools.so.1 \
 openmpi4 \
 openmpi4-devel \
+pkgconfig-CLI11 \
 pkgconfig-Qt5Core \
 pkgconfig-Qt5OpenGL \
 pkgconfig-Qt5OpenGLExtensions \
@@ -54,6 +54,7 @@ pkgconfig-liblzma \
 pkgconfig-libpng \
 pkgconfig-libswscale \
 pkgconfig-netcdf \
+pkgconfig-proj \
 pkgconfig-pugixml \
 pkgconfig-theora \
 pkgconfig-zlib \

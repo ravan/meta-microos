@@ -7,10 +7,10 @@ This subpackage contains all necessary include files and libraries needed \
 to develop applications that use FontForge libraries."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230101"
+PV = "20251009"
 
-RPM_NAME = "fontforge-devel-20230101-1.4.aarch64.rpm"
-RPM_HASH = "2d247d6af446de54ef1880395cd65a2370a37bb9fd18a904b2d2141a5a0ac9958855931a0c11264c5ac24a96da3c69675d6b48df68b9aeb2e21bc958474ab7d0"
+RPM_NAME = "fontforge-devel-20251009-7.3.aarch64.rpm"
+RPM_HASH = "e33b82916cd8a4d1a9a9ce740c775c51fc138eb0c63c08547df370f46e499601ca9ad04a46f064fbe94b0fbb30510b5b683851c72476824f6a83a2e527be6dd5"
 
 RPROVIDES:${PN} += "fontforge-devel"
 

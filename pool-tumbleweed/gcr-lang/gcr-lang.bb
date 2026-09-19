@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gcr"
 DESCRIPTION = "Provides translations for the 'gcr' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.1.0"
+PV = "4.4.0.1"
 
-RPM_NAME = "gcr-lang-4.1.0-1.2.noarch.rpm"
-RPM_HASH = "cfda0e38670575f0960d2af4832f0d6f5579fd6579365a6aa3a1f478f64146444eb361acbede1cde5d4f290575a6eb09db471971d225d17f87670983ec839c2a"
+RPM_NAME = "gcr-lang-4.4.0.1-3.3.noarch.rpm"
+RPM_HASH = "10a211231b13c4f23e07e541633febbe3299fb8777cafccdb3cabe2b343c1c4a6133088071ebdfa7b7c98ec5734fef6de6463a66c42d4841b5cf3ec3f01b116b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcr-lang \

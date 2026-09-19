@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.3"
 
-RPM_NAME = "bootsplash-branding-KDE-3.3-13.15.noarch.rpm"
-RPM_HASH = "74267cf5953af398e834715d2a989f6b9b9b53681028d8390106ac4da6ffdd4eb9e845b1072bb304c2a83fd3876922b91ed182cb5e83007a47f759764f919677"
+RPM_NAME = "bootsplash-branding-KDE-3.3-13.23.noarch.rpm"
+RPM_HASH = "c71433d90585ec3b3d06d48ddea8b4a2121c0c41533acbe2396d660c6ce743c8bcd2c5b36ea2c491a6efea4f313a04ecb4b33abebb7d8c54acdaeb64b584a870"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bootsplash-branding \

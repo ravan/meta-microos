@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.1"
 
-RPM_NAME = "filter_audio-devel-0.0.1-2.14.aarch64.rpm"
-RPM_HASH = "7df7bffdd6afd1173417bae92a94bd341b186e9cf1a72af4c29d51fe995bfd417e291064baf931fc5c758e9a5f91bad4b487323f115a661b21a8007b0dbc6c23"
+RPM_NAME = "filter_audio-devel-0.0.1-2.23.aarch64.rpm"
+RPM_HASH = "dd4724a770be7aabf5b204b3bea2d8eeba54d2a40e5c200f49711f04011e95818bbe159c4ba2d3af9d0f6ceca1ab5d7f0b2ecc6f23a922c0041ab141d8308ccf"
 
 RPROVIDES:${PN} += "filter-audio-devel \
 pkgconfig-filteraudio"

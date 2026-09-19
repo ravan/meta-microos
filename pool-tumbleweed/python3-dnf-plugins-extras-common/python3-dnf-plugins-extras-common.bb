@@ -2,10 +2,10 @@ SUMMARY = "Common files for Extras Plugins for DNF"
 DESCRIPTION = "Common files for Extras Plugins for DNF, Python 3 version."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.0.17"
+PV = "4.1.2"
 
-RPM_NAME = "python3-dnf-plugins-extras-common-4.0.17-2.2.noarch.rpm"
-RPM_HASH = "6388023bbc34a5b2f9531cc6a0de82ba1e9ae72df0ff7b1b4b5aed12966042b6dea98d52c961ac0c0743023e176b86e0b73145325780950a1c2e550e237b94a5"
+RPM_NAME = "python3-dnf-plugins-extras-common-4.1.2-1.8.noarch.rpm"
+RPM_HASH = "2700f8de9233d705248ef5f9d2d9d17b36e032173cb4fca32498025f95e484b5a219a036217d05dc3c6c4aa6e5c4aa7f0f055a5a8821264cfdfa82e625a9e167"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-plugins-extras-common \

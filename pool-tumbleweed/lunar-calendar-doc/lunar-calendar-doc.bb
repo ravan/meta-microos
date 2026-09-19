@@ -1,11 +1,11 @@
 SUMMARY = "Lunar calendar Documents"
 DESCRIPTION = "Documents for lunar-calendar"
-LICENSE = "GPL-2.0+"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.0.0+git20191124.f91a880"
+PV = "3.0.1"
 
-RPM_NAME = "lunar-calendar-doc-3.0.0+git20191124.f91a880-1.15.noarch.rpm"
-RPM_HASH = "689c66b80b6886f81de41c2539749cd2ecd266e1f1e7570577fc13e1cb2dbf847aa2ab9facd3bbd327882f6bac919222dca091daaf56c9265f0797daf838c9be"
+RPM_NAME = "lunar-calendar-doc-3.0.1-1.13.noarch.rpm"
+RPM_HASH = "6fa2eae4f93f627a157bb8b1887fdf4d67a1a2a39c93ac6e61ba70fa182caba6db001948a49055715a37a21651d326118ad9179631da78f8a161d44dc3173d9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lunar-calendar-doc"

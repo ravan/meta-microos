@@ -2,15 +2,16 @@ SUMMARY = "Translations for package gsettings-desktop-schemas"
 DESCRIPTION = "Provides translations for the 'gsettings-desktop-schemas' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.0"
+PV = "50.1"
 
-RPM_NAME = "gsettings-desktop-schemas-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "a45751ebbf43560bfa7cb5c611702481871efbee75040fa2aa2eb69dee7a0f6e11ee474e034d050019aceff216000e9021d0537b24f98249b816d9fa444dfb60"
+RPM_NAME = "gsettings-desktop-schemas-lang-50.1-1.2.noarch.rpm"
+RPM_HASH = "adbf26d11bac09439a0043ca49b7b1a6c53643a42868235dfb24308c9746d10151b2f229f6f7f61ba041e76539f864187c1cbe7721468d85a1854212912a7ab6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsettings-desktop-schemas-lang \
 gsettings-desktop-schemas-lang-all \
 locale-gsettings-desktop-schemas-as \
+locale-gsettings-desktop-schemas-be \
 locale-gsettings-desktop-schemas-bg \
 locale-gsettings-desktop-schemas-bs \
 locale-gsettings-desktop-schemas-ca \
@@ -19,10 +20,10 @@ locale-gsettings-desktop-schemas-cs \
 locale-gsettings-desktop-schemas-da \
 locale-gsettings-desktop-schemas-de \
 locale-gsettings-desktop-schemas-el \
-locale-gsettings-desktop-schemas-en-GB \
 locale-gsettings-desktop-schemas-eo \
 locale-gsettings-desktop-schemas-es \
 locale-gsettings-desktop-schemas-eu \
+locale-gsettings-desktop-schemas-fa \
 locale-gsettings-desktop-schemas-fi \
 locale-gsettings-desktop-schemas-fr \
 locale-gsettings-desktop-schemas-fur \

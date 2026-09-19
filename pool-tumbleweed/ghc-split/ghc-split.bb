@@ -17,17 +17,18 @@ contained therein. \
 To get started, see the 'Data.List.Split' module."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.3.5"
+PV = "0.2.5"
 
-RPM_NAME = "ghc-split-0.2.3.5-2.3.aarch64.rpm"
-RPM_HASH = "05d7169a75e6e3e69745e6f9ce056ac6fac9790f6610f7a88500505e6630cc718a984da17f3faed178753f5df10dba32900e8ae65ab012e3ad801271e5ef670a"
+RPM_NAME = "ghc-split-0.2.5-1.16.aarch64.rpm"
+RPM_HASH = "9704433bd000782e21ed29ff96f2c4b7a3e569fd237dfbedb55bce2daea37de945a54228f1053127df51a75fe9d50cc952e6f6d1f30a1e58f7d55b205fa9638b"
 
 RPROVIDES:${PN} += "ghc-split \
-libHSsplit-0.2.3.5-J6pekuQs6yKFxqDJQyglHu-ghc9.4.6.so"
+libHSsplit-0.2.5-DF0qBqNymX3Hv5Ta0307xc-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

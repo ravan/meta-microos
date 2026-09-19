@@ -5,16 +5,16 @@ font, in a LaTeX document. The package uses OpenType fonts, and \
 as a result must be compiled with LuaLaTeX or XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.4svn56473"
+PV = "2026.226.0.0.2.4svn56473"
 
-RPM_NAME = "texlive-lilyglyphs-2023.209.0.0.2.4svn56473-55.1.noarch.rpm"
-RPM_HASH = "be8fa3b949133331fbe4b30a633c9bc889ce5df8382f14cb6d02a3175b86f652297a46121c31514e0ac81d14b92e41984c7b4cfc36cb8225dee9255bd02260ff"
+RPM_NAME = "texlive-lilyglyphs-2026.226.0.0.2.4svn56473-61.2.noarch.rpm"
+RPM_HASH = "fd0f04190c97addc0db420cf93e9bb407b3d6e2b03049d315d4ff82d1a31fd8859d74c160132951986116b8bbc8056c5c6eab88f010058070436a29937dd5d85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lilyglyphs.sty \
 texlive-lilyglyphs"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ed \

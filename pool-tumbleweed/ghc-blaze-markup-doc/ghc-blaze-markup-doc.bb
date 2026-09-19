@@ -2,10 +2,10 @@ SUMMARY = "Haskell blaze-markup library documentation"
 DESCRIPTION = "This package provides the Haskell blaze-markup library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.2.8"
+PV = "0.8.3.0"
 
-RPM_NAME = "ghc-blaze-markup-doc-0.8.2.8-6.4.noarch.rpm"
-RPM_HASH = "7f41e7131a03c9e882c3b3a0b4809447f1042085f4ded41560f8a2a56db9ff38ece943a956e4eb7d76d35df5878fe39d371f9ff60f479f6714a06ddd4fb5b3c4"
+RPM_NAME = "ghc-blaze-markup-doc-0.8.3.0-3.21.noarch.rpm"
+RPM_HASH = "f0e5582a07cbc64715d25544f59c5d89a9f0edca1a0fdda0bdf959aff1f6a4f26c072a411b1bf422fa1c7463c7561dd5897750230d8eee63e644242167108beb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-blaze-markup-doc"

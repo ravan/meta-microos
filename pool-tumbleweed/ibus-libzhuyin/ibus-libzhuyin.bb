@@ -3,10 +3,10 @@ DESCRIPTION = "This package includes a Chinese Zhuyin (Bopomofo) input method ba
 on libzhuyin for IBus."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.10.2"
+PV = "1.10.3"
 
-RPM_NAME = "ibus-libzhuyin-1.10.2-2.4.aarch64.rpm"
-RPM_HASH = "e03bd6d32c578121c0130c616170c1369a14864e7e9eb985cf5b936ef099e6d0185ebc24e2851e3f4c044e70ee99819f2f8b493949d0009a40864a2b9a3644ec"
+RPM_NAME = "ibus-libzhuyin-1.10.3-3.6.aarch64.rpm"
+RPM_HASH = "5835f050964d297b0d7f84aa56886557575cdbf92494ce732c78c96d19b259d6703ccd04415cdbc06c10583a691716c00b432b4f73cdbdb619952135bd6e65e8"
 
 RPROVIDES:${PN} += "ibus-libzhuyin \
 locale-ibus-zh-TW;zh-HK"

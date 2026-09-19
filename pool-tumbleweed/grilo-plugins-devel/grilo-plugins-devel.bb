@@ -5,10 +5,10 @@ various sources using a single API. \
 This package provides the development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.16"
+PV = "0.3.18"
 
-RPM_NAME = "grilo-plugins-devel-0.3.16-1.2.aarch64.rpm"
-RPM_HASH = "311523f957b055956ffe0cfc70e743a5cff8e67bfa44338a9316f2343c8ef02e0dbd1966204fe7bf905fa5b4bddada64c726b0197a9b3640856014974b631ae6"
+RPM_NAME = "grilo-plugins-devel-0.3.18-2.3.aarch64.rpm"
+RPM_HASH = "27c5102fd7e4a517c0f7208ee11f780d912cf01db6959529851e6eebff2e02c46dc7abd56f3ebab739ede8f9fb971f5ce5109e1eb97fbfaa500787d6f21b95d1"
 
 RPROVIDES:${PN} += "grilo-plugins-devel \
 pkgconfig-grilo-plugins-0.3"

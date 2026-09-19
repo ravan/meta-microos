@@ -3,10 +3,10 @@ DESCRIPTION = "Installing this package causes ghc-*-prof packages corresponding 
 ghc-*-devel packages to be automatically installed too."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.6"
+PV = "9.12.4"
 
-RPM_NAME = "ghc-prof-9.4.6-1.1.aarch64.rpm"
-RPM_HASH = "a88e273011b3c79ecd11b496f3c181a58116093c0fd209acca894b6f1be7e5db869d71e40473109188d2ebb264e8846866f10deb4b85ad2155cd04cd2c3fb9c5"
+RPM_NAME = "ghc-prof-9.12.4-1.3.aarch64.rpm"
+RPM_HASH = "347bc719d4728aab3c8b45713dfb83c2b579c3ece5a36a81493332f8ed3b05e5068c44dba52f949bae43bbff515c5c94918ce8be3528a620f681984c349f2dcd"
 
 RPROVIDES:${PN} += "ghc-prof"
 

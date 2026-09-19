@@ -1,25 +1,26 @@
 SUMMARY = "A TeX macro package that defines LaTeX"
-DESCRIPTION = "LaTeX is a widely-used macro package for TeX, providing many \
-basic document formating commands extended by a wide range of \
-packages. It is a development of Leslie Lamport's LaTeX 2.09, \
-and superseded the older system in June 1994. The basic \
-distribution is catalogued separately, at latex-base; apart \
-from a large set of contributed packages and third-party \
-documentation (elsewhere on the archive), the distribution \
-includes: - a bunch of required packages, which LaTeX authors \
-are 'entitled to assume' will be present on any system running \
-LaTeX; and - a minimal set of documentation detailing \
-differences from the 'old' version of LaTeX in the areas of \
-user commands, font selection and control, class and package \
-writing, font encodings, configuration options and modification \
-of LaTeX. For downloading details, see the linked catalogue \
-entries above."
+DESCRIPTION = "LaTeX is a widely-used macro package (format) for TeX, \
+providing many basic document formatting commands extended by a \
+wide range of packages. It was originally created by Leslie \
+Lamport, whose last release was LaTeX 2.09. The current LaTeX \
+superseded that release in June 1994. The basic distribution is \
+catalogued separately, at latex-base. Apart from a large set of \
+contributed packages and third-party documentation (elsewhere \
+on the archive), the distribution includes: a number of \
+required packages, which LaTeX authors may assume will be \
+present on any system running LaTeX; and a minimal set of \
+documentation detailing differences from the 'old' version of \
+LaTeX in the areas of user commands, font selection and \
+control, class and package writing, font encodings, \
+configuration options and modification of LaTeX. For \
+downloading details, documentation links, etc., see the linked \
+catalogue entries above."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.20221101_pl1svn65161"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-latex-2023.209.20221101_pl1svn65161-56.1.noarch.rpm"
-RPM_HASH = "fa08aaf9a7a4bb077431c127403513f73326cf390357192cc833e59fa05f809199e86e31a155a7d6c154dd1af707666a3008c2403ffa51b99be45f4097f7432c"
+RPM_NAME = "texlive-latex-2026.226.svn76924-63.2.noarch.rpm"
+RPM_HASH = "b2be63952e1ece630d6280d60db0a6f0788a8e6426294cedec8f0b7657edc598584e3455162134c89220c513dc9674f0e768100daac29ede76d8037d1cb92f73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alltt.sty \
@@ -36,6 +37,7 @@ tex-bk11.clo \
 tex-bk12.clo \
 tex-book.cls \
 tex-book.sty \
+tex-checkencodingsubset.tex \
 tex-cp1250.def \
 tex-cp1252.def \
 tex-cp1257.def \
@@ -187,10 +189,6 @@ texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-latex-bin \
-texlive-latex-fonts \
-texlive-latexconfig \
-texlive-luatex \
-texlive-pdftex \
 texlive-scripts \
 texlive-scripts-bin"
 

@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3.12"
 
-RPM_NAME = "ghc-lifted-base-prof-0.2.3.12-8.8.aarch64.rpm"
-RPM_HASH = "ed5a4ca9440775b3d73a1b6641263545177a823d9ef8eb0cb03f98a5c36fde6418555979cc5312cf0376ea9eeb675e803146559aa18c95c9972f702efd6efb00"
+RPM_NAME = "ghc-lifted-base-prof-0.2.3.12-8.36.aarch64.rpm"
+RPM_HASH = "a13a385bce01fd362c7688474dd29e44676ec0c3e1b14409bb6d12f068ae5848494ee39a7c2ac1f6d19d1e02912b9917e4b17fcef81efdc1e165f208f22d8d4b"
 
 RPROVIDES:${PN} += "ghc-lifted-base-prof \
-ghc-prof-lifted-base-0.2.3.12-8AMs8PuCeaLKJwoieZv4GI"
+ghc-prof-lifted-base-0.2.3.12-BonMj4p70Ef8zpL3zVJvsV"
 
 RDEPENDS:${PN} += "ghc-lifted-base-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-monad-control-1.0.3.1-CVPvK8bh5F0Gvv9Wu0W98B \
-ghc-prof-transformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-monad-control-1.0.3.1-EAQeykrh4iCEl5x3Heycqt \
+ghc-prof-transformers-base-0.4.6.1-AexBYmHB9CZDEWAojzlCzB"
 
 inherit rpm

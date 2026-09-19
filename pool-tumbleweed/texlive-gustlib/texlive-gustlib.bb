@@ -6,10 +6,10 @@ styles, prepress and color separation, graphics manipulation, \
 tables."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54074"
+PV = "2026.226.svn54074"
 
-RPM_NAME = "texlive-gustlib-2023.209.svn54074-54.2.noarch.rpm"
-RPM_HASH = "57d8e1096e045917d9d3a775106b4d700916590058fd7905625818f4ed9b16962a377a4e674a2e88b82d72a6683295eac1901494cb94ff3731f1a87dbd636d7a"
+RPM_NAME = "texlive-gustlib-2026.226.svn54074-60.4.noarch.rpm"
+RPM_HASH = "35e2f59c66d3c37b8ebf4c3b745e1854c9cc0db1baea9e53b0d57d7114fde157c919b76dfafed5c3b89f7b1d0a1cdb089b0f9fee29a88ae9a049759006daf114"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblotex.tex \

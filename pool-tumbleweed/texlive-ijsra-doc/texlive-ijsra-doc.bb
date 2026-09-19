@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ijsra"
 DESCRIPTION = "This package includes the documentation for texlive-ijsra"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn44886"
+PV = "2026.226.1.1svn44886"
 
-RPM_NAME = "texlive-ijsra-doc-2023.209.1.1svn44886-54.1.noarch.rpm"
-RPM_HASH = "05edca5582c08cc8391c7654b1452f442b25191cda0ea9c19d106cc35ab3ad75ccf047e7739fb5adde8bea2cfd3f9108a6a4905d385d476d74b0bc6e358991e1"
+RPM_NAME = "texlive-ijsra-doc-2026.226.1.1svn44886-60.2.noarch.rpm"
+RPM_HASH = "6e6ff86cf627a56c47f26cd22ba3a63e3cb09bfce7a933d87d1b22d3a3cfcc25dd753563597033531bcff2a216ec2863048e3b9c42cd5edbbf47ee00275069dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ijsra-doc"

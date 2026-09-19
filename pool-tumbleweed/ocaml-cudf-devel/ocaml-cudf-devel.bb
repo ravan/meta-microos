@@ -1,12 +1,12 @@
 SUMMARY = "Development files for ocaml-cudf"
 DESCRIPTION = "The ocaml-cudf-devel package contains libraries and signature files for \
 developing applications that use ocaml-cudf."
-LICENSE = "GPL-3.0-only"
+LICENSE = "LGPL-3.0-or-later-with-OCaml-LGPL-linking-exception"
 
-PV = "0.9"
+PV = "0.10"
 
-RPM_NAME = "ocaml-cudf-devel-0.9-2.16.aarch64.rpm"
-RPM_HASH = "8906e916e22c8cad269b9521b01ca923b0cd1777b1fb118e2b71a56fb7be8a7de6d8898f7478630f1616394631c3c82fb558ec2865f058bdd3b52314cbf05956"
+RPM_NAME = "ocaml-cudf-devel-0.10-5.2.aarch64.rpm"
+RPM_HASH = "7bdbb91f2c75817687d93b3aad42477f9124051fb534c762d1fa80f186e30b8b1ca392e4d92351221ed20eed195a1f0694f07557012cd4de71e0aa8f4002b522"
 
 RPROVIDES:${PN} += "ocaml-Cudf \
 ocaml-Cudf-822-lexer \
@@ -37,7 +37,6 @@ RDEPENDS:${PN} += "ocaml-CamlinternalFormatBasics \
 ocaml-Enum \
 ocaml-ExtArray \
 ocaml-ExtBuffer \
-ocaml-ExtBytes \
 ocaml-ExtHashtbl \
 ocaml-ExtLib \
 ocaml-ExtList \
@@ -62,8 +61,6 @@ ocaml-Stdlib--String \
 ocaml-Stdlib--Uchar \
 ocaml-cudf \
 ocamlfind-extlib \
-ocamlfind-stdlib-shims \
-ocamlx-ExtBuffer \
 ocamlx-ExtHashtbl \
 ocamlx-ExtLib \
 ocamlx-ExtList \

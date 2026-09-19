@@ -5,10 +5,10 @@ access sendmail features. \
 'sendmail' is a trademark of Sendmail, Inc."
 LICENSE = "Sendmail"
 
-PV = "8.17.2"
+PV = "8.18.2"
 
-RPM_NAME = "sendmail-devel-8.17.2-1.1.aarch64.rpm"
-RPM_HASH = "674d707eb08f60f400097a19a6b03acd1977ef23b468d9b20ce9d21aecabe295e8e7452566226f20292fab0e9464a29553a3c75bac344503bf269ad5c0f09130"
+RPM_NAME = "sendmail-devel-8.18.2-3.3.aarch64.rpm"
+RPM_HASH = "76bee44bf5c9625d63355e92cfc91a50d418d4a75aac8ebffb77fda68be743b9e570418cef0f6f4de74da6866faf348b188d2a4bc0e1a3d75614bc415db5cef6"
 
 RPROVIDES:${PN} += "sendmail-devel"
 

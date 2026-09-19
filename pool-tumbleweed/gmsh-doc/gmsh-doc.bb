@@ -3,12 +3,12 @@ DESCRIPTION = "Gmsh is a 3D finite element grid generator with a build-in CAD en
 and post-processor. \
  \
 This package contains the documentation for gmsh."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "Apache-2.0 & GPL-2.0-or-later & (GPL-2.0-or-later | LGPL-3.0-or-later) & LGPL-2.1-or-later & MPL-2.0 & BSD-2-Clause & BSD-3-Clause & BSL-1.0 & CC0-1.0 & X11"
 
-PV = "4.11.1"
+PV = "4.15.2"
 
-RPM_NAME = "gmsh-doc-4.11.1-2.2.noarch.rpm"
-RPM_HASH = "c1a8a6ca83fd65b76e8842ccbfaaf5480c810a6d136941d1e2f9794878331090a93f29cc13b29ece1237a938cecd7f29193ddd2f133bd8858ee9d4abf3d82dad"
+RPM_NAME = "gmsh-doc-4.15.2-1.4.noarch.rpm"
+RPM_HASH = "0f934c3fc890002de15518b70befa986db446b11a170417ee7668dfbe910794ec50d84afd1e68097f406da0ef7e472bfa405624295b3a4ce5aec83776eab8f00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gmsh-doc"

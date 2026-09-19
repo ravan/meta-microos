@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-bisect_ppx-devel package contains libraries and signatu
 developing applications that use ocaml-bisect_ppx."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.8.2"
+PV = "2.8.3"
 
-RPM_NAME = "ocaml-bisect_ppx-devel-2.8.2-2.3.aarch64.rpm"
-RPM_HASH = "566e91cae19166cb84f5af170f0dce945e0e375f1724e817379c4eecba843fed29eef37c90a4cbfe6d620f54a4e44cd3a6738f58fdad2eef3f46d41efb2a42ad"
+RPM_NAME = "ocaml-bisect_ppx-devel-2.8.3-2.3.aarch64.rpm"
+RPM_HASH = "197128dd27b88cf08fe1bd27de7943a196ade39b04956439f2ef389284bec734ca6479e37a69af35472ca45caedbaace73ab1dbb45e9816f23b531d67100b2e2"
 
 RPROVIDES:${PN} += "ocaml-Bisect \
 ocaml-Bisect--Runtime \
@@ -35,14 +35,9 @@ ocamlx-Bisect-ppx--Register"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libm.so.6 \
+libzstd.so.1 \
 ocaml-Astlib \
 ocaml-Astlib-- \
-ocaml-Astlib--Ast-402 \
-ocaml-Astlib--Ast-403 \
-ocaml-Astlib--Ast-404 \
-ocaml-Astlib--Ast-405 \
-ocaml-Astlib--Ast-406 \
-ocaml-Astlib--Ast-407 \
 ocaml-Astlib--Ast-408 \
 ocaml-Astlib--Ast-409 \
 ocaml-Astlib--Ast-410 \
@@ -52,8 +47,13 @@ ocaml-Astlib--Ast-413 \
 ocaml-Astlib--Ast-414 \
 ocaml-Astlib--Ast-500 \
 ocaml-Astlib--Ast-501 \
+ocaml-Astlib--Ast-502 \
+ocaml-Astlib--Ast-503 \
+ocaml-Astlib--Ast-504 \
+ocaml-Astlib--Ast-505 \
 ocaml-Astlib--Location \
 ocaml-Astlib--Longident \
+ocaml-Astlib--Longident-504 \
 ocaml-Astlib--Parse \
 ocaml-Asttypes \
 ocaml-Build-path-prefix-map \
@@ -63,7 +63,10 @@ ocaml-CamlinternalOO \
 ocaml-Clflags \
 ocaml-Cmi-format \
 ocaml-Compmisc \
+ocaml-Config \
+ocaml-Data-types \
 ocaml-Env \
+ocaml-Format-doc \
 ocaml-Ident \
 ocaml-Identifiable \
 ocaml-Load-path \
@@ -75,6 +78,7 @@ ocaml-Ocaml-shadow \
 ocaml-Outcometree \
 ocaml-Parsetree \
 ocaml-Path \
+ocaml-Pprintast \
 ocaml-Ppxlib \
 ocaml-Ppxlib-- \
 ocaml-Ppxlib--Ast-builder \
@@ -106,7 +110,6 @@ ocaml-Ppxlib-ast--Import \
 ocaml-Ppxlib-ast--Versions \
 ocaml-Ppxlib-traverse-builtins \
 ocaml-Primitive \
-ocaml-Profile \
 ocaml-Sexplib0 \
 ocaml-Sexplib0-- \
 ocaml-Sexplib0--Sexp \
@@ -125,6 +128,7 @@ ocaml-Stdlib--BytesLabels \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Complex \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Format \
@@ -141,6 +145,7 @@ ocaml-Stdlib--Obj \
 ocaml-Stdlib--Parsing \
 ocaml-Stdlib--Printf \
 ocaml-Stdlib--Random \
+ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--StdLabels \
@@ -153,15 +158,19 @@ ocaml-Str \
 ocaml-Subst \
 ocaml-Type-immediacy \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Unix \
 ocaml-Warnings \
 ocaml-bisect-ppx \
+ocamlfind-bisect-ppx.common \
+ocamlfind-bisect-ppx.runtime \
 ocamlfind-ppxlib \
 ocamlfind-ppxlib.ast \
 ocamlfind-str \
 ocamlfind-unix \
 ocamlx-CamlinternalLazy \
 ocamlx-CamlinternalOO \
+ocamlx-Ppxlib \
 ocamlx-Ppxlib--Ast-builder \
 ocamlx-Ppxlib--Ast-traverse \
 ocamlx-Ppxlib--Driver \
@@ -175,7 +184,6 @@ ocamlx-Stdlib--Array \
 ocamlx-Stdlib--Buffer \
 ocamlx-Stdlib--Char \
 ocamlx-Stdlib--Filename \
-ocamlx-Stdlib--Format \
 ocamlx-Stdlib--Hashtbl \
 ocamlx-Stdlib--Lexing \
 ocamlx-Stdlib--List \

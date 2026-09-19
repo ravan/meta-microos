@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.9.22.noko2"
 
-RPM_NAME = "nekohtml-1.9.22.noko2-1.5.noarch.rpm"
-RPM_HASH = "50f43aa93b6335b409d24108db6796986376654a313450a74987d8fde61db258eb0f49b9647ff2851070fa146893e82e5b4caee16e709965ea12bbdd76e2dc97"
+RPM_NAME = "nekohtml-1.9.22.noko2-2.12.noarch.rpm"
+RPM_HASH = "c02523eafd10db293f6876b0bef000d7ca46f2d44c878dd756ccdf14f4d3cc00cd51baa228d5deb1ebfb930a10d3a7ff688f41577c3c937c5b98c8db59379e2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-nekohtml-nekohtml \
@@ -27,12 +27,10 @@ nekohtml \
 osgi-org.cyberneko.html"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-bcel \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
 mvn-xerces-xercesImpl \
-xerces-j2 \
-xml-apis"
+xerces-j2"
 
 inherit rpm

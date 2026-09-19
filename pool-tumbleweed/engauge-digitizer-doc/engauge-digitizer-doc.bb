@@ -2,10 +2,10 @@ SUMMARY = "Documentation for Engauge Digitizer"
 DESCRIPTION = "This package contains the documentation for Engauge Digitizer."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "12.1"
+PV = "12.9.1"
 
-RPM_NAME = "engauge-digitizer-doc-12.1-2.5.noarch.rpm"
-RPM_HASH = "fce72bf3197157fd53e184a1b839c27c21bce73f972a905f4049f5fead570d0dd8c6ec225d4dcccf084a0729da2e0db713b49a4e3f330ae4a1e18ad5c57a0135"
+RPM_NAME = "engauge-digitizer-doc-12.9.1-2.2.noarch.rpm"
+RPM_HASH = "902a060b2ac6f1eb4ff3fee8b44902c9a34fd3ff149db7b29bdd4784e921752102ae1320b3aea600596c4cf4e90ce92a46cd7684e693529162aaaf890e7eda9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "engauge-digitizer-doc"

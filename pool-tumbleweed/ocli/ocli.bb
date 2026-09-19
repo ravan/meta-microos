@@ -7,15 +7,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.0"
 
-RPM_NAME = "ocli-0.9.0-5.3.aarch64.rpm"
-RPM_HASH = "63c153ab00b9b7f3b2b2d0eb7951f113467b44a93cd086ff1b2228dc65e0f41ff0e34778f78378a0f241e43f4fe72619b16984167b17771357605a4557b0a603"
+RPM_NAME = "ocli-0.9.0-6.13.aarch64.rpm"
+RPM_HASH = "ec0699dcbf1e4be6d53df01094d4e38e04836751a8dc8ea469000b0096e0286abcd42246dd6aedfe41d19639ee7e939505579718074cc43d8e61414dec344d09"
 
 RPROVIDES:${PN} += "ocli \
 owntracks-cli-publisher"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgps.so.30 \
+libgps.so.32 \
 libmosquitto.so.1"
 
 inherit rpm

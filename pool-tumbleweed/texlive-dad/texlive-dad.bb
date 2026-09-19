@@ -6,10 +6,10 @@ with both Unicode and transliterated input, allowing the user \
 to choose the most appropriate approach for every situation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn54191"
+PV = "2026.226.1.2svn54191"
 
-RPM_NAME = "texlive-dad-2023.209.1.2svn54191-55.1.noarch.rpm"
-RPM_HASH = "7ccff2ad7b7b77647f7faea07dc679696b69a9e0a09ac2dd0519273e30360db40a8aff7e8f328b0d08d3279a319f020c216d14e7d9e6fe6b836c5c92ba191747"
+RPM_NAME = "texlive-dad-2026.226.1.2svn54191-61.2.noarch.rpm"
+RPM_HASH = "448f4c002f9c5563cfd5d6824ddba25c0cbaf7b013805005fe7b303ee237fa73fa6690d788e37b79d3ab65be08276c909dbc7aea616703e054ac60b70a239032"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-OT1dad.fd \

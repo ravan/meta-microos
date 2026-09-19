@@ -18,12 +18,12 @@ method fails, a new connection is established and the handle is stored for \
 later re-use. There is no need to remove the disconnect statements from \
 your code. They won't do anything because the Apache::DBI module overloads \
 the disconnect method."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.12"
+PV = "1.120.0"
 
-RPM_NAME = "perl-Apache-DBI-1.12-1.28.noarch.rpm"
-RPM_HASH = "551549e38d769b299b27cada4a9df6afe7a054c2806b319d56cef1ad96678320f73c400f7398e1ace16cff1da320303741ebaace877d339203464864336ae6f0"
+RPM_NAME = "perl-Apache-DBI-1.120.0-1.7.noarch.rpm"
+RPM_HASH = "6a8ddf312f4e6340fbb4a04c2dc46e0839831eae9d0511c1bbd0d3eb75c70cce277eae78006c99edf408a3cf080a715b71b33501c17eca9e4499e973da9922e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Apache--AuthDBI \
@@ -31,7 +31,7 @@ perl-Apache--DBI \
 perl-Apache--DBI--db \
 perl-Apache-DBI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBI \
 perl-Digest--SHA1"
 

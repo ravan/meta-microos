@@ -9,14 +9,13 @@ contains the 'edict2' variant, an expanded version of the flat \
 of the JMdict word dictionary."
 LICENSE = "CC-BY-SA-3.0 & CC-BY-SA-4.0"
 
-PV = "20230511"
+PV = "20260325"
 
-RPM_NAME = "edict2-20230511-1.1.noarch.rpm"
-RPM_HASH = "6827dcc402529b5c3c38c787838c49cb4759cdf5aeb85923663657f9dc78daa36e05b297ec871e8dc8721ffa8dfe3f5118febca9c683e8ff202d6dc6173b7c06"
+RPM_NAME = "edict2-20260325-1.2.noarch.rpm"
+RPM_HASH = "aed020ff71743912cd3e36ae9f1ca3f3c697d31107f46c8d15deb4651fada09c51a6383708c368cc2e85138c1fbc2db48d85a2b1cd1ce454161ba0014d3eb757"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "edict2 \
-locale-ja"
+RPROVIDES:${PN} += "edict2"
 
 RDEPENDS:${PN} += ""
 

@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-antiqua"
 DESCRIPTION = "The  separated fonts package for texlive-antiqua"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.001.003svn24266"
+PV = "2026.226.001.003svn24266"
 
-RPM_NAME = "texlive-antiqua-fonts-2023.209.001.003svn24266-55.1.noarch.rpm"
-RPM_HASH = "8e9e7c208c2d97a70885f548b254a8f14efa9f0b8b648f73d1d62ed9bbfd609d5efce3f9a990bc707b78f04aeeace5ff1949909c7642d6c57c1d11146f6c1203"
+RPM_NAME = "texlive-antiqua-fonts-2026.226.001.003svn24266-61.2.noarch.rpm"
+RPM_HASH = "52af91c78769a6d349057a2a7b3f8501d02ccf4c43687343b3d4b3b3b1f30d067f16a47752e4710b98328f862b1ececdc38cffe79d8c2529be8adbc449c1c1f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-urwantiquat \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & BSD-3-Clause"
 
 PV = "1.0.2"
 
-RPM_NAME = "ghc-mountpoints-doc-1.0.2-4.4.noarch.rpm"
-RPM_HASH = "ded4854a82394be907e89553a092906fb10e4ff0230cd17625285ab2457f74dbab51340769206a6353478d9010637fc2a801ae60fb5c2b7ab002bf9fec023292"
+RPM_NAME = "ghc-mountpoints-doc-1.0.2-4.24.noarch.rpm"
+RPM_HASH = "f678030e2c7b53611f5c11e0d0191a1714448477ed15c8b2abdbdbc2622aac0d2b726432b0e40a461b28402aa19f30a58be21303feb4174afe4cda3a86f2666f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-mountpoints-doc"

@@ -5,10 +5,10 @@ Kosch. The family includes eight weights and italics for each \
 weight."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64565"
+PV = "2026.226.svn64565"
 
-RPM_NAME = "texlive-crimsonpro-2023.209.svn64565-55.1.noarch.rpm"
-RPM_HASH = "a25f8053fa99e17e703df8c9929018db718156d8aa10f01685495f8706ada161f203d2b935db3bc12a75fa677e8d41e5011b1b907fd67723d8f858ef71b39247"
+RPM_NAME = "texlive-crimsonpro-2026.226.svn64565-61.2.noarch.rpm"
+RPM_HASH = "77d6a1ffc0d516278f41874ab4999163f949bb0c1f5df01621313bb2633b8a84e5a72b36c438db7a7698cbd976d0031a85b93c7af9b9944cc3ada4381f80aced"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CrimsonPro-Black-inf-ly1--base.tfm \

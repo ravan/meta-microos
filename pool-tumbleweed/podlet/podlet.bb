@@ -1,0 +1,159 @@
+SUMMARY = "Podman quadlet generator"
+DESCRIPTION = "Podlet generates podman quadlet files from a podman command, compose file, or \
+existing object."
+LICENSE = "MPL-2.0"
+
+PV = "0.3.2~0"
+
+RPM_NAME = "podlet-0.3.2~0-1.4.aarch64.rpm"
+RPM_HASH = "c6b09d86619755f44a8c92c22902ce59f12adc8820230d698a38cd4c53f9cb4aab418610e9b8579d0550aa4fb5f40b5d5424b203bb1ab08825d7903f5c026296"
+
+RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
+bundled-rust-crate-adler2 \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
+bundled-rust-crate-async-broadcast \
+bundled-rust-crate-async-channel \
+bundled-rust-crate-async-executor \
+bundled-rust-crate-async-io \
+bundled-rust-crate-async-lock \
+bundled-rust-crate-async-process \
+bundled-rust-crate-async-signal \
+bundled-rust-crate-async-task \
+bundled-rust-crate-async-trait \
+bundled-rust-crate-atomic-waker \
+bundled-rust-crate-autocfg \
+bundled-rust-crate-backtrace \
+bundled-rust-crate-base64 \
+bundled-rust-crate-bitflags \
+bundled-rust-crate-blocking \
+bundled-rust-crate-cfg-if \
+bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
+bundled-rust-crate-clap-derive \
+bundled-rust-crate-clap-lex \
+bundled-rust-crate-color-eyre \
+bundled-rust-crate-color-spantrace \
+bundled-rust-crate-colorchoice \
+bundled-rust-crate-compose-spec \
+bundled-rust-crate-compose-spec-macros \
+bundled-rust-crate-concurrent-queue \
+bundled-rust-crate-crossbeam-utils \
+bundled-rust-crate-displaydoc \
+bundled-rust-crate-endi \
+bundled-rust-crate-enumflags2 \
+bundled-rust-crate-enumflags2-derive \
+bundled-rust-crate-equivalent \
+bundled-rust-crate-errno \
+bundled-rust-crate-event-listener \
+bundled-rust-crate-event-listener-strategy \
+bundled-rust-crate-eyre \
+bundled-rust-crate-fastrand \
+bundled-rust-crate-form-urlencoded \
+bundled-rust-crate-futures-core \
+bundled-rust-crate-futures-io \
+bundled-rust-crate-futures-lite \
+bundled-rust-crate-gimli \
+bundled-rust-crate-hashbrown \
+bundled-rust-crate-heck \
+bundled-rust-crate-hex \
+bundled-rust-crate-icu-collections \
+bundled-rust-crate-icu-locale-core \
+bundled-rust-crate-icu-normalizer \
+bundled-rust-crate-icu-normalizer-data \
+bundled-rust-crate-icu-properties \
+bundled-rust-crate-icu-properties-data \
+bundled-rust-crate-icu-provider \
+bundled-rust-crate-idna \
+bundled-rust-crate-idna-adapter \
+bundled-rust-crate-indenter \
+bundled-rust-crate-indexmap \
+bundled-rust-crate-ipnet \
+bundled-rust-crate-is-terminal-polyfill \
+bundled-rust-crate-itoa \
+bundled-rust-crate-jiff \
+bundled-rust-crate-k8s-openapi \
+bundled-rust-crate-lazy-static \
+bundled-rust-crate-libc \
+bundled-rust-crate-linux-raw-sys \
+bundled-rust-crate-litemap \
+bundled-rust-crate-memchr \
+bundled-rust-crate-miniz-oxide \
+bundled-rust-crate-object \
+bundled-rust-crate-once-cell \
+bundled-rust-crate-ordered-stream \
+bundled-rust-crate-owo-colors \
+bundled-rust-crate-parking \
+bundled-rust-crate-path-clean \
+bundled-rust-crate-percent-encoding \
+bundled-rust-crate-pin-project-lite \
+bundled-rust-crate-piper \
+bundled-rust-crate-podlet \
+bundled-rust-crate-polling \
+bundled-rust-crate-potential-utf \
+bundled-rust-crate-proc-macro-crate \
+bundled-rust-crate-proc-macro2 \
+bundled-rust-crate-quote \
+bundled-rust-crate-rustc-demangle \
+bundled-rust-crate-rustix \
+bundled-rust-crate-ryu \
+bundled-rust-crate-serde \
+bundled-rust-crate-serde-core \
+bundled-rust-crate-serde-derive \
+bundled-rust-crate-serde-json \
+bundled-rust-crate-serde-repr \
+bundled-rust-crate-serde-yaml \
+bundled-rust-crate-sharded-slab \
+bundled-rust-crate-shlex \
+bundled-rust-crate-signal-hook-registry \
+bundled-rust-crate-slab \
+bundled-rust-crate-smallvec \
+bundled-rust-crate-smart-default \
+bundled-rust-crate-stable-deref-trait \
+bundled-rust-crate-strsim \
+bundled-rust-crate-syn \
+bundled-rust-crate-synstructure \
+bundled-rust-crate-terminal-size \
+bundled-rust-crate-thiserror \
+bundled-rust-crate-thiserror-impl \
+bundled-rust-crate-thread-local \
+bundled-rust-crate-tinystr \
+bundled-rust-crate-toml-datetime \
+bundled-rust-crate-toml-edit \
+bundled-rust-crate-toml-parser \
+bundled-rust-crate-tracing \
+bundled-rust-crate-tracing-attributes \
+bundled-rust-crate-tracing-core \
+bundled-rust-crate-tracing-error \
+bundled-rust-crate-tracing-subscriber \
+bundled-rust-crate-umask \
+bundled-rust-crate-unicode-ident \
+bundled-rust-crate-unsafe-libyaml \
+bundled-rust-crate-url \
+bundled-rust-crate-utf8-iter \
+bundled-rust-crate-utf8parse \
+bundled-rust-crate-uuid \
+bundled-rust-crate-winnow \
+bundled-rust-crate-writeable \
+bundled-rust-crate-yoke \
+bundled-rust-crate-yoke-derive \
+bundled-rust-crate-zbus \
+bundled-rust-crate-zbus-macros \
+bundled-rust-crate-zbus-names \
+bundled-rust-crate-zerofrom \
+bundled-rust-crate-zerofrom-derive \
+bundled-rust-crate-zerotrie \
+bundled-rust-crate-zerovec \
+bundled-rust-crate-zerovec-derive \
+bundled-rust-crate-zmij \
+bundled-rust-crate-zvariant \
+bundled-rust-crate-zvariant-derive \
+bundled-rust-crate-zvariant-utils \
+podlet"
+
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1"
+
+inherit rpm

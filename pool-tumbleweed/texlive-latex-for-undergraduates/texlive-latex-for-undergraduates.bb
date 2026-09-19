@@ -5,10 +5,10 @@ Studio Code and an example package of user-defined LaTeX \
 commands."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.0.2svn64647"
+PV = "2026.226.1.0.3svn70199"
 
-RPM_NAME = "texlive-latex-for-undergraduates-2023.209.1.0.2svn64647-56.1.noarch.rpm"
-RPM_HASH = "ddacea2e6b33a5bc890542869056f9320e934e3081f77db21f04d0fc0555f70bfb02ee8896e57c84ee000ad40b9edb9be86febad4eaa4a18a3bd4fdbc02d147c"
+RPM_NAME = "texlive-latex-for-undergraduates-2026.226.1.0.3svn70199-63.2.noarch.rpm"
+RPM_HASH = "92148427a72a0173d587fa5500f834ae5c66cdf7973fcf56cc13843515f5bf378560bf6528aa7c65de44e9ea64623f0d4130c6f1973bb73e448b828632885a71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-for-undergraduates"

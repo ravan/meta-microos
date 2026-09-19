@@ -26,15 +26,15 @@ will no longer work on Perl 5.16 and later versions, and hence is not \
 recommended."
 LICENSE = "CC0-1.0"
 
-PV = "12.0"
+PV = "12.0.0"
 
-RPM_NAME = "perl-Unicode-EastAsianWidth-12.0-1.14.noarch.rpm"
-RPM_HASH = "c23b1d8ce54137846f3c5babe6b32ab9b003883f233b1daf2417072730a14530b0da72acf0dd34a3a6947a8432cbc075e34a79c240ad732f80130c7b1fc05dfc"
+RPM_NAME = "perl-Unicode-EastAsianWidth-12.0.0-1.9.noarch.rpm"
+RPM_HASH = "177d9552397407c37163d5a8bd6828ccba5df5eeaefe74f4f8fb88255e9493d464e1878f15851fc0863b36458a6685d1a9cefbd08d20ca5493f71a9586ffeb92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Unicode--EastAsianWidth \
 perl-Unicode-EastAsianWidth"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

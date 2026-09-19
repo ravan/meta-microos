@@ -3,10 +3,10 @@ DESCRIPTION = "HTML-XML-utils provides a number of utilities for manipulating an
 converting HTML and XML files in various ways."
 LICENSE = "W3C"
 
-PV = "8.6"
+PV = "8.7"
 
-RPM_NAME = "html-xml-utils-8.6-1.1.aarch64.rpm"
-RPM_HASH = "de74554cd686779224e71fb45438363c2e3388db0e844e54a5e9218a685aa927e2095867b72fc2f821e23c16ccf5b11e63c281c193527ad1d6cf6bde409ff9ee"
+RPM_NAME = "html-xml-utils-8.7-2.6.aarch64.rpm"
+RPM_HASH = "5c662cc3c3faa89980309d813f4a39c22648fd347fe82d69caf50208d22cd9142af699f684248cee57a9a08e6ab5e8c948d07b0775de73e863773766324737cb"
 
 RPROVIDES:${PN} += "html-xml-utils"
 

@@ -17,14 +17,14 @@ needs. \
 Gnumeric is part of the GNOME project."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.12.55"
+PV = "1.12.61"
 
-RPM_NAME = "gnumeric-1.12.55-1.5.aarch64.rpm"
-RPM_HASH = "48359a0ce9a3c61d7b508814700f789f19d719f55f63744d2146d76482cb54a9745bbf3ba721d6451df0328aa3948f6e292bd23d188082e47437a91b3ecdf6ec"
+RPM_NAME = "gnumeric-1.12.61-1.3.aarch64.rpm"
+RPM_HASH = "bc9d53f0b4468c48b33f97d8d79ae554571ac5bf6574b3da92b3f98aa3bf943011071846a9d76a4ef4fbd0249957d12c1b89aed025979c5e76660b9d9d1ddd4c"
 
 RPROVIDES:${PN} += "gnumeric \
 gnumeric2 \
-libspreadsheet-1.12.55.so"
+libspreadsheet-1.12.61.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/perl \
@@ -47,9 +47,9 @@ libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libperl.so \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

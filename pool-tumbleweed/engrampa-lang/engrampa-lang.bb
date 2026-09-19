@@ -2,10 +2,10 @@ SUMMARY = "Translations for package engrampa"
 DESCRIPTION = "Provides translations for the 'engrampa' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "engrampa-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "480274e9045ab07fcb3cdae52b027afde35353ed74834a694b4666ac2dcc41e0cea6b3163fda576e33a3e50693553a5c8f0409572138f984e0d35a66bbfb55fc"
+RPM_NAME = "engrampa-lang-1.28.1-3.6.noarch.rpm"
+RPM_HASH = "fe836a325b1ad5588c90526797a0de84c5bc45c2be5c5ca3ec6ae9348d9bcd49d6cad010c5a948b086057debad05a010a725f51c3e48975437cb14a479a1406e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "engrampa-lang \
@@ -32,7 +32,6 @@ locale-engrampa-el \
 locale-engrampa-en-AU \
 locale-engrampa-en-CA \
 locale-engrampa-en-GB \
-locale-engrampa-en-US \
 locale-engrampa-eo \
 locale-engrampa-es \
 locale-engrampa-es-AR \

@@ -4,10 +4,10 @@ its hosted virtual machines, allowing limited introspection of host \
 resource usage from within virtual machines."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1"
+PV = "1.2"
 
-RPM_NAME = "libmetrics-devel-1.1-5.7.aarch64.rpm"
-RPM_HASH = "208619577f2e250b2049a4c53ee9912a4298a446429f2a50fb021a648ce87131dbbb595ba1967fd1b8eb13cf8ebeec12fc3a048fe56fbbe620824ce8534e76fb"
+RPM_NAME = "libmetrics-devel-1.2-3.7.aarch64.rpm"
+RPM_HASH = "b214356ab5ff69801e231e8dba880e8739fc34035efa460c9fa02c97feaa9a8257586c5293b96b913db294cfd069b7aa8736ebfe7fc00563ab80e9628bc1a214"
 
 RPROVIDES:${PN} += "libmetrics-devel"
 

@@ -4,10 +4,10 @@ tools for the Inuktitut language. Five different input methods \
 are supported and with the necessary fonts are also provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn28668"
+PV = "2026.226.svn28668"
 
-RPM_NAME = "texlive-oinuit-2023.209.svn28668-55.1.noarch.rpm"
-RPM_HASH = "3157020f2673987a8a5e2dd7fb98e6dcf58045dfc8e777817ea61f81204f64d4210191cabc058d35ed5104be303abc03abbdfa72552e5c410161aab18214862b"
+RPM_NAME = "texlive-oinuit-2026.226.svn28668-61.2.noarch.rpm"
+RPM_HASH = "fc08e2807a9e13265d46838f9147f8bd5953032852db549208b4fec612256c4b12fa5c28b56012b3d397e8e2bf50e084226d46ca9bae149bb9106ffeb78af60f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Inuit.tfm \

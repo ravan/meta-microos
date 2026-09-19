@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a language description file that enables \
 support of Finnish with babel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3ssvn57643"
+PV = "2026.226.1.3ssvn77682"
 
-RPM_NAME = "texlive-babel-finnish-2023.209.1.3ssvn57643-54.1.noarch.rpm"
-RPM_HASH = "6fe360233b06a834598ab20ec92ef47f59debb26e83e234db0a9060dcc54790bf31da12e6935a39f4c5d99735e7028bd0f8d3948aee1ca2bbcafac4b33bec2d9"
+RPM_NAME = "texlive-babel-finnish-2026.226.1.3ssvn77682-60.2.noarch.rpm"
+RPM_HASH = "8a565e4b1c135fcba2238b7df5bc43ed15a1d6dc9d5785d9c9593eefe71235f569dce1df865ddc343ccafc9cb9a77ed35c3fa8286e77d74d755e804f48eac5ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-finnish.ldf \

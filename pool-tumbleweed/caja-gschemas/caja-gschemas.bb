@@ -7,10 +7,10 @@ desktop. It works on local and remote filesystems. \
 This package provides the GSettings schemas for Caja."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-gschemas-1.26.1-1.5.aarch64.rpm"
-RPM_HASH = "218c058b458fae8b1fdc09792561b10983097cbf44779330299cfa38492afe1105cd1215115bc95251cef87fd0c54ec3714fbad90ecd0f533fc4eeab98a64ecd"
+RPM_NAME = "caja-gschemas-1.28.0-1.14.aarch64.rpm"
+RPM_HASH = "ad14af93b5f8d31807cedffc798d3022df017d78c80ee9c3320f4e0577883183e49735cbfe2e699d957f1382912a6536377871676b55776a9e0bf3e727b38158"
 
 RPROVIDES:${PN} += "caja-gschemas \
 caja-gsettings-schemas"

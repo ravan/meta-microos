@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kmouth"
 DESCRIPTION = "Provides translations for the 'kmouth' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmouth-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "dfd9bc75b697904514d094a4e5c9a8a5477016cb526c3db2e6db5219e7dd96ff0fad1c6f7fe77d63203f73b927bae2fb11d4fac14c00fae77b8287e3e03d18c9"
+RPM_NAME = "kmouth-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "eef9f724756627b30b636dfe415f228ea9357c861813b51da9c6a36b2a225024b69613ccee3da473214a241715a45e4b94ee4416c24bfd1bd88a37c0e14e588d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmouth-lang \
 kmouth-lang-all \
 locale-kmouth-ar \
+locale-kmouth-ast \
 locale-kmouth-be \
 locale-kmouth-bg \
 locale-kmouth-br \

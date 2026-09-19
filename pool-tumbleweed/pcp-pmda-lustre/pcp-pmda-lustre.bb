@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the Lustre Filesystem."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-lustre-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "3a3f3cc24481537900a99f799813c8badb981a5f95d86edc82130ad19e160fe3a47d3dcea1a46f35d69c1e497139217204c542574eec6cbb0b0afaa416508670"
+RPM_NAME = "pcp-pmda-lustre-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "4e47093c0669089e1998045c4a23625cea327106a16d5f15973dd9ebfea942271f96389a6fb15499e2c3585601aa1451d1c7fad0d326589dcd09a63c2cefa29c"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pcp-pmda-lustre \
 pcp-pmda-lustre"

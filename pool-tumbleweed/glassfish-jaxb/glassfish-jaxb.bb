@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.3.1"
 
-RPM_NAME = "glassfish-jaxb-2.3.1-4.5.noarch.rpm"
-RPM_HASH = "f3f2ae503cb28a191f41b53ac94d4f68a2b5729e455d7de50c399e62d6eb2101e7471301f5a0d9340fad3f53472eb557cd74aacd956118e26f565cc81a0e6703"
+RPM_NAME = "glassfish-jaxb-2.3.1-12.4.noarch.rpm"
+RPM_HASH = "83a5fb0b19764241e2c4016b04bd8a45df483086fbba0e195979fa5110c2933305e1fa594f3518ca19ec1ec573b04e80f5106324bc5f55a5f56ebbef95b91619"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb"
@@ -26,6 +26,7 @@ glassfish-jaxb-txw-parent \
 glassfish-jaxb-txw2 \
 glassfish-jaxb-txwc2 \
 glassfish-jaxb-xjc \
-glassfish-jaxb-xsom"
+glassfish-jaxb-xsom \
+java-headless"
 
 inherit rpm

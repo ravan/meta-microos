@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-exa"
 DESCRIPTION = "This package includes the documentation for texlive-pst-exa"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.06svn45289"
+PV = "2026.226.0.0.06svn45289"
 
-RPM_NAME = "texlive-pst-exa-doc-2023.209.0.0.06svn45289-53.1.noarch.rpm"
-RPM_HASH = "17131a10b7cc40eb4ae71171ccea95887aa00d1e6f2ce9331e1196ae315fb0d00dee242323d919d2f70acd4b869f5edfed84235af42b416f0c097603b934939f"
+RPM_NAME = "texlive-pst-exa-doc-2026.226.0.0.06svn45289-59.2.noarch.rpm"
+RPM_HASH = "29551a09eaf6680706efad7eb98756816eb9a14ebcbdbe3d6598e1b154d0fb3931b79343138faae31410f940540deb98321d7f4a2bed8a787f13812f2f92812b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-exa-doc"

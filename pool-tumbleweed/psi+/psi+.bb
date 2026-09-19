@@ -7,36 +7,36 @@ the features necessary to chat, with no bloated extras that slow your \
 computer down."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "1.5.1615+0"
+PV = "1.5.2112+0"
 
-RPM_NAME = "psi+-1.5.1615+0-3.2.aarch64.rpm"
-RPM_HASH = "e1f44a3aaaa331f57f54b39468190ad9993cc2b1e86033fac94fe37a3a0bc21ef3ce36eb22daa5ddf9c6adf555de7b416a79824acd403c96eff189f128685c53"
+RPM_NAME = "psi+-1.5.2112+0-1.6.aarch64.rpm"
+RPM_HASH = "e82a899606cabfce961a5ff0333556e379a33ffef5575a0024548c8902d7e6e27b2a33d26761b5655e5e440debbd34e2cb87657eb27195f357ca3911e8b73a10"
 
 RPROVIDES:${PN} += "psi+"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Concurrent.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Network.so.5 \
-libQt5Sql.so.5 \
-libQt5Svg.so.5 \
-libQt5WebChannel.so.5 \
-libQt5WebEngineCore.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
-libQt5Xml.so.5 \
+libQt6Concurrent.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Network.so.6 \
+libQt6Sql.so.6 \
+libQt6Svg.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6WebChannel.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libX11.so.6 \
 libXss.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libhunspell-1.7.so.0 \
 libm.so.6 \
-libqca-qt5.so.2 \
-libqt5keychain.so.1 \
+libqca-qt6.so.2 \
+libqt6keychain.so.1 \
 libstdc++.so.6 \
 libusrsctp.so.2 \
 libz.so.1 \

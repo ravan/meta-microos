@@ -4,18 +4,19 @@ DESCRIPTION = "Package includes several command line utilities, including virt-i
 machine)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.1.0"
+PV = "5.1.0"
 
-RPM_NAME = "virt-install-4.1.0-10.1.noarch.rpm"
-RPM_HASH = "a2a23dabe750b072d1d5112eff91e466a04b460967bd0efbf6de1daae0c50c7e35af769d709b31db4a29694f6db768b471d4fdc0b1035ae33898fda6871c83ef"
+RPM_NAME = "virt-install-5.1.0-16.1.noarch.rpm"
+RPM_HASH = "8506293310506ce6c2afff5a7bef0edd63665c59c6003336064e4cc7ff7dcc321c083b131fcf6306e808a9ed3d59dfd83641ee081f8f56924ff5e777bcd0ee64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-virtinst \
 virt-clone \
-virt-install"
+virt-install \
+virt-xml"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-python3-requests \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
+libvirt-client \
 virt-manager-common"
 
 inherit rpm

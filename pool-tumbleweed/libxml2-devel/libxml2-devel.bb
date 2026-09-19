@@ -6,23 +6,19 @@ This subpackage contains header files for developing \
 applications that want to make use of libxml."
 LICENSE = "MIT"
 
-PV = "2.10.4"
+PV = "2.15.4"
 
-RPM_NAME = "libxml2-devel-2.10.4-3.1.aarch64.rpm"
-RPM_HASH = "a3864e34aaa8f2175ad675c6173706c9e8becb66896546e751aeae197739106e5f7d04c258ef331e0b8bd3eb061e45b9af2ceebc1859b39f19c9d560bebc16fe"
+RPM_NAME = "libxml2-devel-2.15.4-1.1.aarch64.rpm"
+RPM_HASH = "54b6520cdcdd7dfce03f5de166fcd12c464c6560b963aa97c9e64b09a8d8196891c32b601f3330132232238b963ebcb47b10295253e9757e45d127ff390e30c5"
 
 RPROVIDES:${PN} += "libxml2-devel \
 pkgconfig-libxml-2.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
-glibc-devel \
 libxml2 \
-libxml2-2 \
+libxml2-16 \
 libxml2-tools \
-pkgconfig-liblzma \
-pkgconfig-zlib \
-readline-devel \
-xz-devel"
+pkgconfig-zlib"
 
 inherit rpm

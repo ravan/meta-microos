@@ -9,10 +9,10 @@ DESCRIPTION = "The Xext library contains a handful of X11 extensions: \
 - X11 Double-Buffering, Multi-Buffering, and Stereo extension (Xmbuf)"
 LICENSE = "MIT"
 
-PV = "1.3.5"
+PV = "1.3.7"
 
-RPM_NAME = "libXext6-1.3.5-1.3.aarch64.rpm"
-RPM_HASH = "cde0ffa94fa2de472c5626dcae2111fdb575e08fdc5ca718a0e410322f21e2e1f5b3fb545af06f1108147c4aab2304423a996b1508bc7b289724b7b20d8d1857"
+RPM_NAME = "libXext6-1.3.7-1.4.aarch64.rpm"
+RPM_HASH = "2ac26d0c8ddf8ef952eddc58c02561ba0f1036f631a1b0b144341c224c3bfb54e7f259a37df7d85fd2082358a60ce900d6242306cf3cb7b21dada22934507c97"
 
 RPROVIDES:${PN} += "libXext.so.6 \
 libXext6 \

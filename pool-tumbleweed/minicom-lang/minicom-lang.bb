@@ -2,10 +2,10 @@ SUMMARY = "Translations for package minicom"
 DESCRIPTION = "Provides translations for the 'minicom' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.8"
+PV = "2.11.1"
 
-RPM_NAME = "minicom-lang-2.8-2.1.noarch.rpm"
-RPM_HASH = "f752ec3be15bd4ebd87497e0f3f3f5ba7a3de37d0565ed24fd4173712c86f8b48dbdca90845d32eb8991deb587f56df9ec70135e987c95a73b3fbfa7fbf963bc"
+RPM_NAME = "minicom-lang-2.11.1-2.3.noarch.rpm"
+RPM_HASH = "7194878fb3e7a7d98b6828f25e5136fb12eb55b3be21ff21069102e5afefcf591ca791ebe6934bc8790ceee883811a89ae1f5e0c44f1c102fbcc905bff3385af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-minicom-cs \
@@ -17,6 +17,8 @@ locale-minicom-fr \
 locale-minicom-hu \
 locale-minicom-id \
 locale-minicom-ja \
+locale-minicom-ka \
+locale-minicom-ko \
 locale-minicom-nb \
 locale-minicom-pl \
 locale-minicom-pt-BR \

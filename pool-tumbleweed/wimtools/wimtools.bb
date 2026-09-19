@@ -5,10 +5,10 @@ on Windows, but this package contains an implementation of ImageX called \
 'wimlib-imagex'."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "1.14.1"
+PV = "1.14.4"
 
-RPM_NAME = "wimtools-1.14.1-1.1.aarch64.rpm"
-RPM_HASH = "59c78dd4becfe29c0c2323aafbe8ee7d804de9822ce5c53f1a396377247ddfaf81185c096fdbe03e4230cd9574a614673e1e1f9be4e170c1f13a2bc5ab9e7b37"
+RPM_NAME = "wimtools-1.14.4-1.13.aarch64.rpm"
+RPM_HASH = "a1301d2973f15789c272e6dea29253c96edcd9354066fa487e21ae3876aae63ab3fa6f330b260314bd5649ad0af1e001001ccf6d82b1bdec885cf54f7022439f"
 
 RPROVIDES:${PN} += "wimtools"
 

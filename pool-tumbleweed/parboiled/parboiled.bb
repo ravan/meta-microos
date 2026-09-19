@@ -1,9 +1,9 @@
-SUMMARY = "Java/Scala library providing parsing of input text based on PEGs"
+SUMMARY = "Java library providing parsing of input text based on PEGs"
 DESCRIPTION = " \
  \
  \
  \
-parboiled is a mixed Java/Scala library providing parsing of \
+parboiled is a mixed Java library providing parsing of \
 arbitrary input text based on Parsing expression grammars (PEGs). \
 PEGs are an alternative to context free grammars (CFGs) for formally \
 specifying syntax, they make a replacement for regular expressions \
@@ -11,10 +11,10 @@ and generally have some advantages over the 'traditional' way of \
 building parser via CFGs."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.6"
+PV = "1.4.1"
 
-RPM_NAME = "parboiled-1.1.6-5.7.noarch.rpm"
-RPM_HASH = "18bb966ff7c6803c6b9f2ad3fa9c195d095944187e3fb5c39e115cf733c2f2994aed1657650cd23d763c7025a837218caa27c9f35a9f470e2d52b12ecae6de19"
+RPM_NAME = "parboiled-1.4.1-4.9.noarch.rpm"
+RPM_HASH = "6228c3088067a2d404437ca55409807889dc9a3bc135014176b1c186592a994bc9ece6a3bd5e072a78c07bb88ee52bd7ce413b7ffd661e08b0d3141b2b09f170"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.parboiled-parboiled-core \

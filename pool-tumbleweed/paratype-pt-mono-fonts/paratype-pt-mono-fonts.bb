@@ -15,8 +15,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.003OFL"
 
-RPM_NAME = "paratype-pt-mono-fonts-1.003OFL-3.17.noarch.rpm"
-RPM_HASH = "e126acc91e182151c405123a6756c25b2b49b878ae357df2b2dfe128199499a06ba48c9192facf3d1f57f121902749e69490d9b512c8c7c4d21b9c4f23fbc4ab"
+RPM_NAME = "paratype-pt-mono-fonts-1.003OFL-3.25.noarch.rpm"
+RPM_HASH = "cb2f54147c8aadd9334605c5a2271ad413eb70415ca4276877d196cb47593b1c58bbfb43f15ebfd1ea4baba15b70152af7b695ab8d0ae1cb44e6280744b07882"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-be;ru;uk \

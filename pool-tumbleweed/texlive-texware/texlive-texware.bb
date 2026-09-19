@@ -1,16 +1,17 @@
-SUMMARY = "Utility programs for use with TeX"
-DESCRIPTION = "Basic utitility programs, comprising: dvitype, which converts a \
-TeX output (DVI) file to a plain text file (see also the DVI \
-Text Language suite); pooltype, which converts a TeX-suite \
-program's 'pool' (string) file into human-readable form; and \
-tftopl and pltotf, which convert TeX Font Metric (TFM) file to \
-human readable Property List (PL) files and vice versa."
-LICENSE = "SUSE-Public-Domain"
+SUMMARY = "Basic utility programs for use with TeX"
+DESCRIPTION = "Basic utility programs from the original TeX project at \
+Stanford, comprising: dvitype, which converts a TeX output \
+(DVI) file to a plain text file (see also the DVI structure \
+topic); pooltype, which converts a TeX-suite program's 'pool' \
+(string) file into human-readable form; and tftopl and pltotf, \
+which convert between binary TeX font metric (TFM) files and \
+human readable property list (PL) files."
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "2023.209.svn66186"
+PV = "2026.227.svn77830"
 
-RPM_NAME = "texlive-texware-2023.209.svn66186-55.1.noarch.rpm"
-RPM_HASH = "5d2d9f4f4876144dcab34415d3706a1d85aebd894fa6980a896c4e248154f4753803c0210febc3bb05bb183d77b7f127e5d68ca00f954f932a8a3e564ecb1a74"
+RPM_NAME = "texlive-texware-2026.227.svn77830-62.2.noarch.rpm"
+RPM_HASH = "0fb258f37c6dfbb7a7dfbe5e18965fbb1bd025394f5c457f79d3ebbec9067fd43f668d20f2bab3bedd9a8f64ec557d59da89daff0cd9976ecd8fa9a160e94986"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvitype.1 \

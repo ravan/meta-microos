@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "kdb-postgresql-driver-3.2.0-7.17.aarch64.rpm"
-RPM_HASH = "bfabf4f2b31ba9eb0ae38c7a4d11ac2be24ad7a10075663155a09e1555b72e90aa344b5ca82500770d450fe4e911ef032d61b156dde5549d261984cf104cad4c"
+RPM_NAME = "kdb-postgresql-driver-3.2.0-10.7.aarch64.rpm"
+RPM_HASH = "f0204a985ea17f697ae2a40a3f4f8bacb1d8b168769db8d0b437a1a14a0b0a90b77f7c672dd897de1bbc070c84f5b04e96b218fd5e3ffd824aa9b4c54ea73edd"
 
 RPROVIDES:${PN} += "calligra-kexi-postgresql-driver \
 kdb-postgresql-driver"

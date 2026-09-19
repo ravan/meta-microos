@@ -2,13 +2,13 @@ SUMMARY = "Documentation for texlive-magicwatermark"
 DESCRIPTION = "This package includes the documentation for texlive-magicwatermark"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0.1svn63656"
+PV = "2026.226.1.2bsvn76924"
 
-RPM_NAME = "texlive-magicwatermark-doc-2023.208.1.0.1svn63656-53.1.noarch.rpm"
-RPM_HASH = "160f04a03e31718f848ff813aa17ffda4eab24ae589e415fdd63e0568681bcd6b6034762f673c66c79b5e578983ad489b08d50a1998b0fbfe65604fad93390c5"
+RPM_NAME = "texlive-magicwatermark-doc-2026.226.1.2bsvn76924-59.2.noarch.rpm"
+RPM_HASH = "9021cb6990334db2308c206c8a23e1b4573cc9b92021d18de4ea8beda76f39c3886d23f3dc7b54211fce1d5bc537bb26e5821e7f8e0945ed0e694ff0643f993f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-texlive-magicwatermark-doc-zh \
+RPROVIDES:${PN} += "locale-texlive-magicwatermark-doc-zh;en \
 texlive-magicwatermark-doc"
 
 RDEPENDS:${PN} += ""

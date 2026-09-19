@@ -10,10 +10,10 @@ the mathematical meaning; delimiters adapt their size to the \
 material enclosed, rendering \\left and \\right almost obsolete."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-nath-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "3208b7d994961ea1db32b19b1847baaab2249b6e009f10682f8533211686f18395e3a9a7795f124e7b136d0df83a4dce826c3f18ebbf207dd80165de3ccf09b6"
+RPM_NAME = "texlive-nath-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "6ed37de29bd2acee287be30aa235401f1f302d8696489e35ba9168044819d5d23a167e7505e9deeb862e80525ac88df34d12559f8b3f121d60bb609199a4a210"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nath.sty \

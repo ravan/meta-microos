@@ -3,10 +3,10 @@ DESCRIPTION = "This library is made to read and write UDF filesystems, which are
 used on DVDs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.0"
+PV = "2.2.0"
 
-RPM_NAME = "libudf0-2.1.0-7.1.aarch64.rpm"
-RPM_HASH = "a76ed3f5437177e30e8267e5cd40cfa8946a2177ea79c8ffebb71cc1d1b384aa1b1237b42b566e3521744005177b7fa0ddf72563b93f1cace86295490e851c95"
+RPM_NAME = "libudf0-2.2.0-1.7.aarch64.rpm"
+RPM_HASH = "15a03eec1cdfc3873b3b9b1c719fe530c3ddf6379a4cf82c4395c59b5e1e9b7d0b764ec8ca0df92a9ec1d81afe254048f8cbd315ea0e730a8ef57ea072559e46"
 
 RPROVIDES:${PN} += "libudf.so.0 \
 libudf0"

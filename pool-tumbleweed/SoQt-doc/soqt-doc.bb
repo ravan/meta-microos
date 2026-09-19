@@ -7,10 +7,10 @@ minimum of hassle for developers when working on multiplatform software, with \
 the resulting large gains in productivity."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.0"
+PV = "1.6.3"
 
-RPM_NAME = "SoQt-doc-1.6.0-2.9.noarch.rpm"
-RPM_HASH = "aa3a1af53b825d19788a4b491b25e947963b07275d63fc283bbbe1d829eb7d286e6c60a44c6905d64bcfc19a58101932678920292245feff96e3d4c16ee54048"
+RPM_NAME = "SoQt-doc-1.6.3-1.8.noarch.rpm"
+RPM_HASH = "8554e6c00c954734afbed8bf00144185e334e586e83e3e02cfa5f579ec96894ec696775a6a899cd3086ab10b816ca7e68cedc1a2893bb839cca2c2a506ef2801"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "SoQt-doc"

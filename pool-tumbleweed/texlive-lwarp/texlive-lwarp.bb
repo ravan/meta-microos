@@ -18,10 +18,10 @@ included for each of the major operating systems and TeX \
 distributions. A quick-start tutorial is provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.911svn66259"
+PV = "2026.226.0.0.921svn78111"
 
-RPM_NAME = "texlive-lwarp-2023.208.0.0.911svn66259-53.1.noarch.rpm"
-RPM_HASH = "9dd701ac288f7b97cc0a9c26c6aeab779ece39ea626988c266b94b9cef5a0c12d2430e2ba2735aeeb3c20c2dcd24e815ccdbe1c9c1cca45c19923942a5d47d04"
+RPM_NAME = "texlive-lwarp-2026.226.0.0.921svn78111-59.2.noarch.rpm"
+RPM_HASH = "863c1f99d4fcc3750e2f21400d04e5bffb9c2542a5cfef88452951e8f46098917a4540fa79df8459277519d16768fade378adb1813b6ab33e311c8ac55744f4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lwarp-2in1.sty \
@@ -52,6 +52,7 @@ tex-lwarp-amsthm.sty \
 tex-lwarp-anonchap.sty \
 tex-lwarp-anysize.sty \
 tex-lwarp-appendix.sty \
+tex-lwarp-apxproof.sty \
 tex-lwarp-ar.sty \
 tex-lwarp-arabicfront.sty \
 tex-lwarp-array.sty \
@@ -143,6 +144,7 @@ tex-lwarp-decimal.sty \
 tex-lwarp-decorule.sty \
 tex-lwarp-diagbox.sty \
 tex-lwarp-dingbat.sty \
+tex-lwarp-doipubmed.sty \
 tex-lwarp-dotlessi.sty \
 tex-lwarp-dprogress.sty \
 tex-lwarp-draftcopy.sty \
@@ -208,6 +210,8 @@ tex-lwarp-fnlineno.sty \
 tex-lwarp-fnpara.sty \
 tex-lwarp-fnpos.sty \
 tex-lwarp-fontawesome.sty \
+tex-lwarp-fontawesome5-generic-helper.sty \
+tex-lwarp-fontawesome5-utex-helper.sty \
 tex-lwarp-fontawesome5.sty \
 tex-lwarp-fontaxes.sty \
 tex-lwarp-fontenc.sty \
@@ -434,6 +438,7 @@ tex-lwarp-pxeveryshi.sty \
 tex-lwarp-pxfonts.sty \
 tex-lwarp-pxftnright.sty \
 tex-lwarp-pxjahyper.sty \
+tex-lwarp-pythontex.sty \
 tex-lwarp-quotchap.sty \
 tex-lwarp-quoting.sty \
 tex-lwarp-ragged2e.sty \
@@ -689,6 +694,7 @@ tex-soul.sty \
 tex-soulutf8.sty \
 tex-subfig.sty \
 tex-tabularx.sty \
+tex-tagpdf-base.sty \
 tex-tagpdf.sty \
 tex-textcase.sty \
 tex-titlesec.sty \
@@ -696,6 +702,7 @@ tex-tocloft.sty \
 tex-typearea.sty \
 tex-upquote.sty \
 tex-verbatim.sty \
+tex-verifycommand.sty \
 tex-xcolor.sty \
 tex-xifthen.sty \
 tex-xkeyval.sty \

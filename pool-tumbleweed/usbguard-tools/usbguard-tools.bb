@@ -3,10 +3,10 @@ DESCRIPTION = "The usbguard-tools package contains optional tools from the USBGu
 software framework."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.2"
+PV = "1.1.4"
 
-RPM_NAME = "usbguard-tools-1.1.2-3.2.aarch64.rpm"
-RPM_HASH = "5f198c1c2d30f41b9b889a3a8e3b4bce9ae57895195d12d17af01d4733b56694a8988e54de5e483f8dd9b6bf8048841f11e3659955586dd821d5613cc6154863"
+RPM_NAME = "usbguard-tools-1.1.4-3.9.aarch64.rpm"
+RPM_HASH = "275ecd72266f2075581e369b325ba26145e45f578e0472fe653c0187c06bec36f30165f9cee89693e9fd61135ea1ecc46cb5b376c2e209835953885fb245dcee"
 
 RPROVIDES:${PN} += "usbguard-tools"
 

@@ -2,10 +2,10 @@ SUMMARY = "Package providing R-stats"
 DESCRIPTION = "This package provides R-stats, one of R-core packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.1"
+PV = "4.6.1"
 
-RPM_NAME = "R-stats-4.3.1-46.1.aarch64.rpm"
-RPM_HASH = "43eccf7504003a5a7b5d21d2368053a7c1eaac0a57f10d5dc43d8998d7a43a5dcb03e223600b3e032da191fa5245fadfc8f118aa53dba97db70e427e79f3160a"
+RPM_NAME = "R-stats-4.6.1-58.3.aarch64.rpm"
+RPM_HASH = "def4088f8b18bd4cf62588ecbb314f605756535d782aef03d9e7560c86272d4faac6d3b06de44bd7370af3bd82def0a9c81e1156e482f461e0a1def359ff705d"
 
 RPROVIDES:${PN} += "R-stats"
 

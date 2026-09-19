@@ -2,27 +2,27 @@ SUMMARY = "Haskell clientsession library development files"
 DESCRIPTION = "This package provides the Haskell clientsession library development files."
 LICENSE = "MIT"
 
-PV = "0.9.2.0"
+PV = "0.9.3.0"
 
-RPM_NAME = "ghc-clientsession-devel-0.9.2.0-2.4.aarch64.rpm"
-RPM_HASH = "1ba52ab76ce4f315fcc8ff765269b15e26c58e0efe3302f0655114ef8a16b5b8fe619351973b96178387dc8a1c06c4ee47121a3a8db2f7e490ca8cabc66c8e66"
+RPM_NAME = "ghc-clientsession-devel-0.9.3.0-1.24.aarch64.rpm"
+RPM_HASH = "b2bbc5772d68a5a880aa6e4b03cfdfb393c0e0f0eeba0cf679f48a17b8ea680463968ec8b0e09460d0179d843c2f378740960d39ad5daef3ae1f77501f92f0c2"
 
 RPROVIDES:${PN} += "ghc-clientsession-devel \
-ghc-devel-clientsession-0.9.2.0-KWpEVRfIrcVFYLxAWzOYnt"
+ghc-devel-clientsession-0.9.3.0-JpU1pAihQU34992h3KLc2j"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-clientsession \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
-ghc-devel-crypto-api-0.13.3-2rX3thRbGDW3ZR7H62fg4Z \
-ghc-devel-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-entropy-0.4.1.10-J8gEYIp8YzV1E0Yqy7gqyc \
-ghc-devel-setenv-0.1.1.3-5X2tG8kGRXiEiTQvekWgx7 \
-ghc-devel-skein-1.0.9.4-HfR9tmKKFFp5G94XUHSnaw \
-ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-base64-bytestring-1.2.1.0-9fPiMCS8Y4g8itFjJTGk2y \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-cereal-0.5.8.3-9RjPyVhfWFC69r1oCUPmww \
+ghc-devel-crypto-api-0.13.3-BvysNl9crxvRkhKzviyjB \
+ghc-devel-crypton-1.1.4-CRp9zIWu5CJCaPWpwBhIPB \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-entropy-0.4.1.11-4UsuhibEvcjLW75DCXDx9X \
+ghc-devel-setenv-0.1.1.3-DGkCIo7XRqzD68Dz6COumh \
+ghc-devel-skein-1.0.9.4-1EnnjgQJNmMDn7VwfDrKcW \
+ghc-devel-tagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7"
 
 inherit rpm

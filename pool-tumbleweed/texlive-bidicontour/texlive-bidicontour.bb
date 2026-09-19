@@ -4,10 +4,10 @@ making it bidi-aware, and adding support of the xdvipdfmx (when \
 the outline option of the package is used)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn34631"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-bidicontour-2023.209.0.0.2svn34631-54.1.noarch.rpm"
-RPM_HASH = "2a43eb06edb162afaa644e1e6d6880942be8875feaf4793e4eae3b182887184c069c8f92ab9d58a7f9825fb9600fabcdbd5c3af635d6c47097866b458eb7be38"
+RPM_NAME = "texlive-bidicontour-2026.226.0.0.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "681ade45b6773f1907bb3ce9c1a48752bdf5041a87db4cd518d8394c0538f8b91e156a282477d6ec363bed9a1a164910bec38aa058031a776ab6efad772250d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bidicontour.sty \

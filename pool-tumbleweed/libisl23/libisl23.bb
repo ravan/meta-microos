@@ -5,10 +5,10 @@ ISL is a library for manipulating sets and relations of integer points \
 bounded by linear constraints."
 LICENSE = "MIT"
 
-PV = "0.26"
+PV = "0.27"
 
-RPM_NAME = "libisl23-0.26-1.3.aarch64.rpm"
-RPM_HASH = "0115fb38812610e9146aa7259cec7bd0e23fc3551f635b6c7d74385751f2cbd57982a449d23a1ab11a0017c1cd65b5e58f1abf7e8cf0fb091ec45636fa919f1a"
+RPM_NAME = "libisl23-0.27-1.8.aarch64.rpm"
+RPM_HASH = "85616dec483681066efe59f8241add5e86516393f27a6b628ac61407e166ba9c115f99325f8dbd98aa41d7d21b806c990cd6513d72fd2504ad00d02e4372f7d8"
 
 RPROVIDES:${PN} += "libisl.so.23 \
 libisl23"

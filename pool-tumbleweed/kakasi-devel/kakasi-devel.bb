@@ -1,11 +1,11 @@
 SUMMARY = "Header file and libraries of KAKASI"
 DESCRIPTION = "header file and libraries of KAKASI"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.3.6"
 
-RPM_NAME = "kakasi-devel-2.3.6-3.32.aarch64.rpm"
-RPM_HASH = "206ff27c36cbc29df95b2b8149665332450fe13f38729d2305bf4dea0942a3ec470b7ce9aab21ec006634372518428651b5cdac67364bf472738860ea6448944"
+RPM_NAME = "kakasi-devel-2.3.6-9.6.aarch64.rpm"
+RPM_HASH = "fa3bb1b43990541d44a3f5b108b05ab1564a742ec72a8c836ee87d84cd21bcddaa69142404e7aeceff8a15c9755fa74e4bf2451742f7c872d31ded46dc65ba4c"
 
 RPROVIDES:${PN} += "kakasi-devel \
 kakaside"

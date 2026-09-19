@@ -8,10 +8,10 @@ produced by custom-bib are designed from the start to be \
 compatible with natbib."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.8.31bsvn20668"
+PV = "2026.226.8.31bsvn77682"
 
-RPM_NAME = "texlive-natbib-2023.209.8.31bsvn20668-55.1.noarch.rpm"
-RPM_HASH = "c213c5e04c4dd86d8a05bdbfad9883a58b037b48f30cf4dbb52f8d8b44330a809e384ba379a201f0d4a638cc7e0ee30f7e669800ef9cac5a32f7ff99cb579193"
+RPM_NAME = "texlive-natbib-2026.226.8.31bsvn77682-61.2.noarch.rpm"
+RPM_HASH = "417af28c6aeabf807e885e97d3477bea0074ff93d7f3dfcce9e6fbb5198e631cead1e604c671712ee4a288c21d41ef83f5df191b44daeaf918f4e3e81949ff37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibentry.sty \

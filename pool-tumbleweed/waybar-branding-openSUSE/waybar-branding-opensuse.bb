@@ -2,16 +2,18 @@ SUMMARY = "openSUSE branding of waybar"
 DESCRIPTION = "This package provides the openSUSE look and feel for waybar."
 LICENSE = "MIT"
 
-PV = "0.15.2"
+PV = "0.17.0"
 
-RPM_NAME = "waybar-branding-openSUSE-0.15.2-1.1.noarch.rpm"
-RPM_HASH = "16e18acf6ed9f76af26c4fec6b7a8f07e43a3f07fbd8ba3366699fcd133743d2fd93d646544763a44dcfac27c44c99c4a93303baed1bbe8759b483d11b5827da"
+RPM_NAME = "waybar-branding-openSUSE-0.17.0-1.4.noarch.rpm"
+RPM_HASH = "7e5854eae60696be16ed40b3c1d77815c22c9159a0bd5993550ab1d54cfd6bf5ab1dd300cfd6dc492d2ee59b79b86e397c47a0450be09f5b58d1643ddf6c6637"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-waybar-branding-openSUSE \
 waybar-branding \
 waybar-branding-openSUSE"
 
-RDEPENDS:${PN} += "/usr/bin/bash"
+RDEPENDS:${PN} += "/usr/bin/bash \
+adobe-sourcesanspro-fonts \
+fontawesome-fonts"
 
 inherit rpm

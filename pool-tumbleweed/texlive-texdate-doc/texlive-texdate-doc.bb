@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-texdate"
 DESCRIPTION = "This package includes the documentation for texlive-texdate"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn49362"
+PV = "2026.227.2.0svn49362"
 
-RPM_NAME = "texlive-texdate-doc-2023.209.2.0svn49362-55.1.noarch.rpm"
-RPM_HASH = "ce071d4b3494fb23fd36858706c55bb715e2791b192fb3903889e4371e6ddfeaba22ce97a43dceb0269e8d990831c0a55ef28c835347add5b3ff54a325bca879"
+RPM_NAME = "texlive-texdate-doc-2026.227.2.0svn49362-62.2.noarch.rpm"
+RPM_HASH = "70dd46be57ac726f24f915b1a81345c19203a2203e88dc552871293f629437a0546cf238344d4ccd2d7c1b37a720192bdedeb2b34083a4dfa4b1d9ec194b194d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texdate-doc"

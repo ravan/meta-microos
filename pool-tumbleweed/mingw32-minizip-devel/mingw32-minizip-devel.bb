@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libraries and header files needed for \
 developing applications which use minizip."
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.2"
 
-RPM_NAME = "mingw32-minizip-devel-1.2.13-3.2.noarch.rpm"
-RPM_HASH = "59c5fd7a4f93b58872a05743c480ea77da957a185d7d8b338818852a6da559e5b230e5645eb283f3cdccbb325e8586d96e7bfc4cd495ae0ad29b02205e31d9cb"
+RPM_NAME = "mingw32-minizip-devel-1.3.2-1.6.noarch.rpm"
+RPM_HASH = "bd42cbb67d5f294da70df50ae0732ebb59a5332805a9a3b5c68f7bcdae617462bfb545b37c8f817e4a4c5addbdb9734d9d5e77867f0abfd48dd3a353e7966b47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-lib-minizip \

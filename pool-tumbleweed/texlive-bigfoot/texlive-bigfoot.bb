@@ -12,10 +12,10 @@ from that package's documentation. The bigfoot bundle also \
 provides the perpage and suffix packages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.1svn38248"
+PV = "2026.226.2.1svn77682"
 
-RPM_NAME = "texlive-bigfoot-2023.209.2.1svn38248-54.1.noarch.rpm"
-RPM_HASH = "26e02338f6f7e0b92f1712ff2877796f981e0bfd5f61d598ff1f471fa2726fa5494c6c269ab813b38020fa3236f93beb26d8c3b0ed776a6b15c7344b3c3438cd"
+RPM_NAME = "texlive-bigfoot-2026.226.2.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "bbcd75ea02bd268b7fe01202aea636e3d741ea067e8a4b4be95b91ce478ccde0fcd304bfaeef5602d09599b1bdf32f57620419f34def2a2189d5ace538ef4a91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bigfoot.sty \

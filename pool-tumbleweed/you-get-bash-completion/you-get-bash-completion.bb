@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for you-get"
 DESCRIPTION = "Bash command line completion support for you-get."
 LICENSE = "MIT"
 
-PV = "0.4.1650"
+PV = "0.4.1743"
 
-RPM_NAME = "you-get-bash-completion-0.4.1650-1.4.noarch.rpm"
-RPM_HASH = "9163bee54769a9b9e74f78f13e6d57c21883075a63a57bfc858d5ab6647696ff29f8d62c16f3853a9dcc47213a36541ff1251534d12d4bd649d15b6ad999d734"
+RPM_NAME = "you-get-bash-completion-0.4.1743-3.1.noarch.rpm"
+RPM_HASH = "81790695f798a822b666a7bcb69bc6034f1a93bdf999f25e54f5f82b7887127ab03d43284f23d908f776f6ec3c63b27a3be1f24e90629f51e33651adbc725697"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "you-get-bash-completion"

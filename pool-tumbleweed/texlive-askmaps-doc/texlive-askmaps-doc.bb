@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-askmaps"
 DESCRIPTION = "This package includes the documentation for texlive-askmaps"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn56730"
+PV = "2026.226.0.0.2svn56730"
 
-RPM_NAME = "texlive-askmaps-doc-2023.209.0.0.2svn56730-54.1.noarch.rpm"
-RPM_HASH = "b398cb934b2047ab03e98ff57d8c9e614cc782170856d462c7d5df36c3556def17b5d45d573ef6a3d7e1f654b4f72f8fa239ee7e7ad72d2a659ac70ad00e0149"
+RPM_NAME = "texlive-askmaps-doc-2026.226.0.0.2svn56730-60.2.noarch.rpm"
+RPM_HASH = "f9ad3c419f4eeaaa76b0fb8c22e89463f8a11ba2fa1b81c933d4dde930a116a45ad8e77717090a40e9d16f5af47c0acba2423639968a9ff2aeb60d4bd13feec9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-askmaps-doc"

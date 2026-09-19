@@ -2,13 +2,14 @@ SUMMARY = "Translations for package util-linux"
 DESCRIPTION = "Provides translations for the 'util-linux' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.39.1"
+PV = "2.42.2"
 
-RPM_NAME = "util-linux-lang-2.39.1-3.1.noarch.rpm"
-RPM_HASH = "e651a64704a42bdbe840883574d65a558a7c781a2d95cb7f0974544b9af40ee98010df908849634b035e998e38f584d70e19c67ff3345b55205b62ad5128e5ab"
+RPM_NAME = "util-linux-lang-2.42.2-2.1.noarch.rpm"
+RPM_HASH = "8143c834301b2314c0234c427ba0d2f886a3c722604a5c0042d83e445f15574914591b2fbc03409b802bd165edbdcb90fc07d21ff1479928f30136c0d8acb182"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-util-linux-ca \
+RPROVIDES:${PN} += "locale-util-linux-ar \
+locale-util-linux-ca \
 locale-util-linux-cs \
 locale-util-linux-da \
 locale-util-linux-de \
@@ -23,11 +24,13 @@ locale-util-linux-hu \
 locale-util-linux-id \
 locale-util-linux-it \
 locale-util-linux-ja \
+locale-util-linux-ka \
 locale-util-linux-ko \
 locale-util-linux-nl \
 locale-util-linux-pl \
 locale-util-linux-pt \
 locale-util-linux-pt-BR \
+locale-util-linux-ro \
 locale-util-linux-ru \
 locale-util-linux-sk \
 locale-util-linux-sl \

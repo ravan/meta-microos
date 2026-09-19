@@ -2,10 +2,10 @@ SUMMARY = "Tests for the package"
 DESCRIPTION = "Upstream testsuite for the package"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.34"
+PV = "1.35"
 
-RPM_NAME = "tar-tests-1.34-12.1.aarch64.rpm"
-RPM_HASH = "c6c10d2aba46f5edc02d5f9864a73e90985a52eefb6e0635b48264abb351a6351bad821984933c597a9014ad7cc2bd56677ca1634cdf285d5acb57400d0699e8"
+RPM_NAME = "tar-tests-1.35-10.1.aarch64.rpm"
+RPM_HASH = "6f87a580389d17b7887a05a71d864f11358f032ece0c8f4e34b79b8708459785c97e3d4200e30cf17340a72b255fad79dcd89a6fc443e8a5a3836dbcddde172d"
 
 RPROVIDES:${PN} += "tar-tests"
 

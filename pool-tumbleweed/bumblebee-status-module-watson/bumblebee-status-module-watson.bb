@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-watson-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "d311244b7c8f3457a62b41b77437e448069f1bc4cd4f646515241f2f6246f82099fae5054b55bc823ffdbfba2033011b3ca321253c647d4370de62923f5aa7ee"
+RPM_NAME = "bumblebee-status-module-watson-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "b4a5b65cb31b52631ba5cdb8f1c72aef4f49515f014f07e87515c97c66eecd0a1a5475424df4776f026b706c7e890c7400bd1716902b2b0c1a7237de0bb5a8ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-watson"

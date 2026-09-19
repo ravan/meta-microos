@@ -2,10 +2,10 @@ SUMMARY = "Spreadtrum based arm64 systems"
 DESCRIPTION = "Device Tree files for Spreadtrum based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "dtb-sprd-6.4.12-1.1.aarch64.rpm"
-RPM_HASH = "56a92586aeea55e98802338fdad7c93352ce2bd1fa03db7124db732c8ecfadc43e67e1e3f09e8051c1566cc49ffd7c48c33cd5c7cd1b7dfb889e714ceff65ed8"
+RPM_NAME = "dtb-sprd-7.2.5-1.1.aarch64.rpm"
+RPM_HASH = "49c929ad0dbe9c9c89edae5e125d920cd8157edd42648d465baf301e6534dce624672e83d8b718cf932ceb0dd3fbe2f3d5e6bdd7536c15111e6c82a69cbc0bad"
 
 RPROVIDES:${PN} += "dtb-sprd \
 multiversion-dtb"

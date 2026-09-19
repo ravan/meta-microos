@@ -5,10 +5,10 @@ centering and `right-hanging' alignment of lines broken because \
 of length."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.73svn29803"
+PV = "2026.226.0.0.73svn29803"
 
-RPM_NAME = "texlive-gmverse-2023.209.0.0.73svn29803-54.2.noarch.rpm"
-RPM_HASH = "af367902fc289d3983f6b6068d9dc0c6176780effb01011a443cc5456f1827aea4696c129d64c4b03eb46d5fee836aeefb2bb36b5944a529349f3a3fcdc1007f"
+RPM_NAME = "texlive-gmverse-2026.226.0.0.73svn29803-60.4.noarch.rpm"
+RPM_HASH = "d5175b8c80a5cdabff463e22d671b270c6a5ff3aa2bae63a92cf18b94023e0ccae138a4b9858f482e4f8fc2b6044a9e7e7b0392098499e3313f29383c13b8299"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gmverse.sty \

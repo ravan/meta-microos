@@ -8,10 +8,10 @@ for side by side movie clips to be played back synchronously. \
 The package is now superseded by media9"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn26473"
+PV = "2026.226.svn26473"
 
-RPM_NAME = "texlive-movie15-2023.209.svn26473-55.1.noarch.rpm"
-RPM_HASH = "bbf984b7768fa2cdddcf3ff157cfb7779b3de80aacdfe816d0d183c65b65fe7ca944532220a5cc7ba6abd89dcaf6af3c4998e80e40f8fbd1736ee7cc793f4093"
+RPM_NAME = "texlive-movie15-2026.226.svn26473-61.2.noarch.rpm"
+RPM_HASH = "62b26493c03a15d01f7ee65365d2c70415466eeca9684c403b339ca162158526f256983b7c3278b474332e3a5b39d77344ea7d3faafe687c0544a68e28fc8b80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-movie15.sty \

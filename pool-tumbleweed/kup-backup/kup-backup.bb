@@ -8,48 +8,53 @@ latest changes, but of course it will only do so if you have been active on your
 computer for some number of hours since the last time you took a backup (and it can \
 of course ask you first, before copying anything). In general Kup tries to not \
 disturb you needlessly."
-LICENSE = "GPL-2.0-only & GPL-3.0-only"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "0.9.1"
+PV = "0.10.0"
 
-RPM_NAME = "kup-backup-0.9.1-2.7.aarch64.rpm"
-RPM_HASH = "c648b6c8f62cead8ca70f7880d6cc461aa8dfd305183236b2ac02b18d3fbeff81728d072fbb173e9523e4362fd0847923e1600179647e24dd0677187a61bf257"
+RPM_NAME = "kup-backup-0.10.0-2.5.aarch64.rpm"
+RPM_HASH = "c8c1d55c5c5d1a0bfbb005376e31801dfc199d473463c7974c393e89743d6ccd7568dfe19acf6176e30ff0f5788889bd8a41da3a55595ddd91007fc41c3eacd2"
 
-RPROVIDES:${PN} += "kup-backup \
-libkdeinit5-kup-daemon.so"
+RPROVIDES:${PN} += "kup-backup"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IdleTime.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5Plasma.so.5 \
-libKF5Solid.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IdleTime.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KCMUtilsCore.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Notifications.so.6 \
+libKF6Solid.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libPlasma5Support.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgit2.so.1.7 \
+libgit2.so.1.9 \
 libstdc++.so.6 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Layouts.1 \
-qt5qmlimport-org.kde.kquickcontrolsaddons.2 \
-qt5qmlimport-org.kde.plasma.components.3 \
-qt5qmlimport-org.kde.plasma.core.2 \
-qt5qmlimport-org.kde.plasma.extras.2 \
-qt5qmlimport-org.kde.plasma.plasmoid.2"
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.Layouts \
+qt6qmlimport-org.kde.kcmutils \
+qt6qmlimport-org.kde.kirigami \
+qt6qmlimport-org.kde.plasma.components \
+qt6qmlimport-org.kde.plasma.core \
+qt6qmlimport-org.kde.plasma.extras \
+qt6qmlimport-org.kde.plasma.plasma5support \
+qt6qmlimport-org.kde.plasma.plasmoid \
+systemsettings6"
 
 inherit rpm

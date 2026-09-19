@@ -17,8 +17,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.1.0"
 
-RPM_NAME = "coolkey-devel-1.1.0-152.6.aarch64.rpm"
-RPM_HASH = "28abefc582f3c91aa9dc9a2b43d4a315aebb2288b9cd37e3d3b5483fc1fb054e6a6d77d086e5b6d60137ea1ce2b9e08be39c574642379e3dea3af9b6047f3e39"
+RPM_NAME = "coolkey-devel-1.1.0-154.8.aarch64.rpm"
+RPM_HASH = "2c199ed3e72f5faec63ac310bb8e26b23ec47c3d531b542cb6e0661316efba608ce2990b946a55520fffea5f557754465cd8d0411dd7131151c7d5e900dab9ff"
 
 RPROVIDES:${PN} += "coolkey-devel \
 pkgconfig-libckyapplet"

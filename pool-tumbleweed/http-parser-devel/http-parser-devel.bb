@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "2.9.4"
 
-RPM_NAME = "http-parser-devel-2.9.4-1.12.aarch64.rpm"
-RPM_HASH = "62c7a0ce3dee6b8f5fe887acb916ee3eb406952317fae24e0b38ff18f2f0886a5bda53f13609240d16d03cf9397b102c58ce70d663bbbd07ea2309851d03c979"
+RPM_NAME = "http-parser-devel-2.9.4-1.21.aarch64.rpm"
+RPM_HASH = "bd748f85185e9e5b6c3e1964b1718d558737114c5624dd8415b5d7acd13be3999a33d4dfe8bb509d7077e14ec443d9aeca2f5abafc94b0859e60ffc3ce02f771"
 
 RPROVIDES:${PN} += "http-parser-devel"
 

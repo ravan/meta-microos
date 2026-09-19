@@ -5,10 +5,10 @@ inheritance, and a comprehensive set of widget classes that can be \
 freely combined to quickly create complex user interfaces."
 LICENSE = "GFDL-1.2-only & GPL-2.0-or-later"
 
-PV = "4.10.0"
+PV = "4.14.0"
 
-RPM_NAME = "gtkmm4-tutorial-4.10.0-1.1.noarch.rpm"
-RPM_HASH = "9c0b47cd88f0926b27f3483508363798d22a649c7f1c3f8faaf784e39c391afb1c4d50271410c02385807584645e6f70b06a00e33d50ca87d69727e0553b89c4"
+RPM_NAME = "gtkmm4-tutorial-4.14.0-1.1.noarch.rpm"
+RPM_HASH = "88dc36a1d99d494bc1b186a70db4b8e0f76581bc9576f0052c0c472afdf206fb0477b789d4561eb45865d6597a413252fbf1831e801b3b28bacea43ed4816df4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkmm-documentation \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-network"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-network"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn51884"
+PV = "2026.226.1.1svn51884"
 
-RPM_NAME = "texlive-tikz-network-doc-2023.209.1.1svn51884-53.1.noarch.rpm"
-RPM_HASH = "239d93a79c2631c27bd6b06d2aab04ad78a2b1d724c922e7cbc2acc8f2a722677449722beb2377b06c40e8a733d53c5b35bd5c456c13d414a5185a4f920de992"
+RPM_NAME = "texlive-tikz-network-doc-2026.226.1.1svn51884-59.2.noarch.rpm"
+RPM_HASH = "5c018ec54e5d02388786a9af69b3dff3f0982b1a82c7e92b8208a75153f7403dd6c2cbc63203858d8554e66eaed2e49b15018039ce3a5fd47c72f026f4b58248"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-network-doc"

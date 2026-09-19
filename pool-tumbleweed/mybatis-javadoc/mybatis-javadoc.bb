@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for mybatis"
 DESCRIPTION = "This package contains javadoc for mybatis."
 LICENSE = "Apache-2.0"
 
-PV = "3.5.6"
+PV = "3.5.19"
 
-RPM_NAME = "mybatis-javadoc-3.5.6-8.1.noarch.rpm"
-RPM_HASH = "bc32dc4373d5a8ea4c90fb360226b8f7f99dcd365b184eacb106346d59fc18a46561ce2b1e9d9f4c6e428063cc5a0bc5f4d3a608a1f8a681e705d6ac9b711817"
+RPM_NAME = "mybatis-javadoc-3.5.19-2.5.noarch.rpm"
+RPM_HASH = "458793167dd961487d48cd980422f267a7b161f1df3c4760aa6884bd1c33b12b6f64984ca5ddef58a52056a7079eb76fca4d30415ddb66a02235eb9de92bf272"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mybatis-javadoc"

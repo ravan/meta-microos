@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.0+59"
 
-RPM_NAME = "libmbus-devel-0.9.0+59-1.4.aarch64.rpm"
-RPM_HASH = "bd978421214921239ca8e78c22eaef34efaf94b24b23d9dbabd1d63bd1b6f575feb777f610e92643d1302222e01410e92c0c571ff0c676a89e8514c7a590e50e"
+RPM_NAME = "libmbus-devel-0.9.0+59-1.15.aarch64.rpm"
+RPM_HASH = "1366ad39d1e8d369b52871d03f6132668a12015baa58f2a7ea63e12bdfdfde076e4c054da7366edce7a6fc781d235b37cc9357a57627cfd239a78c87ef1cdabe"
 
 RPROVIDES:${PN} += "libmbus-devel \
 pkgconfig-libmbus"

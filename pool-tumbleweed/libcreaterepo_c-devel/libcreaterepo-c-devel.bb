@@ -3,17 +3,17 @@ DESCRIPTION = "This package contains the createrepo_c C library and header files
 These development files are for easy manipulation with a repodata."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.20.1"
+PV = "1.2.3"
 
-RPM_NAME = "libcreaterepo_c-devel-0.20.1-3.2.aarch64.rpm"
-RPM_HASH = "5c57193424847caac09e28ca354fa53b1dcd7190a387702b9cb064f735872278e0bac9a138464ca8ff00000cb5e98c7f7f87394a2a3adb355528f179869b1f33"
+RPM_NAME = "libcreaterepo_c-devel-1.2.3-1.4.aarch64.rpm"
+RPM_HASH = "fbe1d72b5e7d5d9b6d01d010e6a558b59e43852a979b83f623527858b9ae20b897c27ae8f51488e3addaec29b46cdb94c5ee6339360dc154c6cf9cb93c241996"
 
 RPROVIDES:${PN} += "createrepo-c-devel \
 libcreaterepo-c-devel \
 pkgconfig-createrepo-c"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libcreaterepo-c0 \
+libcreaterepo-c1 \
 pkgconfig \
 pkgconfig-glib-2.0 \
 pkgconfig-libcurl \

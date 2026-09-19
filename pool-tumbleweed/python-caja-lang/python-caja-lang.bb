@@ -2,10 +2,10 @@ SUMMARY = "Translations for package python-caja"
 DESCRIPTION = "Provides translations for the 'python-caja' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "python-caja-lang-1.26.0-1.11.noarch.rpm"
-RPM_HASH = "e1316ca5a318248a2b53007ee3fae3dfb11951536bbfe3489ddc1606325743da83410a7589fa2ae2f59f446de986dea0c6ea17cbd716655c83a3f494547f6698"
+RPM_NAME = "python-caja-lang-1.28.0-1.9.noarch.rpm"
+RPM_HASH = "65aef6cd19de5c8e6010502e72d4682a4638a961dd94b6625d26809a3b7abfdf8cc7f46d3d87e49b465fbd2bc5fe5807e5a5c08cbc39df846a1d873fc6350183"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-python-caja-ar \

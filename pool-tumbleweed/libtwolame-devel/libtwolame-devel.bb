@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.4.0"
 
-RPM_NAME = "libtwolame-devel-0.4.0-1.15.aarch64.rpm"
-RPM_HASH = "b9fb0f36cb05cec2592c1d360b0390a32208ccb3479e6ba86e373b0686ea923c1d6f581364fbb4ea5b0973e7b2286593966df43b65bca6da76bd05f827752460"
+RPM_NAME = "libtwolame-devel-0.4.0-1.25.aarch64.rpm"
+RPM_HASH = "99f5dca44a71fcd0fa1085903e095e8534519844d2f408e101fb3f03f85e116dda342c04e66505f1416c495ceb3b041cbee5ba54a30915147c1a7cfa792683f4"
 
 RPROVIDES:${PN} += "libtwolame-devel \
 pkgconfig-twolame \

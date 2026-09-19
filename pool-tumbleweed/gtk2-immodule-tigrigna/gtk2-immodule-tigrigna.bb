@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.24.33"
 
-RPM_NAME = "gtk2-immodule-tigrigna-2.24.33-4.4.aarch64.rpm"
-RPM_HASH = "67f4297740635a339629396473a95e185dd765d7d6b036ea1936dce57116dfd8f4d193ba53abab0d6cd8e230c80a2e37f5ac2f945faf1c704084b77c00b6c1a1"
+RPM_NAME = "gtk2-immodule-tigrigna-2.24.33-18.7.aarch64.rpm"
+RPM_HASH = "961b147bb77c29ca3534f3590e5fa4cf62c8c4fdb87b07ff6c6a103a4629236665251f204f981307284fa1d50d27893fa3f31d2bc289551a45215ca8c8e77c8f"
 
 RPROVIDES:${PN} += "gtk2-immodule-tigrigna \
 gtk2-immodules-tigrigna \

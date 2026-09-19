@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "libkgantt-lang-2.8.0-1.15.noarch.rpm"
-RPM_HASH = "1aed0c9ac80472257f800ee6e25e798d7654b79256a3c7dedfa854f613fe77f05f4c38da56e76e605bee1fde44c60dcdd69264e07cec6f6ea13c75cabac4f280"
+RPM_NAME = "libkgantt-lang-2.8.0-2.5.noarch.rpm"
+RPM_HASH = "2e74d8af5c24f00dd61bb542113c0c061b365c48e346dc7f630579b8e0ad473749e0e3e689c57195c9a488d77c0c122136812ff517f555cb695ed91bf4baea3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkgantt-lang \

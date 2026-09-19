@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides miscellaneous documentation for the X Windo
 System that doesn't better fit into other packages."
 LICENSE = "MIT"
 
-PV = "1.7.2"
+PV = "1.7.3"
 
-RPM_NAME = "xorg-docs-1.7.2-1.6.noarch.rpm"
-RPM_HASH = "da918ddf2c97393e1a1a58fe95416c77e7182bdc948f2256d41eeac8dc766e98fede23b2ae72a88c3744c9493107c59b9d1737a09a2d7d89606697cf2becdfdc"
+RPM_NAME = "xorg-docs-1.7.3-1.7.noarch.rpm"
+RPM_HASH = "c626e0ff15312b56eaf489b18d25dbd0c9cb09a9b12174c39321c901bf3192bd850aa1cc6d5e4c787e7377fcf676e12cbc68e580a40488e99f44b19c72df0c8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-docs \

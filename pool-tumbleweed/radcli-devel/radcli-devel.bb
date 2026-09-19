@@ -3,16 +3,16 @@ DESCRIPTION = "This package contains libraries and header files for developing a
 that use libradcli."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "1.3.1"
+PV = "1.5.3"
 
-RPM_NAME = "radcli-devel-1.3.1-1.3.aarch64.rpm"
-RPM_HASH = "18b6f22e74447079b5c9e646705f849cad0e0a199baea54f1e5dd8a72a9b0c6fd48635dfd4693e2abcbf863498c78073f9985201b5619bdf4c772a5ad2b752ce"
+RPM_NAME = "radcli-devel-1.5.3-1.1.aarch64.rpm"
+RPM_HASH = "1425177cc4fc79049c0cf5d900f3fca8516384d862578a88c0e621e4c245cf883a68df77587f1117b6ade3c5c5a6beacdbbd4516e0b190fd6eb696e73fc0eece"
 
 RPROVIDES:${PN} += "pkgconfig-radcli \
 radcli-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libradcli5 \
+libradcli10 \
 pkgconfig-gnutls \
 pkgconfig-nettle"
 

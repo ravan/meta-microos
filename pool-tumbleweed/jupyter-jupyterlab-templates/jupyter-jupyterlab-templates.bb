@@ -2,10 +2,10 @@ SUMMARY = "Templates for notebooks in JupyterLab"
 DESCRIPTION = "Support for jupyter notebook templates in jupyterlab."
 LICENSE = "Apache-2.0"
 
-PV = "0.5.0"
+PV = "0.5.3"
 
-RPM_NAME = "jupyter-jupyterlab-templates-0.5.0-2.1.noarch.rpm"
-RPM_HASH = "30d72aa68940c23daefd3e7ba7ae74765f4bdf2c2cfee4a1b689be19838983ffe0e480a679dbc2545de5bd7ef98baa3e1e70642f8ad6a1872b2d848666b998b5"
+RPM_NAME = "jupyter-jupyterlab-templates-0.5.3-2.2.noarch.rpm"
+RPM_HASH = "5700883d26142b0bd8a2ecdef4e5a87ca6273d624f7064419979629f639a833c8a100f16ab8c942042ae955bbfc4c677789155e4567e528acb4e9899f8a526da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-templates"

@@ -9,10 +9,10 @@ lthooks-doc.pdf for instructions how to use lthooks instead of \
 everysel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn57489"
+PV = "2026.226.2.1svn57489"
 
-RPM_NAME = "texlive-everysel-2023.209.2.1svn57489-53.1.noarch.rpm"
-RPM_HASH = "862603f95fd82003133ca6e5faf62de9f1f4d9da296090605550429a76e6c4f17a1b5249952b9ca9cf0d6116b10ea25ae51bf1da4015623ae7d7f944bde58ae4"
+RPM_NAME = "texlive-everysel-2026.226.2.1svn57489-59.2.noarch.rpm"
+RPM_HASH = "f78e089450894dc629a3112a426a95eba558fcd903d4f067232ad6bcf3d6af1e3780c9539cbbc881fca05fb70e56eaf4c25a67926cd32a7688a1023d53300c34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-everysel-2011-10-28.sty \

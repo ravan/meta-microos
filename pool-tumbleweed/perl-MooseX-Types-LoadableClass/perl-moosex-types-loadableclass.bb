@@ -8,18 +8,18 @@ I've written those three lines of code quite a lot of times, in quite a lot \
 of places. \
  \
 Now I don't have to."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.015"
+PV = "0.16.0"
 
-RPM_NAME = "perl-MooseX-Types-LoadableClass-0.015-1.22.noarch.rpm"
-RPM_HASH = "b2761d7415cd5bcc9f8193903da896e18e24a6d72312a2b03a01b5fabda6e53a12694e3383944e241517ee89059fe9ab99dfff42d1927c18deb743c4e2620676"
+RPM_NAME = "perl-MooseX-Types-LoadableClass-0.16.0-1.7.noarch.rpm"
+RPM_HASH = "5a6bae2b295e5d21943d7009f66f7b6140c45d1a31946eeac5b9433c874ba9dfdfeb823dea381862c98b415f1def17683d0177841c937f7bb2fc32c5735ee230"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Types--LoadableClass \
 perl-MooseX-Types-LoadableClass"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Module--Runtime \
 perl-MooseX--Types \
 perl-MooseX--Types--Moose \

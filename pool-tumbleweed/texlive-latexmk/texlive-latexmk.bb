@@ -10,10 +10,10 @@ changed. Thus a previewer can offer a display of the document's \
 latest state."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.4.79svn65485"
+PV = "2026.226.4.87svn75540"
 
-RPM_NAME = "texlive-latexmk-2023.209.4.79svn65485-55.1.noarch.rpm"
-RPM_HASH = "bdc25ba2bdd9f2911034ef7551f2e11a064d630fd1cebc4fc12c0c683cf60fe26ae1f1dc8d4022e39beee84bdd174e59808ba7b4039d2ea9701a10baf95beeab"
+RPM_NAME = "texlive-latexmk-2026.226.4.87svn75540-61.2.noarch.rpm"
+RPM_HASH = "787d20af95b14774326497cc1966965ca10d7bd418c9971cd6cb19276c8e37cf708346669c43dd07d2a4e06e248b6573b9754a6734f153fc78dac236f0c6ee3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-latexmk \
@@ -41,8 +41,8 @@ perl-Time--HiRes \
 perl-Unicode--Normalize \
 perl-feature \
 perl-sigtrap \
+perl-strict \
 perl-utf8 \
-perl-vars \
 perl-warnings \
 sed \
 texlive \

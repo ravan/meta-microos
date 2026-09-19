@@ -4,10 +4,10 @@ utilities. mate-disk-image-mounter shows up in Caja for .ISO files \
 to be conviniently mounted."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-disk-image-mounter-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "4e29d02ca33c799feabbcd15ddfc2759b2bfb2f1740c48e941cbeb2d261b5fb5dcc715cc55a00cd5653b435fdc717ec88cc6cd99052e62b4d33d7f1bb5d5d4ce"
+RPM_NAME = "mate-disk-image-mounter-1.28.0-2.6.aarch64.rpm"
+RPM_HASH = "b93b5f630342bf7ea72a3ac0c4695fa0a208fdd51cc1a3635da4dfa33e175a6c3f4cfd9837ff58d794d09c6fe63dd80f63fc1e650a7cfda7a79b6129a7bb6a11"
 
 RPROVIDES:${PN} += "mate-disk-image-mounter"
 

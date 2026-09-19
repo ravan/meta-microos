@@ -2,10 +2,10 @@ SUMMARY = "E2fsprogs error reporting library"
 DESCRIPTION = "com_err is an error message display library."
 LICENSE = "MIT"
 
-PV = "1.47.0"
+PV = "1.47.3"
 
-RPM_NAME = "libcom_err2-1.47.0-1.1.aarch64.rpm"
-RPM_HASH = "25475f78aa021c6cc29261e4af839b5aadab370cbe1b07be88b5aeeba2013f20f878c926f40ba5eb13f93fd06c3ec739abf6ec796f2400ed556d3c1a3c399da6"
+RPM_NAME = "libcom_err2-1.47.3-2.2.aarch64.rpm"
+RPM_HASH = "f1ab3214634eebef7a3ecf867044f624b7a09f2847d09e0205d9ce7b979079d0218c516128578f6968efe2e0730f060a8e93977fd146e5b21cf573fddfea2286"
 
 RPROVIDES:${PN} += "libcom-err \
 libcom-err.so.2 \

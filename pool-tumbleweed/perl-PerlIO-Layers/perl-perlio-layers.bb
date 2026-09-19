@@ -7,13 +7,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.012"
 
-RPM_NAME = "perl-PerlIO-Layers-0.012-1.19.aarch64.rpm"
-RPM_HASH = "f3a7173531e34d2e93a583813591045445e8cfa82a76ac8719cd0e68617a59f04bb916fe816f6af21085547c4a983f5a4f6b0bd09aedb82cf17df7cddf4cbdd5"
+RPM_NAME = "perl-PerlIO-Layers-0.012-1.36.aarch64.rpm"
+RPM_HASH = "2745469723824569c819288d9e948d289cd354ee885a7711a53b6d17a887342cf3853737e4795008096f7a792ce8a1116ab6f6d5662993ee928ae7f4210855d8"
 
 RPROVIDES:${PN} += "perl-PerlIO--Layers \
 perl-PerlIO-Layers"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

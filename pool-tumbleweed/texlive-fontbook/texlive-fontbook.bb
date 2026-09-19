@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a means of producing a 'book' of font \
 samples (for evaluation, etc.)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn23608"
+PV = "2026.226.0.0.2svn23608"
 
-RPM_NAME = "texlive-fontbook-2023.209.0.0.2svn23608-53.1.noarch.rpm"
-RPM_HASH = "863ebc93c64cf6511d1e1cf105ef90f33144753d049cc1c0a3decf7dce985032cbbbb7d852d967da84dfa9629067ac66fd70b1d24ff12ab3351b65e64809aaba"
+RPM_NAME = "texlive-fontbook-2026.226.0.0.2svn23608-60.2.noarch.rpm"
+RPM_HASH = "d60f7439a00c69eec75e20ad36a3253703fd8667be6fafda1b371bda897098e7e817c30c2f689e4c3c79d7c5f7e1b61a4f6d0ba1026b0d28055876855ef34739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fontbook.sty \

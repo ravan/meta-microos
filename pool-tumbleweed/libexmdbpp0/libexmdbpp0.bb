@@ -5,8 +5,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.11.0.58baa16"
 
-RPM_NAME = "libexmdbpp0-1.11.0.58baa16-1.1.aarch64.rpm"
-RPM_HASH = "edd8241f25b2a571c67df67bc87466de12eef1a02efe0257cef5a931874821b4dfda47a9a869e57a38307fe24c1e0cc0be3f04e377bcf7fc3171b0bbed45539a"
+RPM_NAME = "libexmdbpp0-1.11.0.58baa16-2.7.aarch64.rpm"
+RPM_HASH = "c7704bddbf40efb7a5c73c306ec231dbc9827aa2d83ae6b24cd1fb4d143759f2ae5be12e893e88fbc9405979818f381dac31afa7a86801c5848e37128a3e0311"
 
 RPROVIDES:${PN} += "libexmdbpp.so.0 \
 libexmdbpp0"

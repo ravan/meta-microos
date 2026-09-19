@@ -7,10 +7,10 @@ glossaries-extra.sty requires the glossaries package and, \
 naturally, all packages required by glossaries.sty."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.50svn64973"
+PV = "2026.226.1.9svn76767"
 
-RPM_NAME = "texlive-glossaries-extra-2023.209.1.50svn64973-54.2.noarch.rpm"
-RPM_HASH = "a18a012555709c3f6ea3914b8cfc51b2a37fa0e6ca68f377c36540268d68ec4209457e2e4f5dd1aa0ff2f252aa30095b50f8ab69017c21fb85b7d7752465df7c"
+RPM_NAME = "texlive-glossaries-extra-2026.226.1.9svn76767-60.4.noarch.rpm"
+RPM_HASH = "83ea23a93d92603341a512ff3166714a3af435789a77e4bad2edf3e2557a562c461cd397b64bb66da16fda593e953491f62e5ac4f7d38e0a31848770a74ee187"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-example-glossaries-xr.tex \
@@ -56,6 +56,7 @@ tex-multicol.sty \
 tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
+texlive-glossaries \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-scripts \

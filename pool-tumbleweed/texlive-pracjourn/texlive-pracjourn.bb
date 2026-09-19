@@ -5,10 +5,10 @@ modifications to allow for more flexible front-matter and \
 revision control, among other small changes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.4nsvn61719"
+PV = "2026.226.0.0.4nsvn61719"
 
-RPM_NAME = "texlive-pracjourn-2023.209.0.0.4nsvn61719-53.1.noarch.rpm"
-RPM_HASH = "984d570431ace8b73fcfa0819e93bce20e1cfae089f17a34ada4d4da5c5ef177647fb9b4940cf107e854c48f0dbf16d6b4daf4589f71a177f097ff9e2616b39d"
+RPM_NAME = "texlive-pracjourn-2026.226.0.0.4nsvn61719-59.2.noarch.rpm"
+RPM_HASH = "4a110f47372a23d79fdf02a9cafd1557b4935bc424397d0262bd2dffb10860b20a0c72857739a291449655cc0d5825ac1ef1b9edebf0c58c6d58e16a53cddeae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pracjourn.cls \

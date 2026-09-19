@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "vala-panel-lang-0.5.0-1.7.noarch.rpm"
-RPM_HASH = "d092d4dc27a486565f0cbeda9ba6e3639f8bbfe2baea0da1ab555c087493a3e817dc63541d5b2bfcd047691ce10b9b6ff4caf47ad429d65214969b77452734e1"
+RPM_NAME = "vala-panel-lang-0.5.0-1.18.noarch.rpm"
+RPM_HASH = "d39e5c20966dc560b3b664a6dffb63a2a2662fe42469aa125109ff504bac91d6c74b2dd9c3e17fd2fa1763e50ad6d702c3da23ad6e1dd51acae06d3477057b38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-vala-panel-af \

@@ -2,10 +2,10 @@ SUMMARY = "Development files for the suil library"
 DESCRIPTION = "Development files needed to build applications against suil library."
 LICENSE = "ISC"
 
-PV = "0.10.18"
+PV = "0.10.22"
 
-RPM_NAME = "suil-devel-0.10.18-1.1.aarch64.rpm"
-RPM_HASH = "400731e5d695362068b7e7e64c30f19745bcf0634896b05942d3bccb151709c05603679ebf7208c8b8311f48b27de9948090e3e941f16d4d31358caa631c7a80"
+RPM_NAME = "suil-devel-0.10.22-1.6.aarch64.rpm"
+RPM_HASH = "e391e709340cf2e522bb907eb4eb348a6c4e1376c181ced9bb9d504e5b974e28ea3633761c415b44eb9e53f94436b491bf1d01e6f98cd711efe97a3f332307cd"
 
 RPROVIDES:${PN} += "pkgconfig-suil-0 \
 suil-devel"

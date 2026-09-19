@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require aspell."
 LICENSE = "GFDL-1.1-or-later & LGPL-2.1-only & HPND & SUSE-BSD-Mark-Modifications"
 
-PV = "0.60.8"
+PV = "0.60.8.2"
 
-RPM_NAME = "aspell-devel-0.60.8-5.5.aarch64.rpm"
-RPM_HASH = "1826b4c0137334b7ecfbbb75069f81383471a7cb7a8c30102dc3b5e7a5dd7fb998c46581b5250ab3069a7cb320d300485c4aca09c787db7f9c6eb6d08e6099db"
+RPM_NAME = "aspell-devel-0.60.8.2-1.3.aarch64.rpm"
+RPM_HASH = "a2ccf233d9aa355c5f1abd7d868bf13b0d28e0b52a1bb8d30d9b2c385d0b87114ea315e1983106f85788d79f0252d70550846b9a648935e8919a52c1d3a820dd"
 
 RPROVIDES:${PN} += "aspell-devel \
 pspell-devel"

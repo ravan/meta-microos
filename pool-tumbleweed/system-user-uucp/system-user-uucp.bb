@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the system account and group 'uucp' \
 and their corresponding directories."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-user-uucp-20170617-24.16.noarch.rpm"
-RPM_HASH = "01a3dc389a93f1e5380f3fcc61b55fb7fe3244b6e137e2c8cad8a933c607d5eef8308f7cb8181fb6f7719778f17a4b7cf40f84010d88e331d844c842beb703aa"
+RPM_NAME = "system-user-uucp-20250822-2.3.noarch.rpm"
+RPM_HASH = "f585a140a710f284bda317a96d04edd3bb99c46fceed4c070a0c0ab138f71c701e06e6e86c8b8f4453ac540aa99c1ef6f7d74faec437426d67d398d0c7bd4b7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-uucp \

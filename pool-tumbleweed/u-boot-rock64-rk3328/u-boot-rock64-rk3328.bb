@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the rock64-rk3328 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-rock64-rk3328-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "0fdbefe81947dfbf760565d7de81582fdf1fe478bb821e1ac89f88abcf2bb3e293883bfe0ef83d764af4c3daad7966ccfa39fa7cd95d77ede900bba0613a4ae0"
+RPM_NAME = "u-boot-rock64-rk3328-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "f4eb56356d7de0fbffbcd9b28206246471a68ea08145b061928852c12bbeee8aff7cffa3eaef2fea2591270811d288fe7117e29c615c0ea488a61acf68abfb5c"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-rock64-rk3328"

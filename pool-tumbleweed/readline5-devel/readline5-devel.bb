@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2"
 
-RPM_NAME = "readline5-devel-5.2-140.4.aarch64.rpm"
-RPM_HASH = "3ab12cb29bd3355b2d6051e513abd600996677fbffade18e8c3f571fb2cd59b4c551b73c22942da9fce13d069864e39d7e756825c1a6b98a7aa91d0ded3eb2d5"
+RPM_NAME = "readline5-devel-5.2-141.11.aarch64.rpm"
+RPM_HASH = "bec2c294807c318f62e79f9cde38c4a3f9d61097209f1440a78dab9cd696fc1685b2bbafc67ca35e069cf7955ae8c2c01f698055760a10a2dbf915fce5c4d95e"
 
 RPROVIDES:${PN} += "bash-/usr/lib64/libreadline.a \
 readline5-devel"

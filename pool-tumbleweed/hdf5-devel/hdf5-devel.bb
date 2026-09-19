@@ -6,22 +6,31 @@ This package contains all files needed to create projects that use \
 the serial version of HDF5."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.12.2"
+PV = "1.14.6"
 
-RPM_NAME = "hdf5-devel-1.12.2-5.3.aarch64.rpm"
-RPM_HASH = "3f10a37f35f9bde10f14718252226e4b528dfab15f0ac67013e037f3d9ab41975df68634cd95006485f2c29407ae39d8a913c7f4d4873566abb648b6295b2337"
+RPM_NAME = "hdf5-devel-1.14.6-2.7.aarch64.rpm"
+RPM_HASH = "dca38b0d7898fca8274d5418678d129bfbae634652d96b9bb034e447b3dd56747f62b17e89985482da2627a9b3b449ee5249e2f6cb964011bc1ec55b1cbdf349"
 
-RPROVIDES:${PN} += "hdf5-devel"
+RPROVIDES:${PN} += "cmake-hdf5 \
+hdf5-devel \
+pkgconfig-hdf5 \
+pkgconfig-hdf5-cpp \
+pkgconfig-hdf5-fortran \
+pkgconfig-hdf5-hl \
+pkgconfig-hdf5-hl-cpp \
+pkgconfig-hdf5-hl-fortran"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+/usr/bin/sh \
 hdf5 \
 hdf5-devel-data \
-libhdf5-200 \
-libhdf5-cpp200 \
-libhdf5-fortran200 \
-libhdf5-hl-cpp200 \
-libhdf5-hl200 \
-libhdf5hl-fortran200 \
+libhdf5-310 \
+libhdf5-cpp310 \
+libhdf5-fortran310 \
+libhdf5-hl-cpp310 \
+libhdf5-hl-fortran310 \
+libhdf5-hl310 \
+libhdf5-tools310 \
 zlib-devel"
 
 inherit rpm

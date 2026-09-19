@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt D-Bus module is a library that can be used to perform \
 inter-process communication using the D-Bus protocol."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5DBus5-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "6d9a271e9080097a53e9b9d76b67cdd8d45248bc208fdc5b2291c762574949022b9aed2b27064aa58f0da9922957295ec93e837e080b0aaef6066eda025ae254"
+RPM_NAME = "libQt5DBus5-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "0c4440af6ab77eb5a29431a95157fc48c0da9a94201a38eab4ae9c206b252a5ebe397931d741a851971eb8531948ab7a0789fa4077bad11ac9ace32bdcb76a1d"
 
 RPROVIDES:${PN} += "libQt5DBus.so.5 \
 libQt5DBus5"

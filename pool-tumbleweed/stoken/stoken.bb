@@ -4,12 +4,12 @@ SecurID 128-bit (AES) tokens. It is a hobbyist project, not affiliated with or \
 endorsed by RSA Security. \
  \
 This package contains the command line tool for stoken."
-LICENSE = "LGPL-2.0-or-later & BSD-3-Clause"
+LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "0.92"
+PV = "0.93"
 
-RPM_NAME = "stoken-0.92-1.21.aarch64.rpm"
-RPM_HASH = "5365c1a3a869c5316ecf85244bc7512a98e432f5c14bbe3a987efd3f9981e4bc3e6ce31898e14b8e1ee01ff978a40016116f978f9dafd8f62f4194dbe1b4c803"
+RPM_NAME = "stoken-0.93-1.12.aarch64.rpm"
+RPM_HASH = "fc56add11c56ac89ccaa87c709d7d61885c29cac92284c690b54dc7f7eb83db4db6202c8e091095e50948d4be1bcd90c73e67106a72c0a022fb05b74d6b6b1e5"
 
 RPROVIDES:${PN} += "stoken"
 

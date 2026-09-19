@@ -1,28 +1,28 @@
 SUMMARY = "UI Files Viewer"
 DESCRIPTION = "Displays Qt Designer UI files"
-LICENSE = "GPL-2.0-only & GFDL-1.2-only & LGPL-2.0-only"
+LICENSE = "GFDL-1.2-only & GPL-2.0-only & LGPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kuiviewer-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "268bd4e6001f8a32d34a113e354646c0e148d67bdfff1c15316d645733bcdb1ad114e9d5ccaef5d6868dd9ee7a1d5f71169c4c26709ac1b3378f8bcabf112192"
+RPM_NAME = "kuiviewer-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "493f2b474d45f417362848bdc9a0f61d42d098bae5bf60046affb21890dc71d2dd6a0974bed1f712e55f31886747f4a5566f6b263b939c9b2f04ba05771d441c"
 
 RPROVIDES:${PN} += "kuiviewer"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Parts.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Designer.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOGui.so.6 \
+libKF6Parts.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Designer.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

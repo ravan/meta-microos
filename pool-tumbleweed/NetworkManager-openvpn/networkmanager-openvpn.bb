@@ -3,10 +3,10 @@ DESCRIPTION = "NetworkManager-openvpn provides VPN support to NetworkManager for
 OpenVPN."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.2"
+PV = "1.12.5"
 
-RPM_NAME = "NetworkManager-openvpn-1.10.2-1.3.aarch64.rpm"
-RPM_HASH = "77019ce49c49a52d367da9c1a362fb2000f2eb238f11571040846e32f272ad2c004554238d4a9f172b3b27ad424e08b329a573f9f6aba34485e78e062b63da88"
+RPM_NAME = "NetworkManager-openvpn-1.12.5-1.2.aarch64.rpm"
+RPM_HASH = "4a3d26f69632680d0ce997956c17dd67c87fdc3329a8087ca873f04790c717deb40792bd6e893b649afde45661209e1d7ff90bdff000a0d08417b4248e26d154"
 
 RPROVIDES:${PN} += "NetworkManager-openvpn \
 group-nm-openvpn \

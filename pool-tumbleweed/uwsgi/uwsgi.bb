@@ -15,10 +15,10 @@ Different plugins can be used in order to add compatibility with \
 different technology on top of the same core."
 LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "2.0.21"
+PV = "2.0.31"
 
-RPM_NAME = "uwsgi-2.0.21-3.2.aarch64.rpm"
-RPM_HASH = "4c7afc2ae2d0504149d20b66a8cf5741df3f592f885283d9686c2fde53d4bfff289b3efa187de79ac0a8970589c105c883f5d7dec1b07b2fc90eda4dba849928"
+RPM_NAME = "uwsgi-2.0.31-4.4.aarch64.rpm"
+RPM_HASH = "5e71e7edc579acbb69ea121fd9c0460ef9dae7c0937de98bfb5377a64914f7c7e563b17675246dd6eee6d7b5278409fa384c310f44f6a8f79522e2a4d65afe26"
 
 RPROVIDES:${PN} += "config-uwsgi \
 uwsgi \
@@ -46,12 +46,12 @@ libcrypto.so.3 \
 libcurl.so.4 \
 libjansson.so.4 \
 libm.so.6 \
-libpcre.so.1 \
+libpcre2-8.so.0 \
 libssl.so.3 \
 libsystemd.so.0 \
 libuuid.so.1 \
 libwrap.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 systemd"
 

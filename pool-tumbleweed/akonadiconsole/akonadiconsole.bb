@@ -4,45 +4,47 @@ Akonadi. This utility exposes Akonadi internals, and can be useful \
 for debugging."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "akonadiconsole-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "6a372ebb7073edba8bcaa1c88a735c82f620f45749ca3e2f8924b5628a7833138468d80ec4d3a4c63b8c854bea8f99f2605b05c15c0572088859179df8f1c8c3"
+RPM_NAME = "akonadiconsole-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "9f84508805d95564c9148ed7370464ea705a19ea14a056c5050dd0a57f15a22f51b1a493fdcbf07b7ab6bc1303b094aabf5e14889c4b6485d3753298cdcacb68"
 
 RPROVIDES:${PN} += "akonadiconsole \
-libakonadiconsole.so.5"
+libakonadiconsole.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5CalendarCore.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5Contacts.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5ItemModels.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libKPim5AkonadiCore.so.5 \
-libKPim5AkonadiPrivate.so.5 \
-libKPim5AkonadiSearchCore.so.5 \
-libKPim5AkonadiSearchXapian.so.5 \
-libKPim5AkonadiWidgets.so.5 \
-libKPim5AkonadiXml.so.5 \
-libKPim5CalendarSupport.so.5 \
-libKPim5ContactEditor.so.5 \
-libKPim5Libkdepim.so.5 \
-libKPim5MessageViewer.so.5 \
-libKPim5Mime.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
+libKF6CalendarCore.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6Contacts.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6ItemModels.so.6 \
+libKF6Mime.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKPim6AkonadiContactWidgets.so.6 \
+libKPim6AkonadiCore.so.6 \
+libKPim6AkonadiPrivate.so.6 \
+libKPim6AkonadiSearchCore.so.6 \
+libKPim6AkonadiSearchXapian.so.6 \
+libKPim6AkonadiWidgets.so.6 \
+libKPim6AkonadiXml.so.6 \
+libKPim6CalendarSupport.so.6 \
+libKPim6Libkdepim.so.6 \
+libKPim6MessageViewer.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

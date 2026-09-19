@@ -3,10 +3,10 @@ DESCRIPTION = "A comprehensive iSCSI transport and SCSI block device test suite 
 CUnit."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "1.19.0+git.20230208"
+PV = "1.20.3"
 
-RPM_NAME = "libiscsi-test-1.19.0+git.20230208-1.4.aarch64.rpm"
-RPM_HASH = "b73c8b9d3f33fc4f047f01e0b914ec16e8d63fb278b92a710c237941cc3fe73ef7a12662110c06d608415d0c5e16e3d5c821791c0752282bac4fbcc410ac0fdc"
+RPM_NAME = "libiscsi-test-1.20.3-1.3.aarch64.rpm"
+RPM_HASH = "4fecedbb1c3a7aeb6cf03b9f1852a18152ee7849a8d424dbe8dc227369f7b3ece6668e53869eac2ec59c210cdaeab76d27a9a64d2c238ba78b36e871e0ae3f19"
 
 RPROVIDES:${PN} += "libiscsi-test"
 

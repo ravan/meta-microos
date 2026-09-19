@@ -2,10 +2,10 @@ SUMMARY = "Library to provide generic file data cache functions"
 DESCRIPTION = "Library to provide generic file data cache functions for the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230115"
+PV = "20260520"
 
-RPM_NAME = "libfcache1-20230115-1.3.aarch64.rpm"
-RPM_HASH = "1e406c34b9658d361433b74e1d1858f1d9e18e2026025d93e5bc2b5a4056317cc170740187ce64befecb11a4bad82fb3ec238eaba8d3e2f5850378db657e5aa9"
+RPM_NAME = "libfcache1-20260520-1.6.aarch64.rpm"
+RPM_HASH = "72a91d0ad500d4b3149c1ee4a8cc8be06e4ec71beb55caf77206d8471a2ea6a7e804be154a34e32f430d6853ea2cfe1f6e771bbe18463660bdf90ae53c4e269e"
 
 RPROVIDES:${PN} += "libfcache.so.1 \
 libfcache1"

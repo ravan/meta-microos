@@ -6,10 +6,10 @@ rather more difficult LaTeX command \\linespread{<ratio>}, where \
 the leading is specified by reference to the font size."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn15878"
+PV = "2026.226.0.0.3svn77682"
 
-RPM_NAME = "texlive-leading-2023.209.0.0.3svn15878-55.1.noarch.rpm"
-RPM_HASH = "5710e233f3b82194e5fbce8b1e190c0dd62b002ee40500bf609ce6f5b4c2df383af55aa42af9bcfaecd2cce4ae630e1d42e2f62194a824f70a2a3a87ef711ae3"
+RPM_NAME = "texlive-leading-2026.226.0.0.3svn77682-61.2.noarch.rpm"
+RPM_HASH = "7e4216a5423b8731e9c8af0c2f0c2cfeef1083e8a79646cb140e04393bf2f705961d32a66345232c46ed076de24f360e6a2b70762b467f3a25be29aa2477bd52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-leading.sty \

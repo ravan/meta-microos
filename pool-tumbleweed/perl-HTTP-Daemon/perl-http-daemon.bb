@@ -15,16 +15,16 @@ method on this object will read data from the client and return an \
 back various responses."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.16"
+PV = "6.170.0"
 
-RPM_NAME = "perl-HTTP-Daemon-6.16-1.3.noarch.rpm"
-RPM_HASH = "a0c9eb4fffcd557fa0cda7b450b637e7e948e88c558584f643280eada805cc8d3007d94f460f941e2ce08645640617d1c0cf46dece76c638b2bb1c262488dbce"
+RPM_NAME = "perl-HTTP-Daemon-6.170.0-1.3.noarch.rpm"
+RPM_HASH = "54b1c3fc3baf0e2bbed7b956eabdb1559f5ad1c858ea55d033ce18765e58808e644b9b978f9ad86213039a3758ec993b4ca612a5855df1784af84f07613192f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Daemon \
 perl-HTTP-Daemon"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTTP--Date \
 perl-HTTP--Request \
 perl-HTTP--Response \

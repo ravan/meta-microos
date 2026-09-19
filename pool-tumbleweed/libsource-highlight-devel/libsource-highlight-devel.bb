@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.1.9"
 
-RPM_NAME = "libsource-highlight-devel-3.1.9-5.8.aarch64.rpm"
-RPM_HASH = "a1fbdb8757e84806b0ff3ba263085f9d0f0417ca4a2f3d2590246a7b8d7e6306f61de6d5e015b9b9a16c3f1b5ab89d0d149eb53b1f2995f35a54673860990e84"
+RPM_NAME = "libsource-highlight-devel-3.1.9-5.22.aarch64.rpm"
+RPM_HASH = "755c9390ae5f4cad55d671661fd1fdb056aaa3e699ecc2eceb960fec7dd1c72d36cc7da83fa2265a05a817a4e84c06348be54595c6a11d4e503d5718f9df3369"
 
 RPROVIDES:${PN} += "libsource-highlight-devel \
 pkgconfig-source-highlight"

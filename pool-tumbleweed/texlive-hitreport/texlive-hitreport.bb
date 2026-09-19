@@ -4,10 +4,10 @@ template free of configuration designed for undergraduates on \
 the three campuses of Harbin Institute of Technology."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn58357"
+PV = "2026.226.1.0.0svn58357"
 
-RPM_NAME = "texlive-hitreport-2023.209.1.0.0svn58357-54.2.noarch.rpm"
-RPM_HASH = "74ce7ab3871344c900389b641584b2ecc46a9fdd5e2bc8fe1c872d2d5eb4ed00c08ed6805e595f7db17a5a825ea56b60aba9474af0959abff4501eca17ce9d45"
+RPM_NAME = "texlive-hitreport-2026.226.1.0.0svn58357-60.4.noarch.rpm"
+RPM_HASH = "b9a0a9e40f5e6440ff6caefb0ea019cd2ef4ad79a1bd097427fc925c0ac2451ad928123adc4266997ea188768bdb42fa507a81d44c0d2145d19fdc3d252dca7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hitreport.cls \

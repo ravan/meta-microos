@@ -2,10 +2,10 @@ SUMMARY = "Zsh completion for pyenv"
 DESCRIPTION = "Zsh command line completion support for pyenv."
 LICENSE = "MIT"
 
-PV = "2.3.25"
+PV = "2.8.4"
 
-RPM_NAME = "pyenv-zsh-completion-2.3.25-1.1.noarch.rpm"
-RPM_HASH = "8173eff13676ced53dc49fb7711a17cd94c9e1ce2215128d96b70543a4281dd8bb0942a59668fd8302e09454b5f035c80aa75eb5cd8cdb996fd854342d369359"
+RPM_NAME = "pyenv-zsh-completion-2.8.4-1.1.noarch.rpm"
+RPM_HASH = "f26dfd954af5d5796c331b3ceccc708c277ea2b380f6e7485e0b4753aa0418d42192f7dd5f48359351af351b052857f7422c8e5ee758b5aa21498e7eb78f6bac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pyenv-zsh-completion \

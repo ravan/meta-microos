@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.2.3"
 
-RPM_NAME = "libmsym-devel-0.2.3-2.6.aarch64.rpm"
-RPM_HASH = "6afc1708d78c4b746e0d7fc9f4ab97b6940b961f369c70bca3820ef8dc228db5c26b251ac070658317d743fa27ee2f729859fb6bc121b1a848d8048ec632018a"
+RPM_NAME = "libmsym-devel-0.2.3-4.3.aarch64.rpm"
+RPM_HASH = "90c7bb5bcf6868d9eb85d68f382c4484188af89568ada8d1d9af856dbf6c872152dd4485be31019e2bca062d0c4ce22c9ddf30d140064b6c95104eea8e786b07"
 
 RPROVIDES:${PN} += "cmake-libmsym \
 libmsym-devel"

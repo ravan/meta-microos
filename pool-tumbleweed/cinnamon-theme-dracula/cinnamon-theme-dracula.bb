@@ -2,10 +2,10 @@ SUMMARY = "Dracula Cinnamon themes"
 DESCRIPTION = "This package contains the cinnamon themes for Dracula theme."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.0+git94.9840b6b"
+PV = "4.0.0+git146.2618a03"
 
-RPM_NAME = "cinnamon-theme-dracula-3.0+git94.9840b6b-1.1.noarch.rpm"
-RPM_HASH = "d77ef66c0968f9cc3f8f6b84cb1db86da712e11c6661fdf6c951619d8d831d9c8c2199e063c51dca3c6932635e4b4fe3698d989c5b21c49b73fafb191764976e"
+RPM_NAME = "cinnamon-theme-dracula-4.0.0+git146.2618a03-1.2.noarch.rpm"
+RPM_HASH = "be638280e7c6a4779c383f765e39215023b37e9bc9090d111f1778cf4b1481b274c769ad06d6623e7875326ca99b1a3d186ffb0ec5dd9df00372a29a4a273943"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-theme-dracula \

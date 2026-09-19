@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0 | LGPL-2.1-or-later"
 
 PV = "5.13.0"
 
-RPM_NAME = "jna-5.13.0-1.1.aarch64.rpm"
-RPM_HASH = "44cd0c48e05311725d0d9d828a47dc11a32c98515954a09e6c49d71eb139820a7448451e14c7b32af0c98edf70e9e568cb9b5b9a92e7929193e1f699675a3f89"
+RPM_NAME = "jna-5.13.0-5.6.aarch64.rpm"
+RPM_HASH = "750c85e5c5c91de0c777670e0b19aa23ce83a167f415b657e86e37b721e2ebaa6655abf76146e8974fec9b42bbce7129f61a62e5f6837abe20fdbe36d00703f7"
 
 RPROVIDES:${PN} += "jna \
 jna-native \
@@ -21,8 +21,7 @@ mvn-net.java.dev.jna-jna-jpms-pom- \
 mvn-net.java.dev.jna-jna-pom- \
 osgi-com.sun.jna"
 
-RDEPENDS:${PN} += "java \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

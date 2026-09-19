@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hvindex"
 DESCRIPTION = "This package includes the documentation for texlive-hvindex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.04svn46051"
+PV = "2026.226.0.0.04asvn77682"
 
-RPM_NAME = "texlive-hvindex-doc-2023.209.0.0.04svn46051-54.1.noarch.rpm"
-RPM_HASH = "a5e9460379fb519680fc6180c567aed8fa2f6b4f9a418a9b2009bc812843bf98ea0d2acd1e6bdd86a096708b1bcafc4bca83526cd14812f839aed28cb356cf2d"
+RPM_NAME = "texlive-hvindex-doc-2026.226.0.0.04asvn77682-60.2.noarch.rpm"
+RPM_HASH = "fa663fec60e5cea2e608e93bedb3c6448f4de991661a6cb03330fd4971d078fdfac3f602d1dee12ebaa76d1c9d949e8a195021e34826d2e0a494a93bc930f5a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hvindex-doc"

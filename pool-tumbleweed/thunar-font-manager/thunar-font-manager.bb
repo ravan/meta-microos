@@ -2,10 +2,10 @@ SUMMARY = "Thunar extension for Font Manager"
 DESCRIPTION = "This package provides integration with the Thunar file manager."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.8.8"
+PV = "0.9.4"
 
-RPM_NAME = "thunar-font-manager-0.8.8-2.4.aarch64.rpm"
-RPM_HASH = "50508bf5169498fd5cb7e7071c09a2cda3cc53039178d809c3a32bbfd39826dc6b7a770cc79ccd3022ca2831df98814a66b986e3aa01bcd3ad3be9cb2f776f19"
+RPM_NAME = "thunar-font-manager-0.9.4-2.2.aarch64.rpm"
+RPM_HASH = "4a13ed58ddd51e9487181941e41ac4c246325355a5c0aff93fa194f9ef51a92c811a19e6747f5b9a82b9a2f08055877843dcfca38d0a9f040401924a3b961117"
 
 RPROVIDES:${PN} += "thunar-font-manager"
 

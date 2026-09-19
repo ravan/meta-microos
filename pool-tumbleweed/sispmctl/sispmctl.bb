@@ -2,10 +2,10 @@ SUMMARY = "SIS-PM Control for Linux"
 DESCRIPTION = "This projects adds support control for the GEMBIRD Silver Shield PM device to linux."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.11"
+PV = "4.12"
 
-RPM_NAME = "sispmctl-4.11-1.1.aarch64.rpm"
-RPM_HASH = "fc34c4fed5b4e757da7f38d936470ec35349b9694f024483089f5195ef5a6d81c9f0845e7afaab0a5aefb53bf02926d01167c72d600f1762256ae2bfac6d8d8f"
+RPM_NAME = "sispmctl-4.12-1.8.aarch64.rpm"
+RPM_HASH = "72d32958909edac21bdf3a08465cbc1d22a6e6b5545835263f4af54be4e2c1df615fa26aa992412db7d456a2f87aaa139b2938e99a4648aed18e64cbbc914f06"
 
 RPROVIDES:${PN} += "sispmctl"
 

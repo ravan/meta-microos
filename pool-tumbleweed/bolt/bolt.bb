@@ -1,12 +1,12 @@
 SUMMARY = "Thunderbolt 3 device manager"
 DESCRIPTION = "Userspace system daemon to enable security levels for Thunderbolt 3 \
 on GNU/Linux."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.9.5"
+PV = "0.9.11"
 
-RPM_NAME = "bolt-0.9.5-1.4.aarch64.rpm"
-RPM_HASH = "ee49571e783982aaa308953874e9955d15f1a50bf02aabb490097957e074fb15c015b470ca9216e77c82d1c27729f07bf2c90031d4ede286a0e55f092f33c80f"
+RPM_NAME = "bolt-0.9.11-2.1.aarch64.rpm"
+RPM_HASH = "d190bf05e26225f4e91effe3812677c35dd2867981c41c27592c5dd99ecbd7b2a33cb3f6d7917bec130d5971012a1aca45d15df59b3e4ec6a92693fa15965c5c"
 
 RPROVIDES:${PN} += "bolt"
 

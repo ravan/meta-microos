@@ -2,10 +2,10 @@ SUMMARY = "Development package for the device mapper"
 DESCRIPTION = "Files needed for software development using the device mapper"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.03.16_1.02.185"
+PV = "2.03.38_1.02.212"
 
-RPM_NAME = "device-mapper-devel-2.03.16_1.02.185-8.1.aarch64.rpm"
-RPM_HASH = "88aa22fe28a1e410ff9210962771ffad7257a0bf9305ae22750c77b6da3a3c03844feed6e181d5d4516994c3437423b064242cccd00adf7f31c074371a405f69"
+RPM_NAME = "device-mapper-devel-2.03.38_1.02.212-2.5.aarch64.rpm"
+RPM_HASH = "e01fce35c874f03d29e1ab1beb9f3b01cb71e87e0c8617cb0c950a11aed9beae4f15cd48af24e9d8f72fc6de9f63f5758c855e074c3c631630b3f99aa2374022"
 
 RPROVIDES:${PN} += "device-mapper-devel \
 pkgconfig-devmapper \

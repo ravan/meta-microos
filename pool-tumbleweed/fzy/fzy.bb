@@ -6,10 +6,10 @@ displays its interface directly below the current cursor position, scrolling \
 the screen if necessary."
 LICENSE = "MIT"
 
-PV = "1.0"
+PV = "1.1"
 
-RPM_NAME = "fzy-1.0-1.17.aarch64.rpm"
-RPM_HASH = "11b5fc04248a600c45f402fd3849cea10bc6b179cc2a698e71ba067ea477e410d3f8abebed604dc3d66b08896f0d1527538efb3b7266414966dee50a76682e6b"
+RPM_NAME = "fzy-1.1-1.5.aarch64.rpm"
+RPM_HASH = "8637a9d70452c081f981797f2b9f71dc24aff7592dfdbe8ad20aa0f418645547f7bffa90e51c86c4a1a30e988da8d1a618ae397a07d7b5eaddac8a0c3be568b3"
 
 RPROVIDES:${PN} += "fzy"
 

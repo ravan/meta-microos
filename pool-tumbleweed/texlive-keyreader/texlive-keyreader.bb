@@ -7,10 +7,10 @@ for keyreader. Since keyreader has remained a favourite with \
 users, it has been reinstated."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5bsvn28195"
+PV = "2026.226.0.0.5bsvn28195"
 
-RPM_NAME = "texlive-keyreader-2023.209.0.0.5bsvn28195-56.1.noarch.rpm"
-RPM_HASH = "16d9ed2dc7cbdfbb19db6595997fb12fc2360428b3107b7153137204bc797b9b47739a6e38301e6a7404d93cbbd48ba189ed474a78e30059cd860e2c62f967de"
+RPM_NAME = "texlive-keyreader-2026.226.0.0.5bsvn28195-63.2.noarch.rpm"
+RPM_HASH = "a1e7c37c1b5bb3a50d1a07967a50377bd866e01bd7b9eb4a3111d7d6d7b53f7ef229b5fa05b6c9d76dde42437bc19a112680d4a1460c92e5fb476993620cf4cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-keyreader.sty \

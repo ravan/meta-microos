@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.5"
 
-RPM_NAME = "libvdpau1-1.5-1.6.aarch64.rpm"
-RPM_HASH = "9aee54ae7575d3f09da51fcedc71ffbb94f2201d2b2e52c84aad94c4a2c32992c66052a42cb1f3f0caed000134276c14e008aa79e2661cce1989e226658221fd"
+RPM_NAME = "libvdpau1-1.5-5.4.aarch64.rpm"
+RPM_HASH = "36e81de0442ff140f5e7a8b6b5359364f3e17df5d0c4e6b7cb4097d928a1a2e1eb4e9d0e70cee6ec9d502e6f6eb718054e906f5429586fc4a23924be4320a6b7"
 
 RPROVIDES:${PN} += "libvdpau \
 libvdpau.so.1 \

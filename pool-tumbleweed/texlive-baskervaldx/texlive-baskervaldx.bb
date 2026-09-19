@@ -5,10 +5,10 @@ oldstyle figures in all shapes. Includes OpenType and \
 PostScript fonts, as well as LaTeX support files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.076svn57080"
+PV = "2026.226.1.08svn73362"
 
-RPM_NAME = "texlive-baskervaldx-2023.209.1.076svn57080-54.1.noarch.rpm"
-RPM_HASH = "299cfaaac40c057813f43729baa41d6fbc6e20b89dd4357a8f1c455502423cb4d7017b1606fe61dd1fec1d5c80eb389e1e5bd5a31760a05a4bb1f639c1cf074f"
+RPM_NAME = "texlive-baskervaldx-2026.226.1.08svn73362-60.2.noarch.rpm"
+RPM_HASH = "6077139b50c02d1fbda8b8b43dbd53698ead184d3f173e135b4c076b395bc4552b615cd9b35dcb835c15225104e2f5ba0a1b5879d1f129dc33c688fde1c90eb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Baskervaldx-Bol-lf-ly1--base.tfm \
@@ -466,6 +466,9 @@ tex-TS1Baskervaldx-TLF.fd \
 tex-TS1Baskervaldx-TOsF.fd \
 tex-bvalph.enc \
 tex-bvtabosf.enc \
+tex-ly1minbaskervaldx.fd \
+tex-ot1minbaskervaldx.fd \
+tex-t1minbaskervaldx.fd \
 tex-zbv-23jm4j.enc \
 tex-zbv-2445cl.enc \
 tex-zbv-2kku7k.enc \

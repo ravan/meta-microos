@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.15"
 
-RPM_NAME = "perl-Locale-Msgfmt-0.15-8.23.noarch.rpm"
-RPM_HASH = "864c0b0e5c0f4810a3a00eb980e1e5bd98de55138f27d2157aab86db67863b3711d66321d5f77566d1da24a760c5282fe02c1b8e5a130a12b574212a8604cf42"
+RPM_NAME = "perl-Locale-Msgfmt-0.15-8.37.noarch.rpm"
+RPM_HASH = "e37da5bf9297cd88120bef8c5d2556488d639c95b9ad95bd9146142fac7cca672f78deb6d1fc4dc1c44580985d33d59a0db43bdfa7679cf7150f502aa699fe7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Locale--Msgfmt \
@@ -15,6 +15,6 @@ perl-Locale--Msgfmt--po \
 perl-Locale-Msgfmt \
 perl-Module--Install--Msgfmt"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

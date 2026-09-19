@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.0.0+git.20190126"
 
-RPM_NAME = "libusb3380-devel-0.0.0+git.20190126-2.6.aarch64.rpm"
-RPM_HASH = "e1ec1d1a7ab8a5c0250e4dd039bdd622578c0eb8925074d653b2778cd8bb37a2c2c63e9cff14df0e4fd1f202be9da1f77d30203a795780493befc951fc751765"
+RPM_NAME = "libusb3380-devel-0.0.0+git.20190126-3.8.aarch64.rpm"
+RPM_HASH = "1b7c5c363f570dbe801e13e62ab1863f1ca20b79f730f6f82ad22c4b4030879a6248e91acc29b15fee2c46705437d1b284742940576ecd9fc20cfc92d630a567"
 
 RPROVIDES:${PN} += "libusb3380-devel \
 pkgconfig-libusb3380"

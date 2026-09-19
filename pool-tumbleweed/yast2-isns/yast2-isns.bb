@@ -2,10 +2,10 @@ SUMMARY = "Configuration of isns"
 DESCRIPTION = "-"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-isns-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "a7dc1c28d3ef78e94e72162a52a02da82e0116779a1a72d2ba2e1b54462d071329147f24f70e68217ef76cf91503af8a7e43230adc632a462db032e5d3534a97"
+RPM_NAME = "yast2-isns-5.0.1-1.2.noarch.rpm"
+RPM_HASH = "0c7a11351de1bcd1e2b14211f9b810b4e1c739d88a1b01d28ae85b6f0ff063c1162de84d9b46bd9d9af88baa3340649574bbe595cd0be3fabe25a0849ae5e6a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-isns"

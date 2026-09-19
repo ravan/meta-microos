@@ -3,23 +3,22 @@ DESCRIPTION = "The Cockpit Web Service listens on the network, and authenticates
  \
 If sssd-dbus is installed, you can enable client certificate/smart card \
 authentication via sssd/FreeIPA."
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "LGPL-2.1-or-later & GPL-3.0-or-later & MIT & CC-BY-SA-3.0 & BSD-3-Clause"
 
-PV = "300.1"
+PV = "365"
 
-RPM_NAME = "cockpit-ws-300.1-1.1.aarch64.rpm"
-RPM_HASH = "c4253a65842038d155dfa499a2157da2a1c58c8d3038ec9a5bd1ec22b3fa0aa8c6b849ff48bb6812ab25e45c71c52088691ec14b300fe0e9c2a6933e30354386"
+RPM_NAME = "cockpit-ws-365-2.1.aarch64.rpm"
+RPM_HASH = "67f100053acc64dd67ddaf7b3d2bd4085488fcb11c7d4cf098815b6769d5158e17827511f9bc729ccf8222b3994b15a6df458335d0d805a1db1318dcb00b9708"
 
-RPROVIDES:${PN} += "cockpit-ws"
+RPROVIDES:${PN} += "cockpit-ws \
+config-cockpit-ws"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 distribution-logos \
-glib-networking \
 glib2 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcrypt.so.1 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgnutls.so.30 \
@@ -29,6 +28,7 @@ libjson-glib-1.0.so.0 \
 libpam.so.0 \
 libsystemd.so.0 \
 openssl \
+pam-oath \
 permissions \
 wallpaper-branding"
 

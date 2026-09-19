@@ -5,21 +5,21 @@ lossless compression. \
 This is the reference implementation of JPEG XL, with encoder and decoder."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.2"
+PV = "0.11.2"
 
-RPM_NAME = "libjxl-devel-0.8.2-1.1.aarch64.rpm"
-RPM_HASH = "3db13ed78486cf38dcea9243e16d02f28b08cda2529796bfb0b2eaeb83562195aa6b62fd0e632f51d2d7e6f171730b702e6411edf8a6c4d5db63c32af392996a"
+RPM_NAME = "libjxl-devel-0.11.2-2.3.aarch64.rpm"
+RPM_HASH = "2a123f7ffb27abb2b242eb5f0500133342ac59572aff07794d1c8e5f384677b009a65f94e199742afcc27214465f7b2c31fef8e99f88f6b02f9be30dc4bc39fe"
 
 RPROVIDES:${PN} += "libjxl-devel \
 pkgconfig-libjxl \
+pkgconfig-libjxl-cms \
 pkgconfig-libjxl-threads"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libjxl0-8 \
-pkgconfig-lcms2 \
-pkgconfig-libbrotlicommon \
+libjxl0-11 \
 pkgconfig-libbrotlidec \
 pkgconfig-libbrotlienc \
-pkgconfig-libhwy"
+pkgconfig-libhwy \
+pkgconfig-libjxl-cms"
 
 inherit rpm

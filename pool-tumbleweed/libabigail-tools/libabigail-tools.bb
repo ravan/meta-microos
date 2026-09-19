@@ -5,17 +5,17 @@ artifacts, such as types, variable, fonctions and declarations \
  \
 This subpackage contains the ABIGAIL utilities allowing to infer \
 interesting conclusions about these differences."
-LICENSE = "LGPL-3.0-or-later"
+LICENSE = "Apache-2.0-with-LLVM-exception"
 
-PV = "2.3"
+PV = "2.10"
 
-RPM_NAME = "libabigail-tools-2.3-1.1.aarch64.rpm"
-RPM_HASH = "13abe259afebfe3ecc5b8663a683142a8484419d2a509297425a3114926e47fa1c42e1054cec8398aa55bb1a4f0cea77851d573b2902fbc7d82b00f3a4f18658"
+RPM_NAME = "libabigail-tools-2.10-1.3.aarch64.rpm"
+RPM_HASH = "a8a6a291d2909c4a173fff173149daed64fab2244111d46673db495ab09241a749e0575848fd2e34c16c8dc51ff4bafbda220e0198fb7547f6a5e6a07566f4c3"
 
 RPROVIDES:${PN} += "libabigail-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libabigail.so.2 \
+libabigail.so.9 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

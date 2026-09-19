@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.4.2"
 
-RPM_NAME = "xf86-input-void-1.4.2-1.3.aarch64.rpm"
-RPM_HASH = "22265697ec9f50a5cc398050cbbda1bec20d84b47660aac81f61c99746e690d4a704509d7898c8ade0c4c8f3a0e6bf2bbfb8fd22c9c3a5d1caf8cb36bac7bca3"
+RPM_NAME = "xf86-input-void-1.4.2-1.13.aarch64.rpm"
+RPM_HASH = "eb59de3761aea7c7ecab3ddfbf1d9f36f8d877723de81474e2f58a3be9cbe0860142907857e2e1624fc6f9fd7d405ca14dea42c0138489c2979c6eae2eb75f92"
 
 RPROVIDES:${PN} += "xf86-input-void"
 

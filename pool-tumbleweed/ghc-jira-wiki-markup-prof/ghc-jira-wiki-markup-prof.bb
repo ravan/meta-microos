@@ -4,16 +4,16 @@ LICENSE = "MIT"
 
 PV = "1.5.1"
 
-RPM_NAME = "ghc-jira-wiki-markup-prof-1.5.1-1.8.aarch64.rpm"
-RPM_HASH = "e6b171ba6d9465f6007e89c5336cd4f30a0ec54f4a3e428d2a68e03252df663bbc4a74c2fa1534ca5e2cfe0208fcc02575b9cb3481978ed7f45f7558f3df1230"
+RPM_NAME = "ghc-jira-wiki-markup-prof-1.5.1-2.27.aarch64.rpm"
+RPM_HASH = "6be3199c3869c6b41b2eb7660eb96fcf3ca84bc9d84864ae2248ecee2c22d9298b89d9193733d9d81608e55ca5f0b53eecda78fc8f80a26325174cd7982c6862"
 
 RPROVIDES:${PN} += "ghc-jira-wiki-markup-prof \
-ghc-prof-jira-wiki-markup-1.5.1-Kpl2oQNac464TohGq5hnAO"
+ghc-prof-jira-wiki-markup-1.5.1-98GFxAn8YwIIHGuEhvyDFl"
 
 RDEPENDS:${PN} += "ghc-jira-wiki-markup-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-parsec-3.1.16.1 \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-parsec-3.1.18.0-be05 \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

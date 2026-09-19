@@ -5,15 +5,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.1.1"
 
-RPM_NAME = "ghc-indexed-profunctors-devel-0.1.1.1-1.2.aarch64.rpm"
-RPM_HASH = "721650195dc565c31fe1d41d7544749f2ab8a644fdaf2eb7cbfdeae1489710bb96026205726a95fe7f77bcdd1bd8cf3fe990b162f55f1a0400d32908f8b59a5f"
+RPM_NAME = "ghc-indexed-profunctors-devel-0.1.1.1-1.18.aarch64.rpm"
+RPM_HASH = "87bceecc5567984e0458e9522bbb5ec3d1a80dab0a6648cd9d22a53b171c85a81f9bf7a51b1958a02fc243a371d7ba714eda5270a4e1c2489bdf511e3b1789ce"
 
-RPROVIDES:${PN} += "ghc-devel-indexed-profunctors-0.1.1.1-8VFnw8ahpDVCAreg6vEIe9 \
+RPROVIDES:${PN} += "ghc-devel-indexed-profunctors-0.1.1.1-HSqEhDrwiQJ27Hm9NjzenO \
 ghc-indexed-profunctors-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
+ghc-devel-base-4.21.2.0-8844 \
 ghc-indexed-profunctors"
 
 inherit rpm

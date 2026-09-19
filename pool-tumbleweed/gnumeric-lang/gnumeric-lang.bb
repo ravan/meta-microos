@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnumeric"
 DESCRIPTION = "Provides translations for the 'gnumeric' package."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.12.55"
+PV = "1.12.61"
 
-RPM_NAME = "gnumeric-lang-1.12.55-1.5.noarch.rpm"
-RPM_HASH = "c68e4be36d3a6258d972fed35f8d19a7cfeeebf123bad120b44843625bdbe7fdbb095fdfa1ff1455ec6cc63780e63d7de10d8897313da733a709a61e3a6ce732"
+RPM_NAME = "gnumeric-lang-1.12.61-1.3.noarch.rpm"
+RPM_HASH = "4892517ebabc8115234473394a6ca337abdeeb65c8294fdb510505404ea81def756565f68f8a3880af2783bbed7a3461c1d1ec5749a532b5bfe6269bceced26f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnumeric-lang \
@@ -28,6 +28,7 @@ locale-gnumeric-eo \
 locale-gnumeric-es \
 locale-gnumeric-et \
 locale-gnumeric-eu \
+locale-gnumeric-fa \
 locale-gnumeric-fi \
 locale-gnumeric-fr \
 locale-gnumeric-ga \

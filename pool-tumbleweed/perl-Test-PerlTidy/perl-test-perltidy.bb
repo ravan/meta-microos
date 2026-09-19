@@ -7,16 +7,16 @@ By default, perltidy will be run on files under the current directory \
 and its subdirectories with extensions matching: .pm .pl .PL .t."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "20230226"
+PV = "20260110.0.0"
 
-RPM_NAME = "perl-Test-PerlTidy-20230226-1.3.noarch.rpm"
-RPM_HASH = "f5caa71cc1877bd16619b308db0c2529b1268c56770b844a361fb4d5f17e6016ce23b27512f823284626cceb189d298c1a34d12473cdae799917ec1d6d117d83"
+RPM_NAME = "perl-Test-PerlTidy-20260110.0.0-1.5.noarch.rpm"
+RPM_HASH = "ddc1d777cf1c4473e839a7f3dd3e17c52ee67c97b5866c66cbfefed6f73a11bef0dfa6a62b5167d585ceb45bbd9664c8345509b54467ab9c446400d5a517d8f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--PerlTidy \
 perl-Test-PerlTidy"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Path--Tiny \
 perl-Perl--Tidy \
 perl-Text--Diff \

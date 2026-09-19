@@ -1,11 +1,11 @@
 SUMMARY = "Development files for the Qt 6 3DLogic library"
 DESCRIPTION = "Development files for the Qt 6 3DLogic library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-3dlogic-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "97c675f4d99b814606d140f18b44de6c1ba56662a4bd3011db16f7a64cfb4d094b14cd9fa17b2ac1c4386d3668036e77dfc54c52d15843d799a4fa9cfdb2b1f8"
+RPM_NAME = "qt6-3dlogic-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "2e5e20754e15fe89de66402ede207f94cadd19400c337680eb02b87949ce5aca02cbfca2178d1d941867ba6258af4ddc2eba907aaf87d196301d830fbdcdd44f"
 
 RPROVIDES:${PN} += "cmake-Qt63DLogic \
 pkgconfig-Qt63DLogic \

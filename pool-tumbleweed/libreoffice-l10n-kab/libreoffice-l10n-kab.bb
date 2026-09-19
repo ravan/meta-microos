@@ -2,10 +2,10 @@ SUMMARY = "Kabyle localization files for LibreOffice"
 DESCRIPTION = "Provides Kabyle translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-kab-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "92d5354511e1858b85deb48368eccba4037456174c2af012430841212755fe646b595318a6d0929f433e704660112631da60e1985c19c315aeee272dfc7fb1ec"
+RPM_NAME = "libreoffice-l10n-kab-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "1f76a8fa142fe3d21071ea68c737d36995a0743e6205fe822348ea85ff497a628cacb95ab9557cb81530843444ee4384973cb307383cf2b6684b811c19ad6bf1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-kab \

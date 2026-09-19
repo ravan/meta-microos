@@ -2,14 +2,15 @@ SUMMARY = "Bash Completion for kustomize"
 DESCRIPTION = "Bash command line completion support for kustomize."
 LICENSE = "Apache-2.0"
 
-PV = "4.5.7"
+PV = "5.8.1"
 
-RPM_NAME = "kustomize-bash-completion-4.5.7-1.4.noarch.rpm"
-RPM_HASH = "0450f956d34f578beb79703386b33f987ca0d86159b435315343e6f0c3947f2d3d6db2555754b7748c1641ecf08fc49b0d025a28d7c349597e52ea22f64fdf0b"
+RPM_NAME = "kustomize-bash-completion-5.8.1-1.4.noarch.rpm"
+RPM_HASH = "35c160563b7e921f5c68e8deb3056d6b12529ddf77421fee0edee493448884c1fff13e4d2997a5a2484c3ba4a933b139598023235e5325a9b78328e19c9a473f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kustomize-bash-completion"
 
-RDEPENDS:${PN} += "kustomize"
+RDEPENDS:${PN} += "bash-completion \
+kustomize"
 
 inherit rpm

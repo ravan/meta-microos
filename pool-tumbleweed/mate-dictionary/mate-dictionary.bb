@@ -4,12 +4,13 @@ mate-dictionary is a program which can look up the definition of \
 words"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-dictionary-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "4dbd695e81e9e38c069afe0d2fb3bcdc0eb8ab3b1b82e892f11c8a3f49cf4d3ec8fdce135533c2a0fbc0d3b23eaa38951dacb15df4435cdbd8bc47e66dc54f84"
+RPM_NAME = "mate-dictionary-1.28.0-2.6.aarch64.rpm"
+RPM_HASH = "fa4cb4c2a6cf008f51e174e2f4a5622174ff313cb36316c358c4cc0a8de19594b1e61d937583838d294e1662c10f411cd55e590ffbfc8c4c9ed2b4c859315f91"
 
-RPROVIDES:${PN} += "mate-dictionary"
+RPROVIDES:${PN} += "libmate-dictionary-applet.so.0 \
+mate-dictionary"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libatk-1.0.so.0 \
@@ -21,6 +22,9 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtk-layer-shell.so.0 \
+libm.so.6 \
+libmate-desktop-2.so.17 \
 libmate-panel-applet-4.so.1 \
 libmatedict.so.6 \
 libpango-1.0.so.0 \

@@ -3,10 +3,10 @@ DESCRIPTION = "Atomic s, p and d orbitals may be drawn, as well as molecular \
 orbital diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn36439"
+PV = "2026.226.svn36439"
 
-RPM_NAME = "texlive-tikzorbital-2023.209.svn36439-53.1.noarch.rpm"
-RPM_HASH = "e1f6af065fe628e0e0d71cb49f1bf31c5897740920bf0c053b3ddf63e472dfb59d1cb25f661ee25af44e4531a3510c7a5d49d754348901665a0f37af3536718c"
+RPM_NAME = "texlive-tikzorbital-2026.226.svn36439-59.2.noarch.rpm"
+RPM_HASH = "679022fdfa62370d45a1fc50d804de139a07b41b894e99ddcef0464afa7b92fd4637b38d0fece1818de8b7241b9193ec3a15b48fe5bd975601d34425b0718bc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzorbital.sty \

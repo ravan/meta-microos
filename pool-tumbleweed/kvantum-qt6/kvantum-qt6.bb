@@ -7,15 +7,16 @@ Kvantum also comes with extra themes that can be selected and activated by using
 This package provides Kvantum theme engine for Qt6."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.0.10"
+PV = "1.1.8"
 
-RPM_NAME = "kvantum-qt6-1.0.10-1.2.aarch64.rpm"
-RPM_HASH = "3a7be2966da1234b394c3a75def5ee32022960bdbb5595a680fe061f6510a80c73ca0c4653fb2749d3b5a0afcc43304e34b201dfeb9613acce96c6909c0b323e"
+RPM_NAME = "kvantum-qt6-1.1.8-1.2.aarch64.rpm"
+RPM_HASH = "10b1749a8ea81755a1a76086ea37a961e0ef53ba0f3f53b93596e859dff4dbc8de33d77db040577ef56ccc5d87508dac249d0b3198a9982593bcf5f17c0ac8d1"
 
 RPROVIDES:${PN} += "kvantum-qt6 \
 libkvantum.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF6WindowSystem.so.6 \
 libQt6Core.so.6 \
 libQt6Gui.so.6 \
 libQt6Svg.so.6 \

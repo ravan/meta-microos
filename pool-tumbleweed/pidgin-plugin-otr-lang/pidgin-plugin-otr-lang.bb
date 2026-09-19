@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "4.0.2"
 
-RPM_NAME = "pidgin-plugin-otr-lang-4.0.2-3.25.noarch.rpm"
-RPM_HASH = "a7b317798afc7c6ecce183decf5026e189957bf86ccacc859d03833068e85c46376be8b568d9f0d0f8894e453940a2c83c7cab8b40d2a7e29e2e9f6d50221998"
+RPM_NAME = "pidgin-plugin-otr-lang-4.0.2-3.35.noarch.rpm"
+RPM_HASH = "8d47ae215ee580e31aaf82204260fbeff9df503444e659a9ff7dd1b7e47ffffeb140d4a34a3cf9bb589009a3ea13bd6c208e33328a4a53ef9db26fca82d233ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pidgin-plugin-otr-ar \

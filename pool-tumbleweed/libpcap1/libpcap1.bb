@@ -5,10 +5,10 @@ This package is only needed if you plan to compile or write such a \
 program yourself."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.10.4"
+PV = "1.10.7"
 
-RPM_NAME = "libpcap1-1.10.4-1.2.aarch64.rpm"
-RPM_HASH = "9698f69c2e93067ceb28149e7a20b0fe3d136d0eb490e4c8471dd979557796857dec20fbca012ab30c952763f46c00a05f0c1433043a63246c9d58014f869021"
+RPM_NAME = "libpcap1-1.10.7-1.1.aarch64.rpm"
+RPM_HASH = "ee52ee1616a2c75f5f1624e7916669c820ca3d617ae6eb309e6472b8b1849b20cc66517018ae41cfda39e8859ff0f80101335e8d00232ca1764d18c00e1e9312"
 
 RPROVIDES:${PN} += "libpcap \
 libpcap.so.1 \

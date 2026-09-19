@@ -2,18 +2,18 @@ SUMMARY = "Haskell unordered-containers profiling library"
 DESCRIPTION = "This package provides the Haskell unordered-containers profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.19.1"
+PV = "0.2.21"
 
-RPM_NAME = "ghc-unordered-containers-prof-0.2.19.1-3.9.aarch64.rpm"
-RPM_HASH = "c5115a5bbd3626048b3a62a5b0df68927ebe56f07c30956e570d0d402514380d499629c0e086e29ce57c25c816b27e887a37919afd6d91cc728a9476297a0a7f"
+RPM_NAME = "ghc-unordered-containers-prof-0.2.21-2.3.aarch64.rpm"
+RPM_HASH = "cc80fbca0619ee68f49671c3f3dea0c7394e132b04b37631fce36dbf73a643aa791c54b8d623fa42e55d9ba197c5aeeb0e4b6927e0427a2d4bdd2bb6d5732b45"
 
-RPROVIDES:${PN} += "ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
+RPROVIDES:${PN} += "ghc-prof-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
 ghc-unordered-containers-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-prof-template-haskell-2.19.0.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
+ghc-prof-template-haskell-2.23.0.0-358a \
 ghc-unordered-containers-devel"
 
 inherit rpm

@@ -6,10 +6,10 @@ This subpackage contains the headers and other developments \
 files needed to build packagesfor that depend on uriparser."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.7"
+PV = "1.0.2"
 
-RPM_NAME = "uriparser-devel-0.9.7-1.4.aarch64.rpm"
-RPM_HASH = "faf1a5c5f6f5b8aa02bedd5dc76053a9c5415d5c589448c09c37caaeeaf3b2b92b5c9aedd471cb7b4799947f15d8f196add6ecf77c09c3bd0a817d0ec780c025"
+RPM_NAME = "uriparser-devel-1.0.2-2.2.aarch64.rpm"
+RPM_HASH = "e33372d55fd6d8d84643ba522fdca9cde688f924a6cc908ad1fb8d5230d7f26cd155d01cb6f1f395174aeff74dbc554de1416864e87ea2b420cf948de4dfc4b4"
 
 RPROVIDES:${PN} += "cmake-uriparser \
 liburiparser-devel \

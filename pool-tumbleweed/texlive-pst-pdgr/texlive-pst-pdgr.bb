@@ -8,10 +8,10 @@ with LaTeX and PlainTeX. A separate Perl program for generating \
 TeX files from spreadsheets is available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn45875"
+PV = "2026.226.0.0.4svn45875"
 
-RPM_NAME = "texlive-pst-pdgr-2023.209.0.0.4svn45875-54.2.noarch.rpm"
-RPM_HASH = "6cee228d8755622d9adc814959baa15c87b12a049bb3ddfd7f11df24d1334c055dfceb353b06051a652e10eefb609a3e6ba7b232a5b343f447127bf090de2b92"
+RPM_NAME = "texlive-pst-pdgr-2026.226.0.0.4svn45875-60.4.noarch.rpm"
+RPM_HASH = "5e51fced3711757996fc0c2db553102fe9626c175ccb88e5fbe4ccd1225a76416018169422bbf5516c825a40460b27f42e54cdeb62e62c05af850c2cd6e4a5ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-pdgr.cfg \

@@ -8,14 +8,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.1"
 
-RPM_NAME = "syslogd-1.5.1-802.4.aarch64.rpm"
-RPM_HASH = "cbee6ca59a14baafb5bc4662f2fc98e7d6ee557429b73af031a19a800304f15b6f52adea2a6bb3d5f09fc2bf7ce8b622c74d2450f96d2859e9368e87acabe500"
+RPM_NAME = "syslogd-1.5.1-808.4.aarch64.rpm"
+RPM_HASH = "08c902f9901c1969a8572bfc4085b7cf0121edfc0a1f12036f1f7cd9eed87e181c729359cb22644c2e5baf06727750b3bf10975228a78460ed042beb01361fa1"
 
 RPROVIDES:${PN} += "config-syslogd \
 sysklogd \
 syslog \
-syslogd \
-sysvinit-syslog"
+syslogd"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \

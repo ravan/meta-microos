@@ -4,10 +4,10 @@ for talking to logic analyzer hardware and reading/writing the acquired data \
 into various input/output file formats."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.2"
+PV = "0.6.0~git20241020.f06f788"
 
-RPM_NAME = "libsigrok4-0.5.2-4.13.aarch64.rpm"
-RPM_HASH = "66bebbcef3998b9bb2ad4dcdf6f3b14d9635529c18c067086a87cde17a22fd18f432d60fdea91a6f5a0caa5961bf8d9415fb853241f015d043593374425767cc"
+RPM_NAME = "libsigrok4-0.6.0~git20241020.f06f788-1.7.aarch64.rpm"
+RPM_HASH = "579283a7afeb7fb18b395be09f6c12fa8d202192f8e82e6c8ca1367768196047c083ef6c12deef1d2b9064a43cda6d92be85c533b02ef5bd88fc6a889357fdd5"
 
 RPROVIDES:${PN} += "libsigrok.so.4 \
 libsigrok4"
@@ -26,6 +26,7 @@ libserialport.so.0 \
 libsigrok-data \
 libtirpc.so.3 \
 libusb-1.0.so.0 \
+libz.so.1 \
 libzip.so.5"
 
 inherit rpm

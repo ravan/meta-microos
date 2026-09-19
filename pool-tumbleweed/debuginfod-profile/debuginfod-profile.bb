@@ -3,10 +3,10 @@ DESCRIPTION = "The debuginfod-profile package contains a profile files that set 
 URL for a distribution."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.189"
+PV = "0.194"
 
-RPM_NAME = "debuginfod-profile-0.189-5.1.aarch64.rpm"
-RPM_HASH = "f314d2c7ff1e8ea574ff9ef2da78085ce2b6415a169a3de67b5964e6b328f799dce4cec0450d99e8913f62228bee38fa461d7e9ccff4dffffc12724301b0c73c"
+RPM_NAME = "debuginfod-profile-0.194-1.2.aarch64.rpm"
+RPM_HASH = "d80fd8a5134fc5bcde23e2ad0c0c6e039a0b6ea5c242dffba4c9d121b537ab406e18c0a6eea8d88e67e5172d6259139ec8896f8df04eaa5564d2364824f91436"
 
 RPROVIDES:${PN} += "config-debuginfod-profile \
 debuginfod-profile"

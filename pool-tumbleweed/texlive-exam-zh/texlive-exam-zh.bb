@@ -13,15 +13,16 @@ environment to typeset choice items easily and automatically; \
 design the seal line easily; and more (see manual)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.20svn64434"
+PV = "2026.226.0.0.2.6svn76834"
 
-RPM_NAME = "texlive-exam-zh-2023.209.0.0.1.20svn64434-53.1.noarch.rpm"
-RPM_HASH = "a31a84e9a7b0aa10e9bdd4d011529c4e5b87ba3901ec25071dce320020524dd40f4e3a41ec08d744b5134f646f63014857e1d9cf9933c223b171723655ea6947"
+RPM_NAME = "texlive-exam-zh-2026.226.0.0.2.6svn76834-59.2.noarch.rpm"
+RPM_HASH = "fdad9b87ac74786618bb3f7d7b4205b880b37d9e75439899b731ffae9608e7d81effc33fd295cde0be20b22ec2d761dc6eea66e510b22cb7ceeadb11cd4003e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exam-zh-chinese-english.sty \
 tex-exam-zh-choices.sty \
 tex-exam-zh-font.sty \
+tex-exam-zh-math.sty \
 tex-exam-zh-question.sty \
 tex-exam-zh-symbols.sty \
 tex-exam-zh-textfigure.sty \

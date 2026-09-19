@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.12"
 
-RPM_NAME = "libopusfile0-0.12-2.4.aarch64.rpm"
-RPM_HASH = "c52002bfc0d54d70b0afe627d3eac1c9271da7190d8270a5af3aa0b244f048a1197c48d0bb06771c4a3b49bf5bde830aabded5351e1110c1670fedb4e7f23615"
+RPM_NAME = "libopusfile0-0.12-2.14.aarch64.rpm"
+RPM_HASH = "f44b015a45cf2ff9d9fcda51e2e3687c1e3bea991146379379ea8bb56b546de34171aa10c736224105bd61051ed3eeec646c5225e270cba6a4c4933cc95b5d5b"
 
 RPROVIDES:${PN} += "libopusfile.so.0 \
 libopusfile0 \

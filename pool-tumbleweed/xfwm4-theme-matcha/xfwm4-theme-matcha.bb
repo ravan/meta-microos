@@ -1,13 +1,28 @@
 SUMMARY = "Matcha Xfwm4 themes"
 DESCRIPTION = "Matcha is a flat Design theme for GTK 4, GTK 3, GTK 2 and Gnome-Shell. \
  \
-This package contains the Xfwm4 themes."
+This package contains the Xfwm4 themes. \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+ \
+This package contains the Plank themes."
 LICENSE = "GPL-3.0-only"
 
-PV = "20230403"
+PV = "20250411"
 
-RPM_NAME = "xfwm4-theme-matcha-20230403-1.1.noarch.rpm"
-RPM_HASH = "2285a2a24e1108073b3c0e2084bfcb2e3fadc4a4c36dd20f78393fd39a2bc6212c64ea6f222d350118623d04fc766bdc74d0bea0d5bd1c1310fe5a0050329aab"
+RPM_NAME = "xfwm4-theme-matcha-20250411-1.4.noarch.rpm"
+RPM_HASH = "ef5a5d097b9d61133c83ff5ad14f93bfad25545815b359cfb35392e2614780c6378cd58f6ebadbfc6eef08d1c5db26cdf3278c398cf2db298e6d94b7d60f83da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xfwm4-theme-matcha"

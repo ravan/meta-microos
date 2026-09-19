@@ -5,14 +5,16 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.11"
 
-RPM_NAME = "dogtail-0.9.11-1.14.noarch.rpm"
-RPM_HASH = "406b7a3278bd322f71180d82ee30f69cfda7f5aac7db771f8ca3150b3e8c13ad13230fd612ebe77860bc382e13311464fc9abfd109025abd00d6f168ef98ad1e"
+RPM_NAME = "dogtail-0.9.11-2.5.noarch.rpm"
+RPM_HASH = "b42f259810260effdbc1d1f4a07bee9565302a167323ce312b3c45579ed1fced92bbabca15e356bfcf199fb56e0a79b20739aaa9708c6372fcf0095bd31644c0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "dogtail"
+RPROVIDES:${PN} += "dogtail \
+python3.13dist-dogtail \
+python3dist-dogtail"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 hicolor-icon-theme \
 python-abi \

@@ -2,10 +2,10 @@ SUMMARY = "A DIscrepany AnaLYZer for ERlang programs"
 DESCRIPTION = "A DIscrepany AnaLYZer for ERlang programs."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2.2"
+PV = "28.5.0.4"
 
-RPM_NAME = "erlang-dialyzer-25.3.2.2-1.1.aarch64.rpm"
-RPM_HASH = "06302c58f16d149de4ef04b844ce43ce3ceeedd9513f130aa362074b56d2c5bb9012c604a41afc3aaf7f143705d20a567d0a06468ff532a34f3d96913b6f3f6a"
+RPM_NAME = "erlang-dialyzer-28.5.0.4-1.1.aarch64.rpm"
+RPM_HASH = "a410d3ab00d5c671d1df6de651d948348fa1a14055fea416532d43e7f74bf14450e012805b40b05520eb27f8ac46d23756f8ea217b7ec6832cc1e9ae9ac45f6c"
 
 RPROVIDES:${PN} += "erlang-dialyzer"
 

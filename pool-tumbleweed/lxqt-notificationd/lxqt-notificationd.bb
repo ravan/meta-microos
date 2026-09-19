@@ -2,23 +2,24 @@ SUMMARY = "LXQt Notification daemon"
 DESCRIPTION = "The LXQt Notification daemon"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "lxqt-notificationd-1.3.0-1.2.aarch64.rpm"
-RPM_HASH = "98549c4ec3dfff1e7b929a43f8eddc509ef324e1e9d5cc574494e22b9797d3a6655551892d74f700e31882c6c1a8db6977e011d85ce1c2a35bf436069d4e9a41"
+RPM_NAME = "lxqt-notificationd-2.4.0-1.2.aarch64.rpm"
+RPM_HASH = "dd910b966be9cc09db3e98562a2087ddda297226014261dee122c2769f6f06a18d751003a44d4002f572d33faecbd0e68797466a5093a57ab410402d2071e025"
 
 RPROVIDES:${PN} += "config-lxqt-notificationd \
 lxqt-notificationd"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5WindowSystem.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xdg.so.3 \
+libKF6WindowSystem.so.6 \
+libLayerShellQtInterface.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xdg.so.4 \
 libc.so.6 \
-liblxqt.so.1 \
+liblxqt.so.2 \
 libstdc++.so.6"
 
 inherit rpm

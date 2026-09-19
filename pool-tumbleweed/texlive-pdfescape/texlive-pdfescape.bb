@@ -4,10 +4,10 @@ DESCRIPTION = "This package implements pdfTeX's escape features \
 \\pdfescapestring) using TeX or e-TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.15svn53082"
+PV = "2026.226.1.15svn77682"
 
-RPM_NAME = "texlive-pdfescape-2023.209.1.15svn53082-52.1.noarch.rpm"
-RPM_HASH = "56e05516e89088827e0ae42d8900b189c0c82c74943aa50cc4b0b6b841d99eef5dfae9a4b68cc19e5bfd6b570bd7d51409a0cd1d7436bf31c790b2e0fe3934e0"
+RPM_NAME = "texlive-pdfescape-2026.226.1.15svn77682-58.2.noarch.rpm"
+RPM_HASH = "92b5ddb0d02773eb73b757799bdad78855c8b8eb41efec9d29417388608d414971fe45711a940bb92f241effdd3b4c3a0327cffba248b09a8dcffc4c75f68d3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfescape.sty \

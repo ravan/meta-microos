@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains an Ada compiler and associated development 
 tools based on the GNU GCC technology."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.2.1+git7683"
+PV = "13.5.0+git10516"
 
-RPM_NAME = "gcc13-ada-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "aa0d8682d5d921beac0c372f7d2b87d1629302a4eeb4b2ad81577eef457195ba91aeaf8ef547c381690846cf2d2945c6e68be70af50fbcd8361b17a6381d0ab6"
+RPM_NAME = "gcc13-ada-13.5.0+git10516-1.1.aarch64.rpm"
+RPM_HASH = "71d149144dfc14d041916d7beb98ab1598894ce8fcf3d707e82d8ada49de8dd0116714f15fb45b001a2d5a66e0c746a19b7f2ab160e7137c5fc74107ac0c7658"
 
 RPROVIDES:${PN} += "gcc13-ada"
 
@@ -16,6 +16,7 @@ libada13 \
 libc.so.6 \
 libgmp.so.10 \
 libisl.so.23 \
+libm.so.6 \
 libmpc.so.3 \
 libmpfr.so.6 \
 libz.so.1 \

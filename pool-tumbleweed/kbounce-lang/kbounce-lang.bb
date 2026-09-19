@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kbounce"
 DESCRIPTION = "Provides translations for the 'kbounce' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kbounce-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "62d2c2aeb074be12345575cdc29c87767bde841dc352aa3cc1d3eb63406c428231fbe0c013617a8a8b8b196e67671f7fff691d296ae506a25c04fa689a41aba3"
+RPM_NAME = "kbounce-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "59f2ad83cd288b8aaa835baa314980dbb3140629143cb37e0f45d676b6f09364731add153272c682f5431cd03a1d8a513db7d7888ebd17c362693fc2764e1eab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kbounce-lang \
 kbounce-lang-all \
 locale-kbounce-af \
 locale-kbounce-ar \
+locale-kbounce-ast \
 locale-kbounce-be \
 locale-kbounce-bg \
 locale-kbounce-bn \
@@ -38,6 +39,7 @@ locale-kbounce-he \
 locale-kbounce-hi \
 locale-kbounce-hr \
 locale-kbounce-hu \
+locale-kbounce-ia \
 locale-kbounce-id \
 locale-kbounce-is \
 locale-kbounce-it \

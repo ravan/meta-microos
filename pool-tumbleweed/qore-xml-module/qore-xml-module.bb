@@ -4,10 +4,10 @@ DESCRIPTION = "This package contains the xml module for the Qore Programming Lan
 XML is a markup language for encoding information."
 LICENSE = "MIT"
 
-PV = "1.8.1"
+PV = "2.0.0"
 
-RPM_NAME = "qore-xml-module-1.8.1-1.1.aarch64.rpm"
-RPM_HASH = "1c349d3f1b2d420d122ecaecdec949cff5521809c26f7324a8768c48448f947f18414238c354d26b146f3e596e89872a3aaedfecccceb6b48bd7fb8ff91fd8bd"
+RPM_NAME = "qore-xml-module-2.0.0-1.8.aarch64.rpm"
+RPM_HASH = "6d99aa7f80a1a4faf4b4a419dfc651d1248e6af3f9a6ba45ee367e7d439d027c189a74a7ad24cd029a7d46f0c8b544f2e32a0475c10e5fd0898909ad76ced5d9"
 
 RPROVIDES:${PN} += "qore-xml-module"
 
@@ -16,7 +16,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 qore-module-abi"
 
 inherit rpm

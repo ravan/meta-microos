@@ -9,10 +9,10 @@ review. The class is a development of the apa class (which is \
 no longer maintained)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.34svn53406"
+PV = "2026.226.2.35svn67848"
 
-RPM_NAME = "texlive-apa6-2023.209.2.34svn53406-55.1.noarch.rpm"
-RPM_HASH = "0bacd122b7e09a9589d4743a4e15060273176f3ae47d232927ecb5f98abb2a6e2bb5800d0bd3f535004cef12db57e1f627bd46e6bf70c9ed7dedf0a388635ad7"
+RPM_NAME = "texlive-apa6-2026.226.2.35svn67848-61.2.noarch.rpm"
+RPM_HASH = "0c207465d129ea406a4f2b852843d055244666d88c6f29a8ddb4ef909e2f9356a535453d746cac05ae8f09c9daa9ff6d64f88dbca87f94ff1cc39642da88b9c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-APAendfloat.cfg \
@@ -42,6 +42,7 @@ tex-flushend.sty \
 tex-fontenc.sty \
 tex-ftnright.sty \
 tex-geometry.sty \
+tex-gettitlestring.sty \
 tex-graphicx.sty \
 tex-lmodern.sty \
 tex-longtable.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-numprint"
 DESCRIPTION = "This package includes the documentation for texlive-numprint"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.39svn27498"
+PV = "2026.226.1.39svn77682"
 
-RPM_NAME = "texlive-numprint-doc-2023.209.1.39svn27498-55.1.noarch.rpm"
-RPM_HASH = "a5e9b6a13f47ac3a6847f7f10d7cccc69af766b98b50059da966febc8a9c29d1cc7010c38199e4013b5ee74620f88b7e5c8f8f2edb728ad0ff1a837debd00919"
+RPM_NAME = "texlive-numprint-doc-2026.226.1.39svn77682-61.2.noarch.rpm"
+RPM_HASH = "842a5c7e1cdad0a90af077c35a8db54a01e2f9c45b81022469deca23bb1ac828759252ff2f2e32cba9346902e75d25f48a03d982606e41fd237a0ef2bba729ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-numprint-doc"

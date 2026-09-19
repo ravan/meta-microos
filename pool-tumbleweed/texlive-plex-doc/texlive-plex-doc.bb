@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-plex"
 DESCRIPTION = "This package includes the documentation for texlive-plex"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64496"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-plex-doc-2023.209.svn64496-53.1.noarch.rpm"
-RPM_HASH = "4fc16f24d60686bd98be714a868c63d961d335e0a9df86986682237060dbb03a8c6fc9ada3a3d2f758b69c8817d5f61b12c6ebbe95613a6ef36574e833f602f1"
+RPM_NAME = "texlive-plex-doc-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "5c681a667d5eef4179340d268bab6377839f1ea7d4c5e2da58c9d716699b298e5b48100ec24b121caf991e91a3083833e6fd6021864f261b5da266afdb58a153"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-plex-doc"

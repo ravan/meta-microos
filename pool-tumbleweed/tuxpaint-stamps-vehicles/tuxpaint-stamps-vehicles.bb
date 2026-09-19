@@ -3,10 +3,10 @@ DESCRIPTION = "tuxpaint-stamps-vehicles package contains a set of 'Rubber Stamp'
 which can be used with the 'Stamp' tool within Tux Paint."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2021.11.25"
+PV = "2023.07.20"
 
-RPM_NAME = "tuxpaint-stamps-vehicles-2021.11.25-1.5.noarch.rpm"
-RPM_HASH = "ad2fb07d9c3529b17dac15e4fa5f840bfdf497f4f0714179624b4b7c90576285d04a72acd3f6cef8251ddbff46a781c98852452163bfb2a3b4e6a0a667858e9b"
+RPM_NAME = "tuxpaint-stamps-vehicles-2023.07.20-1.9.noarch.rpm"
+RPM_HASH = "be29efe43ee9fa089e71a8d9c62cd82abbf7c300f644ca6f77d28a53d6aac923bea2631d71aa5cb818b3d5998f2f10cc682b0cc1e74517449a55fc62a5e9de28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-stamps-category \

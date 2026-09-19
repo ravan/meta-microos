@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cfr-initials"
 DESCRIPTION = "This package includes the documentation for texlive-cfr-initials"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn61719"
+PV = "2026.226.1.01svn75712"
 
-RPM_NAME = "texlive-cfr-initials-doc-2023.209.1.01svn61719-53.1.noarch.rpm"
-RPM_HASH = "719073a0db7b293f9e23d04c00e8b354fd5e5c2cd3bf469a0a9fbd9e156f828f39aed35cb26e536d6bc85821c379d1d1483089c05078e57de2f01595dc08699b"
+RPM_NAME = "texlive-cfr-initials-doc-2026.226.1.01svn75712-59.2.noarch.rpm"
+RPM_HASH = "67404d724dfcfc6b9e4af011e3a690ed7415138a8321fa6d3ad59284eac2f508e08c98e3daa80636d0b926b668355696ad3d1e2f59006df62dfbf2a9a050270f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cfr-initials-doc"

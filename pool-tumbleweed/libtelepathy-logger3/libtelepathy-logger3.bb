@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "libtelepathy-logger3-0.8.2-8.1.aarch64.rpm"
-RPM_HASH = "d7020ddbd2baaa8c57379eb8c80bf63e3ed3c1fd2fcffff4b2187d97adf67a07cbf74263202fd510e3514e86ef1dec1645dc52d74f48aff0e1970a15714fb9bf"
+RPM_NAME = "libtelepathy-logger3-0.8.2-11.4.aarch64.rpm"
+RPM_HASH = "ec456247a97eea462fbd182447cbb7214e40567893b1bf9d93bc72440531d606db4217c1dac69de085a4dab4925ad42644e55d3243b0dc4a7c3dceceee611fe4"
 
 RPROVIDES:${PN} += "libtelepathy-logger.so.3 \
 libtelepathy-logger3"
@@ -26,7 +26,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libsqlite3.so.0 \
 libtelepathy-glib.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 telepathy-logger-schema"
 
 inherit rpm

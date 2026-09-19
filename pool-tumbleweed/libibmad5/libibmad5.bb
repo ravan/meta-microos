@@ -4,10 +4,10 @@ and management programs. These include MAD, SA, SMP, and other basic IB \
 functions. This package contains the runtime library."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "47.0"
+PV = "63.0"
 
-RPM_NAME = "libibmad5-47.0-3.1.aarch64.rpm"
-RPM_HASH = "31e4c5c314a44bb562b86b2b84db91731dd9c353f99c74809d07eb6bb1a3ee19deeeb272ee2956a0a3618fb9be4fc2fc0c803288ae41f980c3ff9e4332c91971"
+RPM_NAME = "libibmad5-63.0-1.3.aarch64.rpm"
+RPM_HASH = "b3635972740a6209fd1ac8bc366c0a589b8c06010705f991062575dfe3d644a8961bf160fc2c8bb6ca57a87f161c5b169cd643f761019b1a8a2cc73dc67e63e3"
 
 RPROVIDES:${PN} += "libibmad.so.5 \
 libibmad5"

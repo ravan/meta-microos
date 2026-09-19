@@ -10,8 +10,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "soci-mysql-devel-4.0.2-4.5.aarch64.rpm"
-RPM_HASH = "de296bfd874cad1e488cc5a73434235a174e847764040f05eda38c67a199db50d7b2cebfe2227240140a151037c79ad60f77a801f6b3af2cbcea6861ca2c9768"
+RPM_NAME = "soci-mysql-devel-4.0.2-5.10.aarch64.rpm"
+RPM_HASH = "fe5198830de1860b53358271296323e96c43604373544bbe8f1c80eae0334a993e2d5cc2630d1d2233c3656d30bc951ae1b120ac12b2e7c4b34ced0d158a3d4d"
 
 RPROVIDES:${PN} += "soci-mysql-devel"
 

@@ -7,10 +7,10 @@ Hash sums are used to ensure and verify integrity of large volumes of \
 data for a long-term storing or transferring."
 LICENSE = "0BSD"
 
-PV = "1.4.4"
+PV = "1.4.6"
 
-RPM_NAME = "librhash1-1.4.4-1.1.aarch64.rpm"
-RPM_HASH = "3f7f92d9c6646e6d73fb7a687451e346ba623134dc9252b5c74d8abe7d9047093e4b1d6c5f98f064f56ed9e2a47c8ceb8450f1f78b93463a117704eee302373f"
+RPM_NAME = "librhash1-1.4.6-2.3.aarch64.rpm"
+RPM_HASH = "6136e4eb1df66444ce6afaa60e24d45d32f8f8356d88e9b728172f1024729b59c91f35f2c8ef16c6ff1bbe76270581f17fb9929da7590478d360a52dfc8b85aa"
 
 RPROVIDES:${PN} += "librhash.so.1 \
 librhash1"

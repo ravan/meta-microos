@@ -10,10 +10,10 @@ package does not include OpenType/TrueType files, which are \
 available from Naver)"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.0svn29558"
+PV = "2026.226.3.0svn29558"
 
-RPM_NAME = "texlive-nanumtype1-2023.209.3.0svn29558-55.1.noarch.rpm"
-RPM_HASH = "7a9d2a45e4533eb430c257d74dba0d96768ac999ed1c30d85974e5cc47022f1bd2302ca7ab5934c067ef22aaeee4cb26e688eba14f0c8d5dc78f9ba2e38eb05c"
+RPM_NAME = "texlive-nanumtype1-2026.226.3.0svn29558-61.2.noarch.rpm"
+RPM_HASH = "122789575262efa28c916a0ffe48c6b6546f264b80db918e51a472e2f02bfa7dbcd7124c6e1a016f60a386d2f7ea77bee87a8d89676b4d4c52c015387d37b218"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-c70nanumgt.fd \

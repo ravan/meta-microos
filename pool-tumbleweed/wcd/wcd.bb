@@ -11,10 +11,10 @@ includes a full-screen interactive  directory tree browser \
 with speed search."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.0.5"
+PV = "6.0.6"
 
-RPM_NAME = "wcd-6.0.5-1.2.aarch64.rpm"
-RPM_HASH = "aa86a8ae4e7c322a4299b00d5ed8472425dcecd72ed1319095e00c0bbd5d122ef2cd8385057e8604fbe8235a9fc5b028eea12281146f12db2aa4119d032ed414"
+RPM_NAME = "wcd-6.0.6-1.3.aarch64.rpm"
+RPM_HASH = "96644a139ae53d790408e054b6fea775dc467a83820dc1f209b14e06e1ce172b78807b24305b0d404d4803d31e93fb6d5dc78839c60bad6743ab3797d27fb709"
 
 RPROVIDES:${PN} += "config-wcd \
 wcd"

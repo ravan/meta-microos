@@ -6,10 +6,10 @@ version of the package pst-node and some other pstricks-related \
 material."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.95svn29803"
+PV = "2026.226.0.0.95svn29803"
 
-RPM_NAME = "texlive-pst-layout-2023.209.0.0.95svn29803-53.1.noarch.rpm"
-RPM_HASH = "d21843dd53cda6a46eb3c9ead003a2ad83bed354a2f84e229df5bd40c801620cd630396086ead80ad2cfb3eb8c8101df06e25f51c5b07302c0f423f9fb297438"
+RPM_NAME = "texlive-pst-layout-2026.226.0.0.95svn29803-59.2.noarch.rpm"
+RPM_HASH = "0e43af23ddd5666e425c73988253682af20ccf2a8f9e7b40bfaaa76c2ea9e6db62b13195d5a61cc69e7f026536859f2bcbb2bbdcee5af614d240b5804cca5581"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-layout.sty \

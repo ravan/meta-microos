@@ -5,10 +5,10 @@ reference implementation of the major components of the Domain Name \
 System.  This package includes the components to operate a DNS server."
 LICENSE = "MPL-2.0"
 
-PV = "9.18.18"
+PV = "9.20.26"
 
-RPM_NAME = "bind-9.18.18-1.1.aarch64.rpm"
-RPM_HASH = "3fc39ffb43c73ec0f540cf55d9ff2bea0ce9c02d6e9671931af1c3e58fea3012735cd9977287149617d3594770e9adb8a28f2ab36240ca0fa42fb9ad3829c19c"
+RPM_NAME = "bind-9.20.26-1.2.aarch64.rpm"
+RPM_HASH = "7eaafdbce5f071a9ae0e1d579bcad381b7fa2aed728825b82942fcabf9b5844e7c958ab747726cebd8c74fff93b8514db65186c3f73c13a323d4a48aa5cff3ea"
 
 RPROVIDES:${PN} += "bind \
 bind8 \
@@ -26,22 +26,23 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 bind-utils \
 fillup \
 ld-linux-aarch64.so.1 \
-libbind9-9.18.18.so \
 libc.so.6 \
 libcap.so.2 \
 libcrypto.so.3 \
-libdns-9.18.18.so \
+libdns-9.20.26.so \
 libfstrm.so.0 \
-libisc-9.18.18.so \
-libisccc-9.18.18.so \
-libisccfg-9.18.18.so \
+libisc-9.20.26.so \
+libisccc-9.20.26.so \
+libisccfg-9.20.26.so \
+libjemalloc.so.2 \
 libjson-c.so.5 \
 libmaxminddb.so.0 \
 libnghttp2.so.14 \
-libns-9.18.18.so \
+libns-9.20.26.so \
 libprotobuf-c.so.1 \
+liburcu.so.8 \
 libuv.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 sysuser-shadow"
 

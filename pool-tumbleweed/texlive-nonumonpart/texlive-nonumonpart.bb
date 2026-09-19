@@ -5,10 +5,10 @@ options and defines no user commands; the user needs only to \
 load it, and the requirement is met."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn22114"
+PV = "2026.226.1svn77682"
 
-RPM_NAME = "texlive-nonumonpart-2023.209.1svn22114-55.1.noarch.rpm"
-RPM_HASH = "f48514d98d7f373d7fb7eb207566dd31436b0790b0bcfa419e66c3f5cd351c3d7a970eb934a654ccc3465336544fa3688a211cc0b6a110990d4c7f308a79bf2c"
+RPM_NAME = "texlive-nonumonpart-2026.226.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "4bdfb13a384308066703dbf6afa3dce97fef3a5af0e629dbdd469da5a19a45e0b4bfe8853af3caabaff1137bee65bbd7ecd616902d010d912cae692051aa7f59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nonumonpart.sty \

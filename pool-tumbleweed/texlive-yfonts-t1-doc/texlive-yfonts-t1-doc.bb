@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-yfonts-t1"
 DESCRIPTION = "This package includes the documentation for texlive-yfonts-t1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn36013"
+PV = "2026.226.1.0svn36013"
 
-RPM_NAME = "texlive-yfonts-t1-doc-2023.209.1.0svn36013-53.2.noarch.rpm"
-RPM_HASH = "627be681314c9381c5a26a509220350f82d3a812eece0f6136fe6bab6e3d167a298dacb50c7af99863b5a6af61b8f9bf6282960cc664dd5e16b6f7d638f20232"
+RPM_NAME = "texlive-yfonts-t1-doc-2026.226.1.0svn36013-59.4.noarch.rpm"
+RPM_HASH = "0fb80cced40aadce66fca3aadd01a62c706cf7b4b5a9400fdb652c2e3f3d1a4603b2891f701771d4f93d8b7aa8f587d732fa01b2a8eaa190d0e42cc04c4e051b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yfonts-t1-doc"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-only"
 
 PV = "1.7.8"
 
-RPM_NAME = "libdevil-tools-1.7.8-11.12.aarch64.rpm"
-RPM_HASH = "bb472bd27abb3965b5e573b82b1c354fa4af5dc193d860506ab189754f5812480145b859095fb11cd60614ac95a1bec343bb323d02ec9b55f95264190bd68bd5"
+RPM_NAME = "libdevil-tools-1.7.8-12.13.aarch64.rpm"
+RPM_HASH = "78650883095b7ee232656616640888443417a658b7383d72eddf798129cf391ef1bb928cc6d71d072e86db8c8ef9749d4c2c8279ba17fe5fff8a3fef85f550a9"
 
 RPROVIDES:${PN} += "libdevil-tools"
 

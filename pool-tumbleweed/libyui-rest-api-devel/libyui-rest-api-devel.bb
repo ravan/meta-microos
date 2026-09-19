@@ -4,10 +4,10 @@ DESCRIPTION = "This package provides a libyui REST API plugin. \
 This is a development subpackage."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui-rest-api-devel-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "5fd2bfecf950908d50f5d7c1974dbf8b559148fa0746cbd65038e899973dcfac08e9c676ed09906bfdee34ff477ba3d8d9444113cbf800735313e06dfe040b71"
+RPM_NAME = "libyui-rest-api-devel-4.7.7-1.2.aarch64.rpm"
+RPM_HASH = "57fafa305999f920b2a4cd8462562e0e59658be29df607dfd4d49868fb51dad35a20fd1c50998052e19f11881793dc1af1eb22f2632ea425dc594bbede81637b"
 
 RPROVIDES:${PN} += "libyui-rest-api-devel"
 

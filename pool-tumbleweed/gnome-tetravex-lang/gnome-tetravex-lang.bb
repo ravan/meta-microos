@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-tetravex"
 DESCRIPTION = "Provides translations for the 'gnome-tetravex' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.38.2"
+PV = "3.38.3"
 
-RPM_NAME = "gnome-tetravex-lang-3.38.2-2.8.noarch.rpm"
-RPM_HASH = "e354b4d9fc460de40f4a5ff1ecb48506a535157e8804b4060b6701264b48ec4de358990920c4b6ff33710b268a18704cefbe72f568324997a9325ae93815fd91"
+RPM_NAME = "gnome-tetravex-lang-3.38.3-1.7.noarch.rpm"
+RPM_HASH = "459af5b425c744cc1470e3011400e7fdf30d41b7cd22b5e6a4d0e14ef6d7e91f3b562ca791f4a07c64f2d762add241c198ed070112db1f1f73f7a407899a2e74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-tetravex-lang \

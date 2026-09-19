@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.47"
 
-RPM_NAME = "rfcdiff-1.47-1.10.noarch.rpm"
-RPM_HASH = "a51c6ee225eeb4f6d73003fde4927a639340bade6ecaee653360a8e4a65ec93e158596728d742aec1673fae6bc096500c3f096a3e2ec08ff6ae223902a76ef04"
+RPM_NAME = "rfcdiff-1.47-1.18.noarch.rpm"
+RPM_HASH = "08ec7e02277b404ecc8aa0e5b481b7f915fc9cb6b35d15350fef9745bf459d6d331f894e14ed859a67bc026256d83c3567f1a12da15166b2d71c226624fc4d11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rfcdiff"

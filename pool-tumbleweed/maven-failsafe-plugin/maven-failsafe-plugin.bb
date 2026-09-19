@@ -16,10 +16,10 @@ integration-test phase thus enabling the post-integration-test phase \
 to execute."
 LICENSE = "Apache-2.0 & CPL-1.0"
 
-PV = "2.22.0"
+PV = "3.6.0"
 
-RPM_NAME = "maven-failsafe-plugin-2.22.0-8.2.noarch.rpm"
-RPM_HASH = "3437e638bab27a06fa95ee572cbd93caa8afea4865d347ab9bb4d57519f7730bb354f761fd82c2843341c5b3cf71761475c346038a3c9ff815bba2f66281e0fd"
+RPM_NAME = "maven-failsafe-plugin-3.6.0-1.1.noarch.rpm"
+RPM_HASH = "74f98406b1c4db5fc8de75982b395ccb5a6500fe7e97c07637e98bb805ba22a49a6c194a34f2f17d1966f9ddcac58b0863cc5ce36b60923703de6365615d69b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-failsafe-plugin \
@@ -28,9 +28,12 @@ mvn-org.apache.maven.plugins-maven-failsafe-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-commons-io-commons-io \
 mvn-org.apache.commons-commons-lang3 \
 mvn-org.apache.maven.shared-maven-shared-utils \
-mvn-org.apache.maven.surefire-maven-surefire-common"
+mvn-org.apache.maven.surefire-maven-surefire-common \
+mvn-org.apache.maven.surefire-surefire-api \
+mvn-org.apache.maven.surefire-surefire-booter \
+mvn-org.apache.maven.surefire-surefire-extensions-api \
+mvn-org.slf4j-slf4j-simple"
 
 inherit rpm

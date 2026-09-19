@@ -4,10 +4,10 @@ available via plugins. This enforces modularity and ensures well defined \
 component interaction via interfaces."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.3.0+git1571036065.9f3952b2"
+PV = "1.3.0+git1639054987.g0abd5e1"
 
-RPM_NAME = "vacuum-im-1.3.0+git1571036065.9f3952b2-1.21.aarch64.rpm"
-RPM_HASH = "5ea4ecafdb0ca2692c5f615a2b26e63ea9c5460a7c356e8e68112b825548521f1256b33849b6151eb917fb0b42299157cf5d7455e3e027ad5e2275fc436d1a2d"
+RPM_NAME = "vacuum-im-1.3.0+git1639054987.g0abd5e1-1.9.aarch64.rpm"
+RPM_HASH = "029acca79bf35b620a29999c1f28c89040c50cf79bde39bc8ecf301ca8d3b3bf27f5d9ca81d74d695ff0e81228edcb360f0f49bead748a5a0ec370a55a00c62a"
 
 RPROVIDES:${PN} += "libaccountmanager.so \
 libannotations.so \

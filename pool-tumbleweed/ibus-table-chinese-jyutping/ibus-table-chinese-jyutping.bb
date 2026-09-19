@@ -3,10 +3,10 @@ DESCRIPTION = "ibus-table-jyutping provides the Jyutping input method on IBus Ta
 the IBus framework."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.12"
+PV = "1.8.14"
 
-RPM_NAME = "ibus-table-chinese-jyutping-1.8.12-1.2.noarch.rpm"
-RPM_HASH = "b7534d9781fff0fa7a6676530e4d9b9c3d5eefba8eb9818a4983e4c0255d515cb7347763e01278b08fae6a7d5d95efb982233dba8a0208c9c12b3a7a3acf36e6"
+RPM_NAME = "ibus-table-chinese-jyutping-1.8.14-1.6.noarch.rpm"
+RPM_HASH = "691015ea58d8574bd1f7985ceef39ef4a6a63e618f0b6cd6596ce51edb14406a0b5ba0facdf36753d7824fec3e7ab77ff166ab2133934d95d63b149e7a7861a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-chinese-jyutping \

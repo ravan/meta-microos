@@ -12,13 +12,22 @@ package also offers its own LaTeX support for OT2 encoded \
 fonts, CM bright shaped fonts and Concrete shaped fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.5gsvn15878"
+PV = "2026.226.3.5gsvn77838"
 
-RPM_NAME = "texlive-lh-2023.209.3.5gsvn15878-55.1.noarch.rpm"
-RPM_HASH = "45310ee219af23fe603e960eae84de77c1042741c02b6f46eeb1cddd74ceecc65c5f7fbf5dd6ff533731e2a8d21361850f9a6feb1a1f2c7f3546ba32cce5634e"
+RPM_NAME = "texlive-lh-2026.226.3.5gsvn77838-61.2.noarch.rpm"
+RPM_HASH = "6589fb630673d15935797819a67a119ed9223b8ebf949cfa3acd91244053fef8ff9939ceac04078f24198705582feb3d87740d7fbc2667903a9853b339c19651"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-lh-lcy.sty \
+RPROVIDES:${PN} += "tex-labx1095.tfm \
+tex-labx1200.tfm \
+tex-labx1728.tfm \
+tex-larm0600.tfm \
+tex-larm0800.tfm \
+tex-larm1095.tfm \
+tex-larm1200.tfm \
+tex-larm1728.tfm \
+tex-lati1200.tfm \
+tex-lh-lcy.sty \
 tex-lh-lcyccr.sty \
 tex-lh-lcyxccr.sty \
 tex-lh-ot2.sty \

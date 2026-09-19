@@ -3,23 +3,22 @@ DESCRIPTION = "This package provides the Haskell optparse-applicative library de
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.18.1.0"
+PV = "0.19.0.0"
 
-RPM_NAME = "ghc-optparse-applicative-devel-0.18.1.0-1.5.aarch64.rpm"
-RPM_HASH = "1f7d205ef59dea7a4160f37f239aaf2b27f550b981bf3b7aafd125c75b88e09964d4aa77a0a013dded0dbd1dc8f9acefb1b3d4c7567b1906057ca82422258f60"
+RPM_NAME = "ghc-optparse-applicative-devel-0.19.0.0-2.3.aarch64.rpm"
+RPM_HASH = "b34866d2767c83b3e9a752034772b92e5575efbbf1100c662e4ecd860db6a43b2a36780b6a36f8bcc73c8193802c4f08abc5b39e98161153029c4d17bbd3f763"
 
-RPROVIDES:${PN} += "ghc-devel-optparse-applicative-0.18.1.0-7FhZIXYdOMtK1gl2fqKmzm \
+RPROVIDES:${PN} += "ghc-devel-optparse-applicative-0.19.0.0-GyrRSLDSSh1GQCxnTYbnDq \
 ghc-optparse-applicative-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-prettyprinter-1.7.1-2SxWyEsMZJMFYq1EQglPJB \
-ghc-devel-prettyprinter-ansi-terminal-1.1.3-3IupTJ2X3shLTeXNz5r5E2 \
-ghc-devel-process-1.6.17.0 \
-ghc-devel-text-2.0.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-prettyprinter-1.7.2-I8Z9oIqYCiwIS8uRvukUd0 \
+ghc-devel-prettyprinter-ansi-terminal-1.1.4-IMyc3qw4SO1C4KUUC4JLom \
+ghc-devel-process-1.6.26.1-905d \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-transformers-0.6.3.0-4709 \
 ghc-optparse-applicative"
 
 inherit rpm

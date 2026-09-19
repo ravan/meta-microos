@@ -2,10 +2,10 @@ SUMMARY = "Translations for package magpie"
 DESCRIPTION = "Provides translations for the 'magpie' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.3+0"
+PV = "0.9.4+0"
 
-RPM_NAME = "magpie-lang-0.9.3+0-2.1.noarch.rpm"
-RPM_HASH = "b5f9e8b4e7545198cbe01615136012ae62abc873f83393f04316d10c0d23001b917d0de181b899639c33101f49d314d648830e9fac15ed4f8420c842d2e5e680"
+RPM_NAME = "magpie-lang-0.9.4+0-1.9.noarch.rpm"
+RPM_HASH = "ffd13c46a19e9bff4f1ccbdc15296ecb2470c697a11a8ae04f300826ef16a01fc07826f63c9c5b02e2b98660b7831b4e36df5eb6d8e8f76b2543c40788ac715a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-magpie-ar \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ltb2bib"
 DESCRIPTION = "This package includes the documentation for texlive-ltb2bib"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.01svn43746"
+PV = "2026.226.0.0.01svn43746"
 
-RPM_NAME = "texlive-ltb2bib-doc-2023.208.0.0.01svn43746-53.1.noarch.rpm"
-RPM_HASH = "d1fe4b7d40557fc9d18382c7c8757e766f9e6c2a5687376a86246f6aec0237cc0ef250da756c63c41942c0dcbb3617d38b9bdc58514f54fc13023ace040a92cb"
+RPM_NAME = "texlive-ltb2bib-doc-2026.226.0.0.01svn43746-59.2.noarch.rpm"
+RPM_HASH = "30d86c6b92b935f6ab7f1d6c8af07d3cb1e60f68dda545bb13048e2cbe3a7e3a48581c687b7d88b1d8845a4a27b6129ff2fbe83d3fbd344fb7ec66dea856639e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ltb2bib-doc"

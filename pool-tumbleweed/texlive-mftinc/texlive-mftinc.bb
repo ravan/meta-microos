@@ -6,10 +6,10 @@ for improved comment formatting and for typesetting font \
 tables."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn15878"
+PV = "2026.226.1.0asvn15878"
 
-RPM_NAME = "texlive-mftinc-2023.209.1.0asvn15878-55.1.noarch.rpm"
-RPM_HASH = "4d069294fb06024be69850d38b3a1ad0be56cbf24bfcde8931a400685ab76b42c2e21c97d1f4b5379218cc47fd60917357f9990a25752cf6d6b1e6a5ecbc1567"
+RPM_NAME = "texlive-mftinc-2026.226.1.0asvn15878-61.2.noarch.rpm"
+RPM_HASH = "2a5e00eff0148ad099cd3adc91df11bd648951da5202a287b1a91b9cab68c10765b8a6405b0a9b2290a340c906fb6f599d73f367ffe7d0338dcc66a0076fb5e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mftinc.sty \

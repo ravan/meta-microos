@@ -5,14 +5,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2"
 
-RPM_NAME = "obs-service-download_assets-0.2-1.1.noarch.rpm"
-RPM_HASH = "f02f4efaabcbbd29824b55dba48268b9eac128faf733d658f25fd5f9878debc0bfad6eeb8fc1b4ceba96910bacd3e9e5202fdf236585b48523d0ac1b2187fd73"
+RPM_NAME = "obs-service-download_assets-0.2-2.7.noarch.rpm"
+RPM_HASH = "1d2bfb1fea3818826db3c7c7772cd97c53b5c297609387411142486c99fc82ed645d0db63a67112bbef872efaf6095b34f00d9400a1ca166995be52908d2c053"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-obs-service-download-assets \
 obs-service-download-assets"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-build"
+build \
+perl-LWP--UserAgent"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.00"
 
-RPM_NAME = "blobwars-lang-2.00-3.1.noarch.rpm"
-RPM_HASH = "0044cdacd191f7df420cf89b28157ac8800bd281d4ae019c333b0c6dbcdcc3d20487793f7e5ea67ecd7ea283d7a4ebfd5a5ee3df5548adb68a5507da5686b9bb"
+RPM_NAME = "blobwars-lang-2.00-4.10.noarch.rpm"
+RPM_HASH = "d1c754739ab4d6c6c5f57b31a8263feb1e14037820bb4162360af36c8c46e0efd6b764d16088e76a3394b9a90334ce7d6ae60dd69e2665d39ac44ee0ca160e6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blobwars-lang \

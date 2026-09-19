@@ -3,17 +3,16 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmailtransport-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "a5fc26efaf4b9d69ac78d4ec979b33a50b25905e2464a1eb49890edcc67a6facf785a8def5d832720d415da7f4b398ed1b03797773e4e7bf377d182d62ab557b"
+RPM_NAME = "kmailtransport-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "2a1458fbb98c47ed815367e15b3d6d4aaa32be879a91554075077a214166acabebaa29679315bc73b340039df7d42d8f554870fbba904e02efe1f7cecc6eb14f"
 
-RPROVIDES:${PN} += "cmake-KF5MailTransport \
-cmake-KPim5MailTransport \
+RPROVIDES:${PN} += "cmake-KPim6MailTransport \
 kmailtransport-devel"
 
-RDEPENDS:${PN} += "cmake-KF5Wallet \
+RDEPENDS:${PN} += "cmake-KF6Config \
 cyrus-sasl-devel \
-libKPim5MailTransport5"
+libKPim6MailTransport6"
 
 inherit rpm

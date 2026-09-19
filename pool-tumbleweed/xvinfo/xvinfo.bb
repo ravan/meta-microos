@@ -3,10 +3,10 @@ DESCRIPTION = "xvinfo prints out the capabilities of any video adaptors associat
 with the display that are accessible through the X-Video extension."
 LICENSE = "X11"
 
-PV = "1.1.5"
+PV = "1.1.6"
 
-RPM_NAME = "xvinfo-1.1.5-1.3.aarch64.rpm"
-RPM_HASH = "ad6da2c268976f1a8b03e545062d313ccc6881d72c96b2ebbdb894b4b4b6aa8321588f06730531db2cb0ba6d4ae2e11b660f77fa1c96c6581b96f8cf0f5bf380"
+RPM_NAME = "xvinfo-1.1.6-1.2.aarch64.rpm"
+RPM_HASH = "39b09aba11dadc614da7c7df5d54e7b8476216db82cff4d3f95ce899e3edc49b68d07d25acc9a56058b62df4460d5f605939e7e354417e4e483890b4665b16b7"
 
 RPROVIDES:${PN} += "xvinfo"
 

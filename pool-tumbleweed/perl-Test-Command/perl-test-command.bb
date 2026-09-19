@@ -48,13 +48,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Test-Command-0.11-5.26.noarch.rpm"
-RPM_HASH = "2a3636972a1b8db69a22d15c4120953039888b7ea30732e4c630a81c088b093638fc6fb9e7538f10ae1f6d8ebf667143fd02c6fd5b96840615d1cedb8e6d7e06"
+RPM_NAME = "perl-Test-Command-0.11-5.40.noarch.rpm"
+RPM_HASH = "913547d9a54f85c4906a99f607352c51bc44f0968a08901de2ce2d72c6fa8b7885cfd6faf9135fdf5ae3439c593d122b5a4394a2a2cf460fd709d871dfc7aed9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Command \
 perl-Test-Command"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

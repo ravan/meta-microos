@@ -9,10 +9,10 @@ easybase can also be used with CTeX and standard document \
 classes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.71dsvn64976"
+PV = "2026.226.2025aesvn76924"
 
-RPM_NAME = "texlive-easybook-2023.209.1.71dsvn64976-54.2.noarch.rpm"
-RPM_HASH = "d6e11c3c28c3876ac8bf49bd993faa3bf4df9ec8e4051c6525a230bf752576d349c504b050b4345ef3ad4bebbbf7eef0b9e73ac104e06664e53e2f23cec60aaa"
+RPM_NAME = "texlive-easybook-2026.226.2025aesvn76924-61.4.noarch.rpm"
+RPM_HASH = "31771699580c88d0c2f511d6906157b63af42d7e0a23cef3e554a2c695d255268b34067d8e01b7dc2723d7acc44acae6998ea8586f87e675db93836227acfce4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easybase.sty \
@@ -26,10 +26,24 @@ ed \
 findutils \
 grep \
 sed \
+tex-amsmath.sty \
+tex-amsthm.sty \
+tex-biblatex.sty \
+tex-bm.sty \
+tex-chemformula.sty \
 tex-ctex.sty \
 tex-ctexbook.cls \
 tex-etoolbox.sty \
+tex-hyperref.sty \
+tex-keytheorems.sty \
 tex-l3keys2e.sty \
+tex-mhchem.sty \
+tex-natbib.sty \
+tex-newtxmath.sty \
+tex-thmtools.sty \
+tex-times.sty \
+tex-xtemplate.sty \
+tex-zref-perpage.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

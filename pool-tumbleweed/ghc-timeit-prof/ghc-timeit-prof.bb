@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0"
 
-RPM_NAME = "ghc-timeit-prof-2.0-6.3.aarch64.rpm"
-RPM_HASH = "d2b0ed9782f3561ef586f12abe90ce5721c245d322a433b33c57f7fd58f3a3ccdc0ede67a4bc1f8519bb680fa427184537b6b0fa6ab5ee7e4d730b6cb996ac7f"
+RPM_NAME = "ghc-timeit-prof-2.0-6.19.aarch64.rpm"
+RPM_HASH = "683c896afa88a51f4f2c3aef4a48e35a9461930745c4691bf6a03f20e93e41262dc1bc0b2213c6a4580bfdf2bcb2bfd6220a16cc81fca3cd1bc35dbb2c3e1d98"
 
-RPROVIDES:${PN} += "ghc-prof-timeit-2.0-4alyyqlO7m4DFFkjYuUzq9 \
+RPROVIDES:${PN} += "ghc-prof-timeit-2.0-3tAgGDzIoCu1cNsnFuFQeC \
 ghc-timeit-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
 ghc-timeit-devel"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.12"
 
-RPM_NAME = "asclock-2.0.12-312.11.aarch64.rpm"
-RPM_HASH = "d81802101fc66684ed320e381423970e1edb1ff983eeb0073d8c7fba26e09d19d328b6e0baca7f7e7f9eff1fd7731e015505cdceb087abd85e6aaabc1dd93265"
+RPM_NAME = "asclock-2.0.12-315.3.aarch64.rpm"
+RPM_HASH = "4b0267637f5a770dabacc1ce4bd1d64c6850475bd8d2e9782d9553a29ef1cd30af6703acbdae4a4109ab5251e174fa2e2cfa0e83db0d526ff176365562a1f1d5"
 
 RPROVIDES:${PN} += "asclock \
 astools-/usr/X11R6/bin/asclock"

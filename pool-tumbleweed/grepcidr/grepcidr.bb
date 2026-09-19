@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0"
 
-RPM_NAME = "grepcidr-2.0-1.10.aarch64.rpm"
-RPM_HASH = "1608f3117215e37b77c73d1e8bce025c0827ec5a865439f83b5dab9c886be1ea7a13663e930e4eb60a4d7b5c2fbfa9ec8e2f2ee099651f2cfc8a76911ab30bad"
+RPM_NAME = "grepcidr-2.0-2.9.aarch64.rpm"
+RPM_HASH = "c1820c47bc085b7b446360557c9cab7100454604a9b42899c4036adffcc261f3c4b217155350db3c1eff469d40bd50f48e66323dfb8b019575a8d76bd651123e"
 
 RPROVIDES:${PN} += "grepcidr"
 

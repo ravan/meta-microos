@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-chess"
 DESCRIPTION = "Provides translations for the 'gnome-chess' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "43.2"
+PV = "50.0"
 
-RPM_NAME = "gnome-chess-lang-43.2-1.2.noarch.rpm"
-RPM_HASH = "71cb305df522016e2ef5a6344501c6e5c6b8d9390350914b355e2d8d88df3213e358cc6682a198e2bed753b73ef4e67681e11b9561a2a5bd3904b9ab5c9d3d80"
+RPM_NAME = "gnome-chess-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "a486c47d779137b2cf82a14bd844f31faac9ae335d51200dff02489029a8500eddf5230d5e6a2d7fc869a45c52a66bab95c81be860337af5a25014c6afd073ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-chess-lang \

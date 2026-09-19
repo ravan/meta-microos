@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.20.7"
 
-RPM_NAME = "gpm-1.20.7-19.15.aarch64.rpm"
-RPM_HASH = "7273d49ca8d2e35676dbca058d78f51664f757b23be54cba1e0bbb6cdab464697ce2f4068b728a57614e9394d8b02ef50c2dce504d2e7366a7b552fa4866feea"
+RPM_NAME = "gpm-1.20.7-23.4.aarch64.rpm"
+RPM_HASH = "3f7ef5005484bc4cf8749c8d4cec3e9f0d389e80fb6d1e942db998f066f2fb721069268a85ff68ce5424b17aece3986a0688a52f0e74f097b882371fac90d669"
 
 RPROVIDES:${PN} += "config-gpm \
 gpm \

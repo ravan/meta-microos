@@ -3,14 +3,14 @@ DESCRIPTION = "This plugin can be used to produce multiple test variants with te
 defined in one or more YAML files."
 LICENSE = "GPL-2.0-only"
 
-PV = "69.0"
+PV = "113.0"
 
-RPM_NAME = "python3-avocado-plugins-varianter-yaml-to-mux-69.0-6.11.noarch.rpm"
-RPM_HASH = "5a4d444521d217629a6c4eae5c23df9e95d7fb79aaccb1cbdcd39c911628fdb23dc0d122c60a2551fcb69b3346c5b108405f1ae45745991007e469775f99acc8"
+RPM_NAME = "python3-avocado-plugins-varianter-yaml-to-mux-113.0-1.2.noarch.rpm"
+RPM_HASH = "6d9e9ea73f55603fc201807416db212257cf2f389e3956b320851bef1a5326a5539a21dd24772af45b527b587ded2b5752f9ed84ff70346eb0748afb1d208676"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-varianter-yaml-to-mux \
-python3.11dist-avocado-framework-plugin-varianter-yaml-to-mux \
+python3.13dist-avocado-framework-plugin-varianter-yaml-to-mux \
 python3dist-avocado-framework-plugin-varianter-yaml-to-mux"
 
 RDEPENDS:${PN} += "python-abi \

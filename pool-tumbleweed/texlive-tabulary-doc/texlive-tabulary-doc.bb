@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tabulary"
 DESCRIPTION = "This package includes the documentation for texlive-tabulary"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.10svn34368"
+PV = "2026.227.0.0.11svn77682"
 
-RPM_NAME = "texlive-tabulary-doc-2023.209.0.0.10svn34368-55.1.noarch.rpm"
-RPM_HASH = "79580e9a4d918c7142eb1bc1f784ae9e6c0c19445b25dd653dd1735cc76646a17daa7fae6d7121c328c82a52e119bf546fc5e6a234526aee347cf4f24829c121"
+RPM_NAME = "texlive-tabulary-doc-2026.227.0.0.11svn77682-62.2.noarch.rpm"
+RPM_HASH = "02f31733c6f0f01a54b2360e58f7daddb47356e00ce15ecc837d1816b8072afff93af19b80ae33b9a51483c3852b237c05d2ec7680b15106b87949a5e27f776d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tabulary-doc"

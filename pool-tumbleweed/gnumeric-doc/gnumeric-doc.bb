@@ -17,10 +17,10 @@ needs. \
 Gnumeric is part of the GNOME project."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.12.55"
+PV = "1.12.61"
 
-RPM_NAME = "gnumeric-doc-1.12.55-1.5.noarch.rpm"
-RPM_HASH = "c03e481724d664a8155da4c7ba5426ed7079c7d339c3c8c836701e5c7147c88b070eb14d37ec9dd7fc930b3a10cb6b51d2cadabc222f1605cb2671b8c7460323"
+RPM_NAME = "gnumeric-doc-1.12.61-1.3.noarch.rpm"
+RPM_HASH = "d93229656fb85739008621f1f5779b421f9db58295eca80cc3294a7404ec8d8cd3aa6c336ba73303100a6ec41933c2bc05d7b7198b82b44f6fd889e3fe9a4ef7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnumeric-doc"

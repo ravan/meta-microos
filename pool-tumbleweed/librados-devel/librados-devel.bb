@@ -1,12 +1,12 @@
 SUMMARY = "RADOS headers"
 DESCRIPTION = "This package contains C libraries and headers needed to develop programs \
 that use RADOS object store."
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "librados-devel-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
-RPM_HASH = "817bc3711b5b608700be12ab21b6d5d8c4428326d75a105a4293e7b650fc02722a31f480413c60a8b65651435a165c0daff62777090c188e756e97647b56aa00"
+RPM_NAME = "librados-devel-18.2.7-8.1.aarch64.rpm"
+RPM_HASH = "51080b77a15ed8ed467503e6f3d644ff2eefa15fcf8de659c92f6a1ac3634dcef5a4d934434bbf62faf87b3df7437849c8b314f4f1d33f21acf888bcf03af7b4"
 
 RPROVIDES:${PN} += "librados-devel \
 librados2-devel"

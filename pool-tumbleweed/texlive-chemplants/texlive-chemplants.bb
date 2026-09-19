@@ -8,10 +8,10 @@ package, thus a basic knowledge of the logic of this powerful \
 tool is required to profitably use chemplants."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9.9svn60606"
+PV = "2026.226.0.0.9.9svn60606"
 
-RPM_NAME = "texlive-chemplants-2023.209.0.0.9.9svn60606-54.1.noarch.rpm"
-RPM_HASH = "d5bdd8777406216751d076254587bf65f2814c3a870c53d8209d053d5a4a171e95f30659c505ade85353b3bfc71d45bf04c346b891b973315ddc83d5d96d1f75"
+RPM_NAME = "texlive-chemplants-2026.226.0.0.9.9svn60606-60.2.noarch.rpm"
+RPM_HASH = "544785d93c2b6cd27bd7c4237f1c73764e1c9a938abfa85a1f77695813326cc182dc52d54da1a7f7056e7149e931bcac9b853ecef16b7eccf388f63624dc38e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemplants.sty \

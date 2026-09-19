@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ttfutils"
 DESCRIPTION = "This package includes the documentation for texlive-ttfutils"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-ttfutils-doc-2023.209.svn66186-53.1.noarch.rpm"
-RPM_HASH = "d2c38dcbf2bbaef229f6e2b0f869e8d5ae0bc672bc47fa451ec746696c6f98d6bc8a4fe14b8fcbcf18fe03a7b6be7fc954000b81adfdc6b4db215842d9f3515f"
+RPM_NAME = "texlive-ttfutils-doc-2026.226.svn77830-59.2.noarch.rpm"
+RPM_HASH = "dde8241d94dcc37152a6322198abdee87333b24092411d945e2adfbe2047405557276c0e2e91eb6acd6bda2f759db455233c2b8a67c48dda95659395cefa3a3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-ttf2afm.1 \

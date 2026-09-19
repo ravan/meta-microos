@@ -6,10 +6,10 @@ into it, access the DOM object, create and access javascript, and generate \
 SMIL animation content."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.87"
+PV = "2.890.0"
 
-RPM_NAME = "perl-SVG-2.87-1.6.noarch.rpm"
-RPM_HASH = "7a09a6a4d406f7b638bedc24eca97a388033746cc534dc5b16216e42cae47caba76253bdf0a0b52e38e1202b7a48f3927a24e69f967e74bb53000e9e7a9492de"
+RPM_NAME = "perl-SVG-2.890.0-1.4.noarch.rpm"
+RPM_HASH = "2a72b856228d6ac7797e534095eb5b40afe9061b9b8833b6d424b0bc5aa864e447ace5498fe867095c8ba15108b31624fa7e98c4cfc06fddbc2d336a92be0164"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SVG \
@@ -18,7 +18,7 @@ perl-SVG--Element \
 perl-SVG--Extension \
 perl-SVG--XML"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-parent"
 
 inherit rpm

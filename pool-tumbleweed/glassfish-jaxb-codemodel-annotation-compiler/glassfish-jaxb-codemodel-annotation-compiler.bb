@@ -5,8 +5,8 @@ LICENSE = "CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.3.1"
 
-RPM_NAME = "glassfish-jaxb-codemodel-annotation-compiler-2.3.1-4.5.noarch.rpm"
-RPM_HASH = "fb3522820ab3b1686ca4484ad9f62a89220fcf46848d6f55da68853d2e48a777807e9816d34d8c96a5fb46957d96fa6317196ca584e655b16cda676c57409704"
+RPM_NAME = "glassfish-jaxb-codemodel-annotation-compiler-2.3.1-12.4.noarch.rpm"
+RPM_HASH = "98048ed1a2ba93df8b3b76d19a569600744569a2d2cd7d7bd140a186c94620016da4757ece7ba6624df2851ae941f75181eb0d12c7df74969537651f0d4b6e7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jaxb-codemodel-annotation-compiler \

@@ -4,10 +4,10 @@ PNG, JPEG and WEBP file types. It support both lossless and lossy compression \
 modes with an option to whether keep or not metadata of images."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.7.0"
+PV = "1.16.1"
 
-RPM_NAME = "curtail-1.7.0-1.1.noarch.rpm"
-RPM_HASH = "773628b1916b9e6077ced84367a13d4dfea7b065b4a05e8ea62ef6d53076aeaf2bf8e0fcff1216baef60c40b8450069eb41eed09dd526494f4fa00b796a607e9"
+RPM_NAME = "curtail-1.16.1-1.2.noarch.rpm"
+RPM_HASH = "010ebe46c1f7ba6d22c46f19e9cd1489bc55c3297bc769e0f18d1fa008fd708e9c5f23ac839774c20affa56ead727158abf42ccf32a4f140d1af9b45a21afa80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "curtail"
@@ -15,7 +15,7 @@ RPROVIDES:${PN} += "curtail"
 RDEPENDS:${PN} += "/usr/bin/python3 \
 jpegoptim \
 libwebp-tools \
-optipng \
+oxipng \
 pngquant \
 python3-gobject-Gdk \
 typelib-Adw \

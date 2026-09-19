@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.7.0"
 
-RPM_NAME = "compiz-manager-0.7.0-1.20.noarch.rpm"
-RPM_HASH = "967bc64d6cd6c5b86cb0c422ea30f83f4871f4fa4bcc70632ade347340045a29a4ef410cea1ff6401d73c9d1e51d6e77bf7c53ce9cacf706c5f3c6470cbd2005"
+RPM_NAME = "compiz-manager-0.7.0-2.9.noarch.rpm"
+RPM_HASH = "8f489add06f11022a1badb65c9d23681cb32c0b6bacbed3b2127968f378e8e91ce954b11203e07a56b4305eb1f6db5b33fcfb97de211341cb1d72699c4c73296"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compiz-manager"

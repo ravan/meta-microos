@@ -2,10 +2,10 @@ SUMMARY = "C library to make use of LV2 plugins"
 DESCRIPTION = "Lilv is a C library to make use of LV2 plugins in applications."
 LICENSE = "ISC"
 
-PV = "0.24.20"
+PV = "0.28.0"
 
-RPM_NAME = "liblilv-0-0-0.24.20-2.1.aarch64.rpm"
-RPM_HASH = "305b220115fe643587d368f51180c831d92da644398098a0b62505f5240ea09d970a56347e9e4f26c2693868b13a9775839f8872e4591ac0d8fc35330fd5960c"
+RPM_NAME = "liblilv-0-0-0.28.0-1.3.aarch64.rpm"
+RPM_HASH = "4f444f649890ffdfe5c413a73a5a75baed92c01cb4a9999f5ee3dc14622ae01f044d75c517cf79b30a18143677594324d86c15667597d3232faeca18daf87be2"
 
 RPROVIDES:${PN} += "liblilv-0-0 \
 liblilv-0.so.0"
@@ -17,6 +17,7 @@ libserd-0-0 \
 libserd-0.so.0 \
 libsord-0-0 \
 libsord-0.so.0 \
-libsratom-0.so.0"
+libsratom-0.so.0 \
+libzix-0.so.0"
 
 inherit rpm

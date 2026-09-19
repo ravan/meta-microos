@@ -5,10 +5,10 @@ pictures, and control of media player on your home network. \
 This package provides the database library of rygel."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.4"
+PV = "45.2"
 
-RPM_NAME = "librygel-db-2_8-0-0.42.4-1.1.aarch64.rpm"
-RPM_HASH = "ef6bc543f548927b3aabe663c629b2a4551c6ea65138ebc7a3f6ee9394f1b3cbeba4bbf9c7aec61ed39e9ec01a4db5f33a416a62d9e7c9a9b3b0cf4b316241da"
+RPM_NAME = "librygel-db-2_8-0-45.2-1.2.aarch64.rpm"
+RPM_HASH = "8d883237af8f3cac9ed2791569b1bf66e414c05779f03dff83286486576c10b4108079ae8109609a053f266173c194191b213b606298326201d9fd2992485931"
 
 RPROVIDES:${PN} += "librygel-db-2-8-0 \
 librygel-db-2.8.so.0"

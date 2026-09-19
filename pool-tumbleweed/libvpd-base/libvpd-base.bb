@@ -3,10 +3,10 @@ DESCRIPTION = "Udev rules for libvpd library used to access a vpd database creat
 vpdupdate in the lsvpd package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.2.9"
+PV = "2.2.11"
 
-RPM_NAME = "libvpd-base-2.2.9-3.4.aarch64.rpm"
-RPM_HASH = "7644296b3467d87298cd489a84eac740052b15a7b1fa7de3b806b57d591cb606ea0bcf4158db1f4114e5617a3a517964db4f6c43bd2e9341b982fb117a811791"
+RPM_NAME = "libvpd-base-2.2.11-1.4.aarch64.rpm"
+RPM_HASH = "40850d4414718ffd0713f8444374ffe9972ead4a02c5483a771ea1042ea24f56fe6e869a6a21fd0a678cfb2068fbc069d860215d5f94ef3926a4525d8ae75daa"
 
 RPROVIDES:${PN} += "libvpd-base"
 

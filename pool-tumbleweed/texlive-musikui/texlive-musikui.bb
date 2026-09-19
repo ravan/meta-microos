@@ -4,10 +4,10 @@ restorations using LaTeX. This package requires the graphicx \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn47472"
+PV = "2026.226.1svn47472"
 
-RPM_NAME = "texlive-musikui-2023.209.1svn47472-55.1.noarch.rpm"
-RPM_HASH = "3f6fbce87cd5d5c8742c2a89e31d72f633c05a3994b798e5bb3192bb668ec4f73b7a5dad66ace4c31491c0dfd86c50ed24c2f1232c1bda10cf9c828786134eef"
+RPM_NAME = "texlive-musikui-2026.226.1svn47472-61.2.noarch.rpm"
+RPM_HASH = "013bdf01ba7cc8ba8d50daed9c5fee3021062fec5779ceffa8f489b9c390bfb07f27a872f4582a96e2fef6f60e8a24594304301e729f1b04944ae6fae8bccd60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-musikui.sty \

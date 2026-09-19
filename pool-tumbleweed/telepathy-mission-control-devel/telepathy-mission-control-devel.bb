@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "5.16.6"
 
-RPM_NAME = "telepathy-mission-control-devel-5.16.6-1.10.aarch64.rpm"
-RPM_HASH = "28cec278078fcd7a7439c8ae7e4d06df705ddfd1a6f0f2067861e1e0426c53f01062c014b0c9cda62a25c8af3e76a09c1a71bba8f0e14ad5d3310fe88512a2a8"
+RPM_NAME = "telepathy-mission-control-devel-5.16.6-1.19.aarch64.rpm"
+RPM_HASH = "2c6e50dccb2299d0789bd8c4aca26ff848e00ccd0a2fac0fb61b51aaccac7c7c08971072ae1a013975dbde57156297c36773846c02f21fcb27545c4ff34dead0"
 
 RPROVIDES:${PN} += "pkgconfig-mission-control-plugins \
 telepathy-mission-control-devel"

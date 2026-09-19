@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "sgml-skel-0.7.2-1.5.noarch.rpm"
-RPM_HASH = "ea1611557258b3fa79f180dece2d9e649ed0b7783657e527bfa4ce2f01b6fa8acc01d3d28d50c2e7128f396e6ce1df1fd32c01a8547df54aa905c1498c890836"
+RPM_NAME = "sgml-skel-0.7.2-2.2.noarch.rpm"
+RPM_HASH = "d6cbd17b1f8ab34d0c33589b1784f76a2181d8c227afe242d3c32eacb158303d60710517ebe44a88be27f86a6cdd12b3a76de21914614d7f9f99077bf8dd6c07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-sgml-skel \

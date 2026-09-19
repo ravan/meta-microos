@@ -7,10 +7,10 @@ inspired by Marcel R. van der Goot's classic Plain TeX macros \
 in gloss.tex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn42138"
+PV = "2026.227.1.1svn42138"
 
-RPM_NAME = "texlive-tagpair-2023.209.1.1svn42138-55.1.noarch.rpm"
-RPM_HASH = "5674a61149e9135afa174ea716785eca64919cadd75da4233409fab4f14d1dd0042b271ced0928de4bb8878f4d65bd5792023c3fbb8de4b79c45807ab3524520"
+RPM_NAME = "texlive-tagpair-2026.227.1.1svn42138-62.2.noarch.rpm"
+RPM_HASH = "8a1e860f34af96b5dbd98bdb2b230f1a8c46c198497ec8d30a70774cd2c2afd490c397b0fadefaaddedec0c8121fb3d8cd651d0586a2ab3fa791ee2b7addff8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tagpair.sty \

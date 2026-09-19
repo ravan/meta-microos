@@ -4,10 +4,10 @@ ConTeXt that allows you to execute Lua code in LuaTeX or any \
 other TeX engine that exposes the shell."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.2.0.2svn64801"
+PV = "2026.226.2.2.2svn76924"
 
-RPM_NAME = "texlive-lt3luabridge-2023.208.2.0.2svn64801-53.1.noarch.rpm"
-RPM_HASH = "625af322f9cf55a2df46321a41e2f27a00f4940f8fc6c6e396fba32e44fde55b2a8fe44386c6074da4a31fd89eb630c993024e11a77008fd1ac455832ac2771a"
+RPM_NAME = "texlive-lt3luabridge-2026.226.2.2.2svn76924-59.2.noarch.rpm"
+RPM_HASH = "c70418dd13d2ac87546058ff27d9a49b0865cc2caf14648e0cf107503dc5e238f7fe5c06fbc8650c1a0294e41bf04ab40a0d7c1cefd28a92f7a7952be8a22ccf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lt3luabridge.sty \

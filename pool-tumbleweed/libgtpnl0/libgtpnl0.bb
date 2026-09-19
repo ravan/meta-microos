@@ -3,10 +3,10 @@ DESCRIPTION = "libgtpnl wraps the genetlink-based GPRS tunnel configuration of t
 Linux kernel into a C API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.4"
+PV = "1.3.3"
 
-RPM_NAME = "libgtpnl0-1.2.4-1.1.aarch64.rpm"
-RPM_HASH = "714150e4c94166995c8a6779b18e66a8ef43382187f3765c7e1f27cd0a2e18f350fdb8f6f3fdfa578137745b8a72564785ad12790ae916fd0fba6ec0d4671d0d"
+RPM_NAME = "libgtpnl0-1.3.3-1.4.aarch64.rpm"
+RPM_HASH = "d2cca90e66d5da5b7b627fbf98477d853e20596453fad2288e6f0a014fd357e87854fad56097e07b4f0762fb4107bb47d661594579a22e2d5ba276c2d4d5e9e5"
 
 RPROVIDES:${PN} += "libgtpnl.so.0 \
 libgtpnl0"

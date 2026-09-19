@@ -6,10 +6,10 @@ height and can be paragraph-cells or inline-cells. Different \
 vertical alignments can be used in the same row."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.2svn59039"
+PV = "2026.226.1.0.2svn77682"
 
-RPM_NAME = "texlive-vcell-2023.209.1.0.2svn59039-54.1.noarch.rpm"
-RPM_HASH = "0b100abf8e7aae60f8d06066204777efbfbe8747dc24d37e4f84bc76a06fe5f4d9b2c4b4dc89719bc1a52c19d7fcc9d28382f045da84a676ea6e64fa56439a16"
+RPM_NAME = "texlive-vcell-2026.226.1.0.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "596416e4a2b465c51a50fb5bb7643e6b2ce7f32d8dab4789e3786aa37200dfd4714f0f5d4ecb246159c7e0e7b43162986e87d517f0ef7accf9aa311b390a347c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-vcell.sty \

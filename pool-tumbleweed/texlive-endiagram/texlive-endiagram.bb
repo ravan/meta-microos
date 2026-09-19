@@ -4,10 +4,10 @@ curve diagrams with just a few simple commands. The package \
 cannot (yet) be considered stable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1dsvn34486"
+PV = "2026.226.0.0.1dsvn76924"
 
-RPM_NAME = "texlive-endiagram-2023.209.0.0.1dsvn34486-54.2.noarch.rpm"
-RPM_HASH = "06b7da2a138d2657fdc186ac9083d922ff82b355230b2c60fce699625d3f30ca0e0d902e88b34bd00b979c8ff90450aa3c224d96d74d264e5691393a0610c92d"
+RPM_NAME = "texlive-endiagram-2026.226.0.0.1dsvn76924-61.4.noarch.rpm"
+RPM_HASH = "164b7622ecd5f084b8e4dc1e99baa0fcaa6a65d2d9d3b625a314f17db4bb88820368ee1071bbd76e6b1c3b66a422aabbd3eb4dcb6c2c02106b1d3cba36a2bc53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endiagram.sty \

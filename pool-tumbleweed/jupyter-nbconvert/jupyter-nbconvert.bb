@@ -5,10 +5,10 @@ via Jinja templates. \
 This package provides the jupyter components."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "7.7.3"
+PV = "7.17.1"
 
-RPM_NAME = "jupyter-nbconvert-7.7.3-2.1.noarch.rpm"
-RPM_HASH = "832c64128caf7498b49fdc64dcdfeec5e790e91774c37c5b56cc537051357a0797c35a654e9ba2c0f4378d11c7722bf8d4354273248be890a94e9caa5ae5d7dd"
+RPM_NAME = "jupyter-nbconvert-7.17.1-2.1.noarch.rpm"
+RPM_HASH = "88fbe2628fe0fab409ef06576d204c0e782466bc3efb8f207e075636daa2dc380380a2857641c8dfc5b6ac1c3808393e19baf05a39fb6c6c8d1735689009d1ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbconvert"

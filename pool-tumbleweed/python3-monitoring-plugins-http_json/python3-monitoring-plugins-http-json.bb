@@ -4,10 +4,10 @@ HTTP endpoint against argument specified rules and determines the \
 status and performance data for that service."
 LICENSE = "Apache-2.0"
 
-PV = "2.1.2"
+PV = "2.4.0"
 
-RPM_NAME = "python3-monitoring-plugins-http_json-2.1.2-2.1.noarch.rpm"
-RPM_HASH = "af1737cfc8d049d0142b0b3cd9c0aaf8a02dfa9e0eff5ffa03cb1accf20a3d151019bad4959030bb101b7db44de9ebc6d0c1c095785ba1ed61199dd1e1ff0f26"
+RPM_NAME = "python3-monitoring-plugins-http_json-2.4.0-1.2.noarch.rpm"
+RPM_HASH = "95f9f8ea378ca49843e546acaea4471b667d92fa1f870c504ad8dad842169a98c815e534e9f8ea375ee4f0aac30fc9852e16b7a1008156ce10e3c0f090b2e8ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-monitoring-plugins-http-json"

@@ -4,10 +4,11 @@ synchronization with other users around the world, making movie \
 nights even across countries possible."
 LICENSE = "Apache-2.0"
 
-PV = "1.7.0"
+PV = "1.7.6"
 
-RPM_NAME = "syncplay-client-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "cc217daccf0fe68015904f5f84c94642e90dc333c015bd404b7e815778fb8e223f0378aa05d6a1ab5234b1a0be643a67fcdaebb34e1afdc514c3679065716824"
+RPM_NAME = "syncplay-client-1.7.6-1.1.noarch.rpm"
+RPM_HASH = "c07c1edcaf150913a69ea7affbf534d601c9fc6db1aef17c08e6d63d55783683188b61c1359f4c9c4df621e45bf29e810945d4222eb18df95ebe082da1057b3f"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "syncplay-client"
 

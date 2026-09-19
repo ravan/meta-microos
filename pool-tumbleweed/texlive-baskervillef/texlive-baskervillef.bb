@@ -8,10 +8,10 @@ italic style was added and mathematical support is offered as \
 an option to newtxmath."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.051svn55475"
+PV = "2026.226.1.052svn77682"
 
-RPM_NAME = "texlive-baskervillef-2023.209.1.051svn55475-54.1.noarch.rpm"
-RPM_HASH = "b20ce304596ec15801d5aca1ba943703bf6d8486aace8afc75d9998cb54a0e1a2db70e387cbbf605b6c2dd458f2f8c8e51e621894cd2e8ead02960a1c8c29642"
+RPM_NAME = "texlive-baskervillef-2026.226.1.052svn77682-60.2.noarch.rpm"
+RPM_HASH = "85c17b018baf0c0d3c09688aa0a72d9586d04d22de75cd0af0eb59609e9ca5a1450eaa3d7436c5d731e73fa4aad54b7fbca79ad22de5f712d08a7e94f7f94739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-BaskervilleF-Bold-lf-ly1--base.tfm \
@@ -430,7 +430,10 @@ tex-TS1BaskervilleF-OsF.fd \
 tex-TS1BaskervilleF-TLF.fd \
 tex-TS1BaskervilleF-TOsF.fd \
 tex-baskervillef.sty \
+tex-ly1minbaskervillef.fd \
 tex-omlzbami.fd \
+tex-ot1minbaskervillef.fd \
+tex-t1minbaskervillef.fd \
 tex-zba-23ismr.enc \
 tex-zba-2hmbf5.enc \
 tex-zba-2j2bbt.enc \

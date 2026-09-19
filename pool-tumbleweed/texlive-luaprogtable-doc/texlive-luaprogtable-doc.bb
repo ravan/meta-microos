@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luaprogtable"
 DESCRIPTION = "This package includes the documentation for texlive-luaprogtable"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn56113"
+PV = "2026.226.1.0svn56113"
 
-RPM_NAME = "texlive-luaprogtable-doc-2023.208.1.0svn56113-53.1.noarch.rpm"
-RPM_HASH = "2644482c2bfeedf66aed24ad033abd7848fc0dbd4b2ca8474cfb17ce04ed85d155a075a84d76895d1bb227066e110b2347792d27d43b2d9dd26efdf91e521989"
+RPM_NAME = "texlive-luaprogtable-doc-2026.226.1.0svn56113-59.2.noarch.rpm"
+RPM_HASH = "e400ed6a4232efd6a78d89e2f3ac81d6ab4c06a3a293644bf3b00023215bdfbdb337f004cbf71fd7b60c10d40602c025965cd58a892386ce65b2b5d36295b0c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luaprogtable-doc"

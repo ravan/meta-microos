@@ -5,10 +5,10 @@ supporting backlight brightness control and changes them all in the \
 same way."
 LICENSE = "MIT"
 
-PV = "1.2.3"
+PV = "1.2.4"
 
-RPM_NAME = "xbacklight-1.2.3-2.3.aarch64.rpm"
-RPM_HASH = "03663eace9d771cd32b4db2d8b0d29f9f8c8d406506dcbcbef301d533a07b3d458a1fcdd52dfac899a7f8a0dfaf7e6b80d0a647d9aa92c9adea367192aa788ae"
+RPM_NAME = "xbacklight-1.2.4-1.8.aarch64.rpm"
+RPM_HASH = "3174fb08aac3d04c319a2395355ddd6456e070df46368f9ac02d683477e6aeae879996489259edc374ef18eb3f364ccf44effbae136a3f8021808619893c28c5"
 
 RPROVIDES:${PN} += "xbacklight"
 

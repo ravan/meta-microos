@@ -7,13 +7,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.0.302"
 
-RPM_NAME = "ckermit-9.0.302-15.1.aarch64.rpm"
-RPM_HASH = "9c874bdc7efe0b149d9283b30db4c03ef200a2ed36882c8a5a054627c7d68f5929ccebbacec7972d2eff465269f5c8473d4d16ecec874942a89c259965d8240f"
+RPM_NAME = "ckermit-9.0.302-20.4.aarch64.rpm"
+RPM_HASH = "0ed3cb7fb17228fc41789b504cadc0d40a2d4ba590516db1adcd552f5459085369f0c5439787023b03af85bed8a800e96ef8ce052225a3a4449e8bb7bbc8978c"
 
 RPROVIDES:${PN} += "ckermit \
 kermit"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libcrypt.so.1 \
 libm.so.6 \
 libncurses.so.6 \

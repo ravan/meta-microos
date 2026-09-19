@@ -6,10 +6,10 @@ numbered (both in the text, and on the notes themselves). The \
 package loads the package etoolbox, pgfopts and marginnote."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn61992"
+PV = "2026.226.0.0.7svn77682"
 
-RPM_NAME = "texlive-snotez-2023.209.0.0.7svn61992-58.1.noarch.rpm"
-RPM_HASH = "a68882862c483c6e8f0158c74e20a0c127cbfeaa77467f958b3eb5251fbeb3b2d8102777289df122620023da85bd1586b3c7439ba8ae3d11b426955e5add728d"
+RPM_NAME = "texlive-snotez-2026.226.0.0.7svn77682-64.2.noarch.rpm"
+RPM_HASH = "710c159915aa62b4409b001a877d51ec11aa7687c4cf411df5702883447dc964642e1e0ea089c9c8faebb721f129d1406e343a4ba5ab43913498fda56b61d005"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-snotez.sty \

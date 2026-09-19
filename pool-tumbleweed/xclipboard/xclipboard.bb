@@ -5,10 +5,10 @@ CLIPBOARD selections for later use.  It stores each CLIPBOARD \
 selection as a separate string, each of which can be selected."
 LICENSE = "MIT"
 
-PV = "1.1.4"
+PV = "1.1.6"
 
-RPM_NAME = "xclipboard-1.1.4-1.5.aarch64.rpm"
-RPM_HASH = "97a3f583c0b181457d22ee0900af18f9a5679a88460f9d81c3def3d83ba68d6c86b6e355c49f27d75ceb33814e524e0728f9fdf4ba5069780d57c0583a943aea"
+RPM_NAME = "xclipboard-1.1.6-1.2.aarch64.rpm"
+RPM_HASH = "3245d05b604755e860850d31f437a94121a82bb30281ed66ce191a3e46727b57576e6fecedb5d4cd0fa4893c45f37501ee8b9d279efeff05f9f3b34c65607af9"
 
 RPROVIDES:${PN} += "xclipboard"
 

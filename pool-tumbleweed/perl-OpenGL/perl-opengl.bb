@@ -1,11 +1,11 @@
 SUMMARY = "Perl bindings to the OpenGL API, GLU, and GLUT/FreeGLUT"
 DESCRIPTION = "Perl bindings to the OpenGL API, GLU, and GLUT/FreeGLUT"
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.70"
 
-RPM_NAME = "perl-OpenGL-0.70-2.30.aarch64.rpm"
-RPM_HASH = "6527d5ded96ee8f124125414098e544bb035bf07163878bce729ecf1b6f8eb0b26fb5e433222d9b14752602bcf0ffe127eec0817fcc0770215c985b9d789d817"
+RPM_NAME = "perl-OpenGL-0.70-4.9.aarch64.rpm"
+RPM_HASH = "c6b30713923a299677b82b32a2d7ead165cf1e52c7d2cec51d209b90d5305454c5cf7aca90da5fdf61fff73ee8d75b84d6ee5b7d933e9e20836b308019b946df"
 
 RPROVIDES:${PN} += "perl-OpenGL"
 
@@ -16,6 +16,6 @@ libX11.so.6 \
 libc.so.6 \
 libglut.so.3 \
 libm.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

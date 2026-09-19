@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & MIT"
 
 PV = "4.0.0.2"
 
-RPM_NAME = "OpenPrintingPPDs-ghostscript-4.0.0.2-6.9.noarch.rpm"
-RPM_HASH = "609564b030067af96a89a35637f26280759d407b31fd77fea86ebd13abff2b1f2bf0e5049a43991e34ae7ff1380a3c0e3f9b5de3df059876f371ec966d3fab3c"
+RPM_NAME = "OpenPrintingPPDs-ghostscript-4.0.0.2-6.17.noarch.rpm"
+RPM_HASH = "6721c8122520a1d3315f3ecb7bfec8ec05d0861f16d7740b2485d470577ad509af65d8a5f8fc38309cb3dcca23786f4b7944f57f75dcfe448d4dccb810e24e26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "OpenPrintingPPDs-ghostscript \

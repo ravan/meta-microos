@@ -7,13 +7,13 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.7"
 
-RPM_NAME = "itstool-2.0.7-1.6.noarch.rpm"
-RPM_HASH = "28940654d85b7a136953e3a1a687c15ce106d41e2ba93ed75b55f9b5590e39f6adff33a54c97bcc3db6a78068bdef58c18994a5b5f08492d3f23221f3990a8d2"
+RPM_NAME = "itstool-2.0.7-4.2.noarch.rpm"
+RPM_HASH = "593ab13f7e2cab783c49a265983938ed66e1c3b4cdbf4ce962b8f0f333ef40756385bc792f66f354395e45613dfa1710257ecda25cd5f6f2b2168eea72160870"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "itstool"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-python3-libxml2"
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
+python3-lxml"
 
 inherit rpm

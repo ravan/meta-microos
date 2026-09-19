@@ -7,10 +7,10 @@ LuaTeX option is only used for LuaTeX versions from 0.87, older \
 versions use the pdfTeX option as before."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn41448"
+PV = "2026.226.svn41448"
 
-RPM_NAME = "texlive-graphics-cfg-2023.209.svn41448-54.2.noarch.rpm"
-RPM_HASH = "89ed1574a8ace5dd2586aa4b1845e76d85705c3b29744797333327c2a2720d2fdce919f5f0f259da5ee797f8656dfcd38661dbe6523e7dabaa91689fbd67d6a4"
+RPM_NAME = "texlive-graphics-cfg-2026.226.svn41448-60.4.noarch.rpm"
+RPM_HASH = "2f8b2791dfbbfe5732e6b05ce4f6a740ee2cf17792eb8a6ac71431e07a3a8f1a33b07de0b591ad86592aba08f38863c6e717ac2a14b43783cd9476c6b034f4e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-color.cfg \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+ & GPL-2.0-with-classpath-exception"
 
 PV = "0.20"
 
-RPM_NAME = "libftdi0-devel-0.20-1.11.aarch64.rpm"
-RPM_HASH = "7066ff2946caf43cdb0c3f10a2195fa7d497384d17fbe887ad874a15c420edfd0d15a2a2a3e5f7ad8ccdb99bf7de34d91eece36552d8c7a367efc6c82c34476d"
+RPM_NAME = "libftdi0-devel-0.20-2.11.aarch64.rpm"
+RPM_HASH = "a15c71a6871b3bed35298d45b61f63e3f1d08ad34d8ea674dad782e91db573a6b8010c4dd80a2cb70eeec006993aa9a4abfe8aefa49102cff450ad7716def374"
 
 RPROVIDES:${PN} += "libftdi0-devel \
 pkgconfig-libftdi \

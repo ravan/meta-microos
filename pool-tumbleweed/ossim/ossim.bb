@@ -5,17 +5,19 @@ remote sensing, image processing, geographical information systems and \
 photogrammetry."
 LICENSE = "LGPL-3.0-only"
 
-PV = "2.11.1"
+PV = "2.12.1"
 
-RPM_NAME = "ossim-2.11.1-1.21.aarch64.rpm"
-RPM_HASH = "8d444718102f185e15886162d1e6186e9f076cd835661c8044eb78110594c7d4452e41f0ea9dd37ce96e0f557c103e904d6034da1e0f838b72c97b345b1f3941"
+RPM_NAME = "ossim-2.12.1-1.1.aarch64.rpm"
+RPM_HASH = "dc497aaec9141ca088578e981b34cdfd2aa05806c193ed8858118c01096a670b7f20cc8118e56e384663297e09975c9f8c7daa02f547281e20cf943b5647a8dd"
 
 RPROVIDES:${PN} += "ossim"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "/usr/bin/bash \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libossim.so.1 \
+libossim.so.2 \
 libstdc++.so.6"
 
 inherit rpm

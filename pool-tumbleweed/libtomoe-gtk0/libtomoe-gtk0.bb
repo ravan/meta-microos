@@ -1,11 +1,11 @@
 SUMMARY = "TOMOE GTK+ library"
 DESCRIPTION = "TOMOE GTK+ library"
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "libtomoe-gtk0-0.6.0-44.25.aarch64.rpm"
-RPM_HASH = "46ca38588cd093b7bea903e3833437ec5e9d9a10c4e79117d4342de5e1bf93f99a8d339aa9193a2054310714bc1c2c3e9bb7af27597a1b9dfd55178a07fcff9f"
+RPM_NAME = "libtomoe-gtk0-0.6.0-45.6.aarch64.rpm"
+RPM_HASH = "0a06f42288c1eb44d5eb515166a2a4410a3bd8c07a23eccc16599a0ac245146ce81ebb56c50c8a4f8ea3245c596ca39d5794e44e66ab567a77a95cbf44afbc38"
 
 RPROVIDES:${PN} += "libtomoe-gtk.so.0 \
 libtomoe-gtk0"

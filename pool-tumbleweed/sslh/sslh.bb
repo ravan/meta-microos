@@ -4,10 +4,10 @@ it possible to connect to an SSH server on port 443 (e.g. from inside a \
 corporate firewall) while still serving HTTPS on that port."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.22c"
+PV = "2.3.1"
 
-RPM_NAME = "sslh-1.22c-2.5.aarch64.rpm"
-RPM_HASH = "4b2d4cc3a16c478265e59545881e818ed201cc709bc07873d49e27594de6b5a8f8b915c154459b3bb53f2d48d170d041d236b3281012bdd0c005ee0e30267beb"
+RPM_NAME = "sslh-2.3.1-1.4.aarch64.rpm"
+RPM_HASH = "8cb2e477f306fa0d7eeb5e871229ac6f8872358fc272ac62626f13557e37589ad9b1f6b445b1457c99695c87d375a286418acc7b53274cce0ee28002f737a794"
 
 RPROVIDES:${PN} += "config-sslh \
 sslh"
@@ -16,7 +16,8 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 group-nobody \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libconfig.so.11 \
+libcap.so.2 \
+libconfig.so.15 \
 libpcre2-8.so.0 \
 openssh \
 openssl \

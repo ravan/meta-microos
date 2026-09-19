@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.2.15"
+PV = "2.8.19"
 
-RPM_NAME = "enchant-devel-2.2.15-3.4.aarch64.rpm"
-RPM_HASH = "1e6da87181750f380bdf34c1506cef8391d70837cad43b0e91403ef5d9e689727d94d01cf64a978e820e286e22c8a0f9b9fe222af46641c84f75d00403487aa8"
+RPM_NAME = "enchant-devel-2.8.19-1.1.aarch64.rpm"
+RPM_HASH = "6caa3c413d31b2dc1c3b9aaacd1aa7418e2fccbee9f8d49f96b4e4b905526c6c19f2e043d9c6f4672e9ffd33e336311ab7e1521da498c43090ca0cff9a76bd6e"
 
 RPROVIDES:${PN} += "enchant-devel \
 pkgconfig-enchant-2"

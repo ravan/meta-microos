@@ -3,10 +3,10 @@ DESCRIPTION = "The Window Navigator Construction Kit is a library that can be us
 write task lists, pagers, and similar GNOME programs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "43.0"
+PV = "43.3"
 
-RPM_NAME = "libwnck-3-0-43.0-3.4.aarch64.rpm"
-RPM_HASH = "da7010325b90bb77458070e20f74b92dfc0d162981a609678dabcf48f8a2d66889c16c8955cb532929ea8074b5038d29ee6c1b3b9962246f189fd39552157ae9"
+RPM_NAME = "libwnck-3-0-43.3-2.4.aarch64.rpm"
+RPM_HASH = "4e373670e477da0f30e67f594b2c18e467b236b28b4f42cd6e92cb4893c108dde6f541eba28b74e0383fdcf51c0cd8563d07537cada94bdf44cfbfee68eda075"
 
 RPROVIDES:${PN} += "libwnck \
 libwnck-3-0 \

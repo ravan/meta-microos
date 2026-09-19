@@ -2,10 +2,10 @@ SUMMARY = "An opensource implementation of Wolfenstein3D engine"
 DESCRIPTION = "ECWolf is a port of the Wolfenstein 3D engine based of Wolf4SDL."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.4.1"
+PV = "1.4.2"
 
-RPM_NAME = "ecwolf-1.4.1-1.4.aarch64.rpm"
-RPM_HASH = "ac0f1e852815b9d3817e0371410295cf6c0fbf961c96788615fe40c274056879e6a68b3ee248b8fdc050c77d942018fd741019b0844827ba824f69487d3a055e"
+RPM_NAME = "ecwolf-1.4.2-1.5.aarch64.rpm"
+RPM_HASH = "e0cb581b116c19ce177b403f68c94e157c38a4e96e9c807f19bf55bb628eb9b6733c866576c5a1c2e60702cb8b6311e5b35340a9d95a3d7adfecb3300ef1a3b0"
 
 RPROVIDES:${PN} += "bundled-gdtoa \
 bundled-lzma \

@@ -1,11 +1,11 @@
 SUMMARY = "Image burner"
-DESCRIPTION = "An image burner, written especially for Elementary OS."
+DESCRIPTION = "An image burner, written especially for the Pantheon Desktop."
 LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "imageburner-1.0.2-1.19.aarch64.rpm"
-RPM_HASH = "37eb90a0a9828cfa1603633268f7ec7ba4227a01f2c61e0a406d8e233745927088c717d5ae824bb88c8a51c527e6f6b0de6a2d43599e66d844193a320e0020e4"
+RPM_NAME = "imageburner-1.0.2-2.9.aarch64.rpm"
+RPM_HASH = "640f3ea5b1f89551826624c330c2af5a8e90c7959b3d2c542e1f0735380b43c17881e55f4169a643ca1ecff246f71b03b785f830f80676028154397f1f5c29a0"
 
 RPROVIDES:${PN} += "imageburner"
 

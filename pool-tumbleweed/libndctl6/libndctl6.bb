@@ -5,10 +5,10 @@ NVDIMM resources like those defined by the ACPI 6.0 NFIT (NVDIMM \
 Firmware Interface Table)."
 LICENSE = "LGPL-2.1-only"
 
-PV = "78"
+PV = "84"
 
-RPM_NAME = "libndctl6-78-1.1.aarch64.rpm"
-RPM_HASH = "56267a7c88325e71d7491ada22b260fa8664a3c5d387b8d3ab11be85ce8ce3c79097ffcd2b22fec4c8e5cc63e2eb1f518895a224af83a8530cf445eea88a573a"
+RPM_NAME = "libndctl6-84-1.2.aarch64.rpm"
+RPM_HASH = "31b04941502daacfc077e9bf95f8987904c8bc74ebf673f8e3c27843d7d33eb6ac1212b5c569cd413d9d71c7ebd196b8b99876979cbd1eb6543ff38dadc62a72"
 
 RPROVIDES:${PN} += "libcxl.so.1 \
 libdaxctl.so.1 \

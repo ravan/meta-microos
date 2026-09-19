@@ -54,19 +54,18 @@ will assume that they're all zero padded to the same length. \
 The first component and any alpha suffix are handled separately. In each \
 case if either of them starts with a zero they will be zero padded to the \
 same length when stringifying the version."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-2.0"
 
-PV = "1.013"
+PV = "1.19.0"
 
-RPM_NAME = "perl-Perl-Version-1.013-3.28.noarch.rpm"
-RPM_HASH = "89fea2f8e08b4c8ec31cb7a4cdbe2147f6bab917c9111f081fe7a24b53621cb637d17acffdc2bfd9bad2b19c811c87ac473161a646ac4e8d03f051600ff42e9c"
+RPM_NAME = "perl-Perl-Version-1.19.0-1.4.noarch.rpm"
+RPM_HASH = "b73e85f96b9051b3a006878272ab62a9325c4d33974becf36da11b43cca129a7679555720e2adc94f81aae3e736640ca26640e7c6f69eba547a7d1fe04e85bfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--Version \
 perl-Perl-Version"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
-perl-File--Slurp--Tiny"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

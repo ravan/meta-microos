@@ -6,13 +6,14 @@ reports. Compilation of this class requires either XeLaTeX or \
 LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.2svn65546"
+PV = "2026.226.1.4.3svn76924"
 
-RPM_NAME = "texlive-njuthesis-2023.209.1.1.2svn65546-55.1.noarch.rpm"
-RPM_HASH = "99c1594a9ca801fde240a0445ea0b451bed2ab3b21ce796de2b1f42ae10716ff11e31e4e65fa28878074c9928fc35c061510d8046f5a8cd3898bf524a747df36"
+RPM_NAME = "texlive-njuthesis-2026.226.1.4.3svn76924-61.2.noarch.rpm"
+RPM_HASH = "f7eb8a5be0e0ca8f1b16993aa765f3268bf6024c6283e1522a7b4cfff70c1b4acb437770e31ab8ed27b516526d9e505876e5734225375204bcb19fd392b6bbfb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-njuthesis-graduate.def \
+RPROVIDES:${PN} += "tex-njuthesis-doc.cls \
+tex-njuthesis-graduate.def \
 tex-njuthesis-postdoctoral.def \
 tex-njuthesis-undergraduate.def \
 tex-njuthesis.cls \
@@ -28,10 +29,10 @@ tex-amsmath.sty \
 tex-biblatex.sty \
 tex-circledtext.sty \
 tex-emptypage.sty \
+tex-hyperref.sty \
 tex-l3keys2e.sty \
 tex-lua-ul.sty \
 tex-njuvisual.sty \
-tex-ntheorem.sty \
 tex-pifont.sty \
 tex-tabularray.sty \
 tex-unicode-math.sty \

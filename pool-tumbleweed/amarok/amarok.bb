@@ -4,10 +4,10 @@ Vorbis, audio CDs, podcasts and streams. Play lists can be stored in \
 .m3u or .pls files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.9.75git.20230408T114133~7098c192a6"
+PV = "3.3.3"
 
-RPM_NAME = "amarok-2.9.75git.20230408T114133~7098c192a6-1.4.aarch64.rpm"
-RPM_HASH = "714602ceac67113ac0e5d5048e29651c760a76837edb1bb8a4f3920bc396ea8af2976bc7968609c997af6e9090895087fd6bf5c8eebeaeb34bfaebf7257616c4"
+RPM_NAME = "amarok-3.3.3-1.3.aarch64.rpm"
+RPM_HASH = "04cc61365cd803a77c96d7fa6f1c71dfe785dfef8e73f99aaf1fc1017ad89d03f11182657b14d115e1dfe80136bc6a255ab1cf02b819e0e3e2c58ac4c48c0094"
 
 RPROVIDES:${PN} += "amarok \
 libamarok-context-applet-albums.so \
@@ -15,6 +15,7 @@ libamarok-context-applet-analyzer.so \
 libamarok-context-applet-currenttrack.so \
 libamarok-context-applet-lyrics.so \
 libamarok-context-applet-photos.so \
+libamarok-context-applet-similarartists.so \
 libamarok-context-applet-wikipedia.so \
 libamarok-service-lastfm-config.so \
 libamarok-sqlcollection.so.1 \
@@ -26,100 +27,105 @@ libamarokshared.so.1 \
 libampache-account-login.so \
 libgpodder-service-config.so \
 libqml-plugin.so \
-qt5qmlimport-org.kde.amarok.albums.1 \
-qt5qmlimport-org.kde.amarok.analyzer.1 \
-qt5qmlimport-org.kde.amarok.currenttrack.1 \
-qt5qmlimport-org.kde.amarok.lyrics.1 \
-qt5qmlimport-org.kde.amarok.photos.1 \
-qt5qmlimport-org.kde.amarok.qml.1 \
-qt5qmlimport-org.kde.amarok.wikipedia.1"
+qt6qmlimport-org.kde.amarok.albums \
+qt6qmlimport-org.kde.amarok.albums.1 \
+qt6qmlimport-org.kde.amarok.analyzer \
+qt6qmlimport-org.kde.amarok.analyzer.1 \
+qt6qmlimport-org.kde.amarok.currenttrack \
+qt6qmlimport-org.kde.amarok.currenttrack.1 \
+qt6qmlimport-org.kde.amarok.lyrics \
+qt6qmlimport-org.kde.amarok.lyrics.1 \
+qt6qmlimport-org.kde.amarok.photos \
+qt6qmlimport-org.kde.amarok.photos.1 \
+qt6qmlimport-org.kde.amarok.qml \
+qt6qmlimport-org.kde.amarok.qml.1 \
+qt6qmlimport-org.kde.amarok.similarartists \
+qt6qmlimport-org.kde.amarok.similarartists.1 \
+qt6qmlimport-org.kde.amarok.wikipedia \
+qt6qmlimport-org.kde.amarok.wikipedia.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-/usr/bin/perl \
-kirigami2 \
+gstreamer-plugins-base \
+kf6-kirigami-imports \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5Attica.so.5 \
-libKF5Codecs.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5DNSSD.so.5 \
-libKF5Declarative.so.5 \
-libKF5GlobalAccel.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5ItemViews.so.5 \
-libKF5KCMUtils.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5NewStuff.so.5 \
-libKF5Notifications.so.5 \
-libKF5Package.so.5 \
-libKF5QuickAddons.so.5 \
-libKF5Service.so.5 \
-libKF5Solid.so.5 \
-libKF5TextEditor.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5ThreadWeaver.so.5 \
-libKF5Wallet.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickWidgets.so.5 \
-libQt5Sql.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
-libavcodec.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
+libKF6Archive.so.6 \
+libKF6Codecs.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6DNSSD.so.6 \
+libKF6GlobalAccel.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6ItemViews.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KCMUtilsCore.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Notifications.so.6 \
+libKF6Package.so.6 \
+libKF6Solid.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6TextEditor.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6ThreadWeaver.so.6 \
+libKF6Wallet.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6OpenGL.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6Sql.so.6 \
+libQt6Svg.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6UiTools.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libfftw3.so.3 \
-libgdk-pixbuf-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgpod.so.4 \
-liblastfm5.so.1 \
+libgstaudio-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+liblastfm6.so.1 \
 libm.so.6 \
 libmariadb.so.3 \
 libmariadbd.so.19 \
 libmtp.so.9 \
-libmygpo-qt5.so.1 \
-libofa.so.0 \
-libphonon4qt5.so.4 \
-libqt5-qtquickcontrols2 \
+libmygpo-qt6.so.1 \
 libstdc++.so.6 \
-libtag-extras.so.1 \
-libtag-extras1 \
-libtag.so.1 \
-qt5qmlimport-QtQml.Models.2 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Controls.1 \
-qt5qmlimport-QtQuick.Controls.2 \
-qt5qmlimport-QtQuick.Dialogs.1 \
-qt5qmlimport-QtQuick.Layouts.1 \
-qt5qmlimport-QtWebEngine.1 \
-qt5qmlimport-org.kde.amarok.albums.1 \
-qt5qmlimport-org.kde.amarok.analyzer.1 \
-qt5qmlimport-org.kde.amarok.currenttrack.1 \
-qt5qmlimport-org.kde.amarok.lyrics.1 \
-qt5qmlimport-org.kde.amarok.photos.1 \
-qt5qmlimport-org.kde.amarok.qml.1 \
-qt5qmlimport-org.kde.amarok.wikipedia.1 \
-qt5qmlimport-org.kde.kirigami.2"
+libtag.so.2 \
+qt6-declarative-imports \
+qt6qmlimport-QtQml.Models.2 \
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.2 \
+qt6qmlimport-QtQuick.Controls \
+qt6qmlimport-QtQuick.Controls.2 \
+qt6qmlimport-QtQuick.Layouts.1 \
+qt6qmlimport-QtWebEngine.1 \
+qt6qmlimport-org.kde.amarok.albums.1 \
+qt6qmlimport-org.kde.amarok.analyzer.1 \
+qt6qmlimport-org.kde.amarok.currenttrack.1 \
+qt6qmlimport-org.kde.amarok.lyrics.1 \
+qt6qmlimport-org.kde.amarok.photos.1 \
+qt6qmlimport-org.kde.amarok.qml.1 \
+qt6qmlimport-org.kde.amarok.similarartists.1 \
+qt6qmlimport-org.kde.amarok.wikipedia.1 \
+qt6qmlimport-org.kde.kirigami.2"
 
 inherit rpm

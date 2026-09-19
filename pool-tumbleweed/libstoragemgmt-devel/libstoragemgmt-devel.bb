@@ -3,10 +3,10 @@ DESCRIPTION = "The libstoragemgmt-devel package contains libraries and header fi
 developing applications that use libstoragemgmt."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.9.8"
+PV = "1.10.3"
 
-RPM_NAME = "libstoragemgmt-devel-1.9.8-1.2.aarch64.rpm"
-RPM_HASH = "30f26f038d2d9ddc2df04080a8004dd67ac8e0b45867b54f1777078828c39d7f8e6b2fad43445382cf8d135a3f8b6e5754d022d488f9df9e9ed0b6dd17cfdc47"
+RPM_NAME = "libstoragemgmt-devel-1.10.3-1.3.aarch64.rpm"
+RPM_HASH = "efea408023aa7bd146ac9c0a9d1da207a82da91c2552b56b283adf3874aa5b3c439ef1d6b48860395ccf60d3deefab0742d732f2c3d4cd1b109b25510206918b"
 
 RPROVIDES:${PN} += "libstoragemgmt-devel \
 pkgconfig-libstoragemgmt"

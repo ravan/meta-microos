@@ -8,23 +8,27 @@ rage-encryption can also use ssh-ed25519 and ssh-rsa keys as \
 alternatives to age1 keys."
 LICENSE = "(0BSD | MIT | Apache-2.0) & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & BSD-3-Clause & CDDL-1.0 & MIT"
 
-PV = "0.9.2+0"
+PV = "0.11.1+0"
 
-RPM_NAME = "rage-encryption-0.9.2+0-1.1.aarch64.rpm"
-RPM_HASH = "5a3cbb0dd6948fa954281f49c5529ba13a4782e07f79605fc22b714257fac835a226fb4075af9e2b5db05a37c6eefdb0b9134034bf2d97b2db275cdf2228902c"
+RPM_NAME = "rage-encryption-0.11.1+0-3.9.aarch64.rpm"
+RPM_HASH = "bc10de36a6ce1c5dbdde1fe3d2890ca2ced604e96a41fcbf285712435fedeaf840c1c6abaf48292db053ec0b526441371d31b7f1987828f39f0f2f325cd5c6ed"
 
-RPROVIDES:${PN} += "bundled-rust-crate-adler \
+RPROVIDES:${PN} += "bundled-rust-crate-adler2 \
 bundled-rust-crate-aead \
 bundled-rust-crate-aes \
 bundled-rust-crate-aes-gcm \
 bundled-rust-crate-age \
 bundled-rust-crate-age-core \
 bundled-rust-crate-aho-corasick \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
 bundled-rust-crate-arc-swap \
-bundled-rust-crate-atty \
 bundled-rust-crate-autocfg \
 bundled-rust-crate-base64 \
 bundled-rust-crate-base64ct \
+bundled-rust-crate-basic-toml \
 bundled-rust-crate-bcrypt-pbkdf \
 bundled-rust-crate-bech32 \
 bundled-rust-crate-bitflags \
@@ -36,17 +40,26 @@ bundled-rust-crate-bzip2 \
 bundled-rust-crate-bzip2-sys \
 bundled-rust-crate-cbc \
 bundled-rust-crate-cc \
+bundled-rust-crate-cfg-aliases \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-chacha20 \
 bundled-rust-crate-chacha20poly1305 \
 bundled-rust-crate-chrono \
 bundled-rust-crate-cipher \
+bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
+bundled-rust-crate-clap-complete \
+bundled-rust-crate-clap-derive \
+bundled-rust-crate-clap-lex \
+bundled-rust-crate-clap-mangen \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-console \
 bundled-rust-crate-const-oid \
 bundled-rust-crate-constant-time-eq \
 bundled-rust-crate-cookie-factory \
 bundled-rust-crate-cpufeatures \
 bundled-rust-crate-crc32fast \
+bundled-rust-crate-crossbeam-utils \
 bundled-rust-crate-crypto-common \
 bundled-rust-crate-ctr \
 bundled-rust-crate-ctrlc \
@@ -57,6 +70,7 @@ bundled-rust-crate-digest \
 bundled-rust-crate-displaydoc \
 bundled-rust-crate-either \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-errno \
 bundled-rust-crate-fastrand \
 bundled-rust-crate-filetime \
 bundled-rust-crate-find-crate \
@@ -67,14 +81,23 @@ bundled-rust-crate-fluent-langneg \
 bundled-rust-crate-fluent-syntax \
 bundled-rust-crate-fuse-mt \
 bundled-rust-crate-fuser \
+bundled-rust-crate-futures \
+bundled-rust-crate-futures-channel \
+bundled-rust-crate-futures-core \
+bundled-rust-crate-futures-executor \
+bundled-rust-crate-futures-io \
+bundled-rust-crate-futures-macro \
+bundled-rust-crate-futures-sink \
+bundled-rust-crate-futures-task \
+bundled-rust-crate-futures-util \
 bundled-rust-crate-generic-array \
 bundled-rust-crate-getrandom \
 bundled-rust-crate-ghash \
-bundled-rust-crate-gumdrop \
-bundled-rust-crate-gumdrop-derive \
 bundled-rust-crate-hashbrown \
+bundled-rust-crate-heck \
 bundled-rust-crate-hkdf \
 bundled-rust-crate-hmac \
+bundled-rust-crate-home \
 bundled-rust-crate-humantime \
 bundled-rust-crate-i18n-config \
 bundled-rust-crate-i18n-embed \
@@ -84,9 +107,9 @@ bundled-rust-crate-iana-time-zone \
 bundled-rust-crate-inout \
 bundled-rust-crate-intl-memoizer \
 bundled-rust-crate-intl-pluralrules \
-bundled-rust-crate-io-lifetimes \
 bundled-rust-crate-io-tee \
-bundled-rust-crate-itoa \
+bundled-rust-crate-is-terminal \
+bundled-rust-crate-is-terminal-polyfill \
 bundled-rust-crate-jobserver \
 bundled-rust-crate-lazy-static \
 bundled-rust-crate-libc \
@@ -104,7 +127,6 @@ bundled-rust-crate-num-bigint-dig \
 bundled-rust-crate-num-cpus \
 bundled-rust-crate-num-integer \
 bundled-rust-crate-num-iter \
-bundled-rust-crate-num-threads \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-opaque-debug \
@@ -116,6 +138,8 @@ bundled-rust-crate-pbkdf2 \
 bundled-rust-crate-percent-encoding \
 bundled-rust-crate-pin-project \
 bundled-rust-crate-pin-project-internal \
+bundled-rust-crate-pin-project-lite \
+bundled-rust-crate-pin-utils \
 bundled-rust-crate-pinentry \
 bundled-rust-crate-pkcs1 \
 bundled-rust-crate-pkcs8 \
@@ -123,8 +147,8 @@ bundled-rust-crate-pkg-config \
 bundled-rust-crate-poly1305 \
 bundled-rust-crate-polyval \
 bundled-rust-crate-ppv-lite86 \
-bundled-rust-crate-proc-macro-error \
-bundled-rust-crate-proc-macro-error-attr \
+bundled-rust-crate-proc-macro-error-attr2 \
+bundled-rust-crate-proc-macro-error2 \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
 bundled-rust-crate-rage \
@@ -132,31 +156,35 @@ bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
 bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
+bundled-rust-crate-roff \
 bundled-rust-crate-rpassword \
 bundled-rust-crate-rsa \
+bundled-rust-crate-rtoolbox \
 bundled-rust-crate-rust-embed \
 bundled-rust-crate-rust-embed-impl \
 bundled-rust-crate-rust-embed-utils \
 bundled-rust-crate-rustc-hash \
+bundled-rust-crate-rustc-version \
 bundled-rust-crate-rustix \
-bundled-rust-crate-ryu \
 bundled-rust-crate-salsa20 \
 bundled-rust-crate-same-file \
 bundled-rust-crate-scopeguard \
 bundled-rust-crate-scrypt \
 bundled-rust-crate-secrecy \
 bundled-rust-crate-self-cell \
+bundled-rust-crate-semver \
 bundled-rust-crate-serde \
 bundled-rust-crate-serde-derive \
-bundled-rust-crate-serde-json \
 bundled-rust-crate-sha1 \
 bundled-rust-crate-sha2 \
+bundled-rust-crate-shlex \
 bundled-rust-crate-signature \
+bundled-rust-crate-slab \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-spin \
 bundled-rust-crate-spki \
-bundled-rust-crate-static-assertions \
 bundled-rust-crate-strsim \
 bundled-rust-crate-subtle \
 bundled-rust-crate-syn \
@@ -167,6 +195,7 @@ bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-threadpool \
 bundled-rust-crate-time \
+bundled-rust-crate-time-core \
 bundled-rust-crate-tinystr \
 bundled-rust-crate-toml \
 bundled-rust-crate-type-map \
@@ -175,7 +204,7 @@ bundled-rust-crate-unic-langid \
 bundled-rust-crate-unic-langid-impl \
 bundled-rust-crate-unicode-ident \
 bundled-rust-crate-universal-hash \
-bundled-rust-crate-users \
+bundled-rust-crate-utf8parse \
 bundled-rust-crate-version-check \
 bundled-rust-crate-walkdir \
 bundled-rust-crate-which \
@@ -193,6 +222,7 @@ bundled-rust-crate-zstd-sys \
 rage-encryption"
 
 RDEPENDS:${PN} += "libc.so.6 \
+libfuse3.so.4 \
 libgcc-s.so.1"
 
 inherit rpm

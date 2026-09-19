@@ -8,10 +8,10 @@ circuit library of TikZ and allows you to draw an SFC diagram \
 in same way you would draw any other circuit."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn49424"
+PV = "2026.226.1.0.1svn49424"
 
-RPM_NAME = "texlive-tikz-sfc-2023.209.1.0.1svn49424-53.1.noarch.rpm"
-RPM_HASH = "28fe7257aa0a9c21b2919d40dce4cfdef67b1a0d8ac8afe8249a3ff6ceeb52dec7bf29ff51b2e3cbf82de7e5c94fc6b1712814d054237295ac4ad55add29679d"
+RPM_NAME = "texlive-tikz-sfc-2026.226.1.0.1svn49424-59.2.noarch.rpm"
+RPM_HASH = "fcf1fd822e516860fa0ca1dd57d6f9a4335be6834b333f40289dfa651fd5883e540c6b05178aa82d9f4273bfd6228ca45245b9b41c1c77ee397f3494e0879bfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarycircuits.plc.sfc.code.tex \

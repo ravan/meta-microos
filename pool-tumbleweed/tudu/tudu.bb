@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.10.4"
 
-RPM_NAME = "tudu-0.10.4-1.12.aarch64.rpm"
-RPM_HASH = "16fe64eeebcc76abb3f8c19a1660880c38f1228190c048a4be44177ede469f5fdb965a94c8975792586c39f248dd3b9f7aa2f431cdc00f036d807f4c02e44bbb"
+RPM_NAME = "tudu-0.10.4-2.9.aarch64.rpm"
+RPM_HASH = "b3ec9951aa97ce49ead163812227f68fdc3f9b497bcb79df53071e307067dfdfd64ed1134314f02fc71debfdf0119249b6280ca8f0b59029d581e8044030cbb9"
 
 RPROVIDES:${PN} += "config-tudu \
 tudu"

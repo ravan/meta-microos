@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-interpreter"
 DESCRIPTION = "This package includes the documentation for texlive-interpreter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn27232"
+PV = "2026.226.1.2svn27232"
 
-RPM_NAME = "texlive-interpreter-doc-2023.209.1.2svn27232-54.1.noarch.rpm"
-RPM_HASH = "5025784227753251976e84b05c7066baf34e4c585a1c7d493b251af6e69c4cdceece8aa308f88caddde5c14d1cb7073aca98999c30e0872c712d823db03a0ec9"
+RPM_NAME = "texlive-interpreter-doc-2026.226.1.2svn27232-60.2.noarch.rpm"
+RPM_HASH = "eb8bf2d1fd2bab337c1fdd9d5b10aa3fe5276ec881320fbf7c08296b7cd4c780e53e90e2bd03102f92a2875995df30446afb203b16425433b845d63b0d37319b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-interpreter-doc"

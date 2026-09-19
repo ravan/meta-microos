@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-nibbles"
 DESCRIPTION = "Provides translations for the 'gnome-nibbles' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.38.3"
+PV = "4.5.2"
 
-RPM_NAME = "gnome-nibbles-lang-3.38.3-1.2.noarch.rpm"
-RPM_HASH = "c0557ae2e62b61f5ba758a1522aea2312df5fcb58ff9419f69ed629cc85b144b2432fef46077d49b56f2c242633d483197b1ab1cc6f2ed00a569e6c603c8af19"
+RPM_NAME = "gnome-nibbles-lang-4.5.2-1.2.noarch.rpm"
+RPM_HASH = "9cefe01019d1333e7844d4887c9c9656edb709ebc9a09a34ca8f819f458ba10dfa2a6c534647f2d88566ce6b2d927ed88e692a19fc3b47af57e60c6febae710c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-nibbles-lang \

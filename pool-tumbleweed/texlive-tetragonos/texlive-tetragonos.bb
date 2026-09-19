@@ -3,10 +3,10 @@ DESCRIPTION = "This is a XeLaTeX package for mapping Chinese characters to \
 their codes in the Four-Corner Method."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn49732"
+PV = "2026.227.1svn49732"
 
-RPM_NAME = "texlive-tetragonos-2023.209.1svn49732-55.1.noarch.rpm"
-RPM_HASH = "a3ee110517777dfeeef4ecfa7bb885f9e8bd431f7d175863d9a5e3159c4609642be18569e3207e65e67cce74a268c72a8830cc704bd7215b7905b750fe357b05"
+RPM_NAME = "texlive-tetragonos-2026.227.1svn49732-62.2.noarch.rpm"
+RPM_HASH = "21d46ca492940702da5e0801fe49891ebbd174a656a24bbc56744ddc5356f51b43b48c17bf52a9ca2462013dc396772f345946eff9992645a0dbbc7b4572c098"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tetragonos-database.def \

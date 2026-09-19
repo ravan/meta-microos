@@ -4,10 +4,10 @@ DESCRIPTION = "RocketChat protocol plugin for libpurple-based applications. \
 This package provides the icon set for Pidgin."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.0+git20220925"
+PV = "20260223"
 
-RPM_NAME = "pidgin-plugin-rocketchat-0.0+git20220925-1.4.noarch.rpm"
-RPM_HASH = "6bc778303e555bc3ae004d4f41f9c90f3e6324c6a0d8a08dbb3f4fd171e6d5549367d622eb83d716ef8dc349b8c3291e068e7aed0f0e9a49f831bc262d7e8311"
+RPM_NAME = "pidgin-plugin-rocketchat-20260223-1.3.noarch.rpm"
+RPM_HASH = "ac96e1d7ed45ba313ce70e199dad51ebc3df6fa9fd9c2135365e5a33fe74934f88aecae44a0817e8684b18986ab202d0fe61b769690e1937b21b7039077fb9c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pidgin-plugin-rocketchat"

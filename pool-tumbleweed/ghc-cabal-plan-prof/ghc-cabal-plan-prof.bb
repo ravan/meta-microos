@@ -2,22 +2,22 @@ SUMMARY = "Haskell cabal-plan profiling library"
 DESCRIPTION = "This package provides the Haskell cabal-plan profiling library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7.3.0"
+PV = "0.7.6.1"
 
-RPM_NAME = "ghc-cabal-plan-prof-0.7.3.0-2.4.aarch64.rpm"
-RPM_HASH = "429056384964cde83fd06e1f33d1ec9733adba84f6fb8fc6e10c18f5f8bb0340789b4ddc454c9b498fd1945e374189d3e6a2ca4dc2b4b5a7d61eeb330b9214d3"
+RPM_NAME = "ghc-cabal-plan-prof-0.7.6.1-1.15.aarch64.rpm"
+RPM_HASH = "10bd32bb85f53efc10b03451d8a6b37c4f672d0e8d0c986169173a4cf3aaa967d7dea0c866a1ac40134f3dc84f5a511c797f44596ed6ffd8d9b93d6bd5aaa643"
 
 RPROVIDES:${PN} += "ghc-cabal-plan-prof \
-ghc-prof-cabal-plan-0.7.3.0-JgI03Zk58SqF3DU0HK7M4b"
+ghc-prof-cabal-plan-0.7.6.1-FMxijykQYIFJ7ayNnBWqnC"
 
 RDEPENDS:${PN} += "ghc-cabal-plan-devel \
-ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-base16-bytestring-1.0.2.0-LI31ya5OMpR4awBMr256aJ \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-text-2.0.2"
+ghc-prof-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-base16-bytestring-1.0.2.0-IiVu4f3aSfMH2rpDgRP1QL \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

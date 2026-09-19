@@ -3,16 +3,15 @@ DESCRIPTION = "mpack is a binary serialization/RPC library that implements both 
 and msgpack-rpc specifications."
 LICENSE = "MIT"
 
-PV = "1.0.6"
+PV = "1.0.13"
 
-RPM_NAME = "lua53-mpack-1.0.6-5.3.aarch64.rpm"
-RPM_HASH = "c45ccf93a4bfff47715ad5aa72812c1058fcb7437dcdaf7c4124586780b45ec9f492dbb562c62495d479a63bafc5355ffd0607072939ae8412482c305387d354"
+RPM_NAME = "lua53-mpack-1.0.13-2.3.aarch64.rpm"
+RPM_HASH = "b005ae8b58c51a8ab91543c43427ecc91da7a03e709cd857e484cac80d89429d436e81f634f20f92e7743670afa4d3217681c50dcf39fd9375c0191bd8d95fe0"
 
 RPROVIDES:${PN} += "lua53-mpack"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-liblua5.3.so.5 \
 lua53"
 
 inherit rpm

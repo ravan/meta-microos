@@ -4,10 +4,10 @@ Original patterns 'czhyphen' are still distributed in the \
 'csplain' package and loaded with ISO Latin 2 encoding (IL2)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58609"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-czech-2023.209.svn58609-54.1.noarch.rpm"
-RPM_HASH = "f2c356e913e268c2a30252f2eef89d3126311c8aab0d19d587118c64bfecf3eae08e5c4931906b5f27cfadc20fda03ad74758c5e9771d2532880071fd9b830b2"
+RPM_NAME = "texlive-hyphen-czech-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "520907f0257a15a579b7da47fcf6aa1e8600b3ba1d51336f35cd15e7a74f3308ac0df15860515635d1aa689165e9203cc95c75e581023876295e9565db0aad0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-cs.ec.tex \

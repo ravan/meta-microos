@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-subfiles"
 DESCRIPTION = "This package includes the documentation for texlive-subfiles"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn56977"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-subfiles-doc-2023.209.2.2svn56977-58.1.noarch.rpm"
-RPM_HASH = "2281769a11dd4d987ac75947d06a45a7f047b5ac0a797a6168bcc94041f0a93f1a39a72af8c0feb27bc7a947350a663d5c5b0c3eb585417f12ad80868abaf8c8"
+RPM_NAME = "texlive-subfiles-doc-2026.226.2.2svn77682-64.2.noarch.rpm"
+RPM_HASH = "5be4dc4665b45eec23c02565a1a95b87ca3f2d86d5c5492e51a2f295ccb80e0d4c366939d2a78fb6740ea5b493252eee8080e4dd2bc8d2277bba3590acbf1e82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-subfiles-doc"

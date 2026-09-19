@@ -5,10 +5,10 @@ Personal TeX inc.), the document is a useful aide-memoire for \
 those who have read the manual."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn24965"
+PV = "2026.226.svn24965"
 
-RPM_NAME = "texlive-pictexsum-2023.209.svn24965-52.1.noarch.rpm"
-RPM_HASH = "c07c5051051964fa4a0db7022ceaeb1f5eb921b0db73927f799e265820cc0815bac1e010bd7cd2ec6eb2087a996f224b03784632bfc8afa3429f8378e0ca6697"
+RPM_NAME = "texlive-pictexsum-2026.226.svn24965-58.2.noarch.rpm"
+RPM_HASH = "4d7d2bc92b23987623d2b7992308242f0d88d5a8a248733accb435a006bdc986d18e71696eab1c5f0c94b8978fcf439a6aebae97ef09ece3d92ff70743cd2435"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pictexsum"

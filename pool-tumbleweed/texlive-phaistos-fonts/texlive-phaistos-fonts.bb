@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-phaistos"
 DESCRIPTION = "The  separated fonts package for texlive-phaistos"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn18651"
+PV = "2026.226.1.0svn18651"
 
-RPM_NAME = "texlive-phaistos-fonts-2023.209.1.0svn18651-52.1.noarch.rpm"
-RPM_HASH = "34be4263f5acce6b7c3263e930cc4c78aa7d95c921d190237a02adc7a098c10e9fc3be48fd75cee59c7400c81644419c14caa687361579864c6519e31db80028"
+RPM_NAME = "texlive-phaistos-fonts-2026.226.1.0svn18651-58.2.noarch.rpm"
+RPM_HASH = "a7b9dfdeb680fe289995996d961c8ec4b49570e0e41e8bfd562ca48007d6be198f09ae1bd7e784d8e3d7b9c95bac352d629ffda079ac87d18b3fddb6fb09d4fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-phaistos-fonts \

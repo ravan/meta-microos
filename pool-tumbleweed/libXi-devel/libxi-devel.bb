@@ -5,10 +5,10 @@ This package contains the development headers for the library found \
 in libXi6."
 LICENSE = "MIT"
 
-PV = "1.8.1"
+PV = "1.8.3"
 
-RPM_NAME = "libXi-devel-1.8.1-1.1.aarch64.rpm"
-RPM_HASH = "7731735b16bd0e282d7344f08b82b31d05909d908de487f94c2ff29450994fe15b64ec90b64e2b9d133d6d17a1dde0c649ed861b450f90b0e0c13658abf6bbd3"
+RPM_NAME = "libXi-devel-1.8.3-1.3.aarch64.rpm"
+RPM_HASH = "c6848f748f0731d283059901e68e0bb398ce37c34b99311a9c95ac0eb7fab0845ef13999d9cb12583a165a5da032319212bcc740fe7be5d02801f6bd29f5dcde"
 
 RPROVIDES:${PN} += "libXi-devel \
 libXi6-devel \

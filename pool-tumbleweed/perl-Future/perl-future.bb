@@ -34,10 +34,10 @@ Unless otherwise noted, the following methods require at least version \
 _0.08_."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.50"
+PV = "0.520.0"
 
-RPM_NAME = "perl-Future-0.50-1.3.noarch.rpm"
-RPM_HASH = "6f9c7756e63ce817d1d77eed6f0069c6615e5f92c2eda97ded4b441836e5274c2abf7a23962c259097f70a3b3f9646be6e927a51475845e3dbf09a048ff31644"
+RPM_NAME = "perl-Future-0.520.0-1.6.noarch.rpm"
+RPM_HASH = "4a233c456527559ee117fccf468e6436149e498c566e2082fc28addc75acb587a21018a8f22b52b73e0760952aca77e278fb9f81de3fe0b5433b85a2dd905984"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Future \
@@ -48,7 +48,8 @@ perl-Future--Utils \
 perl-Test--Future \
 perl-Test--Future--Deferred"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-Carp"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Carp \
+perl-List--Util"
 
 inherit rpm

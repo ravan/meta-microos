@@ -18,10 +18,10 @@ environment variable taking precedence), otherwise, it will use the XS \
 implementation if possible, falling back to the pure perl one."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.40"
+PV = "0.400.0"
 
-RPM_NAME = "perl-Package-Stash-0.40-1.9.noarch.rpm"
-RPM_HASH = "20abca9b2cc9540c636a6aeefbdcaa1e20a2e7228c35905254e929ff91089c17a0bce29c2c5c2bbac5b81aaf1d826246f59ab7936e134d0d0dd11cfddf28683c"
+RPM_NAME = "perl-Package-Stash-0.400.0-1.7.noarch.rpm"
+RPM_HASH = "fc437eef8cfe4b477025e58c2f67066c001d840d4fba1115efa00429172739a253146e56697a27e792722131ec1c23a196ca817b9ccac0b967a1cf177703c039"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Package--Stash \
@@ -29,9 +29,8 @@ perl-Package--Stash--PP \
 perl-Package-Stash"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Dist--CheckConflicts \
-perl-Module--Implementation \
-perl-Package--Stash--XS"
+perl-Module--Implementation"
 
 inherit rpm

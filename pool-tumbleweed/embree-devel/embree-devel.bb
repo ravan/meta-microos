@@ -2,14 +2,14 @@ SUMMARY = "Development files for embree"
 DESCRIPTION = "This package contains the C++ header and CMake config files."
 LICENSE = "Apache-2.0"
 
-PV = "3.13.5"
+PV = "4.4.1"
 
-RPM_NAME = "embree-devel-3.13.5-2.4.aarch64.rpm"
-RPM_HASH = "ed6efd84bed40dfdac02db2088194604d5f0fb765c0b567a99e166c39b67df0d0d20d9a90d2517ca7d8a4441b3f1693979e75cd6f477b329f83d7587727e3545"
+RPM_NAME = "embree-devel-4.4.1-1.3.aarch64.rpm"
+RPM_HASH = "790e4b5a908bcfd77b69607d1899566975414f918d39fcb310f5d28c71896a8cc3437f07185fc68dee660c51aa7428f800aceb719012150649eac2a00882a1e3"
 
 RPROVIDES:${PN} += "cmake-embree \
 embree-devel"
 
-RDEPENDS:${PN} += "libembree3"
+RDEPENDS:${PN} += "libembree4-4"
 
 inherit rpm

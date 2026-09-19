@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-coolfn"
 DESCRIPTION = "This package includes the documentation for texlive-coolfn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn66221"
+PV = "2026.226.1.2.2svn69007"
 
-RPM_NAME = "texlive-coolfn-doc-2023.209.1.1.0svn66221-55.1.noarch.rpm"
-RPM_HASH = "2c94fa8bd0697cc3600990520ee95c2c550a55f184e447e88bb1640370a444faa0441e3c141c8754887a99745b7b2cc43d6418c64609a17bf110e7a73bb23dd0"
+RPM_NAME = "texlive-coolfn-doc-2026.226.1.2.2svn69007-61.2.noarch.rpm"
+RPM_HASH = "641103ca5511b477b7b4cef12f8b839f980055006669b95822bfac16d7d5f68526c12574186017713bd827926e797cf059e1cb7d0068fca930d5032141723867"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-coolfn-doc"

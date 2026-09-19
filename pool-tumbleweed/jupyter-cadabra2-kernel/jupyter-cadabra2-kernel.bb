@@ -5,10 +5,10 @@ the solution of problems encountered in field theory. \
 This package provides a jupyter kernel for cadabra2."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.4.3.2"
+PV = "2.5.14"
 
-RPM_NAME = "jupyter-cadabra2-kernel-2.4.3.2-1.6.aarch64.rpm"
-RPM_HASH = "1cb94c323edfcc4e0d10a626f691fe0be4db5a06821ca37396e62b8d8ca04c6637c792a3996e0336a2e7b00dc873043af47106e745a9fe9c683241c9858acab3"
+RPM_NAME = "jupyter-cadabra2-kernel-2.5.14-3.1.aarch64.rpm"
+RPM_HASH = "80e0a30f3744ee2c04c5a8f275258a6cf755bd420854ac28fdfc5dc99a442e35f30bcbadd69e2b105de755afd431dc04e021e35ea0a777de34b7efde34dec394"
 
 RPROVIDES:${PN} += "jupyter-cadabra2-kernel"
 

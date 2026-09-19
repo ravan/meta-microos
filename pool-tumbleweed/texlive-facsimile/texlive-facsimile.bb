@@ -9,10 +9,10 @@ from the fax package, and provides much better language \
 support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn21328"
+PV = "2026.226.1.0svn21328"
 
-RPM_NAME = "texlive-facsimile-2023.209.1.0svn21328-53.1.noarch.rpm"
-RPM_HASH = "f09edb7bbacfc7db4466e58530bde7cd81c514f6d54365aa902ca39973644559ee4c122e504a4a5637f6517e97b467747831d9d1ff3bf31f6550caca55b84313"
+RPM_NAME = "texlive-facsimile-2026.226.1.0svn21328-59.2.noarch.rpm"
+RPM_HASH = "bf68dbfe69960eb94cd70a1eb99181cafb689bf574ae64c5ec91ecb306ab3f56783a18b9e4c9be0cdd7ec11cf8bc82c13172dc8489f2e695e7405e131b0e65a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fac-de.cfg \

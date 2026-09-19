@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.1.5"
 
-RPM_NAME = "neix-0.1.5-1.10.aarch64.rpm"
-RPM_HASH = "e5cb50d8c08a61eda4020a8dff08d8939cb51e0f2e03416a1f47868cfc6bb639aa222ee5e158a94aea505d59bdf54300a8e18478ce68a5ffd2f16ecc214905e6"
+RPM_NAME = "neix-0.1.5-2.9.aarch64.rpm"
+RPM_HASH = "64ddff33abcbe6a55e235c9431e105c67174f96c6cbe6f6ac91026290b9f42f8955556abef7aa94551046c8eafff8ceb72193d8a3ae2019577114f5fa6ea112e"
 
 RPROVIDES:${PN} += "neix"
 

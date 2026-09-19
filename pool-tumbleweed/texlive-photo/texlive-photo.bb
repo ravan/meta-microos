@@ -9,10 +9,10 @@ placed as floats, they can also be placed as boxes, with \
 captions and photographer line still being available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn18739"
+PV = "2026.226.svn18739"
 
-RPM_NAME = "texlive-photo-2023.209.svn18739-52.1.noarch.rpm"
-RPM_HASH = "227ae5a06cb98710083a6aeb446fd8dca298464a3997925b308cb32c10be8c9e36e1f980ce6fe02feacdecab9e25d17897c453a180fb2829bf6c97758ca3c807"
+RPM_NAME = "texlive-photo-2026.226.svn18739-58.2.noarch.rpm"
+RPM_HASH = "789064d8dd7fa8e1a494dce58c81054582c7f5db33587e0fd98a2b006dc846410580900376f6ccde8ece61a7b2c4c4a203528778d19a0e8a0b9659f742aa3283"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-photo.sty \

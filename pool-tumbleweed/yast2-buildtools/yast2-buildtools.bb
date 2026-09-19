@@ -3,10 +3,10 @@ DESCRIPTION = "Scripts and templates required for rebuilding the existing YaST2 
 modules and components (both ruby and C++)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1"
+PV = "5.0.4"
 
-RPM_NAME = "yast2-buildtools-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "ffb8f8e333da0d7ec599cebd14f73d96bec8e91f4a25c095f0b19c28bbbd981c99112d505934105a9216af1f241762f8021512074534da094f78c9611eebe96e"
+RPM_NAME = "yast2-buildtools-5.0.4-1.1.noarch.rpm"
+RPM_HASH = "61b30b0d8f1c2d5015a19ead89797cfd96972c9463f5d41a216aee011e7fc9432c7d61f85c0fd55a1744e7ac5e80e8dceca948ef2c855682f3dc236a9a683ef3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-yast2-devtools \
@@ -17,7 +17,6 @@ rpm-macro-yast-ci-check \
 rpm-macro-yast-clientdir \
 rpm-macro-yast-configure \
 rpm-macro-yast-controldir \
-rpm-macro-yast-desktop-files \
 rpm-macro-yast-desktopdir \
 rpm-macro-yast-dir \
 rpm-macro-yast-docdir \

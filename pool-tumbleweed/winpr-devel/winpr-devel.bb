@@ -3,21 +3,21 @@ DESCRIPTION = "This package contains header files for developing applications th
 use the winpr and winpr-tools libraries."
 LICENSE = "Apache-2.0"
 
-PV = "2.11.0"
+PV = "3.31.0"
 
-RPM_NAME = "winpr-devel-2.11.0-1.1.aarch64.rpm"
-RPM_HASH = "7084b61f31fe9a46bbbfc39029c6ca1284c30a5a1e19c568339627e238f0791f7b0e313cd1e85852f038be99f301ac47c694b59209ec1a5e58b104f942743e7f"
+RPM_NAME = "winpr-devel-3.31.0-1.1.aarch64.rpm"
+RPM_HASH = "e2299b3831f2a653d05213fd3a5dc533ede4ebabc35fca2a6f6a08cd6cf50c11c481d2392e1493dff365d645ab2ae0ebdcd1f3f4ab18da4d5dd38fd2af899375"
 
 RPROVIDES:${PN} += "cmake-WinPR \
 libwinpr2-devel \
-pkgconfig-winpr-tools2 \
-pkgconfig-winpr2 \
+pkgconfig-winpr-tools3 \
+pkgconfig-winpr3 \
 winpr-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake \
-libwinpr2-2 \
-pkgconfig-libssl \
-pkgconfig-winpr2"
+freerdp-server \
+libwinpr3-3 \
+pkgconfig-winpr3"
 
 inherit rpm

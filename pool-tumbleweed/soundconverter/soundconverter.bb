@@ -5,16 +5,16 @@ It reads anything the GStreamer library can read, and offers writing \
 to WAV, FLAC, MP3, AAC, and Ogg Vorbis, also with the help of GStreamer."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.0.3"
+PV = "4.0.5"
 
-RPM_NAME = "soundconverter-4.0.3-1.5.aarch64.rpm"
-RPM_HASH = "18accfeda8a7a422b9120872aefb9ab6e215768399eadd107c594799ecf1107b71fd64001b3f45382da9435991fa7acc67d32f2a2299606bc9f1061d65e13c0b"
+RPM_NAME = "soundconverter-4.0.5-2.2.aarch64.rpm"
+RPM_HASH = "fe64f84080804547b53fd598b57ed478171f6ee3b2539d732639101b6f0cd3b2509dc1c6e2e5ba0f15963a28981f8819485f6099d9ecf433ab4212662cdf9119"
 
-RPROVIDES:${PN} += "python3.11dist-soundconverter \
+RPROVIDES:${PN} += "python3.13dist-soundconverter \
 python3dist-soundconverter \
 soundconverter"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 gstreamer \
 gstreamer-plugins-base \
 gstreamer-plugins-good \

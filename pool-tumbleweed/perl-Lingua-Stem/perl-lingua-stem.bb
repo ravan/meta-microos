@@ -35,8 +35,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.31"
 
-RPM_NAME = "perl-Lingua-Stem-2.31-1.14.noarch.rpm"
-RPM_HASH = "b890aea2e798cca675782a451d7922aaa6849f16b8399d9f56fdf51da7667d9c1d15b22b957db41e9f418d9ddd6d7595e2abe83eaf61d9ebfc63ecab461d1cb4"
+RPM_NAME = "perl-Lingua-Stem-2.31-1.28.noarch.rpm"
+RPM_HASH = "0844a7bc287462505d90814db15786c108f3b30a8e0a8b355d54849061a644c338465f6919ccedf29e276881dfb2a380f300162de91fcb469623f5c378f877e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--Stem \
@@ -51,7 +51,7 @@ perl-Lingua--Stem--Pt \
 perl-Lingua--Stem--Sv \
 perl-Lingua-Stem"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Lingua--GL--Stemmer \
 perl-Lingua--PT--Stemmer \
 perl-Lingua--Stem--Fr \

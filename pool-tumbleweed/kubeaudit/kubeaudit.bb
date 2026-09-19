@@ -10,10 +10,10 @@ DESCRIPTION = "kubeaudit is a command line tool and a Go package to audit Kubern
 kubeaudit makes sure you deploy secure containers!"
 LICENSE = "MIT"
 
-PV = "0.22.0"
+PV = "0.22.2"
 
-RPM_NAME = "kubeaudit-0.22.0-1.3.aarch64.rpm"
-RPM_HASH = "2e402e13452c243a8255fa7e4f6669a585ace4fec68846cb131ca6440d8f2781bcec6dcfd79c915af95566df48b02a4794b8562eb1eec3b6ff17937216c25f07"
+RPM_NAME = "kubeaudit-0.22.2-1.13.aarch64.rpm"
+RPM_HASH = "1527611647547cce620c10c3cd59300454d823a12e1691fe7913dcce1ba1e1d72f57e5be09e57697ba9328312a6d1a64cf634bd6307e8523adcc794d4ce1d58a"
 
 RPROVIDES:${PN} += "kubeaudit"
 

@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.101246"
 
-RPM_NAME = "perl-String-Flogger-1.101246-1.4.noarch.rpm"
-RPM_HASH = "be273802beb36477a5b01f6ffcbb70a3995a1f2a587f5a18376a26526a9115d5ab92cbe9bd735636b77ca4069b380c06b700c16084e780012b18570f2b2ef56b"
+RPM_NAME = "perl-String-Flogger-1.101246-1.18.noarch.rpm"
+RPM_HASH = "c39d0ea00e3b0dee315e5e8b4aa0cbf590882237ae6a24bdaa92e3c2074394deefd3cacc52d38cc3c5761761e0217021e87f737b4752816f3e5b1b525a3806b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-String--Flogger \
 perl-String-Flogger"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-JSON--MaybeXS \
 perl-Params--Util \
 perl-Sub--Exporter \

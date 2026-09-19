@@ -4,12 +4,12 @@ DESCRIPTION = "This package contains a British words dictionary which will be in
 /usr/share/dict/british \
  \
 For a description see the package words."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "2020.12.07"
+PV = "2026.02.25"
 
-RPM_NAME = "words-british-2020.12.07-2.1.noarch.rpm"
-RPM_HASH = "1c015754c63fe2397cb106dc39981ca0ec5a236d004f6b9e883712590e47701450469bd58fa6b2c15981be14626027ca7c04756f0719493b07c96c982d353fbf"
+RPM_NAME = "words-british-2026.02.25-1.1.noarch.rpm"
+RPM_HASH = "7199fa4998324433fe6870e140d8145ef6c8a7e0db843010e10142e5b186833c51c05c73d398a59882f51489edf787ecb2b16a2b33b30b7799309cb96ffc8a88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "words-british"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gdk-pixbuf"
 DESCRIPTION = "Provides translations for the 'gdk-pixbuf' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.42.10"
+PV = "2.44.7"
 
-RPM_NAME = "gdk-pixbuf-lang-2.42.10-1.5.noarch.rpm"
-RPM_HASH = "d7c989c3643eb4f72207d97c24470e23847cadb6d5cae0297993de5eb9ca5d54bf4f5c566b165e46f785796a5457be8fe2c0ed209136cb86f11f998fb28f9d42"
+RPM_NAME = "gdk-pixbuf-lang-2.44.7-1.2.noarch.rpm"
+RPM_HASH = "7e78030acc3f0b93cb17727a56ff6630b300fb44eb4e1586d3f3eb3e23221f9754b4c812155f30cb74b09f07cd36c19f231663bb5efbddc8087e57f3ac48742a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdk-pixbuf-lang \

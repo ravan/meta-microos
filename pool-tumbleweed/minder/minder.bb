@@ -1,11 +1,11 @@
 SUMMARY = "Mind-mapping app"
 DESCRIPTION = "A program to create, develop, visualize, organize and manage ideas."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "1.15.2"
+PV = "2.0.9"
 
-RPM_NAME = "minder-1.15.2-1.1.aarch64.rpm"
-RPM_HASH = "1cbfd7fd54c984be66d85d40a52895e0365c8424a8640e4da55849cd4b1588e61cad476bd5a5550bca9b83a3327125dec686bc16146c79c1969ebec4e3992dff"
+RPM_NAME = "minder-2.0.9-1.3.aarch64.rpm"
+RPM_HASH = "a3847c5c4888d01470c2d427325b31cdb6e9b6c76c050ec1bc2ac97ad8bf1375025da9b164aaba1199b450b313264346556a6ad690ed2605c547e1ac2ee1e217"
 
 RPROVIDES:${PN} += "minder"
 
@@ -13,21 +13,20 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libarchive.so.13 \
 libc.so.6 \
 libcairo.so.2 \
-libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgee-0.8.so.2 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgranite.so.6 \
-libgtk-3.so.0 \
-libgtksourceview-4.so.0 \
-libhandy-1.so.0 \
+libgranite-7.so.7 \
+libgraphene-1.0.so.0 \
+libgtk-4.so.1 \
+libgtksourceview-5.so.0 \
 libjson-glib-1.0.so.0 \
 libm.so.6 \
-libmarkdown.so.3 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libxml2.so.2"
+libwebp.so.7 \
+libxml2.so.16"
 
 inherit rpm

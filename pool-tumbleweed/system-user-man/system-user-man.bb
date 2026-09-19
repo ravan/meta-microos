@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the system account and group 'man' \
 and their corresponding directories."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-user-man-20170617-24.16.noarch.rpm"
-RPM_HASH = "8ef9d5c5ff813f0f12f0aace587898bf95b9c1b88233c33da8e7cf35aab022d0d1ab085c8ce7d571f4178b21500659ddf01e9f6b915fad3e793d467d7e2c81ee"
+RPM_NAME = "system-user-man-20250822-2.3.noarch.rpm"
+RPM_HASH = "262eeefee912d06d5e3250cdf4357a47a5292a14b9f1e1ccc48ca9d71c75d5d9377ff3076b96cf55e82acd2c7d085bce0259088eb05504ede8251bd7ef679758"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-man \

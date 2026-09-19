@@ -1,19 +1,19 @@
 SUMMARY = "OCI runtime written in C"
-DESCRIPTION = "crun is a runtime for running OCI containers. It is built with libkrun support"
+DESCRIPTION = "crun is a runtime for running OCI containers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.6"
+PV = "1.28"
 
-RPM_NAME = "crun-1.8.6-2.1.aarch64.rpm"
-RPM_HASH = "81dbae1f66fdeee9eeb85516b30208a92e866dfe36fa46c72b88d5ab1ade6f687b967b6222e522b8b85497e7f847015e299b262677edc6f05761f7da9ec74dba"
+RPM_NAME = "crun-1.28-2.2.aarch64.rpm"
+RPM_HASH = "241c1fcada66e420674297f9f38e35797ebe564a014f544adde059f166770640266711c2f7c66812c0778e2da1d19ba0d72119d0d80a9e45d35cccd168b71793"
 
 RPROVIDES:${PN} += "crun"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libcap.so.2 \
-libkrun1 \
+libjson-c.so.5 \
+libm.so.6 \
 libseccomp.so.2 \
-libsystemd.so.0 \
-libyajl.so.2"
+libsystemd.so.0"
 
 inherit rpm

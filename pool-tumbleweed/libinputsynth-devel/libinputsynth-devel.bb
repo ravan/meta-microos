@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.15.0"
 
-RPM_NAME = "libinputsynth-devel-0.15.0-1.4.aarch64.rpm"
-RPM_HASH = "490c3404bb1a874a906eac7aca49d3319545a131cc25bf9879be87afa300d047fe38f460845fd42a38e34094173788c4a0b2edd9ac4b827624650ba9641781f1"
+RPM_NAME = "libinputsynth-devel-0.15.0-1.15.aarch64.rpm"
+RPM_HASH = "26d36f326176e2b2100ad1069a3a8d3ebb3be89f1a29bd42dce16c6a8249842963e4c0c0ef15dde4230330ea318b574bb41e16b0de30b6261a8a0681bdc7c75d"
 
 RPROVIDES:${PN} += "libinputsynth-devel \
 pkgconfig-libinputsynth-0.15"

@@ -46,15 +46,15 @@ modules (more than one) work together and appear as though they were only \
 one."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.08"
+PV = "6.80.0"
 
-RPM_NAME = "perl-Carp-Clan-6.08-1.17.noarch.rpm"
-RPM_HASH = "ae34a0a53891474be261889f022544103be4c565d00eb6c2b2955345579210f24f5d3753343a9c834574fc6a85fe23775eba655d5036ab20279c1daca76d96f1"
+RPM_NAME = "perl-Carp-Clan-6.80.0-1.10.noarch.rpm"
+RPM_HASH = "df24b32d1e6f0176812537aabeef02598d462015fc58bb595622206ffa40b795b418e565c9ff99854d57d50184608ec564b20664cb3f8a49e7c08708c77997f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Carp--Clan \
 perl-Carp-Clan"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -5,10 +5,10 @@ wtmpdb utility creates boot and shutdown entries or formats and \
 prints the contents of the wtmp database."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.9.1"
+PV = "0.76.0+git20260730.89c0861"
 
-RPM_NAME = "wtmpdb-0.9.1-1.1.aarch64.rpm"
-RPM_HASH = "188f06ce55752b4e47600f0c3d63e93bda3a9d255c408b943b31293292461114cb6b8b3d94dd9de5cc61bc6ca3c44fb65d46950977a02acf6dd2f50a02d19544"
+RPM_NAME = "wtmpdb-0.76.0+git20260730.89c0861-1.1.aarch64.rpm"
+RPM_HASH = "0ae5e5ebd0ca8aa1a5e76ea313ba74d3b8d68c847f5b6d114d078930112b618e1b6a30b0417cfcc4e0a795cb2223dfa8d1d587dd59089c4d8c38da12186046ba"
 
 RPROVIDES:${PN} += "util-linux-/usr/bin/last \
 wtmpdb"
@@ -18,6 +18,7 @@ ld-linux-aarch64.so.1 \
 libaudit.so.1 \
 libc.so.6 \
 libpam.so.0 \
+libsystemd.so.0 \
 libwtmpdb.so.0 \
 pam-config"
 

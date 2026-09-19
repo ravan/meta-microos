@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.13"
 
-RPM_NAME = "adaptx-doc-0.9.13-136.7.noarch.rpm"
-RPM_HASH = "dec1cf9e3a7b311d8df616b86b78a5b7f42884ec62f672eb9f645b4c43c58e90aebcc33f6a6252bf1e3957c75474a1abd45f4d8f276f19a0c67039edb47a49f2"
+RPM_NAME = "adaptx-doc-0.9.13-137.10.noarch.rpm"
+RPM_HASH = "c200ad81db77d3045416b82bd90fb36a426b133aa749f6937b4d14948b17b1a3f4615b77580368ddc2937efd8726c296500a0c341adda51a276c2e9dff9e8a73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adaptx-doc"

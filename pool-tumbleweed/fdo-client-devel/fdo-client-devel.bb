@@ -7,11 +7,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.4+git20221209.c8ef757"
 
-RPM_NAME = "fdo-client-devel-1.1.4+git20221209.c8ef757-1.5.aarch64.rpm"
-RPM_HASH = "599f4cd1b80ca68683ef9dfd0a917735a6f3b5d4879ed1d4cb7a69a44ceef6cc1401b5e69f31f4df22bcc170c6c332b1aa16c804188737454a0d3a8f8f3ca403"
+RPM_NAME = "fdo-client-devel-1.1.4+git20221209.c8ef757-5.7.aarch64.rpm"
+RPM_HASH = "4eebf709aff1f3d0d3a2c2b5ca922c106006cead8b101eaa0c7959036a914b4c73cf17d4185b54d043752422066204178a6199638222586e320a69a4dbb4b8a0"
 
 RPROVIDES:${PN} += "fdo-client-devel"
 
-RDEPENDS:${PN} += "libopenssl-1-1-devel"
+RDEPENDS:${PN} += "libopenssl-devel"
 
 inherit rpm

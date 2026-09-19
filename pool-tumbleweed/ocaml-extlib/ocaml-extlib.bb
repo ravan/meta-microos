@@ -7,10 +7,10 @@ or more safety (tail-recursive) but also to provide new modules which \
 should be useful for the average OCaml programmer."
 LICENSE = "LGPL-2.1-or-later-with-OCaml-LGPL-linking-exception"
 
-PV = "1.7.9"
+PV = "1.8.0"
 
-RPM_NAME = "ocaml-extlib-1.7.9-2.5.aarch64.rpm"
-RPM_HASH = "974dfadb13237cc6e010e01531e27c26fe584c666f90d6d7871f2e0769d473a1f91b5f011389c1c67745eedf55ed84581f956a8aa83cd91ab0cbd311c4ba4ac0"
+RPM_NAME = "ocaml-extlib-1.8.0-2.2.aarch64.rpm"
+RPM_HASH = "120a386d01737f9107bfb3877b0c6b74e76492fd02fdf311088da79e6abc47ef6b09557d76e986c871af6e25ffeeb352b5d75c93d488dfdbbf2bdc8bad429391"
 
 RPROVIDES:${PN} += "ocaml-extlib"
 

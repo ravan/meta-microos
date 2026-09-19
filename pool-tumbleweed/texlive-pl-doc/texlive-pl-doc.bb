@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pl"
 DESCRIPTION = "This package includes the documentation for texlive-pl"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.09asvn58661"
+PV = "2026.226.1.09asvn58661"
 
-RPM_NAME = "texlive-pl-doc-2023.209.1.09asvn58661-52.1.noarch.rpm"
-RPM_HASH = "9dacf643d54bd2c37ba254e820c21bc8e2e922bcc4055acbd53ae2ff2c65d274de77e8d15b28c54f43e87ce382849013273476f26abc4720540a47401a4ed1e4"
+RPM_NAME = "texlive-pl-doc-2026.226.1.09asvn58661-58.2.noarch.rpm"
+RPM_HASH = "f5a2043a8524b740d33a3e0b9cb04984d582e7245c1575d7633f2fce94d70e37f0651c2726846b61af2a44aa9102c4c6faf485067abebf17ad5349883fe548c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pl-doc"

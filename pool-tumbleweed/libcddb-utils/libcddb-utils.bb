@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "libcddb-utils-1.3.2-27.1.aarch64.rpm"
-RPM_HASH = "b1dc512c74d642df822b1a4724e001bc5f809269f9f561307cbc8510dc55193eddb8896345229132b9e1db84de526782960f5d06fced06387aacc006d3b60b65"
+RPM_NAME = "libcddb-utils-1.3.2-30.5.aarch64.rpm"
+RPM_HASH = "64d83bdd3d89d0ac6406e4b473d3b2b63782c30c2c7a05d273a33dad6707e3cfbf1b086bc455927edfb637e0e581ce14c5bfd86b60d40f1984b3b2ff2c80f787"
 
 RPROVIDES:${PN} += "libcddb-utils"
 

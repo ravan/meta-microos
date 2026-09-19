@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.7.1"
 
-RPM_NAME = "alsaequal-0.7.1-2.10.aarch64.rpm"
-RPM_HASH = "3b3d4b2e35da90f4c52ada344600740b40b175626262788d54c0fd700f77a2d384575135f2f08ad0f892a61ccd723f34c7f45f92f4868ecdb05ddc9f1a77896f"
+RPM_NAME = "alsaequal-0.7.1-2.19.aarch64.rpm"
+RPM_HASH = "28c992386130e4dfd66cb3db40a7f51a7a5788282e3eee4d2c53e6f2c54dc591790db670e84d412b30d8c090e09b43ab5399f3fff3b723d1aa78cafdc6a4389d"
 
 RPROVIDES:${PN} += "alsaequal \
 config-alsaequal \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libkcddb"
 DESCRIPTION = "Provides translations for the 'libkcddb' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "25.04.3"
 
-RPM_NAME = "libkcddb-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "a53de527459f01fda5ed43ab64b1205d3286e2c3cc0e27c0d64179ce79d78ef13a1aff8ac9585152d6f342c59b1281b6489a3d3f5a3f0412022a36db9f2513b4"
+RPM_NAME = "libkcddb-lang-25.04.3-15.1.noarch.rpm"
+RPM_HASH = "20d48eca0f0498e6e7e4e26ed8802b1cd2aa544159ed7710d45c66b62bb22c2c5289939b8323a413be531203589277621fba17df0f94a17b871dc1dbe92dba32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkcddb-lang \

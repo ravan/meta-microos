@@ -10,86 +10,87 @@ Sequences are pushed as normal Lua tables, but are augmented with convenience \
 functions."
 LICENSE = "MIT"
 
-PV = "0.2.2"
+PV = "0.3.2.1"
 
-RPM_NAME = "ghc-pandoc-lua-marshal-0.2.2-1.12.aarch64.rpm"
-RPM_HASH = "f25ed72c6561b67f6320aed15714c61523e9589513c875c78094a58aa7155146635dbceb93b0ed3478c57d2cc0024638e1d8d79ccfe76f20f4966b42f5b00ea1"
+RPM_NAME = "ghc-pandoc-lua-marshal-0.3.2.1-1.2.aarch64.rpm"
+RPM_HASH = "d1b6fa9dac0329884bec96f179b1e9028a00059e22b8654591cea73c3277ea9fb8475b23d7b0773665d5e7885cbd3c8e880ac0d8afc6fd654dc42535a80eb152"
 
 RPROVIDES:${PN} += "ghc-pandoc-lua-marshal \
-libHSpandoc-lua-marshal-0.2.2-D6YUzx6tqXTDbJ9vWDLs3T-ghc9.4.6.so"
+libHSpandoc-lua-marshal-0.3.2.1-6Zh3k4Z7NDRLHwqWkKsbjS-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
-libHSQuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8-ghc9.4.6.so \
-libHSStateVar-1.2.2-8Hv9klK7mv0HId52XsoM7J-ghc9.4.6.so \
-libHSaeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc-ghc9.4.6.so \
-libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSassoc-1.1-J44kuPbAMT5GyespKCFdbT-ghc9.4.6.so \
-libHSattoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3-ghc9.4.6.so \
-libHSattoparsec-0.14.4-LxL1eX1xmPCB2HEhQefy3f-attoparsec-internal-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbase-compat-0.13.0-ASw4phAd2I0LrTJ4o8lXb1-ghc9.4.6.so \
-libHSbase-compat-batteries-0.13.0-1Ph1BfbK1cK5KUnlnKWiGW-ghc9.4.6.so \
-libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so \
-libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
-libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHScomonad-5.0.8-56nFbOwllOwBl7FMfSy83E-ghc9.4.6.so \
-libHScontainers-0.6.7-ghc9.4.6.so \
-libHScontravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT-ghc9.4.6.so \
-libHSdata-fix-0.3.2-Hesv2p3MUF3H2yKikhD4Es-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSdistributive-0.6.2.1-7gHlNDSCz3vFkde299iroS-ghc9.4.6.so \
-libHSdlist-1.0-9arrzQ6gBJAKO2k1FjXdTZ-ghc9.4.6.so \
-libHSexceptions-0.10.5-ghc9.4.6.so \
-libHSfilepath-1.4.2.2-ghc9.4.6.so \
-libHSfoldable1-classes-compat-0.1-HnLXxvPXYXbHggM07qAxsy-ghc9.4.6.so \
-libHSgenerically-0.1.1-CmULdC2547fBrHCkT48ujn-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
-libHShslua-2.3.0-IFweDrinoAduGRRaqkwGX-ghc9.4.6.so \
-libHShslua-aeson-2.3.0.1-GTKyJZd9E8T7sbi3aSnblh-ghc9.4.6.so \
-libHShslua-classes-2.3.0-B1L4OZUPrf8GQ47NXlejyp-ghc9.4.6.so \
-libHShslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk-ghc9.4.6.so \
-libHShslua-list-1.1.1-2YSx4pSaGRhHpPDWFYeDXu-ghc9.4.6.so \
-libHShslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj-ghc9.4.6.so \
-libHShslua-objectorientation-2.3.0-26R83mqcSjNC8MxfPJWYVS-ghc9.4.6.so \
-libHShslua-packaging-2.3.0-4zNLfL9evW33fw96RBrzdD-ghc9.4.6.so \
-libHShslua-typing-0.1.0-3nJdpD9hvXQ79mUAqCbbUn-ghc9.4.6.so \
-libHSindexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO-ghc9.4.6.so \
-libHSindexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ-ghc9.4.6.so \
-libHSinteger-logarithms-1.0.3.1-8hVItVgdqFg1uL8b0gbVZO-ghc9.4.6.so \
-libHSlua-2.3.1-IuAZ4Y3Pnt2ACNXikcgl6h-ghc9.4.6.so \
-libHSmtl-2.2.2-ghc9.4.6.so \
-libHSpandoc-types-1.23.1-8yEOjBSLsT62OPTXI0FZpc-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \
-libHSrandom-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k-ghc9.4.6.so \
-libHSsafe-0.3.19-9uHvZjuyLiR13wOGSONZxX-ghc9.4.6.so \
-libHSscientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz-ghc9.4.6.so \
-libHSsemialign-1.3-6anmyujTzjW8JKdJGWMlmE-ghc9.4.6.so \
-libHSsemigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g-ghc9.4.6.so \
-libHSsplitmix-0.1.0.4-2jzLu9hw0mWH5mdbN14y0O-ghc9.4.6.so \
-libHSstm-2.5.1.0-ghc9.4.6.so \
-libHSstrict-0.5-430Uicv2DUP1jZqwf2ycOP-ghc9.4.6.so \
-libHSsyb-0.7.2.4-URkW17Cd7D7rpu7G0BDIE-ghc9.4.6.so \
-libHStagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStext-2.0.2-ghc9.4.6.so \
-libHStext-short-0.1.5-1JafpcPTh6A5I5aikDr3ez-ghc9.4.6.so \
-libHSth-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs-ghc9.4.6.so \
-libHSthese-1.2-5fSFdT8DGhg7GQONqvd4MR-ghc9.4.6.so \
-libHStime-1.12.2-ghc9.4.6.so \
-libHStime-compat-1.9.6.1-J6qzCGPCWqPGQqFFbCQAYM-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
-libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so \
-libHSunix-2.7.3-ghc9.4.6.so \
-libHSunordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn-ghc9.4.6.so \
-libHSuuid-types-1.0.5-34Qd5N8tYIyGW5LtrFWnkV-ghc9.4.6.so \
-libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
-libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
-libHSwitherable-0.4.2-4so4KYid1UG9PchOfa6Iqw-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSOneTuple-0.4.3-6DcV56rVPgKHcnOuxvKUVo-ghc9.12.4.so \
+libHSQuickCheck-2.15.0.1-BiJUyvfspYF6JuhHRqpj7J-ghc9.12.4.so \
+libHSStateVar-1.2.2-Fp8KJyjTxyjFvIxRBzfDbA-ghc9.12.4.so \
+libHSaeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN-ghc9.12.4.so \
+libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSassoc-1.1.1-7ZKlIzFkmc1FQCJcpfYrTi-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbase-orphans-0.9.4-2vMgOxDXOniBrPCxqNGyGO-ghc9.12.4.so \
+libHSbifunctors-5.6.3-9Dfko6C8LIIe8HG4zoeag-ghc9.12.4.so \
+libHSbinary-0.8.9.3-9861-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHScharacter-ps-0.1-GfoAEUDpxFcFC0QreRJRaJ-ghc9.12.4.so \
+libHScomonad-5.0.10-Adp50yscRn74SK6wUdL7QP-ghc9.12.4.so \
+libHScontainers-0.7-d5e1-ghc9.12.4.so \
+libHScontravariant-1.5.6-7FVTzec2jegEwzkeRkQOi4-ghc9.12.4.so \
+libHSdata-fix-0.3.4-CgM6sqdDt42GirAgfXjM4z-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSdistributive-0.6.3-9lg1Hxwh2KlJVxh3zQCgyL-ghc9.12.4.so \
+libHSdlist-1.0-24EafZnoZk8EE7HqnP59eC-ghc9.12.4.so \
+libHSexceptions-0.10.12-f655-ghc9.12.4.so \
+libHSfilepath-1.5.5.0-b25b-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHShashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr-ghc9.12.4.so \
+libHShslua-2.5.0-EJ5RjGxg4AI6GL8E9HKZKp-ghc9.12.4.so \
+libHShslua-aeson-2.3.2-2NAF9YW3ljB9EkcWLhnec-ghc9.12.4.so \
+libHShslua-classes-2.3.2-C895qHuusP79caxJu1uhwF-ghc9.12.4.so \
+libHShslua-core-2.3.2.1-GIcwwMIDhKVEx4MlcixfFr-ghc9.12.4.so \
+libHShslua-list-1.1.4-2iYtswPM1Oh6QVQjUY3AZP-ghc9.12.4.so \
+libHShslua-marshalling-2.3.2-4wJit3DV8Bh1LNaOjZB33o-ghc9.12.4.so \
+libHShslua-objectorientation-2.5.0-AcxldFWfxGy5q661VAPLGF-ghc9.12.4.so \
+libHShslua-packaging-2.4.1-1RYRM22n0e3FXJMrP5sdLA-ghc9.12.4.so \
+libHShslua-typing-0.2.0-HwVvWDb2JBKBM3T8rZUuAT-ghc9.12.4.so \
+libHSindexed-traversable-0.1.5-JylwuAInS9n4ImeZ4JChDW-ghc9.12.4.so \
+libHSindexed-traversable-instances-0.1.2.1-6YpZT8gBjiD9ssAaPGVbKH-ghc9.12.4.so \
+libHSinteger-conversion-0.1.1-HaWNFfmKaxu3271U3IJ8uO-ghc9.12.4.so \
+libHSinteger-logarithms-1.0.5-7oN15VqsexT8F3DIJBcPo2-ghc9.12.4.so \
+libHSlua-2.3.4-GxTlN73bN8C8KbBhVEtsew-ghc9.12.4.so \
+libHSmtl-2.3.2-37ef-ghc9.12.4.so \
+libHSnetwork-uri-2.6.4.2-BA29PoG9pX1EAcGKolsVh8-ghc9.12.4.so \
+libHSos-string-2.0.10-5320-ghc9.12.4.so \
+libHSpandoc-types-1.23.1.2-ChVVUkZ84FqF7WWwilaI65-ghc9.12.4.so \
+libHSparsec-3.1.18.0-be05-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHSprimitive-0.9.1.0-Ez30Vu7tivmF28X1123Css-ghc9.12.4.so \
+libHSrandom-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh-ghc9.12.4.so \
+libHSsafe-0.3.21-AzRUUYeJ47sQc55olWnva-ghc9.12.4.so \
+libHSscientific-0.3.8.1-EfN6leGWc5k1t5YPK2dkVk-ghc9.12.4.so \
+libHSsemialign-1.3.1.1-2gupAkHqo8uDH6Y43n5yi0-ghc9.12.4.so \
+libHSsemigroupoids-6.0.2-B6Y5GIvJ2JI8mXJpMQTJaF-ghc9.12.4.so \
+libHSsplitmix-0.1.3.2-4FIxgclJzmILwETMtGxhg4-ghc9.12.4.so \
+libHSstm-2.5.3.1-6d74-ghc9.12.4.so \
+libHSstrict-0.5.1-9s5NAvHzvkrI18NRIQgFhz-ghc9.12.4.so \
+libHSsyb-0.7.4-6fi78MDXPhtHdqjdF3SBYJ-ghc9.12.4.so \
+libHStagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStext-2.1.4-cf23-ghc9.12.4.so \
+libHStext-iso8601-0.1.1.1-6Bjz9eUSPP1K02pEWpeews-ghc9.12.4.so \
+libHStext-short-0.1.6.1-K3gVAGEPLemvxyg6g1yq-ghc9.12.4.so \
+libHSth-abstraction-0.7.2.0-LVMuWnluhDI5se4FHUInw7-ghc9.12.4.so \
+libHSth-compat-0.1.7-A4ZdivYymzPCDISaa5LNtp-ghc9.12.4.so \
+libHSthese-1.2.1-IItOvRyyn8cFsXxaqiOQHG-ghc9.12.4.so \
+libHStime-1.14-a7dc-ghc9.12.4.so \
+libHStime-compat-1.9.9-2vndaypoxzm5lJpcdxrQvS-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
+libHStransformers-compat-0.7.2-Je4epVh1rXP8zT22dFNkMW-ghc9.12.4.so \
+libHSunordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu-ghc9.12.4.so \
+libHSuuid-types-1.0.6.1-Hjv8dqZq3Ya2vXZL2YjpUd-ghc9.12.4.so \
+libHSvector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE-ghc9.12.4.so \
+libHSvector-stream-0.1.0.1-FXRnPnZDT7tJ4JCMEuh1XF-ghc9.12.4.so \
+libHSwitherable-0.5-9N1HkgvlVrcAVLkWTGxi2z-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

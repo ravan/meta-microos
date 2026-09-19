@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pmhanguljamo"
 DESCRIPTION = "This package includes the documentation for texlive-pmhanguljamo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.2svn66361"
+PV = "2026.226.1.3svn78114"
 
-RPM_NAME = "texlive-pmhanguljamo-doc-2023.209.1.0.2svn66361-53.1.noarch.rpm"
-RPM_HASH = "06648e73d97b9fc3a848dcf570d770a96d4752f6d8114e2a23725aae0aff2a827a3bf20058181e8a100a8833bbdab462a6691eee6c7d981682564a84da123599"
+RPM_NAME = "texlive-pmhanguljamo-doc-2026.226.1.3svn78114-59.2.noarch.rpm"
+RPM_HASH = "9c7bc81eef385dee6c5cc2c81b84534055281e69dd1cfd944f09f2c84f35a1451e01230a9e92af1bd7ae11a2bfd4f283ca615a6d65d54d55063edb393285ffe7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pmhanguljamo-doc-ko \

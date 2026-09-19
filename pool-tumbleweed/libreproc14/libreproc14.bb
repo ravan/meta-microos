@@ -4,10 +4,10 @@ DESCRIPTION = "reproc (Redirected Process) is a cross-platform C/C++ library tha
 This package holds the shared library for reproc."
 LICENSE = "MIT"
 
-PV = "14.2.4"
+PV = "14.2.7"
 
-RPM_NAME = "libreproc14-14.2.4-3.1.aarch64.rpm"
-RPM_HASH = "c58e3e4e94720bba3dc69af21b7fbc4b00abbf016811ab233e3b226e8bcff770f7443afe08c83f0701a7af46295530242660d7b2240b1e2fd28fb591f7136a01"
+RPM_NAME = "libreproc14-14.2.7-1.3.aarch64.rpm"
+RPM_HASH = "9a7d243dce8040866ba1073530f3dcd46f918b61a24dfb8707e0a02a204c9b327735ebe13630b47d2bcfb5e9f3bc8825785a33c2f489b8e4eb740075d991380d"
 
 RPROVIDES:${PN} += "libreproc.so.14 \
 libreproc14"

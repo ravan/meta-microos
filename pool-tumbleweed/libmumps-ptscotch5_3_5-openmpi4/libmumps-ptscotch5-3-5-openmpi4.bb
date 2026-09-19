@@ -10,8 +10,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "libmumps-ptscotch5_3_5-openmpi4-5.3.5-3.4.aarch64.rpm"
-RPM_HASH = "6c3961a4af038438a040400a9b0b2d119e84138bd7aacb36f247f2737f7917baf8120770f6de8271460c5e9d65ddff8b621708d6bbe0709eb8ecf63e7e29bed7"
+RPM_NAME = "libmumps-ptscotch5_3_5-openmpi4-5.3.5-7.8.aarch64.rpm"
+RPM_HASH = "545caf549cf2e39e332894547290031fa2028d16b7b5018782b617286dc51cbaa9978a1cad76ec4470711861687c5c1b4327ca77bd5d9380a60e7e67c16a898a"
 
 RPROVIDES:${PN} += "libcmumps-ptscotch.so.5.3.5 \
 libdmumps-ptscotch.so.5.3.5 \
@@ -23,7 +23,7 @@ libzmumps-ptscotch.so.5.3.5"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libblacs.so.2.1.0 \
+libblacs.so.2.2.2 \
 libblacs2-openmpi4 \
 libblas.so.3 \
 libc.so.6 \
@@ -35,7 +35,7 @@ libmpi-mpifh.so.40 \
 libmpi-usempi-ignore-tkr.so.40 \
 libmpi-usempif08.so.40 \
 libmpi.so.40 \
-libptscotch.so.0 \
-libscalapack.so.2.1.0"
+libptscotch.so.7.0 \
+libscalapack.so.2.2.2"
 
 inherit rpm

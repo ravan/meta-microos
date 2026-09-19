@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "lua54-shell-games-1.1.0-2.1.noarch.rpm"
-RPM_HASH = "a162ee371e759240d5a30de5dbb3b128ef29f77be91e0a9d2d620ad15e5378a0d0b53a8b4f29e61e63f3adea931315e317f72e0165092819e19034b32d60b7d6"
+RPM_NAME = "lua54-shell-games-1.1.0-4.2.noarch.rpm"
+RPM_HASH = "b4ca59b3a6894982198af75a7f3c7adc1080b4ca5263fa5a2f0421b1fa6a0cbdd2b7cbac974ef766f8e882be2fcf8359b77a78e8ad24c6bee318cb540fc416a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-shell-games \

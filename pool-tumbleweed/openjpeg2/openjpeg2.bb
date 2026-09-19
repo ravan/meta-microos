@@ -7,10 +7,10 @@ still-image compression standard from the Joint Photographic Experts Group \
 This package provides the codec executables."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.5.0"
+PV = "2.5.4"
 
-RPM_NAME = "openjpeg2-2.5.0-3.4.aarch64.rpm"
-RPM_HASH = "60cc636835ebe4abb87baac4cb27bad91a9bbdc249026eb89b8a8530a179dd865c9325dcedf5e32e9644b683149e075f48bd1fdb55c047ccde1f36b79b33307c"
+RPM_NAME = "openjpeg2-2.5.4-2.6.aarch64.rpm"
+RPM_HASH = "3f38b04360d39a8c0b14b4e073822ae3177e79544273aae7b63f28008e9d70ea9dbb1d689f4e97161b75a35902df56aa9cf45b5aa39319940cf7789f0b85e719"
 
 RPROVIDES:${PN} += "openjpeg2"
 

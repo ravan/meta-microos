@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.7"
 
-RPM_NAME = "xbindkeys-1.8.7-1.9.aarch64.rpm"
-RPM_HASH = "081ff048fb39f4646b49c85bce23a822d0906409e41bdd20d6e3c1a63cee36461162e69061e4cd0264854b970cb3f69fa738ea47fcea36c99547eafaefcb1a21"
+RPM_NAME = "xbindkeys-1.8.7-1.19.aarch64.rpm"
+RPM_HASH = "6276ef5d9f57d69edcaba0acd210f69f6d89dffe7b20588fd4332251d7bdb36c5afd7c3e5bdd7ffeeb8319d57089fd903ffb40535b07006aa22d872b6f527768"
 
 RPROVIDES:${PN} += "xbindkeys"
 

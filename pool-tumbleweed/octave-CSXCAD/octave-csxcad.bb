@@ -5,10 +5,10 @@ or non-physical properties. \
 This package provides Octave interface for CSXCAD."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6.2"
+PV = "0.6.3"
 
-RPM_NAME = "octave-CSXCAD-0.6.2-3.20.noarch.rpm"
-RPM_HASH = "22b0a7a7e8d6f8448b39307894179648399014f4fcb65a89e36894f36413ed5fd5fa00d1643fd33613f2ba2b4bf2bd2f3d129579d8694d98d8aeae1eb477fc79"
+RPM_NAME = "octave-CSXCAD-0.6.3-5.1.noarch.rpm"
+RPM_HASH = "409bc771b7355c085f3da62cdd1096d7a088f5ace7a805fba45bfc2730fe8863167b82e599cf15b44c23ff52f4a8cfb9c05e4f4d6827c3b6bad04fd1c7db5e64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-CSXCAD"

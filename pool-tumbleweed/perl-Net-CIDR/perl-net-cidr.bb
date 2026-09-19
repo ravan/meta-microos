@@ -9,15 +9,15 @@ their parameters consist of validated IPs or CIDRs. See cidrvalidate() and \
 BUGS, below, for more information."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.21"
+PV = "0.270.0"
 
-RPM_NAME = "perl-Net-CIDR-0.21-1.12.noarch.rpm"
-RPM_HASH = "578ab7430ddef20486cb4606d521ff47c20e3712e071e39802b0671fc4f409c1b7415df228d434cc9919f4b9a6b40863aba401a878ea00bc39acc3ec93f8e71f"
+RPM_NAME = "perl-Net-CIDR-0.270.0-2.3.noarch.rpm"
+RPM_HASH = "a639e01637ebcdfaa31a3270c7852c51861530bfdf7b90f768e49fe6eeb40112521ea45a625be17eeec5ffb8ab1db70f0ece4cde670f37b25ba0a01ca176730b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--CIDR \
 perl-Net-CIDR"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -6,10 +6,10 @@ a package being documented; this is mainly of use when \
 doc/docstrip."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-zwgetfdate-2023.209.svn15878-53.2.noarch.rpm"
-RPM_HASH = "51a0c10f5856ac486d0b92b721dd504556d5ecaf1e4276ce1d15a1259075ec83a12757284112a3d3036dd02dd438b0244269b86b68ad44f1b0c2b12e80b1e16d"
+RPM_NAME = "texlive-zwgetfdate-2026.226.svn15878-59.4.noarch.rpm"
+RPM_HASH = "509223a683f3ffe3f850436625a90db395b4df5baca493a873faa102a7df8b3de3db91e6ca317f0c0e555f2c8bd01fc63b431a077c37dfe82ec6cd594c84efa9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zwgetfdate.sty \

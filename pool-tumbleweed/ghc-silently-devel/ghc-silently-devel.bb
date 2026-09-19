@@ -2,19 +2,19 @@ SUMMARY = "Haskell silently library development files"
 DESCRIPTION = "This package provides the Haskell silently library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.5.3"
+PV = "1.2.5.4"
 
-RPM_NAME = "ghc-silently-devel-1.2.5.3-2.3.aarch64.rpm"
-RPM_HASH = "a6a6bc373384dab5eeb676da8d324cb8f7aff94ed1cfbb63b094d2eaed747114facff608b1a837de24a8c7edfbe572f97f5cb30f603540d48c961e0f71150481"
+RPM_NAME = "ghc-silently-devel-1.2.5.4-1.15.aarch64.rpm"
+RPM_HASH = "b09e4b8387679c304ad3afeccedbe5037465d265f18f000a11b059bc5ab05cd3fa4b24273c57e4323d7d02686bd425d385ff0d48e28e81594476bb8b44297ed9"
 
-RPROVIDES:${PN} += "ghc-devel-silently-1.2.5.3-DooEMl8ysOU4ZpgKypCRy8 \
+RPROVIDES:${PN} += "ghc-devel-silently-1.2.5.4-54yCGOZ1hqDAcZZPz9a2Bu \
 ghc-silently-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-directory-1.3.7.1 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-directory-1.3.10.1-b1d7 \
 ghc-silently"
 
 inherit rpm

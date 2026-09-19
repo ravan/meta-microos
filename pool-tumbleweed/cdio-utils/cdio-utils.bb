@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a number of utility programs that make use 
 libcdio."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.0"
+PV = "2.2.0"
 
-RPM_NAME = "cdio-utils-2.1.0-7.1.aarch64.rpm"
-RPM_HASH = "13481a04d9c2cb03b122a22181b99057d1d420416094e54abfe3743d442084655fa7c32ae498880de8bc3ca904638b1ef18d6d271114972d91dd01f7e79d1554"
+RPM_NAME = "cdio-utils-2.2.0-1.7.aarch64.rpm"
+RPM_HASH = "922325387f5ec39f65e52786fe00ebcf27170031a9a0cc649f4ce9266e2c57330d2dcb4eb5a85cff56053277a7a231b26a122eed746e29c883ceed6b0d1e478c"
 
 RPROVIDES:${PN} += "cdio-utils \
 libcdio-utils"
@@ -15,7 +15,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcddb.so.2 \
 libcdio.so.19 \
-libiso9660.so.11 \
+libiso9660.so.12 \
 libncurses.so.6 \
 libtinfo.so.6 \
 libudf.so.0 \

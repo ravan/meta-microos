@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-recipecard"
 DESCRIPTION = "This package includes the documentation for texlive-recipecard"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn15878"
+PV = "2026.226.2.0svn15878"
 
-RPM_NAME = "texlive-recipecard-doc-2023.209.2.0svn15878-54.2.noarch.rpm"
-RPM_HASH = "a3f80592b927f2d25295aff0dfd2c1dc05798401adec9049b9d2f4ed63c1fdab3ae9d22fd83a8369132965de87ec9f2228c83d98a8407f56d601203d6aaa8ea6"
+RPM_NAME = "texlive-recipecard-doc-2026.226.2.0svn15878-60.4.noarch.rpm"
+RPM_HASH = "9a46b5ef187069799a9c4f8a3aa05e7e47a06cb7536a513110fa4b949c2098ffb1a10d3ea9b9de31d71462a9942f8693ab8200cbb19490ee975e910664bb13f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-recipecard-doc"

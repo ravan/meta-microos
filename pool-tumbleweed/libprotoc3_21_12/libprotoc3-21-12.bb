@@ -6,17 +6,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21.12"
 
-RPM_NAME = "libprotoc3_21_12-21.12-1.1.aarch64.rpm"
-RPM_HASH = "40ed9166f6c3c11ef2a7e412bd2ecf7070ab815ab57d6c0734afe85990a82d88c460bba716053722d49e8fbe74e9c7a37319c4091ec495881333cbc1198a966e"
+RPM_NAME = "libprotoc3_21_12-21.12-4.9.aarch64.rpm"
+RPM_HASH = "86224094b312595db34d20eeabf60e47abd603ed9294ff81ebc6e77895e667d231a2ca6584988bc7af7941b206600990a4a48d392ec8c340552eb36d74a0a6fc"
 
-RPROVIDES:${PN} += "libprotoc-3.21.12.so \
+RPROVIDES:${PN} += "libprotoc.so.3.21.12.0 \
 libprotoc3-21-12"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.3.21.12.0 \
 libstdc++.so.6"
 
 inherit rpm

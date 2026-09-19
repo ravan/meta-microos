@@ -3,10 +3,10 @@ DESCRIPTION = "Haifeng Wubi input methods. Current includes: \
 Haifeng Wubi 86."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.12"
+PV = "1.8.14"
 
-RPM_NAME = "ibus-table-chinese-wubi-haifeng-1.8.12-1.2.noarch.rpm"
-RPM_HASH = "854afc8b9c81134ad53722f168959e8f6a88b75518f19c59ae7188ae48cef583af59c1f54311a950ae6a2a0005ab6f2ef38bf19f1b15699c9d9b60f8cbe4831f"
+RPM_NAME = "ibus-table-chinese-wubi-haifeng-1.8.14-1.6.noarch.rpm"
+RPM_HASH = "51cf26f56ac5cd8bf9eec5a9c0d0e798e3fdcd1ad99a7b66705534db51b6f67be2b93dec0feb52bc8f9815d16881869178aa8e98266111829247e42ece88210a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-chinese-wubi-haifeng \

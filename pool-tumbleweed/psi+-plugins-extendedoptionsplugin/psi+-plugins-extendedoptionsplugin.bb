@@ -3,18 +3,18 @@ DESCRIPTION = "This plugin is designed to allow easy configuration of some advan
 Psi+."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "1.5.1615+0"
+PV = "1.5.2112+0"
 
-RPM_NAME = "psi+-plugins-extendedoptionsplugin-1.5.1615+0-3.2.aarch64.rpm"
-RPM_HASH = "537cfaec85b78251d534e71dd9b3f4796f8f9d939d212bfbd5e1d88847a8095664f6e4821c7ea004ca4fb62613b4c7993bb71de3fb24a01602273c3b104446b4"
+RPM_NAME = "psi+-plugins-extendedoptionsplugin-1.5.2112+0-1.6.aarch64.rpm"
+RPM_HASH = "84072c9fb575bc4725ff467ec0c70fb202d1dbeb6c825992ea5f000001cca3fab9f9111fcfc0bfcd418b09fc8d49cc172b96f377514fe1ace0f2a04637aad487"
 
 RPROVIDES:${PN} += "libextendedoptionsplugin.so \
 psi+-plugins-extendedoptionsplugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

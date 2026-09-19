@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing gzip"
 DESCRIPTION = "This package contains the symlinks to replace gzip with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-gzip-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "9026be841fbb3aea13aef81d9607a4af7cdc9ea91952db91a3c99b04a11ff5be26bc426b1ec3fe472754e9202378351fab65918b156dbf53816f5506e495f055"
+RPM_NAME = "busybox-gzip-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "e90ddb284147310679be37b284d1185ff78878afd545199b8c3ffd570075c6c019d1b1562f103631cde97d9bc3868b0ae09e9a743549466250e79bc57fd51d38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-gzip"

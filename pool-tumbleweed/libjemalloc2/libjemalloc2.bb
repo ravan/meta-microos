@@ -3,10 +3,10 @@ DESCRIPTION = "General-purpose scalable concurrent malloc(3) implementation. \
 This distribution is the stand-alone 'portable' version of jemalloc."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.3.0"
+PV = "5.3.1"
 
-RPM_NAME = "libjemalloc2-5.3.0-1.7.aarch64.rpm"
-RPM_HASH = "dffbff2e55f7809bf46237bcf51abf32982098ef494a398062b07ac335aaec77807f10be9897600bb121a089bd6b1d3022d159291ca46910a917bf976afa908e"
+RPM_NAME = "libjemalloc2-5.3.1-1.4.aarch64.rpm"
+RPM_HASH = "1c5eaacd66d7863f555c86393bff09c4e9f86b652851cbd7bab259c5bb25a5e591f6b0ee048564262e3b5fbf06c514ae82908be136b825773f76fe87bc6f2381"
 
 RPROVIDES:${PN} += "libjemalloc.so.2 \
 libjemalloc2"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "lua54-luasocket-doc-3.1.0-2.2.noarch.rpm"
-RPM_HASH = "64c152850f958a9956400df6e4aa9b36ca114615ad7d80df55e8eef8db1d1f7ca734687e0b203ca43eea48697a273655e0919953bb3712ebc5bb2f036109de40"
+RPM_NAME = "lua54-luasocket-doc-3.1.0-5.3.noarch.rpm"
+RPM_HASH = "7b88e997cc76901c222db27456fd6763d8c061632e902342b8df9d801539d38ac01fce32933c6d40f1beac005e592c0ad587359af28551e13525cb177169e9f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua54-luasocket-doc"

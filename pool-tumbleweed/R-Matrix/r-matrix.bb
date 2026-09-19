@@ -2,10 +2,10 @@ SUMMARY = "Package provides recommended R-Matrix"
 DESCRIPTION = "This packages provides R-Matrix, one of the recommended packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.5.4"
+PV = "1.7.5"
 
-RPM_NAME = "R-Matrix-1.5.4-46.1.aarch64.rpm"
-RPM_HASH = "e35719a1e4fce8e28021d317110a9dfcf39165992eca37bffdc4cc91eb0a5fde8aae55c2f3e88b9524eb24f98bd3a253735ac02b54946586a5785a685777a6d1"
+RPM_NAME = "R-Matrix-1.7.5-58.3.aarch64.rpm"
+RPM_HASH = "9e80038e64518da28da52a97aeb160d7c9fd26e21c73296b662f94c683e3ac4b73f6e526edfdb91324e7525474e0382bd178996466714bef2a0bbed8cea182fb"
 
 RPROVIDES:${PN} += "R-Matrix \
 R-Matrix-devel"

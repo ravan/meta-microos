@@ -6,15 +6,15 @@ contains documentation and source code (just like in other \
 forms of literate programming). These code snippets are wrapped \
 in the chunk environment, hence they can be recognized by the \
 tangler in order to extract them. Chunks can be included inside \
-each other by the getchunk command (which will be typesetted \
-acordingly). Finally, the LaTeX file will be run through the \
+each other by the getchunk command (which will be typeset \
+accordingly). Finally, the LaTeX file will be run through the \
 tangler to get the desired chunk of code."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3svn60981"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-clojure-pamphlet-2023.209.1.3svn60981-54.1.noarch.rpm"
-RPM_HASH = "558b02259b13c90de8d18f373c34e807a506ea720445a76e3a0c0f1008d5ce97d5b1576994705b9b2341cd34eb8f3e0789872c0da84fd15aa21881e3bb10be26"
+RPM_NAME = "texlive-clojure-pamphlet-2026.226.1.3svn77682-60.2.noarch.rpm"
+RPM_HASH = "1f9b9208e183d3f039d98f74b0867f9cb1bc1fd80425314e31a12e9ea2e7275beae1fd4113845c72a7c10528306b95023a40b7bfc95f929881bcf721e31a381b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-clojure-pamphlet.sty \

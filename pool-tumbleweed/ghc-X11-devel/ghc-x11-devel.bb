@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.3"
 
-RPM_NAME = "ghc-X11-devel-1.10.3-2.8.aarch64.rpm"
-RPM_HASH = "dca86b9d8b671564f767c02273c20d7df0637ee94f5303d4eae7e6c45b03a20803e9fb40d3ec6c7e50f1e788f10d9e9b869bba36bdcf57767de9fce190def346"
+RPM_NAME = "ghc-X11-devel-1.10.3-5.11.aarch64.rpm"
+RPM_HASH = "9e08978175a0eb1bcf8115179ed5aa6ea6de8928c0e16615b0dadd9a9fe3186fe916a4efd302785d865a84814986fa704b03d5049f5871598a04335828ab8fcd"
 
 RPROVIDES:${PN} += "ghc-X11-devel \
-ghc-devel-X11-1.10.3-1a2wZgfFAzXBkfyYtNRHp4"
+ghc-devel-X11-1.10.3-1WMJghU3kQXBmOfIIGE3Rk"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-X11 \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-data-default-class-0.2.0.0-3moOzwNUrN6FLgYZMunU62 \
 pkgconfig-x11 \
 pkgconfig-x11-xcb \
 pkgconfig-xext \

@@ -5,10 +5,10 @@ strings and regular expressions, check connection times, and report on \
 certificate expiration times."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-http-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "5e5819826b8939b38dbfbfbe3474c96565968984115263412704e1d814298a65e5dd0b8c49934dc5c37774d59c95139849487bda2c609d8f4c3bef97f46b2551"
+RPM_NAME = "monitoring-plugins-http-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "7f59999b00eb9e1f004bb49a1c1f1be879c197a94317749f795a10c66e6a5c13da1ba825de9d61982d0f34021f88ee2e33cf4052d91f55f7a3fb97c57833654e"
 
 RPROVIDES:${PN} += "monitoring-plugins-http \
 nagios-plugins-http"

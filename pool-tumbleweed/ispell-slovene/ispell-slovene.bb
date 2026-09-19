@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-slovene-1.5-422.6.aarch64.rpm"
-RPM_HASH = "acc9fd4568ece7b6f9bb2f03534bae411ba20cd60d97ad31d7bdd7517df04bdce3363779df353117fcb7f2bd0463e9eff14716eb9656d9ba138e4c3347957d22"
+RPM_NAME = "ispell-slovene-1.5-426.1.aarch64.rpm"
+RPM_HASH = "5d6871efdd6eee3b07bfbb730eb574d275a873b2d578691f76738473570b241cf280de7296c1af16306836c770e3f48fd24382a33b80f4916ca192f42a14845c"
 
 RPROVIDES:${PN} += "islovene \
 ispell-dictionary \

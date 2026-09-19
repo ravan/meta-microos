@@ -3,15 +3,15 @@ DESCRIPTION = "Kivy is a library for development of applications that make use o
 user interfaces, such as multi-touch apps."
 LICENSE = "Apache-2.0 & MIT & LGPL-2.1-or-later & GPL-2.0-or-later & GPL-3.0-only & BSD-3-Clause"
 
-PV = "2.2.1"
+PV = "2.3.1"
 
-RPM_NAME = "python-Kivy-doc-2.2.1-1.1.aarch64.rpm"
-RPM_HASH = "b75a977ee84f5b01c166e3c3962992b719d0dbc92830026f43275068d9797bd49c7c7c4d83cb88f9e622a8928af86c06666b9cc26804e699fb8bd522bc0c1ca2"
+RPM_NAME = "python-Kivy-doc-2.3.1-5.5.noarch.rpm"
+RPM_HASH = "f7f4eca61405b9879264934e8b97b1f9910283c82b3a7575fb30cadf58fcb8294d3741f4083739ba737713dff787b0e6050151eb4ef008242ded60e3cb5e3c3f"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Kivy-doc \
-python310-Kivy-doc \
-python311-Kivy-doc \
-python39-Kivy-doc"
+python313-Kivy-doc \
+python314-Kivy-doc"
 
 RDEPENDS:${PN} += ""
 

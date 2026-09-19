@@ -4,10 +4,10 @@ and txfonts, with LaTeX support files and adjusted metrics. The \
 mathalpha package offers support for this collection."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2svn60847"
+PV = "2026.226.2svn77682"
 
-RPM_NAME = "texlive-pxtxalfa-2023.209.2svn60847-54.2.noarch.rpm"
-RPM_HASH = "f66a420c50f77069854b5c3b8ceed14147076cdd5960060773c8634e011d9da4baefa098d9deab11116317a63253850badb9b9298d56015002f5d5ef9d508dc3"
+RPM_NAME = "texlive-pxtxalfa-2026.226.2svn77682-60.4.noarch.rpm"
+RPM_HASH = "ed3bfd9b9eef5dcb122796a2e5c3ec35f858e750ab329da1abb72204c9f4484adc2700011e42c40c08bbe0dbe9a01d2d49e0220db4253a066bbc60a44d9dfd00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ot1tx-ds.fd \

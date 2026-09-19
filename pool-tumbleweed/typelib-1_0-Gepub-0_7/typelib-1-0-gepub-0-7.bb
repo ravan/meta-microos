@@ -2,10 +2,10 @@ SUMMARY = "Introspection bindings for libgepub"
 DESCRIPTION = "A GObject-based library for handling and rendering EPUB documents."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.7.1"
+PV = "0.7.3"
 
-RPM_NAME = "typelib-1_0-Gepub-0_7-0.7.1-1.1.aarch64.rpm"
-RPM_HASH = "983ce2b468261953e1119000d442aa9c05f59bf7cdd5a9ed3193506fe39017ab5869b3df118f819771c679760a851671346d31af5012e05fbe89dffc29bf59bb"
+RPM_NAME = "typelib-1_0-Gepub-0_7-0.7.3-1.7.aarch64.rpm"
+RPM_HASH = "227f0bbc8a70ffd201331bada575788d63205d3621a4bdd9f125ca8669580795e5dea14581869af546b193cc29008230bdd1acd9f3f87791b9bd7360174e9235"
 
 RPROVIDES:${PN} += "typelib-1-0-Gepub-0-7 \
 typelib-Gepub"

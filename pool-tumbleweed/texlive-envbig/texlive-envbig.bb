@@ -2,10 +2,10 @@ SUMMARY = "Printing addresses on envelopes"
 DESCRIPTION = "A simple package, that prints both 'from' and 'to' addresses."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-envbig-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "1a05a350cd5270597233b9edaf8865bfb287981b2bcb8678030a45b985f7e3e2a390c1b9c8800a5b0fdaedeca87fb1b1689f5feab43e67b2c6fb77df4b26b3bc"
+RPM_NAME = "texlive-envbig-2026.226.svn15878-61.4.noarch.rpm"
+RPM_HASH = "350bc8b5c04424854088ac7012c3580754215da8d904add3894149682f7bd94426f2a5f21db77fc90ca1573a29f8a0534d1be5e5bb7d3c2523fb2f34518a0b6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-envbig.sty \

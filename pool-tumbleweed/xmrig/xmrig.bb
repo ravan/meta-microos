@@ -2,10 +2,10 @@ SUMMARY = "XMR mining application"
 DESCRIPTION = "Open source CPU/GPU XMR cryptocurrency miner."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.20.0"
+PV = "6.26.0"
 
-RPM_NAME = "xmrig-6.20.0-1.1.aarch64.rpm"
-RPM_HASH = "b83521a15af263a2f237b3721c339e3fd800c8f22fd4659849439b090d77093318c2a06f8fede159b0e2247760e7c30c479d03a1a4ebce42fd73c1f1cc9863e1"
+RPM_NAME = "xmrig-6.26.0-1.2.aarch64.rpm"
+RPM_HASH = "416ae519ffa69b4150261f9575c043660969eaa29546439f898ff568496c1e8a228b7df06f0c59ae512cb49a11114ef873a00850dab31ad625c9172349d073cd"
 
 RPROVIDES:${PN} += "config-xmrig \
 xmrig"

@@ -8,10 +8,10 @@ be modified in userspace prior to reinjection back into the kernel. \
 ip_queue/libipq is obsoleted by nf_queue/libnetfilter_queue!"
 LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
-PV = "1.8.9"
+PV = "1.8.13"
 
-RPM_NAME = "libipq0-1.8.9-1.4.aarch64.rpm"
-RPM_HASH = "9c8826a65e04fd0363650fb55e6117381722300714129f3b0b33b5ec2d5105a6e6a752651c4bc5e2746b070c0f1b53a7e8c8dae6eaf20888c8f7b6d5793091b9"
+RPM_NAME = "libipq0-1.8.13-1.4.aarch64.rpm"
+RPM_HASH = "5919b81e3319b82c606fc0ce419768f9841710c908694f50f681a00796a01e55e2a3aeb0d072dfd1182dd5d36831402dd3a7de2be737fab1bd1ab222443d1bbd"
 
 RPROVIDES:${PN} += "libipq.so.0 \
 libipq0"

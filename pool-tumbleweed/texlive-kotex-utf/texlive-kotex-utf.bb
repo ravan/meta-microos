@@ -5,10 +5,10 @@ UTF-8. The bundle (of class and associated packages) belongs to \
 the ko.TeX bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0.0svn63690"
+PV = "2026.226.3.0.0svn63690"
 
-RPM_NAME = "texlive-kotex-utf-2023.209.3.0.0svn63690-56.1.noarch.rpm"
-RPM_HASH = "dde79e9b3e3d846061080062026f284ebe2728ab481df86db18085d17e70f6fff258b27b6adeeec96a9f050a2022958cd7fa5f9979375d53d706957e50edf0c7"
+RPM_NAME = "texlive-kotex-utf-2026.226.3.0.0svn63690-63.2.noarch.rpm"
+RPM_HASH = "d51565a458ee0959668eeae710ce1b5347a5c4e7bde44f43940799bbcd70634d9d0cf1c39353b9986e8a8ecb9d258e3e0955a99882f5a417ce31e0a8ca7adf03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dhucs-cmap.sty \

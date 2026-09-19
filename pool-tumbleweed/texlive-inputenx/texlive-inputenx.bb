@@ -5,10 +5,10 @@ inputenc; it also covers nearly all slots. In this way, it \
 serves as more uptodate replacement for package inputenc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.12svn52986"
+PV = "2026.226.1.12svn77682"
 
-RPM_NAME = "texlive-inputenx-2023.209.1.12svn52986-54.1.noarch.rpm"
-RPM_HASH = "6b79a558ad5284c166633084d6e9b7a89eafa6fe1589d28118153d43dab74ae8f029f5ff16c3b374d584e1123fc52671ece797a95806d188fe048b394d46cfcf"
+RPM_NAME = "texlive-inputenx-2026.226.1.12svn77682-60.2.noarch.rpm"
+RPM_HASH = "83b7bc6e955fb8db6e2031eacb557023440d2be4985ce1076e75939b20518b2cd45f10297ed6a7a4a369d467ce2bc2edf4a7f84b95fd7486909f475c4780afd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-inputenx.sty \

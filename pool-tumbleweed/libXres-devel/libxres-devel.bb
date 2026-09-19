@@ -8,10 +8,10 @@ This package contains the development headers for the library found \
 in libXRes1."
 LICENSE = "MIT"
 
-PV = "1.2.2"
+PV = "1.2.3"
 
-RPM_NAME = "libXres-devel-1.2.2-1.2.aarch64.rpm"
-RPM_HASH = "56804e3dc97b85df3f53df41900755e8d2ca218f2f439c03f9e70af17fd1bde1dd6e8237be30435e6895aa1c138e32fbe24de7fc435dba760395f547737e2000"
+RPM_NAME = "libXres-devel-1.2.3-1.5.aarch64.rpm"
+RPM_HASH = "fa5d0d68dad54487f9bc295888563816dde1b6d75e6632ae4de14354f43f103f7400faee1b0a0b53c143647f7968a3d0540eead52dc9148e20104ff6f64f751b"
 
 RPROVIDES:${PN} += "libXres-devel \
 pkgconfig-xres"

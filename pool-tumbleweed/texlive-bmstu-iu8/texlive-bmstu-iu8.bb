@@ -7,35 +7,35 @@ Russian standard GOST 7.32-2017. But there are correctives to \
 be compatible with our local IU8 department requirements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn61937"
+PV = "2026.226.1.9svn76373"
 
-RPM_NAME = "texlive-bmstu-iu8-2023.209.1.2svn61937-53.1.noarch.rpm"
-RPM_HASH = "95f521885b5b8482297f905de07c3403bd3726d341f67f822fcfb4ceacd4f700fa36aae08009c568316d27343c75b6eb5bbdcd106dfabfc9b21918fffccee2c9"
+RPM_NAME = "texlive-bmstu-iu8-2026.226.1.9svn76373-59.2.noarch.rpm"
+RPM_HASH = "acf13d7d3a3897c9e6777dd4379085691f55609a893ec64b296f8ececbff81fdadbb868e0fb5d01813158cb8262507f74eb093dac8a2cc872d6db1d80df7c75b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-01-IU8-base.sty \
-tex-02-IU8-construction.sty \
-tex-03-IU8-numbering.sty \
-tex-04-IU8-section-numbering.sty \
-tex-05-IU8-figures.sty \
-tex-06-IU8-tables.sty \
-tex-07-IU8-footnotes.sty \
-tex-08-IU8-formulas.sty \
-tex-09-IU8-cites.sty \
-tex-10-IU8-titlepage.sty \
-tex-11-IU8-performers.sty \
-tex-12-IU8-abstract.sty \
-tex-13-IU8-contents.sty \
-tex-14-IU8-terms-and-definitions.sty \
-tex-15-IU8-list-of-abbreviations.sty \
-tex-16-IU8-references.sty \
-tex-17-IU8-appendices.sty \
-tex-18-IU8-extra.sty \
-tex-19-IU8-counters.sty \
-tex-20-IU8-listing.sty \
-tex-21-IU8-math.sty \
-tex-22-IU8-algorithms.sty \
-tex-BMSTU-IU8.cls \
+RPROVIDES:${PN} += "tex-BMSTU-IU8.cls \
+tex-IU8-01-base.sty \
+tex-IU8-02-construction.sty \
+tex-IU8-03-numbering.sty \
+tex-IU8-04-section-numbering.sty \
+tex-IU8-05-figures.sty \
+tex-IU8-06-tables.sty \
+tex-IU8-07-footnotes.sty \
+tex-IU8-08-formulas.sty \
+tex-IU8-09-cites.sty \
+tex-IU8-10-titlepage.sty \
+tex-IU8-11-performers.sty \
+tex-IU8-12-abstract.sty \
+tex-IU8-13-contents.sty \
+tex-IU8-14-terms-and-definitions.sty \
+tex-IU8-15-list-of-abbreviations.sty \
+tex-IU8-16-references.sty \
+tex-IU8-17-appendices.sty \
+tex-IU8-18-extra.sty \
+tex-IU8-19-counters.sty \
+tex-IU8-20-listing.sty \
+tex-IU8-21-math.sty \
+tex-IU8-22-algorithms.sty \
 texlive-bmstu-iu8"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -85,10 +85,48 @@ tex-xcolor.sty \
 tex-xltabular.sty \
 tex-xstring.sty \
 texlive \
+texlive-algorithm2e \
+texlive-amscls \
+texlive-anyfontsize \
+texlive-babel \
+texlive-biblatex \
+texlive-bookmark \
+texlive-caption \
+texlive-chngcntr \
+texlive-csquotes \
+texlive-enumitem \
+texlive-fancyhdr \
 texlive-filesystem \
+texlive-float \
+texlive-fontspec \
+texlive-geometry \
+texlive-glossaries \
+texlive-glossaries-extra \
+texlive-graphics \
+texlive-ifoddpage \
+texlive-koma-script \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-lastpage \
+texlive-lineno \
+texlive-listings \
+texlive-ltablex \
+texlive-multirow \
+texlive-nowidow \
+texlive-oberdiek \
+texlive-relsize \
 texlive-scripts \
-texlive-scripts-bin"
+texlive-scripts-bin \
+texlive-setspace \
+texlive-stackengine \
+texlive-tabto-ltx \
+texlive-titlesec \
+texlive-tools \
+texlive-totcount \
+texlive-ulem \
+texlive-xassoccnt \
+texlive-xcolor \
+texlive-xltabular \
+texlive-xstring"
 
 inherit rpm

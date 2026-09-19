@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mmap"
 DESCRIPTION = "This package includes the documentation for texlive-mmap"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.03svn15878"
+PV = "2026.226.1.03svn77682"
 
-RPM_NAME = "texlive-mmap-doc-2023.209.1.03svn15878-55.1.noarch.rpm"
-RPM_HASH = "634bbb82d6de46e8cfff7a3d7f86f9781c6c5268062aac1380467be941f24f2346196aa9c75695019d117c055e9c646d33936153e1d99be6ff7b2098df3e3361"
+RPM_NAME = "texlive-mmap-doc-2026.226.1.03svn77682-61.2.noarch.rpm"
+RPM_HASH = "294491abb078f24c7be0325f9be58118d6c8e13a9eeeec4b786b2ceeaf44b7419a49e7f824d9e29666f5d7271c7a4e5fa7ac17349ebf921adadcc6b287833e87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mmap-doc"

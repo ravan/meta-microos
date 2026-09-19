@@ -3,10 +3,10 @@ DESCRIPTION = "ZZipLib is a library for dealing with ZIP and ZIP-like archives b
 using algorithms of zlib."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.13.72"
+PV = "0.13.80"
 
-RPM_NAME = "libzzip-0-13-0.13.72-1.9.aarch64.rpm"
-RPM_HASH = "5d6404fa1dbbc2a7ff6d4987d59be895098a37ec73a9c06b25f03cde7d0b7637ecb3cdadfbeebc047379757695f5b5de0a04659f93bd0a4b7d49f7d2db4bc6f6"
+RPM_NAME = "libzzip-0-13-0.13.80-1.5.aarch64.rpm"
+RPM_HASH = "41e659fec8b067d7ec70bc77fba352feef33c3acca842b72a47a85dc21e0a7bc80a8743b894ce6af49df9051eab9d3e2b2b90fc06d7066bc8791e230bf20b919"
 
 RPROVIDES:${PN} += "libzzip-0-13 \
 libzzip.so.13 \

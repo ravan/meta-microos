@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6"
 
-RPM_NAME = "pamix-1.6-1.26.aarch64.rpm"
-RPM_HASH = "de719b2dad2b00aab57e38a8943e1b32c56bddd6e710240b518b3d9ee9a11cfb155740ae863fb6c5a474d6e5da36a820deb3fe53cd05df56e2c0b13d48bef12c"
+RPM_NAME = "pamix-1.6-1.36.aarch64.rpm"
+RPM_HASH = "bab4bb2c04e7ea739b9669abafbd83269344ece321f86a786fe58c6a86f5c61c4530d3558957faba930dc6fc2b5579cd25e9e146f73f86edc67e884552b7b64c"
 
 RPROVIDES:${PN} += "config-pamix \
 pamix"

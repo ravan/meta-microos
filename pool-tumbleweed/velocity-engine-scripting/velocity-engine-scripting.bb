@@ -23,10 +23,10 @@ applications to be developed according to a true MVC model. \
 This package contains JSR 223 scripting support."
 LICENSE = "Apache-2.0"
 
-PV = "2.3"
+PV = "2.4.1"
 
-RPM_NAME = "velocity-engine-scripting-2.3-3.10.noarch.rpm"
-RPM_HASH = "1e4653f3af0c6551e2bdedac949b7aaa00ddaac5ff1ad7e5f1b818e059a7802a7a4ffaadfed4f61680df66c0d94928190aa4a8c11961209066496d0de3f87e86"
+RPM_NAME = "velocity-engine-scripting-2.4.1-1.4.noarch.rpm"
+RPM_HASH = "eca8faf43721d06dfeb9f1fc58ead1a9a4fcd1c1bc815c25627faad39b8255458e0bcd5fe30a2a550e04f4377ab23b1d4598731719a03628e9b43a3f727205f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.velocity-velocity-engine-scripting \

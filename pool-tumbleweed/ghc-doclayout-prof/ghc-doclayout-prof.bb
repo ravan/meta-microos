@@ -2,20 +2,20 @@ SUMMARY = "Haskell doclayout profiling library"
 DESCRIPTION = "This package provides the Haskell doclayout profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.0.1"
+PV = "0.5.0.3"
 
-RPM_NAME = "ghc-doclayout-prof-0.4.0.1-1.4.aarch64.rpm"
-RPM_HASH = "f55dc52fe4fb1c5566bdc6d53fbe8e80fd7b45b74319fb4d05c0e19ea223d0c248cf274109a6caeeba544c1f1e81904e529fa12124bae4343b84c1eed3d78d75"
+RPM_NAME = "ghc-doclayout-prof-0.5.0.3-1.3.aarch64.rpm"
+RPM_HASH = "d5d3b64348db611b96b0957300775a64beabdeb32cd3e2beb83427c54c189d722bbeb0d8f08ccb5ec81ea0644a1fd080b3eaba4c5a076668a2d130e05785d309"
 
 RPROVIDES:${PN} += "ghc-doclayout-prof \
-ghc-prof-doclayout-0.4.0.1-4D8TPYFDHuI6AadIlSPotc"
+ghc-prof-doclayout-0.5.0.3-6oU5Og9jiD67xwlm4qJ1ii"
 
 RDEPENDS:${PN} += "ghc-doclayout-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-emojis-0.1.3-7wpttN9DVlcBjh9pp4W5jK \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-emojis-0.1.5-AZAxFgnk0gPLtmkqpmmj2s \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-safe-0.3.21-AzRUUYeJ47sQc55olWnva \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

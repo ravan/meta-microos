@@ -5,10 +5,10 @@ attached. See usb-redirection-protocol.md for the description / definition \
 of this protocol."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.13.0"
+PV = "0.15.0"
 
-RPM_NAME = "libusbredirhost1-0.13.0-1.5.aarch64.rpm"
-RPM_HASH = "a69a095de9318d3ea7899d815f9a5aefe701699e3df0ab290689ecee460907d0561ba424affca5b5a381a6b4ddf3310248356e1ca3e5bd0c940936935b3c04f3"
+RPM_NAME = "libusbredirhost1-0.15.0-1.1.aarch64.rpm"
+RPM_HASH = "08a260d8a67943237807d748e86472fba2a8fdf6b00cb0faa46bd75c83940f284370c9e4e28ef503454ed6225be9af7bd3f854a7d5be1a68cae6509d2754538e"
 
 RPROVIDES:${PN} += "libusbredirhost.so.1 \
 libusbredirhost1"

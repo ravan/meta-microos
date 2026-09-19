@@ -1,14 +1,14 @@
-SUMMARY = "Simple macros supporting abreviations for Plain and LaTeX"
+SUMMARY = "Simple macros supporting abbreviations for Plain and LaTeX"
 DESCRIPTION = "The package provides some simple macros to support \
 abbreviations in Plain TeX or LaTeX. It allows writing (e.g.) \
 \\<TEX> instead of \\TeX, hence frees users from having to escape \
 space after parameterless macros."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77161"
 
-RPM_NAME = "texlive-abbr-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "7d85e3bcc64f220ec032b649c218c3e6073ffa508248aba45eaef5757b98ab82474d352bd19acc8815cd79502e4808f5cc2ed25f999c909c1bbdc46fa3d51767"
+RPM_NAME = "texlive-abbr-2026.226.svn77161-61.2.noarch.rpm"
+RPM_HASH = "bc2d4fa497d13283a434256d3dd740074b54ffd77631d04f7acfd97fca37547f495199b7672a1921e80704b5987cd24016d22ab4ba04618744ce2c9ac2b8fcfa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-abbr.tex \

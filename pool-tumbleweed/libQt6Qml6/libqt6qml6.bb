@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Qml library"
 DESCRIPTION = "The Qt 6 Qml library."
 LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Qml6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "ccacfa878ebc3219f138bce76a5b8566074e13b1157ca9f356a6d934e5bfe3ec79eb209b115e696529e3e2a0e7e7eaebd43af4b5b40b4580079faa429be93b23"
+RPM_NAME = "libQt6Qml6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "c626d64a6d17cbed6803d325c8a17bda9e9a4cd253675ae99edee7542ea7cbf01e8fa6d45f9216a372375b8e780e768bca26e40d658e5a3d82278959841cd986"
 
 RPROVIDES:${PN} += "libQt6Qml.so.6 \
 libQt6Qml6"

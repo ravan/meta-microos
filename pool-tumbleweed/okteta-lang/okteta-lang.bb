@@ -2,10 +2,10 @@ SUMMARY = "Translations for package okteta"
 DESCRIPTION = "Provides translations for the 'okteta' package."
 LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "0.26.13"
+PV = "0.26.28"
 
-RPM_NAME = "okteta-lang-0.26.13-1.1.noarch.rpm"
-RPM_HASH = "16ccc405316f4eed5fda9287795fa1bbdaaca2184c205c1d303866621b79276e07ec0e18d215c2de021b39447c33111dcdd72e4117d24e78024f4bd21c96fbbe"
+RPM_NAME = "okteta-lang-0.26.28-1.1.noarch.rpm"
+RPM_HASH = "21c6ec1070585bf94609f75f7f4c80b9ea3386ec277e4d4059562e82e17ba4291bd7124647bd44980af10de5050d7872a29a272892dcb73b4bb1cac070471fea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-okteta-ar \

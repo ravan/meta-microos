@@ -1,5 +1,5 @@
 SUMMARY = "A screencasting application"
-DESCRIPTION = "A screencasting application for Elementary OS. \
+DESCRIPTION = "A screencasting application for the Pantheon Desktop. \
  \
 Current features: \
   * encoding to WebM \
@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "screencast-1.0.0-2.11.aarch64.rpm"
-RPM_HASH = "2a66b101e4a1b82bcfdb02990914cc94a15797cda21b3e828530a6b535728035ee7d6cb051178518bf2972b84ccbe92a9c102f6d4b38ba8e6d7004c58dd4efd7"
+RPM_NAME = "screencast-1.0.0-3.8.aarch64.rpm"
+RPM_HASH = "2b92b601fbfd297c4eb8e2edd85a0cdbd5fe28de945f2443c4be46e3ef53a13b249162cd9c3edece7b1803f07c522d7e7a5e19aea61afad3f6f2f90743511644"
 
 RPROVIDES:${PN} += "eidete \
 screencast"

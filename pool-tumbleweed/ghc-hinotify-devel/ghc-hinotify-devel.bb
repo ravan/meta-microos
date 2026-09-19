@@ -2,21 +2,21 @@ SUMMARY = "Haskell hinotify library development files"
 DESCRIPTION = "This package provides the Haskell hinotify library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.1"
+PV = "0.4.2"
 
-RPM_NAME = "ghc-hinotify-devel-0.4.1-3.4.aarch64.rpm"
-RPM_HASH = "c33f8d3a1433027e277d91648cbb24d0a7e1eb9c42b58e990446b97b208d98dfde7f66117b7870d5ed535ca42b2d09686a13c85ed9fed3215e65bf8e7c546456"
+RPM_NAME = "ghc-hinotify-devel-0.4.2-1.13.aarch64.rpm"
+RPM_HASH = "fe00b6eab0d41f59afc6e92602fdd3067607e9b69c62457461cdb207cebf1c5ea46a2db472109bf87be7ec7cde14655216fa66c188392233d99cb63c42797ded"
 
-RPROVIDES:${PN} += "ghc-devel-hinotify-0.4.1-JFQ6DOM0mgyCikOfj8YmfP \
+RPROVIDES:${PN} += "ghc-devel-hinotify-0.4.2-4RRzWLCNgXK8AEnEbLT8bd \
 ghc-hinotify-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-async-2.2.4-LcXCzTmy8C6G7Wa774EctI \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-unix-2.7.3 \
+ghc-devel-async-2.2.6-4fW0sXrepSt4QxgAnnLVB6 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-unix-2.8.8.0-178a \
 ghc-hinotify"
 
 inherit rpm

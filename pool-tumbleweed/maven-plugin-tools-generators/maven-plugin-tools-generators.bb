@@ -3,10 +3,10 @@ DESCRIPTION = "The Maven Plugin Tools Generators provides content generation \
 (documentation, help) from plugin descriptor."
 LICENSE = "Apache-2.0"
 
-PV = "3.6.0"
+PV = "4.0.0~beta3"
 
-RPM_NAME = "maven-plugin-tools-generators-3.6.0-7.1.noarch.rpm"
-RPM_HASH = "15f51b20f359fa6a9b878d52abd93cc189c882d9f9477dc1eeee40d2d4d5cd051e54d49bbf166ce4b72778b7b1987abf7c1c3fd5fc42f92a7189303b7b9c9b87"
+RPM_NAME = "maven-plugin-tools-generators-4.0.0~beta3-1.1.noarch.rpm"
+RPM_HASH = "c5103344250d6b995ecdb1cee25154360963f91dc0fb40781836200e18bec5198967970cb432fb1d3813c93dd0709ebf491ae74fcb39453d0297883c083de1f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-tools-generators \
@@ -15,13 +15,11 @@ mvn-org.apache.maven.plugin-tools-maven-plugin-tools-generators-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.apache.maven-maven-model \
 mvn-org.apache.maven.plugin-tools-maven-plugin-tools-api \
-mvn-org.apache.maven.reporting-maven-reporting-api \
-mvn-org.apache.velocity-velocity \
+mvn-org.apache.velocity-velocity-engine-core \
 mvn-org.codehaus.plexus-plexus-utils \
 mvn-org.codehaus.plexus-plexus-velocity \
-mvn-org.ow2.asm-asm \
-mvn-org.ow2.asm-asm-commons"
+mvn-org.codehaus.plexus-plexus-xml \
+mvn-org.jsoup-jsoup"
 
 inherit rpm

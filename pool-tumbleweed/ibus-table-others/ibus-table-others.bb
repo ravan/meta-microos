@@ -5,10 +5,10 @@ Yawerty. This package contains only COPYING and Documents, Please select the \
 table you want to use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.16"
+PV = "1.3.21"
 
-RPM_NAME = "ibus-table-others-1.3.16-1.1.noarch.rpm"
-RPM_HASH = "7755f4de00ba5d22cca5d95fab250b7cf932eaf6f5e69930208d2a0ae3626df44c1d0eb1ca614c5035df276d4457bec0d42b5ea3f2b93a3ca5deee2ee86e088a"
+RPM_NAME = "ibus-table-others-1.3.21-1.5.noarch.rpm"
+RPM_HASH = "70ebb8989ad6cd7fc1c2b03d4065201babd440571fbd0c6d6b7d5868c6b8cd70e014e1e2ebb86bb30258335fc052783ccee8b6545086e89b67d759bafd4f219b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-others"

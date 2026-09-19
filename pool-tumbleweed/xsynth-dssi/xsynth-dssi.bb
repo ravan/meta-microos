@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.4"
 
-RPM_NAME = "xsynth-dssi-0.9.4-19.17.aarch64.rpm"
-RPM_HASH = "c7566a7a93a0c7e54160799090c62410baf5ffdf8c1efa7630cfdfc5b57b6b4e4ad433569d38c72074211c28ae923968ff2da5ae3977032f08287d2116f515a2"
+RPM_NAME = "xsynth-dssi-0.9.4-20.5.aarch64.rpm"
+RPM_HASH = "468e316e487284a705bf53af175d38212262914444ba427b0770e25cde2ea7e531a72a858bea18436f63bc8e6d207a556a4652f4e3023ea6c86332e30346904a"
 
 RPROVIDES:${PN} += "xsynth-dssi"
 
@@ -28,6 +28,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 liblo.so.7 \
-libm.so.6"
+libm.so.6 \
+libmvec.so.1"
 
 inherit rpm

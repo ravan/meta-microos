@@ -10,16 +10,17 @@ You should install findutils because it includes tools that are very \
 useful for finding things on your system."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.9.0"
+PV = "4.11.0"
 
-RPM_NAME = "findutils-4.9.0-2.5.aarch64.rpm"
-RPM_HASH = "71d53bc25a38098efe88d062fc6f1f4b79ba4fe061cebc02010dbae179a3acabec470c6a92ccb1443ecccc1f3895d2aef4669d1fa65ac02bc09d16403aba4520"
+RPM_NAME = "findutils-4.11.0-1.2.aarch64.rpm"
+RPM_HASH = "3c474c75a47ab1afb8601634c81bbba8e01a8ebb56f9a9a7392d8c7811ac3ffa34e508e9273ef75787c52c992811f57e0fc084e21743d0b1b5dd8aff5bcf11dc"
 
 RPROVIDES:${PN} += "find \
 findutils"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libm.so.6 \
 libselinux.so.1"
 
 inherit rpm

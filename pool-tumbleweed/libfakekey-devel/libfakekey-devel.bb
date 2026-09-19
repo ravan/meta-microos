@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3"
 
-RPM_NAME = "libfakekey-devel-0.3-1.4.aarch64.rpm"
-RPM_HASH = "70b268298e5b8be11060b470265acef89526e9884001cb6823c7738a229f0bb9360f036ef4aa05ddc0a23c66842681f20b27d5d2ad79da1fda21bc8e52552a5e"
+RPM_NAME = "libfakekey-devel-0.3-2.9.aarch64.rpm"
+RPM_HASH = "0d7af7ba6732406522faeba97cf294dcd0fad7619af1af50263058962cda4b1b599127326534a690909c96448da673fff6262f72017a1c54b0fef2d5c0aede67"
 
 RPROVIDES:${PN} += "libfakekey-devel \
 pkgconfig-libfakekey"

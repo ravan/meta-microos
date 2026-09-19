@@ -3,10 +3,10 @@ DESCRIPTION = "The libseafile0 package contains libraries and header files for \
 developing applications that use seafile."
 LICENSE = "GPL-2.0-only"
 
-PV = "9.0.3"
+PV = "9.0.21"
 
-RPM_NAME = "libseafile0-9.0.3-1.1.aarch64.rpm"
-RPM_HASH = "b8aa36d7ac52d9f8b238c4e2d43b17dba0cf06b9a50f27920c372cf3e268f9cddf8f547778b497bfa272ea71ba43dc9cd25cc25d805ea0e3519d4ef08a3a6019"
+RPM_NAME = "libseafile0-9.0.21-1.1.aarch64.rpm"
+RPM_HASH = "82f825ffab9af42914435a4efa555d195e039927dc59e144d811d42e3f2601303bb964a9da9550c113013249cb162c537aeaa9e5d4ff619270f765f1de65f1e5"
 
 RPROVIDES:${PN} += "libseafile.so.0 \
 libseafile0"

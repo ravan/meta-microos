@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the runtime development programs, include \
 headers and development library symlinks for libgsoap."
 LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
-PV = "2.8.130"
+PV = "2.8.144"
 
-RPM_NAME = "gsoap-devel-2.8.130-1.1.aarch64.rpm"
-RPM_HASH = "4d5062395cfffead33de32f1aace4fd72448969d5e0975438ff66138952965df1f046d89d06894072b31efeab7b164b3fa2756a2f99dd0bb98dac9c5e1bc5599"
+RPM_NAME = "gsoap-devel-2.8.144-1.1.aarch64.rpm"
+RPM_HASH = "38ce49863f71566188c305652cd2372353fc0e87ef303e6b3846c3447e4ef5889e25646436f41f1e968b5e362b10c17f5ca9d7063304cc91feac1a003ab6bba1"
 
 RPROVIDES:${PN} += "gsoap-devel \
 libgsoap-devel \
@@ -22,7 +22,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
-libgsoapssl++-2.8.130.so \
+libgsoapssl++-2.8.144.so \
 libstdc++.so.6"
 
 inherit rpm

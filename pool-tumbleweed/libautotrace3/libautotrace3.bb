@@ -7,10 +7,10 @@ AutoTrace is now a stand-alone program and can be compiled on any UNIX \
 platform using GCC."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.31.1"
+PV = "0.31.10"
 
-RPM_NAME = "libautotrace3-0.31.1-646.4.aarch64.rpm"
-RPM_HASH = "dc96efc5c311b0ce401d8d48170b5392d218d5e3bd476981c0287f007a337127f337da25e379e1eb13f39a5b77681a5de6123d7025ea99a68087617a5f3d3dc7"
+RPM_NAME = "libautotrace3-0.31.10-1.7.aarch64.rpm"
+RPM_HASH = "6044407fa3c1125eed21fcb1046e0402edec92345c92441962b6b22fa9cc01e1d7e9d596683b570c57715b5e4bb9ede72082116f7d5e1e20e7a6c05cdf39b593"
 
 RPROVIDES:${PN} += "libautotrace.so.3 \
 libautotrace3"

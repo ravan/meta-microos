@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.1.0"
 
-RPM_NAME = "stardict-sounds-wyabdcrealpeopletts-2.1.0-15.17.noarch.rpm"
-RPM_HASH = "b864fa7635da04baea395a9833cb3c662c4142408466f9b4fe0a599e568c2527b2ff0a484f55af4dfdce8a6bc27b45e28fc33b7a1331e953c9c8796fbb4aa9d0"
+RPM_NAME = "stardict-sounds-wyabdcrealpeopletts-2.1.0-15.25.noarch.rpm"
+RPM_HASH = "07f89b203e1585ea3dde96e2117a1a710ffe7b147d1f6cb01558d1a1d6892ef7b3b3ed5d4e43fede18e36a22d078a0a1f170e27df0f6dd20b00b1f330d81e922"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-stardict-en \

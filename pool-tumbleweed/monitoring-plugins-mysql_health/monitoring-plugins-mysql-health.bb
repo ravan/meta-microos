@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "3.0.0.5"
 
-RPM_NAME = "monitoring-plugins-mysql_health-3.0.0.5-1.15.noarch.rpm"
-RPM_HASH = "85a0ce08c772151c2280cc7ba6ce3c0c2158b1c470a543e9f1e876c1e404e944fa115335039a5c961f98fd41b3ac3d725e1b9ed5f33727aaeee70392f977f4fa"
+RPM_NAME = "monitoring-plugins-mysql_health-3.0.0.5-1.23.noarch.rpm"
+RPM_HASH = "6bdc3f94a1d6a06959ac28ebb3f03ffc2e0e21f1d1fb6c51394204d466fbdf034e3d07776c7f2699d574998c96ff0d78b12515400abbdf32fbbb89d9ba7158b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-mysql-health \

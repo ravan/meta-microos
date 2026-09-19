@@ -8,10 +8,10 @@ team in ANSI C, and present an Applications Programming Interface \
 high level languages."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.1"
+PV = "2.8"
 
-RPM_NAME = "gsl-doc-2.7.1-2.1.noarch.rpm"
-RPM_HASH = "dba132700ebd3c31aee2160048ea7a6bb869e92ba1db8fdc696d1842b50be92277966a119a3306cd750eb6e1c376e8fcfa2c95cd56ce54d9998692fb270376eb"
+RPM_NAME = "gsl-doc-2.8-5.3.noarch.rpm"
+RPM_HASH = "78a97fa915f43d87ba8a33a040b1cc8be0a42bdca1341989b378f165a1456894632a8434e55a452a864c3158151d26c573c71c0e54b303bfb9532e31d420b113"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsl-doc"

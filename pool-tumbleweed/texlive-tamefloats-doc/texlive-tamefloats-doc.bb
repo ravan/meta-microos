@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tamefloats"
 DESCRIPTION = "This package includes the documentation for texlive-tamefloats"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.42svn27345"
+PV = "2026.227.0.0.42svn27345"
 
-RPM_NAME = "texlive-tamefloats-doc-2023.209.0.0.42svn27345-55.1.noarch.rpm"
-RPM_HASH = "13fb09a2cc152ec587d1ae7fb8ce84a972bf214ffa3d375924e4b4ab8e5465b10a4bc520fe6b17f8115f0fcd862e2d932ef432162c04642e223bed39f48182ab"
+RPM_NAME = "texlive-tamefloats-doc-2026.227.0.0.42svn27345-62.2.noarch.rpm"
+RPM_HASH = "7e886a66abc7310a6fe092a7faa6eda2ac26cbe8ba04d5c844a118e4a0145a60023a79506adde23182b3be797d553891d4d8979be996051c44b55b77e1337c8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tamefloats-doc"

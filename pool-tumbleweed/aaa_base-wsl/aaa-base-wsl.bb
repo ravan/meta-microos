@@ -4,10 +4,10 @@ for Linux. It should only be installed on WSL and not on regular Linux \
 systems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87+git20230815.cab7b44"
+PV = "84.87+git20260610.3b5a868c"
 
-RPM_NAME = "aaa_base-wsl-84.87+git20230815.cab7b44-1.1.aarch64.rpm"
-RPM_HASH = "42e10d13b6be6f553797a07a77588a500d827c45b8b402e0163210498c1c8939543d50a4a0a3575fd9fc34ae240df1f977a5d0523bc589970a5e002cd4aa61c7"
+RPM_NAME = "aaa_base-wsl-84.87+git20260610.3b5a868c-1.3.aarch64.rpm"
+RPM_HASH = "e0e0faaddcf40c18542a061091676c1608faef22d02d8c852d6c667df927f880ff7395a622c2e8c49bad4587e133b83f0cadee603821384cbed19615312a55c3"
 
 RPROVIDES:${PN} += "aaa-base-wsl"
 

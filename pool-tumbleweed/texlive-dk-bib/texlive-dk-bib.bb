@@ -7,10 +7,10 @@ style file. Dk-bib also comes with a couple of Danish sorting \
 order files for BibTeX8."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn15878"
+PV = "2026.226.0.0.6svn76790"
 
-RPM_NAME = "texlive-dk-bib-2023.209.0.0.6svn15878-53.1.noarch.rpm"
-RPM_HASH = "21b981cb69083a289ce68a16bdea75711ba0445dffe89c40d40a55270a698853a0543e36a8380f6ca42afd277bc889b0080207f0f59b8d1839e6f17fc8c63812"
+RPM_NAME = "texlive-dk-bib-2026.226.0.0.6svn76790-59.2.noarch.rpm"
+RPM_HASH = "7c6157e840011e91ab7a062a921d11f9c65566beaa2b3d2ccbceadcfe67f8814b4b6d3240e43d75422088432fe8d6de50688db1d4bf74ef269ddf8690e57552b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dk-apali.sty \

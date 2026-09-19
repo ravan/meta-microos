@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.2"
 
-RPM_NAME = "twilio-utils-1.2.2-1.1.aarch64.rpm"
-RPM_HASH = "d5e3cfcbf630f24f605bd9a036f5e414b6760c0fbf67b9ad41cd39b0488efed83b4f1611d6b0f8cde57a130d8977a12bdf721616da954a5f77c44539e6f3a3b5"
+RPM_NAME = "twilio-utils-1.2.2-1.11.aarch64.rpm"
+RPM_HASH = "ca6fd7e6dc9243c1eb7b21898c88cedfcb3afa04495b380c0448261fe1a06db7412b8d2dc71b9110decc01f63640884f8f232fde780e5529d3f2a3cc03605c2d"
 
 RPROVIDES:${PN} += "config-twilio-utils \
 twilio-utils"

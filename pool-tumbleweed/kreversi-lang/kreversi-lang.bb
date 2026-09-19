@@ -2,18 +2,18 @@ SUMMARY = "Translations for package kreversi"
 DESCRIPTION = "Provides translations for the 'kreversi' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kreversi-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "dc976ca1984e6f1284d615b7a20625768ac93277814d4e88f1b9b30759fafb2e9cd1b22645f6e397d087a90c2510e1ed2dc9c73a60d072868e33f921aa5b9f34"
+RPM_NAME = "kreversi-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "a4ec17be6a991762ff2ce11989ad7ec135b1c1ef4a845c2f0dcc72758527824b58a6e6070f0038d3948b6f2d952d04c2cf2b8eeb93cddd9627ce750871977b1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kreversi-lang \
 kreversi-lang-all \
 locale-kreversi-af \
 locale-kreversi-ar \
+locale-kreversi-ast \
 locale-kreversi-be \
-locale-kreversi-bg \
 locale-kreversi-bn \
 locale-kreversi-br \
 locale-kreversi-bs \
@@ -38,6 +38,7 @@ locale-kreversi-he \
 locale-kreversi-hi \
 locale-kreversi-hr \
 locale-kreversi-hu \
+locale-kreversi-ia \
 locale-kreversi-id \
 locale-kreversi-is \
 locale-kreversi-it \

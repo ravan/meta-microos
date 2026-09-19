@@ -4,10 +4,10 @@ of page numbers, expanding them (e.g., adding first or last \
 page numbers) and standardising them."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn16915"
+PV = "2026.226.0.0.5svn16915"
 
-RPM_NAME = "texlive-pagerange-2023.209.0.0.5svn16915-52.1.noarch.rpm"
-RPM_HASH = "5e811742d3457104cb4208f4b29fab791268a633a8c064dc3a44a8712f82a8939c70adee6fe0006b3218e46b23b92d992d2a48fb5fc265db65ab93d1cd518141"
+RPM_NAME = "texlive-pagerange-2026.226.0.0.5svn16915-58.2.noarch.rpm"
+RPM_HASH = "54ce771d0635fa7ad26ab100266ba88f9e9ad827b11d15c760105596cf076b2118526f08a828e95ffb1f2c6edbe2d7ab802369e83ff0326f6cd81af7392947fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pagerange-guide.cfg \

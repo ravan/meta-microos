@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "7.0.1"
 
-RPM_NAME = "ucommon-devel-7.0.1-1.10.aarch64.rpm"
-RPM_HASH = "0b9ea81aba9290eab49af6f85780d2a67f6da68a62b27db3460edacea8a7eb5ad73352c6d74edca98904bd8aeecba097b08b80b2bed22cce697d4edbd7ac41fe"
+RPM_NAME = "ucommon-devel-7.0.1-2.11.aarch64.rpm"
+RPM_HASH = "6b27c069e1be309f27033438ef8cbc1b795911ed275bd20e15946955a2069675a9db0a0ddf0e41e1a39aee36a445533d25b480a800548da7e38e8ef65ed0b818"
 
 RPROVIDES:${PN} += "pkgconfig-commoncpp \
 pkgconfig-ucommon \

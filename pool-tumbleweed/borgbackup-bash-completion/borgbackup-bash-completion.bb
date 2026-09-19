@@ -7,10 +7,10 @@ targets. \
 This package contains the bash completion script for borgbackup."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.4"
+PV = "1.4.5"
 
-RPM_NAME = "borgbackup-bash-completion-1.2.4-1.3.noarch.rpm"
-RPM_HASH = "3f2ed07609c68dc7445e64511ab2a6110ce740f9f140331e3febb31c03ab6f3f34238a1c4b2019ed645857c91711bd3c7df9684755b137b06c9004bb3807cf1f"
+RPM_NAME = "borgbackup-bash-completion-1.4.5-1.1.noarch.rpm"
+RPM_HASH = "e6b7ff91e6bf9ab696db05598226b3559551ba3192579ba57ede353d2d3584ae7c5ee2db9c8982dea6622008a42240fc665694d70fb5d383c89c7e7f9a8cf948"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgbackup-bash-completion"

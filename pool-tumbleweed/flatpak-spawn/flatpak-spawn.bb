@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a number of command-line utilities for use 
 Flatpak sandboxes. They work by talking to portals."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.0.5"
+PV = "1.0.6"
 
-RPM_NAME = "flatpak-spawn-1.0.5-2.5.aarch64.rpm"
-RPM_HASH = "06b912f78e75f4f645902364e8f9704d9c033a02269e61db081bfe8a8793f5305eac658a0daac24a0bdfd7b0cdb40ab0eb2cc9e3f95ab1d764f75adffcc9f2ba"
+RPM_NAME = "flatpak-spawn-1.0.6-1.8.aarch64.rpm"
+RPM_HASH = "cf27c8cc02a44d29a30b2303db7f4a5e7c235f96da57c8709aea4448b6fee02d7b5117937680a952ce260f679f39fccb800594b07641a5ff005c7c4b71f073b8"
 
 RPROVIDES:${PN} += "flatpak-spawn"
 

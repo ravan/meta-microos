@@ -4,10 +4,10 @@ Jupyter Server for their Python Web application backend. Common configuration \
 file"
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.3"
+PV = "0.2.4"
 
-RPM_NAME = "jupyter-notebook-shim-0.2.3-2.1.noarch.rpm"
-RPM_HASH = "3c59b3c218c76dfbd29b119ff077f6bcfba0d05d6fd87319a490474f8c75d7b2db5d4f0b34a1ef653d83da46c811ee3295a632f61bc79bbd3410630090993309"
+RPM_NAME = "jupyter-notebook-shim-0.2.4-1.9.noarch.rpm"
+RPM_HASH = "c77f58634bdc0f2362cba65389140e84aecd0571cf1c4f52c3385824767c139f1483fc427c1c08c6a95c57e40ebcd44cdbb7501e12a59e119369115cf6ae77fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-notebook-shim \

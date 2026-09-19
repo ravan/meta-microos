@@ -7,10 +7,10 @@ and ThreadWeaver will work out the most efficient way of dividing the work betwe
 threads within a set of resource limits."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5ThreadWeaver5-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "c78d046a754e4044cbba82fa019094acdee597536897087c73af9a88f7ce800c439df8157b36d1e7aadd3e6acdec2352083108c43051e7a6811234553b6d69a2"
+RPM_NAME = "libKF5ThreadWeaver5-5.116.0-2.6.aarch64.rpm"
+RPM_HASH = "ebcb4fd136e972be9dec7d5095bfb847bdbfb31b0d3a7d9bf41cbea700b413ee2137321acf1b540bdfe2b80a57927abdb4686c66a2b714816708a4b982abc02c"
 
 RPROVIDES:${PN} += "libKF5ThreadWeaver.so.5 \
 libKF5ThreadWeaver5"

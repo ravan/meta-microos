@@ -8,10 +8,10 @@ removal from prompt histories, delimiter matching, text conversion from/to \
 UTF-8 and romanization."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.13"
+PV = "1.16"
 
-RPM_NAME = "moe-1.13-1.4.aarch64.rpm"
-RPM_HASH = "86e18b833a1968b6fd219b0d8c35a0701d56c8c7fd072597b84558f106e7701f93affd34bd8e8c5ccf9223ccd117c511faf67515164c59b02c6623ef02b69eb8"
+RPM_NAME = "moe-1.16-1.3.aarch64.rpm"
+RPM_HASH = "911a9d14e3e5d53aff10cd66d443419da8ac92f4a048b21b41fe97fbdcb3d16d8c2b8a6c76bbef3e12eccd312b9b02e6d69ccbab608f91ab51cbbb17c4d1973b"
 
 RPROVIDES:${PN} += "config-moe \
 moe"

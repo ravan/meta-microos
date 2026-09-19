@@ -7,12 +7,12 @@ and other applications, converters, etc. \
  \
 This subpackage contains headers and library development files for \
 libxmp."
-LICENSE = "LGPL-2.1-only"
+LICENSE = "MIT"
 
-PV = "4.6.0"
+PV = "4.7.3"
 
-RPM_NAME = "libxmp-devel-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "284490269a7d48d8f3f5a19c9926f260d835a26a7ed7eb6f2f231a1200ab7426883464908a0c3adcdd312d0e7cece444d5e79a6248b8acfa5b259c6a01aba98c"
+RPM_NAME = "libxmp-devel-4.7.3-1.1.aarch64.rpm"
+RPM_HASH = "aa44451f2260909ffeb3f8073e7c4e0ef7bdcfdb3bd8ae16cc37c89f61a9e9934f5fe8b6af059f79da608e474d0010fe715213438eb2070db970f7d3aa6dd25e"
 
 RPROVIDES:${PN} += "libxmp-devel \
 pkgconfig-libxmp"

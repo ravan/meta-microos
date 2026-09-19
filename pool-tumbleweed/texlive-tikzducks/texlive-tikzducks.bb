@@ -4,14 +4,13 @@ pictures. This project is a continuation of an answer at \
 StackExchange How we can draw a duck?"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn55713"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-tikzducks-2023.209.1.5svn55713-53.1.noarch.rpm"
-RPM_HASH = "a8be1e9af72a1ea14bbd577add6e012a35c3a65a305862cef5fd4759fba1661091e7cdbd239e46a28586942594a272ec8995a37a3ff2e44db50cbe8dad32f194"
+RPM_NAME = "texlive-tikzducks-2026.226.2.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "7e65c0ab26e92e496aa8f81df74d1c1f689ce25212e9972922ef4b1b9cab222643742e307bf72f7c67e3eed42c0589b0a801487bcf25019e5d74786adcf96cd8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-tikzducks-generic.tex \
-tex-tikzducks.sty \
+RPROVIDES:${PN} += "tex-tikzducks.sty \
 tex-tikzlibraryducks.code.tex \
 texlive-tikzducks"
 
@@ -21,12 +20,14 @@ ed \
 findutils \
 grep \
 sed \
-tex-expl3.sty \
 tex-tikz.sty \
 texlive \
+texlive-epstopdf-pkg \
 texlive-filesystem \
+texlive-iftex \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-pgf \
 texlive-scripts \
 texlive-scripts-bin"
 

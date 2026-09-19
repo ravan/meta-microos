@@ -6,10 +6,10 @@ This library is designed to permit the extraction and parsing of the \
 GeoTIFF keys in new files."
 LICENSE = "MIT & SUSE-Public-Domain"
 
-PV = "1.7.1"
+PV = "1.7.4"
 
-RPM_NAME = "geotiff-devel-1.7.1-2.3.aarch64.rpm"
-RPM_HASH = "9f7e8ca977a8ee681c9988b6edd139933a02631e3d6f4b737e8b4c8ff5c68066965100c456eac1e8083a0a1e5c8611869c6484405f6b93eb4da5215d3445cb93"
+RPM_NAME = "geotiff-devel-1.7.4-1.7.aarch64.rpm"
+RPM_HASH = "38182630200325418ad3eb4e66d7ace95a8e290c892a69fb005c1024e6334a85219685771ad3be5289b1dbf9c39c1d8f26adf6ffe34bd4da748b423a883990d2"
 
 RPROVIDES:${PN} += "geotiff-devel \
 libgeotiff-devel \

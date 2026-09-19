@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1"
 
-RPM_NAME = "lifecycle-data-openSUSE-1-5.11.noarch.rpm"
-RPM_HASH = "e60afe4a3d2d63af57ef1dc0ce7dd9e0a49e04e669f70a56da158e719df94dca47203f0fdb1071820eb646b773fec22f004569eeec6af918fcfeda1843feaf25"
+RPM_NAME = "lifecycle-data-openSUSE-1-5.19.noarch.rpm"
+RPM_HASH = "63ce591790fe2d401c48be572137b43d2316f71b621b485a65ba9c3cc5e9c5b3d79874df90ee69582ebffad1e895ab589593ce8b0a2a01ca283c4e9900338791"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lifecycle-data-openSUSE"

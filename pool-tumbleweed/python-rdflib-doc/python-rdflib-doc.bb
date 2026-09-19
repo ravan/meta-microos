@@ -5,17 +5,17 @@ parser/serializer that conforms to the RDF/XML Syntax Specification (Revised). \
 The library also contains both in-memory and persistent Graph backends."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.1.1"
+PV = "7.1.4"
 
-RPM_NAME = "python-rdflib-doc-6.1.1-1.13.noarch.rpm"
-RPM_HASH = "e74dc7af0d8d571006750be641a616b5d9f09a8d70107a28018228cc5df8aa4c6eb8cdd3b9e2d7904851341d5355fd68c267a46cabfe47f5ab282212894b5134"
+RPM_NAME = "python-rdflib-doc-7.1.4-3.6.noarch.rpm"
+RPM_HASH = "f7380e260ec746da0389f3fcd20c7a268a6085ffd7a99db1cfadfa01d5d32c4f66c042b8286ee5eba526297e9fd432e07b64a5ab7dd827eba989ff0549a70521"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-rdflib-doc \
-python310-rdflib-doc \
-python311-rdflib-doc \
-python39-rdflib-doc"
+python2-rdflib-doc \
+python313-rdflib-doc \
+python314-rdflib-doc"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "alts"
 
 inherit rpm

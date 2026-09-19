@@ -8,10 +8,10 @@ Run borg for a commands overview and check out the docs at \
 /usr/share/doc/packages/borgbackup/html/index.html."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.4"
+PV = "1.4.5"
 
-RPM_NAME = "borgbackup-doc-1.2.4-1.3.noarch.rpm"
-RPM_HASH = "eabc2eb76eaf372576a2622709d19cf0e0ef5c54723b224ef6779bd1df89b07dadc4cfc330fd0b6999682c0739ef10ad828335d2fb99308d0238df48c0901a5e"
+RPM_NAME = "borgbackup-doc-1.4.5-1.1.noarch.rpm"
+RPM_HASH = "a85b364b2fc68c0879fbeb30975bd99e801016365d93b5c00ef148fcd1578f9f7ca3215e9bfa3da1932562aae4c272d57913d2d93d64d765c7e7c3a43fbd79ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgbackup-doc"

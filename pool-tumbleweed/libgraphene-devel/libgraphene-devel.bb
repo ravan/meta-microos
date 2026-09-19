@@ -8,22 +8,17 @@ LICENSE = "MIT"
 
 PV = "1.10.8"
 
-RPM_NAME = "libgraphene-devel-1.10.8-1.8.aarch64.rpm"
-RPM_HASH = "74e0743446639a21dcb5da25948dcb9956baaf10832eeed081580446a478ba49ae864f5ac20faedf7be7c2ef42db8cb977cbfc91e980d25b645f69030072c330"
+RPM_NAME = "libgraphene-devel-1.10.8-3.1.aarch64.rpm"
+RPM_HASH = "9c218e2bb9bc894b12b87275a93b576584cb0b42e8e4a8b23826c476633613195686f13e9acacdbeeb2291216ae7422dea00b920195d0a1e527ce3f6bf66b066"
 
 RPROVIDES:${PN} += "libgraphene-devel \
 pkgconfig-graphene-1.0 \
 pkgconfig-graphene-gobject-1.0"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/pkg-config \
-ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libgraphene-1-0-0 \
-libgraphene-1.0.so.0 \
 pkgconfig-gobject-2.0 \
 pkgconfig-graphene-1.0 \
-typelib-1-0-Graphene-1-0 \
-typelib-Graphene"
+typelib-1-0-Graphene-1-0"
 
 inherit rpm

@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Afrikaans l
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-afr-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "8f5c8ffaf7f10ca5eb006b86f597553a6b2ca83007acb4bbd60f8925d083699766d03a914c06501dd912bd8a3308dd1fd68f5e81168e6190eaabf3e230753981"
+RPM_NAME = "tesseract-ocr-traineddata-afr-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "b14bf8690ab92a822c18b34b70976610a7d0754ec0dea9139cd249209056747904df980ebda45ba70217bea21871329b0c5317595c414267117b732f224f3e0d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-afr \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-af \
+tesseract-ocr-traineddata-afr \
 tesseract-ocr-traineddata-afrikaans \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-afrikaans"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

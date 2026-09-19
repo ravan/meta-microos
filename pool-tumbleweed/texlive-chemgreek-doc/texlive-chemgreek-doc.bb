@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chemgreek"
 DESCRIPTION = "This package includes the documentation for texlive-chemgreek"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn53437"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-chemgreek-doc-2023.209.1.1asvn53437-54.1.noarch.rpm"
-RPM_HASH = "2bb797288de0851226f70c284d48b2110b78c71f5dd5c90c2fc67d57372b2d1517b40145c30dbf8930a0a8d9573ec96ceee68a45ad8eba7b90c7548a2e970d71"
+RPM_NAME = "texlive-chemgreek-doc-2026.226.1.1asvn77682-60.2.noarch.rpm"
+RPM_HASH = "0fda59c300a983ef01787a26cb0efc4bb2b70eb2b08334b2f63092d2a846869134efc502395c13509a886de9be1d44e8b9a0a3b9815f53417e147284f96a2e70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chemgreek-doc"

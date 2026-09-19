@@ -2,10 +2,10 @@ SUMMARY = "Binary files of eplain"
 DESCRIPTION = "Binary files of eplain"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn3006"
+PV = "2026.20260301.svn3006"
 
-RPM_NAME = "texlive-eplain-bin-2023.20230311.svn3006-93.2.aarch64.rpm"
-RPM_HASH = "82fefda575499ea31fbc47d8963bcfc30fa82275b4d779e24650875027853f59d14792263fd81b429ed030260811f667896e2e1de0bf641f5eb7f40a8b0d0010"
+RPM_NAME = "texlive-eplain-bin-2026.20260301.svn3006-120.4.aarch64.rpm"
+RPM_HASH = "6a2999d9d0c15ba8db406d7d29413c8bcb3e0c226ed74266b340ab3aa4e0192257bb837f776bcf0a5f82986fa9e6ed4b1c1d3632eb40c841be0a1d5aa6bd2272"
 
 RPROVIDES:${PN} += "texlive-eplain-bin"
 

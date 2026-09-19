@@ -4,10 +4,10 @@ between (some) metric and Imperial units. The package requires \
 pgfkeys and siunitx."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn39592"
+PV = "2026.226.1.2svn39592"
 
-RPM_NAME = "texlive-smartunits-2023.209.1.2svn39592-58.1.noarch.rpm"
-RPM_HASH = "0d92faeeff8642fab88e632a7dcab81d99e6c05bf82fe5dad46f3d66aecdd8aada3cdc6249b9f026b960336228cea7f87cb3a7baf07c5f18fc8ebc68e4252c9f"
+RPM_NAME = "texlive-smartunits-2026.226.1.2svn39592-64.2.noarch.rpm"
+RPM_HASH = "0b0e1f883bff8190cf9731d2eefa09e1e2962e0cf43beb030b595b2d393896861897e07996981f6c9ede29bb630bacb6852c073fb4cd4be2f7884a735c3a98a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-smartunits.sty \

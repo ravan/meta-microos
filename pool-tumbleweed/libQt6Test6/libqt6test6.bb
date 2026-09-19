@@ -5,10 +5,10 @@ testing frameworks as well as extensions for testing graphical user \
 interfaces."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Test6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "608758ad2fab97066b3f1c1e4bd634707de6ffae0f2fc64cf0663a72d048f3e7cd54409f98c33620b569599ca7f5392683528b7643cbcf3be15973ac1e8ba96d"
+RPM_NAME = "libQt6Test6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "a7c652bb16eb46b01bf94b8cb2618f0c41d8cea6c6cb597b6af813d8db3d980c84b0a5be62f38f8a4fd8a02471e104705c1fb93fef1d6a87a5dc5d40058e9ef8"
 
 RPROVIDES:${PN} += "libQt6Test.so.6 \
 libQt6Test6"

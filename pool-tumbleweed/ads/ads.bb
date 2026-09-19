@@ -9,15 +9,15 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.0+git.0.bdc680d"
 
-RPM_NAME = "ads-2.0+git.0.bdc680d-1.8.noarch.rpm"
-RPM_HASH = "799a0d4b6dc1ffe703c95f2d18fd08157e4e8ee343a1c486d530468fac5c76390a7e182c4a4914d621416092749732c5b2a956ef228c77ae52004817ed0a7cf2"
+RPM_NAME = "ads-2.0+git.0.bdc680d-2.6.noarch.rpm"
+RPM_HASH = "550e9ad2d80164060f60af20aca4749431c492b14b1cdb1f9615c52f9ce4f0c5ad5963bda489d05647652057a4ca6e692d63f24fcdb367915aba4d47faa58ae3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ads \
 vasclnt \
 vastool"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 krb5-client \
 ntp \

@@ -2,10 +2,10 @@ SUMMARY = "API for communicating with Redis servers"
 DESCRIPTION = "This extension provides an API for communicating with Redis servers"
 LICENSE = "PHP-3.01"
 
-PV = "5.3.7"
+PV = "6.3.0"
 
-RPM_NAME = "php8-redis-5.3.7-2.7.aarch64.rpm"
-RPM_HASH = "a3947e64b8a126b7a872f21ae0eedfe5b879eba7437c783cc421604f959336fce4559bdaf01fe258cfd9e9d4dadac79e0f397b1745589deb9bed7e9433ca8b11"
+RPM_NAME = "php8-redis-6.3.0-1.5.aarch64.rpm"
+RPM_HASH = "1dc45939dacb7fbb68f150c87a1702c0259567bd51443a30091b1a97201dd319b9a81878e3f27e9b055a113ffd64bed4f89b5c85f5b770f30189bc4c1eaa4a1a"
 
 RPROVIDES:${PN} += "config-php8-redis \
 php-redis \

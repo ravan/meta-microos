@@ -4,16 +4,16 @@ machines, remote and local virtual machines, and, when technology permits, \
 applications on local virtual machines."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "44.3"
+PV = "50.0"
 
-RPM_NAME = "gnome-boxes-44.3-1.1.aarch64.rpm"
-RPM_HASH = "67eeb80c61e44b5d3431b4f51b4dbe86ed31034497365d015a448238b90eb38b4051de0445eb6e50395c2363d978a232e24a3e6a43ff25441672cf5879129b2d"
+RPM_NAME = "gnome-boxes-50.0-2.2.aarch64.rpm"
+RPM_HASH = "2bf9e8ff3ce09e2ad79e2e89b9c363261b91ca483e998268efa7ac2a459bf2ac90e7d5f0a802eff8e4a66bb47cef95478d66cf9ea065885c24dc471edef41829"
 
 RPROVIDES:${PN} += "gnome-boxes \
 libgovf-0.1.so \
 typelib-Govf"
 
-RDEPENDS:${PN} += "fuseiso \
+RDEPENDS:${PN} += "cdio-utils \
 ld-linux-aarch64.so.1 \
 libarchive.so.13 \
 libc.so.6 \
@@ -28,6 +28,8 @@ libgudev-1.0.so.0 \
 libhandy-1.so.0 \
 libm.so.6 \
 libosinfo-1.0.so.0 \
+libportal-gtk3.so.1 \
+libportal.so.1 \
 libsoup-3.0.so.0 \
 libspice-client-glib-2.0.so.8 \
 libspice-client-gtk-3.0.so.5 \
@@ -36,10 +38,15 @@ libvirt-daemon-qemu \
 libvirt-gconfig-1.0.so.0 \
 libvirt-gobject-1.0.so.0 \
 libwebkit2gtk-4.1.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
+localsearch \
 mtools \
-tracker \
+qemu-chardev-spice \
+qemu-hw-usb-host \
+qemu-hw-usb-redirect \
+qemu-hw-usb-smartcard \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

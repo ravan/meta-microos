@@ -4,20 +4,23 @@ called libraries, and each library can be synced separately. A library can also 
 Seafile also allows users to create groups and easily sharing files into groups."
 LICENSE = "GPL-3.0-only"
 
-PV = "9.0.3"
+PV = "9.0.21"
 
-RPM_NAME = "seafile-client-9.0.3-1.1.aarch64.rpm"
-RPM_HASH = "ab56eb5e199626f716d68756ac4435b973117037437b3a9ef393b19eb3173bd8022693c59dd3663a583d7ce50a5cf2da4c7f69cd12ea89794cbd83a5f72fa6a2"
+RPM_NAME = "seafile-client-9.0.21-1.1.aarch64.rpm"
+RPM_HASH = "41638bbf90d7933ac0eb39108ee4719a87e79cad530e5dcec15dbc21f15f2543ac61a2d3ae3fead9a7f7b7430abcf3b58e5b1c0958055ef63d76fc6dcc4174d6"
 
 RPROVIDES:${PN} += "seafile-client"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
+RDEPENDS:${PN} += "hicolor-icon-theme \
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.9.0"
 
-RPM_NAME = "gcin-gtk3-2.9.0-4.18.aarch64.rpm"
-RPM_HASH = "bceeb60b00b910f14ccbcc0662de26aab0b16c689d769432311b5c5bf3a4c3f4ebca3033e6dca3fc57420fdc7816a89f65720d5cdebd90ad0937241c4caddb38"
+RPM_NAME = "gcin-gtk3-2.9.0-7.9.aarch64.rpm"
+RPM_HASH = "8fa851d2279b4d251d4597eaf7b0e27457682fe3b52d6d0407c4c46a737003510e62f5afae07be243389b923390ede046530e3de0da5430e255e69658f7d58ae"
 
 RPROVIDES:${PN} += "gcin-gtk3 \
 gcin-gtk3-immodule"

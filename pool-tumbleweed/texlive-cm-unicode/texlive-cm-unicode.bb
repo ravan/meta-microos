@@ -11,10 +11,10 @@ fonts works with TeX engines that directly support OpenType \
 features, such as XeTeX and LuaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.7.0svn58661"
+PV = "2026.226.0.0.7.0svn58661"
 
-RPM_NAME = "texlive-cm-unicode-2023.209.0.0.7.0svn58661-54.1.noarch.rpm"
-RPM_HASH = "eff3b481625402e7a68cbc05382b460ab04b1f3f5b919119a0117fcb573547744857820f2a81fa561701999961a09d1949aa66f2c79b767a6607a15732083e2e"
+RPM_NAME = "texlive-cm-unicode-2026.226.0.0.7.0svn58661-60.2.noarch.rpm"
+RPM_HASH = "9756e6f8a011e6287283d40f0febad06c89995a8108780fcd219a632575e527121cd5f97692d1b0fd1fe6c33202f11e346b740e200ca75ebf19cfae6fd49b954"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmu-ec.enc \

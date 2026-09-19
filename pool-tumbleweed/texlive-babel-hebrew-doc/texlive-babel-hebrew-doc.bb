@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-hebrew"
 DESCRIPTION = "This package includes the documentation for texlive-babel-hebrew"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3hsvn30273"
+PV = "2026.226.2.5svn77914"
 
-RPM_NAME = "texlive-babel-hebrew-doc-2023.209.2.3hsvn30273-54.1.noarch.rpm"
-RPM_HASH = "a333c9dc82b8711a83450f4ef93f95efca4ea73db4810ed8d0676152375f6df1e79f4fb663f4bb0b64c597364c0e011b408a65728e4c5375bb6769c42e366251"
+RPM_NAME = "texlive-babel-hebrew-doc-2026.226.2.5svn77914-60.2.noarch.rpm"
+RPM_HASH = "6cd4d08b3fbfdd9ded415dabd24d5079be94ed0f63cbd56c3f7eb16ef4a567d741be194e2fa5f472e8ffaf3bb4cd8a96fe8870086aaba6b1d054ccb2d49dc776"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-hebrew-doc"

@@ -4,8 +4,8 @@ LICENSE = "CPL-1.0 | GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "1.0.15"
 
-RPM_NAME = "bytelist-1.0.15-1.9.noarch.rpm"
-RPM_HASH = "4f9d9524f78ff316146eb37fc327fc164d71043abb27c6027cd8319ef1ba4a4d7cc43752178f21a04389f122490988ba781aa5aa39309d8e3460ba1edbe740eb"
+RPM_NAME = "bytelist-1.0.15-2.8.noarch.rpm"
+RPM_HASH = "fc8d5ae990de24ce2d0b668599f83dc58e943f7deea8bdac28c92ebb8f8765120e59d82f51aa3cdfd4789b46b14d8838fe432bf59a0b37625bf0c42d4aeee611"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bytelist"

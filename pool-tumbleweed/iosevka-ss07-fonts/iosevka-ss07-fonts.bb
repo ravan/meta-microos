@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka SS07 typeface (monospace, Monaco style)."
 LICENSE = "OFL-1.1"
 
-PV = "26.1.0"
+PV = "34.8.1"
 
-RPM_NAME = "iosevka-ss07-fonts-26.1.0-1.1.noarch.rpm"
-RPM_HASH = "1d40a693956c2b2510561099e1a2169a0e3f124166eaf659a859fccbd44d3b5b38de2feae8b4db603976b4d8c2934bb7dad806038ee8aef07d879fd6e350e938"
+RPM_NAME = "iosevka-ss07-fonts-34.8.1-1.1.noarch.rpm"
+RPM_HASH = "88bef7103b4694e4995187fcc6bcf4a1a12ff6aa29bf373a9ff86c54e18a9e89edf03d1731436594020f5b4f399831cececb41f4c2a2f1163dbf9bd1e20be4b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss07-fonts"

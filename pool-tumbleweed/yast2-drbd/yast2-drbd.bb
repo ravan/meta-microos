@@ -4,10 +4,10 @@ this module you can configure a distributed storage system, frequently \
 used on high availability (HA) clusters."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-drbd-4.6.1-1.1.aarch64.rpm"
-RPM_HASH = "985d2c1705deb3e62a57ea9a5b71e5e138dec8c3196d73c87da2f18443ed8b8dc124a83981b6d3eb03df91ffc610f086ea4b593f3c21d7071e1374e01ed7d1bf"
+RPM_NAME = "yast2-drbd-5.0.1-1.2.aarch64.rpm"
+RPM_HASH = "dd2287d41075cdbdad89232ea6dc065672bc689c8151ea763621a77f3a56cae076b620fc56bc69fc1cd37f49d1b68dcde093bccfb89372fd9b3a504ec37e76be"
 
 RPROVIDES:${PN} += "yast2-drbd"
 

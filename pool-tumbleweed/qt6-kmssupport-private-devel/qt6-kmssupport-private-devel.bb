@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6KmsSupport that do
 ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-kmssupport-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "00e6271f8eaefa5b9d64958586d4355cf830e3f1a13dafcb05a4574fa92d70f7e6f0ff1305cc5a4e895deb2719f7406848d409dd74c609c696567470f24e7486"
+RPM_NAME = "qt6-kmssupport-private-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "9b629d6f8891a7665b6b7361d8871016815188dc4299220b826164ff45b0a56102255de8a4c89179fe6be3ca289f53f80829b1b8a455ef9a293115ea78f85c86"
 
 RPROVIDES:${PN} += "qt6-kmssupport-private-devel"
 

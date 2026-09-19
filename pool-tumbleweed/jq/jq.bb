@@ -5,16 +5,17 @@ structured data with the same ease that sed, awk, grep and friends let \
 you play with text."
 LICENSE = "CC-BY-3.0 & MIT"
 
-PV = "1.6"
+PV = "1.8.2"
 
-RPM_NAME = "jq-1.6-3.4.aarch64.rpm"
-RPM_HASH = "b39e19ca133d10f0716c48f08bead062f61b017fa9775878fbe5b9694239ba34adce04f08b7945dfc0db75b2c3637d830613fa03c96d64e90a73d30175ee8986"
+RPM_NAME = "jq-1.8.2-2.1.aarch64.rpm"
+RPM_HASH = "39466e3fc0560a7d7e5157afd29f021837ddb14fa678427cffe8bfa8f917d66fd936dd8196dfbd852fe9f74dc11045e9ca059ca0ed127ca4021ff5ac88a4ccb7"
 
 RPROVIDES:${PN} += "jq"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libjq.so.1 \
-libjq1"
+libjq1 \
+libonig.so.5"
 
 inherit rpm

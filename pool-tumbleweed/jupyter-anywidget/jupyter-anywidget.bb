@@ -8,10 +8,10 @@ DESCRIPTION = "- create widgets **without complicated cookiecutter templates** \
 This package provides the jupyter notebook extensions."
 LICENSE = "MIT"
 
-PV = "0.6.3"
+PV = "0.9.21"
 
-RPM_NAME = "jupyter-anywidget-0.6.3-1.1.noarch.rpm"
-RPM_HASH = "061b97f39afbf837693d4209d708609005402db62f2c58d0b6c9a7029b7ed99f6a6bbdae764c4c43c407c882982a9e0040fb07d31886973dbb7aaf5d7e18d934"
+RPM_NAME = "jupyter-anywidget-0.9.21-1.4.noarch.rpm"
+RPM_HASH = "2c1eeb6cf4feb1a183d0504bd567d3ffa7585fa81dc03f688ba143d7b36af6526e9288fba60cb04732e2f59f1aadcb3605980d7d32a44237ac7d180e233e4ba7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-anywidget"

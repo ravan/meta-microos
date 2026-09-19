@@ -2,10 +2,10 @@ SUMMARY = "Security risk analysis for Kubernetes resources"
 DESCRIPTION = "Security risk analysis for Kubernetes resources"
 LICENSE = "Apache-2.0"
 
-PV = "2.13.0"
+PV = "2.14.2"
 
-RPM_NAME = "kubesec-2.13.0-1.1.aarch64.rpm"
-RPM_HASH = "ccdd9b303f8da6e1accb293a80e794668004f8cd2d50d9d86d9fb82650eb7b0a361e81818bf5a2518ddec4809949be61e393a02a080aba985c12103c7758ec2a"
+RPM_NAME = "kubesec-2.14.2-1.11.aarch64.rpm"
+RPM_HASH = "80845ace30421a3e2bca23057cdaf6af40e1df0557be6d3eb56a0c9ea0804bfa58901ade1b6c7282070e05b842a9a723ce5e620cb9d489370b9f85d42431bd44"
 
 RPROVIDES:${PN} += "kubesec"
 

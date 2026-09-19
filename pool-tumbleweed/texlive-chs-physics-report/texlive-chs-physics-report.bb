@@ -10,10 +10,10 @@ depends on amsmath, calc, fancyhdr, geometry, graphicx, \
 letltxmacro, titlesec, transparent, and xcolor."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn54512"
+PV = "2026.226.svn54512"
 
-RPM_NAME = "texlive-chs-physics-report-2023.209.svn54512-54.1.noarch.rpm"
-RPM_HASH = "c4281797e523dfbfe7c8d96ba37e5811e4b6de3d80a29bad8d33626d4004c100987b01039a237d46f70de91bcab1fb7b8be620b42c146e28bec0086fdc59c811"
+RPM_NAME = "texlive-chs-physics-report-2026.226.svn54512-60.2.noarch.rpm"
+RPM_HASH = "6fc7ddc73892eab26ebee176245d73c208599b18067fe2a5b9e0c1c9c12363c8b8e596924673576acd77f183f20cab8dd6de1aeeb62b29b772a72841a09558b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chs-physics-report.sty \

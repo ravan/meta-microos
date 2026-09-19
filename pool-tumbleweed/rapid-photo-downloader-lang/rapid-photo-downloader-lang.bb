@@ -2,10 +2,10 @@ SUMMARY = "Translations for package rapid-photo-downloader"
 DESCRIPTION = "Provides translations for the 'rapid-photo-downloader' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.9.34"
+PV = "0.9.36"
 
-RPM_NAME = "rapid-photo-downloader-lang-0.9.34-2.2.noarch.rpm"
-RPM_HASH = "0e2ae2aaf49863f3cd42355a92b34f7f53dd27c8203b027531a898bed75df779c0303d975f473de97aaae1bf8043ee4630f8e86244702b1a25d2c3c8a39dc647"
+RPM_NAME = "rapid-photo-downloader-lang-0.9.36-3.3.noarch.rpm"
+RPM_HASH = "0871192e366f0f68435c30bfe7ee97118cd8d087499ee9ad7967b7e8a5e78d1e8c6688e2e8fa491773fd84b886da68ce46caef692dc684e63ff442d91d119978"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rapid-photo-downloader-ar \

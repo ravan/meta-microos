@@ -2,10 +2,10 @@ SUMMARY = "Translations for package hexchat"
 DESCRIPTION = "Provides translations for the 'hexchat' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.16.1"
+PV = "2.16.2"
 
-RPM_NAME = "hexchat-lang-2.16.1-2.8.noarch.rpm"
-RPM_HASH = "66d7619e686040d719344b760db860a0107a131fe92266d6650843437ce8e78060cf72e99a8b417570d78f9c00ad84e58fdc96cc76c60c3311cc5be851f3ae20"
+RPM_NAME = "hexchat-lang-2.16.2-4.1.noarch.rpm"
+RPM_HASH = "b1f9941cbf1cbad3e75173e53e74b69043b5915595de3b5a8d24ca098aec89662213a083314ab341d6dc3e1341c1d3e3a14101266dcc9e1691d75db5a02774c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hexchat-lang \

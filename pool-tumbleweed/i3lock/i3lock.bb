@@ -4,10 +4,10 @@ white screen (you can configure the color/an image). You can return to your \
 screen by entering your password."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.14.1"
+PV = "2.16"
 
-RPM_NAME = "i3lock-2.14.1-1.1.aarch64.rpm"
-RPM_HASH = "e0f75a0626dabc08129397d1407ee257448f6494fe4e5376e7046c842761813672276a532dcb54e36874cdbb4b9b029e6d867491cfaa21ccd620c32bbf3896c9"
+RPM_NAME = "i3lock-2.16-1.5.aarch64.rpm"
+RPM_HASH = "f0ef2712b91b237462695d173e0f6181f4780d1f6653be277770c8e4b9f788cab3a6a2f551a6b9982551888c054e524e946c32264bb4dc912f0900355ae2e530"
 
 RPROVIDES:${PN} += "i3lock"
 

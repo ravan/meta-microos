@@ -8,10 +8,10 @@ style similar to that used in 'Logic in Computer Science' by \
 Huth and Ryan."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn33254"
+PV = "2026.226.svn33254"
 
-RPM_NAME = "texlive-logicproof-2023.209.svn33254-55.1.noarch.rpm"
-RPM_HASH = "e94f9d07e54b2dd3e1db1446a006ac76b693a1b9a363ab61bc88ff2506993dbd03f4b4de456b65356e1db4a1bd93095dd99dce1f4c8d8858ad737cc93e56603a"
+RPM_NAME = "texlive-logicproof-2026.226.svn33254-61.2.noarch.rpm"
+RPM_HASH = "6249e4230024782136a926b05f7039840a679f09b42d0692980ee0f68fae5c0feaef10a1f599f0338993402d1346e6cad1b106b8c0ea92feab94223f0d76140d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-logicproof.sty \

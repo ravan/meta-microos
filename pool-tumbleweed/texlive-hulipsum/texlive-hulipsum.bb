@@ -10,10 +10,10 @@ http://www.lorumipse.hu. Thanks to Lorum Ipse Lab (Viktor Nagy \
 and David Takacs) for their work."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn56848"
+PV = "2026.226.1.4svn77317"
 
-RPM_NAME = "texlive-hulipsum-2023.209.1.1svn56848-54.1.noarch.rpm"
-RPM_HASH = "7355f15b5b7efbf678a76d5b37a79064a1351d0252ad79839ff56293dbc7cacca73be1e0910dafdaf4cf596e13759d0f19d2b97bbcc816753cc525f3947370d9"
+RPM_NAME = "texlive-hulipsum-2026.226.1.4svn77317-60.2.noarch.rpm"
+RPM_HASH = "2e81eda30d9f2e9245356cae3c2435b1d0a47e5cd5a9b3f33edd84867b109b2042943c69dc7acd1f13551a23a35cec3cb654f677c57fb11c2eb9adfd04c288b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hulipsum.sty \

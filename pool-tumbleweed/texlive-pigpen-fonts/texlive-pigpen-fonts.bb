@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-pigpen"
 DESCRIPTION = "The  separated fonts package for texlive-pigpen"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.3svn77682"
 
-RPM_NAME = "texlive-pigpen-fonts-2023.209.0.0.2svn15878-52.1.noarch.rpm"
-RPM_HASH = "ce54db68cf0b9d4654fcd1ead159457ea0616dbe2116e1b7c58c373eb6531c6c3c42029c131d50a10ce281b175dba6b6e48969299c1f5f782f1f76ac87378e23"
+RPM_NAME = "texlive-pigpen-fonts-2026.226.0.0.3svn77682-58.2.noarch.rpm"
+RPM_HASH = "f289487ce40bc0f1a3dfaa57acd8048e2d93e8c5fc8c34329c492088f33c5888fc4f98635bfeebb2b97b790bac8a6ee75dc5756ca8a5cc5ae33d7f754a6f232a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-pigpen \

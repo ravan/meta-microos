@@ -2,10 +2,10 @@ SUMMARY = "Xfce Panel Shared Library"
 DESCRIPTION = "This package contains GTK 3 variant of the xfce4-panel shared library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.18.4"
+PV = "4.20.8"
 
-RPM_NAME = "libxfce4panel-2_0-4-4.18.4-1.1.aarch64.rpm"
-RPM_HASH = "b0d583605bad6b5cc92eb693b32b68d91f3f5fccca3bf29052feb09cd65d5cc609ab5bae4366ddd88e506463545d1656087dae2241abf0bcb7af2d2e6880c3ce"
+RPM_NAME = "libxfce4panel-2_0-4-4.20.8-1.1.aarch64.rpm"
+RPM_HASH = "f82a6520678b54eebf9381f76e2ee5c75ed28344d3a12d3d9ef26741817157437e22e57a4d99be48c743077477af42749791c2b6c7ebec3fb2b3c9308e310e60"
 
 RPROVIDES:${PN} += "libxfce4panel-2-0-4 \
 libxfce4panel-2.0.so.4"
@@ -19,6 +19,8 @@ libgdk-pixbuf-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtk-layer-shell.so.0 \
+libxfce4ui-2.so.0 \
 libxfce4util.so.7"
 
 inherit rpm

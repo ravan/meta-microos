@@ -2,12 +2,12 @@ SUMMARY = "Xfdashboard library"
 DESCRIPTION = "A library providing authenticators for Xfdashboard."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.0"
+PV = "1.1.0"
 
-RPM_NAME = "libxfdashboard0-1.0.0-1.5.aarch64.rpm"
-RPM_HASH = "97a19396e9b6e87ca9ca08f9c0b0e7e67e34751435d6d4deaccd987ad539e13868d0bfa464abe7423048396cd113ae7220ea1e70bd1e04a28007fe4e16587826"
+RPM_NAME = "libxfdashboard0-1.1.0-1.4.aarch64.rpm"
+RPM_HASH = "f775c998657f0781227ac30cc5b2b57eae7946385a79726d2d72e883f6b9d4dba27b979bfe69d3a2a32d43be5cb3d8b31610e46169969fb589b83d35fdcbac3b"
 
-RPROVIDES:${PN} += "libxfdashboard.so.0 \
+RPROVIDES:${PN} += "libxfdashboard.so.0.10100.0 \
 libxfdashboard0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

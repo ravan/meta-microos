@@ -5,10 +5,10 @@ However, if you like this theme, and if you want to ask for or \
 make improvements, don't hesitate to write to me!"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn65698"
+PV = "2026.226.1.3svn69742"
 
-RPM_NAME = "texlive-beamerthemeamurmaple-2023.209.1.2svn65698-54.1.noarch.rpm"
-RPM_HASH = "de8a655a517e3460ff03f4a23fe2573b6766e593b3961c911540d3d73a9d4fe9da267dfcb130b46255cbf51d4d28e96a365a7f8c66a5e32654fef04fdc081824"
+RPM_NAME = "texlive-beamerthemeamurmaple-2026.226.1.3svn69742-61.2.noarch.rpm"
+RPM_HASH = "555594154bcf1ff3984e0a511804dae090308b4bad5b95317c52159461dc9aa7403161303bb0d94c8ea7eed2549cb85bdd628f598aba262d9026052518a00bee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerthemeAmurmaple.sty \
@@ -21,6 +21,7 @@ findutils \
 grep \
 sed \
 tex-expl3.sty \
+tex-fontawesome5.sty \
 tex-iftex.sty \
 tex-luamesh.sty \
 tex-multicol.sty \

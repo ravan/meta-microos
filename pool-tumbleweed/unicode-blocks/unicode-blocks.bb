@@ -2,10 +2,10 @@ SUMMARY = "Unicode Blocks Chart"
 DESCRIPTION = "Blocks from the Unicode Character Database."
 LICENSE = "Unicode-DFS-2016"
 
-PV = "12.1.0"
+PV = "18.0.0"
 
-RPM_NAME = "unicode-blocks-12.1.0-1.10.noarch.rpm"
-RPM_HASH = "035792605279c797fd6f8398e52ba931ac1600096f54674960f4ec24a47a7109b4120b62fd6470e8d1571f2e5a1d5d5975b17dbc334cf94d30d3e9c6d9bef88c"
+RPM_NAME = "unicode-blocks-18.0.0-1.1.noarch.rpm"
+RPM_HASH = "567da68c7836a7497d36a764fa2326cd7472d6d76d762a9dc5bab640ee46c3f53462a94d9d0401fef47a1e4b01a42307e020975522a46f30e689a5cbf66c34ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unicode-blocks"

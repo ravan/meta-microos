@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "qtcurve-gtk2-1.9.0-6.18.aarch64.rpm"
-RPM_HASH = "371a8ddf0831d682cb1cf69d585dd5ea3ec71bd36bbfa5017bfc626670fa8631d04260cd3f8a9ca4550b90ff2ab42eb1fed6e921523dc064f9384880dfa49467"
+RPM_NAME = "qtcurve-gtk2-1.9.0-8.7.aarch64.rpm"
+RPM_HASH = "2a68466118b8bcb51100fb587eaaf15680b1138f735b84fc1fa190120de8a0a584ef516217452643ba765fdb17147693048238cd626baedfbe680f714cdb8f1c"
 
 RPROVIDES:${PN} += "libqtcurve.so \
 qtcurve-gtk2"

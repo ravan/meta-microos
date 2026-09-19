@@ -9,10 +9,10 @@ PostgreSQL server, which will in turn allow you to create and maintain \
 PostgreSQL databases."
 LICENSE = "PostgreSQL"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "postgresql-server-15-2.12.noarch.rpm"
-RPM_HASH = "782d3b4faeb483ed756fa705157ce71805abdf16dd56cde5667951e7ff5aee1a81a97cc9996bf8fb13a5200c27332d5352c6e94595ba903897c1c9bb5493cb11"
+RPM_NAME = "postgresql-server-18-3.4.noarch.rpm"
+RPM_HASH = "d94bfe6da5da7c58442bcb1d5cc424451b477239727a2ec0d8529130d07d77abff870537517b424f661ccd2c6117bc6b88e0db8f5653eecf1e86ff3b99c549cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-postgresql-server \
@@ -24,8 +24,8 @@ user-postgres"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 postgresql \
+postgresql-noarch \
 postgresql-server-implementation \
-systemd \
 sysuser-shadow"
 
 inherit rpm

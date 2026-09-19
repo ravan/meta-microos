@@ -2,12 +2,13 @@ SUMMARY = "Performance Co-Pilot run-time libraries"
 DESCRIPTION = "Performance Co-Pilot (PCP) run-time libraries"
 LICENSE = "LGPL-2.1+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "libpcp3-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "83ae7316f3defd8b164291171929d65e837f4ec1017fdd2ee4aed6caaea24579cac174fce98e137bef9e0f8030e669e41ebdb7719afb43229a88212e55d6e942"
+RPM_NAME = "libpcp3-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "2e78eb0da6d16f47e3a7a0e54b756bfba791b87dcef27662edd525c5e7682b83e01dc6a661227c63c52086c72bbdb902ad3ee9c479617f1a2f31ac515760aeb9"
 
-RPROVIDES:${PN} += "libpcp-pmda.so.3 \
+RPROVIDES:${PN} += "libpcp-fault.so.3 \
+libpcp-pmda.so.3 \
 libpcp.so.3 \
 libpcp3"
 
@@ -16,11 +17,10 @@ ld-linux-aarch64.so.1 \
 libavahi-client.so.3 \
 libavahi-common.so.3 \
 libc.so.6 \
+libcrypto.so.3 \
 libm.so.6 \
-libnspr4.so \
-libnss3.so \
 libsasl2.so.3 \
-libssl3.so \
+libssl.so.3 \
 libsystemd.so.0 \
 pcp-conf"
 

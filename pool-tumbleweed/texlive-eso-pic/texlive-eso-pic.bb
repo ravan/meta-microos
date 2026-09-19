@@ -5,10 +5,10 @@ positions. The grid option may be used to find the correct \
 places."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0asvn56658"
+PV = "2026.226.3.0dsvn77682"
 
-RPM_NAME = "texlive-eso-pic-2023.209.3.0asvn56658-53.1.noarch.rpm"
-RPM_HASH = "5625910834676d908850824cf2bc213919a9b3cfd15dde6b3eae7567e127cf252a8fa12c46f0c5b13a499e3e72b64c4de7851d4cc62374867772747f3f32ba06"
+RPM_NAME = "texlive-eso-pic-2026.226.3.0dsvn77682-59.2.noarch.rpm"
+RPM_HASH = "6eb7f3467f5792bf70473861ae261900c0052b6cc204086ea3d8526e7137c9b83e83221a530dbb75a44e8fef02e939920b57ce916960f1d7ef5e804823b78614"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eso-pic.sty \

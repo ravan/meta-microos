@@ -12,10 +12,10 @@ be configuring software with an autoconf-generated script; autoconf is \
 only required for the generation of the scripts, not their use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.71"
+PV = "2.73"
 
-RPM_NAME = "autoconf-2.71-2.4.noarch.rpm"
-RPM_HASH = "f19265c2f39dc32b5e84ba10d7b9e6b11fbd72f92dfc947544b971cbccfae9c94a84dce67b5c4508a43a783760d31d09d3cde5987f46adf43f301e5eee996170"
+RPM_NAME = "autoconf-2.73-1.2.noarch.rpm"
+RPM_HASH = "acb6c752405ec579fda568c56c0391f64e815f11ad14c7d272d48afbd4daf086bdfbe0bb8018887a2bcf729ab7e6fe0f37117e70d6a2d5d82534402246c1d741"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoconf \

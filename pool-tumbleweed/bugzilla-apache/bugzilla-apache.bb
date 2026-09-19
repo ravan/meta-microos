@@ -2,16 +2,18 @@ SUMMARY = "Apache configuration for bugzilla"
 DESCRIPTION = "This subpackage contains the Apache configuration files"
 LICENSE = "MPL-2.0"
 
-PV = "5.0.6"
+PV = "5.2"
 
-RPM_NAME = "bugzilla-apache-5.0.6-5.1.noarch.rpm"
-RPM_HASH = "6970aeadc8967068dbbde01c1bfcb308f96157fd2c0235158ea19963e93a9a18bc930805dcb6c835ae570c695d6a9349488e92d5aee760ede41f8d2821e2991e"
+RPM_NAME = "bugzilla-apache-5.2-1.6.noarch.rpm"
+RPM_HASH = "822b319b967f4dff05197f572fa4665f91d6dde5e341d63ab39585696eab5e1320d7593c4bdfc75818f7af4c69379b34f9318c67cb40249e255bb5fbc4deeaa8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bugzilla-apache \
 config-bugzilla-apache"
 
 RDEPENDS:${PN} += "apache2 \
-apache2-mod-perl"
+apache2-mod-perl \
+group-www \
+user-wwwrun"
 
 inherit rpm

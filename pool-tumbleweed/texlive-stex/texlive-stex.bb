@@ -1,19 +1,19 @@
-SUMMARY = "An Infrastructure for Semantic Preloading of LaTeX Documents"
+SUMMARY = "An infrastructure for semantic preloading of LaTeX documents"
 DESCRIPTION = "The sTeX package collection is a version of TeX/LaTeX that \
 allows to markup TeX/LaTeX documents semantically without \
 leaving the document format, essentially turning it into a \
 document format for mathematical knowledge management (MKM)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2.0svn64383"
+PV = "2026.226.4.0.0svn76825"
 
-RPM_NAME = "texlive-stex-2023.209.3.2.0svn64383-58.1.noarch.rpm"
-RPM_HASH = "95bef67dca504b3b9ee53331483b56e8632d042308a9c1ce3c3d8e8a81d6fb5ce98b4dcdb3c646b7d733f4cfd9e2de1e4b1f7908e59c241fca22f235751c79ef"
+RPM_NAME = "texlive-stex-2026.226.4.0.0svn76825-64.2.noarch.rpm"
+RPM_HASH = "6d89dc5eedc2daae7241b7f3854b978739a6a97dc4e606fb8a3230ef180b2e8a02b2373a67723efd217e93b8cd6ba084488e6c504fd0f90e159a8387c5254df0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerthemesTeX.sty \
 tex-document-structure-ngerman.ldf \
-tex-document-structure.sty \
+tex-hwexam-english.ldf \
 tex-hwexam-finnish.ldf \
 tex-hwexam-french.ldf \
 tex-hwexam-ngerman.ldf \
@@ -22,24 +22,25 @@ tex-hwexam.sty \
 tex-lststex.sty \
 tex-notesslides.cls \
 tex-notesslides.sty \
+tex-problem-english.ldf \
 tex-problem-finnish.ldf \
 tex-problem-french.ldf \
 tex-problem-ngerman.ldf \
 tex-problem-russian.ldf \
 tex-problem.sty \
 tex-rustex.sty \
-tex-sproof-finnish.ldf \
-tex-sproof-french.ldf \
-tex-sproof-ngerman.ldf \
-tex-sproof-russian.ldf \
 tex-stex-backend-latexml.cfg \
 tex-stex-backend-pdflatex.cfg \
 tex-stex-backend-rustex.cfg \
 tex-stex-backend-tex4ht.cfg \
+tex-stex-en.ldf \
+tex-stex-highlighting.sty \
 tex-stex-logo.sty \
-tex-stex-tikzinput.sty \
 tex-stex.cls \
 tex-stex.sty \
+tex-stexthm-english.ldf \
+tex-stexthm-finnish.ldf \
+tex-stexthm-ngerman.ldf \
 tex-stexthm.sty \
 tex-tikzinput.sty \
 texlive-stex"
@@ -50,32 +51,22 @@ ed \
 findutils \
 grep \
 sed \
-tex-a4wide.sty \
-tex-amssymb.sty \
 tex-amsthm.sty \
 tex-article.cls \
-tex-babel.sty \
 tex-beamer.cls \
 tex-beamerarticle.sty \
-tex-bookmark.sty \
-tex-comment.sty \
-tex-etoolbox.sty \
 tex-expl3.sty \
 tex-graphicx.sty \
-tex-hyperref.sty \
-tex-keyval.sty \
 tex-l3keys2e.sty \
 tex-listings.sty \
 tex-ltxcmds.sty \
 tex-marginnote.sty \
 tex-mdframed.sty \
 tex-pdfcomment.sty \
-tex-pgf.sty \
-tex-standalone.cls \
+tex-qrcode.sty \
 tex-standalone.sty \
 tex-thmtools.sty \
 tex-tikz.sty \
-tex-url.sty \
 tex-xcolor.sty \
 tex-xspace.sty \
 texlive \

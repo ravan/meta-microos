@@ -2,14 +2,15 @@ SUMMARY = "Translations for package messagelib"
 DESCRIPTION = "Provides translations for the 'messagelib' package."
 LICENSE = "GPL-2.0-only & GPL-3.0-only & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "messagelib-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "fda5ed3e2717fcb064947c4f522616ccfe655ebb681ad3cb7586df100a13f4fac23a89596bcf0955004518e4ffdbda640ed910786a8a4eec3caae50d6d3af5c8"
+RPM_NAME = "messagelib-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "62c84b341a2de4c5ecf4202634ceaa8ca335dde95d139734d35e4318baccc319022fa168f43f2eca937a4a018be2aa50f4c8f6c6f0313da36e9f3154d3363349"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-messagelib-af \
 locale-messagelib-ar \
+locale-messagelib-ast \
 locale-messagelib-be \
 locale-messagelib-bg \
 locale-messagelib-bn \

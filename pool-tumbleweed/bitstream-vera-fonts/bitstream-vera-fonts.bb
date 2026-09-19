@@ -4,8 +4,8 @@ LICENSE = "Bitstream-Vera"
 
 PV = "1.10"
 
-RPM_NAME = "bitstream-vera-fonts-1.10-316.2.noarch.rpm"
-RPM_HASH = "4b335d58c7e9980d60b5ba6b4ca394e00de4f06247322e98f6055b50f497de7023df0450223b5345c80aa1a11d025a70006cd6bc29d3f78c983b5a8f9d89e866"
+RPM_NAME = "bitstream-vera-fonts-1.10-316.10.noarch.rpm"
+RPM_HASH = "516bd688da4095b11ccbdb600bccd5cbcd0d82cb27fc96876e61eaf6c5f235eebce89f0b6e167d95d19c38b5891f0dff4a5b5597100226c91645d670a76c83b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bitstream-vera \

@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.16"
 
-RPM_NAME = "perl-Moose-Autobox-0.16-1.24.noarch.rpm"
-RPM_HASH = "d61f61057a825916a06db9760289553abd4f99cace73bdea4286ec5458561acff37b560a5115ec32505a3c01f3e2acee38b5976aaaafed00761ed4e32ca29a32"
+RPM_NAME = "perl-Moose-Autobox-0.16-1.38.noarch.rpm"
+RPM_HASH = "c3f76b5819a7f23677ffa1851c859581b707d6e9b03bf25502aeb0a31ee912669ef90757da53d0482df263edbe5c55b8864006869a425f4ae8395cd6683c6838"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Moose--Autobox \
@@ -28,7 +28,7 @@ perl-Moose--Autobox--Undef \
 perl-Moose--Autobox--Value \
 perl-Moose-Autobox"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-List--MoreUtils \
 perl-Moose \
 perl-Moose--Role \

@@ -5,10 +5,10 @@ This package contains an emperor plugin allowing for configuration of \
 applications (vassals) via ZeroMQ."
 LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "2.0.21"
+PV = "2.0.31"
 
-RPM_NAME = "uwsgi-emperor_zeromq-2.0.21-3.2.aarch64.rpm"
-RPM_HASH = "f5e347e3f3e3b785d2e0f72529a6b2051f84564e38cafbd1893e146c6dece2b0d779cc3a63d87bfc686f33a970feeb6687a33322ac5f9f2960b2cb948ad5b9f1"
+RPM_NAME = "uwsgi-emperor_zeromq-2.0.31-4.4.aarch64.rpm"
+RPM_HASH = "77bfdad7a332887bbf4c5d082120bf074f96f2e26fde8964a6383d1e37689a2317c9288103329fdfd4502eb7973c8f73a849f529f8693225d7fe65b894492199"
 
 RPROVIDES:${PN} += "uwsgi-emperor-zeromq"
 

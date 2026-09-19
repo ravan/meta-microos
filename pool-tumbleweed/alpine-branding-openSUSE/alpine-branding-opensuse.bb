@@ -7,8 +7,8 @@ LICENSE = "WTFPL"
 
 PV = "0"
 
-RPM_NAME = "alpine-branding-openSUSE-0-5.17.noarch.rpm"
-RPM_HASH = "4775e71dee174e208f2f299f400cf0b852fc1aab8cf899d9392e1cf32ef0f1159037c63e19991e37cac1d2d983879ace4feeed1e251a8f8de5450ffd4460f9ad"
+RPM_NAME = "alpine-branding-openSUSE-0-5.25.noarch.rpm"
+RPM_HASH = "168846d2aeabbd20734ccceedefe6a9c0a7b58ebab41d589d1831c93ffe695861b910f091b5febb1f36b09a96a93bb9ab62dc1731a2846b9f902310ca5241fa1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alpine-branding \

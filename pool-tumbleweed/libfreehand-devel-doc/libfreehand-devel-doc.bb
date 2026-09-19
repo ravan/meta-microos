@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.2"
 
-RPM_NAME = "libfreehand-devel-doc-0.1.2-2.19.noarch.rpm"
-RPM_HASH = "8674095613c572e6c2f9765196cb91e62cdf21817006386327bf284c84acf2963035944de015dfa355bc4b1ee827d04f05102de23122a5894cb57c3e2dd3cd11"
+RPM_NAME = "libfreehand-devel-doc-0.1.2-2.29.noarch.rpm"
+RPM_HASH = "a30d73e966a8b00779664fc023111fda1eabf10219e970518a1110cbaaea9c759dedda0fa654b4f634d007f0fdd92c3b5cd9c32ff5b989f10999546cb1a2e3c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfreehand-devel-doc"

@@ -3,12 +3,13 @@ DESCRIPTION = "The ocaml-ctypes-devel package contains libraries and signature f
 developing applications that use ocaml-ctypes."
 LICENSE = "ISC"
 
-PV = "0.21.0"
+PV = "0.24.0"
 
-RPM_NAME = "ocaml-ctypes-devel-0.21.0-1.1.aarch64.rpm"
-RPM_HASH = "46b96ca38cdce1bc42bfff3539f99ad370425f9990458bb642bc578360cf9ca546f187fea4a6e24e743167fa05b2d4f0e74db6f8533ee443722c8798f59988a0"
+RPM_NAME = "ocaml-ctypes-devel-0.24.0-2.3.aarch64.rpm"
+RPM_HASH = "ff16675c935235813d6dd44177495163cea0f3787029922799efa768674ad02ef6960ff5bd5d92afb8f04ae396371b19b70c191287131e7ba1798dc80b8ba286"
 
-RPROVIDES:${PN} += "ocaml-ComplexL \
+RPROVIDES:${PN} += "config-ocaml-ctypes-devel \
+ocaml-ComplexL \
 ocaml-Cstubs \
 ocaml-Cstubs-analysis \
 ocaml-Cstubs-c-language \
@@ -42,7 +43,6 @@ ocaml-Ctypes-std-views \
 ocaml-Ctypes-structs \
 ocaml-Ctypes-structs-computed \
 ocaml-Ctypes-top \
-ocaml-Ctypes-top--Ctypes-printers \
 ocaml-Ctypes-top--Install-ctypes-printers \
 ocaml-Ctypes-type-printing \
 ocaml-Ctypes-types \
@@ -93,7 +93,6 @@ ocamlx-Ctypes-std-views \
 ocamlx-Ctypes-structs \
 ocamlx-Ctypes-structs-computed \
 ocamlx-Ctypes-top \
-ocamlx-Ctypes-top--Ctypes-printers \
 ocamlx-Ctypes-top--Install-ctypes-printers \
 ocamlx-Ctypes-type-printing \
 ocamlx-Ctypes-value-printing \
@@ -108,20 +107,21 @@ ocamlx-PosixTypes"
 RDEPENDS:${PN} += "libc.so.6 \
 libffi.so.8 \
 ocaml-Asttypes \
-ocaml-Bigarray-compat \
 ocaml-Build-path-prefix-map \
 ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-CamlinternalOO \
 ocaml-Cmi-format \
+ocaml-Data-types \
 ocaml-Env \
+ocaml-Format-doc \
 ocaml-Ident \
 ocaml-Identifiable \
 ocaml-Load-path \
 ocaml-Location \
 ocaml-Longident \
 ocaml-Misc \
-ocaml-Mutex \
+ocaml-Oprint \
 ocaml-Outcometree \
 ocaml-Parsetree \
 ocaml-Path \
@@ -136,6 +136,7 @@ ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Callback \
 ocaml-Stdlib--Complex \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Gc \
@@ -147,14 +148,17 @@ ocaml-Stdlib--Lexing \
 ocaml-Stdlib--List \
 ocaml-Stdlib--ListLabels \
 ocaml-Stdlib--Map \
+ocaml-Stdlib--Mutex \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Oo \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
+ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--String \
+ocaml-Stdlib--Sys \
 ocaml-Stdlib--Uchar \
 ocaml-Stdlib--Weak \
 ocaml-Str \
@@ -163,18 +167,18 @@ ocaml-Thread \
 ocaml-Toploop \
 ocaml-Type-immediacy \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Unix \
 ocaml-Unsigned \
 ocaml-Warnings \
 ocaml-ctypes \
-ocamlfind-bigarray-compat \
+ocamlfind-bigarray \
 ocamlfind-compiler-libs \
+ocamlfind-ctypes \
 ocamlfind-integers \
 ocamlfind-str \
 ocamlfind-threads \
-ocamlx-Bigarray-compat \
 ocamlx-CamlinternalOO \
-ocamlx-Mutex \
 ocamlx-Signed \
 ocamlx-Stdlib \
 ocamlx-Stdlib--Array \
@@ -188,6 +192,7 @@ ocamlx-Stdlib--Int64 \
 ocamlx-Stdlib--Lexing \
 ocamlx-Stdlib--List \
 ocamlx-Stdlib--ListLabels \
+ocamlx-Stdlib--Mutex \
 ocamlx-Stdlib--Nativeint \
 ocamlx-Stdlib--Printexc \
 ocamlx-Stdlib--Printf \

@@ -6,10 +6,10 @@ the result of the specified query. \
 This package provides the check_dbi plugin."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-dbi-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "ab8b38e984163fc8ea9690441d590285f010f19b6c193d647853fe88ec5f03eb60f036d2314c571e536807e9eedef30f4991f4822402d8d21aeee28e4fdd7aef"
+RPM_NAME = "monitoring-plugins-dbi-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "c1fbe3cc30d9fca980dfbbba2c1f16345cf6261657187e90402cc697de312c931030cba9f376d03010b7fe444b9eb14fd15efcf017f2e113d6855150cd44fcaf"
 
 RPROVIDES:${PN} += "monitoring-plugins-dbi \
 nagios-plugins-dbi"

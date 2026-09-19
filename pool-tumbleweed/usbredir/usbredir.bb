@@ -5,10 +5,10 @@ attached. See usb-redirection-protocol.md for the description / definition \
 of this protocol."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.13.0"
+PV = "0.15.0"
 
-RPM_NAME = "usbredir-0.13.0-1.5.aarch64.rpm"
-RPM_HASH = "eeddf9c37a9b6e5d5eb9218f5a711556e35e92fb9872e8f555fff855b0e46d3c1155d93835ed130f788a40c3f702df17a5ba4e05ca271ec7f91a823dc7e33240"
+RPM_NAME = "usbredir-0.15.0-1.1.aarch64.rpm"
+RPM_HASH = "e2259958528e8663edd52ea8212ffd0996a1526f2ac8e6434dd4669fdc5841349827ff389207f658cb1de6a178a1875a6b44aa8f72f641d828073977211e679c"
 
 RPROVIDES:${PN} += "usbredir"
 

@@ -3,14 +3,15 @@ DESCRIPTION = "Performance Co-Pilot (PCP) front-end tools for exporting metric v
 in XML format."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-export-pcp2xml-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "bf44cf2c0fe8a9ff24a425160374c6f6a9b1e2429f7d312c56e5e6f590011ebe2386750bfc4dadb708e3e68c7817d27b29dc96d25dc88f889c1bee6d40891c06"
+RPM_NAME = "pcp-export-pcp2xml-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "de70b5068e04ef242939b201720f36c08d009da9292779e8bcedb7f6519d028cbbf23e3085206c9f52e2ed6081382da12918aa7f12092695f4758dc97ff42447"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-export-pcp2xml"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 libpcp3 \
 python3-pcp"
 

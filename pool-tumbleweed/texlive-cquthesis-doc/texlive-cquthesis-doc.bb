@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cquthesis"
 DESCRIPTION = "This package includes the documentation for texlive-cquthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.50svn55643"
+PV = "2026.226.1.50svn55643"
 
-RPM_NAME = "texlive-cquthesis-doc-2023.209.1.50svn55643-55.1.noarch.rpm"
-RPM_HASH = "8d7bbe1184f6b5c7b50bb24a0c66030d4c8ab4d6d6477884dc2dc2ba4773d5f56fa367bf4b4f07d95a93fe4f0d228fb44f5fb8ff80a890b9f46f19c6f0ecd2ff"
+RPM_NAME = "texlive-cquthesis-doc-2026.226.1.50svn55643-61.2.noarch.rpm"
+RPM_HASH = "45174bdbb9124cba8447f98c5a4138769684c543bf31026a2f98d4f9a2ad4f1ce41a79f9e117fd842cb24791c3d7c851a0d832b473e0c8a34fb2d80d1804b55e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-cquthesis-doc-zh \

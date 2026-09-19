@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-auto-pst-pdf"
 DESCRIPTION = "This package includes the documentation for texlive-auto-pst-pdf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn56596"
+PV = "2026.226.0.0.7svn77682"
 
-RPM_NAME = "texlive-auto-pst-pdf-doc-2023.209.0.0.7svn56596-54.1.noarch.rpm"
-RPM_HASH = "174b79d87130e970338d0d34abde4903f7751d460d3152aef004379aa43b69d6b1f5cd96786bd5b41bf50edcdb7a80aac6b79459613a04680e096518cb91b641"
+RPM_NAME = "texlive-auto-pst-pdf-doc-2026.226.0.0.7svn77682-60.2.noarch.rpm"
+RPM_HASH = "f8a658017712fdd280950ce8e5ec751eff194aed95e987d12496228e99760f55af36fe451504195e8cd8a1cc77438bb3700e254d2698914f21ff0564646b7b24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-auto-pst-pdf-doc-en \

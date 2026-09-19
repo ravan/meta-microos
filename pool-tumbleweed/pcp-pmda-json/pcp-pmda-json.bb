@@ -3,15 +3,16 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics output in JSON."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-json-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "fa067ab581c8173eec419e3ecf461f30296fbcc1cb8c15ed0cae08ffec344e1d34930d63dcc2c4cc1869c5436766f1d0ad08e39ff4c47b6bf3bbbc2a24f20332"
+RPM_NAME = "pcp-pmda-json-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "900d10861f86199d3fddc31afb1d8173e33cd06f12bd93ed9c77d8136414405588c728c7c8ba829109de0f539e973f4ec38f6bfde06665fe7d95e1cd9c5fda1e"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pcp-pmda-json \
 pcp-pmda-json"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 /usr/bin/sh \
 python3-jsonpointer \
 python3-pcp \

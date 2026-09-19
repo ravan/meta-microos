@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kalendarium"
 DESCRIPTION = "This package includes the documentation for texlive-kalendarium"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn48744"
+PV = "2026.226.1.0svn48744"
 
-RPM_NAME = "texlive-kalendarium-doc-2023.209.1.0svn48744-56.1.noarch.rpm"
-RPM_HASH = "f05f3f960aca88ceea0c5d174913a24ebc1016e47c10fa15edf33b87829961773e74ac91cbf2af95a42539b514d167fc95fa5fa7b013bc2b0990d23e693a6f6b"
+RPM_NAME = "texlive-kalendarium-doc-2026.226.1.0svn48744-63.2.noarch.rpm"
+RPM_HASH = "eda764c8b7bc122231a95555e021ad70620fbd1a5df9d36b3337204fef77f2c85379bb35406baec85c1e46b30ff58b7ee58b3b0a0397e2ae5fb4208f3c23119a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kalendarium-doc"

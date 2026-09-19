@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing sharutils"
 DESCRIPTION = "This package contains the symlinks to replace sharutils with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-sharutils-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "c35b7184201c0e6582b25765c5e9b292b0a5497f07e914aae285b8c75fcc50e62a78a7f7711d7fca1a860f4a456d8763ce34a211aa0a0a489716b61ba3306add"
+RPM_NAME = "busybox-sharutils-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "d78382f48a1429d0039655706abbf3ab7984e1d911bc195fc73403af6e540b85a84a0108555e891d887e3c81fbb539eced2d5c23addbcdf980fbf9cd7049ef00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-sharutils"

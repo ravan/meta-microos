@@ -3,10 +3,10 @@ DESCRIPTION = "The libxfce4ui library provides a number of widgets commonly used
 applications. This package provides the GTK 3 variant of libxfce4ui."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.4"
+PV = "4.20.2"
 
-RPM_NAME = "libxfce4ui-2-0-4.18.4-1.1.aarch64.rpm"
-RPM_HASH = "81ea9d8954898226f110e009b5fcb527429b0f79ae821ec76b2d4422dcffdc4ad7b6e00a40e4d738aca5e8e02a67de17fd07b5db2c3962f9bed4d5900443d49b"
+RPM_NAME = "libxfce4ui-2-0-4.20.2-1.5.aarch64.rpm"
+RPM_HASH = "9b889f02f96fb30832bb0a3d17d652c3ccffa86afad3ca1fadb227caf72312c3e7c340ca80f2370b6ecadbc60da989c95cb6642cf1172943c322bc96ab4f2059"
 
 RPROVIDES:${PN} += "libxfce4ui-2-0 \
 libxfce4ui-2.so.0"

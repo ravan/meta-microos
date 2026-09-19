@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.264.1"
 
-RPM_NAME = "libplacebo5-devel-5.264.1-1.1.aarch64.rpm"
-RPM_HASH = "9dd4de66bf88a7a0afc05c90a6db6650e5b7317bdb7fb7888dd1e14cb14119617bb7db2e20b724938a1e0d4c67a890854119bea9ffbb42eb879094681465aac4"
+RPM_NAME = "libplacebo5-devel-5.264.1-5.5.aarch64.rpm"
+RPM_HASH = "e313c7c2df96b3c501f05431961a97656c36b9fc9cb760cf325e9a1bfa34606c212c7b9fd030f7a68c7f29584385c64d75228360912d9da6b605fdbf16a46a5a"
 
 RPROVIDES:${PN} += "libplacebo5-devel \
 pkgconfig-libplacebo"

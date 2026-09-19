@@ -2,10 +2,10 @@ SUMMARY = "Gtk client and libraries for SPICE remote desktop servers"
 DESCRIPTION = "A Gtk client and libraries for SPICE remote desktop servers, (Linux and Windows)"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.42"
+PV = "0.43"
 
-RPM_NAME = "libspice-client-glib-2_0-8-0.42-2.1.aarch64.rpm"
-RPM_HASH = "f15cd0e8077dfd28fbd78583f5cd5e40670afc5a6a764da4d62a561ea7ce40d83decf768dc55d112f6d83cc900601c8ba8bbf58ec04dfefba1ec2da66d55424e"
+RPM_NAME = "libspice-client-glib-2_0-8-0.43-1.1.aarch64.rpm"
+RPM_HASH = "7be874c0ab167612bedaeb47cbf02fe768c2f13430b63cac3e5371a3d6c9291403f94b12ac8f37ab1cc53b874035bc3e107ff12aead48a5e2004d6361e31e4db"
 
 RPROVIDES:${PN} += "libspice-client-glib-2-0-8 \
 libspice-client-glib-2.0.so.8"
@@ -34,6 +34,7 @@ libsasl2.so.3 \
 libsoup-3.0.so.0 \
 libspice-client-glib-helper \
 libssl.so.3 \
+libudev.so.1 \
 libusb-1.0.so.0 \
 libusbredirhost.so.1 \
 libusbredirparser.so.1 \

@@ -6,10 +6,10 @@ Bspline curve interpolating a sequence of points. Graphical \
 output is created using PStricks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.62svn40685"
+PV = "2026.226.1.62svn40685"
 
-RPM_NAME = "texlive-pst-bspline-2023.209.1.62svn40685-53.1.noarch.rpm"
-RPM_HASH = "8149cf658c11eb1b4cd2bee34a1b70813c958408cb5624f9e7dd83ab1f7115bb21aaa80a45a1a9015a8154bf5852ede81f53cf48c35000f4315e44eb621dbbd9"
+RPM_NAME = "texlive-pst-bspline-2026.226.1.62svn40685-59.2.noarch.rpm"
+RPM_HASH = "730d1ccddf485cb19498a398fda022af290f756a16405743eae0157cfb08d1a8cdef7044e8ff79085f9282a4d3eae936e29b87fb72ba0d5044e04578fe3e4288"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-bspline.sty \

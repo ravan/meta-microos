@@ -46,15 +46,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.100"
 
-RPM_NAME = "perl-MooX-late-0.100-2.12.noarch.rpm"
-RPM_HASH = "2f6e6c7c236af4dcfa1921acf1e1d1d063a798b16ef4a6d8028279456082d1b3ad8804be897a1150011249d6e6c26dcc3b20f5306c7bfeee636dd41c56178f30"
+RPM_NAME = "perl-MooX-late-0.100-2.26.noarch.rpm"
+RPM_HASH = "df7f55978b0c651af67dc3916f807bae285388dabf2d74a6b50dd143b16a0c8438b721dc49cfe9913d29f14c7c258b19571edd090baf4c0ca0fd7405b1c9bb6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooX--late \
 perl-MooX--late--DefinitionContext \
 perl-MooX-late"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moo \
 perl-Sub--HandlesVia \
 perl-Type--Utils"

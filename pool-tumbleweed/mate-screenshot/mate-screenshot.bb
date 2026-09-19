@@ -4,10 +4,10 @@ mate-screenshot is a program which cantake desktop screenshots and \
 save them."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-screenshot-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "d891f7d8548fa8793298cfc1b9f88b8f2e43a204c578ef2d7bc3b620717e6606a50bb38d30efc1fc19f3cbea369457b8dd205a1d774026d030cb43190d053880"
+RPM_NAME = "mate-screenshot-1.28.0-2.6.aarch64.rpm"
+RPM_HASH = "07d3319d4e7dbdd447b667772c0c8d168e4ef6aa6c15a606b3d8208cc90d0a0e487871bc13bdc14f68823d283586630e5280c55e763b601fb47369bbc49e01ac"
 
 RPROVIDES:${PN} += "mate-screenshot"
 

@@ -2,10 +2,10 @@ SUMMARY = "wxWidgets SDL Plugin"
 DESCRIPTION = "SDL based sound plugin for the wxWidgets cross-platform GUI."
 LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
-PV = "3.2.2.1"
+PV = "3.2.8"
 
-RPM_NAME = "wxWidgets-3_2-plugin-sound_sdlu-3_2-3.2.2.1-3.1.aarch64.rpm"
-RPM_HASH = "f4de50c8a45186b19d5570ba3048f249e7e93af5e9626d51d06ea80cc025680e681055eb00a8959b41140fc8fbf35bd17efa2492fb2545827d6a9972c004cfbc"
+RPM_NAME = "wxWidgets-3_2-plugin-sound_sdlu-3_2-3.2.8-4.6.aarch64.rpm"
+RPM_HASH = "c62f72d954518cee879c93e3d647795e7cdfe5733e1ebdf313c8ec39b25e00523aa4504d2f3ee69373255dd488942b7c296416c84ed422ec1dc10b2446f25da4"
 
 RPROVIDES:${PN} += "wxWidgets-3-2-plugin-sound-sdlu-3-2"
 

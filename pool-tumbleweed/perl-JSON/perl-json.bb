@@ -16,15 +16,16 @@ migration from backend to backend should be reasonably easy. For details, \
 see each backend module you use."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "4.10"
+PV = "4.110.0"
 
-RPM_NAME = "perl-JSON-4.10-1.4.noarch.rpm"
-RPM_HASH = "e3e5d5e6edc5ffffbc76f32f70eb5af6aefbdf146cb03c275bf0a74b9304adfe985053f12743f6e8c7f98053650358b759c385a193c5db032fc388b99f370913"
+RPM_NAME = "perl-JSON-4.110.0-1.3.noarch.rpm"
+RPM_HASH = "85f38c1b793412105dc4c2d649d51b0f294cc300e107db072cdd468c1fd69e5339134bc49e71b32710fb35d9bff343e54cd13e29f8ce21ab72e593f6cb9be2da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-JSON \
 perl-JSON--Backend--PP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Test--More"
 
 inherit rpm

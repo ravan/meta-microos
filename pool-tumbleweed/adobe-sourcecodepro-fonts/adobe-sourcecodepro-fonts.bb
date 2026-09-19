@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.038"
 
-RPM_NAME = "adobe-sourcecodepro-fonts-2.038-1.4.noarch.rpm"
-RPM_HASH = "5384d8067d9eb52b935629cf4b5800e69691657fead27d835c8bcb6ce1326b72acc1b5a3da2ac4ac1794faf92a0867aea336e223622947ab5cca76cc9554f1bc"
+RPM_NAME = "adobe-sourcecodepro-fonts-2.038-1.12.noarch.rpm"
+RPM_HASH = "39316a766b0ea23b24d87eb8f7e8fdb5f7111d1631b602988f92a7d1a10827aded40740ad4b2f10f10f6fde917b611b7005159e2101004db7d218f3324cc6caa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "SourceCodePro-fonts \

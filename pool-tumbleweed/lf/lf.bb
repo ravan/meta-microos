@@ -3,10 +3,10 @@ DESCRIPTION = "lf (as in 'list files') is a terminal file manager written in Go 
 heavy inspiration from ranger file manager"
 LICENSE = "MIT"
 
-PV = "30+dd82949"
+PV = "34"
 
-RPM_NAME = "lf-30+dd82949-1.1.aarch64.rpm"
-RPM_HASH = "d6f859d57f2bbb776970ddf5dbf2d5224742cbd6d11ccc8782e047160d9a3eaa999ae31e916eeccd20ab5b9ee6a3e426247b928f5e0a9725d99377f2cc23a0a7"
+RPM_NAME = "lf-34-1.10.aarch64.rpm"
+RPM_HASH = "3b46a964ae8f0efee0d989c8ff22bb46469e50ebf0a5220b744298745ae15f4a1dd572722909e82b32806e85fc416a2e3b08e1ce3c4a5a262f849dd259063eab"
 
 RPROVIDES:${PN} += "lf"
 

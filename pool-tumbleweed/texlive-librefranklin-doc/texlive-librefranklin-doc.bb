@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-librefranklin"
 DESCRIPTION = "This package includes the documentation for texlive-librefranklin"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64441"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-librefranklin-doc-2023.209.svn64441-55.1.noarch.rpm"
-RPM_HASH = "72c4496797ae3d0458cc5b59bac11f231758b2e0499a2b4e1e563c52d6d8ef94e7222ed1d44e9dafbbfc66a7888f2d0346c8a97ce1b68a5ab4717a4a4b54a16a"
+RPM_NAME = "texlive-librefranklin-doc-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "b4008b74b5c8f731991c1622f6fab71b501ffbcb8bd287cd780bc50539ecc504a356d9186e45ea6c54730912c5dd5238a700fd5558d58b76e7e199ebf421da9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-librefranklin-doc"

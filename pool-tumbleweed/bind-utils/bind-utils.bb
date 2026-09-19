@@ -5,23 +5,21 @@ for the base 'bind' package. The Berkeley Internet \
 Name Domain (BIND) DNS server is found in the package named bind."
 LICENSE = "MPL-2.0"
 
-PV = "9.18.18"
+PV = "9.20.26"
 
-RPM_NAME = "bind-utils-9.18.18-1.1.aarch64.rpm"
-RPM_HASH = "5c59b075eadfe1d2d18d5b136eddf258bee887c3b72a99f8569a6b1d0655361e042013b3d2e7c0dfbad04f5f9b9261165c8e0453a2c0030077cc839fbffc66c2"
+RPM_NAME = "bind-utils-9.20.26-1.2.aarch64.rpm"
+RPM_HASH = "c8462fc75de83bf5097ec409290e37d05822386837ed9637ef025884a5fe2bf15cfd373c6af6bf5a60df826b415a9d581b243087d60e2f5dd9b7a2f8df8760c7"
 
 RPROVIDES:${PN} += "bind-utils \
 bind9-utils \
 bindutil \
 config-bind-utils \
 dns-utils \
-libbind9-9.18.18.so \
-libdns-9.18.18.so \
-libirs-9.18.18.so \
-libisc-9.18.18.so \
-libisccc-9.18.18.so \
-libisccfg-9.18.18.so \
-libns-9.18.18.so"
+libdns-9.20.26.so \
+libisc-9.20.26.so \
+libisccc-9.20.26.so \
+libisccfg-9.20.26.so \
+libns-9.20.26.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/bash \
@@ -34,13 +32,17 @@ libidn2.so.0 \
 libjemalloc.so.2 \
 libjson-c.so.5 \
 libkrb5.so.3 \
+libm.so.6 \
 libmaxminddb.so.0 \
 libnghttp2.so.14 \
 libprotobuf-c.so.1 \
 libssl.so.3 \
+liburcu-cds.so.8 \
+liburcu-common.so.8 \
+liburcu.so.8 \
 libuv.so.1 \
 libuv1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

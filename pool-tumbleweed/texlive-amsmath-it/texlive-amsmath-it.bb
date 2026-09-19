@@ -3,10 +3,10 @@ DESCRIPTION = "The documents are: diffs-m.txt of December 1999, and \
 amsmath.faq of March 2000."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn22930"
+PV = "2026.226.svn22930"
 
-RPM_NAME = "texlive-amsmath-it-2023.209.svn22930-55.1.noarch.rpm"
-RPM_HASH = "33c9dc2d790c19748a67c4f43c7baec5ef02dd91528050d6bb829d71c2b822ae6275a64f75fc8d40b9540213f9a0d8207ffe4bd942dceb4577d06d5aae63e40f"
+RPM_NAME = "texlive-amsmath-it-2026.226.svn22930-61.2.noarch.rpm"
+RPM_HASH = "77f4880dbc9c7aa61a885fa12a2f1802c9451082a150e295bf2c5f775a8dfe90cefac3f82c409815097991c12f41d3364b4b40c89bb185d640a00fed2d301fa8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amsmath-it"

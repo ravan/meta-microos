@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-oplotsymbl"
 DESCRIPTION = "This package includes the documentation for texlive-oplotsymbl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn44951"
+PV = "2026.226.1.4svn44951"
 
-RPM_NAME = "texlive-oplotsymbl-doc-2023.209.1.4svn44951-55.1.noarch.rpm"
-RPM_HASH = "69809d22d2aded59e20ebf9ff66552350461dc3ea17cc581895d978dcc0c274ac72918dc7d76bd88e9d3f7c6ab5a47996f93f685ca10e8d969ace51e1ec3e337"
+RPM_NAME = "texlive-oplotsymbl-doc-2026.226.1.4svn44951-61.2.noarch.rpm"
+RPM_HASH = "730d81aa196896a07ce60d07f2804d64ace59630a97f34144f269999aa9aa17d2f558fb0b4025a44f81c8eebb3452a6b77e99ba8365eb1f0cbfe441d676dc473"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-oplotsymbl-doc"

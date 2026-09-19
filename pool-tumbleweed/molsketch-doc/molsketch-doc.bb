@@ -4,10 +4,10 @@ DESCRIPTION = "2D molecular structures editor. \
 Help documentation for molsketch."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.0"
+PV = "0.8.4"
 
-RPM_NAME = "molsketch-doc-0.8.0-1.1.noarch.rpm"
-RPM_HASH = "6bf4993b52dd042da625ba9d58fee54104761ef83389814389233b5b55ff98c907aca2c8705383bfdcf9a15b95bd853fd2be302e7046a7262413411289c1d9d5"
+RPM_NAME = "molsketch-doc-0.8.4-1.1.noarch.rpm"
+RPM_HASH = "3486e7775a323b772d2e1ce74eb43a8db8aaf02ef7330bb25154586e903d0f6985b5f3386da51d0dd8ae0cbb8d3f98c4c1d0201fe3bd6209de7b9f554bcc9f02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "molsketch-doc"

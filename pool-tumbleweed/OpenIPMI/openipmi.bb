@@ -7,10 +7,10 @@ also includes the ipmicmd program, a program that can inject and \
 receive messages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.31"
+PV = "2.0.37.13+git.1181df8"
 
-RPM_NAME = "OpenIPMI-2.0.31-5.14.aarch64.rpm"
-RPM_HASH = "35b425e0e984daa91449e9e07f0762b1dc71795107064f01bbc4f7cd133a397c30d37fe831852648d87bca158b9b693701983b35f390659b5e84ab9931fc97b9"
+RPM_NAME = "OpenIPMI-2.0.37.13+git.1181df8-1.6.aarch64.rpm"
+RPM_HASH = "1790a83bae0acb7c31789ed886a342fbaad2411bcbd53fc3544d7879ff649798c867fc4b0ff6c67f749e9eb3f0d26eddd08f2bcbe9e2cd307bacdd22c89d3fb6"
 
 RPROVIDES:${PN} += "OpenIPMI \
 config-OpenIPMI \
@@ -67,9 +67,9 @@ libgdbm.so.6 \
 libglib-2.0.so.0 \
 libgthread-2.0.so.0 \
 libm.so.6 \
-libnetsnmp.so.40 \
+libnetsnmp.so.45 \
 libpopt.so.0 \
 libreadline.so.8 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain"
 
 PV = "0.99.14"
 
-RPM_NAME = "xine-ui-0.99.14-1.4.aarch64.rpm"
-RPM_HASH = "10e854606ebaf9e97237cb60dcfcc8cadb093e29a828f862e7b1a8fa2f7e0bce2e989df28ced0501685c55162c28ed2f96993ea5772cf7c46644bd62c315517d"
+RPM_NAME = "xine-ui-0.99.14-3.5.aarch64.rpm"
+RPM_HASH = "c9cc3393ecf8f550928079c643f7a2d98b37c66116259311b1efae537ab05c768eb26ba5d2bc0d05dcfde9c14e8e582fc8e402942477ab40606a8a2a946e0e18"
 
 RPROVIDES:${PN} += "xine-/usr/bin/xine \
 xine-ui"

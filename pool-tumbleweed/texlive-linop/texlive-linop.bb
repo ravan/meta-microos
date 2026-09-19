@@ -5,10 +5,10 @@ many-body physics, quantum theory, and linear algebra, in any \
 of the ways commonly in use."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn41304"
+PV = "2026.226.0.0.1svn41304"
 
-RPM_NAME = "texlive-linop-2023.209.0.0.1svn41304-55.1.noarch.rpm"
-RPM_HASH = "3c6d013f4f77619e9983af8a62c9fa6284190d3c023949570f02484c158d582822d43dcf99c7de67351c598890a8304845b1e16e99257ac3a7f31cd6f9b44105"
+RPM_NAME = "texlive-linop-2026.226.0.0.1svn41304-61.2.noarch.rpm"
+RPM_HASH = "3d4801112f52e11f3f31a84bb47c848d18130c3214a847cf14eba5d455c387782ba5c4ab45e648643a60306527b7622af2de8f6d03a3c9c11f66d099a69eb2b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-linop.sty \

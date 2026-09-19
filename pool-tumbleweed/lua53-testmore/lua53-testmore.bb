@@ -8,10 +8,10 @@ assertions. It allows a simple and efficient way to write tests \
 Errors could be fully checked with error_like()."
 LICENSE = "MIT"
 
-PV = "0.3.6+git2"
+PV = "0.3.7"
 
-RPM_NAME = "lua53-testmore-0.3.6+git2-2.1.noarch.rpm"
-RPM_HASH = "59a5ad26f2ff263b1146edb82ee88d24c6be136a3e6e34cec2b9be23168e294533b4844cd390009c67d2836a774c3081e4a5032e376c029e6ba192e153d52f69"
+RPM_NAME = "lua53-testmore-0.3.7-3.2.noarch.rpm"
+RPM_HASH = "73338ce81fd7cc80f7fa7661152fcaa1f97cfedda6ce8ec5d71db418a144cb6afd0ae9e636bcd4c80c5e70cbd5dbd5ba8d5943d023c0b28f6a60a6c5bba88ee2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-testmore"

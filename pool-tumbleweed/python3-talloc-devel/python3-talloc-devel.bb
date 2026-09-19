@@ -2,12 +2,12 @@ SUMMARY = "Developer tools for the Talloc library"
 DESCRIPTION = "Libraries and Header Files to Develop Programs with python3-talloc Support"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.4.0"
+PV = "2.4.4"
 
-RPM_NAME = "python3-talloc-devel-2.4.0-3.2.aarch64.rpm"
-RPM_HASH = "6d3565ed9956dad1435bf3179530c8f03cf81c9a10abe25956b7c92f6bbe0ea68ded493cba6fc6e50f9afecdf1bd1f0f2a2182a2151e0635324767f5e42707cc"
+RPM_NAME = "python3-talloc-devel-2.4.4-1.3.aarch64.rpm"
+RPM_HASH = "b1a341d4d0fcd18a93d24c590be448e384c0ae7a5e2086ec4e8f171e8882d0bec6d2ba9eee407cbbd2cb5ebaeb39d823d531e0c6d2f934c84dc813dd1e23458a"
 
-RPROVIDES:${PN} += "pkgconfig-pytalloc-util.cpython-311-aarch64-linux-gnu \
+RPROVIDES:${PN} += "pkgconfig-pytalloc-util.cpython-313-aarch64-linux-gnu \
 python3-talloc-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

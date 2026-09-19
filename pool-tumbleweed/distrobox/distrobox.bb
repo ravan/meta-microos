@@ -6,10 +6,10 @@ allowing sharing of the HOME directory of the user, external storage, \
 external USB devices and graphical apps (X11/Wayland), and audio."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.5.0.2"
+PV = "1.8.2.5"
 
-RPM_NAME = "distrobox-1.5.0.2-1.1.noarch.rpm"
-RPM_HASH = "3a44676a7f352170757afc34f7bd53a5b2d81d93be419373b720dc88fb220704819fec178d985c8abf2e538c65f7017dca20337e127844667a12300c051492d8"
+RPM_NAME = "distrobox-1.8.2.5-3.2.noarch.rpm"
+RPM_HASH = "e58befbf9e85389b0d6b56c32898c5ecb4533086cce9a232edbc4fbaf1b6035afff47c78d47650a0bd58c7596ff3b401eea2acf381b24101034192de4bc467d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "distrobox"
@@ -18,6 +18,7 @@ RDEPENDS:${PN} += "/usr/bin/basename \
 /usr/bin/find \
 /usr/bin/grep \
 /usr/bin/sed \
-/usr/bin/sh"
+/usr/bin/sh \
+distrobox-branding"
 
 inherit rpm

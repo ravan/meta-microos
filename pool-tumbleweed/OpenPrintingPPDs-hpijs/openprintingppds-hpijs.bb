@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & MIT"
 
 PV = "4.0.0.2"
 
-RPM_NAME = "OpenPrintingPPDs-hpijs-4.0.0.2-6.9.noarch.rpm"
-RPM_HASH = "92c813e1c90db5d5185f957b295bd46419113c02d0c1c6247b27c7a4c14037020cdbc672045f1b8b6c134bb05fe6f21a77d1fca082448fdb86dbbd7b426eb8b5"
+RPM_NAME = "OpenPrintingPPDs-hpijs-4.0.0.2-6.17.noarch.rpm"
+RPM_HASH = "bc028eb360785dc15278767e9862bc5361e017d847dc3c46e83be5d650e2924e402d248be62a78d47a43e3ecec188191e4d243b262e4a73b4662603ba51ada0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "OpenPrintingPPDs-hpijs \

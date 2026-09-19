@@ -9,24 +9,21 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-3006.0-4.1.aarch64.rpm"
-RPM_HASH = "558452d31652320c70d6650643fd584bb35039fb82ed1ea216e2cabbc469703f1ebd1aa497bb01fdf93d2e268622775fd2ad7bfdf2ef942e550e58f5f5ea1776"
+RPM_NAME = "salt-3006.0-70.1.aarch64.rpm"
+RPM_HASH = "163b9d192ae0adfc20257e04567b37ba0bba342c5b9c67ed38e276c334d5ad7bce179104a08664b99d2ea506017a6b1907db1519a20e259693d5b59d02705484"
 
-RPROVIDES:${PN} += "config-salt \
-salt"
+RPROVIDES:${PN} += "group-salt \
+salt \
+user-salt"
 
-RDEPENDS:${PN} += "/usr/bin/mkdir \
-/usr/bin/python3 \
-/usr/bin/sh \
-/usr/bin/touch \
+RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
 dbus-1 \
-fillup \
 iproute2 \
 logrotate \
 procps \
-python3-salt \
+salt-call \
 shadow"
 
 inherit rpm

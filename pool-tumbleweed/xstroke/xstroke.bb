@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "xstroke-0.6-253.1.aarch64.rpm"
-RPM_HASH = "b8db307102472f6caff0a7eeded36775e7b7d8d3a886ca4c289f38190e1ee9186eca8cfd7c4c407d0759f05eb4500bca204b0f46c28603fa64b4fab6cbc062c8"
+RPM_NAME = "xstroke-0.6-253.14.aarch64.rpm"
+RPM_HASH = "a575c7c57a3ac8159347f4ff8d89e3715a113903eb89f36a9dac424cb077bc3326a56f73d05140d3482f41ae395ccbb04ba7ef5e859bf4bfd8bf2dc828085bb3"
 
 RPROVIDES:${PN} += "config-xstroke \
 xstroke"

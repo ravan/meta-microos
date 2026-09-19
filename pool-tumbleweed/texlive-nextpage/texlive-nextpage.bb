@@ -5,10 +5,10 @@ optional argument whose content will be placed on any 'empty' \
 page generated."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn15878"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-nextpage-2023.209.1.1asvn15878-55.1.noarch.rpm"
-RPM_HASH = "7b2ed00c5acfe5028e65ab81fc03f7aeb4d588bc6e736877fc2ca7ae20df1c4c83932017678ec187612a1e0384cace9fa7767b1616181f922ed075073128ff6f"
+RPM_NAME = "texlive-nextpage-2026.226.1.1asvn77682-61.2.noarch.rpm"
+RPM_HASH = "347d38896e1694a03dfc735b077be1acd4827d2212c517b25cb0967181730a8285f6bf65ac0b40a536f0ac7f0bd75f2a3b1d8651a8312731ced20f0fbb433ef1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nextpage.sty \

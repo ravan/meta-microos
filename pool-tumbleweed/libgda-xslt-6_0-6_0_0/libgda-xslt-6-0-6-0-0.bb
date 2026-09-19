@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-xslt-6_0-6_0_0-6.0.0-6.8.aarch64.rpm"
-RPM_HASH = "d2bde632e9f0857f78178ff4eafd9a6a5a2dcd34c5ebca6e0c0527bb42158d3f080a9ce46c495456adf2b5d5b28a68b08d64ce4822f66ff936c228b63cd81a8b"
+RPM_NAME = "libgda-xslt-6_0-6_0_0-6.0.0-11.5.aarch64.rpm"
+RPM_HASH = "9c628c00ad175f5ae118cb58e2e434a213519901afc5b72e151267abc7d87b5d5b0e91fd2669ee76e6f796eecbc80d26708fb6236b9cb9e83cca124d7f1c469c"
 
 RPROVIDES:${PN} += "libgda-xslt-6-0-6-0-0 \
 libgda-xslt-6.0.so.6.0.0"
@@ -19,7 +19,7 @@ libc.so.6 \
 libgda-6.0.so.6.0.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxslt.so.1"
 
 inherit rpm

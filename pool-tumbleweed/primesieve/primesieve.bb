@@ -5,10 +5,10 @@ k-tuplets (twin primes, prime triplets, ...) up to 2^64 and find the \
 nth prime."
 LICENSE = "BSD-2-Clause"
 
-PV = "11.1"
+PV = "12.15"
 
-RPM_NAME = "primesieve-11.1-1.2.aarch64.rpm"
-RPM_HASH = "50b52e64dbac2f4dfc8368096105f6ceffb1b8853f5b7d583bd02f0c1f62136a5c941f24063bb92b0d7a533ca026f5f5a78e60bc33a76ff7abdbb6537c456d57"
+RPM_NAME = "primesieve-12.15-1.2.aarch64.rpm"
+RPM_HASH = "a327d2673750da0dbfe8b4b042f6d7fb076cc99c1503f2260fe8a384a4125f7ad7de2f6ee6603158108b8ec3b149c06050231b189fe709032376c0df2e309a67"
 
 RPROVIDES:${PN} += "primesieve"
 
@@ -16,7 +16,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libprimesieve.so.11 \
+libprimesieve.so.12 \
 libstdc++.so.6"
 
 inherit rpm

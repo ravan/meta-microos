@@ -2,10 +2,10 @@ SUMMARY = "Sane network server"
 DESCRIPTION = "Saned allows access to locally attached scanners over the network."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & SUSE-Public-Domain"
 
-PV = "1.2.1"
+PV = "1.3.1"
 
-RPM_NAME = "sane-saned-1.2.1-1.2.aarch64.rpm"
-RPM_HASH = "7b929c704c99805f363e921b24c083493e98425dd11601d7a5c357df52a243ce5c3b681523f64925a2378c9b3effe6923de1fdb494e66609b998bac41b1198fe"
+RPM_NAME = "sane-saned-1.3.1-3.11.aarch64.rpm"
+RPM_HASH = "240ab8f681965ac903b0c8fad071ec39818c7be2c92bccf28659caf86d2b9da8d9ac92a9a773940329f330689c77c258e7d30e173c92eeb33a88666f61e6fb07"
 
 RPROVIDES:${PN} += "config-sane-saned \
 sane-backends-/usr/sbin/saned \

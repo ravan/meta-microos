@@ -3,10 +3,10 @@ DESCRIPTION = "Provides OpenConnect support for Connman (Connection Manager). \
 OpenConnect is an open client for Cisco(TM) AnyConnect(TM) VPN."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.41"
+PV = "1.42"
 
-RPM_NAME = "connman-plugin-openconnect-1.41-4.8.aarch64.rpm"
-RPM_HASH = "0cf1cbf7425246086ff99045e5d8131e91823220e21b61efe19aa597996c1ece1cd7a9a4f8366bddfad027da0515f5034793a6fad390f9cf7b3ae9c45bde7f9f"
+RPM_NAME = "connman-plugin-openconnect-1.42-2.16.aarch64.rpm"
+RPM_HASH = "67df8beb78212a266c473dd3ef8377c0e571890412d163190a9051ebc427c9a007227c47d63ad4d4640bc60ea4240cd4aa13fc3191e5dc2cc2a34a19debe33cf"
 
 RPROVIDES:${PN} += "connman-plugin-openconnect"
 

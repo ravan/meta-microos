@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the menu selection component for YaST2 usin
 Qt toolkit."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "5.0.3"
 
-RPM_NAME = "yast2-control-center-qt-4.6.1-1.1.aarch64.rpm"
-RPM_HASH = "62bac94035e3ff6c08ee3f35286848e01b3a25f09ed30aa9a9614af3d19775de0c8a7d9c2c01207f63cccbaf06230dc566d553f01f7706ed474e3659a9d5b239"
+RPM_NAME = "yast2-control-center-qt-5.0.3-1.5.aarch64.rpm"
+RPM_HASH = "82ea9eeefd61edb9ee40caedd2b885207682c0d5804a9370b0fa534fad8318b308f51137c8648d410b2d5c50d76f1bb7c40f5b35b9a2130d38dd834219cddc78"
 
 RPROVIDES:${PN} += "yast2-control-center-/usr/lib/YaST2/bin/y2controlcenter \
 yast2-control-center-binary \

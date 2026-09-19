@@ -3,10 +3,10 @@ DESCRIPTION = "The libswresample library performs audio conversion between diffe
 sample rates, channel layout and channel formats."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "libswresample3_9-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "d8bde1642b89143f53913cb5c6c205d45ebc0563e8836834bfe101f7174553ef238695385d576cbafcea89fb0272e59f00190edd831d2d9462fd68dca10960d3"
+RPM_NAME = "libswresample3_9-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "6c20dc4b026c8c88b54887522dba661ab719d4bed51f8504601297b4d687efea8e9238cc378d8df85e6820f55bea0a65484915c682aa080f11f6618e113399e9"
 
 RPROVIDES:${PN} += "libswresample.so.3.9 \
 libswresample3-9"

@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for jetty-minimal"
 DESCRIPTION = "Javadoc for jetty-minimal."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.51"
+PV = "9.4.58"
 
-RPM_NAME = "jetty-minimal-javadoc-9.4.51-2.1.noarch.rpm"
-RPM_HASH = "bd01a2ef85691d21201428c53dc4bd43cf08c091e7fe4f8ea6289a7e43ee7da9f79fa1c6f3a4ca47b791296f881141b659d7ca25233a38ed03416a6151e5d757"
+RPM_NAME = "jetty-minimal-javadoc-9.4.58-5.1.noarch.rpm"
+RPM_HASH = "17f17070ef9fa8f81b13c302260093e34c9434da77052480fbfcda678b0a3c438a6716705450a593b9840a15469976421e1e5a3600ceae537a7f4fabcb180390"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-minimal-javadoc"

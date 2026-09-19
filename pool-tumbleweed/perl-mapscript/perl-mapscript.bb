@@ -3,10 +3,10 @@ DESCRIPTION = "The Perl/Mapscript extension provides full map customization capa
 within the Perl programming language."
 LICENSE = "MIT"
 
-PV = "8.0.0"
+PV = "8.6.6"
 
-RPM_NAME = "perl-mapscript-8.0.0-2.7.aarch64.rpm"
-RPM_HASH = "01ceedb92f9795504baa22b8c02e322e447b7b6d548bbfc37242a91d6591894932016fa03c30a3a89721b35f77048bbac92e88d70a5855d801ed0ed71d974bcd"
+RPM_NAME = "perl-mapscript-8.6.6-1.1.aarch64.rpm"
+RPM_HASH = "bfc64fa7eb42f8a7a8832d21baae9ec3a33b2a33b72016dd3741a3af54d5c9a97fac6aac5b63e02c7871bf86a9b56b05a6790633df975ad3cbd188223bb4ec2c"
 
 RPROVIDES:${PN} += "mapserver-perl \
 perl-mapscript \

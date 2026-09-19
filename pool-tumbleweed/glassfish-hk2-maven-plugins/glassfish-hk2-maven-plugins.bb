@@ -7,8 +7,8 @@ LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.5.0"
 
-RPM_NAME = "glassfish-hk2-maven-plugins-2.5.0-4.1.noarch.rpm"
-RPM_HASH = "89cc3e342c82d09b28cc0220ffd744e891d136e3dbcc895f7e637a5cc2233fa96eb713cfe14218ef86a6ab6a38a2311668b6ec3822d7d3b3d90f8d4ac1664b03"
+RPM_NAME = "glassfish-hk2-maven-plugins-2.5.0-11.6.noarch.rpm"
+RPM_HASH = "d9970c6bbd361611d3f5387551dada8e228ec2d0b50ac181c87276a6e12fcce7c8996f185ff0fa83ba9c0af1262aaf5e53ad6c46b1c2f038e698fb5d6c3fc0aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-hk2-inhabitant-generator \

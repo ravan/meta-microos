@@ -4,10 +4,10 @@ features a playlist, a full-screen mode, seek and volume controls, and \
 complete keyboard navigation."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "43.0"
+PV = "43.2+git402.b8d8108e0"
 
-RPM_NAME = "totem-43.0-2.4.aarch64.rpm"
-RPM_HASH = "00e75be9905941f69ce20cf65e9453b9a2e0608d12e98461b9de1a0df53cebc4d3ee17cbf2d36ba7b9780f9ff72cc235e1a7b522aca5ba684614967a5793814b"
+RPM_NAME = "totem-43.2+git402.b8d8108e0-2.3.aarch64.rpm"
+RPM_HASH = "d5287d46c783a8c650d3743558db4ac17988a1fcd6111ee1e740bc6e19f98271ed0594d696a81f7a8116bb9c5d782413fd6d10629bee82f51c7b82fd1ffaf415"
 
 RPROVIDES:${PN} += "libtotem.so.0 \
 totem \
@@ -19,7 +19,6 @@ gstreamer-plugins-good \
 gstreamer-plugins-good-gtk \
 iso-codes \
 ld-linux-aarch64.so.1 \
-libatk-1.0.so.0 \
 libc.so.6 \
 libcairo-gobject.so.2 \
 libcairo.so.2 \
@@ -42,9 +41,9 @@ libgtk-3.so.0 \
 libhandy-1.so.0 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libpeas-1.0.so.0 \
-libpeas-gtk-1.0.so.0 \
+libpeas-2.so.0 \
 libtotem-plparser.so.18 \
+totem-video-thumbnailer \
 typelib-Atk \
 typelib-GLib \
 typelib-GModule \

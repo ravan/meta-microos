@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-csbulletin"
 DESCRIPTION = "This package includes the documentation for texlive-csbulletin"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65250"
+PV = "2026.226.svn77112"
 
-RPM_NAME = "texlive-csbulletin-doc-2023.209.svn65250-55.1.noarch.rpm"
-RPM_HASH = "620ab142e117d1bc025a4ce3a30a22c6dadfac83cc5f3611dcbf0eb3ffa4efb29436ea5166ada608b7fbce181a11857774aba6b8af01456c5ca6cdc64ee0289a"
+RPM_NAME = "texlive-csbulletin-doc-2026.226.svn77112-61.2.noarch.rpm"
+RPM_HASH = "a2829e37aea5913aa25165a7a5899d6b502e1b109b97ee3c529753928ad54386d765723d2b5c06f0e64a093321cd6da95322a783fb4b02295c3c6514970d2e43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-csbulletin-doc-cs \

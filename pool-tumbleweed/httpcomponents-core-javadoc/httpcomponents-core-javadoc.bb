@@ -2,10 +2,10 @@ SUMMARY = "API documentation for httpcomponents-core"
 DESCRIPTION = "API documentation for httpcomponents-core."
 LICENSE = "Apache-2.0"
 
-PV = "4.4.13"
+PV = "4.4.14"
 
-RPM_NAME = "httpcomponents-core-javadoc-4.4.13-2.7.noarch.rpm"
-RPM_HASH = "b19aa93a45f605c2e5bf92c8d2412268ed3edf32f801d838fe009a8f7be871e63589b919c7f3f916f9d2e4e772e2a9f71f2d26ac6ffe5553fdc75288f266ea1b"
+RPM_NAME = "httpcomponents-core-javadoc-4.4.14-1.7.noarch.rpm"
+RPM_HASH = "b8fa3b16692b7bd896eba474bf6dccf8b591fbc3bf49f9f2f7d743433395b75e9106b06702c335c5c4a0296e29aaacf68ae4145eecb85fc493bdeeb1186a24a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-core-javadoc"

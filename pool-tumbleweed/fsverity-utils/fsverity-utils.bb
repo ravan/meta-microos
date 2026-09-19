@@ -8,10 +8,10 @@ fs-verity files, and sign files for use with fs-verity (among other \
 things). fsverity's functionality is divided among various subcommands."
 LICENSE = "MIT"
 
-PV = "1.5"
+PV = "1.7"
 
-RPM_NAME = "fsverity-utils-1.5-1.1.aarch64.rpm"
-RPM_HASH = "5376d7910b3d3730f51035e9650a5cdedf36f846b4e1c50113650fbc5cc81c2651b704c398a5a706b40ac336e34b91fb7c117a7cd157c01b188256edea386957"
+RPM_NAME = "fsverity-utils-1.7-1.3.aarch64.rpm"
+RPM_HASH = "2a5b6964c23e4799dd419f5544599937f0aaf77123466b72cc065912d0ea341f8a5010fe28fc158c90cc4a3bb5fca46da32359d7f3001e018a73c6d96b187090"
 
 RPROVIDES:${PN} += "fsverity-utils"
 

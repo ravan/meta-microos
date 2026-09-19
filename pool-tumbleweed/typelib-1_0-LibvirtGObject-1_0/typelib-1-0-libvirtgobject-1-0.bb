@@ -9,16 +9,17 @@ long term stable C API initially for the Xen paravirtualization but \
 should be able to integrate other virtualization mechanisms if needed"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.0.0"
+PV = "5.0.0"
 
-RPM_NAME = "typelib-1_0-LibvirtGObject-1_0-4.0.0-1.11.aarch64.rpm"
-RPM_HASH = "7536295c9e0b1f8341c3e61d68fd9ea57cdceb671b9d6765b58033ef96a86ebffa9afecaab7b57bb4d866260ee7fdc35a48e2513e0fd26f399399a8e4411234e"
+RPM_NAME = "typelib-1_0-LibvirtGObject-1_0-5.0.0-2.8.aarch64.rpm"
+RPM_HASH = "931077de51bb06c7982ec2f5d1618539fc7bba633d9bd5ba0344ae9408e3c50b04307651ded46747907a17d1c78de02f28db03b1f202330b3d148e155bca6b12"
 
 RPROVIDES:${PN} += "typelib-1-0-LibvirtGObject-1-0 \
 typelib-LibvirtGObject"
 
 RDEPENDS:${PN} += "libvirt-gobject-1.0.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio \
 typelib-LibvirtGConfig \

@@ -4,10 +4,10 @@ therefore supports all input devices that the kernel knows about, \
 including most mice, keyboards, tablets and touchscreens."
 LICENSE = "MIT"
 
-PV = "2.10.6"
+PV = "2.11.0"
 
-RPM_NAME = "xf86-input-evdev-2.10.6-3.11.aarch64.rpm"
-RPM_HASH = "0a374a7fad7fa14a086c2e4ae9987aacf401ab70aee4d243f2871fc49477210641e93f9e6dd749908d49d9208029b4fe55e274262c7e65bf49959795d6e592b1"
+RPM_NAME = "xf86-input-evdev-2.11.0-1.9.aarch64.rpm"
+RPM_HASH = "4717c5c7f904dbb041306582d188ed394fc930583704a817b62bb8e9cf2bb2ed222d1e24f49d9db7bd708430e6a6a3080a0a9cd8fad7669ae24036a6ae6b7f73"
 
 RPROVIDES:${PN} += "x11-input-mtrack \
 xf86-input-evdev"

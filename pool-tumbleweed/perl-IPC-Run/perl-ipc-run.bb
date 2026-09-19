@@ -8,10 +8,10 @@ Various redirection operators reminiscent of those seen on common Unix and \
 DOS command lines are provided."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "20220807.0"
+PV = "20260402.0.0"
 
-RPM_NAME = "perl-IPC-Run-20220807.0-1.4.noarch.rpm"
-RPM_HASH = "c98d7f6685026c0f25307652e478f95dfbee3609665a8ba812c9ef252b606f495020bba7bb2af39e9f1563809e1ee1affe40722376dfc7735200c2df7dd79009"
+RPM_NAME = "perl-IPC-Run-20260402.0.0-1.3.noarch.rpm"
+RPM_HASH = "6883277ee974d227110e67b18e5a5be6baa371068674057eb58e0feaad9a2369a47b3b3ca1354fac733fa9dca74c341fa594d3527438942833a4a420af632532"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IPC--Run \
@@ -24,7 +24,7 @@ perl-IPC--Run--Win32Process \
 perl-IPC--Run--Win32Pump \
 perl-IPC-Run"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IO--Pty"
 
 inherit rpm

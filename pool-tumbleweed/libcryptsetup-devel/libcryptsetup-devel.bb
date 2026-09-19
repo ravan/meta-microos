@@ -4,12 +4,12 @@ targets. It allows to set up targets to read cryptoloop compatible \
 volumes as well as LUKS formatted ones. The package additionally \
 includes support for automatically setting up encrypted volumes at boot \
 time via the config file /etc/crypttab."
-LICENSE = "LGPL-2.0-or-later & SUSE-GPL-2.0-with-openssl-exception"
+LICENSE = "LGPL-2.0-or-later-with-cryptsetup-OpenSSL-exception"
 
-PV = "2.6.1"
+PV = "2.8.7"
 
-RPM_NAME = "libcryptsetup-devel-2.6.1-3.1.aarch64.rpm"
-RPM_HASH = "be848d727cc30f925cbd5ca3d2346a5c0e89e3d2eed0c7862c0fe70d880a202731d1a10845fbf7bb641ec7d7abf4f989842179b89627f141453c7991520a5d6b"
+RPM_NAME = "libcryptsetup-devel-2.8.7-1.2.aarch64.rpm"
+RPM_HASH = "af4ee47249320d349477e66804cd99176ac2804e2c740aee0eaa7582d171bf574c9ac74983eaf388c376ed881085d8e26ce68ebece8d68f0c81f7c63aa558eb6"
 
 RPROVIDES:${PN} += "cryptsetup-devel \
 libcryptsetup-devel \
@@ -21,7 +21,6 @@ libcryptsetup12 \
 pkgconfig-blkid \
 pkgconfig-devmapper \
 pkgconfig-json-c \
-pkgconfig-libargon2 \
 pkgconfig-openssl \
 pkgconfig-uuid"
 

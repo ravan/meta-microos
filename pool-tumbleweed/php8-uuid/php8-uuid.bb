@@ -3,10 +3,10 @@ DESCRIPTION = "This extension provides functions to generate and analyse \
 universally unique identifiers (UUIDs)."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.2.0"
+PV = "1.3.0"
 
-RPM_NAME = "php8-uuid-1.2.0-2.5.aarch64.rpm"
-RPM_HASH = "573afc231a72b924a98abbe4c570348ae3d538a85e827cca1e94c41bce72f01d9cb3fe52c0c9d993cfae1d20227a1b23f3b2bba6eeb139f627586b6757e332f1"
+RPM_NAME = "php8-uuid-1.3.0-1.5.aarch64.rpm"
+RPM_HASH = "0849234ef2d70a406c98c58b37fbf0072ede1457a746d2b205ca2163b4316ea2253ee41785cfb074ec23f2ebc40a97c5570cd08b6b838bcbc87fd7073158f8bd"
 
 RPROVIDES:${PN} += "config-php8-uuid \
 php-uuid \

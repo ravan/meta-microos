@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9"
 
-RPM_NAME = "hivelytracker-1.9-1.2.aarch64.rpm"
-RPM_HASH = "ad070605cabd05f3e01b26fac5be5a7e97cba302db5e9fa7f30658db3d56054f39cd067c677d4a1145494adb3a1869c3f2cd8c8f9af990a0a3aac4eab3ea18c0"
+RPM_NAME = "hivelytracker-1.9-2.9.aarch64.rpm"
+RPM_HASH = "e427a9cc61a33623859260ad8bfc804b0d62ff494efe5f44bf6aa972a837bdebacd53b0049febbc3aca653853b6099366c2f1845c6c5ec9427aa48448da236e8"
 
 RPROVIDES:${PN} += "hivelytracker"
 

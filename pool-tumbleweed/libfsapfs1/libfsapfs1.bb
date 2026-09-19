@@ -1,11 +1,11 @@
-SUMMARY = "Library for access the Apple File System (APFS)"
-DESCRIPTION = "libfsapfs1 is a library for access the Apple File System (APFS)."
+SUMMARY = "Library for access to the Apple File System (APFS)"
+DESCRIPTION = "libfsapfs1 is a library for access to the Apple File System (APFS)."
 LICENSE = "LGPL-3.0-only"
 
-PV = "20230617"
+PV = "20240429"
 
-RPM_NAME = "libfsapfs1-20230617-2.1.aarch64.rpm"
-RPM_HASH = "c095436f6f79f953c57a7fcaa3b8697466f37334eb121b5590cf1cd7faa13069575688b97678a2ae4d30c46499d160799acbe766c28d4d02de24d8814acb275b"
+RPM_NAME = "libfsapfs1-20240429-2.21.aarch64.rpm"
+RPM_HASH = "f371fe40655e9324439a309d0ca97e23e325d569a2679e7103a2cb083e412b4b64b78e35610fb60323d2157f5d8e1c636d913abdaa22f9d660429c772e256cfe"
 
 RPROVIDES:${PN} += "libfsapfs.so.1 \
 libfsapfs1"

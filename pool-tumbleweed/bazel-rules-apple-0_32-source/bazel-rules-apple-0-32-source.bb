@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.32.0"
 
-RPM_NAME = "bazel-rules-apple-0_32-source-0.32.0-1.1.noarch.rpm"
-RPM_HASH = "6e417d8a6e99fdd0abd67f889225df4c270906b8a18031bb551d0aa6f436ec26b256c4084294fdf819d989d10741460271419b0ecab56a174a15433025921570"
+RPM_NAME = "bazel-rules-apple-0_32-source-0.32.0-1.9.noarch.rpm"
+RPM_HASH = "716b729b07d9bb9177e96f384df775e98d50c46a4a121e63bfe0729a310afd5e2c3a6f0948580b40b0b7da5747eab96684cf113706a2ab94d0183a664a324654"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-apple-0-32-source"

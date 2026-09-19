@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.9.3.1"
 
-RPM_NAME = "libgtkdatabox-devel-0.9.3.1-1.9.aarch64.rpm"
-RPM_HASH = "285ab9ad7ca4fa55d4f5cf89fcee16480e5a26e7dde235e3df24f724c9f6dfe7e6bbb70a60fdb975714b6ad1b4c7dbe25bc2466b513b3f479a1a8c7c5268cf11"
+RPM_NAME = "libgtkdatabox-devel-0.9.3.1-1.18.aarch64.rpm"
+RPM_HASH = "1d4cd9fd689bfa42ebf8690d4ae976a5aa1a513e7df8b65e37068585a7a1dcdb90012b24ad13adac99d9322606bbf63d79a6a572d9b81614aca0932279f2e21a"
 
 RPROVIDES:${PN} += "libgtkdatabox-devel \
 pkgconfig-gtkdatabox"

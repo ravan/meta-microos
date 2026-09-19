@@ -4,10 +4,10 @@ macros and Greek hyphenation patterns for the fonts' encoding \
 are also provided."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn28327"
+PV = "2026.226.svn28327"
 
-RPM_NAME = "texlive-greektex-2023.209.svn28327-54.2.noarch.rpm"
-RPM_HASH = "62876749d003d9ef009bf8140bebc47aab553be6a1c5fc67bfd8a0a63718562861bad5dc2eb368010fa908f5d8f93faa10923b3ef63f87986c5d822fde44a317"
+RPM_NAME = "texlive-greektex-2026.226.svn28327-60.4.noarch.rpm"
+RPM_HASH = "cca168ad9d98e636617c1860e16d55129c9c95dfde51b65c1fb61c899b13527bc8b20bbba6fa8bf99fcaca3e1d058668d7bfb78895becdc33704331becdc15e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-greektex.sty \

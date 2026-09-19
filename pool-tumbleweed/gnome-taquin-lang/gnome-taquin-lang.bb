@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.38.1"
 
-RPM_NAME = "gnome-taquin-lang-3.38.1-2.13.noarch.rpm"
-RPM_HASH = "a08eea16681c89432c6f6fba8dd9f8b9ccbb6a164575c075361bc99878fc625431a84cb47efdfb26d528070f2da9fcbc3315d0be58d625deaf67e962109395bf"
+RPM_NAME = "gnome-taquin-lang-3.38.1-2.24.noarch.rpm"
+RPM_HASH = "0a15b7cf1905f0d7482e08e6d6213cff5f3798c9b819930d0e6d7174464b5f69db438578f3087f7eabb30683d82dbfccd960b11330987d5d46553c035bc03129"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-taquin-lang \

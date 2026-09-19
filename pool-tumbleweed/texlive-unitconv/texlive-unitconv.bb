@@ -1,15 +1,15 @@
 SUMMARY = "Convert a length into one with another unit"
 DESCRIPTION = "This package defines two macros to convert a value with unit \
-into one with another unit. Supported are all TeX related \
-units, and also km and m. The output can be in scientic \
+into one with another unit. Supported are all TeX-related \
+units, and also km and m. The output can be in scientific \
 notation for large values. The package only works with \
 LuaLaTeX!"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn55060"
+PV = "2026.226.0.0.01svn76924"
 
-RPM_NAME = "texlive-unitconv-2023.209.0.0.01svn55060-54.1.noarch.rpm"
-RPM_HASH = "490bb60515b4219edf09c8865fcb22c745c1786443cc2bb617990cc28b987fdf3393e65aeae9cd86150c068b8bb883efd533ab8bdca1e723eebf6dc79e6c8344"
+RPM_NAME = "texlive-unitconv-2026.226.0.0.01svn76924-60.2.noarch.rpm"
+RPM_HASH = "557d30f50b430602ce023ce7f4408b9204f5ff44ead2656acead5bc956ad802eec966da3837ed2396607cd24f83186f63053fcb00270e6ce7e4060cd9b0e1cb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unitconv.sty \

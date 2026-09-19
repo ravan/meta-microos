@@ -2,21 +2,19 @@ SUMMARY = "A library for generating maximally-localized Wannier functions"
 DESCRIPTION = "Wannier90 is a library for generating maximally-localized Wannier functions and \
 using them to compute advanced electronic properties of materials with high \
 efficiency and accuracy."
-LICENSE = "GPL-2.0-only"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.1.0"
+PV = "4.0.2"
 
-RPM_NAME = "wannier90-openmpi5-3.1.0-2.5.aarch64.rpm"
-RPM_HASH = "b0796e71ff203ba15e7555b46b65e08c78f51c9efa7390e19918f8eb3b1a17de6c79b5cc0cd89e60ced3b8e7883dfd5d022279f4a103d7cad1c225fe4b0423e9"
+RPM_NAME = "wannier90-openmpi5-4.0.2-1.1.aarch64.rpm"
+RPM_HASH = "4849ee73a2c1d36db997b9cd2629d902a0079cc5187d0f627563a0f36ace5e66ba8382a6eb5b775598e8cb8c564aba61471ea8a9c9e1468bea96891d077f01a4"
 
 RPROVIDES:${PN} += "wannier90-openmpi5"
 
-RDEPENDS:${PN} += "/sbin/ldconfig \
-libblas.so.3 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgfortran.so.5 \
-liblapack.so.3 \
-libm.so.6 \
-libmpi-mpifh.so.40"
+libmpi-mpifh.so.40 \
+libwannier90-mpi.so.4"
 
 inherit rpm

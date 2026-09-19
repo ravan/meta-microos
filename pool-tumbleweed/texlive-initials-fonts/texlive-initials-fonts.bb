@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-initials"
 DESCRIPTION = "The  separated fonts package for texlive-initials"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54080"
+PV = "2026.226.svn54080"
 
-RPM_NAME = "texlive-initials-fonts-2023.209.svn54080-54.1.noarch.rpm"
-RPM_HASH = "d678ce2f9a1194c50c325d1d09c4346900cff54e1f782ec9c59a986efa41362d5a75a2c57ba7c16771778ea1242f34c39d1d84443868b9ce64b379ebf6040344"
+RPM_NAME = "texlive-initials-fonts-2026.226.svn54080-60.2.noarch.rpm"
+RPM_HASH = "fdb743fb16c2867cc5b9ac0c31b9938a50da9d65ae604dfd3a07fc184c9add40d3870d9b0e485f2f4f3ee3b913f682a75d787648af4c6830ce707d21d9a2b6fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-acorninitials \

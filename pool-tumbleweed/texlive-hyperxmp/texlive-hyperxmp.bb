@@ -20,10 +20,10 @@ documents; it is compatible with pdfLaTeX, XeLaTeX, \
 LaTeX+dvipdfm, and LaTeX+dvips+ps2pdf."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.11svn65980"
+PV = "2026.226.5.13svn77682"
 
-RPM_NAME = "texlive-hyperxmp-2023.209.5.11svn65980-54.1.noarch.rpm"
-RPM_HASH = "475988bad6d20c382786b2c37cbbd0ca4caf2cb76b390f1cb999bec3835863b2e9c4f641ff977374ddffed10c56289e9f874e5bec9ac3e329d87dcc5cf1ad808"
+RPM_NAME = "texlive-hyperxmp-2026.226.5.13svn77682-60.2.noarch.rpm"
+RPM_HASH = "9a6e4114ce9395fb0cfc5b256a4c31c1bfa1d11d59caa69cc8289cf9ccbc7e8b89aeef59d6fd5a50940ef0cdaa386e16541ce811d537be186d818e1999aaf9ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyperxmp.sty \

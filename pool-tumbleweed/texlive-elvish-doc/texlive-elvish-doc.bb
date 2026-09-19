@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-elvish"
 DESCRIPTION = "This package includes the documentation for texlive-elvish"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-elvish-doc-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "842cf5116a1579f17a7081ccea735077f70734043a983c2f5eef4491b1e72ee582406b087c56d9554397571b908e8b567e0f35153b11a30a595ed88cd5c4a191"
+RPM_NAME = "texlive-elvish-doc-2026.226.svn15878-61.4.noarch.rpm"
+RPM_HASH = "43addaee69b62113ee9b56dc1aca92c3661249670a999304a347094733eb2fe3e60ec3304885d98453140fb249960998c9e26705d4d65bc48eeadaa81420d48f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-elvish-doc"

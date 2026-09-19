@@ -6,10 +6,10 @@ It improves GtkTextView by implementing syntax highlighting and other \
 features typical of a source editor."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.8.0"
+PV = "5.20.0"
 
-RPM_NAME = "gtksourceview5-devel-5.8.0-1.2.aarch64.rpm"
-RPM_HASH = "837f88bcb2622b7a50ef2383ac24f4592d611b17b57dace460944fa30bd5bb8d1e1e5d0a08308a8688374be48341ca2b2dada442a79d78c827060e7194c76b7a"
+RPM_NAME = "gtksourceview5-devel-5.20.0-2.1.aarch64.rpm"
+RPM_HASH = "d0e25de412761b89d9508c4ad014d86580930ffdf93c5309a0c9487431a131039ab803f6dc159f4a8b547e42f9e7070c8a88f8628fa9d5713342e5d8df1a9d19"
 
 RPROVIDES:${PN} += "gtksourceview5-devel \
 pkgconfig-gtksourceview-5"

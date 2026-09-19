@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Lithuanian 
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-lit-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "8adcd94b93806f131ddb787cf9fb21a62d3e138f64a493a7040b6d1dadcd51b6ed445c06993a40484e2fc5410d9bf88920bcebd13eeb550528d68ba994b593c4"
+RPM_NAME = "tesseract-ocr-traineddata-lit-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "d8f74535e07a453399f8e8e22b5f38762cf2b5538dda961e20275279f57aa445af8ddd6f82f35fe466fe3abe8b67bbf3ed254677d0a4a73d33e5f5d6a7c9b15e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-lit \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-lt \
+tesseract-ocr-traineddata-lit \
 tesseract-ocr-traineddata-lithuanian \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-lithuanian"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

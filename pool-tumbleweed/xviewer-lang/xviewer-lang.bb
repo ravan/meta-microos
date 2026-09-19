@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xviewer"
 DESCRIPTION = "Provides translations for the 'xviewer' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.2.4"
+PV = "3.4.16"
 
-RPM_NAME = "xviewer-lang-3.2.4-1.8.noarch.rpm"
-RPM_HASH = "1195082c36cfdca4037800178ef56b85096983f43efd59b9a2908cf08cca1ce224cfb246b05bd930d54e7e5b3301e45956c793a74e72c42374ebcb0ff512b3fa"
+RPM_NAME = "xviewer-lang-3.4.16-2.3.noarch.rpm"
+RPM_HASH = "afdee66e322faef242cf36019aa3c265da3075903b12e811f3c3693040b12eb79c1660b469fd6d514361b65fd89399a6df1d510784d75985d995db58fd3831ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xviewer-af \
@@ -38,6 +38,7 @@ locale-xviewer-eu \
 locale-xviewer-fa \
 locale-xviewer-fi \
 locale-xviewer-fr \
+locale-xviewer-fr-CA \
 locale-xviewer-fur \
 locale-xviewer-ga \
 locale-xviewer-gd \

@@ -6,10 +6,10 @@ This package provides additional diagnostic tools (small helpers, \
 usually not needed)."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2306.0"
+PV = "8.2608.0"
 
-RPM_NAME = "rsyslog-diag-tools-8.2306.0-1.1.aarch64.rpm"
-RPM_HASH = "3ad0521e0a75336fa8087086dda6149ed3fa0b2d89d7a1a4391961d0e102de8b68f367b9e8c8cae02ac637c601377e8142500170feb28097aade4fdde95a89ce"
+RPM_NAME = "rsyslog-diag-tools-8.2608.0-1.1.aarch64.rpm"
+RPM_HASH = "cf5d8cd608b6c2343e3f5622c79a763c3844f8e7f64e13895631e1c4a6685b6764a5c19e853366282f9a1d92a25ac7bafbd0b225769bf9bc8cd2b23222cc80fa"
 
 RPROVIDES:${PN} += "rsyslog-diag-tools"
 

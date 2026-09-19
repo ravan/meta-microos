@@ -6,10 +6,10 @@ This package contains qtimageformats. \
 You need this package, if you want to compile programs with qtimageformats."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde9"
+PV = "5.15.19+kde2"
 
-RPM_NAME = "libqt5-qtimageformats-devel-5.15.10+kde9-1.1.aarch64.rpm"
-RPM_HASH = "886f08534f5f0e8bc6f6bcd40eefed36033a69c69c39ffbbb93546ccbd003787446984f1f64182d969c4e25a582835b1ef0d1491aa1eecee11b01f37e6252b0a"
+RPM_NAME = "libqt5-qtimageformats-devel-5.15.19+kde2-1.3.aarch64.rpm"
+RPM_HASH = "53622dc713d4af7c3e10df0d39fca6e89f5e31b7f3563904d2e085b000761238ca3afbcd80e82ad2cc4adb0b113b98d30b39684106be4cb3e552ddc5ba7bb4a3"
 
 RPROVIDES:${PN} += "libqt5-qtimageformats-devel"
 

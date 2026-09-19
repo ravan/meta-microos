@@ -12,13 +12,14 @@ for linear and asymptotic approximation of magnitude and phase \
 plots of any transfer function given poles, zeros, and gain."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.3svn65074"
+PV = "2026.226.3.0.3svn77390"
 
-RPM_NAME = "texlive-bodeplot-2023.209.1.1.3svn65074-53.1.noarch.rpm"
-RPM_HASH = "019fe3c3568b5227573e4b08a12128e41a55449cf396110cb3621cb390c1a578d76d53ec4f404b0fbfcd4d4f5a7bde308e9db4a264bedffe45244e61e0a072da"
+RPM_NAME = "texlive-bodeplot-2026.226.3.0.3svn77390-59.2.noarch.rpm"
+RPM_HASH = "f84eb5d1a0720a7f6603a5b24b35c3dfb8afcbebfe3d783f4741d26b1e41963246413860a998a0180aaa4d026457548efd9f1accf0b788fca2070fa02fc72b4b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-bodeplot.sty \
+RPROVIDES:${PN} += "tex-bodeplot-2024-02-06.sty \
+tex-bodeplot.sty \
 texlive-bodeplot"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -27,10 +28,10 @@ ed \
 findutils \
 grep \
 sed \
-tex-environ.sty \
 tex-ifplatform.sty \
 tex-pdftexcmds.sty \
 tex-pgfplots.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

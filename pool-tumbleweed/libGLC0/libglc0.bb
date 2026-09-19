@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "libGLC0-0.7.2-3.7.aarch64.rpm"
-RPM_HASH = "f357d9b136d42fae921649a7c344b9230167710694b69d9525ed3baaba7984b22ebd8076d080a291448b21b44982bd26e61bc65609c365b2f0e3a8dc8c41b1fa"
+RPM_NAME = "libGLC0-0.7.2-5.3.aarch64.rpm"
+RPM_HASH = "eca009bfb852130141a94f4f2d6c4b249136f6cb1507c4e281e14128771c8aa7135045477e58ee2a1e02220199ae170292b1e606f72866cb62c7488ee574408d"
 
 RPROVIDES:${PN} += "libGLC.so.0 \
 libGLC0"
@@ -16,6 +16,7 @@ libGLC0"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
+libGLEW.so.2.3 \
 libGLU.so.1 \
 libc.so.6 \
 libfontconfig.so.1 \

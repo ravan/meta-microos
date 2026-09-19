@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "CC-BY-SA-3.0 & LGPL-2.0-only & LGPL-3.0-only & OLDAP-2.8 & GFDL-1.1-only & GFDL-1.3-only"
 
-PV = "3.48.4"
+PV = "3.60.2"
 
-RPM_NAME = "evolution-devel-3.48.4-1.1.aarch64.rpm"
-RPM_HASH = "8697fbe34af8699920f8c8a0d91a262de637fc0658a045140ed2abfafe635100bd16bc5698b8ed0e882c0f7ebf1df32ede2d4adfb3bba933bdccdb75f51d3b72"
+RPM_NAME = "evolution-devel-3.60.2-1.2.aarch64.rpm"
+RPM_HASH = "a70bec043725ee680af78da8c2a72c506a9c178c8468d7e534e896b15ab10b9d072ecfa923d6ce67a6be4ddce34740c30341e62eff658121e45b18164dff922f"
 
 RPROVIDES:${PN} += "evolution-devel \
 evolution2-devel \

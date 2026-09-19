@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "libGLC-devel-0.7.2-3.7.aarch64.rpm"
-RPM_HASH = "8c8ee6271be4328979837709bf84ca7013a99eb02eac61f9577c736992ccd10b6715905e7d160b649f76e37ee87d65452ca2235f75e12422621bf2de63a3206c"
+RPM_NAME = "libGLC-devel-0.7.2-5.3.aarch64.rpm"
+RPM_HASH = "555b81dc2882b5fce4d640ce7f42ba381118549c65e99484520cada90fed4ecd58bbad5ed0c1bcebf6e99b89757070db924104c84132af0f642a41cee712c03c"
 
 RPROVIDES:${PN} += "libGLC-devel \
 pkgconfig-quesoglc"

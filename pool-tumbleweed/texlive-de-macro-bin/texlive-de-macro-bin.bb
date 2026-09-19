@@ -2,10 +2,10 @@ SUMMARY = "Binary files of de-macro"
 DESCRIPTION = "Binary files of de-macro"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn17399"
+PV = "2026.20260301.svn17399"
 
-RPM_NAME = "texlive-de-macro-bin-2023.20230311.svn17399-93.2.aarch64.rpm"
-RPM_HASH = "f96c1a2e10a658c17aa3880202eb827ee9efd0009f0fbf40b0e8da5d560ee2035a87a9c6b6cf8ccac49316fa24e5102041eb4bfd5b8b1bb64fbe8fed2ee29b18"
+RPM_NAME = "texlive-de-macro-bin-2026.20260301.svn17399-120.4.aarch64.rpm"
+RPM_HASH = "65d062efc87900b474f38e13b3d493d757ad435dd2c3bc27892773694ba5eb2b5b05fdea75597e48e2bdb5d747bc3a36fe5fc9ff66ecdda978b5872f19598447"
 
 RPROVIDES:${PN} += "texlive-de-macro-bin"
 

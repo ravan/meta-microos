@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.1-only"
 
 PV = "5.2.8"
 
-RPM_NAME = "shorewall-docs-5.2.8-5.2.noarch.rpm"
-RPM_HASH = "a85d61dfd8dd6fa68e0c3f7979553151f6240adbe190cd3553ad1eb4f82272ecf9268673a8a89c5a2710d3317e1b6825fe16d0d0b187b16f15e331bfd695a5f1"
+RPM_NAME = "shorewall-docs-5.2.8-6.13.noarch.rpm"
+RPM_HASH = "b131449236e287e631bbece9b58ad0ce21c65bc303aea4d084acc91a3632dbd08c27e30eb0fcfc1e2882fd697936ece0d949d4611ff5e4efc8739bbf40e8c7d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "shorewall-docs"

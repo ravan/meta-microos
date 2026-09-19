@@ -6,10 +6,10 @@ ranging from small one-off projects to complete application suites. \
 This package provides an input method for Broadway."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.38"
+PV = "3.24.52+git59.b30343717d"
 
-RPM_NAME = "gtk3-immodule-broadway-3.24.38-2.1.aarch64.rpm"
-RPM_HASH = "5b40fa5e67db90a03f2852a0dc2e57a24a970f168793d5004cb463571db8411ff11ff61368c1247d43c56adaefe784215f33eec82311ca1fe850b9038c1a616c"
+RPM_NAME = "gtk3-immodule-broadway-3.24.52+git59.b30343717d-1.1.aarch64.rpm"
+RPM_HASH = "3c5101804401a236e80513b29f9903e3c0e916a001866249b65aa0bd294d6b2cd625d898bc8a905eb0d83009c6fc23cf063b6f91cee2576e9d3f4163ce797eee"
 
 RPROVIDES:${PN} += "gtk3-immodule-broadway"
 

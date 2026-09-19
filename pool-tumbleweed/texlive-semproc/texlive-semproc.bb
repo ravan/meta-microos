@@ -10,10 +10,10 @@ each talk showing the sections and subsections of the \
 respective talk."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn37568"
+PV = "2026.226.0.0.1svn37568"
 
-RPM_NAME = "texlive-semproc-2023.209.0.0.1svn37568-54.1.noarch.rpm"
-RPM_HASH = "547d7b323c522eabffcdb5243001868d0128980acd885ed64c8de19c0f84d9b518e66b7a5454f1eebcef02be1c1a4286ad1a8b1cbe9c1919d8813fb117aa158b"
+RPM_NAME = "texlive-semproc-2026.226.0.0.1svn37568-60.2.noarch.rpm"
+RPM_HASH = "66fb9a5edc8c50e530ec8eb9fb8c5527aacf4f11616ce950e90c6282419cf2cbc5c532b7a38a89a73da33446a462d7b34d4d98d2ef2d3a5fb5c775741b52bd6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-semproc.cls \

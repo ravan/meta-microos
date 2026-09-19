@@ -2,14 +2,15 @@ SUMMARY = "GNOME Tour & Greeter"
 DESCRIPTION = "A guided tour and greeter for GNOME."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "50.0.openSUSE+git20260413.334ffbd"
 
-RPM_NAME = "gnome-tour-44.0-2.2.aarch64.rpm"
-RPM_HASH = "81f30803aecdf704b6ea204402ea290e7226de85e34291017042b277ab131860035725e1831cf4e21c39d4139717d2398170daf17296288a67578f004eed9f1c"
+RPM_NAME = "gnome-tour-50.0.openSUSE+git20260413.334ffbd-1.3.aarch64.rpm"
+RPM_HASH = "2d41064bd4c474e9fe94db83e04dfd5206b527a3baf8051c9b69eca8704163416c93c5bbd3ca03a90713798c86875f96d27e2ad96e12cdf53eed3e5eb20c31d5"
 
 RPROVIDES:${PN} += "gnome-tour"
 
-RDEPENDS:${PN} += "libadwaita-1.so.0 \
+RDEPENDS:${PN} += "gnome-tour-data \
+libadwaita-1.so.0 \
 libc.so.6 \
 libcairo.so.2 \
 libgcc-s.so.1 \

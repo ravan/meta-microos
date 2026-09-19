@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for plexus-io"
 DESCRIPTION = "API documentation for plexus-io."
 LICENSE = "Apache-2.0"
 
-PV = "3.4.1"
+PV = "3.6.0"
 
-RPM_NAME = "plexus-io-javadoc-3.4.1-1.1.noarch.rpm"
-RPM_HASH = "00e40483452e93488d068e7e949d16a615fb992ba2d7265cc56ee971dd4d9f873043cdd294a385eceb61a3df521e5090d4ca2b776f2be5d4b6102a1a1a440ebb"
+RPM_NAME = "plexus-io-javadoc-3.6.0-1.3.noarch.rpm"
+RPM_HASH = "7572f0d96ff0e81b7a8cb781b5e7229418aad0dc64f8b679be3dc6ab91ad6e4b1e759b1b3b19d6d9e0b68d06b6894b887e2abf3fda8e9cb77a3b0ced1998dd69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-io-javadoc"

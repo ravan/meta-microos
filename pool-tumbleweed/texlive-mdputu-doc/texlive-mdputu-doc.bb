@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mdputu"
 DESCRIPTION = "This package includes the documentation for texlive-mdputu"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2svn20298"
+PV = "2026.226.1.2svn20298"
 
-RPM_NAME = "texlive-mdputu-doc-2023.208.1.2svn20298-53.1.noarch.rpm"
-RPM_HASH = "cdb230e683a80f531ecbe66f009b1727574f0e2f11b366a6dbd837d1b1a75f06d90c3e3fcce7597da164ca25ff6409c0eab0311cc4deefa476b1ce44b2c65b46"
+RPM_NAME = "texlive-mdputu-doc-2026.226.1.2svn20298-59.2.noarch.rpm"
+RPM_HASH = "6cdc3ce5b878275b37c5d0aa7a3e4a1d2ccb8b7776c12a74b30267e5f1207ce6a1cb875c9b3e3e9801a0132d6b4c0828352a56e1861ce71e7aff862ebe55e3df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mdputu-doc"

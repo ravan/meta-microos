@@ -8,10 +8,10 @@ Included in this package is: \
 - cursor: port of libxcursor"
 LICENSE = "MIT"
 
-PV = "0.1.4"
+PV = "0.1.6"
 
-RPM_NAME = "libxcb-cursor0-0.1.4-1.4.aarch64.rpm"
-RPM_HASH = "aa4f05b80e05dc1a9ac77c7f668140a73d19a8a45f894a29055edcfb67113c90255ee8035951867b32959c1b5685ca8bd4d3b3d760fda3d54b892439ece7530c"
+RPM_NAME = "libxcb-cursor0-0.1.6-1.5.aarch64.rpm"
+RPM_HASH = "b8ca252d0b7290cc6a9631f67c4823a11450b7c1632cee48725f6fb2d83d54eb56d353982c5ac206b7bdc5acd2c6ea4ec4ad547cc3f3ee5ba0722e6daf3e38e7"
 
 RPROVIDES:${PN} += "libxcb-cursor.so.0 \
 libxcb-cursor0"

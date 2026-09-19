@@ -8,10 +8,10 @@ and cron.monthly.  Scripts and programs that are located there are \
 started automatically."
 LICENSE = "BSD-3-Clause & GPL-2.0-only & MIT"
 
-PV = "1.6.1"
+PV = "1.7.2"
 
-RPM_NAME = "cronie-1.6.1-91.4.aarch64.rpm"
-RPM_HASH = "a5590e5a120b38cbdecf118caba035f25ed7b1488ec09115d942b35bdd0dc5a07327421be3b239c8659502a372fce3808241cddd475c47ad283124ef16aa35bf"
+RPM_NAME = "cronie-1.7.2-100.3.aarch64.rpm"
+RPM_HASH = "06436f5b35db140f09d506763a09d692d5280c7a6bae14e653a60f0dbda29bdbf8f9ea62c4b2ac4169f512c1d9feabfe425b1b1bfcae9ca77f9e0a2eca751162"
 
 RPROVIDES:${PN} += "config-cronie \
 cronie"

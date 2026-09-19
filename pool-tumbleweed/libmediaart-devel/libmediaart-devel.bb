@@ -3,10 +3,10 @@ DESCRIPTION = "The libmediaart library is the foundation for media art caching, 
 extraction and lookup for applications on the desktop."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.9.6"
+PV = "1.9.7"
 
-RPM_NAME = "libmediaart-devel-1.9.6-1.4.aarch64.rpm"
-RPM_HASH = "66e49ca0e131fb472f988edcf3c89a3818c5b59842940772745f97fac6d7703af14af43750353555b6210cc528748e0f9c931280c9888dc943592939d16706c9"
+RPM_NAME = "libmediaart-devel-1.9.7-1.8.aarch64.rpm"
+RPM_HASH = "dab207291fd0ae99412d19342c8a097e3dbf732a07925c6fbc3b63f9e333251f6562f1414b4b9e5bd746a71b636a52882e76558813f1d62d73462ceeedb589b1"
 
 RPROVIDES:${PN} += "libmediaart-devel \
 pkgconfig-libmediaart-2.0"

@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libwrc."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230318"
+PV = "20260705"
 
-RPM_NAME = "libwrc-devel-20230318-2.1.aarch64.rpm"
-RPM_HASH = "28ee368492d0cb0fa8b7e9c635f7349f9ea7aa827f3ef5e8519534925835db9ba6e4af2e445666b4ce8412a6d3d989767e1ebed2d70bc8c4c202c34fbcceb76c"
+RPM_NAME = "libwrc-devel-20260705-1.2.aarch64.rpm"
+RPM_HASH = "9bc9367f2e9304e5a96c62f63bf7a24b8b5dd1e6ebd1f1eb005e8267f4f12e044c20253c0766dfe2d2f073c32834a7f3efcf8183ef64eb79ecc7c1d89e57a2ff"
 
 RPROVIDES:${PN} += "libwrc-devel \
 pkgconfig-libwrc"

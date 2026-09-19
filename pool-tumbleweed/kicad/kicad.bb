@@ -10,13 +10,16 @@ KiCad includes a project manager and four main independent software tools: \
 - Cvpcb: footprint selector for components association."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later"
 
-PV = "7.0.6"
+PV = "10.0.6"
 
-RPM_NAME = "kicad-7.0.6-1.1.aarch64.rpm"
-RPM_HASH = "08b773c318b67b149b597172921f305e0c5506e07c9abbe68b30c859b280ce96ed423b462c9d2b0325c21b19b2032b69c152a664754fb66dd155cb41e3779ca5"
+RPM_NAME = "kicad-10.0.6-1.2.aarch64.rpm"
+RPM_HASH = "e9222ff21b1842a7db238f5872e3ab1377e06e22cb3550b3ef218f4d4c4feac3fff899dbe09c2cd75a21228a3e47744bf4bb2c61069dc8431c9872bca5d64a62"
 
 RPROVIDES:${PN} += "kicad \
+libkiapi.so.10.0.6 \
 libkicad-3dsg.so.2.0.0 \
+libkicommon.so.10.0.6 \
+libkigal.so.10.0.6 \
 libs3d-plugin-idf.so \
 libs3d-plugin-oce.so \
 libs3d-plugin-vrml.so"
@@ -25,24 +28,31 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 kicad-footprints \
 kicad-symbols \
 ld-linux-aarch64.so.1 \
-libGL.so.1 \
-libGLEW.so.2.2 \
 libGLU.so.1 \
-libTKBO.so.7.7 \
-libTKBRep.so.7.7 \
-libTKCDF.so.7.7 \
-libTKIGES.so.7.7 \
-libTKLCAF.so.7.7 \
-libTKMath.so.7.7 \
-libTKMesh.so.7.7 \
-libTKPrim.so.7.7 \
-libTKSTEP.so.7.7 \
-libTKTopAlgo.so.7.7 \
-libTKXCAF.so.7.7 \
-libTKXDEIGES.so.7.7 \
-libTKXDESTEP.so.7.7 \
-libTKXSBase.so.7.7 \
-libTKernel.so.7.7 \
+libTKBO.so.7.9.3 \
+libTKBRep.so.7.9.3 \
+libTKCDF.so.7.9.3 \
+libTKDEGLTF.so.7.9.3 \
+libTKDEIGES.so.7.9.3 \
+libTKDEPLY.so.7.9.3 \
+libTKDESTEP.so.7.9.3 \
+libTKDESTL.so.7.9.3 \
+libTKDEVRML.so.7.9.3 \
+libTKG3d.so.7.9.3 \
+libTKGeomBase.so.7.9.3 \
+libTKLCAF.so.7.9.3 \
+libTKMath.so.7.9.3 \
+libTKMesh.so.7.9.3 \
+libTKPrim.so.7.9.3 \
+libTKRWMesh.so.7.9.3 \
+libTKService.so.7.9.3 \
+libTKShHealing.so.7.9.3 \
+libTKTopAlgo.so.7.9.3 \
+libTKV3d.so.7.9.3 \
+libTKXCAF.so.7.9.3 \
+libTKXSBase.so.7.9.3 \
+libTKernel.so.7.9.3 \
+libabsl-hash.so.2608.0.0 \
 libc.so.6 \
 libcairo.so.2 \
 libcurl.so.4 \
@@ -51,26 +61,34 @@ libfreetype.so.6 \
 libgcc-s.so.1 \
 libgdk-3.so.0 \
 libgio-2.0.so.0 \
+libgit2.so.1.9 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libharfbuzz.so.0 \
 libm.so.6 \
 libngspice0 \
+libnng.so.1 \
 libodbc.so.2 \
-libpixman-1.so.0 \
-libpython3.11.so.1.0 \
+libpoppler-glib.so.8 \
+libprotobuf.so.36.1.0 \
+libpython3.13.so.1.0 \
+libsecret-1.so.0 \
+libspnav.so.0 \
 libstdc++.so.6 \
-libwx-baseu-net-suse.so.9.0.0 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-baseu-xml-suse.so.9.0.0 \
-libwx-gtk3u-aui-suse.so.9.0.0 \
-libwx-gtk3u-core-suse.so.9.0.0 \
-libwx-gtk3u-gl-suse.so.9.0.0 \
-libwx-gtk3u-html-suse.so.9.0.0 \
-libwx-gtk3u-propgrid-suse.so.9.0.0 \
-libwx-gtk3u-stc-suse.so.9.0.0 \
+libwayland-client.so.0 \
+libwx-baseu-net-suse.so.16.0.0 \
+libwx-baseu-suse.so.16.0.0 \
+libwx-baseu-xml-suse.so.16.0.0 \
+libwx-gtk3u-aui-suse.so.16.0.0 \
+libwx-gtk3u-core-suse.so.16.0.0 \
+libwx-gtk3u-gl-suse.so.16.0.0 \
+libwx-gtk3u-html-suse.so.16.0.0 \
+libwx-gtk3u-propgrid-suse.so.16.0.0 \
+libwx-gtk3u-stc-suse.so.16.0.0 \
+libwx-gtk3u-webview-suse.so.16.0.0 \
 libz.so.1 \
+libzstd.so.1 \
 python-abi"
 
 inherit rpm

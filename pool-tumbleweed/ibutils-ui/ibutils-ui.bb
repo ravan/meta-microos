@@ -30,8 +30,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
 PV = "1.5.7.0.2"
 
-RPM_NAME = "ibutils-ui-1.5.7.0.2-11.7.aarch64.rpm"
-RPM_HASH = "95f5aef03ef325f704ca3a1e5d13a43a84833b9b97d5865b62acceef25f6cf281133d9b36a4ffdfa0dc7280e0a7a3acf014ec041618a29f4d5a9da2957ae8c09"
+RPM_NAME = "ibutils-ui-1.5.7.0.2-12.7.aarch64.rpm"
+RPM_HASH = "0aaa6f9ceca19236b4fc2337f5d690813660bb1fb007d7a367bfacfa8bd64e0ef5a2b448522e09672b2072dcd9eefb759dc082768509b379d01949aab27d0b55"
 
 RPROVIDES:${PN} += "ibutils-ui"
 

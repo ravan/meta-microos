@@ -3,12 +3,13 @@ DESCRIPTION = " \
 Development files for Linux Studio Plugins"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.10"
+PV = "1.2.34"
 
-RPM_NAME = "lsp-plugins-devel-1.2.10-1.1.aarch64.rpm"
-RPM_HASH = "70cdf3cc7d59982dc7886ff1e21dc1b7b1f5aab3cb01f618623f58b059804ea614bedd725195c4482ea1f0369e7eaad2b6df233b5291fd37d080467368fff770"
+RPM_NAME = "lsp-plugins-devel-1.2.34-1.1.aarch64.rpm"
+RPM_HASH = "f5648fa9bf0488e32717cdb49a19f7ffd1e7a84b745c45afb2cc506b4e69181a3a968e23cc7efec2346ffbeeed25e9a4a5e5f7f09b40ce87f09396325b1253c7"
 
 RPROVIDES:${PN} += "lsp-plugins-devel \
+pkgconfig-lsp-audio-jack-lib \
 pkgconfig-lsp-r3d-glx-lib"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

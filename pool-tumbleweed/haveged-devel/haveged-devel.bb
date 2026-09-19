@@ -5,10 +5,10 @@ This package contains the haveged implementation of the HAVEGE \
 algorithm and supporting features."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.9.18"
+PV = "1.9.21"
 
-RPM_NAME = "haveged-devel-1.9.18-2.4.aarch64.rpm"
-RPM_HASH = "7234ed4588214cd025ebf706f79f56c50ea429203e232c29b9ff3fec9f8c70863acaf1ef55c2541a3f02be3baf579144c7de8d366e32bc5c733b4d562ac718a2"
+RPM_NAME = "haveged-devel-1.9.21-1.3.aarch64.rpm"
+RPM_HASH = "a99ab05631fe5c9e3fe0c931d50115fc1eb94ab5fcda3aae1603bd0ecda300f3ff8fdace6d88faa51a209b786400da035bfeaa07f38abafcbff5da468edf0dce"
 
 RPROVIDES:${PN} += "haveged-devel"
 

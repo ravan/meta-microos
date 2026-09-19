@@ -3,10 +3,10 @@ DESCRIPTION = "Feature complete, production-ready implementation of Jsonnet. It 
 Jsonnet C++ implementation."
 LICENSE = "Apache-2.0"
 
-PV = "0.20.0"
+PV = "0.22.0"
 
-RPM_NAME = "golang-github-google-jsonnet-0.20.0-1.2.aarch64.rpm"
-RPM_HASH = "570f131d1ad65bfde12945cb5285a1d03b98fa0921e6707c3c40303b6c86b64b0910eadef53fb470fc77336c12ec8544ae381ff2116e85a97703b24ee605aebd"
+RPM_NAME = "golang-github-google-jsonnet-0.22.0-1.5.aarch64.rpm"
+RPM_HASH = "f43250f2ddfadabcd7707c8eef3edb6b39c133506d1021edcb0eaaa2cd3c7371b2441c7dab22d6ab9b8b85135af0afc77985b52cae40e798e00987692334e8e2"
 
 RPROVIDES:${PN} += "golang-github-google-jsonnet \
 jsonnet"

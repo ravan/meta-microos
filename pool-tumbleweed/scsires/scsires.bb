@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7"
 
-RPM_NAME = "scsires-0.7-24.18.aarch64.rpm"
-RPM_HASH = "5bf566ab5d7222282aecff2f82a5385cd875f8194b427f4a36b073dbde35d5cc887d2f5493cda0edcde2fef1954aaba8c63f89ff5e802551d22c3ed0248d429b"
+RPM_NAME = "scsires-0.7-26.3.aarch64.rpm"
+RPM_HASH = "695bbe86ef5ecf073188bd00f5922d63bdaa8b68d614d5c50db62c07137e593aa7dcbfabeee6cb096d74908880168c8c14c6b2aa0974a58117d2765b8449f1d3"
 
 RPROVIDES:${PN} += "scsires"
 

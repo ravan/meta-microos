@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development header files and libraries 
 for developing applications that embed the MariaDB."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "11.0.2"
+PV = "12.3.2"
 
-RPM_NAME = "libmariadbd-devel-11.0.2-1.1.aarch64.rpm"
-RPM_HASH = "071415331abe80e0bce1eabc9d242b31b676a09f74b50b9e27b8fb4e5ec5ae4bdc72033e84bf544f92dc1bb6409c520e1ed0a1ed107b93a806cdf659574923e2"
+RPM_NAME = "libmariadbd-devel-12.3.2-1.3.aarch64.rpm"
+RPM_HASH = "e29358ff4a74a8eb30e067979b7f4a9743239ba82ffe47663803c4faef11bc99aa63cec0675ae2682368df819f9ff1cb67e5e20716c1f9600a11a4179548318d"
 
 RPROVIDES:${PN} += "libmariadbd-devel \
 libmysqld-devel"

@@ -1,18 +1,23 @@
 SUMMARY = "A Simple and Comprehensive Vulnerability Scanner for Containers"
-DESCRIPTION = "Trivy (`tri` pronounced like trigger, `vy` pronounced like envy) is a simple and \
-comprehensive vulnerability scanner for containers and other artifacts. A \
-software vulnerability is a glitch, flaw, or weakness present in the software or \
-in an Operating System. Trivy detects vulnerabilities of OS packages (Alpine, \
-RHEL, CentOS, etc.) and application dependencies (Bundler, Composer, npm, yarn, \
-etc.). Trivy is easy to use. Just install the binary and you're ready to \
-scan. All you need to do for scanning is to specify a target such as an image \
-name of the container."
+DESCRIPTION = "cAdvisor (Container Advisor) provides container users an understanding of the \
+resource usage and performance characteristics of their running containers. It \
+is a running daemon that collects, aggregates, processes, and exports \
+information about running containers. Specifically, for each container it keeps \
+resource isolation parameters, historical resource usage, histograms of \
+complete historical resource usage and network statistics. This data is \
+exported by container and machine-wide. \
+ \
+cAdvisor has native support for Docker containers and should support just about \
+any other container type out of the box. We strive for support across the board \
+so feel free to open an issue if that is not the case.  cAdvisor's container \
+abstraction is based on lmctfy's so containers are inherently nested \
+hierarchically."
 LICENSE = "Apache-2.0"
 
-PV = "0.46.0"
+PV = "0.60.5"
 
-RPM_NAME = "cadvisor-0.46.0-1.5.aarch64.rpm"
-RPM_HASH = "cf8bac08df927de093d5caaccde8c127954d4b47dc60ec62e5e4941a32f82c2bb5452860eaeec8aae24e8e74cf10b58da1d18dfa7f3a15ffc72ac6261270adb5"
+RPM_NAME = "cadvisor-0.60.5-3.1.aarch64.rpm"
+RPM_HASH = "470b32de8aa19e99d72544101b1af397b2d8fe178fe0021e22c1c2bc4ce59c0f2e22383ee30eabf0b579fd756b7d0f979c2bc491bef1a61569ef94e385c2448e"
 
 RPROVIDES:${PN} += "cadvisor"
 

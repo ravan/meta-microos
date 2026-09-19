@@ -25,8 +25,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.7"
 
-RPM_NAME = "cedilla-0.7-6.15.noarch.rpm"
-RPM_HASH = "c87c2345876df5b81203427480b13c4ce2e57d2b26c86acc5b976413ed966563301cdfb600d36e232551fb4d63b41bc1a13ff3203be656f20559bfadb8092ec7"
+RPM_NAME = "cedilla-0.7-7.7.noarch.rpm"
+RPM_HASH = "8fd00299fab79b6b1868cce5f577cebd74fca1513914bf9066ccf11f77fa6564dca3cc2ae362ccc6edd6315849547d7ec82076df9305bf04c6477ce039a3dd28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cedilla \

@@ -4,12 +4,12 @@ electronic dictionaries on the Internet. With dictd, one can \
 set up a custom dictionary. To look up, for example, the word 'grunt', \
 execute `dict grunt` at a command line. See the man pages of dict and \
 dictd for details."
-LICENSE = "GPL-1.0-or-later & Zlib & MIT"
+LICENSE = "BSD-3-Clause & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-or-later & MIT & SUSE-Public-Domain"
 
-PV = "1.13.1"
+PV = "1.13.3+git.1731775346.2b21553"
 
-RPM_NAME = "dictd-1.13.1-1.9.aarch64.rpm"
-RPM_HASH = "b7cf7922ae762f106b5ca72dd0233c2f0dab17d135692826e112854c622c938f9c27ba71000846290b259816acda4e6965a5e85311b94bdbe629ec7840e3df3c"
+RPM_NAME = "dictd-1.13.3+git.1731775346.2b21553-2.6.aarch64.rpm"
+RPM_HASH = "f3443efcd75fb60817db8b37a45cedb91507c36ac2a2e483f0c7498fd18b2d5584569382e66b92cd6d66a482dcb96045574c654bbc19766079424ce807985dd1"
 
 RPROVIDES:${PN} += "config-dictd \
 dictd"

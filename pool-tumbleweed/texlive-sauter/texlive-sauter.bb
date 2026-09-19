@@ -6,10 +6,10 @@ extended to a range of other fonts, including the AMS fonts, \
 bbm, bbold, rsfs and wasy fonts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.4svn13293"
+PV = "2026.226.2.4svn13293"
 
-RPM_NAME = "texlive-sauter-2023.209.2.4svn13293-54.1.noarch.rpm"
-RPM_HASH = "f7c21c2646bfccfa3a84f315243acf315d33087b6e2fd2044eba701cee9f4cb26cb33be8bfd5d4a79653d12d71e971f64390f20ef7fbcd4dd985797ba951c414"
+RPM_NAME = "texlive-sauter-2026.226.2.4svn13293-60.2.noarch.rpm"
+RPM_HASH = "c7a63fd18c3ac33db663cdd25d0dd4e29906a9e8e8cc344f74573037e6d96874a2b7fcd6b7a1eea5646f75bc389191dd81c9a2e9d79ce088c3dde0107e4f4119"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sauter"

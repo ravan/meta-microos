@@ -2,10 +2,10 @@ SUMMARY = "Facilitates the creation and modification of PDF files"
 DESCRIPTION = "Facilitates the creation and modification of PDF files"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.025"
+PV = "3.28.0"
 
-RPM_NAME = "perl-PDF-Builder-3.025-1.3.noarch.rpm"
-RPM_HASH = "53bb0a77a89da8d72a9da8ac8f8d4d8a208c3026444ce49c5b9b93c7978ee8fdc3023a22b236c16e551445435be1d32158e4af337b5d67c4969251af7dd1b7ef"
+RPM_NAME = "perl-PDF-Builder-3.28.0-1.5.noarch.rpm"
+RPM_HASH = "035e392bfe15befeb0ad5315706fffc587ccc2d21a2668eb2eae3b9f9bb53e84fcfdb9cbb8b100c0d7fca217bc58d875c07f1574be97c6ecb56804b60019ca26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PDF--Builder \
@@ -31,6 +31,7 @@ perl-PDF--Builder--Basic--PDF--Pages \
 perl-PDF--Builder--Basic--PDF--String \
 perl-PDF--Builder--Basic--PDF--Utils \
 perl-PDF--Builder--Content \
+perl-PDF--Builder--Content--Column-docs \
 perl-PDF--Builder--Content--Hyphenate-basic \
 perl-PDF--Builder--Content--Text \
 perl-PDF--Builder--Docs \
@@ -111,6 +112,7 @@ perl-PDF--Builder--Resource--XObject--Image--JPEG \
 perl-PDF--Builder--Resource--XObject--Image--PNG \
 perl-PDF--Builder--Resource--XObject--Image--PNG-IPL \
 perl-PDF--Builder--Resource--XObject--Image--PNM \
+perl-PDF--Builder--Resource--XObject--Image--SVG \
 perl-PDF--Builder--Resource--XObject--Image--TIFF \
 perl-PDF--Builder--Resource--XObject--Image--TIFF--File \
 perl-PDF--Builder--Resource--XObject--Image--TIFF--File-GT \
@@ -118,9 +120,10 @@ perl-PDF--Builder--Resource--XObject--Image--TIFF-GT \
 perl-PDF--Builder--UniWrap \
 perl-PDF--Builder--Util \
 perl-PDF--Builder--ViewerPreferences \
+perl-PDF--Builder--Win32 \
 perl-PDF-Builder"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Compress--Zlib \
 perl-Font--TTF"
 

@@ -6,19 +6,16 @@ developers can use WebP to compress, archive and distribute digital \
 images more efficiently."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.1"
+PV = "1.6.0"
 
-RPM_NAME = "libwebp-tools-1.3.1-1.1.aarch64.rpm"
-RPM_HASH = "a3b46f7276e884396ebe45a601598061f95b34cad1cae7e910f4573b75c01b3dd591ce5f5f39fc99a4e0ad4d6684b581bcfdafdf1716840dafc088fa3260fd99"
+RPM_NAME = "libwebp-tools-1.6.0-2.3.aarch64.rpm"
+RPM_HASH = "907f56b61f756f16d711453c1cdc6011acab965d10d51c0b8d2ee20c91ffe2d9c0adf6c7938246baf574d119b4b49a456936affcc9a8c2091d1d1cd5038b1ab6"
 
 RPROVIDES:${PN} += "libwebp-tools \
 webp-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libGL.so.1 \
 libc.so.6 \
-libgif.so.7 \
-libglut.so.3 \
 libjpeg.so.8 \
 libpng16.so.16 \
 libsharpyuv.so.0 \

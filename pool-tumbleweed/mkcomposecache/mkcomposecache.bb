@@ -5,10 +5,10 @@ Compose cache files help with application startup times and memory usage, \
 especially in locales with large Compose tables (e.g. all UTF-8 locales)."
 LICENSE = "MIT"
 
-PV = "1.2.2"
+PV = "1.2.3"
 
-RPM_NAME = "mkcomposecache-1.2.2-1.6.aarch64.rpm"
-RPM_HASH = "e95f629210592f26d6f479796c81f171301d2b6c520d810656ba100c97dd9d8ac273d45ee3aa2b2b886deec5cdbeec825559e71edf0ba2565a35565b35cfb70a"
+RPM_NAME = "mkcomposecache-1.2.3-1.3.aarch64.rpm"
+RPM_HASH = "885db78955b725f92d9769c9e66cc004acb67369887e6a0eff6e88c58c37e66f30082fc1ccc5c7297d50801a8726d6c5a8e9355da9dabaa1f34c99c34e065bf9"
 
 RPROVIDES:${PN} += "mkcomposecache"
 

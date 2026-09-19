@@ -5,12 +5,13 @@ according to the AES69-2015 standard. \
 This package contains the development libraries and headers for libmysofa."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.1"
+PV = "1.3.5"
 
-RPM_NAME = "libmysofa-devel-1.3.1-2.1.aarch64.rpm"
-RPM_HASH = "79141ffb4d749a11c6a75c09dd0aad010822f2b7c1180959cd6c77fc0d02943ee1143b7414b1cadd7b9e20e22f8dd8bd989e6ade43e1a5b860771c4b662950c4"
+RPM_NAME = "libmysofa-devel-1.3.5-1.1.aarch64.rpm"
+RPM_HASH = "67774ce5374f9a8ab34148012af3519411e1f638019cc54a0466ae28a450e7529443cf1aba71674574a06d23df352a83a009ea2937873d52193020644c61e882"
 
-RPROVIDES:${PN} += "libmysofa-devel \
+RPROVIDES:${PN} += "cmake-mysofa \
+libmysofa-devel \
 pkgconfig-libmysofa"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

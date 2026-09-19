@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "3.13.0"
 
-RPM_NAME = "php-cs-fixer-3.13.0-1.2.noarch.rpm"
-RPM_HASH = "3a25cdffe4ac56bff84b156d336945a276442f02bfa5dc471f57d5ece0761db8e314deab3d3375eb906167b627d2a628ad1d7ecec7ce4d839e426aba53f9405f"
+RPM_NAME = "php-cs-fixer-3.13.0-1.10.noarch.rpm"
+RPM_HASH = "876ef48e637c1e9e14bc5e69b5f6f6846113e9e1c0392daa29bc27b3fe45758819055f7479b84596d4683b2bd69da80560a44d89bbbd45aed0c2576a32fb6ad4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-cs-fixer"

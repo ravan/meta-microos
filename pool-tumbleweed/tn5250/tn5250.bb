@@ -6,16 +6,18 @@ the VT100 is a character at a time device.  The emulator uses telnet's \
 binary mode to transfer the 5250 data stream."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.16.5"
+PV = "0.18.0"
 
-RPM_NAME = "tn5250-0.16.5-469.7.aarch64.rpm"
-RPM_HASH = "4cedfea744a801434a0922918e486f8b9622268c90dc19fa297536876970303b5b9b441d6fdccaf3783be9c41e8d3b969a5be591c4d808b7d0acebe5a12176ed"
+RPM_NAME = "tn5250-0.18.0-1.4.aarch64.rpm"
+RPM_HASH = "c3c9431a32cb898e5f093366037dddce13b73a86444a898863b6e4fe3e79155c670f46b2c4c820fc15254ddcf8fee5550f0d69c2684569664bf9e339970b4ac9"
 
 RPROVIDES:${PN} += "tn5250"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 lib5250.so.0 \
-libc.so.6"
+libc.so.6 \
+libncurses.so.6 \
+libtinfo.so.6"
 
 inherit rpm

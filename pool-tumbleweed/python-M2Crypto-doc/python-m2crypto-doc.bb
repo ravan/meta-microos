@@ -9,12 +9,12 @@ server. S/MIME. ZServerSSL: A HTTPS server for Zope. ZSmime: An S/MIME \
 messenger for Zope. \
  \
 Documentation for the Crypto and SSL toolkit for Python"
-LICENSE = "MIT"
+LICENSE = "BSD-2-Clause"
 
-PV = "0.39.0"
+PV = "0.49.0"
 
-RPM_NAME = "python-M2Crypto-doc-0.39.0-2.1.noarch.rpm"
-RPM_HASH = "51663a36576c071c2858db61a958233fa563f339b8d7e733b4b6f1b60497008c347fca4d6a050944ab23773887f7a5f215afa8f85378a4dd0a70c8b6e8d0f026"
+RPM_NAME = "python-M2Crypto-doc-0.49.0-1.1.noarch.rpm"
+RPM_HASH = "05ac6b107d339ecd3f6d6d1b9376baf1ca71c15d08add776dc2dbf8d13bc1744f4159467c5b0aac96a8f7706df90d13254763b7cc2e29fe307afc2549d060d8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-M2Crypto-doc"

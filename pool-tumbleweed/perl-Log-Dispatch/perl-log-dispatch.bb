@@ -13,10 +13,10 @@ file, via email, to the screen, and anywhere else, all with very little \
 code needed on your part, once the dispatching object has been created."
 LICENSE = "Artistic-2.0"
 
-PV = "2.71"
+PV = "2.710.0"
 
-RPM_NAME = "perl-Log-Dispatch-2.71-1.3.noarch.rpm"
-RPM_HASH = "ff59a09a273686c9580787ed75f53c9af68331b4fe120bcbab548a6c75d1570b62c0341e9bd1f3f84deaffc3c9a45c7c7031f7af39061af428a624b50c0fd7a0"
+RPM_NAME = "perl-Log-Dispatch-2.710.0-1.3.noarch.rpm"
+RPM_HASH = "45d003d928b27bda5fb94a587a23f53fafd79d71597dc7e34ea9e08e74dee339ffa9aa4b50405d4fcb429fbc9c65e8c2205d61ef1560a9d31570265179e0027d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Dispatch \
@@ -39,7 +39,7 @@ perl-Log--Dispatch--Types \
 perl-Log--Dispatch--Vars \
 perl-Log-Dispatch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Devel--GlobalDestruction \
 perl-Dist--CheckConflicts \
 perl-Module--Runtime \

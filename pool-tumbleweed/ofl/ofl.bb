@@ -5,15 +5,15 @@ lsof/fuser in that it can scan recursively and won't bluntly look at \
 an entire mount."
 LICENSE = "GPL-2.0-or-later & WTFPL"
 
-PV = "20230411"
+PV = "20251011"
 
-RPM_NAME = "ofl-20230411-1.2.aarch64.rpm"
-RPM_HASH = "2ea493c75d742d7ae2bdccb552ada9ade690a1d3aa3796fbc92208f9d403dba06e698e50a1c27d08944ed98a0f67eb88c5094dc67afcdfb63cf9d950a1173005"
+RPM_NAME = "ofl-20251011-1.6.aarch64.rpm"
+RPM_HASH = "a002a8a41b10f831059ff55b08fc1d000da2966b96043517f584dd92fb26f041c012f11c9f563a1bb4b11bea3e0b9c7804b33ac1674890b19b234fd6e33e037a"
 
 RPROVIDES:${PN} += "ofl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libHX.so.32 \
+libHX.so.43 \
 libc.so.6"
 
 inherit rpm

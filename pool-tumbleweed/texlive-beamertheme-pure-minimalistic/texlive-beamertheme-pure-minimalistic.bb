@@ -7,10 +7,10 @@ dark mode. Is designed to be purely minimalistic without any \
 distractions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.0.0svn56934"
+PV = "2026.226.2.0.0svn56934"
 
-RPM_NAME = "texlive-beamertheme-pure-minimalistic-2023.209.2.0.0svn56934-54.1.noarch.rpm"
-RPM_HASH = "f1e132c589a9c83e3738f96280d17f3782494bac399496f4204ec1f2e2f875f32c06ea44d8690dd9f92952f2eb44690980c9e515b1ef747d890b0ecb5e368364"
+RPM_NAME = "texlive-beamertheme-pure-minimalistic-2026.226.2.0.0svn56934-61.2.noarch.rpm"
+RPM_HASH = "72e32612618c02ebcbab08655a888a27f982366a947b289ab0811b859d29e63e1849015e31c874a3e1d7ec7853b3b4ed993b7dc45d09787fbf6d4ebcb6d7bf87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemepureminimalistic.sty \

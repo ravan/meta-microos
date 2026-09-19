@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-apptools"
 DESCRIPTION = "This package includes the documentation for texlive-apptools"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn28400"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-apptools-doc-2023.209.1.0svn28400-55.1.noarch.rpm"
-RPM_HASH = "333e6087ea87bc5848c329100983ae760986e384cb49867217cfb29c2672b42b6318fcb236dd16ee15c7fceef5b1cb25a9f3ebd8f11884e40197193d0f9ed6d5"
+RPM_NAME = "texlive-apptools-doc-2026.226.1.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "f27facdaa856f59be7cdc6674f2ddd8df7abdaaae1495c56138f02d2ffc9b35e6fac26f7b92ba5b85995fbbcc144379628de7f44c4d9bf0c473039d92aa9e696"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-apptools-doc"

@@ -1,13 +1,13 @@
 SUMMARY = "Creating colourful boxes with logos"
 DESCRIPTION = "The package facilitates the creation of colorful boxes with a \
-title and logo. It may use either tikz or PSTricks as graphics \
+title and logo. It may use either TikZ or PSTricks as graphics \
 engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1svn39364"
+PV = "2026.226.3.15svn77682"
 
-RPM_NAME = "texlive-bclogo-2023.209.3.1svn39364-54.1.noarch.rpm"
-RPM_HASH = "db677b00ebc3c3d2bf68e335a5919258aa0fd155c2bb9692a4bc4ed55f39d8f765e7af20c680a1ee634671a028e07eef51e56c63079ebf62e67b05b5a8af470c"
+RPM_NAME = "texlive-bclogo-2026.226.3.15svn77682-61.2.noarch.rpm"
+RPM_HASH = "c0f40e149673c48020aff0cd4daa828e4b89f690d71c9828cc7c47926a1e3a38a1d37393ef6aa590ed3859e4b5638a42359a92715810dfa3faf704e2142a743a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bclogo.sty \

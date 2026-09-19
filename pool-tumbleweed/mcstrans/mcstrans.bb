@@ -13,10 +13,10 @@ mcstrans provides a translation daemon to translate SELinux categories \
 from internal representations to user defined representation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "mcstrans-3.5-1.4.aarch64.rpm"
-RPM_HASH = "ab752ac473ac9988b63b4d1873cce77a4febd413bea9f8bbd7a4dce10f37a7d7b9e329a8e9285804efb9489d9a1011925522002e1ea00130e41c233d6906c55b"
+RPM_NAME = "mcstrans-3.11-1.2.aarch64.rpm"
+RPM_HASH = "adf86ec76cef318c61ec6e8a1ec03efc09bc245523a3bd5f02b5bb8e10e105b20cb78fa2e465288c79eb5d18fc00689ec79971389421a8b24827830ae3de08a0"
 
 RPROVIDES:${PN} += "mcstrans \
 setransd"

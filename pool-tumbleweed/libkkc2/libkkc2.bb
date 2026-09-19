@@ -5,10 +5,10 @@ while libkkc tries to convert sentences in a bit more complex way using N-gram \
 language models."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.3.6~git20200818.e33e7fb"
+PV = "0.3.6~git20240902.ce17a35"
 
-RPM_NAME = "libkkc2-0.3.6~git20200818.e33e7fb-1.18.aarch64.rpm"
-RPM_HASH = "1c8931dda279c3b1eb4af837ff0ca1f69d014c596b94aca4917acf4e5d0a74566631f282434ddde5436ac86d5d1549ab8efdb2779539162a520b5cc8ae3ca973"
+RPM_NAME = "libkkc2-0.3.6~git20240902.ce17a35-4.3.aarch64.rpm"
+RPM_HASH = "2e19ee1f2e5bee4f09185d8948ab8a0bbbc720156fceb793f7d5578e630c40512c14c8aafb892bda3806ac7aab5b7e639ddaf06a0ec9f9177aff1909914de2c8"
 
 RPROVIDES:${PN} += "libkkc.so.2 \
 libkkc2"

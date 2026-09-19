@@ -3,32 +3,37 @@ DESCRIPTION = "Network File Sharing configuration module and plugin. \
 Used for configuring Samba shares."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdenetwork-filesharing-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "f59e2dff972f219d176922c05942f7bbbc479a25874f03a56bb47bfca648614a9b7d82ba6aa1bc169b5c55d03f9a7c786dcfa60c8cb2fd4eebe7f6d56947d011"
+RPM_NAME = "kdenetwork-filesharing-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "abd42017d30c9d4302a6602288731aa2c0fb633e137c85e93356541e375e9559093170c361fdf58723bc151161c819ac18b9013781753d61700842d9d5591d1e"
 
 RPROVIDES:${PN} += "kdenetwork-filesharing \
 kdenetwork4-filesharing"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+kf6-kirigami-imports \
 ld-linux-aarch64.so.1 \
-libKF5AuthCore.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickWidgets.so.5 \
-libQt5Widgets.so.5 \
+libKF6AuthCore.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libQCoro6DBus.so.0 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libpackagekitqt5.so.1 \
-libstdc++.so.6"
+libpackagekitqt6.so.2 \
+libstdc++.so.6 \
+qt6-declarative-imports \
+samba-client"
 
 inherit rpm

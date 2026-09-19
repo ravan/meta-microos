@@ -13,17 +13,17 @@ mirrors (which are shipped in SpamAssassin as default configuration), a \
 registration procedure for a free DQS key is mandatory nevertheless."
 LICENSE = "Apache-2.0"
 
-PV = "1.4.0"
+PV = "1.5.1"
 
-RPM_NAME = "perl-Mail-SpamAssassin-Plugin-dqs-1.4.0-1.4.aarch64.rpm"
-RPM_HASH = "79990466cdd0534dd9421300148db891b983f541b345aafc59818899550c8cc9266c5ac121adadc723a1aea5e3594a87225ddae8b6e137fcbfd8004906137410"
+RPM_NAME = "perl-Mail-SpamAssassin-Plugin-dqs-1.5.1-1.12.aarch64.rpm"
+RPM_HASH = "42334d35247529b6ff4a91e2ca47a6e6e9d5bbdde0e1f43c8b965ffe7ca02f5478f7b35bb40d696a65f5721d36b0792a0f323c83474b226607fabadb48c4eca3"
 
 RPROVIDES:${PN} += "config-perl-Mail-SpamAssassin-Plugin-dqs \
 perl-Mail--SpamAssassin--Plugin--SH \
 perl-Mail-SpamAssassin-Plugin-dqs"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 spamassassin"
 
 inherit rpm

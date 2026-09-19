@@ -1,11 +1,11 @@
-SUMMARY = "Translations for package libksane"
-DESCRIPTION = "Provides translations for the 'libksane' package."
+SUMMARY = "Translations for libKSaneWidgets6 and libKF5Sane6"
+DESCRIPTION = "Provides translations for packages libKSaneWidgets6 and libKF5Sane6."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libksane-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "0c5e73a293c79975dd1c58c4f55cd7adf8feb1b8830604c438ca459fb74d35caad48c52f119d68659c89c0e5442dd1093231b77d5865f403f2e2f616ca81475e"
+RPM_NAME = "libksane-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "81ba7da4d620b29430c75babd6805bc7adcd6d371dcddd6ed173e7c7905be8d3c5fca3df6fd477abfedcbf8aea914169f6efbf8e02141f251ae8c17f74c4f746"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libksane-lang \
@@ -29,6 +29,7 @@ locale-libksane-fi \
 locale-libksane-fr \
 locale-libksane-ga \
 locale-libksane-gl \
+locale-libksane-he \
 locale-libksane-hi \
 locale-libksane-hr \
 locale-libksane-hu \
@@ -68,6 +69,6 @@ locale-libksane-wa \
 locale-libksane-zh-CN \
 locale-libksane-zh-TW"
 
-RDEPENDS:${PN} += "libksane"
+RDEPENDS:${PN} += ""
 
 inherit rpm

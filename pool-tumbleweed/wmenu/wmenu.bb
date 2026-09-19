@@ -3,10 +3,10 @@ DESCRIPTION = "An dynamic menu for Sway and wlroots based Wayland compositors (r
 wlr_layer_shell_v1 support)."
 LICENSE = "MIT"
 
-PV = "0.1.3"
+PV = "0.2.0"
 
-RPM_NAME = "wmenu-0.1.3-1.1.aarch64.rpm"
-RPM_HASH = "8b122028b6705934136e067d1252489a5db2377eb50140a684969742cdf960250967c56189a4e654ff70f3e6f295ad4a0282837ae0d8ea2e4c9b3c06ac762d8b"
+RPM_NAME = "wmenu-0.2.0-1.6.aarch64.rpm"
+RPM_HASH = "e5c49bcf2537502c4f1e1dfd206eb8fc27f590961f41e5b2ad4963eac736c74a054a9df4f1bb1132892dee4bbab762b557a79786a7036132cdbff6de4ecfb097"
 
 RPROVIDES:${PN} += "wmenu"
 

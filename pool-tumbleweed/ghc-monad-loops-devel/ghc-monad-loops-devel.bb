@@ -4,15 +4,15 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.4.3"
 
-RPM_NAME = "ghc-monad-loops-devel-0.4.3-11.3.aarch64.rpm"
-RPM_HASH = "20be79d620ed299f653dda6667a3c638734f93d9f8d30f68c35a1826ac34a77da3909d827b49d2ad51226056534dabb65f95137d0b06445934a19e9f76f833bc"
+RPM_NAME = "ghc-monad-loops-devel-0.4.3-11.23.aarch64.rpm"
+RPM_HASH = "962b1ea788ec99416c44e899f88c9ff0f26f57700bcab81b97ffc54c66485b7e9c0151408eb19b555049680c6d16129a1fa78051e7ea0cadd2683fee6fb88ebf"
 
-RPROVIDES:${PN} += "ghc-devel-monad-loops-0.4.3-Hqvq9oJQAvl8Gm82ocTn8i \
+RPROVIDES:${PN} += "ghc-devel-monad-loops-0.4.3-DnSFazqaMXyCc2HbLgcz0b \
 ghc-monad-loops-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
+ghc-devel-base-4.21.2.0-8844 \
 ghc-monad-loops"
 
 inherit rpm

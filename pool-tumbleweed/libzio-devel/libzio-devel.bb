@@ -3,10 +3,10 @@ DESCRIPTION = "Libzio development files including zio.h, the manual page fzopen(
 and static library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.08"
+PV = "1.15"
 
-RPM_NAME = "libzio-devel-1.08-2.8.aarch64.rpm"
-RPM_HASH = "269f5630c0de9d647d08e10b2dbd093f577ab6ba6d5f16c7bbba49c30054f1874263c03856239aeecbce9c2d84e4673a545ec46e0288657851644cd56ec87c82"
+RPM_NAME = "libzio-devel-1.15-1.3.aarch64.rpm"
+RPM_HASH = "a1bef15f76707f6f878182f61382d5fad7adc192ae080e1bbfff3157f5f379eb7592d09a0eda5b98a2db73c9cf5f016aebdd0a043427193510dc9b29a5a3b264"
 
 RPROVIDES:${PN} += "libzio-devel"
 

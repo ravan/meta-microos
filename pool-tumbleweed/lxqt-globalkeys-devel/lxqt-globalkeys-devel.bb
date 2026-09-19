@@ -2,10 +2,10 @@ SUMMARY = "Development files for lxqt-globalkeys"
 DESCRIPTION = "Development files for lxqt-globalkeys including headers and libraries"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "lxqt-globalkeys-devel-1.3.0-1.2.aarch64.rpm"
-RPM_HASH = "24e502941f1ac3eea4c23d51769523d1e6f48824fcabe7dad09b14b5afe97c9b8f7b4daa11f7190fc545c74fda08e811fbee5a3613ca36d4d54a4af0f6872f3c"
+RPM_NAME = "lxqt-globalkeys-devel-2.4.0-1.2.aarch64.rpm"
+RPM_HASH = "748f6afa6a391307a886a160d3e3ac69d44a3cb14ace301b691c48c31809ddbc02b0583aa197fb14372ca1075461b5b115266716d72fec52fa75d82658ba7f3b"
 
 RPROVIDES:${PN} += "cmake-lxqt-globalkeys \
 cmake-lxqt-globalkeys-ui \
@@ -14,12 +14,12 @@ pkgconfig-lxqt-globalkeys \
 pkgconfig-lxqt-globalkeys-ui"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-liblxqt-globalkeys-ui1 \
-liblxqt-globalkeys1 \
+liblxqt-globalkeys-ui2 \
+liblxqt-globalkeys2 \
 lxqt-globalkeys \
 pkgconfig \
-pkgconfig-Qt5DBus \
-pkgconfig-Qt5Widgets \
+pkgconfig-Qt6DBus \
+pkgconfig-Qt6Widgets \
 pkgconfig-lxqt-globalkeys"
 
 inherit rpm

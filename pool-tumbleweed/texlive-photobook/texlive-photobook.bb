@@ -5,10 +5,10 @@ environments with reasonable defaults to help typeset, build \
 and print books mainly based on visual/image content."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.0.0.1.10svn66551"
+PV = "2026.226.0.0.1.31svn71843"
 
-RPM_NAME = "texlive-photobook-2023.209.0.0.1.10svn66551-52.1.noarch.rpm"
-RPM_HASH = "71ddffd02c9116a8a095bb766ad91c4754caa2ea6f720683af75cf674267b7d4c73d977717962f99f817fc0e71fa71c12e9a74cbe36e13c6e5771cf3dd878ea9"
+RPM_NAME = "texlive-photobook-2026.226.0.0.1.31svn71843-58.2.noarch.rpm"
+RPM_HASH = "b92f9db45456d4fd9f0c5f6d4dbf9c7e5cb2a30a30d72280c0a8cee35d64ae222f1ea53adbc50b4220a4a283463e98b58e1041e44d9a96f50b05a76719ed6a5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-photobook.cls \
@@ -50,10 +50,37 @@ tex-xint.sty \
 tex-xinttools.sty \
 tex-xkeyval.sty \
 texlive \
+texlive-adjustbox \
+texlive-atbegshi \
+texlive-changepage \
+texlive-colorspace \
+texlive-environ \
+texlive-eso-pic \
+texlive-etoolbox \
+texlive-fancyhdr \
+texlive-fancyvrb \
 texlive-filesystem \
+texlive-flowfram \
+texlive-geometry \
+texlive-graphics \
+texlive-hyperref \
+texlive-iftex \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-kvoptions \
+texlive-listofitems \
+texlive-mdframed \
+texlive-numprint \
+texlive-pagecolor \
+texlive-pdfcomment \
+texlive-pdfpages \
+texlive-pgf \
 texlive-scripts \
-texlive-scripts-bin"
+texlive-scripts-bin \
+texlive-textpos \
+texlive-xargs \
+texlive-xcolor \
+texlive-xint \
+texlive-xkeyval"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "The bundle provides a simple theme that has been used in the \
 author's department."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.02svn39048"
+PV = "2026.226.1.02svn39048"
 
-RPM_NAME = "texlive-beamertheme-detlevcm-2023.209.1.02svn39048-54.1.noarch.rpm"
-RPM_HASH = "265ebb2ce9ab6fdcdf8068d04fd7be5ac07ad50d0610ff3d7698c611d3cb97225529104b52bd0cf9b748774e0d8b90b274246693a0f27ac6d3043819b1b628f0"
+RPM_NAME = "texlive-beamertheme-detlevcm-2026.226.1.02svn39048-61.2.noarch.rpm"
+RPM_HASH = "3620a9e0fd487fadb8ce0341ee3bbf8da7e0277ca672d1e5f74240128a13cdbed693785456a76da7c858b5b13ab9343ee1d2d27fa273a0f11e2a23f84e423c45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeETII.sty \

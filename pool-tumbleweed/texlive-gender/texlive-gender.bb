@@ -6,10 +6,10 @@ package uses alternately masculine and feminine forms. It is \
 also possible to use just one form out of a template."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn36464"
+PV = "2026.226.1.0svn36464"
 
-RPM_NAME = "texlive-gender-2023.209.1.0svn36464-53.1.noarch.rpm"
-RPM_HASH = "397121651a5e3ac05be3f589df2a8eb794d870361857af0f5299acde42c2b60a4cf63a1857e0a1253a7df64e14c0aaa1c597253aebc3e879069702be3740eceb"
+RPM_NAME = "texlive-gender-2026.226.1.0svn36464-60.2.noarch.rpm"
+RPM_HASH = "7b1cc5a53001d4e4533e239253064961ee2fc39f67ec3707330c0e0cb2799aa11f2b28c9b44c693786e2cf9fe3b7c0b7a8680bab13a92520973615cc047770f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gender.sty \

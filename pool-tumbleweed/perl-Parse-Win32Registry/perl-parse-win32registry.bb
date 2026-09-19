@@ -20,10 +20,10 @@ save part or all of a currently loaded registry file using the Windows reg \
 command if you have the appropriate administrative access."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.1"
+PV = "1.100.0"
 
-RPM_NAME = "perl-Parse-Win32Registry-1.1-1.14.noarch.rpm"
-RPM_HASH = "1d9af43cca2e07a03d6dcd367e5aaa6289cc5b057e6ef11b7af2e78648863cb19b7c123fd3d430fb5f9d74225057693bf873f7ba22058ed74d860b57d8dfd73d"
+RPM_NAME = "perl-Parse-Win32Registry-1.100.0-1.9.noarch.rpm"
+RPM_HASH = "b7f3b31c738d9cf2f33af2043a088362c8f3772fb37b64865944529be79f8a9d0eaddb493995a1ff4d4f5d71c8d9cfbf90e3ea8de6399c0e1963c3d99beaeb2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parse--Win32Registry \
@@ -53,6 +53,6 @@ perl-Parse--Win32Registry--WinNT--Value \
 perl-Parse-Win32Registry"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

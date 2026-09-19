@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beilstein"
 DESCRIPTION = "This package includes the documentation for texlive-beilstein"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn56193"
+PV = "2026.226.2.1svn56193"
 
-RPM_NAME = "texlive-beilstein-doc-2023.209.2.1svn56193-54.1.noarch.rpm"
-RPM_HASH = "2d0cc88b461aa9f655a32ae53a4aaf96e9d62c1759d0b92f5591b1f26a45c4c0f9067836b701f378ad9dd802710591bda43c14f1a73de8820396b2a11cb7edbb"
+RPM_NAME = "texlive-beilstein-doc-2026.226.2.1svn56193-61.2.noarch.rpm"
+RPM_HASH = "f99e34a22cf7ac501d28b592b57daf120a19a31630b2baa7311f4c5c2d30dab6c80d7ab5dd59190da02c0d8902da2505686d79a3b71655e7aec8f6240eff8ac0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beilstein-doc"

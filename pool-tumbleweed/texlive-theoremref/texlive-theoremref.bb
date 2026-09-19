@@ -7,10 +7,10 @@ valuable if the author decides to change a lemma to a \
 proposition or a theorem (or whatever)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54512"
+PV = "2026.227.svn77682"
 
-RPM_NAME = "texlive-theoremref-2023.209.svn54512-55.1.noarch.rpm"
-RPM_HASH = "dd0e6d7355c842e6cc6a3574e75217be63d62f8e4a1aee6d7d1ebb48408575417f5d9f125a69c9438d37be8edb26d6226f93db0541d900ba53c4264e33567ab3"
+RPM_NAME = "texlive-theoremref-2026.227.svn77682-62.2.noarch.rpm"
+RPM_HASH = "77e104a357ea2a10c310550225e96d226807b54d730625ef82d6a72de726cf24e4f080b8ce712fcc5e5483f337b37b2effa0dfebd65e6beb12e79fef302c91f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-theoremref.sty \

@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 
-RPM_NAME = "libOpenSceneGraph161-3.6.5-8.7.aarch64.rpm"
-RPM_HASH = "42441daa33bd516f6988e0b105a4d0734e16df2bc4ead46243aa4dbf0e54ea2160987fe23a791939444a34365c0d7aa753b6b68f816aade68963e3f113926137"
+RPM_NAME = "libOpenSceneGraph161-3.6.5-12.8.aarch64.rpm"
+RPM_HASH = "05103581a32da32b976980f1243fc9dac8f860971a5e5d060a79131910f6950259607e5676e834dcb80038b43811321d5bcede960ea5ed5b6159e9b26ef16ddc"
 
 RPROVIDES:${PN} += "libOpenSceneGraph161 \
 libosg.so.161 \
@@ -33,7 +33,6 @@ libosgVolume.so.161 \
 libosgWidget.so.161"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libOpenThreads.so.21 \
 libX11.so.6 \

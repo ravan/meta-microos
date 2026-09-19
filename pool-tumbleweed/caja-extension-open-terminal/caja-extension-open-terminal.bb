@@ -3,10 +3,10 @@ DESCRIPTION = "This extension allows to open a Terminal in arbitrary directories
 through Caja file manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-extension-open-terminal-1.26.1-2.3.aarch64.rpm"
-RPM_HASH = "4ec1683b3075bb412b174522ae69e96bcb4ce03c10603afcb756501d60088f0d11e656e29ce8f22cb675e27c401de177bf26053529f4cee699341bb049543cfe"
+RPM_NAME = "caja-extension-open-terminal-1.28.0-2.11.aarch64.rpm"
+RPM_HASH = "e1e7dc858e7d71f14390aceec999ba1938db2f64ad1db45bc1c4962a8338f3638dd32dc11e9520ca83722d4c2ae30035024fc9b8d21be9415e80e77a8c285f55"
 
 RPROVIDES:${PN} += "caja-extension-open-terminal \
 caja-open-terminal \

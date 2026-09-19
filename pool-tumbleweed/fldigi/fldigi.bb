@@ -5,10 +5,10 @@ CW, Contestia, DominoEX, Hell, MFSK, MT63, Olivia, Psk, RTTY, Thor, Throb \
 WEFAX, WWV calibration, Frequency Analysis, Tune"
 LICENSE = "GPL-3.0-only"
 
-PV = "4.2.00"
+PV = "4.2.13"
 
-RPM_NAME = "fldigi-4.2.00-1.1.aarch64.rpm"
-RPM_HASH = "d2572c865055faccfd3c196f15f985f1d56fc5b28e21f3ba07067d8255aa14fb9d68274888e9cafdc07642f34e0088cc43d99f8e448b95b19ebbbc653bab02e3"
+RPM_NAME = "fldigi-4.2.13-1.1.aarch64.rpm"
+RPM_HASH = "c83e611a1ad015002502954dca2fecdb78c4bb232981f67672da749d21e6b86b47ac1549e63bc4abc4b23a26e135fbe26845e847b21086e022c18299790dc88a"
 
 RPROVIDES:${PN} += "fldigi"
 
@@ -28,7 +28,6 @@ libpulse.so.0 \
 libsamplerate.so.0 \
 libsndfile.so.1 \
 libstdc++.so.6 \
-libudev.so.1 \
-update-desktop-files"
+libudev.so.1"
 
 inherit rpm

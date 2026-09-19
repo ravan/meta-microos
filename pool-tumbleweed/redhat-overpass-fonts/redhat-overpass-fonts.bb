@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "3.0.5"
 
-RPM_NAME = "redhat-overpass-fonts-3.0.5-1.1.noarch.rpm"
-RPM_HASH = "7d1be30490fc01ca31bc78fd8511163502f9844d10d08a2f2ba5647c3119e9382bf3df786d3757f47badc9d856c81df45cf04f600a55ae9b3052f15a68e0d451"
+RPM_NAME = "redhat-overpass-fonts-3.0.5-2.9.noarch.rpm"
+RPM_HASH = "d772bd39269a84119c05af3abd45611d1cd4a029f36b9766e7313ee7ee942a4dbf7b962f2aeda1999377adfc52907ff3a70bd19a9a1c54e610682ef33fbd23c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "redhat-overpass-fonts"

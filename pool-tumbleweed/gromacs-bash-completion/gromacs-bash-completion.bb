@@ -5,10 +5,10 @@ simulations. \
 This package contains bash completion support for gromacs."
 LICENSE = "Apache-2.0 & LGPL-2.1-or-later & BSD-3-Clause"
 
-PV = "2023"
+PV = "2026.1"
 
-RPM_NAME = "gromacs-bash-completion-2023-1.2.noarch.rpm"
-RPM_HASH = "9bb59b3c6d42585919fdf421be77b0303b9d3a676d494637e1e89e72066b633fb37dd073e1c593c3fec78768c75e968879c4c58d97d4d8fe56196a0475bfa46a"
+RPM_NAME = "gromacs-bash-completion-2026.1-2.1.noarch.rpm"
+RPM_HASH = "c781cc8c140ac8b29a556e74d125e35a361c65c75840f2f7f9d83937ce493c47222c73e38a0a360dab65eb3d064663e396aa92e324cb7b6d5966b6ebf6d828dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gromacs-bash \

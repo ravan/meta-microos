@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mxedruli"
 DESCRIPTION = "This package includes the documentation for texlive-mxedruli"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.3csvn30021"
+PV = "2026.226.3.3csvn71991"
 
-RPM_NAME = "texlive-mxedruli-doc-2023.209.3.3csvn30021-55.1.noarch.rpm"
-RPM_HASH = "e93511c62b7e19a037d41c786594472596f10ed964e30278c7647cb6223e03c14b62b66b87cb0ec5edc81f0415ae7151757d8ab7775545b0d1d9121ec87d2d1f"
+RPM_NAME = "texlive-mxedruli-doc-2026.226.3.3csvn71991-61.2.noarch.rpm"
+RPM_HASH = "68cd0bd6053ed1df24615fa720be11b164ebd9f7f7c9bd9d7d04f1a87b6275c4d591f07aa1037373e9121e8de1b8d90aba19b720374b4ea9268daf1d999b36a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mxedruli-doc"

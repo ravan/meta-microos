@@ -3,13 +3,13 @@ DESCRIPTION = "Provide python module to access and manage configuration of the S
 Security Services Daemon (sssd)."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "2.9.2"
+PV = "2.13.1"
 
-RPM_NAME = "python3-sssd-config-2.9.2-1.1.aarch64.rpm"
-RPM_HASH = "73bd5aa6273cc3c7480a088c388316d7730df1cc3dc9ec32af7c508bc258b5c7387c81a1032308831a21db8f8cd1e0ad96bb64385b2b3c4cdfa6ab71924d9255"
+RPM_NAME = "python3-sssd-config-2.13.1-2.1.aarch64.rpm"
+RPM_HASH = "dc36d8cecfe303fe73a3ad4d7e71f3ac09b797ac76828a56f24bede3d40071eb00e15d97c7896161ac66e69dc0d953361f942a98eaa96053cab77844cfbdef7f"
 
 RPROVIDES:${PN} += "python3-sssd-config \
-python3.11dist-sssdconfig \
+python3.13dist-sssdconfig \
 python3dist-sssdconfig"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

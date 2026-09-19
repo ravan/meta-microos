@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.8"
 
-RPM_NAME = "gzrt-0.8-2.13.aarch64.rpm"
-RPM_HASH = "1d45ab446a9dad7efc0626e6298d983681de263b81be3bd376f355e8b1fbf57e0f760212f23cb328b636fb3386475d3e8d32f0aa1bd5fb0c87c7d3927767c91e"
+RPM_NAME = "gzrt-0.8-2.23.aarch64.rpm"
+RPM_HASH = "57f06dceba98cb0baa7e0def02756fcc67b17b1f783b232e43ea7fb27ddcd76f159aeb075a0e33b5993fe90f9cbd3e399b594d0ab6d25266fd71d661b7687b8f"
 
 RPROVIDES:${PN} += "gzrt"
 

@@ -6,10 +6,10 @@ This subpackage contains some basic configuration files for its \
 operation."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.2"
+PV = "2.4.19"
 
-RPM_NAME = "cups-config-2.4.2-6.1.aarch64.rpm"
-RPM_HASH = "114327e97b59be1bae81b620d909c7785bbf975bc838788c6cb15ca3dd95c59b5ee38f47b002b27fa294dfef3b14bf87bbb2151e923cb9c94fb31ae95d3dc7e3"
+RPM_NAME = "cups-config-2.4.19-3.1.aarch64.rpm"
+RPM_HASH = "93eca4a7de37ced4d128cb47903b0bab0b2decbe49647b18fd8b44446c187c4afad97ffc6f47186dd112165df69e2460e558ee9684bacf219c9af92f0f368636"
 
 RPROVIDES:${PN} += "config-cups-config \
 cups-config"

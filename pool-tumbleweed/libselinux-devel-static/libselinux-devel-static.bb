@@ -4,12 +4,12 @@ security contexts and to obtain security policy decisions. \
  \
 This package contains the static development files, which are \
 necessary to develop your own software using libselinux."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "libselinux-devel-static-3.5-4.1.aarch64.rpm"
-RPM_HASH = "3f9ab7c1938e490e0bdeec66d94b0f4d2d5b8c061c650731b1393416022393f54c3637dbf2524801a42078276fa95c77a7c4c718ac776546d29b37ae95a3e3cc"
+RPM_NAME = "libselinux-devel-static-3.11-2.1.aarch64.rpm"
+RPM_HASH = "247271d654498635385a69a6928194ada2a2ced0d44ef2924179d686dedf20a594464f5d71f633daa1b67349af117fe411fb33516a967b8df04e1a3a61640b0a"
 
 RPROVIDES:${PN} += "libselinux-devel-static"
 

@@ -6,10 +6,10 @@ console modes and for embedding into other programs. \
 This package allows to use MathGL scripts in LaTeX documents."
 LICENSE = "GPL-3.0-only"
 
-PV = "8.0.1"
+PV = "8.0.3"
 
-RPM_NAME = "mathgl-tex-8.0.1-4.2.noarch.rpm"
-RPM_HASH = "d65ad030c4c04e9ca517d7d5e564406ee4e782edcdc6f891264920ffb845571d6eda8d39f77a9f31a002f0e2254c6603287f1d3428670a32d2f313db07c054f4"
+RPM_NAME = "mathgl-tex-8.0.3-2.6.noarch.rpm"
+RPM_HASH = "03ec1c1ceecdc68445d82689d39396b6b606a8c0f9dc477f53db30c46aad0fec58dd6b4ec2cabbd92d7c48e9ab0a712176404865837ca6382a4b16d38a15754f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-tex \

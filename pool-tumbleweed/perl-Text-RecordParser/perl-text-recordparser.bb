@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.6.5"
 
-RPM_NAME = "perl-Text-RecordParser-1.6.5-3.9.noarch.rpm"
-RPM_HASH = "b471a7ea68eec33ea46093eba40c9c114bb4a4c7e2ee26b3ea80126229bfb33e5767ddd1dcb984321ddee822dc7bf94781883f62163e85a9765db10a45ed2a28"
+RPM_NAME = "perl-Text-RecordParser-1.6.5-3.23.noarch.rpm"
+RPM_HASH = "95c5eb98a13cca70bdbdae85d67ab0a961b712a0b8fedaa536e0d031362a685315cece69f3be10d7bbccddf50c95bce218764969414e8bac66faae645dace6d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--RecordParser \
@@ -22,7 +22,7 @@ perl-Text--RecordParser--Tab \
 perl-Text-RecordParser"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Accessor \
 perl-IO--Scalar \
 perl-List--MoreUtils \

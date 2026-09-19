@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0"
 
-RPM_NAME = "ghc-bimap-devel-0.5.0-2.3.aarch64.rpm"
-RPM_HASH = "78253b0d60faccc3e8d2bdd7f0651653eb48247f8409db10b3dbdd152e467418be1d3f4644e874d71c6cf1f8c5e97e19892cb374201a5df519b4f1ebf1366522"
+RPM_NAME = "ghc-bimap-devel-0.5.0-2.23.aarch64.rpm"
+RPM_HASH = "b3e5976af37d10729fb4f15ad4c325b94379ea09e089dc1b9556872f5797c8bba7ef6a90e1d2aac0b370a99bf751a90b159fbee8eb15dd354d5b3c337abe5f9e"
 
 RPROVIDES:${PN} += "ghc-bimap-devel \
-ghc-devel-bimap-0.5.0-2qQthh2dRFHF2jSbEkPfEn"
+ghc-devel-bimap-0.5.0-4NSO3lF4JlF9IWsrimrxRe"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-bimap \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-exceptions-0.10.5"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-exceptions-0.10.12-f655"
 
 inherit rpm

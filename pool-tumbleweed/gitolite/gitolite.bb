@@ -4,14 +4,15 @@ down to the branch level, including specifying who can and cannot rewind a given
 branch."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.6.13"
+PV = "3.6.15"
 
-RPM_NAME = "gitolite-3.6.13-1.2.noarch.rpm"
-RPM_HASH = "aefc3edd43896617588b17abd2965cdeff332ccead9f86946e01a1b4479d1ba9a92795903f727aae407b990f7948c8224c64d45b83271cfe6029f2afd5000171"
+RPM_NAME = "gitolite-3.6.15-1.1.noarch.rpm"
+RPM_HASH = "93eadbe648b9d1265979938b32c1eef870fcd5184f9f1266d75c067d80bc6dd143886d9078ca4eb50a8a2b7ed8d9cd9443c53ae07acabe2903b3e701d1bbb1d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-gitolite \
 gitolite \
+group-git \
 perl-Gitolite--Cache \
 perl-Gitolite--Common \
 perl-Gitolite--Conf \
@@ -38,13 +39,14 @@ perl-Gitolite--Triggers--Shell \
 perl-Gitolite--Triggers--TProxy \
 perl-Gitolite--Triggers--Writable \
 perl-SugarBox \
-perl-Tsh"
+perl-Tsh \
+user-git"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/sh \
 git \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 user-nginx \
 user-wwwrun"
 

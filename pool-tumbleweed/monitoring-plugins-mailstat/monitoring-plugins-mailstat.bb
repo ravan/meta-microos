@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.1"
 
-RPM_NAME = "monitoring-plugins-mailstat-0.9.1-102.8.noarch.rpm"
-RPM_HASH = "ff2b3d669e70468cc5bb293e8a9943ccca191deed4d0b95a35fa36f28a1e101a1ca5f7fe5fddd6334c3fd7b905861f88528aeeea1a979c48f987e734f5261a3f"
+RPM_NAME = "monitoring-plugins-mailstat-0.9.1-103.7.noarch.rpm"
+RPM_HASH = "42cb8c82cf7b426eb5cb122be7400cfbec920b6829921eac529bf6048faf5ee8c760270502dbfd85fcaa7f078591eb13186001d09a5bcdb63b6462ae69c1225f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-mailstat \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.0"
 
-RPM_NAME = "maven-mapping-3.0.0-3.11.noarch.rpm"
-RPM_HASH = "950171a29b7899261f965becb0f39bb1e27becad07707abb1fef8fdcf30d823d54b9469abd2baecea2b5ddf4f7d4487ffc0c4fcc78542af433f76db29063f7c8"
+RPM_NAME = "maven-mapping-3.0.0-3.21.noarch.rpm"
+RPM_HASH = "687a23b959ff1d3a4e8612404a312fcd05146dfb1bdecf4fc9ea1eff69829e8ad1a7691dc0135eba0bbd8c4c3f3f9d20049ff287434e7c051cf414933d26d41c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-mapping \

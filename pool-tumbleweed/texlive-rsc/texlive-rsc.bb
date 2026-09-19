@@ -7,10 +7,10 @@ stub for the chemstyle package, which the author developed to \
 unify the writing of articles with a chemistry content."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1fsvn41923"
+PV = "2026.226.3.1fsvn41923"
 
-RPM_NAME = "texlive-rsc-2023.209.3.1fsvn41923-54.1.noarch.rpm"
-RPM_HASH = "76e6cf309e929aa6cef7327b50f2b57776d067c4f4ec2d61ec1835a426df67137b91e1584635470cb3b9eb81362581a375b642947e99f67ca1abaa17b39f0ad4"
+RPM_NAME = "texlive-rsc-2026.226.3.1fsvn41923-60.2.noarch.rpm"
+RPM_HASH = "2f2ff833b7a86316438f6b2f5b116678a994be5feb28159728f51eaee1347a495eb01dcf7c1f3359b27920e82dc6b9919628ea69520f72cdaf542c8a1a64eb10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rsc.sty \

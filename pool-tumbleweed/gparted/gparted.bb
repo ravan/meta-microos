@@ -4,17 +4,16 @@ checking and copying partitions, and the filesystems on them. This is \
 useful for creating space for new operating systems, reorganizing \
 disk usage, copying data residing on hard disks and mirroring one \
 partition with another (disk imaging)."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.0"
+PV = "1.8.1"
 
-RPM_NAME = "gparted-1.5.0-1.4.aarch64.rpm"
-RPM_HASH = "58c7eba5a777a44bcd7ebc4d0709bcfdc2ba251b49c8dd9f9032ea1da402aae358452dc4c0647ead75991b60862584482d3b654118a51b63981c7e01d09e702f"
+RPM_NAME = "gparted-1.8.1-2.3.aarch64.rpm"
+RPM_HASH = "2b3aac6c4d944ad33bd9fab103ae8691718e675af7609b98588a7e51274399415a2a050dddf7e95f9d01a3d6fe5d35f3fed32296ae8e4b6553b3af63df261045"
 
 RPROVIDES:${PN} += "gparted"
 
-RDEPENDS:${PN} += "/usr/bin/pkexec \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 gpart \
 hdparm \
 ld-linux-aarch64.so.1 \
@@ -36,8 +35,8 @@ libstdc++.so.6 \
 libuuid.so.1 \
 mtools \
 parted \
+pkexec \
 polkit \
-util-linux \
-xdg-utils"
+util-linux"
 
 inherit rpm

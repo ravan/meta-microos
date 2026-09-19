@@ -10,10 +10,10 @@ capability, new drawing commands can be constructed from \
 drawing segments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.v2r3svn64477"
+PV = "2026.227.v2r3svn64477"
 
-RPM_NAME = "texlive-texdraw-2023.209.v2r3svn64477-55.1.noarch.rpm"
-RPM_HASH = "11782ec49d0c0ec944562238eee00e6435346a8f374da8fe941e03a8180da92ddaa07eaee12cfe0f4514b24cf9adbf8329ce863c6bc25bf1354d3d3287c4a386"
+RPM_NAME = "texlive-texdraw-2026.227.v2r3svn64477-62.2.noarch.rpm"
+RPM_HASH = "3c232fa27497f8cfaf4f3735bd5fcabbbc58461edd99f0356b7951c88660fd0af9744eee7e89b6ed3f79d7f0c1f4e0caab9c62cfd9d6fdeac25bd2c6545c2e27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blockdiagram.tex \

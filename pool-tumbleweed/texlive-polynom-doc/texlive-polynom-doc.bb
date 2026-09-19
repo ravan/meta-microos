@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-polynom"
 DESCRIPTION = "This package includes the documentation for texlive-polynom"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.19svn44832"
+PV = "2026.226.0.0.19svn77682"
 
-RPM_NAME = "texlive-polynom-doc-2023.209.0.0.19svn44832-53.1.noarch.rpm"
-RPM_HASH = "487e6244e3d5e8011756f05753c5ec3f2a7ae4ff977154b99012349b80d21f6cf5b8c5c9a4187987dc46ec22a7f710db8039424048951336e4c8f08f14397fd9"
+RPM_NAME = "texlive-polynom-doc-2026.226.0.0.19svn77682-59.2.noarch.rpm"
+RPM_HASH = "0ae0f8a5c3ff6594f127b3b1c6fd699d36b25a71acd887d83eea49360a5a545dd04b762c1454e40a91a0e5ba6f6b4e010b479ddee0221fa6db3d08038e036d01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-polynom-doc"

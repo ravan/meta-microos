@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chemfig"
 DESCRIPTION = "This package includes the documentation for texlive-chemfig"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6dsvn65912"
+PV = "2026.226.1.71svn77682"
 
-RPM_NAME = "texlive-chemfig-doc-2023.209.1.6dsvn65912-54.1.noarch.rpm"
-RPM_HASH = "2943fde85d1c684a11427967b14cab7885f2f6527f8ac5d14965585dba1cd9b74e40c09e47554525adb8a98faba24377dc5f9d3cfb95d57eff804cb4f9fb14de"
+RPM_NAME = "texlive-chemfig-doc-2026.226.1.71svn77682-60.2.noarch.rpm"
+RPM_HASH = "b82f20046656148ec3806c6072a7ecc1cae95be0b908cf1a80f36ffa35db62717e210067cd1c9176af5cb708de63119454ce28dc1e6a4f2ec8d3e06b153b7195"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-chemfig-doc-en;fr \

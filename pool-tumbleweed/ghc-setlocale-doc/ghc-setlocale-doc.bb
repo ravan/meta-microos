@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0.10"
 
-RPM_NAME = "ghc-setlocale-doc-1.0.0.10-5.1.noarch.rpm"
-RPM_HASH = "5355df29254d44ca1dad89ef32536357fe3e7a3f6f997a913fab2cebee968d6fb1bd32c731e93f63bc19643a381835ac56552bb914ae7d6cecceeed2aefac4cb"
+RPM_NAME = "ghc-setlocale-doc-1.0.0.10-8.5.noarch.rpm"
+RPM_HASH = "53841d403b0af2d40dd4eacfaf19a370dc6a19d3e6aecb11c906f734a85d897b8b75ae68197a79eee13711c27131b7f5999e8ea23250543cae30e860221eba3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-setlocale-doc"

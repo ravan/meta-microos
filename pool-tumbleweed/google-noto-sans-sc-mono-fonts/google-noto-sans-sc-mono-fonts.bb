@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.004"
 
-RPM_NAME = "google-noto-sans-sc-mono-fonts-2.004-3.3.noarch.rpm"
-RPM_HASH = "b76c632ee6bc6395c889fae6f60c305a3d8d24690c436d14c14e7c44138d2d36ae49f5121db46b896eed047ba091806a4f8722a87d40e1a4d168cfd48eb68403"
+RPM_NAME = "google-noto-sans-sc-mono-fonts-2.004-7.7.noarch.rpm"
+RPM_HASH = "7cf60a4f236c49791d96515033c9e1157537c483188617c421fefbbef3de2fbb5da7713562708f2b517039a5ddfb4903392f6d673993774724fb4ff12d16a2c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-noto-sans-sc-mono-fonts \

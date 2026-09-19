@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gimp"
 DESCRIPTION = "Provides translations for the 'gimp' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.10.34"
+PV = "3.2.6"
 
-RPM_NAME = "gimp-lang-2.10.34-5.1.noarch.rpm"
-RPM_HASH = "d70b9544e6226b99f359d7bb4f5c243bae43c32a803553232002e988e1b619c6428685e30d942e38573176c6cedc1ccef718c6f69860be915e3c55f69b7605e0"
+RPM_NAME = "gimp-lang-3.2.6-1.1.noarch.rpm"
+RPM_HASH = "131aa2d0fb8f58d90081b5c2da4e62b0091be6e96c7cfcde94e5aeea37c6c2e401c23799c18d3c2519f07656ff9c680c002f277324aceff47d4d558420083326"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gimp-lang \
@@ -15,6 +15,7 @@ locale-gimp-ast \
 locale-gimp-az \
 locale-gimp-be \
 locale-gimp-bg \
+locale-gimp-bn \
 locale-gimp-br \
 locale-gimp-bs \
 locale-gimp-ca \

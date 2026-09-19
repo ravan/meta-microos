@@ -5,10 +5,10 @@ between the aws-cli ecs command line tool and an instance running in \
 Amazon EC2."
 LICENSE = "Apache-2.0"
 
-PV = "1.53.0"
+PV = "1.106.1"
 
-RPM_NAME = "amazon-ecs-init-1.53.0-1.11.aarch64.rpm"
-RPM_HASH = "f27bc53a17650cc6435187c289c1be4ed265db4e3cdd9b20024660f4c1982525bf0bb045116b3da9d9a1d74594b1ef470b59ba6c4a62ac9608cba498f0c62d69"
+RPM_NAME = "amazon-ecs-init-1.106.1-1.1.aarch64.rpm"
+RPM_HASH = "7b499c28f83c506a47b830b642dcf12622a2555b8c57055c1e527cc13aa7becb19f1000ba9cd6445ff0be7c9030946e5d802cd7e71e4d98708490e7f41f8db43"
 
 RPROVIDES:${PN} += "amazon-ecs-init \
 bundled-golang(github.com/Azure/go-ansiterm) \

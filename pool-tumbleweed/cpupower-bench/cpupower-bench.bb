@@ -6,10 +6,10 @@ For that purpose, it compares the performance governor to a configured \
 powersave module."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "cpupower-bench-6.4.12-4.23.aarch64.rpm"
-RPM_HASH = "1cd7f19d6d14f4b545fd85e31ade1ae374a85afd1ed45738da4c7db58cd9f5d7a92d78025cd6364bb81b549c2c32f0351d04e82ca1a210440b85b9f6372763bd"
+RPM_NAME = "cpupower-bench-7.2.5-14.14.aarch64.rpm"
+RPM_HASH = "fe2eedcd3e61990cd89320cb7ce9f1ca0ea4bb4d4252a3da7d9abefc9139e09e1193d75e061b4df1ec785084f72db05db3054f556e43a48231690dcc1d17b844"
 
 RPROVIDES:${PN} += "config-cpupower-bench \
 cpupower-bench"
@@ -17,7 +17,7 @@ cpupower-bench"
 RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcpupower.so.0 \
+libcpupower.so.1 \
 libm.so.6"
 
 inherit rpm

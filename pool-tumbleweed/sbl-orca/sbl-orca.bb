@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
 PV = "3.5.0.20130317.git7a75bc29"
 
-RPM_NAME = "sbl-orca-3.5.0.20130317.git7a75bc29-6.15.aarch64.rpm"
-RPM_HASH = "7201782e98da615c45eff668e96273af1e3f4b1587bfc93b4c399ace479978c3f5bfbdb76698f78f78169a8f2ea921e6aa5e876aed519e6d218d44c827332c6e"
+RPM_NAME = "sbl-orca-3.5.0.20130317.git7a75bc29-10.4.aarch64.rpm"
+RPM_HASH = "78b83db2cd3f23e56579dfe94f45d8dd9be96fa125afdf004b99c241dca79fdf9cd7532353924b5ea1d402410a0d378677f813cae92aee04e0f648c4fdfbf6f1"
 
 RPROVIDES:${PN} += "sbl-orca"
 

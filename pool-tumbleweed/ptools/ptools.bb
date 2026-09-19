@@ -1,18 +1,12 @@
 SUMMARY = "The process tools collection"
 DESCRIPTION = "pbuildid dumps the build-ids of an executable, core file or a process, \
-given the pid of that process. \
- \
- \
- \
-Authors: \
--------- \
-    Jan Blunck <jblunck@suse.de>"
-LICENSE = "GPL-2.0+"
+given the pid of that process."
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1"
 
-RPM_NAME = "ptools-0.1-26.27.aarch64.rpm"
-RPM_HASH = "7267c3f7511eecb2942546c42f0721d297371d7db087e22751354e57e74f0b0200725ff736850f665318518ac387702f7ec6056363468ec70aa00272c3a18360"
+RPM_NAME = "ptools-0.1-29.10.aarch64.rpm"
+RPM_HASH = "cd807761c99be6fc187d092da456cba2a69f14df5fc3ef9b3d71d923b751a549a6920993f697ec4b007fa9c3c8b9af369b68c80be235c4fef16889a0e3563153"
 
 RPROVIDES:${PN} += "ptools"
 

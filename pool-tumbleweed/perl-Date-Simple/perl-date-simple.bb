@@ -48,8 +48,8 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "3.03"
 
-RPM_NAME = "perl-Date-Simple-3.03-9.39.aarch64.rpm"
-RPM_HASH = "613fb626cdafb2b2341b1a8422f7738b0f2cc11187966ac86e73b6ccd8e195ec52eafff2e2e7c6b4f99cad8824107040f02d8241ee15bbb23b8bcecfb9f5963a"
+RPM_NAME = "perl-Date-Simple-3.03-9.56.aarch64.rpm"
+RPM_HASH = "529347b0eee9e86a4999cb76540703d53438ed71c97e59da65707d81a1323f734d027fe49a373212ae2b8e6e82315d3db2d8e98b4329deba4807fdbf1e1fd8d2"
 
 RPROVIDES:${PN} += "perl-Date--Simple \
 perl-Date--Simple--D8 \
@@ -59,7 +59,7 @@ perl-Date-Simple"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Scalar--Util \
 perl-Test--More"
 

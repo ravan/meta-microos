@@ -4,10 +4,10 @@ software for Armv7-A and Armv8-A, including a Secure Monitor executing at \
 Exception Level 3 (EL3)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.8.6"
+PV = "2.12.8"
 
-RPM_NAME = "arm-trusted-firmware-zynqmp-2.8.6-1.2.noarch.rpm"
-RPM_HASH = "03dfeda99f0256e8637b30f18f0c6901246940e4e15d49731afefc0e8505e42d32c387e2e94513cee5998e1ae1c6a194d42cd452fd3e744f40af43449383b5e1"
+RPM_NAME = "arm-trusted-firmware-zynqmp-2.12.8-4.1.noarch.rpm"
+RPM_HASH = "2924db4fb7090ea6cccc1c67c135bc873b9c75a88ee281410cbd3dd314454e489a15a510793fe441d9c6f753a9ea4538344272cf97b0a273d88ffe963a4a25ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-zynqmp"

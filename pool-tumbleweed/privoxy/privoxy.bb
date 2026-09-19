@@ -4,13 +4,15 @@ server that runs between a web browser and a web server and filters \
 contents as described in the configuration files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.0.34"
+PV = "4.2.0"
 
-RPM_NAME = "privoxy-3.0.34-1.4.aarch64.rpm"
-RPM_HASH = "2f89a943b0d49ec120e5b8953ac4f1335e7dfc2185797d341811bc6f7994baff8870b86d7603ebcdc1e63625053e823cc1abbf7b1db9d18e03ec52751466c764"
+RPM_NAME = "privoxy-4.2.0-1.3.aarch64.rpm"
+RPM_HASH = "b1ac37552fc1f28afc53a3a56ad7ca276988b2e3da133531cfb9f14433dc30b11aa2c0d0d6781a4cf28b821f00f36e2fcd153d510c9c8fac6212e5b11abe54bf"
 
 RPROVIDES:${PN} += "config-privoxy \
-privoxy"
+group-privoxy \
+privoxy \
+user-privoxy"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \
@@ -19,8 +21,7 @@ ld-linux-aarch64.so.1 \
 libbrotlidec.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-libpcre.so.1 \
-libpcreposix.so.0 \
+libpcre2-8.so.0 \
 libssl.so.3 \
 libz.so.1 \
 logrotate"

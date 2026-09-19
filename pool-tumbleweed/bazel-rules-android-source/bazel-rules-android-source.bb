@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.1"
 
-RPM_NAME = "bazel-rules-android-source-0.1.1-1.6.noarch.rpm"
-RPM_HASH = "430661ba5bef205b0c235b7d684856e2c31c0ddf614534e1add8c8fca37e2c1c78f36637721c3f400e96c5935d75b643090d760777ec3db6da81c1014bb563b5"
+RPM_NAME = "bazel-rules-android-source-0.1.1-1.14.noarch.rpm"
+RPM_HASH = "b32a4d6e5d361e73adf9f4533efd5ed4bff347d979d86e89ec84b8df2d5abdcd0c10de41a2c647a9b41296f0e5355dbfc94aee7e776e7da6c844ca7cbd25422c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-android-source"

@@ -1,12 +1,12 @@
 SUMMARY = "Development package for the raptor library"
 DESCRIPTION = "This package contains the files needed to compile programs that use the \
 raptor library."
-LICENSE = "LGPL-2.1-or-later | GPL-2.0-or-later | Apache-2.0"
+LICENSE = "Apache-2.0 | GPL-2.0-or-later | LGPL-2.1-or-later"
 
-PV = "2.0.15"
+PV = "2.0.16"
 
-RPM_NAME = "libraptor-devel-2.0.15-3.18.aarch64.rpm"
-RPM_HASH = "600a05cbba5023eb42791769521d824efa9d78eafa5a339bbb96a7d019b5e3baf8470f59941fc5dc946d3cbd67a27aebaebf0fa7dfe797dca000d07d82b17b37"
+RPM_NAME = "libraptor-devel-2.0.16-5.8.aarch64.rpm"
+RPM_HASH = "51d60cde22aeb160be17eda3b951d528f64ffc82593ee66e0dd50fff9eb444e9cabeb34d09b61dccc24232990b3d153d0e6476a65d20898884969d249b380119"
 
 RPROVIDES:${PN} += "libraptor-devel \
 pkgconfig-raptor2 \

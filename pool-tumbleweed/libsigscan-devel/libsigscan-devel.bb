@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libpff."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230109"
+PV = "20260902"
 
-RPM_NAME = "libsigscan-devel-20230109-2.1.aarch64.rpm"
-RPM_HASH = "7069263cb201f0523b8e1a02e4b9da00b0428267bb08e50958cbc5ef2c787fed2af88c419f1949324e1a37ccdef4c5af0e49c07af240fcfec23ec35882c41777"
+RPM_NAME = "libsigscan-devel-20260902-1.1.aarch64.rpm"
+RPM_HASH = "0e3f10e42ca00aa9e001294f0f4f5649ee2c997918e706ffff3eea3dafae456cd89896fa884c10b531c7dfa12eb87f00c78ae2c0b35f7094dd5caa3e51cef078"
 
 RPROVIDES:${PN} += "libsigscan-devel \
 pkgconfig-libsigscan"

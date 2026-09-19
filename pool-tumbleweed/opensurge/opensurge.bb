@@ -4,10 +4,10 @@ games. The characters named Surge, Neon and Charge are to save the \
 world from the evil Gimacian the Dark."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later & LGPL-2.1-or-later & CC-BY-3.0 & OFL-1.1 & MIT"
 
-PV = "0.6.0.3"
+PV = "0.6.1.3"
 
-RPM_NAME = "opensurge-0.6.0.3-2.4.aarch64.rpm"
-RPM_HASH = "fcc8dd5191ccf259238d4906a6944596d5f52d812d188fd6e836a559655cea9ae251967665d6fc2c23359692b68bc4b825f2a1818ec7c120162af2c705816f69"
+RPM_NAME = "opensurge-0.6.1.3-1.4.aarch64.rpm"
+RPM_HASH = "7ab55a5172daf5af2f3906ab04f95928ca73695175f54e19f4f73c461c4233088a54cda9fe0a3fd754a46214f489215976c2af0d315f4d0f44e3534a01f4bdad"
 
 RPROVIDES:${PN} += "opensurge"
 
@@ -18,11 +18,13 @@ liballegro-dialog.so.5.2 \
 liballegro-font.so.5.2 \
 liballegro-image.so.5.2 \
 liballegro-memfile.so.5.2 \
+liballegro-physfs.so.5.2 \
 liballegro-primitives.so.5.2 \
 liballegro-ttf.so.5.2 \
 liballegro.so.5.2 \
 libc.so.6 \
 libm.so.6 \
-libsurgescript.so.0.5.6"
+libphysfs.so.1 \
+libsurgescript.so.0.6.1"
 
 inherit rpm

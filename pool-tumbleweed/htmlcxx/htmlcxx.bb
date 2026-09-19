@@ -7,12 +7,12 @@ DESCRIPTION = "This is a simple non-validating css1 and html parser for C++. Alt
 - Optional parsing of attributes \
 - C++ code that looks like C++ (not so true anymore) \
 - Offsets of tags/elements in the original document are stored in the nodes of the DOM tree"
-LICENSE = "LGPL-2.0-only & Apache-2.0"
+LICENSE = "Apache-2.0 & LGPL-2.0-only"
 
 PV = "0.87"
 
-RPM_NAME = "htmlcxx-0.87-2.9.aarch64.rpm"
-RPM_HASH = "71f4372eca3379c02dc3f3108dc2f67060a0895319374288969ccade49f74c1a9d5cac55c164a3072b4d064f5639376d274a78ba1b964fee5ed8c81ce0810442"
+RPM_NAME = "htmlcxx-0.87-3.1.aarch64.rpm"
+RPM_HASH = "0c62424ce0ce9fcc443bc0760a3a4fe0ea6b5fc9f7af951b61ae2fd3551405e909ca257f095813e088d670bd29399c0b46adf720096ef0d9e63a268a11762b6e"
 
 RPROVIDES:${PN} += "htmlcxx \
 libcss-parser-pp.so.0 \

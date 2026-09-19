@@ -10,8 +10,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.1.0"
 
-RPM_NAME = "delaguardo-inconsolata_lgc-fonts-1.1.0-5.17.noarch.rpm"
-RPM_HASH = "0bd80dc8c42e1f91edde3f1c8cc5cfd85d15fed04eefcb122753f74e4bf6e0a69dd38fc67f5c2ec75a18e81db587650e28422ca2c8078f1221cb690935cb5035"
+RPM_NAME = "delaguardo-inconsolata_lgc-fonts-1.1.0-5.25.noarch.rpm"
+RPM_HASH = "3395cd55379d178474009e7b013e6a39b1410ee6a27b33fecbd1402c353a5a3189252338db008104ab48b8646d16159f0cdf9c534cec2df021666e1bd6b4fc8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "delaguardo-inconsolata-lgc-fonts"

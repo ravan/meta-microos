@@ -7,10 +7,10 @@ hints that conversion for use with other languages (than \
 French) should be possible."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.01svn32263"
+PV = "2026.226.2.01svn32263"
 
-RPM_NAME = "texlive-pas-cv-2023.209.2.01svn32263-52.1.noarch.rpm"
-RPM_HASH = "c715b408e53f59df6902c54a625a1f590ed61513960dfd10629897447eca390d27d13ce2960935e2c9c43bc8b756e5938891524a8f6d0520d0bb6d48b0c3c50e"
+RPM_NAME = "texlive-pas-cv-2026.226.2.01svn32263-58.2.noarch.rpm"
+RPM_HASH = "8a5cffc0f38a978046bd53813661caf1500748049b5629f927ad3271c1354b94c23389c314b95647ef09ca548f167204599f6fedc9d6677ad18588d3caaf0e93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-macro-andromede.tex \

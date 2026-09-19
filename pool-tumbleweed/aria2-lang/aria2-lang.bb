@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package aria2"
 DESCRIPTION = "Provides translations for the 'aria2' package."
-LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
+LICENSE = "LicenseRef-SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "1.36.0"
+PV = "1.37.0"
 
-RPM_NAME = "aria2-lang-1.36.0-1.12.noarch.rpm"
-RPM_HASH = "6be5eb1687e097b153b4aea69d41685c38178f390a18eb12f007bc9e4f6bd03c08c175605996fe935087dbfbb3d3be7f468901f49c5de4a1757063d01537abe3"
+RPM_NAME = "aria2-lang-1.37.0-2.2.noarch.rpm"
+RPM_HASH = "5e3ddea748ea9de45d78ebb785f052a38a913f5aec263e1ab1eee4c9c3ed8050f25d1dfc6a3f9c9c142b18bce65b244510f1c249ff3e89b7144b6632e181804f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aria2-lang \

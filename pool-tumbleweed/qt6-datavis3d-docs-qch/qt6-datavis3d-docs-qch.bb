@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-datavis3d in QCH format"
 DESCRIPTION = "This package contains documentation for qt6-datavis3d in QCH format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-datavis3d-docs-qch-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "c63f5ffb02150b30c9fff1280f8dfd88e92251cebb00ee596faade80ae70b499058fa6af0776174ff3abd79c6be9174e580ea57894f3c9e95e4da7d06d9ee25c"
+RPM_NAME = "qt6-datavis3d-docs-qch-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "5d8eac715b8e05a1f6268873f1c1c4665b88ca39bf768f0c1ab8cf5e17c6bd732c7e4be4e953e0457f2f00c0c305d966a85be2fd92a477e26ed24c58fc04705d"
 
 RPROVIDES:${PN} += "qt6-datavis3d-docs-qch"
 

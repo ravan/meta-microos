@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-initial-setup"
 DESCRIPTION = "Provides translations for the 'gnome-initial-setup' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.1"
 
-RPM_NAME = "gnome-initial-setup-lang-44.0-2.3.noarch.rpm"
-RPM_HASH = "0eb49cd14cd0bb9367e86b6a8970462b30b4a82d136ba712bdb894a7f3cf0cbbc20c5291f5b8ca4410fe5e9594e3feea51c7fde53fba79151fb65950c5e39359"
+RPM_NAME = "gnome-initial-setup-lang-50.1-1.1.noarch.rpm"
+RPM_HASH = "f1c81f2842579b2c89aba69b8eacd6f5bdb793c023b6c18b5d28c7c332b5acc4399fd50058a8c2889699e560de43d7d3da6017e84b3079f9e62587c3a8046b14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-initial-setup-lang \
@@ -57,6 +57,7 @@ locale-gnome-initial-setup-ms \
 locale-gnome-initial-setup-nb \
 locale-gnome-initial-setup-ne \
 locale-gnome-initial-setup-nl \
+locale-gnome-initial-setup-nn \
 locale-gnome-initial-setup-oc \
 locale-gnome-initial-setup-or \
 locale-gnome-initial-setup-pa \

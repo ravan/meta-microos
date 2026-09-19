@@ -2,10 +2,10 @@ SUMMARY = "Translations for package deadbeef"
 DESCRIPTION = "Provides translations for the 'deadbeef' package."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & Zlib & LGPL-2.1-or-later"
 
-PV = "1.9.5"
+PV = "1.10.2"
 
-RPM_NAME = "deadbeef-lang-1.9.5-2.2.noarch.rpm"
-RPM_HASH = "e1c4205beb8addc85f6540b33fdd6ebada7853a9956504da6e7d0b99de3c61a08c6cf1208e944bbfae56ba3b0a19249ddb4b048a67f573759d98ab615c965afc"
+RPM_NAME = "deadbeef-lang-1.10.2-3.3.noarch.rpm"
+RPM_HASH = "295ee6ff91cb3cef6b9af6b455e6f787c030cfcce7cb6fe66794df9bb31cee0788588ab1f872cec0beb776c22a465d8360e597ce43202f57ad15386ae1bf0b81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deadbeef-lang \

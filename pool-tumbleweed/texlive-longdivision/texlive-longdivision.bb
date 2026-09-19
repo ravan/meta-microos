@@ -15,10 +15,10 @@ to be an integer). This package depends on the xparse package \
 from the l3packages bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.1svn59979"
+PV = "2026.226.1.2.2svn77682"
 
-RPM_NAME = "texlive-longdivision-2023.209.1.2.1svn59979-55.1.noarch.rpm"
-RPM_HASH = "9265e7fa8c61a23c2c3d18d7904b945ffee6b7406790d916e96e7196e4e456e3d58123437e1afd42e4b1b2c73079c8e0b70e125ec1c37a2a1c03916c168ddcd2"
+RPM_NAME = "texlive-longdivision-2026.226.1.2.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "15794f67caa64780eb7735cb2e97fdc310153a3ae8b1e0cc5b743d9119412856b2882597550d14a0f2658ecd34c56cd4c50c2e4638df418334eb9f3e1f9f3f2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-longdivision.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Toolkit for libime"
 DESCRIPTION = "This package provides toolkit for libime."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.1"
+PV = "1.1.13"
 
-RPM_NAME = "libime-tools-1.1.1-1.1.aarch64.rpm"
-RPM_HASH = "df7a9d7031771242687c3e40fcfa5dcc270ac7b43617f627029ee1fa87bf381e652149a1143e00b21b68b7fa30687b42a8c213cf234ca7fcf9dff40e0881ec6a"
+RPM_NAME = "libime-tools-1.1.13-1.5.aarch64.rpm"
+RPM_HASH = "0e0284da2bc3d0504914f6a23fb2467ac744f05cd2f0d8ad7ac6a7f7ffbb010809045e7025caf19aced7353d25b07532e5905b48f0489516dcbb933bfa25a34b"
 
 RPROVIDES:${PN} += "libime-tools"
 
@@ -14,7 +14,6 @@ libFcitx5Utils.so.2 \
 libIMECore.so.0 \
 libIMEPinyin.so.0 \
 libIMETable.so.0 \
-libboost-iostreams.so.1.82.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

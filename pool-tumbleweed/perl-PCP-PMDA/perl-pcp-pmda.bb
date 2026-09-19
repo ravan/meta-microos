@@ -6,17 +6,19 @@ example the operating system kernel, Cisco routers, a database, \
 an application, etc."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "perl-PCP-PMDA-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "053fe602caf3572bb3df184153269f1b4fc1bb33a4673945bc170df7bf74b4a6266ef69eae5c64078220821f5ac1db61d4cb37c11ee26369f68abfdee88893ed"
+RPM_NAME = "perl-PCP-PMDA-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "fccf9bcf5b7ac0ca8f82a0f7c0f45f8f84efcab58277cdfbf2781b0b6bca5a832c31f1eb6667f767d1bba7c9aec5d4628390f5b15660e8d07f67eb3c693513f1"
 
 RPROVIDES:${PN} += "perl-PCP--PMDA \
 perl-PCP-PMDA"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libpcp-pmda.so.3 \
+libpcp.so.3 \
 libpcp3 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

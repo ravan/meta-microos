@@ -2,10 +2,10 @@ SUMMARY = "Norway datum grids for Proj"
 DESCRIPTION = "Norway datum grids for Proj."
 LICENSE = "BSD-2-Clause & CC0-1.0 & CC-BY-4.0 & CC-BY-SA-4.0 & SUSE-Public-Domain"
 
-PV = "9.2.1"
+PV = "9.8.1"
 
-RPM_NAME = "proj-data-no-9.2.1-1.1.noarch.rpm"
-RPM_HASH = "1156f5b6030b2147afd0118308fc1b6a093d9540a2c758be39eccfcbd11313b7517a5406c43ed5e1bb9638cc98c37e7d654f45b2e9d26fbe2bcf84c116a5c844"
+RPM_NAME = "proj-data-no-9.8.1-2.3.noarch.rpm"
+RPM_HASH = "af3cb5bdb542faf56b4af53c22484bdea6800b8194b27a5e807fc8983568ad582121fa5e2d4955644fef6296a61c1a32645b517bacea6d67963da97b21eff38b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "proj-data-no"

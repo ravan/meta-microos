@@ -4,7 +4,7 @@ consistent formatting of control sequences, package options, \
 source code examples, and writing a package manual (including \
 an index containing the explained control sequences, options, \
 ldots). The bundle also provides several other small ideas of \
-mine such as a mechansim for providing abbreviations etc. Not \
+mine such as a mechanism for providing abbreviations etc. Not \
 at least it provides a number of programming tools. The \
 intention behind this bundle mainly is a selfish one: \
 documenting my own packages. The bundle contains an index style \
@@ -12,10 +12,10 @@ file cnltx.ist that should be placed in a directory in a TDS \
 makeindex directory."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.15svn55265"
+PV = "2026.226.0.0.15svn76924"
 
-RPM_NAME = "texlive-cnltx-2023.209.0.0.15svn55265-54.1.noarch.rpm"
-RPM_HASH = "6c648d9efe557ec89dc37198ba0282686f917069f2757f8ca5e7dcb03b508f5edf8191d0222a976880ed5dc32b9621c9c8ff43151364d9b07dfb064916ca3b57"
+RPM_NAME = "texlive-cnltx-2026.226.0.0.15svn76924-60.2.noarch.rpm"
+RPM_HASH = "42ab943c7f82b28bf672359b7062ced8382e04a33fa2fd675b26b7146ef6108e404c7f2b4249add6e05f1d1a840dc518146edf319887f5c277ce7eda8abc4010"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cnltx-base.sty \

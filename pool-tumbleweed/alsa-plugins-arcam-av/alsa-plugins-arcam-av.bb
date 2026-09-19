@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a control plugin to access Arcam AV amplifi
 for ALSA library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-arcam-av-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "e7506fab7a8e1fe00899fbcabfdea9ce33b11cf5a4df31aee5ac9f421d6aa865a2a62f7bfc36cee4ce5cdf1b1602c492f10200b175b81b668f42412dc3e1b1d3"
+RPM_NAME = "alsa-plugins-arcam-av-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "90693e1b915323ae50efecd2705ff6e7678df55f1bd4b0907e2f6faaa6e34bc62352de8a9b8014ea7afb8b90e201e303c880e7ceb73d5133c46aeafe808c79c3"
 
 RPROVIDES:${PN} += "alsa-plugins-arcam-av \
 libasound-module-ctl-arcam-av.so"

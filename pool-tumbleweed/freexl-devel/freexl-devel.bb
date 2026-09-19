@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 compile and develop applications that use libspatialite."
 LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later"
 
-PV = "1.0.6"
+PV = "2.0.0"
 
-RPM_NAME = "freexl-devel-1.0.6-1.8.aarch64.rpm"
-RPM_HASH = "0365ee29c1172448f5d0e3becd1ad73c16bfc33ae27c8b03f4f15ef689c86afc2eb31ca1c822af95bb3283c30c765472893acea797a9517fc80a76086e4a81e0"
+RPM_NAME = "freexl-devel-2.0.0-1.11.aarch64.rpm"
+RPM_HASH = "8d908876c202f28af145ba795246d803eda52b00e4ba6c64a1f6730a8ac2c4ac274bb50b25a99993958db6458480a63dac0cd26d17683bb1affe9196b6af912d"
 
 RPROVIDES:${PN} += "freexl-devel \
 pkgconfig-freexl"

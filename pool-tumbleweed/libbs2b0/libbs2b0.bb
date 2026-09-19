@@ -7,14 +7,13 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "libbs2b0-3.1.0-13.3.aarch64.rpm"
-RPM_HASH = "72e7ff775fc12b9bf4db184cc517cc987c9bf2fbe2f6ec6d082fd4a385d702966de5b99938ec2c133a38c036a2a8155b5402fa406fa54daf8313f908ddddc3b7"
+RPM_NAME = "libbs2b0-3.1.0-14.11.aarch64.rpm"
+RPM_HASH = "8e6fd3df6fd853d913b29a061e1b90980c0e32df798ae71fc836b71c58c13ccd0ec6e0fa0e70eed88e3792928252cbb739d3f381feba786631a53a07008e4fa2"
 
 RPROVIDES:${PN} += "libbs2b.so.0 \
 libbs2b0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6"

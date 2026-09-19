@@ -2,15 +2,16 @@ SUMMARY = "Translations for package analitza"
 DESCRIPTION = "Provides translations for the 'analitza' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "analitza-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "b531f6a4c46f5b0a5c6858d70f51de88da470055572d02db7bf69536bb400439918ab4ffa902b62a4e2881c42ffc9eb36e9d20190398017d8ca6697545f9cf33"
+RPM_NAME = "analitza-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "5cc1705cb50066e18438edec527c8a48a2233598ed9219a13ccdbcd118db4330c4fa777b6f03d1f967a387218e62fc727ec13316f943090598bd512ec820aac0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "analitza-lang \
 analitza-lang-all \
 locale-analitza-ar \
+locale-analitza-ast \
 locale-analitza-bs \
 locale-analitza-ca \
 locale-analitza-ca@valencia \
@@ -19,6 +20,7 @@ locale-analitza-da \
 locale-analitza-de \
 locale-analitza-el \
 locale-analitza-en-GB \
+locale-analitza-eo \
 locale-analitza-es \
 locale-analitza-et \
 locale-analitza-eu \
@@ -26,6 +28,7 @@ locale-analitza-fi \
 locale-analitza-fr \
 locale-analitza-ga \
 locale-analitza-gl \
+locale-analitza-hi \
 locale-analitza-hu \
 locale-analitza-ia \
 locale-analitza-it \

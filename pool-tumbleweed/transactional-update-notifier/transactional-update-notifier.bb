@@ -4,14 +4,15 @@ all users currently logged in in a graphical session. Being even possible \
 for it to be used as a reboot method through transactional-updates.conf(5)."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.1.0.2"
+PV = "1.1.2"
 
-RPM_NAME = "transactional-update-notifier-1.1.0.2-1.5.aarch64.rpm"
-RPM_HASH = "4a728e049a3857236771df780ef5d89f8bc724e35c40e126752db5870acd8b62e043b3a6f2d35ad269c57e3e42598b7c0e5bbde7be4b73ddb9a794650d7236ed"
+RPM_NAME = "transactional-update-notifier-1.1.2-2.7.aarch64.rpm"
+RPM_HASH = "33a07404f7cf0bdb6b3fd603919af05fdc71f5d4822389a479118169d342a526bf0ab0b84daaac779c0ce6b58f201b08a59c4c634bbf212378d121441cd47aae"
 
 RPROVIDES:${PN} += "transactional-update-notifier"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-dbus-1"
+dbus-service \
+libc.so.6"
 
 inherit rpm

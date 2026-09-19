@@ -2,10 +2,10 @@ SUMMARY = "NoVNC service for Xvnc"
 DESCRIPTION = "A service that starts noVNC linked to Xvnc server."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "1.13.1"
+PV = "1.16.1"
 
-RPM_NAME = "xorg-x11-Xvnc-novnc-1.13.1-3.3.noarch.rpm"
-RPM_HASH = "72e68a5ad3c8f4ee57670aa73fade06ba7bd78d723d51b3e0186f13490fe45f5c183cc6b11a86a8055fc40af4766ffb899704be72406357404b01898f2234491"
+RPM_NAME = "xorg-x11-Xvnc-novnc-1.16.1-3.1.noarch.rpm"
+RPM_HASH = "86692a9489686897a3ea76d0008cdade14185b6d83b4609c6d7994e7dcd6dfeb074507f9cbc17569980a9c886077d16fc69758c29de26a196bb449c9753452c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-x11-Xvnc-novnc"

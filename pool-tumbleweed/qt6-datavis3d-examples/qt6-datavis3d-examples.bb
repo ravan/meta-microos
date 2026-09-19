@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-datavis3d modules"
 DESCRIPTION = "Examples for the qt6-datavis3d modules."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-datavis3d-examples-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "ecb9a24d06ad1b650bce20ad4908d7da053fc1b8b98b96472d6874cea24fd70bfaa5c027bb92b1aad214126d53650ab6549d400c3b8dd7fb30f8fefa7d675d91"
+RPM_NAME = "qt6-datavis3d-examples-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "e14bc69874a3c8c2e9bfe9be825167bf47cc624c818854e0c0b50c8c48f90daff99943648c298ffeca3ce96100e3d14e2970c656f8282360c396b5e3a5ec63ec"
 
 RPROVIDES:${PN} += "qt6-datavis3d-examples"
 
@@ -19,6 +19,12 @@ libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6qmlimport-Qt.labs.qmlmodels \
+qt6qmlimport-QtDataVisualization \
+qt6qmlimport-QtQml.Models \
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.Controls \
+qt6qmlimport-QtQuick.Layouts"
 
 inherit rpm

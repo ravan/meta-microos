@@ -7,10 +7,10 @@ This package provides the upstream theme configuration for widgets and \
 icon themes."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.12.0"
+PV = "4.22.5"
 
-RPM_NAME = "gtk4-branding-upstream-4.12.0-2.1.noarch.rpm"
-RPM_HASH = "298f916dda17383b49c4188b4737282cf6c208a64f8146c1561b57ebc53d6bf33f3ec286b940c93f7cfb93c75d42c6887fc11bf979dd2978591ade68fe5d4fac"
+RPM_NAME = "gtk4-branding-upstream-4.22.5-1.1.noarch.rpm"
+RPM_HASH = "722973fc55a6e974a58567bd4b2122267d325cb7a8c05ba06cbf2d864606b6260cb191b1a4eda5756e834f346fce7a6cfe5b302fa388801922381e403c42be7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-branding \

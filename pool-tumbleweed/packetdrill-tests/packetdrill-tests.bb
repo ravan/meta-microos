@@ -1,11 +1,11 @@
 SUMMARY = "Sample test scripts for packetdrill"
 DESCRIPTION = "Collection of sample test scripts from Google for packetdrill utility."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "2.0+git.20230521"
+PV = "2.0+git.20260514"
 
-RPM_NAME = "packetdrill-tests-2.0+git.20230521-1.1.noarch.rpm"
-RPM_HASH = "440528958632f59f3b0b6cd1068614b2675371f17c81ad8b8f48ffcee06038506c08a8499369a5f9f9e7f11a4debd03f4364b3448ed92145008b42a0d1501c62"
+RPM_NAME = "packetdrill-tests-2.0+git.20260514-2.2.noarch.rpm"
+RPM_HASH = "69bd043b96baaffd9862cd2c4a7b88f8939c6e722e93465f505c11d0dc5c2ab6cce1acc599230b3c43c83692dcd48f391a4d79889c9d7010a08a990f1a35885e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "packetdrill-tests"

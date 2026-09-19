@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Georgian sc
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-georgian-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "5a04ba9e803cd372e47479121b35c01b51ba554d379833706d817a7f3e7eae52729a912e433471bcc40fecbdb5490344686eac4c558cac7ec662d0e4103895d0"
+RPM_NAME = "tesseract-ocr-traineddata-script-georgian-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "1271a8dc0a8ecda94a62ae5363d2a7b4461b8dbfdc3de06258dde2747899fafbcb44a03f3cd310cd4fe0e3415b639e7e6097ac02e62d9fe852864446ecd593f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-georgian"

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "tntdb-doc-1.4-1.13.noarch.rpm"
-RPM_HASH = "c0cf62aac79de0144c55d70fe6aad40093d91114cf8139abcd71fab105fc4b30fa290a5b646738011d1da3d2af3793f71c383924e0915ec5b6bd86ee4ce18d80"
+RPM_NAME = "tntdb-doc-1.4-1.22.noarch.rpm"
+RPM_HASH = "c5db93805cd2f924d7d3c12c8a278087683299b384fb81a08a302c12155deba5f2d2be42206c83a0fbcc25e119685f784ac75a739623a567dd53d89003e0d843"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tntdb-doc"

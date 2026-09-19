@@ -2,10 +2,10 @@ SUMMARY = "Draw UML Sequence Diagrams"
 DESCRIPTION = "LaTeX macros to draw UML diagrams using pgf"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.7svn55342"
+PV = "2026.226.0.0.7svn55342"
 
-RPM_NAME = "texlive-pgf-umlsd-2023.209.0.0.7svn55342-52.1.noarch.rpm"
-RPM_HASH = "769f656ca048ed5d6a7b58b6b1798fd8a781674f864a921cab6b3170db2f52838ed198d4e508f0c4dbdff14e89b4b19eb276643e92b9b4f4370bb498a317f7a4"
+RPM_NAME = "texlive-pgf-umlsd-2026.226.0.0.7svn55342-58.2.noarch.rpm"
+RPM_HASH = "f9e8f4e3b6648898f05cceefb2041044e7aed100a6ccfaa9b12975a6d6b475a06db55e94a6e47a2ae8b94e241d843daf2cc9902a010943f456924a65115dfe2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgf-umlsd.sty \

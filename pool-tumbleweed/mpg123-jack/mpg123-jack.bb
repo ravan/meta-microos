@@ -6,10 +6,10 @@ and output libraries. \
 This package contains the plugin for JACK output support."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.31.3"
+PV = "1.33.7"
 
-RPM_NAME = "mpg123-jack-1.31.3-1.3.aarch64.rpm"
-RPM_HASH = "bbb2d1b85efdb47c1aaf3ce7a8b583d494c3eb5212abe919f9ed51eaec22754ca8d52de113bfe7c86722c9e05c18b675d49f6d3e9b8e15089f6ff1cec7e5ab44"
+RPM_NAME = "mpg123-jack-1.33.7-1.1.aarch64.rpm"
+RPM_HASH = "c8c3754d97dc886d2fb6f1c44711b6729dba4fb0c1a58534ba10bf3f7a1be325f16156c9b6468eb26e74c602ea26367f9af42de5a2dd0addfb6282af70a80987"
 
 RPROVIDES:${PN} += "mpg123-jack"
 

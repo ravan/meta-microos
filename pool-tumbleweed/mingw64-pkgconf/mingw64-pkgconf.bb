@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "1.6.3"
 
-RPM_NAME = "mingw64-pkgconf-1.6.3-5.3.noarch.rpm"
-RPM_HASH = "14e485d36efe82b353c131f3e6f91be19e97dca29ee41b31629e05062b0f106c7b7cd1013474fb124662ac2fbaad8e7df6a5109da73f3b2b78380bc3c59ab54d"
+RPM_NAME = "mingw64-pkgconf-1.6.3-5.9.noarch.rpm"
+RPM_HASH = "98e4815b4a3af8938835840f8cfecd1a75fabe5e65afaaa5f4d4ca6138c2f53ceb2a6444d37841a21a32c7bc475b1787d839af3086376b6ad413fc0ca92fe06e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-lib-pkgconf \

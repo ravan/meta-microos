@@ -2,10 +2,10 @@ SUMMARY = "Bogofilter kyotocabinet backend"
 DESCRIPTION = "This package contains bogofilter build with the tokyocabinet backend."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.4"
+PV = "1.2.5"
 
-RPM_NAME = "bogofilter-kyotocabinet-1.2.4-15.13.aarch64.rpm"
-RPM_HASH = "661cb27df5a7990ff9e83ffd57d597bcd6965671b0fa4a8c6ccfa4f3ab63c1f5cee51967fdbcf95f5f80609abe677e6734cbeef99b85a507d9dc33ce4d43d3ee"
+RPM_NAME = "bogofilter-kyotocabinet-1.2.5-1.1.aarch64.rpm"
+RPM_HASH = "cc6e1b98d006a869e93650a15ff19eb6b5a71732354dfa1f008f038819d5a288a20a4595224208c1510bcc73abb68afdfcd941e8fe11c329d3643aed0ffc281a"
 
 RPROVIDES:${PN} += "bogofilter-backend \
 bogofilter-kyotocabinet \
@@ -15,7 +15,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 bogofilter-common \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
 libkyotocabinet.so.16 \
 libm.so.6 \

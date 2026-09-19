@@ -10,10 +10,10 @@ Features: \
 * Portable"
 LICENSE = "MIT"
 
-PV = "0.9.1"
+PV = "0.9.2"
 
-RPM_NAME = "libcss0-0.9.1-2.10.aarch64.rpm"
-RPM_HASH = "b63c308685044b1eec6ff1fc04b386a4eb1a6b2d9793b6c66d41c4c4f5a722a28ef5b150c63a1bcc9af69e3d37092120be5f50768f65197c55ff92ad31b0a724"
+RPM_NAME = "libcss0-0.9.2-2.1.aarch64.rpm"
+RPM_HASH = "f49039cf7b980b04b8c9917991e99f6ece000cd76bb54982d989c64a05d92b0b3a5ff7969529782b90cf510beb34668b98dcb6ce549d7797868db83611c7f392"
 
 RPROVIDES:${PN} += "libcss.so.0 \
 libcss0"

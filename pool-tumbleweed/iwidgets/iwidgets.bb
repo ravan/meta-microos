@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "4.1"
 
-RPM_NAME = "iwidgets-4.1-5.16.noarch.rpm"
-RPM_HASH = "7f26f7a62abdc2aaf25c17d4ed9c6e3fa7ef29022c3d675632b02d259a05e4b6ac7a2b73fb72df76b31eb8b21f079638fb00056c1981a32889242c7f22e8b73c"
+RPM_NAME = "iwidgets-4.1-5.24.noarch.rpm"
+RPM_HASH = "cf7bd00e802f9a3dd1f2ccd6b0fede6c5b171cd3095cfbe9990c1cad343edf0377bf73758a4f2433d523c2e943d370acd207623fe21067011aa281792207453b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iwidgets"

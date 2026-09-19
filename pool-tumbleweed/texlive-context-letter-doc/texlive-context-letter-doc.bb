@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-context-letter"
 DESCRIPTION = "This package includes the documentation for texlive-context-letter"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn60787"
+PV = "2026.226.svn77841"
 
-RPM_NAME = "texlive-context-letter-doc-2023.209.svn60787-55.1.noarch.rpm"
-RPM_HASH = "758cc5201c77452770e7f2909697969ed0b2f43bc226a8619ab53b3d6b99407acc1ffddedfcba0671926708b4c88c0cc2373aa321feaa9ea6715fcb4a79c6be6"
+RPM_NAME = "texlive-context-letter-doc-2026.226.svn77841-61.2.noarch.rpm"
+RPM_HASH = "4fa79246c1cbb9fe7b34b0fb290d178b44213cb566c08b459fc250fc94b1fd5b954726725ad67ead514a6c6ada8ae857a6fab98310af6ff01301ca349f1ca0e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-letter-doc"

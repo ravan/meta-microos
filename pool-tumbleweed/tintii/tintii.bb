@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0"
 
 PV = "2.10.0"
 
-RPM_NAME = "tintii-2.10.0-4.31.aarch64.rpm"
-RPM_HASH = "c48d3e98f695f6a6222133dc70825e4602dd536360741517e4eafefd10a9f6ee6b180865dc8f2211650925b02a255ee6c15f1472d415040dfc0386d9453240c3"
+RPM_NAME = "tintii-2.10.0-4.46.aarch64.rpm"
+RPM_HASH = "43ad00e54d6e539b22d7d9f0669f5977bb18ecd815b47c8486e39635d9beb0597b6fb5591bc425c3c413f6bf8a8cecdb0c5b66b5cfb970fd321c318c5d04afd6"
 
 RPROVIDES:${PN} += "tintii"
 
@@ -18,9 +18,9 @@ libgcc-s.so.1 \
 libgomp.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk2u-aui-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0 \
-libwx-gtk2u-html-suse.so.9.0.0"
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk2u-aui-suse.so.16.0.0 \
+libwx-gtk2u-core-suse.so.16.0.0 \
+libwx-gtk2u-html-suse.so.16.0.0"
 
 inherit rpm

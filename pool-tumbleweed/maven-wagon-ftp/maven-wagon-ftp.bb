@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.3"
 
-RPM_NAME = "maven-wagon-ftp-3.5.3-1.2.noarch.rpm"
-RPM_HASH = "c2be056d87194c862edbef6a6a42d3af41e6f1c8262270e389b499f7a6a6fde98dec7ebc7d2dd0659cbd4f4110998514bbbb894003bcd3745ba69d89f6a44743"
+RPM_NAME = "maven-wagon-ftp-3.5.3-2.9.noarch.rpm"
+RPM_HASH = "c636c83939fe535b3af3ee4946ab3dc99a9c91ffeae799487f332aad02bb831172d6fa309b87848a74fde72304a3273997f6fb7652dcb212e25c31cbd2010c47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-wagon-ftp \
@@ -17,7 +17,6 @@ javapackages-filesystem \
 mvn-commons-io-commons-io \
 mvn-commons-net-commons-net \
 mvn-org.apache.maven.wagon-wagon-provider-api \
-mvn-org.slf4j-slf4j-api \
-mvn-org.slf4j-slf4j-simple"
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

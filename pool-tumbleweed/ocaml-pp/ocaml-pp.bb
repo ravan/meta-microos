@@ -4,10 +4,10 @@ DESCRIPTION = "This library provides a lean alternative to the Format 1 module o
 Pp uses the same concepts of boxes and break hints, and the final rendering is done to formatter from the Format module."
 LICENSE = "MIT"
 
-PV = "1.1.2"
+PV = "2.0.0"
 
-RPM_NAME = "ocaml-pp-1.1.2-4.2.aarch64.rpm"
-RPM_HASH = "e1d787b878f13690c64cf7cb3f7e2d17f34dd10f3de6d59f88b2bc4635cfadfef5abc390043e83fc6b0e5abb86e1b0c54e83c2aaecfda81827c5a9b767fe667c"
+RPM_NAME = "ocaml-pp-2.0.0-2.1.aarch64.rpm"
+RPM_HASH = "d88cb156c2459d235a8324a8a54ffea67bff840f95f0c7810aaa7befd334585fe4850a846412f5f8cc2516afe973ad4b2885a84fc52babb19fc656928bf16fa1"
 
 RPROVIDES:${PN} += "ocaml-pp"
 

@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.4.2"
 
-RPM_NAME = "libxcb-ewmh2-0.4.2-1.2.aarch64.rpm"
-RPM_HASH = "65f358d04107a93ad9a0f525c393aa4a3c851c4cf5f8c8cceb738ca7cf907acea809a3f657e2091e94688874bbc9d4f44f8cd69ba678f98280bf02b567ac7206"
+RPM_NAME = "libxcb-ewmh2-0.4.2-1.12.aarch64.rpm"
+RPM_HASH = "bb77fd595f1c99b42c8d86d2e4944aaa94a91f8c0d43b7ab9e02e12cd2a77da30fa7d564167745c74db99bf2f0157891f787f7494b7c2d9be98e16aa83b808cf"
 
 RPROVIDES:${PN} += "libxcb-ewmh.so.2 \
 libxcb-ewmh2"

@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "9.003"
 
-RPM_NAME = "babelstone-marchen-fonts-9.003-1.1.noarch.rpm"
-RPM_HASH = "39cd16bf560fd86c4ca9ab7660f4170fe5d53c2f01cb8a96627b125210c9de8b2f86111e97104a89ca57b7bae71398b0789ccc799bbd0ddad9b6ff7fbd6eb256"
+RPM_NAME = "babelstone-marchen-fonts-9.003-1.9.noarch.rpm"
+RPM_HASH = "563519c6db96397bca18ed4dc0aad1172e49d02d1cfaa0a39c17cd6adf77b6adf9ad49ec4f5e98e786301935df62fef4778c7b4fed156e53b8106fccf11486da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "babelstone-marchen-fonts"

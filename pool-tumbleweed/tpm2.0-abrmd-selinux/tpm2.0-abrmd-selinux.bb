@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.0.0"
 
-RPM_NAME = "tpm2.0-abrmd-selinux-3.0.0-2.2.noarch.rpm"
-RPM_HASH = "95feb087ea29b937ef9bb9c0a832865819a1ab5204d495981b63b0cc3f435a80c00e57a624c847191e9c18d2f92e1381d256715f8e7e870140df559f78afb23e"
+RPM_NAME = "tpm2.0-abrmd-selinux-3.0.0-8.8.noarch.rpm"
+RPM_HASH = "16637852333c45ecdd3af164feecb9257996ec95ea5b818a29b68164fbeb076f140833c7d0c6dae534b616f8ed729223b014adace8da7598e793b8201cc5625d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tpm2.0-abrmd-selinux"

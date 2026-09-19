@@ -11,13 +11,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.06"
 
-RPM_NAME = "perl-File-ReadBackwards-1.06-1.11.noarch.rpm"
-RPM_HASH = "4e5447c57b95d5939177a1c9167837cf61428dac2c57da2bc08c40d134c3fbb77dfd40f529ca9972eb412c21136643f769a741565fac6183a069d4e1f93faeba"
+RPM_NAME = "perl-File-ReadBackwards-1.06-1.25.noarch.rpm"
+RPM_HASH = "343d3a9657cc4b53c3fd753fe96b254bcc20900e96d02aaa9ce36f3d700e45201db157237c4afe37bc086477ebc38aa69cefdc6c8511d431a35a7a79af94bb74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--ReadBackwards \
 perl-File-ReadBackwards"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

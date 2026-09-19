@@ -2,10 +2,10 @@ SUMMARY = "German version of chemsym"
 DESCRIPTION = "This is a 'translation' of the chemsym documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn23804"
+PV = "2026.226.svn23804"
 
-RPM_NAME = "texlive-translation-chemsym-de-2023.209.svn23804-53.1.noarch.rpm"
-RPM_HASH = "04c61b281200f816925a63cffb10f32c9e6362feba6e1ff0f915853bc8ab598f4d27b8af9674f187ef3673afbc4318381d733fab39657462c762726eb30ff5f8"
+RPM_NAME = "texlive-translation-chemsym-de-2026.226.svn23804-59.2.noarch.rpm"
+RPM_HASH = "b48f9e019fa14f8f074f8ded72297d36a790b15ba68ab075b64e32bbd85c171a91441a285b8c702e9b6074929f07aa34abfdd6eea463b5d8b01b4795b2e367bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-chemsym-de"

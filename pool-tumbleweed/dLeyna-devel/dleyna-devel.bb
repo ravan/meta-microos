@@ -7,10 +7,10 @@ In brief, it provides APIs for logging, error, settings and task \
 management and an IPC abstraction API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.8.2"
+PV = "0.8.5"
 
-RPM_NAME = "dLeyna-devel-0.8.2-3.1.aarch64.rpm"
-RPM_HASH = "bdb6f31a035190b37e5aa6614718e747231333dee44c03daaf37095cd0c619697cd24d6c7fbf2b329fd36e4054ba9e13af7d103c9f6fd5385b987b72ad21ab50"
+RPM_NAME = "dLeyna-devel-0.8.5-1.1.aarch64.rpm"
+RPM_HASH = "dc319127d9f608ab4411804c7697bd6750b4863c54b69072372d7cd4a7d555a1159f052b23566b5bc20564a29441c43c4f37a2d2da5801b4a49e00cbfbe82858"
 
 RPROVIDES:${PN} += "dLeyna-devel \
 dleyna-core-devel \

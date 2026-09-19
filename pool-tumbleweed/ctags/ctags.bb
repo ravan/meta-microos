@@ -6,16 +6,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.8"
 
-RPM_NAME = "ctags-5.8-13.4.aarch64.rpm"
-RPM_HASH = "e010ea39003e38ee23e34164c2441d6e220475b2b7996e042c0d8994310a79db19ba53c0b8782e45fd2befd3f205f1764439bb7fe86719f04045093164d50eaa"
+RPM_NAME = "ctags-5.8-15.5.aarch64.rpm"
+RPM_HASH = "d782f113ebd641dd0c800e295c63a429daa1de80258c7daa07807961e04fd3454b3b17435bee6e0ca42e41ec041cbad1c128c6624d822cf710336126932f06b9"
 
 RPROVIDES:${PN} += "arduino-ctags \
 ctags"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "alts \
 coreutils \
 ld-linux-aarch64.so.1 \
-libc.so.6 \
-update-alternatives"
+libc.so.6"
 
 inherit rpm

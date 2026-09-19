@@ -5,10 +5,10 @@ Europe. The bundle covers not only the main forms but also a \
 lot of varieties."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.1svn42221"
+PV = "2026.226.2.1.1svn42221"
 
-RPM_NAME = "texlive-allrunes-2023.209.2.1.1svn42221-55.1.noarch.rpm"
-RPM_HASH = "8085f5dd3a5d7a5c33f14a29eca016a00e06d3e28e4629cec75ec4aff9e20c98643f9c6f028949a44a37c00be6b49dba40b821ae770faa57227c72bcf1f8be21"
+RPM_NAME = "texlive-allrunes-2026.226.2.1.1svn42221-61.2.noarch.rpm"
+RPM_HASH = "10116e323f1c984355ae03293ef421b50e9153803f0a3cef6a23596c4a311e233eec6cc23086306781094c66b6d5563199dcd6cdf86a199d709c097e996af4c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-allrunes.map \

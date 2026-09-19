@@ -9,10 +9,10 @@ It was first released as 'Mindbender' in the year 1989 on the Amiga \
 C64 game 'Deflektor'."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.3.0"
+PV = "3.3.1"
 
-RPM_NAME = "mirrormagic-3.3.0-1.1.aarch64.rpm"
-RPM_HASH = "c131bb18be649a00306c55d56464d6b73f2c61bd8b3bb11eeae86cc8421badc4e674b7ed095b04e8a380b3b2fb41624606c44397df3a61f87e1ee171dfdc8158"
+RPM_NAME = "mirrormagic-3.3.1-2.6.aarch64.rpm"
+RPM_HASH = "c97cb288f68ed6ca6c77c918ef6ac1c430fb3a7068c2bace09f8989beeb2ca2754c22591ff90ad9a75623a9ed025138c2a827b172c86b0aabc62eab6126bc060"
 
 RPROVIDES:${PN} += "mirrormagic"
 

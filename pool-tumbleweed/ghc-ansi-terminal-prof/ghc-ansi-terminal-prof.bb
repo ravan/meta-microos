@@ -2,17 +2,17 @@ SUMMARY = "Haskell ansi-terminal profiling library"
 DESCRIPTION = "This package provides the Haskell ansi-terminal profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.11.5"
+PV = "1.1.5"
 
-RPM_NAME = "ghc-ansi-terminal-prof-0.11.5-1.3.aarch64.rpm"
-RPM_HASH = "6b5c8f12fc57ad8c0e806e26460d4b2644060f0872885d4de709b94ed45ec900794f63ee7665941184b094e9979c9909ae7c571ad0737a4945c8cf27b3e0eae1"
+RPM_NAME = "ghc-ansi-terminal-prof-1.1.5-1.7.aarch64.rpm"
+RPM_HASH = "85128adb308801486c8f92d772c98df97836a5e5abfb2b40ebc76342ebe3f39aaec23a42b0f47cea46fa7bc2bdb2d650e90bf160fe9166e4733eeabae1ec06c6"
 
 RPROVIDES:${PN} += "ghc-ansi-terminal-prof \
-ghc-prof-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3"
+ghc-prof-ansi-terminal-1.1.5-KiVHPj6W9e81bxE9dBsVtZ"
 
 RDEPENDS:${PN} += "ghc-ansi-terminal-devel \
-ghc-prof-ansi-terminal-types-0.11.5-1ECcaJ3QBZ1LkDeP7l0nlp \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-colour-2.3.6-GBcey48GJNAK3398XtiZDq"
+ghc-prof-ansi-terminal-types-1.1.3-Cca3c5mUWg4AnUjMARf0p6 \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-colour-2.3.7-LuxtbazHK7IK55ldBice4c"
 
 inherit rpm

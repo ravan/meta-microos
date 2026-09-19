@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.7.2"
 
-RPM_NAME = "elk-openmpi4-8.7.2-1.4.aarch64.rpm"
-RPM_HASH = "f7fe6523a770ecbec2f27b81c36ea6bb7f1630b03efaa63282641d30c824bfd55be1f0d2223befa435b005bb6ba97eb28d62d16d9a3fc2bf67e56187271b4603"
+RPM_NAME = "elk-openmpi4-8.7.2-2.14.aarch64.rpm"
+RPM_HASH = "4a43eebcc94f1dd2cf1a4cc75b09f5b01f480dfc402941f59473c63a4825bf01494626a8797e8b2ea9cf4ada7814b57f2f7f5407a9637bf0a1b65db1de1ce0d3"
 
 RPROVIDES:${PN} += "elk-openmpi4"
 
@@ -27,6 +27,7 @@ libgomp.so.1 \
 liblapack.so.3 \
 libm.so.6 \
 libmpi-mpifh.so.40 \
+libmvec.so.1 \
 libwannier.so \
 libxc.so.12 \
 openmpi4-libs \

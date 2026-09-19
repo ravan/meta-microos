@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.15"
 
-RPM_NAME = "glassfish-fastinfoset-javadoc-1.2.15-6.1.noarch.rpm"
-RPM_HASH = "2a11ef5d2ac85ed7b706d5baacb3e0ab905f128e192df1af8a6d67671bf55d31b2abc4a68d8c1a2aa328fac4ab81cf5eef350e27354506e7046e08df1bfe0435"
+RPM_NAME = "glassfish-fastinfoset-javadoc-1.2.15-9.4.noarch.rpm"
+RPM_HASH = "35347cadc59df41366f840c1889e678e1fb1324109e49cbe3ecdb20482a3edcad6be93c15a8aca222bc8d2fcae7734bea46388617e61c6194081dde7045eba3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-fastinfoset-javadoc"

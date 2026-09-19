@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-textopo"
 DESCRIPTION = "This package includes the documentation for texlive-textopo"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.5svn23796"
+PV = "2026.227.1.5svn23796"
 
-RPM_NAME = "texlive-textopo-doc-2023.209.1.5svn23796-55.1.noarch.rpm"
-RPM_HASH = "99493bccea9ca9c2661443e656d0be819acc1d8e29575a1e3f6b6f059f8faee60bfed260ee7039c4a2e99dc51ac2937aed45e33108ecb58ba9db83264d92af33"
+RPM_NAME = "texlive-textopo-doc-2026.227.1.5svn23796-62.2.noarch.rpm"
+RPM_HASH = "4a0903870927fd273428653ec09c826a2265d8c3121de31d8afa532c864f07547e4e8e4debedd58acffd0f4ca9ddac03f4ac7436266bec54582340b1f98dcdd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-textopo-doc"

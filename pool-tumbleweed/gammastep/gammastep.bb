@@ -10,12 +10,12 @@ temperature to allow your eyes to slowly adapt. \
  \
 Gammastep supports wlr-gamma-control-unstable-v1 protocol for wlroots-based \
 wayland compositors."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "0BSD & GPL-3.0-or-later & MIT"
 
-PV = "2.0.9"
+PV = "2.0.11"
 
-RPM_NAME = "gammastep-2.0.9-1.3.aarch64.rpm"
-RPM_HASH = "e9a1d7c79e225e2fbc9b27bbcd7ce0b690efcdcd46df9cd76211c148b39393ebcf15c01b5e5f5bc503acd24250741f89a6e44686a2d47061e8e38b584f0959dc"
+RPM_NAME = "gammastep-2.0.11-1.6.aarch64.rpm"
+RPM_HASH = "9de7ee9395357ab3beb009e3f903cd2fdd16c8ae87a3feafbbac28e3154c1a58ca203e847399efde7eb3c946d7e078809df5fca569f4e09dec1b3939baa2ae2e"
 
 RPROVIDES:${PN} += "gammastep"
 

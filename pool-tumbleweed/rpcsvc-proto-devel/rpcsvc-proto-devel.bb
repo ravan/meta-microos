@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.4"
 
-RPM_NAME = "rpcsvc-proto-devel-1.4.4-1.1.aarch64.rpm"
-RPM_HASH = "7d398878da63ae76903c4cd538b4273d62167a4314305db9b60065a5f8d4ef741815a7c1b325fbc9d7304f3d2d0d2d7900536e7db8c4b3508a025be0e8f8a5ff"
+RPM_NAME = "rpcsvc-proto-devel-1.4.4-1.11.aarch64.rpm"
+RPM_HASH = "a8cc31409b94b336aef382056efa73cbfa951542970660eb69739edf12312265e0a8ffd4b8a087132727ff954265662d60e316e1428c984925da200958f95d29"
 
 RPROVIDES:${PN} += "rpcsvc-proto-devel"
 

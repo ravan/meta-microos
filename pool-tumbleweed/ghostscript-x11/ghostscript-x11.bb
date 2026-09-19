@@ -1,13 +1,12 @@
 SUMMARY = "X11 library for Ghostscript"
-DESCRIPTION = "This package contains the X11 library which is needed \
-to view PostScript and PDF files with Ghostscript \
-under the X Window System."
+DESCRIPTION = "This package contains the X11 library which is needed to view PostScript and \
+PDF files with Ghostscript under the X Window System."
 LICENSE = "AGPL-3.0-only"
 
-PV = "9.56.1"
+PV = "10.07.1"
 
-RPM_NAME = "ghostscript-x11-9.56.1-5.1.aarch64.rpm"
-RPM_HASH = "06eccc73b76fc924307d49ec5a7d0ccf69c5752bada0e50fa3b67a8614cc959719aefa9b2ba1d4bd2cdaaf3672b50249b314e1e7e6df30806542e0b159a85592"
+RPM_NAME = "ghostscript-x11-10.07.1-1.3.aarch64.rpm"
+RPM_HASH = "6e83728b25c26cb82bdf8be04f187953e96dce03a5a5b2f59fdecec6fc188f9ec144d9182a168688448285acd56c45b8367e02ccd85f61f484acf0a47f8ce974"
 
 RPROVIDES:${PN} += "ghostscript-x11"
 

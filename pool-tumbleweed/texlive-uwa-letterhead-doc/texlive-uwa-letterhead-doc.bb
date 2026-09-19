@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uwa-letterhead"
 DESCRIPTION = "This package includes the documentation for texlive-uwa-letterhead"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn64491"
+PV = "2026.226.1.0.1svn78219"
 
-RPM_NAME = "texlive-uwa-letterhead-doc-2023.209.1.0.1svn64491-54.1.noarch.rpm"
-RPM_HASH = "b1dd2e536d9aceb162182a521612c8a904dcd2ef8bc891cf9df99b3da917cb6656c70e87ad06df6fd465937ec05c96ddec1aea8d31235e2e8073a238b5bd5423"
+RPM_NAME = "texlive-uwa-letterhead-doc-2026.226.1.0.1svn78219-60.2.noarch.rpm"
+RPM_HASH = "e1b9d13b2010f70bbf986038af09fa7e65168c5830cb314a68aeb98548c72ee7a1bb8c2e9afaa37da171170d66275695df925d4b26d203e4618de2a0568dee1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uwa-letterhead-doc"

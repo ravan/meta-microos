@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.0.6"
 
-RPM_NAME = "zynaddsubfx-bash-completion-3.0.6-3.2.aarch64.rpm"
-RPM_HASH = "875a5497080c92a88f3f2e976f133737538f21976a4476948c3874a57382fdd8b7bea7523b0bbc213a5386b5ee74dea5bcf6a8d94bc2de8246df0e99f25b06b2"
+RPM_NAME = "zynaddsubfx-bash-completion-3.0.6-4.4.aarch64.rpm"
+RPM_HASH = "af14ea40486bedad5ab26f5e46ecbe6f7afe09b1f83c3f74a6ddb3ed566e6fbc7a1dc08bfcc37efa8586c44d00ee97a83dea3d07c9da79d26fefd4bd475d7d22"
 
 RPROVIDES:${PN} += "zynaddsubfx-bash-completion"
 

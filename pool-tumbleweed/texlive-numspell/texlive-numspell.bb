@@ -5,10 +5,10 @@ Hungarian, Italian, and Latin. The package requires xstring and \
 iflang."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn61132"
+PV = "2026.226.1.9svn77682"
 
-RPM_NAME = "texlive-numspell-2023.209.1.5svn61132-55.1.noarch.rpm"
-RPM_HASH = "965373072e15649ea5293cb88ed3a61518853edb5923e1b5317ea412a78ce992ed6c5abebde7e0c132497d711d936272f5572e915624137f27fb2cdb3c58232f"
+RPM_NAME = "texlive-numspell-2026.226.1.9svn77682-61.2.noarch.rpm"
+RPM_HASH = "2abaac6b5a4997e73c4fd337adcc70d2c7753d234d982cc0f79cdf064091e19c15d8e4a62114f618390324aeb6625ce1f6b29e31b66b90eac9cd6fb3f75bc3f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-numspell-english.sty \

@@ -7,10 +7,10 @@ This package provides the libflatbuffers headers, development libraries, \
 and tools."
 LICENSE = "Apache-2.0"
 
-PV = "23.3.3"
+PV = "25.2.10"
 
-RPM_NAME = "flatbuffers-devel-23.3.3-2.2.aarch64.rpm"
-RPM_HASH = "c5fe4dd90b93c13c85e3095fdc91af1fdcdc0fbde7cd7fcf11036aa762551debedde865d2183e05cd626f99babbb1f2310e1ffe999ff976c0cda316e100019cc"
+RPM_NAME = "flatbuffers-devel-25.2.10-2.6.aarch64.rpm"
+RPM_HASH = "fc0c3faaaa0814425cd45980c381ae117116427535caebe06788271e8ec691db51b3715b0d14710725c3be19b30b00f2eb0124c979ed537c89cbdfd3c7fe4313"
 
 RPROVIDES:${PN} += "cmake-flatbuffers \
 flatbuffers-devel \
@@ -20,7 +20,7 @@ pkgconfig-flatbuffers"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libflatbuffers23-3-3 \
+libflatbuffers25-2-10 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6"

@@ -5,10 +5,10 @@ system indicators. \
 This package contains the development files for Ido."
 LICENSE = "GPL-3.0-only & LGPL-3.0-only & LGPL-2.1-only"
 
-PV = "0.9.2"
+PV = "0.10.4"
 
-RPM_NAME = "ayatana-ido-devel-0.9.2-1.5.aarch64.rpm"
-RPM_HASH = "c9701ea0cf82abd2a1844f257e3f620c7c0bac249492f089ab64c326ecd417966d09fa79969fb2f9d2fda5396fae4cd3071e774374412b95d38df6d72e7bd0f5"
+RPM_NAME = "ayatana-ido-devel-0.10.4-1.6.aarch64.rpm"
+RPM_HASH = "19c1c5490845ce731eaa28884c31eed552bd2ffb9c95902d597566acf6e558aa5ceabd5101d49acc7c91c52d921832316bdd17de6329196e3720dacf45b94bb0"
 
 RPROVIDES:${PN} += "ayatana-ido-devel \
 pkgconfig-libayatana-ido3-0.4"

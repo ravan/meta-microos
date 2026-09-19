@@ -2,46 +2,36 @@ SUMMARY = "The KDE optimized frontend for Marble and several Plasmoids/Wallpaper
 DESCRIPTION = "The KDE frontend for the Marble map viewer. It also includes several plasmoids and wallpapers for Plasma"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "marble-kde-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "8d8a212590b53573b8f18b031cd17b5f49fa9e385a50f163a5223940285a436831a1088e5ec9fdac7cfd367326ccb0c793bbadd6416095cc20d323f19ffb4f9b"
+RPM_NAME = "marble-kde-26.08.1-1.2.aarch64.rpm"
+RPM_HASH = "ebc9759763700417f7d0339dd579c53dfa3c15831a075d317b518e68f0631079105ba41212cc759005c0fba9c39098604925f255dca8aee2a14fbc5d496af2f3"
 
 RPROVIDES:${PN} += "marble-frontend \
 marble-kde"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5Parts.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6Parts.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Qml.so.6 \
+libQt6WebEngineQuick.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
-libgcc-s.so.1 \
-libmarblewidget-qt5.so.28 \
+libmarblewidget-qt6.so.28 \
 libstdc++.so.6 \
-marble \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Controls.1 \
-qt5qmlimport-QtQuick.Controls.2 \
-qt5qmlimport-QtQuick.Layouts.1 \
-qt5qmlimport-org.kde.kirigami.2 \
-qt5qmlimport-org.kde.marble.private.plasma.0 \
-qt5qmlimport-org.kde.plasma.components.2 \
-qt5qmlimport-org.kde.plasma.configuration.2 \
-qt5qmlimport-org.kde.plasma.core.2 \
-qt5qmlimport-org.kde.plasma.extras.2 \
-qt5qmlimport-org.kde.plasma.plasmoid.2"
+marble"
 
 inherit rpm

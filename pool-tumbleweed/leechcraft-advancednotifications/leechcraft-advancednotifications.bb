@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides an advanced notifications plugin for Leechc
 which allows to customize notifications better."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-advancednotifications-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "ba15a04ba12e397e29df3ec100bffdcea5ae24ebb6a5d6a989745ea56b85ba705eb45c1c94e1365adf1a0dedac4b4f09cbda3d13c838a1bbe917aa8fd7fa6365"
+RPM_NAME = "leechcraft-advancednotifications-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "e31033ccfeb7bb09cd848ddfd85ca1e76446f172c7f550d74c1101688ff9f495a7cd5f53f74e9735ed7c4e3faf65a4b28298053670ffd7f417f480bffc12ca60"
 
 RPROVIDES:${PN} += "leechcraft-advancednotifications \
 libleechcraft-advancednotifications.so"
@@ -14,22 +14,24 @@ libleechcraft-advancednotifications.so"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
 leechcraft-visualnotifications \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5QuickWidgets.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-gui-qt5.so.0.6.75.1 \
-libleechcraft-util-qml-qt5.so.0.6.75.2 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-util-gui-qt6.so.0.6.75 \
+libleechcraft-util-qml-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-threads-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libstdc++.so.6 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Controls.1"
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.2 \
+qt6qmlimport-QtQuick.Controls"
 
 inherit rpm

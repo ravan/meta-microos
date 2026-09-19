@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.2.8"
 
-RPM_NAME = "actkbd-0.2.8-6.3.aarch64.rpm"
-RPM_HASH = "028c25cb9aa8010d0e7624d1a1ee81944cf444611116a252c033119c2e2d7cba2cc58e1b9717094eacea5450902bd1929ed43bde9d168d7d32d3b875adb5127d"
+RPM_NAME = "actkbd-0.2.8-6.13.aarch64.rpm"
+RPM_HASH = "05d1ec6fb9e8489ecf3b9f9871ba55cccf12d07a1e3bce542d9043c1ce597375ae93f307a9131033b30b6b1b3a61716b5bdaf4135acc067b8d4bf4e9b92da0fa"
 
 RPROVIDES:${PN} += "actkbd \
 config-actkbd"

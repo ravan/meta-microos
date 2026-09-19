@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-actuarialangle"
 DESCRIPTION = "This package includes the documentation for texlive-actuarialangle"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn51376"
+PV = "2026.226.2.1svn67201"
 
-RPM_NAME = "texlive-actuarialangle-doc-2023.209.2.1svn51376-55.1.noarch.rpm"
-RPM_HASH = "19b137e7cb9c354d8be71356a3094b4aa55391b18ad9b87985cd191bbca28ff98c26a8deabf5c33d4e8a4c3663f7f7a63e537f7324036e85a528f713cd078cf2"
+RPM_NAME = "texlive-actuarialangle-doc-2026.226.2.1svn67201-61.2.noarch.rpm"
+RPM_HASH = "b003e7c4e7f3a60d9c14d908db72a86b77d80c5a275ba537552cfcadb9e5272add654b28134a7d3eb1ee5e7b6c7b136ab9d54c5043db506453ec60abc00b1e9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-actuarialangle-doc"

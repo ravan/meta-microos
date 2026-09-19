@@ -12,10 +12,10 @@ font. Options for better collaboration with dvips, pdfTeX and \
 vtex are provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10.2svn55424"
+PV = "2026.226.1.10.2svn77682"
 
-RPM_NAME = "texlive-crop-2023.209.1.10.2svn55424-55.1.noarch.rpm"
-RPM_HASH = "42f7a413675ec552f94a6c3e2b53328d533a2a710bc80a3b5c0c0f79cc985865f57eca7aa148d21598464509592bd1bf8e3ea0758db29046a13e5fa6bc27292c"
+RPM_NAME = "texlive-crop-2026.226.1.10.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "953b1bd9693e11e34cc5fa6588f8f874e084a1f35ee236fa8233be36a12312e0a2a307beea558c3fffb689438e479b638d3ebcf159265eafee022e1c52c3b48f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-crop.sty \

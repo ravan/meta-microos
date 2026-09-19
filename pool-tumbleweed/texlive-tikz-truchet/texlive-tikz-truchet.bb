@@ -4,10 +4,10 @@ in Colin Beveridge's article Too good to be Truchet in issue 08 \
 of Chalkdust."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn50020"
+PV = "2026.226.svn50020"
 
-RPM_NAME = "texlive-tikz-truchet-2023.209.svn50020-53.1.noarch.rpm"
-RPM_HASH = "3cbc800a1bf0860c787e48875e206cd3baad339552a4ead0685da58c65e4ca1c3fdec5e1defb4f613cd22dc2eb798d9ea0d0e8d0540fa518adbb025a62861544"
+RPM_NAME = "texlive-tikz-truchet-2026.226.svn50020-59.2.noarch.rpm"
+RPM_HASH = "228b01818bd1ed902d133c663b759c48a5090d37dd4bb726e839ce5958cb0f50e7d7070a1b403fbd2f9c94e08aa33883ac193f0433c3d24c55a34b8474448021"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-truchet.sty \

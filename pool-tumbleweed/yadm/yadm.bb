@@ -6,16 +6,16 @@ yadm supplies the ability to manage a subset of secure files, which are \
 encrypted before they are included in the repository."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.2.2"
+PV = "3.3.0"
 
-RPM_NAME = "yadm-3.2.2-1.1.noarch.rpm"
-RPM_HASH = "daf74ef4cc553c1ed41694c15a629964b685a5c08f0ddb312221b3b338603e53878a3b5d90f8e08c4c91d180002e57df52bd561f6447dfdfa58359676cf00ea8"
+RPM_NAME = "yadm-3.3.0-1.6.noarch.rpm"
+RPM_HASH = "cd2766f586d428a64faea74e8da6022ab2576e6ea83b50a63cd5472ceb30deb4161f626ec1a325828061699bb2ce1aaac5ba40bd8695b1045c4e9548636f08cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yadm"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 bash \
-git"
+git-core"
 
 inherit rpm

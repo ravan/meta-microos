@@ -5,10 +5,10 @@ This plugin uses the ping command to probe the specified host for packet loss \
 (percentage) and round trip average (milliseconds)."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-ping-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "0252cb02955386852cf4ada7638ab0aefb0fbb53d3a0b5e0cb17b8312da93ecaa68b57eafc2c72b7208f18854f9f91df9bc7944df57356d7346d948c52c5ef04"
+RPM_NAME = "monitoring-plugins-ping-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "9818fa86a6737db2591e52005de84e14861a988f9adc4cafbda4a52994e79027e98e11d007a43699c97af6a774a8d3b3bf1ef44dc574d10aac0ff3e29fb615aa"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-ping \
 monitoring-plugins-ping \

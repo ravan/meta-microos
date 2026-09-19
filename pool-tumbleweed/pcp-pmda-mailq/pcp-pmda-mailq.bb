@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about email queues managed by sendmail."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-mailq-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "513cfc746055518064d7b7b6bce81675d8a91a538a54e88995222dc7a54196b03730b0a6247dc54f2fbbf9903075bafd3b58f813bca241df97a52850b66d1b7e"
+RPM_NAME = "pcp-pmda-mailq-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "d7572101f9a34fa053579df0329aee17f3f08d300befe6715877ef15457b48a718c55fd84f4c690dea7b93fa1611f5964ad20de8a6ee439a3a5d5c6209ccae9a"
 
 RPROVIDES:${PN} += "pcp-pmda-mailq"
 

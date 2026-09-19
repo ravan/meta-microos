@@ -2,10 +2,10 @@ SUMMARY = "Plain text display utility for X"
 DESCRIPTION = "xmore is a plain text browser."
 LICENSE = "MIT"
 
-PV = "1.0.3"
+PV = "1.0.4"
 
-RPM_NAME = "xmore-1.0.3-2.7.aarch64.rpm"
-RPM_HASH = "713e51d6eda8a4b2f19d92da060aa4481bc3f5e288a1e80826a543bfee02c0d28c4f703272eacf8f348d9cb553da5b171761d29f80d64c3a2947b849955d608a"
+RPM_NAME = "xmore-1.0.4-1.10.aarch64.rpm"
+RPM_HASH = "e59a57a636784c733437eeb33f9bcd802883a0f2ded0a21d92e45fb0f375ca2556b96ff515c99f24ed472f5666e51f3c423a6bbb86924d0cbb5bd407ca1891e1"
 
 RPROVIDES:${PN} += "xmore"
 

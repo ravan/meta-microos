@@ -10,10 +10,10 @@ the two, and to allow a developer to not tie himself to a particular \
 logging implementation."
 LICENSE = "Apache-2.0"
 
-PV = "1.2"
+PV = "1.4.0"
 
-RPM_NAME = "apache-commons-logging-1.2-11.6.noarch.rpm"
-RPM_HASH = "53b37d370383d735822d214fe22cb6b6a091187980c886a0e5151c7cb9f6ba0c7d592352afabf30dcdcb8b8f0f5d6224906e8073b18d041c0a44470dec886eb5"
+RPM_NAME = "apache-commons-logging-1.4.0-1.2.noarch.rpm"
+RPM_HASH = "4cd541491d82b5656eca6a96129b8096fc3942bba377b98131ef821ef322e6768e6b9fadced2872f5173c35158035e4b8ef12c36cc734c6f4af30e9a03136892"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-logging \
@@ -21,25 +21,19 @@ commons-logging \
 jakarta-commons-logging \
 mvn-apache-commons-logging \
 mvn-apache-commons-logging-adapters \
-mvn-apache-commons-logging-adapters-pom- \
 mvn-apache-commons-logging-api \
-mvn-apache-commons-logging-api-pom- \
 mvn-apache-commons-logging-pom- \
 mvn-commons-logging-commons-logging \
+mvn-commons-logging-commons-logging--adapters- \
+mvn-commons-logging-commons-logging--api- \
 mvn-commons-logging-commons-logging-adapters \
-mvn-commons-logging-commons-logging-adapters-pom- \
 mvn-commons-logging-commons-logging-api \
-mvn-commons-logging-commons-logging-api-pom- \
 mvn-commons-logging-commons-logging-pom- \
 mvn-org.apache.commons-commons-logging \
 mvn-org.apache.commons-commons-logging-adapters \
-mvn-org.apache.commons-commons-logging-adapters-pom- \
 mvn-org.apache.commons-commons-logging-api \
-mvn-org.apache.commons-commons-logging-api-pom- \
 mvn-org.apache.commons-commons-logging-pom- \
-osgi-org.apache.commons.logging \
-osgi-org.apache.commons.logging.adapters \
-osgi-org.apache.commons.logging.api"
+osgi-org.apache.commons.commons-logging"
 
 RDEPENDS:${PN} += "java \
 java-headless \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.16"
 
-RPM_NAME = "d-feet-0.3.16-2.6.noarch.rpm"
-RPM_HASH = "631cc2a5235c2bb66eb38e61ea075d4bcfe5b03c72fa3a33e6249c55608674a536b76fe2a441a22c5d4ab967474f31d2b9596140faf2f1199431741f382dd2c1"
+RPM_NAME = "d-feet-0.3.16-2.15.noarch.rpm"
+RPM_HASH = "e23a053d35bfb58209d03243354613efebfd1e54a87731f85bdb45817fbeb790dbe6733783cba80d1ccd1a3424dd34cabd2aba0e3eec4dec3982e81b3a0534d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "d-feet"

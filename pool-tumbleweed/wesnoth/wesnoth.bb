@@ -6,10 +6,10 @@ types of attacks. Units gain experience and advance levels, and are \
 carried over from one scenario to the next campaign."
 LICENSE = "EPL-1.0 & GPL-2.0-or-later"
 
-PV = "1.17.17"
+PV = "1.18.8"
 
-RPM_NAME = "wesnoth-1.17.17-1.1.aarch64.rpm"
-RPM_HASH = "2e44f03377d7fc25734238926c0106d8e1a9aa2a8d38cc3991a362c08f2b16b3eed92f3dc9fa4114b3f07c8c4069072a32e9bc899d6efd0bed2b3198a76d57ff"
+RPM_NAME = "wesnoth-1.18.8-1.1.aarch64.rpm"
+RPM_HASH = "e6f75e9ecc013acb044a8bde493f575468a8035d2ee2d15ed1d88fbfc8644b0c347d6f3653d6b1a5ae1e985a44f82367ad184a8e799c198d6c2b58956e1e2d1f"
 
 RPROVIDES:${PN} += "wesnoth"
 
@@ -18,11 +18,11 @@ ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libSDL2-image-2.0.so.0 \
 libSDL2-mixer-2.0.so.0 \
-libboost-filesystem.so.1.82.0 \
-libboost-iostreams.so.1.82.0 \
-libboost-locale.so.1.82.0 \
-libboost-program-options.so.1.82.0 \
-libboost-random.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
+libboost-iostreams.so.1.91.0 \
+libboost-locale.so.1.91.0 \
+libboost-program-options.so.1.91.0 \
+libboost-random.so.1.91.0 \
 libc.so.6 \
 libcairo.so.2 \
 libcrypto.so.3 \

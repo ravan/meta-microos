@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-verbdef"
 DESCRIPTION = "This package includes the documentation for texlive-verbdef"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn17177"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-verbdef-doc-2023.209.0.0.2svn17177-54.1.noarch.rpm"
-RPM_HASH = "168a2474bd1d0340257a06c72c602ceb070a47595c1f3912492cf570a65a4fca26b9a1e712b69e56813336b6b3d89fc7d77cac30dca50b7eadc0683abc7c6340"
+RPM_NAME = "texlive-verbdef-doc-2026.226.0.0.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "f251dce429e1ef0923d28735eeafdfea468f1fd945c930271160a867a0f176f6602889ef885790cd4bf65a7a5003eb8e06f8318880ee2599f4e150195e4cdb87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-verbdef-doc"

@@ -5,10 +5,10 @@ QAbstractButton that lets you integrate those two components easily \
 with PolicyKit."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.114.0"
+PV = "0.201.1"
 
-RPM_NAME = "libpolkit-qt5-1-devel-0.114.0-2.10.aarch64.rpm"
-RPM_HASH = "c526e60740d1a369658cd44c5e84648ccc2be4eb50c26f7dcff2f3d3762151448dda66ae76c2e02ca82f97d8c4db459eaf10aa1ece6f62cafb3bbbbc2650e3ec"
+RPM_NAME = "libpolkit-qt5-1-devel-0.201.1-1.3.aarch64.rpm"
+RPM_HASH = "c538724a76df7f3dfcad659bcea3d8738ba6cb9fcf2096a9d454f8a8fad4f13bc75817b39e3c9ff48e75e7564d96b84d10ede42fe0b7fff59688ef5b11e3f05a"
 
 RPROVIDES:${PN} += "cmake-PolkitQt5-1 \
 libpolkit-qt5-1-devel \
@@ -21,7 +21,6 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libpolkit-qt5-1-1 \
 pkgconfig-Qt5Core \
 pkgconfig-Qt5Gui \
-pkgconfig-Qt5Widgets \
 pkgconfig-polkit-qt5-agent-1 \
 pkgconfig-polkit-qt5-core-1 \
 pkgconfig-polkit-qt5-gui-1 \

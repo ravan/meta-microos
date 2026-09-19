@@ -5,10 +5,10 @@ OpenDWG libraries. DWG is the native file format of AutoCAD. \
 This package contains the files required for development with libredwg."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.12.5.5907"
+PV = "0.14.8413"
 
-RPM_NAME = "libredwg-devel-0.12.5.5907-2.1.aarch64.rpm"
-RPM_HASH = "351db8619cb8d4d1b8afa0f7eca10977a032679b94ca5f1846ab5a480d94b47d58d789c55ed63277793d07652d761f18f045ae21396683e67e75b824cc7e3135"
+RPM_NAME = "libredwg-devel-0.14.8413-1.2.aarch64.rpm"
+RPM_HASH = "22a0b0b107a50d3f0e65c9506eacfd4860f59093919223e31b6911d84214c597da192a49f038e4d80f28866dde631361bb40a623c54bbe476a5df87203f34b70"
 
 RPROVIDES:${PN} += "libredwg-devel \
 pkgconfig-libredwg"

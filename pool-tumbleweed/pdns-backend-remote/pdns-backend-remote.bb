@@ -5,10 +5,10 @@ It conforms to contemporary DNS standards documents. \
 This package holds the remote backend for pdns."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.8.0"
+PV = "4.9.8"
 
-RPM_NAME = "pdns-backend-remote-4.8.0-1.2.aarch64.rpm"
-RPM_HASH = "47f7eb204e75ecfa191ef96dd47effc3837d3127016d3bef179afd8c3f75e585f291784502f71a7890017c8b7447863d9e394cd1f92acc423bd9059df5fd6afc"
+RPM_NAME = "pdns-backend-remote-4.9.8-1.12.aarch64.rpm"
+RPM_HASH = "e52661bb3119fc0ee07a8ca87ce5f5491bbba31e9b50ed8c93c1e7055c2e0d770198ca621923ca8241b67df1e30980250455bbf74fe76aff020ac73d9c8d1f35"
 
 RPROVIDES:${PN} += "libremotebackend.so \
 pdns-backend-remote"

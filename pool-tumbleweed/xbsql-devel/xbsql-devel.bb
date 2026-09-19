@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.11"
 
-RPM_NAME = "xbsql-devel-0.11-260.9.aarch64.rpm"
-RPM_HASH = "ec979e1f2877e82b10ec462963c452c7c8bc2b8c33765a7ba85c7ab5a11c7d2d316889f96fa8a93e5b6172dfeb69e51666c62ddbf109902732bcb22832d87a15"
+RPM_NAME = "xbsql-devel-0.11-261.9.aarch64.rpm"
+RPM_HASH = "454bdd1d2e330822c3c9ca33f9adcb1259e3e662164ff1a8cd1df7811ca40d141ab2aa54a62bf66e38f23e7060dc90f6cae95b2a4008f7bceceb826d94392513"
 
 RPROVIDES:${PN} += "xbsql-devel"
 

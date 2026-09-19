@@ -1,4 +1,4 @@
-SUMMARY = "Linux  Manual Pages"
+SUMMARY = "Linux Manual Pages"
 DESCRIPTION = "A large collection of man pages (documentation) from the Linux \
 Documentation Project (LDP).  The man pages are organized into the \
 following sections: Section 1, user commands (intro only); Section 2, \
@@ -9,10 +9,10 @@ etc. (e.g., nroff, ascii); and Section 8, system administration (intro \
 only)."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & MIT"
 
-PV = "6.04"
+PV = "6.19"
 
-RPM_NAME = "man-pages-6.04-1.1.noarch.rpm"
-RPM_HASH = "2544f6f1b6df20b4d2ad2186378a021502d98e0a7a42f259d81e2bce8b2430e3f70ac7328a26c276d82e9118c189f3660891aeddf8e41a1c1aa8acf32595be58"
+RPM_NAME = "man-pages-6.19-1.1.noarch.rpm"
+RPM_HASH = "ea983f72a05cd8510f47029b9a70f96aebfe7f4c3487aa6e64f6412dd2e54d6294ab54a0c766948c4f187fdebd9a769cdf3b32844cf4c33ee93f0db9411317a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pages"

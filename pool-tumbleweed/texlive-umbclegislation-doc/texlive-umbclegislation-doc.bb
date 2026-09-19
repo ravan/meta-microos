@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-umbclegislation"
 DESCRIPTION = "This package includes the documentation for texlive-umbclegislation"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2016_6_8svn41348"
+PV = "2026.226.2016_6_8svn41348"
 
-RPM_NAME = "texlive-umbclegislation-doc-2023.209.2016_6_8svn41348-54.1.noarch.rpm"
-RPM_HASH = "a3b3bddc584e37686342e653a7165480353b47d0ef19a1ca057fb51326807393711c38a9e9ff25b6e1e84a77ba098f1a0b60a0c492de8876900d7c90ceac248f"
+RPM_NAME = "texlive-umbclegislation-doc-2026.226.2016_6_8svn41348-60.2.noarch.rpm"
+RPM_HASH = "1d311c83c3c9cb6383bf7cc76b66d0be82ee92f3d0f52fe75aa937f43faa9ee73e6f373b4b3ede4fb6c56074858ec87fc3445a02226ea4a645dd41e78008135f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-umbclegislation-doc"

@@ -5,10 +5,10 @@ style was derived from the standard unsrt.bst and adapted to \
 the new (2009) formatting rules."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn16287"
+PV = "2026.226.1.0svn76790"
 
-RPM_NAME = "texlive-pnas2009-2023.209.1.0svn16287-53.1.noarch.rpm"
-RPM_HASH = "392bb3e031dd05f42ceb5d04554ea7a7760dd4b390997b829714a34392a693a7af59bd8c30ab2c91b00f4f514ded46a42b539a5a790e18c6efb6f401b2ddca59"
+RPM_NAME = "texlive-pnas2009-2026.226.1.0svn76790-59.2.noarch.rpm"
+RPM_HASH = "ee1ae609f6dbac03613205d43aa7c12d4b20e263a7cc68c222e4523afa802de795fb30a07e44e6f589d920e692ad7fc3e0eb112ab2f9f3f39ac2bad807d8d722"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pnas2009"

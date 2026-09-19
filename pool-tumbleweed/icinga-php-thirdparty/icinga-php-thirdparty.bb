@@ -4,16 +4,20 @@ used by Icinga Web products into one piece, \
 which can be integrated as library into Icinga Web 2."
 LICENSE = "MIT"
 
-PV = "0.11.0"
+PV = "0.15.3"
 
-RPM_NAME = "icinga-php-thirdparty-0.11.0-1.3.noarch.rpm"
-RPM_HASH = "4ce6d1e9aa6f9def57773854853a38c18d13d4e8e6eadb7631874fefabf9e8ad0228880db9f2f0591e940216fa5d4987de6f2005b072d3f772789088b254b351"
+RPM_NAME = "icinga-php-thirdparty-0.15.3-1.3.noarch.rpm"
+RPM_HASH = "48e6f88827eedb9a9056d0ae21b70e7334d1194a611d4295d216147a85ef1794b12aafbabb042eb0f3dfa8a05256b0e897a4414ec8f841da2c9649a23a3e96e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "icinga-php-thirdparty"
+RPROVIDES:${PN} += "icinga-php-common \
+icinga-php-thirdparty"
 
-RDEPENDS:${PN} += "icinga-php-common \
+RDEPENDS:${PN} += "/usr/bin/env \
+icingaweb2 \
+php \
 php-curl \
+php-iconv \
 php-json \
 php-soap \
 php-sockets"

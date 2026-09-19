@@ -2,16 +2,15 @@ SUMMARY = "Documentation files for python-shodan"
 DESCRIPTION = "HTML documentation on the API and examples for python-shodan."
 LICENSE = "MIT"
 
-PV = "1.28.0"
+PV = "1.31.0"
 
-RPM_NAME = "python-shodan-doc-1.28.0-1.6.noarch.rpm"
-RPM_HASH = "e13c75c5ebd869cdb7a8d038ceb3a5080ecaeb0264eb177ed421c6c71cd51540d3a9aa3ab19330d87b42ba58e5717bb9eaf196c19e740bc615ba7c78db10bcce"
+RPM_NAME = "python-shodan-doc-1.31.0-4.5.noarch.rpm"
+RPM_HASH = "6f2e27dc2e7d2ae88ba8c47e3d1966be955231402dfc62564afdcf1567eab8b34737c0ef5a5146f9ead9422b45b82e5d70bbf3f2c23e2dd43b1a50658cc2dc66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-shodan-doc \
-python310-shodan-doc \
-python311-shodan-doc \
-python39-shodan-doc"
+python313-shodan-doc \
+python314-shodan-doc"
 
 RDEPENDS:${PN} += ""
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.05"
 
-RPM_NAME = "javahelp2-javadoc-2.0.05-32.6.noarch.rpm"
-RPM_HASH = "77d03a5ca6b1dc7368716afc6627a7596fb4cafc7ef0978d01b073a1759bab393853a9e3a5541a0475c70dfa6cc26cd7e289d92a70d0696b127f06ab5f3bed52"
+RPM_NAME = "javahelp2-javadoc-2.0.05-32.17.noarch.rpm"
+RPM_HASH = "a27cb09662bfe6e45786b42def74333211e52d9a453d20ff0297d8163f999ae2d8de0cbfad885981b4821d035e6d7bd78bb1f5472d8da8be1641ba35fae34aa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javahelp2-javadoc"

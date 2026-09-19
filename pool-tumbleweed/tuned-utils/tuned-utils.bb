@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains utilities that can help you to fine tune yo
 system and manage tuned profiles."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.20.0.18+git.7b1a20b"
+PV = "2.27.0.0+git.38d4414"
 
-RPM_NAME = "tuned-utils-2.20.0.18+git.7b1a20b-1.2.noarch.rpm"
-RPM_HASH = "eeb17ee94cb8a25edb9c02a0244ef4d3f3ab3b95c676078375f476423ca91e70be13ef69271588905cf43efc53392a33af4bd903b11c01c3082aaf103a526efb"
+RPM_NAME = "tuned-utils-2.27.0.0+git.38d4414-1.2.noarch.rpm"
+RPM_HASH = "241aa54978c59312f5824febb017fa7f5f794e3c6d34f644a93041e00ded0d8760754771382f1a99f1eef78d7ad4f8c34d4a4b20b1c529f265a227511e624673"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-utils"

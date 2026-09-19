@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "11.3.0"
 
-RPM_NAME = "metatheme-sonar-common-11.3.0-30.17.noarch.rpm"
-RPM_HASH = "457254f0cf4496acf66e8e8f1a7a4be589cdcfc8cda527aecbd546a7d82aeaaf4f3664690251f51fdc8d67481292a613239e0347cae912fd32be522311d813f9"
+RPM_NAME = "metatheme-sonar-common-11.3.0-31.9.noarch.rpm"
+RPM_HASH = "e1a12b971ebd22e892fbff482a77bf24a178beccc0d304c63f8b52a9a55324b0187610a3e2b833584b8388e4ac0e864a19e7e79a29dd2d83f9af392f2dad44f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-sonar-common"

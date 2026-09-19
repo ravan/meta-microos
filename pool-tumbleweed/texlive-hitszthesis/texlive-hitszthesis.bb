@@ -4,10 +4,10 @@ Institute of Technology, ShenZhen (HITSZ), including bachelor, \
 master and doctor dissertations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2.1svn61073"
+PV = "2026.226.3.2.1svn61073"
 
-RPM_NAME = "texlive-hitszthesis-2023.209.3.2.1svn61073-54.2.noarch.rpm"
-RPM_HASH = "a55b8aa46796fb7bc56af61f6780af24c99b5054db7c0772ab664efdc519786ad76ec98cb4b32e6e08b76efad4a89e872caee10c60421c7c93e9e1659f315d22"
+RPM_NAME = "texlive-hitszthesis-2026.226.3.2.1svn61073-60.4.noarch.rpm"
+RPM_HASH = "aff92863beada229d0efdefa8cb219b4ace18b50fee1c4aa93e4237d4ed6923e3fc2fcd04e78ce06632e3f84f79e3521eaf2256c80bfd8cd88a5476ff5f7fcae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hitszthesis.cls \

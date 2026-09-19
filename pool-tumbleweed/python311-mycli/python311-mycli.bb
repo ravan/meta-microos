@@ -2,14 +2,13 @@ SUMMARY = "CLI for MySQL Database. With auto-completion and syntax highlighting"
 DESCRIPTION = "CLI for MySQL Database. With auto-completion and syntax highlighting."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.26.1"
+PV = "1.27.2"
 
-RPM_NAME = "python311-mycli-1.26.1-2.7.noarch.rpm"
-RPM_HASH = "726f8159a471891fa36503e70361f7d66794315177d5cafea32cd445c585f889964b1868980d7d1997780bd401d7b23267c6d9c70653ccc7569a404059667c2c"
+RPM_NAME = "python311-mycli-1.27.2-3.3.noarch.rpm"
+RPM_HASH = "6436082c5b3403d364adf631c920f0e8a156837bfc70f967ef688906fa043899a50ab45de89d3be19a6bac6b06a5542b23d36e4d8e41691f50fadb937af06d21"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-mycli \
-python3.11dist-mycli \
+RPROVIDES:${PN} += "python3.11dist-mycli \
 python311-mycli \
 python3dist-mycli"
 

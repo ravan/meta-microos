@@ -8,10 +8,10 @@ multimedia (audio, video, 3D), hyperlinks and other actions, \
 triggering events, transitions, attachments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn65184"
+PV = "2026.226.0.0.3svn65184"
 
-RPM_NAME = "texlive-pdfextra-2023.209.0.0.3svn65184-52.1.noarch.rpm"
-RPM_HASH = "24e9c3583f0f6fdf8d6ccff6d0c8816a49982adca0a0f1ae4c916457af84f98b123721662e73b3d9e2424e15cc59dc57a7f8d87618961d373a2d6a60f7027542"
+RPM_NAME = "texlive-pdfextra-2026.226.0.0.3svn65184-58.2.noarch.rpm"
+RPM_HASH = "b6fb0d6b0094488c1ea1191893d750973ebe5e76729e039a5f654c143abe203a7b18d6d8601c2b557c64a301de42140d84efca0d131c7837f8096b00219e68cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfextra.sty \

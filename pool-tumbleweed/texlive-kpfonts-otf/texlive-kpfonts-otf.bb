@@ -1,4 +1,4 @@
-SUMMARY = "OTF version of the Kp-fonts"
+SUMMARY = "OpenType versions of the kpfonts (Type1) designed by Christophe Caignaert"
 DESCRIPTION = "This bundle provides OpenType versions of the Type1 Kp-fonts \
 designed by Christophe Caignaert. It is usable with LuaTeX or \
 XeTeX engines only. It consists of sixteen Text fonts (eight \
@@ -12,10 +12,10 @@ AMS'; a full list of available symbols is provided, see the \
 'List of glyphs'."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.48svn65560"
+PV = "2026.226.0.0.72svn77917"
 
-RPM_NAME = "texlive-kpfonts-otf-2023.209.0.0.48svn65560-56.1.noarch.rpm"
-RPM_HASH = "d91793c0cf552abb11cc10e8594c5572d24cad5ce7ade0229d28e79ab95c0d7bd542eb7cc4158398c72eb18c19b1c2f740890a0572a26ff4a3bf1ed1df3fcab4"
+RPM_NAME = "texlive-kpfonts-otf-2026.226.0.0.72svn77917-63.2.noarch.rpm"
+RPM_HASH = "940a88f1ef6e3677aae51e9305881ffc22f488d1b51c29feeddcf4a01e2c136e217edc04550412d29bb0679e43516847e6a936d677e053b0d70c5423981fb862"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kpfonts-otf.sty \

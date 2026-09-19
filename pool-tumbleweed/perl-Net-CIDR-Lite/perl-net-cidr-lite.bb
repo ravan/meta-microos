@@ -3,16 +3,16 @@ DESCRIPTION = "Faster alternative to Net::CIDR when merging a large number of CI
 ranges. Works for IPv4 and IPv6 addresses."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.22"
+PV = "0.240.0"
 
-RPM_NAME = "perl-Net-CIDR-Lite-0.22-1.12.noarch.rpm"
-RPM_HASH = "c5c04fe14c026a2a7b2bc1751c1cc15fcaadabd9c77615cdd16ddbdc7acb486e76163b83f02982795f28d34b5811dcc67f15c13253b060e13d6af8cb6bd58c0f"
+RPM_NAME = "perl-Net-CIDR-Lite-0.240.0-1.3.noarch.rpm"
+RPM_HASH = "a568760a457b966bf1e94af16f2cc923aeeb9b6672fe10025047027885ef51744c640d76cac2df37f750a3056220774e985dd3c08547f21a3ac50d8d3d12e1c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--CIDR--Lite \
 perl-Net--CIDR--Lite--Span \
 perl-Net-CIDR-Lite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

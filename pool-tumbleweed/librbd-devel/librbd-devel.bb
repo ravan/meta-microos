@@ -1,12 +1,12 @@
 SUMMARY = "RADOS block device headers"
 DESCRIPTION = "This package contains libraries and headers needed to develop programs \
 that use RADOS block device."
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "librbd-devel-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
-RPM_HASH = "ed376b525ea9ead49e222ef9d0ca770d19afdabf5c341b3e0d074ceff8f4dcfe0f9aefd733845de8e4e78780e66463153d68804c125a7267ddc4314faa47e264"
+RPM_NAME = "librbd-devel-18.2.7-8.1.aarch64.rpm"
+RPM_HASH = "b32cc3da06d0ad82e95ae712ca98fd62d129051ad1bbac66bdee45a3bd363249ae41788b9a5ef57a46f8e3c7acd29adfd448943401161c483bbccf4b29fe889c"
 
 RPROVIDES:${PN} += "librbd-devel \
 librbd1-devel"

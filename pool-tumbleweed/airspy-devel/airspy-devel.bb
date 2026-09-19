@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.10"
 
-RPM_NAME = "airspy-devel-1.0.10-1.9.aarch64.rpm"
-RPM_HASH = "04f315a38ce42b9f0191ae04c7cde26bb9c45874a9ca92fe695f1e394232d4dca704320789b160fe286039d81da5b671f1b1e9fde2ca5b6bd7fda0e8869ee90f"
+RPM_NAME = "airspy-devel-1.0.10-3.5.aarch64.rpm"
+RPM_HASH = "3fdb48dac40eebc36aa36e262f97e35e489649d2ff80b55aa23bb475323a80b8c131af8c1644b7d3b7cfecc525aecccea31fa02d593304b25e2db0a830452829"
 
 RPROVIDES:${PN} += "airspy-devel \
 pkgconfig-libairspy"

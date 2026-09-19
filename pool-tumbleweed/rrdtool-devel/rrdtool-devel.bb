@@ -5,10 +5,10 @@ server load average). This package allow you to build programs making \
 use of the library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.11.0"
 
-RPM_NAME = "rrdtool-devel-1.8.0-3.5.aarch64.rpm"
-RPM_HASH = "1c285c04757a3e23c23f6079f31ac2924d2a1f3bd4b45d7ef855866dee33ea254340b8e96ba3b9ba412d0a5ff014388b92e1a709f302c7f175034cc277f0e33a"
+RPM_NAME = "rrdtool-devel-1.11.0-1.1.aarch64.rpm"
+RPM_HASH = "b572ad03a1c6a0f283de6248433d045145dc21287ccfba477b9ee42a63a008a20be5835afc18ba7101f6283a8d62ccc10486a4fd1501be15589d0e95c21cfda3"
 
 RPROVIDES:${PN} += "pkgconfig-librrd \
 rrdtool-devel"

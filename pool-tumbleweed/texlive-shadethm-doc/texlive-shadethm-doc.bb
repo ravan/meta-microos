@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-shadethm"
 DESCRIPTION = "This package includes the documentation for texlive-shadethm"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn53350"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-shadethm-doc-2023.209.svn53350-54.1.noarch.rpm"
-RPM_HASH = "b85d5044b24d4cd141a141caef1f6d6b64033afa402c21c55bd47a709adc9d818570df51250ef11e4c3bb30ce0fc04d1e4f982f33f2fbcb23236bdee1039f495"
+RPM_NAME = "texlive-shadethm-doc-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "ad365b727b1545b9f694476d8d4d5971561348f4d1561bf8e8eed51b80f9ea0600c09ff76c1ff7245e15d822f37b7e8093215c2e78b0946bec72ecb89c03d9fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shadethm-doc"

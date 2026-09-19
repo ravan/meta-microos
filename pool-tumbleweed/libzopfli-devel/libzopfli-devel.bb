@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.3"
 
-RPM_NAME = "libzopfli-devel-1.0.3-2.2.aarch64.rpm"
-RPM_HASH = "5cade2a1afc109f1c0e6ce655ac9183c0907b6226e98ccd0f0cd5cb7f9dd07c688dffe0a2f0134fd3beb03123a3af08655c3db369c72e1ea2e5ffca66ea4a988"
+RPM_NAME = "libzopfli-devel-1.0.3-2.12.aarch64.rpm"
+RPM_HASH = "7e943f81bfcb5404bccaf2ec0f5715b8a8f65a3620b0cf692714a3d003e8f6bba1f5e6195d21e43fd4ef61db36285d23954615a80ed971d7ef8389c80fd54bb9"
 
 RPROVIDES:${PN} += "cmake-Zopfli \
 libzopfli-devel"

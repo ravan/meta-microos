@@ -2,20 +2,21 @@ SUMMARY = "Development package for baloo5"
 DESCRIPTION = "Development files for the AkonadiSearch library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "akonadi-search-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "7a6630f51f16555eb72edf9cb8b80bc20d74d9b4715b5de2f8f61843a0952e74963b18babd17ed07593dd21482a9db2494efccec7ee2471b53cfd8c188768e7a"
+RPM_NAME = "akonadi-search-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "955f2023ab47442a50c52e63498a74b1370af3fc9658c131b2ace8e156e966cb901da2e808bf956bf182108d5e56c46e469090d72eda9737422695ae2cc99773"
 
 RPROVIDES:${PN} += "akonadi-search-devel \
-cmake-KPim5AkonadiSearch"
+cmake-KPim6AkonadiSearch"
 
-RDEPENDS:${PN} += "cmake-KF5CalendarCore \
-cmake-KF5Contacts \
-cmake-KPim5Akonadi \
-cmake-KPim5AkonadiMime \
-cmake-KPim5Mime \
-cmake-Qt5Core \
-libKPim5AkonadiSearch5"
+RDEPENDS:${PN} += "cmake-KF6CalendarCore \
+cmake-KF6Contacts \
+cmake-KF6CoreAddons \
+cmake-KF6Mime \
+cmake-KPim6Akonadi \
+cmake-KPim6AkonadiMime \
+cmake-Qt6Core \
+libKPim6AkonadiSearch6"
 
 inherit rpm

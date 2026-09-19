@@ -17,18 +17,18 @@ Some of its features are: \
   rename a window, move it around and so on)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.91"
+PV = "1.11"
 
-RPM_NAME = "xwmfs-0.91-1.7.aarch64.rpm"
-RPM_HASH = "b7c7d8de7dbf8e09d0a60c29226895aceab6aeea5b8ac6b3793bc719e7340fd36af434e49aa04df7fd6ea4bfacf500e7294c24e05a6bf25238e04a0d97f795df"
+RPM_NAME = "xwmfs-1.11-1.3.aarch64.rpm"
+RPM_HASH = "325d0c121e98836bdd67cd9d7a4c110fc4620324edd2451ac75633917da3642a05653e0392be465c631804f1543d7a1c507766034a524fcf826ce062841cb9b6"
 
 RPROVIDES:${PN} += "xwmfs"
 
-RDEPENDS:${PN} += "fuse \
+RDEPENDS:${PN} += "fuse3 \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libgcc-s.so.1 \
 libstdc++.so.6"
 

@@ -9,10 +9,10 @@ compiled with Lua/XeLaTeX and a good Unicode font which has the \
 small caps characters, e.g., Charis SIL."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.2svn63178"
+PV = "2026.226.0.0.2svn63178"
 
-RPM_NAME = "texlive-unisc-2023.209.0.0.2svn63178-54.1.noarch.rpm"
-RPM_HASH = "946775b1ad2f56d34ddd8c437ae9e7113c5a828532c50b2604421427186ee41df309549fb05e3172d004df518320bb81e063f26869d7fb8e0873c488c020c6ca"
+RPM_NAME = "texlive-unisc-2026.226.0.0.2svn63178-60.2.noarch.rpm"
+RPM_HASH = "f63dcf798acc6d081ff2f0b0076aa24249d745648bb7816f06d2c73a2946f2b26d00bfc64d9e27f11d0409649500b8ba08d1492f26ecc2d750d7f719d5af73aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unisc.sty \

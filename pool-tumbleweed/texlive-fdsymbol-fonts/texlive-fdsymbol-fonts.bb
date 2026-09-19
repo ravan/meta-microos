@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fdsymbol"
 DESCRIPTION = "The  separated fonts package for texlive-fdsymbol"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.8svn61719"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-fdsymbol-fonts-2023.209.0.0.8svn61719-53.1.noarch.rpm"
-RPM_HASH = "ffdf2ed063123c5a44981702fe3933597aee46765377549ed0d7bf67d37651d4408468206b8e549813b12476686013fd53dd19d92539edd7269c553d80cc25b4"
+RPM_NAME = "texlive-fdsymbol-fonts-2026.226.1.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "adc2777d2673175367c522efe6ff75572a5aacaf58c966a5dd21ef608fdfc14b4afed7ae8097e2e7c00b5128f9db901f95f0d0c4ad1799a141e70d8ed46d37a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-fdsymbol-fonts \

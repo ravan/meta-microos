@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "r475"
 
-RPM_NAME = "libcuefile-devel-r475-2.15.aarch64.rpm"
-RPM_HASH = "95be771f532950bb6588af381d621990279700901929ab1b86c6b72ab77afe5ba68520988998e56673031153627406b1f7b14871f5328aa1f5b58d52b261acdf"
+RPM_NAME = "libcuefile-devel-r475-4.9.aarch64.rpm"
+RPM_HASH = "0c6552ceb67b22912ba92114deb66a31a0087d1aef9eb986b51cc5e3b7154594f8383fbde1f47bbd0df106de357227d596e77d6ef3f7c0b73fb1af32bbd105bc"
 
 RPROVIDES:${PN} += "libcuefile-devel"
 

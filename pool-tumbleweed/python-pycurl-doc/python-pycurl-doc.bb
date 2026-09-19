@@ -4,16 +4,15 @@ DESCRIPTION = "This module provides bindings for the cURL library. \
 This package contains documentation and examples."
 LICENSE = "LGPL-2.1-or-later & MIT"
 
-PV = "7.45.2"
+PV = "7.45.6"
 
-RPM_NAME = "python-pycurl-doc-7.45.2-4.4.noarch.rpm"
-RPM_HASH = "0e9d7d22447a72a7ecbceb7de92fd3da26bc17043fea81e916af76eac1bca910d2e490bfc0f753c58a07d63557ea68346108b538de1893e5cda8d9cf5c0c2159"
+RPM_NAME = "python-pycurl-doc-7.45.6-2.6.noarch.rpm"
+RPM_HASH = "41d496b8497271a9c12900dba9da9307705b8cf6e6ef293957172918831e09bf8b1b4d97b46cc7a4d4c16cc700b53c861e1a05bb10738c5e3c8db85b4420e4b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pycurl-doc \
-python310-pycurl-doc \
-python311-pycurl-doc \
-python39-pycurl-doc"
+python313-pycurl-doc \
+python314-pycurl-doc"
 
 RDEPENDS:${PN} += ""
 

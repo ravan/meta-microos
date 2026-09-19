@@ -2,10 +2,10 @@ SUMMARY = "Widgets for showing progress of asynchronous jobs"
 DESCRIPTION = "KJobWIdgets provides widgets for showing progress of asynchronous jobs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5JobWidgets5-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "fab4800e73c1491aaa036e23a0e81a50b400677879290c69243b7cc0744b5429d931daafda2babe6e978f4bb20536db60bd92089ff75b30829cd28e037ba64c8"
+RPM_NAME = "libKF5JobWidgets5-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "956501bf1363288b8a4152269622a217515e23d3e6afe7733011c9634e1fc0e18fe9f0237b864705ca6b01dd7b565acce139e07d24e648a9babda45352b80963"
 
 RPROVIDES:${PN} += "libKF5JobWidgets.so.5 \
 libKF5JobWidgets5"

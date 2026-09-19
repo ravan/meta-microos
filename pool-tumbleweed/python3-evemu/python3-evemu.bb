@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.7.0"
 
-RPM_NAME = "python3-evemu-2.7.0-3.13.aarch64.rpm"
-RPM_HASH = "b9ad484b081eb71eef214cff26919e7296337b26f4e1e78771e185158472de9d3e16cf89c3545a449cbdba5f5573bd8d8d0ca3edd9fff3c720712611df2443ee"
+RPM_NAME = "python3-evemu-2.7.0-4.5.aarch64.rpm"
+RPM_HASH = "692bd47d1e138cf6a681ef267ff2088f7422a0b9b50f1930e4e8de4c6eaac4dabe1af2fb4ed2cde7c5c6d69f21bb72845710feec116d5f62fdf4403b99a0eef8"
 
 RPROVIDES:${PN} += "python3-evemu"
 

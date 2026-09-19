@@ -10,10 +10,10 @@ share media such as music and photos. \
 This package contains development files for libdmapsharing."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.9.12"
+PV = "3.9.14"
 
-RPM_NAME = "libdmapsharing-devel-3.9.12-1.1.aarch64.rpm"
-RPM_HASH = "470998e0ac3fcb86aed1205eb0099ae4c534604ba52a7d95a81a524b55c8a11131c739b2c3c699a35ae1960bcdf5645d6a3cad0ddb2a1079de2a72832b4bed67"
+RPM_NAME = "libdmapsharing-devel-3.9.14-1.3.aarch64.rpm"
+RPM_HASH = "12c253540131c75b58332ee670f58b653c2474f9a6eed34f3ec5a21eb47c53261ee28b8b8cb5db213c7276d92dbbd1a0412b05b310fd427a480007aa3c5a3daf"
 
 RPROVIDES:${PN} += "libdmapsharing-devel \
 pkgconfig-libdmapsharing-4.0"

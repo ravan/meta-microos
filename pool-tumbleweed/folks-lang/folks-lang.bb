@@ -2,10 +2,10 @@ SUMMARY = "Translations for package folks"
 DESCRIPTION = "Provides translations for the 'folks' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.15.6"
+PV = "0.15.12"
 
-RPM_NAME = "folks-lang-0.15.6-1.2.noarch.rpm"
-RPM_HASH = "236cc3ef1d7e782226a8888aa05f1fd776d7c2b507ffb84a7d2da90a585fc7a6dd4ee2d68d16f5d35e363a69e7a29973b67fc95e7766918ad990ce5830e25599"
+RPM_NAME = "folks-lang-0.15.12-2.4.noarch.rpm"
+RPM_HASH = "e5c6fc8177d0aeebccbe5671f27b87f3294ef94934cdf5a568fda894a96096da883e7180d935d1c648b964653fc26dc035ce964a16f42ba30635a748006d7bd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "folks-lang \
@@ -66,6 +66,7 @@ locale-folks-sr@latin \
 locale-folks-sv \
 locale-folks-ta \
 locale-folks-te \
+locale-folks-th \
 locale-folks-tr \
 locale-folks-ug \
 locale-folks-uk \

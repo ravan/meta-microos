@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "50"
 
-RPM_NAME = "perl-Pod-MinimumVersion-50-2.14.noarch.rpm"
-RPM_HASH = "d8f109a5b3f37584b7bcf94a7daeb4372b4646563f4531ceb136e1811fc0eb02b543152f9353601d6609766ca8684f9fe4ee9647994f908b65a802f73cc46973"
+RPM_NAME = "perl-Pod-MinimumVersion-50-2.28.noarch.rpm"
+RPM_HASH = "3f48d5f5dc143c898df09577eedcdb175fd482ddfead17ac7fdc39ebff34a7c480b3578003178ecb5e2c1494edd5c7d120d039303002220e1c785957a862a7c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--MinimumVersion \
@@ -16,7 +16,7 @@ perl-Pod--MinimumVersion--Report \
 perl-Pod-MinimumVersion"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-IO--String \
 perl-Pod--Parser \
 perl-version"

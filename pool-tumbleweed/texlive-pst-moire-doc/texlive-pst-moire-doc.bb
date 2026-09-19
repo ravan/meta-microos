@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-moire"
 DESCRIPTION = "This package includes the documentation for texlive-pst-moire"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn60411"
+PV = "2026.226.2.2svn60411"
 
-RPM_NAME = "texlive-pst-moire-doc-2023.209.2.2svn60411-53.1.noarch.rpm"
-RPM_HASH = "42190d93a8de2a6d66a9ae3fc6a346bd08ea07397456f60039f54ceedf5f96bc911f5c9febdada6f51619b71f45f24320022c19fe68e10a55da006f3682d3b9a"
+RPM_NAME = "texlive-pst-moire-doc-2026.226.2.2svn60411-59.2.noarch.rpm"
+RPM_HASH = "894acdde998a8f7443caee89274a01c8895459fb2258594cf471876245da47d88bb5c2fc29a4ce860a6a4c7e67e0acf6afbb0aefa07ee62510e60af6c24c688b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-moire-doc"

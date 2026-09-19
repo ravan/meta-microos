@@ -4,10 +4,10 @@ Offering a complete set of widgets, GTK+ is suitable for projects \
 ranging from small one-off projects to complete application suites."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.12.0"
+PV = "4.22.5"
 
-RPM_NAME = "gtk4-devel-tools-4.12.0-2.1.aarch64.rpm"
-RPM_HASH = "fa39757fba45d9dce679c670ba6e98246b3699af627905f041ea7bf54ebd122c14a1c0c7896aa96d477df3d2652895fb1b501846c83e9ec769fe448aabf6001f"
+RPM_NAME = "gtk4-devel-tools-4.22.5-1.1.aarch64.rpm"
+RPM_HASH = "7b660bd31076de701093f2266bcdb4b35d42922d05d72563c62c5b699c2b9ebc92f9c0a904a2bc6e94f0862cf1d22eb24e3dc4f36b96bdb58c763f1eca6f8c17"
 
 RPROVIDES:${PN} += "gtk4-devel-tools"
 
@@ -24,22 +24,35 @@ libc.so.6 \
 libcairo-gobject.so.2 \
 libcairo-script-interpreter.so.2 \
 libcairo.so.2 \
+libcloudproviders.so.0 \
+libcolord.so.2 \
+libcups.so.2 \
 libepoxy.so.0 \
 libfontconfig.so.1 \
 libfribidi.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgraphene-1.0.so.0 \
+libgstallocators-1.0.so.0 \
+libgstgl-1.0.so.0 \
+libgstplay-1.0.so.0 \
+libgstreamer-1.0.so.0 \
+libgstvideo-1.0.so.0 \
 libgtk-4.so.1 \
+libharfbuzz-subset.so.0 \
 libharfbuzz.so.0 \
 libjpeg.so.8 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
+libpangoft2-1.0.so.0 \
 libpng16.so.16 \
 libtiff.so.6 \
+libtinysparql-3.0.so.0 \
+libvulkan.so.1 \
 libwayland-client.so.0 \
 libwayland-egl.so.1 \
 libxkbcommon.so.0"

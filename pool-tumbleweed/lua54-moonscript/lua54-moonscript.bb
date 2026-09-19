@@ -4,21 +4,19 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "lua54-moonscript-0.5.0-4.2.noarch.rpm"
-RPM_HASH = "8c39d7f1f1e2a866bd64ac60dd2dd7d15016ecae9b3b2e319d355195b7d7af69d6ce74061b26a3e3bdc307e2d351d976bf6daa312b08316fe7a01cfee584dede"
+RPM_NAME = "lua54-moonscript-0.5.0-7.2.noarch.rpm"
+RPM_HASH = "887363ed25b873bbca5ad3525f07cc132ae33704f009e71048814baa99d7d34981a8f2af78903cde3373766d5794ea3a6779e5ec56df544eeb2815cb2c38214b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-moonscript \
 lua54-moonscript"
 
-RDEPENDS:${PN} += "/usr/bin/lua5.4 \
-/usr/bin/sh \
+RDEPENDS:${PN} += "alts \
 lua54 \
 lua54-alt-getopt \
 lua54-argparse \
 lua54-loadkit \
 lua54-lpeg \
-lua54-luafilesystem \
-update-alternatives"
+lua54-luafilesystem"
 
 inherit rpm

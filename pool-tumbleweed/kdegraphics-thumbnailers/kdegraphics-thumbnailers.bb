@@ -3,23 +3,23 @@ DESCRIPTION = "This package allows KDE applications to show thumbnails \
 and previews of graphics files."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdegraphics-thumbnailers-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "1d736f5629d79a6bf45d16b8c0c8b9f229790e5f695b2d759be5f42509f517c16696ded5221cbe4732dcfa8b9bb2f055cf149749021ad1a58a6557fe712aebc1"
+RPM_NAME = "kdegraphics-thumbnailers-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "0eee7c6ee9ecfaac938564848a1354acd8d4c4bbdbf071a91e5680b5d2c1fc63f6abd198fb1bdd7ada713c6c25e1514e8acb76a2850f9c5d298aba143e318420"
 
 RPROVIDES:${PN} += "kdegraphics-thumbnailers"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5KDcraw.so.5 \
-libKF5KExiv2.so.15.0.0 \
-libKF5KIOGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
+libKDcrawQt6.so.5 \
+libKExiv2Qt6.so.0 \
+libKF6Archive.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6KIOGui.so.6 \
+libQMobipocket6.so.3 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
 libc.so.6 \
-libqmobipocket.so.2 \
 libstdc++.so.6"
 
 inherit rpm

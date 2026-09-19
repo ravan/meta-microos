@@ -10,10 +10,10 @@ script that can be used to convert plain-text song lyrics to \
 the expected LaTeX markup."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.1.0.1svn64966"
+PV = "2026.226.1.2.0svn76924"
 
-RPM_NAME = "texlive-songproj-2023.209.1.0.1svn64966-58.1.noarch.rpm"
-RPM_HASH = "91f0e4c855f2f1ef9dd43d4017cae773862a6d33312ab669dc1b5fa3699fa0ea6fe446a5f7027eaa63827f355fc820b97e67aa8ccb7c222256a72ca1fdafb877"
+RPM_NAME = "texlive-songproj-2026.226.1.2.0svn76924-64.2.noarch.rpm"
+RPM_HASH = "65a519d040ed0084c8da45075676b8969b949dfdc6cb8a0ed0d35e521a256cd3e5ae971d6056dd520fc12e5393a39c88143847a8aa6a7b751f7976cedbaf78a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-songproj.sty \

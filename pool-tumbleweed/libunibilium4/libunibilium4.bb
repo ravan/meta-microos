@@ -6,10 +6,10 @@ thread-safe. \
 This package holds the shared library."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.1.1"
+PV = "2.1.2"
 
-RPM_NAME = "libunibilium4-2.1.1-1.8.aarch64.rpm"
-RPM_HASH = "c24b67045e343fbc907aafdd8589d0b5217c64cf5ef80c179ce2cf6b4544f68c9a919c82f346fd26abb67b1d13a2ee6b5196c9cf187764a66d5c3fd4d9d1a174"
+RPM_NAME = "libunibilium4-2.1.2-1.5.aarch64.rpm"
+RPM_HASH = "2bced567d5a9cb3f01485db46e613aeb9fd8160ded3a1b030ef909e7dc96a52ae5412e009ae551cef3ea6fe523f2a7139ad2a313f5c46c82d0187da566c00c82"
 
 RPROVIDES:${PN} += "libunibilium.so.4 \
 libunibilium4"

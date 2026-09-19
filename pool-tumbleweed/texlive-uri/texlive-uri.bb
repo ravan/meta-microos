@@ -5,10 +5,10 @@ preview, and WebCite and provides commands \\citeurl, \\mailto, \
 \\ukoeln, and \\uref."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0bsvn48602"
+PV = "2026.226.2.0bsvn77682"
 
-RPM_NAME = "texlive-uri-2023.209.2.0bsvn48602-54.1.noarch.rpm"
-RPM_HASH = "80affcfbb7a405d79ac7f13a58a2915e1f641bf5904c3fab843246535f4b80c86587563cf774d01aa47e14993b48a8c51178151cbf666187b518a19ba8a58953"
+RPM_NAME = "texlive-uri-2026.226.2.0bsvn77682-60.2.noarch.rpm"
+RPM_HASH = "6bf306f1b6cc27ce9862af1d73a86facd854b3e83d7bda63572b08d4ac5287ce6cfdfb8f9ccc8bca44f88ea83750f9dd438fc2db7d2461960c33d5c5b81db06d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uri.sty \

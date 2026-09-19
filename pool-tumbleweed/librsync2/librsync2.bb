@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.4"
 
-RPM_NAME = "librsync2-2.3.4-1.2.aarch64.rpm"
-RPM_HASH = "5f0dae228fc0b0f57d543898b18a938dac0a6b3b41a72f6370c63d733813608f1e992067802ebd5f593d0f9a125c7e14800187ca1f08a14f69c740d886c2949e"
+RPM_NAME = "librsync2-2.3.4-1.13.aarch64.rpm"
+RPM_HASH = "110fc221f9233300f2b4bf95a4f0bd70ab317a75e11606d464dc123b08ef00beb522f57f2eda666f842d82d3f01479eb2ddb5c7fa0610a11e1e102efbfc8fba0"
 
 RPROVIDES:${PN} += "librsync \
 librsync.so.2 \

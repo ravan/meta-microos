@@ -7,18 +7,18 @@ what we would prefer to call them. \
  \
 This module will add a 'moniker' (and 'plural_moniker') method to \
 'UNIVERSAL', and so to every class or module."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.08"
 
-RPM_NAME = "perl-UNIVERSAL-moniker-0.08-13.28.noarch.rpm"
-RPM_HASH = "dacaf92ee7712b92b015403286d10ab730f370885ebe0a296fda44c6b7cf5c5e9e9191238e1ce21822052ca5450c1e7124aa53051df2d41972550f8ca292c268"
+RPM_NAME = "perl-UNIVERSAL-moniker-0.08-14.10.noarch.rpm"
+RPM_HASH = "4ca3143d1d8ff893f1480846a06eb56f029548fd8d36f4aadad6e6167157eceb603a3c0c75c5a2e314e4d2fb0395faf23f391b072b8dda4afde7554e915c6ae1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-UNIVERSAL \
 perl-UNIVERSAL--moniker \
 perl-UNIVERSAL-moniker"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

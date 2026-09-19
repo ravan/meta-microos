@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.02"
 
-RPM_NAME = "perl-MooseX-MultiInitArg-0.02-5.26.noarch.rpm"
-RPM_HASH = "149b192dcd3a94cbab4c1493306eb6a659489d35e2eda5c4bb5df60440fe651f00bcfe9962b89c23436aa467e0776634596e2984eec273a9455ce2627925cdcc"
+RPM_NAME = "perl-MooseX-MultiInitArg-0.02-5.40.noarch.rpm"
+RPM_HASH = "73a36e7a9f2941d8b4fb284f1d8bee0cb3146a2a09cedfe38e6802c247347b8993ad12a6a122ad1019278983ae3edbd8636b7a713477bd64b2791b6a6fbacc22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--MultiInitArg \
@@ -18,7 +18,7 @@ perl-MooseX--MultiInitArg--Attribute \
 perl-MooseX--MultiInitArg--Trait \
 perl-MooseX-MultiInitArg"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moose"
 
 inherit rpm

@@ -5,10 +5,10 @@ developed by Frank Brokken. All of Frank's C++ programs hosted at GitLab \
 depend on `bobcat'."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.02.02"
+PV = "6.15.01"
 
-RPM_NAME = "libbobcat6-6.02.02-2.4.aarch64.rpm"
-RPM_HASH = "4ea2d678dfbd87f547318ae9e2fda43132fa9ae406b498f805c4c4bc8f7f4018a281df63006826bf835380386d3a487a134c4a56e8fbd438bb9c06c2f337a5a1"
+RPM_NAME = "libbobcat6-6.15.01-1.1.aarch64.rpm"
+RPM_HASH = "885f06a22840a45b53c7f340d3ed3bee671feff0837a0b014dade9b418fbfd9884780f3087d1afd112ed22e4b777f38a47ef488f59d20e93ded4053a2ea6ef34"
 
 RPROVIDES:${PN} += "libbobcat \
 libbobcat.so.6 \

@@ -5,10 +5,10 @@ and math. The missing typefaces like bold math and slanted text \
 are also defined"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn64734"
+PV = "2026.226.0.0.01svn77682"
 
-RPM_NAME = "texlive-schola-otf-2023.209.0.0.01svn64734-54.1.noarch.rpm"
-RPM_HASH = "2c6f83cb9f1d35726a3a7d0ddf9aa41a57001505c595a8f5bf503eeba966ced4e17aad6d996b39c5109eb8e9e9f8de13f3e8c42594cc1b89212f83964ed1553a"
+RPM_NAME = "texlive-schola-otf-2026.226.0.0.01svn77682-60.2.noarch.rpm"
+RPM_HASH = "334a18894e7eace4e907723ddf0f26869b51833120fdece76fac4c539c957d50e746f62b215eb213f6d12d70e8bfc80dc8fc73cac4835ef4eb8672ea9ebc7883"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-schola-otf.sty \

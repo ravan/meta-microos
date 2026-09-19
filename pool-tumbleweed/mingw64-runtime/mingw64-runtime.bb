@@ -2,10 +2,10 @@ SUMMARY = "MinGW-w64 runtime libraries for Win64"
 DESCRIPTION = "MinGW Win64 cross-compiler runtime, base libraries."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "10.0.0"
+PV = "14.0.0"
 
-RPM_NAME = "mingw64-runtime-10.0.0-1.3.noarch.rpm"
-RPM_HASH = "0006beae09413f617efff6c8315739f579a7c4ca9ac2761c882723daf88b3cd64905e29041480f909ab57f0adb32733e5861595f80919500e73d4aa21bfc01ed"
+RPM_NAME = "mingw64-runtime-14.0.0-1.1.noarch.rpm"
+RPM_HASH = "1c5c92afb3d7ef982b1a39249702d343da7e37cb6aae0b1f31100b17eaca78fe2a2a3b7652b759602c98002556eae50f56f54c7a9c6deeb5eff23bb1212c2650"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-lib-CINTIME \
@@ -51,6 +51,7 @@ mingw64-lib-basesrv \
 mingw64-lib-batmeter \
 mingw64-lib-batt \
 mingw64-lib-bcrypt \
+mingw64-lib-bcryptprimitives \
 mingw64-lib-bits \
 mingw64-lib-bluetoothapis \
 mingw64-lib-bootvid \
@@ -68,6 +69,7 @@ mingw64-lib-cdm \
 mingw64-lib-certcli \
 mingw64-lib-cfgbkend \
 mingw64-lib-cfgmgr32 \
+mingw64-lib-chakrart \
 mingw64-lib-chtskdic \
 mingw64-lib-cimwin32 \
 mingw64-lib-classpnp \
@@ -97,9 +99,11 @@ mingw64-lib-comsvcs \
 mingw64-lib-comuid \
 mingw64-lib-connect \
 mingw64-lib-console \
+mingw64-lib-coremessaging \
 mingw64-lib-corpol \
 mingw64-lib-credui \
 mingw64-lib-crypt32 \
+mingw64-lib-cryptbase \
 mingw64-lib-cryptdlg \
 mingw64-lib-cryptdll \
 mingw64-lib-cryptext \
@@ -187,13 +191,16 @@ mingw64-lib-devrtl \
 mingw64-lib-dhcpcsvc \
 mingw64-lib-dhcpcsvc6 \
 mingw64-lib-dhcpsapi \
+mingw64-lib-diagnosticdataquery \
 mingw64-lib-digest \
 mingw64-lib-dimsntfy \
 mingw64-lib-dimsroam \
 mingw64-lib-dinput \
 mingw64-lib-dinput8 \
+mingw64-lib-directml \
 mingw64-lib-diskcopy \
 mingw64-lib-dismapi \
+mingw64-lib-dloadhelper \
 mingw64-lib-dmconfig \
 mingw64-lib-dmdskmgr \
 mingw64-lib-dmivcitf \
@@ -201,6 +208,7 @@ mingw64-lib-dmoguids \
 mingw64-lib-dmutil \
 mingw64-lib-dmvdsitf \
 mingw64-lib-dnsapi \
+mingw64-lib-dnsperf \
 mingw64-lib-dnsrslvr \
 mingw64-lib-dpapi \
 mingw64-lib-dpnaddr \
@@ -222,6 +230,7 @@ mingw64-lib-dsuiext \
 mingw64-lib-duser \
 mingw64-lib-dwmapi \
 mingw64-lib-dwrite \
+mingw64-lib-dxcore \
 mingw64-lib-dxerr8 \
 mingw64-lib-dxerr9 \
 mingw64-lib-dxgi \
@@ -286,6 +295,7 @@ mingw64-lib-hnetcfg \
 mingw64-lib-hnetwiz \
 mingw64-lib-hostmib \
 mingw64-lib-hotplug \
+mingw64-lib-hrtfapo \
 mingw64-lib-htmlhelp \
 mingw64-lib-htrn-jis \
 mingw64-lib-httpapi \
@@ -303,6 +313,7 @@ mingw64-lib-icfgnt5 \
 mingw64-lib-icm32 \
 mingw64-lib-icmp \
 mingw64-lib-icmui \
+mingw64-lib-icu \
 mingw64-lib-icwconn \
 mingw64-lib-icwdial \
 mingw64-lib-icwdl \
@@ -341,6 +352,7 @@ mingw64-lib-infocomm \
 mingw64-lib-infoctrs \
 mingw64-lib-infosoft \
 mingw64-lib-initpki \
+mingw64-lib-inkobjcore \
 mingw64-lib-input \
 mingw64-lib-inseng \
 mingw64-lib-iphlpapi \
@@ -408,10 +420,12 @@ mingw64-lib-mfreadwrite \
 mingw64-lib-mfsensorgroup \
 mingw64-lib-mfuuid \
 mingw64-lib-mgmtapi \
+mingw64-lib-mi \
 mingw64-lib-midimap \
 mingw64-lib-migism \
 mingw64-lib-miglibnt \
 mingw64-lib-mincore \
+mingw64-lib-mincore-downlevel \
 mingw64-lib-mingw32 \
 mingw64-lib-mingwex \
 mingw64-lib-mingwthrd \
@@ -446,6 +460,7 @@ mingw64-lib-msacm32 \
 mingw64-lib-msadcs \
 mingw64-lib-msado15 \
 mingw64-lib-msafd \
+mingw64-lib-msajapi \
 mingw64-lib-msasn1 \
 mingw64-lib-mscat32 \
 mingw64-lib-mscms \
@@ -493,11 +508,14 @@ mingw64-lib-msvcirt \
 mingw64-lib-msvcp120-app \
 mingw64-lib-msvcp60 \
 mingw64-lib-msvcr100 \
+mingw64-lib-msvcr100d \
 mingw64-lib-msvcr110 \
+mingw64-lib-msvcr110d \
 mingw64-lib-msvcr120 \
 mingw64-lib-msvcr120-app \
 mingw64-lib-msvcr120d \
 mingw64-lib-msvcr80 \
+mingw64-lib-msvcr80d \
 mingw64-lib-msvcr90 \
 mingw64-lib-msvcr90d \
 mingw64-lib-msvcrt \
@@ -506,12 +524,15 @@ mingw64-lib-msvfw32 \
 mingw64-lib-msvidc32 \
 mingw64-lib-msw3prt \
 mingw64-lib-mswsock \
+mingw64-lib-msxml2 \
+mingw64-lib-msxml6 \
 mingw64-lib-msyuv \
 mingw64-lib-mtxclu \
 mingw64-lib-mtxdm \
 mingw64-lib-mtxex \
 mingw64-lib-mtxoci \
 mingw64-lib-mydocs \
+mingw64-lib-nanosrv \
 mingw64-lib-ncobjapi \
 mingw64-lib-ncrypt \
 mingw64-lib-ncxpnt \
@@ -534,6 +555,7 @@ mingw64-lib-netui0 \
 mingw64-lib-netui1 \
 mingw64-lib-netui2 \
 mingw64-lib-newdev \
+mingw64-lib-ninput \
 mingw64-lib-nntpapi \
 mingw64-lib-normaliz \
 mingw64-lib-npptools \
@@ -577,6 +599,9 @@ mingw64-lib-olecnv32 \
 mingw64-lib-oledb32 \
 mingw64-lib-oledlg \
 mingw64-lib-olesvr32 \
+mingw64-lib-onecore \
+mingw64-lib-onecore-apiset \
+mingw64-lib-onecoreuap-apiset \
 mingw64-lib-opends60 \
 mingw64-lib-opengl32 \
 mingw64-lib-osuninst \
@@ -640,6 +665,7 @@ mingw64-lib-resutil \
 mingw64-lib-resutils \
 mingw64-lib-riched20 \
 mingw64-lib-rnr20 \
+mingw64-lib-rometadata \
 mingw64-lib-routetab \
 mingw64-lib-rpcdiag \
 mingw64-lib-rpchttp \
@@ -748,8 +774,10 @@ mingw64-lib-txfw32 \
 mingw64-lib-ucrt \
 mingw64-lib-ucrtapp \
 mingw64-lib-ucrtbase \
+mingw64-lib-ucrtbased \
 mingw64-lib-udhisapi \
 mingw64-lib-ufat \
+mingw64-lib-uiautomationcore \
 mingw64-lib-umandlg \
 mingw64-lib-umdmxfrm \
 mingw64-lib-umpnpmgr \
@@ -771,7 +799,9 @@ mingw64-lib-usp10 \
 mingw64-lib-utildll \
 mingw64-lib-uuid \
 mingw64-lib-uxtheme \
+mingw64-lib-vcruntime140 \
 mingw64-lib-vcruntime140-app \
+mingw64-lib-vcruntime140d \
 mingw64-lib-vdsutil \
 mingw64-lib-verifier \
 mingw64-lib-version \
@@ -808,18 +838,25 @@ mingw64-lib-webauthn \
 mingw64-lib-webcheck \
 mingw64-lib-webclnt \
 mingw64-lib-webhits \
+mingw64-lib-webservices \
 mingw64-lib-websocket \
 mingw64-lib-wecapi \
 mingw64-lib-wer \
 mingw64-lib-wevtapi \
 mingw64-lib-wevtfwd \
 mingw64-lib-wiadss \
+mingw64-lib-wiaguid \
 mingw64-lib-wiarpc \
 mingw64-lib-wiaservc \
 mingw64-lib-wiashext \
 mingw64-lib-wimgapi \
+mingw64-lib-winbrand \
+mingw64-lib-windows.data.pdf \
+mingw64-lib-windows.networking \
 mingw64-lib-windowsapp \
 mingw64-lib-windowscodecs \
+mingw64-lib-windowscoreheadless-apiset \
+mingw64-lib-windowsi.machinelearning \
 mingw64-lib-winfax \
 mingw64-lib-winhttp \
 mingw64-lib-winhvemulation \
@@ -862,6 +899,7 @@ mingw64-lib-wsdapi \
 mingw64-lib-wshatm \
 mingw64-lib-wshbth \
 mingw64-lib-wslapi \
+mingw64-lib-wsmsvc \
 mingw64-lib-wsock32 \
 mingw64-lib-wtsapi32 \
 mingw64-lib-x3daudio \
@@ -881,12 +919,15 @@ mingw64-lib-xapofx1-4 \
 mingw64-lib-xapofx1-5 \
 mingw64-lib-xapofxd1-5 \
 mingw64-lib-xaudio2-8 \
+mingw64-lib-xaudio2-9 \
 mingw64-lib-xinput \
 mingw64-lib-xinput1-1 \
 mingw64-lib-xinput1-2 \
 mingw64-lib-xinput1-3 \
 mingw64-lib-xinput1-4 \
 mingw64-lib-xinput9-1-0 \
+mingw64-lib-xinputuap \
+mingw64-lib-xmllite \
 mingw64-lib-zoneoc \
 mingw64-runtime"
 

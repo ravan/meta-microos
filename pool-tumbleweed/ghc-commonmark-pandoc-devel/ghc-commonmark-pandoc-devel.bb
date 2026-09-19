@@ -3,21 +3,21 @@ DESCRIPTION = "This package provides the Haskell commonmark-pandoc library devel
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.1.3"
+PV = "0.3"
 
-RPM_NAME = "ghc-commonmark-pandoc-devel-0.2.1.3-2.10.aarch64.rpm"
-RPM_HASH = "fc0252988b8c06314c1b1181a9279c5a8b886613449849a0ad421f0b4e99ec9726a5a042afdacd3b904583d0dc12f9e55ecae1ccdeac81fb939c7eea8f670727"
+RPM_NAME = "ghc-commonmark-pandoc-devel-0.3-1.2.aarch64.rpm"
+RPM_HASH = "00fa4fd5891f836ffeca89be6fb26e9ee6c48192827c01d5320ffb57674b22f92c14eeb26b47fe35e4e945e665e06a0f8e7fb4b97cfaa1dd0680869aeffce8ed"
 
 RPROVIDES:${PN} += "ghc-commonmark-pandoc-devel \
-ghc-devel-commonmark-pandoc-0.2.1.3-GkTisosgOerIgZW4ZPE6QD"
+ghc-devel-commonmark-pandoc-0.3-LD3VUAgig8i7h5XtC6wGuG"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-commonmark-pandoc \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-commonmark-0.2.3-6HyB59I8Umx9O57gNLEHWR \
-ghc-devel-commonmark-extensions-0.2.3.5-8zB7Un6TRyL3aLmtEaucGr \
-ghc-devel-pandoc-types-1.23.1-8yEOjBSLsT62OPTXI0FZpc \
-ghc-devel-text-2.0.2"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-commonmark-0.3-Hb0ZVJyoQFw1ynqgbLue51 \
+ghc-devel-commonmark-extensions-0.2.7-1mQ1nSXKMfxCcwI2Hy1vjF \
+ghc-devel-pandoc-types-1.23.1.2-ChVVUkZ84FqF7WWwilaI65 \
+ghc-devel-text-2.1.4-cf23"
 
 inherit rpm

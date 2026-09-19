@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-0.8.18-2.9.aarch64.rpm"
-RPM_HASH = "b4c31e84f16a61151abbb75c75d50bd655169ed6ba8c74e68e56cac5d6f15b8505a51d849b55d38f62ff406fbdca2a39cd4575f1a13c213927520dc9e8e16310"
+RPM_NAME = "compiz-0.8.18-4.5.aarch64.rpm"
+RPM_HASH = "0dbb1b31f61d3d0ae7a6804cd397f5399eaa12ef6d0e39232571fd8a1aa120db5f415c0e20b1fa8ef4fe2eba427163573dcc416e730424de97afe03e6f464879"
 
 RPROVIDES:${PN} += "compiz \
 windowmanager"
@@ -35,7 +35,7 @@ libc.so.6 \
 libcompizconfig \
 libm.so.6 \
 libstartup-notification-1.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 pciutils"
 
 inherit rpm

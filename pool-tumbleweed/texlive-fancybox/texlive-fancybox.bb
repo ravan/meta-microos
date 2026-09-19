@@ -5,10 +5,10 @@ verbatim macros. You can box mathematics, floats, center, \
 flushleft, and flushright, lists, and pages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn18304"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-fancybox-2023.209.1.4svn18304-53.1.noarch.rpm"
-RPM_HASH = "07006854dbd79d798ff3a7496ec2b686aa9ab004386e644bd4a4001f394b7ae5ca1671bdfcb3b6d5e1b0b4b14bd9b2aceb5e7e4d929ca106c2821c2bab90c6e0"
+RPM_NAME = "texlive-fancybox-2026.226.1.4svn77682-59.2.noarch.rpm"
+RPM_HASH = "a949f66a4b22f0fb60b5ce6fa81ded5e9d40ded48643239314b9d32f1cebbfc69030fbe56600c5b5eeae46a23b3991085a3a4767cad2717563637a91178c4a82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fancybox.sty \

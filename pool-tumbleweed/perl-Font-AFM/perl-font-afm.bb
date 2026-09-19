@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-2.0-or-later"
 
 PV = "1.20"
 
-RPM_NAME = "perl-Font-AFM-1.20-51.17.noarch.rpm"
-RPM_HASH = "5274c688dddb6649e5f8a8dd864dee3377301e722350b810634d6e96cad25969fd252aeeedced548253d56f1f55d5ff5be7f9bf715cd0488e459b5a15e756dd0"
+RPM_NAME = "perl-Font-AFM-1.20-51.31.noarch.rpm"
+RPM_HASH = "98696e9ec809e6430d09b9d48daa7490593c4adb8a579d2237a8f847704299de3d8e3be13c5c4115cf3849904d801b7c3eb372207c250d31f7af69f30cbddd95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Font--AFM \
@@ -25,6 +25,6 @@ perl-Font--Metrics--TimesItalic \
 perl-Font--Metrics--TimesRoman \
 perl-Font-AFM"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

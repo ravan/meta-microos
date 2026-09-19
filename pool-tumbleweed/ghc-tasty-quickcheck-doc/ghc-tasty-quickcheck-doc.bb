@@ -2,10 +2,10 @@ SUMMARY = "Haskell tasty-quickcheck library documentation"
 DESCRIPTION = "This package provides the Haskell tasty-quickcheck library documentation."
 LICENSE = "MIT"
 
-PV = "0.10.2"
+PV = "0.11.1"
 
-RPM_NAME = "ghc-tasty-quickcheck-doc-0.10.2-2.5.noarch.rpm"
-RPM_HASH = "f89740dd93e1600a2f314256c0753ad2e5e073a407953d33e95fcfa9f407015c69490234563f227d9956c3dc2a7ec0437059e3c3d58a1ffaac8dd1f795a9d0cc"
+RPM_NAME = "ghc-tasty-quickcheck-doc-0.11.1-5.3.noarch.rpm"
+RPM_HASH = "d283b970818a4fbe3a0972085fce9f39d34c8cea70c2efd6f462235b82204382336088be4c5e58b5b5c48f5384bdf5fa344a59002f487c63a9feb9b6bbc5c6a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-tasty-quickcheck-doc"

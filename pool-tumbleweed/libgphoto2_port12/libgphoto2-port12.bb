@@ -8,10 +8,10 @@ This package contains the port drivers (e.g. the USB drivers, the PTP/IP \
 driver)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.5.31"
+PV = "2.5.34"
 
-RPM_NAME = "libgphoto2_port12-2.5.31-1.1.aarch64.rpm"
-RPM_HASH = "b02431b4c0e2ff45f165159022bd9442a55240c6ec2a8870f582066d8fe2574275bff4ada27b2153bbd8c0958c9ed0c94bcb89df155ba7e8a6674229fe85a715"
+RPM_NAME = "libgphoto2_port12-2.5.34-1.3.aarch64.rpm"
+RPM_HASH = "cb25f96f4b9f4c462ed498e33401435aa54dcf3a1775005c090e0cd749c0408ec1aa0f36a583a5ee3a2e3957fa0da57efed5e7952611a0b1fb9b37d6026e349d"
 
 RPROVIDES:${PN} += "libgphoto2-port.so.12 \
 libgphoto2-port12"

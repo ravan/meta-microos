@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfguid."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220113"
+PV = "20260521"
 
-RPM_NAME = "libfguid-devel-20220113-3.3.aarch64.rpm"
-RPM_HASH = "3927cc53cc4446cd3f6c6889dde0a3d71e220667d6cf5db7cf023eda7fe4a7dd6c7a15c14520a256b8d786128ff8d60be897c708bf46f863d2183ce58799136a"
+RPM_NAME = "libfguid-devel-20260521-1.6.aarch64.rpm"
+RPM_HASH = "02adea7d54b76ae0f24ac5e601c9e85c621141bd5c776818d90cdc835f8cd8c60cb41b513aab73b60f282d70db139fbfb5cad666165a4b31f54de34fa8cc92cf"
 
 RPROVIDES:${PN} += "libfguid-devel \
 pkgconfig-libfguid"

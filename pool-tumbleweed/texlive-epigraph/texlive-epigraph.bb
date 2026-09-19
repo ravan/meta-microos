@@ -4,10 +4,10 @@ end) of a chapter. Both single epigraphs and lists of epigraphs \
 are catered for. Various aspects are easily configurable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5esvn54857"
+PV = "2026.226.1.5esvn77682"
 
-RPM_NAME = "texlive-epigraph-2023.209.1.5esvn54857-54.2.noarch.rpm"
-RPM_HASH = "de0f2495cd531919281e2d2bf9b34669b2d80367d257140e6d2c6a82ffdbf16193f075052b00d03716a484e5c12775669f4bd93877e220d1fd5f0a5d40d667f8"
+RPM_NAME = "texlive-epigraph-2026.226.1.5esvn77682-61.4.noarch.rpm"
+RPM_HASH = "b3e1602989f195f8ad9fd4c6f3ebc2630fd36ac8e995bf4d118cee53babec011af4597e6054bfc2deec990e49c0a3af379c0a8764d7502dd60c040baf4fe4adc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epigraph.sty \

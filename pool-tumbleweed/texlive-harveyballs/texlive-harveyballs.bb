@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides 5 commands (giving symbols that indicate \
 values from 'none' to 'full')."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn32003"
+PV = "2026.226.1.1svn32003"
 
-RPM_NAME = "texlive-harveyballs-2023.209.1.1svn32003-54.2.noarch.rpm"
-RPM_HASH = "b42dd375bd5e09edb910514a2965f280953137fc3c7ad17f85fc4f53e800e774a8a67dee1679b411f49a397987b34b7e91219a6831176893d403439bab06e668"
+RPM_NAME = "texlive-harveyballs-2026.226.1.1svn32003-60.4.noarch.rpm"
+RPM_HASH = "e5808d258cd1c03818dfd41b3c1c5d37d6f61b5bae6c532f5d9e3accc56ed73683e321248855ecaef974061ec2aa763e67fae5a29b8a3dd165fe321704d64c85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harveyballs.sty \

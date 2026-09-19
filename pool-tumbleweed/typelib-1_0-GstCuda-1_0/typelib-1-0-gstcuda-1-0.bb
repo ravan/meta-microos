@@ -1,4 +1,4 @@
-SUMMARY = "GStreamer Streaming-Media Framework Plug-Ins -- Introspection bindings"
+SUMMARY = "Introspection bindings for GStreamer Streaming-Media Framework Plug-Ins"
 DESCRIPTION = "GStreamer is a streaming media framework based on graphs of filters \
 that operate on media data. Applications using this library can do \
 anything media-related, from real-time sound processing to playing \
@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "typelib-1_0-GstCuda-1_0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "6dc7da5064a1c6c780de5ffd2b449eae95e621364957cfe0f93cb694be69f0db3f38c0f9de25a5710cd1797ce5bb77bbfbd880aec95e9e1775259354c9f905b5"
+RPM_NAME = "typelib-1_0-GstCuda-1_0-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "5bb09730621b62296bcfae59afecc43a6f9870577817731e197bd0b582babb91059eb04992d1f5b9019fc49ab9cccf791db693af0bfa68317ee63c37604b9d5a"
 
 RPROVIDES:${PN} += "typelib-1-0-GstCuda-1-0 \
 typelib-GstCuda"

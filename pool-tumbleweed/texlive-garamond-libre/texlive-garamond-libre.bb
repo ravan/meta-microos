@@ -12,10 +12,10 @@ and inferior figures, historical ligatures, Byzantine musical \
 symbols, the IPA and swash capitals."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn64412"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-garamond-libre-2023.209.1.4svn64412-53.1.noarch.rpm"
-RPM_HASH = "dd5994a5eb48d7c553d40deeba398c94b3643b553257b9732da5d92a53885f36cfac09c5c77ca033cf3f3ab5e4dcd7d8ebda6c09a6226e834b08c9047ada1c97"
+RPM_NAME = "texlive-garamond-libre-2026.226.1.4svn77682-60.2.noarch.rpm"
+RPM_HASH = "d1ebe2d231183640112682a7c8a4d928dd1e0d1208d0f866e5d3f94e65e75108ea544f2aa45f201ec44cc72e20350758193ca1921092fa503e5eb43b22fffddb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-GaramondLibre-Bold-inf-lgr.tfm \

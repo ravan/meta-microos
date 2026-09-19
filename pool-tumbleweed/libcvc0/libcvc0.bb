@@ -3,10 +3,10 @@ DESCRIPTION = "Utility library for volume control of pulseaudio from gobject-bas
 Cinnamon modules/applications."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "5.8.0"
+PV = "6.4.1"
 
-RPM_NAME = "libcvc0-5.8.0-1.1.aarch64.rpm"
-RPM_HASH = "1f3b4069c9ec095c4ace65d5a4824f7f6a58c0fbd23dbdab9617e3e58ec1d36d1bf4118b08df62beda7a429e30605f3bad23ee796405d7e05b191096559db2ea"
+RPM_NAME = "libcvc0-6.4.1-1.8.aarch64.rpm"
+RPM_HASH = "59df8d1650bef44fceb02bb4c1c7ea5c8a0fd1adfd8716cbacce6d40d41b3fafb3bda85c8d35a016002935878059c72b7fc506e40323b9981c823823eeb64f8d"
 
 RPROVIDES:${PN} += "libcvc.so.0 \
 libcvc0"

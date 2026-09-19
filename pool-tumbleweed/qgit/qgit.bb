@@ -24,18 +24,19 @@ current top one using the same semantics of git commit,  i.e. cherry \
 picking single modified files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.10"
+PV = "2.13"
 
-RPM_NAME = "qgit-2.10-1.8.aarch64.rpm"
-RPM_HASH = "ef3e2d5680fd02308eb2dc71de71d137f8dc62097b334b440e598bf0f2eca036b998ccabb5e11ba3ed91dd819fc58adc566eaa829754bfcf19d4003581e0560b"
+RPM_NAME = "qgit-2.13-1.4.aarch64.rpm"
+RPM_HASH = "7cc2a006090e5147387fa772a9fff35fc3e00047564f082fc35c31bf0a9d62b9fd45bb101f238bef09852345633e58fbb0a99bf81d14d8ae6f203c1cb4472896"
 
 RPROVIDES:${PN} += "qgit"
 
 RDEPENDS:${PN} += "git-core \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

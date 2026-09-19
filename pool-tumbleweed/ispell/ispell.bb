@@ -20,10 +20,10 @@ Authors: \
     Goeff Kuenning <geoff@ITcorp.com>"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.4.05"
+PV = "3.4.06"
 
-RPM_NAME = "ispell-3.4.05-1.4.aarch64.rpm"
-RPM_HASH = "fb53f8d22d856955f3f708a6d507eaad9d61210fa440ea32b6bad037ee15678d974046588f57a292b3ac247e59cd19f1419c851775f3c104c38ab34f76ff6f4e"
+RPM_NAME = "ispell-3.4.06-5.1.aarch64.rpm"
+RPM_HASH = "ff85132aae7d5b25eb52b6ffa4ddab0095fe5b95e9814469f9702379577f9da4e66a41fa513a8acbb75093d47345cc7a3f62b427944fff14581dcab3c6b5aa32"
 
 RPROVIDES:${PN} += "ispell \
 spell"

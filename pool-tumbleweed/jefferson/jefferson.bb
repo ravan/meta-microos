@@ -14,15 +14,15 @@ LICENSE = "MIT"
 
 PV = "0.4.1+git.20220705"
 
-RPM_NAME = "jefferson-0.4.1+git.20220705-1.4.noarch.rpm"
-RPM_HASH = "2250671881cdd5be00ebe98aca75d920684419dae1dec6ff7c6627f2c92a0c838060e3064e43c83476187bfda656aa77fd401865771f5e77505fbb3ed1466715"
+RPM_NAME = "jefferson-0.4.1+git.20220705-1.17.noarch.rpm"
+RPM_HASH = "ef89495387fecbd723c2205ada282bf3b94ebae15a98e3f5daafbfebfc3ad943477bd2027947a279a998aaec999220f488658889b6a5b168b3f98e2b0767c7be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jefferson \
-python3.11dist-jefferson \
+python3.13dist-jefferson \
 python3dist-jefferson"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-cstruct \
 python3-pylzma"

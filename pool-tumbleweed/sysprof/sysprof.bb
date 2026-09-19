@@ -4,19 +4,24 @@ high-precision data and provides efficient access to the sampled \
 calltrees."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.48.0"
+PV = "50.0"
 
-RPM_NAME = "sysprof-3.48.0-2.2.aarch64.rpm"
-RPM_HASH = "325b5df1c80860ab5c3b972128b0e37993fc03b9938547b9f3d067a3dcee18f21f91e967bd90a545fde5ce0c4de21310b09f87a05ba3029f439f4f3b46018b6a"
+RPM_NAME = "sysprof-50.0-1.3.aarch64.rpm"
+RPM_HASH = "6e72de3f6495d8e93675e82d3904c62cbbfd97d0249de6bf2bae4aa97d521fadd16429ee82da7b2705c1f71de33cc6c003a231b7edc7e7bd8361916b49518a28"
 
-RPROVIDES:${PN} += "libsysprof-4.so \
-libsysprof-memory-4.so \
-libsysprof-speedtrack-4.so \
+RPROVIDES:${PN} += "libsysprof-memory-6.so \
+libsysprof-speedtrack-6.so \
+libsysprof-tracer-6.so \
 sysprof"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libdebuginfod.so.1 \
+libdex-1.so.1 \
+libdw.so.1 \
+libelf.so.1 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
@@ -24,6 +29,7 @@ libjson-glib-1.0.so.0 \
 libpolkit-agent-1.so.0 \
 libpolkit-gobject-1.so.0 \
 libstdc++.so.6 \
+libsystemd.so.0 \
 libunwind.so.8"
 
 inherit rpm

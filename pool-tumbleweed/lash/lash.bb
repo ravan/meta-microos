@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.4"
 
-RPM_NAME = "lash-0.5.4-2.12.aarch64.rpm"
-RPM_HASH = "5eee7cd88bd4348e2d20f824fadc13f302966abd540c2b968f91a070d85f06aadd2a7509e6bb640a84f8073e0a44a9efad9a11cd04bd4b3d797b6fd1de69ad82"
+RPM_NAME = "lash-0.5.4-5.7.aarch64.rpm"
+RPM_HASH = "361fe28e8edb78dec72273e45bc4adb072cd32b603c5f7ea20092c46062d015e985285e5edc55ccaf09aee247d446b7800a22c1612f2916af94e86f75e0d4839"
 
 RPROVIDES:${PN} += "lash"
 
@@ -24,6 +24,6 @@ liblash.so.1 \
 libm.so.6 \
 libreadline.so.8 \
 libuuid.so.1 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

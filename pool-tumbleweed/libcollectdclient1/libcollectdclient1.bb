@@ -3,10 +3,10 @@ DESCRIPTION = "Library which abstracts communication with the collectd \
 unixsock plugin for clients."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "libcollectdclient1-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "fb19295b6e9944a3c325a64f69adc67fc09610255b72acc827983ed6d7300f2a553f717ed53e61acd8f9b58f883cddddfbb9c6053d3a9b6311fa0dfad5168283"
+RPM_NAME = "libcollectdclient1-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "fcc2633ef0f401a86bc1cc6d21f5e27a691d4adf28ea78d81bd01d6bc79609841d24c8ae0f2e2bfa85fa998f95023bf0089d6f14e054504052641143c7b24be6"
 
 RPROVIDES:${PN} += "libcollectdclient \
 libcollectdclient.so.1 \

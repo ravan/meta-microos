@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hyper"
 DESCRIPTION = "This package includes the documentation for texlive-hyper"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.2dsvn17357"
+PV = "2026.226.4.2dsvn17357"
 
-RPM_NAME = "texlive-hyper-doc-2023.209.4.2dsvn17357-54.1.noarch.rpm"
-RPM_HASH = "c3f9468aec546ad97ac2c14ba6cb720d015a4b67894580610285f8707b6ee547fe1f5dbdf1dbc90e5a7a086548e53bf5ab44de208e443a7b701b7d6b745f799f"
+RPM_NAME = "texlive-hyper-doc-2026.226.4.2dsvn17357-60.2.noarch.rpm"
+RPM_HASH = "044c60d7f4f171ae323d1b7253ffce8dc63ba8b0ad50ec3361710e20c10cdc57ac0ce7865593a5690defd927a9adfe70307fd98f804f127f6ce3a318a6851f92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hyper-doc"

@@ -8,27 +8,23 @@ testing for valid connections, PreparedStatement pooling, and other \
 features."
 LICENSE = "Apache-2.0"
 
-PV = "2.1.1"
+PV = "2.14.0"
 
-RPM_NAME = "apache-commons-dbcp-2.1.1-6.17.noarch.rpm"
-RPM_HASH = "c317399efb00add5d7f4562cbef3efe093eda6682b9af866b24ac906a6b4130086bde721d774f2cefd9fb435580190df95de0d9830102d07bc7752ca4f227a5d"
+RPM_NAME = "apache-commons-dbcp-2.14.0-1.2.noarch.rpm"
+RPM_HASH = "f6e1fa56694519f29ddc2a62221fb4a95f64e544ab309dd07ff64f88ce319b0675684dc9841dd5df0958608e9418c17b7f5edabc075b947b3539fb77c4a7b48b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-dbcp \
 commons-dbcp2 \
-hibernate-jdbc-cache \
 jakarta-commons-dbcp2 \
 mvn-org.apache.commons-commons-dbcp2 \
-mvn-org.apache.commons-commons-dbcp2-pom-"
+mvn-org.apache.commons-commons-dbcp2-pom- \
+osgi-org.apache.commons.commons-dbcp2"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-commons-collections \
-commons-pool2 \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-jta-api \
 mvn-commons-logging-commons-logging \
-mvn-org.apache.commons-commons-pool2 \
-update-alternatives"
+mvn-javax.transaction-javax.transaction-api \
+mvn-org.apache.commons-commons-pool2"
 
 inherit rpm

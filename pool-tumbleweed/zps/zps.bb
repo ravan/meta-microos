@@ -5,10 +5,10 @@ if `--reap` argument is provided. There's also `--lreap` argument for reaping zo
 processes after listing."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.2.8"
+PV = "2.0.0"
 
-RPM_NAME = "zps-1.2.8-1.4.aarch64.rpm"
-RPM_HASH = "56f421e7675f7c963c608a9e5482321b5269c65baf7ddf3096aa784e5b3e0ee774553b4390f373a4119b4406f1bda3b666c3e2530f8d7d1b952e59abe5763af0"
+RPM_NAME = "zps-2.0.0-1.11.aarch64.rpm"
+RPM_HASH = "54f582779b74a1e323bfa5ead0176b54a350ccf84800698287ffddef2d022a1935df6692131be32adb19baa2b579ba1778f1f44b63ecff7276150952353a0880"
 
 RPROVIDES:${PN} += "zps"
 

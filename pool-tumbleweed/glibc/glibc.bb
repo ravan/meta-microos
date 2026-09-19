@@ -5,10 +5,10 @@ library, and the POSIX thread library. A system is not functional \
 without these libraries."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0"
 
-PV = "2.38"
+PV = "2.44"
 
-RPM_NAME = "glibc-2.38-2.1.aarch64.rpm"
-RPM_HASH = "cbcd8efecd334f420c25bd4c4b2cbe11da2b92d70754534c98da8b38d6aad1cb63eb82fbfc404da4273dcbba30f6e2e13ff40a252625bb8cf589b6681bbdf09a"
+RPM_NAME = "glibc-2.44-2.1.aarch64.rpm"
+RPM_HASH = "e47dd315c542c14fd61eb1b85201ee23d2abd4dcae50e2b1c486d80aeed12170b9df99e40105c39b30eda6d4d970fc27c0b7a832206b80eff661443aaaabf6a9"
 
 RPROVIDES:${PN} += "/sbin/ldconfig \
 config-glibc \
@@ -21,7 +21,6 @@ libc.so.6 \
 libdl.so.2 \
 libm.so.6 \
 libmvec.so.1 \
-libnsl.so.1 \
 libnss-compat.so.2 \
 libnss-db.so.2 \
 libnss-dns.so.2 \
@@ -32,8 +31,6 @@ libresolv.so.2 \
 librt.so.1 \
 libthread-db.so.1 \
 libutil.so.1 \
-ngpt \
-ngpt-devel \
 rtld-GNU-HASH"
 
 RDEPENDS:${PN} += "filesystem"

@@ -5,10 +5,10 @@ create additional chapter headings. This package was previously \
 known as FancyChapter."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.34svn20710"
+PV = "2026.226.1.34svn77682"
 
-RPM_NAME = "texlive-fncychap-2023.209.1.34svn20710-53.1.noarch.rpm"
-RPM_HASH = "4c2f17bc45f6664d5c70f3b6639fcd21259f04c41e583b45b1250bb3474f914ab1236a7f241bdcd4aa71ec817b5e09c6e8b53e96ee94be2504126247f52dacd3"
+RPM_NAME = "texlive-fncychap-2026.226.1.34svn77682-60.2.noarch.rpm"
+RPM_HASH = "6028146fe8f3814dd516dc4b775b7b9649edbf4ee9da9d10d24155a29e4a2811e9fae396c07c599cda675da7dddcc2fc8f32a481ae8cd745b3396dc9276e4357"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fncychap.sty \

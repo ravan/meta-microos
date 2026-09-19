@@ -12,23 +12,24 @@ permissions, directories, symbolic links, fifos, etc., but not hard \
 links."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2.3"
+PV = "3.2.0.2"
 
-RPM_NAME = "duplicity-1.2.3-1.1.aarch64.rpm"
-RPM_HASH = "03437de526a0fe5f979d81526497ffe9418b3da77a1febd9b77ecccd077bbb08e04e34ea241eb420b25f8593945b08b1f718492f9d865df6f2721ca4bc88434b"
+RPM_NAME = "duplicity-3.2.0.2-1.1.aarch64.rpm"
+RPM_HASH = "97df9ba592e67d55f1ce29c66bb453b3087ab8a27b218ab04a61066280ff64b01ed7680d63a3e96f750ff1e9b4b409fa82c42ca7db8de40d27754d90e7523d14"
 
 RPROVIDES:${PN} += "duplicity \
-python3.11dist-duplicity \
+python3.13dist-duplicity \
 python3dist-duplicity"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-gpg \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 librsync.so.2 \
 python-abi \
 python3-fasteners \
-python3-future \
-python3-lockfile"
+python3-gnupg \
+python3-lockfile \
+python3-pexpect \
+python3-ptyprocess"
 
 inherit rpm

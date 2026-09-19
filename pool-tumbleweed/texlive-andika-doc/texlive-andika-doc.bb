@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-andika"
 DESCRIPTION = "This package includes the documentation for texlive-andika"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.6.101svn64540"
+PV = "2026.226.6.101svn77682"
 
-RPM_NAME = "texlive-andika-doc-2023.209.6.101svn64540-55.1.noarch.rpm"
-RPM_HASH = "e88a76b198897e0e3b73fce5151fd8f1be8caa1ceaef43a513491ad8f79514308c83ec43df7d933356a90deeaed8d89d083a046efa43850bc20b166b9917531a"
+RPM_NAME = "texlive-andika-doc-2026.226.6.101svn77682-61.2.noarch.rpm"
+RPM_HASH = "67b0fa1bfb8b1614c632c70d836511449b13af4d21434d9e0dce45a53ca29aad4d404a94e1fac3c9fc1929378bac9914ad7ed5c5eba39b130ee14bf15b814e70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-andika-doc"

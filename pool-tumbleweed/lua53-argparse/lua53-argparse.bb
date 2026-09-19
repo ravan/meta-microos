@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "lua53-argparse-0.7.0-4.2.noarch.rpm"
-RPM_HASH = "851ff128c1b08f7afc0f5978f57d48af80f73ea9ca4f08a5ca90c2e1638a30ad500041d7cfaac03afd73f4471f15c820a21c80d99a767cc6948e3a839b3c1689"
+RPM_NAME = "lua53-argparse-0.7.0-6.3.noarch.rpm"
+RPM_HASH = "2a74be698d3708a04b31c7be1ab642f996fda1b87a53bb9b2c0965aa148a942a2c1e7194fde12854b20f876e86e9685cc497215ca48e4c390f9be4456d707081"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-argparse"

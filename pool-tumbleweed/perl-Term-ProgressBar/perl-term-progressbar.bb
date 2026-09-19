@@ -27,15 +27,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.23"
 
-RPM_NAME = "perl-Term-ProgressBar-2.23-1.4.noarch.rpm"
-RPM_HASH = "aba967dadf27a0dcd8b6b7929921f84680c535514c018fb3c2efc28c5b44d3dc3ef8353836af88974d9c88ebc4a364d1f298bef5b646dab3d2bff85b310fb66f"
+RPM_NAME = "perl-Term-ProgressBar-2.23-1.18.noarch.rpm"
+RPM_HASH = "42d8d1b40079df185bbca6b95c26d809dd223f3ea4c7a4e0ba0e4b15ff423f8d139f6ad3bb7d43be637116ee235ed5edcfdc579583a9c75a7998d689f80755fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Term--ProgressBar \
 perl-Term--ProgressBar--IO \
 perl-Term-ProgressBar"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--MethodMaker \
 perl-Term--ReadKey"
 

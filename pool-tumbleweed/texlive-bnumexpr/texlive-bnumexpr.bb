@@ -1,14 +1,17 @@
 SUMMARY = "Extends eTeX's \\numexpr...\\relax construct to big integers"
-DESCRIPTION = "The package extends e-TeX \\numexpr...\\relax operation to allow \
-big integers, powers, factorials, truncated division and its \
-associated modulo. By default, bnumexpr loads package xintcore \
-(part of the xint bundle) and uses its arithmetic macros."
+DESCRIPTION = "The package provides the command \\bnumeval, which extends \
+LaTeX's \\inteval with support for arbitrarily big integers, // \
+for floored division, /: for the associated remainder, ^ and ** \
+for powers, ! for factorials, 0b, 0o and ', 0x and ', as \
+prefixes for binary, octal, or hexadecimal inputs. With the \
+optional argument [h] (or [o] or [b]) the output is converted \
+to hexadecimal (or octal, or binary)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn59244"
+PV = "2026.226.1.7bsvn77682"
 
-RPM_NAME = "texlive-bnumexpr-2023.209.1.5svn59244-53.1.noarch.rpm"
-RPM_HASH = "5246af8197e6f0519fef1d8234fba46b856892bdc6c9e1e1e8ae5a2cdbc04844c9cda49e2946fb712a8432a0d57407193f53394524a205b66f70abcce949079a"
+RPM_NAME = "texlive-bnumexpr-2026.226.1.7bsvn77682-59.2.noarch.rpm"
+RPM_HASH = "558119f7379cabb9a09a1d5eb5725148ad5df6f01ffc25159e04b1ca435c60adaa24630ede72f5100e28f078c8e5d8ea8e619f461228245f3e4a1076f426d914"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bnumexpr.sty \
@@ -22,6 +25,7 @@ grep \
 sed \
 tex-xintbinhex.sty \
 tex-xintcore.sty \
+tex-xintkernel.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

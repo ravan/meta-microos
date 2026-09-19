@@ -5,10 +5,10 @@ verbatim) can be used as many times as desired in the document, \
 additionally can be written to external files if desired."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn62902"
+PV = "2026.226.2.6svn77682"
 
-RPM_NAME = "texlive-scontents-2023.209.2.0svn62902-54.1.noarch.rpm"
-RPM_HASH = "a39ce5c1ddd50b9d055229d30629d9b0deaa94b9cd5daf7f802e3e99605bfd042eb892951797aa75e2e1388edcbb0c47c045d2e0254584e71c9229cbbff5f28e"
+RPM_NAME = "texlive-scontents-2026.226.2.6svn77682-60.2.noarch.rpm"
+RPM_HASH = "d5b6140c9756caf3a8695187b122899d4ad060d0a4ffe6bfba69133d1fd046d51add283184fb25c0d02dc449de03acd0bbbe43ff937a22cdf94904f36981c8be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scontents-code.tex \
@@ -22,7 +22,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-l3keys2e.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -4,17 +4,17 @@ without manual intervention, ideal for integration in scripts, audio \
 players, etc."
 LICENSE = "MPL-2.0"
 
-PV = "2.7.4"
+PV = "2.8.0"
 
-RPM_NAME = "sacad-2.7.4-1.2.noarch.rpm"
-RPM_HASH = "96c1be00ea7b33766da77b9bf69ab73db05b3fb2ccffca3c82d7816989748b25cadad4c00e38aa11bd3fb516b9e550928376b8ff7456405e9d9849e0186426e0"
+RPM_NAME = "sacad-2.8.0-1.8.noarch.rpm"
+RPM_HASH = "21a137ddf40c27fa1320bf60b2215b22adae54d660f34b12b565209986271b0aed2444c5163ce95b6e1609cc0142621c9adf0df38657f67f51eced6df4a4680e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sacad \
+RPROVIDES:${PN} += "python3.13dist-sacad \
 python3dist-sacad \
 sacad"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-Pillow \
 python3-Unidecode \

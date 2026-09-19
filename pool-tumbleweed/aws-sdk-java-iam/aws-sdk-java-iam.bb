@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for AWS IAM"
 DESCRIPTION = "The AWS Java SDK for AWS IAM module holds the \
 client classes that are used for communicating with \
 AWS Identity and Access Management Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-iam-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "db2151359c391e14054a26109fbf9dd15ba72a14df3c8547044ef79fd75194f59803f9aa19d016cfcf8b623c61648643c8eff6b7ac61378d1dad9dea6b89d0f9"
+RPM_NAME = "aws-sdk-java-iam-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "b681b2b1c8f3655a8e4090d8d3084dbf6cc596a34ccc599fc4f526656db53af1d07154012c6ccbce9ac36fdb0cf70f94674a943f229f4ff526f522839c7a3bf1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-iam \

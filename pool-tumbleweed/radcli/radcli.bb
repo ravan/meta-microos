@@ -5,10 +5,10 @@ of C code. It was based originally on freeradius-client and is source compatible
 with it."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "1.3.1"
+PV = "1.5.3"
 
-RPM_NAME = "radcli-1.3.1-1.3.aarch64.rpm"
-RPM_HASH = "909eb86a3ae600396bfa0cc4e0d36110f724d8b98d7e18ef8efa4d8b633f7d5f3d58455c1ca5b1ec9c7116f8b20b03fca82a272fea1c97e5fcc51f2be36d4fe1"
+RPM_NAME = "radcli-1.5.3-1.1.aarch64.rpm"
+RPM_HASH = "47750ed30346ddde5520fcd245de42092266ebde9af2c0c302dc498808c10a8700fd636cf31beeac0adec385fa1d30062fd77575765c789346ef24b946cd08ff"
 
 RPROVIDES:${PN} += "config-radcli \
 radcli"

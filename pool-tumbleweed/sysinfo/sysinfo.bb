@@ -7,17 +7,17 @@ give info about available system components. \
 * sysinfo(1) — print IRC-style system information banner"
 LICENSE = "GPL-2.0-or-later & WTFPL"
 
-PV = "20230411"
+PV = "20251011"
 
-RPM_NAME = "sysinfo-20230411-1.2.aarch64.rpm"
-RPM_HASH = "f6e6ddbf83568cc555eedd132813d663f8f8abc4c5613afb3b63c22a17b33f3b47a55df71784fff10c6099ae9bbd72b5a5beb5262361fad9d27895671488d8f6"
+RPM_NAME = "sysinfo-20251011-1.6.aarch64.rpm"
+RPM_HASH = "7566b7a66f69636dd2b10f26decbb8596525dca6107fe0ddbf57a13994f896ff8c0c4d0c2c62b7f81e3bc95ed52c58cded1a66f8662a9e30dd6a50c8a577f82c"
 
 RPROVIDES:${PN} += "sysinfo"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1 \
-libHX.so.32 \
+libHX.so.43 \
 libc.so.6 \
 libmount.so.1 \
 libpci.so.3 \

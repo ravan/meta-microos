@@ -2,10 +2,10 @@ SUMMARY = "Development files for zfp"
 DESCRIPTION = "Development package for zfp."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.0.0"
+PV = "1.0.1"
 
-RPM_NAME = "zfp-devel-1.0.0-1.3.aarch64.rpm"
-RPM_HASH = "8109c1eaf5f4be81c696f85478a5ee7d3a48f05d43e40a0cfdc991eb5fe83d6671dcaec37079f47e8dd514f1dc57ea7395cfde22f341fe43c4ab1591d96ea510"
+RPM_NAME = "zfp-devel-1.0.1-1.12.aarch64.rpm"
+RPM_HASH = "137bb6dd4179c9479df8d9a20b71d81f76d12a84f75fffb60f3555825b877cbb2999ad3dbc90a631b5cc3269c74b68945ddb6ae60d0c27e0d3107bb369def9f3"
 
 RPROVIDES:${PN} += "cmake-zfp \
 zfp-devel"

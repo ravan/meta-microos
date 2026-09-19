@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1"
 
-RPM_NAME = "monitoring-plugins-repomd-2.1-2.6.noarch.rpm"
-RPM_HASH = "21e318ea018d578539f36ccecd5badf42de82bdd8c2ea14f863f8e46f941d5d854f7e4ceb12f456c704deaff046615a7eff600a9706027e3a0b4feae9fae7e1e"
+RPM_NAME = "monitoring-plugins-repomd-2.1-2.14.noarch.rpm"
+RPM_HASH = "5efe010fe3ca04bbd460a73f348a16e2c502170eee8c227d989f2acddf02291947812196ebd695069631ca8388f3a009a2d02a206506bcad2b4012acc653a07e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-repomd \

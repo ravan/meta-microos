@@ -4,10 +4,10 @@ necessary. Also allows access to data in memory to be accessed as \
 if it were a file."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "12.65"
+PV = "13.59"
 
-RPM_NAME = "perl-File-RandomAccess-12.65-1.1.noarch.rpm"
-RPM_HASH = "274de709a5d9c34425ce3eded7b6a73912c9da6b0e8cd8acae996c7b88a728cd54512898abd0860ab7e7a0513caf77b546beade6106e63d75a0e2774dcedbc91"
+RPM_NAME = "perl-File-RandomAccess-13.59-1.3.noarch.rpm"
+RPM_HASH = "b7d877317787fc1e2344a4e73ea9755002e8ed5a1b7cfc362fa7829c68ed731f247b5f7aed463052d61051cd2b5c0acf048f8fd3a301c515de1289a4b63b82a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--RandomAccess \

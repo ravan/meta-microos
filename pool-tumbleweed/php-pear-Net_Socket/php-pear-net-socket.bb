@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.2.2"
 
-RPM_NAME = "php-pear-Net_Socket-1.2.2-1.10.noarch.rpm"
-RPM_HASH = "4b26e8c2b11ee2b3bad60c7becb7e9b06963d35124f2f000e6d01e117c09d0bb22d383d5005fa0bd02ed91e2195bd78febb5ea87885ef96df9998965932fbadc"
+RPM_NAME = "php-pear-Net_Socket-1.2.2-1.19.noarch.rpm"
+RPM_HASH = "33c5bdfb7fa23bd385e436ac7b1cee506a5a996e178cab05fe65d878952d6aed43b28b2496c0f8fc6e47c9405973880221ba8d99b591045f040b163ea24a39f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-pear-Net-Socket \

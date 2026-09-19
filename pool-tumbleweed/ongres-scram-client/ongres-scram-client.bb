@@ -2,18 +2,18 @@ SUMMARY = "Client for ongres-scram"
 DESCRIPTION = "This package contains the client for ongres-scram"
 LICENSE = "BSD-2-Clause"
 
-PV = "2.1"
+PV = "3.2"
 
-RPM_NAME = "ongres-scram-client-2.1-2.11.noarch.rpm"
-RPM_HASH = "b1f19cf786b8a2e505684f8b27624dc306870edb30372abf3eb0fbf9ad204f246e88cf72bd72fc75121707805e685740149fbf6fb463801e64b6a6d45798b530"
+RPM_NAME = "ongres-scram-client-3.2-7.3.noarch.rpm"
+RPM_HASH = "6d9463cc54d6145bf6cabafc617d5a99b55e4ee2d5fd9a4bea77606115e6c86703b99f559a0de2c7171221dad6355e8cab1e77cd4e834fbcce274ee2aa1f5425"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mvn-com.ongres.scram-client \
-mvn-com.ongres.scram-client-pom- \
+RPROVIDES:${PN} += "mvn-com.ongres.scram-scram-client \
+mvn-com.ongres.scram-scram-client-pom- \
 ongres-scram-client"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-com.ongres.scram-common"
+mvn-com.ongres.scram-scram-common"
 
 inherit rpm

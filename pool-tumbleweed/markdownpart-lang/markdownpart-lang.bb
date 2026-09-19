@@ -2,31 +2,39 @@ SUMMARY = "Translations for package markdownpart"
 DESCRIPTION = "Provides translations for the 'markdownpart' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "markdownpart-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "cea2b14ea6359c49a2062c64e7495324153eccba9cf1593f83b79b9027e688a4a57b8c487549b52349e1e91c0cf9d6515f70b0165604b93efb1ae20f8a702de3"
+RPM_NAME = "markdownpart-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "43f93b194a0b81f27923931ba3db2322300c2dcc2bded52413999ed2aaae441363203f826a9e15b74fb00be5a0dcf8b78431960af07e6d7ddf6b363404039289"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-markdownpart-ar \
+locale-markdownpart-ast \
 locale-markdownpart-ca \
 locale-markdownpart-ca@valencia \
 locale-markdownpart-cs \
 locale-markdownpart-de \
 locale-markdownpart-el \
 locale-markdownpart-en-GB \
+locale-markdownpart-eo \
 locale-markdownpart-es \
 locale-markdownpart-et \
 locale-markdownpart-eu \
 locale-markdownpart-fi \
 locale-markdownpart-fr \
+locale-markdownpart-ga \
 locale-markdownpart-gl \
+locale-markdownpart-he \
 locale-markdownpart-hi \
+locale-markdownpart-hu \
+locale-markdownpart-ia \
+locale-markdownpart-is \
 locale-markdownpart-it \
 locale-markdownpart-ja \
 locale-markdownpart-ka \
 locale-markdownpart-ko \
 locale-markdownpart-lt \
+locale-markdownpart-lv \
 locale-markdownpart-nl \
 locale-markdownpart-nn \
 locale-markdownpart-pl \
@@ -38,6 +46,7 @@ locale-markdownpart-sk \
 locale-markdownpart-sl \
 locale-markdownpart-sv \
 locale-markdownpart-tr \
+locale-markdownpart-ug \
 locale-markdownpart-uk \
 locale-markdownpart-vi \
 locale-markdownpart-zh-CN \

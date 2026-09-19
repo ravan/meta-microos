@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.0+20170112"
 
-RPM_NAME = "libqjack-devel-0.0+20170112-3.23.aarch64.rpm"
-RPM_HASH = "546808b05e3df296e5ae20df943728c3f0ce458b0abffa1695e568cda026fcacc47e0c277f0b2b2e6e12f70eecd3318d09f2336dee83f3275e8131053ff5de1d"
+RPM_NAME = "libqjack-devel-0.0+20170112-5.6.aarch64.rpm"
+RPM_HASH = "44db3e01b4352a0dffd6d97472628ddd721b22de3508f58588a2d7b568d7d3fc8732930b61fbbd93646ae815a99cc0ef689a468b1af2f5d9bfa1590d71dc6522"
 
 RPROVIDES:${PN} += "libqjack-devel"
 

@@ -3,12 +3,12 @@ DESCRIPTION = "WADptr is a utility for reducing the size of Doom WAD files. The 
 'compressed' WADs will still work the same as the originals. The \
 program works by exploiting the WAD file format to combine repeated / \
 redundant material."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4"
+PV = "3.8"
 
-RPM_NAME = "wadptr-2.4-13.26.aarch64.rpm"
-RPM_HASH = "32df5eb4fa9d07c208af164fcfc6c7136168c40487c11a2cf73e0c75eded88458196823d82d1a8da7bbc2ac2a40de0cbf1bc405f450298d314697f040432a212"
+RPM_NAME = "wadptr-3.8-1.5.aarch64.rpm"
+RPM_HASH = "51aec981ebd3f9036659bec69a5c15c827773dcc7521b97ac936bd60fa0c70497d15e160d30f7ead82eb210a7197b9595e96c535600c9e658e4263e0af41d07b"
 
 RPROVIDES:${PN} += "wadptr"
 

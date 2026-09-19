@@ -2,10 +2,10 @@ SUMMARY = "GNOME Icon Theme"
 DESCRIPTION = "The default GNOME icon theme, Adwaita."
 LICENSE = "CC-BY-SA-3.0 | LGPL-3.0-or-later"
 
-PV = "44.0"
+PV = "50.0+2"
 
-RPM_NAME = "adwaita-icon-theme-44.0-1.1.noarch.rpm"
-RPM_HASH = "30afcaf111b76409165e48c1bafbbb0ca8dc5a9af85297a74df2a27f7127f92c96da3f7608ede25b11b6bd1f2743ce4a30d81c5df6db4e643410957a7fcd4666"
+RPM_NAME = "adwaita-icon-theme-50.0+2-2.1.noarch.rpm"
+RPM_HASH = "7bc277709aaab66560cf21c2e9ebe6cd0ef31dd0b15bb5eb1f072355e00317633f1f9a6a0acd54ad166ac236c4c5e8978d5232c03d1a46f34fef8385a9f5de2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adwaita-icon-theme \

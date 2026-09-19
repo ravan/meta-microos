@@ -7,16 +7,16 @@ This package contains the development headers for packages wanting \
 to make use of Vulkan."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.261.0"
+PV = "1.4.357"
 
-RPM_NAME = "vulkan-headers-1.3.261.0-1.1.noarch.rpm"
-RPM_HASH = "d0f1a1e230453e01da8e04d907d505415ebed9a5926901e24dec2487f5f2547ac435c9e775e588e967532cd9c98dd0e3270ffac37b943a99899467356a056073"
+RPM_NAME = "vulkan-headers-1.4.357-1.1.noarch.rpm"
+RPM_HASH = "93c486a4b7f637f023381bc67a826320d28fe9d589c2285957983b343ea57f91dd074a4890f02b6d288f22e91719ae8899997fd70b11fbd2816b65bc9080bd21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake-VulkanHeaders \
 vulkan-headers"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 pkgconfig-wayland-client \
 pkgconfig-x11 \
 pkgconfig-xcb \

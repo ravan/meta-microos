@@ -4,10 +4,10 @@ architecture-specific SIMD instructions, such as SSE/SSE2/AVX2, \
 AltiVec, NEON, MIPS DSPR2, and Loongson MMI."
 LICENSE = "BSD-3-Clause"
 
-PV = "8.2.2"
+PV = "8.3.2"
 
-RPM_NAME = "libturbojpeg0-8.2.2-76.1.aarch64.rpm"
-RPM_HASH = "b7ce4364721a4551411eb311566c1d693683c9d877bc810a63e9eb0a0ae643e7c53de2b53b3422c9550731eec7353d774aa8df8025fcaa2da11dd1ac738c3aaa"
+RPM_NAME = "libturbojpeg0-8.3.2-85.1.aarch64.rpm"
+RPM_HASH = "d4ab594e26d1076a8072693813d38bd0740ca39bdbfab77fa76910c5afb7d7ecb9ca667739b0fcf6843a2937f97280b34edbff55679233d15aa542863e424303"
 
 RPROVIDES:${PN} += "libturbojpeg.so.0 \
 libturbojpeg0"

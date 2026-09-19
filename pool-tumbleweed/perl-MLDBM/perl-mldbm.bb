@@ -23,8 +23,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.05"
 
-RPM_NAME = "perl-MLDBM-2.05-5.26.noarch.rpm"
-RPM_HASH = "467cff34ea69bdeb7261160edab169b20532d3fb99b58f1703e9191d5abca5a44c1f3399d8d59db05e7eb6addf57ffa597eb8007574add677038aea0698c9eab"
+RPM_NAME = "perl-MLDBM-2.05-5.40.noarch.rpm"
+RPM_HASH = "036ab12ba9c4014ef83e24483ee69945e694af78a7e761e859c7d81e55190eb7f3edf689230cc4a3e6c17a8d9b913b7113e3bf50ba39ae8b9164d2b68f5dfdf8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MLDBM \
@@ -33,6 +33,6 @@ perl-MLDBM--Serializer--Data--Dumper \
 perl-MLDBM--Serializer--FreezeThaw \
 perl-MLDBM--Serializer--Storable"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

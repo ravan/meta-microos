@@ -18,30 +18,34 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2.8"
 
-RPM_NAME = "ghc-tabular-0.2.2.8-4.8.aarch64.rpm"
-RPM_HASH = "2fafa3e697a99c1f084bd1c064e4d6d43f5470ae039567c03951debf2721f67e09ce383737971a2d05b8b68cd5cf892ef9f2fe55860306f1367be1d5ebf6bf22"
+RPM_NAME = "ghc-tabular-0.2.2.8-4.31.aarch64.rpm"
+RPM_HASH = "f0fd14870d77add0d1df9d99319e61e69c0eabc360e89677456024a21a011843ea45d59711c424915d93c195d0930113ab7dab3cf0fe8b7c0c855f8f06f09f37"
 
 RPROVIDES:${PN} += "ghc-tabular \
-libHStabular-0.2.2.8-6UpIsHxi6ag26Q8LzRReTM-ghc9.4.6.so"
+libHStabular-0.2.2.8-ICV0buHy8xI197ojnqVjgg-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHScontainers-0.6.7-ghc9.4.6.so \
-libHScsv-0.1.2-D7ZtQLgQlciDV3aF4oWKCf-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSfilepath-1.4.2.2-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHShtml-1.0.1.2-Ei0LKBl3CyAHMF3GZI2hqu-ghc9.4.6.so \
-libHSmtl-2.2.2-ghc9.4.6.so \
-libHSparsec-3.1.16.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStext-2.0.2-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbinary-0.8.9.3-9861-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHScontainers-0.7-d5e1-ghc9.12.4.so \
+libHScsv-0.1.2-3wV9bBF7sWG7h8WLMiwYq8-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSexceptions-0.10.12-f655-ghc9.12.4.so \
+libHSfilepath-1.5.5.0-b25b-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHShtml-1.0.1.2-47pIZc0gzI25DOiguxUrYX-ghc9.12.4.so \
+libHSmtl-2.3.2-37ef-ghc9.12.4.so \
+libHSos-string-2.0.10-5320-ghc9.12.4.so \
+libHSparsec-3.1.18.0-be05-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHSstm-2.5.3.1-6d74-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStext-2.1.4-cf23-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

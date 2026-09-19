@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-spanish-1.5-422.6.aarch64.rpm"
-RPM_HASH = "e55d329ef6a50e7451ab7f477b1e7c4d23e5b86be5892aeb67929e20bf874e954bd5bc9590c8d9d80a2165148bfeae40ac7c586fc0b0f4b06021bdbc78549f2b"
+RPM_NAME = "ispell-spanish-1.5-426.1.aarch64.rpm"
+RPM_HASH = "11a7d9e71e940fc194c9bea3cebe15bbd871bc64f81fa22da59cc13cd1c65161b7c27724720f3a602e1379cf0ff1f7ae1e473b4346d35e48c56b2ab3fb9120b1"
 
 RPROVIDES:${PN} += "ispanish \
 ispell-dictionary \

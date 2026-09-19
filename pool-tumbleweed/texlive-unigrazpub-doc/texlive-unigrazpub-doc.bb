@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-unigrazpub"
 DESCRIPTION = "This package includes the documentation for texlive-unigrazpub"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.00svn64797"
+PV = "2026.226.1.00svn76924"
 
-RPM_NAME = "texlive-unigrazpub-doc-2023.209.1.00svn64797-54.1.noarch.rpm"
-RPM_HASH = "f5987ca0836f5f8eddc07b7bdd2d69201a15297fadd9a60d442f3a1fc3cd3543ce1655bd02c47d7cf7dea77d2ede52fff5093c17cc42afd1cfa8d2cffe28cb04"
+RPM_NAME = "texlive-unigrazpub-doc-2026.226.1.00svn76924-60.2.noarch.rpm"
+RPM_HASH = "fddaeb305c5f2ec01dc30c6d6f20bea754aaa08f0709e6518664f064310f720247c392f793e0977faf137a5301ee1d3b418193a0f5503bf3cd385df0a024f8ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unigrazpub-doc"

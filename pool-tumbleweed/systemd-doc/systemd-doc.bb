@@ -1,11 +1,13 @@
-SUMMARY = "HTML documentation for systemd"
-DESCRIPTION = "The HTML documentation for systemd."
+SUMMARY = "Additional documentation or doc formats for systemd"
+DESCRIPTION = "A HTML version of the systemd documentation, plus the manual pages \
+for the C APIs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.8"
+PV = "261.2"
 
-RPM_NAME = "systemd-doc-253.8-1.2.aarch64.rpm"
-RPM_HASH = "2b4d3a1e82db0b6e44530db40dcec79a787401f2d2bad42f5f02dde6d340f443287a437c8733d4991464e1e54297c4c270771aae9b139cfc9bc3039b9de8eaa5"
+RPM_NAME = "systemd-doc-261.2-1.2.noarch.rpm"
+RPM_HASH = "0510f65314c59b071764116671163aa177eb21db1d2332a8371a71c79d17b6c0d3e4e18db1aacf9e890bb7536bedf2872625820ffd71a31f3c7aaeee46db0ebf"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-doc"
 

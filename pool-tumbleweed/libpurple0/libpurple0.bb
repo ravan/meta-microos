@@ -5,10 +5,10 @@ to write an IM client that connects to many IM networks. \
 This package provides the core libpurple library."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.14.12"
+PV = "2.14.14"
 
-RPM_NAME = "libpurple0-2.14.12-1.4.aarch64.rpm"
-RPM_HASH = "5946becb5704e4a8395e630bc6780527177fa73b8081c3610ef821dea6cf06672d1950ee7641f1d80f154ce4c609535056e55f2738300c35a2e5afe528829d46"
+RPM_NAME = "libpurple0-2.14.14-2.3.aarch64.rpm"
+RPM_HASH = "efafe61743191ba1ccb98aabb1541c55806f89dfa9515436ac04d6074c0a6a63321e4127a1226a655b4371b70a2e381707f373c04b489fa40331fc40a02c9210"
 
 RPROVIDES:${PN} += "libpurple.so.0 \
 libpurple0"
@@ -27,6 +27,6 @@ libgstreamer-1.0.so.0 \
 libgstvideo-1.0.so.0 \
 libidn.so.12 \
 libm.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

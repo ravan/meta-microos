@@ -4,15 +4,16 @@ libraries, routers, bridges and proxies. Proton is based on the AMQP \
 1.0 messaging standard."
 LICENSE = "Apache-2.0"
 
-PV = "0.38.0"
+PV = "0.40.0"
 
-RPM_NAME = "libqpid-proton-proactor1-0.38.0-1.6.aarch64.rpm"
-RPM_HASH = "d266e29d71b0a0c3a67905fbea84d0fe292e756f3dc1c9f01d7bd3d4364ea97078864ecebc3d22a15d719084dc2729ade63bec6b76e6c74fa8954b83052addb1"
+RPM_NAME = "libqpid-proton-proactor1-0.40.0-1.1.aarch64.rpm"
+RPM_HASH = "3873119ccb32ec66e8c235b322ae2f99181d732e46a200e6985e1d5592d3a2a01b1b1b7be1121ca1f7623d2fd4e9e99e203c83d5433f75860dd67d1c4120e694"
 
 RPROVIDES:${PN} += "libqpid-proton-proactor.so.1 \
 libqpid-proton-proactor1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libqpid-proton-core.so.10"
 

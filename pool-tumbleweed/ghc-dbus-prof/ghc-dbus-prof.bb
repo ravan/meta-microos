@@ -2,35 +2,35 @@ SUMMARY = "Haskell dbus profiling library"
 DESCRIPTION = "This package provides the Haskell dbus profiling library."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.29"
+PV = "1.4.3"
 
-RPM_NAME = "ghc-dbus-prof-1.2.29-1.8.aarch64.rpm"
-RPM_HASH = "ece633b2e4090a77db8d1edf11ed74e0b1eca1c929835853693e20d4331f17e33e8b3c41a7c35083e082e1914fe3b9ff8efafb9c23440eac32ff569db460d071"
+RPM_NAME = "ghc-dbus-prof-1.4.3-1.3.aarch64.rpm"
+RPM_HASH = "837466589da3cbc822d60f9c7cce54f6ca0b8d6fdcc2148e1979f520672423645b7825023aba8b096ea6a4916b8732bae02b35e1989a091c592ff4408a21d215"
 
 RPROVIDES:${PN} += "ghc-dbus-prof \
-ghc-prof-dbus-1.2.29-4DkBnpH77ZuFg2GqtR0zJs"
+ghc-prof-dbus-1.4.3-AK2RsEkhlPQ2FoxHH6Vf1Q"
 
 RDEPENDS:${PN} += "ghc-dbus-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
-ghc-prof-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
-ghc-prof-containers-0.6.7 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-exceptions-0.10.5 \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-lens-5.2.3-77wBUrzlfuWHQNAaqkfvdZ \
-ghc-prof-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-prof-parsec-3.1.16.1 \
-ghc-prof-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
-ghc-prof-split-0.2.3.5-J6pekuQs6yKFxqDJQyglHu \
-ghc-prof-template-haskell-2.19.0.0 \
-ghc-prof-text-2.0.2 \
-ghc-prof-th-lift-0.8.4-Hb96g2HGtQyHkKuMt8Wl3a \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unix-2.7.3 \
-ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
-ghc-prof-xml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq \
-ghc-prof-xml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-cereal-0.5.8.3-9RjPyVhfWFC69r1oCUPmww \
+ghc-prof-conduit-1.3.6.1-DuJaiNNDon54jV6QjcNayt \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-exceptions-0.10.12-f655 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-lens-5.3.6-J5P8ydEQLUbA8WXxD5pRjA \
+ghc-prof-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-prof-parsec-3.1.18.0-be05 \
+ghc-prof-random-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh \
+ghc-prof-split-0.2.5-DF0qBqNymX3Hv5Ta0307xc \
+ghc-prof-template-haskell-2.23.0.0-358a \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-th-lift-0.8.7-C08bSURuEXt2IuYgZMzZEc \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-unix-2.8.8.0-178a \
+ghc-prof-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
+ghc-prof-xml-conduit-1.10.1.0-Jdtas0kp0k3Ah1vCZSqZl4 \
+ghc-prof-xml-types-0.3.8-35OA2z37X8M4UCRyGooeYw"
 
 inherit rpm

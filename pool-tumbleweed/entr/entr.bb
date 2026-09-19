@@ -3,10 +3,10 @@ DESCRIPTION = "A utility for running arbitrary commands when files change. Uses 
 inotify(7) to avoid polling."
 LICENSE = "ISC"
 
-PV = "5.4"
+PV = "5.8"
 
-RPM_NAME = "entr-5.4-1.1.aarch64.rpm"
-RPM_HASH = "9b961b39e2a54c5fcc78ace4803f5c85a6c9b4d3eed6599d3bb989e514bed0af77b49495fc43b492c58a8cc2026d13bceba0c08e979e95912470c2ca97155a60"
+RPM_NAME = "entr-5.8-1.3.aarch64.rpm"
+RPM_HASH = "f7c4064a9c146d805c17b6bb26b81dc2bf49a3491953ae2d0d381bc3f58066f35a8ee5919dde3af5864e196d7e94191000b50ce20f111ff7265eba0c16b850fb"
 
 RPROVIDES:${PN} += "entr"
 

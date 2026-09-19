@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-dantelogo"
 DESCRIPTION = "The  separated fonts package for texlive-dantelogo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.03svn38599"
+PV = "2026.226.0.0.03svn38599"
 
-RPM_NAME = "texlive-dantelogo-fonts-2023.209.0.0.03svn38599-55.1.noarch.rpm"
-RPM_HASH = "a68021316372982f0d2bb60f3f4cc7c1cb604e1a7f5d58079d3bccb8795d3000b52fb5b2ed7df310d5c88e7a465d05800b4df5e3b321749d92ed28a343a2144a"
+RPM_NAME = "texlive-dantelogo-fonts-2026.226.0.0.03svn38599-61.2.noarch.rpm"
+RPM_HASH = "84483cd5e1ce86f01c7d8f7475217d51dd3154ba99e5feee156cf72bb4bfbfaccbe3678ef4636115572d517f80f415bb8559385505402897203a7734d482f193"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-dantelogo-fonts \

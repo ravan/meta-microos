@@ -2,16 +2,16 @@ SUMMARY = "Translations for package kajongg"
 DESCRIPTION = "Provides translations for the 'kajongg' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kajongg-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "2456670bc8d6211211406a6e526036ec2072ae28863c4c1fe66e16e0fa24f2818ba0c4fae056ac98c1237c53b05a713cf6ab43fb29dbf6b720e7900542056adf"
+RPM_NAME = "kajongg-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "3da1b44bcfafec628f48885fcce57629e12acc78b0751789a686d7a4288a702d777d9d413bcc3d080be5599dd49c6088b0ee07d412af473d3ad30dcf3cebc207"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kajongg-lang \
 kajongg-lang-all \
 locale-kajongg-ar \
-locale-kajongg-bg \
+locale-kajongg-ast \
 locale-kajongg-bs \
 locale-kajongg-ca \
 locale-kajongg-ca@valencia \
@@ -28,13 +28,17 @@ locale-kajongg-fi \
 locale-kajongg-fr \
 locale-kajongg-ga \
 locale-kajongg-gl \
+locale-kajongg-he \
+locale-kajongg-hi \
 locale-kajongg-hu \
+locale-kajongg-ia \
 locale-kajongg-is \
 locale-kajongg-it \
 locale-kajongg-ja \
 locale-kajongg-ka \
 locale-kajongg-kk \
 locale-kajongg-km \
+locale-kajongg-ko \
 locale-kajongg-lt \
 locale-kajongg-mai \
 locale-kajongg-ml \

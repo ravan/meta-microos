@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.0"
 
-RPM_NAME = "firectl-0.2.0-1.5.aarch64.rpm"
-RPM_HASH = "789784557d692f3b990ff78a1f66e0e759ddad32b46d7f1e0fc55790643988b56f2294e2c6da07e9ebccdf3df34e4d99aa1421df45f57abc5fde134f49d33fc0"
+RPM_NAME = "firectl-0.2.0-1.19.aarch64.rpm"
+RPM_HASH = "9c9484f7574e051651e75f86a0c95e3eafbf0091aed51925b7d4639a4f2ed0c3acea599c0c9e358df6f1c80407bb9d6b5c03116ce4dab9ac85242493e6668544"
 
 RPROVIDES:${PN} += "firectl"
 

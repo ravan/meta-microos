@@ -3,15 +3,16 @@ DESCRIPTION = "Rygel is a home media server that allows sharing audio, video, \
 pictures, and control of media player on your home network."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.4"
+PV = "45.2"
 
-RPM_NAME = "typelib-1_0-RygelRendererGst-2_8-0.42.4-1.1.aarch64.rpm"
-RPM_HASH = "6eaf1c72f01a3b15748aeffea91ae7e8c669ef650e2422da1b62eb1a70a7583f037b302a8db69239c56ec03208e2ebf55f158b6c5dc4a954d209cbc2d6e8eff7"
+RPM_NAME = "typelib-1_0-RygelRendererGst-2_8-45.2-1.2.aarch64.rpm"
+RPM_HASH = "be3c3e0b9b260dff0c340d66a07e8faef445d60cf26ad45eed12d8b85f03af5a322908ab969f4ef8f4a983e335fd4ed7858559e354eca1fe4d9a5ab74679abac"
 
 RPROVIDES:${PN} += "typelib-1-0-RygelRendererGst-2-8 \
 typelib-RygelRendererGst"
 
-RDEPENDS:${PN} += "typelib-GLib \
+RDEPENDS:${PN} += "librygel-renderer-gst-2.8.so.0 \
+typelib-GLib \
 typelib-GModule \
 typelib-GObject \
 typelib-GSSDP \

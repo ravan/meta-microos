@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-namespc"
 DESCRIPTION = "This package includes the documentation for texlive-namespc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-namespc-doc-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "9f736ee12f81a16f6047b7bbb6550295c41fa044315c83fdeea4493cd01974347407d7ea7bb34eac3147319fe482f86b2a200d326dec988ebec54fd686ca63c9"
+RPM_NAME = "texlive-namespc-doc-2026.226.svn15878-61.2.noarch.rpm"
+RPM_HASH = "e6bde0c6e0d20bb60e718c57208f55b4a46d454c7779fc8b3c7cbf584c5b0784968df330c8702c135d2d312e5c97061a2cbf7d298695e18402eaf740b73cd7d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-namespc-doc"

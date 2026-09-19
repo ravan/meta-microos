@@ -2,10 +2,10 @@ SUMMARY = "Spice UI support for QEMU"
 DESCRIPTION = "This package contains a module for doing Spice based UI for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-ui-spice-app-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "5b1b5d37ccd813280c39ffe1f01f8e367b265f2e98ba9856b3dde41bd3046480c78cfab08782b9ad8cd09ff468d56ca712971ae22d232ebb34ddb1aaf258f05f"
+RPM_NAME = "qemu-ui-spice-app-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "db622db074022d5df609f1a09392f37f73a6a37a53300bb209bdf85adca38d9134b6addc048d7a43881c7f8a24b9e33686603208fb133a8db4a9126bb4672265"
 
 RPROVIDES:${PN} += "qemu-ui-spice-app"
 

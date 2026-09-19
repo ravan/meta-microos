@@ -3,10 +3,10 @@ DESCRIPTION = "libxfce4util is a general-purpose utility library with core appli
 for the Xfce Desktop Environment."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.18.1"
+PV = "4.20.1"
 
-RPM_NAME = "libxfce4util7-4.18.1-1.4.aarch64.rpm"
-RPM_HASH = "628f178577b5067002d3f4359d0d55bd28ab236ce4bcb419bcf2cb9a6bcd77d9a761ea637d81f54c5331f5d6ffef97787755e2b94a5fec9357d4ecfef67fe3e9"
+RPM_NAME = "libxfce4util7-4.20.1-1.5.aarch64.rpm"
+RPM_HASH = "84bf951cf14638ad181820f2d812a0b543acc5d1d713cb7d3bcbd4f967c9a845b464d18289c1df185eecfbc9c0634217a712ba014986924d4c83191f9c334b85"
 
 RPROVIDES:${PN} += "libxfce4util \
 libxfce4util.so.7 \

@@ -10,10 +10,10 @@ text-based structure, given that a corresponding template \
 exists."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.1.0.4svn61719"
+PV = "2026.227.1.0.6svn71963"
 
-RPM_NAME = "texlive-texplate-2023.209.1.0.4svn61719-55.1.noarch.rpm"
-RPM_HASH = "0ae80e1e20290aed6b40ce99b109bab4c6e0063b520a63507418d290886e5e97d9dae71c24e9ceff38a5a07f93521ddfc45d75c6bfb8f612ff8ab01f843b6c50"
+RPM_NAME = "texlive-texplate-2026.227.1.0.6svn71963-62.2.noarch.rpm"
+RPM_HASH = "bc25786fcb5fea579cbca4ccba773461f9ab90083ca0d8a3db85190fb2f00a45532ee4849ad91df573f16b180ff55eaeb60aaf70ffdb7fe9c7ee207f4518b58a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texplate.jar \

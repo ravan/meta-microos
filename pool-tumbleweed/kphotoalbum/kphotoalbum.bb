@@ -5,10 +5,10 @@ in less than 5 seconds, let that be an image with a special person, \
 an image from a special place, or even both."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.11.0"
+PV = "6.2.0"
 
-RPM_NAME = "kphotoalbum-5.11.0-1.1.aarch64.rpm"
-RPM_HASH = "aeb07c78522dec9182a5f3e88a49dd78c4cac18a5950574e76e22cb8fa1311bcbcb5b29ad82135d70d37b2d9b30e638fca6a7f941dce18f0956ad931bd259bf5"
+RPM_NAME = "kphotoalbum-6.2.0-1.4.aarch64.rpm"
+RPM_HASH = "3d12560c0172557010197052fe1972e03c7ec04eb71b7e7ccc6564ba7596cd49466839a80e2b166643c49af38a0f8d22c6fa984e07fdf6dc66f65aa59e03a283"
 
 RPROVIDES:${PN} += "kphotoalbum \
 libkpabase.so \
@@ -18,41 +18,43 @@ libkpathumbnails.so"
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KDcraw.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Purpose.so.5 \
-libKF5PurposeWidgets.so.5 \
-libKF5Service.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
-libQtAV.so.1 \
-libQtAVWidgets.so.1 \
+libKDcrawQt6.so.5 \
+libKF6Archive.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6IconWidgets.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6Purpose.so.6 \
+libKF6PurposeWidgets.so.6 \
+libKF6Service.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6MultimediaWidgets.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libexiv2.so.28 \
 libgcc-s.so.1 \
 libjpeg.so.8 \
 libm.so.6 \
-libmarblewidget-qt5.so.28 \
-libphonon4qt5.so.4 \
+libmarblewidget-qt6.so.28 \
+libphonon4qt6.so.4 \
 libstdc++.so.6 \
 libvlc.so.5 \
-sqlite3"
+qt6-sql-sqlite"
 
 inherit rpm

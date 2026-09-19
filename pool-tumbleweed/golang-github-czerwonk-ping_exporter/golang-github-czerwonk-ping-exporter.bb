@@ -3,10 +3,10 @@ DESCRIPTION = "This is a simple server that scrapes go-ping stats and exports th
 for Prometheus consumption."
 LICENSE = "MIT"
 
-PV = "0.4.5"
+PV = "1.1.4"
 
-RPM_NAME = "golang-github-czerwonk-ping_exporter-0.4.5-3.8.aarch64.rpm"
-RPM_HASH = "50ffd4633fdd05fd701fe6c74d873f9ee1fae4f928416739c9bd38b16f48b04b2e758d0b7b1fa1075a6abcc67cad0db450af07266d4fef7e63330739d3bce894"
+RPM_NAME = "golang-github-czerwonk-ping_exporter-1.1.4-1.8.aarch64.rpm"
+RPM_HASH = "7e5654ba562e93fbb8ba5e55be0c7e1593b59ca69c081906ca848749b91f7cf3ba76a90f6127c14dc0cb39a8819370762b8ae1db0fedf0e738715d3fac12044a"
 
 RPROVIDES:${PN} += "config-golang-github-czerwonk-ping-exporter \
 golang-github-czerwonk-ping-exporter"

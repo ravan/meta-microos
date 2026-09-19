@@ -1,12 +1,12 @@
 SUMMARY = "Platform Independent Hotkey Handling for GTK+ Applications"
 DESCRIPTION = "GtkHotkey is simple library offering a platform independent way for GTK+ \
 applications to manage and bind desktop-wide hotkeys."
-LICENSE = "LGPL-3.0+"
+LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.2.1"
 
-RPM_NAME = "libgtkhotkey1-0.2.1-16.27.aarch64.rpm"
-RPM_HASH = "21d57b3793839846edfb41b318e094fcdcf1a3996a587684f7060bba2c425c3c5265f5ef43fb13e240e37576be99e212249e8321c2167240f9dddf2bf8ebcce1"
+RPM_NAME = "libgtkhotkey1-0.2.1-18.9.aarch64.rpm"
+RPM_HASH = "01aafdc2eeaf5c7392a8399b9c21b2bfa5722d64f75e30db9232a03988d809be1d21d938587dc8f17cfa57671835679d8622f2c16d6162272a9e0ea27f4f006f"
 
 RPROVIDES:${PN} += "libgtkhotkey.so.1 \
 libgtkhotkey1"

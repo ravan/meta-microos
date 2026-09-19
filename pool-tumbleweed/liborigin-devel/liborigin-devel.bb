@@ -1,12 +1,12 @@
 SUMMARY = "Libraries and header files for liborigin"
 DESCRIPTION = "This package contains libraries and header files for developing \
 applications that read OriginLab OPJ project files."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "3.0.2"
+PV = "3.0.3"
 
-RPM_NAME = "liborigin-devel-3.0.2-1.1.aarch64.rpm"
-RPM_HASH = "674fac249e1be48665b86a567d2fb8ee3d0de2901286725116a6de68d6b48a7c59a4161e43c44ecb699e7335ccc6743425402884837eb93ef0732353b7355fc4"
+RPM_NAME = "liborigin-devel-3.0.3-1.5.aarch64.rpm"
+RPM_HASH = "9c46e9bf177eb4460a8f4edd1baa8551f712e344ddf0c80a4109d1f5fcd6176d2f54622f9c3b1254aa4d2fc29ca008047bbd9d5e32ca34a7db74ec2a8c2b6ba3"
 
 RPROVIDES:${PN} += "liborigin-devel \
 pkgconfig-liborigin"

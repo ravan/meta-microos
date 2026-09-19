@@ -11,10 +11,10 @@ This package contains the development headers for the library found \
 in libXtst6."
 LICENSE = "MIT"
 
-PV = "1.2.4"
+PV = "1.2.5"
 
-RPM_NAME = "libXtst-devel-1.2.4-1.2.aarch64.rpm"
-RPM_HASH = "f692dc67402d01986f9347d59a6f98dca2734cc170771bab2e4e7150e37416c6f2d085685561e6d9605387f673763c7bfe844e32365e3485e5467a327ae36698"
+RPM_NAME = "libXtst-devel-1.2.5-1.9.aarch64.rpm"
+RPM_HASH = "fa1363af85d8da45a81d129a405d0740ddfe58bf7387fe26c7e65ee836105a96efdde55052bc59bfcb60673a05b918b5fc9bc7ab9b9730a4d7ccdffcec457969"
 
 RPROVIDES:${PN} += "libXtst-devel \
 pkgconfig-xtst"

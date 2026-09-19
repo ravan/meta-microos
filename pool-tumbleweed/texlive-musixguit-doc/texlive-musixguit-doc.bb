@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-musixguit"
 DESCRIPTION = "This package includes the documentation for texlive-musixguit"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.2svn21649"
+PV = "2026.226.1.2.2svn21649"
 
-RPM_NAME = "texlive-musixguit-doc-2023.209.1.2.2svn21649-55.1.noarch.rpm"
-RPM_HASH = "f54079d8a6e8530f8b0ad474036014877e8bd4622b9e5571a82b03164997032b3d210a6fb88f0d1a7ff40deee23bbad17b00a68a04349d230f56ca1fed53b7bf"
+RPM_NAME = "texlive-musixguit-doc-2026.226.1.2.2svn21649-61.2.noarch.rpm"
+RPM_HASH = "d01628c68c9885e3c808b6e99cfe4b4251e0f26541c48f23bb14f24552f722f87d4d37b989bdf405bad21e21eb1254c77520a4df689be4f40f85c383b1c4608d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-musixguit-doc-de \

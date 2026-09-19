@@ -2,13 +2,16 @@ SUMMARY = "Czech/Slovak"
 DESCRIPTION = "Support for Czech/Slovak."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn54074"
+PV = "2026.222.svn54074"
 
-RPM_NAME = "texlive-collection-langczechslovak-2023.208.svn54074-60.1.noarch.rpm"
-RPM_HASH = "58f0171da358593db56cf6dc04b31fb8b1d4b79e8d132a86c046c11aeaa4ab6c4aeac4e331284c719299704173b7c33df325b0465cb53e362599f714ed8505c6"
+RPM_NAME = "texlive-collection-langczechslovak-2026.222.svn54074-68.2.noarch.rpm"
+RPM_HASH = "ddec739b7548c018fccdc9a7d5d768da10d7a64e080dccd4bfaf317e82700d88d4fd16d30cffb51a4d8d5262c0d6ddca58696106f4613f6dc50249ae42068f71"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langczechslovak"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-czechslovak \
+texlive-collection-langczechslovak"
 
 RDEPENDS:${PN} += "texlive-babel-czech \
 texlive-babel-slovak \

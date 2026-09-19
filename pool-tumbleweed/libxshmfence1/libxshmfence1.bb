@@ -6,10 +6,10 @@ seems excessive, and by using PresentIdleNotify events, to work around \
 the limitations of futexes."
 LICENSE = "HPND"
 
-PV = "1.3.2"
+PV = "1.3.3"
 
-RPM_NAME = "libxshmfence1-1.3.2-1.2.aarch64.rpm"
-RPM_HASH = "8c943d3476fb002b6a1aadccc5a27fe2c074226d7b3f0e0ec2aed4137fd1f10ae5964a2095fa5c8b41ded8b6eaba441d587cf641ec9a1f7cb864799a9f5d9fdd"
+RPM_NAME = "libxshmfence1-1.3.3-1.7.aarch64.rpm"
+RPM_HASH = "9c486a4b41f4809e4d26ff98466320cf25e728ffab3bde7e74c1774a2f61e58faf79b5a05b590751bc4c82aa38a242886d04f0dc502fe500b5c0c1fb86a04b1f"
 
 RPROVIDES:${PN} += "libxshmfence.so.1 \
 libxshmfence1"

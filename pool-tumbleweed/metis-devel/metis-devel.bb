@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.1.0"
 
-RPM_NAME = "metis-devel-5.1.0-9.12.aarch64.rpm"
-RPM_HASH = "c86cf1020f10f144a9f07542ce915c6e2ae1832e2862017c6a43378dc9cea9fb636033982a97adbc0354093e33fbfb396132efac0bb0440aa5c9b5ce283c1bba"
+RPM_NAME = "metis-devel-5.1.0-13.5.aarch64.rpm"
+RPM_HASH = "ffee835d13bdb6350a119a20ab8a6cb3007e205c58d09a7de0018c0dd53dd771d699f2838ad6810b5801b891c8f627e56243ad2134750ab694067640b8b04ffb"
 
 RPROVIDES:${PN} += "metis-devel"
 

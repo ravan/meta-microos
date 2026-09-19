@@ -2,10 +2,10 @@ SUMMARY = "Next generation of fcitx"
 DESCRIPTION = "Fcitx 5 is a generic input method framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.1.0"
+PV = "5.1.17"
 
-RPM_NAME = "fcitx5-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "aa80262fab541611d6482922125007b034ede4321ef85b661c13f736b4c745932160d7ecdfc852e62dc6005cfd57ed5b3b75bd0451bc3ea512be87b1f42219dd"
+RPM_NAME = "fcitx5-5.1.17-1.7.aarch64.rpm"
+RPM_HASH = "c9c966ec7b0306b8dc5816c7aa46371a77fb7be76980bfcd8ab2e9587f41e615b43058e579caa31be5fa6b24ab6fd03ed325eb2e30f95bec3c836c27316e2958"
 
 RPROVIDES:${PN} += "fcitx \
 fcitx5 \
@@ -48,12 +48,13 @@ libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libjson-c.so.5 \
+libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libstdc++.so.6 \
 libuuid.so.1 \
 libwayland-client.so.0 \
+libwayland-cursor.so.0 \
 libxcb-ewmh.so.2 \
 libxcb-icccm.so.4 \
 libxcb-imdkit.so.1 \

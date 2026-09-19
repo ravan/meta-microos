@@ -8,8 +8,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.1.03.beta1"
 
-RPM_NAME = "google-carlito-fonts-1.1.03.beta1-3.17.noarch.rpm"
-RPM_HASH = "04301c36b5f76621a45d102a7be4515e17e12c775decd5cf9af285cd5645fb10fd94efe997076466c4a77e538098b16c77862ad202373ecd45ab6cd782acf632"
+RPM_NAME = "google-carlito-fonts-1.1.03.beta1-3.25.noarch.rpm"
+RPM_HASH = "64860335feaeca10f98fdd2c3bb22509e9b96b692ab42e064bdfaa2394c9a4b7d79578f5cd5bd2c0e56e733337881880943ba46f8a15b18924ae98863771d9af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-carlito-fonts"

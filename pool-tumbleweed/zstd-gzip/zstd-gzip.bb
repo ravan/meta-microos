@@ -6,10 +6,10 @@ This subpackage provides a compatible alternative to gzip(1) using \
 an optimized deflate/zlib handling."
 LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
-PV = "1.5.5"
+PV = "1.5.7"
 
-RPM_NAME = "zstd-gzip-1.5.5-3.2.aarch64.rpm"
-RPM_HASH = "bfeb7d76b402cacffd3771dd953cbed32a1f53042f3c6d44e2910b9287d23c2a09e863a51981904077edda4e679cbcdb1dff2e7439654963e1a61dfbdcc30a9d"
+RPM_NAME = "zstd-gzip-1.5.7-6.1.aarch64.rpm"
+RPM_HASH = "e447483b294d255a2541c87ff671c6cbc2859061cc7bfe4b5f2e990106e5f8544146559132e9507bc959f556a4fa620bc63f2b469cca73ee517cae30036491d9"
 
 RPROVIDES:${PN} += "alternative-gzip \
 gzip \

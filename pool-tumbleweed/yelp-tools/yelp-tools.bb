@@ -7,13 +7,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "yelp-tools-42.1-1.2.noarch.rpm"
-RPM_HASH = "a856ec1a3cce464efd641c62702b59431dd2ea2b22cc926a1ee843f510f1efea669dc0504cd2d9e90943420a7afc61f177b8b8c6e8c3a7315c971b73275bc829"
+RPM_NAME = "yelp-tools-42.1-2.7.noarch.rpm"
+RPM_HASH = "2961536b7cba50b0598aa4c8387f2554a081f3bdd0d78d436376e12b7dfafb87652d98faf11f05456c90b2c1e2f1602053799619f122cb1506d667aca1afc59e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yelp-tools"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 itstool \
 libxml2-tools \
 libxslt"

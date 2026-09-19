@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.4"
 
-RPM_NAME = "libavc1394-tools-0.5.4-19.15.aarch64.rpm"
-RPM_HASH = "cceb1e6d0111fe4a97d1528e843b463f676cacf4a7307b917d44328d43205160ef952188c5078e4f566963ce31f3ef648058a49f8bca7d7cb6bd78e90cfa574c"
+RPM_NAME = "libavc1394-tools-0.5.4-20.9.aarch64.rpm"
+RPM_HASH = "b2e80b06a925fb8ef45e13ae990756eef7726d9a210e7572385fe15fc19d6a405a40f1ccd7d3e845d10c1d00c8de7280deac0f99bdf0308940fb2002c73e5d9c"
 
 RPROVIDES:${PN} += "libavc1394 \
 libavc1394-tools"

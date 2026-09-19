@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Dutch langu
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-nld-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "8fbe472049a4b5f63d82caa2bb1c3471356eec871b65996c40a640b9f5afc7c32eb87e7fdac065bb1c79409b861e614cef31265f62ee0110d7cd372eadd6bbe7"
+RPM_NAME = "tesseract-ocr-traineddata-nld-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "722d871d4738720c57170732b265d9f82ab0be9bdb6e6cf2765dff9a617097bbdee729a872f68e2844cdf2b22925d77cba4372f776de8635517c5f913538584a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-dutch \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-nl \
+tesseract-ocr-traineddata-dutch \
 tesseract-ocr-traineddata-nld \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-dutch"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

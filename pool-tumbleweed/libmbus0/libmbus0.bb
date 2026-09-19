@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.0+59"
 
-RPM_NAME = "libmbus0-0.9.0+59-1.4.aarch64.rpm"
-RPM_HASH = "89cf985d32f2e3a95f42e2af87e0f12f7405b7f0c10f85534ccc6e3f6f7552ba68a768e065db65bae0cfaabf40d0b2057a986c7174c6a2661c581edef98f7d20"
+RPM_NAME = "libmbus0-0.9.0+59-1.15.aarch64.rpm"
+RPM_HASH = "46e89a65570f6c0c43737d61f268fb34223cd98942e4f566338c2c8958843bdc2fc7749c4dca2a1072e0a3c5f1db20eb725cee0b6560cf91df6e000dc3f19a25"
 
 RPROVIDES:${PN} += "libmbus.so.0 \
 libmbus0"

@@ -26,10 +26,10 @@ To develop plugins, install the 'nbdkit-devel' package and start by \
 reading the nbdkit(1) and nbdkit-plugin(3) manual pages."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.32.2"
+PV = "1.48.0"
 
-RPM_NAME = "nbdkit-1.32.2-1.4.aarch64.rpm"
-RPM_HASH = "f8f51d590edbc3ac19347ef0011192583338d77a97704cf569d6713bf8009b91e46c8efa167eb4860c3a736231f9d03cef4ed93a4e48ce7b17aa11530cf186e7"
+RPM_NAME = "nbdkit-1.48.0-1.1.aarch64.rpm"
+RPM_HASH = "e743fd6752fc6f6087b7bb37ca1dbaf9e40e2aebb2cc01340754204c1fbe10c4bcce7260abd1bca5cb2402d9866ca2d1bad62ded37d1fbe73847da6d1df8e216"
 
 RPROVIDES:${PN} += "nbdkit"
 

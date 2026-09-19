@@ -13,13 +13,12 @@ trusted. Dmidecode does not scan your hardware, it only reports what \
 the BIOS told it to."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5"
+PV = "3.7"
 
-RPM_NAME = "dmidecode-3.5-3.1.aarch64.rpm"
-RPM_HASH = "db12a36742f0d5faa876bf4f825a62158bcf1aa97a4e88cf1c44a4447fc48ade4634a2583456c944982862e578f6339c8b255d235aa772c1bca1f1915c4e7e1d"
+RPM_NAME = "dmidecode-3.7-2.1.aarch64.rpm"
+RPM_HASH = "36ff4dedd76631ca981bd5e8c0442df850d46af35dc222ca3f081c1b1dd9da1bd3cb672a5c5ecae1242732cfb05b8d32b04afec905cfb2679faea51d0819c691"
 
-RPROVIDES:${PN} += "dmidecode \
-pmtools-/usr/sbin/dmidecode"
+RPROVIDES:${PN} += "dmidecode"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6"

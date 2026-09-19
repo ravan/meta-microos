@@ -23,10 +23,10 @@ applications to be developed according to a true MVC model. \
 This package contains very simple examples to use Velocity."
 LICENSE = "Apache-2.0"
 
-PV = "2.3"
+PV = "2.4.1"
 
-RPM_NAME = "velocity-engine-examples-2.3-3.10.noarch.rpm"
-RPM_HASH = "d1fd257363e2de5e465757a89f87cbab93dd08abf2c64ae6c2be6150b773417687f6369474df98756e391d7defe5c93b5a9c87c96347ba74cfe79ab49df73405"
+RPM_NAME = "velocity-engine-examples-2.4.1-1.4.noarch.rpm"
+RPM_HASH = "ed2d106eac4b32e2e0a84977461bac32cec4f9632a6ba24e7eb5aabee411ec1400ff12eb797f09e94433c208e4cb77a4360dbe77f8c7d43aa3690ac45addfa67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.velocity-velocity-engine-examples \
@@ -37,6 +37,6 @@ velocity-engine-examples"
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-org.apache.velocity-velocity-engine-core \
-mvn-org.jdom-jdom"
+mvn-org.dom4j-dom4j"
 
 inherit rpm

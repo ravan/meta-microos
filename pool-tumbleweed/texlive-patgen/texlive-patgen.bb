@@ -11,10 +11,10 @@ generation algorithms were not changed.) Patgen is currently \
 maintained as part of TeX Live."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.4svn66186"
+PV = "2026.226.2.4svn77830"
 
-RPM_NAME = "texlive-patgen-2023.209.2.4svn66186-52.1.noarch.rpm"
-RPM_HASH = "ec77d27f9e20b0ed6577aed7feaf16de3c4ffbcd725fe0f066391f84cd592964365ac14f56d7c2e3aacedb6319018c92bb50bd608e7d8089b1a4339a54081913"
+RPM_NAME = "texlive-patgen-2026.226.2.4svn77830-58.2.noarch.rpm"
+RPM_HASH = "a0774180bcdd4396da2b25e09a2251e652a3d0dd9992457b01705c63a32bb2d25cf15a04529ca6e742baabd4950e52c14b18ec7b31a8a3e389068bba24407ed1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-patgen.1 \

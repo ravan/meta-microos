@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0.2"
 
-RPM_NAME = "gdata-sharp-1.4.0.2-26.14.noarch.rpm"
-RPM_HASH = "958ae201d986d1707b550d4312b6d1efd393adb5662181414823747ff41f5b75c9d79272c5c27ae89e423de77ffdbe3d1abf7d3d288e749bcd173683d51d2879"
+RPM_NAME = "gdata-sharp-1.4.0.2-27.6.noarch.rpm"
+RPM_HASH = "1b77ba44fe25b34f08108ee7c6be06c761c803497f3c97f29c90c5ae9c1f84253b2833a36296e60cfdadc8d99af3d63d5971636904c0342e3b7922bdc8cb07f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdata-sharp \

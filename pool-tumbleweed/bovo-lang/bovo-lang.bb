@@ -2,15 +2,16 @@ SUMMARY = "Translations for package bovo"
 DESCRIPTION = "Provides translations for the 'bovo' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "bovo-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "4150b3bdd7deb2962a979764bac0d94e97bb96f36c3bf3164feef19736fed2dee779c71e2d786dc7ec0eddd04d8830f58af32e8841d0e36edbc1d8091bc56e32"
+RPM_NAME = "bovo-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "c5ca90045b1d2d7cb9d8d8e3e67d5be17bfe2a9a08c20652b9a1982b7c45a3d6bf2b6b1bb6fb3874a4d55756908f9dab502cfe1d3fc59720dc4175f6cb1c1726"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bovo-lang \
 bovo-lang-all \
 locale-bovo-ar \
+locale-bovo-ast \
 locale-bovo-be \
 locale-bovo-bg \
 locale-bovo-bs \
@@ -29,9 +30,11 @@ locale-bovo-fi \
 locale-bovo-fr \
 locale-bovo-ga \
 locale-bovo-gl \
+locale-bovo-he \
 locale-bovo-hi \
 locale-bovo-hr \
 locale-bovo-hu \
+locale-bovo-ia \
 locale-bovo-id \
 locale-bovo-is \
 locale-bovo-it \

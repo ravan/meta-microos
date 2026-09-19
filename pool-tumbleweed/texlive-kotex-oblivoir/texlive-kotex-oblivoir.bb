@@ -5,10 +5,10 @@ belongs to the ko.TeX bundle. It depends on memoir and \
 kotex-utf to function."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2.1svn66513"
+PV = "2026.226.3.5svn78115"
 
-RPM_NAME = "texlive-kotex-oblivoir-2023.209.3.2.1svn66513-56.1.noarch.rpm"
-RPM_HASH = "3fd7c1489cc9791b19e046a0c6b28bc967a41a66a7772880bae3148ad01149135d9deca5ef3b7f855ea8cd6f3212a282a72c55e90486b3480854d461cbde16bc"
+RPM_NAME = "texlive-kotex-oblivoir-2026.226.3.5svn78115-63.2.noarch.rpm"
+RPM_HASH = "9a2ed2011e1e80ab8ebd0b37722f898498811757120a8a5c4201a48fcde5a4af21c7faf050d6dc1043866a7fd61477add8f44cc1fe0b1dff037ff46ab83ece50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-10-5.sty \
@@ -29,6 +29,7 @@ tex-ob-mathleading.sty \
 tex-ob-nokoreanappendix.sty \
 tex-ob-toclof.sty \
 tex-ob-unfontsdefault.sty \
+tex-obchapterstyles.sty \
 tex-obchaptertoc.sty \
 tex-oblivoir-misc.sty \
 tex-oblivoir-utf.cls \

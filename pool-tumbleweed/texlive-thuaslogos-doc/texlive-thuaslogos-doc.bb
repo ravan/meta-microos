@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-thuaslogos"
 DESCRIPTION = "This package includes the documentation for texlive-thuaslogos"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn51347"
+PV = "2026.227.1.2svn51347"
 
-RPM_NAME = "texlive-thuaslogos-doc-2023.209.1.2svn51347-55.1.noarch.rpm"
-RPM_HASH = "5cb6c2cce2b3301aaca70cb6a766aa7e3b3cbe561783dab115970d5b9a9e3e6099c9249451725dbddf85ab091c5f7603cf5ffc934d222983c27a5aa01d788e94"
+RPM_NAME = "texlive-thuaslogos-doc-2026.227.1.2svn51347-62.2.noarch.rpm"
+RPM_HASH = "6df66dbaa8da9f62ba66fdd20c021454a8e1c05bfc54282e4f662b9d873a032367564633ff72d20e3322f883ddc27d79e8f58a8d9b9acba119a2fb8ea3bdaee4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-thuaslogos-doc-nl \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20230214"
 
-RPM_NAME = "systemd-presets-branding-MicroOS-20230214-2.2.noarch.rpm"
-RPM_HASH = "567aa1beda101e185c3d673d99adec4b27324b7f57f8c8651c66cba5177f495453139ca0766559b1a3cfa4c0a0db3655c2883e735d236c4182a6e0acac2fc9b0"
+RPM_NAME = "systemd-presets-branding-MicroOS-20230214-9.3.noarch.rpm"
+RPM_HASH = "9c418371e0e5a63f58c4090ffe37bfd92f6a001622c6c3171b163d1eba32190a7558ee66c4752e0268b0b483db66702f13e0a736579948313a3ad92c1f95a455"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-presets-branding \

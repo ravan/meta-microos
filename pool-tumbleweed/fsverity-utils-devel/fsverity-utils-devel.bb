@@ -3,10 +3,10 @@ DESCRIPTION = "Development package for fsverity-utils, including libfsverity hea
 and library files."
 LICENSE = "MIT"
 
-PV = "1.5"
+PV = "1.7"
 
-RPM_NAME = "fsverity-utils-devel-1.5-1.1.aarch64.rpm"
-RPM_HASH = "bf063d262ec311f7cf73a073b4057037c9366778ae88946230048fc2cf866f354f27ac97f0256ebb27ed16624a6f0e8be6859ea731afdbc42bf7b1f56a7431df"
+RPM_NAME = "fsverity-utils-devel-1.7-1.3.aarch64.rpm"
+RPM_HASH = "53556155a4ce542267d06ca5792cb6bf83335eacb784f2ddadefac1fcf57dd403f7b59b421a4feb8495bf7a3c0c51d435a2590ee7145f2fe1fe652ac8bd21865"
 
 RPROVIDES:${PN} += "fsverity-utils-devel \
 pkgconfig-libfsverity"

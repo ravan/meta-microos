@@ -5,32 +5,55 @@ functions, the program is also an FTP client and can browse SMB \
 networks."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.16.1"
+PV = "2.0.3"
 
-RPM_NAME = "gnome-commander-1.16.1-1.1.aarch64.rpm"
-RPM_HASH = "1f19a648b0747abd67295a2d2f5dbce8eaec485ef0e69db0eb5090333dcd138fea0a711668c98e65089cea18cc296d2413b219329f1aa7e1be194f0b5e89a7e5"
+RPM_NAME = "gnome-commander-2.0.3-1.3.aarch64.rpm"
+RPM_HASH = "4218b6703cea72e10fff90adc6cd22df9cea625f221c1fc02cfadb7760db23e60b0b04be7de296ba7969bba907606ab7bebf35989db391f5f55dd2df416acc04"
 
 RPROVIDES:${PN} += "gnome-commander \
 gnome-commander-doc \
+libexiv2plugin.so \
 libfilerollerplugin.so \
-libtestplugin.so"
+libgcmd.so \
+libgsfplugin.so \
+libpopplerplugin.so \
+libtaglibplugin.so \
+libtestplugin.so \
+typelib-GnomeCmd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
+libcairo.so.2 \
 libexiv2.so.28 \
 libgcc-s.so.1 \
 libgdk-pixbuf-2.0.so.0 \
-libgdk-x11-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
+libgraphene-1.0.so.0 \
 libgsf-1.so.114 \
-libgtk-x11-2.0.so.0 \
+libgtk-4.so.1 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpoppler-glib.so.8 \
 libstdc++.so.6 \
-libtag.so.1"
+libtag.so.2 \
+libvte-2.91-gtk4.so.0 \
+typelib-GLib \
+typelib-GModule \
+typelib-GObject \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Graphene \
+typelib-Gsk \
+typelib-Gtk \
+typelib-HarfBuzz \
+typelib-Pango \
+typelib-PangoCairo \
+typelib-cairo \
+typelib-freetype2"
 
 inherit rpm

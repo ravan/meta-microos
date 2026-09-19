@@ -10,10 +10,10 @@ customize the style and color to denote different categories, \
 too."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn65549"
+PV = "2026.226.1.0.0svn76924"
 
-RPM_NAME = "texlive-zennote-2023.209.1.0.0svn65549-53.2.noarch.rpm"
-RPM_HASH = "cd91efc0a47d120acdbc64bd56937372c582dc8ecf59353bc680d0466bcf9e5170c43e72f0f816461a3d08fa60909efda8ab548cfa5af6362f8ddab8aa2211d1"
+RPM_NAME = "texlive-zennote-2026.226.1.0.0svn76924-59.4.noarch.rpm"
+RPM_HASH = "c78580d993e34ec1d351130a87ba29b8661785caf3ad8e787777dd9d03ce6e5f7b9c7f95e0400db0506c3421772c2d7c66237585489dabf641a6cd0b3911e35b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zennote.sty \

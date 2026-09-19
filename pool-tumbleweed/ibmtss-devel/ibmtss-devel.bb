@@ -2,14 +2,14 @@ SUMMARY = "IBM's TPM 2.0 TSS headers"
 DESCRIPTION = "Includes IBM's TPM 2.0 TSS C header files"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.0"
+PV = "2.4.1"
 
-RPM_NAME = "ibmtss-devel-1.6.0-4.5.aarch64.rpm"
-RPM_HASH = "3f00c125bbc92c4355fa478c53d14e0e3d3929d1a8c6d890532005abed52744cec48d89f92059bf9a242cdf49dc705d01feaa491da43f16d122d11d2a3b3be26"
+RPM_NAME = "ibmtss-devel-2.4.1-2.5.aarch64.rpm"
+RPM_HASH = "364b624440f38aee8347455f54fb085cc05bf459a19e762e7b03b822b012168261ce99dd1a789c239c51fe58b44bd5f5a2528910a34ed1b271ecd7744ee5bdbd"
 
 RPROVIDES:${PN} += "ibmtss-devel"
 
 RDEPENDS:${PN} += "ibmtss \
-libibmtss1"
+libibmtss2"
 
 inherit rpm

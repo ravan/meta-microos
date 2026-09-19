@@ -1,20 +1,23 @@
 SUMMARY = "Kernel firmware files for Broadcom wireless drivers"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Broadcom wireless drivers."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Broadcom wireless drivers."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware & GPL-2.0-only"
 
-PV = "20230829"
+PV = "20260610"
 
-RPM_NAME = "kernel-firmware-brcm-20230829-1.1.noarch.rpm"
-RPM_HASH = "ae6c2d84d51718415a004f189e6e32ef99fdfe424e844b5b9a5b62a750801ae3761649360f7f7cfd8990f18049b8d8b6ff63414ed85c5cfc3c30e2bed8e88b43"
+RPM_NAME = "kernel-firmware-brcm-20260610-1.2.noarch.rpm"
+RPM_HASH = "17a450dacd5a9c6d521295de3a668df3523f91162cf93a0e0850ad1728c80d8e7e026422632cd3f94c1369d560a05e27d045d523068cd3c5417fb30f2c3245c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "3-model-a-plus.txt) \
 3-model-b-plus.txt) \
 3-model-b.txt) \
 4 \
+4-compute-module.txt) \
 4-model-b.txt) \
 4.txt) \
+5-compute-module.txt) \
+5-model-b.txt) \
+500.txt) \
 B.txt) \
 C0 \
 COMPUTER \
@@ -23,6 +26,7 @@ Corp.-VALLEYVIEW \
 Corporation-CHERRYVIEW \
 D1 \
 Foundation-Raspberry \
+INC.-ME176C.txt) \
 INC.-TF103CE.txt) \
 Inc-Mipad2.txt) \
 Model \
@@ -30,9 +34,11 @@ Module \
 PLATFORM.txt) \
 PLUS.txt) \
 Pi \
+X.txt) \
 Z83-4.txt) \
 am5729-beagleboneai.txt) \
 aura.txt) \
+bananapi-m64.txt) \
 bananapro.txt) \
 bcm43xx-firmware-/lib/firmware/brcm/brcmfmac43430-sdio.bin \
 beaglev-starlight-jh7100-a1.txt) \
@@ -45,6 +51,7 @@ cubietruck.txt) \
 firefly-rk3399.txt) \
 firmware(brcm/brcmfmac43241b4-sdio.Intel \
 firmware(brcm/brcmfmac43340-sdio.ASUSTeK \
+firmware(brcm/brcmfmac43362-sdio.ASUSTeK \
 firmware(brcm/brcmfmac43362-sdio.cubietech \
 firmware(brcm/brcmfmac43362-sdio.kobo \
 firmware(brcm/brcmfmac43362-sdio.lemaker \
@@ -55,13 +62,17 @@ firmware(brcm/brcmfmac43430-sdio.sinovoip \
 firmware(brcm/brcmfmac43430-sdio.starfive \
 firmware(brcm/brcmfmac43430a0-sdio.ONDA-V80 \
 firmware(brcm/brcmfmac43455-sdio.MINIX-NEO \
+firmware(brcm/brcmfmac43455-sdio.Radxa-ROCK \
 firmware(brcm/brcmfmac43455-sdio.Raspberry \
 firmware(brcm/brcmfmac43455-sdio.beagle \
+firmware(brcm/brcmfmac43455-sdio.khadas \
 firmware(brcm/brcmfmac43455-sdio.pine64 \
 firmware(brcm/brcmfmac43455-sdio.raspberrypi \
+firmware(brcm/brcmfmac4354-sdio.nvidia \
 firmware(brcm/brcmfmac4356-pcie.Intel \
 firmware(brcm/brcmfmac4356-pcie.Xiaomi \
 firmware(brcm/brcmfmac4356-sdio.firefly \
+firmware(brcm/brcmfmac4356-sdio.friendlyarm \
 firmware(brcm/brcmfmac4356-sdio.khadas \
 firmware(brcm/brcmfmac4356-sdio.vamrs \
 firmware-brcm/BCM-0a5c-6410.hcd \
@@ -83,6 +94,7 @@ firmware-brcm/brcmfmac4329-sdio.bin \
 firmware-brcm/brcmfmac4330-sdio.Prowise-PT301.txt \
 firmware-brcm/brcmfmac4330-sdio.bin \
 firmware-brcm/brcmfmac4334-sdio.bin \
+firmware-brcm/brcmfmac43340-sdio.Insyde-VESPA2.txt \
 firmware-brcm/brcmfmac43340-sdio.bin \
 firmware-brcm/brcmfmac43340-sdio.meegopad-t08.txt \
 firmware-brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt \
@@ -96,6 +108,7 @@ firmware-brcm/brcmfmac43430-sdio.Hampoo-D2D3-Vi8A1.txt \
 firmware-brcm/brcmfmac43430-sdio.MUR1DX.txt \
 firmware-brcm/brcmfmac43430-sdio.bin \
 firmware-brcm/brcmfmac43430-sdio.clm-blob \
+firmware-brcm/brcmfmac43430-sdio.ilife-S806.txt \
 firmware-brcm/brcmfmac43430a0-sdio.bin \
 firmware-brcm/brcmfmac43430a0-sdio.ilife-S806.txt \
 firmware-brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt \
@@ -151,7 +164,11 @@ firmware-cypress/cyfmac54591-pcie.clm-blob \
 kernel-firmware-brcm \
 model-zero-2-w.txt) \
 model-zero-w.txt) \
+nanopc-t4.txt) \
+nanopi-m4.txt) \
+nanopi-neo4.txt) \
 nanopi-r1.txt) \
+p2371-2180.txt) \
 pinebook-pro.txt) \
 pinenote-v1.1.txt) \
 pinenote-v1.2.txt) \
@@ -165,6 +182,7 @@ soquartz-blade.txt) \
 soquartz-cm4io.txt) \
 soquartz-model-a.txt) \
 tolino-shine2hd.txt) \
+vim.txt) \
 vim2.txt) \
 visionfive-v1.txt)"
 

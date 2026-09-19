@@ -2,10 +2,10 @@ SUMMARY = "Binary files of latexfileversion"
 DESCRIPTION = "Binary files of latexfileversion"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn25012"
+PV = "2026.20260301.svn25012"
 
-RPM_NAME = "texlive-latexfileversion-bin-2023.20230311.svn25012-93.2.aarch64.rpm"
-RPM_HASH = "c44fa0ce42379a234ddfb04ddc5522a4a1a503ea0d1fbe98c5879e75270e1a2af203ff6770e03d7a8a61e3e78449f9443d361f367994303a4d7fa051b5957f40"
+RPM_NAME = "texlive-latexfileversion-bin-2026.20260301.svn25012-120.4.aarch64.rpm"
+RPM_HASH = "3433767541a411ceabd854f36de6f1232725b90cc804d101a5117f580cce446c9d95b9e0dea3c0d93815cdcb915346310ac1edc0e02a82e68da0611e09524372"
 
 RPROVIDES:${PN} += "texlive-latexfileversion-bin"
 

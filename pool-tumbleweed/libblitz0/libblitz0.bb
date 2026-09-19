@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later | BSD-3-Clause | Artistic-2.0"
 
 PV = "1.0.2"
 
-RPM_NAME = "libblitz0-1.0.2-2.12.aarch64.rpm"
-RPM_HASH = "e001844ffbbc97dad288eaca10092fbf39969dfd080f3c30f8b40739231886a81518c3b1076b69a788f7767a3e06017f3bb2cf60532b403b226f9bb0f10c2f15"
+RPM_NAME = "libblitz0-1.0.2-2.25.aarch64.rpm"
+RPM_HASH = "06b55667facf68b5f6f1733c05268eadbeb9111d617c00125e8cb2f8eab4ffd2cb4f78c51898bfc06fc92fcbb6490e27f91927ea40560f2cb069ce09c57d1be3"
 
 RPROVIDES:${PN} += "libblitz.so.0 \
 libblitz0"

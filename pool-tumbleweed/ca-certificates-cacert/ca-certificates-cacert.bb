@@ -4,8 +4,8 @@ LICENSE = "SUSE-CacertRoot"
 
 PV = "1"
 
-RPM_NAME = "ca-certificates-cacert-1-23.3.noarch.rpm"
-RPM_HASH = "9ba2bc6bc5d8f650955e104ba265428178a6755f1477fd58cb63aa9271f55fee4669b5011be0bebddb9fb1ad40d3b3ea9f01541bda4bf639ed96c98d709db94a"
+RPM_NAME = "ca-certificates-cacert-1-23.11.noarch.rpm"
+RPM_HASH = "196a83f77184756e9638818ac3538184731e4bdcca4fc561debf025431fdd5e4baa350ac6b943a0fb5a5c066950b8ee8daa9b96cf29965a8a7cae0829f7c4520"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-cacert"

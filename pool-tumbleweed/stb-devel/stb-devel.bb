@@ -23,14 +23,15 @@ stb.h                       | misc             | helper functions for C, mostly 
 stb_leakcheck.h             | misc             | quick-and-dirty malloc/free leak-checking"
 LICENSE = "MIT | Unlicense"
 
-PV = "20210910"
+PV = "20260416"
 
-RPM_NAME = "stb-devel-20210910-1.5.noarch.rpm"
-RPM_HASH = "ddea816979b5923897defebbc40cd8fc4fcc2f5080658f9b2eafd91b976b920590924cf719390b5f1de19438a02148e0d7bb9fcf8670b9f02f425cc575a13705"
+RPM_NAME = "stb-devel-20260416-1.1.noarch.rpm"
+RPM_HASH = "4462998c52fdc54104039e51520d0f9f4d6f5a16821ae80ecec2eef5e334aad9bd9492543f0ef79c205d1e6ce0f799a53a8e7e09abbd14fb6e8896d5c4440294"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "stb-devel"
+RPROVIDES:${PN} += "pkgconfig-stb \
+stb-devel"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

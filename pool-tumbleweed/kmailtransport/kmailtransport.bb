@@ -3,30 +3,30 @@ DESCRIPTION = "This package contains library to provide mailtransport functional
 KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmailtransport-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "aa0efb51e2a6385e5541d9f6932414a3f3ac5a09b777c01608934d34f37a6867c06b2b71f1f7fb2c482b72a350219b92199248fc89842f07021b1defddf2b762"
+RPM_NAME = "kmailtransport-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "f1ba5da42315f4085c01c9db943dd7e8be4e3c1ef2bf664a020cdafb80bec1543789474e206457752ef750e9b4f93bc5db645158c22ddd1ab7165610a372150f"
 
 RPROVIDES:${PN} += "kmailtransport"
 
-RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKPim5GAPICore.so.5 \
-libKPim5MailTransport.so.5 \
-libKPim5SMTP.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKPim6GAPICore.so.6 \
+libKPim6MailTransport.so.6 \
+libKPim6SMTP.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
+libqt6keychain.so.1 \
 libstdc++.so.6"
 
 inherit rpm

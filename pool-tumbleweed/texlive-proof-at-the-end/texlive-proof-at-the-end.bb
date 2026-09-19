@@ -5,10 +5,10 @@ places/sections, create links from theorems to proofs, restate \
 theorems, add comments in appendix..."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64188"
+PV = "2026.226.svn77355"
 
-RPM_NAME = "texlive-proof-at-the-end-2023.209.svn64188-53.1.noarch.rpm"
-RPM_HASH = "cf752ea43154c1664f8cf698e0cc028f90ca9fe16e5a1220a6cfe0da7bd9b18c3eec90cded57f0b259dde169572f622bd741678a2edd3172e71fd1f2849de6ad"
+RPM_NAME = "texlive-proof-at-the-end-2026.226.svn77355-59.2.noarch.rpm"
+RPM_HASH = "4b1ee8b500a63f9928129c4f1838d4b12b857f62a44a1317b10f2cf55724b5894c893fc2eaf5382dc15411e94d04264943879b0ebca88863a22fa617ad658631"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-proof-at-the-end.sty \

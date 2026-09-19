@@ -8,16 +8,16 @@ nothing after it. This environment should work with arbitrary \
 amounts of comment, and the comment can be arbitrary text. \
 Other 'comment' environments are defined and \
 selected/deselected with \\includecomment{versiona} and \
-\\excludecoment{versionb} These environments are used as \
+\\excludecomment{versionb} These environments are used as \
 \\versiona ... \\endversiona or \\begin{versiona} ... \
 \\end{versiona} with the opening and closing commands again on a \
 line of their own."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.8svn41927"
+PV = "2026.226.3.8svn77682"
 
-RPM_NAME = "texlive-comment-2023.209.3.8svn41927-54.1.noarch.rpm"
-RPM_HASH = "13f9752dbe907a964b7c16b1d884a4e2bc1798678f4a0016810a0e2a2a704406530c642e909d36d7aa4b73210cd973a59241da69eea167495b188f4abe55644d"
+RPM_NAME = "texlive-comment-2026.226.3.8svn77682-60.2.noarch.rpm"
+RPM_HASH = "8ff4123ac749ea82eba906cd5ae9b433167d5e7a23f64db999c6423ac4d4a6642c683f953670669e87b4d850f9bdd9974e525bff3e374c785969c30246be50ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-comment.sty \

@@ -7,13 +7,13 @@ LICENSE = "GPL-3.0"
 
 PV = "1.2.1"
 
-RPM_NAME = "asteroid-1.2.1-3.24.aarch64.rpm"
-RPM_HASH = "68e782e99ec1d8507fb84efdf143793b35c3388aa81443db9909563c85582bf6a1ec9d41491a28dab1ee904c435b391a90aa4217a98ed5fd21e11a52685416e0"
+RPM_NAME = "asteroid-1.2.1-5.4.aarch64.rpm"
+RPM_HASH = "c2f55da90683c13a95d5579b41c49610f9077999c9b626449d30acfc30090bbc7184f0b93895d5e086adb7954075495b9d426f6ff64af2dd551d5e516f43782c"
 
 RPROVIDES:${PN} += "asteroid"
 
-RDEPENDS:${PN} += "libGL.so.1 \
-libGLU.so.1 \
+RDEPENDS:${PN} += "libGLU.so.1 \
+libOpenGL.so.0 \
 libSDL-1.2.so.0 \
 libSDL-mixer-1.2.so.0 \
 libc.so.6 \

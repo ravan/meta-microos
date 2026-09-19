@@ -7,8 +7,8 @@ LICENSE = "BSL-1.0"
 
 PV = "0.5.1"
 
-RPM_NAME = "libfixposix-devel-0.5.1-1.1.aarch64.rpm"
-RPM_HASH = "37bf5a4edbef3be45ecd2d4c2d677babea8e809e36e9ed39f2f0af103bb93fa3b6bca1f03483adf565859404b229affcc4d87ae77f29ff60fd10fc7d9bf92460"
+RPM_NAME = "libfixposix-devel-0.5.1-1.11.aarch64.rpm"
+RPM_HASH = "3d36895420865ff623a47c336795367c70f1bc184c80f3a33339d2cc2962b25a2e2288acde9f660a872ffecfe8214ace2029dcef2ef09a114a6b3763e9dab298"
 
 RPROVIDES:${PN} += "libfixposix-devel \
 pkgconfig-libfixposix"

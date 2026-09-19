@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.0.3"
 
-RPM_NAME = "libXevie-devel-1.0.3-13.1.aarch64.rpm"
-RPM_HASH = "def908e35010d42cdc004709dcd248d8dbee44b7c2ad128afae66a1a2948290712a5c53a9e66378c2edbf71f5d2ffd319f14a9204c5ddeb6da999b4104a19cae"
+RPM_NAME = "libXevie-devel-1.0.3-13.11.aarch64.rpm"
+RPM_HASH = "052d5ae528952c159f37f3ba588886f9bdb30b034e09eac57f66016ded8b4872779459405ba9fb33a0008831864a31d0e4306df361104b83061868d0da357935"
 
 RPROVIDES:${PN} += "libXevie-devel \
 pkgconfig-xevie"

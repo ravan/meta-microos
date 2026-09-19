@@ -6,15 +6,15 @@ This provides development libraries and header files required to compile C++ \
 programs that use VTK-m to do 3D visualization."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.0"
+PV = "2.3.0"
 
-RPM_NAME = "vtk-m-devel-2.0.0-1.2.aarch64.rpm"
-RPM_HASH = "2b412fea33e02e0d0c6beee9439bdb1540795bdf85198c8868327478fc1a27c9acfa3abb86902bbe4776d1eac372eafb7da30537f94473ca5cb1f602fe0a46c8"
+RPM_NAME = "vtk-m-devel-2.3.0-2.4.aarch64.rpm"
+RPM_HASH = "02b980f886fee01e4172067aed763a984091d42f790f9b83a11215eddf3af87489c3e0630dd0ef467aeba428f64934ef9f1fa133287161786482042b75682351"
 
 RPROVIDES:${PN} += "cmake-VTKm \
 vtk-m-devel"
 
 RDEPENDS:${PN} += "cmake \
-libvtk-m-2-0"
+libvtk-m-2-3"
 
 inherit rpm

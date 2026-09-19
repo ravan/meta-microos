@@ -2,24 +2,25 @@ SUMMARY = "Haskell fast-logger profiling library"
 DESCRIPTION = "This package provides the Haskell fast-logger profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.2"
+PV = "3.2.6"
 
-RPM_NAME = "ghc-fast-logger-prof-3.1.2-1.12.aarch64.rpm"
-RPM_HASH = "a34c7eb23c3eb0508b349cad80f02beebc334d4e5a2306a767bb9c5a5de4e16910d52d6f9603b84374dbc0317aba22515a58b3c783133d0a09464846ba19c3f6"
+RPM_NAME = "ghc-fast-logger-prof-3.2.6-1.11.aarch64.rpm"
+RPM_HASH = "456e3295386ba624e49dd96d7ebc16e7d9e640e930b40e2418e27e0ada6aa42218914a5e77c82d26abd25ebf4f73ba9c71196a5c9b30cb0882ba83df9ad53b02"
 
 RPROVIDES:${PN} += "ghc-fast-logger-prof \
-ghc-prof-fast-logger-3.1.2-2QS5oj3W57wGcX3QgTrERi"
+ghc-prof-fast-logger-3.2.6-JkXOEB4fbDV8mDlAr0wMkH"
 
 RDEPENDS:${PN} += "ghc-fast-logger-devel \
-ghc-prof-array-0.5.4.0 \
-ghc-prof-auto-update-0.1.6-KWXusmyBOlPJNN5shLt5Bc \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-easy-file-0.2.5-IptebCGkAyyEfjLBFFjLI \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-text-2.0.2 \
-ghc-prof-unix-compat-0.6-IJaiJvo5DQ6Elf7LVlEGei \
-ghc-prof-unix-time-0.4.10-fuTENic3zHIuWAM5F0fYB"
+ghc-prof-array-0.5.8.0-2a42 \
+ghc-prof-auto-update-0.2.6-2tH9dVxiiOkBVROYgrOYPc \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-easy-file-0.2.5-HaH29sPzevuLIcTD4Zvwg0 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-stm-2.5.3.1-6d74 \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-unix-compat-0.7.4.1-4v781Gok1KY8Kg7jV1j1vn \
+ghc-prof-unix-time-0.4.17-BauOeKKKj6kENMTfxOVI2q"
 
 inherit rpm

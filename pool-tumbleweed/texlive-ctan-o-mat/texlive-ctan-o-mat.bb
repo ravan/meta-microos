@@ -14,10 +14,10 @@ validation retrieves the known attributes and the basic \
 constraints from the server."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.1.2svn51578"
+PV = "2026.226.1.2svn51578"
 
-RPM_NAME = "texlive-ctan-o-mat-2023.209.1.2svn51578-55.1.noarch.rpm"
-RPM_HASH = "8b5ad43003a59dce153be850165399b75b0227a1cf384b63d2d4985ab4a5bfda30cdade2b86670fd2faf20bf334bf0b7a9793e067a14fc73cd37422933c30cc1"
+RPM_NAME = "texlive-ctan-o-mat-2026.226.1.2svn51578-61.2.noarch.rpm"
+RPM_HASH = "a4df74858e0d599484876fad563ee48c14cbb2284a089c5d9717230fd99b153212c91980d642a7e43ba20140a90640f16ba4a76dd722930aa43c9c6413b03574"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctan-o-mat"

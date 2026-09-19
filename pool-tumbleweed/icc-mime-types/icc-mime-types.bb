@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "1.2"
 
-RPM_NAME = "icc-mime-types-1.2-16.21.noarch.rpm"
-RPM_HASH = "0c131a6dbc82a4ab00244ba1a224191b8d37094f455a9094581074d90b629d16db911a5f8cd055682ec6631daad4093a3b95e530dc2f6ae0522308e1ec296a3f"
+RPM_NAME = "icc-mime-types-1.2-16.29.noarch.rpm"
+RPM_HASH = "a2b9eb6561db32aef81fabd143cce6a7d5743039ebbbefa781f5ee7a51c3c42f463f3325bffb77be7de17d67b15013bc90b99cf0d50892071787a61ee73ed35f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-mime-types"

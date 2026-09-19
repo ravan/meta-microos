@@ -6,10 +6,10 @@ This package contains the development headers for the library found \
 in libXrender1."
 LICENSE = "MIT"
 
-PV = "0.9.11"
+PV = "0.9.12"
 
-RPM_NAME = "libXrender-devel-0.9.11-1.2.aarch64.rpm"
-RPM_HASH = "def553afbee82a9f9c971992028ed9eec0cf740d1dc4f2b5e2a25627580a305d0c21cc4b7fe87ff331078032aa11d187a4fddb5e9a84f16f5d370661d3d9a764"
+RPM_NAME = "libXrender-devel-0.9.12-1.7.aarch64.rpm"
+RPM_HASH = "ca84c3333d83de4e61a81983768219bd0b27dbf04dfe72b49d69734b2b986a07b5487fd6466f0c80f886f88597129044550ae67868371a9c453fd29d0a3b67a6"
 
 RPROVIDES:${PN} += "libXrender-devel \
 pkgconfig-xrender \

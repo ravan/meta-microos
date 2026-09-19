@@ -6,10 +6,10 @@ applications that operate consistently across diverse platforms. \
 The media module have been removed due to missing dependencies."
 LICENSE = "BSD-3-Clause & GPL-2.0-only-with-Classpath-exception-2.0"
 
-PV = "17.0.7.0"
+PV = "17.0.20.0"
 
-RPM_NAME = "openjfx-17.0.7.0-1.2.aarch64.rpm"
-RPM_HASH = "bb7ae3ebe7dd3ca085f70d3841d9c4ff0441b8babb0b41ced67caaca54836126662db9fa7122dbbef3490ee006b6a31688e1d7ebbab522fe2660dbb2b8ee778e"
+RPM_NAME = "openjfx-17.0.20.0-2.1.aarch64.rpm"
+RPM_HASH = "2228fd4c637df2b5eaf1717c3f4356b38731cecb061984f590b0def57a9b9eaa48a26952dd988754d476b36918fa7b0a18a951b0b3597a5527ebac740faf4763"
 
 RPROVIDES:${PN} += "libdecora-sse.so \
 libglass.so \

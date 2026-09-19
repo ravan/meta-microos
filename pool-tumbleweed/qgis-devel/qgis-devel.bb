@@ -1,15 +1,15 @@
 SUMMARY = "Development Libraries for QGIS"
 DESCRIPTION = "Development packages for QGIS, including the C header files."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "3.32.0"
+PV = "4.2.1"
 
-RPM_NAME = "qgis-devel-3.32.0-1.1.aarch64.rpm"
-RPM_HASH = "49da915e00121e19d012ec31defcc4ecb30815579c33154602245d642b860b27d7039da776ecfd4030ffb5e2a4cc4dc1cfb4e44a0a6663335b8c9ae999c4c9f0"
+RPM_NAME = "qgis-devel-4.2.1-1.2.aarch64.rpm"
+RPM_HASH = "20309a98abdd205e201d0d7cba4122aa0c4166dd5cd27703d61a13211a8bb970915064a371cfe6e7cc0d8fc0af113fe2cd341884f1d1616d74e3024ea3e9f0c2"
 
 RPROVIDES:${PN} += "qgis-devel"
 
-RDEPENDS:${PN} += "python3-qt5-devel \
+RDEPENDS:${PN} += "python3-PyQt6-devel \
 qgis"
 
 inherit rpm

@@ -5,10 +5,10 @@ RDF. Most notably, XMP supports embedding metadata in PDF and many \
 image formats."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.6.3"
+PV = "2.6.6"
 
-RPM_NAME = "libexempi8-2.6.3-1.4.aarch64.rpm"
-RPM_HASH = "0a0161b1117b2b872e7f7068d9b78faa3fc0a38c1b58fbdf1e27982eecf6a449da501e70c3bf58303e1af80aae8c733d493e93cc1d53d19c4066ec8f4ddd036d"
+RPM_NAME = "libexempi8-2.6.6-1.5.aarch64.rpm"
+RPM_HASH = "e401041836c2e01a0faf043f72720571cdcf0b9ec94dbe9cdff4a9fc025a17197993187a944f9f56c61d5d6c8b7ef308992e1353c36a436aa477884cd1f51cfb"
 
 RPROVIDES:${PN} += "libexempi.so.8 \
 libexempi8"

@@ -8,10 +8,10 @@ and so on) while being, at the same time, seamlessly integrated \
 within the rest of the mathematics produced by (AmS-)LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.11svn52602"
+PV = "2026.226.0.0.11svn77682"
 
-RPM_NAME = "texlive-halloweenmath-2023.209.0.0.11svn52602-54.2.noarch.rpm"
-RPM_HASH = "ade8c62a8491f4f4a3c26ea766d060c7827e9c2446505ebc674976fc92fa5a555835d2da6634bbde820ffe7181821fb471327c52168d6735c126de82f7a7d77d"
+RPM_NAME = "texlive-halloweenmath-2026.226.0.0.11svn77682-60.4.noarch.rpm"
+RPM_HASH = "691f6489dc8b71e5df05c83ebad66b91846cb7a8ef288ff8c23718ec129101aca7c03d36a627b045a6937de372620665e2897a918aa9e667bdfedccd7b7d3bf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-halloweenmath.sty \

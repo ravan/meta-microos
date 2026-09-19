@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the HTML documentation and example programs
 xml module."
 LICENSE = "MIT"
 
-PV = "1.8.1"
+PV = "2.0.0"
 
-RPM_NAME = "qore-xml-module-doc-1.8.1-1.1.noarch.rpm"
-RPM_HASH = "5784f055cb723e655535904ab85328ec9a7e34705c36e368c53f414e36b9e5d293368f892174bc48211c0bceb775ef9569f52f879d8abe47470507a90d48554c"
+RPM_NAME = "qore-xml-module-doc-2.0.0-1.8.noarch.rpm"
+RPM_HASH = "55393cb0cd4143d6d7076e6f0619c0ae85ddb50981617f33b0a29209e5668d7911802121bdef431440b0e8185b68b4c36bf3b79e51cfae25f21f2c49baeb4e4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-xml-module-doc"

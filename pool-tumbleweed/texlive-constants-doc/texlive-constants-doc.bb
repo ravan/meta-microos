@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-constants"
 DESCRIPTION = "This package includes the documentation for texlive-constants"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-constants-doc-2023.209.1.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "765b6b8403c5fb3778220af62c172dbfefde2ecd72c7fc6abb40f07cf309f3226f08025436c0429d439dee10cc40199fea70a0e067f745abe910d9060dba5214"
+RPM_NAME = "texlive-constants-doc-2026.226.1.0svn15878-61.2.noarch.rpm"
+RPM_HASH = "a39f5fc355085f034c4dbf46704b113fc9ac4ec08aa9e15b1de7af411da4dafbe557d7d7f9eb71aa135195ef8e5d2d738edd85ba8199222dc7d953c57866a58d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-constants-doc"

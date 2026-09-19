@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.0"
 
-RPM_NAME = "atftp-0.8.0-1.3.aarch64.rpm"
-RPM_HASH = "272a15267c1007b17397376fcc88fcc17945feda26b26822d49d819a9b8e5206710e96ca5fd04b3bff142c2938a78e015273001ac0f1bc0b961cdc42aeb29e35"
+RPM_NAME = "atftp-0.8.0-3.6.aarch64.rpm"
+RPM_HASH = "dd1ccd9adc382cc220d93150ffbe3f90e0f093fec15e69daae844cf190dc99f344db93241aa15edd53742cb3d7e33aae48cc88ffe516d5a425bc7aeba9905e0d"
 
 RPROVIDES:${PN} += "atftp \
 tftp-client \
@@ -24,6 +24,7 @@ fillup \
 group-tftp \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libpcre2-8.so.0 \
 libreadline.so.8 \
 user-tftp"
 

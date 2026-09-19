@@ -2,15 +2,16 @@ SUMMARY = "MySQL support for freeradius"
 DESCRIPTION = "FreeRADIUS plugin providing MySQL support."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.2.3"
+PV = "3.2.8"
 
-RPM_NAME = "freeradius-server-mysql-3.2.3-1.1.aarch64.rpm"
-RPM_HASH = "37c90854cc8761214f59d268c4526b5bc7cf05209e47adfe4e8db62a429e40ce01789115bd1722b8f9f59c2748f6b040e2542fe16d1877dc5cfbbb5ac8985266"
+RPM_NAME = "freeradius-server-mysql-3.2.8-1.8.aarch64.rpm"
+RPM_HASH = "d90a4cce5bd32f96d7d2b542b6bf435110520f826bfae3fb95ede39f7f02be710ecdb777f6210365aed9da85e7f4c880c409ede3b267c8a767db674a4ee3b877"
 
 RPROVIDES:${PN} += "config-freeradius-server-mysql \
 freeradius-server-mysql"
 
 RDEPENDS:${PN} += "freeradius-server \
+group-radiusd \
 libc.so.6 \
 libmariadb.so.3"
 

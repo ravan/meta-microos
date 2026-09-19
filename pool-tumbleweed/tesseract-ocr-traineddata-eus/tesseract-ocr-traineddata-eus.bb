@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Basque lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-eus-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "2e9a93e3381ec5616f24b44acc7698202d90eea4767c6e8d75ea1972d82737c3386ec03b094d617c1d8d692b786e0b22b69372c5e02c97736a186d8a82ac5e4f"
+RPM_NAME = "tesseract-ocr-traineddata-eus-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "62193ff7e71879d183c38fb69ffd474d5078cd25af5574e82354027695e9285a5191f18e17eb892ce70268e6ad794e7208de30369014633842fe4a613b068fb9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-basque \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-eu \
+tesseract-ocr-traineddata-basque \
 tesseract-ocr-traineddata-eus \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-basque"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

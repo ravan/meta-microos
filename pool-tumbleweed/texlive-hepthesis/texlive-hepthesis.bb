@@ -12,10 +12,10 @@ of the thesis and each chapter. The class is based on scrbook, \
 from the KOMA-Script bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.2svn46054"
+PV = "2026.226.1.5.2svn46054"
 
-RPM_NAME = "texlive-hepthesis-2023.209.1.5.2svn46054-54.2.noarch.rpm"
-RPM_HASH = "59d88b675a0960fb88649814cb18e51993876bac275d5ce54870ef64363b9d10202bb388c9d3f86e22053582be18b578019c74f3687c3af30a7410a54483569e"
+RPM_NAME = "texlive-hepthesis-2026.226.1.5.2svn46054-60.4.noarch.rpm"
+RPM_HASH = "b001bfdbeb1112c90c8fad195fe84ec8f2fc445cf3c28168f4f95bf3ecedcece8e8167203a6748fe32b4766f5bd442a854c729d4d864bda914359e120bffa01f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hepthesis.cls \

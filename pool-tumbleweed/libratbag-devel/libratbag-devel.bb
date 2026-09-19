@@ -7,10 +7,10 @@ This subpackage contains the files needed to build programs with \
 libratbag."
 LICENSE = "MIT"
 
-PV = "0.17"
+PV = "0.18"
 
-RPM_NAME = "libratbag-devel-0.17-2.2.aarch64.rpm"
-RPM_HASH = "06ff15ac710872dd3cc4b254e2357bb03be11774cc81099b182ea32bdd8b6c42faafc712df61a85501c164b3098058dae74045f4e47e68b47dc9f560cec1f4a8"
+RPM_NAME = "libratbag-devel-0.18-2.5.aarch64.rpm"
+RPM_HASH = "bbe198ca5ff488fb89153b1d25f0210f98937babe015f2cffe475ac9cdf51e8c8075f7fea9507688b947df8dfd7c29b7e296dd1e0cd4b4baffa97a7af1a576a8"
 
 RPROVIDES:${PN} += "libratbag-devel \
 pkgconfig-liblur"

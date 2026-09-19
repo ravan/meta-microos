@@ -5,15 +5,16 @@ that are generally useful to multiple COIN-OR projects. \
 This package contains the development headers for coin-or-CoinUtils."
 LICENSE = "EPL-2.0"
 
-PV = "2.11.9"
+PV = "2.11.12"
 
-RPM_NAME = "coin-or-CoinUtils-devel-2.11.9-1.1.aarch64.rpm"
-RPM_HASH = "15bcb3afce0034d418b9dabcc5bdc958569d224fa88d97ed80ef40a2824bdc80b3c44bc054b63d19f7caf7a3ae755df9113d780f0de16495d95393d61423ddc4"
+RPM_NAME = "coin-or-CoinUtils-devel-2.11.12-1.7.aarch64.rpm"
+RPM_HASH = "efd00ba85fdc3d212759b47d860e6bbb4c0ce418ce11fee15ed61e0ab8958a7d4bcbc1996644ec766df8c60bfb2be61c3a7accb55bcc39943b47c9b9e2387168"
 
 RPROVIDES:${PN} += "coin-or-CoinUtils-devel \
 pkgconfig-coinutils"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libCoinUtils3"
+libCoinUtils3 \
+pkgconfig-zlib"
 
 inherit rpm

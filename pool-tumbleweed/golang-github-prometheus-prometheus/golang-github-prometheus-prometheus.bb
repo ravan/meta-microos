@@ -9,10 +9,10 @@ DESCRIPTION = "Prometheus's main features are: \
  - multiple modes of graphing and dashboarding support"
 LICENSE = "Apache-2.0"
 
-PV = "2.46.0"
+PV = "3.14.0"
 
-RPM_NAME = "golang-github-prometheus-prometheus-2.46.0-2.1.aarch64.rpm"
-RPM_HASH = "586f34af6f3168ca55e0c02506cea9e890a98997779b154bc562d2e460b7edae98e24482e57f80d36b9d0225062121801e9a56f5559ade28ff959f1f6490ebc2"
+RPM_NAME = "golang-github-prometheus-prometheus-3.14.0-1.1.aarch64.rpm"
+RPM_HASH = "871aec47c428bae58fef4675b197d05c8b354d9ef140f28c78d6c381317486c787ba27b3d0dcb6711935eecbe1ac78300c37ffa9171954f315b51700ecf7a98e"
 
 RPROVIDES:${PN} += "config-golang-github-prometheus-prometheus \
 golang-github-prometheus-prometheus \

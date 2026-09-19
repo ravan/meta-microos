@@ -8,10 +8,10 @@ On first boot, Ignition reads its configuration from a source of truth \
 applies the configuration."
 LICENSE = "Apache-2.0"
 
-PV = "2.16.2"
+PV = "2.26.0"
 
-RPM_NAME = "ignition-2.16.2-3.1.aarch64.rpm"
-RPM_HASH = "6c54a4f8020ddf9a284c98f81ee4b155b0f7659cbcf7db08c51f3bb7e3794ec514bb1f8762ca8f99fd26a4eff4c0b716a4434bbf11ee13cf448256493944c8a8"
+RPM_NAME = "ignition-2.26.0-5.2.aarch64.rpm"
+RPM_HASH = "ae6ace1997898e21d7573699b31fc7157431c92a06565ab1e10f933c6ff6cb7001deac2fea063bc4605694b18bb0709c5cc1549726c271fc88ddcfc06ef5194f"
 
 RPROVIDES:${PN} += "ignition \
 ignition-dracut"

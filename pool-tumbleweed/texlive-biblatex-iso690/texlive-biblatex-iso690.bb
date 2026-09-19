@@ -5,10 +5,10 @@ ISO 690:2010. The implementation follows BibLaTeX conventions \
 and requires BibLaTeX [?] 3.4 and biber [?] 2.5."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4.1svn62866"
+PV = "2026.226.0.0.4.1svn62866"
 
-RPM_NAME = "texlive-biblatex-iso690-2023.209.0.0.4.1svn62866-54.1.noarch.rpm"
-RPM_HASH = "b3dd2e673f567dd4a8abceb8bcf8052293d588980becdb43620912117c8d0ab5986282b00a3ebe69ad85b16aa2c6524ae95d9d6fc05481bfdb3cf024303d791a"
+RPM_NAME = "texlive-biblatex-iso690-2026.226.0.0.4.1svn62866-61.2.noarch.rpm"
+RPM_HASH = "c8dc70839b7e363d9848f7b5f7de49db845175bb360e0fbacf5aead1f80d8fcab0d84c72ffa7da74309555648ed2237b70c3cae9ed8e1eecb9d58c91c445eba4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bulgarian-iso.lbx \

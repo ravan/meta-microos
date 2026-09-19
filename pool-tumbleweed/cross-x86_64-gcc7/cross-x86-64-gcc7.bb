@@ -7,11 +7,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-x86_64-gcc7-7.5.0+r278197-14.2.aarch64.rpm"
-RPM_HASH = "98b4bd46dab8f0f8d7d4aef15d2302f5fb76ca5a35bea7e278f5a76519208904679d0945d6f850ebbefa00c8a1237917724c91fffb3d83600a1848603ab28927"
+RPM_NAME = "cross-x86_64-gcc7-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "92f838b750a36c45b7e333048a5b9fc6ae5fcd381e8e23ed52c6a5c62e9abc7a2491bb38bb3b04d2ff15951730ed307a0f19bd0b1f8889852d0cd7ec33256884"
 
 RPROVIDES:${PN} += "cross-x86-64-gcc7 \
-liblto-plugin.so.0"
+liblto-plugin.so.0 \
+x86-64-suse-linux-gcc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 cross-x86-64-binutils \

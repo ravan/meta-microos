@@ -2,10 +2,10 @@ SUMMARY = "Udev rules for HackRF"
 DESCRIPTION = "Udev rules for HackRF."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.01.1"
+PV = "2026.01.3"
 
-RPM_NAME = "hackrf-udev-2023.01.1-1.3.aarch64.rpm"
-RPM_HASH = "eb50bf9d31c6006c7893e26f49c9ff50d61d0e8d80e61a99c4b9eba7250d8bb02071e370823cf8390304f67c4dc1034e4ce18ea711b3feb16dc9ebea4ea6ae97"
+RPM_NAME = "hackrf-udev-2026.01.3-1.4.aarch64.rpm"
+RPM_HASH = "4f3ea8b1fae6e00aaa288f2a1b7c41dc06137abb4cc2fd340a74296e84436eef4cad65d4abe8b019019a21a996da13c5efdbe1f716f0c6c752b67c5a74a06501"
 
 RPROVIDES:${PN} += "hackrf-udev"
 

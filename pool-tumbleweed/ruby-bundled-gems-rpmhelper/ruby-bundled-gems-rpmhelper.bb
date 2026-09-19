@@ -2,10 +2,10 @@ SUMMARY = "A little helper to add provides for intree gems during a ruby build"
 DESCRIPTION = "Just a little helper to add provides for intree gems during a ruby build"
 LICENSE = "MIT"
 
-PV = "0.0.2"
+PV = "0.0.6"
 
-RPM_NAME = "ruby-bundled-gems-rpmhelper-0.0.2-1.10.noarch.rpm"
-RPM_HASH = "3c4483e5e8d4d516140273774d5eb64ac1505948976e4a0608bf13b454e67b2efd30b6cd021030b46c60bfeffe275787e99c42de669598d5a8d8dc67ac4ec290"
+RPM_NAME = "ruby-bundled-gems-rpmhelper-0.0.6-1.6.noarch.rpm"
+RPM_HASH = "4dc3984d422273dfc03d40bfb2c2aaf2ff9b56753a2121de7f273f24665eba520b064e7c52d22ac20834f7a61c0b399a70033be0b02bc51ff82626eddcb6a593"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-bundled-gems-rpmhelper"

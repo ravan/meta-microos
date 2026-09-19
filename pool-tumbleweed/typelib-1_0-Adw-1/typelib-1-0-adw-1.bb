@@ -3,10 +3,10 @@ DESCRIPTION = "Building blocks for modern GNOME applications. \
 This package provides the GObject Introspection bindings for libadwaita."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.5"
+PV = "1.9.3"
 
-RPM_NAME = "typelib-1_0-Adw-1-1.3.5-1.1.aarch64.rpm"
-RPM_HASH = "f87ab08982ba3b9f17f12ce42446ac5dfe9cfd5b51044a7ec830fcd9330a1306f30aa44faea343bf931f0b795eef9b0c09deeaeb655a8e5750e19fc535a746f6"
+RPM_NAME = "typelib-1_0-Adw-1-1.9.3-1.1.aarch64.rpm"
+RPM_HASH = "a4c5771125f2348f08c9754bb081629aae670ee85a2a5b126edfd29ac11cee55af838e7ae227e63810c23c17b7edcda6e0e418236f1a01c44356df8806b40595"
 
 RPROVIDES:${PN} += "typelib-1-0-Adw-1 \
 typelib-Adw"

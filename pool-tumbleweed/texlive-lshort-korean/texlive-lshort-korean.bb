@@ -3,10 +3,10 @@ DESCRIPTION = "A translation of Oetiker's original (not so) short \
 introduction."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.209.svn58468"
+PV = "2026.226.svn73814"
 
-RPM_NAME = "texlive-lshort-korean-2023.209.svn58468-55.1.noarch.rpm"
-RPM_HASH = "d2ba009881c06c0104a36251ef74bbc475045390a82cccc9c7d553b545f51687bb9194b705da42e5335cad34578a2297b7ce8e570a361773f5a4a0750272aa14"
+RPM_NAME = "texlive-lshort-korean-2026.226.svn73814-61.2.noarch.rpm"
+RPM_HASH = "41dc3613c880356eccd63a028bf7ac7d6fb2d4ad7f8cb3534f3b5f28a525ce0e0dc8a557b15f5dbe0db72dd3ab986953e7c5204803390f3d55cd9401bc962550"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-korean"

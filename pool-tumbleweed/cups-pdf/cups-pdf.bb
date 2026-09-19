@@ -7,10 +7,10 @@ For details see /usr/share/doc/packages/cups-pdf/README \
 and http://en.opensuse.org/SDB:Printing_to_PDF"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.1"
+PV = "3.0.2"
 
-RPM_NAME = "cups-pdf-3.0.1-2.7.aarch64.rpm"
-RPM_HASH = "27311558a0288599d310e0fcb0c36a5b31af0e134c6b93c73176849678c0f6daca7c26e6c99e2fca1b784c4ba9e4189e916f510a55f66020fce7842dc1b1da42"
+RPM_NAME = "cups-pdf-3.0.2-1.5.aarch64.rpm"
+RPM_HASH = "d1cf71c3f132d294c39934f9ea6f02d33bcd60adf3e4adb1f7e840644bfa45f7ab4b836e474b4ed187ca5e56692152d4912f8c5ddcede8fa480df96023643513"
 
 RPROVIDES:${PN} += "config-cups-pdf \
 cups-pdf \

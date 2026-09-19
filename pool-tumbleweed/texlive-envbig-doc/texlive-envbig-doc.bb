@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-envbig"
 DESCRIPTION = "This package includes the documentation for texlive-envbig"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-envbig-doc-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "666f24642ec32932603e16d30a6d4d5a41e9042e55a2426a57e9e23c4572461171ee9745bd763bff9c4e489212a3c0efa046f5e56a3f5a2261b99a96d242d1d3"
+RPM_NAME = "texlive-envbig-doc-2026.226.svn15878-61.4.noarch.rpm"
+RPM_HASH = "31b37eaa9cb68b9d0c17fbc052e87e342a99639f9fea35f1e771fa4dcb026b8b97aff6fd1fc7f43c5838bdbd4410d2b056a47e168d47ba711f2e8b36c59ca25c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-envbig-doc"

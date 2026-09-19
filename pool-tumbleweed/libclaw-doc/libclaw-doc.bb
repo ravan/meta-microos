@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains the documentation and examples for using
 libclaw."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.7.4"
+PV = "1.9.1"
 
-RPM_NAME = "libclaw-doc-1.7.4-4.11.noarch.rpm"
-RPM_HASH = "1bb66d628b8e4046acb7cabf73d6fa9a8d2ee3d2bfcfd9a30f0d2da2dca2566305194d706bc379aa7c2c679b8619548fe5b172149c8e8d53b7e182c5857b5dc5"
+RPM_NAME = "libclaw-doc-1.9.1-1.9.noarch.rpm"
+RPM_HASH = "15a4afee64e0867e17d2ab419e028b032b72ff648dcdc44489a0c77ab0593629e75f203698c0ff7cc56399056b287a63a82af2cfe84825412ebd21e6460faf29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libclaw-doc"

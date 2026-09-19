@@ -2,28 +2,30 @@ SUMMARY = "Screen Magnifier"
 DESCRIPTION = "Magnifies a part of the screen."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmag-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "e2fdf77dd0406bf80593c1b087f0f87fe09e77fc0d6ab123701d6f25e3e52a8f040ad0aa2494cc89c660b96bf3bfbff04a9e6ac4634ed7723fe03a91dfaddc29"
+RPM_NAME = "kmag-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "92951654db10814d98832713c92e1a2c9395b7919c59920ac1d2ec61153cd12d11034bd9de92a0b43995e530b408be15fdb6d6b796ed99354e66ed474adfb764"
 
 RPROVIDES:${PN} += "kmag \
 kmag5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
+libqaccessibilityclient-qt6.so.0 \
 libstdc++.so.6"
 
 inherit rpm

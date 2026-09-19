@@ -3,12 +3,13 @@ DESCRIPTION = "This package contains the static library files needed for develop
 applications with the Data Plane Development Kit."
 LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "22.11.1"
+PV = "25.11.3"
 
-RPM_NAME = "dpdk-devel-static-22.11.1-2.16.aarch64.rpm"
-RPM_HASH = "eae0120c9eb331c34ea2f037bf813543e980614cf084c444f7a26c018b7fbb7182dc3d0ba0a9c42846c9e2053dacd635bcb35516393d6ea17fe63ebae8ab02de"
+RPM_NAME = "dpdk-devel-static-25.11.3-1.1.aarch64.rpm"
+RPM_HASH = "6e130adbce407656943bf6de8762af1c39ddb1310a1dff99ba4277f6f8851e9ad6cde621fabb9e453fa9b9bbf3477031254a573bd9c4fb1af688a2a691bdf40b"
 
-RPROVIDES:${PN} += "dpdk-devel-static"
+RPROVIDES:${PN} += "dpdk-devel-static \
+dpdk-thunderx-devel-static"
 
 RDEPENDS:${PN} += "dpdk-devel"
 

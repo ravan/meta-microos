@@ -11,10 +11,10 @@ of its own. PDF files generated using Arabi may be searched, \
 and text may be copied from them and pasted elsewhere."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn44662"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-arabi-2023.209.1.1svn44662-55.1.noarch.rpm"
-RPM_HASH = "363ff23052a74e33f693792bee1fe93302c4f0306b1f54dc5863ca47952fa07c102392ff2a5a80e7a4a215faca015b5795721ac2713f7bba8f1fe98f25d37b2e"
+RPM_NAME = "texlive-arabi-2026.226.1.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "84bda6ac3c7fba6dafe900d646e18bc57e63271e1978e79356e2195344d60d54ad71fb2754eee20376de82da02c6e275bd60867e5a158aa195dff7c671d04b6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-8859-6.def \

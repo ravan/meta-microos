@@ -5,15 +5,15 @@ automatic rpm provides and requires and macros that gem2rpm uses. \
 Some helper tools for packaging rubygems and rails apps."
 LICENSE = "MIT"
 
-PV = "3.2.1"
+PV = "4.0.0"
 
-RPM_NAME = "ruby-packaging-helpers-3.2.1-2.1.noarch.rpm"
-RPM_HASH = "87c2deb564146bfd893723fbd95d0238cbfd36dbe1b58667d9b43d6a8e10d4e49e9c0ca94dc0b999a0d10b2f8ffbec6cc53973159fbd0611536c8990485ef287"
+RPM_NAME = "ruby-packaging-helpers-4.0.0-4.2.noarch.rpm"
+RPM_HASH = "3d49f1dbe11df671098c55fb10cc5328c0a7cd847a8c87958936f83be1e7574d1021e80fe1b5d5ef2867ab9d22d43585c363784a7cc2433a77d8ecca615574f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-packaging-helpers"
 
-RDEPENDS:${PN} += "/usr/bin/ruby \
+RDEPENDS:${PN} += "/usr/bin/ruby.ruby4.0 \
 ruby-common"
 
 inherit rpm

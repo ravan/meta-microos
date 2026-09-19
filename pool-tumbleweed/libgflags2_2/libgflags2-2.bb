@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.2"
 
-RPM_NAME = "libgflags2_2-2.2.2-3.2.aarch64.rpm"
-RPM_HASH = "2133ffcd9386c8e6696aa7070b2b8a018f7e4e7de43a1ac0ffcb46864cd22947ce70b35e7de75aa88038a230d1d9ab7a030ba8e41d7b78726d04f6f5a2e54f5d"
+RPM_NAME = "libgflags2_2-2.2.2-4.9.aarch64.rpm"
+RPM_HASH = "1d56a34ac3961a848c0b4b37e4c002c81e1841c701b03973eb68db8dba14a67bacaba490a05150f6640e38a1b299610d2a42c716e8db12ed2aab1d4199d27a74"
 
 RPROVIDES:${PN} += "libgflags-nothreads.so.2.2 \
 libgflags.so.2.2 \

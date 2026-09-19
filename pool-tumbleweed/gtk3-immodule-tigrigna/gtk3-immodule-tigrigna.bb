@@ -6,10 +6,10 @@ ranging from small one-off projects to complete application suites. \
 This package provides two input methods for Tigrigna."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.38"
+PV = "3.24.52+git59.b30343717d"
 
-RPM_NAME = "gtk3-immodule-tigrigna-3.24.38-2.1.aarch64.rpm"
-RPM_HASH = "5ea451becd86accaa297f805519c7a8fa13a70451f4945494f68d1c52248e9f0368728564d6587d1488a9c4c151f823a2c596ba623ea0c4643d0a4ffc787aa9a"
+RPM_NAME = "gtk3-immodule-tigrigna-3.24.52+git59.b30343717d-1.1.aarch64.rpm"
+RPM_HASH = "a34082a3779488e11028968609ec920b07d793ffd140690dfd1b4dff7cf4555e9799d583a84227fbccc81ff538af922c037c84886f65ccd63503be36981775eb"
 
 RPROVIDES:${PN} += "gtk3-immodule-tigrigna \
 gtk3-immodules-tigrigna \

@@ -9,10 +9,10 @@ It also provides PS 3.15 certificates and password based mechanism to \
 anonymize and de-identify DICOM datasets."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.21"
+PV = "3.2.5"
 
-RPM_NAME = "gdcm-3.0.21-1.9.aarch64.rpm"
-RPM_HASH = "cad33eaa16a071710ffa91ad1f14622e4a320d4af64dcd24f4b22e616822d7f88f5b340a152d6bce1373294b37c556d925e0bf1e01772d30b85f7de45857481e"
+RPM_NAME = "gdcm-3.2.5-2.3.aarch64.rpm"
+RPM_HASH = "d4828b84b4e26a8ccb78a792ec6f147d35b454db5c85283b56ce8361dec9895a01efecd50940c9640602458d74d873d97da24de2570bb707cc5aabdaac3f8529"
 
 RPROVIDES:${PN} += "gdcm"
 

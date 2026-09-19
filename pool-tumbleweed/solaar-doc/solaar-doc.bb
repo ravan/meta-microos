@@ -7,10 +7,10 @@ standard Linux system configuration) are supported. For a full list of \
 supported devices and their features, see docs/devices.md."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.9"
+PV = "1.1.20"
 
-RPM_NAME = "solaar-doc-1.1.9-1.2.noarch.rpm"
-RPM_HASH = "6ee91eceae18101635102dadf662e56aec7d12c07b7b965dd92dd2c90184fc6785c431445099d7da29504a7b15dec4067737910ed6ee8b2dea84ef6ffdd0233a"
+RPM_NAME = "solaar-doc-1.1.20-1.1.noarch.rpm"
+RPM_HASH = "ecd8671b28a38b384c7f2ae100008f4e2aee3976ef328b27aa273e7806b7c8ff77cf18c67b2206f35f59f2cf120fa395132e943814ffed5f9a57ab6d7da53b36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "solaar-doc"

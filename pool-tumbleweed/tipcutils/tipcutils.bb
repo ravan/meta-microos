@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.6"
 
-RPM_NAME = "tipcutils-3.0.6-1.2.aarch64.rpm"
-RPM_HASH = "fab3c4a2fa41f2f48a5451cea2f49384b92201a00aff5cf5f616ad2274170b7a1368fbf858fa6330c2aaca11cab962c842207e2299ceb680f4fd129f188d3a5a"
+RPM_NAME = "tipcutils-3.0.6-2.3.aarch64.rpm"
+RPM_HASH = "52904c9cdc0b1ddab7fe69ef98a53ee4f3397bc22312834a19fa82c48b6b6aca8dd3438a8d06e4448b1559788ba94ed24f2ea157a76a3a4a1ec61e7a335faf34"
 
 RPROVIDES:${PN} += "tipcutils"
 

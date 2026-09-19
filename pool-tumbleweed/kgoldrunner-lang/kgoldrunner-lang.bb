@@ -2,17 +2,17 @@ SUMMARY = "Translations for package kgoldrunner"
 DESCRIPTION = "Provides translations for the 'kgoldrunner' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kgoldrunner-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "14e4439fe63310a393a4402c128c962392d8e60aa43b594b5445feec44e8532f1a845762369b15a6d87f8c1f28d164e3e4ddb9844b979f497405dd50070083b3"
+RPM_NAME = "kgoldrunner-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "534a620102bc84460a81170b8c8a1dce7e82868804f57b927bad41a7aafff8707a53d8b2a727d2ae752e5f1817b70a3bf1bed484a78d76ef837152da44fa98cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kgoldrunner-lang \
 kgoldrunner-lang-all \
 locale-kgoldrunner-ar \
+locale-kgoldrunner-ast \
 locale-kgoldrunner-be \
-locale-kgoldrunner-bg \
 locale-kgoldrunner-bn \
 locale-kgoldrunner-br \
 locale-kgoldrunner-bs \
@@ -36,10 +36,12 @@ locale-kgoldrunner-gl \
 locale-kgoldrunner-hi \
 locale-kgoldrunner-hr \
 locale-kgoldrunner-hu \
+locale-kgoldrunner-ia \
 locale-kgoldrunner-id \
 locale-kgoldrunner-is \
 locale-kgoldrunner-it \
 locale-kgoldrunner-ja \
+locale-kgoldrunner-ka \
 locale-kgoldrunner-kk \
 locale-kgoldrunner-km \
 locale-kgoldrunner-ko \

@@ -6,10 +6,10 @@ developed the babelbib bundle, which (he asserts) supersedes \
 germbib."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-germbib-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "582beea3e3437a1fcf1ddabd784d54184f33f3b19ac9c3184321d640234f09d6badbe0d2d4a49ae0e1dddd1eec09de9e1a17206a37790fcd49794a0554d5dfc7"
+RPM_NAME = "texlive-germbib-2026.226.svn76790-60.2.noarch.rpm"
+RPM_HASH = "3120dc61d7aaf5c22f7c2bf451a61517d31435816273ae5f4c534271cbb827856ce225556cfe5c99172423906584d3db64bd9d9de1ae3487d42b53c3dc872cda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibgerm.sty \

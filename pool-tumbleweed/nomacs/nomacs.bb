@@ -6,31 +6,32 @@ computer or via LAN is possible. It allows to compare images and spot the \
 differences (e.g. schemes of architects to show the progress)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.16.224"
+PV = "3.23.3"
 
-RPM_NAME = "nomacs-3.16.224-2.23.aarch64.rpm"
-RPM_HASH = "7436a2d4d6d963da490ee40e10ff7c57ee7d20d12dbaab440047debd2dea3f80e545d0fb67c1f1647310cc7b0aa7e6828016bd80d3c9a2a4d916d9e23390c842"
+RPM_NAME = "nomacs-3.23.3-1.1.aarch64.rpm"
+RPM_HASH = "bd02be8306bd93a8774aab0f0d64023c16d8f776b06661d7a2dc7a1b4cbfff93a76cb4787ed1a50d9364147fbfb7344d4680eca3f54af4694ab0bee7ad53c68c"
 
 RPROVIDES:${PN} += "libnomacsCore.so.3 \
 nomacs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+kf6-kimageformats \
 ld-linux-aarch64.so.1 \
-libQt5Concurrent.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
+libQt6Concurrent.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libm.so.6 \
-libopencv-core.so.407 \
-libopencv-imgproc.so.407 \
-libquazip1-qt5.so.1.4.0 \
-libraw.so.23 \
+libopencv-core.so.413 \
+libopencv-imgproc.so.413 \
+libquazip1-qt6.so.1.7 \
+libraw.so.25 \
 libstdc++.so.6 \
 libtiff.so.6"
 

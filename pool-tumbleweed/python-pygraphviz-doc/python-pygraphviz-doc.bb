@@ -1,17 +1,17 @@
-SUMMARY = "Documentation for python-pygraphviz"
-DESCRIPTION = "This package provides documentation and help files for python-pygraphviz"
+SUMMARY = "Python interface to Graphviz"
+DESCRIPTION = "A Python wrapper for the Graphviz Agraph data structure. \
+PyGraphviz can be used to create and draw networks and graphs with Graphviz."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11"
+PV = "1.14"
 
-RPM_NAME = "python-pygraphviz-doc-1.11-1.1.aarch64.rpm"
-RPM_HASH = "b2286749cdf34dd51ae2c802a305f0573d779e499faa01319c5331968fe5a0f1154f77ffd7156995e0a11a79ccd9a21f8c2e997b8e3efbe8ff208a8b535fe274"
+RPM_NAME = "python-pygraphviz-doc-1.14-3.7.noarch.rpm"
+RPM_HASH = "c491905b9ac9e34c736e1bdd89485ef21714a9329b79e7b78f86ea657707b71ebe89832c368e5c620221c1a49df3d8656379bb40b01aa5ca2b157a1ac849ebba"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pygraphviz-doc \
-python310-pygraphviz-doc \
-python311-pygraphviz-doc \
-python39-pygraphviz-doc"
+python2-pygraphviz-doc"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "graphviz"
 
 inherit rpm

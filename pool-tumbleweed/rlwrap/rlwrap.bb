@@ -6,10 +6,10 @@ work as in bash and completion word lists can be specified on the \
 command line."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.46.1"
+PV = "0.48"
 
-RPM_NAME = "rlwrap-0.46.1-1.2.aarch64.rpm"
-RPM_HASH = "3ecd61f7c0282c4781ef6be59220cea7cbfccd5dc0081a534c963b4ffaee113de4061d8033eb5d23858e724e0964514693937741b1d778aa03f14822c342cade"
+RPM_NAME = "rlwrap-0.48-1.4.aarch64.rpm"
+RPM_HASH = "04dc622682db7292903b8ee6685428b4b6567d960527e37c38f9d13f3457d6afb270a753ddcc3a30eef2756f6c280c19ff28fea1bfd6f61546d9ed807439dce1"
 
 RPROVIDES:${PN} += "perl-RlwrapFilter \
 rlwrap"

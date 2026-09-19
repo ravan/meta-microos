@@ -7,10 +7,10 @@ file, and it offers a way to vary the answers in order to \
 create different groups (e. g. for tests) easily."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.11.0svn65293"
+PV = "2026.226.1.14.0svn76697"
 
-RPM_NAME = "texlive-srdp-mathematik-2023.209.1.11.0svn65293-58.1.noarch.rpm"
-RPM_HASH = "b6438532b8e7c660528595dffdf35bb94f60186e1dd3e26f999b00a27581c6335c7ae64c83f079b6ba9b65cedb6f759c5b7a2e35e9ccd1d1c19fe3a43a01c5bb"
+RPM_NAME = "texlive-srdp-mathematik-2026.226.1.14.0svn76697-64.2.noarch.rpm"
+RPM_HASH = "341414078d4b04fc61cc418776d34042f0b35144b0afbe6f12d86ce259989bb254a039039bb89c59c0647ce2fb28d48c0f415c15f504b9ad8bee2dfcdf6025e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-srdp-mathematik.sty \
@@ -39,6 +39,7 @@ tex-esvect.sty \
 tex-eurosym.sty \
 tex-float.sty \
 tex-forloop.sty \
+tex-fp.sty \
 tex-framed.sty \
 tex-graphicx.sty \
 tex-hhline.sty \
@@ -56,7 +57,6 @@ tex-pst-coil.sty \
 tex-pstricks-add.sty \
 tex-setspace.sty \
 tex-spreadtab.sty \
-tex-substitutefont.sty \
 tex-tabularx.sty \
 tex-trimspaces.sty \
 tex-varwidth.sty \

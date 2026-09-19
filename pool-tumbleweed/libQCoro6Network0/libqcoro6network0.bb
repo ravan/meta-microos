@@ -4,10 +4,10 @@ coroutines in connection with certain asynchronous Qt actions. This package \
 provides a library for network operations support."
 LICENSE = "MIT"
 
-PV = "0.9.0"
+PV = "0.13.0"
 
-RPM_NAME = "libQCoro6Network0-0.9.0-1.3.aarch64.rpm"
-RPM_HASH = "e6f0fb25ba01912696e1ebc9fa962abe863eea683e9675a4477d471160afeb4a8a0da42a0c30383959c064eab3bed32206abe61a69f9fd8941ce9661a536b468"
+RPM_NAME = "libQCoro6Network0-0.13.0-1.6.aarch64.rpm"
+RPM_HASH = "5d8fd8c2139b540d27db1e1191fae59dbedb585a55c87398ffdb1ad284a81e5d82b55a5d9c7b522b1a4c6ce87fc4deba02fc5381aa33cbc90c4df8d5bc954100"
 
 RPROVIDES:${PN} += "libQCoro6Network.so.0 \
 libQCoro6Network0"

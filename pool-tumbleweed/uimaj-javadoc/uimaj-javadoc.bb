@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for uimaj"
 DESCRIPTION = "This package contains javadoc for uimaj."
 LICENSE = "Apache-2.0"
 
-PV = "2.8.1"
+PV = "3.5.0"
 
-RPM_NAME = "uimaj-javadoc-2.8.1-3.11.noarch.rpm"
-RPM_HASH = "87188acc087fa7bc6a8ad82dfdd013b0cb770a14fef8c7fa2675e580724bb3b301046a8e97e0828737e482925c9f19e9196aa643dd3a0fb9346bb04c7f1a8df6"
+RPM_NAME = "uimaj-javadoc-3.5.0-6.1.noarch.rpm"
+RPM_HASH = "aee23240e61dfc2b80282913f959a2530c1d382feb7bc77733dd05df3c8f4f84cfc62579917c9db810e0c63c55f09b3e313d4310ac272e5b26c1c7d41b350dcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "uimaj-javadoc"

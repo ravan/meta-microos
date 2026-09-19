@@ -5,10 +5,10 @@ multiple numbers. The random generator will be initialized by \
 the system time. The package can only be used with LuaLaTeX!"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.01svn49419"
+PV = "2026.226.0.0.02svn78101"
 
-RPM_NAME = "texlive-luarandom-2023.208.0.0.01svn49419-53.1.noarch.rpm"
-RPM_HASH = "14057460bc7d56b6b17bfdc5d7d22dd3f67c681b434abdb387a43dbdd4df84a6359dfb2801c2eb3883f45afe44c39381f66cfe0eba5140f96aac0d426e02e471"
+RPM_NAME = "texlive-luarandom-2026.226.0.0.02svn78101-59.2.noarch.rpm"
+RPM_HASH = "8fc0dc156a1c0c6035905fe853ec553668dab4550138cc5b09377bc73ba24216e68a81ef8f06746635ab9a350caa3698bb62ebaa64199c7228249bd5de0ffe4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luarandom.sty \
@@ -20,7 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex-ifluatex.sty \
+tex-iftex.sty \
 tex-luacode.sty \
 texlive \
 texlive-filesystem \

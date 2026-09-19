@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a multi-protocol client for a number of SSL
 VPNs, including Cisco's 'AnyConnect' VPN."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.12"
+PV = "9.21"
 
-RPM_NAME = "libopenconnect5-9.12-1.1.aarch64.rpm"
-RPM_HASH = "3c8294f87d9d27298b64beaab61b5e2c10659a22fc5dbbbaec56db2f96b2db11c1a8dc9635cf99287be0fdc9c7eb94ef1a69df480a366f570847ea9e9c896a7f"
+RPM_NAME = "libopenconnect5-9.21-1.3.aarch64.rpm"
+RPM_HASH = "31864592368b4d8c1825898e76b84aca4fd6394f2cfd6003b6384b9716e630a1a5c0f842115324975d547cef5aefb2ed9db6ef3d0f828be6386759c313005241"
 
 RPROVIDES:${PN} += "libopenconnect.so.5 \
 libopenconnect5"
@@ -25,7 +25,7 @@ libpcsclite.so.1 \
 libproxy.so.1 \
 libpskc.so.0 \
 libstoken.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

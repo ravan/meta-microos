@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the yaml file requried to download and run 
 rbac-manager in a kubernetes cluster."
 LICENSE = "Apache-2.0"
 
-PV = "1.4.2"
+PV = "1.10.2"
 
-RPM_NAME = "rbac-manager-k8s-yaml-1.4.2-1.5.noarch.rpm"
-RPM_HASH = "94c4f22456b4d6b4d31c3af31dcc0a591d214ddff513c708f59d1429e3fceb2a3f96d6ed6e3361043756f801600885fed25c218a63536c930653a466a35d400b"
+RPM_NAME = "rbac-manager-k8s-yaml-1.10.2-1.1.noarch.rpm"
+RPM_HASH = "75f1dd845ed6b5f688ff49e44cedfc725a7e4b7656183798eb8cbc5f73218f361878bc4f62548126e64db06b7b07178d104b9fbc84ee47fb335a63c12c521383"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rbac-manager-k8s-yaml"

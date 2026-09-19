@@ -11,15 +11,16 @@ for log files that were rotated in the past. (You would only run this \
 once, if at all. The rest is done by logrotate / cron.)"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.96"
+PV = "4.98.2"
 
-RPM_NAME = "eximstats-html-4.96-5.3.aarch64.rpm"
-RPM_HASH = "22b1885046cb4709f712da253306e76793ea07b42765a86e6b734f02677be248909af2ade4e0236b0c012b192a76b70012c76a5f8323d4988b9531caa7b0ff64"
+RPM_NAME = "eximstats-html-4.98.2-4.7.aarch64.rpm"
+RPM_HASH = "50a2733f9254a9555e4c7777abd2260df588d025e46f76b07bb51cd2775bf709540e759a39f9436c049bf65837c5d312d68cb17f5d5e3e003fc1a6517e9dc4de"
 
 RPROVIDES:${PN} += "config-eximstats-html \
 eximstats-html"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+group-www \
 perl-GD \
 perl-GDGraph \
 perl-GDTextUtil"

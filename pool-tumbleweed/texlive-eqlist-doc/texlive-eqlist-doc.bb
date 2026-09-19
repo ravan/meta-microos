@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eqlist"
 DESCRIPTION = "This package includes the documentation for texlive-eqlist"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn32257"
+PV = "2026.226.2.1svn77682"
 
-RPM_NAME = "texlive-eqlist-doc-2023.209.2.1svn32257-54.2.noarch.rpm"
-RPM_HASH = "1d5b7465117d08322cdb2522e74cfffce7b8ab47dce2ce8c7c97a25d203529c636339e0e05ccd8f0797ef4f1617aee47df711b1f4d9165db717ebe1af4d18711"
+RPM_NAME = "texlive-eqlist-doc-2026.226.2.1svn77682-61.4.noarch.rpm"
+RPM_HASH = "374c498e6a6207f3d1049bad036ac7314fe5c9c7bf4bdd896e94e74dcba16a25791c15ac38e665e8460c6b2048d0809ca76d221ae215a72086efb66843b7cb16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eqlist-doc"

@@ -7,10 +7,10 @@ commands, hyphenation works etc. The package requires LuaTeX \
 version [?] 1.12.0."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.2.0svn63469"
+PV = "2026.226.0.0.2.1svn77682"
 
-RPM_NAME = "texlive-lua-ul-2023.208.0.0.2.0svn63469-53.1.noarch.rpm"
-RPM_HASH = "a339efd632ad7e895f58f545210920f0fb13e52da2dac62cb2c02c02ead110e57938a2623405b129059ee0ebc94dd8fddb8aee3d115c055fc49241b833b35478"
+RPM_NAME = "texlive-lua-ul-2026.226.0.0.2.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "b7a671b92d73f155caf08796405dea2c3c9b9d8ee7d0455ae4797147626a8a3fd81c258aa676508283cc92c62d610cc2c8ca553fcafc9047f606f169e4442762"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-docstrip-luacode.sty \

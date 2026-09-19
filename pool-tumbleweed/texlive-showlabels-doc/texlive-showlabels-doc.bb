@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-showlabels"
 DESCRIPTION = "This package includes the documentation for texlive-showlabels"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9.2svn63940"
+PV = "2026.226.1.9.3svn77682"
 
-RPM_NAME = "texlive-showlabels-doc-2023.209.1.9.2svn63940-54.1.noarch.rpm"
-RPM_HASH = "985b6410816a56954924f25758df99d7678d823e3da3891d3d2ff986c60bc94b8bc2016c7eb3bce82475ed6da942af6794b1a69fb52cc7a4dd8993860fe228a8"
+RPM_NAME = "texlive-showlabels-doc-2026.226.1.9.3svn77682-60.2.noarch.rpm"
+RPM_HASH = "b99276b8a2e51d7740334753baab0a063f097509d981d947642e56469cc30911075a2e0ccaa75616139a809b52d195a3b0f88e8b0c293e62b8d7d87fb46ad782"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-showlabels-doc"

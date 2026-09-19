@@ -27,16 +27,16 @@ that this code doesn't compile because there's a typo in your variable name \
 _$tempalte_. Test::Synopsis will catch that error before you ship it."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.17"
+PV = "0.180.0"
 
-RPM_NAME = "perl-Test-Synopsis-0.17-1.9.noarch.rpm"
-RPM_HASH = "b3e4eb7a7347eb10eeae7d32b0b1d6fe4991318baf69a55c6960f1e00ecb16602444f8cf377631beb554c0138f1634bf72ab2f9f9d7748d631c9cba08d8ae243"
+RPM_NAME = "perl-Test-Synopsis-0.180.0-1.1.noarch.rpm"
+RPM_HASH = "513c23ab6204ec051f38aa3f0e9cbe8e3674823048cefc6f504b7424e50badaed195b24d769f99a821d2182e192584282345bbfdcfdc5cce7c635b05768e1056"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Synopsis \
 perl-Test-Synopsis"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Pod--Simple \
 perl-parent"
 

@@ -6,10 +6,10 @@ This package contains the development library symlink and header \
 files."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.2.1"
+PV = "2.3.0"
 
-RPM_NAME = "libcue-devel-2.2.1-1.16.aarch64.rpm"
-RPM_HASH = "169cec3af86a49111b0a14dd94a684dedaa02bf1e7bc7e97b0964d483794cf01eb5b5d60de761e1d0bfe6c5e00a72db638043ba265a8118b17b46db21e1d0db7"
+RPM_NAME = "libcue-devel-2.3.0-1.11.aarch64.rpm"
+RPM_HASH = "82ea7d39815cd2bd1612ec4ee68384160b44b82701d0f6b6c10fd5b74669b6bfa1187424c2d854792ccb3c034df6e66292b56eb6812b85cc83b88454253ac489"
 
 RPROVIDES:${PN} += "libcue-devel \
 pkgconfig-libcue"

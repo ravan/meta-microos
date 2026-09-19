@@ -7,10 +7,10 @@ This package contains the files needed to build or develop applications \
 that use Voikko."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.2"
+PV = "4.3.3"
 
-RPM_NAME = "libvoikko-devel-4.3.2-2.1.aarch64.rpm"
-RPM_HASH = "8ed42b9a628885c4b24eefa29b7cc48a0bcb6f80038f9dc8e11d15d706681dfbad50dd0870b9c3d493158631e9e38f64ea2b3c2f6d823d32d839a0ce2885b1ce"
+RPM_NAME = "libvoikko-devel-4.3.3-1.5.aarch64.rpm"
+RPM_HASH = "41d337379353e543425a2094f6d928c6cb33cd690d6a54144fb3afaa7c22aa399d3de2743e0cbd86af521c3a0bff08b085a622118359c1b34456d19d04b0c72b"
 
 RPROVIDES:${PN} += "libvoikko-devel \
 pkgconfig-libvoikko"

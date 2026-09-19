@@ -3,10 +3,10 @@ DESCRIPTION = "xwud allows X users to display in a window an image saved in a \
 specially formatted dump file, such as produced by xwd."
 LICENSE = "MIT"
 
-PV = "1.0.6"
+PV = "1.0.8"
 
-RPM_NAME = "xwud-1.0.6-1.3.aarch64.rpm"
-RPM_HASH = "24d557e695ea23b215d40a2e56456216d9583d9ee7a40c178a862096c88cfbb740647474cf366da9664043a281271cb266d94499b5c08ca65aff46aea208c41b"
+RPM_NAME = "xwud-1.0.8-1.2.aarch64.rpm"
+RPM_HASH = "8c1f74ae538b59f81c570b54baa52ad011a78728311a1a1aecc31117265e9965da83ab8c0df7771d1103d94a5bbe6f6b7b8e5efab2012a9f3c6017df8c46b703"
 
 RPROVIDES:${PN} += "xwud"
 

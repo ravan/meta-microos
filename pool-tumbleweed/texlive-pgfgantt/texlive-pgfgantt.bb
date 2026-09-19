@@ -5,10 +5,10 @@ and links). Several keys customize the appearance of the chart \
 elements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.0svn52662"
+PV = "2026.226.5.0asvn71565"
 
-RPM_NAME = "texlive-pgfgantt-2023.209.5.0svn52662-52.1.noarch.rpm"
-RPM_HASH = "63eee893d8c49fd33e40ddeab2ef0fb38de7c1c2aec448b29ad139a5272ebf180289784b7afae64edf9acdf38c9100a8f6f686e093d5243546f2209b7d1ca420"
+RPM_NAME = "texlive-pgfgantt-2026.226.5.0asvn71565-58.2.noarch.rpm"
+RPM_HASH = "65431b4e1cc3233a6264ce9b275f0ecadc559782f916c8f8633318f235e9665579120431f1cfd22e8962e2dd1309c781123cf270179fb568b3e2e2c2dd5967f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgfgantt.sty \

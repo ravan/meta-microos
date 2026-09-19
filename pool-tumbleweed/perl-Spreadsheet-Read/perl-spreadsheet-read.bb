@@ -14,20 +14,16 @@ preferred) or Text::CSV_PP (1.05 or up required). \
 For SquirrelCalc there is a very simplistic built-in parser"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.87"
+PV = "0.950.0"
 
-RPM_NAME = "perl-Spreadsheet-Read-0.87-1.3.noarch.rpm"
-RPM_HASH = "3bc2610d48a27472710d1cc797bbc9bea3e48ffab26964dde042a5b3592e5f200e673f0503adfe4eb0063bf872d98712826c30b01a00928f04171480b57e8aeb"
+RPM_NAME = "perl-Spreadsheet-Read-0.950.0-1.5.noarch.rpm"
+RPM_HASH = "65feb69b16665e6852982bcda3bdc121f9fe0b88f1a3059bc48438b576085e8c2772f87811af79f013fafab3520cb31cd6a728bf1f598584e78bdf49a856ce27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Spreadsheet--Read \
-perl-Spreadsheet--Read--Attribute \
-perl-Spreadsheet--Read--Sheet \
-perl-Spreadsheet-Read \
-perl-Z10--Just--For--Testing \
-perl-Z20--Just--For--Testing"
+perl-Spreadsheet-Read"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Data--Peek \
 perl-File--Temp \
 perl-IO--Scalar \

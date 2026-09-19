@@ -6,10 +6,10 @@ maintains a similar user interface to the traditional ftp client.  It was \
 formerly called lukemftp."
 LICENSE = "BSD-3-Clause"
 
-PV = "20230507"
+PV = "20260211"
 
-RPM_NAME = "tnftp-20230507-1.1.aarch64.rpm"
-RPM_HASH = "7ce8bc016e1030a5099667a754ea7349f7fbb911c570359b7657ab5ab6a238df8be2bf1d7686322c5eb8bc028ebb3e1239a06db21912dc852c0d817ee2880dda"
+RPM_NAME = "tnftp-20260211-2.3.aarch64.rpm"
+RPM_HASH = "4ab61796cc3efa0b945b61373f7a77b16802db2a511e2834d634992a2d801523a113b3239e55b2af612280397750a73ba01c05331b8f108b9206ed322619f34d"
 
 RPROVIDES:${PN} += "lukemftp \
 nkitb-/usr/bin/ftp \

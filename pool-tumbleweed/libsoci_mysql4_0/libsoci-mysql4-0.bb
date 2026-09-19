@@ -8,8 +8,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "libsoci_mysql4_0-4.0.2-4.5.aarch64.rpm"
-RPM_HASH = "eaf2c2555ea4200f753c1c7555198694860be8f07bd7230927e6a6c9bf9114925a2e1d1efa1bf5e9bc6bb2a05148ac6a251ca09496cd6a6d2bffc1ac2e386501"
+RPM_NAME = "libsoci_mysql4_0-4.0.2-5.10.aarch64.rpm"
+RPM_HASH = "4669e6b409639e6b240ac413b2965200db92aba83983edbad7dffd05471da736f31b511019bb49dcb5adf194afa7fe9e31c66ab4dc76bbbfdd9852255cbb4770"
 
 RPROVIDES:${PN} += "libsoci-mysql.so.4.0 \
 libsoci-mysql4-0 \

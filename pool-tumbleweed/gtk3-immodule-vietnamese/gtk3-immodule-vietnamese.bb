@@ -6,10 +6,10 @@ ranging from small one-off projects to complete application suites. \
 This package provides an input method for Vietnamese."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.38"
+PV = "3.24.52+git59.b30343717d"
 
-RPM_NAME = "gtk3-immodule-vietnamese-3.24.38-2.1.aarch64.rpm"
-RPM_HASH = "7c2904038dddfbcf90d755fdeec0037274584e6773dc2b86c8002bb17c5edc281c41c507ad149ad4423a60bf361decd0b575f68392d06842a482f9338671ecca"
+RPM_NAME = "gtk3-immodule-vietnamese-3.24.52+git59.b30343717d-1.1.aarch64.rpm"
+RPM_HASH = "e882bdb209bc1dc1cd1944528a75fb78621b51d565e446094139f7e421c554c65fe00e081993da776edfafb20fb41d0e29c5171b7ed5af08db7b42dd78b2ea1d"
 
 RPROVIDES:${PN} += "gtk3-immodule-vietnamese \
 locale-gtk3-vi"

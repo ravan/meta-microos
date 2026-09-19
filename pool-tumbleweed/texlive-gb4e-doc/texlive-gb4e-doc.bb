@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gb4e"
 DESCRIPTION = "This package includes the documentation for texlive-gb4e"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn19216"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-gb4e-doc-2023.209.svn19216-53.1.noarch.rpm"
-RPM_HASH = "a6252a64c6cbf949a4e84d0b9bd3058f6a0b61170cd46712d9f25fb994800daeccebfdba9b1db763d966b4860036028c8b5a0453c86800d5f946a3a9f9b43ba4"
+RPM_NAME = "texlive-gb4e-doc-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "ac37cc5e460ef0d8d51080fe8c9b80d1fa1239a3739a945175a7b4faec1479e045235e493abbb858fddd51a361f7998d197eecb22363e3396c61935b54c592e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gb4e-doc"

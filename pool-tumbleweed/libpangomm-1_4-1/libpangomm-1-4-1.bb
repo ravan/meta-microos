@@ -2,10 +2,10 @@ SUMMARY = "C++ interface for pango"
 DESCRIPTION = "pangomm provides a C++ interface to the pango library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "2.46.3"
+PV = "2.46.5"
 
-RPM_NAME = "libpangomm-1_4-1-2.46.3-2.4.aarch64.rpm"
-RPM_HASH = "b1c588025a54a3cdce50e009a722947edc3a308759bb9451541f3818e9e72c347db6d99490127a1f5ccc55bc133d6bc5edbcb6cecb4ebabc674232e4ceee4b64"
+RPM_NAME = "libpangomm-1_4-1-2.46.5-1.3.aarch64.rpm"
+RPM_HASH = "ae230e3517ccb4cec6b9af464e7f1e63d0339ace77f6e7238a358b3f8901c8a706013c8f33718337caa79e3aa8515a085e4e664334e60807bec30f2b83c87cde"
 
 RPROVIDES:${PN} += "libpangomm-1-4-1 \
 libpangomm-1.4.so.1"

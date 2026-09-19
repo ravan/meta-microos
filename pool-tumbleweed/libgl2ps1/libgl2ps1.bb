@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later | SUSE-GL2PS-2.0"
 
 PV = "1.4.2"
 
-RPM_NAME = "libgl2ps1-1.4.2-1.13.aarch64.rpm"
-RPM_HASH = "1ac491f6e4d923de3c1ad8f14705f3ff7c4a9eb6300af520455379afc601dbc6494c28e7f80a1a5819d0dbef1a0a00d7d121a729aceebda4a369dd227ae25c73"
+RPM_NAME = "libgl2ps1-1.4.2-1.24.aarch64.rpm"
+RPM_HASH = "b638786fa36ea7d1cbc5b84929ff29034d84804cd6397497cd1cfd64703c422718d837a211e35b8067425a218506abaaec27e75fcb7ff738add09a1fcc32c1f1"
 
 RPROVIDES:${PN} += "libgl2ps.so.1 \
 libgl2ps1"

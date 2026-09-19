@@ -3,10 +3,10 @@ DESCRIPTION = "A daemon for audio calls. \
 This package contains the development and header files for callaudiod."
 LICENSE = "GPL-3.0-or-later & MIT"
 
-PV = "0.1.7"
+PV = "0.1.99"
 
-RPM_NAME = "callaudiod-devel-0.1.7-1.1.aarch64.rpm"
-RPM_HASH = "55b3afa147934193a8becb236bb5a848050ccb412e555ab8c27b362821491e2289ff16ac6e71df0955c54d25c0f6f1fe754d47332a2cd0915f77793f3ccf5614"
+RPM_NAME = "callaudiod-devel-0.1.99-2.1.aarch64.rpm"
+RPM_HASH = "101e424277031447b578455569c4d4c155db82fda6d4634c7010a2fc1e1f368e1fb6a46e0ba28958599df3f7f1029f12183c45b11117e40b3a0feee8db0886a2"
 
 RPROVIDES:${PN} += "callaudiod-devel \
 pkgconfig-libcallaudio-0.1"
@@ -14,8 +14,6 @@ pkgconfig-libcallaudio-0.1"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 callaudiod \
 libcallaudio0-1-0 \
-pkgconfig-gio-2.0 \
-pkgconfig-gio-unix-2.0 \
-pkgconfig-gobject-2.0"
+pkgconfig-gio-2.0"
 
 inherit rpm

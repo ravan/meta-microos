@@ -4,15 +4,16 @@ have released their copyright -- their version of the book went \
 out of print in the 1990s). The book describes itself as 'a \
 TeXnician's reference', and covers the way TeX (the engine) \
 works in as much detail as most ordinary TeX programmers will \
-ever need to know. A printed copy of the book may be had (for a \
-modest price) via lulu.com (see the package home page for \
-details)."
+ever need to know. A printed copy of the book, slightly \
+updated, may be had (for a modest price) from DANTE. The \
+original edition is available from Lulu. See the package home \
+page for details."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.227.svn68950"
 
-RPM_NAME = "texlive-texbytopic-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "48ba0a5a6b986b89b28ab59629b84c4b7b1863c37583ed8e9b31465c1d7a3670c42f5738928b49cd649f61e2120c6a4a21e2f217568bbda9f9242d340cd5bf1b"
+RPM_NAME = "texlive-texbytopic-2026.227.svn68950-62.2.noarch.rpm"
+RPM_HASH = "855e5c3f0e90814381511f613bd74a5482c4c4345b0eb5750d5ff1564b2661e458bdfcd2d7c054345d92e96b41944f736cd1557219b27eff0dfb66fa64b6907c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texbytopic"

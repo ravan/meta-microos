@@ -6,10 +6,10 @@ Each description consists of a set of strings and a Boolean expression which \
 determines its logic."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.3.2"
+PV = "4.5.5"
 
-RPM_NAME = "libyara-devel-4.3.2-1.1.aarch64.rpm"
-RPM_HASH = "3f40a54eba322116a74491cbbefcfb54ff79ccfe233f6aaa0ff8d7c97c04a5c79c0f1f0223104fe876c660f6e933c14d82a288d8cfc7b439ad2b845c05432a60"
+RPM_NAME = "libyara-devel-4.5.5-1.4.aarch64.rpm"
+RPM_HASH = "3ab4b66a6fb55707262f44814759db7ad1a87c207120730ba9ae8031b08b9b9347de6ff14f3a194d01f2b35fe4aee1b77e3e9ccca143a01d01a11809b07d223f"
 
 RPROVIDES:${PN} += "libyara-devel \
 pkgconfig-yara"

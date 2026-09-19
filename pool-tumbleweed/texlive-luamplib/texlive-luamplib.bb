@@ -5,10 +5,10 @@ xcolor packages) into a document, using LuaTeX's built-in \
 MetaPost library. The facility is only available in PDF mode."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.2.23.0svn61587"
+PV = "2026.226.2.39.0svn77696"
 
-RPM_NAME = "texlive-luamplib-2023.208.2.23.0svn61587-53.1.noarch.rpm"
-RPM_HASH = "c7e32b124694c614fa8314739ece42ead16ae14e8864935d22742a56332890b68a947f01a446b273e1626fb50aaa141313f7aadce50bdf2e9a5f12765c638145"
+RPM_NAME = "texlive-luamplib-2026.226.2.39.0svn77696-59.2.noarch.rpm"
+RPM_HASH = "4718311d4d0853c3f194e3641119558d53524dd73fa66a0f2cdab2409db481bf50638ece720834a48cb23de69bb79c17b62ea0b6f4cb90da4b9afb857333c7c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luamplib.sty \
@@ -20,6 +20,7 @@ ed \
 findutils \
 grep \
 sed \
+tex-atbegshi.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

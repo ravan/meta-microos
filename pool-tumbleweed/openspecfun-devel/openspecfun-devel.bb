@@ -9,13 +9,13 @@ one can also easily compute Voigt functions, Fresnel integrals, and similar \
 related functions as well."
 LICENSE = "MIT"
 
-PV = "0.5.5"
+PV = "0.5.6"
 
-RPM_NAME = "openspecfun-devel-0.5.5-1.4.aarch64.rpm"
-RPM_HASH = "0689c369ade4cc03c118e4fa5c9ac0ddbf74a14130811418774bd4052edc3ba3a149a6d19680c113bc1d5f7d0178769bfce6f966c2cff2a933fde0684e471bff"
+RPM_NAME = "openspecfun-devel-0.5.6-1.9.aarch64.rpm"
+RPM_HASH = "7282a23b9b35ee64e20692d859e6539ab4ed5324e3486a8d0f33e2d345000fd94184b6ede32ad429182116a22d82fbf8b3697cecb9f99ffd75e201ff42c893dc"
 
 RPROVIDES:${PN} += "openspecfun-devel"
 
-RDEPENDS:${PN} += "libopenspecfun1"
+RDEPENDS:${PN} += "libopenspecfun2"
 
 inherit rpm

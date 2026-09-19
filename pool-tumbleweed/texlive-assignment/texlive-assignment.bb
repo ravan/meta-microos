@@ -2,10 +2,10 @@ SUMMARY = "A class file for typesetting homework and lab assignments"
 DESCRIPTION = "A class file for typesetting homework and lab assignments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20431"
+PV = "2026.226.svn20431"
 
-RPM_NAME = "texlive-assignment-2023.209.svn20431-54.1.noarch.rpm"
-RPM_HASH = "305e03e6fce13f9e39e91c81514f0518be6f7c12e3585f8837e42ff07b21acfaf12d49e9b189fb7c19023e0d15505d0d884674e83052c61972297bba7b9cfd64"
+RPM_NAME = "texlive-assignment-2026.226.svn20431-60.2.noarch.rpm"
+RPM_HASH = "d7761fb8760cb4946cf119106e33729181cc58bc4bf329a37a24463125b5b78cc43e6efe5c8f805bcb205d2e1d86828d90fb8641fd50d762bd43778b90f903bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-assignment.cls \

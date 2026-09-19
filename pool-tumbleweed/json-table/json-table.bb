@@ -6,8 +6,8 @@ LICENSE = "EPL-1.0"
 
 PV = "4.3.3"
 
-RPM_NAME = "json-table-4.3.3-2.14.aarch64.rpm"
-RPM_HASH = "34f5813f34a26ccbaae918aaaab147acab2aacfce716fcefd6b8417b7edc74522a87ccc22bbf39de49ebf301241ff85bae23261e8ef84ef6daeed7c4ab9e4532"
+RPM_NAME = "json-table-4.3.3-3.9.aarch64.rpm"
+RPM_HASH = "f972b91db9a1ae04ed20b3af54108e38c09f57cc92f021c390045a07954d4f8af2ac485fcc07b9b546089f132388af017d7499f35639a16628b601d48de48c56"
 
 RPROVIDES:${PN} += "json-table"
 

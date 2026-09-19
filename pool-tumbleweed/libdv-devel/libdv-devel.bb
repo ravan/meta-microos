@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "libdv-devel-1.0.0-179.6.aarch64.rpm"
-RPM_HASH = "8380e08719e5aea5ed2456779089f37d9e236055ba485b361053c0b21e9267d727339c439770619da6787f606d4ca9ae796bdbf376ffb297ef58ce07d341dba7"
+RPM_NAME = "libdv-devel-1.0.0-181.3.aarch64.rpm"
+RPM_HASH = "b2c6cc4cae91998c47a5e19f966269f0100f8cd7c5814bc1a3e79b0c8f320431a01cabdf118e19bb951eb3df5f55c3a454a03fb1ce3efe66614d292708b11fb0"
 
 RPROVIDES:${PN} += "libdv-devel \
 pkgconfig-libdv"

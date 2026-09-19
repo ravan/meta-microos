@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.2.20"
 
-RPM_NAME = "libcxx-gtk-utils-4-devel-2.2.20-1.13.aarch64.rpm"
-RPM_HASH = "00ac2a3bf8c7dfb3da06a62c8b4a29003d2bb59ae0500ff830e9acd7883a356456337dc9e18fc478d099a566960223844566d9b184a4465607acbe6afcf89c97"
+RPM_NAME = "libcxx-gtk-utils-4-devel-2.2.20-1.22.aarch64.rpm"
+RPM_HASH = "6a6082a9bbb451704d5eca5657b4f24fd156afda517dee3505df86da943bfb585f916ec41875eb8cabd935d4e6f878500d81240aa123d90ac32dd76dfe4b57f8"
 
 RPROVIDES:${PN} += "libcxx-gtk-utils-4-devel \
 pkgconfig-c++-gtk-utils-4-2.2"

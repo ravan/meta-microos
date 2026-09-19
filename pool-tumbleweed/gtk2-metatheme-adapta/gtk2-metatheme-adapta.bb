@@ -7,8 +7,8 @@ LICENSE = "CC-BY-SA-4.0 & GPL-2.0-only"
 
 PV = "3.95.0.11"
 
-RPM_NAME = "gtk2-metatheme-adapta-3.95.0.11-3.5.noarch.rpm"
-RPM_HASH = "c7fedc3124434f1badde958f0bc11e93893217c5043d746d49ce66b5229215b278e212cc5e72b693fddba3ee5f8a849e7b1d03e7c3e0530a30e4393b5b8c2da0"
+RPM_NAME = "gtk2-metatheme-adapta-3.95.0.11-5.4.noarch.rpm"
+RPM_HASH = "08877820d874c2c61ad8b752b5576702350d5d47197136d2c10a8772782f43a3278854ed2415819ba5f417909df3555d6be547d7bc98b8f3b5cc358aec03be11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-adapta"

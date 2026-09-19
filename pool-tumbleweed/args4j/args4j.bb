@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "2.33"
 
-RPM_NAME = "args4j-2.33-2.7.noarch.rpm"
-RPM_HASH = "bd3be25e448fe6fc77d6a94c39c376d38fb71ecaa81595166ade5d767d1a22fa86454aa81772f7369ec727dd0b88f0e4965341f9fe30bbacf9f9741cac82ca64"
+RPM_NAME = "args4j-2.33-3.9.noarch.rpm"
+RPM_HASH = "371de041f08f5468e699be85e7daffa61bc5a655981f384643d8b252b09980f7e6ba6b2e93bda97525098b6eebae5eaace19481a1085cbd911c20eb921dce9d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "args4j \

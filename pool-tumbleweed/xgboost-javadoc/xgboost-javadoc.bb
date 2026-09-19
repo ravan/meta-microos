@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for xgboost"
 DESCRIPTION = "Javadoc for xgboost"
 LICENSE = "Apache-2.0"
 
-PV = "0.90"
+PV = "2.0.0"
 
-RPM_NAME = "xgboost-javadoc-0.90-3.4.noarch.rpm"
-RPM_HASH = "ecdeb829173dc39a79a627a1528c48af23e792415da38b7834eb2a3fecaf2b7acea58308c45f8cf8dc4d9e1b31e2053e4d7d2ed78a5da302ae2ac3d07c9504c4"
+RPM_NAME = "xgboost-javadoc-2.0.0-4.5.noarch.rpm"
+RPM_HASH = "3a2d06411865b48b8eb5074fa208ea03e53835d62ce3125756a5202ef9dbc6b414a2b74c94521cf61d9bec6684a58667e2d59af4912cc71c3be3fcd7965e4d5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xgboost-javadoc"

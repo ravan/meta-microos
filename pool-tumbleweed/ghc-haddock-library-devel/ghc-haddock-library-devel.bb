@@ -1,22 +1,21 @@
 SUMMARY = "Haskell haddock-library library development files"
-DESCRIPTION = "This package provides the Haskell haddock-library library development \
-files."
-LICENSE = "BSD-2-Clause"
+DESCRIPTION = "This package provides the Haskell haddock-library library development files."
+LICENSE = "BSD-3-Clause"
 
 PV = "1.11.0"
 
-RPM_NAME = "ghc-haddock-library-devel-1.11.0-2.8.aarch64.rpm"
-RPM_HASH = "b1f88afb361ac4232acb9a6cdb24e9a8f96375c14be746600042a07c2f30a4e660d70c36f89d0e32582c039ae683d4e3acc0c7b8108548d9b52098dbc6023bd6"
+RPM_NAME = "ghc-haddock-library-devel-1.11.0-1.3.aarch64.rpm"
+RPM_HASH = "3d1853563edb0c0c18d0201743e7698357a456019b0a39d706ed165fb1f4618a8dd8d412004d7b54b1679f3b83983411310b4aa058d1f4b28794e4a6887ef753"
 
-RPROVIDES:${PN} += "ghc-devel-haddock-library-1.11.0-GgwR20uLBzH14FvpuxBHjp \
-ghc-haddock-library-devel"
+RPROVIDES:${PN} += "ghc-devel-haddock-library-1.11.0-799c \
+ghc-haddock-library-devel \
+ghc-haddock-library-static"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-parsec-3.1.16.1 \
-ghc-devel-text-2.0.2 \
+RDEPENDS:${PN} += "ghc-compiler \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-parsec-3.1.18.0-be05 \
+ghc-devel-text-2.1.4-cf23 \
 ghc-haddock-library"
 
 inherit rpm

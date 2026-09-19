@@ -7,10 +7,10 @@ destruction notices, organization logos, and security labels to \
 it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn46776"
+PV = "2026.226.2.2svn46776"
 
-RPM_NAME = "texlive-cyber-2023.209.2.2svn46776-55.1.noarch.rpm"
-RPM_HASH = "7d862cbad31f91eefc5df403ba6e9d35d55585e152952b5c78ecc90fead3337cdc5e52152aaffca9041dc0bce100b92156ddc1616833153df2e70cf1d761fafd"
+RPM_NAME = "texlive-cyber-2026.226.2.2svn46776-61.2.noarch.rpm"
+RPM_HASH = "ffc8f5efb1959029dda734e7adf74889ef9fd14dc22099f2eb5681fa80d0b09a521add160dbf645894e7e56d375542e9184b5c7f67fc348121b6a45464d94df3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cyber.sty \

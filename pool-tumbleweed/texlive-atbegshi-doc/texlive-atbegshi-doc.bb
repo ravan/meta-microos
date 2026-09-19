@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-atbegshi"
 DESCRIPTION = "This package includes the documentation for texlive-atbegshi"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.19svn53051"
+PV = "2026.226.1.19svn77682"
 
-RPM_NAME = "texlive-atbegshi-doc-2023.209.1.19svn53051-54.1.noarch.rpm"
-RPM_HASH = "4e37cd1f3cd31874d13fb1d8d9ed9685a8570b820424eddc3b0b2eb8ba8b83a2dc6ad54e0f29ac405ce6712a9356b814d210214dc03052290b38eee5f7d79cff"
+RPM_NAME = "texlive-atbegshi-doc-2026.226.1.19svn77682-60.2.noarch.rpm"
+RPM_HASH = "1153387f1d8abeb67ae789312a8e1f974731a5462563b71fd3b8b42057a3966e9c040d6855a2a0eaa2d073053346593de81bbc92bd76c5cd7f933ea5832c359f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-atbegshi-doc"

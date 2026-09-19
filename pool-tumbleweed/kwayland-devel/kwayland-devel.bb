@@ -2,10 +2,10 @@ SUMMARY = "KDE Wayland library: Build Environment"
 DESCRIPTION = "KWayland provides a Qt-style Client and Server library wrapper for the Wayland libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kwayland-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "9d3e82d24383f8d64e45ec65bcdf3ec6324068dcae87ae558f117ec3a5c0c77ed53d947e7574551d02933f6b1f8258607925ea0be9eb61fa834a6f31e022d83a"
+RPM_NAME = "kwayland-devel-5.116.0-2.10.aarch64.rpm"
+RPM_HASH = "e18460647a8faac9f6b88c92f24371204c2446413b25f5b396634d4d8353a5d41b131b9110ed1df4310511d4e2ded27ce67bcbc801fa8ed9a2a06ed4c2ae3082"
 
 RPROVIDES:${PN} += "cmake-KF5Wayland \
 kwayland-devel \
@@ -13,13 +13,7 @@ pkgconfig-KF5WaylandClient"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake-Qt5Gui \
-extra-cmake-modules \
 kwayland \
-ld-linux-aarch64.so.1 \
-libKF5WaylandServer.so.5 \
-libQt5Core.so.5 \
-libc.so.6 \
-libstdc++.so.6 \
 pkgconfig-Qt5Gui"
 
 inherit rpm

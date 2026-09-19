@@ -2,10 +2,10 @@ SUMMARY = "Documentation for Advanced Gtk+ Sequencer"
 DESCRIPTION = "Advanced Gtk+ Sequencer library development documentation."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & GFDL-1.3-only"
 
-PV = "6.0.8"
+PV = "8.4.2"
 
-RPM_NAME = "gsequencer-devel-doc-6.0.8-1.1.noarch.rpm"
-RPM_HASH = "92c359c3f1ac6bae0769239d451bc8686663fdac813752f79a9f1949036cc78a09332c65e2fce17aff2eb789cd70ecabce229faaa5cac1685c05e71ee4285427"
+RPM_NAME = "gsequencer-devel-doc-8.4.2-1.2.noarch.rpm"
+RPM_HASH = "96f507399a14809b9e32dc93b313cd51640e36a1f73d21faeb57629657cf6dd0d250db6f900aa4511f4673534702adea5d041629186ef91bc877dd697e53a62b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsequencer-devel-doc"

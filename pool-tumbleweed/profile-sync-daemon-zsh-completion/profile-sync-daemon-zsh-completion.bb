@@ -1,11 +1,11 @@
-SUMMARY = "zsh completion for profile-sync-daemon"
+SUMMARY = "Zsh completion for profile-sync-daemon"
 DESCRIPTION = "zsh completion for profile-sync-daemon."
 LICENSE = "MIT"
 
-PV = "6.48"
+PV = "7.04"
 
-RPM_NAME = "profile-sync-daemon-zsh-completion-6.48-1.3.noarch.rpm"
-RPM_HASH = "53894dd4bb7b4e756878c167689f5601d97008bab69122369b861ef72ca638cb134467f0cc028b6ed7f8a3848e7d96f3d92b6139188fd3048ac590f68a9fe4a0"
+RPM_NAME = "profile-sync-daemon-zsh-completion-7.04-1.1.noarch.rpm"
+RPM_HASH = "eaf78e2b792fda3c586323f666e4b0ca4123dd47a43e4f902a7e230478632e96981818dfa16d6ab7b044598d90da89cf0ee599de554d422d1f60716eaa1abae5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "profile-sync-daemon-zsh-completion"

@@ -4,10 +4,11 @@ compiler of the GNU Compiler Collection (GCC) and quadruple precision \
 floating point operations."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw64-libquadmath0-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "d7e7ad47df2bd96e4d9019af12a0ca4f1a76aedb094daf2ed31b6f1eaaddcec5f33d97bc115f86f528dc09f348624efd938d74ba9599a38f07c5bde6e67c095a"
+RPM_NAME = "mingw64-libquadmath0-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "53856e019771dc646335fc37c14cdd313c3fcb8ed3745b51a0df3b8525263cc685599ca200c24a78942c43de1d041b95fe25bd8d74152338ca95705876bd003f"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-libquadmath-0.dll \
 mingw64-libquadmath0"

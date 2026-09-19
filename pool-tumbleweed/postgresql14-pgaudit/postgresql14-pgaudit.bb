@@ -11,10 +11,10 @@ commands may be enabled or disabled by the superuser. Once enabled, however, \
 audit logging may not be disabled by a user."
 LICENSE = "PostgreSQL"
 
-PV = "1.6.2"
+PV = "1.6.3"
 
-RPM_NAME = "postgresql14-pgaudit-1.6.2-4.2.aarch64.rpm"
-RPM_HASH = "d7f78cd842927b2fcd737d6539a5b6781eb9dc837ec41d38ba81becd5e5d741925afdc746a943c8151f6c44121c150a04d4677b14f08a7e30b1a04b086bdfb80"
+RPM_NAME = "postgresql14-pgaudit-1.6.3-9.2.aarch64.rpm"
+RPM_HASH = "c04bd96e51c069b3377813a67462f4bdf56d0a0b71982425365a77b84f1c04c31ec738f8ab9ef3adffefbf88fcd4f99e4e5d47ec4983898de6a22ecc13cae866"
 
 RPROVIDES:${PN} += "postgresql14-pgaudit \
 postgresql14-pgaudit-llvmjit"

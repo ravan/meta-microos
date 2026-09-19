@@ -2,10 +2,10 @@ SUMMARY = "Babel support for Occitan"
 DESCRIPTION = "Occitan language description file with usage instructions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn39608"
+PV = "2026.226.0.0.2svn39608"
 
-RPM_NAME = "texlive-babel-occitan-2023.209.0.0.2svn39608-54.1.noarch.rpm"
-RPM_HASH = "38b880d19ef5860805703ec2299f71a432aaa9b382776649e24310fd8fd8698af37f917035f863b4b6bf9cd76919246afa2745a3562796686b75e7570c4f55a1"
+RPM_NAME = "texlive-babel-occitan-2026.226.0.0.2svn39608-60.2.noarch.rpm"
+RPM_HASH = "c60a71bcd8f4a81ce919bddde66b15edc6f5386d461a6d8eb75ad62d8ae391dc97eca5916027f08767443812b1a54175d6f198404730d626ff95dfdfea6e12bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-occitan.ldf \

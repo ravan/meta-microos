@@ -4,8 +4,8 @@ LICENSE = "Apache-1.1"
 
 PV = "1.0"
 
-RPM_NAME = "apache-commons-el-javadoc-1.0-3.7.noarch.rpm"
-RPM_HASH = "6708182387adf609b0c114bda932b634333fb8d602c27312079cd3dc2f92b368ac0327276537fb17d741aa0d7aa65a0d9fcf0299941fb836d91127c4285e3a36"
+RPM_NAME = "apache-commons-el-javadoc-1.0-5.8.noarch.rpm"
+RPM_HASH = "dcd6b54ae2a5c7bc2da62e1b645266e809eea99919363c188d06a850655117c538a0b45964f64d619448a81fd5482fd6ccae65338aaac3ef17359efca2919c91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-el-javadoc"

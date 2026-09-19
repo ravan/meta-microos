@@ -3,10 +3,10 @@ DESCRIPTION = "The modulemd-validator tool provides the facility for verifying \
 constructed modulemd data is correct and usable."
 LICENSE = "MIT"
 
-PV = "2.14.0"
+PV = "2.15.2"
 
-RPM_NAME = "modulemd-validator-2.14.0-1.4.aarch64.rpm"
-RPM_HASH = "5166bf0e49e739b9a305c05437887c202417a49c674c55a02854d633c0633be302b048db01b283eee68122c18f7fc8825777d8c6d59d9055a7d7663792ead5ef"
+RPM_NAME = "modulemd-validator-2.15.2-2.3.aarch64.rpm"
+RPM_HASH = "da09d51b88b9d61e4a60c6d2d70820aed8a18807ad2c68813ebe60a790de75c1d39bbf6419be3c5f4ea3083790e106d10f8ba487509db2721f035c9ab7888f15"
 
 RPROVIDES:${PN} += "modulemd-validator"
 

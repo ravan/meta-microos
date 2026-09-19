@@ -2,10 +2,10 @@ SUMMARY = "Binary files of kotex-utils"
 DESCRIPTION = "Binary files of kotex-utils"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn32101"
+PV = "2026.20260301.svn32101"
 
-RPM_NAME = "texlive-kotex-utils-bin-2023.20230311.svn32101-93.2.aarch64.rpm"
-RPM_HASH = "53c326471949dae5a353cb9d7466e34adf79fa5891c63f206eddf54f02e608ab6c2246c2bbcd46cdd862824a9f811b855e148f2e968c0420b2cc61b43e0fbb4a"
+RPM_NAME = "texlive-kotex-utils-bin-2026.20260301.svn32101-120.4.aarch64.rpm"
+RPM_HASH = "ae5f0e80c68f1f2211aa19b2d4864b49e99d7c2431247e50cc93aee483434a69f9c791e6399c004a40761cb472a848aeba7f8fb12b59c882d7b2cab60660a34d"
 
 RPROVIDES:${PN} += "texlive-kotex-utils-bin"
 

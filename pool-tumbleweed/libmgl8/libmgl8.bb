@@ -4,10 +4,10 @@ plotting and handling of large data arrays, as well as window and \
 console modes and for embedding into other programs."
 LICENSE = "GPL-3.0-only"
 
-PV = "8.0.1"
+PV = "8.0.3"
 
-RPM_NAME = "libmgl8-8.0.1-4.2.aarch64.rpm"
-RPM_HASH = "f02d72700809600f22f5ad29bf9d1186dd94c531a6131bf16b145de38e76296ddeea37fc931aff0c6a2cf73256a0dbaa0e5bb52acf7c26b19a8c5c8a58928e0a"
+RPM_NAME = "libmgl8-8.0.3-2.6.aarch64.rpm"
+RPM_HASH = "862d3fa390d069a9f5539c146984fca7c572f6f7b6944f3be73eb730dee7f89e9f69d8cd02bc15b9dc5c224643e669b549735e480baa84a4052968a992d3f710"
 
 RPROVIDES:${PN} += "libmgl.so.8 \
 libmgl8 \
@@ -20,10 +20,10 @@ libc.so.6 \
 libgcc-s.so.1 \
 libgif.so.7 \
 libgomp.so.1 \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
-libhdf5.so.200 \
-libhpdf.so.2 \
+libhdf5.so.310 \
+libhpdf.so.2.4 \
 libjpeg.so.8 \
 libltdl.so.7 \
 libm.so.6 \

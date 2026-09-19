@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hepparticles"
 DESCRIPTION = "This package includes the documentation for texlive-hepparticles"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn35723"
+PV = "2026.226.2.0svn35723"
 
-RPM_NAME = "texlive-hepparticles-doc-2023.209.2.0svn35723-54.2.noarch.rpm"
-RPM_HASH = "5c9274e4978007396705ae4c26d60c80cc7d494168d464f6c4e85da2b269c3ec1fdbcabb4919a0bc45225a6d395d5ef74e6b7ad994e6c35ec12913c05ecdeaa8"
+RPM_NAME = "texlive-hepparticles-doc-2026.226.2.0svn35723-60.4.noarch.rpm"
+RPM_HASH = "d0c9fd2f418bc42e5737ad229a761df0faffafdd272e5dac09358f0cf219ecc78f4d84a7fbfdfe35060d86559fa54bfa45eb203b71c1998ca3aa9cab030684ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hepparticles-doc"

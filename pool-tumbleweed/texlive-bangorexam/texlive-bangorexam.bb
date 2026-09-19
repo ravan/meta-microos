@@ -1,14 +1,14 @@
 SUMMARY = "Typeset an examination at Bangor University"
-DESCRIPTION = "The package allows typesetting of Bangor Univesity's exam \
+DESCRIPTION = "The package allows typesetting of Bangor University's exam \
 style. It currently supports a standard A/B choice, A-only \
 compulsory and 'n' from 'm' exam styles. Marks are totalled and \
 checked automatically."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.0svn65140"
+PV = "2026.226.1.6.0svn76924"
 
-RPM_NAME = "texlive-bangorexam-2023.209.1.5.0svn65140-54.1.noarch.rpm"
-RPM_HASH = "f93ae70fcbd974b59b49926f9ba187a791fa992a37db51569a5d37f33d522935cf8b3d71b1af386b1ea02786312bd2d4d165d4d50afa27073c77ae72302a9d50"
+RPM_NAME = "texlive-bangorexam-2026.226.1.6.0svn76924-60.2.noarch.rpm"
+RPM_HASH = "758479d4308bae86ae0c5ce232bb8ab479616eb221a64c1d5d210a3f3e59d7ddfa70ec85af6601336ed862846e2140f12deb50af62e4aed4b3995c8691377667"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bangorexam.cls \

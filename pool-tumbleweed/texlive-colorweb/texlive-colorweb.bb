@@ -3,10 +3,10 @@ DESCRIPTION = "The package makes the 216 'web-safe colours' available to the \
 standard color package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn31490"
+PV = "2026.226.1.3svn31490"
 
-RPM_NAME = "texlive-colorweb-2023.209.1.3svn31490-54.1.noarch.rpm"
-RPM_HASH = "3f149b250d9f473a2ab1d05f0da2d317e994ab1e90ec02a309d201c7a684fb0c52f097d75de5935ee9adb47d1e10a75a6d02ca02aa0e91986ca855b95d8346ad"
+RPM_NAME = "texlive-colorweb-2026.226.1.3svn31490-60.2.noarch.rpm"
+RPM_HASH = "2a2625510a001a8625b7f2a48c93e4cbe324460e462fe3d77507d2b84d13acf84bd5c45014b629b6915e817737727fdcf4ea8897851ae760e204bb1990d80453"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colorweb.sty \

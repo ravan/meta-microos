@@ -3,15 +3,15 @@ DESCRIPTION = "libzbc is a simple library providing functions for manipulating Z
 Block Command (ZBC), Zoned-device ATA command set (ZAC) disks."
 LICENSE = "BSD-2-Clause & LGPL-3.0-or-later"
 
-PV = "5.13.0"
+PV = "6.2.0"
 
-RPM_NAME = "libzbc-tools-5.13.0-1.4.aarch64.rpm"
-RPM_HASH = "9d79349444f334b1073139a92cf4bda5302f46c5772e4f277f1cee36cb7a82c53bcb925662695a59a384fcac5b2e63cebfe266fce5cb94b1d92f5d74ff0ce9ae"
+RPM_NAME = "libzbc-tools-6.2.0-1.9.aarch64.rpm"
+RPM_HASH = "1d99f580c9863ee640afa851cd04282d5266de5540b3c7d924c40e208c14c9b109cb653b18246a3283bac5af628be775a88bc394359bbe95debd2629f8220894"
 
 RPROVIDES:${PN} += "libzbc-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libzbc.so.5"
+libzbc.so.6"
 
 inherit rpm

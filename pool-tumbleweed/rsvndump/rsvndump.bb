@@ -5,10 +5,10 @@ format that can be read/written by svnadmin, so the data produced by \
 rsvndump can easily be imported into a new subversion repository."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.6.1"
+PV = "0.6.2"
 
-RPM_NAME = "rsvndump-0.6.1-1.4.aarch64.rpm"
-RPM_HASH = "02224523e96ebb0b03fa4d8e2d2f4f8e793c9ae830e8fc2b8de2c3740746c1107b70b3d58611a732d7a3d151a635b304d5c35d7861a867e159e2096551cf3048"
+RPM_NAME = "rsvndump-0.6.2-1.10.aarch64.rpm"
+RPM_HASH = "ac835932071e54307410e5f1d9ece255038eed6a875e0e50b9bedb5ecf94abfc7838ca12448f6e595810d3390b3d408dce2823d5764fc535029547ad820760a2"
 
 RPROVIDES:${PN} += "rsvndump"
 

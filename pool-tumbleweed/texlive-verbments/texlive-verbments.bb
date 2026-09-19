@@ -5,10 +5,10 @@ output is formatted via powerful Pygments library of the Python \
 language."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn23670"
+PV = "2026.226.1.2svn23670"
 
-RPM_NAME = "texlive-verbments-2023.209.1.2svn23670-54.1.noarch.rpm"
-RPM_HASH = "bbbe105c92a86344d2834a1b6d4cebee990d2f1275c4f9bf6de20bb3b81ea91f12952148a58a1bba9395a134eccae3145aacd334a857334e35038788a826e937"
+RPM_NAME = "texlive-verbments-2026.226.1.2svn23670-60.2.noarch.rpm"
+RPM_HASH = "8a49bea5f36bce931b166bf3a2c1082f2ffa7b51589c29a2305e6e1e19af66eecf38bb3c63eada27bb1297d853b13716f3faa1e29fa79129b0cf6b9485353ced"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-verbments.sty \

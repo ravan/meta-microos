@@ -2,10 +2,10 @@ SUMMARY = "Development package pulling in all build+test dependencies"
 DESCRIPTION = "Development package pulling in all build+test dependencies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1693332527.fb060dc"
+PV = "5.1788768889.879c500"
 
-RPM_NAME = "os-autoinst-devel-4.6.1693332527.fb060dc-1.1.aarch64.rpm"
-RPM_HASH = "9acaa47da2e902bf285b4d2cff4841c658547e6e119404a6cb29ce3e95c910e4956a31586963ffdc2639fd5b2042ff2b35589c2b9cc27fba7ecbb9d0af491e24"
+RPM_NAME = "os-autoinst-devel-5.1788768889.879c500-1.1.aarch64.rpm"
+RPM_HASH = "955d45681ae14cc14e2068eca577793ff9991cda60e89cfefaf2cce09d13017514b7ef845e4759bcd878fb37eaaac9f4ea1167c7c1dd13a3aecfbba5a7cc897c"
 
 RPROVIDES:${PN} += "os-autoinst-devel"
 
@@ -14,10 +14,17 @@ aspell-en \
 aspell-spell \
 cmake \
 cpio \
+ffmpeg \
+file \
 gcc-c++ \
 git-core \
 icewm \
+iproute2 \
+iputils \
+ipxe-bootimgs \
+jq \
 ninja \
+openssh-clients \
 perl-B--Deparse \
 perl-Benchmark \
 perl-Carp \
@@ -29,7 +36,6 @@ perl-Crypt--DES \
 perl-Cwd \
 perl-Data--Dumper \
 perl-Devel--Cover \
-perl-Devel--Cover--Report--Codecov \
 perl-Digest--MD5 \
 perl-DynaLoader \
 perl-English \
@@ -38,11 +44,12 @@ perl-Exception--Class \
 perl-Exporter \
 perl-ExtUtils--testlib \
 perl-Fcntl \
+perl-Feature--Compat--Try \
 perl-File--Basename \
 perl-File--Find \
+perl-File--Map \
 perl-File--Path \
 perl-File--Temp \
-perl-File--Touch \
 perl-File--Which \
 perl-File--chdir \
 perl-FindBin \
@@ -55,10 +62,12 @@ perl-IO--Socket--UNIX \
 perl-IPC--Open3 \
 perl-IPC--Run--Debug \
 perl-IPC--System--Simple \
+perl-Inline--Lua \
 perl-Inline--Python \
 perl-JSON--Validator \
 perl-List--MoreUtils \
 perl-List--Util \
+perl-Module--CPANfile \
 perl-Mojo--IOLoop--ReadWriteProcess \
 perl-Mojo--JSON \
 perl-Mojo--Log \
@@ -72,6 +81,7 @@ perl-Net--IP \
 perl-Net--SNMP \
 perl-Net--SSH2 \
 perl-POSIX \
+perl-PPI \
 perl-Perl--Tidy \
 perl-Pod--Coverage \
 perl-Pod--Html \
@@ -81,7 +91,8 @@ perl-Socket \
 perl-Socket--MsgHdr \
 perl-Template--Toolkit \
 perl-Term--ANSIColor \
-perl-Test--Fatal \
+perl-Test--CheckGitStatus \
+perl-Test--Compile \
 perl-Test--Mock--Time \
 perl-Test--MockModule \
 perl-Test--MockObject \
@@ -89,14 +100,13 @@ perl-Test--MockRandom \
 perl-Test--Mojo \
 perl-Test--Most \
 perl-Test--Output \
+perl-Test--Perl--Critic \
 perl-Test--Pod \
-perl-Test--Strict \
 perl-Test--Warnings \
 perl-Thread--Queue \
 perl-Time--HiRes \
 perl-Time--Moment \
 perl-Time--Seconds \
-perl-Try--Tiny \
 perl-XML--LibXML \
 perl-XML--SemanticDiff \
 perl-YAML--PP \
@@ -116,11 +126,24 @@ pkgconfig-sndfile \
 pkgconfig-theoraenc \
 procps \
 python3-Pillow-tk \
-python3-black \
+python3-gitlint \
+python3-pytest \
+python3-pytest-cov \
+python3-pytest-mock \
+python3-pytest-xdist \
+python3-radon \
+python3-ruff \
 python3-setuptools \
+python3-ty \
+python3-vulture \
 qemu \
 qemu-tools \
 qemu-x86 \
+rsync \
+sed \
+shfmt \
+socat \
+sshpass \
 tesseract-ocr \
 tesseract-ocr-traineddata-english \
 xorg-x11-Xvnc \

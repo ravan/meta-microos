@@ -6,18 +6,25 @@ some templates for user documentation, which currently are only \
 available in German."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.29svn65254"
+PV = "2026.226.4.05svn76863"
 
-RPM_NAME = "texlive-tuda-ci-2023.209.3.29svn65254-53.1.noarch.rpm"
-RPM_HASH = "00c6d8369d243afab8a26afcd9152cfdbf7b42792b5be5070a6ed263de897779e1a839f03e98a16d15f2376f0f2c29fd566e5f7733958ffdee792f612a7595fb"
+RPM_NAME = "texlive-tuda-ci-2026.226.4.05svn76863-59.2.noarch.rpm"
+RPM_HASH = "10d3950628c65cbdf85a258d6921e6583fd6ece1a4ecae043230f66d1b97fce695a8869c2f2827ada31a5239cdc6b0d50c4fabad01030f46668b46d93f354267"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeTUDa.sty \
+tex-beamercolorthemeTUDa2008.sty \
 tex-beamerfontthemeTUDa.sty \
+tex-beamerfontthemeTUDa2008.sty \
 tex-beamerinnerthemeTUDa.sty \
+tex-beamerinnerthemeTUDa2008.sty \
+tex-beamerinnerthemeTUDa2023.sty \
 tex-beamerouterthemeTUDa.sty \
+tex-beamerouterthemeTUDa2008.sty \
 tex-beamerthemeTUDa-mecheng.sty \
 tex-beamerthemeTUDa.sty \
+tex-beamerthemeTUDa2008.sty \
+tex-beamerthemeTUDa2023.sty \
 tex-tuda-a0paper.clo \
 tex-tuda-a1paper.clo \
 tex-tuda-a2paper.clo \
@@ -53,18 +60,17 @@ tex-XCharter.sty \
 tex-afterpage.sty \
 tex-anyfontsize.sty \
 tex-beamer.cls \
-tex-environ.sty \
-tex-expl3.sty \
+tex-bookmark.sty \
 tex-fontspec.sty \
 tex-geometry.sty \
 tex-graphicx.sty \
 tex-hyperref.sty \
 tex-iftex.sty \
 tex-inputenc.sty \
-tex-l3keys2e.sty \
 tex-leaflet.cls \
 tex-luainputenc.sty \
 tex-microtype.sty \
+tex-multicol.sty \
 tex-pdfx.sty \
 tex-pgf.sty \
 tex-pgfplots.sty \
@@ -78,7 +84,6 @@ tex-scrlayer-notecolumn.sty \
 tex-scrlayer-scrpage.sty \
 tex-scrlayer.sty \
 tex-scrletter.cls \
-tex-scrlfile.sty \
 tex-tcolorbox.sty \
 tex-textcomp.sty \
 tex-tikz.sty \

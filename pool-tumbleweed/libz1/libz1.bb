@@ -5,10 +5,10 @@ which is being used by, for example, gzip and the ZIP archive \
 format."
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.1"
 
-RPM_NAME = "libz1-1.2.13-4.2.aarch64.rpm"
-RPM_HASH = "e351982b5f1169b1942b0f1be363168dcc6692023c676c08cbfcbd6023f75ee941b6571d46e21df1cf3185948e343285bcbd0da1af5cdd9bc1db36de775431c2"
+RPM_NAME = "libz1-1.3.1-3.3.aarch64.rpm"
+RPM_HASH = "07ac3b81fcecfd2da62aa6e7f1da2ef84d29b76ee0e2f1b9b43e6c215aa6fa22f17c9fd260e659e1ec59d61411e889d547bb1972ca463f9136f9255388e8ece2"
 
 RPROVIDES:${PN} += "libz.so.1 \
 libz1 \

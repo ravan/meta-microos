@@ -4,10 +4,10 @@ any port for the support of TLS/SSL ciphers, protocols as well as some \
 cryptographic flaws."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.8"
+PV = "3.2.4"
 
-RPM_NAME = "testssl.sh-3.0.8-1.2.noarch.rpm"
-RPM_HASH = "cc3bc4fda9389e03aa0eb0c333001bf730229f6d902a35467eb49ecf36f8608b2bdeaf8924dc7bc8ac1be0ff6373e5d96c7fe16a05bc462f618d6e86b218be42"
+RPM_NAME = "testssl.sh-3.2.4-1.1.noarch.rpm"
+RPM_HASH = "9262196d5d0c66f62b567cc9170f5734dd32344fd1d2234ee12bd68c075214030b049d23182b26e3d1154806cd28b988fef1f110ccc10b26d822256277a01313"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "testssl.sh"

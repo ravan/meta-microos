@@ -25,14 +25,14 @@ BLACS. One of the design goals of ScaLAPACK was to have the ScaLAPACK \
 routines resemble their LAPACK equivalents as much as possible. \
  \
 This package contains ScaLAPACK	libraries compiled with	openmpi4."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "2.1.0"
+PV = "2.2.2"
 
-RPM_NAME = "libscalapack2-openmpi4-2.1.0-9.12.aarch64.rpm"
-RPM_HASH = "640dda5298a570b9f5fc356ea2416e4de9d1e2107919efffea35d010645a82b169bd6599d7514372380dc52ddec6961b89c32f6ddb5c65e8204adcad3e9e0826"
+RPM_NAME = "libscalapack2-openmpi4-2.2.2-1.3.aarch64.rpm"
+RPM_HASH = "870c6aa877f93f4fd64a02b08c64d55c3cf1fc746ed9e87cea99512620e31ee334eaa227a93d139da2254ea2b99d13c2db4519a8898f3a07f6643906e5ebd880"
 
-RPROVIDES:${PN} += "libscalapack.so.2.1.0 \
+RPROVIDES:${PN} += "libscalapack.so.2.2.2 \
 libscalapack2-openmpi4 \
 scalapack-openmpi4"
 

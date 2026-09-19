@@ -2,10 +2,10 @@ SUMMARY = "Javadocs for apache-commons-exec"
 DESCRIPTION = "This package contains the API documentation for apache-commons-exec."
 LICENSE = "Apache-2.0"
 
-PV = "1.3"
+PV = "1.6.0"
 
-RPM_NAME = "apache-commons-exec-javadoc-1.3-2.7.noarch.rpm"
-RPM_HASH = "f77dc3ed36fcdd2702e6077221ab62a10e03f9282d7ed43cff6550b20d4adc2765bbc8e92d92a52a9e43dc84105021516f1dbe8ede884dde9f28f6895176fbb7"
+RPM_NAME = "apache-commons-exec-javadoc-1.6.0-1.3.noarch.rpm"
+RPM_HASH = "dbfe0e5d069b25270ed0d44f78b24d6a928730353c9a99cd1e4af3b90e36ccefdce25e3d26d54bef0a341ebc4ecb326caf2070373b10a2915d20b5ec1bcd1f19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-exec-javadoc"

@@ -2,10 +2,10 @@ SUMMARY = "DBD driver for PostgreSQL"
 DESCRIPTION = "DBD driver for PostgreSQL database."
 LICENSE = "Apache-2.0"
 
-PV = "1.6.3"
+PV = "1.6.5"
 
-RPM_NAME = "libapr-util1-0-dbd-pgsql-1.6.3-1.3.aarch64.rpm"
-RPM_HASH = "2f971b5f6557760faff306dc4f98551a95c1fff686ef8c58703276f88c8518c61d3861b2666c90f127a352db456341f153d28e5b4a0d83a322bcc71d5ab77ccc"
+RPM_NAME = "libapr-util1-0-dbd-pgsql-1.6.5-1.1.aarch64.rpm"
+RPM_HASH = "ae2d4a49e1406dd16cab27e350d4b5456b47f1de50c5e8ff96cf992bda5e330143270d69eb808f926cc2f54aea85c19d2821ebd616b3d634de255e8bb748aa01"
 
 RPROVIDES:${PN} += "libapr-util1-0-dbd-pgsql"
 

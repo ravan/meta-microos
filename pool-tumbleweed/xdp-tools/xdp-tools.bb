@@ -1,11 +1,11 @@
 SUMMARY = "Utilities and example programs for use with XDP"
 DESCRIPTION = "Utilities and example programs for use with XDP"
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
-PV = "1.3.1"
+PV = "1.6.3"
 
-RPM_NAME = "xdp-tools-1.3.1-1.1.aarch64.rpm"
-RPM_HASH = "d02efeb611440aa88073df4d5a7a6f3037c95f86dfaf439a0ca027e99802e562b8a110c45d045f612d76e5ac2330321216ec72af0e23996c0e091f77a401f2f8"
+RPM_NAME = "xdp-tools-1.6.3-3.1.aarch64.rpm"
+RPM_HASH = "b4fc275c8ea310e14dc14c093f7b8a387cd0202d99d497357adbd83245d3ee2c564400c33db838de550fa1ce98c43568c185d39d4556e6d5501c394388d1add4"
 
 RPROVIDES:${PN} += "xdp-tools"
 

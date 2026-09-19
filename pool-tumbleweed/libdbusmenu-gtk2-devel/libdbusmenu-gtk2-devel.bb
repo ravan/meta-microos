@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only & (LGPL-2.1-only | LGPL-3.0-only)"
 
 PV = "16.04.0"
 
-RPM_NAME = "libdbusmenu-gtk2-devel-16.04.0-9.4.aarch64.rpm"
-RPM_HASH = "6c76c1fa16a6dd964cd5ebbf2b50fabfc6eee09d851b76efdb220294785db2a670ef9dee9e15cb9d95434ac468891b75504883cb30feb7354b74a6cc19871bd3"
+RPM_NAME = "libdbusmenu-gtk2-devel-16.04.0-13.4.aarch64.rpm"
+RPM_HASH = "c58d9770b380dd5ed4d2c0411d2b3ee4b9b1c3cb8e536fe7e3419218a36ef4c32b471dbbd948eda07d16b0c32cd5b7bdd611ba311a9921546813cb674f9447d3"
 
 RPROVIDES:${PN} += "libdbusmenu-gtk2-devel \
 pkgconfig-dbusmenu-gtk-0.4"

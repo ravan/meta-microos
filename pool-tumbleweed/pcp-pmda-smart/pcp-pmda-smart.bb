@@ -4,10 +4,10 @@ collecting metrics of disk S.M.A.R.T values making use of data from the \
 smartmontools package."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-smart-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "db34624db1d9b3cd9dfe26b9c0576ab4a214ecbe9bc01ebe9c3f8420540896d3302f8fd2fbf12884359ebc71933532ea07cd2f57dbad3fe3d64de76f89712a8e"
+RPM_NAME = "pcp-pmda-smart-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "ff08a3715e5edc89954f0fd403699cd9c5986b2d6bdd1856866f4f7d002cc0bf39ff64ca4e94f7cee33f527f974e5cb96c574f100e7d33e5e5ab2a8990cfc98a"
 
 RPROVIDES:${PN} += "pcp-pmda-smart"
 

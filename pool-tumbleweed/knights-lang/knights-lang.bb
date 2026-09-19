@@ -2,15 +2,16 @@ SUMMARY = "Translations for package knights"
 DESCRIPTION = "Provides translations for the 'knights' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "knights-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "37c2c4e6bad20099f48cb26fcc5528cebb01bf7497fb1cd1396130f304a3bb450849b0353c7ec479302f671d86d4a73663ac7acdd25b360815da87b09052bbe3"
+RPM_NAME = "knights-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "1b3a76e8fdf780bf9b7d99f444bff00e555d7022e4452d5458a8d5b6d3887c1f2a823c44570d44e3ad013bca828519f5aa2a45073cf85a2df8d1c22b774d6911"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "knights-lang \
 knights-lang-all \
 locale-knights-ar \
+locale-knights-ast \
 locale-knights-bg \
 locale-knights-bs \
 locale-knights-ca \
@@ -29,7 +30,10 @@ locale-knights-fi \
 locale-knights-fr \
 locale-knights-ga \
 locale-knights-gl \
+locale-knights-he \
+locale-knights-hi \
 locale-knights-hu \
+locale-knights-ia \
 locale-knights-id \
 locale-knights-it \
 locale-knights-ja \
@@ -37,6 +41,7 @@ locale-knights-ka \
 locale-knights-km \
 locale-knights-ko \
 locale-knights-lt \
+locale-knights-lv \
 locale-knights-ml \
 locale-knights-mr \
 locale-knights-nb \

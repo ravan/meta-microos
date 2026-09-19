@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.22.8"
 
-RPM_NAME = "cogl-devel-1.22.8-2.12.aarch64.rpm"
-RPM_HASH = "d3d7ea5ad12987c16d18c726c6137e88f158f0a7f89493de56e8204fc84bef506d06f6595619fbb9fdb80e60efdb50a8f6efa8b3704c3e34d245fe85ac9b84d9"
+RPM_NAME = "cogl-devel-1.22.8-3.7.aarch64.rpm"
+RPM_HASH = "28b4bbaec3f5e8060c5172fd1cc628ead1487a9bd8a70e6bacc53f244b487cedce122c886e37b64784f593bd9b207da4c199c70deb29fc79f2ed2f1e854e7d04"
 
 RPROVIDES:${PN} += "cogl-devel \
 pkgconfig-cogl-1.0 \

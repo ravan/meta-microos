@@ -2,10 +2,10 @@ SUMMARY = "Apache Log4j Tag Library"
 DESCRIPTION = "Apache Log4j Tag Library for Web Applications."
 LICENSE = "Apache-2.0"
 
-PV = "2.17.2"
+PV = "2.26.1"
 
-RPM_NAME = "log4j-taglib-2.17.2-5.8.noarch.rpm"
-RPM_HASH = "fceab0b15dd00a057dc35f65678b240f8c56727c06f5c3153ea244a60449544924d16803901c1ed638064eb13e70b43148db52c17f7f1d6512ac711858877c28"
+RPM_NAME = "log4j-taglib-2.26.1-2.1.noarch.rpm"
+RPM_HASH = "8d0dd254880891ac2520ff2300db2f7c66892b66aff498fa8aae25732db88f0a52be6f521676fcf60d6d5d31d17a136c10f05a585ade8157d47906a90ef9936a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4j-taglib \

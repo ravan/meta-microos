@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.15"
 
-RPM_NAME = "libtspi1-0.3.15-6.1.aarch64.rpm"
-RPM_HASH = "ac0e908e7cb507897591773cf7794756a5c4f09a3b8bfb60ece18a8a2de1a9f51704be7fc064ad92b638a5844d19194d1182df789a0fa1ab2539713fa7ce76fd"
+RPM_NAME = "libtspi1-0.3.15-9.4.aarch64.rpm"
+RPM_HASH = "b0f7edbcb39d46b21836a22cc62bf858c25366cb2b548c6d24b38edd3f6286f8d3db49d1a6dcd5e3b6d9c25ac55445125f2b1bd065334b3c425f309406a1753c"
 
 RPROVIDES:${PN} += "libtspi.so.1 \
 libtspi1"

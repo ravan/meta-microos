@@ -3,10 +3,10 @@ DESCRIPTION = "Builder is an IDE for GNOME and a tool to help writing GNOME-base
 applications."
 LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later & GPL-3.0-or-later & LGPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "44.1"
+PV = "50.0"
 
-RPM_NAME = "gnome-builder-doc-44.1-1.5.noarch.rpm"
-RPM_HASH = "be17854a7ce3987ced53b07e8a62bb8952b93e9dd44864c6a90820e8e683f045635cbf37ef3a8f444ba55a68ad7ed8c7569c245cab3cae075229daf3f977b64a"
+RPM_NAME = "gnome-builder-doc-50.0-1.2.noarch.rpm"
+RPM_HASH = "9339ecdfd4cbcfe8f53148ac66298d5362366d5b1bc78e11d055f4b5e925ac07b84743e3a06aa2c2e7522f5ba6d236d4d4aaf1f21ea1f125974fe98cb12148ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-builder-doc"

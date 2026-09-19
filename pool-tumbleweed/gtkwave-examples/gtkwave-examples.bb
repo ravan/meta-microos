@@ -6,10 +6,10 @@ tools. \
 This package contains examples for GTKWave"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.3.114"
+PV = "3.3.126"
 
-RPM_NAME = "gtkwave-examples-3.3.114-1.4.noarch.rpm"
-RPM_HASH = "2eb4837d205c18ec7655a5ae85a20d0c243bfe139f45953ae4f5bb463ae80b59f9f6701225ae789b7a79d707032ea9fd470c63da51fd8a51ca3ccfac78cad190"
+RPM_NAME = "gtkwave-examples-3.3.126-2.5.noarch.rpm"
+RPM_HASH = "0e69e42a84237363a3b1350c25965bceaf601b9eccbd25d0896417055a33947ad9de6c67191391f7215d4effa20886be3aa9d20ca8464cf4160c2c6f21a674e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtkwave-examples"

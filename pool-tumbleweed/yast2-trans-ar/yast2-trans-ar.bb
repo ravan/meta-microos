@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Arabic Translations"
 DESCRIPTION = "YaST2 - Translations for Arabic."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-ar-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "0c1c770ba40a52052e8dd10de25a187b6ad342c613f856c3c9c1958bb4fb3a487f730520e0aed646b3ba85e8a093b29d7760f54b3374d9f52853367a17b168b5"
+RPM_NAME = "yast2-trans-ar-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "c18105f79af3c7943ea3eab1407d73d63bf9264487a9f58a5d6cf99504e8e6638ec36a366025107561e1682a0c1040f14f7647ab02b22f4570ebaa7517fd2272"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ar \

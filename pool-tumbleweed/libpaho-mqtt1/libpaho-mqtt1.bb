@@ -3,10 +3,10 @@ DESCRIPTION = "The Paho MQTT C Client is a fully featured MQTT client written in
 C was chosen rather than C++ to maximize portability. A C++ API over this library is also available in Paho."
 LICENSE = "BSD-3-Clause & EPL-1.0"
 
-PV = "1.3.12"
+PV = "1.3.16"
 
-RPM_NAME = "libpaho-mqtt1-1.3.12-1.4.aarch64.rpm"
-RPM_HASH = "26aef0a694cdb6fb7574ffee0fcafef3c99eb4fae60a4e1babb09b7e9ad5f00d173cd520d02fa7b93b5eb2960284c46ea79513a915d4b71acb75e5951c9db156"
+RPM_NAME = "libpaho-mqtt1-1.3.16-1.3.aarch64.rpm"
+RPM_HASH = "6da8f4159990b0b906dbc144b32b688199978968e66232620ec418383ec6d317c83086892c2614e5e737ed17b6554d36a4a3df8f7576a3b74f8bf76a575a5b5a"
 
 RPROVIDES:${PN} += "libpaho-mqtt1 \
 libpaho-mqtt3a.so.1 \

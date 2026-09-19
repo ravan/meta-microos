@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.1+git20170322"
 
-RPM_NAME = "libdbus-c++-devel-0.9.1+git20170322-4.7.aarch64.rpm"
-RPM_HASH = "44a1fbefcafbb1cdc6635d921058d4faafb222405ae2cbf20caeceb149f4402021fd129ac5753442100caa8bf3f5c89ad5bc03e9124629045f2d939aa6adb5eb"
+RPM_NAME = "libdbus-c++-devel-0.9.1+git20170322-5.9.aarch64.rpm"
+RPM_HASH = "0b7deacd83e5badf8f030289b4266fbe9227e6956d98783ae1926bbb493ec91166c776e58e6dfa7f8c1c4de463a5ee6ce3fac838290e467655b13a2d4f385519"
 
 RPROVIDES:${PN} += "libdbus-c++-devel \
 pkgconfig-dbus-c++-1"

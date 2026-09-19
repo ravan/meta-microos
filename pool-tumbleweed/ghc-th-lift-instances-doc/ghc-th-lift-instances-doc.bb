@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.20"
 
-RPM_NAME = "ghc-th-lift-instances-doc-0.1.20-2.4.noarch.rpm"
-RPM_HASH = "bf6f1a502b2c94f5b33f075b4ca8412bcc5e9658902ca53f57332acf41c976f4091cc9c4d072ec86e506d7319e2189c7f394a4825c2e8fa1f2fb4e87376d3b0e"
+RPM_NAME = "ghc-th-lift-instances-doc-0.1.20-2.36.noarch.rpm"
+RPM_HASH = "1797333b880aeb01b68cedc89d4c034b208bf60d06027e1b9eb8ccc0a546f04a80912cce89d8857453ca16ad44392279ea97a7c8278246e65af7b369c20eb5c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-th-lift-instances-doc"

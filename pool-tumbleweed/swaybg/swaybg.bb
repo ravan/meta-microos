@@ -3,10 +3,10 @@ DESCRIPTION = "swaybg is a wallpaper utility for Wayland compositors. It is comp
 wlr-layer-shell, xdg-output, xdg-shell."
 LICENSE = "MIT"
 
-PV = "1.2.0"
+PV = "1.2.2"
 
-RPM_NAME = "swaybg-1.2.0-1.4.aarch64.rpm"
-RPM_HASH = "b11a1f9a980ce0c2f39a40d57b81d302b0e23c6c34b45e7ff1b70d55a71380ea64719ddcedb4456a433e58d5435ebcf428172f77f02232bcdad4aba3b5abc675"
+RPM_NAME = "swaybg-1.2.2-1.4.aarch64.rpm"
+RPM_HASH = "86c646cde1593b5c1bfac72eb7013b421eb302d833e6b7caa9f1d3c1a1a36b611dbb3af27ab8a6a67e2f429a194767b8a4116c5eb05d8c657f6db89c4b4f2498"
 
 RPROVIDES:${PN} += "swaybg"
 

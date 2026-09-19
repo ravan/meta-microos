@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "0.7.4"
 
-RPM_NAME = "dvbcut-0.7.4-2.1.aarch64.rpm"
-RPM_HASH = "395a8df0454d75e8a80ab32c3ab8a8c3d69d09b78984e8825cb1c974909bd1f23be177110d36f4ddce97182713c4f1cef311ce7a5a7e7d44f441631c6508b7cd"
+RPM_NAME = "dvbcut-0.7.4-5.5.aarch64.rpm"
+RPM_HASH = "7b3ce434a580172e7144c21cedbfb29e9ff193aafccf7fa0de3210e20bed3f800b1ebeb6c2e005cb935d1ca0f943414479070ba7af654447fe24cd8189ed7225"
 
 RPROVIDES:${PN} += "dvbcut"
 
@@ -21,14 +21,14 @@ libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 liba52.so.0 \
 libao.so.4 \
-libavcodec.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
+libavcodec.so.58.134 \
+libavformat.so.58.76 \
+libavutil.so.56.70 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libmad.so.0 \
 libstdc++.so.6 \
-libswscale.so.7"
+libswscale.so.5.9"
 
 inherit rpm

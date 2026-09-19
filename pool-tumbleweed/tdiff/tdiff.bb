@@ -9,10 +9,10 @@ DESCRIPTION = "Compare file system trees, showing any differences in their: \
   - ACLs (if supported)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.8.6"
+PV = "0.8.9"
 
-RPM_NAME = "tdiff-0.8.6-1.4.aarch64.rpm"
-RPM_HASH = "6925bd17bc78e2ab76f280c4c785736dc88a6c2c3fd19f30953f520fe992d1778c928e02ff062faaf6173eea20bcd2b817916e1ec7dd5299911975435df9c645"
+RPM_NAME = "tdiff-0.8.9-1.5.aarch64.rpm"
+RPM_HASH = "1bad12cd8fe1e8f20b35db22c5bbda7f9e28bb7b20f98f82286bb2789367f654ff9663379bd11e1e19eea5c48710c344aa33e99011e6d926ce841840a2524095"
 
 RPROVIDES:${PN} += "tdiff"
 

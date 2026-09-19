@@ -1,17 +1,22 @@
 SUMMARY = "Execute some commands as root"
 DESCRIPTION = "Sudo is a command that allows users to execute some commands as root. \
-The /etc/sudoers file (edited with 'visudo') specifies which users have \
+ \
+Sudo reads either /etc/sudoers or /usr/etc/sudoers \
+(in that order, whichever one it finds first), to determine what users have \
+ \
+ \
+ \
 access to sudo and which commands they can run. Sudo logs all its \
 activities to syslogd, so the system administrator can keep an eye on \
-things. Sudo asks for the password for initializing a check period of a \
+things. Sudo asks for the password to initialize a check period of a \
 given time N (where N is defined at installation and is set to 5 \
-minutes by default)."
+minutes by default). Administrators can edit the sudoers file with 'visudo'."
 LICENSE = "ISC"
 
-PV = "1.9.14p1"
+PV = "1.9.17p2"
 
-RPM_NAME = "sudo-1.9.14p1-1.1.aarch64.rpm"
-RPM_HASH = "bc0336692c54268f87dad1243bf099895c98d90cc4d3fbe39c59bee6b717f14a3e9000cf3cf9004988e30b5ce47c78374c11a1e01aa56e5609a179af717df881"
+RPM_NAME = "sudo-1.9.17p2-4.1.aarch64.rpm"
+RPM_HASH = "4d71eff0c83f3946c25b878005dc7a0710c7ff8714e9ddcfd4b46a1d156caf14445bf9092732a0378746a4aaea2dd8583ed5d8a61593c3bc41bd8f1886a03a6c"
 
 RPROVIDES:${PN} += "config-sudo \
 libsudo-util.so.0 \

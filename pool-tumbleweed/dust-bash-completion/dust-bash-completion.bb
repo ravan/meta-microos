@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for dust"
 DESCRIPTION = "Bash command line completion support for dust."
 LICENSE = "Apache-2.0"
 
-PV = "0.8.6"
+PV = "1.2.5"
 
-RPM_NAME = "dust-bash-completion-0.8.6-1.2.noarch.rpm"
-RPM_HASH = "6c398574e31e3cab3210573c3d22f30f14cc9049624ea6af4d7d3f239b670af1c0a7d7cb59b92f97b3d1c311a5b39c25d3732ed58a8b87a57164e2be558320fc"
+RPM_NAME = "dust-bash-completion-1.2.5-1.2.noarch.rpm"
+RPM_HASH = "812efe525dfafdc7cbf1c867a71c72277b09c23b158b9872f17d5633da2d8f744a8f7c8c4d9b1a6badb7be075e586bace42ecc3cb67e90e9dd46f205cfec0724"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dust-bash-completion"

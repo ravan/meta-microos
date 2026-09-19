@@ -22,10 +22,10 @@ problematic characters) is temporarily changed to 12 while \
 reading the result."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn53676"
+PV = "2026.227.1.7svn77682"
 
-RPM_NAME = "texlive-texosquery-2023.209.1.7svn53676-55.1.noarch.rpm"
-RPM_HASH = "c821da1b130af36b81e653c5da306396e81c7e5d4e8ca8c74567fd0c944daf5e36ddee191ac356d56a67818d3314787f8eeb2d33b3d4da85e29fb242603bed3a"
+RPM_NAME = "texlive-texosquery-2026.227.1.7svn77682-62.2.noarch.rpm"
+RPM_HASH = "da0d817f1aec0649bc0c11aa3d1f8b95898449846232e4943a247af53f13c715c59d11f57e17e6b9f1489c84e5a978dca3365312f3d4f0db8b046d83f6e3fbf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texosquery-jre5.jar \

@@ -2,10 +2,10 @@ SUMMARY = "Tools for libvterm"
 DESCRIPTION = "This package contains tools for libvterm."
 LICENSE = "MIT"
 
-PV = "0.3.2"
+PV = "0.3.3"
 
-RPM_NAME = "libvterm-tools-0.3.2-1.1.aarch64.rpm"
-RPM_HASH = "5c6e2fb199488867db08b29483da1202c35bd22870e5ecc4e16d8a09925550d6488fe74d3034ff863ee1c1be2443adfd42a11c158bb6ac327cb95036bd0b06a0"
+RPM_NAME = "libvterm-tools-0.3.3-1.11.aarch64.rpm"
+RPM_HASH = "1a1e8d68806aa354fc766eac56fe112b98baa50c18e060ef4856c3c6773b379858fffdaadedab00cf6d8e7f3fef554c25ee7230f5e8803da2d7672eae31a6a6a"
 
 RPROVIDES:${PN} += "libvterm-tools"
 

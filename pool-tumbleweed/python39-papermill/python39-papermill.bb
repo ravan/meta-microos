@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.0"
 
-RPM_NAME = "python39-papermill-2.4.0-2.2.noarch.rpm"
-RPM_HASH = "126b81315ab2c871161739c885a8ee6717b7b97009f8240f3e4b244af01e9ffc061d4e5b11ed0fa46771acb3de11cb1530a7c9f25e8dde2aeb814017fd111bfb"
+RPM_NAME = "python39-papermill-2.4.0-1.1.noarch.rpm"
+RPM_HASH = "99db4014b11259674219e959f83af73291ac21ec840db38af653ee66c0122df26d8fd9169348901ff4bfdcc42489d66248de3ccff3cf605e3ad83225b3b76409"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-papermill \

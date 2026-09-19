@@ -3,10 +3,10 @@ DESCRIPTION = "This module supports fast ip/location lookups using MaxMind \
 GeoIP2 databases."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.71"
+PV = "1.4.85"
 
-RPM_NAME = "lighttpd-mod_maxminddb-1.4.71-1.2.aarch64.rpm"
-RPM_HASH = "fe07fabe39a663c830ea92be81ae898666bd4843d24d02e79dec07113e2a57a06fd97c7178fa49659537bd90b12a0ec00e6833e6b215a94817d494807b3c066b"
+RPM_NAME = "lighttpd-mod_maxminddb-1.4.85-1.2.aarch64.rpm"
+RPM_HASH = "6a76ff06aeda906c4d28882835b11a76caf5119100dbd63e7fa526ea64260b63067b3e33d1f0b0848319e8780104eb9c06d585c1a617559001e85f329d4507af"
 
 RPROVIDES:${PN} += "lighttpd-mod-maxminddb"
 

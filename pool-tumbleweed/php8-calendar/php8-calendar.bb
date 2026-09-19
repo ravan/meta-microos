@@ -2,10 +2,10 @@ SUMMARY = "PHP Extension Module"
 DESCRIPTION = "PHP functions for converting between different calendar formats."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-calendar-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "e71df2baff369f660dfb137ca6c523e91a581e9c408a66e5e822dbb9eda1bd6e167510ab6b8e96b43603cee9b9be0a831c78abe05ed1ace6007a91d2b0c59532"
+RPM_NAME = "php8-calendar-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "25ce213a854f4b0a26b36e0411bda113df683dec70f1e61c2c28bc5efe5c1a7ee85d7bebb9eee2994ab10ca29399caaf2c3b2f4218f032bb229ddcba81d6dbf2"
 
 RPROVIDES:${PN} += "config-php8-calendar \
 php-calendar \

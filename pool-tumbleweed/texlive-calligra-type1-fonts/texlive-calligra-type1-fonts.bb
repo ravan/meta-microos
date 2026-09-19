@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-calligra-type1"
 DESCRIPTION = "The  separated fonts package for texlive-calligra-type1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.001.000svn24302"
+PV = "2026.226.001.000svn24302"
 
-RPM_NAME = "texlive-calligra-type1-fonts-2023.209.001.000svn24302-53.1.noarch.rpm"
-RPM_HASH = "33789841cf7bbe1fa85963077e98404d9f7ed97674eaa16b97684b9d6995d7b0023824a20508ff782a7405797cf122f3782a9bd642aac8f135cacb169cc8864e"
+RPM_NAME = "texlive-calligra-type1-fonts-2026.226.001.000svn24302-59.2.noarch.rpm"
+RPM_HASH = "37782c0a8ba1ec6dc5c038d1455d88393b5def244feb3f812ad2fe8c4b4dbd145dadff4ebe96de2d844e4b3156dacc6e567e448254653e9c20a9326036d5fe82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -38,7 +41,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -68,12 +74,16 @@ font--lang=su \
 font--lang=sv \
 font--lang=sw \
 font--lang=tl \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-callig15 \

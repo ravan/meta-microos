@@ -4,10 +4,10 @@ of files (typically source code and output executables) and orchestrates \
 building them, quickly."
 LICENSE = "Apache-2.0"
 
-PV = "1.11.1"
+PV = "1.13.2"
 
-RPM_NAME = "ninja-1.11.1-1.6.aarch64.rpm"
-RPM_HASH = "f91199867f715bf0216fe3902adef00d26cace3457c3f87ddab644f53212052243372aca77d1e237754727174d0a5fbc72c1af09e2637bc5b6557f11b1592b78"
+RPM_NAME = "ninja-1.13.2-1.4.aarch64.rpm"
+RPM_HASH = "93ac84148875fb9a0dc3244c981e65c86e8114a8d18edb6211891f6725251753e1c471374408deb172e4b162ee4a69a35ae229af5005c87bf6821967835d89b5"
 
 RPROVIDES:${PN} += "ninja \
 rpm-macro-ninja-build \
@@ -16,6 +16,7 @@ rpm-macro-ninja-test"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libgcc-s.so.1 \
 libstdc++.so.6"
 
 inherit rpm

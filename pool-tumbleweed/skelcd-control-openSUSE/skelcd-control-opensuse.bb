@@ -2,10 +2,10 @@ SUMMARY = "The openSUSE Installation Control file"
 DESCRIPTION = "This package contains the control file used for openSUSE installation."
 LICENSE = "MIT"
 
-PV = "20230512.1"
+PV = "20260519"
 
-RPM_NAME = "skelcd-control-openSUSE-20230512.1-1.1.aarch64.rpm"
-RPM_HASH = "32215bf513a5276c698c7f0f1c51f17425c7150d71d728679a3c25007feb12ab191ce134fe4d6691f879416157c9c58dd58327461bba60ec1ebc4d6346c6b16d"
+RPM_NAME = "skelcd-control-openSUSE-20260519-1.2.aarch64.rpm"
+RPM_HASH = "d3cc83177cb135d5d20853d6be2b077de1debd4715b86ae02809dc580030efec45b421c267259933109b1861c3a18bf63a8389ed037a2bc0f21627ec578d85db"
 
 RPROVIDES:${PN} += "product-control \
 skelcd-control-openSUSE"
@@ -13,7 +13,7 @@ skelcd-control-openSUSE"
 RDEPENDS:${PN} += "autoyast2 \
 kdump \
 release-notes \
-rubygem-ruby-3.2.0-byebug \
+rubygem-ruby-4.0.0-byebug \
 yast2-add-on \
 yast2-configuration-management \
 yast2-fcoe-client \

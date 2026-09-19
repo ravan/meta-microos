@@ -1,78 +1,81 @@
-SUMMARY = "Persian for LaTeX, using XeTeX"
+SUMMARY = "Persian for LaTeX, using LuaTeX or XeTeX"
 DESCRIPTION = "This package provides a convenient interface for typesetting \
-Persian and English texts in LaTeX, using the XeTeX engine."
+Persian and English texts in LaTeX, using the LuaTeX or the \
+XeTeX engine. The name 'XePersian' is derived from the words \
+experience and persian and captures the author's philosophy of \
+writing the package for the best Persian typesetting experience \
+in TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.24.8svn64872"
+PV = "2026.226.26.01.01svn77682"
 
-RPM_NAME = "texlive-xepersian-2023.209.24.8svn64872-53.2.noarch.rpm"
-RPM_HASH = "4097244a06e236ce6b98414efcdd17e5a1d1e61b61f42c3a913df486ff0424f9da9421962e8b5c33b10dc02c88db5fdbeda05e797d4ec8e5dbe9c9f56fdc56f1"
+RPM_NAME = "texlive-xepersian-2026.226.26.01.01svn77682-59.4.noarch.rpm"
+RPM_HASH = "6120b79fe5c89b86828ca43c6d6b4fe79f601a48474b85a6489f73ba572c70b4f235f3ae960d952ed7347fdd696ee401049b8d7702b52fddaa9429d8aab85a7b"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-algorithm-xepersian.def \
-tex-algorithmic-xepersian.def \
-tex-amsart-xepersian.def \
-tex-amsbook-xepersian.def \
-tex-appendix-xepersian.def \
-tex-article-xepersian.def \
-tex-artikel1-xepersian.def \
-tex-artikel2-xepersian.def \
-tex-artikel3-xepersian.def \
-tex-backref-xepersian.def \
-tex-beamer-xepersian.def \
-tex-beamerbasetranslator-xepersian.def \
-tex-bidimoderncv-xepersian.def \
-tex-bidituftesidenote-xepersian.def \
-tex-boek-xepersian.def \
-tex-boek3-xepersian.def \
-tex-book-xepersian.def \
-tex-bookest-xepersian.def \
-tex-breqn-xepersian.def \
-tex-color-localise-xepersian.def \
-tex-enumerate-xepersian.def \
-tex-enumitem-xepersian.def \
-tex-extarticle-xepersian.def \
-tex-extbook-xepersian.def \
-tex-extrafootnotefeatures-xepersian.def \
-tex-extreport-xepersian.def \
-tex-fancyref-xepersian.def \
-tex-footnote-xepersian.def \
-tex-framed-xepersian.def \
-tex-glossaries-xepersian.def \
-tex-hyperref-xepersian.def \
-tex-imsproc-xepersian.def \
-tex-kashida-xepersian.def \
-tex-latex-localise-commands-xepersian.def \
-tex-latex-localise-environments-xepersian.def \
-tex-latex-localise-messages-xepersian.def \
-tex-latex-localise-misc-xepersian.def \
-tex-listings-xepersian.def \
-tex-loadingorder-xepersian.def \
-tex-localise-xepersian.def \
-tex-memoir-xepersian.def \
-tex-minitoc-xepersian.def \
-tex-natbib-xepersian.def \
-tex-packages-localise-xepersian.def \
+RPROVIDES:${PN} += "tex-algorithm-xetex-xepersian.def \
+tex-algorithmic-xetex-xepersian.def \
+tex-amsart-xetex-xepersian.def \
+tex-amsbook-xetex-xepersian.def \
+tex-appendix-xetex-xepersian.def \
+tex-article-xetex-xepersian.def \
+tex-artikel1-xetex-xepersian.def \
+tex-artikel2-xetex-xepersian.def \
+tex-artikel3-xetex-xepersian.def \
+tex-backref-xetex-xepersian.def \
+tex-beamer-xetex-xepersian.def \
+tex-beamerbasetranslator-xetex-xepersian.def \
+tex-bidimoderncv-xetex-xepersian.def \
+tex-bidituftesidenote-xetex-xepersian.def \
+tex-boek-xetex-xepersian.def \
+tex-boek3-xetex-xepersian.def \
+tex-book-xetex-xepersian.def \
+tex-bookest-xetex-xepersian.def \
+tex-breqn-xetex-xepersian.def \
+tex-color-localize-xetex-xepersian.def \
+tex-enumerate-xetex-xepersian.def \
+tex-enumitem-xetex-xepersian.def \
+tex-extarticle-xetex-xepersian.def \
+tex-extbook-xetex-xepersian.def \
+tex-extrafootnotefeatures-xetex-bidi-xetex-xepersian.def \
+tex-extreport-xetex-xepersian.def \
+tex-fancyref-xetex-xepersian.def \
+tex-footnote-xetex-bidi-xetex-xepersian.def \
+tex-framed-xetex-xepersian.def \
+tex-glossaries-xetex-xepersian.def \
+tex-hyperref-xetex-xepersian.def \
+tex-imsproc-xetex-xepersian.def \
+tex-kashida-xetex-xepersian.def \
+tex-latex-localize-commands-xetex-xepersian.def \
+tex-latex-localize-environments-xetex-xepersian.def \
+tex-latex-localize-messages-xetex-xepersian.def \
+tex-latex-localize-misc-xetex-xepersian.def \
+tex-listings-xetex-xepersian.def \
+tex-localize-xetex-xepersian.def \
+tex-memoir-xetex-xepersian.def \
+tex-minitoc-xetex-xepersian.def \
+tex-natbib-xetex-xepersian.def \
+tex-packages-localize-xetex-xepersian.def \
 tex-persian-tex-text-nonumbers.map \
 tex-persian-tex-text.map \
-tex-rapport1-xepersian.def \
-tex-rapport3-xepersian.def \
-tex-refrep-xepersian.def \
-tex-report-xepersian.def \
-tex-scrartcl-xepersian.def \
-tex-scrbook-xepersian.def \
-tex-scrreprt-xepersian.def \
-tex-soul-xepersian.def \
-tex-tkz-linknodes-xepersian.def \
-tex-tocloft-xepersian.def \
-tex-url-xepersian.def \
-tex-varioref-xepersian.def \
-tex-xepersian-localise-commands-xepersian.def \
-tex-xepersian-localise-environments-xepersian.def \
+tex-rapport1-xetex-xepersian.def \
+tex-rapport3-xetex-xepersian.def \
+tex-refrep-xetex-xepersian.def \
+tex-report-xetex-xepersian.def \
+tex-scrartcl-xetex-xepersian.def \
+tex-scrbook-xetex-xepersian.def \
+tex-scrreprt-xetex-xepersian.def \
+tex-soul-xetex-xepersian.def \
+tex-tkz-linknodes-xetex-xepersian.def \
+tex-tocloft-xetex-xepersian.def \
+tex-unicode-persiancal.sty \
+tex-unicode-persianmath.sty \
+tex-url-xetex-xepersian.def \
+tex-varioref-xetex-xepersian.def \
+tex-xepersian-localize-commands-xetex-xepersian.def \
+tex-xepersian-localize-environments-xetex-xepersian.def \
 tex-xepersian-magazine.cls \
-tex-xepersian-mathdigitspec.sty \
 tex-xepersian-multiplechoice.sty \
-tex-xepersian-persiancal.sty \
 tex-xepersian.sty \
 texlive-xepersian"
 
@@ -83,10 +86,8 @@ findutils \
 grep \
 sed \
 tex-article.cls \
-tex-bidi.sty \
 tex-calc.sty \
 tex-datetime.sty \
-tex-extrafootnotefeatures-xetex-bidi.def \
 tex-fancybox.sty \
 tex-fancyhdr.sty \
 tex-fontspec.sty \

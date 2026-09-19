@@ -2,10 +2,10 @@ SUMMARY = "Translations for package revelation"
 DESCRIPTION = "Provides translations for the 'revelation' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.5.4"
+PV = "0.5.6"
 
-RPM_NAME = "revelation-lang-0.5.4-2.7.noarch.rpm"
-RPM_HASH = "421c5d52ae94bc0174727523f89a00c058635a6a993ee987a6dede6bebc1e55372e9a6fabe66b03345895129a24692a01fe77d399acba2625d086c5a5f12b903"
+RPM_NAME = "revelation-lang-0.5.6-1.3.noarch.rpm"
+RPM_HASH = "d7f71ebb6fdc8f32b73756c9f06aeaa1ecf8b9719a606ffc3a4f96a68a16fde77b3f95daad5fe06c11b0b121b0aea6a21b6356980e43b2f0866ab5cebeaf96f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-revelation-ca \

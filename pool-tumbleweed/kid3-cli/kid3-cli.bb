@@ -21,16 +21,16 @@ This package contains a command line interface for Kid3, for a GUI you can \
 use kid3-qt or kid3."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.9.3"
+PV = "3.9.7"
 
-RPM_NAME = "kid3-cli-3.9.3-1.4.aarch64.rpm"
-RPM_HASH = "10e5a61a93c3b5f754a2e0b9e528e0d32617fb05c9d8cc40af27ecdc93f482da67e8511e534453104a3d46a54632716281b4b475547802167cb5c574d6a85f55"
+RPM_NAME = "kid3-cli-3.9.7-2.6.aarch64.rpm"
+RPM_HASH = "79fb54c1206a8cba96957e1d7e44712a5424f40c8b21c1f1305caf152ddfd598e6c0bcd98ad90108b437a85bc3c3ff774729750d35f4685b6e6b0965d201fdfd"
 
 RPROVIDES:${PN} += "kid3-cli"
 
 RDEPENDS:${PN} += "kid3-core \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
+libQt6Core.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libkid3-core.so \

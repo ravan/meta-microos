@@ -1,12 +1,12 @@
-SUMMARY = "Simple GObject-based library to parse playlist formats -- Mini Version"
+SUMMARY = "Mini Version of libxplayer-plparser18"
 DESCRIPTION = "xplayer-plparser is a simple GObject-based library to parse a host \
 of playlist formats, to save them too."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.0.2"
+PV = "1.0.3"
 
-RPM_NAME = "libxplayer-plparser-mini18-1.0.2-2.13.aarch64.rpm"
-RPM_HASH = "d947a386ba9ddd18def02a89d6815a47c822246f2eee96548a891dc2dbe6f85c05837fe1dcc169063c436b2484271ef0580476f1aa9808dd6aaf6857ad1bc5e1"
+RPM_NAME = "libxplayer-plparser-mini18-1.0.3-1.13.aarch64.rpm"
+RPM_HASH = "8a5e96b61034e4214281194417e75e1b3d5bc96e6ff7b813b4c6e8e22686affcf308fb5c2fe79fb836a8612df2431ca03d0d25b0ba5acf702481f9ca8d7e9547"
 
 RPROVIDES:${PN} += "libxplayer-plparser-mini.so.18 \
 libxplayer-plparser-mini18"

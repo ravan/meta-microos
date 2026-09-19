@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ted"
 DESCRIPTION = "This package includes the documentation for texlive-ted"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.06svn15878"
+PV = "2026.227.1.06svn76924"
 
-RPM_NAME = "texlive-ted-doc-2023.209.1.06svn15878-55.1.noarch.rpm"
-RPM_HASH = "7c7cdb5b1fc00862f1343ee74dd73513d753012b3b8492b4029a6f3892a52240dcd9b2e7dd000ca2a91c53fad13755b9d94efe57874a79a3eb879438414ea19b"
+RPM_NAME = "texlive-ted-doc-2026.227.1.06svn76924-62.2.noarch.rpm"
+RPM_HASH = "efbe79823d533676d01ab4c6fef68668dc88e5399a8c3e99d10fba7151d0c8c3e08b5e9c775298206188ad5f171107002b66b41ec8747c960dc7025bdf272706"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ted-doc-fr \

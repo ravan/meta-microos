@@ -3,10 +3,10 @@ DESCRIPTION = "SystemTap is an instrumentation system for systems running Linux.
 This package contains the runtime environment for systemtap programs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.9"
+PV = "5.5"
 
-RPM_NAME = "systemtap-runtime-4.9-1.2.aarch64.rpm"
-RPM_HASH = "5f5ef7d608e31d2d041b42db01ba4d9cef54c76c4feb0ed0989305590d2b609e97627cfca72e253d51e1e30039a9b5ab08b5de46948e5bcc1d4eeeb127d5ce11"
+RPM_NAME = "systemtap-runtime-5.5-1.3.aarch64.rpm"
+RPM_HASH = "a2c4cd8c774c7b69d091b621c38929ead5ce7c14f8ecdf983549a6aef1123cf1898577e8b609d68752dc9eceabba9faf85603ab277a0904499a3b85e5d566360"
 
 RPROVIDES:${PN} += "systemtap-runtime"
 

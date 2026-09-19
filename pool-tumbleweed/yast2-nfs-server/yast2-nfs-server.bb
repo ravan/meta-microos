@@ -4,10 +4,10 @@ network file system access. It allows access to files on remote \
 machines."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.2"
 
-RPM_NAME = "yast2-nfs-server-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "d37a00db7a6df31f968e10a3e15affdfed974b1c406d3d77c1d9f9cc43096f75266a34fc8f7eb95293060fc1bab3e68fdacd9d89128b7b9be9c59126f183fdbd"
+RPM_NAME = "yast2-nfs-server-5.0.2-1.2.noarch.rpm"
+RPM_HASH = "33b7b5ecfa7f1ca8686d5a028104bca4b72e24287aa68254fa94ff4a55439e2017dbbc928466824e3469fc7fff325467f353880823515f815436566836bac1b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-nfs-server"

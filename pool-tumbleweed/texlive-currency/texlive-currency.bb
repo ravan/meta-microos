@@ -3,10 +3,10 @@ DESCRIPTION = "The package facilitates the formatting of currencies (amounts \
 and units) with various formatting capabilities."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn48990"
+PV = "2026.226.0.0.4svn48990"
 
-RPM_NAME = "texlive-currency-2023.209.0.0.4svn48990-55.1.noarch.rpm"
-RPM_HASH = "cdfe4ce55f0ab3e69f5f64661bdea2ff2cc0f3c36991200302c803dbcf88716feb2ac2cefb2dbfecaff296a45404146a1ae1da194654e247e0abeceef62d12e9"
+RPM_NAME = "texlive-currency-2026.226.0.0.4svn48990-61.2.noarch.rpm"
+RPM_HASH = "2278343ad99dcf8663ba6c9879cb8f68f14d1d3dddf2318d6a921261943ddaacbe390729d61f4e612d6b96cfc6a9d2b1e233d2f8647d1c342518c3874e6a350d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-currency.sty \

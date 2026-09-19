@@ -20,10 +20,10 @@ recommended, but not required (FS-UAE can emulate a joystick \
 using the cursor keys and right Ctrl/Alt keys)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.66"
+PV = "3.2.35"
 
-RPM_NAME = "fs-uae-3.1.66-1.9.aarch64.rpm"
-RPM_HASH = "c6317ce580814799aabf576729adf3562b0579b1120509ce63b3891edc4176496b591e3498dc6f50dd2c83740a6539320d749e3af4ee8ef00b4915668467ca3e"
+RPM_NAME = "fs-uae-3.2.35-2.1.aarch64.rpm"
+RPM_HASH = "f1807e7eb6bf23ffda4bec73bb4e641ee45a26e8898d44158ed4accf21745f872ed54acecc76af6308482cc4b0d15626121cd2cd8c85f78872d1c170237b8035"
 
 RPROVIDES:${PN} += "fs-uae"
 

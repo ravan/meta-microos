@@ -3,16 +3,15 @@ DESCRIPTION = "This Bill of Materials POM can be used to ease dependency managem
 when referencing multiple JUnit artifacts using Gradle or Maven."
 LICENSE = "EPL-2.0"
 
-PV = "5.8.2"
+PV = "5.14.4"
 
-RPM_NAME = "junit5-bom-5.8.2-1.10.noarch.rpm"
-RPM_HASH = "6773dda6bc87b2afaadcdc7916f5a352b74f8500d1d3dc9a763283033c79c98dceda2a81f2c2b63b40da0669020f38490adfac9a57d6cdc6da010fafa4b51777"
+RPM_NAME = "junit5-bom-5.14.4-2.2.noarch.rpm"
+RPM_HASH = "727b7442ccd26d4ab2e6400d302550df916565f3c07ebe00005c7d03bf199f4db27566dd6ef7349bef8827222088550b5c232012e8700c0265ea28f5356abf23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "junit5-bom \
 mvn-org.junit-junit-bom-pom-"
 
-RDEPENDS:${PN} += "java-headless \
-javapackages-filesystem"
+RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

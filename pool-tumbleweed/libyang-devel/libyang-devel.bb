@@ -11,16 +11,16 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libyang."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.55"
+PV = "3.13.6"
 
-RPM_NAME = "libyang-devel-2.1.55-1.2.aarch64.rpm"
-RPM_HASH = "89d6d58cdf56770b28082e3fd48e25c38242da9d066c6ad721c1e1d3c4015a97aea106cdec93edd389afae72407e04241a451a139c55cc1014196690e037b7ea"
+RPM_NAME = "libyang-devel-3.13.6-3.3.aarch64.rpm"
+RPM_HASH = "2dfd8665a7cd594ccf9e7fe2fff4393c145e7a7dec3cb37f4486eaa6bceb5b87a3dceba4fdb7a96c3a6f9fdc40ef4c25149ae58c15ae9371194a09be21cd086c"
 
 RPROVIDES:${PN} += "libyang-devel \
 pkgconfig-libyang"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libyang2 \
+libyang3 \
 pkgconfig-libpcre2-8"
 
 inherit rpm

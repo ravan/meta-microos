@@ -3,10 +3,10 @@ DESCRIPTION = "Pagure comes with an eventsource server allowing live update of t
 supporting it. This package provides it."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.13.3"
+PV = "5.14.1"
 
-RPM_NAME = "pagure-ev-5.13.3-1.5.noarch.rpm"
-RPM_HASH = "c9fae445619d5d971d22ef89c6335a9abcc0f5f4c4b947c00956ad6556ade0f7ee9d528c20d715ddf200f7f2733c0e69a33221aacc0e4c698dbdb3ae86641539"
+RPM_NAME = "pagure-ev-5.14.1-3.3.noarch.rpm"
+RPM_HASH = "8f4a998bec5fab928227d2fcf7e3ad26831692afd6ae3eccce34cb8db3b7f6930177f4997d30bba4ddaa8bfece21546d9dd342b0756c6fe19a1c293f96df877d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-ev"

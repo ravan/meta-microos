@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.5"
 
-RPM_NAME = "libsolarus-gui1-1.6.5-2.16.aarch64.rpm"
-RPM_HASH = "573a3d803b683734d9573929eab0061ea7f76955fe6afc86c0436a78cfe6b98deb738aadb14c659f5dd2554077c87bd9228ef4bda77072d10a16d42e7748d0af"
+RPM_NAME = "libsolarus-gui1-1.6.5-3.3.aarch64.rpm"
+RPM_HASH = "4c58bd83fa4ef0cc09e7cde899a78f18f549b8ec6e287ad6a1b51f5709c55e46b370c7a66e1d53cd3fe90d3b2ca3ee04e0666aa6866236c103c02ca799295f66"
 
 RPROVIDES:${PN} += "libsolarus-gui.so.1 \
 libsolarus-gui1"

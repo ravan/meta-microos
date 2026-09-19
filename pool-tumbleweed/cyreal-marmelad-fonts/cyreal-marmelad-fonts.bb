@@ -15,8 +15,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.000"
 
-RPM_NAME = "cyreal-marmelad-fonts-1.000-7.17.noarch.rpm"
-RPM_HASH = "2b20136d7fcc7558c86a6f1fc4ff6f6b9d30a53f48f9075eadea3e4b919e97d212e54dc29dd5b71c8275e3fd4c5c9cf3a1b7b2e91557fc2c8357ecde11bb0343"
+RPM_NAME = "cyreal-marmelad-fonts-1.000-7.25.noarch.rpm"
+RPM_HASH = "3762e6d56300293926cc0a84f26dae88d03fb19429269816078b7e4ef4d53dff29263f676d9f90ce9b93c14c9d187871f25a04d72c07e9b2db390e7920e4a064"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cyreal-marmelad-fonts"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tlc-article"
 DESCRIPTION = "This package includes the documentation for texlive-tlc-article"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.1.0.17svn51431"
+PV = "2026.226.1.0.17svn51431"
 
-RPM_NAME = "texlive-tlc-article-doc-2023.209.1.0.17svn51431-53.1.noarch.rpm"
-RPM_HASH = "e07d725f8992fd3958045e875e812ca6c4136be1de3478f985045793feb210ec94da3b64d90ced8913b96c7fb55e808d6a83d0418370a583156dd9c69c61569f"
+RPM_NAME = "texlive-tlc-article-doc-2026.226.1.0.17svn51431-59.2.noarch.rpm"
+RPM_HASH = "4ce87b240fd30d0f0bf92c065a72277aff862fd0b7f8e197e94458f2b44d8c542578466f972beefa63113f621202cb13c0754922b1f82eb14a77e1714ffa26cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tlc-article-doc"

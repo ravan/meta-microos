@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the GObject Introspection bindings for the 
 ayatana appindicator library."
 LICENSE = "GPL-3.0-only & LGPL-2.0-only & LGPL-3.0-only"
 
-PV = "0.5.91"
+PV = "0.5.93"
 
-RPM_NAME = "typelib-1_0-AyatanaAppIndicator3-0_1-0.5.91-1.5.aarch64.rpm"
-RPM_HASH = "2d3d03da3bf730b4abe7e83cc0e24fd595d373bb83e74313d9c0f29f478eb5018f9fbe1a07b4d675dd15e1b709a89b28c229def85ef55efa255d3a4794fca113"
+RPM_NAME = "typelib-1_0-AyatanaAppIndicator3-0_1-0.5.93-3.4.aarch64.rpm"
+RPM_HASH = "55c19a102b83fdddaccc2f4416c1b31b485258541983ba3eaae5e4c96045077974a02ebf725d8f50a5ab0e49182ff9dee59d90950af66f1a913c524f3297ac8b"
 
 RPROVIDES:${PN} += "typelib-1-0-AyatanaAppIndicator3-0-1 \
 typelib-AyatanaAppIndicator3"

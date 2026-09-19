@@ -4,10 +4,10 @@ is hyperlinked to the URL of the researcher whose iD was \
 specified."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.4svn59560"
+PV = "2026.226.1.1.0svn77682"
 
-RPM_NAME = "texlive-orcidlink-2023.209.1.0.4svn59560-55.1.noarch.rpm"
-RPM_HASH = "617a6b331467744ed87a597978d9d25fb8e226f65416ab9eed647bb13c33d4655170b4f6efcc5d853ea240559c1710d1e9811c01801fe37a0af48c52549a348e"
+RPM_NAME = "texlive-orcidlink-2026.226.1.1.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "156d7ff8f82422f69b5538285677fcaccebcf8800931411ebd6dd205ce1860128c137f232a9bd2ab5ae9e7f59a17dd8332ef2a0ce59498402c00edafceb78ae0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-orcidlink.sty \

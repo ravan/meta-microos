@@ -1,34 +1,16 @@
 SUMMARY = "Easily generate and process stateful forms"
-DESCRIPTION = "The goal of CGI::FormBuilder (FormBuilder) is to provide an easy \
-way for you to generate and process entire CGI form-based \
-applications. Its main features are: \
+DESCRIPTION = "If this is your first time using *FormBuilder*, you should check out the \
+website for tutorials and examples at http://formbuilder.org. \
  \
-Field Abstraction \
-  Viewing fields as entities (instead of just params), where the \
-  HTML representation, CGI values, validation, and so on are \
-  properties of each field. \
- \
-DWIMmery \
-  Lots of built-in 'intelligence' (such as automatic field typing), \
-  giving you about a 4:1 ratio of the code it generates versus what \
-  you have to write. \
- \
-Built-in Validation \
-  Full-blown regex validation for fields, even including \
-  JavaScript code generation. \
- \
-Template Support \
- Pluggable support for external template engines, \
-  such as HTML::Template, Text::Template, Template Toolkit, \
-  and CGI::FastTemplate. \
- \
-Plus, the native HTML generated is valid XHTML 1.0 Transitional."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+You should also consider joining the google group at \
+http://groups.google.com/group/perl-formbuilder. There are some pretty \
+smart people on the list that can help you out."
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.10"
+PV = "3.200.0"
 
-RPM_NAME = "perl-CGI-FormBuilder-3.10-1.25.noarch.rpm"
-RPM_HASH = "5daecca2808d75297210d84902e6556f51c54957b18c9391e13975718f0cc9494aa2ca0609046c95f3155f59cd2dc05c3fb275e9685b1de6b08add05df3728e0"
+RPM_NAME = "perl-CGI-FormBuilder-3.200.0-1.9.noarch.rpm"
+RPM_HASH = "6f4cb04db332b9d07bf74d379dd1d923bf48e5b9e60feb528e8e410ff1f9ff58cac7b136bee9cb2cba86c6242b895e22c0f7ae09bac0a3b6bd241c8c007cd7e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--FormBuilder \
@@ -71,7 +53,7 @@ perl-CGI--FormBuilder--Test \
 perl-CGI--FormBuilder--Util \
 perl-CGI-FormBuilder"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-CGI"
 
 inherit rpm

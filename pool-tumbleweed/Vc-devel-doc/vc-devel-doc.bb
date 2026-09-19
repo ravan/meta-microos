@@ -7,10 +7,10 @@ sets. \
 This package provides the API documentation"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.3"
+PV = "1.4.5"
 
-RPM_NAME = "Vc-devel-doc-1.4.3-1.7.noarch.rpm"
-RPM_HASH = "36967862b8d5020fde3c0ed4c4a0ccf8948bdcaa26086816ceb68e01a1f5a36356e644ae53a2c2480683773db6f4d69dff7cb44b70dfa7cf9f9d49d1a04c11e7"
+RPM_NAME = "Vc-devel-doc-1.4.5-1.10.noarch.rpm"
+RPM_HASH = "c93e3ee62328fd04441f67f8df81c2462d21d83282e72d516b4f9558a5c685e52c49d7d022bce45af74d9fef7299cd128eec4ab6c974259ba185a3c6043d5597"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Vc-devel-doc"

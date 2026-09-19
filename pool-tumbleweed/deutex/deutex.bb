@@ -10,10 +10,10 @@ example, from PPM to Doom picture format). In addition, DeuTex has \
 functions such as merging WADs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.2.2"
+PV = "5.2.3"
 
-RPM_NAME = "deutex-5.2.2-1.10.aarch64.rpm"
-RPM_HASH = "7a012f661ba16cb607778095a45ae8a5cb26803e05bfb7651046c54f0b3f8053a679095617a8dded7c85f9e7c79a5aec5c39221897b06756e4caf313f589165e"
+RPM_NAME = "deutex-5.2.3-1.7.aarch64.rpm"
+RPM_HASH = "e98be82c5d60f58cdbfcddbd9d6d3221c9b6d5f5296a0ce33e91a478f501794f349fd1bc1b613b94d458d5361c3d4aad4474b2577b22a90253044d8593a4aa1a"
 
 RPROVIDES:${PN} += "deutex"
 

@@ -5,18 +5,14 @@ key files and PIN/TAN including chipTAN and smsTAN for authentification. \
 Supported file formats include MT940, DTAUS, CSV, Moneyplex and PDF/HTML."
 LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.0-only & CPL-1.0 & Zlib & MPL-1.0 & EPL-1.0"
 
-PV = "2.10.8"
+PV = "2.12.0"
 
-RPM_NAME = "hibiscus-2.10.8-1.3.aarch64.rpm"
-RPM_HASH = "b1f0afbf6c519489b02f34c47909064b612f2fd2b7f405760f9bff38684e4d113d8551bc2f45bfd01804360dc99376c0693e5b19a486b202496fd17f6966d27c"
+RPM_NAME = "hibiscus-2.12.0-1.5.aarch64.rpm"
+RPM_HASH = "8ec47aa79316c28dda1ea3e10c811c308db7cd1c41233c99f607da90c8bb460c3ca1588de5f9e0f5cb86af3eee1b735c8ef95cb49820335cca0b876a7d81ca4c"
 
 RPROVIDES:${PN} += "hibiscus"
 
-RDEPENDS:${PN} += "eclipse-swtchart \
-hbci4java \
-itextpdf \
-jameica \
-pcsc-towitoko-devel \
-super-csv"
+RDEPENDS:${PN} += "/sbin/ldconfig \
+jameica"
 
 inherit rpm

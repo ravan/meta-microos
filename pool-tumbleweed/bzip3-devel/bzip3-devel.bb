@@ -2,15 +2,15 @@ SUMMARY = "Development files for libbzip3"
 DESCRIPTION = "Development headers and library files for BZip3."
 LICENSE = "BSD-2-Clause & LGPL-3.0-or-later"
 
-PV = "1.3.2"
+PV = "1.5.4"
 
-RPM_NAME = "bzip3-devel-1.3.2-1.1.aarch64.rpm"
-RPM_HASH = "ec4fab09c47d6f5d841242a54a7e0563ab77a2c2e857433d71be8890c6be526f95427faaf9dca23f8b2117cead7c40131968ea4e60a58d99213d5dcd6e1afc7b"
+RPM_NAME = "bzip3-devel-1.5.4-1.1.aarch64.rpm"
+RPM_HASH = "6bf8a68ac7b4eb255330c3ba7990f8401dbe25858c5ba57abc199550bf25e01b22f0d629e727f89ec57c77eab9e33b372f9223cb4a21da21b52c8f05816a917c"
 
 RPROVIDES:${PN} += "bzip3-devel \
 pkgconfig-bzip3"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libbzip3-0"
+libbzip3-1"
 
 inherit rpm

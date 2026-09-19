@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the library with common API for various \
 MATE modules."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "1.26.1"
+PV = "1.28.2"
 
-RPM_NAME = "mate-desktop-1.26.1-1.2.aarch64.rpm"
-RPM_HASH = "05b3b44eaa97ecab7e5980ab710d65a9a96942f0ec53a82d85c28508253e5fd15f37c2b7f129c3c8eb7fff55b346bce14348217f5aa636f981ce97744177848d"
+RPM_NAME = "mate-desktop-1.28.2-1.13.aarch64.rpm"
+RPM_HASH = "38c8507d2e1b5369f537f1611041deb592f53d8c99a934412d3998de593ef4713ff8593997937cdbc0dffb84e218274d8bab552641eaf8d73261df9cf106842a"
 
 RPROVIDES:${PN} += "mate-desktop"
 

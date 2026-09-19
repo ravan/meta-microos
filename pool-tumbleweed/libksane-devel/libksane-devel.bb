@@ -1,22 +1,16 @@
 SUMMARY = "Development files for the KDE scanning library"
-DESCRIPTION = "This package contains a library to add scan support to KDE \
-applications."
+DESCRIPTION = "This package contains a library to add scan support to KDE applications."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libksane-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "052dc37d5895a68d2405412153f97cd862b542a063d61107c69401f495fb1ff6680f2b2a8fbef4abb487a3b6cb33066f5d09f5324cfc0d170d78d1afe60f4101"
+RPM_NAME = "libksane-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "69e94505a01ffc941464403397dd34daf40b7963a5cc43ac6ae9900063357fd6152518a8d38a5e6c9889b4748b29d4940671db99f0aeff70faf0ea0eca92a9cb"
 
-RPROVIDES:${PN} += "cmake-KF5Sane \
-libksane-devel \
-libksane-kf5-devel"
+RPROVIDES:${PN} += "cmake-KSaneWidgets6 \
+libksane-devel"
 
-RDEPENDS:${PN} += "cmake-KF5Wallet \
-cmake-KF5WidgetsAddons \
-cmake-Qt5Widgets \
-libKF5Sane5 \
-pkgconfig \
-sane-backends-devel"
+RDEPENDS:${PN} += "cmake-Qt6Widgets \
+libKSaneWidgets6"
 
 inherit rpm

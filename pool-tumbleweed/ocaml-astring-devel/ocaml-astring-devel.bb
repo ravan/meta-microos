@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "0.8.5"
 
-RPM_NAME = "ocaml-astring-devel-0.8.5-1.16.aarch64.rpm"
-RPM_HASH = "5dc6d90d4b254f0cbc94051ac05f91b9ec7382055d550d8c793aeb5c3f7e806e81c1e6617df4b3565b313dbde535ad838abf1f5d5b46e49f7ae69aa8c6a16be7"
+RPM_NAME = "ocaml-astring-devel-0.8.5-2.3.aarch64.rpm"
+RPM_HASH = "458c7214b9b6e409755c64e6b560911bccb21795b1f9258cebd1f97b59239e7c0cb4dcba2ad0883b0e6b0aabeb4599ea30acd7f96177b3ee83ba84d949bbad9f"
 
 RPROVIDES:${PN} += "ocaml-Astring \
 ocaml-Astring-base \
@@ -33,13 +33,16 @@ ocaml-Build-path-prefix-map \
 ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-Cmi-format \
+ocaml-Data-types \
 ocaml-Env \
+ocaml-Format-doc \
 ocaml-Ident \
 ocaml-Identifiable \
 ocaml-Load-path \
 ocaml-Location \
 ocaml-Longident \
 ocaml-Misc \
+ocaml-Oprint \
 ocaml-Outcometree \
 ocaml-Parsetree \
 ocaml-Path \
@@ -50,6 +53,7 @@ ocaml-Stdlib--Array \
 ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Hashtbl \
@@ -62,6 +66,7 @@ ocaml-Stdlib--Map \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Printf \
+ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--String \
@@ -71,6 +76,7 @@ ocaml-Subst \
 ocaml-Toploop \
 ocaml-Type-immediacy \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Warnings \
 ocaml-astring \
 ocamlfind-compiler-libs.toplevel \

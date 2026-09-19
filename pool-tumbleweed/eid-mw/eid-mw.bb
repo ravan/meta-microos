@@ -5,10 +5,10 @@ websites and/or sign documents. This package contains a few helper \
 programs needed by the eID Middleware and the infrastructure for eid-mw."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.1.11"
+PV = "5.1.29"
 
-RPM_NAME = "eid-mw-5.1.11-1.1.aarch64.rpm"
-RPM_HASH = "83d83122ea97c4ca0d63e6e080ac626cf0afc68c05bcfc96dbb4752bc16c60e720bee2d9d39a6c494803e6c24078c085f44220275925e1bfb8595fee0a2ce102"
+RPM_NAME = "eid-mw-5.1.29-1.2.aarch64.rpm"
+RPM_HASH = "68737be472c8b011e9b83c35cae30ca87204cd12251b145fabecb9fca002229103c6e469320f4624b10a2c70a786d70778ab7312ff6bc7eed44a383f383a8328"
 
 RPROVIDES:${PN} += "eid-mw"
 

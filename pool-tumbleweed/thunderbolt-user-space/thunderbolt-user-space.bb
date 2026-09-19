@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.3"
 
-RPM_NAME = "thunderbolt-user-space-0.9.3-4.19.aarch64.rpm"
-RPM_HASH = "2577613396849d061972e364ff3ed56c892ba50bf852efaa834df88c9d5148fe1c2c5f2fb57cd3ec96006e2221281b06e633f7680501f48f404a9c1cc2b73a85"
+RPM_NAME = "thunderbolt-user-space-0.9.3-7.7.aarch64.rpm"
+RPM_HASH = "9958d1518ff2e874489a0e90219c7669a435781869acf8e72924cdf38292663945c19eb3b6448aa1566d2ef95d5fe4b49f3619e256e4f595cd43e24dbbcb2be1"
 
 RPROVIDES:${PN} += "config-thunderbolt-user-space \
 thunderbolt-user-space"
@@ -19,7 +19,7 @@ thunderbolt-user-space"
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libboost-filesystem.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

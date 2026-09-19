@@ -8,23 +8,23 @@ and the selection of X509v3 extensions. A tree view of certificates \
 is presented."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.4.0"
+PV = "2.9.0"
 
-RPM_NAME = "xca-2.4.0-2.4.aarch64.rpm"
-RPM_HASH = "b14bd5e1e0fe0416904fb3f3af8aa5a36e9292e6a3dd0a77d6e6474a373258060caa82a573db863369bd528c7adf59e03cd1b5154b1a2c5d3573dbce8f4eb1ee"
+RPM_NAME = "xca-2.9.0-4.1.aarch64.rpm"
+RPM_HASH = "2b182947531c6437bf3e2170990f3a10fb7382c4779e98d3e14e0928bd4f9c54486e105b48450fc9241394a315b65bb92e9a3c95147986f75c63987212b15735"
 
 RPROVIDES:${PN} += "xca"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Help.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Help.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libcrypto.so.1.1 \
+libcrypto.so.3 \
 libgcc-s.so.1 \
-libltdl.so.7 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6-sql-sqlite"
 
 inherit rpm

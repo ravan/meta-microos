@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "12.0"
 
-RPM_NAME = "fetchmsttfonts-12.0-1.8.noarch.rpm"
-RPM_HASH = "0a9aa7a2da12e975a65898b845990486ca61097c5c9a5fbc8871ee65fd8a1ad885656be73890d196b0c90a71545f1c11bf9dfe3ec7c6f3ddd112999d9c4619f4"
+RPM_NAME = "fetchmsttfonts-12.0-1.16.noarch.rpm"
+RPM_HASH = "b3a66509b2926869dc499141362b18ccde45ec83732748179d83ae3c4b286d4a12b7aa13221e525b8c3df323d7b9d8440c13537eba1b0953d70f2f55cc64f4cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fetchmsttfonts"

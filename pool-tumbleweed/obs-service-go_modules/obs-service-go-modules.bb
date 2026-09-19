@@ -13,16 +13,16 @@ Then create a vendor.tar.gz populated with the contents of \
 vendor/"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.3"
+PV = "0.6.9"
 
-RPM_NAME = "obs-service-go_modules-0.6.3-1.1.noarch.rpm"
-RPM_HASH = "6f641b0e7b374009b707d379575189158c1a0f04e1ca74aefc2b6f68bf27a5e0489ec0f3bdf398f273b370c69efbe79fed88759fc767df58ba693cc5a87a9a10"
+RPM_NAME = "obs-service-go_modules-0.6.9-1.4.noarch.rpm"
+RPM_HASH = "efaa2ad97e04aacb900413d402ea69b8be45abf004e4ebff108bb18db7d8d4de7c24386ba6785afe0b0661650a52210d7fe0002f7a8e5023ce56e5609b070a9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-go-modules"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-go \
+golang-API \
 python3-libarchive-c"
 
 inherit rpm

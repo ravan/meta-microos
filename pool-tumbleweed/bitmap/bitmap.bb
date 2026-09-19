@@ -9,10 +9,10 @@ strings. They are most commonly used to quickly print out bitmaps and \
 to generate versions for including in text."
 LICENSE = "X11"
 
-PV = "1.1.0"
+PV = "1.1.2"
 
-RPM_NAME = "bitmap-1.1.0-1.6.aarch64.rpm"
-RPM_HASH = "bba511ba705fa6fba9b9371ee6e16718d15bcea8022bbbe97003b377a7e66feafa290e07080aa507d0a75ce2a06841d9991fc78d320f1ccdbb3a380fbd7400cd"
+RPM_NAME = "bitmap-1.1.2-1.5.aarch64.rpm"
+RPM_HASH = "ce2d2cffd4c7af8f0b21085e314c36a61f22d3adc656bf2888ddd42fb2b81c428bc6e7e215d9c844066f38a987a2990f1b5a74ca4613a49d50e7b0b5570b51e8"
 
 RPROVIDES:${PN} += "bitmap"
 

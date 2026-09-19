@@ -1,11 +1,11 @@
 SUMMARY = "Documentation for the cfitsio library"
 DESCRIPTION = "This package contains documentation for the cfitsio library."
-LICENSE = "ISC"
+LICENSE = "NASA-1.3"
 
-PV = "4.3.0"
+PV = "4.7.0"
 
-RPM_NAME = "cfitsio-devel-doc-4.3.0-1.1.noarch.rpm"
-RPM_HASH = "1ccb73bc3cdb757b304b9bcf6b517eeb069889880c3dd078a82459bd2b7cb10d0db3e16d9b9409c0e747f15fd4841b7165f3fe71efd1d9fe6b236d115fdd5c24"
+RPM_NAME = "cfitsio-devel-doc-4.7.0-1.1.noarch.rpm"
+RPM_HASH = "365ffea239f21f481840a67715763298d6d1bb295f656e65d46709733f9aa29ddc397c3f54ac9fa1c34a912d134643e49bbb69c07aeffb4ffe57d49997bc0060"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cfitsio-devel-doc \

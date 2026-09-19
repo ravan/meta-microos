@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the development files for the tpm2 stack's 
 accessing TPM 2.0 chips."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.0.1"
+PV = "4.1.3"
 
-RPM_NAME = "tpm2-0-tss-devel-4.0.1-2.1.aarch64.rpm"
-RPM_HASH = "d4546352b98a55ca356870addc64deafbfe59114d3452f908eed6905f4391f0529e0c13a204c13221a56c4f6c383eec84515eefeb219b204fb1193a597cad9f2"
+RPM_NAME = "tpm2-0-tss-devel-4.1.3-1.6.aarch64.rpm"
+RPM_HASH = "e623ebf8f69a1a6efd28f5808490124da440e812ecb8367635616cb13d06093d6ca6ea02901c5c549368d05065b410a46ce5eb053d76825d1d878ee6c06eafbb"
 
 RPROVIDES:${PN} += "pkgconfig-tss2-esys \
 pkgconfig-tss2-fapi \
@@ -16,9 +16,11 @@ pkgconfig-tss2-rc \
 pkgconfig-tss2-sys \
 pkgconfig-tss2-tcti-cmd \
 pkgconfig-tss2-tcti-device \
+pkgconfig-tss2-tcti-i2c-helper \
 pkgconfig-tss2-tcti-mssim \
 pkgconfig-tss2-tcti-pcap \
 pkgconfig-tss2-tcti-spi-helper \
+pkgconfig-tss2-tcti-spidev \
 pkgconfig-tss2-tcti-swtpm \
 pkgconfig-tss2-tctildr \
 tpm2-0-tss-devel"
@@ -33,9 +35,11 @@ libtss2-rc0 \
 libtss2-sys1 \
 libtss2-tcti-cmd0 \
 libtss2-tcti-device0 \
+libtss2-tcti-i2c-helper0 \
 libtss2-tcti-mssim0 \
 libtss2-tcti-pcap0 \
 libtss2-tcti-spi-helper0 \
+libtss2-tcti-spidev0 \
 libtss2-tcti-swtpm0 \
 libtss2-tctildr0 \
 pkgconfig-json-c \

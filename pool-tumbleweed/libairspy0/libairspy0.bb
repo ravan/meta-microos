@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.10"
 
-RPM_NAME = "libairspy0-1.0.10-1.9.aarch64.rpm"
-RPM_HASH = "d5b7912ee6db69789fa0fbdab94f5a2a28c0196cb58aade57d8a4b72cb782bfd4f8b5476dfa33ab21db1ab86f6eb094c7ed94793748663d40f9cfdcc433a32ec"
+RPM_NAME = "libairspy0-1.0.10-3.5.aarch64.rpm"
+RPM_HASH = "4acb22c4a00baaeb244d33fd6b7703dc23484042696310733deafd5fada209d032317b5636cb977c72f52f869739ab359add91e7ab76092a69a340a0f23a657e"
 
 RPROVIDES:${PN} += "libairspy.so.0 \
 libairspy0"

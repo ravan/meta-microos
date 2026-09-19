@@ -6,10 +6,10 @@ It can be used to improve portability and other functionality in your programs. 
 This package contains devel files of gnulib."
 LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-or-later & LGPL-3.0-or-later"
 
-PV = "git.20211127.db493d1ce"
+PV = "git.20260114.2a288c048e"
 
-RPM_NAME = "gnulib-devel-git.20211127.db493d1ce-2.7.noarch.rpm"
-RPM_HASH = "fc214cb7f9c20e6791a4ddd718708a68844515701c81f516b6d67a2ade456b2a172897f856894a509df236a28fa1c3e7faa7741e4cd214b4a0a3d508a37fd902"
+RPM_NAME = "gnulib-devel-git.20260114.2a288c048e-2.7.noarch.rpm"
+RPM_HASH = "7fa0e6311e179845390ba09dc046d871198ea1a0822ec83d9d95ec14df2ee51d422aaa5ab7ac4690ac5d4f50e06faf0d0c8f6d29bf486da55db2cb36ed5a3501"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnulib \

@@ -3,10 +3,10 @@ DESCRIPTION = "Cheese is an application to take photos and videos with your webc
 with fun graphical effects."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.1+12"
 
-RPM_NAME = "cheese-devel-44.1-1.1.aarch64.rpm"
-RPM_HASH = "196b850a0096164e2f04560cff652ba626a3208aa570fb43520a5eb29007dc050606c8c000e725f1af5e649957c82e42449075de161398eed4a4b48372f0c116"
+RPM_NAME = "cheese-devel-44.1+12-1.6.aarch64.rpm"
+RPM_HASH = "362ac216255e87f3f06c449fd8b529ce34848c7a44cd888761312fa3add0ba82a95907a103ee91be335348239dbab6ba6e952eb0c6025181ff16961d105384f6"
 
 RPROVIDES:${PN} += "cheese-devel \
 pkgconfig-cheese \

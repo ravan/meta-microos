@@ -9,10 +9,10 @@ ps2pdf/Distiller (Xe)LaTeX(x) - dvipdfmx pdfLaTeX and LuaLaTeX \
 packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.56svn65292"
+PV = "2026.226.0.0.60svn76924"
 
-RPM_NAME = "texlive-ocgx2-2023.209.0.0.56svn65292-55.1.noarch.rpm"
-RPM_HASH = "49db837021d6e736d6250166c74d8d886c14a620a7d00147ff2aecd5352eeac4e957a5de13fbe02c312271f3be93f3574aaee022e728700410936b95bb2a8f19"
+RPM_NAME = "texlive-ocgx2-2026.226.0.0.60svn76924-61.2.noarch.rpm"
+RPM_HASH = "3e85b72c2c8e48754d367e55bbe38893767bf9125816150434e225f59f14ff41c6a18f7a6031da29ef15525f7945a26681bcf4a5fa06dcc60a4a4168d5735f16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fixocgx.sty \

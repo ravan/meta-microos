@@ -8,10 +8,10 @@ installed. Also, you must run pdflatex with the --shell-escape \
 option, in order to allow LaTeX to run qpdf."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5.1svn65150"
+PV = "2026.226.0.0.6.1svn74392"
 
-RPM_NAME = "texlive-kdpcover-2023.209.0.0.5.1svn65150-56.1.noarch.rpm"
-RPM_HASH = "f51aadc72cc0f2e8fed45a4ab9498a0290a93381de38aaa3be311fb5da4ae703d35617560929c6b9c346aab2694ddc0f44bb572e14c70c78cf8dd53868b86dd6"
+RPM_NAME = "texlive-kdpcover-2026.226.0.0.6.1svn74392-63.2.noarch.rpm"
+RPM_HASH = "536a184fb7054b22b630841a4607e989a535d269dcb85e4d78ffd37369e234e6016abdbff3d151972f0bd87a35d4269eead0c20ba2616c38ac8b9ef1fa38bae1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kdpcover.cls \
@@ -30,27 +30,26 @@ tex-geometry.sty \
 tex-graphicx.sty \
 tex-iexec.sty \
 tex-microtype.sty \
+tex-pgfopts.sty \
 tex-setspace.sty \
 tex-textpos.sty \
 tex-tikz.sty \
 tex-xcolor.sty \
-tex-xkeyval.sty \
 texlive \
 texlive-anyfontsize \
+texlive-etoolbox \
 texlive-filesystem \
 texlive-geometry \
-texlive-graphics \
+texlive-iexec \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-microtype \
 texlive-pgf \
+texlive-pgfopts \
 texlive-scripts \
 texlive-scripts-bin \
 texlive-setspace \
 texlive-textpos \
-texlive-tools \
-texlive-xcolor \
-texlive-xifthen \
-texlive-xkeyval"
+texlive-xcolor"
 
 inherit rpm

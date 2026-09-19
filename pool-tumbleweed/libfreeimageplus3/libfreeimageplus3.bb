@@ -4,10 +4,10 @@ graphics image formats like PNG, BMP, JPEG, TIFF and others as needed \
 by today's multimedia applications."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "3.18.0"
+PV = "3.18.0.1909"
 
-RPM_NAME = "libfreeimageplus3-3.18.0-6.4.aarch64.rpm"
-RPM_HASH = "cb9daddefe8dfa39457e15f04a8de8736e7651500b24f2327d4b8babded3a8142bfee46fb2acd8ff9d095bbbea076f4927416d94de94c6f47ced61c6f3aa3c8d"
+RPM_NAME = "libfreeimageplus3-3.18.0.1909-2.17.aarch64.rpm"
+RPM_HASH = "d9d977572939da17ead5883475b208d6169efdd8425cc263258ab134124af1991dae3601419ceb94765e12a4c627b2641308a7a1cbeb37049d838b80be5e7d31"
 
 RPROVIDES:${PN} += "libfreeimageplus.so.3 \
 libfreeimageplus3"

@@ -8,10 +8,10 @@ This packages contains the service file to start a glances server \
 from systemd and a firewalld file to open the default port."
 LICENSE = "LGPL-3.0-only"
 
-PV = "3.4.0.3"
+PV = "4.5.6"
 
-RPM_NAME = "glances-common-3.4.0.3-1.1.noarch.rpm"
-RPM_HASH = "98a230f30b0f1697a89d79b9167a359274367a1bc67d68908eff569ca7f21a36d87a8280b781e85519ee0a411c824e22aa516311ebebfbe22db3185b7f2bfe41"
+RPM_NAME = "glances-common-4.5.6-1.1.noarch.rpm"
+RPM_HASH = "6942bd6a3fd245086c9c56d86a453df9e905b26b8b1723025e0846b8fa36e4fa010762b190427593c425d0bad2da6dd6f1f0effa6405434fe45037048b467043"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glances-common"

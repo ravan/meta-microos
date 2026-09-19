@@ -5,10 +5,10 @@ shapes that look like cobordisms between circles, such as those \
 used in TQFT and other mathematical diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn44455"
+PV = "2026.226.2.3svn71401"
 
-RPM_NAME = "texlive-tqft-2023.209.2.1svn44455-53.1.noarch.rpm"
-RPM_HASH = "f049bde3a9697fe21698adee57d22ba3ffcbf7be856948fb8658ae6067c62c52ac162a894ef82f3265a57e008ad0989c298859b43dd7032473a0a3510e91f7ee"
+RPM_NAME = "texlive-tqft-2026.226.2.3svn71401-59.2.noarch.rpm"
+RPM_HASH = "2c09a04a3e489d3d907027957660e2d88588ded7ce68ff0c0be0a1b64412c024d7bab0c017e8bb92121b5cbfdc3bdc19184dac664b86b6f00c27b2c4625678eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarytqft.code.tex \

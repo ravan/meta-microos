@@ -2,13 +2,14 @@ SUMMARY = "Boilerplate-free configuration with env variables"
 DESCRIPTION = "Boilerplate-free configuration with env variables."
 LICENSE = "MIT"
 
-PV = "23.2.0"
+PV = "22.1.0"
 
-RPM_NAME = "python310-environ-config-23.2.0-1.2.noarch.rpm"
-RPM_HASH = "69f58efe8cd06e6a4617a2b570cff0861b65a33168578ce5472afe963a1f7a92603596f49cddce055f005a36a2dea06bd4e9668f885d9d21ec942ff2313aaa9f"
+RPM_NAME = "python310-environ-config-22.1.0-1.1.noarch.rpm"
+RPM_HASH = "c64c15ba137c4814bd9e57503475bd2266958effa73fcc9f547666cb6f42d2f362a6ba0c45832772e950303c12b75baffe4c85b008fb0336481a45190dc6e7b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-environ-config \
+RPROVIDES:${PN} += "python3-environ-config \
+python3.10dist-environ-config \
 python310-environ-config \
 python3dist-environ-config"
 

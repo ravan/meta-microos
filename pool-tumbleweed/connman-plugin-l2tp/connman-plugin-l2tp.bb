@@ -2,10 +2,10 @@ SUMMARY = "L2TP plugin for connman"
 DESCRIPTION = "Provides L2TP (Layer 2 Tunneling Protocol) support for Connman (Connection Manager)."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.41"
+PV = "1.42"
 
-RPM_NAME = "connman-plugin-l2tp-1.41-4.8.aarch64.rpm"
-RPM_HASH = "d7bcd5506e1bb49b0acbe07bb172c1f594196a5559a1d511f2c2452419ba56aa98c48459c1d229ddda5356b7043bc4d475f71185a8fbb1a1cbf6388d8752186c"
+RPM_NAME = "connman-plugin-l2tp-1.42-2.16.aarch64.rpm"
+RPM_HASH = "29e383c54095ecbd3d329ffb827708f1261e0734be57e8c8f1dcf2cbc56270ee75f7a83718bbb091a01f0bee506c214e74814cad1080190c9676405eb8cbba21"
 
 RPROVIDES:${PN} += "connman-plugin-l2tp \
 libppp-plugin.so"

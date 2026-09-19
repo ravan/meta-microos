@@ -4,12 +4,12 @@ Theory) is a toolkit for validation of Monte Carlo event generators. \
  \
 This package provides common data files for Rivet used by both C++ \
 and Python bindings."
-LICENSE = "GPL-2.0-only & Apache-2.0 & MPL-2.0 & LPPL-1.3a & BSL-1.0"
+LICENSE = "Apache-2.0 & GPL-2.0-only & MPL-2.0 & LPPL-1.3a & BSL-1.0"
 
-PV = "3.1.8"
+PV = "4.1.2"
 
-RPM_NAME = "Rivet-data-3.1.8-2.1.noarch.rpm"
-RPM_HASH = "19cfe029ddcd88b7d52e1bf36ea5a5e116ffefbb54832db97b79db75b1338f27b9f6afcc17b9a04f768ffdf3f7c1c1d7cfb04d6c8d8c7c932d57bd7e63e3281a"
+RPM_NAME = "Rivet-data-4.1.2-2.1.noarch.rpm"
+RPM_HASH = "16bbfc9d09e0e00da9939b20db6350a9aaef593a7e04e7b12beda4983444891bc97fe68a300af1d755fa6ea930a520d0b26726f1569eb488997d740f1829c03b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Rivet-data"

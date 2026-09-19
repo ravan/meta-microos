@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package capnet-assist"
 DESCRIPTION = "Provides translations for the 'capnet-assist' package."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "2.4.2"
+PV = "8.0.2"
 
-RPM_NAME = "capnet-assist-lang-2.4.2-1.5.noarch.rpm"
-RPM_HASH = "1ca72c8530a138357ff42ff3a8664d1d38a99c0d44d23b7e39cf25fa057220a5980173873ec63c2b8adac6efcc1c35a8b87ffcb9701c011d33259e141df5cc5b"
+RPM_NAME = "capnet-assist-lang-8.0.2-1.5.noarch.rpm"
+RPM_HASH = "21d0e6a9d871bef2ec25fc20268747a1ee85101b2f4b421c1693d52a682a2ee4fece9712232102b93a36749a2eac064e39832feecae4b44d114668150f45a5db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "capnet-assist-lang \
@@ -21,6 +21,7 @@ locale-capnet-assist-bn \
 locale-capnet-assist-br \
 locale-capnet-assist-bs \
 locale-capnet-assist-ca \
+locale-capnet-assist-ca@valencia \
 locale-capnet-assist-cs \
 locale-capnet-assist-cy \
 locale-capnet-assist-da \

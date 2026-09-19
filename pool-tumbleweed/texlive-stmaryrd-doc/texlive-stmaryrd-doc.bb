@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-stmaryrd"
 DESCRIPTION = "This package includes the documentation for texlive-stmaryrd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn22027"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-stmaryrd-doc-2023.209.svn22027-58.1.noarch.rpm"
-RPM_HASH = "6954d08ba98406a5d054ea4378536caf4c559dd751d228b015f8bddc8f8006502a8db6209c689366ed366eba318c985a56b86153dee65411249944525873d8c4"
+RPM_NAME = "texlive-stmaryrd-doc-2026.226.svn77682-64.2.noarch.rpm"
+RPM_HASH = "a786358701dcc77be05d0a1334c6badd763a65131d2cad38d700b2adc377f23282a1ed7c2233036bd06ff737d4e91b35ee3c50b2463c0690d2cb27588456b387"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stmaryrd-doc"

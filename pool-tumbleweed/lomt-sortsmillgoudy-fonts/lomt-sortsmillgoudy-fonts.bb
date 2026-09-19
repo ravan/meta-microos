@@ -8,8 +8,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.20121218"
 
-RPM_NAME = "lomt-sortsmillgoudy-fonts-0.20121218-8.7.noarch.rpm"
-RPM_HASH = "419e5f4e0d419f1c377d0bfece145788ee0082f1a2b31b08a75ced104ae7cbe058a3fd926e3d4035bd402200a38c3e24050148b6171a977b9ad9a024e1363124"
+RPM_NAME = "lomt-sortsmillgoudy-fonts-0.20121218-8.15.noarch.rpm"
+RPM_HASH = "a8274ae1fd52c5a13328dc4adcaa46d66c301cf093a0b9d0cdc5d5d2349b06f7ad109ffe8a94abe91ca754142cc0d78741921b37a75b5b325d7bcb852d384950"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-sortsmillgoudy-fonts"

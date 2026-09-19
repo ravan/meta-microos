@@ -2,12 +2,13 @@ SUMMARY = "Tool to inspect RP2040 binaries"
 DESCRIPTION = "Picotool is a tool for inspecting RP2040 binaries, and interacting with RP2040 devices when they are in BOOTSEL mode."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.2"
+PV = "2.1.1"
 
-RPM_NAME = "picotool-1.1.2-1.1.aarch64.rpm"
-RPM_HASH = "a36b366354ab0081a49e3ebd11727f88f7dc803c31e01681ce91377413fff1037ac9fccf2563437c9b0860b2b79cd8a64987035996e1550a506713a730496261"
+RPM_NAME = "picotool-2.1.1-1.6.aarch64.rpm"
+RPM_HASH = "95ff69d4430af876a70f54e71a39ba8b424a295b3c8b98845d7fb7a084737e818d370351da58763886283d0eec78ce341c66844b1f49e190916aec5fe07bc2ad"
 
-RPROVIDES:${PN} += "picotool"
+RPROVIDES:${PN} += "cmake-picotool \
+picotool"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

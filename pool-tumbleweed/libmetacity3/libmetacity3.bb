@@ -5,10 +5,10 @@ It is developed mainly for the MATE and GNOME Flashback desktops. \
 This package contains a library to render themes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.46.1"
+PV = "3.56.0"
 
-RPM_NAME = "libmetacity3-3.46.1-1.2.aarch64.rpm"
-RPM_HASH = "01e0ad87c47fd22b984e8d0b5d86b2d5f548627870adb6b89597481a71201143b6c4f006797ea38fb1db68fa5716530b3a473af0d938816c58f6402613669422"
+RPM_NAME = "libmetacity3-3.56.0-1.6.aarch64.rpm"
+RPM_HASH = "c4352bcf5fc749b7a80006170970c9c85e86d88360a8d08874466e7f2adb7879031aa94e4ed09f8077f8e2eefcb4dcc70f08922e873a43f509a27db58cb89bed"
 
 RPROVIDES:${PN} += "libmetacity.so.3 \
 libmetacity3"

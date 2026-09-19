@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6"
 
-RPM_NAME = "idutils-lang-4.6-4.11.noarch.rpm"
-RPM_HASH = "e7bf12058809bd3f5fdb077baf741537d941553cfdc2414d0e2b2bb34c829c39e8c2eb2bb945604805e11aff3ef280daf92311198007938727bbad52870dcff9"
+RPM_NAME = "idutils-lang-4.6-5.9.noarch.rpm"
+RPM_HASH = "bf85e0100efba4f1a0d563dc11687158909c2e75f0a75c083df486545c3c7a9b28ab7eb3fabcb7d09cb5edf0c04d69b26364285402034df97740e84cd49ff0e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "idutils-lang \

@@ -5,10 +5,10 @@ This package contains the required media files for OGRE, optional files are prov
 with the ogre-demos package."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "ogre-media-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "51474640f534fc5f8ea6a5872d0bdb8de0065625426d7f7cc16c6ed93ceb9f67924f455920b40300227177576e9cda134d0e70bd55fe23afb17defa4a4a6f98b"
+RPM_NAME = "ogre-media-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "63682de39dfda5dde670c2892c53b5ae1c66f202d208acd71175be51d33c12f450b34ac757b21be3287da79bf4468ad062fc55b585d1352f787ffac236cd355b"
 
 RPROVIDES:${PN} += "ogre-media"
 

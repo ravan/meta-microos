@@ -6,10 +6,10 @@ ease the illustration of these blocks. The package depends on \
 fontawesome5, xcolor, array and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn57349"
+PV = "2026.226.0.0.6svn57349"
 
-RPM_NAME = "texlive-awesomebox-2023.209.0.0.6svn57349-54.1.noarch.rpm"
-RPM_HASH = "6064b9ae107e0490c01e5460ae37f6db84c7975baecae378c0a397d43b81cca0e8ca2768ce25b10dcb0fe1f9304a701750ce65c9e2db882ada367179ba41218a"
+RPM_NAME = "texlive-awesomebox-2026.226.0.0.6svn57349-60.2.noarch.rpm"
+RPM_HASH = "0db76d0eacba18aa24faa6cefbaf0911248420fe612268aca58191a88278cb026e9c472ad49a1913cd05809ff2dc30e3d0ba20368edc3c1c66479249a3506af8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-awesomebox.sty \

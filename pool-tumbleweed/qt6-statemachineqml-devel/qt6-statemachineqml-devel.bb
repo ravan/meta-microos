@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 StateMachineQml library - Development files"
 DESCRIPTION = "Development files for the Qt 6 StateMachineQml library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-statemachineqml-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "da58f2aadcaa5b13353d96b72d31557ab755360916abaed340c2f3b69e7b7bbe426b85706234bcadce09e36bfa106b0d07d19d5248392f5700ea016f457fe6a7"
+RPM_NAME = "qt6-statemachineqml-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "25e8f316e831d54dcca68697c7b458b45709b4fdb00a81064840bd83d9fa778046b451ab4864825cc8bc3a5da6afff4041caa61199d73869b39ff89aaa492371"
 
 RPROVIDES:${PN} += "cmake-Qt6StateMachineQml \
 pkgconfig-Qt6StateMachineQml \

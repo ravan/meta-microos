@@ -9,10 +9,10 @@ it to the era of digital typesetting, in a publicly available \
 form."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.000svn65191"
+PV = "2026.226.1.000svn65191"
 
-RPM_NAME = "texlive-amiri-2023.209.1.000svn65191-55.1.noarch.rpm"
-RPM_HASH = "1c288d9fce9dabe335d8261c3d3170cdffbede78541ff2e00991c1597cd69f75485c61451c49b05ed1b855864ad4e719baa59654edbf7bf6a556443a4439db2f"
+RPM_NAME = "texlive-amiri-2026.226.1.000svn65191-61.2.noarch.rpm"
+RPM_HASH = "9524cf63286ad813da64556443ee161d2684003a5e9231e60e96b4dfc1c4c74cde5b4d07c743b36f6a04f91594d4a0e527be0171513959b19ce78583d1558320"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amiri"

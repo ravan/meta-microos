@@ -4,10 +4,10 @@ DESCRIPTION = "This is an open source implementation of the jpegxr image format 
 This package the libjpegexr shared library"
 LICENSE = "BSD-2-Clause"
 
-PV = "1.1"
+PV = "1.3.2"
 
-RPM_NAME = "libjpegxr0-1.1-4.10.aarch64.rpm"
-RPM_HASH = "8a3f8d088bcf3b3105d6bb9b60b52e700ae1b8df503bd523d9995e317f42e0543a0cfcd647f6a20b1401d24c51e18893eee3a279951b87079e83737419da3207"
+RPM_NAME = "libjpegxr0-1.3.2-1.3.aarch64.rpm"
+RPM_HASH = "e398e0273142cd54b680ffae5e0474ca6e8570170915bb1bca049bcadc5504811e773fb32cdb7dc0a735e27cef3efab8d3b4585df0d955e317cd6fd6a57ca5d8"
 
 RPROVIDES:${PN} += "libjpegxr.so.0 \
 libjpegxr0"

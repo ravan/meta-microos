@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.19"
 
-RPM_NAME = "libpopt0-1.19-1.4.aarch64.rpm"
-RPM_HASH = "6476e1d48aaa14adacbfef76310a89bdc2f0ec925fc4a32bf5322140bcb3a474b6e9de22d1ab94f4c4a0e661f93caaff85c50678548a5b89a6f8cbe906b6ae3b"
+RPM_NAME = "libpopt0-1.19-2.3.aarch64.rpm"
+RPM_HASH = "7f6924a2740552329d82dda7be3f05ec65a9578f2061769ec5028e05cdd1d257fc5254e0cb6f4eb645de9746dfbce8f97c1b67ceed9919fadba9caf8c4227b5a"
 
 RPROVIDES:${PN} += "libpopt.so.0 \
 libpopt0 \

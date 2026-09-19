@@ -7,12 +7,12 @@ are included: \
   o mkapfs: an experimental filesystem build tool \
   o apfs-snap: a tool to take snapshots of a volume mounted with our module \
   o apfsck: a filesystem integrity checker, for now only useful for testers"
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
-PV = "0~git453"
+PV = "0.2.1"
 
-RPM_NAME = "apfsprogs-0~git453-1.1.aarch64.rpm"
-RPM_HASH = "41c17e65d7a4ff69402391564a32115a5f0261ef75d44442ab0fda6a8e7ac56f2ef2e3424edf639f71aeab74c9d1b9119c9b13cb4986f6cf95360a4d8feeda7a"
+RPM_NAME = "apfsprogs-0.2.1-1.6.aarch64.rpm"
+RPM_HASH = "4c2975f258de424657f110a5c9fea33c3c20d505501ff974d69d253761146357762172d0c01678529ae55cb8c17cda7a6f0c77caaa5dc8ddbff279d42ec0cf10"
 
 RPROVIDES:${PN} += "apfsprogs"
 

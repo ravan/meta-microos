@@ -5,10 +5,10 @@ This package contains the header files for developing low-level \
 OCFS2-aware applications."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.8.7"
+PV = "1.8.8"
 
-RPM_NAME = "ocfs2-tools-devel-1.8.7-7.5.aarch64.rpm"
-RPM_HASH = "8e768b49801fb73178d9d0cab3e7d2d95aba8648fca006779239e7fd170522ede7639e54bac6fa928bd2474025308927c766ea4ef8c72119b3795b962cbbcf1b"
+RPM_NAME = "ocfs2-tools-devel-1.8.8-8.6.aarch64.rpm"
+RPM_HASH = "ecda4c02e835f7114d0e1f20a4085d20dad271d8c8df4d51728175ed7fc88f462d447fea6b0297225292d22114f23ed262ef2d54b616b16381f6bb34ebf83067"
 
 RPROVIDES:${PN} += "ocfs2-tools-devel \
 pkgconfig-o2cb \

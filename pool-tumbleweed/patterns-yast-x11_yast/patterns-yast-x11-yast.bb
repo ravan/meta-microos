@@ -2,10 +2,10 @@ SUMMARY = "YaST User Interfaces"
 DESCRIPTION = "Graphical YaST user interfaces for minimal X desktop."
 LICENSE = "MIT"
 
-PV = "20220411"
+PV = "20260219"
 
-RPM_NAME = "patterns-yast-x11_yast-20220411-1.4.aarch64.rpm"
-RPM_HASH = "1a4590e46c1e11e3a32b73ce86e15fdf396aeb7f1b36b784d4dddc1aed5d315ea05e6f1d9bffbd4cdefc46ae1e50e2f2c684b792e83d158322e88c23959ca714"
+RPM_NAME = "patterns-yast-x11_yast-20260219-1.2.aarch64.rpm"
+RPM_HASH = "2b93df6b5b143be44615eabca6cfa44330e695db4f43008f89e979a4ef5a92517d30ed0d033aa1a61f0fe63b1cbbe2ce7d9ceea07b5337c339886bef28709b19"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

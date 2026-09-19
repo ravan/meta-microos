@@ -1,17 +1,18 @@
 SUMMARY = "Unload a class"
 DESCRIPTION = "Unload a class"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.11"
+PV = "0.120.0"
 
-RPM_NAME = "perl-Class-Unload-0.11-1.25.noarch.rpm"
-RPM_HASH = "32802d9d21b62b50b98d4bcf78aae2922d847574da3ff8293f2e395cd6e0d4cfcbe576472d6a336540e3739404103c37dcca9a1a20406f37de7ef94320b7fd49"
+RPM_NAME = "perl-Class-Unload-0.120.0-1.6.noarch.rpm"
+RPM_HASH = "54bd6169bf58f66231dd8f95e852fe7f5a08e93ad9d10b1e54933c91127e637ba854f71340fd0bea71c624d1d0efde3d30b7c48b239cf16ea5641582c0b11450"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Unload \
-perl-Class-Unload"
+perl-Class-Unload \
+perl-MooseClass"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Inspector"
 
 inherit rpm

@@ -4,10 +4,10 @@ DESCRIPTION = "To run the testsuite, execute /usr/libexec/zlib/testsuite \
 It should exit 0"
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.1"
 
-RPM_NAME = "zlib-testsuite-1.2.13-4.2.aarch64.rpm"
-RPM_HASH = "9c6d3dc0c5882c1905c289f3da3e4ac3cf91c0139edefc1e82152eb3cf086dc0c61db1455811e4ea14dccd43a609690d8193367d79e910afd1931ab145570fb7"
+RPM_NAME = "zlib-testsuite-1.3.1-3.3.aarch64.rpm"
+RPM_HASH = "23d136a6c96d3c181d37c7566deaeb3aca65698d6d537ed07c5ed39b2f0e332897334dc63468ee0acf52a23eafe379628e9da6f428171c91765b2887fa33fe2d"
 
 RPROVIDES:${PN} += "zlib-testsuite"
 

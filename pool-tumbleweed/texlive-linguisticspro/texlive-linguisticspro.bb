@@ -4,10 +4,10 @@ support for the LinguisticsPro family of fonts. This family is \
 derived from the Utopia Nova font family, by Andreas Nolda."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64858"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-linguisticspro-2023.209.svn64858-55.1.noarch.rpm"
-RPM_HASH = "0ed9b96b69ac7f13d04f97386118864c629f20ff36ab656414fc98a4cb3dfd8b188fd811b5d6855d276c6bd00db1766874ca4be7ba052bf2be083d352e5cedd5"
+RPM_NAME = "texlive-linguisticspro-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "f8200304b3f885b885eea64b3c28a4a58aad73806323e777d1b7dbad9c408bdf92b5858dadc06e2c4f30559ce697b3eae8259457678d2f5f28410b57754499a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRLinguisticsPro-LF.fd \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the JACK (Jack Audio Connection Kit) I/O pl
 for ALSA library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-jack-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "0beb40663ad22150720b3b1dd885e57c4de4d26a9f5a09493ebf5b10719ebbe2d2c91b6cfeb2f30b2f127ff71000da9f4f1005570ab2da6dea4462827fec7e36"
+RPM_NAME = "alsa-plugins-jack-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "dfa2af0b73b51378d25831182a46182429d17e62fe0e42ac5c612796f5984da6bcc4f8e607ba30c12db5aacf10980f6406b80fe3807e5e411da924cc6912c3ac"
 
 RPROVIDES:${PN} += "alsa-plugins-jack \
 libasound-module-pcm-jack.so"

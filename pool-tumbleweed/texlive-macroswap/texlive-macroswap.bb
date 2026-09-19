@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides simple utility methods to swap the meaning \
 (token expansion) of two macros by name."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.1svn31498"
+PV = "2026.226.1.1svn31498"
 
-RPM_NAME = "texlive-macroswap-2023.208.1.1svn31498-53.1.noarch.rpm"
-RPM_HASH = "3df2e45a82414409c2a4345d440d51c2950f2758d6323351e5f6a5b93845b698f5f33b43e6e47fb5d4a976e9e22187b1f3182e17136ce926c18d3f0a1b0c545d"
+RPM_NAME = "texlive-macroswap-2026.226.1.1svn31498-59.2.noarch.rpm"
+RPM_HASH = "ec1f67a8ae6a682d6f56196cd1090806cf315673ce054ff77c0d00a9972d37e2ea4bc2e2285a37f3786f0e3bfbacc048edcb080c35c2e4d36513c85d0d122f8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-macroswap.sty \

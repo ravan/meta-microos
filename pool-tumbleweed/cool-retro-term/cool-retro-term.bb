@@ -4,29 +4,31 @@ of the old cathode tube screens. It has been designed to be eye-candy, \
 customizable, and reasonably lightweight."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2.0"
+PV = "2.0.0b2"
 
-RPM_NAME = "cool-retro-term-1.2.0-3.1.aarch64.rpm"
-RPM_HASH = "805d40111ff817ea9b665402e62b2d6287dc9dbc8e39b1d12e586ed61236473a64fb4fda0a3c4fd1d4b3a7364c04ae822a417f3e5c64c2fc60604c1cf6026349"
+RPM_NAME = "cool-retro-term-2.0.0b2-1.2.aarch64.rpm"
+RPM_HASH = "8b3ad89b8cc33e8a47d56d39981959cb9254db144fb1163c2ea7e48dc45131608f43e9eee2ece59a4b9460bce5ea7c3442b14a71a7aca6c53497966398c41a80"
 
 RPROVIDES:${PN} += "cool-retro-term \
 libqmltermwidget.so \
-qt5qmlimport-QMLTermWidget.1"
+qt6qmlimport-QMLTermWidget \
+qt6qmlimport-QMLTermWidget.2"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2-6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libqt5-qtquickcontrols \
-libqt5-qtquickcontrols2 \
 libstdc++.so.6 \
-qt5qmlimport-QMLTermWidget.1 \
-qt5qmlimport-QtQuick.2"
+qt6-qt5compat-imports \
+qt6-sql-sqlite \
+qt6qmlimport-QMLTermWidget.2 \
+qt6qmlimport-QtQuick.2"
 
 inherit rpm

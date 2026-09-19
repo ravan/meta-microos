@@ -4,8 +4,8 @@ LICENSE = "CC-BY-3.0"
 
 PV = "1.0"
 
-RPM_NAME = "cpmono_v07-fonts-1.0-11.17.noarch.rpm"
-RPM_HASH = "9273f0da2c4865b49df52bce0ae24f10ae9da8f26c0657f40d0a87e2156a2f51e71f68a0bf4fd1845bcf783444309481e58305e480448fc908da24da6fda6a96"
+RPM_NAME = "cpmono_v07-fonts-1.0-11.25.noarch.rpm"
+RPM_HASH = "8d2b35b2918fb868ef01070427157f5f8d07261fd84d725672f4485056cfff62f446ac5a45213caee38878da2176e7c4e6e90f06f1e21a37d3d89441aeee74e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpmono-v07-font \

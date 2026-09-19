@@ -3,14 +3,14 @@ DESCRIPTION = "This plugin allows Avocado to list golang tests, and if golang is
 to also run them."
 LICENSE = "GPL-2.0-only"
 
-PV = "69.0"
+PV = "113.0"
 
-RPM_NAME = "python3-avocado-plugins-golang-69.0-6.11.noarch.rpm"
-RPM_HASH = "0545bb668129df453804389d1856a371a15c7879ebb3078f1d4092d9d3ea29917955a1ab57b6ecc96337073d28cb939126bae1bcd9bfde48ec5e398c7ed35634"
+RPM_NAME = "python3-avocado-plugins-golang-113.0-1.2.noarch.rpm"
+RPM_HASH = "64512e1aea595387e27446203d32404240189a9ba1f23b38eeeced507a389e82d574de94e304ba30093d7ba8b457f92e487b0024d1b3971fe817d7721a6094b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-golang \
-python3.11dist-avocado-framework-plugin-golang \
+python3.13dist-avocado-framework-plugin-golang \
 python3dist-avocado-framework-plugin-golang"
 
 RDEPENDS:${PN} += "go \

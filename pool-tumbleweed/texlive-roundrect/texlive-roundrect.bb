@@ -5,10 +5,10 @@ text (the title bar may itself contain text). They are \
 extremely configurable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn39796"
+PV = "2026.226.2.2svn39796"
 
-RPM_NAME = "texlive-roundrect-2023.209.2.2svn39796-54.1.noarch.rpm"
-RPM_HASH = "46c3174d2e137ed86564f0f30c092a9b36721e5c8702530d094c3a4f9a34b2876dfbd28978534f63dccce1c59af9d72a7d57aabbfb0fff93f3a4a8409f206a0e"
+RPM_NAME = "texlive-roundrect-2026.226.2.2svn39796-60.2.noarch.rpm"
+RPM_HASH = "87d87c085e9f651141846fcee587fab8cd6cec1fe28c808735f80cb943401f7c1a4749b14cc5e9f987179a03e2d35d8adb0e113112d3da2c83da8b11c391379e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-roundrect"

@@ -3,12 +3,13 @@ DESCRIPTION = "Host setup helper to pull in all packages required/useful on \
 the build host to build WSL container images"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.25.12"
+PV = "10.3.11"
 
-RPM_NAME = "kiwi-systemdeps-containers-wsl-9.25.12-1.1.aarch64.rpm"
-RPM_HASH = "49e3a8d91fd6a1bd1ae5e344693c9dce0c0817c65b61aab911630b4e3331d6f0a5af03f53b794283ff53bccf4c1b4a5a6a6dda7836c6645e987e41462ef6e593"
+RPM_NAME = "kiwi-systemdeps-containers-wsl-10.3.11-1.1.aarch64.rpm"
+RPM_HASH = "42d6363a0357284155dd4046457d1523b9c672bbaf7ed4b611fb40144cf96d17e28a2fedebe249792f37f4a1c06451c36aa126cc785985f826eba5e18aa48979"
 
 RPROVIDES:${PN} += "kiwi-image-appx \
+kiwi-image-wsl \
 kiwi-image-wsl-requires \
 kiwi-systemdeps-containers-wsl"
 

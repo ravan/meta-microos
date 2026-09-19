@@ -2,10 +2,10 @@ SUMMARY = "Office files thumbnailer for the GNOME desktop"
 DESCRIPTION = "This package provides a thumbnailer for office files."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.14.50"
+PV = "1.14.58"
 
-RPM_NAME = "gsf-office-thumbnailer-1.14.50-1.6.aarch64.rpm"
-RPM_HASH = "9e263e8057aecb9ada9a58dc1d131c0f74a38b08a92390da48071b259f97a1fc2398f2fdde2f53f72c9cb0e16a786ea38c1a1d2a13615d688a18e0c17e628bbf"
+RPM_NAME = "gsf-office-thumbnailer-1.14.58-1.3.aarch64.rpm"
+RPM_HASH = "abf2d12b67762d06d1d5af5df0cef4673ead128aa9a5c4b892174ebd415be97c498771c229ae24e99b0bafeb628f6a1f91f90ab655dead6fd6bed3adc5086f86"
 
 RPROVIDES:${PN} += "gsf-office-thumbnailer"
 

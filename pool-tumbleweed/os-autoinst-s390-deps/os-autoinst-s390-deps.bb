@@ -2,10 +2,10 @@ SUMMARY = "Convenience package providing os-autoinst + s390 worker jumphost deps
 DESCRIPTION = "Convenience package providing os-autoinst + s390 worker jumphost dependencies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1693332527.fb060dc"
+PV = "5.1788768889.879c500"
 
-RPM_NAME = "os-autoinst-s390-deps-4.6.1693332527.fb060dc-1.1.aarch64.rpm"
-RPM_HASH = "62cb2b7930f095d32a1d0a706c04edc35c7fb2c7c139fab257003652d3135bb92e29f649a4eba9a2bfb64a34a65a34ec0bf48c6c2f32eacb1756df1e2940bcc1"
+RPM_NAME = "os-autoinst-s390-deps-5.1788768889.879c500-1.1.aarch64.rpm"
+RPM_HASH = "c2c10f22fc706f9f7571277a81d6ae32ae3627a0a47f90b75412ca30ed98322619088aea97eb3a6334779cd15a412626bb4a8062d90cb297e98786f214286f01"
 
 RPROVIDES:${PN} += "os-autoinst-s390-deps"
 
@@ -15,6 +15,7 @@ fonts-config \
 icewm \
 mkfontdir \
 mkfontscale \
+openssh-clients \
 os-autoinst \
 x3270 \
 xdotool \

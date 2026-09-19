@@ -5,10 +5,10 @@ been adapted to German standards using the KOMA script document \
 classes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn35702"
+PV = "2026.226.svn35702"
 
-RPM_NAME = "texlive-latexcheat-de-2023.209.svn35702-55.1.noarch.rpm"
-RPM_HASH = "4bf2cbc05128d7fb2f0abe34497939f4267cd3b332b88cd5f3956440d01dfdd4c194e037d50eeec63e3b63d55d8efbc22047e9e8cc77eeab0d30a11aa44351d1"
+RPM_NAME = "texlive-latexcheat-de-2026.226.svn35702-61.2.noarch.rpm"
+RPM_HASH = "3b43e1c2561fa8713cd077d9a206fa849ebd09896dd45a02d3860c8ac5c2620d0699a5b3980355395c9c8a78846bce20d0208ca343213984e41664ab587fc35e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexcheat-de"

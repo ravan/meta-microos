@@ -6,10 +6,10 @@ signalled; for example, if a fan fails, a temperature limit is \
 exceeded, etc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.6.0"
+PV = "3.6.2"
 
-RPM_NAME = "sensord-3.6.0-8.8.aarch64.rpm"
-RPM_HASH = "78ec552fad59de623898aead49ceabc9c5c3ed37182c1cf66916433c45370c7f206769b016d4d4b1b8d7a193df40c9e3ebfc1cbe3bbb1a3e13eb53ad1a99069b"
+RPM_NAME = "sensord-3.6.2-5.4.aarch64.rpm"
+RPM_HASH = "543b8f544d02af0a851aaa40e7c1eb972c27fc524dd8c2afa1b1fa067318d859a22b0192c7953e6d1c62546dfd86af73d86738d95de2482cb029e29f3bd4e948"
 
 RPROVIDES:${PN} += "sensord \
 sensors-/usr/sbin/sensord"

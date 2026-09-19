@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bibunits"
 DESCRIPTION = "This package includes the documentation for texlive-bibunits"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn15878"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-bibunits-doc-2023.209.2.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "0c3f145e2de8792d784511fcf032f8f2c6f178e196d00106377785e9604ffad5a6be48941f2657dece0d6f477f0c984002750b554bff172ba34c65bbc8a6c1ef"
+RPM_NAME = "texlive-bibunits-doc-2026.226.2.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "c462e97d90503b6744c78c04fd69898a9f0f240ec9ed541ceb4060174a99cd3a5db2d61aabf699fcdb6c42855b9cfa980cf884ec660f00a09db3d31a3cb22f80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bibunits-doc"

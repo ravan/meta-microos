@@ -5,12 +5,12 @@ as GNOME. It comes with several backends (ALSA, PulseAudio, null) \
 and is designed to be portable. \
  \
 This package provides the canberra-gtk-play utility."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.30"
+PV = "0.30+2"
 
-RPM_NAME = "canberra-gtk-play-0.30-15.23.aarch64.rpm"
-RPM_HASH = "e14d7e8a993db29a9fe85fb16e20e44677f5f4cf76cdc5ae830c89dfa1443b034ca4b034e4a8f129a103bdede9ef18d08d75107de66453392b6617c6f27b3731"
+RPM_NAME = "canberra-gtk-play-0.30+2-3.6.aarch64.rpm"
+RPM_HASH = "81ab23adc608f121d6438facf6299dbcb2021ec617e38e6dde0a9e1a60d2168b0c1cc3a3418b6716acd381ca9c76cd495fc42c5469bc920a8317c0fea778b95e"
 
 RPROVIDES:${PN} += "canberra-gtk-play \
 libcanberra-gtk"

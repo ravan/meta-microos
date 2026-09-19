@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mathcommand"
 DESCRIPTION = "This package includes the documentation for texlive-mathcommand"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.04svn59512"
+PV = "2026.226.1.04svn76924"
 
-RPM_NAME = "texlive-mathcommand-doc-2023.208.1.04svn59512-53.1.noarch.rpm"
-RPM_HASH = "23836911ac95d3da3ef1cfb2ce747a1ac698815c880a76b170ac9c42d193a3118370d00624ac6e679dccf855fe77c8746fbbf5343f52ddd47e6e7d639f27df96"
+RPM_NAME = "texlive-mathcommand-doc-2026.226.1.04svn76924-59.2.noarch.rpm"
+RPM_HASH = "dd08ae36fa22184c61dc64d5c3ba0dc46fd8de602ba1d06cbfb48b9693529539cf4c99d2b1b327bccf3c41e56944b77422e038f5aa9beeb67ef244857fe7fe2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mathcommand-doc"

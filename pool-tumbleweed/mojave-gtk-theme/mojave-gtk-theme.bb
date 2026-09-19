@@ -3,10 +3,10 @@ DESCRIPTION = "MacOS Mojave like theme for GTK 3, GTK 2 and Gnome-Shell which su
 and GTK 2 based desktop environments like Gnome, Pantheon, XFCE, Mate, etc."
 LICENSE = "GPL-3.0-only"
 
-PV = "20230804"
+PV = "20241115"
 
-RPM_NAME = "mojave-gtk-theme-20230804-1.1.noarch.rpm"
-RPM_HASH = "a63505d89ae6b358071149ceb34c1719f8fd332afa580e6a98aab3de188b11ae505093029b2a6ad375766745bd1cdeb95d106cc498e923be12830bd55e3629de"
+RPM_NAME = "mojave-gtk-theme-20241115-1.6.noarch.rpm"
+RPM_HASH = "dc6d1eb863104c26c8ff75d04e42548baaa8f60a177a7cdf3635fdcb3280f8c68cd36daee7c8f52f207d141f273630ad264a074c78c364ad640d0f7330c27656"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mojave-gtk-theme"

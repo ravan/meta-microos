@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "fvwm2-2.7.0-1.1.aarch64.rpm"
-RPM_HASH = "0b2af0473219ca816cbcc9a03765069efe14699cd97d330e6374db67defdd2ef081e1f4b71993b1142a36f0889fcc54932e973a4fbbbeb61e2811b08ca718e33"
+RPM_NAME = "fvwm2-2.7.0-2.11.aarch64.rpm"
+RPM_HASH = "4a86819acffd4dc037137a2b0eae5b3bd04b2f8096bf15a4934013942433ffdfe5fa0fc83918158f8fd0be34bd11098890c31803c3aa83b5cd95e1a0a7419599"
 
 RPROVIDES:${PN} += "config-fvwm2 \
 fvwm \
@@ -63,7 +63,6 @@ libstroke.so.0 \
 mktemp \
 update-alternatives \
 wallpaper-branding \
-xdg-menu \
-xli"
+xdg-menu"
 
 inherit rpm

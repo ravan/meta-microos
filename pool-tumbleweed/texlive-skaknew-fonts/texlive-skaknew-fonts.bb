@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-skaknew"
 DESCRIPTION = "The  separated fonts package for texlive-skaknew"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20031"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-skaknew-fonts-2023.209.svn20031-58.1.noarch.rpm"
-RPM_HASH = "13eb236c40f06926d97d1ca8f1ec8c35df7ab540c262b819618597702a54c95718bdaa4d6826620c8c0169f51f72947f6e0f2a15b98c49d3fa73556f60f75edd"
+RPM_NAME = "texlive-skaknew-fonts-2026.226.svn78101-64.2.noarch.rpm"
+RPM_HASH = "c366e576f82016fda6834dd0be13a1d86294a8ac6559d1dd181860e0578a195200df276ebb74b3b27abf4bd9f656df8c29d18a9afe16912a6940e4237a906824"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-skaknew-fonts \

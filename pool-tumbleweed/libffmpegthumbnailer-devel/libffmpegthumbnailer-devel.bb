@@ -5,10 +5,10 @@ This video thumbnailer can be used to create thumbnails for video \
 files. The thumbnailer uses ffmpeg to decode frames from files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.2.2"
+PV = "2.2.3"
 
-RPM_NAME = "libffmpegthumbnailer-devel-2.2.2-2.7.aarch64.rpm"
-RPM_HASH = "8837999082c0cb8cb4b251f433566b6c53f1c9d14b20781fdf387fe91247c0601cd09917b2ed0bcf279adb1466986b7d611f8c09cff00fe8b9ec0f3b9ffd627c"
+RPM_NAME = "libffmpegthumbnailer-devel-2.2.3-1.8.aarch64.rpm"
+RPM_HASH = "5f92d741231ac8681a69d7ddf1a6929cb8c7bfe83106ecf81a67780551d9f360bf840c1c068536848c36524adb05a9dbea4edfb2743178703a22839753a5c17b"
 
 RPROVIDES:${PN} += "libffmpegthumbnailer-devel \
 pkgconfig-libffmpegthumbnailer"

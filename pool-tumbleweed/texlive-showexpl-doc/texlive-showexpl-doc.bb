@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-showexpl"
 DESCRIPTION = "This package includes the documentation for texlive-showexpl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3ssvn57414"
+PV = "2026.226.0.0.3ssvn77682"
 
-RPM_NAME = "texlive-showexpl-doc-2023.209.0.0.3ssvn57414-54.1.noarch.rpm"
-RPM_HASH = "772ad0d4078308a931f2692ebd33f49db2b2aae08998d0b7dfbb5c1d4b36b10b64297001ae065bff0ee6716337ced0c8dcfee5648ee5274c8f545a0bb70547a9"
+RPM_NAME = "texlive-showexpl-doc-2026.226.0.0.3ssvn77682-60.2.noarch.rpm"
+RPM_HASH = "3a3135b84818b160ac7f21e03d3b6fec67eaead08d4bb3c9aac2b3bb36367df4b5a51f79c2a9c73dd9d11db81c6695db4daf22fcf83b94819008a6e561f7716e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-showexpl-doc"

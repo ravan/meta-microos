@@ -13,10 +13,11 @@ common mathematical functions operating on batches. \
 This package contains the xsimd documentation"
 LICENSE = "BSD-3-Clause"
 
-PV = "11.1.0"
+PV = "14.3.0"
 
-RPM_NAME = "xsimd-doc-11.1.0-1.1.aarch64.rpm"
-RPM_HASH = "9dff07e33f1e12f95953dd53ca26f2eb55310058f715f84bd6e4fb649d147f37d8338feae2687ae41e7399723e1152c94b2e1b21e6f4c707ed6d93ea318907e6"
+RPM_NAME = "xsimd-doc-14.3.0-1.1.noarch.rpm"
+RPM_HASH = "84598f58a717ff839922a6c56f351cac436b200b2e8a9ebb94d85c285245cce6c4c6585c73a519631446a8fc6ccb7c7e63b88adf3ffcd671cfb4a966420fb867"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xsimd-doc"
 

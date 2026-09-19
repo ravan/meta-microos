@@ -5,10 +5,10 @@ package requires a customised BibTeX style for its work; the \
 documentation explains how to do that customisation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.1.6svn18173"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-mcite-2023.208.1.6svn18173-53.1.noarch.rpm"
-RPM_HASH = "ac5278e18652a7e71707ae7c801569a764569567afb34738dca732dc96b94a26433c35ca66a5b27a11d4d99cd1e7b21a96cb6fd4986f8cb992242ac383998420"
+RPM_NAME = "texlive-mcite-2026.226.1.6svn77682-59.2.noarch.rpm"
+RPM_HASH = "a8ab23bfd860689e15eafe8260b2ae2f8a93f561dde5450b5fe9bca12257ab8ddb52b626ac2942b44ea6d50f0abaffb3823f119d662ed3ce5b08614dd5749439"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mcite.sty \

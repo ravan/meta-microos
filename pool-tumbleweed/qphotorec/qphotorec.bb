@@ -3,10 +3,10 @@ DESCRIPTION = "QPhotoRec is a Graphical User Interface (Qt based GUI) version of
 More user friendly, it recognizes the same file formats."
 LICENSE = "GPL-2.0-only"
 
-PV = "7.1"
+PV = "7.2"
 
-RPM_NAME = "qphotorec-7.1-4.15.aarch64.rpm"
-RPM_HASH = "8c8a18e87d1c08e5040195144b8d724b7ad4d0e6f288390ddd9f5fda99bd5a325ba0ac7bec9979d75542cce454f20e68ee8ae45ab454ee8098a9de646f11fe82"
+RPM_NAME = "qphotorec-7.2-1.11.aarch64.rpm"
+RPM_HASH = "46d68b9189529474bd793949ddb1b5e42f134d01328654f80ab5ef2158c833a208b6d2d41bafd7549261ba51d7e4f3a44bbe5f24f69743b5dc84837bcff9cfce"
 
 RPROVIDES:${PN} += "qphotorec"
 
@@ -15,11 +15,10 @@ libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
-libewf.so.3 \
 libext2fs.so.2 \
 libgcc-s.so.1 \
 libjpeg.so.8 \
-libntfs-3g.so.89 \
+libntfs-3g.so.90 \
 libstdc++.so.6 \
 libz.so.1"
 

@@ -6,10 +6,10 @@ Unicode character set. Supported character sets depend on the iconv \
 implementation of your system."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-iconv-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "6750319447db73c0dd85b60964191f9e22c5d0e039fd34a10b8cf12d56d37fb0499aa870886be1ae434772b58b04eb327acac51c51e1d98eca1d23221c8522d3"
+RPM_NAME = "php8-iconv-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "8ccb97b9e8db731a2f58f90a90f089ce4ae8ebc2aa1806b5c647582c566b39c56cbafd117bce7004e8d2745b0553388de0f8c79877680867455c856edb0061e9"
 
 RPROVIDES:${PN} += "config-php8-iconv \
 php-iconv \

@@ -6,10 +6,10 @@ each page of the document, to aid positioning (the grid may be \
 disabled, for 'final copy' using the command \\placeatsetup)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1d1svn45145"
+PV = "2026.226.0.0.1d1svn45145"
 
-RPM_NAME = "texlive-placeat-2023.209.0.0.1d1svn45145-52.1.noarch.rpm"
-RPM_HASH = "879c44fbf88338f9933a7333260a02c518d8ebe2d52b192d31f4e4739afac104b5b99581d2a712344e67695ec0e088f97f0366443e9f0d3df7d078a4fe3eeb9f"
+RPM_NAME = "texlive-placeat-2026.226.0.0.1d1svn45145-58.2.noarch.rpm"
+RPM_HASH = "cbcb58646305b7c9a9dd36e4e46d83950d1e9f2d367a93c04e9f1b3f39ca16ea98bff98cf940d3de8f82aa2e49057ba7759ff489b980a73c3d84f49d85e445b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-placeat.sty \

@@ -16,16 +16,15 @@ one-sided communication techniques. \
  \
 This package provides general tools (mpirun, mpiexec, etc.) and the \
 Module Component Architecture (MCA) base and plugins necessary for \
-running Open MPI/OpenSHMEM version 4 jobs."
+running Open MPI/OpenSHMEM version 4.1.8 jobs."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.5"
+PV = "4.1.8"
 
-RPM_NAME = "openmpi4-4.1.5-2.1.aarch64.rpm"
-RPM_HASH = "d21f8e0127f7efc87af3eabf8f6477d87e394830e7d1225d8c2aa097b6f3088d3e64515144440757ee5ab41fe3f8a63d798bc551558a16ba2077fa55512e7511"
+RPM_NAME = "openmpi4-4.1.8-4.7.aarch64.rpm"
+RPM_HASH = "5a8956dc393a39b85c6d0d36640519cde3c2f5cfb1db550f44d3d3c5222bde6b8e7a24fe91f317c68aafb5b7c44fac92a6bd341cf24b1ba5d842035c41d12763"
 
 RPROVIDES:${PN} += "mpi \
-openmpi \
 openmpi4"
 
 RDEPENDS:${PN} += "/usr/bin/perl \

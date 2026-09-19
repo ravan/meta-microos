@@ -8,10 +8,10 @@ commands; easy label creation for counters; and german language \
 tools and predefined abbreviations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.2svn26055"
+PV = "2026.226.0.0.3.2svn26055"
 
-RPM_NAME = "texlive-akktex-2023.209.0.0.3.2svn26055-55.1.noarch.rpm"
-RPM_HASH = "6ee93444c1b7d26e0d8e8511bca73e2fac3ef524e2fae3e464f80dfd0a64acc8b124cc6d977629d70bb9fc9f9cfc602f3202b42e1baa5bbacbe325dbf630ee57"
+RPM_NAME = "texlive-akktex-2026.226.0.0.3.2svn26055-61.2.noarch.rpm"
+RPM_HASH = "6adc02a5f52257ee3f03e2e6c211a9b57482f4db1808e2f3471cd10e9b794ba0898666b142f728d42adb2ac51d704add065b7e4579b09dcdb040b8eef6881914"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-akkconditional.sty \

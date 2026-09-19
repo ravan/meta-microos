@@ -9,10 +9,10 @@ Unlike pstricks, it can produce either PostScript or PDF \
 output."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1.10svn65553"
+PV = "2026.226.3.1.11asvn78101"
 
-RPM_NAME = "texlive-pgf-2023.209.3.1.10svn65553-52.1.noarch.rpm"
-RPM_HASH = "c8749a0cb7a0ed0f8ffe3381278470adc705552d81758efa8662ac431913f649e2f230f97f24e3349a45dea08cbe1c5931aba3284c9d05087ea7aa7a28303e72"
+RPM_NAME = "texlive-pgf-2026.226.3.1.11asvn78101-58.2.noarch.rpm"
+RPM_HASH = "9aa1b059bee0c7a5f378f338335f85e48d186137baa459e208e8d82002e17d0c9324be1d597afe294b63a36314feb9a8ad9a965d27cda903932f517ac265567c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgf.cfg \
@@ -316,7 +316,6 @@ texlive-fp \
 texlive-graphics \
 texlive-kpathsea \
 texlive-kpathsea-bin \
-texlive-ms \
 texlive-pdftexcmds \
 texlive-scripts \
 texlive-scripts-bin \

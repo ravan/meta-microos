@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-turnthepage"
 DESCRIPTION = "This package includes the documentation for texlive-turnthepage"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3asvn29803"
+PV = "2026.226.2.0asvn77682"
 
-RPM_NAME = "texlive-turnthepage-doc-2023.209.1.3asvn29803-53.1.noarch.rpm"
-RPM_HASH = "3e6629a30e2ee49ae769abc9ec5ad7ab0a53b391a4e36c1838c4a7583a70020fbaa75a6bd7e816b9b476b875e89b22011e3af00c4e30a32e380646ec7f8d696e"
+RPM_NAME = "texlive-turnthepage-doc-2026.226.2.0asvn77682-59.2.noarch.rpm"
+RPM_HASH = "73fc13bf87aec157ce4fc3d026ebf5d2f52f2a9ea0bef111021ac2228cdd36148e149638245130ddda1f2905d6da10b9408bfdbd3bae3c5358a8c98f60e9222e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-turnthepage-doc"

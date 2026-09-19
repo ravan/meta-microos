@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-mines"
 DESCRIPTION = "Provides translations for the 'gnome-mines' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "40.1"
+PV = "50.0"
 
-RPM_NAME = "gnome-mines-lang-40.1-1.8.noarch.rpm"
-RPM_HASH = "b8cd61a9df6bbc85f9915ce61a6f5aa4a0a30df245ebe293bf571ca2feb92326787b120635d344c55376d8f5efa7ab9fe4278eddf47f6bf98723d696b99afe87"
+RPM_NAME = "gnome-mines-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "b3a07b19d0002932a5ef03e1dd9f3709821cb84ab6edfffc1cca83a8da1ac3b4d6b4a12f2b7354c3b3ce872ef8ec63bc67a3e525f531a3f816dc5a26e5b1ea94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-mines-lang \

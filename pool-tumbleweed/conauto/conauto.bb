@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.03"
 
-RPM_NAME = "conauto-2.03-1.10.aarch64.rpm"
-RPM_HASH = "229897e8d5ca36668afb6f762fad77a8ce7302ddb1609a3b41e016e2b46ce9ccda53be82b3ccab3082aa7330ceb6f6acb31abacf14c24fcf126656f6010376a2"
+RPM_NAME = "conauto-2.03-2.9.aarch64.rpm"
+RPM_HASH = "46f146bcf1aa10170feb8e3dcca9528f789317800e1f1784dc1889da40ad8b83427e49651292436f8c11edc42c8cd826fcb13cb5101aa6687464174eee8712f6"
 
 RPROVIDES:${PN} += "conauto"
 

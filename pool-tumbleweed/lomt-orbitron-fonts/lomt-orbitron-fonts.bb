@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.20121218"
 
-RPM_NAME = "lomt-orbitron-fonts-0.20121218-8.7.noarch.rpm"
-RPM_HASH = "9067abeacd08b6812beacd7b83146af98fa6a8b7a2b2bbe6ed92d1b75d9e328c674cb5c9f1da8ab133850b014dfbcd8e15bb45dd4844ebc7a3640702f18a223a"
+RPM_NAME = "lomt-orbitron-fonts-0.20121218-8.15.noarch.rpm"
+RPM_HASH = "574b4e807336e6bbec37998bb1e8637179c398e36bee5a3f92b5e8fd64e8f81ed67cec612917de9eb63ca77b91c7b2bc477b946f6302f3e9f5914d32aa75df36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-orbitron-fonts"

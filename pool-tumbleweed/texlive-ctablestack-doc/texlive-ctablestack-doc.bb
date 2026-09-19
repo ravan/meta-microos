@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ctablestack"
 DESCRIPTION = "This package includes the documentation for texlive-ctablestack"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn38514"
+PV = "2026.226.1.0svn78101"
 
-RPM_NAME = "texlive-ctablestack-doc-2023.209.1.0svn38514-55.1.noarch.rpm"
-RPM_HASH = "5e067069fc0e5995b3e369db75377c1b93a9448afe47d46595e10a5b8d5da5b35878081efc2cf761b2796b4dee2548868ccd9818a12e61268502131245423f5b"
+RPM_NAME = "texlive-ctablestack-doc-2026.226.1.0svn78101-61.2.noarch.rpm"
+RPM_HASH = "815c45ce68654880e1f3c0c8ff7b06f094543bd7538c35c9f77549890f28b7ee705272b035c68e6dd3fb7a2872bf99342a495276d89249119cc2fc76a04fa614"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctablestack-doc"

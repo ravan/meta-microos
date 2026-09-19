@@ -5,10 +5,10 @@ API guarantees. The packages that build against these have to require \
 the exact Qt version."
 LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtserialbus-private-headers-devel-5.15.10+kde0-1.1.noarch.rpm"
-RPM_HASH = "7b85931f19353f51af5885540d7e41a0d2e6d35eef81f4ab1bf99134617483d1e5527e6730ef741adcfb13948c5365cd8e07ffd73bf1d0b66eb357fb7f859e4e"
+RPM_NAME = "libqt5-qtserialbus-private-headers-devel-5.15.19+kde0-1.3.noarch.rpm"
+RPM_HASH = "3788dd036b825f1dc3cc6b19074fc74ee5bbf9672920c3dc4be226d8e21cd32c3a076dea6ab31f9d6234bbb753322340121fa9a5a6df28a0da5d3d498d1db109"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtserialbus-private-headers-devel"

@@ -7,10 +7,10 @@ in just one dimension, use the facilities of the graphicx \
 package.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5svn20591"
+PV = "2026.227.5svn20591"
 
-RPM_NAME = "texlive-textfit-2023.209.5svn20591-55.1.noarch.rpm"
-RPM_HASH = "adfb1621c1080929855f0d5b8a3846066fd7b4a0b017ce7d824075b3de7fcf3e8fb4ea65614fe22acd0543470c5023f0bee6638228865ad89d2b728144bf63a8"
+RPM_NAME = "texlive-textfit-2026.227.5svn20591-62.2.noarch.rpm"
+RPM_HASH = "a0a3efcc35c50850b4a5212ea777cced05446c83146a13ab94c890e74ba96af2e20ce6638e953c2eff9fccfcbab8e9817ca5a7048de69b6180243d0aa26e52ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-textfit.sty \

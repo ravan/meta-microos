@@ -1,28 +1,31 @@
 SUMMARY = "LXQt application launcher"
-DESCRIPTION = "Tool to launch programs quickly, by typing their names"
+DESCRIPTION = "lxqt-runner provides a GUI that comes up on the desktop and allows for \
+launching applications or shutting down the system. A calculator function \
+is implemented too."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.0"
+PV = "2.4.0"
 
-RPM_NAME = "lxqt-runner-1.3.0-1.2.aarch64.rpm"
-RPM_HASH = "cddd02630678c57d50e3c75a1b835a1af2299303286a5aa212279e6a2c97ac47c3e2ba0055f54ad0556d3e3e380bfb42093c89f44df04529825b4468b37e7953"
+RPM_NAME = "lxqt-runner-2.4.0-1.2.aarch64.rpm"
+RPM_HASH = "ac94e7d8096d73528cc0917c7e4c2ffeacd485e48757bb12a11bff37ab10661bb47e3a4c9ec544a551ba343ba10a7a250bf1ac20f3ab4327f54ef219fe146895"
 
 RPROVIDES:${PN} += "config-lxqt-runner \
 lxqt-runner"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5WindowSystem.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xdg.so.3 \
-libQt5Xml.so.5 \
+libKF6WindowSystem.so.6 \
+libLayerShellQtInterface.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xdg.so.4 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-liblxqt-globalkeys-ui.so.1 \
-liblxqt-globalkeys.so.1 \
-liblxqt.so.1 \
-libmuparser.so.2.3.4 \
+liblxqt-globalkeys-ui.so.2 \
+liblxqt-globalkeys.so.2 \
+liblxqt.so.2 \
+libmuparser.so.2.3.5 \
 libstdc++.so.6"
 
 inherit rpm

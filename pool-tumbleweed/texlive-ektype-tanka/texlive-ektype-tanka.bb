@@ -5,10 +5,10 @@ sNgrh / . This package provides a collection of some excellent \
 Devanagari fonts by EkType: Mukta, Baloo, Modak, and Jaini."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn63255"
+PV = "2026.226.0.0.2svn63255"
 
-RPM_NAME = "texlive-ektype-tanka-2023.209.0.0.2svn63255-54.2.noarch.rpm"
-RPM_HASH = "8f7724f70325c0f44484b73e66b5c6f6e83530bbac7973975c8eaec6611b86f3c5b0dbb6cbbe5f0d47c6c484bc5feabcc37606dc6340d403de1efe22a5966db4"
+RPM_NAME = "texlive-ektype-tanka-2026.226.0.0.2svn63255-61.4.noarch.rpm"
+RPM_HASH = "ca1571c45a0677aa6954483e7ded81a9789410712de3137d1f1deba5e09b4d750cd59ef36967c27980bc17b6aa2b2f98c844524ca31aba3435160f9e8386e9a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ektype-tanka"

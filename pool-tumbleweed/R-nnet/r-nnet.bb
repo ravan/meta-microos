@@ -2,10 +2,10 @@ SUMMARY = "Package provides recommended R-nnet"
 DESCRIPTION = "This packages provides R-nnet, one of the recommended packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "7.3.19"
+PV = "7.3.20"
 
-RPM_NAME = "R-nnet-7.3.19-46.1.aarch64.rpm"
-RPM_HASH = "6475c57f0f7360d5a9e6b2899c0cae201a7344fc8bb092d12d2cfa55c21bf6e8fdd31b1e8bf4c88bb2bfbb8efc2b758369896202504344cb6e3153fe47ec66c1"
+RPM_NAME = "R-nnet-7.3.20-58.3.aarch64.rpm"
+RPM_HASH = "4934c3248e59406aca22f14464f9d0b3f100db51ad741f6f6b9709e3435e49886855f741e963d5e52e43658126afda096f7589358e5db2f8793c41d2d9c32aae"
 
 RPROVIDES:${PN} += "R-nnet"
 

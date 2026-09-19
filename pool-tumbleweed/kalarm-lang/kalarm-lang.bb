@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kalarm"
 DESCRIPTION = "Provides translations for the 'kalarm' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kalarm-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "a9787a1a83c2cb08f954ffbea622dcea75cf7716971f771936a7d2f47875a7b0bfa4cbfea96aed835d8047e17ba78252abda7617e5dacba8c475b698f707f1be"
+RPM_NAME = "kalarm-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "b73ea431690555aa53b972940dda21f182286689428d26239ac2eae6bd998270de23498da4a00876efd7ee423535447790dacf8371e982bbd4d3bc03faeb298c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kalarm-lang \
 kalarm-lang-all \
 locale-kalarm-af \
 locale-kalarm-ar \
+locale-kalarm-ast \
 locale-kalarm-be \
 locale-kalarm-bg \
 locale-kalarm-br \

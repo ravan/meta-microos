@@ -5,10 +5,10 @@ The tool requires sudo to run since it needs to write to /proc/timer_stats to \
 start and stop the event monitoring."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.04.13"
+PV = "0.06.00"
 
-RPM_NAME = "eventstat-0.04.13-1.5.aarch64.rpm"
-RPM_HASH = "d820d6f3f1c8ca2ba3ce1e85c0b7217b1f8d40b806ae4ed238af55fc337fcace349ff9664fc48d29fed77a901c61502313c4d84a5138ade93b7a63e1a94d6fca"
+RPM_NAME = "eventstat-0.06.00-1.10.aarch64.rpm"
+RPM_HASH = "10f12d2a55663e7f5899ca37fefb81d6204555fe75bed827140062409aedede1ddc22643c88f24fc7742c361f766c15a41d7741dc932c0359f8ab1641ff2f4c4"
 
 RPROVIDES:${PN} += "eventstat"
 

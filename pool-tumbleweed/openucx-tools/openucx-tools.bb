@@ -2,12 +2,13 @@ SUMMARY = "OpenUCX utilities"
 DESCRIPTION = "Miscallaneous utilities for Unified Communication X."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.14.1"
+PV = "1.21.0"
 
-RPM_NAME = "openucx-tools-1.14.1-1.1.aarch64.rpm"
-RPM_HASH = "5cff6db6ef977e56651650e7ff099ff3d02917ce440dd4dce0c80524609b14d2835681e1e6cf91a277ab8178928de3f458b1cebf33465b2eaeb2f2fd81cfe770"
+RPM_NAME = "openucx-tools-1.21.0-1.2.aarch64.rpm"
+RPM_HASH = "ae1866c6be599b843a7dd4361b316c2758aa1223381eadc97b2315d96ac75dbf24dfe85faf61b5c2594a7745a67d7ca5a95a1445e7fd7923e4dafff0601ad923"
 
-RPROVIDES:${PN} += "openucx-tools \
+RPROVIDES:${PN} += "config-openucx-tools \
+openucx-tools \
 pkgconfig-ucx"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

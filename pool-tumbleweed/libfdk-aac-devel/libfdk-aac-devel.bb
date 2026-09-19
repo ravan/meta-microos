@@ -3,10 +3,10 @@ DESCRIPTION = "The libfdk-aac-devel package contains libraries and header files 
 developing applications that use fdk-aac-free."
 LICENSE = "FDK-AAC"
 
-PV = "2.0.0"
+PV = "2.0.3"
 
-RPM_NAME = "libfdk-aac-devel-2.0.0-2.8.aarch64.rpm"
-RPM_HASH = "ed94e65d6811c30ff9331e4b10ca8577fb391dd316a5ad7d92a6af718dbf080e429b4ac39b333f22bd8469e91afa5c5d36f149df84e89f988a49da2f535ffb89"
+RPM_NAME = "libfdk-aac-devel-2.0.3-1.2.aarch64.rpm"
+RPM_HASH = "1419438407a2a3ba175896425a71d127f1e08c00a3db65c5d40e006e470fb88ac4f7d1f7643d423dffa5a38c58f0de108a718e528447713d0285a4d30800f12d"
 
 RPROVIDES:${PN} += "fdk-aac-free-devel \
 libfdk-aac-devel \

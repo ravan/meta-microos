@@ -5,39 +5,29 @@ activities are game orientated, but nonetheless still educational. \
  \
 Currently, GCompris offers in excess of 100 activities. New \
 activities can be added, and an activity can implement its own game \
-scheme. \
- \
-This version is a rewrite of GCompris using the QtQuick \
-technology."
-LICENSE = "AGPL-3.0-or-later"
+scheme."
+LICENSE = "AGPL-3.0-or-later & CC-BY-4.0 & Apache-2.0 & MPL-2.0 & OFL-1.1 & GFDL-1.2-or-later & MIT & CC0-1.0 & BSD-2-Clause & BSD-3-Clause"
 
-PV = "3.3"
+PV = "26.1"
 
-RPM_NAME = "gcompris-qt-3.3-1.1.aarch64.rpm"
-RPM_HASH = "f00a429e77e5a64e41a5d5f1aa6d13ed6a86f1b42109d7b98dd60b9aa0bbb38426667f440049531e5bc5a4c3196925d15288df0683d03dd8750b1415e1159eef"
+RPM_NAME = "gcompris-qt-26.1-1.2.aarch64.rpm"
+RPM_HASH = "67238538dd3e9cc9cfec20c4c7e84f107dc01306a77c2069bfc4aba3ccc20c464b569b91d963c4f1b6a7a448ff077d15a5edb5486eda7e380fa14bb2e65e31dd"
 
 RPROVIDES:${PN} += "gcompris \
 gcompris-qt"
 
 RDEPENDS:${PN} += "gcompris-qt-activities \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Multimedia5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5Sensors.so.5 \
-libQt5Svg5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6Sensors.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libqt5-qtcharts-imports \
-libqt5-qtgraphicaleffects \
-libqt5-qtimageformats \
-libstdc++.so.6 \
-qml-box2d"
+libstdc++.so.6"
 
 inherit rpm

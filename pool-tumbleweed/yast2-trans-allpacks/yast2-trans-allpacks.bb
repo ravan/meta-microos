@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.3.0"
 
-RPM_NAME = "yast2-trans-allpacks-4.3.0-1.9.noarch.rpm"
-RPM_HASH = "deae288694a96d76cdbf3df0228028505d4a3bcb6aabd040ea75de71356e4306f9bc94179c1dc308741e03653ad17b02b68f0927ec3fd932705c5dc5717b5386"
+RPM_NAME = "yast2-trans-allpacks-4.3.0-1.17.noarch.rpm"
+RPM_HASH = "a30b4fce7b043cd4ff40726f432c159c8f0c0311bfe9886ec0c581ecbb0c80b86afac8f5f6dcc7b1c03efe8f655372bfe0193459d35a39d76ba03030b8ec4a32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-trans-allpacks"

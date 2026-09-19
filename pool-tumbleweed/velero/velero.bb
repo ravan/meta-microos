@@ -3,13 +3,13 @@ DESCRIPTION = "velero is a backup program. It supports verification, encryption,
 snapshots and deduplication."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.2"
+PV = "1.18.2"
 
-RPM_NAME = "velero-1.9.2-1.3.aarch64.rpm"
-RPM_HASH = "3845fb25d3b527739ec614cf94af4df6a70dc3d59530d2ed1dd19ec2b024f7fd8c09b8cb85b11c15bd43f36d3fbf373cabac1be5d250736569a14bc6d0f69f00"
+RPM_NAME = "velero-1.18.2-1.3.aarch64.rpm"
+RPM_HASH = "cfac924f026e5bcc94e17daffd0b1f5ae9d0b0b61cfd9e58aa82ef9f4aa282eac1f83dc4ae66e4fb18a0cbce89151c464c4a9b12e0fedd4e11582fa7e151dd1d"
 
 RPROVIDES:${PN} += "velero"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

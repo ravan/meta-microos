@@ -1,12 +1,12 @@
 SUMMARY = "API for creating 3D content and 3D user interfaces based on Qt Quick"
 DESCRIPTION = "Qt Quick 3D provides a high-level API for creating 3D content and 3D user \
 interfaces based on Qt Quick."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quick3d-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "a4ea2e4a7513613969fe3daf15ca2164858e2b4bdda0c84faca57a32108e923065d905eb970a2a52411f58d012f6b0a0fcbf0819224602190fdcb254285a0f33"
+RPM_NAME = "qt6-quick3d-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "b86d4c3b52f0886f5e8ffc16086ce98fa0df83a33a971f942ce69f3ee31d6d5b2ba224b25c1f5c33464cdeb157c63feb7513a90db95d03363c44efc5e67f7f23"
 
 RPROVIDES:${PN} += "libassimp.so \
 qt6-quick3d"
@@ -27,7 +27,7 @@ libQt6Quick3DRuntimeRender.so.6 \
 libQt6Quick3DUtils.so.6 \
 libQt6ShaderTools.so.6 \
 libQt6Widgets.so.6 \
-libassimp.so.5 \
+libassimp.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

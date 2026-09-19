@@ -6,10 +6,10 @@ customizable, and works with all versions of LaTeX and probably \
 most other TeX formats."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn32262"
+PV = "2026.226.2.3svn32262"
 
-RPM_NAME = "texlive-varindex-2023.209.2.3svn32262-54.1.noarch.rpm"
-RPM_HASH = "564c99da8ba01ebd6d5bc7f1206c44eebf93edade7c381613258d851d95128e9e1ad84e8b282cf2aa3979d21dfa8da3bef76153ce5bb9e14d636279164c589bc"
+RPM_NAME = "texlive-varindex-2026.226.2.3svn32262-60.2.noarch.rpm"
+RPM_HASH = "744bac1b09bb6770c74fd568c450c879b38cfe06477de391c53dbb72a283a44e9a4ef5e280bc257b3c31b112c6373fb1576cb54e50f215b7db515f2783022e85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-varindex.sty \

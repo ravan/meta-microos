@@ -1,11 +1,11 @@
 SUMMARY = "Matching Algorithm with Recursively Implemented StorAge"
 DESCRIPTION = "The libmarisa0 package contains runtime libraries for marisa."
-LICENSE = "LGPL-2.1-or-later | BSD-2-Clause"
+LICENSE = "BSD-2-Clause | LGPL-2.1-or-later"
 
-PV = "0.2.6"
+PV = "0.3.1"
 
-RPM_NAME = "libmarisa0-0.2.6-1.24.aarch64.rpm"
-RPM_HASH = "8594dea89341a3bdadb8900feb487e6df3788fe893aabf6fbc92d0acf893d2277df7ddd1325611b49303cc9ed22a03f87ae41714a2ff2b9cd045905ab8b8df47"
+RPM_NAME = "libmarisa0-0.3.1-1.6.aarch64.rpm"
+RPM_HASH = "b39fa248f3f33a3a0d10c20760381c41cd6c26e8a6bcd7d9ee8237f79641d68d5fd00cf1eed44b08a75f896d01d25596c24c22fbfb762897d2ea6289ae18bfe5"
 
 RPROVIDES:${PN} += "libmarisa.so.0 \
 libmarisa0"

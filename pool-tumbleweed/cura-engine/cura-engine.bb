@@ -6,8 +6,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "4.13.1"
 
-RPM_NAME = "cura-engine-4.13.1-2.1.aarch64.rpm"
-RPM_HASH = "cc19335885766ef54e7a8b0d803c562d14c845838a3d4a5acbc2eca6f4a53efaab7e7c4996598354c86678ac691905e6d63b870f2f1899298e4890fd07423dde"
+RPM_NAME = "cura-engine-4.13.1-3.18.aarch64.rpm"
+RPM_HASH = "32709ea7a24e57785abbf9f4b8358b1a2223b0fca8ef50ddd7ce6d65960628471084f0097239ef7b069057e052e73c5c82b1a1f27f74cd55d88c6309cbe717e3"
 
 RPROVIDES:${PN} += "cura-engine"
 
@@ -18,7 +18,7 @@ libgcc-s.so.1 \
 libgomp.so.1 \
 libm.so.6 \
 libpolyclipping.so.22 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.34.2.0 \
 libstdc++.so.6"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.92.1"
 
-RPM_NAME = "libstatgrab10-0.92.1-1.6.aarch64.rpm"
-RPM_HASH = "34223de8d9a145dbb02cffe634a840f0910803c7d02008ed5bf66b9da02b2b54c8df9486d0fff4be93cbba0be9ddaf619716bf6a505eeadb7c86933fb1874db2"
+RPM_NAME = "libstatgrab10-0.92.1-2.1.aarch64.rpm"
+RPM_HASH = "62e08811f43302ecf755dc851f97c63933b2c24936a32fe745fcfecf9cfd20a9cce4ea2e29a5bb540e4e53441af19e8c58f061ecd5eb4aac491444762662c6a7"
 
 RPROVIDES:${PN} += "libstatgrab.so.10 \
 libstatgrab10"

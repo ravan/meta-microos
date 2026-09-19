@@ -10,10 +10,10 @@ document as hyperref, you cannot use any formatting in your \
 section titles. So don't use cybercic unless you need to."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn37659"
+PV = "2026.226.2.1svn37659"
 
-RPM_NAME = "texlive-cybercic-2023.209.2.1svn37659-55.1.noarch.rpm"
-RPM_HASH = "143f39c04938cc8efaaa957a8dcbca229fef46e715f751b19b231b59daf64cbe9f60433369a9f8e671565e6efdcdd491f97c5af588466211826d506e808bf0ea"
+RPM_NAME = "texlive-cybercic-2026.226.2.1svn37659-61.2.noarch.rpm"
+RPM_HASH = "64c98ae84712c37405a3215ddfaef57719eb0781168b9de40e64e23527f7c4586bc1c5f058456001e2f2e0755f859cb71aa53cff72a8668df6506838c3410ff6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cybercic.sty \

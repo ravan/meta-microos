@@ -11,8 +11,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "1.8"
 
-RPM_NAME = "nemesis-1.8-1.7.aarch64.rpm"
-RPM_HASH = "56cd3d4741db96169925b0dffe2ef77dff86a9cbdc4f8616a15a6ed104df9f2488c80ca56a6d545f24170f926db9ee3044b8a45a32ab2c37aba9dcb9c4400afb"
+RPM_NAME = "nemesis-1.8-1.17.aarch64.rpm"
+RPM_HASH = "3f9ec3f698bf560a75f84841d7820f9a221d581105f1085426b3d8cffa0ddc0cea0cbf039681fbb9e999a53d7676bff4b1b8aa7f329b3aa847c38ce5ba7f2537"
 
 RPROVIDES:${PN} += "nemesis"
 

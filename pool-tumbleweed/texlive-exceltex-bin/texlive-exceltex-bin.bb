@@ -2,10 +2,10 @@ SUMMARY = "Binary files of exceltex"
 DESCRIPTION = "Binary files of exceltex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn25860"
+PV = "2026.20260301.svn25860"
 
-RPM_NAME = "texlive-exceltex-bin-2023.20230311.svn25860-93.2.aarch64.rpm"
-RPM_HASH = "726f8ead662b4e39634d4003854d5fc2ec4cacecea7660724305fe7c8ae4fa126f0810d4da802b012a15c1785b1436c0909c3b9f5c017fa6eb15ba4103e7d9e1"
+RPM_NAME = "texlive-exceltex-bin-2026.20260301.svn25860-120.4.aarch64.rpm"
+RPM_HASH = "dbbb0f8eb4c6062b4de42bca1a9cc2e025abd1d20097a4404c1cd2a902ab68f2550d5b0e22162175267e9ab31a1537aa40963e3d4d07d47502a311332d695168"
 
 RPROVIDES:${PN} += "texlive-exceltex-bin"
 

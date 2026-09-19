@@ -9,10 +9,10 @@ theories, where the structure is semi-algorithmically \
 determined."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.08svn17259"
+PV = "2026.226.1.08svn77682"
 
-RPM_NAME = "texlive-feynmf-2023.209.1.08svn17259-53.1.noarch.rpm"
-RPM_HASH = "ca60c6ece14261b22f874b4e675e47e126bfa52f9cd1af8c84c79f856226b9191b1193261762476929e2e9deb97547d656876d5cc231c13511a2ab04a14989c6"
+RPM_NAME = "texlive-feynmf-2026.226.1.08svn77682-59.2.noarch.rpm"
+RPM_HASH = "a8b322ca0bbc641f3acee37b1bfa1a086294fbda3542f50c7c00d3052234f6942e2d3d1110980524fdc1e61c6ec91b536528ef823326e18afe5f76dca393c9f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-feynmf.sty \

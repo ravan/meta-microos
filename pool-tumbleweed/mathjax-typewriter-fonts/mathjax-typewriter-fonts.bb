@@ -2,10 +2,10 @@ SUMMARY = "Fonts used by MathJax to display math in the browser"
 DESCRIPTION = "Fonts used by MathJax to display math in the browser."
 LICENSE = "OFL-1.1"
 
-PV = "2.6.0"
+PV = "3.2.2"
 
-RPM_NAME = "mathjax-typewriter-fonts-2.6.0-3.6.noarch.rpm"
-RPM_HASH = "a7c83130713faa0bd56d4728641a8f5f676ac1927b5e9984dc040d6e17444814fa8c8be39c5eca276e1304bd707e6ffa6e4068ab360ac9a8e0644f14bb518228"
+RPM_NAME = "mathjax-typewriter-fonts-3.2.2-1.6.noarch.rpm"
+RPM_HASH = "f95236741623b9f3227cfe6bcac6907cf4b1b9a0998700e49b40bdc0af8c771f7e07c97d51c5609aa1358e5911ea7e941550836f69918e40a20454c44ea647a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathjax-typewriter-fonts"

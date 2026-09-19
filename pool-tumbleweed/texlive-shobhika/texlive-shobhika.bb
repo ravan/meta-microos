@@ -18,10 +18,10 @@ their fonts under the SIL Open Font Licence, which has enabled \
 us to create Shobhika."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.05svn50555"
+PV = "2026.226.1.05svn50555"
 
-RPM_NAME = "texlive-shobhika-2023.209.1.05svn50555-54.1.noarch.rpm"
-RPM_HASH = "024a8f46e1e6abf52c78f9cbe0133d5969fe9a6b69708be1f64cb9867c1df8eed6e62bbcb4c5de4007a0811dcf25a9920bdbf05dd3515ab97c252a5e2dea69b6"
+RPM_NAME = "texlive-shobhika-2026.226.1.05svn50555-60.2.noarch.rpm"
+RPM_HASH = "7e2b323297b26fe14dd8fedac555cfa29e96394a5a1cce583ee0c40191eee63e97f986d10a64dfce7abcfbe11f50976181bb7ee4d0f51a38c2af71c67bb254b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shobhika"

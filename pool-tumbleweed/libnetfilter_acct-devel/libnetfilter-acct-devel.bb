@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "libnetfilter_acct-devel-1.0.3-2.10.aarch64.rpm"
-RPM_HASH = "62279b4cc49bcd49f2917077b51a7162bac918bd718be24fdea4af66f09e60c53150de604b5e192337f21bbc6e9d43d91eee51b8413c72671e8cf23d27f91c31"
+RPM_NAME = "libnetfilter_acct-devel-1.0.3-2.20.aarch64.rpm"
+RPM_HASH = "f0e0a8090480790674f183c1eea68fe8b9aa81ce677bb88933d6527f3f54c336900c4ff6761871e69fcf248c3739425186b0929e1b371ff3e807a4ea37f54d8f"
 
 RPROVIDES:${PN} += "libnetfilter-acct-devel \
 pkgconfig-libnetfilter-acct"

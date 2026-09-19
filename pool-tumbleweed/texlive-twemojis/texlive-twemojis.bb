@@ -5,10 +5,10 @@ relies on images, so no fancy unicode-font stuff is needed and \
 it should work on every installation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3.1_twemoji_v14.0.1svn62930"
+PV = "2026.226.1.3.1_twemoji_v14.0.1svn77682"
 
-RPM_NAME = "texlive-twemojis-2023.209.1.3.1_twemoji_v14.0.1svn62930-53.1.noarch.rpm"
-RPM_HASH = "8daf744f66053539d1532a707e496c59ce63aea5f13697ee403c52b87767152a67a54fbdc49388eb87a6f8a64aa7e1e4141c2e77d89aeaa8921a80a5e9d1eb69"
+RPM_NAME = "texlive-twemojis-2026.226.1.3.1_twemoji_v14.0.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "6250f5de86eb2d6e29510c23794b8a2f3c2f2a297ffa5389a62c3855717c881920c94f883def6defca8739a5fdc15cf617e82843caf0f90cce3d90692ba89d6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-twemojis.sty \

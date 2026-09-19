@@ -15,10 +15,10 @@ fonts are supported by separate packages; details can be found \
 in the documentation."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.04svn61937"
+PV = "2026.226.3.04svn77682"
 
-RPM_NAME = "texlive-amsfonts-2023.209.3.04svn61937-55.1.noarch.rpm"
-RPM_HASH = "f00c9726e6c638cbf36d5bb08d17108d46fedfbaefe453099108e206ef4f642372019f4b6ecc0462b9c94acca052b25e748a9eb4b8657d69d3b53d59e779a621"
+RPM_NAME = "texlive-amsfonts-2026.226.3.04svn77682-61.2.noarch.rpm"
+RPM_HASH = "be0a2b7be7eaad50464f45512263b975b4a3f3952f70659c873417f2200a430be64a269f96f453aa9f46288066808e6e17032c6b125a939658b1e5fedf9b550b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-amsfonts.sty \

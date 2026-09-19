@@ -2,13 +2,14 @@ SUMMARY = "Documentation for texlive-mynsfc"
 DESCRIPTION = "This package includes the documentation for texlive-mynsfc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.30svn60280"
+PV = "2026.226.2.00svn77520"
 
-RPM_NAME = "texlive-mynsfc-doc-2023.209.1.30svn60280-55.1.noarch.rpm"
-RPM_HASH = "10e708cd9f160e4d825a8ef77ad425a5a67f90af5f0050a6ef22b5869f7f6ca929fc03654447d7040896d578c8b3e48810f01e14976d323072f238d4c1378f66"
+RPM_NAME = "texlive-mynsfc-doc-2026.226.2.00svn77520-61.2.noarch.rpm"
+RPM_HASH = "42f94350559f758ebd131f596e32980f47d3445aa0482b78d5729b8b836baed8c4e902658bba705120ae8e871cb6ce6ec03a50749c89dd71a0708db229ab2aef"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-mynsfc-doc"
+RPROVIDES:${PN} += "locale-texlive-mynsfc-doc-zh \
+texlive-mynsfc-doc"
 
 RDEPENDS:${PN} += ""
 

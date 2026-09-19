@@ -6,10 +6,10 @@ The working copy directory from version control systems such as CVS, \
 Subversion, Bazaar-ng and Mercurial can be browsed and viewed."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.22.0"
+PV = "3.24.0"
 
-RPM_NAME = "meld-3.22.0-1.3.noarch.rpm"
-RPM_HASH = "9578d0a538338172549d672e4463e636937e4256b5a72c1c835b4e539384728f30b6a7e75a3e99829cac109b02dfe8e3cb646454ef3164ba568958fa2b65c407"
+RPM_NAME = "meld-3.24.0-1.2.noarch.rpm"
+RPM_HASH = "81f5a43d91a794740bafbaa279e91a946e865dd073c2dfd5d5f0c548e793d4ff9412e2324c04879bde1d4f1d185f07f826ba30ee2c458eca31f8c2af6dd9004b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "meld"

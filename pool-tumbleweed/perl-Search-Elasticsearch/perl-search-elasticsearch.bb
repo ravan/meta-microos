@@ -5,10 +5,10 @@ powerful open source, distributed real-time search and analytics engine for \
 the cloud. You can read more about it on at http://www.elastic.co."
 LICENSE = "Apache-2.0"
 
-PV = "8.00"
+PV = "8.120.0"
 
-RPM_NAME = "perl-Search-Elasticsearch-8.00-1.4.noarch.rpm"
-RPM_HASH = "0d94ca706c1ba1f2e6afd712493af970a21de77ddfce1db5e41715b4d0c1a80b97231d87180e60aeaf01f62e692afd6588fac19c39dad93c894edf3d249a7bff"
+RPM_NAME = "perl-Search-Elasticsearch-8.120.0-2.12.noarch.rpm"
+RPM_HASH = "e83074279940dd696f2582a2324eff62532f51c2ff0168f4e63eed1e0888af0792fc7424144d3ff9c58332cb77c5bd1bff7836d6d72bfb1942221e45bd5682d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Search--Elasticsearch \
@@ -19,14 +19,18 @@ perl-Search--Elasticsearch--Client--8-0--Direct--Autoscaling \
 perl-Search--Elasticsearch--Client--8-0--Direct--CCR \
 perl-Search--Elasticsearch--Client--8-0--Direct--Cat \
 perl-Search--Elasticsearch--Client--8-0--Direct--Cluster \
+perl-Search--Elasticsearch--Client--8-0--Direct--Connector \
+perl-Search--Elasticsearch--Client--8-0--Direct--ConnectorSyncJob \
 perl-Search--Elasticsearch--Client--8-0--Direct--DanglingIndices \
 perl-Search--Elasticsearch--Client--8-0--Direct--Enrich \
 perl-Search--Elasticsearch--Client--8-0--Direct--Eql \
+perl-Search--Elasticsearch--Client--8-0--Direct--Esql \
 perl-Search--Elasticsearch--Client--8-0--Direct--Features \
 perl-Search--Elasticsearch--Client--8-0--Direct--Fleet \
 perl-Search--Elasticsearch--Client--8-0--Direct--Graph \
 perl-Search--Elasticsearch--Client--8-0--Direct--ILM \
 perl-Search--Elasticsearch--Client--8-0--Direct--Indices \
+perl-Search--Elasticsearch--Client--8-0--Direct--Inference \
 perl-Search--Elasticsearch--Client--8-0--Direct--Ingest \
 perl-Search--Elasticsearch--Client--8-0--Direct--License \
 perl-Search--Elasticsearch--Client--8-0--Direct--Logstash \
@@ -34,15 +38,21 @@ perl-Search--Elasticsearch--Client--8-0--Direct--ML \
 perl-Search--Elasticsearch--Client--8-0--Direct--Migration \
 perl-Search--Elasticsearch--Client--8-0--Direct--Monitoring \
 perl-Search--Elasticsearch--Client--8-0--Direct--Nodes \
+perl-Search--Elasticsearch--Client--8-0--Direct--Profiling \
+perl-Search--Elasticsearch--Client--8-0--Direct--QueryRuleset \
 perl-Search--Elasticsearch--Client--8-0--Direct--Rollup \
 perl-Search--Elasticsearch--Client--8-0--Direct--SQL \
 perl-Search--Elasticsearch--Client--8-0--Direct--SSL \
+perl-Search--Elasticsearch--Client--8-0--Direct--SearchApplication \
 perl-Search--Elasticsearch--Client--8-0--Direct--SearchableSnapshots \
 perl-Search--Elasticsearch--Client--8-0--Direct--Security \
 perl-Search--Elasticsearch--Client--8-0--Direct--Shutdown \
+perl-Search--Elasticsearch--Client--8-0--Direct--Simulate \
 perl-Search--Elasticsearch--Client--8-0--Direct--Slm \
 perl-Search--Elasticsearch--Client--8-0--Direct--Snapshot \
+perl-Search--Elasticsearch--Client--8-0--Direct--Synonyms \
 perl-Search--Elasticsearch--Client--8-0--Direct--Tasks \
+perl-Search--Elasticsearch--Client--8-0--Direct--TextStructure \
 perl-Search--Elasticsearch--Client--8-0--Direct--Transform \
 perl-Search--Elasticsearch--Client--8-0--Direct--Watcher \
 perl-Search--Elasticsearch--Client--8-0--Direct--XPack \
@@ -81,7 +91,7 @@ perl-Search--Elasticsearch--Transport \
 perl-Search--Elasticsearch--Util \
 perl-Search-Elasticsearch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Any--URI--Escape \
 perl-Devel--GlobalDestruction \
 perl-HTTP--Headers \

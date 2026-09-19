@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bfh-ci"
 DESCRIPTION = "This package includes the documentation for texlive-bfh-ci"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.5svn66461"
+PV = "2026.226.2.2.6svn77879"
 
-RPM_NAME = "texlive-bfh-ci-doc-2023.209.2.1.5svn66461-54.1.noarch.rpm"
-RPM_HASH = "a2c42e95ae527eb2fe3824e1228d1dd715768ffc28e19ae1c3f477784be3b5c7129eeb2888577280dcffc44004fb241ba1c076af5b4ffd880965e4666c6a60c8"
+RPM_NAME = "texlive-bfh-ci-doc-2026.226.2.2.6svn77879-61.2.noarch.rpm"
+RPM_HASH = "39bfee6ba5da108e98363c1600c744c1caee4ee54c934b28194c5dbee7c3d634ac2bfb9176af87a76eea61316bc57b6ddded118eccfa141d8888bf6533aae57b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bfh-ci-doc"

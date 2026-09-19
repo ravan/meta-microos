@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a QML module for Qt 5 which allows playing 
 files from QML."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtlottie-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "d1902f4359268b994b709de4e4a062998d9b1248581646f9c276b8a1f90c7cf6a1636e46662bb77975c9b3d9a096da86041f7ac08e6c3c84c486b71d11dc495f"
+RPM_NAME = "libqt5-qtlottie-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "9ef8277c270a9842358d4632749f02856222d4d16f2b2cacb27c9e888ebee60c04a1f2232dedeef011d67b743b5e9738d66ee49c3f0024b5f1609034569d6699"
 
 RPROVIDES:${PN} += "liblottieqtplugin.so \
 libqt5-qtlottie \

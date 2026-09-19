@@ -7,10 +7,10 @@ definitions, an algorithm environment, and more. The class \
 requires natbib."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.25fsvn44847"
+PV = "2026.226.2.25fsvn44847"
 
-RPM_NAME = "texlive-computational-complexity-2023.209.2.25fsvn44847-54.1.noarch.rpm"
-RPM_HASH = "a4cbd31e6eb11a2068d2a20722a7e0f8720adc3d7569c60a923fc5085073f55498065a44c763a808260cf315f16ff4c0ead3463a353cb4c4b9d273604b1a547f"
+RPM_NAME = "texlive-computational-complexity-2026.226.2.25fsvn44847-60.2.noarch.rpm"
+RPM_HASH = "de54e7153e39b6cf9f72236482c9bd533f314c68d84db07aaf99d166c3d486acbe2c2971210ab3ba701a1406222229b51ab71a00a6798d20b5ba84228cc1a354"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cc-cls.sty \

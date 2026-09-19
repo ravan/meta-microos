@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-changelog"
 DESCRIPTION = "This package includes the documentation for texlive-changelog"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.5.0svn65861"
+PV = "2026.226.2.6.1svn77682"
 
-RPM_NAME = "texlive-changelog-doc-2023.209.2.5.0svn65861-53.1.noarch.rpm"
-RPM_HASH = "ab2cd713a71bc422d720ac03f92b3a2a7103f7e0b7bd129309ff97c3b8533a04c714fb7901bba45eeb139babfb4ac5a4a2c695b636ae7dc965cb9f55a3ccd6fb"
+RPM_NAME = "texlive-changelog-doc-2026.226.2.6.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "acc3bdf2f9fa6d4cd5491ad8b2bdea81c8ce7a9b5b2911aa7deb33d5f7cfd2b132c12ff228c3f97b73d625f04f63b04708a7955a469fac99447a39061ae82a1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-changelog-doc"

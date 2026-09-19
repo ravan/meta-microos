@@ -4,10 +4,10 @@ BibTeX .bib file. The package makes use of BibLaTeX/biber to \
 automatically format, group, and sort the entries on a CV."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn59433"
+PV = "2026.226.0.0.01svn59433"
 
-RPM_NAME = "texlive-biblatex-cv-2023.209.0.0.01svn59433-54.1.noarch.rpm"
-RPM_HASH = "35575c36a5235c319f5569218f9c665ecc88cfe2a3a2a0a650b2439515ee2fbb834a7b1541ae6ce8e775938ef570dbe0aa64bbc666a17acfafa6aac82acb192c"
+RPM_NAME = "texlive-biblatex-cv-2026.226.0.0.01svn59433-61.2.noarch.rpm"
+RPM_HASH = "87de2a29c24f350e832ccf91a33af01246dac5285e7ba379ca89d9cac14f6aa0231d77a556b4142883f3369f5f3a4cac29a08c1293c724e055129c5338e3ae4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-american-cv.lbx \

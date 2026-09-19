@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.3.7"
 
-RPM_NAME = "tripwire-2.4.3.7-1.9.aarch64.rpm"
-RPM_HASH = "4b508262fc2db8f42ef8affa4463601f38cc21d2c21f8934f9b037fcdf6aaa9b08ea8f8a01f42c76d952648a0b66e24622bc9d732913402ce0b487e2ff998d34"
+RPM_NAME = "tripwire-2.4.3.7-2.10.aarch64.rpm"
+RPM_HASH = "3b49c8aa9c266db383c780cae9b5b6e4391f0cc4be0d5fc96eb9bf16e7e52eb7f11c6f6552a5e8c4238548667ace970b9b7698fbe8f1922371b3e3b56b830535"
 
 RPROVIDES:${PN} += "Tripwire \
 config-tripwire \

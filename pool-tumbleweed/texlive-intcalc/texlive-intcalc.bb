@@ -4,10 +4,10 @@ integers, using the e-TeX extension \\numexpr if it is \
 available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn53168"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-intcalc-2023.209.1.3svn53168-54.1.noarch.rpm"
-RPM_HASH = "49839fee994bc61323d3ce36e4bc3368a9141f6b9580f9eeae7bf38f01d8c27b140e4a375b6d17aafe12d1e2286f71eb1c6f5922c7def5b6b73bab45cd077a9f"
+RPM_NAME = "texlive-intcalc-2026.226.1.3svn77682-60.2.noarch.rpm"
+RPM_HASH = "e93579304badf5d11a6c71b255e68fcc9cd65eeda8633e467d626a98e8052c85bb4c39ac93dff43b2091a503eda7686265e0519c98f3d59d12d71fce63541165"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-intcalc.sty \

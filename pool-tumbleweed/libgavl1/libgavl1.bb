@@ -7,12 +7,12 @@ structures for carrying audio samples or video images inside an application. \
  \
 In addition, it handles the sometimes ugly task to convert between all these \
 formats and provides some elementary operations (copying, scaling, alpha"
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0rsvn4256"
 
-RPM_NAME = "libgavl1-1.4.0rsvn4256-2.31.aarch64.rpm"
-RPM_HASH = "25c3c5940e1ccc1d69152e634058fa72ccc80cb8ee7026d3a0efe598ea0cd3c20b99c58c85e5a178f4e66428a6494b71360c519265d41e30d759cff5a4c2d60a"
+RPM_NAME = "libgavl1-1.4.0rsvn4256-3.9.aarch64.rpm"
+RPM_HASH = "1787b437179ce512b2ae7f416c2513072815c90a4f6a4dd361ed22a3e5c1a1a4977cd1d6c6ca1c9d56dea39a4e15d997d64eb31b0bc081171b13a8d8efcb9baf"
 
 RPROVIDES:${PN} += "libgavl.so.1 \
 libgavl1"

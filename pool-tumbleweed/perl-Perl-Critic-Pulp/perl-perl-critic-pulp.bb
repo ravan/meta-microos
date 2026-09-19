@@ -1,13 +1,13 @@
-SUMMARY = "Some add-on perlcritic policies"
+SUMMARY = "Some add-on policies for Perl::Critic"
 DESCRIPTION = "This is a collection of add-on policies for 'Perl::Critic'. They're under a \
 'pulp' theme plus other themes according to their purpose (see \
 Perl::Critic/POLICY THEMES)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "99"
+PV = "100.0.0"
 
-RPM_NAME = "perl-Perl-Critic-Pulp-99-1.12.aarch64.rpm"
-RPM_HASH = "2dfa7e1e10c24cf765e25c979ff6502ed6f334fae384719bdb1b108cf6a1dccee08125e3f6aa518b89999def70e71193477aad81efb63c9371236d1335429107"
+RPM_NAME = "perl-Perl-Critic-Pulp-100.0.0-1.3.aarch64.rpm"
+RPM_HASH = "079099220783b31821feb7d0a0ed5fe26393d0bf8fd8546311158c37936cf216056b7d267c62f54d1c76d5c0fbef12266f940ae48ba5a4afcc2cc821812d5f68"
 
 RPROVIDES:${PN} += "perl-Perl--Critic--PodParser--ProhibitVerbatimMarkup \
 perl-Perl--Critic--Policy--CodeLayout--ProhibitFatCommaNewline \
@@ -65,9 +65,10 @@ perl-Perl--Critic--Pulp--PodParser--RequireFinalCut \
 perl-Perl--Critic--Pulp--PodParser--RequireLinkedURLs \
 perl-Perl--Critic--Pulp--ProhibitDuplicateHashKeys--Qword \
 perl-Perl--Critic--Pulp--Utils \
+perl-Perl--MinimumVersion \
 perl-Perl-Critic-Pulp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IO--String \
 perl-List--MoreUtils \
 perl-PPI \
@@ -80,6 +81,7 @@ perl-Perl--Critic--Utils--PPI \
 perl-Perl--Critic--Violation \
 perl-Pod--Escapes \
 perl-Pod--MinimumVersion \
+perl-Pod--Parser \
 perl-version"
 
 inherit rpm

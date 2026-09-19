@@ -13,14 +13,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.34"
 
-RPM_NAME = "perl-Lingua-EN-Sentence-0.34-1.2.noarch.rpm"
-RPM_HASH = "1db7a82527e5471a28923e363cd4c9e63cc060f7a6a4601f8ae077dba79c60973426f4e72621f0ebfb74a67574ef0e916613495a5a30c9ed0babf969e69099b0"
+RPM_NAME = "perl-Lingua-EN-Sentence-0.34-1.16.noarch.rpm"
+RPM_HASH = "089613eb64d52be586bc0ddf9556ac7f535ca97a00c335048f2812dc49b4adcecf5e7c5f46cee94c17a71d2974045e7b1e4ccc8f252dc43e1ffb88542eab7e21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--EN--Sentence \
 perl-Lingua-EN-Sentence"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-warnings"
 
 inherit rpm

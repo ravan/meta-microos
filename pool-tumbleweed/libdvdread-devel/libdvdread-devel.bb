@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the include-files and static libraries for 
 libdvdread."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.1.3"
+PV = "7.1.1"
 
-RPM_NAME = "libdvdread-devel-6.1.3-1.5.aarch64.rpm"
-RPM_HASH = "a49166d94b6b0e073010442c3ad283e08ef3c80d4f485eba37279e5a08746fb3aaf44748c76b7c71c81bf349dc5da9e95e662eacc3e3e5ce9c6feb061b4de6e0"
+RPM_NAME = "libdvdread-devel-7.1.1-1.1.aarch64.rpm"
+RPM_HASH = "52aeac32e8c59fdf7b96c6a52241af15a4dd53180e71ac88d5a2401eb77dc05867a87894c4aea9172fd91b7f47d1de7a622b2bc20ceed011112829a06fb1e4cb"
 
 RPROVIDES:${PN} += "libdvdread-devel \
 pkgconfig-dvdread"

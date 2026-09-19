@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-glossaries-estonian"
 DESCRIPTION = "This package includes the documentation for texlive-glossaries-estonian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn49928"
+PV = "2026.226.1.0svn49928"
 
-RPM_NAME = "texlive-glossaries-estonian-doc-2023.209.1.0svn49928-54.2.noarch.rpm"
-RPM_HASH = "28830037e13850795d83a110e322173ac20c77c476e3d47dd18949a2bf2f9d10b9e48a0799a3cb43425c96b7562272e73f3819f1561fced4ead0b2cf44080948"
+RPM_NAME = "texlive-glossaries-estonian-doc-2026.226.1.0svn49928-60.4.noarch.rpm"
+RPM_HASH = "3a09d562d155be180ab2d8c8019ddda15617484314a01a9e24051b06bada22d69ffd5bf5e45b0ac813fd8c3855bf6e36d8db68419fdaf43aa3b1c7b380600498"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-estonian-doc"

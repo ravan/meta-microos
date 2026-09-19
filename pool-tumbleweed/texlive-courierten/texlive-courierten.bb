@@ -3,10 +3,10 @@ DESCRIPTION = "This is the font Courier 10 Pitch BT, with LaTeX support and an \
 OpenType conversion as well."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn55436"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-courierten-2023.209.svn55436-55.1.noarch.rpm"
-RPM_HASH = "a9522df494941f129b361414f913435a4beca4a678397d262cd41fdfbcf965efed7ae0cf0813ea2e6d4a940b901557d7fddc4ba0748d4867e89daa93bb8a73ae"
+RPM_NAME = "texlive-courierten-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "83cfce2bf54d909906af84c92a829004800ec92e2fadbc6aa5a5e68e5df0aa26b1e0da27a355f3bc23b96fb9b69871b1b716ad1a60b08eb024c88aae087fa078"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Courier10PitchBT-Bold-tlf-ly1--base.tfm \

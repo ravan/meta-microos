@@ -2,10 +2,10 @@ SUMMARY = "Translations for package neomutt"
 DESCRIPTION = "Provides translations for the 'neomutt' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230517"
+PV = "20260406"
 
-RPM_NAME = "neomutt-lang-20230517-1.2.noarch.rpm"
-RPM_HASH = "061e34e3093eabdfc0639bd884923343812670c745e64ab3c133c1e1da1c9b8eed387f998233f91a3723ace66123be73d8343cb98a409d2405823132e289bacc"
+RPM_NAME = "neomutt-lang-20260406-1.4.noarch.rpm"
+RPM_HASH = "ef708794efd8ec3e8459a1f50e6eaabdb19cef7afbd5c64ead99c2baadd3820b93f353e8155d53e2d088ceb97bf6c6458a8f980d2a100446fce570af7cb5b02e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-neomutt-bg \

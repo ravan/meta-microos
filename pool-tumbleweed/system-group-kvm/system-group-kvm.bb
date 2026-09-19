@@ -2,10 +2,10 @@ SUMMARY = "System group kvm"
 DESCRIPTION = "This package provides the system group 'kvm'."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-group-kvm-20170617-24.16.noarch.rpm"
-RPM_HASH = "9f2e8bebe799d080d6f06fd2756a5441e1a3a7aabd5fc7b49a898f10045c6c43c53f54e59c9468d197af8f8de9915f6075dcab8569d189a495a2e1fbc80ae2d4"
+RPM_NAME = "system-group-kvm-20250822-2.3.noarch.rpm"
+RPM_HASH = "ed1bc3361c8a8001838a6e5b2528ead964e67e7791aa11db04205de3834f78629c5f924912f54a27e2aefec9456dd620711cfa6dfc22285008822c68eb21ab32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-kvm \

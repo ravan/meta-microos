@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.14"
 
-RPM_NAME = "mailgraph-1.14-9.7.noarch.rpm"
-RPM_HASH = "f5ddd57d2f566d853225de9d51a5009ba93471bf0017112b89bb328936f2d5d50851aaf465577d501a5ebe1558c67a2934b153e31624642dc346e393dfac695e"
+RPM_NAME = "mailgraph-1.14-11.6.noarch.rpm"
+RPM_HASH = "cae4d4626d1f7c65df38ba8e22290f23172888d06950917c7fe41079cce5a734ea2161f6c26d82b53e383fb9a2966aa2885a44efdf4cad83f7a2d4ae8008f75c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/srv/www/htdocs/css \
@@ -19,11 +19,13 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \
 fillup \
+group-www \
 logrotate \
 perl-File--Tail \
 perl-RRDs \
 postfix \
 rrdtool \
-systemd"
+systemd \
+user-wwwrun"
 
 inherit rpm

@@ -11,8 +11,8 @@ LICENSE = "MPL-2.0"
 
 PV = "6.2.2"
 
-RPM_NAME = "libxc-devel-6.2.2-1.1.aarch64.rpm"
-RPM_HASH = "54306dcfff42b5e897aa10efdfad6ca6d8508eda73681473865dc525573992835aaa782fcdeb43bb70e6073922261bf1eec279ec0ff3011914dd5a14626d7330"
+RPM_NAME = "libxc-devel-6.2.2-1.11.aarch64.rpm"
+RPM_HASH = "53c9a598cc88d0eea4bbf9b0cfa31caa059b894a227fca5e73d769aeb8598b66b93fac55b04a8fc5af07f66e24fcd5fa28c464ec9537f4cf52789f5b54bbd491"
 
 RPROVIDES:${PN} += "libxc-devel \
 pkgconfig-libxc \

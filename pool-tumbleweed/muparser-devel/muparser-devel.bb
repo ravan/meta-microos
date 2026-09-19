@@ -4,16 +4,16 @@ works by transforming a mathematical expression into bytecode and \
 precalculating constant parts of the expression."
 LICENSE = "MIT"
 
-PV = "2.3.4"
+PV = "2.3.5"
 
-RPM_NAME = "muparser-devel-2.3.4-1.4.aarch64.rpm"
-RPM_HASH = "d31f3c3320b098b5c17cf5cfbc47e929be805a7054dbdf5d1277d40953c4581837c2603a66f47ef722b25eabdcf45982ff993b8bff5ffd51165454326adb7d9a"
+RPM_NAME = "muparser-devel-2.3.5-1.7.aarch64.rpm"
+RPM_HASH = "a043b19c896be9274368b7ad5f29542784e1a78ec50539217f7df6cc07e123cda4e80bb1dc66da8d8654bf2906fd78cb7481d8b023d2df9f796a0fca8be0ad91"
 
 RPROVIDES:${PN} += "cmake-muparser \
 muparser-devel \
 pkgconfig-muparser"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libmuparser2-3-4"
+libmuparser2-3-5"
 
 inherit rpm

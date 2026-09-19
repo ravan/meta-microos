@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-matrix-skeleton"
 DESCRIPTION = "This package includes the documentation for texlive-matrix-skeleton"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.1svn65013"
+PV = "2026.226.1.1svn65013"
 
-RPM_NAME = "texlive-matrix-skeleton-doc-2023.208.1.1svn65013-53.1.noarch.rpm"
-RPM_HASH = "1ac8a54a138a675bd7c26ee804952a43ea29b13cdb7f1de841891be650745db4bad79428eeefce0c3dfb939b9f05330f1ef78a41fef1632183cd8d05fcc8bb33"
+RPM_NAME = "texlive-matrix-skeleton-doc-2026.226.1.1svn65013-59.2.noarch.rpm"
+RPM_HASH = "ec4fdf4faad37976b8ed8f9a2f8d3b2ddfc1b5345bab7cae5d30f66cdc327af6edd1cf4762c50f9a81c59e9acb9e4e3799ed7b73af12c1c6e9ca9f5ea85d9755"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-matrix-skeleton-doc"

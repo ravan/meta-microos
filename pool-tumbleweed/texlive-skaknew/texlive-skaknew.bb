@@ -3,10 +3,10 @@ DESCRIPTION = "This package offers Adobe Type 1 versions of the fonts provided \
 as Metafont source by the skak bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20031"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-skaknew-2023.209.svn20031-58.1.noarch.rpm"
-RPM_HASH = "dae3ede200e0580c04ad00c0df0a1b0c4f67147d194999cc30cc599b7cffa561a47297c99e2d5edb1d1784b7b458b9cd251b3a4f5513b0453a9f36c1d74170a5"
+RPM_NAME = "texlive-skaknew-2026.226.svn78101-64.2.noarch.rpm"
+RPM_HASH = "cf9d0ea547b131584c943676cc13530e2c5c992cbeefbaa35fbe509f06cbd5ac928745e82a3f20ddc837d56a4f0f70274603008cdc4d2c59c5a0789752d086ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-AlphaDia.tfm \

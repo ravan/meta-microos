@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides tools for managing the osinfo database of \
 information about operating systems for use with virtualization"
 LICENSE = "LGPL-2.1+ & GPL-2.0+"
 
-PV = "1.10.0"
+PV = "1.12.0"
 
-RPM_NAME = "osinfo-db-tools-1.10.0-2.4.aarch64.rpm"
-RPM_HASH = "de1f2ce0f7f773847fa40191647d214c70f8b9c98853cb07e09aeabad0260d124742a6d6b438e88cd8bfe452514d52af55b034ecc7cb1e671d2cfed482ab8615"
+RPM_NAME = "osinfo-db-tools-1.12.0-2.6.aarch64.rpm"
+RPM_HASH = "55ffc52e780fb2ec4e6c74cbb44162ea4b00a8890798abeb792cb1a629bd00940181cb5f9f4660916cc3ad982df05edde708839ad46c1e7993fe63248bcbb4a2"
 
 RPROVIDES:${PN} += "osinfo-db-tools"
 
@@ -18,7 +18,7 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libjson-glib-1.0.so.0 \
-libsoup-2.4.so.1 \
-libxml2.so.2"
+libsoup-3.0.so.0 \
+libxml2.so.16"
 
 inherit rpm

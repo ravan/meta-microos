@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the necessary development libraries for \
 writing applications that use the Cinnamon menu system."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.8.0"
+PV = "6.6.0"
 
-RPM_NAME = "libcinnamon-menu-3-devel-5.8.0-1.1.aarch64.rpm"
-RPM_HASH = "86d063b4a296a7075d657012b61cfe7e6d395fa3314479bc01987fb1aa87a9ccfebd18a854a0a7e9b713c5aaadd593e05f41a26aa0242fcfc2bc46651da527f1"
+RPM_NAME = "libcinnamon-menu-3-devel-6.6.0-1.4.aarch64.rpm"
+RPM_HASH = "82b8d17d0f8caf17cf017c22a122d5d74a683769da8ad6b03100f618c9bfa46d4d8670df47805d0c725597cdc6ffc808b41701e3dfbd5bf9cbcf7b22f3fd8ab4"
 
 RPROVIDES:${PN} += "libcinnamon-menu-3-devel \
 pkgconfig-libcinnamon-menu-3.0"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mnras"
 DESCRIPTION = "This package includes the documentation for texlive-mnras"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1svn55729"
+PV = "2026.226.3.2svn68878"
 
-RPM_NAME = "texlive-mnras-doc-2023.209.3.1svn55729-55.1.noarch.rpm"
-RPM_HASH = "5e844ae2a0ee30dc7c3a52a52bbc707cc345c558520152442eab4bb2acc5f2d312bcfe70dd8e913400f78ba47bb38c2211cbe6d7bcf00439f50c422557054463"
+RPM_NAME = "texlive-mnras-doc-2026.226.3.2svn68878-61.2.noarch.rpm"
+RPM_HASH = "ab7421cd83fda769c854258e97f7cd45eb1eff66d6f599fb2d843f4d5e9c7e073ff3f1b5b2fb5b6417fb10198dd070f701fb41687dd787fa5a22fadf6d7a55fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mnras-doc"

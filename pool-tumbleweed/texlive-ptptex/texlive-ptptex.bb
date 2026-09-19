@@ -4,10 +4,10 @@ file for preprints), and a template. The class requires the \
 cite, overcite and wrapfig packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.91svn19440"
+PV = "2026.226.0.0.91svn19440"
 
-RPM_NAME = "texlive-ptptex-2023.209.0.0.91svn19440-54.2.noarch.rpm"
-RPM_HASH = "a9f2c46be4c173a0908d41ed3792a7132d8a8fb96c1ae198cf0fbea933fe7069ab92cf1f3de05c4bc0011cc3207cfbee6f22cb7f20871d9efe147e23be4d0ef2"
+RPM_NAME = "texlive-ptptex-2026.226.0.0.91svn19440-60.4.noarch.rpm"
+RPM_HASH = "9e818a2e100e47759140ac435d437ac4111d17f2753bf934c858f3e048e45cc014ebd96a134aee630ed1f3f5b243359942a85e42cf1c0b1d3eb38179a8e79ffb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ptp-prep.clo \

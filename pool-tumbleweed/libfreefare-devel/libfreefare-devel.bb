@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0+"
 
 PV = "0.4.0"
 
-RPM_NAME = "libfreefare-devel-0.4.0-4.32.aarch64.rpm"
-RPM_HASH = "84d191b7d9acfc96f777a6b9152444eca4e979baf3783b1516694533551f39ce43288c728fb2c44fa5b5f5db00f5cce319de9b92763bc96d22ba1e0901e9dbbb"
+RPM_NAME = "libfreefare-devel-0.4.0-5.8.aarch64.rpm"
+RPM_HASH = "5a77c41593d73bcf734bfef4a66fc9684348cc54ee2e16e377d528746688b54e3f66e2cd522c2e0aa9bd363c88311fb58e2875d1a6b0037ce1560793394c774f"
 
 RPROVIDES:${PN} += "libfreefare-devel \
 pkgconfig-libfreefare"

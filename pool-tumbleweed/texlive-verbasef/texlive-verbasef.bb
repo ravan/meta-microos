@@ -9,10 +9,10 @@ next page. The package requires the verbatim, here and vrbexin \
 packages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn21922"
+PV = "2026.226.1.1svn21922"
 
-RPM_NAME = "texlive-verbasef-2023.209.1.1svn21922-54.1.noarch.rpm"
-RPM_HASH = "df9eadfe20a4265dcc322293a46371ecaf411d595722766e7f4b3d72d536f1f8f39f039b965eaed5ba9f9afc939236332d57d19598895060662f40bc5bd928df"
+RPM_NAME = "texlive-verbasef-2026.226.1.1svn21922-60.2.noarch.rpm"
+RPM_HASH = "0bcad940034b412c1d72811a78c389ef67c7605189d439b4158b3632aa6f1b9196b841e4656a32f8be4408b11a01dabea0a69ee44d09f686cf2d2da2e595906a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-verbasef.sty \

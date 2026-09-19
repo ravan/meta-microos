@@ -3,12 +3,12 @@ DESCRIPTION = "Ceph is a distributed network file system designed to provide exc
 performance, reliability, and scalability. This is a shared library \
 allowing applications to access a Ceph distributed file system via a \
 POSIX-like interface."
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "libcephfs2-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
-RPM_HASH = "767143a0e975fe0f0cc1d6b7218a3d10356305207594953e33ce98ef0dd306b47bec0d9b3773251e7254471020c08557e3cc7ed559c2c26c43c27555c271deb7"
+RPM_NAME = "libcephfs2-18.2.7-8.1.aarch64.rpm"
+RPM_HASH = "86acd840c0f946598e5c4f24a69a866469060e1d1cb97ed535f7c0869ae3e2956f09d4a0250085b7b2ccd96002f53616019a031f8c4acbbaa8bcf0172b017e80"
 
 RPROVIDES:${PN} += "libcephfs.so.2 \
 libcephfs2"

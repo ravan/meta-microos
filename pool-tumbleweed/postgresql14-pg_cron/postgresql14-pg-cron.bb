@@ -5,10 +5,10 @@ regular cron, but it allows you to schedule PostgreSQL commands directly from \
 the database."
 LICENSE = "PostgreSQL"
 
-PV = "1.5.2"
+PV = "1.6.7"
 
-RPM_NAME = "postgresql14-pg_cron-1.5.2-1.2.aarch64.rpm"
-RPM_HASH = "b98977cb2175fa31b3d2ee4cdb0e4432dc98a005044e4525ccef1e5f48e6aa4653d807350c5380ab3ef57ccabe7fdcc50b959c47935f5e7d29c443075f3b51c1"
+RPM_NAME = "postgresql14-pg_cron-1.6.7-1.2.aarch64.rpm"
+RPM_HASH = "876a548250b82c0ad17055bc04bf204b9109290c179b1a83154a6a4a0a1efb2805c6004f626d45e6cba7cf6e4da86e8b099273d7aea1a525c4a0b897b5dbe4b0"
 
 RPROVIDES:${PN} += "postgresql14-pg-cron \
 postgresql14-pg-cron-llvmjit"

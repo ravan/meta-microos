@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "4.4.3.1"
 
-RPM_NAME = "libloadpng44-devel-4.4.3.1-1.16.aarch64.rpm"
-RPM_HASH = "6303c3bf1a781980bb1128a5a715be7c1bca81ff8522d8f1063b1a7fbf3e7783211e355d51448f0edd02cb5377f361bf543c044c6794d01fcb18fc7ae4c237d9"
+RPM_NAME = "libloadpng44-devel-4.4.3.1-1.29.aarch64.rpm"
+RPM_HASH = "32e3d45f2a50d02e78f68ef7cef04b5a1e421d34f87183e06c625854e4ba9ab828b55677eaae4fd475ecbd1fbdbdc3e8e6f793330855a5b2e86ccd885ab36fa8"
 
 RPROVIDES:${PN} += "libloadpng-devel \
 libloadpng44-devel \

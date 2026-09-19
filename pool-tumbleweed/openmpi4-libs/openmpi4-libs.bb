@@ -1,4 +1,4 @@
-SUMMARY = "OpenMPI runtime libraries for OpenMPI  version 4.1.5"
+SUMMARY = "OpenMPI runtime libraries for OpenMPI version 4.1.8"
 DESCRIPTION = "OpenMPI is an implementation of the Message Passing Interface, a \
 standardized API typically used for parallel and/or distributed \
 computing. OpenMPI is the merged result of four prior implementations \
@@ -10,14 +10,14 @@ programming API, which is a Partitioned Global Address Space (PGAS) \
 abstraction layer providing inter-process communication using \
 one-sided communication techniques. \
  \
-This package provides the Open MPI/OpenSHMEM version 4 \
+This package provides the Open MPI/OpenSHMEM version 4.1.8 \
 shared libraries."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.5"
+PV = "4.1.8"
 
-RPM_NAME = "openmpi4-libs-4.1.5-2.1.aarch64.rpm"
-RPM_HASH = "b1aecbf7311999171f96941ddf1db008f0841828ed38457eda64038f266ae523c0d7778e43e7f5f13bfe87d490a82b843679d6b375f978544429a0b53b85e765"
+RPM_NAME = "openmpi4-libs-4.1.8-4.7.aarch64.rpm"
+RPM_HASH = "58a0096c3cf422cb5e37d494e55da6c05fdb74eff92e565374053438550675deaa8f307627e7dcc5c05f314a9040176b4dbc8ab3a13388cd2908dbf7d326eb6d"
 
 RPROVIDES:${PN} += "libmca-common-dstore.so.1 \
 libmca-common-monitoring.so.50 \
@@ -35,7 +35,6 @@ libompitrace.so.40 \
 libopen-pal.so.40 \
 libopen-rte.so.40 \
 liboshmem.so.40 \
-openmpi-libs \
 openmpi4-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

@@ -21,8 +21,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.0.rc16.3"
 
-RPM_NAME = "dmraid-1.0.0.rc16.3-2.4.aarch64.rpm"
-RPM_HASH = "75d52ce982441603f1bf12f0926ea3afa6cd9f7839a407afd4d27eea2ab5718f19320f6f3753485c7d4bde4bffaeb2f254109459a0cadd75576697abeadf3560"
+RPM_NAME = "dmraid-1.0.0.rc16.3-4.5.aarch64.rpm"
+RPM_HASH = "1a83e232dc117390609474a6df29e2ae34a90bc23772bfa2c15a78e8be37f9218665001009c67ce1afbf660b6f5deb55cdbc11f999fc135bc9509531677269e6"
 
 RPROVIDES:${PN} += "dmraid \
 libdmraid-events-isw.so \

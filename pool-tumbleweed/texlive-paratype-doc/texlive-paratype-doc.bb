@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-paratype"
 DESCRIPTION = "This package includes the documentation for texlive-paratype"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn32859"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-paratype-doc-2023.209.svn32859-52.1.noarch.rpm"
-RPM_HASH = "b878203fe879ce026d7f840894a533fa6b4398623bcbc13c97c4f30d19cd84256fccf268071a1dfe494d4b97fc9d4bd7de4e065746ddfecc14f62fbf1f2527fd"
+RPM_NAME = "texlive-paratype-doc-2026.226.svn77682-58.2.noarch.rpm"
+RPM_HASH = "dcf81958d50cd057b52be8eda1d155a3d8d7f8d0b44769e3c06378105ad2b6bc55779b4c9c46a5e1315192699b88b457ec3edbd2e295e884b3fda9cbeeec22b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-paratype-doc"

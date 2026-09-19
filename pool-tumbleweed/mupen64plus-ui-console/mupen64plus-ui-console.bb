@@ -5,10 +5,10 @@ playing many games. \
 This package contains a command line frontend."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.9"
+PV = "2.6.0"
 
-RPM_NAME = "mupen64plus-ui-console-2.5.9-2.9.aarch64.rpm"
-RPM_HASH = "8d64eebfc675a720c53d96637c45571f1ebef7b8aeb4ec3f83d77ab513881b05cbb6c77115656966a2dda7a6c82304c3cc2a42431dc2a0995eafa767d137eb1f"
+RPM_NAME = "mupen64plus-ui-console-2.6.0-3.6.aarch64.rpm"
+RPM_HASH = "c6088dc8af89f687e4d5432ccd0cc0bdb44d5f7879510556b38a704fcda11585fc3f4e4f17b5c23469b03dd662429e6add5a7289d3d293ca20332d272f155806"
 
 RPROVIDES:${PN} += "mupen64plus-ui-console"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-onlyDVD-5.0-73.1.aarch64.rpm"
-RPM_HASH = "d2f50f9a894a5ed1bfb83a1a2e021285fbb5ba96aa2864c97dda7589f10249fe483b8d5c1c0a650f0b3f19b9a42adaa7a7a7aec56d68b25d5d7368e0c510d62a"
+RPM_NAME = "patterns-microos-onlyDVD-5.0-111.1.aarch64.rpm"
+RPM_HASH = "ee63917a681e4f50e513d78184d2b4683374b1178a2684bed2d27577f884329f0ad6a6da05210872b7c61e247f0bf3887c4447a7137803133d2a72141cd6f757"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -15,14 +15,14 @@ patterns-microos-onlyDVD"
 
 RDEPENDS:${PN} += "ModemManager \
 NetworkManager-wwan \
-apparmor-utils \
 bcache-tools \
-crda \
 cryptsetup \
+exfatprogs \
 firewalld \
 hyper-v \
 iscsiuio \
 lvm2 \
+mokutil \
 multipath-tools \
 nvme-cli \
 open-iscsi \
@@ -31,8 +31,12 @@ pam-pwquality \
 pattern- \
 policycoreutils-python-utils \
 qemu-guest-agent \
+sdbootutil \
+sdbootutil-snapper \
 spice-vdagent \
-tftpboot-installation-openSUSE-MicroOS-aarch64 \
+systemd-boot \
+systemd-zram-service \
+tpm2.0-abrmd \
 wpa-supplicant \
 xfsprogs"
 

@@ -5,10 +5,10 @@ a beautiful duck) showcasing the use of characters from the \
 Mario video games by Nintendo in LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn65803"
+PV = "2026.226.1.5svn77682"
 
-RPM_NAME = "texlive-pxpic-2023.209.1.4svn65803-54.2.noarch.rpm"
-RPM_HASH = "dd4fbfc25a1576dbadd96ef4d87f754b82244730c580bdb1d2a1060eaad87cb3ca3fadd1be970b05137f965d0082d936844b0ebb9c6a16c54bfb3bc90153b216"
+RPM_NAME = "texlive-pxpic-2026.226.1.5svn77682-60.4.noarch.rpm"
+RPM_HASH = "cc0f599dddf1467b88a6ad14dd1c9973400b9ae9cdc38de836fd57250da7a826117d9a9c346301d7366fbd54f7306f67aed411b1ff174a53a910ebe00ccda0a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxpic.sty \

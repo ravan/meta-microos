@@ -8,10 +8,10 @@ introduction to SDL-based graphics: SDL and BGI commands can be mixed \
 together."
 LICENSE = "GPL-2.0-or-later & Zlib"
 
-PV = "3.0.0"
+PV = "3.0.2"
 
-RPM_NAME = "libSDL_bgi-devel-3.0.0-1.4.aarch64.rpm"
-RPM_HASH = "b69c9c38df54786177383f2592ddc211f3564ea871aad8967a1528db2645f5b6bf0979058824a1e004d671a184f6353dca68bf1f3fcdf70161c46f21ea77dd37"
+RPM_NAME = "libSDL_bgi-devel-3.0.2-1.7.aarch64.rpm"
+RPM_HASH = "21c23c89919c6f1c0fff5e39b6a18b3058a95b8bf2e10daf89e0a2a5892f44c857879bbc5f63a604374c39059eea0dd04be0181e61cedb1011d2a6a0bbb14a03"
 
 RPROVIDES:${PN} += "SDL-bgi-devel \
 libSDL-bgi-devel"

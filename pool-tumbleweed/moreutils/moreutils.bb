@@ -23,10 +23,10 @@ The `moreutils` package includes errno, ifdata, ifne, isutf8, lckdo, mispipe, pe
 The remaining programs are included in the `moreutils-parallel`, `moreutils-perl`, `chronic` and `ts` packages."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & (GPL-2.0-or-later | MIT) & BSD-2-Clause & SUSE-Public-Domain"
 
-PV = "0.67"
+PV = "0.70"
 
-RPM_NAME = "moreutils-0.67-2.3.aarch64.rpm"
-RPM_HASH = "64ce8b15810b4d664b1daa9a98403cb4c3f6680aef3e8f8c2df0911a766082f01d01deffe665e7659fcab2730f9e9bfd29f357676a090a02e7115d8f7d6d04ff"
+RPM_NAME = "moreutils-0.70-1.9.aarch64.rpm"
+RPM_HASH = "48673f5f5ae33e1e87afef2dddf2d3ee2ce472298be8e3ecd8aeda67613f468951d23b8fa5669824204efee04451cc3068292d234aeab9d7f2ce5a8b5ae967b5"
 
 RPROVIDES:${PN} += "moreutils"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-subseries"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-subseries"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.0svn43330"
+PV = "2026.226.1.2.0svn76790"
 
-RPM_NAME = "texlive-biblatex-subseries-doc-2023.209.1.2.0svn43330-54.1.noarch.rpm"
-RPM_HASH = "6cc9db41444c8bf9930dba9d926122f43ad9ca93fed9132021da40bb7b7cb331f4c9314ce3089a8c18bfb48dca129926a737521c3d4d61a54898d060188aed9e"
+RPM_NAME = "texlive-biblatex-subseries-doc-2026.226.1.2.0svn76790-61.2.noarch.rpm"
+RPM_HASH = "bccfc2a984c23d72876df89458b848386f93a142e23b89d2218054f6eab1afa4204616f06f1518354f8150a47d676c0916da3d8552c55eae405cca090a5ab737"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-subseries-doc"

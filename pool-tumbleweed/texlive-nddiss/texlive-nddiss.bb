@@ -4,10 +4,10 @@ School of the University of Notre Dame; with it a user can \
 format a thesis or dissertation in LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2017.2svn45107"
+PV = "2026.226.3.2017.2svn45107"
 
-RPM_NAME = "texlive-nddiss-2023.209.3.2017.2svn45107-55.1.noarch.rpm"
-RPM_HASH = "f124e4360534ee4e2f2063ffd5030d149e353cead185dbda1c6c0cd5f898d0d6e1a493ed0ae993893aa812c1ecac8c88c8a3c644e313d0e0e08defb2bee9303f"
+RPM_NAME = "texlive-nddiss-2026.226.3.2017.2svn45107-61.2.noarch.rpm"
+RPM_HASH = "d58cc51a7a789ac23c5014c9dd1a8eef4f7c38ba43bc519fadea69dd3d49bc335af12f403561f24e7e1cd3eb85b29f98ef38c39f9142d1ba309d6da44495fc06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nddiss2e.cls \

@@ -43,17 +43,17 @@ and after the subroutine itself, and will be passed the same argument list. \
  \
 The pre- and post-wrappers and the original subroutine also all see the \
 same (correct!) values from 'caller' and 'wantarray'."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.26"
+PV = "0.260.0"
 
-RPM_NAME = "perl-Hook-LexWrap-0.26-1.25.noarch.rpm"
-RPM_HASH = "25a3a38cc687567acf40ca9015c097621f407eecfb121fc2574dab9298e770da5513efdfdd1d885f9de9aee4ad33515506f06a895296839f45bf7cea0ec1ec59"
+RPM_NAME = "perl-Hook-LexWrap-0.260.0-1.7.noarch.rpm"
+RPM_HASH = "0be27c5ae9bf14e3bae340e72fbfc8b36d6ea5d5d8019c07e9d6354c4e08cc4d0518c75858c3a2914a61e32eb5c638d1690aa93a7d666dfd838ed23d022cf579"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Hook--LexWrap \
 perl-Hook-LexWrap"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

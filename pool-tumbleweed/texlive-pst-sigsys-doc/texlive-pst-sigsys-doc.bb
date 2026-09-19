@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-sigsys"
 DESCRIPTION = "This package includes the documentation for texlive-pst-sigsys"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn21667"
+PV = "2026.226.1.4svn21667"
 
-RPM_NAME = "texlive-pst-sigsys-doc-2023.209.1.4svn21667-54.2.noarch.rpm"
-RPM_HASH = "aa4a95c3dde93fc9bd5a346866c8d00a25979e68358d8941c1713fa823f21a59aa33043215fb9ebb8325c0e88066deb905e62207488d193d91c1c3893b413d0f"
+RPM_NAME = "texlive-pst-sigsys-doc-2026.226.1.4svn21667-60.4.noarch.rpm"
+RPM_HASH = "f5526547abdba7e28704d2e5a9cdc30b089265432a0b1cb7effcbc6ce1a3d3a2980d0773b46adbf30361d863c3227c9238439fc4d31ddc57d28a9a1be64d6506"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-sigsys-doc"

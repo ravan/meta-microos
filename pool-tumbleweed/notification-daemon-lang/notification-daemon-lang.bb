@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.20.0"
 
-RPM_NAME = "notification-daemon-lang-3.20.0-7.6.noarch.rpm"
-RPM_HASH = "b7dfece1da84c4fb71399c7e3b84d54ab0c47287586d2b559a6f284aeb7d382e3ab44b58189c752f2737d2967d34f18f32620f63d6ac30db43566fe6af2e2b15"
+RPM_NAME = "notification-daemon-lang-3.20.0-8.7.noarch.rpm"
+RPM_HASH = "1c2992bf198266a867796501366efba16a4055145aa5885471de44756e5da3edbbc947ceb17faaa6d95ac88f075eb5e78765af99a977676bd7f9d2a752a9adc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-notification-daemon-af \

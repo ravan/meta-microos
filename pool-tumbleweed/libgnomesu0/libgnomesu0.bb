@@ -3,10 +3,10 @@ DESCRIPTION = "Libgnomesu is a library for providing superuser privileges to GNO
 applications. It supports sudo, consolehelper, PAM, and su."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.7"
+PV = "2.0.10"
 
-RPM_NAME = "libgnomesu0-2.0.7-2.3.aarch64.rpm"
-RPM_HASH = "533a442153f5b431f789768b36dd51a0a56038125ad774f790c17c99f8e5474227891b89a2283833bfb1382cf6a0746bf30e477a2eb5e461ad916be6954b9303"
+RPM_NAME = "libgnomesu0-2.0.10-1.5.aarch64.rpm"
+RPM_HASH = "363bc1a48bb1d84c0bb8f76916e62073258c035a022c61e78178ced7529aebdf5fd657faa3920bcee3bd2160051aba6fe3fa46655b5201a95a664270e9c21c82"
 
 RPROVIDES:${PN} += "libgnomesu.so.0 \
 libgnomesu0"

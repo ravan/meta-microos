@@ -13,10 +13,10 @@ exactly or else classes that differ only in ways unrelated to the \
 *Heap::Elem* interface."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.80"
+PV = "0.800.0"
 
-RPM_NAME = "perl-Heap-0.80-1.14.noarch.rpm"
-RPM_HASH = "ed6760531a46afea1e2ec3b12d49c802e4ecb75f2ff2daa5eaa5b95f13e08eba9821a81f88ffc57ab557877759ba5ac62e61778a6df7e387a7d1fa67781de670"
+RPM_NAME = "perl-Heap-0.800.0-1.8.noarch.rpm"
+RPM_HASH = "e603df748429d5044a38ee1313ac973656504c6042c44b7694e59827912c62565e7e1eda75bec12395c2f14d1fe7b4ac286dcbdf9f70be0259a75919596855a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Heap \
@@ -31,6 +31,6 @@ perl-Heap--Elem--Str \
 perl-Heap--Elem--StrRev \
 perl-Heap--Fibonacci"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

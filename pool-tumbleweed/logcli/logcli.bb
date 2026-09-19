@@ -1,13 +1,14 @@
 SUMMARY = "LogCLI tool"
-DESCRIPTION = "Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. \
+DESCRIPTION = "Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation \
+system inspired by Prometheus. \
  \
 This package contains the LogCLI command-line tool."
 LICENSE = "Apache-2.0"
 
-PV = "2.8.3+git.1689949088.0d81144c"
+PV = "3.7.7"
 
-RPM_NAME = "logcli-2.8.3+git.1689949088.0d81144c-1.1.aarch64.rpm"
-RPM_HASH = "8fda8d2fe98c336e778b3d18d0d55e9b9db8a0d6dce3e3a5fd73f20f293811af5d4cd67a94525700c88c05ed327b40d62180c34315a36467d1cdbcdfba7fd4dc"
+RPM_NAME = "logcli-3.7.7-1.1.aarch64.rpm"
+RPM_HASH = "d51f2de5adbd3d9b442555da0e613c55877094cca1dc5415a2dddefc8afda21ee2cb9ebab28bfd12994eec56d0559329433c4cacc9e605394de6d8a93b49ffa6"
 
 RPROVIDES:${PN} += "logcli"
 

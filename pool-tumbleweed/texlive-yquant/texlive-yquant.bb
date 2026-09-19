@@ -8,13 +8,13 @@ allow for an easier input. yquant is a pure-LaTeX solution -- \
 i.e., it requires no external program -- that introduces a \
 logic oriented language and thus brings the best of both worlds \
 together. It builds on and interacts with TikZ, which brings an \
-enourmous flexibility for customization of individual circuit."
+enourmous flexibility for customization of individual circuits."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7.3svn65933"
+PV = "2026.226.0.0.9svn77263"
 
-RPM_NAME = "texlive-yquant-2023.209.0.0.7.3svn65933-53.2.noarch.rpm"
-RPM_HASH = "16b664e470b505d633eee2fa5358843c3f839d86cc75fd0160c1e578427cef1c1613a8cdaf10535855691797644355c89ad46df2db69e04e842c53db72ab80be"
+RPM_NAME = "texlive-yquant-2026.226.0.0.9svn77263-59.4.noarch.rpm"
+RPM_HASH = "8f70d7439455004ab9d18e2c1d1033e4bb139efa845b7beace78398c3f37d912928a3c0f14f4d6c4d041f035cb2b225ce3e203217f0fd87ee13884a556296976"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yquant-circuit.tex \

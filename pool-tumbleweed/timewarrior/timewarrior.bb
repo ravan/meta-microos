@@ -3,10 +3,10 @@ DESCRIPTION = "Timewarrior is a command line time tracking application, which al
 record time spent on activities."
 LICENSE = "MIT"
 
-PV = "1.5.0"
+PV = "1.9.1"
 
-RPM_NAME = "timewarrior-1.5.0-1.2.aarch64.rpm"
-RPM_HASH = "8f5f82ca4e96aa7fd8bd55bb34b9f63d786dbc73ecb68ee904345371551c3331edaae73dbcafbef9130e9a3956185bceebc8479a19ac06c205a9f9733598b882"
+RPM_NAME = "timewarrior-1.9.1-1.3.aarch64.rpm"
+RPM_HASH = "43d5c82bba3bb3b920686932e39fd172f2189ce8a92d8fb65ae52b11a2987a7b89b05917c0910f332f492cad93a2c931db2e64755c137e86445758c3cc6072ee"
 
 RPROVIDES:${PN} += "timewarrior"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.4"
 
-RPM_NAME = "libpurple-plugin-xmpp-http-upload-0.2.4-1.8.aarch64.rpm"
-RPM_HASH = "83a91ba2da05c7a87952f0dd5c7d2d62da3639e6ea3bdd70f1871f737414b7414e526daf47f95cad9193648798f29475fc5c83174d5fdc29d42ee875c0b9cb2d"
+RPM_NAME = "libpurple-plugin-xmpp-http-upload-0.2.4-1.17.aarch64.rpm"
+RPM_HASH = "2da71427973b7451fcdf77fd80b9debb643a65c6c36e366040cd5ebf5753cbd2ff4e5fbbcc6c98ec2d2115a48f0c132d8049b37d1a95fcbe198dbeeaad9918d3"
 
 RPROVIDES:${PN} += "libjabber-http-file-upload.so \
 libpurple-plugin-xmpp-http-upload"

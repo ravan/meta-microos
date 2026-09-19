@@ -6,10 +6,10 @@ LuaFileSystem offers a portable way to access the underlying directory \
 structure and file attributes."
 LICENSE = "MIT"
 
-PV = "1.8.0"
+PV = "1.9.0"
 
-RPM_NAME = "lua53-luafilesystem-1.8.0-6.2.aarch64.rpm"
-RPM_HASH = "bba5f3d001f7c34012b5dd00a02f091f787f2af467660ad723e8b4f4f0b57b7b3c1d54d508e5bc11a493e4e7beafddf756fac7b891e65dc69367f54d44aacb7d"
+RPM_NAME = "lua53-luafilesystem-1.9.0-1.4.aarch64.rpm"
+RPM_HASH = "87cc65d2e834cda2a9507c0aa8e3b3ded8e81fcc810525e119f72ba03839a4464790921fb55e41e669f7695e592299eb96a892d6692b8ec60f3495e10c977a9a"
 
 RPROVIDES:${PN} += "lua53-luafilesystem"
 

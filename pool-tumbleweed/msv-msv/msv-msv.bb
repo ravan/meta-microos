@@ -1,11 +1,11 @@
 SUMMARY = "Multi-Schema Validator Core"
 DESCRIPTION = "Multi-Schema Validator Core."
-LICENSE = "Apache-1.1 & BSD-3-Clause & Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-1.1 & BSD-3-Clause & Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "2013.6.1"
 
-RPM_NAME = "msv-msv-2013.6.1-3.11.noarch.rpm"
-RPM_HASH = "aab36b4d0bf2049f52896256b4dab08e73809f54a55b7634723d95f9a4442850bdef1b8cc3c8d0329ea5fff36815c755bcb823d30b4a4fb750be7485525daa6d"
+RPM_NAME = "msv-msv-2013.6.1-7.2.noarch.rpm"
+RPM_HASH = "ddbcfc45a77c79ca060bade0a4d64101cd3fc46975f4314780869b99af1c1c17eb9523fe245a99d87dc28319d55fc77b8a0d122af199062192434635a4cfc7d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msv-msv \

@@ -3,10 +3,10 @@ DESCRIPTION = "The PackageKit GTK3+ module allows any Pango application to insta
 fonts from configured repositories using PackageKit."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.5"
+PV = "1.3.6"
 
-RPM_NAME = "PackageKit-gtk3-module-1.2.5-9.4.aarch64.rpm"
-RPM_HASH = "076a0d889a67241f0d1f7f8b077db3741923e22f125e58973840915bd449633876ba733f0dfaac9a90b7dcce37e57da3d8f0f6d76470e5e95265b91705342410"
+RPM_NAME = "PackageKit-gtk3-module-1.3.6-2.1.aarch64.rpm"
+RPM_HASH = "b375421bd1554cc49decd3edcfec6b9dddd49cdbb79dbe97ab16caa52e46fbe048a098e064e88564d2d272adc4c78361880efbc4b1ac1bd136d65c5737ff6b51"
 
 RPROVIDES:${PN} += "PackageKit-gtk3-module \
 libpk-gtk-module.so"

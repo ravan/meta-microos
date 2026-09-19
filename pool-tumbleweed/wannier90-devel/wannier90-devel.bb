@@ -1,21 +1,20 @@
-SUMMARY = "Devel files for wannier90"
-DESCRIPTION = "This package provides files needed for developing against wannier90."
-LICENSE = "GPL-2.0-only"
+SUMMARY = "Library for generating Wannier functions - headers and development files"
+DESCRIPTION = "Wannier90 is a library for generating maximally-localized Wannier functions and \
+using them to compute advanced electronic properties of materials with high \
+efficiency and accuracy. \
+ \
+This package provides files needed for developing against wannier90."
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.1.0"
+PV = "4.0.2"
 
-RPM_NAME = "wannier90-devel-3.1.0-2.4.aarch64.rpm"
-RPM_HASH = "0784f5e659d5945de8a91021a29bcbdcda4f9ef80dc6c33341e11f36c184ef17be6920efe2c6ce56dfdf5576b116c33461ac3def226ab7d27989980842836f3e"
+RPM_NAME = "wannier90-devel-4.0.2-1.1.aarch64.rpm"
+RPM_HASH = "a32491132b5123d1ba20e768f78d88a4e0273a2c4b92f493e3fcea8d4131b0887c84339d3be96d60bc04d37a1e112d07331d21323022838e98fb5486382507f0"
 
-RPROVIDES:${PN} += "libwannier.so \
-pkgconfig-wannier \
+RPROVIDES:${PN} += "cmake-Wannier90 \
+pkgconfig-wannier90 \
 wannier90-devel"
 
-RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libblas.so.3 \
-libc.so.6 \
-libgfortran.so.5 \
-liblapack.so.3 \
-libm.so.6"
+RDEPENDS:${PN} += "/usr/bin/pkg-config"
 
 inherit rpm

@@ -6,10 +6,10 @@ This subpackage contains the header files for developing \
 applications that want to make use of libQt5Sensors5."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtsensors-devel-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "24ee611d68dd87d20c36018b9a059edefd7d3dbd370e83664f6fe21bff75f60c334cd775b378f8b4ce8e74fbb9d45cf89af5f028e3ae5f20b3f0d9bf118f3d10"
+RPM_NAME = "libqt5-qtsensors-devel-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "e88f99fdab867a209c6b17eda8e5f3edb0efb99f446dda345ad788702d2e9ca396e9b8210fe3bd34ab6f86e955d5aaeb47c4f4550120b7ebaa29f54c5935708f"
 
 RPROVIDES:${PN} += "cmake-Qt5Sensors \
 libQt5Sensors-devel \

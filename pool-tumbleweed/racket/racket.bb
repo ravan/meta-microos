@@ -9,19 +9,17 @@ such as classes or modules, and separate dialects of Racket enable different \
 semantics."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "8.10"
+PV = "9.1"
 
-RPM_NAME = "racket-8.10-1.1.aarch64.rpm"
-RPM_HASH = "a1e19ea69c36aa9289c268d2fe175d35e7f690763ab50e8f4a2c0a1e8f5d51455724efd49702d98989c17c75b63b3055c0b5e170b20e94ac493ae5dfb846eede"
+RPM_NAME = "racket-9.1-1.6.aarch64.rpm"
+RPM_HASH = "f4feaa6a8e4cf52ad3982fba6cc59b12e860d9c0b5fcbba3ed96ad2bf68014834e2320ddabb6119df074d1670ab2efb686b3a935315e73896b1f90802f59886b"
 
-RPROVIDES:${PN} += "config-racket \
-racket \
+RPROVIDES:${PN} += "racket \
 racket-drracket \
 racket-games \
 racket-webserver"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo2 \
 libedit0 \

@@ -14,10 +14,10 @@ The central entry point is the 'index' file, with links to the \
 individual documents, either in HTML or in PDF format."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.0svn62969"
+PV = "2026.226.2.6svn74653"
 
-RPM_NAME = "texlive-knuth-pdf-2023.209.2.0svn62969-56.1.noarch.rpm"
-RPM_HASH = "6f0f6e7313835d9f8b2950d640aa83e724cd59a29c6d4c44338b7cff38d1f3bd6a858314b70317c305876db5d6e261551b6ffb8ff536c49ade73c0d04fbaa982"
+RPM_NAME = "texlive-knuth-pdf-2026.226.2.6svn74653-63.2.noarch.rpm"
+RPM_HASH = "ac73328521ddad860a157bf6c0ee72d1a9c3bc0e63a1c9e11768b184fbcbd764555ff917284100b3e1833a965b4915bc1a626b1f72af947defe61d37bbd83686"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-knuth-pdf"

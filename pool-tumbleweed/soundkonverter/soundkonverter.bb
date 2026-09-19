@@ -2,10 +2,10 @@ SUMMARY = "Audio file converter, CD ripper and Replay Gain tool"
 DESCRIPTION = "soundKonverter is a frontend to various audio converters."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.0.1"
+PV = "3.0.1+git20240225"
 
-RPM_NAME = "soundkonverter-3.0.1-1.15.aarch64.rpm"
-RPM_HASH = "42aacc0a81c1d35ef35aa3e018fd11d4465ebd780726e4b32fbc8634b2288d3d4de976380c411e6f30f8d8595ab8d74ddbf6346794750517775994c58be49fde"
+RPM_NAME = "soundkonverter-3.0.1+git20240225-3.7.aarch64.rpm"
+RPM_HASH = "67a23d7f649430378cb8b765a216a1b36e77dfa9bf55e5627d96b9422a689df58110f46e4567a7285927c9d59fd2e8c33825cd4bd3d31589a76235f11818258b"
 
 RPROVIDES:${PN} += "libsoundkonvertercore.so \
 soundkonverter"
@@ -19,6 +19,7 @@ libKF5Completion.so.5 \
 libKF5ConfigCore.so.5 \
 libKF5ConfigWidgets.so.5 \
 libKF5CoreAddons.so.5 \
+libKF5DBusAddons.so.5 \
 libKF5I18n.so.5 \
 libKF5KDELibs4Support.so.5 \
 libKF5KIOCore.so.5 \
@@ -39,7 +40,7 @@ libcdda-paranoia.so.0 \
 libm.so.6 \
 libphonon4qt5.so.4 \
 libstdc++.so.6 \
-libtag.so.1 \
+libtag.so.2 \
 speex \
 vorbis-tools \
 wavpack"

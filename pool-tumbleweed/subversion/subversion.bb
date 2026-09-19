@@ -6,10 +6,10 @@ to support the needs of a wide variety of users and projects, from individuals \
 to large-scale enterprise operations."
 LICENSE = "Apache-2.0"
 
-PV = "1.14.2"
+PV = "1.14.5"
 
-RPM_NAME = "subversion-1.14.2-6.2.aarch64.rpm"
-RPM_HASH = "9523f880f0f6bb4ec94fe16602e26d3681daf281c3f611c99690607a2fdb3605ed9732cceb00afc1d4d3e438b479198f89c5378dc923161a7b0d89f4419087dd"
+RPM_NAME = "subversion-1.14.5-5.3.aarch64.rpm"
+RPM_HASH = "bcee1fe6fe0f540acbe51fdbc4db2d3f11f7a0499afacfb5a4426ba60634cf6d88785164009e4527666cc9e8d222a08d5d6c28809a30fc91900dcc3d713bdda0"
 
 RPROVIDES:${PN} += "group-svn \
 libsvn-client-1.so.0 \
@@ -50,7 +50,7 @@ libserf-1.so.1 \
 libsqlite3-0 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
-libutf8proc.so.2 \
+libutf8proc.so.3 \
 libz.so.1 \
 systemd \
 sysuser-shadow"

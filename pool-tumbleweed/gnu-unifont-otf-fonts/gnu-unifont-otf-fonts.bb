@@ -6,14 +6,17 @@ Unicode ConScript Unicode Registry (CSUR) PUA Glyphs. \
 This package contains fonts in OpenType format."
 LICENSE = "GPL-2.0-or-later | OFL-1.1"
 
-PV = "15.0.01"
+PV = "17.0.04"
 
-RPM_NAME = "gnu-unifont-otf-fonts-15.0.01-2.1.noarch.rpm"
-RPM_HASH = "c21ae06685345494c4de71540cbebe4e5e2ba521ede5b8d4eb9fad974db602254c4de1b4ecf6e554ad9616fa3737cba7a976a5d9b14a04eac312125081b571cf"
+RPM_NAME = "gnu-unifont-otf-fonts-17.0.04-1.2.noarch.rpm"
+RPM_HASH = "1b22e5a15a50ae98e441b9d8ea36b8ba4d5a31afe0571b1a79bd7633833e3eb895793fa283d73573d01c99e2226503fd860dc866d475d8b535ec858624a9c838"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-unifont-otf-fonts"
 
-RDEPENDS:${PN} += "/usr/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh \
+aaa-base \
+coreutils \
+perl"
 
 inherit rpm

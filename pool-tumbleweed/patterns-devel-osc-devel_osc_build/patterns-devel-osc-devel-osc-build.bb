@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-devel-osc-devel_osc_build-20170319-3.16.aarch64.rpm"
-RPM_HASH = "43c37f607ff5d017dbaae8a38c62b3d2b3ff60e699ac96e8b760df606de40395d5f116920d6365c43cb3d9b3bb2e29461fac79bd12346f7caf21724d466ef149"
+RPM_NAME = "patterns-devel-osc-devel_osc_build-20170319-3.26.aarch64.rpm"
+RPM_HASH = "dd7c5f3ea94c076e620a42bc7999cb453024bbd93f21abd3892e819a20dfd19506ce25c71272e01e294d299b2be4ba3969104c799dc8b353a002165cd61b7f39"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

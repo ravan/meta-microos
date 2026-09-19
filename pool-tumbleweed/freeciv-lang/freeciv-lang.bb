@@ -1,14 +1,15 @@
-SUMMARY = "Translation files for freeciv"
-DESCRIPTION = "Translation files for freeciv main package and clients."
+SUMMARY = "Translations for package freeciv"
+DESCRIPTION = "Provides translations for the 'freeciv' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.8"
+PV = "3.2.6"
 
-RPM_NAME = "freeciv-lang-3.0.8-1.1.noarch.rpm"
-RPM_HASH = "a0bed1007146fc5f4d2d10b49816754bd22284d50609ca5f7b0b9dc444d3c5f1e39d7595367e6a65c2b68a9958330ee733cb2566c39d4bc456f40a6c093ffcd7"
+RPM_NAME = "freeciv-lang-3.2.6-2.1.noarch.rpm"
+RPM_HASH = "9170413bd39ec7ba542476854415e5841b3bbff78a16dc732d64d8d486d85720135f4b2871fce8d0f07cda7540a88eb8ab7766c4ad8037327fca30199423f457"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freeciv-lang \
+freeciv-lang-all \
 locale-freeciv-ar \
 locale-freeciv-bg \
 locale-freeciv-ca \
@@ -39,6 +40,7 @@ locale-freeciv-pt \
 locale-freeciv-pt-BR \
 locale-freeciv-ro \
 locale-freeciv-ru \
+locale-freeciv-sk \
 locale-freeciv-sr \
 locale-freeciv-sv \
 locale-freeciv-tr \

@@ -5,10 +5,10 @@ semilogarithmic, bilogarithmic, polar, log-polar, Smith charts. \
 It is based on the picture environment and its extensions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn63116"
+PV = "2026.226.1.1svn63116"
 
-RPM_NAME = "texlive-graphpaper-2023.209.1.1svn63116-54.2.noarch.rpm"
-RPM_HASH = "23e7c735ccf178bbda4cb701dfadbd11b3c16c7bb5be6e9e763a5e634fd9a91c632ad8914ad5aa4d521e9566cc39713c4b3045c68f85724c23e991239fdfe1f6"
+RPM_NAME = "texlive-graphpaper-2026.226.1.1svn63116-60.4.noarch.rpm"
+RPM_HASH = "4f4f3508616517c310f1cdab0cc9252c4436651129da069ce8492256cafbde01816eee6b35a79dc456e156efedfc23388b24d866c65b98454da3207bbf891863"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphpaper.cls \

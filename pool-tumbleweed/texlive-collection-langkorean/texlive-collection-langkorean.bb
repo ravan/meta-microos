@@ -2,13 +2,16 @@ SUMMARY = "Korean"
 DESCRIPTION = "Support for Korean; additional packages in collection-langcjk."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn54074"
+PV = "2026.222.svn54074"
 
-RPM_NAME = "texlive-collection-langkorean-2023.208.svn54074-60.1.noarch.rpm"
-RPM_HASH = "9ecac0da6e9097b4e7474e8d96ae344d80a43c91ce7d822960120618bf826473ac21b184b385d36ec1a1ed62ebb705049d48f57067a9a46c0ccd85f477b30362"
+RPM_NAME = "texlive-collection-langkorean-2026.222.svn54074-68.2.noarch.rpm"
+RPM_HASH = "2e6947ffbd90a2175dae0c3b54dae29a1ff9750bd32e333693f56b29d14d39761a7bb573309f4404db7e2c150a984970367be936df0ed613a6c65e7ffffce433"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langkorean"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-korean \
+texlive-collection-langkorean"
 
 RDEPENDS:${PN} += "texlive-baekmuk \
 texlive-cjk-ko \

@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libhmac."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230407"
+PV = "20260522"
 
-RPM_NAME = "libhmac-devel-20230407-1.2.aarch64.rpm"
-RPM_HASH = "41e8823301f9cc5ce5f228b748d6754eb534931a8d31ccb64aa28565385c6d4eb4bad1b0769f9bdb603b37db51b46f6b6f2253cab5a8aa1112e9bc88bca047ba"
+RPM_NAME = "libhmac-devel-20260522-1.10.aarch64.rpm"
+RPM_HASH = "cfe4186372d44711a821c0ec6a596aae7eb6b110fa7005f09b8ca283d33395ed42b4d8956f90d0862ba8b6d8bd75fbc5f23a84dc5dd0f1959c8466414b5762bd"
 
 RPROVIDES:${PN} += "libhmac-devel \
 pkgconfig-libhmac"

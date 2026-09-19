@@ -3,10 +3,10 @@ DESCRIPTION = "The GNOME Display Manager is a system service that is responsible
 providing graphical log-ins and managing local and remote displays."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "50.3"
 
-RPM_NAME = "gdm-devel-44.1-3.1.aarch64.rpm"
-RPM_HASH = "537146fc24c33bb5c2e7abd86fbab699a7798207dad060ebf1197027bbbdc89914b2f8a87272a1ae0daf4ae21c53110ab30548644c592e90a33e0ac0b83a9cd5"
+RPM_NAME = "gdm-devel-50.3-1.1.aarch64.rpm"
+RPM_HASH = "39754f8d136bea7e064374ff79b9cc1b264960bd1b703b03596e579fc5ae506d47f94469a88e01b819d270e7d70cba99303dbf41eb447ab3c508ac086f315c10"
 
 RPROVIDES:${PN} += "gdm-devel \
 pkgconfig-gdm \

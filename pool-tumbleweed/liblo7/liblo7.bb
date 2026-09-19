@@ -3,10 +3,10 @@ DESCRIPTION = "This is an implementation of the OSC protocol \
 (see http://www.cnmat.berkeley.edu/OpenSoundControl/ for details)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.31"
+PV = "0.36"
 
-RPM_NAME = "liblo7-0.31-1.12.aarch64.rpm"
-RPM_HASH = "6936f77e576ef1fc086507a7b6f80525ad45f32a68b0fec6c8e632614541e708625459e14cff9e28fb67c01ddb94c4161113961fe7b9810b12837812b8dd5a25"
+RPM_NAME = "liblo7-0.36-1.3.aarch64.rpm"
+RPM_HASH = "edf8d9953007a15e2ddb3a3638ba6855bdbae4debbf45d06f19d06a886d1ac24e73818ceb8c3d654a433f18eb7472f5d68ae6f6077da683d092ae6b60b6a6ebf"
 
 RPROVIDES:${PN} += "liblo.so.7 \
 liblo7"

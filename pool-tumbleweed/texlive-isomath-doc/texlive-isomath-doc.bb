@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-isomath"
 DESCRIPTION = "This package includes the documentation for texlive-isomath"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6.1svn27654"
+PV = "2026.226.0.0.6.1svn27654"
 
-RPM_NAME = "texlive-isomath-doc-2023.209.0.0.6.1svn27654-56.1.noarch.rpm"
-RPM_HASH = "08157f48b9f6607ee710c017936fd3b072cd65d68b92a53b4dd2a9f55d40c560c320a719da21e610db9293a0818dc01aacb3413c8ea9033eeaba521a5e147d6e"
+RPM_NAME = "texlive-isomath-doc-2026.226.0.0.6.1svn27654-63.2.noarch.rpm"
+RPM_HASH = "76b8421e28204fc3e72765aff9a6cb6d36ca09043866c794a8592cf73420ed9f17ab29667dfd78d26c60169a63f8ee65322d4d54b0c4105eb51f77e909128ba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-isomath-doc"

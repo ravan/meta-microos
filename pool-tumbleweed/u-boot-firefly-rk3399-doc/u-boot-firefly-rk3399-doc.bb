@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains documentation for U-Boot firmware."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-firefly-rk3399-doc-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "387534625344bc901deebfc0170835166ce85bed5d87dd52d3337259cf274d7ff62a17d489293f92b4b0cda40a3e7930f7ac8f2a3cbd5e04378859eede66aff2"
+RPM_NAME = "u-boot-firefly-rk3399-doc-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "1c7c18e0ffcc29b166ccffbc37ce32cbc6a8c9b3bbf8f4c702dcd3ac33ebc0c1d1342e1a159a7835287bfb38c7a2a6a39f3602d19d74727f985dac8737bb1be2"
 
 RPROVIDES:${PN} += "u-boot-firefly-rk3399-doc"
 

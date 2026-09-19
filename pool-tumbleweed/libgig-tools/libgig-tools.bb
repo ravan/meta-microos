@@ -7,10 +7,10 @@ DESCRIPTION = "Some example applications for the libgig package. \
 * rifftree: tool that prints out the RIFF tree of an arbitrary RIFF file"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.0"
+PV = "4.6.0"
 
-RPM_NAME = "libgig-tools-4.3.0-1.10.aarch64.rpm"
-RPM_HASH = "d7e82c65586126cd4aea02edb004616ff6f0da97e91d1cf461fce15ac984479671c19d186f71ae0be2043dcf61f7917d3d8120fc4706025f160595c4b09afefa"
+RPM_NAME = "libgig-tools-4.6.0-1.1.aarch64.rpm"
+RPM_HASH = "2a6cb0587237240cbe9a4299e7905b69ca378aa45e71391028633217d696c4dd6b40d6da9955737ac6a9599911628bd60ab080cfc3700aba5b0d1be9cd482fc7"
 
 RPROVIDES:${PN} += "libgig-tools \
 libgig6-tools"
@@ -19,8 +19,8 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libakai.so.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgig.so.10 \
-libgig10 \
+libgig.so.14 \
+libgig14 \
 libsndfile.so.1 \
 libstdc++.so.6"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "The libvslvm library is a library to access Linux Logical Volume 
 Manager (LVM) volume containers"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221025"
+PV = "20260901"
 
-RPM_NAME = "libvslvm1-20221025-5.1.aarch64.rpm"
-RPM_HASH = "83d07290e17be9e8280c9b38704c0579868d3edc54a7f73514f342cf383f64c38995bf86c2e2680bbb70331c815ba1ab279150d827ce685d966cfdfc45a27b13"
+RPM_NAME = "libvslvm1-20260901-1.1.aarch64.rpm"
+RPM_HASH = "7fe68d31148bd90e5fc2b0c3946283e90200a65a180c67bcd8c09d1d30a1ac6a59e41f5e3f4f9be3ea24506c6f373a8f80fcbb4373a723cae29f601f48c1b19a"
 
 RPROVIDES:${PN} += "libvslvm.so.1 \
 libvslvm1"

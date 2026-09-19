@@ -10,10 +10,10 @@ LASzip to read and write compressed data. \
 This package contain only the dynamic build."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.4.3"
+PV = "3.5.0"
 
-RPM_NAME = "liblaszip8-3.4.3-1.13.aarch64.rpm"
-RPM_HASH = "ee5d03dbf54f9c4f0d4b2fe3e48bff1f09e33b1bdbf3fb45e2f481013c7d043a1a1c298a69ded8b19b25d7a6f7b9e1abf27b9cd341a20fc809b8d73ea516ce03"
+RPM_NAME = "liblaszip8-3.5.0-1.1.aarch64.rpm"
+RPM_HASH = "b6794f7a770b3ec1eb7f4cdf65cda3923ed214198d17c9eebcf9d1b2b2715a4a95491e5a916cc4ef4e67651867acd4c527b5b43e82b4b25ec9164372c1426988"
 
 RPROVIDES:${PN} += "liblaszip.so.8 \
 liblaszip8"

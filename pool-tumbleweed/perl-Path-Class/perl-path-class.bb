@@ -45,12 +45,12 @@ volumes they refer to and do the right thing. \
 The guts of the 'Path::Class' code live in the Path::Class::File and \
 Path::Class::Dir modules, so please see those modules' documentation for \
 more details about how to use them."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.37"
+PV = "0.370.0"
 
-RPM_NAME = "perl-Path-Class-0.37-1.23.noarch.rpm"
-RPM_HASH = "af92c150c195ae42035773a2de65be5d11dfeac7e78beb8f4663e415a7239418939f2553214e9786568ef422eed35877a5eb8f19d3ab18e34afa44a1a43c2b00"
+RPM_NAME = "perl-Path-Class-0.370.0-1.7.noarch.rpm"
+RPM_HASH = "b1ead458353b2f8a4f9c0e8f8b9df546372d297fe690a97b0211cd17226d2be791b2e3068dd0fb2d25e763e25353fa0bc3001f85afb40a8ada12e9d7619617b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Path--Class \
@@ -59,7 +59,7 @@ perl-Path--Class--Entity \
 perl-Path--Class--File \
 perl-Path-Class"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-File--Spec \
 perl-Perl--OSType \
 perl-parent"

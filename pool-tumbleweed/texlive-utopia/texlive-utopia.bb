@@ -6,10 +6,10 @@ that match the Utopia family, are provided by the Fourier and \
 the Mathdesign font packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-utopia-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "8024fb79926872f40f93412812684eb748d1baa9fe1a09279b6e178775007bd3844d20b552e0a77fb210458a663e435a2819755f0450087ac965f99783788b0d"
+RPM_NAME = "texlive-utopia-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "310d8aa4bffde9370ff270a602de80e02ef56d1ceb59745ddf4c2791d9115c2abffad9a6cb51b6f95b7f52cf3f10cb54cf4642a1392f5297e43342c2a8bc5727"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-putb7t.tfm \

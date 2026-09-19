@@ -9,17 +9,17 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libosmogsm."
 LICENSE = "AGPL-3.0-or-later & GPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.14.2"
 
-RPM_NAME = "libosmogsm-devel-1.8.0-1.2.aarch64.rpm"
-RPM_HASH = "6fdc4828024656141dfb1785986095f1cd3f35d8a65af1cd915a453ca6740181026e2d083aea99744f5cc09704f861cf16aeb33eeda3d9b330c8460aaebd310d"
+RPM_NAME = "libosmogsm-devel-1.14.2-1.1.aarch64.rpm"
+RPM_HASH = "193b5a2267b4d974e929c87749c3f0f511406d4d9214dc8d922038ec14f31ed00284eaa31945ac6fb581c6af13180c60a167ff7f986e866f0f8aaa4718801542"
 
 RPROVIDES:${PN} += "libosmogsm-devel \
 pkgconfig-libosmogsm"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libosmocore-devel \
-libosmogsm18 \
+libosmogsm20 \
 pkgconfig-libosmocore \
 pkgconfig-libosmoisdn \
 pkgconfig-talloc"

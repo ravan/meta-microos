@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.220.0"
 
-RPM_NAME = "perl-Net-DNS-Native-0.220.0-1.1.aarch64.rpm"
-RPM_HASH = "5a2118de8aba98cce457ea4c60e93d4031dadbaf59649a732a76b981329d4224bb59261fca43b01a913d448f6e69e51119b0521a0c0f5188f5e0c34ed5f778f2"
+RPM_NAME = "perl-Net-DNS-Native-0.220.0-2.14.aarch64.rpm"
+RPM_HASH = "d00d3761fe32175c928036091f6c931d4be606b3aba0df9fb4cd386ad988e40d857ee84ca44f8051ca81089d93430b7e835f6080b25db05c2ad84fb38d02e656"
 
 RPROVIDES:${PN} += "perl-Net--DNS--Native \
 perl-Net--DNS--Native--Handle \
@@ -18,7 +18,7 @@ perl-Net-DNS-Native"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Socket"
 
 inherit rpm

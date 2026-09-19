@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cbfonts-fd"
 DESCRIPTION = "This package includes the documentation for texlive-cbfonts-fd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn54080"
+PV = "2026.226.1.2svn54080"
 
-RPM_NAME = "texlive-cbfonts-fd-doc-2023.209.1.2svn54080-53.1.noarch.rpm"
-RPM_HASH = "6b4baa2ff7f251b3c19525b46168896a15b5e58cc2104fdf9d96ba7d40b09662af89b46a39840610d9c989c8cc2ee441e8afd7bc9722b18f3a5f840c1decac37"
+RPM_NAME = "texlive-cbfonts-fd-doc-2026.226.1.2svn54080-59.2.noarch.rpm"
+RPM_HASH = "35ead09180026bf0561b0788254731b4d670a2841f957e92bd79b9358ea5a3855f2d9f3f53ef62006ab4ea760020632b3b1c6de7e24d794fdbd6de3430de8cf8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cbfonts-fd-doc"

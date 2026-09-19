@@ -16,10 +16,10 @@ submissions (e.g., Yours sincerely, Yours faithfully, Best \
 regards, etc.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65290"
+PV = "2026.226.svn65290"
 
-RPM_NAME = "texlive-jourcl-2023.209.svn65290-56.1.noarch.rpm"
-RPM_HASH = "593c24f6af9afcbc01183f330797913633ae5a6a5f99fd703e6721ce78bb6cea638dd88ed0e59251ceb2b545321c8a3f750fc40bf5d838ef8058f80f570ab864"
+RPM_NAME = "texlive-jourcl-2026.226.svn65290-63.2.noarch.rpm"
+RPM_HASH = "b22b574978fe6c9f5e0d19179118e74d06af553ffef5adf83365463954a371e650f6111ecdbf0bdb611df5a99474d710d96838d6ed0a90986353f9c0b5e8da28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jourcl.cls \

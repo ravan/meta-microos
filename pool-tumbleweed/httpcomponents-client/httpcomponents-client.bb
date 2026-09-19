@@ -7,10 +7,10 @@ for Commons HttpClient 3.x. Users of Commons HttpClient are strongly \
 encouraged to upgrade."
 LICENSE = "Apache-2.0"
 
-PV = "4.5.12"
+PV = "4.5.14"
 
-RPM_NAME = "httpcomponents-client-4.5.12-2.7.noarch.rpm"
-RPM_HASH = "de7639b2a6dfde0263f62984eec34452d221053a43ef927775d273cfdd7ddf05eed878dc3b5ee4e43ad1ff07eb9d2548c281fc538dc08c283e288f1e6ed37755"
+RPM_NAME = "httpcomponents-client-4.5.14-2.1.noarch.rpm"
+RPM_HASH = "7f258647f2e14ebaa46db146601b7137953c826a3159be0f617facc4f4ab03929f9c040a4ebe8bab00fc988cabc56eedcc476ecdedc9c88f1100e43c9e305b5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-client \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.3.2"
 
-RPM_NAME = "openjade-devel-1.3.2-373.8.aarch64.rpm"
-RPM_HASH = "ff2cb249b54c25d2b179ea5684f63ee2cb0c87d0675c201f331624e979f291894f9a6c7e5634dde9159bf5a34e8b7633d07e9d67fec2078db37f0078e98b5b1f"
+RPM_NAME = "openjade-devel-1.3.2-375.3.aarch64.rpm"
+RPM_HASH = "13b9b148aeb2bf05cd2951da89c9d6aa0f3c54a92e3ef0170548929e555aa4e2f431551a1aafe4762094508bcd57cca0f500aa89051de1a2a5f8a324a4cb42da"
 
 RPROVIDES:${PN} += "openjade-devel"
 

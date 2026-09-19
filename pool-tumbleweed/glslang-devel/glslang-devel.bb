@@ -12,21 +12,20 @@ better when multiple modules are compressed together, since \
 compressor's dictionary can find better cross module commonality."
 LICENSE = "BSD-3-Clause"
 
-PV = "13.0.0"
+PV = "16.5.0"
 
-RPM_NAME = "glslang-devel-13.0.0-1.1.aarch64.rpm"
-RPM_HASH = "a1041ad072ef14d00301c63d0ac2ef87fe10448aff79a686f1070af88deea74892596ccc65efa305dfa565efcf1bc294fa655b6a115f8c4cec94c1aea1491477"
+RPM_NAME = "glslang-devel-16.5.0-1.1.aarch64.rpm"
+RPM_HASH = "c5439d9aacf7520eebb04307bc02d340e2cef207621c0766a660566da485b741036f9f94d916645c0d5d0f5ffdf08d1a25890b863dfb605ea35cc80194fc619d"
 
 RPROVIDES:${PN} += "cmake-glslang \
 glslang-devel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libSPIRV.so.13 \
-libSPVRemapper.so.13 \
+RDEPENDS:${PN} += "cmake-SPIRV-Tools-opt \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
-libglslang-default-resource-limits.so.13 \
-libglslang.so.13 \
-libglslang13 \
+libglslang-default-resource-limits.so.16 \
+libglslang.so.16 \
+libglslang16 \
 libstdc++.so.6"
 
 inherit rpm

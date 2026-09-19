@@ -2,10 +2,10 @@ SUMMARY = "Translations for package evince"
 DESCRIPTION = "Provides translations for the 'evince' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "48.4"
 
-RPM_NAME = "evince-lang-44.3-1.1.noarch.rpm"
-RPM_HASH = "09a77149ebb261cf43976a48d2ea20f135f9b4f68beba05c532d45ddc77f40c5c46e6a06944b6b71b5b16b1276d45a46392c04117c25a8e3269790f81583e1f2"
+RPM_NAME = "evince-lang-48.4-2.1.noarch.rpm"
+RPM_HASH = "75e01cb6acd64c915bde11bc52d80acbcb55fd53e68c762014b630a4b68a2ea8b73bb98ac771e7bac49b3aad26811da24ddb9247770370515497953f41a2c666"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "evince-lang \

@@ -6,10 +6,10 @@ unicode-math package under XeLaTeX or LuaLaTeX. More support is \
 offered by the firamath-otf package."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.3.4svn56672"
+PV = "2026.226.0.0.3.4svn56672"
 
-RPM_NAME = "texlive-firamath-2023.209.0.0.3.4svn56672-53.1.noarch.rpm"
-RPM_HASH = "59f803a6f94e0602e41980d1771e28c1ddc8b5da6a2ee0f1487f5c81b8b5ded36cb79efec19a2c358dfe1442ac4f9739b2caf99729d862cb1cd94274b23486c4"
+RPM_NAME = "texlive-firamath-2026.226.0.0.3.4svn56672-59.2.noarch.rpm"
+RPM_HASH = "c495e697a9713332b599d8b659f874e4a6a87b774666fa8d7d31721a02c457140e0c88a6f74075abbef304ffbf031d452da28beab02a0d73b66e64fc3c467df6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-firamath"

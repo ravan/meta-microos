@@ -12,10 +12,10 @@ the package include activating and deactivating hanging \
 punctuation, and support for special Unicode characters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2016.1svn40404"
+PV = "2026.226.2016.1svn40404"
 
-RPM_NAME = "texlive-font-change-xetex-2023.209.2016.1svn40404-53.1.noarch.rpm"
-RPM_HASH = "1f3a723d957a746d94dcf936445385063cd92d8ebd926cf45f94d2512d6b041ba3aa1a78f49d9f2a58b66083a4ab1c4ee8d36324d35e8dc8910a681e62a3066f"
+RPM_NAME = "texlive-font-change-xetex-2026.226.2016.1svn40404-60.2.noarch.rpm"
+RPM_HASH = "d651b5c04194b7437b91f96533859a02959ed16cda759fdd00c7d76a35dc1bffa510f191ddd413231f665cac17dde43874ce48d7c1cacaf1ff3a729464aa0539"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-font-change-xetex.tex \

@@ -4,10 +4,10 @@ DESCRIPTION = "LIBSVM is an integrated software for support vector classificatio
 estimation (one-class SVM). It supports multi-class classification."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.30"
+PV = "3.36"
 
-RPM_NAME = "svm-tools-3.30-1.6.aarch64.rpm"
-RPM_HASH = "2e7237a53f43e6bd90b520d0358126d9984dfa0be8aeae3a934fd595f68714bc62ad39bb78896d7b4d9747fd2b01bed8f4eeb58a26716d159f82dfadeca3eef8"
+RPM_NAME = "svm-tools-3.36-1.6.aarch64.rpm"
+RPM_HASH = "8d9c9696ba99702a9485417d24a2656c24fed609b964418b239a4b14824434deb3d29ef6267bfec8a5ded67de5c22281b259f93ae590014a2d43f84ef52f8434"
 
 RPROVIDES:${PN} += "svm-tools"
 

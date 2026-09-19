@@ -6,10 +6,10 @@ database format. GNU Dico handles database accesses using loadable modules. \
 This package contains extensions and modules for dico."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.11"
+PV = "2.12"
 
-RPM_NAME = "dico-modules-2.11-1.16.aarch64.rpm"
-RPM_HASH = "f097464ab2e1d58dbe2085a974ec598735137e1b18d0c18408bd4016072005cb02bf7ae56fb91e589ea73f758b27915ecba71afb751c5eaa3d48dd0dc26c7ece"
+RPM_NAME = "dico-modules-2.12-2.5.aarch64.rpm"
+RPM_HASH = "a5ee689de6ba5560abb3139338967fc599b3760f5cb55b15275ee181be330cd632b76a764f2a7dd4f4946602e42e9f37eff4775e4a2e7cd197d9aa43af428bc8"
 
 RPROVIDES:${PN} += "dico-modules"
 
@@ -21,8 +21,8 @@ libdico.so.2 \
 libguile-3.0.so.1 \
 libldap.so.2 \
 libpam.so.0 \
-libpcre.so.1 \
-libpython3.11.so.1.0 \
+libpcre2-8.so.0 \
+libpython3.13.so.1.0 \
 libz.so.1"
 
 inherit rpm

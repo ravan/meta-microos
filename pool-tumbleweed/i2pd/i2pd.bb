@@ -6,22 +6,23 @@ don't reveal their real IP addresses. \
 This package contains a C++ implementation of an I2P router."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.48.0"
+PV = "2.58.0"
 
-RPM_NAME = "i2pd-2.48.0-1.1.aarch64.rpm"
-RPM_HASH = "70e681ec059225e558ed31331fa8adedd24317ccff745bbc7c821443fde7afa2aee18f05063453dfcffe4ff05508e9a9768d0e681a16469ec6791224699cf689"
+RPM_NAME = "i2pd-2.58.0-1.9.aarch64.rpm"
+RPM_HASH = "b87cbc30f9139aa53c26a5ec127641d53f7b14dd5d7161a6793cbb9e6f8472942e3aae23a8cd9401aae4a4fc12efb1003efe16a0cd019f3a04cfeb443106e00d"
 
 RPROVIDES:${PN} += "config-i2pd \
-i2pd"
+group-i2pd \
+i2pd \
+user-i2pd"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libboost-filesystem.so.1.82.0 \
-libboost-program-options.so.1.82.0 \
+libboost-program-options.so.1.91.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
-libminiupnpc.so.17 \
+libminiupnpc.so.21 \
 libssl.so.3 \
 libstdc++.so.6 \
 libz.so.1 \

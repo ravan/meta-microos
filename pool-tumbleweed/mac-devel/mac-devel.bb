@@ -1,12 +1,11 @@
 SUMMARY = "Development files for APE"
 DESCRIPTION = "Development files for Monkey's Audio codec and decompressor."
-LICENSE = "SUSE-Permissive"
+LICENSE = "BSD-3-Clause"
 
-PV = "8.92"
+PV = "10.26"
 
-RPM_NAME = "mac-devel-8.92-1.4.noarch.rpm"
-RPM_HASH = "70fe93b1f519ab22271991a6173d038acfb65dee3a43705529b37ef21adccf493d439563694c2777f293a3f79626e2c5894ebc2dbac170d9fa926db468bf4821"
-REPO_ARCH = "noarch"
+RPM_NAME = "mac-devel-10.26-1.11.aarch64.rpm"
+RPM_HASH = "9d24ab18fd2353d48fd2bbd851869ddc794813708a55d6118b5c179e24f917a440a1bab5218585446642a5d4623926f1289ef33b44314f3fb2dfa905673824d9"
 
 RPROVIDES:${PN} += "mac-devel"
 

@@ -7,10 +7,10 @@ package footmisc, and superior versions are also available in \
 the manyfoot and bigfoot packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25607"
+PV = "2026.226.svn25607"
 
-RPM_NAME = "texlive-fnpara-2023.209.svn25607-53.1.noarch.rpm"
-RPM_HASH = "690b0a12b056ba4139a4c416f6fe37f7e2ba93db27e10f53a519d113edd0ced5d07bf15b4e6b61a47bc999d545ec1eb12ad116e9a7a1890c2822432ee59fcf63"
+RPM_NAME = "texlive-fnpara-2026.226.svn25607-60.2.noarch.rpm"
+RPM_HASH = "d16100a086519ea7f1d968a3ac5a55ad3eb6f6a9cd03293d6e70c195389d9e91d5d691326fcec9157fc658f3cfb44942fe7d7a0714029cd28244767a6ddb4246"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fnpara.sty \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "vncmanager-greeter-1.0.0-1.32.aarch64.rpm"
-RPM_HASH = "ebbab1838f426f5f51954f96253cdf992dc6e25cadaf5a47a262702bb6df0145e32547788b61a044de9775c2586299ab72204b47ae0d3a9d2fd7928114e06d66"
+RPM_NAME = "vncmanager-greeter-1.0.0-1.42.aarch64.rpm"
+RPM_HASH = "e4fe4f0d8f37df4c7bd90b5a4e01b116d74a01bef90c7197034e12ed6c07db0397cbce3038e5c883169070f03c06fb808e48a2983a7db41b96de109a2a6f66fe"
 
 RPROVIDES:${PN} += "vncmanager-greeter"
 

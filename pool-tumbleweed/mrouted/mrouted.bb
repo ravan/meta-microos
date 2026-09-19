@@ -7,10 +7,10 @@ support, in order to cross non-multicast-aware routers.  The tunnels are \
 virtual point-to-point, IP-IP tunnel, links between a pair of mrouted routers."
 LICENSE = "BSD-3-Clause & BSD-4-Clause"
 
-PV = "4.5"
+PV = "4.7"
 
-RPM_NAME = "mrouted-4.5-1.1.aarch64.rpm"
-RPM_HASH = "3109f3d4d93f936b4addde14d4244d52034ffc39e2b709cc551db550e5468af11170df431829546e830d6347dd201ab0ac94544e4df1f0101c3b39aebfd776dc"
+RPM_NAME = "mrouted-4.7-1.1.aarch64.rpm"
+RPM_HASH = "08514ad24cf02cdcf92d77e14b5b59c84deb174f3f331a19f734f38f266035ddfd88889e6aa692e1075d3a84a7f79e203d0e094fa5ef6ae526e87f3a022ed6bf"
 
 RPROVIDES:${PN} += "config-mrouted \
 mrouted"

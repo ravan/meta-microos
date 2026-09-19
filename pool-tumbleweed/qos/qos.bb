@@ -23,8 +23,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.1"
 
-RPM_NAME = "qos-1.0.1-9.7.noarch.rpm"
-RPM_HASH = "94fb6444bda01cdf863782a84c79dece3747a9624d21b9708bfafbe58b121e0cabc51cbba78593be43e3b1c7a696ddfe89ef06f4a7651167ac60a52dbcdec96c"
+RPM_NAME = "qos-1.0.1-9.15.noarch.rpm"
+RPM_HASH = "2644074c80b5937a1b43f3933ca6614c761ceb8e8c640cfb00b48ba62f5425b09c0a7fb4d3020442b22ecbf408196ee3f061800d2c339a23d4c1c59f1a45573c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qos"

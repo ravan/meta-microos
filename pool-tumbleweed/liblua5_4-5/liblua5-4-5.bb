@@ -11,10 +11,10 @@ scripting, and rapid prototyping. Lua is implemented as a small library \
 of C functions, written in ANSI C."
 LICENSE = "MIT"
 
-PV = "5.4.6"
+PV = "5.4.8"
 
-RPM_NAME = "liblua5_4-5-5.4.6-1.2.aarch64.rpm"
-RPM_HASH = "e4b5789a27956c73141d9d5bffe53375a7d18c882e6a8bf6667b2a15fb0b34d0d54d13859c6a840ea58be9970f26d55edc2f72c6d8c5ee24e54fdd8c44feb1ce"
+RPM_NAME = "liblua5_4-5-5.4.8-4.7.aarch64.rpm"
+RPM_HASH = "2c940a1f7edbf1e669724ffc0929d6282f4db55c4a281b6e9d4319fc65f8c65ea4dc3cb22a0d0a78347c07a0b447a273a63250e40a13b79835f4cc0625463b68"
 
 RPROVIDES:${PN} += "liblua.so.5.4 \
 liblua5-4 \

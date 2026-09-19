@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & CC-BY-SA-4.0 & GPL-3.0-or-later"
 
 PV = "22.04.17"
 
-RPM_NAME = "ubuntu-mate-icon-theme-22.04.17-1.4.noarch.rpm"
-RPM_HASH = "816a55149ffb3df94f2a3e5401cc8c82b21ec8ed04b2d81cae1b36a3e62ba1023d7998833cc0618c86670c694ff6279aa1ec81353cbae1ac57c5c243a94d5ee2"
+RPM_NAME = "ubuntu-mate-icon-theme-22.04.17-1.12.noarch.rpm"
+RPM_HASH = "b554570fed77fc65e14c007ec2c352c3bab5020afcb6f43aebc8641313bd29ed1aa91d9ceb929551042ef63cfb7d2b2b1b3fa29169272fa296024db57ea68669"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ubuntu-mate-icon-theme"

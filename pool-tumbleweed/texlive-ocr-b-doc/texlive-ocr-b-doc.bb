@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ocr-b"
 DESCRIPTION = "This package includes the documentation for texlive-ocr-b"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20852"
+PV = "2026.226.svn20852"
 
-RPM_NAME = "texlive-ocr-b-doc-2023.209.svn20852-55.1.noarch.rpm"
-RPM_HASH = "cfccf5622f8cccd41f04f60e71e83ba9dce78cfef60dca3402e0095d405338d9f9be32a1f2bb3ea0fc59fdd3955e83759106e76a225624a62563c79054236640"
+RPM_NAME = "texlive-ocr-b-doc-2026.226.svn20852-61.2.noarch.rpm"
+RPM_HASH = "e3ae7c4be0f3f9310c3c979b548c36387c2eb46e3113bfd31441adf85d8214de429ceaf1e837a3f642d82511e3bf9900ee45251d8ff6296b898d7e3f2c5920ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ocr-b-doc"

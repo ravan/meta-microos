@@ -3,10 +3,10 @@ DESCRIPTION = "An article-based class designed for use for documentation in \
 high-technology companies."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0betasvn15878"
+PV = "2026.226.0.0.0betasvn15878"
 
-RPM_NAME = "texlive-hitec-2023.209.0.0.0betasvn15878-54.2.noarch.rpm"
-RPM_HASH = "36568de7b5f6edae952740e8c39b654ff49286ebd29fc7ba85a4637ace0686f78c4f78eaf04004dd9ae05937a25e7c013f879c89a46ade83728da2dddc0a1aab"
+RPM_NAME = "texlive-hitec-2026.226.0.0.0betasvn15878-60.4.noarch.rpm"
+RPM_HASH = "75f5320b5ab80f684d0f7d5e2d62ff668a21cf433c07727250c6cd171f7f2f9867749e4aa5ea06dca3c6e93ee06791ddbf9abf2be46f7c52fc18510ef3249be3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hitec.cls \

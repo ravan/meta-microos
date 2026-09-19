@@ -5,10 +5,10 @@ still-image compression standard from the Joint Photographic Experts Group \
 (JPEG)."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.5.0"
+PV = "2.5.4"
 
-RPM_NAME = "libopenjp2-7-2.5.0-3.4.aarch64.rpm"
-RPM_HASH = "5b354809041c36d28f7080147d4195b1f2dbec0673c5d6c542a2708aa69904d448416b24873ec4276bbf4ee26b3d1d4ef68f07303fe14bb1b7b6574b28fa7c5d"
+RPM_NAME = "libopenjp2-7-2.5.4-2.6.aarch64.rpm"
+RPM_HASH = "807b54a3e65c8d4202a76447e69d0142e70716aaa82e0a0d0f5cc14b111b4a7e04454a4c9e4c9bc004b22ad4945428c341b06e9a83bcc2ff4068c1a2e7e2ef60"
 
 RPROVIDES:${PN} += "libopenjp2-7 \
 libopenjp2.so.7"

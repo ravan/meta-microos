@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the header files and libraries necessary fo
 developing applications which use WindowMaker."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.95.9"
+PV = "0.96.0"
 
-RPM_NAME = "WindowMaker-devel-0.95.9-2.11.aarch64.rpm"
-RPM_HASH = "f352ef2044da2edbd7ff6c4c17d11048673738e99647144a7da7ac00a9b3d769088893974bda0e59f5c561f705abdf2133aff7e42a36cdf63a19e12407000bd4"
+RPM_NAME = "WindowMaker-devel-0.96.0-1.9.aarch64.rpm"
+RPM_HASH = "b841a6afcf9d7e29e9a70643a5123f913eebfdd487f4a909160e9b5c5ee1f157aa6ae654968e79627b660ad53c8a79db5ac760e8cb9e79f2126aec9dda9b3bff"
 
 RPROVIDES:${PN} += "WindowMaker-devel \
 pkgconfig-WINGs \

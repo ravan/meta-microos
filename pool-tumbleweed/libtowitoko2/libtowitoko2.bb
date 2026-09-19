@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.0.8"
 
-RPM_NAME = "libtowitoko2-2.0.8-1.2.aarch64.rpm"
-RPM_HASH = "addd321aa2e2a5e33ff1b85426d6002be0d5b7a4d1dc69b20644e9de2b59367774d87e78d2f6b95891ebe44e1b4496cb585bd066a2f8b80d08ccb4c4ec053ed4"
+RPM_NAME = "libtowitoko2-2.0.8-2.5.aarch64.rpm"
+RPM_HASH = "f9978c131df31e809a453fde70e3262a31b506f7c0dc5a6ddf4238aebb04401c0ced31f7a849bd269d44e71dc8aefcb6ddfd3b9e8acf6f96d380cd4350ccc983"
 
 RPROVIDES:${PN} += "libtowitoko.so.2 \
 libtowitoko2"

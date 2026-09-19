@@ -5,10 +5,10 @@ labelling/referencing. In addition, several families of \
 constants (with different symbols) may be defined."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-constants-2023.209.1.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "ed7f67ffde13c0b427ed53002c7ad98c9e861e5b1a1944c7acf463c5ce5bd68381d48e48006054dec879ba73b15ae87770df329acf9f478a2081803f67b4ae0a"
+RPM_NAME = "texlive-constants-2026.226.1.0svn15878-61.2.noarch.rpm"
+RPM_HASH = "175d94077c97638e0056224fa2973710fcc427ba38180fe7364b47d49f62e550d92d661e34e1fcf193a11230c279761b8adc2a90482ef30e628b77021df1fc1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-constants.sty \

@@ -12,22 +12,23 @@ techniques and a spatial-decomposition of the simulation domain. The code is \
 designed to be easy to modify or extend with new functionality."
 LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "20201029"
+PV = "20250722.03"
 
-RPM_NAME = "lammps-20201029-5.2.aarch64.rpm"
-RPM_HASH = "ddd3f8d8f15984b12ac1b424f5a29b6053ad1f426b3d92b78c260165591997389f4f18bf4ca46f0a840b8ea66e06fe9a4cde6e83728a09ce6df546a4056533ce"
+RPM_NAME = "lammps-20250722.03-1.6.aarch64.rpm"
+RPM_HASH = "1298725f20eac90da6b21e1f329d988ff3eb84f28594fac3ee8905eb5b3b6498bfc76797c1e7a091d8b932d34ab337d64ccf2f3a077fe50b2d7d06b0e094aa1a"
 
 RPROVIDES:${PN} += "lammps"
 
 RDEPENDS:${PN} += "lammps-data \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libfftw3.so.3 \
 libgcc-s.so.1 \
 libgfortran.so.5 \
 liblammps.so.0 \
+liblapack.so.3 \
 libm.so.6 \
 libmpi.so.40 \
-libreadline.so.8 \
 libstdc++.so.6"
 
 inherit rpm

@@ -9,16 +9,22 @@ This is a package that is necessary for bootstrapping another package \
 only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.2.1+git7683"
+PV = "13.5.0+git10516"
 
-RPM_NAME = "cross-pru-gcc13-bootstrap-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "95e7486f08608d057ec142ccd976e31e95e1c82cf644bc25a28b71a7d2927a60968f757804f802685e08e0d23cc5c8894e542e6f9fecee084f8d8e84d5262961"
+RPM_NAME = "cross-pru-gcc13-bootstrap-13.5.0+git10516-1.1.aarch64.rpm"
+RPM_HASH = "6a512c4b878fd47dbacda7dae825fbb700a379070466e9f9e14e9193f0a2bf6c67d0ac3c2338ab7480cd77f6479883f4e264df5d0f76e002b617f47e34b93ca9"
 
 RPROVIDES:${PN} += "cross-pru-gcc13-bootstrap \
 pru-gcc"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-cross-pru-binutils \
-update-alternatives"
+RDEPENDS:${PN} += "cross-pru-binutils \
+libc.so.6 \
+libgmp.so.10 \
+libisl.so.23 \
+libm.so.6 \
+libmpc.so.3 \
+libmpfr.so.6 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

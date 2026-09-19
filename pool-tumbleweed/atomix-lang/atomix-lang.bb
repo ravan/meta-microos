@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0"
 
-RPM_NAME = "atomix-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "6e6a714d3a1751deaccea76585b337249c2bc0d35019f873bad8264cd51b4c573f1e289c247b77ca4145733cd086fab94924d3d4373b6b77f5f19f23fa9d1d0c"
+RPM_NAME = "atomix-lang-44.0-1.12.noarch.rpm"
+RPM_HASH = "77d1d6d4bd589d1827d9994abda522ca614e1a79f58d4758f7f0a746a93c228113988691f3aa9495230bb91a1fed5833122f285915ff440d631a0effced04313"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atomix-lang \

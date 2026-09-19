@@ -25,10 +25,10 @@ Some of the questions you could answer using uperf are \
 and much more!"
 LICENSE = "GPL-3.0-only"
 
-PV = "1.0.7"
+PV = "1.0.8"
 
-RPM_NAME = "uperf-1.0.7-1.15.aarch64.rpm"
-RPM_HASH = "ff1d2dd928768ede6f2d2d8642f8468ddd4fdd6411efc03b5d30eaaafe2f26213bfd47d0fcc51a27cfe8db6aa4c1f18ce26f302dfd9516c7fc712a6c61e411a7"
+RPM_NAME = "uperf-1.0.8-1.11.aarch64.rpm"
+RPM_HASH = "c1f0a82bd730cbbb616cc0a503210cea445456afd6340d2f62d76d8d6990bc3ad48a4710ebc44b09d6c64658eb12cae172a005a2f7a8c6cfbb5fcac328a9ecd5"
 
 RPROVIDES:${PN} += "uperf"
 

@@ -19,13 +19,13 @@ LICENSE = "SUSE-Permissive"
 
 PV = "1.112071"
 
-RPM_NAME = "perl-Test-InDistDir-1.112071-9.28.noarch.rpm"
-RPM_HASH = "89bde11952a7becccff2556da7ee8d42cdf349e4bcce9eade1f20f3522e4fd17417a4cb4c77f04b549ee9b20c529c0caa542159c7a975fc7730e5882cb377fc8"
+RPM_NAME = "perl-Test-InDistDir-1.112071-9.42.noarch.rpm"
+RPM_HASH = "6aa431c1a5dc7e179e47c2668bd7edc9ff43e47815ca137f8fbd1859258c08642cc8fdb7a7f24dd00ebe62cf9ff4d38291a73410c5ad430b99cfa92a10cd2e3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--InDistDir \
 perl-Test-InDistDir"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

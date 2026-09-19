@@ -2,10 +2,10 @@ SUMMARY = "Java library for conversion to and from standard string formats"
 DESCRIPTION = "Java library to enable conversion to and from standard string formats."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.2"
+PV = "2.2.3"
 
-RPM_NAME = "joda-convert-1.9.2-3.7.noarch.rpm"
-RPM_HASH = "1fdc40247e11dc038640710bfd49c0b302ff962fc61878ceb14afc61a9026b929a8b1576039348886a1ee5259c7e815d52d324a0dcf559ed39afae9bd903e785"
+RPM_NAME = "joda-convert-2.2.3-2.8.noarch.rpm"
+RPM_HASH = "4a8ff9dcf550f6f254783760bb786f8179884eddafaba61e55a9c1a77b5e0237da574b854cb3bb542e7a20763d2e5febb82ab6954d0cacb9b133a5fec065f452"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "joda-convert \

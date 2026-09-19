@@ -6,14 +6,15 @@ limited but working (e.g. no graphics). Either of these may be \
 fed to a printer. Lout is offered in multiple languages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.42.2"
+PV = "3.41.0"
 
-RPM_NAME = "lout-3.42.2-1.5.aarch64.rpm"
-RPM_HASH = "5d7d449a675b1e7b3a6f4c8f941709a97829c0ef1997e91cca791affd26262e36abad1a15e215a3759c9674bf6f91ca6b2df401f6bb8d124611acad50f620c23"
+RPM_NAME = "lout-3.41.0-2.7.aarch64.rpm"
+RPM_HASH = "10260e421e9e385fde8ef675e00289878e7af31ab6bb28dfb8cb980594df3198b63733b7456c85ff1809d926de1867156097bb0097e11fb1ab9c9f9011d37320"
 
 RPROVIDES:${PN} += "lout"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libm.so.6"
 
 inherit rpm

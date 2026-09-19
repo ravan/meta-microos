@@ -2,17 +2,16 @@ SUMMARY = "Examples for the qt6-base modules"
 DESCRIPTION = "Examples for the qt6-base modules."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-base-examples-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "811ccefb596390f53b75eb6097d73ea591d0ed1ca6161a1e52832073629775031a686d3345259784d9057a95ae181ed1ca912538a4b105a4711e1ac1f4e09a4b"
+RPM_NAME = "qt6-base-examples-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "6e55fb6a3ab21d397b4460fc3235269eb0e022d83925897d3580af786e67bb82172b140f1bad1afb01b3c91de7cc265b71198b05eb9897c078bcdcb29685e9a3"
 
-RPROVIDES:${PN} += "libechoplugin.so \
-libpnp-extrafilters.so \
-libsimplestyleplugin.so \
+RPROVIDES:${PN} += "libcalendarPlugin.so \
 qt6-base-examples"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+ld-linux-aarch64.so.1 \
 libQt6Concurrent.so.6 \
 libQt6Core.so.6 \
 libQt6DBus.so.6 \

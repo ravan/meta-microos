@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-import"
 DESCRIPTION = "This package includes the documentation for texlive-import"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.6.2svn54683"
+PV = "2026.226.6.2svn77682"
 
-RPM_NAME = "texlive-import-doc-2023.209.6.2svn54683-54.1.noarch.rpm"
-RPM_HASH = "22b2d7c9f95131c6c442b8df4d23be123bca1e37f379945597c8445ebe80a1f7559acc74a1b91a275ea74d431f475381437d31ce8a36353a7831c2081473f1db"
+RPM_NAME = "texlive-import-doc-2026.226.6.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "3544c4457b0b9fe716cd5caf5b7303bd4e77e0c06ae07536771abadba8433ec272de747c08b0f7364fe9f02eabe00b4e4978401cf6b1c294aa9267fde737d6f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-import-doc"

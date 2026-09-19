@@ -3,17 +3,17 @@ DESCRIPTION = "This package provides private headers of libQt6PrintSupport that 
 ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-printsupport-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "3a546b8af13138f08e4241f68acb84c07c0d4707627942a6043101c2781daf34a6bb25fc24d021e0a3c9e37e8959b98a5c92936ef5d57e5e8f1f6b21447779b6"
+RPM_NAME = "qt6-printsupport-private-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "667b3f40110d634f8496433edfa237d9a2755fa6ab82b067aa607da49269841350e3659b1e079af940f3dfe26fb20949c94857494c2edbc610faab99401819a9"
 
-RPROVIDES:${PN} += "qt6-printsupport-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6PrintSupportPrivate \
+qt6-printsupport-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6PrintSupport \
-cups-devel \
-qt6-core-private-devel \
-qt6-gui-private-devel \
-qt6-widgets-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate \
+cmake-Qt6GuiPrivate \
+cmake-Qt6PrintSupport \
+cmake-Qt6WidgetsPrivate"
 
 inherit rpm

@@ -7,13 +7,14 @@ format. \
 This subpackage holds the development headers for the library."
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.2"
 
-RPM_NAME = "mingw64-zlib-devel-1.2.13-2.2.noarch.rpm"
-RPM_HASH = "eca75d6329190b32da109f241a837ae6e1e3a3685bd320ba8b5a366af6c11bdcb290d2d96cbec6a4c3292978c938e0ba5298318c689cac0e62043881fb322650"
+RPM_NAME = "mingw64-zlib-devel-1.3.2-1.6.noarch.rpm"
+RPM_HASH = "dfb11038bef274b4564acebb6055acc60724fdf3b9e0e697dfb75e2cc29141f0524f0f7902a241b4f40c67b3341f59c64efe5ea7442b723429636676a0209a98"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mingw64-lib-z \
+RPROVIDES:${PN} += "mingw64-cmake-ZLIB \
+mingw64-lib-z \
 mingw64-pkg-zlib \
 mingw64-pkg-zlib-static \
 mingw64-zlib-devel"

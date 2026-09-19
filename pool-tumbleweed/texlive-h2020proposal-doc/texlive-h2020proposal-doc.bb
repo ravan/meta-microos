@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-h2020proposal"
 DESCRIPTION = "This package includes the documentation for texlive-h2020proposal"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0svn38428"
+PV = "2026.226.1.0svn38428"
 
-RPM_NAME = "texlive-h2020proposal-doc-2023.209.1.0svn38428-54.2.noarch.rpm"
-RPM_HASH = "9fcd1f6252d8077618d8c54c1466ff8f45427dd154d0497ea68003dd32111bdbf0215cf14fcf2ef2afbc061855199520c349fd121537b12007eda85be82fa739"
+RPM_NAME = "texlive-h2020proposal-doc-2026.226.1.0svn38428-60.4.noarch.rpm"
+RPM_HASH = "d270d710d7626bb906ff885418212e7e686562d1028054d7f4004d4547d12674f8918b754c531a67d403f9e0d6ee3e6bd770a84227de3940a484c7a8516a4f71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-h2020proposal-doc"

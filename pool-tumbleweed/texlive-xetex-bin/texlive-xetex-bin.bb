@@ -2,10 +2,10 @@ SUMMARY = "Binary files of xetex"
 DESCRIPTION = "Binary files of xetex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn66084"
+PV = "2026.20260301.svn77966"
 
-RPM_NAME = "texlive-xetex-bin-2023.20230311.svn66084-93.2.aarch64.rpm"
-RPM_HASH = "c8dee963e1f8f9583a08ae30bd2f5bc0fa4429566d0349172455f48d0a44280be5ae8f038c93cdaaa13238ffcb277cfe966a2dd5e2634980a65f861287d81460"
+RPM_NAME = "texlive-xetex-bin-2026.20260301.svn77966-120.4.aarch64.rpm"
+RPM_HASH = "18790b684e7b52320c8ac5ccfcd9e4eef0afde803f7cd9df4a681942254f434afa6a5fca9ca05b78fc8f92dd7e6d8700f7e95aa8542a514afa1c7a683036ae1a"
 
 RPROVIDES:${PN} += "texlive-xetex-bin"
 
@@ -16,7 +16,7 @@ libfreetype.so.6 \
 libgcc-s.so.1 \
 libgraphite2.so.3 \
 libharfbuzz.so.0 \
-libicuuc.so.73 \
+libicuuc.so.78 \
 libkpathsea.so.6 \
 libm.so.6 \
 libpng16.so.16 \

@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "9.78"
 
-RPM_NAME = "gdouros-aegean-fonts-9.78-1.17.noarch.rpm"
-RPM_HASH = "15b87f7ccd57a96d4dda56e1aaf702b22a9717b8b35ef8c6b6a3b1d2d40b98f7f1149577f57df024c1665869182f2c00317d0b222d79d77882def6c2b0c088ea"
+RPM_NAME = "gdouros-aegean-fonts-9.78-1.25.noarch.rpm"
+RPM_HASH = "375f65c2ee0c5861fd1d0695fb060f02855b18934eac00f588764d6f675973fc4eb8f7253108dbb9a53dfa650ab61e33bce1c33ff980e944e9b8e41ae9b0358e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aegean-fonts \

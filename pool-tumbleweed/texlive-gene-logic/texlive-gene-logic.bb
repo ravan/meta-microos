@@ -4,10 +4,10 @@ formulae. It provides an environment like eqnarray, a \
 newtheorem-like environment (NewTheorem), and several macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn15878"
+PV = "2026.226.1.4svn75878"
 
-RPM_NAME = "texlive-gene-logic-2023.209.1.4svn15878-53.1.noarch.rpm"
-RPM_HASH = "64ff876aec82e654fb207cfc6cf43f1453a7b0e2b369e2ddde2d0daf4b3abde63004af70b260b6272e0ad08b1c4b8e5a2bf1eac5a0d647e9ef87641cd0d83f34"
+RPM_NAME = "texlive-gene-logic-2026.226.1.4svn75878-60.2.noarch.rpm"
+RPM_HASH = "29bfe9d0888688fed9df0e78c9c5eac43259c9046e36640ab3dc6366e03a909a410cf11f1adcefa48bef30c3f45d7e17506b5dcad0a7db258bf5bd52ebf8a321"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gn-logic14.sty \

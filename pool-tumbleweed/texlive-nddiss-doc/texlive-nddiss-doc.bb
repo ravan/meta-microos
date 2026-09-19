@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nddiss"
 DESCRIPTION = "This package includes the documentation for texlive-nddiss"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2017.2svn45107"
+PV = "2026.226.3.2017.2svn45107"
 
-RPM_NAME = "texlive-nddiss-doc-2023.209.3.2017.2svn45107-55.1.noarch.rpm"
-RPM_HASH = "274871e965355a6fd1ce46f885d79bcf045fc3486e40fd16b1e0828c49321d6e021bd6805356c8886975fe14e5d45466bc2300964d6246cd7df2ff83100a4bc7"
+RPM_NAME = "texlive-nddiss-doc-2026.226.3.2017.2svn45107-61.2.noarch.rpm"
+RPM_HASH = "436910af7fba6b97a0c11cfce2758e4aeaf9c67097e09785cd09fa076e6bd69bfa3b41bff295b08663c59ac0185555bb0d5cd43e0af2f1d6ea3be1d83a905083"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nddiss-doc"

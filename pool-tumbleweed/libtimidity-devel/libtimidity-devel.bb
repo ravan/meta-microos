@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2.7"
 
-RPM_NAME = "libtimidity-devel-0.2.7-1.4.aarch64.rpm"
-RPM_HASH = "7a9db26795fb54b6308e5bbaf928621640a417f28d173e05248451f92ae68d6fd61a87e0b71bedf3b68c60aa7c88aa1b949cbdc34c772eaa5f9f1809152c7433"
+RPM_NAME = "libtimidity-devel-0.2.7-1.14.aarch64.rpm"
+RPM_HASH = "a93909f9a342385f336745d88695e8dbd5119af454844c33d18f6510b3624d667813a1cd600afbed730a91bb323a6c2d816ebbfd7655085e7b21b554485255ba"
 
 RPROVIDES:${PN} += "libtimidity-devel \
 pkgconfig-libtimidity"

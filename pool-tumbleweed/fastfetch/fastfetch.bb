@@ -1,13 +1,13 @@
-SUMMARY = "Neofetch-like tool written in C"
-DESCRIPTION = "Fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. \
-It is written in pure c, with performance and customizability in mind. Currently Linux, Android, FreeBSD, \
-MacOS and Windows 7+ are supported."
+SUMMARY = "Neofetch-like tool written mostly in C"
+DESCRIPTION = "Fastfetch is a neofetch-like tool for fetching system information and \
+displaying them in a pretty way.  It is written mainly in C, with performance and \
+customizability in mind."
 LICENSE = "MIT"
 
-PV = "1.12.2"
+PV = "2.68.1"
 
-RPM_NAME = "fastfetch-1.12.2-1.1.aarch64.rpm"
-RPM_HASH = "9fb014f48edb69e83763497edda3740deb4d0213bbdc4bf132cb02ea4f17dd89a68e3b8531d7f13615bb3afab21fcbc2610ed62907866963bdda99e4cda0ce0f"
+RPM_NAME = "fastfetch-2.68.1-1.1.aarch64.rpm"
+RPM_HASH = "9ceae1ddfb851a4ba037b51af8471e487d585c9abbec4a4520400eb02f24abf483be245e5a9204f99eb7c96fe549331db8bf6b99be79c6077af8a1d2acb30966"
 
 RPROVIDES:${PN} += "fastfetch"
 

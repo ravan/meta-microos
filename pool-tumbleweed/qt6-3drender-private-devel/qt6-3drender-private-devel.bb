@@ -1,18 +1,19 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 3DRender library"
 DESCRIPTION = "This package provides private headers of libQt63DRender that do not have any \
 ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-3drender-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "7baa050803845dd395c1096dfd1690af9a8245a95f94e1a88c49f3eda8f6c766e7df0940fad628b2f911ee1af38b901c754ea52f2982336298c8c5fc980a55a8"
+RPM_NAME = "qt6-3drender-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "7c6e5acb6fc38ed5b7f2500239c9c3510242aff55f6474b8540cbd664715479a1055ede473e8a9271dfa7de8268f5c07d12e9d8278f605b661dafc5f88c96c1f"
 
-RPROVIDES:${PN} += "qt6-3drender-private-devel"
+RPROVIDES:${PN} += "cmake-Qt63DRenderPrivate \
+qt6-3drender-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt63DRender \
+RDEPENDS:${PN} += "cmake-Qt63DCorePrivate \
+cmake-Qt63DRender \
 cmake-Qt6Concurrent \
-qt6-3dcore-private-devel \
-qt6-core-private-devel"
+cmake-Qt6CorePrivate"
 
 inherit rpm

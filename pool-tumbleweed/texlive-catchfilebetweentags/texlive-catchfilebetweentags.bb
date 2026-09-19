@@ -7,10 +7,10 @@ docstrip tags: %<*tag> .... %</tag> (comments in the caught \
 region may be included or dropped)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn21476"
+PV = "2026.226.1.1svn21476"
 
-RPM_NAME = "texlive-catchfilebetweentags-2023.209.1.1svn21476-53.1.noarch.rpm"
-RPM_HASH = "a2951c8c9f3e518ad9bbf9f578c9484b8ff2b5df074db611426d39a5aa0b39bc77196080e44c18e552b9e7f3ef2706a87fbec9090f4e77974f793408ff8346c3"
+RPM_NAME = "texlive-catchfilebetweentags-2026.226.1.1svn21476-59.2.noarch.rpm"
+RPM_HASH = "882e975de1e68b527689e4c0d58a376597a825e7fea23f31294c4596ffb37ab9ad674870e59000f631a3f8de0d6eb3a6d79b4f7a1b9bf7e5739f342bfcdd3f9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-catchfilebetweentags.sty \

@@ -4,10 +4,10 @@ calligraphically-inspired font of the mid-19th century. LaTeX \
 support, for use with the LGR encoding only, is provided."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.0svn18651"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-gfssolomos-2023.209.1.0svn18651-53.1.noarch.rpm"
-RPM_HASH = "e4371ceefb6730d89a049bf0878025ddacd6cb1cc25dddb80bf87c1ef24e16371f8dea5ad44286bfc153b2ce30aeb35948b23c50f7a751f77737d823d2cf08a1"
+RPM_NAME = "texlive-gfssolomos-2026.226.1.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "2ebb05cf8ed5edb45d720ea5ea5d9e0b0c236a548f8eba24abff8e7e598efc393e47b67eb9a7b3328f5aaf4a20264b79d754dbb04d719f4a79978310165ce4dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gfssolomos.map \

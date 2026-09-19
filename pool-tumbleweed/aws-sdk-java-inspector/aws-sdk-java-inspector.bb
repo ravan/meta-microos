@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon Inspector Service"
 DESCRIPTION = "The AWS Java SDK for Amazon Inspector Service module \
 holds the client classes that are used for communicating with \
 Amazon Inspector Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-inspector-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "847f5f5b06e98d91fa0ec465848a364788ed8d23634648673879bfd9b0ebcf979ace29afb68063ff4ff225de1864fb915918ca37de8aed671298f4a45d39b57f"
+RPM_NAME = "aws-sdk-java-inspector-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "3a27b83aafad9f764cc05bb4ee75697201be48616221b33f00486bec0713edb856d584bd8968a5bc12a5322f2e0f0a962bbc5248cbc92469cab6cef0c86aa4ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-inspector \

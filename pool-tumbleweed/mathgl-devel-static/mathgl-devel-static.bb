@@ -7,10 +7,10 @@ This package contains static libraries for developing applications \
 that use MathGL."
 LICENSE = "GPL-3.0-only"
 
-PV = "8.0.1"
+PV = "8.0.3"
 
-RPM_NAME = "mathgl-devel-static-8.0.1-4.2.aarch64.rpm"
-RPM_HASH = "1de50ce9c66c069bf962ee6d9ab4c71907d3c2b3455f003ced68606ab25a9cfb8dd22c887f9048c54d3f83689f577014f7e18809aff366372cda21d8969923c4"
+RPM_NAME = "mathgl-devel-static-8.0.3-2.6.aarch64.rpm"
+RPM_HASH = "2cc0c5a7901c637861164a25c766b9368ebd68816208302b456f23d90a2f461df55e382ae21e6c323cb880a6c6fef5d7099939104a2dae89823dcf8c5be43393"
 
 RPROVIDES:${PN} += "mathgl-devel-static"
 

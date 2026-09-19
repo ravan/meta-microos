@@ -5,10 +5,10 @@ conversion process. It also provides a library which can be \
 used to create customized conversion tools."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.3msvn66130"
+PV = "2026.226.0.0.4esvn78133"
 
-RPM_NAME = "texlive-make4ht-2023.208.0.0.3msvn66130-53.1.noarch.rpm"
-RPM_HASH = "25a9c922d4d89452a0514c93503b8a460e3905ff531a8ff415f22d57c5a6259d8e9ca00c86e739bc5ae14cfc75cf1c7a2b0092720bafddc868b9ed555a319e59"
+RPM_NAME = "texlive-make4ht-2026.226.0.0.4esvn78133-59.2.noarch.rpm"
+RPM_HASH = "96cab1d37476c9a50da5fa555a98dfcce69e84f42dcd3952707854091a28a80773b0e833c3d78963e7ddedd451275671f0815224dad7094983968f20fdf5ffb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-make4ht"

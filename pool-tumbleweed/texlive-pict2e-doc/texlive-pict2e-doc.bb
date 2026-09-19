@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pict2e"
 DESCRIPTION = "This package includes the documentation for texlive-pict2e"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4bsvn56504"
+PV = "2026.226.0.0.4bsvn77682"
 
-RPM_NAME = "texlive-pict2e-doc-2023.209.0.0.4bsvn56504-52.1.noarch.rpm"
-RPM_HASH = "f1194664a9a0b2122db7e7f7c9dd8d2ce04c8362d427da3bcb5d099a975d04b4ad88d733af73be51b4b28af8a2fe880c9340403d7bf8c8c5054a0fccaac18eb1"
+RPM_NAME = "texlive-pict2e-doc-2026.226.0.0.4bsvn77682-58.2.noarch.rpm"
+RPM_HASH = "0f3d64a8efc9ab6c09ab6cc29c3138ca7dfd14b454b3eaace05c3ba10f219faf253f785629f3564f71d08135253f717844af34a8c0d6f146b2f09564b502f15f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pict2e-doc"

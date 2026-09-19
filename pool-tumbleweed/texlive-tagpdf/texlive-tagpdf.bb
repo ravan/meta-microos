@@ -1,18 +1,14 @@
-SUMMARY = "Tools for experimenting with tagging using pdfLaTeX and LuaLaTeX"
-DESCRIPTION = "The package offers tools to experiment with tagging and \
-accessibility using pdfLaTeX and LuaTeX. It isn't meant for \
-production but allows the user to try out how difficult it is \
-to tag some structures; to try out how much tagging is really \
-needed; to test what else is needed so that a pdf works e.g. \
-with a screen reader. Its goal is to get a feeling for what has \
-to be done, which kernel changes are needed, how packages \
-should be adapted."
+SUMMARY = "Code for PDF tagging using pdfLaTeX and LuaLaTeX"
+DESCRIPTION = "The package contains the core code for tagging and \
+accessibility used by the LaTeX kernel in the Tagged PDF \
+project. See https://github.com/latex3/tagging-project for more \
+information."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.98esvn66461"
+PV = "2026.227.0.0.99ysvn77539"
 
-RPM_NAME = "texlive-tagpdf-2023.209.0.0.98esvn66461-55.1.noarch.rpm"
-RPM_HASH = "07ddd7e65d68b6e9e1bad83344e84aae5d89b213b83945a8136ae350e8d16722504d738bec1d98af0b92242fab1775de7043fb8d5bc027edb8ace9bf21b437c8"
+RPM_NAME = "texlive-tagpdf-2026.227.0.0.99ysvn77539-62.2.noarch.rpm"
+RPM_HASH = "aeda1e4cb6beacd7077de90fe5fad01a97cdbb181fc47dd4c6d6816fb56589f5fe57f57db0b62406f7ca2922913cbe7a907ac26abcc335628a002ff110f6c95e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tagpdf-base.sty \
@@ -39,9 +35,6 @@ findutils \
 grep \
 sed \
 tex-etoolbox.sty \
-tex-l3ref-tmp.sty \
-tex-output-patches-tmp-ltx.sty \
-tex-pdfmanagement-testphase.sty \
 tex-xpatch.sty \
 texlive \
 texlive-filesystem \

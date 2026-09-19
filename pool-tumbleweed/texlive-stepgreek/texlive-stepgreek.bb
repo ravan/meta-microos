@@ -7,10 +7,10 @@ to a Times-like font such as STEP. The font supports polytonic \
 Greek."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.0b1svn57074"
+PV = "2026.226.3.0b1svn57074"
 
-RPM_NAME = "texlive-stepgreek-2023.209.3.0b1svn57074-58.1.noarch.rpm"
-RPM_HASH = "b93880aa29061c9a7fbfcdeebada9086e7ef4c6a39c90f4e7b11e57948f6a6ba2ce705b7e5cc4355283abb623c15df9af33e4ad6ee3390f16443c680250f935e"
+RPM_NAME = "texlive-stepgreek-2026.226.3.0b1svn57074-64.2.noarch.rpm"
+RPM_HASH = "d763192e272269812ee4973d60b821aae3316c4a39d8925d4115c32cfe38fe8b4343b5a7b28a04cf21aba02242e9045938b786fabbc3aefa7bafcccfd9b5ad54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRSTEPGreekTest-Sup.fd \

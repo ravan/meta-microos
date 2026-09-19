@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-plugin-script-22.02.122+94.4bd41a3-10.1.aarch64.rpm"
-RPM_HASH = "1f2c563fd512d3112fd4b3747d9a04567512c8786ee06a33eecafe4c7fb17cecb6c5aa914174a9747b2d8a3e73231d04db582cee7ff68918ddeaceae5bb014ab"
+RPM_NAME = "plymouth-plugin-script-22.02.122+94.4bd41a3-20.6.aarch64.rpm"
+RPM_HASH = "0050162b74870a6998b04de9c025d53b15abb98916050008957b04a226960a0fcd363931d4595d227bdb715cb860828188d7fd57bfc5e20beff23a4cd863478b"
 
 RPROVIDES:${PN} += "plymouth-plugin-script"
 

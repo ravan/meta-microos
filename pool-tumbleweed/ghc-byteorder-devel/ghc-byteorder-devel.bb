@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.4"
 
-RPM_NAME = "ghc-byteorder-devel-1.0.4-4.3.aarch64.rpm"
-RPM_HASH = "b08a289fbbbe1938a9add58fbd78eb1a2179b03e7f8aa7239e3b250af29fba5b981bbafbef5b554ff5f42fe09f48d32f09164e40d5949f134095fbc9362c9371"
+RPM_NAME = "ghc-byteorder-devel-1.0.4-4.19.aarch64.rpm"
+RPM_HASH = "4186a5e3ef6ada9ede98b19f2b5c2666f872483c27b515122133d1249b639efbd8e88dc633c51960b9ea9f77388ce5b92e3697c7a638c0dd6a7bdbf6670e031f"
 
 RPROVIDES:${PN} += "ghc-byteorder-devel \
-ghc-devel-byteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0"
+ghc-devel-byteorder-1.0.4-2KwV8jNH81I9JBUzKyr4X2"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-byteorder \
 ghc-compiler \
-ghc-devel-base-4.17.2.0"
+ghc-devel-base-4.21.2.0-8844"
 
 inherit rpm

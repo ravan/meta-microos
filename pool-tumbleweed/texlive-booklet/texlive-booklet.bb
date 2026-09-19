@@ -7,10 +7,10 @@ Instructions on producing the manual itself as a booklet are \
 included."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7bsvn15878"
+PV = "2026.226.0.0.7bsvn77682"
 
-RPM_NAME = "texlive-booklet-2023.209.0.0.7bsvn15878-53.1.noarch.rpm"
-RPM_HASH = "63fdac94229e38e9c5961d6f2f84f48a9d3cb227b37e71a21207897f38c78bb9695990ab465474ccc16e127db6433bf149fa9a19a8215f43c4e702a0fdfd33cc"
+RPM_NAME = "texlive-booklet-2026.226.0.0.7bsvn77682-59.2.noarch.rpm"
+RPM_HASH = "170a733d21fedcd658926e0515b5f208e095429a26bab0685e5f36a8b4d322c1294dff7611a6290f3648394d25ff0c9b45e945b6f42a7d270bd610c63922affc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bkltprnt.sty \

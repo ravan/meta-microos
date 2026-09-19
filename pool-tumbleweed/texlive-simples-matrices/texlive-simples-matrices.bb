@@ -3,10 +3,10 @@ DESCRIPTION = "Macros to define and write matrices whose coefficients are \
 given row by row in a list of values separated by commas."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn63802"
+PV = "2026.226.1.0.1svn76924"
 
-RPM_NAME = "texlive-simples-matrices-2023.209.1.0.1svn63802-54.1.noarch.rpm"
-RPM_HASH = "dfd180ea62d7bda0ac0f867806d98eb6213fb4cc7ed4ddaaf4913d6c24aefb3276c75326ce715ceaa857c55b6917dde4da9ddf757801b8eee4aa3298a08c9604"
+RPM_NAME = "texlive-simples-matrices-2026.226.1.0.1svn76924-60.2.noarch.rpm"
+RPM_HASH = "96a304f0caacb7aaa0891b00b83af752e849d61ee28c0d3349eda42120fdee6f264bb0cd25dfbdac6f5621e2bf3c24220fe763fccf96b6f2a8689ce06fc7bf79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simples-matrices.sty \

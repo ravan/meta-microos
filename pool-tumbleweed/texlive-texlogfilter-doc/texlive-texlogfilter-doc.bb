@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-texlogfilter"
 DESCRIPTION = "This package includes the documentation for texlive-texlogfilter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn62792"
+PV = "2026.227.1.4svn71525"
 
-RPM_NAME = "texlive-texlogfilter-doc-2023.209.1.1svn62792-55.1.noarch.rpm"
-RPM_HASH = "69b7a52e754030983aaed98713d008660288096ddaa59f20986b8fc66e1c2bb2c7352bc64891ba60ad30ced125106eed9cadcd2acd1dafe273047523fe3df570"
+RPM_NAME = "texlive-texlogfilter-doc-2026.227.1.4svn71525-62.2.noarch.rpm"
+RPM_HASH = "c81a7201afa3c430d2200cd339ff1636a734dbdc66fb1cecda4622f204b3826ee20e50e523d5b153e0a791c764bf482098d3defc4236b50c395685b6e056e925"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-texlogfilter.1 \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the Glide64mk2 Video Plugin for the Mupen64
 Nintendo 64 Emulator which provides high-level graphics emulation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.9"
+PV = "2.6.0"
 
-RPM_NAME = "mupen64plus-plugin-video-glide64mk2-2.5.9-2.9.aarch64.rpm"
-RPM_HASH = "7f276abfbaea8559dc6de14bce37597a196e475821fe4a6b3c4bf5a2a48a8728ec8d328e54295ad61a249eba33179fb09bdf61341c0c5017b1e32da76e2d7baf"
+RPM_NAME = "mupen64plus-plugin-video-glide64mk2-2.6.0-3.6.aarch64.rpm"
+RPM_HASH = "0d8156faa45432f8264269e943575a14be061ec0b65bf1fc0995bd6916b3be3f781c0a4a5329435ca4216dfd2deb4fb2d29b14ff888f4bf13078e08ddb7fbf8c"
 
 RPROVIDES:${PN} += "mupen64plus-plugin-video \
 mupen64plus-plugin-video-glide64mk2"
@@ -14,7 +14,6 @@ mupen64plus-plugin-video-glide64mk2"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libSDL2-2.0.so.0 \
-libboost-filesystem.so.1.82.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

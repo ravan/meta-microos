@@ -6,10 +6,10 @@ and sharing of array-oriented scientific data. \
 This package contains all files needed to create projects that use NetCDF."
 LICENSE = "NetCDF"
 
-PV = "4.9.2"
+PV = "4.10.1"
 
-RPM_NAME = "netcdf-devel-4.9.2-1.2.aarch64.rpm"
-RPM_HASH = "182f1ba30d7680a239740fbf7bb6f59e19325c53adba826270fdfd1547949bee2de21e953ec197ca5aa549fbf4f7d0819a52a5e82f07b64ec611acdbd263b55c"
+RPM_NAME = "netcdf-devel-4.10.1-1.2.aarch64.rpm"
+RPM_HASH = "4487fdc7230f31bc26f0fdcf551d080ae91cb4bb57a1d0e48d83bd4b9a1dd5edd0dc8db810ae62b49798817d4dc11c4a943049bde7413744c436a8a37a9f3ea3"
 
 RPROVIDES:${PN} += "netcdf-devel \
 pkgconfig-netcdf"
@@ -18,7 +18,7 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
 hdf5-devel \
 libcurl-devel \
-libnetcdf19 \
+libnetcdf22 \
 netcdf-devel-data \
 pkgconfig \
 zlib-devel"

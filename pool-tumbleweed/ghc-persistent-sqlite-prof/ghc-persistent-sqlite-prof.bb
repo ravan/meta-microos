@@ -2,30 +2,30 @@ SUMMARY = "Haskell persistent-sqlite profiling library"
 DESCRIPTION = "This package provides the Haskell persistent-sqlite profiling library."
 LICENSE = "MIT"
 
-PV = "2.13.1.1"
+PV = "2.13.3.1"
 
-RPM_NAME = "ghc-persistent-sqlite-prof-2.13.1.1-2.15.aarch64.rpm"
-RPM_HASH = "deff2da5a62112503d6e617dac8339c20c2dbb9b80603717c0229310762ae7ad8f71858c26ce1e237606e4adb61376866e073b21c614bb10b3548851630bb770"
+RPM_NAME = "ghc-persistent-sqlite-prof-2.13.3.1-1.26.aarch64.rpm"
+RPM_HASH = "122d60dac0d0ae5f066c5907299d6ce47cdc776099b40515851eedae39a73c29a663cc71c3a027e100a197cdf54399b489e1981608d3768e2d95ce32986bc74b"
 
 RPROVIDES:${PN} += "ghc-persistent-sqlite-prof \
-ghc-prof-persistent-sqlite-2.13.1.1-LFBaiZpqiPx36cLUcGmy9U"
+ghc-prof-persistent-sqlite-2.13.3.1-IdOK9Fw5cMI6O2h4Rb96Ym"
 
 RDEPENDS:${PN} += "ghc-persistent-sqlite-devel \
-ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
-ghc-prof-containers-0.6.7 \
-ghc-prof-microlens-th-0.4.3.13-K3KDbjSa5xkBUVjBxtDTLF \
-ghc-prof-monad-logger-0.3.40-7M7roko8a7PJ68wJBTUT6s \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-persistent-2.14.5.1-Gjrp3WYLCFS91AokYH8j1m \
-ghc-prof-resource-pool-0.4.0.0-7uUtnYEtaeP22tTkIEO3ty \
-ghc-prof-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-prof-text-2.0.2 \
-ghc-prof-time-1.12.2 \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unliftio-core-0.2.1.0-LP03A4AUPGIIJc7XWMX3ES \
-ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn"
+ghc-prof-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-conduit-1.3.6.1-DuJaiNNDon54jV6QjcNayt \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-microlens-th-0.4.3.18-5y491C8iAr58VYbwqIS2QN \
+ghc-prof-monad-logger-0.3.42-GqHwch1CK1c5RziOTPSbJG \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-persistent-2.17.1.0-4wNOAx2iKPh9qy3cL3mEtA \
+ghc-prof-resource-pool-0.5.0.1-CRHTi96cJqx7YSyfyqtukW \
+ghc-prof-resourcet-1.3.0-F8ZRgExkptBLIQxE9m0AZE \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-time-1.14-a7dc \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-unliftio-core-0.2.1.0-HFUY5mS3bsg3RW1edumY92 \
+ghc-prof-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xhfill"
 DESCRIPTION = "This package includes the documentation for texlive-xhfill"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn22575"
+PV = "2026.226.1.01svn77682"
 
-RPM_NAME = "texlive-xhfill-doc-2023.209.1.01svn22575-53.2.noarch.rpm"
-RPM_HASH = "3c7cabbc1f8d505cf3ac0ae230cd0a45f795351d657cac13c212f2a9e58417b5034d18954dad5b816590a8f6021c451a4461ed5bda81bd041209439aa32e8b9c"
+RPM_NAME = "texlive-xhfill-doc-2026.226.1.01svn77682-59.4.noarch.rpm"
+RPM_HASH = "d5c99198ed2a964e17ed8bdc73bc7ecb9f42a110b858c4b7f48be90edbeb50effd5d40d0037ffec891abcb48a9123f7ef77058edf8054c1ddfc8bdeb3e4e5b8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xhfill-doc"

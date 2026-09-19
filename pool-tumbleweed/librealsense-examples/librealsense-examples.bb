@@ -2,10 +2,10 @@ SUMMARY = "Examples for librealsense"
 DESCRIPTION = "Examples from the librealsense library."
 LICENSE = "Apache-2.0"
 
-PV = "2.54.1"
+PV = "2.58.3"
 
-RPM_NAME = "librealsense-examples-2.54.1-1.1.aarch64.rpm"
-RPM_HASH = "fb6294320b4bf1aaa3dd21925211040e637881fa5c1214edcd22b7c72d60bdc2b053ab0bee1a0222b39d68ded15b51c6727189dbd44aeb6476d8f445881fb2a7"
+RPM_NAME = "librealsense-examples-2.58.3-1.1.aarch64.rpm"
+RPM_HASH = "41273f72983bc7f0b42ab6c1f1f6dad407cc59145ec647cecfc5f2b1167af242e94e96a28f9d6c0ab72412a6ba72db9084ddd3d09d3c2df11030d502a31f97b5"
 
 RPROVIDES:${PN} += "librealsense-examples"
 
@@ -17,8 +17,10 @@ libgcc-s.so.1 \
 libglfw.so.3 \
 libm.so.6 \
 librealsense \
-librealsense2-gl.so.2.54 \
-librealsense2.so.2.54 \
+librealsense-file.so \
+librealsense2-gl.so.2.58 \
+librealsense2.so.2.58 \
+librsutils.so.2.58 \
 libstdc++.so.6"
 
 inherit rpm

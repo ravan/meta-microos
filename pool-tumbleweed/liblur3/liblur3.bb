@@ -3,10 +3,10 @@ DESCRIPTION = "A library to configure and handle the /dev hidraw devices belongi
 to the 'Unifying' wireless receiver."
 LICENSE = "MIT"
 
-PV = "0.17"
+PV = "0.18"
 
-RPM_NAME = "liblur3-0.17-2.2.aarch64.rpm"
-RPM_HASH = "f8cb2dfdbd14399421f409a9db0b6015487f749af0a685d80a89390ee1f6cb535580861bbd61ba0d6ccaa9f0ec51669610b1ca247cad1b124e0e3a240ee2419a"
+RPM_NAME = "liblur3-0.18-2.5.aarch64.rpm"
+RPM_HASH = "d4639002fecd11bbeb46bef7de1be2f653fd1d19d063a24b4ec3c57aaf5521870f18bb2ced52b0b17d932814775c2eca13e4691f20d64201f41fc153fbfd582f"
 
 RPROVIDES:${PN} += "liblur.so.3 \
 liblur3"

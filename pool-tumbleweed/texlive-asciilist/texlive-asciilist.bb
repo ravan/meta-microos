@@ -8,10 +8,10 @@ provides macros for configuring the use of the list \
 environments and the appearance of the typeset results."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2bsvn49060"
+PV = "2026.226.2.2bsvn77682"
 
-RPM_NAME = "texlive-asciilist-2023.209.2.2bsvn49060-54.1.noarch.rpm"
-RPM_HASH = "312d7e2c7bc678611266fb222ef6206bcbb541371c93afed6aa8f70529b6fe491f865282599dd27dbd570a8a3dd8bdb8a335bf58566e730beb1aada60b3533a0"
+RPM_NAME = "texlive-asciilist-2026.226.2.2bsvn77682-60.2.noarch.rpm"
+RPM_HASH = "c2255ce849e237dbe12448a97e5fb70a37d59a312d5b7edef41f6da4df8a6d323dbd2906c4d483f3fc7e1fe82fbe902cde1958107b2889595ca9abdbba97f010"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asciilist.sty \

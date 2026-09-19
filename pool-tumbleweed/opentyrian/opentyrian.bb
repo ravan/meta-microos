@@ -9,10 +9,10 @@ in 20,031 where you play as Trent Hawkins, a skilled fighter-pilot employed \
 to fight Microsol and save the galaxy."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.1.20221123"
+PV = "2.1.20260913"
 
-RPM_NAME = "opentyrian-2.1.20221123-1.4.aarch64.rpm"
-RPM_HASH = "2bbbd0b96ff63a7be4ca83e630e89b669f194c693e89d29a2b914302e25d7b42e2c5e92076ec0f71c27e6971a8562efd8333f4411afce57a0d0be30ca87ceaa6"
+RPM_NAME = "opentyrian-2.1.20260913-1.1.aarch64.rpm"
+RPM_HASH = "06c171f20866a933c41c75efcead86dd989486bcda375cd2d33d646d605214e27a728f6070ce381b70e2d316795bcbe8b4386cc49f9b1fcc61b3c5eede37b0cc"
 
 RPROVIDES:${PN} += "opentyrian"
 

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Hebrew Translations"
 DESCRIPTION = "YaST2 - Translations for Hebrew."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-he-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "98ed97cefda24c056ac55f533f997a240437ab64fd1ca3bb5c0289dc5586cff74b846de81cf398b29c6ecd39767c9453209180dbccdf82eec9c4b4468ed788bf"
+RPM_NAME = "yast2-trans-he-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "f3d768960965904032463b9aa579d8b8ecfc6af75a13b34206489a52520c045d8ebb5c8e9d43abc4ed4f4bf0142abe9cec0861b372ac0fb1ad3c43fb022a7e2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-he \

@@ -6,10 +6,10 @@ or filtrations (calligraphic). It requires LaTeX2e and the \
 amsfonts package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-proba-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "eb5486c8b93a575ffbd87cfdba7564fccfc70e8a7386404b4d1bf9934400e696ed5c37285f06c5bc66b32564474d965ce88f3f79765bc60e0e6d4fc46d706ff6"
+RPM_NAME = "texlive-proba-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "e3ce9665554900567b358e712e289a77f7dc0df0ba98863af14a78676adcbaf077af08489330fb502b20ee9742762718ac45a0fb9c2f3de6e8f6383d3272c8a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-proba.sty \

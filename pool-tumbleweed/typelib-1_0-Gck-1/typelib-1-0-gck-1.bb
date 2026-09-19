@@ -5,16 +5,17 @@ DESCRIPTION = "GCK is a library for accessing PKCS#11 modules like smart cards, 
 This package provides the GObject Introspection bindings for GCK."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.41.0"
+PV = "3.41.2"
 
-RPM_NAME = "typelib-1_0-Gck-1-3.41.0-3.4.aarch64.rpm"
-RPM_HASH = "97b7a090bc89858261f7720639f0f2cf8a06fa3f0ea6d904f313602a8e2fe88dccfebaa337367b90205c3e54632376005af5c6b303014c38d8dd4612e277c1ee"
+RPM_NAME = "typelib-1_0-Gck-1-3.41.2-5.4.aarch64.rpm"
+RPM_HASH = "9b12d57e6cf81c68346146350d22de1d449ccc6a1c75a6fd782f7ef669cd53114d09ccdb6d8e841ba8cfca55de7525ccd047084e5f1715f1102d177fc868cca7"
 
 RPROVIDES:${PN} += "typelib-1-0-Gck-1 \
 typelib-Gck"
 
 RDEPENDS:${PN} += "libgck-1.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

@@ -1,11 +1,11 @@
 SUMMARY = "An LDAP Client for GTK"
 DESCRIPTION = "An LDAP client for GTK."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.3"
 
-RPM_NAME = "gq-1.2.3-92.20.aarch64.rpm"
-RPM_HASH = "2243f1f8f981f41641f6ad72bedb798bdf84d18f88e0a69209f9e0f7490eae3c4460207cd0edef0a5c0e6db9030cb34317ce1643c05ab1e1f362e85f6a66ea43"
+RPM_NAME = "gq-1.2.3-94.8.aarch64.rpm"
+RPM_HASH = "9002442a6758ced4c613d3fac9c0638a951965ae67d86885090bab7ec4df7a94fb8ec489b2636bd051bf92f9b426c19d2db2eb8416d791f7cfdc9c88f0bdead9"
 
 RPROVIDES:${PN} += "gq"
 
@@ -23,6 +23,6 @@ libgtk-x11-2.0.so.0 \
 liblber.so.2 \
 libldap.so.2 \
 libpango-1.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

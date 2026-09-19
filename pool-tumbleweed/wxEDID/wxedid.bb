@@ -8,18 +8,18 @@ export and import EDID data to/from text files (hex ASCII format) and also to \
 save the structures as a human-readable text."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.0.29"
+PV = "0.0.33"
 
-RPM_NAME = "wxEDID-0.0.29-1.2.aarch64.rpm"
-RPM_HASH = "15e0f7de8509bd18ba126d9b28151474876870eaaf0a6747360ebca6042f4afd5c7790ef682550fc3338f51dced5b78e90cdf34f2bfc915653b430b76423a3de"
+RPM_NAME = "wxEDID-0.0.33-1.4.aarch64.rpm"
+RPM_HASH = "b0b45c2a6f891e3f647e9e1a73549e6c130bd916ab0136eedd1da606fb8f620ea5293d92a690a53f2f5fffebfcdbe0444aacde592153dcd5764730b940827a2a"
 
 RPROVIDES:${PN} += "wxEDID"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk2u-aui-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0"
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk2u-aui-suse.so.16.0.0 \
+libwx-gtk2u-core-suse.so.16.0.0"
 
 inherit rpm

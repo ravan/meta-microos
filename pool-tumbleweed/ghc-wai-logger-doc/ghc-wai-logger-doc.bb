@@ -2,10 +2,10 @@ SUMMARY = "Haskell wai-logger library documentation"
 DESCRIPTION = "This package provides the Haskell wai-logger library documentation."
 LICENSE = "MIT"
 
-PV = "2.4.0"
+PV = "2.5.0"
 
-RPM_NAME = "ghc-wai-logger-doc-2.4.0-2.9.noarch.rpm"
-RPM_HASH = "2e3e14b5175aeb55ff7933110fe5350ec94a640028d045e5f39d2e9169a3b4ba6b1fe8f8d28e9390bb4374b98399e4c8c886d0448014401434b4fc5d0a1d5072"
+RPM_NAME = "ghc-wai-logger-doc-2.5.0-1.23.noarch.rpm"
+RPM_HASH = "85fb0742ad3313c33cd618e1cc068b0fe310bdccdb577dd327f790ab2d37c26f0a4c4f435abd44488d483482a4fc58fae2dcaf82f197c2508da33bc6852dd97f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-wai-logger-doc"

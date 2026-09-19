@@ -3,10 +3,10 @@ DESCRIPTION = "This is a Maven 3 plugin to generate Lexer code in Java from \
 a Lexer specification, using JFlex."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.8.2"
+PV = "1.9.1"
 
-RPM_NAME = "jflex-maven-plugin-1.8.2-1.8.noarch.rpm"
-RPM_HASH = "b9ce50d53cb6ae69b237cf4acda1029542e343586d82a5a69aa84ac3b3fd6ac8a6bc4f575ccf907c3b15acfa3f5c5b444eb7b7a8d72a9fac61125968f0a958a9"
+RPM_NAME = "jflex-maven-plugin-1.9.1-1.5.noarch.rpm"
+RPM_HASH = "2686c78e6a08a2446b9801a70f731862c7511087f58bef99cb14a13bedc712b02f700ed124f094dade55c9614a8a20852ba0f7d0dc77aee343a176c8bb1d3deb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jflex-maven-plugin \
@@ -17,8 +17,6 @@ RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-com.google.code.findbugs-jsr305 \
 mvn-com.google.guava-guava \
-mvn-de.jflex-jflex \
-mvn-org.apache.maven-maven-core \
-mvn-org.apache.maven-maven-plugin-api"
+mvn-de.jflex-jflex"
 
 inherit rpm

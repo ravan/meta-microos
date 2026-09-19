@@ -2,10 +2,10 @@ SUMMARY = "Translations for package diffutils"
 DESCRIPTION = "Provides translations for the 'diffutils' package."
 LICENSE = "GFDL-1.2-only & GPL-3.0-or-later"
 
-PV = "3.10"
+PV = "3.12"
 
-RPM_NAME = "diffutils-lang-3.10-1.2.noarch.rpm"
-RPM_HASH = "26f4e12882b239a76b7125b3bfbbf6b9ce8fcb5f9c568278f0f983b3542d236d96d2a63ec12fa73eeebb50f5d8e4e597f5f75274a4aaccfac7981e7ff9777533"
+RPM_NAME = "diffutils-lang-3.12-1.6.noarch.rpm"
+RPM_HASH = "76a884a9ce2403dab5e383ea4be0ca3e9ee5e315cd30b18b230ce57b6221e95ff96ddf88d0505e58d4cf1d9dd853c1c090de04bfff9ebdc8870b20475051551e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diffutils-lang \

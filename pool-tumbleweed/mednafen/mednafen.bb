@@ -18,15 +18,15 @@ SNK: Neo Geo Poket (Color). \
 Bandai: Wonderswan (Color)."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.31.0"
+PV = "1.32.1"
 
-RPM_NAME = "mednafen-1.31.0-1.5.aarch64.rpm"
-RPM_HASH = "d33228137d7e1150bd803476ec297a449a53c18c7920e77659a691c4b62ce08fc8c69e3479e427c32123157cd2d6c4e160e4a465855d5f693d20fd445f23fadd"
+RPM_NAME = "mednafen-1.32.1-1.12.aarch64.rpm"
+RPM_HASH = "d41a7ae5efcc02157a8704c48451ad390b97451c23a3f8f1a79814813f01f1fb7bad3fbcad61bf3e410dca3546ab4ce6e66d8bb0959696960be46deba1d5c84a"
 
 RPROVIDES:${PN} += "mednafen"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libSDL2-2.0.so.0 \
 libasound.so.2 \
 libc.so.6 \

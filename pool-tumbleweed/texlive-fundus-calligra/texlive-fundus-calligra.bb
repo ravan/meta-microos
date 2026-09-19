@@ -3,10 +3,10 @@ DESCRIPTION = "The package offers support for the calligra handwriting font, \
 in LaTeX documents. The package is part of the fundus bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn26018"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-fundus-calligra-2023.209.1.2svn26018-53.1.noarch.rpm"
-RPM_HASH = "66a72c4c451f3489f1e334b1ead74fc3e3485534d1a70ae3d665e61ab621c453b0b4003936f030e3eb7cfbd6e5d3483a61bfb82f7d0edce3815cc3cd7aaf8657"
+RPM_NAME = "texlive-fundus-calligra-2026.226.1.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "0cabf3487088818890770950c2b00c2abe88008859f24242b0ac744b337939952c53d868a9c3e58ace54ff61623e01712be864bcea6e057c8238d17058cd0c21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-calligra.sty \

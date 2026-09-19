@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cmsd"
 DESCRIPTION = "This package includes the documentation for texlive-cmsd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn18787"
+PV = "2026.226.svn18787"
 
-RPM_NAME = "texlive-cmsd-doc-2023.209.svn18787-54.1.noarch.rpm"
-RPM_HASH = "86964c132cea7faa00b061f3ed8c632e4e2ef07a2dc36483f2b7ca995f12e4dfafca97bda5ffa9fd61efb1ee728a33daa5c43525343518083b36b6e89fe92d26"
+RPM_NAME = "texlive-cmsd-doc-2026.226.svn18787-60.2.noarch.rpm"
+RPM_HASH = "b5b744d615a47a0c6c8f0afa03088dd91f58ed04e125aefd6b52810010beda6802f5735e33656b5fd05a715cc97aef6c8b253aaa93aa4e624bd87b8277a4125e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmsd-doc"

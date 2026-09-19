@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.6"
 
-RPM_NAME = "tcpd-7.6-895.4.aarch64.rpm"
-RPM_HASH = "859adc8295b81fadd032f14205bc40a7694001a8f7615eb98de229b41ba5e63948db949bd38c33576e3d66ae5af22ac8df9b97d48b0d23c42c26a7d100dbd028"
+RPM_NAME = "tcpd-7.6-901.6.aarch64.rpm"
+RPM_HASH = "070386fc017609df616883e4ecbdbbd761c877a58809ed4e3d5984d114f39d7e3c77cc91676f0ca777e2cc829cc57b5d03adc712f05408854c3497f0de70cb7b"
 
 RPROVIDES:${PN} += "nkitb-/usr/sbin/tcpd \
 tcpd"

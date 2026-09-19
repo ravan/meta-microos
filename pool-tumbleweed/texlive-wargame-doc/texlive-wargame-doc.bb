@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-wargame"
 DESCRIPTION = "This package includes the documentation for texlive-wargame"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.2svn64797"
+PV = "2026.226.0.0.8svn72903"
 
-RPM_NAME = "texlive-wargame-doc-2023.209.0.0.3.2svn64797-54.1.noarch.rpm"
-RPM_HASH = "69d06dcee28fc03a1234b84bdac5af365c5771c1b90ebd2ec12865ce699abf7f548878f2266209838603f0322e56e7529b67afbfe1bacf3a3af0774e14004f97"
+RPM_NAME = "texlive-wargame-doc-2026.226.0.0.8svn72903-60.2.noarch.rpm"
+RPM_HASH = "5b275d85e5a8d02292e6355acf3df1773ee3b1c9ec80eef63860b7fa2f0c8d40f5e7f5c47010679a647f05c13e61b2111448ec521bb95b35510de0901fc2c6b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wargame-doc"

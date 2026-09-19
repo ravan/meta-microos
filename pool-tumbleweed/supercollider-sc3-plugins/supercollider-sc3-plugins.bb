@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.13.0"
 
-RPM_NAME = "supercollider-sc3-plugins-3.13.0-2.1.aarch64.rpm"
-RPM_HASH = "78694ff3aaf75ac5adeaf7e8717d20c007305dee731a12d6881f1ba6b7cbec59f4ed80c210ac39bdb5ff65b8a2e671f5021768ca726469d0764e44c70f9f392d"
+RPM_NAME = "supercollider-sc3-plugins-3.13.0-3.3.aarch64.rpm"
+RPM_HASH = "289df34502348b6873cec94071b27481595eab63b1e7af8c0b423f911de1faff5e403f33dee965b5afa1ccdf326364e01ab83c922f004e59b09745b17bf6e502"
 
 RPROVIDES:${PN} += "supercollider-sc3-plugins"
 

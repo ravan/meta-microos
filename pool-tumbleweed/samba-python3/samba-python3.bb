@@ -3,95 +3,91 @@ DESCRIPTION = "The samba-python3 package contains the Python libraries needed by
 that use SMB, RPC and other Samba provided protocols in Python3 programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "samba-python3-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "1d4455702d6d9da9dd012bca3f2d9b357513bc439c393196b4b41bee2aaa06f1320a99de21d8ea19290d37b7d3c2d764bdb164dd43bce460f7ae5a63e5bf7359"
+RPM_NAME = "samba-python3-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "f20f06551d147ef393f709d323141c2cb7477db9a6442ad7ebe387aab9e129b3ca92dc01cc456ead5206758efedc2cd30fa2c98469ed271804fa2a45ef7579b4"
 
 RPROVIDES:${PN} += "samba-python3"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libMESSAGING-SEND-samba4.so \
-libMESSAGING-samba4.so \
-libaddns-samba4.so \
-libads-samba4.so \
-libauth-unix-token-samba4.so \
-libauth4-samba4.so \
-libauthkrb5-samba4.so \
+libMESSAGING-SEND-private-samba.so \
+libMESSAGING-private-samba.so \
+libaddns-private-samba.so \
+libads-private-samba.so \
+libauth-unix-token-private-samba.so \
+libauth4-private-samba.so \
+libauthkrb5-private-samba.so \
 libc.so.6 \
-libcli-ldap-samba4.so \
-libcli-nbt-samba4.so \
-libcli-smb-common-samba4.so \
-libcliauth-samba4.so \
-libcluster-samba4.so \
-libcmdline-contexts-samba4.so \
-libcmdline-samba4.so \
-libcom-err.so.2 \
-libcommon-auth-samba4.so \
-libdb-glue-samba4.so \
-libdbwrap-samba4.so \
+libcli-nbt-private-samba.so \
+libcli-smb-common-private-samba.so \
+libcliauth-private-samba.so \
+libcluster-private-samba.so \
+libcmdline-contexts-private-samba.so \
+libcmdline-private-samba.so \
+libcommon-auth-private-samba.so \
+libdb-glue-private-samba.so \
+libdbwrap-private-samba.so \
 libdcerpc-binding.so.0 \
-libdcerpc-samba-samba4.so \
-libdcerpc-samba4.so \
+libdcerpc-samba-private-samba.so \
+libdcerpc-samba4-private-samba.so \
 libdcerpc.so.0 \
-libdnsserver-common-samba4.so \
-libdsdb-garbage-collect-tombstones-samba4.so \
-libevents-samba4.so \
-libflag-mapping-samba4.so \
-libgenrand-samba4.so \
-libgensec-samba4.so \
+libdnsserver-common-private-samba.so \
+libdsdb-garbage-collect-tombstones-private-samba.so \
+libevents-private-samba.so \
+libflag-mapping-private-samba.so \
+libgenrand-private-samba.so \
+libgensec-private-samba.so \
 libgnutls.so.30 \
-libgpo-samba4.so \
-libgse-samba4.so \
-libgssapi-krb5.so.2 \
+libgpo-private-samba.so \
+libgse-private-samba.so \
 libkrb5.so.3 \
-libkrb5samba-samba4.so \
+libkrb5samba-private-samba.so \
 libldb.so.2 \
-libldbsamba-samba4.so \
-liblibcli-lsa3-samba4.so \
-liblibcli-netlogon3-samba4.so \
-liblibsmb-samba4.so \
-libmsrpc3-samba4.so \
+libldbsamba-private-samba.so \
+liblibcli-lsa3-private-samba.so \
+liblibcli-netlogon3-private-samba.so \
+liblibsmb-private-samba.so \
+libmsrpc3-private-samba.so \
 libndr-krb5pac.so.0 \
 libndr-nbt.so.0 \
-libndr-samba-samba4.so \
-libndr-samba4.so \
+libndr-samba-private-samba.so \
+libndr-samba4-private-samba.so \
 libndr-standard.so.0 \
-libndr.so.3 \
-libnetif-samba4.so \
-libposix-eadb-samba4.so \
-libpyldb-util.cpython-311-aarch64-linux-gnu.so.2 \
-libpytalloc-util.cpython-311-aarch64-linux-gnu.so.2 \
-libpython3.11.so.1.0 \
-libregistry-samba4.so \
-libreplace-samba4.so \
+libndr.so.6 \
+libnetif-private-samba.so \
+libposix-eadb-private-samba.so \
+libpyldb-util.cpython-313-aarch64-linux-gnu-private-samba.so \
+libpytalloc-util.cpython-313-aarch64-linux-gnu.so.2 \
+libpython3.13.so.1.0 \
+libregistry-private-samba.so \
 libsamba-credentials.so.1 \
-libsamba-debug-samba4.so \
+libsamba-debug-private-samba.so \
 libsamba-errors.so.1 \
 libsamba-hostconfig.so.0 \
-libsamba-net.cpython-311-aarch64-linux-gnu-samba4.so \
+libsamba-net-join.cpython-313-aarch64-linux-gnu-private-samba.so \
+libsamba-net-private-samba.so \
 libsamba-passdb.so.0 \
-libsamba-policy.cpython-311-aarch64-linux-gnu.so.0 \
-libsamba-policy0-python3 \
-libsamba-python.cpython-311-aarch64-linux-gnu-samba4.so \
-libsamba-security-samba4.so \
+libsamba-policy.so.0 \
+libsamba-python.cpython-313-aarch64-linux-gnu-private-samba.so \
+libsamba-security-private-samba.so \
 libsamba-util.so.0 \
-libsamba3-util-samba4.so \
-libsamdb-common-samba4.so \
+libsamba3-util-private-samba.so \
+libsamdb-common-private-samba.so \
 libsamdb.so.0 \
-libscavenge-dns-records-samba4.so \
-libsecrets3-samba4.so \
-libserver-role-samba4.so \
+libscavenge-dns-records-private-samba.so \
+libsecrets3-private-samba.so \
+libserver-role-private-samba.so \
 libsmbconf.so.0 \
-libsmbd-base-samba4.so \
-libstable-sort-samba4.so \
+libsmbd-base-private-samba.so \
+libstable-sort-private-samba.so \
 libtalloc.so.2 \
-libtdb-wrap-samba4.so \
+libtdb-wrap-private-samba.so \
 libtevent-util.so.0 \
 libtevent.so.0 \
-libtrusts-util-samba4.so \
-libutil-reg-samba4.so \
-libxattr-tdb-samba4.so \
+libutil-crypt-private-samba.so \
+libutil-reg-private-samba.so \
+libxattr-tdb-private-samba.so \
 python-abi \
 python3-ldb \
 python3-talloc \

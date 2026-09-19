@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dnaseq"
 DESCRIPTION = "This package includes the documentation for texlive-dnaseq"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn17194"
+PV = "2026.226.0.0.01svn17194"
 
-RPM_NAME = "texlive-dnaseq-doc-2023.209.0.0.01svn17194-53.1.noarch.rpm"
-RPM_HASH = "69ae97e5bb8a6a0e601a2d5bcad7af660b20cc0444a0e8cf50655a53c9cb2469a8cdb2dbdf8daebc92e667f4fcb4e1f8ef0930c0ea8191de8921d41dca282935"
+RPM_NAME = "texlive-dnaseq-doc-2026.226.0.0.01svn17194-59.2.noarch.rpm"
+RPM_HASH = "6a046d76c818e860cff320db1b72e96b115e1b788c0da2a82c18aa9ba5b643670e99f67bb3f5aed74b764af93f0e44aba7ae33ad7216921c13677131e8ebc261"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dnaseq-doc"

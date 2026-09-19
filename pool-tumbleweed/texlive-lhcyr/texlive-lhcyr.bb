@@ -1,5 +1,5 @@
 SUMMARY = "A non-standard Cyrillic input scheme"
-DESCRIPTION = "A collection of three LaTeX 2e styles intended for typesetting \
+DESCRIPTION = "A collection of three LaTeX2e styles intended for typesetting \
 Russian and bilingual English-Russian documents, using the lh \
 fonts and without the benefit of babel's language-switching \
 mechanisms. The packages (lhcyralt and lhcyrwin for use under \
@@ -10,14 +10,47 @@ inputenc would do the job, for output via fontenc to one of the \
 T2 series of font encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn31795"
+PV = "2026.226.svn77838"
 
-RPM_NAME = "texlive-lhcyr-2023.209.svn31795-55.1.noarch.rpm"
-RPM_HASH = "159bb518e584ac728163de723642e87ad29c51c0f257317863804343e8791e253bc0b4cc6310e86cecb98af77dfb267da75f14aab6f36dedc6c5ade2a0e12022"
+RPM_NAME = "texlive-lhcyr-2026.226.svn77838-61.2.noarch.rpm"
+RPM_HASH = "ecf2526a76997164bb6596c8228030137022999c8db0c8c0ee012393bc3fd4bf36533dcae5bb0ccb08a2c35c1be0b84218df66577a46e9826d3a7369092eb8d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-karabas.tex \
 tex-kniga.tex \
+tex-labx0700.tfm \
+tex-labx0900.tfm \
+tex-labx1000.tfm \
+tex-lacc1000.tfm \
+tex-larm0700.tfm \
+tex-larm0900.tfm \
+tex-larm1000.tfm \
+tex-lasl0900.tfm \
+tex-lasl1000.tfm \
+tex-lass1000.tfm \
+tex-lasx1000.tfm \
+tex-lati0900.tfm \
+tex-lati1000.tfm \
+tex-latt0800.tfm \
+tex-latt0900.tfm \
+tex-latt1000.tfm \
+tex-lbbi1440.tfm \
+tex-lbbx0500.tfm \
+tex-lbbx0700.tfm \
+tex-lbbx0800.tfm \
+tex-lbbx1000.tfm \
+tex-lbbx1440.tfm \
+tex-lbcc0800.tfm \
+tex-lbcc1000.tfm \
+tex-lbrm0500.tfm \
+tex-lbrm0600.tfm \
+tex-lbrm0700.tfm \
+tex-lbrm0800.tfm \
+tex-lbrm1000.tfm \
+tex-lbti0500.tfm \
+tex-lbti0700.tfm \
+tex-lbti1000.tfm \
+tex-lbtt1000.tfm \
 tex-lhcyralt-hyphen.cfg \
 tex-lhcyralt-rhyphen.tex \
 tex-lhcyralt.sty \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "20080123"
 
-RPM_NAME = "gnu-unifont-legacy-bitmap-fonts-20080123-1.17.noarch.rpm"
-RPM_HASH = "a471a8559af0d3caa7168a9440d42fbcc8e21696fdecd2d82e5e2d212446c8055a0d22011e6a711bd3c9eda80a1e51c49f12426f7e611369f5d71f761f9ae7d3"
+RPM_NAME = "gnu-unifont-legacy-bitmap-fonts-20080123-1.25.noarch.rpm"
+RPM_HASH = "05f4265a9b4fefd350e835b6495f6450b544c33d4ec6e69d432d97399f0165379f7b32f5b320e3980237fb8c3994f09753233e8bb2a2b36b3a299d7e2fc98148"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-unifont \

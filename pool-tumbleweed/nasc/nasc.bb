@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.5.4"
 
-RPM_NAME = "nasc-0.5.4-2.19.aarch64.rpm"
-RPM_HASH = "c79dc4dabd7b89de516899898027bb4719f9b83f948a1be0e81d23c2b31e83c090b64f7687dfdd845f1199ee6e8f305d6f91e1a64b509da7c375237e2381cd03"
+RPM_NAME = "nasc-0.5.4-3.8.aarch64.rpm"
+RPM_HASH = "47399827f88abb03dba8b16a9902919a370d60d3d39cb4a94d32e0f278cb5d9dfe28218f168dd4b65868e2ff1cd40adbce94394b9c5d42b67e562cf34f0ccb42"
 
 RPROVIDES:${PN} += "nasc"
 
@@ -27,7 +27,7 @@ libgranite.so.6 \
 libgtk-3.so.0 \
 libgtksourceview-3.0.so.1 \
 libpango-1.0.so.0 \
-libqalculate.so.22 \
+libqalculate.so.23 \
 libsoup-2.4.so.1 \
 libstdc++.so.6 \
 qalculate"

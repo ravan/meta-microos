@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ehhline"
 DESCRIPTION = "This package includes the documentation for texlive-ehhline"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn54676"
+PV = "2026.226.1.1svn54676"
 
-RPM_NAME = "texlive-ehhline-doc-2023.209.1.1svn54676-54.2.noarch.rpm"
-RPM_HASH = "ef048ead45fe93823e3f0c41e5cffd1221dc32461d1676898c78320dfa25c40dbd0d163a091d8f122a10206db2df4818a952d24be3429a0f506d4f07c6dcdc3f"
+RPM_NAME = "texlive-ehhline-doc-2026.226.1.1svn54676-61.4.noarch.rpm"
+RPM_HASH = "ddce537edecaae77da35602ed51c2d8c29c14217b41362105c5d511bb677a4d25ba274831a7a35938658d551f2d81f96a200e4b3b305ea355ef4bdccc1d6deb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ehhline-doc"

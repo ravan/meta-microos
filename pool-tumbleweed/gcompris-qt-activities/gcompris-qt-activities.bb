@@ -1,12 +1,12 @@
 SUMMARY = "Activity files for gcompris-qt"
 DESCRIPTION = "This package contains the bundle of activities for gcompris-qt. \
 More than 100 activities are available."
-LICENSE = "AGPL-3.0-or-later"
+LICENSE = "AGPL-3.0-or-later & CC-BY-4.0 & Apache-2.0 & MPL-2.0 & OFL-1.1 & GFDL-1.2-or-later & MIT & CC0-1.0 & BSD-2-Clause & BSD-3-Clause"
 
-PV = "3.3"
+PV = "26.1"
 
-RPM_NAME = "gcompris-qt-activities-3.3-1.1.noarch.rpm"
-RPM_HASH = "66df07f51d3f6d6372d0f07cbbe5a83fe30a69d1bb16de0278bd807e67068f2b7ca7b381836ca1dfbbb1f305b6bbc8ebcc70ff758ba9c5849a7e04d3d3889d41"
+RPM_NAME = "gcompris-qt-activities-26.1-1.2.noarch.rpm"
+RPM_HASH = "369aed0df9366656baf13b61cde562fb9dcca4be0bda1fe888ccf8e60054bf337b09e44368e6e819a37213118f2e6f4c94c739ef5a4fa17b60c64bc4fec38443"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcompris-qt-activities"

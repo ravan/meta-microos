@@ -8,10 +8,10 @@ GEL (Genius Extenseion Language) is the name of its extension language. \
 Many of the standard genius functions are written in GEL itself."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.0.27"
+PV = "1.0.29"
 
-RPM_NAME = "genius-1.0.27-1.10.aarch64.rpm"
-RPM_HASH = "ff46cf8c57ed6efe7c0d9276aadc11a7847371ca1006627aaec6a5cffcb87ad159de59865b6f86931f0b419c43bf63b4a7de9c9c6c5368acdd803f0626def8c6"
+RPM_NAME = "genius-1.0.29-2.3.aarch64.rpm"
+RPM_HASH = "46f65e8094fac0462eaad4602525c92df89073fb5f54d95622290ae762fa0dcabc9ae49420550dd8a8760837f8e6c0d9c66a42417602c219f9615447c93b46a6"
 
 RPROVIDES:${PN} += "genius"
 

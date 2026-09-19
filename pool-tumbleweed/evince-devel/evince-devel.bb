@@ -5,10 +5,10 @@ document formats like PDF and PostScript. \
 This package contains the header files for building additional plugins."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "48.4"
 
-RPM_NAME = "evince-devel-44.3-1.1.aarch64.rpm"
-RPM_HASH = "594f1231b4b56937031162f5e33d88cd0591446070a0b2e2497e9204e70fe21187dc9625f62cca613ae993d47c7e5633798c5b34e58b0916ba65e6bce51758f3"
+RPM_NAME = "evince-devel-48.4-2.1.aarch64.rpm"
+RPM_HASH = "e6a957a9dbf041d2ecdfa10a9d2fb34da04868e216cf2798c1dab3353ef38ff2925ef13f2d09960bb07b3e248bdc8e1f77a1ebc211bfc4920d9edbae6aac8d57"
 
 RPROVIDES:${PN} += "evince-devel \
 pkgconfig-evince-document-3.0 \

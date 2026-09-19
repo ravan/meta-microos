@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamerthemelalic"
 DESCRIPTION = "This package includes the documentation for texlive-beamerthemelalic"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0svn58777"
+PV = "2026.226.1.0svn58777"
 
-RPM_NAME = "texlive-beamerthemelalic-doc-2023.209.1.0svn58777-54.1.noarch.rpm"
-RPM_HASH = "fdc1c3444a3348bd731b881a12ac1659ca1a913e67b43b70540a90ea25a1168a65cbad4a14ac036c8ad08dd0dba89279890cbb9e3bcfc68103f28067e2cc3d7b"
+RPM_NAME = "texlive-beamerthemelalic-doc-2026.226.1.0svn58777-61.2.noarch.rpm"
+RPM_HASH = "1836151907833366a53638d737c2d07df538c05e54ab359adeaa7060f18ce63428dc4ae8e85279eca691886bac0af69fb3827b4493a78c1c83574ead64aae3be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamerthemelalic-doc"

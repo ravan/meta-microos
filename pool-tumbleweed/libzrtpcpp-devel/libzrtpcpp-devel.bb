@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.7.0"
 
-RPM_NAME = "libzrtpcpp-devel-4.7.0-1.12.aarch64.rpm"
-RPM_HASH = "60195b6ba8611a2899217e07e0def1cbe990651a0446a4859a09186c023296b33d792f831779dfc5efd3772a3707bbe06bdc94a0ef6425dccf6adcbbb8be7488"
+RPM_NAME = "libzrtpcpp-devel-4.7.0-3.4.aarch64.rpm"
+RPM_HASH = "f864d90f71ede4bf5069cf01dcc9dded8b594a3d8e62d4deeeae1686880054f8015247c9da24b4ce5c7a34d5fedb51f4f484258f77fcad7ad938c71c210a0db2"
 
 RPROVIDES:${PN} += "libzrtpcpp-devel \
 pkgconfig-libzrtpcpp"

@@ -8,10 +8,10 @@ longer idle period, or on demand. \
 This packages contains a selection of graphics demos."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "6.06"
+PV = "6.15"
 
-RPM_NAME = "xscreensaver-data-6.06-4.4.aarch64.rpm"
-RPM_HASH = "bff7f99a0962a446bfb9ad2ad7a46765cfda2134b303fa08f9202241a8849784a62b7a2c935ec693bd1f57f768fce094b19e6ed2388fe1ec106e48d501b60a4f"
+RPM_NAME = "xscreensaver-data-6.15-3.3.aarch64.rpm"
+RPM_HASH = "5c3626c9600fe7564d0f94ef87250ceaa34c14b567925e00af8cec06c3df2901eadf57d48844c81ac667d3bbbaae6b5ec4a5a6a6ac49150e27c876103dfa2cc8"
 
 RPROVIDES:${PN} += "config-xscreensaver-data \
 xscreensaver-data"
@@ -25,6 +25,7 @@ libXext.so.6 \
 libXft.so.2 \
 libXt.so.6 \
 libc.so.6 \
+libfontconfig.so.1 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libgobject-2.0.so.0 \

@@ -8,10 +8,10 @@ format. LaTeX support, for using these fonts in mathematics, is \
 available via one of the packages calrsfs and mathrsfs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-rsfs-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "8fa413406853d0417bd9b39a9b402f4f17310eeac2e74388a32b84d7b659eedafaa24ccb2f88c79ca57cb820974aef5e0c8fd9dba62ed36797ab3d705d7daf4e"
+RPM_NAME = "texlive-rsfs-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "46fe598fc4087394f954f27c27967732e20e7a92308dba880c6de2f9d56ece205b2aba60fa43bca381ba1c4421c54c3c043eca491d40240d9159245d44d01918"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rsfs.map \

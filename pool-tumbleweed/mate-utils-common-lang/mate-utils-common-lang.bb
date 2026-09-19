@@ -2,10 +2,10 @@ SUMMARY = "Languages for MATE utilities"
 DESCRIPTION = "Provides common translations shared by Caja extensions"
 LICENSE = "GFDL-1.1-only & GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-utils-common-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "fee47077b76a0ae5337d5deeb0154e94ebd8ed0b0582873323eab5363f2c96a6fb045e02330564af936fe9fbfb6d2e8cb52d9694a9fa181e66fc229437ffdb4d"
+RPM_NAME = "mate-utils-common-lang-1.28.0-2.6.noarch.rpm"
+RPM_HASH = "f497c9c8f80add42fce4eba24fa481a6f26669f862b60575480e0f7658415e5c23c913c9746a88e2988eb06657ec8712328c47921073911f807bb12d3acbce97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-utils-common-af \
@@ -30,7 +30,6 @@ locale-mate-utils-common-el \
 locale-mate-utils-common-en-AU \
 locale-mate-utils-common-en-CA \
 locale-mate-utils-common-en-GB \
-locale-mate-utils-common-en-US \
 locale-mate-utils-common-eo \
 locale-mate-utils-common-es \
 locale-mate-utils-common-es-AR \

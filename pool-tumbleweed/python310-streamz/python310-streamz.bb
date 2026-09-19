@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.4"
 
-RPM_NAME = "python310-streamz-0.6.4-2.5.noarch.rpm"
-RPM_HASH = "3d774f0116ed0700432d64498389cc381b320bdc8c906b75273c623177a795f694f0227c86c5028bcea3072c511cbeb48f2d06062b589be4139a47ef43d403e4"
+RPM_NAME = "python310-streamz-0.6.4-3.2.noarch.rpm"
+RPM_HASH = "33df554a6c96f3706a9348c50c50c0070975770752ecc8ee10b6f1cc07ca5c1014baf386a8ab3da82e8649a2e9cf512cae836473c3b9bd18477da92f9c999c79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-streamz \

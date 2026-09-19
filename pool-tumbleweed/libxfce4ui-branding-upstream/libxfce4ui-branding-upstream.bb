@@ -2,10 +2,10 @@ SUMMARY = "Upstream Branding of libxfce4ui"
 DESCRIPTION = "This package provides the upstream look and feel for libxfce4ui."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.4"
+PV = "4.20.2"
 
-RPM_NAME = "libxfce4ui-branding-upstream-4.18.4-1.1.noarch.rpm"
-RPM_HASH = "2d148ea7105dc11df64935aae2b4621890029cd60aab7de811312514252f1af0e3cfc0d91634814443b5a0f6b25c576d8c37418e9f38e26bb41a253870979bde"
+RPM_NAME = "libxfce4ui-branding-upstream-4.20.2-1.5.noarch.rpm"
+RPM_HASH = "561cf82c9b396727935b4d872039b16f28de543aba594145aa677677f79d200a6f87eda186d27893baf8e2c154f838463dd206030c7e160283e570545d5718c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libxfce4ui-branding-upstream \

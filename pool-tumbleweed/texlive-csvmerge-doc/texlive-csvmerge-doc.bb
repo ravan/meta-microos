@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-csvmerge"
 DESCRIPTION = "This package includes the documentation for texlive-csvmerge"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn51857"
+PV = "2026.226.1.0svn51857"
 
-RPM_NAME = "texlive-csvmerge-doc-2023.209.1.0svn51857-55.1.noarch.rpm"
-RPM_HASH = "4a03ca05bf7de6eaff3dec81f2a3680a67370afce7772dc4ee2e7ecf85d90d387fb0f0bf4e615abee5785f9a4ad84fbc94c8fd02788a6cd7dbf89dbc36431ae6"
+RPM_NAME = "texlive-csvmerge-doc-2026.226.1.0svn51857-61.2.noarch.rpm"
+RPM_HASH = "e88143f1ea05925aecaf427616825da24b4a87220f5ccc6ccf5fc486c233472507652047622c3cf2838308c5bdd093223a24bca86c860370f27d2077fb5258bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-csvmerge-doc"

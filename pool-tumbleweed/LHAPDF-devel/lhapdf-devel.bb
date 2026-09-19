@@ -6,10 +6,10 @@ This package provides the header and source files for development with \
 LHAPDF."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.4"
+PV = "6.5.5"
 
-RPM_NAME = "LHAPDF-devel-6.5.4-1.2.aarch64.rpm"
-RPM_HASH = "18d8e40ac9edd08332a5fb0e5d43197535960e74b5d2d4d13ea34d9fb295be4f93c9d6f49b15244da59279a43a4257bdd6c820a4207ff7d7fc3a4d863aef7b0a"
+RPM_NAME = "LHAPDF-devel-6.5.5-1.9.aarch64.rpm"
+RPM_HASH = "a5d88e7208fe7a5886af0a5a4c95f374d1e14f87aa3c1ac59c3b6e9802344679efde6d048efe78dafe274991a45205a60b72479f0832f0a00651ac0da2f5ac7f"
 
 RPROVIDES:${PN} += "LHAPDF-devel \
 pkgconfig-lhapdf"
@@ -17,6 +17,6 @@ pkgconfig-lhapdf"
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
 /usr/bin/python3 \
-libLHAPDF-6-5-4"
+libLHAPDF-6-5-5"
 
 inherit rpm

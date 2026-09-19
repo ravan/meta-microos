@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.5"
 
-RPM_NAME = "libbinio1-1.5-1.3.aarch64.rpm"
-RPM_HASH = "2fecb3e4d001ed1352817abd9756e31090fde27a64d6d634af7256ca6d48eee2cde2111fefa4148aa58af36a835c50cbd2f33ab7dd10ccbbd5b135fd43a9c434"
+RPM_NAME = "libbinio1-1.5-1.14.aarch64.rpm"
+RPM_HASH = "676ac42af6fe03afbad41e45b648aeea24a7dadba0224aedc6e52c5de66eb3fa87597b10976a6318bbb1ba2ed04ad9878dd99d4dd4a13690081c18d07936cc11"
 
 RPROVIDES:${PN} += "libbinio.so.1 \
 libbinio1"

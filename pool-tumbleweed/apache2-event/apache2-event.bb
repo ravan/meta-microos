@@ -6,10 +6,10 @@ is to provide a secure, efficient and extensible server that \
 provides HTTP services in sync with the current HTTP standards."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.57"
+PV = "2.4.67"
 
-RPM_NAME = "apache2-event-2.4.57-2.1.aarch64.rpm"
-RPM_HASH = "0b825c9bc04c5df6947c2761ba795c8f0d8875297c48a825b7e954410fd4910d0e0bfa7f4b653a87f8c98704132a4360fda11df13f8df94ea447d635e1c46b9a"
+RPM_NAME = "apache2-event-2.4.67-1.3.aarch64.rpm"
+RPM_HASH = "e3eb34a647c8fbc59cba50d32abc05d28d43dc16d4edd1156a89694b8d60f5a6cada63acee4e636c05b80f65a7491f6e6d874f55d0aed6ec5f31e9f2f6427958"
 
 RPROVIDES:${PN} += "apache2-MPM \
 apache2-event"
@@ -17,6 +17,7 @@ apache2-event"
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \
+apache2 \
 fillup \
 grep \
 ld-linux-aarch64.so.1 \
@@ -35,9 +36,8 @@ libnghttp2.so.14 \
 libpcre2-8.so.0 \
 libssl.so.3 \
 libsystemd.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
-permissions \
-update-alternatives"
+permissions"
 
 inherit rpm

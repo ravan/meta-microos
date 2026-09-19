@@ -4,10 +4,10 @@ like the desktop folder and the music folder. It also \
 handles localization (i.e. translation) of the filenames."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.18"
+PV = "0.20"
 
-RPM_NAME = "xdg-user-dirs-0.18-2.3.aarch64.rpm"
-RPM_HASH = "e22437c8994a2532ac4222e0bf6158921123b1509a70efcc12bd42c7d42f729b98e5eea4afa377e5b717fb398c08160fef1da48fb50ca6454537f98740b7ce4b"
+RPM_NAME = "xdg-user-dirs-0.20-2.1.aarch64.rpm"
+RPM_HASH = "55fe50232e1cf1f4869034f824ae900d58b1a16d459f3d4bf86e9407907727331ca0491a43d4ab92e1f9a4d70c0603fdffe75fd53eba671fc583f1b47ebf443e"
 
 RPROVIDES:${PN} += "config-xdg-user-dirs \
 xdg-user-dirs"

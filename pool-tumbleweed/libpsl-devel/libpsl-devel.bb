@@ -10,15 +10,16 @@ This package contains libraries and header files. \
 Developer documentation is in /usr/share/doc/packages/libpsl-devel/html ."
 LICENSE = "MIT"
 
-PV = "0.21.2"
+PV = "0.23.3"
 
-RPM_NAME = "libpsl-devel-0.21.2-1.3.aarch64.rpm"
-RPM_HASH = "23634558bf57a7195d499990d66e5b117d8e501840a05b4fb68c1f851f6bef58a8a44bd01e82eba6916b138eda9ff12a2feaf495ad2a0e2e478d7797ab023f9f"
+RPM_NAME = "libpsl-devel-0.23.3-1.1.aarch64.rpm"
+RPM_HASH = "79272ad5cd919113961fa1141a8ba91195d992d80aeacaf90039325674310167df23cf7f58460c53034e731a01a2db67b37e50e0b912950bddfaba63278a4b0a"
 
 RPROVIDES:${PN} += "libpsl-devel \
 pkgconfig-libpsl"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpsl5"
+libpsl5 \
+pkgconfig-libidn2"
 
 inherit rpm

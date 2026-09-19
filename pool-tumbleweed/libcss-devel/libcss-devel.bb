@@ -3,10 +3,10 @@ DESCRIPTION = "The libcss-devel package contains libraries and header files for 
 developing applications that use libcss."
 LICENSE = "MIT"
 
-PV = "0.9.1"
+PV = "0.9.2"
 
-RPM_NAME = "libcss-devel-0.9.1-2.10.aarch64.rpm"
-RPM_HASH = "0cf496a49597864841833540ad61fbe5de02173fbeea8e8b6f36a0df105d33fa9f3e37c23d47ad1dc81de41cc40eca17871903b502e17c26f3ff09c27135c027"
+RPM_NAME = "libcss-devel-0.9.2-2.1.aarch64.rpm"
+RPM_HASH = "9270cf819c75313b8b8203e418660e9580584a0b6131951a28bbb94f80b350f8c5b001da9b721febff958fbaec9820293cb6df8bc7e9cc4cc002c498fb62ef99"
 
 RPROVIDES:${PN} += "libcss-devel \
 pkgconfig-libcss"

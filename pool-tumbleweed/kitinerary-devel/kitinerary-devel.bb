@@ -3,21 +3,19 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to build programs that use the kitinerary library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kitinerary-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "b82cff9449173f9ca40c7c5cc28fabd21d723bd6acf6397c5d3b1d4c27941452707e7b6e07db99433b5cc8a6e123cd60c93ac4abfdb9af1f48c31b98e43eac01"
+RPM_NAME = "kitinerary-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "d8d07e65933c51b6b14e6f86ce8ab1e68ac5ab4af9550fa898563f692c612453be602048c620335f8df74ea791008d70fd0f0f0cccc535e9c82c34f2ade84b76"
 
-RPROVIDES:${PN} += "cmake-KPim5Itinerary \
-cmake-KPimItinerary \
+RPROVIDES:${PN} += "cmake-KPim6Itinerary \
 kitinerary-devel"
 
-RDEPENDS:${PN} += "cmake-KF5CalendarCore \
-cmake-KF5Contacts \
-cmake-KF5Mime \
-cmake-KPim5PkPass \
-cmake-Qt5Gui \
-libKPim5Itinerary5 \
-libqt5-qtdeclarative-private-headers-devel"
+RDEPENDS:${PN} += "cmake-KF6CalendarCore \
+cmake-KF6Contacts \
+cmake-KF6Mime \
+cmake-KPim6PkPass \
+cmake-Qt6Gui \
+libKPim6Itinerary6"
 
 inherit rpm

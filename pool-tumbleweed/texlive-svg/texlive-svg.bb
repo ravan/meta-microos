@@ -13,10 +13,10 @@ in different graphic formats, exactly as it is rendered within \
 the LaTeX document, using either ImageMagick or Ghostscript."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.02ksvn57010"
+PV = "2026.226.2.02ksvn77682"
 
-RPM_NAME = "texlive-svg-2023.209.2.02ksvn57010-58.1.noarch.rpm"
-RPM_HASH = "428c45de20d645bc0cc70be49655f49aec826bfae4e18d5e821a82cb5ebf8ad9e5ffbcc721e6a811e3f8abca871b12de7a8ef2edba69931a8d88cd8739212f1f"
+RPM_NAME = "texlive-svg-2026.226.2.02ksvn77682-64.2.noarch.rpm"
+RPM_HASH = "d66493e421d8f3d69a65a8fbbc1e8706f60fd58e3c4417a10ea93cbd78e28f1f1fa16adeea7b642dcedf585f1444a924a9fa62fae54185f367915be4cb917931"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-svg-extract.sty \
@@ -42,9 +42,15 @@ tex-xcolor.sty \
 tex-xr.sty \
 texlive \
 texlive-filesystem \
+texlive-graphics \
+texlive-iftex \
+texlive-koma-script \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-pdftexcmds \
 texlive-scripts \
-texlive-scripts-bin"
+texlive-scripts-bin \
+texlive-tools \
+texlive-trimspaces"
 
 inherit rpm

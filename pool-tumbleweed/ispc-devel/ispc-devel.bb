@@ -4,12 +4,13 @@ libraries and cmake files for ispc.  If you would like to develop \
 programs using ispc, you will need to install ispc-devel."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.18.1"
+PV = "1.31.0"
 
-RPM_NAME = "ispc-devel-1.18.1-2.2.aarch64.rpm"
-RPM_HASH = "34ec41c1c036be88cb45c0713c5adf94a3751e6a743c6bb5b2f18165adaaf057fad2440e27b0a1843df4c38cf0d2984ee16aedcf5fe9f4abbe2b70630bb9eaa1"
+RPM_NAME = "ispc-devel-1.31.0-2.3.aarch64.rpm"
+RPM_HASH = "e5592beb75e054f01ab0aaa3fa5acfb38be1f975cfa837b3fc38464dd83bb96cbcebb23f0a5a21479e1209132589060cfc4098f9be2dd31d0767f20de38c8571"
 
-RPROVIDES:${PN} += "cmake-ispcrt \
+RPROVIDES:${PN} += "cmake-ispc \
+cmake-ispcrt \
 ispc-devel"
 
 RDEPENDS:${PN} += "ispc \

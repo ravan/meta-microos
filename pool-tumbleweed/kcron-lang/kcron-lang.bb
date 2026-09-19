@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kcron"
 DESCRIPTION = "Provides translations for the 'kcron' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kcron-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "c74ff05ef286184ff0b2e6b003650c2c38cf34af2dcaf438330df0fe6a5eae9ae4823df7f0180acad17ae144038a65643a5b20d34020bb9244fc412029d2c4c8"
+RPM_NAME = "kcron-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "245716da198ad3ba8beaa59d6aadc93f0037e6f7d1c1029b972318cd53ccd6533483f5933e0b38ebd61dda4f8b8dae6bcf4e3cf5361c1ead2e9b4015635af0e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcron-lang \
 kcron-lang-all \
 locale-kcron-af \
 locale-kcron-ar \
+locale-kcron-ast \
 locale-kcron-be \
 locale-kcron-bg \
 locale-kcron-br \

@@ -1,14 +1,15 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 DeclarativeOpcua library"
 DESCRIPTION = "This package provides private headers of libDeclarativeOpcua that do not have \
 any ABI or API guarantees."
-LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-or-later)"
+LICENSE = "(GPL-2.0-or-later | LGPL-3.0-only) & GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-declarativeopcua-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "2fe2e47e9fb7bde8d35b792278327a80ba712aae46cf83baea606205d67b9a644d82d441aa7944b6acabebd8d454a20c811a1a010b3fce0d7e7a0e383a5bd3b5"
+RPM_NAME = "qt6-declarativeopcua-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "edba17738ff0af9493c6f540ad6b75fab9cc80f35328a7f5f74764b5ed83093dd0eb1b2f2575bc44eca2fc3f2f1c1ce78f41ea0a4f10bd10ebd4f4594cfb130e"
 
 RPROVIDES:${PN} += "cmake-Qt6DeclarativeOpcua \
+cmake-Qt6DeclarativeOpcuaPrivate \
 pkgconfig-Qt6DeclarativeOpcua \
 qt6-declarativeopcua-private-devel"
 

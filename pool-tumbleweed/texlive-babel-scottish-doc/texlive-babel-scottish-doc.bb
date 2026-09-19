@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-scottish"
 DESCRIPTION = "This package includes the documentation for texlive-babel-scottish"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0gsvn30289"
+PV = "2026.226.1.0hsvn77682"
 
-RPM_NAME = "texlive-babel-scottish-doc-2023.209.1.0gsvn30289-54.1.noarch.rpm"
-RPM_HASH = "b91b38dc9570462e29c548ad575bc60d4dc819b6b94d2c2570a3778c6a29822d5550df9a9f67ff8abfaa278b81e6a4256aaf325095af3e842f09c357d7fee09f"
+RPM_NAME = "texlive-babel-scottish-doc-2026.226.1.0hsvn77682-60.2.noarch.rpm"
+RPM_HASH = "6650f6ad39e80f656af683376e9696ec189968b58915a70e7f1f1d0374bad95758547317350e4c090c51d7dd4ab2680a0d5cd49c2a321d13c5020408da71f8b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-scottish-doc"

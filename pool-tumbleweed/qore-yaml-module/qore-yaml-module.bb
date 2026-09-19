@@ -4,10 +4,10 @@ DESCRIPTION = "This package contains the yaml module for the Qore Programming La
 YAML is a flexible and concise human-readable data serialization format."
 LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MIT"
 
-PV = "0.7.3"
+PV = "1.0.0"
 
-RPM_NAME = "qore-yaml-module-0.7.3-2.1.aarch64.rpm"
-RPM_HASH = "a4c4063696f84ceef3fd7fcafcae4ffa01920edaa07b03f84cd841965144e90c54a663c5adbee3e82068a35033a0c1afdafb7a37fd7f74a9980260727fed5cbc"
+RPM_NAME = "qore-yaml-module-1.0.0-1.5.aarch64.rpm"
+RPM_HASH = "bc9f2d9ef119a4219490d941da4a1948943c47a05561eb0cd4a510e0521fce92f041b018212b6a3df71f816a3da750349aff1ae5b50a5ca35ccd3ee306c65e05"
 
 RPROVIDES:${PN} += "qore-yaml-module"
 

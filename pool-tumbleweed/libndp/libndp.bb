@@ -4,10 +4,10 @@ Discovery Protocol.  It also provides a tool named ndptool for sending and \
 receiving NDP messages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.8"
+PV = "1.9"
 
-RPM_NAME = "libndp-1.8-1.6.aarch64.rpm"
-RPM_HASH = "1416585ea6105699e0b101744b05cf0692e6906b91ef120dd902f94c3f9906d687c7983416fa5b650d5330d219a99571193f72f6afb6b318b276882dc59d2430"
+RPM_NAME = "libndp-1.9-1.2.aarch64.rpm"
+RPM_HASH = "25fa907eb67d840158b3193fab677b9dd493ffcd1a0027bd56d2688661af3a3c305f72504c906b1901906cde599bf5a24a3b35c2d4db23c858a6a2a5fbd1af02"
 
 RPROVIDES:${PN} += "libndp"
 

@@ -2,14 +2,15 @@ SUMMARY = "Severed fonts for texlive-wadalab"
 DESCRIPTION = "The  separated fonts package for texlive-wadalab"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn42428"
+PV = "2026.226.svn42428"
 
-RPM_NAME = "texlive-wadalab-fonts-2023.209.svn42428-54.1.noarch.rpm"
-RPM_HASH = "1f52561c586f7e9445d741111d6b9504e320279f2813785526e20b77fb7ee4df358d185856fb0474305d426cd44ca67b78ed0d528ce3afa5f46920fbc2f5a586"
+RPM_NAME = "texlive-wadalab-fonts-2026.226.svn42428-60.2.noarch.rpm"
+RPM_HASH = "526d6a660ffa934e03d816fd5ca66741632870967965dcbbf0ad2250b443c54f8e71a9a7d0889dccb4f116d2932543fe13f15d819b244e27b7978eb1ea0219d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=bg \
 font--lang=kum \
+font--lang=mhr \
 font--lang=os \
 font--lang=ru \
 font--lang=sel \

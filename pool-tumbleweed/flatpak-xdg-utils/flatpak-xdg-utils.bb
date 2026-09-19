@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a number of command-line utilities for use 
 Flatpak sandboxes. They work by talking to portals."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.0.5"
+PV = "1.0.6"
 
-RPM_NAME = "flatpak-xdg-utils-1.0.5-2.5.aarch64.rpm"
-RPM_HASH = "a49cfa495ce6f5ac59158355e7d12d49bfab744c520514400a470a2e203462f4087b9a980f4fd7432d86bb551248f4ff93f317813fea41a432441cd03b7b7b5e"
+RPM_NAME = "flatpak-xdg-utils-1.0.6-1.8.aarch64.rpm"
+RPM_HASH = "8aaa2695edad2047422de290fbbe8be4f3f8bdf06c8421ee6a567f3b0132a63782d56b060b734a4e9d5aad15c31801cd64dc082d953adcf95bc2aac19caabc54"
 
 RPROVIDES:${PN} += "flatpak-xdg-utils"
 

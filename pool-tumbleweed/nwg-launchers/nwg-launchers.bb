@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.7.1.1"
 
-RPM_NAME = "nwg-launchers-0.7.1.1-1.4.aarch64.rpm"
-RPM_HASH = "c6791f0b897e72f697d2008323f93c50713f95ff84a907970b4c2c92a0a2b3df838899aef7dc0c4b407f4f658067952836b337c07d94ea5bdf4a66381e944f52"
+RPM_NAME = "nwg-launchers-0.7.1.1-2.9.aarch64.rpm"
+RPM_HASH = "386d0d736d7d1b5b67eb7cd9256d8be628cf4a9e903bc8c878bb82fab634c95e4af58e12dd2ac6d81cb3a8f34fe34693b7b2aa1a7c4c115a3c6e5e40a35fb3ef"
 
 RPROVIDES:${PN} += "nwg-launchers"
 

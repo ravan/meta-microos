@@ -1,14 +1,15 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 StateMachineQml library"
 DESCRIPTION = "This package provides private headers of libQt6StateMachineQml that do not have any \
 ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-statemachineqml-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "25e0e6c2da1fdcf37963c3ab027a4b57986c7d10466d8be997dc3f0d85a7b0c25ce41ba855b8d6cc06e599f5563bdfc8365f02070a9a7e3d32e23510120f55e4"
+RPM_NAME = "qt6-statemachineqml-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "a0cbd90bc2e5f42b7ac85b5c546072b2534800d7b88946a35a97ddc21f8126baa30d029787e69beaa7bcbda9f9cdee4d2818e4e1600facbc2cafe7be8243bbd1"
 
-RPROVIDES:${PN} += "qt6-statemachineqml-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6StateMachineQmlPrivate \
+qt6-statemachineqml-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6StateMachineQml"
 

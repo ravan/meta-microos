@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cellprops"
 DESCRIPTION = "This package includes the documentation for texlive-cellprops"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.0svn57599"
+PV = "2026.226.2.0svn76924"
 
-RPM_NAME = "texlive-cellprops-doc-2023.209.2.0svn57599-53.1.noarch.rpm"
-RPM_HASH = "3459fdff1f7bf3151c3711964a9adbb0233e6ef408ef0277989f0970012e04c17202c24622b01e3e0ad2093298d79c9a3fba50daae5e9b4053cdafd79ff16f3b"
+RPM_NAME = "texlive-cellprops-doc-2026.226.2.0svn76924-59.2.noarch.rpm"
+RPM_HASH = "02ea9e5a27141a80248d37b4366660d0096db9628d43fb771184e1ae7033e90ab803020b285fc94c1b129900404247f7c6e1e721646e8243d7e1ef5bd51b08aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cellprops-doc"

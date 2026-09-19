@@ -3,10 +3,10 @@ DESCRIPTION = "This package offers a BibLaTeX style for Brazil's ABNT \
 (Brazilian Association of Technical Norms) rules."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.4svn49179"
+PV = "2026.226.4.0svn72565"
 
-RPM_NAME = "texlive-biblatex-abnt-2023.209.3.4svn49179-54.1.noarch.rpm"
-RPM_HASH = "a25826a6ce016c868825dea4bd8fcc1169caefdaa29c557e2260970332636bcde5f5e3cdfac4d23ef7b87878d364b5712cc37599b517232f142aa71688ec4967"
+RPM_NAME = "texlive-biblatex-abnt-2026.226.4.0svn72565-61.2.noarch.rpm"
+RPM_HASH = "91209383dc315845ded6b833559a0bce035972a37f405bede79d5df572c31835091986f7e51bc6dbe31a79cf8f804d1fa516d48690e25d6826baf8d353a748c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-abnt-ibid.bbx \
@@ -22,6 +22,9 @@ tex-brazilian-abnt.lbx \
 tex-british-abnt.lbx \
 tex-canadian-abnt.lbx \
 tex-english-abnt.lbx \
+tex-french-abnt.lbx \
+tex-german-abnt.lbx \
+tex-italian-abnt.lbx \
 tex-portuges-abnt.lbx \
 tex-portuguese-abnt.lbx \
 tex-spanish-abnt.lbx \
@@ -37,6 +40,9 @@ tex-authoryear-comp.cbx \
 tex-brazilian.lbx \
 tex-english.lbx \
 tex-expl3.sty \
+tex-french.lbx \
+tex-german.lbx \
+tex-italian.lbx \
 tex-numeric.cbx \
 tex-spanish.lbx \
 tex-standard.bbx \

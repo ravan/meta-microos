@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-impnattypo"
 DESCRIPTION = "This package includes the documentation for texlive-impnattypo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn50227"
+PV = "2026.226.1.5svn50227"
 
-RPM_NAME = "texlive-impnattypo-doc-2023.209.1.5svn50227-54.1.noarch.rpm"
-RPM_HASH = "8f56f346a4a176a54b0d058082f550e434328975606859e227d7d9bcaf11475ae02322098e3515d01aad82eb3374a3cc8faf2840b85ca360f62fd47fe99ca997"
+RPM_NAME = "texlive-impnattypo-doc-2026.226.1.5svn50227-60.2.noarch.rpm"
+RPM_HASH = "3d8d8bc9714a73a7a425941859d690c7731de5c8f0dfeb18522b1c78fb28b6da38b12817ca1bfeb18e97b9e1ef077119f9fc4dc0178e4239ed163543157f5a48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-impnattypo-doc-fr;en \

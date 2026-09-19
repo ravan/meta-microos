@@ -41,22 +41,23 @@ mode of operation, but this now gets little testing and will probably be \
 removed soon. You probably don't care about any of this. \
  \
 The most appropriate mailing list on which to discuss this module would be \
-perl-qa. See http://lists.perl.org/list/perl-qa.html. \
+perl-qa. See https://lists.perl.org/list/perl-qa.html. \
  \
 The Devel::Cover repository can be found at \
-http://github.com/pjcj/Devel--Cover. This is also where problems should be \
+https://github.com/pjcj/Devel--Cover. This is also where problems should be \
 reported."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.40"
+PV = "1.520.0"
 
-RPM_NAME = "perl-Devel-Cover-1.40-1.3.aarch64.rpm"
-RPM_HASH = "16cb56cb25046da669db380229f1ce9b148293efc775e57f0e5bfd8cc2ee36612d14a5c179b17bfa095a0370ccaad1a28e7d5418f47b06af6fe002896c3e3439"
+RPM_NAME = "perl-Devel-Cover-1.520.0-1.5.aarch64.rpm"
+RPM_HASH = "92d53f8184124b96c0cd6ce39bd8bfb874ed2ec083bf852d1b337d1e7b0a160e6790f257edac8db8b58e2085bdea34a6ba51091b3fa1c804144691ae650b8174"
 
 RPROVIDES:${PN} += "perl-Devel--Cover \
 perl-Devel--Cover--Annotation--Git \
 perl-Devel--Cover--Annotation--Random \
-perl-Devel--Cover--Annotation--Svk \
+perl-Devel--Cover--Base--Editor \
+perl-Devel--Cover--Base--Editor--Template--Provider \
 perl-Devel--Cover--Branch \
 perl-Devel--Cover--Collection \
 perl-Devel--Cover--Collection--Template--Provider \
@@ -79,7 +80,6 @@ perl-Devel--Cover--DB--IO--Storable \
 perl-Devel--Cover--DB--Run \
 perl-Devel--Cover--DB--Structure \
 perl-Devel--Cover--Html-Common \
-perl-Devel--Cover--Inc \
 perl-Devel--Cover--Op \
 perl-Devel--Cover--Pod \
 perl-Devel--Cover--Report--Compilation \
@@ -90,11 +90,11 @@ perl-Devel--Cover--Report--Html-minimal \
 perl-Devel--Cover--Report--Html-subtle \
 perl-Devel--Cover--Report--Html-subtle--Template--Provider \
 perl-Devel--Cover--Report--Json \
+perl-Devel--Cover--Report--Nvim \
 perl-Devel--Cover--Report--Sort \
 perl-Devel--Cover--Report--Text \
 perl-Devel--Cover--Report--Text2 \
 perl-Devel--Cover--Report--Vim \
-perl-Devel--Cover--Report--Vim--Template--Provider \
 perl-Devel--Cover--Statement \
 perl-Devel--Cover--Subroutine \
 perl-Devel--Cover--Test \
@@ -108,8 +108,8 @@ perl-Devel-Cover"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
-perl-B-Debug \
+perl \
+perl--MODULE-COMPAT-5.44.0 \
 perl-HTML--Entities"
 
 inherit rpm

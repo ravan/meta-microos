@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "15.0.4"
+PV = "17.0.2"
 
-RPM_NAME = "gucharmap-devel-15.0.4-1.1.aarch64.rpm"
-RPM_HASH = "12013b52c3df1a3e830fc36f92ce505b93e669f74edbb9530756c474369fb1e7adf4ea29eb6b91315962d9d29f1cac20ea0deadec0f0f517271f1c35f5c9d2f9"
+RPM_NAME = "gucharmap-devel-17.0.2-1.4.aarch64.rpm"
+RPM_HASH = "701cddd21edbc7d96cede02d2b5a425f974a825139a1c9549a70342cf45d48ab4c866e7d2d39a4c64dd2fdd335161b11bf0471e807bb771aa854cdd2965fe552"
 
 RPROVIDES:${PN} += "gucharmap-devel \
 pkgconfig-gucharmap-2.90"

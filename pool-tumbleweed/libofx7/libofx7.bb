@@ -4,10 +4,10 @@ OFX command responses, usually provided by financial institutions for \
 statement downloads."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.5"
+PV = "0.10.9"
 
-RPM_NAME = "libofx7-0.10.5-1.7.aarch64.rpm"
-RPM_HASH = "420777195ec8895259101a00b069cb9126dfbc6b65b94a0d3af10c63d492c25a535d490c386e4d5cb5be77297eecb0b2680cffda03bc1737d125034ad4ff1376"
+RPM_NAME = "libofx7-0.10.9-2.1.aarch64.rpm"
+RPM_HASH = "c55a2d07c01fa0b195552eebe4b82e2c67898ad2c4c52191fdae918503aae7b6a01c5dfb7b439c537bafc5ade3853b7748b27b4658a8a7ddab0335b20c9b60d0"
 
 RPROVIDES:${PN} += "libofx.so.7 \
 libofx7"

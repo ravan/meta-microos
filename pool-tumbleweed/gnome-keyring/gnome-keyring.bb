@@ -8,10 +8,10 @@ password, and there is also a session keyring which is never stored to \
 disk, but forgotten when the session ends."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "42.1"
+PV = "50.0"
 
-RPM_NAME = "gnome-keyring-42.1-2.4.aarch64.rpm"
-RPM_HASH = "168daa0c68c45c3160c4e2d579e19139db86e3b5097b1f0673404fb523fb6e2d120998b94bb784b331ca0df7c30eaf29cc9b34456e6c2cc34d32bd3307643416"
+RPM_NAME = "gnome-keyring-50.0-3.2.aarch64.rpm"
+RPM_HASH = "e6fdb2c60a3a83f3eddb25f300c133e18e57fabe553f77bb6fc6eca7361cdfe0a554010d6a184c4e553f445adfb78568872c31b5d429f85fb994519c13c4e1f5"
 
 RPROVIDES:${PN} += "dbus-org.freedesktop.secrets \
 dbus-org.gnome.keyring \

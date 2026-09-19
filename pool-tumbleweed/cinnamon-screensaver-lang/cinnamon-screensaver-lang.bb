@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cinnamon-screensaver"
 DESCRIPTION = "Provides translations for the 'cinnamon-screensaver' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.8.2"
+PV = "6.6.2"
 
-RPM_NAME = "cinnamon-screensaver-lang-5.8.2-1.1.noarch.rpm"
-RPM_HASH = "15ce105565e9eb080277e2c1bd8ac22cc3a9a5c9ab57dc9ffbfb5dc3a80854247da545b089470203d154456f5cefc069be0f813c1cd3509a285a02882b25d80f"
+RPM_NAME = "cinnamon-screensaver-lang-6.6.2-1.2.noarch.rpm"
+RPM_HASH = "a63d250ad028d0e64934fd867a2c46d1fd71ee1e61665a4c9e31721dd5ec5ccfc59a8ddf58a8ceea437031bd675bba60fa2585f245cd3cc38b510b226468278f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-screensaver-lang \

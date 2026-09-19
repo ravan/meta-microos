@@ -1,41 +1,41 @@
 SUMMARY = "Pronunciation Self-Teaching"
 DESCRIPTION = "Improve your pronunciation by listening to native speakers."
-LICENSE = "LGPL-3.0-or-later & GPL-2.0-only & BSD-3-Clause"
+LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "artikulate-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "ebcf3f8f4d4fefea632b5d837ef2f5398faca0619277a638ec1ed9b947d3f38238dedd30f6b0df59a3207e2215aba45aad9bd7bd57d77844631f8ff65a7be4f1"
+RPM_NAME = "artikulate-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "89fb4f1fdda46211d1058ffc7c552e898e2fe47d82c21f6925473ddfd39dbb0d36460dda8f61a458034ea510e2e405535400b84b57405fc550621226f1e743f4"
 
 RPROVIDES:${PN} += "artikulate \
 artikulate5 \
 libartikulatecore.so.0 \
-libartikulatelearnerprofile.so.0 \
-libartikulatesound.so.0"
+libartikulatelearnerprofile.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-kirigami2 \
-knewstuff-imports \
-kqtquickcharts \
+kf6-kirigami-imports \
+kf6-knewstuff-imports \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
-libQt5XmlPatterns.so.5 \
+libKF6Archive.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6ItemModels.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
-libgcc-s.so.1 \
-libqt5-qtquickcontrols \
-libstdc++.so.6"
+libstdc++.so.6 \
+libxml2.so.16 \
+qt6-declarative-imports \
+qt6-multimedia-imports \
+qt6-sql-sqlite"
 
 inherit rpm

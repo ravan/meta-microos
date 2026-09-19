@@ -5,10 +5,10 @@ DESCRIPTION = "Development files for the Qt 6 XML library. \
 QXmlStreamReader and QXmlStreamWriter classes in Qt Core instead.)"
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-xml-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "6fdaaa54f1daf4bd7fa58ae8aa9175ff525f80b0b061a09b97696f3316d896f15b66059e434a9cc55107dfbbdc43a7525d4348b0159d36398418b2f013c96c9f"
+RPM_NAME = "qt6-xml-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "5597c51279e540a0006d7e6179715c8a1c39fb01c2f9ab08f01f0c8daab7dbf27258d60b58107ac3cfe19e5c03fede3d18bda11e8fb5fdc601f247dd6df136e6"
 
 RPROVIDES:${PN} += "cmake-Qt6Xml \
 pkgconfig-Qt6Xml \

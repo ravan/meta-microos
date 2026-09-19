@@ -6,10 +6,10 @@ DESCRIPTION = "A tiling window manager based on binary space partitioning. \
 sxhkd) is needed in order to translate keyboard and pointer events to bspc invocations."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.9.10"
+PV = "0.9.12"
 
-RPM_NAME = "bspwm-0.9.10-1.12.aarch64.rpm"
-RPM_HASH = "59ca1092b1feba34a77f5076e422410bb316cd4687ebb86f4003ffd13bcbcfb7a37bcefa8dd8c9c9c7e4818f2226fbe7aec3f56192b70fe5d01b148a5ffccd9b"
+RPM_NAME = "bspwm-0.9.12-1.5.aarch64.rpm"
+RPM_HASH = "f9ea9ff5838466748616eee5a71670e31a11b1d7cbeee29fa76cb343ab542a7b6d3d51f71f5e47e8d300a8c6ef9c5498d9efb4b3d86764e5a492fafbab7dde9a"
 
 RPROVIDES:${PN} += "bspwm \
 config-bspwm"

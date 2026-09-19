@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4"
 
-RPM_NAME = "apache-commons-dbcp1-1.4-3.17.noarch.rpm"
-RPM_HASH = "dc08c7198bb8775d00deb6ba8cc2d212df7f0c9abe6af6e13b9014796aa576f626ec80f554d577d93766d5cf14427f190c0e1093e0546fe41325b880356c1493"
+RPM_NAME = "apache-commons-dbcp1-1.4-6.5.noarch.rpm"
+RPM_HASH = "1fa45a49583994294b678ba52d97c68cdab07169f93ae8632ba53e381b5c8def7bac60bdf930e8d014e6cc63a0ec30e10f70f8b2f443f8b85f673d9b41c8b9d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-dbcp1 \
@@ -20,12 +20,8 @@ jakarta-commons-dbcp \
 mvn-commons-dbcp-commons-dbcp \
 mvn-commons-dbcp-commons-dbcp-pom-"
 
-RDEPENDS:${PN} += "commons-collections \
-commons-pool \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-jta-api \
-mvn-commons-pool-commons-pool \
-update-alternatives"
+mvn-commons-pool-commons-pool"
 
 inherit rpm

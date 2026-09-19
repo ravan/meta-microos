@@ -8,16 +8,18 @@ you from ever making any kinds of linkages which are not allowed in a tree \
 two mothers)."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.32"
+PV = "1.390.0"
 
-RPM_NAME = "perl-Tree-DAG_Node-1.32-1.12.noarch.rpm"
-RPM_HASH = "f23c0d5b21ec0b298d091254f3d46bac09ec517ec3fb839101add8517ec9bb6c3c1c4d7ecf1a3514e62e29f7866e0d5e9011f39d6b840779820788c08fbc94fd"
+RPM_NAME = "perl-Tree-DAG_Node-1.390.0-1.1.noarch.rpm"
+RPM_HASH = "a260e95afea4544eb5ff0982ce8c5ebfa86d44ffea0ada1831e8d6d92dbc97dbd3bf6915801a170761c56fe4c30231f3aa2509f205b0658bca645872633cb995"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tree--DAG-Node \
 perl-Tree-DAG-Node"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-File--Slurp--Tiny"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-ExtUtils--MakeMaker \
+perl-File--Slurper \
+perl-Getopt--Long"
 
 inherit rpm

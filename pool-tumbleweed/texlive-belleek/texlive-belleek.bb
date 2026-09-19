@@ -4,10 +4,10 @@ MathTime-Plus or MathTime Professional (the last being the only \
 currently available commercial bundle)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn66115"
+PV = "2026.226.svn66115"
 
-RPM_NAME = "texlive-belleek-2023.209.svn66115-54.1.noarch.rpm"
-RPM_HASH = "709fd573f4cebdbb8e3c2c7e39cf6effbcfac5b197236afb755cab0a0e3223578690ed634cb2601226b133ee3ecfbb6cd12f31850a95f6c96d7a9fb4207cdb47"
+RPM_NAME = "texlive-belleek-2026.226.svn66115-61.2.noarch.rpm"
+RPM_HASH = "4175cb3982d67d47159856d40359e2b5624348dfca2b82da5c9d3be12ab1765d8f828324c9bb753e1bdce88fc7646b7e97326f470c486a75cb3ac93e32b85dae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-belleek.map \

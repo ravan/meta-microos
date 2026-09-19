@@ -3,10 +3,10 @@ DESCRIPTION = "The libndp-devel package contains the header files necessary for 
 programs using libndp."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.8"
+PV = "1.9"
 
-RPM_NAME = "libndp-devel-1.8-1.6.aarch64.rpm"
-RPM_HASH = "7f763dfd54a5f6865b480aa92254007445d361e2301f12efde5b180b8c2432b55b90c76e92e41a171b9901cb802551e585f72c938ae36be9dd357f310b7acfd3"
+RPM_NAME = "libndp-devel-1.9-1.2.aarch64.rpm"
+RPM_HASH = "4ad1d521a022642b4b51e2db9b56bf776a1813c3507475672010af773aa707cf06a1d3875c653d324af1602e014d8b5afd70cb1f1920522c62ca635cd7ceebc7"
 
 RPROVIDES:${PN} += "libndp-devel \
 pkgconfig-libndp"

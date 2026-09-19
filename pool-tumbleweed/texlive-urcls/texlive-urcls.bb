@@ -8,10 +8,10 @@ corporate design of the UR. Users may use the class itself \
 are provided as .tex and .pdf-files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn49903"
+PV = "2026.226.2.1svn49903"
 
-RPM_NAME = "texlive-urcls-2023.209.2.1svn49903-54.1.noarch.rpm"
-RPM_HASH = "0232740d9013955a6beba105560869e63dada312cf8909f461aedbb140c59cc9bab9ceae91e1054d96293147b62c783b3fb4340c5627dc4c5b7f3779ade1f767"
+RPM_NAME = "texlive-urcls-2026.226.2.1svn49903-60.2.noarch.rpm"
+RPM_HASH = "c02cc43579466c869d056b477788c48db2212d49fb993c5d6c2615bd8afdbc970bdd7b821dd15942c4977bba4efb2ba2cb86999764d19466c02be8afbf26544b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-URbeamer.cls \

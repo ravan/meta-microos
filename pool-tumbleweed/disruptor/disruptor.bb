@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.4"
 
-RPM_NAME = "disruptor-3.4.4-2.1.noarch.rpm"
-RPM_HASH = "0d681940d46e1545f965254613cd9ba2cfb46cd1a69cf359ecb2487a490353f1343474182aff2aadeba3319f9ff7bfc494c1f0b0e64ab38218d39a67af83c607"
+RPM_NAME = "disruptor-3.4.4-2.10.noarch.rpm"
+RPM_HASH = "8ee6957d69c6b2824068f9ab553abf75896dd9d889cbfd76f9f6efe86a332aade3824238a46194d9e70e51b33df52d21eb73b6c3dbed2784ad7ed9931624fd0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "disruptor \

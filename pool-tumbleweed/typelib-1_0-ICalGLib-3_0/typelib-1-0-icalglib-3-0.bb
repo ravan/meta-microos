@@ -2,10 +2,10 @@ SUMMARY = "Introspection bindings for the libical glib bindings."
 DESCRIPTION = "This package provides the gobject-introspection bindings for libical-glib."
 LICENSE = "LGPL-2.1-only | MPL-2.0"
 
-PV = "3.0.16"
+PV = "3.0.20"
 
-RPM_NAME = "typelib-1_0-ICalGLib-3_0-3.0.16-1.4.aarch64.rpm"
-RPM_HASH = "2184df1e8a4a7181f7bc270c30cd1b85b94d99ed1946dac0476ed98acd25354a980754a6fe71ee4e8c14ef30ecaeb09275d78acba11cd979cee6e03c4ab11d03"
+RPM_NAME = "typelib-1_0-ICalGLib-3_0-3.0.20-1.8.aarch64.rpm"
+RPM_HASH = "a56483eb8da24e6c12849392551ebd34401642f8816b8f2ab49e6fbc41e3304861b51e5bd9daacc9258e165ad7530aad81f6f78ac122397772bb7ab57db151d7"
 
 RPROVIDES:${PN} += "typelib-1-0-ICalGLib-3-0 \
 typelib-ICalGLib"

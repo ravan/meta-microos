@@ -26,8 +26,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.99.1"
 
-RPM_NAME = "pragha-1.3.99.1-3.4.aarch64.rpm"
-RPM_HASH = "ea45ec96a74db40be95d3d66dfbcf8f580c68bc5618b9229b616364d0e383454c33997a3a6588d8cbb1f430fef9b90487dacdd6652d69ebe945b90dadeebcf24"
+RPM_NAME = "pragha-1.3.99.1-5.7.aarch64.rpm"
+RPM_HASH = "31d830dcfc66a48f9d72e43d72b2cbd86f3f9a338e0fa748cda6163894cc8dab3a6c03d33abbc534f389eecca467cfe5ff050f0aa05e20abac58c5e05007433a"
 
 RPROVIDES:${PN} += "libpragha.so \
 pragha"
@@ -48,10 +48,10 @@ libgtk-3.so.0 \
 libgudev-1.0.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \
-libpeas-1.0.so.0 \
-libpeas-gtk-1.0.so.0 \
+libpeas-1.0.so.1 \
+libpeas-gtk-1.0.so.1 \
 libsqlite3.so.0 \
-libtag-c.so.0 \
+libtag-c.so.2 \
 libtotem-plparser.so.18 \
 libxfce4ui-2.so.0"
 

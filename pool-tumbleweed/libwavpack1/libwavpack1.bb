@@ -6,16 +6,17 @@ where quality is paramount. The compression ratio depends on the source \
 material, but generally is between 30% and 70%."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.6.0"
+PV = "5.9.0"
 
-RPM_NAME = "libwavpack1-5.6.0-1.4.aarch64.rpm"
-RPM_HASH = "137a52df94778ee761d1ece4a61544a4fa883ecff0b3fc67a5e87ce46ed75be831b23b6f152ffec24610ccf058c09e88a09d4b89b328f3a91ffe9487a3b4ce75"
+RPM_NAME = "libwavpack1-5.9.0-1.5.aarch64.rpm"
+RPM_HASH = "aeb3830ef3118d5bfdccb857bcf00b0598b19d3f68e00bbe846acf913a27377460a8adf65a759779edc752822cfa71ed00bf994ede690f7912debb3eff58ebaa"
 
 RPROVIDES:${PN} += "libwavpack.so.1 \
 libwavpack1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libc.so.6"
+libc.so.6 \
+libm.so.6"
 
 inherit rpm

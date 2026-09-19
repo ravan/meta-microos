@@ -3,38 +3,39 @@ DESCRIPTION = "This package provides files required for development of \
 new LeechCraft modules."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-devel-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "65df87893921b4737ded2af91193255eafd5ea525aed47a1e5edf1f512fde122f99c2fe32ff7f91f240cdc634062d5502df24d90e21457cf3e0935df765cc16f"
+RPM_NAME = "leechcraft-devel-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "09546a28ec9ef8fa1e3da5e804760693b67ceb9d3fda9595da2ae713f1239a932c0b3ad8b3dd38f5c5b1c0cac82ccc9c7abaeff89b3bc623498895445b933e43"
 
 RPROVIDES:${PN} += "leechcraft-devel"
 
 RDEPENDS:${PN} += "cmake \
+cmake-Qt6LinguistTools \
 leechcraft \
-libQt5Gui-private-headers-devel \
-libleechcraft-util-db-qt5-0-6-75-1 \
-libleechcraft-util-gui-qt5-0-6-75-1 \
-libleechcraft-util-models-qt5-0-6-75-1 \
-libleechcraft-util-network-qt5-0-6-75-1 \
-libleechcraft-util-qml-qt5-0-6-75-2 \
-libleechcraft-util-shortcuts-qt5-0-6-75 \
-libleechcraft-util-sll-qt5-0-6-75-1 \
-libleechcraft-util-svcauth-qt5-0-6-75 \
-libleechcraft-util-sys-qt5-0-6-75-1 \
-libleechcraft-util-tags-qt5-0-6-75-1 \
-libleechcraft-util-x11-qt5-0-6-75 \
-libleechcraft-util-xdg-qt5-0-6-75 \
-libleechcraft-util-xpc-qt5-0-6-75-2 \
-libleechcraft-util-xsd-qt5-0-6-75 \
-libqt5-linguist-devel \
-pkgconfig-Qt5Concurrent \
-pkgconfig-Qt5DBus \
-pkgconfig-Qt5OpenGL \
-pkgconfig-Qt5PrintSupport \
-pkgconfig-Qt5Script \
-pkgconfig-Qt5Svg \
-pkgconfig-Qt5X11Extras \
-pkgconfig-Qt5XmlPatterns"
+libleechcraft-util-azoth-qt6-0-6-75 \
+libleechcraft-util-db-qt6-0-6-75 \
+libleechcraft-util-gui-qt6-0-6-75 \
+libleechcraft-util-lmp-qt6-0-6-75 \
+libleechcraft-util-models-qt6-0-6-75 \
+libleechcraft-util-monocle-qt6-0-6-75 \
+libleechcraft-util-network-qt6-0-6-75 \
+libleechcraft-util-qml-qt6-0-6-75 \
+libleechcraft-util-shortcuts-qt6-0-6-75 \
+libleechcraft-util-sll-qt6-0-6-75 \
+libleechcraft-util-svcauth-qt6-0-6-75 \
+libleechcraft-util-sys-qt6-0-6-75 \
+libleechcraft-util-tags-qt6-0-6-75 \
+libleechcraft-util-x11-qt6-0-6-75 \
+libleechcraft-util-xdg-qt6-0-6-75 \
+libleechcraft-util-xpc-qt6-0-6-75 \
+libleechcraft-util-xsd-qt6-0-6-75 \
+pkgconfig-Qt6Network \
+pkgconfig-Qt6QuickWidgets \
+pkgconfig-Qt6Qwt6 \
+pkgconfig-Qt6Sql \
+pkgconfig-Qt6StateMachine \
+pkgconfig-Qt6Test \
+pkgconfig-Qt6Xml"
 
 inherit rpm

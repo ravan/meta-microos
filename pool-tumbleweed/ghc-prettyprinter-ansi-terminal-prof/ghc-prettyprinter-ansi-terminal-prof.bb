@@ -2,18 +2,18 @@ SUMMARY = "Haskell prettyprinter-ansi-terminal profiling library"
 DESCRIPTION = "This package provides the Haskell prettyprinter-ansi-terminal profiling library."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.1.3"
+PV = "1.1.4"
 
-RPM_NAME = "ghc-prettyprinter-ansi-terminal-prof-1.1.3-2.3.aarch64.rpm"
-RPM_HASH = "72a8cd63cc3f2390644d9cc5712473ef3900ac739336b5cb7c3ae0e2163139c841637930cd7796895d97bf7af5886012c489ff46cbab7801607f7dbabe7c92f4"
+RPM_NAME = "ghc-prettyprinter-ansi-terminal-prof-1.1.4-1.3.aarch64.rpm"
+RPM_HASH = "9ddfa4a61315f4a2b6d547b68791b42ec7703bcecba06b280ad4a88e7634b2a93f77e0cb3f6fdcaf94bd4f94bc9e417030b5dc8684f781fc5d398fe8a376c44f"
 
 RPROVIDES:${PN} += "ghc-prettyprinter-ansi-terminal-prof \
-ghc-prof-prettyprinter-ansi-terminal-1.1.3-3IupTJ2X3shLTeXNz5r5E2"
+ghc-prof-prettyprinter-ansi-terminal-1.1.4-IMyc3qw4SO1C4KUUC4JLom"
 
 RDEPENDS:${PN} += "ghc-prettyprinter-ansi-terminal-devel \
-ghc-prof-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-prettyprinter-1.7.1-2SxWyEsMZJMFYq1EQglPJB \
-ghc-prof-text-2.0.2"
+ghc-prof-ansi-terminal-1.1.5-KiVHPj6W9e81bxE9dBsVtZ \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-prettyprinter-1.7.2-I8Z9oIqYCiwIS8uRvukUd0 \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

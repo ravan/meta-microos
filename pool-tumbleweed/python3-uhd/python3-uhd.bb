@@ -7,20 +7,21 @@ UHD driver standalone or with 3rd party applications. \
 This package contains Python bindings UHD."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.0.0"
+PV = "4.10.0.0"
 
-RPM_NAME = "python3-uhd-4.4.0.0-1.5.aarch64.rpm"
-RPM_HASH = "814c1427f10a0369f78f9875ff77b64e6f09bb84ce2353712231961667512a308f18aea1f313e1e02a96c348aa9c78d90ba9127ba46d3a0c21af34f65e90e4fc"
+RPM_NAME = "python3-uhd-4.10.0.0-2.1.aarch64.rpm"
+RPM_HASH = "245d5250dd19e171f51f9dc72f8cbe3ffb41ea96b65c8dcdb040a2ec9c1e0eb2105a7b36c29eb1cbfc1eb1f3f8a50629e70a3f9043e1671af7d2dffbab6a4775"
 
-RPROVIDES:${PN} += "libpyuhd.cpython-311-aarch64-linux-gnu.so \
+RPROVIDES:${PN} += "libpyuhd.cpython-313-aarch64-linux-gnu.so \
 python3-uhd"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpython3.11.so.1.0 \
+libm.so.6 \
+libpython3.13.so.1.0 \
 libstdc++.so.6 \
-libuhd.so.4.4.0 \
+libuhd.so.4.10.0 \
 python-abi"
 
 inherit rpm

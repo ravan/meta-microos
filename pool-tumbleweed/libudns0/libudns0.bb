@@ -3,10 +3,10 @@ DESCRIPTION = "UDNS is a stub DNS resolver library with ability to perform both 
 synchronous and asynchronous DNS queries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.4"
+PV = "0.6"
 
-RPM_NAME = "libudns0-0.4-2.14.aarch64.rpm"
-RPM_HASH = "23cc54668719def991c4f1ff0ae026ad11b7dac65dc3914950eea38d777262a42e82fe3e3de66eede2dd7d9518ef0c2970b93e86965be9cbf27ace6cff6ede3c"
+RPM_NAME = "libudns0-0.6-1.9.aarch64.rpm"
+RPM_HASH = "780b90804b92ef9d861e30464acec43bc80542828db08a09df04fb120426c6f50350a26af2e8356f9cd4347dcb80f7e9d33bcc052993c753c0eb2cdd146fde19"
 
 RPROVIDES:${PN} += "libudns.so.0 \
 libudns0"

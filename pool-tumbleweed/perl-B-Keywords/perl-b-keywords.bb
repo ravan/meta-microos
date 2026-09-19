@@ -20,15 +20,15 @@ though some @Functions are not functions in the strict sense. Several \
 library functions use more special symbols, handles and methods."
 LICENSE = "Artistic-1.0 | GPL-2.0-only"
 
-PV = "1.26"
+PV = "1.290.0"
 
-RPM_NAME = "perl-B-Keywords-1.26-1.2.noarch.rpm"
-RPM_HASH = "c5d1c66a40bf16fcd90fe54a0e4d67dfdf02e3b73f10d930ab96e024ee0401d7b2f40583d6c4f6f04d674f3b7dead424e88d8c654aac72498ebe12a594da05e7"
+RPM_NAME = "perl-B-Keywords-1.290.0-1.5.noarch.rpm"
+RPM_HASH = "5bc79a0b4f5e7017e68d6a9875286b94637a6091aeb3399c431130c0e839c759aeb3fba58ceb1bffe649daa038b7cc204aae6bbf94127198193579ee8a9c93af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-B--Keywords \
 perl-B-Keywords"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

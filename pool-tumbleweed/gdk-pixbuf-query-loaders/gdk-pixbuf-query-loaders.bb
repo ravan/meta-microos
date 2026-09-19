@@ -7,10 +7,10 @@ This package contains the utility to create the cache file needed for \
 loadable modules."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.42.10"
+PV = "2.44.7"
 
-RPM_NAME = "gdk-pixbuf-query-loaders-2.42.10-1.5.aarch64.rpm"
-RPM_HASH = "c653bb81a640730cf89390337540570012741f1311417e08aec72ad80f19927911487f6da2810b0181d6579b60db394b4b1752a470ba3c82bc1fba2f24912fb1"
+RPM_NAME = "gdk-pixbuf-query-loaders-2.44.7-1.2.aarch64.rpm"
+RPM_HASH = "e07c851022c783bfd6ce0325ac45f3aedfe054dd2ba96a4a7bcba64bec040eda8282cbcf51a0d523dcee1568bd4d303bddb12c2e286f01153d7b55461f287def"
 
 RPROVIDES:${PN} += "gdk-pixbuf-query-loaders"
 

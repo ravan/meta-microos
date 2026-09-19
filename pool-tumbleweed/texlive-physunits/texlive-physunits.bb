@@ -5,10 +5,10 @@ especially in math mode. All major SI units are included, as \
 well as some cgs units used in astronomy."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.0svn58728"
+PV = "2026.226.1.2.0svn58728"
 
-RPM_NAME = "texlive-physunits-2023.209.1.2.0svn58728-52.1.noarch.rpm"
-RPM_HASH = "cf253cd7e38a78b95bb51485cc389d2849b0ae9fda3217fba18c2d8ff8c12612da326ede75b9c176b942534316d75b3bd0365997937e299c2afe6e0740a77c91"
+RPM_NAME = "texlive-physunits-2026.226.1.2.0svn58728-58.2.noarch.rpm"
+RPM_HASH = "3ce561fd67d2cae654ebe39a9cb36cc626112a937a1647e7199e56a430043a6f9a37a8ae312dd20ae9c3c3460aafd48d90b1050042b4c7142fb2b15d9e1dd983"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-physunits.sty \

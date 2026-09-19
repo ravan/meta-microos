@@ -1,15 +1,15 @@
-SUMMARY = "Library for JIT Lua compiler"
-DESCRIPTION = "Libraries to use JIT Lua compiler"
+SUMMARY = "Library for LuaJIT2 compiler"
+DESCRIPTION = "Libraries to use LuaJIT2 compiler."
 LICENSE = "MIT"
 
-PV = "5.1.2.1.0+git.1693350652.41fb94d"
+PV = "2.1.20250826"
 
-RPM_NAME = "libluajit-5_1-2-5.1.2.1.0+git.1693350652.41fb94d-1.1.aarch64.rpm"
-RPM_HASH = "200a5c7e7d36ec908824577f98089ddcd90d7fcdc323de09d9fb6ee3de6e7b99456a1a6da523b5e420e2bba67670cc5d5e968b6e2df68a1504660326f1aee0ab"
+RPM_NAME = "libluajit-5_1-2-2.1.20250826-3.3.aarch64.rpm"
+RPM_HASH = "0b79f1f1074e820663835c6b20a9f8bd1a028269530d10feb675715f9cae5faa1ee73f5386f2709d050ec218026381373f52116e499ad89cf3dec9c49828b71c"
 
-RPROVIDES:${PN} += "libluajit-5-1-2 \
-libluajit-5.1.so.2 \
-luajit-5-1-2"
+RPROVIDES:${PN} += "liblua.so.5.1 \
+libluajit-5-1-2 \
+libluajit-5.1.so.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 libc.so.6 \

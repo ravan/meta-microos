@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1.7"
 
-RPM_NAME = "freeradius-client-devel-1.1.7-1.31.aarch64.rpm"
-RPM_HASH = "03d132407c46052a220eca4858baa22077016e05f43df5e1b708599b57c64831e6af9b657d25382df358f1a165e648017a223fb4295c12a0db7af391bd586ea7"
+RPM_NAME = "freeradius-client-devel-1.1.7-3.9.aarch64.rpm"
+RPM_HASH = "6fac6a4ac7be21d2269a0c9bce39e84f4be9d48ff2936d98f756a0e66d17e8fa30414453934babfdd3a079a33323865d1141f74832436d1750a331ee03d8cfe4"
 
 RPROVIDES:${PN} += "freeradius-client-devel"
 

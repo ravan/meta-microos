@@ -7,10 +7,10 @@ can be changed as required with the \\singlespacing, \
 spacings also available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.7bsvn65206"
+PV = "2026.226.6.7bsvn77682"
 
-RPM_NAME = "texlive-setspace-2023.209.6.7bsvn65206-54.1.noarch.rpm"
-RPM_HASH = "7a48b8a4d38be4541c4955728d28d4bb7d25ad93f4296fae1403813ec3abb2b2bffe20208b88ef519d781c50810926183efdad5a0374911b04619c4831faf420"
+RPM_NAME = "texlive-setspace-2026.226.6.7bsvn77682-60.2.noarch.rpm"
+RPM_HASH = "f5afa5d7a5492ecfed0faaa34c0511b160b93ebbf6b8dc9c75d7f3832572b9d4379936757d55c5e2d5d0a2ac778e3c5da833ae45424d6bc36bbc4f359c22271f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-setspace.sty \

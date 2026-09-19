@@ -7,10 +7,10 @@ OpenType format. The package includes suitable font selection \
 commands for use with LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn46374"
+PV = "2026.226.1.3svn46374"
 
-RPM_NAME = "texlive-beuron-2023.209.1.3svn46374-54.1.noarch.rpm"
-RPM_HASH = "5dbfcd4e2e3d37346316012cb5afbd325c260b3b72eec99f096535b4c78da635b983be44b1eb877c8d70c20ae3c442f40a13a59aa51c744325f4949642086630"
+RPM_NAME = "texlive-beuron-2026.226.1.3svn46374-61.2.noarch.rpm"
+RPM_HASH = "c9c301e642838dca999d6e867ae15e186de6922822620bd5b7437aadc87e7600c29d2b2b0b2ac7c7374c37f8a7ff262f57075426990392c44c04dfe7ca52f06d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beuron.map \

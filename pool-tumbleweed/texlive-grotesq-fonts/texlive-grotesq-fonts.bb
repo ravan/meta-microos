@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-grotesq"
 DESCRIPTION = "The  separated fonts package for texlive-grotesq"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn35859"
+PV = "2026.226.svn35859"
 
-RPM_NAME = "texlive-grotesq-fonts-2023.209.svn35859-54.2.noarch.rpm"
-RPM_HASH = "a090081ddebb2b3bebe1742d14c1ec939064f68836e51f9ebb9a12de6f7f49f0907b2a047afee8b1b907d7e475f7104c5570373746c561f3b5411144a2521d3c"
+RPM_NAME = "texlive-grotesq-fonts-2026.226.svn35859-60.4.noarch.rpm"
+RPM_HASH = "67c31e5dc99662da306cabc8bc36cee23550d7a79d29b1c3b034714227a106985c5c0e7687a94ca8f9b4f9e9ed32814b1b943a3b84f7def2c1beeb7736b391bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-urwgroteskt \

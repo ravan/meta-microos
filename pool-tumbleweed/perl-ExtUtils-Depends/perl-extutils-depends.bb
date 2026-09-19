@@ -4,12 +4,17 @@ functions and typemaps provided by other perl extensions. This means that a \
 perl extension is treated like a shared library that provides also a C and \
 an XS interface besides the perl one. \
  \
-This works as long as the base extension is loaded with the RTLD_GLOBAL \
-flag (usually done with a \
+This works as long as the base (or 'producing') extension is loaded with \
+the 'RTLD_GLOBAL' flag (usually done with a \
  \
 	sub dl_load_flags {0x01} \
  \
-in the main .pm file) if you need to use functions defined in the module. \
+in the main _.pm_ file) if you need to use functions defined in the module. \
+That 'producing' extension will also need to tell ExtUtils::MakeMaker the \
+specific functions to export, with arguments to 'WriteMakefile' like: \
+ \
+  FUNCLIST => [qw(function_name)], \
+  DL_FUNCS => { 'Extension::Name' => [] }, \
  \
 The basic scheme of operation is to collect information about a module in \
 the instance, and then store that data in the Perl library where it may be \
@@ -60,16 +65,16 @@ normally need to use this: \
   @deps = Mymod::Install::Files->deps;"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.8001"
+PV = "0.8002"
 
-RPM_NAME = "perl-ExtUtils-Depends-0.8001-1.11.noarch.rpm"
-RPM_HASH = "ee09fd3424176e2fca90f4aa7697cec81c5eae71ad32766fabcdaa2223318e8732f4741856cf455a519497c4973c78cc41975f967ea3e156f8898bf87866df17"
+RPM_NAME = "perl-ExtUtils-Depends-0.8002-1.8.noarch.rpm"
+RPM_HASH = "418b58074ab843f3c5f7c44de37e829d75d4b415899e1554741aa123414e99cf5586abe775979c00cd3650e2ad429c4fd2ca754ca9930e04febedaa7e8db2865"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-ExtUtils--Depends \
 perl-ExtUtils-Depends"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-ExtUtils--MakeMaker"
 
 inherit rpm

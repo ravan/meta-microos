@@ -4,17 +4,17 @@ DESCRIPTION = "RebootManager is a dbus service to execute a controlled reboot af
 If you updated a system with e.g. transactional updates or a kernel update was applied, you can tell rebootmgrd with rebootmgrctl, that the machine should be reboot at the next possible time. This can either be immediately or during a defined maintenance window."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "2.1"
+PV = "3.3+git20250722.adf0149"
 
-RPM_NAME = "rebootmgr-2.1-1.1.aarch64.rpm"
-RPM_HASH = "2bfb29d3f422b70ca668c6cad80778f5f31be4821bd403a7e626c8b9d5c94d4765b6958eb715331f8c14a2e44a09c34af8ba2ccab8de8bc9b4de3ca14aca3a2f"
+RPM_NAME = "rebootmgr-3.3+git20250722.adf0149-1.6.aarch64.rpm"
+RPM_HASH = "e420793f99b280295cc425fea415551ce74d7215848b2a06aafe6c8b163d339eb6a55d3b4a807d176100b8e54a2b5fe0a3cd337ac200d036f2e3f87461db0947"
 
 RPROVIDES:${PN} += "rebootmgr"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libdbus-1.so.3 \
-libeconf.so.0"
+libeconf.so.0 \
+libsystemd.so.0"
 
 inherit rpm

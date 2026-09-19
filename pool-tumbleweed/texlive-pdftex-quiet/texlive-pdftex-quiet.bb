@@ -5,10 +5,10 @@ font. The project originally started as a TeX StackExchange \
 answer."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1.0svn49169"
+PV = "2026.226.1.1.0svn49169"
 
-RPM_NAME = "texlive-pdftex-quiet-2023.209.1.1.0svn49169-52.1.noarch.rpm"
-RPM_HASH = "bb28f49b6d67215bb02cf2d947485ee475258b6ab10b858f7e208a313d65fd07c45cd1c2a070a6294f1e28a326bfef9c161e31c43dc15aabf4527c6508672820"
+RPM_NAME = "texlive-pdftex-quiet-2026.226.1.1.0svn49169-58.2.noarch.rpm"
+RPM_HASH = "9c043004cd632ce7dbe6d9003248eea75ce20537afed850ebc481825ad16346c4fc042443557d617f2a07ff49d969be062011828b6735648d6a19a7696e36fac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdftex-quiet"

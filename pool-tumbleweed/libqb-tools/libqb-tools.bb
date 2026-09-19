@@ -3,10 +3,10 @@ DESCRIPTION = "libqb is a library providing high performance client server reusa
 features. It provides logging, tracing, IPC, and polling."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.8+20230721.002171b"
+PV = "2.0.9+20250916.4b496d0"
 
-RPM_NAME = "libqb-tools-2.0.8+20230721.002171b-1.1.aarch64.rpm"
-RPM_HASH = "4ae39e9eae07d52ed1f131b5dfe2485dcf8e3f7a2999be88cb185a6ff0d426f992c807d6c350b2f46a8dccd08e3e7d9bcff6df6a66f828b6585d4d923975bc6a"
+RPM_NAME = "libqb-tools-2.0.9+20250916.4b496d0-1.5.aarch64.rpm"
+RPM_HASH = "251dc12545abae04ff4b4c6cd935961c67078fc78b401c482347ce1957353f3e26360a703ea142b8833dd6110f32c9d4f98e6f425f5c1b469ad64747fed4fd83"
 
 RPROVIDES:${PN} += "libqb-tools \
 libqb0-/usr/sbin/qb-blackbox"

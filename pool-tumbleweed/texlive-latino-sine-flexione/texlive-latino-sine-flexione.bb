@@ -14,10 +14,10 @@ intelligentia. This article by H. Bijlsma was first published \
 in Schola et Vita Anno I (1926)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.2svn53485"
+PV = "2026.226.1.2svn69568"
 
-RPM_NAME = "texlive-latino-sine-flexione-2023.209.1.2svn53485-55.1.noarch.rpm"
-RPM_HASH = "44d115bc89fcf691b4c23c4ca56e8d1a947f26c1b44c8b8401390d0191f6edf2b5d724b131e18e2c065af7bd3e8a667c0f31624af908291883cc55d0022f7656"
+RPM_NAME = "texlive-latino-sine-flexione-2026.226.1.2svn69568-61.2.noarch.rpm"
+RPM_HASH = "fb8f45a95d015debb0740c6b4e21c5982a1b56661d698c0bb600437931e2219a4b895b1182478b56c7cbba2c7d12473edbaec54460103f6fcb3cb0e6c34e2b6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-latino-sine-flexione.sty \

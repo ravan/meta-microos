@@ -4,13 +4,13 @@ from a base64-encoded format. C++ wrappers are included, as well as the source \
 code for standalone encoding and decoding executables."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "1.2.1"
+PV = "2.0.0.1"
 
-RPM_NAME = "libb64-devel-1.2.1-3.13.aarch64.rpm"
-RPM_HASH = "02fd87b294dbcd0901e4dc6da2cd0f0bd9712f229f85ff3be249f5dc0b0d412f7224a0d9595183a900b0f42a257926bf9379eabd929a00fb0781ca2d633fecac"
+RPM_NAME = "libb64-devel-2.0.0.1-1.3.aarch64.rpm"
+RPM_HASH = "15b64875b6bba926842cd68a2a978e5c947c3ff2bad4509bd24de6908a7c4a38bf22ffbc3380b9a4ff8db3e645fd5100f2536c298962d72ded111642cad3cf09"
 
 RPROVIDES:${PN} += "libb64-devel"
 
-RDEPENDS:${PN} += "libb64-0"
+RDEPENDS:${PN} += "libb64-1"
 
 inherit rpm

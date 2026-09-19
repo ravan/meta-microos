@@ -4,10 +4,10 @@ at version 43 tailored to the requirements \
 of the Budgie Desktop 10 series (from v10.8 and later)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.3+0"
+PV = "0.9.4+0"
 
-RPM_NAME = "magpie-0.9.3+0-2.1.aarch64.rpm"
-RPM_HASH = "b500dc5dc0949614fad7d8b41ceb0d1700ac018e294ab6e7a1335b60e76ca18a84cd2eea340bde0d03c1f7377ff4744a312b670014bdceeebf4b3bbcbd148a8c"
+RPM_NAME = "magpie-0.9.4+0-1.9.aarch64.rpm"
+RPM_HASH = "c689b782001b2704e09d1c4401e4307c8310a575a87fa38e6377ab51d2be317c265af8cec12cb05b30c10840ee28482f621cf77081dc10c8d8073a30a117134b"
 
 RPROVIDES:${PN} += "libmagpie-0.so.0 \
 libmagpie-clutter-0.so.0 \

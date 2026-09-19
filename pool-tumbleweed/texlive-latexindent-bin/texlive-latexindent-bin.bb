@@ -2,10 +2,10 @@ SUMMARY = "Binary files of latexindent"
 DESCRIPTION = "Binary files of latexindent"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn32150"
+PV = "2026.20260301.svn32150"
 
-RPM_NAME = "texlive-latexindent-bin-2023.20230311.svn32150-93.2.aarch64.rpm"
-RPM_HASH = "d8d9fdc39c31d571a31c56e24ee5f39b01c304f52039a16035ec564c2dc1ade4968ea611ba8a94cfcaee25533ffbcdd06f075d2d8d16502240cd6ac054f48bc4"
+RPM_NAME = "texlive-latexindent-bin-2026.20260301.svn32150-120.4.aarch64.rpm"
+RPM_HASH = "03229d0d4ee6b714555c7092bf06d88da4af1f15bf66e82466fc7e21abd5155260e959e98580a6f78b970ba4da4a3e7fcc902dd451ac18633d9a01122940103b"
 
 RPROVIDES:${PN} += "texlive-latexindent-bin"
 

@@ -4,10 +4,10 @@ DESCRIPTION = "Matcha is a flat Design theme for GTK 4, GTK 3, GTK 2 and Gnome-S
 This package contains the cinnamon themes."
 LICENSE = "GPL-3.0-only"
 
-PV = "20230403"
+PV = "20250411"
 
-RPM_NAME = "cinnamon-theme-matcha-20230403-1.1.noarch.rpm"
-RPM_HASH = "b3706c8b9a2a8def3978ad7d3716a3a7cb223611d7c806b24421286f26c104f553d971812ef20a26f1f76cace6ce8b575f84334169338aac3e0e8400c5749ef4"
+RPM_NAME = "cinnamon-theme-matcha-20250411-1.4.noarch.rpm"
+RPM_HASH = "e0b1a933a4e8f5f6760bb71c9add13da7d5581a3b48a4a5ea26c87c52a3206242a5df2d67c01682d8e23f5fb200b5b193cd3bbb0e79f18eec4629845ad910f6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-theme-matcha"

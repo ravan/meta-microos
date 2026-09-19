@@ -6,10 +6,10 @@ the English family, consisting of Roman, Italic and Small-Cap \
 fonts."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64568"
+PV = "2026.226.svn64568"
 
-RPM_NAME = "texlive-imfellenglish-2023.209.svn64568-54.1.noarch.rpm"
-RPM_HASH = "1aa15f56d797bb0fa3bd042f72a1e4bdc1466d10d16542a705b5a7a02bf688f7121d2ce4b6ff38b65ce6a7faa43851054597016ef8c74fe56aa0418486288b3f"
+RPM_NAME = "texlive-imfellenglish-2026.226.svn64568-60.2.noarch.rpm"
+RPM_HASH = "b9e7f8a0ffd7ea94d26827af161dd87eed92037378dd086451aae724d82c26e24d32d2115f15706c2df2373ec3f5f296ed4c1ac483516f2224d73452ffc357ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-IM-FELL-English-Italic-tlf-ly1--base.tfm \

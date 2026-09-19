@@ -8,10 +8,10 @@ one picture at a time, in simple test documents, and then to \
 migrate (with no fuss) to their use in the target document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1csvn17512"
+PV = "2026.226.0.0.1csvn17512"
 
-RPM_NAME = "texlive-asyfig-2023.209.0.0.1csvn17512-54.1.noarch.rpm"
-RPM_HASH = "823288223730eaaa96170f9b1f98bf70834e3371a382d6c65ba2f6f22da4804e08494d412a3de65fb945d5e7311db65492984141529c42351e715eb01d814de5"
+RPM_NAME = "texlive-asyfig-2026.226.0.0.1csvn17512-60.2.noarch.rpm"
+RPM_HASH = "2ad74fdb5178e6c419aa81dd40c0b1dd644a1e00d250ab707b11f404b95f732bd9c14c179d9de0f67ac4f17b1c3c4d69d3dbe128bfd87857333b3f78bc2e39fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asyalign.sty \

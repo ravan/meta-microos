@@ -12,10 +12,10 @@ The best docs currently are the libuv docs themselves. Hopfully \
 soon we'll have a copy locally tailored for lua."
 LICENSE = "Apache-2.0"
 
-PV = "1.43.0~0"
+PV = "1.51.0+1"
 
-RPM_NAME = "lua53-luv-1.43.0~0-3.6.aarch64.rpm"
-RPM_HASH = "184c6c27edc841c2582b13a48e925afad158d88563142f1d65cd636f48ffac9152aedda64958b4f7514e41fa0d46b2a559da079d16809d6754fa202c721696ea"
+RPM_NAME = "lua53-luv-1.51.0+1-7.3.aarch64.rpm"
+RPM_HASH = "5f27b867f421848e75afc85f3d9ea9b931ed0a885122c38bd80e968c4cacb853cc2977c5d411c806e973d907258748cbe5ec85ed10e45374e22797e61c65f2b2"
 
 RPROVIDES:${PN} += "lua53-luv"
 

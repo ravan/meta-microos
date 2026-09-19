@@ -12,10 +12,10 @@ Features: \
   * XML-RPC support"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.4.2"
+PV = "3.6.6"
 
-RPM_NAME = "libsoup-devel-3.4.2-1.1.aarch64.rpm"
-RPM_HASH = "577a096b4deea14a5ba3c45db3d037615bc2e236a9cb413ece48366a840c05fb49166c3389f81614de82bdf41c04714540d96c073c8b70a406cf0e4fbed1ff6d"
+RPM_NAME = "libsoup-devel-3.6.6-8.1.aarch64.rpm"
+RPM_HASH = "439b7932bb0c288ae4f20cae5a7b8f5e20bc57d5ce99f3dd067e9861927113eb04f03afa0cd259b583e839c36b71a62e95e00d87238abbfc86cb6a8d66fcbf9f"
 
 RPROVIDES:${PN} += "libsoup-devel \
 libsoup-doc \
@@ -25,8 +25,9 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libsoup-3-0-0 \
 pkgconfig-gio-2.0 \
 pkgconfig-glib-2.0 \
-pkgconfig-gmodule-2.0 \
+pkgconfig-gmodule-no-export-2.0 \
 pkgconfig-gobject-2.0 \
+pkgconfig-krb5-gssapi \
 pkgconfig-libbrotlidec \
 pkgconfig-libnghttp2 \
 pkgconfig-libpsl \

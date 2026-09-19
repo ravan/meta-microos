@@ -9,10 +9,10 @@ Booktitle, Location, Publisher, Year, pages xxx Author2, \
 Title2, in Booktitle, op. cit, pages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9.0svn48983"
+PV = "2026.226.1.9.0svn76790"
 
-RPM_NAME = "texlive-biblatex-opcit-booktitle-2023.209.1.9.0svn48983-54.1.noarch.rpm"
-RPM_HASH = "4760ac7be278a3fba1e549a8ffd90c6e3e30b74e4c5393c6df0d1359599f30968ef78455180b08452600a9a477f958032304f590f36f1eeec12d3a100df9c25f"
+RPM_NAME = "texlive-biblatex-opcit-booktitle-2026.226.1.9.0svn76790-61.2.noarch.rpm"
+RPM_HASH = "8c7c7e4d97836f9b6749eb469c43f64b8f953e0ac203da0017a4e0a8aeeac7618711a2b8a5855be2de1962e49eefa1139fc01d04cf19e2734f177ed77b363e2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-opcit-booktitle.sty \

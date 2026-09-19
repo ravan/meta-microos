@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "20161207"
 
-RPM_NAME = "ispell-ngerman-20161207-2.14.aarch64.rpm"
-RPM_HASH = "d914f34e339f324fb6b81932774418b4d271ad526a4c90b3294918581a6c5242e95295616ae52597318dbf93fcb8544407052b068250b2f435fe78a76c4e2abc"
+RPM_NAME = "ispell-ngerman-20161207-6.1.aarch64.rpm"
+RPM_HASH = "e8a81943814a9ce8066bdba9bd2ac55b25ba595eff424c57f096846febd581b71f6b739fda3b8ecc829ae1ef52547224c78d2247ad379e4f43ae864d6ded23c3"
 
 RPROVIDES:${PN} += "ispell-dictionary \
 ispell-ngerman \

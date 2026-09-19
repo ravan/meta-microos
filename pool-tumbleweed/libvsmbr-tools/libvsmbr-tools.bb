@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains the utility programs from libvsmbr to \
 inspect MS-DOS partition tables."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210509"
+PV = "20240505"
 
-RPM_NAME = "libvsmbr-tools-20210509-5.1.aarch64.rpm"
-RPM_HASH = "084fc4d2a5030919396ccebd2118eb6a94960f2e0a813e0f49dca2c4551fe3d2de0358fee5fded9ee5d3829c78586a57f91d575a679bcfed78493ef1bd15777b"
+RPM_NAME = "libvsmbr-tools-20240505-1.20.aarch64.rpm"
+RPM_HASH = "15c5afee0e8393575e6874f4a373609390bd0ae9b1844ae4f9bff5acaed173c39fb9be4fb2e68fe39d6531e15ec6824e30798bd62f1d1426e85ad3302a11bcb9"
 
 RPROVIDES:${PN} += "libvsmbr-tools"
 

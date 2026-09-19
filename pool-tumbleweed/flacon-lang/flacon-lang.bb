@@ -2,10 +2,10 @@ SUMMARY = "Translations for package flacon"
 DESCRIPTION = "Provides translations for the 'flacon' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "11.2.0"
+PV = "13.0.2"
 
-RPM_NAME = "flacon-lang-11.2.0-1.1.noarch.rpm"
-RPM_HASH = "e275bfdd14a5fdf87c8cf3279663450a1d7ad72aa76cac5c27c9ab92296a7128f3e31bb53a3f69d0ac9bf9658f88914c56def7ef8d59a934607007e683c1b799"
+RPM_NAME = "flacon-lang-13.0.2-1.1.noarch.rpm"
+RPM_HASH = "70dba875825c9fa842cad92fdcf35fd43839de502ce98e15407b29cc252f3e4e8892b1cdd06d16508951eee6a7a6d831794f35c24b52868c99fb379ac7e2da32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flacon-lang \

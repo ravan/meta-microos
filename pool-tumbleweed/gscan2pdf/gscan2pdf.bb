@@ -12,10 +12,10 @@ Features: \
  * Incorporate PDF metadata in filename"
 LICENSE = "GPL-3.0-only"
 
-PV = "2.13.2"
+PV = "2.13.5"
 
-RPM_NAME = "gscan2pdf-2.13.2-1.3.noarch.rpm"
-RPM_HASH = "1887cf52594bb657096321c8c98935115fb549f0f931e34cbb4fbd49987a1682f9d36a773ac3c2284df919d9442d8b9969bb370e2c60ea4fbcaff90650adca38"
+RPM_NAME = "gscan2pdf-2.13.5-2.5.noarch.rpm"
+RPM_HASH = "f887d758461ef04f4b461cb6a811227fb91893394075d45c46e1203cd3ce4a554c4986ec105be1a5c13696eea162e5bd80958b0d789471181262673c3274f62f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gscan2pdf \
@@ -38,6 +38,7 @@ perl-Gscan2pdf--Document \
 perl-Gscan2pdf--EntryCompletion \
 perl-Gscan2pdf--Frontend--CLI \
 perl-Gscan2pdf--Frontend--Image-Sane \
+perl-Gscan2pdf--Helpers \
 perl-Gscan2pdf--NetPBM \
 perl-Gscan2pdf--Page \
 perl-Gscan2pdf--PageRange \
@@ -50,7 +51,7 @@ perl-Gscan2pdf--Unpaper"
 RDEPENDS:${PN} += "/usr/bin/perl \
 djvulibre \
 pdftk \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Config--General \
 perl-Data--UUID \
 perl-Date--Calc \

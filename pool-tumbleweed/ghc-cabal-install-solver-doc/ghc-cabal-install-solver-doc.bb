@@ -2,10 +2,10 @@ SUMMARY = "Haskell cabal-install-solver library documentation"
 DESCRIPTION = "This package provides the Haskell cabal-install-solver library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.8.1.0"
+PV = "3.14.1.0"
 
-RPM_NAME = "ghc-cabal-install-solver-doc-3.8.1.0-1.8.noarch.rpm"
-RPM_HASH = "a2662164a6bbde1262f4f3bc2fb24820784505941bded5e6e5734aee3185e0db372e0a2d7d63ff0acf3c23d5c00a60ab494b9bf859894a3f59b8db35e1e81d00"
+RPM_NAME = "ghc-cabal-install-solver-doc-3.14.1.0-2.3.noarch.rpm"
+RPM_HASH = "c9c57e63e064af20f2f4e068953dabd6b78039c7dde21b9be1e51d493ca6db6d7e9df8b7bec53b99b72e4daa9f22afdd7133a6d4903a14864f6d27e589770561"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cabal-install-solver-doc"

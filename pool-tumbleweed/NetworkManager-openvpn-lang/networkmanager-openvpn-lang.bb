@@ -2,10 +2,10 @@ SUMMARY = "Translations for package NetworkManager-openvpn"
 DESCRIPTION = "Provides translations for the 'NetworkManager-openvpn' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.2"
+PV = "1.12.5"
 
-RPM_NAME = "NetworkManager-openvpn-lang-1.10.2-1.3.noarch.rpm"
-RPM_HASH = "585d9477cca9eb821f234160c9fefa91da64b9abe07a2190e4ba194fd2042156a70d8411c84e354488617412de485af985cc9b1a69d185aa3020e19917b092d5"
+RPM_NAME = "NetworkManager-openvpn-lang-1.12.5-1.2.noarch.rpm"
+RPM_HASH = "cb9d830f2fb10deca5dde0e80df6e3d4a07600f24694b35fb6423326aa071963d598217a4691f363224ae468d6a8993f5a5e4dddd99ea42361515fc3f1cc8419"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-openvpn-lang \
@@ -34,6 +34,7 @@ locale-NetworkManager-openvpn-fur \
 locale-NetworkManager-openvpn-gl \
 locale-NetworkManager-openvpn-gu \
 locale-NetworkManager-openvpn-he \
+locale-NetworkManager-openvpn-hi \
 locale-NetworkManager-openvpn-hr \
 locale-NetworkManager-openvpn-hu \
 locale-NetworkManager-openvpn-id \

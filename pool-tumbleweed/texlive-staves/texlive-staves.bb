@@ -5,10 +5,10 @@ Iceland. Included are a font in Adobe Type 1 format and LaTeX \
 support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-staves-2023.209.svn15878-58.1.noarch.rpm"
-RPM_HASH = "21a743041ac4416483e712695f335859719c8b7691746c5951931a33f8bbbd2e880a60c6dc5b771fc38b2262ee035cf089dcb33ce22d1725e1416a8b00b83dae"
+RPM_NAME = "texlive-staves-2026.226.svn15878-64.2.noarch.rpm"
+RPM_HASH = "b08984d5379790af6648ba0979eccddbf25283d8f9c5c40ce23b1bf8411591d16f92cdb50465ea7a9c33479dd0bc60634e192c7cef7a1a7d7d327260c3a3cbe7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-icelandic.map \

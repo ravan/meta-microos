@@ -2,17 +2,16 @@ SUMMARY = "Documentation for python-billiard"
 DESCRIPTION = "Documentation and help files for python-billiard."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.0"
+PV = "4.2.4"
 
-RPM_NAME = "python-billiard-doc-4.1.0-2.3.noarch.rpm"
-RPM_HASH = "ed6e0ad34764aa8efcaaabc64244e952375c293a9793c8f202e7b19c1fb6a67c4b65eac02716a6eb1a6e510bfd0f2251a9cb39d7b4000616cbd95b28c9104849"
+RPM_NAME = "python-billiard-doc-4.2.4-2.2.noarch.rpm"
+RPM_HASH = "9e76978720bcbf78269b820afe2d610ea598424764be4c630aec94babaf351661e887a8a1074ce8f76619bdf62c8392e82d588cc1cf56000d30e7f89a7c62c0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-billiard-doc \
 python2-billiard \
-python310-billiard-doc \
-python311-billiard-doc \
-python39-billiard-doc"
+python313-billiard-doc \
+python314-billiard-doc"
 
 RDEPENDS:${PN} += ""
 

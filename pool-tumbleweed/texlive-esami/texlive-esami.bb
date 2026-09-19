@@ -9,10 +9,10 @@ localised in Italian, English, French, German, Greek, Serbian, \
 and Spanish."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.7svn61596"
+PV = "2026.226.2.9svn71883"
 
-RPM_NAME = "texlive-esami-2023.209.2.7svn61596-54.2.noarch.rpm"
-RPM_HASH = "6c95538f3478bcc86b2a9656f241f795bbc54f97e09ea81130f9f9fb3316b1bd8e45e554946d06dfaa62693e2e482418fcd8844dbaef1c6abe26ffcdc2091f96"
+RPM_NAME = "texlive-esami-2026.226.2.9svn71883-61.4.noarch.rpm"
+RPM_HASH = "19cd651907927fed6f90a41ee11ca0fc4d0f620f4b11a5a105090ced54e97c25382732bb18519db5d0c4b2f40bfc98a57b667496141616d27786b27a3e9d8ae8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esami.sty \
@@ -36,6 +36,7 @@ tex-ifthen.sty \
 tex-multicol.sty \
 tex-pstricks-add.sty \
 tex-pstricks.sty \
+tex-tagpdf-base.sty \
 tex-xargs.sty \
 tex-xcolor.sty \
 texlive \

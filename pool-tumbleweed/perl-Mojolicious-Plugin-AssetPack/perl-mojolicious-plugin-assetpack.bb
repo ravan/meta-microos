@@ -13,10 +13,10 @@ name). The process of building actual assets from their components is \
 delegated to 'pipe objects'."
 LICENSE = "Artistic-2.0"
 
-PV = "2.14"
+PV = "2.150.0"
 
-RPM_NAME = "perl-Mojolicious-Plugin-AssetPack-2.14-1.3.noarch.rpm"
-RPM_HASH = "9090a50cfa2776f59ee5988531d1ccc6811be363f3bdd6fcf751116c10b896b833be397e6371d3c5c243f4d802f8db8bc9b0768bd4b6379559a679d962ba17fd"
+RPM_NAME = "perl-Mojolicious-Plugin-AssetPack-2.150.0-1.10.noarch.rpm"
+RPM_HASH = "95214ebf630c2670c4d2ad28d066f448e3bb673e3cf6436244ed2e5099a7f32d531cf5e91131ebf224acb146fc146af917c412cfde4f7504034b546b3e572139"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojolicious--Plugin--AssetPack \
@@ -42,7 +42,7 @@ perl-Mojolicious--Plugin--AssetPack--Util \
 perl-Mojolicious--Plugin--AssetPack--Util---chdir \
 perl-Mojolicious-Plugin-AssetPack"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-File--Which \
 perl-IPC--Run3 \
 perl-Mojolicious"

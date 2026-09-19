@@ -12,10 +12,10 @@ is possibly obsolete, see section 3: 'Alternatives' in the \
 documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn66189"
+PV = "2026.226.1.1bsvn73641"
 
-RPM_NAME = "texlive-hrefhide-2023.209.1.1asvn66189-54.2.noarch.rpm"
-RPM_HASH = "c21e41d3689590439191874450c8452703880df3dac54f07c2f8c15294a5bb3c5d145495877bee9ef880d0b75c4c42dc1a0b5516e83c940504bfbd1efc706abd"
+RPM_NAME = "texlive-hrefhide-2026.226.1.1bsvn73641-60.4.noarch.rpm"
+RPM_HASH = "94ad9f861a4778a39c757163b55a6a587519ca41a939a9e5c65913a3b3bbebba0392701e7f944f3f3e1a6700220d3a86f1f7a4ffa78e6863ea2fd459f328c108"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hrefhide.sty \
@@ -28,7 +28,6 @@ findutils \
 grep \
 sed \
 tex-hyperref.sty \
-tex-kvoptions.sty \
 tex-xcolor.sty \
 texlive \
 texlive-filesystem \

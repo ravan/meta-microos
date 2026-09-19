@@ -2,10 +2,10 @@ SUMMARY = "Table library for libime"
 DESCRIPTION = "This package provides table library for libime."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.1"
+PV = "1.1.13"
 
-RPM_NAME = "libIMETable0-1.1.1-1.1.aarch64.rpm"
-RPM_HASH = "3b0ed7ec3fd9a224e29c74068af734d5d5ce7c5c0542dcbd57e6c9934e2a6cc59faf6c9d30f162dc5351a15dd2b2ed27379001fe96abdaf4758079109de9ba66"
+RPM_NAME = "libIMETable0-1.1.13-1.5.aarch64.rpm"
+RPM_HASH = "99143e7525a9afaf5d6b76d40efb0e4661a4b12fe79ab95502113021d11e0a1076e9c856a88ca00c65ff2ae21570a40c62e066f2c0cf4a9758eb802047a982bd"
 
 RPROVIDES:${PN} += "libIMETable.so.0 \
 libIMETable0"
@@ -17,6 +17,7 @@ libIMECore.so.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libime-dicts \
-libstdc++.so.6"
+libstdc++.so.6 \
+libzstd.so.1"
 
 inherit rpm

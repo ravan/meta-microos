@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.23"
 
-RPM_NAME = "webalizer-2.23-26.10.aarch64.rpm"
-RPM_HASH = "cc6edfba1248727ffadba36811651f68bff06338732954745959efd25264dcb889ece57f7a68804878bb9d9e65ddb6d65355757209e6de4b3a5876b562fcd6f2"
+RPM_NAME = "webalizer-2.23-28.6.aarch64.rpm"
+RPM_HASH = "9ad6676daab86cd7f681da3d66b8fed9046d03e02bc547d737058e5925dc07a10c0862009f288405fa33ffbc8b36a1856e2845049750252e8ed98c569229acf5"
 
 RPROVIDES:${PN} += "config-webalizer \
 webalizer"

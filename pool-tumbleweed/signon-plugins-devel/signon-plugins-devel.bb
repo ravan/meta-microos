@@ -5,16 +5,16 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.61"
 
-RPM_NAME = "signon-plugins-devel-8.61-1.1.aarch64.rpm"
-RPM_HASH = "eeb91d682627061b7673da52bc1fd3dedfef00ece3de0e94db5da531b633430f3cc12979b1ea409720544a4ff4fe85b992e1eb6a3d3541519fd02cf1c1dfae4b"
+RPM_NAME = "signon-plugins-devel-8.61-2.10.aarch64.rpm"
+RPM_HASH = "a92e8bf894e37ed3ba5814e5e2144ebc6bfb4f1102cc88b26af96da5e81b03461e562bec9c43feb0d3182af926921258a24b11ad7cb9ac334e81a195877818a3"
 
 RPROVIDES:${PN} += "pkgconfig-signon-plugins \
 pkgconfig-signon-plugins-common \
 signon-plugins-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsignon-qt5-devel \
-pkgconfig-libsignon-qt5 \
+libsignon-qt6-devel \
+pkgconfig-libsignon-qt6 \
 signon-plugins"
 
 inherit rpm

@@ -4,12 +4,12 @@ DESCRIPTION = "Base64Coder is a Base64 encoder/decoder class. \
 There is no Base64 encoder/decoder in the standard Java SDK class \
 library.  The undocumented classes sun.misc.BASE64Encoder and \
 sun.misc.BASE64Decoder should not be used."
-LICENSE = "EPL-1.0 | EPL-2.0 | LGPL-2.1-or-later | GPL-2.0-or-later | Apache-2.0 | BSD-2-Clause"
+LICENSE = "Apache-2.0 | EPL-1.0 | EPL-2.0 | LGPL-2.1-or-later | GPL-2.0-or-later | BSD-2-Clause"
 
 PV = "20101219"
 
-RPM_NAME = "base64coder-20101219-2.16.noarch.rpm"
-RPM_HASH = "ccd85cc86b66a469235edfa376b6b244d9ab27ae6ef4829ac6951a06818a3369e3b02362f87153a19160121e6d21c2a7189af5cc20d5da0adbccee387e07e8af"
+RPM_NAME = "base64coder-20101219-3.10.noarch.rpm"
+RPM_HASH = "081156e3b9da00254d3087a156c1a4e859dc3574b13da18f19040851a0a9bb70c619a3a5b623e91026638bf2db4b612c0d920fcee244032af1bca92f3af53ef2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "base64coder \

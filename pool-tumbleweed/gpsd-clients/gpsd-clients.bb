@@ -12,14 +12,14 @@ cgps resembles xgps, but without the pictorial satellite display.  It \
 can run on a serial terminal or terminal emulator."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.25"
+PV = "3.27.5"
 
-RPM_NAME = "gpsd-clients-3.25-1.4.aarch64.rpm"
-RPM_HASH = "05ec4827d2c59b5a1cc37235e2d67eaaf17f571b1ed80b7bd7b238a4df8d5a84d1a96284a1608828f7b9432c3c90d411cd1806cd2dd200d8c5afed41aaec4cbc"
+RPM_NAME = "gpsd-clients-3.27.5-3.2.aarch64.rpm"
+RPM_HASH = "1c4e6cad81de394a1b1ff21046f4d86a2030b7b9d6042eb66102f255921e10fb08e82f78c79e65a3b4785adc5a136e71815cf7e267ad95574a16405a05775668"
 
 RPROVIDES:${PN} += "gpsd-clients"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libbluetooth.so.3 \
 libc.so.6 \

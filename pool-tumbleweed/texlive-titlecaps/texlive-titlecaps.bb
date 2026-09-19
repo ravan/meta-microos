@@ -9,10 +9,10 @@ as lower-cased, and also allows for titling exceptions of \
 various sorts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn63020"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-titlecaps-2023.209.1.3svn63020-53.1.noarch.rpm"
-RPM_HASH = "b4e161a5ce9359f476a61a990e914f096629301b0b825024ccee3e00ccf41a781e718886580f791fda683d460358ed391663d4fbf074a140971ea392f67fefc7"
+RPM_NAME = "texlive-titlecaps-2026.226.1.3svn77682-59.2.noarch.rpm"
+RPM_HASH = "30a8f6fa67e3a7264601353e10e7f5208cfd890b0196f37e3517ac93125f09bdfd3572835cdfee65c4df2526fe8f58e7be354bf10928b48e806ee3d4f8e74db1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-titlecaps.sty \

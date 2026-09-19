@@ -5,17 +5,16 @@ as GNOME. It comes with several backends (ALSA, PulseAudio, null) \
 and is designed to be portable. \
  \
 This package contains the main library."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.30"
+PV = "0.30+2"
 
-RPM_NAME = "libcanberra0-0.30-15.23.aarch64.rpm"
-RPM_HASH = "672ce81bc88a92f61bddcbdf0f9edaaa74300d8d527892117d50bfa1b18194f1744a7ce62624e10a69a290f3514f266a8f02a1378d2e141254335464b1901ce2"
+RPM_NAME = "libcanberra0-0.30+2-3.6.aarch64.rpm"
+RPM_HASH = "1b42f1bd7ff3c4645b01095e7166c5ac6621567dd4a06d05ab91d569826baf400bd91e56378e1d1cf9960022bcc6ce856e205db491e9586feaf078d5fb63a1ba"
 
 RPROVIDES:${PN} += "libcanberra-alsa.so \
 libcanberra-multi.so \
 libcanberra-null.so \
-libcanberra-oss.so \
 libcanberra-pulse.so \
 libcanberra.so.0 \
 libcanberra0"

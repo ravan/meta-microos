@@ -2,10 +2,10 @@ SUMMARY = "Library for device-mapper"
 DESCRIPTION = "Device mapper main shared library"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.03.16_1.02.185"
+PV = "2.03.38_1.02.212"
 
-RPM_NAME = "libdevmapper1_03-2.03.16_1.02.185-8.1.aarch64.rpm"
-RPM_HASH = "5c4b3431879c05a560a6955b58f02dd9254709b71baefe43362da3159e145011fc866fcf63d235e4b67d8e349f7bc199b314a31a8a872e9b675877fb2341c5d0"
+RPM_NAME = "libdevmapper1_03-2.03.38_1.02.212-2.5.aarch64.rpm"
+RPM_HASH = "fd11ef5df880b9b4cc144912b2ba429b8d41dc212e090c60373c8054ea07f7541969204f63f0518559260deec9a73c577434ffcf1e119b2c00030fd27b5c4584"
 
 RPROVIDES:${PN} += "libdevmapper.so.1.03 \
 libdevmapper1-03"

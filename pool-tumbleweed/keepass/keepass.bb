@@ -7,10 +7,10 @@ the whole database. The databases are encrypted using AES and \
 Twofish."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.54"
+PV = "2.61.1"
 
-RPM_NAME = "keepass-2.54-1.2.noarch.rpm"
-RPM_HASH = "ac6be84233c59fa6ddfa620568e3b70e5609f744aeb7abe2d1f99aded18ab2fe4b643c47fd913e3dfe9c391e94e2ec67ea48ee8cb2dd4c74e58d772281b32347"
+RPM_NAME = "keepass-2.61.1-1.2.noarch.rpm"
+RPM_HASH = "06ecfeefae6ecf0425a3d6f63f5fd1e6646861fbff8929bc32374e2f2ed7f06f4a365157b4319da6630ed64fca29a6401a221f402b3fdc9ea5fe02a02c0b0023"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keepass \
@@ -18,6 +18,7 @@ mono-KeePass \
 mono-KeePassLib"
 
 RDEPENDS:${PN} += "mono-System \
+mono-System.Core \
 mono-System.Drawing \
 mono-System.Security \
 mono-System.Windows.Forms \

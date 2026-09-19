@@ -2,15 +2,16 @@ SUMMARY = "Development files for PCManFM"
 DESCRIPTION = "Development files for PCManFM."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "1.4.0+git20251208.0908744"
 
-RPM_NAME = "pcmanfm-devel-1.3.2-2.7.aarch64.rpm"
-RPM_HASH = "052aae1e5cea3e3c1d82bdbfe3ddcb00d4a4870290ed6c29469e836c8892b9a91189563c5d96e41b2e33d2ab77b248264c2c4fd5846a8c5a58d9609ba74a1186"
+RPM_NAME = "pcmanfm-devel-1.4.0+git20251208.0908744-1.4.noarch.rpm"
+RPM_HASH = "9823086d39df8fd44eabb16f709a0aeeec55cf0d9931ce85b95138bae498a819f62db91b3e7db00374165795c670fcff759ef44453d32ff2cfcbe7173552ade3"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcmanfm-devel"
 
-RDEPENDS:${PN} += "gtk2-devel \
-libfm-gtk4 \
+RDEPENDS:${PN} += "gtk3-devel \
+libfm-gtk3-4 \
 libfm4 \
 pcmanfm \
 pkgconfig"

@@ -3,12 +3,13 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to compile and develop applications that use libogg."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.5"
+PV = "1.3.6"
 
-RPM_NAME = "libogg-devel-1.3.5-1.7.aarch64.rpm"
-RPM_HASH = "781291d76832fa3f000d0eded5a2d302e2409b28b1adf06c092a589f676d1eed6bbf7fcb6f1da5d1cda373b57b42efffcdc63a15aff22f21f5bf09406c13c4b7"
+RPM_NAME = "libogg-devel-1.3.6-1.4.aarch64.rpm"
+RPM_HASH = "a7fb705a5ac9efac41aa6a739a77968ef58977d471cc90367d85b9af50768dd3d7a84c9e983b05b65077039ef0d0df702a0b016ec44595d4ea8c4280f0c0f9b6"
 
-RPROVIDES:${PN} += "libogg-devel \
+RPROVIDES:${PN} += "cmake-Ogg \
+libogg-devel \
 pkgconfig-ogg"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

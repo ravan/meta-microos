@@ -4,10 +4,10 @@ to highlight the structure for the reader. Included are also \
 binary (executable) files for Windows, Ubuntu Linux, and macOS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.20.3svn65937"
+PV = "2026.226.3.24.7svn76064"
 
-RPM_NAME = "texlive-latexindent-2023.209.3.20.3svn65937-55.1.noarch.rpm"
-RPM_HASH = "2b99fbbfa3ab607c8313dbccb6b850a9f2440c24f3cdfd149412ec870ab561d91b2f9bf8da29b387d0c2435fabeb420667cb602d3047b0fc48ae16c46224e657"
+RPM_NAME = "texlive-latexindent-2026.226.3.24.7svn76064-61.2.noarch.rpm"
+RPM_HASH = "20edd1501326fca85292c7c9534d657cc890a85b29c5a9b744eb2d73d99ac426bf80c38c07fa32c1b158932718e2346633fa2d17d279260a65b5470befdc1c27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LatexIndent--AlignmentAtAmpersand \
@@ -46,6 +46,7 @@ perl-LatexIndent--Special \
 perl-LatexIndent--Switches \
 perl-LatexIndent--Tokens \
 perl-LatexIndent--TrailingComments \
+perl-LatexIndent--UTF8CmdLineArgsFileOperation \
 perl-LatexIndent--UnNamedGroupingBracesBrackets \
 perl-LatexIndent--Verbatim \
 perl-LatexIndent--Version \
@@ -58,6 +59,7 @@ coreutils \
 ed \
 findutils \
 grep \
+perl-Config \
 perl-Cwd \
 perl-Data--Dumper \
 perl-Encode \
@@ -65,6 +67,7 @@ perl-Exporter \
 perl-File--Basename \
 perl-File--Copy \
 perl-File--HomeDir \
+perl-File--Path \
 perl-FindBin \
 perl-Getopt--Long \
 perl-List--Util \
@@ -72,9 +75,12 @@ perl-PerlIO--encoding \
 perl-Text--Tabs \
 perl-Text--Wrap \
 perl-YAML--Tiny \
+perl-constant \
+perl-feature \
 perl-lib \
 perl-open \
 perl-strict \
+perl-utf8 \
 perl-warnings \
 sed \
 texlive \

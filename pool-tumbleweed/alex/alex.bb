@@ -5,10 +5,10 @@ module containing code for scanning text efficiently. It is similar to the tool 
 lex or flex for C/C++."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.7.4"
+PV = "3.5.4.2"
 
-RPM_NAME = "alex-3.2.7.4-2.2.aarch64.rpm"
-RPM_HASH = "e2b7c5a9816f02e8db785abe28b5122d6b12a0321f423459ef65bfb8e4846f2bacf6118736fd76d0f8704aba593354abe8ddf05e502dc4202936f01f95611835"
+RPM_NAME = "alex-3.5.4.2-1.3.aarch64.rpm"
+RPM_HASH = "f088414c2d3a3e16b2b1a6147ccd1ef861ef750edca4bb12560c3f8ccfd24b0f02cf2f71b576c66ace069fb120341a0f4c3be70e9e4f6eee98a501e5b7670cc8"
 
 RPROVIDES:${PN} += "alex"
 

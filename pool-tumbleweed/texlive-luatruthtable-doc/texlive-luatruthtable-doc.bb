@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luatruthtable"
 DESCRIPTION = "This package includes the documentation for texlive-luatruthtable"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.1svn64508"
+PV = "2026.226.1.3svn76924"
 
-RPM_NAME = "texlive-luatruthtable-doc-2023.208.1.1svn64508-53.1.noarch.rpm"
-RPM_HASH = "694eb08b9d3f07653158f01d3b96018e10e00ae6b95c479122461344ef1e2a326d757800ae764d7f13f60720846030e4500598ac104f68e4fee426583abca913"
+RPM_NAME = "texlive-luatruthtable-doc-2026.226.1.3svn76924-59.2.noarch.rpm"
+RPM_HASH = "40abdc6e974e589958672397673faa5539eef208fc356e3fc36b4af80f483d0eea98d297f8fe0b36cf73c75624424f681d899df3994bb9cad2a1bf5b547f0e1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luatruthtable-doc"

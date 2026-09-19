@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.101.0"
 
-RPM_NAME = "ghc-cryptohash-md5-prof-0.11.101.0-4.8.aarch64.rpm"
-RPM_HASH = "eff169b83f6fa330f2e6c25af9d456c7035441dc17451b7ab47b7ef31381553935f54f59e4606449175d478f06795aabfcad61c1c7a56b9b5ac3531f8d3b5e25"
+RPM_NAME = "ghc-cryptohash-md5-prof-0.11.101.0-8.15.aarch64.rpm"
+RPM_HASH = "6e6d3d87532ee2ff1cafb936736639985a44434c52f6afbb7034f9fcf99e9dbf9e2e6e578a5832aa8aec12eff615773c63eabe615c19704e63d034f6112bdb6a"
 
 RPROVIDES:${PN} += "ghc-cryptohash-md5-prof \
-ghc-prof-cryptohash-md5-0.11.101.0-DA2NKKN1mDy6fcPl6be7xQ"
+ghc-prof-cryptohash-md5-0.11.101.0-BL71FgcwkvtHLdWrK6WsDS"
 
 RDEPENDS:${PN} += "ghc-cryptohash-md5-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be"
 
 inherit rpm

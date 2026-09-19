@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-csvsimple"
 DESCRIPTION = "This package includes the documentation for texlive-csvsimple"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3.2svn64450"
+PV = "2026.226.2.7.0svn77682"
 
-RPM_NAME = "texlive-csvsimple-doc-2023.209.2.3.2svn64450-55.1.noarch.rpm"
-RPM_HASH = "5bf4dd8e2be10ec736b8a0dd73a6d2b3c75d3b1dac847ce8a1fe2da142e12fa4d5e8be37edaa258034c701d0d121bcf3d766bdef5d3593fe266f4aeb26f51f90"
+RPM_NAME = "texlive-csvsimple-doc-2026.226.2.7.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "ce7c3a0a39be0668ee14c52d92702aff480864e67672aa430e5dbe2c17eeac77f30fa1f2c6fd448611816bd97d20831ca55f5998eb922fa78b024d3d22cd7833"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-csvsimple-doc"

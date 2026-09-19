@@ -3,10 +3,10 @@ DESCRIPTION = "This is a framework for accessing and manipulating bookmarks usin
 the XBEL format."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5Bookmarks5-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "2267296f43e99be951555ecede165f8754b5067e9ecae3e43ff5831cc57f586a8898d4fed5f53936700d595ad88e761d4984e1d2c724eb37ab765a9aeb5cd961"
+RPM_NAME = "libKF5Bookmarks5-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "363f6fa0ce8ae10acf42a218d0e9ff696bf853627d72abd97e2e44e0b0466f03c9ce2c6184b9cecc301bffd2945da49df406c8b7a3d97e8b81eaa199d1d953f9"
 
 RPROVIDES:${PN} += "libKF5Bookmarks.so.5 \
 libKF5Bookmarks5"

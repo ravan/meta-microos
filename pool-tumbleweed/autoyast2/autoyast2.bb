@@ -9,10 +9,10 @@ This file contains YaST2-independent files needed to create \
 installation sources."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.2"
+PV = "5.0.10"
 
-RPM_NAME = "autoyast2-4.6.2-1.1.noarch.rpm"
-RPM_HASH = "64c86838aa13cf9987c17a129e8d7ac2510ef0f76d753576d89733f691c67a842e2e62a10a2d06722b3a74fa78d1b38bec9ced0832259ab6833926d21582708f"
+RPM_NAME = "autoyast2-5.0.10-1.1.noarch.rpm"
+RPM_HASH = "6b23369dfbe0c416360f29a61bbf9748fcdd1763494eba277cf01c97234287c5650ffc5170d68551b89285382c723ea4cf9d8f715d0797f538e429e8d8020727"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoyast2 \

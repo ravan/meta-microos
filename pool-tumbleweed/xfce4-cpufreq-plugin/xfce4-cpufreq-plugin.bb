@@ -3,10 +3,10 @@ DESCRIPTION = "The CpuFreq scaling monitor plugin can be used to monitor the cur
 frequency and currently active governor."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.8"
+PV = "1.3.0"
 
-RPM_NAME = "xfce4-cpufreq-plugin-1.2.8-1.4.aarch64.rpm"
-RPM_HASH = "8f4510ce5a0bffc6d88eaa18879a94f92dd26ef3bca5e62b338ef08e6c0d95741342b13ee631ca9d937f2a885f2f45363f72b3bc68ad187ad5af8df5efd35247"
+RPM_NAME = "xfce4-cpufreq-plugin-1.3.0-1.4.aarch64.rpm"
+RPM_HASH = "8ca9f49eeac8fc5541157a8d45296683c55171d174b9779509f2e349ee02588a794b233c264c80ebabcb85bd91ccb84aabf0d2c1d65941fc5d7441425a94fc4c"
 
 RPROVIDES:${PN} += "libcpufreq.so \
 xfce4-cpufreq-plugin \

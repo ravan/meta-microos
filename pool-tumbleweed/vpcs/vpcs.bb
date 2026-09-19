@@ -12,10 +12,10 @@ Now, VPCS can be run in udp or ether mode. In the udp mode, VPCS sends or receiv
 the packets via udp. In the ether mode, via /dev/tap, not support on the Windows."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.8.2"
+PV = "0.8.4"
 
-RPM_NAME = "vpcs-0.8.2-1.6.aarch64.rpm"
-RPM_HASH = "65165254a0c3c4150ae34d5b6bfa2e538542dc662b8d04647844fd7a88ce64fe437467b524ca97acd416987fd9ff9b96839b67a742b1efcc8be97f43c12be582"
+RPM_NAME = "vpcs-0.8.4-1.1.aarch64.rpm"
+RPM_HASH = "24144732964439771ae1085b9387b122c4a8f34eb2c4806e4226814fa78f5dbf95e8d9cca832dc6351b3e3386bdcfd476372ed3e0eb7b11a81512bbfb528d9d5"
 
 RPROVIDES:${PN} += "vpcs"
 

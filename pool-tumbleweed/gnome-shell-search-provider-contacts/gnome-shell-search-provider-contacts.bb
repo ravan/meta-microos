@@ -12,10 +12,10 @@ This package contains a search provider to enable GNOME Shell to get \
 search results from contacts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-shell-search-provider-contacts-44.0-1.2.aarch64.rpm"
-RPM_HASH = "fe77b9f73dce98b702dafebc07e7ec8ebb7a73d04ef7894b02c0acc7f42e4b8137d309722f620a70fb0a429576a40d65066c1337f75a2a368be68e7fb562e5c9"
+RPM_NAME = "gnome-shell-search-provider-contacts-50.0-1.3.aarch64.rpm"
+RPM_HASH = "944d76b01aefceef7366b5520cf50c9ae16bb5612ae319e2fae23b1db2686f0fbfa42813ba199143d6c0ef01ff57cac5c3aa22f18cf4825204a72b8bb4c91612"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-contacts"
 

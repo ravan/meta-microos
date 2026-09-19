@@ -17,10 +17,10 @@ physicists, but others may also find it useful. It is \
 completely compatible with Plain TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.18svn45678"
+PV = "2026.227.2.18svn69742"
 
-RPM_NAME = "texlive-texsis-2023.209.2.18svn45678-55.1.noarch.rpm"
-RPM_HASH = "4de41cd150c03d648cbae921044dff8b343c42ed7257e43733b43acc917ff56df1d769704f314e7f998a8b1f91ea7649f5dcafb5723648cb5c96a737b23ebcba"
+RPM_NAME = "texlive-texsis-2026.227.2.18svn69742-62.2.noarch.rpm"
+RPM_HASH = "ed0906611583807b4b5e8296505091716425bc759b7e03431fd984bf4fb15d41134cb6fb6cd08cc87557bff68ecadc272b06a4a6f52e1413317cc7603bc48a0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-TXSconts.tex \
@@ -62,6 +62,7 @@ texlive-hyphen-base \
 texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-pdftex \
 texlive-plain \
 texlive-scripts \
 texlive-scripts-bin \

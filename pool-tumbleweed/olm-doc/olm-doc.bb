@@ -4,10 +4,10 @@ in C and C++, including an implementation of the Megolm cryptographic ratchet. \
 Documentation files for olm"
 LICENSE = "Apache-2.0"
 
-PV = "3.2.15"
+PV = "3.2.16"
 
-RPM_NAME = "olm-doc-3.2.15-1.1.noarch.rpm"
-RPM_HASH = "6d5daf1f9c093ee0ebdbc62f0316282964b1e88d76520e56da43af98772c4adb23e50d7c1314152734af3dd8e9da8c2e17a8fe6760f1678c5cad8b206a205628"
+RPM_NAME = "olm-doc-3.2.16-2.4.noarch.rpm"
+RPM_HASH = "4da6f5555ced3fae7bb438def8ca41d6b0dc1c823d18be635341c408a83fb5783fbeda515c25571af5f5ed9a822066ea2795a734f8e95fa2211cff2b85a37063"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "olm-doc"

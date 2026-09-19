@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "xdbedizzy-1.1.0-9.27.aarch64.rpm"
-RPM_HASH = "f74987e5c1a957d81fbfcb7c39ec505efc4ea18cb60b61ad6b40fbfde05c562a9fccebd8f0fbedafa83eccaf9ccf1ebcaf5cb272908c112144e708317b4a3f71"
+RPM_NAME = "xdbedizzy-1.1.0-9.37.aarch64.rpm"
+RPM_HASH = "6e1c00a41e5ae56d97e05f8390d9c63dbcf09380bbc6d49eee2113d1bdaec1d9345029dc4feb00b8ce3ede6c558c356f7ccc0cf29cc596bf590f811862060182"
 
 RPROVIDES:${PN} += "xdbedizzy"
 

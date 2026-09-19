@@ -9,10 +9,10 @@ may be used to distinguish between various classes of Unix \
 systems."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4asvn45533"
+PV = "2026.226.0.0.4asvn77682"
 
-RPM_NAME = "texlive-ifplatform-2023.209.0.0.4asvn45533-54.1.noarch.rpm"
-RPM_HASH = "67abeb4507a3fbe9799e906dfc32bf4af41fb10557df41581f3e9996a6fb9987df2159966b8144dcede806d3f54153b77dfc2eb208977d4921083ed75e1a3d5b"
+RPM_NAME = "texlive-ifplatform-2026.226.0.0.4asvn77682-60.2.noarch.rpm"
+RPM_HASH = "6c14d44c5c9c38f901256b008828d8d6763b04016e0bbe9b1f1dfcd86e209eca422d07f3cf3dd12717e8a8d37dddda9c62f0d9a7ad2c4ad221b9bbd49975e0cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifplatform.sty \

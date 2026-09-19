@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "libply-splash-core5-22.02.122+94.4bd41a3-10.1.aarch64.rpm"
-RPM_HASH = "9c205405f5b85b90e4c5dfc5c75428ab2cc21859b961827ca819b0a38410c57fa20acf0eb60e4236c9d2e71d0d2c3a57da1c3bdb9ac2e4fb9aed92ba1c870f95"
+RPM_NAME = "libply-splash-core5-22.02.122+94.4bd41a3-20.6.aarch64.rpm"
+RPM_HASH = "d60bac936bca237eef825639bb657b44778bc74eda5746ad7d3cc955bd33c156026005ac5614a195ef2f26159051c41512ef19d67bcd78f53b473ff88ead9239"
 
 RPROVIDES:${PN} += "libply-splash-core.so.5 \
 libply-splash-core5"

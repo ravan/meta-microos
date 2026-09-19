@@ -3,16 +3,17 @@ DESCRIPTION = "This package contains the C/C++ header files and the configuratio
 files for developing applications that use the primecount library."
 LICENSE = "BSD-2-Clause"
 
-PV = "7.9"
+PV = "8.7"
 
-RPM_NAME = "libprimecount-devel-7.9-1.1.aarch64.rpm"
-RPM_HASH = "3f80f87d1d5f5bbfb1ad031c1646ad6d8909ce49759b27513e8421a1c4871b01b4d2142710a6abfe00545f7198a461f040f4116ac34b5ac35f4c2b5fa80fc89f"
+RPM_NAME = "libprimecount-devel-8.7-1.1.aarch64.rpm"
+RPM_HASH = "70943041c77d56b226203991be48dad5aa14ededf20e0012291968c54c1c17c1bff183ee39bb46306a71e13f45a7c0da01b4c7daea4e5e2a9915554c25f7cc1f"
 
-RPROVIDES:${PN} += "libprimecount-devel \
+RPROVIDES:${PN} += "cmake-primecount \
+libprimecount-devel \
 pkgconfig-primecount"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libprimecount7 \
+libprimecount8 \
 pkgconfig-primesieve"
 
 inherit rpm

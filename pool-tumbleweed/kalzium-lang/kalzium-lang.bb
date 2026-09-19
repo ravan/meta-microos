@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kalzium"
 DESCRIPTION = "Provides translations for the 'kalzium' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kalzium-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "7387a6ed339e518301fbd49a5bb05c019455532933da45a395000bc698c8d2ea06610fc1fc9504a9cedc0df8045c6df7f2c29c5cf7ccb9e53676ea437c11a895"
+RPM_NAME = "kalzium-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "837cb3daf9f656f4880e945de68ede4ff76d451f4940061cc3c5f6fb5a65cc11f6fc27a3f339e15fc0713adee6cbccb5fc4d014d57a851b1e399c3e9cd744c14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kalzium-lang \
@@ -39,6 +39,7 @@ locale-kalzium-he \
 locale-kalzium-hi \
 locale-kalzium-hr \
 locale-kalzium-hu \
+locale-kalzium-ia \
 locale-kalzium-is \
 locale-kalzium-it \
 locale-kalzium-ja \

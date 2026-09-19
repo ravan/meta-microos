@@ -3,29 +3,30 @@ DESCRIPTION = "The TeXworks project is a simple TeX front-end program (working \
 environment) that is modeled on Dick Koch's TeXShop for Mac OS X."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.8"
+PV = "0.6.11"
 
-RPM_NAME = "texworks-0.6.8-1.4.aarch64.rpm"
-RPM_HASH = "700697a6db5056433b235090d3d6a2e3a86087a46d8951db15717ad1a7794488d65ff33c5d37effee1b4d49f33edc12635acb7644a2a5e6d91a02ab9a00e449a"
+RPM_NAME = "texworks-0.6.11-1.3.aarch64.rpm"
+RPM_HASH = "398d73a0d6c7175e40c3b735f0f244f3a0a9b4b763b7c2a6c77b31880c80689b0b01d42e308983546d714f3494dcdbc4e65a9c7e921fea079995dd734b0daed7"
 
 RPROVIDES:${PN} += "texworks"
 
 RDEPENDS:${PN} += "dbus-1 \
 hunspell \
 ld-linux-aarch64.so.1 \
-libQt5Concurrent.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5Script.so.5 \
-libQt5ScriptTools.so.5 \
-libQt5Widgets.so.5 \
+libQt6Concurrent.so.6 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6UiTools.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libhunspell-1.7.so.0 \
 libm.so.6 \
-libpoppler-qt5.so.1 \
+libpoppler-qt6.so.3 \
 libstdc++.so.6 \
 libz.so.1 \
 poppler-tools \

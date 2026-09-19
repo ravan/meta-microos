@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-multi-writer"
 DESCRIPTION = "Provides translations for the 'gnome-multi-writer' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.35.90"
+PV = "3.35.90+26"
 
-RPM_NAME = "gnome-multi-writer-lang-3.35.90-1.15.noarch.rpm"
-RPM_HASH = "d8eaff9b0d662048ea34a815248d645d2de260941fcd30b24a7f9f56643515b1d50c681a7be963d90c965d7a323b9a3f6dee81fb952545733dccca6650606217"
+RPM_NAME = "gnome-multi-writer-lang-3.35.90+26-3.4.noarch.rpm"
+RPM_HASH = "a6c0c26b8c3d713ea9669bcffdc293d8c0a40931b0b5f35f2b9513fcce182d751db4aefcddf97bdc15521d49a2a9c15fdc628ec69fb938ec872af5c821dcb165"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-multi-writer-lang \
@@ -30,12 +30,15 @@ locale-gnome-multi-writer-hu \
 locale-gnome-multi-writer-id \
 locale-gnome-multi-writer-it \
 locale-gnome-multi-writer-ja \
+locale-gnome-multi-writer-ka \
+locale-gnome-multi-writer-ko \
 locale-gnome-multi-writer-nb \
 locale-gnome-multi-writer-nl \
 locale-gnome-multi-writer-oc \
 locale-gnome-multi-writer-pl \
 locale-gnome-multi-writer-pt \
 locale-gnome-multi-writer-pt-BR \
+locale-gnome-multi-writer-ro \
 locale-gnome-multi-writer-ru \
 locale-gnome-multi-writer-sk \
 locale-gnome-multi-writer-sl \

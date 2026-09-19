@@ -6,10 +6,10 @@ If you want to access your modem with minicom, you have to be a member \
 of the uucp group."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.8"
+PV = "2.11.1"
 
-RPM_NAME = "minicom-2.8-2.1.aarch64.rpm"
-RPM_HASH = "42a8d771d9bd81f44bfa32c4524ff2a254efb7e1475b747c1ebc014e9a84f12601acd72de81729d86b85ae58e6224f2d946b18c3343e32ebbf0f06d87a4661c7"
+RPM_NAME = "minicom-2.11.1-2.3.aarch64.rpm"
+RPM_HASH = "9275cd300db1b13a190c6f0800bcd9d78d62fa272069fa7ca1fe50b51fc451bf4dd67454338358811673a93c93bbdb5ab9a291112641afbef242c9492132dd3a"
 
 RPROVIDES:${PN} += "minicom"
 

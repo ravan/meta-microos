@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ellipsis"
 DESCRIPTION = "This package includes the documentation for texlive-ellipsis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8svn55418"
+PV = "2026.226.1.8svn77682"
 
-RPM_NAME = "texlive-ellipsis-doc-2023.209.1.8svn55418-54.2.noarch.rpm"
-RPM_HASH = "fe294121b05a7daddf0764f2394deecf5d0184001211298e8e653c9e591199949df5d65d1bae4d548d1149297112c54da5ef315e4fe50ee488c9865a8dc7c190"
+RPM_NAME = "texlive-ellipsis-doc-2026.226.1.8svn77682-61.4.noarch.rpm"
+RPM_HASH = "df4792514b36241742a1d4988c385cda19b49d6f1fba8aead6d470d7fadddca79e7067cdeabd163a11fbaa70c846ec47e9e3b02d3804f9092a549717d4081500"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ellipsis-doc"

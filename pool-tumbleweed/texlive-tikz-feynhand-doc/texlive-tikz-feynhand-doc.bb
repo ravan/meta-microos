@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-feynhand"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-feynhand"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1.0svn51915"
+PV = "2026.226.1.1.0svn76924"
 
-RPM_NAME = "texlive-tikz-feynhand-doc-2023.209.1.1.0svn51915-53.1.noarch.rpm"
-RPM_HASH = "dac48124d455bda186454efa319afcec5e2ab400fb7253e0e2a4e14d093652dcb3bfaf419af397dd4d1f9e53d14b4c31f73dc42f8e35381ef44d3d5ad1ba0c6f"
+RPM_NAME = "texlive-tikz-feynhand-doc-2026.226.1.1.0svn76924-59.2.noarch.rpm"
+RPM_HASH = "a373238753bd0b1c5aa40cb3cf3b8c4c62adc667f1f1b6153b5733c0c867d5ccfd3b9268f6fec274cddbb3df764614d0f0694c963551b7ca28daa8972b59eb52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-feynhand-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "Contains the files required by CUPS for printing to Bluetooth-con
 printers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.69"
+PV = "5.82"
 
-RPM_NAME = "bluez-cups-5.69-1.1.aarch64.rpm"
-RPM_HASH = "08a940285fa43b203d5d50a10a3e59fb6b5aa2879c2a5aa13ed4a25367a82995b0f0a2235f254e97ee2c0dc1e5cfb8bb11377daf9bf17c4af047f9dd77a7c63f"
+RPM_NAME = "bluez-cups-5.82-2.4.aarch64.rpm"
+RPM_HASH = "7e4cfc1afa4f5b0066bd3987792377595a710f38413be8925601b78b05bb207b77db0cad41cf7d3845b1ae32a6a2774098a9b78610c83f3275ecb526b018c429"
 
 RPROVIDES:${PN} += "bluez-cups"
 

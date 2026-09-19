@@ -5,10 +5,10 @@ systems. \
 See libvslvm for additional details."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221025"
+PV = "20260901"
 
-RPM_NAME = "libvslvm-tools-20221025-5.1.aarch64.rpm"
-RPM_HASH = "b0f4083e4e0a6d2c748454483d9fc25c97e0c90c0401b366aed0d366c616107322988af1f3b8845b2ff84ca8877e29a0595d4d738eafc8a5bb5d83a67451ee7c"
+RPM_NAME = "libvslvm-tools-20260901-1.1.aarch64.rpm"
+RPM_HASH = "8994ab011329cd2a85f48c3193c9090328162756b91d01b70acdd0a51acb5cf43bb9d155d269cf8b6a8e51a0aa231190265074f819d1de7c1ff208506836a1aa"
 
 RPROVIDES:${PN} += "libvslvm-tools"
 
@@ -19,7 +19,7 @@ libcdata.so.1 \
 libcerror.so.1 \
 libclocale.so.1 \
 libcnotify.so.1 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libvslvm.so.1"
 
 inherit rpm

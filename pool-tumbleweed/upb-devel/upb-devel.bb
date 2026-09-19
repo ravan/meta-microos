@@ -8,13 +8,13 @@ in an arena (note: the arena can live in stack or static memory if desired). \
 This package provides development files for upb."
 LICENSE = "Apache-2.0"
 
-PV = "1.58.0"
+PV = "1.76.0"
 
-RPM_NAME = "upb-devel-1.58.0-1.1.aarch64.rpm"
-RPM_HASH = "b2a939ea4909d55eace958ca7d684d271b66de31c41578510269298e6fad17b90c7f94cccb2227c48fc89cfd72401c3136b7224e2de6f87a6a6133a9ad73cb93"
+RPM_NAME = "upb-devel-1.76.0-3.12.aarch64.rpm"
+RPM_HASH = "02b6a8469938dd63664ccdf293e2a84468a7f16abe508e81e3fdf17a19b118d2460da19368eb8d22459ba78476ab9a67a961aeec8df6050bd3a8a3385d8ff185"
 
 RPROVIDES:${PN} += "upb-devel"
 
-RDEPENDS:${PN} += "libupb35"
+RDEPENDS:${PN} += "libupb51"
 
 inherit rpm

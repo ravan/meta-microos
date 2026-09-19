@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides macros that enforce basic Czech \
 typography rules through Lua hooks available in LuaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.03svn41986"
+PV = "2026.226.0.0.03svn41986"
 
-RPM_NAME = "texlive-cstypo-2023.209.0.0.03svn41986-55.1.noarch.rpm"
-RPM_HASH = "3e73515a8e2e1d09db3b7e4cc5aad109d8c73ca791c66ec395e27a0ada81494178f2a3a7a3c1803982714ce72ea1e7fe6fed5b8adc3a4467b094775f27bcbcec"
+RPM_NAME = "texlive-cstypo-2026.226.0.0.03svn41986-61.2.noarch.rpm"
+RPM_HASH = "55215166a8bd5dd485677a5fef0f8ea08c17e35b10aa3294a8b2bdeed3f70ae25049943563b96cccdea3ef7d2966fc1753d31ebf4e49885f5a3fd8512a6a21ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cstypo-tex.tex \

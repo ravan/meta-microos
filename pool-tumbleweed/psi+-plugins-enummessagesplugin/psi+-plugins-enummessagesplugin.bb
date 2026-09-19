@@ -6,19 +6,19 @@ Supports per contact on / off message enumeration via the buttons on the chats \
 toolbar."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "1.5.1615+0"
+PV = "1.5.2112+0"
 
-RPM_NAME = "psi+-plugins-enummessagesplugin-1.5.1615+0-3.2.aarch64.rpm"
-RPM_HASH = "8fc5b17c625d0a0b212b65c0c41576b4030a4c30c54856dcee99639189abdec94fa65fd71b2897efee7a594d94b7b359727e9ff3d4a82a54e863303d4e6020a5"
+RPM_NAME = "psi+-plugins-enummessagesplugin-1.5.2112+0-1.6.aarch64.rpm"
+RPM_HASH = "5827387d4848a0354989cfedb8652eb69bb43583cea43d163560ef5320137bbef08ce71e58994e308f86fdaec63df4a0e7cd971bf3b6b544c7c716c6f2c6c902"
 
 RPROVIDES:${PN} += "libenummessagesplugin.so \
 psi+-plugins-enummessagesplugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

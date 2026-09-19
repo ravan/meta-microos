@@ -6,10 +6,10 @@ is designed for use with pdfLaTeX; input in UTF-8 encoding is \
 assumed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7.1svn57866"
+PV = "2026.226.1.7.1svn57866"
 
-RPM_NAME = "texlive-udesoftec-2023.209.1.7.1svn57866-54.1.noarch.rpm"
-RPM_HASH = "2c7e6ddd7f7e020a191ebd860fa22de9debcff85d15df818355faf906dfc7958f951c83efe78bb58dcbe0d09122dd3a013b38c3b360f5e1a38611fff37b125af"
+RPM_NAME = "texlive-udesoftec-2026.226.1.7.1svn57866-60.2.noarch.rpm"
+RPM_HASH = "d8d414fbc87f3a86b52ee05c81b88177b2ffe6aa2356436337bb4e106e16482ce1d1e524716a6f11482b28b3655eda8d6c6c75b43bde99e823561aa78f5746c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-udesoftec-bibcommon.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package enhances the functionality of the VLC media player b
 using GStreamer and its submodules as a backend to decode streams."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.0.18"
+PV = "3.0.23"
 
-RPM_NAME = "vlc-codec-gstreamer-3.0.18-9.2.aarch64.rpm"
-RPM_HASH = "6ca7d932c2ffd220d2a67843c024c5c1a59ff4e349e0e2c945479584994c2568fa01416cf5764048e0dd1d14fa15ce4b648b4df5bdd8b13505079bc77654a930"
+RPM_NAME = "vlc-codec-gstreamer-3.0.23-7.12.aarch64.rpm"
+RPM_HASH = "72b17a395812f130a5bbbdab433bd79259ceb49625b0eda67d5c54ff1cbd46ca5a625a645c18659f84e9464b2443eaba8da4fd7d0ad98da41cf829e55a0af668"
 
 RPROVIDES:${PN} += "libgstdecode-plugin.so \
 vlc-codec-gstreamer"

@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libcpath."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220108"
+PV = "20260703"
 
-RPM_NAME = "libcpath-devel-20220108-4.6.aarch64.rpm"
-RPM_HASH = "1713c2b16392c3c5d7f7eec5c2196e1efb54b3c2a62d4d4f8be59fbdeede92388faf7fe7ca961ce69ae546a5d951e646257a08ef7bcc4274e66e060676915d8e"
+RPM_NAME = "libcpath-devel-20260703-1.2.aarch64.rpm"
+RPM_HASH = "6ab5eb014d80729c6c4051797bb9312d089a9c3747b4ea955cafad05e9da7856f83c907b6c26728c011cdbf0d867b836206741b70e0f648a1cf55b0eee2ea4ae"
 
 RPROVIDES:${PN} += "libcpath-devel \
 pkgconfig-libcpath"

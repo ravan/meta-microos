@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20210301"
 
-RPM_NAME = "pari-elldata-20210301-1.6.noarch.rpm"
-RPM_HASH = "1b1ee10f21ec2dd038bfad7f27653b76e246fc4a0638b4c8619448087ec77bab36dc029a4c2730ae9e7d9623379bed74ac80168bbd18a121a3f5a404b3490b12"
+RPM_NAME = "pari-elldata-20210301-1.14.noarch.rpm"
+RPM_HASH = "421f613875536bfff53bd1fac2b9ec3d5a87a6bf3d59c9eb44d023a017827f10ad063422cd4a709727c5f882733a8ea78db1ed85f2b317a394d0fa7a5b15d783"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pari-elldata"

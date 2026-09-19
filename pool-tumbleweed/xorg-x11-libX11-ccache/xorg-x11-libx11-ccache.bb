@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "7.6"
 
-RPM_NAME = "xorg-x11-libX11-ccache-7.6-22.7.aarch64.rpm"
-RPM_HASH = "cad82931e6cb55346d5e1b27b5e6fa5bacc12cee781460826213dd1a007071b4fb4839c32b27fcc299808b513b3951a1736525b4bfe3834955ba2169ab723bac"
+RPM_NAME = "xorg-x11-libX11-ccache-7.6-22.18.aarch64.rpm"
+RPM_HASH = "7d075d126e03f949a3cb7c96cf1919efe2aad28506b40c2e85cc87dcfc8db1d2c83986946d26f01a48ff1469ae95f6659780fc5b5e6a8e1fdce7b673001f9e31"
 
 RPROVIDES:${PN} += "xorg-x11-/var/X11R6/compose-cache/ \
 xorg-x11-libX11-ccache"

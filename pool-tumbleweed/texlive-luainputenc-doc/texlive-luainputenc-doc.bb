@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luainputenc"
 DESCRIPTION = "This package includes the documentation for texlive-luainputenc"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.208.0.0.973svn20491"
+PV = "2026.226.0.0.973svn77682"
 
-RPM_NAME = "texlive-luainputenc-doc-2023.208.0.0.973svn20491-53.1.noarch.rpm"
-RPM_HASH = "5d2f48cf32613fe30634a8dddcb3eead78fd407f626f0063d74885773e128c10b7c1044aa7d4f53dcd6d2398cbbf9e2f0385488345979850c80214e8f2cfd819"
+RPM_NAME = "texlive-luainputenc-doc-2026.226.0.0.973svn77682-59.2.noarch.rpm"
+RPM_HASH = "43aedbb72d2a73cdc0de1d561df60a12de04d85d5977bcb30d3efda81f9901959f2812b9903de3653e2cfa81079827d8c68373e3e0613ff2ee42ee92714de36d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luainputenc-doc"

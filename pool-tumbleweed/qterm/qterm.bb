@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.4"
 
-RPM_NAME = "qterm-0.7.4-1.13.aarch64.rpm"
-RPM_HASH = "7e52af4c1d43e7ce35ade17ad4eb67d0c8317c62eea142d37e4441830f5c2cd2be2406512b0e3eb5be157c884597d5bc8592d6d3ed0ffabe40d47b36583ca20b"
+RPM_NAME = "qterm-0.7.4-3.10.aarch64.rpm"
+RPM_HASH = "ba6b4a7cd8d029731ff8be9708bdbce3db121ef5fefcbf0e4c2bd5b72ba85843d91ec948980e18c09401af15f09a8d48de50881ee398928f11990dbdaf288aee"
 
 RPROVIDES:${PN} += "qterm"
 

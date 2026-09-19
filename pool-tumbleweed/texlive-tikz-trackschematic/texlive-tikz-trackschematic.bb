@@ -8,10 +8,10 @@ sublibraries: topology, trafficcontrol, vehicles, \
 constructions, electrics, symbology, and measures."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7.1svn63480"
+PV = "2026.226.0.0.7.1svn63480"
 
-RPM_NAME = "texlive-tikz-trackschematic-2023.209.0.0.7.1svn63480-53.1.noarch.rpm"
-RPM_HASH = "6e0c31858e7c268518289bc3296b99a15e0eb6b2eae5939dcd5a19bc44cfd00763d4f3d535221ae966c77278cbea70176b35747c1f5875481d6cb05c3cccd8ff"
+RPM_NAME = "texlive-tikz-trackschematic-2026.226.0.0.7.1svn63480-59.2.noarch.rpm"
+RPM_HASH = "50700c9e9046e31dcd23f9fb241ef49b12484586311ec5d4d28c92165bb3a0a996f592cc53baf99cc32dc01a82a0db54a670d59b1812a27abf967f04823d29d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-trackschematic.sty \

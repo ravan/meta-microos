@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0.3"
 
-RPM_NAME = "libsha1detectcoll-devel-1.0.3-4.20.aarch64.rpm"
-RPM_HASH = "faec6cc26599d156a2083fb8d26561db325ae145d49dc8d7fbc326ea90b839672b0cfe37021cff3296d51fb1fc541abce186b00e550e12f8e7216c1193fe3096"
+RPM_NAME = "libsha1detectcoll-devel-1.0.3-5.9.aarch64.rpm"
+RPM_HASH = "004a54ef61a4f8b54dc2474c1fbdc6443c73c292fa9a92fb896ef97b99f4fdcf02dab0caf0c7b668b6429785e73d3d9baaf39fd8b0d4f0476324fdb2defb6795"
 
 RPROVIDES:${PN} += "libsha1detectcoll-devel"
 

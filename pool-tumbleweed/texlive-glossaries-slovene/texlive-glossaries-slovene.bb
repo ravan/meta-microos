@@ -2,10 +2,10 @@ SUMMARY = "Slovene language module for glossaries package"
 DESCRIPTION = "Slovene language module for glossaries package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn51211"
+PV = "2026.226.1.0svn51211"
 
-RPM_NAME = "texlive-glossaries-slovene-2023.209.1.0svn51211-54.2.noarch.rpm"
-RPM_HASH = "5e034140f5a36f372861281980e8e139003cbdd2e545625e19384fca1e84b907e43126dcfd2ead025d2e4323a2bcdb327dd741add3eff1880bb57e49a33e137e"
+RPM_NAME = "texlive-glossaries-slovene-2026.226.1.0svn51211-60.4.noarch.rpm"
+RPM_HASH = "6e6994ffb5e23feb1b4290d26d323daab2772729f50fe2f78ecb2ded0efd5818632e11c8a200d434112e4731acf666a713c6e78a45dc2896d9331c765bb74dce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glossaries-slovene.ldf \

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0"
 
 PV = "3.22.2"
 
-RPM_NAME = "gtk2-metatheme-e17gtk-3.22.2-1.11.noarch.rpm"
-RPM_HASH = "ddf0f48f388d57f0b11bbf84fe938465040627cc8a1b8d1ac05b3d7763b3731c4fe168c763c9fad310f5e5ae0e6214377c212d85878a4a5451ebb45d907ed265"
+RPM_NAME = "gtk2-metatheme-e17gtk-3.22.2-1.19.noarch.rpm"
+RPM_HASH = "f2f737775106b437d758a939f182aece53d8d59720440daadec3d9f154539a2bc2bf907869440db6bdb9fd87c948f84e315a8ae79099d7a175bc534a2f0c20c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-e17gtk"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-prftree"
 DESCRIPTION = "This package includes the documentation for texlive-prftree"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.6svn54080"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-prftree-doc-2023.209.1.6svn54080-53.1.noarch.rpm"
-RPM_HASH = "d1633531749f7ae52a7f9069bb2e3f4daa0ca9d2663757ccd59a770b14cbb5440cae816fac560347d0abc2a8cf5b506a74f634831f00a26ae9cc5502cc4cf444"
+RPM_NAME = "texlive-prftree-doc-2026.226.1.6svn77682-59.2.noarch.rpm"
+RPM_HASH = "967384a9a6c8f65584c6f063627587bcf57d36bcbb360d01fe95fbd91c50228acbf8e526abc85707c6ac025e74938fbe044d25e9c4892b1903fb71d27ba3fc26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-prftree-doc"

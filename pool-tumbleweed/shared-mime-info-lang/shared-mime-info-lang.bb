@@ -2,10 +2,10 @@ SUMMARY = "Translations for package shared-mime-info"
 DESCRIPTION = "Provides translations for the 'shared-mime-info' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.2"
+PV = "2.5.1"
 
-RPM_NAME = "shared-mime-info-lang-2.2-2.2.noarch.rpm"
-RPM_HASH = "43b1cb9ab19613ce82a2f8bb04e5422e74b8d3f905d2c2026c62d35d4bebb7200a02ba37a4ea26ba53334899809fe14c3a84ef9f613af7c0f324ba0d4803afe2"
+RPM_NAME = "shared-mime-info-lang-2.5.1-1.1.noarch.rpm"
+RPM_HASH = "7443ce6997f6100d03b2e6ce2a15617fb9205a14f7a67233b9a2de043cf2ccfe3c61e2bc9c972c253cfb63bbf03406b1af2bbb5295c4d8edf53086ee4f679b91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-shared-mime-info-af \
@@ -42,6 +42,7 @@ locale-shared-mime-info-hr \
 locale-shared-mime-info-hu \
 locale-shared-mime-info-ia \
 locale-shared-mime-info-id \
+locale-shared-mime-info-is \
 locale-shared-mime-info-it \
 locale-shared-mime-info-ja \
 locale-shared-mime-info-ka \
@@ -64,6 +65,7 @@ locale-shared-mime-info-pt \
 locale-shared-mime-info-pt-BR \
 locale-shared-mime-info-ro \
 locale-shared-mime-info-ru \
+locale-shared-mime-info-si \
 locale-shared-mime-info-sk \
 locale-shared-mime-info-sl \
 locale-shared-mime-info-sq \

@@ -6,10 +6,10 @@ elements can be displayed. The package requires the xkeyval \
 package for decoding its arguments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.91svn15878"
+PV = "2026.226.0.0.91svn15878"
 
-RPM_NAME = "texlive-pst-spectra-2023.209.0.0.91svn15878-54.2.noarch.rpm"
-RPM_HASH = "5a55b34a09fcdd8346026028a81c1b7dcb623d9d76e01faca1f72930c728861146b8de1903f62852e18df53bc4b07b2f5a6b707961743d3c8426c397ba8e91f4"
+RPM_NAME = "texlive-pst-spectra-2026.226.0.0.91svn15878-60.4.noarch.rpm"
+RPM_HASH = "35c18241c2e0c18dc8e0c9197b4322d5c028a397f1ce1b7d61dbec279358f62eb87b1fab62528a46edda785fe03bd6c40c440ee40235859a457e18e3e69aa71a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-spectra.sty \

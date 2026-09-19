@@ -9,10 +9,10 @@ By talking to ATK-Bridge, it keeps itself from being affected by the \
 change of underlying communication mechanism."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.38.0"
+PV = "0.44.0"
 
-RPM_NAME = "java-atk-wrapper-0.38.0-3.8.aarch64.rpm"
-RPM_HASH = "f182552807c99d3e321a2f944ffdcf19103fbbd4fb6b9d2536f2132433484301592ecf78a826058cc00b8132e1599418d20bc4433f776012ce31b930dd5aed63"
+RPM_NAME = "java-atk-wrapper-0.44.0-1.6.aarch64.rpm"
+RPM_HASH = "68241b2d4886a56f4d9e058a25dcbe2d4b357e069b51ead84337fc3b6b51eb5239ae977124e353e99200769a4f14f3cc7a271660fcffbcbea0045e9948a6585b"
 
 RPROVIDES:${PN} += "java-atk-wrapper \
 libatk-wrapper.so"

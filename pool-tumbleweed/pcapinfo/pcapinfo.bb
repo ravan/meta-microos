@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.21"
 
-RPM_NAME = "pcapinfo-0.21-1.5.aarch64.rpm"
-RPM_HASH = "b520e088bd64fa6404362f31bb892ee73051b84abf44e85a83e93784efdbcd3d78848fdfb9660ef257f55cbe82ee903072647c565edec8e9f081fcd70dff78eb"
+RPM_NAME = "pcapinfo-0.21-1.22.aarch64.rpm"
+RPM_HASH = "4b9c88813dd9bd94e3514b56682a935d98e3504d6621c914044dbe3dfbc1f7a382e3b51afa9ecdf23650a861da4c94032df7f1c9343b70332e74343b2a60e1e8"
 
 RPROVIDES:${PN} += "pcapinfo"
 

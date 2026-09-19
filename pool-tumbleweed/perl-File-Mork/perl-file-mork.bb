@@ -1,4 +1,4 @@
-SUMMARY = "Module to Read Mozilla Url History Files"
+SUMMARY = "Module to read Mozilla URL history files"
 DESCRIPTION = "This is a module that can read the Mozilla URL history file -- normally \
 $HOME/.mozilla/default/*.slt/history.dat -- and extract the id, url, name, \
 hostname, first visted dat, last visited date and visit count. \
@@ -8,10 +8,10 @@ has some platform-independent code for finding the profiles of various \
 Mozilla-isms (including Firefox, Camino, K-Meleon, etc.)."
 LICENSE = "MIT"
 
-PV = "0.4"
+PV = "0.400.0"
 
-RPM_NAME = "perl-File-Mork-0.4-2.23.noarch.rpm"
-RPM_HASH = "80e6f6f4bf4018152264aa34247a7e266ea2da2d1acf6fa8db95562e84e80601a569b7a96c4ffa17342a2e1c6dd18f98f55e3169cda157e57b54764c7dce67dd"
+RPM_NAME = "perl-File-Mork-0.400.0-1.9.noarch.rpm"
+RPM_HASH = "b54d82060caff7956d31e75e5b09faf3cb1eca7cae736a8195155ef1e68c290bc02de6860ce70a973529af81fc9a59fd0825d6b691c4f428d41bc0847259095f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Mork \
@@ -19,7 +19,7 @@ perl-File--Mork--Entry \
 perl-File-Mork"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-HTML--Entities"
 
 inherit rpm

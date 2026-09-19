@@ -2,16 +2,15 @@ SUMMARY = "Translations for package krusader"
 DESCRIPTION = "Provides translations for the 'krusader' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.8.0"
+PV = "2.9.0"
 
-RPM_NAME = "krusader-lang-2.8.0-1.4.noarch.rpm"
-RPM_HASH = "f093e69dd1f006bbcdd5558f3ab6fc40842001e6fe966d8b036687de7cca685f5e67a3b6642e5512de98bb485cf1ebdf2d54ab6205f6fd9b50380dd35b847731"
+RPM_NAME = "krusader-lang-2.9.0-1.6.noarch.rpm"
+RPM_HASH = "1cd52bddf6808c78e75bb0d789bf4aa9b93eb33d27f565cf4312d981b1936bc673aa55ae1e3e4610641a9f37f0fe7520069f750dd95082f198548d1eddf7661a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "krusader-lang \
 krusader-lang-all \
 locale-krusader-ar \
-locale-krusader-ast \
 locale-krusader-bg \
 locale-krusader-bs \
 locale-krusader-ca \
@@ -29,6 +28,7 @@ locale-krusader-fi \
 locale-krusader-fr \
 locale-krusader-ga \
 locale-krusader-gl \
+locale-krusader-he \
 locale-krusader-hr \
 locale-krusader-hu \
 locale-krusader-ia \

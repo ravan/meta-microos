@@ -5,16 +5,13 @@ This is for toplevel and scripting access only.  To compile OCaml \
 programs which use libguestfs you will also need ocaml-libguestfs-devel."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.50.1"
+PV = "1.60.1"
 
-RPM_NAME = "ocaml-libguestfs-1.50.1-4.2.aarch64.rpm"
-RPM_HASH = "1a28ac1acff50e69ce34dc4b61d31a94d8ccd0976c3583aa9b4458da788568f50a7b9a5d717ea023d0521644f550461adca162e59ffc271c2264c698bf761857"
+RPM_NAME = "ocaml-libguestfs-1.60.1-1.1.aarch64.rpm"
+RPM_HASH = "cc8789d9f3f7d073c427ff333af6d4cfc33749877187bdb7334e7fbe7afe99019431b75575c19836d692bf722b6d25d6d922dae4fc480d33227e06df47163a84"
 
 RPROVIDES:${PN} += "ocaml-libguestfs"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
-libguestfs \
-libguestfs.so.0"
+RDEPENDS:${PN} += "libguestfs"
 
 inherit rpm

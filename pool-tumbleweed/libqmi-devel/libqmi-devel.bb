@@ -4,10 +4,10 @@ DESCRIPTION = "A GLib/GIO based library to control QMI devices \
 This package contains files required to link sources against libqmi."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "1.32.4"
+PV = "1.38.0"
 
-RPM_NAME = "libqmi-devel-1.32.4-1.2.aarch64.rpm"
-RPM_HASH = "7f8a5eccdc937e7735d5f89f84bbc314d03e0997d9dda6313c74269dcaa51d80bde332e4c4940f18cc0f56f56953f7c04d648814f16752bf8752a9e4a199f604"
+RPM_NAME = "libqmi-devel-1.38.0-1.3.aarch64.rpm"
+RPM_HASH = "11a185ee97788551df631e36dffac6b940df82e6e1d85f559d6ded8265f43ca7ac7dc27d5501dd0067836fe0db8209e42d634d59ef952089411f713ae48f0f97"
 
 RPROVIDES:${PN} += "libqmi-devel \
 pkgconfig-qmi-glib"

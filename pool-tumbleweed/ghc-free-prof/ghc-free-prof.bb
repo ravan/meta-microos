@@ -2,27 +2,27 @@ SUMMARY = "Haskell free profiling library"
 DESCRIPTION = "This package provides the Haskell free profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.1.10"
+PV = "5.2"
 
-RPM_NAME = "ghc-free-prof-5.1.10-2.9.aarch64.rpm"
-RPM_HASH = "3209b51aa746128ec994340882fbbbebb26a73fb4879c4b51e756559fce24e34119dc3ae8177fbd18eb64fa742f32b48a11a23f898e429b5258b24e7c6809c69"
+RPM_NAME = "ghc-free-prof-5.2-6.3.aarch64.rpm"
+RPM_HASH = "4be3565a95e86927a9148b61451306e4bbf58dc590fd8e325412449a9f71791d8fb8a20c340fb29f68bb497a3a124ec679e25566a68c03f0241346bd26b42e9e"
 
 RPROVIDES:${PN} += "ghc-free-prof \
-ghc-prof-free-5.1.10-8DOWW3JiZaX7obxPZwBWX0"
+ghc-prof-free-5.2-4eWU5ydqIMF46nGJ3OnruR"
 
 RDEPENDS:${PN} += "ghc-free-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-comonad-5.0.8-56nFbOwllOwBl7FMfSy83E \
-ghc-prof-containers-0.6.7 \
-ghc-prof-distributive-0.6.2.1-7gHlNDSCz3vFkde299iroS \
-ghc-prof-exceptions-0.10.5 \
-ghc-prof-indexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-profunctors-5.6.2-GfNUFxHNpLn859duquR0iv \
-ghc-prof-semigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g \
-ghc-prof-template-haskell-2.19.0.0 \
-ghc-prof-th-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-transformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-comonad-5.0.10-Adp50yscRn74SK6wUdL7QP \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-distributive-0.6.3-9lg1Hxwh2KlJVxh3zQCgyL \
+ghc-prof-exceptions-0.10.12-f655 \
+ghc-prof-indexed-traversable-0.1.5-JylwuAInS9n4ImeZ4JChDW \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-profunctors-5.6.3-CPqBm5VgzT9DSAiXWxFcrG \
+ghc-prof-semigroupoids-6.0.2-B6Y5GIvJ2JI8mXJpMQTJaF \
+ghc-prof-template-haskell-2.23.0.0-358a \
+ghc-prof-th-abstraction-0.7.2.0-LVMuWnluhDI5se4FHUInw7 \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-transformers-base-0.4.6.1-AexBYmHB9CZDEWAojzlCzB"
 
 inherit rpm

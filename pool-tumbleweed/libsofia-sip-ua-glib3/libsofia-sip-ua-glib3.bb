@@ -9,10 +9,10 @@ at the Nokia Research Center. \
 This package holds the glib2 bindings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.12.11+20110422"
+PV = "1.13.18"
 
-RPM_NAME = "libsofia-sip-ua-glib3-1.12.11+20110422-1.15.aarch64.rpm"
-RPM_HASH = "8b395921233a86c0c3a70836329a7369a129b2441679f833b2684eb4982293d1b2809374f978c7f0187c4fd98606aa5ff1fa0a90e8c9c924d22a2b9c0fc1057c"
+RPM_NAME = "libsofia-sip-ua-glib3-1.13.18-1.1.aarch64.rpm"
+RPM_HASH = "8d3d32f514a8cc33e751f7c2064ba2b065b0721fb332ca911f9193e46738495875dd2e003d4f140647f11585fef62ebc2494832bd38e168807044e64f6c681b4"
 
 RPROVIDES:${PN} += "libsofia-sip-ua-glib.so.3 \
 libsofia-sip-ua-glib3 \
@@ -21,7 +21,6 @@ sofia-sip-glib"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libglib-2.0.so.0 \
-libsofia-sip-ua.so.0"
+libglib-2.0.so.0"
 
 inherit rpm

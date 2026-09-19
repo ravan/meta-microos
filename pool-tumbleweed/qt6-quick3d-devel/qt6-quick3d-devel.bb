@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 Quick3D library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Quick3D library."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quick3d-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "ce0cc0616076a10826cb92498ca8a66d303916ffbd86c0d8c38bfd565a44d86a6d9d08c39fccc0e6dc45c4f12fb2c707747226f1e50e80f13fad3386fd560913"
+RPM_NAME = "qt6-quick3d-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "30016210e7a834cf80ea2235775d3513d145a1bb5a25570c9b9f94af98e0104f4572fef9be2cf47b0d61f80fd174a6b2cf8f2a6c3f8b50a5f7c1d9e198290599"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3D \
 cmake-Qt6Quick3DTools \

@@ -2,29 +2,30 @@ SUMMARY = "Haskell xmonad-contrib profiling library"
 DESCRIPTION = "This package provides the Haskell xmonad-contrib profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.17.1"
+PV = "0.18.2"
 
-RPM_NAME = "ghc-xmonad-contrib-prof-0.17.1-3.9.aarch64.rpm"
-RPM_HASH = "96186c45c75fb6cffaca1f618b4526ca9821a9d84d27686acf111553079674cff507890202f16fc2b285eb0ac9d230e214f41671d4b9f6742aa7faa6c5acbd03"
+RPM_NAME = "ghc-xmonad-contrib-prof-0.18.2-1.3.aarch64.rpm"
+RPM_HASH = "911c8fe94b2a623f2e6a4ae51762cdac30159eea24beffdf9c0cfa84ae0ad404044c8658693b2ee6e6d47a6b67669b2210d24bc09c3c6114cdf70254c9ebae42"
 
-RPROVIDES:${PN} += "ghc-prof-xmonad-contrib-0.17.1-5rViN1CbGyt6rkBLjPE8fT \
+RPROVIDES:${PN} += "ghc-prof-xmonad-contrib-0.18.2-7mXB0q6IEmXBaWH27GMzuc \
 ghc-xmonad-contrib-prof"
 
-RDEPENDS:${PN} += "ghc-prof-X11-1.10.3-1a2wZgfFAzXBkfyYtNRHp4 \
-ghc-prof-X11-xft-0.3.4-7SpxQIcr2IsKaDkpOrx1dS \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-process-1.6.17.0 \
-ghc-prof-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
-ghc-prof-time-1.12.2 \
-ghc-prof-unix-2.7.3 \
-ghc-prof-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
-ghc-prof-xmonad-0.17.2-5u18H8h5WrJ4e8esV9nzjE \
+RDEPENDS:${PN} += "ghc-prof-X11-1.10.3-1WMJghU3kQXBmOfIIGE3Rk \
+ghc-prof-X11-xft-0.3.4-C3us4A75PM8AtwtgFqRfgr \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-process-1.6.26.1-905d \
+ghc-prof-random-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh \
+ghc-prof-time-1.14-a7dc \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-unix-2.8.8.0-178a \
+ghc-prof-utf8-string-1.0.2-FCJm07Id8m53KWoTjjdHEG \
+ghc-prof-xmonad-0.18.1-92DX9BCe4RIB8NiPfjJWdp \
 ghc-xmonad-contrib-devel"
 
 inherit rpm

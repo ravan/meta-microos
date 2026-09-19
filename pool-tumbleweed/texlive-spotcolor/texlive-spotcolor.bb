@@ -5,10 +5,10 @@ templates for PANTONE and HKS colour spaces are included but \
 new ones can easily be defined."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn15878"
+PV = "2026.226.1.2svn15878"
 
-RPM_NAME = "texlive-spotcolor-2023.209.1.2svn15878-58.1.noarch.rpm"
-RPM_HASH = "58b3a44a023acdec99e1cee1280fee14c53703d7d89a767f0dba452389e12177b70579d071e678ddb46c5ba7c4ecc4c904f892451354b13eff511c5caab90edb"
+RPM_NAME = "texlive-spotcolor-2026.226.1.2svn15878-64.2.noarch.rpm"
+RPM_HASH = "a47f783aa486efcf0fcc664a6ad83034d9f65cff6ff8006042d2818f1db894eaf1811b403b4589cfc3615350f3451962e5fe5021f4e25a31b21c637ae7803de8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spotcolor.sty \

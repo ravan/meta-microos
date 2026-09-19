@@ -2,10 +2,10 @@ SUMMARY = "Haskell QuickCheck library documentation"
 DESCRIPTION = "This package provides the Haskell QuickCheck library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.14.3"
+PV = "2.15.0.1"
 
-RPM_NAME = "ghc-QuickCheck-doc-2.14.3-1.5.noarch.rpm"
-RPM_HASH = "43ec867aa4995866fd9224de35f513ba5aacbbb71f4b510bd3b38aa4b8c97eb49669e143406e5f790c8976e623a5a54530c279a9d3b561e5b2b2443f7f6afe0f"
+RPM_NAME = "ghc-QuickCheck-doc-2.15.0.1-2.15.noarch.rpm"
+RPM_HASH = "78ff90b59f081e1e107a48132133d2a03d1c1777f6654ff13af07ed4486a3fc003633dbaa4f80a68248e0f8d992e7d01ddf838fe2f20529cf29fda0339e0df8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-QuickCheck-doc"

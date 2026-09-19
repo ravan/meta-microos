@@ -5,10 +5,10 @@ external program associated with it, supplying it with the information about \
 the event and the location within the file system where it occured."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.3"
+PV = "5.5"
 
-RPM_NAME = "direvent-5.3-1.7.aarch64.rpm"
-RPM_HASH = "4fec32acc595ebd5b446fad26261899c9767b076fadd82bffc2542752fe385284383123f0288d6ca9bf7c3771bc720ca75de81ca1f8beec03efe7d6cf6f637a7"
+RPM_NAME = "direvent-5.5-1.3.aarch64.rpm"
+RPM_HASH = "83864d373d63aea14a0c7376e23903c7cf6a9e907acf7949e6d824dd4c6caa3644e45c2010c0abbeaaceb2cb33928faf2979b3058fceead339e6ed8741f6abde"
 
 RPROVIDES:${PN} += "direvent"
 

@@ -5,13 +5,12 @@ LICENSE = "MIT"
 
 PV = "0.8.3"
 
-RPM_NAME = "gummi-0.8.3-1.7.aarch64.rpm"
-RPM_HASH = "f4a948599d94d051033ae622efa3ce08a7a5929a4b7417ad60dee3e071752fd674c69b0a0b50ec8b82e2fecb7d18afc661180c4d1627f6857cd213a7a378b43f"
+RPM_NAME = "gummi-0.8.3-3.6.aarch64.rpm"
+RPM_HASH = "4e82ebd8c4dfc1d1e090d33c9335415785957d0efd3e5e528b51f7f69d3a10501da7ac7bd4ba1b60eca479df081b328fc610997bdda0eb37712b251654d7966c"
 
 RPROVIDES:${PN} += "gummi"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-gtkspell \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
@@ -26,6 +25,7 @@ libgtkspell3-3.so.0 \
 libpango-1.0.so.0 \
 libpoppler-glib.so.8 \
 libsynctex.so.2 \
-texlive-latex"
+texlive-latex \
+texlive-synctex"
 
 inherit rpm

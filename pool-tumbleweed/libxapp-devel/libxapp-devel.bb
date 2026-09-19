@@ -4,10 +4,10 @@ libraries, development tools necessary for compiling and linking \
 application which will use libxapp."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.6.1"
+PV = "3.2.2"
 
-RPM_NAME = "libxapp-devel-2.6.1-1.1.aarch64.rpm"
-RPM_HASH = "b08f0b474926c41370d8b5ca6a3e9e5b52e1e2fcaf214466e53f953ecf2a744b9d85e2de77aa9769fd987cfc54ed6d755eed7eb4faa3df36647a97a71489a275"
+RPM_NAME = "libxapp-devel-3.2.2-1.4.aarch64.rpm"
+RPM_HASH = "f23c96ec9e33395bd373f5e5874ba2a30dfda506f13c0f594c627a7705bd2bffb0b73f3d57e378fe54ba461da95e8cc98f314ef7472c58616b2a76ee87d02d20"
 
 RPROVIDES:${PN} += "libxapp-devel \
 libxapp-gtk3-module.so \

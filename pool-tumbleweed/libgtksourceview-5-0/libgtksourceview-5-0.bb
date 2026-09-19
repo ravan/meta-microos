@@ -6,10 +6,10 @@ It improves GtkTextView by implementing syntax highlighting and other \
 features typical of a source editor."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.8.0"
+PV = "5.20.0"
 
-RPM_NAME = "libgtksourceview-5-0-5.8.0-1.2.aarch64.rpm"
-RPM_HASH = "714976fe09fabe511ba15c4aa68756ed589194065fa1f5664aca908747397bbf6d2f6dd8b28a986d99f67f462a7f3d14449a2da121f4f906a9ddc1c75cd918d4"
+RPM_NAME = "libgtksourceview-5-0-5.20.0-2.1.aarch64.rpm"
+RPM_HASH = "fe9d16f9f20624696c33d4bd71df1364419aafd4559350b770bd7ff0215da056eec67ece9bbf69953f66d673ff051f7faddf46700307ca3c640b1fad21b3662c"
 
 RPROVIDES:${PN} += "gtksourceview5 \
 libgtksourceview-5-0 \
@@ -25,11 +25,12 @@ libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
+libgraphene-1.0.so.0 \
 libgtk-4.so.1 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpangoft2-1.0.so.0 \
 libpcre2-8.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.2"
 
-RPM_NAME = "openobex-devel-1.7.2-3.4.aarch64.rpm"
-RPM_HASH = "491de45e1bcec4ba9b560ae7a1117f2ea1b3b4e5d41a0eb39b1fe90aab7ff25b6c452f98a833df3440dac857dada3056f8a5b04754cc7b31393541e5bec07b51"
+RPM_NAME = "openobex-devel-1.7.2-3.14.aarch64.rpm"
+RPM_HASH = "181d0d0ac7d88d6a28db70a1c714c57d34f32255e2cc14fb3081cc9ac661f40beb6f939ab79e9f624a9a3ecb4a57668f7199835584a0f1668faa0a86a573a6f1"
 
 RPROVIDES:${PN} += "cmake-openobex \
 openobex-devel \

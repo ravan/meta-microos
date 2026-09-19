@@ -3,10 +3,10 @@ DESCRIPTION = "viewres displays a tree showing the widget class hierarchy of the
 Athena Widget Set (libXaw)."
 LICENSE = "X11"
 
-PV = "1.0.7"
+PV = "1.0.8"
 
-RPM_NAME = "viewres-1.0.7-1.3.aarch64.rpm"
-RPM_HASH = "c55f078f5d77b82b9194dbe90fb85114d0d587b7268393c1bfedddf72a393a4d320132b0306114d5cfe7bac2b317eccd448f9670064ea70c44b4f202a51c42ab"
+RPM_NAME = "viewres-1.0.8-1.5.aarch64.rpm"
+RPM_HASH = "6e6eedf8d358e1f1a16a4b293b305fa0dc4fe0c8720c0a1aa929838cc93689f782cd6020e877e03847f5704da4465dd910ba8721f9bb6c96863cd33aa145bf0f"
 
 RPROVIDES:${PN} += "viewres"
 

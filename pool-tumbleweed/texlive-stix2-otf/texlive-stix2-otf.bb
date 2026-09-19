@@ -9,10 +9,10 @@ The fonts are available royalty-free under the SIL Open Font \
 License."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.2.12svn58735"
+PV = "2026.226.2.12svn58735"
 
-RPM_NAME = "texlive-stix2-otf-2023.209.2.12svn58735-58.1.noarch.rpm"
-RPM_HASH = "6ca1735cb2aec02ae5c00a89b58d79328f85262f20cd9ab8fb58c2fcc89f040a71bea5a59b1573c29bc364fc190acb0753a71c83562b1d2681facfc70e0acecb"
+RPM_NAME = "texlive-stix2-otf-2026.226.2.12svn58735-64.2.noarch.rpm"
+RPM_HASH = "173b426ea3c391a758469df4b36bdac1d3119ba653fd5b0e1846ae84c39f27c196758e609cbd392cc6704928e42c404a703c4331509922b290a73ccb3d50b356"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stix2-otf"

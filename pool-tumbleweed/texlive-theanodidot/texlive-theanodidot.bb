@@ -17,10 +17,10 @@ objective, rational characteristics and are representative of \
 the time and philosophy of the Enlightenment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64518"
+PV = "2026.227.svn64518"
 
-RPM_NAME = "texlive-theanodidot-2023.209.svn64518-55.1.noarch.rpm"
-RPM_HASH = "0205a9720070fad17e3228a43cf2d8579928ff998837eec79e7cb3ea0fe1e310588947e94afee639231a30404a169e4477f1c9ebf8dd196df10b352c95669cda"
+RPM_NAME = "texlive-theanodidot-2026.227.svn64518-62.2.noarch.rpm"
+RPM_HASH = "9a408151964169741929b8e0b2803ca387fd1648bea57e2f7b46adb0afa051cfddc51a1009f3affe12a026e2b31781d509650b4d69ea6c57bb188e5bd9479f9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRTheanoDidot-TLF.fd \

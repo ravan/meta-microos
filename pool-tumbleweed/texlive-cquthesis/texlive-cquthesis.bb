@@ -4,10 +4,10 @@ LaTeX, bearing the ability to support bachelor, master, doctor \
 dissertations with grace and speed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.50svn55643"
+PV = "2026.226.1.50svn55643"
 
-RPM_NAME = "texlive-cquthesis-2023.209.1.50svn55643-55.1.noarch.rpm"
-RPM_HASH = "c20bf92c6cd7566da8b309f4388d475986427adc7467683bd37649ad433767c7950b605569ab6a1f8b316be4bd06f11fb9a0a78d07ec25422262a1c26dd316e7"
+RPM_NAME = "texlive-cquthesis-2026.226.1.50svn55643-61.2.noarch.rpm"
+RPM_HASH = "817733ec723e2dbec8559738801be5e21626f3ed21a852b398059b0be96121575e2a712b3ee8e76d55890beb6a69558156ddc1d9e1e63891318125c1d4c721e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cquthesis.cfg \

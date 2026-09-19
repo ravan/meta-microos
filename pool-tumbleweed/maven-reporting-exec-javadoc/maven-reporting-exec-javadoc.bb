@@ -2,10 +2,10 @@ SUMMARY = "API documentation for maven-reporting-exec"
 DESCRIPTION = "The API documentation of maven-reporting-exec."
 LICENSE = "Apache-2.0"
 
-PV = "1.6.0"
+PV = "2.0.1"
 
-RPM_NAME = "maven-reporting-exec-javadoc-1.6.0-1.11.noarch.rpm"
-RPM_HASH = "2a70dfba5bedab01d42e187fc8311283377aaa60f09ef3354d4adf5c069c52cccf788b928ae7f56701fb303ccd7d608d049e6bb753248d65b3ad160966b3cf79"
+RPM_NAME = "maven-reporting-exec-javadoc-2.0.1-1.2.noarch.rpm"
+RPM_HASH = "274948a44dd77901e296d78ec27ad30d92b538703e7fc13811eb60246686069a4f3808bafa7a2ffcb3110c4501149baf12c783e71302a778d70adff4a452f615"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-reporting-exec-javadoc"

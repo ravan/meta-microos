@@ -48,10 +48,10 @@ output from a 3270 session to be directed to a Unix printer queue. \
 x026 is a fun toy which emulates an x026 puncher."
 LICENSE = "MIT"
 
-PV = "4.2"
+PV = "4.5"
 
-RPM_NAME = "x3270-4.2-2.1.aarch64.rpm"
-RPM_HASH = "cba5feb90db8afce9ac511e04e578f5f7e5b45ceed77db0933b80e76ad405e40cf1d2f4f1f77f49fc18afb0e826a292262fb433f4f1657d2bfc634f99028c233"
+RPM_NAME = "x3270-4.5-3.1.aarch64.rpm"
+RPM_HASH = "9a99c58e21b264248df6960ee62ab3fc1a304f7c50f1c27ab0935a2853595c119bcab6b317c9898526da142dd79eb80ca9c2975f70590d4b255fc8d449f993e6"
 
 RPROVIDES:${PN} += "config-x3270 \
 x3270"

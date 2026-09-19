@@ -2,13 +2,16 @@ SUMMARY = "MinGW Windows compiler (GCC) for C"
 DESCRIPTION = "MinGW Windows compiler (GCC) for C"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw64-gcc-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "02e95edb7ec760213972dbc38e66fd881499faa17c4610c563a365604068af9c05779c0c96ab16682d74d328bd20dd8af28103e3ad73314bfeabaada5d5b73b0"
+RPM_NAME = "mingw64-gcc-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "615e34c09587f6fac5589eaabfa2d28b06555756ae386ba82be18bf16bef5d4ce69412bb980ede464cdfd91ad71654c0318caafcc8146952244ed839a993c5f8"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-gcc \
 mingw64-lib-atomic \
+mingw64-lib-atomic-asneeded \
+mingw64-lib-caf-shmem \
 mingw64-lib-caf-single \
 mingw64-lib-gcc \
 mingw64-lib-gcc-eh \

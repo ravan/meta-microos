@@ -4,10 +4,10 @@ Sankey diagrams, i.e. flow diagrams in which the width of the \
 arrows is proportional to the flow rate."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0.1svn61874"
+PV = "2026.226.3.0.2svn73396"
 
-RPM_NAME = "texlive-sankey-2023.209.3.0.1svn61874-54.1.noarch.rpm"
-RPM_HASH = "f62e97333cb19a7e1a2b9b6a68d1295b08cce60c37742b164ad97ad5f4e2fd1b4a350120af3e5d365d0dee8d69e9d744d3151bebf2681a4f60209d7dfb9ba8b4"
+RPM_NAME = "texlive-sankey-2026.226.3.0.2svn73396-60.2.noarch.rpm"
+RPM_HASH = "c2832fcafa72ba95c572d533eea8065de0f55859f98a03d029c94d3d329bb4993ea533107112c98d4c1bb2e41a4ece2499ce5151fce6aff399fa192983b1b508"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sankey-doc-preamble.sty \
@@ -36,6 +36,7 @@ tex-fontenc.sty \
 tex-footnote.sty \
 tex-geometry.sty \
 tex-hypdoc.sty \
+tex-inconsolata.sty \
 tex-inputenc.sty \
 tex-listings.sty \
 tex-lmodern.sty \

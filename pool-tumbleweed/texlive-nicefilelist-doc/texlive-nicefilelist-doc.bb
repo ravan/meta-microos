@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nicefilelist"
 DESCRIPTION = "This package includes the documentation for texlive-nicefilelist"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9bsvn65842"
+PV = "2026.226.0.0.9csvn77682"
 
-RPM_NAME = "texlive-nicefilelist-doc-2023.209.0.0.9bsvn65842-55.1.noarch.rpm"
-RPM_HASH = "b48e5e59c4e73f30d9ac5068372cdf94193b05bd26a9fd81e2fe5def33d0893fcb3f7d645ca8d30cd6cd8b2d554e579994632ad5aa25f4cf0b948458e40d2f1a"
+RPM_NAME = "texlive-nicefilelist-doc-2026.226.0.0.9csvn77682-61.2.noarch.rpm"
+RPM_HASH = "79f33aca97e9be6e72767c2bdb2b45a6f232c14f99c720002619c01b71db1651080b085f3b6f3c0217f2521482f461f6e9ef430a4815ad500898b66bac0c3887"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nicefilelist-doc"

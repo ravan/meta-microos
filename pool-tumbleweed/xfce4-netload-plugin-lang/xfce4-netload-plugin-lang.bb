@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-netload-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-netload-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.1"
+PV = "1.5.0"
 
-RPM_NAME = "xfce4-netload-plugin-lang-1.4.1-1.1.noarch.rpm"
-RPM_HASH = "55b9929fca932fbd2d87aebe969143d2b2ed142d36bfafacf94efb1e8f8cac688050ce1b08bf76f366298313d217ff3b509094fd09d1eb19bbd818b983836753"
+RPM_NAME = "xfce4-netload-plugin-lang-1.5.0-1.4.noarch.rpm"
+RPM_HASH = "989837928281d99019587ccf3cd3c2f7d564be2638d63913c336d6476f40b08daeeaa0390307deac4daaf4d2662f19ef40f4bc04f3ec3acaad6ca2fadaa07729"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-netload-plugin-ar \

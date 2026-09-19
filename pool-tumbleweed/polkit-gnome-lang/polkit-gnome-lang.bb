@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.105"
 
-RPM_NAME = "polkit-gnome-lang-0.105-14.8.noarch.rpm"
-RPM_HASH = "5b985e2a57465b6764623c71953be7b0a66463f2972d38d094367ca03c133856ed430ef7394f9b8cbdc2a724846ea50939cefd1a13bb47e919000ab7fc2edf6e"
+RPM_NAME = "polkit-gnome-lang-0.105-17.3.noarch.rpm"
+RPM_HASH = "f0aac3879f87a21631de29d65b44316e927d8582857e1c4c76ec7e4c87ca87de73b9eae58a83991a0e847ed0bd43a8770caa9f90a50d8e44adbfb578661c0b33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-polkit-gnome-ar \

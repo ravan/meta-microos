@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.04"
 
-RPM_NAME = "perl-Mojo-Log-Colored-0.04-1.12.noarch.rpm"
-RPM_HASH = "18686b623b4589b6cf63060dcaf52a58e2a9eff15e90e2a44b57818db74da5d6554dfac1f235387dbf0ca6b0bed24eea51bd28d5bdfc6c09bad1cb3e896cb41e"
+RPM_NAME = "perl-Mojo-Log-Colored-0.04-1.26.noarch.rpm"
+RPM_HASH = "3d3a1a248e5d5689b25d7aae5e9fbadcf6bf53af505be7edfedccd7ac45d5d204e73d55bb7299fdac0a7bf586bf72af74ed7a5a4f01f035a358cf57754d67a80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--Log--Colored \
 perl-Mojo-Log-Colored"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Mojolicious \
 perl-Term--ANSIColor"
 

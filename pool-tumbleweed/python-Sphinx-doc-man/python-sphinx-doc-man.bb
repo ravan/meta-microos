@@ -6,15 +6,15 @@ sources). \
 This package contains the manual pages for the Sphinx executables."
 LICENSE = "BSD-2-Clause"
 
-PV = "7.2.5"
+PV = "9.1.0"
 
-RPM_NAME = "python-Sphinx-doc-man-7.2.5-1.1.noarch.rpm"
-RPM_HASH = "b145fc2df3559478da52cfe4f65b39e143488f1be989bf2e0eaf9bc39e3cd6d77d76b598df3732f21b8c43d9c34aeb20f44587a3dfc34e618a739383fe0a4067"
+RPM_NAME = "python-Sphinx-doc-man-9.1.0-2.1.noarch.rpm"
+RPM_HASH = "e607057a30f9badaea728ca9e92853e1fdeafc4b750e6851333ea1e75f2f8a5dddaa8781fbd3ebad38f47ef934ed71925b6c75bce851f0137f9bd999ccda686b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Sphinx-doc-man"
 
-RDEPENDS:${PN} += "python3-Sphinx \
-update-alternatives"
+RDEPENDS:${PN} += "alts \
+python3-Sphinx"
 
 inherit rpm

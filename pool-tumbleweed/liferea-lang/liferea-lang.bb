@@ -2,10 +2,10 @@ SUMMARY = "Translations for package liferea"
 DESCRIPTION = "Provides translations for the 'liferea' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.14.5"
+PV = "2.0.1"
 
-RPM_NAME = "liferea-lang-1.14.5-1.1.noarch.rpm"
-RPM_HASH = "5ef06fb5230eab22f656d74ef88b7d11d9abb3a55140260867ec2739bd87f9f4ed71e9b12bbb8748e4986083ab1211cfe909b7842fc767863014ea847df0b66c"
+RPM_NAME = "liferea-lang-2.0.1-1.1.noarch.rpm"
+RPM_HASH = "e1665b665be3a45c8a6791a483ca0249db59437c4fa799661265b43e4bda50620482cde9b81724ff40f7b6e8b86e86ddb64aa9c499fa4838a5d60c55b9a2cdc9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liferea-lang \
@@ -30,6 +30,7 @@ locale-liferea-hu \
 locale-liferea-id \
 locale-liferea-it \
 locale-liferea-ja \
+locale-liferea-ka \
 locale-liferea-ko \
 locale-liferea-lt \
 locale-liferea-lv \
@@ -43,6 +44,7 @@ locale-liferea-ru \
 locale-liferea-sk \
 locale-liferea-sq \
 locale-liferea-sv \
+locale-liferea-te \
 locale-liferea-tr \
 locale-liferea-uk \
 locale-liferea-vi \

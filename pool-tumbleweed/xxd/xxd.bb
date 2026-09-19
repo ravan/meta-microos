@@ -3,10 +3,10 @@ DESCRIPTION = "xxd creates a hex dump of a given file or standard input.  It can
 a hex dump back to its original binary form."
 LICENSE = "Vim"
 
-PV = "9.0.1632"
+PV = "9.2.0901"
 
-RPM_NAME = "xxd-9.0.1632-2.2.aarch64.rpm"
-RPM_HASH = "e11665877a1202657a394652d1244d9b0d69ce9f4b2259aac5e2016f86bd6e72e5871c2364ee1ef24cb35162776520270f72b6de19ac64402fca582b61f67e42"
+RPM_NAME = "xxd-9.2.0901-1.1.aarch64.rpm"
+RPM_HASH = "262638cdc92038ea039a44add77bed0a18411fcd5b81d235b2659f2ba7af572af5823132c990afa78108721ec5f4792d6560f6dad30381580f0ee8fd7f626c96"
 
 RPROVIDES:${PN} += "xxd"
 

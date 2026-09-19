@@ -4,10 +4,10 @@ spec. Also known as ITU T.88 and ISO IEC 14492, and included by reference in \
 Adobe's PDF version 1.4 and later."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "0.19"
+PV = "0.20"
 
-RPM_NAME = "libjbig2dec0-0.19-1.12.aarch64.rpm"
-RPM_HASH = "9645cbe1f39c68a1cb9f306f4401c7e678af0b2ff31ecfe29841a7b8710a7bb6f20fcf97df97530ba24a2cf748ac6587636d43590058a61b29449b2d80bd846b"
+RPM_NAME = "libjbig2dec0-0.20-2.13.aarch64.rpm"
+RPM_HASH = "ac0fe352adc97415147483a1b7527d6abb3671a4e4b51655ac76adfca0fba68386ac273a7e69e5df1141f1110792265b64272bb5af541abe69b4ca3e6600b4a6"
 
 RPROVIDES:${PN} += "libjbig2dec.so.0 \
 libjbig2dec0"

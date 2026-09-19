@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "light-locker-1.9.0-1.15.aarch64.rpm"
-RPM_HASH = "7db9657b0c562d7e75f78fa1ab00f03f456590b5fc98c30bca0a7df42d055464b5e4ccdb23e13af5d1cc6f79ce8316e16cad56ff217bb66a162ca1bf4ff97133"
+RPM_NAME = "light-locker-1.9.0-1.26.aarch64.rpm"
+RPM_HASH = "0aa82ffd7a60f43203446cbebf3a10575242b5f0c76bb2346cc647b25a9e36f040fd0c5aad71df5309fa9f3603156a7e8a12d8d6d7c75e9264e5f9f504d11c94"
 
 RPROVIDES:${PN} += "light-locker"
 

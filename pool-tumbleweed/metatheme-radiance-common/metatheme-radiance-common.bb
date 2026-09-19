@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20.10"
 
-RPM_NAME = "metatheme-radiance-common-20.10-2.2.noarch.rpm"
-RPM_HASH = "dbc942e834dc47bf0d247277c81cf697bd81c96761bf1b45e2384f6006d3f7057b071ad40d88991c50dfbbf5c7a694f55dd976c1bbb6d955cbb498f0f9d20497"
+RPM_NAME = "metatheme-radiance-common-20.10-2.10.noarch.rpm"
+RPM_HASH = "a036fa782fc2bf17b9d8bd0e1e2103f5108ac75c962cd5053010ac6a1e8ff701a36637258f0a13e1674572131fa3a47f610a821f11ace1fa95c671eef68ea294"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-radiance-common"

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-french-1.5-422.6.aarch64.rpm"
-RPM_HASH = "c295d51b6094a08a6b94ab01c925c8798b1a3c973066dd8b22a4a1be5d9ce5525c6bc3f77386b0cba434880e0335f690d40836315d6a02c61d38581f2f960d91"
+RPM_NAME = "ispell-french-1.5-426.1.aarch64.rpm"
+RPM_HASH = "1047dd11eee51348f6eb6fbb585609ae51f75c286d116375a027735b2e30253385dccbca1e3ab141343a27361da25005d92535834f1c4969ed5396c42f378cad"
 
 RPROVIDES:${PN} += "ifrench \
 ispell-dictionary \

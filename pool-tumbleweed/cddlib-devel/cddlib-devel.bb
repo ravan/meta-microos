@@ -7,12 +7,13 @@ of linear inequalities. \
 This package contains the headers for the C library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.94m"
+PV = "0.94n"
 
-RPM_NAME = "cddlib-devel-0.94m-1.11.aarch64.rpm"
-RPM_HASH = "cbe7fb1d0d49d9af83c75c06b0bb9acbd48d042542ef929bc34ca969d2efc9ad79b5647af3ed3f16f6c7f5f613c5f1c8f53bfd4667ef05384e05418cfa82b6db"
+RPM_NAME = "cddlib-devel-0.94n-1.5.aarch64.rpm"
+RPM_HASH = "8b46addec4e658596b29e3057a0799623caf560eb7aeeaaf2d5c6eb6b91bb3203325031c9a80f7505283797ca2837d1d97fd7f450e7acd2fa256f8d3cb91e64c"
 
 RPROVIDES:${PN} += "cddlib-devel \
+pkgconfig-cddgmp \
 pkgconfig-cddlib"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

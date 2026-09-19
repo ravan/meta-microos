@@ -8,16 +8,15 @@ sent by any sender. \
 This sub-package contains the HTML documentation."
 LICENSE = "MIT"
 
-PV = "1.6.2"
+PV = "1.9.0"
 
-RPM_NAME = "python-blinker-doc-1.6.2-3.1.noarch.rpm"
-RPM_HASH = "642d065cfc22702905c1351710c057272f7c0cdfa7562cb61496da38ce2168a352dc18765c1d886af72828e8301c2247b4ef695efca943f1d178059eda4fec40"
+RPM_NAME = "python-blinker-doc-1.9.0-1.9.noarch.rpm"
+RPM_HASH = "100dce80abffddb569098b0a1838d16cb1976569c7f3bd755195ba87871a3b8b288228eace69906b2172582610e2cd30ef077a2cfff14e4eccaacf7bcb4c30ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-blinker-doc \
-python310-blinker-doc \
-python311-blinker-doc \
-python39-blinker-doc"
+python313-blinker-doc \
+python314-blinker-doc"
 
 RDEPENDS:${PN} += ""
 

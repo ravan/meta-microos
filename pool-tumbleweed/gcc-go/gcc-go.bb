@@ -2,16 +2,15 @@ SUMMARY = "The system GNU Go Compiler"
 DESCRIPTION = "The system GNU Go Compiler."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13"
+PV = "16"
 
-RPM_NAME = "gcc-go-13-1.5.aarch64.rpm"
-RPM_HASH = "5f3a202e72b2c3a8d83d1690c4328e7a2f00b8e51233343ac8503b20100557894907f8a11fcb5793abeeb98927d81916e63f4dc1ab54108626d25148daa8582b"
+RPM_NAME = "gcc-go-16-1.1.aarch64.rpm"
+RPM_HASH = "38d21d300bdfb9b4e5aac650468c2522b4d147cecba7c74aeb6ebdb35dd5e239f9268485a8816fb3f281072c4180c5d8b7b1755791c75da9ef1096bfe2cdf957"
 
 RPROVIDES:${PN} += "gcc-go"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 gcc \
-gcc13-go \
-update-alternatives"
+gcc16-go"
 
 inherit rpm

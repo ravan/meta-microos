@@ -2,10 +2,10 @@ SUMMARY = "Allows Perl scripts to directly use Subversion repositories"
 DESCRIPTION = "Provides Perl (SWIG) support for Subversion version control system."
 LICENSE = "Apache-2.0"
 
-PV = "1.14.2"
+PV = "1.14.5"
 
-RPM_NAME = "subversion-perl-1.14.2-6.2.aarch64.rpm"
-RPM_HASH = "35b78c007f4b6a18d6a010f1b15596204b5c2d796ebdb0736e312ea7e281950b2a9c6a2aaaba368f9e493aa99e86a8b62ba4c2e6192ba3ad5fba25ec5b1370d5"
+RPM_NAME = "subversion-perl-1.14.5-5.3.aarch64.rpm"
+RPM_HASH = "a0ef95fd511544cf8376b77449b0cd27a39955684ca9a30e715cb4d9a812f031bd462f1615ed7054166c71073853fa73571dee52463a5c01d0886035d8e739c3"
 
 RPROVIDES:${PN} += "libsvn-swig-perl-1.so.0 \
 perl--p-apr-pool-t \

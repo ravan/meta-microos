@@ -8,10 +8,10 @@ it online without fear of email address harvesters or spammers \
 easily picking up the address."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-randtext-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "c91957cec1c3d802f56ab7d2865e93cf6a1e72b5625f3066b7c961b234357bd62b3b89d5f269d2181ae5119a20bf8abcf27e831fc6b60c16b123d370d2f794c4"
+RPM_NAME = "texlive-randtext-2026.226.svn15878-60.4.noarch.rpm"
+RPM_HASH = "3bd1e24035305be3ef35160b0fcedf47dbc2f59e3bac3b817c6c39c9da1e22414581d111ca1e610f4a312e5b0dadfff422b3b17bbede6c84d006eeabb3081d09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-randtext.sty \

@@ -4,16 +4,16 @@ and extensible standard for the storage and retrieval of computational \
 fluid dynamics (CFD) analysis data."
 LICENSE = "Zlib"
 
-PV = "4.3.0"
+PV = "4.4.0"
 
-RPM_NAME = "cgns-4.3.0-1.8.aarch64.rpm"
-RPM_HASH = "dac772739733ff6d0f82939e40d62d348e56ebd6a2e29e9d31d9c94a78687b1bee2effc439f337447b5d35065c5d27e92b750b9d7a707e87ad3a699a6e000177"
+RPM_NAME = "cgns-4.4.0-2.13.aarch64.rpm"
+RPM_HASH = "08a4b89180136595a93a8bf3efbbec34b4961bc7b9138852b88a7d686be6e2cd5fc43c9d3425ec93704cdcdcea63e903cbc78c96f0328ee585c8eb8ff158ae34"
 
 RPROVIDES:${PN} += "cgns"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcgns.so.4.3"
+libcgns.so.4.4"
 
 inherit rpm

@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for AWS Application Discovery Service"
 DESCRIPTION = "The AWS Java SDK for AWS Application Discovery Service module \
 holds the client classes that are used for communicating with \
 AWS Application Discovery Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-discovery-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "c15ceffc29fc815b5f59e2c64d2c2d3e7d348550f4870ffddb27a48b50fde93cc85d989e30af21efa1b2e3455fe81856cf9ae6fc0f2db4bfd73e10445135cecf"
+RPM_NAME = "aws-sdk-java-discovery-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "bf6f8ea2230ebc3a549a9e537cf21f116e999637a43f241469837256274efa1fe37eb10213fdcfac7a5001cb93b5e4207ed67cef08c3de70842323902a481698"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-discovery \

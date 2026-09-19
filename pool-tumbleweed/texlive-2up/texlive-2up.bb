@@ -4,10 +4,10 @@ size and layout, and produces a standard dvi file without \
 involving additional dvi or PostScript filters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3asvn55076"
+PV = "2026.226.1.3asvn55076"
 
-RPM_NAME = "texlive-2up-2023.209.1.3asvn55076-55.1.noarch.rpm"
-RPM_HASH = "2d751ae5d7ca4691260c144db8179bcc31cf489354e6241cf5b81df05dfb134508be7ef0937b38e916cac55501d65e59bebc26d5ce206ba545031e0b141f4c11"
+RPM_NAME = "texlive-2up-2026.226.1.3asvn55076-61.2.noarch.rpm"
+RPM_HASH = "5a39e7265e519e59a782cb188c64a7797bc7a32aac229924823c9d8a62b8e00edc61138ebc04a00e8d73a3d48070f192f2054b20dd4e0af57dbefd3018405ecf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-2up.sty \

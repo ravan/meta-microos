@@ -18,15 +18,15 @@ but not in exactly the same way: \
    icons can't be shown next to menu items any more."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.1"
+PV = "1.0.2"
 
-RPM_NAME = "pidgin-plugin-indicator-1.0.1-2.14.aarch64.rpm"
-RPM_HASH = "88cc115fcb1b9efcb4d80674f6c976650e036b8b7a7dc1c5e7851b3d59b813606cc9295f19d19be078d8c4d3c5095eef81faf361af6a7c62ac444ed1b9bb5e6b"
+RPM_NAME = "pidgin-plugin-indicator-1.0.2-1.5.aarch64.rpm"
+RPM_HASH = "33eabac1ec2cbcbe4ea3b5a788363deac08f4ce99ab81e15a2b39d17a76d8b4feb5dc7f79e51157a0ed80a763ec9dde773ae856f374272be45fc59ec59a48a0c"
 
 RPROVIDES:${PN} += "pidgin-indicator \
 pidgin-plugin-indicator"
 
-RDEPENDS:${PN} += "libappindicator.so.1 \
+RDEPENDS:${PN} += "libappindicator3.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

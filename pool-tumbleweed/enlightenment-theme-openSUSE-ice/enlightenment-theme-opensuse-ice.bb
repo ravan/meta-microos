@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-only & CC-BY-SA-3.0"
 
 PV = "20220219.1.26"
 
-RPM_NAME = "enlightenment-theme-openSUSE-ice-20220219.1.26-1.12.noarch.rpm"
-RPM_HASH = "2d5578414aaafb38e7ae5ef598c1823124e70646faae59bc74e547c1a930db05a910c69a576017aea17f4346209ae6d127228978a760f38625461625dd8365e1"
+RPM_NAME = "enlightenment-theme-openSUSE-ice-20220219.1.26-2.2.noarch.rpm"
+RPM_HASH = "9ec99a68dd42156889bede99a1bde0c0cc17016c88129f8ec18d14df2d686d74cf009a2466465ccde4b7fcc4a6a8e40ad4bbcb3b1c90f82d01481284a4e105d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "enlightenment-theme \

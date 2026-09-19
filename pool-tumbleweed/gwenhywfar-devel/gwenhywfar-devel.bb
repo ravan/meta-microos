@@ -6,10 +6,10 @@ configuration files, reading/writing of XML files, interprocess \
 communication etc)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.10.1"
+PV = "5.14.1"
 
-RPM_NAME = "gwenhywfar-devel-5.10.1-1.5.aarch64.rpm"
-RPM_HASH = "b963827d4a5ff52af90a404a6a870ed64a25c4010c4cf07ab6273a5b7fb2d7aa33e788d85d62fa7feeb351cde2ff81da4217acec8dc071e2f622a5c2d205f213"
+RPM_NAME = "gwenhywfar-devel-5.14.1-1.3.aarch64.rpm"
+RPM_HASH = "8ff520980e7cb429474ba1b9dd74f6836f8350b2a381760ccd8f726ad0ac24e32f58d06d3fa0295b358cad220c951df519c587bafda0719cb6381e14526bcc98"
 
 RPROVIDES:${PN} += "cmake-gwengui-cpp \
 cmake-gwengui-qt5 \
@@ -24,6 +24,7 @@ pkgconfig-gwenhywfar"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
 glibc-devel \
+libgwengui-cpp79 \
 libgwengui-fox16-79 \
 libgwengui-gtk2-79 \
 libgwengui-gtk3-79 \

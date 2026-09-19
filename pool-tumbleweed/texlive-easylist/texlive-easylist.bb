@@ -6,10 +6,10 @@ configure the appearance of the list; lists may be nested \
 (effectively to unlimited depth)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn32661"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-easylist-2023.209.1.3svn32661-54.2.noarch.rpm"
-RPM_HASH = "642753475b3d005e8d2e85fd707aba617d7dc5e173473a09e6d6ab21b8342c01b5b30e95f29c243a146c5e3e8985f58657dd63e6033e5a36d7ddecf27445e756"
+RPM_NAME = "texlive-easylist-2026.226.1.3svn77682-61.4.noarch.rpm"
+RPM_HASH = "17743fb6155ff4aa54a7a1462d1dbddfff7e6c418a9a01d7d24ec08aed85dd07eb08f82a5afccbfe83f0ceb5d3edc33bf46825a83be1354a31d68ab83d481634"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easylist.sty \

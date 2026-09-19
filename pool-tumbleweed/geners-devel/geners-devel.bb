@@ -6,8 +6,8 @@ LICENSE = "X11"
 
 PV = "1.12.0"
 
-RPM_NAME = "geners-devel-1.12.0-1.15.aarch64.rpm"
-RPM_HASH = "f4193682360ae87033be81004d62ce36dce667ae303f24ccdf7eef7f4eaf9d921d923e1491f0bb47652442a7ea9b6e9c46e2de6711f5f9f59176a686fd3eb735"
+RPM_NAME = "geners-devel-1.12.0-1.25.aarch64.rpm"
+RPM_HASH = "ea357bc41a3c9d9f73b86942c768ea1bc1f4faef26c3785d46c36de3b3c223c8cfade899a60736c5ce9ca8771c622bedc4b5fe96818dba996f9297c71465ef7a"
 
 RPROVIDES:${PN} += "geners-devel \
 pkgconfig-geners"

@@ -5,10 +5,10 @@ within the user-set limits. If there is not enough space on the \
 page, the box is moved to the next one."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn50088"
+PV = "2026.226.1.02svn77682"
 
-RPM_NAME = "texlive-fitbox-2023.209.1.02svn50088-53.1.noarch.rpm"
-RPM_HASH = "9f6d36ac0e7000932c1ef0550e2a764d76020bd2b221e0d11f932554e6d8b2ba6b16f667b9fe4fc5a136531e2b5ef279061dac64d74a7d8090fbb0a8d88b6b5f"
+RPM_NAME = "texlive-fitbox-2026.226.1.02svn77682-59.2.noarch.rpm"
+RPM_HASH = "d0a4a07d3dbfe2e4c5b96c8300d701f1ab143167dc0cdc782c8caac9cbf0a41c522640b68da97a01292e6a37923daf2a3b4590d427ae531de62ecec142262476"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fitbox.sty \

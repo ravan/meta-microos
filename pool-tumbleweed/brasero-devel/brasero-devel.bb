@@ -3,10 +3,10 @@ DESCRIPTION = "Brasero is an application for the GNOME Desktop to write CD/DVDs.
 This package contains the development files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.12.3"
+PV = "3.12.3+43"
 
-RPM_NAME = "brasero-devel-3.12.3-2.8.aarch64.rpm"
-RPM_HASH = "d9e778606db8bd7a9532315205ad4a4adcd0898ce7a03934312d2e36b975db1c105ef04310ee78b02e63433840f58a41cb7aa6d7330e0f9a7c9e2f85bdfc89cb"
+RPM_NAME = "brasero-devel-3.12.3+43-3.3.aarch64.rpm"
+RPM_HASH = "003a415aa56eeffd2a2bc88f52885513581d2ffb0caf3ea5cd08e6ae0afb1a83afa3ea2df7ba3abffb733e5afe2ce3156506c3ed993ad3a385986e287e979757"
 
 RPROVIDES:${PN} += "brasero-devel \
 pkgconfig-libbrasero-burn3 \

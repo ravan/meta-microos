@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Development"
 DESCRIPTION = "Tools and libraries for software development using Qt 6."
 LICENSE = "MIT"
 
-PV = "20230801"
+PV = "20260830"
 
-RPM_NAME = "patterns-kde-devel_qt6-20230801-1.1.noarch.rpm"
-RPM_HASH = "9a429367756cf66e29331c6325856ec7eefbbeb887c788537bfa2ad76b4316dcdd647f25b5ceef9bc5ef2e96c4e30f5eab2acc6a1c8c894249030d72206c09a1"
+RPM_NAME = "patterns-kde-devel_qt6-20260830-1.1.noarch.rpm"
+RPM_HASH = "091da8537238484034337479e60f20478e681bd7ea1f9a37781cddeed9e236d5f4789e228bcf7d233ad37d44d33450c96eb4c42e5deacd39006e1d8f6df4e8cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

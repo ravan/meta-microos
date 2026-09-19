@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.1"
 
-RPM_NAME = "linuxconsoletools-1.8.1-1.3.aarch64.rpm"
-RPM_HASH = "c17b23c407395c4c263105ca942b8142bcd40d379f9acdf28f2de66894d5dbddcfc97a92d4d1ce1a1cec2b182ff4da9f9457838002ba6454bd48fd34ee1efef8"
+RPM_NAME = "linuxconsoletools-1.8.1-2.4.aarch64.rpm"
+RPM_HASH = "7204b804d220d4ad25df5bebe97ff37ac6feada368f448b7344974b7675359e4c9d4bff60bed3d02382f539f9a76aa116beb9b2a62df5db816623b3007bccec0"
 
 RPROVIDES:${PN} += "input-utils \
 linuxconsoletools"

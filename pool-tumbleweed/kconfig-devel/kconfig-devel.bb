@@ -12,19 +12,18 @@ KConfigCore provides access to the configuration files themselves. It features: 
 KConfigGui provides a way to hook widgets to the configuration so that they are \
 automatically initialized from the configuration and automatically propagate \
 their changes to their respective configuration files. Development files."
-LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kconfig-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "b6fd01c22e35be3b8b697aceb45567a8a814ec31005eb9e263c5862a797b4572402b0dcabaa5ac34232386ffa237e5025a23c7b640ef2bd2806adaa807f662d6"
+RPM_NAME = "kconfig-devel-5.116.0-2.8.aarch64.rpm"
+RPM_HASH = "bf9bc56aecba20007d68c3a93fcfcfb89880b6c2eb4f3b4adb6e432b5d0fa61c0ded395f05e69aa639459fff7a36a56dcfc58218c280af11b53a743a2175636c"
 
 RPROVIDES:${PN} += "cmake-KF5Config \
 kconfig-devel"
 
 RDEPENDS:${PN} += "cmake-Qt5DBus \
 cmake-Qt5Xml \
-extra-cmake-modules \
 kconf-update5 \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore5 \

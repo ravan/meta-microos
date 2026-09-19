@@ -4,10 +4,10 @@ DESCRIPTION = "Arping is a util to find out it a specific IP address on the LAN 
 unrouted networks and with ICMP-blocking hosts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.23"
+PV = "2.29"
 
-RPM_NAME = "arping2-2.23-1.6.aarch64.rpm"
-RPM_HASH = "9ba817ad51c1db96b3c8a24bf1169558faf68e97bd15b417c8d1ae7e3d51380c97a864b693b64dfc6b4dfc254679fd77d1c18a1e867f6036679cd3b3ce1ec385"
+RPM_NAME = "arping2-2.29-1.3.aarch64.rpm"
+RPM_HASH = "29cc0472203e0ad0addc04ddf930d2ce63575ce492ae3a973dd4f908c3726ca42364e75269502eeca9f3b9d06197f8bc50bcacfa06bc9083390007505e13e45e"
 
 RPROVIDES:${PN} += "arping2"
 

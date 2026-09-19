@@ -4,14 +4,14 @@ DESCRIPTION = "Library for industrial I/O. \
 This sub-package contains the Python bindings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.24"
+PV = "0.26"
 
-RPM_NAME = "python3-pylibiio-0.24-1.5.aarch64.rpm"
-RPM_HASH = "21447a98e76dfc460d598e9e56e2d50b88b2e7ba183956f1fe17e6eadecb7f693a7d8439636030668cf604226b55bd348c6e5eef1f291a045f5b0d13059c6984"
+RPM_NAME = "python3-pylibiio-0.26-1.10.aarch64.rpm"
+RPM_HASH = "82e5d0e178b6a86fbded788d443db8e2d704f8033b8aaee1ddc4270cc63728ccb92c251769c2584612e9c05d35727f0b773b4216974e9a5631147b7e58a31c31"
 
 RPROVIDES:${PN} += "libiio-python \
 python3-pylibiio \
-python3.11dist-pylibiio \
+python3.13dist-pylibiio \
 python3dist-pylibiio"
 
 RDEPENDS:${PN} += "python-abi"

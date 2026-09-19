@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-galois"
 DESCRIPTION = "This package includes the documentation for texlive-galois"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn15878"
+PV = "2026.226.1.5svn15878"
 
-RPM_NAME = "texlive-galois-doc-2023.209.1.5svn15878-53.1.noarch.rpm"
-RPM_HASH = "8a74ab01c747b5adac9f2bb70abaebb2b4d6d3240c593aa44d9a7112b88fde15cc2927fb3d241828a4ea4c35a938dc69bcd492913d61b416822dc809431cd583"
+RPM_NAME = "texlive-galois-doc-2026.226.1.5svn15878-60.2.noarch.rpm"
+RPM_HASH = "e3cb3970815df62fc048e0383cdade8696e060a078614ecb4d6f997c50e80c5c9e825714b49b617d1b4152294a9b8700a646d84b4fe6782d533f6c351c045bde"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-galois-doc"

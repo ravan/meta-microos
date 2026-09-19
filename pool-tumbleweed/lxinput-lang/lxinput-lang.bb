@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package lxinput"
 DESCRIPTION = "Provides translations for the 'lxinput' package."
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
-PV = "0.3.5"
+PV = "0.3.6"
 
-RPM_NAME = "lxinput-lang-0.3.5-1.27.noarch.rpm"
-RPM_HASH = "7021ce6a6c977a11c201a79c9da802ea73d4569815864882b00b5874d635877373fa893946e1433d2eef0e2fb1f9b9c8e121ffc36e97f04d44bd7bc42058d5b2"
+RPM_NAME = "lxinput-lang-0.3.6-1.3.noarch.rpm"
+RPM_HASH = "a88e9f6d0a7e6a867b8dd6a6c900907c6a4ab0fd09bd6e3fae8ff4ecc60c16e5aff9c8654d36b9ad5091d83b9f1d4db09654ce285ae6631dfdf4598fc65b447a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lxinput-af \

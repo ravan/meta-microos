@@ -13,10 +13,10 @@ submissions; however he offers no guarantee of conformity to \
 NIH requirements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54191"
+PV = "2026.226.svn54191"
 
-RPM_NAME = "texlive-nihbiosketch-2023.209.svn54191-55.1.noarch.rpm"
-RPM_HASH = "2326028de74dac54a2e45923bf26c91c55ba7f293e0d9a732ac2ddc84ef78ef0bc50809833db49ecb53c82c89a2288e3a4c53b22fd3216c5e7f3ad753d1521b2"
+RPM_NAME = "texlive-nihbiosketch-2026.226.svn54191-61.2.noarch.rpm"
+RPM_HASH = "ac78bb7525c448a7644a81e7ed3f43c8a34a85a70a9372c3a83ec29d9fc2da7af6d4990274a30006b59978b3ef398896526a33c2a848a01a69022490df3122e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nihbiosketch.cls \

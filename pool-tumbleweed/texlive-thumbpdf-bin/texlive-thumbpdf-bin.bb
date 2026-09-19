@@ -2,10 +2,10 @@ SUMMARY = "Binary files of thumbpdf"
 DESCRIPTION = "Binary files of thumbpdf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn6898"
+PV = "2026.20260301.svn6898"
 
-RPM_NAME = "texlive-thumbpdf-bin-2023.20230311.svn6898-93.2.aarch64.rpm"
-RPM_HASH = "67507c88ed430d776b34ecb61b77971cf63bda3a0a96402d0a8f9e9dd07e320cd8b564011ded5cbe5556d83e459d3700f58271a87f16675659951e0d45d9c8ee"
+RPM_NAME = "texlive-thumbpdf-bin-2026.20260301.svn6898-120.4.aarch64.rpm"
+RPM_HASH = "9d7513711ad20f31eef4d7b1dc2f6a0abe29c2d06523a5b4626e046ae785878b1c7c1bbabea21403322b4afbe87832052b4684733a4bf39d83355e9c18bed42d"
 
 RPROVIDES:${PN} += "texlive-thumbpdf-bin"
 

@@ -5,10 +5,10 @@ audio file. \
 This subpackage contains the C API header definitions."
 LICENSE = "BSD-2-Clause"
 
-PV = "23.07"
+PV = "26.05"
 
-RPM_NAME = "libmediainfo-devel-23.07-1.1.aarch64.rpm"
-RPM_HASH = "7231a6f722c8baf02145b05783ed9886ba05109dba46a201843fdda24ef243fbe91d2caa89abb11d1541c6b940f692773107fe462d80ca275d13db97d4c686ab"
+RPM_NAME = "libmediainfo-devel-26.05-1.3.aarch64.rpm"
+RPM_HASH = "b4235962faf049bd996ab5f0921d487e3ac37fc7557f5b157c063fa24bbbba6cab36910bf0f854ffa66e3dda69d41df8f0d601a8cc6f2d7b604b3ae23ab555b9"
 
 RPROVIDES:${PN} += "libmediainfo-devel \
 pkgconfig-libmediainfo"

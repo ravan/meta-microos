@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.3"
 
-RPM_NAME = "mustang-plug-udev-rules-1.4.3-2.2.noarch.rpm"
-RPM_HASH = "e1ec7761a7149cd025baef0d35d83ae228caf3440d55565ffdedf872263e4404b12606d90a07e48c8ba44c35dee219a3543f93c32d1e5f0ad4604a283027f024"
+RPM_NAME = "mustang-plug-udev-rules-1.4.3-2.12.noarch.rpm"
+RPM_HASH = "ac730a378a9ad88e95d2b00573ddbba171b5ed127e1aeae24986b9c611fa98db4673e0bc7bfa195c91062a837055d41f797d0000d7e81ebc958ecc82a9a6c350"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mustang-plug-udev-rules"

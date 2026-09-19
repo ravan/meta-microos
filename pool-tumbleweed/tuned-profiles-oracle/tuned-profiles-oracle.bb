@@ -2,10 +2,10 @@ SUMMARY = "Additional tuned profiles targeted to Oracle loads"
 DESCRIPTION = "Additional profile(s) for the tuned daemon,  targeted to Oracle loads."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.20.0.18+git.7b1a20b"
+PV = "2.27.0.0+git.38d4414"
 
-RPM_NAME = "tuned-profiles-oracle-2.20.0.18+git.7b1a20b-1.2.noarch.rpm"
-RPM_HASH = "312915fff25b9be628f9975a5120975faf9c9c2b76a9878e2f4709c92e475b3687ff5ee09b3b5d560d963356754b1b0d2ef7de2168dcbef0e4fd1d070b315e0b"
+RPM_NAME = "tuned-profiles-oracle-2.27.0.0+git.38d4414-1.2.noarch.rpm"
+RPM_HASH = "13190e34cf6d15c057daf50b533dd1b55dd0b154c18cdb1e7aacf379afb9fb8356dc7e5d78f4669e5995f3d429f0c7fcf1ada1c6b016a46261f936e09aa8cf86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-profiles-oracle"

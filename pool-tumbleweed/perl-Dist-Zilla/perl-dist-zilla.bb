@@ -11,10 +11,10 @@ If you have access to the web, you can learn more and find an interactive \
 tutorial at *at https://dzil.org/*. If not, try Dist::Zilla::Tutorial."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.030"
+PV = "6.37.0"
 
-RPM_NAME = "perl-Dist-Zilla-6.030-1.3.noarch.rpm"
-RPM_HASH = "1f5f4d52d3ca4f076fc65bd1d8aabbe7598b14956e62d2a9f42466934e697bfc4c07fdff6e86ad9089184de3df10012053c75a11fd31203f6152bf53847297b8"
+RPM_NAME = "perl-Dist-Zilla-6.37.0-1.5.noarch.rpm"
+RPM_HASH = "8d881ae9bf8a99ca9797a31d3d098883e94fff3516fd5b5fca47ea7b9e884f3811f953b76924adf82ffbe9bb3a77a2f472715b0f7a2e8e388f7c82d861fd0732"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dist--Zilla \
@@ -54,6 +54,7 @@ perl-Dist--Zilla--MintingProfile--Default \
 perl-Dist--Zilla--Path \
 perl-Dist--Zilla--Plugin--AutoPrereqs \
 perl-Dist--Zilla--Plugin--AutoVersion \
+perl-Dist--Zilla--Plugin--BrokenPlugin \
 perl-Dist--Zilla--Plugin--CPANFile \
 perl-Dist--Zilla--Plugin--ConfirmRelease \
 perl-Dist--Zilla--Plugin--DistINI \
@@ -69,6 +70,7 @@ perl-Dist--Zilla--Plugin--GatherDir--Template \
 perl-Dist--Zilla--Plugin--GatherFile \
 perl-Dist--Zilla--Plugin--GenerateFile \
 perl-Dist--Zilla--Plugin--InlineFiles \
+perl-Dist--Zilla--Plugin--JustForManifestSkipTests \
 perl-Dist--Zilla--Plugin--License \
 perl-Dist--Zilla--Plugin--MakeMaker \
 perl-Dist--Zilla--Plugin--MakeMaker--Runner \
@@ -82,6 +84,7 @@ perl-Dist--Zilla--Plugin--MetaTests \
 perl-Dist--Zilla--Plugin--MetaYAML \
 perl-Dist--Zilla--Plugin--ModuleBuild \
 perl-Dist--Zilla--Plugin--ModuleShareDirs \
+perl-Dist--Zilla--Plugin--MungerThatPrunesPodFiles \
 perl-Dist--Zilla--Plugin--NextRelease \
 perl-Dist--Zilla--Plugin--PkgDist \
 perl-Dist--Zilla--Plugin--PkgVersion \
@@ -95,8 +98,13 @@ perl-Dist--Zilla--Plugin--Readme \
 perl-Dist--Zilla--Plugin--RemovePrereqs \
 perl-Dist--Zilla--Plugin--ShareDir \
 perl-Dist--Zilla--Plugin--TemplateModule \
+perl-Dist--Zilla--Plugin--TestArchiveBuilder \
+perl-Dist--Zilla--Plugin--TestAutoLicense \
+perl-Dist--Zilla--Plugin--TestAutoName \
 perl-Dist--Zilla--Plugin--TestRelease \
+perl-Dist--Zilla--Plugin--TestReleaseProvider \
 perl-Dist--Zilla--Plugin--UploadToCPAN \
+perl-Dist--Zilla--Plugin--Versioned \
 perl-Dist--Zilla--PluginBundle--Basic \
 perl-Dist--Zilla--PluginBundle--Classic \
 perl-Dist--Zilla--PluginBundle--FakeClassic \
@@ -148,13 +156,12 @@ perl-Dist--Zilla--Role--StubBuild \
 perl-Dist--Zilla--Role--TestRunner \
 perl-Dist--Zilla--Role--TextTemplate \
 perl-Dist--Zilla--Role--VersionProvider \
+perl-Dist--Zilla--Stash--Heap \
 perl-Dist--Zilla--Stash--Mint \
 perl-Dist--Zilla--Stash--PAUSE \
 perl-Dist--Zilla--Stash--Rights \
 perl-Dist--Zilla--Stash--User \
 perl-Dist--Zilla--Tester \
-perl-Dist--Zilla--Tester---Builder \
-perl-Dist--Zilla--Tester---Minter \
 perl-Dist--Zilla--Tutorial \
 perl-Dist--Zilla--Types \
 perl-Dist--Zilla--Util \
@@ -163,7 +170,7 @@ perl-Dist-Zilla \
 perl-Test--DZil"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-App--Cmd--Command--version \
 perl-App--Cmd--Setup \
 perl-App--Cmd--Tester \

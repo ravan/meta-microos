@@ -10,10 +10,10 @@ a5toa4.tlu should have execute permissions in any \
 installation.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.r36svn31934"
+PV = "2026.226.r37svn68950"
 
-RPM_NAME = "texlive-pfarrei-2023.209.r36svn31934-52.1.noarch.rpm"
-RPM_HASH = "87ef3175ed302443a5106507241e3114587a6676167bf234e2789b61e898e4a205ab90a87f4cd2d51b4128b80a6d4f98c5f06796dc0f449af840b740ae3c2ea1"
+RPM_NAME = "texlive-pfarrei-2026.226.r37svn68950-58.2.noarch.rpm"
+RPM_HASH = "56759024626dd0394a16abc855d024b2577d68cabe7240824119335c6d5dfdccb5d89e47b89f0e356f3327f44b461b6b76e663a8579c4d52e315f6410bd22718"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-a5toa4.tex \

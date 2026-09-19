@@ -1,12 +1,12 @@
 SUMMARY = "Lua extension for graphviz"
 DESCRIPTION = "The graphviz-lua package contains the lua extension for the graphviz \
 tools."
-LICENSE = "EPL-1.0"
+LICENSE = "EPL-2.0"
 
-PV = "2.49.3"
+PV = "15.0.0"
 
-RPM_NAME = "graphviz-lua-2.49.3-6.9.aarch64.rpm"
-RPM_HASH = "a50a65be111de7af6162166e7273bbc8d04c49d029dc28ea93249bad44b4dad496fb216ec146251b4b875fbbc6c24bdfe79d17ceb73c5bebf2bfd1a66f4e1464"
+RPM_NAME = "graphviz-lua-15.0.0-2.3.aarch64.rpm"
+RPM_HASH = "60f788fe3abcd8effe8cfd580edebcc2ea7ad0b4b42329981883b568d3aa4dab989f442a94f4fa127d53bce8bf2b4c3bf410dc73068d93d3e2a64c3b6bc258ae"
 
 RPROVIDES:${PN} += "graphviz-lua \
 libgv-lua.so"
@@ -14,9 +14,9 @@ libgv-lua.so"
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcgraph.so.6 \
+libcgraph.so.8 \
 libgcc-s.so.1 \
-libgvc.so.6 \
+libgvc.so.7 \
 liblua5.4.so.5 \
 libstdc++.so.6 \
 lua"

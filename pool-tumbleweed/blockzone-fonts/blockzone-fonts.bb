@@ -13,8 +13,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.004"
 
-RPM_NAME = "blockzone-fonts-1.004-1.10.noarch.rpm"
-RPM_HASH = "1b7d1fdc94899fb6118627a86500df4c6e3b803aaa030af06e8ba1b71f0be01de3ef6961b7b5e9cc8fa411962b865c4645e24066430b6ec2572e4f8689c0d927"
+RPM_NAME = "blockzone-fonts-1.004-1.18.noarch.rpm"
+RPM_HASH = "da73f4af17e92cb870fa7b828760bfecc66451d5bd87a53102386b3b077e53d0b55c27fdb81b43fc3c9c6ca8b99c26c83be36bd30da68e0f9c8a842795507241"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blockzone-fonts"

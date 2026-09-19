@@ -7,10 +7,10 @@ when the board gets filled up all the way. \
 This package contains the help documentation for Five or More."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.32.3"
+PV = "48.1+6"
 
-RPM_NAME = "five-or-more-doc-3.32.3-1.8.noarch.rpm"
-RPM_HASH = "410f78ce7077345db98b0975c1f39f8e79ef826b076e75c7ae6450442cab0c9500a1995975a294a4c63a017161c125a5664abe20128dc70ac3025490db2a3707"
+RPM_NAME = "five-or-more-doc-48.1+6-1.2.noarch.rpm"
+RPM_HASH = "8cc0b678a9b67935c746be79dbbdd56f2f39ae7a4ca7497bc598cd33ed8c057d437ef8dd9232bb9c361946786d32463a7667f6b2d441e228a327536b67becd2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "five-or-more-doc"

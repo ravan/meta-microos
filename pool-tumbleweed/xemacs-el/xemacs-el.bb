@@ -6,10 +6,10 @@ nevertheless because it is often useful and enlightening to have a look \
 at the Lisp sources."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "21.5.34"
+PV = "21.5.36"
 
-RPM_NAME = "xemacs-el-21.5.34-22.5.noarch.rpm"
-RPM_HASH = "851f0030fc3130060fd6fb414992b323e822e5333750bee468555cbd8c931f89c820139f488af7ea7429d20ee4556d76fe590709e7fb020952d9c653e50aed52"
+RPM_NAME = "xemacs-el-21.5.36-1.1.noarch.rpm"
+RPM_HASH = "18545ca04af1f208bc3af23960c65cc5dc4b4bdc9a0ad3920a701944888cb8b5414d7a2ad4d393d8edeb75fe3acb0cb23ffa1eb7fb9d998bc70542c9378d166f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xemacs-el"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.7"
 
-RPM_NAME = "cups-pk-helper-lang-0.2.7-1.4.noarch.rpm"
-RPM_HASH = "176cdfc60509793d07d0be2adb885283e9dbaef9f2e8c062a6e7e8e8bfc519ea8166cf0f60f6a710e38be2aaff383bad38655c48b9574cad83bc158705536c1f"
+RPM_NAME = "cups-pk-helper-lang-0.2.7-1.14.noarch.rpm"
+RPM_HASH = "a3ba7e8329a4674cd7e59558e298758184c6a69547fb61eb3c96641a9775ca57e6e4ec93cf549405dcc668a86c582997f1e86f2919ff1349cc13ea80efe9e412"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cups-pk-helper-lang \

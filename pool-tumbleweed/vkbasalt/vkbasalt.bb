@@ -2,10 +2,10 @@ SUMMARY = "Vulkan post processing layer"
 DESCRIPTION = "vkBasalt is a Vulkan post processing layer to enhance the visual graphics of games."
 LICENSE = "Zlib"
 
-PV = "0.3.2.9"
+PV = "0.3.2.10"
 
-RPM_NAME = "vkbasalt-0.3.2.9-1.2.aarch64.rpm"
-RPM_HASH = "fd2f9d644acc92ef93efd6a71b81dd718998a4c4d5795d881806d6289050ba38a8f31d835f311d5e97790f02a0459d814edf9e71b081020604c68409925a9adb"
+RPM_NAME = "vkbasalt-0.3.2.10-3.9.aarch64.rpm"
+RPM_HASH = "7b6f5232c3048ef081c3b62341299a96ddf84e57b75aa713c6aed80f6a88c127e4697a661522aa9adbf539510080737a029fde3d2f8256f2cfd4f8b5f34ef1fd"
 
 RPROVIDES:${PN} += "config-vkbasalt \
 libvkbasalt.so \

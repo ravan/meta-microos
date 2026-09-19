@@ -6,14 +6,17 @@ of the service, the hostname and the output of \
 'systemctl status --full <service>'."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.11"
+PV = "1.21+git.20260212"
 
-RPM_NAME = "systemd-status-mail-1.11-2.2.noarch.rpm"
-RPM_HASH = "e150f994599683f7149165ac431cfbb4cf06707399102bdee2ddbf8b2b59c7451b8904f4e77024eccf06d716b2244ec01fabcf1fab5c48415ec40417b9a58649"
+RPM_NAME = "systemd-status-mail-1.21+git.20260212-1.2.noarch.rpm"
+RPM_HASH = "ac6c2b0da912a07bd9474905669c6b5f0f45b72f8d77ed987f9706ec3d6cc89fc198b1b0714690424da39d0e04baad039217622d89c8f78b43e73a6e0c1d1fdc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "systemd-status-mail"
+RPROVIDES:${PN} += "group-systemd-status-mail \
+systemd-status-mail \
+user-systemd-status-mail"
 
-RDEPENDS:${PN} += "/usr/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh \
+sysuser-shadow"
 
 inherit rpm

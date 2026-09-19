@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6"
 
-RPM_NAME = "dbsplit-tools-0.6-141.9.noarch.rpm"
-RPM_HASH = "2cfa51b1ca9f0f485adacfaa38997b931db68e01a63e8b871840ff43d06b903920db5c6a0f118aed9eee50141a6330223ec3b84d08ba2594de2e407dee9f0713"
+RPM_NAME = "dbsplit-tools-0.6-141.17.noarch.rpm"
+RPM_HASH = "0968b82b620b9269d1a412de9cd31ba482da0f7a594e5c976d79aec59cdd8f3c68ae86838cc4256f9ab56cc47ccc17972d9f34fc57270c3a0af72756a8810c5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbsplit-tools"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-control-center"
 DESCRIPTION = "Provides translations for the 'mate-control-center' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-control-center-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "b44e3d2576cb58d3ce82b409e8787f3b36d05ab4599bee7debe62de7ea0e26f31e850c3ec98dd4a5597aa999fea13930ceb12a197becc12d804966ff9d1ef889"
+RPM_NAME = "mate-control-center-lang-1.28.0-1.11.noarch.rpm"
+RPM_HASH = "ba83c45f233e81f6d98c81e3bbd2b48d8d185ea695f1cf73791ae643d057e702c0e8c3ed332422e5c0079ee86176a5af49e617c56b26e6e2bdb9d5ea0b93db38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-control-center-af \
@@ -30,7 +30,6 @@ locale-mate-control-center-el \
 locale-mate-control-center-en-AU \
 locale-mate-control-center-en-CA \
 locale-mate-control-center-en-GB \
-locale-mate-control-center-en-US \
 locale-mate-control-center-eo \
 locale-mate-control-center-es \
 locale-mate-control-center-es-AR \

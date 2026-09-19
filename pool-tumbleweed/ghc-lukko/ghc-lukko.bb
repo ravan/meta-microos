@@ -35,17 +35,18 @@ elif !(os(solaris) || os(aix)) cpp-options: -DHAS_FLOCK ' \
 'Lukko.NoOp' is always available."
 LICENSE = "GPL-2.0-or-later & BSD-3-Clause"
 
-PV = "0.1.1.3"
+PV = "0.1.2"
 
-RPM_NAME = "ghc-lukko-0.1.1.3-5.8.aarch64.rpm"
-RPM_HASH = "1f66b1c21007908db68b56afcfadac7a0a1acbd60fb425b18219d7f6b01a211b5133bff861f5d2b769f37d5012d39d392003198b9b17ca2aff2388947d83e7d9"
+RPM_NAME = "ghc-lukko-0.1.2-2.14.aarch64.rpm"
+RPM_HASH = "ef37600f6ed95fe50d172b9f513f0a2a2bc552e89308f6449f952e2ebd3cdecf31d4c412f55b25c72e06e97d739cbd5fe5f4999e138c76f14966f8f751d4f834"
 
 RPROVIDES:${PN} += "ghc-lukko \
-libHSlukko-0.1.1.3-IWqFfSgydIZCIQyWjUior5-ghc9.4.6.so"
+libHSlukko-0.1.2-KyYOwE0CZU8A6c79eyT2Xk-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

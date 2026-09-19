@@ -6,10 +6,10 @@ Clutter. \
 This package contains the development files for gdk-pixbuf."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.42.10"
+PV = "2.44.7"
 
-RPM_NAME = "gdk-pixbuf-devel-2.42.10-1.5.aarch64.rpm"
-RPM_HASH = "8b1ded8ad425c824d420034e06560f271cbc10697f45056b0e67a0636311de939c92e82c47a187b74b59c3a1c57ef3f665261c312ac15c4110c22eb736d4022c"
+RPM_NAME = "gdk-pixbuf-devel-2.44.7-1.2.aarch64.rpm"
+RPM_HASH = "aa74cd7ad7a8fb13f5907768412b7c14f1044ca0c69bfb8619d0c61cf18387aca12b15b91a472067a7df3ec7117d6765875de8c920d25e4f1358de06bbedbc91"
 
 RPROVIDES:${PN} += "gdk-pixbuf-devel \
 pkgconfig-gdk-pixbuf-2.0 \
@@ -26,11 +26,9 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 pkgconfig-gio-2.0 \
 pkgconfig-glib-2.0 \
+pkgconfig-glycin-2 \
 pkgconfig-gmodule-no-export-2.0 \
 pkgconfig-gobject-2.0 \
-pkgconfig-libjpeg \
-pkgconfig-libpng \
-pkgconfig-libtiff-4 \
 pkgconfig-shared-mime-info \
 typelib-1-0-GdkPixbuf-2-0 \
 typelib-1-0-GdkPixdata-2-0"

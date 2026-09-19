@@ -6,10 +6,10 @@ information within the EWF files. libewf allows to read files created \
 by EnCase 1 to 6, linen and FTK Imager."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230212"
+PV = "20240506"
 
-RPM_NAME = "libewf3-20230212-3.1.aarch64.rpm"
-RPM_HASH = "f2d6a62617572cfebbeb57574d3fdd3c400baa30adc45d118fba9965ea138cf89825efb23a025d4c08ac69a257831b8594baa63e1c6faee625eaec43341d564d"
+RPM_NAME = "libewf3-20240506-2.22.aarch64.rpm"
+RPM_HASH = "e877e558fd110f28e9acef89490c1642eec23f89a2245078a3044165e7e75007ab857249f70f6d6d76c57d52db3f9625d5c211d76f739820be713caf0fd78ec3"
 
 RPROVIDES:${PN} += "libewf.so.3 \
 libewf3"

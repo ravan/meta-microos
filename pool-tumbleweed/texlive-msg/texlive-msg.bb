@@ -8,10 +8,10 @@ localise the message file to their own language. Documentation \
 is provided in English."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.51svn49578"
+PV = "2026.226.0.0.51svn49578"
 
-RPM_NAME = "texlive-msg-2023.209.0.0.51svn49578-55.1.noarch.rpm"
-RPM_HASH = "94c978af7dcf141750567ec365cfcdff7d179f11d24d1cb4fbfabba63d14ba25611487300caf6dc583a65b34d6474c2e5844d2d49596207131e989be269640cf"
+RPM_NAME = "texlive-msg-2026.226.0.0.51svn49578-61.2.noarch.rpm"
+RPM_HASH = "78bbecec3ae366b0bd96e18ff4dd554a3af29ced13a060bd73d2d28c7a7b606b9f4b37f947f5d8a0efac64d173ec8224299639532eefe6d481a7264af34eeee5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-french-msg-msg.tex \

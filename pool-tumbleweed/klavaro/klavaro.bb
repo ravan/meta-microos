@@ -7,10 +7,10 @@ the program was designed to not depend on specific \
 layouts."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.13"
+PV = "3.14"
 
-RPM_NAME = "klavaro-3.13-1.8.aarch64.rpm"
-RPM_HASH = "b03a589d86eb1ffe15f565a0878234533f6f70521164d2a1eca9e8204fb75190f45d4ecd3675a5dd4d9aec766a5f5f7f78e14d00d6d32bb4fc72f7ca66a4e2dd"
+RPM_NAME = "klavaro-3.14-1.14.aarch64.rpm"
+RPM_HASH = "d97b54363a876d2ec053b3d79280d1452ea1b5d53d7e8187b9a6f47a3181bb5f7e095eadf0fa2a29145fcf00a118aaaf000ba86b3099537ca7f5967f78349ca0"
 
 RPROVIDES:${PN} += "klavaro"
 

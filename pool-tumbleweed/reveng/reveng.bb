@@ -10,10 +10,10 @@ It is compliant with Ross Williams' Rocksoft model of parametrised CRC \
 algorithms."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.0.5"
+PV = "3.0.6"
 
-RPM_NAME = "reveng-3.0.5-1.3.aarch64.rpm"
-RPM_HASH = "f2c4740c69dd45732f0576a7ce3457cb11fd750654777e15a08383a5dbdccf30ddf16abfd5d4ec0c252eab4bf552ee62af3c7ad1ca5fc4bcd6ce8b13891d075f"
+RPM_NAME = "reveng-3.0.6-1.3.aarch64.rpm"
+RPM_HASH = "c67a3b722737e27d294194c722e515e4989baea612dbd6f6e97086d6112e0aba3fcca20443fddde3f2ac338d1111963e6c03a2aa8a2c558e2f8e5a79fa37673d"
 
 RPROVIDES:${PN} += "reveng"
 

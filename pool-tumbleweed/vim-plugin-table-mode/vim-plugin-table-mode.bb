@@ -3,10 +3,10 @@ DESCRIPTION = "An awesome automatic table creator & formatter allowing one to \
 create neat tables as you type."
 LICENSE = "MIT"
 
-PV = "4.7.6.1"
+PV = "4.8.1"
 
-RPM_NAME = "vim-plugin-table-mode-4.7.6.1-56.1.noarch.rpm"
-RPM_HASH = "3df2108083931ba9dba50531a71f7cae57f4fd94ba5d4b768f0f6920e75bec5d14f7c316151208094b4a2df9f39d19fb33ec8e569c42b5c08dd63a658c30ae8b"
+RPM_NAME = "vim-plugin-table-mode-4.8.1-64.2.noarch.rpm"
+RPM_HASH = "f6754dcd146959705e4be9f0a86f536aac6aeda5fa14434274cda4d714f659851d21b313418c27d2d36afa4d50743c76a616595095e8112f309a3474dec298da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-table-mode"

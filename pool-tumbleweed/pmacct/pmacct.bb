@@ -9,10 +9,10 @@ supported, both unicast and multicast. A client program can export \
 export data to tools like RRDtool, GNUPlot, Net-SNMP, MRTG, and Cacti."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.7.8"
+PV = "1.7.9"
 
-RPM_NAME = "pmacct-1.7.8-1.5.aarch64.rpm"
-RPM_HASH = "89a8fbbf768269b2d463638e7e03fbc7451f5bd316dee9540f152ffb55bdad91715ebcbba932f52298cedb0bba4fd79160f2c1c9351af2f47d22f3b8eabe0457"
+RPM_NAME = "pmacct-1.7.9-2.6.aarch64.rpm"
+RPM_HASH = "dc70d6cb3dcbde2662fe5fd1d9348237824504c04e33be006f642e97f19df7a9a105fefdf9e1c1dfed320cc547b29d4492ea88e7eece3259849a74c58c107873"
 
 RPROVIDES:${PN} += "config-pmacct \
 pmacct"

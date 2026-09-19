@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.1"
 
-RPM_NAME = "liblrdf2-0.6.1-1.12.aarch64.rpm"
-RPM_HASH = "29d3b89bc2b4eb364067c473fb8f2076c2f1eb5446ed755fb7664c24c8e3af534ad8a882f7797e267e89d4cc435064fccdec45bc8db5b4cdea717a000b8c1c2a"
+RPM_NAME = "liblrdf2-0.6.1-1.22.aarch64.rpm"
+RPM_HASH = "edcd48db3c10dec96bb3ccbd7a1a853cb38e23b8c8e2492c850572cd71c22536dae88744453af6b36760a09acc0c6dc34ee415ed492ca2868bd9ebd7a72585da"
 
 RPROVIDES:${PN} += "liblrdf \
 liblrdf.so.2 \

@@ -7,16 +7,16 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of mimalloc."
 LICENSE = "MIT"
 
-PV = "2.0.9"
+PV = "3.3.2"
 
-RPM_NAME = "mimalloc-devel-2.0.9-1.4.aarch64.rpm"
-RPM_HASH = "f7dc7acf380ae61d96af1adba55bf54dd5ffdf990baa920e8c1a16863453664ec9ed864dba0c0953decf9336c52abb29a9dcd94630b4407e7e3b7f472409ea35"
+RPM_NAME = "mimalloc-devel-3.3.2-1.3.aarch64.rpm"
+RPM_HASH = "fd7a796c62f51ab67bcb89767f04765625287794327099445fa983d7ed33001716e4b2d5c6839a81ceebd654fb0cdb793b56f60ee3cfcbd96648cae7e452bc38"
 
 RPROVIDES:${PN} += "cmake-mimalloc \
 mimalloc-devel \
 pkgconfig-mimalloc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libmimalloc2"
+libmimalloc3"
 
 inherit rpm

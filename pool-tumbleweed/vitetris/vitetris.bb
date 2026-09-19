@@ -14,8 +14,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.59.1"
 
-RPM_NAME = "vitetris-0.59.1-1.12.aarch64.rpm"
-RPM_HASH = "aacdec508dbf1d32088a180d40c416b8235ecd08d1c61a8ae811b9ab1c454cbf6f8c0ea9cf53e378cc28b5cf66921301f66a7bafa3715fb564e74f0505902a4d"
+RPM_NAME = "vitetris-0.59.1-3.8.aarch64.rpm"
+RPM_HASH = "bd050d3910c90e5c7a013757dca582497c107cd5adf0186620699ab51fcd85e62ca1be44a4af4f15b8788948dba511c74fafefcde531163c2bd8d2db17f24a06"
 
 RPROVIDES:${PN} += "vitetris"
 

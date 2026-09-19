@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libosinfo"
 DESCRIPTION = "Provides translations for the 'libosinfo' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.10.0"
+PV = "1.12.0"
 
-RPM_NAME = "libosinfo-lang-1.10.0-3.4.noarch.rpm"
-RPM_HASH = "97144e7d027051503f2c8ebada7fc5dbffa2e4b5caf351c66c539a257714df77360a36cf180a77fc5dda26d37c5bba2b34d190a8bcfb90bc58cbde80c7c30e0c"
+RPM_NAME = "libosinfo-lang-1.12.0-3.6.noarch.rpm"
+RPM_HASH = "e2bdf785e66741f2fa3886a7568df9397eee1b9f7b92966fee4b32491aa1e90d53d80be65d6a3fe55ef9b808dd74e204062e191db41e59972d08b02873b4802e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libosinfo-lang \
@@ -21,6 +21,7 @@ locale-libosinfo-fur \
 locale-libosinfo-id \
 locale-libosinfo-it \
 locale-libosinfo-ja \
+locale-libosinfo-ka \
 locale-libosinfo-ko \
 locale-libosinfo-pl \
 locale-libosinfo-pt-BR \
@@ -28,7 +29,8 @@ locale-libosinfo-pt-PT \
 locale-libosinfo-ru \
 locale-libosinfo-si \
 locale-libosinfo-tr \
-locale-libosinfo-uk"
+locale-libosinfo-uk \
+locale-libosinfo-zh-Hans"
 
 RDEPENDS:${PN} += "libosinfo"
 

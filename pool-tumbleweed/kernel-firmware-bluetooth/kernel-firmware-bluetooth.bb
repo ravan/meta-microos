@@ -1,34 +1,85 @@
 SUMMARY = "Kernel firmware files for various Bluetooth drivers"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-various Bluetooth drivers."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for various Bluetooth drivers."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
-PV = "20230829"
+PV = "20260828"
 
-RPM_NAME = "kernel-firmware-bluetooth-20230829-1.1.noarch.rpm"
-RPM_HASH = "2d5adac0d9650e8bc147fb78a2cbe5a6b4a9b31073e0985199a7cdf91fadfe78d008dd124b3fe11a59f58cbaab3c5d6df925101d2970dc661bcca0c9f7c48ce2"
+RPM_NAME = "kernel-firmware-bluetooth-20260828-1.1.noarch.rpm"
+RPM_HASH = "37b752be1ea07218c823768c9fe9acaae2417d644834e122f4959a78391369f019ceebccdd0b2d9c04a8aa1d440ef0f1dae8aed928927b71f9dcf2bab5ef0403"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "firmware-intel/ibt-0040-0041.ddc \
+RPROVIDES:${PN} += "firmware-amlogic/aml-w155s2-bt-uart.bin \
+firmware-amlogic/aml-w265s1-bt-uart.bin \
+firmware-amlogic/aml-w265s2-bt-uart.bin \
+firmware-intel/ibt-0040-0041.ddc \
 firmware-intel/ibt-0040-0041.sfi \
 firmware-intel/ibt-0040-1020.ddc \
 firmware-intel/ibt-0040-1020.sfi \
+firmware-intel/ibt-0040-1050.ddc \
+firmware-intel/ibt-0040-1050.sfi \
 firmware-intel/ibt-0040-2120.ddc \
 firmware-intel/ibt-0040-2120.sfi \
 firmware-intel/ibt-0040-4150.ddc \
 firmware-intel/ibt-0040-4150.sfi \
 firmware-intel/ibt-0041-0041.ddc \
 firmware-intel/ibt-0041-0041.sfi \
+firmware-intel/ibt-0093-0041.ddc \
+firmware-intel/ibt-0093-0041.sfi \
+firmware-intel/ibt-0093-0291.ddc \
+firmware-intel/ibt-0093-0291.sfi \
+firmware-intel/ibt-0093-1050.ddc \
+firmware-intel/ibt-0093-1050.sfi \
+firmware-intel/ibt-0093-4150.ddc \
+firmware-intel/ibt-0093-4150.sfi \
+firmware-intel/ibt-00a0-0041-iml.sfi \
+firmware-intel/ibt-00a0-0041-pci.ddc \
+firmware-intel/ibt-00a0-0041-pci.sfi \
+firmware-intel/ibt-00a0-01a1-iml.sfi \
+firmware-intel/ibt-00a0-01a1-pci.ddc \
+firmware-intel/ibt-00a0-01a1-pci.sfi \
+firmware-intel/ibt-00a0-0291-iml.sfi \
+firmware-intel/ibt-00a0-0291-pci.ddc \
+firmware-intel/ibt-00a0-0291-pci.sfi \
+firmware-intel/ibt-0180-0041.ddc \
+firmware-intel/ibt-0180-0041.sfi \
+firmware-intel/ibt-0180-1050.ddc \
+firmware-intel/ibt-0180-1050.sfi \
+firmware-intel/ibt-0180-4150.ddc \
+firmware-intel/ibt-0180-4150.sfi \
+firmware-intel/ibt-0190-0041-iml.sfi \
+firmware-intel/ibt-0190-0041-pci.ddc \
+firmware-intel/ibt-0190-0041-pci.sfi \
+firmware-intel/ibt-0190-0041-usb.ddc \
+firmware-intel/ibt-0190-0041-usb.sfi \
+firmware-intel/ibt-0190-0291-iml.sfi \
+firmware-intel/ibt-0190-0291-pci.ddc \
+firmware-intel/ibt-0190-0291-pci.sfi \
+firmware-intel/ibt-0190-0291-usb.ddc \
+firmware-intel/ibt-0190-0291-usb.sfi \
+firmware-intel/ibt-0190-0291.ddc \
+firmware-intel/ibt-0190-0291.sfi \
+firmware-intel/ibt-0291-0291.ddc \
+firmware-intel/ibt-0291-0291.sfi \
 firmware-intel/ibt-1040-0041.ddc \
 firmware-intel/ibt-1040-0041.sfi \
 firmware-intel/ibt-1040-1020.ddc \
 firmware-intel/ibt-1040-1020.sfi \
+firmware-intel/ibt-1040-1050.ddc \
+firmware-intel/ibt-1040-1050.sfi \
 firmware-intel/ibt-1040-2120.ddc \
 firmware-intel/ibt-1040-2120.sfi \
 firmware-intel/ibt-1040-4150.ddc \
 firmware-intel/ibt-1040-4150.sfi \
 firmware-intel/ibt-11-5.ddc \
 firmware-intel/ibt-11-5.sfi \
+firmware-intel/ibt-1190-0041-iml.sfi \
+firmware-intel/ibt-1190-0041-pci.ddc \
+firmware-intel/ibt-1190-0041-pci.sfi \
+firmware-intel/ibt-1190-0041-usb.ddc \
+firmware-intel/ibt-1190-0041-usb.sfi \
+firmware-intel/ibt-1190-01a1-iml.sfi \
+firmware-intel/ibt-1190-01a1-pci.ddc \
+firmware-intel/ibt-1190-01a1-pci.sfi \
 firmware-intel/ibt-12-16.ddc \
 firmware-intel/ibt-12-16.sfi \
 firmware-intel/ibt-17-0-1.ddc \
@@ -82,17 +133,65 @@ firmware-intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq \
 firmware-intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq \
 firmware-intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq \
 firmware-intel/ibt-hw-37.8.bseq \
+firmware-qca/QCA2066/nvm-usb-00130201-030a.bin \
+firmware-qca/QCA2066/nvm-usb-00130201-gf-030a.bin \
+firmware-qca/QCA2066/rampatch-usb-00130201.bin \
+firmware-qca/QCA6698/hpbtfw21.tlv \
+firmware-qca/QCA6698/hpnv21.b206 \
+firmware-qca/QCA6698/hpnv21.b207 \
+firmware-qca/QCA6698/hpnv21.bin \
+firmware-qca/apbtfw10.tlv \
+firmware-qca/apbtfw11.tlv \
+firmware-qca/apnv10.bin \
+firmware-qca/apnv11.bin \
+firmware-qca/cmbtfw12.tlv \
+firmware-qca/cmbtfw13.tlv \
+firmware-qca/cmnv12.bin \
+firmware-qca/cmnv13.bin \
+firmware-qca/cmnv13s.bin \
+firmware-qca/cmnv13t.bin \
 firmware-qca/crbtfw21.tlv \
 firmware-qca/crbtfw32.tlv \
 firmware-qca/crnv21.bin \
 firmware-qca/crnv32.bin \
 firmware-qca/crnv32u.bin \
+firmware-qca/hmtbtfw20.tlv \
+firmware-qca/hmtnv20.b10f \
+firmware-qca/hmtnv20.b112 \
+firmware-qca/hmtnv20.bin \
 firmware-qca/hpbtfw21.tlv \
 firmware-qca/hpnv21.301 \
 firmware-qca/hpnv21.302 \
+firmware-qca/hpnv21.309 \
+firmware-qca/hpnv21.30a \
+firmware-qca/hpnv21.b10c \
+firmware-qca/hpnv21.b111 \
+firmware-qca/hpnv21.b8c \
+firmware-qca/hpnv21.b9f \
+firmware-qca/hpnv21.ba0 \
+firmware-qca/hpnv21.ba1 \
+firmware-qca/hpnv21.ba2 \
+firmware-qca/hpnv21.ba3 \
+firmware-qca/hpnv21.ba4 \
+firmware-qca/hpnv21.baa \
+firmware-qca/hpnv21.bb8 \
 firmware-qca/hpnv21.bin \
 firmware-qca/hpnv21g.301 \
 firmware-qca/hpnv21g.302 \
+firmware-qca/hpnv21g.309 \
+firmware-qca/hpnv21g.30a \
+firmware-qca/hpnv21g.30c \
+firmware-qca/hpnv21g.b10c \
+firmware-qca/hpnv21g.b111 \
+firmware-qca/hpnv21g.b8c \
+firmware-qca/hpnv21g.b9f \
+firmware-qca/hpnv21g.ba0 \
+firmware-qca/hpnv21g.ba1 \
+firmware-qca/hpnv21g.ba2 \
+firmware-qca/hpnv21g.ba3 \
+firmware-qca/hpnv21g.ba4 \
+firmware-qca/hpnv21g.baa \
+firmware-qca/hpnv21g.bb8 \
 firmware-qca/hpnv21g.bin \
 firmware-qca/htbtfw20.tlv \
 firmware-qca/htnv20.bin \
@@ -127,7 +226,20 @@ firmware-qca/nvm-usb-00130201-gf-010b.bin \
 firmware-qca/nvm-usb-00130201-gf-0303.bin \
 firmware-qca/nvm-usb-00130201-gf.bin \
 firmware-qca/nvm-usb-00130201.bin \
+firmware-qca/nvm-usb-00190200-0104.bin \
+firmware-qca/nvm-usb-00190200-0106.bin \
+firmware-qca/nvm-usb-00190200-0108.bin \
+firmware-qca/nvm-usb-00190200-0109.bin \
+firmware-qca/nvm-usb-00190200-010a.bin \
+firmware-qca/nvm-usb-00190200-010c.bin \
+firmware-qca/nvm-usb-00190200-010e.bin \
+firmware-qca/nvm-usb-00190200-0110.bin \
+firmware-qca/nvm-usb-00190200-0111.bin \
+firmware-qca/nvm-usb-00190200-0112.bin \
 firmware-qca/nvm-usb-00190200.bin \
+firmware-qca/ornbcscal11.bin \
+firmware-qca/ornbtfw11.tlv \
+firmware-qca/ornnv11.bin \
 firmware-qca/rampatch-00130300.bin \
 firmware-qca/rampatch-00130302.bin \
 firmware-qca/rampatch-00230302.bin \
@@ -139,20 +251,55 @@ firmware-qca/rampatch-usb-00000302.bin \
 firmware-qca/rampatch-usb-00130200.bin \
 firmware-qca/rampatch-usb-00130201.bin \
 firmware-qca/rampatch-usb-00190200.bin \
+firmware-qca/wcnhpbtfw10.tlv \
+firmware-qca/wcnhpbtfw21.tlv \
+firmware-qca/wcnhpnv10.b06 \
+firmware-qca/wcnhpnv10.bin \
+firmware-qca/wcnhpnv21.b10c \
+firmware-qca/wcnhpnv21.b111 \
+firmware-qca/wcnhpnv21.b8c \
+firmware-qca/wcnhpnv21.b9f \
+firmware-qca/wcnhpnv21.ba0 \
+firmware-qca/wcnhpnv21.ba1 \
+firmware-qca/wcnhpnv21.ba2 \
+firmware-qca/wcnhpnv21.ba3 \
+firmware-qca/wcnhpnv21.ba4 \
+firmware-qca/wcnhpnv21.baa \
+firmware-qca/wcnhpnv21.bb8 \
+firmware-qca/wcnhpnv21.bin \
+firmware-qca/wcnhpnv21g.b10c \
+firmware-qca/wcnhpnv21g.b111 \
+firmware-qca/wcnhpnv21g.b8c \
+firmware-qca/wcnhpnv21g.b9f \
+firmware-qca/wcnhpnv21g.ba0 \
+firmware-qca/wcnhpnv21g.ba1 \
+firmware-qca/wcnhpnv21g.ba2 \
+firmware-qca/wcnhpnv21g.ba3 \
+firmware-qca/wcnhpnv21g.ba4 \
+firmware-qca/wcnhpnv21g.baa \
+firmware-qca/wcnhpnv21g.bb8 \
+firmware-qca/wcnhpnv21g.bin \
 firmware-rtl-bt/rtl8192ee-fw.bin \
 firmware-rtl-bt/rtl8192eu-fw.bin \
 firmware-rtl-bt/rtl8723a-fw.bin \
+firmware-rtl-bt/rtl8723b-config.bin \
 firmware-rtl-bt/rtl8723b-fw.bin \
 firmware-rtl-bt/rtl8723bs-config-OBDA0623.bin \
 firmware-rtl-bt/rtl8723bs-config-OBDA8723.bin \
+firmware-rtl-bt/rtl8723bs-config.bin \
 firmware-rtl-bt/rtl8723bs-fw.bin \
+firmware-rtl-bt/rtl8723cs-xx-config.bin \
+firmware-rtl-bt/rtl8723cs-xx-fw.bin \
 firmware-rtl-bt/rtl8723d-config.bin \
 firmware-rtl-bt/rtl8723d-fw.bin \
+firmware-rtl-bt/rtl8761a-config.bin \
 firmware-rtl-bt/rtl8761a-fw.bin \
 firmware-rtl-bt/rtl8761b-config.bin \
 firmware-rtl-bt/rtl8761b-fw.bin \
 firmware-rtl-bt/rtl8761bu-config.bin \
 firmware-rtl-bt/rtl8761bu-fw.bin \
+firmware-rtl-bt/rtl8761cu-config.bin \
+firmware-rtl-bt/rtl8761cu-fw.bin \
 firmware-rtl-bt/rtl8812ae-fw.bin \
 firmware-rtl-bt/rtl8821a-config.bin \
 firmware-rtl-bt/rtl8821a-fw.bin \
@@ -170,11 +317,15 @@ firmware-rtl-bt/rtl8851bu-config.bin \
 firmware-rtl-bt/rtl8851bu-fw.bin \
 firmware-rtl-bt/rtl8852au-config.bin \
 firmware-rtl-bt/rtl8852au-fw.bin \
+firmware-rtl-bt/rtl8852btu-config.bin \
+firmware-rtl-bt/rtl8852btu-fw.bin \
 firmware-rtl-bt/rtl8852bu-config.bin \
 firmware-rtl-bt/rtl8852bu-fw.bin \
 firmware-rtl-bt/rtl8852cu-config.bin \
 firmware-rtl-bt/rtl8852cu-fw-v2.bin \
 firmware-rtl-bt/rtl8852cu-fw.bin \
+firmware-rtl-bt/rtl8922au-config.bin \
+firmware-rtl-bt/rtl8922au-fw.bin \
 kernel-firmware-bluetooth"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \

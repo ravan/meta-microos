@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-report-6.0.0-6.8.aarch64.rpm"
-RPM_HASH = "7702adc6d1455a73376d73a61dc04281a893c6e25e0ce18a5649ae75695bba586ef63cd770d6bd016152afddf0a61c8c7223f15ccc33c4f64d26548badc94af3"
+RPM_NAME = "libgda-report-6.0.0-11.5.aarch64.rpm"
+RPM_HASH = "22eb88c2449005a75f8b98a13efa85a50a25f0069058982d7de5e8a23fc65000559a6a75a211a615dc4472dc3d70c85bce4a9c569c2cd394b77d176a1c20aade"
 
 RPROVIDES:${PN} += "libgda-report"
 

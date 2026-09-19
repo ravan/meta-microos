@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-maze"
 DESCRIPTION = "This package includes the documentation for texlive-maze"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2svn65508"
+PV = "2026.226.1.2svn76924"
 
-RPM_NAME = "texlive-maze-doc-2023.208.1.2svn65508-53.1.noarch.rpm"
-RPM_HASH = "f351b4c326731f88eef0745c2b93b69f3a7f741d4df64a2682c5d263b2be342bb3ed246660099f435abdd3bf5f7ee529beed6fc7a223a94eab2c27447a423741"
+RPM_NAME = "texlive-maze-doc-2026.226.1.2svn76924-59.2.noarch.rpm"
+RPM_HASH = "bfee513a2f338b3dd7fec72834804454194ef8b15d2189d059d6ccc0fa31b6ecb3e8aba2eb706c8421cdcff4bd4e4d8c27e402a50cf420156b57c236ef47ac0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-maze-doc"

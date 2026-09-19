@@ -5,23 +5,24 @@ Markdown format in the rendered target format. \
 Examples are Ark, Krusader, Kate's preview plugin & Konqueror."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "markdownpart-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "98f010e442f99a46b727a6715f76197076fb4376e96db609a040cd4caccd731ba6ba0270530c6e992e73cbbf2dfcfb7c8e5c1ba1a227d2b49a61c41a711a2319"
+RPM_NAME = "markdownpart-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "615804143bd917207337ab14e28f3456c54fd593e03a8f49728d0e02480aa823a330783c39b065fb737e9de516ff063452af42214aa802a3723af2606dbffb5c"
 
 RPROVIDES:${PN} += "markdownpart"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libKF5Parts.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6Parts.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

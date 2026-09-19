@@ -4,10 +4,10 @@ DESCRIPTION = "The package provides the means of defining \\global and (e-TeX) \
 \\newcommand."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn15878"
+PV = "2026.226.1.2svn15878"
 
-RPM_NAME = "texlive-xnewcommand-2023.209.1.2svn15878-53.2.noarch.rpm"
-RPM_HASH = "aa5b055571b70726b05fdff904aeaf6fa96660f0f45655a75ef475742d9528dbc48988ff60a1e0878dfd6fc3be9afcc94977bfee2239c58b5c45166f6a9f211a"
+RPM_NAME = "texlive-xnewcommand-2026.226.1.2svn15878-59.4.noarch.rpm"
+RPM_HASH = "b7653a12adba3152c78a54c0426206fe52f6acc38b1a3aaa78f9bdcc1e0e7686e304f66874617ec08e5d3763d8f6dbca8989e8b102996bd9503c0045e65068c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xnewcommand.sty \

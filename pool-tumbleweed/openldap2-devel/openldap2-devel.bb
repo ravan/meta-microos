@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the OpenLDAP libraries, header files, and \
 documentation."
 LICENSE = "OLDAP-2.8"
 
-PV = "2.6.4"
+PV = "2.6.13"
 
-RPM_NAME = "openldap2-devel-2.6.4-2.2.aarch64.rpm"
-RPM_HASH = "ebff312eae9de4d5d6f6b134525a3f796ab36ea3dc29feebf9970e2c5d61ff9af82ec9a3601c642215559257ba5dccf9447bf4cb5c727634c7fb8097d04510d3"
+RPM_NAME = "openldap2-devel-2.6.13-1.6.aarch64.rpm"
+RPM_HASH = "36be882a9a234b359ca3db28674c5629e63ef9911506bfd21361d56c9f4cdaa6255ea4a09d228544e4348f1eed3244da7473905c42056420f786501410f38d76"
 
 RPROVIDES:${PN} += "openldap2-devel \
 pkgconfig-lber \

@@ -5,10 +5,10 @@ ABI or API guarantees. The packages that build against these have to \
 require the exact Qt version."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5KmsSupport-private-headers-devel-5.15.10+kde129-2.1.noarch.rpm"
-RPM_HASH = "fbfc594add41702d1b7ccee8c565e3fedca4575f7a7ff8a3cd196123377f66fc41b7e894bc1a62d8718ba77e168304f7de2d83a1bab2e0c73223e2d00dae7561"
+RPM_NAME = "libQt5KmsSupport-private-headers-devel-5.15.19+kde96-1.3.noarch.rpm"
+RPM_HASH = "1c93b97500fa31505ec29a0b0b7e034150e72f9b326ac7e533d097ba070914fb65cd5b0b514eb81b897c13350e14d3bd35618e82b182fd3d9efdcf471c7435d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5KmsSupport-private-headers-devel"

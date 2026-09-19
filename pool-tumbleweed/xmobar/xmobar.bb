@@ -5,15 +5,14 @@ Inspired by the Ion3 status bar, it supports similar features, like dynamic \
 color management, output templates, and extensibility through plugins."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.46"
+PV = "0.51.1"
 
-RPM_NAME = "xmobar-0.46-2.12.aarch64.rpm"
-RPM_HASH = "9091953e1bec7b747808bd999202ff3195bc876db7c18ef74cbd1ba56aabb81d9a4cb05f37b3be8bfcee6d449a456812cc53d09ae68791d9b3bd4e0d5cd81ec5"
+RPM_NAME = "xmobar-0.51.1-1.2.aarch64.rpm"
+RPM_HASH = "5df6125f4337650d3fa11ad55e715195687c55efdf0131a6b4499347028bcfc01db75ace316cfcdfca2a1c1f6078a8798d9e9f7fef075b6fea2a5fad9d204728"
 
 RPROVIDES:${PN} += "xmobar"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libX11.so.6 \
+RDEPENDS:${PN} += "libX11.so.6 \
 libXext.so.6 \
 libXft.so.2 \
 libXinerama.so.1 \

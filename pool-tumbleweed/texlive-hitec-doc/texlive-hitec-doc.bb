@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hitec"
 DESCRIPTION = "This package includes the documentation for texlive-hitec"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0betasvn15878"
+PV = "2026.226.0.0.0betasvn15878"
 
-RPM_NAME = "texlive-hitec-doc-2023.209.0.0.0betasvn15878-54.2.noarch.rpm"
-RPM_HASH = "18461b5546dc77e456e3850cfd083fca7e7be28e823ce2185f168d80c43f866a0eb2bff076b34d679306575e6cd17ae2f1814673c61a7ae56094ba3f332739d9"
+RPM_NAME = "texlive-hitec-doc-2026.226.0.0.0betasvn15878-60.4.noarch.rpm"
+RPM_HASH = "1f02742f4050e056283dc531346aefc76afb57fe851301c379f4c3c7f866d22cc2b560f89e2c9a230b8cb4bb0bd42375bd103e80daa9c1e69d4912f133d58f0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hitec-doc"

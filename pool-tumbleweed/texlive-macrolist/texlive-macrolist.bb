@@ -8,10 +8,10 @@ package are 1-indexed, meaning the first element is numbered 1, \
 the second element numbered 2, and so on."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.2.1.0svn60139"
+PV = "2026.226.2.1.0svn60139"
 
-RPM_NAME = "texlive-macrolist-2023.208.2.1.0svn60139-53.1.noarch.rpm"
-RPM_HASH = "b01654cecf466339a4fce937a993e5dfcc8943d26d47767f05813c2640acf7945f41288fc1363641406e7bfbe5be3f2c411f3d7bb678300606d7c5c01f61f15c"
+RPM_NAME = "texlive-macrolist-2026.226.2.1.0svn60139-59.2.noarch.rpm"
+RPM_HASH = "8cad1cd756b08f5112464f92888c976cf08a8c2342108f497534522b03a0cdbb3ea31eef42d764136ce37cb9f514f8d4a632fe4d78430c58e9203caaa5460e89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-macrolist.sty \

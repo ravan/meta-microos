@@ -1,15 +1,15 @@
 SUMMARY = "Development files for dataquay, an RDF data store library"
 DESCRIPTION = "Dataquay is a library that provides a C++ API for an \
-RDF data store using Qt5 classes and containers. \
+RDF data store using Qt6 classes and containers. \
  \
 This subpackage contains the header files for developing \
 applications that want to make use of dataquay."
 LICENSE = "MIT"
 
-PV = "0.9.1"
+PV = "0.9.5"
 
-RPM_NAME = "dataquay-devel-0.9.1-2.23.aarch64.rpm"
-RPM_HASH = "0a35133e097f99ad68baa6da343fae8e1d2c4f1cdb0999725ab4fddbfcf8e831f60d2cf17d47a0b6750657295b891e567e8a0a85b61bb3065d9a21191d70fc6a"
+RPM_NAME = "dataquay-devel-0.9.5-1.6.aarch64.rpm"
+RPM_HASH = "c756c2d0052cb64c8b86ddcbfde815dd51df26a834c2e678eb072b32a43b736ad181e6e7af518c4042d3d0ca5c414924b4485311f25702c1b88dcdcf09f92dfd"
 
 RPROVIDES:${PN} += "dataquay-devel \
 pkgconfig-dataquay"

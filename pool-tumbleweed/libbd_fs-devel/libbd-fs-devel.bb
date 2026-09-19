@@ -3,17 +3,17 @@ DESCRIPTION = "This package contains header files and pkg-config files needed fo
 with the libbd_fs plugin/library.."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libbd_fs-devel-2.28-1.6.aarch64.rpm"
-RPM_HASH = "e838005e4e6a0e2061b0227a91d7b189858d823da33e50f18e3f107aae20018e00742893c544b9df711f14971479a6b7b6a00f7c637047509bebde5efb60f492"
+RPM_NAME = "libbd_fs-devel-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "f2181c00d933fc53cb4c539f5c21fe4e535b9a426efedbedbec24c7d43f639ecf624e9ac27a094d9fa1b1ea1f497d06dc09316eddfdec01a63500def25d25247"
 
 RPROVIDES:${PN} += "libbd-fs-devel \
 libblockdev-fs-devel"
 
 RDEPENDS:${PN} += "dosfstools \
 glib2-devel \
-libbd-fs2 \
+libbd-fs3 \
 libbd-utils-devel \
 xfsprogs"
 

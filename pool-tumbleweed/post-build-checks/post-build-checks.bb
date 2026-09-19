@@ -8,10 +8,10 @@ it may not be a good idea to install this to a running system: \
 /etc/sysconfig/clock:TIMEZONE='UTC'"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87+git20230328.de7e9df"
+PV = "84.87+git20260421.8ed5e73"
 
-RPM_NAME = "post-build-checks-84.87+git20230328.de7e9df-1.1.noarch.rpm"
-RPM_HASH = "74a721c0078a7c17497f37024413059a9bb90fd28d1d53935d6f30b78c059402948275050099c01903588d11d320e518a5bc35bf04b6eabee67aafa735d1983c"
+RPM_NAME = "post-build-checks-84.87+git20260421.8ed5e73-1.1.noarch.rpm"
+RPM_HASH = "8470d5d3d9fc89f2099439a5360210d0db9811c962a768ffcd0a786d9e1ea0ecfaf100962d329a1c8618e935cabca1b21c55f10fc1847ffbc6f4a2f628cb71f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-RPMQ \

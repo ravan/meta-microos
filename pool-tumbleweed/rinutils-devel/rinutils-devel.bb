@@ -2,10 +2,10 @@ SUMMARY = "Shlomi Fish's gnu11 C Library of Random headers"
 DESCRIPTION = "Shlomi Fish's gnu11 C Library of Random headers."
 LICENSE = "MIT"
 
-PV = "0.10.1"
+PV = "0.10.3"
 
-RPM_NAME = "rinutils-devel-0.10.1-1.4.noarch.rpm"
-RPM_HASH = "72eb6f0b8bdd4fed8591bbb77830950da04e35fd9d519c1c87b7c9499d99027875d292c8caae1cadcbc86a9833a6e29cfc6a23c10b66ff9b93721f7d187436dd"
+RPM_NAME = "rinutils-devel-0.10.3-1.2.noarch.rpm"
+RPM_HASH = "64f766fe8decd5f53a41aa5d7a3f7f55a3620f2b91add192ea1253db1bc97b9dca2f3e95cdb784c5a3ca1df78a8587f478d321b063c164034633086b626e5684"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake-Rinutils \

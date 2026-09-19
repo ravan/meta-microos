@@ -3,10 +3,10 @@ DESCRIPTION = "Xdm manages a collection of X displays, which may be on the local
 or remote servers."
 LICENSE = "MIT"
 
-PV = "1.1.14"
+PV = "1.1.17"
 
-RPM_NAME = "xdm-1.1.14-4.2.aarch64.rpm"
-RPM_HASH = "fc916b7e255d683571a799381fbf34fb4397c456ffee9d19a23679ccd52230b4f4efa75875a846a9ffd8d6b7673ac21a9b58d2c4abb962245af93207e23dbd0a"
+RPM_NAME = "xdm-1.1.17-5.3.aarch64.rpm"
+RPM_HASH = "c34ee6178cbe74d0c14b7ea76dd9d425ad1caac138a204e110082f552b57dd2a5893aef045354b1b9c30a083a8051652e3a8bcacd4639311a7b14c7884dff7b3"
 
 RPROVIDES:${PN} += "config-xdm \
 libXdmGreet.so \
@@ -14,12 +14,10 @@ xdm"
 
 RDEPENDS:${PN} += "/sbin/startproc \
 /usr/bin/bash \
-/usr/bin/mkdir \
 /usr/bin/pidof \
 /usr/bin/sh \
-/usr/bin/touch \
 cpp \
-fillup \
+displaymanager-sysconfig \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXau.so.6 \
@@ -38,9 +36,9 @@ libpam.so.0 \
 logrotate \
 sessreg \
 systemd \
+systemd-presets-common-SUSE \
+update-alternatives \
 xconsole \
-xinit \
-xli \
 xmessage \
 xrdb \
 xset \

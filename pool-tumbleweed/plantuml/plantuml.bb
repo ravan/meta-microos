@@ -13,17 +13,16 @@ PlantUML supports the following diagram types \
   - state diagram"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2023.1"
+PV = "1.2025.2"
 
-RPM_NAME = "plantuml-1.2023.1-1.4.noarch.rpm"
-RPM_HASH = "98fbd3b8b4cdb4b50e8a9e688529609b02dd3d497027b2c2fcc39a5b33b170b62b01f19d3b0250775ed54237e7a5f93dc6f84e5c0bd76c22b0aaa3ada2e7ca80"
+RPM_NAME = "plantuml-1.2025.2-1.6.noarch.rpm"
+RPM_HASH = "7d740d994f822937834beff25d71d25dd5a067483a2c032a71131a94042c1ffab346980e5b6ec967f35c12fb805492115b027d1392d41efedf5c85d468aede00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-net.sourceforge.plantuml-plantuml \
 plantuml"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-java \
 java-headless \
 javapackages-filesystem \
 javapackages-tools"

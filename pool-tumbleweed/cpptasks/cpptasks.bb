@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0b5"
 
-RPM_NAME = "cpptasks-1.0b5-7.15.noarch.rpm"
-RPM_HASH = "3e6a4faef887f318d12f8d3b3378d3b3d1318cb45856179ae14ca3d1d20118b3c3ba8fc5a5c00b2bbd6cf629458b7e0a6f27892f070070eaee521ae93d1c1a72"
+RPM_NAME = "cpptasks-1.0b5-7.26.noarch.rpm"
+RPM_HASH = "af200a1b3628a0a965c0859b26b7d7fa898a4f4dc430231f69b5c0f875a661b921b91eb4bb6df50b2c70317041ebf22bb8294d62bc60954e96477216be239293"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-cpptasks \

@@ -2,10 +2,10 @@ SUMMARY = "Convenience package for a single-instance setup using apache proxy"
 DESCRIPTION = "Use this package to setup a local instance with all services provided together."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1694101660.598baea"
+PV = "5.1788605562.29b45941"
 
-RPM_NAME = "openQA-single-instance-4.6.1694101660.598baea-1.1.aarch64.rpm"
-RPM_HASH = "2bf99bd5b4060ef95c5193e4d2f7ed4a8467b8fe7b9330b8758aeed025bfefab1b57dfdfe64f8d3129f972ec52278de962bd5eed0f7988bafad6a311c6815a1d"
+RPM_NAME = "openQA-single-instance-5.1788605562.29b45941-1.1.aarch64.rpm"
+RPM_HASH = "de10529ad3f6c6dbe641f664bbeaffc77450253cabdc8c2f09aad7ba4af709e465201ff143fcb503868bfdff50568deeb040cc76e3087d9181668342578dfde2"
 
 RPROVIDES:${PN} += "openQA-single-instance \
 openQA-single-instance-apache \

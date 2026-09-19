@@ -5,16 +5,15 @@ making software that writes data safely to disk a lot quicker and making \
 this software no longer crash safe."
 LICENSE = "GPL-3.0-only"
 
-PV = "130"
+PV = "131"
 
-RPM_NAME = "eatmydata-130-1.6.aarch64.rpm"
-RPM_HASH = "8a2349cde099b4076edfc1ec28a58d8869450274af761f5c6a187ab57dc34e1ce54441ee4f739afd07b38203980e829533f09ff0d32129811c788418d16fa5b6"
+RPM_NAME = "eatmydata-131-2.6.aarch64.rpm"
+RPM_HASH = "e6769761c53b493d428bb013cb3b6833e4595529fa0785a264a424499bf3267ff4cdb419b9bed5c3d9436fd52b33ce8ca730151a3062d04b3670f7e471cffee2"
 
 RPROVIDES:${PN} += "eatmydata \
 libeatmydata.so"
 
-RDEPENDS:${PN} += "/sbin/ldconfig \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6"
 

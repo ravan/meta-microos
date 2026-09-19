@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-calculation"
 DESCRIPTION = "This package includes the documentation for texlive-calculation"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn35973"
+PV = "2026.226.1.0svn35973"
 
-RPM_NAME = "texlive-calculation-doc-2023.209.1.0svn35973-53.1.noarch.rpm"
-RPM_HASH = "7ae90b0fcbb061f5de5543a9e879594be093e9c1631c25e4ba1b0e4148ae4dac36c19f6826e0105f4faef0158f69eb7bcb0535886be98f1e1bf542f57624985b"
+RPM_NAME = "texlive-calculation-doc-2026.226.1.0svn35973-59.2.noarch.rpm"
+RPM_HASH = "e330777e608ed3d5d0e7dc829cd145193bcc22d62982801ffe3619dd950b6e45dea23d3d1486ac3063704c3d915dbf1ab4133deda90b8f38c735800684d76aa2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-calculation-doc"

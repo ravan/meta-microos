@@ -4,14 +4,15 @@ DESCRIPTION = "A design and authoring tool for 2D animation. \
 This package contains plugins for tupitube."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "0.2.18"
+PV = "0.2.23"
 
-RPM_NAME = "tupitube-plugins-0.2.18-3.5.aarch64.rpm"
-RPM_HASH = "f9e2acd3bf23ae775114dbd4fba2543e4722278ed658ecf523405eedbee32751b8433728b6a64ac19a7b4380d8b47877d21dca11fe7c7c5ace3a42d7fdf22c94"
+RPM_NAME = "tupitube-plugins-0.2.23-1.5.aarch64.rpm"
+RPM_HASH = "9da5d03fbe59b15238a2fa3c5a47b5d93025bbdf040fec5a798baa3d6d3d1006a2f5a003440ea5658a3e266edfecfbd9a7a52b473c5012e75f62e9ec2f426357"
 
-RPROVIDES:${PN} += "libtupicoloringtool.so \
+RPROVIDES:${PN} += "libtupibuckettool.so \
+libtupicoloringtool.so \
 libtupieyedropper.so \
-libtupifilltool.so \
+libtupiffmpegplugin.so \
 libtupigeometrictool.so \
 libtupiimageplugin.so \
 libtupiinktool.so \
@@ -34,10 +35,15 @@ libQt5Gui.so.5 \
 libQt5Svg.so.5 \
 libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
+libavcodec.so.62 \
+libavfilter.so.11 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
+libswresample.so.6 \
 libtupi.so.1 \
 libtupibase.so.1 \
 libtupifwcore.so.1 \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.3.6"
 
-RPM_NAME = "libtexlua53-5-5.3.6-93.2.aarch64.rpm"
-RPM_HASH = "e690d05db7c855051ecf52bb187855f01fded418b6302d7ccbb1a8762ff2c35fea23ab55a58b487ccf67fc0206fedec4cbd1b15a71afa2a1561017ddb36cd0cf"
+RPM_NAME = "libtexlua53-5-5.3.6-120.4.aarch64.rpm"
+RPM_HASH = "4f7a627970845aa86d6dd7e7d9c1ea2db4c4a48a641c120eb90142b3203957fcfe3585e4a35f008f4c2ad1ee2e9f092431bf118992cd15e282cf416bce4a1527"
 
 RPROVIDES:${PN} += "libtexlua53-5 \
 libtexlua53.so.5"

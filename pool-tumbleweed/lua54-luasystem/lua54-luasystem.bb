@@ -2,15 +2,16 @@ SUMMARY = "Platform independent system calls for Lua"
 DESCRIPTION = "Adds a Lua API for making platform independent system calls."
 LICENSE = "MIT"
 
-PV = "0.21"
+PV = "0.6.3"
 
-RPM_NAME = "lua54-luasystem-0.21-5.2.aarch64.rpm"
-RPM_HASH = "47a61adcfcd1b77da03b1d7ad7aed4ad82e2b010b195b4534266a2962904d5bfbf2ca51266c80f089c1af864de1a0190a863b07b8bc3477ec08d3eb721304857"
+RPM_NAME = "lua54-luasystem-0.6.3-2.3.aarch64.rpm"
+RPM_HASH = "9cd29aff3df09a78fb51a50d33304773ed4b865149613fd235703cfabf8d14f7c24ee9fa9456c02d898d6ec3d9e1a76baf8d6d68b988fc2f69836d188bced4cc"
 
 RPROVIDES:${PN} += "lua-luasystem \
 lua54-luasystem"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 lua54"
 
 inherit rpm

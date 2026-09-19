@@ -4,10 +4,10 @@ key-based replacement rules. It can be used to parse the \
 argument specification of a document command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn60277"
+PV = "2026.226.1.1svn76924"
 
-RPM_NAME = "texlive-keyparse-2023.209.1.1svn60277-56.1.noarch.rpm"
-RPM_HASH = "d3f9d9b028a98ba9af94e29cffbba171204e3e62bb268ee8a609eb8896e269277377e15bb74e24be8c8e07e8a3ac81830616431d55061c292676829339c41588"
+RPM_NAME = "texlive-keyparse-2026.226.1.1svn76924-63.2.noarch.rpm"
+RPM_HASH = "68a6df8b027e94ffc24f250a54eb07e175e9cacfe42b861c0a6119a77cfbc5dfc00dd2e1a0613419204e7ee59cb037e28aef8bc390468267cc13425acdd4a4f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-keyparse.sty \

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.22"
 
-RPM_NAME = "libtermkey-devel-0.22-2.5.aarch64.rpm"
-RPM_HASH = "3b77ca171f794694ae6837ce467e04997ae2d0ae5bbbb37a7e2a993613f42a3440d9a6704d8e50aacbaeb01b11c5103f2b4871c6a720c53abb7d91f2f07b8f2e"
+RPM_NAME = "libtermkey-devel-0.22-3.9.aarch64.rpm"
+RPM_HASH = "7846b96ee00ffdd0483b41cd85b0800a085a6560042355864f5e7630b8ea3af10468bb948ccefb8a89a77d1cfa8881c11aa029bac452559b1852a47294e39992"
 
 RPROVIDES:${PN} += "libtermkey-devel \
 pkgconfig-termkey"

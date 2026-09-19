@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.3"
 
-RPM_NAME = "Coin-devel-3.1.3-6.12.aarch64.rpm"
-RPM_HASH = "da74e9aadb6879aa9fa80a6f721f5bf943ae124941595f76652b38b6c1f4f3c2f93b58f3e13d3c0184f5150d904513756a8d1d0578fa3fe1e8e3e65bea2a1de8"
+RPM_NAME = "Coin-devel-3.1.3-7.11.aarch64.rpm"
+RPM_HASH = "faab9de9179d7c587b101ec79cca7fb36a66382899d81d3b08850215c92bf627a0979bcddd96a414f040a8c0344bffb192db7323130f1aee07ebe8a8398f2ec9"
 
 RPROVIDES:${PN} += "Coin-devel \
 pkgconfig-Coin"

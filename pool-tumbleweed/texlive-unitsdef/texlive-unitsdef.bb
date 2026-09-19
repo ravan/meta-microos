@@ -8,10 +8,10 @@ units, defines an easy to use interface to define new units and \
 changes the output concerning to the surrounding font settings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn15878"
 
-RPM_NAME = "texlive-unitsdef-2023.209.0.0.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "e0a0267717a57c1acd7cea9f388276095df647917399b677a1fe681251dcb8b51fa3685b7ffd584ef6f405456c8ed15f3a96443cba2f6d3751e4d3a0cacada70"
+RPM_NAME = "texlive-unitsdef-2026.226.0.0.2svn15878-60.2.noarch.rpm"
+RPM_HASH = "7a65866f5cfa70b4b23c10fa7a75eefb8937cf5765c9a1cbfb51358d85017515a7482b4a42d7fbf3d7ad6740638f1cf09683e601cf06f1f7f0fe0d6819f402be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ampabbrv.cfg \

@@ -5,10 +5,10 @@ to model the Japanese language, it use a backoff bigram and trigram \
 This package provides the introspection bindings for the libskk library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2.0+git20171110+1.0.3"
+PV = "1.2.0+git20180916+1.0.5"
 
-RPM_NAME = "typelib-1_0-Skk-1_0-1.2.0+git20171110+1.0.3-2.8.aarch64.rpm"
-RPM_HASH = "9c733dfab72991d6d0256f86971a500a98decc9b76d796ab948ae7c935a51b659c30286d12299b1ca0d8626f65f3cce9abfad3dab0ba5cfe2a1b9a43ef47abc0"
+RPM_NAME = "typelib-1_0-Skk-1_0-1.2.0+git20180916+1.0.5-2.7.aarch64.rpm"
+RPM_HASH = "5cef28a84dd2f6402bbd06614586060a88457b4d5713a753309225f3c578c34f5e6e70498affd89bfec1b1addc2643825d02497d51eb560ff7614dfbebb40234"
 
 RPROVIDES:${PN} += "typelib-1-0-Skk-1-0 \
 typelib-Skk"

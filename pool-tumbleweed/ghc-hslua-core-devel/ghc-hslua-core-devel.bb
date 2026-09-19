@@ -2,22 +2,22 @@ SUMMARY = "Haskell hslua-core library development files"
 DESCRIPTION = "This package provides the Haskell hslua-core library development files."
 LICENSE = "MIT"
 
-PV = "2.3.1"
+PV = "2.3.2.1"
 
-RPM_NAME = "ghc-hslua-core-devel-2.3.1-1.8.aarch64.rpm"
-RPM_HASH = "b713b8474e9a7828cff5374ebb0bc6d6d1921599b4a14ad2183d829337df3edbc0be0083467161bc5792ed87565ed88a91bc678dd900aa142254262ced61fb79"
+RPM_NAME = "ghc-hslua-core-devel-2.3.2.1-1.3.aarch64.rpm"
+RPM_HASH = "ced5fea23da9c711faab15a863a74a06f968e5affe9469a589f3c4ea84ee068ffc674a89eaaacb1a41522f398038afff52fee28ec335c773f775049951ffc2c9"
 
-RPROVIDES:${PN} += "ghc-devel-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
+RPROVIDES:${PN} += "ghc-devel-hslua-core-2.3.2.1-GIcwwMIDhKVEx4MlcixfFr \
 ghc-hslua-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-exceptions-0.10.5 \
-ghc-devel-lua-2.3.1-IuAZ4Y3Pnt2ACNXikcgl6h \
-ghc-devel-mtl-2.2.2 \
-ghc-devel-text-2.0.2 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-exceptions-0.10.12-f655 \
+ghc-devel-lua-2.3.4-GxTlN73bN8C8KbBhVEtsew \
+ghc-devel-mtl-2.3.2-37ef \
+ghc-devel-text-2.1.4-cf23 \
 ghc-hslua-core"
 
 inherit rpm

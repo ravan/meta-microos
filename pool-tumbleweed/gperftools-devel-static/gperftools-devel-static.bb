@@ -3,10 +3,10 @@ DESCRIPTION = "The gperftools-devel-static package contains static libraries for
 applications that use the gperftools package."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.10"
+PV = "2.18.1"
 
-RPM_NAME = "gperftools-devel-static-2.10-1.6.aarch64.rpm"
-RPM_HASH = "74ac7072a0770d4b90aa30bbaa7f434c325b6b3a516fbfaf284bd05d29e308f07e5e329b902d17dc9244351bc27297e377221469b7069e08b279bd513ed04752"
+RPM_NAME = "gperftools-devel-static-2.18.1-1.4.aarch64.rpm"
+RPM_HASH = "765dc0e9b99124d9248acca6623db32d9f697ce5a536e24ef63f0b2315195294d640644ad22c1649b5f2765916884d036a9101c2d84a2dfacb6ebb429e35d87c"
 
 RPROVIDES:${PN} += "gperftools-devel-static"
 

@@ -2,21 +2,26 @@ SUMMARY = "Metapackage that contains the dependencies of os-autoinst-distri-open
 DESCRIPTION = "Metapackage that contains the dependencies of os-autoinst-distri-opensuse."
 LICENSE = "MIT"
 
-PV = "1.1674229328.3f0c40ae"
+PV = "1.1770726271.4c22ee70"
 
-RPM_NAME = "os-autoinst-distri-opensuse-deps-1.1674229328.3f0c40ae-1.1.noarch.rpm"
-RPM_HASH = "3e9d5027168a025d354209995b3ace18b8c49352a9c00436751272ea8914ae1eeb43d1fd826f8cd75461b3b527655c932911df75a9d78e8e7975fe9df8d4ddfa"
+RPM_NAME = "os-autoinst-distri-opensuse-deps-1.1770726271.4c22ee70-1.3.noarch.rpm"
+RPM_HASH = "25b44533459c73e465f95388f2f80fbd62a15d4b3e4d3d593f073babb270dd617b40181679561bca6459fe46ad441807b43f32120a88d1c554c286ec79de3b89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "os-autoinst-distri-opensuse-deps"
 
-RDEPENDS:${PN} += "perl-Carp \
+RDEPENDS:${PN} += "/usr/bin/gzip \
+golang-github-google-jsonnet \
+jq \
+mkisofs \
+perl-Carp \
 perl-Class--Accessor--Fast \
 perl-Code--DRY \
 perl-Config--Tiny \
 perl-Cwd \
 perl-Data--Dump \
 perl-Data--Dumper \
+perl-Date--Parse \
 perl-DateTime \
 perl-Digest--file \
 perl-Exporter \
@@ -27,6 +32,7 @@ perl-File--Path \
 perl-File--Temp \
 perl-IO--File \
 perl-IO--Socket--INET \
+perl-Inline--Python \
 perl-LWP--Simple \
 perl-List--MoreUtils \
 perl-List--Util \
@@ -38,7 +44,7 @@ perl-Mojo--Util \
 perl-Net--IP \
 perl-NetAddr--IP \
 perl-POSIX \
-perl-Perl--Critic--Freenode \
+perl-Perl--Critic--Community \
 perl-Regexp--Common \
 perl-Selenium--Chrome \
 perl-Selenium--Remote--Driver \

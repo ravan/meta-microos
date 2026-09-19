@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-readbbl"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-readbbl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn61549"
+PV = "2026.226.0.0.01svn61549"
 
-RPM_NAME = "texlive-biblatex-readbbl-doc-2023.209.0.0.01svn61549-54.1.noarch.rpm"
-RPM_HASH = "45887fb7ac7c67a7256d2f4758e6b4f45abe1c901b70d3a9340e0e53af8dffe98783c2020a8ee975ee31bd6e594b644da7af0b6a00b82568d99660136721bdf4"
+RPM_NAME = "texlive-biblatex-readbbl-doc-2026.226.0.0.01svn61549-61.2.noarch.rpm"
+RPM_HASH = "e85a09c8ea24505b41ecab08d846abeb4243068799025c3b47714cddcd817707130a81c1503a1f2482b7108d434ec36a9fa3bc96aa3f530ba616fa50d63bc91f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-readbbl-doc"

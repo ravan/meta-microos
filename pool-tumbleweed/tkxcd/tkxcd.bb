@@ -8,12 +8,12 @@ differences are marked in different colors. \
 Authors: \
 -------- \
     John C. Quillan <quillan@doitnow.com>"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "tkxcd-1.1.0-950.16.noarch.rpm"
-RPM_HASH = "8bab6971ca0a53563fdd683a2ddf9f09712df87c49fbfc6c43b596d4a04354fd6446d134d2943996b0f7ee26f619e985b4804013c6215f1a2b80ae45759ff813"
+RPM_NAME = "tkxcd-1.1.0-952.7.noarch.rpm"
+RPM_HASH = "03c8606fc71f8c355ff3649ae0be7dd073c23a8de8be6e68cd4a268c662654044d1495052adcbc3869a19b2a7caf6607a2f5a7c75d3b0096386a5c62012d9ca3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tkxcd \

@@ -1,4 +1,4 @@
-SUMMARY = "deal with RFC 2047 encoded words (improved)"
+SUMMARY = "Deal with RFC 2047 encoded words (improved)"
 DESCRIPTION = "Fellow Americans, you probably won't know what the hell this module is for. \
 Europeans, Russians, et al, you probably do. ':-)'. \
  \
@@ -31,21 +31,19 @@ The fields basically decode to (sorry, I cannot approximate the non-Latin \
 multibyte characters with any 7 bit sequences): \
  \
       Subject: ???(laziness), ????(impatience), ??(hubris)"
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.014.3"
+PV = "1.15.0"
 
-RPM_NAME = "perl-MIME-EncWords-1.014.3-1.28.noarch.rpm"
-RPM_HASH = "23b18e14ac56cb5463a8ac7a6cbfbdd05ca8e19f5b475d6cf0cd34adc2a5d01c213de2d0c81b5b2d266e4b775c70c8269ba7fcb4fe29f69845d2943bccca62f3"
+RPM_NAME = "perl-MIME-EncWords-1.15.0-1.12.noarch.rpm"
+RPM_HASH = "1f4daa5fe5237ba3d7e7f1a71170f136fdae1505a02650f721feb898872bd05717608a53d2c30454d95cf61f994bc291722ec2cae8f0d1880fb3f0f9780bb4f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Encode--MIME--EncWords \
 perl-MIME--EncWords \
 perl-MIME-EncWords"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-Encode \
-perl-MIME--Base64 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-MIME--Charset"
 
 inherit rpm

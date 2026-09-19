@@ -3,10 +3,10 @@ DESCRIPTION = "The package allows you to set arbitrary sizes for the main font \
 of the document, through the fontsize=<size> option."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8.5svn60161"
+PV = "2026.226.0.0.9svn78101"
 
-RPM_NAME = "texlive-fontsize-2023.209.0.0.8.5svn60161-53.1.noarch.rpm"
-RPM_HASH = "dc21c965d7603e00547a3c21afe6a32853b60bcae46a771b80ec99594f28f6a99c1249c915decec6a2710e112dfb6c2fb141450cc30d90b87695f5ede62c6bf1"
+RPM_NAME = "texlive-fontsize-2026.226.0.0.9svn78101-60.2.noarch.rpm"
+RPM_HASH = "3619f83036025b18af37cddb23c503d645e59142bc221a72de1ccc136283b4db97c61abb4de48de08024b6d30b9b287073eaa77c4bb9f752827e9886ed564f10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fontsize.sty \

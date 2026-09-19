@@ -5,10 +5,10 @@ tries to fill the gap and implements some of the missing \
 primitives using Lua."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.33svn55777"
+PV = "2026.226.0.0.33svn77682"
 
-RPM_NAME = "texlive-pdftexcmds-2023.209.0.0.33svn55777-52.1.noarch.rpm"
-RPM_HASH = "de5cfd57edf6bb75f2511988dca8eea100dd87365add0fc7eb3e2371add052862fc139ee81b0696fa43f41c8f047fd86f67672ba3996ecf3f206220b5b0154f8"
+RPM_NAME = "texlive-pdftexcmds-2026.226.0.0.33svn77682-58.2.noarch.rpm"
+RPM_HASH = "84a5828cff793d7bac28e65baeff207dd9e7ef8ac6307b423c32501fb76cc90254c818e69d5c288a59bc1b2d3538dc46d7a86bc4089e0c486966a323766b4b8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdftexcmds.sty \

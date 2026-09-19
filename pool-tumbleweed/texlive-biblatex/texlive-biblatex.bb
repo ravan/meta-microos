@@ -14,14 +14,14 @@ changing your data sources A tool mode for transforming \
 bibliographic data sources Multiple bibliographies and lists of \
 bibliographic information in the same document with different \
 sorting Highly customisable data source inheritance rules \
-Polyglossia and babel suppport for automatic language switching \
+Polyglossia and babel support for automatic language switching \
 for bibliographic entries and citations Automatic bibliography \
 data recoding (UTF-8 -> latin1, LaTeX macros -> UTF-8 etc) \
 Remote data sources Highly sophisticated automatic name and \
 name list disambiguation system Highly customisable data model \
 so users can define their own bibliographic data types \
 Validation of bibliographic data against a data model \
-Subdivided and/or filtered bibligraphies, bibliographies per \
+Subdivided and/or filtered bibliographies, bibliographies per \
 chapter, section etc. Apart from the features unique to \
 BibLaTeX, the package also incorporates core features of the \
 following packages: babelbib, bibtopic, bibunits, chapterbib, \
@@ -32,10 +32,10 @@ ifthen url Biber, babel / polyglossia, and csquotes 4.4 or \
 later are strongly recommended."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.19svn66403"
+PV = "2026.226.3.21svn77682"
 
-RPM_NAME = "texlive-biblatex-2023.209.3.19svn66403-54.1.noarch.rpm"
-RPM_HASH = "57d1005f752ade6be4a213e9f24ef9b595d5213aad813ecb279f22fd0dca32a7f72331af94ace9aead02a08008e42551987d5f8d2fadbc95b39b85d2ba7d298a"
+RPM_NAME = "texlive-biblatex-2026.226.3.21svn77682-61.2.noarch.rpm"
+RPM_HASH = "e29aaa84213502f50a8852582778f3f4ab8c013bd5ed5a5cbf0a08afa51a0a1f664950340052ad0535e38b61a2800c415cdec8c9d3e62ce57a7ca82c9147ba77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UKenglish.lbx \

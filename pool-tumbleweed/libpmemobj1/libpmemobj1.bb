@@ -4,10 +4,10 @@ providing memory allocation, transactions, and general facilities for \
 persistent memory programming."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "2.1.1"
 
-RPM_NAME = "libpmemobj1-1.11.1-1.9.aarch64.rpm"
-RPM_HASH = "fb32f0af22af4475ca8e248abb37841248b58901fcd541c011c9fec2d29e4456c69ae4157d66cabbc2fd15b7758dc2a685378ae185d863ae2eb217d3bdeccca2"
+RPM_NAME = "libpmemobj1-2.1.1-1.5.aarch64.rpm"
+RPM_HASH = "8b5b839d6af90db4d937891a63dddb491be673b27bafc0da5546045355835c5ada71d98bbd4c5d43722a9351cd82705717965f839401169e48706ccfd3f97ee0"
 
 RPROVIDES:${PN} += "libpmemobj.so.1 \
 libpmemobj1"

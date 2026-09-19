@@ -7,10 +7,10 @@ This package provides the Qore language standard library user and binary \
 modules."
 LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MIT"
 
-PV = "1.18.1"
+PV = "2.2.1"
 
-RPM_NAME = "qore-stdlib-1.18.1-1.1.aarch64.rpm"
-RPM_HASH = "dc04a379e6f1ace8c8c68adff619d7a4a0e88a8639e7cd12f420a25412503f82b140976cb37316775f92855aa04f5d158641b096fb15ae3019fc124fe65ab041"
+RPM_NAME = "qore-stdlib-2.2.1-1.1.aarch64.rpm"
+RPM_HASH = "de2665a70da947c8fec77ab713b7669e0cade4490914d3dc4231e8266f3a0bbcabdfad3472c968d86dc56296d3572331b7e87019d87a3e81732aff3ce8a6d171"
 
 RPROVIDES:${PN} += "qore-stdlib"
 

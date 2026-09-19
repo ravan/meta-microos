@@ -2,10 +2,10 @@ SUMMARY = "Library that exports various synchronization primitives"
 DESCRIPTION = "Library for C that exports various synchronization primitives"
 LICENSE = "Apache-2.0"
 
-PV = "1.23.0"
+PV = "1.29.2"
 
-RPM_NAME = "libnsync1-1.23.0-2.13.aarch64.rpm"
-RPM_HASH = "49c25660b75b61987a84025f25f405b2e7a9e98626b79e6cdb5b69cad64a2642b3b2a7ddbd5684da8f2d0ded1ebc06a300a6869646fd322088f2da4fa50f2886"
+RPM_NAME = "libnsync1-1.29.2-1.4.aarch64.rpm"
+RPM_HASH = "c59cdcd870ae765057d1bc34bfbbd36b41726aab18859774c7ae50108679d1d3aaaea123d920b6233e259e0fd5dfea5a310bdc89452f82671fda5e3113029f9d"
 
 RPROVIDES:${PN} += "libnsync.so.1 \
 libnsync1"

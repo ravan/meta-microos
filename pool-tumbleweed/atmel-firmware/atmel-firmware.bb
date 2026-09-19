@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
 PV = "1.3"
 
-RPM_NAME = "atmel-firmware-1.3-166.7.noarch.rpm"
-RPM_HASH = "cb7ee04dc720bed6e27de40416cfc81f4f675d353706f34b022681ff00c98412a65028868a4d76fe7aa1aaee8bce5e8933794eb838c715d63cd7a6af0e08c346"
+RPM_NAME = "atmel-firmware-1.3-166.15.noarch.rpm"
+RPM_HASH = "0032313d5a5654dc1114c65d15204e65cb84ff9f0a175287f115488dcece1f4bfe5e3026fa19dd3f4436081427bdb4da3071587bb02101f7dad1c7f6a50a9152"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atmel-firmware \

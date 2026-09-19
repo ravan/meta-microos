@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.360"
 
-RPM_NAME = "perl-POE-Test-Loops-1.360-1.28.noarch.rpm"
-RPM_HASH = "a5ef03630c7ea53b83d8e870a46069123a51e6311def10038837acf5a2be95855cb82bdba2309415f76e4125865cd4a5c50b1974cac0d632905ecbd60f427caa"
+RPM_NAME = "perl-POE-Test-Loops-1.360-1.42.noarch.rpm"
+RPM_HASH = "8471db69fc3b40e19842d01b6e14a6e686e9d4b1b7f2a3e952c01038ba1e6c4af2edc33d8ae59e29ac82dcbbd8c1eaa9444238e40a5b44e30efbcd675f086d47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-POE--Test--DondeEstan \
@@ -19,7 +19,7 @@ perl-POE--Test--Loops \
 perl-POE-Test-Loops"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Test--More"
 
 inherit rpm

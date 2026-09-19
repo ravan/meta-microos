@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.26.0"
 
-RPM_NAME = "monitoring-plugins-postgres-2.26.0-1.3.noarch.rpm"
-RPM_HASH = "f402f8195b54edb3ab3a606e826980132dc1e3cf55a55b277e16d9c909903758403eff9d485fa9bb0203e18e44134cb1691c109f09b3d4146ec4e3af05f76a4e"
+RPM_NAME = "monitoring-plugins-postgres-2.26.0-1.18.noarch.rpm"
+RPM_HASH = "40a62c839a25479d55d324f20841a3784dc84f4de855c54b03b6beec71aa859def9a02379842d8ce172ac151fb15a026cec08b4f750021c24d779c9d3550c20a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-postgres \

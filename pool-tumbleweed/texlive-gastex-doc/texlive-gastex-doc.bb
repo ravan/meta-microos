@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gastex"
 DESCRIPTION = "This package includes the documentation for texlive-gastex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0svn58505"
+PV = "2026.226.3.1svn69842"
 
-RPM_NAME = "texlive-gastex-doc-2023.209.3.0svn58505-53.1.noarch.rpm"
-RPM_HASH = "1220f6fa40696c40657efe61c950d17a68b3b0cfb17e5471b1a356f36a205607f6d213814c4ac43eb518434f12e6005e17ce36cb99e8933674c2f029004028da"
+RPM_NAME = "texlive-gastex-doc-2026.226.3.1svn69842-60.2.noarch.rpm"
+RPM_HASH = "d4a5090e6bfeeaef9bc965e924bacd8dbe5b43b9001a7a788524ab9a95a67101e7d00c6218ab40217de83b4bc060307b5daaed3b283b2622d80a5f2dcb459b62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gastex-doc"

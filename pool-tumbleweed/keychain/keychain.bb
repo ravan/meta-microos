@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.5"
 
-RPM_NAME = "keychain-2.8.5-2.4.noarch.rpm"
-RPM_HASH = "ed06539a176e560369ae34098e1cdd3014305b1164e55bcb243b4eaf8d7fe2cce41eaece30892db7c99aae544eaac155cc1094190b7f61c786c95b6aa41c881a"
+RPM_NAME = "keychain-2.8.5-3.4.noarch.rpm"
+RPM_HASH = "fa2a27059e48cdb3e46a451738f24a25945bf57d04e7658e2b29ddfca964764c49440ae441c74048f3301608d4f9027c511689234c5be93743f4cb7c449f8c8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keychain"
@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 bash \
 coreutils \
 gpg \
-openssh \
+openssh-clients \
 sed"
 
 inherit rpm

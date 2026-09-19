@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rmpage"
 DESCRIPTION = "This package includes the documentation for texlive-rmpage"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.92svn54080"
+PV = "2026.226.0.0.92svn54080"
 
-RPM_NAME = "texlive-rmpage-doc-2023.209.0.0.92svn54080-54.2.noarch.rpm"
-RPM_HASH = "2baba9afdb1d56e85f948e4032b249c9265a8e0381d97a7f93df28d4bde85f0bdf4724cac0e18a503ab92db7e441566812b392f4279b606431cd33ba8c93e89b"
+RPM_NAME = "texlive-rmpage-doc-2026.226.0.0.92svn54080-60.4.noarch.rpm"
+RPM_HASH = "5fa50001b1274ac3ee8de5e1d1d1487fbf5ca5e6178f40843d26f6987f8e9ec3b8daf7454ad30b40b3090c3cf1efd9206f60441c8d91c37d402110b558d35503"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rmpage-doc"

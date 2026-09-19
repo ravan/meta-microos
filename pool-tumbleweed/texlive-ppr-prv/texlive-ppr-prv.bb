@@ -5,10 +5,10 @@ class is to produce a printable version of the slides written \
 with Prosper, with two slides per page."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.13csvn15878"
+PV = "2026.226.0.0.13csvn15878"
 
-RPM_NAME = "texlive-ppr-prv-2023.209.0.0.13csvn15878-53.1.noarch.rpm"
-RPM_HASH = "5a2e021638bf03fb57f812a825894cc0dc7e586c7701582207f99cbb386d117f158acc86fd630c7adb376274cb5a5c096f194d37b7a610fef7c66d477d04bbce"
+RPM_NAME = "texlive-ppr-prv-2026.226.0.0.13csvn15878-59.2.noarch.rpm"
+RPM_HASH = "4ef5843119ddbbaba03607ba2826a32b2377db1dd2422a9fd7a39b7f0b94a2c813719adab8ad2fe78414a908fd37c570a94673328ee8a2f3d2522d213d636f9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-HAP-ppr-prv.def \

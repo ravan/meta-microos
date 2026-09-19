@@ -4,13 +4,13 @@ describe the data in their code that may need to be written, read, or \
 processed outside of the running simulation. \
  \
 This package contains all files needed to create projects that use \
-the openmpi4 version of ADIOS."
-LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & BSD-2-Clause"
+the %{flavor} version of ADIOS."
+LICENSE = "BSD-2-Clause & BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "1.13.1"
 
-RPM_NAME = "adios-openmpi4-devel-1.13.1-5.13.aarch64.rpm"
-RPM_HASH = "b2a73a08cf78f2579eff69b6d5d5448e263355098d4913bf3b0fda161e0dc26c5e323b2fdc99af5bbc32813ea117c9ef4480d10c185eea21a2fcb1149ee0d5bd"
+RPM_NAME = "adios-openmpi4-devel-1.13.1-9.6.aarch64.rpm"
+RPM_HASH = "1e18ce0bd91f571b6fdc30666deaa45b955bf6142c682af44cfae013deb9b91fb28c1c88dd76316c0ed716ced2c734e66330d3c84fb15bbb68f262d53bd603b5"
 
 RPROVIDES:${PN} += "adios-openmpi4-devel"
 

@@ -3,12 +3,12 @@ DESCRIPTION = "ModSecurity is a toolkit for real-time web application monitoring
 access control. \
  \
 This subpackage holds the development headers for the library."
-LICENSE = "BSD-2-Clause"
+LICENSE = "Apache-2.0"
 
-PV = "3.0.10"
+PV = "3.0.15"
 
-RPM_NAME = "modsecurity-devel-3.0.10-1.1.aarch64.rpm"
-RPM_HASH = "d01e32eabd08eb95a90a59702b6168e8d612c24dac3d989b25bb627cb99f5e42f422ffdd49cacf26db2016fb46f7a6f98748f066c4ef40d15a80c011a786dc51"
+RPM_NAME = "modsecurity-devel-3.0.15-2.3.aarch64.rpm"
+RPM_HASH = "9751f8c7d4f5260ba7e16bf05af79628d67dc3346b7e5b9789d71b9fa079eba576ba8a2d25ee815852148776f11fda059563e293c8f23d38834f5be5c2fa8551"
 
 RPROVIDES:${PN} += "modsecurity-devel \
 pkgconfig-modsecurity"

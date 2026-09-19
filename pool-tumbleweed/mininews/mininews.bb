@@ -4,8 +4,8 @@ LICENSE = "BSD-4-Clause & GPL-2.0-or-later"
 
 PV = "2.6.5"
 
-RPM_NAME = "mininews-2.6.5-1.10.aarch64.rpm"
-RPM_HASH = "5452c4564529a4660c0838e35712f8ef8b4859346cac09daca203ddfe3c6e3b95286eb89e80419abbed005c2a69ffd2f0310fdb4ad74dbd2887e0e4c651920a8"
+RPM_NAME = "mininews-2.6.5-4.2.aarch64.rpm"
+RPM_HASH = "360441f786ae42c3fe5f6585d579c306bad4a5612365da6424c67109cbf05dc1d045ac3cda8d346b8a5ef0fe0c40a42323d606c804f65f68d5b4a95b05d28bf4"
 
 RPROVIDES:${PN} += "config-mininews \
 mininews \

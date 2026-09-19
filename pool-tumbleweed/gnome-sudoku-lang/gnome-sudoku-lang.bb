@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-sudoku"
 DESCRIPTION = "Provides translations for the 'gnome-sudoku' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "50.4"
 
-RPM_NAME = "gnome-sudoku-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "9f7f17c2a0f09f05c4b098ea1c8558aa36218416d6f941eb1be0ab648d576b864957210f536a6ff53da1da1e92825310736f98136d30b7fb5ec55ba193dcf1d6"
+RPM_NAME = "gnome-sudoku-lang-50.4-1.1.noarch.rpm"
+RPM_HASH = "24c1ae9bc7e57670791208eaf8879ddbddd25d54f0a86344a563b21fc13fa5db57ba8972a11f498b79603337f53a80649bf90da02bfc96413eb79a88a468a560"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-sudoku-lang \

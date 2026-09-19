@@ -2,10 +2,10 @@ SUMMARY = "The javax-websocket-server-impl module for Jetty"
 DESCRIPTION = "%{extdesc} The javax-websocket-server-impl module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.51"
+PV = "9.4.58"
 
-RPM_NAME = "jetty-javax-websocket-server-impl-9.4.51-2.1.noarch.rpm"
-RPM_HASH = "32a63ad74efdb939f9e9fc88c62a0fae8a465484a23333eab30e998523bdc42e5febf37c4c90e913bc7589b2a12f8a798648072ae533613e5e45a9a8d4c6081b"
+RPM_NAME = "jetty-javax-websocket-server-impl-9.4.58-5.1.noarch.rpm"
+RPM_HASH = "6549d76c6437b53e24a1deab811fafa99977a2db43c777d5caa6fe86c99e30d9b443b83ae09d9998aaba158508d9d33c5cc1cbd51c6a937368e356a8ec569ea1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-javax-websocket-server-impl \

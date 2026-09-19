@@ -4,10 +4,10 @@ SuperLU is an algorithm that uses group theory to optimize LU \
 decomposition of sparse matrices."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.0.1"
+PV = "7.0.1"
 
-RPM_NAME = "superlu-examples-6.0.1-1.1.noarch.rpm"
-RPM_HASH = "7f6df37075dcee892e6c0e84877a36cd746d3e97a6d0b2d7848d6abea434ed8a2b793049f810d3a226bd2c2e5ff6c939ec20fdd9acf62cf77929bf2a9506f7cf"
+RPM_NAME = "superlu-examples-7.0.1-1.5.noarch.rpm"
+RPM_HASH = "b8b00a9976484783b8299332e2891f5a445f9551ae0b5d04ca59e5d389e75a0f1334d0a1845042315ffbd629ad232b5a091bf5b30664d4910d1e43e976a437b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "superlu-examples"

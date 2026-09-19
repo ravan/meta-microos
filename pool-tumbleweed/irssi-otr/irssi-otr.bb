@@ -23,8 +23,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.2"
 
-RPM_NAME = "irssi-otr-1.0.2-2.2.aarch64.rpm"
-RPM_HASH = "dbe20e989fc2aa9b00a24db69d61fa250d3052b28ac8664756134e1c2b3d00c6d569eaad2d0d393d9fa8506a86315fb334b5b3f5d0fda67b4560c59de835132b"
+RPM_NAME = "irssi-otr-1.0.2-2.12.aarch64.rpm"
+RPM_HASH = "fbf1c6211c19942b091d38f08c2a2a0eafde871e730a27e0e8969d967f91aac9a592cbf221880e50e9d498152e2f9edf7b4f261bd192e8bbfe75a7534415e9d5"
 
 RPROVIDES:${PN} += "irssi-otr \
 libotr.so"

@@ -6,10 +6,10 @@ and runs on a variety of platforms. Check the about page for a more complete \
 description."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.16.1.1"
+PV = "0.19.1"
 
-RPM_NAME = "elinks-0.16.1.1-2.1.aarch64.rpm"
-RPM_HASH = "3288c66b46628194aceebc5f50ed4115918a9bf3ceda1b7f87998eb1a1658a3070f8848a6c25b430fa3e47910d3998872acabd4ff7d9a2d94571c60161b98f42"
+RPM_NAME = "elinks-0.19.1-1.6.aarch64.rpm"
+RPM_HASH = "9bc2e29dc1b393a56ec8857ea2d87d13f30b6a54e49fb40e3bf5da8d36589fea70b77c4233ad2182b38ed26da233cc8c1a86ba6e0526b1b29f30d35a39e27ae5"
 
 RPROVIDES:${PN} += "elinks \
 web-browser"
@@ -18,6 +18,9 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
+libcss.so.0 \
+libcurl.so.4 \
+libdom.so.0 \
 libexpat.so.1 \
 libgcc-s.so.1 \
 libgpm.so.2 \
@@ -26,15 +29,15 @@ libidn2.so.0 \
 libluajit-5.1.so.2 \
 libm.so.6 \
 libperl.so \
-libruby3.2.so.3.2 \
+libruby4.0.so.4.0 \
 libsqlite3.so.0 \
 libssl.so.3 \
 libstdc++.so.6 \
 libtre.so.5 \
-libxml++-5.0.so.1 \
-libxml2.so.2 \
+libwapcaplet.so.0 \
 libz.so.1 \
+libzstd.so.1 \
 perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

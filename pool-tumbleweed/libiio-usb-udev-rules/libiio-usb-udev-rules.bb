@@ -5,10 +5,10 @@ This sub-package contains a udev rule for granting access to IIO targets \
 using the USB transport/backend."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.24"
+PV = "0.26"
 
-RPM_NAME = "libiio-usb-udev-rules-0.24-1.5.aarch64.rpm"
-RPM_HASH = "d0e76e5d0e64ef769200931b772337f3cc58c11f26dcdedbcf9ca421acff16e72f5e16ff8d9587e6666b6df805d6bdf52c67c8a41b6f2b3dc1aa1f87a4a1048b"
+RPM_NAME = "libiio-usb-udev-rules-0.26-1.10.aarch64.rpm"
+RPM_HASH = "fadd6ad8138cd5206fd4f9a9782f3ee968457a1aae374f69dd4180594ceb461b807637e3d9b0affaa3259867e325b4c99b4861a0787bc514bf29316b31105bfd"
 
 RPROVIDES:${PN} += "libiio-usb-udev-rules"
 

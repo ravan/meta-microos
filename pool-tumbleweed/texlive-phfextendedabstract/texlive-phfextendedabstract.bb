@@ -14,10 +14,10 @@ powerful RevTeX class, so you can use all of RevTeX's features \
 such as author affiliations, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn60732"
+PV = "2026.226.1.0svn60732"
 
-RPM_NAME = "texlive-phfextendedabstract-2023.209.1.0svn60732-52.1.noarch.rpm"
-RPM_HASH = "8fd82efaf6d4bd8f0ebed8d9c2f585bed600b42c8162d4900f3b80a422ba10f2c63c6f7ed985289103834055d7d15197364d280497e6d655797ce6a0b4ee57b6"
+RPM_NAME = "texlive-phfextendedabstract-2026.226.1.0svn60732-58.2.noarch.rpm"
+RPM_HASH = "9c84765045a7e5d64dba74ab332928e2fbbe2de356d73226709480fa8c04f24fc540ff58fa5839495208f95988a2bd6555a1a4fc6ea8595eb5ce2b4282e95c5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phfextendedabstract.cls \

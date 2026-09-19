@@ -3,10 +3,10 @@ DESCRIPTION = "Allows a second bibliography, optionally with a different \
 title, after the main bibliography."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-compactbib-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "18e3696cb456d9dc39b4ae81e8f4f164349e476ee812012d18ba2bd16ac8e056f55a5d9afe25d0159209978cae8f67f1bb3c56085d9f95097fc57a39de12ddf9"
+RPM_NAME = "texlive-compactbib-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "ac5a8260a4dd92bcda933b4f0addd52371e55e6b5cb58e448367be5aa5e090bc63d446ebc4ae56b921face93e9792de1a5735e3ab7ed9bc73bdec5c72ae0dbf9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-compactbib.sty \

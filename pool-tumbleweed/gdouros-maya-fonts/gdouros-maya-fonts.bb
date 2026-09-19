@@ -7,8 +7,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "4.17"
 
-RPM_NAME = "gdouros-maya-fonts-4.17-1.16.noarch.rpm"
-RPM_HASH = "a4059f4c75406ecde24d353b80f047490c316c78bfb2fbb151cb788e89b38e69eb833d3d46f2d0b588a4f00ae5d1453fb51af865536745860651b74682113020"
+RPM_NAME = "gdouros-maya-fonts-4.17-1.24.noarch.rpm"
+RPM_HASH = "393d67664b07121b36e4babf71da67620bfdd7f5e71c2ee0b508166a3465c8609c7043712c09c0f8f908fd8a31527ce27f39799dfbaa2c54ad28df93a3ed87d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdouros-maya-fonts \

@@ -2,10 +2,10 @@ SUMMARY = "Development files for libvc"
 DESCRIPTION = "Development files for libvc."
 LICENSE = "LGPL-2.1-only"
 
-PV = "012"
+PV = "013"
 
-RPM_NAME = "libvc-devel-012-1.4.aarch64.rpm"
-RPM_HASH = "301d9401a2f9446cef27b2688494d943adbf2a90a7ccc46fe90abcade8861a173d7b21b1dee142691f9bd676e813456de3232af6af8f4207a9ff69af947a45b2"
+RPM_NAME = "libvc-devel-013-1.3.aarch64.rpm"
+RPM_HASH = "9b8f02128a822409a4f45e497a67a2d03e855128f168356abd2454a5a3c27b976d5908303c513f39a51c0451a1a4b9ac7b68d2959ac570727f63c3e51cb27ba0"
 
 RPROVIDES:${PN} += "libvc-devel"
 

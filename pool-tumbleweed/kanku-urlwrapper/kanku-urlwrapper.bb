@@ -2,10 +2,10 @@ SUMMARY = "Url wrapper for kanku:// urls"
 DESCRIPTION = "A URL wrapper to start kanku from kanku:// urls in the browser."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.14.0"
+PV = "1.0.0"
 
-RPM_NAME = "kanku-urlwrapper-0.14.0-1.5.noarch.rpm"
-RPM_HASH = "735b4289426d97a9be9d3423e8ce72da40e9edf3d76e70fe2f866322b4096569352f515f282bad2b1b9c415bcf3576c8bd5c1a86bb7ba5c52c10b9ad6cca28bd"
+RPM_NAME = "kanku-urlwrapper-1.0.0-2.2.noarch.rpm"
+RPM_HASH = "883c7b227e3f490d568af2de8ac463f52a1f0dd9247a1528c8182bdb9fdb7154da5d0f401802757c281c04e0852beec18e2681919466294f70252ff72ee3ca78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-urlwrapper"

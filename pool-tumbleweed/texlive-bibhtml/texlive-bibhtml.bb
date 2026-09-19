@@ -10,10 +10,10 @@ standard plain.bst and alpha.bst, as well as two style files \
 derived from abbrv.bst and unsrt.bst (i.e., eight in total)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.0.2svn31607"
+PV = "2026.226.2.0.2svn31607"
 
-RPM_NAME = "texlive-bibhtml-2023.209.2.0.2svn31607-54.1.noarch.rpm"
-RPM_HASH = "e111a2c245b0530529893a3bbea0116f9874190d04c177ee62f6224bda47ae4292a134e631183387e850317f7986acbcd1722e2d8ecafc53d76470e6cf501e0f"
+RPM_NAME = "texlive-bibhtml-2026.226.2.0.2svn31607-61.2.noarch.rpm"
+RPM_HASH = "2fa5faf25f70ab5cb6f9cb9b1629b61e5069a85a49d63af2222576017698500a2ad6cb778aa467a564e51fce90c992b9716dc459e592509b3256e4997e5122f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bibhtml"

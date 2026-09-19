@@ -10,10 +10,10 @@ process a lot of mail. \
 This package contains shared files for various bogofilter backends"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.4"
+PV = "1.2.5"
 
-RPM_NAME = "bogofilter-common-1.2.4-15.13.noarch.rpm"
-RPM_HASH = "a25a93d01175f8caa0409045a5e5e9684fefcd50719ae19f6a506038690cc6eb068ae62d8cbf5f00de40b1856b91ad62daf6f1b7e2506e651d1fa68971ba5fca"
+RPM_NAME = "bogofilter-common-1.2.5-1.1.noarch.rpm"
+RPM_HASH = "6eb240d567e7e968bd4f7917c6c01f4319b15149e6dac1bb4376935eac6c99031bfa3cb40560c68b3206d23691fe6ff3da4667e9c730248f57aa21f4600f4428"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bogofilter-common \

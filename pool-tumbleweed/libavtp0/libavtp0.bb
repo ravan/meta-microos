@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0"
 
-RPM_NAME = "libavtp0-0.2.0-2.1.aarch64.rpm"
-RPM_HASH = "0661979450ed3a2f7718250ae43218bb67a3b2c462fea2a9744e3be8ffa4847a23a74c81eaaa1226edb85b1465ba72b91e434a0ec65d2874888f92cb8833b019"
+RPM_NAME = "libavtp0-0.2.0-2.11.aarch64.rpm"
+RPM_HASH = "be3bf6b0dd30d12a23a1e0c7b56c5bde7fac7f0807949bf0eb8ab003e3ea1b22dbfeb3eb67adf4c885bcb3ece49f7e5c631d6d94d239078b27245810d8686cb7"
 
 RPROVIDES:${PN} += "libavtp.so.0 \
 libavtp0"

@@ -4,10 +4,10 @@ quotations. Uses graphical and coloured output and by default \
 needs the 'Adobe standard font set' (as supported by psnfss)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3svn56926"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-quotchap-2023.209.1.3svn56926-54.2.noarch.rpm"
-RPM_HASH = "5703f0e14eac80b0f7671ea3d8dc976f6887c0b0080542a1a22880e3b894dd0d173b49ae4e7afdb10af04968548dd0d21d30eea85cdd1552c3ce78bf86ae992d"
+RPM_NAME = "texlive-quotchap-2026.226.1.3svn77682-60.4.noarch.rpm"
+RPM_HASH = "8365f94ca9e4467accdac80a0602177193b63b9a3ee6cf5eab91ff91b842909b9b4cdf45b67aa740ede3fbdb9d981ff3cfa94c159255a701859993f82fb510be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quotchap.sty \

@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.26.0"
 
-RPM_NAME = "mate-netbook-1.26.0-1.9.aarch64.rpm"
-RPM_HASH = "762e96ba11427a750f6c8d9b8f493e48bd174cf5b36fa2ab9c6ee031d26dbf64ae88a9cc4ea2baf67b805f9ec6206e7ade0529ed5af6d52d26cdc4de7b5c380a"
+RPM_NAME = "mate-netbook-1.26.0-1.20.aarch64.rpm"
+RPM_HASH = "b7ea5cbbdb9b5dd87d4d34e01d847a6ae7889ff454a37c0db581f70b5ee4594dd15918c2289898d2e8ac76171ece63a4a63f5b10411f8254ef4195e4d58b4903"
 
 RPROVIDES:${PN} += "config-mate-netbook \
 mate-netbook"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-slideshow"
 DESCRIPTION = "This package includes the documentation for texlive-slideshow"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-slideshow-doc-2023.209.1.0svn15878-58.1.noarch.rpm"
-RPM_HASH = "8555d125782f4e2af82896f0b41e6982fc72cb2f6d82af82841f2cf535816a85f52994d4394611747d48f62da4884fb43f0391d383a866139363e9403337a035"
+RPM_NAME = "texlive-slideshow-doc-2026.226.1.0svn15878-64.2.noarch.rpm"
+RPM_HASH = "b6ca2868d3066c0309a32ec6c7ade90172e0bc8caf51c9051801fd9040e500accfe87f224b586c168855c89e91e0081462f5627b71d8c54e0899c7e8cee57621"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-slideshow-doc"

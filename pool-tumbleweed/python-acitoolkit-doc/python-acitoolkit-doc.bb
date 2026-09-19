@@ -1,11 +1,14 @@
 SUMMARY = "Documentation for the Python acitoolkit library"
-DESCRIPTION = "Documentation for python-acitoolkit."
+DESCRIPTION = "Python Library for configuring the Cisco Application Policy \
+Infrastructure Controller. \
+ \
+This package contains the documentation."
 LICENSE = "Apache-2.0"
 
 PV = "0.4"
 
-RPM_NAME = "python-acitoolkit-doc-0.4-6.1.noarch.rpm"
-RPM_HASH = "b8bcc592f27a4291858f0861346972f60428510521f50ae9862ffb9c93340a219a0782ff4599ffd35c2d6d5cb37a3efb31b1009f26e9ab410813df83d45550c0"
+RPM_NAME = "python-acitoolkit-doc-0.4-8.8.noarch.rpm"
+RPM_HASH = "27ffec31de297b345cebc72ebcdab53d896f79eef2188fc4afb8a73b7e52bf487fd9488144676ef43a83e6f223a0f575cbc6bc8ef5acf234c09ca7dfb31136e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-acitoolkit-doc"

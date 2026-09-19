@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3.2"
 
-RPM_NAME = "lua53-cassowary-2.3.2-3.1.noarch.rpm"
-RPM_HASH = "967c9f80594f22592188cf3e99cd42e5c6e3b3e7b61f5c0a546a69a8df5837fca35b5ca0b8cd8459fba90762c4ed4257704258fe63a97d406ca2de06275302a3"
+RPM_NAME = "lua53-cassowary-2.3.2-6.2.noarch.rpm"
+RPM_HASH = "dd3b30bbe936d654735ff1aac1f11c6ef865f6ff75a91c3157529c04e2bec40eeeb376a3f1230493c81a0843555ce66b6c74aa44809afe53c452834266c791ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-cassowary"

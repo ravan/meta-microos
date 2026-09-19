@@ -4,14 +4,16 @@ files for elements and diagrams, and includes both a diagram editor and an \
 element editor."
 LICENSE = "CC-BY-3.0 & GPL-2.0-or-later"
 
-PV = "0.90"
+PV = "0.100"
 
-RPM_NAME = "qelectrotech-0.90-1.1.aarch64.rpm"
-RPM_HASH = "71b17b5a42f6ea9499b57dd3d62f66a7cdb2fa2f5ebbd2a9252c9d135b43c26e22913c285c1c5077f9c21b7ba2b0c1b9a7c2aadaa37bca2bc4972f5ee6407ba0"
+RPM_NAME = "qelectrotech-0.100-1.3.aarch64.rpm"
+RPM_HASH = "8d6448d88b4594e0601d2394c313cf5b3ac4ad259b2b025bfcd5ad3af8c6366bb18fa6afb6b7d302af10a2930aaaa835cc6dbd37d842434e0b4b330bec2766f1"
 
 RPROVIDES:${PN} += "qelectrotech"
 
-RDEPENDS:${PN} += "libKF5CoreAddons.so.5 \
+RDEPENDS:${PN} += "desktop-file-utils \
+ld-linux-aarch64.so.1 \
+libKF5CoreAddons.so.5 \
 libKF5WidgetsAddons.so.5 \
 libQt5Concurrent.so.5 \
 libQt5Core.so.5 \
@@ -26,6 +28,8 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libsqlite3.so.0 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qelectrotech-symbols \
+shared-mime-info"
 
 inherit rpm

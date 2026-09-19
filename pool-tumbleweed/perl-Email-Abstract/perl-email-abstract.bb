@@ -15,10 +15,10 @@ under the 'Email::Abstract' hierarchy will be automatically picked up and \
 used."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.009"
+PV = "3.10.0"
 
-RPM_NAME = "perl-Email-Abstract-3.009-1.11.noarch.rpm"
-RPM_HASH = "f8a7d74d159daec084fdc6b4bfcf77c48d8c2d2f469858fd86f9665e40da7fdbf9397f10cfdb170bf96903c63e2fe9122d9b7a72538fc3cbc2a314a7950bed4c"
+RPM_NAME = "perl-Email-Abstract-3.10.0-2.12.noarch.rpm"
+RPM_HASH = "0f3c59f5995243969f474f0d39123337f36d820ec3f6c1ea4c7e60da5dc203c9d6ededdc57d75492b89bca4e1f896ebd359d4c3bf75e505f2170c3e3972b5119"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--Abstract \
@@ -30,7 +30,7 @@ perl-Email--Abstract--MailMessage \
 perl-Email--Abstract--Plugin \
 perl-Email-Abstract"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Email--Simple \
 perl-MRO--Compat \
 perl-Module--Pluggable"

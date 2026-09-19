@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ptex-fonts"
 DESCRIPTION = "This package includes the documentation for texlive-ptex-fonts"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn64330"
+PV = "2026.226.svn64330"
 
-RPM_NAME = "texlive-ptex-fonts-doc-2023.209.svn64330-54.2.noarch.rpm"
-RPM_HASH = "1c63e8d48714b5f83bb0fa5288dc2500202c882ecbff67f450c01843a4bc5d86e4017270da54bc46abc00dbd0b7083fa414dc41c58fde0606467318f3567b8fe"
+RPM_NAME = "texlive-ptex-fonts-doc-2026.226.svn64330-60.4.noarch.rpm"
+RPM_HASH = "e669a114fd2a808454aa349519c8b69f885d4d43fbbda495bed5699ac1a9c99f7b46867d724355666be99efb3924517edd28ffd98324c58cad2fa42ab707cd23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ptex-fonts-doc"

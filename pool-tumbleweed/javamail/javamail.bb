@@ -3,10 +3,10 @@ DESCRIPTION = "The JavaMail API provides a platform-independent and protocol-ind
 framework to build mail and messaging applications."
 LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
-PV = "1.5.2"
+PV = "1.6.2"
 
-RPM_NAME = "javamail-1.5.2-7.5.noarch.rpm"
-RPM_HASH = "9c592c2760869eb761e8c058110fa734b5ec079441f174e7356949b11752dcaf79c2bca494e50e59e3ce01fb7e3299d0f1c0fde2d81c23a3503a2fc32b96dd34"
+RPM_NAME = "javamail-1.6.2-3.6.noarch.rpm"
+RPM_HASH = "44f2294bceeead364975b5170adeeb3a12ff6e395b0255154d462292f02b94d716257ea7844c4240b58d7bef9841c7edab229844f6ffaaf6fb6196042452d804"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javamail \

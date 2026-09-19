@@ -2,25 +2,24 @@ SUMMARY = "Haskell uuid profiling library"
 DESCRIPTION = "This package provides the Haskell uuid profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.15"
+PV = "1.3.16.1"
 
-RPM_NAME = "ghc-uuid-prof-1.3.15-4.9.aarch64.rpm"
-RPM_HASH = "cc13d69758a3ed8abd52597241713b908555329c1bc5943c2d37b1d5a3a8ac6d4a2b836a0b3741c1310a1b8085dba64d974d54a9fa4637420eabd537d805bbd8"
+RPM_NAME = "ghc-uuid-prof-1.3.16.1-1.2.aarch64.rpm"
+RPM_HASH = "83f9997bebc47d28d1015721c599ca95781a7d102ddda31c67178dca43ced5a56c233ad3239908f1764cd1f3a70b34d7c08c78816dd91cffd56430c2f90c4f28"
 
-RPROVIDES:${PN} += "ghc-prof-uuid-1.3.15-G28WsYmWYhECkJy6K1fo5U \
+RPROVIDES:${PN} += "ghc-prof-uuid-1.3.16.1-JPvbmr4TLlEERTSybCyfOm \
 ghc-uuid-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-binary-0.8.9.1 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-cryptohash-md5-0.11.101.0-DA2NKKN1mDy6fcPl6be7xQ \
-ghc-prof-cryptohash-sha1-0.11.101.0-6Awf3EmibUqDJxbZJLf3j4 \
-ghc-prof-entropy-0.4.1.10-J8gEYIp8YzV1E0Yqy7gqyc \
-ghc-prof-network-info-0.2.1-EA7QwxKMOIgJxpSbEh9J66 \
-ghc-prof-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
-ghc-prof-text-2.0.2 \
-ghc-prof-time-1.12.2 \
-ghc-prof-uuid-types-1.0.5-34Qd5N8tYIyGW5LtrFWnkV \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-binary-0.8.9.3-9861 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-cryptohash-md5-0.11.101.0-BL71FgcwkvtHLdWrK6WsDS \
+ghc-prof-cryptohash-sha1-0.11.101.0-8eRxmtRH1AP4nYxJeWtthM \
+ghc-prof-entropy-0.4.1.11-4UsuhibEvcjLW75DCXDx9X \
+ghc-prof-network-info-0.2.1-I1lcnyergC0DdfN7xa3e0a \
+ghc-prof-random-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh \
+ghc-prof-time-1.14-a7dc \
+ghc-prof-uuid-types-1.0.6.1-Hjv8dqZq3Ya2vXZL2YjpUd \
 ghc-uuid-devel"
 
 inherit rpm

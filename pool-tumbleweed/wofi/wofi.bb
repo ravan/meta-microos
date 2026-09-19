@@ -2,10 +2,10 @@ SUMMARY = "Launcher for wlroots compositors"
 DESCRIPTION = "Wofi is a launcher/menu program for wlroots based wayland compositors such as sway."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.3"
+PV = "1.5.3"
 
-RPM_NAME = "wofi-1.3-1.4.aarch64.rpm"
-RPM_HASH = "c5f32e148b26fe3578ce6f557e882934907b0793e146eb665b4b5d0760b5de98e3838163b7751bbd1f97a0fbee29a2a0a213b3f72668cbe4b4ca4a7be872d5b7"
+RPM_NAME = "wofi-1.5.3-1.4.aarch64.rpm"
+RPM_HASH = "5a4a987b66ff0d9a8058d70ab99ff1e443ea4ba404d9c30719a3f2cf95cd21564fed4d30681658ac0c235c2da9df0ebaf5920ed24d7b11d35ad8c4b2801ee681"
 
 RPROVIDES:${PN} += "wofi"
 

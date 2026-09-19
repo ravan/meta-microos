@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for javaparser"
 DESCRIPTION = "This package contains API documentation for javaparser."
 LICENSE = "Apache-2.0 | LGPL-3.0-or-later"
 
-PV = "3.25.5"
+PV = "3.28.2"
 
-RPM_NAME = "javaparser-javadoc-3.25.5-2.1.noarch.rpm"
-RPM_HASH = "2419fe75da93d7a8fa310fc7ceacc29da88a770175c63f883c143a9d97876d0bd5e62020c1748ace4200e3f4dceb906c18fdfa33274ae946733250ed29c9251a"
+RPM_NAME = "javaparser-javadoc-3.28.2-1.1.noarch.rpm"
+RPM_HASH = "18bb24e93a60362f73e693fb22f2d9cbd4d60c5abba86fe43534cef686db0137e9b3d6a1b335c625aba90486e15af0a2f63003d6617958bdb2ba664f214d6570"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javaparser-javadoc"

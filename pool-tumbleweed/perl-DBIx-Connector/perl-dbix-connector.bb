@@ -12,16 +12,17 @@ You might be familiar with Apache::DBI and with the DBI's \
 does a much better job. How is it different? I'm glad you asked!"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.59"
+PV = "0.600.0"
 
-RPM_NAME = "perl-DBIx-Connector-0.59-1.2.noarch.rpm"
-RPM_HASH = "d00cf0c343252fa4bc18bb46ec81eb19c16ee2103b989356c1f1c258b3aa61b6b873e7a668f3b404bda3df4e9742abfa5245416a5914a48607467c9cc5bdd80b"
+RPM_NAME = "perl-DBIx-Connector-0.600.0-1.10.noarch.rpm"
+RPM_HASH = "2cccc29eb57664cfaac1f3436aa68b312169ce4431a3d7b37ce156e3ace58b9b2364308f3153ce22ee4a718924d6099c62b072d10f7d4ec80ca0905da33606da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Connector \
 perl-DBIx--Connector--Driver \
 perl-DBIx--Connector--Driver--Firebird \
 perl-DBIx--Connector--Driver--MSSQL \
+perl-DBIx--Connector--Driver--MariaDB \
 perl-DBIx--Connector--Driver--Oracle \
 perl-DBIx--Connector--Driver--Pg \
 perl-DBIx--Connector--Driver--SQLite \
@@ -31,7 +32,7 @@ perl-DBIx--Connector--SvpRollbackError \
 perl-DBIx--Connector--TxnRollbackError \
 perl-DBIx-Connector"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBI"
 
 inherit rpm

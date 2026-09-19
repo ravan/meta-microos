@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the YaST2 component for configuration of an
 workgroup/domain and authentication against an SMB domain."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "5.0.5"
 
-RPM_NAME = "yast2-samba-client-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "d0c88204333ec05124b84848ba42023fedb841b6e417695b55c7928018d260e3766cd7fa4aaa737e4ae1c4243905c6a38eacd058babd92c38a72e5d5d868a747"
+RPM_NAME = "yast2-samba-client-5.0.5-1.1.noarch.rpm"
+RPM_HASH = "8d7bdc30c5fc6ffa99d383568e37d631f1078d42838fe56a6a6c248aec394f960690111274b7411cdfc83ba5742205d507e01ffa9f5e2ad4134564b2680bf403"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SambaAD \

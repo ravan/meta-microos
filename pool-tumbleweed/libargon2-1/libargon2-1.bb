@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | CC0-1.0"
 
 PV = "20190702"
 
-RPM_NAME = "libargon2-1-20190702-2.7.aarch64.rpm"
-RPM_HASH = "5d9bf77c05cfa224bae3e939c85dde4196915e871b3b7fbbabf442c33e2474d83418ace9cbce219efc2d53b9b68fd7f2d2dbf6aa1faa988eb11e664feed1208f"
+RPM_NAME = "libargon2-1-20190702-4.9.aarch64.rpm"
+RPM_HASH = "bdc3969ec51bdbe6cd87108fd348637cf751ab757ead61d33e1cbb1268c40b5b46a0186b5ae44f0c5cd69093d49f804f267fb80dfdeb8b4424cb241c6d72a4d2"
 
 RPROVIDES:${PN} += "libargon2-1 \
 libargon2.so.1"

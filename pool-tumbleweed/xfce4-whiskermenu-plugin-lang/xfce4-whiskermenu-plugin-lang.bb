@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-whiskermenu-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-whiskermenu-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.7.3"
+PV = "2.10.1"
 
-RPM_NAME = "xfce4-whiskermenu-plugin-lang-2.7.3-1.2.noarch.rpm"
-RPM_HASH = "316100c2be727f0715837eba4108e09b38fa60929decc895f12a9635c21f8bed1f4ffa8d8d367d4d19043eb080f230be563de1eb0cbf24385a042b99ed4b98db"
+RPM_NAME = "xfce4-whiskermenu-plugin-lang-2.10.1-1.2.noarch.rpm"
+RPM_HASH = "00a370448ee44c6671f5c5d99f1d20f9b7e3260c6bdb077b081179e72a557c44810861aed6713a3399f6e446482df8ff3169a7ace6be818d3e70e6948f550f0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-whiskermenu-plugin-ar \
@@ -44,6 +44,7 @@ locale-xfce4-whiskermenu-plugin-ms \
 locale-xfce4-whiskermenu-plugin-nb \
 locale-xfce4-whiskermenu-plugin-ne \
 locale-xfce4-whiskermenu-plugin-nl \
+locale-xfce4-whiskermenu-plugin-oc \
 locale-xfce4-whiskermenu-plugin-pl \
 locale-xfce4-whiskermenu-plugin-pt \
 locale-xfce4-whiskermenu-plugin-pt-BR \
@@ -60,7 +61,6 @@ locale-xfce4-whiskermenu-plugin-uk \
 locale-xfce4-whiskermenu-plugin-vi \
 locale-xfce4-whiskermenu-plugin-zh-CN \
 locale-xfce4-whiskermenu-plugin-zh-TW \
-xfce4-panel-plugin-whiskermenu-lang \
 xfce4-whiskermenu-plugin-lang \
 xfce4-whiskermenu-plugin-lang-all"
 

@@ -4,14 +4,14 @@ job result directory. It also gives the user the ability to write a report to \
 an arbitrary filesystem location."
 LICENSE = "GPL-2.0-only"
 
-PV = "69.0"
+PV = "113.0"
 
-RPM_NAME = "python3-avocado-plugins-output-html-69.0-6.11.noarch.rpm"
-RPM_HASH = "9548cb96a3658e8ce2bc0aa951cb39290944c28bc49ffb4817349bcdec6fada249be20c82099ec7b84583f0cb4e6694f37478b8540d78ee416a94e8aba27d8ab"
+RPM_NAME = "python3-avocado-plugins-output-html-113.0-1.2.noarch.rpm"
+RPM_HASH = "f8e63f5788879bb635bc8f92ee97e992163f25439693a08c7060b532e2d2f45703a472572b326e0b24ff782830ca57d03de23d02bce4374c524e06f8b375aca3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-avocado-plugins-output-html \
-python3.11dist-avocado-framework-plugin-result-html \
+python3.13dist-avocado-framework-plugin-result-html \
 python3dist-avocado-framework-plugin-result-html"
 
 RDEPENDS:${PN} += "python-abi \

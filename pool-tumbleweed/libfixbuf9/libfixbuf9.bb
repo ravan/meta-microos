@@ -6,16 +6,17 @@ libfixbuf supports UDP, TCP, SCTP, TLS over TCP, and Spread as transport \
 protocols."
 LICENSE = "LGPL-3.0-only"
 
-PV = "2.4.2"
+PV = "2.5.4"
 
-RPM_NAME = "libfixbuf9-2.4.2-1.1.aarch64.rpm"
-RPM_HASH = "5688ab81393af24d93334b25dbe197cb9a0f75c391b84723488d3d53e3e73232cfe871e21089ae2d164e61600d5c1dd1b8fb6dc04e1e9fd6eb270f623d4d46c9"
+RPM_NAME = "libfixbuf9-2.5.4-1.4.aarch64.rpm"
+RPM_HASH = "a34f68359dcf51a40d194863a7dd0f9dbd13e53226ed59a378ca53c4b2fb2eaa264bfd4b976b7030687d7806347ac9daad203c9155841cf0773fba9e050cf82b"
 
 RPROVIDES:${PN} += "libfixbuf.so.9 \
 libfixbuf9"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libc.so.6"
+libc.so.6 \
+libglib-2.0.so.0"
 
 inherit rpm

@@ -5,13 +5,14 @@ DESCRIPTION = "LibreSSL is an open-source implementation of the Secure Sockets L
 This subpackage contains the manpages to the LibreSSL API."
 LICENSE = "OpenSSL"
 
-PV = "3.7.0"
+PV = "4.3.2"
 
-RPM_NAME = "libressl-devel-doc-3.7.0-1.3.noarch.rpm"
-RPM_HASH = "5a55a3f99ab58852de9123a8c772a0e2cce9d6ceca23b4a0d986af8af11a417f54893c3d950bc31e78869bdf70690aa9e7a5828731357f8b958346bd829db292"
+RPM_NAME = "libressl-devel-doc-4.3.2-1.3.noarch.rpm"
+RPM_HASH = "32d083168dd8643a81ae681de2fc5a8ccb4330049403bd5f950309fcf88e311edfb9134870791259d282f6a626d5095149200daa36b808a9c3ae094de1d1b3d7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "libressl-devel-doc"
+RPROVIDES:${PN} += "libressl-devel-doc \
+openssl-doc"
 
 RDEPENDS:${PN} += ""
 

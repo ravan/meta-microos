@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.6"
 
-RPM_NAME = "plotutils-doc-2.6-29.4.noarch.rpm"
-RPM_HASH = "dfecaefed3a5b12df325614bd8dd7b0b6d206de0e8ed4cca8ae5f6453415bee0231a646f8b392d5267196bdfa780110720f06c56f006f29135333a7325a61148"
+RPM_NAME = "plotutils-doc-2.6-31.7.noarch.rpm"
+RPM_HASH = "9959b86ee8b0d87b4ea36696f2ea64e4ce159338a4fecf72dfadc1b9fb3c9619a59f8ac3cc833437d1a50ed09e536f60a555ec7ada7e92a9e8e0887b7ad37ac0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plotutils-/usr/share/doc/packages/plotutils/README \

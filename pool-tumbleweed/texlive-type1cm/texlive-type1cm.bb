@@ -13,10 +13,10 @@ fix-cm, which performs the task of type1cm, as well as doing \
 the same job for T1- and TS1-encoded ec fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn21820"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-type1cm-2023.209.svn21820-53.1.noarch.rpm"
-RPM_HASH = "d14e19bffc78e763a050df374ae2071291a1d47899e2180e1cc3953ad9224228ba09fd0254883244f08d0180de1301231c752b5e3f4b9ebffe89fc31fb016026"
+RPM_NAME = "texlive-type1cm-2026.226.svn78101-59.2.noarch.rpm"
+RPM_HASH = "8cb383d36a4f1954ab94d836b133a8ce72b7b5ac3e180684fc7f55fbd5fa20c0c910f4f381a0d532305dfe27f361f59cd2419e52e84b378711c9590fbbf05615"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-type1cm.sty \

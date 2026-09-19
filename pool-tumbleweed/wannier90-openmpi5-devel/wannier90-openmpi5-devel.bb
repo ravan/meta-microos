@@ -1,20 +1,18 @@
-SUMMARY = "Devel files for wannier90-openmpi5"
-DESCRIPTION = "This package provides files needed for developing against wannier90."
-LICENSE = "GPL-2.0-only"
+SUMMARY = "Library for generating Wannier functions - headers and development files"
+DESCRIPTION = "Wannier90 is a library for generating maximally-localized Wannier functions and \
+using them to compute advanced electronic properties of materials with high \
+efficiency and accuracy. \
+ \
+This package provides files needed for developing against wannier90."
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.1.0"
+PV = "4.0.2"
 
-RPM_NAME = "wannier90-openmpi5-devel-3.1.0-2.5.aarch64.rpm"
-RPM_HASH = "236d69857de35e23a8e60b40bb1ea9cebaad7517d43be18c5ade208c9862e11a931f26cd831054a90b135e8af69e9f507bd690b6aa96bb6c0161006b59c5de85"
+RPM_NAME = "wannier90-openmpi5-devel-4.0.2-1.1.aarch64.rpm"
+RPM_HASH = "bbcca10f9cd03cce4684a36e917518b66f7b54cca3057570044188e02d66a3f25d4f1a2c6fb1b632f6691299169de5ab66504f1ddeffff20b6a38fee31953b05"
 
-RPROVIDES:${PN} += "libwannier.so \
-wannier90-openmpi5-devel"
+RPROVIDES:${PN} += "wannier90-openmpi5-devel"
 
-RDEPENDS:${PN} += "libblas.so.3 \
-libc.so.6 \
-libgfortran.so.5 \
-liblapack.so.3 \
-libm.so.6 \
-libmpi-mpifh.so.40"
+RDEPENDS:${PN} += ""
 
 inherit rpm

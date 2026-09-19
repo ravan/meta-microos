@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - RNG schema for installation control files"
 DESCRIPTION = "This package contains RNG schema for validating the installation control files."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "5.0.3"
 
-RPM_NAME = "yast2-installation-control-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "03082235ca2ced250e3b6d4845c2f41ad8f0111e55e6162537cfe6d0d61b7d8054f0eb94bdc64df4112fec28c3c9417c804b20904f113ddda7f5e6a40158e6f2"
+RPM_NAME = "yast2-installation-control-5.0.3-1.4.noarch.rpm"
+RPM_HASH = "d60fe60518393f7e75067dbd714a8f6dc3cfbc0de6edc886cb9aa12b120347e58a4117aefd9c06ec7119bb8be59dc6991b433cea4ef09616640ad99be9205685"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-macro-skelcd-control-datadir \

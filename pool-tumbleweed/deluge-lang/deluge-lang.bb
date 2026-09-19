@@ -2,10 +2,10 @@ SUMMARY = "Translations for package deluge"
 DESCRIPTION = "Provides translations for the 'deluge' package."
 LICENSE = "SUSE-GPL-3.0-with-openssl-exception"
 
-PV = "2.1.1"
+PV = "2.2.0"
 
-RPM_NAME = "deluge-lang-2.1.1-3.6.noarch.rpm"
-RPM_HASH = "5cbbf2ae82717daaac748c3360a5d4b3d3615fa441647ac9fca378df5a19190a8df6c9dbce9b2592f715730652ae65afbee940948d3a54764c3a7af722fc062a"
+RPM_NAME = "deluge-lang-2.2.0-2.2.noarch.rpm"
+RPM_HASH = "0725f02b738d8f2741a757bce0d70e37718661c67e98ce677a98c2af6069508ff957c542c1e12ab080c8bef92afb52359c1f9d3cf391ae05ff06cd54009ce079"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deluge-lang \

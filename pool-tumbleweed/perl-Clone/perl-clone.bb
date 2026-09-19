@@ -13,14 +13,15 @@ arrays or hashes, pass them in by reference, e.g. \
     my %copy = %{ clone (\\%hash) };"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.46"
+PV = "0.500.0"
 
-RPM_NAME = "perl-Clone-0.46-1.4.aarch64.rpm"
-RPM_HASH = "3e5e6eef3f3f73742ce7fd760ef774bb3d3f9f57f0a91fde2eb11741b2c56b87085365e7eb8b097457c5a262bf8addea5e8f0471e63eefadb178a86c659995b0"
+RPM_NAME = "perl-Clone-0.500.0-1.5.aarch64.rpm"
+RPM_HASH = "353b9cbd54096474fbdc9decadfed99800a3fa8eed5fe480e9b0cd112bab9d72cb953d559f4c7494a089867ca3fda12db8f85d2ea628b0cf7abc3673eae3fa36"
 
 RPROVIDES:${PN} += "perl-Clone"
 
-RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

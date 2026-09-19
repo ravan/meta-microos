@@ -6,26 +6,24 @@ Mainly it's about to express your thinking with your keystrokes. \
 This package is the runtime libraries of Rime."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.3"
+PV = "1.17.0"
 
-RPM_NAME = "librime1-1.7.3-2.20.aarch64.rpm"
-RPM_HASH = "f90b1a7f803234ecfff9b27e9ba12c97ce76b679f03f9b2685cb834794607048363b28cb3e5de758bccf6d54ddec8ff0bc681144f6ad69dfa0e0dd384e31e2b2"
+RPM_NAME = "librime1-1.17.0-1.1.aarch64.rpm"
+RPM_HASH = "3ec0e64fcecc43d806f112960838896a1286828b0d2c700bd444c0b9b755364532584758a1df17ca5755b03749ba10ed9b9766cfbc343233973e094a855d2478"
 
 RPROVIDES:${PN} += "librime.so.1 \
 librime1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libboost-filesystem.so.1.82.0 \
 libc.so.6 \
-libcapnp-0.10.4.so \
 libgcc-s.so.1 \
-libglog.so.0 \
+libglog.so.2 \
 libleveldb.so.1 \
 libm.so.6 \
 libmarisa.so.0 \
-libopencc.so.1.1 \
+libopencc.so.1.2 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.8"
+libyaml-cpp.so.0.9"
 
 inherit rpm

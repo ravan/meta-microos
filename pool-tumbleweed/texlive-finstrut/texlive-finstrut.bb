@@ -6,10 +6,10 @@ can cause a blank line at the end of a footnote. The package \
 provides a solution to this problem."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn21719"
+PV = "2026.226.0.0.5svn21719"
 
-RPM_NAME = "texlive-finstrut-2023.209.0.0.5svn21719-53.1.noarch.rpm"
-RPM_HASH = "d04106575457035dc55b437572cf088b02b99afb1cc66ffac587232c3fadb8d99313f4ec06b807111b1e023a6a77e1ca299e5ee6d1ac722b878f4ba22a4f0352"
+RPM_NAME = "texlive-finstrut-2026.226.0.0.5svn21719-59.2.noarch.rpm"
+RPM_HASH = "b32d06ba57dfe6a4723122bb6669b60a882a4c82bbb0ca68e8fe1bba367b60ca6a69fc91562119dfcd5f42ddcd25f0dd13ccb5dec4a95f8dd8ac4133ea8e21fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-finstrut.sty \

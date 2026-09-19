@@ -7,17 +7,16 @@ not only directly build projects, but also to generate project files \
 (dub's package description) as project file."
 LICENSE = "MIT"
 
-PV = "1.33.0"
+PV = "1.42.0"
 
-RPM_NAME = "dub-1.33.0-1.1.aarch64.rpm"
-RPM_HASH = "cdaa14751a6320fca6cbb8940a43181714a8f9aeaa8c4547d24c79361403c1e0faa51717c6485c0f0ddfc103f7d0a4a5fc6f5517b83a0cdd4a6cfe9137d8d3a8"
+RPM_NAME = "dub-1.42.0-1.1.aarch64.rpm"
+RPM_HASH = "fa00c4daaaa0d47b71a748c140935ff97225ae1240dc87875831303c2e04dc06aac0faa0bece127f64ced4e13c21aae825883afab9b3077f830538833a3bb939"
 
 RPROVIDES:${PN} += "dub"
 
 RDEPENDS:${PN} += "libc.so.6 \
-libdruntime-ldc-shared.so.102 \
+libdruntime-ldc-shared.so.112 \
 libgcc-s.so.1 \
-libm.so.6 \
-libphobos2-ldc-shared.so.102"
+libphobos2-ldc-shared.so.112"
 
 inherit rpm

@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libwtcdb."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210417"
+PV = "20260527"
 
-RPM_NAME = "libwtcdb-devel-20210417-3.4.aarch64.rpm"
-RPM_HASH = "90efbe3c83dfc88eac16acf112fd0accfa13ee3af2910a321e276c98ecec76c96b674e209b82a717b9afd7a77e01e94bc5ce477c09da7d67e287ad3e3c43b034"
+RPM_NAME = "libwtcdb-devel-20260527-1.10.aarch64.rpm"
+RPM_HASH = "0379b42e280493150c57a59673df20e74b0b6c49babda7a21522cbd439a6e9a458b984c836b649870c1b6af173700f391751cbb750ddba5187caf4628ec2762d"
 
 RPROVIDES:${PN} += "libwtcdb-devel \
 pkgconfig-libwtcdb"

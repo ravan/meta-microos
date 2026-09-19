@@ -5,10 +5,10 @@ with them. It is also responsible for handling the icons on the MATE \
 desktop. It works on local and remote filesystems."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "typelib-1_0-Caja-2_0-1.26.1-1.5.aarch64.rpm"
-RPM_HASH = "34f1b4b27cf1aa81185be29176b6d300f58d2d99197d09dc0daa2730ff40f03e72512f32a16019a9f6fcba3575e3b0d0e783b3dc6793b6237a901fe05c5125c5"
+RPM_NAME = "typelib-1_0-Caja-2_0-1.28.0-1.14.aarch64.rpm"
+RPM_HASH = "dd168b7bb9dfaa06c533fa18655849c0b89bcd8bc773eea989bcf9a202a86821debdcff075d15facaf335a167f9ec61cfa43aab4124b98abbd1512dae20701a3"
 
 RPROVIDES:${PN} += "typelib-1-0-Caja-2-0 \
 typelib-Caja"

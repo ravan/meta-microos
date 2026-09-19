@@ -8,10 +8,10 @@ support. \
 This package includes XML schemas and related files."
 LICENSE = "Apache-2.0"
 
-PV = "3.2.4"
+PV = "3.3.0"
 
-RPM_NAME = "xmltooling-schemas-3.2.4-1.1.noarch.rpm"
-RPM_HASH = "16fe423d8b5d9e56bde63b03032246188bc51aadccd393f11186bdae69ad99b54ffa070b899098b82a06ad6af0a2d83c4a17e09330710616b748a8cb7f4ae111"
+RPM_NAME = "xmltooling-schemas-3.3.0-1.9.noarch.rpm"
+RPM_HASH = "a5b6a10866d55ad8277baff80a4cb1e4f130d5f6d9d99810a7ba0f7f6832bebab09f1432cd161ee5533e4848269db4cd8235196880e7ba77527044ab9f68c985"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmltooling-schemas"

@@ -4,10 +4,10 @@ fonts usable in XeTeX. Use OpenType-info.tex for OpenType \
 fonts, and AAT-info.tex for AAT fonts (Mac OS X only)."
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-xetexfontinfo-2023.209.svn15878-53.2.noarch.rpm"
-RPM_HASH = "bfb11f2058974496a33e2f2c892e85d25eece8d36e4a06e0181f2bd0799f007469f76f29a0ab634ae71f80a4fc1e14daa3eacadae29c64d72053cdcb82f895b2"
+RPM_NAME = "texlive-xetexfontinfo-2026.226.svn15878-59.4.noarch.rpm"
+RPM_HASH = "a5297ed4656c222ca6e70419e8a9e95db7eb817248a70556cccbe931033b4c0d3b2f240b5552962fd496192726cc48afbecbfbfc5766653e25f3cac269b2371c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aat-info.tex \

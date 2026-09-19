@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage provides a Qt interface for VLC and selects it by
 default when `vlc` is invoked from an X session."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.0.18"
+PV = "3.0.23"
 
-RPM_NAME = "vlc-qt-3.0.18-9.2.aarch64.rpm"
-RPM_HASH = "c5c27fafeb6e32c70b9892d393e8eb7fc7ef691a5adb0fff222c13289cb7a33608d2390203af733e29f6a48973e0ea4a813c4851bbbe9f662d521b0e6a6729e1"
+RPM_NAME = "vlc-qt-3.0.23-7.12.aarch64.rpm"
+RPM_HASH = "482e1f4d2a752f60abfaedf061edc9c189bb07d2250cdc5c370825d6b60d43bd395bb456cee6c4f5783d560eed31784381b19771fe7e25f6bfcd741a59adac16"
 
 RPROVIDES:${PN} += "libqt-plugin.so \
 vlc-qt"

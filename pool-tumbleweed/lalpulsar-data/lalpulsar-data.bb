@@ -2,10 +2,10 @@ SUMMARY = "Data files for use with LAL Pulsar"
 DESCRIPTION = "This package provides auxiliary data useful for analyses with LAL Pulsar."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.0.0"
+PV = "7.1.1"
 
-RPM_NAME = "lalpulsar-data-5.0.0-1.3.noarch.rpm"
-RPM_HASH = "1b8add645065a4d4a4bb621af18569d974ded77a81d36586b88528340f27a34276c2ba7198a71b1487a51d449e1a044abb447c0f08b109a784b827ccd9476454"
+RPM_NAME = "lalpulsar-data-7.1.1-2.1.noarch.rpm"
+RPM_HASH = "cf9f4bb805a6dbffb0fdacd0bd9d2d080c671a0533d50c1ffc3b2154879b0ad46ff94274f7d0b4686aaea59b60995dd99388512dc71e846c454eadaf96762fc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lalpulsar-data"

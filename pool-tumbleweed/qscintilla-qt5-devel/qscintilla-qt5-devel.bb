@@ -7,10 +7,10 @@ This is a Qt port from the original Scintilla class \
 This package contains the development files for qscintilla-qt5-qt5."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.13.4"
+PV = "2.14.1"
 
-RPM_NAME = "qscintilla-qt5-devel-2.13.4-1.6.aarch64.rpm"
-RPM_HASH = "928aac9865868558cddfdb641e209cfd44391d137db06dcdb0d4087658f4e56ab7e958aa162c429653ef8aafa58fca45c3ca9517f647492e0a03916b66a4305b"
+RPM_NAME = "qscintilla-qt5-devel-2.14.1-3.7.aarch64.rpm"
+RPM_HASH = "80391d0c69588b455b8748e9cee332655ab58e114825c407a00d4f3b9c1685459d6b68fa90c0e7f01c91bc352c35c8237da5f20d5ce200c300d80cde1087e6a3"
 
 RPROVIDES:${PN} += "libqscintilla-qt5-devel \
 libqscintilla2-qt5-devel \

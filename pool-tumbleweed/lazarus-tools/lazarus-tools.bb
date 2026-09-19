@@ -3,17 +3,17 @@ DESCRIPTION = "Lazarus is a cross-platform IDE and component library for Free Pa
 This package provides helper programs used for building Lazarus projects."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.2.6"
+PV = "4.8"
 
-RPM_NAME = "lazarus-tools-2.2.6-2.1.aarch64.rpm"
-RPM_HASH = "dc8eb90881c113c98759453687113f4157ae9114db07a271aab8eed9e94effceaa50b7bf07546d858c1420da9e1d5afa64a43db51666b77c43c92e7716483ce5"
+RPM_NAME = "lazarus-tools-4.8-1.2.aarch64.rpm"
+RPM_HASH = "1a43ee9e2f4e3ae6bea3ffed2a142cbf8b07e385f26bbe584695e1d1c8021d79fe3c55bbbc4553708383bd2ec706eb4c0efe6cd810b31cc0f2d1ecc9f5715ef3"
 
 RPROVIDES:${PN} += "config-lazarus-tools \
 lazarus-tools"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/env \
 /usr/bin/instantfpc \
+/usr/bin/perl \
 /usr/bin/sh \
 binutils \
 fpc \

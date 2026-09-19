@@ -1,35 +1,16 @@
 SUMMARY = "Penguins with TikZ"
-DESCRIPTION = "tikzpingus is a package similar to tikzducks but with penguins \
+DESCRIPTION = "tikzpingus is a package similar to TikZducks but with penguins \
 and a vast set of gadgets and extras (capable of changing the \
 wing-positions, body-types, and more)."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn64199"
+PV = "2026.226.1.4svn78219"
 
-RPM_NAME = "texlive-tikzpingus-2023.209.1.0svn64199-53.1.noarch.rpm"
-RPM_HASH = "b2a9fb911ea14f3ad5c46033c66d8cdda67c1c83d439d3a612219036e8214b8eeceaaefae2b8fbbf0bab639ecf3f448b1d226a0d4b6bc9ab00aee31d495931c9"
+RPM_NAME = "texlive-tikzpingus-2026.226.1.4svn78219-59.2.noarch.rpm"
+RPM_HASH = "6e2cb0811c2611f6e9c60f1aa6997e7d7314b8d0f4519f793363f3e11bcbda427d8a2ba1762e84dc58275722dddabdd49d1aa453ea03c3af64a7acaaf9f0a1cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-tikzpingus-christmas.lib.tex \
-tex-tikzpingus-cloak.lib.tex \
-tex-tikzpingus-devil.lib.tex \
-tex-tikzpingus-emotions.lib.tex \
-tex-tikzpingus-flags.lib.tex \
-tex-tikzpingus-formal.lib.tex \
-tex-tikzpingus-fun.lib.tex \
-tex-tikzpingus-glasses.lib.tex \
-tex-tikzpingus-hats.lib.tex \
-tex-tikzpingus-horse.lib.tex \
-tex-tikzpingus-magic.lib.tex \
-tex-tikzpingus-medieval.lib.tex \
-tex-tikzpingus-movement.lib.tex \
-tex-tikzpingus-safe.lib.tex \
-tex-tikzpingus-science-fiction.lib.tex \
-tex-tikzpingus-shirts.lib.tex \
-tex-tikzpingus-signs.lib.tex \
-tex-tikzpingus-sport.lib.tex \
-tex-tikzpingus-technology.lib.tex \
-tex-tikzpingus.sty \
+RPROVIDES:${PN} += "tex-tikzpingus.sty \
 texlive-tikzpingus"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

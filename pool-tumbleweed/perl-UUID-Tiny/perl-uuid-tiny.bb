@@ -36,13 +36,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.04"
 
-RPM_NAME = "perl-UUID-Tiny-1.04-1.6.noarch.rpm"
-RPM_HASH = "56d859e847af9c50c04fa6fc30b2b12505d9dfa66335fbf3bd6c9ca1adfff97e8a3e34c05cf46b69bf0c13f4b7a29c2d6bd00811c1bc05fcc0a9ae3dd3e768b5"
+RPM_NAME = "perl-UUID-Tiny-1.04-1.20.noarch.rpm"
+RPM_HASH = "3a67a00b7531eca919907b1148483b954d74540f2316add9a9aca46f0da4f5cfa78368ed3756492eb6cdc627e4eea053dbb7f039aac69d64cc9a89453221d6be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-UUID--Tiny \
 perl-UUID-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

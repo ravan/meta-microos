@@ -2,10 +2,10 @@ SUMMARY = "Screenshot Plugin for the Xfce Panel"
 DESCRIPTION = "This package contains the xfce4-screenshooter Xfce panel plugin."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.4"
+PV = "1.11.3"
 
-RPM_NAME = "xfce4-screenshooter-plugin-1.10.4-1.1.aarch64.rpm"
-RPM_HASH = "49cafd8e4509f029bf35f1e88c3da6d882deced439114c7ed6e3c185c306f92aebc6cbcc6cf09c38831e6042f320640b9e4069f540304cca1340ebf7b733d322"
+RPM_NAME = "xfce4-screenshooter-plugin-1.11.3-2.2.aarch64.rpm"
+RPM_HASH = "bb015e4c7cb6149e6d407c901e756c8fb949bd2bab65bd0881ef03ea0d5803c9ed1b8219e88680643630ad7bac17b3f3637aafcd4a42c202afe914f3fe4e47e3"
 
 RPROVIDES:${PN} += "libscreenshooterplugin.so \
 xfce4-panel-plugin-screenshooter \
@@ -24,13 +24,14 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtk-layer-shell.so.0 \
 libpango-1.0.so.0 \
-libsoup-3.0.so.0 \
+libpangocairo-1.0.so.0 \
+libwayland-client.so.0 \
 libxfce4panel-2.0.so.4 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \
 libxfconf-0.so.3 \
-libxml2.so.2 \
 xfce4-panel \
 xfce4-screenshooter"
 

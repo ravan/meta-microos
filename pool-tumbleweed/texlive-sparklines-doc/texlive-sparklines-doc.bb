@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sparklines"
 DESCRIPTION = "This package includes the documentation for texlive-sparklines"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn42821"
+PV = "2026.226.1.7svn42821"
 
-RPM_NAME = "texlive-sparklines-doc-2023.209.1.7svn42821-58.1.noarch.rpm"
-RPM_HASH = "6cf5b628761cf11e55e16b2d373e04d20b12373b016fd72ebef0569067f19c9cf15379543dc838153051848816054fee724fe844daf7532821b0a6ec220d7d20"
+RPM_NAME = "texlive-sparklines-doc-2026.226.1.7svn42821-64.2.noarch.rpm"
+RPM_HASH = "e25932b28f05bcd6804b75c38661e77fe546c050cd0ec83504ccf870595ca05b44055f63e4e7e28d4d6c9eaf110e26eeda089c18641dcb3271520fb71079bc92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sparklines-doc"

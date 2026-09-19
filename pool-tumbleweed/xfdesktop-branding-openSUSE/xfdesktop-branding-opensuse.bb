@@ -2,10 +2,10 @@ SUMMARY = "openSUSE Branding of xfdesktop"
 DESCRIPTION = "This package provides the openSUSE look and feel for the Xfce Desktop Manager."
 LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later"
 
-PV = "4.18.0+git0.9a2f754"
+PV = "4.20.0+git1.d2555b3"
 
-RPM_NAME = "xfdesktop-branding-openSUSE-4.18.0+git0.9a2f754-1.6.noarch.rpm"
-RPM_HASH = "e703d5e7b436edbb8e37e7a2f551a6b06d4a86c3d8c83f7fd7ca8f19b82a43f5a1c2d31a5b322973c819f117d0edb2c750c6801928b90e55f41c6f80a3f5116d"
+RPM_NAME = "xfdesktop-branding-openSUSE-4.20.0+git1.d2555b3-3.10.noarch.rpm"
+RPM_HASH = "cd43ec8308108dfe4a03cd5e6d64f0f0dfc2a8d437dc7cebc5dbb18979100a2d762da2aac2602f35c829fa8c700920ec44dba00bc554e4820b2d4f1781bcf278"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-xfdesktop-branding-openSUSE \

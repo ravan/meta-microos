@@ -13,10 +13,10 @@ This package provides the common compressed JSON file for the \
 pythonXY-xyzservices packages."
 LICENSE = "BSD-3-Clause"
 
-PV = "2022.9.0"
+PV = "2026.9.1"
 
-RPM_NAME = "xyzservices-data-2022.9.0-1.7.noarch.rpm"
-RPM_HASH = "13527e23a15d5e6ad460376fd217e3e042806d4b2be8a560be268f23e68000e8e377c6e8796f5a1ed5286273724b6da399bafdb0388fd146b6afcda415b2ad81"
+RPM_NAME = "xyzservices-data-2026.9.1-1.1.noarch.rpm"
+RPM_HASH = "d3a0e8984fec857c8bc526f7e6d08814cb3ded6d54ca225c8f41c63964f70647efea933e0ccca84dd4c9d44c405db2d039dd73d1f8aa2eda462d4f95b3c41da4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xyzservices-data"

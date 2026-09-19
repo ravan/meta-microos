@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
 PV = "0.8.18"
 
-RPM_NAME = "libdecoration0-0.8.18-2.9.aarch64.rpm"
-RPM_HASH = "96731d0a27b7ae55eb2fd6730f92879d278e69c78f2effbef3ed1898a2550ee74a11f7e3c64f20fd43ecc7ceb15779719979e9919f93a01ecfa6ac37a8b79602"
+RPM_NAME = "libdecoration0-0.8.18-4.5.aarch64.rpm"
+RPM_HASH = "545ff80372d9981580181363623d8e578138fc29751cac2d78a5d92f6a6289afdb9602e1a929bf6c7b4b9babc7b5be914a070212c84a430807e79a3b6c867f1a"
 
 RPROVIDES:${PN} += "libdecoration.so.0 \
 libdecoration0"

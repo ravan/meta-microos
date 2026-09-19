@@ -3,12 +3,13 @@ DESCRIPTION = "Programs and man pages for configuring and using the LVM2 Logical
 Volume Manager."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.03.16"
+PV = "2.03.38"
 
-RPM_NAME = "lvm2-2.03.16-8.1.aarch64.rpm"
-RPM_HASH = "ee4da2e5cb0c0510ac976ac766629b28a45697cc372a9f3213d770194322bde7b8fb5341774ac1fd09539356a16ead3470fd70bb05bf4533dbc86f9174d14117"
+RPM_NAME = "lvm2-2.03.38-2.5.aarch64.rpm"
+RPM_HASH = "eea813a86151f15ec799f6eb1a45feed5d8df0aea1ccb053d59d0acd49a69433bc793f93012fd2aa64cb66a1076c5b50248e6f66c2943b68d2d512b7338bc160"
 
 RPROVIDES:${PN} += "config-lvm2 \
+dont-stop-blk-availability-service \
 libdevmapper-event-lvm2.so.2.03 \
 libdevmapper-event-lvm2mirror.so.2.03 \
 libdevmapper-event-lvm2raid.so.2.03 \

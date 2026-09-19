@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.18"
 
-RPM_NAME = "libzeitgeist-devel-0.3.18-12.4.aarch64.rpm"
-RPM_HASH = "0a8f993fb87839e1e134566f6aeafd106fe91fb6c19909fdb23c384012cbdb909fd3b3a20a6da7b67af97d105e7c30a7ea90f22accdd466427174a952288be7a"
+RPM_NAME = "libzeitgeist-devel-0.3.18-13.12.aarch64.rpm"
+RPM_HASH = "34be3b18964b9c0787952327238b19305863ec717b6910ae480d0d39161fd735256966de10b55d7333b6949db9939432d59ebdff1ae062319266e0d53c63bce0"
 
 RPROVIDES:${PN} += "libzeitgeist-devel \
 pkgconfig-zeitgeist-1.0"

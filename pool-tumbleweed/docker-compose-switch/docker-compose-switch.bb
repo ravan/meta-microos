@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.5"
 
-RPM_NAME = "docker-compose-switch-1.0.5-1.6.aarch64.rpm"
-RPM_HASH = "46ae852a66e17a3f0032fb94fbbab28c9f69a5845781e315a345ca0f2eb1e5892a30547e2fc0d8c65b5eb8568c11369aec90cb630e2333e674741a6935a17e57"
+RPM_NAME = "docker-compose-switch-1.0.5-2.8.aarch64.rpm"
+RPM_HASH = "32242a0cffb49415b7f51cb68a595531d597f6c51082c3a66dedec1e708fdf9cf3147205361d5e5b4e3868ae65e8bfc9d5aac88020d66d7ece9b9931aab2df3c"
 
 RPROVIDES:${PN} += "docker-compose-switch"
 

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "libosmo-mslookup-devel-1.4.0-1.12.aarch64.rpm"
-RPM_HASH = "e83d329889f37a1f74e42650bdf3457f50f6202bbb326ed8f6bad2fb40e120579b2bdf49c1c5c06f681c7800d5e5e711dc415be1850499893bd3fc258efe3e1e"
+RPM_NAME = "libosmo-mslookup-devel-1.4.0-2.14.aarch64.rpm"
+RPM_HASH = "607917db38ef0f76f438bd5ca41c376b796d0c0f4cca22e8f73dc9395cc9a93b8cef3e2c2daa5264caece9943b0757f395d65ea569bb3ccb50fa038c3a5f5177"
 
 RPROVIDES:${PN} += "libosmo-mslookup-devel \
 pkgconfig-libosmo-mslookup"

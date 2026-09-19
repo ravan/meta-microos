@@ -2,10 +2,10 @@ SUMMARY = "Translations for package tar"
 DESCRIPTION = "Provides translations for the 'tar' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.34"
+PV = "1.35"
 
-RPM_NAME = "tar-lang-1.34-12.1.noarch.rpm"
-RPM_HASH = "ede21861fe4faf3ee3d437d96f264773acc79042ecdf9b78801f7294942f21ac99101e5bf40aa159f23bbd1db8310dc7c4f48940a6cef7de4101b4eb2d5a9bbd"
+RPM_NAME = "tar-lang-1.35-10.1.noarch.rpm"
+RPM_HASH = "3546b19aa75a52ddac8db51fecd3976c274e8698a622d59f37eb2c682e8098bca7005006ed6fc99e360a58dbc1cbb6fb6ed2546507ab487d1420d3826da0d46b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tar-bg \
@@ -27,6 +27,7 @@ locale-tar-hu \
 locale-tar-id \
 locale-tar-it \
 locale-tar-ja \
+locale-tar-ka \
 locale-tar-ko \
 locale-tar-ms \
 locale-tar-nb \

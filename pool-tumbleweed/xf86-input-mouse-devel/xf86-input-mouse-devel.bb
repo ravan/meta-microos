@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.9.5"
 
-RPM_NAME = "xf86-input-mouse-devel-1.9.5-1.1.aarch64.rpm"
-RPM_HASH = "396eb3c068d5a8182604fbbb5c0fa4ea620b3ec0b554d0cbcee1a05c956cb09e23c0e207041e22f2f59300bc5a90cd1ade1bf4e18cfdcc2860a77e6ba90a0bfb"
+RPM_NAME = "xf86-input-mouse-devel-1.9.5-1.11.aarch64.rpm"
+RPM_HASH = "c44ed9c03caf4db46e631f17a95d580e727cc8962cc0e5d26bce57a78f924003d1e53891f19676b2ac551037f6c45b24ef2f93325cbf778d452060c45d135cb9"
 
 RPROVIDES:${PN} += "pkgconfig-xorg-mouse \
 xf86-input-mouse-devel"

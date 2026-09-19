@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-inlinedef"
 DESCRIPTION = "This package includes the documentation for texlive-inlinedef"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-inlinedef-doc-2023.209.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "efea6b787a7ae0c06424807fd02b51eb985b4eef8dcfe5e1f11aa70be357dee256214a7e7c4b2662b24180e3b1d115d3a386c3fa5a801f152bc6acdbeac2cd3e"
+RPM_NAME = "texlive-inlinedef-doc-2026.226.1.0svn15878-60.2.noarch.rpm"
+RPM_HASH = "721a912f73c79183271d3e50c8fdb6f220c5d4c971798978bcebe220c05b6c6e5eca45b463c2db12f44fe9908e855ee4ded7641ed3562d2ff7ed3966303a1953"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-inlinedef-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of latex2nemeth"
 DESCRIPTION = "Binary files of latex2nemeth"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn42300"
+PV = "2026.20260301.svn42300"
 
-RPM_NAME = "texlive-latex2nemeth-bin-2023.20230311.svn42300-93.2.aarch64.rpm"
-RPM_HASH = "64b9958cc35546c79156337f6b5cef0178dc5cb1a18d70a3cf7badc9e5f1dccd9fa2e1634d945b64c58ba7004c6f6f8ace8861e17ca6bb3fe930dde0d4706f31"
+RPM_NAME = "texlive-latex2nemeth-bin-2026.20260301.svn42300-120.4.aarch64.rpm"
+RPM_HASH = "45b3514bd7ecd8867c6d3871ddf7afd0ebcf532cff03f42f8c09f69161d94b201ccf3ec278f913f9f628434360a08021245d86abe8e637073fef7fd4d8b4f276"
 
 RPROVIDES:${PN} += "texlive-latex2nemeth-bin"
 

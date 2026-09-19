@@ -3,12 +3,13 @@ DESCRIPTION = "Xfce4-notifyd is a simple, visually-appealing notification daemon
 implements the Freedesktop.org Desktop Notifications Specification."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.8.2"
+PV = "0.9.7"
 
-RPM_NAME = "xfce4-notifyd-0.8.2-1.4.aarch64.rpm"
-RPM_HASH = "48492adb1214f564af18ca85978c5b15df457bf47b13d3cf8cda287c7eff0aa592844ffe2ebfc0b2f41e4068871761d00253231336b05a561f3a73b91e33f2ba"
+RPM_NAME = "xfce4-notifyd-0.9.7-1.7.aarch64.rpm"
+RPM_HASH = "907aa20bfb75ecf304e22246ed993d3f8e2b60da5fa9f923d77af118649181812fe8eb9068f57a071dce1dd672da9c7bbd56a299f89cef0944deace1d8f9f9ee"
 
-RPROVIDES:${PN} += "libnotification-plugin.so \
+RPROVIDES:${PN} += "config-xfce4-notifyd \
+libnotification-plugin.so \
 notification-daemon-xfce \
 xfce4-notifyd"
 
@@ -17,12 +18,15 @@ libX11.so.6 \
 libatk-1.0.so.0 \
 libc.so.6 \
 libcairo.so.2 \
+libcanberra-gtk3.so.0 \
+libcanberra.so.0 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtk-layer-shell.so.0 \
 libnotify-tools \
 libnotify.so.4 \
 libsqlite3.so.0 \

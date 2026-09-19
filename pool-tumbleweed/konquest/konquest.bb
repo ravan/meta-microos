@@ -4,31 +4,31 @@ game. The goal of the game is to expand your interstellar empire across \
 the galaxy."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "konquest-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "0e7a049fbf8b5d3cf2f16553b57574a9e7442c26eb2f7c9d3dd66d07c029f1ad2d82f13add7e681cd4e2f4386ed6b86de311a710adc63ecfe08039ff46787460"
+RPM_NAME = "konquest-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "22edd9efe1a89103b722d937e26155080f0ef29de3ec1915d5cce77c213165d8d137b9796ae87319ff80b02440229b06f3e158460c1b09e7ca60d8d89f95e95c"
 
 RPROVIDES:${PN} += "konquest \
 konquest5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6StateMachine.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

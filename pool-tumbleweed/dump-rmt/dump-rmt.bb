@@ -4,10 +4,10 @@ like dump (a filesystem backup program), restore (a program for \
 restoring files from a backup), tar (an archiving program) and cpio."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4b47"
+PV = "0.4b53"
 
-RPM_NAME = "dump-rmt-0.4b47-1.9.aarch64.rpm"
-RPM_HASH = "31c1d7266dad3f19bd977be63d9d648f43e74a338f0789d7348163e7ff96f10691419362d56287b5a9f8f1a1560c753447fff50a48cc88d2252bd3c98b705a62"
+RPM_NAME = "dump-rmt-0.4b53-2.3.aarch64.rpm"
+RPM_HASH = "72fef0776a745cb3ba4d85dd571a60a147f36623bea6d60c2f16466accb08697d10d1e48fcf6ca34524f63b7aa73a489382af67f94546c93e50e9605e99d9203"
 
 RPROVIDES:${PN} += "dump-rmt \
 rmt"

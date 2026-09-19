@@ -5,23 +5,24 @@ system administrators alike. Warewulf empowers you to scalably and easily \
 manage thousands of compute resources."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.4.0"
+PV = "4.7.0"
 
-RPM_NAME = "warewulf4-4.4.0-6.5.aarch64.rpm"
-RPM_HASH = "275daf30ac998b03e64608fdad84fd5f4341dacf0eb8b8fcd2cd8c002ac349cfda8e66290b2618ec49b753ec9bc2830c4c4fef385d796e90e58f83f140858b0d"
+RPM_NAME = "warewulf4-4.7.0-4.1.aarch64.rpm"
+RPM_HASH = "46fbef82911a16ab9871b5fa56b15dc3b78fc813ccff073f8623f80117b7d3ac2e32744c830d90f51734fbc88eab9492ffcc22c0fd9417d1cd31a65a75c7daf8"
 
 RPROVIDES:${PN} += "config-warewulf4 \
 group-warewulf \
 user-warewulf \
 warewulf4"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-dhcp-server \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/sh \
+iproute2 \
 ipxe-bootimgs \
 libc.so.6 \
+logrotate \
 pigz \
 sysuser-shadow \
-tftp \
 warewulf4-overlay"
 
 inherit rpm

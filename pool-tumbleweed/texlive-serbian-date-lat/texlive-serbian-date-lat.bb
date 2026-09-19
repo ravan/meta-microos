@@ -4,10 +4,10 @@ style it uses does not match current practices. The present \
 package defines a \\date command that solves the problem."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn23446"
+PV = "2026.226.svn23446"
 
-RPM_NAME = "texlive-serbian-date-lat-2023.209.svn23446-54.1.noarch.rpm"
-RPM_HASH = "8231449b681375a3e2dfba8840c53414766e28b28fb4f460340e4ebe6db09769fae0fcd4e505cb7a1e7485293295924f8f31f4ffc7bf13f3180ae6ccce3541b4"
+RPM_NAME = "texlive-serbian-date-lat-2026.226.svn23446-60.2.noarch.rpm"
+RPM_HASH = "31ad0d2b7298769a487c42dec4527b1e9086858151bc083d4af9e3c137465a4dc14287f831894c38052e74edd746bf3e9233f75c3ddbd3c0cfd5ca7086be6b92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-serbian-date-lat.sty \

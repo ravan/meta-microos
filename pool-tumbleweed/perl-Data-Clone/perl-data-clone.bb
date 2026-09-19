@@ -11,17 +11,17 @@ module has a different cloning policy from almost all of them. See Cloning \
 policy and Comparison to other cloning modules for details."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.004"
+PV = "0.6.0"
 
-RPM_NAME = "perl-Data-Clone-0.004-5.1.aarch64.rpm"
-RPM_HASH = "5dc983f9fd655836436159b094c53153be0757d57b12e4348f069f4b8abb83bdb9fd619831cdb43b4ea5fe8f005f6cf2bc0609f397170b111043921285d5c344"
+RPM_NAME = "perl-Data-Clone-0.6.0-2.14.aarch64.rpm"
+RPM_HASH = "709fa66e961526e4d4c2ad7ebb9becd993ee1bf43f02eb6df93099beca1789b90466a58cbe97b89c528c9d6f5fe025a94d52ec428a180be56a67da33a43250aa"
 
 RPROVIDES:${PN} += "perl-Data--Clone \
 perl-Data-Clone"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-parent"
 
 inherit rpm

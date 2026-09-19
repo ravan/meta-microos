@@ -11,10 +11,10 @@ This package is compiled with Q16, that means it provides better \
 performance on 16 and less bit images."
 LICENSE = "MIT"
 
-PV = "1.3.40"
+PV = "1.3.48"
 
-RPM_NAME = "libGraphicsMagickWand-Q16-2-1.3.40-5.1.aarch64.rpm"
-RPM_HASH = "de46bced08e75eb488c54ca314460f336244cd3be39934fbc7cec82ea812001d828864191c3cde107ea750b17057b1139dfc92c32aafae9bf6bbee9af972cdec"
+RPM_NAME = "libGraphicsMagickWand-Q16-2-1.3.48-2.1.aarch64.rpm"
+RPM_HASH = "530118380329986a1ad79595cc6bf9aa8859891f7b6c371afb0f5f2ad568fbe5e6d264a0c3b7d0b6a9fcd75ef51b4019e00daae007d6f9a45188e63d97c0199a"
 
 RPROVIDES:${PN} += "libGraphicsMagickWand-Q16-2 \
 libGraphicsMagickWand-Q16.so.2"

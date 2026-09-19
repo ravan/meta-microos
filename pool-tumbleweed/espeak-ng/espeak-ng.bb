@@ -7,10 +7,10 @@ be configured to use Klatt formant synthesis or MBROLA to give it a \
 more natural sound."
 LICENSE = "Apache-2.0 & BSD-2-Clause & GPL-3.0-or-later & Unicode-DFS-2015"
 
-PV = "1.51"
+PV = "1.52.0"
 
-RPM_NAME = "espeak-ng-1.51-1.9.aarch64.rpm"
-RPM_HASH = "78b2c1cc5a447fde6e6ce04cad9debef95440dd73ac30946226a5d8d795a7b31d021b36f57a1e1fc7d745ce7a229ff965e12b484e697dd2ef8019091466359fd"
+RPM_NAME = "espeak-ng-1.52.0-2.6.aarch64.rpm"
+RPM_HASH = "2ff729eceea498dd2de11dfc13578a11ac7d2a5824a7e3e6f7e99ede0e5dd8d5737091be32d6d019c81e09ea7f0deb91393296c4cbb51fea89be75fac0c15a3f"
 
 RPROVIDES:${PN} += "espeak-ng"
 

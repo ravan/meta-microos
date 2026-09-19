@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains pdf, text and html documentation for the \
 FlightGear flight simulator package."
 LICENSE = "GPL-2.0-only"
 
-PV = "2020.3.18"
+PV = "2024.1.7"
 
-RPM_NAME = "FlightGear-docs-2020.3.18-1.1.noarch.rpm"
-RPM_HASH = "1d1246d86ac146c92129b50012ae37fe964705b8b2e42f0c3b92cd4b84d8a45f81978dd0c1f54b750692d2360a5f5505b83c41051adca8b5f03dec6b5aa3e78b"
+RPM_NAME = "FlightGear-docs-2024.1.7-1.1.noarch.rpm"
+RPM_HASH = "33e15d3056a87258aeb3c2b3ba26cf07c2ae5fff87402a29d53cb0cacbf6f05a446d4309697093c3f23fec765465cbad3095b66830c2efe50de7d10b74c6fc3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "FlightGear-docs"

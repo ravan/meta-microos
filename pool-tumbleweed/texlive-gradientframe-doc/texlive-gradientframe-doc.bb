@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gradientframe"
 DESCRIPTION = "This package includes the documentation for texlive-gradientframe"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn21387"
+PV = "2026.226.0.0.2svn21387"
 
-RPM_NAME = "texlive-gradientframe-doc-2023.209.0.0.2svn21387-54.2.noarch.rpm"
-RPM_HASH = "614c8f83a803958f04c4bf9b23759d767ca6638584022602637c7791a56a0a9c335b77f6449e546760c4576898ba1c52349ebaafffb9481c281f6e752bd03e0d"
+RPM_NAME = "texlive-gradientframe-doc-2026.226.0.0.2svn21387-60.4.noarch.rpm"
+RPM_HASH = "783358194f079561ee67ba95c6a4e6fb48d42ea9a72526a1fc294f6b2fca864e9907d06d59891f709495d047623dc9015eb03be554af4c160563f7a3eb931e98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gradientframe-doc"

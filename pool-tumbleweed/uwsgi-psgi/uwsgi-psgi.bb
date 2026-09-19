@@ -5,10 +5,10 @@ This package contains the PSGI plugin for running Perl applications that \
 support the PSGI protocol."
 LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "2.0.21"
+PV = "2.0.31"
 
-RPM_NAME = "uwsgi-psgi-2.0.21-3.2.aarch64.rpm"
-RPM_HASH = "ccb5078533b11b6cc4e3f44579e3a58a382530bcfc9fe082f03dbe5e04f1358e70ef7107f24de64969817ac2f57650e3752fee8f6ae77f0a88f94e9af1781752"
+RPM_NAME = "uwsgi-psgi-2.0.31-4.4.aarch64.rpm"
+RPM_HASH = "3fee15d8e717cb96410fa774b9eb9cdaa2ce5590700f1161bdd1f7797005fc6f9e5ef903e5bdab327e5a111f4d6ff75548d5d764eb261cdca835fbda89bc61ae"
 
 RPROVIDES:${PN} += "uwsgi-psgi"
 

@@ -1,12 +1,12 @@
-SUMMARY = "OpenLDAP Socket Back-End"
+SUMMARY = "OpenLDAP Socket backend"
 DESCRIPTION = "The OpenLDAP socket back-end allows you to handle LDAP requests and \
 results with an external process listening on a Unix domain socket."
 LICENSE = "OLDAP-2.8"
 
-PV = "2.6.4"
+PV = "2.6.13"
 
-RPM_NAME = "openldap2-back-sock-2.6.4-2.2.aarch64.rpm"
-RPM_HASH = "f6d54300a27029301c5fa7e9dcc686a0434df3106f596061021c0ad4a2908f63a3f01fa696b64bf522ed20afcc15e44790dbafbf20722fd7a38bdcca556ca836"
+RPM_NAME = "openldap2-back-sock-2.6.13-1.6.aarch64.rpm"
+RPM_HASH = "4545cd85dc914fd1d3f01420a47c4317aefc7654e2ce27354a4fcdf26804f8523f2a292da3e2d5e918909c9de75307bd613828e84fde314f163e8ff34d15013d"
 
 RPROVIDES:${PN} += "openldap2-/usr/share/man/man5/slapd-sock.5.gz \
 openldap2-back-sock"

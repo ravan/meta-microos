@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.5"
 
-RPM_NAME = "ucpp-1.3.5-2.19.aarch64.rpm"
-RPM_HASH = "e172ce6bff776977860c4605388092e4be28b00b10cfcbf70d6fef34e6342f33f1a1238a4bda905a716daaf91697c355a706d07b61a259c384d62917f8494bdf"
+RPM_NAME = "ucpp-1.3.5-2.29.aarch64.rpm"
+RPM_HASH = "fa90ede3b42cefa98a61cad6f8cea525534ae6d0dce06d5daf332f7b5171bda4c2a5c84d4c3ded2b359a814a554ad18387a7561df6ee8aab74c572375ae8162a"
 
 RPROVIDES:${PN} += "ucpp"
 

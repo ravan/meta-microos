@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gfsporson"
 DESCRIPTION = "The  separated fonts package for texlive-gfsporson"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn18651"
+PV = "2026.226.1.01svn77682"
 
-RPM_NAME = "texlive-gfsporson-fonts-2023.209.1.01svn18651-53.1.noarch.rpm"
-RPM_HASH = "0be83326c4a34bcd575aeb8be4ac07ed22cb74a22854afeb77b30069bfa67ec8ebae466c2d91bfbfbe4c4c7354491ec2840cd06695a797281f049be03503fa38"
+RPM_NAME = "texlive-gfsporson-fonts-2026.226.1.01svn77682-60.2.noarch.rpm"
+RPM_HASH = "d05bc0b13a1e4cc0b62b982e6bad84e5fb0a4c81f23fd436d32d3e9608c44b993aad827c2bdd0ed5051b878d3217669fdda5016389eabab187ca72c5fafe08ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gfsporson-fonts \

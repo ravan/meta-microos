@@ -7,12 +7,12 @@ cleans up other exited processes (zombies). \
 This is a reimplementation of other container init programs (such as \
 'tini' or 'dumb-init'), but uses modern Linux facilities (such as \
 signalfd(2)) and has no additional features."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.7"
+PV = "0.2.1"
 
-RPM_NAME = "catatonit-0.1.7-1.8.aarch64.rpm"
-RPM_HASH = "16facd2ad1fc8a2cd5cb94d81e77fa417de0b7f909e58ca92de99c88ced00a3eadfdbdd127bfa4aa1397089de88812658a2034fe7809a43bd9406ebf86b0a6f5"
+RPM_NAME = "catatonit-0.2.1-1.8.aarch64.rpm"
+RPM_HASH = "553a8965ca644fdea39498706178e1cdb17ad8f2a0c27e73f84363349182586945e72429d65d82fbd69ecffe881c12fe6a49774069b0a22122585b8f17406c53"
 
 RPROVIDES:${PN} += "catatonit"
 

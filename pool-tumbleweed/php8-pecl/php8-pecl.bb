@@ -6,10 +6,10 @@ development of PHP extensions. \
 See https://pecl.php.net for more details."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.10.21"
+PV = "1.10.26"
 
-RPM_NAME = "php8-pecl-1.10.21-1.6.noarch.rpm"
-RPM_HASH = "b0bbfacec4493a9235b919ccdd08720f208e5b6193573b128a571fd25252e7ca37bc099fc0276b818be2b94bf12889dc6bd6b17f6f7950d34c32ce625ad05a0c"
+RPM_NAME = "php8-pecl-1.10.26-1.3.noarch.rpm"
+RPM_HASH = "2bf544e6d8498366b01413ad0ac7eb256b9f6168f09380937a5ec5b85049125f71cf2c2732d8f1a844b363b986a3b8bc5ec0aab39e917644d2768595aae3f79c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-pecl \

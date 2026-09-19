@@ -2,10 +2,10 @@ SUMMARY = "Haskell deriving-aeson library documentation"
 DESCRIPTION = "This package provides the Haskell deriving-aeson library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.9"
+PV = "0.2.10"
 
-RPM_NAME = "ghc-deriving-aeson-doc-0.2.9-3.1.noarch.rpm"
-RPM_HASH = "21bfc64da6c36f67e0633a012a3eeb97cb24ddbbbb1134c787b8d708238ebaa57855b152de3922bdd0b34f6511931e24901051b889d4251c3a4dd0771915a920"
+RPM_NAME = "ghc-deriving-aeson-doc-0.2.10-1.22.noarch.rpm"
+RPM_HASH = "3086ee868e788763f08108e7a38da66c5ad6aa43daac754d3eae9db7cbfdc7a2344680b5351fd92b6c2624b7c2f4cee922b10fa0125efe213acd871b1360f5ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-deriving-aeson-doc"

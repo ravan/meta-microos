@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-utexasthesis"
 DESCRIPTION = "This package includes the documentation for texlive-utexasthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn48648"
+PV = "2026.226.1.0svn48648"
 
-RPM_NAME = "texlive-utexasthesis-doc-2023.209.1.0svn48648-54.1.noarch.rpm"
-RPM_HASH = "bbdc795361d7d6caecf36e552b2add1bcd45a9e5453b8684b432aef59262f64d13422f30a53248c2657b9514e164a383e1e36e7ae6ed2a3f0a30b61d99dec847"
+RPM_NAME = "texlive-utexasthesis-doc-2026.226.1.0svn48648-60.2.noarch.rpm"
+RPM_HASH = "f28de27188ae6d5f623afb1888081b746db13eda69a6cee279a8fe60d51510556db414570d5060ad91840d12775f95f6017823a4f5cbd21390b1a90d9b165e8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-utexasthesis-doc"

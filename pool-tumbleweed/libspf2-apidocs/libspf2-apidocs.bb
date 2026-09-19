@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause | LGPL-2.1-or-later"
 
 PV = "1.2.11"
 
-RPM_NAME = "libspf2-apidocs-1.2.11-6.14.noarch.rpm"
-RPM_HASH = "eb92c4909d48beb68bc698ff35b1c6c966b083bbb9f9f25ebf02671652867e7ce488fa055a2bc3bf6fd570f43a9a4d5bfccd69c668fb5bf6e549fce411f4d9da"
+RPM_NAME = "libspf2-apidocs-1.2.11-8.13.noarch.rpm"
+RPM_HASH = "f9c6d252149c0f256f5a39974e937efced1ff55ad1b18a6f092a4494176d07c8bd535840da7f839de102b76cfd8230678cf1c0dabe7d23f434bd9663206802a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libspf2-apidocs"

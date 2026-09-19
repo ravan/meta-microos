@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Linux kernel headers for aarch64, the kerne
 required for compilation of almost all programs."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4"
+PV = "7.2"
 
-RPM_NAME = "cross-aarch64-linux-glibc-devel-6.4-1.1.noarch.rpm"
-RPM_HASH = "6864459576188205c30d6189294b1598d19414e2afae33611d1c1418abd72d2be718401a619160a39598affc9b6f50b4204f94cff678e439f9263ac771380b0b"
+RPM_NAME = "cross-aarch64-linux-glibc-devel-7.2-2.1.noarch.rpm"
+RPM_HASH = "9efb5994f1484605ef81072eefbc7dd6cd3cc9d02e7e23a8f773876a99381f1a4ba6c34539ba07275536900309f04f32ddad7d84dbd735845d34d9f8395a7199"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-aarch64-linux-glibc-devel"

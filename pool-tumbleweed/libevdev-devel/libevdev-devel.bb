@@ -6,10 +6,10 @@ the appearance of the device. \
 Development files for libevdev library"
 LICENSE = "MIT"
 
-PV = "1.13.1"
+PV = "1.13.7"
 
-RPM_NAME = "libevdev-devel-1.13.1-1.1.aarch64.rpm"
-RPM_HASH = "efd9cc029949bc98de41c6237e7b945d5d88bb626fe19aeb66599c13d11cc9e75c8f908c3549bf00b9b1f3dcf1faa46af1165771fb1b1e4dbed5aa7702a4347f"
+RPM_NAME = "libevdev-devel-1.13.7-1.1.aarch64.rpm"
+RPM_HASH = "f7f051bff0947ac0b36a596d23ae133011d79422fdc1fe2629a5a570d354ce630502bcf538a64495b1d50b83a20083e2a129e355a35236bf2cfb8614e832af07"
 
 RPROVIDES:${PN} += "libevdev-devel \
 pkgconfig-libevdev"

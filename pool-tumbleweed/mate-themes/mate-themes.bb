@@ -5,10 +5,10 @@ This package contains the official desktop themes of the MATE \
 desktop environment."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.22.23"
+PV = "3.22.26"
 
-RPM_NAME = "mate-themes-3.22.23-1.4.noarch.rpm"
-RPM_HASH = "e5e1c3f73d261e408873c78526adcd647dc0d2cd121a9ed9d0c746be3a63cae5bf2cd54db362ecb19ce5b0c35dea630ab011e727b34502347a9f7d4e01f9028e"
+RPM_NAME = "mate-themes-3.22.26-1.7.noarch.rpm"
+RPM_HASH = "b4f329cd684415951982b31f66aec78c1c37adb4d047ff8527a1640cd1dead655d58e95e2b45daa217cdaec93b897785adc1b2b9d6665127b0350a048c93a346"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-themes"

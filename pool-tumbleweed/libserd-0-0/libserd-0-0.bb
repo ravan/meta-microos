@@ -2,10 +2,10 @@ SUMMARY = "A lightweight C library for RDF syntax"
 DESCRIPTION = "A lightweight C library for RDF syntax which supports reading and writing Turtle and NTriples."
 LICENSE = "ISC"
 
-PV = "0.30.16"
+PV = "0.32.10"
 
-RPM_NAME = "libserd-0-0-0.30.16-1.2.aarch64.rpm"
-RPM_HASH = "37d8a2478c8f7d07078a7afa4ef3adf42874285fc222b7e4c8c65f55fabb54dd9b34ee8658bdef06c6abde12942899d1ecf7318e91fd403f29523272f743c084"
+RPM_NAME = "libserd-0-0-0.32.10-1.1.aarch64.rpm"
+RPM_HASH = "e2b2c93df98340aeabe2f27692355e81f3eaa4ef69f14ded989fcd03e93a74beaad403c59034b71794fce6f6dd1b4a69ed1be30407a86522235c6a52f58a83ea"
 
 RPROVIDES:${PN} += "libserd-0-0 \
 libserd-0.so.0"

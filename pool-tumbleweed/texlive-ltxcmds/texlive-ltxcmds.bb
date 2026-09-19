@@ -4,10 +4,10 @@ into a separate namespace and also makes them available for \
 other formats such as plain TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.25svn56421"
+PV = "2026.226.1.26svn77682"
 
-RPM_NAME = "texlive-ltxcmds-2023.208.1.25svn56421-53.1.noarch.rpm"
-RPM_HASH = "9670f71d2d856ab0fc69a6dd96acac1aaac2132cf232f9b1f810f349c6a0f16435823419e6d4ead18acef3a9bde6242467ab4f042be6826cbad0eaa154bae092"
+RPM_NAME = "texlive-ltxcmds-2026.226.1.26svn77682-59.2.noarch.rpm"
+RPM_HASH = "874814844fa3bb010ab658a64c01019828745561d1ced2327eb35adebf7e0753325a6861cbca31640cbf1f640d6fd11a1624e9f63b9e242a840799b72f78a6d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ltxcmds.sty \

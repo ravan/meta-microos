@@ -2,10 +2,10 @@ SUMMARY = "LuaTeX with just-in-time (jit) compiler, with and without HarfBuzz"
 DESCRIPTION = "The luajittex package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-luajittex-2023.208.svn66186-53.1.noarch.rpm"
-RPM_HASH = "c653beb60240cdba7e57a9b50c83b9dc33e19c82eadcebaa3349fae59438bbe19535685504aecec11379d799278a2795f81d4a0df806878622f3badef3893fdf"
+RPM_NAME = "texlive-luajittex-2026.226.svn77830-59.2.noarch.rpm"
+RPM_HASH = "047803ea46b456bcd8a12a0915385c5135eaa9773d52a555909ae24e8ffd297d1032c26fb8aaea09983e913296fbb06a9df55317a50ccb19f808b642e105a1a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-luajithbtex.1 \

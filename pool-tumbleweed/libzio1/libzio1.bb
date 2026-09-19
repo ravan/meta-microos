@@ -3,10 +3,10 @@ DESCRIPTION = "Libzio provides a wrapper function for reading or writing gzip or
 files with FILE streams."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.08"
+PV = "1.15"
 
-RPM_NAME = "libzio1-1.08-2.8.aarch64.rpm"
-RPM_HASH = "84326b03afc973eee075b3f5a3d4c8402ff3bf2004442092d2bb9df1c901cd4ddc465424bd2738c6722b7402169fb95aef21b14f9b4264ef86750bbc7e79339c"
+RPM_NAME = "libzio1-1.15-1.3.aarch64.rpm"
+RPM_HASH = "fcd73acec8a3ed18ce5284f6c832f4fb37ac46c74e4ef09ec94bd2eb6816754faa0fd2fc9fecb5c34577b1c08a728be8f7cf1efc11fe684d9068e4c093808db9"
 
 RPROVIDES:${PN} += "libzio \
 libzio.so.1 \

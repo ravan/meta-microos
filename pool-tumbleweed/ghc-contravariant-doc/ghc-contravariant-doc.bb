@@ -2,10 +2,10 @@ SUMMARY = "Haskell contravariant library documentation"
 DESCRIPTION = "This package provides the Haskell contravariant library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.5.5"
+PV = "1.5.6"
 
-RPM_NAME = "ghc-contravariant-doc-1.5.5-2.8.noarch.rpm"
-RPM_HASH = "662d31406d0aada43bed4606d021ae8d188ff1050285ba25e8ee08d623898c6d821564d224c5a0f6ab36d8efa50c20160a5fb41656ba10af4bca8cc9e139d41a"
+RPM_NAME = "ghc-contravariant-doc-1.5.6-1.3.noarch.rpm"
+RPM_HASH = "9dc9ce5c1546ee819f768afe5780b835b4f944b929879c8b38b7b4963b40b644bd0ba6b3f07265d459545bef5b84f901b1aa41ce98ec55fba99bf5ba1ab117d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-contravariant-doc"

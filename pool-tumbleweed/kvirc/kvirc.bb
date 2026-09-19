@@ -1,13 +1,13 @@
 SUMMARY = "Graphical Front-End for IRC"
 DESCRIPTION = "IRC (Internet Relay Chat) client with an MDI interface; scripting, \
-pop-up, alias, and event editor; DCC (SEND CHAT VOICE and RESUME); \
-SOCKSV4 & V5 support; and more."
+pop-up, alias, and event editor, DCC (SEND CHAT VOICE and RESUME), \
+SOCKSV4 & V5 support and more."
 LICENSE = "GPL-2.0-or-later & (GPL-3.0-only | SUSE-LGPL-2.1-with-digia-exception-1.1)"
 
-PV = "5.0.0"
+PV = "5.2.10"
 
-RPM_NAME = "kvirc-5.0.0-5.10.aarch64.rpm"
-RPM_HASH = "add81db4a5e481fb5e37ffa991b0d796ef451047c5771c4db2a49a2252e81d494b75f7337b8796ef76f391e368ca0bc0584ff26d2c6ec9807b184e6d8f9735cc"
+RPM_NAME = "kvirc-5.2.10-1.6.aarch64.rpm"
+RPM_HASH = "7f503956f44d14a168da6a78ccf7e2ec7044005559376592fa5a77206ec3b12d8c2809dd4b3254e4ba62c72bfaf52a53f453e208b6cb411c0cb0ab4598ac8805"
 
 RPROVIDES:${PN} += "kvirc \
 libkviabout.so \
@@ -88,37 +88,43 @@ libkviwindow.so"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5Notifications.so.5 \
-libKF5Service.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
-libQt5Xml.so.5 \
-libX11.so.6 \
-libaudiofile.so.1 \
+libKF6ConfigCore.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6Notifications.so.6 \
+libKF6Parts.so.6 \
+libKF6Service.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Concurrent.so.6 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Sql.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libcrypto.so.3 \
 libenchant-2.so.2 \
 libgcc-s.so.1 \
 libm.so.6 \
 libperl.so \
-libphonon4qt5.so.4 \
-libpython3.11.so.1.0 \
+libphonon4qt6.so.4 \
+libpython3.13.so.1.0 \
 libssl.so.3 \
 libstdc++.so.6 \
 libz.so.1 \
-perl"
+perl \
+qt6-sql-sqlite"
 
 inherit rpm

@@ -3,17 +3,17 @@ DESCRIPTION = "The libunibreak-devel package contains libraries and header files
 developing applications that use libunibreak."
 LICENSE = "Zlib"
 
-PV = "5.0"
+PV = "6.1"
 
-RPM_NAME = "libunibreak-devel-5.0-1.6.aarch64.rpm"
-RPM_HASH = "7a60dbb94507500c25408af0baa128d6751bb4cc91954609dd8dd40652642798d814dd5d6dc63d4804dc092daf14aa49e420a1a0909378674ab6a15629cf10ad"
+RPM_NAME = "libunibreak-devel-6.1-1.5.aarch64.rpm"
+RPM_HASH = "d9ddd1b832dd63fabf9c98f3d782ebdad04f2f416c346c61623d1d7ec1e604c6db15e7931ffd887892891cf1d0fb4e73e0ab53eec78ceece7600bed97bab41be"
 
 RPROVIDES:${PN} += "liblinebreak-devel \
 libunibreak-devel \
 pkgconfig-libunibreak"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libunibreak5 \
+libunibreak6 \
 pkgconfig"
 
 inherit rpm

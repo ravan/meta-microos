@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-permute"
 DESCRIPTION = "This package includes the documentation for texlive-permute"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-permute-doc-2023.209.svn15878-52.1.noarch.rpm"
-RPM_HASH = "f56e48b68283c7faaa025f961b5da05d7b8d97895a037a539cc0aff9ce19b054907964a4c1186584468acc2b04ba924ad1602246294b010cabfbb10fc10a6b15"
+RPM_NAME = "texlive-permute-doc-2026.226.svn15878-58.2.noarch.rpm"
+RPM_HASH = "95b64c2fd924460750ef870fe56b31ab2686a63c897da6215cc0915ee48e19b9cfa324bea5c447e028d65e8aa33a88ed80a00a07092cb0bb8b0189560f37a369"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-permute-doc"

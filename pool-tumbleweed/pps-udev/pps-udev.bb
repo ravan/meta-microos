@@ -2,10 +2,10 @@ SUMMARY = "Udev rules for Linux Kernel PPS"
 DESCRIPTION = "Udev rules for Linux Kernel PPS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.0.0+git.20211122"
+PV = "1.0.3+git20240314"
 
-RPM_NAME = "pps-udev-0.0.0+git.20211122-1.3.aarch64.rpm"
-RPM_HASH = "13698b281207f64e72f61dd197157794e1dc53068fb0e4a6bd7874022a81bf8501b87762cbb25c8bcc89262ba1fd4c4e5e5b06178c1bb906627375c274e7e531"
+RPM_NAME = "pps-udev-1.0.3+git20240314-1.8.aarch64.rpm"
+RPM_HASH = "0858e093173d48b454e7084c6c745e76c3b8ebb867c877dd17f2ce6ae873166b4bb215c5558ad6c31cf588b390de0589b2e301e09345717d0c79f1d2f55b50de"
 
 RPROVIDES:${PN} += "pps-udev"
 

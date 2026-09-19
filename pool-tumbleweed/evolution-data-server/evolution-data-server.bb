@@ -3,10 +3,10 @@ DESCRIPTION = "Evolution Data Server provides a central location for your addres
 and calendar in the GNOME Desktop."
 LICENSE = "LGPL-2.0-only"
 
-PV = "3.48.4"
+PV = "3.60.2"
 
-RPM_NAME = "evolution-data-server-3.48.4-1.1.aarch64.rpm"
-RPM_HASH = "7bcd27f26fd756f4123a2d36fdf6cffd6501aa3b4136bddd94d114e9637c3ac3dbba49e0ea74d752a8d1681da8d4fd65dab9f92a04f7db5a82354336f765ec1a"
+RPM_NAME = "evolution-data-server-3.60.2-3.1.aarch64.rpm"
+RPM_HASH = "63545ce65a3368ea601e57b45d90440960a0683aa16aee79a62360cb5eac2c6c8b2991d6e3022a452fa70047089de8a9707b09a92c9927b23998a2a974a6a70f"
 
 RPROVIDES:${PN} += "evolution-data-server \
 libcamelimapx.so \
@@ -30,14 +30,14 @@ libedbus-private.so"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcamel-1.2.so.64 \
+libcamel-1.2.so.67 \
 libcanberra-gtk3.so.0 \
 libcanberra.so.0 \
 libdb-4.8.so \
 libebackend-1.2.so.11 \
 libebook-1.2.so.21 \
-libebook-contacts-1.2.so.4 \
-libecal-2.0.so.2 \
+libebook-contacts-1.2.so.5 \
+libecal-2.0.so.3 \
 libedata-book-1.2.so.27 \
 libedata-cal-2.0.so.2 \
 libedataserver-1.2.so.27 \
@@ -57,7 +57,7 @@ libldap.so.2 \
 libpango-1.0.so.0 \
 libsecret-1.so.0 \
 libsoup-3.0.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 mozilla-nss"
 
 inherit rpm

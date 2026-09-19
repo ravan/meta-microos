@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a collection checker plugin for LeechCraft 
 to check the completeness of collections."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-lmp-brainslugz-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "b760460bb65d5a8d1c2f14c09ba330654ed58a3f30f75e9d118d33e927d423e13cc7c10560718746bde428687587d0ff9b253ee08fd12ef6f56d4770ac09a4c7"
+RPM_NAME = "leechcraft-lmp-brainslugz-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "37923f7cad49a185b05ce2022b7336fd9d7de96686df445324a146284e175244d4d9abfadb26976fa8e6843316ba148b00e482d8a3d7c8c0375470b180a49392"
 
 RPROVIDES:${PN} += "leechcraft-lmp-brainslugz \
 libleechcraft-lmp-brainslugz.so"
@@ -15,19 +15,21 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-lmp \
 leechcraft-musiczombie \
 leechcraft-scrobbler \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5QuickWidgets.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qml-qt5.so.0.6.75.2 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libleechcraft-lmp-util-qt6.so.0.6.75 \
+libleechcraft-util-qml-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-threads-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
 libstdc++.so.6 \
-qt5qmlimport-QtQuick.2"
+qt6qmlimport-QtQuick.2"
 
 inherit rpm

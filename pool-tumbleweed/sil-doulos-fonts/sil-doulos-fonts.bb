@@ -1,15 +1,14 @@
-SUMMARY = "Doulos SIL Fonts Similar to Times"
-DESCRIPTION = "Doulos SIL provides glyphs for a wide range of Latin and Cyrillic \
-characters. Doulos's design is similar to the design of the Times-like \
-fonts, but only has a single regular face. It is intended for use alongside \
-other Times-like fonts where a range of styles (italic, bold) are not \
-needed."
+SUMMARY = "A font that provides complete support for the International Phonetic Alphabet"
+DESCRIPTION = "Doulos SIL is a Unicode-based font family that supports the wide \
+range of languages that use the Latin and Cyrillic scripts, whether \
+used for phonetic or orthographic needs. Linguists appreciate the \
+wide range of characters and symbols useful in their work."
 LICENSE = "OFL-1.1"
 
-PV = "6.101"
+PV = "7.000"
 
-RPM_NAME = "sil-doulos-fonts-6.101-1.4.noarch.rpm"
-RPM_HASH = "e33088ed8253da6060ce6286909d71099c42ba49aba2f45acbcc9b443ed9fe980c486e8b46d332a57e2d5e222a5f4a6388b46850caee21224de5115fb178608f"
+RPM_NAME = "sil-doulos-fonts-7.000-1.4.noarch.rpm"
+RPM_HASH = "b8c9081c37f02daa68ba9862880e0c640f0166377d861760cd08a20bd67a8e24bf1228566c704ba8efbbc15ce3ac43f3a1f264631576fff9caf35d134a6296ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sil-doulos \

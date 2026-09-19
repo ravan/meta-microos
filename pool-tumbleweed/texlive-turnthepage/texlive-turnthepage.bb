@@ -4,10 +4,10 @@ odd-numbered pages (except the last). This is a common \
 convention for examination papers and the like."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3asvn29803"
+PV = "2026.226.2.0asvn77682"
 
-RPM_NAME = "texlive-turnthepage-2023.209.1.3asvn29803-53.1.noarch.rpm"
-RPM_HASH = "6010fc82873ee7ed1a99f5032115224c755a814077c254e432e8fc9171ae0c33f3a907ce7d1996c495108bc6e3bd2042d0ba3c0f8d07cd3bc35d8fb29c22ed12"
+RPM_NAME = "texlive-turnthepage-2026.226.2.0asvn77682-59.2.noarch.rpm"
+RPM_HASH = "4cc809fe51c48cbc73086698a1f704f702c527513f37998389e94714ea7765585ff49e3cd0d2b7e41a805d747bab134b4ae108e5650837e9bc41ad646f214b07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-turnpageetex.sty \
@@ -21,12 +21,10 @@ ed \
 findutils \
 grep \
 sed \
-tex-alphalph.sty \
 tex-atbegshi.sty \
-tex-pageslts.sty \
+tex-atveryend.sty \
+tex-everyshi.sty \
 tex-picture.sty \
-tex-zref-abspage.sty \
-tex-zref-lastpage.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

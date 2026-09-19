@@ -1,12 +1,12 @@
 SUMMARY = "Obex DBus API"
 DESCRIPTION = "Obex-Data-Server provides a obex dbus api. Used for bluetooth \
 applications to transfer and receive data."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.6"
 
-RPM_NAME = "obex-data-server-0.4.6-15.30.aarch64.rpm"
-RPM_HASH = "82bf2476a4912eac01e53d4bea11251c85d23a4dc13f8c42db809f4378b3963567da7a0b20cd1c3435be0b27755bea77376127391902c168f21769fa94aca95e"
+RPM_NAME = "obex-data-server-0.4.6-16.9.aarch64.rpm"
+RPM_HASH = "1bcd35b5d960eed52b6db9739304b9d40c354d6da8d4404a339d6aa0a56e844214d1b097ff4aa0774c0c99bca20104155454abb4278b18cd25e89c33003bb620"
 
 RPROVIDES:${PN} += "config-obex-data-server \
 obex-data-server"

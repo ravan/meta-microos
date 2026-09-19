@@ -2,14 +2,15 @@ SUMMARY = "Main Samba administration tool"
 DESCRIPTION = "The package contains samba-tool, the main tool for Samba Administration."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "samba-tool-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "5a2ac065b70e0b28edc6f416c3bf3468cb2e7cf30216c254e0e17c96aaedd85b2ac1572c03e1632d56268942891c4b9757ab987ca6f1b779f2b2416659ea8946"
+RPM_NAME = "samba-tool-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "f32fa49bcf581fa8986d11911fb36aef534b4092849405414cbceafb8212d1411347d6c51860a42b2bd9c0374a8a4d6b7e1c7a6bc6a68532c0ed25efd87ee7b7"
 
 RPROVIDES:${PN} += "samba-tool"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
+python3-Markdown \
 samba \
 samba-ldb-ldap \
 samba-python3"

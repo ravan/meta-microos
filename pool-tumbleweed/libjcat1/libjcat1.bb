@@ -5,10 +5,10 @@ SHA-256 checksums for each file. This provides  equivalent \
 functionality to the catalog files supported in Microsoft Windows."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.1.14"
+PV = "0.2.6"
 
-RPM_NAME = "libjcat1-0.1.14-1.1.aarch64.rpm"
-RPM_HASH = "fc7decfe28c962750dfc736381c6d50727483868ef33ae5761f823100e6b5573ef3cd53cf10150591de0d224b95158228c8b12628dae282e2fef4b0f654470d2"
+RPM_NAME = "libjcat1-0.2.6-2.1.aarch64.rpm"
+RPM_HASH = "ed303c81a4c2ee8fbba3cfbec9f8e204dfa16f5c2c51bfcc10f29304f79b3fa8f47e4369081ff9e670897511ed4128b620c45fa48c36743ab6362b586f82b055"
 
 RPROVIDES:${PN} += "libjcat.so.1 \
 libjcat1"
@@ -21,8 +21,7 @@ libglib-2.0.so.0 \
 libgnutls.so.30 \
 libgobject-2.0.so.0 \
 libgpg-error.so.0 \
-libgpgme.so.11 \
-libhogweed.so.6 \
+libgpgme.so.45 \
 libjson-glib-1.0.so.0"
 
 inherit rpm

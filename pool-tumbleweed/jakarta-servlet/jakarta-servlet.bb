@@ -3,10 +3,10 @@ DESCRIPTION = "Jakarta Servlet defines a server-side API for handling HTTP reque
 and responses."
 LICENSE = "Apache-2.0 & (EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
-PV = "5.0.0"
+PV = "6.1.0"
 
-RPM_NAME = "jakarta-servlet-5.0.0-1.8.noarch.rpm"
-RPM_HASH = "df545fade844627f38f37b717ce415f855e2ca443afc89bbed1d028474f963c95ff34557a06c4dd2ec46e47eec38cc7f2b0362e12e1c31e444e89f54e15f68ab"
+RPM_NAME = "jakarta-servlet-6.1.0-1.8.noarch.rpm"
+RPM_HASH = "cd038c090efa373d8211eb4b5ad604340e4b340f49cd36b7b123609ad79e405377a6b5833204f38c7e5a3b7016745d8cdef8f28cb374c19ba337064cb9b76223"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-servlet \

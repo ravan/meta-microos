@@ -1,12 +1,12 @@
 SUMMARY = "Additional manipulation functions for Octave"
 DESCRIPTION = "Additional manipulation functions. \
 This is part of Octave-Forge project."
-LICENSE = "GPL-3.0-or-later & BSD-2-Clause"
+LICENSE = "BSD-2-Clause & GPL-3.0-or-later"
 
-PV = "1.3.0"
+PV = "1.3.2"
 
-RPM_NAME = "octave-forge-strings-1.3.0-1.6.aarch64.rpm"
-RPM_HASH = "44dbec52a60fccf1dab147b56c1f00846bd50e4815040377ced5a735cef897ada7cb1fe58d17b1f3cbc482a3bdd612b0618fef350a996a508208bddf9780380b"
+RPM_NAME = "octave-forge-strings-1.3.2-1.1.aarch64.rpm"
+RPM_HASH = "d42fac8392b6ea7387504ab476153374274f9b4d4cf69135883c36f15ed25475a40282e817561f44259dfc89e8beea66387fb7f370c7edb275243b6db1e73d69"
 
 RPROVIDES:${PN} += "octave-forge-strings"
 
@@ -14,8 +14,9 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpcre.so.1 \
+libpcre2-8.so.0 \
 libstdc++.so.6 \
+octave-api-v61 \
 octave-cli"
 
 inherit rpm

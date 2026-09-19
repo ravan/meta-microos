@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.7.1"
 
-RPM_NAME = "pinta-1.7.1-1.5.noarch.rpm"
-RPM_HASH = "3ee0485d3ad7aa145cb2ea3cc741f180bc28b0f90d0001427aca3a4658a1280e4af07d2976928fad7cf26cafa0fd889cf1ef19dfc2a162167f8a05163ffd9880"
+RPM_NAME = "pinta-1.7.1-1.12.noarch.rpm"
+RPM_HASH = "260971b9c789efb8a16f04a9ce5ff2363c7055abc89d2b17e07d06cd81f06b74ea5af7e8dece07622f44df8622b531f2757f8ef347b0e9eb7e87cb7afc4a7571"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-Pinta \

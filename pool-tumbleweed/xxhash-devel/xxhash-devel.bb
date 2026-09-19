@@ -1,13 +1,11 @@
-SUMMARY = "Development files for xxHash - a non-cryptographic hash algorithm"
-DESCRIPTION = "Development files for xxHash - a hash algorithm. It completes the SMHasher test \
-suite which evaluates collision, dispersion and randomness qualities of hash \
-functions. Hashes are identical on all platforms."
+SUMMARY = "Headers for xxHash, a non-cryptographic hash algorithm"
+DESCRIPTION = "Headers and other development files for xxHash."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.8.1"
+PV = "0.8.3"
 
-RPM_NAME = "xxhash-devel-0.8.1-3.4.aarch64.rpm"
-RPM_HASH = "6b89ec7e6e4b1a8b2eb8f48f19d2f593a42e437fad0ab1c7cd89ade9648c08cc823338e1d5d606ba6920739ec3c81b842938174a728d86428a9c8ac5c9a2bf26"
+RPM_NAME = "xxhash-devel-0.8.3-1.8.aarch64.rpm"
+RPM_HASH = "4f41bb5a5e8beacca92e5f603c3f49797a7b93a16c7acb2352dd56ce350e4538e496546c3f4aef08f27224ade6705535ff864fca1457f02fe43dfe53dbaf65d6"
 
 RPROVIDES:${PN} += "pkgconfig-libxxhash \
 xxhash-devel"

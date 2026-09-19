@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uplatex"
 DESCRIPTION = "This package includes the documentation for texlive-uplatex"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-uplatex-doc-2023.209.svn66186-54.1.noarch.rpm"
-RPM_HASH = "fdaadc98c05b5e2dfff5fb4b7a2fc8325e174be9139349a606c752dedce42d72075fdf249a9e5c2a4dc7286254671f03fcefaa6afa681a4ef789e7b8cda31f9a"
+RPM_NAME = "texlive-uplatex-doc-2026.226.svn77830-60.2.noarch.rpm"
+RPM_HASH = "c8c20b713927887ba7ac31ff4cb6bd39ece20063ee0e49425b0e16f76cdb228f898ca3b0736fc8dc38b8afc41ac91dd93329a910fcf4523da74e91f58932a787"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-uplatex-doc-ja \

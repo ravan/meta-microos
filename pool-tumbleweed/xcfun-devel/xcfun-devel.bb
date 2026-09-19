@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "2.1.1"
 
-RPM_NAME = "xcfun-devel-2.1.1-1.11.aarch64.rpm"
-RPM_HASH = "8e2af78d5aef1d701cb79ac84f29bbb3fd5cb04f56c95c43c9fc5b8f0ffc4c867425f2c89e6d34bb2617afb0636c7050bc74d79ceb6339dc1de3d0af7a14d019"
+RPM_NAME = "xcfun-devel-2.1.1-1.22.aarch64.rpm"
+RPM_HASH = "fa6de0a6311426d6b86599ec8b6b70432b7484e0b11840b40cac9c202e2eeda774dc5e078ff4f60a75dd62f0befceeb45b80fb5d8852517984f1cbfacc15f053"
 
 RPROVIDES:${PN} += "cmake-XCFun \
 xcfun-devel"

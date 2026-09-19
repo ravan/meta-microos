@@ -35,15 +35,15 @@ transformation: \
   scramble_case:    'gET wHaCkY'  (or something similar)"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.5"
+PV = "1.500.0"
 
-RPM_NAME = "perl-Text-Capitalize-1.5-1.17.noarch.rpm"
-RPM_HASH = "d3a42d2ef7604f25a38f04110072d512bda737d6b31b5a830cf8a73e97aad8dfe01e0c24c5081bc1cedf69f202bbfb7e011f69394e72a330f18aa6737f371a9c"
+RPM_NAME = "perl-Text-Capitalize-1.500.0-1.9.noarch.rpm"
+RPM_HASH = "b170384a9f28e82183c9e8f8b8e0ad856af487060975600ff59d757024b94d678ee2bee550284e3cb170e7a427de79bcbddb5aeafc3433d36b4c21301e619ba9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Capitalize \
 perl-Text-Capitalize"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

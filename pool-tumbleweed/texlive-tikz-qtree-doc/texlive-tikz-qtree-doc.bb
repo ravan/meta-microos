@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-qtree"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-qtree"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.2svn26108"
+PV = "2026.226.1.2svn26108"
 
-RPM_NAME = "texlive-tikz-qtree-doc-2023.209.1.2svn26108-53.1.noarch.rpm"
-RPM_HASH = "e9c14516911d604d1b519c65124119e9389c2b66cae296246e9869558c33b55fa5c9993c9f6dca36f4dfce095966170c1ccba5d9ed7701efcf15ad026ef6a951"
+RPM_NAME = "texlive-tikz-qtree-doc-2026.226.1.2svn26108-59.2.noarch.rpm"
+RPM_HASH = "3dfd9ada1cd4a410757cc0e47dccd7fb1d8580aad9a666ae1e45291646d60502f32844bfbbc39bb8dc9c1c57bc88f186cec8fb0c468e697c6755748c2d469f92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-qtree-doc"

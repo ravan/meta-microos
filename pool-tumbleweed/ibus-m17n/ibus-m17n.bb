@@ -3,22 +3,20 @@ DESCRIPTION = "M17N engine for IBus input platform. It allows input of many lang
 the input table maps from m17n-db."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.20"
+PV = "1.4.37"
 
-RPM_NAME = "ibus-m17n-1.4.20-1.1.aarch64.rpm"
-RPM_HASH = "dbdbab43564d95787d69a3763cc6bc594831cd664dce4dd7ee2f33dc26600e31fab7d1410e47b888c89efb74a21b7e918b54d30e9a8ad0b0d649d0fbb156b7c0"
+RPM_NAME = "ibus-m17n-1.4.37-1.4.aarch64.rpm"
+RPM_HASH = "1044a5f2faf9b056cf9b5d771c7945a25b3c194f2105950cff278e3f5cd07bf925ab1a05f7712e37bff02cfccef388b1855bfd98c57e807cbe156bbdda1b4b91"
 
 RPROVIDES:${PN} += "ibus-m17n \
 locale-ibus-am;ar;as;bn;fa;gu;he;hi;ja;ka;kk;kn;ko;lo;ml;my;ur;ru;vi;zh"
 
 RDEPENDS:${PN} += "ibus \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgdk-3.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0 \
+libgtk-4.so.1 \
 libibus-1.0.so.5 \
 libm17n-core.so.0 \
 libm17n.so.0"

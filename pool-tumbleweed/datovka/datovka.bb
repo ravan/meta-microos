@@ -4,16 +4,15 @@ Data Box Information System) SOAP services as defined in Czech ISDS Act \
 (300/2008 Coll.) and implied documents."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.22.1"
+PV = "4.29.4"
 
-RPM_NAME = "datovka-4.22.1-1.1.aarch64.rpm"
-RPM_HASH = "e4d8fb4597008981ad6527a8df3d794c0541743a86f01bdf7e1e4e878472477017d705a6aedb96f97645441545f68139648fad638d80aeb920c008553e76568d"
+RPM_NAME = "datovka-4.29.4-1.1.aarch64.rpm"
+RPM_HASH = "298c3d11cd527b5dc64dd2be06fa0102f1b81b616336c0e31159c568b9e7536cfe2e8621adac912fa6d57215bf518329c47c231c4e5174e0c413590f6672142c"
 
 RPROVIDES:${PN} += "datovka"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \
-libQt6Core5Compat.so.6 \
 libQt6Gui.so.6 \
 libQt6Network.so.6 \
 libQt6PrintSupport.so.6 \
@@ -24,10 +23,10 @@ libQt6WebSockets.so.6 \
 libQt6Widgets.so.6 \
 libc.so.6 \
 libcrypto.so.3 \
-libdatovka.so.4 \
+libdatovka.so.8 \
 libgcc-s.so.1 \
+libquazip1-qt6.so.1.7 \
 libstdc++.so.6 \
-libz.so.1 \
 qt6-sql-sqlite"
 
 inherit rpm

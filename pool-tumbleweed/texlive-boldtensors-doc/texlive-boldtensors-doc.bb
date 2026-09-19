@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-boldtensors"
 DESCRIPTION = "This package includes the documentation for texlive-boldtensors"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-boldtensors-doc-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "d21fae8cbab80175aa8473924adbfa68ed2a7d08f8675041595b9d3b1dd98ed25e77ee8fb66b9f5150da4f36df3b39c40360d51801ae44e22497df35c23ff4c4"
+RPM_NAME = "texlive-boldtensors-doc-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "12b6dab202a2a0e8034898dea1e21629ef91a7aeaccae7622ff96b6e8f5ef14b1e16ba1928752101e562e9f109b47de1eee5ad82bad606431f05d90221e52b19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-boldtensors-doc"

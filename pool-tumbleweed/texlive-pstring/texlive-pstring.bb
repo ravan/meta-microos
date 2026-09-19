@@ -7,10 +7,10 @@ using LaTeX or pdfLaTeX, the package uses PSTricks and pst-node \
 respectively pgf/TikZ."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn42857"
+PV = "2026.226.svn42857"
 
-RPM_NAME = "texlive-pstring-2023.209.svn42857-54.2.noarch.rpm"
-RPM_HASH = "2b933d6439f9cfef0869a951e76dfa2837156e77e64efcccebd10582fdd4844624f55419e539e6c20ee944c74ef741822203f08572ac36ecfa75672047bba444"
+RPM_NAME = "texlive-pstring-2026.226.svn42857-60.4.noarch.rpm"
+RPM_HASH = "f3bd7fa73bdb84f7d852b03f2c33875585beb26f773c2f1e261abf11d8584f8be591fc5c5cc4f2f294bd0a8dbd94ce46218f0ab90701bf9d9adac0b54e4e1e09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pstring.sty \

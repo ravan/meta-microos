@@ -6,10 +6,10 @@ has macros for particular types of boxes which are useful on \
 their own."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn39804"
+PV = "2026.226.1.0svn39804"
 
-RPM_NAME = "texlive-lroundrect-2023.209.1.0svn39804-55.1.noarch.rpm"
-RPM_HASH = "4ebb23b949d423be52ee9d6d1ee8e4b0a6a62f1e4713a369bb9e5fffbc4d5f6f037f0d04f8f41a848f26f309da10291ae67970086eac630e7f16b882bcd4e864"
+RPM_NAME = "texlive-lroundrect-2026.226.1.0svn39804-61.2.noarch.rpm"
+RPM_HASH = "36e587e865a67e1fe093c85dd1c525c2809b0bc63393eeea4d5216f20d100cfe2ee853998453a5d13ba03ce01abd86c30d6928e93d11c3bd06c33032080ab447"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lroundrect.sty \

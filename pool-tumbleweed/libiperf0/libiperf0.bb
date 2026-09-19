@@ -5,16 +5,17 @@ You can build it directly into your own program, instead of having \
 to run it as a shell command."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.14"
+PV = "3.21"
 
-RPM_NAME = "libiperf0-3.14-1.1.aarch64.rpm"
-RPM_HASH = "5eed873f3785d52a1b188d10d06b66877aa59b791dc08d444b9e3949b113a0963e3cdcd9b7b0f2c9763f38349d7088686c14efbddfa7c8d47bec9a4ad83b96fc"
+RPM_NAME = "libiperf0-3.21-1.3.aarch64.rpm"
+RPM_HASH = "c0de658eadbbcaca10a363bdb4c0f8e00c1939cb2a9c045d92879ecc291e02242615d7cb6ee90490a76270ec7b8247e0f6f2e98d38a8cf809d81569fc957b29a"
 
 RPROVIDES:${PN} += "libiperf.so.0 \
 libiperf0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libc.so.6"
+libc.so.6 \
+libcrypto.so.3"
 
 inherit rpm

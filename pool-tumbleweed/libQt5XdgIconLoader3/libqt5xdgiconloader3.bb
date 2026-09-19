@@ -2,10 +2,10 @@ SUMMARY = "IconLoader library for QtXDG"
 DESCRIPTION = "QtXDG icon loader libraries used in LXQt"
 LICENSE = "GPL-3.0-only"
 
-PV = "3.11.0"
+PV = "3.12.0"
 
-RPM_NAME = "libQt5XdgIconLoader3-3.11.0-1.3.aarch64.rpm"
-RPM_HASH = "c4094cb3deeb95e1edaf819c3fe7fdde3f0f82697dc770240cb34730ab64368772d6157531f8245b6d988e7b440227200cc11b061de5d145b5d5877aa3ad4855"
+RPM_NAME = "libQt5XdgIconLoader3-3.12.0-3.12.aarch64.rpm"
+RPM_HASH = "b8540ee2ff9d94eb08417cebad03534e57097fb118de396cf78fc22d6c567767cb66aa6e4d128a203a2a55b696ca85973f1b509fdd18ad27330d06907f17f1f9"
 
 RPROVIDES:${PN} += "libQt5XdgIconLoader.so.3 \
 libQt5XdgIconLoader3 \

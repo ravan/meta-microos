@@ -2,10 +2,10 @@ SUMMARY = "Utility to read several different streaming archive formats"
 DESCRIPTION = "This package contains the bsdtar cmdline utility."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.7.0"
+PV = "3.8.9"
 
-RPM_NAME = "bsdtar-3.7.0-1.1.aarch64.rpm"
-RPM_HASH = "d9a9bddfeee96b1b1ce0e5893364d560161768afc6ee65c635a23da910955bf3af18b930372dc7d1a3785a4a5e7fc8df4b4adbd0a7f943b4d7e04842873961b8"
+RPM_NAME = "bsdtar-3.8.9-1.1.aarch64.rpm"
+RPM_HASH = "a877207cc312970bdc0962f8ad34fe183f8c8c7b96ee4b247db2eaedc41dcded1a6f852f522516f5f7e1ddb48526ef53f404600ace805d7e7d905ed0ea2a36c5"
 
 RPROVIDES:${PN} += "bsdtar"
 
@@ -17,7 +17,7 @@ libc.so.6 \
 libcrypto.so.3 \
 liblz4.so.1 \
 liblzma.so.5 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 libzstd.so.1"
 

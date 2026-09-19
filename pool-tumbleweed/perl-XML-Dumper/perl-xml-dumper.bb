@@ -15,13 +15,13 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "0.81"
 
-RPM_NAME = "perl-XML-Dumper-0.81-69.31.aarch64.rpm"
-RPM_HASH = "37879a34e5f84116dfb9dc59a15ee4c4fdb76787b75963fb5b8e2a240a76736707c052bd5be5f3de36c1100a555f4d5d201af18a3138117526ad6a494dee0d84"
+RPM_NAME = "perl-XML-Dumper-0.81-69.46.aarch64.rpm"
+RPM_HASH = "8a9990448636df0a2909ee0faa6980aa2390d280833c766fe6085af1a457a2816df4dbd6c42e117bf75b1c4feb8ad1cd80f37c25066e3b54e7e522b1e805a872"
 
 RPROVIDES:${PN} += "perl-XML--Dumper \
 perl-XML-Dumper"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-XML-Parser"
 
 inherit rpm

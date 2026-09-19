@@ -3,15 +3,14 @@ DESCRIPTION = "mysql-xml-to-csv converts MySQL XML query results (i.e., produced
 the mysql(1) command when given the --xml flag) into a CSV file."
 LICENSE = "Apache-2.0"
 
-PV = "1.0.0"
+PV = "1.0.3"
 
-RPM_NAME = "mysql-xml-to-csv-1.0.0-1.7.aarch64.rpm"
-RPM_HASH = "624f076f03e495ffb6da63d156e70cbf89d1adde6cd0ac175235454f696034ac7320d8e3b7ac20d2b73717f7047ac7b417622d3ab080e62a18089d925fcb9e33"
+RPM_NAME = "mysql-xml-to-csv-1.0.3-1.4.aarch64.rpm"
+RPM_HASH = "705f0f4513a11814ddd27b34c5c94ceb0f1ceaab9cec6a37834f63a60272201f320e27de29e7ac1ad1ef965fe6d892e81b53786b607de119bdf07ed05a210929"
 
 RPROVIDES:${PN} += "mysql-xml-to-csv"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libexpat.so.1"
 
 inherit rpm

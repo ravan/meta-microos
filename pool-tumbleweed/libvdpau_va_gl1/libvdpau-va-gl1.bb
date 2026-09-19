@@ -12,8 +12,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.4.2"
 
-RPM_NAME = "libvdpau_va_gl1-0.4.2-3.6.aarch64.rpm"
-RPM_HASH = "dbfa02421a7a8bcfa34578289d478ee9750546c74dccdcfb117339627f44581c9b0e46a5916454c4136ecc19d9715dc42b34ab9d7733e36ffb8d0e5fba5f3065"
+RPM_NAME = "libvdpau_va_gl1-0.4.2-4.10.aarch64.rpm"
+RPM_HASH = "6a83f0fed59dd24c8e6f318d8f4305e40c6b6ae8883244379f1dc8890a6b3f786b223351cab29ffc4bdcee221c734c6207e83645f5c2b3a9e3823ecfd9c86dbd"
 
 RPROVIDES:${PN} += "config-libvdpau-va-gl1 \
 libvdpau-va-gl \

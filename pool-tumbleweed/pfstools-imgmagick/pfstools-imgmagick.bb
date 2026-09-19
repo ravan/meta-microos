@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "pfstools-imgmagick-2.2.0-3.16.aarch64.rpm"
-RPM_HASH = "ad4a3a41f0b8ba322aefc03ecd99a126d069c8fb53eb8ca08ee47f293623bb71f88cf9e8068a58c489fab4f080a7a447c4ec53d67f11c73c65bb56b7d10d2531"
+RPM_NAME = "pfstools-imgmagick-2.2.0-5.10.aarch64.rpm"
+RPM_HASH = "9b2e0fe843df1772a20e7a0de48bac838c3ce8716fc332a4d527bce2f45ab5b274c0ea4e356ce74d279237ef9a0f7c40d26e0dde20dc679a57143d6bd1fcd035"
 
 RPROVIDES:${PN} += "pfstools-imgmagick"
 

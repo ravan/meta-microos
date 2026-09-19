@@ -2,10 +2,10 @@ SUMMARY = "Package provides recommended R-boot"
 DESCRIPTION = "This packages provides R-boot, one of the recommended packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.3.28"
+PV = "1.3.32"
 
-RPM_NAME = "R-boot-1.3.28-46.1.aarch64.rpm"
-RPM_HASH = "c2ab80d54969a2564fee83bec35a63a5b2892a30d33d01da19b517013f8f9bc7a469447aa85f95405f3fa019427706266ddb6bf24286e09f347cd5a0822a1152"
+RPM_NAME = "R-boot-1.3.32-58.3.aarch64.rpm"
+RPM_HASH = "777b2ef9c61cd1328683752951774f61ae18a7757ce75398687f4858e0e4a53769cb55b015d9e5a8fe26d8a99792131a1a59af35578bf80eaf7003c3313e83b7"
 
 RPROVIDES:${PN} += "R-boot"
 

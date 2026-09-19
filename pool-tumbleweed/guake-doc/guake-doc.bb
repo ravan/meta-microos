@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.10"
 
-RPM_NAME = "guake-doc-3.10-1.1.noarch.rpm"
-RPM_HASH = "af39d4716cee94528bfb57f26a10ba4ad9ac8704ea995889d7b9fc7415d23d1800b991460f4cf976abe53f208c8ecec11e8f4efe4fc657739e8cd013abe62811"
+RPM_NAME = "guake-doc-3.10-7.5.noarch.rpm"
+RPM_HASH = "5f4b912222f06c2ef0f2b256d80b3343476e3579f790954919473f20be406bff36cd6545c400fbaa927aa6807996084a23ac4c2f40cb9caf6c054a34e507b090"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guake-doc"

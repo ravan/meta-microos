@@ -3,10 +3,10 @@ DESCRIPTION = "This is an ad-hoc class for typesetting articles for the ICSV \
 conference, based on the earler active-conf by the same author."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn15878"
 
-RPM_NAME = "texlive-icsv-2023.209.0.0.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "e0d410aaa83c3b957d672b8a65b133e4a54cf6f8b81929cfe450b5406a571664780a1876e223447cd9f7d69a33f5b585f077ed911a97f9d29d25c7171c3df611"
+RPM_NAME = "texlive-icsv-2026.226.0.0.2svn15878-60.2.noarch.rpm"
+RPM_HASH = "4fa7dad341ba96518d0012875c652cea97ab52daec82cb6659b6a07bcbc195ecf717ab0cb8fc9a994cedc49c5a811e8cdbf20101940d333c9e91f0ed1efb893f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-icsv.cls \

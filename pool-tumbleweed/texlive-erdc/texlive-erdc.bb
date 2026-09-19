@@ -6,10 +6,10 @@ Corps of Engineers, Engineer Research and Development Center, \
 3909 Halls Ferry Road, Vicksburg, MS 39180-6199."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-erdc-2023.209.1.1svn15878-54.2.noarch.rpm"
-RPM_HASH = "27f491afb7aa3147d47c51bcec32b5ed1290570b6b4decec84f95eac18813ccfae1d594e9713382a3aa346e14ca473fcba0407e30501ee9493bb6db7ba77d51e"
+RPM_NAME = "texlive-erdc-2026.226.1.1svn15878-61.4.noarch.rpm"
+RPM_HASH = "6cf786fae3d1003e8c8f4d459c8a37b8dfb5bcc536e529156f3ce34b5d9fecca7484c03a2b4a9755e776710f9c0faef781360ca7e4fd07da0f87a974155a9f6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-erdc.cls \

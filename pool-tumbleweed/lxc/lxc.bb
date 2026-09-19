@@ -2,10 +2,10 @@ SUMMARY = "Userspace tools for Linux kernel containers"
 DESCRIPTION = "LXC is the well-known and heavily tested low-level Linux container runtime."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.3"
+PV = "7.0.0"
 
-RPM_NAME = "lxc-5.0.3-1.1.aarch64.rpm"
-RPM_HASH = "b7008a8ca639ae76b52edf197bc60b36d017d707f5e9eb286f531f0a1d23e1e0396bd59b3e23279d2708153e4482e9e57433312598c5bb83dab7f2b9884b81c9"
+RPM_NAME = "lxc-7.0.0-1.3.aarch64.rpm"
+RPM_HASH = "777e1d5f3b7741838035fa3c2db0dfdb6db547ba9996d3f3cdd41763b79f0e7e264ed37193de0970a165cd0f6c4c6e409260e278aa267a118c77af5e02fdf2fb"
 
 RPROVIDES:${PN} += "config-lxc \
 lxc"
@@ -17,11 +17,11 @@ libapparmor.so.1 \
 libc.so.6 \
 libcap-progs \
 libcap.so.2 \
+libdbus-1.so.3 \
 libgcc-s.so.1 \
 liblxc.so.1 \
 libseccomp.so.2 \
 libselinux.so.1 \
-libsystemd.so.0 \
 lxcfs \
 lxcfs-hooks-lxc \
 rsync"

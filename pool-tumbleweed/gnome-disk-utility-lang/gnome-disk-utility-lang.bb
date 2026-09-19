@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-disk-utility"
 DESCRIPTION = "Provides translations for the 'gnome-disk-utility' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "46.1"
 
-RPM_NAME = "gnome-disk-utility-lang-44.0-2.1.noarch.rpm"
-RPM_HASH = "ed88aaf7d370a6e83caff12b6ae49d7f75b58ba42d91717e4c52d12c97500a0883dcd9aff5e9a4dea58f41770600d99d01954872ebe2f67166c99f98a92b47ba"
+RPM_NAME = "gnome-disk-utility-lang-46.1-3.4.noarch.rpm"
+RPM_HASH = "5d99b0f603dc9cb33ebed73cbefa83be8598168a66ed716979eb61adfedd023553594d603b06754848ec79a5acfd196baebe837d9cb6598cad94c69fc3a34978"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-disk-utility-lang \

@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-with-font-exception"
 
 PV = "0.2.1"
 
-RPM_NAME = "thessalonica-tempora-lgc-ttf-fonts-0.2.1-11.18.noarch.rpm"
-RPM_HASH = "ae0a3b55f794aa21f76778be32353d39f05f4ed319796a1026cd345e81cd2000e1cb56400e4e5361c370afa4ae30f35e4c07ad5ea4f4230fefa9adec603ae99a"
+RPM_NAME = "thessalonica-tempora-lgc-ttf-fonts-0.2.1-11.26.noarch.rpm"
+RPM_HASH = "363cc7e1bdb5a119373b4c2049ef233a8fafae0436696a9398017be8ae4897cc03e7b51c48c0dd5fcfe8ae3f6e8bd2b664cf0c6381ff01672b0bd4b1804d4393"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tempora-lgc-fonts-ttf \

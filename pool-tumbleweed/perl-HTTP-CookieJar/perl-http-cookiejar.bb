@@ -7,17 +7,17 @@ use of HTTP::Request and HTTP::Response objects. An LWP-compatible adapter \
 is available as HTTP::CookieJar::LWP."
 LICENSE = "Apache-2.0"
 
-PV = "0.014"
+PV = "0.14.0"
 
-RPM_NAME = "perl-HTTP-CookieJar-0.014-1.4.noarch.rpm"
-RPM_HASH = "8d1e9286add934cdab1ee080a39f532a37b848cf4bd2e6791c218dc2f8417d2b897d40acc803e7dffb1e37f601f5166e5808db0cb3ff76883944f388450ec450"
+RPM_NAME = "perl-HTTP-CookieJar-0.14.0-2.6.noarch.rpm"
+RPM_HASH = "c60a1593e029fb51cf13704a27b68ab73eed99d66028b36e28985f3f07395231178c109011ba103ad8a6c868a5815f345fdfee922fa5dbe067e778bc171042c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--CookieJar \
 perl-HTTP--CookieJar--LWP \
 perl-HTTP-CookieJar"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTTP--Date \
 perl-Time--Local \
 perl-parent"

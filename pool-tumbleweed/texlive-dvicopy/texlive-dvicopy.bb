@@ -1,14 +1,16 @@
-SUMMARY = "Copy DVI files, flattening VFs"
-DESCRIPTION = "DVICOPY is a utility program that allows one to take a DVI file \
-that references composite fonts (VF) and convert it into a DVI \
-file that does not contain such references. It also serves as a \
-basis for writing DVI drivers (much like DVItype)."
+SUMMARY = "Copy DVI files while expanding VF (virtual font) references"
+DESCRIPTION = "DVIcopy is a utility program that allows one to convert a DVI \
+file that references composite fonts (VF) into an equivalent \
+DVI file that does not contain such references. It also serves \
+as a basis for writing DVI drivers (much like DVItype). The \
+ODVIcopy variant does the same job for Omega/Aleph's output, \
+modified to support their .ofm font format."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.5svn66186"
+PV = "2026.226.1.6svn77830"
 
-RPM_NAME = "texlive-dvicopy-2023.209.1.5svn66186-54.2.noarch.rpm"
-RPM_HASH = "b0a231dce654943cbdc23b3962a8cb559708c4a75d69e01d3fc487118ddaa46f744d12df50d8dc991e0cdfdce5c45ac974d10ffea0b17d463102660c8e1777e1"
+RPM_NAME = "texlive-dvicopy-2026.226.1.6svn77830-61.4.noarch.rpm"
+RPM_HASH = "c3a31ad4ab2ceafcc5f2ce6ac6a2147969c425f8128ee727dddbffd3bcb22f58c9dca27eed41a07a8102da868050b77bdde9a0eee97766cca744db43517e1e06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvicopy.1 \

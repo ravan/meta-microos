@@ -15,8 +15,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "3.4"
 
-RPM_NAME = "t-prot-3.4-1.16.noarch.rpm"
-RPM_HASH = "6aff44419d2fb81dcbfc816cdfa53f4f737ee8a712580a1db106512e51cb8deb0e924195b7d01e2409c641cdf607a08b4b09105c6b327291b4600d230f96a136"
+RPM_NAME = "t-prot-3.4-1.24.noarch.rpm"
+RPM_HASH = "0e61ece2ecd4dc6b381def99c18a79c6c2bc241f463d4d8acb7464aaf6fafca4ce16fadbcb7562dea3aa3ee905f6395125441676c6e4d3b309085b5794e48d19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "t-prot"

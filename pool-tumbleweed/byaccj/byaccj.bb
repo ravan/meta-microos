@@ -8,12 +8,12 @@ been written over the years. This is the standard YACC tool that is in \
 use every day to produce C/C++ parsers. I have added a '-J' flag which \
 will cause BYACC to generate Java source code, instead. So there \
 finally is a YACC for Java now!"
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
 PV = "1.15"
 
-RPM_NAME = "byaccj-1.15-2.8.aarch64.rpm"
-RPM_HASH = "fd0980ed01327701280bc91f777fba819254b36b5a9046c130d013e7ed40aaacbc1cbd5b8b6ebeb2392c5217c4babba488fb0dd63c7a0dcdf370b37e91e8a159"
+RPM_NAME = "byaccj-1.15-5.3.aarch64.rpm"
+RPM_HASH = "9e9968c2a94b0cba8c668dde8acef5767dfb01bfb14c07263dc1482c7e52f0b6db4d56004ea6aad006ad1d178a81856c95ee3eb693163d21358ce614615452a5"
 
 RPROVIDES:${PN} += "byaccj"
 

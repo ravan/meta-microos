@@ -7,8 +7,8 @@ LICENSE = "CC-BY-SA-4.0 & GPL-2.0-only"
 
 PV = "3.95.0.11"
 
-RPM_NAME = "xfwm4-theme-adapta-3.95.0.11-3.5.noarch.rpm"
-RPM_HASH = "057bcd20a95f877200a440376414ce429e4baec66e6a9282d89a8d317325b281435f67fba661e57d3ffd919204f37fbfc5ab6132d745dd16c4294ba36892a7ca"
+RPM_NAME = "xfwm4-theme-adapta-3.95.0.11-5.4.noarch.rpm"
+RPM_HASH = "ddb063a2bc38e3e922581918e86b36ebff213c84b56c460247d34f0eef8f7426154a2ca8d5946d43345348be19d5f18cfaf340599094ce7edb5a12a4b5de29a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xfwm4-theme-adapta"

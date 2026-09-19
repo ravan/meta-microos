@@ -8,10 +8,10 @@ package also needs the l3kernel and l3packages bundles from the \
 LaTeX 3 experimental distribution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3asvn56886"
+PV = "2026.226.0.0.3asvn76924"
 
-RPM_NAME = "texlive-modiagram-2023.209.0.0.3asvn56886-55.1.noarch.rpm"
-RPM_HASH = "c2477382bde294bc226fd3bb71814adb4139c91302f7fab7977b24a441705164acaaededd397c8e9ae1b35a0fd19f7ad45d5457f3abdef076a433dbcdec1f6ef"
+RPM_NAME = "texlive-modiagram-2026.226.0.0.3asvn76924-61.2.noarch.rpm"
+RPM_HASH = "3cad46c836295e24193ddd477d19a34de4870809a12e52b0e7467ca3b81044fc609a4e33f2a8fd0e519656d2c5e8b8001d54d2b052127395ab5388b9af8f6723"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-modiagram.sty \

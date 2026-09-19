@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.7"
 
-RPM_NAME = "libvorbis-devel-1.3.7-4.1.aarch64.rpm"
-RPM_HASH = "37475b83899a1d62ca3ac5363e0d6dfb89f192890be6208f6f7fe77f2c8c92b27f27b1b7974ddc31271028efb3d08795d8d5c48e7ed3aed7a547c85fd13ced48"
+RPM_NAME = "libvorbis-devel-1.3.7-5.10.aarch64.rpm"
+RPM_HASH = "86cac4c21c49b8ec6d856c8bb8f6617c07d5a4140d64836b697777b5adf60f3a5381b1015a75038d7af8b2d92ddc5725b70d393466c3191e178177511b6c091f"
 
 RPROVIDES:${PN} += "libvorbis-devel \
 pkgconfig-vorbis \

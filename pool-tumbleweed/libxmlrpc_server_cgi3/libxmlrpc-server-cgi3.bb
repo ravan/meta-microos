@@ -3,10 +3,10 @@ DESCRIPTION = "XML-RPC is a lightweight RPC protocol based on XML and HTTP. This
 package is used by XML-RPC clients and servers written in C and C++."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "1.54.06"
+PV = "1.64.03"
 
-RPM_NAME = "libxmlrpc_server_cgi3-1.54.06-1.4.aarch64.rpm"
-RPM_HASH = "07685616df43f83f012974b2ee00a757a6757cc0575e2e4bfac7c7385e229e9e2f59d7abb0ca546c09e038d5c045afdbc3ba6ebab517dd8fab666b8db4832e6a"
+RPM_NAME = "libxmlrpc_server_cgi3-1.64.03-2.1.aarch64.rpm"
+RPM_HASH = "43296f44a5b66a8e11253d9158eb249b1bf4f671b6dfbb83c1afa742782b8657600c6ac51c53fad026b65c5cbf894be39437a23d0667e9b97a93b382b689845f"
 
 RPROVIDES:${PN} += "libxmlrpc-server-cgi.so.3 \
 libxmlrpc-server-cgi3"

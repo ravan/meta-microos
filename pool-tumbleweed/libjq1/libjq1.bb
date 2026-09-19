@@ -2,10 +2,10 @@ SUMMARY = "Library for a lightweight and flexible command-line JSON processor"
 DESCRIPTION = "Library for a lightweight and flexible command-line JSON processor."
 LICENSE = "CC-BY-3.0 & MIT"
 
-PV = "1.6"
+PV = "1.8.2"
 
-RPM_NAME = "libjq1-1.6-3.4.aarch64.rpm"
-RPM_HASH = "c2e0aa1ccc48bec8396e4d49fb9bfb02d617a7d0aaf2afdcc911b73e9e9364270bd47598474c32130321fbe1fb3c35178109593933e740166cc22c4fb87440f4"
+RPM_NAME = "libjq1-1.8.2-2.1.aarch64.rpm"
+RPM_HASH = "a120d29379db552fd42f17f9067170429330a79bc35506ca3a6c674ee1afb8aa1eaa0232a04b36f2642bcc51526a6a0a1816b7030946fc349673c0df5707a20f"
 
 RPROVIDES:${PN} += "libjq.so.1 \
 libjq1"

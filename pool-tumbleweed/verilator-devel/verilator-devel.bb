@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for Verilator, a compiling Verilog HDL simulato
 It includes header files and a pkgconfig file."
 LICENSE = "Artistic-2.0 | LGPL-3.0-only"
 
-PV = "4.228"
+PV = "5.038"
 
-RPM_NAME = "verilator-devel-4.228-1.4.noarch.rpm"
-RPM_HASH = "2c5967d3e8ae14b29622331cda109b4e8269613a3e1eda4e398084818b9f7230fbdf29d7ca6517d2bcb4372b911fcd18eb982928b468bf4b71dd6c4e7191d4f0"
+RPM_NAME = "verilator-devel-5.038-1.6.noarch.rpm"
+RPM_HASH = "b359dfff3d843dcdb6bf5f25e0c17d9f5250d7dbb69082e1caa3d0bd07ad109c5c2da22aa2c396d2965610c362e40d483331d8d6206f2641be854e9a5cf079c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-verilator \

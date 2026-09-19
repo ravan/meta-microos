@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.26"
 
-RPM_NAME = "ladspa-caps-0.9.26-1.12.aarch64.rpm"
-RPM_HASH = "b2fb53655e6f6ade1034d88fe01e2bd75e013b17bd166b9204fe8a5a3a4f20ef5474451a9727c9c1e4100e9c36cc2d2c653a6a4d6b6133aa9014dfc5a98aaab1"
+RPM_NAME = "ladspa-caps-0.9.26-2.10.aarch64.rpm"
+RPM_HASH = "f6cb598deff09267b2834eb3ab3dab3d38352b1b7efac381b377290798fcfee8e813eb89a41e28002d4a0a6fed388174369c114a6af8c372bd658bfb273381a2"
 
 RPROVIDES:${PN} += "ladspa-caps"
 

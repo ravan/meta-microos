@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "libjaylink-devel-0.3.1-1.3.aarch64.rpm"
-RPM_HASH = "60c0e124946be596f9d39c9a4b2adfaae5f302f01f4b0439a4c167c0cf638620a6987ee99b354cecb3c164c28795450a4c8c035358ceb610798f777e8f57d1fe"
+RPM_NAME = "libjaylink-devel-0.3.1-1.13.aarch64.rpm"
+RPM_HASH = "570979e7cd760010d4eff1b981cc60833aabc678bdc8e85f326e6d757e0945879bfb902e283c0ce4f0881d24daca923e0c6bf030cb33c7dec994827e3f3d4f08"
 
 RPROVIDES:${PN} += "libjaylink-devel \
 pkgconfig-libjaylink"

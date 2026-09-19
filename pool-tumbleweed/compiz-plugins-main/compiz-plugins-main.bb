@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-plugins-main-0.8.18-1.16.aarch64.rpm"
-RPM_HASH = "e7a492b71c85686cc93a8581091430e1183e7681a11de8f7a94dd516d2ed286b3feab7a47cbd5192ba8a4d73c1cc007b0993fb251ffa0261857a85854d25ec7c"
+RPM_NAME = "compiz-plugins-main-0.8.18-2.8.aarch64.rpm"
+RPM_HASH = "f913479338ebce3a6146981f36894705c576ff924a376f8e54f37511521914052e9406a247cefd7c53e461f6ac655696431364942d7446b694f52de0c2b1891c"
 
 RPROVIDES:${PN} += "compiz-plugins-main \
 libanimation.so \
@@ -51,6 +51,6 @@ libjpeg.so.8 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libstdc++.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

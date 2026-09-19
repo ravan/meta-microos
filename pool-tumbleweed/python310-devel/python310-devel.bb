@@ -10,10 +10,10 @@ This also includes the Python distutils, which were in the Python \
 package up to version 2.2.2."
 LICENSE = "Python-2.0"
 
-PV = "3.10.13"
+PV = "3.10.21"
 
-RPM_NAME = "python310-devel-3.10.13-1.1.aarch64.rpm"
-RPM_HASH = "bf391bd4edd2d13c5ab3fe2672f01bb694c1c62d93f026de660abecd7f69d00d01a294b8cb61da7e6ec47c9d01648a44b0869aba266a122bc6fbb9c78a6863fa"
+RPM_NAME = "python310-devel-3.10.21-1.1.aarch64.rpm"
+RPM_HASH = "9e6146fc701c6e6545dd9770bdfc8a6b6fae7d7c5e06ed5e3384e41188bf4f583daa7b90cc639f996e69cf86334f9bb46f4b2f42e4b47a4ed075a14177545e69"
 
 RPROVIDES:${PN} += "pkgconfig-python-3.10 \
 pkgconfig-python-3.10-embed \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2"
 
-RPM_NAME = "ghc-data-clist-doc-0.2-2.3.noarch.rpm"
-RPM_HASH = "540b51e26d7738eb2e0e8cea23448acc274c48d98facd7d212f2558bfbec1a41237b7839a56b2be94a71b8bc364dbec633014f7dd335aa0eae35e45121f78150"
+RPM_NAME = "ghc-data-clist-doc-0.2-3.17.noarch.rpm"
+RPM_HASH = "0f535927d9dcdef15f57286e8abf8170e73b63dcc453d3cda040b5791c852e83973b109f12ada0a62c51053f3e0310831e84e26e6d7a025dac7d7c6fcb41ef43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-data-clist-doc"

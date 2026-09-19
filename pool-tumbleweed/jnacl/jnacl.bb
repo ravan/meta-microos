@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "jnacl-1.0.0-2.1.noarch.rpm"
-RPM_HASH = "d893635aaf0569e9fa11045fd458fe363fce3bb92c0c7139104e6e0a48e5334d5fecf45c3a40cd44e4c20faba512e8a3572933f4fc0efccba90de18de551836e"
+RPM_NAME = "jnacl-1.0.0-5.7.noarch.rpm"
+RPM_HASH = "35085f867e56b2ea2011cbfbac41e3753efb23afab05efc8caeace967d742ec429ea21775351ec446fb52ddcf767fe3d6ba5cd1d65fab7bb1c9327eb4c7f49d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnacl \

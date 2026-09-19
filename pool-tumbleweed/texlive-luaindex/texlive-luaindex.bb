@@ -3,10 +3,10 @@ DESCRIPTION = "Luaindex provides (yet another) index processor, written in \
 Lua."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.1bsvn25882"
+PV = "2026.226.0.0.1bsvn25882"
 
-RPM_NAME = "texlive-luaindex-2023.208.0.0.1bsvn25882-53.1.noarch.rpm"
-RPM_HASH = "da234b1c693ddc9b6b9d5da0985adca67b283f5733a8cb0d6608d4336653221ba890ec5f45bd34f26778d85c06dcfc7112dd36319b3ba92d523ec2bbc72da20b"
+RPM_NAME = "texlive-luaindex-2026.226.0.0.1bsvn25882-59.2.noarch.rpm"
+RPM_HASH = "f3d3ccfe976b231a8b5ea736d1f6119260bb7df322b2616cfc4de0886c90fd785824e73c0ad6c7986b1dc6e83220d7defae9c09499a7dae70f946f95e2176de1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luaindex.sty \

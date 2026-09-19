@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-worldflags"
 DESCRIPTION = "This package includes the documentation for texlive-worldflags"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn59171"
+PV = "2026.226.svn68827"
 
-RPM_NAME = "texlive-worldflags-doc-2023.209.svn59171-54.1.noarch.rpm"
-RPM_HASH = "9da3c6588e7ce5d73be7f5628e0f2cc6a6f000811d316905c2be9cb5d832ed71648b05f5902a226804f6b62e6b0622020d2c66f91bf1417305c6e7c6b80c5a31"
+RPM_NAME = "texlive-worldflags-doc-2026.226.svn68827-60.2.noarch.rpm"
+RPM_HASH = "034e27effada17f84955ce072db864ce01ff0011988165e4c01c281aadcae495b77e811a47044441951eb2102e7c575bc13edd085aff70af6151b2c2fac0fa3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-worldflags-doc"

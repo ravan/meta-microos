@@ -17,29 +17,29 @@ Features: \
  * Support for extension protocol"
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-bittorrent-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "249adc2f8e88ac92623ed1edcd7276078556400da3a4edf10ced9e4ed648264aca0a2489c3c02f5a22219de321c00f17c72488a7e13bfdf5a7f5f5345eff57d7"
+RPM_NAME = "leechcraft-bittorrent-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "b282a516baac81913622768bf6ec2961587e8cc0c8bfa4ddbc3a8745b2ec6a6c99eed83afd4a5582d9d422d44d38e8d8f993876dd723c90a25251ce4efd362e8"
 
 RPROVIDES:${PN} += "leechcraft-bittorrent \
 libleechcraft-bittorrent.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libcrypto.so.3 \
 libgcc-s.so.1 \
-libleechcraft-util-gui-qt5.so.0.6.75.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-shortcuts-qt5.so.0.6.75 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-tags-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-util-gui-qt6.so.0.6.75 \
+libleechcraft-util-models-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-shortcuts-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-tags-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libm.so.6 \
 libmaxminddb.so.0 \
 libstdc++.so.6 \

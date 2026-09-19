@@ -4,10 +4,10 @@ DESCRIPTION = "TVM is a deep learning compiler stack for CPUs, GPUs, and special
 This package contains the headers."
 LICENSE = "Apache-2.0"
 
-PV = "0.11.0"
+PV = "0.24.0"
 
-RPM_NAME = "tvm-devel-0.11.0-2.7.aarch64.rpm"
-RPM_HASH = "bd8d6906e06dcbe3f22fc290cb10d912bd87fce4ae9843e025ae45bbbf645b04f49f4188e73432f25d170992c79610624dc182813f777bf06054a0233c35e25f"
+RPM_NAME = "tvm-devel-0.24.0-2.3.aarch64.rpm"
+RPM_HASH = "616c64299f5322dcff5d65b07e6026ada3b4f0d600456be183b3e0ea5cc241c601dbd1642618b10d2e3b1cb0cc2f50d5aa6c9a99cd221d438686b21ff876075c"
 
 RPROVIDES:${PN} += "cmake-tvm \
 tvm-devel"

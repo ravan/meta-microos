@@ -8,13 +8,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.317"
 
-RPM_NAME = "perl-Email-MIME-Encodings-1.317-1.4.noarch.rpm"
-RPM_HASH = "b75e2b44cbe02e56e0c3c84cdca6b6bfd4d67a4860184388c39ad5518a15e9b517389e7c0c09b2d20018cc0a6ecb817de349480d17542e0b17aff68bb1fe2e38"
+RPM_NAME = "perl-Email-MIME-Encodings-1.317-1.18.noarch.rpm"
+RPM_HASH = "068214fb099c526f0b5ca828972d2fde004bca7b8a188edfef08f3d07e7c8b21d7265f68edef21244bf86b8b0e13996a9f3ce90e7b0e401fca54bdc901a9a67d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--MIME--Encodings \
 perl-Email-MIME-Encodings"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

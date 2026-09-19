@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-brightness-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "4f7d5e618105de6f0e28d642d15295e2fefc0df3a15d342db671a9cc8b53b638ffab5c143062aa0bce8b3eaa58efe6a5da3c5c07d79f6227c980498a4413144f"
+RPM_NAME = "bumblebee-status-module-brightness-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "a247161fb7aee8666d2db2c5bc3fd85a427ac4d978c5ba416394f2615949e6a07dbfaae02afd5f5bfe1184194845d69338f0980afd81d710677b4c7723c649ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-brightness"

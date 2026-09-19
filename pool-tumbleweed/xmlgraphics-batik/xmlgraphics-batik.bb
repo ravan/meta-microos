@@ -4,15 +4,13 @@ to use images in the Scalable Vector Graphics (SVG) format for various \
 purposes, such as viewing, generation or manipulation."
 LICENSE = "Apache-2.0"
 
-PV = "1.15"
+PV = "1.18"
 
-RPM_NAME = "xmlgraphics-batik-1.15-3.1.noarch.rpm"
-RPM_HASH = "b2fa5d76fe1200c6dfa8bb7def50f8207baaa3902a3acb8f1cedac4046d36bec9d6bbfa7bdc750f5d9a00e4d2465c9dda492b69e918c857256da26a6de4e6481"
+RPM_NAME = "xmlgraphics-batik-1.18-1.7.noarch.rpm"
+RPM_HASH = "152fe4244022f93c3300f1d9d500cc3e011a0daca63480770a8a2ef41411e9101d2b98196bb89f327d0f44dbc2b085622c1f490dcdc89b2612c24a163daef624"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik \
-mvn-org.apache.xmlgraphics-batik-all \
-mvn-org.apache.xmlgraphics-batik-all-pom- \
 mvn-org.apache.xmlgraphics-batik-anim \
 mvn-org.apache.xmlgraphics-batik-anim-pom- \
 mvn-org.apache.xmlgraphics-batik-awt-util \
@@ -37,7 +35,6 @@ mvn-org.apache.xmlgraphics-batik-i18n \
 mvn-org.apache.xmlgraphics-batik-i18n-pom- \
 mvn-org.apache.xmlgraphics-batik-parser \
 mvn-org.apache.xmlgraphics-batik-parser-pom- \
-mvn-org.apache.xmlgraphics-batik-pom- \
 mvn-org.apache.xmlgraphics-batik-script \
 mvn-org.apache.xmlgraphics-batik-script-pom- \
 mvn-org.apache.xmlgraphics-batik-shared-resources \
@@ -84,6 +81,7 @@ xmlgraphics-batik"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
+mvn-org.apache.xmlgraphics-batik-css \
 mvn-org.apache.xmlgraphics-xmlgraphics-commons \
 mvn-xml-apis-xml-apis \
 mvn-xml-apis-xml-apis-ext \

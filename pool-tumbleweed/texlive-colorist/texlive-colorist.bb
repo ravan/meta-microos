@@ -13,10 +13,10 @@ Japanese, Portuguese (European and Brazilian), Russian and \
 Spanish typesetting, and also use more beautiful fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66434"
+PV = "2026.226.svn78004"
 
-RPM_NAME = "texlive-colorist-2023.209.svn66434-54.1.noarch.rpm"
-RPM_HASH = "c3a30a4e8b24e98e03e63e5cc79f6fb9bb50ae9cf7bbe80fc8abdf4eb9415272133f7819f1b0c2f5ae915a4238d83301f60d9eb8b3e519ed3f0500f5a6980ce5"
+RPM_NAME = "texlive-colorist-2026.226.svn78004-60.2.noarch.rpm"
+RPM_HASH = "7fea084b6a101676852a535d274a830264a258a2d4a61d191793aea181a7fe613a4854012917aa7cada7b538fc30613c0e5327b6114018e514fe6c12f353ae1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colorart.cls \
@@ -70,7 +70,7 @@ tex-tikz.sty \
 tex-titlesec.sty \
 tex-titletoc.sty \
 tex-ulem.sty \
-tex-wrapfig.sty \
+tex-wrapfig2.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

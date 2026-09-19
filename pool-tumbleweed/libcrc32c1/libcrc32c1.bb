@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.2"
 
-RPM_NAME = "libcrc32c1-1.1.2-1.5.aarch64.rpm"
-RPM_HASH = "3a67c4f8459b5d1ac3dd08dc571a8ab85b7b61eddca308b52b15dccfdfde14a6918deeb38ced797aa991c38c4a750166c1d745fa44922755a8eb1d804b5047b4"
+RPM_NAME = "libcrc32c1-1.1.2-2.9.aarch64.rpm"
+RPM_HASH = "e378c295ee76bf1ba4143868b81722059b8f6ab2104db470475938f90d8868aa8052d3456ff162f0f8ba2407b63f94b46ce3e487e2c7cfa907aaa35e718be060"
 
 RPROVIDES:${PN} += "libcrc32c.so.1 \
 libcrc32c1"

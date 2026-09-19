@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Luxembourgi
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-ltz-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "02174eecf39acc2ee10d17b4cd30e9e1b2da8cbc862469d467e663d8bf0e431b55df6c121e94923153fa7bff97fdd9fc0bdb1670d37fecdf37cd0b517ac61d1e"
+RPM_NAME = "tesseract-ocr-traineddata-ltz-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "fa56ce63df8bb37d0f2d0e4621496de61a36bc1c9bea3117f3873d52ea1d67fe2dcf5e28116fe6c00b167c7a389af6f6bd8c3171b9c0d9c3fabd72f50067f502"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-ltz \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-lb \
+tesseract-ocr-traineddata-ltz \
 tesseract-ocr-traineddata-luxembourgish \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-luxembourgish"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -6,10 +6,10 @@ This package contains various PKCS#11 modules, to expose keys and \
 certificates from different sources."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "42.1"
+PV = "50.0"
 
-RPM_NAME = "libgck-modules-gnome-keyring-42.1-2.4.aarch64.rpm"
-RPM_HASH = "5ee877b3de6b5462a64f6923e119d46533306903ab1816fe877c48148f9d3950a68ceda70c1c153b000e4374998cff478a7433cf6fc533b23d50127097940612"
+RPM_NAME = "libgck-modules-gnome-keyring-50.0-3.2.aarch64.rpm"
+RPM_HASH = "7fa52d332104eaa76f902c695d79e62a2d08f2f0656b4c48efce3586062601d4d8d4ef0c5331edf88dcf77b1218d956c130470cea616c5232f92ae2b45111638"
 
 RPROVIDES:${PN} += "libgck-modules-gnome-keyring"
 

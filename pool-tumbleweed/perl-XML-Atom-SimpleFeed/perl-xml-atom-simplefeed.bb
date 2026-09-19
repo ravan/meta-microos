@@ -10,13 +10,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.905"
 
-RPM_NAME = "perl-XML-Atom-SimpleFeed-0.905-1.4.noarch.rpm"
-RPM_HASH = "82ecb22b63718f360d28b7fca9b5afdba6db9068aaa49669e30217dd2e917064c070f3247cdc3f836cee946fded554a5c4238053dbc00a02d993eb36cc968ade"
+RPM_NAME = "perl-XML-Atom-SimpleFeed-0.905-1.18.noarch.rpm"
+RPM_HASH = "4bf393863f1b09abc16656f5f53ff89be0ed4203813e79372e0774bde6d8f530f9fe8f55a9059826518cf08da34bec4608d1d3d183dc9c421d12318fa56a32dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Atom--SimpleFeed \
 perl-XML-Atom-SimpleFeed"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

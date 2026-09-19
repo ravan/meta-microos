@@ -2,12 +2,12 @@ SUMMARY = "Open Source XML framework for Java"
 DESCRIPTION = "dom4j is an Open Source XML framework for Java. dom4j allows you to read, \
 write, navigate, create and modify XML documents. dom4j integrates with \
 DOM and SAX and is seamlessly integrated with full XPath support."
-LICENSE = "BSD-3-Clause"
+LICENSE = "Plexus"
 
-PV = "2.1.4"
+PV = "2.1.5"
 
-RPM_NAME = "dom4j-bootstrap-2.1.4-1.1.noarch.rpm"
-RPM_HASH = "c24ab5b4a44fb07eb53a2015ebf7ecb960a3a0c746ecb22beca532952c1f2a5736418970bdbd1d0b398e30ccae6bfddaff518ef75f4a34ea381f6a3b70a8a76b"
+RPM_NAME = "dom4j-bootstrap-2.1.5-1.4.noarch.rpm"
+RPM_HASH = "328251edaaab6753d90257097b0f099f8a0c567a9510c6a2c639e0088879f3b2cd908f23400f9de7a168243d389ddbb477bd5d3a550a610844f8e6f6262476fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dom4j-bootstrap"

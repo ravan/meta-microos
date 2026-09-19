@@ -5,8 +5,8 @@ LICENSE = "Libpng"
 
 PV = "2.5.1"
 
-RPM_NAME = "jisp2-javadoc-2.5.1-28.6.noarch.rpm"
-RPM_HASH = "1ff2d4e85e3e8c1269a85b74b23eb42dad4dcb31e893165b0b3aab9decc1dfdb459618a762fff63e242db7c6193573608d14f57c8c45be22684b790e04a97b34"
+RPM_NAME = "jisp2-javadoc-2.5.1-31.4.noarch.rpm"
+RPM_HASH = "5e2c61ea57fddff65d6933b4d821783799a4013c9b24e13aa37c8e4be55d2455f5e2019c062f1344950802f373e70158d958896b3b6f6ef84a6ed80aa7d8b2e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jisp2-javadoc"

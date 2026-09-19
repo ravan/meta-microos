@@ -6,10 +6,10 @@ timings needed to ensure that screen updates do not fall behind the \
 incoming data stream."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.09.20221229"
+PV = "1.11.20251210"
 
-RPM_NAME = "tack-1.09.20221229-19.1.aarch64.rpm"
-RPM_HASH = "0af431cdf28e74e922ecff98b0b3084c3ce64efc1cc71071eb97d69796a170033be1b057d17f395f4300d86aacbef51fe2dfee86362cd285852c0f4a61fc6dc2"
+RPM_NAME = "tack-1.11.20251210-111.1.aarch64.rpm"
+RPM_HASH = "b30efcf6203a02e4b31ec30e9cb3b4642806fa683bda318c595900306003597b27a3c34a61864ec43f93e4889756d0e1e04c0cdad7a5551ee19598ac3d2ae4d2"
 
 RPROVIDES:${PN} += "ncurses-devel-/usr/bin/tack \
 tack"

@@ -2,13 +2,16 @@ SUMMARY = "Additional fonts"
 DESCRIPTION = "The collection-fontsextra package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn64952"
+PV = "2026.222.svn77044"
 
-RPM_NAME = "texlive-collection-fontsextra-2023.208.svn64952-60.1.noarch.rpm"
-RPM_HASH = "e4645e01bb07a49ff5986d8ed5a6c88207b65ceba81e775aa23cee28cdb3500adfd749ef340c32a0398a2374829ca3da0a82a0bce759f6f7ef5dc47abfc537c5"
+RPM_NAME = "texlive-collection-fontsextra-2026.222.svn77044-68.2.noarch.rpm"
+RPM_HASH = "bfa4a11abf64d15b88ebd44ce4118cd96d00b996e52837adc93f5f3ea757c6731a600cfc8e537ea9797be09f8d2e706317d4b02df94d89efe444ba3c79ffe47c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-fontsextra"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-fontsextra \
+texlive-collection-fontsextra"
 
 RDEPENDS:${PN} += "texlive-aboensis \
 texlive-academicons \
@@ -30,6 +33,8 @@ texlive-archaic \
 texlive-archivo \
 texlive-arev \
 texlive-arimo \
+texlive-arsenal \
+texlive-arsenal-math \
 texlive-arvo \
 texlive-asana-math \
 texlive-asapsym \
@@ -41,8 +46,9 @@ texlive-augie \
 texlive-auncial-new \
 texlive-aurical \
 texlive-b1encoding \
+texlive-bahaistar \
 texlive-barcodes \
-texlive-baskervald \
+texlive-baskervaldadf \
 texlive-baskervaldx \
 texlive-baskervillef \
 texlive-bbding \
@@ -59,6 +65,7 @@ texlive-bguq \
 texlive-bitter \
 texlive-blacklettert1 \
 texlive-boisik \
+texlive-bonum-otf \
 texlive-bookhands \
 texlive-boondox \
 texlive-braille \
@@ -71,6 +78,7 @@ texlive-cantarell \
 texlive-carlito \
 texlive-carolmin-ps \
 texlive-cascadia-code \
+texlive-cascadiamono-otf \
 texlive-ccicons \
 texlive-cfr-initials \
 texlive-cfr-lm \
@@ -109,6 +117,7 @@ texlive-crimsonpro \
 texlive-cryst \
 texlive-cuprum \
 texlive-cyklop \
+texlive-cyrillic-modern \
 texlive-dancers \
 texlive-dantelogo \
 texlive-dejavu \
@@ -135,7 +144,7 @@ texlive-eczar \
 texlive-eiad \
 texlive-eiad-ltx \
 texlive-ektype-tanka \
-texlive-electrum \
+texlive-electrumadf \
 texlive-elvish \
 texlive-epigrafica \
 texlive-epsdice \
@@ -160,8 +169,12 @@ texlive-foekfont \
 texlive-fonetika \
 texlive-fontawesome \
 texlive-fontawesome5 \
+texlive-fontawesome6 \
+texlive-fontawesome7 \
+texlive-fontawesomescaled \
 texlive-fontmfizz \
 texlive-fonts-churchslavonic \
+texlive-fontscripts \
 texlive-forum \
 texlive-fourier \
 texlive-fouriernc \
@@ -170,8 +183,11 @@ texlive-frederika2016 \
 texlive-frimurer \
 texlive-garamond-libre \
 texlive-garamond-math \
+texlive-gelasio \
+texlive-gelasiomath \
 texlive-genealogy \
-texlive-gentium-tug \
+texlive-gentium-otf \
+texlive-gentium-sil \
 texlive-gfsartemisia \
 texlive-gfsbodoni \
 texlive-gfscomplutum \
@@ -202,6 +218,7 @@ texlive-ibarra \
 texlive-ifsym \
 texlive-imfellenglish \
 texlive-inconsolata \
+texlive-inconsolata-nerd-font \
 texlive-initials \
 texlive-inriafonts \
 texlive-inter \
@@ -209,13 +226,17 @@ texlive-ipaex-type1 \
 texlive-iwona \
 texlive-jablantile \
 texlive-jamtimes \
+texlive-jetbrainsmono-otf \
 texlive-josefin \
+texlive-juliamono \
 texlive-junicode \
+texlive-junicodevf \
 texlive-kixfont \
 texlive-kpfonts \
 texlive-kpfonts-otf \
 texlive-kurier \
 texlive-lato \
+texlive-lete-sans-math \
 texlive-lexend \
 texlive-lfb \
 texlive-libertine \
@@ -234,8 +255,11 @@ texlive-lineara \
 texlive-linguisticspro \
 texlive-lobster2 \
 texlive-logix \
+texlive-luciole \
+texlive-luwiantype \
 texlive-lxfonts \
 texlive-ly1 \
+texlive-lydtype \
 texlive-magra \
 texlive-marcellus \
 texlive-mathabx \
@@ -244,11 +268,14 @@ texlive-mathdesign \
 texlive-mdputu \
 texlive-mdsymbol \
 texlive-merriweather \
+texlive-metsymb \
+texlive-mfb-oldstyle \
 texlive-miama \
 texlive-mintspirit \
 texlive-missaali \
 texlive-mlmodern \
 texlive-mnsymbol \
+texlive-monaspace-otf \
 texlive-montserrat \
 texlive-mpfonts \
 texlive-mweights \
@@ -280,6 +307,7 @@ texlive-overlock \
 texlive-pacioli \
 texlive-pagella-otf \
 texlive-paratype \
+texlive-pennstander-otf \
 texlive-phaistos \
 texlive-phonetic \
 texlive-pigpen \
@@ -298,10 +326,12 @@ texlive-qualitype \
 texlive-quattrocento \
 texlive-raleway \
 texlive-recycle \
+texlive-rit-fonts \
 texlive-roboto \
-texlive-romande \
+texlive-romandeadf \
 texlive-rosario \
 texlive-rsfso \
+texlive-ruscap \
 texlive-sansmathaccent \
 texlive-sansmathfonts \
 texlive-sauter \
@@ -317,6 +347,7 @@ texlive-sourcecodepro \
 texlive-sourcesanspro \
 texlive-sourceserifpro \
 texlive-spectral \
+texlive-splentinex \
 texlive-srbtiks \
 texlive-starfont \
 texlive-staves \
@@ -358,6 +389,7 @@ texlive-yfonts \
 texlive-yfonts-otf \
 texlive-yfonts-t1 \
 texlive-yinit-otf \
+texlive-ysabeau \
 texlive-zlmtt"
 
 inherit rpm

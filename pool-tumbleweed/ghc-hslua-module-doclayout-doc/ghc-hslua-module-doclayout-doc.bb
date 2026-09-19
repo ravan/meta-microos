@@ -2,10 +2,10 @@ SUMMARY = "Haskell hslua-module-doclayout library documentation"
 DESCRIPTION = "This package provides the Haskell hslua-module-doclayout library documentation."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.2.1.1"
 
-RPM_NAME = "ghc-hslua-module-doclayout-doc-1.1.0-1.7.noarch.rpm"
-RPM_HASH = "ae690e57661551e9261ffd203541db20f5257dc99edb4e9807bbe61a5506dcefa7c36b66f490a5e0dba61109056aed91f483daa0b3854ec81fe0e9220b5c7577"
+RPM_NAME = "ghc-hslua-module-doclayout-doc-1.2.1.1-1.2.noarch.rpm"
+RPM_HASH = "88ec911083388dd18142517daa716bd7747dc9a0ae96ce09289499cfe7c10957883319c9579ece3f6be4b937403979b298a730ae6c26eb124dff452892ce8e53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-module-doclayout-doc"

@@ -1,12 +1,12 @@
 SUMMARY = "Libraries, includes and more to develop SDL-1.2 applications"
 DESCRIPTION = "This package contains files needed for development with the SDL \
 library."
-LICENSE = "MIT"
+LICENSE = "(MIT-0 | Unlicense) & Zlib & MIT"
 
-PV = "1.2.64"
+PV = "1.2.76"
 
-RPM_NAME = "sdl12_compat-devel-1.2.64-1.5.aarch64.rpm"
-RPM_HASH = "3faf0dd1845fdb69a8322193d2a45c2c2a3dd5be3656a58d6a165aa5e46db6aa3a1caad47d705dc119100481549febc91e785a47fac8c452fa6feccb94d3e768"
+RPM_NAME = "sdl12_compat-devel-1.2.76-1.8.aarch64.rpm"
+RPM_HASH = "34f6066fdf85765fcb0625f509df3cbeb17d4fc21deadeb150f9bc4fa44bff63f4982304bc765d40f0fee65d546169d2d6891053e02e52f28a0af23fc9949fce"
 
 RPROVIDES:${PN} += "SDL-devel \
 libSDL-devel \
@@ -18,7 +18,6 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
 libSDL-1-2-0 \
 pkgconfig-gl \
-pkgconfig-glu \
 pkgconfig-x11 \
 pkgconfig-xproto"
 

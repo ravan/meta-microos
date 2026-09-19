@@ -2,20 +2,20 @@ SUMMARY = "Color Chooser"
 DESCRIPTION = "This is an color chooser application by KDE."
 LICENSE = "MIT"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kcolorchooser-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "935c68ce2bdcc9658708623b24f85629987759ac66e46d26c710f6d1096dcf9b407994bc8fc91d43ad092e6419aed597f88b9f9c6a61fb11de9cd8dc7e865827"
+RPM_NAME = "kcolorchooser-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "33bae9c1b10b22115a2cda73ca30ddebe1399a1df513539e433707c443397ae0f6cef2f213eb9296cf21f8ca7de942f83bc5809153610535c668a0ac600f4109"
 
 RPROVIDES:${PN} += "kcolorchooser"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

@@ -9,16 +9,17 @@ This package provides the GObject Introspection bindings for \
 libupower-glib."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.90.2"
+PV = "1.91.3"
 
-RPM_NAME = "typelib-1_0-UpowerGlib-1_0-1.90.2-1.1.aarch64.rpm"
-RPM_HASH = "0ef4a7eb1fd2a572f1fddbb70237ea8b9977fa0651ad6c733cc4cb3c5c393356a50c2bda072da4bb02e28dda087c7eea79ba20b205fd3dc9bb68df38cf018e66"
+RPM_NAME = "typelib-1_0-UpowerGlib-1_0-1.91.3-1.2.aarch64.rpm"
+RPM_HASH = "9793f480bb679633621a2fe27bdb7c473b898a2bc83da2d30b808f233ac1d32ebb7277d4992f896653d433c70e294f82a8879f480cbdb39c909167f84e064999"
 
 RPROVIDES:${PN} += "typelib-1-0-UpowerGlib-1-0 \
 typelib-UPowerGlib"
 
 RDEPENDS:${PN} += "libupower-glib.so.3 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

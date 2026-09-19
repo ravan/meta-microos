@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause | GPL-3.0-or-later"
 
 PV = "0.14.0"
 
-RPM_NAME = "libhidapi-hidraw0-0.14.0-1.1.aarch64.rpm"
-RPM_HASH = "c83a0c86973e441922157ac6e8024dc9a58baad11b145567d64416431d4fd41b7cd5fb406a07f833a22faed1c0a27f7264868ca457936cbb870a9be9e44a9095"
+RPM_NAME = "libhidapi-hidraw0-0.14.0-1.11.aarch64.rpm"
+RPM_HASH = "e294906be7d1dc3fd0f81868ff3fc5061e531363a7597923419a36e83c54ef88d53acf369361d1d41bdb2aeed8af61d30defdae22776ec6ab077aaaf35a88578"
 
 RPROVIDES:${PN} += "libhidapi-hidraw.so.0 \
 libhidapi-hidraw0"

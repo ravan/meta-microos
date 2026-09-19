@@ -1,7 +1,7 @@
 SUMMARY = "Insert non-breakable spaces using XeTeX"
 DESCRIPTION = "The package will directly insert nonbreakable spaces (in Czech, \
 vlna or vlnka), after nonsyllabic prepositions and single \
-letter conjuctions, while the document is being typeset. (The \
+letter conjunctions, while the document is being typeset. (The \
 macros recognised maths and verbatim by TeX means.) (Inserting \
 nonbreakable spaces by a preprocessor will probably never be \
 fully reliable, because user defined macros and environments \
@@ -9,10 +9,10 @@ cannot reliably be recognised.) The package works both with \
 (Plain) XeTeX and with XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn43864"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-xevlna-2023.209.1.1svn43864-53.2.noarch.rpm"
-RPM_HASH = "f0ecdfe9c8330f8a02af0fda256dd39875f95468dde780003b987f6ee397fe1ad790ee86d537b265d3989afb643cdef4740ccb587065470af357bf61c5b746cc"
+RPM_NAME = "texlive-xevlna-2026.226.1.1svn77682-59.4.noarch.rpm"
+RPM_HASH = "b0b4765e9217f2f02b0fd2b60422c9c9d00696cd424067699415cae53d4964ce1cdbbf4754e9ecdbe3103fcea98cf33bb3fab0024a134efbc35f63f75f08568a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xevlna.sty \

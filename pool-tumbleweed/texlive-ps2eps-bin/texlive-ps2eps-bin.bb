@@ -2,10 +2,10 @@ SUMMARY = "Binary files of ps2eps"
 DESCRIPTION = "Binary files of ps2eps"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn62210"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-ps2eps-bin-2023.20230311.svn62210-93.2.aarch64.rpm"
-RPM_HASH = "ff39618f5dd838781e9707519b66590e8f1568c9e88664ba72737fde53e2f8e2f073c3b5d2ade3e3d774b31dc67889905de2b24a709f9096eead9d509f9d1f7f"
+RPM_NAME = "texlive-ps2eps-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "882344f3b36867c945e1c2170522275f3ddc85dab94c091232e16088fa9a12e5052f5ce677182a7f53d8e692440424a8c4592b31456f3202cf690f0687fc0ca3"
 
 RPROVIDES:${PN} += "texlive-ps2eps-bin \
 texlive-pstools-bin-/usr/bin/bbox \

@@ -1,34 +1,32 @@
-SUMMARY = "Library exposing some functionality of Haddock"
-DESCRIPTION = "Haddock is a documentation-generation tool for Haskell libraries. \
-These modules expose some functionality of it without pulling in the GHC \
-dependency. Please note that the API is likely to change so be sure to specify \
-upper bounds in your projects. For interacting with Haddock itself, see the \
-[haddock package](https://hackage.haskell.org/package/haddock)."
-LICENSE = "BSD-2-Clause"
+SUMMARY = "Haskell haddock-library library"
+DESCRIPTION = "This package provides the Haskell haddock-library library."
+LICENSE = "BSD-3-Clause"
 
 PV = "1.11.0"
 
-RPM_NAME = "ghc-haddock-library-1.11.0-2.8.aarch64.rpm"
-RPM_HASH = "fb7cd6f21aa0dc1d556a72353afeda9d7f591c3aefb7c1d73b7730e821e91be986939db9b3f9321480b2d0d1d8e713427ea960c4b3c411245344ff052a089f2b"
+RPM_NAME = "ghc-haddock-library-1.11.0-1.3.aarch64.rpm"
+RPM_HASH = "d38e050991395857ad2d754e9d6d6232fbfba27acd04b1a3f2a77ffec08dbf0828edb055d8dc44d1be234ceaf5cc1d61a5dcb1094fb36cd5c0bb4e05afdc2705"
 
 RPROVIDES:${PN} += "ghc-haddock-library \
-libHShaddock-library-1.11.0-GgwR20uLBzH14FvpuxBHjp-ghc9.4.6.so"
+libHShaddock-library-1.11.0-799c-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHScontainers-0.6.7-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSmtl-2.2.2-ghc9.4.6.so \
-libHSparsec-3.1.16.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStext-2.0.2-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbinary-0.8.9.3-9861-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHScontainers-0.7-d5e1-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSmtl-2.3.2-37ef-ghc9.12.4.so \
+libHSparsec-3.1.18.0-be05-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStext-2.1.4-cf23-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

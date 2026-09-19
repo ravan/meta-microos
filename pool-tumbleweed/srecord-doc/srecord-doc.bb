@@ -4,12 +4,12 @@ load files. It reads and writes numerous EPROM file formats, and can perform \
 many different manipulations. \
  \
 This package contains documentation in PDF format."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "1.64"
+PV = "1.65.0"
 
-RPM_NAME = "srecord-doc-1.64-4.34.noarch.rpm"
-RPM_HASH = "09117b0e212c7c3e3d70288b21cde54185edbd0574372db8e4f3ac37d5af4f2ea8f5d7db80c144a626dfa5418dbd23e46c40e15a81464f5601941498f17361f7"
+RPM_NAME = "srecord-doc-1.65.0-2.7.noarch.rpm"
+RPM_HASH = "5fee5d86bca0717ee66bc16b0c2286e915b8d326a70ca071fda805f2bd132496add011f055464583e16a222dacdca614ebf8d98026ff55c0f82869cdb8c25ddb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "srecord-doc"

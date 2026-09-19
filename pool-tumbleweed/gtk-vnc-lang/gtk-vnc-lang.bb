@@ -2,14 +2,15 @@ SUMMARY = "Translations for package gtk-vnc"
 DESCRIPTION = "Provides translations for the 'gtk-vnc' package."
 LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
-PV = "1.3.1"
+PV = "1.5.0"
 
-RPM_NAME = "gtk-vnc-lang-1.3.1-1.6.noarch.rpm"
-RPM_HASH = "20893e48b43cf9343c82e1dc00f495baeb096bcc7391a87f42040c2ed5420b6f881ce0c2e2f5e16db1458aeeb58df7f1e92429ff73159ff0ba73f0881ad4c696"
+RPM_NAME = "gtk-vnc-lang-1.5.0-5.2.noarch.rpm"
+RPM_HASH = "4ce80fa8012d4faa784343a21f5be9bdaddf3fe61fcd873806e30b86f737aef9597c0ed0739edd795e6b323ffbde783d17df834f61f15a8b3c4e5cb73cc15000"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk-vnc-lang \
 gtk-vnc-lang-all \
+locale-gtk-vnc-be \
 locale-gtk-vnc-bs \
 locale-gtk-vnc-ca \
 locale-gtk-vnc-ca@valencia \
@@ -27,6 +28,7 @@ locale-gtk-vnc-fur \
 locale-gtk-vnc-gd \
 locale-gtk-vnc-gl \
 locale-gtk-vnc-he \
+locale-gtk-vnc-hi \
 locale-gtk-vnc-hr \
 locale-gtk-vnc-hu \
 locale-gtk-vnc-id \

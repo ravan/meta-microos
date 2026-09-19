@@ -6,10 +6,10 @@ This is aimed at tools that provide a listing of available keyboard \
 layouts to the user."
 LICENSE = "MIT"
 
-PV = "1.5.0"
+PV = "1.13.2"
 
-RPM_NAME = "libxkbregistry-devel-1.5.0-1.4.aarch64.rpm"
-RPM_HASH = "957fe9c0b3c5c2374991f4ac765bb940762e70fdb1620e2a7c12c4bd9fe29b80712ecda59647ee685434b795ee7592d5b0971b2c68fd36faca345f2109efa6de"
+RPM_NAME = "libxkbregistry-devel-1.13.2-1.3.aarch64.rpm"
+RPM_HASH = "c9c3df54344f77bb867bec988ebea20076c6e289f1abe537317b726393c7c0500074aad191c70765397a31fa6b5377145ae00862688cf039b8a50d6a0248b26a"
 
 RPROVIDES:${PN} += "libxkbregistry-devel \
 pkgconfig-xkbregistry"

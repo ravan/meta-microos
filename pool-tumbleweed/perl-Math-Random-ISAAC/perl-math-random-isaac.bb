@@ -16,14 +16,14 @@ LICENSE = "GPL-2.0+ | Artistic-1.0"
 
 PV = "1.004"
 
-RPM_NAME = "perl-Math-Random-ISAAC-1.004-2.20.noarch.rpm"
-RPM_HASH = "74f30022051ccfd01675364ebb1e4029222b786b893f6341c2c01f4e7f009c0c2569514aa46fd2e7a44aa24191fbefd85785b2494b1845ecb1d3f6d502f4c4f6"
+RPM_NAME = "perl-Math-Random-ISAAC-1.004-2.34.noarch.rpm"
+RPM_HASH = "c310f100bc72aa21376054ce51a3311a2f3ef0424ce619dd3ad215c02c88bee5c6fd294a639b4912cb8f7deda2da87c10d04352686661d891084a14c5e8f2ee4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Math--Random--ISAAC \
 perl-Math--Random--ISAAC--PP \
 perl-Math-Random-ISAAC"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

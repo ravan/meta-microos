@@ -7,10 +7,10 @@ automatically recycles memory when it determines that it can no longer \
 be otherwise accessed."
 LICENSE = "BSD-3-Clause"
 
-PV = "8.2.4"
+PV = "8.2.12"
 
-RPM_NAME = "libgc1-8.2.4-1.1.aarch64.rpm"
-RPM_HASH = "9fe927d428d146c9c1129ce1a26dd9228640cff5d71ea25c9c58ff41d817fd9f1c914d237f14913d84c4814fd860b40fdd95559013d05429ad340ed9cc517233"
+RPM_NAME = "libgc1-8.2.12-1.3.aarch64.rpm"
+RPM_HASH = "278e3f8236c0a71f9802d2e7d8b80fa6587e6a30f82ed83bcb865fab3215aef968a3663807df69e5f38c9557afd802da87fbbf6c97be2bace1d2c315de04aecf"
 
 RPROVIDES:${PN} += "libcord.so.1 \
 libgc.so.1 \

@@ -4,12 +4,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.88"
 
-RPM_NAME = "nemo-extension-folder-color-0.0.88-2.9.noarch.rpm"
-RPM_HASH = "ed94eb7dd5cb9aeed949e981d5396a670dcf15879a40aec24cd2abccb6e07e973d217b5cd558aeb6d80fd66b55a9ff4ec6d44d66f1d7dc02dc0f43a0e219d330"
+RPM_NAME = "nemo-extension-folder-color-0.0.88-3.4.noarch.rpm"
+RPM_HASH = "1c1388e39ae33ffdeae35a2e29ff9120dd593962f12430ab216f968881231cc1017883c2510169d794fe75ab7e77dd1402bda6c9da12235b68ce54268126b499"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-folder-color \
-python3.11dist-folder-color-nemo \
+python3.13dist-folder-color-nemo \
 python3dist-folder-color-nemo"
 
 RDEPENDS:${PN} += "folder-color-common \

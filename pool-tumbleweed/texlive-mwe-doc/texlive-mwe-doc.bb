@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mwe"
 DESCRIPTION = "This package includes the documentation for texlive-mwe"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn64967"
+PV = "2026.226.0.0.5svn77682"
 
-RPM_NAME = "texlive-mwe-doc-2023.209.0.0.5svn64967-55.1.noarch.rpm"
-RPM_HASH = "518ef0ce54eb0bb5d384ab410ddb92a74f8348ed411c300863513defa60adb62ee5c2d8b2760f1b7893586b859b12d8af25fee80b4b93e448c9b363c1a8f06a3"
+RPM_NAME = "texlive-mwe-doc-2026.226.0.0.5svn77682-61.2.noarch.rpm"
+RPM_HASH = "23fddbca78c05e48cf2f0d641283bd5e5fa5ccdf794b89b89c513b5afa0711c027ca472a43aa8d411451c8c4cb43fe50f88e4eb3722f47115b75b992eb4b8fc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mwe-doc"

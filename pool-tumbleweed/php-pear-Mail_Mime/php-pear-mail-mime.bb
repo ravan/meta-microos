@@ -6,10 +6,10 @@ text parts, HTML parts, inline HTML images, attachments and attached \
 subjects, recipients, etc."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.10.11"
+PV = "1.10.12"
 
-RPM_NAME = "php-pear-Mail_Mime-1.10.11-1.6.noarch.rpm"
-RPM_HASH = "1fa64f798a700c765c3b5148dc354e49e381298b566f8b2db822e69dcb4e56996f204daa1cc388ee7f433bbd8c876f0902b6fa6e7176ed24236f5ceea1d94b1c"
+RPM_NAME = "php-pear-Mail_Mime-1.10.12-1.8.noarch.rpm"
+RPM_HASH = "200897ef632bc20c2c6be6cf7f87714718e394dfbb7f7f6b035b4e20e5dd425da222780c7548e35bdaac996d33038a46de49027e8792d0a8948280b6289bd06a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "php-pear-Mail-Mime \

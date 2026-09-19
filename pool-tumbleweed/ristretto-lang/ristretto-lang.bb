@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ristretto"
 DESCRIPTION = "Provides translations for the 'ristretto' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.13.1"
+PV = "0.14.0"
 
-RPM_NAME = "ristretto-lang-0.13.1-1.1.noarch.rpm"
-RPM_HASH = "b24e114b6ede734ffe721b552126430c2d425602f2ae875dbbcd23b3d9dc23039e9f0c77cd3940677b2437d336b0b4f20fc2315311e1b72067f0138585d79bf7"
+RPM_NAME = "ristretto-lang-0.14.0-1.3.noarch.rpm"
+RPM_HASH = "39e2592948b3c9f84849486ff90e5f19337cc2b3c9d3ddb3d3275dd7c67d7413bc70ef61c29add00fa4721277e8149aa948607ec0f66eb85a7bd8970d4f10e83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-ristretto-ar \

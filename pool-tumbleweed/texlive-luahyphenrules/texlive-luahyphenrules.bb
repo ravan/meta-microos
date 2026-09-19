@@ -6,10 +6,10 @@ to those who just want to select the languages and load their \
 patterns by means of `language.dat` without loading `babel`."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.1svn56200"
+PV = "2026.226.1.1svn78101"
 
-RPM_NAME = "texlive-luahyphenrules-2023.208.1.1svn56200-53.1.noarch.rpm"
-RPM_HASH = "a9ab71a58edd76b900577dcfab4e155eb7a32c493d2c7edee3a81ed8e059379c0bd28da2de2ecb175aebe15b59f8534b1a8f549efb21799ab5a284a7c9f8cffa"
+RPM_NAME = "texlive-luahyphenrules-2026.226.1.1svn78101-59.2.noarch.rpm"
+RPM_HASH = "8746c3006b63f74ed986ee560d29a4c5f59fba309d61222b7b10252adbf66e5aa1ddab85b58a95dc5978d50a24c8755c9a9284309a367bffaa0d743fa6469707"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luahyphenrules.sty \

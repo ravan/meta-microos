@@ -4,10 +4,10 @@ DESCRIPTION = "C++ library to look for directories like My Documents, \
 platform-specific code."
 LICENSE = "MIT"
 
-PV = "4.2.0"
+PV = "4.3.0"
 
-RPM_NAME = "PlatformFolders-4.2.0-1.4.aarch64.rpm"
-RPM_HASH = "f9814e22489dbb09f3419e9e7b546754952eeba2fabd5dcad6b5b544bf7af093d989c51ea58229b5aebd39f1b6bb58e7ed9336e5d39b670addff24373a57442b"
+RPM_NAME = "PlatformFolders-4.3.0-1.4.aarch64.rpm"
+RPM_HASH = "3a705c3a59d040c33dba5b00e72532bc018f0faca5cd3cbbce7c8ae099279deec1493a5e84e844763e173249ce254d793b28f019cee92073c8974d1dd17992f1"
 
 RPROVIDES:${PN} += "PlatformFolders \
 libplatform-folders.so"

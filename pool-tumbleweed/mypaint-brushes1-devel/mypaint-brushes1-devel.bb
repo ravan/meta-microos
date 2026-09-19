@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "mypaint-brushes1-devel-1.3.1-1.9.noarch.rpm"
-RPM_HASH = "dc2bae97da185652c3892eb216419d22dc344611aad44ac1c3ac0d1c5387bcd374b20b70213753c76c2874267d247fe4eeac69c8deae95b1afdc5912e3cf5ab9"
+RPM_NAME = "mypaint-brushes1-devel-1.3.1-2.7.noarch.rpm"
+RPM_HASH = "d6f118e1a6fe34ed0153c0a7ddfdab4f10dfd08785d40f491b1531f468cc4703ecc48ecd2db25efd40ab5fa246d472f382b37735ade1ab2ef8fafc35097a697d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mypaint-brushes-devel \

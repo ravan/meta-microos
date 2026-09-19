@@ -7,10 +7,10 @@ The Greek Font Society has released this version, which has a \
 new set of majuscules."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.0svn19469"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-gfscomplutum-2023.209.1.0svn19469-53.1.noarch.rpm"
-RPM_HASH = "9ec19c794c866beb2578f3885fb6c225cb6c28265540f41bcd18943d8bf10d711f00ebff4254b99912c9b894a7610698efde21204762b1f6a01afec5bcb459ab"
+RPM_NAME = "texlive-gfscomplutum-2026.226.1.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "b6fdf297cd236c8ff2d11eefbf2fe1637352d1fc35c04c1da55e73eafa0185afbc9c0f2856dc08590a277d4c7c39428ad6484426b86257e3f5ef798f3b8fa2d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gcomplutum8a.tfm \

@@ -24,8 +24,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.3"
 
-RPM_NAME = "dkgpg-1.1.3-1.16.aarch64.rpm"
-RPM_HASH = "5c6f84cd336deceadb11ae193298adcbd788d31a536643f0bfca79fe2c6e19fad9b69f7369af962d1f9178f44d48305d9533e42ff9e861654ee5fb27c9ef8e01"
+RPM_NAME = "dkgpg-1.1.3-1.26.aarch64.rpm"
+RPM_HASH = "4165193c09f215b626c94437d43be6a37be27f18d57eab5295f98ead9f687c63c433e873dbe34b83edda4ad623c6a4ab806893a0158b16ecb349e32ca0a8b804"
 
 RPROVIDES:${PN} += "dkgpg"
 

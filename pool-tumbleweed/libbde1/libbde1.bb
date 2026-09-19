@@ -24,10 +24,10 @@ Additional features: \
 * zeros out the BDE metadata, matches behavior seen on Windows"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221031"
+PV = "20260903"
 
-RPM_NAME = "libbde1-20221031-4.1.aarch64.rpm"
-RPM_HASH = "f8f8e696eefd5a1507a4bcd2da46ac789bbe242a8cc591a9a084f491db350176d63daa775e408fa2add8da2419097b0289ec3c0cfff938ea60259bef29fdb80a"
+RPM_NAME = "libbde1-20260903-1.2.aarch64.rpm"
+RPM_HASH = "623c5e519f4aa2ab8a173ad191b7e7fbeab548a41dd91a0c162b3a991c0c4dfc525bc98e5b36a5e0dfefa17afcf584b6938e023c18617aebd411e8348d318b3e"
 
 RPROVIDES:${PN} += "libbde.so.1 \
 libbde1"

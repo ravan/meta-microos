@@ -5,10 +5,10 @@ This package contains a search provider to enable GNOME Shell to get \
 search results from Files (nautilus)"
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "44.2"
+PV = "50.3.1"
 
-RPM_NAME = "gnome-shell-search-provider-nautilus-44.2-2.1.noarch.rpm"
-RPM_HASH = "891d453f6f828124fa9c44db95a2182ae65164b64d5b8c619c5f4bdc41ac20aaefb86f7c73b18225eb6529788cf53caf9f68c677e8958db9d9078bde87c9d7b1"
+RPM_NAME = "gnome-shell-search-provider-nautilus-50.3.1-1.1.noarch.rpm"
+RPM_HASH = "6e3fe1ede6e1601e5cd24126f75d2a7a073c9cdf2f3356b3afced657d6014707f72f6b6dcac7f7bb999ff3429bd9c98aff871c32a9d9bb16b933f491c8832578"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-nautilus"

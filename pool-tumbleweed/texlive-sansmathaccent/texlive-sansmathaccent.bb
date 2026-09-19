@@ -7,10 +7,10 @@ used in a document that does not use the beamer class or the \
 sfmath package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn53628"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-sansmathaccent-2023.209.svn53628-54.1.noarch.rpm"
-RPM_HASH = "55e8ee1fe1838c4762dbac72fc53abf74a938ca4aaa16513769b1fb461f97b97d7be67ceabc65687856d5272042d850d7bd519ea39680090b37f14a15f1d817f"
+RPM_NAME = "texlive-sansmathaccent-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "50b46dc495db34ed64777d5f9024d31175a1b863946129ffc7441a2b54cdef95edc8ada32e4eb732b7f0506b249882d86a6fc8bb7943d60a3bbe61265fa88f76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathkerncmssi10.tfm \

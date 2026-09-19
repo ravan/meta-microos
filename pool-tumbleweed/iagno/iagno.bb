@@ -8,23 +8,21 @@ winner is the player with the most of his/her color tiles on the \
 board."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.38.1"
+PV = "50.0+8"
 
-RPM_NAME = "iagno-3.38.1-2.13.aarch64.rpm"
-RPM_HASH = "958a80c1c8a5cc9ed0cb7df344fb93d32d166bc90fbdc253d1f5eb21b68f5a377ac263c9d031b864ed66e554ad35256d23c4c67607981f83da461f80c2ae2192"
+RPM_NAME = "iagno-50.0+8-1.2.aarch64.rpm"
+RPM_HASH = "3ea91e6146d910a1a951bc96b7e74e0308b3852ddde48a70745027e3d9efabc58c54bf2ce134c0b1ab04cf8d4c471a93df27b6b3e12f61fac1ab44a633c0bde4"
 
 RPROVIDES:${PN} += "iagno"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
 libc.so.6 \
-libcairo.so.2 \
-libgdk-3.so.0 \
-libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
+libglycin-2.so.0 \
+libglycin-gtk4-2.so.0 \
 libgobject-2.0.so.0 \
-libgsound.so.0 \
-libgtk-3.so.0 \
-librsvg-2.so.2"
+libgtk-4.so.1"
 
 inherit rpm

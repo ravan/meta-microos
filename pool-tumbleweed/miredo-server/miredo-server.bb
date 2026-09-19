@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.6"
 
-RPM_NAME = "miredo-server-1.2.6-5.8.aarch64.rpm"
-RPM_HASH = "a59a24f0d92740f1ab3b66a572b31eb8ce211533676c072b2eebc19c77f2f9e3301ffebd14679e476ac8e78a91ec4ecdc368adc3ec468d78d8d8809db1988993"
+RPM_NAME = "miredo-server-1.2.6-5.19.aarch64.rpm"
+RPM_HASH = "7502741a2021ca3a2bc35ac537cac7b22b23b73853d6fc3bf2aceede26cce0eff2161b0eec53493e4219b4807dc7a9fc312da6730467784574a5e73495669a94"
 
 RPROVIDES:${PN} += "config-miredo-server \
 miredo-server"

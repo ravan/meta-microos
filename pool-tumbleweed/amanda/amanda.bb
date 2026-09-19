@@ -9,11 +9,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.5.4"
 
-RPM_NAME = "amanda-3.5.4-1.2.aarch64.rpm"
-RPM_HASH = "79f09826ff09d351e5565bd476c95bed437fea4c030af5b8b9a4627d5886b150d1044179626bcc478d90aca39fd1f48158ae6058964dd9b31fe5dc28e5f08551"
+RPM_NAME = "amanda-3.5.4-6.6.aarch64.rpm"
+RPM_HASH = "6eca9e624deea0d885bcf5d3e2162db0146a8f3e93cbf71eb91f3ea47182ed6c7c8baecf433ea4fee95e225bf704dacfd41aa3ea2ddced0fb3716f5294549baa"
 
 RPROVIDES:${PN} += "amanda \
 config-amanda \
+group-amanda \
 libApplication.so \
 libArchive.so \
 libBinary.so \
@@ -262,7 +263,8 @@ perl-Amanda--Xfer--Source--ShmRing \
 perl-Amanda--Xfer--Xfer \
 perl-Amanda--XferServer \
 perl-Amanda--XferServerc \
-perl-Amanda--Xferc"
+perl-Amanda--Xferc \
+user-amanda"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
@@ -284,6 +286,7 @@ libreadline.so.8 \
 libssl.so.3 \
 libtirpc.so.3 \
 perl \
+perl-JSON \
 permissions \
 shadow \
 tar"

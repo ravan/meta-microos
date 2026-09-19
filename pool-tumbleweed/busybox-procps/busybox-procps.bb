@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing procps"
 DESCRIPTION = "This package contains the symlinks to replace procps with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-procps-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "f74c647b5f293730c72a2fa07cd32f54c7036f9e5063d29cbfa5fabb67f53d2e0bb1ec4e1778d672fe8a0d6bc9321e5b5500b3cd272a0a3cd48b8df73d7abe14"
+RPM_NAME = "busybox-procps-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "48ab630313a03b41a69ebc2a44ea204531d57f782685bb83ecc4f794a878c85d011e708b9e5ac94f9827ed02065920ed80f6797683585755e18720edb0fde5b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/ps \

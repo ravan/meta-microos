@@ -24,14 +24,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Lingua-PT-Stemmer-0.02-1.27.noarch.rpm"
-RPM_HASH = "e16d650be4f41919c6ad3b1692addad5219d4659de6397f5830dd9ebe41a3de12af5deb56083bb3aa0d8999923e4a4fa3cfb0728124ee9414dbb3f4f968a2513"
+RPM_NAME = "perl-Lingua-PT-Stemmer-0.02-1.41.noarch.rpm"
+RPM_HASH = "8aa9f7f004ae2adb819d00e58ce0b7e4bea6212c8db1ac8d9005ec920ddb728260240a95d505151c44d4e9dc23a7953df71287c7e6cc4954e1612fe66fa5a091"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--GL--Stemmer \
 perl-Lingua--PT--Stemmer \
 perl-Lingua-PT-Stemmer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

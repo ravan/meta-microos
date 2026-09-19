@@ -2,10 +2,10 @@ SUMMARY = "Utilities to export events from Windows XML event files (EVTX)"
 DESCRIPTION = "Tools for parsing EVTX files. These include evtxinfo and evtxexport."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221101"
+PV = "20260705"
 
-RPM_NAME = "libevtx-tools-20221101-4.1.aarch64.rpm"
-RPM_HASH = "1ac172ce5bd103290c813452af572855a5b0e03d290b369222900f7d1dbcb4a99dd329f8e5b0045328be4a03d5d52d43feaebb40b4741946ebb107130fbc7520"
+RPM_NAME = "libevtx-tools-20260705-1.2.aarch64.rpm"
+RPM_HASH = "7372c80edfc871559632b55a0ae3f8319f3e4ee22ad3ae8178158573722ca2e764e87f4457318b577f2c865de160b2db9207f7195b7a583e7ff0296b6e6c818e"
 
 RPROVIDES:${PN} += "libevtx-tools"
 

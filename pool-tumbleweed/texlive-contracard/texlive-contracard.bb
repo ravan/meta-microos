@@ -4,10 +4,10 @@ dances, such as contra and square dances, and to create calling \
 cards for the same."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.0svn50217"
+PV = "2026.226.2.0.0svn67201"
 
-RPM_NAME = "texlive-contracard-2023.209.2.0.0svn50217-55.1.noarch.rpm"
-RPM_HASH = "93932966c9acf5da19ae4827c056dac3baa5677e995515ff50e7af3776f281458de6a703ee3ac8a02785247329cf99080572ae9b34782c29bcd1a84386e4da01"
+RPM_NAME = "texlive-contracard-2026.226.2.0.0svn67201-61.2.noarch.rpm"
+RPM_HASH = "4811f0ca84aa4878304123a86f62267f493f5bab04f5106fcf647075eeae08068014afd27d7737a07c9c27f5ea11e7ea7c845e4f46feda3506719559e3780376"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-contracard.cls \

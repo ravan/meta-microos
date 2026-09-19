@@ -4,10 +4,10 @@ with the page layout similar to that of the Astrophysical \
 Journal."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn28469"
+PV = "2026.226.svn74166"
 
-RPM_NAME = "texlive-emulateapj-2023.209.svn28469-54.2.noarch.rpm"
-RPM_HASH = "dd48e40abc0a7e860aec7fb8cbecdd2eed9856715446c737aa133bb02ad188af3940ee9b5322e8dd1c45e92e3c2e4ab7efa601896bd2c01df169bbded33a3198"
+RPM_NAME = "texlive-emulateapj-2026.226.svn74166-61.4.noarch.rpm"
+RPM_HASH = "cb32c70572e5187e317f55d9023ad1630d95b57b51c5198515b09a07b03bc013f15b342e7c763c500126ea1419dfb10e4df54e20576797dcd955de5d087ff214"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emulateapj.cls \

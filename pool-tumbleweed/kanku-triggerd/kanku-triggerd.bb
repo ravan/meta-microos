@@ -2,10 +2,10 @@ SUMMARY = "Trigger daemon for kanku"
 DESCRIPTION = "A triggerd for kanku based on RabbitMQ."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.14.0"
+PV = "1.0.0"
 
-RPM_NAME = "kanku-triggerd-0.14.0-1.5.noarch.rpm"
-RPM_HASH = "f0ab7888109cc91e968d51333aefdf54c7415633c4f663973e0e59057e6c66e8ebb98b1a04f55a4beef768f995e9c65bf14ac8e2aa3f7328fe1fc3fa9e89b6b2"
+RPM_NAME = "kanku-triggerd-1.0.0-2.2.noarch.rpm"
+RPM_HASH = "68ec547308b3c6db2e99ddb8d0a85b6fd24ed04b21f515d363b27e714530befeab4ce9d24a1bf2d33c8b4e92857531abe7a0b8b348a4b1c2d2be51f23551f8f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-triggerd \

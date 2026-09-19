@@ -2,13 +2,13 @@ SUMMARY = "GDCM examples"
 DESCRIPTION = "CSharp, C++, Java, PHP and Python example programs for GDCM."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.21"
+PV = "3.2.5"
 
-RPM_NAME = "gdcm-examples-3.0.21-1.9.aarch64.rpm"
-RPM_HASH = "e361b3235f2afd88a81f599be708b72c2928ca53b8af47738a5bfcf0501eea0938515cd28bf01a5a6948d3d4db62b50b35fcf91cbf57c3904ce777559b899a6c"
+RPM_NAME = "gdcm-examples-3.2.5-2.3.aarch64.rpm"
+RPM_HASH = "70932a011ee80421efd8a9798af87e444c79913cdef9313d4a4d3c89e32a3d5c6ed0c299b9b47df50daef31850dfa89f4bc3f6d64a915ef127e3ff12431c2142"
 
 RPROVIDES:${PN} += "gdcm-examples"
 
-RDEPENDS:${PN} += "libgdcm3-0"
+RDEPENDS:${PN} += "libgdcm3-2"
 
 inherit rpm

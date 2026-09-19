@@ -32,10 +32,10 @@ appears to the author to represent a performance hit for little tangible \
 gain."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.088"
+PV = "0.92.0"
 
-RPM_NAME = "perl-PPIx-Regexp-0.088-1.3.noarch.rpm"
-RPM_HASH = "6080254c01f59911966bf16567a6c9c368664e73f2e38031945b62d8958336d021ee9c0e1a0848b434e722d050f53e032e4b56cab5b871ed237054d33e5120dd"
+RPM_NAME = "perl-PPIx-Regexp-0.92.0-1.3.noarch.rpm"
+RPM_HASH = "1fa063c77d57891e7b2559e090a99b984f4160e68b6561f5bb5eebb2fd815cc74213872a68ce91d0ec6778bcb94ea74c801bbefe76adb59f84943e1a660e9ec3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PPIx--Regexp \
@@ -106,7 +106,7 @@ perl-PPIx--Regexp--Tokenizer \
 perl-PPIx--Regexp--Util \
 perl-PPIx-Regexp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-PPI--Document \
 perl-PPI--Dumper \
 perl-Task--Weaken"

@@ -2,10 +2,10 @@ SUMMARY = "GUI for STM32 discovery line linux programmer"
 DESCRIPTION = "STLINK v1/v2 JTAG/SWD debugging/flashing tool for STM32 microcontrollers."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.0"
+PV = "1.8.0"
 
-RPM_NAME = "stlink-gui-1.7.0-2.8.aarch64.rpm"
-RPM_HASH = "63bb54207529cf8de8c9d405f11af23f2d4d2f08de82e79697b4b57ef96bf9eab5916ff98eeb1d74dc3b5d6bc97c06bb78f72c1ac6a4a5a646837b508052f476"
+RPM_NAME = "stlink-gui-1.8.0-1.11.aarch64.rpm"
+RPM_HASH = "851b2f7753be8172f1b09412c901955e9189b8c0734e6d6abab08d25f9b8bac4434ed05e62a97419aa4a81f7260b36a75f586151649bc8418f0b2b7602fadd32"
 
 RPROVIDES:${PN} += "stlink-gui"
 

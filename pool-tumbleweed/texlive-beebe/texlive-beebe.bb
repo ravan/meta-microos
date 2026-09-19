@@ -4,10 +4,10 @@ DESCRIPTION = "A collection of BibTeX bibliographies on TeX-related topics \
 includes a LaTeX wrapper file to typeset the bibliography."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn66286"
+PV = "2026.226.svn77590"
 
-RPM_NAME = "texlive-beebe-2023.209.svn66286-54.1.noarch.rpm"
-RPM_HASH = "a3346e7ca49380063c37a61ce5206e3880a17e894b5e400b91e1308579c8a42ea1dd3e83fb586caf0d60cec596e3aa437d675d699023244dc48ac055e988363c"
+RPM_NAME = "texlive-beebe-2026.226.svn77590-61.2.noarch.rpm"
+RPM_HASH = "5b2f8cb46b3fcef690d25356e399350de895d3cafd5f4b37e1226adf9c2f109faee13e1101e963131ba8d497561a5af7e2de6944ecc107dbfbc669e5a96be4ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibnames.sty \

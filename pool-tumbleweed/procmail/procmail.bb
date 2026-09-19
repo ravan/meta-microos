@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-2.0-or-later"
 
 PV = "3.24"
 
-RPM_NAME = "procmail-3.24-1.1.aarch64.rpm"
-RPM_HASH = "8fd4e7de40bac850d0291065e37aaceae09049bca090567b0b4785a148a6ef8fb50f09d63e501c3f9270a142fb0a91a638ce251684f330248d76a9a9af46e9d0"
+RPM_NAME = "procmail-3.24-5.5.aarch64.rpm"
+RPM_HASH = "583c4c78836851ae91dfe83e9fae8130c4a63e4fd6c23202e38068966233796bb6a7d5172c9b5ae24011a85f1dfc65ab716342751d0cf287e78fba9bffcfa562"
 
 RPROVIDES:${PN} += "procmail"
 

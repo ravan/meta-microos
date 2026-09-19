@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-substr"
 DESCRIPTION = "This package includes the documentation for texlive-substr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn16117"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-substr-doc-2023.209.1.2svn16117-58.1.noarch.rpm"
-RPM_HASH = "92f2dc114459d318b023af1c4322690dc970141cffeefabb6eb7660f1169681a6524aa174d6aab303d13bf28138921ada995ffb0aab5a54c6da33694b0b72048"
+RPM_NAME = "texlive-substr-doc-2026.226.1.2svn77682-64.2.noarch.rpm"
+RPM_HASH = "80d03157ecb076fe51f78eb028c875dfbb789eb5209bef6c9ec7db40d873330ddb694a1d526943547e39c91d7a29348c9daa02e808398c7a7e3aa135dba4d599"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-substr-doc"

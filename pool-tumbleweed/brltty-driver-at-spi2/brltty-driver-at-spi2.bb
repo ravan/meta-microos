@@ -7,10 +7,10 @@ complete screen review functionality. \
 This package contains the AT-SPI 2 screen driver."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.6"
+PV = "6.9.1"
 
-RPM_NAME = "brltty-driver-at-spi2-6.6-1.1.aarch64.rpm"
-RPM_HASH = "4f3883b2bb368ba28666ec62eb057101eda354414e7dbaee5bd43027628949f1050989c6e8a2d2451d26cf3339910c6e6f7443f93478a482b11d0535242be676"
+RPM_NAME = "brltty-driver-at-spi2-6.9.1-2.1.aarch64.rpm"
+RPM_HASH = "875d3a751153a805d1a559565300f5f79771495d23389a1bbb0b9724034074e7ceb5f9ffcbe69ef266dbe45d66982dfdb12ee518769ca4b114f8d17111ed6e61"
 
 RPROVIDES:${PN} += "brltty-driver-at-spi2 \
 libbrlttyxa2.so"

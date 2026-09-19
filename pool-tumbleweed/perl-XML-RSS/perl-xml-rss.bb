@@ -34,10 +34,10 @@ formatted accordingly. E.g: \
     );"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.62"
+PV = "1.650.0"
 
-RPM_NAME = "perl-XML-RSS-1.62-1.14.noarch.rpm"
-RPM_HASH = "ad4c63058770ba2ac9a424c554195b24171657435f26fba608f58397c33d8ddbd58ddaaf24c0fdd733644a8be431526e5ba54535c3ce0897e7151ca12ddbb9cc"
+RPM_NAME = "perl-XML-RSS-1.650.0-1.8.noarch.rpm"
+RPM_HASH = "ad74fbc2b8619b2538de003bab2252f5ba1b16793f57d45df0fdb986f2e633fc83670bd4bc446a5c1f645db66940d0ed9806434029f8487ea987927758f13972"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--RSS \
@@ -50,7 +50,7 @@ perl-XML--RSS--Private--Output--V1-0 \
 perl-XML--RSS--Private--Output--V2-0 \
 perl-XML-RSS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DateTime--Format--Mail \
 perl-DateTime--Format--W3CDTF \
 perl-HTML--Entities \

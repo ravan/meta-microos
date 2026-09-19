@@ -5,15 +5,15 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.8"
 
-RPM_NAME = "languagetool-core-4.8-3.2.noarch.rpm"
-RPM_HASH = "798b846c65928f20b0a2c3e62effefd4a04079b26ac8ad24a919f264d6f21981fa72b43143d0669dff1c5388a45dccdcf9ea93711b4e7c5e695e7653ded7b6d7"
-REPO_ARCH = "noarch"
+RPM_NAME = "languagetool-core-4.8-13.1.aarch64.rpm"
+RPM_HASH = "79522bfbec674175e8ce9f4d22bfcf92eaa16cea3d714804b30e72fca9bd731d522856be6761dae04e06a9a54e24b80788b551fff841bd23a00097b3f29547ad"
 
 RPROVIDES:${PN} += "languagetool-core \
 mvn-org.languagetool-languagetool-core \
 mvn-org.languagetool-languagetool-core-pom-"
 
-RDEPENDS:${PN} += "java-headless \
+RDEPENDS:${PN} += "glassfish-jaxb-runtime \
+java-headless \
 javapackages-filesystem \
 libhunspell-1-7-0 \
 lucene-backward-codecs \

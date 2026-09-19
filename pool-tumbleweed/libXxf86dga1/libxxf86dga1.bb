@@ -5,10 +5,10 @@ relative mouse reporting, et al. It is mainly used by games and \
 emulators for games."
 LICENSE = "MIT"
 
-PV = "1.1.6"
+PV = "1.1.7"
 
-RPM_NAME = "libXxf86dga1-1.1.6-1.3.aarch64.rpm"
-RPM_HASH = "79f2dc7debc420ca58a8309b9dc789aea75fb9e81d1f6f9a0d8f18a6852bf788d85f2885ccff50b1c14b5696901843bdb6c72a60a74516a39f5d638dbd34b258"
+RPM_NAME = "libXxf86dga1-1.1.7-1.4.aarch64.rpm"
+RPM_HASH = "f86778d6678570fc9706e70ea8ed846eb735c024fe19883915a5483c61c3ed1286e28a2d10b79776deebcfeee1b9193f5c5aa1f0f6b3ace5801c378baa3e3f48"
 
 RPROVIDES:${PN} += "libXxf86dga.so.1 \
 libXxf86dga1"

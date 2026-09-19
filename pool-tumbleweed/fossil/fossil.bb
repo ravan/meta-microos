@@ -8,19 +8,19 @@ these features: \
 * sqlite-backed database"
 LICENSE = "BSD-2-Clause"
 
-PV = "2.22"
+PV = "2.28"
 
-RPM_NAME = "fossil-2.22-1.1.aarch64.rpm"
-RPM_HASH = "882270fef68036255da4f01c87465a6668b30902b8212227d4104cc6f85a0db93b2eae913252797e157bec8aabbf523d04a0ecdfd1cd9b11bdf3826788832c77"
+RPM_NAME = "fossil-2.28-1.4.aarch64.rpm"
+RPM_HASH = "0222889c81968dbdfe951a59b93547046b674efdc0ba0e363802ade020ed65362c14c8a3d1c5e1eeab9840dc71f8dea166b83976ac50d215f0038960c648f1bd"
 
 RPROVIDES:${PN} += "fossil"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-libfuse.so.2 \
 libm.so.6 \
 libresolv.so.2 \
+libsqlite3.so.0 \
 libssl.so.3 \
 libz.so.1"
 

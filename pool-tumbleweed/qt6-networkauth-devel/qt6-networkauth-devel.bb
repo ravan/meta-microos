@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 NetworkAuth library - Development files"
 DESCRIPTION = "Development files for the Qt 6 NetworkAuth library."
 LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-networkauth-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "796991b193628c55be18a9613c115d5a9f2c19e7a9963175ee2ea6600c7daf3e902b9fb0456e0344d4e39f0b320a7838d469e3aa666c68dbee4a176e778ac7a4"
+RPM_NAME = "qt6-networkauth-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "7abb28e5ad81e56d024dbc6817cfa41ce8b3416b832c93f9411907eb09e4b77f78c077a429d4555418df85c60d4274c1010fb3aba53b64e27e4e45e1f8397847"
 
 RPROVIDES:${PN} += "cmake-Qt6NetworkAuth \
 pkgconfig-Qt6NetworkAuth \

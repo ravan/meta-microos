@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.0.g33"
 
-RPM_NAME = "libdbi3-0.9.0.g33-4.10.aarch64.rpm"
-RPM_HASH = "3cdb28748e5a9dacbfd087237f27faa0f2dc74462feae869c13dfd1f0fede070157733b02fae2d1651a2dd118f68441429ca00ae1972aa6e6ee88d4a5a1a146e"
+RPM_NAME = "libdbi3-0.9.0.g33-4.20.aarch64.rpm"
+RPM_HASH = "9e2e38188e98f87034cd67196583ddfce42392063020c7b8c3c8b4f3cacf1141a2e5a197dfa8f6d57efb876fcb1536b9cce876b0ee060ce9f6aa453ebc4a4154"
 
 RPROVIDES:${PN} += "libdbi.so.3 \
 libdbi3"

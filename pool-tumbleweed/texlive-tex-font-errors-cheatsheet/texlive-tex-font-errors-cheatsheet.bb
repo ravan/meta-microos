@@ -5,10 +5,10 @@ common font-related error messages occur. Also, hints are given \
 on how to address those."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn18314"
+PV = "2026.227.0.0.1svn18314"
 
-RPM_NAME = "texlive-tex-font-errors-cheatsheet-2023.209.0.0.1svn18314-55.1.noarch.rpm"
-RPM_HASH = "bd2d290938a0b6063d40729386803845be4ee303b7f21cc7558620a2011647d683fae6569f936975eb5f71720172ce7605a26e44e89faa705e65219d2f312042"
+RPM_NAME = "texlive-tex-font-errors-cheatsheet-2026.227.0.0.1svn18314-62.2.noarch.rpm"
+RPM_HASH = "56509f6b8fa30c8badc43f02a5a71142c79f12c1768106e50a159803b1a2d61665d5cdb24d5fd21c35279fcd901a5a8bb80d54823e7a682b6d036ca14eb1e15c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-font-errors-cheatsheet"

@@ -1,19 +1,23 @@
 SUMMARY = "Header files for Avogadro libraries"
 DESCRIPTION = "Header files for Avogadro libraries."
-LICENSE = "BSD-3-Clause"
+LICENSE = "Apache-2.0 & BSD-3-Clause & CDDL-1.0 & GPL-3.0-or-later"
 
-PV = "1.97.0"
+PV = "1.100.0"
 
-RPM_NAME = "avogadrolibs-devel-1.97.0-2.4.aarch64.rpm"
-RPM_HASH = "4580a8f1b386c0f56df2a5a44a31ca1ec60b9332856a959e353b1388cb9bc4d8df2eb35105eb6131436545210ea8f34080838abd26a671a0a85c0d7f59112e12"
+RPM_NAME = "avogadrolibs-devel-1.100.0-3.6.aarch64.rpm"
+RPM_HASH = "07cbe0a265ab5bdc4589cc3e1660cd03efdebb664e0bfbbae85deefa9c4a621ddf2ce822140fdbf589df6acb1a25b86b05bf095c3af2e3f152805bc9dbdcb146"
 
 RPROVIDES:${PN} += "avogadrolibs-devel \
 cmake-AvogadroLibs"
 
 RDEPENDS:${PN} += "avogadrolibs-plugins \
-cmake-MoleQueue \
-cmake-Qt5Network \
-cmake-Qt5Widgets \
+cmake-Qt6Concurrent \
+cmake-Qt6Core \
+cmake-Qt6Gui \
+cmake-Qt6Network \
+cmake-Qt6OpenGLWidgets \
+cmake-Qt6Widgets \
+eigen3-devel \
 libAvogadro1 \
 pkgconfig-gl \
 pkgconfig-glew"

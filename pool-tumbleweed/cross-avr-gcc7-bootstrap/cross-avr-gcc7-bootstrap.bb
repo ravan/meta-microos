@@ -11,10 +11,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-avr-gcc7-bootstrap-7.5.0+r278197-14.2.aarch64.rpm"
-RPM_HASH = "9dcf50e2c167e645a359233991b6294ac0f4c46bf9b974f16a63105e7e3f1369de505943688d133cb58d09cc8478f04c519561df91895e22e18615bb5ad39972"
+RPM_NAME = "cross-avr-gcc7-bootstrap-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "b9ed5ed133074764554773411d1be0fca9d0dd3c964ddda525980701af859a4d0907e816b1ef3871d75bf2722d8c50f4750ee8b245f6bb1f6ce4173e88183de5"
 
-RPROVIDES:${PN} += "cross-avr-gcc7-bootstrap \
+RPROVIDES:${PN} += "avr-gcc \
+cross-avr-gcc7-bootstrap \
 liblto-plugin.so.0"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

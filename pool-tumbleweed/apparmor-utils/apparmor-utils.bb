@@ -5,17 +5,17 @@ Besides it provides the aa-unconfined server information tool. \
 It is part of a suite of tools that used to be named SubDomain."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "3.1.6"
+PV = "5.0.2"
 
-RPM_NAME = "apparmor-utils-3.1.6-4.1.noarch.rpm"
-RPM_HASH = "94b1e7f5cb957fc69bb84e82dd6e235dc3a96511d2b8c22ad8f9d05e81ca0b6ff8cc5e47d7a22bd2a8c55c71392ea60b71b864a058709cc5d1ffe37aad8401c6"
+RPM_NAME = "apparmor-utils-5.0.2-2.1.noarch.rpm"
+RPM_HASH = "aa14c2f705516f2ee185f424b25a3018c90ffbf73839920fcc23f365f389796a230d4bbe76a54d0d1948b110a5ad3c6769c9bd30c00809862011e955fc1b0f26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-utils \
 config-apparmor-utils"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 apparmor-parser \
 libapparmor1 \

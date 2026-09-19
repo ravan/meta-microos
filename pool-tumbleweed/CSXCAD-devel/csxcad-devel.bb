@@ -6,10 +6,10 @@ This package contains libraries and header files for developing \
 applications that use CSXCAD."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6.2"
+PV = "0.6.3"
 
-RPM_NAME = "CSXCAD-devel-0.6.2-3.20.aarch64.rpm"
-RPM_HASH = "7369ebc329c2cd23c5a4fa7a5095e3630f0091e89edd07c52a0dcd642e1ece6c240dd912d2949072af195ce00af18749e8ec5b1e20a3a12f8b7ea5a3b1eb1e03"
+RPM_NAME = "CSXCAD-devel-0.6.3-5.1.aarch64.rpm"
+RPM_HASH = "f316788d3a36cfae786efc7302da6b017fdb34309c0d6cc1353d76a6178c0abe0e949a279bf8659025fe7c50d7e60ead56a92fbf11c22a309dc9614ad27ea423"
 
 RPROVIDES:${PN} += "CSXCAD-devel"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20201215"
 
-RPM_NAME = "selinux-targeted-setup-20201215-3.2.noarch.rpm"
-RPM_HASH = "c0ef0c3ae994dfc1b9aad4985513c975f23d8416e0303050c8094303db1319912218780074b2efb56691ca61010b6089db0ecefde948390483fe07e6f4a30aa1"
+RPM_NAME = "selinux-targeted-setup-20201215-3.10.noarch.rpm"
+RPM_HASH = "5bf221a8ed7f05f197901fd23c3a98a4518db93eca24642f89a46fdb10157bf483f7ce84a296ff1db3548abf7c1ae2469f503178e7a1291659998d82305551bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "selinux-targeted-setup"

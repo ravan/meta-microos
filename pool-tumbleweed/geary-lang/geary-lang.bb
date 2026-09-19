@@ -2,10 +2,10 @@ SUMMARY = "Translations for package geary"
 DESCRIPTION = "Provides translations for the 'geary' package."
 LICENSE = "BSD-2-Clause & CC-BY-3.0 & LGPL-2.1-or-later"
 
-PV = "44.1"
+PV = "46.0+109"
 
-RPM_NAME = "geary-lang-44.1-1.1.noarch.rpm"
-RPM_HASH = "4e2693702cb801b37a7b6d52bb968b0e867f90cb91df862662ee4b738a5f89249afa859919ae2c43f4bb4f7926e49174dfa32634508416ddc267f38408e7ded7"
+RPM_NAME = "geary-lang-46.0+109-3.3.noarch.rpm"
+RPM_HASH = "00cac7bffb6cf71e7b0eb911d870fad0ea137ebe8d4480efff5c9f3b0ed60eccac365ad731cd446df45837d2864ebbd604287a2bda0bb26db506f435aed13ad4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geary-lang \
@@ -36,6 +36,7 @@ locale-geary-hu \
 locale-geary-id \
 locale-geary-it \
 locale-geary-ja \
+locale-geary-ka \
 locale-geary-kk \
 locale-geary-km \
 locale-geary-lt \

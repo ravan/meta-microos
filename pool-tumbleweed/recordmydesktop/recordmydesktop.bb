@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.4.0"
 
-RPM_NAME = "recordmydesktop-0.4.0-1.10.aarch64.rpm"
-RPM_HASH = "6b94f5a8083264c9f2d48043a6989c66649fdbeceed8e2ead3a835ba656f2b333824c883d156a6951b330add953f42260ad66539bd9c9efff06b42d417ecadc7"
+RPM_NAME = "recordmydesktop-0.4.0-1.21.aarch64.rpm"
+RPM_HASH = "bde6f1ec267331253bd3b3631a389459b86ffdf0a71989d9a9cf36ead9b830d19be77e50e48f238c9ba5b382213cecb02f1a5691f45b741d095a79bc631acc03"
 
 RPROVIDES:${PN} += "recordmydesktop"
 
@@ -20,9 +20,10 @@ libXfixes.so.3 \
 libasound.so.2 \
 libc.so.6 \
 libjack.so.0 \
+libm.so.6 \
 libogg.so.0 \
 libpopt.so.0 \
-libtheora.so.0 \
+libtheora.so.1 \
 libvorbis.so.0 \
 libvorbisenc.so.2 \
 libz.so.1"

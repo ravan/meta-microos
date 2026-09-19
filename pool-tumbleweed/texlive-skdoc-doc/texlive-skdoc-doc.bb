@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-skdoc"
 DESCRIPTION = "This package includes the documentation for texlive-skdoc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5dsvn56950"
+PV = "2026.226.1.5esvn76924"
 
-RPM_NAME = "texlive-skdoc-doc-2023.209.1.5dsvn56950-58.1.noarch.rpm"
-RPM_HASH = "c9a9b0e26288e0f99233966ae81e92def676c25c7f958452021e5269797280c8239bcf94d3d913d711147471d69e5e422964f73aa8ceb6fefb54f2be9d3d841d"
+RPM_NAME = "texlive-skdoc-doc-2026.226.1.5esvn76924-64.2.noarch.rpm"
+RPM_HASH = "f5e685c47dbb54a6c542b585fc133b08f821381f9dbd642f7e13e0f16541841a765c655cfc7a17169af7d31779266407888cf90115abc128fd877c49f8f05b98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-skdoc-doc"

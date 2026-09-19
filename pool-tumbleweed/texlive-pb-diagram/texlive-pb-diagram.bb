@@ -2,10 +2,10 @@ SUMMARY = "A commutative diagram package using LAMSTeX or Xy-pic fonts"
 DESCRIPTION = "The pb-diagram package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.0svn15878"
+PV = "2026.226.5.0svn15878"
 
-RPM_NAME = "texlive-pb-diagram-2023.209.5.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "00046b4a48e49b952cf7e2c518df48bc8b195830d6aff81ebf1b13f53bab41c8c4bf4b59d2912c7a438cac0c36eabe5834f2ef7eefb5c026958303cd7ea4a723"
+RPM_NAME = "texlive-pb-diagram-2026.226.5.0svn15878-58.2.noarch.rpm"
+RPM_HASH = "2801e767bd5267cf61d54015f1158bbfb1909f792e017a05199fba6b249aef38d648c04cad3dec71a802cc977a5f6ce8419b886773fa6a05f95a4040816df86c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lamsarrow.sty \

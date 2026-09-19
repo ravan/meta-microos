@@ -6,14 +6,13 @@ be a conformant implementation of the IEEE Posix Shell and Tools \
 specification (IEEE Working Group 1003.2)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.15"
+PV = "5.3.15"
 
-RPM_NAME = "bash-5.2.15-8.6.aarch64.rpm"
-RPM_HASH = "52598690426d81cc7d1fc9433598587d4da4bd7d5af6c1b93c90bdbb31f2cdfd23694295f8fea73e01e112b204cfe6417b9d9aeb4ea7c0eec5c266722fc34c1f"
+RPM_NAME = "bash-5.3.15-8.2.aarch64.rpm"
+RPM_HASH = "07302e5dbef37d2921626e1ee9c9fc423f6abe1a18dccb4ae2abb81c3cb0c347692839e0d1a6d181ec37948bb4438b6c2ddcd85c929690ed47a353762bde2b11"
 
 RPROVIDES:${PN} += "/usr/bin/bash \
-bash \
-config-bash"
+bash"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

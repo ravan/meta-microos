@@ -6,10 +6,10 @@ of french thesis document; and documentation. The class assumes \
 use of biber and BibLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn39802"
+PV = "2026.226.1.2svn39802"
 
-RPM_NAME = "texlive-droit-fr-2023.209.1.2svn39802-53.1.noarch.rpm"
-RPM_HASH = "e810572e38fd22dea36c55a23c401aab7292cd636a205f03dfdccb24321353fe7105e2bcf357719b99e24bad5b78b0b2ce6d8bfb79e85afd9d9773cde5846c8f"
+RPM_NAME = "texlive-droit-fr-2026.226.1.2svn39802-59.2.noarch.rpm"
+RPM_HASH = "8e5040ee864874875d6d9a4d9a469d5e9edcd6173bd55594e8a2b073b69c628d51e401c4a189425daff2b525012e9391d0bc4ce8d7596c5de10b659da0dfe179"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-droit-fr.bbx \

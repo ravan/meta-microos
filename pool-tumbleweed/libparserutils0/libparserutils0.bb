@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.2.4"
 
-RPM_NAME = "libparserutils0-0.2.4-2.8.aarch64.rpm"
-RPM_HASH = "b380b21aa6dae41f3b576508b6db5f118a5b3e1fa3ff397e2bf9d059f067ca9e115092da5fa7ae3231c8b43a0669202c502819751cee4bebc68756ad5b60ad70"
+RPM_NAME = "libparserutils0-0.2.4-3.9.aarch64.rpm"
+RPM_HASH = "abe1ab2b1c849e90f68b843e0c939ce7d8485c8c6051e7b4ffb9546158c7b6c407dc16c331bff26f9edee0ce6b97b73dcdc45066d649868e47ca328b86d215b3"
 
 RPROVIDES:${PN} += "libparserutils.so.0 \
 libparserutils0"

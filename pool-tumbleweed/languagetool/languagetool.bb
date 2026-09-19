@@ -4,13 +4,13 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.8"
 
-RPM_NAME = "languagetool-4.8-3.2.aarch64.rpm"
-RPM_HASH = "6e286bf1e56d39331b09a96eab30a4420e195a0de73be453bacd3366b6f752a1ec8f6122514000dd42e03441eaff410f8ef8dfae4a7342c279b0492b1367fd5e"
+RPM_NAME = "languagetool-4.8-13.1.aarch64.rpm"
+RPM_HASH = "f59ac06c29b08574fc5b90c053b91db4745778113c7886154b3ed03573525714e9f6dc538f108cb7816825b49086894155bedf490ef40bcfcf02f67cf1e649f3"
 
 RPROVIDES:${PN} += "languagetool"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-akka \
+aho-corasick-double-array-trie \
 apache-commons-cli \
 apache-commons-codec \
 apache-commons-collections4 \
@@ -20,29 +20,34 @@ apache-commons-lang3 \
 apache-commons-logging \
 apache-commons-pool2 \
 apache-commons-text \
-bcel \
-berkeleylm \
 beust-jcommander \
 catalan-pos-dict \
 german-pos-dict \
+glassfish-activation-api \
+glassfish-annotation-api \
 glassfish-fastinfoset \
 glassfish-jaxb-api \
 glassfish-jaxb-runtime \
 glassfish-jaxb-txw2 \
+google-errorprone-annotations \
 guava \
-hamcrest-core \
+hamcrest \
 hppc \
 indriya \
 istack-commons-runtime \
+j2objc-annotations \
 jackson-annotations \
 jackson-core \
 jackson-databind \
-jaf \
 jafama \
+java-diff-utils \
 java-jwt \
+javassist \
 jetbrains-annotations \
+jline3 \
 jna \
-jsr-305 \
+jna-contrib \
+jspecify \
 junit \
 jwnl \
 jwordsplitter \
@@ -61,6 +66,7 @@ morfologik-stemming \
 mybatis \
 objectweb-asm \
 objenesis \
+ognl \
 opennlp-chunk-models \
 opennlp-maxent \
 opennlp-postag-models \
@@ -72,13 +78,12 @@ prometheus-simpleclient-java-common \
 prometheus-simpleclient-java-guava \
 prometheus-simpleclient-java-hotspot \
 prometheus-simpleclient-java-httpserver \
+prometheus-simpleclient-java-tracer-common \
 reflectasm \
-regexp \
 scala \
 segment \
 slf4j \
 stax-ex \
-typesafe-config \
 unit-api \
 uom-lib-common \
 xgboost \

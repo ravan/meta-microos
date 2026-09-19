@@ -4,10 +4,10 @@ bibliography and citation styles for the Business \
 Administration Department of the Free University of Berlin."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn26556"
+PV = "2026.226.0.0.02svn26556"
 
-RPM_NAME = "texlive-biblatex-bwl-2023.209.0.0.02svn26556-54.1.noarch.rpm"
-RPM_HASH = "7915abc2b81bbb8c65c4eb1d91e2df295d287b5a2dc52fb3af76735caa73738aadf5448758d2b771bc1584c4d3758cf03a94169d31c971cada2d888009358573"
+RPM_NAME = "texlive-biblatex-bwl-2026.226.0.0.02svn26556-61.2.noarch.rpm"
+RPM_HASH = "58cb7e322df0d3dd2cbca1639c91177c74835a200367fe89cbda0ef9a5981068a5a2616430886b2f794cb2d17f8559e216fc18bdcd52fd63fd78336e04faf554"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bwl-FU.bbx \

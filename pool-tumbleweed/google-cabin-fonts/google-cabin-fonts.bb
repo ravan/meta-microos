@@ -15,8 +15,8 @@ LICENSE = "OFL-1.1"
 
 PV = "3.001+git1595464381.70efa8c"
 
-RPM_NAME = "google-cabin-fonts-3.001+git1595464381.70efa8c-1.6.noarch.rpm"
-RPM_HASH = "5581b194dcc9cf1d011b68865d9116bc3e5f0b4dce9d02420a65671773f3802b6a22bf8833e9b409a832df18e463d5076e1f7e7c08734a02e14b44dd8da0e967"
+RPM_NAME = "google-cabin-fonts-3.001+git1595464381.70efa8c-1.14.noarch.rpm"
+RPM_HASH = "49ad839e04ebff15c2bc36c83d441ca4af14290cdaa488a3c426c657dfdd67c305e6ee3e929021cee3bf9be963843200207fad3383b994d3f93ff5253c24faf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-cabin-fonts"

@@ -4,10 +4,10 @@ It is used by gnome-color-manager for system integration and use when \
 there are no users logged in."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.0"
+PV = "0.3.1"
 
-RPM_NAME = "colord-gtk-0.3.0-2.1.aarch64.rpm"
-RPM_HASH = "094e740f779718975cd7c65c18d0b56f23d1fc9207433cb2edd15f02ff293ac49133e62d7531d34058b37dae34de378f9964d6014f827f6c17ec54d83831caf2"
+RPM_NAME = "colord-gtk-0.3.1-1.6.aarch64.rpm"
+RPM_HASH = "1bdccc5db1b623144d6f42179828295a4ff774891890f2e090d6a0f07adab311622932451ec38e993dc44e7fceb0a330e0e1d7390c468295fcae862794ef4b55"
 
 RPROVIDES:${PN} += "colord-gtk"
 

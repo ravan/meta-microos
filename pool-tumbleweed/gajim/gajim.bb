@@ -22,50 +22,70 @@ Features: \
  * Other features via plugins."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.8.1"
+PV = "2.4.6"
 
-RPM_NAME = "gajim-1.8.1-1.1.noarch.rpm"
-RPM_HASH = "317c44a6e54c535b2e6c45cebbc117d81eeb33e41591173673d9a589107fcb04f0245d5abf89f4ca2b268cda43a62f3675a2c28cb705a46b4c9d7c6e4df6648a"
+RPM_NAME = "gajim-2.4.6-1.2.noarch.rpm"
+RPM_HASH = "66b1b8eccd10591ad88e76e7e1cf3b0cdd64586ac535a910348ad6fe73583f34439addee6ca592a6393b59aa568906944f87a04d55683591641490a8774752f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gajim \
-python3.11dist-gajim \
+python3.13dist-gajim \
 python3dist-gajim"
 
-RDEPENDS:${PN} += "-python3.11dist(nbxmpp) < 5 with python3.11dist(nbxmpp) >= 4.3 \
--python3.11dist(omemo-dr) < 2 with python3.11dist(omemo-dr) >= 1 \
-/usr/bin/python3.11 \
+RDEPENDS:${PN} += "-python3.13dist(nbxmpp) < 8 with python3.13dist(nbxmpp) >= 7.2 \
+-python3.13dist(omemo-dr) < 2 with python3.13dist(omemo-dr) >= 1.2 \
+/usr/bin/python3.13 \
 ca-certificates-mozilla \
 python-abi \
-python3.11dist-cryptography \
-python3.11dist-css-parser \
-python3.11dist-gssapi \
-python3.11dist-keyring \
-python3.11dist-omemo-dr \
-python3.11dist-packaging \
-python3.11dist-pillow \
-python3.11dist-precis-i18n \
-python3.11dist-pycairo \
-python3.11dist-pygobject \
-python3.11dist-qrcode \
-python311-gobject-Gdk \
-python311-gobject-cairo \
-typelib-AyatanaAppIndicator3 \
+python3-base \
+python3.13dist-cryptography \
+python3.13dist-css-parser \
+python3.13dist-emoji \
+python3.13dist-httpx \
+python3.13dist-keyring \
+python3.13dist-packaging \
+python3.13dist-pillow \
+python3.13dist-precis-i18n \
+python3.13dist-pycairo \
+python3.13dist-pygobject \
+python3.13dist-qrcode \
+python3.13dist-sqlalchemy \
+python3.13dist-truststore \
+python313-Pillow \
+python313-SQLAlchemy \
+python313-cryptography \
+python313-css-parser \
+python313-emoji \
+python313-gobject-Gdk \
+python313-gobject-cairo \
+python313-gssapi \
+python313-httpx \
+python313-keyring \
+python313-nbxmpp \
+python313-omemo-dr \
+python313-packaging \
+python313-precis-i18n \
+python313-qrcode \
+python313-truststore \
+sqlite3 \
+typelib-Adw \
 typelib-Farstream \
 typelib-GLib \
 typelib-GObject \
-typelib-GSound \
 typelib-Gdk \
 typelib-GdkPixbuf \
+typelib-GdkX11 \
 typelib-Geoclue \
 typelib-Gio \
-typelib-Gspell \
+typelib-Graphene \
+typelib-Gsk \
 typelib-Gst \
 typelib-GstPbutils \
 typelib-Gtk \
 typelib-GtkSource \
 typelib-Pango \
 typelib-PangoCairo \
-typelib-Soup"
+typelib-Soup \
+typelib-Spelling"
 
 inherit rpm

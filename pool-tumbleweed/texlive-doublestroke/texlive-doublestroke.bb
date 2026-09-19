@@ -8,10 +8,10 @@ in Adobe Type 1 format, and LaTeX macros for its use are \
 provided. The fonts appear in the blackboard bold sampler."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.111svn15878"
+PV = "2026.226.1.111svn77682"
 
-RPM_NAME = "texlive-doublestroke-2023.209.1.111svn15878-53.1.noarch.rpm"
-RPM_HASH = "ec6faf32c09489bee923d94a6d8cb5bd0bcede014d24ceb60c9f4c9d0a878e877d1e027d31f0445f38e87953f2e330360a201e4cdc1190bd8438cacdeba80e8c"
+RPM_NAME = "texlive-doublestroke-2026.226.1.111svn77682-59.2.noarch.rpm"
+RPM_HASH = "547beb0259ac9565f5a1a5405bbd2471e5b6c7824bcd721aa11c68fe8b97afa99aae93589100f718d09e742aeb7859ce5ade35006bff610083f8e61bf1992ba9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Udsrom.fd \

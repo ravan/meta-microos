@@ -7,10 +7,10 @@ DVI files). The DTL bundle was developed so as to avoid some \
 infelicities of dvitype (among other pressing reasons)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.0.0.6.1svn62387"
+PV = "2026.226.0.0.6.1svn62387"
 
-RPM_NAME = "texlive-dtl-2023.209.0.0.6.1svn62387-53.1.noarch.rpm"
-RPM_HASH = "484e5647d7a1db93de4db13fa472a3650482d80fcabafc9e439acb78ee1e183651264c7f19df89bde21bd118493486ef15f8747107f4d6d5965fbf6148783316"
+RPM_NAME = "texlive-dtl-2026.226.0.0.6.1svn62387-59.2.noarch.rpm"
+RPM_HASH = "369554b04b230c3ea5d399b9760c3005987df7f49088ecf6b6e0fd242faeaaa1767f90b8cf05f20b0109d132a665e42df643d659812d73bf8bfa94b7cffbd81c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dt2dv.1 \

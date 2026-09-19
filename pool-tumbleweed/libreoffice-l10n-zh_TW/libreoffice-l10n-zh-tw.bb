@@ -2,10 +2,10 @@ SUMMARY = "Traditional_Chinese localization files for LibreOffice"
 DESCRIPTION = "Provides Traditional_Chinese translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-zh_TW-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "74d42ca62b884382bab76e6d719961d1d2dda609ae7f1f2cad14c738f4f86cdc56c304308d99446512f137facc905eee907655e6ffa410f094dd00e8ca193d1d"
+RPM_NAME = "libreoffice-l10n-zh_TW-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "2bc296b48e753690142db6eb6a53fcc279c2fd7993d4ea968c0286822e7bae6530da541e919fe8631fe1cfc708c7a6eee60117739b196eafe12cf4176d054ac6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-zh-Hant \

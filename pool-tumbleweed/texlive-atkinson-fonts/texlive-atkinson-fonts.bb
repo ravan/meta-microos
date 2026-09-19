@@ -2,25 +2,31 @@ SUMMARY = "Severed fonts for texlive-atkinson"
 DESCRIPTION = "The  separated fonts package for texlive-atkinson"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64385"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-atkinson-fonts-2023.209.svn64385-54.1.noarch.rpm"
-RPM_HASH = "7b70d02c14c8d0204dcd2babe0c7015189f0ee31aa99987ce1ae129cf7550a9cd1af5c46bca1d079381441183f37c10b1090b8d942fc07a51854b874ab29c075"
+RPM_NAME = "texlive-atkinson-fonts-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "c0f494119ddf7868a9c6abd69f12aac888d17594bbbf16d1562bb22e59223d629e5646c540c0309c2b07e1723f525e805f60f1cc92cffc9607064892e159ac96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-atkinson-fonts \
 font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=bs \
 font--lang=ch \
 font--lang=co \
+font--lang=crh \
 font--lang=cs \
 font--lang=csb \
+font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=en \
 font--lang=es \
 font--lang=et \
@@ -52,8 +58,11 @@ font--lang=ku-tr \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
 font--lang=lt \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=mt \
 font--lang=nb \
@@ -64,6 +73,7 @@ font--lang=nn \
 font--lang=no \
 font--lang=nr \
 font--lang=nso \
+font--lang=ny \
 font--lang=oc \
 font--lang=om \
 font--lang=pap-an \
@@ -90,18 +100,35 @@ font--lang=sw \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
+font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-atkinsn \
-font-atkinsonhyperlegible \
+font-atkinsnmono \
+font-atkinsonhyperlegiblemono \
+font-atkinsonhyperlegiblemonoexbd \
+font-atkinsonhyperlegiblemonoexlight \
+font-atkinsonhyperlegiblemonolight \
+font-atkinsonhyperlegiblemonomedium \
+font-atkinsonhyperlegiblemonosmbd \
+font-atkinsonhyperlegiblenext \
+font-atkinsonhyperlegiblenextexbd \
+font-atkinsonhyperlegiblenextexlight \
+font-atkinsonhyperlegiblenextlight \
+font-atkinsonhyperlegiblenextmedium \
+font-atkinsonhyperlegiblenextsmbd \
 texlive-atkinson-fonts"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

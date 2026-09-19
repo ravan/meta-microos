@@ -4,10 +4,10 @@ running cross compiled applications while building \
 packages, for example cross compiled test"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "1.3.3"
 
-RPM_NAME = "mingw64-cross-wine-1.3.2-1.1.noarch.rpm"
-RPM_HASH = "43d092803341f9925643237d8c08009d063b50532799f57a027063e3b3ee699df16a0aa0cf61766b95e9bfc34aff18489b2bcaaf327c4b93ed14d0f8c0e7b472"
+RPM_NAME = "mingw64-cross-wine-1.3.3-1.5.noarch.rpm"
+RPM_HASH = "c4aba698fb887b49f1210208c9b1bcbf6d70847e01ec2847bfc4ca505732690c7535fc6f7850af1103ce1d37a33877754253a8f008417cd2127068eaee07b624"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-cross-wine \

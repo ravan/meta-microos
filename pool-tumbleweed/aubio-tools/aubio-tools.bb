@@ -2,10 +2,10 @@ SUMMARY = "Example programs for aubio library"
 DESCRIPTION = "This package includes the example programs for aubio library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.4.9"
+PV = "0.4.9+git376"
 
-RPM_NAME = "aubio-tools-0.4.9-10.1.aarch64.rpm"
-RPM_HASH = "618939b25ad32439e72f21137bc9e306fbc77292b14e35d2cfb32afc11bd8738e92b04f75ed91255460fce91f61095c0565bcb50aa3f878f184134b23d4e24e7"
+RPM_NAME = "aubio-tools-0.4.9+git376-1.1.aarch64.rpm"
+RPM_HASH = "ff140c6a8071cf4e6abc2427a89f27ccb7cba7513c42c9aa3696a01a1f24bddf434496ec46508388dd1d9932e6430f89c7430220d9ee917a941fa4bebdfc5962"
 
 RPROVIDES:${PN} += "aubio-tools"
 

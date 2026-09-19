@@ -5,10 +5,10 @@ illuminated with plenty of illustrations together with their \
 source code, making it an easy read."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.04svn39077"
+PV = "2026.226.2.07svn74874"
 
-RPM_NAME = "texlive-pst-labo-2023.209.2.04svn39077-53.1.noarch.rpm"
-RPM_HASH = "d2ffda129a49503b50bc50e4bc15c470609032dc8ca9e9ff8136050c0ee14a8dacd639433cc694855e4fafa0d51577b979ef4536bb1a44dda992cc89b39f2d78"
+RPM_NAME = "texlive-pst-labo-2026.226.2.07svn74874-59.2.noarch.rpm"
+RPM_HASH = "d60641c8093a11444e4c251dea71863f9a8d01013acafd64f4cbb1f7c3329a439403bfc57be47039aa0dadb3291dbf6aa786d80e1664d36da205f70c52ad04d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-labo.sty \

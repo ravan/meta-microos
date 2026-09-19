@@ -4,10 +4,10 @@ Applied Sciences (THUAS). These Logos are available in English \
 and in Dutch. They are rendered via PGF."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn51347"
+PV = "2026.227.1.2svn51347"
 
-RPM_NAME = "texlive-thuaslogos-2023.209.1.2svn51347-55.1.noarch.rpm"
-RPM_HASH = "7d775f0837aa69fb30bea5cbbaf4eb8a8fbe11dc7a4a133a04e5c402f73234bfc47586d314b73c73ed9aaf23df2fc3640a73103d74151eb61f8b0bf0f7afd073"
+RPM_NAME = "texlive-thuaslogos-2026.227.1.2svn51347-62.2.noarch.rpm"
+RPM_HASH = "3b4614ade095a69797af5b05a1e4546236e183540fec32cf94d57f4a85bee8cf07b08331dd5a8ba2823f3371b5ec011c18631e7155f75c93c2b1e3cb2f47adcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thuaslogos.sty \

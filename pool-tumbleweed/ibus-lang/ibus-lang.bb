@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ibus"
 DESCRIPTION = "Provides translations for the 'ibus' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.5.28"
+PV = "1.5.34"
 
-RPM_NAME = "ibus-lang-1.5.28-2.2.noarch.rpm"
-RPM_HASH = "d575e6809bcab14e1fb51076371e9256760c296ca35ecf857546f95b6c1765269bd38153d39a828caea27007e23321c0cc3423b8d617397906ec83b393079816"
+RPM_NAME = "ibus-lang-1.5.34-2.1.noarch.rpm"
+RPM_HASH = "30bdb1cea9afdad32065c71c54a49f6a7df299f633189d0095b05f51c69718e367fd4c6445e7738beba41de321c124b4a01b4e5aeb928ceb9297d912a1661d10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-lang \
@@ -19,6 +19,7 @@ locale-ibus-ca \
 locale-ibus-cs \
 locale-ibus-da \
 locale-ibus-de \
+locale-ibus-el \
 locale-ibus-en-GB \
 locale-ibus-es \
 locale-ibus-et \
@@ -35,6 +36,7 @@ locale-ibus-id \
 locale-ibus-it \
 locale-ibus-ja \
 locale-ibus-ka \
+locale-ibus-kk \
 locale-ibus-kn \
 locale-ibus-ko \
 locale-ibus-lv \
@@ -48,6 +50,7 @@ locale-ibus-pa \
 locale-ibus-pl \
 locale-ibus-pt \
 locale-ibus-pt-BR \
+locale-ibus-ro \
 locale-ibus-ru \
 locale-ibus-sq \
 locale-ibus-sr \

@@ -9,10 +9,10 @@ inspect your network arp traffic, and find network addresses using auto scan \
 mode, which will scan for common local networks."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.10"
+PV = "0.21"
 
-RPM_NAME = "netdiscover-0.10-1.5.aarch64.rpm"
-RPM_HASH = "436b4993de68cca28b2f873325b1b33eba472da298fe6545633b1f390f4d96b1a4bcce404217cd83bccd7b4436bf47ac4a356b3042ec05c75397762c2fd68795"
+RPM_NAME = "netdiscover-0.21-1.5.aarch64.rpm"
+RPM_HASH = "d572d5dbeb3ccff08fe892481a86067860e5403b8ca943da39f94787394f7ac80c488b4af191d5202391eb2a7b3190b80e5e5a6728b4f824ecf438652e4ea7e5"
 
 RPROVIDES:${PN} += "netdiscover"
 

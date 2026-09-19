@@ -4,10 +4,10 @@ moderately complex UML (Universal Modelling Language) diagrams. \
 (The PDF documentation is written in French.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.83svn15878"
+PV = "2026.226.0.0.83svn15878"
 
-RPM_NAME = "texlive-pst-uml-2023.209.0.0.83svn15878-54.2.noarch.rpm"
-RPM_HASH = "7c138bcab46e980da9f4ecea755cdc36de77ab6fe7e38d33b28146f4d8fbfa98d99ee727fd9e93879b4b5225d1c18a44a2de6279b5256e57ac3ff2ee24db03d6"
+RPM_NAME = "texlive-pst-uml-2026.226.0.0.83svn15878-60.4.noarch.rpm"
+RPM_HASH = "76dffcb8aeda3607220678b8ba6b6c99209b38681d2aa6b3ff8132068ff9ea5558a157fba048c8d772ffa8a8c105c759bf86e441f940395bd1fbf7ce80165bfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-uml.sty \

@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3"
 
-RPM_NAME = "ghc-temporary-prof-1.3-6.3.aarch64.rpm"
-RPM_HASH = "9c6475afdf9bbf5a7583f97c6f5b3787232915ff0ec0b71302f3a4907342d9bdb04b5ca0ffd6715dc0cd32a3d0b6774a0f507379640e3b408883b0dc412fdc88"
+RPM_NAME = "ghc-temporary-prof-1.3-6.30.aarch64.rpm"
+RPM_HASH = "c7b277eaae93546b1451a36c92071a2e8c727f69b7a4816a8bf1de65181851952205b3de3fdd9a1619b56075ebe340dbfa990767bff983d21d57a7d7078be9f7"
 
-RPROVIDES:${PN} += "ghc-prof-temporary-1.3-Ezu2TwUgvSS2TpaVIHxXuR \
+RPROVIDES:${PN} += "ghc-prof-temporary-1.3-2Osk9MNG2oU9jER7tTbSTz \
 ghc-temporary-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-exceptions-0.10.5 \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unix-2.7.3 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-exceptions-0.10.12-f655 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-random-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-unix-2.8.8.0-178a \
 ghc-temporary-devel"
 
 inherit rpm

@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "docbook-css-stylesheets-0.4-161.16.noarch.rpm"
-RPM_HASH = "6dd39c49cab4495dfc0c3b19e4601a22408755f234515756ad70aee8d428dd0108b72f13da712ebced3f4c2387b082ca12e3cdb2194eaad37112898a84003c2e"
+RPM_NAME = "docbook-css-stylesheets-0.4-161.24.noarch.rpm"
+RPM_HASH = "13a89394e5c720cdba9e49a53b786cf4b0fe627586825c38f14af27ac8429be289c4cf5a366d545d0c0b2c98c21b9110239b62a7fdfe319eedb8909338adda63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-css-stylesheets"

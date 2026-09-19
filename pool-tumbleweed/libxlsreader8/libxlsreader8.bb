@@ -3,10 +3,10 @@ DESCRIPTION = "libxlsreader is a C library which can read Excel (xls) files sinc
 97 (the BIFF8 format). libxlsreader cannot write Excel files."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.6.2"
+PV = "1.6.3"
 
-RPM_NAME = "libxlsreader8-1.6.2-3.6.aarch64.rpm"
-RPM_HASH = "55a8f3f5f19046eeb8ee581d9332f44e6feb6a80bf14605346c374cffd7e93b978bdb162763232850ed981584378003d77473ba8aebc813115beacd92793213f"
+RPM_NAME = "libxlsreader8-1.6.3-1.7.aarch64.rpm"
+RPM_HASH = "1a51f6563a67d17e4b5eda508acc216bc07c57f381d73a411a141d8b0e0948162dcd933cee491dda33227d12af434a956693fb2841872dbedbb3315ed3c44bd4"
 
 RPROVIDES:${PN} += "libxlsreader.so.8 \
 libxlsreader8"

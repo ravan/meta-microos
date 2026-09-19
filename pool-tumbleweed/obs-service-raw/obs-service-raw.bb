@@ -1,0 +1,159 @@
+SUMMARY = "OBS Source Service for raw"
+DESCRIPTION = "Utility to raw decompress tape archives to unarchived sources."
+LICENSE = "MPL-2.0"
+
+PV = "10.0.2"
+
+RPM_NAME = "obs-service-raw-10.0.2-1.11.aarch64.rpm"
+RPM_HASH = "a0bd54abfc1bba5a91107831ee65012c98b3680452ffd8cf73e76f84f8ae215d68c3e8981cb60af7ab5455402c36eb9a5ca4fe38dc3d1605f4bca83ac920e4f7"
+
+RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
+bundled-rust-crate-adler2 \
+bundled-rust-crate-aho-corasick \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
+bundled-rust-crate-autocfg \
+bundled-rust-crate-backtrace \
+bundled-rust-crate-bitflags \
+bundled-rust-crate-byteorder \
+bundled-rust-crate-bzip2 \
+bundled-rust-crate-bzip2-sys \
+bundled-rust-crate-cc \
+bundled-rust-crate-cfb \
+bundled-rust-crate-cfg-if \
+bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
+bundled-rust-crate-clap-complete \
+bundled-rust-crate-clap-derive \
+bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
+bundled-rust-crate-crc32fast \
+bundled-rust-crate-crossbeam-deque \
+bundled-rust-crate-crossbeam-epoch \
+bundled-rust-crate-crossbeam-utils \
+bundled-rust-crate-displaydoc \
+bundled-rust-crate-either \
+bundled-rust-crate-errno \
+bundled-rust-crate-fastrand \
+bundled-rust-crate-filetime \
+bundled-rust-crate-find-msvc-tools \
+bundled-rust-crate-flate2 \
+bundled-rust-crate-fnv \
+bundled-rust-crate-form-urlencoded \
+bundled-rust-crate-getrandom \
+bundled-rust-crate-gimli \
+bundled-rust-crate-git2 \
+bundled-rust-crate-glob \
+bundled-rust-crate-heck \
+bundled-rust-crate-hifitime \
+bundled-rust-crate-icu-collections \
+bundled-rust-crate-icu-locale-core \
+bundled-rust-crate-icu-normalizer \
+bundled-rust-crate-icu-normalizer-data \
+bundled-rust-crate-icu-properties \
+bundled-rust-crate-icu-properties-data \
+bundled-rust-crate-icu-provider \
+bundled-rust-crate-idna \
+bundled-rust-crate-idna-adapter \
+bundled-rust-crate-infer \
+bundled-rust-crate-is-terminal-polyfill \
+bundled-rust-crate-jobserver \
+bundled-rust-crate-lazy-static \
+bundled-rust-crate-lexical-core \
+bundled-rust-crate-lexical-parse-float \
+bundled-rust-crate-lexical-parse-integer \
+bundled-rust-crate-lexical-util \
+bundled-rust-crate-libc \
+bundled-rust-crate-libgit2-sys \
+bundled-rust-crate-libm \
+bundled-rust-crate-libroast \
+bundled-rust-crate-libssh2-sys \
+bundled-rust-crate-libz-sys \
+bundled-rust-crate-linux-raw-sys \
+bundled-rust-crate-litemap \
+bundled-rust-crate-log \
+bundled-rust-crate-lzma-sys \
+bundled-rust-crate-matchers \
+bundled-rust-crate-memchr \
+bundled-rust-crate-minimal-lexical \
+bundled-rust-crate-miniz-oxide \
+bundled-rust-crate-nom \
+bundled-rust-crate-nu-ansi-term \
+bundled-rust-crate-num-traits \
+bundled-rust-crate-object \
+bundled-rust-crate-once-cell \
+bundled-rust-crate-openssl-probe \
+bundled-rust-crate-openssl-sys \
+bundled-rust-crate-percent-encoding \
+bundled-rust-crate-phf \
+bundled-rust-crate-phf-codegen \
+bundled-rust-crate-phf-generator \
+bundled-rust-crate-phf-shared \
+bundled-rust-crate-pin-project-lite \
+bundled-rust-crate-pkg-config \
+bundled-rust-crate-potential-utf \
+bundled-rust-crate-proc-macro2 \
+bundled-rust-crate-quote \
+bundled-rust-crate-rand \
+bundled-rust-crate-rand-core \
+bundled-rust-crate-rayon \
+bundled-rust-crate-rayon-core \
+bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
+bundled-rust-crate-regex-syntax \
+bundled-rust-crate-roast-cli \
+bundled-rust-crate-rustc-demangle \
+bundled-rust-crate-rustix \
+bundled-rust-crate-serde \
+bundled-rust-crate-serde-core \
+bundled-rust-crate-serde-derive \
+bundled-rust-crate-sharded-slab \
+bundled-rust-crate-shlex \
+bundled-rust-crate-siphasher \
+bundled-rust-crate-smallvec \
+bundled-rust-crate-snafu \
+bundled-rust-crate-snafu-derive \
+bundled-rust-crate-stable-deref-trait \
+bundled-rust-crate-strsim \
+bundled-rust-crate-syn \
+bundled-rust-crate-synstructure \
+bundled-rust-crate-tar \
+bundled-rust-crate-tempfile \
+bundled-rust-crate-terminal-size \
+bundled-rust-crate-terminfo \
+bundled-rust-crate-thread-local \
+bundled-rust-crate-tinystr \
+bundled-rust-crate-tracing \
+bundled-rust-crate-tracing-attributes \
+bundled-rust-crate-tracing-core \
+bundled-rust-crate-tracing-log \
+bundled-rust-crate-tracing-subscriber \
+bundled-rust-crate-unicode-ident \
+bundled-rust-crate-url \
+bundled-rust-crate-utf8-iter \
+bundled-rust-crate-utf8parse \
+bundled-rust-crate-uuid \
+bundled-rust-crate-vcpkg \
+bundled-rust-crate-web-time \
+bundled-rust-crate-writeable \
+bundled-rust-crate-xattr \
+bundled-rust-crate-xz2 \
+bundled-rust-crate-yoke \
+bundled-rust-crate-yoke-derive \
+bundled-rust-crate-zerofrom \
+bundled-rust-crate-zerofrom-derive \
+bundled-rust-crate-zerotrie \
+bundled-rust-crate-zerovec \
+bundled-rust-crate-zerovec-derive \
+bundled-rust-crate-zstd \
+bundled-rust-crate-zstd-safe \
+bundled-rust-crate-zstd-sys \
+obs-service-raw"
+
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+libzstd.so.1"
+
+inherit rpm

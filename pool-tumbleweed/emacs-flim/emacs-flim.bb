@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.14.9+136+g2cf5a78"
 
-RPM_NAME = "emacs-flim-1.14.9+136+g2cf5a78-1.1.noarch.rpm"
-RPM_HASH = "5aee53c0ad740ec17b560aa6cab1d6c00a9d84da5a9b86bcd5f18dd7fa75cba00ee2fe65f75b135e091c081920d5cdb37e3304257a68b100f6c2182533cde8b3"
+RPM_NAME = "emacs-flim-1.14.9+136+g2cf5a78-3.7.noarch.rpm"
+RPM_HASH = "be6ae874477a6bdefb63c4d68f371bf6be5fb57468f9fb53df5a0993d7d6ce58e85c186a8915ca079a6d0191f9ee04c72fd11768cbf2a3ae890a7526e94f6a27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-flim \

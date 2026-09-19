@@ -4,29 +4,27 @@ clients to view and capture detailed real-time performance metrics for \
 one or more cluster nodes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "ctdb-pcp-pmda-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "0cd76e30b2dea187ad904687bc716373f37321ba3a09496df7f6d4950411a8ea10f40030dcb4181f425ecb5890f18e21a97dd44a08a295e199d4cd7217bf1b3e"
+RPM_NAME = "ctdb-pcp-pmda-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "e7a17f67fe897db922f9a779fe12f29c54ebb9be77517295d2ff8e015afa913887e3923dccb9150d9a745260c5ac71d7ed95a172bdd8655cbdfc7fbdd9276a78"
 
 RPROVIDES:${PN} += "ctdb-pcp-pmda"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libiov-buf-samba4.so \
 libpcp-pmda.so.3 \
 libpcp.so.3 \
 libpopt.so.0 \
-libreplace-samba4.so \
-libsamba-debug-samba4.so \
+libsamba-debug-private-samba.so \
 libsamba-util.so.0 \
-libsocket-blocking-samba4.so \
-libsys-rw-samba4.so \
+libsocket-blocking-private-samba.so \
+libsys-rw-private-samba.so \
 libtalloc.so.2 \
-libtdb-wrap-samba4.so \
+libtdb-wrap-private-samba.so \
 libtdb.so.1 \
 libtevent-util.so.0 \
 libtevent.so.0 \
-libtime-basic-samba4.so"
+libtime-basic-private-samba.so"
 
 inherit rpm

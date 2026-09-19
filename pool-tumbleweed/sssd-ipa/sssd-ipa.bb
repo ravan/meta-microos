@@ -1,12 +1,12 @@
 SUMMARY = "FreeIPA backend plugin for sssd"
-DESCRIPTION = "Provides the IPA back end that the SSSD can utilize to fetch identity \
-data from and authenticate against an IPA server."
+DESCRIPTION = "A back-end provider that the SSSD can utilize to fetch identity data \
+from, and authenticate with, an IPA server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.2"
+PV = "2.13.1"
 
-RPM_NAME = "sssd-ipa-2.9.2-1.1.aarch64.rpm"
-RPM_HASH = "78af97c19d29062ac13bb0310cd255d93fe2af207f579e192a06030168c5ca125bf976b219f4dc0a161db0ac4bbb626e47e894d3fc1ba48246ce539b04c9c38e"
+RPM_NAME = "sssd-ipa-2.13.1-2.1.aarch64.rpm"
+RPM_HASH = "38780eeffd43f38447ae1e0ee4436e542bebea1a7b1beebb4c7777c7c116261ba16a5e3fecf9629caaafa6c75d3e7636403c11450035bffad8c2b4572375015d"
 
 RPROVIDES:${PN} += "libsss-ipa.so \
 sssd-ipa \
@@ -21,7 +21,7 @@ libldap.so.2 \
 libldb.so.2 \
 libndr-krb5pac.so.0 \
 libndr-nbt.so.0 \
-libndr.so.3 \
+libndr.so.6 \
 libsss-child.so \
 libsss-crypt.so \
 libsss-debug.so \

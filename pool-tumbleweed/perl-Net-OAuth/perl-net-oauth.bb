@@ -1,11 +1,11 @@
 SUMMARY = "OAuth 1.0 for Perl"
 DESCRIPTION = "OAuth 1.0 for Perl"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.28"
+PV = "0.330.0"
 
-RPM_NAME = "perl-Net-OAuth-0.28-5.27.noarch.rpm"
-RPM_HASH = "2184aa5b405e118b79f65b4a83144321381390dffd2e08432a142fc0a2a4db39035bc1505cf02fe0c1a307a4e564e38af480019176ee6b850beff2d1e70c3666"
+RPM_NAME = "perl-Net-OAuth-0.330.0-1.1.noarch.rpm"
+RPM_HASH = "2014a87d16cc3f5721dfe84051a1290b0f4778be703c8a75f8ef64bbac84f34f1cfd4d84e85905b36242f37f53f4cb852c03d3ff9d68f607526ba40728f15194"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--OAuth \
@@ -20,6 +20,7 @@ perl-Net--OAuth--Request \
 perl-Net--OAuth--RequestTokenRequest \
 perl-Net--OAuth--RequestTokenResponse \
 perl-Net--OAuth--Response \
+perl-Net--OAuth--SignatureMethod \
 perl-Net--OAuth--SignatureMethod--HMAC-SHA1 \
 perl-Net--OAuth--SignatureMethod--HMAC-SHA256 \
 perl-Net--OAuth--SignatureMethod--PLAINTEXT \
@@ -34,14 +35,15 @@ perl-Net--OAuth--XauthAccessTokenRequest \
 perl-Net--OAuth--YahooAccessTokenRefreshRequest \
 perl-Net-OAuth"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Accessor \
 perl-Class--Data--Inheritable \
-perl-Digest--HMAC-SHA1 \
+perl-Crypt--SysRandom \
 perl-Digest--SHA \
-perl-Digest--SHA1 \
 perl-Encode \
 perl-LWP--UserAgent \
-perl-URI--Escape"
+perl-Test--More \
+perl-Test--Warn \
+perl-URI"
 
 inherit rpm

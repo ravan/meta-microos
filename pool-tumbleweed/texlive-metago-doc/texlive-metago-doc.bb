@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-metago"
 DESCRIPTION = "This package includes the documentation for texlive-metago"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9svn15878"
+PV = "2026.226.0.0.9svn78101"
 
-RPM_NAME = "texlive-metago-doc-2023.209.0.0.9svn15878-55.1.noarch.rpm"
-RPM_HASH = "6178aad4ab76e8bb274f01acc135e3a8e52833807341208498664a365dff07da641e8903f4c7f305acc716a33d2b2975ea258aef453bf8a236accaf1fbbac8a4"
+RPM_NAME = "texlive-metago-doc-2026.226.0.0.9svn78101-61.2.noarch.rpm"
+RPM_HASH = "5ee81533176539dd29faaf508031c50722ccc8d18718c76f460393b9ea87a43043fa9be4f80a78cdb9e02e44dcc41e262b9d8624b7b9c814ceda5eec529fbad5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metago-doc"

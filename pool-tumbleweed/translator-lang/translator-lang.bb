@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "translator-lang-1.4.1-1.20.noarch.rpm"
-RPM_HASH = "ecf4fcc09ae97bc0eba744b41ea36ee4dfd207c6108fc7d025ff165cd0fb9c14e97062d5de375b23dbb6b06c7781d401de0228c720e327204e62f9fe5e7f2469"
+RPM_NAME = "translator-lang-1.4.1-2.9.noarch.rpm"
+RPM_HASH = "811d89db0c4afae991a5c84dc1c8022472fd99716e643460e0c80bef9248943cedb68132782bbea2e9981e7ada775eabcd51be282f649aa8a88a4d0bb00f90eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-translator-af \

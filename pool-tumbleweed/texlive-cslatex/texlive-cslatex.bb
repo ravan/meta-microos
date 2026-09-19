@@ -2,10 +2,10 @@ SUMMARY = "LaTeX support for Czech/Slovak typesetting"
 DESCRIPTION = "The cslatex package"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn67494"
 
-RPM_NAME = "texlive-cslatex-2023.209.svn66186-55.1.noarch.rpm"
-RPM_HASH = "d53b4ee216314762665df848ef2457eff7fa2e6db30b4cfb6cc9059ce7e1bffdf2fcc183b298bbe4b70879b777439cf4c5e5090c036df6b25bdc13e3378091a3"
+RPM_NAME = "texlive-cslatex-2026.226.svn67494-61.2.noarch.rpm"
+RPM_HASH = "0905b22b6b97f65511e4552abd121a755647438df672eeb1aec87a531e39beb3e25f87e2ae51909ce6f61d25bcb239cc85631dcd04041221ce203da633e982b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cspsfont.tex \
@@ -60,7 +60,6 @@ texlive \
 texlive-atbegshi \
 texlive-atveryend \
 texlive-cm \
-texlive-cslatex-bin \
 texlive-csplain \
 texlive-everyshi \
 texlive-filesystem \

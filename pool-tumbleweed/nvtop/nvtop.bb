@@ -6,10 +6,10 @@ It can handle multiple GPUs and print information about them in a htop familiar 
 way."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.0.2+2"
+PV = "3.3.2"
 
-RPM_NAME = "nvtop-3.0.2+2-1.1.aarch64.rpm"
-RPM_HASH = "4e0be26edcd5a8894e0507b10c5f9a0cce222b339bc18b360417c71682b85ed87de13cad09dc6dc2546402658ae9cd4fa90baae9caea7feb71c9e1547a955c28"
+RPM_NAME = "nvtop-3.3.2-1.4.aarch64.rpm"
+RPM_HASH = "e60787265ff88c4fc09146797a23f390e42fd0412b7d9f0c38e7d9d20b5e4606ef482594b5ff4dfbfe12baf9b83367323e006ff817f8ed3b86b734110fd9a557"
 
 RPROVIDES:${PN} += "nvtop"
 

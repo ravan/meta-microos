@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about other installed pmdas."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-summary-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "b40966ec762cf83c81190f1f32fecdabfd1fa92e058424b891c4d917068b32907f191e6fdf624e930b1f4aad46369a3f506e3b8c4df1bfa0d3fe8c98f32876dd"
+RPM_NAME = "pcp-pmda-summary-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "bdbb0d1463c73e43e026c5d10274232ab29a40b39a16872c1784db7e1ecd168f5c16c57ef11e669a565143465a17fc54757977e812a1f6efb04f26b125442fe4"
 
 RPROVIDES:${PN} += "config-pcp-pmda-summary \
 pcp-pmda-summary"

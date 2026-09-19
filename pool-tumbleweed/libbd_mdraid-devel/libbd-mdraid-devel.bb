@@ -3,16 +3,16 @@ DESCRIPTION = "This package contains header files and pkg-config files needed fo
 with the libbd_mdraid plugin/library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libbd_mdraid-devel-2.28-1.6.aarch64.rpm"
-RPM_HASH = "050b3440c4010abcfffd61a8e52a69d92c0d286ef7b4998939dc3eb9817364b015860fcf847998fbf37ee2432d90b181a37450d24b722c953dc06ddf92d7c3a3"
+RPM_NAME = "libbd_mdraid-devel-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "a5ffbd73ae357a43b2a67a579e9538eb202ead86e12c53b8b64744443a2cc8db665fc24e371f425404dcf5936258ac2af954ee1f6b0194cdbd587cfb510293b4"
 
 RPROVIDES:${PN} += "libbd-mdraid-devel \
 libblockdev-mdraid-devel"
 
 RDEPENDS:${PN} += "glib2-devel \
-libbd-mdraid2 \
+libbd-mdraid3 \
 libbd-utils-devel"
 
 inherit rpm

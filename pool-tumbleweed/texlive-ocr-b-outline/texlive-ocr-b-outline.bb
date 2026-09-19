@@ -5,10 +5,10 @@ fonts. The metric files are not included here, so that original \
 ocr-b package should also be installed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20969"
+PV = "2026.226.svn20969"
 
-RPM_NAME = "texlive-ocr-b-outline-2023.209.svn20969-55.1.noarch.rpm"
-RPM_HASH = "1d3bf410ba83ea039bd909b5a8d67a971e7aeca90088ad4443c40de15516a102aec6e53b4166e50de5d25df8d632cf9818a7a6fd1261fc77ecc12f603bdeea81"
+RPM_NAME = "texlive-ocr-b-outline-2026.226.svn20969-61.2.noarch.rpm"
+RPM_HASH = "d7968e69f90497fe5b33736fe8803018fd180c04cd61503fae4cffe4de1d01a7cbf2d4ab26b24c949c621a1365f42716c72f868cc9d90d1bc884a67db46a3ebb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ocrb.map \

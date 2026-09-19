@@ -3,17 +3,18 @@ DESCRIPTION = "The Sensors plugin and standalone application allow to monitor va
 sensors supported by libsensors."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.4"
+PV = "1.5.0"
 
-RPM_NAME = "xfce4-sensors-plugin-1.4.4-1.4.aarch64.rpm"
-RPM_HASH = "c25d4f90addf09e21ece12fcecb351eb982abaf6f041bcdf0d377abc592d47ef61684af1af393470b86f7f4227edc03c34e63e597c9593cfe21cc45ae98be62e"
+RPM_NAME = "xfce4-sensors-plugin-1.5.0-1.5.aarch64.rpm"
+RPM_HASH = "231eec542ad67082e222abd391c5e10bdf30a00f5b847a2ff5fb004908abc0cd8d42efbd96c7432f54e6112dc7d0e6894196c2db26e188f3fbffc00ec952e829"
 
 RPROVIDES:${PN} += "libxfce4-sensors-plugin.so \
-libxfce4sensors.so.5 \
 xfce4-panel-plugin-sensors \
 xfce4-sensors-plugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libX11.so.6 \
+libXNVCtrl.so.0 \
 libc.so.6 \
 libcairo.so.2 \
 libgcc-s.so.1 \

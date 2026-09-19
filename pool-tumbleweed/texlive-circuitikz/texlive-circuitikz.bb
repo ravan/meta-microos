@@ -7,10 +7,10 @@ output format. It has therefore been based on the very \
 impressive PGF/TikZ package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6.1svn65785"
+PV = "2026.226.1.8.5svn77600"
 
-RPM_NAME = "texlive-circuitikz-2023.209.1.6.1svn65785-54.1.noarch.rpm"
-RPM_HASH = "ff5813c7be5680dc0ea3e20ddeab11face5e2b5d3268c3d1820a0dc1d2feebf7792971171aba8ab641511e593eaa52e64043d9737485461574a6a41cf99fd175"
+RPM_NAME = "texlive-circuitikz-2026.226.1.8.5svn77600-60.2.noarch.rpm"
+RPM_HASH = "20c75ad07b7f353c40054b17b1ef4d8f04863580a60a8ef46f7930a4b5572d2b6592237e193a5d73a4e611e028abaad1a3a6b83d6db7a4aac06b8fb526737bbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-circuitikz-0.4-body.tex \
@@ -33,6 +33,8 @@ tex-circuitikz-1.2.7-body.tex \
 tex-circuitikz-1.2.7.sty \
 tex-circuitikz-1.4.6-body.tex \
 tex-circuitikz-1.4.6.sty \
+tex-circuitikz-1.7.2-body.tex \
+tex-circuitikz-1.7.2.sty \
 tex-circuitikz.sty \
 tex-ctikzstyle-example.tex \
 tex-ctikzstyle-legacy.tex \
@@ -57,6 +59,7 @@ tex-t-circuitikz-1.0.tex \
 tex-t-circuitikz-1.1.2.tex \
 tex-t-circuitikz-1.2.7.tex \
 tex-t-circuitikz-1.4.6.tex \
+tex-t-circuitikz-1.7.2.tex \
 tex-t-circuitikz.tex \
 texlive-circuitikz"
 

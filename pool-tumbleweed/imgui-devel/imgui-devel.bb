@@ -6,10 +6,10 @@ No specific build process is required. You can add the .cpp files to your \
 project or #include them from an existing file."
 LICENSE = "MIT"
 
-PV = "1.89.6"
+PV = "1.92.7"
 
-RPM_NAME = "imgui-devel-1.89.6-1.1.aarch64.rpm"
-RPM_HASH = "65ea29e9fef49a0e69b7665dbd95d67c898b9ac6e4b15aee21ee9f0c25334b34c71abca8dce3b77334c3d3ebad58d46465ff4a12c34c65620c547ba6f169a366"
+RPM_NAME = "imgui-devel-1.92.7-1.2.aarch64.rpm"
+RPM_HASH = "28debf6c84549d08284f84021313f6968d31854753137608a3f088ea08bace82fe70299f542c23b1b7ea97dfa4204d5bc9ea0bfe1437d42edbbe87034de42782"
 
 RPROVIDES:${PN} += "imgui-devel"
 

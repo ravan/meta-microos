@@ -6,10 +6,10 @@ the \\mailingtext command specifies the text of the letters, \
 possibly using macros defined in the \\addressfile."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn15878"
+PV = "2026.226.1.0dsvn77241"
 
-RPM_NAME = "texlive-mailing-2023.208.svn15878-53.1.noarch.rpm"
-RPM_HASH = "40a659fa232d990360f9a73e93bd625abdbcc3d8b610b8ac6dae479bdd0162142d0c3bc1567c8f3de030c4d9d170be55dc7e8c5dfd566c5113a341a4a7ba971c"
+RPM_NAME = "texlive-mailing-2026.226.1.0dsvn77241-59.2.noarch.rpm"
+RPM_HASH = "dcbe8264c5693e2ce514395d37113ee6d900d57325f9e90f62f70ac2a97c462a20bd137d8c6535c8fbe70e5630b072374ac1488364e0a75933cd95041c26c40c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mailing.sty \

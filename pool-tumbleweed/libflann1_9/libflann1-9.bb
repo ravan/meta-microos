@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.2"
 
-RPM_NAME = "libflann1_9-1.9.2-3.4.aarch64.rpm"
-RPM_HASH = "53d2a4150b5dfe7213b8538d5f6e38c4662525beb2bb9aa065a3e189e7b2326e98507ca5bfbd9d536a10c46950f95d5b592a69f71e38d8cec7137d4f64137225"
+RPM_NAME = "libflann1_9-1.9.2-3.14.aarch64.rpm"
+RPM_HASH = "fa6647381fbc6a9119e3d6148564889c4fc99b475ef907911e2ce8769af6d7b35ae0547fe3713eebf4b8956b092bb81f603213333d3c79ad7627ee7b71c49427"
 
 RPROVIDES:${PN} += "libflann-cpp.so.1.9 \
 libflann-cpp1-9 \

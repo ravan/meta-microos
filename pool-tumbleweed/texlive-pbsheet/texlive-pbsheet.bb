@@ -5,10 +5,10 @@ currently customised towards teaching in French (and the \
 examples are in French)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn24830"
+PV = "2026.226.0.0.1svn24830"
 
-RPM_NAME = "texlive-pbsheet-2023.209.0.0.1svn24830-52.1.noarch.rpm"
-RPM_HASH = "b962ae52e40d0e5e4264057dece3d4be665d0aa24629553ed66adf1eb37b8aa60f3fc31c08f51005c44f6ea82071467aa067ad2f73df191afab83b940002e222"
+RPM_NAME = "texlive-pbsheet-2026.226.0.0.1svn24830-58.2.noarch.rpm"
+RPM_HASH = "c55b2ca01342c30ece84fab0ed0b5a544c8d2fa0746af3b230ca8232358521a104100924fcdc4c6d03f589b420ffad864279175a0df504eb0c01b809edbbe4b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pbsheet.cls \

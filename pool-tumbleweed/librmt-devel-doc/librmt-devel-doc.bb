@@ -2,10 +2,10 @@ SUMMARY = "Manual pages for librmt functions"
 DESCRIPTION = "This subpackage contains the manual pages for librmt's functions."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "librmt-devel-doc-2022.10.16-47.4.noarch.rpm"
-RPM_HASH = "a4bb9ba072bc6cecaccc64b6b82811daad7b259cb023e846c4c5dcce067a3cf403bcef74d7a7014f118dc2fc850ba915c8eb3fd9ef7a3d00b30b2bd84d032e35"
+RPM_NAME = "librmt-devel-doc-2024.03.21-53.5.noarch.rpm"
+RPM_HASH = "093485b5ed2ee609f0b370f1cad13fedb3dd9659b26b0671503d518e0989910ebf3a8f7b892cd6710e33e3153bacf9bf7ffaa37a1c877d41fb168c58187cf15e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "librmt-devel-doc"

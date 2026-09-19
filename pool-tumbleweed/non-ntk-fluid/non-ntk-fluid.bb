@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.1001"
 
-RPM_NAME = "non-ntk-fluid-1.3.1001-2.1.aarch64.rpm"
-RPM_HASH = "7335124c1623dea7335a51569be8f0922f040ef028c07e20f643e461f6dec9764b212f298bae1b84cba904d2216f096beef4f8edf5a37b9a8a95e8d2de72a01f"
+RPM_NAME = "non-ntk-fluid-1.3.1001-5.7.aarch64.rpm"
+RPM_HASH = "ca43cbc6b66265a585b3580c6b249a7db84938f2b996359cb85f67f4cb9435bbf68813826bc63c251a394e1f1d46c7980cece4ade459384bb371d4b6894a5176"
 
 RPROVIDES:${PN} += "non-ntk-fluid"
 

@@ -8,10 +8,10 @@ and can easily be extended to include new devices. \
 gnuplot documentation files including the info pages."
 LICENSE = "GPL-2.0-or-later & SUSE-Gnuplot"
 
-PV = "5.4.8"
+PV = "6.0.4"
 
-RPM_NAME = "gnuplot-doc-5.4.8-1.1.noarch.rpm"
-RPM_HASH = "ec1156f11081cdcebba07b126c4ad0baf71e865e02a013ef4afe8e357e01ea2b37a2cd701b5169b92a910514ab3fb160578d385643bba50be3ddbdb7789b252a"
+RPM_NAME = "gnuplot-doc-6.0.4-1.5.noarch.rpm"
+RPM_HASH = "c885ab0eb7e0e6ace8fe227589777afeb8989c5893a2da6702c45228b3dba6cc9d857b9306848acfa46fec268f74b34f493b9719c633753aab9272f6a56be910"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuplot-doc"

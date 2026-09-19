@@ -8,10 +8,10 @@ font sets as the EC fonts. Please note that this package needs \
 the complementary cbfonts-fd package to work properly."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54080"
+PV = "2026.226.svn54080"
 
-RPM_NAME = "texlive-cbfonts-2023.209.svn54080-53.1.noarch.rpm"
-RPM_HASH = "9c661670bd8cd619d60e2a152bef35664410f5832a58f29a75b33518cc3eb07449ffffed2a7244c44d56938320e41d08f8a9d3f61653523352882e34e6362635"
+RPM_NAME = "texlive-cbfonts-2026.226.svn54080-59.2.noarch.rpm"
+RPM_HASH = "0811998e5f7a4ba6f672860562eef445ad2e7ad8ab27e726512e8e59e39b5cee2caf3d76f0b9c2cfc8e96b2e186499eae9e462d8af866a4c4cc52307b1a8aeb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CB.enc \

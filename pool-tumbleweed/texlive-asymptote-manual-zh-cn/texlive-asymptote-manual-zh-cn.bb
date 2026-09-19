@@ -3,10 +3,10 @@ DESCRIPTION = "This is an (incomplete, simplified) Chinese translation of the \
 Asymptote manual."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-asymptote-manual-zh-cn-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "391090aa2f7d2b9be855b65bad0139b2fd45b16ae5d3c0889b6a073c1aff8d42f293e543198bb50ac7c47788beaa6f51fb9973536c7af933022ccbb63b26e065"
+RPM_NAME = "texlive-asymptote-manual-zh-cn-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "bbbe6c6f877cd38309b5439d62f9311948d19001d816fe3cf5038a008ad2452371548c085ac947f1914681760e714c647f7bc6c138ef6dbb9b8fc1f9592b950a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-asymptote-manual-zh-cn"

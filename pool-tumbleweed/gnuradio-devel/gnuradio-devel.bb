@@ -9,10 +9,10 @@ This package contains libraries and header files for developing \
 applications that use GNU Radio."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.10.7.0"
+PV = "3.10.12.0"
 
-RPM_NAME = "gnuradio-devel-3.10.7.0-1.2.aarch64.rpm"
-RPM_HASH = "57cb2cf656f7988ff416ee147c4ca785864739f7be8261b6e1faae98ccd5df819a0f90f12cf353539eba4bc181d023233cb1190e27068db422f414fedda1c778"
+RPM_NAME = "gnuradio-devel-3.10.12.0-4.1.aarch64.rpm"
+RPM_HASH = "0b26f4da6eb1210fd1daed66796e4f98d1221dcdad8a8d0cbabf416e6ae9eed0ae8f436ddadca499ee2c92bf259903a28ee9e19c1a9a8eff2005e6d365d7b379"
 
 RPROVIDES:${PN} += "cmake-Gnuradio \
 cmake-gnuradio-analog \

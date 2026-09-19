@@ -6,12 +6,12 @@ update stack and then ask the user to run the update process \
 again to apply other updates that might be available. This is \
 used, for example, to update packages from the software update \
 stack (zypper, libzypp, packagekit, etc)."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "5.1"
+PV = "5.2"
 
-RPM_NAME = "update-test-affects-package-manager-5.1-1.18.aarch64.rpm"
-RPM_HASH = "cbf1fae51b460748dd19a57f31082d39810d7bcf29fcc4356effc4bb3f84aca9b6a60d744e268123edcf5b221294625b7c8e16e409ffde2edcc3d7f011c9f9a2"
+RPM_NAME = "update-test-affects-package-manager-5.2-1.15.aarch64.rpm"
+RPM_HASH = "0cb9b372ca7bb577b0e1e6dbfd22df4eb7252701e5a108909bf28a53cd23635215f773a5d053957d59143a6f1068e0f912dd5a366415a7bdc751b92e34c97155"
 
 RPROVIDES:${PN} += "update-test-affects-package-manager"
 

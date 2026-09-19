@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt XML Patterns module provides support for XPath, XQuery, XS
 and XML Schema validation."
 LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt5XmlPatterns5-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "60847f61a7597cb2f62572f3a5edc4702d79f05e4ded7d65f5b49f5fc3c47af5a1c8b390e766e3427d00466a46f9207b6e8b6e83fd6296d17b5d8ad471c5af4d"
+RPM_NAME = "libQt5XmlPatterns5-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "98175aa08fbaeca5c57db6f61065163d7f6a77e908b3783fa2da2fb0b280a929d474f0c20994522a68b2692154311947410fcc7623492950d73844d8171c4d6d"
 
 RPROVIDES:${PN} += "libQt5XmlPatterns.so.5 \
 libQt5XmlPatterns5"

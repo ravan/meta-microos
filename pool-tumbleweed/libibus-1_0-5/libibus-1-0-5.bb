@@ -2,10 +2,10 @@ SUMMARY = "IBus libraries"
 DESCRIPTION = "This package contains the libraries for IBus"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.5.28"
+PV = "1.5.34"
 
-RPM_NAME = "libibus-1_0-5-1.5.28-2.2.aarch64.rpm"
-RPM_HASH = "7e98c1dc1825d5f1ca386804a832f68c94f82fd9dd42f3746538b65fe0ca15c08a9aa63d1843468b3286e923e3ca4ac467d3129f0740acbf410fdb9c7fa2e852"
+RPM_NAME = "libibus-1_0-5-1.5.34-2.1.aarch64.rpm"
+RPM_HASH = "e335019af36cc5623a54554e934254599b6db5709ac11c00634e8f5539de203af385daeffd4ba7cab27d301f819653101197660d2deb7e06996fec5540a2b93d"
 
 RPROVIDES:${PN} += "libibus-1-0-5 \
 libibus-1.0.so.5"

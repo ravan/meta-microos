@@ -7,10 +7,10 @@ define commands with optional keys. The package provides \
 kvsetkeys by Heiko Oberdiek."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1415svn18042"
+PV = "2026.226.3.1415svn78101"
 
-RPM_NAME = "texlive-keycommand-2023.209.3.1415svn18042-56.1.noarch.rpm"
-RPM_HASH = "daaeedede16ba7e87e70e0f61adc00be473a4d5d868a3f319f8e17d7829883189b486f159179e05b252fd6d146022f524de9fb70a4dd5069fb7cd6a1cff12f49"
+RPM_NAME = "texlive-keycommand-2026.226.3.1415svn78101-63.2.noarch.rpm"
+RPM_HASH = "28f60bd4460bba5f60888d284a487f0129ae2180b0b3b7a521aeb77ca3f8a9c8cb55a9455162f8e48f1787b526ddbeb7d00fb0e5c30aab2081543cf478eced30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-keycommand.sty \

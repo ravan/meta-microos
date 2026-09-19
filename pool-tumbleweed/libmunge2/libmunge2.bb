@@ -2,10 +2,10 @@ SUMMARY = "Libraries for applications using MUNGE"
 DESCRIPTION = "A shared library for applications using the MUNGE authentication service."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "0.5.15"
+PV = "0.5.18"
 
-RPM_NAME = "libmunge2-0.5.15-2.5.aarch64.rpm"
-RPM_HASH = "b59fd002b0bab25a75b55d2e5d5a107bad8ac08d0eaa9dcfc688618cc385a00a89479f1f987e2a0818af3cc303d621a7f6cc1aca19682f5f28769bb19666aeb8"
+RPM_NAME = "libmunge2-0.5.18-1.4.aarch64.rpm"
+RPM_HASH = "fc2bd532600855120975a36a9c8acdb82e87a3e942265dfc6b7801b8ff91bb995bda029d3aed43b252374f7816bb0cd365cdf2d80e5688207be44f654461e213"
 
 RPROVIDES:${PN} += "libmunge.so.2 \
 libmunge2 \

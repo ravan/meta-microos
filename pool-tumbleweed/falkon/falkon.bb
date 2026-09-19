@@ -7,10 +7,10 @@ such as an integrated ad blocker. \
 It was previously known as QupZilla."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "falkon-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "858b3b5deb26b8368bc220040b5d4664d8f055a8c6cd2d00758c8f22b67de3196e5ecf8cb564b5c1433b89dd570b6b9ca121cdf580d403f35ec8c8de36d826c5"
+RPM_NAME = "falkon-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "b6d1e5356412501b9796373255263ad265fefccdae60d7464f329abb5f28612ad0a654f52ba0a5b8a6c2aed348083d3529a4d66ade085dd68bf2b535b6d04fdc"
 
 RPROVIDES:${PN} += "falkon \
 falkon-gnome-keyring \
@@ -20,25 +20,24 @@ web-browser"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Qml.so.5 \
-libQt5QuickWidgets.so.5 \
-libQt5Sql.so.5 \
-libQt5Sql5-sqlite \
-libQt5WebChannel.so.5 \
-libQt5WebEngineCore.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
+libKF6Archive.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Qml.so.6 \
+libQt6QuickWidgets.so.6 \
+libQt6Sql.so.6 \
+libQt6WebChannel.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-libxcb.so.1"
+libxcb.so.1 \
+qt6-sql-sqlite"
 
 inherit rpm

@@ -9,10 +9,10 @@ connected via an internal pipe to an ssh(1) session that was set up \
 by the remote user."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "rscsi-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "51c68ce24dcc6c1c273cd7fc839ee458eac223e010c9fad1e8283593bb3329b501b717709a3c0f4d54dec98255ec75ade64d19ceeac7bad1b4211e37ef4a48f4"
+RPM_NAME = "rscsi-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "cd56fb3fdab0df79c74075cdd11c401372765918ecce6d96ae690d0db65eb38d80b5698d87ef62b5709dc82a6313224026cd665fe16dac5075c3650a5a6ed704"
 
 RPROVIDES:${PN} += "cdrecord-/usr/sbin/rscsi \
 config-rscsi \

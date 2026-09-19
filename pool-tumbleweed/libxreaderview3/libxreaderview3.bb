@@ -3,10 +3,10 @@ DESCRIPTION = "Xreader is a document viewer capable of displaying multiple and \
 single page document formats like PDF and Postscript."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "3.8.2"
+PV = "4.6.5"
 
-RPM_NAME = "libxreaderview3-3.8.2-1.1.aarch64.rpm"
-RPM_HASH = "033fc9d9dada31b862a32cd63a6304d40ec68f2a831751021d15fdd68e6f8473529c78de08101319275df20d5853ea3fc7d554aec5695d15b6e22ba7f8c55332"
+RPM_NAME = "libxreaderview3-4.6.5-1.2.aarch64.rpm"
+RPM_HASH = "a3ba424c1515a9c5ead331690ac014f49ea576dd02a097d1df288aeaf2908c2bcfa596e036b1c2784bf4a7a892315734b7befe2bea22da4fd4dcd824a7512350"
 
 RPROVIDES:${PN} += "libxreaderview.so.3 \
 libxreaderview3"
@@ -24,7 +24,6 @@ libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \
-libwebkit2gtk-4.0.so.37 \
 libxreaderdocument.so.3"
 
 inherit rpm

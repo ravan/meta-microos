@@ -15,10 +15,10 @@ the texapi package, whereas the Lua version can be run with any \
 Lua interpreter, not just LuaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn29803"
+PV = "2026.226.0.0.2svn29803"
 
-RPM_NAME = "texlive-gates-2023.209.0.0.2svn29803-53.1.noarch.rpm"
-RPM_HASH = "878d32ea3d3c4710ced2e188c4e41cbdb7facf9ec8cb3eadac487f297de51ee637fcdec481324f2ae52d8748d5f8599d134b08217a74c572f29d2d7562c6bb14"
+RPM_NAME = "texlive-gates-2026.226.0.0.2svn29803-60.2.noarch.rpm"
+RPM_HASH = "161d946d9d38d9b807695f4da775b0997497a67042910c1556a27d3da68eb98346edf499c4f3b3f7149f05411662babb50dfbae573b1a114cb5b1392f8d9e6ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gates.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-outilsgeomtikz"
 DESCRIPTION = "This package includes the documentation for texlive-outilsgeomtikz"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.1svn66461"
+PV = "2026.226.0.0.1.7svn75985"
 
-RPM_NAME = "texlive-outilsgeomtikz-doc-2023.209.0.0.1.1svn66461-55.1.noarch.rpm"
-RPM_HASH = "5e1a06d8f5ca81930062fe1da31699bac0ffdba949f31dae01da5668288b64ffd9199a1800393a5a12ec58e9e6e3c48ad019b4ec0ad4139c71e0f233efda39ab"
+RPM_NAME = "texlive-outilsgeomtikz-doc-2026.226.0.0.1.7svn75985-61.2.noarch.rpm"
+RPM_HASH = "8889f2e01c3819a761a8f7c86b273a9b88bf15286696f8142778e19a777d07ae10d0d9ec69b2878803b0e2e5e6ebef10cf86f64f97f24dc5ddf4373d45eaa0ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-outilsgeomtikz-doc-fr \

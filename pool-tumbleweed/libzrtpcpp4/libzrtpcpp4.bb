@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.7.0"
 
-RPM_NAME = "libzrtpcpp4-4.7.0-1.12.aarch64.rpm"
-RPM_HASH = "65b00593f13bbffb88f50d17085c9e48376c85d3ef4b0c17aa8132dbb6c5f36335d337691a1ff35d4cab1127f3567a11f54d1d83930c40443b8aa9a90077a619"
+RPM_NAME = "libzrtpcpp4-4.7.0-3.4.aarch64.rpm"
+RPM_HASH = "c35c997e2bbbfaa23b19a72eea1cb7ad2ba55f9bfdd7af1049649da805a98018d0908c889c6584a0bff84eeccab6f335f4c965e1b9929d1e8f26cdbae3f9f9a6"
 
 RPROVIDES:${PN} += "libzrtpcpp.so.4 \
 libzrtpcpp4"
@@ -18,7 +18,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libccrtp.so.3 \
 libcommoncpp.so.8 \
-libcrypto.so.1.0.0 \
+libcrypto.so.3 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
 libucommon.so.8"

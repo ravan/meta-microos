@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "1.5.8"
 
-RPM_NAME = "babeltrace-1.5.8-3.8.aarch64.rpm"
-RPM_HASH = "d2974354705e59a990f4f0f8b8ed69e5be8b665b4c91867756834c41730adeef7bce3bf1a861964ad178fa499e228d56deec089530e7cacefe8b5c68f87bc556"
+RPM_NAME = "babeltrace-1.5.8-4.9.aarch64.rpm"
+RPM_HASH = "d8332f36587a37132919f366c2be78e73252381f2a5c7597ba0adc46dc832a3a73b211fe4f9fab1c3fb8f6d5cf06f528fe3f04f2a687941d94fc087552bdc873"
 
 RPROVIDES:${PN} += "babeltrace \
 libbabeltrace-ctf-metadata.so.1 \

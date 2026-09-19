@@ -1,14 +1,13 @@
 SUMMARY = "Documentation for sqlite3"
-DESCRIPTION = " \
-Contains HTML documentation for SQLite: SQL Syntax, C/C++ API and \
+DESCRIPTION = "Contains HTML documentation for SQLite: SQL Syntax, C/C++ API and \
 other documentation found on sqlite.org. The files can be found in \
 /usr/share/doc/packages/sqlite3-doc."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "3.42.0"
+PV = "3.53.2"
 
-RPM_NAME = "sqlite3-doc-3.42.0-1.2.noarch.rpm"
-RPM_HASH = "7abd6ddee4ef81752fbc29288ed7a7146f1c41d4805023e0aed352dbbfe45a94311b46a879ae6918029f624e2cc1964608265df5e39e65d4fa35047387a67e40"
+RPM_NAME = "sqlite3-doc-3.53.2-3.2.noarch.rpm"
+RPM_HASH = "37bf36b6110e2c2b546be1160f86e80907039d8a6089c7ae04d432fb280d41c10fde06bbca936b57a7bc7948157e4fbe29ee40a04a12fc79abd643177b36b64f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sqlite3-doc"

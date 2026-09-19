@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.1.4"
 
-RPM_NAME = "qolibri-2.1.4-1.9.aarch64.rpm"
-RPM_HASH = "48eca80649b880cf4a81e964eccad6b2d99143431aa4015197eba49d94f363ace59eec5a06a5ad70798bbd20ea2d7c6cf569e2eac66e4f18c06d2f4171b6372b"
+RPM_NAME = "qolibri-2.1.4-1.19.aarch64.rpm"
+RPM_HASH = "57c9be74e6ceeb20bd5f4c47411df529d058f9872d871b38b7fd6714dc77131b458f0f253435547a6a034eada6fb394260af4b84089f3bca4455475660de498e"
 
 RPROVIDES:${PN} += "qolibri"
 

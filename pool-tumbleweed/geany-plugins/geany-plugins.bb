@@ -3,13 +3,12 @@ DESCRIPTION = "Geany-Plugins is a collection of different plugins for Geany, \
 a lightweight IDE."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "1.38"
+PV = "2.1"
 
-RPM_NAME = "geany-plugins-1.38-3.7.aarch64.rpm"
-RPM_HASH = "82401948196cd268271b20c912c4089a89a1b6972fd157fb14bf2764d7c51eb109ab83cb0ae5f9e40fcfa7a7ad86b5169ccb8856db985e16aa4989edb30be9ac"
+RPM_NAME = "geany-plugins-2.1-2.5.aarch64.rpm"
+RPM_HASH = "78a2baf60ea720386620f22d7cbe107514cdd39033ff5191d636fa255828d18d59645775ff1d56ffa461aa3064452c054df361abd0ff35a87353217d28da9b05"
 
 RPROVIDES:${PN} += "geany-plugins \
-libgeanylua.so \
 libgeanypluginutils.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
@@ -22,18 +21,17 @@ libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgeany.so.0 \
 libgio-2.0.so.0 \
-libgit2.so.1.7 \
+libgit2.so.1.9 \
 libglib-2.0.so.0 \
-libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgpgme.so.11 \
+libgpgme.so.45 \
 libgtk-3.so.0 \
 libgtkspell3-3.so.0 \
-liblua5.1.so.5 \
+libm.so.6 \
 libpango-1.0.so.0 \
-libsoup-2.4.so.1 \
-libwebkit2gtk-4.0.so.37 \
-libxml2.so.2 \
-lua"
+libsoup-3.0.so.0 \
+libvte-2.91.so.0 \
+libwebkit2gtk-4.1.so.0 \
+libxml2.so.16"
 
 inherit rpm

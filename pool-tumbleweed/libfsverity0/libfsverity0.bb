@@ -2,10 +2,10 @@ SUMMARY = "Library package for fsverity-utils"
 DESCRIPTION = "Shared-object dependencies for fsverity-utils."
 LICENSE = "MIT"
 
-PV = "1.5"
+PV = "1.7"
 
-RPM_NAME = "libfsverity0-1.5-1.1.aarch64.rpm"
-RPM_HASH = "b7fea7e8148b78a26b10148c6109ab774a02e71dc52b0f7a9686db24cbf06eb3368324404f69960fc6b6e935101d7e1b01870cc0671a3107a08f97c50cdb5722"
+RPM_NAME = "libfsverity0-1.7-1.3.aarch64.rpm"
+RPM_HASH = "055d9bb90768b24d002629366a66f66c93960f659bbf54ed0b5a7e68a114bf155d71bca0780b85dce4f0f5ec629e580321a6e045ca7579b72417914df4a42b83"
 
 RPROVIDES:${PN} += "libfsverity.so.0 \
 libfsverity0"

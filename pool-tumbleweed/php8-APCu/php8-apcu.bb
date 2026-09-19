@@ -4,10 +4,10 @@ for the deployment of Zend Optimizer+ as the primary solution to opcode \
 caching in future versions of PHP."
 LICENSE = "PHP-3.01"
 
-PV = "5.1.22"
+PV = "5.1.28"
 
-RPM_NAME = "php8-APCu-5.1.22-2.5.aarch64.rpm"
-RPM_HASH = "f1acc3091109e755e827248a39f21a14102cb6463082e3e6fbce07132b7b87d76e1fbd804dba7507f1f74c592820ce2298911e951831a0915c793c4bc86d4a82"
+RPM_NAME = "php8-APCu-5.1.28-1.5.aarch64.rpm"
+RPM_HASH = "ceb90737e73beeb2eb8586d70acccc3eaae1fcc8584c8ad3aed16a991807df2aa0b3e0c96516daa26dff1a6319c01885b5cfe2219ae9f7f5366f936af97925a2"
 
 RPROVIDES:${PN} += "config-php8-APCu \
 php-APCu \

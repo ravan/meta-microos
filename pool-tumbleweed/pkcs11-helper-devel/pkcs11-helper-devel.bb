@@ -6,16 +6,15 @@ slot, supporting session expiration serialization and much more, all \
 using a simple API."
 LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
-PV = "1.29.0"
+PV = "1.31.0"
 
-RPM_NAME = "pkcs11-helper-devel-1.29.0-1.4.aarch64.rpm"
-RPM_HASH = "1215d12a8dc4b7988867ad4fbe9b3c35c9ff760806b8413c977eec058213165b67f632ef87719590fc05e8471c8b14dcbe07031f47fae63aee7b9e2b55d01d48"
+RPM_NAME = "pkcs11-helper-devel-1.31.0-2.3.aarch64.rpm"
+RPM_HASH = "aaf6a82ee1e888dd0cf6eb7362e450865c70968d361ffee3a928e4c0ad71044c2712114437541a6e6a4c7e4ad8e178eddb25892f76fcfb86606ff19dae2d8eff"
 
 RPROVIDES:${PN} += "pkcs11-helper-devel \
 pkgconfig-libpkcs11-helper-1"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-pkcs11-helper \
-pkgconfig-openssl"
+libpkcs11-helper1"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "System user and group ftp"
 DESCRIPTION = "This package provides the system account and group 'ftp'."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-user-ftp-20170617-24.16.noarch.rpm"
-RPM_HASH = "1bf1f24f64321fbf156a584a86f81c8fdf5be57d593b88c1ff945870faa650985f60b916df5e5350dd097f9d817ab1ffa7ad7f1ac4ca384a4ac20595427c7658"
+RPM_NAME = "system-user-ftp-20250822-2.3.noarch.rpm"
+RPM_HASH = "0c0e00c0c999311a611dcbc64fc63e43ff2b25fcfb8308915637d777abfbed8bdb659a9bf2e3fb81051112ac9071209a840fefff0ae439aea5b8aadc1df3af28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-ftp \

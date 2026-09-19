@@ -8,10 +8,10 @@ Plotly figures are shared, tracked, and edited all online and the data is \
 always accessible from the graph."
 LICENSE = "MIT"
 
-PV = "5.14.1"
+PV = "5.22.0"
 
-RPM_NAME = "python310-plotly-5.14.1-1.2.noarch.rpm"
-RPM_HASH = "32c1e6cea3ca03af0123f61758ca7a8a3099e3eb0b3a451d501d688d2b53aa72be3b545fcee1dbe2ad3b1e6c538f07f316ffb644f962b878d92a9d34141951a3"
+RPM_NAME = "python310-plotly-5.22.0-3.2.noarch.rpm"
+RPM_HASH = "91e587dce259e947c71d5737a11f16b0dca8cded5da804c5a6dc64843f6b4a57f5478fcba2a087745923c33c97a0a675e414ae28beef159caabc494a228242e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-plotly \

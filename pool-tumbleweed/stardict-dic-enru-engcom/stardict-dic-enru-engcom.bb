@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.1"
 
 PV = "1.36"
 
-RPM_NAME = "stardict-dic-enru-engcom-1.36-20.16.noarch.rpm"
-RPM_HASH = "b1ec362ac9509fbf0494f4e617bd29cb4621f28740910aa224486d4b22af233b26098149fcf03d1648808fd1e7f45a4b9e3c0311085fd6619a8282a2ae295d33"
+RPM_NAME = "stardict-dic-enru-engcom-1.36-20.24.noarch.rpm"
+RPM_HASH = "83f1af8871250e684fefc641a9f507436cd200587e4ec6adaa53c8bae777f5f4c0c771ebfdeb63ef6b7feccdbd860202c5d0ebc7a3e2a6c070aeb8c055d9b48c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-stardict-ru \

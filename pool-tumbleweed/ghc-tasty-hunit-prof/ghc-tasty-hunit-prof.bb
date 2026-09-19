@@ -2,17 +2,17 @@ SUMMARY = "Haskell tasty-hunit profiling library"
 DESCRIPTION = "This package provides the Haskell tasty-hunit profiling library."
 LICENSE = "MIT"
 
-PV = "0.10.0.3"
+PV = "0.10.2"
 
-RPM_NAME = "ghc-tasty-hunit-prof-0.10.0.3-2.5.aarch64.rpm"
-RPM_HASH = "c93ea8a6dbedbeb0414f01ce4c0db424524896a1e52cb508fbd1a1fadb18585a0db84127bbb71be06abe35a27c982a5b93b9c499ae67789aae6f9f9781370a80"
+RPM_NAME = "ghc-tasty-hunit-prof-0.10.2-1.18.aarch64.rpm"
+RPM_HASH = "39fce59542c96b2e19e310a7a39425d93ccce7120be09d82f327852ca9ece84b246b473e3c718d00ffb1b22df2e0238c022290567879821719df0aa2f5b0b690"
 
-RPROVIDES:${PN} += "ghc-prof-tasty-hunit-0.10.0.3-2hefb6clI09Drjkc6dw6d8 \
+RPROVIDES:${PN} += "ghc-prof-tasty-hunit-0.10.2-7q5ZQxy9Ub5ZvPfhG0K4P \
 ghc-tasty-hunit-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-call-stack-0.4.0-nQZfFxinEdIa1BWxMyadt \
-ghc-prof-tasty-1.4.3-EvDBAB3nA5D6U1ANfXkHR \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-call-stack-0.4.0-5oZIckzxOZr1eMyD6xWtI3 \
+ghc-prof-tasty-1.5.4-1HxvBgEXkE5Beb2ChlE06d \
 ghc-tasty-hunit-devel"
 
 inherit rpm

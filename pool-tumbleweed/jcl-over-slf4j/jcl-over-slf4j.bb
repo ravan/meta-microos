@@ -2,10 +2,10 @@ SUMMARY = "JCL 1.1.1 implemented over SLF4J"
 DESCRIPTION = "JCL 1.1.1 implemented over SLF4J."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "1.7.36"
+PV = "2.0.18"
 
-RPM_NAME = "jcl-over-slf4j-1.7.36-4.2.noarch.rpm"
-RPM_HASH = "8dfd804f13784f2e843fa68dbb084487c18ea8121e03113fc35346f1b883b99c02f38f68b1fa3016c046650c9a380eceea21aa24862ecaf505b8b8609aa2e7d6"
+RPM_NAME = "jcl-over-slf4j-2.0.18-1.2.noarch.rpm"
+RPM_HASH = "57cfdf304e54ea2eeab06cc74be56e5e03788a79d42b96dc6e4347f3dcbf9cbe4ab131476425d6d22f8232615fa0eb23a1011bd66441b6e89f14ebf19f2a0a73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcl-over-slf4j \

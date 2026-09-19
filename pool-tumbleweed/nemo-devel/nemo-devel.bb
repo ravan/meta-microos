@@ -4,10 +4,10 @@ DESCRIPTION = "Nemo is the file manager for the Cinnamon desktop environment. \
 This package provides the development files for Nemo."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.6.4"
+PV = "6.6.4"
 
-RPM_NAME = "nemo-devel-5.6.4-1.3.aarch64.rpm"
-RPM_HASH = "ecbb8b3ceaff40faa2efe724c9c9db0d4e8f91701b67bbfeedbbde578edc9a8d23ac4018c7402a0ca9bc3e71d6b6ae1a6363217bcf0861189079eb0bc05b2859"
+RPM_NAME = "nemo-devel-6.6.4-1.1.aarch64.rpm"
+RPM_HASH = "8579feaa069fb5d3e6e98da5724ba85077f2db49a79687eb5c8a5472d9a6e9535ff0ace2448a4883312c518139162db3c57846584a9806e1933da6a3851e893e"
 
 RPROVIDES:${PN} += "nemo-devel \
 pkgconfig-libnemo-extension"

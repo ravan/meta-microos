@@ -2,10 +2,10 @@ SUMMARY = "Configuration library for fcitx5"
 DESCRIPTION = "This package provides configuration libraries for fcitx5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.1.0"
+PV = "5.1.17"
 
-RPM_NAME = "libFcitx5Config6-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "ddbd06918a4d131cc273721d14a355fe9e870b339448071822756e79e6dc42a30693327dfd52bf028493bad2f64beaad854306576d2e85d2be9db9322875278b"
+RPM_NAME = "libFcitx5Config6-5.1.17-1.7.aarch64.rpm"
+RPM_HASH = "d9b1c707a1b3e87ff814470c423b1355ec1caf0d76fa6bab6ddd09b188ae45ed25da8db3ca92462dda309e81988762f4988d153e4ad40479a73a10563e200840"
 
 RPROVIDES:${PN} += "libFcitx5Config.so.6 \
 libFcitx5Config5 \

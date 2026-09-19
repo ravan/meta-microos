@@ -1,11 +1,11 @@
 SUMMARY = "GTK+ 2 Theme Engines"
 DESCRIPTION = "This package installs the theme engine libraries for GTK+ 2."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engines-2.20.2-19.43.aarch64.rpm"
-RPM_HASH = "b47b95728a8f5b7fee7e81fae3d45c70db508e274719d207fdcfa6611f963cab09eaf12eff22d1f241027c094bf54d046e4fa61c431551f1369e595097a005ba"
+RPM_NAME = "gtk2-engines-2.20.2-23.6.aarch64.rpm"
+RPM_HASH = "9884fbed8be9a48d0b351fa08b57a9fb8a36d2b50ed4437c880e37325a06d236e92863112359a2b77c27ae1feb772dc78da94392a0740cf324e83897ead4e178"
 
 RPROVIDES:${PN} += "gtk2-engines \
 gtk2-engines-lang"

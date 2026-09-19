@@ -5,10 +5,10 @@ generate graphics in a script and import those graphics into a \
 LaTeX document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.0svn61772"
+PV = "2026.226.1.2.0svn61772"
 
-RPM_NAME = "texlive-datax-2023.209.1.2.0svn61772-55.1.noarch.rpm"
-RPM_HASH = "c42b0acfdd80764d41f18b8e3485fd89ba33d481f33287ac61c7384e24b1ead8ac11d91c3caf4dbc30a88e8edabef3a1245721e43c8928dcec69f0c39f01c404"
+RPM_NAME = "texlive-datax-2026.226.1.2.0svn61772-61.2.noarch.rpm"
+RPM_HASH = "92991a70d02cf251e7340796d1ea7943fd9f75ef407532ff92ae962cf9831cb4a0393dd7bad8f220c326d0031cf01476ee0ca9aa308043adce4338f26150e688"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datax.sty \

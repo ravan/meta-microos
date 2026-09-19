@@ -14,10 +14,10 @@ This package provides the shared libraries for fastjet and its \
 plugins."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.4.0"
+PV = "3.5.1"
 
-RPM_NAME = "libfastjet0-3.4.0-2.9.aarch64.rpm"
-RPM_HASH = "e56de37cffd5c94c0c94d1081403c6461d9e149f61e515037eca91ed99669eb23b549020eaec372339b674123f0235b408fb373800424600527f6a33cc83921f"
+RPM_NAME = "libfastjet0-3.5.1-2.1.aarch64.rpm"
+RPM_HASH = "3c455516de50dc607d59fc8c8cbf6c2884a479fe49dceda993916fa4fbd6de5f5df8327428f688679f5e3cf3d978d5555b02300c21fb4e79f7520bdc4e9305a3"
 
 RPROVIDES:${PN} += "libfastjet.so.0 \
 libfastjet0 \
@@ -28,8 +28,9 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
+libgmp.so.10 \
 libm.so.6 \
-libsiscone-spherical.so.0 \
+libsiscone-spherical.so \
 libsiscone.so.0 \
 libstdc++.so.6"
 

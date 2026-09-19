@@ -3,10 +3,10 @@ DESCRIPTION = "This extension allows Jackson to delegate ObjectMapper creation a
 injection to Guice when handling data bindings."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-module-guice-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "30250d078fc9dae794327d72b963161729e7017924f504ca245a9a38cd53a840988f2f393bb8b7acc7afb3eee8de9b02c865ad91c9caa81374d8428b54aae8d3"
+RPM_NAME = "jackson-module-guice-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "35919440121151cc53b41e95cbb356f3dd6df71e569f3936e9445b12062c4aa4b640d34eefe9c7f5371807dd349676f21a55543234edf6b07b6c6880ad9e89b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-guice \

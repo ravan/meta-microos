@@ -7,29 +7,29 @@ implementation can be played with up to 4 players, any number of \
 which may be controlled by the computer."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ksquares-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "94576d9eab9de3e35793b54bdf462e5560fe5ad971e9035a99a9711587ffacf678db7633766d660d68cff8d08be3428814cc89a428f1f344b1578675adf3218f"
+RPM_NAME = "ksquares-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "64e5290413985456ba0e6e4fcea2e1de0d4ab39068b7845e392858a542337dd8345bf8b9995342a8e5e4e0928897a6f5ba718c6bc029eddfc99e691cfefa2aac"
 
 RPROVIDES:${PN} += "ksquares \
 ksquares5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

@@ -4,20 +4,15 @@ Netflix. \
 This package contains the library API definitions."
 LICENSE = "BSD-2-Clause-Patent & BSD-3-Clause"
 
-PV = "2.3.1"
+PV = "3.2.0"
 
-RPM_NAME = "vmaf-devel-2.3.1-3.3.aarch64.rpm"
-RPM_HASH = "a3fba99339789aadf5dd79f755bf4bdd1efcdeb00c6c9c28fe0b41dc5a98332bf62462e09d4f943ddb047961c41dc5f69c66d7b4ec67cd6ab580c08bec409e09"
+RPM_NAME = "vmaf-devel-3.2.0-1.3.aarch64.rpm"
+RPM_HASH = "b90021ad1fc4e11c0e08f2a5b73859d464f614f2a29e24ff1ec230e430d3ad48898edaf02974c14e17dfc7f80ccb9b2d1dfbeb1e768a6551dfa395742906d74a"
 
 RPROVIDES:${PN} += "pkgconfig-libvmaf \
 vmaf-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1 \
-libc.so.6 \
-libgcc-s.so.1 \
-libm.so.6 \
-libstdc++.so.6 \
-libvmaf1"
+libvmaf3"
 
 inherit rpm

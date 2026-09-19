@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0+"
 
 PV = "1.3"
 
-RPM_NAME = "libcangjie2-1.3-1.21.aarch64.rpm"
-RPM_HASH = "829b31e0e46889e90c5243d5b031820419f8cf6161991eeb1bcf2599f097c01ebf61adc9dbf453f10a82aa7769cf4486f92b5bd6dfa42a1947ab33b197c88f9f"
+RPM_NAME = "libcangjie2-1.3-1.33.aarch64.rpm"
+RPM_HASH = "d34178c4d2321be8e6851168e331c58906f232a5d0249fa3dbc57efbb37530b411bdaee823412540bfeec901189fd49573c25029c56ff957ddf218205048ca0e"
 
 RPROVIDES:${PN} += "libcangjie.so.2 \
 libcangjie2"

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Kannada Translations"
 DESCRIPTION = "YaST2 - Translations for Kannada."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-kn-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "2d600ab5c57c07267766ba317faace70220b745b7c1ad50528639d9a4cb137ed1cf869117d2fd009baf20c6ac9afc832548fbc09b2622e2feb29414cf1a03341"
+RPM_NAME = "yast2-trans-kn-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "58c92a09e39a66e3d0f93f8287b104622326fc7607f0f0741c700c948d3b595a881c0a9de70358c81da65434c85d9ab4c73d37fb7633e0917a89332066519ddf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ka \

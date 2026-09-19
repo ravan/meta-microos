@@ -1,11 +1,11 @@
 SUMMARY = "Default Card Decks for KDE Games"
 DESCRIPTION = "This package contains the default card deck set for KDE games."
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdegames-carddecks-default-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "369c39b232df746217d3c71c25f8a011e99910354f11bbbd46eae1b836e5619e0943eb83c7df36bdd87fd1beaa20c838a124ae14208adbb6dda567088655615d"
+RPM_NAME = "kdegames-carddecks-default-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "5181ac423f566fb257d5c08fa2411298816a0b178ec9f519d6755181d73ca6bb55cd3c08ccd95f63827f11b42d82c40959b1debd21b110a4cddca3a1e5c3a03d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdegames-carddecks-default"

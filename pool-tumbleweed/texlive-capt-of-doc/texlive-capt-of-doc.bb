@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-capt-of"
 DESCRIPTION = "This package includes the documentation for texlive-capt-of"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn29803"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-capt-of-doc-2023.209.svn29803-53.1.noarch.rpm"
-RPM_HASH = "12f0117a784c838d57d1f2de6512a8d76b8675f1faf50cc0a220b908028882bb3ba53f5cbee85faee4205b93974d8a151a29a952c07151945a0d49b773bd3ee7"
+RPM_NAME = "texlive-capt-of-doc-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "4436a52831387eec929bc519846c7604fd77d2e31756a30559906628d4a379a7c3a04fe3f283c29f6e947231592748f20e42974c5285099765cdce309d036f25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-capt-of-doc"

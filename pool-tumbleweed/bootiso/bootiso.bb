@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.2.0"
 
-RPM_NAME = "bootiso-4.2.0-2.8.noarch.rpm"
-RPM_HASH = "b3a921095970c3dcaab0f68713e622bee060438b2a441a06b9131efdc50ead06c52e7d0cd403fb0a33d6da51e3fe9c184a78bb0d65943731c856b90b6dc4bb5e"
+RPM_NAME = "bootiso-4.2.0-3.10.noarch.rpm"
+RPM_HASH = "988563d10fd161f6fb7b7833a3c9c8ec5197021091081d8e8258aef312f1a2c12e68cec54b90f6cb2eea1380eb0890ce3d744d5c9a030c6a881d03ca28ed63a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bootiso"

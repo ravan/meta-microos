@@ -4,15 +4,15 @@ LICENSE = "LGPL-2.1-or-later & BSD-3-Clause"
 
 PV = "1.0.2"
 
-RPM_NAME = "ghc-mountpoints-devel-1.0.2-4.4.aarch64.rpm"
-RPM_HASH = "abc456692457d59648ecbaf8edc9016ed84b7f0f6dae93239b6a97eb5ada9a3c429684041322feef411096c428b95a39c19dea79cd86e412c62e23173132b4e2"
+RPM_NAME = "ghc-mountpoints-devel-1.0.2-4.24.aarch64.rpm"
+RPM_HASH = "b57d5ce52ffd9f37dd12bcef302583c916ee6ef39720e788f101a3909928e9f48fdd0ea5361dff93e196dd198fce54ea833bcc308826825715ed3c8766b51a5c"
 
-RPROVIDES:${PN} += "ghc-devel-mountpoints-1.0.2-6LGBE5yGg5t52Lw1dci4Pp \
+RPROVIDES:${PN} += "ghc-devel-mountpoints-1.0.2-35WJHyDVhGJG15R347ykZV \
 ghc-mountpoints-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
+ghc-devel-base-4.21.2.0-8844 \
 ghc-mountpoints"
 
 inherit rpm

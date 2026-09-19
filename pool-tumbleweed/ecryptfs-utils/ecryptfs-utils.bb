@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "111"
 
-RPM_NAME = "ecryptfs-utils-111-7.5.aarch64.rpm"
-RPM_HASH = "1626488060e4c7245feaaf630a579d142967e740cdaafc8fd131dd3a3d89a8c91fb74c2f13dd175d6700b6ea7a0d22eec5b6218db7ef2ca8f4fbbdd7da9b7b60"
+RPM_NAME = "ecryptfs-utils-111-9.9.aarch64.rpm"
+RPM_HASH = "a6f29db154d6079c9b64659bad1599c5a3033a3b10fc90c0cf395d3951215c950594741ce0d3a0adbb7c81bcf4cf290872d5d4078b07ad1b9321b04400e7e7cd"
 
 RPROVIDES:${PN} += "ecryptfs-utils \
 libecryptfs-key-mod-openssl.so \

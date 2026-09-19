@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fontsize"
 DESCRIPTION = "This package includes the documentation for texlive-fontsize"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8.5svn60161"
+PV = "2026.226.0.0.9svn78101"
 
-RPM_NAME = "texlive-fontsize-doc-2023.209.0.0.8.5svn60161-53.1.noarch.rpm"
-RPM_HASH = "ffaba7a62121d4abc160fb4e9f95a1bebd4699089d9c9383e762d371651acabe05a4281c8e4e91fcd20afb67a1b84ee127062afef242131d1381d00e5a0b213d"
+RPM_NAME = "texlive-fontsize-doc-2026.226.0.0.9svn78101-60.2.noarch.rpm"
+RPM_HASH = "437aa117229448013186187c287129a7aee84fff8c9ee4b0b43d96f48a45fd64138888111fc8f7d35cd95c625199dc1ca3ec733bdd938924de3c3270c32fe28c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fontsize-doc"

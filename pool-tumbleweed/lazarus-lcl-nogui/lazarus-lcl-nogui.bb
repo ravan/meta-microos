@@ -4,10 +4,10 @@ This package contains LCL components for developing non-graphical applications \
 and command-line tools."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only & MPL-1.1"
 
-PV = "2.2.6"
+PV = "4.8"
 
-RPM_NAME = "lazarus-lcl-nogui-2.2.6-2.1.aarch64.rpm"
-RPM_HASH = "5736b43c16c2c3d54de9d12528a4f66537e7350b084cfa86009c68fc33ad7eaacdb88869aac2834a64fb0c95f19544d8383d804192c3a8e8caf36ee31a36b229"
+RPM_NAME = "lazarus-lcl-nogui-4.8-1.2.aarch64.rpm"
+RPM_HASH = "d466f9c530e80766495f1997e1578e1e41468666b96e64dc580474e3e03a7fc4c43824f1dfe7571728854d7bf218e5bc9480979bf11c17cdb276b8fe0b811af7"
 
 RPROVIDES:${PN} += "lazarus-lcl-nogui"
 

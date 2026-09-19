@@ -2,13 +2,14 @@ SUMMARY = "Translations for package palapeli"
 DESCRIPTION = "Provides translations for the 'palapeli' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "palapeli-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "ca8fd75921dad1447505b751760423359cd6f9400d5d779d29372dc7e40c36f6cd8599a79431466d6edd97464ec12f97211ee99de758b57a0002d02a078b0bfd"
+RPM_NAME = "palapeli-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "9a8bb7d3bcfbf54dd27f0ba798eef5407b2e35306e67ca6fa84483f179f6d5976929176a0b939d99ffd2b33cdd85819cf6adf6d23bc34667c9ecf5b2b8d581e0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-palapeli-bg \
+RPROVIDES:${PN} += "locale-palapeli-ar \
+locale-palapeli-ast \
 locale-palapeli-bs \
 locale-palapeli-ca \
 locale-palapeli-ca@valencia \
@@ -25,8 +26,11 @@ locale-palapeli-fi \
 locale-palapeli-fr \
 locale-palapeli-ga \
 locale-palapeli-gl \
+locale-palapeli-he \
+locale-palapeli-hi \
 locale-palapeli-hr \
 locale-palapeli-hu \
+locale-palapeli-ia \
 locale-palapeli-is \
 locale-palapeli-it \
 locale-palapeli-ja \

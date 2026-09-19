@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Control Center"
 DESCRIPTION = "This package contains the menu selection component for YaST2."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "5.0.3"
 
-RPM_NAME = "yast2-control-center-4.6.1-1.1.aarch64.rpm"
-RPM_HASH = "b21f59149e02ee33e9fb2330b43f2c86d47ad7c273af2dced179d902e8c0fb4bed803d53d91fe25657bb2fa6888a10f0d5d4fadb341c1d776b2379f0af37fff1"
+RPM_NAME = "yast2-control-center-5.0.3-1.5.aarch64.rpm"
+RPM_HASH = "5884019453fda08c751026c6700c02b9282546ac406089552315a6b9288b6a3e0e92bfcfb0ae4a4fe42c53c7df00c7fe4c7b773f351b6020cf11f5add2620bfc"
 
 RPROVIDES:${PN} += "yast2-control-center \
 yast2-control-center-gnome"

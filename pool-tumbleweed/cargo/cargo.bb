@@ -6,15 +6,15 @@ want to install Rust for a development environment, you should install \
 'rustup' instead."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "1.72.0"
+PV = "1.98.1"
 
-RPM_NAME = "cargo-1.72.0-1.1.aarch64.rpm"
-RPM_HASH = "9ba0e65b71d900ef9b34d45fee5c8decf32c51ec7fe91c812c4d5b6f155ba64dc014324cc941f4673b99034f52672cf7670753c90933a8989de6a7d80b171303"
+RPM_NAME = "cargo-1.98.1-1.1.aarch64.rpm"
+RPM_HASH = "db3de06ac0ea4d23d9ff69fa480cc2a3bbbc10d76776c67fbccddc08b4d7a966808431c1013db597d7f2f8a876cef891b2c47608f600a8919baad5e97d0c3e86"
 
 RPROVIDES:${PN} += "cargo \
 rust+cargo"
 
-RDEPENDS:${PN} += "cargo1.72 \
+RDEPENDS:${PN} += "cargo1.98 \
 rust"
 
 inherit rpm

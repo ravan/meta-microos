@@ -5,16 +5,16 @@ options to change the appearance. \
 Both analog and digital clocks are implemented."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.44"
+PV = "0.450.0"
 
-RPM_NAME = "perl-Tk-Clock-0.44-1.3.noarch.rpm"
-RPM_HASH = "cc773fc6239caaf87ff4c0d8799b7951ea6811cf9800dae9a3f592ba6069d64e9d52b185742e795a401f22350be2fe3f255c94de5208d8faac11d608ac1c0b17"
+RPM_NAME = "perl-Tk-Clock-0.450.0-1.5.noarch.rpm"
+RPM_HASH = "fd2c366920acbe7e7ab813f4793572adc422c1d119889902d343b173ef6fc8c088f11d36a70bcb0c7821f2d4720a0aaabca7c1b0866872fcf3185d0348ad36ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tk--Clock \
 perl-Tk-Clock"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Test--More \
 perl-Test--NoWarnings \
 perl-Tk \

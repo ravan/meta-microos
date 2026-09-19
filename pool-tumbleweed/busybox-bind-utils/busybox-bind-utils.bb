@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing bind-utils"
 DESCRIPTION = "This package contains the symlinks to replace bind-utils with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-bind-utils-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "863b3be88fff2499529e51050cd010020cf55f68b74cc0ad1533adfb0fa7725b5cc8835582a768d912645c793d7a309fa6c16cb896337f2f6f70718e903268bd"
+RPM_NAME = "busybox-bind-utils-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "4d7d7fc1b37e1e8ebfbc82b228bfae87bf953692ef487a8d691dc9fafeffb5bf8a483f6590ac6ac5660fd856668421018414b5b71cdbb5c5004d508f2dca45bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-bind-utils"

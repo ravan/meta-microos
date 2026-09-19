@@ -6,14 +6,14 @@ llvm-polly-devel that openSUSE currently supports.  Packages that \
 don't require a specific LLVM version should depend on this."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.6"
+PV = "23"
 
-RPM_NAME = "llvm-polly-devel-16.0.6-1.1.aarch64.rpm"
-RPM_HASH = "2b73528a89099a695b221907c9b895d2b40b3b2ee9c9188c2da051a0b3e4857ecb2613938c6a6f2caa6cbc6123827589b2812a0500a7e1b967c1c6d11f43d0be"
+RPM_NAME = "llvm-polly-devel-23-1.1.aarch64.rpm"
+RPM_HASH = "68885cdbd40ff7c55a4ac1edaea5f9278efb50c0e73de5d187bb9a04c6731954208171c38eaff44af5551621d6ef003a5f60ee3dd963c386c48a9b7b47071338"
 
 RPROVIDES:${PN} += "llvm-polly-devel"
 
 RDEPENDS:${PN} += "llvm-polly \
-llvm16-polly-devel"
+llvm23-polly-devel"
 
 inherit rpm

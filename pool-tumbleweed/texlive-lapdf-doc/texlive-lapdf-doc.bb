@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lapdf"
 DESCRIPTION = "This package includes the documentation for texlive-lapdf"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn23806"
+PV = "2026.226.1.1svn23806"
 
-RPM_NAME = "texlive-lapdf-doc-2023.209.1.1svn23806-56.1.noarch.rpm"
-RPM_HASH = "289ca7f097a7d293ac829c932a281171c51ae2ec185bf82aad282d7d5a76a215a27581efc3ed8f647ed6e9ef06dc71fddf68fd7e24e283987cce0aa5406a6164"
+RPM_NAME = "texlive-lapdf-doc-2026.226.1.1svn23806-63.2.noarch.rpm"
+RPM_HASH = "d7530d7a11d75f9db339884299fc27df8f98358af437841ab218d660dc218170fef7e15b57b3a92a282d2a6086f3ec8c6421ba8bb7de2a574e7187f752e4b1d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lapdf-doc"

@@ -8,11 +8,13 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.12.2"
 
-RPM_NAME = "noisetorch-0.12.2-2.6.aarch64.rpm"
-RPM_HASH = "bf045bd4fcf6bc56a6f53b49f729c41b6cbb25bcf77ae4bdcf64a68b09efb6e8953636fc579609eb23314168347f880274a6b12bfbe782e231c7d4e649b910eb"
+RPM_NAME = "noisetorch-0.12.2-5.1.aarch64.rpm"
+RPM_HASH = "c0989cd18359bbaedfccc474730587cb02ef06d0fafc03e3b9fc3a28033bb142ccd8c909b09719d62469f01c24227e8052342a9b2ac2f430ada98fccade74361"
 
 RPROVIDES:${PN} += "noisetorch"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "/usr/bin/sh \
+libc.so.6 \
+permissions"
 
 inherit rpm

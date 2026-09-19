@@ -3,10 +3,10 @@ DESCRIPTION = "gnome-autoar provides functions, widgets, and gschemas for GNOME 
 to use archives as a method to transfer directories over the Internet."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.4.4"
+PV = "0.4.5"
 
-RPM_NAME = "libgnome-autoar-0-0-0.4.4-1.2.aarch64.rpm"
-RPM_HASH = "d3da670df508f5e6d225105f90726140576d6ea82f7cede3f18a0be5a1a55de5db638f81e11e9e8b2400c342080edfd0af3b88c964d6bf836f185a80db490496"
+RPM_NAME = "libgnome-autoar-0-0-0.4.5-3.4.aarch64.rpm"
+RPM_HASH = "a2b45f07bfa1a3a65fb84d3a584cac7efc5589fcff267294fc327fb232fba874e19f4a8c3b355d4a2ec4fe692f63e21e4a2c0037469d8a71dfe68470e7cb71d9"
 
 RPROVIDES:${PN} += "libgnome-autoar-0-0 \
 libgnome-autoar-0.so.0"

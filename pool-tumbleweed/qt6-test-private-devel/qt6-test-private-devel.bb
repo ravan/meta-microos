@@ -3,14 +3,15 @@ DESCRIPTION = "This package provides private headers of libQt6Test that do not h
 ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-test-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "953de984e9fd6958b080d420e2ccaf86ed2732786192d1f476072858f04079f91fea4cb424507e10fd6ead74d7de4249cd80b39c79c640381ee2af7276e80b24"
+RPM_NAME = "qt6-test-private-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "1a64657d9603c5edc2d061036ebb8cb6cf0e24dc786d566bc343e6b1cd971ab55d67fec9985f702b57ca6886a2899816b29b3ff37c4485e406a84499adc5f549"
 
-RPROVIDES:${PN} += "qt6-test-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6TestPrivate \
+qt6-test-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6Test \
-qt6-core-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate \
+cmake-Qt6Test"
 
 inherit rpm

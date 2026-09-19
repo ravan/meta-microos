@@ -1,11 +1,11 @@
 SUMMARY = "Examples for the qt6-connectivity modules"
 DESCRIPTION = "Examples for the qt6-connectivity modules."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-connectivity-examples-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "96c909cc7533ab50d29501978fb1276400832cf44edc7ee1574466d61dd5fe7b8a06589ebba25173d0ce4ac28da717b669588110bc78a0198e82cdef6663356d"
+RPM_NAME = "qt6-connectivity-examples-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "77ceae8de30a3288b696889d5885104a8a225f2140643a182bc3e7941e9801e5b4e0d9818f1fad0caadc5a242469f53e8f0296bc6f119449104c4af54edf9428"
 
 RPROVIDES:${PN} += "qt6-connectivity-examples"
 
@@ -19,6 +19,12 @@ libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6qmlimport-QtCore \
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.Controls \
+qt6qmlimport-QtQuick.Dialogs \
+qt6qmlimport-QtQuick.Layouts \
+qt6qmlimport-QtQuick.Window"
 
 inherit rpm

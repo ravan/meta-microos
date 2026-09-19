@@ -2,18 +2,19 @@ SUMMARY = "A library to access Tryton's modules like a client"
 DESCRIPTION = "Proteus allows you to access Tryton's modules like a client. Useful for automation, data load etc."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.0.8"
+PV = "7.0.3"
 
-RPM_NAME = "proteus-6.0.8-1.3.noarch.rpm"
-RPM_HASH = "6d0860222dc849e62507ea1fb6f11011c6995a7910e23f43dc933a0f8a1c5c3306deaffd10dac65336d5f306df9f5ec4561f5267a6ef1dcf6f3cc20ade6d8a17"
+RPM_NAME = "proteus-7.0.3-1.2.noarch.rpm"
+RPM_HASH = "a5d9cb8afa0e44fbaa5199c90dec6a5df81c5953fdd9419f093cb6461742a6d30bc1aceced33ab53060583d990fa65314172b518a282c4d9213b0b48b9b29c6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "proteus \
-python3.11dist-proteus \
+python3.13dist-proteus \
 python3dist-proteus"
 
 RDEPENDS:${PN} += "python-abi \
-python3-dateutil \
+python3-defusedxml \
+python3-python-dateutil \
 trytond"
 
 inherit rpm

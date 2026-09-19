@@ -4,8 +4,8 @@ LICENSE = "X11"
 
 PV = "1.1.4"
 
-RPM_NAME = "xlsatoms-1.1.4-1.3.aarch64.rpm"
-RPM_HASH = "a9a3e2b30d15d91059b0cb05a17eb89a18a568538f108fd7a86150219c9ff2a826456ad0b1fbc65bf73ec2f559c26a91d77917ba5a4ee956ad3b9aa01aa4037a"
+RPM_NAME = "xlsatoms-1.1.4-1.13.aarch64.rpm"
+RPM_HASH = "360d1fdf7e8a422c2a807f279ffbdda6fd08a6481c5c4c3b19b5c8c9dd89adc69ce812daebd351082791d9be49c10cb8e1973fd168ad2c08b5d84c80c10e4c77"
 
 RPROVIDES:${PN} += "xlsatoms"
 

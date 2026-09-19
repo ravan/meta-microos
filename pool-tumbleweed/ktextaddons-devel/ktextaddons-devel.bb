@@ -1,36 +1,48 @@
 SUMMARY = "Development files for ktextaddons, a library for handling texts"
 DESCRIPTION = "This package provides development files to use ktextaddons in other applications."
-LICENSE = "LGPL-2.0-or-later & GPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.4.1"
+PV = "2.1.2"
 
-RPM_NAME = "ktextaddons-devel-1.4.1-1.1.aarch64.rpm"
-RPM_HASH = "990ee9b220e848cd706e7d026eb91b57c5a14b044630514cf279a54954d080686bbf2ae30e1fbdee68ed587d443670278be01211abf24ad27e291a4370b786bb"
+RPM_NAME = "ktextaddons-devel-2.1.2-1.1.aarch64.rpm"
+RPM_HASH = "6ffd3e568a1185bd88b4401b08de875b9e1ff9d38f3611094591087e5f0d057387c17a911daa990d334d03ba35570f845fab1a6df5c7e5106aedca4e07068b16"
 
-RPROVIDES:${PN} += "cmake-KF5TextAddonsWidgets \
-cmake-KF5TextAutoCorrectionCore \
-cmake-KF5TextAutoCorrectionWidgets \
-cmake-KF5TextEditTextToSpeech \
-cmake-KF5TextEmoticonsCore \
-cmake-KF5TextEmoticonsWidgets \
-cmake-KF5TextGrammarCheck \
-cmake-KF5TextTranslator \
-cmake-KF5TextUtils \
+RPROVIDES:${PN} += "cmake-KF6TextAddonsWidgets \
+cmake-KF6TextAutoCorrectionCore \
+cmake-KF6TextAutoCorrectionWidgets \
+cmake-KF6TextAutoGenerateText \
+cmake-KF6TextAutoGenerateTextMcpProtocolCore \
+cmake-KF6TextAutoGenerateTextMcpProtocolWidgets \
+cmake-KF6TextCustomEditor \
+cmake-KF6TextEditTextToSpeech \
+cmake-KF6TextEmoticonsCore \
+cmake-KF6TextEmoticonsWidgets \
+cmake-KF6TextGrammarCheck \
+cmake-KF6TextSpeechToText \
+cmake-KF6TextTranslator \
+cmake-KF6TextUtils \
 ktextaddons-devel"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5TextAddonsWidgets1 \
-libKF5TextAutoCorrectionCore1 \
-libKF5TextAutoCorrectionWidgets1 \
-libKF5TextEditTextToSpeech1 \
-libKF5TextEmoticonsCore1 \
-libKF5TextEmoticonsWidgets1 \
-libKF5TextGrammarCheck1 \
-libKF5TextTranslator.so.1 \
-libKF5TextTranslator1 \
-libKF5TextUtils1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
+RDEPENDS:${PN} += "cmake-KF6ColorScheme \
+cmake-KF6Config \
+cmake-KF6CoreAddons \
+cmake-KF6I18n \
+cmake-KF6Service \
+cmake-KF6Sonnet \
+cmake-KF6SyntaxHighlighting \
+cmake-KF6WidgetsAddons \
+cmake-Qt6Core \
+cmake-Qt6Gui \
+cmake-Qt6Network \
+cmake-Qt6Sql \
+cmake-Qt6TextToSpeech \
+cmake-Qt6Widgets \
+ld-linux-aarch64.so.1 \
+libKF6TextAddons1 \
+libKF6TextCustomEditor.so.1 \
+libKF6TextTranslator.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

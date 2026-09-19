@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-idxcmds"
 DESCRIPTION = "This package includes the documentation for texlive-idxcmds"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2csvn54554"
+PV = "2026.226.0.0.2csvn54554"
 
-RPM_NAME = "texlive-idxcmds-doc-2023.209.0.0.2csvn54554-54.1.noarch.rpm"
-RPM_HASH = "ed142330ede8d463253c416439ae5f68e6a506fc1993cf89bd282c107fcebaa295cafa8d5b81f421c2e63755dbe0aeb1bec024c4f023e18fba8c5095fa17d0ad"
+RPM_NAME = "texlive-idxcmds-doc-2026.226.0.0.2csvn54554-60.2.noarch.rpm"
+RPM_HASH = "290161e42001fecb11b0dd479f7c599931a241aa96b3b46b3c04ab32d8a160a9f58c1ace017dd0330bafbf19aed237d04bd2a8c01280c18f518723fb8ee7287c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-idxcmds-doc"

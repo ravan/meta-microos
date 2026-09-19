@@ -4,14 +4,15 @@ in JSON format to Apache Spark. See https://spark.apache.org/ for \
 further details on Apache Spark."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-export-pcp2spark-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "53a026d87b5c9e954dd33c488c5a6a969275bb06c1a4a8eed8608ca2b2a6149dca0fbda0e4d65cf8d362b79d26712ad5821b8b2786af1c44095db839eaf59ab2"
+RPM_NAME = "pcp-export-pcp2spark-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "d8985a6ec6c20d8d7d73f460df54720aa0f48f59e49026e5a064f9bb9cd07469e340d5129ea10ca46a4d7ef6fec176d4ec268a8163cf1cb9a4020511c8ed7a44"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-export-pcp2spark"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 libpcp3 \
 python3-pcp"
 

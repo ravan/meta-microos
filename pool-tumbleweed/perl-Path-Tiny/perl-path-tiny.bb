@@ -27,17 +27,17 @@ This module depends heavily on PerlIO layers for correct operation and thus \
 requires Perl 5.008001 or later."
 LICENSE = "Apache-2.0"
 
-PV = "0.144"
+PV = "0.150.0"
 
-RPM_NAME = "perl-Path-Tiny-0.144-1.4.noarch.rpm"
-RPM_HASH = "b927025b8b5af0b8f9adb5455be52ed12849b1201606a4732dc75e61ae67db7d9e2449291f2383ed8083b9357bad423cc454b11df7fa55f5b8ac80db6cc41dae"
+RPM_NAME = "perl-Path-Tiny-0.150.0-1.5.noarch.rpm"
+RPM_HASH = "88e0adc686caaef892c26e62fd6a364b6335645ed5bb6851cf2d8f79ae4aaa0d91b863885fae2b57241ddc7815b6069564e3301eafdcb2c2a32b0dfbbad27a42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Path--Tiny \
 perl-Path--Tiny--Error \
 perl-Path-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Digest--SHA \
 perl-File--Path \
 perl-File--Temp"

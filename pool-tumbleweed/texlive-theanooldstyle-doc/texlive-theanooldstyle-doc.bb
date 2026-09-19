@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-theanooldstyle"
 DESCRIPTION = "This package includes the documentation for texlive-theanooldstyle"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64519"
+PV = "2026.227.svn64519"
 
-RPM_NAME = "texlive-theanooldstyle-doc-2023.209.svn64519-55.1.noarch.rpm"
-RPM_HASH = "95fa1e6046a1c6379ea965188047869c3a097f0a2ebb4b8527601e9d9ecba88658abaf7c4e34a8c2312ff8fd52e780ca2420857dc9b89491b5b16c093c891a0e"
+RPM_NAME = "texlive-theanooldstyle-doc-2026.227.svn64519-62.2.noarch.rpm"
+RPM_HASH = "163c58482c8fe3524306e272074d023a4095bf91ea80a7a38c0f745c16c3dcced8c08fac7f4843cf338388cbd254f3e6cd6a07a7229b4493769172e26fceaccf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-theanooldstyle-doc"

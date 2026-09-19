@@ -7,10 +7,10 @@ like JsonGenerator, JsonParser and JsonFactory. Some data-binding types \
 overridden as well (ObjectMapper sub-classed as XmlMapper)."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-dataformat-xml-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "432a02f3aceba7a4790ed1e10d341e839b176a7f73b51f5fab8e96e8a5d3c29005a8754ba24b961127943c0b069b8475a73bd0cb114ad4c764849127d3411ad6"
+RPM_NAME = "jackson-dataformat-xml-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "58174bfc8c4a9450cd247b8f4d3d4951475cca4dc321cda20d6bc94997dc577cae4c5402e2f4d194ecf5da990fbf424e5dc27927bd84027c366153319bd61b05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-xml \

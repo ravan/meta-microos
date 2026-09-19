@@ -7,19 +7,20 @@ contains modules for mesh optimization and hierarchical mesh \
 refinement."
 LICENSE = "LGPL-2.1-only"
 
-PV = "6.2.2301"
+PV = "6.2.2602"
 
-RPM_NAME = "netgen-6.2.2301-1.5.aarch64.rpm"
-RPM_HASH = "66800c78756130d521ab16389f7fde2e2bec045e183494d19b890125c508ed947e8e025d1155682cd13063719152b1f578bd38e6c337a7762d159606623e6aea"
+RPM_NAME = "netgen-6.2.2602-3.5.aarch64.rpm"
+RPM_HASH = "3bf81b47cdb93f4d2bf974f660275efd7efb431bbdf826faa77714d675b6240dfb2104baabd51f023dd1bb363d162bba1e69b88ab691069f17773fdfc192f7ac"
 
 RPROVIDES:${PN} += "netgen"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libngcore.so \
-libnggui.so \
-libnglib.so \
+libngcore.so.6.2.2602 \
+libnggui.so.6.2.2602 \
+libnglib.so.6.2.2602 \
+libpython3.13.so.1.0 \
 libstdc++.so.6 \
 libtcl8.6.so \
 libtk8.6.so"

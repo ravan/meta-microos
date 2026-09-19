@@ -2,10 +2,10 @@ SUMMARY = "Prometheus Java Suite"
 DESCRIPTION = "The Prometheus Java Suite: Client Metrics, Exposition, and Examples."
 LICENSE = "Apache-2.0 & CC0-1.0"
 
-PV = "0.8.0"
+PV = "0.16.0"
 
-RPM_NAME = "prometheus-simpleclient-java-0.8.0-7.1.noarch.rpm"
-RPM_HASH = "791097b51e1bf4e0065aa5bc9919b6fc3388af19bec999f67fc4269f0dc44dd5b4fd7198fbd11a6fb2267e708cc805aba157259f070d752a7785973e15a60b3b"
+RPM_NAME = "prometheus-simpleclient-java-0.16.0-2.2.noarch.rpm"
+RPM_HASH = "cd0263d4c4a3dd03e056c7b5126a7614aecedf66f59592e2f0dc41c8bbd5b557be6ffba724ccd3cc02834ef1db5b1e9cabb60320ad63fe2304162411ced27a8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-io.prometheus-simpleclient \
@@ -14,6 +14,7 @@ osgi-io.prometheus.simpleclient \
 prometheus-simpleclient-java"
 
 RDEPENDS:${PN} += "java-headless \
-javapackages-filesystem"
+javapackages-filesystem \
+mvn-io.prometheus-simpleclient-tracer-common"
 
 inherit rpm

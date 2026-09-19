@@ -13,8 +13,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.005OFL"
 
-RPM_NAME = "paratype-pt-sans-fonts-2.005OFL-3.17.noarch.rpm"
-RPM_HASH = "03a28d7a711ba2cf6a6807859420bb5d5d3480f49bbd873aad30eb5692818b5b61d73ed4e82c3e750da387c920576c7eda0cb251ec94f92b144750c965f9cec7"
+RPM_NAME = "paratype-pt-sans-fonts-2.005OFL-3.25.noarch.rpm"
+RPM_HASH = "6ec80b912209c1beeaec6aa05667e3ae14489bf5a732b78ce9be0c662eb3f58bdd9f90057a97ee09c1dd33de95e4aa29dceefa0240bbe3acb7e1d4b6294bcc7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "PTSans-fonts \

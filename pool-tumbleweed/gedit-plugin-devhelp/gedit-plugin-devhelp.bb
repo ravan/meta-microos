@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "gedit-plugin-devhelp-43.0-2.2.aarch64.rpm"
-RPM_HASH = "1168a2256c0e08c5421acab326f1867c1eb6b2d5d4b21e89d9b9c1398cd52a31dc12dbed782c6d124377cfcb70567364675b3fac735e8a3a7a9da6fdda4d05ba"
+RPM_NAME = "gedit-plugin-devhelp-43.0-3.7.aarch64.rpm"
+RPM_HASH = "ec4e6818c5c932ff257e681db3ba01a5751a498a6df27f0f48852da210fe8853448ef0dbaabe183c2d2879b776949d834bb9ec71d01ebb0de192083939e77a18"
 
 RPROVIDES:${PN} += "gedit-plugin-devhelp"
 

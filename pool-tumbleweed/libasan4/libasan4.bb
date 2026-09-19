@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "libasan4-7.5.0+r278197-14.6.aarch64.rpm"
-RPM_HASH = "920e781bde760b24773a9676bc5a007445d42eadf31cc564b3edbdc7d037414bd943d444fda7eb8d3bee931f98b33adbfb7453e39715ae0c8d2b0add4049dc2e"
+RPM_NAME = "libasan4-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "bddeb66a276167e2b0c23a42f18008c6e1b68b7563676dd748c54c52221b480e09047ca221f2ecf6d05dcaffdd7849999d8bddaff4d45241ccbdaa49b1d4137f"
 
 RPROVIDES:${PN} += "libasan.so.4 \
 libasan4"

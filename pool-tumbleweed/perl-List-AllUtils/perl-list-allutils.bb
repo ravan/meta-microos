@@ -10,14 +10,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.19"
 
-RPM_NAME = "perl-List-AllUtils-0.19-1.11.noarch.rpm"
-RPM_HASH = "9cbff290a668e9f869cd41051daf8cd620ad116acdddba12f1077ee0edb1bfada7b5f67c97ea51a23697d4c96efc1e953463f458d256f66168c4b739e4286b2a"
+RPM_NAME = "perl-List-AllUtils-0.19-1.25.noarch.rpm"
+RPM_HASH = "3689c4da5a7e38fa4ae6f9dbb1dbfbf74dc0796f31675d2e07d1fa01dd083274e5fe168bbbe4212c1ac7c4ad0972f18eb51a4be2d26337f0a4a88ba501cd85cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-List--AllUtils \
 perl-List-AllUtils"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-List--SomeUtils \
 perl-List--Util \
 perl-List--UtilsBy"

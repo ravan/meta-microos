@@ -4,18 +4,21 @@ LICENSE = "BSD-3-Clause & SUSE-Public-Domain"
 
 PV = "20040629"
 
-RPM_NAME = "sazanami-fonts-20040629-212.26.noarch.rpm"
-RPM_HASH = "d91bdad28d2df24fc9e6fb52b72fddb623ebad430859f0926258be0652357f15c6b61089c0bf70f683e3b34a6ed184128777473a98502e726217b760fce8ee1a"
+RPM_NAME = "sazanami-fonts-20040629-214.4.noarch.rpm"
+RPM_HASH = "43f30131c3aad4cd93e15e5737cb27888f14578adea6e5da59d6c61953ca4840dbaa5963f406f039510731a3cbd454561c6e784b5491d76934aeed01ec621157"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
 font--lang=ab \
 font--lang=af \
+font--lang=agr \
 font--lang=an \
 font--lang=av \
 font--lang=ay \
+font--lang=ayc \
 font--lang=ba \
 font--lang=be \
+font--lang=bem \
 font--lang=bg \
 font--lang=bi \
 font--lang=br \
@@ -33,6 +36,7 @@ font--lang=cv \
 font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=el \
 font--lang=en \
 font--lang=eo \
@@ -78,10 +82,14 @@ font--lang=lb \
 font--lang=lez \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mhr \
+font--lang=mjw \
 font--lang=mn-mn \
 font--lang=ms \
 font--lang=mt \
@@ -89,6 +97,8 @@ font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -126,30 +136,34 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tg \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
 font--lang=tt \
 font--lang=tyv \
 font--lang=uk \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-sazanamigothic \
 font-sazanamimincho \
 font-さざなみゴシック \
 font-さざなみ明朝 \
-locale-ja \
 sazanami-fonts \
 scalable-font-ja"
 

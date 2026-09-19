@@ -7,10 +7,10 @@ tradition, relies instead on separate external utilities such as GNU Tar for \
 these tasks."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.23"
+PV = "1.26"
 
-RPM_NAME = "lzip-1.23-1.8.aarch64.rpm"
-RPM_HASH = "c3368843d7c6a5fb1085b83a9c8764c6be1ee655e81752f03fc12ad206bc6e430610775a3be36cc5144f037097dc41884188a3bcb259bab01bae37f9e5c0a2a5"
+RPM_NAME = "lzip-1.26-1.3.aarch64.rpm"
+RPM_HASH = "3c8476e1aec4048863f1f52cfaa0af3aa748ce62fcf100bbfbbf8daef16e3968ba359847c3257bcdd281f5aa3e195c5b38f019a939721f46de7ccdfda3b8f565"
 
 RPROVIDES:${PN} += "lzip"
 

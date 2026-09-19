@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-coop-writing"
 DESCRIPTION = "This package includes the documentation for texlive-coop-writing"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.4svn61607"
+PV = "2026.226.1.2.4svn76924"
 
-RPM_NAME = "texlive-coop-writing-doc-2023.209.1.2.4svn61607-55.1.noarch.rpm"
-RPM_HASH = "277d0ad01cb4304bcbd160ed04c3db7659803d65a27d3097ed7579925bc67a1fba7385f3b8bfc7c33d2595b06323c8bf6029bdfdbd395d0a4575e2914cba5f62"
+RPM_NAME = "texlive-coop-writing-doc-2026.226.1.2.4svn76924-61.2.noarch.rpm"
+RPM_HASH = "7cfe100652d6cf6b0c16ca9172adf51eba05a1d14dc391c4670d6faef95a29d0fea11049758afbde499787668cb87cce6b62bb4faac6915162fad0715350b2f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-coop-writing-doc"

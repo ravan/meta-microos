@@ -2,13 +2,13 @@ SUMMARY = "Documentation for texlive-bclogo"
 DESCRIPTION = "This package includes the documentation for texlive-bclogo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1svn39364"
+PV = "2026.226.3.15svn77682"
 
-RPM_NAME = "texlive-bclogo-doc-2023.209.3.1svn39364-54.1.noarch.rpm"
-RPM_HASH = "6d7bbfda716f183c2fab42a7f0bd285da9633948f47e9f6033377335c4abf65280a670af04de270d827eb34edb6890599f2a9d24e3b52cb7a4dae19183756956"
+RPM_NAME = "texlive-bclogo-doc-2026.226.3.15svn77682-61.2.noarch.rpm"
+RPM_HASH = "9af288432c9b2b06a3e7155359eef86ff5feee74626572586ff0890b50b1049b1677e051f6a47f1b0b23a1e159c759cf96b42015b193e64cd29316675b93be5a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-texlive-bclogo-doc-fr;en \
+RPROVIDES:${PN} += "locale-texlive-bclogo-doc-fr \
 texlive-bclogo-doc"
 
 RDEPENDS:${PN} += ""

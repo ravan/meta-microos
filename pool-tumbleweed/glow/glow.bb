@@ -8,10 +8,10 @@ them anywhere. Glow will find local markdown files in subdirectories or a local 
 Git repository."
 LICENSE = "MIT"
 
-PV = "1.5.1"
+PV = "3.0.0"
 
-RPM_NAME = "glow-1.5.1-2.1.aarch64.rpm"
-RPM_HASH = "8342001aee0d23d3a55e19789cf5c12f8ba8041ea3545583d3b4e6368d3df8141cb1603802184ff06ab5cf2b0667f805c6134eb73537b10318318eab577b8d3c"
+RPM_NAME = "glow-3.0.0-1.1.aarch64.rpm"
+RPM_HASH = "41a5703bd6f8e8e1e5c22e2096ebbe14030aa41b705a1935699197eedce131ba10045e31c333211a7e0c3df0b67cd32d5c49bc7fad3bdd27ae4a058f3ac71452"
 
 RPROVIDES:${PN} += "glow"
 

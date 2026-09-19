@@ -7,10 +7,10 @@ dictionary-based approach. Math braille (Nemeth and Marburg) is \
 supported."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "3.25.0"
+PV = "3.39.0"
 
-RPM_NAME = "liblouis20-3.25.0-1.2.aarch64.rpm"
-RPM_HASH = "4b1614ca5ff18cfdd572472592f746c084fbc0847417341c24b16614cf22ed54d85e5377c0e09c0971c3f7c18a88678ca80191dc7ad645bc4777ddd6b2cc1575"
+RPM_NAME = "liblouis20-3.39.0-1.1.aarch64.rpm"
+RPM_HASH = "4825c0d6e69ae820ec86349cd3feb09572afab1f3a1c4e840a410c8edfd9f144842c2a60c235fcbb8c6874f55be49f741e2bc3e6085ca61d8fb563b18acc17c6"
 
 RPROVIDES:${PN} += "liblouis \
 liblouis.so.20 \

@@ -2,10 +2,10 @@ SUMMARY = "Apache Commons Parent Pom"
 DESCRIPTION = "The Project Object Model files for the apache-commons packages."
 LICENSE = "Apache-2.0"
 
-PV = "53"
+PV = "81"
 
-RPM_NAME = "apache-commons-parent-53-1.2.noarch.rpm"
-RPM_HASH = "9568d10f80ede7020407f84f3f5a347a37ecb4b261e50b775239b02a23531f5d8aa3a74df8586b4c55c42d002a681443d35a980cecae51fb154f9e5dd84ebfa9"
+RPM_NAME = "apache-commons-parent-81-1.4.noarch.rpm"
+RPM_HASH = "ea4898556fc4b383fe50a7ef77fd532233ac100a949d5868974acdaf8ebd6afda5409e17a33f7aade67aed54f850a699978db31f399d6643f3fd1135d781e741"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-parent \

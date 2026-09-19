@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QuickDialogs2Impl library"
 DESCRIPTION = "The Qt 6 QuickDialogs2Impl library."
 LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6QuickDialogs2QuickImpl6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "a7cea46622c9463585f848cc0c76bcaec811dd4728629c859e7e3bfa9901b7f63db126edee38a7ba97257954480c3e786c993fded9098562a452877e28647118"
+RPM_NAME = "libQt6QuickDialogs2QuickImpl6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "f4fc41dee15d577cf42a7adbc5ad9bc0b23a910f061a74ff1d156e4494d175d2f7ba89a11497ad0612086e6bed8f86169e08267d311d7ad66dec4803e625cb11"
 
 RPROVIDES:${PN} += "libQt6QuickDialogs2QuickImpl.so.6 \
 libQt6QuickDialogs2QuickImpl6"
@@ -20,6 +20,7 @@ libQt6QuickControls2Impl.so.6 \
 libQt6QuickDialogs2Utils.so.6 \
 libQt6QuickTemplates2.so.6 \
 libc.so.6 \
+libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

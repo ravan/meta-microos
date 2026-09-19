@@ -8,10 +8,10 @@ include 'smtp://', 'prog://' and 'sendmail://', which are equivalent to \
 forwarding a message over SMTP to a remote node."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.16"
+PV = "3.21"
 
-RPM_NAME = "mailutils-delivery-3.16-1.3.aarch64.rpm"
-RPM_HASH = "22d9a251f85661edd974eb45b6d136bb9df752dc9f51832901c9816e58dcfe3251f49629f07d1513caaa92a28f19bdc3166f83f158746a5bdbe662b9a512a82b"
+RPM_NAME = "mailutils-delivery-3.21-1.6.aarch64.rpm"
+RPM_HASH = "fe34fad6ec84655f67f9e49f1bddd91df7cc20c137609231d6f1eeb54f2cdcf04f68105e123e8336c9af2121d33db8013b9d5635dc9a0f3914340e78d1f98c7b"
 
 RPROVIDES:${PN} += "mailutils-delivery"
 

@@ -6,10 +6,10 @@ drivers. \
 This subpackage contains the headers for the library."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.4"
+PV = "1.4.12"
 
-RPM_NAME = "pappl-devel-1.3.4-1.1.aarch64.rpm"
-RPM_HASH = "d49a9fc94537aacf107b8187a0745cdd39f8bff333adb7de3da15194ef556708071765560e80e0c6751c7a7fd36f3410980f5a844ce7e28e9e67b9624a03d687"
+RPM_NAME = "pappl-devel-1.4.12-1.1.aarch64.rpm"
+RPM_HASH = "1125fec39c8b429e22454ba5abaf256da3ffd342f3fa31ac5c226de1ab4218464471a17228ce3dd70ba4f5d1daeab3adf760a5b6e4255b35c2ec9a1b9acc7262"
 
 RPROVIDES:${PN} += "pappl-devel \
 pkgconfig-pappl"

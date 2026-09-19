@@ -2,10 +2,10 @@ SUMMARY = "Binary files of texlogsieve"
 DESCRIPTION = "Binary files of texlogsieve"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn61328"
+PV = "2026.20260301.svn61328"
 
-RPM_NAME = "texlive-texlogsieve-bin-2023.20230311.svn61328-93.2.aarch64.rpm"
-RPM_HASH = "5c34c8271e6cb00f11e268b7ae0161f96e1d13ed830b7812b7811e7df42143790c2a18ba20437b9c749addc95ba5d4f9ba8900e72bdc6a1525cd0285a936fcb4"
+RPM_NAME = "texlive-texlogsieve-bin-2026.20260301.svn61328-120.4.aarch64.rpm"
+RPM_HASH = "dad9623d9d6b7b13470688a320e360930103eece3d34ae7f4e3a36bd301ecc76dd969185abe174984aabb00405b08ddaf98021080d5c65eec92209d3b9419793"
 
 RPROVIDES:${PN} += "texlive-texlogsieve-bin"
 

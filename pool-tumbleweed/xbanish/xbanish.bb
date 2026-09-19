@@ -13,8 +13,8 @@ LICENSE = "ISC"
 
 PV = "1.8"
 
-RPM_NAME = "xbanish-1.8-1.8.aarch64.rpm"
-RPM_HASH = "5ca20639f02fdce6f861d30663ffd446da06eea06c7171c600154ee797e07cc3a156fb2b5a5ae4f789c53f3abaa084f14020e6f0686b7f6d28e68406b3afb38f"
+RPM_NAME = "xbanish-1.8-1.18.aarch64.rpm"
+RPM_HASH = "321cac00787c9d9bbfaa65c6024d5a86367bf26400acc3b069e576c0eba8d58dcf22ce53f3b28628db33dd04ef9a0a2405ec9bbefb70fb7d1900a131bc2e1bb1"
 
 RPROVIDES:${PN} += "xbanish"
 

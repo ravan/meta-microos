@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9"
 
-RPM_NAME = "httpcomponents-project-9-1.11.noarch.rpm"
-RPM_HASH = "61a5de7f1c4b395760c1e80ab3dd1adda2bcc17db68b2467cf9be0f20f019bb3fdeb7e8cdee1115b3da8622532af2148cd89e124415e42efc465d3adb5dfd03a"
+RPM_NAME = "httpcomponents-project-9-1.19.noarch.rpm"
+RPM_HASH = "828c1a079743688088b5aa0836f5ae356fd81b4ec91858572187ea35708330c8d1aad52fb1d6a7521e506c62c93711093e5ed42ed45873a796bd3536bc5e36af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-project \

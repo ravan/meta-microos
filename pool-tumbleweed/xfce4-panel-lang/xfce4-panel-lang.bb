@@ -2,13 +2,14 @@ SUMMARY = "Translations for package xfce4-panel"
 DESCRIPTION = "Provides translations for the 'xfce4-panel' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.18.4"
+PV = "4.20.8"
 
-RPM_NAME = "xfce4-panel-lang-4.18.4-1.1.noarch.rpm"
-RPM_HASH = "1830b7806181f172a3e10981801f0babb3cd9fd461f8c35fd0e2d1aed1ec18b1ea80052ab009efa47fc020d38208f1245f03619c327d89352bcd0b21a000f071"
+RPM_NAME = "xfce4-panel-lang-4.20.8-1.1.noarch.rpm"
+RPM_HASH = "2e0a8d719dae9cdec3011644f7c6e2766600a525b7a597a6bf935f65ed061589c651930c963931a98307efd6fed2851852faf6eccf78be93704d566a49c13b07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-panel-ar \
+locale-xfce4-panel-az \
 locale-xfce4-panel-be \
 locale-xfce4-panel-bg \
 locale-xfce4-panel-bn \

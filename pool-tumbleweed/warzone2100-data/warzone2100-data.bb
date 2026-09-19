@@ -16,10 +16,10 @@ working on it. \
 This package provides the game data for Warzone 2100."
 LICENSE = "BSD-3-Clause & CC-BY-SA-3.0 & GPL-3.0-or-later & CC0-1.0 & LGPL-2.1-only"
 
-PV = "4.3.5"
+PV = "4.7.0"
 
-RPM_NAME = "warzone2100-data-4.3.5-2.1.noarch.rpm"
-RPM_HASH = "90cec1157ec4c5e88dd30b36eb0135ae92e9a6d7c09a8677020b8cb3d19fa17a018cf9cc16e82d48e451f4e3b88dea3f6979b94daee0651afe0330e492982d16"
+RPM_NAME = "warzone2100-data-4.7.0-1.4.noarch.rpm"
+RPM_HASH = "ebb03782589edd6248be15c3957ac122e37f5235ddd7d9370a363dec89f4af1451ad594dbfd332e5e1ed95d100485755dc52007cdfd4b94be4392c8e15e5939b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warzone2100-data"

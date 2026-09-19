@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Javanese la
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-jav-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "1c1ec5c65deca90366461c3f5ba6518419bfca3c284dd91c64b1b58bf72a1781d4c65ecc7b55322a84f1d1abedfcc0d1c54b99afaa51116472b98800c69b397f"
+RPM_NAME = "tesseract-ocr-traineddata-jav-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "bda7a99df55a645618b1c89b3cf5409c052dc722ce2dabefdb818f326c81ddecbb44552cce6c60d674a62e7c5fcbd968567bf9fd3687747e3b2d73b2d714a98f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-jav \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-jav \
+tesseract-ocr-traineddata-jav \
 tesseract-ocr-traineddata-javanese \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-javanese"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

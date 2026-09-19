@@ -6,10 +6,10 @@ requires the standard packages TikZ, xcolor, xstring, and \
 pgfkeys."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.2svn55002"
+PV = "2026.226.1.0.4svn75210"
 
-RPM_NAME = "texlive-tikz-planets-2023.209.1.0.2svn55002-53.1.noarch.rpm"
-RPM_HASH = "1cb16cd4ca944c2b83c7e27b39a30fe60c0d9a24681f7e8cc44dc3ffe9b90d271554614d713bc7b38be42c41d497065223c180d89f29b4282c4e0240ce61da6b"
+RPM_NAME = "texlive-tikz-planets-2026.226.1.0.4svn75210-59.2.noarch.rpm"
+RPM_HASH = "c9219f5bbce3bd4b3d52bdcbbdf2919429528a0c94495dc3b2e97b27013aeb7832ece468c11ac8a17bf7ed4e411569838b530283d1f16bb70e23005720e698ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-planets.sty \

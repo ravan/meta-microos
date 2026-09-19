@@ -9,10 +9,10 @@ the lectures and the authors needs to provided at one point \
 only."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.0svn15878"
+PV = "2026.226.1.5.0svn15878"
 
-RPM_NAME = "texlive-uebungsblatt-2023.209.1.5.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "6bf610cad0782e689c83b8debca0652571c229e387bfacf1dd6c969bf1d9403012f2f1a8acb0f59d58158829846a52e6fe35fd3ca93cc97c35137b6dd872fae2"
+RPM_NAME = "texlive-uebungsblatt-2026.226.1.5.0svn15878-60.2.noarch.rpm"
+RPM_HASH = "8fd8463881e8f20994b61f40c7ceba8f796d5f301816b7dde2a7a6cbf71b0b18ed13ef338e6a5d28a296428270f0906c56d6a24ab8358cdf777f5cfcf0a3e895"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uebungsblatt.cls \

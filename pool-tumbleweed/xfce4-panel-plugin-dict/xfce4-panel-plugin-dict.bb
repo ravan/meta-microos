@@ -2,16 +2,15 @@ SUMMARY = "Dictionary Plugin for the Xfce Panel"
 DESCRIPTION = "This package contains the xfce4-dict dictionary plugin for the Xfce panel."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.5"
+PV = "0.8.10"
 
-RPM_NAME = "xfce4-panel-plugin-dict-0.8.5-1.1.aarch64.rpm"
-RPM_HASH = "ab7676a9c4c05d6ed09df20e6e8b5e310c5a9ab3dfae62484e51d0fb059aae68a286933b0e91ad358cccbe8b7f99fe3bc9b5facbe6a7afa62956fc22f6f7f34d"
+RPM_NAME = "xfce4-panel-plugin-dict-0.8.10-1.1.aarch64.rpm"
+RPM_HASH = "ef13d4758d750651555ac2f61d5f783eb491892d127ba96d19d4567f63b1483794e9a614c398b0fabfaa17928f1bffd1e500dcdd25885259b905113330981936"
 
 RPROVIDES:${PN} += "libxfce4dict.so \
 xfce4-panel-plugin-dict"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libX11.so.6 \
 libc.so.6 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \

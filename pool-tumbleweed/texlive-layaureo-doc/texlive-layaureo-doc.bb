@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-layaureo"
 DESCRIPTION = "This package includes the documentation for texlive-layaureo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn19087"
+PV = "2026.226.0.0.2svn19087"
 
-RPM_NAME = "texlive-layaureo-doc-2023.209.0.0.2svn19087-55.1.noarch.rpm"
-RPM_HASH = "116f8a3cacf9cea07f578bcc5864648583b4afa1b603dd5d55720c6fe7fe358435970ec574326ed157de15fe9308d075ed60549447d68875de2ac56c694b9d2a"
+RPM_NAME = "texlive-layaureo-doc-2026.226.0.0.2svn19087-61.2.noarch.rpm"
+RPM_HASH = "8329bb848809b51c013fede25218c0e5cdddfdb16e962bb14f9fb92be0b2984f38862ce54bd061e874b247c52efce2988ac2460d77f8087b6ad23ad66371061c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-layaureo-doc-it \

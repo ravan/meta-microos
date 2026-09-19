@@ -3,25 +3,21 @@ DESCRIPTION = "This metapackage installs the necessary system dependencies \
 to run KIWI."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.25.12"
+PV = "10.3.11"
 
-RPM_NAME = "kiwi-systemdeps-core-9.25.12-1.1.aarch64.rpm"
-RPM_HASH = "7d8775ebf47cb788101ba4b640856b94d5d6e6051465548a36012334f74ce94a84733be025c454718b1fc1e22f643adaac18e0f0a0411dfce0ff0e8d6c16ff41"
+RPM_NAME = "kiwi-systemdeps-core-10.3.11-1.1.aarch64.rpm"
+RPM_HASH = "a3c9782f13fbf44f8c93743875750c0843b0d8df5d4c821311dfba3c895c616262c23004ab14ae1f8c542151c848ba382aaafaa84552734212a9a4b63b81a145"
 
 RPROVIDES:${PN} += "kiwi-image-tbz \
 kiwi-image-tbz-requires \
-kiwi-packagemanager-dnf \
-kiwi-packagemanager-dnf4 \
-kiwi-packagemanager-microdnf \
-kiwi-packagemanager-yum \
+kiwi-packagemanager-dnf5 \
 kiwi-packagemanager-zypper \
 kiwi-systemdeps-core"
 
 RDEPENDS:${PN} += "cpio \
-dnf \
-kiwi-tools \
+dnf5 \
+dnf5-plugins \
 lsof \
-microdnf \
 mtools \
 openssl \
 rsync \

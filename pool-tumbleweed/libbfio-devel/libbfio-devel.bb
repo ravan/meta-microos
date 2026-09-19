@@ -7,10 +7,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libbfio."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221025"
+PV = "20260623"
 
-RPM_NAME = "libbfio-devel-20221025-2.8.aarch64.rpm"
-RPM_HASH = "0ed69052bc63260c2c26358857b2a471c7a7d2edc1aae683588c6eb3f637e99486d369b79963ded7fa798153a214528aafae20ba9824b0042cad270b1aa9f3e6"
+RPM_NAME = "libbfio-devel-20260623-1.4.aarch64.rpm"
+RPM_HASH = "2fc085336aa94dcb33e35ce257d799afd9546c3f470d997208c7f99379bcb64648969f5f408471b9dd5763aa9842f7b0fc017f43dd36078c6093a24570b316bd"
 
 RPROVIDES:${PN} += "libbfio-devel \
 pkgconfig-libbfio"

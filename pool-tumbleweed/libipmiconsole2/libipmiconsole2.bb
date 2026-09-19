@@ -6,10 +6,10 @@ Platform Management Interface specification. \
 This package contains the libipmiconsole library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.11"
+PV = "1.6.18"
 
-RPM_NAME = "libipmiconsole2-1.6.11-1.1.aarch64.rpm"
-RPM_HASH = "f95a98c4da0eb9f1caeb6caa94518a497c8557bc4d162753f9f5db62514eed4692a15bb42fb2447d007c46064187c6009bf6f761dc62022c2d018e211cfeb649"
+RPM_NAME = "libipmiconsole2-1.6.18-1.3.aarch64.rpm"
+RPM_HASH = "42eb40d3b49f77ba9648837c7ae42e8b1830bf5bd045d35c7481a1f832075d991b04e4c756868d5798d09ef0e764df9a380749176a18ae70b2ccdacc33759ba9"
 
 RPROVIDES:${PN} += "libipmiconsole.so.2 \
 libipmiconsole2"

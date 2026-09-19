@@ -9,12 +9,12 @@ to exercise the API and 'flickrdf' to get RDF metadata descriptions out of \
 photos, tags, and machine tags. \
  \
 This subpackage contains the developer documentation for flickcurl."
-LICENSE = "LGPL-2.1"
+LICENSE = "LGPL-2.1-only"
 
 PV = "1.26"
 
-RPM_NAME = "flickcurl-doc-1.26-3.25.aarch64.rpm"
-RPM_HASH = "74cc0b75cbe5920a66f8cf92cd0db1591e053fb93a6421080bdfbe80cfaeecb46d537e8c014155d493c99177843642f80438ab66e4196289b90d3321d719d23c"
+RPM_NAME = "flickcurl-doc-1.26-6.5.aarch64.rpm"
+RPM_HASH = "aceaa894bdf32dc36f18f83c68310434b0c1d335e95254da8635acd44a17476522ae56d270b549e382f9d1593594c9237ca688b929cb9b077591dca64ff31229"
 
 RPROVIDES:${PN} += "flickcurl-doc"
 

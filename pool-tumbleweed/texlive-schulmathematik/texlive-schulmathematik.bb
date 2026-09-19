@@ -4,10 +4,10 @@ document classes for German-speaking teachers of mathematics \
 and physics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn64108"
+PV = "2026.226.1.7.1svn76924"
 
-RPM_NAME = "texlive-schulmathematik-2023.209.1.3svn64108-54.1.noarch.rpm"
-RPM_HASH = "ac373a2020d5b281bc38bccc0f87bbc13877f3a52fb43fc586a973343133303db6d26b9e33bce098d28163235dfcede9f00e5be8311c0667278918f63d9fc707"
+RPM_NAME = "texlive-schulmathematik-2026.226.1.7.1svn76924-60.2.noarch.rpm"
+RPM_HASH = "0bbd9442912a769bee1801eea360c7b78721b6dc9db2ba5454426065dcb36addb2293558ce7aae5ff5b986f6689b71060f4c68fbaf4576c362cd39a59b00e865"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-schulma-ab.cls \
@@ -30,6 +30,7 @@ tex-adjustbox.sty \
 tex-autoaligne.sty \
 tex-babel.sty \
 tex-beamerarticle.sty \
+tex-circuitikz.sty \
 tex-comment.sty \
 tex-datetime2.sty \
 tex-enumitem.sty \
@@ -38,6 +39,7 @@ tex-geometry.sty \
 tex-icomma.sty \
 tex-isodate.sty \
 tex-mathtools.sty \
+tex-pdfpages.sty \
 tex-pgfpages.sty \
 tex-pgfplots.sty \
 tex-scrlayer-scrpage.sty \

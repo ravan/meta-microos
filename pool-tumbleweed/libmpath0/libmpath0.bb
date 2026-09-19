@@ -5,10 +5,10 @@ provides a C API for sending commands to a running multipathd \
 instance."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only & LGPL-2.0-or-later"
 
-PV = "0.9.6+71+suse.f07325e"
+PV = "0.15.1+229+suse.6c6f63e"
 
-RPM_NAME = "libmpath0-0.9.6+71+suse.f07325e-1.1.aarch64.rpm"
-RPM_HASH = "30eec6d4b0ed4ada84d7a47a539888259581b2222b3d1c0eed2c65f832738af999f14c1763a4a5468b910b79cd17e0fdaf21a6c3664647ced35108875bb38972"
+RPM_NAME = "libmpath0-0.15.1+229+suse.6c6f63e-1.1.aarch64.rpm"
+RPM_HASH = "e56a3e5507d82353ed30436e1043ce0d0e78fef53338d2cba8f5d10d6e63ed5d23c37eb6f7a68370a73d524f58b5a973e702ad26fa51de0e1e2eced2f2fb4086"
 
 RPROVIDES:${PN} += "libcheckcciss-tur.so \
 libcheckdirectio.so \
@@ -25,6 +25,7 @@ libmpathutil.so.0 \
 libmpathvalid.so.0 \
 libmultipath.so.0 \
 libprioalua.so \
+libprioana.so \
 libprioconst.so \
 libpriodatacore.so \
 libprioemc.so \
@@ -43,9 +44,9 @@ ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libc.so.6 \
 libdevmapper.so.1.03 \
+libgcc-s.so.1 \
 libm.so.6 \
 libmount.so.1 \
-libsystemd.so.0 \
 libudev.so.1 \
 liburcu.so.8"
 

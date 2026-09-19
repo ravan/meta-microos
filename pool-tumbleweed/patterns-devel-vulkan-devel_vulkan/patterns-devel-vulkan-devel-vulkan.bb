@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20221115"
 
-RPM_NAME = "patterns-devel-vulkan-devel_vulkan-20221115-2.2.aarch64.rpm"
-RPM_HASH = "f49a99590a5b3f3ee5b0504bd58212c56fb82a884e3c583cbbec0135371a4e34cdafb96dd8669b30a95e8e2fa15562b4df376b3248f9feba81996efdf619c0c8"
+RPM_NAME = "patterns-devel-vulkan-devel_vulkan-20221115-2.10.aarch64.rpm"
+RPM_HASH = "2c0030d85e2d0e9b6abb24c9e6b25e03af81d122be51312ec64b05a1b6a38b450b33ba3a0d754d052e4fa2eafdf4353fdb99164e4a2ebfc0a2006555803c657e"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

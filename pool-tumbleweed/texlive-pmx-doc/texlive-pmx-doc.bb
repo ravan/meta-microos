@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pmx"
 DESCRIPTION = "This package includes the documentation for texlive-pmx"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.00svn65926"
+PV = "2026.226.3.00svn75301"
 
-RPM_NAME = "texlive-pmx-doc-2023.209.3.00svn65926-53.1.noarch.rpm"
-RPM_HASH = "98caafd58f507632d42ea2c95be188bd1a29a667e2b4ab64294adfc49c30cc69c207cf64f0e70b70654b74f0a414e2655443b42a73391f4039a40c905bbfdedc"
+RPM_NAME = "texlive-pmx-doc-2026.226.3.00svn75301-59.2.noarch.rpm"
+RPM_HASH = "a1b2bcd388726698a24d42437e0f5ecbb2efa7e8d64eff2ce3df5be9e23b627058864feaa2d97b26ee08698400d7d525888f510516358709e7545ea684933c0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pmxab.1 \

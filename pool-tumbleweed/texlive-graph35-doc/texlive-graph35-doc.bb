@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-graph35"
 DESCRIPTION = "This package includes the documentation for texlive-graph35"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.3svn65138"
+PV = "2026.226.0.0.1.4svn66772"
 
-RPM_NAME = "texlive-graph35-doc-2023.209.0.0.1.3svn65138-54.2.noarch.rpm"
-RPM_HASH = "9146b5115c3a56bac0f51c0a60523855a78c2f4d0d6060ef94d127b6f2fc32e841fabb6260647d88a1304a5b26493aff077fef1e1f4cf510d637661b5843ccb7"
+RPM_NAME = "texlive-graph35-doc-2026.226.0.0.1.4svn66772-60.4.noarch.rpm"
+RPM_HASH = "0b9ce3711dedeb393d7c06d1083b50056b994e48ebeb5038ba58f26d2b0afce99e0b46f0b1962f2af1d25f9a3dc5fccfb5a21d6117488cd1d6a569c7265f5945"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-graph35-doc-fr \

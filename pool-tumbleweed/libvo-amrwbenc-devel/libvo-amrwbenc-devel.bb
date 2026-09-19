@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.3+5"
 
-RPM_NAME = "libvo-amrwbenc-devel-0.1.3+5-1.2.aarch64.rpm"
-RPM_HASH = "90ecf23e9ce80164ae09f026962c5b9c47c478325d12f4da755fbb8898ac1798566db5651e35aa787de0e89b2cead246c612850cd05fcbb18ab66fb6438ccf96"
+RPM_NAME = "libvo-amrwbenc-devel-0.1.3+5-1.12.aarch64.rpm"
+RPM_HASH = "0b40da446d3c77b78ae5065aad88b3f2461156b4f0fb8a9279cd60eeecdbb97c60cf0c7e7e6fad4c97263bd68d4c90efa29a37fef8b3a26a2aec0099cf443e0b"
 
 RPROVIDES:${PN} += "libvo-amrwbenc-devel \
 pkgconfig-vo-amrwbenc"

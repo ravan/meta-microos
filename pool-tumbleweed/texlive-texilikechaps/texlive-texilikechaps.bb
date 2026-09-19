@@ -5,10 +5,10 @@ smaller format. Details of the format may be controlled with \
 internal commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn28553"
+PV = "2026.227.1.0asvn28553"
 
-RPM_NAME = "texlive-texilikechaps-2023.209.1.0asvn28553-55.1.noarch.rpm"
-RPM_HASH = "d2c2fb404b86fe09d6bd3dcdcba9e71f961a9d2c1ac473aaa2cafa1b79272a8c3fbb89e280d24f4304a5204896db47bd33ef4410c883557c63375c2dd400b914"
+RPM_NAME = "texlive-texilikechaps-2026.227.1.0asvn28553-62.2.noarch.rpm"
+RPM_HASH = "3b93508f05ee0921f826c8f321a0ba2574c2eace371c961483bc9a1f091515616d086a6eec1e3bd7a65a2bbcb5b2738438e2d6a4a720656e7476dd1b6f77f0b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texilikechaps.sty \

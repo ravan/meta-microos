@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-lilyglyphs"
 DESCRIPTION = "The  separated fonts package for texlive-lilyglyphs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.4svn56473"
+PV = "2026.226.0.0.2.4svn56473"
 
-RPM_NAME = "texlive-lilyglyphs-fonts-2023.209.0.0.2.4svn56473-55.1.noarch.rpm"
-RPM_HASH = "d2395abda5d5b78a19b0492fd4d373fcd4f9fd718eaea14dff29b6437a1dea03b6ba63b8b2e795508c70e842da535fa17839707ff90ec285a749921941c68efe"
+RPM_NAME = "texlive-lilyglyphs-fonts-2026.226.0.0.2.4svn56473-61.2.noarch.rpm"
+RPM_HASH = "8072646be59f3681d8470bde8427cb842a7c23596f15cf6dd2376964e704cd4313fd7cdbec1fef75dec5b1bc776a37d5455c81895fa0d8ad0c42bc0232aa9eab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-emmentaler-11 \

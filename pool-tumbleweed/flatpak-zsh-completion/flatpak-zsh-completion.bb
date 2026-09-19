@@ -6,10 +6,10 @@ more information. \
 This package provides zsh tab-completion for flatpak."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.14.4"
+PV = "1.18.2"
 
-RPM_NAME = "flatpak-zsh-completion-1.14.4-1.3.noarch.rpm"
-RPM_HASH = "ce13eb306cbea61fb065c3def0c18549bdc03a1813e6d994dac7f86f5a58557573749605345a552062efcde7bde3f752c4e7e4982cfd0f06b3658739493ed525"
+RPM_NAME = "flatpak-zsh-completion-1.18.2-1.1.noarch.rpm"
+RPM_HASH = "2bdb964686fb780e348e2e9309a398fdc1039769178b5fc229869c542bcd40590e40b0fa8955e040679f8608a1d6c462c30e1632e4988f0a0c3a79bc5c300a2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flatpak-zsh-completion"

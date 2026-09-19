@@ -2,10 +2,10 @@ SUMMARY = "Headers for OpenCSD, a CoreSight Trace Decode library"
 DESCRIPTION = "Header files and libraries for C and C++ development with OpenCSD."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.0"
+PV = "1.8.3"
 
-RPM_NAME = "OpenCSD-devel-1.4.0-1.3.aarch64.rpm"
-RPM_HASH = "0eadb726d4359719b5215b075f352b43942aad47da26fe25513ececc38464bfaafae9e069adee43a353fd7846440ae51843791ef789f158ede1baeb58fa3b464"
+RPM_NAME = "OpenCSD-devel-1.8.3-1.2.aarch64.rpm"
+RPM_HASH = "3d68d6e79e8635830405436c38379fad3c528becebfb803ed18e2d3febea1ede6bdb013bdc09b06e94e9aae39b8a8fa9b114706cb720426f211192dd977cdce9"
 
 RPROVIDES:${PN} += "OpenCSD-devel"
 

@@ -15,10 +15,10 @@ Pro, but (for example) simply loading mnsymbol after mathpazo \
 will probably do what is needed."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.4svn18651"
+PV = "2026.226.1.4svn18651"
 
-RPM_NAME = "texlive-mnsymbol-2023.209.1.4svn18651-55.1.noarch.rpm"
-RPM_HASH = "06d1a543054ec0e9f0a24871d47a25cb1b4ee24bfcee1db16ff586cbed69254a487029506bbd85f8d2aaf2ecf247d90adfae6fa9ebfd7f2e4bc9788096036912"
+RPM_NAME = "texlive-mnsymbol-2026.226.1.4svn18651-61.2.noarch.rpm"
+RPM_HASH = "a777bbb13f6d898c5666f18d0631135318c1fb20618d4e241d9d28a90701aef0b75e59ae99eac9aefe26cc628e4bc8fa8f39f51da96bf7d2b467096f2b943685"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-MnSymbol.map \

@@ -10,10 +10,10 @@ be restarted at a later time and resume its operation as if it had \
 never been terminated."
 LICENSE = "MIT"
 
-PV = "1.2.4"
+PV = "1.2.6"
 
-RPM_NAME = "libSM6-1.2.4-2.3.aarch64.rpm"
-RPM_HASH = "75844851896ca9180e28e931509020ada22f3e36acbb9f9750983090d6b3362d6670e78f9501900156ee02fab0d4353ae7f7d00bafbd31e3d3c71a948a8cd271"
+RPM_NAME = "libSM6-1.2.6-1.5.aarch64.rpm"
+RPM_HASH = "bc76341dd712f088a4259420db65ce05172ccc7fbac5ed3962ff1ddd842a64f3b0072d2f7e56d943634dec9503ddbc212322856ba12468875f6ff027db8d9bff"
 
 RPROVIDES:${PN} += "libSM.so.6 \
 libSM6 \

@@ -13,13 +13,14 @@ completely separate the content and style of the table, and the \
 style of the table can be completely set in keyval way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2023asvn66276"
+PV = "2026.227.2025csvn77682"
 
-RPM_NAME = "texlive-tabularray-2023.209.2023asvn66276-55.1.noarch.rpm"
-RPM_HASH = "a9b923a762e7bc4575d9f68acb8131b76a0df23a72d299c9539d42d40e4623432eadbd9251996d8a1ecdddb7e4570ce883e03c34bfe61c34e1ea7acb17da9fc9"
+RPM_NAME = "texlive-tabularray-2026.227.2025csvn77682-62.2.noarch.rpm"
+RPM_HASH = "7abd8f3201c911b20a83e10a094bdc451fe2c183abbd56e645329c6703979fb2829adbe74267b1ff182d3a7aa95c2a6e477a409375d37012cb6dac4821500ce2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabularray-2021.sty \
+tex-tabularray-2024.sty \
 tex-tabularray.sty \
 texlive-tabularray"
 
@@ -39,6 +40,7 @@ tex-functional.sty \
 tex-nameref.sty \
 tex-ninecolors.sty \
 tex-siunitx.sty \
+tex-tikz.sty \
 tex-varwidth.sty \
 tex-xcolor.sty \
 tex-xparse.sty \

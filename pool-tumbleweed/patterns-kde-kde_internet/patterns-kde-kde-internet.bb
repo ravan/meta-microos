@@ -2,10 +2,10 @@ SUMMARY = "KDE Internet"
 DESCRIPTION = "KDE Internet Applications"
 LICENSE = "MIT"
 
-PV = "20230801"
+PV = "20260830"
 
-RPM_NAME = "patterns-kde-kde_internet-20230801-1.1.noarch.rpm"
-RPM_HASH = "2e1a0d81ca149ac3a836825cb385000e586940495bcbd28dffda39c66b2de730ccf781a90ec49559ee5732f29d060b9483287d236c524e173f5d2abddfdb39cb"
+RPM_NAME = "patterns-kde-kde_internet-20260830-1.1.noarch.rpm"
+RPM_HASH = "7ad7a0e8297b76477ea87d83725cd202c39b66d81bf2b2cac70e0324353ddef6874e01a2feed1f238992c51d317c5a989427838ed5e2df640eaf435913710385"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

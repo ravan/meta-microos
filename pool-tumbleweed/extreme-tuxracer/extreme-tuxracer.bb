@@ -4,10 +4,10 @@ the Linux Penguin. Extreme Tux Racer continues in the tracks \
 of Tux Racer and its forks."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.2"
+PV = "0.8.4"
 
-RPM_NAME = "extreme-tuxracer-0.8.2-1.6.aarch64.rpm"
-RPM_HASH = "7b83ebc1936f11223b50bffce102cf0e5707f37c12a5c06506fda7f2a15ee09e8e2f70872ba69e5ddf9e3cacf75629d87e2e31c8d8bcd0b3920c2fd12207f05d"
+RPM_NAME = "extreme-tuxracer-0.8.4-1.9.aarch64.rpm"
+RPM_HASH = "c6bf32a53e67194d9c924eb7e5e5c4354bf6aeaf86b98c8b0593901552106c007bd7f82755381e2ed359777d771801121d2b6776ea2687730b4d535525cc31dd"
 
 RPROVIDES:${PN} += "extreme-tuxracer"
 

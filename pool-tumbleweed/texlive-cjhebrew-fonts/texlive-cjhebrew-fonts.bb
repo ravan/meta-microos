@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cjhebrew"
 DESCRIPTION = "The  separated fonts package for texlive-cjhebrew"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2asvn43444"
+PV = "2026.226.0.0.2asvn43444"
 
-RPM_NAME = "texlive-cjhebrew-fonts-2023.209.0.0.2asvn43444-54.1.noarch.rpm"
-RPM_HASH = "7f69d22da720ad860babc95d29617d78f0bdfc80f52f3458746c7d1bf06e95427c23c8f58cda67f21c6e7d34516c09b8626464983b44a2edd5cffe13190b41a0"
+RPM_NAME = "texlive-cjhebrew-fonts-2026.226.0.0.2asvn43444-60.2.noarch.rpm"
+RPM_HASH = "1cdec8babfb6507c9a4dbf31f8b09f0ece99c837c5f9bdb0474f331af3af0207b65b45d8fc645935a74793491883f8057c121062deb21431154a6f1d875cdb49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-cjheblsm \

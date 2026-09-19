@@ -9,10 +9,10 @@ of short secants drawn by overlapping disks or line-drawing \
 \\special commands selected by package options."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.55svn45255"
+PV = "2026.226.1.55svn45255"
 
-RPM_NAME = "texlive-curves-2023.209.1.55svn45255-55.1.noarch.rpm"
-RPM_HASH = "2e2b28307bade3ef30a023e241395c21382e58a5019c41f347c5fce9346d4af2265d7f8b7dd29ec75022e7b89acad72a360ed252d6b2e49d1348b19fa2db8e48"
+RPM_NAME = "texlive-curves-2026.226.1.55svn45255-61.2.noarch.rpm"
+RPM_HASH = "bfd257cd5e9d2ba27de14660395930f52a10aca8fa9836639fe57dbac0249075b41dfda0000605c459412717ae60e67a0f1a855e494affd076422f1d361a4782"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-curves.sty \

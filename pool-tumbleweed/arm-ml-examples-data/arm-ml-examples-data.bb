@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0~git20200114.7f6276c"
 
-RPM_NAME = "arm-ml-examples-data-0.0~git20200114.7f6276c-1.2.noarch.rpm"
-RPM_HASH = "1621f9c566149ef67d88d287335b041a6f377361c658af9921674c0ccdde0574f73368917ff9759e7d932a3ef0cd9ebbb90b30a757227a86343194c2e37c2f17"
+RPM_NAME = "arm-ml-examples-data-0.0~git20200114.7f6276c-1.10.noarch.rpm"
+RPM_HASH = "eb2ac3d5362bfa901796724772c9198e4b1351b8714fdb4a485062aafc60537e42fca83c9ad044a8000dc2ced8e2665dc9669f1121aa1c3b4d38cd3362f7afce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-ml-examples-data"

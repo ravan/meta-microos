@@ -4,18 +4,19 @@ The library was created with a goal to support major XML security \
 standards 'XML Digital Signature' and 'XML Encryption'."
 LICENSE = "MIT"
 
-PV = "1.2.37"
+PV = "1.2.42"
 
-RPM_NAME = "libxmlsec1-1-1.2.37-3.1.aarch64.rpm"
-RPM_HASH = "ed75b62ff25fbb06de37a83d9be8fb9dd6fd2ec48f2ce5dd95f6be627cc7c14d77eec786b30c6083684c1aa8f1a156b8bc963cc457105063f6e47de7435dceb5"
+RPM_NAME = "libxmlsec1-1-1.2.42-1.8.aarch64.rpm"
+RPM_HASH = "da827df104277c23e082e89ee87218b1a8c669085d7e3dd1feb776073a4329e8c2f3e22007fd3775085e91e0ecc714aa844173feaac1b6994b7fa5944d62439a"
 
 RPROVIDES:${PN} += "libxmlsec1-1 \
 libxmlsec1.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libltdl.so.7 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxslt.so.1"
 
 inherit rpm

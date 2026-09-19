@@ -9,10 +9,10 @@ matrix (with formatting options) ; \\SolutionSysteme or \
 (with formatting options); ..."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.5svn66192"
+PV = "2026.226.0.0.1.8svn73069"
 
-RPM_NAME = "texlive-resolsysteme-2023.209.0.0.1.5svn66192-54.2.noarch.rpm"
-RPM_HASH = "534788f94dbd0e5a859f1d9fe6113dbcd3a3f147f261a62a1308fef4b4003d54c3a7f3036afd1127f228bdf0af561778552b2acadf09bcc4973fbdd3a46e1105"
+RPM_NAME = "texlive-resolsysteme-2026.226.0.0.1.8svn73069-60.4.noarch.rpm"
+RPM_HASH = "9a310ae0eff2370fa8328168b2287496705bf786214046f9ef0d648c668329a681a70ca2c0a622329c7b69ae34e74b87a07e672fbf29a9318957a44e13203943"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ResolSysteme.sty \

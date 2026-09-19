@@ -12,10 +12,10 @@ lossy file) provides full lossless restoration. For some users, this means \
 never having to choose between lossless and lossy compression."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.6.0"
+PV = "5.9.0"
 
-RPM_NAME = "wavpack-5.6.0-1.4.aarch64.rpm"
-RPM_HASH = "6757395ace44b18f56efae57824e07ba9e56c6580094c3e93bea2398b4b98befaaafbe54cf57543c58cbff8859b3356708f04a4b56bf8cd54a4a67a124cffcd8"
+RPM_NAME = "wavpack-5.9.0-1.5.aarch64.rpm"
+RPM_HASH = "9e80dc0741fd4978a7935f4f18be1a2a699bcce37f19d2f3321d8caeb6ca45b950d7aaae1623bd2200feced79cc616443da878ca27962a4528594413f92dea3d"
 
 RPROVIDES:${PN} += "wavpack"
 

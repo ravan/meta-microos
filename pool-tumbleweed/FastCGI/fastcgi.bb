@@ -4,10 +4,10 @@ provides high performance without the limitations of server-specific \
 APIs."
 LICENSE = "OML"
 
-PV = "2.4.0"
+PV = "2.4.7"
 
-RPM_NAME = "FastCGI-2.4.0-173.3.aarch64.rpm"
-RPM_HASH = "8aecfd1f0f96a78a83b1fd696825d360ce853c14dd11462346552759310859bfe74c845f37ef356c7472528312346df8639c3e2b60e99a41330ae3690313e86d"
+RPM_NAME = "FastCGI-2.4.7-1.7.aarch64.rpm"
+RPM_HASH = "d7a4bd5b2e9673bc184cabaeb72f5dac4057da4a3300f6dfad6acdb6410eff4e49af907273d321428046c31705305ba4b856336778a3e55210322ad28780f158"
 
 RPROVIDES:${PN} += "FastCGI"
 

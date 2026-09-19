@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0+git20211015.4d6cb081"
 
-RPM_NAME = "rapidjson-devel-1.1.0+git20211015.4d6cb081-1.5.aarch64.rpm"
-RPM_HASH = "05ba2bb45879ca48e17d6b77dbec4d4f183e08edff0c6cd6d820492b876542b65095b6fe911be69a3a9ffdbe8ae90c7ab1791e7b81c55353f8af2de68cc66bf2"
+RPM_NAME = "rapidjson-devel-1.1.0+git20211015.4d6cb081-2.4.aarch64.rpm"
+RPM_HASH = "be3ccc36496babcdb3313a6b339fab9abc6ed2b74583b021c7d719146cb181a4d21eb5d0e40ab81c30f69b6d9dd47cc22ec0049f6739f9b77e211909b8fcd637"
 
 RPROVIDES:${PN} += "cmake-RapidJSON \
 pkgconfig-RapidJSON \

@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package gnome-maps"
 DESCRIPTION = "Provides translations for the 'gnome-maps' package."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "Apache-2.0 & CC-BY-3.0 & GPL-2.0-or-later & BSD-3-Clause & ISC & MIT"
 
-PV = "44.4"
+PV = "50.5"
 
-RPM_NAME = "gnome-maps-lang-44.4-1.1.noarch.rpm"
-RPM_HASH = "8c7635d363ad360c78de6c692e9f6525f0b2acb78f72e727253fdad1c0cfedad59f60265006aab87619500197702014329874207e96838cfcb43160fd1bf091c"
+RPM_NAME = "gnome-maps-lang-50.5-1.1.noarch.rpm"
+RPM_HASH = "386360c634c26f426339ec30436cf9aa13018c53fe0ded945154c057c0dab71e1cc5b4c4e412155b1e6d2c3463cfddd9dfb6e9d095b016684300873ed2775887"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-maps-lang \
@@ -67,7 +67,9 @@ locale-gnome-maps-sr@latin \
 locale-gnome-maps-sv \
 locale-gnome-maps-ta \
 locale-gnome-maps-te \
+locale-gnome-maps-th \
 locale-gnome-maps-tr \
+locale-gnome-maps-ug \
 locale-gnome-maps-uk \
 locale-gnome-maps-vi \
 locale-gnome-maps-zh-CN \

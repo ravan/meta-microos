@@ -18,8 +18,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.227"
 
-RPM_NAME = "perl-Pango-1.227-1.24.aarch64.rpm"
-RPM_HASH = "80100a562db6ed8b8b6f310321f605df59ce38004ba46ea062b426c925f86d5b4c70251414051c24866585967404cb1746f9ff90996e031c04c528acfbdc7f77"
+RPM_NAME = "perl-Pango-1.227-1.41.aarch64.rpm"
+RPM_HASH = "248db72092b58dcc44860bea7632fb306352a335d165a9ab418d14375cf6ff71d5e0a1003ee0e9822abded9ab1885c8319343f0fb442dc3ca98ccf57c861d198"
 
 RPROVIDES:${PN} += "perl-Pango \
 perl-Pango--Install--Files"
@@ -31,7 +31,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Cairo \
 perl-ExtUtils--Depends \
 perl-ExtUtils--PkgConfig \

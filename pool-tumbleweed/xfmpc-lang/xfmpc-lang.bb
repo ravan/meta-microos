@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfmpc"
 DESCRIPTION = "Provides translations for the 'xfmpc' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.3.1"
+PV = "0.4.0"
 
-RPM_NAME = "xfmpc-lang-0.3.1-1.1.noarch.rpm"
-RPM_HASH = "b3e3542d66a505986277f9bec8b5b6bb8f7b11f8eb5e845deb63c4517af168bb2a2b6f417de3e61a5b86d74f57e7707e5fdf23ea6d5ddcb6e786f2d536672f15"
+RPM_NAME = "xfmpc-lang-0.4.0-1.6.noarch.rpm"
+RPM_HASH = "bd9c4ab0692d6ee3094b613f6ad6fb203d7f422f46b7fb82541f2c159d5a268d08ace156536ba607a43d99ceae14b01b0eb462be9b5544e5589da8702fd46bf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfmpc-ar \
@@ -40,6 +40,7 @@ locale-xfmpc-oc \
 locale-xfmpc-pl \
 locale-xfmpc-pt \
 locale-xfmpc-pt-BR \
+locale-xfmpc-ro \
 locale-xfmpc-ru \
 locale-xfmpc-si \
 locale-xfmpc-sk \

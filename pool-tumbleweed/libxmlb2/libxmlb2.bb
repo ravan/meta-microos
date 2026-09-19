@@ -2,10 +2,10 @@ SUMMARY = "Library for querying compressed XML metadata"
 DESCRIPTION = "This package provides the shared library for libxmlb."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.13"
+PV = "0.3.29"
 
-RPM_NAME = "libxmlb2-0.3.13-1.1.aarch64.rpm"
-RPM_HASH = "ebe504f4bb6506e696cbbe6ea6e73e538890b305dfb9c46157ff031a5a0b369459eb15aa4fcd9b30eca14d42ab7230ce6b614a8deb87c25c811eb1312258fa79"
+RPM_NAME = "libxmlb2-0.3.29-2.1.aarch64.rpm"
+RPM_HASH = "5272cb9ff003aaadcd7b16ca749d99c661c2cce1d9b1fc04c40a1ced64b8b65f148cce74d80452328c4b25cee91fbdab656ab66fbc3be9ce3adbb98c176821a1"
 
 RPROVIDES:${PN} += "libxmlb.so.2 \
 libxmlb2"
@@ -17,6 +17,7 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 liblzma.so.5 \
+libstemmer.so.0d \
 libzstd.so.1"
 
 inherit rpm

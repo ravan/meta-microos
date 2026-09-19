@@ -1,13 +1,12 @@
 SUMMARY = "Development files for ocaml-camlp5"
-DESCRIPTION = "Camlp5 is a preprocessor-pretty-printer of OCaml, parsing a source file and printing some result on standard output. \
- \
-This package contains the development files."
+DESCRIPTION = "The ocaml-camlp5-devel package contains libraries and signature files for \
+developing applications that use ocaml-camlp5."
 LICENSE = "BSD-3-Clause"
 
-PV = "8.01.00"
+PV = "8.05.02"
 
-RPM_NAME = "ocaml-camlp5-devel-8.01.00-1.2.aarch64.rpm"
-RPM_HASH = "3e0d46836f24a8244615e0169c1d7df7e0bf9d39c951bce777474f4c59bdc119a1ba679b53d8981b6f8e6bab1b260dac1a023e0874d7d3b48af49c80f4099927"
+RPM_NAME = "ocaml-camlp5-devel-8.05.02-1.3.aarch64.rpm"
+RPM_HASH = "53e876e8b1a05c681a62d0ec9cb1ed1f44ae1dc917443d8d69b5e40466e0b17f2272d6217c715618311407cf48dedc76b76cbcafca12428731eb6059e875ff92"
 
 RPROVIDES:${PN} += "ocaml-Argl \
 ocaml-Ast2pt \
@@ -17,11 +16,13 @@ ocaml-Camlp5-top-funs \
 ocaml-Diff \
 ocaml-Dynlink \
 ocaml-Dynlink-common \
-ocaml-Dynlink-compilerlibs \
+ocaml-Dynlink-config \
 ocaml-Dynlink-platform-intf \
+ocaml-Dynlink-symtable \
 ocaml-Dynlink-types \
 ocaml-Eprinter \
 ocaml-Exparser \
+ocaml-Exparser-types \
 ocaml-Extfold \
 ocaml-Extfun \
 ocaml-Fstream \
@@ -30,6 +31,7 @@ ocaml-Grammar \
 ocaml-MLast \
 ocaml-Main \
 ocaml-Mlsyntax \
+ocaml-O-keywords \
 ocaml-Ocpp \
 ocaml-Odyl \
 ocaml-Odyl-config \
@@ -49,6 +51,7 @@ ocaml-Pa-macro-print \
 ocaml-Pa-mkast \
 ocaml-Pa-mktest \
 ocaml-Pa-o \
+ocaml-Pa-o-fast \
 ocaml-Pa-oop \
 ocaml-Pa-op \
 ocaml-Pa-pprintf \
@@ -89,6 +92,8 @@ ocaml-Q-ast \
 ocaml-Q-ast-base \
 ocaml-Q-phony \
 ocaml-Quotation \
+ocaml-Quotedext \
+ocaml-R-keywords \
 ocaml-Reloc \
 ocaml-Rprint \
 ocaml-Stdpp \
@@ -137,6 +142,8 @@ ocamlfind-camlp5.pr-o \
 ocamlfind-camlp5.pr-o.link \
 ocamlfind-camlp5.pr-official \
 ocamlfind-camlp5.pr-official.link \
+ocamlfind-camlp5.pr-op \
+ocamlfind-camlp5.pr-op.link \
 ocamlfind-camlp5.pr-r \
 ocamlfind-camlp5.pr-r.link \
 ocamlfind-camlp5.pr-scheme \
@@ -160,6 +167,7 @@ ocamlx-Gramext \
 ocamlx-Grammar \
 ocamlx-Main \
 ocamlx-Mlsyntax \
+ocamlx-O-keywords \
 ocamlx-Odyl \
 ocamlx-Odyl-config \
 ocamlx-Odyl-main \
@@ -178,6 +186,7 @@ ocamlx-Pa-macro-print \
 ocamlx-Pa-mkast \
 ocamlx-Pa-mktest \
 ocamlx-Pa-o \
+ocamlx-Pa-o-fast \
 ocamlx-Pa-oop \
 ocamlx-Pa-op \
 ocamlx-Pa-pprintf \
@@ -218,6 +227,8 @@ ocamlx-Q-ast \
 ocamlx-Q-ast-base \
 ocamlx-Q-phony \
 ocamlx-Quotation \
+ocamlx-Quotedext \
+ocamlx-R-keywords \
 ocamlx-Reloc \
 ocamlx-Stdpp \
 ocamlx-Token \
@@ -228,50 +239,58 @@ ocaml-Build-path-prefix-map \
 ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-Cmi-format \
+ocaml-Data-types \
 ocaml-Env \
+ocaml-Fmt \
+ocaml-Format-doc \
 ocaml-Ident \
 ocaml-Identifiable \
 ocaml-Load-path \
 ocaml-Location \
 ocaml-Longident \
 ocaml-Misc \
+ocaml-Oprint \
 ocaml-Outcometree \
 ocaml-Parsetree \
 ocaml-Path \
+ocaml-Pcre2 \
 ocaml-Pprintast \
 ocaml-Primitive \
 ocaml-Shape \
 ocaml-Stdlib \
 ocaml-Stdlib--Arg \
 ocaml-Stdlib--Array \
+ocaml-Stdlib--Bigarray \
 ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Char \
+ocaml-Stdlib--Complex \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Float \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Fun \
-ocaml-Stdlib--Gc \
 ocaml-Stdlib--Hashtbl \
-ocaml-Stdlib--Int \
+ocaml-Stdlib--In-channel \
 ocaml-Stdlib--Int32 \
 ocaml-Stdlib--Int64 \
 ocaml-Stdlib--Lazy \
 ocaml-Stdlib--Lexing \
 ocaml-Stdlib--List \
 ocaml-Stdlib--Map \
+ocaml-Stdlib--Mutex \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Option \
-ocaml-Stdlib--Parsing \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
+ocaml-Stdlib--Queue \
 ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
-ocaml-Stdlib--Stream \
+ocaml-Stdlib--Stack \
 ocaml-Stdlib--String \
 ocaml-Stdlib--Sys \
 ocaml-Stdlib--Uchar \
@@ -281,11 +300,25 @@ ocaml-Topdirs \
 ocaml-Toploop \
 ocaml-Type-immediacy \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Warnings \
 ocaml-camlp5 \
 ocamlfind-camlp-streams \
+ocamlfind-camlp5 \
+ocamlfind-camlp5.extend \
+ocamlfind-camlp5.extend.link \
+ocamlfind-camlp5.macro \
+ocamlfind-camlp5.pa-o \
+ocamlfind-camlp5.pa-o.link \
+ocamlfind-camlp5.parser-quotations-base \
+ocamlfind-camlp5.parser-quotations-base.link \
+ocamlfind-camlp5.pr-o \
+ocamlfind-camlp5.pr-o.link \
 ocamlfind-compiler-libs.common \
-ocamlfind-pcre \
+ocamlfind-fmt \
+ocamlfind-pcre2 \
+ocamlx-CamlinternalLazy \
+ocamlx-Pcre2 \
 ocamlx-Pprintast \
 ocamlx-Stdlib \
 ocamlx-Stdlib--Arg \

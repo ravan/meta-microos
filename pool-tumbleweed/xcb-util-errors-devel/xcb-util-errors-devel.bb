@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "xcb-util-errors-devel-1.0.1-1.2.aarch64.rpm"
-RPM_HASH = "8acbfa3fbf71e7a449f8dc763ac563325af2c591d35cdf8f80f2ea6ce63649a53fba9fc353643a5e23593be7d0ae4d3e8d3a7fc1a12c3b68666729c90f3db455"
+RPM_NAME = "xcb-util-errors-devel-1.0.1-1.12.aarch64.rpm"
+RPM_HASH = "a4dbdaf338b379e518818b238e1a13a02277a11aedb550934ff7fe8e6f4c2a38b0eb5752edc1b63d40bbd60978e5d2bf36fa41f7606e2cd83995c51a74b4d480"
 
 RPROVIDES:${PN} += "pkgconfig-xcb-errors \
 xcb-util-errors-devel"

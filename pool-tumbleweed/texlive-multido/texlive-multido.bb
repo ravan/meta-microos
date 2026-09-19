@@ -6,10 +6,10 @@ equally applicable in graphics applications like PSTricks as it \
 is with the more common integer loops."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.42svn18302"
+PV = "2026.226.1.42svn77682"
 
-RPM_NAME = "texlive-multido-2023.209.1.42svn18302-55.1.noarch.rpm"
-RPM_HASH = "5197f1d6986f09611c7ce4e29752085e7b191bf621541431017c5741aaccd8bd7fdeb1fb6285d90523cbdb8735b4f9153b09099cd0e5bbd8685a927680cda2ba"
+RPM_NAME = "texlive-multido-2026.226.1.42svn77682-61.2.noarch.rpm"
+RPM_HASH = "851d1e76ff824f931e0bc0a32fab1e423f5a2fb1002c760b196baee32ef6af3ae1c24c366bc00ff66e49f9b80f70066bc9b3fee039fec7d7be023863bc60d39c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multido.sty \

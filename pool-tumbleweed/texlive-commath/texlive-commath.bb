@@ -5,10 +5,10 @@ with both domain and range, and function operation) and various \
 reference commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn15878"
+PV = "2026.226.0.0.3svn15878"
 
-RPM_NAME = "texlive-commath-2023.209.0.0.3svn15878-54.1.noarch.rpm"
-RPM_HASH = "c50eebf069d16318ed97ec10b027c83e06bc829bb251d3f9fd220fea7d57f01b7a32c2d764d56d26c5037b56c4baabdd64714160921f0f64d0cf555ed90fd888"
+RPM_NAME = "texlive-commath-2026.226.0.0.3svn15878-60.2.noarch.rpm"
+RPM_HASH = "753644f91181b555a0c70b5e816201e9238c250737b9e0c7473d117520d7d22255584322c92c413b0e80a2b58f8c009ef260e824ef30eafe85d69af4f71ddbf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-commath.sty \

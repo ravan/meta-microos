@@ -13,10 +13,10 @@ This package contains the development headers for the library found \
 in libSM6."
 LICENSE = "MIT"
 
-PV = "1.2.4"
+PV = "1.2.6"
 
-RPM_NAME = "libSM-devel-1.2.4-2.3.aarch64.rpm"
-RPM_HASH = "6991fd34c116e873cedb2d06706469b17b96c82fb03822a70df9939587482232e12d1ba85ddbc2a396097cd341ea0ddb5d1b90667757a3f965ca090b15d9666d"
+RPM_NAME = "libSM-devel-1.2.6-1.5.aarch64.rpm"
+RPM_HASH = "e31832d327ef664aa878bd98300d17db3f4acc2f744c43398d77ee45b94f3e17c5bf268acef99631cc4dba9e5555aba1a93967c9f8773c6dd074e9c905c0249a"
 
 RPROVIDES:${PN} += "libSM-devel \
 pkgconfig-sm \

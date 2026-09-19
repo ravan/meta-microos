@@ -2,10 +2,10 @@ SUMMARY = "Haskell lucid library documentation"
 DESCRIPTION = "This package provides the Haskell lucid library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.11.20230408"
+PV = "2.11.20260427"
 
-RPM_NAME = "ghc-lucid-doc-2.11.20230408-1.6.noarch.rpm"
-RPM_HASH = "b2eae9cd250a8f2da2ebb0bb72cded3bc08994673ecfe7bad27dbdb92112df488ee5e192de8892e74c962d0a55481b6a1ff9233e8435ef55bf87cb66e43790a0"
+RPM_NAME = "ghc-lucid-doc-2.11.20260427-1.3.noarch.rpm"
+RPM_HASH = "9cbdc2ee63531a32ba0261ea547f9114edc0c6bfa82cad0e0a08ed6f696b6a456da50b923d976bf9b0da99322b0ce25dcea34f028125137bae3e47b1eb08b7ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-lucid-doc"

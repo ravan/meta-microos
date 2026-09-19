@@ -5,10 +5,10 @@ ethernet, firewire or USB cameras. It currently only implements an ethernet \
 camera protocol used for industrial cameras."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.8.27"
+PV = "0.8.36"
 
-RPM_NAME = "aravis-0.8.27-1.1.aarch64.rpm"
-RPM_HASH = "744ac8fcfe5c1a1f9d13c8b043e8e67d7a2c39741427611209bda0b6d19a7c956403541657c3452c6f6196cb30400c99aca8b943fd165082b17cc55289594644"
+RPM_NAME = "aravis-0.8.36-2.3.aarch64.rpm"
+RPM_HASH = "9e5b49fa0cd44cac543f8f9bcf2bd45c79a58f7bf1132b6e970f0a145a60618202ce2e8d51781e3d76d03ae7e9e21fd4eeb4efeefd5b253fa2aa8c00e7d87f3e"
 
 RPROVIDES:${PN} += "aravis"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-extarrows"
 DESCRIPTION = "This package includes the documentation for texlive-extarrows"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.1.2.0svn54400"
+PV = "2026.226.1.2.0svn77682"
 
-RPM_NAME = "texlive-extarrows-doc-2023.209.1.2.0svn54400-53.1.noarch.rpm"
-RPM_HASH = "dddd57754ae7acfab8e3b7f8325c0dcac5e3574abe961e6b802c7a8285b11249f0d007aa229f629fd72996ad289699672fd125eaf97edd42d91a4b5d0ac151db"
+RPM_NAME = "texlive-extarrows-doc-2026.226.1.2.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "5c235b3706e2eec6ae5580f84fab185c9fba1f656edaa4bdda44568685bd0a2f53f575eeda26ea34467cd4dd07b2db9637c9d0dc081b89d6530e79eb10af9959"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-extarrows-doc"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.0.0+git.20200518"
 
-RPM_NAME = "liblms7002m-devel-0.0.0+git.20200518-1.11.aarch64.rpm"
-RPM_HASH = "eb41dd29bc30dcb6f73a0e474e3d1cc277cfcc8f490f46a187cef784d3dcd0fc778234fb18e0f00109cb4683685dc3c49f16684165af0ed807cc1c98ccf63544"
+RPM_NAME = "liblms7002m-devel-0.0.0+git.20200518-2.9.aarch64.rpm"
+RPM_HASH = "bd8dfe79bd2e43c8e522abf1a08f7b03258c11e60471738c56c3f4b5ac44f27ede648d339f92b3a3065c4239ad8a9bd88585b95603ae265a333ea06bdb3e1adc"
 
 RPROVIDES:${PN} += "liblms7002m-devel"
 

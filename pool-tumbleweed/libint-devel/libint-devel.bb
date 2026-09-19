@@ -12,10 +12,10 @@ super-scalar architectures. \
 This package contains development headers and libraries for libint."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "2.7.2"
+PV = "2.11.0"
 
-RPM_NAME = "libint-devel-2.7.2-2.4.aarch64.rpm"
-RPM_HASH = "1e4fea9879d9bc25fd12a94c6669e7628d380385bfb8bf25a9c6b43f86a72c6ca23d49eef7a7e3fd2c80cc5cbe824e34e811e253a2617c61dedad01c9b0393ce"
+RPM_NAME = "libint-devel-2.11.0-1.4.aarch64.rpm"
+RPM_HASH = "1a7a5c92bc0a7d6f98c99efbc90d556854799f3b8054103a81b0ffc720711bcd370ba57b1f6878a62487836edbdd4dfad10b7e19b5e9e953d386c5719d6b333d"
 
 RPROVIDES:${PN} += "libint-devel \
 pkgconfig-libint2"

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-3.0-or-later"
 
 PV = "0.8.0"
 
-RPM_NAME = "octave-forge-doctest-0.8.0-1.3.noarch.rpm"
-RPM_HASH = "d37b898b7142425f9de4173dbfe8fd3e08375906d5ef3f49bee14e6ea89d537bd774ade10b0d31be346ef7117fee1b9ccec81d4b860f28f9c707e27d3a5dc8a6"
+RPM_NAME = "octave-forge-doctest-0.8.0-1.12.noarch.rpm"
+RPM_HASH = "fbf93d87791e3471e714bf47c3867927b00f0bc7f4eff548e00bbcabcc6454c077fd24c17d7991133836417c5dfa66b808fb08adccb19fa1c01ad8958e856b44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-doctest"

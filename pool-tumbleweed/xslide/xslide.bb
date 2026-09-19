@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.2"
 
-RPM_NAME = "xslide-0.2.2-264.10.noarch.rpm"
-RPM_HASH = "3d23b0aeeba89982cd2087ac29be9960e56caa7229fb3a60fc611c997319d39c2cbb68ea3ede82624e181a6cdf7b39c7cb9f924dec20094169c71fe1d4a4473d"
+RPM_NAME = "xslide-0.2.2-265.7.noarch.rpm"
+RPM_HASH = "d893563c082ca3a4833c7c03fb025e2609d12afc12fa23a42a6c3eab728d051a37af590c59f01833472f42886b9c25f7bfb5be9fdd1d3c0dca44de7b525cfa24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xslide"

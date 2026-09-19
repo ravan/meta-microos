@@ -5,21 +5,22 @@ and can pose a security risk. \
 Typical examples include publicly accessible git repositories, backup files \
 potentially containing passwords or database dumps. In addition, it contains \
 a few checks for other security vulnerabilities."
-LICENSE = "CC0-1.0"
+LICENSE = "0BSD"
 
-PV = "0.0.12"
+PV = "0.0.14"
 
-RPM_NAME = "snallygaster-0.0.12-1.7.noarch.rpm"
-RPM_HASH = "5d617e541af859badfcc98578623b1b7e874a76df65de9bfaaf5e72734d8f0c252dd8eb7dbab2a6a16962da6468a5541c0807287f88fdf585410bb0f5c38a460"
+RPM_NAME = "snallygaster-0.0.14-1.3.noarch.rpm"
+RPM_HASH = "046ed224fb5d0a3136baf9480486197190fc40ce659a97f796a2d882609c893680a56c7ada2f1faaed579e196175d22dedfb512247336d2944374e314e18e242"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-snallygaster \
+RPROVIDES:${PN} += "python3.13dist-snallygaster \
 python3dist-snallygaster \
 snallygaster"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-python3-beautifulsoup4 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
+python3-base \
 python3-dnspython \
+python3-lxml \
 python3-urllib3"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "The bindings allow YaST modules to be written using the Python la
 and also Python scripts can use YaST agents, APIs and modules."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.3"
 
-RPM_NAME = "yast2-python3-bindings-4.6.0-1.4.aarch64.rpm"
-RPM_HASH = "246f02127a76e04bf8bf0d5f115198925ff3a8d67a76a3a187e00f7a2b4617e28cc6fd902b74298f02dd4376313ba650732ff83cfe3140bc9102a9e3907f2355"
+RPM_NAME = "yast2-python3-bindings-5.0.3-1.1.aarch64.rpm"
+RPM_HASH = "33fdcb8df13398412a251a8392e821225408c3da953a434499efbeba135a73ede5659fa382fb8ff9c0ec0ec7da921386e7413f06868d3f23cfa64c42119d0814"
 
 RPROVIDES:${PN} += "libpy2lang-python3.so.0 \
 yast2-python3-bindings"
@@ -15,12 +15,8 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libpy2wfm.so.2 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libstdc++.so.6 \
-liby2.so.4 \
-liby2util.so.5 \
-libycp.so.5 \
-libycpvalues.so.6 \
 python-abi \
 python3 \
 yast2-core \

@@ -2,18 +2,18 @@ SUMMARY = "Translations for package kolf"
 DESCRIPTION = "Provides translations for the 'kolf' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kolf-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "f3bc3de308bdf5e3174f95611c7f0d091be0f00d980cdb144b327322962824112be161e2a1545381f72f738c32b6cc7d1b871be193df7e1452a1df17adf5f9dd"
+RPM_NAME = "kolf-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "41a017e7dfc17cc2ed8e3debd9529afb381e89ddbfac43320c0c55c9943e74ff3bb14aa68759c5f2d68d7a31d42329fa848a7c8987e0ff09f07d3f0894c18db3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kolf-lang \
 kolf-lang-all \
 locale-kolf-af \
 locale-kolf-ar \
+locale-kolf-ast \
 locale-kolf-be \
-locale-kolf-bg \
 locale-kolf-br \
 locale-kolf-bs \
 locale-kolf-ca \
@@ -37,6 +37,7 @@ locale-kolf-he \
 locale-kolf-hi \
 locale-kolf-hr \
 locale-kolf-hu \
+locale-kolf-ia \
 locale-kolf-is \
 locale-kolf-it \
 locale-kolf-ja \

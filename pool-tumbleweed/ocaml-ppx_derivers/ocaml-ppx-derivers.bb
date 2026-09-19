@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1"
 
-RPM_NAME = "ocaml-ppx_derivers-1.2.1-4.10.aarch64.rpm"
-RPM_HASH = "ab610731f2c2a5e4d5f1c5f154fb740054d520e87aff86c02c407259ea6912b32e2aea5fb421c040fafdec5333fe7e23129109d4ca05211dc0ff5892d8d2ce3b"
+RPM_NAME = "ocaml-ppx_derivers-1.2.1-5.1.aarch64.rpm"
+RPM_HASH = "0ac68cf8452fa55f2482863108fb89d003dc4da1a82ccc415381b456ee2b3de9aacccc3de71089ae89257ac7512ef236fc6bd8954170fa0bef058785492d136b"
 
 RPROVIDES:${PN} += "ocaml-ppx-derivers"
 

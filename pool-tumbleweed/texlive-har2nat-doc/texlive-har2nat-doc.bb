@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-har2nat"
 DESCRIPTION = "This package includes the documentation for texlive-har2nat"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn54080"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-har2nat-doc-2023.209.1.0svn54080-54.2.noarch.rpm"
-RPM_HASH = "ee75059509b5ae84f4ce7c596bf637324db5c6d280a67aa4989a51bd2ab62d5a486b3ce6892675efb389c7c0fcbc3c0eaf1351ad89b6126f2ac39a5051d331bf"
+RPM_NAME = "texlive-har2nat-doc-2026.226.1.0svn77682-60.4.noarch.rpm"
+RPM_HASH = "e6dd69187f20f7ab39e51906bcba5f2d23f2ec76a2d4af7ca2f87d23ab92b04cd4f7e0bc334b0b9527303e22dcdb62919124d3ca08ef10e002472d526a844da3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-har2nat-doc"

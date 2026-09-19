@@ -18,13 +18,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.24"
 
-RPM_NAME = "perl-SQL-Tokenizer-0.24-1.28.noarch.rpm"
-RPM_HASH = "2c7ab6bdc054323c0791021b9385bbc2e402bfd59381450eec85d800db8b81898be8038173f573833f76020fbd933c1f3bd9d4ed51ff480e6c0804f2197f1ac9"
+RPM_NAME = "perl-SQL-Tokenizer-0.24-1.42.noarch.rpm"
+RPM_HASH = "a231f1f7ed94281c4339e7b02d6396af8f227727884501cb86c4fd3d7c431d67c36cee17b07ace5ca7789ebb583a6f096a0e36b7fc89e3baf13ce7c2dcc8d017"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SQL--Tokenizer \
 perl-SQL-Tokenizer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -4,10 +4,10 @@ DESCRIPTION = "This package contains the json module for the Qore Programming La
 JSON is a concise human-readable data serialization format."
 LICENSE = "MIT"
 
-PV = "1.8.2"
+PV = "1.9.0"
 
-RPM_NAME = "qore-json-module-1.8.2-2.1.aarch64.rpm"
-RPM_HASH = "ec703aacdacf17418a13bcb7a1bf7164fafb28b61e80efc85e948496aff4fbbe6110059e5fc8afb3d40e0f3896a66eb2b33e8dbdac677e49273de1e3c0680d23"
+RPM_NAME = "qore-json-module-1.9.0-1.5.aarch64.rpm"
+RPM_HASH = "3a1fc30173e766bf40b9d1bcc61cea5512ce87e663f02f792afecd5b81c4f1594c46799b0bab378995a0f122da5b70c3a7df0946c7e982ca3c130214ae8ec338"
 
 RPROVIDES:${PN} += "qore-json-module"
 

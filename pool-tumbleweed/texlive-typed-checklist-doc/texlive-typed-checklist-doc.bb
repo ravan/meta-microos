@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-typed-checklist"
 DESCRIPTION = "This package includes the documentation for texlive-typed-checklist"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn63445"
+PV = "2026.226.2.1svn77682"
 
-RPM_NAME = "texlive-typed-checklist-doc-2023.209.2.1svn63445-53.1.noarch.rpm"
-RPM_HASH = "293162ea54c50513b3530d9883be0cf6fa0194da36027c17cd3f81b89732b8884b8624e6a34e9b2ed0c1c58ead023961595c75d70dd952864e8f0084bfd310a6"
+RPM_NAME = "texlive-typed-checklist-doc-2026.226.2.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "ee882e6a92b529e5e5969fd9176a2794f33364edc05052cd135f79755de39c18b8afe6b300360635d5d343805f0b21cc511515820d0ec967fdf8d2b4a1b5f89f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-typed-checklist-doc"

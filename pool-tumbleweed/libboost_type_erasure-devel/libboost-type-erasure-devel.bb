@@ -4,14 +4,13 @@ DESCRIPTION = "This package contains development headers for Boost.TypeErasure l
 This package installs the default Boost version of the library."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_type_erasure-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "384ea4c8d8d51f5e370582477cd4a6ca26a192957baeacea07b279707d76c737a0df2236f1d00ac5e987483171f742e19e4e7675fef97948eef3c9674b058818"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_type_erasure-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "d7e7a9bf76d9c7925b1b986b7e8110183608fee47fbb87b12768ef356820d95f988cdfc59ea2211a205a65071d679dafc12ece3d531689fa0f4ec01d2069d7a5"
 
 RPROVIDES:${PN} += "libboost-type-erasure-devel"
 
-RDEPENDS:${PN} += "libboost-type-erasure1-82-0-devel"
+RDEPENDS:${PN} += "libboost-type-erasure1-91-0-devel"
 
 inherit rpm

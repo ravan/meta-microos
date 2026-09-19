@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nrc"
 DESCRIPTION = "This package includes the documentation for texlive-nrc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.01asvn29027"
+PV = "2026.226.2.01asvn29027"
 
-RPM_NAME = "texlive-nrc-doc-2023.209.2.01asvn29027-55.1.noarch.rpm"
-RPM_HASH = "a4f5c1d01744b6bf4fb4dc303df72396327b42ad3c311822a89272bcb853d8d82559c43dfe4005d2b6fb414e4d812ae80bee8852c46e0bf3387bf087bd797053"
+RPM_NAME = "texlive-nrc-doc-2026.226.2.01asvn29027-61.2.noarch.rpm"
+RPM_HASH = "1ece4926427b7107b440a5ebf95c1798077849f2338a057b249e8c84b32f0b200dc61ed1519212e3dcf3c6c1f0dd9b552583268161a25170e91e7ee93e6c5622"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nrc-doc"

@@ -13,10 +13,10 @@ requests, collect all requests from all packages and write them \
 to an external XML file at the end of the document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn53003"
+PV = "2026.226.1.0svn53003"
 
-RPM_NAME = "texlive-logreq-2023.209.1.0svn53003-55.1.noarch.rpm"
-RPM_HASH = "04f3a48a1872c69a7addcb4de92d74644880af35695eb163b27586ce9f36b75df6ed67def17c0f6bbb3c1cf96d5e69f2481fab1e29f62e7083652c541ff55901"
+RPM_NAME = "texlive-logreq-2026.226.1.0svn53003-61.2.noarch.rpm"
+RPM_HASH = "d3f75ac2338e8e7cddca03f23062dcf2fa96d7f6ef7419b22a3c95ed2dbe62bff3d1299990afe7faf94d00eb5a1ccb89fd83acdb6b446a5c9f80d754ae4ba2b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-logreq.def \

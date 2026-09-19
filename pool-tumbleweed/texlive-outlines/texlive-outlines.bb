@@ -7,10 +7,10 @@ cases where nested lists are used a lot, such as for to-do \
 lists or presentation slides."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn25192"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-outlines-2023.209.1.1svn25192-55.1.noarch.rpm"
-RPM_HASH = "5a9cb4d9b5af9ae51529c253fe37140ab8037988348c83443eb1f3b449ac5cd8fa846b7b2bb5dff15fae435aafdb55be722943c09a1fab2f8b7e2e4cbad7d3f9"
+RPM_NAME = "texlive-outlines-2026.226.1.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "8cc5e6f3f3b20be98754223eff5efdadbdc4022a76910058a1237bc76e1b8ea0a74049a688b21782a7e5321c66a4c0b6e47ffe732aafeea371254a89a47170c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-outlines.sty \

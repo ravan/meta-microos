@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.3.3"
 
-RPM_NAME = "libsignal-protocol-c-devel-2.3.3-1.14.aarch64.rpm"
-RPM_HASH = "ace6181cc9f547191987892194438652714baa91ef7fa161d6902ee9433fc04810b300dcdf520274129190796f5f6ad7fee24c7899e1d006a1ed3032888dcb85"
+RPM_NAME = "libsignal-protocol-c-devel-2.3.3-2.3.aarch64.rpm"
+RPM_HASH = "00f464759d5ec1f94b638a7afa60fb485aec884514d62e6a6c087e2e2a52f9bb5f804eea62a64456c5eac1d6b89d0a85b242e40d914e4a5e5c8924a8cd87308c"
 
 RPROVIDES:${PN} += "libsignal-protocol-c-devel \
 pkgconfig-libsignal-protocol-c"

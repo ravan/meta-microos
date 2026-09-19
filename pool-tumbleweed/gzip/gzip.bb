@@ -5,10 +5,10 @@ while keeping the same ownership modes and access and modification \
 times."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.13"
+PV = "1.14"
 
-RPM_NAME = "gzip-1.13-1.1.aarch64.rpm"
-RPM_HASH = "f972c502a7dc97da1817c6225f0adeaa91a711f14d0dd67f472f2148e372f430c9079bae8f268b41c8c5e58777529089aa9c3dbc4ef0995ae11df9aec0b17465"
+RPM_NAME = "gzip-1.14-3.1.aarch64.rpm"
+RPM_HASH = "cf8c1030b5d1cc88c5ae500d448705dddbea8ee1c6d438f0a0a1fc06865bd50995a61f5e47997c5c1ee89cd5ca3971ff3b1464562aa53e0235621e2d3d6c9db5"
 
 RPROVIDES:${PN} += "alternative-gzip \
 gzip"

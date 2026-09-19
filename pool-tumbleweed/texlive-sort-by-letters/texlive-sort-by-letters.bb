@@ -5,10 +5,10 @@ author/editor in the bibliography entry. The styles are adapted \
 from standard ones or from natbib ones."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn27128"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-sort-by-letters-2023.209.svn27128-58.1.noarch.rpm"
-RPM_HASH = "c750244e1f356d01714d097422ed1bf0821d4890d2e92c26bdf71dad116fa4cc1792e04a32d8456702a2760afe9b5aeea7db3dc5ae24f13c84c2ba1ec1a51ed6"
+RPM_NAME = "texlive-sort-by-letters-2026.226.svn76790-64.2.noarch.rpm"
+RPM_HASH = "08694c9c24cfcf5f9ef8fbb8f147bb8043556560cfc70654280d041c897eb30dd4b68aec99a5f0a9b44b65c61a03a49abae41ebf11400c237b201e49c8653d8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sort-by-letters"

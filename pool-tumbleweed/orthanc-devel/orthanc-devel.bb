@@ -2,10 +2,11 @@ SUMMARY = "Header and source files for creating Orthanc plugins"
 DESCRIPTION = "This package includes the header files to develop C/C++ plugins for Orthanc."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.12.1"
+PV = "1.13.0"
 
-RPM_NAME = "orthanc-devel-1.12.1-1.2.aarch64.rpm"
-RPM_HASH = "ba484d7806b6eb20cb08f09a5d027b8701376dc2308d46ae3bb9bed6b3e2947c660831a0f7c59364aeec701d5d37ab09a546967c954b2357eb945b7e25cf28aa"
+RPM_NAME = "orthanc-devel-1.13.0-1.2.noarch.rpm"
+RPM_HASH = "70d68a2bf93930a0fc6704a632e4357c941a2d895b04870881252f5f365b057eb1c1248994f0b990aa60500c670741a489bc1bece24bbca676c20e74a0d4db99"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orthanc-devel \
 orthanc-static"

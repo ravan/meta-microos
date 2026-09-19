@@ -1,23 +1,23 @@
-SUMMARY = "Perl6 style Junction operators in Perl5"
+SUMMARY = "Comparisons against multiple values"
 DESCRIPTION = "This is a lightweight module which provides 'Junction' operators, the most \
 commonly used being 'any' and 'all'. \
  \
-Inspired by the Perl6 design docs, the \
-http://dev.perl.org/perl6/doc/design/exe/E06.html manpage. \
+Inspired by the Perl 6 design docs, \
+https://web.archive.org/web/20230922160729/https://raku.org/archive/doc/des \
+ign/exe/E06.html#The%20Wonderful%20World%20of%20Junctions. \
  \
-Provides a limited subset of the functionality of the \
-Quantum::Superpositions manpage, see the /'SEE ALSO' manpage for comment. \
+Provides a limited subset of the functionality of Quantum::Superpositions, \
+see 'SEE ALSO' for comment. \
  \
-Notice in the the /SYNOPSIS manpage above, that if you want to match \
-against a regular expression, you must use '==' or '!='. *Not* '=~' or \
-'!~'. You must also use a regex object, such as 'qr/\\d/', not a plain regex \
-such as '/\\d/'."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+Notice in the SYNOPSIS above, that if you want to match against a regular \
+expression, you must use '==' or '!='. *Not* '=~' or '!~'. You must also \
+use a regex object, such as 'qr/\\d/', not a plain regex such as '/\\d/'."
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.003008"
+PV = "0.003009"
 
-RPM_NAME = "perl-Syntax-Keyword-Junction-0.003008-1.27.noarch.rpm"
-RPM_HASH = "4c0131df8a3beb923d52996e79f811c07f363dbf942ee346e550f4927f4f1c1a799970c8c2dfa367246ddfd749c92a670e12874280f82b95f90795d701536272"
+RPM_NAME = "perl-Syntax-Keyword-Junction-0.003009-1.10.noarch.rpm"
+RPM_HASH = "d0d62b76881c0568761a2cbfe5f5eea0b5f22041a54f7a43662db1c50a0218760f460e73c2010496726fb1d1c655841ca84f71e696170cd770bbe05378d4d94f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Syntax--Feature--Junction \
@@ -29,9 +29,8 @@ perl-Syntax--Keyword--Junction--None \
 perl-Syntax--Keyword--Junction--One \
 perl-Syntax-Keyword-Junction"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Sub--Exporter--Progressive \
-perl-parent \
-perl-syntax"
+perl-parent"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-mdsymbol"
 DESCRIPTION = "The  separated fonts package for texlive-mdsymbol"
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.0.0.5svn28399"
+PV = "2026.226.0.0.5svn77682"
 
-RPM_NAME = "texlive-mdsymbol-fonts-2023.208.0.0.5svn28399-53.1.noarch.rpm"
-RPM_HASH = "179fbdc619da39768d63c783fc62c802362c268601399ba5d87e6346b6fe4553e5edc07eeda2ec1e2078710c14e93ef6fefe3d6dabbc8e3759eb5b03cc611000"
+RPM_NAME = "texlive-mdsymbol-fonts-2026.226.0.0.5svn77682-59.2.noarch.rpm"
+RPM_HASH = "bd44a0b6e954e7c6214385c4974b9d3a98155d24deeaa8707629ca1064fd021fed33817106f5d18f908270773c075c1e6b610ce90c9ef5f0b0a51701225dcb1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-mdsymbol-fonts \

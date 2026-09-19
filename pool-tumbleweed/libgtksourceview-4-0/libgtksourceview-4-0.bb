@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.8.4"
 
-RPM_NAME = "libgtksourceview-4-0-4.8.4-1.4.aarch64.rpm"
-RPM_HASH = "0b30a20b3391b019d8dccdcae014201436924bd0f213bbde20f702f05833a79b76a5ba034b402d11b5f27244394fb35f0bfdd44e5916636d4ee23d0f37fbd52b"
+RPM_NAME = "libgtksourceview-4-0-4.8.4-3.1.aarch64.rpm"
+RPM_HASH = "c0f1da0154261d46693afc2b0fc2f7ca51b5ab08e3cfd9913203587e644ab90994322ad4817c2f4c3d533062de6dc699ab265b67bcba28b205c29f01ff522300"
 
 RPROVIDES:${PN} += "gtksourceview4 \
 libgtksourceview-4-0 \
@@ -30,6 +30,6 @@ libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

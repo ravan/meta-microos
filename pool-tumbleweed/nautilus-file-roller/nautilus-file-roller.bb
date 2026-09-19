@@ -4,10 +4,10 @@ and modify archives, view the contents of an archive, view a file \
 contained in the archive, and extract files from the archive."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "43.0"
+PV = "44.7"
 
-RPM_NAME = "nautilus-file-roller-43.0-1.4.aarch64.rpm"
-RPM_HASH = "8367bb42f0604862b5247126affc4fce78e471fdd3dd69261edcd9d4c12646cce5e48ea4bcc60422e9c8cb881ce8c0c488b1542e8fcd88b92f9c0161efcd9b0d"
+RPM_NAME = "nautilus-file-roller-44.7-1.2.aarch64.rpm"
+RPM_HASH = "abbe5ddca857193a8b47d53955d507bb7b81322260973fbf883c0cbce723716f8057c074aac84f4bdb12c5cd2fcc2dba84ecf6159e908383870abcd6ef019e13"
 
 RPROVIDES:${PN} += "libnautilus-fileroller.so \
 nautilus-file-roller"

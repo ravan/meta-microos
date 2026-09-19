@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "sound-theme-freedesktop-0.8-9.11.noarch.rpm"
-RPM_HASH = "e66bdd228060a9c199ea267e80d48e6d7e3a4aa774a1781164a05b2b883f9dc9dca1c35f30f92d38a9c9cd6e11272d1b627c8bae1402557461b4633f31c4b632"
+RPM_NAME = "sound-theme-freedesktop-0.8-9.19.noarch.rpm"
+RPM_HASH = "eda6966bea6e6f055327258dbad4333d9bef4cae70261c9578e0eb4d7a2073ba6665c71638385a8344a36e4e7eea135cfae886b2ca4421ba8fb97b42d030fd1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sound-theme-freedesktop"

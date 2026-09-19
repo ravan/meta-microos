@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ccfonts"
 DESCRIPTION = "This package includes the documentation for texlive-ccfonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn61431"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-ccfonts-doc-2023.209.svn61431-53.1.noarch.rpm"
-RPM_HASH = "4feb1dfefd66aa9af3ade387b4299d9a2d4438606093115d56992679ac882fb34857dad57b3f7972581ff9a137a5aa709e335994e93c294f2ad2d3e9f1ddab18"
+RPM_NAME = "texlive-ccfonts-doc-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "2706fa503750d06badb7b0c654608c1f3bb048b66c7d5933e3498b163b60698a765c52970b1a6d9ac37932b6217c2810b69b7ab3e2ecee429dd8e799cdd61db6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ccfonts-doc"

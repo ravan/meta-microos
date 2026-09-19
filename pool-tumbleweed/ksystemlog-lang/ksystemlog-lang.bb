@@ -2,15 +2,16 @@ SUMMARY = "Translations for package ksystemlog"
 DESCRIPTION = "Provides translations for the 'ksystemlog' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ksystemlog-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "e3ef190ff70fd6d99d6ee4122e8cb40e871439ccd75975c8e7eb831c94baa8ff3b070c7a37f53ced156a6667207893048f75c8775f3c1c7eb425dd67ba7fa6e1"
+RPM_NAME = "ksystemlog-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "257a8e2fc6ddee908c61ab29110d61d96811b492f79f00411a99e60aab8aac80cb635ea91266be7a232fa1c1f728c4de53bc237c508b78aeebd6d9a73c35e086"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksystemlog-lang \
 ksystemlog-lang-all \
 locale-ksystemlog-ar \
+locale-ksystemlog-ast \
 locale-ksystemlog-az \
 locale-ksystemlog-be \
 locale-ksystemlog-bg \
@@ -32,6 +33,8 @@ locale-ksystemlog-fi \
 locale-ksystemlog-fr \
 locale-ksystemlog-ga \
 locale-ksystemlog-gl \
+locale-ksystemlog-he \
+locale-ksystemlog-hi \
 locale-ksystemlog-hr \
 locale-ksystemlog-hu \
 locale-ksystemlog-ia \

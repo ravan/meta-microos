@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "20230517+a377993"
 
-RPM_NAME = "libyuv-devel-20230517+a377993-1.1.aarch64.rpm"
-RPM_HASH = "2a97890a0a8ea447ca1bb3d64cfd7db922c7ee21009c7bf72c8f83ebc6548bd56856074c018c5aafa4f6b9bb284de6200aa4d337982a2a88a3db3b1681fd5f7f"
+RPM_NAME = "libyuv-devel-20230517+a377993-2.5.aarch64.rpm"
+RPM_HASH = "b518c4fdfecfd85f94a3d6da3428a707a250942f5b3e3957984167407b8145b0e1acf0aac66c6d88d609ebb89f4dc197d52281784e9acf7d4c51782105bb52b4"
 
 RPROVIDES:${PN} += "libyuv-devel \
 pkgconfig-libyuv"

@@ -7,10 +7,10 @@ cmr10), accented characters used in the Czech, Slovak and \
 Polish languages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.2svn20484"
+PV = "2026.227.0.0.2svn20484"
 
-RPM_NAME = "texlive-tapir-2023.209.0.0.2svn20484-55.1.noarch.rpm"
-RPM_HASH = "b09e95bdde29493e0e9b0009fabe5e58a3392e31a974e72e0ecf7a249e63a1f3b75add670f2bb8e67327090fc83d04a0ef5ee48a0dccc70aa63c7f9d9692c094"
+RPM_NAME = "texlive-tapir-2026.227.0.0.2svn20484-62.2.noarch.rpm"
+RPM_HASH = "d7e1a64f23f2ad1cb081219a51573cc9c3e60f532630173edc34445e68bf3e218a0eb97605f2fa6ced3a463654f823ccff52b343856de6407af933d68e21b3be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tapir"

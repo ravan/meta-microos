@@ -2,10 +2,10 @@ SUMMARY = "Tools for exo"
 DESCRIPTION = "This package provides tools and helpers for exo."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "exo-tools-4.18.0-1.3.aarch64.rpm"
-RPM_HASH = "1d42cd43dc305095669cf19c4939ba80b4fb14f3fab37507c09a813e13fd9f4e5ce96fb554b8dd8fb6e23874eae31cac3210a0e91e7e5e0577b6d6e389169047"
+RPM_NAME = "exo-tools-4.20.0-2.8.aarch64.rpm"
+RPM_HASH = "dd9c3b5293a19c19e1c168a8cd5076d4e3acc3f8e9e803988667c491a9fe1f194d27d79ab4952340667983539bb5ce445b821efef5657c66618be2f466c4adc6"
 
 RPROVIDES:${PN} += "exo-/usr/bin/exo-desktop-item-edit \
 exo-/usr/bin/exo-open \

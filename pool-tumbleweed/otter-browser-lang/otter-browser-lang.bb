@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.03"
 
-RPM_NAME = "otter-browser-lang-1.0.03-1.7.noarch.rpm"
-RPM_HASH = "c3b8cbf2d39dd619f4180438c76f3a94aab590f3bdca6b995d899d59105c51954e199ef284add0d3f1d573d3901a63e77b9012ae74182ca8132fb61047303bfb"
+RPM_NAME = "otter-browser-lang-1.0.03-1.17.noarch.rpm"
+RPM_HASH = "3fc6cd3292fb9d3d0b3e0689fe6ade74021b2ec71b7c6f597f54efd48e53f2001555224f99fb8bc776cc4bc3687fd8aff88568a8ec11a3b93e1f2b91af94c6ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "otter-browser-lang \

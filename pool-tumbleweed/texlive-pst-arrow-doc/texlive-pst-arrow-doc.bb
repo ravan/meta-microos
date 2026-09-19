@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-arrow"
 DESCRIPTION = "This package includes the documentation for texlive-pst-arrow"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.05svn61069"
+PV = "2026.226.0.0.05svn61069"
 
-RPM_NAME = "texlive-pst-arrow-doc-2023.209.0.0.05svn61069-53.1.noarch.rpm"
-RPM_HASH = "c60a880a100788e51dd05bc7061a2b18cd03dcf909441fa6eaad997a96471c347ec019cafdaa520fbfb84c279fa6ab35a1dba6764e2bff1ab65e2912162bd8ae"
+RPM_NAME = "texlive-pst-arrow-doc-2026.226.0.0.05svn61069-59.2.noarch.rpm"
+RPM_HASH = "11383cc4514df75784d60c6427724997c1c0a6651ce61d08c261f8b6891ad7b98e79df14675096fd0df87956ebc91af46ad09a6f041555a53d91cf2641ea6704"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-arrow-doc"

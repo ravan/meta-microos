@@ -2,10 +2,10 @@ SUMMARY = "Text categorization library"
 DESCRIPTION = "The libexttextcat is a library implementing N-gram-based text categorization"
 LICENSE = "BSD-4-Clause"
 
-PV = "3.4.6"
+PV = "3.4.7"
 
-RPM_NAME = "libexttextcat-2_0-0-3.4.6-1.3.aarch64.rpm"
-RPM_HASH = "8a4313bd4c264352c83e51e2730dca95a55fe5f17801d61ef8b9cb55db2e9b33746517b02653c7884d6cde62c2079527b0c8ec2cb63de46047691f4fe00b82ba"
+RPM_NAME = "libexttextcat-2_0-0-3.4.7-2.9.aarch64.rpm"
+RPM_HASH = "e1f032fa3025988371969f894aad0dd3f9924653a681feadb2acd6c824a0cea333b12a74c0867d167cbccd65e61a47903443cd2d7781d7e002e648eae00036ca"
 
 RPROVIDES:${PN} += "libexttextcat-2-0-0 \
 libexttextcat-2.0.so.0"

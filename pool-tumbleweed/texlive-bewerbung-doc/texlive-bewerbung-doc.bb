@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bewerbung"
 DESCRIPTION = "This package includes the documentation for texlive-bewerbung"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn61632"
+PV = "2026.226.1.3svn61632"
 
-RPM_NAME = "texlive-bewerbung-doc-2023.209.1.3svn61632-54.1.noarch.rpm"
-RPM_HASH = "54d24e3a56446fe322853ee20b4e7d9e44560fefeec21202f9914383da83e95033e854f37bbaa381602e97be6ca31e22ca9c51f1b561a80b1afbe6316bc2009f"
+RPM_NAME = "texlive-bewerbung-doc-2026.226.1.3svn61632-61.2.noarch.rpm"
+RPM_HASH = "6c95512326bc5bbe3d9da88823a06e1cc9c1dc749bb6a1f388f31a700a8cf2492cb99f7e093abfd45abe1f6b236a27b61800085fb2114f87d11a7b3e4803ecb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "en) \

@@ -2,19 +2,18 @@ SUMMARY = "An optimized BLAS library based on GotoBLAS2, pthreads version"
 DESCRIPTION = "OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.21"
+PV = "0.3.34"
 
-RPM_NAME = "libopenblas_pthreads0-0.3.21-5.4.aarch64.rpm"
-RPM_HASH = "70ebee8bca45a5f5953355cdcec5b53577ebd12eb2467dbf33a64a9fcdf269094096dd5b24dd693b568a0f1a64ec2663b527cb76ea4bb473f76b303744afbe4f"
+RPM_NAME = "libopenblas_pthreads0-0.3.34-1.1.aarch64.rpm"
+RPM_HASH = "a25144dbb466a40e7efb7f4983621d1162003bfe7f238b6d6e3b384d29efd4d5503ac9e45ad58cec3e4e80f2124db38f275f22708152ee4d4883e57a595bb663"
 
-RPROVIDES:${PN} += "libopenblas-pthreads0 \
-libopenblas.so.0"
+RPROVIDES:${PN} += "libopenblas-pthreads0"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgfortran.so.5 \
-libm.so.6 \
-update-alternatives"
+libm.so.6"
 
 inherit rpm

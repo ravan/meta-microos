@@ -6,10 +6,10 @@ This package contains the development headers for the library found \
 in liblhasa0."
 LICENSE = "ISC"
 
-PV = "0.4.0"
+PV = "0.6.0"
 
-RPM_NAME = "lhasa-devel-0.4.0-1.1.aarch64.rpm"
-RPM_HASH = "b3f7f8c0c30f18c7a91d0fb5716c030153d7e13e664fb9ac67e9a3ce42d57ca1fcf98e9224c5d7b50f6a057ac34537a469b53d57d2343ff7843e1a67a481cecd"
+RPM_NAME = "lhasa-devel-0.6.0-1.3.aarch64.rpm"
+RPM_HASH = "f6e6fddd649349858f57ee8ce1b3b7acfc03e102bf75375ad03969f17f96ba5a3eb7cf659f1fbfdc7fea18872edf16592d18b1bb014a38989205928c5ba9a101"
 
 RPROVIDES:${PN} += "lhasa-devel \
 pkgconfig-liblhasa"

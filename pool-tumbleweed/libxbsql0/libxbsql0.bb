@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.11"
 
-RPM_NAME = "libxbsql0-0.11-260.9.aarch64.rpm"
-RPM_HASH = "dd3af6f67fc30ba8b6c49760f29d4fa1b3d81c9266230cb1941a6f5097d57c2ed3acedd08f318bb7496a41999bae81c8e316cc9fc618990ec9feb002d69021b6"
+RPM_NAME = "libxbsql0-0.11-261.9.aarch64.rpm"
+RPM_HASH = "9fc1966ee935a3a0f9aac1a1a50938a5785493b8b95bc2f6b550277710f9edec002a80be22aae2f93d2df4e38831df3939cd8842cf0975f82626e0c15c38ee8f"
 
 RPROVIDES:${PN} += "libxbsql.so.0 \
 libxbsql0"

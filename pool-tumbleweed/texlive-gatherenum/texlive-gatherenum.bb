@@ -12,10 +12,10 @@ students found less confusing. YMMV. The package depends on \
 enumitem, expl3, and xparse,"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.8svn52209"
+PV = "2026.226.1.8svn76924"
 
-RPM_NAME = "texlive-gatherenum-2023.209.1.8svn52209-53.1.noarch.rpm"
-RPM_HASH = "ec6b0cda7054760f359e1ca84bd0af0ff87720d02ade1bf5a148a21a0b4366c0d4d723224bf027dd46cb6fc882e1349ef8750dfbc4e2f3c12312d7a01025f556"
+RPM_NAME = "texlive-gatherenum-2026.226.1.8svn76924-60.2.noarch.rpm"
+RPM_HASH = "590219fdf0744dbb7a09d1db0ef435f26f3dbfed20a499f2026ee7d07435bfc1a1d08f457d46c8adde9386205eca60960c839fdc5ceec89b6c54df699733ffda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gatherenum.sty \

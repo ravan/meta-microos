@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-crossreference"
 DESCRIPTION = "This package includes the documentation for texlive-crossreference"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-crossreference-doc-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "79bc9f5fa7d2f77ea3d0a5ff449e85bddc8be1f5fb15be94139b5b6c85af5cbe1b942a3c1fbe06d1a8577f2b0975753ee81f3ccae80fef06817e80aa894dd251"
+RPM_NAME = "texlive-crossreference-doc-2026.226.svn15878-61.2.noarch.rpm"
+RPM_HASH = "704c5ef18c94623a72040e4df265458ca80322d164574d69c85986c69eca46fb0b76f44f09009ae5ccd731ffc592b4c2681e9f50c56b2ec19c07f4ff2dfa704c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-crossreference-doc"

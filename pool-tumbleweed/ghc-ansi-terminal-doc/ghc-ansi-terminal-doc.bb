@@ -2,10 +2,10 @@ SUMMARY = "Haskell ansi-terminal library documentation"
 DESCRIPTION = "This package provides the Haskell ansi-terminal library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.11.5"
+PV = "1.1.5"
 
-RPM_NAME = "ghc-ansi-terminal-doc-0.11.5-1.3.noarch.rpm"
-RPM_HASH = "2a126a1db29581344fa77346ea8d2c4a08c42a4f2eac1bac80781adbd02f81b2aa621f4a1ab284ea912f416f8daf2851969da87d4a7c8aa592da38b20ef78f78"
+RPM_NAME = "ghc-ansi-terminal-doc-1.1.5-1.7.noarch.rpm"
+RPM_HASH = "6576f1da143253cca44869f8703615e8b6cce7c6a1d5b62dd35ee33836afe6772e4043924270c263444611f9e5d8db70c15f0978232b97f9f5bf5e83780ec191"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-ansi-terminal-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cmupint"
 DESCRIPTION = "The  separated fonts package for texlive-cmupint"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn54735"
+PV = "2026.226.1.1svn54735"
 
-RPM_NAME = "texlive-cmupint-fonts-2023.209.1.1svn54735-54.1.noarch.rpm"
-RPM_HASH = "ef4b5f36421dfd2140e248eb3b15d27b9db7a64f172405a06448d5b3e82ea1912e390d5796145fdff158967bc9f0aabc9d0abe33d007f832b4c6d7c889330b14"
+RPM_NAME = "texlive-cmupint-fonts-2026.226.1.1svn54735-60.2.noarch.rpm"
+RPM_HASH = "d760beafc450c5d7b4701b012569525ec109ae05db3e61bb098d2e269b4a5b36d2f4fa9e1bf931ec3f692142310f29c43a9f87030d30350cdb1668e96e6cf34d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-cmupint \

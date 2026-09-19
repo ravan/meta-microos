@@ -5,10 +5,10 @@ subset of the conventions, if Dutch is not the main language of \
 the document)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.8lsvn60362"
+PV = "2026.226.3.8lsvn77682"
 
-RPM_NAME = "texlive-babel-dutch-2023.209.3.8lsvn60362-54.1.noarch.rpm"
-RPM_HASH = "22242cf2e0aaf748c1d5c1bc6be4b50cf01ab236b39af49aaf7a1d8ff3a0e01f39006bfe1b903be98fa55294f8a816a4267169f73c9cb408a0e21e723f4c90b1"
+RPM_NAME = "texlive-babel-dutch-2026.226.3.8lsvn77682-60.2.noarch.rpm"
+RPM_HASH = "6b13e82ae381143ea6fca4deacaa0670a6541d061f0d13fec25c7afa2df54743277eb1752667986d6ce2feff65aa63eaae8af569c2d301619ddf242fd84543f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-afrikaans.ldf \

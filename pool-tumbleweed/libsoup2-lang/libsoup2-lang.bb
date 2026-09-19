@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.74.3"
 
-RPM_NAME = "libsoup2-lang-2.74.3-2.1.noarch.rpm"
-RPM_HASH = "0f9acefce5a0386ec6e57909cf1a573d43e31bdee6ed7108f040a82e185df83b84a8998e47e276c3b1cd32f6ad950ce9920e447f91da7d847011cdb5e9ec0c69"
+RPM_NAME = "libsoup2-lang-2.74.3-22.1.noarch.rpm"
+RPM_HASH = "efd155ed6f844b8a2916a898ead35f1bb8d020b0dd8562a734b111524b5431de75c0d7e8357fe2b911789066d98aad09808d4dc69f25de1558ae48e580cd560a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsoup2-lang \

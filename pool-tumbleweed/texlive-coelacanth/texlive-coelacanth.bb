@@ -7,10 +7,10 @@ ever designed. It aims to be a professional quality type family \
 for general book typesetting."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.005svn64558"
+PV = "2026.226.0.0.005svn77682"
 
-RPM_NAME = "texlive-coelacanth-2023.209.0.0.005svn64558-54.1.noarch.rpm"
-RPM_HASH = "3f12ef2cd534e9b5994cf2e658f90e71ca061775dbbd026ef37f694dcbd8e7c1735af044abce363005272279651d58ac8e051566d22c570e989d0eeddd0ceaba"
+RPM_NAME = "texlive-coelacanth-2026.226.0.0.005svn77682-60.2.noarch.rpm"
+RPM_HASH = "31b5592c7b45916f9891f52b946143c17fdaa8a47309560630401f6e705337cc888f026e604e420678c52ba0177ccfbc8101cbd800d5f9e0d85981f07d4514f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Coelacanth-lf-ly1--base.tfm \

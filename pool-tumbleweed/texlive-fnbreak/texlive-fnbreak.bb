@@ -3,10 +3,10 @@ DESCRIPTION = "This package detects footnotes that are split over several \
 pages, and writes a warning to the log file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.30svn25003"
+PV = "2026.226.1.40svn77682"
 
-RPM_NAME = "texlive-fnbreak-2023.209.1.30svn25003-53.1.noarch.rpm"
-RPM_HASH = "f1c3d866e8e07bbc77717fabe3571d597e1570323121128cd7bc23fe0dbc529e366a85b3ef7c598cde12b34ae595dde91f506defcf811272138dce1273ecfd5d"
+RPM_NAME = "texlive-fnbreak-2026.226.1.40svn77682-60.2.noarch.rpm"
+RPM_HASH = "3059bc56f71c8af0bf9c14faec0a7cb14f43e3c9911f61980efb8d997f61e8eab78fe7a2344cbc061b6c813f290701bbef950d6a6d1907c44aa9244dc8818690"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fnbreak.sty \

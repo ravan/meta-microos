@@ -4,10 +4,10 @@ citations, captions and tables in the margin. This is common \
 (for example) in science text books."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.00asvn54524"
+PV = "2026.226.1.20svn77682"
 
-RPM_NAME = "texlive-sidenotes-2023.209.1.00asvn54524-54.1.noarch.rpm"
-RPM_HASH = "091d129166bfd28af5bbb34d53366f0fe26a9bf4e7e9eeb8c1758ae1d4460fb92dc0bffba6e6bc94596f286257e765e2816c18213a0df66789836100bf5eeca8"
+RPM_NAME = "texlive-sidenotes-2026.226.1.20svn77682-60.2.noarch.rpm"
+RPM_HASH = "e78ac0d9a6f26818e22a6c3db7e74070bda1ab3a7afc00a77562ea7a7568f4f390ba9ed9a31d1e7af595d0d3c1bb7db492bd02bc02ad2d986fff3e648b1e6b7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-caesar-book.cls \
@@ -20,7 +20,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-amsmath.sty \
 tex-beramono.sty \
 tex-caption.sty \
 tex-changepage.sty \
@@ -37,9 +36,7 @@ tex-l3keys2e.sty \
 tex-marginfix.sty \
 tex-marginnote.sty \
 tex-mathpazo.sty \
-tex-mhchem.sty \
 tex-microtype.sty \
-tex-morefloats.sty \
 tex-ragged2e.sty \
 tex-textcase.sty \
 tex-titlesec.sty \

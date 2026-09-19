@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Pashto lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-pus-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "f4d7b5ffac464b220fbcf68532f9eb48719695a5e80a543a7cdb8d66300a7782dc265b07209971d62c7580967bf1277e030751fdedc96edb2ee04044a95e308c"
+RPM_NAME = "tesseract-ocr-traineddata-pus-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "c57086f19bb1737dff9dc2bf3960d467fc0b1036f81b52d9bd4c05dfbbd1f7554f4848c6d8c6f8e39675833ee7ea5be5e17a58330b73fd7a61a68a11def18609"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-pashto \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-ps \
+tesseract-ocr-traineddata-pashto \
+tesseract-ocr-traineddata-provider \
 tesseract-ocr-traineddata-pus \
 tesseract-traineddata-pashto"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

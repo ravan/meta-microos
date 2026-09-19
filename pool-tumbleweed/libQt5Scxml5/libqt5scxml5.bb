@@ -9,10 +9,10 @@ the state machine. It also contains functionality to support data \
 models and executable content."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt5Scxml5-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "2481d25b7c118f2f262116c030acd0b78ef8cd82f2a5099da920591f4c7d9c33ea60d5a78412f521c42a0742c4cf8350c5386246373720381b1b67dda2c12239"
+RPM_NAME = "libQt5Scxml5-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "a91570d702cdb2b161ab55056a167fdac2b23aeaf3166eeab2987befae95007ff97069dbdeba8b5b729489a03482787822576a70b95996753661b185efdd14ae"
 
 RPROVIDES:${PN} += "libQt5Scxml.so.5 \
 libQt5Scxml5"

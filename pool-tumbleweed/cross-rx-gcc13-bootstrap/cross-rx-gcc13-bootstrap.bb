@@ -9,16 +9,22 @@ This is a package that is necessary for bootstrapping another package \
 only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.2.1+git7683"
+PV = "13.5.0+git10516"
 
-RPM_NAME = "cross-rx-gcc13-bootstrap-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "705abe07a35e20579afec98dbadda2d03bbb1cc898f905702a65e157b6d30303624a3647ee91899f577d0b470c73fe4c143eba8dfad599be4a194fdfb66c7060"
+RPM_NAME = "cross-rx-gcc13-bootstrap-13.5.0+git10516-1.1.aarch64.rpm"
+RPM_HASH = "d36e19f374a154a3f34e97eb79c3fec37a59fb3f8fb4b33453b8e00cdfe4c2d7dfb69b196b179c99265b99025827b152c246431eae4ef435f8cbfa09647a2ce9"
 
 RPROVIDES:${PN} += "cross-rx-gcc13-bootstrap \
 rx-elf-gcc"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-cross-rx-binutils \
-update-alternatives"
+RDEPENDS:${PN} += "cross-rx-binutils \
+libc.so.6 \
+libgmp.so.10 \
+libisl.so.23 \
+libm.so.6 \
+libmpc.so.3 \
+libmpfr.so.6 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

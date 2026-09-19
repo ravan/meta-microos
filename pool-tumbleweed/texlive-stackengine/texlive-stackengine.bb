@@ -5,10 +5,10 @@ useful macros are provided, all of which make use of the \
 stackengine core."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.11svn60019"
+PV = "2026.226.4.11svn75878"
 
-RPM_NAME = "texlive-stackengine-2023.209.4.11svn60019-58.1.noarch.rpm"
-RPM_HASH = "63a517c147c277e5355920a34556264b8140628d406f94eb059de4730405903687f7ae20a967ab8daee5567184a23464a61979e887d19a83ffd91187c2f85be9"
+RPM_NAME = "texlive-stackengine-2026.226.4.11svn75878-64.2.noarch.rpm"
+RPM_HASH = "dad61afbb8e4e3319c41c04add7c1079a11f0cd27d5a9ede125806eb79314e57faa1cc814559235d9bea9dd57691221e55e62dcee6263a8ce06b9a40b1bb53fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-stackengine.sty \

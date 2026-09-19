@@ -13,10 +13,10 @@ the GNU fileutils, sh-utils, and textutils packages. \
   uptime users vdir wc who whoami yes"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.4"
+PV = "9.11"
 
-RPM_NAME = "coreutils-single-9.4-1.1.aarch64.rpm"
-RPM_HASH = "812b339ca04394515556d9d3db749fb73a88d9f9e65fc719e20ff338699105d5f830608f96ffccc2a1acb6c8dec70ac87cb944ef388b1a63facae5df3b46bf17"
+RPM_NAME = "coreutils-single-9.11-5.1.aarch64.rpm"
+RPM_HASH = "0181106293880ae3b641388ba7305d9a690d0e9e903119ba366e4ca9537400c6a25e22571ae0e4a8311fadca037892af40b18b146faf57ef3f9020ef6231298e"
 
 RPROVIDES:${PN} += "/usr/bin/cat \
 /usr/bin/chgrp \

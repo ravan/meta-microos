@@ -6,10 +6,10 @@ valid PDF of >>Deutsche Post<<'s >>Ausdruck 4-spaltig (DIN \
 A4)<<."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn55920"
+PV = "2026.226.1.0svn55920"
 
-RPM_NAME = "texlive-postage-2023.209.1.0svn55920-53.1.noarch.rpm"
-RPM_HASH = "bfbb7ba187faed3ba7887d1d38af421fd380f47b806dad326f9492d7b463e023a98f0aa1eb5fc74859a2147dba7d0d0da36ac96aeef80a9fde40d48a281a15b2"
+RPM_NAME = "texlive-postage-2026.226.1.0svn55920-59.2.noarch.rpm"
+RPM_HASH = "c512c819548467faee0e5514758c28fdbe2074273cee749513cc39d2c63217a859f9d21c3a23bf61e37754d2a9b9a36470d37c26927ef53b93b9d23a584f0d13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-postage.sty \

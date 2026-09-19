@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "libcddb-devel-1.3.2-27.1.aarch64.rpm"
-RPM_HASH = "ce7c68616122d7d740aabbe1978fcfdc861cb512d335a094786849670f1ca5212e21a14e4f36148f1e51fcfc32987e5ed7f10c5526b1fff6c778c8f2920f06a4"
+RPM_NAME = "libcddb-devel-1.3.2-30.5.aarch64.rpm"
+RPM_HASH = "99156fb54de45d2e835de8d60ca1a13c564fd404e1408638e956c93bad94d6b4b4683990bc19799e3196a67c3df2c4cf0fca8f12b20c59c59ad2ce2660e9ae5f"
 
 RPROVIDES:${PN} += "libcddb-devel \
 pkgconfig-libcddb"

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0.alpha1"
 
-RPM_NAME = "krb5-auth-dialog-44.0.alpha1-1.1.aarch64.rpm"
-RPM_HASH = "d309f585902fe10980e4e5b8967c704796bd4bc3afb161250ee36a4b2b2cd00ffc5a5ef0e13e4c164d07bc6c5856a376f13d332e100320904f7b458d2293916e"
+RPM_NAME = "krb5-auth-dialog-44.0.alpha1-1.11.aarch64.rpm"
+RPM_HASH = "faf340e483a2bc44b7ea9a950d94b4cc2cc5bf2c0fee468cc3bc122b7f07e58e48e7f45d221ba2ac9d91b3e3b313fe4c4f54d139f40f21b524c439b45c8d70e9"
 
 RPROVIDES:${PN} += "krb5-auth-dialog \
 libka-plugin-afs.so \

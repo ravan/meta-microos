@@ -6,12 +6,12 @@ IEC 61883 protocols. \
  \
 The libiec61883 library provides a higher level API for streaming DV, \
 MPEG-2 and audio over Linux IEEE 1394."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "libiec61883-devel-1.2.0-8.27.aarch64.rpm"
-RPM_HASH = "cfb914c274e781f6fda87e4346adbc044518f6d8eeb055dab93c742c00b2495b34dc2e6b39b09ada6bab951a2e9014ee23a018b2e70b01f7e0c58b0f629beab8"
+RPM_NAME = "libiec61883-devel-1.2.0-9.5.aarch64.rpm"
+RPM_HASH = "bfcca86ea604e986927aed41afc48ac4fa82e8bd2ffd80736b7184734c33c2f2646f4ccdb4ab582d6ca16a9575ee35e1e79ae529191debc690337f0ef39e4841"
 
 RPROVIDES:${PN} += "libiec61883-devel \
 pkgconfig-libiec61883"

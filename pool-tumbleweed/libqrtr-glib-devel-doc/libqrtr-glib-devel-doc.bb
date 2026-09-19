@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "libqrtr-glib-devel-doc-1.2.2-1.5.noarch.rpm"
-RPM_HASH = "dd509356316c75c0eec08d5d82a849976c1d6e6c6665119a1d459c63d5a257f6fc17d4178f194c1e89e4d29f4b7f4c87471bfce634ea5f3acba2fa9e16e4f06b"
+RPM_NAME = "libqrtr-glib-devel-doc-1.2.2-1.17.noarch.rpm"
+RPM_HASH = "10900690214a5e63e57c2888a0a5a078d49cf2fa948d9c1b5e6c0124210be13b8ff3317269854f63fd1e23f8675a271926af13c4c045803f9f6105eef01145e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqrtr-glib-devel-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "This citation-style covers the citation and bibliography rules \
 of the University of Nottingham."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn41596"
+PV = "2026.226.0.0.1svn41596"
 
-RPM_NAME = "texlive-biblatex-nottsclassic-2023.209.0.0.1svn41596-54.1.noarch.rpm"
-RPM_HASH = "493f01f2f9196a9018ec9699a675b8108281eecec9e3ef40f7b9c1e9025caaa7f17dde18b045bd66c5ae2c7a880ccb0a440717ce97828eb837665b92be331142"
+RPM_NAME = "texlive-biblatex-nottsclassic-2026.226.0.0.1svn41596-61.2.noarch.rpm"
+RPM_HASH = "4a5b2858a2cb7705781f5cb51b0e57137f7dec8a2ce8791e879bb2bdfb0135c1e72ccedb38a65162ae352066b526f0848ae90b68fa8b8f10bff39704f8ece045"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nottsclassic-english.lbx \

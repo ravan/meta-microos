@@ -4,10 +4,10 @@ in the Harvard at Newcastle style recommended by Newcastle \
 University. It should be used alongside natbib for citations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn62856"
+PV = "2026.226.1.1svn76790"
 
-RPM_NAME = "texlive-newcastle-bst-2023.209.1.1svn62856-55.1.noarch.rpm"
-RPM_HASH = "06fcba84ec3c234a28707995838428aece5f2c225a94e6e41fcd7b88c21df9878bbe4946996f735111c75aa55bcd41e9571746b9e2a7df970ee73c7b43dc0734"
+RPM_NAME = "texlive-newcastle-bst-2026.226.1.1svn76790-61.2.noarch.rpm"
+RPM_HASH = "34b715c518bee8235133ee090a782d3831693d30c8e61c6c70139cc065362f819a3bb6926f4b4f27bf7e84ea85f04cf9ae4aa4428b3d7ca1a995ceb7aa13fcde"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newcastle-bst"

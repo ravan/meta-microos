@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.0+git.1515043414.01c39b7"
 
-RPM_NAME = "js-technology-fonts-0.0+git.1515043414.01c39b7-1.9.noarch.rpm"
-RPM_HASH = "8cf115d1cdf741f139c5a3b3feaf65a555740f72befa3ae39bd68344ad83381580acc80665b6a3de0b088880736b144a60eb548e79626f99f320c58d29fd5aff"
+RPM_NAME = "js-technology-fonts-0.0+git.1515043414.01c39b7-1.17.noarch.rpm"
+RPM_HASH = "a032d6b4d29e6c8e4e09d7ea442ed3668f7dedd661eb332a701c8b97fcfce4bbebab1f1006bdf4c700a43934740f8cc8c7225f0beed94a04bed1f40020507a6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "js-technology-fonts"

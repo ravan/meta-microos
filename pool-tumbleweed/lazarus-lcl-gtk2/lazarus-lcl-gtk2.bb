@@ -4,10 +4,10 @@ This package contains LCL components for developing applications \
 using the GTK2 widgetset."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only & MPL-1.1"
 
-PV = "2.2.6"
+PV = "4.8"
 
-RPM_NAME = "lazarus-lcl-gtk2-2.2.6-2.1.aarch64.rpm"
-RPM_HASH = "07aa1b517d4b73c45cc552811633dac76016549dac48cef61609f4db73a6fc6a07f1022147cd1b7911f8d1678fcacbfb6fb0840203cba775c49cba612034fd29"
+RPM_NAME = "lazarus-lcl-gtk2-4.8-1.2.aarch64.rpm"
+RPM_HASH = "0857682c3947727a322906ea676027a78126bf4daf05fb7f01238c98aaa1ce9af4d9d6bf0a8029da114e5f5095504a944f031bb16d81538742187e54c4a08ba4"
 
 RPROVIDES:${PN} += "lazarus-lcl-gtk2"
 

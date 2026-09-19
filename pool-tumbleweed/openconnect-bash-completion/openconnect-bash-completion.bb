@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for openconnect"
 DESCRIPTION = "Bash completion script for openconnect."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.12"
+PV = "9.21"
 
-RPM_NAME = "openconnect-bash-completion-9.12-1.1.noarch.rpm"
-RPM_HASH = "c63f14167a8844fad1e8519336e78b62f3e13ed6c98a98303964bc1a6f685937915d65d7e2ad3dec40e3c074576166d90da5a5461fa49b85eb79cb5a1b149da8"
+RPM_NAME = "openconnect-bash-completion-9.21-1.3.noarch.rpm"
+RPM_HASH = "e5fab4a96b5f7a75fde4f97c05906941affb2d17b2139b4d856b9396bac3f2a806e36b4e23d89a15a07ca60c18fbd1e5ca04cf79b67ee280be459193a83e5735"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openconnect-bash-completion"

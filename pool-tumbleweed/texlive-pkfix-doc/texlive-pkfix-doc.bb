@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pkfix"
 DESCRIPTION = "This package includes the documentation for texlive-pkfix"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn26032"
+PV = "2026.226.1.7svn26032"
 
-RPM_NAME = "texlive-pkfix-doc-2023.209.1.7svn26032-52.1.noarch.rpm"
-RPM_HASH = "59509b25d9cb3a68c91c27e7f4cb623f3f6dbe9a92f186eaa0e350fcfc22bf9fb4ec4a4af5f70f64440d5466a382ae84538c3df22b9370920445fff822bbc4ce"
+RPM_NAME = "texlive-pkfix-doc-2026.226.1.7svn26032-58.2.noarch.rpm"
+RPM_HASH = "de033fe45af2a12ef638ec2ebbc04d61e7c61a956c7b3c46fc37caa064cc900838f53735111b3519fdcda18e057579370debb625a2ea51d2a179414b008bb233"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pkfix-doc"

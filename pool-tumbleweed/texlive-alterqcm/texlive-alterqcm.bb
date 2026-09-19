@@ -7,10 +7,10 @@ with utf8, pdfLaTeX, LuaLaTeX and XeLaTeX (with some \
 languages). The documentation is in English."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.42csvn59265"
+PV = "2026.226.4.42csvn59265"
 
-RPM_NAME = "texlive-alterqcm-2023.209.4.42csvn59265-55.1.noarch.rpm"
-RPM_HASH = "c2f4689dea2950faff988b98aace8c4582d8b9cf17676d9df63e61f7fb6fffcd8f754661a5a5f7b5537529a12e077f9eda4fb47ac73624d9dd3162673abbae7b"
+RPM_NAME = "texlive-alterqcm-2026.226.4.42csvn59265-61.2.noarch.rpm"
+RPM_HASH = "e3323790bae29fe621d3cc3fca156fec873315119f82318d194a118cf9f64dfea838cece1090c45d27a6437491fa17de0c82b4d0fd571944ea236fd0b70fcf50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alterqcm.sty \

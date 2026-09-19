@@ -2,10 +2,10 @@ SUMMARY = "Creating Venn diagrams with MetaPost"
 DESCRIPTION = "MetaPost macros for venn diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-venn-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "9832fe4e5f93b9e53dbe3e3d9c22de0f4ede21bd171849bc3b249fdc4c35df5ecb5873b9be8ee7891bd48190902d518f9d8de5a0498b52bd51fe7ea9871851d5"
+RPM_NAME = "texlive-venn-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "38cc35925735e747d4255da60fc78ee2297d7abc9fa47bda22572517b5d2eb522ef2a4f482d27798d9e08920945515994b9e8db3aca64797b14277c78f577904"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-venn"

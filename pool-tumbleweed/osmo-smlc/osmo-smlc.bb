@@ -4,21 +4,21 @@ the SMLC functionality as specified in 3GPP networks \
 Location_Services architecture."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "0.2.3"
+PV = "0.4.0"
 
-RPM_NAME = "osmo-smlc-0.2.3-1.2.aarch64.rpm"
-RPM_HASH = "791306b248c318fec630bf2252dadeb660cf95af2ebc0759bea2c36c89e1edab540049446e3adf37740b22691005ee8796410fc9fab3ec3dbe14d7b2936bda00"
+RPM_NAME = "osmo-smlc-0.4.0-1.3.aarch64.rpm"
+RPM_HASH = "b41dff14d3254778e1832e8fc7315d3229a4a657e51b680d697a5c434e2851523377607b60b9720821a4c2b3889335fee87c441c6258337320721556c721a1b0"
 
 RPROVIDES:${PN} += "osmo-smlc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libosmo-sigtran.so.7 \
-libosmocore.so.20 \
+libosmo-sigtran.so.12 \
+libosmocore.so.22 \
 libosmoctrl.so.0 \
-libosmogsm.so.18 \
-libosmovty.so.9 \
+libosmogsm.so.20 \
+libosmovty.so.13 \
 libtalloc.so.2"
 
 inherit rpm

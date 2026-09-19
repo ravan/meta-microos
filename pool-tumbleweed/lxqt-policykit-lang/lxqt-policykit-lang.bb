@@ -2,10 +2,10 @@ SUMMARY = "Translations for package lxqt-policykit"
 DESCRIPTION = "Provides translations for the 'lxqt-policykit' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.0"
+PV = "2.4.0"
 
-RPM_NAME = "lxqt-policykit-lang-1.2.0-1.3.noarch.rpm"
-RPM_HASH = "1686f1b0626d45a990fe1644c858676af24ae523002f39234d5a3a97e1560cc570cc3f9f47ad57a6e2af1986a0b9bff24b6d68a3ee62fc6e289e2f4d20969f6e"
+RPM_NAME = "lxqt-policykit-lang-2.4.0-1.2.noarch.rpm"
+RPM_HASH = "bff169589afae728b2fc0fc4b65d6b164b26aeb8e53a95a270d48f2a8a61e74a6d23f741a8b9359b5a93c3de1c0de89ec1480d3b6c7a8c67ddaecd2bfedc64d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxqt-policykit-lang \

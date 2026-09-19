@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.14"
 
-RPM_NAME = "libdaemon0-0.14-19.7.aarch64.rpm"
-RPM_HASH = "a032d56cc2af79a9bad12b57dcb2bdc841f01143be0e324f3e6ee3fbceadc8f2af49c67f7482fe2212423a5cd6e763eaf6d769d9fa418ff0b24c4f3ac78a62c7"
+RPM_NAME = "libdaemon0-0.14-19.17.aarch64.rpm"
+RPM_HASH = "3fec1f076c0fa402ede2ffb20aebadd30b860ab097aca14b2dcf0f1cb841827515fb7003564dd7d7aa4e67ee817c3f538585294d4d740bd41e8c5f5309aac3f0"
 
 RPROVIDES:${PN} += "libdaemon \
 libdaemon.so.0 \

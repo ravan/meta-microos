@@ -4,6 +4,11 @@ informational objects which are related to one user. The 'User::Identity' \
 module tries to be smart providing defaults, conversions and often required \
 combinations. \
  \
+*Be aware:* This module versions 4.0 and up is not fully compatible with \
+older releases: mainly the exception handling has changed. When you need to \
+upgrade, please read at https://github.com/markov2/perl5-Mail-Box/wiki/. \
+*Version 3 is still maintained* and may see new releases as well. \
+ \
 The identities are not implementing any kind of storage, and can therefore \
 be created by any simple or complex Perl program. This way, it is more \
 flexible than an XML file to store the data. For instance, you can decide \
@@ -16,10 +21,10 @@ author. \
 Extends 'DESCRIPTION' in User::Identity::Item."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.02"
+PV = "4.0.0"
 
-RPM_NAME = "perl-User-Identity-1.02-1.3.noarch.rpm"
-RPM_HASH = "c921644f159494095d709f49b2684f1a258be9c331cb31798ceefb39bcd7b74911fdce6aa533e663886b955bb0cb39d36e12014c6e8fc7929bf2bf2c921c5684"
+RPM_NAME = "perl-User-Identity-4.0.0-1.5.noarch.rpm"
+RPM_HASH = "a2db53407cddb58b8ccbe0a8b43ab6abdf9a661fac08662f049d97ca6e76e8ccff3bde3a7b887aa7c0439cf0390cd5def47b7d5b2882a8bc925ca9063db061f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Identity \
@@ -36,7 +41,8 @@ perl-User--Identity--Location \
 perl-User--Identity--System \
 perl-User-Identity"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-Hash--Ordered"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Hash--Ordered \
+perl-Log--Report"
 
 inherit rpm

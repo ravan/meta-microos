@@ -62,10 +62,10 @@ preparation for cloning them. \
 Virt-tail follows (tails) a log file within a guest, like 'tail -f'."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.50.1"
+PV = "1.56.0"
 
-RPM_NAME = "guestfs-tools-1.50.1-1.2.aarch64.rpm"
-RPM_HASH = "e7ccc26ffb16f0925e0cdd6047b0743aa2407662f1e670fed039f3921531a9e9cfcce80cccfe36daa5472494f96f670dac8d9622cf47daafae563c7dcbccaf1f"
+RPM_NAME = "guestfs-tools-1.56.0-1.2.aarch64.rpm"
+RPM_HASH = "1c7c8e89c91ab697de1857b7e0c92cf47c03da9eafb504d4996fba2c0ad0b45cdf88f1550d4592af7347574b9092eca627053be59be9824a2d21917f75f21f33"
 
 RPROVIDES:${PN} += "config-guestfs-tools \
 guestfs-tools"
@@ -77,15 +77,16 @@ libc.so.6 \
 libcrypt.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
+libguestfs \
 libguestfs.so.0 \
-libjansson.so.4 \
+libjson-c.so.5 \
 liblzma.so.5 \
 libm.so.6 \
 libosinfo-1.0.so.0 \
 libpcre2-8.so.0 \
 libtinfo.so.6 \
 libvirt.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 xz"
 
 inherit rpm

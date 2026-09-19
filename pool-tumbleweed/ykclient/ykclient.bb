@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.15"
 
-RPM_NAME = "ykclient-2.15-1.27.aarch64.rpm"
-RPM_HASH = "9b9251cbbce33ae3a39a3725b2f7fc4eae3e7a3c4a1403afa3a542fc69bae17064ea2b64772d8131e49549a077588cafbee66b72771858dc2c07af2173ae821e"
+RPM_NAME = "ykclient-2.15-1.37.aarch64.rpm"
+RPM_HASH = "82b24315e48fc3a8b28e7490cdbea484035dee00dc47d1e3eda8dd354936c378ebcf2bc75754330d7d40bb687d4c555a906844662496ca50e99ac30ab8e05823"
 
 RPROVIDES:${PN} += "ykclient \
 yubico-c-client"

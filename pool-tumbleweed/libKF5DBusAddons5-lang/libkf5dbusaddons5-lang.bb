@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5DBusAddons5"
 DESCRIPTION = "Provides translations for the 'libKF5DBusAddons5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5DBusAddons5-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "acb929b5f2e1001341484eb9b8b2d7cba4eafbd18e6b853056179af34fcfe110ef2f2f7b50e65a847448f86154ef30a4f06c1549148ce45d736c7fb22e4c782e"
+RPM_NAME = "libKF5DBusAddons5-lang-5.116.0-1.8.noarch.rpm"
+RPM_HASH = "03987f4bf4fe5edca20609dea59e7f2ab3df1b94cd610f7369a6bd944beec286897079050f4757ca0dae5d0af31a5759050931037e449e47106a96409cd7de20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5DBusAddons5-lang \

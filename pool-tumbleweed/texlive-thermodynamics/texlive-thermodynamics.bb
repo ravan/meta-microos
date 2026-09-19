@@ -12,22 +12,22 @@ changing package options. The package offers a collection of \
 macros and environments which are intended to make typesetting \
 thermodynamics documents faster, more convenient, and more \
 reliable. Macros include symbols for extensive, molar, \
-specific, and partial molar properties; exces and residual \
+specific, and partial molar properties; excess and residual \
 (departure) properties; partial derivatives; heat capacities, \
 compressibilities, and expansivities; saturation, mixture, and \
 pure-component properties; Henry's Law parameters and activity \
-coefficients; and changes on mixing, fusion, reaction, \
-sublimation, and vaporization; and sets of all moles/mole \
+coefficients; changes on mixing, fusion, reaction, sublimation, \
+and vaporization; and sets of all moles/mole \
 fractions/masses/etc. being held constant in derivatives. \
 Conversion of notes between textbooks is trivial for textbooks \
 supported by the package, and more general changes in notation \
 are also possible through package options."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.00svn63188"
+PV = "2026.227.2.03svn77280"
 
-RPM_NAME = "texlive-thermodynamics-2023.209.1.00svn63188-55.1.noarch.rpm"
-RPM_HASH = "6b55329fafd47d5904566444b36a4c0bd2af7f5cdc9557a8092fb520f8dbce23b4ba235ad6a8991a9aa581ece8b05c7676d84f4629874a0b4dca4bf3f63a5b5c"
+RPM_NAME = "texlive-thermodynamics-2026.227.2.03svn77280-62.2.noarch.rpm"
+RPM_HASH = "455a58f28a9e849dff57e6e79dfff127b96de48aa8855c464f111a04ca6e829f6c96a95ba1a7f9a61c7a2c5b27cffb17837985559ea2372c5d3f881e9e053f17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thermodynamics.sty \
@@ -40,6 +40,7 @@ findutils \
 grep \
 sed \
 tex-amstext.sty \
+tex-expl3.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

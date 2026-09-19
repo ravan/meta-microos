@@ -5,10 +5,10 @@ parses iCal components and provides a C API for manipulating the \
 component properties, parameters, and subcomponents."
 LICENSE = "LGPL-2.1-only | MPL-2.0"
 
-PV = "3.0.16"
+PV = "3.0.20"
 
-RPM_NAME = "libical3-3.0.16-1.5.aarch64.rpm"
-RPM_HASH = "d3de6e5245f3944ca7d9e98116bf05d5e0b367c40f593a970b6a352991838ef36e147c1fc16062c0a5679f0d53f119dd932592fa993d70f1d7021f19c994ad33"
+RPM_NAME = "libical3-3.0.20-1.6.aarch64.rpm"
+RPM_HASH = "24c380ce843ba50ee7817c18697631c69f0419bc87c16c75140804ffc2ed8a0b3c36494b0228d64ffb1d092f44b1dbd5beec97852a12b9efeac886baaf455263"
 
 RPROVIDES:${PN} += "libical \
 libical-cxx.so.3 \
@@ -22,8 +22,8 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicui18n.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuuc.so.78 \
 libstdc++.so.6"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Imlib 2 - development libraries"
 DESCRIPTION = "These are the development headers and library for imlib2."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.12.0"
+PV = "1.12.7"
 
-RPM_NAME = "imlib2-devel-1.12.0-2.1.aarch64.rpm"
-RPM_HASH = "70f0ce7ca50bf7c39047d2dd474911151f247a3d2b476274f46ea4877d994c9d17d1777145ef9243a0177470d1f2cd4eec5c0aefe0e698d76af8797ded30a715"
+RPM_NAME = "imlib2-devel-1.12.7-1.1.aarch64.rpm"
+RPM_HASH = "ba1121d38dd0a03263619f7514eda28465f903981b20c1eca69f261964719ac6add4562f88c33b979ddc0627a0455491750313d53d8a1b450c531ef145e2472b"
 
 RPROVIDES:${PN} += "imlib2-devel \
 pkgconfig-imlib2"

@@ -2,10 +2,10 @@ SUMMARY = "IPA font for the X Window System"
 DESCRIPTION = "The International Phonetic Alphabet font for the X Window System."
 LICENSE = "HPND & SUSE-Redistributable-Content & SUSE-Public-Domain"
 
-PV = "1.2.1"
+PV = "1.4.2"
 
-RPM_NAME = "intlfonts-phonetic-bitmap-fonts-1.2.1-16.15.noarch.rpm"
-RPM_HASH = "4d9296c23db5ff3dbd6e74a1896330a7088e1cb0fd220613173149ff28f6f44e2cff4602a7f5635b09309c4cef8b5c6d6248b2ab8fd3e9fe67b36acd7a0d1db0"
+RPM_NAME = "intlfonts-phonetic-bitmap-fonts-1.4.2-1.6.noarch.rpm"
+RPM_HASH = "3b4780f790224b49728a810d321c7fa4b3a14d9b47eb314947198e23f448a27070c77cced982802c6c41128fb5fcefaaa252fc2278fdd9d19b56629e76e646ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ifntphon \

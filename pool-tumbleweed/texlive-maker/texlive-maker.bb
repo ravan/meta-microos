@@ -4,13 +4,13 @@ Processing code using three different forms: writing the code \
 directly in the LaTeX document writing Arduino or Processing \
 commands in line with the text calling to Arduino or Processing \
 files All these options support the syntax highlighting of the \
-oficial IDE."
+official IDE."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn44823"
+PV = "2026.226.1.0svn76924"
 
-RPM_NAME = "texlive-maker-2023.208.1.0svn44823-53.1.noarch.rpm"
-RPM_HASH = "6f7f8c04c8d2a2f0a050d0572170bf93b0db487c90e494f59534eb24e6ac49a79cca18655245eccc64d1ad5b0fcfef6d6bc354259102f81ee565abf818822d37"
+RPM_NAME = "texlive-maker-2026.226.1.0svn76924-59.2.noarch.rpm"
+RPM_HASH = "cf69056b66be5e2d811f0d062974efdd9af181c4be82d0514c2a0399d968b56daf05ff440eac94bb21da9101fcb4df26fa85ca9f821a41770cd0fb42639aba60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-maker.sty \

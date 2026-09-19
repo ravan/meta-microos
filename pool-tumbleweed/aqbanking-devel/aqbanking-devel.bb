@@ -4,10 +4,10 @@ backends (currently HBCI) and multiple frontends  (e.g. KDE, GNOME, \
 console) to be used."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.5.4"
+PV = "6.9.2"
 
-RPM_NAME = "aqbanking-devel-6.5.4-1.1.aarch64.rpm"
-RPM_HASH = "c56a36121c6a871cffc9fa661994bee9271c5c6c8e50bf10ac2c537be679ba553eaefe7270c05b58790fa6f951a34af00a198a6d17715f3d56f714aef1a7266d"
+RPM_NAME = "aqbanking-devel-6.9.2-1.2.aarch64.rpm"
+RPM_HASH = "4ff88899f459a5fdd8b406d39cc49c9b77510580edeec31993d3da4372d854aa3df1741a9287150ab4b3e640be988dff7e1500113fbac1cda26207f5285aa76c"
 
 RPROVIDES:${PN} += "aqbanking-devel \
 cmake-aqbanking \

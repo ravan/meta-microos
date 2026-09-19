@@ -7,10 +7,10 @@ to change the page styles when there are floats in a page. You \
 may assign headers/footers to individual floats, too."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.14svn59845"
+PV = "2026.226.2.17svn77682"
 
-RPM_NAME = "texlive-titlesec-2023.209.2.14svn59845-53.1.noarch.rpm"
-RPM_HASH = "758d06235d424e94ea60e6ce19a4d705136f69e2a4ad85a838f9d50792a85b8940af8002c84c287b53a786452d83aab8bb0a2091b41ac7fea70ffa2d86819e83"
+RPM_NAME = "texlive-titlesec-2026.226.2.17svn77682-59.2.noarch.rpm"
+RPM_HASH = "0086d9f82bcfe2c07269ce07110abaa343b5028707fe10aab7e72cf1a0b4223b7af9bda567b5aa8e031a66b0b878ba4db9885462c25265fb2e5f2b1eb7bad395"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-titleps.sty \

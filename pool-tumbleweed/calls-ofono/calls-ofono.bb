@@ -5,10 +5,10 @@ This package is not recommended, only install if you are sure you \
 want ofono support."
 LICENSE = "GPL-3.0-only & MIT"
 
-PV = "44.2"
+PV = "50.0"
 
-RPM_NAME = "calls-ofono-44.2-1.1.aarch64.rpm"
-RPM_HASH = "bed578c06040805b0c3951b0e3c220a08050f66a02965db020b6e3257c813e5f8a8438bfa581aeff2684fe97ae1905520377e19c9a98497ff8a2c3e7cf5ea528"
+RPM_NAME = "calls-ofono-50.0-1.2.aarch64.rpm"
+RPM_HASH = "94b73bf08c918760489eeb479813820fde0da3b74fdb6922de102b77022a4d9b5c73a8945492e8106c3af487014d48d36acfaf3e4b51e935ff5a9426140dc680"
 
 RPROVIDES:${PN} += "calls-ofono \
 libofono.so"
@@ -19,7 +19,7 @@ libc.so.6 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0 \
-libpeas-1.0.so.0"
+libgtk-4.so.1 \
+libpeas-2.so.0"
 
 inherit rpm

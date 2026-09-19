@@ -10,10 +10,10 @@ enables you to draw a coordinate grid over the picture for easy \
 adjustment of positions of the annotations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8svn20843"
+PV = "2026.226.0.0.8svn20843"
 
-RPM_NAME = "texlive-lpic-2023.209.0.0.8svn20843-55.1.noarch.rpm"
-RPM_HASH = "39275f73f0fd9b1dcdc218de2a6324804fa15cba314299f291762f86488368451d3b80e20704b91f86fbac7d3862529d3d6c1770039f49b93f5b1de93ec4df35"
+RPM_NAME = "texlive-lpic-2026.226.0.0.8svn20843-61.2.noarch.rpm"
+RPM_HASH = "e141e0ae03c0998dc12717882668c3fc45012ec71e110052275204bd8808becbed6395c295a04fd967750c9f18be50c2e85be742b950db738a2848947ab2fe95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lpic.sty \

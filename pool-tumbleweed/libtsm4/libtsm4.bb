@@ -6,10 +6,10 @@ library does no rendering or window management of its own, and does \
 not depend on a graphics stack, unlike the similar GNOME libvte."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.0.2"
+PV = "4.7.1"
 
-RPM_NAME = "libtsm4-4.0.2-1.4.aarch64.rpm"
-RPM_HASH = "a4e0de44482e9b95160ab5294e9ca8842960310ae5a059a8da818b4659a1663e0d53e7b3c90f1bbb1d54d74ab26248e185eb399c8a23f7dc178a64f2d50157cb"
+RPM_NAME = "libtsm4-4.7.1-1.1.aarch64.rpm"
+RPM_HASH = "3d771fda5530dd81eb6c704df3f0ff5a4003731450a27128098749495a3f8c55efc676d7c4131d5a4fa6472bd848e7817c5d7cab768f0838e32e2e0fd618e1a3"
 
 RPROVIDES:${PN} += "libtsm.so.4 \
 libtsm4"

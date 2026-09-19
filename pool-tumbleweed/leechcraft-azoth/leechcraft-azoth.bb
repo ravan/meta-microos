@@ -8,44 +8,45 @@ XMPP protocol, aiming to provide extensive and full support for XMPP while \
 remaining usable for other protocols."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-azoth-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "aba3d1ed01d3ed586a168998212175d1715604c0344654ab099e406dbcfc488fbc6ee3f0453cb359d91656d8de3b82bac65210839d5ac10009397e584eb943c1"
+RPM_NAME = "leechcraft-azoth-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "8c975bdd2c951920ebf470c51c94c9cb0e52d7f2be36e148fe238c047bf86c472c8e29e6365d70a69ec09ae9c683db0c53c62d03afbfecaa185689384b7e8531"
 
 RPROVIDES:${PN} += "leechcraft-azoth \
 libleechcraft-azoth.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-leechcraft-azoth-chatstyler \
 leechcraft-azoth-protocolplugin \
+leechcraft-azoth-standardstyles \
 leechcraft-securestorage \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Sql.so.5 \
-libQt5WebEngineCore.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Sql.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-db-qt5.so.0.6.75.1 \
-libleechcraft-util-gui-qt5.so.0.6.75.1 \
-libleechcraft-util-models-qt5.so.0.6.75.1 \
-libleechcraft-util-network-qt5.so.0.6.75.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-shortcuts-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-tags-qt5.so.0.6.75.1 \
-libleechcraft-util-threads-qt5.so.0.6.75 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-util-xsd-qt5.so.0.6.75 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-azoth-util-qt6.so.0.6.75 \
+libleechcraft-util-db-qt6.so.0.6.75 \
+libleechcraft-util-gui-qt6.so.0.6.75 \
+libleechcraft-util-models-qt6.so.0.6.75 \
+libleechcraft-util-network-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-shortcuts-qt6.so.0.6.75 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-tags-qt6.so.0.6.75 \
+libleechcraft-util-threads-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-util-xsd-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libm.so.6 \
-libqca-qt5.so.2 \
+libqca-qt6.so.2 \
 libstdc++.so.6"
 
 inherit rpm

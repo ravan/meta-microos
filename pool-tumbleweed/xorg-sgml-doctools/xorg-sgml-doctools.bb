@@ -4,10 +4,10 @@ sheets used in building/formatting the documentation provided in other \
 X.Org packages."
 LICENSE = "MIT"
 
-PV = "1.12"
+PV = "1.12.1"
 
-RPM_NAME = "xorg-sgml-doctools-1.12-1.6.noarch.rpm"
-RPM_HASH = "25e1a57b0859019a52ded74788592b81d89eb116fce9dfe008025f4ff396032852a37c41f7ce91c79a6aaacfec2e92b4dd797cac8e20d6877c47376430cdcc40"
+RPM_NAME = "xorg-sgml-doctools-1.12.1-1.7.noarch.rpm"
+RPM_HASH = "06062d79204d55768fb51c46fd743715e894fc3340bcf7dad4feaf9aa8e0ebe198f3c4c7c9c4a2ab500c0a1cfa5bacc057e862fdb3cd03ba97906ab5ba2b304e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-xorg-sgml-doctools \

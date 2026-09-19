@@ -2,13 +2,15 @@ SUMMARY = "MinGW Windows compiler for C++"
 DESCRIPTION = "MinGW Windows compiler for C++"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw64-gcc-c++-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "fbfe822f0e1afcc0120b4dacc92ea01a66754472aaaff558e8a87e8c185e3a684e053f882f3fdf04bffaa65dbdf54ce020157e1d805f2113a9d1e3e5692ec943"
+RPM_NAME = "mingw64-gcc-c++-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "ef879f6bd8f08562cda52fe03040f38652d8a7db12bc375a57c30155e6aa9766a5dce58bd32fb3f3984554092db01ff3c81c92e69fad8784df5bf962715a8128"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-gcc-c++ \
 mingw64-lib-stdc++ \
+mingw64-lib-stdc++exp \
 mingw64-lib-stdc++fs \
 mingw64-lib-supc++"
 

@@ -2,10 +2,10 @@ SUMMARY = "3D graphics toolkit"
 DESCRIPTION = "Utility library for converting data+materials to/from VulkanSceneGraph."
 LICENSE = "MIT"
 
-PV = "1.0.4"
+PV = "1.0.5"
 
-RPM_NAME = "vsgXchange-1.0.4-1.1.aarch64.rpm"
-RPM_HASH = "5fb2eecfb8837ff9ef5d3fa8b0d1f0bd5ed2e756b33c13c2705521900a437eef55d09e1178499a3b5e23726c28654b6b292937f9ec066ef75f02799f74dcc9d7"
+RPM_NAME = "vsgXchange-1.0.5-2.5.aarch64.rpm"
+RPM_HASH = "e0ba98bf36347d539113ae78a908aa7f6ff34dd861e004b56d7feea881ea929f4729189e81ec5b60bf6066a59eb4a13082d1dcee9cef45e41d855890d9a75d16"
 
 RPROVIDES:${PN} += "vsgXchange"
 

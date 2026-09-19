@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.1"
 
-RPM_NAME = "libstroke0-0.5.1-234.3.aarch64.rpm"
-RPM_HASH = "b06f4c38d5e55d55634ed30d27313d0cb26093c68e2217b56e5df3c89edc3f140e536837da08bcd36d5be99999ba5277e775e2c3477ca623d077e411519d95fb"
+RPM_NAME = "libstroke0-0.5.1-236.9.aarch64.rpm"
+RPM_HASH = "fdcb70a2e5cf205d663dc812bfbd397413c2534436ed81953cbdd5c4f6f4807474dea7d8374693ed0a49150f4621a908247fee42a86ceee6cc9d8a245a31d90d"
 
 RPROVIDES:${PN} += "libstroke \
 libstroke.so.0 \

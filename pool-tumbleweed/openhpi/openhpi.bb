@@ -14,8 +14,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0.ge4631e8a"
 
-RPM_NAME = "openhpi-3.8.0.ge4631e8a-3.5.aarch64.rpm"
-RPM_HASH = "ba5c220ab2d774183c76b3189fb9ae34c295f04da7d6a6c80b64f9bd87cb71c9c53620d12438fdaa5df5ebd045e0817f620eb643d9a7d02e2d0ca324f6f75878"
+RPM_NAME = "openhpi-3.8.0.ge4631e8a-3.20.aarch64.rpm"
+RPM_HASH = "dccfda36e0c3963115b3f24c3adb37191c613705fa8f026d563ad9b7ad543b7a38bc553524369b9f61eff1149d668379fe4e383ffadc522e6dadf62991faf31d"
 
 RPROVIDES:${PN} += "config-openhpi \
 libdyn-simulator.so.4 \
@@ -37,6 +37,6 @@ libgmodule-2.0.so.0 \
 libm.so.6 \
 libopenhpiutils.so.4 \
 libstdc++.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -8,10 +8,10 @@ This project also includes the popular tabix indexer, which indexes both .tbi an
 the bgzip compression utility."
 LICENSE = "MIT"
 
-PV = "1.16"
+PV = "1.21"
 
-RPM_NAME = "tabix-1.16-1.4.aarch64.rpm"
-RPM_HASH = "6795cc64bbd40eac1e9bc24c276d85ebfccbb91e110253efda08e32f784a9b2071a660f9945c9dd6e354d3211ea1682fa702d47f486d4174eae6d5b66d711214"
+RPM_NAME = "tabix-1.21-1.6.aarch64.rpm"
+RPM_HASH = "0bf9ff1c967c874b754bebcf25c78587f8ab1af21c64e9758d48bfe9eb3ba9a623044c83b6142f20be55971a2d04dd3c4c500a1ecf79740c68e7930036619f1d"
 
 RPROVIDES:${PN} += "tabix"
 
@@ -19,6 +19,7 @@ RDEPENDS:${PN} += "bgzip \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \
+libcrypto.so.3 \
 libcurl.so.4 \
 libhts3 \
 libhtscodecs.so.2 \

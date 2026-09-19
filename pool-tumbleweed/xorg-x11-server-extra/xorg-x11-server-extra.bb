@@ -2,10 +2,10 @@ SUMMARY = "Additional Xservers Xephyr, Xnest)"
 DESCRIPTION = "This package contains additional Xservers (Xephyr, Xnest)."
 LICENSE = "MIT"
 
-PV = "21.1.8"
+PV = "21.1.24"
 
-RPM_NAME = "xorg-x11-server-extra-21.1.8-1.3.aarch64.rpm"
-RPM_HASH = "e637ce0513750ca226d87145b18cb88619cfea6b71dbdb7db19604224aa9fbedde084e8564788605a2972d129b1c3683e6efb6fd06e16122ee7d05c7fee9982f"
+RPM_NAME = "xorg-x11-server-extra-21.1.24-1.2.aarch64.rpm"
+RPM_HASH = "12abd3a9aaf229573745789fb553ed7ff668b60a9aab33e1dc10addc39c9d8f41e2e00beab351cd68def9c58b2c2139bb28d5ec9be178d34892facec0c7c7954"
 
 RPROVIDES:${PN} += "xorg-x11-Xnest \
 xorg-x11-server-extra"

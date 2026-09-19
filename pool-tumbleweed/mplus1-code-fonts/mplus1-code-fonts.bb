@@ -4,10 +4,10 @@ full-width Japanese glyphs (shared with M PLUS 1) and half-width \
 alphanumeric glyphs (shared with M PLUS Code Latin 50 described below)."
 LICENSE = "OFL-1.1"
 
-PV = "20230116"
+PV = "20260325"
 
-RPM_NAME = "mplus1-code-fonts-20230116-1.1.noarch.rpm"
-RPM_HASH = "54c3c4a0414d0017076ba752accf8c905158d4d45dc6cfa951c243e1671c2919473b70921c82f3a48785019915d72441d1e270c5fa8a6342f82c5e826305934c"
+RPM_NAME = "mplus1-code-fonts-20260325-1.2.noarch.rpm"
+RPM_HASH = "c037c326914696ceb3ffbca3f21e9882d7c5594b920ac9579aceb54eebc39a1ff4641c3a289cbee0930f5b0740cc03d0cddd2e03b158714f6a4687a3bca02b69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mplus1-code-fonts"

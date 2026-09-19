@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the header files and development libraries 
 for rabbitmq-c."
 LICENSE = "MIT"
 
-PV = "0.13.0"
+PV = "0.17.0"
 
-RPM_NAME = "librabbitmq-devel-0.13.0-2.1.aarch64.rpm"
-RPM_HASH = "4b6b62facdff4bbdee9b9f00ee0c866506845b8c0e5f866bb206c8c3e15fef96ec0797dccc053f9476ca4eb132bbcb5d8246c4f543484a186952bbcf724b6e24"
+RPM_NAME = "librabbitmq-devel-0.17.0-1.1.aarch64.rpm"
+RPM_HASH = "2a570aa0958311af3a867a4442f7bdd6c308b45fba626367b405fdb1758c3fb84926fe32e7cc15ace3217d7794637c41e87b6c0ee924d3c7756fa77b344d1806"
 
 RPROVIDES:${PN} += "cmake-rabbitmq-c \
 librabbitmq-devel \

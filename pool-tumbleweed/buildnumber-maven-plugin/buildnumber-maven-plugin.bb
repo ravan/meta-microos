@@ -17,10 +17,10 @@ timestamp, or on a sequence, without requiring any interaction with an \
 SCM system. Note that currently, the only supported SCM is subversion."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "1.3"
+PV = "3.3.0"
 
-RPM_NAME = "buildnumber-maven-plugin-1.3-2.11.noarch.rpm"
-RPM_HASH = "a1ae9709a93e6967bd0b0b392a2c6ce7534365e43e5bfe4b47413fcef17a8f3f40b16550b398c616b6737e0e610831056a83ab0e2aae50f15c07a3f8bc68036c"
+RPM_NAME = "buildnumber-maven-plugin-3.3.0-1.2.noarch.rpm"
+RPM_HASH = "1c0a05f91bdf1980b44c62e73c768de1fcc638061e1d2305c84edcbbd5e7e991ca43eebadbc5d2613f2354966e143ed0898831a2b0bebc3afd471188a124dd6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "buildnumber-maven-plugin \
@@ -29,23 +29,15 @@ mvn-org.codehaus.mojo-buildnumber-maven-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-net.java.dev.jna-jna \
-mvn-org.apache.maven-maven-core \
-mvn-org.apache.maven-maven-plugin-api \
-mvn-org.apache.maven-maven-project \
-mvn-org.apache.maven-maven-settings-2.0.6 \
+mvn-com.google.code.gson-gson \
 mvn-org.apache.maven.scm-maven-scm-api \
 mvn-org.apache.maven.scm-maven-scm-manager-plexus \
-mvn-org.apache.maven.scm-maven-scm-provider-bazaar \
-mvn-org.apache.maven.scm-maven-scm-provider-clearcase \
-mvn-org.apache.maven.scm-maven-scm-provider-cvsexe \
 mvn-org.apache.maven.scm-maven-scm-provider-gitexe \
 mvn-org.apache.maven.scm-maven-scm-provider-hg \
-mvn-org.apache.maven.scm-maven-scm-provider-perforce \
-mvn-org.apache.maven.scm-maven-scm-provider-starteam \
 mvn-org.apache.maven.scm-maven-scm-provider-svn-commons \
 mvn-org.apache.maven.scm-maven-scm-provider-svnexe \
-mvn-org.codehaus.plexus-plexus-container-default \
-mvn-org.codehaus.plexus-plexus-utils"
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.codehaus.plexus-plexus-xml \
+mvn-org.sonatype.plexus-plexus-sec-dispatcher"
 
 inherit rpm

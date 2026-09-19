@@ -26,8 +26,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.8.7"
 
-RPM_NAME = "termsyn-bitmap-fonts-1.8.7-1.17.noarch.rpm"
-RPM_HASH = "4c91f2b07d409fac4325f029bc611809f41d8676165c90fa2390f461720b0c4fd12e7bfa6b0c89f93662b7baf1a277829b1069032321938d53a73c7abbc198c5"
+RPM_NAME = "termsyn-bitmap-fonts-1.8.7-1.25.noarch.rpm"
+RPM_HASH = "1f16d9f18cafb5ffb373c4ea1b10794f8578adf9b8990d6b062a94fb9e75043ae654891e8e717a5f349c2b6ef9a8d8476ade2b7cd17b0bcf57827fd4aa8695bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "termsyn-bitmap-fonts \

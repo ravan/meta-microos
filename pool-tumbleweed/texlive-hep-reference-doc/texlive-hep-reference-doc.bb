@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hep-reference"
 DESCRIPTION = "This package includes the documentation for texlive-hep-reference"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64853"
+PV = "2026.226.1.4svn76220"
 
-RPM_NAME = "texlive-hep-reference-doc-2023.209.1.1svn64853-54.2.noarch.rpm"
-RPM_HASH = "577e4b793c9e5fbc8f5196d71e039c65380c3028eeb94fbac229b777935cc2051c7ff5706dd0b480f31d6ae0b6093dda67c1b810b603e8b739ec648b573a0c35"
+RPM_NAME = "texlive-hep-reference-doc-2026.226.1.4svn76220-60.4.noarch.rpm"
+RPM_HASH = "3d83ccfdb3a910ccd98b1effd26e6b9f1743a5e1860e62f5d6223384cf97a0a661d5f6e0babb148c43f3805fe9a90484999add7a4d83c77f821e0fb71d9684b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hep-reference-doc"

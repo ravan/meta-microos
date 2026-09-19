@@ -13,10 +13,10 @@ quite functional, but the syntax of the commands is still \
 potentially in flux."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.91svn15878"
+PV = "2026.226.0.0.91svn15878"
 
-RPM_NAME = "texlive-metaplot-2023.209.0.0.91svn15878-55.1.noarch.rpm"
-RPM_HASH = "19d716c58347f3f82434caf1b30ebca4baf743dfab387a78ce226176ee999b68a79160e1668d13545afd0286bed015d929b03d4228f853a31189183973ead0b4"
+RPM_NAME = "texlive-metaplot-2026.226.0.0.91svn15878-61.2.noarch.rpm"
+RPM_HASH = "426047339e32549114d7b18fb94b2a92582448d7b30850fbcc3bb7f9f2c8d47bf8db2f0c25e1b06dc0a28d0cec93424458a7d5bc9a93d35b7126b44123ed3a3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metaplot"

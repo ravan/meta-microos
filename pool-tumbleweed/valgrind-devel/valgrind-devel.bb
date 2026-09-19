@@ -2,10 +2,10 @@ SUMMARY = "Header files for for Valgrind"
 DESCRIPTION = "This package contains the Valgrind header files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.21.0"
+PV = "3.27.1"
 
-RPM_NAME = "valgrind-devel-3.21.0-2.1.aarch64.rpm"
-RPM_HASH = "71d6fb36ba19fc8328565d048d1f90161d57d812d78432bb498f87c1273e7639f432c0c52960c716ed565d5e6b2edcc1b76bfa942393e5b4f2b494f313b43358"
+RPM_NAME = "valgrind-devel-3.27.1-1.4.aarch64.rpm"
+RPM_HASH = "f3f1a65d3433dc54df8fa0195603356aea96c7b5d4b21a27e01059cf6613e24d12a6dc49a44c0bf416519916cfc77ac478267c43daad33b8d176a435fc15a1dd"
 
 RPROVIDES:${PN} += "pkgconfig-valgrind \
 valgrind-devel"

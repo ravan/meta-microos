@@ -3,10 +3,10 @@ DESCRIPTION = "Can handle almost all of HTML2, and most of the math fragment \
 of the draft HTML3."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn17134"
+PV = "2026.226.svn17134"
 
-RPM_NAME = "texlive-typehtml-2023.209.svn17134-53.1.noarch.rpm"
-RPM_HASH = "8a52b36f8f8d54c8b6638e6416baeb064defd7201a2b8f2147b88bc7acb9969836a902004d283ec83431114eee9df90958d9b1e20787683c8cde5d79d6daf3e9"
+RPM_NAME = "texlive-typehtml-2026.226.svn17134-59.2.noarch.rpm"
+RPM_HASH = "a6f6156769fd6d9c6e94f116f16acab16683e109fc57fe4bda9740bb196955e8ac5d3a2bff3113c8915583310161145bcb01409946ec8ad886312b028a15e002"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-typehtml.sty \

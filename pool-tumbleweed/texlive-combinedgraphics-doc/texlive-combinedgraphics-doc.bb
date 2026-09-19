@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-combinedgraphics"
 DESCRIPTION = "This package includes the documentation for texlive-combinedgraphics"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.2.2svn27198"
+PV = "2026.226.0.0.2.2svn27198"
 
-RPM_NAME = "texlive-combinedgraphics-doc-2023.209.0.0.2.2svn27198-54.1.noarch.rpm"
-RPM_HASH = "034367274f0e35e0512ca023acc4324524996ced0cca9fd6c1a48e5015eb0265e342ec88f5dcf1e4cd7aee3e7d45f525cdf267f40c08271d1a9bb4ac828ad657"
+RPM_NAME = "texlive-combinedgraphics-doc-2026.226.0.0.2.2svn27198-60.2.noarch.rpm"
+RPM_HASH = "c1b1e6b13d83514033a830d6cf74f542cd668591af4050e4a6e2d9af49e5ad757100d7bdb3cbdab391a1c680bbc3565e4d2b09c2194aa6bc34db435726918e4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-combinedgraphics-doc"

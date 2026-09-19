@@ -7,24 +7,13 @@ Included are several helper tools: tdtd, xxml, psgml-xpointer. \
  \
 For more info see README.openSUSE. \
  \
-Compiled for GNU Emacs (XEmacs has its own version!). \
- \
- \
- \
-Authors: \
--------- \
-    James Clark <jjc@clark.com> \
-    Lennart Staflin <lenst@lysator.liu.se> \
-    David Megginson <dmeggins@sprynet.com> \
-    Matthias Clasen <mclasen@sun2.mathematik.uni-freiburg.de> \
-    François Pinard <pinard@iro.umontreal.ca> \
-    etc."
+Compiled for GNU Emacs (XEmacs has its own version!)."
 LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain"
 
 PV = "1.4.1"
 
-RPM_NAME = "psgml-1.4.1-5.12.noarch.rpm"
-RPM_HASH = "d79ce23870efdb98fa2c18c36c6fbc2101c25c982d82b82860d7ea38ea4ba0bcb1d90309cde3743c7f2471f49a4f2b87f0aa7150f803fae63de611fc80183d68"
+RPM_NAME = "psgml-1.4.1-7.8.noarch.rpm"
+RPM_HASH = "c7b73148e0b0e6ae5e0c6d69b0063fc2461d11894050ac9ceef003ad306a4df6fbe5c757d8a909509e9b8618c5ea4fc406dc248420e9ab433f1dda0b747c13c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "psgml"

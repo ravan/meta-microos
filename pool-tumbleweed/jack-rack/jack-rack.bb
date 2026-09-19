@@ -2,12 +2,12 @@ SUMMARY = "LADSPA Effects Rack for JACK"
 DESCRIPTION = "JACK Rack is a stereo LADSPA effects rack for the JACK audio API.  You \
 can insert LADSPA effects through JACK Rack. It uses GTK+ 2 for the \
 GUI."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.7"
+PV = "1.5.0"
 
-RPM_NAME = "jack-rack-1.4.7-142.2.aarch64.rpm"
-RPM_HASH = "ec4e5b959b472b84ccbdefee5ca2b4f0a936697dd96409c2faa7a18c738dac0a16a8ca26b63da6386abe63a13f2c3b0a632729b1c9bce9543017af238656e51f"
+RPM_NAME = "jack-rack-1.5.0-1.8.aarch64.rpm"
+RPM_HASH = "c9a803ae496addc7488d97ba8525f1103217088f7e743b24f617df6703c1c60ff8e4c13ffc1992976a25918fec5cda1fd054d5d9dc60e65912af2dfc6a08d8a2"
 
 RPROVIDES:${PN} += "jack-rack"
 
@@ -25,6 +25,7 @@ libgobject-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 libjack.so.0 \
 libm.so.6 \
-libxml2.so.2"
+libxml2.so.16 \
+libz.so.1"
 
 inherit rpm

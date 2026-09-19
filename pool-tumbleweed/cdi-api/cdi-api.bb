@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.2"
 
-RPM_NAME = "cdi-api-2.0.2-2.4.noarch.rpm"
-RPM_HASH = "76b84354baa636acf9b106ea5f2c96e6e90dc00bb2c9a8b8be85a8616f62d98b6ae3593f1da84b93918a7e8744b4a410dca9e370180a9249751fb9cea5a35ab5"
+RPM_NAME = "cdi-api-2.0.2-5.10.noarch.rpm"
+RPM_HASH = "7aba6f91b8de3e6d14993e2623e9159f141aa7db432c69cc28e5f48597401b4f9a194d204c0041e763ba8e7d3a388e7aa17eb21cce896c34142766cb74f6d631"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cdi-api \
@@ -17,7 +17,6 @@ osgi-jakarta.enterprise.cdi-api"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-jakarta.inject-jakarta.inject-api \
 mvn-javax.inject-javax.inject \
 mvn-org.jboss.spec.javax.interceptor-jboss-interceptors-api-1.2-spec"
 

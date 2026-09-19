@@ -6,12 +6,12 @@ and is designed to be portable. \
  \
 This package contains a GTK+ 2 module that triggers input feedback \
 event sounds."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.30"
+PV = "0.30+2"
 
-RPM_NAME = "libcanberra-gtk2-module-0.30-15.23.aarch64.rpm"
-RPM_HASH = "9242cd42f2708fc78f1165b3986bcddc86214ba5a4cda45902eb6b1b4b1e5c60cad8a89c32ff2ccb57fb7434116ccf9a929c37afc2438a767136aba699d39e09"
+RPM_NAME = "libcanberra-gtk2-module-0.30+2-3.6.aarch64.rpm"
+RPM_HASH = "3ee40d1f53b8953fddfa16d5121434ce7617c117c017f2171ca0f3e737c5141c0a36163d1fea5e4488ff5c74755a7530eeadc7d32a02cd8f77d219c501a9bc52"
 
 RPROVIDES:${PN} += "libcanberra-gtk-module.so \
 libcanberra-gtk2-module"

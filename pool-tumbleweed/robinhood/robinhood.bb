@@ -12,10 +12,10 @@ Lustre filesystems (list/purge files per OST or pool, read MDT \
 changelogs...)"
 LICENSE = "CECILL-C"
 
-PV = "3.1.7"
+PV = "3.2.0"
 
-RPM_NAME = "robinhood-3.1.7-2.2.aarch64.rpm"
-RPM_HASH = "9c3e19dfdb2259ea1e5d759c87cfded10c7a8677223c31f07d1ef86bd2cbcddfc95bfcf9ab5596a096ee2430a749064a9b3358aafc47b3fde756cf3ec450a048"
+RPM_NAME = "robinhood-3.2.0-2.3.aarch64.rpm"
+RPM_HASH = "a320d940740d7764dc01601a1a758d979d212f84c8ff6bc7cd83c0ec11b37aa535b9c4049a92f81904c7a24fa825e090c9cb8ff56da27eaeb19faa9e305a973e"
 
 RPROVIDES:${PN} += "librbh-mod-alerter.so \
 librbh-mod-basic.so \

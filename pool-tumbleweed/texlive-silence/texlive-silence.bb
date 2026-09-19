@@ -8,10 +8,10 @@ with...'). Messages may be saved to an external file for later \
 reference."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5bsvn27028"
+PV = "2026.226.1.5bsvn77682"
 
-RPM_NAME = "texlive-silence-2023.209.1.5bsvn27028-54.1.noarch.rpm"
-RPM_HASH = "7fd96fb657627fd52b30db004d7e77cd17ca22034a3c726241a1e56513a673b657b1d46d556619abce8e54c381676746729d39b5a63085e639f99f476d365374"
+RPM_NAME = "texlive-silence-2026.226.1.5bsvn77682-60.2.noarch.rpm"
+RPM_HASH = "a9ceba30acf80ec2a468978c0246aeff28a3d5e77eb50259c2283120481625b4080366c365babfd9e47f87a32bd2dcc9bfb826c0a14958b713b3b40be46e0232"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-silence.sty \

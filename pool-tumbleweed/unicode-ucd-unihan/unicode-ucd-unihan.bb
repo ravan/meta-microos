@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains Unihan.zip which contains the data files fo
 Han database of Hanzi/Kanji/Hanja Chinese characters."
 LICENSE = "Unicode-TOU"
 
-PV = "15.0.0"
+PV = "17.0.0"
 
-RPM_NAME = "unicode-ucd-unihan-15.0.0-1.2.noarch.rpm"
-RPM_HASH = "3f2ad6354abb6a8a07be2aea49aed788fda900014445876388076bcfde6b571c56fd6d257677be5928550c87ab49fdbda18ae3c3375d6a7109c49967c9ed8281"
+RPM_NAME = "unicode-ucd-unihan-17.0.0-1.3.noarch.rpm"
+RPM_HASH = "bc06e72360c0202565eae6f653f534d41346f5bd6a5fd911a14cebd7c01989ddff091eb83afb967f57cf0126731cbd2019bc7ab62a1f0dc471848b6eb3a4534a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "unicode-ucd-unihan"

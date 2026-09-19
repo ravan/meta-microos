@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-grffile"
 DESCRIPTION = "This package includes the documentation for texlive-grffile"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn52756"
+PV = "2026.226.2.1svn78101"
 
-RPM_NAME = "texlive-grffile-doc-2023.209.2.1svn52756-54.2.noarch.rpm"
-RPM_HASH = "adebed8039e1cbc23dcb5d436061c584baea8bdffc7505eb44b654e7b3aa43550bfaeb09789af9ad4160860b972fd0b37997ac9554e1e3e09f9d50e461343621"
+RPM_NAME = "texlive-grffile-doc-2026.226.2.1svn78101-60.4.noarch.rpm"
+RPM_HASH = "7a642cf5a4702484bdaf56caf81e0602ba1e3668a21d3ca633d875921baa0730f3704a184dc2a9b4f7ba2a02e65aff7314c79adabc2448b931edde55d0314a65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grffile-doc"

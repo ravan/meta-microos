@@ -2,10 +2,10 @@ SUMMARY = "Translations for package aisleriot"
 DESCRIPTION = "Provides translations for the 'aisleriot' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.22.29"
+PV = "3.22.35"
 
-RPM_NAME = "aisleriot-lang-3.22.29-1.2.noarch.rpm"
-RPM_HASH = "86ed59d26312e8239224abf4c9258ae42fdfe981cf035d3015f6b983a4599eeae01ffb0f141b3ee8b0f1686315f72214f999026d500212ef13fc2340faae5bbb"
+RPM_NAME = "aisleriot-lang-3.22.35-3.4.noarch.rpm"
+RPM_HASH = "6b69a7c7540b96162e6f87cd78229331564192d7bd67e371d8ac760d5f3bd031aec4506e82dc34bb6cb2ea47c8eea99db5f953464d1498a7ae0aef126022bf51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aisleriot-lang \

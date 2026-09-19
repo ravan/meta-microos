@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-newtx"
 DESCRIPTION = "This package includes the documentation for texlive-newtx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.71svn62369"
+PV = "2026.226.1.756svn78101"
 
-RPM_NAME = "texlive-newtx-doc-2023.209.1.71svn62369-55.1.noarch.rpm"
-RPM_HASH = "f44d1b9d475cb452d7d29d789910d289a1de981609bd1869b977c85ff288d961d6f659186e3720d4999f815a9cf87c2df969f3366ae8db50adc4b4929a1f661b"
+RPM_NAME = "texlive-newtx-doc-2026.226.1.756svn78101-61.2.noarch.rpm"
+RPM_HASH = "c8671bf9861b81bdd66545ea2d0e288be4d5809555ee3e69f844abfe115a5e60952e9f133816f097edbc63e4ffaa26267fc33e34f384a638be024cef3a93c5ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newtx-doc"

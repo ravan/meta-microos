@@ -1,14 +1,21 @@
 SUMMARY = "System user and group gromox"
-DESCRIPTION = "This package provides the gromox account."
+DESCRIPTION = "This package provides: \
+* the 'gromox' user identity for running Gromox services as \
+* the 'gromox' group identity for marking data to be consumed by Gromox \
+  services but possibly created by AAPI, e.g. mailbox contents \
+* the 'gromoxcf' group identity for marking (possibly sensitive) \
+  configuration, to be consumed by Gromox services and select \
+  services (like saslauthd/keycloak dlopening pam_gromox.so)"
 LICENSE = "MIT"
 
-PV = "2"
+PV = "9"
 
-RPM_NAME = "system-user-gromox-2-1.2.noarch.rpm"
-RPM_HASH = "f46211c29d0e9222768b961dcaec9bb708ad58906a2482a60b9cd800ad40b426a58914499b83cce8a722e635df8c752e54d8e595992ff6738a10248e88fff3c8"
+RPM_NAME = "system-user-gromox-9-1.7.noarch.rpm"
+RPM_HASH = "335383018f98da1483080932b9c434219440e5afe6123e94c4c65eedf40ebcc84a0ba8976023f3d00c74fe4591d4070c9a449cd184f23ebfc51339126756c708"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-gromox \
+group-gromoxcf \
 system-user-gromox \
 user-gromox"
 

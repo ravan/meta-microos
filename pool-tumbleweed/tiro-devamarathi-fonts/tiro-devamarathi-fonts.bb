@@ -7,8 +7,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.52"
 
-RPM_NAME = "tiro-devamarathi-fonts-1.52-1.2.noarch.rpm"
-RPM_HASH = "22a9e4ff6708d5b7e9dd9a64a3cae500e3f2255394e90f8ace316400b76fbf501d00d8d5e1f015493b3d670fdc26c9e9e2303beb364b821118c9fea6ac70ee52"
+RPM_NAME = "tiro-devamarathi-fonts-1.52-2.7.noarch.rpm"
+RPM_HASH = "1124b8048988537c3cd960ebc9236192c7b96ddf8f6443ab13215ecf3c36a1bab193f30bfe632f55d4d356dff698e9d1fb3bc0904c5638696ac43dc06ba575b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiro-devamarathi-fonts"

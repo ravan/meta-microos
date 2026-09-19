@@ -11,8 +11,8 @@ LICENSE = "ISC"
 
 PV = "2.1.3"
 
-RPM_NAME = "libmowgli-2-0-2.1.3-2.13.aarch64.rpm"
-RPM_HASH = "5d3fba137e50c307930b618c1498427d4cb0894484b3b5c0a8df2b4189c5db67e68ae1d761ca48a469b64ab6e3cdbb5b490bbaf11002fc788cd93b265a096fce"
+RPM_NAME = "libmowgli-2-0-2.1.3-2.23.aarch64.rpm"
+RPM_HASH = "44dda904321f1a61b71d853a3c799c1ba607b30c2c91d91bbcde1ec19cfbcb82a8ed881ce56a6a84c27828450443fcb1385e74b56e296667219c974a24467ad6"
 
 RPROVIDES:${PN} += "libmowgli-2-0 \
 libmowgli-2.so.0"

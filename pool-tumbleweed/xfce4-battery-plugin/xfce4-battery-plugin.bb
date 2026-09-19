@@ -3,10 +3,10 @@ DESCRIPTION = "The Battery plugin allows to monitor battery levels and can execu
 low and critical levels."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.5"
+PV = "1.2.0"
 
-RPM_NAME = "xfce4-battery-plugin-1.1.5-1.1.aarch64.rpm"
-RPM_HASH = "d3aa231ff869ab006c47196fbf9f28e2fba561839aa81daef47f41c2677dcda04db32256d1f8533e2ec3d5258626c8491274e2a4ea64e8a5537468998fdee327"
+RPM_NAME = "xfce4-battery-plugin-1.2.0-1.4.aarch64.rpm"
+RPM_HASH = "c168a1c7a9546fc297c9d50410ad259b10dccd6831f505f40b9b961aba8067fb9be13b7a87519b53ac4b925d5122eb6aa5e35d0726d547c9810f01a09e195a92"
 
 RPROVIDES:${PN} += "libbattery.so \
 xfce4-battery-plugin \

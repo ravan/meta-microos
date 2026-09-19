@@ -4,10 +4,10 @@ in kdenlive and shotcut. plugins facebl0r and facedetect. \
 See boo#1068792"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.0"
+PV = "3.5.0"
 
-RPM_NAME = "frei0r-plugins-opencv-1.8.0-2.5.aarch64.rpm"
-RPM_HASH = "357a166da8eeebd958076b339593e4298834d228c30f42579b25d0a268c766c70ecd85c49bbac78c72bf667322e38a3efc45de326534863f23d8a3ca51ebb940"
+RPM_NAME = "frei0r-plugins-opencv-3.5.0-1.1.aarch64.rpm"
+RPM_HASH = "f712f9b4b8394b78ce4111fdab5e06ca652f3eeacb126ffe01fc70c269848f62fa8cf96ce8ae0816f1788f82105808ee11517d2e9f03d731d20301e42b92cbc7"
 
 RPROVIDES:${PN} += "frei0r-plugins-opencv"
 
@@ -16,10 +16,10 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libopencv-core.so.407 \
-libopencv-imgproc.so.407 \
-libopencv-objdetect.so.407 \
-libopencv-video.so.407 \
+libopencv-core.so.413 \
+libopencv-imgproc.so.413 \
+libopencv-objdetect.so.413 \
+libopencv-video.so.413 \
 libstdc++.so.6"
 
 inherit rpm

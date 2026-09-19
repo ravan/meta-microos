@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-newcastle-bst"
 DESCRIPTION = "This package includes the documentation for texlive-newcastle-bst"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn62856"
+PV = "2026.226.1.1svn76790"
 
-RPM_NAME = "texlive-newcastle-bst-doc-2023.209.1.1svn62856-55.1.noarch.rpm"
-RPM_HASH = "ace34a8fe40851c46bf1805869189d162b5d38b6df210b2d901c727a4905e11e1d002301463462ad7b69e568cb5f60a14f39fafa0aed6c50bf34dac775677a69"
+RPM_NAME = "texlive-newcastle-bst-doc-2026.226.1.1svn76790-61.2.noarch.rpm"
+RPM_HASH = "4c45ed1e1886f5a5498584cec8ce9a1923fd9d3f460bc13d08681f2bdf8944cb15db7bb9ee54edc9b10f99d5453b84a2487ae60bbd4b98a4ca0d90611f914824"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newcastle-bst-doc"

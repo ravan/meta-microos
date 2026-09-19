@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.1+git.20211015"
 
-RPM_NAME = "wondershaper-1.4.1+git.20211015-1.5.noarch.rpm"
-RPM_HASH = "0ace717f4dec8a7b1c90e599ab0ea622dfb5a0a775534edb4768c863e543b3d9a47f5fa96261c2a47f2c5e62f27e00756d81ee88e322639721871d3a46a27edd"
+RPM_NAME = "wondershaper-1.4.1+git.20211015-1.13.noarch.rpm"
+RPM_HASH = "ec317123d741bf0c3c6062b7c7ed84101787ec9a0b9e214c5ae4f6ec79ed05f07b467625a3d0478b375306996f09832622a7312c15072db4271b5d8df13898aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-wondershaper \

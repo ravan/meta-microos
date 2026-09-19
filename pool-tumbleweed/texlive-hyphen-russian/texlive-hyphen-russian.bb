@@ -8,10 +8,10 @@ the one used for 8-bit patterns may be implemented in the \
 future."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58609"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-russian-2023.209.svn58609-54.1.noarch.rpm"
-RPM_HASH = "fcd2b3b5fabc022d0f89516737fd46f496e501eea8007fbe108ccf502d6b5a296000ff57b1604c9dc386c1b433c82b08f607b3db549159a45cd8f81b064b6eac"
+RPM_NAME = "texlive-hyphen-russian-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "41eb506dc8e2416fa578280fdbb4731770277453b47c9a61e00cc821077d548f57e000db831d127cde28dec5dbcb9b5a4fd7351a8d664f6e21a89bd254846005"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-ru.t2a.tex \

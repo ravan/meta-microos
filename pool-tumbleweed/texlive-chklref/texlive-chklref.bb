@@ -6,10 +6,10 @@ mathematical environments with no labels and advises the user \
 to use a starred version instead."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.1.2svn52649"
+PV = "2026.226.3.1.2svn52649"
 
-RPM_NAME = "texlive-chklref-2023.209.3.1.2svn52649-54.1.noarch.rpm"
-RPM_HASH = "e4ffa3f24c1dde527525dea21dac0e1a571caec3c2ad789de1972bcc5a8a24533283ac9d35926fb69a32593d5de209a90d14cb9cde6ba95df887be01520a0dcd"
+RPM_NAME = "texlive-chklref-2026.226.3.1.2svn52649-60.2.noarch.rpm"
+RPM_HASH = "e4c6a73e273f6b8b05d86609928a600cdbedc1018c09318186f8c1f3c884beef5dfab9078fbc5c580c6b6f26e08cbdc3c36c64392355876289b8efe628b87643"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chklref.sty \

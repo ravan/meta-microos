@@ -5,10 +5,10 @@ of the proceedings of symposia sponsored by the 'International \
 Association of Geodesy (IAG)' published by Springer-Verlag."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn63242"
+PV = "2026.226.svn70888"
 
-RPM_NAME = "texlive-prociagssymp-2023.209.svn63242-53.1.noarch.rpm"
-RPM_HASH = "8007a551cce7b2318745331b566bc63a5c69b6749cd21f90e546c815773bd1e134f985c9e77e4430d2ad467c997d2b2c671aba2ae9fb3104ebc27c40645e7fb2"
+RPM_NAME = "texlive-prociagssymp-2026.226.svn70888-59.2.noarch.rpm"
+RPM_HASH = "1cb4264600c1167b4a4abf05ac19d1e8f992b825bc8f6c2b6e34f539588c404023e1c4dd90e9bde44295eff2f4eeec4550fa082e25798e4de59f6d44c1c7222e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-procIAGssymp.sty \

@@ -5,16 +5,16 @@ realtime audio input/output across different operating systems. \
 This subpackage contains the headers for rtaudio."
 LICENSE = "MIT"
 
-PV = "5.1.0"
+PV = "6.0.1"
 
-RPM_NAME = "rtaudio-devel-5.1.0-1.16.aarch64.rpm"
-RPM_HASH = "4061cf652de922cd5dfac9c5b0f65f03f18989b9b31645dc543087327bf9e57a2243aea70269e3288ef78226d8786dec9920a1714eeeb7b02278e260b1e19ddb"
+RPM_NAME = "rtaudio-devel-6.0.1-1.11.aarch64.rpm"
+RPM_HASH = "f4288f38049f48e9192437f7415ad7d052c14192eacb856350c6070576ff2f7806aa3fbc17ca6267fc4da101dc03d863074bad2bbe641b0d9517058a1b155414"
 
 RPROVIDES:${PN} += "pkgconfig-rtaudio \
 rtaudio-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-librtaudio6 \
+librtaudio7 \
 pkgconfig-alsa \
 pkgconfig-jack \
 pkgconfig-libpulse-simple"

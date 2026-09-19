@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn47034"
+PV = "2026.226.1.1svn47034"
 
-RPM_NAME = "texlive-datetime2-danish-2023.209.1.1svn47034-53.1.noarch.rpm"
-RPM_HASH = "211704ec9bdcee094118f4b0e77e67f41b4bd1b48ece960f4a52a56a8e2ec3dbdbadae8d8fea80f4fa475affad89dbde7122065940a973280fb928c18ca767a6"
+RPM_NAME = "texlive-datetime2-danish-2026.226.1.1svn47034-59.2.noarch.rpm"
+RPM_HASH = "65525ae0b0ffc322057019fded0b21cc21a9e3e008b7f7d276660806000266f9159468d370908955194f9c55296e8e5e9b8229ed38ed5740cc4ee11ed1ee3977"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-danish-ascii.ldf \

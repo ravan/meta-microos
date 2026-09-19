@@ -11,10 +11,10 @@ marginpars 'just work' by keeping a list of floating inserts \
 and arranging them intelligently in the output routine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2svn55064"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-marginfix-2023.208.1.2svn55064-53.1.noarch.rpm"
-RPM_HASH = "62c461847a7cbfba26f47f8ee1e55fd288e54268eebbe959a10cb7a751c69517b5e0289b3858f1c7bf23449990d4acea6842288ef8179caafde7bf5235103e19"
+RPM_NAME = "texlive-marginfix-2026.226.1.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "8c545713f28654fff019feb44738742c22ec75a7b7a7b29be794f2c6c745682b896e908c9da6a1c5ae0140e9af30c325c3ce908e464e70d5415a557f620a8187"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-marginfix.sty \

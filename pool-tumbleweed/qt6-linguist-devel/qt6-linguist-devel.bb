@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 linguist tools - Development files"
 DESCRIPTION = "Development files for the Qt 6 linguist tools."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
+LICENSE = "(GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-linguist-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "2e7263d9d829919a9d5f074ebe943e184a1c8ef2d4467ef4867f60fbebc357d07d28c3539ead93865957803f77c427fd493c8fefb03a10ea59c644c922dc4796"
+RPM_NAME = "qt6-linguist-devel-6.11.2-2.3.aarch64.rpm"
+RPM_HASH = "c760468ca49083f8010c5ba511e1ab24b521fdec25c84479e9eed0589c7832e7470dd8da15cdbdfb80b208872e3cdef8be009d60f3c4179311dc3bacfb9f6b0f"
 
 RPROVIDES:${PN} += "cmake-Qt6Linguist \
 cmake-Qt6LinguistTools \

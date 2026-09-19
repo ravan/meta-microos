@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "20190513"
 
-RPM_NAME = "system-user-root-20190513-2.14.noarch.rpm"
-RPM_HASH = "177b41e7217d0adda44e08cb0d9311ccb9f931e674cfcfdaa958ea5d7310a1e25f400baeb84718cb99fcccdbe4e5b6fc4d45afcd2cf2ae6ee49133513445eaa1"
+RPM_NAME = "system-user-root-20190513-2.23.noarch.rpm"
+RPM_HASH = "466ac74959927d8f3003eed7c1135d36c13be79959a320da8bfee84522f0d062e1b4bc5a5ee82cface8f6c6683c8341adbe4e1485abaea33454806e61281749c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-root \

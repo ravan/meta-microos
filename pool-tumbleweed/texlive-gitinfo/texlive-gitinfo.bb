@@ -7,10 +7,10 @@ on the archive, pro tem, for continuity for existing users. All \
 new repositories should use gitinfo2."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn34049"
+PV = "2026.226.1.0svn34049"
 
-RPM_NAME = "texlive-gitinfo-2023.209.1.0svn34049-54.2.noarch.rpm"
-RPM_HASH = "29f38224e1d37acb726407bfa0109e5b231c2a7ba91fa4db22ac602fc81d14b71741840474c3dfe2fdc09959f4e8a5fdb23a63b686a9d3240f0a109d7e3a4e57"
+RPM_NAME = "texlive-gitinfo-2026.226.1.0svn34049-60.4.noarch.rpm"
+RPM_HASH = "4682db229cbd8ab55317d1cd88a813b8651e47cf5a1c4383e4211a42615e8dbb09ef473aa27c2db7b5f7651f833129526e92b701783826684f72262ea9a1ab4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gitinfo.sty \

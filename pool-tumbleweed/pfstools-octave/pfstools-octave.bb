@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "pfstools-octave-2.2.0-3.16.aarch64.rpm"
-RPM_HASH = "44f144d1451ed8735fd898e7cd12f2138e5b39e965ae82005c153f49fcc8d16e4bc290d9fcbf45da139da6ace118f7eb542580e7a211849b918b0852c81d0862"
+RPM_NAME = "pfstools-octave-2.2.0-5.10.aarch64.rpm"
+RPM_HASH = "1a1bee82c73704bfe28c3b53e3839894782e109c2ce97c316755ddbdbbba021d6a26aa0b09e01b21c9a407e05320390488767d5f9de5aaea71d3169df372f55d"
 
 RPROVIDES:${PN} += "pfstools-octave"
 

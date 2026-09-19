@@ -3,26 +3,33 @@ DESCRIPTION = "VNote is a note-taking application, designed especially for Markd
 VNote provides both note management and Markdown edit experience."
 LICENSE = "LGPL-3.0-only"
 
-PV = "3.10.1"
+PV = "3.20.1"
 
-RPM_NAME = "vnote-3.10.1-1.9.aarch64.rpm"
-RPM_HASH = "f43f099e906207ccbbf85067c1399e031a55e3c0a0d5aac37cfa70e3a166e9603a9f371e5700a789625af6ef156f6ebc38db44a930bfbc8eac150c1ae0131d80"
+RPM_NAME = "vnote-3.20.1-1.1.aarch64.rpm"
+RPM_HASH = "bfe233b4ab79b09e45cec6493cf34369450c8a3f1f48be08c9e41cc48a7c5958d3d4832e7cf3071eda787553298875bee5525e1e34c44c2823842e8693d20617"
 
-RPROVIDES:${PN} += "vnote"
+RPROVIDES:${PN} += "bundled-vtextedit \
+libVTextEdit.so \
+vnote"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Sql.so.5 \
-libQt5Svg.so.5 \
-libQt5WebChannel.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libVTextEdit.so.1 \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Sql.so.6 \
+libQt6Svg.so.6 \
+libQt6WebChannel.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
+libX11.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libstdc++.so.6"
+libm.so.6 \
+libstdc++.so.6 \
+qt6-sql-sqlite"
 
 inherit rpm

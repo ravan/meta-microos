@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package gexif"
 DESCRIPTION = "Provides translations for the 'gexif' package."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.5"
 
-RPM_NAME = "gexif-lang-0.5-204.31.noarch.rpm"
-RPM_HASH = "58002562e0f3b2a301cc83b8c77bc9b130a070433b0cb6b6978f3a65bf60a079f8c1c40900435328408b016f9c15eccbe71910dd8a532dacc1540881de023c20"
+RPM_NAME = "gexif-lang-0.5-208.7.noarch.rpm"
+RPM_HASH = "a39a419693d41ba227cc2c4d1ca0ccd9d9f7dddd04abd8a05f844a67fae7157bf27614f5391b331182771517a8007e33ffead324ea6401fba15d0a0401d3ee72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gexif-lang \

@@ -3,10 +3,10 @@ DESCRIPTION = "dropwatch is an interactive utility for monitoring and recording 
 are dropped by the kernel"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.5.4"
+PV = "1.5.5"
 
-RPM_NAME = "dropwatch-1.5.4-1.5.aarch64.rpm"
-RPM_HASH = "31bd6da377891a504a0cd2cb1f761f06b255851dfe1376726019e84d11ee850e7010df36ce18efaa7ce4838878f79269f9bc6bd77c67e9074405e56b5b52d072"
+RPM_NAME = "dropwatch-1.5.5-1.6.aarch64.rpm"
+RPM_HASH = "a636eb8376a61148d8d1ec9f351922c1af7a22255752ba396d555f12f875b0fb5305dcdaa0b0913cd936952540d508ec9aaa11775360bb852981a0cee7367f75"
 
 RPROVIDES:${PN} += "dropwatch"
 
@@ -15,6 +15,9 @@ libc.so.6 \
 libnl-3.so.200 \
 libnl-genl-3.so.200 \
 libpcap.so.1 \
-libreadline.so.8"
+libreadline.so.8 \
+libsframe.so.2 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

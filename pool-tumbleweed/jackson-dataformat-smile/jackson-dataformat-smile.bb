@@ -6,10 +6,10 @@ all the higher level data abstractions (data binding, tree model, and \
 pluggable extensions)."
 LICENSE = "Apache-2.0 & BSD-3-Clause"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-dataformat-smile-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "3dd86389a722730bcfbd9f801f46a3b92a04c19f325827a6ba9e994293b2d14abdece23051dcaf6d35f167283cc4800ac25195ef820c416a06cedd08c6b697e5"
+RPM_NAME = "jackson-dataformat-smile-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "47cbf218b111d430118eda502f61e86551654867204868b01cc6733ff6c2f9fb807dfb0fd189535f43e4cc9a168e577b53f1140b62b285804a2396f9b4b46576"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-smile \

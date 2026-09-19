@@ -1,11 +1,11 @@
 SUMMARY = "Examples for the qt6-websockets modules"
 DESCRIPTION = "Examples for the qt6-websockets modules."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-websockets-examples-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "362655bff9df6063929c437db76d2fb9374a2d055902e859472d7a143ff3801ddab7860f9039c25c1f545d1c80c4dce24e7a62bd718bd6d83e7aaf012a00609f"
+RPM_NAME = "qt6-websockets-examples-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "559e49f987f1eeba1be53ee2cd66881318f28c45d0748ca7f702927d339ba25ba6478df4d694a65486d6fa3cd0c6d2f2f91a1aa95c8b1d5eb2ff936893a1402b"
 
 RPROVIDES:${PN} += "qt6-websockets-examples"
 
@@ -17,6 +17,8 @@ libQt6Quick.so.6 \
 libQt6WebSockets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtWebSockets"
 
 inherit rpm

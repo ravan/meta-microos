@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "5.45.4"
 
-RPM_NAME = "expect-5.45.4-6.9.aarch64.rpm"
-RPM_HASH = "baa085b53ac760826cde3c3a69db1be8b8866e942b36e564e9f781d0f62cdcc378292317f223152d8fc2e2f5f6c8ce7b98c0abb4fae3210a1e06d8a23e4c2e38"
+RPM_NAME = "expect-5.45.4-8.5.aarch64.rpm"
+RPM_HASH = "165baab03043094190272fecca0bee269c257677c68d667bfdfa8184f13defb0931ac8ddab2bc563c91738759af89c2865a7c979c20c16e22a8b75c57f5b8722"
 
 RPROVIDES:${PN} += "expect \
 libexpect5.45.4.so"

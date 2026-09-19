@@ -12,16 +12,16 @@ distribution's metadata. However, without LSU already installed this module \
 cannot function."
 LICENSE = "Artistic-2.0"
 
-PV = "0.58"
+PV = "0.590.0"
 
-RPM_NAME = "perl-List-SomeUtils-XS-0.58-1.28.aarch64.rpm"
-RPM_HASH = "771a70fbacff86f84ec3cc8d92692ff580f0dff4addfc7845fd4f464fcd466dc32f9165941cbc36168cbcbdbb6a3423b3323fead307639c1db6f8d85ae89ce2a"
+RPM_NAME = "perl-List-SomeUtils-XS-0.590.0-1.3.aarch64.rpm"
+RPM_HASH = "e59fa1ebfdf4b3d7acf541a8d37bc31cf539ff6c3de66f64e721673a045fd2ede7201590775955670b20163289449bcd033524874d20cf596f8d54cb9cbd23a4"
 
 RPROVIDES:${PN} += "perl-List--SomeUtils--XS \
 perl-List-SomeUtils-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.99.5"
 
-RPM_NAME = "libtachyon-0_99_5-0.99.5-1.4.aarch64.rpm"
-RPM_HASH = "4c7f0d246c2130101a4dce7477948bf9e0dba4d745825e83cf58d274a77d4c047381e1a1a20563dd37aeece871133562c2ab7abb2501268420f11d4dc840f113"
+RPM_NAME = "libtachyon-0_99_5-0.99.5-1.16.aarch64.rpm"
+RPM_HASH = "8df49f942bfea077dbffe294822fd313dcfabe806ad103d8acf14cc3eb55900566ca36847561d2a3b9421c354b2682482a5f958aad4ed0fc5db886a0400b1524"
 
 RPROVIDES:${PN} += "libtachyon-0-99-5 \
 libtachyon-0.99.5.so"
@@ -20,6 +20,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libjpeg.so.8 \
 libm.so.6 \
+libmvec.so.1 \
 libpng16.so.16"
 
 inherit rpm

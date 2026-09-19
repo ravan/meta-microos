@@ -5,10 +5,10 @@ reproduced at 1em high based on the current font size, so it \
 can be scaled arbitrarily by changing the font size."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8svn55265"
+PV = "2026.226.0.0.8svn55265"
 
-RPM_NAME = "texlive-euflag-2023.209.0.0.8svn55265-53.1.noarch.rpm"
-RPM_HASH = "b41bd723cf2e2925550da941624dae16a82f4c9b21422566b0336950a00f269562192c9dcf35b486349c445e377b9904c4b866e04634dce7788992fbe7845ef8"
+RPM_NAME = "texlive-euflag-2026.226.0.0.8svn55265-59.2.noarch.rpm"
+RPM_HASH = "727c495c2cfcc20a8c58c009fbbd8160e9bd6d39397d0af2075939ff7c188d2d05428d81e663aa564556008f3c0473c17d07686815b17df971e7589b39c842ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-euflag.sty \

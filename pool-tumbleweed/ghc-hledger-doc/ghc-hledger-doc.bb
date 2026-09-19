@@ -2,10 +2,10 @@ SUMMARY = "Haskell hledger library documentation"
 DESCRIPTION = "This package provides the Haskell hledger library documentation."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.28"
+PV = "1.52.1"
 
-RPM_NAME = "ghc-hledger-doc-1.28-3.9.noarch.rpm"
-RPM_HASH = "d79e840e1d2583d39dc8debe09f4bf972835553c2e41f33b0a702c0c32472496ad031a0d02839031a093245a78900f0c4e74ddbb7aa2e738c33d790bf7701ef5"
+RPM_NAME = "ghc-hledger-doc-1.52.1-1.5.noarch.rpm"
+RPM_HASH = "5944a6e210c420afde741d6c99ddb9e1790aa15a5aa5b9584135fb3690c166bd41e2ada9d90c14086c373261415e1871e6c47cd45c26495ce9a82972c01fef2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hledger-doc"

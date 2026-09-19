@@ -6,26 +6,28 @@ can be defined by the user. Fail2Ban can read multiple log files such as sshd \
 or Apache web server ones."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.2"
+PV = "1.1.1"
 
-RPM_NAME = "fail2ban-1.0.2-2.2.noarch.rpm"
-RPM_HASH = "2f9ac65ba91e1b1b0465d57aec49870ee6f0764874848d1835d20fb02f15c21c64da987f019f7877efb8406430b53798b3dc925afa589ac9f7ae711d36803f28"
-REPO_ARCH = "noarch"
+RPM_NAME = "fail2ban-1.1.1-3.1.aarch64.rpm"
+RPM_HASH = "287eb2a591f43f60eae9e7173a8e28d8957fd671881e57517ae08a2f5301a9533ec5b25fda479cb546e73afe25a68d74e115e559445a6e778db4816b0747c252"
 
 RPROVIDES:${PN} += "config-fail2ban \
 fail2ban \
-python3.11dist-fail2ban \
+python3.13dist-fail2ban \
 python3dist-fail2ban"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 cron \
 ed \
-iptables \
+libc.so.6 \
+libpython3.13.so.1.0 \
 logrotate \
+nftables \
 python-abi \
 python3 \
 python3-pyinotify \
+python3-setuptools \
 python3-systemd \
 systemd \
 whois"

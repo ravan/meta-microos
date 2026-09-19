@@ -3,10 +3,10 @@ DESCRIPTION = "With PostgreSQL based vhosting you can put the information where 
 for the document-root of a given host into a PostgreSQL database."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.71"
+PV = "1.4.85"
 
-RPM_NAME = "lighttpd-mod_vhostdb_pgsql-1.4.71-1.2.aarch64.rpm"
-RPM_HASH = "ed4713b266371acfea922268d185abaa52f8767941bcad89d446ad9c922900b7487776b28a0d3f27b67b244bb3df030956ddb0c1f9e7cef0bf1e1a3c8fc36e1e"
+RPM_NAME = "lighttpd-mod_vhostdb_pgsql-1.4.85-1.2.aarch64.rpm"
+RPM_HASH = "71d7e0bbf860ba7ec491776820a69c76a8d340c5adcf1a30c090bcf664fd562eac466e0117950c5d9c31449d03d744f15957bec99214f25edb1cf0ffc156483f"
 
 RPROVIDES:${PN} += "lighttpd-mod-vhostdb-pgsql"
 

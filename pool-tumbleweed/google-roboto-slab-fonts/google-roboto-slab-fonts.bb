@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0~git20200304"
 
-RPM_NAME = "google-roboto-slab-fonts-0~git20200304-1.9.noarch.rpm"
-RPM_HASH = "043b93ec92ba2734b604281cbf6920dd21d543ea4124837b00e26cdc6f861778e717ad5d69e9e2efa3114568610b45757c939a27e48f22c1eb3bd22307496e8e"
+RPM_NAME = "google-roboto-slab-fonts-0~git20200304-1.17.noarch.rpm"
+RPM_HASH = "a93edaa5c3c76d9d0289edcb448f4611efba2dcd812c757cf60c47abd55fcf1041d8ff78e3b1efc409634737c6f0adea3eefdc3ee501e9b615dd7254f347b167"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-roboto-fonts-/usr/share/appdata/google-roboto-slab.metainfo.xml \

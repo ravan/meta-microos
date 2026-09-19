@@ -4,10 +4,10 @@ can be usable in different situations where internet access is \
 firewalled, but DNS queries are allowed."
 LICENSE = "ISC"
 
-PV = "0.7.0"
+PV = "0.8.0"
 
-RPM_NAME = "iodine-0.7.0-11.1.aarch64.rpm"
-RPM_HASH = "2be9a2506071691abdbad8b7c1ef1b9520239505428ea2e6a35359efbcadeb737d989c435d9802580f3be5c64d0f7fd6e40791ecac30ed2bb262360483ed011d"
+RPM_NAME = "iodine-0.8.0-1.3.aarch64.rpm"
+RPM_HASH = "c9876cb21ddf9626eeb3a13d86da7637845693b5b6ff25b32912f0cfc3c7a8510b9b686b2956fe640c6fd69604e30d6d4b1926c25017deccb87ab740861112c9"
 
 RPROVIDES:${PN} += "group-iodined \
 iodine \
@@ -19,6 +19,7 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 fillup \
 group-nobody \
 libc.so.6 \
+libselinux.so.1 \
 libz.so.1 \
 net-tools-deprecated \
 sysuser-shadow"

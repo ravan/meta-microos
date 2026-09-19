@@ -2,10 +2,10 @@ SUMMARY = "Translations for package filezilla"
 DESCRIPTION = "Provides translations for the 'filezilla' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.65.0"
+PV = "3.71.1"
 
-RPM_NAME = "filezilla-lang-3.65.0-1.1.noarch.rpm"
-RPM_HASH = "112e0b7f2095d4091ed9d4acd29ee31bc4de197f5541fab40dbaaf07b070fd158e5683937ec56e4c6a65ac7cc26c33978b0cf637a18098e8e55888cd86368c60"
+RPM_NAME = "filezilla-lang-3.71.1-1.1.noarch.rpm"
+RPM_HASH = "f76d0d58feaa6a29d64f49687662ce31004e67d60492c470851c785dd7a93aac87771c388c0dec39e7c5d589cfb2e790b11e62c282ab9dda159567a95ca475a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "filezilla-lang \
@@ -18,11 +18,13 @@ locale-filezilla-cy \
 locale-filezilla-da \
 locale-filezilla-de \
 locale-filezilla-el \
+locale-filezilla-en \
 locale-filezilla-es \
 locale-filezilla-et \
 locale-filezilla-eu \
 locale-filezilla-fi-FI \
 locale-filezilla-fr \
+locale-filezilla-ga \
 locale-filezilla-hr \
 locale-filezilla-is \
 locale-filezilla-it \

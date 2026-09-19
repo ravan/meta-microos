@@ -4,16 +4,16 @@ situations when having servers preconfigured in chrony is undesirable, \
 e.g. because the servers will be set via DHCP."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.4"
+PV = "4.9"
 
-RPM_NAME = "chrony-pool-empty-4.4-1.1.noarch.rpm"
-RPM_HASH = "cab0f5fe4eca470906ea3663cccaac4b4fa6629feec4f7c18a1be8789772b4187337cb9906aa806b5a610090232003dc3b1fe0f9b0a77d120c352791281e3d98"
+RPM_NAME = "chrony-pool-empty-4.9-2.1.noarch.rpm"
+RPM_HASH = "ee2e807824199cb6be1320d1d54a06226f7f7dd56f1356fe037ae29839a6edd710962780b13b542b181db0d9668464049ca3a9e4d62635a319414b84533d01de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chrony-pool \
-chrony-pool-empty \
-config-chrony-pool-empty"
+chrony-pool-empty"
 
-RDEPENDS:${PN} += "chrony"
+RDEPENDS:${PN} += "/usr/bin/sh \
+chrony"
 
 inherit rpm

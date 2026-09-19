@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.5"
 
-RPM_NAME = "libnetfilter_queue1-1.0.5-2.10.aarch64.rpm"
-RPM_HASH = "0f42d6a48f0eb71cef4388215d9e1369f5d3325f71b8693611d03984ffc5279c1a77fd57d72c1816e003f525168ea01c2476bfdf87c2dc4b049ee31a13228dcc"
+RPM_NAME = "libnetfilter_queue1-1.0.5-2.19.aarch64.rpm"
+RPM_HASH = "a8b72d7edf3d1e5b1173dec903900b3e66f2e20c2b08e3fea4afcd09ae427458995cdf55eea67c2539226b61ed13778a4ff62831e9d63b03ee8dcac157a18f41"
 
 RPROVIDES:${PN} += "libnetfilter-queue.so.1 \
 libnetfilter-queue1"

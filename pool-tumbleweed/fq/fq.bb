@@ -5,10 +5,10 @@ data like a hex viewer, transform, slice and concatenate binary data. It also \
 supports nested formats and has an interactive REPL with auto-completion."
 LICENSE = "MIT"
 
-PV = "0.0.10"
+PV = "0.18.0"
 
-RPM_NAME = "fq-0.0.10-1.5.aarch64.rpm"
-RPM_HASH = "863962849c8b4d950ad20a06b3e6c642cf5ee5c38b1aac471b4dd6cd585a7ef3c7887cf2ec789b243cffa5b6b0bae91170679cdf46a4018af7c5bc68d349a80a"
+RPM_NAME = "fq-0.18.0-1.1.aarch64.rpm"
+RPM_HASH = "0e9df865efd171ab6736029011b3399d118f2f9f4aa9934f93f1e239e42ad8fdd7cf70d0ef7fe5745111ce1395a4e1e7c54329f118b72d74f18c516b4ec94036"
 
 RPROVIDES:${PN} += "fq"
 

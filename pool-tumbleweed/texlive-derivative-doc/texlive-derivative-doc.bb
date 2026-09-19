@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-derivative"
 DESCRIPTION = "This package includes the documentation for texlive-derivative"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn63850"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-derivative-doc-2023.209.1.2svn63850-53.1.noarch.rpm"
-RPM_HASH = "fb09997fab77d40c0d35aa9174a8b592b4b3b2187a763f54cf746c90b7ad08ee10a33d5f4edfdd5ef53c528ebea673019aa401f7150ac3041658cddc870a8161"
+RPM_NAME = "texlive-derivative-doc-2026.226.1.4svn77682-59.2.noarch.rpm"
+RPM_HASH = "7e9be51e2ba697924407543a41cd91c3aca3fb285d7c2a56dea3dc2606af14ca063f6b5939d2523abb40a80f6dc8a9702c7c1f6d87c98d8217b49443085d6bb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-derivative-doc"

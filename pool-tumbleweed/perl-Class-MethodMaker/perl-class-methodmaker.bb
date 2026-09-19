@@ -1,4 +1,4 @@
-SUMMARY = "Create generic methods for OO Perl"
+SUMMARY = "Module for creating generic methods"
 DESCRIPTION = "This module solves the problem of having to continually write accessor \
 methods for your objects that perform standard tasks. \
  \
@@ -10,24 +10,22 @@ To override any generated methods, it is sufficient to ensure that the \
 overriding method is defined when Class::MethodMaker is called. Note that \
 the 'use' keyword introduces a 'BEGIN' block, so you may need to define (or \
 at least declare) your overriding method in a 'BEGIN' block."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.24"
+PV = "2.250.0"
 
-RPM_NAME = "perl-Class-MethodMaker-2.24-2.33.aarch64.rpm"
-RPM_HASH = "4e57ecfed3ceff6ad7183b26743f837fc00b71b0153ec139e8ea7dc432e64e2d33cc9ab134041cb62ff85cd9085c6590ab8a0d13db630eeb0aa0de56ad7cef22"
+RPM_NAME = "perl-Class-MethodMaker-2.250.0-1.11.aarch64.rpm"
+RPM_HASH = "7430a066890548870ef8cfe9cad7db843cf7db02dee023c6b70275734a0a33c854bb8c0c73ad87e5f1f829ba3db94b5e9a3340251619aaf3ad902664d3135ecd"
 
 RPROVIDES:${PN} += "perl-Class--MethodMaker \
 perl-Class--MethodMaker--Constants \
 perl-Class--MethodMaker--Engine \
 perl-Class--MethodMaker--OptExt \
 perl-Class--MethodMaker--V1Compat \
-perl-Class--MethodMaker--array \
-perl-Class--MethodMaker--hash \
-perl-Class--MethodMaker--scalar \
-perl-Class-MethodMaker"
+perl-Class-MethodMaker \
+perl-Generate"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.11.3"
 
-RPM_NAME = "libcelt-devel-0.11.3-1.29.aarch64.rpm"
-RPM_HASH = "cd75ee1a63eb82ea84516c777a440e247cf358dc19ffa0eee563255575976f180cacd421372b296bf5db0da19044f4ad6e3df12316946f8574f5fe444ae076fd"
+RPM_NAME = "libcelt-devel-0.11.3-2.5.aarch64.rpm"
+RPM_HASH = "32aeb9ed12194aa3c8425356889f4d76b13b2edad0cdf259b69398de85eafdaf3c8f7bb94b78f82665dada2b8dfe4409219e9784a034560829c3e1e4a4edb0b6"
 
 RPROVIDES:${PN} += "libcelt-devel \
 pkgconfig-celt"

@@ -3,10 +3,10 @@ DESCRIPTION = "The class can be used to typeset any kind of book (originally \
 designed for use in the humanities)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2.0svn60991"
+PV = "2026.226.3.2.6svn73055"
 
-RPM_NAME = "texlive-suftesi-2023.209.3.2.0svn60991-58.1.noarch.rpm"
-RPM_HASH = "99f9eeaa12bcbd5880c9cfe2edeb2240ab3c587f66db16667e3e53c43bbf405ced2468bb7af100e8337923093bb8324b92f9427036537b246260c52971810cef"
+RPM_NAME = "texlive-suftesi-2026.226.3.2.6svn73055-64.2.noarch.rpm"
+RPM_HASH = "aa4c821efe7bfd9fb9519055e8883e3d600a68939e1235d2a3deae01f39714dd8ffbf7eb90b8fe9f08a68afdd3e419a9c3c9ebe599beee4914d31d3f6db20558"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-suftesi.cls \
@@ -35,6 +35,7 @@ tex-fancyhdr.sty \
 tex-fixltxhyph.sty \
 tex-fontenc.sty \
 tex-fontsize.sty \
+tex-footnpag.sty \
 tex-geometry.sty \
 tex-iftex.sty \
 tex-inconsolata.sty \
@@ -49,12 +50,10 @@ tex-multicol.sty \
 tex-newpxmath.sty \
 tex-newpxtext.sty \
 tex-newtxmath.sty \
-tex-substitutefont.sty \
 tex-textcomp.sty \
 tex-titlesec.sty \
 tex-titletoc.sty \
 tex-xkeyval.sty \
-tex-zref.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

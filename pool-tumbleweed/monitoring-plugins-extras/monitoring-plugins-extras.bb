@@ -3,10 +3,10 @@ DESCRIPTION = "These are additional monitoring checks that require additional pa
 which have to be installed."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-extras-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "5b08410953ba113cd96822bc97d5c8efc2fc85a70727f99ff4c07458b894959323c6ec12ac1a8d2f10ad4970252aacdf07180c1e9cdbb35b8b794b855a4f0f0d"
+RPM_NAME = "monitoring-plugins-extras-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "3d75c61de79c172c8ab323b6b64f3efae8a60b74a920c7929a1874a5e2f2e65d5a673a90e17732dc17eba56975d6885ebcc1a887bcc5067ac460aa66978c9105"
 
 RPROVIDES:${PN} += "monitoring-plugins-extras \
 nagios-plugins-extras"

@@ -4,8 +4,8 @@ LICENSE = "W3C"
 
 PV = "5.8.0"
 
-RPM_NAME = "tidy-doc-5.8.0-1.8.noarch.rpm"
-RPM_HASH = "bc6ced661fc6ce0332bd4f19e15482cc82bad399a24ece5cb41cb0efb07727ec583cafb33a188cea35a580df3f8bc537a9d80d6d40784809c971359de0480f8f"
+RPM_NAME = "tidy-doc-5.8.0-2.5.noarch.rpm"
+RPM_HASH = "76a361aaa7ffdb3b1f90985a502dfa2bd6fb48ef994583dba45651455ca79ef23fbd1bbf9d3ea12c6b119b2bf4dc47636ccb14ad81997746abc0d386698aacd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tidy-doc"

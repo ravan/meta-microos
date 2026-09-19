@@ -2,10 +2,10 @@ SUMMARY = "Commons VFS Examples"
 DESCRIPTION = "VFS is a Virtual File System library - Examples."
 LICENSE = "Apache-2.0"
 
-PV = "2.2"
+PV = "2.10.0"
 
-RPM_NAME = "apache-commons-vfs2-examples-2.2-1.18.noarch.rpm"
-RPM_HASH = "5f95aa05952fd9c3c7f9ac54fbf42e73850a40577155d57c5bfcedc888248490fe5dfc83aa291564974685c4575e1c58ea57a20d2d3a8ccdc7f0af773e15141a"
+RPM_NAME = "apache-commons-vfs2-examples-2.10.0-1.6.noarch.rpm"
+RPM_HASH = "d472d16aa919df8b22722e80ea5c1f49ac7301567f17437b9d060610201e4e74efbf5941126a2f2027877cdc75568a6e9283c1021311837560826e068dcc993a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-vfs2-examples \

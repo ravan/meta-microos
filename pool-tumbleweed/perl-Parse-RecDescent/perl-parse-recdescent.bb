@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.967015"
 
-RPM_NAME = "perl-Parse-RecDescent-1.967015-1.24.aarch64.rpm"
-RPM_HASH = "688fdcb908f5e2cedfe865c08b89fcb26d3c333c5e04f7825fc9b00c844ddb9706da2b7746fea7463a746f555e66477bffa7cedc9e96a672ba49f2413f0a269b"
+RPM_NAME = "perl-Parse-RecDescent-1.967015-1.38.aarch64.rpm"
+RPM_HASH = "e9d3eb8abaa99a2eecce873b9559774363822fef1708094b79e56f78531e9d6e9175dec09c50730d15944c234ec6cc9c2da298d9555fdd1664e649d5fc04ec1d"
 
 RPROVIDES:${PN} += "perl-Parse--RecDescent \
 perl-Parse--RecDescent--Action \
@@ -27,6 +27,6 @@ perl-Parse--RecDescent--Token \
 perl-Parse--RecDescent--UncondReject \
 perl-Parse-RecDescent"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

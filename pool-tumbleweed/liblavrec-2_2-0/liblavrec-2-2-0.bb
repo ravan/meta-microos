@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "liblavrec-2_2-0-2.2.1-2.6.aarch64.rpm"
-RPM_HASH = "b5a0041bca613eb8be31c0640ac3b61105418590b9c2977e6dcf9def9ceafcd112482d7e5a5c6555ca5b7d830c072aa2348146f8025a0fa8cb662ef2d995bf4a"
+RPM_NAME = "liblavrec-2_2-0-2.2.1-3.6.aarch64.rpm"
+RPM_HASH = "c3a06271c49b52602b34bd933a8d6f50a83aea78c83fc8c51eb4bf4b4ae58963c3b424ceb995d023e8c8e3f5b5d37a072abce7e0d9643934ddbc7cd02ce48367"
 
 RPROVIDES:${PN} += "liblavrec-2-2-0 \
 liblavrec-2.2.so.0"

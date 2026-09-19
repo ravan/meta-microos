@@ -3,10 +3,10 @@ DESCRIPTION = "dmenu is a dynamic menu for X, originally designed for dwm. It ma
 large numbers of user-defined menu items efficiently."
 LICENSE = "MIT"
 
-PV = "5.2"
+PV = "5.4"
 
-RPM_NAME = "dmenu-5.2-1.2.aarch64.rpm"
-RPM_HASH = "e50b9a90049f9ad988264b0a5bc52bee5c0df0f99eaf2cff0d8fdc2b91453325ad594ed8bcc207358c46ebf8da7e7b41a8d3861622dcbc7edb14cf6348f766e0"
+RPM_NAME = "dmenu-5.4-1.3.aarch64.rpm"
+RPM_HASH = "1ba9aefd727253f72d18b063d7459e2027909862ed1b3f8649ae3a17f1d0cb2a137d0b8a421cb0737bb3a5daadf2ead7d92a49c5c63f9a1240bbd9ccb8511056"
 
 RPROVIDES:${PN} += "dmenu"
 

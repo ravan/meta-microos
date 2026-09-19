@@ -7,10 +7,10 @@ consequently has many fewer features is available on the \
 package home page.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-egameps-2023.209.1.1svn15878-54.2.noarch.rpm"
-RPM_HASH = "4a0ad580c90246b71c9e46b55d776b2145f2148114398f62e12641e3e05faa1755606f7e4157dab4aaf9069cb9efe4abf898500ec96335ec49c4ab473de8cbb1"
+RPM_NAME = "texlive-egameps-2026.226.1.1svn15878-61.4.noarch.rpm"
+RPM_HASH = "2e49b0dd272dcb19f354aa5897efad08190d665d169676866f056e7baca74a322e13aff5cea7bc16854e405c8b376024b82cf3c254d057fee41cb33f879243d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-egameps.sty \

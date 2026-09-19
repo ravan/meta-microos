@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nox"
 DESCRIPTION = "This package includes the documentation for texlive-nox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn30991"
+PV = "2026.226.1.0svn30991"
 
-RPM_NAME = "texlive-nox-doc-2023.209.1.0svn30991-55.1.noarch.rpm"
-RPM_HASH = "d07544c42765bf93ff8dabd23bbcc2bd13132ffb5341e917d02d4ca03ed56cec91f52c56841cc448feaa2b2f45b72dd53217a32f3177e0d836954354a6db6f9b"
+RPM_NAME = "texlive-nox-doc-2026.226.1.0svn30991-61.2.noarch.rpm"
+RPM_HASH = "ae9c5a9d9f04e921c54adaa9f8902a88120b5bd4a16aab1bd38e30950be4266793d0ead83753f24845e768166495de357948b6d1eee698e9671ad85768c1c561"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-nox-doc-de \

@@ -6,10 +6,10 @@ alphabet only. LaTeX support is provided, using the LGR \
 encoding."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn18651"
+PV = "2026.226.1.01svn77682"
 
-RPM_NAME = "texlive-gfsporson-2023.209.1.01svn18651-53.1.noarch.rpm"
-RPM_HASH = "dad53bc08977992d5ce0ce2099377222f811d84590713b2579696a22e23266a8160ee39cfb141414a3422cc4ca44e05677794ae78eb29de54951aaf6caa60c35"
+RPM_NAME = "texlive-gfsporson-2026.226.1.01svn77682-60.2.noarch.rpm"
+RPM_HASH = "95a3b6c3e49553fcaeff5177d119bf30a5405c008afe4897e96e2404c386b598271a7fdd3b5ce9b7d3df30a05119ebc5f39149b75e14bb42098ad46d98037225"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gfsporson.map \

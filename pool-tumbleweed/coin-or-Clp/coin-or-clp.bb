@@ -4,10 +4,10 @@ solver. It is primarily meant to be used as a callable library, but a \
 basic, stand-alone executable version is also available."
 LICENSE = "EPL-2.0"
 
-PV = "1.17.7"
+PV = "1.17.10"
 
-RPM_NAME = "coin-or-Clp-1.17.7-1.4.aarch64.rpm"
-RPM_HASH = "452646a4af9a9fc524074bf4f81293def9492a9bed8ff38486644204332b1a66691bbcbe9587eb335220444dcd8869f4e1c01155b4204d2eac0683685fcd5f49"
+RPM_NAME = "coin-or-Clp-1.17.10-1.7.aarch64.rpm"
+RPM_HASH = "732b41b9c0ab0eaecd665f3cf458a2980072d9acab0a7c1316dcf2b232edddd947359f9cbd655994be0137ee4afd47c22c3aedad3515ea7e7645e1be65118d61"
 
 RPROVIDES:${PN} += "coin-or-Clp"
 

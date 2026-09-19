@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 VirtualKeyboard library - Development files"
 DESCRIPTION = "Development files for the Qt 6 VirtualKeyboard library."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-virtualkeyboard-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "21ff91a8df96596de6d4085e0539c6531ba65f4f72fa65d40d8170846113d9125d1faaa6e97f4d7da9070d40bdc006b8a20702e7d6b6227254b681489d378bad"
+RPM_NAME = "qt6-virtualkeyboard-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "d4a126c754a6479f0ae608b4e24925472eeeef1f7f1f16698388e7c34d7209ca6707541251cf28e5967f3ebf210e19d4802a38d4e56418170c0cd7e7a0b99c00"
 
 RPROVIDES:${PN} += "cmake-Qt6VirtualKeyboard \
 pkgconfig-Qt6HunspellInputMethod \

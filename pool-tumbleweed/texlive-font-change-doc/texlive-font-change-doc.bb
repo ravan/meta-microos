@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-font-change"
 DESCRIPTION = "This package includes the documentation for texlive-font-change"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2015.2svn40403"
+PV = "2026.226.2015.2svn40403"
 
-RPM_NAME = "texlive-font-change-doc-2023.209.2015.2svn40403-53.1.noarch.rpm"
-RPM_HASH = "7619efb8498d6251b40810ce3960c7403ad9cf2c77a8b7ffff81bab77f4dfb0fbc8cf0c5689b8c598b8ee987ac7e1be36c8a27d17d7b25ca8378141135102ca3"
+RPM_NAME = "texlive-font-change-doc-2026.226.2015.2svn40403-60.2.noarch.rpm"
+RPM_HASH = "972a97ef88ea23ac1088be5e0b5609d1a7420e5348e78378a69f4d41ec5e9413dd07ebfaac14e4369df49999fcd3f09afc7589cde5734b74cebf10932d31988d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-font-change-doc"

@@ -15,50 +15,53 @@ trees. The cofree comonad can be seen as a stream parameterized by a 'Functor' \
 that controls its branching factor. \
  \
 More information on free monads, including examples, can be found in the \
-following blog posts: <http://comonad.com/reader/2008/monads-for-free/> \
-<http://comonad.com/reader/2011/free-monads-for-less/>."
+following blog posts: <https://ekmett.github.io/reader/2008/monads-for-free/> \
+<https://ekmett.github.io/reader/2011/free-monads-for-less/>."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.1.10"
+PV = "5.2"
 
-RPM_NAME = "ghc-free-5.1.10-2.9.aarch64.rpm"
-RPM_HASH = "85eceb85daa9542a1310de74f74e1518ffacfbe29c676618cea8de12786bb8011bc13711caa0cd3b327d9996d6960b428bc09d19a5d414198d36a25da79c883e"
+RPM_NAME = "ghc-free-5.2-6.3.aarch64.rpm"
+RPM_HASH = "daaaf2e60705a3b0f229d51e3700b4ad78eafc6cb173982db3893b70aabb577459562e1b9a1716f403642ca6bebdb054a67afa9094ce92ebbf8047cc42f5321e"
 
 RPROVIDES:${PN} += "ghc-free \
-libHSfree-5.1.10-8DOWW3JiZaX7obxPZwBWX0-ghc9.4.6.so"
+libHSfree-5.2-4eWU5ydqIMF46nGJ3OnruR-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSStateVar-1.2.2-8Hv9klK7mv0HId52XsoM7J-ghc9.4.6.so \
-libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so \
-libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
-libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHScomonad-5.0.8-56nFbOwllOwBl7FMfSy83E-ghc9.4.6.so \
-libHScontainers-0.6.7-ghc9.4.6.so \
-libHScontravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSdistributive-0.6.2.1-7gHlNDSCz3vFkde299iroS-ghc9.4.6.so \
-libHSexceptions-0.10.5-ghc9.4.6.so \
-libHSfilepath-1.4.2.2-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
-libHSindexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO-ghc9.4.6.so \
-libHSmtl-2.2.2-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHSprofunctors-5.6.2-GfNUFxHNpLn859duquR0iv-ghc9.4.6.so \
-libHSsemigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g-ghc9.4.6.so \
-libHSstm-2.5.1.0-ghc9.4.6.so \
-libHStagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStext-2.0.2-ghc9.4.6.so \
-libHSth-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
-libHStransformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44-ghc9.4.6.so \
-libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so \
-libHSunordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSStateVar-1.2.2-Fp8KJyjTxyjFvIxRBzfDbA-ghc9.12.4.so \
+libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSassoc-1.1.1-7ZKlIzFkmc1FQCJcpfYrTi-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbase-orphans-0.9.4-2vMgOxDXOniBrPCxqNGyGO-ghc9.12.4.so \
+libHSbifunctors-5.6.3-9Dfko6C8LIIe8HG4zoeag-ghc9.12.4.so \
+libHSbinary-0.8.9.3-9861-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHScomonad-5.0.10-Adp50yscRn74SK6wUdL7QP-ghc9.12.4.so \
+libHScontainers-0.7-d5e1-ghc9.12.4.so \
+libHScontravariant-1.5.6-7FVTzec2jegEwzkeRkQOi4-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSdistributive-0.6.3-9lg1Hxwh2KlJVxh3zQCgyL-ghc9.12.4.so \
+libHSexceptions-0.10.12-f655-ghc9.12.4.so \
+libHSfilepath-1.5.5.0-b25b-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHShashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr-ghc9.12.4.so \
+libHSindexed-traversable-0.1.5-JylwuAInS9n4ImeZ4JChDW-ghc9.12.4.so \
+libHSmtl-2.3.2-37ef-ghc9.12.4.so \
+libHSos-string-2.0.10-5320-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHSprofunctors-5.6.3-CPqBm5VgzT9DSAiXWxFcrG-ghc9.12.4.so \
+libHSsemigroupoids-6.0.2-B6Y5GIvJ2JI8mXJpMQTJaF-ghc9.12.4.so \
+libHSstm-2.5.3.1-6d74-ghc9.12.4.so \
+libHStagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStext-2.1.4-cf23-ghc9.12.4.so \
+libHSth-abstraction-0.7.2.0-LVMuWnluhDI5se4FHUInw7-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
+libHStransformers-base-0.4.6.1-AexBYmHB9CZDEWAojzlCzB-ghc9.12.4.so \
+libHStransformers-compat-0.7.2-Je4epVh1rXP8zT22dFNkMW-ghc9.12.4.so \
+libHSunordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

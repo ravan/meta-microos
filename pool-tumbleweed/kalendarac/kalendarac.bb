@@ -2,27 +2,30 @@ SUMMARY = "Reminder daemon client"
 DESCRIPTION = "Kalendarac is a reminder daemon client for calendar events."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kalendarac-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "737b478f153c7cdc0c41eb8b07e16d29e5196fafa442295714e3853865784d5c12c38a2fdadd2b576a104c607646ca3764ed5a7aea966a0a1ad3f1913f69114a"
+RPM_NAME = "kalendarac-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "64e07b74f5491d2f2262cd074e3327ce476d1652aa37c9df44dd4626da9e9e94745d1bfefdf7f52855d1d7ccf6f4d2c10f05d767281631d1904a70f5d98f831c"
 
 RPROVIDES:${PN} += "kalendarac"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5CalendarCore.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOGui.so.5 \
-libKF5Notifications.so.5 \
-libKF5Service.so.5 \
-libKPim5AkonadiCalendar.so.5 \
-libKPim5AkonadiCore.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
+libKF6CalendarCore.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOGui.so.6 \
+libKF6Notifications.so.6 \
+libKF6Service.so.6 \
+libKPim6AkonadiCalendar.so.6 \
+libKPim6AkonadiCore.so.6 \
+libKPim6IdentityManagementCore.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

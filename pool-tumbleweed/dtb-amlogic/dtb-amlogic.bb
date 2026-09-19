@@ -2,10 +2,10 @@ SUMMARY = "Amlogic based arm64 systems"
 DESCRIPTION = "Device Tree files for Amlogic based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "dtb-amlogic-6.4.12-1.1.aarch64.rpm"
-RPM_HASH = "2c359e1a9b3cb8c6078f49238df29a1e39d429b2f49c1cbbc0e84e0a7e6327b610ac80c7f58f013d602c929fa9c096c437a09a34be10b10dabd2b386edabcc95"
+RPM_NAME = "dtb-amlogic-7.2.5-1.1.aarch64.rpm"
+RPM_HASH = "cf636361ecc286e6eae396ca33ad17075c97390f29da27e38faeb410fb3281f262e72c3fc698bc361eb5e174551482555d9ea9943ae25617f96613ed55654e4c"
 
 RPROVIDES:${PN} += "dtb-amlogic \
 multiversion-dtb"

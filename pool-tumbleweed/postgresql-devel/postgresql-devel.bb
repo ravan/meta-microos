@@ -11,10 +11,10 @@ need to install this package if you want to develop applications in C \
 which will interact with a PostgreSQL server."
 LICENSE = "PostgreSQL"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "postgresql-devel-15-2.12.noarch.rpm"
-RPM_HASH = "7903e53617eb4396715718391efc5457d8feff89e45843a9bcba6c2a9f3d2c79e4f91b22c837877736389005ad5e5da1412a5f16c2fb022db887131c38b797e2"
+RPM_NAME = "postgresql-devel-18-3.4.noarch.rpm"
+RPM_HASH = "a0b0065294f0dfde79d934a022070811ce8d85bfa4534c9b73fcf8fd6647ad7a9002bb98dc523ce2b24e6f7e36edfa87db15551049b4a23ffa1d1fca0b0dfc66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-libecpg \
@@ -24,6 +24,8 @@ pkgconfig-libpq \
 postgresql-devel \
 postgresql-devel-noarch"
 
-RDEPENDS:${PN} += "postgresql-devel-implementation"
+RDEPENDS:${PN} += "postgresql \
+postgresql-devel-implementation \
+postgresql-noarch"
 
 inherit rpm

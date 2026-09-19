@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-music"
 DESCRIPTION = "Provides translations for the 'gnome-music' package."
 LICENSE = "LGPL-2.1-or-later & SUSE-GPL-2.0-with-plugin-exception"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-music-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "1ce9734c966862fa35b37e861cc39f504659ad569b90f695dfae2d1636ee8efb9dd066ce0e7928c63c616fada31e38863c9ebf6f91cfb4594d8718aa1ca5c680"
+RPM_NAME = "gnome-music-lang-50.0-2.1.noarch.rpm"
+RPM_HASH = "e2e360dfc819603472ae36755844260ec1b62e869993574ba546422cb5674b1a7dfaf35d63c110ed7effaa0f9ef0482aa5bd303eb90f8710b19b6ed825c3f0a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-music-lang \
@@ -35,8 +35,10 @@ locale-gnome-music-ga \
 locale-gnome-music-gd \
 locale-gnome-music-gl \
 locale-gnome-music-he \
+locale-gnome-music-hi \
 locale-gnome-music-hr \
 locale-gnome-music-hu \
+locale-gnome-music-ia \
 locale-gnome-music-id \
 locale-gnome-music-is \
 locale-gnome-music-it \
@@ -66,7 +68,9 @@ locale-gnome-music-sr@latin \
 locale-gnome-music-sv \
 locale-gnome-music-ta \
 locale-gnome-music-te \
+locale-gnome-music-th \
 locale-gnome-music-tr \
+locale-gnome-music-ug \
 locale-gnome-music-uk \
 locale-gnome-music-vi \
 locale-gnome-music-zh-CN \

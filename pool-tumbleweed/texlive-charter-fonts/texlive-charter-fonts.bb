@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-charter"
 DESCRIPTION = "The  separated fonts package for texlive-charter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-charter-fonts-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "8ed254e1545e4887bdc51b0fe2d2fcb465147fe73691df8807ccdddcbbc9bdfacb4282e061995b48ada46b7a8a9f2dfeace7b9fffa6d9e71d893d982c0ae47e0"
+RPM_NAME = "texlive-charter-fonts-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "5abd14bbc31e50c1c7ff9d60ad012ea43b06af01751b735710147af84db5505ba17e1193cf7ae8946a0f1ff1227a2e1e983a39278a916601bb18b5930d053761"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-bitstreamcharter \

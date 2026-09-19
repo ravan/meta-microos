@@ -20,10 +20,10 @@ APscheduler provides multiple job stores. \
   * MongoDB"
 LICENSE = "MIT"
 
-PV = "3.10.1"
+PV = "3.10.4"
 
-RPM_NAME = "python311-APScheduler-3.10.1-2.1.noarch.rpm"
-RPM_HASH = "311e29460e7d8a4a761f862136ef4894e8d938054e31dee6c4c6e582c55b71e5a16a47869c25f92faf471966a27fa4526c1544ab1f5d9eb7d06e2c324feaab52"
+RPM_NAME = "python311-APScheduler-3.10.4-1.6.noarch.rpm"
+RPM_HASH = "18e344812caf9ea950fc9fbecd18ff5432f83fcac8579e193f4d45a4741ea16b22a2c4d7d66cab07f6dd4c96f59fa8f8969fc67767c0d7dd98a8237a6d5cd511"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-APScheduler \

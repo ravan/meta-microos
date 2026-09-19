@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the basic packages for KDE PIM applications
 particular those related to editing text, like email messages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kpimtextedit-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "8d58596a8a2ff7512faa67bdf10fdbc897866c0358835c6b83f6bd99bf69eb05abbb94179a044c56a7545c9e754a81c43247c44ccb729235bce87aa57054f37c"
+RPM_NAME = "kpimtextedit-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "b44e205553e9851e2c2d8250d121903d47e217f0ea65f6e9c8ff3aa153138d1e35894f1c5625b57fa3a2b81ebdb0c4ae78390e5f370279532e8ccfbc4d379559"
 
 RPROVIDES:${PN} += "kpimtextedit"
 

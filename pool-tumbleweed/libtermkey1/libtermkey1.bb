@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.22"
 
-RPM_NAME = "libtermkey1-0.22-2.5.aarch64.rpm"
-RPM_HASH = "ba20590d9e9ab94a94be739a77faf5515699af6082c88863ec1c84882a1717c115fd2ddb2570c6b6d23aa13c73d7a313b2014ed1cf7c4edfd5e0f52810d56368"
+RPM_NAME = "libtermkey1-0.22-3.9.aarch64.rpm"
+RPM_HASH = "1d2717e5a13fb789030f03b0059817cc71597de17b7207c5365ce1b84d8da4f2b5f76c2febdacd23dd63db1d0c462ce718e1e8fff250bd193e1ab1ea897fd515"
 
 RPROVIDES:${PN} += "libtermkey.so.1 \
 libtermkey1"

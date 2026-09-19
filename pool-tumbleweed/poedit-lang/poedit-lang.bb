@@ -2,17 +2,16 @@ SUMMARY = "Translations for package poedit"
 DESCRIPTION = "Provides translations for the 'poedit' package."
 LICENSE = "MIT"
 
-PV = "3.3.2"
+PV = "3.9.1"
 
-RPM_NAME = "poedit-lang-3.3.2-1.1.noarch.rpm"
-RPM_HASH = "a57e9aa83a635dea36608bec3221a8772488101b57003c575c2b8c7d261b79a068c23a33e7fe873b12f501033d47410e23d0958d5ba79060afdf2dd3693e840e"
+RPM_NAME = "poedit-lang-3.9.1-1.2.noarch.rpm"
+RPM_HASH = "c1efb5b0e75d04ec43af6e34a7cafda5d34953ab6857269509fbecd81d67a5b5d0de5497ee6a9db37887f36a51af30bdb483d10006724448d829e8d4e8082801"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-poedit-af \
 locale-poedit-ar \
 locale-poedit-az \
 locale-poedit-be \
-locale-poedit-be@latin \
 locale-poedit-bg \
 locale-poedit-bs \
 locale-poedit-ca \
@@ -55,9 +54,11 @@ locale-poedit-sk \
 locale-poedit-sl \
 locale-poedit-sq \
 locale-poedit-sr \
+locale-poedit-sr@latin \
 locale-poedit-sv \
 locale-poedit-th \
 locale-poedit-tr \
+locale-poedit-ug \
 locale-poedit-uk \
 locale-poedit-vi \
 locale-poedit-zh-CN \

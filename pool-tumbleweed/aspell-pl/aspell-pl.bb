@@ -1,11 +1,11 @@
 SUMMARY = "Polish (polszczyzna) Dictionary for Aspell"
 DESCRIPTION = "A Polish (polszczyzna) dictionary for the aspell spell checker."
-LICENSE = "GPL-2.0-only & LGPL-2.1-only & MPL-1.1 & CC-BY-SA-1.0"
+LICENSE = "CC-BY-SA-1.0 & GPL-2.0-only & LGPL-2.1-only & MPL-1.1"
 
 PV = "0.60.2015.04.28"
 
-RPM_NAME = "aspell-pl-0.60.2015.04.28-2.14.aarch64.rpm"
-RPM_HASH = "d7d2ea6c0eb9b6725a9599928357b5627b8b2f2af85291776d4e039c7e7a56768e66efe09f9ac683df1b45984a2a122c0c02413f8d3751411c6e26d62ffcb222"
+RPM_NAME = "aspell-pl-0.60.2015.04.28-4.7.aarch64.rpm"
+RPM_HASH = "54d545087f29c0dca2b7b0fe3963e24bc8535b87d323082cdc4338fa9bb1cfd2b90d5952a8f2a9be40235a41721a8016d19b242b046626e967faeac7aba28318"
 
 RPROVIDES:${PN} += "aspell-pl \
 locale-aspell-pl"

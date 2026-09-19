@@ -5,8 +5,8 @@ LICENSE = "Python-2.0"
 
 PV = "0.1"
 
-RPM_NAME = "shared-python-startup-0.1-6.9.noarch.rpm"
-RPM_HASH = "e4f9df0213cbd29f7c5706811f1fff3c2273dae787afedab99236e96385898ea8cb6a3e6b426e76adb39366c1d9453064b62738b4fc6a89c61a42fa263822766"
+RPM_NAME = "shared-python-startup-0.1-6.17.noarch.rpm"
+RPM_HASH = "5c5d9b47112d74738566026f18f775da804f56ae1cce239d811ec97e720ea263eb2c2859cfee30c4bcd3acb0055ee4e5cdbd24aeb343a35399f6aec07ae399e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-shared-python-startup \

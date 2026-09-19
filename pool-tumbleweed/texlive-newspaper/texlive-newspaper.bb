@@ -6,10 +6,10 @@ with other packages) simplify the writing of articles in a \
 newspaper-style column format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-newspaper-2023.209.1.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "ecf261c71134324b0ed4e7294df65cdf3e7a7b8c3be1facd7f2401338f11cf3163ca7f2f848adc0ca103bcecaa7b742052568b7ff98bbe95ea4c21bc32422847"
+RPM_NAME = "texlive-newspaper-2026.226.1.0svn15878-61.2.noarch.rpm"
+RPM_HASH = "daf5e839fff093e5f55a8d799f184a85d8e8173a14baf78c31544eeafd379fa98dd25dcd9bbb68b2de87850ad1d547a22bf3034575a17ec6f68edd626aa52a9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-newspaper.sty \

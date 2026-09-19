@@ -2,27 +2,22 @@ SUMMARY = "Haskell hslua profiling library"
 DESCRIPTION = "This package provides the Haskell hslua profiling library."
 LICENSE = "MIT"
 
-PV = "2.3.0"
+PV = "2.5.0"
 
-RPM_NAME = "ghc-hslua-prof-2.3.0-1.6.aarch64.rpm"
-RPM_HASH = "267cbb5879f441ce3b27aa9f84f4fd78674f1ae34eaf0eeaee568b5206dfe0486014105c786c7fa5c96a341cd20867f69d648d869aea3f1df31404b4edbcc6fd"
+RPM_NAME = "ghc-hslua-prof-2.5.0-1.2.aarch64.rpm"
+RPM_HASH = "e14d2eedbfea02c67de0414103b90199f63ab05a50e874f6c183bd7a9162634a9241751b84669fe11f75a3b0f90d5f93a108bc1b3f317d47dc2a67b8be0e2ab0"
 
 RPROVIDES:${PN} += "ghc-hslua-prof \
-ghc-prof-hslua-2.3.0-IFweDrinoAduGRRaqkwGX"
+ghc-prof-hslua-2.5.0-EJ5RjGxg4AI6GL8E9HKZKp"
 
 RDEPENDS:${PN} += "ghc-hslua-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-exceptions-0.10.5 \
-ghc-prof-hslua-aeson-2.3.0.1-GTKyJZd9E8T7sbi3aSnblh \
-ghc-prof-hslua-classes-2.3.0-B1L4OZUPrf8GQ47NXlejyp \
-ghc-prof-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
-ghc-prof-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
-ghc-prof-hslua-objectorientation-2.3.0-26R83mqcSjNC8MxfPJWYVS \
-ghc-prof-hslua-packaging-2.3.0-4zNLfL9evW33fw96RBrzdD \
-ghc-prof-hslua-typing-0.1.0-3nJdpD9hvXQ79mUAqCbbUn \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-hslua-aeson-2.3.2-2NAF9YW3ljB9EkcWLhnec \
+ghc-prof-hslua-classes-2.3.2-C895qHuusP79caxJu1uhwF \
+ghc-prof-hslua-core-2.3.2.1-GIcwwMIDhKVEx4MlcixfFr \
+ghc-prof-hslua-marshalling-2.3.2-4wJit3DV8Bh1LNaOjZB33o \
+ghc-prof-hslua-objectorientation-2.5.0-AcxldFWfxGy5q661VAPLGF \
+ghc-prof-hslua-packaging-2.4.1-1RYRM22n0e3FXJMrP5sdLA \
+ghc-prof-hslua-typing-0.2.0-HwVvWDb2JBKBM3T8rZUuAT"
 
 inherit rpm

@@ -3,16 +3,16 @@ DESCRIPTION = "The libplacebo-devel package contains libraries and header files 
 developing applications that use libplacebo."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.292.1"
+PV = "7.360.1"
 
-RPM_NAME = "libplacebo-devel-6.292.1-1.1.aarch64.rpm"
-RPM_HASH = "c0999218186082431af033285a0088bf849096ce25acb22c23ba3c51d2c0ea5e8d4eb554659e0b82543197c26f26bfef0d0c6edcac7a82b703ce4f6528f5a26a"
+RPM_NAME = "libplacebo-devel-7.360.1-1.5.aarch64.rpm"
+RPM_HASH = "68bb3aa528be478ca71ee81f1e4f3a1aa0f76a9e3c21a9441ac14d818846a280d382dff63615181a09d03516c1edd0730fea8f4f1fff34516bf31316edf0a521"
 
 RPROVIDES:${PN} += "libplacebo-devel \
 pkgconfig-libplacebo"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libplacebo292 \
+libplacebo360 \
 pkgconfig-dovi \
 pkgconfig-lcms2 \
 pkgconfig-libunwind \

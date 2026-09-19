@@ -2,10 +2,10 @@ SUMMARY = "TIST plugin for connman"
 DESCRIPTION = "Provides TI Shared Transport support for Connman (Connection Manager)."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.41"
+PV = "1.42"
 
-RPM_NAME = "connman-plugin-tist-1.41-4.8.aarch64.rpm"
-RPM_HASH = "4c2c09c0b3715923fdbf8d6fe7721d5bbd92fb2934bbee41af693dcafad783025e8f9ef4924cf6afac93a497b1463c3ac6bdc641a0d3d20075c6658994bb8c50"
+RPM_NAME = "connman-plugin-tist-1.42-2.16.aarch64.rpm"
+RPM_HASH = "859b55ce865219fc500bdc7f0079b45015b39099c713cfef5c2dd0c95f2613596ac73884a1c847981d8e84c35abb18af20d883ef97460cd729bd41dae22f232a"
 
 RPROVIDES:${PN} += "connman-plugin-tist"
 

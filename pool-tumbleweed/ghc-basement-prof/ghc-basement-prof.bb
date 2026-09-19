@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.16"
 
-RPM_NAME = "ghc-basement-prof-0.0.16-1.5.aarch64.rpm"
-RPM_HASH = "8da2625cfb8a47d1ece4b1b8ce3a8e95b7520c0ce84f49d1a6b3245d7648056d5c5d5a862f855deb17758d49ca563fdb453d19ae5df26f5a05b37bc220f02289"
+RPM_NAME = "ghc-basement-prof-0.0.16-1.32.aarch64.rpm"
+RPM_HASH = "d5a44017b0192ce736b2c9704a1b1e303baf2d465fae9c90ecb6bef215065beff2bd52bb1758ee546ce2b2170aa176b0aae6d6b3122bd49a2ab74d7d0709dd35"
 
 RPROVIDES:${PN} += "ghc-basement-prof \
-ghc-prof-basement-0.0.16-JDtFhm6hoERETf7Hqk4dh9"
+ghc-prof-basement-0.0.16-EFfarL5MHPIHNlTrgpSdN2"
 
 RDEPENDS:${PN} += "ghc-basement-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-ghc-prim-0.9.1"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-ghc-prim-0.13.0-f55c"
 
 inherit rpm

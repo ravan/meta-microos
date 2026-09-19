@@ -2,10 +2,10 @@ SUMMARY = "Documentation for the libcdr API"
 DESCRIPTION = "This package contains documentation for the libcdr API."
 LICENSE = "MPL-2.0"
 
-PV = "0.1.7"
+PV = "0.1.9"
 
-RPM_NAME = "libcdr-devel-doc-0.1.7-1.18.noarch.rpm"
-RPM_HASH = "0d292030abf175dc343fc62e9d26b9312b7a51af6d0bbddbd33eff5310d3bc74d0ae6f06317666cb05cfac3978b86b22655dc0eaae8c37ae008ba9fbbe545cb9"
+RPM_NAME = "libcdr-devel-doc-0.1.9-1.3.noarch.rpm"
+RPM_HASH = "2581622294fabcea9370c386e9973a3f7cd12d720a314e50e9bc4d4fd373c093b1e7d3874e62699fb175192e76cbdd011c522b6074dcf47bdbf966e618996593"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcdr-devel-doc"

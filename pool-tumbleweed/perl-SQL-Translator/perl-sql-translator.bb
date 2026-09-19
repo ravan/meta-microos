@@ -16,10 +16,10 @@ the definition parts of SQL are handled (CREATE, ALTER), not the \
 manipulation of data (INSERT, UPDATE, DELETE)."
 LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & GPL-2.0-only"
 
-PV = "1.63"
+PV = "1.660.0"
 
-RPM_NAME = "perl-SQL-Translator-1.63-1.3.noarch.rpm"
-RPM_HASH = "f718700b78deaac8ff6412e86b81e401a79aa26bed5470191d2f198044cca1c367172002cffe734858dfa448c1e9a9aaa2d46ac8ca88826d0347db5f984e1031"
+RPM_NAME = "perl-SQL-Translator-1.660.0-1.10.noarch.rpm"
+RPM_HASH = "193f772d33fa5ede320b0eee896db99162f5fbb0affb453484f2bfffa2090737bb8282479092594eaea6d73bd4af4915f36c8c13ec756a226a654d82b355c11a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parse--RecDescent--SQL--Translator--Parser--DB2--Grammar \
@@ -92,6 +92,7 @@ perl-SQL--Translator--Schema--Constants \
 perl-SQL--Translator--Schema--Constraint \
 perl-SQL--Translator--Schema--Field \
 perl-SQL--Translator--Schema--Index \
+perl-SQL--Translator--Schema--IndexField \
 perl-SQL--Translator--Schema--Object \
 perl-SQL--Translator--Schema--Procedure \
 perl-SQL--Translator--Schema--Role--Compare \
@@ -106,11 +107,12 @@ perl-SQL-Translator \
 perl-Test--SQL--Translator"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Carp--Clan \
 perl-DBI \
 perl-Digest--SHA \
 perl-File--ShareDir \
+perl-List--Util \
 perl-Moo \
 perl-Package--Variant \
 perl-Parse--RecDescent \

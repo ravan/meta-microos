@@ -2,10 +2,10 @@ SUMMARY = "Package provides recommended R-class"
 DESCRIPTION = "This packages provides R-class, one of the recommended packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "7.3.22"
+PV = "7.3.23"
 
-RPM_NAME = "R-class-7.3.22-46.1.aarch64.rpm"
-RPM_HASH = "70d9b24b8087048146c6f827c8e3cb1938be76f9e94f9c30d96a7ed42a91ba9f47d5ad6d391a30e4884befab716cfaf3834443c7b742dad354fb79aa147b13ca"
+RPM_NAME = "R-class-7.3.23-58.3.aarch64.rpm"
+RPM_HASH = "0fe480879831502bd210ec04cfdcc47356fa4b03f03402013df0f1ee76ea49cfca7c98ddeee6b50ea3940d50c44aa95d815c53474024b2bcb2a22559eb7810e9"
 
 RPROVIDES:${PN} += "R-class"
 

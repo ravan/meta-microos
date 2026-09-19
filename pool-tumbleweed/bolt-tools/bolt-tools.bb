@@ -1,12 +1,12 @@
 SUMMARY = "Bolt Tools"
 DESCRIPTION = "The bolt-tools package contains optional tools from the Bolt \
 software framework."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.9.5"
+PV = "0.9.11"
 
-RPM_NAME = "bolt-tools-0.9.5-1.4.aarch64.rpm"
-RPM_HASH = "ddaa4b73bb8f1d4649274faf608cff1ac5aa6205017829471c6ca2ee2d0107d7ebdeefe629c7bf8ddd143196fdc957f96ec4160551e5a3c37de3667ccc22f2aa"
+RPM_NAME = "bolt-tools-0.9.11-2.1.aarch64.rpm"
+RPM_HASH = "901f32c917a090db7f6ac5b2622014430ce26256fd5f8a3928d9efb39a4911ccacfa29534cf32ac3c67a40e85d0e69728886275405553f9b2887ea2c38efda23"
 
 RPROVIDES:${PN} += "bolt-tools"
 

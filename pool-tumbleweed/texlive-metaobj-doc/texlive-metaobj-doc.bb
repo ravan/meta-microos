@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-metaobj"
 DESCRIPTION = "This package includes the documentation for texlive-metaobj"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.93svn15878"
+PV = "2026.226.0.0.93svn15878"
 
-RPM_NAME = "texlive-metaobj-doc-2023.209.0.0.93svn15878-55.1.noarch.rpm"
-RPM_HASH = "0ed0d0fc9b5f02480e9e2c0fac4a17a7f9b897535497b53eccee489ee6ddf595fb040008443b6b702b108db307d93bf984d9016aa448a5c2e44f37025e50faa9"
+RPM_NAME = "texlive-metaobj-doc-2026.226.0.0.93svn15878-61.2.noarch.rpm"
+RPM_HASH = "51dcd43949179055ce71e902078fd19b1b1a2b6426f7b691f9b43ddedb37f8dde6cb7f35da919c9ff8c46e6ebd16e18e330fcc4f7934574593b7b877e5926a02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metaobj-doc"

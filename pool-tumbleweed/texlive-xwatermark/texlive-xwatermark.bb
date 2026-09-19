@@ -4,10 +4,10 @@ packages. It is currently unmaintained and does not work with \
 modern LaTeX releases."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.2dsvn61719"
+PV = "2026.226.1.5.2dsvn61719"
 
-RPM_NAME = "texlive-xwatermark-2023.209.1.5.2dsvn61719-53.2.noarch.rpm"
-RPM_HASH = "738943f2355addcff83c95ecf49440ac8adca2c12b3079e6282d526f176259b9ed4b308a10949d685d6e2d0d06c1240a15320524dc38767b4e488ae6793c632e"
+RPM_NAME = "texlive-xwatermark-2026.226.1.5.2dsvn61719-59.4.noarch.rpm"
+RPM_HASH = "cb41c0bdc0562a9856ee16df29fd1a67166a5252a076368ba6c47e27a1b614f1eb76dc31d0a16270c80480362581110b85e876515f335c1015a734273c79052e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xwatermark.sty \

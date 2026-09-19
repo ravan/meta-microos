@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210429"
 
-RPM_NAME = "libagdb-devel-20210429-3.8.aarch64.rpm"
-RPM_HASH = "5135ed2b068c149caba97be3e5227084ec7e0b57e375e8814713643ba8c515bca4ecf3c14d69df68262dbb73c7c2716109e07ec6bef65dd1a5ef539b887fca37"
+RPM_NAME = "libagdb-devel-20210429-3.39.aarch64.rpm"
+RPM_HASH = "3cbc4e1ebc24e35019201fc33ed384e3ede806f9fb1f1d2131fddf34c9675dc119cc6da6bd199949512dcb2cf2ea6a62a712665dd7761e6038b03feab23e71bf"
 
 RPROVIDES:${PN} += "libagdb-devel \
 pkgconfig-libagdb"

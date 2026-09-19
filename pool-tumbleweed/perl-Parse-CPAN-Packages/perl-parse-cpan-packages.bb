@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.40"
 
-RPM_NAME = "perl-Parse-CPAN-Packages-2.40-1.27.noarch.rpm"
-RPM_HASH = "c98afecc9d1c3ced3501b50a55f91387fbc26afef950877a1b6d2b8cce4279de398aad317f968bcde0da762a24f9e27dc98ef2f5967098d4503abfae558b8287"
+RPM_NAME = "perl-Parse-CPAN-Packages-2.40-1.41.noarch.rpm"
+RPM_HASH = "87059d9140c39ddc8f2b51a699e36ad261ea23b71c3c3a6cd598ba5538d977d033972192914517766c28d73c39fc62481bd5a9c844757454bc0c9fe9066c4888"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parse--CPAN--Packages \
@@ -20,7 +20,7 @@ perl-Parse--CPAN--Packages--Distribution \
 perl-Parse--CPAN--Packages--Package \
 perl-Parse-CPAN-Packages"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Archive--Peek \
 perl-CPAN--DistnameInfo \
 perl-Compress--Zlib \

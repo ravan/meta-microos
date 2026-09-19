@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.8.1"
 
-RPM_NAME = "erlang-providers-1.8.1-1.2.aarch64.rpm"
-RPM_HASH = "929f01c4f41503666694b81492f3d4df4aa47b28cff205edfa1d44937de77f1e34bf56d3a295e365d46b0823fe702fecaf03fbcdda0c7064f1a2af6fe7929cd3"
+RPM_NAME = "erlang-providers-1.8.1-3.8.aarch64.rpm"
+RPM_HASH = "8bd9b418ae18731f234efaa63d0042f9fb3e86aa0c36ddf0dbb55f8dacea570aaa62195dab9acdaf9da78a6cf923ab4bf8cb49a0db1fd3ea5f38bb5f77ede4f1"
 
 RPROVIDES:${PN} += "erlang-providers"
 

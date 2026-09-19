@@ -2,10 +2,10 @@ SUMMARY = "Utilities for OMEMO media sharing"
 DESCRIPTION = "Utilities for OMEMO media sharing."
 LICENSE = "MIT"
 
-PV = "1.0.0"
+PV = "1.1.0"
 
-RPM_NAME = "omemo-utils-1.0.0-2.2.aarch64.rpm"
-RPM_HASH = "8e43c9286e6e88b1c47264cd81a2a1b96914cabfc3ac5917f953f65d84337cc5af483c97e9d5f818ee8f69eeb970ad7d1270d21c7d0808f0c08c681c33d9e59b"
+RPM_NAME = "omemo-utils-1.1.0-1.3.aarch64.rpm"
+RPM_HASH = "c0bbb23e74f3321adbc8c8a4e5f7b00618938c2cc03779b8adfcad98bc216039cf8084b1f2f0f600fd7620e622ea31527338906decbbf6c4c8e7fd385aea11ec"
 
 RPROVIDES:${PN} += "omemo-utils"
 

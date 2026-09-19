@@ -16,8 +16,8 @@ LICENSE = "MIT"
 
 PV = "1.37"
 
-RPM_NAME = "perl-DBIx-Simple-1.37-1.22.noarch.rpm"
-RPM_HASH = "7cc84ae61dfe0a8adc16c82d6df18c21a5b57a0f940eebe8c45f1890c664f88239bf511f5e31607d3ae128fb99c76bb6507c152947ed764f488e7c6b47b1ca68"
+RPM_NAME = "perl-DBIx-Simple-1.37-1.36.noarch.rpm"
+RPM_HASH = "cbacbb21e8e3551cb32842e8c4bf1514918f1724a73aa86a399036824d6cdb506cb4b78cb67b065fac42e7821c23e1f3fbaf1aa5c9c7716ad0d667e56df45b12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Simple \
@@ -28,7 +28,7 @@ perl-DBIx--Simple--Result--RowObject \
 perl-DBIx--Simple--Statement \
 perl-DBIx-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBI"
 
 inherit rpm

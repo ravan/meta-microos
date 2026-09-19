@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & Apache-2.0 & BSD-3-Clause & MIT"
 
 PV = "4.0.4.0"
 
-RPM_NAME = "kseexpr-lang-4.0.4.0-1.11.noarch.rpm"
-RPM_HASH = "1007e37f20a8a10da235adfae9070ccf09f933086aa2e26feeec81f84b7d1c635e1e867fb9916135d140d54bc7847d6f9f8ae58dbac2bbeffc4fff57eaaf7e99"
+RPM_NAME = "kseexpr-lang-4.0.4.0-1.20.noarch.rpm"
+RPM_HASH = "fe091286b256f59a6b05b8db75955453820d2a3c0ec88658f85c8da7e18995358a35209a134527ec1994675bc59929ceb1973d89b1df26192a76561461dfd5d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kseexpr-lang \

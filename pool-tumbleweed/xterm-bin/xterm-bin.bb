@@ -3,17 +3,20 @@ DESCRIPTION = " \
 This package contains the basic X.Org terminal program."
 LICENSE = "MIT"
 
-PV = "384"
+PV = "410"
 
-RPM_NAME = "xterm-bin-384-1.1.aarch64.rpm"
-RPM_HASH = "3cf44fafefcae9456936eec06955f180b301e1e07b18c7adea3c7083e1401cc5472c455ad012064e340e71fdeb43475b5f7325caa3dc4564ea11821899cf8100"
+RPM_NAME = "xterm-bin-410-1.3.aarch64.rpm"
+RPM_HASH = "7dc14acc7a38a4d5d244ab9e4efa4b1cbefcb630583250858996e715259f27ec91da8656a9e9b61563b6da45fd5967a682c62f7abd2c4caa543c2614f36b0bac"
 
 RPROVIDES:${PN} += "font--lang=aa \
 font--lang=af \
+font--lang=agr \
 font--lang=an \
 font--lang=av \
 font--lang=ay \
+font--lang=ayc \
 font--lang=be \
+font--lang=bem \
 font--lang=bg \
 font--lang=bi \
 font--lang=br \
@@ -27,6 +30,7 @@ font--lang=cs \
 font--lang=csb \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=el \
 font--lang=en \
 font--lang=eo \
@@ -69,16 +73,22 @@ font--lang=lb \
 font--lang=lez \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mhr \
+font--lang=mjw \
 font--lang=ms \
 font--lang=mt \
 font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -114,20 +124,25 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
 font--lang=uk \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zh-cn \
 font--lang=zh-sg \
@@ -150,7 +165,6 @@ libc.so.6 \
 libfontconfig.so.1 \
 libfreetype.so.6 \
 libtinfo.so.6 \
-libutempter.so.0 \
 xterm-resize"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "RpmConf Plugin for DNF, Python 3 version. Handles .rpmnew, .rpmsa
 transaction."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.0.17"
+PV = "4.1.2"
 
-RPM_NAME = "python3-dnf-plugin-rpmconf-4.0.17-2.2.noarch.rpm"
-RPM_HASH = "8d4f5b65ef60f2f8099fcabadd87983240ac0ab56ab4c710a67878e9203b35f3fbf257f3a6d3536869114818821905cac3eeb6facfb0799834d6a0f36631cbe5"
+RPM_NAME = "python3-dnf-plugin-rpmconf-4.1.2-1.8.noarch.rpm"
+RPM_HASH = "52ec72cf4eaec2aa09ccfd4b4eb29f948ee9e2776fc75cf7cb8a834fcb949a4059a6feb46a963c4482dec88ce774a5ec734a2b5ba09f6ba75b6eab3758e0cdd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-python3-dnf-plugin-rpmconf \

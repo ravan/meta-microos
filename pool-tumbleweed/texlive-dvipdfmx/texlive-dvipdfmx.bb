@@ -13,10 +13,10 @@ and other information, please see TeX Live. However, the \
 information on this page is maintained and should be current."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn66203"
+PV = "2026.226.svn77942"
 
-RPM_NAME = "texlive-dvipdfmx-2023.209.svn66203-54.2.noarch.rpm"
-RPM_HASH = "29497a2d14537bad8a4ce59a44f0e06531a293c333bd5d719ebcadd118b54c09e0b495cae325613ed84d61445f43bdf1909de77a7948b56eee2533d4afe42206"
+RPM_NAME = "texlive-dvipdfmx-2026.226.svn77942-61.4.noarch.rpm"
+RPM_HASH = "8b017571a841dd2b56f49acaeb432dbf7179bd119db0a3a4b7aca27ff1b70111ee4ee349d6f136da5f57251de1495a1d411511dc953359c6d935b7273dc84d0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-dvipdfmx \
@@ -39,12 +39,14 @@ sed \
 tex-texmf.cnf \
 texlive \
 texlive-dvipdfmx-bin \
+texlive-extractbb \
 texlive-filesystem \
 texlive-glyphlist \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-scripts \
 texlive-scripts-bin \
+texlive-scripts-extra \
 texlive-texlive.infra"
 
 inherit rpm

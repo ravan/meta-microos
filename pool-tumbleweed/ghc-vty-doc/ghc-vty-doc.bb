@@ -2,10 +2,10 @@ SUMMARY = "Haskell vty library documentation"
 DESCRIPTION = "This package provides the Haskell vty library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.38"
+PV = "6.6"
 
-RPM_NAME = "ghc-vty-doc-5.38-2.11.noarch.rpm"
-RPM_HASH = "3dd3d3c459b2943cf50678ef37ac938ed4a9a0dd2710ba18fd68789fd52f177b84f93fe1c527f78382686ac482fc91b185d6757413ac7ec687104bb02d980061"
+RPM_NAME = "ghc-vty-doc-6.6-1.3.noarch.rpm"
+RPM_HASH = "ea9f7b8a7ff2168a109adfbbd361f3f28284bf81ffa59727d641d2af98e5dedd10275d38cff00701acb6eab9fc72ec0a71cbf9a0d260fb0ea5a2644845a01801"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-vty-doc"

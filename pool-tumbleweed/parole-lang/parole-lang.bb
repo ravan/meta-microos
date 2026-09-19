@@ -2,10 +2,10 @@ SUMMARY = "Translations for package parole"
 DESCRIPTION = "Provides translations for the 'parole' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "parole-lang-4.18.0-1.4.noarch.rpm"
-RPM_HASH = "19e1ea8992f8aa20563245847ea4ebeaa95a06a9828888f311593ea65136e156dbdcb9879e4c217201718da1b6c628b695e689af360d8af85e4e4cd70199e575"
+RPM_NAME = "parole-lang-4.20.0-1.5.noarch.rpm"
+RPM_HASH = "0c9659a3188f5e5123ed0b2f6774e30f708ca60211d4b7a94a77128d400987090303033b754c59aa377fae2c3e6c20157563e5e217dbbff4ab8aca4e2fd24fb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-parole-ar \
@@ -44,6 +44,7 @@ locale-parole-oc \
 locale-parole-pl \
 locale-parole-pt \
 locale-parole-pt-BR \
+locale-parole-ro \
 locale-parole-ru \
 locale-parole-sk \
 locale-parole-sl \

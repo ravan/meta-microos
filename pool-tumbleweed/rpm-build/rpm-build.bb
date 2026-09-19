@@ -3,10 +3,10 @@ DESCRIPTION = "If you want to build a rpm, you need this package. It provides rp
 and requires some packages that are usually required."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.1"
 
-RPM_NAME = "rpm-build-4.18.0-6.1.aarch64.rpm"
-RPM_HASH = "ce82dece3519b809407daf4645eff2bd936c242115ebff743f80e3da52a290a67c87be81b1407d6649207b9e8462110a26eb3452fea5498f8d8c21ce49b5a7eb"
+RPM_NAME = "rpm-build-4.20.1-10.1.aarch64.rpm"
+RPM_HASH = "85b02711243d11ba6fca383a19f714e6431d241445ef58428fa65d614657ccc15587d0e2e7926a349841eba7dd500c22c72b0632f0b93e1942e92a3c44da0505"
 
 RPROVIDES:${PN} += "rpm-/usr/bin/rpmbuild \
 rpm-build \
@@ -31,13 +31,14 @@ glibc-devel \
 glibc-locale-base \
 grep \
 ld-linux-aarch64.so.1 \
+libarchive.so.13 \
 libc.so.6 \
 libelf.so.1 \
 libpopt.so.0 \
-librpm.so.9 \
-librpmbuild.so.9 \
-librpmbuild9 \
-librpmio.so.9 \
+librpm.so.10 \
+librpmbuild.so.10 \
+librpmbuild10 \
+librpmio.so.10 \
 make \
 patch \
 rpm \

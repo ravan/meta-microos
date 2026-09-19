@@ -3,10 +3,10 @@ DESCRIPTION = "Clingo is part of the Potassco project for Answer Set Programming
 (ASP). This package include clingo libraries."
 LICENSE = "MIT"
 
-PV = "5.6.2"
+PV = "5.8.0"
 
-RPM_NAME = "libclingo4-5.6.2-2.1.aarch64.rpm"
-RPM_HASH = "d16af8ac0bfe33bb71059916d486f0fcb33fd74e6f14bb72cbe840d71ec9bf9ce1f9256fa028a621fbd9f9c452e8e2be11870aea06569095b25348299d130b93"
+RPM_NAME = "libclingo4-5.8.0-2.4.aarch64.rpm"
+RPM_HASH = "0c956774b6147b17a314f5718853a7bfa60d9d32750a8005cb75876a383c0b6316c76556289c22826f74eb68a9e321887cbf9265caa3519b8670b1b86beed9ec"
 
 RPROVIDES:${PN} += "libclingo.so.4 \
 libclingo4"

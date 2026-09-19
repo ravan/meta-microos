@@ -6,10 +6,10 @@ This package contains a set of helper macros to unify common code used \
 in ocaml spec files."
 LICENSE = "GPL-2.0-only"
 
-PV = "20230101"
+PV = "20260707"
 
-RPM_NAME = "ocaml-rpm-macros-20230101-2.1.aarch64.rpm"
-RPM_HASH = "08bc6bf0eba202903668a880a62d9fcd0b213d5fdb0396097c9acfed1d4abd048fc00b9f7db20311ac24afb781c5502508d571decb5bc70eceb32f72b33b9974"
+RPM_NAME = "ocaml-rpm-macros-20260707-1.1.aarch64.rpm"
+RPM_HASH = "8c25a793f02d6483526d2b1869aa6f32d5e3c2f79105720adb8797d26619b602c237c87b94be6ae44379184d8f980d854ae5037fe93cdc7b02e76ef6bc90ace5"
 
 RPROVIDES:${PN} += "ocaml-rpm-macros \
 rpm-macro--find-debuginfo-dwz-opts \

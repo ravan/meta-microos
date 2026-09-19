@@ -3,16 +3,16 @@ DESCRIPTION = "Optional collectd Python3 API in order to write collectd plugins 
 Python3."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-python3-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "3eb0f4f39c76408ef9837fc57548acf9429d2030af5cec460fdf2d6fa26c35c6ab339c0d000c976322ec9758b080e11c35c2f573b35a068466290e1b58144cbc"
+RPM_NAME = "collectd-plugin-python3-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "7a8910dd0bbbfb539c4d7713beed371882d1b1bd5aaaa701fe82c2f8f2ec5a6025ba6c30fcf5bbb1071f29d3daf0e46dd3dfe2c15c731e644d4f16ca35c1a20f"
 
 RPROVIDES:${PN} += "collectd-plugin-python3"
 
 RDEPENDS:${PN} += "collectd \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpython3.11.so.1.0"
+libpython3.13.so.1.0"
 
 inherit rpm

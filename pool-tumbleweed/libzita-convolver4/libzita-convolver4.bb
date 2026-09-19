@@ -15,8 +15,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.0.3"
 
-RPM_NAME = "libzita-convolver4-4.0.3-1.15.aarch64.rpm"
-RPM_HASH = "81c3857a3d332e98485c99e63da101291bb80ea919224e3c02205dade94245e21bfd79ca2d6b5791591e91014e501672bb4d5f9edbab21e91db04663ccbfe252"
+RPM_NAME = "libzita-convolver4-4.0.3-1.25.aarch64.rpm"
+RPM_HASH = "1285a7355f101eb640564dedbbfa1334ee456eb7739d9c214bf07fcf4af7ac433c2537f1c373d6e3b574c1e297774ab437be5a1b97141f48c996207d2db8cd55"
 
 RPROVIDES:${PN} += "libzita-convolver.so.4 \
 libzita-convolver4"

@@ -8,10 +8,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libcorrect."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.0+git.20180109"
+PV = "20181010"
 
-RPM_NAME = "libcorrect-devel-0.0.0+git.20180109-3.9.aarch64.rpm"
-RPM_HASH = "4d573f00b43102acb9dd970cdb73d92e8b6c72a4f503c6cfafb9e028ebb6089df1fe793343feccbac158f826416ae450870cbe5eff8589e1fd53d2c3ea30fd49"
+RPM_NAME = "libcorrect-devel-20181010-1.6.aarch64.rpm"
+RPM_HASH = "1eef9a1bf513b75980d2a7de5b6678e31be83fc606428d2b3dd33e25514035cb65e5ecf92ff743a4881ac8423982105ee7241d7de1809d176b961ce8a8fd5ec2"
 
 RPROVIDES:${PN} += "libcorrect-devel \
 pkgconfig-libcorrect"

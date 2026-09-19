@@ -2,10 +2,10 @@ SUMMARY = "Example programs for the Qt 5 Charts Library"
 DESCRIPTION = "Examples for Qt5 Charts module."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtcharts-examples-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "b9b77c74fdd75197c35681675e169f748cfc96f9cb1718357bed4fe4f6b65d7c5b7dfdb0f49516e3f41c03d86eca072377a6712c8a594487a3156d1d20079e47"
+RPM_NAME = "libqt5-qtcharts-examples-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "5824c474b4708fa75b867b591a8dbf65187ddf9893bdab8c65ae91730740cb752651344f09e7dcb4699de1c03ba3d4fb1e14b48ea5774069111f9b1aad933e25"
 
 RPROVIDES:${PN} += "libqt5-qtcharts-examples"
 

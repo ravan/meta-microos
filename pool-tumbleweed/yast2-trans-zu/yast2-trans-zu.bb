@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Zulu Translations"
 DESCRIPTION = "YaST2 - Translations for Zulu."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-zu-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "e7d2e9f3c0821151f283bb1115e52788b085ba06966da01e7a9b86c5c7e3cf232f2b65de9a639fb9502c27c60091acb55e6c74718f904093b1d3c26114cc61ec"
+RPM_NAME = "yast2-trans-zu-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "cc643075bd08477ea022bd7d9c6b7fe41109eeab0b1051089e326076669e8687f098475eab228b5eeeeee64b3e22df8109a60f5975d8c7c4c082477afcef2a84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-zu \

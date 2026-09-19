@@ -3,10 +3,10 @@ DESCRIPTION = "Optional collectd plugin to store sampling results into \
 various databases as supported by libdbi."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-dbi-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "b2df1dabfcfad97fe831008da8138a56b435d2d4b3baf717e32fe1c603d9d2ec587e32efce6df57f81f44400d7adb4fa5bef8c1dd44bca6263eece28f3aa145a"
+RPM_NAME = "collectd-plugin-dbi-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "921e8bac459811895f80054ad36c9f2b3ed185d1688d4064d5ed6243db23eb1f0720ca54546110ee32a038471479f2a6e0d35c84fb2866a73347072d605e45ba"
 
 RPROVIDES:${PN} += "collectd-plugin-dbi"
 

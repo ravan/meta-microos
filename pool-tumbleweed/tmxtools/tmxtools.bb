@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains tmxviewer, a simple application to view Til
 and tmxrasterizer which is also a command line tool."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.10.2"
+PV = "1.12.2"
 
-RPM_NAME = "tmxtools-1.10.2-1.1.aarch64.rpm"
-RPM_HASH = "9e5e86334840443f6e1c648d4cd8212228458b0ff19fca4d6d85d8179816816219ad2464eb15a16f7283e97a8d0c7843bbff21e5cdaed1673ffbf82acf186579"
+RPM_NAME = "tmxtools-1.12.2-1.2.aarch64.rpm"
+RPM_HASH = "3165957a110be719020766f152cc096f2105629be34c8b2d7fd25282ca733a371dbde0fd34d518827a6e7c13a2706ac435ac2f872768cffe2341c65c54f15171"
 
 RPROVIDES:${PN} += "tmxtools"
 

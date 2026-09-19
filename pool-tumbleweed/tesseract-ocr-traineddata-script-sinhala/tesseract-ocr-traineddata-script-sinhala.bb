@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Sinhala scr
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-sinhala-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "a9d842a3696894111fa1aa54d71e2e9de53d323d3a144591f401709612daf1bc2cb623d51a53b0e052eb2c9152a5a44e5332241bf6cd8b1e570831c82086ee72"
+RPM_NAME = "tesseract-ocr-traineddata-script-sinhala-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "f81c24f867a6822b2b75990b930c5f9613e85fe762d9dc7fbf163a9ea7f95b61e5595c4b3c16d42ceff3024f79527b03b7cf1e2413c4392919d9e3b15f615cd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-sinhala"

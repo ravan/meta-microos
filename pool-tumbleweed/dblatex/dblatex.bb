@@ -6,15 +6,15 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.3.12"
 
-RPM_NAME = "dblatex-0.3.12-1.10.noarch.rpm"
-RPM_HASH = "a2ecab66d748cf74e6a8f373c76e15b144fbcb072124f638bc3a69e904b674a8dc10dd5ca2427b4397e4291b38df4de665bfbe7aaff4ef3e282ddee0de114bda"
+RPM_NAME = "dblatex-0.3.12-2.6.noarch.rpm"
+RPM_HASH = "5829642dbf6ea3043101b878a861031096c7e1b90f671b1149e380abe29de129d22922cb43f7f6c975895d124404d038965b89417755e748710a9e40b7d33842"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dblatex \
-python3.11dist-dblatex \
+python3.13dist-dblatex \
 python3dist-dblatex"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 docbook-4 \
 python-abi \
 tex-amsmath.sty \

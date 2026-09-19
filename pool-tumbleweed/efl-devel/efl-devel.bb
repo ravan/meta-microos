@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-only & Zlib"
 
 PV = "1.26.3"
 
-RPM_NAME = "efl-devel-1.26.3-30.8.aarch64.rpm"
-RPM_HASH = "f0aff2389dd91ee493028ec712dcfa32eb02b0575fe0f471db66a12c5ef1dd0929e12c205ee3b969922aaa138a21ed402524b1f23d9bab758854850af2218e46"
+RPM_NAME = "efl-devel-1.26.3-37.1.aarch64.rpm"
+RPM_HASH = "690b33911ab76235711906f9a9048d1caa474429004741320442a6d167d1d08b8478d8b1deb293e956d6d129114d56b20be36d65f5e1bafbe6b004d955b72193"
 
 RPROVIDES:${PN} += "cmake-Ecore \
 cmake-EcoreCxx \
@@ -190,7 +190,6 @@ pkgconfig-librsvg-2.0 \
 pkgconfig-libtiff-4 \
 pkgconfig-libudev \
 pkgconfig-libunwind-generic \
-pkgconfig-libxine \
 pkgconfig-luajit \
 pkgconfig-mount \
 pkgconfig-openssl \

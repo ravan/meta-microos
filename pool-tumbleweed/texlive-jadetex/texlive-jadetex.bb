@@ -3,10 +3,10 @@ DESCRIPTION = "Macro package on top of LaTeX to typeset TeX output of the Jade \
 DSSSL implementation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.13svn63654"
+PV = "2026.226.3.13svn71409"
 
-RPM_NAME = "texlive-jadetex-2023.209.3.13svn63654-56.1.noarch.rpm"
-RPM_HASH = "5b0ee4fe41183a7f84fc2ea61d00b5be284c0ca0a2031c8240c7ce22973d037ef9703fee280f51d23d7261b2e4ae046ef02041e21ee9bda23c8adfeb9c4a982f"
+RPM_NAME = "texlive-jadetex-2026.226.3.13svn71409-63.2.noarch.rpm"
+RPM_HASH = "abc6b8ce819272505dae9cc31c751b2787da35eecd4eada75e195904547c8c52f21b1f6c088941855dbe701cb4cb8388e5dd45409da7c8f02b60c88f3a3013ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dsssl.def \
@@ -25,9 +25,6 @@ tex-language.dat.lua \
 tex-language.def \
 texlive \
 texlive-amsfonts \
-texlive-atbegshi \
-texlive-atveryend \
-texlive-auxhook \
 texlive-babel \
 texlive-bigintcalc \
 texlive-bitset \
@@ -37,8 +34,7 @@ texlive-courier \
 texlive-cyrillic \
 texlive-dehyph \
 texlive-ec \
-texlive-etexcmds \
-texlive-everyshi \
+texlive-etoolbox \
 texlive-fancyhdr \
 texlive-filesystem \
 texlive-firstaid \
@@ -55,6 +51,7 @@ texlive-iftex \
 texlive-infwarerr \
 texlive-intcalc \
 texlive-jadetex-bin \
+texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-kvdefinekeys \
@@ -62,11 +59,8 @@ texlive-kvoptions \
 texlive-kvsetkeys \
 texlive-l3backend \
 texlive-l3kernel \
-texlive-l3packages \
 texlive-latex \
 texlive-latex-fonts \
-texlive-latexconfig \
-texlive-letltxmacro \
 texlive-ltxcmds \
 texlive-marvosym \
 texlive-passivetex \
@@ -79,6 +73,7 @@ texlive-rerunfilecheck \
 texlive-scripts \
 texlive-scripts-bin \
 texlive-stmaryrd \
+texlive-stringenc \
 texlive-symbol \
 texlive-tex \
 texlive-tex-ini-files \

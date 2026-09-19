@@ -12,10 +12,10 @@ Donning his armour, Edgar sets off to rescue him, but his quest will not be \
 easy..."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36"
+PV = "1.38"
 
-RPM_NAME = "edgar-1.36-1.4.aarch64.rpm"
-RPM_HASH = "72f9b646540b5f97242b2314c496673bec652431a16d2c60c2e95c624343ed4615c09fdedc37350fcc785ed1f77618d98bb17e23dfc0e6c14c2a391781080d65"
+RPM_NAME = "edgar-1.38-1.5.aarch64.rpm"
+RPM_HASH = "030d343b33f782f6d8c4cbad48a54276e27ce66e67bf9f826bc8edddbe7473524e24827cd12bd3347e4358984df02e9171576dd1d8cdd1e6c488b92ec5842c34"
 
 RPROVIDES:${PN} += "edgar"
 

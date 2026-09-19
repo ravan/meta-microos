@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the HTML documentation and example programs
 yaml module."
 LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MIT"
 
-PV = "0.7.3"
+PV = "1.0.0"
 
-RPM_NAME = "qore-yaml-module-doc-0.7.3-2.1.noarch.rpm"
-RPM_HASH = "13b8803ac2b7afac5eb9a4fb3d359a2baaaf723125ff76d990a186ddc4b3f00d074bf16cc6d8aee06c3d1636d5b667c584f27248f810d55b2d27b8cf560e9d1e"
+RPM_NAME = "qore-yaml-module-doc-1.0.0-1.5.noarch.rpm"
+RPM_HASH = "88d4d31eaed041423c4ec910af73639a6dcff080f890fb2e98c9ffd67dd4ee6dfcb9adf8f2a77d65c17615051febca6282e1d420f7cd76b804cebdcb78c196eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-yaml-module-doc"

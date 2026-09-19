@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "1.2.10"
 
-RPM_NAME = "NetworkManager-openconnect-lang-1.2.10-1.1.noarch.rpm"
-RPM_HASH = "138b82a6285d665e19a6fa0fd367b3531061de455d5bef63c139a478330e81385e1f8e23b3c45cc53839d8fff64e02500c1a9a728795929d2cae4901ee292954"
+RPM_NAME = "NetworkManager-openconnect-lang-1.2.10-5.5.noarch.rpm"
+RPM_HASH = "eaa13664dd9c207ef1a07f124f31e49e20edf2f61c9cc840f2057db9a2251ee233d1eaade61078700500d8824c9192d4145c6f8f41fec96a636d8558f7d73e35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-openconnect-lang \

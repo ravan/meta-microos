@@ -1,11 +1,11 @@
 SUMMARY = "Development files for tslib, a touchscreen panel event layer"
 DESCRIPTION = "Devel package for tslib. Tslib is an abstraction layer for touchscreen panel events."
-LICENSE = "LGPL-2.1-or-later & GPL-2.0-only"
+LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "1.22"
+PV = "1.24"
 
-RPM_NAME = "tslib-devel-1.22-1.10.aarch64.rpm"
-RPM_HASH = "4716653ae941831aca40b169a41429eb9af65a399c4596c9ddda13b82cae940d99acaf5cbe07f86eb87895fdd89e1aad89e352a9e81d071d95ebae1d1d766eda"
+RPM_NAME = "tslib-devel-1.24-1.4.aarch64.rpm"
+RPM_HASH = "911a4cc542a9837c83bfc0b2d4eeda4620a584d34cd55eabb3a86a1f9a025fd859e0a84581d6d29a87671b07ba14ff84accc2bed151f278cb32d92b01d0990d7"
 
 RPROVIDES:${PN} += "pkgconfig-tslib \
 tslib-devel"

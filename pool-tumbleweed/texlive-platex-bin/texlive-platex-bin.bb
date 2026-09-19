@@ -2,10 +2,10 @@ SUMMARY = "Binary files of platex"
 DESCRIPTION = "Binary files of platex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn66079"
+PV = "2026.20260301.svn67315"
 
-RPM_NAME = "texlive-platex-bin-2023.20230311.svn66079-93.2.aarch64.rpm"
-RPM_HASH = "f1afd070e12963294ee2488908823cb9c767d4584804f081c64bc79760ecf9d0eaf9c1a3b269b193789277481c4bb36afea941d6e40e0b1ecc978f26faee52d9"
+RPM_NAME = "texlive-platex-bin-2026.20260301.svn67315-120.4.aarch64.rpm"
+RPM_HASH = "d28be8ee087ca12063c220181d796133cef527ed94438d5ce9e9708f3fd359d93b5d3a2ae4f1a8c47cd703fb67d9f696742da43bab39b0c2192e2afba4bbdd26"
 
 RPROVIDES:${PN} += "texlive-platex-bin"
 

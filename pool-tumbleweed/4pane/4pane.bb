@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0"
 
-RPM_NAME = "4pane-8.0-1.5.aarch64.rpm"
-RPM_HASH = "90886f0d1662be458534a9588c5bdcc57c07b82f87d94f01038d6b2611765ea68a4d0df4d381388f24924b763de5d014cabe52cdf05933e635284e37ae1c8f30"
+RPM_NAME = "4pane-8.0-2.6.aarch64.rpm"
+RPM_HASH = "64389efac3c5dceaee363b96bf12bb2286bd3bae73a431c8bb722777e673da79c6825d9aab90e756db897bdbd667c3786d2d40be1e44d6c516489f7c178a4e0c"
 
 RPROVIDES:${PN} += "4pane"
 
@@ -24,9 +24,9 @@ libgobject-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 libm.so.6 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0 \
-libwx-gtk2u-html-suse.so.9.0.0 \
-libwx-gtk2u-xrc-suse.so.9.0.0"
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk2u-core-suse.so.16.0.0 \
+libwx-gtk2u-html-suse.so.16.0.0 \
+libwx-gtk2u-xrc-suse.so.16.0.0"
 
 inherit rpm

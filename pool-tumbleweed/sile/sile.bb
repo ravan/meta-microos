@@ -7,10 +7,10 @@ from the ground up using modern technologies and borrowing some ideas from \
 graphical systems such as InDesign."
 LICENSE = "MIT"
 
-PV = "0.14.11"
+PV = "0.15.13"
 
-RPM_NAME = "sile-0.14.11-1.1.aarch64.rpm"
-RPM_HASH = "6a1d918ef4fdd4a1769fa657d2ee8b0230e0f1e225121967c9097ab83bc3504f43d9a318778a00a7012519b615cd448c35eb390f1ef403b22effaafb66cb4444"
+RPM_NAME = "sile-0.15.13-2.7.aarch64.rpm"
+RPM_HASH = "e07f7eb4fa19c3b874acecb40ed6c3bc938caa314ef8802f79b684b79020caaf7d335ef485e557357078c9710b91f5c4f9bbfd9660a001a57031c1038e78a905"
 
 RPROVIDES:${PN} += "sile"
 
@@ -22,32 +22,33 @@ icu \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfontconfig.so.1 \
+libgcc-s.so.1 \
 libharfbuzz-subset.so.0 \
 libharfbuzz.so.0 \
-libicui18n.so.73 \
-libicuuc.so.73 \
-liblua5.4.so.5 \
+libicui18n.so.78 \
+libicuuc.so.78 \
+libluajit-5.1.so.2 \
 libm.so.6 \
 libtexpdf.so.0 \
-lua54 \
-lua54-bit32 \
-lua54-cassowary \
-lua54-cldr \
-lua54-cliargs \
-lua54-cosmo \
-lua54-fluent \
-lua54-linenoise \
-lua54-loadkit \
-lua54-lpeg \
-lua54-luaepnf \
-lua54-luaexpat \
-lua54-luafilesystem \
-lua54-luarepl \
-lua54-luasec \
-lua54-luasocket \
-lua54-luautf8 \
-lua54-penlight \
-lua54-vstruct \
-lua54-zlib"
+luajit-bit32 \
+luajit-cassowary \
+luajit-cldr \
+luajit-cliargs \
+luajit-compat-5.3 \
+luajit-cosmo \
+luajit-fluent \
+luajit-linenoise \
+luajit-loadkit \
+luajit-lpeg \
+luajit-luaepnf \
+luajit-luaexpat \
+luajit-luafilesystem \
+luajit-luarepl \
+luajit-luasec \
+luajit-luasocket \
+luajit-luautf8 \
+luajit-penlight \
+luajit-vstruct \
+luajit-zlib"
 
 inherit rpm

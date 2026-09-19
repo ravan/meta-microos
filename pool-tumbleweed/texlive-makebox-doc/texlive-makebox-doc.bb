@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-makebox"
 DESCRIPTION = "This package includes the documentation for texlive-makebox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.1svn15878"
+PV = "2026.226.0.0.1svn77682"
 
-RPM_NAME = "texlive-makebox-doc-2023.208.0.0.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "3b9d730637c5eb8a34c18b8f727a343759581b70cd16b3f769e5d8a982d805c18aa85d5462d38edcf518a39eb9af55f0fa998895bd15fc88fbdc67b3acbd759d"
+RPM_NAME = "texlive-makebox-doc-2026.226.0.0.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "1b0c9e6c46287abe849f1e38b0e54cca6244d79efbc5a0c2bdbc34aa104437d1be5e27ce7afe98c9222df195ea9e26b96a5c7203b5e5459a474ab1c097cce3b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makebox-doc"

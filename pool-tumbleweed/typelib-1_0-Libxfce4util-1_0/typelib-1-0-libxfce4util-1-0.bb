@@ -3,10 +3,10 @@ DESCRIPTION = "libxfce4util is a general-purpose utility library with core appli
 for the Xfce Desktop Environment."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.18.1"
+PV = "4.20.1"
 
-RPM_NAME = "typelib-1_0-Libxfce4util-1_0-4.18.1-1.4.aarch64.rpm"
-RPM_HASH = "c7da81b92dea74ebde7f60469ce6d785b3ff8e5a060b5d47e3c2c611017a328d8e158b828d7107a9ff038ceb980a47998ff89968ef207d90d910cca41126458c"
+RPM_NAME = "typelib-1_0-Libxfce4util-1_0-4.20.1-1.5.aarch64.rpm"
+RPM_HASH = "95a9b4a3f6669d181585f50ddf035c61c0c965b51a709f1056b5411de11eb39a104a40494d6b73e3d33602606afb5bd04d4813d7845b6a655e501bb57dca8a14"
 
 RPROVIDES:${PN} += "typelib-1-0-Libxfce4util-1-0 \
 typelib-1-0-libxfce4util-1-0 \
@@ -14,6 +14,7 @@ typelib-Libxfce4util"
 
 RDEPENDS:${PN} += "libxfce4util.so.7 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

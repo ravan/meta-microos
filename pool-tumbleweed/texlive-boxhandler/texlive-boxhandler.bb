@@ -1,7 +1,7 @@
 SUMMARY = "Flexible Captioning and Deferred Box/List Printing"
 DESCRIPTION = "The package allows the user to optimise presentation of LaTeX \
 tables and figures. Boxhandler will lay out table and figure \
-captions with a variety of stylistic apperances, and will also \
+captions with a variety of stylistic appearances, and will also \
 allow figures and tables to be 'wrapped' in a manner consistent \
 with many business and government documents. For a document \
 that might appear in different venues with different \
@@ -16,10 +16,10 @@ separate source file, while nonetheless producing a document \
 with figures and tables appearing in the desired location."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.30svn28031"
+PV = "2026.226.1.30svn76790"
 
-RPM_NAME = "texlive-boxhandler-2023.209.1.30svn28031-53.1.noarch.rpm"
-RPM_HASH = "c0f542918494b4a03bf18ea14a6903ab4bbf2dbfc510dc74f7d8ea3dee6b7e949cd773f37167432cd581bf5df4d775c6647d2373583a0fa0fd13ff3e144e4158"
+RPM_NAME = "texlive-boxhandler-2026.226.1.30svn76790-59.2.noarch.rpm"
+RPM_HASH = "591d67a4349acf3b339b8d5e24c5d65bad2f0bb417b89cad669880682efc193c47c05cbfcc8e11e83926d930946d7b495872a3d9fdd474e798a79005575a9b71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-boxhandler.sty \

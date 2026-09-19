@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-realhats"
 DESCRIPTION = "This package includes the documentation for texlive-realhats"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.0svn63595"
+PV = "2026.226.7.1svn66924"
 
-RPM_NAME = "texlive-realhats-doc-2023.209.6.0svn63595-54.2.noarch.rpm"
-RPM_HASH = "34663f02fd4323f095e70b25ffa43dbe214dc4036c1836220ccaa0eab295862a3a99fb7795073f4f8284d435db3381871fb72057a6e6a71a9035b962dd645e62"
+RPM_NAME = "texlive-realhats-doc-2026.226.7.1svn66924-60.4.noarch.rpm"
+RPM_HASH = "c0f24a40c46c672e296a895e69937d6c35a0359ef29d557cda5d04e0d44adb0f503fc710f78badcff5703b76263645be809c03c2d4af10f6c9e7e172f2f84e18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-realhats-doc"

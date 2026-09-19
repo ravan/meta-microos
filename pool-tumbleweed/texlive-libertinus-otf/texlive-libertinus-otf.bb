@@ -2,14 +2,14 @@ SUMMARY = "Support for Libertinus OpenType"
 DESCRIPTION = "This package offers LuaLaTeX/XeLaTeX support for the Libertinus \
 OpenType fonts maintained by Khaled Hosny. Missing fonts are \
 defined via several font feature settings. The Libertinus fonts \
-are similiar to Libertine and Biolinum, but come with math \
+are similar to Libertine and Biolinum, but come with math \
 symbols."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.29svn60023"
+PV = "2026.226.0.0.34svn77682"
 
-RPM_NAME = "texlive-libertinus-otf-2023.209.0.0.29svn60023-55.1.noarch.rpm"
-RPM_HASH = "9b5d153d595d5857b162b6c9eab13df7973cea3318f6f9c2cb8b1709d5805dc280e4f4959b81243a075d0d5524f7c02fae3377f56d3afac92ac44fb096d4affb"
+RPM_NAME = "texlive-libertinus-otf-2026.226.0.0.34svn77682-61.2.noarch.rpm"
+RPM_HASH = "0e455210b94f474354a4644bec48442c3e1dd4d50557bbe1fe64b75d92cd2cca10058d84d9a5e48a5e5363698028fcd4ddabdda58a01123f2224637c25ad6099"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-libertinus-otf.sty \
@@ -22,9 +22,9 @@ findutils \
 grep \
 sed \
 tex-fontspec.sty \
-tex-ifluatex.sty \
-tex-ifxetex.sty \
-tex-textcomp.sty \
+tex-iftex.sty \
+tex-lua-unicode-math.sty \
+tex-newunicodechar.sty \
 tex-unicode-math.sty \
 tex-xkeyval.sty \
 texlive \

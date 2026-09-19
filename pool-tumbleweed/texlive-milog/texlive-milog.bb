@@ -20,10 +20,10 @@ automatically create a time sheet. Alternatively, data can also \
 be collected by a CSV export of a suitable app."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn41610"
+PV = "2026.226.1.0svn75447"
 
-RPM_NAME = "texlive-milog-2023.209.1.0svn41610-55.1.noarch.rpm"
-RPM_HASH = "23b306c88bb36bbe97c1c09afd817eea0fb6573dce62034dfcf5ed751afdeaa71f6e197f71db45120f97065b30deb3b45d28ed63e25008e6878fa7736e775500"
+RPM_NAME = "texlive-milog-2026.226.1.0svn75447-61.2.noarch.rpm"
+RPM_HASH = "0f2034dddb5938d117fdca67cabbda58ca6d02cd59e16cdc4412a13ae7ca4ca4dfa7a36e2a0d400ae2c0dd77d5bd5bc2f5c6a2ce9c4ec451875a908e67b9ffd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-milog.cls \

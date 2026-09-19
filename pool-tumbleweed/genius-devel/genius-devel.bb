@@ -5,10 +5,10 @@ calculator and as a research or educational tool. The syntax \
 mimics how mathematics is usually written."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.0.27"
+PV = "1.0.29"
 
-RPM_NAME = "genius-devel-1.0.27-1.10.aarch64.rpm"
-RPM_HASH = "deb2fd1f73295ada9ad2acb5c0fde13315744b71d5f46bcc8ff702d29f27793d09684059ef3d3c2d0c9159dfe436d88ed295090f7da25d31423d9fe1b282f02d"
+RPM_NAME = "genius-devel-1.0.29-2.3.aarch64.rpm"
+RPM_HASH = "2f8c09da46d50819c2a4e1d692c2905d2c01784063c20e9d6fe533a551f2afe35d0d5bdce7caab20a0faa2e5a42a38446de9d61e56cf6353c85fc2f000c423e3"
 
 RPROVIDES:${PN} += "genius-devel"
 

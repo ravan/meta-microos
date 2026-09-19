@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development documentation for \
 PEGTL (Parsing Expression Grammar Template Library)."
 LICENSE = "MIT"
 
-PV = "3.2.7"
+PV = "3.2.8"
 
-RPM_NAME = "pegtl-devel-doc-3.2.7-1.3.noarch.rpm"
-RPM_HASH = "909717c8137c62998ea2551d720ddfe260483e10b948a6b5ca16e2049f6e2e32b8796e7753ed72c9b4f3b6a78e35d57909a4d44dd5e7b8ab55be297b6844b07c"
+RPM_NAME = "pegtl-devel-doc-3.2.8-1.4.noarch.rpm"
+RPM_HASH = "e431d6cf37be40c519ad43e3c27c8eb8d3ed3bc9d3f043c05e6b0dd53cc737ed3ae261d33e6cfebe7c06ff7f9da82ff53a45f5ac2fc9f066991eb85e4ec9ffd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pegtl-devel-doc"

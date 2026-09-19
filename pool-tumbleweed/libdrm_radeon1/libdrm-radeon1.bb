@@ -6,10 +6,10 @@ This package provides userspace interface for Kernel DRM services \
 for AMD Radeon chips."
 LICENSE = "MIT"
 
-PV = "2.4.116"
+PV = "2.4.134"
 
-RPM_NAME = "libdrm_radeon1-2.4.116-1.1.aarch64.rpm"
-RPM_HASH = "45423e43dd67a707ac666759c360cdfd5b280fe831bb597841c6c0caa5590eb92b1c326c64f2d00d2d43e9d42156e4d4992ed4a4b44b1c4326519b2e20ee1dfe"
+RPM_NAME = "libdrm_radeon1-2.4.134-2.2.aarch64.rpm"
+RPM_HASH = "2dfe7bba2382704e6df1fac5b301c735fd4e7893c1246ca8f02a4ac602e12cf8e77f0099804d0230b4b96f348165b968f3f76faa375cee559d7d9c447867522a"
 
 RPROVIDES:${PN} += "libdrm-radeon.so.1 \
 libdrm-radeon1"

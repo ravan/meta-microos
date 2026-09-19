@@ -1,11 +1,11 @@
-SUMMARY = "Source Han Sans JP"
-DESCRIPTION = "Source Han Sans is an open source Pan-CJK typeface whose OpenType/CFF fonts and CID-based sources are covered under the terms of the SIL Open Font License."
+SUMMARY = "Source Han Sans variation for Japanese"
+DESCRIPTION = "Source Han Sans is a pan-CJK typeface in OpenType/CFF and CID forms."
 LICENSE = "OFL-1.1"
 
-PV = "2.004"
+PV = "2.005"
 
-RPM_NAME = "adobe-sourcehansans-jp-fonts-2.004-1.6.noarch.rpm"
-RPM_HASH = "b6d6fb22833a544da6ac3d5f4c6eef7323a372b77769ef6c41a6634e8c8bee2ee9c72023cc37c37044d04cf52beb22bd3bcbfdf9c28fac44e29af87df5e64686"
+RPM_NAME = "adobe-sourcehansans-jp-fonts-2.005-1.3.noarch.rpm"
+RPM_HASH = "f66531ebc30900ebef6b8eb57935bc31444a43e771e54fc803632337a7d34eb36ae08dca7a7424c39e9c821d1565d696ec7881bb663a870cd94ab471ae80df39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adobe-sourcehansans-jp-fonts \

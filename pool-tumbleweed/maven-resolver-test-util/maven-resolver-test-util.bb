@@ -2,10 +2,10 @@ SUMMARY = "Maven Artifact Resolver Test Utilities"
 DESCRIPTION = "A collection of utility classes to ease testing of the repository system."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.12"
+PV = "2.0.22"
 
-RPM_NAME = "maven-resolver-test-util-1.9.12-1.1.noarch.rpm"
-RPM_HASH = "241f4c5f1560b95a685a1a46138b3d6eac62e64c8da3e382e322c75411ce7c4829a1b2249b12fbedcd53d97a4bba0f2b79e7d36a0bdb4d8392187cf5679911cd"
+RPM_NAME = "maven-resolver-test-util-2.0.22-1.1.noarch.rpm"
+RPM_HASH = "8a1ddc32076bb1574512a8eac3274b903db61f6b5abef91b17336990208704c6d2170478f927acf7de2efef86e03b98c883aa28e5e0c6dc8545e0dfbca5cb2a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-test-util \

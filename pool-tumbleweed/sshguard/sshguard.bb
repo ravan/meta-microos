@@ -4,10 +4,10 @@ against ssh servers. It detects such attacks and blocks the \
 attacker's address with a firewall rule."
 LICENSE = "ISC"
 
-PV = "2.4.2"
+PV = "2.5.1"
 
-RPM_NAME = "sshguard-2.4.2-6.4.aarch64.rpm"
-RPM_HASH = "8f68369579108a6ef180e08ed15a1b285b8548e4c9cd05f64a53414f613beee977cf0f78b4ac83af1695da4f031508241cb21bc7f74f92faa6fbd5179f0679b7"
+RPM_NAME = "sshguard-2.5.1-1.1.aarch64.rpm"
+RPM_HASH = "7b29a9fda89b8cadd378836fde861daac4fe31ebb599aee3474cca6fbb210a23c1a95adec98d7c843d9fce3610f90eed333483f1a29f7e319a4e4605a6887f91"
 
 RPROVIDES:${PN} += "config-sshguard \
 sshguard"

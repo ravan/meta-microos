@@ -5,14 +5,13 @@ LICENSE = "MIT"
 
 PV = "7.6_1"
 
-RPM_NAME = "xorg-x11-driver-video-7.6_1-19.9.aarch64.rpm"
-RPM_HASH = "4df1a2042d8826e784f6d406a89fda3bb0c3891130308d08d9c93658b2da0604fedfb953abd228eead02e169257d9ee15d8362bf7b1ca85bfbf43066e94c6bc3"
+RPM_NAME = "xorg-x11-driver-video-7.6_1-20.6.aarch64.rpm"
+RPM_HASH = "fce05aeeba924525b78918b59dc95946a32498447d8e8c48c493e943d29f1e659d40475d81bca2f692e07b6eb25c50c92350478c255cbec6d0e466c588922734"
 
 RPROVIDES:${PN} += "xorg-x11-driver-video \
 xorg-x11-driver-video-radeonhd \
 xorg-x11-driver-video-unichrome"
 
-RDEPENDS:${PN} += "xf86-video-fbdev \
-xorg-x11-server"
+RDEPENDS:${PN} += "xorg-x11-server"
 
 inherit rpm

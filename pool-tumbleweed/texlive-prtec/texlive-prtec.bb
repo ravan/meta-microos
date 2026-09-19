@@ -6,10 +6,10 @@ are commented and should be self-explanatory. The package \
 depends on newtx."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.06svn51919"
+PV = "2026.226.1.07svn76790"
 
-RPM_NAME = "texlive-prtec-2023.209.1.06svn51919-53.1.noarch.rpm"
-RPM_HASH = "e9ea2cd41398d2f8c0fb7947a0b2aa34ba6a0d248d4202b60aeab16ff3d47f8a8cbb2d2fef4d18854dfd6d3c02678bf87171551eef2a50f27def91f5eb4e8e4d"
+RPM_NAME = "texlive-prtec-2026.226.1.07svn76790-59.2.noarch.rpm"
+RPM_HASH = "f3b8c38a4572bc968e81e3f73691861e1f59eb1ef429d1f555822e8c89b0f925d3f36d438eeeaa9d8b516f8710a2d6ece5da57cf03b22a911c5433a11cc6f92f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-prtec.cls \
@@ -34,11 +34,8 @@ tex-fnpos.sty \
 tex-geometry.sty \
 tex-graphicx.sty \
 tex-hologo.sty \
-tex-hyperxmp.sty \
+tex-hyperref.sty \
 tex-ifthen.sty \
-tex-inputenc.sty \
-tex-kvoptions.sty \
-tex-kvsetkeys.sty \
 tex-mathtools.sty \
 tex-metalogo.sty \
 tex-multicol.sty \
@@ -47,12 +44,10 @@ tex-newtxmath.sty \
 tex-newtxtext.sty \
 tex-parskip.sty \
 tex-subcaption.sty \
-tex-textcase.sty \
 tex-titlesec.sty \
 tex-xcoffins.sty \
 tex-xcolor.sty \
 tex-xparse.sty \
-tex-xpatch.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

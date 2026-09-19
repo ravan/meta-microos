@@ -1,11 +1,11 @@
-SUMMARY = "A shell parser, formatter, and interpreter with bash support; includes shfmt"
-DESCRIPTION = "A shell parser, formatter, and interpreter. Supports POSIX Shell, Bash, and mksh."
+SUMMARY = "A shell formatter with bash support"
+DESCRIPTION = "A shell formatter. Supports POSIX Shell, Bash, and mksh."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.5.1"
+PV = "3.12.0"
 
-RPM_NAME = "shfmt-3.5.1-1.7.aarch64.rpm"
-RPM_HASH = "20d4af4dda389443107bc82e98d13178a4040e66b797993fc83dbdb54b805f85ce28bf3d8b4110a864ab3b4c386cca8832ee892556cbb54f20369caf8c6b211c"
+RPM_NAME = "shfmt-3.12.0-1.8.aarch64.rpm"
+RPM_HASH = "33ea971ac8f4f484177235807a08cba36d6944e165b08bfc072a3e593e0b93afa02add16772820b998534d044815af63690629bc451c6e171e46542b0b011e17"
 
 RPROVIDES:${PN} += "shfmt"
 

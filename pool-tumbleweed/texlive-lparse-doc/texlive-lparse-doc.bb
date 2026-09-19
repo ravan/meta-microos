@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lparse"
 DESCRIPTION = "This package includes the documentation for texlive-lparse"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.0svn65693"
+PV = "2026.226.0.0.3.0svn78101"
 
-RPM_NAME = "texlive-lparse-doc-2023.209.0.0.1.0svn65693-55.1.noarch.rpm"
-RPM_HASH = "9b1998196d4b30e88c0b8f3e7a0feeeffb9cd2861412ae669f67770eb127f64b00b53c525a71d3d69d721c378fc4910affd6c000ac0cd0ed3665dcc9ee1976e3"
+RPM_NAME = "texlive-lparse-doc-2026.226.0.0.3.0svn78101-61.2.noarch.rpm"
+RPM_HASH = "57af1853212033620cf5603d7442a9ba3d4623944bb4b1fd7f5bd925b0739750d08f93d07f113c927eb77215affcab587240ae851fe3c02348e1734d9dc46e26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lparse-doc"

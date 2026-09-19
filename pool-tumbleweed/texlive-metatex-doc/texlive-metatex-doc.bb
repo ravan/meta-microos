@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-metatex"
 DESCRIPTION = "This package includes the documentation for texlive-metatex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-metatex-doc-2023.209.1.1svn15878-55.1.noarch.rpm"
-RPM_HASH = "7164614c7eb61549ad27ea4fdebd7fd83f84f7e6c2f7a2540e26e8bd16f3e5d4a9ae8048fde9e60b28d28c008ade44af4e8952b900d683c9e6297b5d7ffe598d"
+RPM_NAME = "texlive-metatex-doc-2026.226.1.1svn15878-61.2.noarch.rpm"
+RPM_HASH = "9c275b1e71e6660399c3e068d5522f4e5a1943fbaddafff2a388869ea40e4b81604b23073f15bb0e7781dbfcd8d51868cb84637519cffd9543dadf6a7a80ea86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metatex-doc"

@@ -7,10 +7,10 @@ utility to test themes and a small application to test window \
 managers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.46.1"
+PV = "3.56.0"
 
-RPM_NAME = "metacity-tools-3.46.1-1.2.aarch64.rpm"
-RPM_HASH = "904a7dc7bbda9890bb7390d6b00b60e1a87f2a1835f31c6ab9fe5faaef8df23e30e2da29e259874a4ac726e7863cb12b566452b01ba3ac50f734650f3799063b"
+RPM_NAME = "metacity-tools-3.56.0-1.6.aarch64.rpm"
+RPM_HASH = "b9a4117197f7aa4e3c6820575d0e7af1ef648de1c4b95b8b6ef86b503a465d6a46d5f71c0d6be7d7d76e77f3e769cd74170b60bd68acf4a32450cb651d1c263b"
 
 RPROVIDES:${PN} += "metacity-tools"
 

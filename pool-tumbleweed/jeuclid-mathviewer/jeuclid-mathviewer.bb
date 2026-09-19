@@ -17,8 +17,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-only"
 
 PV = "3.1.9"
 
-RPM_NAME = "jeuclid-mathviewer-3.1.9-2.7.noarch.rpm"
-RPM_HASH = "0c3088bd0da298ef44aac0f7f4e22e9bfc41e6dcedeab02acac8e3e6527cab672c7e85e5d6abef1c40f2ed07a4767fd8cd13c7bbc5da8e40323ec11742e460dd"
+RPM_NAME = "jeuclid-mathviewer-3.1.9-4.4.noarch.rpm"
+RPM_HASH = "b502f6b9922f0f6e6dd26aaaad4af18027826693dd15f9940222c9630107216bdf90f7dd3594805fe9bdc674e7f888a92c66b26e6260afe845be30227e26b6d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jeuclid-mathviewer"

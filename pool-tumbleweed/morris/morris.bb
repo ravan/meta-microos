@@ -29,10 +29,10 @@ Furthermore, the game supports: \
   * configurable display"
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2"
+PV = "0.3"
 
-RPM_NAME = "morris-0.2-1.17.aarch64.rpm"
-RPM_HASH = "3becd4b0935b83231ff85b24ac30d3ec45e8fd4f20a790a03cc223ae2b6ef95c718a7d2d5159bcfd93dd8903dbc031ff6f34b638d1689cd3ebbd88b3915c96a5"
+RPM_NAME = "morris-0.3-3.5.aarch64.rpm"
+RPM_HASH = "90c80a7e186fc4838a03fce4a35f4d29b93ee8fb44d8a79569db9da5b22e52e2ce7f83f737613ed6b72d02726288f27ba5f6b11c0b1cc6b91f1347311a2efc6b"
 
 RPROVIDES:${PN} += "morris"
 
@@ -44,7 +44,6 @@ libgdk-x11-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgthread-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 libm.so.6 \
 libstdc++.so.6"

@@ -5,20 +5,19 @@ features, but profits from LLVM's superior optimizing and code generation \
 capabilities."
 LICENSE = "Artistic-1.0 & BSD-3-Clause"
 
-PV = "1.32.2"
+PV = "1.42.0"
 
-RPM_NAME = "ldc-1.32.2-1.1.aarch64.rpm"
-RPM_HASH = "e5805ecde7ac55fac42ef2d7c28dc8709ab00c02845bee7a57ad932fb152d2bcb55bd4fd71957b1094644b1f8deb921debd96ba1c9f7dc950b01a79d87d3fc24"
+RPM_NAME = "ldc-1.42.0-1.3.aarch64.rpm"
+RPM_HASH = "d8a326b30fd05f514967da94ffedb9da70e95cd6286f64f641a8c787ae7d9fea31c6fae851d429eb9cc3cb6c44584aa3e347a92d8db1d38f9133ee2edc41fbfd"
 
-RPROVIDES:${PN} += "config-ldc \
-ldc"
+RPROVIDES:${PN} += "ldc"
 
-RDEPENDS:${PN} += "libLLVM.so.15 \
+RDEPENDS:${PN} += "libLLVM.so.19.1 \
 libc.so.6 \
-libdruntime-ldc-shared.so.102 \
+libdruntime-ldc-shared.so.112 \
 libgcc-s.so.1 \
 libm.so.6 \
-libphobos2-ldc-shared.so.102 \
+libphobos2-ldc-shared.so.112 \
 libstdc++.so.6"
 
 inherit rpm

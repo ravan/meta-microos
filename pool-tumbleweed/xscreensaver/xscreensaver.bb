@@ -23,18 +23,21 @@ xscreensaver program to add a new display mode, you just change a \
 config file."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "6.06"
+PV = "6.15"
 
-RPM_NAME = "xscreensaver-6.06-4.4.aarch64.rpm"
-RPM_HASH = "c1d9671be110837612d4252a71eecc0b881ccade7b2c69b6b214a1eaa90839e558d51b912f4ffc5c07fa5114562d4eeda78f2811e7d81ccbe70e9220b9838117"
+RPM_NAME = "xscreensaver-6.15-3.3.aarch64.rpm"
+RPM_HASH = "9c0b153ecfab03c01b72028b04f51dc6ba2a4923b15052e0f986c8fca9ba8faa5029e7a0d73f79689c1aa17cdcb3966d2a6d9571850bff8a2fc9a82824ceb1c7"
 
 RPROVIDES:${PN} += "config-xscreensaver \
 font--lang=aa \
 font--lang=af \
+font--lang=agr \
 font--lang=an \
 font--lang=av \
 font--lang=ay \
+font--lang=ayc \
 font--lang=be \
+font--lang=bem \
 font--lang=bg \
 font--lang=bi \
 font--lang=br \
@@ -49,6 +52,7 @@ font--lang=csb \
 font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=el \
 font--lang=en \
 font--lang=eo \
@@ -89,10 +93,14 @@ font--lang=lb \
 font--lang=lez \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mhr \
+font--lang=mjw \
 font--lang=mk \
 font--lang=mo \
 font--lang=ms \
@@ -101,6 +109,8 @@ font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -137,36 +147,42 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
 font--lang=uk \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-classicconsole \
 font-gallant12x22 \
 font-luximono \
-font-ocrastd \
+font-ocra \
 font-specialelite \
 xscreensaver \
 xscreensaver-gnome \
 xscrns"
 
-RDEPENDS:${PN} += "/sbin/unix2-chkpwd \
+RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/sh \
 desktop-data \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \
+libGL.so.1 \
 libX11.so.6 \
 libXext.so.6 \
 libXft.so.2 \
@@ -174,10 +190,10 @@ libXi.so.6 \
 libXinerama.so.1 \
 libXrandr.so.2 \
 libXt.so.6 \
-libXxf86vm.so.1 \
 libatk-1.0.so.0 \
 libc.so.6 \
 libcrypt.so.1 \
+libfontconfig.so.1 \
 libgdk-3.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
@@ -185,7 +201,9 @@ libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libpam.so.0 \
 libsystemd.so.0 \
-libxml2.so.2 \
+libwayland-client.so.0 \
+libwayland-server.so.0 \
+libxml2.so.16 \
 xscreensaver-data"
 
 inherit rpm

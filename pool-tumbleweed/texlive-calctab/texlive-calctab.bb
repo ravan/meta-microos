@@ -6,10 +6,10 @@ computes sum and percentage with floating point numeric methods \
 (using the fltpoint package) and builds the render table task."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6.1svn15878"
+PV = "2026.226.0.0.6.1svn15878"
 
-RPM_NAME = "texlive-calctab-2023.209.0.0.6.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "24304265c520794e22d51de4347317617e4dbadeee14cafa9b37b2d2b259bfcead438f1a6c2ab52f7dd4566c464bc41a075f2c18c63efa64ffed7e721c6e8ca7"
+RPM_NAME = "texlive-calctab-2026.226.0.0.6.1svn15878-59.2.noarch.rpm"
+RPM_HASH = "ee1e58eb866f80fed7384528a0272d64f4e7bf96464d69f7b31e3553b33cf78cf1420f4ca9f7070285d93feffa44e0d5d74d0be803bc511476de2acbd52f8c72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-calctab.sty \

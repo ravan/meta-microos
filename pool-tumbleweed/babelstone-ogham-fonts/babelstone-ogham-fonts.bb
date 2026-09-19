@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20220314"
 
-RPM_NAME = "babelstone-ogham-fonts-20220314-1.1.noarch.rpm"
-RPM_HASH = "f8794762ec67f044fc5e5d700bb76d33806654b6396ad92a0ee121d9940ee4b09e3db913f5641d104097a17cb6a50fa27cd719bea60d6285fe08960b94f5f7e8"
+RPM_NAME = "babelstone-ogham-fonts-20220314-1.9.noarch.rpm"
+RPM_HASH = "e9148c87422ada001c8d5c7e8593a91dca05eed1c51793b8b6f3031e68128d050903b11cc32da1b1ca00cd0e94caaf8615add172f9aba2f44f94aefdec23a27e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "babelstone-ogham-fonts"

@@ -5,10 +5,10 @@ image processing, segmentation, and registration. \
 This package provides development files for the ITK library."
 LICENSE = "Apache-2.0"
 
-PV = "5.3.0"
+PV = "5.4.7"
 
-RPM_NAME = "insighttoolkit-devel-5.3.0-3.3.aarch64.rpm"
-RPM_HASH = "1b758c5d3a5dbe0c378694631219f67f35cc84f5a1c69037f5c058d7c85ff943a5fdb75b9867a3a317be8a714578399a179621cc6b313191c2ea104a67e13efb"
+RPM_NAME = "insighttoolkit-devel-5.4.7-1.1.aarch64.rpm"
+RPM_HASH = "3d0332f756de7c4428694edd4e45e16ad42ed1a6a0f233f0bbec6a1a02dc26ca6e39c70d59c1ad8e9329a54d0e57c68bf45b2390f4740a04f9b54956634f36fe"
 
 RPROVIDES:${PN} += "cmake-ITK \
 insighttoolkit-devel \
@@ -19,18 +19,17 @@ double-conversion-devel \
 fftw3-threads-devel \
 hdf5-devel \
 ld-linux-aarch64.so.1 \
-libITKCommon-5.3.so.1 \
-libITKTestKernel-5.3.so.1 \
+libITKCommon-5.4.so.1 \
+libITKTestKernel-5.4.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libinsighttoolkit5-3-1 \
-libitksys-5.3.so.1 \
-libitkvnl-5.3.so.1 \
+libinsighttoolkit5-4-1 \
+libitksys-5.4.so.1 \
+libitkvnl-5.4.so.1 \
 libstdc++.so.6 \
 pkgconfig-expat \
 pkgconfig-fftw3 \
 pkgconfig-libjpeg \
-pkgconfig-libpcrecpp \
 pkgconfig-libpng \
 pkgconfig-libtiff-4 \
 pkgconfig-libxml-2.0 \

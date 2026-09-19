@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2.8"
 
-RPM_NAME = "ghc-tabular-doc-0.2.2.8-4.8.noarch.rpm"
-RPM_HASH = "422983ee9fd8c3d29171b36b5ed10ea134ca4778797fe70bd5b6387bc48a62d03d0c684f58a2172369e1b652b592629d2a20e4c4bb5842c05d73c10062832dc5"
+RPM_NAME = "ghc-tabular-doc-0.2.2.8-4.31.noarch.rpm"
+RPM_HASH = "a88a550a58a10e73bf30e3e1f3b77b90a3f5537e44947dd4fc5a348671549f7ab51272f390bf38c149ca49cdb2ca8706add36925d0621581d4994f200b7e8b0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-tabular-doc"

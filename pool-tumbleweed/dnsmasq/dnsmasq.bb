@@ -8,10 +8,10 @@ DHCPv4, DHCPv6, BOOTP and PXE. RA can be used stand-alone or in \
 conjunction with DHCPv6."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "2.89"
+PV = "2.93"
 
-RPM_NAME = "dnsmasq-2.89-4.2.aarch64.rpm"
-RPM_HASH = "ce49e5e7685150c5958cb49933046e58c11673bb5369bd1c0e4a1b69c9616d10c48fe36a9cfac450852de9eaa180be0be505e46d2b85f364c57a950778c53bbe"
+RPM_NAME = "dnsmasq-2.93-2.3.aarch64.rpm"
+RPM_HASH = "c466df6c389fa4dc7783db91caafe8794b3dfe293def439fdfdffd274281bdfe5458e141165af01100bb8ce7dae39628caa2404f467b1f6afa07f53f206a1c88"
 
 RPROVIDES:${PN} += "config-dnsmasq \
 dns-daemon \
@@ -20,7 +20,6 @@ group-dnsmasq \
 user-dnsmasq"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \
 libgmp.so.10 \
@@ -29,6 +28,7 @@ libidn2.so.0 \
 liblua5.4.so.5 \
 libnetfilter-conntrack.so.3 \
 libnettle.so.8 \
+libnftables.so.1 \
 sysuser-shadow \
 user-tftp"
 

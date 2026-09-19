@@ -5,10 +5,10 @@ repository (such as vcfcheck, vcfmerge, vcfisec, etc.) and the samtools BCF call
 of samtools. BCFtools are meant as a faster replacement for most of the perl VCFtools commands."
 LICENSE = "MIT"
 
-PV = "1.16"
+PV = "1.21"
 
-RPM_NAME = "bcftools-1.16-1.4.aarch64.rpm"
-RPM_HASH = "dea7c3d9355d911998cf220a555470ec883dafde958e2c9805023af02cdf75a994a801edeaed2d1d3f76d3c53fd4ab9558ae8839788204f1749c66c57e90bfa1"
+RPM_NAME = "bcftools-1.21-1.6.aarch64.rpm"
+RPM_HASH = "65bee41ed65cd1ce2f3b4722137090b84a3b2ca3ba48a57704fa5203ee320f34ffc44c84993e46c5345b2db4934e4a8ad40b21a5da95984353305dd3e9816635"
 
 RPROVIDES:${PN} += "bcftools"
 
@@ -20,7 +20,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libhts.so.3 \
 libm.so.6 \
-perl \
+perl-base \
 python3-base \
 python3-matplotlib \
 tabix"

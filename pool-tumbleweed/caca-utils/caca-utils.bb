@@ -14,10 +14,10 @@ that shows the libcaca rendering features such as line and ellipses \
 drawing, triangle filling and sprite blitting."
 LICENSE = "WTFPL"
 
-PV = "0.99.beta20"
+PV = "0.99.beta20+git.1776622070.7c8e333"
 
-RPM_NAME = "caca-utils-0.99.beta20-1.5.aarch64.rpm"
-RPM_HASH = "c24bc9e9cfa12ca72479e32500644eaeb16be44c9c36142e5911e73865446d88c877ae98b9767908db8c85974e9ee59ec3742797e99bf1ccd8939b32f7251188"
+RPM_NAME = "caca-utils-0.99.beta20+git.1776622070.7c8e333-2.3.aarch64.rpm"
+RPM_HASH = "3fc521b3b7dde033512bb85b949656ccaaed98b372417f88b520021b96b25ba2e39cbe324ae7a50ca7738c696d88e8ba557b341b1e3553b3dbc5038739efb35c"
 
 RPROVIDES:${PN} += "caca-utils"
 

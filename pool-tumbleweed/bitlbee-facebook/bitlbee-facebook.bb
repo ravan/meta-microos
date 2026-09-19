@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.2.2+git.1614281748.a31ccbe"
 
-RPM_NAME = "bitlbee-facebook-1.2.2+git.1614281748.a31ccbe-1.11.aarch64.rpm"
-RPM_HASH = "73a76fb72ebcf12de8e0309745499c9cada4ed7002804524fa5fabe352a9f04b32ac77b7a4fc9d8600e5dfe9472b52c6a334c5841f042c2b295f0eb362b54c43"
+RPM_NAME = "bitlbee-facebook-1.2.2+git.1614281748.a31ccbe-1.20.aarch64.rpm"
+RPM_HASH = "d7e245621a47928279e0115809d54c9508a8b465cdd7b2347ca8ef1f7788e21a18137e30b218b6d8203ef858bd140deea5a8130edcf5339a2239f989963e0014"
 
 RPROVIDES:${PN} += "bitlbee-facebook"
 

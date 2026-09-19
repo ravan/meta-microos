@@ -7,8 +7,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.2"
 
-RPM_NAME = "opengl-games-utils-0.2-1.4.noarch.rpm"
-RPM_HASH = "ce6985f225701421bc928e8632ba65dc617be781c9cff247c1ba9fab3ce1928eb3019ede7bfe408194837321c49b41f7787a6e703856ba3eaf1a4c6e6493086a"
+RPM_NAME = "opengl-games-utils-0.2-3.7.noarch.rpm"
+RPM_HASH = "416804a6590d9ea6e8243bd91892df3e72d9244af41122c5cda81991d11d31030e6505910ee974b49fdbc6dcd12b843ed2f7f9d7e464f450dc3939964b6c49ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opengl-games-utils"

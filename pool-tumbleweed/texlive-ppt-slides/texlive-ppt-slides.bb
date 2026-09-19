@@ -5,10 +5,10 @@ strict. Check this series of lectures fully designed with the \
 use of this package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.1svn65194"
+PV = "2026.226.0.0.6.0svn76559"
 
-RPM_NAME = "texlive-ppt-slides-2023.209.0.0.2.1svn65194-53.1.noarch.rpm"
-RPM_HASH = "2c66d99d705b142cd365f50b7f46556a7c23ce8a9676727577439936e7b8bbe5ca176d2a5e0a73b09600d9805ecf8792abd6efe7a8088a8529d38374a1d29d53"
+RPM_NAME = "texlive-ppt-slides-2026.226.0.0.6.0svn76559-59.2.noarch.rpm"
+RPM_HASH = "4295e51af4aedc196b052ffa0029372223777ea98e001a530e0f10b0d6ff67fabc6b71e8bc89ec9a1eb067244622b9afd7e9da9d5ef58766959f54ff6e903489"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ppt-9x6.tex \
@@ -25,7 +25,9 @@ ed \
 findutils \
 grep \
 sed \
+tex-calc.sty \
 tex-crumbs.sty \
+tex-csquotes.sty \
 tex-enumitem.sty \
 tex-href-ul.sty \
 tex-ifthen.sty \
@@ -39,12 +41,19 @@ tex-tikzpagenodes.sty \
 tex-varwidth.sty \
 tex-xcolor.sty \
 texlive \
+texlive-anyfontsize \
+texlive-changepage \
 texlive-crumbs \
 texlive-enumitem \
 texlive-filesystem \
-texlive-hyperref \
+texlive-fontsize \
+texlive-hardwrap \
+texlive-href-ul \
+texlive-ifoddpage \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-lastpage \
+texlive-listings \
 texlive-pagecolor \
 texlive-pgf \
 texlive-pgfopts \
@@ -52,8 +61,10 @@ texlive-qrcode \
 texlive-scripts \
 texlive-scripts-bin \
 texlive-seqsplit \
+texlive-soul \
+texlive-textpos \
 texlive-tikzpagenodes \
-texlive-tools \
+texlive-titling \
 texlive-varwidth \
 texlive-xcolor"
 

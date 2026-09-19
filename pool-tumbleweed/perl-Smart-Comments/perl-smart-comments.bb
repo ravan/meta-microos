@@ -11,13 +11,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.06"
 
-RPM_NAME = "perl-Smart-Comments-1.06-1.27.noarch.rpm"
-RPM_HASH = "a7c07e918a4f36520cf5e00cd9be2361ebdd6e4d58a658653186534003cfa248e881af48512c5bd871f904ae793449b7e78b5e4af2ee2810897f109f9ab8b391"
+RPM_NAME = "perl-Smart-Comments-1.06-1.41.noarch.rpm"
+RPM_HASH = "93146ebb4547cac0a152f1dc9cb68b800b4aa0f4abfbfce490823cc9c0eb23ea795e0070a0e2c361e76ced5fe5861a5e9aba2554944e630b2d5f984bcefb88cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Smart--Comments \
 perl-Smart-Comments"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

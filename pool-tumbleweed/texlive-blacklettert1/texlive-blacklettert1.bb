@@ -6,10 +6,10 @@ Schwabacher and Fraktur (which are also available in Adobe type \
 into the LaTeX font selection scheme."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-blacklettert1-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "ee881e60c324f1d4adfd935fe75963a17547e2a07ffa939a9db69ea1be4d36e875e8438840bf417d5144f2166a3a6950dbfff5e81917187af17805f9c5fc7126"
+RPM_NAME = "texlive-blacklettert1-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "54fd4fa58f409a7f3a18fa5b54965eddb8eb9a0c3b2a8b5a8a21e95d022206df9b888a625e57a462252bf7f78bd515ad755f55ea6770b80a379811471eb81ef7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t1yfrak.fd \

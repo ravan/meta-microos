@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon SimpleDB"
 DESCRIPTION = "The AWS Java SDK for Amazon SimpleDB module holds the \
 client classes that are used for communicating with \
 Amazon SimpleDB Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-simpledb-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "1910aef982a9cf2209f959570fd41aef8c09bf61d418073de2ba220540be5ee7b463d636b568f9fda1c8a6875d5cc37f4d10ebf36a8b04020e1af0a1a268932e"
+RPM_NAME = "aws-sdk-java-simpledb-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "c4dc5a0d199fe2c431b35587b055831ea160c24403c174cff092a590749eba2cbc5734104b5c660211c5f9defa1ae441c168b5adc9dc5fe3527fb4048514b958"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-simpledb \

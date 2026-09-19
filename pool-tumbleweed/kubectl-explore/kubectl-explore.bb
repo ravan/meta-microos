@@ -1,11 +1,12 @@
 SUMMARY = "A better kubectl explain with the fuzzy finder"
-DESCRIPTION = "This plugin fuzzy-finds the field explanation from supported API resources. It implements different explanations for particular API version."
+DESCRIPTION = "This plugin fuzzy-finds the field explanation from supported API resources. It \
+implements different explanations for particular API version."
 LICENSE = "MIT"
 
-PV = "0.7.1"
+PV = "0.14.1"
 
-RPM_NAME = "kubectl-explore-0.7.1-1.5.aarch64.rpm"
-RPM_HASH = "7896c8f7e4c88e60f2daaf37f484369f1c907c90aa93a2fceec50d50312c77a65147110277529533efa2ea6c373e4dfe1067097ee75dbd1c320cee5342ebf908"
+RPM_NAME = "kubectl-explore-0.14.1-1.7.aarch64.rpm"
+RPM_HASH = "8cc5a38a83a3973a5739a62cd833cf278c0f61499e4f71c94b589e319c326aa72a716f3ce03eb49263db15f29f113caa89684415978a69ba4c4c9b05d6ce1538"
 
 RPROVIDES:${PN} += "kubectl-explore"
 

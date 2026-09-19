@@ -5,10 +5,10 @@ The QPSQL driver supports version 9 and higher of the PostgreSQL \
 server."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-sql-postgresql-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "3bcdec67418c26eeefe198effd7ef5dc3ebd6866c6a7761a9a5373e04ac2c1ec7a69a3868498c3b94a44b3aeb4f16238a5db33eeaf14a440c8eb00da7f50418e"
+RPM_NAME = "qt6-sql-postgresql-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "fd87aba5bf9469db172d2deb1b378a6f7d8926733daa7f0b2d41615ded147331acdc8a053beeb46f8e486d5026e8aacdd39b6b38983dc427483f8bbe610646d2"
 
 RPROVIDES:${PN} += "libqsqlpsql.so \
 qt6-sql-postgresql"

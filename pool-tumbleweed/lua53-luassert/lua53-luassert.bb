@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.7.11"
 
-RPM_NAME = "lua53-luassert-1.7.11-5.1.noarch.rpm"
-RPM_HASH = "2ba26e185ceea86493fa16b42ce6869283e9ef3a025b5ae240bd823f488e227eb065f78c05d751cf186ebd0c76d9fa4ba66f1ab7e02468191529f0156bf12dc0"
+RPM_NAME = "lua53-luassert-1.7.11-7.2.noarch.rpm"
+RPM_HASH = "3f6c7d23a8c4315e45de77ba75a5e7435afe18071458be64c64a113daed1a67ed28dabadbb23a589204c8a761c69eb7bbcb6866b90876141325a52d6939faf27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-luassert"

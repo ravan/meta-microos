@@ -3,24 +3,22 @@ DESCRIPTION = "OpenShot Video Editor is a non-linear video editor. It can create
 edit videos and movies using many video, audio, and image formats."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.1.1"
+PV = "4.0.0"
 
-RPM_NAME = "openshot-qt-3.1.1-1.1.noarch.rpm"
-RPM_HASH = "2fecbb1ede76ef893a92e41bdf6caaa84bd559e2335339030c7faa935f5d2a098e3509ce02d0dbd5ba51281e45ed285134979cd129f5c4648c59e609a8928d06"
+RPM_NAME = "openshot-qt-4.0.0-1.1.noarch.rpm"
+RPM_HASH = "99b12b1035aa93e0aa2a8f2c5ab0d38dfc958f78fad4a5f1430c94041228f0249ff1e5ba37acdb36c4dbf8dd86f3bd11239a14689b45b41ce43e19b79975d228"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openshot \
 openshot-qt \
-python3.11dist-openshot-qt \
+python3.13dist-openshot-qt \
 python3dist-openshot-qt"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-openshot \
-python3-pyxdg \
 python3-pyzmq \
-python3-qt5 \
-python3-qtwebengine-qt5 \
+python3-qt6 \
 python3-requests"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-texnegar"
 DESCRIPTION = "This package includes the documentation for texlive-texnegar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1esvn57692"
+PV = "2026.227.0.0.1esvn76924"
 
-RPM_NAME = "texlive-texnegar-doc-2023.209.0.0.1esvn57692-55.1.noarch.rpm"
-RPM_HASH = "0fc2b46cf4707fd5c00f7b4374bb1cf35b6f058c14868f91ac69cbc644dcc938516b438c01f692a24138ec55bfa8f1c317c56174536fefad843a958601061880"
+RPM_NAME = "texlive-texnegar-doc-2026.227.0.0.1esvn76924-62.2.noarch.rpm"
+RPM_HASH = "aea55ce9e2f89d3be4ed0e6854f54163c3402b81a0bf0c649d7ff5eb8b8aec967234eccd1c59dfe933527f72bc05561da0c9455ce6413c277fc5891559771030"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texnegar-doc"

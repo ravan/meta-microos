@@ -2,10 +2,10 @@ SUMMARY = "Utilities to inspect MS Internet Explorer Cache Files"
 DESCRIPTION = "Several tools for reading MS Internet Explorer Cache files."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221024"
+PV = "20260525"
 
-RPM_NAME = "libmsiecf-tools-20221024-4.1.aarch64.rpm"
-RPM_HASH = "ac0211c2a63f0cb2d4022618dadba26539c33c17a8efffccb5a1ef9335ed0136db588b30be68429d283f46a5fc9835c56e87a01cbeac1ff0aec0cbf74c73f73a"
+RPM_NAME = "libmsiecf-tools-20260525-1.11.aarch64.rpm"
+RPM_HASH = "374ed1219cbee83b46a6609e6fab39ff8988096e92c980c5eed5935c0ce51d136c88bb44b4a0b6c3b1ed2185dae5e7bf60ad6bc6dc785b2b7064a183d5fd31cc"
 
 RPROVIDES:${PN} += "libmsiecf-tools"
 

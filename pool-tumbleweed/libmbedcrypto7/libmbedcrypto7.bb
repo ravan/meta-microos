@@ -2,12 +2,12 @@ SUMMARY = "Cryptographic base library for mbedtls"
 DESCRIPTION = "This subpackage of mbedtls contains a library that exposes \
 cryptographic ciphers, hashes, algorithms and format support such as \
 AES, MD5, SHA, Elliptic Curves, BigNum, PKCS, ASN.1, BASE64."
-LICENSE = "Apache-2.0"
+LICENSE = "Apache-2.0 | GPL-2.0-or-later"
 
-PV = "2.28.4"
+PV = "2.28.10"
 
-RPM_NAME = "libmbedcrypto7-2.28.4-1.1.aarch64.rpm"
-RPM_HASH = "f21c246a9848f4f45a061fe76db4f8bb3e182de8f18ffa61b948875c6a6a9376af0430c515cccfbb785df4aa20d6436e17a3d0a117b051cb59cc9a82f296f3cd"
+RPM_NAME = "libmbedcrypto7-2.28.10-5.1.aarch64.rpm"
+RPM_HASH = "26f6e79dc55fb8d24524f7885c6cb10e3d641af291ec67177e19d87118ebf4acb963dd02c4947a6f9e2fe87b0d6c057534d129c7706123b8d9ce1c68bdb6c48d"
 
 RPROVIDES:${PN} += "libmbedcrypto.so.7 \
 libmbedcrypto7"

@@ -8,10 +8,10 @@ This package contains the development headers for the library found \
 in libXxf86dga1."
 LICENSE = "MIT"
 
-PV = "1.1.6"
+PV = "1.1.7"
 
-RPM_NAME = "libXxf86dga-devel-1.1.6-1.3.aarch64.rpm"
-RPM_HASH = "9f828772b1862603ce702946b39674f40d6c71ea5ac8c036df49dc0e34423e3847a2ec49eada59e40ff3a329d37374267eca5160598c5e59ef88e4ed2dafafd6"
+RPM_NAME = "libXxf86dga-devel-1.1.7-1.4.aarch64.rpm"
+RPM_HASH = "37340def51cd2fec3ace4535b3ba6964f23c4be985fb97f07fb857a2d30072150e4b9403d38cdc80642b6ebbd3aa61d73c97c606d39ba7853e32db2f48621700"
 
 RPROVIDES:${PN} += "libXxf86dga-devel \
 pkgconfig-xxf86dga"

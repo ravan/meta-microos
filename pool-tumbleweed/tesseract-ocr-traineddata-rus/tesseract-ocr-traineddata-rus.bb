@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Russian lan
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-rus-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "db57df5046e8a9349e37ac435d70385613a56c91d2f5bcd9aabd04550bf4f0228e2f04fbf5e0cb1624bfda38b84e5e0daba2a09b85e8d59e4b1a3d43ba7904d5"
+RPM_NAME = "tesseract-ocr-traineddata-rus-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "1b84a98900a8ab0cbaa2982c4588e1e4a0bc1e31b767840fb68339074365624529fd78be3becab7da72f2a3bc597a3af02a41de3a03631c569aae4d2e490c140"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-rus \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-ru \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-rus \
 tesseract-ocr-traineddata-russian \
 tesseract-traineddata-russian"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

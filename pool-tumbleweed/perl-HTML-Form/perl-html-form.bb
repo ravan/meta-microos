@@ -6,10 +6,10 @@ be tweaked and it can then be asked to provide HTTP::Request objects that \
 can be passed to the request() method of LWP::UserAgent."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.11"
+PV = "6.130.0"
 
-RPM_NAME = "perl-HTML-Form-6.11-1.3.noarch.rpm"
-RPM_HASH = "c36577b0e6897ac44432fede46dfceee1c673825815c5c9f9dddf59ffac4cc9e3b649a384004d994143b1070ee7b3f2a690160e5f38e857874d4a3dca5d36fcf"
+RPM_NAME = "perl-HTML-Form-6.130.0-1.5.noarch.rpm"
+RPM_HASH = "9856e2fa877fd8a10ac014ea10792421a6b6241d3e13b6740b620a14c005fdfc290950ec6297235fb8e5c5e5fc8875a0ebd5ec8d72f7a001101aa863924ef7ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--Form \
@@ -23,7 +23,7 @@ perl-HTML--Form--SubmitInput \
 perl-HTML--Form--TextInput \
 perl-HTML-Form"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTML--TokeParser \
 perl-HTTP--Request \
 perl-HTTP--Request--Common \

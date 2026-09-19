@@ -2,10 +2,10 @@ SUMMARY = "The Compose table for ibus-table"
 DESCRIPTION = "ibus-table-compose provides the Compose table for ibus-table."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.16"
+PV = "1.3.21"
 
-RPM_NAME = "ibus-table-compose-1.3.16-1.1.noarch.rpm"
-RPM_HASH = "fda67fa119baa855d243124ebffbba56154fca4c5f5632c6d8faf1261d6ebcc1c7298c8fd4c58164ff9ff24f88e08a2097a62ec2dc8d463264263f00b10cdd60"
+RPM_NAME = "ibus-table-compose-1.3.21-1.5.noarch.rpm"
+RPM_HASH = "4c575788c35a0e3357ba3dc306b79c8d3b87caf82780ed50c2f96e88ae5c11270dfecfd68f053386b94445a608cd423e1d2106624c985c32ecea1b6e987b4120"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-compose"

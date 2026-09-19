@@ -3,10 +3,10 @@ DESCRIPTION = "A class which provides the necessary macros to prepare a \
 (classical) concert programme; a sample is provided."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn18791"
+PV = "2026.226.svn18791"
 
-RPM_NAME = "texlive-concprog-2023.209.svn18791-54.1.noarch.rpm"
-RPM_HASH = "2e209088732581768644bd9cf7fa717d6300e1cba7e02c85b81ea75c882018497a6ebf2105b0533a4a393951f7093adcee7692595890da7d7b697c7e521c0a8c"
+RPM_NAME = "texlive-concprog-2026.226.svn18791-60.2.noarch.rpm"
+RPM_HASH = "cbab3a5e74cb1945b9b5bcbff92427dbd90c3044880de971aad717ca322caa46aa5687ca6b466b084a8dda4efb77ba7b37307babaceee03054a4db42889879b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ConcProg.cls \

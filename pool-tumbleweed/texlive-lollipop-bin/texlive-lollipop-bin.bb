@@ -2,10 +2,10 @@ SUMMARY = "Binary files of lollipop"
 DESCRIPTION = "Binary files of lollipop"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn41465"
+PV = "2026.20260301.svn41465"
 
-RPM_NAME = "texlive-lollipop-bin-2023.20230311.svn41465-93.2.aarch64.rpm"
-RPM_HASH = "54f82c23ab50367cc38064185aedac0f7f34229ef50c3b95e2b7653931720b96a04d5d091c176982c8c49ae837a5f27ba678b875a2d81f5ea0b6c7d49f20196d"
+RPM_NAME = "texlive-lollipop-bin-2026.20260301.svn41465-120.4.aarch64.rpm"
+RPM_HASH = "ce9d829f0d75b2bfbcbfcec959fa5bdb553a077014b16a9ca313c8021cfea5c09695066ece8cb245ad658015bc884ba38090b35c4d4f197e7e345326e86bc761"
 
 RPROVIDES:${PN} += "texlive-lollipop-bin"
 

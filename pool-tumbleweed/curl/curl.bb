@@ -5,10 +5,10 @@ TFTP, DICT, TELNET, LDAP, or FILE). The command is designed to work \
 without user interaction or any kind of interactivity."
 LICENSE = "curl"
 
-PV = "8.2.1"
+PV = "8.22.0"
 
-RPM_NAME = "curl-8.2.1-1.1.aarch64.rpm"
-RPM_HASH = "a8caf7e1a2dc249b2a92d909a524f396d898351d012165ebe3c638b904ea50b8a6c0a026a02debf71614949f4e93e88bb23191c49869ac02a73c7fcee696e144"
+RPM_NAME = "curl-8.22.0-1.1.aarch64.rpm"
+RPM_HASH = "bd166772936450c94d8fc73c85f9c56659f4c7b619d32afe5ad9702bbdf62f855da51d91b1d58acfba14b7cb7c627ae0671f6cbcfd1c4a7a4cfa3a6a7a82cdb9"
 
 RPROVIDES:${PN} += "curl"
 

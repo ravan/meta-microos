@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.04.2"
 
-RPM_NAME = "mate-menu-lang-22.04.2-1.5.noarch.rpm"
-RPM_HASH = "9e8f829d0f6c533ebcaad898056069205bd165c6ea394ca0e1705b9f8c5b2d66f13a2001fbc5d574374a985c5f52cf2a2b17b1a7f633fc86dde64d183b19fbfc"
+RPM_NAME = "mate-menu-lang-22.04.2-3.3.noarch.rpm"
+RPM_HASH = "ed24a48c37c9c5f3fe82cfe150e598208f59bf2ec8c47142db16cf63d082ddef36a9e5a1877a46f3a4388b8bfa4b955ba7afa62cd9289e64eb021c455cc01bc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-menu-af \

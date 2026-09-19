@@ -1,14 +1,14 @@
 SUMMARY = "Extensions and patches for fancyvrb"
-DESCRIPTION = "fvextra provides several extensions to fancyvrb, including \
+DESCRIPTION = "This package provides several extensions to fancyvrb, including \
 automatic line breaking and improved math mode. It also patches \
 some fancyvrb internals. Parts of fvextra were originally \
 developed as part of pythontex and minted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn65158"
+PV = "2026.226.1.14.0svn78167"
 
-RPM_NAME = "texlive-fvextra-2023.209.1.5svn65158-53.1.noarch.rpm"
-RPM_HASH = "e2397e75e9881e15626c54de46cd869ffcff2d229e06e56594b61ec05454eb8ba6ec06740084295b41a289bc5904efa85a7cd653cef0af08120de29b5545dfed"
+RPM_NAME = "texlive-fvextra-2026.226.1.14.0svn78167-60.2.noarch.rpm"
+RPM_HASH = "ff1e7169a7077d42d48f5530c8eb578213c680cbb1495ec1c135e1f81f76e8be004d4a10ff73f0c91c55f15e2048fb2a39567491c6dd4e22e85f0e3801ac3413"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fvextra.sty \
@@ -26,6 +26,7 @@ tex-lineno.sty \
 tex-textcomp.sty \
 tex-upquote.sty \
 texlive \
+texlive-fancyvrb \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \

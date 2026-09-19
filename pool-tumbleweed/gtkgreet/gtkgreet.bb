@@ -2,10 +2,10 @@ SUMMARY = "GTK based greeter for greetd"
 DESCRIPTION = "GTK based greeter for greetd, to be run under cage or similar."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.7"
+PV = "0.8"
 
-RPM_NAME = "gtkgreet-0.7-2.3.aarch64.rpm"
-RPM_HASH = "39dc5d78c2e44bb4addb329f52020d3e8bdf1030af2c41b93ee52ca4a514e26837ac1b64c4c5fdfd292266cab48c92c117b79ac8954f27e5a56d81b9992893da"
+RPM_NAME = "gtkgreet-0.8-1.11.aarch64.rpm"
+RPM_HASH = "a869e049dbe3891d4e56f0f37493abadaba50ab69946581f7e3f15e42d1026ecefdf0e5b46fcce7b388116430c75ee5b5fa4f78085ad2c07be6f07d9178330ce"
 
 RPROVIDES:${PN} += "gtkgreet"
 

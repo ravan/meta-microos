@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-etaremune"
 DESCRIPTION = "This package includes the documentation for texlive-etaremune"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn15878"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-etaremune-doc-2023.209.1.2svn15878-53.1.noarch.rpm"
-RPM_HASH = "f462ff230811470c5771d8733368ae21f45824dc1859263ff5cb502a8cad735cec3b011a716f6a30e4b175f04e02d812cf2dbacfc48d5c7fcde6ffc9fd9a8600"
+RPM_NAME = "texlive-etaremune-doc-2026.226.1.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "bb1c51b1b15d563ebdfe9cb503e2d6d81a1fd8e51030cd800e7922d7a16ff27549b61ad3e7711ed5631a293befd63b92d77f8ff1aaba49071617add55c36a21d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-etaremune-doc"

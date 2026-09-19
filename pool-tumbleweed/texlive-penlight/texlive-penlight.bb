@@ -4,10 +4,10 @@ Lua libraries with LuaLaTeX, with some extra functionality \
 added."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64811"
+PV = "2026.226.svn73362"
 
-RPM_NAME = "texlive-penlight-2023.209.svn64811-52.1.noarch.rpm"
-RPM_HASH = "682c40234afa4dcc9d1916b7e83e621b1c5c975b611c63d7205b518c64847ce6855c3115635625b3ca4e01ec7eab7546850d3ee878cf7304da8b32c7e914c37a"
+RPM_NAME = "texlive-penlight-2026.226.svn73362-58.2.noarch.rpm"
+RPM_HASH = "7f590af23329f86b06d85c6f96030cfef7b568c62ddf467c2ded811684381c2ec106e98c7fd6fa9dde9ddaf5e1ff5ab54fb547ee44d1042378128efad908da0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-penlight.sty \
@@ -19,7 +19,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-luacode.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

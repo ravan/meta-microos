@@ -2,10 +2,10 @@ SUMMARY = "Administration library for iODBC"
 DESCRIPTION = "This package provides libiodbcadm for administering iODBC"
 LICENSE = "BSD-3-Clause | LGPL-2.0-only"
 
-PV = "3.52.14"
+PV = "3.52.16"
 
-RPM_NAME = "libiodbcadm2-3.52.14-2.6.aarch64.rpm"
-RPM_HASH = "80fc90c70b086b464ee83cde9b65e7b145e150dccff06c533ebd387b21866cce6dfd0e634807f8e8524a974283ea64cf45aa405f177bb340eb0801940f180b0b"
+RPM_NAME = "libiodbcadm2-3.52.16-2.3.aarch64.rpm"
+RPM_HASH = "5e5f03033a2cf719454f08f10d35b50cb34cc5266b946b418fa0a9fd6a1f70af23f71e1639f9fac2e6876033161c2b2bb79fe4a4dac650ce204a601f12888887"
 
 RPROVIDES:${PN} += "libiodbcadm.so.2 \
 libiodbcadm2"

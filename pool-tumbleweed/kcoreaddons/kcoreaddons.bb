@@ -5,10 +5,10 @@ generating random sequences, performing text manipulations such as macro \
 replacement, accessing user information and many more."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kcoreaddons-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "0551dd5ab675c55b695188fadb6ceac97ed51dff08fe19a694d9676dad48c5dcf9c5da733f414ccca1b57b4b5e545051ee66aff94ecc2f81f21875041f785d5c"
+RPM_NAME = "kcoreaddons-5.116.0-1.9.aarch64.rpm"
+RPM_HASH = "3cab7037b08cbe317735323fdaf4bfaf536abbe9b1cd027e76195f768d1549cb8c8325dfab556486a02a35cd66178be34598a55ac83356b6bce996e4fcb169e7"
 
 RPROVIDES:${PN} += "kcoreaddons"
 

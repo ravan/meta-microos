@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pracjourn"
 DESCRIPTION = "This package includes the documentation for texlive-pracjourn"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.4nsvn61719"
+PV = "2026.226.0.0.4nsvn61719"
 
-RPM_NAME = "texlive-pracjourn-doc-2023.209.0.0.4nsvn61719-53.1.noarch.rpm"
-RPM_HASH = "2f3c636a486294c87ed8fb66059520b61116ddcb8fbf606537e5f4e6fd556244451bb6c7e318d907bd1830bdaa5e4aec4a5fe22afff952a2338d610bf40fa4e3"
+RPM_NAME = "texlive-pracjourn-doc-2026.226.0.0.4nsvn61719-59.2.noarch.rpm"
+RPM_HASH = "d26125e39c1ba444c2170c0969bcfccda1aeff2b61d95b933cf7c0c03ae8030be6c747320413c20c6b62882190c05715b0b61648854c277daebe6f8a97b28e97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pracjourn-doc"

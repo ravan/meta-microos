@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a PCM I/O plugin to access USB USx2y audio 
 for ALSA library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-usb-stream-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "7d1089a0d3a46b7c148078bc0edd51701bea660992ad64886424dafbde4a34b90104a8bb80a1114451640ddf9b20f2756e1bf9b22fc9cb1431cc36df48659e24"
+RPM_NAME = "alsa-plugins-usb-stream-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "cdc626afae250442f7f6f72d4cab63c43e981d96dd665769d1e08cb2441774f413781554fda726a346dbbd58943cae6d49a0e08052c3eb1cad33edcd7ac05df6"
 
 RPROVIDES:${PN} += "alsa-plugins-usb-stream \
 libasound-module-pcm-usb-stream.so"

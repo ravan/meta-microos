@@ -2,13 +2,15 @@ SUMMARY = "Translations for package zanshin"
 DESCRIPTION = "Provides translations for the 'zanshin' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "zanshin-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "5672331c5d8332ba6f2e51d9161c130890249dd1892ab3b8b9641a1029441f7d296f4fe50dae2693514d7f1ef8d22b777e17782e20b47e517fb12cf4bb6d8af6"
+RPM_NAME = "zanshin-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "6ebab5354d6ef2312ed3c933249c554ba5897d4175ac136608c65920d6af61f9e66c5b03c6ab425ac9f0a3178e0cb438458a7723d22403c757ddea65c5c259e8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-zanshin-bg \
+RPROVIDES:${PN} += "locale-zanshin-ar \
+locale-zanshin-ast \
+locale-zanshin-bg \
 locale-zanshin-bs \
 locale-zanshin-ca \
 locale-zanshin-ca@valencia \
@@ -16,6 +18,7 @@ locale-zanshin-cs \
 locale-zanshin-da \
 locale-zanshin-de \
 locale-zanshin-en-GB \
+locale-zanshin-eo \
 locale-zanshin-es \
 locale-zanshin-et \
 locale-zanshin-eu \
@@ -23,6 +26,8 @@ locale-zanshin-fi \
 locale-zanshin-fr \
 locale-zanshin-ga \
 locale-zanshin-gl \
+locale-zanshin-he \
+locale-zanshin-hi \
 locale-zanshin-hu \
 locale-zanshin-ia \
 locale-zanshin-it \

@@ -5,10 +5,10 @@ external formats (BMP, GIF, PNM; TIFF support is coming up) to \
 optimized PNG, and performs PNG integrity checks and corrections."
 LICENSE = "Zlib"
 
-PV = "0.7.7"
+PV = "7.9.1"
 
-RPM_NAME = "optipng-0.7.7-4.3.aarch64.rpm"
-RPM_HASH = "bb92d6476c53ec0b934da4b6ac0976f4a27900b2e3a6b71292c158af33cac2ce5de17349301e3997f4ffd5286fbba978c792268c8d7a4df8bcceed49c811315f"
+RPM_NAME = "optipng-7.9.1-1.7.aarch64.rpm"
+RPM_HASH = "8b30d10dedbbd99de0ad5f3545fd21728e6363585c0a90d045823dc279b6eeb96456e5d84399e951e0537e92d9ba701c5adf5e3c67de7b922acead0dd12ca058"
 
 RPROVIDES:${PN} += "optipng"
 

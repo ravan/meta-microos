@@ -10,10 +10,10 @@ update-pciids: This program downloads the current version of the \
 pci.ids file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.10.0"
+PV = "3.14.0"
 
-RPM_NAME = "pciutils-3.10.0-1.1.aarch64.rpm"
-RPM_HASH = "2cb3b128bb3c40a4b97368811c8a85d4dba4beec8738e5fdf9de631e45c080e2d85c4c8861f1d20b75c34a2cd8479949c07eaf3d8d4b15eb79ac5bb338843f87"
+RPM_NAME = "pciutils-3.14.0-2.4.aarch64.rpm"
+RPM_HASH = "538fa7d45ce5ab4f141c3ced1677ca5578b5f4a6dedce024904bb812d05e699fb7c90771680ca01ad8cd5060311b7fe1433bb2f92bcc4a82135ebb8137772b3d"
 
 RPROVIDES:${PN} += "pciutils"
 
@@ -21,6 +21,7 @@ RDEPENDS:${PN} += "hwdata \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libkmod.so.2 \
-libpci.so.3"
+libpci.so.3 \
+libpci3"
 
 inherit rpm

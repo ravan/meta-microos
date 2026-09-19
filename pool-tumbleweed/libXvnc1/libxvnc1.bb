@@ -2,10 +2,10 @@ SUMMARY = "X extension to control VNC module"
 DESCRIPTION = "Xvnc extension allows X clients to read and change VNC configuration."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "1.13.1"
+PV = "1.16.1"
 
-RPM_NAME = "libXvnc1-1.13.1-3.3.aarch64.rpm"
-RPM_HASH = "cd968b272b85efc7703674d013ca643ef280a81ad5d35237aeb7d6e2d7a8b7fda5992b24b068bba278cfdf3b24ae1cc0b1ef97cfb79fbcb49f9f0f285a046527"
+RPM_NAME = "libXvnc1-1.16.1-3.1.aarch64.rpm"
+RPM_HASH = "ae472b80ef85fe0c41ea58ba482168ca2b89fd55254710e9dc246e0a0c1dd05f2c3bd4314cc64f19af11ee389002f7323d08a6b9a815d111399da71868b2209f"
 
 RPROVIDES:${PN} += "libXvnc.so.1 \
 libXvnc1"

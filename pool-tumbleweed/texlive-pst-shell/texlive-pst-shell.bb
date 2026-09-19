@@ -8,10 +8,10 @@ PSTricks, which should be part of your local TeX installation, \
 otherwise get it from a CTAN server."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.03svn56070"
+PV = "2026.226.0.0.03svn56070"
 
-RPM_NAME = "texlive-pst-shell-2023.209.0.0.03svn56070-54.2.noarch.rpm"
-RPM_HASH = "34bb6206f8e286b5c9f2239bb271439060d560f000e17e31a6cb5a120bf8b1026a169b495d11b5cb07e8c9e67dbad8b6362f5996ff6b8cd884b5f8d1a92160d2"
+RPM_NAME = "texlive-pst-shell-2026.226.0.0.03svn56070-60.4.noarch.rpm"
+RPM_HASH = "f987cfe41471908f97c4f787a66cf4f004d5182f3c890ff39bddab229d048e9baf3359b95c1d916c731b0bb2794f1c9941dda7999fc1d555a683ed2e6639a046"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-shell.sty \

@@ -2,17 +2,16 @@ SUMMARY = "Translations for package kdevplatform"
 DESCRIPTION = "Provides translations for the 'kdevplatform' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdevplatform-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "3806d85795d85cba6cb5424717459624fd94703765cce4b4b32c9076fc08c557b619bd5952a90cfabcb88f8aee3f131b92bcc3a41fc5c07e7d4d7e3ec58a877a"
+RPM_NAME = "kdevplatform-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "4283a21665d469f131a9e37f5b11f67154576344079e3fda0135808ad19b96bcbc3ce4170a5db2bb00a98d9498b3f2fb094febc21d5aa33808dd08a4b31369af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdevplatform-lang \
 kdevplatform-lang-all \
 locale-kdevplatform-ar \
 locale-kdevplatform-az \
-locale-kdevplatform-bg \
 locale-kdevplatform-bs \
 locale-kdevplatform-ca \
 locale-kdevplatform-ca@valencia \
@@ -29,8 +28,11 @@ locale-kdevplatform-fi \
 locale-kdevplatform-fr \
 locale-kdevplatform-ga \
 locale-kdevplatform-gl \
+locale-kdevplatform-he \
+locale-kdevplatform-hi \
 locale-kdevplatform-hr \
 locale-kdevplatform-hu \
+locale-kdevplatform-ia \
 locale-kdevplatform-it \
 locale-kdevplatform-ja \
 locale-kdevplatform-ka \

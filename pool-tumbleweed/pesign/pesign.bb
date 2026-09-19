@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "116"
 
-RPM_NAME = "pesign-116-1.3.aarch64.rpm"
-RPM_HASH = "40c67d682531015ce2e5e764d4e7ef2a4a2caa4b41f40484a996ca221d4637a91057bd5f56d3439b969cfca93b5aee8fda5c98be30199da9c62346034eb4d952"
+RPM_NAME = "pesign-116-11.2.aarch64.rpm"
+RPM_HASH = "1940b2a82d06f1ebff0430406e65a62b1bb5d929331fede8aa4240d4938d053043b5ce0f9073c7e331e0f0b26ec0f523372ee41bf049a127c383dc49555eb623"
 
 RPROVIDES:${PN} += "config-pesign \
 group-pesign \
@@ -26,7 +26,7 @@ libnss3.so \
 libpopt.so.0 \
 libsmime3.so \
 libuuid.so.1 \
-systemd \
+mozilla-nss-tools \
 sysuser-shadow"
 
 inherit rpm

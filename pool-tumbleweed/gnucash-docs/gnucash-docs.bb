@@ -6,10 +6,10 @@ use, but is backed with double-entry accounting principles to ensure \
 balanced books. This is the documentation module for GnuCash."
 LICENSE = "GFDL-1.1-only & GPL-2.0-or-later"
 
-PV = "4.13"
+PV = "5.5"
 
-RPM_NAME = "gnucash-docs-4.13-9.2.noarch.rpm"
-RPM_HASH = "fbef46a166503bb77cbe2b4068777e6d5cea56b801b21d832e48a80e43ff35c176d45158d4d53766aa5d9f1bce253a8a419a4c43b429d8fafa2fcd8a253d8efc"
+RPM_NAME = "gnucash-docs-5.5-1.9.noarch.rpm"
+RPM_HASH = "98eeca9714795f143e32bc6d8621e7b9250205d60c5fe9e1a11dbdb6f0f7b7f80d2b80a052b95fef270f0e2a670875a40202ffaf4695ecd0bd74e9b054f8ea97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnucash-docs"

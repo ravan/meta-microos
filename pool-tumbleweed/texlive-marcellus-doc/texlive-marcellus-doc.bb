@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-marcellus"
 DESCRIPTION = "This package includes the documentation for texlive-marcellus"
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.svn64451"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-marcellus-doc-2023.208.svn64451-53.1.noarch.rpm"
-RPM_HASH = "7c677c0ebd1c7b52a5abeae68b21b7fdca924b2509d56ebc80b924617889e9cc904281a6e634dafeeb5cff2f4abdce954bbe9b84444f9e6298a0f24a96d942d7"
+RPM_NAME = "texlive-marcellus-doc-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "5b2078344048308eb3304c442bab463d97103328cf684c6a19e5bcc35ce05d88a4cf85df41018efad3a36897cccb226a7e874247d59e05529508d0e24cd1aa13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-marcellus-doc"

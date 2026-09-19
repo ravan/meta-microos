@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & GPL-2.0-only"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-plugins-experimental-devel-0.8.18-1.17.aarch64.rpm"
-RPM_HASH = "706246452a9b5602f57596f8e885fdb1eed02a52b00747f1abc053215379fe8f779f7cf88155b69417dcd94df4b0837e12c039e277124975ef342043eb38a866"
+RPM_NAME = "compiz-plugins-experimental-devel-0.8.18-1.26.aarch64.rpm"
+RPM_HASH = "39e175d7c6dc9aa6dc14317bea211ca205bed931d54428bee3b29f5b14be7279eefeb3430d40af2ce2ae7a465390f8a01e7a450b71e8e6cf053fede99f0fe6ba"
 
 RPROVIDES:${PN} += "compiz-plugins-experimental-devel"
 

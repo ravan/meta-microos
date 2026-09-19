@@ -2,18 +2,18 @@ SUMMARY = "Haskell typst-symbols library development files"
 DESCRIPTION = "This package provides the Haskell typst-symbols library development files."
 LICENSE = "MIT"
 
-PV = "0.1.4"
+PV = "0.2"
 
-RPM_NAME = "ghc-typst-symbols-devel-0.1.4-1.1.aarch64.rpm"
-RPM_HASH = "f08e6a384c3afcfade1e3fc379b9e85cff08f568f36b6e9d643d90e6a9e1bc7b07e510d7f55f51709245d095913eb24c65d50bd4abab62290ced14123b0a1256"
+RPM_NAME = "ghc-typst-symbols-devel-0.2-1.2.aarch64.rpm"
+RPM_HASH = "966856e21395391cd03a9ab0fbdae0a48f5aef6a64f38d5b552187a10f5fb36537875406047ca8d00822f53ebac8e57a47698edbb6d17a9fe8c047d6e079496a"
 
-RPROVIDES:${PN} += "ghc-devel-typst-symbols-0.1.4-JaoP2leChnCACsgYhrK1kO \
+RPROVIDES:${PN} += "ghc-devel-typst-symbols-0.2-DAnODvBkUY47mTgQn4NVCA \
 ghc-typst-symbols-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-text-2.0.2 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-text-2.1.4-cf23 \
 ghc-typst-symbols"
 
 inherit rpm

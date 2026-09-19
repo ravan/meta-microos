@@ -3,14 +3,14 @@ DESCRIPTION = "In standard LaTeX inserting objects like figures or tables \
 requires too much knowledge for beginners and too much typing \
 effort and hardcoding for people like me. This package aims to \
 make insertion of figures and tables easier for both beginners \
-and experts. Despite the term floats in it's name it also \
+and experts. Despite the term 'floats' in its name, it also \
 allows to disable floating of such objects."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn57204"
+PV = "2026.226.1.1.0svn72699"
 
-RPM_NAME = "texlive-easyfloats-2023.209.1.0.0svn57204-54.2.noarch.rpm"
-RPM_HASH = "79a908f9182aec23f209bf11f5b79b3f211446d5f74b3cf1749dc1d7f567fa035336a3290febfa072a341533f6b175b54d7803a234771f3c9124bf78fa6e239f"
+RPM_NAME = "texlive-easyfloats-2026.226.1.1.0svn72699-61.4.noarch.rpm"
+RPM_HASH = "c6a9b442f804c43471f60189b92e5c425bbc9f173d1e8093091a4f0017eba62643431533b6dd510c983324d1ded0546ffc340fc5362e2799771605fdf6b33b51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easyfloats.sty \

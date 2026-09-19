@@ -3,10 +3,10 @@ DESCRIPTION = "The package comprises the collection of CMap and PDF mapping \
 files made available for distribution by Adobe."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn66552"
+PV = "2026.226.svn66552"
 
-RPM_NAME = "texlive-adobemapping-2023.209.svn66552-55.1.noarch.rpm"
-RPM_HASH = "d2a9d9fa639692375dde45caccc6a52b3addd53993e85c10f36091dfc5733251fabba83a0d7812669870f530800599e606c520b9422b4fa548f3b0bbf569a825"
+RPM_NAME = "texlive-adobemapping-2026.226.svn66552-61.2.noarch.rpm"
+RPM_HASH = "5484096717ee66a03ae475771bd7d385f66a9d8be3f5f87b4183407210dec18aeb6a8ab22af388c03394fda9be34ba70adb228ea07c7966290f8064077cd6146"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-adobemapping"

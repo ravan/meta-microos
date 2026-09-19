@@ -5,10 +5,10 @@ to pmem. libpmem2 has a new API that addresses many of the shortcommings \
 of libpmem1"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "2.1.1"
 
-RPM_NAME = "libpmem2-1-1.11.1-1.9.aarch64.rpm"
-RPM_HASH = "7eac5c6f8d87f8065c44196ee1bf9509465368b72651dbcfeed29b4160010d74fa7829b413b5fe7a1a236dca62957d7408fea776a0d39a625517588bcc7b89cc"
+RPM_NAME = "libpmem2-1-2.1.1-1.5.aarch64.rpm"
+RPM_HASH = "22c8014e592b9f62c1cb9bac52b0270c18a73e3e443deaf0720a91317c63a5db7a5f943cb7e3187ba3940aed99288813c9f0973f99d279d7010c4f2b369d6bf5"
 
 RPROVIDES:${PN} += "libpmem2-1 \
 libpmem2.so.1"

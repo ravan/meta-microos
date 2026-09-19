@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.3.0"
 
-RPM_NAME = "cglib-javadoc-3.3.0-4.5.noarch.rpm"
-RPM_HASH = "9b9fd019d29e82f2d65b528c78f0701e729310098dd50289cae3bd22a2ff860ab82fc52434a1c68c0c2a8909813590bfdecf59b456c392280079c28fc0a32f21"
+RPM_NAME = "cglib-javadoc-3.3.0-5.12.noarch.rpm"
+RPM_HASH = "4c65fcbd7307d6b4a088fff00331eeba59f16e5df640f6faccbe5b99fb6827a2b458187ab9e5adfd58e00e7fa8f5153df696d43d5a5513512006508c13911eb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cglib-javadoc"

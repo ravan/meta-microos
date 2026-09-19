@@ -2,10 +2,10 @@ SUMMARY = "Menu-cache libraries"
 DESCRIPTION = "menu-cache libraries for development"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.1.0"
+PV = "1.1.1"
 
-RPM_NAME = "libmenu-cache3-1.1.0-2.13.aarch64.rpm"
-RPM_HASH = "dbcd034da13d2b6ae46875a7b490914ab094237f63cc61161339234f75d24012979ef20e816fa692f6edde2a7fdf4ce48b07b04a7f4365bf87aaba7ce288c395"
+RPM_NAME = "libmenu-cache3-1.1.1-1.8.aarch64.rpm"
+RPM_HASH = "be79872e03828bba3dd020fa0135afca5ea467480b5c9a98dbeb418afac883fa27f0308c516a1b75bdc1b4f0289e9771fe6966768d705e8d7e978623714457f3"
 
 RPROVIDES:${PN} += "libmenu-cache.so.3 \
 libmenu-cache3"

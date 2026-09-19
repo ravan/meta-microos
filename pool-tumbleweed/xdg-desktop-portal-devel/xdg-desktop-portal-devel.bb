@@ -7,10 +7,10 @@ a well-known name (org.freedesktop.portal.Desktop) and object path (/org/freedes
 This package contains convenience files for developers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.16.0"
+PV = "1.22.1"
 
-RPM_NAME = "xdg-desktop-portal-devel-1.16.0-2.1.aarch64.rpm"
-RPM_HASH = "a416d8cbfddf16d758cf804ac933c20cc3fd393040f7b6c5126a0e95c13133054addd76d0198b1a05fdff9dfc7e6627ecfc53a2d88486e37151660fd8e389f60"
+RPM_NAME = "xdg-desktop-portal-devel-1.22.1-1.2.aarch64.rpm"
+RPM_HASH = "de5d53e06ee1c107053a6f5158c8010183b45eb2ddbc6e4ef7e721fd6a546f99aa8b9df8d5a75aab7f5939f00f549db93cfc40515523e571511fc443466b2f90"
 
 RPROVIDES:${PN} += "pkgconfig-xdg-desktop-portal \
 xdg-desktop-portal-devel"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-checkend"
 DESCRIPTION = "This package includes the documentation for texlive-checkend"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn51475"
+PV = "2026.226.1.0svn78101"
 
-RPM_NAME = "texlive-checkend-doc-2023.209.1.0svn51475-54.1.noarch.rpm"
-RPM_HASH = "4689e46c60ecb04389f317faf0e8cad476c25c61a1f16fc9743f667c9e3b53e1d90d8518e7465f6dbe2f89f3d0a2b6c394b551fe3fa14bdd863e9861aed7c675"
+RPM_NAME = "texlive-checkend-doc-2026.226.1.0svn78101-60.2.noarch.rpm"
+RPM_HASH = "c586bbe7e72d29e4b9a7b73dc8764b8c9e5ac6e8a8588ecd9c8007d34998fe12034a19c29f8350b15a7b75cbb5bbe7e8390efc12a673f39f4f0dda663a04ac1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-checkend-doc"

@@ -19,16 +19,19 @@ The key features are: \
  * Bindings in several programming languages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.14.1"
+PV = "1.25.7"
 
-RPM_NAME = "libnbd-1.14.1-2.2.aarch64.rpm"
-RPM_HASH = "c1bfed27e977797a83f34fe75bf1596c771ffcf2f9e9a2ca220cb1e1b0af6fb6cfb2720faaca4b7c3b98d96a8408bc5be3e87a3547a1c970cb1d0aba68b12757"
+RPM_NAME = "libnbd-1.25.7-1.1.aarch64.rpm"
+RPM_HASH = "41230c5ee82e5a0f0fa625cf41f8fe2a743840ca4e7bdfed262a6cac7567836d21ec6f3f89a88abaa7eecc3831a3dff504c348ada0b1023ecc3f808a91c8d8da"
 
 RPROVIDES:${PN} += "libnbd"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
+libgnutls.so.30 \
 libnbd.so.0 \
-libnbd0"
+libnbd0 \
+libublksrv.so.0"
 
 inherit rpm

@@ -11,15 +11,15 @@ Matplotlib, SymPy, and more, and can be extended further with \
 full plugin support."
 LICENSE = "MIT"
 
-PV = "5.4.4"
+PV = "6.1.5"
 
-RPM_NAME = "spyder-5.4.4-1.1.noarch.rpm"
-RPM_HASH = "5fe6582cf18a3240ba13fab8323b5b1a93065070e6e4f8f40e15a545999811997fba2aa1953161b3170a5eec5cc7c345ae9a30a7bc0cada80a5e793896dd632c"
+RPM_NAME = "spyder-6.1.5-1.2.noarch.rpm"
+RPM_HASH = "cc7228feaf6bb053ab4d8383f5aed1157d8e25cf9614d082458c1da31d43f79bc4f35ee8ed993c11dbc2abc530161d564da3a932965eb7ffc7b29fb5f290686f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-spyder \
 python3-spyderlib \
-python3.11dist-spyder \
+python3.13dist-spyder \
 python3dist-spyder \
 spyder \
 spyder3 \
@@ -27,57 +27,58 @@ spyder3-breakpoints \
 spyder3-profiler \
 spyder3-pylint"
 
-RDEPENDS:${PN} += "-python3-QDarkStyle >= 3.0.2 with python3-QDarkStyle < 3.2.0 \
--python3-ipython >= 7.31.1 with python3-ipython < 9 \
--python3-pylint >= 2.5.0 with python3-pylint < 3 \
--python3-python-lsp-black >= 1.2.0 with python3-python-lsp-black < 3 \
--python3-python-lsp-server >= 1.7.4 with python3-python-lsp-server < 1.8 \
--python3-qtconsole >= 5.4.2 with python3-qtconsole < 5.5.0 \
--python3-spyder-kernels >= 2.4.4 with python3-spyder-kernels < 2.5 \
+RDEPENDS:${PN} += "-python3-QDarkStyle >= 3.2.0 with python3-QDarkStyle < 3.3.0 \
+-python3-QtAwesome >= 1.4.1 with python3-QtAwesome < 1.5 \
+-python3-asyncssh >= 2.14 with python3-asyncssh < 3 \
+-python3-ipython >= 8.15 with python3-ipython < 10 \
+-python3-parso >= 0.7.0 with python3-parso < 0.9.0 \
+-python3-pylint >= 3.1 with python3-pylint < 5 \
+-python3-python-lsp-black >= 2.0.0 with python3-python-lsp-black < 3 \
+-python3-python-lsp-ruff >= 2.3.0 with python3-python-lsp-ruff < 3 \
+-python3-python-lsp-server-all >= 1.14.0 with python3-python-lsp-server-all < 1.15 \
+-python3-qtconsole >= 5.7.2 with python3-qtconsole < 5.8.0 \
+-python3-spyder-kernels >= 3.1.4 with python3-spyder-kernels < 3.2 \
+-python3-superqt >= 0.6.2 with python3-superqt < 1 \
 /usr/bin/bash \
-/usr/bin/python3.11 \
-cookiecutter \
+/usr/bin/python3.13 \
 python-abi \
+python3-PyQt6 \
+python3-PyQt6-WebEngine \
 python3-Pygments \
-python3-QtAwesome \
 python3-QtPy \
 python3-Rtree \
 python3-Sphinx \
+python3-aiohttp \
 python3-atomicwrites \
-python3-autopep8 \
+python3-bcrypt \
 python3-chardet \
 python3-cloudpickle \
+python3-cookiecutter \
 python3-diff-match-patch \
-python3-flake8 \
+python3-importlib-metadata \
 python3-intervaltree \
+python3-ipython-pygments-lexers \
 python3-jedi \
 python3-jellyfish \
 python3-jsonschema \
 python3-keyring \
-python3-mccabe \
 python3-nbconvert \
 python3-numpydoc \
-python3-parso \
+python3-packaging \
 python3-pexpect \
 python3-pickleshare \
 python3-psutil \
-python3-pycodestyle \
-python3-pydocstyle \
-python3-pyflakes \
+python3-pygithub \
 python3-pylint-venv \
 python3-pyls-spyder \
+python3-pyuca \
 python3-pyxdg \
 python3-pyzmq \
 python3-qstylizer \
-python3-qt5 \
-python3-qtwebengine-qt5 \
-python3-rope \
-python3-setuptools \
 python3-textdistance \
 python3-three-merge \
 python3-watchdog \
-python3-whatthepatch \
-python3-yapf \
+python3-yarl \
 spyder-lang"
 
 inherit rpm

@@ -2,36 +2,36 @@ SUMMARY = "Haskell yesod-form profiling library"
 DESCRIPTION = "This package provides the Haskell yesod-form profiling library."
 LICENSE = "MIT"
 
-PV = "1.7.4"
+PV = "1.7.9.3"
 
-RPM_NAME = "ghc-yesod-form-prof-1.7.4-1.18.aarch64.rpm"
-RPM_HASH = "9880043e34ecf1d102a6726767ec17b93a8964ff1d980682985b374a6b776209b87e9866baab53283dc940658cf41d68c0c00321d8acd751af7bc5b3370e0c67"
+RPM_NAME = "ghc-yesod-form-prof-1.7.9.3-1.6.aarch64.rpm"
+RPM_HASH = "df3eeaa6255e1773c7de20f6a818a70880c8129399e0b1cf110bab2cce18056efb4dfeb968fdda63ba880642a8d40961238097976a96d12203c6a8cbf1ce950c"
 
-RPROVIDES:${PN} += "ghc-prof-yesod-form-1.7.4-9E5QlEFVjzzJ8x8HqN3QEY \
+RPROVIDES:${PN} += "ghc-prof-yesod-form-1.7.9.3-Dz0p5U8sFJF52s5S4twsNq \
 ghc-yesod-form-prof"
 
-RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-prof-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
-ghc-prof-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
-ghc-prof-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
-ghc-prof-byteable-0.1.1-D4ZAyAuZ5dZDp71hQtTs5r \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-data-default-0.7.1.1-4TeAZDN81Uu1IorgFaPMOc \
-ghc-prof-email-validate-2.3.2.19-qAeQdfI4jV1bzSPjytegN \
-ghc-prof-network-uri-2.6.4.2-3utC1p6H7mg92qIH44jQaM \
-ghc-prof-persistent-2.14.5.1-Gjrp3WYLCFS91AokYH8j1m \
-ghc-prof-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-prof-shakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem \
-ghc-prof-text-2.0.2 \
-ghc-prof-time-1.12.2 \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
-ghc-prof-xss-sanitize-0.3.7.2-6wMPG57mjpfFkiVWmO24My \
-ghc-prof-yesod-core-1.6.24.4-1di0EYNbRAz9TOkBiAT5Ab \
-ghc-prof-yesod-persistent-1.6.0.8-2wkXYfzUlDeVV1OSzyB0l \
+RDEPENDS:${PN} += "ghc-prof-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-prof-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7 \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-blaze-builder-0.4.4.1-DHhu3j9nndC9LUZIrPJCEG \
+ghc-prof-blaze-html-0.9.2.0-93B80xR5emg3yG3V6J7j6o \
+ghc-prof-blaze-markup-0.8.3.0-K4FwMBPUUgu9TB66ALCxf7 \
+ghc-prof-byteable-0.1.1-9wX3TD5RsfdJZP8DobkPHo \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-data-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ \
+ghc-prof-email-validate-2.3.2.21-Kzdyy7ay2BfLqW6NieUzU3 \
+ghc-prof-network-uri-2.6.4.2-BA29PoG9pX1EAcGKolsVh8 \
+ghc-prof-persistent-2.17.1.0-4wNOAx2iKPh9qy3cL3mEtA \
+ghc-prof-resourcet-1.3.0-F8ZRgExkptBLIQxE9m0AZE \
+ghc-prof-shakespeare-2.1.7.1-gK4gmGoNfcEYOAsglU3w4 \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-time-1.14-a7dc \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-wai-3.2.4-Is1UVC1czjX2cAufnl3tJW \
+ghc-prof-xss-sanitize-0.3.7.2-zxNA19mSHN2TTh4wNg5nE \
+ghc-prof-yesod-core-1.6.29.1-6DqdyPYDE9N9BEzGBhDP9D \
+ghc-prof-yesod-persistent-1.6.0.9-HWNmgLBsD5B8eUWPPveJe \
 ghc-yesod-form-devel"
 
 inherit rpm

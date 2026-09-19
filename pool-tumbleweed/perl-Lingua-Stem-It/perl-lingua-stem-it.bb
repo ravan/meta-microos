@@ -13,13 +13,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Lingua-Stem-It-0.02-1.28.noarch.rpm"
-RPM_HASH = "8f8d456ba8353629f60d64e9f05391298357bce0d7a1cbfc256dec87e52605e7e68bc5ecf6ad2bd2c85fa846f170736ebc4b6cc127b3a317ff01b84b99ff6898"
+RPM_NAME = "perl-Lingua-Stem-It-0.02-1.42.noarch.rpm"
+RPM_HASH = "461bd79d128cacbd1270a3f59791bd5a7966f3d73e122954e205212f53d71c2b9688111e458649004e4c4f33dca95de588e367f0c1b98ce66b1da36075739d14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--Stem--It \
 perl-Lingua-Stem-It"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

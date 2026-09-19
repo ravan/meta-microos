@@ -8,10 +8,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of Coin."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.0.0"
+PV = "4.0.3"
 
-RPM_NAME = "Coin4-devel-4.0.0-1.8.aarch64.rpm"
-RPM_HASH = "f1641098b6d6cb1dacb2e955b763b24f44d0e262cd7a5d93c47ae82883a7b940f48105ae5f0f2d46d0b8ceb6ec63eac12012a698aa8e8661d948eeab87b6aaf1"
+RPM_NAME = "Coin4-devel-4.0.3-2.4.aarch64.rpm"
+RPM_HASH = "b3ae1852cbb65db51ad81b844845357f09299dda1edfa23dee0adc7f171b3ad374a56b111c1b45f17d7589c369cf0bc40575195628d8cfbb7b2fddd9e3c35023"
 
 RPROVIDES:${PN} += "Coin4-devel \
 cmake-coin \

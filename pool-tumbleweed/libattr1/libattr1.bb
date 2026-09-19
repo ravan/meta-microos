@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libattr.so dynamic library, which conta
 the extended attribute library functions."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.5.1"
+PV = "2.6.0"
 
-RPM_NAME = "libattr1-2.5.1-1.21.aarch64.rpm"
-RPM_HASH = "f7b184631f5ccc3c41a3266a7cab8c96567b4f2d36e17ebb899e6b36235fe2a81662919ba3b951e3174c4cced83b78da9087df4c6f39108d25f4c7e2d6f8cb08"
+RPM_NAME = "libattr1-2.6.0-1.2.aarch64.rpm"
+RPM_HASH = "737f15809da2ea06a2930f27a55f0dce72bb8d8b83cd59f0c12f311ed791c1c353c7c1b6661fec43187d207d94206f4d8db07f8819cead616f02fa585c7e2aef"
 
 RPROVIDES:${PN} += "config-libattr1 \
 libattr \

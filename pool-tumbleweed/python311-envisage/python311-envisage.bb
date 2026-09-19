@@ -12,12 +12,11 @@ LICENSE = "BSD-3-Clause & Python-2.0 & LGPL-3.0-only & CC-BY-SA-1.0 & CC-BY-SA-2
 
 PV = "6.1.1"
 
-RPM_NAME = "python311-envisage-6.1.1-1.5.noarch.rpm"
-RPM_HASH = "4696f8cdf8d9f7b92dd1ec47f392d1c2133b97303717037c98c4b296858af889f0073be7265e0bcf61b3eb41e1401c5538b6ed4765d0b255d6f910918de2023f"
+RPM_NAME = "python311-envisage-6.1.1-2.1.noarch.rpm"
+RPM_HASH = "479cc3bbdac2fc932cc5ad4d3c8fcc91b386a8a0efecb4e8f29768eb7774d7112c859f034914ba830a3aa054a50144f0cd944b60f8cf7a3801d0ca3f0fdc22ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-envisage \
-python3.11dist-envisage \
+RPROVIDES:${PN} += "python3.11dist-envisage \
 python311-envisage \
 python3dist-envisage"
 

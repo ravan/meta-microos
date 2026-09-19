@@ -2,10 +2,10 @@ SUMMARY = "Haskell stm library documentation"
 DESCRIPTION = "This package provides the Haskell stm library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.5.1.0"
+PV = "2.5.3.1"
 
-RPM_NAME = "ghc-stm-doc-2.5.1.0-1.1.noarch.rpm"
-RPM_HASH = "fb4a335111954b5e40c3bc912dc47ce5c2f4514172006396ca59a017229b3733617fe1f3cdbc6436a156c6b1b1c7e54d94cb6d29258a3d51f5884a0c15362d8b"
+RPM_NAME = "ghc-stm-doc-2.5.3.1-1.3.noarch.rpm"
+RPM_HASH = "2c80f74e57272edb82c9ac23508864b981b535693710b15a42a801019ad86f52039908aa629592c890d5681a7d5d723d7dedf787536e670c5f0d7aa0c32bd445"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-stm-doc"

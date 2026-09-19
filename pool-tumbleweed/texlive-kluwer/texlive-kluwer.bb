@@ -2,10 +2,10 @@ SUMMARY = "Kluwer publication support"
 DESCRIPTION = "Most likely long obsolete, unfortunately."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54074"
+PV = "2026.226.svn54074"
 
-RPM_NAME = "texlive-kluwer-2023.209.svn54074-56.1.noarch.rpm"
-RPM_HASH = "ab7c79bd2d3730a6d2a33bb333aa025b9de7008457e7bbe128897395a3f7bb9b64d59c42d7d502d7fab11d44d4113aa832469a5fb0f188120320ee0c25498c98"
+RPM_NAME = "texlive-kluwer-2026.226.svn54074-63.2.noarch.rpm"
+RPM_HASH = "9892a1aea80c10f9606bd65c1644c02c9fffea5d7eec0b2769496a51f87c87edd7c8882ab98e337bc757c2c6257b9a42405cf809d0a32c9242dc31d328460cdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-klu10.clo \

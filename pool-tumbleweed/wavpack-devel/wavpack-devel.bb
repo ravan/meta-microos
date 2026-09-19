@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of wavpack."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.6.0"
+PV = "5.9.0"
 
-RPM_NAME = "wavpack-devel-5.6.0-1.4.aarch64.rpm"
-RPM_HASH = "e86ff9c3f33cf3a8a4538715a246736f750e67f68b6df81898d331efb15b422a63f9e8bcff846ecc8e6b2b855398641c54774adc1e9c37d48f80da5bcfaf8d2e"
+RPM_NAME = "wavpack-devel-5.9.0-1.5.aarch64.rpm"
+RPM_HASH = "e770cb57b8fc4126f125e0c12e24755207825016ff5e4011b590c3476e91627d27ce4b7ebc3f51b01d8b119ca2f1e55f9aa15b379d9db9ba3589b1f1dd77631b"
 
 RPROVIDES:${PN} += "pkgconfig-wavpack \
 wavpack-devel"

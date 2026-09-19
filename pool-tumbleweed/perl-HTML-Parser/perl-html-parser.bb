@@ -19,10 +19,10 @@ want to use 'HTML::PullParser'. This is an 'HTML::Parser' subclass that \
 allows a more conventional program structure."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.81"
+PV = "3.850.0"
 
-RPM_NAME = "perl-HTML-Parser-3.81-1.5.aarch64.rpm"
-RPM_HASH = "027e81dea3953142f93497aa0ed2ee412e9276413088c932299a0c354b9ac6fcac3edcada58200c79fbdcca5fbb9730095e7a8ee017af86de5fc00edb4dcf3ca"
+RPM_NAME = "perl-HTML-Parser-3.850.0-2.4.aarch64.rpm"
+RPM_HASH = "970271ab79b9b4da3c21d274ae14da26812b182d74739346610fe32f3df004c5f9756d14e795f8f713f4a104398e9d182fc321d5d88cb7073330c3430b2fe4e3"
 
 RPROVIDES:${PN} += "perl-HTML--Entities \
 perl-HTML--Filter \
@@ -35,7 +35,7 @@ perl-HTML-Parser"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-HTML--Tagset \
 perl-HTTP--Headers \
 perl-URI \

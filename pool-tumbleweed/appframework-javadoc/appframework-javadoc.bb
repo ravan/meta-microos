@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "1.03"
 
-RPM_NAME = "appframework-javadoc-1.03-28.19.noarch.rpm"
-RPM_HASH = "0fd06a08b14068dd7e76ddd850649aca00ae647c4c41c56b04c9b123e17e191a4511954b174ff08c066d503ad215bc990e5bb0071e4ebcbaa34115bc47d0d2cc"
+RPM_NAME = "appframework-javadoc-1.03-29.10.noarch.rpm"
+RPM_HASH = "83511b60215bcfe1c77f9f40d5277bc86f6ab05498249047fdda593a380409940236a3fd4b915b2aed9563505c0b6236bf79ea055d3bc97f56156328e569cd88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "appframework-javadoc"

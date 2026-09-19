@@ -1,21 +1,12 @@
 SUMMARY = "Development files for the Core X11 protocol library"
-DESCRIPTION = "The X Window System is a network-transparent window system that was \
-designed at MIT. X display servers run on computers with either \
-monochrome or color bitmap display hardware. The server distributes \
-user input to and accepts output requests from various client \
-programs located either on the same machine or elsewhere in the \
-network. Xlib is a C subroutine library that application programs \
-(clients) use to interface with the window system by means of a \
-stream connection. \
- \
-This package contains the development headers for the library found \
+DESCRIPTION = "This package contains the development headers for the library found \
 in libX11-6 and libX11-xcb1."
 LICENSE = "MIT"
 
-PV = "1.8.6"
+PV = "1.8.13"
 
-RPM_NAME = "libX11-devel-1.8.6-1.1.aarch64.rpm"
-RPM_HASH = "4b899dbe2d8146b552788acbb6e029c5b629cda887f33ce4cb775d2e9c8f1a53e7c573a0e83692796ddd77fad3745a076abf0203da228693ad768c889a0cf160"
+RPM_NAME = "libX11-devel-1.8.13-1.4.aarch64.rpm"
+RPM_HASH = "989fc5e7f4990a51bb84ef5bc4fa0fc01cb6959df171b1f091ce32440487a6b7f53574aea1a886634c5c3c2356c7ad2ff2c4c40d005aca36226c033215442714"
 
 RPROVIDES:${PN} += "libX11-devel \
 pkgconfig-x11 \

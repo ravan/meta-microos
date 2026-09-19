@@ -2,16 +2,16 @@ SUMMARY = "Haskell dec profiling library"
 DESCRIPTION = "This package provides the Haskell dec profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.5"
+PV = "0.0.6"
 
-RPM_NAME = "ghc-dec-prof-0.0.5-2.4.aarch64.rpm"
-RPM_HASH = "f382c092980620b321a1a1d03cbb4c451835898ea570f88f58d5419b6eb330e96066f530084cd50d5a7b85c52bde546f9c9dbe4b6fffee5e6b3d01e2f0cf73ec"
+RPM_NAME = "ghc-dec-prof-0.0.6-3.2.aarch64.rpm"
+RPM_HASH = "296fb68bdae1f95da09ac8cf229d9fbb417163960f937805dc7aaf347d410e1579cc331330d837fa02a6daadbf5569514a866d5412551a57061bfa9cfffc7e5b"
 
 RPROVIDES:${PN} += "ghc-dec-prof \
-ghc-prof-dec-0.0.5-3eH9is9HBV5IuOX3KX0Ah7"
+ghc-prof-dec-0.0.6-9n55jO9wFkCDcYlO4DYA9w"
 
 RDEPENDS:${PN} += "ghc-dec-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-boring-0.2.1-8UoR96J8uAp13B13xTdCnI"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-boring-0.2.2.1-8s8A4hTb7xgDndEEz6qoTw"
 
 inherit rpm

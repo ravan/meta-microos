@@ -5,10 +5,10 @@ Color Palette, available at Google Material design, for its use \
 in document writing with LaTeX and Friends."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn42289"
+PV = "2026.226.0.0.1svn42289"
 
-RPM_NAME = "texlive-xcolor-material-2023.209.0.0.1svn42289-53.2.noarch.rpm"
-RPM_HASH = "3f2c7369f584660e7dc4c02d02cf0a17a165e89575af63c4bd18ffe869ff4fe2ac99d0be1174d20bab3e8b9806f9f4afa5e974e8be5567163a7e7d747d11ba74"
+RPM_NAME = "texlive-xcolor-material-2026.226.0.0.1svn42289-59.4.noarch.rpm"
+RPM_HASH = "d6c8c724692bacb9d0bd5e60e38ca39db78b4a7b5e9ddb00f0667f7410d4705255db06a0938fd58c7ede8564ebc3e4a7700895b546b3f28ba623737f468fc539"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcolor-material.sty \

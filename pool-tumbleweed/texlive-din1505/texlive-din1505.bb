@@ -4,10 +4,10 @@ match the original BibTeX standard set (plain, unsrt, alpha and \
 abbrv), together with a style natdin to work with natbib."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn19441"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-din1505-2023.209.svn19441-53.1.noarch.rpm"
-RPM_HASH = "2d049defc9e33ef43e8cfbe4a681e60aec3eb3677ac0608a616ddb96d74a944bd97410a88fd2786e0535fef65390c132e72c31543af563ad90deefcdebaaa274"
+RPM_NAME = "texlive-din1505-2026.226.svn76790-59.2.noarch.rpm"
+RPM_HASH = "a7811314033677bea867fb45fb275054db5a7c416a7edb4b73a61b69a3f69b0311269115802c72480d20ad1749d90480c2ac1476d63fc88441fc06927238c682"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-din1505"

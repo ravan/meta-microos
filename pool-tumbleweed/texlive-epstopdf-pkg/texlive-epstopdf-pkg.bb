@@ -6,10 +6,10 @@ script epstopdf. This of course requires that shell escape is \
 enabled for the pdfTeX run."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.11svn53546"
+PV = "2026.226.2.11svn77682"
 
-RPM_NAME = "texlive-epstopdf-pkg-2023.209.2.11svn53546-54.2.noarch.rpm"
-RPM_HASH = "9f9ef2cc538606b7d259bd0c137d26803e3d390fff68ded27ac5fec9b6273adf0eba37af66cd286c344dca2fefb22de8a64133be723c28bab7a330d21e8dc641"
+RPM_NAME = "texlive-epstopdf-pkg-2026.226.2.11svn77682-61.4.noarch.rpm"
+RPM_HASH = "5b302e72ce41ce4507ec63a4cdfa2b61e23a9c37c3b2c4c3651f3051cebe0a63181736d423b19b398ee6fb6860b9b0b156fc784cdc24f3aadb599a9b8d47d828"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epstopdf-base.sty \
@@ -27,6 +27,7 @@ tex-infwarerr.sty \
 tex-kvoptions.sty \
 tex-pdftexcmds.sty \
 texlive \
+texlive-epstopdf \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \

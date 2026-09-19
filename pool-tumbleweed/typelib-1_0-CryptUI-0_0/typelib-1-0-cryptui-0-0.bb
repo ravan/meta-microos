@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "typelib-1_0-CryptUI-0_0-3.12.2-10.4.aarch64.rpm"
-RPM_HASH = "5d5bcc0f419328580d2954507ce832c5572392cf2fc107400c8274adc3788b9bf94c59fcd4f613f09367effff5a1c4c6a33012806c532ba44827b01d5946f915"
+RPM_NAME = "typelib-1_0-CryptUI-0_0-3.12.2-12.7.aarch64.rpm"
+RPM_HASH = "2b49ad87c8f7f404fa0149b7b55528a0f9af37fcb38ec0811255d02155dc33831a8f47cb132f0027bd666b4b0d59f4e77ca68f50b0cb399f0e9e15ebc18d2b90"
 
 RPROVIDES:${PN} += "typelib-1-0-CryptUI-0-0 \
 typelib-CryptUI"

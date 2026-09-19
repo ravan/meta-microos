@@ -4,10 +4,10 @@ object oriented language, created by Next Inc. and used in their \
 Nextstep OS. The source code is available in the gcc package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.2.1+git7683"
+PV = "13.5.0+git10516"
 
-RPM_NAME = "gcc13-obj-c++-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "5da3e7a63a293dc3f7b2925e21b475c15527a65b1b76efef25f540afa1e7548976f42f445755bb5c2e25487c3cc331446b60adbdcf545a6a7fd885868d7e3863"
+RPM_NAME = "gcc13-obj-c++-13.5.0+git10516-1.1.aarch64.rpm"
+RPM_HASH = "94275acf9686754dbe69bb14c1fe21db5ae679071210877878ccb2ca0d702e5ae6fa7f674019d1e756b6d13ebed25b52ec1215526bfea2ad7d6f5729b345ba89"
 
 RPROVIDES:${PN} += "gcc13-obj-c++"
 
@@ -17,6 +17,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgmp.so.10 \
 libisl.so.23 \
+libm.so.6 \
 libmpc.so.3 \
 libmpfr.so.6 \
 libz.so.1 \

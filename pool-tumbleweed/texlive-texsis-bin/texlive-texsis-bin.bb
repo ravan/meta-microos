@@ -2,10 +2,10 @@ SUMMARY = "Binary files of texsis"
 DESCRIPTION = "Binary files of texsis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn3006"
+PV = "2026.20260301.svn3006"
 
-RPM_NAME = "texlive-texsis-bin-2023.20230311.svn3006-93.2.aarch64.rpm"
-RPM_HASH = "f188adc1a04ef7268fcd67f0ae73fca082cad9c6331d1f5decc8c8b364e2e7eaade2545c9b61c5167476508e08aec82d0325cc03673c2f63e70e623579c51988"
+RPM_NAME = "texlive-texsis-bin-2026.20260301.svn3006-120.4.aarch64.rpm"
+RPM_HASH = "8f3dafa97f52c3ba0232648055a0ed5a216f5a57a91cef55ec3abd768c92e6884c424c03577becb73bc7db45f986183dd2361f29b1d5feb1a052db76d3cc860a"
 
 RPROVIDES:${PN} += "texlive-texsis-bin"
 

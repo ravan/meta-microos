@@ -11,12 +11,12 @@ because the destination is smaller than the source. A few features: \
   flexibility \
 * Adler32 checksums to ensure that decompressed data has not been corrupted \
 * data recovery of damaged archives with 64 Kbyte grannularity"
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-1.0-only & GPL-2.0-only & GPL-3.0-only"
 
-PV = "1.1"
+PV = "20260802"
 
-RPM_NAME = "qpress-1.1-9.13.aarch64.rpm"
-RPM_HASH = "2f2bc6b3f150d47118701e0110712eee3ed61d8cf9cf4fa561b4e1ca8f7ab9b28b4ead16b724e7a44f62b23ab1b846ee8a54d5b96cc70f2ef8d5f489ced16bc3"
+RPM_NAME = "qpress-20260802-1.1.aarch64.rpm"
+RPM_HASH = "3842b535f5835103e7f240c0b75801232b808405e7f54766ebafbc61086bae971d4eaf1e3bc06cb5ffa232619ee5e49746e5645c60b6360755789058dbb4cedf"
 
 RPROVIDES:${PN} += "qpress"
 

@@ -2,10 +2,11 @@ SUMMARY = "Documentation for mod_auth_mellon module"
 DESCRIPTION = "This package contains a documentation for mod_auth_mellon module."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.17.0"
+PV = "0.19.1"
 
-RPM_NAME = "apache2-mod_auth_mellon-doc-0.17.0-2.10.aarch64.rpm"
-RPM_HASH = "23fd1de1a8011b0b1fa085eb951c7ca57d53e3bfd647f6d6fdb2eec3aca321eab534fb1f01d13d358d3b24f3dacfd284e2aded2198d33ff9f83d0aa8168b2aef"
+RPM_NAME = "apache2-mod_auth_mellon-doc-0.19.1-1.9.noarch.rpm"
+RPM_HASH = "9fc2e615e62f68503cc901e99e75461895b011f04a00321f8276b42e17b557d0abfbb61311250a1e796d58418c9a68defd422a6ebacc7708057a3bcc406721b6"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache2-mod-auth-mellon-doc"
 

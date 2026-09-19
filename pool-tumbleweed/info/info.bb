@@ -5,10 +5,10 @@ on-line manuals in the Info format, so you need a program called 'Info \
 reader' to read the manuals."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.0.3"
+PV = "7.3"
 
-RPM_NAME = "info-7.0.3-1.4.aarch64.rpm"
-RPM_HASH = "37f21f8b26c921cb1280575e6cc144825dd88101a2f6d48b9ca4a38fad660fe1deac3b13c0bc24fdb0cdb9896bdb44227ad8d8cea22c62c56a6e885d6eda490e"
+RPM_NAME = "info-7.3-1.5.aarch64.rpm"
+RPM_HASH = "3e0e5249fdb16096756a7288f37f2d4af6d59a9bec2892001cf89f22bcbdbfe8d92462ebcf130fab9288226ebcd310c2833b82dc5d0a2c2f88efe3de02d2db3e"
 
 RPROVIDES:${PN} += "/sbin/install-info \
 info"

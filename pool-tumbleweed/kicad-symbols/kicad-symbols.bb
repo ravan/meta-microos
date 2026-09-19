@@ -4,10 +4,10 @@ DESCRIPTION = "KiCad is a software suite used for Electronic Design Automation (
 This is the schematic symbol library package for KiCad."
 LICENSE = "CC-BY-SA-4.0"
 
-PV = "7.0.6"
+PV = "10.0.6"
 
-RPM_NAME = "kicad-symbols-7.0.6-1.1.noarch.rpm"
-RPM_HASH = "c99311fc698d01b436500bd459f8e0a31077b2263d832a497dbdd8170d4e649cbbb57ad6144686f307142e6f7d606ad4cb7672a87ab1836dfc99033dde09dda1"
+RPM_NAME = "kicad-symbols-10.0.6-1.1.noarch.rpm"
+RPM_HASH = "d48c856a8f483b38ca792d8c68e53578f3086e6e743713a51afb8179e549a916ef3d3c88d9bfae9706e0c7dc014122d05bd8b7036033c48b8064809ec746f3d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-library \

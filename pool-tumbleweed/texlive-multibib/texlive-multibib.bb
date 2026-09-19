@@ -7,10 +7,10 @@ multiple, but different parts of the document. Multibib is \
 compatible with inlinebib, natbib, and koma-script."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn15878"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-multibib-2023.209.1.4svn15878-55.1.noarch.rpm"
-RPM_HASH = "8f35f81bcfa33e829112994f92a3a4ee96346f3f87af9b0df7b4cabddd47ef2fb4f226cde207a2d0055179cb1b3a189514e4d1a16df4a77a9ae80436ee3150e2"
+RPM_NAME = "texlive-multibib-2026.226.1.4svn77682-61.2.noarch.rpm"
+RPM_HASH = "48c457500dc0e3217b6b1ec860bfaec89eff139d7144ee4caa0c534fee1c59fe2197d7fd5d446db3b70fae585149fea43abd440403abb5d254162484677888fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multibib.sty \

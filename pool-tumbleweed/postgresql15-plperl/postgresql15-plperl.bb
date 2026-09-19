@@ -6,10 +6,10 @@ Python, and Tcl to write stored procedures, functions and triggers. \
 PostgreSQL also offers the builtin procedural language PL/SQL."
 LICENSE = "PostgreSQL"
 
-PV = "15.4"
+PV = "15.19"
 
-RPM_NAME = "postgresql15-plperl-15.4-1.1.aarch64.rpm"
-RPM_HASH = "b25c6cf9eb8df398c893b47838c86fc3284ce8d1ea6163eed265867f3fa87840c560fc0bd441b8408137051a6d024cb936fb186d311c7b963e8fa4096e4e2617"
+RPM_NAME = "postgresql15-plperl-15.19-2.2.aarch64.rpm"
+RPM_HASH = "598f47fbabd60f6edff57a1357a571413a7dcae71868d18077a23a1b9f3debfc5f9d6c3b2011a8287804c81f3555be002c7b107424ebb18c28d274ae9d8a68f6"
 
 RPROVIDES:${PN} += "postgresql-plperl-implementation \
 postgresql15-plperl"

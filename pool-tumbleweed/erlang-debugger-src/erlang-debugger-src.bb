@@ -4,10 +4,10 @@ They are useful for educational purpose and as a base for creating \
 embedded systems."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2.2"
+PV = "28.5.0.4"
 
-RPM_NAME = "erlang-debugger-src-25.3.2.2-1.1.aarch64.rpm"
-RPM_HASH = "8ae870f5f4035ca24ebb0843a26673b7a9b09793b10213f162d6c69340be4a574e00cab82b36d2f0fe8bf2eec85c44bd4263d2f3bc5533d6c91e99c846cd7728"
+RPM_NAME = "erlang-debugger-src-28.5.0.4-1.1.aarch64.rpm"
+RPM_HASH = "2eeee785a1952712f3829f57b8b1fe73c72ca2871282bbf79aebd9d471870ca13a2681843a140437e4e6b3048e9d3db0b9a470aa31b352cdc5f480a786c554cb"
 
 RPROVIDES:${PN} += "erlang-debugger-src"
 

@@ -6,12 +6,12 @@ and is designed to be portable. \
  \
 This package contains a library to make it easier to use \
 libcanberra from GTK+ 3 applications."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.30"
+PV = "0.30+2"
 
-RPM_NAME = "libcanberra-gtk3-0-0.30-15.23.aarch64.rpm"
-RPM_HASH = "65dbe4ad11b3d56e448742c858cad179e2e68628100750bf01fca87b100817be278f3a6a1ae00785e26262899a226888ff2987b74ce7289dcde1b5800e8ac51c"
+RPM_NAME = "libcanberra-gtk3-0-0.30+2-3.6.aarch64.rpm"
+RPM_HASH = "73b30064f3dd0371d9a6eaa30cd54ff2ee9aadd22971bd173e036e1a37d51c3f64a22b202da1e0b2319fb9880e424586e07517c337c0691ad3018abe24061be4"
 
 RPROVIDES:${PN} += "libcanberra-gtk3-0 \
 libcanberra-gtk3.so.0"

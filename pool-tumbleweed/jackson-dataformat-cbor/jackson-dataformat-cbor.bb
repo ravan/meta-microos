@@ -6,10 +6,10 @@ seamlessly with all the higher level data abstractions (data binding, tree \
 model, and pluggable extensions)."
 LICENSE = "Apache-2.0 & BSD-3-Clause"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-dataformat-cbor-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "fb7dc0b5b27a15a9b7a6ecdd7ffb71b90d149bf12e1004e290a5e1bf3c6341bccb1ca98fc77dd9a088c18c072d1491aa774dfe825429987a01024a70a724c792"
+RPM_NAME = "jackson-dataformat-cbor-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "d36a21f9787fe635fcf7e5ec4040f55a8a386a779aa10da44c4642d4d1cae2be634ffea9e0c9f282a93e17ddcce46d903b98510de7ae0022fc7b7ceccfd99d39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-cbor \

@@ -4,26 +4,24 @@ objective is to slide and merge same-numbered tiles on a grid to \
 reach higher numbers."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.38.2"
+PV = "50.2"
 
-RPM_NAME = "gnome-2048-3.38.2-2.8.aarch64.rpm"
-RPM_HASH = "51491382e576aa2714345fb920bc1d0956c968974fe0996a9647df5a8a707a42aa791a83b432eed32e510205da3b2a4961a80e43def6d8ca24c0d562009306cf"
+RPM_NAME = "gnome-2048-50.2-2.3.aarch64.rpm"
+RPM_HASH = "8edd199e55fbb933e274e08394875450d01c260fad7899629bb990dd4e204ccd71577916fb36c2b7128e24ec18c2ba999286c6d90325e32c7033f4e09369a17e"
 
 RPROVIDES:${PN} += "gnome-2048"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
 libc.so.6 \
 libcairo.so.2 \
-libclutter-1.0.so.0 \
-libclutter-gtk-1.0.so.0 \
-libgee-0.8.so.2 \
+libgcc-s.so.1 \
+libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
-libgnome-games-support-1.so.3 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0 \
-libm.so.6 \
-libpango-1.0.so.0 \
-libpangocairo-1.0.so.0"
+libgraphene-1.0.so.0 \
+libgtk-4.so.1 \
+libpango-1.0.so.0"
 
 inherit rpm

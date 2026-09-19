@@ -2,10 +2,10 @@ SUMMARY = "A PSTricks package to draw marble-like patterns"
 DESCRIPTION = "This is a PSTricks package to draw marble-like patterns."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn50925"
+PV = "2026.226.1.6svn50925"
 
-RPM_NAME = "texlive-pst-marble-2023.209.1.6svn50925-53.1.noarch.rpm"
-RPM_HASH = "ceed27f2d926f905b1dcbbca4ccc1c83187989a0718c56e824ac1ef19afb220d334fe993720c571d2618cb6e664f9d01eaba3c71f57d1c34828a9aa892098c71"
+RPM_NAME = "texlive-pst-marble-2026.226.1.6svn50925-59.2.noarch.rpm"
+RPM_HASH = "6c12f864a55b92a65d0a0d6603fb51ccf0baa6eddab3b744e9aaf03b75833fb562fdfa9709c23deda813c837f7f4d2aef55fe1dfc2ab0938249ad4c3667bc67c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-marble.sty \

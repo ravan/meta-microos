@@ -4,14 +4,13 @@ simple, sane and secure defaults, and be well integrated with the \
 Cinnamon Desktop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.8.0"
+PV = "6.6.1"
 
-RPM_NAME = "cinnamon-screensaver-5.8.0-1.1.aarch64.rpm"
-RPM_HASH = "f6a3837d6c98d86f3665286c6f7b21c3820b2f205cbfc0f000441a9029b1d8ea046399edeef71579fef6bbd99a7f616d45b864241aab69ac03994e516a5c1a28"
+RPM_NAME = "cinnamon-screensaver-6.6.1-1.4.aarch64.rpm"
+RPM_HASH = "71aaf7e73850207b0653fc4b204689ce9cc9f88d0bb0e17d0896fe5f521541735ec0a5a58ad64229d14a37cb8e840f9a81ba7dccb29cdeff0302d36d0136bc57"
 
 RPROVIDES:${PN} += "cinnamon-screensaver \
-libcscreensaver.so.0 \
-typelib-CScreensaver"
+libcscreensaver.so"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
@@ -29,32 +28,25 @@ libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libpam.so.0 \
 libpango-1.0.so.0 \
-libxdo.so.3 \
+libxdo.so.4 \
 python3-cairo \
 python3-gobject \
 python3-gobject-Gdk \
 python3-gobject-cairo \
 python3-setproctitle \
 python3-xapp \
-typelib-AccountsService \
-typelib-Atk \
 typelib-CDesktopEnums \
+typelib-CScreensaver \
 typelib-Caribou \
 typelib-CinnamonDesktop \
 typelib-Cvc \
 typelib-GLib \
-typelib-GModule \
 typelib-GObject \
 typelib-Gdk \
 typelib-GdkPixbuf \
 typelib-GdkX11 \
 typelib-Gio \
 typelib-Gtk \
-typelib-HarfBuzz \
-typelib-Pango \
-typelib-XApp \
-typelib-cairo \
-typelib-freetype2 \
-typelib-xlib"
+typelib-Pango"
 
 inherit rpm

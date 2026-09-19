@@ -3,28 +3,28 @@ DESCRIPTION = "Efficient algorithms for sorting vector arrays. At some stage oth
 algorithms may be added."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.0.1"
+PV = "0.9.1.0"
 
-RPM_NAME = "ghc-vector-algorithms-0.9.0.1-1.9.aarch64.rpm"
-RPM_HASH = "d667b7bf2a0f8e7316342845fef61dcd558ab1772fe464d9c2673bfd55b83f86581a41ebdc214e17c0462524d583c0a4d5378f7d8906f01eca990559facb9a9a"
+RPM_NAME = "ghc-vector-algorithms-0.9.1.0-2.3.aarch64.rpm"
+RPM_HASH = "40ca1eef116d5ed5ec1e9c7d2b214a0efe3dedb58fe6ea53360f1b6add345e263a4724640889529a4c6ad6fe37baf41eed98a012a0884a34643354bd9a56c337"
 
 RPROVIDES:${PN} += "ghc-vector-algorithms \
-libHSvector-algorithms-0.9.0.1-98Yktb3BX9p4L0Cowik6Gr-ghc9.4.6.so"
+libHSvector-algorithms-0.9.1.0-KRcdYzVzgLOFSifxDHEL6p-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
-libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
-libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbitvec-1.1.6.0-AtnZIEu4pqlECh34uLjm5P-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHSprimitive-0.9.1.0-Ez30Vu7tivmF28X1123Css-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
+libHSvector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE-ghc9.12.4.so \
+libHSvector-stream-0.1.0.1-FXRnPnZDT7tJ4JCMEuh1XF-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

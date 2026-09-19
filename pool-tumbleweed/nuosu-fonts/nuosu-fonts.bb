@@ -5,8 +5,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.300"
 
-RPM_NAME = "nuosu-fonts-2.300-1.1.noarch.rpm"
-RPM_HASH = "4be9a610a1c20fbf76c8d020e7a928403254497220915ed1e1aa8c441c2b3dbfd0828b589bef78024771159737d300e47e4c3ee4866e62054a8baeac9f3ca18d"
+RPM_NAME = "nuosu-fonts-2.300-1.9.noarch.rpm"
+RPM_HASH = "0ebfa2b0c5a3a4929d7f1b231b5e3fa70b46324d7220f239bf9ca42e3cecba00c122d4f05953026ceefc3b5b3c4ec6cf5d33c614c6acc67916e03ecab4ec8fd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nuosu-fonts"

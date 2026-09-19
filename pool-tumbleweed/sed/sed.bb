@@ -5,10 +5,10 @@ of a file using pattern matching or  for substituting multiple \
 occurrences of a string within a file."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.9"
+PV = "4.10"
 
-RPM_NAME = "sed-4.9-2.4.aarch64.rpm"
-RPM_HASH = "5f920795976cb675c0236c07c3196174628f146086ec61fdbe1c16828fc78c0f591ee6956dba3123e88d988c7d9588f38f61b6af86246a08a68e28cf838bedcb"
+RPM_NAME = "sed-4.10-1.4.aarch64.rpm"
+RPM_HASH = "79268e8461dc5caec8d48cc3647cc472183630ff456dd48e3661c67bbafa917c51fb64beec55581480e95450e62d975250b49c8847f9fe2aa99fe9e01928fcfe"
 
 RPROVIDES:${PN} += "/usr/bin/sed \
 base-/bin/sed \

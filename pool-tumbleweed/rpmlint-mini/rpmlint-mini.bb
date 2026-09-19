@@ -3,10 +3,10 @@ DESCRIPTION = "rpmlint is a tool to check common errors on RPM packages. Binary 
 source packages can be checked."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4.0+git20230818.5cdd21d0"
+PV = "2.10.0+git20260911.f4f012f3"
 
-RPM_NAME = "rpmlint-mini-2.4.0+git20230818.5cdd21d0-12.12.aarch64.rpm"
-RPM_HASH = "3b3610bdf640a2320a720aed89a393d16f2bdf451382b3e073ddcb2b256af076bc85a00b626a36afa147c8333b6aea3c896a84e8adadba8f92dc2820d6b0dfe9"
+RPM_NAME = "rpmlint-mini-2.10.0+git20260911.f4f012f3-21.37.aarch64.rpm"
+RPM_HASH = "a82a6c793e87d32729687117aba6854857ff7009e3bbfdbe1c1aabf743fb81e92a8a7e3411d9a790c0588401e66a17ea6bede59aba2bb03139fb6cdf775aee4e"
 
 RPROVIDES:${PN} += "rpmlint-mini"
 
@@ -14,6 +14,7 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
 cpio \
 ld-linux-aarch64.so.1 \
-polkit-default-privs"
+polkit-default-privs \
+this-is-only-for-build-envs"
 
 inherit rpm

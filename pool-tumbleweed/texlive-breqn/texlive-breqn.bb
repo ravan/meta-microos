@@ -15,10 +15,10 @@ the flexisym and mathstyle packages, which are both designated \
 as support for breqn."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.98lsvn60881"
+PV = "2026.226.0.0.98lsvn77682"
 
-RPM_NAME = "texlive-breqn-2023.209.0.0.98lsvn60881-53.1.noarch.rpm"
-RPM_HASH = "d90540310ba6836356fde73c5e6a8e251fb48b758594548d00b3dd0ecd2e669589d5874b66f510ba6290b8310e6da504e487ae0410da22bf8ea65850914cffab"
+RPM_NAME = "texlive-breqn-2026.226.0.0.98lsvn77682-59.2.noarch.rpm"
+RPM_HASH = "5d2fc16c81bd37d3ff9cdce7a5162f9deb183fd1668a6742df193f78447f83886852eac2f1b3b3929b889eaa6e6ce2b92b53dd57c0b0cb5343004954ce6e7912"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-breqn.sty \

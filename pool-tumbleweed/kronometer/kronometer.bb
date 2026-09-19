@@ -14,10 +14,10 @@ Kronometer's main features are the following: \
 * Lap times export: you can export the lap times on a file using the JSON or CSV format"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.2.3"
+PV = "2.3.0"
 
-RPM_NAME = "kronometer-2.2.3-2.12.aarch64.rpm"
-RPM_HASH = "55f2a9540b0813c4280b2b6236e000dfa0fea464ba20114cbbc355418c97c22e76ea35e6204c96e0b27ea21d13c692894145f9822381b1670cd8832ab8fe964f"
+RPM_NAME = "kronometer-2.3.0-1.5.aarch64.rpm"
+RPM_HASH = "14d70e631b7d376bbe9118991429502d057f13322b71ea6e1799f1f35f7469f0e29dc08cba5ee05aebba73bd4ea3c9828d0a672b953800c39b46d8dd37b78e1d"
 
 RPROVIDES:${PN} += "kronometer"
 

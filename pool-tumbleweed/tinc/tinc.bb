@@ -8,15 +8,14 @@ information with each other over the Internet without exposing any \
 information to others."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.36"
+PV = "1.0.37"
 
-RPM_NAME = "tinc-1.0.36-3.3.aarch64.rpm"
-RPM_HASH = "ff657faef5b07141f3d242fe60a09399bcc4c985073b56a184b982257b03b37640a3aed6a5ae63191a2a14cb2a8b0f904bdd1dff591e96fe6689e9169b3025bb"
+RPM_NAME = "tinc-1.0.37-1.3.aarch64.rpm"
+RPM_HASH = "49862b14d06f739448abd89aa36e1efe0f12ac1c4d8881f3e67cf824306d7e1c53d3c347fc087d2b9cc87af0db8166ea7926bb6dc0ec248cbf5e21769e51aa65"
 
 RPROVIDES:${PN} += "tinc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-info \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \

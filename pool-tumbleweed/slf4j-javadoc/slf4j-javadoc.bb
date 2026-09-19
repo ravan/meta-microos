@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for slf4j"
 DESCRIPTION = "API documentation for slf4j."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "1.7.36"
+PV = "2.0.18"
 
-RPM_NAME = "slf4j-javadoc-1.7.36-4.2.noarch.rpm"
-RPM_HASH = "6e2cf4f96bd4fa7bb8d43b6ae66e7f2baf9f505e06f90ed3ddde6ffe89e453ab47d7af28caf8b78367d2b89a3615b5b670a5d06d30ccd8ee93498e9050e6d45e"
+RPM_NAME = "slf4j-javadoc-2.0.18-1.2.noarch.rpm"
+RPM_HASH = "f08dc3ad1c9ade0debdcc25cb55dbf17e5b398ff584b1fb1c0a1281d8b470a03c26b35f9b6918144d9f8f90613fc88e8e6b1efd8cfab403a24add273a9c732b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slf4j-javadoc"

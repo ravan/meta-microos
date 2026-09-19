@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-metapost"
 DESCRIPTION = "The  separated fonts package for texlive-metapost"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.svn66264"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-metapost-fonts-2023.209.svn66264-55.1.noarch.rpm"
-RPM_HASH = "96bccd3362606ce91a6566f3fdedbe0afec57bef5b842329b788ce1d255bba6eb9829b2b31ba371b857ee56d23b6495003129e7f1d0abf40a1e30817f9846743"
+RPM_NAME = "texlive-metapost-fonts-2026.226.svn77830-61.2.noarch.rpm"
+RPM_HASH = "47de9ed8ca9bd81b41e1fed4abb73400216aa8d5915d9a37220f4d685064714c97e495bc161638d9695048da7eda1004d83092c4b33e047f9f8f5cdd374185b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-freeeuro \

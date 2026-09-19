@@ -2,13 +2,16 @@ SUMMARY = "French"
 DESCRIPTION = "Support for French and Basque."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn63147"
+PV = "2026.222.svn72499"
 
-RPM_NAME = "texlive-collection-langfrench-2023.208.svn63147-60.1.noarch.rpm"
-RPM_HASH = "2090cb0c2e5baf61c2775da2317d06240299ce1c6913b2ed690dd2dcce95b25a09c3167808a73c0291b4be093f8c081f9a0a000d4e21494f24ba78d395990845"
+RPM_NAME = "texlive-collection-langfrench-2026.222.svn72499-68.2.noarch.rpm"
+RPM_HASH = "52422b93309699af64fc4c1f4fe96c4db654b54634e795f0ca133659a0d8369ddcd80c7f2da81ace11f34fe3223eff1d6ded09de5bebb1590184e5987e9345bb"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langfrench"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-french \
+texlive-collection-langfrench"
 
 RDEPENDS:${PN} += "texlive-aeguill \
 texlive-annee-scolaire \
@@ -21,12 +24,16 @@ texlive-basque-date \
 texlive-bib-fr \
 texlive-bibleref-french \
 texlive-booktabs-fr \
+texlive-cahierprof \
 texlive-collection-basic \
+texlive-couleurs-fr \
 texlive-droit-fr \
 texlive-e-french \
 texlive-epslatex-fr \
 texlive-expose-expl3-dunkerque-2019 \
 texlive-facture \
+texlive-faq-fr \
+texlive-faq-fr-gutenberg \
 texlive-formation-latex-ul \
 texlive-frenchmath \
 texlive-frletter \
@@ -41,9 +48,11 @@ texlive-letgut \
 texlive-lshort-french \
 texlive-mafr \
 texlive-matapli \
+texlive-panneauxroute \
 texlive-profcollege \
 texlive-proflabo \
 texlive-proflycee \
+texlive-profsio \
 texlive-tabvar \
 texlive-tdsfrmath \
 texlive-texlive-fr \

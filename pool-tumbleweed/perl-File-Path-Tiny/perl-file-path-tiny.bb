@@ -51,16 +51,16 @@ Seems like that should just happen, I don't want to worry about \
 accidentally removing / when I pass it /tmp"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.0"
+PV = "1.0.0"
 
-RPM_NAME = "perl-File-Path-Tiny-1.0-1.12.noarch.rpm"
-RPM_HASH = "f94dee7890e9cf0b51cee9cb9c633acfeae236be85e899039b84b65dd80cf9fd67b556c08a3f952eb77e41ccefff551d9c3aa0733238d0be8fb77ddc2ad7949b"
+RPM_NAME = "perl-File-Path-Tiny-1.0.0-1.9.noarch.rpm"
+RPM_HASH = "593c4b71b4d78d1ea8a3bb6e3128c8db99191349f59d27a1864d819406c2b9b90a03495c24a05b6493097331afd790d555d8f0f04b9f67a217a4f4700ad547e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Path--Tiny \
 perl-File-Path-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Test--Exception"
 
 inherit rpm

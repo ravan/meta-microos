@@ -18,13 +18,13 @@ the module is installed, so the end user will never notice the compilation \
 time. \
  \
 Best of all, it works the same on both Unix and Microsoft Windows. See \
-Inline- Support for support information."
+Inline-Support for support information."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.86"
+PV = "0.870.0"
 
-RPM_NAME = "perl-Inline-0.86-2.9.noarch.rpm"
-RPM_HASH = "f6df6b981045f696a5490718e90df9e1958fae3279e477e6b71d0191d5ce88d5c933bf1fc7594bed46a180838274dcb7010c0c7260187d5274fa6826f3b2e4e2"
+RPM_NAME = "perl-Inline-0.870.0-1.7.noarch.rpm"
+RPM_HASH = "410716e8dc87ee17c041da6440d63bc85b18e0c4ade2071549e088dc0d3170a6970de38c56d77a99e695c05cba72dc3223e057ddb9a76c9ccfb5691da8114b9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Foo--Tester \
@@ -33,7 +33,7 @@ perl-Inline--Foo \
 perl-Inline--MakeMaker \
 perl-Inline--denter"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-version"
 
 inherit rpm

@@ -15,8 +15,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.3"
 
-RPM_NAME = "abi-compliance-checker-2.3-3.10.noarch.rpm"
-RPM_HASH = "0c3e79955376f945108fae4ecf83b3a66e51954b1a107fe3bd0ca1d11e1e6e596942ac1bf7b1c49e040396437bc2cf5ebec77978c54b112ae6be2a581ad3ba1f"
+RPM_NAME = "abi-compliance-checker-2.3-5.3.noarch.rpm"
+RPM_HASH = "e4e7e7b4361828a9bc10a764a944409f118eadc7b843db0d09344c6094645d5f64a08444ab8203d95b78ea7130c36a569caff3ec918fe24283edb93f94e7af5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "abi-compliance-checker \

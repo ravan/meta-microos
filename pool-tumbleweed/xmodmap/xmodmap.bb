@@ -6,10 +6,10 @@ session startup script to configure the keyboard according to personal \
 tastes."
 LICENSE = "MIT"
 
-PV = "1.0.11"
+PV = "1.0.12"
 
-RPM_NAME = "xmodmap-1.0.11-1.5.aarch64.rpm"
-RPM_HASH = "2177f2445cbdcd2117087a5c971bb18a016f510dfc53bf312b50d03a91ef10770e5fd9009f1d9ff52aef952d653706766f559cfe78cbbbb0f2ed5eccc09afe4e"
+RPM_NAME = "xmodmap-1.0.12-1.2.aarch64.rpm"
+RPM_HASH = "93063bfc3a189a85e5e253b7531231bc7fc39f5ea2999150e1d7f58652e6114eaaea139b7033ef51f50a365d730dde19bd4549c9c50fb62626ee4bc635f09148"
 
 RPROVIDES:${PN} += "xmodmap"
 

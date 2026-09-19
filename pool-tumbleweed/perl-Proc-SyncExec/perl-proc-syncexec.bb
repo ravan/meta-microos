@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.01"
 
-RPM_NAME = "perl-Proc-SyncExec-1.01-1.13.noarch.rpm"
-RPM_HASH = "1b8a3b43f13076bae6763a3f0da2a7101cf140cb5f8fb6d27e49c794a4d93b3c2e306cd2835177962d72d3a4a34cef463fe4f13ae3845745898d6bceae379260"
+RPM_NAME = "perl-Proc-SyncExec-1.01-1.27.noarch.rpm"
+RPM_HASH = "637cb23d671fce121094e5c33bca9173295d90368f579d2355dad478673c2b89c98015dd6738a8cb73c3ee42a136c7716248e15687eded2fe1f38aee0930ffa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Proc--SyncExec \
 perl-Proc-SyncExec"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

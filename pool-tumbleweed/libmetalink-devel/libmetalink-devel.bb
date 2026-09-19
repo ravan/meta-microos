@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.1.3"
 
-RPM_NAME = "libmetalink-devel-0.1.3-3.19.aarch64.rpm"
-RPM_HASH = "25455d848591cbbe450eb3c9849e6e546152037a1fd60dead3190fed2490c4b438b18d177a5ea43318b878f0306ecb4dbc670794e42acb9a3e289f951dee108d"
+RPM_NAME = "libmetalink-devel-0.1.3-5.5.aarch64.rpm"
+RPM_HASH = "9b9203270591dc7caa1b67c5c486db842a95a5deabd9fab546ea2c0de85f3b5501572f392c4c41b1147fcce9acd660893de5957b6f4f97b8ce258c0d66057cbe"
 
 RPROVIDES:${PN} += "libmetalink-devel \
 pkgconfig-libmetalink"

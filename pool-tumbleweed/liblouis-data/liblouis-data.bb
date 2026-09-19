@@ -6,10 +6,10 @@ translation for many languages and has support for hyphenation. \
 This package contains data required by main package."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "3.25.0"
+PV = "3.39.0"
 
-RPM_NAME = "liblouis-data-3.25.0-1.2.noarch.rpm"
-RPM_HASH = "48a40df6c2534abcf9e208af9ca7aca244b19db955111b340cc37466435fdabf6976a9c677a2a72901cc5aef98e1fe34e241a78b3ed9042c58afa9afc77bb600"
+RPM_NAME = "liblouis-data-3.39.0-1.1.noarch.rpm"
+RPM_HASH = "0f73aed5f0f85265751908e881f6e82478449c89a3161ffa7c221853c54fc4c0a3a039b97682d4bf51db40978dba099d176aa4174ca5e76bd2c9e3259e998671"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblouis-data"

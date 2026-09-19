@@ -11,10 +11,10 @@ full power of PGF/TikZ; and an externalization mechanism \
 sensitive to code-changes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.5svn57398"
+PV = "2026.226.2.1.5svn77682"
 
-RPM_NAME = "texlive-forest-2023.209.2.1.5svn57398-53.1.noarch.rpm"
-RPM_HASH = "08a1db245a9b7a8cad8f31401858f248d8f488920d7640fb8a738040bc4778b6d759994b2a79414a9f8b284f3ef3a2d470f3fd7c73fa47f2a4fc6efe9ddd0583"
+RPM_NAME = "texlive-forest-2026.226.2.1.5svn77682-60.2.noarch.rpm"
+RPM_HASH = "8c2250badfdead5c9c23513a9326a549d76b704be99983e084b02393ff91433ccf57ed289120ee9062a680b58003ba818759160833ebe2f1e0a83695f3cf8450"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-forest-compat.sty \

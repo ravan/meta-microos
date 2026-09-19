@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.4"
 
-RPM_NAME = "ghc-echo-devel-0.1.4-2.3.aarch64.rpm"
-RPM_HASH = "8b78ca9e494dccb25ae08f8bc54d09f7ad89b62f1bb1200ae132fa079c08466e6e2b0b2ad03d77365122370c973e475e1618acd92864d1f898edb1eb3fc66283"
+RPM_NAME = "ghc-echo-devel-0.1.4-2.23.aarch64.rpm"
+RPM_HASH = "fd76a1be5ed6e5b435dad2e4b9bbe1ba6158dc52f920e8d4b85298ebd44ff9635a80b33a5bc181e01ae616dda18b26c02265aa552ab1d8b7efdba40c1712a615"
 
-RPROVIDES:${PN} += "ghc-devel-echo-0.1.4-E70uPOVrrAEEin21p1eUkX \
+RPROVIDES:${PN} += "ghc-devel-echo-0.1.4-2JVioXINDaCEoYt7R5FuJ9 \
 ghc-echo-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-process-1.6.17.0 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-process-1.6.26.1-905d \
 ghc-echo"
 
 inherit rpm

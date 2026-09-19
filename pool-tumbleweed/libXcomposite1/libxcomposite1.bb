@@ -6,10 +6,10 @@ off-screen buffer can be automatically merged into the parent window \
 or merged by external programs, called compositing managers."
 LICENSE = "MIT"
 
-PV = "0.4.6"
+PV = "0.4.7"
 
-RPM_NAME = "libXcomposite1-0.4.6-1.2.aarch64.rpm"
-RPM_HASH = "8ed1dcdcbfc78fc17653d2b4b288b1c5d219ace595150f56f14e901785e68d87c0ecb1a32377dc8ce7311ab738eaaa387bbd94f3f6c5a1d9f7fdebeb296cf9fd"
+RPM_NAME = "libXcomposite1-0.4.7-1.4.aarch64.rpm"
+RPM_HASH = "73738b33a77a39c7da3ace56fbdbcff4b249890db6c1dfa67264c247b4021e36ba52a3e5c1334c0139617273abfd28ee9aad2a25dcd06b09fefef0bd7e19cada"
 
 RPROVIDES:${PN} += "libXcomposite.so.1 \
 libXcomposite1"

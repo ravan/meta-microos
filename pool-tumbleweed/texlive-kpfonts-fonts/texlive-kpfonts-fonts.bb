@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-kpfonts"
 DESCRIPTION = "The  separated fonts package for texlive-kpfonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.35svn65583"
+PV = "2026.226.3.36svn77682"
 
-RPM_NAME = "texlive-kpfonts-fonts-2023.209.3.35svn65583-56.1.noarch.rpm"
-RPM_HASH = "5ac6891c176f1dbd9d1fbf6f3f3a9cd2d66d4ff8a8cea56c88dea3d236fdda504dc1b6543e15f771ae376251d763a0e4168512c9bcf5915d33fbed86a88949df"
+RPM_NAME = "texlive-kpfonts-fonts-2026.226.3.36svn77682-63.2.noarch.rpm"
+RPM_HASH = "03b21ec751c85ec38a4cff7cf177b8ea52be9c1fac5d48e9f6e72afa4a4638974da7810082c3eae2badf0f4f5ad29e5d1c8c26ee743fc90e6c19ae32e43dfc3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-kp \

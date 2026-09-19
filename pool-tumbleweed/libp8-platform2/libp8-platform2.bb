@@ -2,10 +2,10 @@ SUMMARY = "Platform support library used by libCEC and binary add-ons for Kodi"
 DESCRIPTION = "Platform support library used by libCEC and binary add-ons for Kodi."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.1.0.1"
+PV = "2.2.0"
 
-RPM_NAME = "libp8-platform2-2.1.0.1-3.14.aarch64.rpm"
-RPM_HASH = "fa97a6162a32a54dad806acde3178e18f63c6736967aeacb5d71e91e3a1cb5a8ecbc034ccf7bb0b5c14113fc9d09cbc2170562800350dc8595cee6fb1541e07f"
+RPM_NAME = "libp8-platform2-2.2.0-1.2.aarch64.rpm"
+RPM_HASH = "3d98a3881bf97608ad31cc46516a410dfa8388f7a2ebc74034b8e52c9facdd959b3cbf3547889d65778842fbeddd9c2f855d805d7d85b0ede09e52d1356f9c2c"
 
 RPROVIDES:${PN} += "libp8-platform.so.2 \
 libp8-platform2"

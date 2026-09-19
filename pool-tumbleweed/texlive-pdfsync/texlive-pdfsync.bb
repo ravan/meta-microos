@@ -5,10 +5,10 @@ forth between source and PDF, assuming a conforming editor and \
 PDF viewer."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20373"
+PV = "2026.226.svn20373"
 
-RPM_NAME = "texlive-pdfsync-2023.209.svn20373-52.1.noarch.rpm"
-RPM_HASH = "c482508bc5267c5d2be6cd8ae7841afff27b3e47f390755722e60da73ab0a4b31dac5a6eedc933040c0b16d25a5ce0eee6707f9b1c9637bfc33fa16a423b1b08"
+RPM_NAME = "texlive-pdfsync-2026.226.svn20373-58.2.noarch.rpm"
+RPM_HASH = "bf836ab4aba95171e904f74b74d02ff8977d5fe858720b3c93761b8f8f12ea877a359c851332c4e74aa06fbe091b242b95c47ceb26914244ef5ccbe6ae4385ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfsync.sty \

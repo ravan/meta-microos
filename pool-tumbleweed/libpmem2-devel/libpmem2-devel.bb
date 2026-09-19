@@ -10,10 +10,10 @@ convenient. libpmem2 has a new API that addresses many of the shortcommings \
 of libpmem1"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "2.1.1"
 
-RPM_NAME = "libpmem2-devel-1.11.1-1.9.aarch64.rpm"
-RPM_HASH = "91231f0123c36a011658d64a6ff70159cc90938c8599e8071b2fed3aaabc37b89fed24b7a59e0fec50e254c5678d563e946ddb0354bde7391032377d31ca9278"
+RPM_NAME = "libpmem2-devel-2.1.1-1.5.aarch64.rpm"
+RPM_HASH = "8fdb041d10636b92d8381c0878a744aebd3e639abff69855e830344aa174f3bc1c642c509c087af1381d08420f3464d5dd8f6273734ab914eca1d33ca1c5262c"
 
 RPROVIDES:${PN} += "libpmem2-devel \
 pkgconfig-libpmem2"

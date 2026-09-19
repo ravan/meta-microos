@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.9.11"
 
-RPM_NAME = "cracklib-2.9.11-1.1.aarch64.rpm"
-RPM_HASH = "e583d4394457542d7b9ad5d30782320347770f2e00e4fcb03210fe77547e74def448d9df5e3322faf96fb4e98c934feff8764b7848c74c7c1149e94cd30e07c6"
+RPM_NAME = "cracklib-2.9.11-1.11.aarch64.rpm"
+RPM_HASH = "a747d1a614b3158dd0014ccb68d842ee15cef026a221ba77839327c1ff9befbeb1da1ede96818fddc2dfd4a9ec3b25007e2c8c7125e80c3bbcf1f0cffb25e6d6"
 
 RPROVIDES:${PN} += "cracklib"
 

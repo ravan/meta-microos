@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210421"
 
-RPM_NAME = "libhibr-devel-20210421-3.6.aarch64.rpm"
-RPM_HASH = "30e183b4334689cd3f81024de74b8d2a137e84e94d14e0d199c7e49cb2255afab6d4e1b1b2b6f102e62f387047e23a5bc1f81973ca0d16147109746ccca508f9"
+RPM_NAME = "libhibr-devel-20210421-3.35.aarch64.rpm"
+RPM_HASH = "f947835affd63ddba069d431bd067c90a3c053a8b90033fa9eac4401c244a974146de08c59415b58d95d9c34d8a6f18fea2e9965e44c96555aedfd43c3f7165c"
 
 RPROVIDES:${PN} += "libhibr-devel \
 pkgconfig-libhibr"

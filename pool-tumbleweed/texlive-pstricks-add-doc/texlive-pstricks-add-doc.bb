@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pstricks-add"
 DESCRIPTION = "This package includes the documentation for texlive-pstricks-add"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.93svn65067"
+PV = "2026.226.3.94svn77682"
 
-RPM_NAME = "texlive-pstricks-add-doc-2023.209.3.93svn65067-54.2.noarch.rpm"
-RPM_HASH = "3d11730ee19982ffac3e2a1ab269869fc418d39ec206c990b655f4dd2e6b0124b84137654b5c480bc063f8fc0a47ba3d2124b778069efb3a72e25c8bccba80c5"
+RPM_NAME = "texlive-pstricks-add-doc-2026.226.3.94svn77682-60.4.noarch.rpm"
+RPM_HASH = "2755c718236540ca139577ade72c0485b9330db7add1ac8f1e1d8a9b750f2a0fef5706852a11ce31c04b82d46f8191d0eab54884ebf65d2c10a0d7a48754aef1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pstricks-add-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "libiptc ('iptables cache') is used to retrieve from the kernel, p
 construct, and load rulesets into the kernel."
 LICENSE = "Artistic-2.0 & GPL-2.0-only"
 
-PV = "1.8.9"
+PV = "1.8.13"
 
-RPM_NAME = "libiptc-devel-1.8.9-1.4.aarch64.rpm"
-RPM_HASH = "ab3359e1551ba8b8b601b4a983ad6a86c988334c524f7bb6222e0aef34f3fa7f6aaf7ca67ea1d97eb6477c19abdc868b573526926da11b44655d19c58ab585f9"
+RPM_NAME = "libiptc-devel-1.8.13-1.4.aarch64.rpm"
+RPM_HASH = "fc5b9875b005e247094f39a575bee09d8ca2c9d5cbe8faa411bc4b9e63a315a57e1db1d274e63334126d1dc654f981c88fd97de0b8db0357cdc75b9a300bb261"
 
 RPROVIDES:${PN} += "libiptc-devel \
 pkgconfig-libip4tc \

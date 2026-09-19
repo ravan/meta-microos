@@ -6,22 +6,24 @@ extended using plugins (DSP, GUI, output, input, etc.). The GUI looks \
 similar to Foobar2000."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & Zlib & LGPL-2.1-or-later"
 
-PV = "1.9.5"
+PV = "1.10.2"
 
-RPM_NAME = "deadbeef-1.9.5-2.2.aarch64.rpm"
-RPM_HASH = "081bf48e6259c52491eb8ce7539a41e621d5bd4abcdfa60ef85f4a9b55b18276ad49461ae25564cf134314597324b95ca47c21aca91db5b5ad89fc0d33956487"
+RPM_NAME = "deadbeef-1.10.2-3.3.aarch64.rpm"
+RPM_HASH = "7d7e76cc8c41e0e8a96a062717567eef8c0e26dcafc19cc0c3f919e998a85d7db952640f8e832864e564dd2f46d351798aea7b18042dc82134cee392d401c7c3"
 
-RPROVIDES:${PN} += "deadbeef"
+RPROVIDES:${PN} += "deadbeef \
+deadbeef-plugin-mpris2 \
+deadbeef-plugins-extra \
+deadbeef-restricted-plugins"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libBlocksRuntime.so.1.3 \
-libFLAC.so.12 \
-libX11.so.6 \
+libFLAC.so.14 \
 libasound.so.2 \
 libatk-1.0.so.0 \
-libavcodec.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
+libavcodec.so.62 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libcairo.so.2 \
 libcddb.so.2 \
@@ -29,6 +31,7 @@ libcdio.so.19 \
 libcurl.so.4 \
 libdbus-1.so.3 \
 libdispatch.so.1.3 \
+libfaad.so.2 \
 libgcc-s.so.1 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \

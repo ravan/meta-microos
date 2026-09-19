@@ -4,10 +4,10 @@ DESCRIPTION = "uWSGI is a self-healing application container server coded in pur
 This package contains support for configuring uWSGI via LDAP."
 LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "2.0.21"
+PV = "2.0.31"
 
-RPM_NAME = "uwsgi-ldap-2.0.21-3.2.aarch64.rpm"
-RPM_HASH = "08e8687d16bd4a1804bb07254b331b3c567f24265f4aa4dcb555efa0ace66ebe9609f4541fa106d6b8f7e51186b722af2d0a2c27534303c69d0fd50d4fc98f58"
+RPM_NAME = "uwsgi-ldap-2.0.31-4.4.aarch64.rpm"
+RPM_HASH = "f4309b666bec103f41c8b20677882a232ba19c66ec5bcdd0d811d8292bfe6bdd296bfbef9f6519534154bcc575f34fd758c1616ae18eca5684e1103043b69ff3"
 
 RPROVIDES:${PN} += "uwsgi-ldap"
 

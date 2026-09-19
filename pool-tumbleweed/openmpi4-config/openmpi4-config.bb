@@ -1,4 +1,4 @@
-SUMMARY = "Runtime configuration files for openMPI  version 4.1.5"
+SUMMARY = "Runtime configuration files for openMPI version 4.1.8"
 DESCRIPTION = "OpenMPI is an implementation of the Message Passing Interface, a \
 standardized API typically used for parallel and/or distributed \
 computing. OpenMPI is the merged result of four prior implementations \
@@ -8,10 +8,10 @@ such as latency or throughput. \
 This RPM contains the configuration files for OpenMPI runtime (Version 3)."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.5"
+PV = "4.1.8"
 
-RPM_NAME = "openmpi4-config-4.1.5-2.1.aarch64.rpm"
-RPM_HASH = "786686cf6e8558d74936923d1bb81daaadad095a5bdac23905fd7f85d63a28f90985dee998acf138699d456f00b65d7dc460521b9ac2487619bf140cf80941ec"
+RPM_NAME = "openmpi4-config-4.1.8-4.7.aarch64.rpm"
+RPM_HASH = "c44ce869568e5889042246e3a9bcd5df364265069c3fb4165dc11d2457431230203a2d05539bb2b711dfec3ac764e02503e4a37f3cf88312376fb7211a34d730"
 
 RPROVIDES:${PN} += "config-openmpi4-config \
 openmpi-runtime-config \

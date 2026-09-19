@@ -1,50 +1,46 @@
 SUMMARY = "ConTeXt and packages"
-DESCRIPTION = "Hans Hagen's powerful ConTeXt system, http://pragma-ade.com. \
-Also includes third-party ConTeXt packages."
+DESCRIPTION = "Hans Hagen's powerful ConTeXt system, https://pragma-ade.com. \
+Also includes third-party ConTeXt packages. TeX Live uses the \
+ConTeXt repackaging as distributed from \
+https://github.com/gucci-on-fleek/context-packaging. See \
+https://contextgarden.net and https://pragma-ade.com for \
+information about ConTeXt.#"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn66171"
+PV = "2026.222.svn75426"
 
-RPM_NAME = "texlive-collection-context-2023.208.svn66171-60.1.noarch.rpm"
-RPM_HASH = "dc0d2bf7a51ca9190cd3c810efc6598540099a326ceacf356299469a6c46e695a0995174f781b1e0a9154606243a3b3db8170b8081c93f49f6fed79170654703"
+RPM_NAME = "texlive-collection-context-2026.222.svn75426-68.2.noarch.rpm"
+RPM_HASH = "d394ac393f1986aec301ffca93a7150b8bfd787d36dd3fa18008da7bc8db70385be1446a54af8a449be28fef53e27e826825afaebb6fc96ce9a1e8dce21f3b9a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-context"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-context \
+texlive-collection-context"
 
 RDEPENDS:${PN} += "texlive-collection-basic \
 texlive-context \
-texlive-context-account \
-texlive-context-algorithmic \
 texlive-context-animation \
-texlive-context-annotation \
-texlive-context-bnf \
-texlive-context-chromato \
-texlive-context-cmscbf \
-texlive-context-cmttbf \
-texlive-context-construction-plan \
+texlive-context-calendar-examples \
+texlive-context-chat \
+texlive-context-collating-marks \
 texlive-context-cyrillicnumbers \
-texlive-context-degrade \
-texlive-context-fancybreak \
 texlive-context-filter \
-texlive-context-french \
-texlive-context-fullpage \
-texlive-context-gantt \
 texlive-context-gnuplot \
 texlive-context-handlecsv \
-texlive-context-layout \
+texlive-context-legacy \
 texlive-context-letter \
-texlive-context-lettrine \
 texlive-context-mathsets \
-texlive-context-rst \
-texlive-context-ruby \
-texlive-context-simplefonts \
+texlive-context-notes-zh-cn \
+texlive-context-pocketdiary \
 texlive-context-simpleslides \
-texlive-context-title \
+texlive-context-squares \
+texlive-context-sudoku \
 texlive-context-transliterator \
-texlive-context-typearea \
 texlive-context-typescripts \
 texlive-context-vim \
 texlive-context-visualcounter \
-texlive-jmn"
+texlive-jmn \
+texlive-luajittex"
 
 inherit rpm

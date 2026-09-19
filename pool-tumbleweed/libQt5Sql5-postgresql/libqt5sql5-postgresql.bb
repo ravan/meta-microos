@@ -6,10 +6,10 @@ The QPSQL driver supports version 7.3 and higher of the PostgreSQL \
 server."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5Sql5-postgresql-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "d512505c2a419821f6798485a5c145a0cb3bd036848b3636ae1abf26c419f0144bdba066a1ccd34b8c284d7081ae70068685d3af576464ed11f7f426b5219232"
+RPM_NAME = "libQt5Sql5-postgresql-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "346d1215dc39951767c313e6c3352433717ddbe5f630e7ff7acc5a573ec510b4bb05c965b6d1588e804ac5b1fce704d1d3c3753318b8567418ee241e76a9e941"
 
 RPROVIDES:${PN} += "libQt5Sql5-postgresql \
 libqsqlpsql.so \

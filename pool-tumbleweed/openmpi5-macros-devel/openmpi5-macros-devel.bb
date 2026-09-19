@@ -1,13 +1,14 @@
-SUMMARY = "Macros for openMPI version 5.0.0"
-DESCRIPTION = "Macros for building RPM packages for OpenMPI version 5.0.0."
+SUMMARY = "Macros for openMPI version 5.0.10"
+DESCRIPTION = "Macros for building RPM packages for OpenMPI version 5.0.10."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.0.0"
+PV = "5.0.10"
 
-RPM_NAME = "openmpi5-macros-devel-5.0.0-4.1.aarch64.rpm"
-RPM_HASH = "3d7787aba77cb778c1d2d0aea9e7b2ac325334750188e237d8e0febefda355f023f1fca98ff3bb456c63b5fc5c96881006bf001f1c7954ed9a3b1911747984eb"
+RPM_NAME = "openmpi5-macros-devel-5.0.10-2.2.aarch64.rpm"
+RPM_HASH = "c5c31b77786df06fb20bff83379ad01d25c7870f21ca41f5d469d935fcba2b76f118b12e70a481a4b2eb4585894f1443c416f35a4cee4fac1e565a32448506fd"
 
-RPROVIDES:${PN} += "openmpi-macros-provider \
+RPROVIDES:${PN} += "openmpi-macros-devel \
+openmpi-macros-provider \
 openmpi5-macros-devel \
 rpm-macro-openmpi-devel-requires \
 rpm-macro-openmpi-prefix \

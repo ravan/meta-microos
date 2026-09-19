@@ -8,10 +8,10 @@ Pango forms the core of text and font handling for GTK+. \
 This package provides the GObject Introspection bindings for Pango."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.50.14"
+PV = "1.58.2"
 
-RPM_NAME = "typelib-1_0-Pango-1_0-1.50.14-1.4.aarch64.rpm"
-RPM_HASH = "4a72bc27f7c8b12ac90b1005f51fd8fbdbbd68d4d7d409ce4d60ab785087dc771f542ed20cdfb4cbf334d4cf3ddd488941125334fcc3a14939910d27db5565d5"
+RPM_NAME = "typelib-1_0-Pango-1_0-1.58.2-1.1.aarch64.rpm"
+RPM_HASH = "686e70b1018079cdab95558d502f7d32e55df0636faaf62bebfb1b3f1dd0df6ed4ee66d91a8b4c051ea703cca9ca9bc49c6094c7821be69fdbfe17d6d96c9107"
 
 RPROVIDES:${PN} += "typelib-1-0-Pango-1-0 \
 typelib-Pango \
@@ -26,6 +26,7 @@ libpangocairo-1.0.so.0 \
 libpangoft2-1.0.so.0 \
 libpangoxft-1.0.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio \
 typelib-HarfBuzz \

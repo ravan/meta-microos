@@ -18,15 +18,16 @@ Lziprecover can print correct total file sizes and ratios even for \
 multi-member files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.23"
+PV = "1.25"
 
-RPM_NAME = "lziprecover-1.23-1.8.aarch64.rpm"
-RPM_HASH = "06a1935f5dd30d90cfc99fa155ccee92562923bb6efff4657620c47d8ed7113f688d751b572ce24cc371badea87b26dc42803bec405ba005cc3d87060f4bf005"
+RPM_NAME = "lziprecover-1.25-2.7.aarch64.rpm"
+RPM_HASH = "531a342447a7f05ed5f10c4a68520fe4eefef996d65c602a7883273bc6ba38d56bb4b75663c5fbca42acf8a884229ef996aec1e14f765a148ce924e7e089509e"
 
 RPROVIDES:${PN} += "lziprecover"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 info \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

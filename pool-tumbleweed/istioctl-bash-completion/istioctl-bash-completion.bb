@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for istioctl"
 DESCRIPTION = "Bash command line completion support for istioctl."
 LICENSE = "Apache-2.0"
 
-PV = "1.19.0"
+PV = "1.30.4"
 
-RPM_NAME = "istioctl-bash-completion-1.19.0-1.1.noarch.rpm"
-RPM_HASH = "1b8d8b4c162be815f852b797cba8cb9a1bf6400c232d1086e4cfcb8ebf666fcc74ee03fc4f34bef8f67978280c7dfa9a237433f7587b5f5f4a60d6b4cc54e8d3"
+RPM_NAME = "istioctl-bash-completion-1.30.4-1.1.noarch.rpm"
+RPM_HASH = "72aadc907f5a3cbc27f9daca307294271bd07603854aaeb721028a4b38138616e247dbc58cc1923f80bc7a557bdec083835cf9b8a7f5f07acb664a7e966c7054"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "istioctl-bash-completion"

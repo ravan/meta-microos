@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bxjscls"
 DESCRIPTION = "This package includes the documentation for texlive-bxjscls"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.2.7asvn63011"
+PV = "2026.226.2.9dsvn75447"
 
-RPM_NAME = "texlive-bxjscls-doc-2023.209.2.7asvn63011-53.1.noarch.rpm"
-RPM_HASH = "7bd6928210e807132210011db27e1a366df84bedbe872f9a0afe8ea648b1abb3571375b13286b99a20e6b37bb7e3914e655deec3b78a22fec3e1767344c7d454"
+RPM_NAME = "texlive-bxjscls-doc-2026.226.2.9dsvn75447-59.2.noarch.rpm"
+RPM_HASH = "8abfc369794dfe460bf4db0139c2eb7a0277bf711f9b4a75be1c269d865b3b59cb79f55f258e0090a062a04853b8f374338fa170c0b197600ac43b3958e84695"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-bxjscls-doc-ja \

@@ -7,8 +7,8 @@ LICENSE = "CC-BY-SA-4.0"
 
 PV = "1.0"
 
-RPM_NAME = "int10h-olympiad-fonts-1.0-1.1.noarch.rpm"
-RPM_HASH = "e40bfd4504079047a04cda3c7e0503852b6892a38ec14690cfb2b8fcef71b89df3506e7ce54d64bf1f9c2bdd6afd09d2927ee46b200d035701ea331682085f46"
+RPM_NAME = "int10h-olympiad-fonts-1.0-1.9.noarch.rpm"
+RPM_HASH = "2a2f170c2ad926c6fd9dcaffadf99c2262796005cd1b3a9a874a7ca9a2ac3256052576bbd5e0e5894a1d7e63cc233e19f09dd5f46932d2a7337f3f9d09cd4402"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "int10h-olympiad-fonts"

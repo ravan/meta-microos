@@ -1,11 +1,11 @@
 SUMMARY = "MySpell en_PH Dictionary"
 DESCRIPTION = "English spelling dictionaries, hyphenation rules, thesaurus, and grammar checker."
-LICENSE = "AGPL-3.0-only & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & CC-BY-SA-1.0 & CC-BY-SA-3.0 & GFDL-1.1-only & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-only & LGPL-2.1-or-later & LGPL-3.0-only & LGPL-3.0-or-later & MPL-1.1"
+LICENSE = "AGPL-3.0-only & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & CC-BY-SA-1.0 & CC-BY-SA-3.0 & CC-BY-SA-4.0 & GFDL-1.1-only & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & GPL-3.0-or-later & LGPL-2.0-only & LGPL-2.1-only & LGPL-2.1-or-later & LGPL-3.0-only & LGPL-3.0-or-later & MPL-1.1"
 
-PV = "20221012"
+PV = "20240321"
 
-RPM_NAME = "myspell-en_PH-20221012-1.2.noarch.rpm"
-RPM_HASH = "31f04d9ffa63b8fbf022c1600c2c4dba9f36aa7286748de99971ed21f4b7375d0ffd5c70f9800788b4229d82623b271436582a8159061cd73883b00c8678f112"
+RPM_NAME = "myspell-en_PH-20240321-1.7.noarch.rpm"
+RPM_HASH = "97118ef353b7982b0f80fa4e33ef8e159f5eade5d7a75671f1ff887e6235d3c147ecba32137c66a6406434888324c9b7f3a2ed9421efa9c8af4308029ba1240c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-libreoffice-en-PH \

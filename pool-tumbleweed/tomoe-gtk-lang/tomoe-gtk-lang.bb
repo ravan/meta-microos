@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package tomoe-gtk"
 DESCRIPTION = "Provides translations for the 'tomoe-gtk' package."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "tomoe-gtk-lang-0.6.0-44.25.noarch.rpm"
-RPM_HASH = "b9c25ec9044d5cdde0bb5441733571595c27793d4ddab49f6b7f77d00eae7cbb7d9fa30d48eab3157aa3dcbbb92ab66ca63ef4afd23cf6f8efc5138e3612f2ae"
+RPM_NAME = "tomoe-gtk-lang-0.6.0-45.6.noarch.rpm"
+RPM_HASH = "49bc882eea4d977498e8161bda3cae2a0638cd626c12e12528bb764c2aeced482d6d370d26e33f8e5aa5c57d7c11041b99d4ac4c2598eb6f0ae268bda7f804c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tomoe-gtk-ja \

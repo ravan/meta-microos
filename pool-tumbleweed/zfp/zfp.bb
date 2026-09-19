@@ -3,10 +3,10 @@ DESCRIPTION = "Library for compressed numerical arrays that support high \
 throughput read and write random access."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.0.0"
+PV = "1.0.1"
 
-RPM_NAME = "zfp-1.0.0-1.3.aarch64.rpm"
-RPM_HASH = "dcd27f641fd39b8ba8359606a19c2b0c5ea0e706ccde93e9ed9270095005ca3bb68e69034c22c88269829b939436e62c511d39e62a85b984531adc98d0fc678d"
+RPM_NAME = "zfp-1.0.1-1.12.aarch64.rpm"
+RPM_HASH = "627484c38db677453a1b874f45f13663dec541357fae479616904fba725385314540a329e743ce1c3612c460d7b8807ffae0c44e9c753709bfab71eedfacbb93"
 
 RPROVIDES:${PN} += "zfp"
 

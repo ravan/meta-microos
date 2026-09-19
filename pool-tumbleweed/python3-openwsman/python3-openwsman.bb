@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Python3 bindings to access the OpenWSMAN cl
 API."
 LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
-PV = "2.7.2"
+PV = "2.8.1"
 
-RPM_NAME = "python3-openwsman-2.7.2-2.9.aarch64.rpm"
-RPM_HASH = "ebf7ea803e5fe1bb7f55bc4eda2d37cbd4f286aeb73fd86e19785a1baa5e3ebd41f0729d5af218c242c258d1066b7c0ec7ff5a3769ad0aba15a7c62e731cac68"
+RPM_NAME = "python3-openwsman-2.8.1-5.1.aarch64.rpm"
+RPM_HASH = "5b148487bd4abba1231fe83e016c80d4988e8a681b6e68c65da9d8fe6abb5f4c09cd634fb7f3b2a0f2cc02f8b87380057722a5d9fc900aca5e4f3579552de9d0"
 
 RPROVIDES:${PN} += "openwsman-python \
 python3-openwsman"

@@ -5,10 +5,10 @@ mechanism. Line numbering may be extended to footnote lines, \
 using the fnlineno package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.1svn65586"
+PV = "2026.226.5.7svn77875"
 
-RPM_NAME = "texlive-lineno-2023.209.5.1svn65586-55.1.noarch.rpm"
-RPM_HASH = "a3ee4bd270467bef2b409ef24346d0f08ba117d62c78dd454f7bc5070183683460b3d6788c1cb644740376e5d9eec8f7f3b6bc13a3c82550c07d30d2976d92ca"
+RPM_NAME = "texlive-lineno-2026.226.5.7svn77875-61.2.noarch.rpm"
+RPM_HASH = "aa8dc62bfee64ad6e49e4e2d14c318f5b2940dea5025239de3a26adc6a429dfc8144ceba2fe17ceb2f1544805f779595d6ee622ebb98b8976a99254c402723f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ednmath0.sty \
@@ -26,6 +26,7 @@ grep \
 sed \
 tex-etoolbox.sty \
 tex-finstrut.sty \
+tex-kvoptions.sty \
 tex-longtable.sty \
 tex-ltabptch.sty \
 tex-varioref.sty \

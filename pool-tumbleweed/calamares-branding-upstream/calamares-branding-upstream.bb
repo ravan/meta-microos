@@ -5,15 +5,15 @@ Meanwhile configuration files adopted to work with openSUSE and SUSE \
 based custom appliances."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.62"
+PV = "3.4.2"
 
-RPM_NAME = "calamares-branding-upstream-3.2.62-1.2.noarch.rpm"
-RPM_HASH = "874c3b56e8645a0b4b07c60797e271ff5bef54b50e321d4265d36ea6e84bf9fcacdaed67ab941e40f5917195789677faf6aa816e305eb8bccaa78aa18b2a591e"
+RPM_NAME = "calamares-branding-upstream-3.4.2-1.1.noarch.rpm"
+RPM_HASH = "326fe9e5ff9dd057ed6a25a2a72613b087f38f60f6bf485fd1b25d62b04c5ad347d9cb90ff9bc5f8076707bd1e34dec6fd6ac790bbfbb80588b5458201886e83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calamares-branding \
 calamares-branding-upstream"
 
-RDEPENDS:${PN} += "qt5qmlimport-QtQuick.2"
+RDEPENDS:${PN} += ""
 
 inherit rpm

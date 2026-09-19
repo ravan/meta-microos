@@ -4,14 +4,15 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.2"
 
-RPM_NAME = "typelib-1_0-Qrtr-1_0-1.2.2-1.5.aarch64.rpm"
-RPM_HASH = "8c20eac4584c5fc0c41466fabfd18ddb71d9eda3873223326c1dcf4491758bbf73d8626422bbce3e5c8d582ff0d4b15ea45c4ffaebd183adb0cf987d43e294e4"
+RPM_NAME = "typelib-1_0-Qrtr-1_0-1.2.2-1.17.aarch64.rpm"
+RPM_HASH = "b8001c31632660aa9bb59b94b2dbec38718a6dc023d917c686a74730f3f3ccc664a4c94d42be4fb7009e6ea0958079d08be5116d9cf1b4942c0ee55cf4bff13c"
 
 RPROVIDES:${PN} += "typelib-1-0-Qrtr-1-0 \
 typelib-Qrtr"
 
 RDEPENDS:${PN} += "libqrtr-glib.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

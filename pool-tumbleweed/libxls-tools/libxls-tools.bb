@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains libxls2csv, a tool which converts an XLS fi
 CSV format, more suitable for parsing."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.6.2"
+PV = "1.6.3"
 
-RPM_NAME = "libxls-tools-1.6.2-3.6.aarch64.rpm"
-RPM_HASH = "2e9947c023412aa23b23c440fe53f1ec738073e73031b49bc64edb61693e1c9c3636d6bea911408f53976cc9d6fa0b359329490aca25d1f0db8d0dcf77df0435"
+RPM_NAME = "libxls-tools-1.6.3-1.7.aarch64.rpm"
+RPM_HASH = "cff17d3008f21b8994eb2cdec5bd554a1234b27b566e14e484db6e14790c1b663471401e1489ebbe342a6a8537c245ed30fe132c051574b548e56365d4123715"
 
 RPROVIDES:${PN} += "libxls-tools"
 

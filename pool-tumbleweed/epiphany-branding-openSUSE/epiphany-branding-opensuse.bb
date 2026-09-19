@@ -6,10 +6,10 @@ This package provides the openSUSE default bookmarks and user \
 agent string."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "42.1"
+PV = "50.6"
 
-RPM_NAME = "epiphany-branding-openSUSE-42.1-8.53.noarch.rpm"
-RPM_HASH = "680d411fdce62e12f0730fa98f11db7e514d5abec15db90d14841ad1aba840e8cbc25d68f5e2a90a8d2dba27bb2e743b908365f343d8c7ff1ff5e73ce422c4a9"
+RPM_NAME = "epiphany-branding-openSUSE-50.6-1.25.noarch.rpm"
+RPM_HASH = "2978d3bbafec42433f5bca543e5900cd0e0469c73d8c00bec3b522326d154f7a4d1092e4d5b85cf2ab91e18d80cf7105daef8a347ac43ac28ccace626694f6d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "epiphany-branding \

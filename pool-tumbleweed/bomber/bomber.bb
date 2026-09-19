@@ -7,28 +7,29 @@ level. Each level gets a harder by increasing the speed of the plane and the \
 height of the buildings."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "bomber-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "de94e77c7a2cf6aca168c0a10c8f9d0ca17f46aecd33d48a91ed9321ad50980b8803e30c40add549933d24eff65d025ef0de14dc5e9a5ce8115e38f5e55d6bca"
+RPM_NAME = "bomber-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "3715312dcfea50c12252bb6c36928d651eb1d3c3bbc55b95fc223fb1c35550602cf1d0ee793f7bf9e1d461f844aed84a8d615ee12f4b75851a3e293842d36221"
 
 RPROVIDES:${PN} += "bomber \
 bomber5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

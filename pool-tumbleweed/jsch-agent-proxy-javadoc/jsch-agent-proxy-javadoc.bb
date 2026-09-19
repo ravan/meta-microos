@@ -2,15 +2,14 @@ SUMMARY = "API documentation for jsch-agent-proxy"
 DESCRIPTION = "This package provides API documentation for jsch-agent-proxy."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.7"
+PV = "0.0.9"
 
-RPM_NAME = "jsch-agent-proxy-javadoc-0.0.7-4.7.noarch.rpm"
-RPM_HASH = "aab4884ad5e83e34a224872fc0d7e8fe354d85f1a53cecd36f36fc63f58aa00eb531de4408aedf56e52ecfefdd3b572ba53783e8fbf609d4ecbe3c15f9d87cd0"
+RPM_NAME = "jsch-agent-proxy-javadoc-0.0.9-2.8.noarch.rpm"
+RPM_HASH = "8437e8be38753695f4c511a7c868c5fb142b4256960fcf393ddd30a5986778988ae600d9dd0ac5df58fca4133a649c1eb8f117704bb225687c742f8f2d8e9408"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-agent-proxy-javadoc"
 
-RDEPENDS:${PN} += "javapackages-filesystem \
-mvn-com.jcraft-jsch.agentproxy.core"
+RDEPENDS:${PN} += "javapackages-filesystem"
 
 inherit rpm

@@ -4,10 +4,10 @@ as a standard configuration setup for installing PKCS#11 modules in \
 such a way that they're discoverable."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.24.1"
+PV = "0.26.2"
 
-RPM_NAME = "p11-kit-0.24.1-2.3.aarch64.rpm"
-RPM_HASH = "23b7e8cefb3222724de9ab6d8a88e2f424f817fde1072323b0ef8c2656ca02c2f27f348465a29aeaafef4cac049818dbfacf8aeba46b39a9c768227f10f6b138"
+RPM_NAME = "p11-kit-0.26.2-1.6.aarch64.rpm"
+RPM_HASH = "324580a931de2b528022608f0db9d316aac0f29e6f34d9c013f44331f6af5187816d78cb9b1bef86b1013d5391a26e3dbfec784a2ba049219dbe9fe51d269223"
 
 RPROVIDES:${PN} += "p11-kit"
 

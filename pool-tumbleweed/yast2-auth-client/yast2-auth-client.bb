@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Centralised System Authentication Configuration"
 DESCRIPTION = "With this YaST2 module you may configure centralised system authentication, on a single or multipe network domains."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "5.0.4"
 
-RPM_NAME = "yast2-auth-client-4.6.1-1.1.noarch.rpm"
-RPM_HASH = "cc8522c695e16a12bea4c4172e96e6fa127af46bafcca29454fef5e235b9e899ce036fdae8a653e01bf7a19d73d83738c8bbfbd20128a7b34488bdc1025e3662"
+RPM_NAME = "yast2-auth-client-5.0.4-1.2.noarch.rpm"
+RPM_HASH = "6666c96693a5dd0ce35a70c0f61ca5d31e21c664e32fba448561988952f269f01141dfc3f154a729dcfcc8d5f2ae7cfe908cb3bf9f620ae928323c6cd210c159"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-auth-client"

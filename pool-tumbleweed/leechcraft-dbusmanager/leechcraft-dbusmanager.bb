@@ -2,22 +2,21 @@ SUMMARY = "LeechCraft D-Bus Module"
 DESCRIPTION = "This package provides a D-Bus implementation plugin for LeechCraft."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-dbusmanager-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "547bd368695acf86cc570fd366549454a07fadd7c4825f12ecac4193544d5cc68abb57f418776542b698eedc42bcca54c3defd6c5ed9ed9c4f79bfe8f0b0574d"
+RPM_NAME = "leechcraft-dbusmanager-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "ab07283511bc8d16686e40716064557c2d4793181a95ff082dab272c49180af64071de46f6616c16c5d9503d6c98546fb90233b03c861af5d081664dbc11ca4e"
 
 RPROVIDES:${PN} += "leechcraft-dbusmanager \
 libleechcraft-dbusmanager.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

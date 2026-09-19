@@ -4,10 +4,10 @@ implementing local mode for Apache Ivy, which allows \
 artifact resolution using XMvn resolver."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.1.0"
+PV = "6.2.0"
 
-RPM_NAME = "ivy-local-6.1.0-1.2.noarch.rpm"
-RPM_HASH = "5b03b800cd915a4208ab053dc5ff4556733ada99efb7f67c796428bbd9f5d9c9e9fc7edcea8ff70f9340c320759c4fbaf44b9ef77a9dbdf02d211b7ea2e144b9"
+RPM_NAME = "ivy-local-6.2.0-1.9.noarch.rpm"
+RPM_HASH = "e08ef40abbded3ba3b38e6d83321be928f707f2f92dddae51169ec08683c95bd2fa84d7510015f84a8b6f2897ca6b84a52d81aa13e9ca53328b06f628800e27c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ivy-local"

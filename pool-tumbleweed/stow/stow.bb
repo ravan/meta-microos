@@ -17,10 +17,10 @@ Stow is implemented as a combination of a Perl script providing a CLI \
 interface, and a backend Perl module which does most of the work."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.3.1"
+PV = "2.4.1"
 
-RPM_NAME = "stow-2.3.1-1.12.noarch.rpm"
-RPM_HASH = "f00d590309c5311f91c229be1f2d784cb88037df053bec2ce732aac6bdda754b211388e8882bf9d9ee477fea68865600491bb835e37ccdc9aa447913b7573396"
+RPM_NAME = "stow-2.4.1-1.10.noarch.rpm"
+RPM_HASH = "de648b7dfc4cd474eaa4e206b8bd5c03bcc2507c02da71c0bde5c8eb4f716930706b0a9c17acb0ce994884bdd99929b3ba00d0df2bf9cd4c59bcbf5cadf93872"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Stow \
@@ -30,6 +30,6 @@ stow"
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
 perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

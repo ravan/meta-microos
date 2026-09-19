@@ -12,10 +12,10 @@ This package contains the development headers for the library found \
 in libXext6."
 LICENSE = "MIT"
 
-PV = "1.3.5"
+PV = "1.3.7"
 
-RPM_NAME = "libXext-devel-1.3.5-1.3.aarch64.rpm"
-RPM_HASH = "8655d99f4fb04cbb6120263ab1bec1ee3334e3811b5ceb61ca6e89b43df8f44313114f8b37faff20734871068c1f101e00ba26cf11a8d01ca5ac7aeb3c157c10"
+RPM_NAME = "libXext-devel-1.3.7-1.4.aarch64.rpm"
+RPM_HASH = "60de4aa8a2a1c0a5058ddb4f0259fb9d340a20f5440ef25de7c3fd9a8772ced2d01c95bb02a0b8561dbd046f901b1bacbbe9bc921cea824627f6878ec1ed43d5"
 
 RPROVIDES:${PN} += "libXext-devel \
 pkgconfig-xext \

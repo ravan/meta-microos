@@ -3,21 +3,21 @@ DESCRIPTION = "Qps is a visual process manager, an X11 version of 'top' or 'ps' 
 displays processes in a window and lets you sort and manipulate them. It \
 displays some general system information, and many details about current \
 processes."
-LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "2.7.0"
+PV = "2.13.0"
 
-RPM_NAME = "qps-2.7.0-1.2.aarch64.rpm"
-RPM_HASH = "1c3b2ed605390cd74acc29bcb92312104d64afa08d581cd43f34f9453c5be56af380848045e9baaf6d2803fd5162a05041e0ad16c240b070069193be8c82c509"
+RPM_NAME = "qps-2.13.0-1.2.aarch64.rpm"
+RPM_HASH = "4272661a82937d3850e0636a346e413edb6cabd3e82ff76a45fa84ad95ea79b4f386ff7738ae8cb0f8e3919e6c9871e42b77f0a79f18a520b1f94545748f6da3"
 
 RPROVIDES:${PN} += "qps"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-liblxqt.so.1 \
+liblxqt.so.2 \
 libm.so.6 \
 libstdc++.so.6"
 

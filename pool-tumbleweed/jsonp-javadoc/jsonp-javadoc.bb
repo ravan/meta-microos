@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for jsonp"
 DESCRIPTION = "This package contains javadoc for jsonp."
 LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
-PV = "1.0.4"
+PV = "1.1.4"
 
-RPM_NAME = "jsonp-javadoc-1.0.4-4.1.noarch.rpm"
-RPM_HASH = "4e716dce12eb6a07481fe4aea653878ec507732ac1a37cec3629f980635cb105b0a3734a1877f59be54ad6ce53aa54dd692fc6280949619bf9a16bb7271ef310"
+RPM_NAME = "jsonp-javadoc-1.1.4-1.6.noarch.rpm"
+RPM_HASH = "8f5244d763cfaedbf42d0923df47a67d0716e8a4b3fed2bdf9386d1a59ff3de433ee0c637618dd73a4cb06cf339b2452599829a2b6a37b3ffa99603502bd9b18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsonp-javadoc"

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Breeze icon theme"
 DESCRIPTION = "Contains icons in KDE Breeze style (from KDE Plasma 5)."
 LICENSE = "CC-BY-SA-4.0 & GPL-2.0-only & GPL-3.0-only"
 
-PV = "4.6.0"
+PV = "5.0.2"
 
-RPM_NAME = "yast2-theme-breeze-4.6.0-1.2.noarch.rpm"
-RPM_HASH = "a662e3f0c39c6a22739a10ec22ad2e09586d7cb644f3c251397d7e3600392b79aaa86bb76fa630a42062523e4e0ecadb2026e8d6f6837908ef179d9a8ee404c0"
+RPM_NAME = "yast2-theme-breeze-5.0.2-1.2.noarch.rpm"
+RPM_HASH = "c2aa05a04459357ee186e2339739ab7aa5bdd67f067018c474ece71b0fa471bea12c426cbc1892e556a5d242de0000ef5decea36e24b6a1d935e21532bd1f91a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-theme-breeze"

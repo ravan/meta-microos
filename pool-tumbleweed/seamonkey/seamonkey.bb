@@ -9,10 +9,10 @@ interface.  Many Thunderbird and (legacy) Firefox extensions are \
 compatible with SeaMonkey."
 LICENSE = "MPL-2.0"
 
-PV = "2.53.17"
+PV = "2.53.17.1"
 
-RPM_NAME = "seamonkey-2.53.17-1.1.aarch64.rpm"
-RPM_HASH = "f590201fe7ad5f81fd10bb9ab5f037c6006459c3182d5f3652e6a4f548a09e467ac297d02ed1516799e747d2534d45b9a8b81295490e5964d6dc3ad0378b5522"
+RPM_NAME = "seamonkey-2.53.17.1-4.1.aarch64.rpm"
+RPM_HASH = "18f36e9568ac9ef3beebe6a73d86392ef621782d35d3b5c02c3968998adf12d353a2adfee804c593d4adeb222d228eea43ebf031e0577027574b9af6802b24d0"
 
 RPROVIDES:${PN} += "browser-npapi \
 locale-seamonkey-cs;de;el;en-GB;es-AR;es-ES;fi;fr;hu;it;ja;ka;nb-NO;nl;pl;pt-BR;pt-PT;ru;sk;sv-SE;zh-CN;zh-TW \

@@ -4,10 +4,10 @@ xii-lat.tex' to produce a (perhaps) surprising typeset \
 document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn45805"
+PV = "2026.226.svn45805"
 
-RPM_NAME = "texlive-xii-lat-2023.209.svn45805-53.2.noarch.rpm"
-RPM_HASH = "305bc69f5893114d8453057119444b16e75049b69cf05f106bdca2ff411ecf95133ba5ed73097c2309906e8ae500a25cf207aa4937279ac057243829c093020c"
+RPM_NAME = "texlive-xii-lat-2026.226.svn45805-59.4.noarch.rpm"
+RPM_HASH = "805d4ec35688bb2dd330657c797b9aac08e550262624448e80f029ab25f7feebcb060a6b97cdad8b74fa7d9617f12db9edb8b406b38be3cfdc2395f38ecc5514"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xii-lat"

@@ -6,10 +6,10 @@ a how-to document for writing a Parole plugin, see the Plugins API \
 documentation and the plugins directory which contains some examples."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "parole-4.18.0-1.4.aarch64.rpm"
-RPM_HASH = "58c820d397d236e979268cfd9c3d9544a6ee8ef9a37b755e7ab9451fda4b7fdb10dee0ef75eae20dcc6e39c6f853d17f8831e3bd8f39129a84af65a217449b9c"
+RPM_NAME = "parole-4.20.0-1.5.aarch64.rpm"
+RPM_HASH = "d91ac2e8e9f899bfce13a3df1cfc1da59b338f8d414bef61193dde226305065766cf3eeaa50ff6c38f04c7e75b6c55398b40ecf8cc7699133f2d470ebd41b0a0"
 
 RPROVIDES:${PN} += "parole"
 
@@ -34,7 +34,7 @@ libgsttag-1.0.so.0 \
 libgstvideo-1.0.so.0 \
 libgtk-3.so.0 \
 libnotify.so.4 \
-libtag-c.so.0 \
+libtag-c.so.2 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \
 libxfconf-0.so.3"

@@ -3,10 +3,10 @@ DESCRIPTION = "xgc is an X11 graphics demo that shows various features of the X1
 core protocol graphics primitives."
 LICENSE = "MIT"
 
-PV = "1.0.6"
+PV = "1.0.7"
 
-RPM_NAME = "xgc-1.0.6-1.3.aarch64.rpm"
-RPM_HASH = "d1d3f6df0fbd276dfab9bbc74d5ef44a840b71169f38743f0206a57e23745845fae2446a7236860618f33732dcc9c71edd46d9380267251e9c307edc510a9b10"
+RPM_NAME = "xgc-1.0.7-1.4.aarch64.rpm"
+RPM_HASH = "056d9696c38770468263c0f38cae965230acda409e79294880daa3992ae797f67990e279e22df42728dff55b80eef059a7161a5594dedf8089215e4fce536ccf"
 
 RPROVIDES:${PN} += "xgc"
 

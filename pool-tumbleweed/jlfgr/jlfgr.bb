@@ -17,8 +17,8 @@ LICENSE = "SUSE-Redistributable-Content"
 
 PV = "1.0"
 
-RPM_NAME = "jlfgr-1.0-24.6.noarch.rpm"
-RPM_HASH = "0fe861857af4f78e007e2d6cced905720707b48e2162c329a5244d6aa070f243a6bd8a3364da3ff51adf3e8209334d8fd819fcf64011d4b16b798cd46a2203a7"
+RPM_NAME = "jlfgr-1.0-24.14.noarch.rpm"
+RPM_HASH = "e6a615cb9f2edcbda84dcde42bbb2b473eb3a7f4d35e239c5ecd75917463e9d666476b4724efd0f07bf5881dcef77c55a52d3cead36e42b2dc74bb4660033cfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jlfgr"

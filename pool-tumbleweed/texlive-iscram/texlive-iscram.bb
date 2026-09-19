@@ -4,10 +4,10 @@ Conference on Information Systems for Crisis Response and \
 Management)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn45801"
+PV = "2026.226.1.1svn45801"
 
-RPM_NAME = "texlive-iscram-2023.209.1.1svn45801-56.1.noarch.rpm"
-RPM_HASH = "a68dc8f2f86252ca89744ab5e590271bc046714c69565d4d95ad3af6b51641dde09762ced9c642ac8498e9a6bcbc0ac02c3f5e42c1fbc2b68b06c1fc8e9a4dce"
+RPM_NAME = "texlive-iscram-2026.226.1.1svn45801-63.2.noarch.rpm"
+RPM_HASH = "4f0a0fcdfe0fdeb01c97b8f08d020fa702800677c87aa0f9b3ef8ce5e0df9dc8b063934f8009b51021ac631daaafe9e5386491c9712d218b9dcf3ae1c5905f1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-iscram.cls \

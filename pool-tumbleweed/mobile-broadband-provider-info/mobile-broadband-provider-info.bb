@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains mobile broadband settings for different ser
 providers in different countries."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "20230416"
+PV = "20240407"
 
-RPM_NAME = "mobile-broadband-provider-info-20230416-1.1.noarch.rpm"
-RPM_HASH = "9518f15da37b41b5d9b1cc7a93129be1631a1bd6c04361e3f49adb3eac9155de3a1a52d8147e6c256368e7d5d7941a8123ef9bba238e7254825cd9eed7c79751"
+RPM_NAME = "mobile-broadband-provider-info-20240407-2.2.noarch.rpm"
+RPM_HASH = "78e7669290153adfbb09028b62422436aaa291bacd9523495a792cbe1c0f1076c53c61c7b7226b4f8b23c39cf4c723e845af72a81947786b8de34f7ea426df5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mobile-broadband-provider-info \

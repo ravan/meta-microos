@@ -4,10 +4,10 @@ icons, in documents licensed under CC licences. A font (in \
 Adobe Type 1 format) and LaTeX support macros are provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn54512"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-ccicons-2023.209.1.6svn54512-53.1.noarch.rpm"
-RPM_HASH = "fed9b1faff533021a9ad79716dfb918e2e7e49e02f8c458552444fc938528b184055e6114a5cb04a7acc2ad3b8c2f7d97d568aaa56f15a10e6b27a7985ea203c"
+RPM_NAME = "texlive-ccicons-2026.226.1.6svn77682-59.2.noarch.rpm"
+RPM_HASH = "b1876f773d92b6b6b6756341f5ff5cc52a57c3bb236f974cb8aa9a37c8e8b6259399ec7ee4d7c44399291b594dc046a78642423a18cbb660798bcbf65cf5fdbf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ccicons-u.enc \

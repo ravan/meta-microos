@@ -2,10 +2,10 @@ SUMMARY = "C++ interface for Gwenhywfar"
 DESCRIPTION = "This package contains the C++ GUI interface for Gwenhywfar."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.10.1"
+PV = "5.14.1"
 
-RPM_NAME = "libgwengui-cpp79-5.10.1-1.5.aarch64.rpm"
-RPM_HASH = "404f80c0ae5ca169f952270dbfa0b69b17fed9c493191c30cc288446f59fda3018facd5a1df7b770600e2ffb5f46402d09a5db8f610a683e072330ee2ab0d59d"
+RPM_NAME = "libgwengui-cpp79-5.14.1-1.3.aarch64.rpm"
+RPM_HASH = "0c8f2633fcd74ebc40b7e8531601fe0d08e21059e9307c251ffceceb7a15b079ced3f3a07cf1f8f40dd79a0bd8584864b8abb612cdc2e72d64d1457d28533f3f"
 
 RPROVIDES:${PN} += "libgwengui-cpp.so.79 \
 libgwengui-cpp79"

@@ -6,31 +6,30 @@ It allows for issuing arbitrary HTTP requests and displays colorized \
 responses."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.2"
+PV = "3.2.4"
 
-RPM_NAME = "httpie-3.2.2-3.1.noarch.rpm"
-RPM_HASH = "382bcf0a50dafb325fc1441a27140334d0a66706d8033f0851b9678d007f8e9fce386cac235b314fc2b18d441093260060b6ad9ac7b05959822e01799c3cb431"
+RPM_NAME = "httpie-3.2.4-5.4.noarch.rpm"
+RPM_HASH = "dae128bb18129691410fed9efe9ffa181cccfd898fd84ddd99a19733e048533bc3ae7b94938e37174265b0afbe9f49e4b319b90802a072bca6e5202cd874b0e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpie \
 python3-httpie \
-python3.11dist-httpie \
-python311-httpie \
+python3.13dist-httpie \
+python313-httpie \
 python3dist-httpie"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
-python311 \
-python311-PySocks \
-python311-Pygments \
-python311-charset-normalizer \
-python311-defusedxml \
-python311-multidict \
-python311-pip \
-python311-requests \
-python311-requests-toolbelt \
-python311-rich \
-python311-setuptools \
+python313 \
+python313-Pygments \
+python313-charset-normalizer \
+python313-defusedxml \
+python313-multidict \
+python313-pip \
+python313-requests \
+python313-requests-toolbelt \
+python313-rich \
+python313-setuptools \
 update-alternatives"
 
 inherit rpm

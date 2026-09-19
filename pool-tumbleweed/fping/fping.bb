@@ -17,10 +17,10 @@ Unlike ping, FPing is meant to be used in scripts. Its output is \
 designed to be easy to parse."
 LICENSE = "MIT"
 
-PV = "5.1"
+PV = "5.5"
 
-RPM_NAME = "fping-5.1-1.8.aarch64.rpm"
-RPM_HASH = "48a3c2205246ae17c2530222fbfe17d3163406c867f66be9d43362e25c1d497a9b79a2b8ed4d477a4e15eebd658fd019a0fc4384c78ab7780a96c8efd130cfc1"
+RPM_NAME = "fping-5.5-1.4.aarch64.rpm"
+RPM_HASH = "116f5e689b9485e648ffd1d1bc73dea9a02bf8bc228b5283f85230e96c8f027d033d8566ad739465cde8d25ceb9155bb10fd8c0cf0176e0609b69b57b80017af"
 
 RPROVIDES:${PN} += "fping"
 

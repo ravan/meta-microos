@@ -2,19 +2,19 @@ SUMMARY = "Haskell commonmark-pandoc profiling library"
 DESCRIPTION = "This package provides the Haskell commonmark-pandoc profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.1.3"
+PV = "0.3"
 
-RPM_NAME = "ghc-commonmark-pandoc-prof-0.2.1.3-2.10.aarch64.rpm"
-RPM_HASH = "8eba7b51b456f85962189d7c357eec3a37120deb37925f5825f1be84760f7af21f2532633ce45e3ff06cf573a1dae3e9eab09c69ef9a10ea9d57e75d716d6cd7"
+RPM_NAME = "ghc-commonmark-pandoc-prof-0.3-1.2.aarch64.rpm"
+RPM_HASH = "3817fd36c95b6183daaa3ba380d49a024432d5aaf2280508f9a92d64139e1dfda99b465f343e24f4f4dd6f1a50c9d86ac55f4fe9c0d155f5d0f1285543b7d015"
 
 RPROVIDES:${PN} += "ghc-commonmark-pandoc-prof \
-ghc-prof-commonmark-pandoc-0.2.1.3-GkTisosgOerIgZW4ZPE6QD"
+ghc-prof-commonmark-pandoc-0.3-LD3VUAgig8i7h5XtC6wGuG"
 
 RDEPENDS:${PN} += "ghc-commonmark-pandoc-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-commonmark-0.2.3-6HyB59I8Umx9O57gNLEHWR \
-ghc-prof-commonmark-extensions-0.2.3.5-8zB7Un6TRyL3aLmtEaucGr \
-ghc-prof-pandoc-types-1.23.1-8yEOjBSLsT62OPTXI0FZpc \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-commonmark-0.3-Hb0ZVJyoQFw1ynqgbLue51 \
+ghc-prof-commonmark-extensions-0.2.7-1mQ1nSXKMfxCcwI2Hy1vjF \
+ghc-prof-pandoc-types-1.23.1.2-ChVVUkZ84FqF7WWwilaI65 \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

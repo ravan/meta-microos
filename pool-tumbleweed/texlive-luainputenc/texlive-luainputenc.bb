@@ -4,14 +4,14 @@ that need 8-bit character-sets need special treatment. (In \
 fact, LaTeX documents using UTF-8 with 'traditional' -- \
 256-glyph -- fonts also need support from this package.) The \
 package, therefore, replaces the LaTeX standard inputenc for \
-use under LuaTeX. With a current LuaTeX,the package has the \
+use under LuaTeX. With a current LuaTeX, the package has the \
 same behaviour with LuaTeX as inputenc has under pdfTeX."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.208.0.0.973svn20491"
+PV = "2026.226.0.0.973svn77682"
 
-RPM_NAME = "texlive-luainputenc-2023.208.0.0.973svn20491-53.1.noarch.rpm"
-RPM_HASH = "e767698403645da905134b864b4fe64a7ce8e885876242a2ee5d78e5b82d8e5181d123ab58dddc1befc6641a155f487839ee31a5d6f23ea81acaf2e937437989"
+RPM_NAME = "texlive-luainputenc-2026.226.0.0.973svn77682-59.2.noarch.rpm"
+RPM_HASH = "9a67525019e81ed4428b1d6d043a79de1b39a1d61ef7c1ef8e3d7838e43f9fd0afe385d1192dfa84701965d96e9ea7d7ade2b26698fed29d22e98e70092a1074"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luainputenc.sty \

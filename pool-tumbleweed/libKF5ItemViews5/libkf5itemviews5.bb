@@ -4,10 +4,10 @@ includes views for categorizing lists and to add search filters to flat and \
 hierarchical lists."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5ItemViews5-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "17dc018ace26d80f3505cec068fd989fa48b439b878a4b303e3956356ee37443e03f21a5734732e69d6590787f99bf74b4ae298cd1c7e994be73c48100c2ec0a"
+RPM_NAME = "libKF5ItemViews5-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "99a0491963e14d508574bdda1e15b5b0340a9f1d33c4dbc57e185b98b37a96872ae97c09642a6b574ce6f482b52d0a4e885e3a145ea3e24a472466295ab87ffd"
 
 RPROVIDES:${PN} += "libKF5ItemViews.so.5 \
 libKF5ItemViews5"

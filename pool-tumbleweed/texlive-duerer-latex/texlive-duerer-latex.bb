@@ -3,10 +3,10 @@ DESCRIPTION = "LaTeX support for Hoenig's Computer Duerer fonts, using their \
 standard fontname names."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-duerer-latex-2023.209.1.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "911b96fcfa0b4c2238d0fd1fa8ad17dedced0a19a00efa35737d5bf1c2c90f5bcf73693e8ca918c18ebcf69fd09e7540ea5130056cdc80f36bbd5b9f49e5f7fc"
+RPM_NAME = "texlive-duerer-latex-2026.226.1.1svn15878-59.2.noarch.rpm"
+RPM_HASH = "35be59f8120447cfb9c0a6591b95026ff59c90944282fca67cb3d1326a3724180926d006f64d118e3691d3962a38b5aa12b16f4507124af0adc7c94230e77f38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-duerer.sty \

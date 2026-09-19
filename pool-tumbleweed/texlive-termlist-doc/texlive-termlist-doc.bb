@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-termlist"
 DESCRIPTION = "This package includes the documentation for texlive-termlist"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn18923"
+PV = "2026.227.1.1svn18923"
 
-RPM_NAME = "texlive-termlist-doc-2023.209.1.1svn18923-55.1.noarch.rpm"
-RPM_HASH = "e63246c3dd6457e0a82cf803e2e58fefede9513cae76b2518ca977fe54f70434f31ed53b7d7cc480aec0df2dd954ac66d662d284c5a2c6b6030766efa0315a94"
+RPM_NAME = "texlive-termlist-doc-2026.227.1.1svn18923-62.2.noarch.rpm"
+RPM_HASH = "fbb24cc71902b05f9c44e61dbbaf063c840b76a45bbc18e21ff298f01c192f52ab71758b8eea632052845199e41e68815255cd27a3cad7c736caa6b45842874c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-termlist-doc"

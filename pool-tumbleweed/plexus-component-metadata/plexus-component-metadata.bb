@@ -7,10 +7,10 @@ velocity, etc. Plexus also includes an application server which \
 is like a J2EE application server, without all the baggage."
 LICENSE = "Apache-2.0 & MIT & xpp"
 
-PV = "2.1.1"
+PV = "2.2.0"
 
-RPM_NAME = "plexus-component-metadata-2.1.1-4.2.noarch.rpm"
-RPM_HASH = "fb5a409846a9250787fc0949d8351b2c252fcc8dc6ca0cb3456efdff54d87ebdfff50b834515bb7597c5ca8c525cd4608746e9a6b27139b6c91b508101754344"
+RPM_NAME = "plexus-component-metadata-2.2.0-3.1.noarch.rpm"
+RPM_HASH = "903170738bbe35924f1913d90c0b1fa686c7b421f14cd205d68f99ec549366661a5e78e5c4bc05d7c95336c4ada9953dc179cb4596e0bdeb61d41574d1b078f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-component-metadata \
@@ -21,8 +21,8 @@ RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-com.thoughtworks.qdox-qdox \
 mvn-org.codehaus.plexus-plexus-component-annotations \
-mvn-org.codehaus.plexus-plexus-container-default \
 mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.codehaus.plexus-plexus-xml \
 mvn-org.jdom-jdom2 \
 mvn-org.ow2.asm-asm"
 

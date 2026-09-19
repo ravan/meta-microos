@@ -5,10 +5,10 @@ You need package vim for the help and other documentation too. If you \
 want less features, you might want to install vim instead."
 LICENSE = "Vim"
 
-PV = "9.0.1632"
+PV = "9.2.0901"
 
-RPM_NAME = "gvim-9.0.1632-2.2.aarch64.rpm"
-RPM_HASH = "a82753fd3095bbc4d362956c4a23d294b4ad0714e64a3dac0ed3b1502fc415004b147ddf5f9134723b467e343b55558fc5da347572a4f920e741419f90ae8725"
+RPM_NAME = "gvim-9.2.0901-1.1.aarch64.rpm"
+RPM_HASH = "b3e0a5ec8c8df94df5a03d07addf2e4ed42379fffe13388fae5cb8281e52d724ba39e739ae84d32eb6f8f951f490a3f555feaa0ea41836dcb1da21fae909ec27"
 
 RPROVIDES:${PN} += "config-gvim \
 gvim \
@@ -41,6 +41,7 @@ libpangocairo-1.0.so.0 \
 libperl.so \
 libselinux.so.1 \
 libtinfo.so.6 \
+libwayland-client.so.0 \
 vim-data \
 xxd"
 

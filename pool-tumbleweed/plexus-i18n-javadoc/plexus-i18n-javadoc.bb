@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for plexus-i18n"
 DESCRIPTION = "Javadoc for plexus-i18n."
 LICENSE = "Apache-2.0"
 
-PV = "1.0~beta10"
+PV = "1.0.0"
 
-RPM_NAME = "plexus-i18n-javadoc-1.0~beta10-3.7.noarch.rpm"
-RPM_HASH = "59e0644d414a4b2b5a6cd87b984e1b4ecfecaf33cb4e10e9fd0977c8305764a4dfb9a0ccc8b43e7c0dedaeaea5df549355708ae5db62686c1d9259a7c0bb8791"
+RPM_NAME = "plexus-i18n-javadoc-1.0.0-1.5.noarch.rpm"
+RPM_HASH = "4d7f494a305919643a5cfa4dbc077dc3e15c9e19e40dd78c332253345eb344e16396de4e177201573baa9f60e6cba59ad77e3a5a6e3b68b11537b49ba627e05f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-i18n-javadoc"

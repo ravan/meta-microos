@@ -4,10 +4,10 @@ DESCRIPTION = "The (PSTricks-related) package provides a command \
 even a relative) position on the page."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn15878"
 
-RPM_NAME = "texlive-pst-abspos-2023.209.0.0.2svn15878-53.1.noarch.rpm"
-RPM_HASH = "4f19e871960e21812feaf9a7134ea67df5a3609065695a47d5f2a52608ef82e0709467aef0231ba40ae7e38b6250016d746340b1f0292dd97d7c91895cd4457c"
+RPM_NAME = "texlive-pst-abspos-2026.226.0.0.2svn15878-59.2.noarch.rpm"
+RPM_HASH = "2cd2a021d6d83d190c1e8f93ab1e439bb12b6592a55abdd43c5e2d6bae7f94f247b3f5dd48802314077d60c53204848b1e10d941e305cff444eac725ffd5eee0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-abspos.sty \

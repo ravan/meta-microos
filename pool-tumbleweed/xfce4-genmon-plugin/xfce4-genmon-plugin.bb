@@ -5,16 +5,20 @@ result in form of an image, a bar, a button and a personalized tooltip in the \
 panel."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.2.0"
+PV = "4.3.0"
 
-RPM_NAME = "xfce4-genmon-plugin-4.2.0-1.1.aarch64.rpm"
-RPM_HASH = "77ca3cd5a2c21b43c5e7d082b762e5fdc6e4a747dc908a5c2725dd2d95146fa21d7dfb8556267921782cf18246a3d11190d22cf401378bbc7815d3291d1539b7"
+RPM_NAME = "xfce4-genmon-plugin-4.3.0-1.4.aarch64.rpm"
+RPM_HASH = "a0f41a7dc8de36560f2bf81173ad15ff3ba16349bf48dda08e22121a7eee2f0fe8cfeaac97696e9c51da6a3055e388f0392b2113f4eeeaae04695a459f2e9e64"
 
 RPROVIDES:${PN} += "libgenmon.so \
 xfce4-genmon-plugin \
 xfce4-panel-plugin-genmon"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/perl \
+/usr/bin/sh \
+exo-tools \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgdk-3.so.0 \
 libglib-2.0.so.0 \

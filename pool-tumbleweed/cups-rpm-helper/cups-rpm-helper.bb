@@ -3,14 +3,14 @@ DESCRIPTION = "RPM helper scripts to create automatic 'Provides:' tags for print
 driver RPMs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.1"
+PV = "2.0.4"
 
-RPM_NAME = "cups-rpm-helper-2.0.1-3.1.aarch64.rpm"
-RPM_HASH = "2a8b03cfbc938da626b7642cc68c0659e6089b095031b776557c89d92e5eafc5a34299df99826fec627ed8c48ca7b19b232feeddbd2ad243621bb0ca84d644e0"
+RPM_NAME = "cups-rpm-helper-2.0.4-2.11.aarch64.rpm"
+RPM_HASH = "775b6cb5357fe95c0d8b64874eda1c93843d5c82fb53a77ece68f86177c779cf3e71a77ddb9467fbc18e0e6ecb675ba704a2dcd52c17fc2d1a1da66f5578c0af"
 
 RPROVIDES:${PN} += "cups-rpm-helper"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python3-cups \
 rpm-build"
 

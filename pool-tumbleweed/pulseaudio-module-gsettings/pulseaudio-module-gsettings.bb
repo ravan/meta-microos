@@ -6,10 +6,10 @@ improved drop-in replacement for the Enlightened Sound Daemon (ESOUND). \
 This package provides GSettings storage of PulseAudio sound server settings."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "16.1"
+PV = "17.0"
 
-RPM_NAME = "pulseaudio-module-gsettings-16.1-4.1.aarch64.rpm"
-RPM_HASH = "d0087a45610543bd79789a52dc9d5309175e3a615683a2633b0e147663e68f79b1182a40d201a3122ad7715951504abbad9737e71c483eace582171fcd4cb484"
+RPM_NAME = "pulseaudio-module-gsettings-17.0-7.5.aarch64.rpm"
+RPM_HASH = "7c87d0cc16754ad3eb24f5938fda4b12b22acd1a81be2b2add6ad11921136b35ab002cc7dc54043e565a5813aad6c4953d94ffab7ca91e2c93fa191b27614f0b"
 
 RPROVIDES:${PN} += "pulseaudio-module-gsettings"
 
@@ -18,8 +18,8 @@ libc.so.6 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libpulsecommon-16.1.so \
-libpulsecore-16.1.so \
+libpulsecommon-17.0.so \
+libpulsecore-17.0.so \
 pulseaudio"
 
 inherit rpm

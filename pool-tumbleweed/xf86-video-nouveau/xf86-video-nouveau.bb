@@ -3,10 +3,10 @@ DESCRIPTION = "The nouveau project aims to build high-quality, open source drive
 cards. “Nouveau” [nuvo] is the French word for “new”."
 LICENSE = "MIT"
 
-PV = "1.0.17"
+PV = "1.0.18"
 
-RPM_NAME = "xf86-video-nouveau-1.0.17-4.5.aarch64.rpm"
-RPM_HASH = "ed19474a652330affe13c5c11784346685a133b58657a0cb6ba38ff5affa158710f8f3d48ecc262ff25a0572bbd14903ac51a46c8d8ed39e397a326e1f5970b3"
+RPM_NAME = "xf86-video-nouveau-1.0.18-1.8.aarch64.rpm"
+RPM_HASH = "d651aeba7881dce5a92097ccc7a4222c78ac91555b29700624d70bdf0c8dda0a879908d18d7ccc47d4b29d19426ae236f79536a32f8fb3a7e3cc689ac8887c36"
 
 RPROVIDES:${PN} += "xf86-video-nouveau \
 xorg-x11-driver-video-nouveau"

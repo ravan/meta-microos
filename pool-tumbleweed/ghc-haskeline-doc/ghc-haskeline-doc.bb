@@ -2,10 +2,10 @@ SUMMARY = "Haskell haskeline library documentation"
 DESCRIPTION = "This package provides the Haskell haskeline library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.2"
+PV = "0.8.4.1"
 
-RPM_NAME = "ghc-haskeline-doc-0.8.2-1.1.noarch.rpm"
-RPM_HASH = "74b437a6862b22475a8e95d05280b16a118c9da40d446da6c67ab34dfe0e93c8d285c15d30ce543887b090a5fc403f3d467f971afc3257a8a2bc8a89afc957af"
+RPM_NAME = "ghc-haskeline-doc-0.8.4.1-1.3.noarch.rpm"
+RPM_HASH = "f9d0522ece6963c7eaa934713fc28f383cc37d0e086d01fbe7a349bb58578e2f3291f594049dae7f60b2eb6b127c75d2896c5445b15185d915896b7927dcb0d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-haskeline-doc"

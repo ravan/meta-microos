@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mgltex"
 DESCRIPTION = "This package includes the documentation for texlive-mgltex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.4.2svn63255"
+PV = "2026.226.4.2svn63255"
 
-RPM_NAME = "texlive-mgltex-doc-2023.209.4.2svn63255-55.1.noarch.rpm"
-RPM_HASH = "93a9a80c5d659bf72b078402c40a2aa8a5cd12b8b51b2b7423134089d4ffd299f302155847f8be1b068f7b106c271eb98a5f18c389b1dbf3331f8a6b4eccfae3"
+RPM_NAME = "texlive-mgltex-doc-2026.226.4.2svn63255-61.2.noarch.rpm"
+RPM_HASH = "d2af26c4aae0a402f167b157144aaa29dc38047154b1fec7b09b5aea9a6956a11fd28810630c2eaaa8d89cdc61b67df56e19779d9254b2f46063acc9a3f0d9b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-tex-doc \

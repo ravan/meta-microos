@@ -3,10 +3,10 @@ DESCRIPTION = "Geany is a text editor using the GTK+ toolkit with basic features
 an integrated development environment."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.38"
+PV = "2.1"
 
-RPM_NAME = "geany-devel-1.38-3.8.aarch64.rpm"
-RPM_HASH = "cadcdf9952cc3208f9d37ad3272b2c6ef222a520404aaf2ff1e89358e0dcd49778948470defbca1639127696c636479a72cca2ebddec7cc21f49a8400b2bfd7c"
+RPM_NAME = "geany-devel-2.1-1.7.aarch64.rpm"
+RPM_HASH = "769b68b5689ea0cd8b31511971e1244057dee96cc101461904749a1f8721f053ae5b1239d4d9418085592af7879372fbd68534c3ece50197042070bd8bd65abf"
 
 RPROVIDES:${PN} += "geany-devel \
 pkgconfig-geany"

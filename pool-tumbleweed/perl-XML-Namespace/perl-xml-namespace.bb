@@ -7,13 +7,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.02"
 
-RPM_NAME = "perl-XML-Namespace-0.02-1.28.noarch.rpm"
-RPM_HASH = "1f8e5d27f157b964f00826b2ba4ea4d24ae676dc0b21e91a845e6d9a73ead21ac7dfc4d311d8c497d60880068e06300241da8cef8b8574b1ad6a09fc93497aeb"
+RPM_NAME = "perl-XML-Namespace-0.02-1.42.noarch.rpm"
+RPM_HASH = "ad25465bdce723a0fa762311da753a2fc747ac19f1c83593aef6acb586d07b887caaa36fdc1bdc54ae4c6d8cb8f9c485fbfc72a2de10603a46594bddf58f7edf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Namespace \
 perl-XML-Namespace"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

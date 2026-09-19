@@ -7,10 +7,10 @@ means that new data types or processing capabilities can be added by \
 installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "1dfa3b4d768ff940590d2353e7b510a4a85691894f86d3fb1e325d18185dd425a792476c9e46cb9772b98c6be157ab1e3e1c1f769d5ac162e5403fd3a57ab922"
+RPM_NAME = "gstreamer-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "6d5c0aeda84951a72d4190d0746e97b3ed90ad084e988ad7a42e3df5cd828e0794ab9c9b387497751aab7a8e3dd7cffb3e538349be3905a6ab08ddd6edfc25cf"
 
 RPROVIDES:${PN} += "gstreamer \
 gstreamer-doc \
@@ -21,7 +21,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \
-libgio-2.0.so.0 \
+libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgstbase-1.0.so.0 \

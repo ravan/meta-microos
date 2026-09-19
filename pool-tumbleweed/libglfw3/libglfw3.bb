@@ -5,17 +5,17 @@ operating system specific tasks such as opening an OpenGL window, and \
 reading keyboard, time, mouse and joystick input."
 LICENSE = "Zlib"
 
-PV = "3.3.8"
+PV = "3.5.1"
 
-RPM_NAME = "libglfw3-3.3.8-2.1.aarch64.rpm"
-RPM_HASH = "b00466f7d917dedf26b55a277dc487fa341f64eb48e0af1e37648631770d7866574cdb2a9f2b130b71c8fd555dfd62b6f1f98847f63d8ad4f7d987e6eec98ad2"
+RPM_NAME = "libglfw3-3.5.1-1.1.aarch64.rpm"
+RPM_HASH = "6bdd3e451531db64203edc552bd6c70e15d14bf0ae9ba8d17c09f85c7731cc67a69305274042f98e2e96097f44c6f1ea5a9853b184e7e459d7fabf05a5c32c53"
 
 RPROVIDES:${PN} += "libglfw.so.3 \
-libglfw3"
+libglfw3 \
+libglfw3-wayland"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libX11.so.6 \
 libc.so.6 \
 libm.so.6"
 

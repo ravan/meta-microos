@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.3"
 
-RPM_NAME = "keylightctl-0.0.3-1.3.aarch64.rpm"
-RPM_HASH = "aa4d23263606acf58251c331f7080469bfdfd9e27ca266220be28e11bf649dc6263f6d1cc9299c552e190857dcf6ef48c0ffda3ff6afea33f21cf574b8808339"
+RPM_NAME = "keylightctl-0.0.3-2.8.aarch64.rpm"
+RPM_HASH = "31a979a7c6815fa922e52f2b5a7206535e48c77d86b13b8e424fe1f5b085446cff2be81d3a76f6e8cad2c937a09a53f84bd64c2ff85b00e050a8e158f311c45b"
 
 RPROVIDES:${PN} += "keylightctl"
 

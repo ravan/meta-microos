@@ -4,10 +4,10 @@ POSIX 1003.1e draft standard 17 functions for manipulating access \
 control lists."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "libacl1-2.3.1-2.13.aarch64.rpm"
-RPM_HASH = "614c424af725514d32f6e2cc7c4f3721b10d535b8371224dfa93538c493e085f63d303da97899f0b0d2c262f7ff49bf9ddc715923f7f8972cd6c7ad5b8a40da1"
+RPM_NAME = "libacl1-2.4.0-1.2.aarch64.rpm"
+RPM_HASH = "204bec5e75c373a6ebb738feccf8513f1938db8c0dfac51f478624b5b150752f21e407bdc41eafc098d417f700f9cde92d5b7f0cc48689d9373a4f6536da93a3"
 
 RPROVIDES:${PN} += "libacl \
 libacl.so.1 \

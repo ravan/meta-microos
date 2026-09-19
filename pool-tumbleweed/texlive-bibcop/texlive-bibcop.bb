@@ -7,10 +7,10 @@ standalone command line tool. The package does not work on \
 Windows."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.9svn65816"
+PV = "2026.226.0.0.0.32svn75042"
 
-RPM_NAME = "texlive-bibcop-2023.209.0.0.0.9svn65816-54.1.noarch.rpm"
-RPM_HASH = "1acef9362e6233b668176e7ce5c6d4200546b25773f664662a9d18c574d57501a8134cf096ffe729ac84f66453dacede97d39e21a9a253135c64efd4fa4e46be"
+RPM_NAME = "texlive-bibcop-2026.226.0.0.0.32svn75042-61.2.noarch.rpm"
+RPM_HASH = "1fb3f7404aaee7b408e834f4cd02cc9e9b0ced480d252d6c19905cc387502f4fa9c3f6a8626faaceec6ce675c2c160858163af2adbf1b97add2e205cd333cbb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibcop.sty \
@@ -22,11 +22,14 @@ coreutils \
 ed \
 findutils \
 grep \
+perl-File--Basename \
+perl-POSIX \
 perl-strict \
 perl-warnings \
 sed \
 tex-iexec.sty \
 tex-pgfopts.sty \
+tex-shellesc.sty \
 texlive \
 texlive-bibcop-bin \
 texlive-filesystem \

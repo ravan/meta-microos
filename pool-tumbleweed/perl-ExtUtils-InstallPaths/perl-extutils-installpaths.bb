@@ -58,16 +58,16 @@ This is the same as 'libdoc' above, but applies to HTML documents. Unless \
 explicitly set, this is only available when perl was configured to do so."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.012"
+PV = "0.15.0"
 
-RPM_NAME = "perl-ExtUtils-InstallPaths-0.012-1.19.noarch.rpm"
-RPM_HASH = "184a8b43209d8f9641f567a13006780ed5588fd4799fd64c54d5cdacaa2dc90f1ffb4dbb95c8e171acfad181f326f064d3aa7e9d0f4ae46457b10decbaf340dd"
+RPM_NAME = "perl-ExtUtils-InstallPaths-0.15.0-1.5.noarch.rpm"
+RPM_HASH = "a35aab53f9f1c22d382a44d077c123f2b46af25786d40a39a285e7ce9814076c248658b76b29acd38331a20b35279a84159370c900771bd6c5f0a2219ebc435d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-ExtUtils--InstallPaths \
 perl-ExtUtils-InstallPaths"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-ExtUtils--Config"
 
 inherit rpm

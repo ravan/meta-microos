@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines some commands and styles to support drawing \
 straight-edge and compass diagrams with TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn32392"
+PV = "2026.226.1svn32392"
 
-RPM_NAME = "texlive-rulercompass-2023.209.1svn32392-54.1.noarch.rpm"
-RPM_HASH = "1911560ca9c5b5ad280c359326e22c868b9424b15c4ddc17d4880fb095362eebf301b145d4110d3efcb4db3831ce20c73b15096ea14b69c8ee7283468963463f"
+RPM_NAME = "texlive-rulercompass-2026.226.1svn32392-60.2.noarch.rpm"
+RPM_HASH = "8c918cd346c7a6eec71b0b9621f326b455d0e09833583d431db8b9c07c6628401e09b7ebf7f1840ad354304ce5157af6476684ea4f826cdf28d1352bf428ed79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibraryrulercompass.code.tex \

@@ -11,8 +11,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.9pre"
 
-RPM_NAME = "google-exo-fonts-0.9pre-12.17.noarch.rpm"
-RPM_HASH = "7a42a01cad5a5821502f4442f7cb923e1cef68579846f601e5b1838c0873afaef507dd921201ac1d3732a1550b461f6961fd8f4a863bfc06fc167f199e5aa737"
+RPM_NAME = "google-exo-fonts-0.9pre-12.25.noarch.rpm"
+RPM_HASH = "2a335309d2457e51701e766467b754c03b8e34399451c02aefba784260358be87ff446200e85018e9c14cbe29d5d29b3d8088ab648735cba1f684ff644493b34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-exo-fonts"

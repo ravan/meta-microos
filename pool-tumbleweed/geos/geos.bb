@@ -6,17 +6,18 @@ predicate functions and spatial operators, as well as specific JTS topology \
 functions such as IsValid()."
 LICENSE = "LGPL-2.1-only"
 
-PV = "3.11.2"
+PV = "3.15.0"
 
-RPM_NAME = "geos-3.11.2-2.2.aarch64.rpm"
-RPM_HASH = "4374be73898dbac8aecc929f65b7d1edfd65a6b9e9ade8c0f43b869d2a0608f87042afe3f83a4fdd527020c72c5081fed725e60094a4641ba1d26f354857ed33"
+RPM_NAME = "geos-3.15.0-1.1.aarch64.rpm"
+RPM_HASH = "10296772454f05081061c9b58f29fed619f5644512454ad3cb622a02e00da6753f5e951387d7dca11e4e23fbabbadb56e73490200b258bbd7457622c0b02e615"
 
 RPROVIDES:${PN} += "geos"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgeos.so.3.11.2 \
+libgeos.so.3.15.0 \
+libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

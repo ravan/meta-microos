@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.22.8"
 
-RPM_NAME = "typelib-1_0-Cogl-2_0-1.22.8-2.12.aarch64.rpm"
-RPM_HASH = "bb62436bc4aadf656e7d79c6d7c9409f9fc2742a0790da9a18910d85ca3c49faaf55fd9ef5daebe232731d0bf2c0439e7989a3e342800b5790c435383ca6dc58"
+RPM_NAME = "typelib-1_0-Cogl-2_0-1.22.8-3.7.aarch64.rpm"
+RPM_HASH = "18ec26935e4787235a8db8b4bd7afc3dcd18cc031a8fbac3576edfd0a84d193c791840b20a0a2b77979a0a19ce28d633ca9ae59a4d521d80f5bf1a20677b6a8d"
 
 RPROVIDES:${PN} += "typelib-1-0-Cogl-2-0 \
 typelib-Cogl"

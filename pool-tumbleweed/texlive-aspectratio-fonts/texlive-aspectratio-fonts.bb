@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-aspectratio"
 DESCRIPTION = "The  separated fonts package for texlive-aspectratio"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn25243"
+PV = "2026.226.2.0svn25243"
 
-RPM_NAME = "texlive-aspectratio-fonts-2023.209.2.0svn25243-54.1.noarch.rpm"
-RPM_HASH = "8b9b7d19fd41eba9954042c7af43f499d092a1fb0126ee9650002deab3bee4513cdbd317f7e520a3f3de43c889a9d0a38901f423db7549c69ca3d38a8019de30"
+RPM_NAME = "texlive-aspectratio-fonts-2026.226.2.0svn25243-60.2.noarch.rpm"
+RPM_HASH = "7600a6598021015fbe26edd452da4da9bc587523baaf9354df53008447ba8bf75329faf5c0e88ef0749bcfb41c56ef1636b74e97f97ce7201dafb3307a87126e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-amar \

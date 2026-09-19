@@ -3,10 +3,10 @@ DESCRIPTION = "Optional collectd Java API in order to write collectd plugins in 
 Java."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-java-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "97194679e68f9b2847eb275489a5ba7915b9d0f171649645ad4cada6453c7df7494dd6b3002337fc229833638b6bfb963eb331babaa0027f743ad0e5fd242af0"
+RPM_NAME = "collectd-plugin-java-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "62bfdfa7820f1950dc9a0bd80dc3d6f8bbe733bf6292a9723e3ccfbaaeaf0089e5da51695dea0187676d3c2328b53aa41c057c4e69fbcbc7b38533e9c9d1e0dd"
 
 RPROVIDES:${PN} += "collectd-plugin-java"
 

@@ -1,12 +1,11 @@
 SUMMARY = "Kernel firmware files for Atheros wireless drivers"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Atheros wireless drivers."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Atheros wireless drivers."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware & GPL-2.0-only"
 
-PV = "20230829"
+PV = "20260610"
 
-RPM_NAME = "kernel-firmware-atheros-20230829-1.1.noarch.rpm"
-RPM_HASH = "b8e0e7184697d2402218a1d55494ddd29fe528a7b7fe0d9ab6293c7717bd31561a7ce15339a238878c598c9eedd87ff3fc1dd69c709246253882f4e6dec774e7"
+RPM_NAME = "kernel-firmware-atheros-20260610-1.2.noarch.rpm"
+RPM_HASH = "4b2c20d3c136b875d9df3e3af2628d4145cbf162ae29cac561365de4cf99e591e838614b3c8938cdc97d6b4ed4cc371b8ca28054dd4f79ddae8147aece81e695"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ath3k-firmware \

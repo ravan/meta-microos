@@ -16,10 +16,10 @@ contact information, links to research groups) are available from the \
 Haskell home page at <http://www.haskell.org/>."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.6"
+PV = "9.12.4"
 
-RPM_NAME = "ghc-9.4.6-1.1.aarch64.rpm"
-RPM_HASH = "40ee669f49d8f0cb30c9e9cc5f3e50a714c720bbb1d104702c2d78907052f633f9c2f04d2cb22539cb6bcc7538135d329d18f6f0393984172690daceff2fcbd3"
+RPM_NAME = "ghc-9.12.4-1.3.aarch64.rpm"
+RPM_HASH = "b0cfe7fae99203331fc009aee6f9c16e49f06897628f8e4c6b126383317af1b78cb8755f0dd8e328741eae037f60a3e87ae9882fd17a3cd657c7234b6832a630"
 
 RPROVIDES:${PN} += "ghc"
 
@@ -30,7 +30,6 @@ ghc-ghc-compact-devel \
 ghc-ghc-devel \
 ghc-ghc-heap-devel \
 ghc-ghci-devel \
-ghc-hpc-devel \
-ghc-libiserv-devel"
+ghc-hpc-devel"
 
 inherit rpm

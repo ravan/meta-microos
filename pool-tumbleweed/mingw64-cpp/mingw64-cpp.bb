@@ -2,10 +2,11 @@ SUMMARY = "MinGW Windows C Preprocessor"
 DESCRIPTION = "MinGW Windows C Preprocessor"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw64-cpp-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "39e679fe44a2d0aa68102c9739960d39ce451b5a3829d355c82fe65deeb9b66b1823d540a4b5e727f1bf4b4c34af25fbf8536e933298c48803ac839ba33556be"
+RPM_NAME = "mingw64-cpp-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "51a400c0f8f196cbebd765703f27de013d85a54dc572ca4ce35529e1e60a55851e3d6fff8fa24bd196dfde48dafd9e21729efcba1bffb6af84d291f461cfe379"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-cpp"
 

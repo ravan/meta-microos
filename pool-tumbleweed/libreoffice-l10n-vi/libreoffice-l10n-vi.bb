@@ -2,10 +2,10 @@ SUMMARY = "Vietnamese localization files for LibreOffice"
 DESCRIPTION = "Provides Vietnamese translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-vi-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "9608b921b430bd6bb60b3573133a2c989db07bcb0a2a736730e9e25b8385ae0216f9d3897a4e40e10547c4ce6133ac65cf25ae86ea1c87b9879031de98ca486d"
+RPM_NAME = "libreoffice-l10n-vi-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "d09528c61a86ac625e2ea6947d8b95fd4295d1ef5088373eefbbbb38b9d243e55493fd0faf233976b83754e3331bc6119eee24fc5be107aecbc79127af85a5b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-vi \

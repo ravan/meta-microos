@@ -14,10 +14,10 @@ the LinBox linear algebra library and the KAAPI kernel for \
 Adaptative, Asynchronous Parallel and Interactive programming."
 LICENSE = "CECILL-B"
 
-PV = "4.2.0"
+PV = "4.2.2"
 
-RPM_NAME = "libgivaro9-4.2.0-2.2.aarch64.rpm"
-RPM_HASH = "d64375ec650e8d4d5479c5bb1b35f5afab3a271b1911d78692ac8160930d457b4729d337fb823ce58f481ee8cbd150eab0504366942b5846bba44ac8f05a9e9b"
+RPM_NAME = "libgivaro9-4.2.2-1.3.aarch64.rpm"
+RPM_HASH = "8c0748af570d341ba10179dce9d5acf75c24f314c455ce00c3a45464f4ab9c4e99caca709ecb97c06cf10f57599a7f89d917b7d482e158917c2e378b9e77ffde"
 
 RPROVIDES:${PN} += "libgivaro.so.9 \
 libgivaro9"

@@ -2,10 +2,10 @@ SUMMARY = "Haskell hackage-security library documentation"
 DESCRIPTION = "This package provides the Haskell hackage-security library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.2.3"
+PV = "0.6.3.3"
 
-RPM_NAME = "ghc-hackage-security-doc-0.6.2.3-3.3.noarch.rpm"
-RPM_HASH = "c469aa33ca63d940a5f5c5c395d1ec21153714826947da33c4e500b7dad77dc456b7de65e37779ac8e053d897f6ac545ae3f7bd2fd3f4c6050f9f095d8ac913a"
+RPM_NAME = "ghc-hackage-security-doc-0.6.3.3-1.3.noarch.rpm"
+RPM_HASH = "bc4cb77884061429d3c4faf1774df0773582b669c5a54b0feb779878e72284f19834882cd9ba3780be08f81b4b899cc410d716cc8afcd16b9590374a44a86772"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hackage-security-doc"

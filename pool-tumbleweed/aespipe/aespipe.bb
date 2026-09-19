@@ -5,10 +5,10 @@ encrypted tar or cpio archives. It can be used to encrypt and decrypt loop-AES \
 compatible encrypted disk images."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.4f"
+PV = "2.4j"
 
-RPM_NAME = "aespipe-2.4f-6.3.aarch64.rpm"
-RPM_HASH = "ec0e22bd7ecfcd1434b9979350555d45071155a6524dae064cfedc1f97bc7e133eb5521284a20171f8e52460528b9ce4c91439b963b842f679e76ed2766b1ad8"
+RPM_NAME = "aespipe-2.4j-1.3.aarch64.rpm"
+RPM_HASH = "8f4e4e37d20864124e40574231338c9a412fa429311832f79216933ef2552e6f87a6485b9c7340a4032a8f36506ee495e43a313ad7887ec2268ba910f4a2dcc1"
 
 RPROVIDES:${PN} += "aespipe"
 

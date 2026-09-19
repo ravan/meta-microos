@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-circledsteps"
 DESCRIPTION = "This package includes the documentation for texlive-circledsteps"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3.1svn63255"
+PV = "2026.226.1.3.3svn77682"
 
-RPM_NAME = "texlive-circledsteps-doc-2023.209.1.3.1svn63255-54.1.noarch.rpm"
-RPM_HASH = "e26a135561589768f45a5783567cefecb240d3bfa09a932272ddcabe045e1b647c4f8447df31d7b38474f8afa57de334b999f208a88bf920a391fc3cd2c86fd1"
+RPM_NAME = "texlive-circledsteps-doc-2026.226.1.3.3svn77682-60.2.noarch.rpm"
+RPM_HASH = "d4a09f04f8662a5635e5f8f58512f2dff1bd4625cf79494cb5cd564a79469a965852936dda2fd2d371c44d66cdd17c746f6db9d09960357c7441507a85309627"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-circledsteps-doc"

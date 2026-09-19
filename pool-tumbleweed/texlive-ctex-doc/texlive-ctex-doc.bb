@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ctex"
 DESCRIPTION = "This package includes the documentation for texlive-ctex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.5.10svn66115"
+PV = "2026.226.2.5.10svn77682"
 
-RPM_NAME = "texlive-ctex-doc-2023.209.2.5.10svn66115-55.1.noarch.rpm"
-RPM_HASH = "6e0707dde507564568f8544d4d769b67f662e64524325eebf25f6f56fd760d7f0529dab5ca4d0f14bc4c349f1e8729c4283b2cdc5c5102a71ef6d0a0a6ea945c"
+RPM_NAME = "texlive-ctex-doc-2026.226.2.5.10svn77682-61.2.noarch.rpm"
+RPM_HASH = "46ab4cff4797fb110b32223a51e61f319a02aafe0bd62b6b56cd84eb222dfb3623c229a60556679a1276e02506b1582de625487e62d295bec3dcb9b04fa5112c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ctex-doc-zh \

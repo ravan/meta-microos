@@ -5,10 +5,10 @@ Electronics Engineers (IEEE) transactions, journals and \
 conferences."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8bsvn59672"
+PV = "2026.226.1.8bsvn59672"
 
-RPM_NAME = "texlive-ieeetran-2023.209.1.8bsvn59672-54.1.noarch.rpm"
-RPM_HASH = "a6343136e520f6c3c435189a857d0e16a1ace585edea3ceb2e3da535078f8d5f4c082c869c64723fae369c45ba6bdadddf0b4019c543c338b29c6f7ad2772e71"
+RPM_NAME = "texlive-ieeetran-2026.226.1.8bsvn59672-60.2.noarch.rpm"
+RPM_HASH = "c1f705d8a3c3f618cca969cf4dbf8e9104d2dbc3542d53ef4bc03b2dd8c69e5cbc72f54cde20ce4e2668855895db3a95ca30885927ef1078fa449331817e4c02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-IEEEtran.cls \

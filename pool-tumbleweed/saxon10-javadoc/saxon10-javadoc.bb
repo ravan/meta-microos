@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MPL-2.0"
 
 PV = "10.9"
 
-RPM_NAME = "saxon10-javadoc-10.9-1.1.noarch.rpm"
-RPM_HASH = "29001a83d283bb96157d7bab3cfcd21aeb65088bf629b102f44998d7d6872a208e08c0068f7599fbf4c07d6584a4e45eb0a6e6598680e73ff22b00bc642ba503"
+RPM_NAME = "saxon10-javadoc-10.9-5.5.noarch.rpm"
+RPM_HASH = "cebdc5e2c9f4fe89fcfc532c507ffe45644efbf57fb0096fa6574f60e3d0e3fca9df2013eaaa38ab15d15ea372d41200e70305aeec5442a54abf769e0bfd3d1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "saxon10-javadoc"

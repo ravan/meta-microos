@@ -1,16 +1,17 @@
 SUMMARY = "Configuration utilities for bcache"
-DESCRIPTION = "This package contains utilities for configuring the bcache Module."
+DESCRIPTION = "This package contains utilities for creating and inspecting \
+bcache filesystems."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.1"
+PV = "1.1+git37.a5e3753"
 
-RPM_NAME = "bcache-tools-1.1-7.4.aarch64.rpm"
-RPM_HASH = "d66b3860bc75554d275b573f2d9921e8b97ad231b84af25b3716001fa732dcee81e0ab5d1a5598f5f4a5601faaa62364717a38bb776204f5e846a997f18f7522"
+RPM_NAME = "bcache-tools-1.1+git37.a5e3753-2.6.aarch64.rpm"
+RPM_HASH = "3ff1a025cc9de0ae25a7fe7ddd6d26a4211a8240153d0903e774b951dd0131f82d091139d71fa4b8f9aed0b9255e39b1af871ac0a242f08a1cb1e3076d2e9bbf"
 
 RPROVIDES:${PN} += "bcache-tools"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/env \
+/usr/bin/python3 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libblkid.so.1 \

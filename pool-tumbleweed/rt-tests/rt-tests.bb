@@ -4,15 +4,14 @@ specifically timer and signal latency and the functionality of Priority \
 Inheritance Mutexes."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.5"
+PV = "2.10"
 
-RPM_NAME = "rt-tests-2.5-1.2.aarch64.rpm"
-RPM_HASH = "d805e078e6cf20e8cf454af717faa63a14e9f2a8cbcd77103ed79306e13d002335dc100b9dfa0ca30a78b3b709f935f262e4fff7767bacd48c364966c90d0854"
+RPM_NAME = "rt-tests-2.10-1.3.aarch64.rpm"
+RPM_HASH = "c0f9cd01234587ef403411dbbb840b7cccef08c7a730d4afd1342994481eebd6b50242ee0ab0ac8617e9c373b2e9cf4cbd2bddb853150b568b919e44ce62d372"
 
 RPROVIDES:${PN} += "rt-tests"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/env \
 /usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

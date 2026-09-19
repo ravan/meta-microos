@@ -3,10 +3,10 @@ DESCRIPTION = "bluetuith is a TUI-based bluetooth connection manager, which can 
 This project is currently in the alpha stage."
 LICENSE = "MIT"
 
-PV = "0.1.7"
+PV = "0.2.7"
 
-RPM_NAME = "bluetuith-0.1.7-1.1.aarch64.rpm"
-RPM_HASH = "e4bbbd2d56d48c502502c8fd57c44d539ff29210820d4301b25d2590186186d2c8d206294c7e165087f216ffd206bef578851f35c3602729077d1dd38aae524c"
+RPM_NAME = "bluetuith-0.2.7-1.2.aarch64.rpm"
+RPM_HASH = "efac973c6865d124d67a65b7fc13b2d4892b9eab45dcdd6e88276ae59f4facbf2c993a238d775f1229a7382d7c267688439b33f3cb84fd07f57a1a39ab06e57a"
 
 RPROVIDES:${PN} += "bluetuith"
 

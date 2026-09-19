@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-truthtable"
 DESCRIPTION = "This package includes the documentation for texlive-truthtable"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.2svn60717"
+PV = "2026.226.0.0.1.0svn68300"
 
-RPM_NAME = "texlive-truthtable-doc-2023.209.0.0.0.2svn60717-53.1.noarch.rpm"
-RPM_HASH = "fe742a95ca8c7055614966ce85d6e25ad8b5d8a3d751485de17bcf7eb14def7f49799ca1a891e82b9995317de2b3a3e32f11be36b1c06e5c1123732f1f6ca617"
+RPM_NAME = "texlive-truthtable-doc-2026.226.0.0.1.0svn68300-59.2.noarch.rpm"
+RPM_HASH = "84de51718b59dc803ba411699ff8e4e1bfaed059155d077ea0c095dd5eaef6811f32bbe392af0ca6c0468b39e28ba19b23321dafa98d383b8cfef82ca8616a39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-truthtable-doc"

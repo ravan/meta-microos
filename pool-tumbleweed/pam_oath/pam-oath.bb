@@ -5,10 +5,10 @@ authentication systems. \
 This subpackage contains a module to integrate OATH into PAM."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.6.8"
+PV = "2.6.14"
 
-RPM_NAME = "pam_oath-2.6.8-1.1.aarch64.rpm"
-RPM_HASH = "df1402be23a4dc298a4559450010c2d9c71b875ea885a09ae337ad83bcceb566f5db0895f92a65dcfec2934795e788379b5e20a07215c243cb29cb8580fb8701"
+RPM_NAME = "pam_oath-2.6.14-1.5.aarch64.rpm"
+RPM_HASH = "821ce0206714078f95c35e83ff14d1a752d6c974815d481b2f26e25ab7df1b6063354ed6dde1c2567f873347aea07bbf091219a19da5f02336dedf02b31a37a5"
 
 RPROVIDES:${PN} += "pam-oath"
 

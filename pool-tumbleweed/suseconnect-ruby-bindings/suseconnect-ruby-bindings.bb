@@ -1,11 +1,11 @@
 SUMMARY = "Ruby bindings for libsuseconnect library"
 DESCRIPTION = "This package provides bindings needed to use libsuseconnect from Ruby scripts."
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.3.0~git0.ae8ba1e"
+PV = "1.23.0"
 
-RPM_NAME = "suseconnect-ruby-bindings-1.3.0~git0.ae8ba1e-1.1.aarch64.rpm"
-RPM_HASH = "6d19489f58e80f93fe2316ee44d97817be721b452ba0542852a68edca599f2a54732ca7b47879fa545311c2ca80d872c0ca9c4821a73405e6a67dc3ec90d5743"
+RPM_NAME = "suseconnect-ruby-bindings-1.23.0-1.1.aarch64.rpm"
+RPM_HASH = "1d753474430cc8dfb6038369258cd845c338ffbae8b1a2e79477f29224fc3fe25449593169179fdf14fe60c75f4e3b8f50a5c8bbb453eae2fbe26571ee706c7e"
 
 RPROVIDES:${PN} += "suseconnect-ruby-bindings"
 

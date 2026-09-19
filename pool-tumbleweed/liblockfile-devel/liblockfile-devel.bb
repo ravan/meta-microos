@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.17"
 
-RPM_NAME = "liblockfile-devel-1.17-1.2.aarch64.rpm"
-RPM_HASH = "32daa92050cf7862fb9df8307c9ba7f3b7fe1efe2ee865987b38b1732a16118206f51718c2ef569e460f322d7522f93f430cef08e087bea3749dbf0557c16088"
+RPM_NAME = "liblockfile-devel-1.17-1.12.aarch64.rpm"
+RPM_HASH = "58df2c7a693fb65611773f52cd33349843fb4270d5fe3e4e21ac9ec354f337bd2f97861f2e7cb811dd7bb2d911073b520cad66b7d604d744be9f62059ecccc76"
 
 RPROVIDES:${PN} += "liblockfile-devel"
 

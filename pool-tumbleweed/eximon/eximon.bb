@@ -5,10 +5,10 @@ freezing, bouncing and thawing messages, and even editing body and \
 header of mails."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.96"
+PV = "4.98.2"
 
-RPM_NAME = "eximon-4.96-5.3.aarch64.rpm"
-RPM_HASH = "9daea6faaadea9654ea3a8eb098529664976e066eec0d25592ca9ee892cc82244d6117485f19f87d102a3245a01c085195db583a1d7f495842e0ff3a5b4f963d"
+RPM_NAME = "eximon-4.98.2-4.7.aarch64.rpm"
+RPM_HASH = "4b7a2c57220dd0a02917b1f669f356c67a9277003715f39d61ba8902934f2a3c3426c58596be52d2e29452e942e60c32b887d03014ef687c98c724c6435f966d"
 
 RPROVIDES:${PN} += "eximon"
 

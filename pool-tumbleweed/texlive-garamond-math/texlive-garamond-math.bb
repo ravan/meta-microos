@@ -7,10 +7,10 @@ script. Issues, bug reports and other contributions are \
 welcome."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn61481"
+PV = "2026.226.svn61481"
 
-RPM_NAME = "texlive-garamond-math-2023.209.svn61481-53.1.noarch.rpm"
-RPM_HASH = "c3abe545a9f842854683be30312b4b698e01137dc047ee735a51242adb24e099564e30d979ebe25bc62bbccb046297a5a4bcd47107a47825be0077703f833c3a"
+RPM_NAME = "texlive-garamond-math-2026.226.svn61481-60.2.noarch.rpm"
+RPM_HASH = "1ffffcae4ec9091f21152653c18507b7114340571880ee91be9e10f6e9c102a345e1af025a2f11efb3a886a9ad08f461b930083c391d823fb405e71b74f3ecda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-garamond-math"

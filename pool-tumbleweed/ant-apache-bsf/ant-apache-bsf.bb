@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains optional apache bsf tasks for Apache Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.14"
+PV = "1.10.18"
 
-RPM_NAME = "ant-apache-bsf-1.10.14-1.1.noarch.rpm"
-RPM_HASH = "2dce78db4729907508d893476f36e4ea4d96ac2ef0d7ddb61b5942580c696671981b57501cc5a48cf7f2a03a1bd2e130270a09c8f4b91cd23df78496fcfc61e4"
+RPM_NAME = "ant-apache-bsf-1.10.18-1.1.noarch.rpm"
+RPM_HASH = "ce99ad78e0e0502903cd2676e04d3f287e2bca0dee462dcc8a7adea8edd24ef8e6dea30d5ccbc876ff2b0b9bf629ad6ae39e700039ac55b64951cc64e6a078d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-bsf \

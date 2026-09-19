@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.008001"
 
-RPM_NAME = "perl-Net-Whois-RIPE-2.008001-1.12.noarch.rpm"
-RPM_HASH = "4f7962eea725a650d80814c2f94ba5bd47917256a9b74479b4bac2ee946cad93b589fe1815c918b54d24c544a6f3376f7e41773f77a5968dd0210a1329656c6c"
+RPM_NAME = "perl-Net-Whois-RIPE-2.008001-1.26.noarch.rpm"
+RPM_HASH = "1b0a44434b9f9761ce908c9836a32eeb581bef71df4a4ce5c0fc99dc46ea8dddfc5f50582195699c0ca859732fdd8b33214869c0ad2f991b0e7159c74ed9e4cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Whois--Generic \
@@ -77,7 +77,7 @@ perl-Net--Whois--Object--RtrSet--APNIC \
 perl-Net--Whois--RIPE \
 perl-Net-Whois-RIPE"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Iterator"
 
 inherit rpm

@@ -5,17 +5,17 @@ functionality and word clouds. You can also format, tag and search your \
 entries."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.29.6"
+PV = "2.42"
 
-RPM_NAME = "rednotebook-2.29.6-1.2.noarch.rpm"
-RPM_HASH = "a15d48f4ef6c70628b87c3ea0ea6b1ac3306d4e4e528d47def2ecf3a4f02d2b1e351b685564652aae484f96ef52562ce96dc7aa6b0160b11447b435e191da273"
+RPM_NAME = "rednotebook-2.42-1.1.noarch.rpm"
+RPM_HASH = "d5f0cb11edf558b45f0827178a1ab309fff698e4bc90bb611fe599954b418cc6e77c3354193e1a5c4d716ec18e009acf283569f5d8d79f1c6ae95dd6cdc1a1a9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-rednotebook \
+RPROVIDES:${PN} += "python3.13dist-rednotebook \
 python3dist-rednotebook \
 rednotebook"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-PyYAML \
 python3-gobject-Gdk \

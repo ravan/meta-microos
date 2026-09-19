@@ -3,21 +3,21 @@ DESCRIPTION = "This package provides the Haskell ghc-lib-parser-ex library devel
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.0.0"
+PV = "9.12.0.0"
 
-RPM_NAME = "ghc-ghc-lib-parser-ex-devel-9.4.0.0-1.12.aarch64.rpm"
-RPM_HASH = "f26132fdec05cb5d3873ec13e85d93f19d4f2af4153417a45f95e8307d5918e836477efcd50c85ccd09784e5a79fa5716d93151fd2fd161720fa55d9fea33ec1"
+RPM_NAME = "ghc-ghc-lib-parser-ex-devel-9.12.0.0-1.11.aarch64.rpm"
+RPM_HASH = "d9eb23a3da46b8664a1a5d077d4de227e651ff6f55fdaabbca981529cc120bb37c54ab097a822e6816729f701bf69a55ea46457ab8af9a654bc208a213d39e27"
 
-RPROVIDES:${PN} += "ghc-devel-ghc-lib-parser-ex-9.4.0.0-5gI0mYE7T3L4MUgurM5BvD \
+RPROVIDES:${PN} += "ghc-devel-ghc-lib-parser-ex-9.12.0.0-AQFnDqoQhTuCgXxh1T0SWZ \
 ghc-ghc-lib-parser-ex-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-ghc-lib-parser-9.4.7.20230826-9jTyF2CzAjoBitf2gKlSVU \
-ghc-devel-uniplate-1.6.13-EEjCQACslljIQmS3K29CqX \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-ghc-lib-parser-9.12.3.20251228-A26EZnaiNey14MMYQvPU7L \
+ghc-devel-uniplate-1.6.13-FhUIjk7rCCk8dCOMm0dejl \
 ghc-ghc-lib-parser-ex"
 
 inherit rpm

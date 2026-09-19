@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "2.9.0"
 
-RPM_NAME = "gcin-2.9.0-4.18.aarch64.rpm"
-RPM_HASH = "41c4e46810f1b2a9a66de29e11ab35895ce0a220067bf516a9be5b0c5eda6c971a17c09fcfa7f1f8e7c334fe4d072b3594b6e77e61d54179eaf5469c8b2e1986"
+RPM_NAME = "gcin-2.9.0-7.9.aarch64.rpm"
+RPM_HASH = "cc2421a3e8e484765742b202cb1dd9271b388bcc33ed1262070ce78a6a78326a21bead6224d18be1ea4171222c578cb9078bd67c229ad4e8e5afb453926ad83b"
 
 RPROVIDES:${PN} += "gcin \
 locale-zh-TW;zh-HK;zh-MO"

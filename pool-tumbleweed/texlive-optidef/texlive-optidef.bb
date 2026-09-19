@@ -17,10 +17,10 @@ definition of any optimization problem without a limitless \
 number of constraints."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1svn50941"
+PV = "2026.226.3.1svn50941"
 
-RPM_NAME = "texlive-optidef-2023.209.3.1svn50941-55.1.noarch.rpm"
-RPM_HASH = "cdd6643084cbe75278c382b2dc9e916242857eeee149ef9e6ab3ce6e422ba27f064755c942038779fa67e9aa274ea8f9a551d15d11318c2874f6d2e95638b67d"
+RPM_NAME = "texlive-optidef-2026.226.3.1svn50941-61.2.noarch.rpm"
+RPM_HASH = "dbd0f4b2fae4af9ed0223d3d47b62b30b6167b9409a56cc1fb9067481fe9b6924f370cb9d5d134db76ce9c29fb8c8cd415543b0b2a6f95a742b5393ebdffc9be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-optidef.sty \

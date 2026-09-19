@@ -3,10 +3,10 @@ DESCRIPTION = "The libsemanage-devel package contains the libraries and header f
 needed for developing applications that manipulate SELinux policies."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "libsemanage-devel-3.5-2.1.aarch64.rpm"
-RPM_HASH = "eee1eda10cbb85cd9eabb89ee1f905e25e8cdb9313ece8d15ff24f1f1ad9f3565db4cc8a3d1bc819c00ee700dd671a53c0d82008d6391915f8a360adcfce0351"
+RPM_NAME = "libsemanage-devel-3.11-1.2.aarch64.rpm"
+RPM_HASH = "637d5ffa3cd1938a5874984e5ba9a1c011bb9669e9370d54f5716cd481465e05436ca7779dfcaabea0ef342a4399dc3e42895e657ba962e23bacee6eaba4cbe9"
 
 RPROVIDES:${PN} += "libsemanage-devel \
 pkgconfig-libsemanage"

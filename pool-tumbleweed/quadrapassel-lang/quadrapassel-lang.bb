@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package quadrapassel"
 DESCRIPTION = "Provides translations for the 'quadrapassel' package."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "40.2"
+PV = "50.2"
 
-RPM_NAME = "quadrapassel-lang-40.2-1.11.noarch.rpm"
-RPM_HASH = "ef1edc477d860b2674092dca1fd23e0bace8b82b3a9ba13a5075a271c9c35d2e9b3746de89c0599bff036bed8254d9d5dd6c34a670f7954e024172bed12e60a2"
+RPM_NAME = "quadrapassel-lang-50.2-1.2.noarch.rpm"
+RPM_HASH = "72a5ca6149092e72513cfe46c03753ba1a2d0193b4da58658ec34f1aa054541d24734fce96a3c794639bb22eb984f37253188417457202cc7ea66892f4c88e86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-quadrapassel-af \

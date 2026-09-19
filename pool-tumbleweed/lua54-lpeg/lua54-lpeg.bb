@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "lua54-lpeg-1.1.0-1.1.aarch64.rpm"
-RPM_HASH = "aa5c51e8a35e3d4c01b01642cf66c6c53c82a3ab756fae1ae875c4e88da17751ea3d2b95065099e5fff418cdddcec4b5ea85a4c3ef985df29e50e8f59cff0144"
+RPM_NAME = "lua54-lpeg-1.1.0-3.4.aarch64.rpm"
+RPM_HASH = "d25554b7e911510afddc828355198c6c60d04f472b86baf0ddc2d29f49acfebdc4f3d67e6a03fb42219341b08ec89998aa5c36f2a27b81f7a1b44c8f3d1f708d"
 
 RPROVIDES:${PN} += "lua-lpeg \
 lua54-LPeg \

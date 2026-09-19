@@ -12,10 +12,10 @@ less important than the ability to handle thousands of simultaneous \
 HTTP connections in a resource efficient manner."
 LICENSE = "Apache-2.0"
 
-PV = "4.4.13"
+PV = "4.4.14"
 
-RPM_NAME = "httpcomponents-core-4.4.13-2.7.noarch.rpm"
-RPM_HASH = "2d66a31fd033b3bf285dc6be6c1def9122d51d017e80da989beedad0a238b33e3f86f71381b920b90d7442a1ce005cad142639c53734a9d174389281ffc5356f"
+RPM_NAME = "httpcomponents-core-4.4.14-1.7.noarch.rpm"
+RPM_HASH = "ee1d6b3d44c3f47c869260af5f955eee286e8d161da7c963518ad59649d5109b30f01250f60cae59b0d06e92af7f71f76645ee91fc707d4c5c63d6dd6e64e8a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-core \

@@ -7,16 +7,15 @@ needs. \
 This package contains the documentation."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.7.4"
+PV = "2.7.5"
 
-RPM_NAME = "python-Whoosh-doc-2.7.4-9.1.noarch.rpm"
-RPM_HASH = "22af7800076ff3ffbc64c2d42e0408cbad7ac625ab98deded32a605bf60839a3be3a379ae202e973031333c713ed50e93100664d760a80552bbc8e812b3ca6bb"
+RPM_NAME = "python-Whoosh-doc-2.7.5-1.5.noarch.rpm"
+RPM_HASH = "504cf6f92c4c4133d172422158224d68d11a0f5916f8ef8ed8ff5dd9ed66b29f90995e97f782130d654108ee5441256dac2b4b25cd29d1e08efc3fe66f6fd765"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Whoosh-doc \
-python310-Whoosh-doc \
-python311-Whoosh-doc \
-python39-Whoosh-doc"
+python313-Whoosh-doc \
+python314-Whoosh-doc"
 
 RDEPENDS:${PN} += ""
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Guile bindings to libgit2, \
 a library manipulate repositories of the Git version control system."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.2"
+PV = "0.10.0"
 
-RPM_NAME = "guile-git-0.5.2-1.4.aarch64.rpm"
-RPM_HASH = "7d95211c5a43e2d8400fa05a5f91297aec51be114b6370068f996474e91a572371903494501a74f1da059435d8650e6225a481d0e8140afd7504bbb57684033f"
+RPM_NAME = "guile-git-0.10.0-1.3.aarch64.rpm"
+RPM_HASH = "7108cd5c62f0c5da949f32ebf849f10ee33fcb7792bcb14c9dbaa6ad965db76cfd65f217fc94339ddac5932d65a93d198c1c398211cce1de6f4b2860af8efda6"
 
 RPROVIDES:${PN} += "guile-git"
 

@@ -2,10 +2,10 @@ SUMMARY = "Development files for libass, a subtitle rendering library"
 DESCRIPTION = "This package is needed if you want to develop / compile against libass."
 LICENSE = "ISC"
 
-PV = "0.17.1"
+PV = "0.17.5"
 
-RPM_NAME = "libass-devel-0.17.1-1.3.aarch64.rpm"
-RPM_HASH = "da41ca1995fbf459870cc0fa4d382150be1bffd6a5d669d5bedebc28118106b2e31b632b4c5c3d76e4ee4701bd70dea7da4b31719e524dda7546154a32e7675f"
+RPM_NAME = "libass-devel-0.17.5-1.3.aarch64.rpm"
+RPM_HASH = "5b1e9d176b71086de695bcb9adf0a09775616bc8fb3d09a82c64cea3ca365f6588ffff10580720415af380d9814d82bcc6155f71ba412f5c79c09faf866a48b9"
 
 RPROVIDES:${PN} += "libass-devel \
 pkgconfig-libass"
@@ -16,6 +16,7 @@ libass9 \
 pkgconfig-fontconfig \
 pkgconfig-freetype2 \
 pkgconfig-fribidi \
-pkgconfig-harfbuzz"
+pkgconfig-harfbuzz \
+pkgconfig-libunibreak"
 
 inherit rpm

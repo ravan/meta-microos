@@ -4,10 +4,10 @@ solver. It is primarily meant to be used as a callable library, but a \
 basic, stand-alone executable version is also available."
 LICENSE = "EPL-2.0"
 
-PV = "1.17.7"
+PV = "1.17.10"
 
-RPM_NAME = "libOsiClp1-1.17.7-1.4.aarch64.rpm"
-RPM_HASH = "b26ab8d9f1d6db701b1c84fb806576b27c2ab248de2abc6d083b30194f271d600e56d9422ec1993f875e8129113ba67d62df28012fb8ab2b47fdd16b738d8e7f"
+RPM_NAME = "libOsiClp1-1.17.10-1.7.aarch64.rpm"
+RPM_HASH = "273be5973621f46feae327156b6d70dee06c81d982f395cb1a32a71adc0d3e1054826217991400903d1303be66f8945d1172e381071018532125fcb0f0efb06f"
 
 RPROVIDES:${PN} += "libOsiClp.so.1 \
 libOsiClp1"

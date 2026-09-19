@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0"
 
-RPM_NAME = "facetimehd-firmware-1.0-1.6.noarch.rpm"
-RPM_HASH = "cdbdcdf8241be402e4118d65b0db273848bb84011d8ede47839bd7bb724ec1eb624d285a58bf472b4f8d20bb7f2a38d05e7834436b2bc2b8b3c89a41cf67ab23"
+RPM_NAME = "facetimehd-firmware-1.0-1.15.noarch.rpm"
+RPM_HASH = "87ea12b240101702bd4b76509dc1e270186f81d643e8bd5673b2499d49750ce0d969935a576d3a2a8c6d8126a561ee533a62c5baf0f8abcbd2c2fab1b81d97d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "facetimehd-firmware"

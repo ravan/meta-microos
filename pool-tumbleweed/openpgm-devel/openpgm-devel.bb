@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.3.128"
 
-RPM_NAME = "openpgm-devel-5.3.128-2.1.aarch64.rpm"
-RPM_HASH = "c9cce9c6f6583e977fbc11f545d6eb376fb30b1dbe948b29fc50403d40f38174e0acf1c474df6732b305866bb8388d9791fa50ec2834c60844ca63a439c35222"
+RPM_NAME = "openpgm-devel-5.3.128-3.5.aarch64.rpm"
+RPM_HASH = "b4bbcb4f066901ecd75fbc330a106bbc5beca1a834a68e849e527f12cbf406c6a022711be4ad1afc50687bfbd784f120c4e2f22d053390f1cf585f14873a1205"
 
 RPROVIDES:${PN} += "openpgm-devel \
 pkgconfig-openpgm-5.3"

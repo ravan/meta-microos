@@ -2,16 +2,17 @@ SUMMARY = "Translations for package apparmor-parser"
 DESCRIPTION = "Provides translations for the 'apparmor-parser' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.6"
+PV = "5.0.2"
 
-RPM_NAME = "apparmor-parser-lang-3.1.6-4.1.noarch.rpm"
-RPM_HASH = "7cad4e5a2346d72eecb8df8624e29dd8a99b2e17be01bf38d555e3335a3f813059fb0743c8ed6a0e0776f080a12f2fe3ee21900ed1866cba1c138914b71ec72f"
+RPM_NAME = "apparmor-parser-lang-5.0.2-2.1.noarch.rpm"
+RPM_HASH = "500d329616f2ef410309ca88af5e11113a36288d4834e94dfc052747925bfe99dd798757d40345aa48ad7a924c483f849abda3d0550ad3f098791953711212be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-parser-lang \
 apparmor-parser-lang-all \
 locale-apparmor-parser-af \
 locale-apparmor-parser-ar \
+locale-apparmor-parser-be \
 locale-apparmor-parser-bg \
 locale-apparmor-parser-bn \
 locale-apparmor-parser-bs \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-usebib"
 DESCRIPTION = "This package includes the documentation for texlive-usebib"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn25969"
+PV = "2026.226.1.0asvn77682"
 
-RPM_NAME = "texlive-usebib-doc-2023.209.1.0asvn25969-54.1.noarch.rpm"
-RPM_HASH = "e4b3b993b199b859a0df45de8096b3f2303c19ba39b3f15e7ce034293099369d824d5590eb96db5955dbb34464af64ed3affe50555058dbdef29d1776e511437"
+RPM_NAME = "texlive-usebib-doc-2026.226.1.0asvn77682-60.2.noarch.rpm"
+RPM_HASH = "48cf569b689f30108f2e1e21afadeff4d5dd6cdc3ba27279dea5301831e40e0226de1177662387b43b4d94c28472cc4e741378458ddc1c163a56b05785341ddd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-usebib-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of light-latex-make"
 DESCRIPTION = "Binary files of light-latex-make"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn56352"
+PV = "2026.20260301.svn56352"
 
-RPM_NAME = "texlive-light-latex-make-bin-2023.20230311.svn56352-93.2.aarch64.rpm"
-RPM_HASH = "734097146ccb1a23ccd649de28d32156602fff6d9a7598037b11353a7a60f5345a3f29973b54a493300362adfdd9d50f6693815814bb27606a387918303e343f"
+RPM_NAME = "texlive-light-latex-make-bin-2026.20260301.svn56352-120.4.aarch64.rpm"
+RPM_HASH = "2368ced0ab9669ab7167724fcf56413b5793cf16cf078c8d29e585c9f835e857041c1305bcff315f4115c8fdb4b3c703c24d7e5c9993315e017c74225979d4f2"
 
 RPROVIDES:${PN} += "texlive-light-latex-make-bin"
 

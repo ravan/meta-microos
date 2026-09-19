@@ -11,10 +11,10 @@ some specific regression tests for certain bugs. HTML summaries can \
 be generated, including the ability to compare different test runs."
 LICENSE = "MIT"
 
-PV = "1~20230615"
+PV = "1~20260521"
 
-RPM_NAME = "piglit-1~20230615-1.1.aarch64.rpm"
-RPM_HASH = "8ee53dad7a3af5cdc301f620a550c6a8188db6904e17c24b0bec215145a1a5d03dc9ead3498aa00bce18f8aab077f800572d302a645176b0b83bf9522a800fff"
+RPM_NAME = "piglit-1~20260521-1.3.aarch64.rpm"
+RPM_HASH = "01dd1ae84e95d2164d12411d41055cde6ba030e1bed1de12c11b9f1914013ca1dce7520bf623e92878699897373ca18d54ff5060eef5fc4fd4b0bc3105dbbfaf"
 
 RPROVIDES:${PN} += "libpiglitutil-gles1.so.0 \
 libpiglitutil-gles2.so.0 \
@@ -28,12 +28,17 @@ ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libX11.so.6 \
 libc.so.6 \
+libdrm.so.2 \
+libgbm.so.1 \
 libgcc-s.so.1 \
 libm.so.6 \
 libpng16.so.16 \
 libstdc++.so.6 \
 libwaffle-1.so.0 \
 libwayland-client.so.0 \
+libwayland-egl.so.1 \
+libxcb-dri2.so.0 \
+libxcb.so.1 \
 libxkbcommon.so.0 \
 python3 \
 python3-Mako \

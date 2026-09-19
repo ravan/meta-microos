@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "4.1.1"
 
-RPM_NAME = "libotr5-4.1.1-4.3.aarch64.rpm"
-RPM_HASH = "9b945147b14bbc2df80fffcbc1f6d0cfd5f4ae3edac2a1f9635ea16d35bee36d6b7fe8c00d013c6d8f95f66b4f3a2888914f2514a875ce34c5cbfa765e67fadc"
+RPM_NAME = "libotr5-4.1.1-4.12.aarch64.rpm"
+RPM_HASH = "efff1c9c5602edf7479193ee399a6cac0535664fb58ff531e7822e0f3f4c263ee1e37f458d8fdfd14bbca90d333626502ee95db2bc493c9740235b5d2cb94abd"
 
 RPROVIDES:${PN} += "libotr \
 libotr.so.5 \

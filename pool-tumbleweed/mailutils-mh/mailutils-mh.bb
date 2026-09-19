@@ -6,10 +6,10 @@ To use Mailutils MH with Emacs, add the following line to \
 site-start.el or .gnu-emacs file: (load 'mailutils-mh')"
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.16"
+PV = "3.21"
 
-RPM_NAME = "mailutils-mh-3.16-1.3.aarch64.rpm"
-RPM_HASH = "c84b74bfe66437ba9ca735f8c7494868f2b064b6c14ac2bb41319f4c7bd9d309f84464d52ca65fa47d576aefbfcd5e548e41f8d40376b0c4aa8ae1fd98e9a81a"
+RPM_NAME = "mailutils-mh-3.21-1.6.aarch64.rpm"
+RPM_HASH = "0623619e2d5a969435cec5cb783dbf924d06694f275f770dcd15e5b877d63045e3d1ed308c038cf7fe5bea40a56efec19c1e5ff8561740f94364d9b8d0218dcc"
 
 RPROVIDES:${PN} += "mailutils-mh"
 

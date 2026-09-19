@@ -5,10 +5,10 @@ This package contains additional perl and python scripts for Apache \
 Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.14"
+PV = "1.10.18"
 
-RPM_NAME = "ant-scripts-1.10.14-1.1.noarch.rpm"
-RPM_HASH = "a1da1a8a7e4e2196f5d3c2bb042dfe2a9e7d2982bcca74eb6dd6344ca732615a12d69597c4cbb866d52054585a5c8ff4c96c373579567e848616e05e899020e0"
+RPM_NAME = "ant-scripts-1.10.18-1.1.noarch.rpm"
+RPM_HASH = "7ceb191192a3a9776591ea26e6267edd4b3b93927e53cca8fd724c9bc488eda0063be84f179bfa88fd1b4fce6cf3e6b7e4df52aaab4d6312f057ac28459d509d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-scripts"

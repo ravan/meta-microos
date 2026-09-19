@@ -6,10 +6,10 @@ packages. An example thesis is provided serving as a user guide \
 and a demonstration of the thesis."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.7.0svn54287"
+PV = "2026.227.1.7.0svn54287"
 
-RPM_NAME = "texlive-thesis-gwu-2023.209.1.7.0svn54287-55.1.noarch.rpm"
-RPM_HASH = "e1622a809f2d34409bb42050862d95d38ac24aff18c93455e6b8a66f5f613bc993e72adcf12fed7de0c6e08390d80bb1fb6b7fc0f83e4b408b98832d754d7be7"
+RPM_NAME = "texlive-thesis-gwu-2026.227.1.7.0svn54287-62.2.noarch.rpm"
+RPM_HASH = "a19187b7bd2ca429c30a3a854976f1e429c02fa9bf43c647f936b373f7f0a81d0983c9d2ba8e368d25044e58a8720006aff329aa48b2d6423eadfc6482c67d81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thesis-gwu.cls \

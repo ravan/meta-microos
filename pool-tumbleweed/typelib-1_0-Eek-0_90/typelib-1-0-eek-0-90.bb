@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.8"
 
-RPM_NAME = "typelib-1_0-Eek-0_90-1.0.8-10.10.aarch64.rpm"
-RPM_HASH = "c6ee0b9310fbb2b1988e92ed17178bc6600c20316a617e6f73178d1b03b4f5c5148f8467f90db3f48809d4e0f37c3681b27cafe0623fe8e1c4655641f593d959"
+RPM_NAME = "typelib-1_0-Eek-0_90-1.0.8-12.9.aarch64.rpm"
+RPM_HASH = "20bff883f28387a59f7cf20aa29903c996a12b9f2b32fb7809ea7a0445f3bb51ab07e93fec3a3ee6a1fa87285557132cd067cf9dc0d5d845f745164def632c10"
 
 RPROVIDES:${PN} += "typelib-1-0-Eek-0-90 \
 typelib-Eek \

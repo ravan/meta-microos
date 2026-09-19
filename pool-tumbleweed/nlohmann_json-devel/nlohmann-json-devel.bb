@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for a header-only library \
 to make JSON a first-class datatype for C++11"
 LICENSE = "MIT"
 
-PV = "3.11.2"
+PV = "3.12.0"
 
-RPM_NAME = "nlohmann_json-devel-3.11.2-1.3.aarch64.rpm"
-RPM_HASH = "755ef9e02d2cb4a8a804ff626abf5b7fe3c1d7492cb606d47b1a06be9ff5a14a24bb9ddd45ff1b065bf6fe4d8d5ed80b0366ee93ade48c47c01de5465c9219be"
+RPM_NAME = "nlohmann_json-devel-3.12.0-2.5.aarch64.rpm"
+RPM_HASH = "f07fa52a7ee7787cef291796b85fedcdf121d13e13a8cf30af044ac3c94583becc227f51d70b272b9448d653c156a86ae02f415b4b2af5663e0927eece610cfe"
 
 RPROVIDES:${PN} += "cmake-nlohmann-json \
 nlohmann-json-devel \

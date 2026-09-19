@@ -2,10 +2,10 @@ SUMMARY = "Haskell JuicyPixels library documentation"
 DESCRIPTION = "This package provides the Haskell JuicyPixels library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.3.8"
+PV = "3.3.9"
 
-RPM_NAME = "ghc-JuicyPixels-doc-3.3.8-1.8.noarch.rpm"
-RPM_HASH = "7c2200dc0089a29e7c35fa19578ef58f39960b23848b26be4468ea0039086566c3c3da0d099e82ea567853fd1e4f759bdd8c4a5ff365cd67739edb031bc0c592"
+RPM_NAME = "ghc-JuicyPixels-doc-3.3.9-2.3.noarch.rpm"
+RPM_HASH = "000c92568b6e906af29f5ede10dec2553e3969587c3676fa1423e0eb7f7d2670bb136697b1147fb06cfc71e0ddf3e34bcbe66a06195225b46a614aa20be1ce7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-JuicyPixels-doc"

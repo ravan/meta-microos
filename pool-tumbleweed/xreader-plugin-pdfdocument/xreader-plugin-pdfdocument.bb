@@ -2,10 +2,10 @@ SUMMARY = "PDF document support for Xreader"
 DESCRIPTION = "A plugin for Xreader to read PDF documents."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "3.8.2"
+PV = "4.6.5"
 
-RPM_NAME = "xreader-plugin-pdfdocument-3.8.2-1.1.aarch64.rpm"
-RPM_HASH = "df376e4f527fd562b9e7387e3ecc4cf6d26978713bd6fe47ffc7fa77ee319bc4e2d24df2ac096723540e100400da4839c9c9844371313e3aefe3c05888ff3f03"
+RPM_NAME = "xreader-plugin-pdfdocument-4.6.5-1.2.aarch64.rpm"
+RPM_HASH = "0b70dcf72eb214dfd06387e49f153a1212cc684d37bc83ed2d010cc516e87cdf8035b39628c79c37e8b7706c019473cf60467611c9c9d12c73c4b07ca73493b6"
 
 RPROVIDES:${PN} += "libpdfdocument.so \
 xreader-plugin-pdfdocument"
@@ -18,7 +18,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libpoppler-glib.so.8 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxreaderdocument.so.3 \
 xreader"
 

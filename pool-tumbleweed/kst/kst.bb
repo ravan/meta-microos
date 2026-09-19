@@ -1,6 +1,5 @@
 SUMMARY = "Real-Time Data Viewing and Plotting Tool with Basic Data Analysis Functionality"
 DESCRIPTION = "Kst is a data plotting and viewing program. Some of the features include: \
- \
 - Robust plotting of live 'streaming' data \
 - Powerful keyboard and mouse plot manipulation \
 - Powerful plug-in and extension support \
@@ -13,87 +12,100 @@ DESCRIPTION = "Kst is a data plotting and viewing program. Some of the features 
 - Powerful graphical user interface"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.8"
+PV = "3.0.0"
 
-RPM_NAME = "kst-2.0.8-14.5.aarch64.rpm"
-RPM_HASH = "f35832c3a5a03a87ea570efa46319f2de89e207b26b29eedb2ae43af3299f4e923c677c2916721c713068d5c89e655641a899e18a479986c28fc409af2130d87"
+RPM_NAME = "kst-3.0.0-1.1.aarch64.rpm"
+RPM_HASH = "bf00ed530ef05ee251e5d1c81aeeb5911fc464b6df7ca16d6031578206916d9205cf6326cff5afbc33e7562d31eed0d80209ef9eaabbb6cfc8c1dab4aac9e7fb"
 
 RPROVIDES:${PN} += "kst \
-libkst2-dataobject-activitylevel.so \
-libkst2-dataobject-bin.so \
-libkst2-dataobject-chop.so \
-libkst2-dataobject-convolution-convolve.so \
-libkst2-dataobject-convolution-deconvolve.so \
-libkst2-dataobject-correlation-autocorrelation.so \
-libkst2-dataobject-correlation-crosscorrelation.so \
-libkst2-dataobject-crossspectrum.so \
-libkst2-dataobject-effectivebandwidth.so \
-libkst2-dataobject-genericfilter.so \
-libkst2-dataobject-interpolations-akima.so \
-libkst2-dataobject-interpolations-akimaperiodic.so \
-libkst2-dataobject-interpolations-cspline.so \
-libkst2-dataobject-interpolations-csplineperiodic.so \
-libkst2-dataobject-interpolations-linear.so \
-libkst2-dataobject-interpolations-polynomial.so \
-libkst2-dataobject-linefit.so \
-libkst2-dataobject-lockin.so \
-libkst2-dataobject-noiseaddition.so \
-libkst2-dataobject-periodogram.so \
-libkst2-dataobject-phase.so \
-libkst2-dataobject-shift.so \
-libkst2-dataobject-statistics.so \
-libkst2-dataobject-syncbin.so \
-libkst2-datasource-ascii.so \
-libkst2-datasource-fitsimage.so \
-libkst2-datasource-matlab.so \
-libkst2-datasource-netcdf.so \
-libkst2-datasource-qimagesource.so \
-libkst2-datasource-sampledatasource.so \
-libkst2-datasource-sourcelist.so \
-libkst2-filters-butterworth-bandpass.so \
-libkst2-filters-butterworth-bandstop.so \
-libkst2-filters-butterworth-highpass.so \
-libkst2-filters-butterworth-lowpass.so \
-libkst2-filters-cumulativeaverage.so \
-libkst2-filters-cumulativesum.so \
-libkst2-filters-despike.so \
-libkst2-filters-differentiation.so \
-libkst2-filters-unwind.so \
-libkst2-fits-exponential-unweighted.so \
-libkst2-fits-exponential-weighted.so \
-libkst2-fits-gaussian-unweighted.so \
-libkst2-fits-gaussian-weighted.so \
-libkst2-fits-gradient-unweighted.so \
-libkst2-fits-gradient-weighted.so \
-libkst2-fits-kneefrequency.so \
-libkst2-fits-linear-unweighted.so \
-libkst2-fits-linear-weighted.so \
-libkst2-fits-lorentzian-unweighted.so \
-libkst2-fits-lorentzian-weighted.so \
-libkst2-fits-polynomial-unweighted.so \
-libkst2-fits-polynomial-weighted.so \
-libkst2-fits-sinusoid-unweighted.so \
-libkst2-fits-sinusoid-weighted.so \
-libkst2core.so.2 \
-libkst2math.so.2 \
-libkst2widgets.so.2"
+libKst6Core.so \
+libKst6Math.so \
+libKst6Widgets.so \
+libdataobject-activitylevel.so \
+libdataobject-bin.so \
+libdataobject-chop.so \
+libdataobject-convolution-convolve.so \
+libdataobject-convolution-deconvolve.so \
+libdataobject-correlation-autocorrelation.so \
+libdataobject-correlation-crosscorrelation.so \
+libdataobject-crossspectrum.so \
+libdataobject-effectivebandwidth.so \
+libdataobject-genericfilter.so \
+libdataobject-interpolations-akima.so \
+libdataobject-interpolations-akimaperiodic.so \
+libdataobject-interpolations-cspline.so \
+libdataobject-interpolations-csplineperiodic.so \
+libdataobject-interpolations-linear.so \
+libdataobject-interpolations-polynomial.so \
+libdataobject-linefit.so \
+libdataobject-lockin.so \
+libdataobject-noiseaddition.so \
+libdataobject-periodogram.so \
+libdataobject-phase.so \
+libdataobject-shift.so \
+libdataobject-statistics.so \
+libdataobject-syncbin.so \
+libdatasource-ascii.so \
+libdatasource-fitsimage.so \
+libdatasource-hdf5.so \
+libdatasource-matlab.so \
+libdatasource-netcdf.so \
+libdatasource-qimagesource.so \
+libdatasource-sourcelist.so \
+libdatasource-tiff16source.so \
+libfilters-boxcar.so \
+libfilters-butterworth-bandpass.so \
+libfilters-butterworth-bandstop.so \
+libfilters-butterworth-highpass.so \
+libfilters-butterworth-lowpass.so \
+libfilters-cumulativeaverage.so \
+libfilters-cumulativesum.so \
+libfilters-despike.so \
+libfilters-differentiation.so \
+libfilters-exponential.so \
+libfilters-flag.so \
+libfilters-hpboxcar.so \
+libfilters-movingaverage.so \
+libfilters-movingmedian.so \
+libfilters-unwind.so \
+libfilters-window.so \
+libfits-exponential-unweighted.so \
+libfits-exponential-weighted.so \
+libfits-gaussian-unweighted.so \
+libfits-gaussian-weighted.so \
+libfits-gradient-unweighted.so \
+libfits-gradient-weighted.so \
+libfits-kneefrequency.so \
+libfits-linear-unweighted.so \
+libfits-linear-weighted.so \
+libfits-lorentzian-unweighted.so \
+libfits-lorentzian-weighted.so \
+libfits-polynomial-unweighted.so \
+libfits-polynomial-weighted.so \
+libfits-sinusoid-unweighted.so \
+libfits-sinusoid-weighted.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libcfitsio.so.10 \
 libgcc-s.so.1 \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
+libhdf5-cpp.so.310 \
+libhdf5.so.310 \
 libm.so.6 \
-libmatio.so.11 \
-libnetcdf-c++.so.4 \
-libstdc++.so.6"
+libmatio.so.14 \
+libnetcdf-c++4.so.1 \
+libnetcdf.so.22 \
+libstdc++.so.6 \
+libtiff.so.6"
 
 inherit rpm

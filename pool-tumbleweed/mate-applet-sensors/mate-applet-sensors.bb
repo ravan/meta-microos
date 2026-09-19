@@ -4,10 +4,10 @@ readings from hardware sensors, including CPU temperature, fan \
 speeds and voltage readings under Linux."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "mate-applet-sensors-1.26.0-1.9.aarch64.rpm"
-RPM_HASH = "4a31e6c9d5c486177d216e56c48e16c21b4e378dd4041a613dff92cc993d6080ed9c0db4f6fcef60e2fa047615b177baf7ca134f1088210030fb79bf5b2316fe"
+RPM_NAME = "mate-applet-sensors-1.28.0-1.11.aarch64.rpm"
+RPM_HASH = "fcd5bc9be811aa0f3ca8b551fdfcb3e20210fc899ca783ea06893f7a9c19d82c5bcb5446cf39aac41b21f19a9dbc3ff9433515e2773fbe0572fc689bf28ea0f5"
 
 RPROVIDES:${PN} += "libacpi.so \
 libhddtemp.so \

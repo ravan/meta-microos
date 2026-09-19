@@ -7,8 +7,8 @@ LICENSE = "Apache-1.1"
 
 PV = "1.1.4c"
 
-RPM_NAME = "xpp3-1.1.4c-6.7.noarch.rpm"
-RPM_HASH = "c8f00d7bb0c9969d44289b6ec674e44e03418950768bea7fb5c19bdd774f52662889672e222db7765fba67b25df9b0f4b2c31bf95e18fdcc8abde39050403909"
+RPM_NAME = "xpp3-1.1.4c-11.8.noarch.rpm"
+RPM_HASH = "fe05bf45f4b877f0fa3f8fbb86a7d1276adfc0204d0a60ebcf7e345b40d28ad7cce8f50246e97fc885a2d701c058027b7087791e31c9331286f5f35563fab0b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-xpp3-xpp3 \
@@ -18,8 +18,7 @@ mvn-xpp3-xpp3-xpath-pom- \
 osgi-org.xmlpull \
 xpp3"
 
-RDEPENDS:${PN} += "java \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 
 inherit rpm

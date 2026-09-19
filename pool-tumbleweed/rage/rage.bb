@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "rage-0.4.0-1.7.aarch64.rpm"
-RPM_HASH = "317482216f4cee142b1287d13cd36159e66cca95b6a0a8b1abb47c2b3913695394f9ed23649cd52541eeab18ce2dcd861df34e69c58a83a964605cdaf61df6eb"
+RPM_NAME = "rage-0.4.0-1.17.aarch64.rpm"
+RPM_HASH = "9fb07db669d838d6bb0ca18edc71e28c325825b91ec8d24b8ed6dc23ace2190d49ac27c7ddcb55e3b8c490b9573d3a05ecbc8297ce5a93bc1c07c3bcf8ea109f"
 
 RPROVIDES:${PN} += "rage"
 

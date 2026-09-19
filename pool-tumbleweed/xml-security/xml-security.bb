@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.7"
 
-RPM_NAME = "xml-security-2.1.7-3.11.noarch.rpm"
-RPM_HASH = "23bc33bad13bd3250c0ab57771d52ed0a3be8694ff98b9762a171d5561373730d18169ca86644d86611f1bc25bf7458fa785589a625dde5ffe1244e697fb0dde"
+RPM_NAME = "xml-security-2.1.7-5.10.noarch.rpm"
+RPM_HASH = "406d0505547555115bd833939051ddd3071ce3f807d91039b1aa230126c4eca70318b485424a4719279cbb8694ce4f4ee1708c09851f086e76dc03f861117bb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.santuario-xmlsec \

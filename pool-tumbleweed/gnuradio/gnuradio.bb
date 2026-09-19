@@ -6,52 +6,53 @@ that it turns the digital modulation schemes used in today's high \
 performance wireless devices into software problems."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.10.7.0"
+PV = "3.10.12.0"
 
-RPM_NAME = "gnuradio-3.10.7.0-1.2.aarch64.rpm"
-RPM_HASH = "c7d4186662af7dc21d3c74a67752400a1b946123afb62734dda3c3edefe111e36cce068132c087da1cfe1c89e179aeb7ddcaae6ecc2519be9005cc10aef8465e"
+RPM_NAME = "gnuradio-3.10.12.0-4.1.aarch64.rpm"
+RPM_HASH = "38e5f6347a66412418253fdf940f739b3dbdb7c6ea2604a2eb52125a8ca8a1c4d35f0e5ac11fc199f64568398acda2a0917fa475c73551e04ba4f1d64e0d8504"
 
 RPROVIDES:${PN} += "config-gnuradio \
 gnuradio"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libQt5Widgets.so.5 \
-libSoapySDR.so.0.8 \
-libboost-program-options.so.1.82.0 \
+libSoapySDR.so.0.8-3 \
+libboost-program-options.so.1.91.0 \
 libc.so.6 \
-libfmt.so.9 \
+libfmt.so.12 \
 libgcc-s.so.1 \
 libgmp.so.10 \
-libgnuradio-analog.so.3.10.7 \
-libgnuradio-audio.so.3.10.7 \
-libgnuradio-blocks.so.3.10.7 \
-libgnuradio-channels.so.3.10.7 \
-libgnuradio-digital.so.3.10.7 \
-libgnuradio-dtv.so.3.10.7 \
-libgnuradio-fec.so.3.10.7 \
-libgnuradio-fft.so.3.10.7 \
-libgnuradio-filter.so.3.10.7 \
-libgnuradio-iio.so.3.10.7 \
-libgnuradio-network.so.3.10.7 \
-libgnuradio-pdu.so.3.10.7 \
-libgnuradio-pmt.so.3.10.7 \
-libgnuradio-qtgui.so.3.10.7 \
-libgnuradio-runtime.so.3.10.7 \
-libgnuradio-soapy.so.3.10.7 \
-libgnuradio-trellis.so.3.10.7 \
-libgnuradio-uhd.so.3.10.7 \
-libgnuradio-video-sdl.so.3.10.7 \
-libgnuradio-vocoder.so.3.10.7 \
-libgnuradio-wavelet.so.3.10.7 \
-libgnuradio-zeromq.so.3.10.7 \
+libgnuradio-analog.so.3.10.12 \
+libgnuradio-audio.so.3.10.12 \
+libgnuradio-blocks.so.3.10.12 \
+libgnuradio-channels.so.3.10.12 \
+libgnuradio-digital.so.3.10.12 \
+libgnuradio-dtv.so.3.10.12 \
+libgnuradio-fec.so.3.10.12 \
+libgnuradio-fft.so.3.10.12 \
+libgnuradio-filter.so.3.10.12 \
+libgnuradio-iio.so.3.10.12 \
+libgnuradio-network.so.3.10.12 \
+libgnuradio-pdu.so.3.10.12 \
+libgnuradio-pmt.so.3.10.12 \
+libgnuradio-qtgui.so.3.10.12 \
+libgnuradio-runtime.so.3.10.12 \
+libgnuradio-soapy.so.3.10.12 \
+libgnuradio-trellis.so.3.10.12 \
+libgnuradio-uhd.so.3.10.12 \
+libgnuradio-video-sdl.so.3.10.12 \
+libgnuradio-vocoder.so.3.10.12 \
+libgnuradio-wavelet.so.3.10.12 \
+libgnuradio-zeromq.so.3.10.12 \
 libm.so.6 \
-libspdlog.so.1.12 \
+libspdlog.so.1.17 \
 libstdc++.so.6 \
-libuhd.so.4.4.0 \
-libvolk.so.3.0 \
+libuhd.so.4.10.0 \
+libvolk.so.3.3 \
 python-abi \
+python3-QDarkStyle \
+python3-QtPy \
 python3-SoapySDR \
 python3-cairo \
 python3-click \

@@ -8,10 +8,10 @@ provided which is also true in oneside mode where all pages use \
 the odd page layout."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn64967"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-ifoddpage-2023.209.1.2svn64967-54.1.noarch.rpm"
-RPM_HASH = "b2456f5f5042fd3c7755ec496c4242d9de43a11b7098800036a4f28d693bab4a1bdb23234f5ad2c806aa836d01a0466bcb33cd5a7639a28c34ef0eef89e2aef8"
+RPM_NAME = "texlive-ifoddpage-2026.226.1.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "276eccdf426a759ef14c8703184030d46ecdd933fbd8149b4edfb1cb836972d40194a78442b6f9fe29ff5b1dd3240e2b6434942d4cd8b9c01b170f7b9f34d248"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifoddpage.sty \

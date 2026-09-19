@@ -4,10 +4,10 @@ minimalist design, so to minimize distractions and put the \
 focus directly on the content."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.3.0svn62551"
+PV = "2026.226.3.4.0svn69742"
 
-RPM_NAME = "texlive-beamertheme-focus-2023.209.3.3.0svn62551-54.1.noarch.rpm"
-RPM_HASH = "0ec1d08ac27070a1c887d4ab2b5f6631f89b526b1a885c4a762d46ab4f86e22e3300de8edd63d784ddd7200196050f12be7dc2cddf8dff4529910a5f0194673a"
+RPM_NAME = "texlive-beamertheme-focus-2026.226.3.4.0svn69742-61.2.noarch.rpm"
+RPM_HASH = "04e795040be3118fc74f3654bc317b8ef948a2ceb082ac3453a3d419f78467bc1105a1cda8aa0c5db9589d2545f42aa4787164a8eb0a1ebe2e8710361e3dbba0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemefocus.sty \

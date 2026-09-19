@@ -1,12 +1,12 @@
-SUMMARY = "KDE PIM Libraries: IMAP library"
+SUMMARY = "Library to assist working with IMAP servers"
 DESCRIPTION = "KIMAP provides libraries to interface and communicate with \
 IMAP mail servers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kimap-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "4bf3e4a9cc2c16ba098bed6b9cd4140cabaab389099ce78aa34b4ee4da7a620e5fb6c37acc1cf2352855e63af71b623327f9665352545d9d6d731686094d25ac"
+RPM_NAME = "kimap-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "db1fa3cc8f116429d216344eee4aead72bf7e789a84334ad0ea0e7ff1cede30155fe9f810e68ae08e1379652bef75ec461fb0d913389c3031cd4fba7909d40da"
 
 RPROVIDES:${PN} += "kimap"
 

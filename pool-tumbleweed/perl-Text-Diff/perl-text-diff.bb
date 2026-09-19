@@ -22,12 +22,12 @@ That's a pretty rare occurrence, so 'diff()' is exported by default. \
  \
 If you pass a filename, but the file can't be read, then 'diff()' will \
 'croak'."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.45"
+PV = "1.450.0"
 
-RPM_NAME = "perl-Text-Diff-1.45-1.23.noarch.rpm"
-RPM_HASH = "64c85dd7ff74b3a4cf8a4ce6d1ba5770ccb5dbe50c228d45d6e8f9c299ab0b8b6d6c9d06c2f3005ef9f999ba457b283e1c46b363cfa9099fc260b246f3c1ec0d"
+RPM_NAME = "perl-Text-Diff-1.450.0-1.7.noarch.rpm"
+RPM_HASH = "0d7627bc9d083b0fc524ece5e9a80402c9a0b45f7e46037fcfad99daf9002b8699bb4477e7dd72a602ab7475efcc056f0b3adc228552072f71d0c3f5172592ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Diff \
@@ -36,7 +36,7 @@ perl-Text--Diff--Config \
 perl-Text--Diff--Table \
 perl-Text-Diff"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Algorithm--Diff"
 
 inherit rpm

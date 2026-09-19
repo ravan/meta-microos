@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-power-manager"
 DESCRIPTION = "Provides translations for the 'xfce4-power-manager' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.2"
+PV = "4.20.1"
 
-RPM_NAME = "xfce4-power-manager-lang-4.18.2-1.1.noarch.rpm"
-RPM_HASH = "4e12710ba2c86ff5a1667914640da6e9a952eef8efdc2ebe11193eeae2648f8f44ef52411d06c07dfb13fa9154c9389cd4c896bc7f5ef8b7f8f44c7f7aa82eb5"
+RPM_NAME = "xfce4-power-manager-lang-4.20.1-1.1.noarch.rpm"
+RPM_HASH = "a899730c1ef5e51ede7a5b7045366b515894e6a654913211b5958d9af1745b682d1f9abceb98cc5d3a052a3b887e2afba4f87e073b57edcd8a59f669338807c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-power-manager-ar \

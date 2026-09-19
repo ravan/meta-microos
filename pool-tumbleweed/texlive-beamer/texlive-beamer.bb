@@ -17,10 +17,10 @@ following other packages: atbegshi, etoolbox, hyperref, ifpdf, \
 pgf, and translator."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.69svn65984"
+PV = "2026.226.3.77svn78101"
 
-RPM_NAME = "texlive-beamer-2023.209.3.69svn65984-54.1.noarch.rpm"
-RPM_HASH = "8b063bf046ebbb40895994d81644a4c4ffbd76ac535d4831b27210ef4bc80833bc40ba1910a52319d46e6da246d365e465f2e8a53d252976748adc94dc608773"
+RPM_NAME = "texlive-beamer-2026.226.3.77svn78101-61.2.noarch.rpm"
+RPM_HASH = "6cd28ccf76698a37e125f3e0c1e5b183bdd04dc0bc12c0dbb9bf829d2ea68f7365c34c9bf91953bf3f023af92b090d949ea81e5ef7ae3743b8bca6bb65cc75fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamer.cls \

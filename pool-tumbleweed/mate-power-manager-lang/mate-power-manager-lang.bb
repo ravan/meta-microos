@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-power-manager"
 DESCRIPTION = "Provides translations for the 'mate-power-manager' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "mate-power-manager-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "3e12b1df6909fb38f3a791bd5b1a894c826ae2c15082b46a491fc19b2791269c57bfba1b8bf1d6e8865a10a0896a72c37c40ff186ff008f764f0331fb4f737c9"
+RPM_NAME = "mate-power-manager-lang-1.28.1-3.6.noarch.rpm"
+RPM_HASH = "98ff2c5cce15a0adc9d4832755d14369477ca3b601476bbad09823857a2917e2f203fb73fce7afb7de7bf0ece23f1977c6d964a8e9bbc8867c51122d0c2020bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-power-manager-af \
@@ -30,7 +30,6 @@ locale-mate-power-manager-el \
 locale-mate-power-manager-en-AU \
 locale-mate-power-manager-en-CA \
 locale-mate-power-manager-en-GB \
-locale-mate-power-manager-en-US \
 locale-mate-power-manager-eo \
 locale-mate-power-manager-es \
 locale-mate-power-manager-es-AR \
@@ -60,7 +59,6 @@ locale-mate-power-manager-gu \
 locale-mate-power-manager-he \
 locale-mate-power-manager-hi \
 locale-mate-power-manager-hr \
-locale-mate-power-manager-hu \
 locale-mate-power-manager-ia \
 locale-mate-power-manager-id \
 locale-mate-power-manager-is \

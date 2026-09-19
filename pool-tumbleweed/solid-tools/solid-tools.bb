@@ -4,10 +4,10 @@ interacting with hardware independently of the underlying operating system. \
 CLI utilities."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "solid-tools-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "4836a6b10176b686ece194f89450a28adb2fdfa4a5054e057d8825ab6bbfa6b647c827976856a7ed2a7e60b293b8b59b03a8e64d7089249d87bbbe662dc55e7d"
+RPM_NAME = "solid-tools-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "1b0710365e10ffadab4d41b2826c0fabff5f31d4efb6f743b77847b47b9dac710e21345302aa7221805b32116770ac0586f5f7d06d558ee77b347b9c96211ff5"
 
 RPROVIDES:${PN} += "solid-tools"
 

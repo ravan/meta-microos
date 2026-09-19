@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-secnum"
 DESCRIPTION = "This package includes the documentation for texlive-secnum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn61813"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-secnum-doc-2023.209.svn61813-54.1.noarch.rpm"
-RPM_HASH = "39b787cbe9972d523bfd2a019a2d196fc1ce224a6133a92ec72caffa505d95d2b71b81c58bbd3fc04c669b8a0b584b12d244a85b1bc7a677b2f6c0bfe34f6396"
+RPM_NAME = "texlive-secnum-doc-2026.226.svn76924-60.2.noarch.rpm"
+RPM_HASH = "9e1f071cd4f2c2627897b02953edd0a9d1ee30cbda1fdad652257b5451239592a34240bbe793c80e64828afdb12abf5d20cb31bdfe0ff94c7b84e08924ab36b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-secnum-doc"

@@ -19,10 +19,10 @@ a team that includes the original creators of the \
 and continued here."
 LICENSE = "Apache-2.0"
 
-PV = "3.5.6"
+PV = "3.5.19"
 
-RPM_NAME = "mybatis-3.5.6-8.1.noarch.rpm"
-RPM_HASH = "02b16dc2d2357fb4e1825fd96ccb519b67715a8ecb25d8f65581cb9ca3043e97f4ff28e472ffff3e8d51525012abc57db157dd70298dc0bb815f7fb512dd08e3"
+RPM_NAME = "mybatis-3.5.19-2.5.noarch.rpm"
+RPM_HASH = "d737b0e223546b8b7f44f65310b716e9639f3c820fb8aca1a01217d7816d53d1db8b2f6a7f9d2b1945880f7b9a32680d6ef7bcfacdff78a4ff78f43b2b168d5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-mybatis \
@@ -32,6 +32,7 @@ mybatis \
 osgi-org.mybatis.mybatis"
 
 RDEPENDS:${PN} += "java-headless \
-javapackages-filesystem"
+javapackages-filesystem \
+mvn-ognl-ognl"
 
 inherit rpm

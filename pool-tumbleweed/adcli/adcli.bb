@@ -3,10 +3,10 @@ DESCRIPTION = "A command line tool that can perform actions in an Active Directo
 Among other things it can be used to join a computer to a domain."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.9.2"
+PV = "0.9.3.1"
 
-RPM_NAME = "adcli-0.9.2-1.4.aarch64.rpm"
-RPM_HASH = "87f92e4a9b87b2ae78e5e9a47aaf99004cd9c7906ffe43a6cfc70db3561040de4efe9a9ab5a54dc190bf15c7e1869d9de7611b2784a7199c2ec539c9384114bc"
+RPM_NAME = "adcli-0.9.3.1-2.7.aarch64.rpm"
+RPM_HASH = "accf1b6bd90a572e8b415d2deb23699d745a570ccff0ed36977bd3dac93d79ea822f438e8efcfefdda13c7a000ed30bfdb0db97f9fc1e30fd94036cfdea687e4"
 
 RPROVIDES:${PN} += "adcli"
 
@@ -17,6 +17,7 @@ libk5crypto.so.3 \
 libkrb5.so.3 \
 liblber.so.2 \
 libldap.so.2 \
-libresolv.so.2"
+libresolv.so.2 \
+libselinux.so.1"
 
 inherit rpm

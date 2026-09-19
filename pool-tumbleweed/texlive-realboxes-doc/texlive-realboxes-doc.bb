@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-realboxes"
 DESCRIPTION = "This package includes the documentation for texlive-realboxes"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn64967"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-realboxes-doc-2023.209.0.0.2svn64967-54.2.noarch.rpm"
-RPM_HASH = "094c7a5b69ca5f3a96181f06db23d19eac45fe0cdb3359bc1a0b63b799751057186015a5d5019b2904c7bb3db9f06f1f569bff70d7d7c91c56d30e47676e9411"
+RPM_NAME = "texlive-realboxes-doc-2026.226.0.0.2svn77682-60.4.noarch.rpm"
+RPM_HASH = "e32899a660451ededc5b23c38ccdcc141502e9c37c5239f3dc45e9c2ecc4fc9a406fa0281d453f61bcd4d2f2698fadb7ff78c9e44c3c95f10d7e36642e392477"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-realboxes-doc"

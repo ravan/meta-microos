@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package gprename"
 DESCRIPTION = "Provides translations for the 'gprename' package."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "5.0.20220807"
+PV = "5.0.20230429"
 
-RPM_NAME = "gprename-lang-5.0.20220807-1.2.noarch.rpm"
-RPM_HASH = "644f246043a31d9c1e48632288f358d869d6f7d1506b131ab1682e5d46f06aa5cd2f7829973d0058f2ce0b67b6ca398690e389e4fe21aeb4df1da01e3dceac53"
+RPM_NAME = "gprename-lang-5.0.20230429-1.9.noarch.rpm"
+RPM_HASH = "e39f579168013452e262a2b985db3bb41e8d195f1496f2a806c4d32200c9007e269122e716630cfc433e98a50e99b02e9855c9a35b9589f0c195f9d4a75ae99b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gprename-lang \

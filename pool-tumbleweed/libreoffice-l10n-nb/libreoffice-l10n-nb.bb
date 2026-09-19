@@ -2,10 +2,10 @@ SUMMARY = "Bokmal localization files for LibreOffice"
 DESCRIPTION = "Provides Bokmal translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-nb-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "2dd38b3d0461f4a1653c82d1bd73779f8d604b7b09ba94567b0d93306b5c438d3692914f64cda1b5e479c3c0478b097c6c66dc73c08816e9bceb10774aa4aad7"
+RPM_NAME = "libreoffice-l10n-nb-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "e27d06c6c9ddc1ff6ec82e7351ac5883edfb98e7345ca77b66b1548681fba97f55ab8f99750fcb29ce59072e9cce4b22d27e031e6f42772424a5346cdf3d6437"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-nb \

@@ -6,17 +6,17 @@ Java-doc.  It is used to generate the documentation for GLib, \
 Gtk+, and GNOME."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.33.2"
+PV = "1.36.1"
 
-RPM_NAME = "gtk-doc-1.33.2-1.5.aarch64.rpm"
-RPM_HASH = "439efadb108dcded226e483735418e9599258d10643db93db4107fcf4c7c121050c360c294d48dc2749c5f579484898c021609689697978205153b41a1d406fb"
+RPM_NAME = "gtk-doc-1.36.1-1.2.aarch64.rpm"
+RPM_HASH = "e373bd83260efa95a1a20c55c70e5e009ab3e0e4ea227b1e6640e54c82908b5668b576310154672562fbc065334cc4487ba2edec10b25d5b9d08aa0337a76b24"
 
 RPROVIDES:${PN} += "gtk-doc \
 gtkdoc \
 pkgconfig-gtk-doc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 docbook-4 \
 docbook-xsl-stylesheets \

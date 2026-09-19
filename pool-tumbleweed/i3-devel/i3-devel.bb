@@ -2,10 +2,11 @@ SUMMARY = "Development headers for i3"
 DESCRIPTION = "Development headers for the i3 window manager."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.22"
+PV = "4.25.1"
 
-RPM_NAME = "i3-devel-4.22-1.4.aarch64.rpm"
-RPM_HASH = "ce462557fccc56135873112a32dc6b960f9c0c6f0abb382a4633cb532e19a8f4afbd19984da0d3dee63d7b7d4c9d14420534d7a04c1afe8fb4b7141a6319b2c8"
+RPM_NAME = "i3-devel-4.25.1-1.6.noarch.rpm"
+RPM_HASH = "7474a682274f1fe652fb71c815499d23ebca0f4dbb035f292d0435df15e19cfc2b4b64fe3c97a484020f1c4dd817b30ad516ef59594b3951185fe73b9e34785c"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "i3-devel"
 

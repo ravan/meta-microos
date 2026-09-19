@@ -2,10 +2,11 @@ SUMMARY = "Mate status applet with HIDPI support"
 DESCRIPTION = "Mate status applet with HIDPI support"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.6.1"
+PV = "3.2.2"
 
-RPM_NAME = "xapp-mate-2.6.1-1.1.aarch64.rpm"
-RPM_HASH = "ea70e4d0cc8eedbd627e8eaa25a948d1a4bcecd825da22be0832fb3c01f696a0eb7c57c31217536111e9d1ff4c3da24c7dd281e0c0d3ed8af8ce2959e444be12"
+RPM_NAME = "xapp-mate-3.2.2-1.4.noarch.rpm"
+RPM_HASH = "46f38cae13d1b76c7fd0d0b22859d7ad7815bb725b91fd63eb780a98d02d1a73c2306c1c11fe1694629d2e191bb39ecd8e829b03f7a47ff0a8afe583ad6c02bf"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xapp-mate \
 xapps-mate"

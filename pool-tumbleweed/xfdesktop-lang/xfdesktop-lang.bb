@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfdesktop"
 DESCRIPTION = "Provides translations for the 'xfdesktop' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.1"
+PV = "4.20.2"
 
-RPM_NAME = "xfdesktop-lang-4.18.1-1.4.noarch.rpm"
-RPM_HASH = "59aadf26ec2e9944efcd7647e3ee684396267938aaf3195c45f49419740afbec49eba79d6919a9fda43bcb79d1ec9256eabece8f69daf0742feb9d11ed20bbd6"
+RPM_NAME = "xfdesktop-lang-4.20.2-1.3.noarch.rpm"
+RPM_HASH = "63dc922d7418249228132c1a51eaf483b6a5366d7ca0bd9bb1af8b78297ecffb4c374fbe7c2a39ed16f42ea164556a972373d7a5a4b379fc14a4e6fb14aa4581"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfdesktop-ar \

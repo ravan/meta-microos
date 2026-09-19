@@ -6,12 +6,13 @@ emulation settings. \
 This package provides the GObject Introspection bindings for VTE."
 LICENSE = "LGPL-2.0-only"
 
-PV = "0.72.2"
+PV = "0.84.1"
 
-RPM_NAME = "typelib-1_0-Vte-2_91-0.72.2-1.1.aarch64.rpm"
-RPM_HASH = "b95912e2ba9995893dcd138a1a679ba79e001503f4a5edcc37014726db4d563a13e4970e96dc22fc37e2dfbbda3cbf9c0b4db3b610afd285c2590d120e210b70"
+RPM_NAME = "typelib-1_0-Vte-2_91-0.84.1-1.2.aarch64.rpm"
+RPM_HASH = "39616d38bf175187d81e7f579a7444b24652421bbb1cfafc303dcd82d901f9b340d7fd54cf104e2cd153be5da8e1401ee22498d6889f6f59cf72908fb9d1c6f9"
 
 RPROVIDES:${PN} += "typelib-1-0-Vte-2-91 \
+typelib-1-0-Vte-2.91 \
 typelib-Vte"
 
 RDEPENDS:${PN} += "libvte-2.91.so.0 \

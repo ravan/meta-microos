@@ -2,16 +2,15 @@ SUMMARY = "PySNMP documentation"
 DESCRIPTION = "PySNMP documentation and examples."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.0.28"
+PV = "7.1.25"
 
-RPM_NAME = "python-pysnmp-doc-5.0.28-1.1.noarch.rpm"
-RPM_HASH = "abdc819a5cb814ad0e3bab7b1a407e5d900b512ec445f917c8717f29a9f620bc5180963d64606ebf1580bced3d62e0187095360ad32d8bf03aa8964cf9a5ce4a"
+RPM_NAME = "python-pysnmp-doc-7.1.25-1.2.noarch.rpm"
+RPM_HASH = "8fbbbe5b854e01f6fd51bf7be7a8a8b7fcc038e18480418b73838e4e232354393fc1907d92d163d03fd695c060fe43e3c79e122c0e9442d981e8a0822ea4070e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pysnmp-doc \
-python310-pysnmp-doc \
-python311-pysnmp-doc \
-python39-pysnmp-doc"
+python313-pysnmp-doc \
+python314-pysnmp-doc"
 
 RDEPENDS:${PN} += ""
 

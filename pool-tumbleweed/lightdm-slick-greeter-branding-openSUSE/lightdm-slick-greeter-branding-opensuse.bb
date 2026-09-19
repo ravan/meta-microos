@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0"
 
-RPM_NAME = "lightdm-slick-greeter-branding-openSUSE-1.0-3.5.noarch.rpm"
-RPM_HASH = "fddc5771c1ba6c7f8f5aab3f02f49364173dd8b2e6946d83fc7508aa420c23112e8d68122778b8268ea697b8cb40d65a7821c453cf1b30c2b10d280cdf3ce7a3"
+RPM_NAME = "lightdm-slick-greeter-branding-openSUSE-1.0-4.6.noarch.rpm"
+RPM_HASH = "d15b935babf55339895279c52f9b1e4de2fcb5cdda2c6a734ea32106e7c428810412aa487314a398b709ac1f35919b6037fddbe335b04df03a9a12964b37af04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightdm-slick-greeter-branding \

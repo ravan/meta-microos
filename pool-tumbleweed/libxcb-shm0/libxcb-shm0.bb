@@ -8,10 +8,10 @@ data between client and server using shared memory, so that it does \
 not need to be transferred over sockets."
 LICENSE = "MIT"
 
-PV = "1.16"
+PV = "1.17.0"
 
-RPM_NAME = "libxcb-shm0-1.16-1.1.aarch64.rpm"
-RPM_HASH = "d733413c0f2260cfd65135e6cbc8561a77ecc40ad9a10d5884f69efa6dbc1bb031adaa297e63387fd4aee798bf7183fafdb34bdc715ab86aa4efb901db51df12"
+RPM_NAME = "libxcb-shm0-1.17.0-2.7.aarch64.rpm"
+RPM_HASH = "9a198fa73fdb8402bd35bc1cf817f0850519f26c85aff21827c01d9e018cbd6464b34f6d139f1a8292df5fec960c9b320c72a0b83aa92f0019a7c3a7e56ede9a"
 
 RPROVIDES:${PN} += "libxcb-shm.so.0 \
 libxcb-shm0"

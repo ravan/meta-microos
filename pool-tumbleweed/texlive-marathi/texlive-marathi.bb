@@ -10,10 +10,10 @@ language. Currently the package localizes package blindtext and \
 package expex."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.1.7svn61719"
+PV = "2026.226.1.7svn61719"
 
-RPM_NAME = "texlive-marathi-2023.208.1.7svn61719-53.1.noarch.rpm"
-RPM_HASH = "1d46cd654e315d6321bd317d4c22fe7dc569a99b2bef5f376d9803fcdaecfc1142844496753b90f2cdd4b9da3c1fe7cce343b4d30f0f80e9e2bb100ac12da7f4"
+RPM_NAME = "texlive-marathi-2026.226.1.7svn61719-59.2.noarch.rpm"
+RPM_HASH = "eb11f0ce64aa7deb3ef3d2df79c89a761fd50e00af36139171dc57ae3d93393b5a89dcfb4f061d5ade2231a9313baa21b34aa86ee28cc3209cf4afd5225fa78b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-marathi.sty \

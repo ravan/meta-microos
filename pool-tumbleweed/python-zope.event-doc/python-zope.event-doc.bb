@@ -2,10 +2,10 @@ SUMMARY = "Very basic event publishing system"
 DESCRIPTION = "This package contains documentation files for python-zope.event."
 LICENSE = "ZPL-2.1"
 
-PV = "5.0"
+PV = "6.2"
 
-RPM_NAME = "python-zope.event-doc-5.0-1.1.noarch.rpm"
-RPM_HASH = "3363a32d30b7f46d1ce231b65e7310cdba30f0cfd921051f38d71f6ae174f22835f56a5313fb5f3b68e614a8358fdf408278b1dbbf31cc4fe1168048aa857cff"
+RPM_NAME = "python-zope.event-doc-6.2-1.2.noarch.rpm"
+RPM_HASH = "edd6a94441a6a2972a26cb9846799245055c4fdb63c3d2e16db3c8649cc7557a585e656b8877d314b633a5e31921608cb5464cb203004d71a6ad34fd7f8211f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-zope.event-doc"

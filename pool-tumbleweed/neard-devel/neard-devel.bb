@@ -2,10 +2,10 @@ SUMMARY = "Files needed for NFC development"
 DESCRIPTION = "Files needed to develop applications for the NFC stack."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.18"
+PV = "0.20"
 
-RPM_NAME = "neard-devel-0.18-1.4.aarch64.rpm"
-RPM_HASH = "57def9f048362ff630f91773382ee8d918f0e655c11ad1658653aaab1861d1f75aeba4b8e99f383303d98af1a2ea1ccaffd3b7ac5be704225b4834c68f63ee13"
+RPM_NAME = "neard-devel-0.20-1.3.aarch64.rpm"
+RPM_HASH = "9540de177a69c36de165b42274a19b5995c7a990aa9c054e58f1053939c17b99b8b43be29ef747b259d9bb3c8e589a11886c325ba8da9851fd7c248c52cae27a"
 
 RPROVIDES:${PN} += "neard-devel \
 pkgconfig-neard"

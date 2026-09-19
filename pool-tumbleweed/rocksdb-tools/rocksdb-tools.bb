@@ -3,17 +3,17 @@ DESCRIPTION = "RocksDB is a high performance embedded database for key-value dat
 This package contains utility tools for RocksDB."
 LICENSE = "(Apache-2.0 | GPL-2.0-only) & BSD-2-Clause"
 
-PV = "8.5.3"
+PV = "11.8.1"
 
-RPM_NAME = "rocksdb-tools-8.5.3-1.1.aarch64.rpm"
-RPM_HASH = "853628112af4b4500d19dad98b350e8c4a73865fda5b359802f63f9887f694e557ea83530e5a92e5d5ce2eaa8c952a3a6c7179dd1a11c09a89a504667f2c5eb6"
+RPM_NAME = "rocksdb-tools-11.8.1-1.1.aarch64.rpm"
+RPM_HASH = "874661bf7070cca61d87b064c8294c382cbbfbc075c6f483037e5d2e9b8ba7172a6b30efa1fc0a8a130d5c7a771459b989f76a21adf4c8645fc902a5c1569a85"
 
 RPROVIDES:${PN} += "rocksdb-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-librocksdb.so.8 \
+librocksdb.so.11 \
 libstdc++.so.6"
 
 inherit rpm

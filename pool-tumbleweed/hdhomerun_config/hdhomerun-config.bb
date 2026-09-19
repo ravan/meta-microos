@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "20190621"
 
-RPM_NAME = "hdhomerun_config-20190621-1.19.aarch64.rpm"
-RPM_HASH = "de19bc5dd127e40fef60ab1c8a9efd72e17c7c4968acf6105462f6d4e7480649ec39300b476b6d91ebd97074fe91cc1bb08d67d21e7fb3dbb17c21a903ed4ab3"
+RPM_NAME = "hdhomerun_config-20190621-2.11.aarch64.rpm"
+RPM_HASH = "7979ff56de5cb871ae450ce0ddd01efb0259d583c1d0fb21518e71fcec92301230d7c0a2860f405b2eb19eb18932684fb55ed999e5504070aa92149a0cde8c43"
 
 RPROVIDES:${PN} += "hdhomerun-config"
 

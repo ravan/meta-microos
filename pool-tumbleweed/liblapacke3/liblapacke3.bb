@@ -1,21 +1,13 @@
-SUMMARY = "LAPACKE development files"
+SUMMARY = "Native C Interface to LAPACK: shared library"
 DESCRIPTION = "This library provides a native C interface to LAPACK routines available \
 at www.netlib.org/lapack to facilitate usage of LAPACK functionality \
-for C programmers. \
- \
-This implementation introduces: \
-- row-major and column-major matrix layout controlled by the first function \
-  parameter; \
-- an implementation with working arrays (middle-level interface) as well as \
-  without working arrays (high-level interface); \
-- input scalars passed by value; \
-- error code as a return value instead of the INFO parameter."
+for C programmers."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.0"
+PV = "3.12.1"
 
-RPM_NAME = "liblapacke3-3.9.0-9.2.aarch64.rpm"
-RPM_HASH = "56fb94b0492c21d9947e9fcb62d1a9b6de7fe4aa811ba43756c9d930fbde9f7224ab6022a9ba25deebdea1ff5a2a14ca3896c0df4a59412ba5725624d94829b7"
+RPM_NAME = "liblapacke3-3.12.1-5.1.aarch64.rpm"
+RPM_HASH = "457ee06b88ad50a2a7d25be65f3b7b8616877457cb9d091e5efefccf92b11d5a75efcc211d4e0916848832ff00744d52952bd48bdd5fbb5a5c2177cf6b43cadf"
 
 RPROVIDES:${PN} += "liblapacke.so.3 \
 liblapacke3"

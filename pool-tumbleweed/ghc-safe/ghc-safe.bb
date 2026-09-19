@@ -26,17 +26,18 @@ lists are not equal) and 'take' (errors if there are not enough elements), then 
 wraps them to provide safe variants."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.19"
+PV = "0.3.21"
 
-RPM_NAME = "ghc-safe-0.3.19-4.8.aarch64.rpm"
-RPM_HASH = "29fcd674c763a7a6fb6dd828b094fb094b04cbb1ef970b6f7bf0fd888a3fd4847fc9979e89814d9ad0b05af9ee3de494f260a9245ea99643ebb55944295010be"
+RPM_NAME = "ghc-safe-0.3.21-2.25.aarch64.rpm"
+RPM_HASH = "79e5694b44b0b31ad6fa6ae612166cd572d55547e5f3d494416bd3ed675b3b18f1f8579782e5f53f65203d9907f683c0fe7d2003c9576a382cedb6b8947c5854"
 
 RPROVIDES:${PN} += "ghc-safe \
-libHSsafe-0.3.19-9uHvZjuyLiR13wOGSONZxX-ghc9.4.6.so"
+libHSsafe-0.3.21-AzRUUYeJ47sQc55olWnva-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

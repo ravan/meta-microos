@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains optional apache resolver tasks for Apache Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.14"
+PV = "1.10.18"
 
-RPM_NAME = "ant-apache-resolver-1.10.14-1.1.noarch.rpm"
-RPM_HASH = "958a256374560c4a0103091ce514f4ce92ec7a269e74dd580ff84432aef639a9d7f7f7b4564b6757471976054e2a83f4a0c578ba45720b5cd812b9b22764c91b"
+RPM_NAME = "ant-apache-resolver-1.10.18-1.1.noarch.rpm"
+RPM_HASH = "273a8de102c84b8e5eb84a8e0a30f880f66cb2f1814a3bd37de9a559ca20e9147fa3ac9459a58ab357e0e10f18826b6f819bb3d629a6d2a8dd132092c773493e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-resolver \

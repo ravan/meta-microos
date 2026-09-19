@@ -3,88 +3,93 @@ DESCRIPTION = "This package contains the Active Directory-compatible Domain Cont
 libraries."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "samba-ad-dc-libs-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "416ef6040385d88398d3b609081435bf0121a72f0701b72d86f798ebaeffd465c8f99638f5272b1b0191109a953e61616abe0b5b18ed9dc5f3a9cfc82d5c5b0e"
+RPM_NAME = "samba-ad-dc-libs-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "574eb98841b7f7b5e6a22e42ea7945d47079b52c351568a59fb66187b4eeecf429f795f6b96a8d34d1cfef4a2bf56d7ea2bf388923c923ccf7919a30ec2e5a2c"
 
-RPROVIDES:${PN} += "libdb-glue-samba4.so \
+RPROVIDES:${PN} += "libad-claims-private-samba.so \
+libdb-glue-private-samba.so \
 libdcerpc-server.so.0 \
-libdlz-bind9-for-torture-samba4.so \
-libdsdb-garbage-collect-tombstones-samba4.so \
-libpac-samba4.so \
-libprocess-model-samba4.so \
-libscavenge-dns-records-samba4.so \
-libservice-samba4.so \
+libdlz-bind9-for-torture-private-samba.so \
+libdsdb-garbage-collect-tombstones-private-samba.so \
+libpac-private-samba.so \
+libprocess-model-private-samba.so \
+libscavenge-dns-records-private-samba.so \
+libservice-private-samba.so \
 samba-ad-dc-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libLIBWBCLIENT-OLD-samba4.so \
-libMESSAGING-SEND-samba4.so \
-libMESSAGING-samba4.so \
-libasn1util-samba4.so \
-libauth4-samba4.so \
-libauthkrb5-samba4.so \
+libLIBWBCLIENT-OLD-private-samba.so \
+libMESSAGING-SEND-private-samba.so \
+libMESSAGING-private-samba.so \
+libasn1util-private-samba.so \
+libauth4-private-samba.so \
+libauthkrb5-private-samba.so \
+libauthn-policy-util-private-samba.so \
 libc.so.6 \
-libcli-cldap-samba4.so \
-libcli-ldap-common-samba4.so \
-libcli-ldap-samba4.so \
-libcli-nbt-samba4.so \
-libcliauth-samba4.so \
-libclidns-samba4.so \
-libcluster-samba4.so \
+libcli-cldap-private-samba.so \
+libcli-ldap-common-private-samba.so \
+libcli-ldap-private-samba.so \
+libcli-nbt-private-samba.so \
+libcliauth-private-samba.so \
+libclidns-private-samba.so \
+libcluster-private-samba.so \
 libcom-err.so.2 \
-libcommon-auth-samba4.so \
-libdbwrap-samba4.so \
+libcommon-auth-private-samba.so \
+libdbwrap-private-samba.so \
 libdcerpc-binding.so.0 \
-libdcerpc-samba-samba4.so \
-libdcerpc-samba4.so \
+libdcerpc-samba-private-samba.so \
+libdcerpc-samba4-private-samba.so \
 libdcerpc-server-core.so.0 \
 libdcerpc.so.0 \
-libdnsserver-common-samba4.so \
-libdsdb-module-samba4.so \
-libevents-samba4.so \
-libflag-mapping-samba4.so \
-libgenrand-samba4.so \
-libgensec-samba4.so \
+libdnsserver-common-private-samba.so \
+libdsdb-module-private-samba.so \
+libevents-private-samba.so \
+libflag-mapping-private-samba.so \
+libgenrand-private-samba.so \
+libgensec-private-samba.so \
 libgnutls.so.30 \
+libgse-private-samba.so \
 libk5crypto.so.3 \
 libkadm5srv-mit.so.12 \
 libkdb5.so.10 \
 libkrb5.so.3 \
-libkrb5samba-samba4.so \
+libkrb5samba-private-samba.so \
 libldb.so.2 \
-libldbsamba-samba4.so \
-libmessages-dgm-samba4.so \
+libldbsamba-private-samba.so \
+libmessages-dgm-private-samba.so \
 libndr-krb5pac.so.0 \
 libndr-nbt.so.0 \
-libndr-samba-samba4.so \
-libndr-samba4.so \
+libndr-samba-private-samba.so \
+libndr-samba4-private-samba.so \
 libndr-standard.so.0 \
-libndr.so.3 \
-libnetif-samba4.so \
-libnpa-tstream-samba4.so \
+libndr.so.6 \
+libnetif-private-samba.so \
+libnpa-tstream-private-samba.so \
 libpopt.so.0 \
-libreplace-samba4.so \
+libreplace-private-samba.so \
 libsamba-credentials.so.1 \
-libsamba-debug-samba4.so \
+libsamba-debug-private-samba.so \
 libsamba-errors.so.1 \
 libsamba-hostconfig.so.0 \
-libsamba-modules-samba4.so \
+libsamba-modules-private-samba.so \
 libsamba-passdb.so.0 \
-libsamba-security-samba4.so \
-libsamba-sockets-samba4.so \
+libsamba-security-private-samba.so \
+libsamba-security-trusts-private-samba.so \
+libsamba-sockets-private-samba.so \
 libsamba-util.so.0 \
-libsamdb-common-samba4.so \
+libsamdb-common-private-samba.so \
 libsamdb.so.0 \
-libsecrets3-samba4.so \
+libsecrets3-private-samba.so \
+libserver-id-db-private-samba.so \
 libsmbconf.so.0 \
-libsocket-blocking-samba4.so \
+libsocket-blocking-private-samba.so \
 libtalloc.so.2 \
 libtevent-util.so.0 \
 libtevent.so.0 \
-libtime-basic-samba4.so \
+libtime-basic-private-samba.so \
 samba-client-libs \
 samba-libs"
 

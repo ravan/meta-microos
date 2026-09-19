@@ -2,10 +2,10 @@ SUMMARY = "Simple streaming interface to zlib for Lua"
 DESCRIPTION = "lua-zlib is a simple streaming interface to zlib for Lua."
 LICENSE = "MIT | X11"
 
-PV = "1.2+git29"
+PV = "1.4"
 
-RPM_NAME = "lua53-zlib-1.2+git29-2.2.aarch64.rpm"
-RPM_HASH = "6e893bba57f09d4db3302dae05d75dd8e37243aff80211fdfc49f9db4e7e3b14dc7358b34f1254960328ea5bcf2f3a6122b60ab575a76d9db60c1062b905efea"
+RPM_NAME = "lua53-zlib-1.4-1.3.aarch64.rpm"
+RPM_HASH = "4dc1f190a186d214ecdd413e3497626717ec7f1a9a4079fa534e332fffc49d6d7e65b50ae6387b10af23d127e992701a9a0ec8cbd1662df4fb4648c61aa7d093"
 
 RPROVIDES:${PN} += "lua53-zlib"
 

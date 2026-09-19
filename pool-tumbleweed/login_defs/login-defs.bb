@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the default login.defs configuration file \
 as used by util-linux, pam and shadow."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "4.14.0"
+PV = "4.20.2"
 
-RPM_NAME = "login_defs-4.14.0-1.1.noarch.rpm"
-RPM_HASH = "d0c5d1d82b6d2bc6be34c4ae6fdde8a9782e68bb4cf25bf3a368edd5bffca5cd4c285fd9bc2ad949d94826c33166d6b6f8f2a7f29d6e9a8fd6857ddb321189c9"
+RPM_NAME = "login_defs-4.20.2-2.1.noarch.rpm"
+RPM_HASH = "944689b3fcfb044c7926ad608132e65fd5b5b9f4cd5145e29ceae51a493762b21bebe6053284ee6e2bc83a6ec53aa00ee9ab4dc35af4c65498ea0befd9035682"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "login-defs \

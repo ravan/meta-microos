@@ -2,10 +2,10 @@ SUMMARY = "GNOME Office"
 DESCRIPTION = "GNOME Office"
 LICENSE = "MIT"
 
-PV = "20201210"
+PV = "20250310"
 
-RPM_NAME = "patterns-gnome-gnome_office-20201210-16.1.aarch64.rpm"
-RPM_HASH = "ad99026da4ddd0121fbcc2e123fbc5b18939fcf2a7d830a5def611f7d434561afc84afd5e29d3a372c5ed848b46430b75040f14a325b20351ebdcd242ac58d08"
+RPM_NAME = "patterns-gnome-gnome_office-20250310-10.2.aarch64.rpm"
+RPM_HASH = "00f5394f57272d9abb9aa7d009326c8561768a317654af0f0cce669f76101d72dcf233097d6e9f4a3db465312eb99113273f2d7381a8a75ff5ceae5136e9c4d6"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

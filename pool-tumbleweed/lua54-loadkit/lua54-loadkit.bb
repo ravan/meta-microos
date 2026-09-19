@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "lua54-loadkit-1.1.0-4.2.noarch.rpm"
-RPM_HASH = "5705537fda45b1d60a57e87250ecd3f6e02323906c66ad2dd31f3aa03ce225adb44f1d5125b0dc67c96b74450e92dedcb866da13e5fd1dfe5d71b67ffdfa2ca6"
+RPM_NAME = "lua54-loadkit-1.1.0-6.3.noarch.rpm"
+RPM_HASH = "84d9a541111dceb4d9d4c2c1012723583f937f602f9fc5a02fb1bcdb5c8f648235c7ddcae8dfee1e80a9644afd7337490dc68def0550605325189abf6ca79ee6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua-loadkit \

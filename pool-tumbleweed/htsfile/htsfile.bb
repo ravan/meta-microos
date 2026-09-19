@@ -8,16 +8,17 @@ This project also includes the popular tabix indexer, which indexes both .tbi an
 the bgzip compression utility."
 LICENSE = "MIT"
 
-PV = "1.16"
+PV = "1.21"
 
-RPM_NAME = "htsfile-1.16-1.4.aarch64.rpm"
-RPM_HASH = "201e18e139f80c08d289c0a64a8f0089e2e214a3f71955edd282fc22d83f3da98a6cebca8b22f633efe426586c46d499ede7f37e465cd9c12ac5d8c935b72e39"
+RPM_NAME = "htsfile-1.21-1.6.aarch64.rpm"
+RPM_HASH = "573653bffda5adeea11316de020663e49cf2183e11d526a6cd89f658b8ede1c757f13b305aa28eeb32c29e4693c1e80b52dee8b147bd20f4572bc752f163b321"
 
 RPROVIDES:${PN} += "htsfile"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \
+libcrypto.so.3 \
 libcurl.so.4 \
 libhts3 \
 libhtscodecs.so.2 \

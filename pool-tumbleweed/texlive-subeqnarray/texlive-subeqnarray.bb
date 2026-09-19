@@ -8,10 +8,10 @@ consider the alignment capabilities of the amsmath bundle, \
 which produce better results than eqnarray-related macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1csvn15878"
+PV = "2026.226.2.1fsvn77682"
 
-RPM_NAME = "texlive-subeqnarray-2023.209.2.1csvn15878-58.1.noarch.rpm"
-RPM_HASH = "459a6c4ec9f435a2e567d595c7fdf64c3eadf9434f2b40ac7838e79d908b22854319f61fee7905a6667cb6ed14e86dab0abade5ff06cbbc658a7b7d3c08d4bcf"
+RPM_NAME = "texlive-subeqnarray-2026.226.2.1fsvn77682-64.2.noarch.rpm"
+RPM_HASH = "31091082dc874770450e7b73ecb18c701acf28949871b7bbfda8ca9577bbf9892ab0eb343c7b28b1ebccd0935e8bddb1d862afc44f5994d1f2125a97cb86678a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subeqnarray.sty \

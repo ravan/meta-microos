@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Quechuan la
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-que-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "0dee40fd8204895a976d5211d00b3cf6a5830d79dd91ba5589b3b7b808ee5e25189f60d2f7e99a58d871cdb87bdc24038f620ec54f106c62b39715e943fb51a4"
+RPM_NAME = "tesseract-ocr-traineddata-que-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "ef0a4b0957a363c27b617f6704c4743155a44d006c8c46d4afc49eface72754e13a3f51f9667182d63be3e5d15b0382ddede22ebbebe80305d8c704696e6739c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-que \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-qu \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-que \
 tesseract-ocr-traineddata-quechuan \
 tesseract-traineddata-quechuan"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

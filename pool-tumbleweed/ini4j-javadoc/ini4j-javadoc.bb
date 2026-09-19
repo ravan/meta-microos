@@ -4,10 +4,10 @@ Windows .ini format. Additionally, the library includes Java \
 Preferences API implementation based on the .ini file."
 LICENSE = "Apache-2.0"
 
-PV = "0.5.1"
+PV = "0.5.4"
 
-RPM_NAME = "ini4j-javadoc-0.5.1-28.10.noarch.rpm"
-RPM_HASH = "3772a98e8583d0816d6d7b853bd29ba0d20a76be511d58c82fc1d6d8885605156e4eb15c9618dbd2d4e0e97d4aa95ab19d8b08835e0b1a2d7612fd9e54a92ec5"
+RPM_NAME = "ini4j-javadoc-0.5.4-1.9.noarch.rpm"
+RPM_HASH = "85738ac1a4fa2b6d7a37bbfd90978fb4232e0942ccdb70b8c7440551164d276c5e0b10f993687ba9cf7770081d254f20457558edb89ac565d43509dc44859048"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ini4j-javadoc"

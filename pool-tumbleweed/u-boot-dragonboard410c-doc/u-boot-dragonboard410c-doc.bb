@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains documentation for U-Boot firmware."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-dragonboard410c-doc-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "d4b3d774e8cda1b4c5a17d29a60a9535d446cea32fbba9bce56271fc607d8ad1a93e8787dc4cd7ff4dca0c79af5385458685af9a2235a2f2a12e05d33b8adb8e"
+RPM_NAME = "u-boot-dragonboard410c-doc-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "5e53cd83992538cc1130e5806e246b9506fc490c86eac54e165b512ab08897fd82255e4798285ee037ef373ad01b6a3772e677a15fe75fd01479685d663d3111"
 
 RPROVIDES:${PN} += "u-boot-dragonboard410c-doc"
 

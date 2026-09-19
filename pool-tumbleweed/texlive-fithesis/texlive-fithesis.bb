@@ -5,10 +5,10 @@ for easy extensibility by style and locale files of other \
 academic institutions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn64135"
+PV = "2026.226.1.1.2svn76028"
 
-RPM_NAME = "texlive-fithesis-2023.209.1.1.0svn64135-53.1.noarch.rpm"
-RPM_HASH = "195eaf5785d48f3241873da4246361a43ff6958590e78a8b0c23fd3af1b4168308ea218a5a4e094d7b47d360025df6f0a916c7dcebb54ddb0e3d04a16adfd15c"
+RPM_NAME = "texlive-fithesis-2026.226.1.1.2svn76028-59.2.noarch.rpm"
+RPM_HASH = "cc05561d93efef5051dbbbf727febdd600112b681cd9c83d42ac0169cdd1297fca600060444339ae0a037ee65014e34e5b960b7f9b073c44d8b8f013f6363211"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fithesis-base.sty \

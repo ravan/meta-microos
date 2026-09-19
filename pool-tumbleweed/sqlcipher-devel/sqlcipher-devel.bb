@@ -8,17 +8,16 @@ well suited for mobile development. \
 This package contains development files for SQLCipher."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.5.4"
+PV = "4.19.0"
 
-RPM_NAME = "sqlcipher-devel-4.5.4-1.2.aarch64.rpm"
-RPM_HASH = "80d57666320216ddd66cdbfed43de2079cd6c09d72c3ee09e11e1aed4126a5125088076813ca4b5e441ff04c51668c104b4223b79997141817e0414abe5e1635"
+RPM_NAME = "sqlcipher-devel-4.19.0-1.1.aarch64.rpm"
+RPM_HASH = "bbe3152c143b5daa0560eaaa7fc2dff6cad2ce9fd98e05b9f917f3f20c01846ee1d59aa45788b17b77767def8173de795f655be4abd0a4be7fb634463c196dfa"
 
 RPROVIDES:${PN} += "pkgconfig-sqlcipher \
 sqlcipher-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsqlcipher-3-41-2-0 \
-sqlcipher \
-tcl-sqlcipher"
+libsqlcipher0 \
+sqlcipher"
 
 inherit rpm

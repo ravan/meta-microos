@@ -3,10 +3,10 @@ DESCRIPTION = "Shared C libraries for implementation of Hypertext Transfer Proto
 version 2."
 LICENSE = "MIT"
 
-PV = "1.55.1"
+PV = "1.70.0"
 
-RPM_NAME = "libnghttp2-14-1.55.1-1.1.aarch64.rpm"
-RPM_HASH = "f92f2aa5ec0596399be6785c56cefa76b48aecade9ffe7d5a453e1e271a8c1a35fae14394b6c6dd272d39ff1b690affe3dd725419ac14da2bb442860625a6cbd"
+RPM_NAME = "libnghttp2-14-1.70.0-1.1.aarch64.rpm"
+RPM_HASH = "f7a1babaf305cca20382613debd6a5bceb55675b21cf4682da397e5a1bf29ee5fff2f039dd0ae8906e7683c02256df6fe0268bfa8264e00f513d18150048933f"
 
 RPROVIDES:${PN} += "libnghttp2-14 \
 libnghttp2.so.14"

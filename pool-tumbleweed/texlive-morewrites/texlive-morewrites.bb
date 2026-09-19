@@ -9,10 +9,10 @@ sequence of loading packages for a document. The package uses \
 the l3kernel bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn49531"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-morewrites-2023.209.svn49531-55.1.noarch.rpm"
-RPM_HASH = "4f4995850b4329cc757c11f383074fa6b133cc9452b21c46660d0c148065bd85b28e45fcf41a4d90f18945d4d3aaa0a60195bf64488e930ddb896a72b12fd46a"
+RPM_NAME = "texlive-morewrites-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "74b30626351626ca56f19bf0ae3549fce2364bdd72021fbd2afdaeca153b820a5d3a601e3d78a3666712a253fb78fbb3bdc6405af15737700d182e24278a147a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-morewrites.sty \
@@ -25,7 +25,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-expl3.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

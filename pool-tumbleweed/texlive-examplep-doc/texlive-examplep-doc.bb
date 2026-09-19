@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-examplep"
 DESCRIPTION = "This package includes the documentation for texlive-examplep"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.04svn55265"
+PV = "2026.226.0.0.04svn55265"
 
-RPM_NAME = "texlive-examplep-doc-2023.209.0.0.04svn55265-53.1.noarch.rpm"
-RPM_HASH = "5410f4a31ae087d920d956e65c552944ea4f647af133ff66a1e83699ce71f03558e0e150012e8fc1b4ec028a31da2fa56e85615fee1401b76a7d4299c3fd7679"
+RPM_NAME = "texlive-examplep-doc-2026.226.0.0.04svn55265-59.2.noarch.rpm"
+RPM_HASH = "1565a519850740da6c86f90bfb8714e0e8c585dde4c0a16fbc913b18889862b16b92f03df47d1c847b9155ce38038fd7ec2d01145c1267e677abbcd8302ead83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-examplep-doc"

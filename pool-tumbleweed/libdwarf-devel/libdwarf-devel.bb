@@ -5,18 +5,17 @@ libdwarf is a library of functions to provide read/write DWARF \
 debugging records."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.7.0"
+PV = "2.3.2"
 
-RPM_NAME = "libdwarf-devel-0.7.0-1.1.aarch64.rpm"
-RPM_HASH = "995283942e1e86f262a3a63efe5a4c5282b267a04ff21c228700930c59d6596a1f2ec8ea586e702ccde64afe3b62d690d6263eeddcd3981510d47aaf439d282d"
+RPM_NAME = "libdwarf-devel-2.3.2-1.2.aarch64.rpm"
+RPM_HASH = "2c87d30ce1ada605d0f957960dd4233cc71c9e72d383fe6323ff3aaefc3f2fda7174c579bf977de0c9d73e7f596558a40828aeb217f051b896a0bde72ad8fb98"
 
 RPROVIDES:${PN} += "libdwarf-devel \
 pkgconfig-libdwarf"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libdwarf0 \
+libdwarf2 \
 libelf-devel \
-pkgconfig-libzstd \
-pkgconfig-zlib"
+pkgconfig-libzstd"
 
 inherit rpm

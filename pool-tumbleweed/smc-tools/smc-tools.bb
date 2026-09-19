@@ -8,10 +8,10 @@ The tools provided in this package allow existing TCP applications \
 to use a RoCE network without needing to make changes in them."
 LICENSE = "EPL-1.0"
 
-PV = "1.8.2"
+PV = "1.8.8"
 
-RPM_NAME = "smc-tools-1.8.2-1.2.aarch64.rpm"
-RPM_HASH = "9e25bb1f091e50eec90631862b9130aef9f29ac8f902c8b3e126b493bbcbb5196830550a7acf136fc72dc06b4605c65d0643c100d7f724bdad5f337cf897fc23"
+RPM_NAME = "smc-tools-1.8.8-1.1.aarch64.rpm"
+RPM_HASH = "af09ddea49da5e027d8f15569b9760b7ddabb339a41c335908782f202fdf5ed2c17d9d99611ba9f9e945a55d11c53e298429ec0d2efa11b4ce2f5ed1c5e7071a"
 
 RPROVIDES:${PN} += "libsmc-preload.so.1 \
 smc-tools"

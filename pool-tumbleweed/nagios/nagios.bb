@@ -8,16 +8,16 @@ specify. \
  \
 The actual service checks are performed by separate 'plugin' programs \
 which return the status of the checks to Nagios. The plugins are \
-available at http://sourceforge.net/projects/nagiosplug \
+available at http://nagios-plugins.org/. \
  \
 This package provides core programs for Nagios. The web interface, \
-documentation, and development files are built as separate packages"
+documentation, and development files are built as separate packages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.4.7"
+PV = "4.5.12"
 
-RPM_NAME = "nagios-4.4.7-2.5.aarch64.rpm"
-RPM_HASH = "662f3545cee3e0ef9137462a7a662b9c8e85ec36ae28e44678823561d7c9edee70ce37f9725f42c478fc5da8c54f0004e341cd0742c880026644ab96bd72bd6d"
+RPM_NAME = "nagios-4.5.12-2.1.aarch64.rpm"
+RPM_HASH = "fe97e911a8db035edfb98cd53f863ffb395452bd4c8659213761c56419636cba4a875c84a02e6188243e3613ede939a94186f38a8760ff9e09186baee45e25cd"
 
 RPROVIDES:${PN} += "config-nagios \
 monitoring-daemon \
@@ -31,6 +31,8 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 coreutils \
 fillup \
 grep \
+group-nagcmd \
+group-nagios \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
@@ -39,6 +41,7 @@ libssl.so.3 \
 mailx \
 permissions \
 sed \
-shadow"
+system-user-nagios \
+user-nagios"
 
 inherit rpm

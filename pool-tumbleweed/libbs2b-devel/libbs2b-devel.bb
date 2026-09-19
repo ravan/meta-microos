@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "libbs2b-devel-3.1.0-13.3.aarch64.rpm"
-RPM_HASH = "88c4a200794d56dd680e5385784e42987c7e2495e8aefbf67f8cd998be64811b86084cacacdb20dd557ba22631a22c550d279fcdbd5c5c54b9a24a50466925f2"
+RPM_NAME = "libbs2b-devel-3.1.0-14.11.aarch64.rpm"
+RPM_HASH = "6a52d6bb71c56bce36e356cc3f3323d12373e0d6b2a72eac82c5e6b934cb708100454cc1ae57130b86257597614f04fcb0906f30706c99de0743c3423a8d9c2f"
 
 RPROVIDES:${PN} += "libbs2b-devel \
 pkgconfig-libbs2b"

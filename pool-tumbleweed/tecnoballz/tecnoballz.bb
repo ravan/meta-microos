@@ -8,12 +8,13 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.93.1"
 
-RPM_NAME = "tecnoballz-0.93.1-5.2.aarch64.rpm"
-RPM_HASH = "764f1d3e4f69a3b8c6f84da7cfcbf86040f5530cfa63b07cce57e8b218261fe2e6a9b95a3b8736a985d32191ded8b84084e3a8661f65bf3965e0b33b31656a66"
+RPM_NAME = "tecnoballz-0.93.1-5.13.aarch64.rpm"
+RPM_HASH = "a51dfb1a898df98fbca1bbce0579407e3eff0bd56241418b8f196dcf7e2d60c201dc5a3f07a422cc34f9bcb07c7f0fadd6b49427b1f61501b7bf6b80f7572850"
 
 RPROVIDES:${PN} += "tecnoballz"
 
-RDEPENDS:${PN} += "libSDL-1.2.so.0 \
+RDEPENDS:${PN} += "group-games \
+libSDL-1.2.so.0 \
 libSDL-image-1.2.so.0 \
 libSDL-mixer-1.2.so.0 \
 libc.so.6 \
@@ -21,6 +22,7 @@ libgcc-s.so.1 \
 libm.so.6 \
 libmikmod.so.3 \
 libstdc++.so.6 \
-libtinyxml.so.0"
+libtinyxml.so.0 \
+user-games"
 
 inherit rpm

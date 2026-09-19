@@ -2,10 +2,10 @@ SUMMARY = "Haskell unix library documentation"
 DESCRIPTION = "This package provides the Haskell unix library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.7.3"
+PV = "2.8.8.0"
 
-RPM_NAME = "ghc-unix-doc-2.7.3-1.1.noarch.rpm"
-RPM_HASH = "5e96d88ba532dd0bcb086216c444cd92c8bb28720aec3868b0e321ac90128cddac779ac79f99d767b0ddecf19e723284d5d505a17248eff7c9a51f71c435657d"
+RPM_NAME = "ghc-unix-doc-2.8.8.0-1.3.noarch.rpm"
+RPM_HASH = "470ff265afbd9d7051af09d34e222823ec62e3a10d597bfa3b5cf921b82abee2d8fbec7b454bf40c57285df7bb089b536d52bbaf763e0495279d9c4d8f1cc823"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-unix-doc"

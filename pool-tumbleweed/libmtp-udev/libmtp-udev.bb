@@ -4,10 +4,10 @@ players based on the MTP (Media Transfer Protocol) authored by \
 Microsoft."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.21"
+PV = "1.1.23"
 
-RPM_NAME = "libmtp-udev-1.1.21-1.1.aarch64.rpm"
-RPM_HASH = "30a6172ef112eb7b75965ec3726bf3572252729b816a58c2faeb95269c4b70f63e5346718484d0d707c35e057899f9b15dcf74b4dfd5fd5bf7b4f01dc6bbf980"
+RPM_NAME = "libmtp-udev-1.1.23-1.3.aarch64.rpm"
+RPM_HASH = "ae1dfdcbacc0a8c38221aa8c421fb960fb3252a8bde570425a6e598d2003c697af06a4711f3ac09c00d194a059165065b53dde5bb971869b071f332f3ec7ae29"
 
 RPROVIDES:${PN} += "libmtp-udev"
 

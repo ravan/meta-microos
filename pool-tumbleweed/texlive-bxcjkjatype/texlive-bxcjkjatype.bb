@@ -6,10 +6,10 @@ users, by providing commands that are similar to those used by \
 the pLaTeX kernel and some other packages used with it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn54080"
+PV = "2026.226.0.0.5svn67705"
 
-RPM_NAME = "texlive-bxcjkjatype-2023.209.0.0.3svn54080-53.1.noarch.rpm"
-RPM_HASH = "fe2893a210f64c3264cc5925cf1ffb9dd4fcf9c798fccb3cef02ccda2e5222eccc5ca115d4d3e0438e176a4dc794f8ab90bbf6b3c66de9d43b23a791f198172f"
+RPM_NAME = "texlive-bxcjkjatype-2026.226.0.0.5svn67705-59.2.noarch.rpm"
+RPM_HASH = "07ae39c16ddef2e25140d9b4cc264f6e701f935ff62335caa8513d10c83559cb7549901b8a307292870162cdb8fc25a89e892e240a3c8725625e540fe7f82faf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxcjkjatype.sty \
@@ -25,7 +25,6 @@ tex-CJK.sty \
 tex-CJKpunct.sty \
 tex-CJKspace.sty \
 tex-CJKutf8.sty \
-tex-CJKvert.sty \
 tex-atbegshi.sty \
 tex-etoolbox.sty \
 tex-keyval.sty \

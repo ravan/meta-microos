@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.0.20161208"
 
-RPM_NAME = "libchck0-0.0.20161208-1.26.aarch64.rpm"
-RPM_HASH = "25b9d7f72c8add7b3fcec6227442ff8419e9c9a02c61a773f29beda1b2668b528abfb2bb7bd2a2823a1e48d748b7b5fd1e4cc8fd9148adf70baf24a53089e691"
+RPM_NAME = "libchck0-0.0.20161208-1.36.aarch64.rpm"
+RPM_HASH = "edd49c3dafa9e7f0cd3316e68b8967328f30d040da622a43ac6335d68a968d96d6033fab5566a85b728cc5281918521f7e2adedba29855e4f44f77851e79e773"
 
 RPROVIDES:${PN} += "libchck-atlas.so.0 \
 libchck-buffer.so.0 \

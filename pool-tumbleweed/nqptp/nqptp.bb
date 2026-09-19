@@ -7,10 +7,10 @@ It is a companion application to Shairport Sync and provides timing information 
 for AirPlay 2 operation."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.2.1"
+PV = "1.2.8"
 
-RPM_NAME = "nqptp-1.2.1-1.1.aarch64.rpm"
-RPM_HASH = "8304aafe88d4d85de025195ac35086c21dda3f25599d998030fdf70c8c7975b1d77bbe49144dbd9498522bdf018a6aac4ddc7fd5b78bf4651864c3284d99af90"
+RPM_NAME = "nqptp-1.2.8-1.3.aarch64.rpm"
+RPM_HASH = "cd3fe6e95db7c6cad42a4cfbbae6afb443559051d5c6c8e823feb56ccd984b1770dde5660bfa0df4387be391de9db5c71d0c62ef30812ca64e67e81d281a4ed1"
 
 RPROVIDES:${PN} += "nqptp"
 

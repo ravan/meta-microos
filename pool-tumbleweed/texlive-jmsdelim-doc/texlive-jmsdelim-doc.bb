@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jmsdelim"
 DESCRIPTION = "This package includes the documentation for texlive-jmsdelim"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.0svn62630"
+PV = "2026.226.0.0.2.0svn62630"
 
-RPM_NAME = "texlive-jmsdelim-doc-2023.209.0.0.2.0svn62630-56.1.noarch.rpm"
-RPM_HASH = "11b073b89cc406c9f77b2c758ef5b220db2ec4738b9f9290bbb78bea8a709e4ed1f02071c6546bf3ac3ceaca618011d2d151aad1c0fe39d5a27a438fb43c4a71"
+RPM_NAME = "texlive-jmsdelim-doc-2026.226.0.0.2.0svn62630-63.2.noarch.rpm"
+RPM_HASH = "dce1b4e022c59a2c9a3e3cb1d388945e333ddac4fedb7ae1918f1467b9373c7147d8b510a3c80a3813b70612b1ce3dc474ab037674810d8b18827a8447aad60f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jmsdelim-doc"

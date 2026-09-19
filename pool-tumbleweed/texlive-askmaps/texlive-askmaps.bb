@@ -6,10 +6,10 @@ input variables are placed on top of the columns and the least \
 significant variables are placed left of the rows."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn56730"
+PV = "2026.226.0.0.2svn56730"
 
-RPM_NAME = "texlive-askmaps-2023.209.0.0.2svn56730-54.1.noarch.rpm"
-RPM_HASH = "2159ef6afcea0e0ce54621b6447bc156cbbad4d669657944ff72591cae84054e183cf638b2d14cbb1d32ee4f72568c5b3c1b00f343daf6ab1604975a9ef56cf0"
+RPM_NAME = "texlive-askmaps-2026.226.0.0.2svn56730-60.2.noarch.rpm"
+RPM_HASH = "c764e2a36835c0c1f32cd18ee17313060978f09b43f60669c2847470fd65616e082838fcdcca16db8b9db3ea9a7e9e041d8908b09e516a515ed094cdf195e69f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-askmaps.sty \

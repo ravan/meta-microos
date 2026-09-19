@@ -5,10 +5,10 @@ file systems, computer architectures and hardware devices.  This subpackage \
 provides support for EFI systems."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12~rc1"
+PV = "2.14"
 
-RPM_NAME = "grub2-arm64-efi-2.12~rc1-2.1.noarch.rpm"
-RPM_HASH = "c274e4a56ea1347391fe955c5fbf2730c4f26f0a33fc37b1800b5ba01568fb54d5bc1164002027241bce0d87a91cdb39fcafbf5ef5d2eabcc95094b7216f4b76"
+RPM_NAME = "grub2-arm64-efi-2.14-19.1.noarch.rpm"
+RPM_HASH = "07de6d24347efd0f1a7f070225ad35ea6447f39e51118bad435881919bdb1df4984ccbc8b32a8e3f7ce0f5640853b8bcdb46bc0fd075adb5b67ed3c3a8e52ffa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-arm64-efi \
@@ -16,6 +16,6 @@ grub2-efi"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 efibootmgr \
-grub2"
+grub2-common"
 
 inherit rpm

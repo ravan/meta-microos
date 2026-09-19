@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fmp"
 DESCRIPTION = "This package includes the documentation for texlive-fmp"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-fmp-doc-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "07b11112c8fd0a2c9a4e9da43f102106cdb13e5229e2ba9d1928c59b3b53494c55f365db9fd53b4f3bca56ebb364020e40a72690c6eeb38bb96bd4277d50d80c"
+RPM_NAME = "texlive-fmp-doc-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "14b3fd6dfeae036808c8229a2929700dbf602782909561900b83ea8d4fcc70bd059f82a5795a23d0235975b4e80fe6a004531ffa638b4218847d14315e08a553"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fmp-doc"

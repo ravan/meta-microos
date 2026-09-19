@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.6.3"
 
-RPM_NAME = "keyutils-1.6.3-6.1.aarch64.rpm"
-RPM_HASH = "e6c2a7d352beaf76127c3d0dfa4a2088e3b487dab825ad7aaf68273edfb543645a32a1b5e9539db24dd30c0ae75b993e6dc43b1d3e114b83f563597400171672"
+RPM_NAME = "keyutils-1.6.3-7.10.aarch64.rpm"
+RPM_HASH = "dd236dc85183b35d96db1bdd122e3f405670b9a0bce5a28bc2d0bdd22cb26efb5cc5a15d2ca8bd3ef88b074e7677ce565dcc138abbcc1f383bdda49407fa49e3"
 
 RPROVIDES:${PN} += "config-keyutils \
 keyutils"

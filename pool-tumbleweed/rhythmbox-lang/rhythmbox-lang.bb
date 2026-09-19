@@ -2,10 +2,10 @@ SUMMARY = "Translations for package rhythmbox"
 DESCRIPTION = "Provides translations for the 'rhythmbox' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.4.7"
+PV = "3.5.1"
 
-RPM_NAME = "rhythmbox-lang-3.4.7-1.1.noarch.rpm"
-RPM_HASH = "a4d18ca6b198fca150c60e40633003b616ae8e79e1112b2faf6d4a165a6fa14237fe2c756ef6bc44a728a7bc6d8edd69df774db3087f32ae93a0e37308169bfd"
+RPM_NAME = "rhythmbox-lang-3.5.1-1.1.noarch.rpm"
+RPM_HASH = "529a96cf5bd48c7e10216f1d2f444ee31c43bd43bb8d9416f674efee369bfe74728576aa325048cee83911fe46952eab51ef5d9296fb1d4c5200119c6b6e2c75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rhythmbox-af \

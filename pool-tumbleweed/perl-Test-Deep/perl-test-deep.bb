@@ -21,13 +21,14 @@ structures \
 Test::Deep has *_a lot_* of exports. See EXPORTS below."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.204"
+PV = "1.205.0"
 
-RPM_NAME = "perl-Test-Deep-1.204-1.3.noarch.rpm"
-RPM_HASH = "9ac5c5a4d2aa4dff2f71c82fbe0a9990cd0c9a731d04b14f1e7713e1b71a51e2d1fc13a68cce7a54d23cb1fde75fdf956d9a2f7fb57ad8170a53cf5d40344cf6"
+RPM_NAME = "perl-Test-Deep-1.205.0-1.8.noarch.rpm"
+RPM_HASH = "543d407a3a7c1c37820f75ba8f9b378fd3baed5505b430346315d0defd054072d128345f2c81d3d227927a755eb11c5f1c715ff610a139e710072c1178589c39"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl-Test--Deep \
+RPROVIDES:${PN} += "perl-Over \
+perl-Test--Deep \
 perl-Test--Deep--All \
 perl-Test--Deep--Any \
 perl-Test--Deep--Array \
@@ -70,18 +71,10 @@ perl-Test--Deep--Set \
 perl-Test--Deep--Shallow \
 perl-Test--Deep--Stack \
 perl-Test--Deep--String \
-perl-Test--Deep--SubHash \
-perl-Test--Deep--SubHashElements \
-perl-Test--Deep--SubHashKeys \
-perl-Test--Deep--SubHashKeysOnly \
-perl-Test--Deep--SuperHash \
-perl-Test--Deep--SuperHashElements \
-perl-Test--Deep--SuperHashKeys \
-perl-Test--Deep--SuperHashKeysOnly \
 perl-Test-Deep"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Test--More \
-perl-Test-Simple"
+perl-Test--Simple"
 
 inherit rpm

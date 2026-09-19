@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.3.0"
 
-RPM_NAME = "kim-api-examples-2.3.0-1.9.aarch64.rpm"
-RPM_HASH = "1e1c6574010ce3097d33b05edabd6fc93a739f06fb45be57a420d283dacd17df6766700291598ec5c07be1d992a6970e3c69fc31ceb4c6ed90d52ecb582ca13e"
+RPM_NAME = "kim-api-examples-2.3.0-2.9.aarch64.rpm"
+RPM_HASH = "d34dbf29dd7cd4397ae6c864fec67648dd2f47ccee512737774ab006e7ba15c1b0801911aea143778d51fcee14b252090bee33ff88fcf5cc978fcbe387bb0d99"
 
 RPROVIDES:${PN} += "kim-api-examples \
 libkim-api-model-driver.so \

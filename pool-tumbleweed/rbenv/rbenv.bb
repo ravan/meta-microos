@@ -16,10 +16,10 @@ In contrast with rvm, rbenv does not… \
 - Prompt you with warnings when you switch to a project. Instead of executing arbitrary code, rbenv reads just the version name from each project. There's nothing to 'trust.'"
 LICENSE = "MIT"
 
-PV = "1.2.0"
+PV = "1.3.2"
 
-RPM_NAME = "rbenv-1.2.0-1.4.noarch.rpm"
-RPM_HASH = "93f53f7d728caba1a7b2f721b79bdfac0b322f7bf295692f9291a82e8dd8594ba710d1126ea675690bcb62cc03e3e021445f39aa6621ae65388a1655f9735514"
+RPM_NAME = "rbenv-1.3.2-1.6.noarch.rpm"
+RPM_HASH = "dc962593992571bf89240c9690c748d2966d6857a42cd21d308aec37f913edf2655d2101c92c09a42df096b41c22a910ce28b96a17c3e861f8878aea49e625e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rbenv"

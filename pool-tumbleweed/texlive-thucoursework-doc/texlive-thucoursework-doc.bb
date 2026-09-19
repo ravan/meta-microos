@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-thucoursework"
 DESCRIPTION = "This package includes the documentation for texlive-thucoursework"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.6svn56435"
+PV = "2026.227.2.6svn56435"
 
-RPM_NAME = "texlive-thucoursework-doc-2023.209.2.6svn56435-55.1.noarch.rpm"
-RPM_HASH = "bc042d2d31b2b731baf7c235ada5dd12eb1f0745aefc36b6ab9ca7c8021c6915a52dc3142a8a2b63b08b4d2827544dd0bf8172117799397efbd6765197b34fc1"
+RPM_NAME = "texlive-thucoursework-doc-2026.227.2.6svn56435-62.2.noarch.rpm"
+RPM_HASH = "6e407ab12122cdc0cda0e5e4d0fe0d0abe9c4bfe5a771a7bdadb475c1aff018ce7b559e117a822d7c7d3977d3271b8ab99ba4890eeecfa02a8f81bc2e773862a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-thucoursework-doc-zh \

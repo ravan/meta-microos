@@ -6,13 +6,14 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.10.0"
 
-RPM_NAME = "oping-1.10.0-1.20.aarch64.rpm"
-RPM_HASH = "924baba981da9a7cbad98b456628f43714f5af7abc224584f19328ac4ad7f46dcfc92e728950e3e91d9d78b81bb4277cd0fbdb7310c1dcf840f38c3b6366050f"
+RPM_NAME = "oping-1.10.0-2.15.aarch64.rpm"
+RPM_HASH = "93c0cec1f9389024890edb4fe1df225d9e1f801b4fbdfd44f1875810f239a3cb3afb936fc0a23948f02666e9c1cdb32386d773cb83ba3c79917479a118851e2a"
 
 RPROVIDES:${PN} += "oping"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libm.so.6 \
 liboping \
 liboping.so.0"
 

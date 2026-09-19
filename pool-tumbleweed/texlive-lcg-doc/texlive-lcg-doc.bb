@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lcg"
 DESCRIPTION = "This package includes the documentation for texlive-lcg"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn31474"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-lcg-doc-2023.209.1.3svn31474-55.1.noarch.rpm"
-RPM_HASH = "564d947f6544f0c2b1b250e77effcb1ec6a8032f973cb32af5f1e86034bc0d63e2d4ebc03d787a3fd6e2c93885662cecd0e1cb9eabdadef3834b1ebdc2055e5b"
+RPM_NAME = "texlive-lcg-doc-2026.226.1.3svn77682-61.2.noarch.rpm"
+RPM_HASH = "c34c8b73c71b3427a0d6ef5d8ad5356c968849acc1ca745bae6c342751b7deb95b333b6bd16549bbcc4a31f7535e2894767cd925ebb7350b7cc9579eb9a4247c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lcg-doc"

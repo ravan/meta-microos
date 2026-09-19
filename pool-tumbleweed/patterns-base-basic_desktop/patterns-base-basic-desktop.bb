@@ -1,11 +1,11 @@
-SUMMARY = "A very basic desktop (previously part of x11 pattern)"
+SUMMARY = "A basic desktop (based on IceWM)"
 DESCRIPTION = "This pattern installs a rather basic desktop (icewm)"
 LICENSE = "MIT"
 
-PV = "20200505"
+PV = "20241218"
 
-RPM_NAME = "patterns-base-basic_desktop-20200505-42.1.aarch64.rpm"
-RPM_HASH = "20d25c6ca63da042e3ca26aef1e024b25b61b513615afdb800d20e198c485a67f3626882efacddeab68b02e17c4c2d7e89fad1839fa3ae5c6f19ed4aebbdb145"
+RPM_NAME = "patterns-base-basic_desktop-20241218-34.1.aarch64.rpm"
+RPM_HASH = "0e0f62697cd5b292068d437c330d83eb81a5b1b4cd69763738ebbc5d3537f3bcd1a9229057f752e0377c0852d8b2cce6950dff330ed49b3de90f7a0ff01eb8f3"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

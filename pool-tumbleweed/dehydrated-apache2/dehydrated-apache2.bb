@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "dehydrated-apache2-0.7.1-1.3.noarch.rpm"
-RPM_HASH = "cba1de641faacbbdee01f633b27c002416cce1e51482732e1ef9495f260b62e04dc632a0b48a1f39781cd464b040a7cb7a73a2e20f29e2e48fec205c3bc2e52d"
+RPM_NAME = "dehydrated-apache2-0.7.1-3.8.noarch.rpm"
+RPM_HASH = "f28dd397b295f640382d69fc5e0d0330adfed8ac2cba60d560acd00cdd35c6e1a5f1160d6ea2c1b9bf4ea03e7b02ad46a334fe96191f73bb329e415324a73ce9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-dehydrated-apache2 \

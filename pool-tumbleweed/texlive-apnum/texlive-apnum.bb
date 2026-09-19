@@ -12,10 +12,10 @@ optimizations and uses only TeX primitives (from classic TeX) \
 and \\newcount macro."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.7svn47510"
+PV = "2026.226.1.7svn47510"
 
-RPM_NAME = "texlive-apnum-2023.209.1.7svn47510-55.1.noarch.rpm"
-RPM_HASH = "5bc2354afe001cd5c39a478c5f8c7e2f8c0c5a9b1514c403da94f3a36e3711f13a04767a06fe9b2048c6b4d303660b59d7c6375bab28da1a91f974d36864fe27"
+RPM_NAME = "texlive-apnum-2026.226.1.7svn47510-61.2.noarch.rpm"
+RPM_HASH = "306df39ed1ba912744895a3e692c967e10a8f66fe5052aba969e66935a6bdd80fc082193a9d47a284df316415a076b94de84aab15131b20de9f0784ac05a4184"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-apnum.tex \

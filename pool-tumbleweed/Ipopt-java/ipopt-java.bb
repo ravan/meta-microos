@@ -2,10 +2,10 @@ SUMMARY = "Java bindings for Ipopt"
 DESCRIPTION = "This package provides the java bindings for Ipopt in a jar file."
 LICENSE = "EPL-2.0"
 
-PV = "3.14.12"
+PV = "3.14.19"
 
-RPM_NAME = "Ipopt-java-3.14.12-1.2.noarch.rpm"
-RPM_HASH = "0446ed39c6a761821cfd5b3cd9900f5e1e5a54911af98d4ee3693f8a399f478d003a1ccc768db7a04a003ac45c5f3eb7fc4f6cfa894d3f8fd83841c74440d065"
+RPM_NAME = "Ipopt-java-3.14.19-1.7.noarch.rpm"
+RPM_HASH = "a2b650fd096d85cc75e7cefac4d707ec8828da8e0385d4bda3eb05789a0363f2b3d91b077f0ff2f2110979a8d550ba783704f1990012883dbaaaea15979d8385"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Ipopt-java"

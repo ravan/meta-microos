@@ -1,29 +1,26 @@
 SUMMARY = "Library for KDE Games: Build Environment"
 DESCRIPTION = "This package contains all necessary files and libraries needed to \
 develop KDE games."
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libkdegames-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "d96decc56e161819c70a104788f9e5623ed27378cc5679f0218f7a24f3ce5d1a94eedd8f8741f65aa0a39684ae4400d1c9d44e2ae07246e383e087bf915d3d4e"
+RPM_NAME = "libkdegames-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "845de6ffa2f3c706c47fc4fc0df9974e43a6522ca1afdd8e329b55e8a2f7d7f63511721fce6c01fff6a158c2523314a765649b4cc9bc690a15e30085dbf58465"
 
-RPROVIDES:${PN} += "cmake-KF5KDEGames \
-libkdegames-devel \
-libkdegames-kf5-devel"
+RPROVIDES:${PN} += "cmake-KDEGames6 \
+libkdegames-devel"
 
-RDEPENDS:${PN} += "cmake-KF5Completion \
-cmake-KF5Config \
-cmake-KF5ConfigWidgets \
-cmake-KF5I18n \
-cmake-KF5WidgetsAddons \
-cmake-Qt5Network \
-cmake-Qt5Qml \
-cmake-Qt5QuickWidgets \
-cmake-Qt5Widgets \
-cmake-Qt5Xml \
-libKF5KDEGames7 \
-libsndfile-devel \
-openal-soft-devel"
+RDEPENDS:${PN} += "cmake-KF6Completion \
+cmake-KF6Config \
+cmake-KF6ConfigWidgets \
+cmake-KF6I18n \
+cmake-KF6WidgetsAddons \
+cmake-Qt6Network \
+cmake-Qt6Qml \
+cmake-Qt6QuickWidgets \
+cmake-Qt6Widgets \
+cmake-Qt6Xml \
+libKDEGames6"
 
 inherit rpm

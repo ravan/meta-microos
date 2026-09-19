@@ -8,10 +8,10 @@ package is compatible with array, colortab, longtable, and \
 colortbl."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.76svn50084"
+PV = "2026.226.1.76svn77682"
 
-RPM_NAME = "texlive-arydshln-2023.209.1.76svn50084-54.1.noarch.rpm"
-RPM_HASH = "1faa9d8e54abb7fef4cd2f885a156d64714a1a5a366406a5d30b499a00a940826df001282932e895a42add466477baae8b055ccb911f8b3882d419dde483e111"
+RPM_NAME = "texlive-arydshln-2026.226.1.76svn77682-60.2.noarch.rpm"
+RPM_HASH = "86c0a41fce1cc5317bf1241907b63ecaccc5d5f1cd28db63b95827a125b6f6d3cbfbf7fb94509a900fadfae7787dd6168ae0bfe4b093c35db3d0fd7a901cbdcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arydshln.sty \

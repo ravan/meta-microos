@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.8"
 
-RPM_NAME = "oro-javadoc-2.0.8-297.7.noarch.rpm"
-RPM_HASH = "e8cc5d4d0253ac90024587a9489cf393219a3d3acac6e638e05be89865929e35a8fbe4f08a2bcfead803590ca5faa477b875e0700961a2f314cfd129f45d0d5b"
+RPM_NAME = "oro-javadoc-2.0.8-298.8.noarch.rpm"
+RPM_HASH = "9a9c79061e537ff3d787f213cae9adb77b4150b2626753666487cbccdf11535698437ff372206c0d6c777e1c35f94de669b715b5d4c3defc111b7f55ef65d466"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oro-javadoc"

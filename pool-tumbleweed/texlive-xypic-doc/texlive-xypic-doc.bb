@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xypic"
 DESCRIPTION = "This package includes the documentation for texlive-xypic"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.8.9svn61719"
+PV = "2026.226.3.8.9svn78101"
 
-RPM_NAME = "texlive-xypic-doc-2023.209.3.8.9svn61719-53.2.noarch.rpm"
-RPM_HASH = "1e1271a29b6b13ab11f7625f04fb222c5b28a6374812fef705aee32ed28bd3eb28524f5cdd80346e7f70ea78996a3d7e7b37f55d2c80ef8e850067ef39b19ac1"
+RPM_NAME = "texlive-xypic-doc-2026.226.3.8.9svn78101-59.4.noarch.rpm"
+RPM_HASH = "d5447d6f9c1f102f3e3b054172cc2e9eef290e8915e1e87840057cc9b16f89d2371843e0fcaab4d1bf9031fa7167c8d84ef4781d9b37cecce1261b62fdb3485c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xypic-doc-en \

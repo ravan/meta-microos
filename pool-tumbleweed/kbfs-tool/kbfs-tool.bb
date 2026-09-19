@@ -4,10 +4,10 @@ A thin command line utility for interacting with the Keybase Filesystem \
 without using a filesystem mountpoint."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.2.2"
+PV = "6.6.3"
 
-RPM_NAME = "kbfs-tool-6.2.2-2.1.aarch64.rpm"
-RPM_HASH = "45eac7bfddf2ad21c40f3a5080bddf8ceff1681199dfb3feb30cd82eae1ad976aff3264995c5a0e8fdc52bb24490e14b522a39385b0bf8a0c6b31c1639ab0986"
+RPM_NAME = "kbfs-tool-6.6.3-4.1.aarch64.rpm"
+RPM_HASH = "3c36ef07a62333c64fc118cce01353cdb658cd71598d98d228bfb7216da59253668d660308485d283a51215ab6c1acfde255ace009337ff219ca1b4af266c619"
 
 RPROVIDES:${PN} += "kbfs-tool"
 

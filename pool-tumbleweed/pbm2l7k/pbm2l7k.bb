@@ -8,12 +8,12 @@ Lexmark printers 7000, 7200, and 5700. \
 Authors: \
 -------- \
     Henryk Paluch <paluch@bimbo.fjfi.cvut.cz>"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "990321"
 
-RPM_NAME = "pbm2l7k-990321-950.25.aarch64.rpm"
-RPM_HASH = "fbebd6aea4790618a12d29555370e3594bca128c1aefa5eb3f83b76bf7b675e4510dfb0f8b796e457c5c42bf8fe28ab719d26ff69a6e1d6e635b69d2c20b84ce"
+RPM_NAME = "pbm2l7k-990321-951.11.aarch64.rpm"
+RPM_HASH = "3529f66aec4f5bf51c2b319cdf3611b1894cd78529dfa95c67ff762abbf811d4ff2f9e52412a1de615d58392f066eb41a30d8dc8af91325959dbc5bff79b9cee"
 
 RPROVIDES:${PN} += "lexmark7000linux \
 pbm2l7k"

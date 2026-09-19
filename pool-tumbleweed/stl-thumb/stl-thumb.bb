@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.5.0~0"
 
-RPM_NAME = "stl-thumb-0.5.0~0-3.2.aarch64.rpm"
-RPM_HASH = "78bfa961114632b2ce23d3997c0e81408e74af68fcdd5756442b0db2598b2d4364f3b4d93a883d2175dac9293ebea506d2ea830348f7a69ccc09bd5d36d44e14"
+RPM_NAME = "stl-thumb-0.5.0~0-3.17.aarch64.rpm"
+RPM_HASH = "54f4b27a0d051185a30d4aca4ac85d34b74d7a1dc3b0f35f4efbe51932e4e70acbcd2f043e18bc51eb82743406b0a9c9298d198ddd65b3e3454573cce375f599"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \

@@ -4,16 +4,16 @@ LICENSE = "MIT"
 
 PV = "0.1.1.3"
 
-RPM_NAME = "ghc-setenv-devel-0.1.1.3-12.3.aarch64.rpm"
-RPM_HASH = "ca9dd5701b13cec8116885ecfe3b73602aa30bc01e3c1d956dec8dedc9478429c8caa585815328e87670f5b1baf94a74a0bcf3e5ebcac66f2af9bcf744379c25"
+RPM_NAME = "ghc-setenv-devel-0.1.1.3-12.23.aarch64.rpm"
+RPM_HASH = "2f561548f7b052dba1d069aa75d57f744b2eb51903bd129ad009d83cbe9b1b220026076eae160ed2875e06f5b9745d6f5e1ed407562b9b86b94d6989c784fb42"
 
-RPROVIDES:${PN} += "ghc-devel-setenv-0.1.1.3-5X2tG8kGRXiEiTQvekWgx7 \
+RPROVIDES:${PN} += "ghc-devel-setenv-0.1.1.3-DGkCIo7XRqzD68Dz6COumh \
 ghc-setenv-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-unix-2.7.3 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-unix-2.8.8.0-178a \
 ghc-setenv"
 
 inherit rpm

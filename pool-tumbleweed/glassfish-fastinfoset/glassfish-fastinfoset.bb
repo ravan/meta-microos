@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.15"
 
-RPM_NAME = "glassfish-fastinfoset-1.2.15-6.1.noarch.rpm"
-RPM_HASH = "2ff93f9cf0ceb6ecababcec9b13cf25cb348e803dbddfd2f19fa5dc45c826731d4b747dff722e4350924a770e5d5481bcfa7c08440e6e71d190d0e873c03b2d9"
+RPM_NAME = "glassfish-fastinfoset-1.2.15-9.4.noarch.rpm"
+RPM_HASH = "7852d1a0cc9af60428774a43e46d3356910b73017b4a9b0ee99fb879ef2dcb291d5a54431687a34628672a1f7a391b960f9f2fc719bb2609d8c46f74cf7796fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-fastinfoset \
@@ -24,6 +24,7 @@ osgi-com.sun.xml.fastinfoset.FastInfoset"
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-com.sun.xml.stream.buffer-streambuffer \
-mvn-com.sun.xsom-xsom"
+mvn-com.sun.xsom-xsom \
+xmlstreambuffer"
 
 inherit rpm

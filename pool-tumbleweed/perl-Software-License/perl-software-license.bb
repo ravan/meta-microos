@@ -2,10 +2,10 @@ SUMMARY = "Packages that provide templated software licenses"
 DESCRIPTION = "packages that provide templated software licenses"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.104004"
+PV = "0.104007"
 
-RPM_NAME = "perl-Software-License-0.104004-1.3.noarch.rpm"
-RPM_HASH = "4241f2887129f198dd5d354a05c8e78129c469ace038c8bc9da9b447b93b7ca3a448139cde42b6a69526c6c461e4409785f82ee967ab7ec56b56f44156c7bc48"
+RPM_NAME = "perl-Software-License-0.104007-1.7.noarch.rpm"
+RPM_HASH = "2fe8862ca4b45ee75aa685112a64485413023fe15490debf83e1e349d96d1b96e0655322f57e5a8bfa06faa9ac46730b8971dd1cba7f3884e501add756cc57ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Software--License \
@@ -44,7 +44,7 @@ perl-Software--License--Zlib \
 perl-Software--LicenseUtils \
 perl-Software-License"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Data--Section \
 perl-Module--Load \
 perl-Text--Template \

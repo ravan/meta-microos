@@ -2,10 +2,10 @@ SUMMARY = "Documentation for OpenStack oslo.rootwrap"
 DESCRIPTION = "Documentation for the OpenStack oslo.rootwrap library."
 LICENSE = "Apache-2.0"
 
-PV = "7.0.1"
+PV = "7.10.0"
 
-RPM_NAME = "python-oslo.rootwrap-doc-7.0.1-1.3.noarch.rpm"
-RPM_HASH = "a0df4fc1d6a324816e8db1fdacee68606288a1eac407ac30a3c1736dde0e7647e72e88de05e9286599264956105fcab86eaab181ce1f5dccd60b57960ab42ab1"
+RPM_NAME = "python-oslo.rootwrap-doc-7.10.0-1.1.noarch.rpm"
+RPM_HASH = "aec1eeb1de915ce9fb9b83fed1f18716f038b914e4999c594fe97f2d3bf1dd6944f00df5de9708f7ce25aae1ec96699cabf4d6bbd5a04152006ca4056808090d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.rootwrap-doc"

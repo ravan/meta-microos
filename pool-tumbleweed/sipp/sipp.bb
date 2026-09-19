@@ -5,10 +5,10 @@ dynamic adjustement of call-rate and a comprehensive set of real-time \
 statistics."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.6.1"
+PV = "3.7.7"
 
-RPM_NAME = "sipp-3.6.1-1.15.aarch64.rpm"
-RPM_HASH = "ea55c430d41370f2ea21f1adcbf81733d62f7c7d16abb7506d217ba90e6b46c2d0bcc3d5f615313fb9bc5a6de6a231e34dc9d85c08b19e3bc948f576ef567866"
+RPM_NAME = "sipp-3.7.7-1.5.aarch64.rpm"
+RPM_HASH = "d926a8f936af1259a46792a900d171f9d6b2dfab025338d8172fdfe95305aa670bb118a6f6babd9b2ec3656e49cf58a226aa9976f241a270822e2310fe4ccaaf"
 
 RPROVIDES:${PN} += "sipp"
 
@@ -16,7 +16,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
 libm.so.6 \
 libncursesw.so.6 \

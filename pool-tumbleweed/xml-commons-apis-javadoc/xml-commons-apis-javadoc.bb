@@ -1,11 +1,11 @@
 SUMMARY = "Javadoc for xml-commons-apis"
 DESCRIPTION = "Javadoc for xml-commons-apis."
-LICENSE = "Apache-2.0 & W3C & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & W3C & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.4.01"
 
-RPM_NAME = "xml-commons-apis-javadoc-1.4.01-4.7.noarch.rpm"
-RPM_HASH = "3bf8fc97d8da766a8c2b4ecb736f7e908d0a2339a02073f7fa77f06890c11b9bb1dbcfebcdd91e23104386bd8ee53ebd221228282372b3e37b5de2899d98dc7f"
+RPM_NAME = "xml-commons-apis-javadoc-1.4.01-7.3.noarch.rpm"
+RPM_HASH = "09b925ca45e844a33c303ad41eb94bf22ea514294f4802a741ae615083f80968ae3019dc04ff9605837c7cf75e0cb12ab440a15f8483be8082cb59f38cf0b817"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xml-commons-apis-javadoc"

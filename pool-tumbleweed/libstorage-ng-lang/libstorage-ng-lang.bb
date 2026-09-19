@@ -2,10 +2,10 @@ SUMMARY = "Languages for package libstorage-ng"
 DESCRIPTION = "Provides translations to the package libstorage-ng"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.5.141"
+PV = "4.5.352"
 
-RPM_NAME = "libstorage-ng-lang-4.5.141-1.1.noarch.rpm"
-RPM_HASH = "0ab52c316a4cb57fadaff8b150b261bfb08958a1e870725b54da2ffbf98e7d53e672c9231024a40549cefd1ebb926d7620c9c911d9107782a748a4006392911d"
+RPM_NAME = "libstorage-ng-lang-4.5.352-1.1.noarch.rpm"
+RPM_HASH = "929c99a0c3982900a85a979aefea674f7fd46329d1c49187f0868b32d5acb376d00944397283674fc4fe5f7fac1c97be5ccbaab7f7030904be4320efadfb1f71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libstorage-ng-lang \

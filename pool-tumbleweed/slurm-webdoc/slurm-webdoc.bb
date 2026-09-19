@@ -2,10 +2,10 @@ SUMMARY = "Set up SLURM Documentation Server"
 DESCRIPTION = "Set up HTTP server for SLURM configuration."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.4"
+PV = "25.11.2"
 
-RPM_NAME = "slurm-webdoc-23.02.4-2.1.noarch.rpm"
-RPM_HASH = "95900cfa4705939da524f99f641b7d0eb709b463cb3adf93574410a3fe5d08c0c01f10c16e8228575731e6beb8cd2c31b9f6cb38613d43529fe7f6b7607a3a72"
+RPM_NAME = "slurm-webdoc-25.11.2-1.6.noarch.rpm"
+RPM_HASH = "2f8c9f0139871d35ea416022ae9af78efd134fc6badb367e3afaa118349637e717608ed0ae105ef97db9dcba2827cf2f00fb14a1d718797e16b17fd3abf342f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-slurm-webdoc \

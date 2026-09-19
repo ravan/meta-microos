@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Ethiopic sc
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-ethiopic-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "53081fbf8d54f2763ed1f40b5fcfa551d2d818853eff9e8151043390a59de5d225afd9bb022761e6632067cd3acb25956e87d590207935af6d0143d8608fb9b1"
+RPM_NAME = "tesseract-ocr-traineddata-script-ethiopic-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "669fe0d5be302fdccd5f904edaa8c0bf1a5b9b5d521caf1c664f82207e1240fbb2dedf3ff8198bcd539ecf51169082eeb46ca849630e056c4d3efc49de629dea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-ethiopic"

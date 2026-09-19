@@ -4,10 +4,10 @@ LuaLaTeX and XeLaTeX; it relies on the fontspec package, \
 version 2.0 at least."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.60svn65792"
+PV = "2026.226.2.9svn76990"
 
-RPM_NAME = "texlive-polyglossia-2023.209.1.60svn65792-53.1.noarch.rpm"
-RPM_HASH = "707b584de27ebc3eddfb3e72f7f1959ee4f0304de04b96f2d06905c8bf528c16e39f441c3958717a9c7bc009308b697dd1edef6d871daa723c96dd20ff0338fa"
+RPM_NAME = "texlive-polyglossia-2026.226.2.9svn76990-59.2.noarch.rpm"
+RPM_HASH = "663b676f1a06e767f30f2eff7ec318cb155d2bf1f56a83210412ddcb545fd3a186bcdd8fc8239dd01a5aa6afa17fd37472c58dbe6f14c72a2400ec658763eb18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arabicdigits.map \
@@ -21,7 +21,7 @@ tex-devanagaridigits.map \
 tex-devanagaridigits.sty \
 tex-farsical.sty \
 tex-farsidigits.map \
-tex-gloss-acadien.ldf \
+tex-gloss-acadian.ldf \
 tex-gloss-aeb.ldf \
 tex-gloss-af.ldf \
 tex-gloss-afb.ldf \
@@ -75,6 +75,8 @@ tex-gloss-chinese.ldf \
 tex-gloss-ckb-Arab.ldf \
 tex-gloss-ckb-Latn.ldf \
 tex-gloss-ckb.ldf \
+tex-gloss-classicallatin.ldf \
+tex-gloss-classiclatin.ldf \
 tex-gloss-cop.ldf \
 tex-gloss-coptic.ldf \
 tex-gloss-croatian.ldf \
@@ -107,6 +109,8 @@ tex-gloss-divehi.ldf \
 tex-gloss-dsb.ldf \
 tex-gloss-dutch.ldf \
 tex-gloss-dv.ldf \
+tex-gloss-ecclesiasticallatin.ldf \
+tex-gloss-ecclesiasticlatin.ldf \
 tex-gloss-el-monoton.ldf \
 tex-gloss-el-polyton.ldf \
 tex-gloss-el.ldf \
@@ -129,6 +133,7 @@ tex-gloss-fa.ldf \
 tex-gloss-farsi.ldf \
 tex-gloss-fi.ldf \
 tex-gloss-finnish.ldf \
+tex-gloss-fr-CA-u-sd-canb.ldf \
 tex-gloss-fr-CA.ldf \
 tex-gloss-fr-CH.ldf \
 tex-gloss-fr-FR.ldf \
@@ -186,10 +191,8 @@ tex-gloss-la-x-ecclesia.ldf \
 tex-gloss-la-x-medieval.ldf \
 tex-gloss-la.ldf \
 tex-gloss-lao.ldf \
+tex-gloss-latex.ldf \
 tex-gloss-latin.ldf \
-tex-gloss-latinclassic.ldf \
-tex-gloss-latinecclesiastic.ldf \
-tex-gloss-latinmedieval.ldf \
 tex-gloss-latvian.ldf \
 tex-gloss-lithuanian.ldf \
 tex-gloss-lo.ldf \
@@ -202,6 +205,7 @@ tex-gloss-magyar.ldf \
 tex-gloss-malay.ldf \
 tex-gloss-malayalam.ldf \
 tex-gloss-marathi.ldf \
+tex-gloss-medievallatin.ldf \
 tex-gloss-mk.ldf \
 tex-gloss-ml.ldf \
 tex-gloss-mn.ldf \
@@ -217,6 +221,8 @@ tex-gloss-norwegian.ldf \
 tex-gloss-nswissgerman.ldf \
 tex-gloss-nynorsk.ldf \
 tex-gloss-occitan.ldf \
+tex-gloss-odia.ldf \
+tex-gloss-or.ldf \
 tex-gloss-pa.ldf \
 tex-gloss-persian.ldf \
 tex-gloss-piedmontese.ldf \
@@ -264,6 +270,8 @@ tex-gurmukhidigits.sty \
 tex-hebrewcal.sty \
 tex-hijrical.sty \
 tex-nkonumbers.sty \
+tex-odiadigits.map \
+tex-odiadigits.sty \
 tex-polyglossia.sty \
 tex-thaidigits.map \
 tex-xgreek-fixes.def \
@@ -279,15 +287,9 @@ sed \
 tex-bidi.sty \
 tex-calc.sty \
 tex-etoolbox.sty \
-tex-expl3.sty \
 tex-fontspec.sty \
 tex-iftex.sty \
-tex-l3keys2e.sty \
 tex-luabidi.sty \
-tex-luatexbase.sty \
-tex-makecmds.sty \
-tex-xkeyval.sty \
-tex-xparse.sty \
 texlive \
 texlive-etoolbox \
 texlive-filehook \

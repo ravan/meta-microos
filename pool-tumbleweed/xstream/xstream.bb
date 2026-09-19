@@ -19,10 +19,10 @@ When an exception occurs due to malformed XML, detailed diagnostics \
 are provided to help isolate and fix the problem."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.20"
+PV = "1.4.21"
 
-RPM_NAME = "xstream-1.4.20-3.1.noarch.rpm"
-RPM_HASH = "dacd209f235309cc22d4898320bd5cae214a56aa92dca54f9d904143f02a284e258dc6d685b0d04923f143a428bb9d667f3c101f6e445aa750951cdf6c5c4600"
+RPM_NAME = "xstream-1.4.21-1.6.noarch.rpm"
+RPM_HASH = "5968e3eaab1c30b10b1078695c4af29a9c31eaf07ab31090019aaca2549b417f19c07cfe9b6912852165e3ea5b3ccc42e470e575f172b161645886e7499d93ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.thoughtworks.xstream-xstream \

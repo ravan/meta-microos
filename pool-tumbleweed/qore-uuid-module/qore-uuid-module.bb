@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later | MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "qore-uuid-module-1.4.1-1.2.aarch64.rpm"
-RPM_HASH = "b21fe46ef25a1b796a1897a719b3d35a4ebd5dfb43c37843aa533c9ec5e2e8d5f5bca98e4a289a2971db06439f580ae67986378edadaddab911f030f05031912"
+RPM_NAME = "qore-uuid-module-1.4.1-3.5.aarch64.rpm"
+RPM_HASH = "bb9967d5c1dc47d5a83806abc92e5172ec964309ffe8afa17f5896181da2faeca8c8b2c01fd93760d4bf2a39eff005f1fd27a620f8edc614b14a0a85f30b8abd"
 
 RPROVIDES:${PN} += "qore-uuid-module"
 

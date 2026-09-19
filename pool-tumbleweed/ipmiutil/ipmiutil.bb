@@ -11,10 +11,10 @@ or the Intel IPMI driver (/dev/imb), etc.  If used locally and no driver is \
 detected, ipmiutil will use user-space direct I/Os instead."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.8"
+PV = "3.2.2"
 
-RPM_NAME = "ipmiutil-3.1.8-1.5.aarch64.rpm"
-RPM_HASH = "519e317cd0b89383d22e51d98a1b6aa7eae5f709dd02e3d53a3b712a4da122779d511c70fe2b255f39b121b5681b7f79fa27666ccbc7b0c4b8aeed37d8f40733"
+RPM_NAME = "ipmiutil-3.2.2-1.4.aarch64.rpm"
+RPM_HASH = "129f3ea973069ff8f394485c773bb8816751e5cdbd7854d630c8053954c0b6a0996c536d512a2ab06e880d966e31db70f823feb8cab80267f7f87b0ab493fb8e"
 
 RPROVIDES:${PN} += "ipmiutil"
 

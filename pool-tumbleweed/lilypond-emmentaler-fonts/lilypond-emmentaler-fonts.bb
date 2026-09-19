@@ -5,10 +5,10 @@ files. \
 These are the lilypond emmentaler fonts."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.24.2"
+PV = "2.24.4"
 
-RPM_NAME = "lilypond-emmentaler-fonts-2.24.2-1.1.noarch.rpm"
-RPM_HASH = "9fc354048c7307674d015a890d9e7afa930560834ee8ec9635004154a4b5ad7a7f5257e8456bb87a4cffbebea4df7c5e52a3874d2d49de1f20707708a994ec27"
+RPM_NAME = "lilypond-emmentaler-fonts-2.24.4-1.19.noarch.rpm"
+RPM_HASH = "c7b50b486ee331c4d2b2c61af366b19cbc1d238b9f2c22ac3e9a8299d2b629f5ee25e1dd20949d747dc4a20d19badee2f501450e9aa2ca802484bbfec410166f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-emmentaler-11 \

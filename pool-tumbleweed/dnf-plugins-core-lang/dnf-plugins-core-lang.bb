@@ -2,10 +2,10 @@ SUMMARY = "Translations for package dnf-plugins-core"
 DESCRIPTION = "Provides translations for the 'dnf-plugins-core' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.1"
+PV = "4.10.1"
 
-RPM_NAME = "dnf-plugins-core-lang-4.3.1-2.2.noarch.rpm"
-RPM_HASH = "d590e7a029736a28ae68381c42942c4a4b32c98dddc9ec2a53cc6421ff5f014bfdcecb64eca781e0f92600d69798e4650c88edefc554f825ad29c25b0c895a07"
+RPM_NAME = "dnf-plugins-core-lang-4.10.1-1.6.noarch.rpm"
+RPM_HASH = "cddeeb4eecb2f4b62fc3d1e5dca4fb8f6f69711d6d21dd0b6753076b5bb01c2de99b3e4e241c310f90ec631af3b70745bc2c286ab3ca6c4ab93b567fe3411c37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-plugins-core-lang \

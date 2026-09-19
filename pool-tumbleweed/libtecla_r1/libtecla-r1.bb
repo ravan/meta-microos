@@ -10,8 +10,8 @@ LICENSE = "X11"
 
 PV = "1.6.3"
 
-RPM_NAME = "libtecla_r1-1.6.3-3.16.aarch64.rpm"
-RPM_HASH = "5f37811da2c8d0d0d7f66ad0309944959aec0caf1ce2e0eac8394dca53ce065b589b77e61a67728250b6ed147b5842098c5adc95e058f623082f957fe33c6286"
+RPM_NAME = "libtecla_r1-1.6.3-4.9.aarch64.rpm"
+RPM_HASH = "4ab8e0fa6ae0a99300d7674e8c55b0045e3e8244a452ea40e3903a0ff19d2337cf1ac4f3238d1a48dace93809ce182df1bbb631daca57b5d01cc7b2dc43a9cde"
 
 RPROVIDES:${PN} += "libtecla-r.so.1 \
 libtecla-r1"

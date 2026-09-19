@@ -15,17 +15,16 @@ reverse-polish notation saves numbers to a stack. Arguments to \
 mathematical operations (operands) are 'pushed' onto the stack until \
 the next operator is read in, which 'pops' its arguments off the stack \
 and 'pushes' its results back onto the stack."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GFDL-1.2-or-later & GPL-3.0-or-later"
 
-PV = "1.07.1"
+PV = "1.08.2"
 
-RPM_NAME = "bc-1.07.1-4.23.aarch64.rpm"
-RPM_HASH = "a6b26e02af690eb593d1cbadf19cceaeb46056306de3a5a12719849e562fcb5743d399dfebacf4f2ca6202d1b4e2519b9e54df5654110623b9663b922d0866e7"
+RPM_NAME = "bc-1.08.2-1.6.aarch64.rpm"
+RPM_HASH = "3b57294c0eb9043c8c4c3efff8e0e18af65004cca7a730c090aa12253f2336920632d91bc32761e084e393a43daf2d4156953115b8db7e8042737599ecdf53c4"
 
 RPROVIDES:${PN} += "bc"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libreadline.so.8"
 

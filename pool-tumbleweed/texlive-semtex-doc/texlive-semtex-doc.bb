@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-semtex"
 DESCRIPTION = "This package includes the documentation for texlive-semtex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.45svn56530"
+PV = "2026.226.0.0.45svn76924"
 
-RPM_NAME = "texlive-semtex-doc-2023.209.0.0.45svn56530-54.1.noarch.rpm"
-RPM_HASH = "9846ab2dfc08bdbf66839a055344d4d10de8b15de6b94cbfa44c0c43348197027bff8407185501ee80f2dc19cc2a960149bdc32d63c63a4847d445a2cf780cf1"
+RPM_NAME = "texlive-semtex-doc-2026.226.0.0.45svn76924-60.2.noarch.rpm"
+RPM_HASH = "0bc3c1e2bef348b2333f7a971c2cd223d83ebd6c1c7acf1bcfa24c88b4d48a43c7bbf0541d7a9bd9874d47df0db6a501955aa7a002f49d865828180bc6c1e44e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-semtex-doc"

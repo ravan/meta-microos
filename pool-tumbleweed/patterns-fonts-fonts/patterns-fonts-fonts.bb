@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-fonts-fonts-20170319-10.1.aarch64.rpm"
-RPM_HASH = "35038194cc854939db497abca04fb15d1cb97d44b07e33fc3af095c871ea2a120adb9ab0e705d6d875e831241d9b12c9d5ed7ee042d95129da8b4b767f5aeb98"
+RPM_NAME = "patterns-fonts-fonts-20170319-13.2.aarch64.rpm"
+RPM_HASH = "a08f6aa441f29ca07cf7f18d23d238464bb62602156cc0890344f69a35f4e09cffb652c06278350c44c93ee620f8b9e0f6724704945d66f0885ec76cb6ecedac"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -14,6 +14,10 @@ pattern-order- \
 pattern-visible- \
 patterns-fonts-fonts"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "dejavu-fonts \
+google-roboto-fonts \
+intlfonts-euro-bitmap-fonts \
+liberation-fonts \
+xorg-x11-fonts-core"
 
 inherit rpm

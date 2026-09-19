@@ -5,10 +5,10 @@ style file varvbtm.sty to provide set of macros for variants of \
 verbatim, such as tab emulation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn23996"
+PV = "2026.226.1.1svn23996"
 
-RPM_NAME = "texlive-newvbtm-2023.209.1.1svn23996-55.1.noarch.rpm"
-RPM_HASH = "a55a0535528ec79ace2eaa04775a29408799f93fe6e163bc5a39360385b1edcb1e970b25f54a19c52adb0594d6aff7bd60213f6037446294910a0585b5f7fa96"
+RPM_NAME = "texlive-newvbtm-2026.226.1.1svn23996-61.2.noarch.rpm"
+RPM_HASH = "7bfa79b2c2621a96803fa67c4e7627850f01ccd342c185530816d7a32065f4f28d688a8ce745f573da5d6f5bcaaf61914ad320684e6c18427e7add50eccf62cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-newvbtm.sty \

@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libcfile."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220106"
+PV = "20260704"
 
-RPM_NAME = "libcfile-devel-20220106-2.6.aarch64.rpm"
-RPM_HASH = "13ef536a1af3b30e87c520d3cef0a55b8a32ac42c3b17dc46695db9de2d86adcb497b144c9e52ab4a783469f3daa97fbec1405cdfd0318c84eb3ee2f8ec26ed1"
+RPM_NAME = "libcfile-devel-20260704-1.2.aarch64.rpm"
+RPM_HASH = "0549a82d5e44117522a4cc0b87e66260b06bc8c7f3950839c5b57fceb0672039068b5165f1013ff599a40f155881d58889acd9db2b5561dd9097207f84658a13"
 
 RPROVIDES:${PN} += "libcfile-devel \
 pkgconfig-libcfile"

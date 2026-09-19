@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "jnr-netdb-1.2.0-1.14.noarch.rpm"
-RPM_HASH = "1b38d335b04a357e778795e3fcdc8b1aae4c9c0b22f4b796381a0a36669c64d0bc980f7d60b5410768217bd6be842dd20e1188da79688cee4061ea494d011f9c"
+RPM_NAME = "jnr-netdb-1.2.0-1.23.noarch.rpm"
+RPM_HASH = "a0add69de8fc676002da6c9114be04569eaddc909b92a1d5064b0e96a2529d3918dc2464d7632430b7ba08fba349a7080d5194e4610fe0ad02ee722c9b276f5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-netdb \

@@ -4,10 +4,10 @@ layers 1,2 and 3 (most commonly MPEG 1.0 layer 3 aka MP3), as well as re-usable 
 and output libraries."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.31.3"
+PV = "1.33.7"
 
-RPM_NAME = "libsyn123-0-1.31.3-1.3.aarch64.rpm"
-RPM_HASH = "eb304b55e7e18fc25ed94d6e3d749e7cac94abd896980c36db56991420f8a77b1336552db09a1b24f160ec3d302e77b58b899e6207860c1dbd54713a15cd7f9f"
+RPM_NAME = "libsyn123-0-1.33.7-1.1.aarch64.rpm"
+RPM_HASH = "dc5eb491be726ff9de75e9a66c9591c39588a172abc3e053bbdcf1b1e9d881a2783f01786bcacabedb7c5b4e39e05ab9ce05115d5d090d164048699b400fd7e3"
 
 RPROVIDES:${PN} += "libsyn123-0 \
 libsyn123.so.0"

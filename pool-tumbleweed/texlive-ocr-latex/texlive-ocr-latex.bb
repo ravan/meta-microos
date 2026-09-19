@@ -3,10 +3,10 @@ DESCRIPTION = "The package supports use of both ocr-a and ocr-b fonts in LaTeX \
 documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-ocr-latex-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "35ddc43eec724adc7dfa5b61df6f55edd59d313e745cbc806ceb9bb7605e68501b6cc9a7e55c466f0ba6d62daa6371f1d3cccb33c6202d71f6b790991fc7b82b"
+RPM_NAME = "texlive-ocr-latex-2026.226.svn15878-61.2.noarch.rpm"
+RPM_HASH = "2663efe6b822fcbae3ef783307216cac2fa55f2deb8c67371ea99070db74a85365812ce4bd00b1680fa67158cfbc48f755274bbb36037321e5c5bccc2e85821f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ocr.sty \

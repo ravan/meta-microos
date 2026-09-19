@@ -1,11 +1,11 @@
 SUMMARY = "Qt6 Quick3DUtils library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Quick3DUtils library."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quick3dutils-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "8792073092ec36793b0ffe1a0827e0a1d7caf19cc50f91a8a5a689d4e72a42aa740c335732caba913a2e0cd06bbc472ba2cb1a5498cbc56d081bf293c1dc3859"
+RPM_NAME = "qt6-quick3dutils-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "e1dc4b207d985fdd118520528364b5af14f5f2564cdc1fb02fc16088689e3d50ef6ca09b309d19c7b7855e6b53e1286284001ebad1bc23958f370e6ee2b89dd6"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DUtils \
 pkgconfig-Qt6Quick3DUtils \

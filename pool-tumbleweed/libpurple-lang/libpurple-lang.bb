@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libpurple"
 DESCRIPTION = "Provides translations for the 'libpurple' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.14.12"
+PV = "2.14.14"
 
-RPM_NAME = "libpurple-lang-2.14.12-1.4.noarch.rpm"
-RPM_HASH = "ad13cb4e737a983f380bd8dcd450c7d6f88d782d3d10e328d1f07cfe3b136a9450cd4c64f18416e17ea4275446cc757fa8f79dd3f5efadae465294a456d538f2"
+RPM_NAME = "libpurple-lang-2.14.14-2.3.noarch.rpm"
+RPM_HASH = "cbf0db95afe1156e98d6ded818c66507300360d6163668778311b5809eea7813fc261d1bbde2729ed0bbca9ef0c49e9455f1cf038053e6c448b275055b1b31a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpurple-lang \

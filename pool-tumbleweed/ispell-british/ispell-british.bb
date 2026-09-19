@@ -6,10 +6,10 @@ is given in /usr/share/doc/packages/ispell/README. The sources for this \
 dictionary are included in the source package of ispell."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.4.05"
+PV = "3.4.06"
 
-RPM_NAME = "ispell-british-3.4.05-1.4.aarch64.rpm"
-RPM_HASH = "6d74810b0f7836383fae8e8c6e8b1a880fb7529c80815c4bded5b57ee6274a6860e3b7254783a9c1bd88d6b389cd668048cbf4c2c22e88a22f3fe83913667d5c"
+RPM_NAME = "ispell-british-3.4.06-5.1.aarch64.rpm"
+RPM_HASH = "8aa2314c551b3c60737c48accae1404985fff25b84e63cf7c568b0ba08ff1d16ca406692e0d9c63b1738cdc50ccbfcb9253e3690f642ee64ad468d93d1eb8538"
 
 RPROVIDES:${PN} += "ibritish \
 ispell-british \
@@ -19,6 +19,7 @@ locale-ispell-en-GB"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 bash \
-fileutils"
+fileutils \
+ispell"
 
 inherit rpm

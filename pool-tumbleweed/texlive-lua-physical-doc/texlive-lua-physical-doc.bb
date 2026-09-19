@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lua-physical"
 DESCRIPTION = "This package includes the documentation for texlive-lua-physical"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0.5svn59138"
+PV = "2026.226.1.0.5svn59138"
 
-RPM_NAME = "texlive-lua-physical-doc-2023.208.1.0.5svn59138-53.1.noarch.rpm"
-RPM_HASH = "540cc2273475bca108510a988ed3be6cb3c76c607307bbc4b1c3955bae3cc9b3be8885aa3adfaba1f2f5413f84ac1e22dbd90b3bdbf1b506314220849cb56804"
+RPM_NAME = "texlive-lua-physical-doc-2026.226.1.0.5svn59138-59.2.noarch.rpm"
+RPM_HASH = "1c214dbf05671d0147f2d43209521141fd6bf70cc3998880845c061c1e78be942b87003d4cb039bbb95a8684c75ba991a1248d1152adb2ac7a78fc13e9f4f74a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lua-physical-doc"

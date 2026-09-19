@@ -2,10 +2,10 @@ SUMMARY = "Userspace RDMA Connection Manager"
 DESCRIPTION = "librdmacm provides a userspace RDMA Communication Management API."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "47.0"
+PV = "63.0"
 
-RPM_NAME = "librdmacm1-47.0-3.1.aarch64.rpm"
-RPM_HASH = "30be2a47788cc375e8cfc64d43fab4d0f7f2bcfebbceb4a22f56d2a773a8ba15d5afc8482796fd081df0b043d1ac0f045efc1afbb5e6abafa6c9445969a906d6"
+RPM_NAME = "librdmacm1-63.0-1.3.aarch64.rpm"
+RPM_HASH = "acb8304a872e3a3dfa35199109cf46931ba7e52b59d2d53de714bccfa98bf80eb1af6d9eaaf3579ecd7ca20c39df9dfa9068de0552604fba62a89ec536ca73fe"
 
 RPROVIDES:${PN} += "librdmacm \
 librdmacm.so.1 \

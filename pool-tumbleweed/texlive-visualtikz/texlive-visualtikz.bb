@@ -4,10 +4,10 @@ image per command or parameter. The document is in French, but \
 will be translated into English later."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.65svn54080"
+PV = "2026.226.0.0.65svn54080"
 
-RPM_NAME = "texlive-visualtikz-2023.209.0.0.65svn54080-54.1.noarch.rpm"
-RPM_HASH = "c147d7fd136f20a5e1c8ad74b69e37b288398cfbcfee12661bd64b9731ccfccaa2ec29e4b7f2a52022a588d544b55ef872f9d750a0aa256c90f905fa3801616e"
+RPM_NAME = "texlive-visualtikz-2026.226.0.0.65svn54080-60.2.noarch.rpm"
+RPM_HASH = "76288c7d4a44fc2f1f88b188d72f1c24174fb718d989f9df0dd289805e4513a5daddebf4fe21810c49f0732ae5ab0e6245f262a1f197bca2fd68c9ff2721c996"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-visualtikz"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-clrscode"
 DESCRIPTION = "This package includes the documentation for texlive-clrscode"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn51136"
+PV = "2026.226.1.7svn51136"
 
-RPM_NAME = "texlive-clrscode-doc-2023.209.1.7svn51136-54.1.noarch.rpm"
-RPM_HASH = "7ff3073f73708ee3abdd3002e75428e4372e58b84602edb0d5cfd3e153ccd7ff5c8e30bf52e9ac1813ff12f398d01dc4e5c0c41f39165196f0f2df9df0d460e1"
+RPM_NAME = "texlive-clrscode-doc-2026.226.1.7svn51136-60.2.noarch.rpm"
+RPM_HASH = "b761577126436a7a4c5ffd9c50fb82fc429bb3d89fc71666788626af36a7cebc2789ab3fc059c356510a0bcbbee5371f21fee54f6f5dea8356801197e7df6b04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clrscode-doc"

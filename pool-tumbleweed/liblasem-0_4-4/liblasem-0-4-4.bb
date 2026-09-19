@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "liblasem-0_4-4-0.4.4-2.16.aarch64.rpm"
-RPM_HASH = "4718507e305e9ebc93fb104f562c26ab26efe0f5e2bc5d4106ae619a7fa6f87b76524cdb29f53cd51221cf8b6e3da15cd1a790547324e4a82c9b8983d48b55d4"
+RPM_NAME = "liblasem-0_4-4-0.4.4-4.14.aarch64.rpm"
+RPM_HASH = "183e8ee334e9951f971278313ca51098c1fae47767d04f20499ed9b77cb3a2defe1ece63d708c5295da29df99b1fab914abe07dcd7600dc892cc0221ffe338e7"
 
 RPROVIDES:${PN} += "liblasem-0-4-4 \
 liblasem-0.4.so.4"
@@ -22,6 +22,6 @@ libgobject-2.0.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

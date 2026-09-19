@@ -6,10 +6,10 @@ allows applications to access persistent memory as memory-mapped \
 files, as described in the SNIA NVM Programming Model."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "2.1.1"
 
-RPM_NAME = "pmdk-1.11.1-1.9.aarch64.rpm"
-RPM_HASH = "a22d278a4c3ca15714784251475122867a52dbeadd5a52fbb256cc84b74e7be5fb2681f67ce54be7c72e034c86531ce7971020eabfa12af0229c9aea22078ddb"
+RPM_NAME = "pmdk-2.1.1-1.5.aarch64.rpm"
+RPM_HASH = "f44ee456279dda2d75cd30aa3b6793c7a49d13e129c56d9e942ab6354dffa3e94c84f314d18fbe8c4342312732086929474409f3e1982b5cfbccd057cfec6d4c"
 
 RPROVIDES:${PN} += "nvml \
 pmdk"

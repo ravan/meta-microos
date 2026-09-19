@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tagging"
 DESCRIPTION = "This package includes the documentation for texlive-tagging"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0.1svn52064"
+PV = "2026.227.1.1.0.1svn77682"
 
-RPM_NAME = "texlive-tagging-doc-2023.209.1.1.0.1svn52064-55.1.noarch.rpm"
-RPM_HASH = "9c75f81fd9d13ac8cce9bd58cbfb55710f55a3461dd855cb75c4e0654f1c6ac34a929fc0b24eb53bc1cde41800a219c01086d008c159b355dd257c600955ad23"
+RPM_NAME = "texlive-tagging-doc-2026.227.1.1.0.1svn77682-62.2.noarch.rpm"
+RPM_HASH = "73ee42c9fc60ce74a1a7cbaba00f8fc803e9fa9e320feb5108ba2214f49bf9c0e119585da33a1517803af530383c6682167ff2b1df51afebb415bc705d5ebb97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tagging-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "KD Soap is a Qt-based client-side and server-side SOAP component.
 This package provides the library for the server-side component."
 LICENSE = "MIT"
 
-PV = "2.1.1"
+PV = "2.3.0"
 
-RPM_NAME = "libkdsoap-server2-2.1.1-1.4.aarch64.rpm"
-RPM_HASH = "07dbba5cd7775b81bf76ea7d4991771a6397e37210bc83f2699f0bcfa357fbd2bae4864c4587b9f05da41f531850973584f07afb6bfd75e393260ef552400b60"
+RPM_NAME = "libkdsoap-server2-2.3.0-1.3.aarch64.rpm"
+RPM_HASH = "a53ee1dda6ea2f7819cf65186183270b75cf990d9fd33f9330bc9cdf3a41413cad200c3297606ce0eb8b9f703da0e907a99019e6ba102ace99e6b97b5c76e18c"
 
 RPROVIDES:${PN} += "libkdsoap-server.so.2 \
 libkdsoap-server2"

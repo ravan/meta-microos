@@ -7,10 +7,10 @@ well as in 'Telnet mode' as specified in [RFC 2217]. \
 [RFC 2217]: https://tools.ietf.org/html/rfc2217"
 LICENSE = "GPL-2.0-only"
 
-PV = "2019.01.0.11"
+PV = "2023.09.0.0"
 
-RPM_NAME = "microcom-2019.01.0.11-1.3.aarch64.rpm"
-RPM_HASH = "4983b1a957bd2489661e0baa17a8107d045f3319231c9b2a60b404adcadd23ceb9a76bb252cf10143319f60023403daa2c6377cb94d92f52b30976c9b48e535a"
+RPM_NAME = "microcom-2023.09.0.0-1.8.aarch64.rpm"
+RPM_HASH = "0a44eb6847ef70cbe6745b5c2f01b05d8a21c01906ad79a64456e14ffd2bf1a3ca6414694cf561c9dce45a75df610d3b96a5e30d8ac6672a312f98cec0a35d69"
 
 RPROVIDES:${PN} += "microcom"
 

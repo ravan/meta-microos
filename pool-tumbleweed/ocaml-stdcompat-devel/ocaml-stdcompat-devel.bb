@@ -3,12 +3,13 @@ DESCRIPTION = "The ocaml-stdcompat-devel package contains libraries and signatur
 developing applications that use ocaml-stdcompat."
 LICENSE = "BSD-2-Clause"
 
-PV = "19"
+PV = "21.1"
 
-RPM_NAME = "ocaml-stdcompat-devel-19-2.5.aarch64.rpm"
-RPM_HASH = "e08e6267a33592ae6f0356385caf932d76e79d5265c01859ee720fe05a897a2d08e94e99557731eb76fa04a78b9f310ca88dce4ab5225d9c53b7f09df050a854"
+RPM_NAME = "ocaml-stdcompat-devel-21.1-1.2.aarch64.rpm"
+RPM_HASH = "1ed9aeaeb7dca91325318c254e9fa2d1aadb143db0d3ca9414b95288726c03b8920c45de32df8d42d3bb4210c16f7a28666226722fb042c1010b8e95b0b91bc2"
 
-RPROVIDES:${PN} += "ocaml-Stdcompat \
+RPROVIDES:${PN} += "config-ocaml-stdcompat-devel \
+ocaml-Stdcompat \
 ocaml-Stdcompat--arg \
 ocaml-Stdcompat--arg-s \
 ocaml-Stdcompat--array \
@@ -29,6 +30,10 @@ ocaml-Stdcompat--char \
 ocaml-Stdcompat--char-s \
 ocaml-Stdcompat--digest \
 ocaml-Stdcompat--digest-s \
+ocaml-Stdcompat--domain \
+ocaml-Stdcompat--domain-s \
+ocaml-Stdcompat--dynarray \
+ocaml-Stdcompat--dynarray-s \
 ocaml-Stdcompat--either \
 ocaml-Stdcompat--either-s \
 ocaml-Stdcompat--ephemeron \
@@ -129,6 +134,10 @@ ocamlx-Stdcompat--char \
 ocamlx-Stdcompat--char-s \
 ocamlx-Stdcompat--digest \
 ocamlx-Stdcompat--digest-s \
+ocamlx-Stdcompat--domain \
+ocamlx-Stdcompat--domain-s \
+ocamlx-Stdcompat--dynarray \
+ocamlx-Stdcompat--dynarray-s \
 ocamlx-Stdcompat--either \
 ocamlx-Stdcompat--either-s \
 ocamlx-Stdcompat--ephemeron \
@@ -209,25 +218,26 @@ ocamlx-Stdcompat--weak-s"
 
 RDEPENDS:${PN} += "ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
-ocaml-CamlinternalOO \
 ocaml-Stdlib \
 ocaml-Stdlib--Arg \
 ocaml-Stdlib--Array \
 ocaml-Stdlib--ArrayLabels \
 ocaml-Stdlib--Atomic \
+ocaml-Stdlib--Bigarray \
 ocaml-Stdlib--Bool \
 ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Bytes \
-ocaml-Stdlib--Callback \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Complex \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
+ocaml-Stdlib--Dynarray \
 ocaml-Stdlib--Either \
+ocaml-Stdlib--Ephemeron \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Float \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Fun \
-ocaml-Stdlib--Gc \
 ocaml-Stdlib--Hashtbl \
 ocaml-Stdlib--In-channel \
 ocaml-Stdlib--Int \
@@ -240,16 +250,13 @@ ocaml-Stdlib--Map \
 ocaml-Stdlib--MoreLabels \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
-ocaml-Stdlib--Oo \
 ocaml-Stdlib--Option \
 ocaml-Stdlib--Out-channel \
-ocaml-Stdlib--Parsing \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
 ocaml-Stdlib--Queue \
 ocaml-Stdlib--Random \
 ocaml-Stdlib--Result \
-ocaml-Stdlib--Scanf \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--Stack \
@@ -266,16 +273,16 @@ ocamlx-Stdlib--Atomic \
 ocamlx-Stdlib--Bool \
 ocamlx-Stdlib--Buffer \
 ocamlx-Stdlib--Bytes \
-ocamlx-Stdlib--Callback \
 ocamlx-Stdlib--Char \
-ocamlx-Stdlib--Complex \
 ocamlx-Stdlib--Digest \
+ocamlx-Stdlib--Domain \
+ocamlx-Stdlib--Dynarray \
 ocamlx-Stdlib--Either \
+ocamlx-Stdlib--Ephemeron \
 ocamlx-Stdlib--Filename \
 ocamlx-Stdlib--Float \
 ocamlx-Stdlib--Format \
 ocamlx-Stdlib--Fun \
-ocamlx-Stdlib--Gc \
 ocamlx-Stdlib--Hashtbl \
 ocamlx-Stdlib--In-channel \
 ocamlx-Stdlib--Int \
@@ -285,17 +292,13 @@ ocamlx-Stdlib--Lazy \
 ocamlx-Stdlib--Lexing \
 ocamlx-Stdlib--List \
 ocamlx-Stdlib--Nativeint \
-ocamlx-Stdlib--Obj \
-ocamlx-Stdlib--Oo \
 ocamlx-Stdlib--Option \
 ocamlx-Stdlib--Out-channel \
-ocamlx-Stdlib--Parsing \
 ocamlx-Stdlib--Printexc \
 ocamlx-Stdlib--Printf \
 ocamlx-Stdlib--Queue \
 ocamlx-Stdlib--Random \
 ocamlx-Stdlib--Result \
-ocamlx-Stdlib--Scanf \
 ocamlx-Stdlib--Seq \
 ocamlx-Stdlib--Stack \
 ocamlx-Stdlib--String \

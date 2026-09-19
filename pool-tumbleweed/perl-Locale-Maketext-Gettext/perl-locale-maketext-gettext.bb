@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.32"
 
-RPM_NAME = "perl-Locale-Maketext-Gettext-1.32-1.12.noarch.rpm"
-RPM_HASH = "13844cd2f92540cfc069accb201bd4bbdd8b182793d553420b277b72e21385fd466489cb822e28265a0e432448c82841a6f5643ec9bed57b697416efcafd6131"
+RPM_NAME = "perl-Locale-Maketext-Gettext-1.32-1.26.noarch.rpm"
+RPM_HASH = "a733444af1114f93e9e56dc2da451a21f20d82ed95019ce64dea1fd8f6f75a5b6b055004534a0e1e51e3cb9585dc227052494320bd7ce2bab35210dea8dd762a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Locale--Maketext--Gettext \
@@ -27,6 +27,6 @@ perl-Locale--Maketext--Gettext--Functions---EMPTY--i-default \
 perl-Locale-Maketext-Gettext"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

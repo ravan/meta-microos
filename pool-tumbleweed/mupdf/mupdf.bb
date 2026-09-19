@@ -10,10 +10,10 @@ annotations and search. MuPDF can also read XPS documents \
 (OpenXPS/ECMA-388)."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.22.2"
+PV = "1.28.3"
 
-RPM_NAME = "mupdf-1.22.2-1.1.aarch64.rpm"
-RPM_HASH = "a483dcdf9144ae5dad86d3f3fd8362a7ae92f69a0efc6a33cec9c87dc17586c5f43f95f21ce64f96cf2d0c7b7f465fed2de3a1fe3aaf1a90312233fdf93dbcc1"
+RPM_NAME = "mupdf-1.28.3-1.1.aarch64.rpm"
+RPM_HASH = "7c7800cb0594a4413073ce5c4549a549e22d791c1ef928115c24644b7d9617f66c1bb40f0264d36bf885c6c4ff26d42a35f9145374dc93f26cb4f9bf1bdf3a6a"
 
 RPROVIDES:${PN} += "bundled-freeglut \
 bundled-freeglut-art \
@@ -30,14 +30,8 @@ libXext.so.6 \
 libXrandr.so.2 \
 libc.so.6 \
 libcrypto.so.3 \
-libcurl.so.4 \
-libfreetype.so.6 \
-libharfbuzz.so.0 \
-libjbig2dec.so.0 \
-libjpeg.so.8 \
 libm.so.6 \
-libopenjp2.so.7 \
-libz.so.1 \
+libmupdf.so.28.3 \
 xdg-utils"
 
 inherit rpm

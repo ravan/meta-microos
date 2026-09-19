@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-swiss-legal"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-swiss-legal"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.2asvn64491"
+PV = "2026.226.1.1.2asvn78219"
 
-RPM_NAME = "texlive-biblatex-swiss-legal-doc-2023.209.1.1.2asvn64491-54.1.noarch.rpm"
-RPM_HASH = "4a2b40c5899192da07de02a8fff878b8658b4279a84b8d99361001801998aa5d7eb88b82f2af443e9577c9c9db61ed64631114bded6a87e5f2faa2c0f6527497"
+RPM_NAME = "texlive-biblatex-swiss-legal-doc-2026.226.1.1.2asvn78219-61.2.noarch.rpm"
+RPM_HASH = "cfbc58fc36aa5a1e0d3b95b5c55d899ce5c9b1af34c3457fffb7156d124a76d233b2be94b2cdcbfaa7e19ccc174eb8e9614ecec739ebce07282a3a4393c6e8c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-biblatex-swiss-legal-doc-fr \

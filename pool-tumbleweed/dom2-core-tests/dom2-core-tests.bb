@@ -10,8 +10,8 @@ LICENSE = "W3C"
 
 PV = "0.0.1"
 
-RPM_NAME = "dom2-core-tests-0.0.1-30.17.noarch.rpm"
-RPM_HASH = "676123b8331551d24df2419a17a5aeff3dde281b89650a8ad81f6b8e94a61c196490b67787b497ce155d331c84ab717eaebbfcb41f30c149df0fbcd703c11e02"
+RPM_NAME = "dom2-core-tests-0.0.1-31.9.noarch.rpm"
+RPM_HASH = "b4d509a3ec70cab393343e72871311e446df8da7f9acd76240988ce9e90426a70a1cf892a7eeecca6a3314c7d30deda434c9bc34579748385e40d11997cce3c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dom2-core-tests"

@@ -1,11 +1,11 @@
 SUMMARY = "Header files for libepub library"
-DESCRIPTION = "Header files for the libepub library"
+DESCRIPTION = "Header files for the libepub library."
 LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "libepub-devel-0.2.2-7.1.aarch64.rpm"
-RPM_HASH = "d3ff02da5094c8db985b38c60aa1bbad1a890787884e37bbf789ba2005d02def9544fa3f3bddce7b2cc1411db35d50b357d9f3f2740b55015d2e5b8be1dead66"
+RPM_NAME = "libepub-devel-0.2.2-9.8.aarch64.rpm"
+RPM_HASH = "4c9bd3237cf10dd6bbde8f00a950b847be4c14e33041036634b01d44525d8982aa324bbe8f645fff2963b9d819975c1753180f2abbabf2b9ba17ee98ac987df0"
 
 RPROVIDES:${PN} += "libepub-devel"
 

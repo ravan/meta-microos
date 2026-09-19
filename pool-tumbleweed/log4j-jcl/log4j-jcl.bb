@@ -2,10 +2,10 @@ SUMMARY = "Apache Log4j Commons Logging Bridge"
 DESCRIPTION = "Apache Log4j Commons Logging Bridge."
 LICENSE = "Apache-2.0"
 
-PV = "2.17.2"
+PV = "2.26.1"
 
-RPM_NAME = "log4j-jcl-2.17.2-5.8.noarch.rpm"
-RPM_HASH = "f3df989883ea87c59d4ac55ac90fb656ad3fa7546ebca201f5362410c1ab90ce064703cfb84cd157da8911495bba23a1eaf725190257daa25a33996d5739b9d8"
+RPM_NAME = "log4j-jcl-2.26.1-2.1.noarch.rpm"
+RPM_HASH = "b8883fa51fa2b3e1348de96e4aa111ae9bf42fa68577b6dd217f5a994c92de79d2157199457bbac915f342aa11bfd0406e2b7bd60a7d3f87d1855379ec816222"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "log4j-jcl \

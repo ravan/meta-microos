@@ -4,10 +4,10 @@ also provides an API to fetch feeds from the network. This \
 package contains development headers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "syndication-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "8f6bc5d5e6e0f65b85c05748bb5f20c008962f26171e2c65231d68e25393f5cee9dc45eab11b06f5dcd5faa62a861da56e81b766e53f880e6ae3fe8116f77d10"
+RPM_NAME = "syndication-devel-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "09aecaa51ea3c058c13e74b177f6d98c1869992d450e6e7ca5aff50569b6540059f4b347e2135efc1eab1e074aa1ede310e40d20433e799254996d86ce1cff80"
 
 RPROVIDES:${PN} += "cmake-KF5Syndication \
 syndication-devel"

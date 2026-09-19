@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-extlib-devel package contains libraries and signature f
 developing applications that use ocaml-extlib."
 LICENSE = "LGPL-2.1-or-later-with-OCaml-LGPL-linking-exception"
 
-PV = "1.7.9"
+PV = "1.8.0"
 
-RPM_NAME = "ocaml-extlib-devel-1.7.9-2.5.aarch64.rpm"
-RPM_HASH = "1dc803299f1525ed8b339520a684593d2bb142bfba4935899a081d85d43b1f3d1a11cde091b0d5f1398e83545331c6eae7fed13999e05df63b895a8bf1c35fe4"
+RPM_NAME = "ocaml-extlib-devel-1.8.0-2.2.aarch64.rpm"
+RPM_HASH = "6de5c1af3a0eafec2dfd19101934a1c004de6d7a05c0a0fa31dc845990ddd694978acdd27744eb67248081049b0585267171952c0e6928ce07c8e2d28f74bc68"
 
 RPROVIDES:${PN} += "ocaml-BitSet \
 ocaml-Dllist \

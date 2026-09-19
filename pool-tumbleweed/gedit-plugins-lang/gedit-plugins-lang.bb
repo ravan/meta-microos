@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gedit-plugins"
 DESCRIPTION = "Provides translations for the 'gedit-plugins' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "50.0"
 
-RPM_NAME = "gedit-plugins-lang-44.1-1.3.noarch.rpm"
-RPM_HASH = "7d8e7e6f48d99846e9b8932f8374fa657b64b0345560059f55bca19633f288209363ecd923d4e320139ff01c27da54fb3352c66b88d9471bef5ef06063040e8c"
+RPM_NAME = "gedit-plugins-lang-50.0-1.2.noarch.rpm"
+RPM_HASH = "8bc140abd44e873f405bd281c8ff69762ae81929ea69f060a69df72ea77826b905528ec17f88c1b530b7c5891c49d12afe4cf841b2909db271a525002c073b0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gedit-plugins-lang \

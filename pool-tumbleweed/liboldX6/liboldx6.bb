@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "liboldX6-1.0.1-12.1.aarch64.rpm"
-RPM_HASH = "c705bdffc08204503cdba6324cdb08e1306e98e71899b31efbc8b7cbf7778809b3b758749f1ddc643d727599720a9716633f86b68ebcc758e5e104ac6174cca5"
+RPM_NAME = "liboldX6-1.0.1-13.5.aarch64.rpm"
+RPM_HASH = "6295b6b6cc3fdf299b746333ea967a060fdf42edee58f769defaa6fcbfca9b3e6712a576815ce3b6671816d31c0b7adfeee272d215e15b61dce38f822bfb4a89"
 
 RPROVIDES:${PN} += "liboldX.so.6 \
 liboldX6"

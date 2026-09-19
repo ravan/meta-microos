@@ -2,10 +2,10 @@ SUMMARY = "Macros and scripts for Java packaging support"
 DESCRIPTION = "This package provides macros and scripts to support Java packaging."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.2.0"
+PV = "6.5.1"
 
-RPM_NAME = "javapackages-tools-6.2.0-2.1.aarch64.rpm"
-RPM_HASH = "e2b31d0bbcf21f90f1cce1bc6add35ec33f2c867c3c00e6aecd8a8b63199558fb7cb14e7f7218af442ab6362be4511a57ab8bc3e612fb788db55d59cf6cfc9b0"
+RPM_NAME = "javapackages-tools-6.5.1-3.2.aarch64.rpm"
+RPM_HASH = "2874889ecf1465e1e66c6ff682df0bd440d55b5f59c68afdb1d94b731671bdce1e91024f77dca0a3e19be4d698d7c76b9233419bae4035b8da90281450f996e7"
 
 RPROVIDES:${PN} += "config-javapackages-tools \
 javapackages-tools \
@@ -13,11 +13,12 @@ jpackage-utils \
 rpm-macro-ant \
 rpm-macro-jar \
 rpm-macro-java \
-rpm-macro-java-home \
 rpm-macro-javac \
 rpm-macro-javadoc \
+rpm-macro-jp-binding \
 rpm-macro-jpackage-script"
 
-RDEPENDS:${PN} += "javapackages-filesystem"
+RDEPENDS:${PN} += "findutils \
+javapackages-filesystem"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "Lossless compression library for scientific data. Libsz2 is a dro
 replacement for the SZIP library (http://www.hdfgroup.org/doc_resource/SZIP)."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.0.6"
+PV = "1.1.7"
 
-RPM_NAME = "libsz2-1.0.6-1.8.aarch64.rpm"
-RPM_HASH = "2ddcc572314e7ff914dbfd12c731cd177bccd453184c70f9974afb1766c5c2726bc91e5bed4e2b3bac8e54e603e875aee5604bc796b63bcacf6c42356c3a350d"
+RPM_NAME = "libsz2-1.1.7-1.3.aarch64.rpm"
+RPM_HASH = "5671bc245184d1638825699c641730cf13918b6d88d41ecf13615b1695281b1d45304c099e04e996f51b8a9024a5366d06744474378dbe83ffe2483e3d338fe6"
 
 RPROVIDES:${PN} += "libsz.so.2 \
 libsz2"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eukdate"
 DESCRIPTION = "This package includes the documentation for texlive-eukdate"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.04svn15878"
+PV = "2026.226.1.04svn15878"
 
-RPM_NAME = "texlive-eukdate-doc-2023.209.1.04svn15878-53.1.noarch.rpm"
-RPM_HASH = "19aa085507c291c6cc3bcf3faf36b572e6f9f7ed1f73a632b7c49dbec2e9959fe98561d1fa0db26a20ca1c7d6090f3b0f11f111013e51d2d136e249ee708653f"
+RPM_NAME = "texlive-eukdate-doc-2026.226.1.04svn15878-59.2.noarch.rpm"
+RPM_HASH = "b63c483ea87c75a655f71848cecdab49114488e1ab5f8745d19bbf4455606975f0d2c270d457bed266d0b08fe85311ef943e0570989c2301ff4932af131ac19f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eukdate-doc"

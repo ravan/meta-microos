@@ -6,10 +6,10 @@ in the netCDF and HDF formats. \
 This package contains the documentation for nco."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.1.7"
+PV = "5.3.9"
 
-RPM_NAME = "nco-doc-5.1.7-1.1.noarch.rpm"
-RPM_HASH = "515b13e0b0ca4a6bc62395e9f0c5d8273f2d0da30f3e7b8d33dc240ee18d7feb6d55d39bb4c294fadb6ca811cf87c26d3459aee558af440637cd65c7dbb192c6"
+RPM_NAME = "nco-doc-5.3.9-1.2.noarch.rpm"
+RPM_HASH = "6dd5fb19a93c3c73f6d6971b7aed57e5db0099e312117854ed59cb8ad3ef049560ac061e811d2b045408a450f8906d7d4a72de0341a55b1f1aedaa81ec7673d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nco-doc"

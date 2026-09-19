@@ -2,12 +2,12 @@ SUMMARY = "Development files for libeconf"
 DESCRIPTION = "This package contains all necessary include files and libraries needed \
 to develop applications that needs to read configuration files from \
 different locations."
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "MIT"
 
-PV = "0.5.2"
+PV = "0.8.4"
 
-RPM_NAME = "libeconf-devel-0.5.2-1.4.aarch64.rpm"
-RPM_HASH = "735cdf012884fe5d1ca11871f10cd49191092319319b8b44d1df20af2029d18c99a050d303482a8a7b0eb29472507a4c94863b00689339e44b256a139f557426"
+RPM_NAME = "libeconf-devel-0.8.4-1.2.aarch64.rpm"
+RPM_HASH = "21e6b7fe3de4a95b7af77b14f4453e288bab02ad72ffe96821af6c7d1af94d06f0a49f76463f9ee167196717713dd006797a849bd4d69dadbfb00c354bed69af"
 
 RPROVIDES:${PN} += "libeconf-devel \
 pkgconfig-libeconf"

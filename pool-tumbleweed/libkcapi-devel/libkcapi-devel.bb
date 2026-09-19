@@ -13,12 +13,12 @@ processes. \
 This library does not perform any memcpy for processing the cryptographic data! \
 The library uses scatter / gather lists to eliminate the need for moving data \
 around in memory."
-LICENSE = "GPL-2.0-only"
+LICENSE = "BSD-3-Clause | GPL-2.0-only"
 
-PV = "1.4.0"
+PV = "1.5.0"
 
-RPM_NAME = "libkcapi-devel-1.4.0-2.5.aarch64.rpm"
-RPM_HASH = "45bc1cc82b26a7ffbd1632cc1db2af70c34dba4e5816b8b36f8dd1beb69f99e927122600a0cc32fc1ddfd581c45d3a87a3b461621c79c596df97d1268b6276d7"
+RPM_NAME = "libkcapi-devel-1.5.0-1.9.aarch64.rpm"
+RPM_HASH = "9ebb38eabd746f29581a504056ee389a1f080f393ab2786766ef72c2c582b2be0d0789e207683c2f79a3d3175532cef30c78c6cf69e04ba31db5aaf8483021cf"
 
 RPROVIDES:${PN} += "libkcapi-devel \
 pkgconfig-libkcapi"

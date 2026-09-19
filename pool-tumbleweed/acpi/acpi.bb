@@ -4,10 +4,10 @@ replicate the functionality of the 'old' apm command on ACPI systems. \
 It includes battery and thermal information."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7"
+PV = "1.8"
 
-RPM_NAME = "acpi-1.7-5.9.aarch64.rpm"
-RPM_HASH = "e11628d8077fe7712ce0ea41e8d9719360957022ffd4288196a0254a1dc7d5a32a448514cfda130f13ad6e7ea5f7f17353c37014fa0098e212c0f381d4b35c43"
+RPM_NAME = "acpi-1.8-2.5.aarch64.rpm"
+RPM_HASH = "ffd7f9b257a9558e6b22defb5ec9c1435d0c7aaf6945d1aa9386a5fbe13f3c774299c7cfd20bd46dda088f8beb67d6e107397a9fa2a9fc67b624e00db28f1f22"
 
 RPROVIDES:${PN} += "acpi \
 acpid-/usr/bin/acpi"

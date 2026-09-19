@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libcthreads."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220102"
+PV = "20260703"
 
-RPM_NAME = "libcthreads-devel-20220102-3.3.aarch64.rpm"
-RPM_HASH = "3a337c233d9c75dd7cfd07440667e32ef97eeee4c2377a825d0fa41b4722ac30f7ddc763993a348b6d48daf2c2204a44be7e4d70155568834e698d6e068644a7"
+RPM_NAME = "libcthreads-devel-20260703-1.2.aarch64.rpm"
+RPM_HASH = "e048e21b7a2c1bfc297da871eb33a17642b59b62abad63a6115c20cc55d87de023aacc6bbcc0bc09085721a757335bc6aecd937fa2626192da5769d5e55dccf0"
 
 RPROVIDES:${PN} += "libcthreads-devel \
 pkgconfig-libcthreads"

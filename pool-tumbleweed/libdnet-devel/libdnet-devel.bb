@@ -9,10 +9,10 @@ networking routines, including: \
 - raw IP packet and Ethernet frame transmission"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.16.4"
+PV = "1.18.2"
 
-RPM_NAME = "libdnet-devel-1.16.4-1.1.aarch64.rpm"
-RPM_HASH = "b8a725cadfcec1c62da0e6df733ac6d9df6f7c9b0bf4495f3f54fc6cdbe011372dadb63763111dbee0f82c2e1ea9cf5f49048fdd0e6e2ab47faf67cf76c5c8d6"
+RPM_NAME = "libdnet-devel-1.18.2-1.3.aarch64.rpm"
+RPM_HASH = "a899001dec237b8fcce8a4ceef92640e4054c7b643b38b754f7e0eea729c20332cc57b26f696ac7837db2a49902137bc193a278a36282e6483ed95785bcec18c"
 
 RPROVIDES:${PN} += "libdnet-devel"
 

@@ -11,8 +11,8 @@ LICENSE = "MPL-2.0"
 
 PV = "6.2.2"
 
-RPM_NAME = "libxc12-6.2.2-1.1.aarch64.rpm"
-RPM_HASH = "5763d4fdab18f52a74037b8f57a56ecd29b7be90d905951fde0b72639f485cc1d0d5ef3966837bd81a85246f6d7e0abf8a11c0143368001c3bb9aa0b3a32e3c7"
+RPM_NAME = "libxc12-6.2.2-1.11.aarch64.rpm"
+RPM_HASH = "ae66e6cec47fc76a62c568943598d06fbd0519c80d8c35cc56236c1223263e0e0d76bcefe7bd7eb192e0c5abbf0376f423ffcfeedf283e1743918a7d02b52dda"
 
 RPROVIDES:${PN} += "libxc.so.12 \
 libxc12 \

@@ -9,10 +9,10 @@ features allow to deal with numbers (tests, display, some high \
 level operations, etc.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.28svn56910"
+PV = "2026.226.0.0.28svn77682"
 
-RPM_NAME = "texlive-xlop-2023.209.0.0.28svn56910-53.2.noarch.rpm"
-RPM_HASH = "1b14bc33e5ee01f40ffdf234c3a5d0333a6b437879ed5a580085c31ba3b8727125e80909f6b5058a82bfe2207d4002e1e15ccafd2f3766711c703d08ec27b732"
+RPM_NAME = "texlive-xlop-2026.226.0.0.28svn77682-59.4.noarch.rpm"
+RPM_HASH = "9e21369317091bd6f0a378452d3e88eaefb94fc15c930f3749828ed5db2a0844ba7f80d440ea78978dcb14173b010fb7528b68f5eb9041e087ffae8d1edd7f90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xlop.sty \

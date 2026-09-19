@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "6.0.6+39"
 
-RPM_NAME = "grfcodec-6.0.6+39-1.10.aarch64.rpm"
-RPM_HASH = "8ecd207281007bc348f54a44363fd45059cd61c96e548658f0659d9968bf3489755e56dd3d17ebe485f959eb88971a33388bcc4b04c1e425ee19c3c57e3f3e19"
+RPM_NAME = "grfcodec-6.0.6+39-1.21.aarch64.rpm"
+RPM_HASH = "8e0c8db2bcc55d0f8802391a4d6719fb7613a6dc42ca1b4b1c6a7ca8c279ccaf350e6b76396fbfa13f1111bec2f85352aaab6393ac9f66aef2346cedb4123ea8"
 
 RPROVIDES:${PN} += "grfcodec \
 nforenum"

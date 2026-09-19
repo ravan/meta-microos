@@ -3,10 +3,10 @@ DESCRIPTION = "mkfontscale creates the fonts.scale and fonts.dir index files use
 legacy X11 font system."
 LICENSE = "MIT"
 
-PV = "1.2.2"
+PV = "1.2.4"
 
-RPM_NAME = "mkfontscale-1.2.2-1.7.aarch64.rpm"
-RPM_HASH = "6bd0f274cdde7c54bbc9facb62b08e6c14cf64bc70c16b339798ef64daeb6d80ce0dcf68622cb3f968cd1efb8e0e2bf1900877da44a22ddda379a20d580e544a"
+RPM_NAME = "mkfontscale-1.2.4-1.3.aarch64.rpm"
+RPM_HASH = "d26875a4878f2281661e5877f006dc21bc0216f71527b76f099491ac9889ee0cd64f18bfa317bbfbf84d09a7b60e6f42487a5c0f70a626bc60a018e6c0b7f261"
 
 RPROVIDES:${PN} += "mkfontdir \
 mkfontscale"

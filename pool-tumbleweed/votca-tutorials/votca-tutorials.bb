@@ -8,18 +8,16 @@ in disordered semiconductors. \
 This package contains the tutorial documentation and sample data."
 LICENSE = "Apache-2.0"
 
-PV = "2022.1"
+PV = "2026"
 
-RPM_NAME = "votca-tutorials-2022.1-3.7.noarch.rpm"
-RPM_HASH = "2acf5272b9ac36f502b09a276677b3c7285cfcc86cb17dac85d9a20c1c1951487ccf1f8dea02bb0aedfe2679ed43b3e29fd9d1619ce0ba530f93b5c779dc72cf"
+RPM_NAME = "votca-tutorials-2026-1.7.noarch.rpm"
+RPM_HASH = "11c80e1b7438426a2fba834ece5d36951b48b746c0872b5c59304cdf15bf9b37b363099a040c755caf7ec7d7930cd4dbe9c152e218ba6abd56ba96a1d3b7d182"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "votca-csg-tutorials \
 votca-tutorials"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python2 \
-/usr/bin/python3 \
-/usr/bin/sh"
+/usr/bin/python3"
 
 inherit rpm

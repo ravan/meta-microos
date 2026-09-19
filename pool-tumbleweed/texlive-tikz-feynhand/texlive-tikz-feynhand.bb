@@ -2,7 +2,7 @@ SUMMARY = "Feynman diagrams with TikZ"
 DESCRIPTION = "This package lets you draw Feynman diagrams using TikZ. It is a \
 low-end modification of the TikZ-Feynman package, one of whose \
 principal advantages is the automatic generation of diagrams, \
-for which it needs LuaTex. TikZ-FeynHand only provides the \
+for which it needs LuaTeX. TikZ-FeynHand only provides the \
 manual mode and hence runs in LaTeX without any reference to \
 LuaTeX. In addition it provides some new styles for vertices \
 and propagators, alternative shorter keywords in addition to \
@@ -13,10 +13,10 @@ user guide for getting started, with many examples and a \
 5-minute introduction to TikZ."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1.0svn51915"
+PV = "2026.226.1.1.0svn76924"
 
-RPM_NAME = "texlive-tikz-feynhand-2023.209.1.1.0svn51915-53.1.noarch.rpm"
-RPM_HASH = "73740f6ae6b65e13802486a67d8742811aa630921e84a4aa665b3b50167c30a73c7df5a4feecbc7602592c7b3c4d9c156a6050a0a42696a60807bf7dfd5b7c64"
+RPM_NAME = "texlive-tikz-feynhand-2026.226.1.1.0svn76924-59.2.noarch.rpm"
+RPM_HASH = "10cfbb5d5fb292ab7bb353e8102c6c1d7638550e80b7bcc4e918108d1f70c2b21899bca0f867e63c8ae86b1d61bf9f3436a96c510068e191d7650b3fe123de79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-feynhand.sty \

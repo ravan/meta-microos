@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-serbianc"
 DESCRIPTION = "This package includes the documentation for texlive-babel-serbianc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2asvn64588"
+PV = "2026.226.3.2asvn64588"
 
-RPM_NAME = "texlive-babel-serbianc-doc-2023.209.3.2asvn64588-54.1.noarch.rpm"
-RPM_HASH = "edb035192f5f180eb5c7be32cf311ea7faed3eea6f606f0856ab48288bf869da6ad53803644d64dc3e64d2f77ac6d9d9818408caaa0ff4ccb16d968008311a73"
+RPM_NAME = "texlive-babel-serbianc-doc-2026.226.3.2asvn64588-60.2.noarch.rpm"
+RPM_HASH = "c4f0d5f7a266b8eba5213d2c59077f73efca5beff53179e23efa06dcd970b7672ea649c2d3b941c22605f1eca5d5d4f0d84ab77fc57b366dac6caa63ef41d326"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-serbianc-doc"

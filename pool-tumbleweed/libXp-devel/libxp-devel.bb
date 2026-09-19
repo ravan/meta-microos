@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.4"
 
-RPM_NAME = "libXp-devel-1.0.4-1.2.aarch64.rpm"
-RPM_HASH = "96408ba8edd5b1756dc3e72dab36dd72818a0ec458ee22f7d0666adca39ebe5e7ce23ba1643a720a2ef56de249d30bff382f9835ac180e55b3319799ff454739"
+RPM_NAME = "libXp-devel-1.0.4-1.12.aarch64.rpm"
+RPM_HASH = "72943c51242ef7c9ae50e955a0dab03d458a83eeebec0ec6b53342a745babbfd5fb57f170c565e96ebe307506bc8b1d59491ef1e33ffe2657bebcfe42da000a2"
 
 RPROVIDES:${PN} += "libXp-devel \
 pkgconfig-xp \

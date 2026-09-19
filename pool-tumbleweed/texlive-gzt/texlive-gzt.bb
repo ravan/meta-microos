@@ -11,10 +11,10 @@ drafting of documents, in particular those containing \
 mathematical formulas."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.3svn63591"
+PV = "2026.226.1.1.5svn74605"
 
-RPM_NAME = "texlive-gzt-2023.209.1.1.3svn63591-54.2.noarch.rpm"
-RPM_HASH = "de1e10d01899f1f5ac3be92bbf8b5e2fa1c9e025bffb4748e5de2d7d86e4c88070cbf6529d6b741ea691f99b008bd0b306174bba4e8566ce106b2df8746e2352"
+RPM_NAME = "texlive-gzt-2026.226.1.1.5svn74605-60.4.noarch.rpm"
+RPM_HASH = "c00b629801da12e8f7757d3d232dc76ffd16f77abdbb1466e3bf7f82f9a2289f4358aa061caf03095c346cca741e7dc8a6b24efaf8a6998404aed71f3511dc13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gzt.cfg \

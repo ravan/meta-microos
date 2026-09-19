@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains the utility programs from libodraw, whic
 can read optical disc (split) RAW image files such as BIN/ISO/CUE."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210503"
+PV = "20240505"
 
-RPM_NAME = "libodraw-tools-20210503-3.9.aarch64.rpm"
-RPM_HASH = "461f4bcdeb3dc6a5e88508a89d033ccbcb71522d6b72612cb872e5169fe2b2a123b90196d502c8a93bfda60a6ca2357004f434a7f5366033270537a6f75f24c5"
+RPM_NAME = "libodraw-tools-20240505-1.24.aarch64.rpm"
+RPM_HASH = "73042f134fd0570022ad3feecb06b32e42f26b682c459ecf31905dc0edb53238fec42af71a7310ec3c296ed9ceceaaa7f52a5c7a2adcbb471662675425e805dd"
 
 RPROVIDES:${PN} += "libodraw-tools"
 

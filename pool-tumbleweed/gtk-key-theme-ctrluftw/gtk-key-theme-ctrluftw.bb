@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1"
 
-RPM_NAME = "gtk-key-theme-ctrluftw-1-12.16.noarch.rpm"
-RPM_HASH = "8c1dc21c24aafcd7ed957ff52f13834394babd57579f4e7e9e62979dab04040ae527fb2bfb8bdf5da6937b3aa19b97b0e4a62c325128d551c791b3d83e518a69"
+RPM_NAME = "gtk-key-theme-ctrluftw-1-12.24.noarch.rpm"
+RPM_HASH = "4b332a7c68c9e46bb9b8d17354a7e1e60be33cf3ff91d805a71066c00365a679159869e3e503517c6cb6aaa605e1487a91ffeb60a2de17067a7a08d625fd5eed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk-key-theme-ctrluftw"

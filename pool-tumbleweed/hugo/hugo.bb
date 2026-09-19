@@ -9,17 +9,16 @@ provides a Privacy Config that can assist with General Data Protection \
 Regulation (GDPR) compliance issues. \
  \
 https://gohugo.io/"
-LICENSE = "Apache-2.0"
+LICENSE = "Apache-2.0 & MPL-2.0"
 
-PV = "0.118.2"
+PV = "0.166.0"
 
-RPM_NAME = "hugo-0.118.2-1.1.aarch64.rpm"
-RPM_HASH = "bd4b07c6d603d31f9098d8c6498c5b13ae9a94eac77408044e85bacf8c90ca9bb94b7b2a98d0b38e6593304118f6f109eea5d09af736c99191a86447b91e0301"
+RPM_NAME = "hugo-0.166.0-1.1.aarch64.rpm"
+RPM_HASH = "54b14da761236c89f6e61a262d92f155340890eb0460dad35b7c76061a1885e5e61da23942978fbbcf7bb56c05ec13aa1878cce641d862a006650ec8489743d0"
 
 RPROVIDES:${PN} += "hugo"
 
 RDEPENDS:${PN} += "libc.so.6 \
-libsass-3.6.5.so.1 \
-libwebp.so.7"
+libsass-3.6.6.so.1"
 
 inherit rpm

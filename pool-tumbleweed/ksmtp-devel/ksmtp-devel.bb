@@ -3,18 +3,15 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to build programs that use the KSMTP library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ksmtp-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "90d399c317c23c5faba8c842549a568b64fec9c49af59c6bcfba5d5fcdf4be5ef6a85c6d8365ea0bde0907a5764a7e84e8913caacfcb81ba46ae962a6e98e859"
+RPM_NAME = "ksmtp-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "ba77addd47da2aa3559c109c3a2256dd10387455022b6f4f100a9dca298335f6f0c872adcb70c64baf5c054dc1b698d69e8dfd849414e0b79664a885dca3b2f6"
 
-RPROVIDES:${PN} += "cmake-KPim5SMTP \
+RPROVIDES:${PN} += "cmake-KPim6SMTP \
 ksmtp-devel"
 
-RDEPENDS:${PN} += "cmake-KF5CoreAddons \
-cmake-KF5I18n \
-cmake-KF5KIO \
-cmake-KPim5Mime \
-libKPim5SMTP5"
+RDEPENDS:${PN} += "cmake-KF6CoreAddons \
+libKPim6SMTP6"
 
 inherit rpm

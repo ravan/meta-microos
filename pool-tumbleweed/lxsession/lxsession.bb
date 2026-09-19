@@ -5,10 +5,10 @@ environment. Moreover, the session manager is able to remember the applications 
 use when a user logs out and to restart them the next time the user logs in."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.5.5"
+PV = "0.5.5+56"
 
-RPM_NAME = "lxsession-0.5.5-2.13.aarch64.rpm"
-RPM_HASH = "49f0623e26d66c76213712cfe474940e5675fc8c48c5a43170a5b1a6c9df87d676187601704f025ca08d9d8fe8ae9b60a4f21ff2c3eb30ec4a755ba235e8dd75"
+RPM_NAME = "lxsession-0.5.5+56-1.8.aarch64.rpm"
+RPM_HASH = "82c4d7a0d3307ab48313da4f0b8aa23651b56335ecd43ff84d157d54f2bb0e9accd32700a9cb377af3610d4d4763b5bbfee2f33cd681dec828714daeede80fd9"
 
 RPROVIDES:${PN} += "lxpolkit \
 lxsession \

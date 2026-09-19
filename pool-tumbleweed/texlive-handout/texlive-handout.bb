@@ -7,10 +7,10 @@ the texts about which we will talk. The package supports \
 preparation of such handouts when writing the talk."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6.0svn43962"
+PV = "2026.226.1.6.0svn43962"
 
-RPM_NAME = "texlive-handout-2023.209.1.6.0svn43962-54.2.noarch.rpm"
-RPM_HASH = "a70fb9e6654d5a6ae041cb329a2a20d0dce112463b0de95b53fcfe242bdedc7a88b59b4a0cd8bbba85182e65fb50dd54c70730051d5c7d4f2f6620adb509e403"
+RPM_NAME = "texlive-handout-2026.226.1.6.0svn43962-60.4.noarch.rpm"
+RPM_HASH = "f3fd7e3b91f678fd2953acf49c4674a50e8950d38cccd797f96fe51878e34f703248f86777ec4329d50d9d60eff6620f9351b35dde736d44d500b2d7bffceca1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-handout.sty \

@@ -5,10 +5,10 @@ programming language from the ML family of languages. \
 This package contains source code for OCaml libraries."
 LICENSE = "QPL-1.0 & SUSE-LGPL-2.0-with-linking-exception"
 
-PV = "4.14.1"
+PV = "5.5.0"
 
-RPM_NAME = "ocaml-source-4.14.1-1.4.aarch64.rpm"
-RPM_HASH = "12aa91422d185d42b811d0eebc2f462cc666a5b2e76b4a4a3322dff45a78d42374919751fea958066dbcf3ec246ea7d94a7248e4b2acb43e9c7cba77c0d81b62"
+RPM_NAME = "ocaml-source-5.5.0-2.1.aarch64.rpm"
+RPM_HASH = "6a151a4792929fe5b929eee4047b32a80a6b0bc9769582a3f0f37169eb69c23c448e8fc550844288d59423d8468af11e4fc5b5e01cff5ecb69b36343e006e1a8"
 
 RPROVIDES:${PN} += "ocaml-source"
 

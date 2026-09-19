@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9"
 
-RPM_NAME = "fs-check-0.9-55.4.noarch.rpm"
-RPM_HASH = "cbe2cc71666b079376979c9be5f12df698faa47c4539efe8ef5809e1e406b0cd1e01789114f9b54ac561457850331e138df046fe6e19010bc47f6c8d60ea8f87"
+RPM_NAME = "fs-check-0.9-56.7.noarch.rpm"
+RPM_HASH = "4ce035d832a7ddd0c338ec479d2162422cddf6fac178eefe9f794afc2c5e9157d8c1d798970d53139059ef20193365ee260a733890f398a7c5a37a19ed05fb33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-fs-check \

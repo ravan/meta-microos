@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-lsystem"
 DESCRIPTION = "This package includes the documentation for texlive-pst-lsystem"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn49556"
+PV = "2026.226.0.0.02svn49556"
 
-RPM_NAME = "texlive-pst-lsystem-doc-2023.209.0.0.02svn49556-53.1.noarch.rpm"
-RPM_HASH = "9b5289a724c620cbe68b71e3f210143cb31ece305367689c50b0073cbdbef2ae1cd7e2348f9b197bf69ddc6bc7a948896d13900b4ff166e11f54b6735dc2e9e8"
+RPM_NAME = "texlive-pst-lsystem-doc-2026.226.0.0.02svn49556-59.2.noarch.rpm"
+RPM_HASH = "d2fdef79d3292aeb140f4adf4fc861a7ee6552cb352f9a27264b5acaa032a8ff5c7d479899f9b29c8d4c840b734f80f4161fdd73d42c35fd3881c3801877eca7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-lsystem-doc"

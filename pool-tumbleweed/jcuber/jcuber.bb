@@ -5,12 +5,12 @@ multi-dimensional performance space consisting of the dimensions \
 Each dimension can be represented as a tree, where non-leaf nodes \
 of the tree can be collapsed or expanded to achieve the desired level \
 of granularity."
-LICENSE = "BSD-3-Clause & Apache-2.0"
+LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "4.4.1"
 
-RPM_NAME = "jcuber-4.4.1-2.15.noarch.rpm"
-RPM_HASH = "c9500c4d39c408b6c75e7b98395d58a3513639d2f4630664ed93ed1fe8c815ea2ca6e5391218a9bacaf8c09fca83e85aa972542c9721303590e03064d7ff353b"
+RPM_NAME = "jcuber-4.4.1-3.8.noarch.rpm"
+RPM_HASH = "f89ebe456d824a3d5a4b42ac76767c54cb2bb6ea9b9ec78aa35ee66ef60326c07257d91943427575c02db181bb4deb0bd2acb4ae38ab2165cfa5c66efc89f6ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcuber"

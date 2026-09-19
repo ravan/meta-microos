@@ -5,15 +5,21 @@ This package contains the virgil3d renderer development \
 files."
 LICENSE = "MIT"
 
-PV = "0.9.1"
+PV = "1.3.0"
 
-RPM_NAME = "virglrenderer-devel-0.9.1-3.8.aarch64.rpm"
-RPM_HASH = "df8c3418f4088435e38b02916cb8d10c0f821e1ac09fb4002d403b09d63bacf450a9b8b36baf9c2f132cef4d5f659dd6592dc12e47b3c4e3a66a524981156229"
+RPM_NAME = "virglrenderer-devel-1.3.0-1.4.aarch64.rpm"
+RPM_HASH = "f0125c9ffab33db2a4b1fbfd127a9d7beffd701d6634c7c2e7788ec71ef15c2215889c8fb30fdb2d88863cd52f1846f467939ee2a1748f875137e7f5b1cdad99"
 
 RPROVIDES:${PN} += "pkgconfig-virglrenderer \
 virglrenderer-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libvirglrenderer1"
+libvirglrenderer1 \
+pkgconfig-epoxy \
+pkgconfig-gbm \
+pkgconfig-libdrm \
+pkgconfig-libva \
+pkgconfig-libva-drm \
+pkgconfig-x11"
 
 inherit rpm

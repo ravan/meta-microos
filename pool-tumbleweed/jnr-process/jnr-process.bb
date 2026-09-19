@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.12"
 
-RPM_NAME = "jnr-process-0.4.12-1.2.noarch.rpm"
-RPM_HASH = "adced3ec444c57d99583142d853dcdb5886fa61e2a3d8a2a0dacfc82f6ec57d7bb0f787432caa6ada205e5de6d5482dd763847e28ee96dafa63ee68101c12eb9"
+RPM_NAME = "jnr-process-0.4.12-3.3.noarch.rpm"
+RPM_HASH = "10353ac6fa6b4092f44650c0b717e6fad0064569905dd68099bac4c76271625000ce5d4cda24ff7a65edb07d41022b7dfa4baae29600cb9561233fab6b7bc88f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-process \

@@ -2,10 +2,10 @@ SUMMARY = "A keybinding viewer for i3 and other programs"
 DESCRIPTION = "A keybinding viewer for i3 and other programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.4.0"
+PV = "1.4.4"
 
-RPM_NAME = "remontoire-1.4.0-1.14.aarch64.rpm"
-RPM_HASH = "393cba89019c3db535a727ad059393b00c41824c9fab7fc0c5a455a35f54fc8b383ef329e74a75f01ae4b0b60a47e3ae47e73ac24ed97f4af312f5b27697054a"
+RPM_NAME = "remontoire-1.4.4-1.6.aarch64.rpm"
+RPM_HASH = "ec0573a6ef4b025168e3281bafede03183ae04818cb4bd21fb529ac3a2a66bf9378fc038e6bbde6cb51607bae24b500c82f19dca5c9513f1757c22b5abc9c7f0"
 
 RPROVIDES:${PN} += "remontoire"
 

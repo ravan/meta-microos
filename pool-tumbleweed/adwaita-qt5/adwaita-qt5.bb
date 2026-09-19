@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.2"
 
-RPM_NAME = "adwaita-qt5-1.4.2-3.4.aarch64.rpm"
-RPM_HASH = "8b53a23088335dd0c902a8305f4635a8fe49602d9c9172fcf1438307c6196ce0e8c009c753378ace75636b3389926041e8c4f66f018f2d161929b4dd985190c7"
+RPM_NAME = "adwaita-qt5-1.4.2-4.11.aarch64.rpm"
+RPM_HASH = "4d47ad84ba853704da4afcfa1e34f565a7aa26af554c6fc980bc5beea785ade6ac55fe0392e4b7cfcbae12f4227dee79685f4d823ce183a8e639be7ea1373531"
 
 RPROVIDES:${PN} += "adwaita-qt5"
 

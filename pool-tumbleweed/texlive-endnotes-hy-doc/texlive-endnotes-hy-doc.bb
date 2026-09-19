@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-endnotes-hy"
 DESCRIPTION = "This package includes the documentation for texlive-endnotes-hy"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54758"
+PV = "2026.226.svn54758"
 
-RPM_NAME = "texlive-endnotes-hy-doc-2023.209.svn54758-54.2.noarch.rpm"
-RPM_HASH = "364c0bcc86e08f1cb41df79f85afe9abdae49c346e3070624a076439889f9da6ef23ca4c39ed71c1ed041827acc0f9ee731873c60f0d1709f12edfa43585a404"
+RPM_NAME = "texlive-endnotes-hy-doc-2026.226.svn54758-61.4.noarch.rpm"
+RPM_HASH = "e6525a577ad975ebe5e2e42b34a70248337b061b7add112a924623033edb41d0a402551e3f905d51d9693dfaae517ee159c5b43e9835ae0a8ac777509f816a66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-endnotes-hy-doc"

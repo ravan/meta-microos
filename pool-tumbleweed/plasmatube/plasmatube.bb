@@ -3,29 +3,33 @@ DESCRIPTION = "PlasmaTube allows you to watch YouTube videos on your phone or de
 elegant user interface integrated with the rest of Plasma."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "plasmatube-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "17b4207e749157fcec1641f85becb0a245170e32dc35f6c1d680adb5669b0a2978d0c635f272cddc73f2d34993bf74a84b9112fffbfb5ffbf8f8c572d539602c"
+RPM_NAME = "plasmatube-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "665476a41b7ac769b948635492837ce63542932c6417c32bd2235c33c8dfc67170e66d89b76f1c5ba5587b11f7f15cdec558ee28ee41bdbd6bd8aff6a3108010"
 
 RPROVIDES:${PN} += "plasmatube"
 
-RDEPENDS:${PN} += "kirigami2 \
+RDEPENDS:${PN} += "kf6-kirigami-imports \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6WindowSystem.so.6 \
+libMpvQt.so.3 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libgcc-s.so.1 \
-libmpv.so.2 \
+libqt6keychain.so.1 \
 libstdc++.so.6 \
 yt-dlp"
 

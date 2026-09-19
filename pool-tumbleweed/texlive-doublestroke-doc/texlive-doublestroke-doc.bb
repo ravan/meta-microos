@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-doublestroke"
 DESCRIPTION = "This package includes the documentation for texlive-doublestroke"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.111svn15878"
+PV = "2026.226.1.111svn77682"
 
-RPM_NAME = "texlive-doublestroke-doc-2023.209.1.111svn15878-53.1.noarch.rpm"
-RPM_HASH = "fea38634e90cce12207fcd50c48e3077d0998e19f5fcf60e36057860119ecd139476784560cc27cbbb4d75ba73cbe55a35984de5e1c0afd4e6484f3ec9ab8195"
+RPM_NAME = "texlive-doublestroke-doc-2026.226.1.111svn77682-59.2.noarch.rpm"
+RPM_HASH = "528444400986def6184abe57fc92b8c74850718e2d5f7173c89f2dac6959aebc94a9f0e0cb90708cfe3d5be0e1d7069c6addab9e7cce77d127348ff5788209e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-doublestroke-doc"

@@ -6,10 +6,10 @@ local hard drive. \
 These are its development libraries and headers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.5.31"
+PV = "2.5.34"
 
-RPM_NAME = "libgphoto2-devel-2.5.31-1.1.aarch64.rpm"
-RPM_HASH = "33b4a4dfe9b682ebcd62f4b359aa5c9155afa0aada04f8876a27d5124772461c03e1637c0791b80afa1705e8ac11f87fdd70ee61d15e2bb11b45a61811fa1de2"
+RPM_NAME = "libgphoto2-devel-2.5.34-1.3.aarch64.rpm"
+RPM_HASH = "6da3a993a7057ad15acf5f0e9c3f7c3ec32c4df98ca63683be53807a8206f4de3ab7a486469332da0944f43c2906f325dce7a1d0f3e8722f8ed4b25c96bdec12"
 
 RPROVIDES:${PN} += "libgphoto2-devel \
 pkgconfig-libgphoto2 \

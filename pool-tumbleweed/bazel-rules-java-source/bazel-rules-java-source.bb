@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20190628"
 
-RPM_NAME = "bazel-rules-java-source-20190628-1.10.noarch.rpm"
-RPM_HASH = "e1c8819012171ea3391b044fef6b131e750cf3f7f2891e45b406c600bd1a1c5219da32f026158c62d79c7a47e450a7ab4e792182fb4bda5b55ce8c4ff1b24008"
+RPM_NAME = "bazel-rules-java-source-20190628-1.18.noarch.rpm"
+RPM_HASH = "1a3e3442ead23ef59e234512755ae41fdde79e8af1947486c87ca6b51b4f0ace0b7a3a58557136b4d34c02f00fcc7ac7e983b6b151a754aaebd19b81e2d79116"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-java-source"

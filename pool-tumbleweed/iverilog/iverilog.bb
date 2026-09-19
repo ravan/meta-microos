@@ -4,10 +4,10 @@ engineering formats, including simulation. It strives to be true \
 to the IEEE-1364 standard."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "11.0"
+PV = "13.0"
 
-RPM_NAME = "iverilog-11.0-1.12.aarch64.rpm"
-RPM_HASH = "5c4f8d81e3839d758cbbe1cd6b1469cdc2cf882e5c0c1edf5220664562c19710d1b11e17af8e50a5ebdf6e00e5f686943049d766d30498f5a9c7431aad20056e"
+RPM_NAME = "iverilog-13.0-1.4.aarch64.rpm"
+RPM_HASH = "1bb3c19672d8f8537543fc3a545c945f6e45bb618e70f25828744ac8cb969f85118e4f3efc01454dfd5d98bfd57d029bf5819a9eab0295a9ddba415b8b9c6e84"
 
 RPROVIDES:${PN} += "iverilog"
 

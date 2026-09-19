@@ -2,10 +2,10 @@ SUMMARY = "Binary files of multibibliography"
 DESCRIPTION = "Binary files of multibibliography"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn30534"
+PV = "2026.20260301.svn30534"
 
-RPM_NAME = "texlive-multibibliography-bin-2023.20230311.svn30534-93.2.aarch64.rpm"
-RPM_HASH = "d8a643375cafe6e05d8defd64648b265ae6b833b9cb1ecbe941fa0bcfded6b6c035efc57439926456c805b8291b7229e1a27d78fe06f4fc53cd7c7da848ae5a6"
+RPM_NAME = "texlive-multibibliography-bin-2026.20260301.svn30534-120.4.aarch64.rpm"
+RPM_HASH = "7a815550d78b9c5b02c6dee1eae1a2ba25d9461ed3e6d79439a9346880461d8d1d04b3fde7d66894ce56c53b10df54e93ba754fde029ec8cb46d173375baa4de"
 
 RPROVIDES:${PN} += "texlive-multibibliography-bin"
 

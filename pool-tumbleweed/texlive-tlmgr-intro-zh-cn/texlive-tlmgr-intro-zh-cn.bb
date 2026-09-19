@@ -4,10 +4,10 @@ introduces some of the common usage of the TeX Live Manager. \
 The original can be found in the tlmgrbasics package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn59100"
+PV = "2026.226.svn59100"
 
-RPM_NAME = "texlive-tlmgr-intro-zh-cn-2023.209.svn59100-53.1.noarch.rpm"
-RPM_HASH = "6726b43a1e008c0dc116316ce4da854b94a0c1c6670e2367b07b637464abec9b01b5d4ecd4fd576190634e98c6edababedffac26b3c673033a6b7b598cc48124"
+RPM_NAME = "texlive-tlmgr-intro-zh-cn-2026.226.svn59100-59.2.noarch.rpm"
+RPM_HASH = "f3308cadec8ee36100b0e41bd726d4fe33548870f7794d0007282961b2ee8c780dbf4472e9633e4ec87dcefad84e217d962ddfdc1170ed7637161e05fe9972d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tlmgr-intro-zh-cn"

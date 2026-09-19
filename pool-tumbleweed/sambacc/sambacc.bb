@@ -5,15 +5,16 @@ automate all of the low level steps of setting up smbd, users, groups, and other
 supporting components."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "v0.2+git.108.e7850e0"
+PV = "v0.6+git.60.2f89a38"
 
-RPM_NAME = "sambacc-v0.2+git.108.e7850e0-1.3.noarch.rpm"
-RPM_HASH = "fd79def5def4f9ce4075b8e66cc4b55eca1e1f779dc9da080f31d1f944c22a7b1058f636901b66462fc69f634edfda0026ce583f0703fa7765f26b0580504b60"
+RPM_NAME = "sambacc-v0.6+git.60.2f89a38-1.5.noarch.rpm"
+RPM_HASH = "5ab42ec55cea28a2bc65b09dd25a20eeed7abe5d576b16d52472831b7a9db359077752eb3e5e2186a088bda5a8ccd964e30e2a592fb8679828d942d91a9f72b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sambacc"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/python3.13 \
 python3-sambacc"
 
 inherit rpm

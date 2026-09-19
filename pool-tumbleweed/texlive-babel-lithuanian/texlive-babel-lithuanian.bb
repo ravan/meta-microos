@@ -4,10 +4,10 @@ moved from the lithuanian package into a new package \
 babel-lithuanian to match babel support for other languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn66513"
+PV = "2026.226.1.0svn66513"
 
-RPM_NAME = "texlive-babel-lithuanian-2023.209.1.0svn66513-54.1.noarch.rpm"
-RPM_HASH = "412739e74f0066b914b8a66090b7577e332803c871f391d497e1bbdc91cbdfd5b8adc245fff49e4b5fb6ab4f92cef2f96bee96955226380ee23e9bfdd960dd29"
+RPM_NAME = "texlive-babel-lithuanian-2026.226.1.0svn66513-60.2.noarch.rpm"
+RPM_HASH = "79db8dbaad62a0ef1ceee9e767c3477a0d97acbfe994d684c230dbc8573ccee8a4251c3f4c95129a98895a84227406568ce486235f1fdef3f84fa4fd0d0f4f54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lithuanian.ldf \

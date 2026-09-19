@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chess-problem-diagrams"
 DESCRIPTION = "This package includes the documentation for texlive-chess-problem-diagrams"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.21svn63708"
+PV = "2026.226.1.23svn78101"
 
-RPM_NAME = "texlive-chess-problem-diagrams-doc-2023.209.1.21svn63708-54.1.noarch.rpm"
-RPM_HASH = "2c86678fd9c8c40bdb8da8db0c0560cb3e07d8e0a62af1dd9d7ae5f80e1cedf1875a3e68da5f283726a34a73a119cbba8f5be0647b584e5a400d8ef3bb8a81b4"
+RPM_NAME = "texlive-chess-problem-diagrams-doc-2026.226.1.23svn78101-60.2.noarch.rpm"
+RPM_HASH = "96ffbfabc8fd90d2cab89b9d529698e3aafae85da64d26b96bf11ac28243bc406f9d6e6d0f28584bfaacb2ad8e98637e4af3c1642d6acbf8c4101b85b7f93c7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chess-problem-diagrams-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Hunspell Plugin for the Qt5 Virtual Keyboard"
 DESCRIPTION = "This package provides a hunspell spell checking plugin for the Qt Virtual Keyboard."
 LICENSE = "GPL-3.0"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtvirtualkeyboard-hunspell-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "d7a97543e18ed83d6330af41c05e0b76ff3242dd7267b0009fad1852302937967d6b95ff14506fa458d1d9e9d6150da1bfa374bb5e3c9c4195f1fd0ae12ed5d7"
+RPM_NAME = "libqt5-qtvirtualkeyboard-hunspell-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "a7b00aea1029eda30aaefd1ea2d3a3d01a62fe0c55342a59c8745b293941a7a8fd237008c6a80972fbe996d58316c3cedfbddfe4ae11fb47014da8e2c4b86b28"
 
 RPROVIDES:${PN} += "libqt5-qtvirtualkeyboard-hunspell \
 libqtvirtualkeyboard-hunspell.so"

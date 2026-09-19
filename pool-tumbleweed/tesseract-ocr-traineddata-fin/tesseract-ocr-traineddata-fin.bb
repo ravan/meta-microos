@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Finnish lan
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-fin-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "bd5fb98ba4fe4383260c76413d2be51361d60df7ac1c24837e7f555d7dd95a7a90c3063d9f03a19da224a29b0e2c306bafafb1d05792c3378063ff2f6cb9fa50"
+RPM_NAME = "tesseract-ocr-traineddata-fin-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "0c16f2d41b538849bd3fdeb8ee19918f85b0906f4b5fb505bceb85345b677569b673934add10386cd7cdf3d97735c93777ee9be4de89e14cea12765f82497615"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-fin \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-fi \
+tesseract-ocr-traineddata-fin \
 tesseract-ocr-traineddata-finnish \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-finnish"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

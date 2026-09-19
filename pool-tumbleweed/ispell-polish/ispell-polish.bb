@@ -7,8 +7,8 @@ LICENSE = "CC-BY-SA-1.0 & GPL-2.0-only & LGPL-2.1-only & MPL-1.1"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-polish-1.5-422.6.aarch64.rpm"
-RPM_HASH = "4c18303b0cb3d284962e44f1bf36c30216fd1507e1d1c87be0a4a2e1a53d3d2dcfd348c642316e3d8f6942796d00a65b9059477e848a0dd58e624e1e198468ea"
+RPM_NAME = "ispell-polish-1.5-426.1.aarch64.rpm"
+RPM_HASH = "5642eaf1abe517116564283e70dcce54ede715ea4aa278baa1837cff8993f3b42296802407455920ae2fafb13225d7df114c0e8eeb32621df839361137d1ef30"
 
 RPROVIDES:${PN} += "ipolish \
 ispell-dictionary \

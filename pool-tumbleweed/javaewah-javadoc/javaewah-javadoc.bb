@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for javaewah"
 DESCRIPTION = "API documentation for javaewah."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.6"
+PV = "1.2.3"
 
-RPM_NAME = "javaewah-javadoc-1.1.6-3.1.noarch.rpm"
-RPM_HASH = "39330b04a64123595728c3671848b778c21914d72b1e481c1659c916996b6075732af980ca4203e81e20c4331784984ec2eef81026c9913edd32bab8474eff2e"
+RPM_NAME = "javaewah-javadoc-1.2.3-1.9.noarch.rpm"
+RPM_HASH = "6b881c3b120848df5fedbe2acc3ab0bd9686837259cbd0666bf2664625d44ac9304f5c9a556a1ff6227e15fbb021aaf1eb6c55a921ebb040359da2f4c159c87c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javaewah-javadoc"

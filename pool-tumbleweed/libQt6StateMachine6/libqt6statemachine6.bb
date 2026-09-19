@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 StateMachine library"
 DESCRIPTION = "The Qt 6 StateMachine library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6StateMachine6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "b8644d4be48a90e4f23cd2db9a1b4e689923cced6e23a980442e0ba000e9f48ec7dbaa2c7ed56871da2991b485bca7f7a765406176d99110ff1768a7454ef4be"
+RPM_NAME = "libQt6StateMachine6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "fe0c210c7d0d45ba4a3efffa54ab9cde60426ebd2be194681ab5a5da71f6135245501ac5a28e4a0092c9650bec214053d7b2622ee0560a1596af0f875facdbea"
 
 RPROVIDES:${PN} += "libQt6StateMachine.so.6 \
 libQt6StateMachine6"

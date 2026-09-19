@@ -2,17 +2,17 @@ SUMMARY = "Haskell lukko library development files"
 DESCRIPTION = "This package provides the Haskell lukko library development files."
 LICENSE = "GPL-2.0-or-later & BSD-3-Clause"
 
-PV = "0.1.1.3"
+PV = "0.1.2"
 
-RPM_NAME = "ghc-lukko-devel-0.1.1.3-5.8.aarch64.rpm"
-RPM_HASH = "caa6bc1fc643fefcb0fd1349ee92355920c5886c76893f414507d0c44e56a9e5d10f442cebbd819684f96d0c7a49185bdaf280e566fc32ea225287a316917f22"
+RPM_NAME = "ghc-lukko-devel-0.1.2-2.14.aarch64.rpm"
+RPM_HASH = "881cf5957be9661de28fba1a4430f2874e35cd49906015ee5e849db686f236e8ff29b3f07ad8140f01e7a9dacc41e69cbde144acf6bbd08f7941feca979a6d1b"
 
-RPROVIDES:${PN} += "ghc-devel-lukko-0.1.1.3-IWqFfSgydIZCIQyWjUior5 \
+RPROVIDES:${PN} += "ghc-devel-lukko-0.1.2-KyYOwE0CZU8A6c79eyT2Xk \
 ghc-lukko-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
+ghc-devel-base-4.21.2.0-8844 \
 ghc-lukko"
 
 inherit rpm

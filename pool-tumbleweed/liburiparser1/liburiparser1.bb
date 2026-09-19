@@ -5,10 +5,10 @@ and supports Unicode. \
 This package contains the shared library for uriparser."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.7"
+PV = "1.0.2"
 
-RPM_NAME = "liburiparser1-0.9.7-1.4.aarch64.rpm"
-RPM_HASH = "6a69f3577d479d14e8e236fce11b5549cb82899c3f19672fe7cc5720582e5808090a484016e0329c64160f2662e90486bc6d46e4b9d1cd6537592ae2e466e586"
+RPM_NAME = "liburiparser1-1.0.2-2.2.aarch64.rpm"
+RPM_HASH = "eadaba7123d7bf60a27976f96302525a8dd5c21a3137c4323c5a36b3a11596bc80fe4edfe017ac247c91fadee8dcdba65607783dce972364c1b2cb136397eece"
 
 RPROVIDES:${PN} += "liburiparser.so.1 \
 liburiparser1"

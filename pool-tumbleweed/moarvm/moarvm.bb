@@ -12,10 +12,10 @@ sockets, timers, processes, and more \
 Generational, parallel, garbage collection"
 LICENSE = "Artistic-2.0"
 
-PV = "2022.07"
+PV = "2025.05"
 
-RPM_NAME = "moarvm-2022.07-4.4.aarch64.rpm"
-RPM_HASH = "efe78378851ba25c0d1a648e065aab944ebea6bfaf50e134de5ac863acf58a30c24374e2f936a98a506119986939591727208efc0c3c318247c9f5d64881301f"
+RPM_NAME = "moarvm-2025.05-1.6.aarch64.rpm"
+RPM_HASH = "09f472e10018c861b623d2a837f52fded0b7031e0cb185917836a1fcd84dc2e443f62cb35d1299f37d415b514dd728398fc55c74338f9936b0b90ea0b8b9d687"
 
 RPROVIDES:${PN} += "libmoar.so \
 moarvm"

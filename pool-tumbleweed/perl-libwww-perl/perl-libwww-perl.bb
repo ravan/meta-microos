@@ -2,10 +2,10 @@ SUMMARY = "The World-Wide Web library for Perl"
 DESCRIPTION = "The World-Wide Web library for Perl"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.720.0"
+PV = "6.830.0"
 
-RPM_NAME = "perl-libwww-perl-6.720.0-1.2.noarch.rpm"
-RPM_HASH = "3d6e89a309a321eaeb355a4cc58ddcdfc8831029cc3de21080d142d88663b8a38530f5089a78195ceb4835c3b50c6c8d342608f1e779891a0709752d3bbef6c8"
+RPM_NAME = "perl-libwww-perl-6.830.0-1.3.noarch.rpm"
+RPM_HASH = "9a9cb1f1e900b1934be0a37121d47550fcf1065ed72d88b0135c5c5a76671851c6e281ca123227575d2319736ce4912d412afa656fabcaecff06680c5c9ff5dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP \
@@ -34,14 +34,14 @@ perl-LWP--UserAgent \
 perl-libwww-perl"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Encode--Locale \
 perl-File--Listing \
 perl-HTML--Entities \
 perl-HTML--HeadParser \
-perl-HTTP--CookieJar--LWP \
 perl-HTTP--Cookies \
 perl-HTTP--Date \
+perl-HTTP--Message \
 perl-HTTP--Negotiate \
 perl-HTTP--Request \
 perl-HTTP--Request--Common \

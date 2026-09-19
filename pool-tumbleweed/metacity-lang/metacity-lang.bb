@@ -2,10 +2,10 @@ SUMMARY = "Translations for package metacity"
 DESCRIPTION = "Provides translations for the 'metacity' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.46.1"
+PV = "3.56.0"
 
-RPM_NAME = "metacity-lang-3.46.1-1.2.noarch.rpm"
-RPM_HASH = "8a444ede01d8ad3d05a7d65c3e13855ce4efafad07cd8f62cd082bf2f9ad8374819a51f8e204dcdd89dcb0052d5a6bacbcb02f8739f16ea00295d0378aa8084f"
+RPM_NAME = "metacity-lang-3.56.0-1.6.noarch.rpm"
+RPM_HASH = "eb537b8aeea4f5151409607f1014c51b747883f95866b301a5e923b2a764924157c345fc3b4e681edfce0a5943643f8506c81f1b70f7a224216ace6444830cd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-metacity-ar \

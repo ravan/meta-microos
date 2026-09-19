@@ -1,12 +1,12 @@
-SUMMARY = "A LaTeX course written in brazilian portuguese language"
-DESCRIPTION = "This is a LaTeX2e course written in brazilian portuguese \
+SUMMARY = "A LaTeX course written in Brazilian Portuguese language"
+DESCRIPTION = "This is a LaTeX2e course written in Brazilian Portuguese \
 language."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5.8svn63374"
+PV = "2026.226.svn77105"
 
-RPM_NAME = "texlive-latex-via-exemplos-2023.209.0.0.5.8svn63374-56.1.noarch.rpm"
-RPM_HASH = "b177c3ea56b4cc3f8bdca22ac1f3abbdac5f21be3b8b3d81720f9f86908c1896a8051db2adeb5897387395e75372df20d4e6de323c3e4687848eb86376831660"
+RPM_NAME = "texlive-latex-via-exemplos-2026.226.svn77105-63.2.noarch.rpm"
+RPM_HASH = "82a9e01f25c631ef4e7abcbfb069d6b75616eb913794efdf6f885094889ac44f2d1ac82420c3a966152ca41d85dfd1daa6ceabff2305549662a82f82d31659bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-via-exemplos"

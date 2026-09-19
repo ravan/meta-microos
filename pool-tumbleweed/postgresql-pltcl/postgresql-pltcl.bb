@@ -9,15 +9,17 @@ With thie module one can use Tcl to write stored procedures, functions, \
 and triggers."
 LICENSE = "PostgreSQL"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "postgresql-pltcl-15-2.12.noarch.rpm"
-RPM_HASH = "b1919da76a10775169748d36ed33ec02b09e3013dd8c0a1fc243e3b8842acdf40f0558c55c7c1b31b470ab184837561ef5371099debda739f53725238bf7b870"
+RPM_NAME = "postgresql-pltcl-18-3.4.noarch.rpm"
+RPM_HASH = "f72c39db886f525c9f900c06355b4f6793cd7e1e0e38bddeb78a442b856453d31bb3a51a90b53c9aaef50cec96f051182704db596feb88ce10aae77b4fa1d827"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-pltcl \
 postgresql-pltcl-noarch"
 
-RDEPENDS:${PN} += "postgresql-pltcl-implementation"
+RDEPENDS:${PN} += "postgresql \
+postgresql-noarch \
+postgresql-pltcl-implementation"
 
 inherit rpm

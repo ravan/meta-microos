@@ -3,13 +3,14 @@ DESCRIPTION = "This package provides the required support files and macros \
 to create binary package for Windows with the CMake build system"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.5"
+PV = "1.1.6"
 
-RPM_NAME = "mingw32-cross-cmake-1.1.5-1.1.noarch.rpm"
-RPM_HASH = "e5ebc82ec0fc83527d4baf3e1b888705cde780202ad1e93a49d1cf6ab6c5c520184a5728695d119ee604677047b8d611a52302c9a75f9d8273e204f792d080a8"
+RPM_NAME = "mingw32-cross-cmake-1.1.6-1.4.noarch.rpm"
+RPM_HASH = "f9ca01d27b49582014491b43faf05e3b0b9bf97a4141ef25f8c456a1f78d7c4f96ebb3ba37c119739b030ffa33c138477118cfd0f39b2ecbf2f52ec256af53df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-cross-cmake \
+rpm-lua-mingw32-cmake \
 rpm-macro--mingw32-cmake \
 rpm-macro--mingw32-cmake-build \
 rpm-macro--mingw32-cmake-install \

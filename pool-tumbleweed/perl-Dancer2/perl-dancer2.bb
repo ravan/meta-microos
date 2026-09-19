@@ -16,10 +16,10 @@ This is the main module for the Dancer2 distribution. It contains logic for \
 creating a new Dancer2 application."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.400001"
+PV = "1.1.2"
 
-RPM_NAME = "perl-Dancer2-0.400001-1.3.noarch.rpm"
-RPM_HASH = "560b37e80ce6f2f10440029220187264832c28821b43c46b4968fa447bf538c6a975c26c9f3e907659762ad8a4390ac8d444d2587f16e51a8d45d821de813e0e"
+RPM_NAME = "perl-Dancer2-1.1.2-1.10.noarch.rpm"
+RPM_HASH = "c32495230568865cf4b395f46d3a43ac78e7b1ef47caa2613c5f084a4bfb14dd1a6fe551e9f188ba250021a0d949f31e83f0ff9bdecfda7482c6c43da1a408f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dancer2 \
@@ -81,7 +81,7 @@ perl-Dancer2--Template--Tiny \
 perl-Dancer2--Test"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-CLI--Osprey \
 perl-Clone \
 perl-Config--Any \
@@ -98,6 +98,7 @@ perl-Import--Into \
 perl-JSON--MaybeXS \
 perl-List--Util \
 perl-MIME--Base64 \
+perl-Module--Pluggable \
 perl-Module--Runtime \
 perl-Moo \
 perl-Moo--Role \

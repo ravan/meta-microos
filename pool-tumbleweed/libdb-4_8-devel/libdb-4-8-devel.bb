@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & Sleepycat"
 
 PV = "4.8.30"
 
-RPM_NAME = "libdb-4_8-devel-4.8.30-42.1.aarch64.rpm"
-RPM_HASH = "0e09faf4d1324858dba8090ec7708267ad9554bec8ffc12a0a8f11f47e64c0e6771af40f79c60e895468d59c0b7c7f40217c2a4edf40716113532a029838bb08"
+RPM_NAME = "libdb-4_8-devel-4.8.30-48.3.aarch64.rpm"
+RPM_HASH = "4b931aecde6873966ff8b56cafadb9e319d9dd792ffea05f33c0bbd415a85c101362ec529815de80efe81e4d0362f0f7c875884d20026a14043755bb11bf75e3"
 
 RPROVIDES:${PN} += "db-devel \
 libdb-4-8-devel"

@@ -1,12 +1,12 @@
 SUMMARY = "Command line tool for URL parsing and manipulation"
 DESCRIPTION = "A CLI tool that parses and manipulates URLs, designed to help \
 shell script authors everywhere."
-LICENSE = "MIT"
+LICENSE = "curl"
 
-PV = "0.8"
+PV = "0.16.1"
 
-RPM_NAME = "trurl-0.8-1.1.aarch64.rpm"
-RPM_HASH = "4718d9d3c8f42ace4fecdccf0ec5a23a13c6783f5bb11fbb4b11d3a9732c6863ebf9eae2b27af8e9111cf4a417990551c4924fb19f2eb4a89dee4ffbb02599d6"
+RPM_NAME = "trurl-0.16.1-4.3.aarch64.rpm"
+RPM_HASH = "cbb2c7167d31471432c5be54ecc5421c8ca7e8cb8021733620e41a8fdac91c3a6f7cb8a63238adf646d2a5fbce4da9e282bb0d45b59e678dff79785d13878886"
 
 RPROVIDES:${PN} += "trurl"
 

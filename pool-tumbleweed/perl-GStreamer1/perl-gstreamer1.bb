@@ -1,20 +1,22 @@
-SUMMARY = "Perl interface to the GStreamer library"
-DESCRIPTION = "This package provides perl bindings for GStreamer 1.x. \
-GStreamer is a library for constructing graphs of media-handling \
-components. The applications it supports range from simple \
-OGG Vorbis playback, audio/video streaming to complex audio \
-(mixing) and video (non-linear editing) processing."
+SUMMARY = "Bindings for GStreamer 1.0, the open source multimedia framework"
+DESCRIPTION = "GStreamer1 implements a framework that allows for processing and encoding \
+of multimedia sources in a manner similar to a shell pipeline. \
+ \
+Because it's introspection-based, most of the classes follow directly from \
+the C API. Therefore, most of the documentation is by example rather than a \
+full breakdown of the class structure."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.003"
+PV = "0.3.0"
 
-RPM_NAME = "perl-GStreamer1-0.003-1.31.aarch64.rpm"
-RPM_HASH = "c0147e838979dda3a6d8baf04ed8eb16cc63bae8619d2fa545c10c28749efc639e0b40f28b895f872f2b4f7e69d9c0085ba0632b11bd7dfe7195b204007e8792"
+RPM_NAME = "perl-GStreamer1-0.3.0-1.7.noarch.rpm"
+RPM_HASH = "ff7289d2fd0e9a25c2fb511263653ac0a00f8ec6c3779186673898863f7a8e8ce8260a471e5d31a366a747851185f580335dfd18bde1cccc6299104450a0ac13"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-GStreamer1 \
 perl-GStreamer1--Caps--Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Glib--Object--Introspection \
 typelib-1-0-Gst-1-0 \
 typelib-1-0-GstApp-1-0"

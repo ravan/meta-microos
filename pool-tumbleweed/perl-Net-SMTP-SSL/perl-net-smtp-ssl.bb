@@ -10,14 +10,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.04"
 
-RPM_NAME = "perl-Net-SMTP-SSL-1.04-1.25.noarch.rpm"
-RPM_HASH = "dbe257f07f3b1713222a568dd0a338143fb8366861bc765ec05483715587844096c240a86216ca454416c20f83bfdddf21dca4f143371c0e87a43dab1da0146b"
+RPM_NAME = "perl-Net-SMTP-SSL-1.04-1.39.noarch.rpm"
+RPM_HASH = "0f0e195299a8efcd8bac4da73421e40530302341d9d2aa4ffba664c93dd2864e8a9aed086d09e59dacce09289fe33bb608be5ce26ae9f9c570d467f4f652f4ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--SMTP--SSL \
 perl-Net-SMTP-SSL"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IO--Socket--SSL"
 
 inherit rpm

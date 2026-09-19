@@ -8,10 +8,10 @@ font in LaTeX, and includes both the TrueType fonts, and \
 conversions to Adobe Type 1 format."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.2svn54512"
+PV = "2026.226.3.2svn77682"
 
-RPM_NAME = "texlive-comfortaa-2023.209.3.2svn54512-54.1.noarch.rpm"
-RPM_HASH = "45aa501f7d02d82c64b238f4a8cbd1268bff30800930c0660664847fa011908b27a638c80c54f853802870437184d4b1b0c2e821301c58a7b7ead73bb62a537b"
+RPM_NAME = "texlive-comfortaa-2026.226.3.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "fb7140e5abbb96b4c612305d7b47406f85303587703cd78809e30d4453dc4fab216ec7e855a377455e13fc8fd7ea97afe1ae5bdd41e7140789dfeaf77c388b77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Comfortaa-Bold-LGR--base.tfm \

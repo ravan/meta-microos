@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.92.0"
 
-RPM_NAME = "dina-bitmap-fonts-2.92.0-2.14.noarch.rpm"
-RPM_HASH = "a478db2f574b8977f71ab26884536d255748f14b2368e45b751fdee6f31ad952e8bd817baa5e942a5825a28ee052171d11d59e6147b8f3ec736d8f988e463f29"
+RPM_NAME = "dina-bitmap-fonts-2.92.0-2.22.noarch.rpm"
+RPM_HASH = "ca1d99f37f8840522feee998c0da00d8f89651554be7868007d29b5296fa0b3ce97912fb1528895de8fd154ef7340463b080615f8d36b70ef4c0ec2a1d54b137"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dina-bitmap-fonts"

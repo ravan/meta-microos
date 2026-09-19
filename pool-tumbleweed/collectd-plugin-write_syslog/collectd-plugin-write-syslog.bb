@@ -2,10 +2,10 @@ SUMMARY = "Write Syslog plugin for collectd"
 DESCRIPTION = "Optional collectd plugin to write values lists as syslog messages."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-write_syslog-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "c8373a214a27b84bca690f7194e9ed584bb201148a73249da94f7a6baf2c4c0fb639a4ceb4999cb3886b5c586c11bb608702a769b4b825f0d95e71bb6575c7a3"
+RPM_NAME = "collectd-plugin-write_syslog-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "2b8b0921b0720a9c2472fcd0fdcac68f8dda7db2ec1c5770c4c51cabc2677eb591d9d693e2f799b7d01962b66727d69a296e013eeea705f32602c08281b69d16"
 
 RPROVIDES:${PN} += "collectd-plugin-write-syslog"
 

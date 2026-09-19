@@ -31,8 +31,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.008"
 
-RPM_NAME = "google-alegreya-fonts-2.008-1.6.noarch.rpm"
-RPM_HASH = "21d87b8f84fdec2b057fa567dd9bd5318eb510959ea9d410550f4b23909657870b98b634c26cec3d59e98670303f50bbff837ed997386d90e352f801a4053c6e"
+RPM_NAME = "google-alegreya-fonts-2.008-1.14.noarch.rpm"
+RPM_HASH = "1517f3c33463d0c9fd416271c659274bc0b660c8cd2b4a65fc5f673f6aa216cdb33347ea54a91236719a05d3056135cda7045954c7b4d88f088fba8f6bac8dc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-alegreya-fonts"

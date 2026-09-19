@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.01"
 
-RPM_NAME = "perl-Mail-SPF_XS-0.01-6.14.aarch64.rpm"
-RPM_HASH = "2956ad80f0b5beea2f02d0f3e26ce0fa0cd17803817d40e18c63aed77fd229606b5167213304c00ce638661228480ec218e0da770b07d32dad8a2ff9c24d2317"
+RPM_NAME = "perl-Mail-SPF_XS-0.01-8.13.aarch64.rpm"
+RPM_HASH = "b30f97ac3558197f538addcda68ae274ac2b34791834f98d40a0b4f1d8bfe32683a244c24be0a875dcd76e8ababfd67e73858205b9311a81c818707066a2d0bd"
 
 RPROVIDES:${PN} += "perl-Mail--SPF-XS \
 perl-Mail-SPF-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

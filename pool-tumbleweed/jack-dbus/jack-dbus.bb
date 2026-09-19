@@ -5,12 +5,12 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.9.22"
 
-RPM_NAME = "jack-dbus-1.9.22-2.2.aarch64.rpm"
-RPM_HASH = "a49fa954f0075bfd3a2ebd7aa2c63d169e5afeca8d3972d595570f23a1cb9a1afe5236a1215f67ed199a0e4bb97150e1e5afadc4aeccc6a11a4e60f385d683c2"
+RPM_NAME = "jack-dbus-1.9.22-5.5.aarch64.rpm"
+RPM_HASH = "9acb39e373ede5fa02bbe9f943cda7223627b016457d7a2b4f102bf61a56b175c5fadfc93ac33ea589e6bb5afa2f1fff0c5f11c816e7a396a0773cac13955f16"
 
 RPROVIDES:${PN} += "jack-dbus"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 jack-daemon \
 ld-linux-aarch64.so.1 \
 libc.so.6 \

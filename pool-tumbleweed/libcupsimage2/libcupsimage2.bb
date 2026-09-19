@@ -6,10 +6,10 @@ the CUPS image file filters, the PostScript RIP, and all raster \
 printers drivers."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.2"
+PV = "2.4.19"
 
-RPM_NAME = "libcupsimage2-2.4.2-6.1.aarch64.rpm"
-RPM_HASH = "c9c7aa72d4b564af1d21e2ccca088190f1797557c7c90474fe701216dc2f9dfe58248310a71ef8898bf00ec6c25f5bf5fbe5df646c3e12aa698b81aaea7c4eee"
+RPM_NAME = "libcupsimage2-2.4.19-3.1.aarch64.rpm"
+RPM_HASH = "fb378b1ab6b67112824d3ac11c34ed3928ac1d6b86f295c1e06105bb5e820dcc2b1f013657aeb9fe1d7ecfe886123e7946c19827fc6b53f6f41664220211b90b"
 
 RPROVIDES:${PN} += "libcupsimage.so.2 \
 libcupsimage2"

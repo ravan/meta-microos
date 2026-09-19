@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains documentation for U-Boot firmware."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-libretech-ac-doc-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "007444a8bb90475c6e17eaddf202f52908d30559f6dd1ec4bfb80ecc7b7aff7ab013f690bbee43b94232f05ba3d21894806f38a06ccfb1964608889eb1eef3a1"
+RPM_NAME = "u-boot-libretech-ac-doc-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "30902cc80350db14df1dfeaddf79394ef381de4e8e0c819487740d68a5a8cb991fd914a5990afb42e9942cb8708bcc33099dec692d4071f6b0fd46360b98c32d"
 
 RPROVIDES:${PN} += "u-boot-libretech-ac-doc"
 

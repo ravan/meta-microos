@@ -3,18 +3,18 @@ DESCRIPTION = "This package provides the Haskell ansi-terminal-types library dev
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.11.5"
+PV = "1.1.3"
 
-RPM_NAME = "ghc-ansi-terminal-types-devel-0.11.5-1.3.aarch64.rpm"
-RPM_HASH = "61b5fa315087c47ecadaa5b9df38a454315cfd07b19a4be9522820c4ab17cc474b32e356da0e711007b3170ad3a13ed911d7238e40e1e2eb68260620e63a3ab6"
+RPM_NAME = "ghc-ansi-terminal-types-devel-1.1.3-1.10.aarch64.rpm"
+RPM_HASH = "b475a6ac86555749630b1cfaeb084b15962ce5780dd25c9eb55ef037b5fbaf37e98646930b1c395e8f151a1c37872e865b8897a25b341bbbcb7a892f0912d3bc"
 
 RPROVIDES:${PN} += "ghc-ansi-terminal-types-devel \
-ghc-devel-ansi-terminal-types-0.11.5-1ECcaJ3QBZ1LkDeP7l0nlp"
+ghc-devel-ansi-terminal-types-1.1.3-Cca3c5mUWg4AnUjMARf0p6"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-ansi-terminal-types \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-colour-2.3.6-GBcey48GJNAK3398XtiZDq"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-colour-2.3.7-LuxtbazHK7IK55ldBice4c"
 
 inherit rpm

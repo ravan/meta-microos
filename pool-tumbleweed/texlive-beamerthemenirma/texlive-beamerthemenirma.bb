@@ -4,10 +4,10 @@ includes nothing more than style file needed for preparing \
 presentations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn20765"
+PV = "2026.226.0.0.1svn20765"
 
-RPM_NAME = "texlive-beamerthemenirma-2023.209.0.0.1svn20765-54.1.noarch.rpm"
-RPM_HASH = "2eb3f097a765969825de89035aa445773484f42ae4422671da83092213f16800184170560419add3623d3db48a5bd89e8e7ce457ae3170eaef2de28ccb2d9c9b"
+RPM_NAME = "texlive-beamerthemenirma-2026.226.0.0.1svn20765-61.2.noarch.rpm"
+RPM_HASH = "12ab447fcbc5052588ec6199089bff2559eed62a06671492e0333803d0d629975082446dd44a59597bee26142aeb642fa1a025b48da626bdfce6c436f19725e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerthemenirma.sty \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0"
 
 PV = "1.6.3"
 
-RPM_NAME = "go-for-it-lang-1.6.3-1.27.noarch.rpm"
-RPM_HASH = "6c39a2d202d1374295265951be0bc70f61cf96b637ed3b630e1544d71edb3d10021adfe045e6f578cce1ab605327ead84064bc5bb8ace71b7e735cf1d6df735d"
+RPM_NAME = "go-for-it-lang-1.6.3-1.40.noarch.rpm"
+RPM_HASH = "8e4dcef7ebb181920b31d886432523a42e6ffc213fe4b369b27e21c34effa9b5af7856518785669e123ee6b693a80f180e0f166b72ba2fb1757cf9cce6122108"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "go-for-it-lang \

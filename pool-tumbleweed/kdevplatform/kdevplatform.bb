@@ -3,23 +3,21 @@ DESCRIPTION = "This package contains the common plugins for integrated developme
 environment based on the KDevelop framework."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdevplatform-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "583200a6a967cd89e8f5c0f1eb53b248a2b916f21578fbf12c277dbcbfa65014dabcb327822b62977c333f76a4a5db16b1c4f4c0c65aa6905a30f2e14dd98dab"
+RPM_NAME = "kdevplatform-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "d252ce94f07e3a5b09f9fa11d309d0f0603b2a6aae5b780faee95a873b52298f4fcdec2cb0c65dd53d89ef7a9cfb5a807d4fed52f5468a8fdafcb95559d7e9cc"
 
 RPROVIDES:${PN} += "kdevplatform"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/sh \
 /usr/bin/zsh \
-grantlee5 \
 ld-linux-aarch64.so.1 \
-libGrantlee-Templates.so.5 \
-libKDevPlatformLanguage.so.512 \
-libQt5Core.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
 libc.so.6 \
-libkdevplatform512 \
+libkdevplatform66 \
 libstdc++.so.6"
 
 inherit rpm

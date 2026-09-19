@@ -6,10 +6,10 @@ similar to many popular spread sheet programs. \
 This subpackage contains the header files for the library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.8"
+PV = "0.10"
 
-RPM_NAME = "spread-sheet-widget-devel-0.8-1.11.aarch64.rpm"
-RPM_HASH = "5c54b2deafcb4faa88d2a16b7d64402afff0471de3af85a6a6a33d8a58e5de49ee0020fb4c1262c531a66c18700797991034fa7338082c662ec2937149f433dc"
+RPM_NAME = "spread-sheet-widget-devel-0.10-1.10.aarch64.rpm"
+RPM_HASH = "f813c304b85a889023d21f0df02467da1aeb5fe3e109d85c6da120516fbfc3af327b6b4fe3ce26089bd2d03cbafaf84461e2ac46844ae5f9384d5b09682ec75f"
 
 RPROVIDES:${PN} += "pkgconfig-spread-sheet-widget \
 spread-sheet-widget-devel"

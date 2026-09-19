@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.5"
 
-RPM_NAME = "ibus-hangul-1.5.5-1.1.aarch64.rpm"
-RPM_HASH = "a0be33a2ac1812d9d0629425e94a3f803155b3e06823013fd19b8c73da4591d2acc5f24c75aad2c9d5f1483dc007b6c3cdbb03d4998dfa3a464facff4e473ca4"
+RPM_NAME = "ibus-hangul-1.5.5-3.6.aarch64.rpm"
+RPM_HASH = "06af7a52b0552c5c7743ef9d2740080d410e19b236fd78a769adce525933d530a20a29dab291621c53e96a44bd65e4eaf44e24b174c9b66ea7402ceb3906e852"
 
 RPROVIDES:${PN} += "ibus-hangul \
 locale-ibus-ko"

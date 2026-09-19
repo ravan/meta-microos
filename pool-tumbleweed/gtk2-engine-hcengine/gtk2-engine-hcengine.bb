@@ -1,12 +1,12 @@
 SUMMARY = "HC GTK+ 2 Theme Engine"
 DESCRIPTION = "The High Contrast engine is targeted for usability themes, such as the \
 GNOME HighContrast theme."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engine-hcengine-2.20.2-19.43.aarch64.rpm"
-RPM_HASH = "c73696c7f60bc3193789f4e6181c00e5a59c55a335296ba52bd6674ec93d9b89fd696b8d10fd6c9dd0d5d62a246cea5e81d5ed39cdbdc6900d5c28fcc8039f27"
+RPM_NAME = "gtk2-engine-hcengine-2.20.2-23.6.aarch64.rpm"
+RPM_HASH = "f6b9e5882d7e5ae977f37a03291cec94f91eedf228d96351dd96eb7322af60c4c5442a1804be6f2438bf543a4f359f8e416a87462e3326e4ed1a2cc45131d3a0"
 
 RPROVIDES:${PN} += "gtk2-engine-hcengine \
 libhcengine.so"

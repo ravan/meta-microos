@@ -2,17 +2,19 @@ SUMMARY = "A virtual Lighttable and Darkroom"
 DESCRIPTION = "darktable is a virtual lighttable and darkroom for photographers: it manages \
 digital negatives in a database and can show them through a zoomable \
 lighttable. It also enables developing raw images and enhance them."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later"
 
-PV = "4.4.2"
+PV = "5.6.1"
 
-RPM_NAME = "darktable-4.4.2-1.1.aarch64.rpm"
-RPM_HASH = "a5a340a053c38e9caeb014ab359a70d86ec3f8dc28e9010e250d550582590f37e4161a15bb171b5c2353e90ed5b3b061c7c03ec1e77d2be4db63ae9f0e540686"
+RPM_NAME = "darktable-5.6.1-1.1.aarch64.rpm"
+RPM_HASH = "84d687b75dbfe050ea0a3b92c1f31bfcd5d5f2929c292620662c3aff308ab05e2456a778698a898c791a0216f13bdda6348e5981fe17fba12777e2f2a14570b4"
 
 RPROVIDES:${PN} += "darktable \
 darktable-docs \
+libagx.so \
 libashift.so \
 libatrous.so \
+libavif.so \
 libbackgroundjobs.so \
 libbasecurve.so \
 libbasicadj.so \
@@ -36,6 +38,8 @@ libcolorbalancergb.so \
 libcolorchecker.so \
 libcolorcontrast.so \
 libcolorcorrection.so \
+libcolorequal.so \
+libcolorharmonizer.so \
 libcolorin.so \
 libcolorize.so \
 libcolorlabels.so \
@@ -59,6 +63,7 @@ libdisk.so \
 libdither.so \
 libduplicate.so \
 libemail.so \
+libenlargecanvas.so \
 libequalizer.so \
 libexport.so \
 libexposure.so \
@@ -79,6 +84,7 @@ libglobaltonemap.so \
 libgraduatednd.so \
 libgrain.so \
 libhazeremoval.so \
+libheif.so \
 libhighlights.so \
 libhighpass.so \
 libhinter.so \
@@ -93,7 +99,6 @@ libioporder.so \
 libj2k.so \
 libjpeg.so \
 libjpegxl.so \
-libknight.so \
 liblatex.so \
 liblens.so \
 liblevels.so \
@@ -102,6 +107,7 @@ liblighttable.so \
 libliquify.so \
 liblive-view.so \
 liblocation.so \
+liblog-history.so \
 liblowlight.so \
 liblowpass.so \
 liblut3d.so \
@@ -120,14 +126,17 @@ libnavigation.so \
 libnegadoctor.so \
 libnlmeans.so \
 liboverexposed.so \
+liboverlay.so \
 libpdf.so \
 libpfm.so \
 libpiwigo.so \
 libpng.so \
 libppm.so \
+libprimaries.so \
 libprint-settings.so \
 libprint.so \
 libprofile-gamma.so \
+librasterfile.so \
 libratings.so \
 librawdenoise.so \
 librawoverexposed.so \
@@ -169,14 +178,16 @@ libxcf.so \
 libzonesystem.so"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/env \
 iso-codes \
 ld-linux-aarch64.so.1 \
-libIex-3-1.so.30 \
-libImath-3-1.so.29 \
-libOpenEXR-3-1.so.30 \
+libIex-3-4.so.33 \
+libImath-3-2.so.30 \
+libOpenEXR-3-4.so.33 \
 libSDL2-2.0.so.0 \
 libX11.so.6 \
 libXrandr.so.2 \
+libavif.so.16 \
 libc.so.6 \
 libcairo.so.2 \
 libcolord-gtk.so.1 \
@@ -189,7 +200,7 @@ libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
-libgmic.so.3 \
+libgmic.so.4 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgomp.so.1 \
@@ -197,12 +208,12 @@ libgphoto2-port.so.12 \
 libgphoto2.so.6 \
 libgtk-3.so.0 \
 libheif.so.1 \
-libicui18n.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuuc.so.78 \
 libjpeg.so.8 \
 libjson-glib-1.0.so.0 \
-libjxl-threads.so.0.8 \
-libjxl.so.0.8 \
+libjxl-threads.so.0.11 \
+libjxl.so.0.11 \
 liblcms2.so.2 \
 liblensfun.so.1 \
 liblua5.4.so.5 \
@@ -213,15 +224,18 @@ libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
 libportmidi.so.2 \
+libpotrace.so.0 \
 libpugixml.so.1 \
+libraw.so.25 \
 librsvg-2.so.2 \
 libsecret-1.so.0 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
 libtiff.so.6 \
+libwayland-client.so.0 \
 libwebp.so.7 \
 libwebpmux.so.3 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

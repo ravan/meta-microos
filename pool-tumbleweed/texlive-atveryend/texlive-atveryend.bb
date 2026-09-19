@@ -1,16 +1,12 @@
 SUMMARY = "Hooks at the very end of a document"
-DESCRIPTION = "This LaTeX packages provides two hooks for \\end{document} that \
-are executed after the hook of \\AtEndDocument: \
-\\AfterLastShipout can be used for code that is to be executed \
-right after the last \\clearpage before the `.aux' file is \
-closed. \\AtVeryEndDocument is used for code after closing and \
-final reading of the `.aux' file."
+DESCRIPTION = "This LaTeX package provides some wrapper commands around LaTeX \
+end document hooks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.11svn53108"
+PV = "2026.226.1.12svn77682"
 
-RPM_NAME = "texlive-atveryend-2023.209.1.11svn53108-54.1.noarch.rpm"
-RPM_HASH = "1f7c8486dc196af7480bffc8f2ede24704ed1bb2104cb9a5fbe8fe6354df1b97d5c2e8c9b3ae216688b8f9ad24d6b32b8119adb6a9eefe22f69567c615a9032d"
+RPM_NAME = "texlive-atveryend-2026.226.1.12svn77682-60.2.noarch.rpm"
+RPM_HASH = "5861ec30c4181acf262b47477ef3fcfa6815748ede6e9ebd73fb5c7a51c0d6d64d71d8ae6b1ea6fb14009d4864446ff4ac771ac10a2bbf56be12feabe6d85e38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-atveryend.sty \

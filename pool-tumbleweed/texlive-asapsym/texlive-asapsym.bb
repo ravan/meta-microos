@@ -7,10 +7,10 @@ only XeTeX and LuaTeX are supported. An error message is issued \
 if an OTF-capable engine is not detected."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn40201"
+PV = "2026.226.1.0svn40201"
 
-RPM_NAME = "texlive-asapsym-2023.209.1.0svn40201-54.1.noarch.rpm"
-RPM_HASH = "d2728dc6c5869b68049b2618e290c7fc4697f5e82a5821713b6c65d410c3a79464342026cfb8be8f48edbc7f33e82612cbb43e3dbb5fbe46c35dc5776fde38b3"
+RPM_NAME = "texlive-asapsym-2026.226.1.0svn40201-60.2.noarch.rpm"
+RPM_HASH = "3be0e2139c7bb63114b683470f542ca6a98426f849ae122f703a24ba292cc3e63f124f386aa9c2d08291deac1fde4b063445766e00df837ca337021f500a6d03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asapsym-generic.tex \

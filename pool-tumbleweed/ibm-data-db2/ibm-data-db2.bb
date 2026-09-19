@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "ibm-data-db2-6.12.0-5.4.aarch64.rpm"
-RPM_HASH = "72d3c1940a770bb6fbbf1dbb3a087fe7307b36b6e7fac649d1c6b7367e3838f8fd9a1aa92e5f8a82b4fb6ebad48554e7abc2be2b228197c6e7d7a60a9e9f0f39"
+RPM_NAME = "ibm-data-db2-6.12.0-8.11.aarch64.rpm"
+RPM_HASH = "1fbdd7b8f7dcffa14eaa6f253373ffb2f076c6ffa195c8b689684b7fc1a64cc21d62611951998711bca0e750d705287a66fd30aada6d07e7f12633979fc0607d"
 
 RPROVIDES:${PN} += "ibm-data-db2 \
 mono-IBM.Data.DB2"

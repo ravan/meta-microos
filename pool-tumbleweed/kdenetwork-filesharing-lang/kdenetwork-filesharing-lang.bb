@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kdenetwork-filesharing"
 DESCRIPTION = "Provides translations for the 'kdenetwork-filesharing' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdenetwork-filesharing-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "f1a20fa4ea951e0eae55075c9add5222d79a637c99d36421580bef1699580117b43282f8e667fdaadc3c33eaec7111e7ee9587914de550bce65aae2a07b94d32"
+RPM_NAME = "kdenetwork-filesharing-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "be94fc3016a9b9976ec62b280c596c12bcfd1ce21a130debc7516baaa644b2c3c1a99d659504567e4ff340d93a33fdf9884367786e484fddc2af859e95d1252f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdenetwork-filesharing-lang \
 kdenetwork-filesharing-lang-all \
 locale-kdenetwork-filesharing-ar \
+locale-kdenetwork-filesharing-ast \
 locale-kdenetwork-filesharing-az \
 locale-kdenetwork-filesharing-be \
 locale-kdenetwork-filesharing-bg \

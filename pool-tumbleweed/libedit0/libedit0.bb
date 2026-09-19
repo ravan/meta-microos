@@ -4,10 +4,10 @@ to be used by interactive programs that allow the user to type commands \
 at a terminal prompt."
 LICENSE = "BSD-3-Clause"
 
-PV = "20210910.3.1"
+PV = "20250104.3.1"
 
-RPM_NAME = "libedit0-20210910.3.1-2.2.aarch64.rpm"
-RPM_HASH = "7449f24cde8162f1e0b0841a8bc3c170e77d030cae8633ef61d56f296c1ef38807c26a938b7b580b814d2b762ef696bc581da429ba73b72fd6f3fbec2ab6780f"
+RPM_NAME = "libedit0-20250104.3.1-1.5.aarch64.rpm"
+RPM_HASH = "7d41e434661e59ff874f9bb2879df125adba8d9a79cd294f83c181e0653548a874dc18b20befba9b0903670213847d1c12b584a00048744cf0bce21c036e6b4f"
 
 RPROVIDES:${PN} += "libedit \
 libedit.so.0 \

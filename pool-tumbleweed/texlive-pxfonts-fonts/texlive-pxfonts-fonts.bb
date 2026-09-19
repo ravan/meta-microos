@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-pxfonts"
 DESCRIPTION = "The  separated fonts package for texlive-pxfonts"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-pxfonts-fonts-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "e76de087cf128c8adf0ecbb57d7bb9eb7806aa7ad1988dae7c13c67f437ac8594413ce1f5120026b2c16119783a591d1274a77e4d99a66456a518a3a0a4b791c"
+RPM_NAME = "texlive-pxfonts-fonts-2026.226.svn77682-60.4.noarch.rpm"
+RPM_HASH = "d17bb327ee2eb9ebbb5709f67f34c0910c91bae2a1d16b11db8df77cf2b966b4a83ae30aaeb0e4ef9b870ca4638dcace625392492b01ad16f3b1f33d4beee2a2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

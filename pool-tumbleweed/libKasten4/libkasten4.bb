@@ -3,10 +3,10 @@ DESCRIPTION = "Kasten is a WIP higher-level framework for composable document-ce
 applications."
 LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "0.26.13"
+PV = "0.26.28"
 
-RPM_NAME = "libKasten4-0.26.13-1.1.aarch64.rpm"
-RPM_HASH = "a4b27874913fbcc5bdc2a8fc5d8ab62c41b087049cf79577d312846cd65b0f6b3802f595dafd1eafecf3f1505552d8a1b8b88658790d81baf8948d859baff9bd"
+RPM_NAME = "libKasten4-0.26.28-1.1.aarch64.rpm"
+RPM_HASH = "2468426e4829cd4430c29e0970629efd584b233270c8bebb5b1795e82066400c77c2a5ddf9ff546bbf1fc6fc4e21acdfc19812277854c45186507e7d165daa4f"
 
 RPROVIDES:${PN} += "libKasten4 \
 libKasten4Controllers.so.0 \
@@ -31,7 +31,6 @@ libKF5KCMUtils.so.5 \
 libKF5KIOCore.so.5 \
 libKF5KIOFileWidgets.so.5 \
 libKF5NewStuff.so.5 \
-libKF5Parts.so.5 \
 libKF5Service.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5XmlGui.so.5 \

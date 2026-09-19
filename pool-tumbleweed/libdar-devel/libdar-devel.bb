@@ -10,19 +10,15 @@ KDar, a KDE application, for example). \
 This package contains the library used by Dar and KDar."
 LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
-PV = "2.7.10"
+PV = "2.8.6"
 
-RPM_NAME = "libdar-devel-2.7.10-1.1.aarch64.rpm"
-RPM_HASH = "c3dccda885be33d684c8a716adeb951cd6415f07e5d07a916739333e5e19f265c082685a711ae69a8ad989e286ddb960989d2a872e90e9361ef41e40c93b6c8e"
+RPM_NAME = "libdar-devel-2.8.6-1.1.aarch64.rpm"
+RPM_HASH = "370e0c2eb82f50d1eac5b0675a8596237f28bc5cedc718b7e6501789a829175e5b0c2062280a83378531476f737f4967746a7ab772d7e694a94d9454cd26ab4f"
 
 RPROVIDES:${PN} += "libdar-devel \
 pkgconfig-libdar64"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-glibc-devel \
-libdar64-6000 \
-openssl-devel \
-pkgconfig-bzip2 \
-pkgconfig-zlib"
+libdar64-7000"
 
 inherit rpm

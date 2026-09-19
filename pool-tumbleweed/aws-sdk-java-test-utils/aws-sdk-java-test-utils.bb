@@ -1,12 +1,12 @@
 SUMMARY = "AWS SDK for Java - Test Utils"
 DESCRIPTION = "The AWS SDK for Java - Test Utils module holds the \
 all the utilities that are used by the tests."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-test-utils-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "baf53cd7f2a29c157a42a4788d58e94a07d7ef0b5e196011441fcb9015dcc04075bed59667839b909391c6006c0d78917ee3e22406b44a3eed6f671c204d636d"
+RPM_NAME = "aws-sdk-java-test-utils-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "6e173ab381ef2045f6ff1f7cbd1e87b58860cbae394bea7a519a65f5599bb307c8c2ea60ad2e558608251917a99c35ef80ea46c45059e6d1bf23771412740a74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-test-utils \

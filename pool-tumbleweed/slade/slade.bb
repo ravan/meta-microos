@@ -5,44 +5,42 @@ game-specific formats, and even convert between some of them, or \
 from/to other generic formats such as PNG."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.13"
+PV = "3.2.11"
 
-RPM_NAME = "slade-3.1.13-2.11.aarch64.rpm"
-RPM_HASH = "1a76b9ba8dc412c6a31479e42dd63d7d1c3b3f72a4e5b0976f9f67689e354ee071e6c8b60f9cf28ec67d2c50a5f849558d17569a649dcb3f781b5705a17e076c"
+RPM_NAME = "slade-3.2.11-1.6.aarch64.rpm"
+RPM_HASH = "0b768e9cd3dae5be5ebf02e2b19ea9d6d874f4d582029b18f938c3f2d8c27af59617253f82ca7f63aec22f7400df586e7c7c580178559d1ce3832df3b0a43901"
 
 RPROVIDES:${PN} += "bundled-dumb \
 slade"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libGLEW.so.2.2 \
 libGLU.so.1 \
-libGLX.so.0 \
 libOpenGL.so.0 \
 libbz2.so.1 \
 libc.so.6 \
-libclzma-suse.so.0 \
-libcurl.so.4 \
 libfluidsynth.so.3 \
-libfreeimage.so.3 \
+libfmt.so.12 \
 libftgl.so.2 \
 libgcc-s.so.1 \
-libgtk-x11-2.0.so.0 \
+liblzmasdk.so.26 \
 libm.so.6 \
-libsfml-audio.so.2.6 \
-libsfml-network.so.2.6 \
-libsfml-system.so.2.6 \
-libsfml-window.so.2.6 \
+libmpg123.so.0 \
+libpng16.so.16 \
+libsfml-audio.so.3.0 \
+libsfml-network.so.3.0 \
+libsfml-system.so.3.0 \
 libstdc++.so.6 \
-libwx-baseu-net-suse.so.3.0.5 \
-libwx-baseu-suse.so.3.0.5 \
-libwx-gtk2u-adv-suse.so.3.0.5 \
-libwx-gtk2u-aui-suse.so.3.0.5 \
-libwx-gtk2u-core-suse.so.3.0.5 \
-libwx-gtk2u-gl-suse.so.3.0.5 \
-libwx-gtk2u-html-suse.so.3.0.5 \
-libwx-gtk2u-media-suse.so.3.0.5 \
-libwx-gtk2u-propgrid-suse.so.3.0.5 \
-libwx-gtk2u-stc-suse.so.3.0.5 \
+libwebp.so.7 \
+libwebpdecoder.so.3 \
+libwebpdemux.so.2 \
+libwx-baseu-net-suse.so.16.0.0 \
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk3u-aui-suse.so.16.0.0 \
+libwx-gtk3u-core-suse.so.16.0.0 \
+libwx-gtk3u-gl-suse.so.16.0.0 \
+libwx-gtk3u-html-suse.so.16.0.0 \
+libwx-gtk3u-propgrid-suse.so.16.0.0 \
+libwx-gtk3u-stc-suse.so.16.0.0 \
 libz.so.1"
 
 inherit rpm

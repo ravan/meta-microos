@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 & BSD-2-Clause & BSD-3-Clause & GPL-2.0-or-later & LGPL-
 
 PV = "1.3.0"
 
-RPM_NAME = "yasm-1.3.0-7.4.aarch64.rpm"
-RPM_HASH = "c201e8d77bac8a51206916ddfb75aa5628a0c705d15127b0f7246f833eb80ba3abd86865bc21364db44cabf38f79c5a0b6a8b6542f30f0eade3ffc1ea035ae13"
+RPM_NAME = "yasm-1.3.0-9.8.aarch64.rpm"
+RPM_HASH = "58e41541d5485204b8d1f6f0a4a0439cb80700dd6cdb2cae15073ec2f86eb75ae2c5aaf7564cad42292aad1e632ba5fe921c2383f53021d5ea2522e2527b6467"
 
 RPROVIDES:${PN} += "yasm"
 

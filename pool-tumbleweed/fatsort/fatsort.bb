@@ -4,10 +4,10 @@ players don't sort files automatically but play them in the order they were \
 transmitted to the device. FATSort can help here."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.6.5.640"
+PV = "1.7.679"
 
-RPM_NAME = "fatsort-1.6.5.640-1.4.aarch64.rpm"
-RPM_HASH = "906c124c58f8fccb0fbaf80e379c7c4ac71e8aed9b85de27937d443313adc18b3e981496c5961db948e9afed3c3a98e3eb695409d534062e29c986b224674a9f"
+RPM_NAME = "fatsort-1.7.679-1.4.aarch64.rpm"
+RPM_HASH = "f19cb781ef33e567b67effa5a77b81e5fe520fe8a43636af1b950c483624d703ca972223ee1401b62ff4b6deeae7e26bcefb4d5fefb9a39fe79ec83e0c3c8082"
 
 RPROVIDES:${PN} += "fatsort"
 

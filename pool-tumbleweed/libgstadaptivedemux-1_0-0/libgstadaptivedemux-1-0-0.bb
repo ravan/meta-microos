@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "libgstadaptivedemux-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "e44f074d2934b81223e853ac2c36e8eeedc27fa6475a32b2608cc551b1c2c994b166897f910680a007bb97ae50bd9f94b7bcf4bcffd03579c44520f93ab81617"
+RPM_NAME = "libgstadaptivedemux-1_0-0-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "b490ed5aaae035d0186a85980612845c8c3a0f1c7391602bc06651abb8f252c427905ddde2c801be37828f400032dbc278d69d57d7197b7b211ea66e85589fbc"
 
 RPROVIDES:${PN} += "libgstadaptivedemux-1-0-0 \
 libgstadaptivedemux-1.0.so.0"

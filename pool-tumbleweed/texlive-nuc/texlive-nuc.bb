@@ -6,10 +6,10 @@ with more digits than A require special spacing to appear \
 properly; this spacing is supported in the package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn22256"
+PV = "2026.226.0.0.1svn22256"
 
-RPM_NAME = "texlive-nuc-2023.209.0.0.1svn22256-55.1.noarch.rpm"
-RPM_HASH = "f4e26fe1c523c00ea89a6a21cb0dc05b9d8a2b0bdbc899951ed1dc06f5818c1bcc747a056e365d493a5e66718da88b055d11f3493e1ef2be8aa216722ac9b411"
+RPM_NAME = "texlive-nuc-2026.226.0.0.1svn22256-61.2.noarch.rpm"
+RPM_HASH = "0233d136be6061e32345a414c46c82ce28010534eb5d792307900f4bb22d0af5064484655238fa23b30e89f116cce3b097dc7cdfd5dfa6fee6b088de21f3af4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nuc.sty \

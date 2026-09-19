@@ -1,12 +1,14 @@
-SUMMARY = "Javadoc for jcip-annotations"
-DESCRIPTION = "Class, field, and method level annotations for describing thread-safety \
-policies."
-LICENSE = "CC-BY-2.5"
+SUMMARY = "API documentation for jcip-annotations"
+DESCRIPTION = "A clean room implementation of the JCIP Annotations based entirely on the \
+specification provided by the javadocs. \
+ \
+This package contains the API documentation."
+LICENSE = "Apache-2.0"
 
-PV = "1.0"
+PV = "1.0.1"
 
-RPM_NAME = "jcip-annotations-javadoc-1.0-21.6.noarch.rpm"
-RPM_HASH = "6080ba3b7c808b379f306fcf5934d3e133e5ede4ac38077383a79d0aed82ef9a6c0e45820aff4dc230d9ea2a33f4044a6e312418230a0c4e18394025709e8d56"
+RPM_NAME = "jcip-annotations-javadoc-1.0.1-2.7.noarch.rpm"
+RPM_HASH = "48ed2aabf98882e9e4308ba8893c791a1e432c8e881e059ccd3308a789b8fa2a4f6546cb9a2e051af4bfe2daf73aa8790b59f49712582d9fd5156333100572ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcip-annotations-javadoc"

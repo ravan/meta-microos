@@ -2,18 +2,18 @@ SUMMARY = "Translations for package kjumpingcube"
 DESCRIPTION = "Provides translations for the 'kjumpingcube' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kjumpingcube-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "0a3e55b451512fedc22c6701cebeb4430d97dd06c9ffe25cc00731889dc3d0ce0dd783c1f4e6b6d506fb16a1cd863b4bf18588b52f82a9a248554055919387c7"
+RPM_NAME = "kjumpingcube-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "b60da389a8dc3d2e7d15818cecb113f99014677355c7a452dce194874eb305691cf392671e9ab8b5fb3631bb3291ef38be8d3c58c7444d9d5fbbcc7eb296996a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kjumpingcube-lang \
 kjumpingcube-lang-all \
 locale-kjumpingcube-af \
 locale-kjumpingcube-ar \
+locale-kjumpingcube-ast \
 locale-kjumpingcube-be \
-locale-kjumpingcube-bg \
 locale-kjumpingcube-br \
 locale-kjumpingcube-bs \
 locale-kjumpingcube-ca \
@@ -37,6 +37,7 @@ locale-kjumpingcube-he \
 locale-kjumpingcube-hi \
 locale-kjumpingcube-hr \
 locale-kjumpingcube-hu \
+locale-kjumpingcube-ia \
 locale-kjumpingcube-id \
 locale-kjumpingcube-is \
 locale-kjumpingcube-it \

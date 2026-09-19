@@ -2,14 +2,15 @@ SUMMARY = "Development libraries for scotch"
 DESCRIPTION = "This package contains development libraries for libscotch."
 LICENSE = "CECILL-C"
 
-PV = "6.1.0"
+PV = "7.0.15"
 
-RPM_NAME = "scotch-devel-6.1.0-2.10.aarch64.rpm"
-RPM_HASH = "5491b5e09116d68f4e81ed7eba34199cf0a9277ce217eda50697d4420dd2b50ad9ba35a3809677d6664f30664297722e3a5f4e5e13c4b64c10c97586b6a603f3"
+RPM_NAME = "scotch-devel-7.0.15-1.1.aarch64.rpm"
+RPM_HASH = "02e247fa515a7f3f0a470c4e11adff5b3a96821b89427a905dc32e112d33c0265684fbaf2cb7e8c9d9173379ef51101ceeea4481f5e0b040e40ef4464448319e"
 
-RPROVIDES:${PN} += "scotch-devel"
+RPROVIDES:${PN} += "cmake-SCOTCH \
+scotch-devel"
 
 RDEPENDS:${PN} += "gcc-fortran \
-libscotch0"
+libscotch7-0"
 
 inherit rpm

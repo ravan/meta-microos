@@ -4,10 +4,10 @@ collecting metrics from a specified set of log files (or pipes).  The PMDA \
 supports both sampled and event-style metrics."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-logger-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "27ba33d17c39650984bee328e51057b457950c0fa4a198c606011b94125220e6897d9d9b17e5467e5f9d8e64c2ab0e9fd3c93e03c72d000aa7d8e9011e19bd06"
+RPM_NAME = "pcp-pmda-logger-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "acfc8cfc5003f9cbc35b35ea63d886d2d90033a774c759b265a320c351ed23b3de557ae1198dc9a11cdf7cdb933716d7d324ede88f67fca421866a3965a579d1"
 
 RPROVIDES:${PN} += "pcp-pmda-logger"
 

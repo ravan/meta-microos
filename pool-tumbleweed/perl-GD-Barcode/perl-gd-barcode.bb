@@ -4,12 +4,12 @@ GD. This module based on 'Generate Barcode Ver 1.02 By Shisei Hanai \
 97/08/22'. \
  \
 From 1.14, you can use this module even if no GD (except plot method)."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.15"
+PV = "2.20.0"
 
-RPM_NAME = "perl-GD-Barcode-1.15-25.28.noarch.rpm"
-RPM_HASH = "05a62c8dcee6c169bf4e31f58d783e6f3de90b32aa2efda65fbcf265577f2ff7f1a1c0f9b03601221ade1e0f2ad2b1dbbec4e24d95f844ca785755d850624eff"
+RPM_NAME = "perl-GD-Barcode-2.20.0-1.5.noarch.rpm"
+RPM_HASH = "c52e85d4c7e3abea097c05d01ad74c85f4bcf7d31ead810744f637e655ebdafa534ed865ea519467f28c7655de359cbfcacd3126a5ff8f6abc75c7a6fcd78a42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-GD--Barcode \
@@ -27,6 +27,7 @@ perl-GD--Barcode--UPCA \
 perl-GD--Barcode--UPCE \
 perl-GD-Barcode"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-parent"
 
 inherit rpm

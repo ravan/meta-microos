@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20190926"
 
-RPM_NAME = "bazel-rules-foreign-cc-source-20190926-1.10.noarch.rpm"
-RPM_HASH = "2673768084f5d2ad13787ab76d322845fc74e8ac7dd155d51b5b877f2e82ad52c3c830d3db204c5ba78bbb6746e0839bd7a4e1ac07b7d584424aee254c5ef937"
+RPM_NAME = "bazel-rules-foreign-cc-source-20190926-1.18.noarch.rpm"
+RPM_HASH = "900f79e71d3673262dbce39a64b9af489a8b040c8ef2f92f3320fd53a367a1909268b9734c7f1e7114ea42142c534dbc3cf551ffae33fefa749123c7450f7855"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-rules-foreign-cc-source"

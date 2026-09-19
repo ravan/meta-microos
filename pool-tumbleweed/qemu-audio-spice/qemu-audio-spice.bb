@@ -2,10 +2,10 @@ SUMMARY = "Spice based audio support for QEMU"
 DESCRIPTION = "This package contains a module for Spice based audio support for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-audio-spice-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "842123d104f4ae99c26e13dcc6ade4055e999029c10ca6288123ebe2f81cdf1325def61be53407dc0cfb6016eb5078426233d75c621be5ad4e7f7399a6050180"
+RPM_NAME = "qemu-audio-spice-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "2ccd7526c3193f387b299ffd23a6c3223b180c41cb555ee974a84203e896475a021f441232efb265c274eeae72409e62079d1c77c077e17a59c2cce97442dd22"
 
 RPROVIDES:${PN} += "qemu-audio-spice"
 

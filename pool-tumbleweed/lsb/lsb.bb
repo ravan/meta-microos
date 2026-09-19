@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0.fake"
 
-RPM_NAME = "lsb-4.0.fake-3.6.aarch64.rpm"
-RPM_HASH = "dae1c427629ec0234108bae92947d45cf9ca29ce8753bfe9ceb29c5161ab831e5af1cda845a16c73b15409fea767245a811201809f9df23baf90de332076cc85"
+RPM_NAME = "lsb-4.0.fake-4.6.aarch64.rpm"
+RPM_HASH = "1fb135987d0c54b6e154c24aec19c11f1e44318f1feccfb5d9148f0f6fd9d69f624482e5b65d07c0e93b2c712c5d136ef0cd02d785392e878b834d1033db7866"
 
 RPROVIDES:${PN} += "lsb \
 lsb-core-aarch64 \
@@ -150,7 +150,6 @@ grep \
 gzip \
 lsb-release \
 pax \
-perl-base \
-python"
+perl-base"
 
 inherit rpm

@@ -6,10 +6,10 @@ or xdvi version 22.38 or later). This was originally written by \
 Aleksander Simonic, the author of the WinEdt shell."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.6svn15878"
+PV = "2026.226.1.6svn15878"
 
-RPM_NAME = "texlive-srcltx-2023.209.1.6svn15878-58.1.noarch.rpm"
-RPM_HASH = "ea9e2f05f84ffe63079366635f5edbce099e4573d2ab2e96c444745361be439351e7b5c0dee13f986e74e8baf72df83b9349dd328b322051fef57ab876c7ebf9"
+RPM_NAME = "texlive-srcltx-2026.226.1.6svn15878-64.2.noarch.rpm"
+RPM_HASH = "86228120c0fcf7bc44f2e550068a209987bb50cd0ed7ff585d0292c434f2ab9a89745e86d9dcb2c316162e9f88b30d15cc66492d8bcdaf9434b699883cfe783c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-srcltx.sty \

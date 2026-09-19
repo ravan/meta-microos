@@ -6,14 +6,13 @@ authors' tests in the same way and allows them to build their tests \
 using unittest.TestCase objects that they are familiar with."
 LICENSE = "Apache-2.0"
 
-PV = "1.4.9"
+PV = "1.4.15"
 
-RPM_NAME = "python311-testflo-1.4.9-2.6.noarch.rpm"
-RPM_HASH = "848c9a6d104edba1d076b5482fada14e598e4b1076012b72578feb70d5460fff0efbc19eff9a4933f27a2b4d8ea33300c8221a086c3f488794b2df4de7379c13"
+RPM_NAME = "python311-testflo-1.4.15-1.10.noarch.rpm"
+RPM_HASH = "a1f7321f01f4766ff001347f1170f2447049de2f922658754d1753e3b60e842de3798b2aa865e788fedc7a19371777c0dc1673fb7cc094962e2f662e50ea6252"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-testflo \
-python3.11dist-testflo \
+RPROVIDES:${PN} += "python3.11dist-testflo \
 python311-testflo \
 python3dist-testflo"
 

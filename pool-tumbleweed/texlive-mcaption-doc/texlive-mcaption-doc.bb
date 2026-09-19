@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mcaption"
 DESCRIPTION = "This package includes the documentation for texlive-mcaption"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.3.0svn15878"
+PV = "2026.226.3.0svn77682"
 
-RPM_NAME = "texlive-mcaption-doc-2023.208.3.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "f2a8027e9d455811039ebb22a47b5d63f94154d5630a05d35b4939fe25dfd0b7eeb238d496db2b91276c424f8056668ee1025236e2cb91a8ae7f2b3418982038"
+RPM_NAME = "texlive-mcaption-doc-2026.226.3.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "f3755751eca16fa32dcafcac19abdaaae23468cb2ccf54b4f3ea49ac81feeab9955252a0d721e40d56206821ca89fab2e17f9ea02d02b1ce31953ee85efd1a21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mcaption-doc"

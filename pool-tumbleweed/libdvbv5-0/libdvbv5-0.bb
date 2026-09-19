@@ -5,10 +5,10 @@ talk with media hardware. \
 This package contains shared lib for packages that use libdvbv5."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.24.1"
+PV = "1.32.0"
 
-RPM_NAME = "libdvbv5-0-1.24.1-1.4.aarch64.rpm"
-RPM_HASH = "0af8a898de5eda5e8e29ad3d39e6b9da6157b7f9882eefa9a6d68a673deb582a4afa3e3ddf85f0cef37a6d70a854fda6697c741f51f28016fddecb07366f4580"
+RPM_NAME = "libdvbv5-0-1.32.0-2.4.aarch64.rpm"
+RPM_HASH = "05908c631c056b868192dd7a699d6d33b579540d82b5679f079a1613b81d431a367684b19b037ceb7977c014723ef0ae8d7e15f8d88b9996f289c98bd24f6d1b"
 
 RPROVIDES:${PN} += "libdvbv5-0 \
 libdvbv5.so.0"

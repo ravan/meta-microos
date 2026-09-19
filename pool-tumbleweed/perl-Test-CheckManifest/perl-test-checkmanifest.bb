@@ -4,14 +4,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.43"
 
-RPM_NAME = "perl-Test-CheckManifest-1.43-1.3.noarch.rpm"
-RPM_HASH = "94b2fd540afc7dc6c402e424b94a49d26c51dff79f9b42c5a6afd20870cda6a59cbef1380f0865e0d5d5751f4b01fe6471fbc1b7ece33c63095dba01b08882fe"
+RPM_NAME = "perl-Test-CheckManifest-1.43-1.17.noarch.rpm"
+RPM_HASH = "2d762c8745d50b1087b834562099e7a2df9ee0fd799ed758d2c779d94384046b36cc30222ec9ea3afc80033e666dcb509bb93fa55ec0bb697553ff655f367a90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--CheckManifest \
 perl-Test-CheckManifest"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Cwd"
 
 inherit rpm

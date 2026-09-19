@@ -3,10 +3,10 @@ DESCRIPTION = "pagure-mirror is the service mirroring projects that asked for it
 of this pagure instance."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.13.3"
+PV = "5.14.1"
 
-RPM_NAME = "pagure-mirror-5.13.3-1.5.noarch.rpm"
-RPM_HASH = "2890db585d9039f1d2dd3b1bc0cca129390cf548195002a42e10e860b12176f022a0b5472b85fef9f85a8f9c4f77cb3bdfdf3634cd4182496b51577d573e5ce1"
+RPM_NAME = "pagure-mirror-5.14.1-3.3.noarch.rpm"
+RPM_HASH = "b8fee90ee1fc0c289de22d8e3c2e5dda99153c19c5d37ba4d0fb1f550ace6f66f7e536a3b1fad87f51d57c1d01790bdc7bce4bb168b4f700b3719ecd35fc1a99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-mirror"

@@ -5,10 +5,10 @@ into various applications. \
 This package contains the libabw development files."
 LICENSE = "MPL-2.0"
 
-PV = "0.1.3"
+PV = "0.1.4"
 
-RPM_NAME = "libabw-devel-0.1.3-1.19.aarch64.rpm"
-RPM_HASH = "d5310dc4d54f5261b988e6fd9ba89888cfef7b233d21b3de4afc3a7d23032aa8f650b573d30fc633a2b7dd25954795ebf7587b419f6f23ba52537d490fac9510"
+RPM_NAME = "libabw-devel-0.1.4-1.3.aarch64.rpm"
+RPM_HASH = "0aec22e765f0f3113b6ef0d8ef3979fce28136eedc1760a2a8e49a92c7a95f27a7c99fe39ee164de635e0f79d104e104c9b7ce4c7f907e9319a548310dd3e105"
 
 RPROVIDES:${PN} += "libabw-devel \
 pkgconfig-libabw-0.1"

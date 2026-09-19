@@ -9,8 +9,8 @@ LICENSE = "GFDL-1.3"
 
 PV = "0.5"
 
-RPM_NAME = "ccd2cue-doc-0.5-2.23.noarch.rpm"
-RPM_HASH = "b3d8b0a534566d1d923602da1e0925b16c37cad83d685ff9110800fd57cf6dd1e305ab272f6e36d7f33f53526c0f4bd6e9ccdc6c0bf2f587f2147f9189ab8ef3"
+RPM_NAME = "ccd2cue-doc-0.5-2.33.noarch.rpm"
+RPM_HASH = "7814f4c6c4b2c1469920268478175b5f8c1f017eefa44445075b0932ebdfaf5e411785e466bea575f6d271281e39dba0ab08b4c6f9fbcab2935d3546bd73df66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ccd2cue-doc"

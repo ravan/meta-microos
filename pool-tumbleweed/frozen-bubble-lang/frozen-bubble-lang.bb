@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.212"
 
-RPM_NAME = "frozen-bubble-lang-2.212-15.5.noarch.rpm"
-RPM_HASH = "401eff0bad3991617df2ce51171fc59b7e4af21de4602f659038b77f29175a47ddedde55633d7254ade7c359a77b33ffc68f7abd4cea919b63b3198b51de3ff9"
+RPM_NAME = "frozen-bubble-lang-2.212-18.5.noarch.rpm"
+RPM_HASH = "723da7e5598f576c34d51f58aa05521d273f11af01201e576331150fbb100a52a8c42bc82a6d257e75d00d8d93dd8bf101cb16ad469b39129632088b28343242"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "frozen-bubble-lang \

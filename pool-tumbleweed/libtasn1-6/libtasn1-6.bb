@@ -3,10 +3,10 @@ DESCRIPTION = "This is the ASN.1 library used by GNUTLS. Abstract Syntax Notatio
 is a standardized data description and serialization language."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.19.0"
+PV = "4.21.0"
 
-RPM_NAME = "libtasn1-6-4.19.0-1.3.aarch64.rpm"
-RPM_HASH = "045f4fe51cad819013afe21e95baf40a431f7d0ba12a072b01b6e723fc4a4332b811a4b145b4dd7da9c9994eb76bb234c89e06d9092808b25136b4e426452270"
+RPM_NAME = "libtasn1-6-4.21.0-1.5.aarch64.rpm"
+RPM_HASH = "33d24f8fd989068cf21db53bd8484bf7c839417e816d8dc0b21b476bb415b99a6ac07ffc137660b7c9bdc6419ac09437285045b58b6b92c115952f3f04785d66"
 
 RPROVIDES:${PN} += "libtasn1-6 \
 libtasn1.so.6"

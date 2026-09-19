@@ -2,14 +2,14 @@ SUMMARY = "Udev rules for Perseus SDR"
 DESCRIPTION = "Udev rules for Perseus SDR hardware"
 LICENSE = "GPL-3.0-only"
 
-PV = "0.8.1"
+PV = "0.8.2"
 
-RPM_NAME = "libperseus-sdr-udev-0.8.1-1.23.aarch64.rpm"
-RPM_HASH = "cf2b373e83beb942a79dd74c59bbf3859d9e5c6b1de190e7da10f79882ac2df80584b5d29c34b9a0a3398c3f148dd5211cda97aad9466b0581e2095d080c432d"
+RPM_NAME = "libperseus-sdr-udev-0.8.2-1.1.aarch64.rpm"
+RPM_HASH = "b41ec1abedc5e003a052aedb844316500dd1da8b0b61c613a864c9a5d8e3e469ffe4309c765e326f721495d5f29ebf8a3132dbdd57a8c6f3064394f5de9bf81f"
 
 RPROVIDES:${PN} += "libperseus-sdr-udev"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-pwdutils"
+shadow"
 
 inherit rpm

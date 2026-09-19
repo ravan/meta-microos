@@ -6,10 +6,10 @@ The restore command performs the inverse function of dump. It can \
 restore a full backup of a file system."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4b47"
+PV = "0.4b53"
 
-RPM_NAME = "dump-0.4b47-1.9.aarch64.rpm"
-RPM_HASH = "f052b26a47304deb8c026cbc386a82ec8b38047a7f7b502be92ad0d6056b3a02dca5fa4f6153f9b86fabca91ab516d9ed35c0e69893891875cfacba0e909505d"
+RPM_NAME = "dump-0.4b53-2.3.aarch64.rpm"
+RPM_HASH = "914d4a357544d2a53e73f32dc9ec70ab069d284b74453d0eeed67741ca3a571acf4f37ea67021b2814404db5d0ea1c83edd2937388395191eb76d47d0c716c73"
 
 RPROVIDES:${PN} += "dump"
 

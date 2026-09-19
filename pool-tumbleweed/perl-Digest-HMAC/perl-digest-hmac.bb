@@ -16,10 +16,10 @@ functions. For stronger algorithms the blocksize probably needs to be \
 increased."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.04"
+PV = "1.50.0"
 
-RPM_NAME = "perl-Digest-HMAC-1.04-1.12.noarch.rpm"
-RPM_HASH = "fe1cee2b63f192876893f287842000fad05b329189fc611aeb8624d564a910579ac29cdc366fdc1cc98fb9eed9f310e1d2aeba5d4a1ab55d2527a59d6f3534cf"
+RPM_NAME = "perl-Digest-HMAC-1.50.0-1.10.noarch.rpm"
+RPM_HASH = "757f2d37c35e1676514059e8b73c1b0d3faa511a19f449762b29b35921f1e2cc1700517366db2ea045490f41be95d16c899ddf1370813b4011c6e51b03d87269"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Digest--HMAC \
@@ -27,7 +27,7 @@ perl-Digest--HMAC-MD5 \
 perl-Digest--HMAC-SHA1 \
 perl-Digest-HMAC"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Digest--SHA"
 
 inherit rpm

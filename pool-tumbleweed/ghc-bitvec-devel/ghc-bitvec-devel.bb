@@ -2,22 +2,22 @@ SUMMARY = "Haskell bitvec library development files"
 DESCRIPTION = "This package provides the Haskell bitvec library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.5.0"
+PV = "1.1.6.0"
 
-RPM_NAME = "ghc-bitvec-devel-1.1.5.0-1.1.aarch64.rpm"
-RPM_HASH = "1f0ba7a1823c54bc47165c200203827a5b6f205b3671a7809a783cbe0763f5c2be1f331359414dd4371696cc03cf5d7a858412d9c159611833c6a893219252bb"
+RPM_NAME = "ghc-bitvec-devel-1.1.6.0-1.3.aarch64.rpm"
+RPM_HASH = "6f3bed405c5262d6b8aed246f8f941f5f1fc5adc1f6697c8d3c7df5f49a8d69fc2af41884081eac9a4a7b647d2b8ab2efe7a3b3f94e9ae57366febdfe98ae058"
 
 RPROVIDES:${PN} += "ghc-bitvec-devel \
-ghc-devel-bitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS"
+ghc-devel-bitvec-1.1.6.0-AtnZIEu4pqlECh34uLjm5P"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-bitvec \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-ghc-bignum-1.3 \
-ghc-devel-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
-ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-ghc-bignum-1.3-03b0 \
+ghc-devel-primitive-0.9.1.0-Ez30Vu7tivmF28X1123Css \
+ghc-devel-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE"
 
 inherit rpm

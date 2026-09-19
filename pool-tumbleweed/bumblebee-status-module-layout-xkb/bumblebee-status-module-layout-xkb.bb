@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-layout-xkb-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "f0d7ac60538301ce3fe3fcc122e9986ab24ff3c2cc29973c568905eb7dbf92d83a9fe47694bb4dba321cc029565e37be28b86599cf054d9f5e1551d2abf73e25"
+RPM_NAME = "bumblebee-status-module-layout-xkb-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "470d017082b57edc9209fe03d5401ea9f6d8cffa56d3f1909ae4dd339b28a1ec271a52cb91d1d38ba08ddd1b9d0c769d88a43d9c6eb758c6b5273ab9459d66a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-layout-xkb"

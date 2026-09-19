@@ -3,10 +3,10 @@ DESCRIPTION = "A C programming interface (API) to determine the call chains of \
 another process by means of using ptrace(2) on it."
 LICENSE = "MIT"
 
-PV = "1.7.2"
+PV = "1.8.3"
 
-RPM_NAME = "libunwind-ptrace0-1.7.2-1.1.aarch64.rpm"
-RPM_HASH = "1996d7d95b9cadc25a9bf5259199f09ed9fb2eb992fd9f3f1890034cbfcc6007f7befdd7dbc8b7d6bd5f193dbea5dd437d677dbd6ffbe6a74b31045ec93915c3"
+RPM_NAME = "libunwind-ptrace0-1.8.3-3.3.aarch64.rpm"
+RPM_HASH = "e07172bd4410ce2e25c8668586441a85601a48d0f41b85a6f8e23da81c777e4448d0ee94f506611af37ec5a1038eb539e8b39c8244762fd812378475c2d258d1"
 
 RPROVIDES:${PN} += "libunwind-ptrace.so.0 \
 libunwind-ptrace0"

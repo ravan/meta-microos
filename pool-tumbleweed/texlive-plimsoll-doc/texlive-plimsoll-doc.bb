@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-plimsoll"
 DESCRIPTION = "This package includes the documentation for texlive-plimsoll"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1svn56605"
+PV = "2026.226.1svn56605"
 
-RPM_NAME = "texlive-plimsoll-doc-2023.209.1svn56605-53.1.noarch.rpm"
-RPM_HASH = "9725c30c9426390bc1db1ca37b3d35f960a2c9025080c610195b4905e0a6d4f91da7128dc556671e17983c4e325173e32a3888ec6f987755073dda066c1ec750"
+RPM_NAME = "texlive-plimsoll-doc-2026.226.1svn56605-59.2.noarch.rpm"
+RPM_HASH = "a873f64da42c249e782bf28a1475c0c6d43bf1465d1186c9917134782e55a80ac1c6f9bab79b2747f8790386bc6dc186656a20f939b308d36e9cee7b8ae1640b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-plimsoll-doc"

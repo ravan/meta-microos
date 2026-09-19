@@ -22,10 +22,10 @@ There are currently several different ways to run amsynth: \
 This package includes the DSSI implementation of the synthesizer."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.13.2"
+PV = "2.0.0"
 
-RPM_NAME = "amsynth-plugin-dssi-1.13.2-1.7.aarch64.rpm"
-RPM_HASH = "13fcc45216fa4304c53b3eb960550f2d5b1fab40e28157703fda1c819d404aed2c4edac9028fbf3c4957ee4bb62f2ba666c3f830656aead31d9833fa17ad83c7"
+RPM_NAME = "amsynth-plugin-dssi-2.0.0-1.1.aarch64.rpm"
+RPM_HASH = "fc419c9b685833a512d3aadad2b7ed58d325d2a6e5100227d1f396943dc39a0396c21adf26a249c0a99b5acc3678dd3cf5378539d9269f07885882fb400bc184"
 
 RPROVIDES:${PN} += "amsynth-plugin-dssi"
 
@@ -33,24 +33,13 @@ RDEPENDS:${PN} += "amsynth \
 dssi \
 ld-linux-aarch64.so.1 \
 libX11.so.6 \
-libatk-1.0.so.0 \
 libc.so.6 \
-libcairo.so.2 \
-libfontconfig.so.1 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
-libgdk-pixbuf-2.0.so.0 \
-libgdk-x11-2.0.so.0 \
-libgio-2.0.so.0 \
-libglib-2.0.so.0 \
-libgobject-2.0.so.0 \
-libgtk-x11-2.0.so.0 \
-libharfbuzz.so.0 \
 liblo.so.7 \
 libm.so.6 \
-libpango-1.0.so.0 \
-libpangocairo-1.0.so.0 \
-libpangoft2-1.0.so.0 \
-libstdc++.so.6"
+libpng16.so.16 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

@@ -15,10 +15,10 @@ Features: \
   * Highly configurable - 454 configurable options as of version 0.60."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.77.1"
+PV = "0.82.0"
 
-RPM_NAME = "uncrustify-0.77.1-1.1.aarch64.rpm"
-RPM_HASH = "26e6bf883493fddc9bce26cf44965b709838cfd687fb51c48abf4e2a93a364401b1e02eb11dfb2206048792ee4109c5afb5042160e9372802d1ad8095380f0be"
+RPM_NAME = "uncrustify-0.82.0-1.4.aarch64.rpm"
+RPM_HASH = "0042cc657b95f10984ac865bfaaedbfc4d6371ac50fec360fbb43cd2004036d5189a102b708145e1647181495d242b8bffe3eb87b6982fc578d9caf441c16b5c"
 
 RPROVIDES:${PN} += "uncrustify"
 

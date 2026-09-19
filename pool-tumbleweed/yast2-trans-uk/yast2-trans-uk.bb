@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Ukrainian Translations"
 DESCRIPTION = "YaST2 - Translations for Ukrainian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-uk-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "8aba76affca05988f2b6697e865cc659e4a6c5437f1d851d5173754dcf345ab3364b48413a193ef993cd289649331cdf1909ad14b176b30addc5cb68bd987daa"
+RPM_NAME = "yast2-trans-uk-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "2081f8773227ea99bccf8a93efe254e75383ed3fd8685acb2f053fdfc101761640c68fe7b399ba40a25cdf6ee2d67082673d496c0e76673fd46a148595723219"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-uk \

@@ -6,10 +6,10 @@ ranging from small one-off projects to complete application suites. \
 This package provides an input method based on the X Input Method."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.38"
+PV = "3.24.52+git59.b30343717d"
 
-RPM_NAME = "gtk3-immodule-xim-3.24.38-2.1.aarch64.rpm"
-RPM_HASH = "ddd8b0a01b312b3feb2ce8016c20a223eb143d406f1def51040082441f90ab187e55ecceda1354cb8df2d7ef850c8326c040a1ab1f902cd77e1a9ad24434b346"
+RPM_NAME = "gtk3-immodule-xim-3.24.52+git59.b30343717d-1.1.aarch64.rpm"
+RPM_HASH = "60511ba92564386b989701f24d8a830ffbf6166c6ed6a2d6b7d2cf66a3737fd0d4d6f07969416be0580dba49f568bc8ceb4d250f4f201f6600767fdff501983a"
 
 RPROVIDES:${PN} += "gtk3-immodule-xim \
 locale-gtk3-ja \

@@ -13,14 +13,15 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "typelib-1_0-TelepathyLogger-0_2-0.8.2-8.1.aarch64.rpm"
-RPM_HASH = "4299e2672d5b4a7c3c5f0f654cd3781ed752f50b12dc0398522b51ff011b9f5edd3b5a912d84d1f4b188c2aec21b0d9324c8d7eceaa6f5a68efe0565b4ef8c4d"
+RPM_NAME = "typelib-1_0-TelepathyLogger-0_2-0.8.2-11.4.aarch64.rpm"
+RPM_HASH = "e85965bd1cc3f202d6bf89a567aa5fe3a3a6cebdf7815c61dd3d038bdbbf3a27869f30bbc60618545f87cefa3963af96f1dd065425c47bbb35b9c84a5b3d4d24"
 
 RPROVIDES:${PN} += "typelib-1-0-TelepathyLogger-0-2 \
 typelib-TelepathyLogger"
 
 RDEPENDS:${PN} += "libtelepathy-logger.so.3 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio \
 typelib-TelepathyGLib"

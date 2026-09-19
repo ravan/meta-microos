@@ -2,10 +2,10 @@ SUMMARY = "Lua API for collectd"
 DESCRIPTION = "Optional collectd Lua API in order to write collectd plugins in Lua."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-lua-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "149f17ca7650d8f03fd742afd546054f03e5851c95838c20104af4b912c384ec46cf22b969bbe01eef7c6a957e608fa15d04617216d88b2d515e00148f0314e3"
+RPM_NAME = "collectd-plugin-lua-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "9ea908e252c4ca3b89873ee9b2b0a72182e8dfb1a9b88fd7b2ea9b9550053d877b349ef2cdc0b5ad5156b4803553e54f4460076291079137d59f49dfcfb5ba49"
 
 RPROVIDES:${PN} += "collectd-plugin-lua"
 

@@ -5,10 +5,10 @@ Requires the Wayland server to implement the foreign-toplevel-management-unstabl
 protocol extension."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.0.4"
+PV = "2.0.0"
 
-RPM_NAME = "lswt-1.0.4-2.6.aarch64.rpm"
-RPM_HASH = "b7b9ae404a400363e5cbb599faf65a78655032cb2cfad40ab77bc584001e627189ce3e76465cf906e36fc75db092e860df3856e4dcebf41b32effeed9bcd5118"
+RPM_NAME = "lswt-2.0.0-2.6.aarch64.rpm"
+RPM_HASH = "599701d3313d26b8847fd385af1ea5727f1e03e6c9703969753b8e24deea467e9b672a791673eb28cbeb7b3f3f07c0b1b3b155dd8f2174ccebf157d53fd3d3f6"
 
 RPROVIDES:${PN} += "lswt"
 

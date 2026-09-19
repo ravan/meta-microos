@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.13"
 
-RPM_NAME = "ldap-yp-tools-1.13-2.1.aarch64.rpm"
-RPM_HASH = "cc3080aa6c49cfd0a17a62d5a97629b9fb756018e2eb40a1ccbc06e91e1d8e4db8f4a0612e9f40e8f0ad43ade62c41b6cc0083647e533fbe12c52c0891cea23c"
+RPM_NAME = "ldap-yp-tools-1.13-3.9.aarch64.rpm"
+RPM_HASH = "8b81e08184b342f30a1df48170a1b4ed8ef1d6deb8640ba92591e6ca54451c894e6b277c931d2f4e30b67a7c6a8e8ceebbe2eabafbda591344b3d8ecc87318f9"
 
 RPROVIDES:${PN} += "ldap-yp-tools"
 

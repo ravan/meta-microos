@@ -7,10 +7,10 @@ and the design of the card. Everything else is taken care of by \
 elzcards."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.60svn51894"
+PV = "2026.226.1.60svn51894"
 
-RPM_NAME = "texlive-elzcards-2023.209.1.60svn51894-54.2.noarch.rpm"
-RPM_HASH = "a60b33af885e63fe3492bde3a2554d8348e9bdcd2c4ac9b9c92872e6cfe9fd9843043bccd17554ea7fe39a48a9f44b24e4b09dfb91fc4be04ddaf92261d4879c"
+RPM_NAME = "texlive-elzcards-2026.226.1.60svn51894-61.4.noarch.rpm"
+RPM_HASH = "7eb07363961c7d68e98875e44f2f78d9035bf4f4a5e4c2dab2b830aa4adf20d609a2ce0e77b8a47c97f2e79a81f2d16180aad1878aa4911ee88fed2d4961321a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elzcards.sty \

@@ -17,8 +17,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.103006"
 
-RPM_NAME = "perl-Pod-Elemental-0.103006-1.4.noarch.rpm"
-RPM_HASH = "1e38ac36937ee30d3f99400b847f44e78e00900f8a8deb89a75eb5c1fce1eb26a2f6057b79bf5d0b73a581b9602d0047bb97e13dac4776a4abd04385b08d7a91"
+RPM_NAME = "perl-Pod-Elemental-0.103006-1.18.noarch.rpm"
+RPM_HASH = "e56ccd6a27466f82bfc5d3c69490d8a73000211197263faa349451fcf6ca8e15d7312f08bb77d1e49b6cb10ae21c92f1eea0f3fcff19e5802cf16b2d66d042d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Elemental \
@@ -49,7 +49,7 @@ perl-Pod--Elemental--Transformer--Pod5 \
 perl-Pod--Elemental--Types \
 perl-Pod-Elemental"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Load \
 perl-List--Util \
 perl-Mixin--Linewise--Readers \

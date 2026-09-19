@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-titlesec"
 DESCRIPTION = "This package includes the documentation for texlive-titlesec"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.14svn59845"
+PV = "2026.226.2.17svn77682"
 
-RPM_NAME = "texlive-titlesec-doc-2023.209.2.14svn59845-53.1.noarch.rpm"
-RPM_HASH = "786472f1fb92a4a64ed247cc14b74c66c177dbe65bbc0f1b8eb26f4c410d58d17c8f1c4ecff4b28a21f9d3ce130c86ec37a16af482d7355d87729e565948562f"
+RPM_NAME = "texlive-titlesec-doc-2026.226.2.17svn77682-59.2.noarch.rpm"
+RPM_HASH = "9bd641f233c5a401291f08dbe96bdd77df2a97c469b74b8e8ce2768e704fa461e523a377e9ca828d131c1d85287220412019e1e7824b167f0e5ab2a6e55c6212"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-titlesec-doc"

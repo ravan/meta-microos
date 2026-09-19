@@ -10,10 +10,10 @@ powerful and extensible for more interesting tasks depending on \
 the individual."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn61634"
+PV = "2026.226.1.5svn76924"
 
-RPM_NAME = "texlive-dbshow-2023.209.1.5svn61634-53.1.noarch.rpm"
-RPM_HASH = "66c8f4401258c78f98555d598a3b3d61f35a54c18413a32291afb7a7ec6d83dbf8e42e494a8d78596fa34d7f79583a305f6ea5d2597c0e95fe6cd0edbae814f2"
+RPM_NAME = "texlive-dbshow-2026.226.1.5svn76924-59.2.noarch.rpm"
+RPM_HASH = "b5b77b16494a1f0e259bcb90e47f944642b1d1c8a80140592761c56be120db9b1d9d96f65906a6f130b45342f84ec5776918ede9c02828fa97c8ddaf0bdb5b3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dbshow.sty \

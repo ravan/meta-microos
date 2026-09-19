@@ -8,13 +8,14 @@ X columns, the width of each column is weighted according to \
 the natural width of the widest cell in the column."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.10svn34368"
+PV = "2026.227.0.0.11svn77682"
 
-RPM_NAME = "texlive-tabulary-2023.209.0.0.10svn34368-55.1.noarch.rpm"
-RPM_HASH = "a33f93064cc4a5fed170ecd4545017212cadc70b1ed48d3e8bd0f7ccdd7a18d3757ca307160d73d30161b01df95d22d0a1f4a4db01d63514edfb4d2cad554fdf"
+RPM_NAME = "texlive-tabulary-2026.227.0.0.11svn77682-62.2.noarch.rpm"
+RPM_HASH = "4e8bae096823448a31857cfa44d4a10d088cede4d459d04916738accc3e9c197ed2cd5b19f688ee34f275b1be682c79fe8aef7dd29e395d1f5b51e62e231b3b3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-tabulary.sty \
+RPROVIDES:${PN} += "tex-tabulary-v010.sty \
+tex-tabulary.sty \
 texlive-tabulary"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

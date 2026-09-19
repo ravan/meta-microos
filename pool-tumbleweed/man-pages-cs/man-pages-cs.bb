@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Czech"
 DESCRIPTION = "This package provides translations of man pages in Czech."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.20.0"
+PV = "4.31.0"
 
-RPM_NAME = "man-pages-cs-4.20.0-1.1.noarch.rpm"
-RPM_HASH = "ed1f4d9e281cf00c9465262a03fe0ab1c207fd1c9f3ce02f153d641560dc2502d8ec143eb626a316861c7a976bdc7ff44fe5115264b9697c967159a1e77ce7cf"
+RPM_NAME = "man-pages-cs-4.31.0-1.2.noarch.rpm"
+RPM_HASH = "b78cac0d2352b5f02ad12d96c3f23f9cff318d1345d625f672ee68dfdb5e12c570259c9a0d6c7d2a2d1cc2860c9e393587531b0ce8fbdb6011e806526c5fd607"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-cs \

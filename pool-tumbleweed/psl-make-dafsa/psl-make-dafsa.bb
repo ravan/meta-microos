@@ -7,10 +7,10 @@ libpsl is capable of using this compact binary form of the Public Suffix List (P
 This package is a build dependency for the publicsuffix package."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.21.2"
+PV = "0.23.3"
 
-RPM_NAME = "psl-make-dafsa-0.21.2-1.2.noarch.rpm"
-RPM_HASH = "3cd6466ba4a01d537eaa4ec64099c058a3954e02099e65ef730f5186bbca5347d2f2c7b2bf75bba9da578e9f4bb18193713cc82b9b14404f0e09594aef7841e2"
+RPM_NAME = "psl-make-dafsa-0.23.3-1.1.noarch.rpm"
+RPM_HASH = "46b5140b2d9cc56a37cc1c542d2db74c487f33751adcc8a71109ac9893002731cbf84722705e87bc67e574de2e9a286f80dc82ad5f5d58540de05db7874d1c1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "psl-make-dafsa"

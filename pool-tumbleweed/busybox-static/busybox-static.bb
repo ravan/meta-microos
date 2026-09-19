@@ -3,10 +3,10 @@ DESCRIPTION = "BusyBox combines tiny versions of many common UNIX utilities into
 single executable."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-static-1.36.1-2.1.aarch64.rpm"
-RPM_HASH = "502303796c63dc75dba3d96c944c48129e26e70b279f52d54b4056845e10d4d29bce510f80ec5f943eeda3d664003263fed5f6347d806965ed9c31bc8fe2f36d"
+RPM_NAME = "busybox-static-1.38.0-2.1.aarch64.rpm"
+RPM_HASH = "04e38e2edec5ddbd62e14eafd5af4162eea2f3cd4c033b7114614d5d498913602580bc5da0ef4c11625dc6d5fd91a286b2914820203c40a547e88d3169ff2d28"
 
 RPROVIDES:${PN} += "busybox-static"
 

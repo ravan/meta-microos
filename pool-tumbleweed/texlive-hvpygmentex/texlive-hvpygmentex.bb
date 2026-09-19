@@ -6,10 +6,10 @@ user to run the external program pygmentize to create the code \
 snippets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn62405"
+PV = "2026.226.0.0.01svn62405"
 
-RPM_NAME = "texlive-hvpygmentex-2023.209.0.0.01svn62405-54.1.noarch.rpm"
-RPM_HASH = "cad6beb282c1ab621029ffd2bcb7ee98decf3145ba363232545e8a3b18b019f1761cc08e78640998f46dd683a59953c69d4e36d7d83626ac0c34ea6f556b4e0c"
+RPM_NAME = "texlive-hvpygmentex-2026.226.0.0.01svn62405-60.2.noarch.rpm"
+RPM_HASH = "5b6b36005ed333d22a18a5ca1dd1ffaffe533f9a84e6a14f066291585c8fe660eeb2d62d308c0447b1b7cdd6c3e2f4dafe4336cc9619104cef6e99dd97faa324"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hvpygmentex.sty \

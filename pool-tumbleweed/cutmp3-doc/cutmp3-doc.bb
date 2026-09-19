@@ -3,12 +3,13 @@ DESCRIPTION = "This is a program to edit MP3 files without quality loss, using a
 ncurses-based user interface. \
  \
 This package contains a user guide and a list of key bindings for cutmp3"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.1"
+PV = "3.0.3"
 
-RPM_NAME = "cutmp3-doc-3.0.1-2.23.aarch64.rpm"
-RPM_HASH = "b190d28b85b312b05e20ba33462e4a2f0417a78e6e8c6c7124a9d4c23caa344826bb275094598ab5b6870c7147e4d21a9c4e18c707e9efc9ad4fa965d5012368"
+RPM_NAME = "cutmp3-doc-3.0.3-2.5.noarch.rpm"
+RPM_HASH = "18a9ca6a0c367f674e7d5eed91b6ce566ac9cc84fb797ca422dea572261a8dc820d960c86d0878b786308121d63c1a4214581d32eb04a745713435185ecedad7"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cutmp3-doc"
 

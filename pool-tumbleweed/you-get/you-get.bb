@@ -4,18 +4,19 @@ DESCRIPTION = "You-Get is a command-line utility to download media contents \
 handy way to do it."
 LICENSE = "MIT"
 
-PV = "0.4.1650"
+PV = "0.4.1743"
 
-RPM_NAME = "you-get-0.4.1650-1.4.noarch.rpm"
-RPM_HASH = "1ad497ac90575ad5091362ded25fac8e81ca8717725252ead643bac000848eaa45335da7274862d652ed6a3d69e9099a160c0c672bcff2e78adc91d28bb92b61"
+RPM_NAME = "you-get-0.4.1743-3.1.noarch.rpm"
+RPM_HASH = "085af57336c0cdab50c2606489ff39f30fd8f7646657e0412828acaa6a058e8b44e3c3f306a64a6157e2e2b7443af56efddfc4a342f58fe10e4d572563f308d0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-you-get \
+RPROVIDES:${PN} += "python3.13dist-you-get \
 python3dist-you-get \
 you-get"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ffmpeg \
-python-abi"
+python-abi \
+python3-dukpy"
 
 inherit rpm

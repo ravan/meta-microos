@@ -3,10 +3,10 @@ DESCRIPTION = "The libslirp-devel package contains libraries and header files fo
 developing applications that use libslirp."
 LICENSE = "MIT"
 
-PV = "4.7.0+44"
+PV = "4.9.3+4"
 
-RPM_NAME = "libslirp-devel-4.7.0+44-3.3.aarch64.rpm"
-RPM_HASH = "35d4c515fe1738144c102e3587c09cd57402524631a155a5bb7e170845fda2e1d861f292c3edd2dbd8514d1d638d155ca04754010304585c626dc589c2208e95"
+RPM_NAME = "libslirp-devel-4.9.3+4-1.3.aarch64.rpm"
+RPM_HASH = "08ba05feecf9cc1fb1d8562a750e6dda2284a631b880d78bbf670cdb9419f43875738138e8ece6001f7848b254e01864b57581b002381dab9696eae4beac3b2c"
 
 RPROVIDES:${PN} += "libslirp-devel \
 pkgconfig-slirp"

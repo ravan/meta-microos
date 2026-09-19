@@ -8,10 +8,10 @@ at present outdated and does not work properly with newer \
 versions of BibLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.2asvn64491"
+PV = "2026.226.1.1.2asvn78219"
 
-RPM_NAME = "texlive-biblatex-swiss-legal-2023.209.1.1.2asvn64491-54.1.noarch.rpm"
-RPM_HASH = "6c69a2d34a6922bcb6e49401b4f7c08711c313081cfea666e63dcc0f416859d6f49c75f47ff2ec081b9a43d3e26187da4fc5acdf8451927ff1f71a9480458641"
+RPM_NAME = "texlive-biblatex-swiss-legal-2026.226.1.1.2asvn78219-61.2.noarch.rpm"
+RPM_HASH = "41d058525dc4cfd9eef66b10346c912dc4b26a4a7d651f191cb904f0aac15306db9d1e691bff2b7abe3e25094ad6196a9ee14c6a743ea1261ef073c628dd7123"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-swiss-legal-base.bbx \

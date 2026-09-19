@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-step"
 DESCRIPTION = "This package includes the documentation for texlive-step"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.2.0.5svn57307"
+PV = "2026.226.2.0.5svn77682"
 
-RPM_NAME = "texlive-step-doc-2023.209.2.0.5svn57307-58.1.noarch.rpm"
-RPM_HASH = "7d73acd4ec8626b3f83a978031e56e0b1b1f1b22591c3d2d16a4d9fb0f4136a7f7a365c4ee7a788859814e54f9b928a02fea5f9239d4093b4a0357ed403c7313"
+RPM_NAME = "texlive-step-doc-2026.226.2.0.5svn77682-64.2.noarch.rpm"
+RPM_HASH = "5b64f31d02ee79d803b97c540d2bf6c0421b257f0d1236185f71f60d1392d75f2370a67bb263837bfda546d755d2294e477d2d55510019d38140204540485732"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-step-doc"

@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Arabic lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-ara-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "4d10157ed9a9255acbb062a295a83fe0c256a637972998a0264dc1422f068ed8cd46a69e2d905b8ed31d12af08c11f176ef75ab8fd7bdf93b7acd113f9cb33ee"
+RPM_NAME = "tesseract-ocr-traineddata-ara-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "593e3cc38ef6fd2040b5a25367bd79ef4f8f065c1a16601a388d11033a388eed61c2b5aa1c4d5b1ffd74d8d61b0b2f6c20202d72a29dd1f1c6f2c6142413a68a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-ara \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-ar \
+tesseract-ocr-traineddata-ara \
 tesseract-ocr-traineddata-arabic \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-arabic"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

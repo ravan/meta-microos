@@ -15,10 +15,10 @@ visit http://www.percona.com/software/. \
 This collection was formerly known as Maatkit."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.3.1"
+PV = "3.7.1"
 
-RPM_NAME = "percona-toolkit-3.3.1-2.14.aarch64.rpm"
-RPM_HASH = "3a882fd0ac2a6dcf9ae96107b4bf2eda00330f55f5f47b9bde7e5cc5bec63be2a4b62239aee21a6d6e32da442b64306fd30bcffc0795a85144f0a9505f6b5681"
+RPM_NAME = "percona-toolkit-3.7.1-2.4.aarch64.rpm"
+RPM_HASH = "ca6c9fcd5d9e10938b854ca0ebc338f3a91afc4909e63bf2311ef8b249490628974c6781e2b814d0dbf5eb2fd1b910e7470dae689ed19b4648bf8526d95ff301"
 
 RPROVIDES:${PN} += "config-percona-toolkit \
 maatkit \
@@ -28,7 +28,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/sh \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-DBD--mysql \
 perl-DBI \
 perl-IO--Socket--SSL \

@@ -21,10 +21,10 @@ RRDtool. To see a real example of Munin in action, take a peek at \
 <http://www.linpro.no/projects/munin/example/>."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.0.72"
+PV = "2.0.75"
 
-RPM_NAME = "munin-node-2.0.72-3.3.noarch.rpm"
-RPM_HASH = "e3cabaed131e15c0d36f7ded3da7a35c06d715f28569736de5852acaafb1b716d45bfd0723148295f311332f4bf451b296d86b6275643f00a6995b55bab4e8b0"
+RPM_NAME = "munin-node-2.0.75-1.8.noarch.rpm"
+RPM_HASH = "65e45dce4cae6357e24f477a21b8ee92661d0aabfc2a63d3052746174ff39c54caa237e35782b71be5ac174423ba0283f4d6f0016ec5dfd9e1996fe2ce974633"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-munin-node \
@@ -62,6 +62,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
 /usr/bin/ruby \
 /usr/bin/sh \
+group-munin \
 group-nobody \
 group-www \
 perl-HTML-Template \
@@ -75,6 +76,7 @@ ps \
 ruby \
 shadow \
 sysstat \
+user-munin \
 user-nobody"
 
 inherit rpm

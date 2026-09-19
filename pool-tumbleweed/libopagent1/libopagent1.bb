@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "libopagent1-1.4.0-2.2.aarch64.rpm"
-RPM_HASH = "ef4ce879461cc8f047bcca1b15da856472ca0ea9a41832066b3fae8fc641518dfd4d055d99f9f72ff7c797f38a4b74ec2f4ccc65cbaf0766a490ff67a98c3898"
+RPM_NAME = "libopagent1-1.4.0-5.2.aarch64.rpm"
+RPM_HASH = "c0b7fdb3b5b602a9c1bd76aea33ad353c045e38dd21ff7fe7e16456b23df4cce43acc664359eaf01d321ec1a813bb671f1465260aa7744f4398c2be09c326123"
 
 RPROVIDES:${PN} += "libopagent.so.1 \
 libopagent1"
@@ -18,7 +18,7 @@ libopagent1"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libsframe.so.0 \
+libsframe.so.2 \
 libz.so.1 \
 libzstd.so.1"
 

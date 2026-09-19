@@ -12,12 +12,13 @@ This library allows to: \
 * Efficiently interface with more heavy-weight parsers like expat"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.8.2"
+PV = "0.8.4"
 
-RPM_NAME = "appstream-glib-0.8.2-1.4.aarch64.rpm"
-RPM_HASH = "47dfdac07f05b7cd5b793110e381105977bf7091cb7d7558da20db33bce8faad6551738c3d584a3ebf5bd26740366f44f58f35b317d8121ce3062cf99b367916"
+RPM_NAME = "appstream-glib-0.8.4-1.1.aarch64.rpm"
+RPM_HASH = "8259f7455420d9a55472b096c4bbb0712b9ecb14cb20a5f95a23969c9fecdeb523eac9cfcececf0bf81f0dcc2660be4dced7e79e403397e46da9dcc05837a7d7"
 
 RPROVIDES:${PN} += "appstream-glib \
+asglib-swcatalog \
 libasb-plugin-appdata.so \
 libasb-plugin-desktop.so \
 libasb-plugin-gettext.so \
@@ -26,7 +27,6 @@ libasb-plugin-icon.so \
 libasb-plugin-shell-extension.so"
 
 RDEPENDS:${PN} += "gcab \
-gdk-pixbuf-loader-rsvg \
 ld-linux-aarch64.so.1 \
 libappstream-glib.so.8 \
 libarchive.so.13 \
@@ -38,8 +38,8 @@ libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libjson-glib-1.0.so.0 \
-librpm.so.9 \
-librpmio.so.9 \
+librpm.so.10 \
+librpmio.so.10 \
 pngquant"
 
 inherit rpm

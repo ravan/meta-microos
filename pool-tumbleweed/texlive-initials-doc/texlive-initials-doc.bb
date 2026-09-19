@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-initials"
 DESCRIPTION = "This package includes the documentation for texlive-initials"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54080"
+PV = "2026.226.svn54080"
 
-RPM_NAME = "texlive-initials-doc-2023.209.svn54080-54.1.noarch.rpm"
-RPM_HASH = "5e664f32fa43c29434c8edb8d931836968978b7ffb80266062d8a45b990a0a34ee510146d58abcc5af737d2dd9667fdcf19aab8eea8027b1de0d5e9ce0b13327"
+RPM_NAME = "texlive-initials-doc-2026.226.svn54080-60.2.noarch.rpm"
+RPM_HASH = "5ba033c247086a1f85147e1458ae52e271568f96b73782755e25732f05a7cf75cf4adeb5451721b7e0cf5f0ba180759cfbe9242e7a13eade2ed656c15f20d961"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-initials-doc"

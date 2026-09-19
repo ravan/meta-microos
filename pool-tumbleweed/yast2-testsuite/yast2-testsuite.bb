@@ -3,10 +3,10 @@ DESCRIPTION = "This is a package for the YaST2 modules testsuite preparation and
 execution."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.0"
 
-RPM_NAME = "yast2-testsuite-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "810ef282b2e5232e0746004213284cef85a15a37b9731dbb36848b23b0bf46c835f10a3d57785f602c01f48790ece3fcd7552890b1d4cd79f13312b9bc7c48de"
+RPM_NAME = "yast2-testsuite-5.0.0-1.9.noarch.rpm"
+RPM_HASH = "fabf77548dff32159ccefce2224f12e62539eeb34c794a098e25f41735dbb8096d409590258a61d76e90858d8439b4a68f0ba2a0bfe9c8aced1a02f04d5839e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-testsuite"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package deja-dup"
 DESCRIPTION = "Provides translations for the 'deja-dup' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.1"
+PV = "50.2"
 
-RPM_NAME = "deja-dup-lang-44.1-1.2.noarch.rpm"
-RPM_HASH = "d3c852f3a3c767bde2f99fca0495a2c5d08a05f3ac79d8e63bf6d3f45e24a4b0a12ba12e4583670ff1c9024685772ff9f5ea23886c39db1efbb4ee9b509138d2"
+RPM_NAME = "deja-dup-lang-50.2-1.1.noarch.rpm"
+RPM_HASH = "f601a9af0d358db6cb3b8d9def173ec87b7d9ccc58aaddbba4843cb7402e380d7584712f051ef0eae241bb1cc936f78068b297560e5c065d993eabefa20ca317"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deja-dup-lang \
@@ -35,7 +35,6 @@ locale-deja-dup-eu \
 locale-deja-dup-fa \
 locale-deja-dup-fi \
 locale-deja-dup-fr \
-locale-deja-dup-fr-CA \
 locale-deja-dup-fur \
 locale-deja-dup-gd \
 locale-deja-dup-gl \

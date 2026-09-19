@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a tray area quark for third-party apps \
 for LeechCraft SB2."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-mellonetray-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "c7d3b0064a2f5fd9f8b8ddcb73a01e8fd68273e50745f1ba8222e2c336acdb72b586653d15b9e8e0604d8b20208e39644ac5a6ff43b8ddf45ef1b6b8d5c323d7"
+RPM_NAME = "leechcraft-mellonetray-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "77fde78b2f0d08bb1c0fc68a077a3ce9a87f5278c96e6ea92de01a4d3cc6029128ccdaf1446541048e38d08d497dae1ba1fcd6d72a4936df1311b9afef3ab36b"
 
 RPROVIDES:${PN} += "leechcraft-mellonetray \
 libleechcraft-mellonetray.so"
@@ -14,19 +14,18 @@ libleechcraft-mellonetray.so"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
 leechcraft-sb2 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5X11Extras.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
 libX11.so.6 \
 libXdamage.so.1 \
+libXrender.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-x11-qt5.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-x11-qt6.so.0.6.75 \
 libstdc++.so.6 \
-qt5qmlimport-QtQuick.2"
+qt6qmlimport-QtQuick"
 
 inherit rpm

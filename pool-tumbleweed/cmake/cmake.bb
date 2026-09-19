@@ -2,13 +2,14 @@ SUMMARY = "Cross-platform make system"
 DESCRIPTION = "CMake is a cross-platform build system."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.27.2"
+PV = "4.4.3"
 
-RPM_NAME = "cmake-3.27.2-1.1.aarch64.rpm"
-RPM_HASH = "a45937f10334dabaed07c5920dba76904b067b91cb59b107e3cb24b78d5f65e9c0938b5b320c8767d6998a29e9bd1e048d904253f24a509f515a35c7b40e620d"
+RPM_NAME = "cmake-4.4.3-1.1.aarch64.rpm"
+RPM_HASH = "593e0ad6bf13c1bdebd912f0a5c72a11113347aa48bf5992c7c7330c65bd6ad76b012b4c9d986005f6dc6bbb00a78c07357230fa6abbf81c461fb5e8d597d119"
 
 RPROVIDES:${PN} += "cmake"
 
-RDEPENDS:${PN} += "cmake-implementation"
+RDEPENDS:${PN} += "cmake-implementation \
+libuv1"
 
 inherit rpm

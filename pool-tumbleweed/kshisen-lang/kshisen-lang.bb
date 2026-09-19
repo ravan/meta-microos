@@ -2,18 +2,18 @@ SUMMARY = "Translations for package kshisen"
 DESCRIPTION = "Provides translations for the 'kshisen' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kshisen-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "e27902ea2cc35e8ac3e2bb55d18abea23833af72fd59dd89613967257850c7c5f2d63d7c8e3827e2342e0e934754298f30a7d7879cb426a57c5e61a18bfba1f3"
+RPM_NAME = "kshisen-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "0c1f95f0f8dc5834cf2fd54fc754dfa8c199df79026c07a6d53a62f69fa74896b9f6d1e17d72ee45864b6f3b30f9c83e64a95cb43962138ae9a7cb97a3631f02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kshisen-lang \
 kshisen-lang-all \
 locale-kshisen-af \
 locale-kshisen-ar \
+locale-kshisen-ast \
 locale-kshisen-be \
-locale-kshisen-bg \
 locale-kshisen-bn \
 locale-kshisen-br \
 locale-kshisen-bs \
@@ -38,6 +38,7 @@ locale-kshisen-he \
 locale-kshisen-hi \
 locale-kshisen-hr \
 locale-kshisen-hu \
+locale-kshisen-ia \
 locale-kshisen-id \
 locale-kshisen-is \
 locale-kshisen-it \

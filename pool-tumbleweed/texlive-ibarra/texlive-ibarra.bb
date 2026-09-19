@@ -4,10 +4,10 @@ Geronimo Gil for the publication of Don Quixote for the Real \
 Academia de la Lengua in 1780. Joaquin Ibarra was the printer."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64567"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-ibarra-2023.209.svn64567-54.1.noarch.rpm"
-RPM_HASH = "822b42d3a480560a40c3fc7e8f4058f25d5ef14eb16f335a33fc08b59bca59b47ee73e40afdb48a8197d8d38b85fac4b61181ed5ae352c1fca7eb714c4480367"
+RPM_NAME = "texlive-ibarra-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "8ff327daefd697ea283387db8939d335a5cb701fd5b9e01837d63dae549e0762222bc4779606df3affc0a07ca32eb9a5afbfc88b3589cfb16c65e66482021b9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-IbarraRealNova-Bold-lf-ly1--base.tfm \
@@ -293,18 +293,18 @@ tex-TS1IbarraRealNova-LF.fd \
 tex-TS1IbarraRealNova-OsF.fd \
 tex-ibarra.map \
 tex-ibarra.sty \
-tex-ibrr-2qacnp.enc \
 tex-ibrr-6jlwjs.enc \
 tex-ibrr-a3lg2q.enc \
-tex-ibrr-bqfkme.enc \
+tex-ibrr-dmmd3u.enc \
 tex-ibrr-eocuub.enc \
-tex-ibrr-gj2f64.enc \
 tex-ibrr-ifilzm.enc \
-tex-ibrr-j5nrvp.enc \
+tex-ibrr-jzetup.enc \
 tex-ibrr-miztrm.enc \
-tex-ibrr-qbzklr.enc \
-tex-ibrr-rszbuw.enc \
+tex-ibrr-mqbgzl.enc \
+tex-ibrr-q6k3zb.enc \
+tex-ibrr-qwj6yz.enc \
 tex-ibrr-s4svbt.enc \
+tex-ibrr-w55u3i.enc \
 tex-ibrr-xjlkg7.enc \
 tex-ibrr-xx2mp7.enc \
 tex-ibrr-yt2suz.enc \

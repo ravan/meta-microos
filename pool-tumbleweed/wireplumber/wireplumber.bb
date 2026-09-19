@@ -5,27 +5,31 @@ providing convenience for writing the daemon's modules as well as \
 external tools for managing PipeWire."
 LICENSE = "MIT"
 
-PV = "0.4.14"
+PV = "0.5.17"
 
-RPM_NAME = "wireplumber-0.4.14-2.1.aarch64.rpm"
-RPM_HASH = "c0d256e9dafd42a2a4e74a6c5c8d37a5ced18cca08eca8e7b53011e6b79a3c96d844e648b8443d01c7e56d2b6cad69cd0d426067a82206ecbf381018f662fcf6"
+RPM_NAME = "wireplumber-0.5.17-1.1.aarch64.rpm"
+RPM_HASH = "95068452b3804ee05a2ecadba31d8c7bf755629bce5a48e543283b44c28654a382fd6c4fbc3d83f6566d5ea4f710d17ba3bb27b408e1c36af0e244b73eaabbf2"
 
-RPROVIDES:${PN} += "libwireplumber-module-default-nodes-api.so \
-libwireplumber-module-default-nodes.so \
-libwireplumber-module-default-profile.so \
+RPROVIDES:${PN} += "libwireplumber-module-dbus-connection.so \
+libwireplumber-module-default-nodes-api.so \
 libwireplumber-module-file-monitor-api.so \
+libwireplumber-module-log-settings.so \
 libwireplumber-module-logind.so \
 libwireplumber-module-lua-scripting.so \
-libwireplumber-module-metadata.so \
 libwireplumber-module-mixer-api.so \
+libwireplumber-module-modem-manager.so \
+libwireplumber-module-mpris.so \
+libwireplumber-module-notifications-api.so \
 libwireplumber-module-portal-permissionstore.so \
 libwireplumber-module-reserve-device.so \
+libwireplumber-module-settings.so \
 libwireplumber-module-si-audio-adapter.so \
-libwireplumber-module-si-audio-endpoint.so \
 libwireplumber-module-si-node.so \
 libwireplumber-module-si-standard-link.so \
+libwireplumber-module-standard-event-source.so \
 pipewire-session-manager \
-wireplumber"
+wireplumber \
+wireplumber-audio"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
@@ -37,7 +41,7 @@ liblua5.4.so.5 \
 libm.so.6 \
 libpipewire-0.3.so.0 \
 libsystemd.so.0 \
-libwireplumber-0.4.so.0 \
+libwireplumber-0.5.so.0 \
 pipewire"
 
 inherit rpm

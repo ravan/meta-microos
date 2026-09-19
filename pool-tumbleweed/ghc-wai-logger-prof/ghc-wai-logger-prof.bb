@@ -2,21 +2,21 @@ SUMMARY = "Haskell wai-logger profiling library"
 DESCRIPTION = "This package provides the Haskell wai-logger profiling library."
 LICENSE = "MIT"
 
-PV = "2.4.0"
+PV = "2.5.0"
 
-RPM_NAME = "ghc-wai-logger-prof-2.4.0-2.9.aarch64.rpm"
-RPM_HASH = "1a3db5f0ea98658b92adfbee7b19d6a1a95da8fcee98a1e669107ce5eaca41d02324c0f83076c38179363add4f846d0694ea0e119126c41eb7ec62d4af58dcd1"
+RPM_NAME = "ghc-wai-logger-prof-2.5.0-1.23.aarch64.rpm"
+RPM_HASH = "bdb067095d617bbe115179d1308017abfe544b5972ebfc00b8ced67a62b056369fd756a64e87bdfd45770e28538340afbe2ce523f3df6d3989c7778fa94f4538"
 
-RPROVIDES:${PN} += "ghc-prof-wai-logger-2.4.0-9HbB2lkmWIvBhHGAMxm4Zs \
+RPROVIDES:${PN} += "ghc-prof-wai-logger-2.5.0-3cHzLKgypSbCdVbvyxsJiz \
 ghc-wai-logger-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-byteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-fast-logger-3.1.2-2QS5oj3W57wGcX3QgTrERi \
-ghc-prof-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-prof-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-prof-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-byteorder-1.0.4-2KwV8jNH81I9JBUzKyr4X2 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-fast-logger-3.2.6-JkXOEB4fbDV8mDlAr0wMkH \
+ghc-prof-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-prof-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-prof-wai-3.2.4-Is1UVC1czjX2cAufnl3tJW \
 ghc-wai-logger-devel"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "A library providing C and Python (libcURL like) API for downloadi
 metadata."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.15.1"
+PV = "1.20.0"
 
-RPM_NAME = "librepo0-1.15.1-1.6.aarch64.rpm"
-RPM_HASH = "60d84a00943d99f05a069235a6485a6d018e84f7ef2253eab5777f4989eb4b09fdfd61183ccf1eff7e120f4dfd0e3546c677fd9b93f81140a487871fe82d4fa6"
+RPM_NAME = "librepo0-1.20.0-3.1.aarch64.rpm"
+RPM_HASH = "4c7288fe7e7463eda7c602d4dce42692d38efe6efbf0e94cea67cba18b51d9f0d27547fe08bd74f22c54a390813251b32974d9c13d9b2982a97a9db1c48c8c94"
 
 RPROVIDES:${PN} += "librepo.so.0 \
 librepo0"
@@ -19,8 +19,9 @@ libcurl.so.4 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgpgme.so.11 \
-libxml2.so.2 \
+libgpgme.so.45 \
+libselinux.so.1 \
+libxml2.so.16 \
 libzck.so.1"
 
 inherit rpm

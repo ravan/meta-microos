@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.8"
 
-RPM_NAME = "resolv_wrapper-1.1.8-2.3.aarch64.rpm"
-RPM_HASH = "a2cb1ba55edbb626ff206d1a60f688380f16c58986bde653072032fae80eca417dd0b4700479c9da7375611f96e591cd03a5ffa30f00f4fb44a075d33c43e342"
+RPM_NAME = "resolv_wrapper-1.1.8-2.13.aarch64.rpm"
+RPM_HASH = "cf6627ca60d05a30ae0dd645da0d5109bf4f7e62c83a1d5d62f3173bc1478c9f908ffb2539ff3e710f6c6b1cc3bcc903a412d3e418ee77c560d82029a6256f7a"
 
 RPROVIDES:${PN} += "cmake-resolv-wrapper \
 libresolv-wrapper.so.0 \

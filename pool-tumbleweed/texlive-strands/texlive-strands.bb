@@ -4,10 +4,10 @@ like set partitions, permutations, braids, etc. It depends on \
 forarray, ifthen, TikZ, xfp, xstring, and xkeyval."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn59906"
+PV = "2026.226.1.1svn59906"
 
-RPM_NAME = "texlive-strands-2023.209.1.1svn59906-58.1.noarch.rpm"
-RPM_HASH = "b4c847519068ea0b704e1a7ecfd449d3ffdf486358b5faac67720fa69c09e20c3388350f0a9c40fe8aef6dd2824cc1909eac49a05adc398461f8afb1e3b72505"
+RPM_NAME = "texlive-strands-2026.226.1.1svn59906-64.2.noarch.rpm"
+RPM_HASH = "48403a38f3effb18f29b9619f0a58d12c0feec13b0362f19afb8e84250a01d0e487020be8ec116695715c38292ac6ec3b0e65de60782d8de807c5ec43bb17bba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-strands.sty \

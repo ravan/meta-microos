@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cuisine"
 DESCRIPTION = "This package includes the documentation for texlive-cuisine"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn34453"
+PV = "2026.226.0.0.7svn34453"
 
-RPM_NAME = "texlive-cuisine-doc-2023.209.0.0.7svn34453-55.1.noarch.rpm"
-RPM_HASH = "5238478db9d86af21274c49013400fca20a725d7c2c60b11af36b6f0568a788c05098b291638f7c116845a56d1e52488e3dc5a8d1a274bc0fd08fcb53a973db0"
+RPM_NAME = "texlive-cuisine-doc-2026.226.0.0.7svn34453-61.2.noarch.rpm"
+RPM_HASH = "805ac712ea5e37cc407ac85566af2c43d690205970f9cfe6976c9354a03341d318c7250044a8096066cbacf0196384168412157556cfc4f17d7af56890a24354"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cuisine-doc"

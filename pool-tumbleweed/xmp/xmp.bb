@@ -6,10 +6,10 @@ Amiga, Atari, Acorn, Apple IIgs, C64, and PC, including Protracker \
 Tracker (IT) files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.2.0"
+PV = "4.3.1"
 
-RPM_NAME = "xmp-4.2.0-1.1.aarch64.rpm"
-RPM_HASH = "973403f267250b591b0e850a23f15cb7909dfb958c501c69072e5b6b7221175f0108666a515fd508914320038bd0986adf2c193959b9140eaaceee7abe3790aa"
+RPM_NAME = "xmp-4.3.1-1.1.aarch64.rpm"
+RPM_HASH = "edc645266af176e6d36d37ffdaa391ff9fe89ab178ea178ee2c958f43e629bdcc40b02ebc9110ca2eef2e30eaa787cba91e20fc79a3580e1a2833c3c70f13d8b"
 
 RPROVIDES:${PN} += "config-xmp \
 xmp"

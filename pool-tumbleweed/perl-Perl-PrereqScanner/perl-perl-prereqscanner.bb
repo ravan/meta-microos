@@ -17,10 +17,10 @@ scripts, including minimum perl version \
   * OO namespace aliasing using the 'aliased' module"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.100"
+PV = "1.100.0"
 
-RPM_NAME = "perl-Perl-PrereqScanner-1.100-1.3.noarch.rpm"
-RPM_HASH = "6cfd506fb8d8c10009107b2eb6abc6f8cb0ea63d4ea5473c37e37401c5f8ccc9eefd7c6c12b9ddcaeb0bab967565fe5884e1ef2799e1b006ffd227a00689c821"
+RPM_NAME = "perl-Perl-PrereqScanner-1.100.0-1.7.noarch.rpm"
+RPM_HASH = "867639492c84cf7a80adc5f23f56dd33a75a269a9a226a78b5ca9f2fe1978d35c330a737baf134c626d83f0265cf52abe84184c0bec1bbfe4a4b778c2c896b80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--PrereqScanner \
@@ -34,7 +34,7 @@ perl-Perl--PrereqScanner--Scanner--TestMore \
 perl-Perl-PrereqScanner"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--Meta--Requirements \
 perl-Getopt--Long--Descriptive \
 perl-List--Util \

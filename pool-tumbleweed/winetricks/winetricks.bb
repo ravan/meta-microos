@@ -6,10 +6,11 @@ workarounds automatically. It also allows the installation of missing \
 DLLs and tweaking of various WINE settings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "20230212"
+PV = "20260125"
 
-RPM_NAME = "winetricks-20230212-1.1.aarch64.rpm"
-RPM_HASH = "d28990977aac0640ef92ab217b0de2db6959f7339c8a1a81f6c9a8c98ee0a6621f925277035deff70f89e6ca5f43bc747aa534e8ab1d3fe436c0c832be90fb6c"
+RPM_NAME = "winetricks-20260125-1.5.noarch.rpm"
+RPM_HASH = "a39066ff7b0c2a92244b0f85638864bdb1da7a10ac6f506a8a65b2ccc8ba9b7f1e4e6ea4ec8f61d1bcd92f0dd0c346007db2c71a04ab1d154a328a0a18b93e1a"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "winetricks"
 

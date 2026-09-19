@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the externally loadable bdbhpt DLZ driver, 
 update support"
 LICENSE = "MPL-2.0"
 
-PV = "9.18.18"
+PV = "9.20.26"
 
-RPM_NAME = "bind-modules-bdbhpt-9.18.18-1.1.aarch64.rpm"
-RPM_HASH = "ccc8eb2f5d5c66720698f9cfc1aa383fda8d3653055282de5a3ce7e9cfd9bfb0a2caf893879d0844815b7c29d05800fdd260ff40144510e92bf8ff48ec0a9e07"
+RPM_NAME = "bind-modules-bdbhpt-9.20.26-1.2.aarch64.rpm"
+RPM_HASH = "712453ac5831a6def444012c7348a5ccd19118e15997b5946d78058a1f7f61a691fd00d5a863e64ab8c4a064cece969a5610d14ed0dd26abba7b38e5b3a57e58"
 
 RPROVIDES:${PN} += "bind-modules-bdbhpt"
 

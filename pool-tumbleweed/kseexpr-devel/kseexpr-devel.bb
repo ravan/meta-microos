@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & Apache-2.0 & BSD-3-Clause & MIT"
 
 PV = "4.0.4.0"
 
-RPM_NAME = "kseexpr-devel-4.0.4.0-1.11.aarch64.rpm"
-RPM_HASH = "db024162d5f6d509a403a8d1608f7b354315c88cb9dd810b01a3b2ec24e233887e21681193db8d59c4d42fe5f3a6c2637031ed6657767c04612a89f1b851c36a"
+RPM_NAME = "kseexpr-devel-4.0.4.0-1.20.aarch64.rpm"
+RPM_HASH = "d4bf397b876f8fe3cc2caa6a1585752206a4d2ccbb3a6f9e77795d71f0f4eee22a3a267300033b4c398f11eae7a12adc2268c0cf815a10df652a96ebbb7873f4"
 
 RPROVIDES:${PN} += "cmake-kseexpr \
 kseexpr-devel \

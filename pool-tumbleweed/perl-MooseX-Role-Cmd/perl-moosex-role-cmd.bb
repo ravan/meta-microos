@@ -6,15 +6,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.10"
 
-RPM_NAME = "perl-MooseX-Role-Cmd-0.10-12.19.noarch.rpm"
-RPM_HASH = "1a268be4ee472c853c8e80a7630a97c48a759c31531c3c4276288c1a42f1a69a3b1fd08cf7207810b9d776e199ad08f529ee040ca287ad25fbe23ee2b996debb"
+RPM_NAME = "perl-MooseX-Role-Cmd-0.10-12.33.noarch.rpm"
+RPM_HASH = "62e098f0599e9daed19565760bc3277a18b7fbb735d84a0f750344bf4a79e9eac24847bc1377a0cdd82b74d8748baff65828fd75cd6e9ac8c1e5f530d6bee498"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Role--Cmd \
 perl-MooseX--Role--Cmd--Meta--Attribute--Trait \
 perl-MooseX-Role-Cmd"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IPC--Cmd \
 perl-Moose"
 

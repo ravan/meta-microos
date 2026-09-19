@@ -10,10 +10,10 @@ and so forth. Discrete- and continuous-time Markov chains are supported. \
 This is part of the Octave-Forge project."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2.7"
+PV = "1.2.8"
 
-RPM_NAME = "octave-forge-queueing-1.2.7-1.12.noarch.rpm"
-RPM_HASH = "28c1d66a30fdbee55f253da0466d57bdcaac69e67fcc1ea683f17354c8601e6b907041302d3ac57897d65e33e48572114174023a7d059839a171d516222a58d4"
+RPM_NAME = "octave-forge-queueing-1.2.8-2.3.noarch.rpm"
+RPM_HASH = "5d6ee5bd20c4f0a1252dde6a02c944caac92f5a746eb79ea5c0a190208ad9832822756a0020ca2b5bb4bb40148572dfaa3704a13adf67d0c4a45a0d2776a367d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-queueing"

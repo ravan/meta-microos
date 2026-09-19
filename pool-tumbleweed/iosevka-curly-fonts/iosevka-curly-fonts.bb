@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka Curly typeface (curly style)."
 LICENSE = "OFL-1.1"
 
-PV = "26.1.0"
+PV = "34.8.1"
 
-RPM_NAME = "iosevka-curly-fonts-26.1.0-1.1.noarch.rpm"
-RPM_HASH = "b09de28e0c4acf8c32780d6a3ab0aa109a6efbaf33159a131975ac38fbdd0533629d05960426b8b697091800436464e549063822907ab8545971154c10387906"
+RPM_NAME = "iosevka-curly-fonts-34.8.1-1.1.noarch.rpm"
+RPM_HASH = "3e2fc60c89adb10e7585c0341801ba45c35e5c09971d3e00d9752254bff5b5aed25008d46e171f1e96c522e7229ea35805924d64249de04b5337bff0a09c5e7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-curly-fonts"

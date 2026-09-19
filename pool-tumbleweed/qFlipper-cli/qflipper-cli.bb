@@ -8,17 +8,18 @@ DESCRIPTION = "Commandline application for updating Flipper Zero firmware \
 * Backup and restore settings, progress and pairing data"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.1~rc1+git1.1684488882.0199220"
+PV = "1.3.3+git0.1699609231.bfce851"
 
-RPM_NAME = "qFlipper-cli-1.3.1~rc1+git1.1684488882.0199220-1.1.aarch64.rpm"
-RPM_HASH = "ad239828b69671a7d3a919f44f9925fa77f2dde558509ba987dec794563f25575ef4b1e5bae6e52cf5e2c502c2185edcbb61de19b2d6c036e949abdcea6d3d7f"
+RPM_NAME = "qFlipper-cli-1.3.3+git0.1699609231.bfce851-4.11.aarch64.rpm"
+RPM_HASH = "f64586d855d3b5bb3179b4f83e692755a1e9a5d7a4fa10feb4b8b5f158c53088a9a6726abc227dc827e43bb0ededd7feb2c84863ec65eb3b06699e1366c99a76"
 
 RPROVIDES:${PN} += "qFlipper-cli"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Network.so.5 \
-libQt5SerialPort.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Network.so.6 \
+libQt6SerialPort.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

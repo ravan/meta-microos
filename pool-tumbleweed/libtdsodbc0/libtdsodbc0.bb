@@ -5,10 +5,10 @@ servers, a big help to people who know ODBC and/or write applications \
 for several kinds of servers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.20"
+PV = "1.4.27"
 
-RPM_NAME = "libtdsodbc0-1.3.20-1.1.aarch64.rpm"
-RPM_HASH = "6f900777425b877806adbf260f7fbfcbd223dc5ee6c7cc97c92dbe92bffc12ec54e9ef63c084a9044642102e46b525cd0aa4b6ceab0a6887400ba6263452aefa"
+RPM_NAME = "libtdsodbc0-1.4.27-2.1.aarch64.rpm"
+RPM_HASH = "9f1ec99c4e15ae33120e7ca63b8f4b6e66ea0627a40c28b543d13fe102bae8863f882378e26e665a513ba5b50feb3f8a07f6f17ad5c45c5923a0717a8cd2bdd9"
 
 RPROVIDES:${PN} += "libtdsodbc.so.0 \
 libtdsodbc0"

@@ -4,10 +4,10 @@ It is used by gnome-color-manager for system integration and use when \
 there are no users logged in."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.6"
+PV = "1.4.8"
 
-RPM_NAME = "libcolorhug2-1.4.6-4.1.aarch64.rpm"
-RPM_HASH = "544158582271c39e2ece826c01282fdb8f726beb178322a4d7316b81db186ace18c597dd2995e04a2c46766834baa4268c269d66e7dff911280284f5f8513994"
+RPM_NAME = "libcolorhug2-1.4.8-3.1.aarch64.rpm"
+RPM_HASH = "2d49c46df853bc52c860c663a2961103946449015168bd123c45463e4a4e19e75de8aac4b038b4116a2b5b7a262f034901422ab49351cc7b7d04f8b233fcef78"
 
 RPROVIDES:${PN} += "libcolorhug.so.2 \
 libcolorhug2"

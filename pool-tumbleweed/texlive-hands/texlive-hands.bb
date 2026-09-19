@@ -4,10 +4,10 @@ and white-on-black realisation. The font is distributed as \
 Metafont source."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn13293"
+PV = "2026.226.svn13293"
 
-RPM_NAME = "texlive-hands-2023.209.svn13293-54.2.noarch.rpm"
-RPM_HASH = "a701a247379a95c9da8c5263b939344cf069fd98dd81899ea331f1272a4f67267796d1639acc916dd99fb01df44d4d65d357a7b818c8c3d360545b2c2e9717c9"
+RPM_NAME = "texlive-hands-2026.226.svn13293-60.4.noarch.rpm"
+RPM_HASH = "2dae6e703f67b5e418ff6804764b958c45fb5ff36c194b739720686a5e589547c4f00eba15f10a3424cdebb6dc0998dc61ee80fff390798f1d0dfeed381ba092"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hands.tfm \

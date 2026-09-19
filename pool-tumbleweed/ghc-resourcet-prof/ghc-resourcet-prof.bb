@@ -2,21 +2,21 @@ SUMMARY = "Haskell resourcet profiling library"
 DESCRIPTION = "This package provides the Haskell resourcet profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.6"
+PV = "1.3.0"
 
-RPM_NAME = "ghc-resourcet-prof-1.2.6-2.8.aarch64.rpm"
-RPM_HASH = "edfe7cd0b9c65a88d3fd0b3b6457c05b63dcfdea645646ccd6aec2d6a754a30411afd133c367cf6ee2d8ba2c1f2dbb94fc7b9503faba26c7ac41acd2e34f61d4"
+RPM_NAME = "ghc-resourcet-prof-1.3.0-2.28.aarch64.rpm"
+RPM_HASH = "437c57e591039eeebd3295e144b2d7137384aced3a8dbc2cb7766a22aa3377ca726b8655a0e7992994a6c82c88e694bc1422a3a1f7721aa77fdf296840a5220c"
 
-RPROVIDES:${PN} += "ghc-prof-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
+RPROVIDES:${PN} += "ghc-prof-resourcet-1.3.0-F8ZRgExkptBLIQxE9m0AZE \
 ghc-resourcet-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-exceptions-0.10.5 \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unliftio-core-0.2.1.0-LP03A4AUPGIIJc7XWMX3ES \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-exceptions-0.10.12-f655 \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-primitive-0.9.1.0-Ez30Vu7tivmF28X1123Css \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-unliftio-core-0.2.1.0-HFUY5mS3bsg3RW1edumY92 \
 ghc-resourcet-devel"
 
 inherit rpm

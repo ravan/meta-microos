@@ -12,10 +12,11 @@ This package contains SWIG examples, useful both for testing and \
 understandig SWIG usage."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.1"
+PV = "4.4.1"
 
-RPM_NAME = "swig-examples-4.1.1-2.4.aarch64.rpm"
-RPM_HASH = "8cf8710743610c08ecd863fd4a24b09cf7ed11941e5fd61966295d916785b50c6f7ceb1197204565a05d93626a679f0954b80fced2ae98a1f4419fbebe8c0e37"
+RPM_NAME = "swig-examples-4.4.1-2.3.noarch.rpm"
+RPM_HASH = "63af0aef18615cfd054ea520157edb140ad01026abc4387a59fceebce70bb7e413827b4af4414485924f67d4263eb2c62bdabaf791f4ffca02c9f70448e6b396"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swig-examples"
 

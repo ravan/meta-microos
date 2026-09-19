@@ -21,8 +21,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "2.15.0"
 
-RPM_NAME = "jondofox-2.15.0-1.19.noarch.rpm"
-RPM_HASH = "5f3dc09d8a948a8279e82b70fddb71f2bfc03a908a640c90d7bba3d720a8e6047b449c6606647a34569e60ca83c23f4abf6568adc4d82b3892157422c016751a"
+RPM_NAME = "jondofox-2.15.0-1.29.noarch.rpm"
+RPM_HASH = "eb259e3ba03fd73bbdccbf4837982b8e77f962b4dce6ccba21d9bab27104f370735d6d147d84f8d7cb959fabafc88b5aca42d8474f7606db59d0a0cc57d75a1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jondofox"

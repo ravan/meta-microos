@@ -8,10 +8,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of the cdio libraries."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.0"
+PV = "2.2.0"
 
-RPM_NAME = "libcdio-devel-2.1.0-7.1.aarch64.rpm"
-RPM_HASH = "9f1d56376d94f7131e6ed04fdf3c7b235947dd45d67406221ebc2a6c474ee6dc976b74282a7cca928fef4d4bc7b1981f894d5dcdecfb97e59e7eaedae4129d99"
+RPM_NAME = "libcdio-devel-2.2.0-1.7.aarch64.rpm"
+RPM_HASH = "8b10c1d15db56004d37c5f2c67c1ec9b9faf56303d2083bdaf7c159299d3eb2aa37ab875aa6fe58af379733d11950b569fab0f9e1fef7643b89ee810f94a0494"
 
 RPROVIDES:${PN} += "libcdio-devel \
 pkgconfig-libcdio \
@@ -24,8 +24,8 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
 libcdio++1 \
 libcdio19 \
-libiso9660++0 \
-libiso9660-11 \
+libiso9660++1 \
+libiso9660-12 \
 libudf0 \
 pkgconfig-libcdio"
 

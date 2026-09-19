@@ -1,13 +1,13 @@
 SUMMARY = "An OBS source service: create tar ball from svn/git/hg"
 DESCRIPTION = "This is a source service for openSUSE Build Service. \
  \
-It supports downloading from svn, git, hg and bzr repositories."
+It supports downloading from svn, git and hg repositories."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.41"
+PV = "0.12.4"
 
-RPM_NAME = "obs-service-tar_scm-0.10.41-1.1.noarch.rpm"
-RPM_HASH = "9fb745007acf2ab3035153b5498ece9abe08c96110628545ac4a9b4e4a34bb626b365396637afe873a552d2a64a5d6f27e39da49ed62a85bab6fb1aa0aa2abb0"
+RPM_NAME = "obs-service-tar_scm-0.12.4-1.1.noarch.rpm"
+RPM_HASH = "bb3c797cd9997125f08712e9ddc56f4da4be3b31cf79eeee99d38080ca78c5613dcb97bff5b26cd8c6a223c617ebc58f5013394268440c38f874b2c6e10ed4ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-tar-scm"

@@ -7,10 +7,10 @@ compilers. They are not needed for normal OCaml development, but may \
 be helpful in the development of certain applications."
 LICENSE = "QPL-1.0"
 
-PV = "4.14.1"
+PV = "5.5.0"
 
-RPM_NAME = "ocaml-compiler-libs-4.14.1-1.4.aarch64.rpm"
-RPM_HASH = "664a28dd7cbf8ac0eb4a40ddf2385a54f1789d0c8a207bdfc4dfe48a4a63dd53f8bcb3b484de48b3e91b20168d261abda46fdc2557244c704a430c22195e2ead"
+RPM_NAME = "ocaml-compiler-libs-5.5.0-2.1.aarch64.rpm"
+RPM_HASH = "80c4d7981e15a4a58c0e854a687876bdf63d700edbeb7ec12fa67bf9a6e7f0c73e2ee2c870b9a4a79f9bd3e9d8f97cc228823e43a36ac4bae992042bff2ed5c4"
 
 RPROVIDES:${PN} += "ocaml-Afl-instrument \
 ocaml-Alias-analysis \
@@ -42,6 +42,7 @@ ocaml-Bytegen \
 ocaml-Bytelibrarian \
 ocaml-Bytelink \
 ocaml-Bytepackager \
+ocaml-Byterntm \
 ocaml-Bytesections \
 ocaml-CSE \
 ocaml-CSEgen \
@@ -77,10 +78,14 @@ ocaml-Compile \
 ocaml-Compile-common \
 ocaml-Compilenv \
 ocaml-Compmisc \
+ocaml-Compression \
 ocaml-Config \
+ocaml-Config-boot \
+ocaml-Config-main \
 ocaml-Consistbl \
 ocaml-Convert-primitives \
 ocaml-Ctype \
+ocaml-Data-types \
 ocaml-Dataflow \
 ocaml-Datarepr \
 ocaml-Deadcode \
@@ -100,6 +105,7 @@ ocaml-Env \
 ocaml-Envaux \
 ocaml-Errors \
 ocaml-Errortrace \
+ocaml-Errortrace-report \
 ocaml-Export-id \
 ocaml-Export-info \
 ocaml-Export-info-for-pack \
@@ -112,8 +118,10 @@ ocaml-Flambda-iterators \
 ocaml-Flambda-middle-end \
 ocaml-Flambda-to-clambda \
 ocaml-Flambda-utils \
+ocaml-Format-doc \
 ocaml-Freshening \
 ocaml-Genprintval \
+ocaml-Gprinttyp \
 ocaml-Id-types \
 ocaml-Ident \
 ocaml-Identifiable \
@@ -148,6 +156,7 @@ ocaml-Linear \
 ocaml-Linear-format \
 ocaml-Linearize \
 ocaml-Linkage-name \
+ocaml-Linkdeps \
 ocaml-Linscan \
 ocaml-Liveness \
 ocaml-Load-path \
@@ -171,6 +180,7 @@ ocaml-Optcompile \
 ocaml-Opterrors \
 ocaml-Optmain \
 ocaml-Optmaindriver \
+ocaml-Out-type \
 ocaml-Outcometree \
 ocaml-Parameter \
 ocaml-Parmatch \
@@ -200,7 +210,7 @@ ocaml-Printtyped \
 ocaml-Proc \
 ocaml-Profile \
 ocaml-Projection \
-ocaml-Rec-check \
+ocaml-Rawprinttyp \
 ocaml-Ref-to-variables \
 ocaml-Reg \
 ocaml-Reload \
@@ -218,8 +228,10 @@ ocaml-Semantics-of-primitives \
 ocaml-Set-of-closures-id \
 ocaml-Set-of-closures-origin \
 ocaml-Shape \
+ocaml-Shape-reduce \
 ocaml-Share-constants \
 ocaml-Signature-group \
+ocaml-Signature-matching \
 ocaml-Simple-value-approx \
 ocaml-Simplif \
 ocaml-Simplify-boxed-integer-ops \
@@ -228,6 +240,9 @@ ocaml-Simplify-common \
 ocaml-Simplify-primitives \
 ocaml-Spill \
 ocaml-Split \
+ocaml-Stable-matching \
+ocaml-Stackframe \
+ocaml-Stackframegen \
 ocaml-Static-exception \
 ocaml-Strmatch \
 ocaml-Strongly-connected-components \
@@ -242,6 +257,7 @@ ocaml-Targetint \
 ocaml-Tast-iterator \
 ocaml-Tast-mapper \
 ocaml-Terminfo \
+ocaml-Thread-sanitizer \
 ocaml-Tmc \
 ocaml-Topcommon \
 ocaml-Topdirs \
@@ -249,6 +265,7 @@ ocaml-Topeval \
 ocaml-Tophooks \
 ocaml-Toploop \
 ocaml-Topmain \
+ocaml-Topprinters \
 ocaml-Topstart \
 ocaml-Trace \
 ocaml-Translattribute \
@@ -276,15 +293,14 @@ ocaml-Un-anf \
 ocaml-Unbox-closures \
 ocaml-Unbox-free-vars-of-closures \
 ocaml-Unbox-specialised-args \
+ocaml-Unit-info \
 ocaml-Untypeast \
+ocaml-Value-rec-check \
+ocaml-Value-rec-compiler \
+ocaml-Value-rec-types \
 ocaml-Var-within-closure \
 ocaml-Variable \
 ocaml-Warnings \
-ocaml-X86-ast \
-ocaml-X86-dsl \
-ocaml-X86-gas \
-ocaml-X86-masm \
-ocaml-X86-proc \
 ocaml-compiler-libs"
 
 RDEPENDS:${PN} += "ocaml \
@@ -295,10 +311,14 @@ ocaml-CamlinternalOO \
 ocaml-Stdlib \
 ocaml-Stdlib--Arg \
 ocaml-Stdlib--Array \
+ocaml-Stdlib--Bigarray \
+ocaml-Stdlib--Bool \
 ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Char \
+ocaml-Stdlib--Complex \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
 ocaml-Stdlib--Float \
@@ -306,6 +326,7 @@ ocaml-Stdlib--Format \
 ocaml-Stdlib--Fun \
 ocaml-Stdlib--Gc \
 ocaml-Stdlib--Hashtbl \
+ocaml-Stdlib--In-channel \
 ocaml-Stdlib--Int \
 ocaml-Stdlib--Int32 \
 ocaml-Stdlib--Int64 \
@@ -317,6 +338,8 @@ ocaml-Stdlib--Marshal \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Option \
+ocaml-Stdlib--Out-channel \
+ocaml-Stdlib--Pair \
 ocaml-Stdlib--Parsing \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \

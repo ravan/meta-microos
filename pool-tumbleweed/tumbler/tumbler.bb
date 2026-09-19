@@ -6,10 +6,10 @@ extensible through a plugin interface or via specialized thumbnailer services \
 implemented in accordance to the thumbnail management D-Bus specification."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.18.1"
+PV = "4.20.2"
 
-RPM_NAME = "tumbler-4.18.1-1.1.aarch64.rpm"
-RPM_HASH = "c71198b1b09a147cd34f18725973712af2ed6e4a36dee8a128b87d19db534578873486caf80a50b29b3c1c21a94f09a584c4798d9ea2efea61ea68911b978c37"
+RPM_NAME = "tumbler-4.20.2-1.1.aarch64.rpm"
+RPM_HASH = "6f7af14e8bd1616240412fe385110b7810548eef2eabd186af12aa862ac30b84e1023e4f0e2fc50604cdf10404590806d53be0f68d9841e3df97ebfda353d04c"
 
 RPROVIDES:${PN} += "config-tumbler \
 tumbler"

@@ -3,10 +3,10 @@ DESCRIPTION = "A set of annotations that provide additional information to \
 the J2ObjC translator to modify the result of translation."
 LICENSE = "Apache-2.0"
 
-PV = "2.2"
+PV = "3.0.0"
 
-RPM_NAME = "j2objc-annotations-2.2-1.5.noarch.rpm"
-RPM_HASH = "00aec4985fb4acf1253e96d91383c69c3fbd7c87047d35be111aaa4f1b20e000dee02e4132c3ef08f98f27168963980ca504a86428eed665d0273d9f6f059a3b"
+RPM_NAME = "j2objc-annotations-3.0.0-1.6.noarch.rpm"
+RPM_HASH = "d18dbf0c22407be7045007572723ed0169e229561c3e99aba6fbcfd7e4163f98790e8857454ec17fcaee33c2d3412f9d2ac1e4e979616fa6a0c2c21b70a12d00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "j2objc-annotations \

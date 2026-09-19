@@ -11,15 +11,15 @@ causes a shell to behave strangely and counter-intuitively. \
 advanced user's otherwise working script to fail under future circumstances."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.9.0"
+PV = "0.11.0"
 
-RPM_NAME = "ShellCheck-0.9.0-2.11.aarch64.rpm"
-RPM_HASH = "fcd62a81613b9adb59044be8ce3986fb0e2e3326fd9f7efd0f88125667c5c79e04c921725288523fcb5ec294c057c2bfbad83f2a03fbc248149d15db5dfd5d85"
+RPM_NAME = "ShellCheck-0.11.0-1.3.aarch64.rpm"
+RPM_HASH = "3292560c3abe0889a0557f0c4757b583e12fa98cd65c2be894bcb56eff9db815da741405579997a9e06d06839e55dc733e2ab1476c78aefcd2d52d05cfe2b767"
 
-RPROVIDES:${PN} += "ShellCheck"
+RPROVIDES:${PN} += "ShellCheck \
+shellcheck"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libffi.so.8 \
 libgmp.so.10 \
 libm.so.6 \

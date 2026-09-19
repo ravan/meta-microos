@@ -3,10 +3,10 @@ DESCRIPTION = "Gwenbuild is a lightweight and fast build system tailored for the
 aqbanking universe."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.10.1"
+PV = "5.14.1"
 
-RPM_NAME = "gwenhywfar-gwenbuild-5.10.1-1.5.aarch64.rpm"
-RPM_HASH = "6f7968c840d2a6b11c207cffc587b82d4ad45dbfe3b10ea56d09950d66b62146a81e1277b4896524a94c969a1fb9f1867a5f1f8d40e4c2c04dc6af00f0b27f73"
+RPM_NAME = "gwenhywfar-gwenbuild-5.14.1-1.3.aarch64.rpm"
+RPM_HASH = "9756c2fa8803927a044409185fca7c9b85ea73904957e0d3af5d7485e82a8d7b1fcefa4a90c13f2359a3f3fb900f3ebcebb4306642599b5fb6088dfebcdd5fb9"
 
 RPROVIDES:${PN} += "gwenhywfar-gwenbuild"
 

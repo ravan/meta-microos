@@ -2,10 +2,11 @@ SUMMARY = "Documentation for Scribus"
 DESCRIPTION = "This package provides the documentation for Scribus."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.8"
+PV = "1.6.6"
 
-RPM_NAME = "scribus-doc-1.5.8-5.1.aarch64.rpm"
-RPM_HASH = "c44c8047c4258a7940fba96a31d3e9a55b670626c8a10e2a66e7448a4bc99457afa28a00e72500f6700e3b26272a196ecdfdf0f83d040890c00214c95d58e902"
+RPM_NAME = "scribus-doc-1.6.6-4.1.noarch.rpm"
+RPM_HASH = "118e8d998801f4bef10ffabfccbc1dabb9cd12102a65ae2f64b439f127adf0b4331084e724ef794cd53e2387310d41c207ead16af2d9ae21bcf21256a9efaa57"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scribus-doc"
 

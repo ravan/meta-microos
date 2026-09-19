@@ -2,10 +2,10 @@ SUMMARY = "System user and group games"
 DESCRIPTION = "This package provides the system account and group 'games'."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-user-games-20170617-24.16.noarch.rpm"
-RPM_HASH = "929d98763ba709cd7423b589d2ef63f16d4a36f82047d55308a5f4bb64a61d22316bc04cd3c5090af58badd621487a1fa969a208d00564444a798aa948fabfe4"
+RPM_NAME = "system-user-games-20250822-2.3.noarch.rpm"
+RPM_HASH = "cd6368b9b514bdb164fed1bb35e0af6faf35109cb516184f158e5badc9c2c04066aa96877fec8d5c474aec70f4ac364fb340c4642997d6b4ada7ab34c31f97c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-games \

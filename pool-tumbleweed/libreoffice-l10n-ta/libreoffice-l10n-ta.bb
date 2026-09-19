@@ -2,10 +2,10 @@ SUMMARY = "Tamil localization files for LibreOffice"
 DESCRIPTION = "Provides Tamil translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-ta-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "77c97b193deb83a3e5721809e9d010f599881f65f9e3e31fabcc023c0d9c239a042e84e03b3d0b3d3945d14dac13507cad79e4e88b8b436f792cb6b9bf377747"
+RPM_NAME = "libreoffice-l10n-ta-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "3130d2e9b0e6d6834560c0cda3ced9be5549eea55c5fa53dbab0bf993998c8f57aa93461f9e1504f8c3162ca218d2da90a6cf962f7114d61a8f9a6bfca62d378"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ta \

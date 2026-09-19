@@ -9,10 +9,10 @@ DESCRIPTION = "SnakeYAML features: \
     * relatively sensible error messages."
 LICENSE = "Apache-2.0"
 
-PV = "1.33"
+PV = "2.2"
 
-RPM_NAME = "snakeyaml-1.33-1.3.noarch.rpm"
-RPM_HASH = "8d5403c3049ae4caa6d9844a14180af6538a0d13cf271af4d0b8f7de308c4fd99f77f2072e215792cca0dc631f03e1691b9905d2583c1fb4c08723cc9f8864c5"
+RPM_NAME = "snakeyaml-2.2-3.9.noarch.rpm"
+RPM_HASH = "e7e92ab52c7413f018e912d8c99f46728f073b07011a3757ef2dc588541567d359b37bb5a9d52984a1c386edfbbb71f21a252b3ae3f15ab7b7b83f07f74d1955"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.yaml-snakeyaml \

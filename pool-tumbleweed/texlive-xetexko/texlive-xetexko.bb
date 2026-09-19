@@ -6,10 +6,10 @@ typesetting. This package requires the cjk-ko package for its \
 full functionality."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.2svn64894"
+PV = "2026.226.4.6svn77682"
 
-RPM_NAME = "texlive-xetexko-2023.209.4.2svn64894-53.2.noarch.rpm"
-RPM_HASH = "b7d7d751963c77efbdc6f0f93104ff548aea9895a8892ba86d4b02f800ca4bbe083fa07083836da7a6691f04c6520faffb5914d37adf715d259d01e35a8234d9"
+RPM_NAME = "texlive-xetexko-2026.226.4.6svn77682-59.4.noarch.rpm"
+RPM_HASH = "6852952e86ed45169d73783956f9b9064cf3aabd12414897c88715bd32ddc80cee88665a83a9996f2b31f939df6cff68cc90df9496606fd424dd1f8b22e8161b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xetexko-font.sty \

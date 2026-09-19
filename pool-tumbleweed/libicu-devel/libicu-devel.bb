@@ -2,12 +2,12 @@ SUMMARY = "Development files for the ICU library"
 DESCRIPTION = "ICU is a set of C and C++ libraries that provide extensive Unicode \
 and locale support. \
 This package contains the headers for ICU."
-LICENSE = "ICU"
+LICENSE = "Unicode-3.0"
 
-PV = "73.2"
+PV = "78.3"
 
-RPM_NAME = "libicu-devel-73.2-2.1.aarch64.rpm"
-RPM_HASH = "17f3b1fd5a9435278fe4d32ac568354447f8445f413a1c866f272f94502ea36280b640ba5c8d0ff10caed62498e872d6dab8cde910eb88ccd3e39dc5b16153a4"
+RPM_NAME = "libicu-devel-78.3-1.3.aarch64.rpm"
+RPM_HASH = "5935c01fe21b8806b4aa1e93d1ebbfa2aee0870a346ebd7e10b9e08975c105030601eec45446598b32abb59eac3853e2b9a5eabeacfce2e5d60169162b59e6a9"
 
 RPROVIDES:${PN} += "libicu-devel \
 pkgconfig-icu-i18n \
@@ -16,7 +16,7 @@ pkgconfig-icu-uc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
-libicu73 \
+libicu78 \
 pkgconfig-icu-i18n \
 pkgconfig-icu-uc"
 

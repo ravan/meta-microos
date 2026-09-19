@@ -3,16 +3,16 @@ DESCRIPTION = "This package provides the userspace tools for controlling the LTT
 subsystem from userspace."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "2.13.9"
+PV = "2.14.0"
 
-RPM_NAME = "lttng-tools-devel-2.13.9-1.5.aarch64.rpm"
-RPM_HASH = "d36fd8e69917f2e2bacec4827bad78852ddbfe1db7dbf38591a9a674448a3db57a79e932ec037ac5d14fee78e28f85f29c93391eced65fbb420f6bfc94dda580"
+RPM_NAME = "lttng-tools-devel-2.14.0-1.4.aarch64.rpm"
+RPM_HASH = "47192d93986ea3ab0da15fcd564b7c61ecf96a15250a08d02a8db8bd4ad97a8b4a80b77dd09e4ac42b2b4c564c7678d1ae1ae3c59b3a6dd044d89cf549c0bb0a"
 
 RPROVIDES:${PN} += "lttng-tools-devel \
 pkgconfig-lttng-ctl"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-liblttng-ctl0 \
+liblttng-ctl6 \
 pkgconfig-liburcu \
 pkgconfig-liburcu-cds"
 

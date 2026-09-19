@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-phaistos"
 DESCRIPTION = "This package includes the documentation for texlive-phaistos"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn18651"
+PV = "2026.226.1.0svn18651"
 
-RPM_NAME = "texlive-phaistos-doc-2023.209.1.0svn18651-52.1.noarch.rpm"
-RPM_HASH = "daa2e8ddffe8ff23739b1786f884855573aabdaa984dcc82488b04ad2a8ca813d5b75b3cc744ccd199e15b474d1f5f59f9999dfe081ae2bea71fc0b40c2cb0dd"
+RPM_NAME = "texlive-phaistos-doc-2026.226.1.0svn18651-58.2.noarch.rpm"
+RPM_HASH = "a9f7f6d1fc10d68b96883d27bd03bebdffbc309d011d55cf792779204087a88b6a8d49a0a28a2881cb8e49f9f981ec1515824ccd641b1e838b0f5c63aa235114"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-phaistos-doc"

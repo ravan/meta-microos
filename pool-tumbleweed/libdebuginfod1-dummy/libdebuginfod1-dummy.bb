@@ -6,10 +6,10 @@ command-line frontend. \
 The package is dummy."
 LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
-PV = "0.189"
+PV = "0.194"
 
-RPM_NAME = "libdebuginfod1-dummy-0.189-5.1.aarch64.rpm"
-RPM_HASH = "dc4d99a1b42d8c2ca1701119427d18cecaa722748cdeb8398451b1ea8c61311c9bec98391dbf58ddf30a105481261a09b8073059c9336452904fe2a9310e43f5"
+RPM_NAME = "libdebuginfod1-dummy-0.194-1.4.aarch64.rpm"
+RPM_HASH = "8f00ae15d9041b815f643c3c0a1b0dac1f3c92d9f4778a711c032e29cdb0f1c991577d0e18c029cf4672a3383bced0a0137c8d95473f198258643a07d33422b0"
 
 RPROVIDES:${PN} += "libdebuginfod.so.1 \
 libdebuginfod1 \

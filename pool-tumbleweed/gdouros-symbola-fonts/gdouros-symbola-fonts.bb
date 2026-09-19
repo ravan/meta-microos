@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "10.23"
 
-RPM_NAME = "gdouros-symbola-fonts-10.23-2.7.noarch.rpm"
-RPM_HASH = "e08681ae59d0ea9db1839a856675287073f7ec0e83396b71607402df5ef26d97dc3f994d92601085a325a3bef2f0beb467079470198803b9076d04ef77c46f17"
+RPM_NAME = "gdouros-symbola-fonts-10.23-2.15.noarch.rpm"
+RPM_HASH = "84bdb6596b3bf300e3d7f1b23505e0956e2ea96056a161559e800010ffc7e52417940a209665da72b416f4f3a2065e0610a4770b5191f0ab00ea869f27b703ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdouros-symbola-fonts \

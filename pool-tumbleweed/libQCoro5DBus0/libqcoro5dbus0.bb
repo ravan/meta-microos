@@ -4,10 +4,10 @@ coroutines in connection with certain asynchronous Qt actions. This package \
 provides a library for D-Bus support."
 LICENSE = "MIT"
 
-PV = "0.9.0"
+PV = "0.13.0"
 
-RPM_NAME = "libQCoro5DBus0-0.9.0-1.1.aarch64.rpm"
-RPM_HASH = "27c1b293b5eb812a585c73bdf0df4bb60ce49021a091200d2f0e3c27d417b7b75b8836df203e6d343624c0bda702b1e33b7f609a14ee8694a2470d3650633d50"
+RPM_NAME = "libQCoro5DBus0-0.13.0-1.2.aarch64.rpm"
+RPM_HASH = "34ec0401917ea9b351ae160fbebf57e912ca256079c4f5698059ec9182ba06fd87cb2cdb78391fc08dc581d01a0ccfd847ac453ee98a5f3ac7719464ca6eff0a"
 
 RPROVIDES:${PN} += "libQCoro5DBus.so.0 \
 libQCoro5DBus0"

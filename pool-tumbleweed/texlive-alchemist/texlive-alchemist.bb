@@ -3,10 +3,10 @@ DESCRIPTION = "This style file makes the alchemical and astrological symbols \
 accessible in Unicode."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.00svn66548"
+PV = "2026.226.1.00svn66924"
 
-RPM_NAME = "texlive-alchemist-2023.209.1.00svn66548-55.1.noarch.rpm"
-RPM_HASH = "198699c144845910e6c6f84728206095130314c4eab456cb47b44f56ff983fac998a89574d676e291f720b95702aeba67bc3e2d0b61d06b19bc8f7e87dda3fea"
+RPM_NAME = "texlive-alchemist-2026.226.1.00svn66924-61.2.noarch.rpm"
+RPM_HASH = "dd7bb11d8aca3dea53157938ca40d5831a0cf04e6a195ef5657332f0e96e269f7c4eb52ac96c51b100f0fd909aa66277b186e0a8dfe16f57699b2a88b44eca2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alchemist.sty \

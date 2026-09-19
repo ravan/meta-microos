@@ -5,15 +5,15 @@ editors and IDEs. It is a continuation/rename of Gtef. \
 This package provides the GObject Introspection bindings for tepl."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "6.4.0"
+PV = "6.14.0"
 
-RPM_NAME = "typelib-1_0-Tepl-6-6.4.0-1.5.aarch64.rpm"
-RPM_HASH = "334c81f1a7d350ac4d16dd78a7f2d76c82b31375dba529191c6b61b8510d77f0549c82e0224dc83dbab4166ace273059782d29031b04c13f93ae21edf6f64567"
+RPM_NAME = "typelib-1_0-Tepl-6-6.14.0-2.5.aarch64.rpm"
+RPM_HASH = "55d2c6d3577ab2df9ef09be638a753a4139a5d0e1e221e9f8657e8216ea8c107e5c94e709b881ec66f5f383f3482bd2689c5db82a9879462e796d2247986b42a"
 
 RPROVIDES:${PN} += "typelib-1-0-Tepl-6 \
 typelib-Tepl"
 
-RDEPENDS:${PN} += "libtepl-6.so.2 \
+RDEPENDS:${PN} += "libgedit-tepl-6.so.4 \
 typelib-Amtk \
 typelib-Atk \
 typelib-GLib \

@@ -14,19 +14,20 @@ Features: \
  * Outputs decoding statistics using Etsy StatsD protocol"
 LICENSE = "GPL-3.0-only"
 
-PV = "2.3.0"
+PV = "2.7.0"
 
-RPM_NAME = "dumpvdl2-2.3.0-1.1.aarch64.rpm"
-RPM_HASH = "ca4e6df1430474508d21dda6d1ec26b9137d2b820079326e85c2e6b75b99ea660efa28da7af1c62d0d1c515a653d891381ef79125fe790de90678dbf919b54c2"
+RPM_NAME = "dumpvdl2-2.7.0-1.1.aarch64.rpm"
+RPM_HASH = "94a60b08ea2bf48fa1d0cd6b76ea8b64edc3f8077cbe57744bfd8cf47f9838b44cbedb667c303de961cd3f5f215475418b1f0ff7884921c35accb132f2ba2c72"
 
 RPROVIDES:${PN} += "dumpvdl2"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libSoapySDR.so.0.8 \
+libSoapySDR.so.0.8-3 \
 libacars-2.so.2 \
 libc.so.6 \
 libglib-2.0.so.0 \
 libm.so.6 \
+libmvec.so.1 \
 libprotobuf-c.so.1 \
 librtlsdr.so.0 \
 libsqlite3.so.0 \

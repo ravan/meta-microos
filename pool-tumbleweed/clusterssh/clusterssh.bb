@@ -8,10 +8,10 @@ be run on each node within the cluster. Performing these commands all \
 at once via this tool ensures all nodes are kept in sync."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "4.16"
+PV = "4.18"
 
-RPM_NAME = "clusterssh-4.16-2.1.noarch.rpm"
-RPM_HASH = "c931de7b24f8afdca0a97a8f0aa716dacd8a6c73a7c78f338ff30d8a51c71bd7f5841d3bb2d93f13a7f90178aa7267885d743fee9f3b7c72ac97bd4c9a9b06eb"
+RPM_NAME = "clusterssh-4.18-1.10.noarch.rpm"
+RPM_HASH = "6900d7c308b4476515968517301e260075b18310e44058a459b08095be138503af8ea1a4ad592649ff22baed35e53f49880ac98bd4fae186b04dae6e66df2182"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clusterssh \
@@ -29,7 +29,7 @@ perl-App--ClusterSSH--Window \
 perl-App--ClusterSSH--Window--Tk"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--Changes \
 perl-Carp \
 perl-English \
@@ -52,6 +52,7 @@ perl-Socket \
 perl-Sort--Naturally \
 perl-Sys--Hostname \
 perl-Test--Differences \
+perl-Test--PerlTidy \
 perl-Test--Pod \
 perl-Test--Pod--Coverage \
 perl-Test--Trap \

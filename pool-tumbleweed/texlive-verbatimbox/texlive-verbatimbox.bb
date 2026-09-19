@@ -11,10 +11,10 @@ package makes use of the verbatim package (which is a required \
 part of any LaTeX distribution)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.13svn33197"
+PV = "2026.226.3.2svn77682"
 
-RPM_NAME = "texlive-verbatimbox-2023.209.3.13svn33197-54.1.noarch.rpm"
-RPM_HASH = "1e5baeb200ecd5899e5efe90ae168af5032e19fe85bd61aed2196fc4af608ebe640754e948ead4a066ef22a0a53296e970a0faebe7378b4d1281953a63c4c8d4"
+RPM_NAME = "texlive-verbatimbox-2026.226.3.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "d3ec998e57a3b55d41d22d41336931ea698cd9905f8926da6db35ae3bb6c8aa8812532f199436b2268b75697cccac7f4fd3062a1f8278e3329898b3b3582ec43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-verbatimbox.sty \

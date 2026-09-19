@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "jconvolver-1.1.0-1.4.aarch64.rpm"
-RPM_HASH = "251f776b47e6f75430e328ebd89fdbe911f40896eb52f5869b6a2df591064cebb897511499490e2ffa6952d89a22ea2f7153a74788f6578d3b13c5ffcc2a19d0"
+RPM_NAME = "jconvolver-1.1.0-3.9.aarch64.rpm"
+RPM_HASH = "29966488b3f5bc340948505c98948bd74258a1adcafa37c119b65e733ec7fdad98f2cae618264a10216a313fecfec94c2a5fafe4211ee4a2854cb5f609c2e843"
 
 RPROVIDES:${PN} += "jconvolver"
 

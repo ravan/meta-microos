@@ -7,19 +7,21 @@ post-routing handlers, and support for binding sockets to multiple \
 interfaces and any available port."
 LICENSE = "MIT"
 
-PV = "0.12.5"
+PV = "0.49.0"
 
-RPM_NAME = "cpp-httplib-devel-0.12.5-1.1.aarch64.rpm"
-RPM_HASH = "c9a1ff8bd7937403649f44a30ee96d0757decbfed77fb1c9af4a2cce399af382ef0bee134b6d184f56c3c60dc90ea6bf8e1961ff32a3cdaee1a6fbf1ec6277c5"
+RPM_NAME = "cpp-httplib-devel-0.49.0-1.2.aarch64.rpm"
+RPM_HASH = "819b8dfb7cbebe5db2d8d0a207babf03d5a45db14120067a2ffc2609e0513ae33c5f3f227a5d93285d2b477be04d04816581f77632431d7559cd0d55931f92fe"
 
-RPROVIDES:${PN} += "cpp-httplib-devel \
+RPROVIDES:${PN} += "cmake-httplib \
+cpp-httplib-devel \
 pkgconfig-cpp-httplib"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libcpp-httplib0-12 \
+libcpp-httplib0-49 \
 pkgconfig-libbrotlicommon \
 pkgconfig-libbrotlidec \
 pkgconfig-libbrotlienc \
+pkgconfig-libzstd \
 pkgconfig-openssl \
 pkgconfig-zlib"
 

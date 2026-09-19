@@ -2,16 +2,15 @@ SUMMARY = "Zope Object Database: object database and persistence"
 DESCRIPTION = "This package contains documentation files for python-ZODB."
 LICENSE = "ZPL-2.1"
 
-PV = "5.8.0"
+PV = "6.3"
 
-RPM_NAME = "python-ZODB-doc-5.8.0-1.6.noarch.rpm"
-RPM_HASH = "30605cd661925961c64acb5fa7fe6112ffe62738698ec387ba22772c41726e2e6b85257f91a06ed88e3387075b49d98d5090a6968fdede4a82bc8bec5bd31f77"
+RPM_NAME = "python-ZODB-doc-6.3-1.2.noarch.rpm"
+RPM_HASH = "a76c701445e85fca0bd3a22a8346743f83886a274b1b8b27c0ad473c9eda88fb5d295dc2a1c11d73f71dbffb2893ea3c41e8bc73391acdb4a4224df8a2ccfbc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ZODB-doc \
-python310-ZODB-doc \
-python311-ZODB-doc \
-python39-ZODB-doc"
+python313-ZODB-doc \
+python314-ZODB-doc"
 
 RDEPENDS:${PN} += ""
 

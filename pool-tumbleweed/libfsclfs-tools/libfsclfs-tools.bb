@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage provides the utilities from libfsclfs, which allo
 reading Common Log File Systems (CLFS)."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210417"
+PV = "20240430"
 
-RPM_NAME = "libfsclfs-tools-20210417-3.6.aarch64.rpm"
-RPM_HASH = "7444b0aae6c5c14aee6e70c2276cf6ba71d3bd762699a5b51cc3255c871b13b557ac8c20a4e44a4c6c4be7e0d280023658154a5de9d90bf88befd53b52b432e7"
+RPM_NAME = "libfsclfs-tools-20240430-1.21.aarch64.rpm"
+RPM_HASH = "3e6d13483a39b8eec69183d0f2ac1692adc9433bf3b0dabaa0b06ba542edf9b2ce5792ad4293daf46db02c42f46d5a3ccce9b1844ce3a5a2272d0a40598b007b"
 
 RPROVIDES:${PN} += "libfsclfs-tools"
 

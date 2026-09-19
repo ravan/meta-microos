@@ -11,17 +11,17 @@ This package contains common files for the Secure Shell server and \
 clients."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "9.3p2"
+PV = "10.5p1"
 
-RPM_NAME = "openssh-common-9.3p2-1.1.aarch64.rpm"
-RPM_HASH = "b5d019e1b345f7635e1a8371160487a2e4c6fff4c04d1032935855c19a980ea39d72849a8a8c650deadcb80383e2eb2128b5930ce09d129a6ab5443b303e6ad8"
+RPM_NAME = "openssh-common-10.5p1-1.2.aarch64.rpm"
+RPM_HASH = "43d9db02b1968fd9898ec3a7c62ad06a1d696d91163b540657a2d5d1653e34f9448e2d0ca7797169ef81519283b87b43ce59d1f25628bbdd789c7873521e8d88"
 
-RPROVIDES:${PN} += "openssh-common"
+RPROVIDES:${PN} += "openssh-common \
+openssh-fips"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-libselinux.so.1 \
-libz.so.1"
+libselinux.so.1"
 
 inherit rpm

@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package gpredict"
 DESCRIPTION = "Provides translations for the 'gpredict' package."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "2.2.1"
+PV = "2.6"
 
-RPM_NAME = "gpredict-lang-2.2.1-2.16.noarch.rpm"
-RPM_HASH = "18ddce7a42361f1d215e8ca2e9a949ffaec5490d31af69f21c09b9c5dd64f5e46a1ee101077e7ce247724a143a7a5b9a1e6cafa5e0b110abeb712ae8b6dad12a"
+RPM_NAME = "gpredict-lang-2.6-1.1.noarch.rpm"
+RPM_HASH = "d82a881767dd79149a8f4807792aaa9c37d71219e266ecf1a0c0f5f9138503ca38dc96cb08ee334f864a91152608fcf9dd0087c81359d934d653ad63112dde5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gpredict-lang \

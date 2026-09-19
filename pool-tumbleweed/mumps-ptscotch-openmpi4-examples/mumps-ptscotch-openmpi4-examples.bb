@@ -10,14 +10,14 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "mumps-ptscotch-openmpi4-examples-5.3.5-3.4.aarch64.rpm"
-RPM_HASH = "2df8248a238ab22ed27e559ca1d77edca34c1ce5336a5d5f798d40b82238c0785569484230939f5e8dae01d195ec4d57be39d7c30dffafc2c2b264d269234fe9"
+RPM_NAME = "mumps-ptscotch-openmpi4-examples-5.3.5-7.8.aarch64.rpm"
+RPM_HASH = "b04a93d83d2841ef6e498e4eddbfb31a948b32a4830841c3dc4d1edf61e12b7e8e5fdd0ec903d8726c2ef10f5d220dad7d0cfc3e138779cf824781a802241cb7"
 
-RPROVIDES:${PN} += "mumps-examples)(openmpi \
+RPROVIDES:${PN} += "mumps-examples)( \
 mumps-ptscotch-openmpi4-examples"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libblacs.so.2.1.0 \
+libblacs.so.2.2.2 \
 libblas.so.3 \
 libc.so.6 \
 libcmumps-ptscotch.so.5.3.5 \
@@ -33,11 +33,11 @@ libmpi.so.40 \
 libmumps-common.so.5.3.5 \
 libmumps-ptscotch5-3-5-openmpi4 \
 libpord-ptscotch.so.5.3.5 \
-libptesmumps.so.0 \
-libptscotch.so.0 \
-libptscotcherr.so.0 \
-libscalapack.so.2.1.0 \
-libscotch.so.0 \
+libptesmumps.so.7.0 \
+libptscotch.so.7.0 \
+libptscotcherr.so.7.0 \
+libscalapack.so.2.2.2 \
+libscotch.so.7.0 \
 libsmumps-ptscotch.so.5.3.5 \
 libzmumps-ptscotch.so.5.3.5"
 

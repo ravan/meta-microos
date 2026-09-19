@@ -1,12 +1,12 @@
 SUMMARY = "SQLite3 VFS for Ceph headers"
 DESCRIPTION = "A SQLite3 VFS for storing and manipulating databases stored on Ceph's RADOS \
 distributed object store."
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "libcephsqlite-devel-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
-RPM_HASH = "0448a2e8c653277cf600dd1a53fe53863f425f43e4ad142d4f930537c6087962df23a18ea058594debb502fa8877a62351d0587207630f6eb549e6c2485e9bc4"
+RPM_NAME = "libcephsqlite-devel-18.2.7-8.1.aarch64.rpm"
+RPM_HASH = "ecabd0e4bf2289740e09434ae548d2ba23c87ef83f05f903626415ed525161990e310f224eb4c35109d606372a7a95e10e2e34d7bec9ea5d9f8a00b4f7dd59f3"
 
 RPROVIDES:${PN} += "libcephsqlite-devel"
 

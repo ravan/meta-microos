@@ -4,17 +4,19 @@ asynchronous control, bulk and interrupt transfers with proper \
 cancellation and integration into a mainloop."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.10"
+PV = "0.4.9"
 
-RPM_NAME = "typelib-1_0-GUsb-1_0-0.3.10-2.5.aarch64.rpm"
-RPM_HASH = "cf26d127b9cc1e503a1695c65780a10182310e84d4455e0ef24f1f226287ba9f6fe0b422c76ad9b40e8dbda2f8547f2b3a1444f13052c8b459c4b5db8d6ec2da"
+RPM_NAME = "typelib-1_0-GUsb-1_0-0.4.9-1.10.aarch64.rpm"
+RPM_HASH = "30e7ee513da464d035fbcab981e9b6d57e5c9e50a9d2c5300b97e5029cca4d9b8628be207f1c0bbb7f9949e96396214db6fc56ecc4df1c5b8b1466fa0c980689"
 
 RPROVIDES:${PN} += "typelib-1-0-GUsb-1-0 \
 typelib-GUsb"
 
 RDEPENDS:${PN} += "libgusb.so.2 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
-typelib-Gio"
+typelib-Gio \
+typelib-Json"
 
 inherit rpm

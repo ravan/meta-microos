@@ -4,10 +4,10 @@ as 'raw' data (sequence of String arrays), or via data binding to/from Java \
 Objects (POJOs)."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-dataformat-csv-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "78e2736bc22f505406186c918975d72802765fad3af169fb8514e67e9fec7e839a4af829b202baeac04fea8e8430b1a469e735e62c9897d930543a5ca74714e6"
+RPM_NAME = "jackson-dataformat-csv-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "bf0d912a3fc4afdce4130cf502d123bb5602bffa20f1785fce41a41cfc3739d771f9aa72ee6c1478fa9600a12e6b34a6d0a14c222625892c415bfbcd2a68a9a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-csv \

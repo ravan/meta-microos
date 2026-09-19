@@ -2,10 +2,10 @@ SUMMARY = "Translations for package file-roller"
 DESCRIPTION = "Provides translations for the 'file-roller' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "43.0"
+PV = "44.7"
 
-RPM_NAME = "file-roller-lang-43.0-1.4.noarch.rpm"
-RPM_HASH = "43c58da61acf406c449ba5ddc43fe507ecc9d397a81cbd270074441358b334326847c12aa256770a629e69b7b1d6c362b3f1865e98ab59f55bc8d07ebb092f70"
+RPM_NAME = "file-roller-lang-44.7-1.2.noarch.rpm"
+RPM_HASH = "72b29ded1d42718f2f65346eb7bec96c9ad9007307e186f1800f0bcd03232ca7f721940802b62dbe53b4bff3586671805f0fa97cb8995de3a1664ce1f146fe30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "file-roller-lang \

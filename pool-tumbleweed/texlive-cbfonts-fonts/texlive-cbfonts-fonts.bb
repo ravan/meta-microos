@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cbfonts"
 DESCRIPTION = "The  separated fonts package for texlive-cbfonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54080"
+PV = "2026.226.svn54080"
 
-RPM_NAME = "texlive-cbfonts-fonts-2023.209.svn54080-53.1.noarch.rpm"
-RPM_HASH = "7e11641ad8af573d2bb588faf871368126ca489e2de72488b8a511f2c97015a86ca5b4118dd7b3f93a8e01802dae59c5baf7883fe80f9176d8288a421fd00260"
+RPM_NAME = "texlive-cbfonts-fonts-2026.226.svn54080-59.2.noarch.rpm"
+RPM_HASH = "bafd1f1225d92779d8e2442098539270c9607c7e87ccfadb150c38e555f0933c88c50b4d5def1edd01a577d98341b39621c80e4f6293883aec2bd2e6a0415704"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-glic0700 \

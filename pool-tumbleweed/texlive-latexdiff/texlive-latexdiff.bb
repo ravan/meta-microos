@@ -4,17 +4,17 @@ significant differences between two LaTeX files. Various \
 options are available for visual markup using standard LaTeX \
 packages such as color. Changes not directly affecting visible \
 text, for example in formatting commands, are still marked in \
-the LaTeX source. A rudimentary revision facilility is provided \
+the LaTeX source. A rudimentary revision facility is provided \
 by another Perl script, latexrevise, which accepts or rejects \
 all changes. Manual editing of the difference file can be used \
 to override this default behaviour and accept or reject \
 selected changes only."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3.3svn64980"
+PV = "2026.226.svn77278"
 
-RPM_NAME = "texlive-latexdiff-2023.209.1.3.3svn64980-55.1.noarch.rpm"
-RPM_HASH = "1dcf4ca655a10ca792227b3409bf0467e669ad3756c5bef5d5c00a0f97aea536763665e3da1a66aa8c5f19336ce61f553547ceac7e7ea7712a1696d73e0b18e0"
+RPM_NAME = "texlive-latexdiff-2026.226.svn77278-61.2.noarch.rpm"
+RPM_HASH = "b7dc3fb61fd5a31cffb5acf8a9b04e1275e58da2958e5a0482aff2c35f9d4ebf42d7c73dd61db3af9afa9d53cd7006ff58ced2170eff98301b069c21379cf6f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexdiff"

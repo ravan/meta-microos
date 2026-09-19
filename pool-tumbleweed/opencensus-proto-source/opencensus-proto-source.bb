@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.3.0+git.20200721"
 
-RPM_NAME = "opencensus-proto-source-0.3.0+git.20200721-1.2.noarch.rpm"
-RPM_HASH = "deb36b0e50c2e70426fb34e2aa41e22c2cc96acbb3f9d8c3601f8f0c746949761e99f277fdab4480b54d65ab3fe619023d765856a6a59b3bb77cdd94ed4c00cd"
+RPM_NAME = "opencensus-proto-source-0.3.0+git.20200721-1.11.noarch.rpm"
+RPM_HASH = "623add3cf19937cba9c18a4d23f9846d16dcfcc41005ba12c0935caeeadf392cfcf63783c3cfa98ace8786ae55cdc23483163d908a769c9fb14f52c28620e55d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opencensus-proto-source"

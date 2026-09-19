@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dingbat"
 DESCRIPTION = "This package includes the documentation for texlive-dingbat"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn27918"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-dingbat-doc-2023.209.1.0svn27918-53.1.noarch.rpm"
-RPM_HASH = "d71e2f03a307c0ad62fa004f0b31d0595893b936f937bed7abec293d8601706bc5a8e6362ac503347d31f5e5a14dd229cdbb020efc0e791e67b9bbe78d2d2192"
+RPM_NAME = "texlive-dingbat-doc-2026.226.1.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "c2af5815060f7a6932c28e5402cf5ce773945d70701134e7e5a4f3f01b98aa38e858711a4a3d34d050e3204b1180e4e59ea5b10d9aa2e387c7826fc52b600c45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dingbat-doc"

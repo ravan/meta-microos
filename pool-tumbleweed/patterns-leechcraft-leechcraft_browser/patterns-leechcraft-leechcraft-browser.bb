@@ -3,8 +3,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-leechcraft-leechcraft_browser-20170319-1.15.aarch64.rpm"
-RPM_HASH = "5f0a9e5dd26f02a80c57e0355ab4474b65ac7a2486f169e25f59d37fda1870a5a0ff50596c00914939aa0bc14c82bc2c68480ad98b8c8c43f3912bb50b0552e6"
+RPM_NAME = "patterns-leechcraft-leechcraft_browser-20170319-1.24.aarch64.rpm"
+RPM_HASH = "0aa3b12bec49b2cb542506cce74cc3d2742d8be10160a7164b5d346e14dc6bd90ff88a8745410713481f700ac077f0bec8c859c34743b75df8578e1df9de56b7"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

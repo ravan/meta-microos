@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the development files required to build \
 indicators and to go into the indicator applet."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.9.0"
+PV = "0.9.4"
 
-RPM_NAME = "libayatana-indicator-devel-0.9.0-1.8.aarch64.rpm"
-RPM_HASH = "93c63f5ed4043620710dedae44f44227adef9df1ea66393aaf2f59653f2eb0bcdf5e4147c99900ea7a7d3eb37ddc811acc381b608e04a7a5a7875ccabdc28bb8"
+RPM_NAME = "libayatana-indicator-devel-0.9.4-2.4.aarch64.rpm"
+RPM_HASH = "4ef0d8f068e671d17a69803f84f746a93b18a67d4f400ba5d6752c79c41a4f54e9f3075a71d56f13c2876daf98ccf338227871e54ff4400278b1bfa708a1a009"
 
 RPROVIDES:${PN} += "libayatana-indicator-devel \
 pkgconfig-ayatana-indicator-0.4"

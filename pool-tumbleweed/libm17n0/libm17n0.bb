@@ -1,12 +1,12 @@
 SUMMARY = "Multilingual text processing library for the C language"
 DESCRIPTION = "A multilingual text processing library for the C language. \
 This package contains shared libraries."
-LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.8.0"
+PV = "1.8.5"
 
-RPM_NAME = "libm17n0-1.8.0-1.13.aarch64.rpm"
-RPM_HASH = "8e585b7885bf08172493e5615ce298123f4f9417059428aa8eace102ae5bd9882962d5736c915e6ae11e7f5baf4eed0c17b9b0dd0e6a9cb62509c5a24e4e6ced"
+RPM_NAME = "libm17n0-1.8.5-1.6.aarch64.rpm"
+RPM_HASH = "4c2e33f023d8eda9de5b887b63f4a59c7498b878758268d66a20bbd4cc33cbf11a661d647f0e2808581a34cf571a157476639106c1bce7e2b87b5237a1d7f04f"
 
 RPROVIDES:${PN} += "libm17n-X.so \
 libm17n-core.so.0 \
@@ -29,7 +29,7 @@ libfreetype.so.6 \
 libfribidi.so.0 \
 libgd.so.3 \
 libotf.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 pkgconfig-m17n-db"
 
 inherit rpm

@@ -13,19 +13,16 @@ use for: \
   CI and shell-based testing."
 LICENSE = "MIT"
 
-PV = "4.5.1"
+PV = "4.27.0"
 
-RPM_NAME = "python311-tox-4.5.1-3.3.noarch.rpm"
-RPM_HASH = "1e242b4691cc079260f4757f888399f302e4be87282de41f30ba7486718a88a3d7fa6cddd3109cfe41d2d4ca7ff747b9e6ecd636c086119fb2ad616759b7ec0b"
+RPM_NAME = "python311-tox-4.27.0-1.1.noarch.rpm"
+RPM_HASH = "3d596127353ed3539689f9ba43773af8bb1fb5868e3b872b453d798140339e6304833a68c25b2d150b6e47b473f25d3a63783cd6e0ab8cdaa63da266972d72dd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-detox \
-python3-tox \
-python3.11dist-tox \
+RPROVIDES:${PN} += "python3.11dist-tox \
 python311-detox \
 python311-tox \
-python3dist-tox \
-tox"
+python3dist-tox"
 
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
@@ -38,7 +35,6 @@ python311-packaging \
 python311-platformdirs \
 python311-pluggy \
 python311-pyproject-api \
-python311-tomli \
 python311-virtualenv \
 update-alternatives"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
 PV = "2.2.17"
 
-RPM_NAME = "libgeis1-2.2.17-4.10.aarch64.rpm"
-RPM_HASH = "920febfacbe49cbaa564ba60af41945c70b889e82924dd0840094d4c05dc55f2f4af1a4d7cd478f02c10288ae7ca9fc717b670a09bbe16549fbc939d90e5bc7b"
+RPM_NAME = "libgeis1-2.2.17-5.10.aarch64.rpm"
+RPM_HASH = "481ce2dc88ef7b5604bb968cd24c8d24f1cfc85167ea1957fdd063a2167de1a216f9163f9de0988dee3b3ec40bbff84f80008d30cf5fae3e5b6a1531ca96c10f"
 
 RPROVIDES:${PN} += "libgeis.so.1 \
 libgeis1"

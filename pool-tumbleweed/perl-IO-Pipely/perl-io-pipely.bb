@@ -21,16 +21,16 @@ operating system's capabilities and the number of directions requested. The \
 autodetection may be overridden by specifying a particular pipe type."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.006"
+PV = "0.6.0"
 
-RPM_NAME = "perl-IO-Pipely-0.006-1.9.noarch.rpm"
-RPM_HASH = "8e1f108f110f4257eca9bcb4d5b3d778c4010cddf65ddcc21d1cfb1c28e6ff6a20984aee7c106b17dc4fc7f8c6bcad66a29adc534c870702ef312ab168214f64"
+RPM_NAME = "perl-IO-Pipely-0.6.0-1.7.noarch.rpm"
+RPM_HASH = "eb442168b88185fc296c08b73f9721ee7ae0e9062df493581c1ea1e99a26c4ea1fc454f1012a46b47f5beace226f347a16457ea7c3adaaa66904dee65cd22aed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Pipely \
 perl-IO-Pipely"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Exporter \
 perl-Fcntl \
 perl-IO--Socket \

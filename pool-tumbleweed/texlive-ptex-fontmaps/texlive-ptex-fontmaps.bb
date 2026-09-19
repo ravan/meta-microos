@@ -7,10 +7,10 @@ Japanese/Chinese/Korean fonts available for (u)ptex and related \
 programs and formats."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.20210625.0svn65953"
+PV = "2026.226.20210625.0svn65953"
 
-RPM_NAME = "texlive-ptex-fontmaps-2023.209.20210625.0svn65953-54.2.noarch.rpm"
-RPM_HASH = "4cc8b7ca8810f50cf1e5a86cb852de46a0c6610417fb2e5d762713110f651d13c435a4d05706ebda02967c535ea6393afaa044e007ed6fe749a28d00bb2b113a"
+RPM_NAME = "texlive-ptex-fontmaps-2026.226.20210625.0svn65953-60.4.noarch.rpm"
+RPM_HASH = "e90ec661e7e4d6bded0dec0766d9aa38b4763e1a3af5daeed8d62d468dbf99fbaf4507817f4df985b3a251a2530cd2052e9757847e4765ede9b72d19333c841f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-otf-bizud.map \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the Speex preprocessor plugin for ALSA \
 library using libspeexdsp."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-speex-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "b97ccf10e34d2d3315b296dae71f514287dd98ae9c774e2051d326f188fc63a3519a08da49d133b379a368f3ed66ac80053730c9c5f3499c44fbaae89f09fe3d"
+RPM_NAME = "alsa-plugins-speex-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "18afa75d63e106099aa97a6a89f6bfe5a18d2273390321d99d43a9e2cb2e22d7ab7930658224a0947dd710d7c1baf3e6055cfe0147f5e16a868dfa60b9a268ea"
 
 RPROVIDES:${PN} += "alsa-plugins-speex \
 libasound-module-pcm-speex.so"

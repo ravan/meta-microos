@@ -9,10 +9,10 @@ material released by the LaTeX3 team, and may be updated on a \
 different schedule."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66471"
+PV = "2026.226.svn77170"
 
-RPM_NAME = "texlive-l3build-2023.209.svn66471-56.1.noarch.rpm"
-RPM_HASH = "e68a70550ab85a9237be09e6b964a951e78dfbc611513d61ec52ac735616a24dda3670f1f6100bb1649f94ba16d4792114218fec83949127829f5d04199e6c40"
+RPM_NAME = "texlive-l3build-2026.226.svn77170-63.2.noarch.rpm"
+RPM_HASH = "3e9dadbcee80747edbfd69491c0ea4b5fc03567a54c44354217fd1e87e32c233ef0caf026e43389c920d8c39f79ac4e717c722d8d89ccc0446f7f819920e4a97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-regression-test.tex \

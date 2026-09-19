@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "1.6.3"
 
-RPM_NAME = "mingw32-cross-pkgconf-1.6.3-5.1.aarch64.rpm"
-RPM_HASH = "9cfda332afc0e8cd4c21030bae830939b881b3646dc2216421dee0422e7bf507499223af48b6788c43fa595672e925f422c3482a1de985d8f24b9ac08de9162d"
+RPM_NAME = "mingw32-cross-pkgconf-1.6.3-5.13.aarch64.rpm"
+RPM_HASH = "ecdf870c44551b292c6fd92f7fd9a97b238527e0be0a535ae6e9f3bf248210a6890c2498fe9695f697e010248d71c03cea8cc3072cce7e8f5eace9454df67c4e"
 
 RPROVIDES:${PN} += "mingw32-cross-pkg-config \
 mingw32-cross-pkgconf \

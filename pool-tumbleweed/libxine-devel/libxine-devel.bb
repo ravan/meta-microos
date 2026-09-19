@@ -24,8 +24,8 @@ LICENSE = "GPL-2.0-or-later & SUSE-Public-Domain"
 
 PV = "1.2.13"
 
-RPM_NAME = "libxine-devel-1.2.13-2.3.aarch64.rpm"
-RPM_HASH = "7ac24ad80b27c18024db3277357a3ebb2fd6a188306e18951c477a59735f70f8066648a2a59b4284e437c7243fcff62d3238dbc2270caadf0fabbb5df09efecb"
+RPM_NAME = "libxine-devel-1.2.13-11.5.aarch64.rpm"
+RPM_HASH = "e8372015fbcda07a3100d6b19024ea5ab52de40a9bc3c72b0de52172a4fb43de1f404249952e141d581f0692f673c20ed18d5a6fd4577e560c92865f09ca438c"
 
 RPROVIDES:${PN} += "libxine-devel \
 libxine2-devel \
@@ -35,10 +35,10 @@ xine-lib2-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
-freetype2-devel \
 glibc-devel \
-libv4l-devel \
 libxine2 \
-zlib-devel"
+pkgconfig-freetype2 \
+pkgconfig-libv4l2 \
+pkgconfig-zlib"
 
 inherit rpm

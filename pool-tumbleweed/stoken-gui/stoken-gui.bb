@@ -4,12 +4,12 @@ SecurID 128-bit (AES) tokens. It is a hobbyist project, not affiliated with or \
 endorsed by RSA Security. \
  \
 This package contains the graphical interface program for stoken."
-LICENSE = "LGPL-2.0-or-later & BSD-3-Clause"
+LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "0.92"
+PV = "0.93"
 
-RPM_NAME = "stoken-gui-0.92-1.21.aarch64.rpm"
-RPM_HASH = "105f194237ae91400b7b7d3c2a9fc8fd205e57fbbad2d3d62ca795bd61830630bc48bd728a0f123c3b82938b49b67fac33e171a09857d7b16744de4d6b0b418f"
+RPM_NAME = "stoken-gui-0.93-1.12.aarch64.rpm"
+RPM_HASH = "ca79938759411ff3d7eec7240334ccc0309939027f555f4177d6acf2862e45caa46afbf44938a687f1662887f8df4271e30d85b300caede6f51fbfdf163ec01d"
 
 RPROVIDES:${PN} += "stoken-gui"
 

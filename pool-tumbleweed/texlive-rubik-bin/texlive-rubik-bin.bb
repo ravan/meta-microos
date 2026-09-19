@@ -2,10 +2,10 @@ SUMMARY = "Binary files of rubik"
 DESCRIPTION = "Binary files of rubik"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn32919"
+PV = "2026.20260301.svn32919"
 
-RPM_NAME = "texlive-rubik-bin-2023.20230311.svn32919-93.2.aarch64.rpm"
-RPM_HASH = "8e92c95a545aee31e16d4fdd85b4fe483a8dee7117aef1779895b4e960e2daaac4c6ab4326c2ceafc8f63fab19170d92d42adf8feab8bdf8a7b16b925c2fe5f1"
+RPM_NAME = "texlive-rubik-bin-2026.20260301.svn32919-120.4.aarch64.rpm"
+RPM_HASH = "dd814755a265a68a2d66d7b84e4ef09e04e95e86af597672273edf1546ac9abd266a5a34ecdc82225ad664a85783b083cd50510e9bd4ac6265fced4235cc342a"
 
 RPROVIDES:${PN} += "texlive-rubik-bin"
 

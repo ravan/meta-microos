@@ -5,17 +5,16 @@ tool, and WIDS (wireless intrusion detection) framework. \
 This subpackage contains the nRF 52840 BTLE capture helper."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023_07_R1"
+PV = "2025_09_R1"
 
-RPM_NAME = "kismet-capture-nrf-52840-2023_07_R1-1.1.aarch64.rpm"
-RPM_HASH = "941432db6708b7ad503f05d61c3a7048d5ab43dc6e34500077b60f71743f229f69e27d35b10a73061e8d742472e11a8b1dec1ff8f4b21ed6b026c597e5bab62e"
+RPM_NAME = "kismet-capture-nrf-52840-2025_09_R1-2.3.aarch64.rpm"
+RPM_HASH = "311fc377f075e2e7095204e7811fa6d14730df0dac6ffda06211a30d76b052439a7cfe4f75f68ca7bd5792be626618ab15d0b22ad977d0d8b2abe170259ebdd4"
 
 RPROVIDES:${PN} += "kismet-capture-nrf-52840"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \
-libprotobuf-c.so.1 \
-libwebsockets.so.19"
+libwebsockets.so.22"
 
 inherit rpm

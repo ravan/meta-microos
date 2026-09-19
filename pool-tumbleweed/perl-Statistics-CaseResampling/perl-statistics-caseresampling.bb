@@ -11,18 +11,18 @@ and done in C). These functions may be useful in their own right and are \
 thus exposed to Perl. Most notably, this exposes a median (and general \
 selection) algorithm that works in linear time as opposed to the trivial \
 implementation that requires 'O(n*log(n))'."
-LICENSE = "GPL-1.0-or-later | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.15"
+PV = "0.170.0"
 
-RPM_NAME = "perl-Statistics-CaseResampling-0.15-1.26.aarch64.rpm"
-RPM_HASH = "546de0474cb398672d87310cc37976678b13a990173270c2dbbfbd03d1f3e679e8b94e8ad60e3e6c3c2c4111dc58dc515f441111dc9fe32c40afa91e18bd930c"
+RPM_NAME = "perl-Statistics-CaseResampling-0.170.0-1.6.aarch64.rpm"
+RPM_HASH = "8432ed42cdc76ef23315ca8bc1fae283235af0c3eb63d53d29a12b426fab02f48ec734f6142ad5fed38f55c2bed863763fa4fff7f2fa270ff6a582ac03c720bb"
 
 RPROVIDES:${PN} += "perl-Statistics--CaseResampling \
 perl-Statistics-CaseResampling"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

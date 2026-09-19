@@ -4,15 +4,15 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-path-pieces-prof-0.2.1-12.3.aarch64.rpm"
-RPM_HASH = "34e9b83bf35578ddab7a48b5d0c001f5f7ff901b2eaa52af702413e35d3906242e51b439666be13933966339286d856b72d39f27204f737fc2ade0e42ae4fb54"
+RPM_NAME = "ghc-path-pieces-prof-0.2.1-12.19.aarch64.rpm"
+RPM_HASH = "f1a82e7c0b2dc11ae20def010ed1a4e210ef70c739072beeae8eb9e6055264d0ffab84298b73db03c65be3773c16c211f988b626c21ba99b98814a834748fd61"
 
 RPROVIDES:${PN} += "ghc-path-pieces-prof \
-ghc-prof-path-pieces-0.2.1-JEJ6IegDP1FHzqmKWi176n"
+ghc-prof-path-pieces-0.2.1-FtFHzM20JKUFHdFVBop6JH"
 
 RDEPENDS:${PN} += "ghc-path-pieces-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-text-2.0.2 \
-ghc-prof-time-1.12.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-time-1.14-a7dc"
 
 inherit rpm

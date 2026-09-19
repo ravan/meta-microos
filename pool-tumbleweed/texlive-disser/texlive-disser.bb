@@ -8,10 +8,10 @@ styles, that conform to the requirements of the Russian \
 standard GOST R 7.0.11-2011, are provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.0svn43417"
+PV = "2026.226.1.5.0svn43417"
 
-RPM_NAME = "texlive-disser-2023.209.1.5.0svn43417-53.1.noarch.rpm"
-RPM_HASH = "05a4b7c402aaa38d43e73acc6faac55ede9cb678001d0853cf48a0c6f605f5fbe8d5a09a931b3fe6ab9c7fb1a63a8e51124c6944b736573b3a54dce9f33940a4"
+RPM_NAME = "texlive-disser-2026.226.1.5.0svn43417-59.2.noarch.rpm"
+RPM_HASH = "216225bcb1e85e93f676383ef9e7857f68471207c8220fb824a84e79a6bcf47c72b2e39b3d38394c8debf8396ecbb45a8d279651846b2d953fb34d04c8292482"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autoref.rtx \

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause-LBNL"
 
 PV = "0.3"
 
-RPM_NAME = "libcircle-devel-0.3-1.9.aarch64.rpm"
-RPM_HASH = "63e0b233aa3926fac784313eee61d350c4120b0bc2e5a14f258ead676a6ae8738756bcc03f0ca2d6fdc117436d4fc9fdd84bb0aa67041ddb62456b31855fb996"
+RPM_NAME = "libcircle-devel-0.3-2.3.aarch64.rpm"
+RPM_HASH = "eaf7d1f44a40c913139e95e25280234b70532e941b0d931d6430d7ef4aed7e71b63f2391f754a8d2f96d41ccbb38a46de4462306f1de7cd3abbeb63087c5f584"
 
 RPROVIDES:${PN} += "libcircle-devel \
 pkgconfig-libcircle"

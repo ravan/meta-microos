@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for AWS STS"
 DESCRIPTION = "The AWS Java SDK for AWS STS module holds the \
 client classes that are used for communicating with \
 AWS Security Token Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-sts-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "758a5e5a1187d5a0a818978cc80ee4c80a9932329cfc8d211afa93f596f68d90e6d29aa856091be5c516fc4a7ff9475bf598d781e7272119120c3af81486b484"
+RPM_NAME = "aws-sdk-java-sts-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "556618c2595ff59d1389a2a07c0b73a2eb40bd367a2bda1ca2f28bd537cde56da72c485b2816b6e88a85012f7281fe080d17add089bff3fee5a240d421c83ee6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-sts \

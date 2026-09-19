@@ -7,10 +7,10 @@ pdfLaTeX or LuaLaTeX in PDF output mode. Package everypage is \
 required on LaTeX releases before Fall 2020."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0bsvn56782"
+PV = "2026.226.2.0bsvn77682"
 
-RPM_NAME = "texlive-flippdf-2023.209.2.0bsvn56782-53.1.noarch.rpm"
-RPM_HASH = "bb04ad2fd860b102aa7258cccb6aad1e605105fc49499b752893da552abdd95ff026671daadf2671e6a54d86c6c1ef0969093e135fd2b6ca50627dc5fe2bf2e8"
+RPM_NAME = "texlive-flippdf-2026.226.2.0bsvn77682-59.2.noarch.rpm"
+RPM_HASH = "6b4154144a356bd72fa7335ee341e1b5ceaeaee6bbfe11b93863837d8de721268b448efdf5341ff83b3428e4d3d4cf59b387be1eedd8c0acda73570dbbd11d67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-flippdf-1x.sty \

@@ -4,10 +4,10 @@ will ever need. In fact, the KDE file manager (Dolphin) and the KDE \
 file dialog also uses this to provide its network-enabled file management."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kio-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "80a5dbb7d8dbb56d656777dc97a2d96ce215a031aaebb18507752f7e9ac587ff22c67f4fb875f1646e22709dd61aa24090704a8a306a72c3a6cd34edf8e40ce1"
+RPM_NAME = "kio-5.116.0-1.11.aarch64.rpm"
+RPM_HASH = "49d37397b58b589113d82b8e1e938498189570e5a1d34c9d23132ca0ce8ec4e4bf9b30e6f9aaecd3f84624debf165a0c4deb02cfe7dcba0c1c31c7e57eca8ecc"
 
 RPROVIDES:${PN} += "kio \
 libKF5KIOFileWidgets.so.5 \

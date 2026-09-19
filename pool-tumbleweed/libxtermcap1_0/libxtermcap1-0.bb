@@ -3,10 +3,10 @@ DESCRIPTION = "An implementation of termcap, i.e. the termcap C functions tgeten
 etc., including the parser for the /usr/share/misc/termcap file."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "libxtermcap1_0-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "971295f697ed6d61ab09c8cab0c6f763b273968f9c24408093703b89d14a84c190c71358cf41d79d4d41a4e9baca751935cc46098cf45c9a2a54a11cfaf05d27"
+RPM_NAME = "libxtermcap1_0-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "92d594d6d42f5e3f8549aff58d884cc05948998d01cf7dacbb4833449a7ecd073a4689bf86bca36d5bdfcc365def1e93424d101b9ba30e14cba7f23035844a11"
 
 RPROVIDES:${PN} += "libxtermcap.so.1.0 \
 libxtermcap1-0"

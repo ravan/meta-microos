@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.8"
 
-RPM_NAME = "airspyhf-devel-1.6.8-1.13.aarch64.rpm"
-RPM_HASH = "dca08fdbf63f881747edfadbf7033b833a2bbe624fa9ad573f706eadc63d58ade7e27305f0137c6333fbc67f34d6b375765627364a96c276f27042489320be13"
+RPM_NAME = "airspyhf-devel-1.6.8-4.7.aarch64.rpm"
+RPM_HASH = "685ed3c0f5260c92af06669a8c467853b6566b3a74151ad4e75762c4844f6380a32c465a4fb71eaddaf1c338a75296cd5e84494850fceee568e71dd1a2679bac"
 
 RPROVIDES:${PN} += "airspyhf-devel \
 pkgconfig-libairspyhf"

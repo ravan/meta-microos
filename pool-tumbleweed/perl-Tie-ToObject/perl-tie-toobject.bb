@@ -16,14 +16,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Tie-ToObject-0.03-13.28.noarch.rpm"
-RPM_HASH = "7aa0c78d91d60523a63a636fb82521d81ca91b4ac51755ef642c2dd78c901243f0acdcfabd6c908edb995cca2d2f41ffbf25864cdbaee3918f344d5f527ca36e"
+RPM_NAME = "perl-Tie-ToObject-0.03-13.42.noarch.rpm"
+RPM_HASH = "ca263b8bb93a553ea10c8c9f49964eeb7438acf5e8f9ee2431dd6d6af2241a11f44424d0b30209ae5a53dadcb6950e91d3514d2388bc6935f359483897793f19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tie--ToObject \
 perl-Tie-ToObject"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Test--use--ok"
 
 inherit rpm

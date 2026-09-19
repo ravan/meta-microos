@@ -3,10 +3,10 @@ DESCRIPTION = "xkbprint generates a printable or encapsulated PostScript descrip
 of an XKB keyboard description."
 LICENSE = "MIT"
 
-PV = "1.0.6"
+PV = "1.0.8"
 
-RPM_NAME = "xkbprint-1.0.6-1.3.aarch64.rpm"
-RPM_HASH = "70bdcda910007357431ebb21a2643376ec882dd59d94a2f5d0ef88ecc22a493a427b5680adb661746d6908f4e91ae803b3714edf36f9864cb4965a05bf065217"
+RPM_NAME = "xkbprint-1.0.8-1.1.aarch64.rpm"
+RPM_HASH = "03db8575e579d7686bd5f5ef38bf6378354c5754e05477d5424aa53b9a615e33b754437f49dee6daf4172e696049cd6279297a11699bb088dea6d0d61ba6a472"
 
 RPROVIDES:${PN} += "xkbprint"
 

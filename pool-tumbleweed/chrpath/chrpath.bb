@@ -4,10 +4,10 @@ runpath) of compiled programs. Currently, only removing and modifying the \
 rpath is supported. It cannot extend or add an rpath."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.16"
+PV = "0.18"
 
-RPM_NAME = "chrpath-0.16-5.12.aarch64.rpm"
-RPM_HASH = "efbe49e054f66bf2aefa077646e8ade40f255612016bd7e84a212a48b11ba9f40d8ac72c7a7f7051379695dbdf9d6d63dc34f5b3d51d53f928561075f6878064"
+RPM_NAME = "chrpath-0.18-1.5.aarch64.rpm"
+RPM_HASH = "8cbccebca60ce0c16753b2c22e3713275bbbdf8ccf1f0835fea41515a56dedbf8f85072b39788ad302fb27c6d6e57b073d287c96eaf486f16874781f02a085c0"
 
 RPROVIDES:${PN} += "chrpath"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "librmt offers a programmatic C interface for creating an IPC \
 channel to the rmt program."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "librmt1_0-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "69bb2c956ca5a9d6581a753d9a136743c5139ddeccc15eb79bf29afdd03f8ff1d974b7542bfac83038eb4e6e016f20c13d38e21ba3185e0218e64f93fef2c37a"
+RPM_NAME = "librmt1_0-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "8d3e07e69c5b5b7036438df42eb19ca80136ddcac9ba068006e2dd559ad145117ae701d7d11bb3fc511c487a3091a3635c0e7cfc5f22f284797ec3f166e78065"
 
 RPROVIDES:${PN} += "librmt.so.1.0 \
 librmt1-0"

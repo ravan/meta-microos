@@ -4,14 +4,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.03"
 
-RPM_NAME = "perl-IO-SessionData-1.03-3.29.noarch.rpm"
-RPM_HASH = "9b2430f71e9703fc0777910e152f6037ae0de6051502c4a9d3e20005c280282a371fff8beae6524a5c94a21536fa179cbfa7cd642bf826f536f33442807cecc9"
+RPM_NAME = "perl-IO-SessionData-1.03-3.43.noarch.rpm"
+RPM_HASH = "95ce8e5b23b4e731f2c55cca959b29558ec8717cfe4496dc97ed6f3a0cff7a26d7ef9f0cf9c3c2c6b7ab0b835929048dfaf814f45d8d83e251acf0a64cccc3d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--SessionData \
 perl-IO--SessionSet \
 perl-IO-SessionData"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

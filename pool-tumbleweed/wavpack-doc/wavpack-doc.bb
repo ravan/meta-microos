@@ -6,10 +6,10 @@ This subpackage contains development documentation for applications that \
 want to make use of wavpack."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.6.0"
+PV = "5.9.0"
 
-RPM_NAME = "wavpack-doc-5.6.0-1.4.aarch64.rpm"
-RPM_HASH = "419cb586fc2d3f752b21545a937d0c786c26fc5c5aeb0fa2f8a719fa4fcd25e12c9edaabf7f464077b3ad5fab5bd24359bad2417eb54956384df8fa440cfc3a5"
+RPM_NAME = "wavpack-doc-5.9.0-1.5.aarch64.rpm"
+RPM_HASH = "31ddfa89b9fb36463cd0636f74913db1f093c960015865bc257daa6bdcbdac68d5ee1503354c6655a96e04cd2dbf0a7a14b8ae34342dae773022ffee30ce06dc"
 
 RPROVIDES:${PN} += "wavpack-doc"
 

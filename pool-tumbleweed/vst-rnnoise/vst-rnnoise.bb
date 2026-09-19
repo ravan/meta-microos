@@ -15,10 +15,10 @@ Other sample rates may work, or not... \
 This package holds the vst plugin."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.03+git1.226f03b"
+PV = "1.21"
 
-RPM_NAME = "vst-rnnoise-1.03+git1.226f03b-1.5.aarch64.rpm"
-RPM_HASH = "656fe5d0f60ae3959778fc6bd41c18afc77c3b2fc3db34e63d12c9b2c8512bfd50c943d6ecbc322caea884f3dc87258431df68917e08dfec7e34f4e0a128d7a1"
+RPM_NAME = "vst-rnnoise-1.21-1.3.aarch64.rpm"
+RPM_HASH = "77beed74c38d4681eaa7e261cec10e6f45b88916aae1f830506ae0c46f520abd0f6fd1baefa67e7d3a99a5e1aba160ed96f41f679d58a8ce2bbe0bae94bee58f"
 
 RPROVIDES:${PN} += "librnnoise-mono.so \
 librnnoise-stereo.so \

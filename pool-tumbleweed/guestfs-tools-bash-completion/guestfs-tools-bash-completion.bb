@@ -3,10 +3,10 @@ DESCRIPTION = "Install this package if you want intelligent bash tab-completion 
 for the virt-* tools."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.50.1"
+PV = "1.56.0"
 
-RPM_NAME = "guestfs-tools-bash-completion-1.50.1-1.2.noarch.rpm"
-RPM_HASH = "5d87f7d95ec97b6bb2e4ffadb1ea375988008945ec77a5863aaa5190e25745a82d9071613101c7345da661f266b9ac2bbac8b590304a74509b46d2fea1dd9c76"
+RPM_NAME = "guestfs-tools-bash-completion-1.56.0-1.2.noarch.rpm"
+RPM_HASH = "fd9cfcaf8f4ab6cf830392621fe15761b69276bd007d44bdd8f4898db49d7cc14fd082054b2270266cba6da2a9c4c8c0cebc9924ea18e31bfa5e364c1cdc76ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "guestfs-tools-bash-completion"

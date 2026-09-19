@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-prtec"
 DESCRIPTION = "This package includes the documentation for texlive-prtec"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.06svn51919"
+PV = "2026.226.1.07svn76790"
 
-RPM_NAME = "texlive-prtec-doc-2023.209.1.06svn51919-53.1.noarch.rpm"
-RPM_HASH = "cac168b66bc42ee37d372f9e9a182cdd617dd8bac0323e6cb7f79daeee46fa3ff9d21d5a79e478f95f143e6035cc1fcdf32704163b160260467c3edc35c30783"
+RPM_NAME = "texlive-prtec-doc-2026.226.1.07svn76790-59.2.noarch.rpm"
+RPM_HASH = "d49f5727542ec6f0016c31b6ec21889df389977c2fcac13244fe191107f8ed6a764b03db5dd27e84415497494c0641779c1f78b050b78c2548cc08854f73906b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-prtec-doc"

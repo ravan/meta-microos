@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the header file needed to develop applicati
 Yubikey NEO PKCS#11 applet library."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.3.1"
+PV = "2.7.3"
 
-RPM_NAME = "libykcs11-devel-2.3.1-1.3.aarch64.rpm"
-RPM_HASH = "1654d1f261f1cd2fa1737b8e3b3dd1b37f1f3a4b253b020bfb5f64829c71edcdac4aaf958708c07c79af15d7cef6ee616f9c165f92a42988a1da22ed31845842"
+RPM_NAME = "libykcs11-devel-2.7.3-1.3.aarch64.rpm"
+RPM_HASH = "d608d7085fd51dcb17fcd9d8a4e4e4d6cdf2321e361ccb12d0fa9a315919d63b4c8a4c86651fcd15d8d9f850aacd34a3caacb75558d1dcd4ec51eebf2cc20d3f"
 
 RPROVIDES:${PN} += "libykcs11-devel \
 pkgconfig-ykcs11"

@@ -8,13 +8,13 @@ LICENSE = "BSD-2-Clause & GPL-2.0-only"
 
 PV = "0.2"
 
-RPM_NAME = "opus-tools-0.2-1.22.aarch64.rpm"
-RPM_HASH = "770b424f7fc83735539a58df38b14d380fa29b015a92e9f61c303900d6ee43002215f2160841d210beeea2db7ecc317cbdc516d30f0529e91d353bdec374faa2"
+RPM_NAME = "opus-tools-0.2-1.34.aarch64.rpm"
+RPM_HASH = "b4ca7558cb4eb2620585fe7f57a2c89a6fc6efac9bc98ffb1b9a09c8784be8129fd9925b634e268473d83ae792ccf35d01ee9aaf81440ab59055c5cb9ee0c733"
 
 RPROVIDES:${PN} += "opus-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libc.so.6 \
 libm.so.6 \
 libogg.so.0 \

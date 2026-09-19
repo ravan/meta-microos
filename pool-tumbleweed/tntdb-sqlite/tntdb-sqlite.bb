@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "tntdb-sqlite-1.4-1.13.aarch64.rpm"
-RPM_HASH = "6a908ae0efc85bfcd650787c25cb7408178f09be01465b70697040b6cd8c24a2f4ac65e8d9a8d45cfea944e8febd3fe70b3396f23b321919d63b02e1ce602efe"
+RPM_NAME = "tntdb-sqlite-1.4-1.22.aarch64.rpm"
+RPM_HASH = "8cfd3798b29b3e4ecfcff9d2d732809a7bf2474ea76634a07e53f8faad1dbaa34c914c0d8ec6634d2061232fd135159630215b6a4f38010b7efc3b667b8d07ca"
 
 RPROVIDES:${PN} += "tntdb-sqlite"
 

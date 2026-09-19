@@ -9,10 +9,10 @@ EDAC drivers and DIMM labels are loaded at system startup, as well as \
 an utility for reporting current error counts from the EDAC sysfs files."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.8.0.10.git+a247baf"
+PV = "0.8.5+git10.4aec37b"
 
-RPM_NAME = "rasdaemon-0.8.0.10.git+a247baf-1.1.aarch64.rpm"
-RPM_HASH = "7fb94ab49b7014883b4b3ada5c793361016ab7912a0e67da34ec4ce3ba93e5333261bd37a9a1dd464559c88bbb67c178c90a80228fab0a83b7fa97435d5d2e53"
+RPM_NAME = "rasdaemon-0.8.5+git10.4aec37b-1.1.aarch64.rpm"
+RPM_HASH = "4a6f0b4272a2dd8ec0fa6fe98d53dcad735e0d546fe35836bb117ce9974ceac15ba092f6137554fc600723d45e9be1c2987974df03e5cd34aeacde6ec4806636"
 
 RPROVIDES:${PN} += "rasdaemon"
 
@@ -20,10 +20,10 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/perl \
 /usr/bin/sh \
 /usr/bin/touch \
-dmidecode \
 fillup \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libpci.so.3 \
 libsqlite3.so.0 \
 libtraceevent.so.1 \
 perl-DBD-SQLite"

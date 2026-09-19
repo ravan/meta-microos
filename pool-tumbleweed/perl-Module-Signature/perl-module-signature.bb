@@ -21,12 +21,12 @@ Signatures made with Module::Signature prior to version 0.82 used the SHA1 \
 algorithm by default. SHA1 is now considered broken, and therefore module \
 authors are strongly encouraged to regenerate their _SIGNATURE_ files. \
 Users verifying old SHA1 signature files will receive a warning."
-LICENSE = "CC0-1.0 & (GPL-1.0-or-later | Artistic-1.0)"
+LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & CC0-1.0"
 
-PV = "0.88"
+PV = "0.960.0"
 
-RPM_NAME = "perl-Module-Signature-0.88-1.9.noarch.rpm"
-RPM_HASH = "53d4ff6ea662dcd894010e351a751d5032a4279354ba1e49d62247729cfe85b0e81c8d3431db7d072b0c209e7d95c6fe6787855aa8d192bf05a0ffe66377051b"
+RPM_NAME = "perl-Module-Signature-0.960.0-1.3.noarch.rpm"
+RPM_HASH = "212aeec9c7f0d1e5bc41d6a417356375175436e3fae825a21c33cb60c8f6097eab1e4992c501791cf043d1a89fae6d827e0d24ad7238bc631740ca29cee51060"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Signature \
@@ -34,6 +34,6 @@ perl-Module-Signature"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 gpg \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

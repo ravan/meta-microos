@@ -1,11 +1,16 @@
 SUMMARY = "Go from Docker Compose to Kubernetes"
-DESCRIPTION = "kompose is a tool to help users who are familiar with docker-compose move to Kubernetes. kompose takes a Docker Compose file and translates it into Kubernetes resources. kompose is a convenience tool to go from local Docker development to managing your application with Kubernetes. Transformation of the Docker Compose format to Kubernetes resources manifest may not be exact, but it helps tremendously when first deploying an application on Kubernetes."
+DESCRIPTION = "kompose is a tool to help users who are familiar with docker-compose move to \
+Kubernetes. kompose takes a Docker Compose file and translates it into \
+Kubernetes resources. kompose is a convenience tool to go from local Docker \
+development to managing your application with Kubernetes. Transformation of the \
+Docker Compose format to Kubernetes resources manifest may not be exact, but it \
+helps tremendously when first deploying an application on Kubernetes."
 LICENSE = "Apache-2.0"
 
-PV = "1.30.0"
+PV = "1.38.0"
 
-RPM_NAME = "kompose-1.30.0-1.1.aarch64.rpm"
-RPM_HASH = "394a26097b157241dd09b1a76e9c53bc2296f41a62f9eca2e9520cc1aff5932f051742837b31e466e0c8196caba3bc446dfe120fd144622d373aa07431d3cec4"
+RPM_NAME = "kompose-1.38.0-1.7.aarch64.rpm"
+RPM_HASH = "ba132d8045bcd55b6052613cbe228bc84fcff4ad685ce2c602b43e0127e145736e35c28caa5babe77ce2b1500fee7bae318cf51d144ffd9e13334097fb7e2ffe"
 
 RPROVIDES:${PN} += "kompose"
 

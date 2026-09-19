@@ -6,10 +6,10 @@ This package provides a catalog for libhandy, to allow the use \
 libhandy widgets in Glade."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.8.2"
+PV = "1.8.3"
 
-RPM_NAME = "glade-catalog-libhandy-1.8.2-1.4.aarch64.rpm"
-RPM_HASH = "6dd1fe1e2d2e34c8b5dc12e56507bfe018eb7e2ddc7576cb24a1f8a821f7ecee11dda7d0c7be60ad01400f02294922a2d28c3182afb2d87a275ea05e58424f6b"
+RPM_NAME = "glade-catalog-libhandy-1.8.3-2.3.aarch64.rpm"
+RPM_HASH = "6b24898b2305b0459a066e73ef78d28a511b2966fdb26b41aebfeaa7ea387b74d6c28b577f7262c1ccc8c30e17a732be900848da7964ea141cdaea0597f7d8ad"
 
 RPROVIDES:${PN} += "glade-catalog-libhandy \
 libglade-handy-1.so"

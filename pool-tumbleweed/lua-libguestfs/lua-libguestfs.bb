@@ -2,10 +2,10 @@ SUMMARY = "Lua bindings for libguestfs"
 DESCRIPTION = "lua-libguestfs contains Lua bindings for libguestfs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.50.1"
+PV = "1.60.1"
 
-RPM_NAME = "lua-libguestfs-1.50.1-4.2.aarch64.rpm"
-RPM_HASH = "0d6f9b818503666581eb5b8de8f6fa0c310926fd5e1324a6b8e240388dc4cae2eb7304dc6c10f5ea12022d51838adf7e57983ce42802a038bb9578e2e5d620f4"
+RPM_NAME = "lua-libguestfs-1.60.1-1.1.aarch64.rpm"
+RPM_HASH = "a0882ac6cf5f00b80390003a2133f89e2b509b7eedc53005f44eea1142d612a2acacfd3c59669694c79d190d69c4d01cb3745deb262b1ad2d8ccb83d2c79ab7d"
 
 RPROVIDES:${PN} += "libluaguestfs.so \
 lua-libguestfs"

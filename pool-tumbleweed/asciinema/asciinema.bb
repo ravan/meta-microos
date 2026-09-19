@@ -2,17 +2,211 @@ SUMMARY = "Terminal session recorder"
 DESCRIPTION = "Record of terminal sessions and sharing them on the web."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.3.0"
+PV = "3.2.1"
 
-RPM_NAME = "asciinema-2.3.0-1.1.noarch.rpm"
-RPM_HASH = "b828758086cee8c09160b54bc43a21a068b08918db47d24ea962a57204981c3929f47f82014499f268129cffe78fc8ad1e712fc87f8539f31235376b6e38cdf8"
-REPO_ARCH = "noarch"
+RPM_NAME = "asciinema-3.2.1-1.4.aarch64.rpm"
+RPM_HASH = "6d605f4aced74798136732f49225216ef0f2121e9c2c187416662ce5545be42100c850455666db24d0ffc6ddfd6e3c578f8a4e1f4f70353c3c1abc09e5b6f298"
 
 RPROVIDES:${PN} += "asciinema \
-python3.11dist-asciinema \
-python3dist-asciinema"
+bundled-rust-crate-adler2 \
+bundled-rust-crate-aho-corasick \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
+bundled-rust-crate-anyhow \
+bundled-rust-crate-asciinema \
+bundled-rust-crate-async-compression \
+bundled-rust-crate-async-trait \
+bundled-rust-crate-atomic-waker \
+bundled-rust-crate-avt \
+bundled-rust-crate-axum \
+bundled-rust-crate-axum-core \
+bundled-rust-crate-base64 \
+bundled-rust-crate-bitflags \
+bundled-rust-crate-block-buffer \
+bundled-rust-crate-bytemuck \
+bundled-rust-crate-bytes \
+bundled-rust-crate-cc \
+bundled-rust-crate-cfg-aliases \
+bundled-rust-crate-cfg-if \
+bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
+bundled-rust-crate-clap-complete \
+bundled-rust-crate-clap-derive \
+bundled-rust-crate-clap-lex \
+bundled-rust-crate-clap-mangen \
+bundled-rust-crate-colorchoice \
+bundled-rust-crate-compression-codecs \
+bundled-rust-crate-compression-core \
+bundled-rust-crate-config \
+bundled-rust-crate-cpufeatures \
+bundled-rust-crate-crc32fast \
+bundled-rust-crate-crypto-common \
+bundled-rust-crate-data-encoding \
+bundled-rust-crate-digest \
+bundled-rust-crate-displaydoc \
+bundled-rust-crate-errno \
+bundled-rust-crate-fastrand \
+bundled-rust-crate-find-msvc-tools \
+bundled-rust-crate-flate2 \
+bundled-rust-crate-form-urlencoded \
+bundled-rust-crate-futures-channel \
+bundled-rust-crate-futures-core \
+bundled-rust-crate-futures-io \
+bundled-rust-crate-futures-macro \
+bundled-rust-crate-futures-sink \
+bundled-rust-crate-futures-task \
+bundled-rust-crate-futures-util \
+bundled-rust-crate-generic-array \
+bundled-rust-crate-getrandom \
+bundled-rust-crate-heck \
+bundled-rust-crate-http \
+bundled-rust-crate-http-body \
+bundled-rust-crate-http-body-util \
+bundled-rust-crate-httparse \
+bundled-rust-crate-httpdate \
+bundled-rust-crate-hyper \
+bundled-rust-crate-hyper-rustls \
+bundled-rust-crate-hyper-util \
+bundled-rust-crate-icu-collections \
+bundled-rust-crate-icu-locale-core \
+bundled-rust-crate-icu-normalizer \
+bundled-rust-crate-icu-normalizer-data \
+bundled-rust-crate-icu-properties \
+bundled-rust-crate-icu-properties-data \
+bundled-rust-crate-icu-provider \
+bundled-rust-crate-idna \
+bundled-rust-crate-idna-adapter \
+bundled-rust-crate-ipnet \
+bundled-rust-crate-is-terminal-polyfill \
+bundled-rust-crate-itoa \
+bundled-rust-crate-lazy-static \
+bundled-rust-crate-libc \
+bundled-rust-crate-linux-raw-sys \
+bundled-rust-crate-litemap \
+bundled-rust-crate-log \
+bundled-rust-crate-lru-slab \
+bundled-rust-crate-matchers \
+bundled-rust-crate-matchit \
+bundled-rust-crate-memchr \
+bundled-rust-crate-mime \
+bundled-rust-crate-mime-guess \
+bundled-rust-crate-miniz-oxide \
+bundled-rust-crate-mio \
+bundled-rust-crate-nix \
+bundled-rust-crate-once-cell \
+bundled-rust-crate-openssl-probe \
+bundled-rust-crate-pathdiff \
+bundled-rust-crate-percent-encoding \
+bundled-rust-crate-pin-project-lite \
+bundled-rust-crate-potential-utf \
+bundled-rust-crate-ppv-lite86 \
+bundled-rust-crate-proc-macro2 \
+bundled-rust-crate-quinn \
+bundled-rust-crate-quinn-proto \
+bundled-rust-crate-quinn-udp \
+bundled-rust-crate-quote \
+bundled-rust-crate-rand \
+bundled-rust-crate-rand-chacha \
+bundled-rust-crate-rand-core \
+bundled-rust-crate-regex-automata \
+bundled-rust-crate-regex-syntax \
+bundled-rust-crate-reqwest \
+bundled-rust-crate-rgb \
+bundled-rust-crate-ring \
+bundled-rust-crate-roff \
+bundled-rust-crate-rust-embed \
+bundled-rust-crate-rust-embed-impl \
+bundled-rust-crate-rust-embed-utils \
+bundled-rust-crate-rustc-hash \
+bundled-rust-crate-rustix \
+bundled-rust-crate-rustls \
+bundled-rust-crate-rustls-native-certs \
+bundled-rust-crate-rustls-pki-types \
+bundled-rust-crate-rustls-webpki \
+bundled-rust-crate-rustyline \
+bundled-rust-crate-ryu \
+bundled-rust-crate-same-file \
+bundled-rust-crate-serde \
+bundled-rust-crate-serde-core \
+bundled-rust-crate-serde-derive \
+bundled-rust-crate-serde-json \
+bundled-rust-crate-serde-spanned \
+bundled-rust-crate-serde-urlencoded \
+bundled-rust-crate-sha1 \
+bundled-rust-crate-sha2 \
+bundled-rust-crate-sharded-slab \
+bundled-rust-crate-shlex \
+bundled-rust-crate-signal-hook \
+bundled-rust-crate-signal-hook-registry \
+bundled-rust-crate-signal-hook-tokio \
+bundled-rust-crate-simd-adler32 \
+bundled-rust-crate-slab \
+bundled-rust-crate-smallvec \
+bundled-rust-crate-socket2 \
+bundled-rust-crate-stable-deref-trait \
+bundled-rust-crate-strsim \
+bundled-rust-crate-subtle \
+bundled-rust-crate-syn \
+bundled-rust-crate-sync-wrapper \
+bundled-rust-crate-synstructure \
+bundled-rust-crate-tempfile \
+bundled-rust-crate-terminal-size \
+bundled-rust-crate-thiserror \
+bundled-rust-crate-thiserror-impl \
+bundled-rust-crate-thread-local \
+bundled-rust-crate-tinystr \
+bundled-rust-crate-tinyvec \
+bundled-rust-crate-tinyvec-macros \
+bundled-rust-crate-tokio \
+bundled-rust-crate-tokio-macros \
+bundled-rust-crate-tokio-rustls \
+bundled-rust-crate-tokio-stream \
+bundled-rust-crate-tokio-tungstenite \
+bundled-rust-crate-tokio-util \
+bundled-rust-crate-toml \
+bundled-rust-crate-toml-datetime \
+bundled-rust-crate-toml-parser \
+bundled-rust-crate-tower \
+bundled-rust-crate-tower-http \
+bundled-rust-crate-tower-layer \
+bundled-rust-crate-tower-service \
+bundled-rust-crate-tracing \
+bundled-rust-crate-tracing-core \
+bundled-rust-crate-tracing-subscriber \
+bundled-rust-crate-try-lock \
+bundled-rust-crate-tungstenite \
+bundled-rust-crate-typenum \
+bundled-rust-crate-unicase \
+bundled-rust-crate-unicode-ident \
+bundled-rust-crate-unicode-segmentation \
+bundled-rust-crate-unicode-width \
+bundled-rust-crate-untrusted \
+bundled-rust-crate-url \
+bundled-rust-crate-utf-8 \
+bundled-rust-crate-utf8-iter \
+bundled-rust-crate-utf8parse \
+bundled-rust-crate-uuid \
+bundled-rust-crate-version-check \
+bundled-rust-crate-walkdir \
+bundled-rust-crate-want \
+bundled-rust-crate-which \
+bundled-rust-crate-winnow \
+bundled-rust-crate-writeable \
+bundled-rust-crate-yoke \
+bundled-rust-crate-yoke-derive \
+bundled-rust-crate-zerocopy \
+bundled-rust-crate-zerofrom \
+bundled-rust-crate-zerofrom-derive \
+bundled-rust-crate-zeroize \
+bundled-rust-crate-zerotrie \
+bundled-rust-crate-zerovec \
+bundled-rust-crate-zerovec-derive \
+bundled-rust-crate-zmij"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
-python-abi"
+RDEPENDS:${PN} += "libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6"
 
 inherit rpm

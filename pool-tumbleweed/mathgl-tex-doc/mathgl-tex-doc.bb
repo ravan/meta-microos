@@ -6,10 +6,10 @@ console modes and for embedding into other programs. \
 This package provides documentation for mglTeX."
 LICENSE = "GPL-3.0-only"
 
-PV = "8.0.1"
+PV = "8.0.3"
 
-RPM_NAME = "mathgl-tex-doc-8.0.1-4.2.noarch.rpm"
-RPM_HASH = "fb3b492913da2909c5dae1183dc067a49b9ffba7f15310b4bf9b19234ae89ccf1cb8377faadb0bf63ff046dbec581b8668c388109750b3e16e7c429a88609561"
+RPM_NAME = "mathgl-tex-doc-8.0.3-2.6.noarch.rpm"
+RPM_HASH = "c53596289993114dc90e1451a6beadcae3907e1d57c04d129a66d4deb546ce9db441be2bb06f96b93cf0e7ff20e3f6566f3558149c99d3590de1a5fca78947d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-tex-doc"

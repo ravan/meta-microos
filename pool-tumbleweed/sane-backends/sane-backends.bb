@@ -13,10 +13,10 @@ to access scanners that are connected to a server \
 via network from client hosts that run the 'net' meta driver."
 LICENSE = "GPL-2.0-or-later & SUSE-GPL-2.0+-with-sane-exception & SUSE-Public-Domain"
 
-PV = "1.2.1"
+PV = "1.3.1"
 
-RPM_NAME = "sane-backends-1.2.1-1.2.aarch64.rpm"
-RPM_HASH = "eb662cd6eac9221b3c52dfe31bcf5f019ca237476c873227513046ca45fccd58f14886d9f4b88bd367f5063c5a300ca5492032c973bc55e939f27be18dfc5051"
+RPM_NAME = "sane-backends-1.3.1-3.11.aarch64.rpm"
+RPM_HASH = "8de1b2173ec5da7158145102aaf956ea40e19b55596c78cfb7986bd08911fec3c156d8edaddee17135a6bc81c188a5f1d98212902f481ea8582eb51731907b2f"
 
 RPROVIDES:${PN} += "config-sane-backends \
 sane \
@@ -33,7 +33,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libjpeg.so.8 \
 libm.so.6 \
-libnetsnmp.so.40 \
+libnetsnmp.so.45 \
 libpng16.so.16 \
 libpoppler-glib.so.8 \
 libsane.so.1 \
@@ -42,7 +42,7 @@ libstdc++.so.6 \
 libtiff.so.6 \
 libusb-1.0.so.0 \
 libv4l1.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 systemd"
 
 inherit rpm

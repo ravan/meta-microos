@@ -6,10 +6,10 @@ superseded by siunitx; siunits has maintenance-only support, \
 now."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.36svn59702"
+PV = "2026.226.1.36svn59702"
 
-RPM_NAME = "texlive-siunits-2023.209.1.36svn59702-58.1.noarch.rpm"
-RPM_HASH = "21dfcb8eea6cb958c1adc0d79f65e1cf5baf44fb61e40cf5b4e286d3f9b91ffff586a0e275dad9a7a286e7fbe9978012c659e3a8fe435a0ee9b87b2556c0824f"
+RPM_NAME = "texlive-siunits-2026.226.1.36svn59702-64.2.noarch.rpm"
+RPM_HASH = "a699555ff9c0c799c653593b82ddfa73c8ee011c0d7bafa768c203e08e1bb6b6040598f7d46bbc46d768359b6b621d9b3e1590c957d22729dcce3d0432b22c15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-SIunits.cfg \

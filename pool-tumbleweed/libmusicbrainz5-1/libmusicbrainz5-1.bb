@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.1.0"
 
-RPM_NAME = "libmusicbrainz5-1-5.1.0-1.9.aarch64.rpm"
-RPM_HASH = "3ca68eb3cb1d6b77484666b2e013d94db5f4f0cd4c1d388a4f4165f6dddd4f2f076a997c48cb7b4170dafba00ced2ff5c17f2fb707a64a9f64154ec60c2de067"
+RPM_NAME = "libmusicbrainz5-1-5.1.0-2.10.aarch64.rpm"
+RPM_HASH = "9d0826da28bdd5ed8e003a6967d2468c91d96709f254d2b3d1cd62349d1305425b2e531b11e196f373923a2232d6ecb72262297ab29f0ea4e798362da57a3ce2"
 
 RPROVIDES:${PN} += "libmusicbrainz5-1 \
 libmusicbrainz5.so.1"
@@ -18,6 +18,6 @@ libc.so.6 \
 libgcc-s.so.1 \
 libneon.so.27 \
 libstdc++.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

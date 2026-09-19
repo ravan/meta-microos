@@ -5,10 +5,10 @@ The package requires datatool, etex, graphicx, tikz, \
 trimspaces, xifthen, and xkeyval."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn51884"
+PV = "2026.226.1.1svn51884"
 
-RPM_NAME = "texlive-tikz-network-2023.209.1.1svn51884-53.1.noarch.rpm"
-RPM_HASH = "fff9ee5ebc408a13698975e428782243a55797642264312344fee0079331a358f697338c14cd8987f18f192b7602ec550ce54ac6822cd8f0e863db5699dd3f79"
+RPM_NAME = "texlive-tikz-network-2026.226.1.1svn51884-59.2.noarch.rpm"
+RPM_HASH = "4a7003a4b8e1ccc1adc48e76d5b1e642f26e3d2a9fd76d871c23079c38ea9e256aa18e4dc9d951cea0628c8424779d54ebb7a0ed35ee8a3248f97fca79bf3a1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-network.sty \

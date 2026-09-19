@@ -26,12 +26,12 @@ Features \
     * Multilingual. \
     * Password-protected, encrypted text files (using the ARCFOUR algorithm). \
     * It helps you abandon vi, emacs and other six-legged freaks definitely."
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
-PV = "5.2.13"
+PV = "5.62"
 
-RPM_NAME = "mp-gtk3-5.2.13-1.27.aarch64.rpm"
-RPM_HASH = "20713afdee08dc164e8383729de7ae4400d53478d8d6d7da8702d638994ef62522c311293fd504fb226e2c5f2bd0b4d2169c74b9645a6428bf253e4569e402d2"
+RPM_NAME = "mp-gtk3-5.62-2.7.aarch64.rpm"
+RPM_HASH = "784636b4b98bf0e0ba30d74273d9e527f57a6d19764e75da39d3b250e6094995f415ad3c93a2b160f27e6624c01db3a3f42e20bf655550aea1a650cd43638b37"
 
 RPROVIDES:${PN} += "mp-gtk3"
 

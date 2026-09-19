@@ -2,10 +2,10 @@ SUMMARY = "Compute Library sample data"
 DESCRIPTION = "Free *.npy and *.ppm files to use with example binaries."
 LICENSE = "MIT"
 
-PV = "23.08"
+PV = "53.2.0"
 
-RPM_NAME = "ComputeLibrary-sample-data-23.08-1.1.aarch64.rpm"
-RPM_HASH = "4b35f66d72f1d4770caf70964170b1f36a2e38643243eb909306bcc378806e425bb0f89ce5257259b68925f7ba7ae0bd82492daae47cdc76efcad6b3dfb04f51"
+RPM_NAME = "ComputeLibrary-sample-data-53.2.0-1.1.aarch64.rpm"
+RPM_HASH = "15274194addc690ca926c99a774f482c30f43140707108f0c3f039d04493b74be1b7e2c7166ef56def82ab5155bc09f14976a528b6aba3be0e7fca190cf39515"
 
 RPROVIDES:${PN} += "ComputeLibrary-sample-data"
 

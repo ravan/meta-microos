@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for kustomize"
 DESCRIPTION = "Fish command line completion support for kustomize."
 LICENSE = "Apache-2.0"
 
-PV = "4.5.7"
+PV = "5.8.1"
 
-RPM_NAME = "kustomize-fish-completion-4.5.7-1.4.noarch.rpm"
-RPM_HASH = "aeab77c98c3c0570530a098832d2fc26b74fdf74f733466ccc1905b71e0427b06e6fbada4244fb993bac3ed6b978e483bb69387ad4790a9603a2c9c762f8cdc1"
+RPM_NAME = "kustomize-fish-completion-5.8.1-1.4.noarch.rpm"
+RPM_HASH = "878c6c0a2ac47ff4d70b2213c7c5a9c15e639220e14c2ca6209705f2055f0c4c3cfb6252be0c8387b0a0388029572c881fd9577b475e766cf6afb14086f6758e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kustomize-fish-completion"

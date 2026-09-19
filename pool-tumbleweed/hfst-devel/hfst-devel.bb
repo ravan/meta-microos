@@ -7,15 +7,17 @@ This subpackage contains the files necessary to build programs that \
 want to make use of the HFST library."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.15.4"
+PV = "3.17.3"
 
-RPM_NAME = "hfst-devel-3.15.4-1.3.aarch64.rpm"
-RPM_HASH = "5882cfb79c5310ff7c4ea04a95b67f4f9d08a911fe39b96f326b15e471cf5df9ddf6fc1cc646873e6a1a9e125aac00ede46afc5e084368d720e43f72c66ea588"
+RPM_NAME = "hfst-devel-3.17.3-1.1.aarch64.rpm"
+RPM_HASH = "e60acab35d2246da3021acabbd8e0dd867ee8d9607cc2cfa693d29db4b3106fdc5efc3db0025dc02271972e1b911a0aa557e916433308701236b36d5fee4de67"
 
 RPROVIDES:${PN} += "hfst-devel \
-pkgconfig-hfst"
+pkgconfig-hfst \
+pkgconfig-hfst-c"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libhfst53"
+libhfst-c57 \
+libhfst57"
 
 inherit rpm

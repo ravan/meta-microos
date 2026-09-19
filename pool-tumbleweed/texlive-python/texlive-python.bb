@@ -3,10 +3,10 @@ DESCRIPTION = "The package enables you to embed Python code in LaTeX, and \
 insert the script's output in the document."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.22svn60162"
+PV = "2026.226.0.0.22svn60162"
 
-RPM_NAME = "texlive-python-2023.209.0.0.22svn60162-54.2.noarch.rpm"
-RPM_HASH = "fce71844ab64c850c1b3a3115f4e3669a739d31bedc373c6be64e4bf50b3dac154b79bda5f59ba407d53dcb80dc82891fdf2c9e062bdd88b0da947ce1bd6bd88"
+RPM_NAME = "texlive-python-2026.226.0.0.22svn60162-60.4.noarch.rpm"
+RPM_HASH = "20fc6a000fa93debe2b6f94cc4b40fae1e8b8b2dca7dc5ce07f482878b7108acf684cddf71204355259f656b7f9209dcf5c7d7d1a8aef59b89bf9fb42281b37e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-python.sty \

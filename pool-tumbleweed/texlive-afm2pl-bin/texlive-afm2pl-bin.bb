@@ -2,10 +2,10 @@ SUMMARY = "Binary files of afm2pl"
 DESCRIPTION = "Binary files of afm2pl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-afm2pl-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "aa1dd01d86d8a51727a85fe6648d3a5bc18b36dee13d26b35d90efc3726fa82131545f229d4f187544977a868b0900dbeb4103e15d7c518490f471a82ac354bf"
+RPM_NAME = "texlive-afm2pl-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "94bff9f0072bf1f2fb9fda7e2395ecfc57c88da73d34cd8086e0e10f922932ae06cbcbe55d960c7d73c2c7089564406ff91fb7a9ab3f361f9d6ded6ab8618633"
 
 RPROVIDES:${PN} += "texlive-afm2pl-bin"
 

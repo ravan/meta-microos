@@ -3,10 +3,10 @@ DESCRIPTION = "The fonts provide fixed-width glyphs for Kana and Kanji \
 characters, proportional width glyphs for Western characters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn61719"
+PV = "2026.226.svn61719"
 
-RPM_NAME = "texlive-ipaex-2023.209.svn61719-56.1.noarch.rpm"
-RPM_HASH = "3967ca362ca9a0eb8335914a77eb6afa3b533d081883ca7a6f138ec010813d84725acc061ac28315f4de151286c0ec432636299d85b7b2131166e8801ef6210a"
+RPM_NAME = "texlive-ipaex-2026.226.svn61719-63.2.noarch.rpm"
+RPM_HASH = "71899eb5b5fb71d27001c0e082da36285da34dd3b743c0e70fe1184932d299ef9b6e3f14a1d328a4a8ea4877edef690243764ee344b3ed07cd82bcbc97008db8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ipaex"

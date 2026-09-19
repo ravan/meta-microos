@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.3.10"
 
-RPM_NAME = "libxcb-render-util0-0.3.10-1.2.aarch64.rpm"
-RPM_HASH = "8cca8cf85c76f8e22935afb13c5428247b9476d0c8b11b420ac043685d236f27ea5d0f1a9abbfa711d22f213fe93212a905bba3b2302d13aedbc330e802767dd"
+RPM_NAME = "libxcb-render-util0-0.3.10-1.12.aarch64.rpm"
+RPM_HASH = "5945bc74c874cf04c61accd1fac6dcd214ae1d1a9a98c15388240530f1ff8fe34d88d6648445a6392e23fa10d19c943a2b2b2760a8fbff6a7d4f6e42fabc2782"
 
 RPROVIDES:${PN} += "libxcb-render-util.so.0 \
 libxcb-render-util0"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0"
 
-RPM_NAME = "libptytty0-2.0-2.8.aarch64.rpm"
-RPM_HASH = "a9d1a4489c53a0f1a793f79da634c40fb9dda27e0afb9e252e4c9681fa52096fbccc8ab6199dbc746a9c30bf0fe33bc9bc6cd6dd5c7f5ca06175540ba2d3d5c7"
+RPM_NAME = "libptytty0-2.0-2.18.aarch64.rpm"
+RPM_HASH = "9e8f2eb9e1a4d81ada94a4cde5991cd3c0272e06e1fbd01bdc85ceac770a8cd559dff36bbf3de4f645a47cde8b375d8fdf4c6120cf8345f33f1ab7c3f2944947"
 
 RPROVIDES:${PN} += "libptytty.so.0 \
 libptytty0"

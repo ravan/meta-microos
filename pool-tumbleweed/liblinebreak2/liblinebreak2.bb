@@ -6,8 +6,8 @@ LICENSE = "Zlib"
 
 PV = "2.1"
 
-RPM_NAME = "liblinebreak2-2.1-16.25.aarch64.rpm"
-RPM_HASH = "ef905c9bce2fa81c523a1d01acd919fd1579d8408c07de1de849ed193ddf9bf0a8d0da46500585ce137ef84f9a7dca2eb73f8a245c19daa2486aab0ad24675bd"
+RPM_NAME = "liblinebreak2-2.1-16.35.aarch64.rpm"
+RPM_HASH = "db885385edbfac77e804c5c47d40774a919b73214bf6a55b84124d7e03816772d63aa0a59f65912f9bb5ac1b1cc5322733071b8d6f1e0b343dc7bf6d02b3393e"
 
 RPROVIDES:${PN} += "liblinebreak \
 liblinebreak.so.2 \

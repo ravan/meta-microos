@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.12.0"
 
-RPM_NAME = "libgupnp-dlna-2_0-4-0.12.0-1.11.aarch64.rpm"
-RPM_HASH = "037190261ba2eda3768afd6261836f44349e0bbacc264a1b26d5bd78d2171c7f153518c9a7d7ae2f8a96981116fae64c14940b18bc6a587c7b553e5d3e6af00a"
+RPM_NAME = "libgupnp-dlna-2_0-4-0.12.0-1.22.aarch64.rpm"
+RPM_HASH = "01b26b576369e80c680c185aa01cb40d25bbc7cf3ea3db1a4f5da058beb35dccc39d698de3314fd0f1d3efe226d5a6d96fc67f74169fd34786804b4d66e739bb"
 
 RPROVIDES:${PN} += "libgupnp-dlna-2-0-4 \
 libgupnp-dlna-2.0.so.4 \
@@ -22,6 +22,6 @@ libgobject-2.0.so.0 \
 libgstpbutils-1.0.so.0 \
 libgstreamer-1.0.so.0 \
 libgupnp-dlna-backend \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

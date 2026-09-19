@@ -6,10 +6,10 @@ document. It is particularly useful in the page footer that \
 says: Page N of M."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0asvn66461"
+PV = "2026.226.2.1hsvn77682"
 
-RPM_NAME = "texlive-lastpage-2023.209.2.0asvn66461-56.1.noarch.rpm"
-RPM_HASH = "094bf997195a3ff4895330b42f6787745931fb36b134c2c26c303b6fe441cf31e0ea01e4498c5361063f97c6300d168f0000555d62a3e115b250f58e8f48523a"
+RPM_NAME = "texlive-lastpage-2026.226.2.1hsvn77682-63.2.noarch.rpm"
+RPM_HASH = "eda512673ac6de5cd4e3b969f50645d703e00fd6db90107939976bca58293484467297982ddde5373039817c331daec7288a61ea4b4faf34e31ae979487ad304"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lastpage.sty \

@@ -7,10 +7,10 @@ specific features that slow down the DPI engine while being them \
 un-necessary for network traffic monitoring."
 LICENSE = "LGPL-3.0-only"
 
-PV = "4.0"
+PV = "4.12"
 
-RPM_NAME = "libndpi4-4.0-1.9.aarch64.rpm"
-RPM_HASH = "aa743c6ac03cc908a7a87c606f07fab71c4f21994c8019f12eb7298d4e063c2fa9d2184d0f895e23ea69c0aa93e1b5f9b58e562c1687233506419bd1298dfe85"
+RPM_NAME = "libndpi4-4.12-1.8.aarch64.rpm"
+RPM_HASH = "d865d5b11ca08e797f7ec48a11c61faacc837cffc0cf46501997d1d0fdfb125e4b5f7bde5063bdcd22089ca30bb6c8a00042eacd174b23169ac3c8ae6eb7ac85"
 
 RPROVIDES:${PN} += "libndpi.so.4 \
 libndpi4"

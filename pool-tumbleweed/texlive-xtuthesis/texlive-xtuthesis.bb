@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a thesis template for the Xiangtan \
 University."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn47049"
+PV = "2026.226.1.0svn47049"
 
-RPM_NAME = "texlive-xtuthesis-2023.209.1.0svn47049-53.2.noarch.rpm"
-RPM_HASH = "9a2193489ed92e22378c58150c7183f6b03fa2fab909ee37e814d02131c0d4fe4d80aded1a7842b30dbb0c1724f1fa71bfa04809a0f879ea9b1f12fabe22cb92"
+RPM_NAME = "texlive-xtuthesis-2026.226.1.0svn47049-59.4.noarch.rpm"
+RPM_HASH = "5228fb3159acf054f6736c7b59ce0d366f92f24600011f0eeadfb3a8d000448bd2fc13e8f0b1dc082bd15ef05d7f096b0cc3c234858eaaa20066b43fd25a9bc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xtuformat.sty \

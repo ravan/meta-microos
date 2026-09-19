@@ -8,15 +8,15 @@ that is located somewhere else), in a human-readable format (no \
 need to know SpiX to understand it)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3.0svn65050"
+PV = "2026.226.1.3.0svn65050"
 
-RPM_NAME = "texlive-spix-2023.209.1.3.0svn65050-58.1.noarch.rpm"
-RPM_HASH = "08d75cad472ce997c99c863611f69a148a9bf7846b7088cba8fdc9a3052d5dffa312b0ad32b2186c0ebe659dd66f187b2b1a2367f2e8630f488c2ad66a65ea12"
+RPM_NAME = "texlive-spix-2026.226.1.3.0svn65050-64.2.noarch.rpm"
+RPM_HASH = "b18e0c59c429bed6863f0253465b9a90d97fc0dd391a040c72a15d234c57ad87c10c75318fe7a8480e15301f03f835c9f6e8be94216c5453213b25b45ad39bf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spix"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ed \

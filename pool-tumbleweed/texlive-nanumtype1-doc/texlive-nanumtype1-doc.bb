@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nanumtype1"
 DESCRIPTION = "This package includes the documentation for texlive-nanumtype1"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.0svn29558"
+PV = "2026.226.3.0svn29558"
 
-RPM_NAME = "texlive-nanumtype1-doc-2023.209.3.0svn29558-55.1.noarch.rpm"
-RPM_HASH = "756e1d4e3d60c67eebff5c3123fd8b8094704dfd0d4d3025ca58208aa42bc4de4375135aa269cfb92e8670262283564665c1769de3cc6d46d0282b74d0aa180a"
+RPM_NAME = "texlive-nanumtype1-doc-2026.226.3.0svn29558-61.2.noarch.rpm"
+RPM_HASH = "16dfa211f0efedb6e4dedb42cb56e62286f79fd852ea1136fa14ef3dfc616f71e4e0c8aa02a1081548af12c555df8fc5e174dbc8e76b14b7fe845fa4bc65c0e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nanumtype1-doc"

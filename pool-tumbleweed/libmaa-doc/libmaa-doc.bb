@@ -2,10 +2,10 @@ SUMMARY = "Documentation files for libmaa"
 DESCRIPTION = "This RPM contains the documentation files for libmaa."
 LICENSE = "MIT"
 
-PV = "1.4.7"
+PV = "1.5.1"
 
-RPM_NAME = "libmaa-doc-1.4.7-1.12.noarch.rpm"
-RPM_HASH = "5eb5cb31eb58b798e915a12968724fd34727c6892697545b86a74035a853f6b9f3a4f754cd621fee946d7f539afb99db7361e620fdc64ea6e9087eaec7ae3eda"
+RPM_NAME = "libmaa-doc-1.5.1-2.1.noarch.rpm"
+RPM_HASH = "d12d0b21f8f156f3956645d11024f349fec163d4f7db417c7c62d50f4306c87b7e62a77b3275602142ba716d21bedc5a40a4f0608d8c23387ef13d998c5c0901"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmaa-doc"

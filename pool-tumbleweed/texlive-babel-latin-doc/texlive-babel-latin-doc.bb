@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-latin"
 DESCRIPTION = "This package includes the documentation for texlive-babel-latin"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.0svn59800"
+PV = "2026.226.4.3svn76176"
 
-RPM_NAME = "texlive-babel-latin-doc-2023.209.4.0svn59800-54.1.noarch.rpm"
-RPM_HASH = "386026d0f186655d07fedbdd56236d4cc2d441430d4c66ed8a583e5f8fa11f80cf43089b243217d4783329efeea2571d2a41f3098809ff8d03ed49e4dfa7c27c"
+RPM_NAME = "texlive-babel-latin-doc-2026.226.4.3svn76176-60.2.noarch.rpm"
+RPM_HASH = "53eb0093f47601b7a0b4f2099ea3c8a5e38f8f483fdf7296752179422739a494de0f94b61fd1aeef93ccd294efe4dc151a89083dfb64f57576600496ed35e46c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-latin-doc"

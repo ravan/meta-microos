@@ -4,27 +4,13 @@ documentation part of the package), and map files giving the \
 relation between foundry name and 'TeX-name' are also provided."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn64477"
+PV = "2026.226.svn75544"
 
-RPM_NAME = "texlive-fontname-2023.209.svn64477-53.1.noarch.rpm"
-RPM_HASH = "bcb0e4675e4800079e62f0f0da058be28d20bcc7aa422f1a497691238d49c44ab91855dfe6599b7ae78833154b25e07c43340692c51755fe21ee088e2efccf24"
+RPM_NAME = "texlive-fontname-2026.226.svn75544-60.2.noarch.rpm"
+RPM_HASH = "b465e73e8ce74a5b860580f63150a0071d2e7af18c3cf3a6509d2895a58fce6448257a43f03edc9d7cdf049189a1ecf95d0f8fd250f59f6bf621cd7d37decdc8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-adobe.map \
-tex-apple.map \
-tex-bitstrea.map \
-tex-dtc.map \
-tex-itc.map \
-tex-linot-cd.map \
-tex-linotype-cd.map \
-tex-linotype.map \
-tex-monotype.map \
-tex-skey1250.map \
-tex-skey1555.map \
-tex-softkey-1250.map \
-tex-softkey-1555.map \
-tex-softkey.map \
-tex-special.map \
+RPROVIDES:${PN} += "tex-special.map \
 tex-supplier.map \
 tex-texfonts.map \
 tex-typeface.map \
@@ -32,7 +18,6 @@ tex-urw.map \
 tex-variant.map \
 tex-weight.map \
 tex-width.map \
-tex-yandy.map \
 texlive-fontname"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

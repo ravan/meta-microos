@@ -13,10 +13,10 @@ distributing a document to places where PerlTeX is not \
 available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn52162"
+PV = "2026.226.2.3svn73044"
 
-RPM_NAME = "texlive-perltex-2023.209.2.2svn52162-52.1.noarch.rpm"
-RPM_HASH = "e16ca345b7c9f39e358c90c0a768bf43206c96138974837566ad21eca5b7b809f5b1ddc42ee5a99e5f12caf5c7f16fc43bf6e1c7f4656ec979306f84dc472a6a"
+RPM_NAME = "texlive-perltex-2026.226.2.3svn73044-58.2.noarch.rpm"
+RPM_HASH = "c93f2c6766368bc97bfe0e1f504618c12ac4450fed2494b6ffd27d10f0dbfd8f013532d5dc719922931c7a0e9386c8d5fe1c59004cfeb8a77cd41cba82cb7faf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-perltex.sty \

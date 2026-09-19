@@ -17,15 +17,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.7"
 
-RPM_NAME = "snmpsim-0.4.7-2.7.noarch.rpm"
-RPM_HASH = "6bdd3286a53801cac0ce19e895a96aa290b1400ceb27bd688504d8efe4d10884774f24f39eb5eb44cd90bbf213f6e2729d93926c11aa44bc95ca29d025c077dc"
+RPM_NAME = "snmpsim-0.4.7-3.3.noarch.rpm"
+RPM_HASH = "340c66a0ae5fbb980882515e078c1dd57b1fc03bcc64abb26d9280201f5897d0e37605ea2371ff2ab70756abc1e096787b1f74dba19c9b30678600d148faebfd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-snmpsim \
+RPROVIDES:${PN} += "python3.13dist-snmpsim \
 python3dist-snmpsim \
 snmpsim"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-dbm \
 python3-pysnmp"

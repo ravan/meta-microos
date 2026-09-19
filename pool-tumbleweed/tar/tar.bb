@@ -7,10 +7,10 @@ is able to direct its output to any available devices, files or other programs, 
 it may as well access remote devices or files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.34"
+PV = "1.35"
 
-RPM_NAME = "tar-1.34-12.1.aarch64.rpm"
-RPM_HASH = "7fd1a3c79b3b2c7ac03db4e73d553f84d77ae31844d0865fd110ec1412e6974a395ebdb4d5473e3cc222fee4d3899f1e1007b96d4c461d6b32f84cd283cd3500"
+RPM_NAME = "tar-1.35-10.1.aarch64.rpm"
+RPM_HASH = "c6cfb124e662d13c13f345cffd6eaea32a507432a368cff87533945c5a89f15fab2b2759cfaed0d2ca9f033f4b37ead9fb1d70c127227ed41c807547fd6cf2e5"
 
 RPROVIDES:${PN} += "/usr/bin/tar \
 base-/bin/tar \

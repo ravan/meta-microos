@@ -7,10 +7,10 @@ Love it or leave it. This is the Emacs binary with X Window System \
 Support."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "29.1"
+PV = "31.1"
 
-RPM_NAME = "emacs-x11-29.1-3.1.aarch64.rpm"
-RPM_HASH = "6c188e6e86cb00e2187494acc7affab706eb644dc038c9a8136caaa65b67552b90b7221df8e922e0bdb7ae39768b4729fbdccb8ff3cffd428126c1234ee333ac"
+RPM_NAME = "emacs-x11-31.1-3.1.aarch64.rpm"
+RPM_HASH = "cd0be110a9124f7a8f813e6023b2ea925ec9182f3f99335c25b086c3e42624637455c3b595b7abdbcafa9859ad5aa1bd9b0b5d208f1c8617bd25bd54b2859c71"
 
 RPROVIDES:${PN} += "emacs-program \
 emacs-x11"
@@ -26,6 +26,7 @@ libICE.so.6 \
 libMagickCore-7.Q16HDRI.so.10 \
 libMagickWand-7.Q16HDRI.so.10 \
 libSM.so.6 \
+libX11-xcb.so.1 \
 libX11.so.6 \
 libXaw3d.so.8 \
 libXcomposite.so.1 \
@@ -54,10 +55,9 @@ libglib-2.0.so.0 \
 libgmp.so.10 \
 libgnutls.so.30 \
 libgobject-2.0.so.0 \
+libgpm.so.2 \
 libgtk-3.so.0 \
 libharfbuzz.so.0 \
-libjansson.so.4 \
-libjavascriptcoregtk-4.0.so.18 \
 libjpeg.so.8 \
 liblcms2.so.2 \
 libm.so.6 \
@@ -67,16 +67,16 @@ libotf.so.1 \
 libpango-1.0.so.0 \
 libpng16.so.16 \
 librsvg-2.so.2 \
-libselinux.so.1 \
 libsqlite3.so.0 \
 libsystemd.so.0 \
 libtiff.so.6 \
 libtinfo.so.6 \
-libtree-sitter.so.0 \
-libwebkit2gtk-4.0.so.37 \
-libwebpdecoder.so.3 \
+libtree-sitter.so.0.26 \
+libwebp.so.7 \
 libwebpdemux.so.2 \
-libxml2.so.2 \
+libxcb-shape.so.0 \
+libxcb.so.1 \
+libxml2.so.16 \
 libz.so.1 \
 xorg-x11-fonts \
 xorg-x11-fonts-core"

@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about Memcached."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-memcache-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "c873b8e6f7ccafafb4b24612edc5624652b72bed8e277585d26c1d97e49cd4c1e318074066d1ba705d6273c5e78f17680691f1c612eb8f4a6bee37d76b7857e1"
+RPM_NAME = "pcp-pmda-memcache-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "4a3447919fee0e38d5d31099926b54e6b6a8c39c1f12624572865b05c1ee82f1a39b0564035f318d911b8171f62d1d3989d014c03c4a0ed34a83bce4a5ab54b4"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-memcache"
 

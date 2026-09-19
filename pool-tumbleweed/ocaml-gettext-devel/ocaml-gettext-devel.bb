@@ -3,12 +3,13 @@ DESCRIPTION = "The ocaml-gettext-devel package contains libraries and signature 
 developing applications that use ocaml-gettext."
 LICENSE = "SUSE-LGPL-2.0-with-linking-exception"
 
-PV = "0.4.2"
+PV = "0.5.0"
 
-RPM_NAME = "ocaml-gettext-devel-0.4.2-4.1.aarch64.rpm"
-RPM_HASH = "8cfb292bb69ca384e55817787d2198abf128747d82b800e5fb8e8d2376ae40ea156f65ff5a101eb09afd56fb07d4e880629358b17139f67825b8334573322f08"
+RPM_NAME = "ocaml-gettext-devel-0.5.0-1.2.aarch64.rpm"
+RPM_HASH = "74a6b395e2aba5cd231da14a2eccc24712acca05a57987e00e45982c384bd4699d0300e43916a9a4a61e105a0990293b560f2c3c909358d7f9d9d97ceb8986d7"
 
-RPROVIDES:${PN} += "ocaml-Gettext \
+RPROVIDES:${PN} += "config-ocaml-gettext-devel \
+ocaml-Gettext \
 ocaml-GettextCategory \
 ocaml-GettextCharset \
 ocaml-GettextCompat \
@@ -103,6 +104,7 @@ ocaml-Stdlib--Obj \
 ocaml-Stdlib--Parsing \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
+ocaml-Stdlib--Scanf \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--String \
@@ -111,6 +113,8 @@ ocaml-Stdlib--Uchar \
 ocaml-Unix \
 ocaml-gettext \
 ocamlfind-fileutils \
+ocamlfind-gettext.base \
+ocamlfind-gettext.extension \
 ocamlx-FilePath \
 ocamlx-FileUtil \
 ocamlx-Stdlib \
@@ -126,6 +130,7 @@ ocamlx-Stdlib--Marshal \
 ocamlx-Stdlib--Parsing \
 ocamlx-Stdlib--Printexc \
 ocamlx-Stdlib--Printf \
+ocamlx-Stdlib--Scanf \
 ocamlx-Stdlib--Set \
 ocamlx-Stdlib--String \
 ocamlx-Stdlib--Sys \

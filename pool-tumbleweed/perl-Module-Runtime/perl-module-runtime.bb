@@ -1,4 +1,4 @@
-SUMMARY = "Runtime Module Handling"
+SUMMARY = "Runtime module handling"
 DESCRIPTION = "The functions exported by this module deal with runtime handling of Perl \
 modules, which are normally handled at compile time. This module avoids \
 using any other modules, so that it can be used in low-level \
@@ -16,17 +16,17 @@ workarounds for three old Perl core bugs regarding 'require'. These \
 workarounds are applied on any Perl version where the bugs exist, except \
 for a case where one of the bugs cannot be adequately worked around in pure \
 Perl."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.016"
+PV = "0.18.0"
 
-RPM_NAME = "perl-Module-Runtime-0.016-1.21.noarch.rpm"
-RPM_HASH = "647e301a171622629734deeb7912e7b1404e708dd89b8fc805548fe0137b045757ab6f46abbf96bc30cf1c97d0617da9f92d90a68636a1f031694c9abd6ddd10"
+RPM_NAME = "perl-Module-Runtime-0.18.0-1.7.noarch.rpm"
+RPM_HASH = "f67b81c691bb80fd954448af56d4eb1d3441152cdcb66d84d6edca46138f6021da24f6256b6e9127894f7147e260316149e63c6e495747e678efb966ca875389"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Runtime \
 perl-Module-Runtime"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

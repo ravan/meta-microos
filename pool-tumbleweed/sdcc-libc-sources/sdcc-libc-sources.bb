@@ -8,10 +8,10 @@ This package contains sources for the C library and other files for \
 development."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "4.2.0"
+PV = "4.5.0"
 
-RPM_NAME = "sdcc-libc-sources-4.2.0-1.4.noarch.rpm"
-RPM_HASH = "8ebd13be45ab750fa8c0120981f011cf426a000142a542380e5a269dc035b88669cf9518ccf77ab5074d0e0cab39ecd8735ef81ebe8f549a983c52c00252c4e4"
+RPM_NAME = "sdcc-libc-sources-4.5.0-2.5.noarch.rpm"
+RPM_HASH = "cc60a56dda2a04b874c190da293336c28a76454b462e784192647573d94c07f6eb50dcc63336f7db5b4fdf2ae590f3c39744ed3bd585fd0db3dbe16b2f113bd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sdcc-libc-sources"

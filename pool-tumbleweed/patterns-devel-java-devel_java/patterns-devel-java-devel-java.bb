@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-devel-java-devel_java-20170319-5.12.aarch64.rpm"
-RPM_HASH = "e6bc574573baf322944c0925d97358d8203ea6d24957d60a750d490eb57b8a9875635df0712cafae5a8675689b962b1a481b336f2881f873957aa1badea2fedf"
+RPM_NAME = "patterns-devel-java-devel_java-20170319-5.20.aarch64.rpm"
+RPM_HASH = "13c367a0173b49cab05e5a49918eecf1116fa4be2d48e83bd234cd3c5c92a474b4d747ce207ab8597dadb7fb0fbca6af701b59aabe70268a54a8ac75c2a4272e"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

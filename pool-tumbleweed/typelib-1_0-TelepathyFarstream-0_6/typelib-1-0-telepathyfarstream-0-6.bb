@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.2"
 
-RPM_NAME = "typelib-1_0-TelepathyFarstream-0_6-0.6.2-2.24.aarch64.rpm"
-RPM_HASH = "911ff4a08403f1e17b347e48ff0e2a7909d24264869f7f975f9da0987ed01afe05cd03e1afd22b83e3a03e3627da88798b2b691ab1ead8fd8387b0471edcba4a"
+RPM_NAME = "typelib-1_0-TelepathyFarstream-0_6-0.6.2-4.8.aarch64.rpm"
+RPM_HASH = "41bfe13fa7a67f803e06109c6a872f44292b9683d961d7357bf0547f52fb6ad135b7f4f08c89371e27562faf38684afe5d03a534bf5121bcbc188e92975697ef"
 
 RPROVIDES:${PN} += "typelib-1-0-TelepathyFarstream-0-6 \
 typelib-TelepathyFarstream"

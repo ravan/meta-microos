@@ -8,10 +8,10 @@ materials, among many others. The package was previously known \
 as biblatex-chicago-notes-df."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3asvn65037"
+PV = "2026.226.2.3bsvn77682"
 
-RPM_NAME = "texlive-biblatex-chicago-2023.209.2.3asvn65037-54.1.noarch.rpm"
-RPM_HASH = "527cb9d94a2a4da44684556c82ac9860544916edffde74841a338f3a3bab990d15bee2774e56bcec1be369b5600d4534130255ec69488e4dff11f041432a31cf"
+RPM_NAME = "texlive-biblatex-chicago-2026.226.2.3bsvn77682-61.2.noarch.rpm"
+RPM_HASH = "b5352537ac11ccca2e3f0592bd796a9607d25c1bd03ac2cc921e521c3d598a971503be0eebd8f09f2c1f4b367da3622159626fea4ccdd2f30f2a193e5ca6dce6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-chicago.sty \

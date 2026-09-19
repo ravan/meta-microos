@@ -3,10 +3,10 @@ DESCRIPTION = "The Timer plugin provides the functionality of an alarm clock and
 alarm at a specified time or at the end of a specified countdown period."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7.2"
+PV = "1.8.0"
 
-RPM_NAME = "xfce4-timer-plugin-1.7.2-1.1.aarch64.rpm"
-RPM_HASH = "81024eb6fa2824594a953eb898be728266157b2aadc651f27042fb09ffc62e38968a7676098794747486d60ca7bc13d7791ba7fdc06fb64ff8690bcea69cb5f0"
+RPM_NAME = "xfce4-timer-plugin-1.8.0-1.4.aarch64.rpm"
+RPM_HASH = "18dce16a470f241d2b5c09f36d5df44aa8b35ac5c3a36d0865ff684384ff902e56fc7e43d40671808b25a2b6b39d9baf8d37aaf1f27e8a9c67626ebdae5e5e95"
 
 RPROVIDES:${PN} += "libxfcetimer.so \
 xfce4-panel-plugin-timer \

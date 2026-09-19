@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0"
 
-RPM_NAME = "libptytty-devel-2.0-2.8.aarch64.rpm"
-RPM_HASH = "53dfcec1fa55c78e0ca93ce6f6e5cbfcfbc402f0f4cd4a7a79c14828f2f20dfa2eb045d5d8b0af50f09c124c0999ee886dfee43c116f237fc95ca4ac73c299d6"
+RPM_NAME = "libptytty-devel-2.0-2.18.aarch64.rpm"
+RPM_HASH = "afec37f08c0452bbcd7c6d779907f3ad6928f6769d9c307219a4196dbeceb93b3050cf0d5fe3296fbed22d6eaeae43cf7b045e00eb9b8889abe9bd89b988ab50"
 
 RPROVIDES:${PN} += "libptytty-devel \
 pkgconfig-libptytty"

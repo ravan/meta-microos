@@ -13,10 +13,10 @@ Lollipop documents written in RTL languages (such as Persian) \
 is underway."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.07svn45678"
+PV = "2026.226.1.07svn69742"
 
-RPM_NAME = "texlive-lollipop-2023.209.1.07svn45678-55.1.noarch.rpm"
-RPM_HASH = "662991701d2684f054dca875908dca50ce3c21dd1b7595f4f0fed0615ac7478f53d23ceb3e8c9faefe8d5ee97688b8fda15e31b99948101a91026bc862966522"
+RPM_NAME = "texlive-lollipop-2026.226.1.07svn69742-61.2.noarch.rpm"
+RPM_HASH = "6ff9214240498b6082dabeb6682a43aabe51a004ba4ce541b6890455d74fcd2afddd63f50d8e2437ff0c5d3bd0d0888bf0877bd200b51bb9fc3957d9bef90e5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lollipop-define.tex \
@@ -50,6 +50,7 @@ texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-lollipop-bin \
 texlive-scripts \
-texlive-scripts-bin"
+texlive-scripts-bin \
+texlive-tex"
 
 inherit rpm

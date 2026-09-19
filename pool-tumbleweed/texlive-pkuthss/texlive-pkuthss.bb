@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a simple, clear and flexible LaTeX \
 template for dissertations in Peking University."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9.3svn64869"
+PV = "2026.226.1.9.4svn70491"
 
-RPM_NAME = "texlive-pkuthss-2023.209.1.9.3svn64869-52.1.noarch.rpm"
-RPM_HASH = "bb4fffed204e92f7f149d4bbdf01279015fb61c8fe6f57bc2a464a0df8cbc07b087849c45f43bdb8fdc3a193035e8af8e1753c039afa30d31434f9c564936fab"
+RPM_NAME = "texlive-pkuthss-2026.226.1.9.4svn70491-58.2.noarch.rpm"
+RPM_HASH = "17affd0058ca87e93f84238a9ec23dffcc607ee6e0069dc416b1018af8aa798269f2459a71f302a9eb47cf63f7049af96da36afb745152113d7ed62dbc8ba29a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pkuthss-gbk.def \
@@ -22,6 +22,7 @@ findutils \
 grep \
 sed \
 tex-amsmath.sty \
+tex-amssymb.sty \
 tex-caption.sty \
 tex-ctexbook.cls \
 tex-enumitem.sty \
@@ -33,7 +34,6 @@ tex-hyperref.sty \
 tex-ifpdf.sty \
 tex-ifxetex.sty \
 tex-keyval.sty \
-tex-latexsym.sty \
 tex-mathptmx.sty \
 tex-scrextend.sty \
 tex-setspace.sty \

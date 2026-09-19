@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libnsfdb."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210419"
+PV = "20260526"
 
-RPM_NAME = "libnsfdb-devel-20210419-3.8.aarch64.rpm"
-RPM_HASH = "a2f6eecf1f97bed4a14e6ccfa86d05334f2593d2df02d91e0fe59815e16b4beccc053439a3cff3ce109a589527ea68e7d7b2b93e3716c68f88017ce70f5b2531"
+RPM_NAME = "libnsfdb-devel-20260526-1.12.aarch64.rpm"
+RPM_HASH = "9ac7b907d8391cd348caf64a17d65c3eab80d8d548c9b78503f302e9174de4fa219d27e194fd61ce4312a5f7b1f2cec050e45eaf239da348de004f078daef21e"
 
 RPROVIDES:${PN} += "libnsfdb-devel \
 pkgconfig-libnsfdb"

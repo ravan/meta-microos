@@ -7,10 +7,10 @@ package using STIX2 letters (Roman and Greek) with newtxmath \
 symbols."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.035svn60793"
+PV = "2026.226.1.036svn77682"
 
-RPM_NAME = "texlive-stickstoo-2023.209.1.035svn60793-58.1.noarch.rpm"
-RPM_HASH = "298667e4ee4beab46910d7d2b204456c67fbff9b2eed7a549f2351788e25f14e85df72d7ce387b167e69af94ac87c7faf8dfd0218f4d5e88bbfbdaca552e5d22"
+RPM_NAME = "texlive-stickstoo-2026.226.1.036svn77682-64.2.noarch.rpm"
+RPM_HASH = "abf72a864f55d0f2d773c24096fe804fcab67fc702e5c1c019e11188b61802dd35d2bd78a05268408ee9e0c707a4fcdf3c8a5066dd709b04b249f8a838d28b6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1SticksTooText-Dnom.fd \
@@ -498,6 +498,7 @@ tex-TS1SticksTooText-LF.fd \
 tex-TS1SticksTooText-OsF.fd \
 tex-TS1SticksTooText-TLF.fd \
 tex-TS1SticksTooText-TOsF.fd \
+tex-ly1minstickstootext.fd \
 tex-ntxstx2bmi.tfm \
 tex-ntxstx2bmi.vf \
 tex-ntxstx2bmia.tfm \
@@ -506,6 +507,7 @@ tex-ntxstx2mi.tfm \
 tex-ntxstx2mi.vf \
 tex-ntxstx2mia.tfm \
 tex-ntxstx2mia.vf \
+tex-ot1minstickstootext.fd \
 tex-stickstooMath-Bold.tfm \
 tex-stickstooMath-BoldItalic.tfm \
 tex-stickstooMath-Italic.tfm \
@@ -562,6 +564,7 @@ tex-stx2-y4oioo.enc \
 tex-stx2-ym7moh.enc \
 tex-stx2-zscetg.enc \
 tex-stx2i-ot1.enc \
+tex-t1minstickstootext.fd \
 texlive-stickstoo"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

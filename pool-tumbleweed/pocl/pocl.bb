@@ -13,10 +13,10 @@ parallel hardware resources, such as VLIW, superscalar, SIMD, SIMT, multicore \
 and multithread."
 LICENSE = "MIT"
 
-PV = "3.1"
+PV = "7.1"
 
-RPM_NAME = "pocl-3.1-3.2.aarch64.rpm"
-RPM_HASH = "0172a24283b53a86190907316c9e867e287112ae58d7e75ee8afefe3529af9f37759f98cf8cc36b527af8f99df1a18e55b91caf71eefa229d38d840cdeb0f39b"
+RPM_NAME = "pocl-7.1-2.2.aarch64.rpm"
+RPM_HASH = "5ead46a82b4ce057e710ce0ea2f1df0ebb947223271edd038034d28233f1c7f199203cc020d3b95e3a7baac23bfb46e4bd8439a2f9ba42a2b26e2d6ac4e393e8"
 
 RPROVIDES:${PN} += "libpocl-devices-basic.so \
 libpocl-devices-pthread.so \

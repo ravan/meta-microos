@@ -3,10 +3,10 @@ DESCRIPTION = "Libnet is an API to help with the construction and handling of ne
 packets. This package contains documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2"
+PV = "1.3"
 
-RPM_NAME = "libnet-doc-1.2-3.9.aarch64.rpm"
-RPM_HASH = "71814a8f70840b7f87e953004c30fb06c99d60a54d23912ad7c8be93eaddd768ffd6baae09ce13d715d34e4d92854eef5a5e149662618552f26d26631dbb537d"
+RPM_NAME = "libnet-doc-1.3-1.11.aarch64.rpm"
+RPM_HASH = "9c64f204ececed3091f8d94591de95daa44b7caea32ceee18b2e7a0ff2b079a798ccab72f35f4c48a5efb40bd4ca047e98f8f47191558fef705722996ca6cda0"
 
 RPROVIDES:${PN} += "libnet-doc"
 

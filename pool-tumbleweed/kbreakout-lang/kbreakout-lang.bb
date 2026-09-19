@@ -2,16 +2,16 @@ SUMMARY = "Translations for package kbreakout"
 DESCRIPTION = "Provides translations for the 'kbreakout' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kbreakout-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "adf7289221c68bc4b1baa5e9ab1e221b6ece76f59a70e22a573aa15c3996cb9e7c98818f02003a81060271eef8cc77de21c046ec5478fa154678f27588a0555c"
+RPM_NAME = "kbreakout-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "f497986a61d7f5c10e0e1f51e394f15edf2d296322ad5a56f351d34cdc8968f26a009edb3902615328233c1c36f02e49a81643725f6661d90f4f286ab7b59ffb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kbreakout-lang \
 kbreakout-lang-all \
 locale-kbreakout-ar \
-locale-kbreakout-bg \
+locale-kbreakout-ast \
 locale-kbreakout-bs \
 locale-kbreakout-ca \
 locale-kbreakout-ca@valencia \
@@ -29,8 +29,11 @@ locale-kbreakout-fr \
 locale-kbreakout-ga \
 locale-kbreakout-gl \
 locale-kbreakout-gu \
+locale-kbreakout-he \
+locale-kbreakout-hi \
 locale-kbreakout-hr \
 locale-kbreakout-hu \
+locale-kbreakout-ia \
 locale-kbreakout-id \
 locale-kbreakout-is \
 locale-kbreakout-it \

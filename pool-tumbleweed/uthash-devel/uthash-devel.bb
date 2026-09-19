@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.0"
 
-RPM_NAME = "uthash-devel-2.3.0-1.7.noarch.rpm"
-RPM_HASH = "4388a58442ae79e1cd08d14ca0df0299c82bca1fbda33529144985aa3560f55bbe17023eff994c6a34a3f7fca05f30d02231a0607981729ee157d6ba52ae94c2"
+RPM_NAME = "uthash-devel-2.3.0-1.15.noarch.rpm"
+RPM_HASH = "a995cfbad9e5838a28e00ec0fec1d23bcf9c024c9ecf1df610107b941da1ce76c3e15720ca1d4e2ca0fd67fdb74cb5c969bcb3a5f4072771a374adc2aff42d39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "uthash-devel"

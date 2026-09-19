@@ -11,10 +11,10 @@ It is comprised of two parts: \
     * the second aids with XML parsing by wrapping libxml2."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.9.1"
+PV = "0.10.2"
 
-RPM_NAME = "librest-1_0-0-0.9.1-3.2.aarch64.rpm"
-RPM_HASH = "c3dbe78d8241a03fa2b1451e2f1de2d2c150a38eaf2ad6621132a795371f6fa14e0146c0912f051d44cff3906a91ef052888467ca18176b2b6be73e1a47af2ca"
+RPM_NAME = "librest-1_0-0-0.10.2-2.1.aarch64.rpm"
+RPM_HASH = "cc5c15c6e7cb138eb6eeab0d99657f64df11a6e0ae0c227e44ca0aa628387a64089d479cc1f78eb8ebb6cb02b8d8b0e31812a3c5d6f1caaebcb4679387ad87fa"
 
 RPROVIDES:${PN} += "librest-1-0-0 \
 librest-1.0.so.0 \
@@ -29,6 +29,6 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libjson-glib-1.0.so.0 \
 libsoup-3.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -7,10 +7,10 @@ instance). The DoX package is designed to circumvent this \
 limitation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.4svn46011"
+PV = "2026.226.2.4svn46011"
 
-RPM_NAME = "texlive-dox-2023.209.2.4svn46011-53.1.noarch.rpm"
-RPM_HASH = "e16e316bec9c3fabbbb4440636a5b5db49587ccf3efac7addc114a14e5f43f123632633e619b3c39b2cec69cd954ec3af925b4566d478cec9ba57b50a6b81ca2"
+RPM_NAME = "texlive-dox-2026.226.2.4svn46011-59.2.noarch.rpm"
+RPM_HASH = "1f0711a6f48efd11fa7177910ad608bb96ea7a00c5cef3429f516ff3c47a905bed7d8b7d62a5c3f02d49afb4b77770d8512cd058d0d44ffb1281ae9f9c153fda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dox.sty \

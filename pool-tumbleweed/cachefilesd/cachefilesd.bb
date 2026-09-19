@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.10.10"
 
-RPM_NAME = "cachefilesd-0.10.10-1.12.aarch64.rpm"
-RPM_HASH = "2656fe718410b3f8ee30b934d9996c47d6e24b1321997824a915909156d2c372ea074e3efb0718e46020dc73d85bcd202f2a1c4d132f7e78e0a0789c76d1b634"
+RPM_NAME = "cachefilesd-0.10.10-4.5.aarch64.rpm"
+RPM_HASH = "30119d31d035ec00652c5ea5f9138f0e71fa72fb6aef99c10a1fc3a94fde40888addc22f0c7c383c7246b149d30210409453bb0b2d40db24d13a254dd1e2dfb7"
 
 RPROVIDES:${PN} += "cachefilesd \
 config-cachefilesd"
@@ -14,7 +14,6 @@ config-cachefilesd"
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libkmod.so.2 \
 systemd"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of fontware"
 DESCRIPTION = "Binary files of fontware"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-fontware-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "ffc0705abff7bc3430fbd376db3d9cf4ebb0b9e9f3acfd3a41337428daae7a9295a6e336e123fd17d942a4449c79781ac0b09c2e79000932d8ce652916a240d5"
+RPM_NAME = "texlive-fontware-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "adcc263a58078906882dd5aba062e473eab64799434d3d61eee66dfd1b7f86096236f769276d0237fc2bbe0cae2a4b377418946be199fae25c023eed59d27264"
 
 RPROVIDES:${PN} += "texlive-fontware-bin"
 

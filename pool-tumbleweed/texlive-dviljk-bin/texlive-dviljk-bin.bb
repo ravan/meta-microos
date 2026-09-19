@@ -2,10 +2,10 @@ SUMMARY = "Binary files of dviljk"
 DESCRIPTION = "Binary files of dviljk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-dviljk-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "fa44ffb876cd2c27e0704d4c8105d8352bd7d8edba7894a5636633e7845da079e5da74acb3ea54c444aee5538e1929018d45c02f4a153bc89da75ed0ed875f9c"
+RPM_NAME = "texlive-dviljk-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "4f4edbf56e510481dead47298b8f8424d2c14b5654e5644f88e317e4539182bc35d24cd0d6695141d6c690e537bfcea5b5f8e80247a441270c9015186bdd0c1b"
 
 RPROVIDES:${PN} += "texlive-bin-dvilj \
 texlive-dviljk-bin"

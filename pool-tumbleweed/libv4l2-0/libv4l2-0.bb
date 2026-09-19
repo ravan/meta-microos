@@ -5,10 +5,10 @@ application transparent libv4lconvert conversion where necessary. \
 This package contains shared lib for packages that use libv4l2."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.24.1"
+PV = "1.32.0"
 
-RPM_NAME = "libv4l2-0-1.24.1-1.4.aarch64.rpm"
-RPM_HASH = "bb9e2a9fca52644adacb858eda9a7d975a20f5adac8226d9f6660ce27d3b3eaa19a97a333933b1e94b3e806783167b612f5d1e4af62b396b407c6014f4b651fd"
+RPM_NAME = "libv4l2-0-1.32.0-2.4.aarch64.rpm"
+RPM_HASH = "88f79f21c260812a22c19f82a25f4f3556bad41abc36810e35a100b9d0c33f3452f0276d91b0063875a417618d61d6190a0d04bb88f38e41a9b54e41be0ec87b"
 
 RPROVIDES:${PN} += "libv4l2-0 \
 libv4l2.so.0"

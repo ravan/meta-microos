@@ -6,10 +6,10 @@ does some (scoped) setup for varioref, then calls the original \
 one."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.7svn65453"
+PV = "2026.226.0.0.1.12svn77682"
 
-RPM_NAME = "texlive-zref-vario-2023.209.0.0.1.7svn65453-53.2.noarch.rpm"
-RPM_HASH = "3493d8e502880bcb02ac8fc65c2a65512d334a65baf24b2644ed64821672d4bbb964731bd7b50931feceea0324393cb15f21d05cd132df3e4d12232e4c3994ae"
+RPM_NAME = "texlive-zref-vario-2026.226.0.0.1.12svn77682-59.4.noarch.rpm"
+RPM_HASH = "b77e73f7b9bbfb51ed458df9b206b97e11ef6e975da253c5ffa770a2c64ca841ec12008454cec74c4ca6e39f2c9f1ff653d0e4cf5170e72466cdd6ea95d5cc7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zref-vario.sty \

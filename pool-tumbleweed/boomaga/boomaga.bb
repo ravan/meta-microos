@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "3.0.0"
 
-RPM_NAME = "boomaga-3.0.0-3.12.aarch64.rpm"
-RPM_HASH = "9771b4566162a3fc7d4169a0bbe490012619c0ef6408a4a10ddccca05f374c5fb343787e2d50c378120a3334d3adc8b72eaa8e126a425f60e4bf9fd4c979acef"
+RPM_NAME = "boomaga-3.0.0-4.8.aarch64.rpm"
+RPM_HASH = "668e0cec5f7cb2c208dc8625e83e2d91c75b900d4d7258dbdb10c41e0072237550e5ee88feeb7d9e849f1e403fb2cf66c7c8f5741b89eb864372d88099ca9baa"
 
 RPROVIDES:${PN} += "boomaga \
 postscriptdriver-generic;boomaga-printer;"
@@ -30,7 +30,7 @@ libc.so.6 \
 libcups.so.2 \
 libgcc-s.so.1 \
 libm.so.6 \
-libpoppler-cpp.so.0 \
+libpoppler-cpp.so.3 \
 libstdc++.so.6 \
 libz.so.1"
 

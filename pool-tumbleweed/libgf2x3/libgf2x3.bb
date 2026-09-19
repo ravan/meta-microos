@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "libgf2x3-1.3.0-2.11.aarch64.rpm"
-RPM_HASH = "f9d77a50f14a16d1437ae743bae725c261cea9f6f015ee05cd3adf5987f21c52e55d9d88ada7139be6541a2648e5fe5c4336fa59cabc90d5e973f0a4603500d2"
+RPM_NAME = "libgf2x3-1.3.0-3.9.aarch64.rpm"
+RPM_HASH = "95d1a75cb062bbe7f4163775f047d33b1485a0d1d422315740d706dd1af5d3d69780c51daa06c1d353e5447eb5ff96a01085f762d72f092fd778c02be7339600"
 
 RPROVIDES:${PN} += "libgf2x-fft.so.3 \
 libgf2x.so.3 \

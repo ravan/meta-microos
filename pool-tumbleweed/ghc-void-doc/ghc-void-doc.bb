@@ -2,10 +2,10 @@ SUMMARY = "Haskell void library documentation"
 DESCRIPTION = "This package provides the Haskell void library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.3"
+PV = "0.7.4"
 
-RPM_NAME = "ghc-void-doc-0.7.3-6.3.noarch.rpm"
-RPM_HASH = "5bef1c3559f20b469408ec52e0b2d18a101537e7586e4e73ae52aa1e1a55ad55dc7ddbe5b2062828762fbf374d478d28e1d70c9023599b6fe1ab33d2dad21645"
+RPM_NAME = "ghc-void-doc-0.7.4-1.7.noarch.rpm"
+RPM_HASH = "815c26bf3225974f420977f7997699e5e0829b33fde3ca8340737d82c3854ac5f9310c8b284d0cb5ea09ccda3ec87afe92bd0530b9453f147013b01929026492"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-void-doc"

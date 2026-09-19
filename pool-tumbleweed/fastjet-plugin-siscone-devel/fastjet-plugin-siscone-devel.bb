@@ -14,14 +14,22 @@ This package provides the develoment files for SISCone plugin for \
 fastjet."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.4.0"
+PV = "3.5.1"
 
-RPM_NAME = "fastjet-plugin-siscone-devel-3.4.0-2.9.aarch64.rpm"
-RPM_HASH = "953d6aeae22544008f32fbd623506825f2b7b0b1b7098e75ee77b3b3789825eecf6fdae8872f25eff3422a794b1e1e6203925504ea41c754ce140ca4496b380b"
+RPM_NAME = "fastjet-plugin-siscone-devel-3.5.1-2.1.aarch64.rpm"
+RPM_HASH = "56d078f06a85a7a598a7944949af45c3ea1ad1b41b162ef1ead9f374af492bb9fca81f4329d63a678d8005bb28c59bfad54443ee020ec6b5edeeb1e0fca972f6"
 
-RPROVIDES:${PN} += "fastjet-plugin-siscone-devel"
+RPROVIDES:${PN} += "cmake-siscone \
+fastjet-plugin-siscone-devel \
+libsiscone-spherical.so"
 
 RDEPENDS:${PN} += "fastjet-devel \
-fastjet-plugin-siscone"
+fastjet-plugin-siscone \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libsiscone.so.0 \
+libstdc++.so.6"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "This tool checks that built container images conform to the openS
 image policies (https://en.opensuse.org/Building_derived_containers)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1682595397.5ce6d2f"
+PV = "1779450556.9feaecd"
 
-RPM_NAME = "container-build-checks-1682595397.5ce6d2f-1.1.noarch.rpm"
-RPM_HASH = "1e467cadf047f87a61f36d3f4c93044f68a780bbcc692f6f04e9a6a73b43080046ff43c6ad13a41221b425cbf419b0048eb625f1c83ba78205c44c9ca8ea1d9c"
+RPM_NAME = "container-build-checks-1779450556.9feaecd-1.2.noarch.rpm"
+RPM_HASH = "980b3b0c6d6f8b479d3afcc1875ba5ae596606ab62d26c322d77a1186339303cb9b94ca9017bb7a115000bdd795424746aab1e67861eeef87cf349f5624b9033"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-build-checks"

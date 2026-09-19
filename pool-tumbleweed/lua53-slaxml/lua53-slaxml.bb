@@ -10,10 +10,10 @@ it allows certain XML that is syntactically-invalid (not \
 well-formed) to be parsed without reporting an error."
 LICENSE = "MIT"
 
-PV = "0.7+git20191225.108970c"
+PV = "0.7+git20230101.756ffad"
 
-RPM_NAME = "lua53-slaxml-0.7+git20191225.108970c-3.1.noarch.rpm"
-RPM_HASH = "30256299089b2b235ce44bd6afdaf8f28b29f67f41130da81fff9a5d7a9d44ad5e1f8c9d337c444099b9252f91456a5e23f6914df83c04f715f7e940b3862425"
+RPM_NAME = "lua53-slaxml-0.7+git20230101.756ffad-2.2.noarch.rpm"
+RPM_HASH = "5d38ba95f674168e60bed2704416602a9b4f7c114bbd425b0f19d45aa9b0e576fb52d5998b48842a5c5f2bf5d64ed5e4eff98f87cf2cff32c6c2fb923512bd41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-slaxml"

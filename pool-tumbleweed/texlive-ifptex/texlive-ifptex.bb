@@ -4,10 +4,10 @@ for the ptex engine. The ifuptex package is an alias to ifptex \
 provided for backward compatibility."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn62982"
+PV = "2026.226.2.2csvn77682"
 
-RPM_NAME = "texlive-ifptex-2023.209.2.2svn62982-54.1.noarch.rpm"
-RPM_HASH = "c2c6ca3df9249dd4778df19b64c27f0ab5c9bceea6b46bec49bef9f9de5aff58382821e70c7e3037c415718dbc7cc473490e739166424b93160507d842f9d84e"
+RPM_NAME = "texlive-ifptex-2026.226.2.2csvn77682-60.2.noarch.rpm"
+RPM_HASH = "1a4d6d4d260fc3ea2830f340bad1bfa4c35cf7668d7b5fea03d716f709ccd84f7d4f185fcad46ca8ea826be5365df9d0a700e9d617d78d64b5da86c7cf12e73a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifptex.sty \

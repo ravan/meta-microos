@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
 PV = "0.5.6"
 
-RPM_NAME = "bamf-daemon-0.5.6-1.5.aarch64.rpm"
-RPM_HASH = "3ac4f5b3c1578979b21ec6d90294b07b509db92241fb96ee742e6474aba7b176725011ddfbae4432df64b73a17417473db5bdf8d2cab7df043944495dac68151"
+RPM_NAME = "bamf-daemon-0.5.6-1.17.aarch64.rpm"
+RPM_HASH = "132ebce120d1372e712f87a1e312006b30028ec00b3900a037e671a2b639dba5d779114895673eb3e166c71cfb29805e1e5bf4ed67855753bb0db2b2b8b071af"
 
 RPROVIDES:${PN} += "bamf-daemon"
 

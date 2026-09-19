@@ -4,10 +4,10 @@ DESCRIPTION = "This library provides C APIs to access the kernel trace file syst
 This subpackage contains the header files."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.7.0"
+PV = "1.8.3"
 
-RPM_NAME = "libtracefs-devel-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "40cf81d9675ac21fc9fd33184c3c4b262066a8d8efb61909782200f23d798013247de9b785c5e598edc024278df5e48ba55962c612061bfedd75f26ea1a13dd1"
+RPM_NAME = "libtracefs-devel-1.8.3-1.3.aarch64.rpm"
+RPM_HASH = "a75c61736aa361e31750caab8ad63283e93cff3c6f628f10843915d5e5ca3d961baa5fa43e27acb443168a20ffe6a9821398de2818de5c8f978e95f1e474e667"
 
 RPROVIDES:${PN} += "libtracefs-devel \
 pkgconfig-libtracefs"

@@ -15,10 +15,10 @@ Other sample rates may work, or not... \
 This package holds the vst3 plugin."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.03+git1.226f03b"
+PV = "1.21"
 
-RPM_NAME = "vst3-rnnoise-1.03+git1.226f03b-1.5.aarch64.rpm"
-RPM_HASH = "5cd1f73382eb214adbe573029b41b63e1c905f87af6b2e12e85a3c379287db3740feaed0853f8fb5224f71955d0ffa05dc229094ba2865d12bcd50b2acad8c4c"
+RPM_NAME = "vst3-rnnoise-1.21-1.3.aarch64.rpm"
+RPM_HASH = "2a7bcdd0ba7f6075d83c0858f933622510c451132d12385d6990e57e6cadfc212c1a02ed7083f7fca6f45a61994c794b019dd13bac277f9fdb7cb4fd79b69bfd"
 
 RPROVIDES:${PN} += "vst3-rnnoise"
 

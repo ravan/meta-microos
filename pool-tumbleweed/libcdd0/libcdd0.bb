@@ -5,10 +5,10 @@ extreme rays of a general convex polyhedron in R^d given by a system \
 of linear inequalities."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.94m"
+PV = "0.94n"
 
-RPM_NAME = "libcdd0-0.94m-1.11.aarch64.rpm"
-RPM_HASH = "c7b604350643a6368ebe2cbcd1818651860a6c2eaaa3efd4e22f222444cfc23505c96e70dd1b59495c94029e231b521eae5f1f85224ad1561ff2f433255e8843"
+RPM_NAME = "libcdd0-0.94n-1.5.aarch64.rpm"
+RPM_HASH = "424abec7650dd404f495a2e972ad43c12edc928a294ab34c55180b6a08a2518b57aae34c00d832f44b7362b6d4f3603369da20071e2b6fb0a075a4988ba06e83"
 
 RPROVIDES:${PN} += "libcdd.so.0 \
 libcdd0 \

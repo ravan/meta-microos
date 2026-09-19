@@ -2,10 +2,10 @@ SUMMARY = "Library to support the Windows Resource Compiler format"
 DESCRIPTION = "libwrc is a library to support the Windows Resource Compiler format."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230318"
+PV = "20260705"
 
-RPM_NAME = "libwrc1-20230318-2.1.aarch64.rpm"
-RPM_HASH = "d73a8f8be155001b300c90400c5bc23be7bf89cf5646070b923cd6c7f84278fb72f75c8c7095696a94fad7a2475f807944af0f42b0a4abaeab1d4314ad69a723"
+RPM_NAME = "libwrc1-20260705-1.2.aarch64.rpm"
+RPM_HASH = "f794a577539b98cff27e01b5331ec20d2d23653cc807def50da9779a01372fdd01279062a267a48cce7977b247fc0a90c470599dc476191aa8c138f2ee14e12b"
 
 RPROVIDES:${PN} += "libwrc.so.1 \
 libwrc1"

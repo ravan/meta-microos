@@ -4,15 +4,15 @@ you what to do with them: \
 Keep current version, place back old version, watch the diff or merge."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.1.9"
+PV = "1.1.12"
 
-RPM_NAME = "rpmconf-1.1.9-1.2.noarch.rpm"
-RPM_HASH = "6298e0b7213e146562bec5b9238d895dd3820fb875f35798a60a48d1d91a189946c728662b47bdc9ceda5fd213a380ffcc902ba70be285d5b94cdd2378c7551d"
+RPM_NAME = "rpmconf-1.1.12-1.2.noarch.rpm"
+RPM_HASH = "a353205168418d67cde3a72248ffbb8016f87548844cccfae098338e2bd29501943519a4807f5343c9d74645cd61fdd92ba995ac13fa0d62315d610a050d891d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpmconf"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python3-rpm \
 python3-rpmconf"
 

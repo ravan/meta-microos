@@ -2,10 +2,10 @@ SUMMARY = "GStreamer Transcoding API"
 DESCRIPTION = "GStreamer Transcoding cli tool and API"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-transcoder-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "cbfa2f1e290484b164be959f386401533d8feacf622696d8c67a9e6ec872717d7b7f6aeadd3b5d71337f6b1cd0363bbb5254d62d7e2052e4858b7cda04b8e7e0"
+RPM_NAME = "gstreamer-transcoder-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "8d6f87b05070b1237058a9ce3ccc858895b4051f2f0b5d5db151752fc81b5a9f6ed8f36d8c22ac506e4073490ed38a26c51074f68be5d7c57f2267e778f0fc79"
 
 RPROVIDES:${PN} += "gstreamer-transcoder \
 gstreamer1 \

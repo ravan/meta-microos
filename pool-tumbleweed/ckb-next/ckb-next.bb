@@ -5,10 +5,10 @@ system. This project supports much of the same functionality, \
 including full RGB animations."
 LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
-PV = "0.6.0"
+PV = "0.6.2"
 
-RPM_NAME = "ckb-next-0.6.0-1.1.aarch64.rpm"
-RPM_HASH = "8aa2a9e856c9c13e3b32b28c6cf842b78e74b93e0e9ed60b4320f44944f465d268a31d2c5e62ad4a98345cfa899e2675553c36508f0f80be2c7d585712a26b11"
+RPM_NAME = "ckb-next-0.6.2-1.7.aarch64.rpm"
+RPM_HASH = "6c45ee3308c8d45c54d443310c8fc42163d4a6d537b1f9dc93ea8791beaaa7a6d6a858f1b383701ce73e0414bb1a93b8b81a6cf3c068ffe43a37ad638ffb92d6"
 
 RPROVIDES:${PN} += "ckb \
 ckb-next"
@@ -17,18 +17,17 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 bash \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libdbusmenu-qt5.so.2 \
 libgcc-s.so.1 \
 libm.so.6 \
 libpulse.so.0 \
-libquazip1-qt5.so.1.4.0 \
+libquazip1-qt6.so.1.7 \
 libstdc++.so.6 \
 libudev.so.1 \
 libxcb-ewmh.so.2 \

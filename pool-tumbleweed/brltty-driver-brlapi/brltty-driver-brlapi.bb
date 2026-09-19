@@ -7,10 +7,10 @@ complete screen review functionality. \
 This package contains the BrlAPI braille driver."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.6"
+PV = "6.9.1"
 
-RPM_NAME = "brltty-driver-brlapi-6.6-1.1.aarch64.rpm"
-RPM_HASH = "11e39d9272ec86ba6b58aeb73c0f69703648074ad2821e37a1b3f1f16c897d816d0b57578e4ce72f00611631e2d5593ed4a807aed3ed1e22acb16b1de8a2fe5a"
+RPM_NAME = "brltty-driver-brlapi-6.9.1-2.1.aarch64.rpm"
+RPM_HASH = "da7a5f4249442ad3c3b2a44c865330fdf34a1a53824ef0943e0c67e051b4dafb269c9391cbef4da75c16b99495663104c4af182aa41a1e221060f15d9279421d"
 
 RPROVIDES:${PN} += "brltty-driver-brlapi \
 libbrlttybba.so"

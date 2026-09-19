@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kmymoney"
 DESCRIPTION = "Provides translations for the 'kmymoney' package."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.1.3"
+PV = "5.2.2"
 
-RPM_NAME = "kmymoney-lang-5.1.3-2.12.noarch.rpm"
-RPM_HASH = "38462095293e45429bbec235eb5e721cb73ab80d27f9195ed9ee0c01d23efdb108ebf61e8b6efa2cbeaa8ff62aa36ebf6002db10e526caae9af9320e3b834567"
+RPM_NAME = "kmymoney-lang-5.2.2-1.7.noarch.rpm"
+RPM_HASH = "416a179a1fe3cb51accc556213ecb6ebd978cd8d1e64032c0b09fdfbde320a7ff992c5984975b95dc4c70077c9dd269e3ba190d54c4b92856248baf479bd59cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmymoney-lang \
@@ -32,11 +32,14 @@ locale-kmymoney-gl \
 locale-kmymoney-hu \
 locale-kmymoney-ia \
 locale-kmymoney-it \
+locale-kmymoney-ja \
+locale-kmymoney-ka \
 locale-kmymoney-kk \
 locale-kmymoney-ko \
 locale-kmymoney-lt \
 locale-kmymoney-mr \
 locale-kmymoney-ms \
+locale-kmymoney-nb \
 locale-kmymoney-nds \
 locale-kmymoney-nl \
 locale-kmymoney-pl \

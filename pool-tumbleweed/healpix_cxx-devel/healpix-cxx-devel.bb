@@ -8,16 +8,16 @@ This package provides the headers and devel files for building apps with \
 healpix in the C++ language."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.81"
+PV = "3.83"
 
-RPM_NAME = "healpix_cxx-devel-3.81-1.8.aarch64.rpm"
-RPM_HASH = "4444d4e07ebbd7f4dfa5a577d1d67258274f0d2e292d68e33f9524f0a907d062e0b1909f98d0bd8e562d7e4a42bb152c1d32398b9f0733b3bf1818fd5dd02589"
+RPM_NAME = "healpix_cxx-devel-3.83-1.9.aarch64.rpm"
+RPM_HASH = "7f25df1bf7ec0cde8979615d691971ad38a11ad6d16af39d3d111818efb43ae1af882cb8681504edb027ae13203a3b084b17c8fc0c424e37a60171f94ec88037"
 
 RPROVIDES:${PN} += "healpix-cxx-devel \
 pkgconfig-healpix-cxx"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libhealpix-cxx3 \
+libhealpix-cxx4 \
 pkgconfig-cfitsio \
 pkgconfig-libsharp \
 pkgconfig-zlib"

@@ -4,10 +4,10 @@ from the contents of the compilation classpath along with its \
 resources and dependencies. Plus a zillion other features."
 LICENSE = "Apache-2.0"
 
-PV = "5.1.9"
+PV = "6.2.0"
 
-RPM_NAME = "maven-bundle-plugin-5.1.9-1.1.noarch.rpm"
-RPM_HASH = "c3211d18f4dd2890ba3f01e7f04095deb69cbf73b76d39ec5c591f3c43059b3b3579368d997060c86c8d55345fc4ffc756e91d85a08b30babfe5826b93394bb0"
+RPM_NAME = "maven-bundle-plugin-6.2.0-1.1.noarch.rpm"
+RPM_HASH = "51e4ee6fdbfe80b73ddeca4fbc88bf94a9b5f0f3e3bbf22785f93e1728cda25bcaae87a9df33a542f52c662b8bf4339d248be5b4ffe70c057011a277bc714663"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-bundle-plugin \
@@ -26,7 +26,7 @@ mvn-org.apache.maven.doxia-doxia-site-renderer \
 mvn-org.apache.maven.reporting-maven-reporting-api \
 mvn-org.apache.maven.shared-maven-dependency-tree \
 mvn-org.codehaus.plexus-plexus-utils \
-mvn-org.jdom-jdom \
+mvn-org.codehaus.plexus-plexus-xml \
 mvn-org.osgi-osgi.core \
 mvn-org.slf4j-slf4j-api \
 mvn-org.sonatype.plexus-plexus-build-api"

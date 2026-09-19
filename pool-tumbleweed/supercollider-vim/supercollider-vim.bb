@@ -2,10 +2,11 @@ SUMMARY = "SuperCollider support for Vim"
 DESCRIPTION = "SuperCollider support for the Vim text editor."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.13.0"
+PV = "3.14.1"
 
-RPM_NAME = "supercollider-vim-3.13.0-1.4.aarch64.rpm"
-RPM_HASH = "4001971c83999d8a0fe95579db4fd0b7e0ad5890c8276f6310520b58cca038d05c013ca2fecf8c3c481781d1a7b652923f50bc4a22cb9e1194a952d9697a8d20"
+RPM_NAME = "supercollider-vim-3.14.1-1.5.noarch.rpm"
+RPM_HASH = "9208f076b08c5d8f9a2fa3a199b097439d660849d84095217d45c7a14702bc5be0faf5941404a0cfb292388fd4d4cb4d98e9414ea7b0cceb9dd14a61981c4389"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "supercollider-vim"
 

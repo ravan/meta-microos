@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "19"
 
-RPM_NAME = "dh-autoreconf-19-3.12.noarch.rpm"
-RPM_HASH = "b11c0d0a25e51d699b0de04ccdae1f392e46804f5cdebc27a5da771bf75b5c4e683568432a81c70bbe439e6529e285ecc3bfd3c49ba8226828d3804efd40630f"
+RPM_NAME = "dh-autoreconf-19-3.26.noarch.rpm"
+RPM_HASH = "b85d29a48f22784f3f71c1586e7cc9ca22e9d9a8f6298c0893acd0db3928e0d039850c27cca361d57014b1a11e3c388b4063b76ddb30c4606f78f3adad301b2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deb-/usr/bin/dh-autoreconf \
@@ -23,6 +23,6 @@ dh-autoreconf"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 debhelper \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

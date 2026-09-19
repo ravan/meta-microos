@@ -5,10 +5,10 @@ and behaviour of particular devices, and to run a program or test suite under a 
 test bed with the previously recorded devices loaded."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.17.17"
+PV = "0.19.7"
 
-RPM_NAME = "umockdev-0.17.17-1.2.aarch64.rpm"
-RPM_HASH = "42d093a5aa0d85e99afe603518150eb2521855d37fe00f8d704599736a21061fae5db9bddc476971f302c5e322bde87c63e1431bbf36c543357598a60bb782c4"
+RPM_NAME = "umockdev-0.19.7-1.4.aarch64.rpm"
+RPM_HASH = "b68376eeef983383271187cfae378e36acf521217fd8094976802ea179338d6e770e481fa2486405a9b2830cdeb2724a4ef449a3332814295ca3091e1c57da1e"
 
 RPROVIDES:${PN} += "umockdev"
 
@@ -19,6 +19,7 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libpcap.so.1 \
+libselinux.so.1 \
 libumockdev.so.0"
 
 inherit rpm

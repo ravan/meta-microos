@@ -2,10 +2,10 @@ SUMMARY = "Rhino Engine"
 DESCRIPTION = "Rhino Javascript JSR-223 Script Engine wrapper."
 LICENSE = "MPL-2.0"
 
-PV = "1.7.14"
+PV = "1.7.15.1"
 
-RPM_NAME = "rhino-engine-1.7.14-2.5.noarch.rpm"
-RPM_HASH = "02e1b62f1cd435f86e45b11f45258293d3ea40f6ff48a0e583e1914e7df31abfaac79e5689f825fa208d26dd9bd9d117cd38615d0317edebf0c356c90e217774"
+RPM_NAME = "rhino-engine-1.7.15.1-1.5.noarch.rpm"
+RPM_HASH = "4fb74892812b61952d4740d9cb02b354bb36babf89d69c261ba33a764002c40f062858536b8d17d37b56233fdd9d061c830ffb3f2d9bf797352ea38564537b15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.mozilla-rhino-engine \

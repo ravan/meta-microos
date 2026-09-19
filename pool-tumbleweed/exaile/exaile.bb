@@ -15,10 +15,10 @@ into your library), downloading of guitar tablature from \
 fretplay.com, and submitting played tracks on your iPod to last.fm."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.1.2"
+PV = "4.2.2"
 
-RPM_NAME = "exaile-4.1.2-1.2.noarch.rpm"
-RPM_HASH = "d1fd31dede3c4ece909be252c32ce4a5e5187e98ddcef611f4a0c8d97e6baa47f8d7ffe785eed343d2d992f1ceae6c7386c76e859e34ea73efbde7d78b5b4634"
+RPM_NAME = "exaile-4.2.2-1.2.noarch.rpm"
+RPM_HASH = "631ce9000ac4bb6d780a3fe17ec006c5f893a3210c736d9eaee9598d3024c60489fe0f4373c0d8cf1201e9b002b055817b9d08f75a577debf0f60399dcd68bd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-exaile \
@@ -28,7 +28,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 gdk-pixbuf-loader-rsvg \
 gstreamer \
 gstreamer-plugins-good \
-python3-bsddb3 \
+python3-berkeleydb \
 python3-cairo \
 python3-dbus-python \
 python3-feedparser \

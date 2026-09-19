@@ -9,13 +9,12 @@ LICENSE = "OFL-1.1"
 
 PV = "0.7.0"
 
-RPM_NAME = "cm-unicode-fonts-0.7.0-195.17.noarch.rpm"
-RPM_HASH = "914d90cabe3b9ddbaf16d2f07d796c8a51228b8d9214e45ec8eb301fc5c90458bda03927f9fc36f475467f2083c5e2b266ceecf6b0026b7ec4578157760b4991"
+RPM_NAME = "cm-unicode-fonts-0.7.0-196.3.noarch.rpm"
+RPM_HASH = "11949935b8981d6a7882435835945c81b07ab86ce062105cf48415af120536edd53fc5078e1a15831746e9d5123e209eaa1ee041df84571ffc6866555036895a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cm-unicode \
-cm-unicode-fonts \
-locale-ru;bg;el"
+cm-unicode-fonts"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 aaa-base \

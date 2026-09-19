@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.10"
 
-RPM_NAME = "fftw3-threads-devel-3.3.10-3.6.aarch64.rpm"
-RPM_HASH = "b672328dd7edbd6770306775067df734289ceaf0ac237bcb95a63104f90b456e750dd6d4b2d04dd35caf02927a247e1e337f911ad34926a0252d6715baf197ab"
+RPM_NAME = "fftw3-threads-devel-3.3.10-6.6.aarch64.rpm"
+RPM_HASH = "92fd1ec66bf2ef80bff10020d87a8a2b627e469961623acfd1a645d1115f7bc32814595324ad77c88244bc97760343abb6831e094c15a40730395f7101a95473"
 
 RPROVIDES:${PN} += "fftw3-threads-devel"
 

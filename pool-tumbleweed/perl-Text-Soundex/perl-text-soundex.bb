@@ -45,16 +45,16 @@ An example of where these algorithm differ follows: \
     print soundex_nara('Ashcraft'), '\\n';  # prints: A261"
 LICENSE = "HPND"
 
-PV = "3.05"
+PV = "3.50.0"
 
-RPM_NAME = "perl-Text-Soundex-3.05-1.37.aarch64.rpm"
-RPM_HASH = "4f42155520856b695c8cf92c42f440ce4efb68b4896a7a867389f731fea7a9338b2b4b2c7e07dd78946304a9eed9f0b1c299a0c1b51771a6e55b3471d0e998e5"
+RPM_NAME = "perl-Text-Soundex-3.50.0-1.8.aarch64.rpm"
+RPM_HASH = "da20d80ee8a613ed56b9cd8a68e8ee6e26b1d61850e4258c858756ae48cfa2eb8f128396427ce88ddd6d0967492b72a0d3bfebd93b5e09aefa1d940a7c6f326f"
 
 RPROVIDES:${PN} += "perl-Text--Soundex \
 perl-Text-Soundex"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

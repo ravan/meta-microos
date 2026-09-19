@@ -10,10 +10,10 @@ and \\caption* commands increment the figure or table counter. \
 Captcont also fully supports the subfigure package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn15878"
+PV = "2026.226.2.0svn77682"
 
-RPM_NAME = "texlive-captcont-2023.209.2.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "042a289d26a94e38f148d4591669e9e3cfdaa303714a802a110021e7808b6e7787e34955b2df7b6dc49ed2025e32b447b7323512a111b2144206f3dec46c1564"
+RPM_NAME = "texlive-captcont-2026.226.2.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "387135b6c97eabfccc5d4b87600da6f95b1840ee839cf261795b801a3d4dacf837df5211ae5fea5fc356ea7f3ea252cdae8e50c944605bb1b83a5a43b8a4cdc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-captcont.sty \

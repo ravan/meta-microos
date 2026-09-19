@@ -6,25 +6,20 @@ for existing VMs on local or remote machines. Uses libvirt as the backend \
 management API."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.1.0"
+PV = "5.1.0"
 
-RPM_NAME = "virt-manager-4.1.0-10.1.noarch.rpm"
-RPM_HASH = "995fdd88495c57f472fdbb682d9e1d8338adfec57aaf4ef88bd0f126eab7961cf4c444d6db2bf77ef68d4bd7b61479b4a2dd23939b212cbbafdffe67e5d71760"
+RPM_NAME = "virt-manager-5.1.0-16.1.noarch.rpm"
+RPM_HASH = "d4bf2f8a0d203c0dc43653d0952f38071d463437023beed4595f932d30470e9f2c4bdbc5ed81f9bb92f23a5aa2ad0ecbcae1f7095e35f235fe9219815e454457"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-manager"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
-dbus-1-x11 \
 dconf \
-gstreamer-plugins-good \
 gtk3 \
-python3-cairo \
 python3-gobject \
-python3-gobject-Gdk \
-python3-gobject-cairo \
 typelib-AppIndicator3 \
 typelib-GLib \
 typelib-GObject \
@@ -39,7 +34,7 @@ typelib-Pango \
 typelib-SpiceClientGLib \
 typelib-SpiceClientGtk \
 typelib-Vte \
-virt-install \
-virt-manager-common"
+virt-manager-common \
+vte"
 
 inherit rpm

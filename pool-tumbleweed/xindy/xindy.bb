@@ -10,14 +10,15 @@ In comparison to other index processors xindy has several powerful \
 features that make it an ideal framework for describing and \
 generating complex indices, addressing especially international \
 indexing."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.5.1"
 
-RPM_NAME = "xindy-2.5.1-2.27.aarch64.rpm"
-RPM_HASH = "58fca2b4e6c5e08aa420f1aed090ac288f6954d2cf026ba64fa72503e079518c47a3c544517b16c1a7886eacf48c117220dda620ab48898b2efbc271462af235"
+RPM_NAME = "xindy-2.5.1-3.13.aarch64.rpm"
+RPM_HASH = "055d7f35d01de81e7f1778265aa945776aaf919942d9c8493817b3691cd40e87259f07bf44848c099b435ff7a9e3408e8ea00f1de9c5fa56bb631c0db1b0a7df"
 
-RPROVIDES:${PN} += "xindy"
+RPROVIDES:${PN} += "xindy \
+xindy-doc"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 clisp \

@@ -5,10 +5,10 @@ decompressed data. The compressed data format used by the library is \
 the lzip format."
 LICENSE = "BSD-2-Clause & GPL-2.0-or-later"
 
-PV = "1.13"
+PV = "1.16"
 
-RPM_NAME = "liblz1-1.13-1.8.aarch64.rpm"
-RPM_HASH = "e767071fada1bfc9df4c6136f1f4ed006109d1b60efb330be8e3b3cc09b241a5e0d18e7085430d7f219d7ce877635eecf001f1863edc7b63f53b5a00c2d15233"
+RPM_NAME = "liblz1-1.16-1.3.aarch64.rpm"
+RPM_HASH = "fde1de99a965b060b67e22f97c1314c473c7c15481b1967f868eeac4478c8e4015ddd8ef19cb313127d3611ec766c28b91cd14403b65de32e3291ef0b6dfe18c"
 
 RPROVIDES:${PN} += "liblz.so.1 \
 liblz1"

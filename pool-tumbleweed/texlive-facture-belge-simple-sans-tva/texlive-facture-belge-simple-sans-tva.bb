@@ -12,10 +12,10 @@ calctab, ifthen, hyperref, fancyhdr, multirow, eurosym, color, \
 and colortbl."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn49004"
+PV = "2026.226.2.1svn67573"
 
-RPM_NAME = "texlive-facture-belge-simple-sans-tva-2023.209.2.1svn49004-53.1.noarch.rpm"
-RPM_HASH = "366bce47d3aaea97e806e0bf3b9331ef0acc3a29cd3dbf25a4fcf408e7a828ebbbac22b07421d9b09bdc4dd41ad1392667464b5fede4977ef7567002e7bdf2ac"
+RPM_NAME = "texlive-facture-belge-simple-sans-tva-2026.226.2.1svn67573-59.2.noarch.rpm"
+RPM_HASH = "c2c67e992adc11cf4d168d8df60a89b34de15df54f00504220ac29d441393053fadc2ea7a990b5fda729e0402b3cef2f48051a01eedae9bdd7d6dffabe5d29da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-facture-belge-simple-sans-tva.sty \

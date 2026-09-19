@@ -5,10 +5,10 @@ way of doing the job with (La)TeX mathematics commands produces \
 an unsatisfactory result.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn23711"
+PV = "2026.226.0.0.3svn23711"
 
-RPM_NAME = "texlive-isotope-2023.209.0.0.3svn23711-56.1.noarch.rpm"
-RPM_HASH = "5f34bf50d898f6c1c43d8a7ca5470a38fb6cc6261930f1c70a1205cc734ee0a69eed3816571b62d5ce8681931f01ef407ce5ea0ecf13e1381c1c9bf505fc8689"
+RPM_NAME = "texlive-isotope-2026.226.0.0.3svn23711-63.2.noarch.rpm"
+RPM_HASH = "a41943b542d4c0560fd13d3f8a0a953687c544830472c3b5396b307f4b67a5c5647a5ecf5e0629ba7d3fd2296f3754484deffb839c691d66e59604f2f6e82d29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-isotope.sty \

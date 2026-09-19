@@ -7,14 +7,14 @@ example) but this needs a slightly different input syntax. See the man \
 page for details."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.22"
+PV = "2.27"
 
-RPM_NAME = "units-2.22-1.4.aarch64.rpm"
-RPM_HASH = "2b512198a55ca6f03139d36edd22ea11bfbe0e37c5133bd81a445eb7a7165fb4d8d62c04d10d3873732dfd5ae67dc8568772326953080f918c5e773fea79e06c"
+RPM_NAME = "units-2.27-1.4.aarch64.rpm"
+RPM_HASH = "27a8a07c13c5646e7cb783806d6e976030f29722c41a4bb6a362cf1e1648cc01b13da308e62b44ef98a8c4ab78bb69029a4e57c9f193db699686a7a7fc22bd76"
 
 RPROVIDES:${PN} += "units"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \

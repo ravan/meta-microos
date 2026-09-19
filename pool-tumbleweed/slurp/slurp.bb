@@ -3,10 +3,10 @@ DESCRIPTION = "Tool to select a region in a Wayland compositor. \
 Meant to be used with a tool called grim."
 LICENSE = "MIT"
 
-PV = "1.4.0"
+PV = "1.6.0"
 
-RPM_NAME = "slurp-1.4.0-1.3.aarch64.rpm"
-RPM_HASH = "5768665fbd0f8f72b2a420cfb27ec6e88e679096a398a29ca9855ee32314876a095c1f46746d6cf47b312a6c91ecf78da8e3e56ece64ef0de692b2f467152b76"
+RPM_NAME = "slurp-1.6.0-1.5.aarch64.rpm"
+RPM_HASH = "f4a0b4ecd9bb553b71c5bae91d1d6ecad8f06afebcdf8154c0dc7d32796d4d2df67162b2459688a68d670e1872a089fc53e67a6c4656d8d4879e277fe1b00830"
 
 RPROVIDES:${PN} += "slurp"
 

@@ -2,10 +2,10 @@ SUMMARY = "Nemo extension for Font Manager"
 DESCRIPTION = "This package provides integration with the Nemo file manager."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.8.8"
+PV = "0.9.4"
 
-RPM_NAME = "nemo-font-manager-0.8.8-2.4.aarch64.rpm"
-RPM_HASH = "e69b7e059fb4bbae7db9c158a90bab1886a22934d3890a869e14385225540fe4093db0dfd7df731012fc6159dd89dbd01a0c8735a9f8f8240814de0a4fe7851e"
+RPM_NAME = "nemo-font-manager-0.9.4-2.2.aarch64.rpm"
+RPM_HASH = "391d5e3a14162bd9b2ba3cc1ef703f05aee19a9d172f95bae9e9a13a9457414ac80ce5504e3380c468ecc9ae6d3c8700125403c3b2b6c0dcf77580a8afde4ff1"
 
 RPROVIDES:${PN} += "nemo-font-manager"
 

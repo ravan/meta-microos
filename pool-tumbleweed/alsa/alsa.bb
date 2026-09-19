@@ -6,10 +6,10 @@ This package contains the ALSA init scripts to start the sound system \
 on your Linux box.  To set it up, run yast2 or alsaconf."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.10"
+PV = "1.2.16.1"
 
-RPM_NAME = "alsa-1.2.10-1.1.aarch64.rpm"
-RPM_HASH = "c2bc989ebf8773412df4a64d89bc08cd1c41a1990c4653adf8be8ecda4ed9e4b3f2194ebc5a3997d20674fca6afcffccf8fbefc1bc7f1ab78ca9ca52538ffce9"
+RPM_NAME = "alsa-1.2.16.1-2.1.aarch64.rpm"
+RPM_HASH = "da4ef3f9f5dd554a24ca3d4e0b962bef752e4928cfea35707ae08cdddbf9db78e76eea7e1caf0d93b24d27948bab882e24619d4185bc3e3c8fb87c89f47c6d6c"
 
 RPROVIDES:${PN} += "alsa"
 

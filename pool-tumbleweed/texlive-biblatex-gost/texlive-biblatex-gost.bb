@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides BibLaTeX support for Russian bibliography \
 style GOST 7.0.5-2008"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.22svn59135"
+PV = "2026.226.1.24svn66935"
 
-RPM_NAME = "texlive-biblatex-gost-2023.209.1.22svn59135-54.1.noarch.rpm"
-RPM_HASH = "b31c6ed5be8ca0ea6fca3750b91ab467cb7e1048ce3d3a796f8144dcb48387454da142876104de9b66c917fc8019799e7117dbac0e0cd1d6d940fa1706fedeb4"
+RPM_NAME = "texlive-biblatex-gost-2026.226.1.24svn66935-61.2.noarch.rpm"
+RPM_HASH = "270287c0c1a7ed41565859440d612511ef4e43379ca4e4c00969a438ec3dd6b445e89ae9ecd48fc059957d29eab5897bf3b8c7ef95cc654d723e9879805fbd78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-american-gost.lbx \

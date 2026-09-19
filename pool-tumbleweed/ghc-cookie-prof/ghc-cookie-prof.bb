@@ -2,20 +2,20 @@ SUMMARY = "Haskell cookie profiling library"
 DESCRIPTION = "This package provides the Haskell cookie profiling library."
 LICENSE = "MIT"
 
-PV = "0.4.6"
+PV = "0.5.1"
 
-RPM_NAME = "ghc-cookie-prof-0.4.6-2.3.aarch64.rpm"
-RPM_HASH = "42d93de9178b5d065149d468a66ea3359f95ed03cbebf9acc1d6b629935004ba084eaab6beac1767b2f270c1ffecdbc8bb5d844e5f904866a60ae4bf15e5b384"
+RPM_NAME = "ghc-cookie-prof-0.5.1-1.12.aarch64.rpm"
+RPM_HASH = "4aac4879e28d3766114136844300faf75970c61508e412bc9dfa2d09e762c067d4fcdc8bd64e6c5c5c10e6bde1b82072765a6db3701c1d61461eb2faddc20037"
 
 RPROVIDES:${PN} += "ghc-cookie-prof \
-ghc-prof-cookie-0.4.6-7v2XoXnZEAdFFWtj85fg3L"
+ghc-prof-cookie-0.5.1-ICQl8upm830Ct2nb3AM1Ft"
 
 RDEPENDS:${PN} += "ghc-cookie-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-text-2.0.2 \
-ghc-prof-time-1.12.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-data-default-class-0.2.0.0-3moOzwNUrN6FLgYZMunU62 \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-time-1.14-a7dc"
 
 inherit rpm

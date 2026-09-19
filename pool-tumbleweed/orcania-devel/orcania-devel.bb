@@ -2,10 +2,10 @@ SUMMARY = "Header files for orcania"
 DESCRIPTION = "Development and header files for orcania."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.2"
+PV = "2.3.3"
 
-RPM_NAME = "orcania-devel-2.3.2-1.4.aarch64.rpm"
-RPM_HASH = "ce576e3c7bc58d8496121098123b036ab56cd8db85b81a8bd1066b55bdc1f5493be1c7a857ab2d341223127cbb6b630bd0bbe9aca774eaddb66f6e4b63d70b4d"
+RPM_NAME = "orcania-devel-2.3.3-2.3.aarch64.rpm"
+RPM_HASH = "9a84a71b01f308ef06f1b05fe3325bdcf2571e99b079ac2d7166a0afce4d977237011efbbb3fbaf4fc6ddd05ca0c16b7044b5e9b5d988af39784e55d7b9a9393"
 
 RPROVIDES:${PN} += "cmake-Orcania \
 orcania-devel \

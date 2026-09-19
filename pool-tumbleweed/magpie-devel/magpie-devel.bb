@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of the magpie library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.3+0"
+PV = "0.9.4+0"
 
-RPM_NAME = "magpie-devel-0.9.3+0-2.1.aarch64.rpm"
-RPM_HASH = "844d8b9bee5426c42e13554b580efa8b52d799cc23d19480b7624c24910cd17e59c5719259fe3f2e9eaa3467417f13878a2920b9f22364ea23ffdaca451daef6"
+RPM_NAME = "magpie-devel-0.9.4+0-1.9.aarch64.rpm"
+RPM_HASH = "543a9022cbb3d54b4d2abbb2a4da717e2d1fea9f56dbc62a2fe74ae0e4ea5de7de23f17aaa968a9679e0069d1100280318efe806e95b49a874c8397ad1be5505"
 
 RPROVIDES:${PN} += "magpie-devel \
 pkgconfig-libmagpie-0 \

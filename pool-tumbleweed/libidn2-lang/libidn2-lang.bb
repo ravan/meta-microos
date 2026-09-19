@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libidn2"
 DESCRIPTION = "Provides translations for the 'libidn2' package."
 LICENSE = "(GPL-2.0-or-later | LGPL-3.0-or-later) & GPL-3.0-or-later"
 
-PV = "2.3.4"
+PV = "2.3.8"
 
-RPM_NAME = "libidn2-lang-2.3.4-1.4.noarch.rpm"
-RPM_HASH = "08fcda9ead29ad9815cd589d1f0e6621381a0afad255e4785a7c4d0e546f17c799e764e4924dc8f9318bb27b08ea33674c21c4f44dd6c068fbe6a069eb4f85a4"
+RPM_NAME = "libidn2-lang-2.3.8-1.5.noarch.rpm"
+RPM_HASH = "4ada5bc6e1980dc66423745feffdbbc56457be6504c5cba1bf9ab39db06ca81dcd3f0c635e41b3793accc0cc434b918bbbb9619162be31991d5229e1879cd78a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libidn2-lang \
@@ -25,6 +25,7 @@ locale-libidn2-it \
 locale-libidn2-ja \
 locale-libidn2-ka \
 locale-libidn2-ko \
+locale-libidn2-lv \
 locale-libidn2-nl \
 locale-libidn2-pl \
 locale-libidn2-pt-BR \

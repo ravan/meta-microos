@@ -1,11 +1,11 @@
 SUMMARY = "Declarative install for programs"
-DESCRIPTION = "An helper tool that installs software and additional data into the system."
+DESCRIPTION = "A helper tool that installs software and additional data into the system."
 LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "rinstall-0.2.0-3.6.aarch64.rpm"
-RPM_HASH = "fa911a82c5ab0ef31bb4f7d8f5bc5fd1bb147164383133d820de8efc14f40e1d46585a3cc87a7083b4ffd171f402ec8f1262ee5eeb0870704f5dc58e87fbe0a2"
+RPM_NAME = "rinstall-0.2.0-4.12.aarch64.rpm"
+RPM_HASH = "3b8b1e71fa7fa6119aeaf1a32cd659100bef9145800860334e7e5086a97f8a511538c45285f648b260cebe1c8bc9a540cc80aaa2be193ba11dfe47634077691c"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \

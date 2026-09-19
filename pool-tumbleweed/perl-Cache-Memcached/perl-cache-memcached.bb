@@ -1,21 +1,21 @@
-SUMMARY = "Client Library for Memcached (Memory Cache Daemon)"
+SUMMARY = "Client library for memcached (memory cache daemon)"
 DESCRIPTION = "This is the Perl API for memcached, a distributed memory cache daemon. More \
 information is available at: \
  \
   http://www.danga.com/memcached/"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.30"
+PV = "1.300.0"
 
-RPM_NAME = "perl-Cache-Memcached-1.30-1.22.noarch.rpm"
-RPM_HASH = "d9c19055a6a757dd31da94bc81372a370ca98bad4cd9f76990a6d5fd907f5fe12c09dec76e1ae769b82b3abf30181087976c98240374df3c0d710e772fceb63b"
+RPM_NAME = "perl-Cache-Memcached-1.300.0-1.7.noarch.rpm"
+RPM_HASH = "c4ecfa986db04ea1f29b0c4704ba37758e9ca927b24fb5eae5d952aa2245c6bb0c65d9227e2889d74a151e7c467bce14449e93a9fd418a9368786708c97d5783"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Cache--Memcached \
 perl-Cache--Memcached--GetParser \
 perl-Cache-Memcached"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-String--CRC32"
 
 inherit rpm

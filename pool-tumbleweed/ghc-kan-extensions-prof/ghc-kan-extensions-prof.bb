@@ -2,29 +2,26 @@ SUMMARY = "Haskell kan-extensions profiling library"
 DESCRIPTION = "This package provides the Haskell kan-extensions profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.2.5"
+PV = "5.2.8"
 
-RPM_NAME = "ghc-kan-extensions-prof-5.2.5-2.9.aarch64.rpm"
-RPM_HASH = "4a2403717f8f7c1072fc6a274fddf0f1842e9442dd5f3ecf60c9960a6f3299af00d50114502e09985e6390fbfbaf53681f762c837fdeb3b1a871f6b813ff03f7"
+RPM_NAME = "ghc-kan-extensions-prof-5.2.8-1.3.aarch64.rpm"
+RPM_HASH = "d124d7a30cf0d3a5c7d9f6dbd7961b5c3bd445f8e727c6db160ef1b6758409c215eac4f34490488581c40ae0ae79a6e9025528cabe3e3b0db1ac266cb6345bcf"
 
 RPROVIDES:${PN} += "ghc-kan-extensions-prof \
-ghc-prof-kan-extensions-5.2.5-8EOcrvzPSBS2QFPhIHEfWy"
+ghc-prof-kan-extensions-5.2.8-BhPXqlF7GPZ4azZSK3TJ3I"
 
 RDEPENDS:${PN} += "ghc-kan-extensions-devel \
-ghc-prof-adjunctions-4.4.2-BjNTDSboJHWDpWX9BvuZL3 \
-ghc-prof-array-0.5.4.0 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-comonad-5.0.8-56nFbOwllOwBl7FMfSy83E \
-ghc-prof-containers-0.6.7 \
-ghc-prof-contravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT \
-ghc-prof-distributive-0.6.2.1-7gHlNDSCz3vFkde299iroS \
-ghc-prof-free-5.1.10-8DOWW3JiZaX7obxPZwBWX0 \
-ghc-prof-invariant-0.6.2-1eF4QVqz69AFovgmNz4wk7 \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-profunctors-5.6.2-GfNUFxHNpLn859duquR0iv \
-ghc-prof-semigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g \
-ghc-prof-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM"
+ghc-prof-adjunctions-4.4.4-4nqsP3yaf6U1iY0vApuE6e \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-comonad-5.0.10-Adp50yscRn74SK6wUdL7QP \
+ghc-prof-contravariant-1.5.6-7FVTzec2jegEwzkeRkQOi4 \
+ghc-prof-distributive-0.6.3-9lg1Hxwh2KlJVxh3zQCgyL \
+ghc-prof-exceptions-0.10.12-f655 \
+ghc-prof-free-5.2-4eWU5ydqIMF46nGJ3OnruR \
+ghc-prof-invariant-0.6.5-DrqO3CbAMrLCl36mqBRofr \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-profunctors-5.6.3-CPqBm5VgzT9DSAiXWxFcrG \
+ghc-prof-semigroupoids-6.0.2-B6Y5GIvJ2JI8mXJpMQTJaF \
+ghc-prof-transformers-0.6.3.0-4709"
 
 inherit rpm

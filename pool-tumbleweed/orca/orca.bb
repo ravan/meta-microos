@@ -4,19 +4,19 @@ graphical desktop via user-customizable combinations of speech, \
 braille, and/or magnification."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.1"
+PV = "50.2"
 
-RPM_NAME = "orca-44.1-1.2.noarch.rpm"
-RPM_HASH = "cbe4e63bdd78a148ab971a4ff94ad87d3d9b8dc8a58c9d0e7f23daca01b56d6cc8d6eae97ed755919270f257de6a2903c935feb53adedfba6d26b0f80afc1240"
+RPM_NAME = "orca-50.2-1.2.noarch.rpm"
+RPM_HASH = "a4320afc06052910fedf95ce203b370e44d9d4ea83781a790ac4493dab1387a4a414592cdeee9f4349c439091b5f4609b3cdaa6ad641655ea9400a44df95e31b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "orca"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 glib2-tools \
-py3atspi \
 python-abi \
 python3-brlapi \
+python3-dasbus \
 python3-gobject \
 python3-gobject-Gdk \
 python3-louis \
@@ -26,11 +26,9 @@ typelib-Atspi \
 typelib-GLib \
 typelib-GObject \
 typelib-Gdk \
-typelib-GdkX11 \
 typelib-Gio \
 typelib-Gst \
 typelib-Gtk \
-typelib-Pango \
-typelib-Wnck"
+typelib-Spiel"
 
 inherit rpm

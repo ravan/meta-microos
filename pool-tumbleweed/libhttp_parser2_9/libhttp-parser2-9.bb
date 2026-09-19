@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "2.9.4"
 
-RPM_NAME = "libhttp_parser2_9-2.9.4-1.12.aarch64.rpm"
-RPM_HASH = "213a81f86818a81c00a59f7c92c1a613acc05307c9bbad2fb7af51b06107ceb88cbe23fa6b997e92ba929eb75fb2e263477bd35c9903ac619723ad8a91a655e3"
+RPM_NAME = "libhttp_parser2_9-2.9.4-1.21.aarch64.rpm"
+RPM_HASH = "4ad0b70eb18b15e752aaa67572396f0ef878326d332b865ef90759a6848774eaebee49000c57cde5c279bfb4a5531a5cb694a6aed91eb3badcd6669cb534b224"
 
 RPROVIDES:${PN} += "libhttp-parser-suse0 \
 libhttp-parser.so.2.9 \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-diadia"
 DESCRIPTION = "This package includes the documentation for texlive-diadia"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn37656"
+PV = "2026.226.1.1svn37656"
 
-RPM_NAME = "texlive-diadia-doc-2023.209.1.1svn37656-53.1.noarch.rpm"
-RPM_HASH = "962034d885165b255724e08c0def5f6b96db8e9662abec1bafdc35b25579d604115353d4b594d201ee8c6e5d5140988d43eca45970747a7c62f4931ad10ea0a5"
+RPM_NAME = "texlive-diadia-doc-2026.226.1.1svn37656-59.2.noarch.rpm"
+RPM_HASH = "47917d60b905ae423604704160e11ffda6e29308c0c2382da08d5eb881c8b83cf5b187caa08a82713eb97d8de6a51a83914df0ab2ad510751d223cfd1359cf12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-diadia-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-globalvals"
 DESCRIPTION = "This package includes the documentation for texlive-globalvals"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn49962"
+PV = "2026.226.1.1svn49962"
 
-RPM_NAME = "texlive-globalvals-doc-2023.209.1.1svn49962-54.2.noarch.rpm"
-RPM_HASH = "3e75fa7550bc6d510a47a2652917fc063cd696e6f86a64dcd028c735f1feb89e23aa5a70fc2a2d4cc074e9f94cfd65268ef0c888f621d22280411c4d58dc85e3"
+RPM_NAME = "texlive-globalvals-doc-2026.226.1.1svn49962-60.4.noarch.rpm"
+RPM_HASH = "9ea225fa2e551219dbb777c3880e73d20503ddcd6a6f548639e9c8150cd5a1db5dd6968782add49a63a65908d8fc31a59829ba53eddcb44c239373cf9c52764e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-globalvals-doc"

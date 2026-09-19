@@ -2,10 +2,10 @@ SUMMARY = "A collection of text-based games"
 DESCRIPTION = "A new collection of console games inspired by the classic bsd-games collection."
 LICENSE = "CC0-1.0"
 
-PV = "5"
+PV = "6.0.1"
 
-RPM_NAME = "nbsdgames-5-1.4.aarch64.rpm"
-RPM_HASH = "d7844bca59018a48b1cd3ceee990ec519b7796e3010e314baa42d983fc06a59f35f7a658a33c153d8c0700dece8fde7472d196226ce77d470acd2e757f68f039"
+RPM_NAME = "nbsdgames-6.0.1-1.3.aarch64.rpm"
+RPM_HASH = "feabd6adf8fa2485b02256f879a9012b59c3896a0c8c75dce597b4ba103cd92a37f7721241242ae2edf156a833a8df02ff4adccd90ec8b0c5ea38ecdc6289ca4"
 
 RPROVIDES:${PN} += "nbsdgames"
 

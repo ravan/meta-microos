@@ -7,10 +7,10 @@ expl3 and xparse, translations, xfrac, l3keys2e, and, \
 optionally, fmtcount."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.00svn65241"
+PV = "2026.226.3.00svn76924"
 
-RPM_NAME = "texlive-cooking-units-2023.209.3.00svn65241-55.1.noarch.rpm"
-RPM_HASH = "ba12d8de7e81eb40a55aadd304fb0c6149e4577868abb81ff1afc04f846471028e7a24b4457bd206b16a30685266a80e829b74dcf84ea7ce14c0bee4366271c1"
+RPM_NAME = "texlive-cooking-units-2026.226.3.00svn76924-61.2.noarch.rpm"
+RPM_HASH = "30c6f618f796e4afbd5b086f8f3196538b071aa214e344dd90c262b9ddc2fbdaeb46ce3a2c87dc8654ca138037348e8a7dbea1454ee176384ae47d5fe35d55e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cooking-units.sty \

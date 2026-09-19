@@ -7,10 +7,10 @@ encryption values. Both the synchronous and asynchronous API are exposed \
 through this library."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.0.1"
+PV = "4.1.3"
 
-RPM_NAME = "libtss2-esys0-4.0.1-2.1.aarch64.rpm"
-RPM_HASH = "75a8b05c005082627dd4a0656deefb38b36ec5e4da410e9499792c1551617d049aac27467588e03efd563ac5896dd3f43bcff0828eebb9a0fd1f0ee5977738ea"
+RPM_NAME = "libtss2-esys0-4.1.3-1.6.aarch64.rpm"
+RPM_HASH = "b641f581f76acdf481f8181349d629d2b9a9dd724918a2d11e90ce233a1dd30d4534921ad9cfd9bf369e9a7f5a9c6110db2a27e8ee863a52d364ecc1bfe09219"
 
 RPROVIDES:${PN} += "libtss2-esys.so.0 \
 libtss2-esys0"

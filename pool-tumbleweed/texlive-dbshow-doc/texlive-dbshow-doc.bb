@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dbshow"
 DESCRIPTION = "This package includes the documentation for texlive-dbshow"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn61634"
+PV = "2026.226.1.5svn76924"
 
-RPM_NAME = "texlive-dbshow-doc-2023.209.1.5svn61634-53.1.noarch.rpm"
-RPM_HASH = "96b0bde50a75673d93871c530d2603accfe280af68fd45b6deb868b960b1c4457a017a7eb4b64d36923687b5aced4d4298e50dcfae7fcbac46b96a58dc82cfa9"
+RPM_NAME = "texlive-dbshow-doc-2026.226.1.5svn76924-59.2.noarch.rpm"
+RPM_HASH = "7431644a411866a2c6d58f8098e0ba26d3c6cdc841dce662b5780a5a3ba3b9dee4abf1f4a8e8b777483df781bcf782026569517202939b8aa0691895fc82c45c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "en) \

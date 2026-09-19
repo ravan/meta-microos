@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 Pdf library"
 DESCRIPTION = "Development files for the Qt 6 Pdf library."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-pdf-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "b08afec44c6d280391538d0ab59475de6e163914c2165571cf71ef7fcf9734629f693bb48e216a19785222e8d7c4ba06ff20d03e38d842038d886d19120d70af"
+RPM_NAME = "qt6-pdf-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "58a61a0f556fe2c121e738030b6339f6785df5ca05465732edb4853b6e9bc79bcc4193f0434dfe129f30fad8f1add8165919fe03d53862e63790a1051d500237"
 
 RPROVIDES:${PN} += "cmake-Qt6Pdf \
 pkgconfig-Qt6Pdf \

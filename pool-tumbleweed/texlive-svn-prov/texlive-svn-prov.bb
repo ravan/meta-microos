@@ -6,10 +6,10 @@ keywords. The file name may also be given explicitly as an \
 optional argument."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1862svn64967"
+PV = "2026.226.3.1862svn77682"
 
-RPM_NAME = "texlive-svn-prov-2023.209.3.1862svn64967-58.1.noarch.rpm"
-RPM_HASH = "6d99efe9890611a9c6ec2945dedd67ea2ec64d7edadd5ed0669d1538577f8f9801b6ab11e3106418fd6838710d0165220509d0070bfafc5ecef117796dde14fd"
+RPM_NAME = "texlive-svn-prov-2026.226.3.1862svn77682-64.2.noarch.rpm"
+RPM_HASH = "5c8dc846634b153db15bc6b2a658d3d2c9d14003ec05b0e77a1b7ad57726acb4ba5bb03dc4d07d45d721754812a2bb8ca9aeede636a405fc6b6b10ced91c75e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-svn-prov.sty \

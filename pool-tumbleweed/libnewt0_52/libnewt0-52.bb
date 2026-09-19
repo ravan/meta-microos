@@ -8,10 +8,10 @@ check boxes, radio buttons, labels, plain text fields, scrollbars, \
 etc., to text mode user interfaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.52.23"
+PV = "0.52.25"
 
-RPM_NAME = "libnewt0_52-0.52.23-2.2.aarch64.rpm"
-RPM_HASH = "d720dfd3845df3b3250002c088e37a2c170883b50acb230fe5a08d00fbbbf8532198fbcc556499fd2455c62bd1242a39b14ec952f1e8b03febba3e5c006fe15b"
+RPM_NAME = "libnewt0_52-0.52.25-2.1.aarch64.rpm"
+RPM_HASH = "baa2ea0212b2bead5c1cd3bb4a09e067aeeebe6893bec61a5a9eef4d331a1fcaea6f1223a6b6a78bcbe09bb36fa9d7c678770c4ea3d372f244aedd1c9b6330ad"
 
 RPROVIDES:${PN} += "libnewt.so.0.52 \
 libnewt0-52"

@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-data-sqlite-6.12.0-5.4.aarch64.rpm"
-RPM_HASH = "15f952b74442ca7dad036a1ce88725f6b15697957c0d3f20699280d716b89c54ad21437df75f063b53499348e30f7b9652822f4c37e27f5ad4f8f6f907f8fb2b"
+RPM_NAME = "mono-data-sqlite-6.12.0-8.11.aarch64.rpm"
+RPM_HASH = "39ae3bdd3fc20bdcc5051d7f03abb3fec349404123d80ae23ef3abee236e1e0563b88340c76e706abfd508785185445882263befdf040e35dcfbed196798e6e2"
 
 RPROVIDES:${PN} += "mono-Mono.Data.Sqlite \
 mono-data-sqlite"

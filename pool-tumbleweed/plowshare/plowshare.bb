@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "2.1.7"
 
-RPM_NAME = "plowshare-2.1.7-2.10.noarch.rpm"
-RPM_HASH = "8e12cfc501ee5a0e7be584466a376cf44eb37929b197e62999edd9de10ce287240cac31b53516f918c18a48a9a6c2686ab9bb0371eee3678b6f355a146224664"
+RPM_NAME = "plowshare-2.1.7-3.8.noarch.rpm"
+RPM_HASH = "c7c766b09352515ab1fdbe5a04d35aa001d33716dfe0371d71d35f1f16662a118ca90e50421d2b971bea20a37ea7ac7826b7d353c58ee7db1a6533f7fbfc8b95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-plowshare \

@@ -2,10 +2,10 @@ SUMMARY = "HFST spell checker runtime libraries"
 DESCRIPTION = "HFST spell checker Runtime libraries for hfst-ospell"
 LICENSE = "Apache-2.0"
 
-PV = "0.5.1"
+PV = "0.5.4"
 
-RPM_NAME = "libhfstospell11-0.5.1-4.4.aarch64.rpm"
-RPM_HASH = "37bacd3c5ee01474984813672f93853f5fe4376d4b8a1c24f023ee1288144bf6b0ed887e31c41293bceda33f9f1bfbf0de425c54c8add3bc5b883596dd974d76"
+RPM_NAME = "libhfstospell11-0.5.4-1.12.aarch64.rpm"
+RPM_HASH = "5feb92ee35a0c238adbb221d40089ea20984de2690cffa083794aed77681d1b77ba19e1a48101251b64a18645090f41bfce983ae374210a37411d08ad52caf02"
 
 RPROVIDES:${PN} += "libhfstospell \
 libhfstospell.so.11 \

@@ -3,10 +3,10 @@ DESCRIPTION = "This is the Portuguese translation of A Short Introduction to \
 LaTeX2e."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.5.01.0svn55643"
+PV = "2026.226.5.01.0svn55643"
 
-RPM_NAME = "texlive-lshort-portuguese-2023.209.5.01.0svn55643-55.1.noarch.rpm"
-RPM_HASH = "630b49f7c87e348df836d6e8d515cf83ca684fe47f23a31c3293f9dd5262b45c84d29000ff4a213d5df7fa22360b9641a86d356fcb87844b22a59b13b3a86bde"
+RPM_NAME = "texlive-lshort-portuguese-2026.226.5.01.0svn55643-61.2.noarch.rpm"
+RPM_HASH = "bcaa08f79c611bebf8a8e0c7dc0cf9687203d79b3c6cccbd77294898cf17055dd29d01303bb76e94739d0ea7aeab2aab3a91c4f4a50bedccdb163eb1ccc95b2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-portuguese"

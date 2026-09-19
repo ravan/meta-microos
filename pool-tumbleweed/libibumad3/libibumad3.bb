@@ -4,10 +4,10 @@ functions, which sit on top of the umad modules in the kernel. These \
 are used by the IB diagnostic and management tools, including OpenSM."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "47.0"
+PV = "63.0"
 
-RPM_NAME = "libibumad3-47.0-3.1.aarch64.rpm"
-RPM_HASH = "46d03e92c8d2ee4b7046af6b9d227411f268f5878296c717c176421d28ba5ded3000e359dc6ad8f1137b4df53dce1c8bab1fcace4381f493c31c32497e8be677"
+RPM_NAME = "libibumad3-63.0-1.3.aarch64.rpm"
+RPM_HASH = "b73b7b34df4823d5c41cee37bc8c2d01d42f72e3877c22726ae18f32c77c6177feb621e06f9f1ee56d1d1e49b042f08e99e5a64ea225994f85691fb83ce5f848"
 
 RPROVIDES:${PN} += "libibumad.so.3 \
 libibumad3"

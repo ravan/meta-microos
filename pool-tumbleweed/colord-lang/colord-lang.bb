@@ -2,15 +2,18 @@ SUMMARY = "Translations for package colord"
 DESCRIPTION = "Provides translations for the 'colord' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.6"
+PV = "1.4.8"
 
-RPM_NAME = "colord-lang-1.4.6-4.1.noarch.rpm"
-RPM_HASH = "5f063ca3c6f67ae14dbb471a7fe86b4725f7b9bd2582d6e0b4320415da59e9b335c9acc11d19076ceea1288c7507a450e15458a3a98d64cb267091c13af68922"
+RPM_NAME = "colord-lang-1.4.8-3.1.noarch.rpm"
+RPM_HASH = "f7607b22c6c4e27e74ceeb68a22f253737ae5d83b2616542bca919fd59da4b55959b204ca9f8a51530eed83613cd1c5a919dc30196c9b3f69e598c9b93cc2967"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colord-lang \
 colord-lang-all \
+locale-colord-ar \
 locale-colord-as \
+locale-colord-be \
+locale-colord-bg \
 locale-colord-bn-IN \
 locale-colord-ca \
 locale-colord-cs \
@@ -34,6 +37,7 @@ locale-colord-id \
 locale-colord-is \
 locale-colord-it \
 locale-colord-ja \
+locale-colord-ka \
 locale-colord-kk \
 locale-colord-kn \
 locale-colord-ko \
@@ -51,8 +55,10 @@ locale-colord-pt \
 locale-colord-pt-BR \
 locale-colord-ro \
 locale-colord-ru \
+locale-colord-si \
 locale-colord-sk \
 locale-colord-sl \
+locale-colord-sq \
 locale-colord-sr \
 locale-colord-sr@latin \
 locale-colord-sv \

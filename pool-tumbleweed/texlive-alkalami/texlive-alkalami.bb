@@ -3,10 +3,10 @@ DESCRIPTION = "This font is designed for Arabic-based writing systems in the \
 Kano region of Nigeria and Niger."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.000svn44497"
+PV = "2026.226.1.000svn44497"
 
-RPM_NAME = "texlive-alkalami-2023.209.1.000svn44497-55.1.noarch.rpm"
-RPM_HASH = "ab2932bb5d5e195e210cc25f00cd2723738f20b93aadc3f7c82377ac3803f02850df65d452107803a137a74554841a337bbf4f0b9b1a81fbf6c34e367e769fe8"
+RPM_NAME = "texlive-alkalami-2026.226.1.000svn44497-61.2.noarch.rpm"
+RPM_HASH = "eb9b9a15fdcea2045b20209388e88bdb1b6763c02107081e8f9359f5871a4b31396595e8077982ef28de6c8a3a4d1a009ad767927fa7bed3acb887396a7c0775"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alkalami"

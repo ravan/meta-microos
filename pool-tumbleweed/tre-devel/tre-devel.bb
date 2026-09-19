@@ -1,16 +1,14 @@
-SUMMARY = "POSIX compatible regexp library with approximate matching"
-DESCRIPTION = "TRE is a lightweight, robust, and efficient POSIX compatible regexp \
-matching library with some exciting features such as approximate \
-matching."
+SUMMARY = "Header files for the TRE regex library"
+DESCRIPTION = "TRE is a POSIX-compatible regexp matching library with approximate \
+This package contains the headers."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.0_git201402282055"
+PV = "0.9.0"
 
-RPM_NAME = "tre-devel-0.8.0_git201402282055-7.2.aarch64.rpm"
-RPM_HASH = "2f5a2b985c245ac0c757731cdc7f8662f6e20cfd8ca811c3de7b95d4ede6a060b8b60c7cec1b2ed92d2805b0e502d90c143c55a041940ef3c69d727f10e3b1d0"
+RPM_NAME = "tre-devel-0.9.0-1.8.aarch64.rpm"
+RPM_HASH = "494db1b9d043d96056f0927e2896c52abfff6e6645d435255c410921f9b38d15a10c0e441d21ee816364267d6bf54fc3b9b6afc0a37d69772eb72fffbf26cdf1"
 
-RPROVIDES:${PN} += "libtre-devel \
-pkgconfig-tre \
+RPROVIDES:${PN} += "pkgconfig-tre \
 tre-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

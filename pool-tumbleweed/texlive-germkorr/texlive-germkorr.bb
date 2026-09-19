@@ -5,10 +5,10 @@ double quotes even when that letter wears a standard accent \
 like '`\\.T''."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-germkorr-2023.209.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "0a53c5df48ab943a797da310f223598417597e1486aa4b30a18fbde597cf493bcb488c953b6e7e5e613f12091f09c813b74788a97da5d568cea7146bebe552e3"
+RPM_NAME = "texlive-germkorr-2026.226.1.0svn15878-60.2.noarch.rpm"
+RPM_HASH = "578407392b4da97377a8af7c24d58814e7436aaf3d93c823f6bce499b8c074cae63ccbed8289b76ccea1cc19cd65145b2970bbe95576c133f3ce2f65ebb23503"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-germkorr.sty \

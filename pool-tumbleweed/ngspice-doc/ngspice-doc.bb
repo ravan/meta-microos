@@ -4,10 +4,10 @@ DESCRIPTION = "Ngspice is a mixed-level/mixed-signal circuit simulator. \
 This package contains the user manual in PDF format."
 LICENSE = "CC-BY-SA-4.0 & BSD-3-Clause"
 
-PV = "40"
+PV = "42"
 
-RPM_NAME = "ngspice-doc-40-1.1.noarch.rpm"
-RPM_HASH = "8714c7f5001e5ec5b13d8ebfaf84e83f46d073a690ac113c6a7207c254ab54fc2f14b5531f031803eb66f2e9c77ca840545bcbcf8c2f3bd33a8d097f9f987441"
+RPM_NAME = "ngspice-doc-42-1.9.noarch.rpm"
+RPM_HASH = "37bd15a5c1b55b0dcec8cd6c4997a93523e8941eaf73dc3a24c4f431bf6643a59bde2878177faddd8a8ab1d40c96165e5c90e71ba5d439c3698a90a81f9889fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ngspice-doc"

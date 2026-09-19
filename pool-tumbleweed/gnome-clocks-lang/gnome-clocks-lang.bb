@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-clocks"
 DESCRIPTION = "Provides translations for the 'gnome-clocks' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-clocks-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "6df494032496a941e45a44f588462a9eec52760583178c2d685bab5ef76160589f83759f69614933049510c362c6a81a3a145fd4afebbcd4018a151a71223a57"
+RPM_NAME = "gnome-clocks-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "b944b47f151eb4f17ef9b8f6e55ded9742d91f3977cef7cceb9e78030ad32ba1662adf6e856eff43ad3f4fa24e41270bdaf2cc4ea9b34dc852da3b9f33f09976"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-clocks-lang \
@@ -40,6 +40,7 @@ locale-gnome-clocks-he \
 locale-gnome-clocks-hi \
 locale-gnome-clocks-hr \
 locale-gnome-clocks-hu \
+locale-gnome-clocks-ia \
 locale-gnome-clocks-id \
 locale-gnome-clocks-is \
 locale-gnome-clocks-it \
@@ -56,6 +57,7 @@ locale-gnome-clocks-ms \
 locale-gnome-clocks-nb \
 locale-gnome-clocks-ne \
 locale-gnome-clocks-nl \
+locale-gnome-clocks-nn \
 locale-gnome-clocks-oc \
 locale-gnome-clocks-or \
 locale-gnome-clocks-pa \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package dippi"
 DESCRIPTION = "Provides translations for the 'dippi' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.1.4"
+PV = "5.0.2"
 
-RPM_NAME = "dippi-lang-3.1.4-1.8.noarch.rpm"
-RPM_HASH = "b421777f23420ead0cfa4d3ee3f1e0b7deed33af16fb7514be1af0221215ae61b2341a3b0ba2d6a8dfed16511d0d53426b1ebb2aea9bb241f615a66af06e3a52"
+RPM_NAME = "dippi-lang-5.0.2-1.3.noarch.rpm"
+RPM_HASH = "af177ba215e47fe7ddc32533881c6d8b42fc940e111aab56a5df86dea006f34a9bc58234764746477b95dadbc36d858520dc39e0386acf7e903a0a0ef68c4abd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dippi-lang \

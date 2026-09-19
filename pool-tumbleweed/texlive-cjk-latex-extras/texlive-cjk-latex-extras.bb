@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20070515"
 
-RPM_NAME = "texlive-cjk-latex-extras-20070515-193.2.noarch.rpm"
-RPM_HASH = "1315f3e578385e32cd5c64a565f5e2a683ef766124d9da35492a60a95e8b09771b4ea0b701f01e0061d2d5cafa56dafd5ed7d1781cbda204e9d8b6cc73da0faf"
+RPM_NAME = "texlive-cjk-latex-extras-20070515-195.6.noarch.rpm"
+RPM_HASH = "3c015f463ef70acbc205cd4221a37de67eb268740bb13c9c4b5d89236273b364d9de599340e4ac459540b59e5661c59db057e5be0a0bc1a0bd021ccf53e3a712"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-cjk-ja;ko;zh \
@@ -17,8 +17,8 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/rm \
 /usr/bin/sh \
 /usr/bin/touch \
+/usr/bin/ttf2tfm \
 /usr/bin/updmap \
-freetype-tools \
 texlive-cjk \
 texlive-latex"
 

@@ -11,10 +11,10 @@ This package contains the development headers for the library found \
 in libXdmcp6."
 LICENSE = "MIT"
 
-PV = "1.1.4"
+PV = "1.1.5"
 
-RPM_NAME = "libXdmcp-devel-1.1.4-1.2.aarch64.rpm"
-RPM_HASH = "4eb8b081d84006a250ef92e3d4e8dd0bb59e4a4ef233256476bc13b57209e859f7a00d5fc01db5309b2a12a3c325710641979d87733d953a39e9d341f15df2fc"
+RPM_NAME = "libXdmcp-devel-1.1.5-1.9.aarch64.rpm"
+RPM_HASH = "3ac5b3313e3400bfa3690b8bd0af2af1aa44276ddf2d87a4dfb48309addf8e32915d3391c0110f564b19afa3ec50a4febcbbb9bed0127cf6c5c28610492d766c"
 
 RPROVIDES:${PN} += "libXdmcp-devel \
 pkgconfig-xdmcp \

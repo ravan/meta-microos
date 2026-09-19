@@ -6,10 +6,10 @@ DESCRIPTION = "Architecture-independent data from hxtools. \
 * additional syntax highlighting definitions for mcedit"
 LICENSE = "GPL-2.0-or-later & WTFPL"
 
-PV = "20230411"
+PV = "20251011"
 
-RPM_NAME = "hxtools-data-20230411-1.2.noarch.rpm"
-RPM_HASH = "0180d5cff88f9157b0b1ee3e662223e0474c9f556125a3228c2c51bef24ea391f1146ea6175714fcac7f1d638d4ca77df4d5490b3fa1d923769afe1cb0996639"
+RPM_NAME = "hxtools-data-20251011-1.6.noarch.rpm"
+RPM_HASH = "e2615186c5d67179a9efda6eda87889c9e359ce7cbb79453498c1bd5aba2c0fbb712b502ca894d8a7cee665a2a7b3d053ceacbf3fda71783a138a7cf44c01c9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-hxtools-data \

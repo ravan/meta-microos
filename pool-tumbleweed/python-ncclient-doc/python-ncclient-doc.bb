@@ -2,16 +2,15 @@ SUMMARY = "Python NETCONF protocol library - Documentation"
 DESCRIPTION = "This package contains documentation files for python-ncclient."
 LICENSE = "Apache-2.0"
 
-PV = "0.6.13"
+PV = "0.7.1"
 
-RPM_NAME = "python-ncclient-doc-0.6.13-1.6.noarch.rpm"
-RPM_HASH = "2176bdf1f12a6662e315b1270aa9ceece83b1dcf200ae7d8a0dc3913cff13ee6abc50fec1e8af7f6616471eefebcf5dd3c2d2d39a9df4bd6f797f21a42eb9c55"
+RPM_NAME = "python-ncclient-doc-0.7.1-1.4.noarch.rpm"
+RPM_HASH = "3ec7e74c337e36cfba8f32d53ded081a55f891a01eb264fc34113b3be5c36200b9b56edd56b78095b805b74fb5b0b0001b327b02ba8664abe623aa47ae391e71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ncclient-doc \
-python310-python-ncclient-doc \
-python311-python-ncclient-doc \
-python39-python-ncclient-doc"
+python313-python-ncclient-doc \
+python314-python-ncclient-doc"
 
 RDEPENDS:${PN} += ""
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sectsty"
 DESCRIPTION = "This package includes the documentation for texlive-sectsty"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.2svn15878"
+PV = "2026.226.2.0.2svn77682"
 
-RPM_NAME = "texlive-sectsty-doc-2023.209.2.0.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "57feb5cf205825c047795f547f0edd1d59d98ece07b1b8c50c65cee30d6a7138988e601c0014c936e5c922f1924f19715bb1ee85a261e74ae623f7850b711292"
+RPM_NAME = "texlive-sectsty-doc-2026.226.2.0.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "faf15f6fbf3479e8133f0e2d45ef02a0991cf8a2719256a0a64e9f519c89bdce40394c53d269687021ea069afb849cff88e57028d2c97120208ee1b3c0947c7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sectsty-doc"

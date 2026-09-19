@@ -7,10 +7,10 @@ Further many macros and shortcuts are added, e.q. for spaces, \
 operators, physics unit, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2asvn45360"
+PV = "2026.226.1.2asvn45360"
 
-RPM_NAME = "texlive-fnspe-2023.209.1.2asvn45360-53.1.noarch.rpm"
-RPM_HASH = "f6c5f42ed89bf250c38ec270334c469bf9b5eb3fe7db201ed941f9bd44ea6f50dbb10d9afc254ce6484a0923c0a60a30a3db0cb2fd3477119e4a2ca7b4c2a1d7"
+RPM_NAME = "texlive-fnspe-2026.226.1.2asvn45360-60.2.noarch.rpm"
+RPM_HASH = "9422e2861177428d96c8efdd430232d2f43186e315dae08ece074286cde27ce981c1fc6e8d098363855bd9668cceff172d1f42d3da3dd92bed48b989aa61fb12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fnspe.sty \

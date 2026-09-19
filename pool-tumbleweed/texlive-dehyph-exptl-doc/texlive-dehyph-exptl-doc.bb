@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dehyph-exptl"
 DESCRIPTION = "This package includes the documentation for texlive-dehyph-exptl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9svn66390"
+PV = "2026.226.1.0svn72949"
 
-RPM_NAME = "texlive-dehyph-exptl-doc-2023.209.0.0.9svn66390-53.1.noarch.rpm"
-RPM_HASH = "2314e788d7ecf3c0ff8b2a0d6bea22eb1cec9df8b3de484959c4ae2494ad6471879b7bdbc1dddd0c314f3c707a684f6950a0fa07448d3ec43af7acda91f58d5c"
+RPM_NAME = "texlive-dehyph-exptl-doc-2026.226.1.0svn72949-59.2.noarch.rpm"
+RPM_HASH = "5ff2cf7d18587f007e2a881bb0c5a40e7933df70b9c401b45515dad86424bb8de9ade5622733b347a3b3175227277a8cef43e262aae08c6c0f3a1a34e3f7b2e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-dehyph-exptl-doc-de \

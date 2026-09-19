@@ -19,15 +19,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.0"
 
-RPM_NAME = "intelhex-2.3.0-1.4.noarch.rpm"
-RPM_HASH = "2ac7e4a9cd7cae9b9232952cd6ba89a18af76c16be970179ad0c52745c6bdf0dcecd451fd5e9d86035d231da8cfeb592e99460a0f78a45353af0f193afc158cf"
+RPM_NAME = "intelhex-2.3.0-2.4.noarch.rpm"
+RPM_HASH = "7dfecd8a8e91b7ce564627ae9c66b7ff33ca86fd22aba957d025326deff043aa63ef5f3760bfcf4696de2235e9f352db8fb1dc2c82392bea0288dadd6c1b6ab0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intelhex \
-python3.11dist-intelhex \
+python3.13dist-intelhex \
 python3dist-intelhex"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi"
 
 inherit rpm

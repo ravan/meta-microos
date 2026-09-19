@@ -3,22 +3,23 @@ DESCRIPTION = "This package provides a straightforward port of 'monadLib''s Base
 'transformers'."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.6"
+PV = "0.4.6.1"
 
-RPM_NAME = "ghc-transformers-base-0.4.6-2.3.aarch64.rpm"
-RPM_HASH = "879badc689ec79be4a378b7255a9c3513f7ce0a210271d5d0781a291028f9c399608a73293c43c4d537f84047a067de3af9749a1df0c57659030c3bbae9c2df9"
+RPM_NAME = "ghc-transformers-base-0.4.6.1-1.3.aarch64.rpm"
+RPM_HASH = "931dd7108f40bfcd6a348e386e10a241408440c88129070da75f622cc920a2f24246ce590af0fdda51980e188b5858870067230a01ce8db8d75bdf349ea707e2"
 
 RPROVIDES:${PN} += "ghc-transformers-base \
-libHStransformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44-ghc9.4.6.so"
+libHStransformers-base-0.4.6.1-AexBYmHB9CZDEWAojzlCzB-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSstm-2.5.1.0-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
-libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbase-orphans-0.9.4-2vMgOxDXOniBrPCxqNGyGO-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSstm-2.5.3.1-6d74-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
+libHStransformers-compat-0.7.2-Je4epVh1rXP8zT22dFNkMW-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

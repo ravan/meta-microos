@@ -8,10 +8,10 @@ understands BPF filter logic in the same fashion as more common packet \
 sniffing tools, such as tcpdump and snoop."
 LICENSE = "BSD-4-Clause"
 
-PV = "1.47"
+PV = "1.49.0"
 
-RPM_NAME = "ngrep-1.47-2.4.aarch64.rpm"
-RPM_HASH = "46d7f1a7987927d028fe3d9656dafdf08afccab1e9f2ebb7e850a78f543553217d82f2e6874f256521ba4189e2f90e86356a2f9861fd05f06939820f023c8830"
+RPM_NAME = "ngrep-1.49.0-1.4.aarch64.rpm"
+RPM_HASH = "c2a9e939267d3dd38b09d78cc1ce288492cd4f0a113c184c6551f6b0fe1c77a5679eb977ad69d439932e929cf63789dc47095e227feaac1a366d0a905950a15d"
 
 RPROVIDES:${PN} += "ngrep"
 

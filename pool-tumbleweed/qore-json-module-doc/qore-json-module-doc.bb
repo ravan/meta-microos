@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the HTML documentation and example programs
 json module."
 LICENSE = "MIT"
 
-PV = "1.8.2"
+PV = "1.9.0"
 
-RPM_NAME = "qore-json-module-doc-1.8.2-2.1.noarch.rpm"
-RPM_HASH = "ff2e636b6ab2b9b456a01568a074f809ee3962550fd4ceb4de2c52a11739aaeba5ee0a67302fde8d44841b2570c2572e052b0dc0967bcd5848d1a7d2c78b88da"
+RPM_NAME = "qore-json-module-doc-1.9.0-1.5.noarch.rpm"
+RPM_HASH = "4e6111cbc3cff031579e98e4ef329f91af6b72640ce404e951a32fcff75dd3317ea6e3797347a44bda1a84769048dec9607cb1f8a17cda6c428e5d2eb1cd44cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-json-module-doc"

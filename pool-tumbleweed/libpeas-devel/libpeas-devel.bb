@@ -3,23 +3,23 @@ DESCRIPTION = "libpeas is a gobject-based plugin engine, and is targetted at giv
 every application the chance to assume its own extensibility."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.36.0"
+PV = "1.38.1"
 
-RPM_NAME = "libpeas-devel-1.36.0-1.2.aarch64.rpm"
-RPM_HASH = "806d97daff28e113a260b825089c14784f1c2c679af07fe9056f09b21ee1b5b897baa259bd6b162ad52ff9521c906b9f73189dcdac197b7acf5d0af238d336e4"
+RPM_NAME = "libpeas-devel-1.38.1-1.3.aarch64.rpm"
+RPM_HASH = "29ac2660316574fcb5de5ce3f6741c5dfe241de5d4c8458d0c84658600c16e74004894ffafbea64dbb46ca5fedaed44e8100dbb6c549e3bdb58995935a7ee9d4"
 
 RPROVIDES:${PN} += "libpeas-devel \
 pkgconfig-libpeas-1.0 \
 pkgconfig-libpeas-gtk-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libpeas-1-0-0 \
-libpeas-gtk-1-0-0 \
+libpeas-1-0-1 \
+libpeas-gtk-1-0-1 \
 pkgconfig-gio-2.0 \
+pkgconfig-girepository-2.0 \
 pkgconfig-glib-2.0 \
 pkgconfig-gmodule-2.0 \
 pkgconfig-gobject-2.0 \
-pkgconfig-gobject-introspection-1.0 \
 pkgconfig-gtk+-3.0 \
 pkgconfig-libpeas-1.0 \
 typelib-1-0-Peas-1-0 \

@@ -7,14 +7,18 @@ vector and scalar files. \
 The vector files can e.g. be used to create plots of the results."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.9.4"
+PV = "2.0.11"
 
-RPM_NAME = "netperfmeter-1.9.4-1.1.aarch64.rpm"
-RPM_HASH = "802e9cdbc5ba26369becd27c35f1db580bd5cabf37045e2e9018786f438aef2f26c24542ab7cf999a23a3df69d9345b530743d2e9d096c4bf91d2c89ec75b0b9"
+RPM_NAME = "netperfmeter-2.0.11-1.1.aarch64.rpm"
+RPM_HASH = "4bc29f98853250e7005385c6478d4f85e36fd414234e1afc78fc7bd008511dade1cdd4b4aee31821e1bf3c08a411c2dbb80f644cab22a7be25f02d64bffac459"
 
-RPROVIDES:${PN} += "netperfmeter"
+RPROVIDES:${PN} += "config-netperfmeter \
+netperfmeter"
 
-RDEPENDS:${PN} += "libbz2.so.1 \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/sh \
+ld-linux-aarch64.so.1 \
+libbz2.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "string-template-maven-plugin-1.1-2.11.noarch.rpm"
-RPM_HASH = "c27a7561b012d2fc96d1fead8e5cf35c2a59d97150959015e042ee96211640b5c62ef92eb01017b89fa18f19868d8c0dae936bb012945822630a44b96e06de60"
+RPM_NAME = "string-template-maven-plugin-1.1-5.6.noarch.rpm"
+RPM_HASH = "9e2335b0072c4ed88c319ba8bde8cc4005da0f3b1172787d08dc4e61ce3f904ba4e833e944a0c1b2725a261b54d560d81d298326718b6dca49c95ee8acbb7d7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.webguys-string-template-maven-plugin \
@@ -18,6 +18,7 @@ RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-org.antlr-ST4 \
 mvn-org.apache.maven-maven-artifact \
+mvn-org.apache.maven-maven-compat \
 mvn-org.apache.maven-maven-core \
 mvn-org.apache.maven-maven-plugin-api \
 mvn-org.eclipse.aether-aether-util \

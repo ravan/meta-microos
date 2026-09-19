@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & AGPL-3.0-only"
 
 PV = "6.1.0"
 
-RPM_NAME = "yate-bts-6.1.0-2.11.aarch64.rpm"
-RPM_HASH = "332304281b1949693769bf435d25b307dafc90b1b05a9b1dc166ec14437780e91097c9ec2d5ce446b61cc8eeebf1efca2c58f86f46084ad2e77e365ea879c1dd"
+RPM_NAME = "yate-bts-6.1.0-3.10.aarch64.rpm"
+RPM_HASH = "3c2e2fee7305a4e38f64d88acccb070733976646d72ba46cb9bbdbd500d5248521d3152a990546fca3fa1ab387960ac0be8f0879522df9cb4b0724c627b65afb"
 
 RPROVIDES:${PN} += "config-yate-bts \
 yate-bts"

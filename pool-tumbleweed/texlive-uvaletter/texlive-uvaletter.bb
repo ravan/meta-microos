@@ -5,10 +5,10 @@ official Word template of the University and complies with the \
 University's house style."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn66330"
+PV = "2026.226.1.1.1svn66712"
 
-RPM_NAME = "texlive-uvaletter-2023.209.1.1.0svn66330-54.1.noarch.rpm"
-RPM_HASH = "37978a7bcd3aab25f5c96cd712d9c3ee0ea2b2a910fc1f42dc0a6949fed82933394d7b039da0debd738d50e9292b85c7a694232b1c44293e75f8c6447458702e"
+RPM_NAME = "texlive-uvaletter-2026.226.1.1.1svn66712-60.2.noarch.rpm"
+RPM_HASH = "99b5b5600394b27172b69e1615558ce0e271b2632c835bd33103ccef2ab2205f141cb764a466478586ad7a0d71f012c7f52a23c196ba4300393882d14709028d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uvaletter.sty \

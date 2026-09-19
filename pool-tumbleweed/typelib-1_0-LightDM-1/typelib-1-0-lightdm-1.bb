@@ -5,14 +5,15 @@ LICENSE = "LGPL-2.0-only | LGPL-3.0-only"
 
 PV = "1.32.0"
 
-RPM_NAME = "typelib-1_0-LightDM-1-1.32.0-2.3.aarch64.rpm"
-RPM_HASH = "bd3220d7bc81e1d9f66701ff73e7618958d809e51696f3b9917f4b96672547a4505548ec0bc27c808668b7db1c84197ce6362c31862aa5c0297a2b82f082b2e7"
+RPM_NAME = "typelib-1_0-LightDM-1-1.32.0-9.4.aarch64.rpm"
+RPM_HASH = "d4bbac96fc22d567b5fd5829f1b76cb0eca78fdec049c99b07c82841fc0004f61292bd2f9478c2db1d37433a1018a3f12136236bb3e35dcca5032ebad6d1bedc"
 
 RPROVIDES:${PN} += "typelib-1-0-LightDM-1 \
 typelib-LightDM"
 
 RDEPENDS:${PN} += "liblightdm-gobject-1.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

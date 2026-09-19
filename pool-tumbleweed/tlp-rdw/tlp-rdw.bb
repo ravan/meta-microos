@@ -1,15 +1,14 @@
 SUMMARY = "TLP Radio Device Wizard"
-DESCRIPTION = "TLP implements advanced power management for Linux. \
-TLP is a pure command line tool with automated background tasks. \
-It does not contain a GUI. \
- \
-Switch radios upon network connect/disconnect and dock/undock."
+DESCRIPTION = "Radio device wizard is an add-on to TLP. It provides event based \
+switching of Bluetooth, NFC, Wi-Fi and WWAN radio devices on: \
+ - network connect/disconnect \
+ - dock/undock"
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "1.5.0"
+PV = "1.10.2"
 
-RPM_NAME = "tlp-rdw-1.5.0-1.4.noarch.rpm"
-RPM_HASH = "cc0e865c7623062982ba1a5023f309a9aa00b5fcfe082af744464bcd91d46e8e05694fd471449d0b8439b0df06dd9242d2c981bc20743173cdcd5dd212972b47"
+RPM_NAME = "tlp-rdw-1.10.2-1.1.noarch.rpm"
+RPM_HASH = "3fef59794a94f51aaa461b77ce235999cca9934932b6e5d1fa86167d68f0431cd7b7493ce02971456c025cfc249d659c459ebe4c0186dba3adc8597fb72df72e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tlp-rdw"

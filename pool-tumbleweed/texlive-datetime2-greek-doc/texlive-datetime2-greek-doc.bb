@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-datetime2-greek"
 DESCRIPTION = "This package includes the documentation for texlive-datetime2-greek"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn47533"
+PV = "2026.226.1.1svn47533"
 
-RPM_NAME = "texlive-datetime2-greek-doc-2023.209.1.1svn47533-53.1.noarch.rpm"
-RPM_HASH = "184436a95ef482c2edb326a3f69ba0cdb5bb16d12a3bb300f8a9fccc86f3df5c9a8827e5fab89686314d46c8a9fe30424ca5777f6442eecad3025ea5d3dcf001"
+RPM_NAME = "texlive-datetime2-greek-doc-2026.226.1.1svn47533-59.2.noarch.rpm"
+RPM_HASH = "e743e423fbc2ba76ebf871cf71539c245dac71b880deea29f74c6b9e8bc4aafdf1d796795bb449314329d1f4a1462cf705eef5957281edb57c9551e43edbb8c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-datetime2-greek-doc"

@@ -1,16 +1,22 @@
-SUMMARY = "Hook scripts for the libvirtd daemon"
-DESCRIPTION = "Default hook scripts for the libvirt daemon"
+SUMMARY = "Hook scripts for QEMU"
+DESCRIPTION = "Hook scripts for the virtqemud daemon"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.7.0"
+PV = "12.7.0"
 
-RPM_NAME = "libvirt-daemon-hooks-9.7.0-1.1.aarch64.rpm"
-RPM_HASH = "41c03b8d74fc9f10f370484a23b065fa2762f248b8e96d3f896650978f869874f62b131a43eb7d3ab9b8bcf249e7157580c603a28d6aeb2c24d7a089b53c85bf"
+RPM_NAME = "libvirt-daemon-hooks-12.7.0-1.1.aarch64.rpm"
+RPM_HASH = "ada251482cbe53a21da312c6f100f72e8a56604f133fdcc25249706fe4c0646cf1650e93b7fb949d0cfd3e4764d49ad91bd8df41edbf8cf8e4eeb0e9c1f9a726"
 
 RPROVIDES:${PN} += "libvirt-daemon-hooks"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-libvirt-daemon \
-python3-lxml"
+/usr/bin/sh \
+libselinux-utils \
+libvirt-daemon-driver-qemu \
+policycoreutils \
+policycoreutils-python-utils \
+python3-lxml \
+selinux-policy \
+selinux-policy-base"
 
 inherit rpm

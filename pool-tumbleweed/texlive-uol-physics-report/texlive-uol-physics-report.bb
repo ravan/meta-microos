@@ -2,16 +2,16 @@ SUMMARY = "A LaTeX document class for writing lab reports"
 DESCRIPTION = "The package provides physics students at the University of \
 Oldenburg with a prepared document class for writing laboratory \
 reports for the laboratory courses conducted by the Institute \
-of Physics. The document class consists of predefinded margins \
+of Physics. The document class consists of predefined margins \
 and heading formats. Furthermore, it presets the headers of the \
 pages and excludes the titlepage and table of contents from the \
 page numbering."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn65761"
+PV = "2026.226.1.1svn76924"
 
-RPM_NAME = "texlive-uol-physics-report-2023.209.1.1svn65761-54.1.noarch.rpm"
-RPM_HASH = "b416ba1ba82e5ff136e838014c8be3a9ba8b2638d749a6325f44b2b762535f8f2f841b6b5f238018fcadac9a49ba464854fcf18f6321dbad3c4a37c2585d45c4"
+RPM_NAME = "texlive-uol-physics-report-2026.226.1.1svn76924-60.2.noarch.rpm"
+RPM_HASH = "064b0d86cc47d229cfbc92f0f5b81a7a0a01d8941e50b1e4442311799d021c6090a513eeb228343e57e9b59a99f241dc410340a85c6a6d013dc1df7d21ac79c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uol-physics-report.cls \

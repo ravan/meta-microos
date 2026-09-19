@@ -4,10 +4,10 @@ for YCP applications (YCP is the scripting language in which most YaST2 \
 modules are written)."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-ycp-ui-bindings-4.6.0-1.4.aarch64.rpm"
-RPM_HASH = "6692fea61e1266d6ce52334614d0699bb08c7f4088412390bf0fb37fbd1d25dca90c1e17f9ddc1b97cada63101a129d3e3765ce07afc2118edc96898911b8359"
+RPM_NAME = "yast2-ycp-ui-bindings-5.0.1-1.8.aarch64.rpm"
+RPM_HASH = "20e49dbe1f25e89c119f86095a26f44876a19149d2a5ff121f6327fdc5103e150e2b7b9e550eb5ee9369248aca86f1a4e386ccbe5656895b9a6a7d3f48387ead"
 
 RPROVIDES:${PN} += "libpy2UI.so.2 \
 yast2-ycp-ui-bindings"

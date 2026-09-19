@@ -5,13 +5,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.07"
 
-RPM_NAME = "uucp-xinetd-1.07-5.1.aarch64.rpm"
-RPM_HASH = "93536844c389d899aaf1d69ce6fcc01b7c3f7857e887eb9fe7f39f6be41c2f8ae0caa995b32f4a6944904e2864fc68550e66840cfedc94e480513ea31e52f624"
+RPM_NAME = "uucp-xinetd-1.07-10.1.aarch64.rpm"
+RPM_HASH = "562c26d062d70a3bb2f932bef8e7600318ac930826834451bfbb7261fe21d06202b8fec47abf5838daa2a427c5efef6f8df90c0d4f0b191d12114e90bb8c2e65"
 
 RPROVIDES:${PN} += "config-uucp-xinetd \
 uucp-xinetd"
 
-RDEPENDS:${PN} += "uucp \
+RDEPENDS:${PN} += "group-uucp \
+user-uucp \
+uucp \
 xinetd"
 
 inherit rpm

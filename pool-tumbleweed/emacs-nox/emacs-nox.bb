@@ -6,33 +6,31 @@ emacs-nox \
 Love it or leave it."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "29.1"
+PV = "31.1"
 
-RPM_NAME = "emacs-nox-29.1-3.1.aarch64.rpm"
-RPM_HASH = "5b48465c411cb5702b7e9151fa38b18bd2874b7aa032601b1e30f17b8e941d2dc21a9557aaaa7501c28910657671b28871f7d5082864ec0940b34a087caedf30"
+RPM_NAME = "emacs-nox-31.1-3.1.aarch64.rpm"
+RPM_HASH = "892e909e9d7d21a858adf70f36427f4c8105e48adb8d6b8fe468d47ab8c2e68c9e616ddd31f01c75027e7d36641baf13af8b25ca0cc5517c63a0b1eecd4505aa"
 
 RPROVIDES:${PN} += "emacs-nox \
 emacs-program"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-emacs \
+RDEPENDS:${PN} += "emacs \
 emacs-eln \
 fileutils \
 ld-linux-aarch64.so.1 \
 libacl.so.1 \
 libc.so.6 \
+libgccjit.so.0 \
 libgmp.so.10 \
 libgnutls.so.30 \
 libgpm.so.2 \
-libjansson.so.4 \
 liblcms2.so.2 \
 libm.so.6 \
-libselinux.so.1 \
 libsqlite3.so.0 \
 libsystemd.so.0 \
 libtinfo.so.6 \
-libtree-sitter.so.0 \
-libxml2.so.2 \
+libtree-sitter.so.0.26 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

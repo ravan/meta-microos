@@ -14,13 +14,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.11"
 
-RPM_NAME = "perl-File-Sync-0.11-10.39.aarch64.rpm"
-RPM_HASH = "33f1c854f88a6fc860f6e136dd31faf54d1d2e966bb10058fcf0345a649d88d4f565bdeeb9a424651fec9d9a07c69b97cf514c2f8ef81787e0c454f6b0365821"
+RPM_NAME = "perl-File-Sync-0.11-10.56.aarch64.rpm"
+RPM_HASH = "4174e60bc86bdd6517181f98e6b6c04d5ca053bae1d434fb2ec712ff835be4b17640c5876ea442d9d974e74754d4fe390520badf72043c273b6ad7d62c4c301a"
 
 RPROVIDES:${PN} += "perl-File--Sync \
 perl-File-Sync"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -10,10 +10,10 @@ been adjusted to more closely match Adobe Palatino, and hinting \
 has been improved."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn55286"
+PV = "2026.226.1.0.1svn77682"
 
-RPM_NAME = "texlive-domitian-2023.209.1.0.1svn55286-53.1.noarch.rpm"
-RPM_HASH = "e8f6ab55739521356ab3c9b245a64567760775800de08831682d0086040e62b65bab4a6b32f3e0c71c744db377b4a19424959df687dddfb1788dac2ccf1e2225"
+RPM_NAME = "texlive-domitian-2026.226.1.0.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "fc297b7645d52b9e3f330308074c02d271691bad477ad599efdaf9e3337ec6dbb22ff1004fbfca4993a05102755338691d7687cf12eb3f52ccb85624f47c93d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Domitian-Bold-inf-lgr--base.tfm \

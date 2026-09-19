@@ -2,10 +2,10 @@ SUMMARY = "Sink-api module for maven-doxia"
 DESCRIPTION = "This package provides Sink-api module for maven-doxia."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.1"
+PV = "2.1.0"
 
-RPM_NAME = "maven-doxia-sink-api-1.9.1-6.8.noarch.rpm"
-RPM_HASH = "a94584fc1e3d66d1bc25c1b9792f162764e4b31d234760365e1f6b23355957a4a623f3f124307fcb4eefa2bd3face0f2d8c953258aae802cd184c3e9e74e85a5"
+RPM_NAME = "maven-doxia-sink-api-2.1.0-1.3.noarch.rpm"
+RPM_HASH = "a765991f795b6addc23590b587b37c5ad20bb6e7398fb227fa62ff13c8f9767e0fdd08d7acf09ed93ec43424333ae5b4fd327b16c4545dd7530f184e1cbe0705"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-sink-api \
@@ -13,7 +13,6 @@ mvn-org.apache.maven.doxia-doxia-sink-api \
 mvn-org.apache.maven.doxia-doxia-sink-api-pom-"
 
 RDEPENDS:${PN} += "java-headless \
-javapackages-filesystem \
-mvn-org.apache.maven.doxia-doxia-logging-api"
+javapackages-filesystem"
 
 inherit rpm

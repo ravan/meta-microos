@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20200619"
 
-RPM_NAME = "patterns-sway-sway-20200619-6.1.aarch64.rpm"
-RPM_HASH = "105835be668fdcb4e80d13e581998c18861c5229190717994ba1be472adfae1955efe66eaab1fd71cd8389b86bbb04725065abc98164d4838d43bbd8f0bab260"
+RPM_NAME = "patterns-sway-sway-20200619-6.9.aarch64.rpm"
+RPM_HASH = "a3bb9a495908873df9e4065b085f173334b7a4f8a5b29c8d503fd98a850541de8d97c68fc35a9c6a8986914d84db08f8e4498a11061389f548a9b9f883ec3c0a"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

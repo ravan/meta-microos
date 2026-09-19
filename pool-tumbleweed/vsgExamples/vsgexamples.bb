@@ -2,10 +2,10 @@ SUMMARY = "3D graphics toolkit"
 DESCRIPTION = "Example programs that test and illustrate how to use the VulkanSceneGraph and optional add-on libraries"
 LICENSE = "MIT"
 
-PV = "1.0.6"
+PV = "1.0.7"
 
-RPM_NAME = "vsgExamples-1.0.6-1.1.aarch64.rpm"
-RPM_HASH = "8804bb2d93220433dd1243f9225d97af07faa2ca3db6e862a1a93ffd0816c41dd044c3ae143698d22b2891fa831e5068a3f8705098070b94d8da7e200a4d9cc0"
+RPM_NAME = "vsgExamples-1.0.7-1.10.aarch64.rpm"
+RPM_HASH = "abe22d16f9d94be91f4d753c1e2a382ad7383cade59f5e2b9ab7747f7e229aee1ab4c4d953a0861376306be2092cca8b9b93b515f002cce92f98e4f96bb488a9"
 
 RPROVIDES:${PN} += "config-vsgExamples \
 vsgExamples"

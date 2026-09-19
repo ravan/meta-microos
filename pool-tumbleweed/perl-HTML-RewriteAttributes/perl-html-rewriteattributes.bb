@@ -1,4 +1,4 @@
-SUMMARY = "Concise Attribute Rewriting"
+SUMMARY = "Concise attribute rewriting"
 DESCRIPTION = "'HTML::RewriteAttributes' is designed for simple yet powerful HTML \
 attribute rewriting. \
  \
@@ -6,13 +6,16 @@ You simply specify a callback to run for each attribute and we do the rest \
 for you. \
  \
 This module is designed to be subclassable to make handling special cases \
-eaiser. See the source for methods you can override."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+easier. See the source for methods you can override. \
+ \
+See the SYNOPSIS above and included tests in the 't' directory for more \
+examples."
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.05"
+PV = "0.60.0"
 
-RPM_NAME = "perl-HTML-RewriteAttributes-0.05-8.22.noarch.rpm"
-RPM_HASH = "4279705f88d3d6c2b04064c2dee62a06d4dc955bf233f70f852da63369b73ae1c57e6ce7dabd175b4b009a1fbde16620048a569f117f4d574aa5aa5f004fadaf"
+RPM_NAME = "perl-HTML-RewriteAttributes-0.60.0-1.10.noarch.rpm"
+RPM_HASH = "f31e92415ed941ebe457a081c632601d0cd24e376ed0e7e7e234aa319f52212abb33c41c22df9f896906e336c8f449ee7f5265ba6912e3605fb9bc6e89b265d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--RewriteAttributes \
@@ -20,7 +23,7 @@ perl-HTML--RewriteAttributes--Links \
 perl-HTML--RewriteAttributes--Resources \
 perl-HTML-RewriteAttributes"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTML--Entities \
 perl-HTML--Parser \
 perl-HTML--Tagset \

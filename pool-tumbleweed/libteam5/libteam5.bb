@@ -7,10 +7,10 @@ a lightweight mechanism for bonding multiple interfaces together. \
 It is a userspace-driven alternative to the existing bonding driver."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.31"
+PV = "1.32"
 
-RPM_NAME = "libteam5-1.31-4.1.aarch64.rpm"
-RPM_HASH = "0a57c71de3a6f1e29b4054b60a863465db77a75657b5d8657179f30a2c8aacdcdc404935d06fc99626fe0c2ba58b5d731545c5572ea7545a1ce8f45ec460a11e"
+RPM_NAME = "libteam5-1.32-2.10.aarch64.rpm"
+RPM_HASH = "089c9a5424626be462fdd8b5bc0eef0710c91b442c988db2dd588efffac13a4e49852cbb50b54bd5adf5895a649b0967f1536ed14297bc41713128b383738b8e"
 
 RPROVIDES:${PN} += "libteam.so.5 \
 libteam5"

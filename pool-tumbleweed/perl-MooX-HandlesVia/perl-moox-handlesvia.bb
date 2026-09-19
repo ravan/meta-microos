@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.001009"
 
-RPM_NAME = "perl-MooX-HandlesVia-0.001009-1.14.noarch.rpm"
-RPM_HASH = "c293bdbb038cff9e3ee0e44537546273671933179f3f2b3f01e88467fab5c8565191d2b6752366e06338e260f0ac674504f859d5c4d27eaea11b0e6ea592fbbe"
+RPM_NAME = "perl-MooX-HandlesVia-0.001009-1.28.noarch.rpm"
+RPM_HASH = "46642c41602257eed74c5568a003c4b3bb499336c75a56166bf9cd6b0720f3c2141836b1a1691c91b8bb80dcd150d3b0072d3140fb34066fee348eb840226413"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Perl--Bool--MooseLike \
@@ -20,7 +20,7 @@ perl-Data--Perl--String--MooseLike \
 perl-MooX--HandlesVia \
 perl-MooX-HandlesVia"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Method--Modifiers \
 perl-Data--Perl \
 perl-Module--Runtime \

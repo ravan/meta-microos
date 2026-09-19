@@ -2,10 +2,10 @@ SUMMARY = "Device Mapper Tools"
 DESCRIPTION = "Programs and man pages for configuring and using the device mapper."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.03.16_1.02.185"
+PV = "2.03.38_1.02.212"
 
-RPM_NAME = "device-mapper-2.03.16_1.02.185-8.1.aarch64.rpm"
-RPM_HASH = "65e7375538fb477464b22aca4707016b6a53723f93ef7632fa33ca0574edcd6b6b38afdade106e9cec6600cf1a636249eef68b6885eb1eb3439fb28b4fc1af3d"
+RPM_NAME = "device-mapper-2.03.38_1.02.212-2.5.aarch64.rpm"
+RPM_HASH = "121acdd9acbf06083f00cb97fcafd55f98327cb9ec7a5d1ea785dfbe0ed67dbcf0b3707704e3b32f34678e8224c0ae05fd093a3ad588c349b5d151bc1990f37e"
 
 RPROVIDES:${PN} += "device-mapper"
 

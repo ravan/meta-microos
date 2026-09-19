@@ -5,10 +5,10 @@ coloured. For a more 'vanilla-flavoured' way of typesetting \
 base sequences, the user might consider the seqsplit package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn17194"
+PV = "2026.226.0.0.01svn17194"
 
-RPM_NAME = "texlive-dnaseq-2023.209.0.0.01svn17194-53.1.noarch.rpm"
-RPM_HASH = "2a46e838992c7d6b8026cde07a8a277ee538c7619abf97c6131f7a79e20942a2c6e5d9dd7e64caae3c0b82f16817d5681e91d717e212ed6a538c02c2d570d184"
+RPM_NAME = "texlive-dnaseq-2026.226.0.0.01svn17194-59.2.noarch.rpm"
+RPM_HASH = "0e25c898e40db550feee5a09c38fabe585bc297ec3e610ff955880cb44ba11245beadc2350de56c9772fb385afdeea4f29333f0968d1fe1e5bef77b0fe27794d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dnaseq.sty \

@@ -4,10 +4,10 @@ DESCRIPTION = "uWSGI is a self-healing application container server coded in pur
 This package contains support for libffi."
 LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "2.0.21"
+PV = "2.0.31"
 
-RPM_NAME = "uwsgi-libffi-2.0.21-3.2.aarch64.rpm"
-RPM_HASH = "e2bce7352bb9046ff4008477395c5e1b3c4da28c563462bd5873039f9e897148a9610e0839bb7a88eedb158178fcf61fef33371cd19392b1258aab96fa61c56d"
+RPM_NAME = "uwsgi-libffi-2.0.31-4.4.aarch64.rpm"
+RPM_HASH = "c36c1dad77b6dbe37c2924847b3578eb834395c8da83560b15e40a5e177e113bc16474190b3a9793d364028c819d48264152aa4a6ca4a6615f4d8190e0e24088"
 
 RPROVIDES:${PN} += "libffi-plugin.so \
 uwsgi-libffi"

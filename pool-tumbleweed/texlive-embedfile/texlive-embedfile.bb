@@ -5,10 +5,10 @@ operation used by the attachfile and attachfile2 packages). \
 Currently only pdfTeX >=1.30, in PDF mode, is supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.12svn65528"
+PV = "2026.226.2.13svn77682"
 
-RPM_NAME = "texlive-embedfile-2023.209.2.12svn65528-54.2.noarch.rpm"
-RPM_HASH = "474ede1d127df5d55ab52fd990d24126a6529a4bafe5710e0163da63fbebeec08a88171b6a39cf0d9f5a9a1e9642563692bc87154edf446e578a2bcdfb2010e8"
+RPM_NAME = "texlive-embedfile-2026.226.2.13svn77682-61.4.noarch.rpm"
+RPM_HASH = "74b4ac73df9bb80c79bdbd71061648564dd3cbb99bf7b859961d670ac93ce0e6888064aa35354f34f5adee74f9a94c7734c726336febb9c00023417a7edf33fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dtx-attach.sty \

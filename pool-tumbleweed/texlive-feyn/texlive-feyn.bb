@@ -7,10 +7,10 @@ at a matching size. The fonts are distributed as Metafont \
 source, and macros for their use are also provided."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.0.0.4.3svn63945"
+PV = "2026.226.0.0.4.3svn63945"
 
-RPM_NAME = "texlive-feyn-2023.209.0.0.4.3svn63945-53.1.noarch.rpm"
-RPM_HASH = "e8588b8a0d470748b4007d0dc1ea1da46770f3ca66b1579838a04d334df9311540675726f979f7d65cdb5134365883f90d635a2953d22f384a7f1a7b7f4b03be"
+RPM_NAME = "texlive-feyn-2026.226.0.0.4.3svn63945-59.2.noarch.rpm"
+RPM_HASH = "af4cd2c04918a9256686c6bc6952206682f2b94f52fcb6c4b4e348333ea9a3fffad0350eac8580710ff0f8f95d71bf7a3892af3110a970b5ff3a704b92d97a68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-feyn.sty \

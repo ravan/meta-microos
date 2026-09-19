@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The http-spi module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.51"
+PV = "9.4.58"
 
-RPM_NAME = "jetty-http-spi-9.4.51-2.1.noarch.rpm"
-RPM_HASH = "c28ae6b007f62f21c08954c3a7abfe3ff473ae96f76f8b6c6c4a1862fc2698d3e287a84529f638a3c521e2de680fd265db12aa41f9efe5a64922eda9ff5fac30"
+RPM_NAME = "jetty-http-spi-9.4.58-5.1.noarch.rpm"
+RPM_HASH = "d7faaa1e6b9207b51d0969dc1c62a55246f7cd4c6033a8836a0f03a926ee71b2501a00c13c3a39304024da181a10e3a056e944b3c9ed20f1f8a6c9fc6d82618a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-http-spi \

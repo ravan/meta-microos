@@ -4,14 +4,14 @@ DESCRIPTION = "CLASS and $CLASS are both synonyms for __PACKAGE__. Easier to typ
 $CLASS has the additional benefit of working in strings."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.1.7"
+PV = "1.1.8"
 
-RPM_NAME = "perl-CLASS-1.1.7-1.9.noarch.rpm"
-RPM_HASH = "18211147a71e417723aaaaad4f36b64899ff35abf3fe2a2150268bba9f95dcf039c3f724757120d9ea7c924578cf31c2238f2e8bb18b67941349f9c578a07f04"
+RPM_NAME = "perl-CLASS-1.1.8-1.15.noarch.rpm"
+RPM_HASH = "f3e2d59126baaae70651ce9decf0afa86bb06aa9445446e3962a9920a8968f6dbc0c3fecd7b855a3939d52ab4765a28ed31b73c4bdc4522af86e3d8df2aad3e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CLASS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

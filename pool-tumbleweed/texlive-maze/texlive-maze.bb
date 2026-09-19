@@ -5,10 +5,10 @@ solution is not too obvious. The output it based on the picture \
 environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2svn65508"
+PV = "2026.226.1.2svn76924"
 
-RPM_NAME = "texlive-maze-2023.208.1.2svn65508-53.1.noarch.rpm"
-RPM_HASH = "088ba4fa3efd0d6d3ba25a362cb5598c8635b554ee68a438e440d510be91e696ddbeda630a2004aadc2aecd68034ab4067a922a00b1fcd7e3722c70f17cc0f09"
+RPM_NAME = "texlive-maze-2026.226.1.2svn76924-59.2.noarch.rpm"
+RPM_HASH = "395b1cd0ae7d4f08dee1fe0f5f1717053276986e18f98d6674e57907347d829b772b5bcdbff01170ad6538dfc207a0d404ae7e1fa645e7352ebbf2c5de67f31d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-maze.sty \

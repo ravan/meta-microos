@@ -3,27 +3,32 @@ DESCRIPTION = "libalkimia is a library with common classes and functionality use
 applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "8.1.1"
+PV = "8.2.1"
 
-RPM_NAME = "alkimia-8.1.1-1.5.aarch64.rpm"
-RPM_HASH = "547b46831b818bcd3d90541b1ff757279bb9017bde70cd9b27e181c98e2f78aa896fc6db022833e5ea79156e801fcaef2a9ab2276ee99c0ec9de995d00d8a598"
+RPM_NAME = "alkimia-8.2.1-1.6.aarch64.rpm"
+RPM_HASH = "30ec266b63c8df0887007e3307b7a22629667977d86c264709edd8a8be3224bc1ab6154adeba618c415463be4012ee5ea2cd48b8de04b380b2721e4b3691de11"
 
 RPROVIDES:${PN} += "alkimia \
-libqmlalkimia.so \
-qt5qmlimport-org.kde.alkimia.1"
+libqmlalkimia6.so \
+qt6qmlimport-org.kde.alkimia6 \
+qt6qmlimport-org.kde.alkimia6.1"
 
-RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5Widgets.so.5 \
-libalkimia5.so.8 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Widgets.so.6 \
+libalkimia6.so.8 \
 libc.so.6 \
 libgcc-s.so.1 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6qmlimport-QtQuick.2 \
+qt6qmlimport-QtQuick.Layouts.1 \
+qt6qmlimport-org.kde.plasma.configuration.2 \
+qt6qmlimport-org.kde.plasma.core.2 \
+qt6qmlimport-org.kde.plasma.plasmoid.2"
 
 inherit rpm

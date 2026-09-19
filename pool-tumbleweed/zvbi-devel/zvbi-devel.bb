@@ -4,10 +4,10 @@ provides routines to read from raw VBI sampling devices, to demodulate raw to \
 sliced VBI data, and to interpret the data of several popular services."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.2.42"
+PV = "0.2.45"
 
-RPM_NAME = "zvbi-devel-0.2.42-1.1.aarch64.rpm"
-RPM_HASH = "d5024d5eff8fd05c927f1d1e3d7426eac543991bef912009cbef14269e6d8f988a884554e23ec694d68bb4457575b156077ffd130f8d34f5724dcac21c9c5564"
+RPM_NAME = "zvbi-devel-0.2.45-1.1.aarch64.rpm"
+RPM_HASH = "816751e52a031a0f40f8baae64925d783cb41a47c14438fb86e51c1aa533ad4e8048d79763946593126f0416242194011ec3ef6155c6ef3e5a762901599d3ea2"
 
 RPROVIDES:${PN} += "pkgconfig-zvbi-0.2 \
 zvbi-devel"

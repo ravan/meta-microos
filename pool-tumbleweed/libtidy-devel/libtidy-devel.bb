@@ -5,8 +5,8 @@ LICENSE = "W3C"
 
 PV = "5.8.0"
 
-RPM_NAME = "libtidy-devel-5.8.0-1.8.aarch64.rpm"
-RPM_HASH = "3b5f95095a1bb87dbb2e9a74b209902d8b9bdd88ab0924c95c8126a94f2211229f3467cda8dfc4b7607fef675de19b50bd651b30b223d9b9356b9a24b28a28a9"
+RPM_NAME = "libtidy-devel-5.8.0-2.5.aarch64.rpm"
+RPM_HASH = "410914e082dff08e497ef970dd09eec1220f8025e71ead7ada1402d383c67bf3ecb2f833f44169a1f25b8d61b6301c174e4c009b47f8eac1793426a9abc0e956"
 
 RPROVIDES:${PN} += "libtidy-devel \
 pkgconfig-tidy"

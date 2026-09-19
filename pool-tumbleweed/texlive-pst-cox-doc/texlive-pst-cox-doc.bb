@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-cox"
 DESCRIPTION = "This package includes the documentation for texlive-pst-cox"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.0.0.98_betasvn15878"
+PV = "2026.226.0.0.98_betasvn15878"
 
-RPM_NAME = "texlive-pst-cox-doc-2023.209.0.0.98_betasvn15878-53.1.noarch.rpm"
-RPM_HASH = "78464c8bbc36b9027e9ef86aca2e4869d010d1498ca06f758137c3b9fe38f3c533c1b84c5e9a883fa20304dfcaf1321ac103a30cf81de5f2a507e305081f6c51"
+RPM_NAME = "texlive-pst-cox-doc-2026.226.0.0.98_betasvn15878-59.2.noarch.rpm"
+RPM_HASH = "d83e57dab0839e6007c53fc588769d148a0037fe886d44f61e6a0bffa311c4b3a907d385184d85dbe97af599a17dd641b98e374f1621d71bf47195c8713c4501"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-cox-doc-en \

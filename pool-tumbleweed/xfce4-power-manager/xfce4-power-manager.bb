@@ -9,17 +9,16 @@ Furthermore, it provides a standardized inhibit interface which allows \
 applications to prevent automatic sleep actions via the power manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.2"
+PV = "4.20.1"
 
-RPM_NAME = "xfce4-power-manager-4.18.2-1.1.aarch64.rpm"
-RPM_HASH = "5db6f98e23b9b8897d35942ebc1b9354ad5e5ee172562715a689333d9357c44c85b0833daec4cad8958749847cbbc23ffe6ab9ba9914916b1e566c0e608107e2"
+RPM_NAME = "xfce4-power-manager-4.20.1-1.1.aarch64.rpm"
+RPM_HASH = "46454272b6b2382f5c46b3551ae9297f13d3ad1086043e6ef68b38c31556e32ed6b2b9fee5d251ab295bb5fbd4c5a18579b7329072bf8beb51f9731b3ed1200f"
 
 RPROVIDES:${PN} += "config-xfce4-power-manager \
 xfce4-power-manager \
 xfce4-power-manager-doc"
 
-RDEPENDS:${PN} += "/usr/bin/pkexec \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXext.so.6 \
 libXrandr.so.2 \
@@ -36,9 +35,11 @@ libnotify.so.4 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libupower-glib.so.3 \
+libwayland-client.so.0 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \
 libxfconf-0.so.3 \
+pkexec \
 systemd \
 upower"
 

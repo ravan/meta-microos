@@ -2,10 +2,10 @@ SUMMARY = "Croatian localization files for LibreOffice"
 DESCRIPTION = "Provides Croatian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-hr-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "daf65547a85f103274256b3a62a642e52db242104b7b945830b4c8aa96f1aa42bbb6851ae7c84c6643ec0da914c51e7749b31f5f85ee88aa44c2b9cf22a2e4d1"
+RPM_NAME = "libreoffice-l10n-hr-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "b88c51c5b299058788eac3b86e49e3bed0b7f1287e5e761fcac686f92a255378b9fed68a4281f887d08e3423a0801648030fde5928f8780c6d1fd326eddb2c93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-hr \

@@ -2,10 +2,10 @@ SUMMARY = "Development package for the GnuTLS C API"
 DESCRIPTION = "Files needed for software development using gnutls."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.8.1"
+PV = "3.8.13"
 
-RPM_NAME = "libgnutls-devel-3.8.1-1.1.aarch64.rpm"
-RPM_HASH = "29ccfc9d120f01a628a2afbce5a7c02b2a20eb11aed0494b13f9adfafde309a887bdfd8c1f76b984e7dc15da729a7fff0d23554d85d8945cb3f79d602086af77"
+RPM_NAME = "libgnutls-devel-3.8.13-3.1.aarch64.rpm"
+RPM_HASH = "84c0d80190f7898445299d24f6c6f84c77a83d5d8a076b76763b4a858ef95511b2c36c9ec0d7cc39aaaeb13de41196058d53500cae2bd5e99cec9c88423b9a41"
 
 RPROVIDES:${PN} += "gnutls-devel \
 libgnutls-devel \
@@ -17,10 +17,10 @@ glibc-devel \
 gnutls \
 libgnutls30 \
 pkgconfig-hogweed \
+pkgconfig-leancrypto \
 pkgconfig-libidn2 \
 pkgconfig-libtasn1 \
 pkgconfig-nettle \
-pkgconfig-p11-kit-1 \
-pkgconfig-zlib"
+pkgconfig-p11-kit-1"
 
 inherit rpm

@@ -3,13 +3,13 @@ DESCRIPTION = "This package contains the libraries and header files needed for \
 developing applications with libsvm."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.30"
+PV = "3.36"
 
-RPM_NAME = "libsvm-devel-3.30-1.6.aarch64.rpm"
-RPM_HASH = "866bac910118379e090da04bd801132b9a4d21ecc6cb31dac087433cfeb471bfa22f28d61eabf5869e3469a81b2be985532ad2b7833c2b572df5f7389ed0cd3e"
+RPM_NAME = "libsvm-devel-3.36-1.6.aarch64.rpm"
+RPM_HASH = "9d3a1a8f9d6385211448550370cdf6d69916700d2d742f6475ab3f7bab27d293906aa1ac80a659614fa0fe5c86ac19edd1d9ef76f188d6226d300379cc6eb06f"
 
 RPROVIDES:${PN} += "libsvm-devel"
 
-RDEPENDS:${PN} += "libsvm3"
+RDEPENDS:${PN} += "libsvm4"
 
 inherit rpm

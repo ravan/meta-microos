@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "icinga-l10n-1.2.0-1.2.noarch.rpm"
-RPM_HASH = "8137af44aa9d5425bacfae0ae70999c8c031925cabdae19807a434cd0fa19dd0c115a583b95ebeaea8ffcc13072dbcfbd70fea8544a7c4966bb7ad97304f54bc"
+RPM_NAME = "icinga-l10n-1.2.0-1.10.noarch.rpm"
+RPM_HASH = "507e3b7fbc2d1b808b0447bd139f2e6d5378e9b5c0297cc48e20513c3d47b5e3c6c565a6dcbbe70d61e8e481ee8fe661713f3abd43765c5967431a9f287f966b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icinga-l10n"

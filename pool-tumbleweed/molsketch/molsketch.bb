@@ -7,26 +7,27 @@ Features: \
  * print and export your document to PDF"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.0"
+PV = "0.8.4"
 
-RPM_NAME = "molsketch-0.8.0-1.1.aarch64.rpm"
-RPM_HASH = "3440cb5103b326d440c61a48859abfb23952b214076ad5fb2eaafbdfc2d9f24f845970943dc0a3af19e683415d7b04d00f1e02a5a8614228c0ff82f0dad70ba3"
+RPM_NAME = "molsketch-0.8.4-1.1.aarch64.rpm"
+RPM_HASH = "f1840f5e40407ae7218388a2994d654337562c596d8010044b46268304dd101fc3169ed03008ef27d52bbbc13b674dece3cdea716dc94bf92e3b98774868b72a"
 
 RPROVIDES:${PN} += "libmolsketch.so \
+libmskcore.so \
 libobabeliface.so \
 molsketch"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libopenbabel.so.7 \
+libopenbabel.so.8 \
 libstdc++.so.6"
 
 inherit rpm

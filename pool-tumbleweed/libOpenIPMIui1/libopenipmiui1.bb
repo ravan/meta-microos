@@ -3,10 +3,10 @@ DESCRIPTION = "The user-level library that provides a higher-level abstraction o
 IPMI and generic services."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.31"
+PV = "2.0.37.13+git.1181df8"
 
-RPM_NAME = "libOpenIPMIui1-2.0.31-5.14.aarch64.rpm"
-RPM_HASH = "668cb2e4cffb4d440c73f9db4bc9d2b5a846066b3b90bcd1113f50acfadbe910a45b9b6a00344b62bdd8c52334be76e702245c7b72a028664968c7a846fde2ce"
+RPM_NAME = "libOpenIPMIui1-2.0.37.13+git.1181df8-1.6.aarch64.rpm"
+RPM_HASH = "7de824fcecb492552f5156e1f1affb20315f28cc8bb890a4238b2c6a500efb10003e08b93ec1e7adc31c1eb26390f84121413db7d78527095bc31c2a30be7620"
 
 RPROVIDES:${PN} += "libOpenIPMIui.so.1 \
 libOpenIPMIui1"

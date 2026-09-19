@@ -6,10 +6,10 @@ class is based on the KOMA-Script class scrbook.cls. There can \
 be several index entries for one experiment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-labbook-2023.209.svn15878-56.1.noarch.rpm"
-RPM_HASH = "0796e898b66f8d42a84ef2d874e8b78d4c69cff6437fab3ed261a42724c46c6c722571c4804cf0c6b864a71d9ee24125d34e39c13bc58683f87b3d9d640fa0a8"
+RPM_NAME = "texlive-labbook-2026.226.svn15878-63.2.noarch.rpm"
+RPM_HASH = "9f770bf20310d7db55d992252484754ecdc575edf70e206e68c73c1761196bd7ba910e6c712e178fad4358a1d86183d4992611d40e03b765a332a6d03ffe331e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-labbook.cls \

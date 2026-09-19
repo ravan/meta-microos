@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-isotope"
 DESCRIPTION = "This package includes the documentation for texlive-isotope"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn23711"
+PV = "2026.226.0.0.3svn23711"
 
-RPM_NAME = "texlive-isotope-doc-2023.209.0.0.3svn23711-56.1.noarch.rpm"
-RPM_HASH = "2de2e003c5f70574742b350a40c7de18f759cdb4afd755a2bbbf9f5e06732a3bdca76903b485666da31c6c8d2ac8c81fd8a6976d3a7ac4f6ca0465c522f53fcb"
+RPM_NAME = "texlive-isotope-doc-2026.226.0.0.3svn23711-63.2.noarch.rpm"
+RPM_HASH = "516aaec1db253dc2d6346ff1b079938e154280d88dabc0fbf409483151a4e37c4e3d7b559e48ea66a455a9fd549aedd314dc2b8d576d8508827cdf1ba209a15a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-isotope-doc"

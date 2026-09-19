@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing policycoreutils"
 DESCRIPTION = "This package contains the symlinks to provide policycoreutils with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-policycoreutils-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "0020d3233000da4af6a6194f085f7c41746cc278820f64a0b0a2fa7a40806cc9cbfd04cf0ff575822306b9bc8cf7cb1261996a23cacecfdc5ca42871735cf83e"
+RPM_NAME = "busybox-policycoreutils-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "e8be394a570e3a51372a0ec2aa364cf1922790d6fe6733ee4985c52292449fe89af25c141208c61bd13786d033d118bc8a223691470b6a2c67a7b84f473d38fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-policycoreutils"

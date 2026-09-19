@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.15.2b"
 
-RPM_NAME = "abxtest-0.15.2b-2.15.aarch64.rpm"
-RPM_HASH = "1af2bd35c3c752f551b6bdd29b57c14eb1182f0293f1e7c91bd80db5cc1d077654d33f91e7ae1e282cb26702f49c016921aa44faaeb4fc05236b1154c8ba7314"
+RPM_NAME = "abxtest-0.15.2b-3.11.aarch64.rpm"
+RPM_HASH = "2f812e54e183a2f10e88357ba5433b3bab533101531799fdd2ddb7c494befb573c6ae36f045ce7fa2045d467c939dd1dabd8a8996a875234afb4f19b1c3c7976"
 
 RPROVIDES:${PN} += "abxtest"
 

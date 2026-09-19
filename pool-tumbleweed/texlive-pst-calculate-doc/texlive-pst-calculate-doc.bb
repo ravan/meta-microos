@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-calculate"
 DESCRIPTION = "This package includes the documentation for texlive-pst-calculate"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn49817"
+PV = "2026.226.0.0.02svn77682"
 
-RPM_NAME = "texlive-pst-calculate-doc-2023.209.0.0.02svn49817-53.1.noarch.rpm"
-RPM_HASH = "f25ad92c3f649043909e4fad0801a94fac6811be317bffff177cb267b92abe8ac4789955e313c9e429e69af0e2545536acbae0d78bd22ab7534705127aec25ec"
+RPM_NAME = "texlive-pst-calculate-doc-2026.226.0.0.02svn77682-59.2.noarch.rpm"
+RPM_HASH = "c14bedb21a7ae183cad2d4f23d9161ca5182bd5a69370de08905de72f09301152bc1d65b219e1febe133242ac32023e04fdd791e74b7725de52cb687249ef328"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-calculate-doc"

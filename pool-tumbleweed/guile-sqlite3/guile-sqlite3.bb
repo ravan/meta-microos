@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "0.1.3"
 
-RPM_NAME = "guile-sqlite3-0.1.3-1.9.aarch64.rpm"
-RPM_HASH = "9c211b885cf2c591c6627051c583ff78830fc7ae8d92a5f17ceab9780dd3181dbc05e18722ca3bbeb06f04fa65a10932ab115c8e74f9071912d11675e4db7ea6"
+RPM_NAME = "guile-sqlite3-0.1.3-1.17.aarch64.rpm"
+RPM_HASH = "9cdfc8a33d64134bc4108c9ab05a5be42d19abcccadf9b5f374ea806ed3b83a4212b9fd024feb508c20fc0adc10417547a7d85232cf7b883692785eefef67157"
 
 RPROVIDES:${PN} += "guile-sqlite3"
 

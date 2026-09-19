@@ -1,12 +1,12 @@
 SUMMARY = "Nimbus GTK Theme Engine"
 DESCRIPTION = "Nimbus is the name of a look-and-feel designed by Sun for the Java \
 Desktop System."
-LICENSE = "LGPL-2.0+"
+LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.1.7"
 
-RPM_NAME = "gtk2-engine-nimbus-0.1.7-13.28.aarch64.rpm"
-RPM_HASH = "260f21e0fa0d60c7edb886c04114cabf9a164b9ed833de1ece7a921d59c87017245881070452f411384f7cf8eadbed600d9bf9b9cec452f41d05daeed9996a83"
+RPM_NAME = "gtk2-engine-nimbus-0.1.7-15.4.aarch64.rpm"
+RPM_HASH = "e80228e6154dcfd61e0f7ddb8b43e656d0db38f1625b1faa5fd5d35ed3965e0e6081273708181a40b7284a476d56c51c2da41ca4dedda69a04ef77affee38587"
 
 RPROVIDES:${PN} += "gtk2-engine-nimbus \
 libnimbus.so"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a handful of macros for writing up \
 science practical reports."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.3svn52312"
+PV = "2026.226.2.0.3svn52312"
 
-RPM_NAME = "texlive-practicalreports-2023.209.2.0.3svn52312-53.1.noarch.rpm"
-RPM_HASH = "0a6e451f42313d37ea1eb1f0a4b4819a997ad67ecea650ffc66e3a5cdfa9e5d48342b81c5dd349258d44d1a22441fca127dacf8fbbd51f287834f4ae916c915a"
+RPM_NAME = "texlive-practicalreports-2026.226.2.0.3svn52312-59.2.noarch.rpm"
+RPM_HASH = "50f647594a68fb675dbd9eb6b103dc516b614e7768ceb546a7f3ffdb7c1f698a8b3e3ee1aaeaa34fedf773dc29d025554663775e70abee6a615082334aa2a764"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-practicalreports.sty \

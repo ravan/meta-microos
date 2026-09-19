@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.4"
 
-RPM_NAME = "ghc-clock-doc-0.8.4-1.2.noarch.rpm"
-RPM_HASH = "76caeb1c113f275bc66f750bc92311224e4121b855b659b863896b601c0d88daeb037d07114b26f0b34d9b8c7cef491745146e7a3537867ae7543cf2fdcfa2a7"
+RPM_NAME = "ghc-clock-doc-0.8.4-1.19.noarch.rpm"
+RPM_HASH = "3f538a9c9a8ec035f3738e5a4139f1fd0986dfa09d8b4df2cd7433d746c05d05b8fba0ddcbeaca95dce5543f9af636582106660fba1767e2468f411e3cf1e891"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-clock-doc"

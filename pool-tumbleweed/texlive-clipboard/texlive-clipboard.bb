@@ -4,10 +4,10 @@ and pasting text and commands into and across multiple \
 documents. It replaces the copypaste package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn47747"
+PV = "2026.226.0.0.3svn78101"
 
-RPM_NAME = "texlive-clipboard-2023.209.0.0.3svn47747-54.1.noarch.rpm"
-RPM_HASH = "6fec2c5e65e2251f9e37545a2563a0b2ec831a9a8a432612729611a3a083b1f15fc4954a03999922aa8ce28e54682fbcb41f736e427f85e6cd997071c14dea5c"
+RPM_NAME = "texlive-clipboard-2026.226.0.0.3svn78101-60.2.noarch.rpm"
+RPM_HASH = "7e704b2aad1d14cc271b4599f4c7e64b0ec4f37669b04ce4cdfb851ec90334f78d7894455fee72d0a5f844187901f7cdf2847435397374032f851a89bede9ff4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-clipboard.sty \

@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.1"
 
-RPM_NAME = "qprint-1.1-1.25.aarch64.rpm"
-RPM_HASH = "bc5b290c5bdf082a84a5c3fe225c983f47bd83dc7c7ef07e0fc6928e4b4e70dc593da3410a852a0506bf87fe660ea67942569c370304d6650a73bad7c007caa3"
+RPM_NAME = "qprint-1.1-1.35.aarch64.rpm"
+RPM_HASH = "d304aad51ce59db7eba298101606ee934abed93ec3c5e67d942af0e9631ab99b17ac58b987118b6b98dbd10edc1db85473bb035deb3fc19455a6220c740962db"
 
 RPROVIDES:${PN} += "qprint"
 

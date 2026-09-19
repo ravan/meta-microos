@@ -3,10 +3,10 @@ DESCRIPTION = "This plugin will check either the average or maximum value of one
 two variables recorded in an MRTG log file."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-mrtg-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "3225cd3654fa0a80b3151f013240c607b0f1f28f5f6d94acd201b93f60b22e80fa380b1fe1535955bfd51344cacd5aca71fca50d343149663cd68a3097893fc9"
+RPM_NAME = "monitoring-plugins-mrtg-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "9163b6de9243fdeaafdac8af2f783291edc22fada37f38c9dcb1a3cebb45346ef99c07d0f1cda798d4a3f410af03b2162dbaec1754fd98ed6e1adf936e5a8584"
 
 RPROVIDES:${PN} += "monitoring-plugins-mrtg \
 nagios-plugins-mrtg"

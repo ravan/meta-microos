@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.15"
 
-RPM_NAME = "perl-HTML-FormatText-WithLinks-0.15-1.21.noarch.rpm"
-RPM_HASH = "203b2b8eb73f3b8a65c204a4ae8593926329c5a6041ed50a256f0533a228ff9b5725f7827caab5e4b17e1f2a6deb9331f4e8256fd59d30792f5a97fac8a6baab"
+RPM_NAME = "perl-HTML-FormatText-WithLinks-0.15-1.35.noarch.rpm"
+RPM_HASH = "94d879d09b813e10641ab88e2ab1bb3680c3ed75003ac58744030035986f04f956ded656f927123a05db7de196d6f18e7ddd9f1a9c20d4f94899bc8c9e9dad2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--FormatText--WithLinks \
 perl-HTML-FormatText-WithLinks"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTML--FormatText \
 perl-HTML--TreeBuilder \
 perl-URI--WithBase"

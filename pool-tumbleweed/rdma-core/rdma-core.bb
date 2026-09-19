@@ -4,10 +4,10 @@ scripts, kernel driver-specific modprobe override configs, IPoIB network \
 scripts, dracut rules, and the rdma-ndd utility."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "47.0"
+PV = "63.0"
 
-RPM_NAME = "rdma-core-47.0-3.1.aarch64.rpm"
-RPM_HASH = "76656e262753f0876e52d1cf11cc1f2e7753db8aecdf44e0ee28c91f9d982777f71d23f584d8827e19ed44ed12e982f39dfff38edeee62e36562ee0ab436337d"
+RPM_NAME = "rdma-core-63.0-1.3.aarch64.rpm"
+RPM_HASH = "f87ccbfd4965b2139efb62d78af5439368e21489bd7beeef9ed54acea62c2a28ebe89a3d4e5dc3e65ab911300a069d5d65de9fa85439e74404cfbfa59f55e798"
 
 RPROVIDES:${PN} += "config-rdma-core \
 ofed \
@@ -15,12 +15,12 @@ rdma \
 rdma-core"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/env \
 /usr/bin/sh \
 kmod \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libnl-3.so.200 \
-systemd \
-udev"
+systemd"
 
 inherit rpm

@@ -3,19 +3,25 @@ DESCRIPTION = "Libary for a variant of the C programming language, with extensio
 'single program, multiple data' (SPMD) programming."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.18.1"
+PV = "1.31.0"
 
-RPM_NAME = "libispcrt1-1.18.1-2.2.aarch64.rpm"
-RPM_HASH = "6cea63337f5f38f2bc710cff1389c5831ac9f2d4fd8252de37dc54769bfa82cbebe4300912247df15018a184775b4ce0d1d17c7c73747212e7bf340343268bad"
+RPM_NAME = "libispcrt1-1.31.0-2.3.aarch64.rpm"
+RPM_HASH = "400d52f5c526b8e532e1a6fb1ed8d8d61f7886a81111d7816d59180749f7c9734976eea0634554e62287ef2b9a36a6580a72aab84281ec386c31e71b35dfc27e"
 
-RPROVIDES:${PN} += "libispcrt.so.1 \
+RPROVIDES:${PN} += "libispc.so.1 \
+libispcrt-device-cpu.so.1 \
+libispcrt-device-gpu.so.1 \
+libispcrt.so.1 \
 libispcrt1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
+libLLVM.so.22.1 \
 libc.so.6 \
+libclang-cpp.so.22.1 \
 libgcc-s.so.1 \
 libomp.so \
-libstdc++.so.6"
+libstdc++.so.6 \
+libze-loader.so.1"
 
 inherit rpm

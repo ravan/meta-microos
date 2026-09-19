@@ -4,20 +4,20 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.20"
 
-RPM_NAME = "ghc-th-lift-instances-prof-0.1.20-2.4.aarch64.rpm"
-RPM_HASH = "be697c76be3c8a2b3524b02a5557c1b5e61bfa323d82558ff55b4844d084298b7771dc72d02e33d368a9f9716ce718a85d92015271149972b36e40073de9baa4"
+RPM_NAME = "ghc-th-lift-instances-prof-0.1.20-2.36.aarch64.rpm"
+RPM_HASH = "a77aa760e04e390f08db0b497d26635b2129956ce84eb7d1a0a18dc1f10f53de7c9b54d74a085b12619819aa3d0bcbe89d0e84cdeec15db03530e151c186f6f0"
 
-RPROVIDES:${PN} += "ghc-prof-th-lift-instances-0.1.20-BKODVtFlRayDjKs9vGaGq3 \
+RPROVIDES:${PN} += "ghc-prof-th-lift-instances-0.1.20-A0nCC2bmuVRHGZj0nSUeyw \
 ghc-th-lift-instances-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-template-haskell-2.19.0.0 \
-ghc-prof-text-2.0.2 \
-ghc-prof-th-lift-0.8.4-Hb96g2HGtQyHkKuMt8Wl3a \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-template-haskell-2.23.0.0-358a \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-th-lift-0.8.7-C08bSURuEXt2IuYgZMzZEc \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
 ghc-th-lift-instances-devel"
 
 inherit rpm

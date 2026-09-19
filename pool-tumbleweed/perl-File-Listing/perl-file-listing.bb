@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.160.0"
 
-RPM_NAME = "perl-File-Listing-6.160.0-1.2.noarch.rpm"
-RPM_HASH = "8bfe9777d75a2d114d3ca39c7e55212a1e12aa0e20101fa83c10419b5da7a1d5db639978a9fce15c3e18e212ae5d8e6ea2f8ad9be73d44af84707dab202c8b96"
+RPM_NAME = "perl-File-Listing-6.160.0-2.12.noarch.rpm"
+RPM_HASH = "1a2903268537012e83ae8eca1e3956d79ee99de0c82437fc0b35192415b670d0b14ff5ee02553a5caab5c92c30d449feffb8cdca50dbc157383867b055813d1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Listing \
 perl-File-Listing"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTTP--Date"
 
 inherit rpm

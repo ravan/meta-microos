@@ -2,10 +2,10 @@ SUMMARY = "Translations for package skanlite"
 DESCRIPTION = "Provides translations for the 'skanlite' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "skanlite-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "78ba672109b40b029ff2d36d9bf637bb63f36af61d53145ec1b2eed9e21497c2143a8575f71e11c00b0a8f8f477580b8596edd8878153a9c5557d5561226eb28"
+RPM_NAME = "skanlite-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "a60a79a91b6eb37f931082cf9067276cbb1b61d4c3f39f371890fe155b27c54c5933a049aa62e5d09bbe85eebc576fb256e3ba1098f4d52cb4e0d0ba9c3fa77c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-skanlite-ar \
@@ -28,6 +28,7 @@ locale-skanlite-fi \
 locale-skanlite-fr \
 locale-skanlite-ga \
 locale-skanlite-gl \
+locale-skanlite-he \
 locale-skanlite-hi \
 locale-skanlite-hr \
 locale-skanlite-hu \

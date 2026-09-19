@@ -1,16 +1,17 @@
 SUMMARY = "Translations for package kapptemplate"
 DESCRIPTION = "Provides translations for the 'kapptemplate' package."
-LICENSE = "GPL-2.0-only & GFDL-1.2-only"
+LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kapptemplate-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "55d984b370bb8bdcac44337dee7b1359193726d660ac951910f28b78d400e5f68aeba76bd179af6f3979fa71cc71c01d875ced3ef0e1093c7e4c8cf4c1d870e4"
+RPM_NAME = "kapptemplate-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "cac9a1f77b93a1e9067ec86a2b5e3400ebd05be434a41ab54b208fc683ba1eb2b6f41d5e9a3b7621d8ebbb784a4138a4e66c9994b02b8618ef25e9a3ec838ef0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kapptemplate-lang \
 kapptemplate-lang-all \
-locale-kapptemplate-bg \
+locale-kapptemplate-ar \
+locale-kapptemplate-ast \
 locale-kapptemplate-bs \
 locale-kapptemplate-ca \
 locale-kapptemplate-ca@valencia \
@@ -27,7 +28,10 @@ locale-kapptemplate-fi \
 locale-kapptemplate-fr \
 locale-kapptemplate-ga \
 locale-kapptemplate-gl \
+locale-kapptemplate-he \
+locale-kapptemplate-hi \
 locale-kapptemplate-hu \
+locale-kapptemplate-ia \
 locale-kapptemplate-it \
 locale-kapptemplate-ja \
 locale-kapptemplate-ka \

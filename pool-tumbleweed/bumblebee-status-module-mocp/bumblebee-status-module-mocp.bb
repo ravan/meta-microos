@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-mocp-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "50538616cb10494c42f35544f0d658d37bcec5aee65fafdf9d49f9be6e011d25eaa7e2a63e63bdf00848db9a5b3ebda14f0d974719e2073f319abdadb93b41d7"
+RPM_NAME = "bumblebee-status-module-mocp-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "b5951d4a07918c141283cdd485583a269aaf87c29afa6f3fdb399005761556ee18a3c13514eeaab10e9dd5cb7a5a9930e2fad7c0d29c3154320834fd3916159e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-mocp"

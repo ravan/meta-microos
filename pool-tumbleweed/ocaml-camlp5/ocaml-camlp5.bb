@@ -2,16 +2,17 @@ SUMMARY = "Preprocessor-Pretty-Printer for Objective Caml"
 DESCRIPTION = "Camlp5 is a preprocessor-pretty-printer of OCaml, parsing a source file and printing some result on standard output."
 LICENSE = "BSD-3-Clause"
 
-PV = "8.01.00"
+PV = "8.05.02"
 
-RPM_NAME = "ocaml-camlp5-8.01.00-1.2.aarch64.rpm"
-RPM_HASH = "f3227e26f15d0986f84738bfb1507a3f790fe4317d341a734eb4f4aefe1a5e8e12d1f14983584223609684ba1a75476b92aea61ae462707d04e95a1364de0fa8"
+RPM_NAME = "ocaml-camlp5-8.05.02-1.3.aarch64.rpm"
+RPM_HASH = "c632d5835e7600eba0f45a685e1ea12d9e32eed1611a64f63581c25c207f6982f269c3a09ec6f1910f49c50bb6b7df3621dc5591c91b359ea07708d0d957c226"
 
 RPROVIDES:${PN} += "ocaml-camlp5"
 
-RDEPENDS:${PN} += "/usr/bin/ocamlrun \
+RDEPENDS:${PN} += "/usr/bin/ocamlrun-a100 \
 libc.so.6 \
 libm.so.6 \
-libpcre.so.1"
+libpcre2-8.so.0 \
+libzstd.so.1"
 
 inherit rpm

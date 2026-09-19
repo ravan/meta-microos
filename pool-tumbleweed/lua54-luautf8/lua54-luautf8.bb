@@ -7,15 +7,16 @@ with Lua's own string module, it passed all string and pattern matching \
 test in lua test suite2."
 LICENSE = "MIT"
 
-PV = "0.1.5"
+PV = "0.2.0"
 
-RPM_NAME = "lua54-luautf8-0.1.5-2.5.aarch64.rpm"
-RPM_HASH = "d6a38ade1bcd479b0b01443e13aa74c0653cb7bf866f604bd74eb9eeb3e519db012cad04d57d7570164c5fe76dcf3437aaec78520c873ef6e203282ef7f6e7e0"
+RPM_NAME = "lua54-luautf8-0.2.0-1.3.aarch64.rpm"
+RPM_HASH = "2424028a62baa7db09e86593847ea63c9ee120e55caf17d741b83e196cac49567e7089dea191e0650061e713339c4846773ea72d704daa87747688ad3d1071c4"
 
 RPROVIDES:${PN} += "lua-luautf8 \
 lua54-luautf8"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 lua54"
 
 inherit rpm

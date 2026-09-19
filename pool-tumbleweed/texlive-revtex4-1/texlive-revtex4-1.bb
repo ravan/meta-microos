@@ -4,10 +4,10 @@ users having difficulty with the incompatibility of that latest \
 version."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.1ssvn56590"
+PV = "2026.226.4.1ssvn56590"
 
-RPM_NAME = "texlive-revtex4-1-2023.209.4.1ssvn56590-54.2.noarch.rpm"
-RPM_HASH = "1e5a40d39a541c76859786f933e5cc43fc0396ad47548ad27a6ef941b15934682a046a320d5be1c4a6d8844997814af88df0027470959cccdf211a1d010776a8"
+RPM_NAME = "texlive-revtex4-1-2026.226.4.1ssvn56590-60.4.noarch.rpm"
+RPM_HASH = "16655985b9e042db5b7bf2a1ca74cb3b7380e4e859a7e6dc1a27c1f7f45c8b4e675a28d70b10a174b091686b5552adbaf49087b65a9a245a48f42ffea2429659"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aip4-1.rtx \

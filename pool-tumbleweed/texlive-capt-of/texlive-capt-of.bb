@@ -5,10 +5,10 @@ that's not a float. Note that the caption package includes a \
 this package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn29803"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-capt-of-2023.209.svn29803-53.1.noarch.rpm"
-RPM_HASH = "476e0bf141727858543e9a94747c38693dd2db7d659d41cab38093c09148007c9e88008edc3b962fb5374a7b5282fdd4c3fce6a10988004a2040ee8255b42ad1"
+RPM_NAME = "texlive-capt-of-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "d85af552532555e8f5a33cda0e08be351dd6509a9da22e8939fedcafafb48d238e698ea9739868b3e3e4e0cc317db3f55ee1193eb9c17fd0b407724e1c8df7e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-capt-of.sty \

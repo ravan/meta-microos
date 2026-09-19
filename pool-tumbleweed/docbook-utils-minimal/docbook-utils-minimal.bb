@@ -7,12 +7,12 @@ Tasks they currently accomplish are: * jw: convert SGML files to \
    other formats (HTML, RTF, PostScript, PDF) \
  \
 * sgmldiff: detect the differences in markup between two SGML files"
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.6.14"
+PV = "0.6.15"
 
-RPM_NAME = "docbook-utils-minimal-0.6.14-239.16.noarch.rpm"
-RPM_HASH = "a9c84b753c262c6ecc431eaa192c491562632fe8c8a8db435b7ce7821b91b10a68ba84b8608b98ad0b2cfc5694a597d68b0d2545a221f927a1e6461b2ec1b4ab"
+RPM_NAME = "docbook-utils-minimal-0.6.15-1.1.noarch.rpm"
+RPM_HASH = "5957e0827bda6d77dfa71b23e44097a234d99b6c4f129c68d467d096a01d2a3c41be450bbdfb644ba07b4e1a1e36febfc78149fd13b1452693bdaded69f3f70f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-utils-minimal"

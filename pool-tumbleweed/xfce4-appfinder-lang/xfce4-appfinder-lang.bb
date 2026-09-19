@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-appfinder"
 DESCRIPTION = "Provides translations for the 'xfce4-appfinder' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "xfce4-appfinder-lang-4.18.0-1.3.noarch.rpm"
-RPM_HASH = "7cfe6c031cef5cf3e5781287d78a38edcff3e367144b130eeb79df657e86a28e2725cbbaa81dcf6997e657f5609334c0d00fea4a730030ff1d4d2425bee3c87d"
+RPM_NAME = "xfce4-appfinder-lang-4.20.0-1.7.noarch.rpm"
+RPM_HASH = "08a9ed3813b3ca147935e6e5d262128920102e1f92feb74695fdf97d3e5ea04cd2e3b7933128c7916c62f73e305a2c083946165edbf715a583755e58a8649284"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-appfinder-ar \

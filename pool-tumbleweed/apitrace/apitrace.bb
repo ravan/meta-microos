@@ -9,25 +9,27 @@ DESCRIPTION = "apitrace consists of a set of tools to: \
 - profile performance of traces;"
 LICENSE = "MIT"
 
-PV = "10.0"
+PV = "13.0"
 
-RPM_NAME = "apitrace-10.0-2.11.aarch64.rpm"
-RPM_HASH = "9342e226972061bf04dd2d3bca93f2fb484ab2efe4dd77d0c33adeee834d59e3e1878829cfd96f37e2b13c3dd1563a990ea72b2d1117fccad489e741373211c1"
+RPM_NAME = "apitrace-13.0-1.7.aarch64.rpm"
+RPM_HASH = "e887eef3c3f19169986e2360d81290bb27f0e24d2c21977eff0996afc0559ccecd1ec4842072f2232d0dc27610428a566024497505210f4302453ca6f9bceeaf"
 
 RPROVIDES:${PN} += "apitrace"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 apitrace-wrappers \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libX11.so.6 \
+libbacktrace.so.0 \
+libbrotlidec.so.1 \
+libbrotlienc.so.1 \
 libc.so.6 \
-libgcc-s.so.1 \
 libm.so.6 \
 libpng16.so.16 \
-libprocps.so.8 \
+libsnappy.so.1 \
 libstdc++.so.6 \
 libz.so.1 \
 python3-Pillow \

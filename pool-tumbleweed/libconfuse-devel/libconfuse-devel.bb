@@ -8,10 +8,10 @@ statements. \
 This package holds the development files for libconfuse."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.3"
+PV = "3.4"
 
-RPM_NAME = "libconfuse-devel-3.3-2.4.aarch64.rpm"
-RPM_HASH = "248bdbb334bf761884dee76b9049f561fb1bb2e6031a60f8e773ce5525836525ae7ebd2a2518a86eb04f58c4a3bf393d8e78a10f02387a1bdbb884cdc4113faf"
+RPM_NAME = "libconfuse-devel-3.4-1.1.aarch64.rpm"
+RPM_HASH = "b706c74d497072d9efaa28ee3fd195b502a6ea88441bb2265ee61c7f6391bf7023f68ae857e9fc57b8ec67ceea2a3658c5fc48c9cdd4efe2c2f0116f8cb84f1f"
 
 RPROVIDES:${PN} += "libconfuse-devel \
 pkgconfig-libconfuse"

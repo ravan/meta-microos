@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.1.1"
 
-RPM_NAME = "libotr-tools-4.1.1-4.3.aarch64.rpm"
-RPM_HASH = "ff5fb8f58663e661aeaa29665da74916a9d955d85f3ce1641278fc6d71821056e9ecc66d5319d00b15624c814ecdf560e538664d858f9e731161d0ed9edfcaa7"
+RPM_NAME = "libotr-tools-4.1.1-4.12.aarch64.rpm"
+RPM_HASH = "dd5a00ae3549cf7d7a581430bb64ea7f7dc6cd07deec1e591cacbe457e6cb4839b8a188cd84f00f313db94008c848a4678452e0791e9ee849b40fd0e2ccb2d14"
 
 RPROVIDES:${PN} += "libotr-tools"
 

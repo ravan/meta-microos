@@ -3,10 +3,10 @@ DESCRIPTION = "The package automatically computes headlength for the fancyhdr \
 package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn54049"
+PV = "2026.226.0.0.1svn54049"
 
-RPM_NAME = "texlive-autofancyhdr-2023.209.0.0.1svn54049-54.1.noarch.rpm"
-RPM_HASH = "0d1fef22f08cc111e0d359fab333e4b372e6e13cc6fb93319079a155ed9a89be1927e4f1390c28dec8593221210e4eeec59ffeac3c89c58f08eca10bc223a6af"
+RPM_NAME = "texlive-autofancyhdr-2026.226.0.0.1svn54049-60.2.noarch.rpm"
+RPM_HASH = "54ece14b7bfcc497e093408da49d1da560a0343e8a366188293b6ef034d513393e9085d2965e8ab17fcc3151ea21f64e68c9a29cde7ed3c198a39b59a5b34b49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autofancyhdr.sty \

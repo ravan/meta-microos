@@ -2,16 +2,16 @@ SUMMARY = "Development files for fmt, a formatting library"
 DESCRIPTION = "Development files for fmt, a formatting library for C++."
 LICENSE = "MIT"
 
-PV = "9.1.0"
+PV = "12.1.0"
 
-RPM_NAME = "fmt-devel-9.1.0-2.4.aarch64.rpm"
-RPM_HASH = "5f786dde90ef5e9db91e69cce65476754825f9f25f6bd5c29f84a751ba287805cc0684bdb67b540dcfb4bc07ebebfbcffcd8d7bd3470e0ad120c7f903819caf7"
+RPM_NAME = "fmt-devel-12.1.0-1.4.aarch64.rpm"
+RPM_HASH = "8681d2783a4096c0b9ab345c77987207b7f24420b2d13aa3f1fcce9dc79c0181b8f565a839c8e525d0d826c68c59af94e3373be2803b694828ff08b38a881258"
 
 RPROVIDES:${PN} += "cmake-fmt \
 fmt-devel \
 pkgconfig-fmt"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libfmt9"
+libfmt12"
 
 inherit rpm

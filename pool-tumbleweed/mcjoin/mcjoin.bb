@@ -8,10 +8,10 @@ in layer-2 bridges/switches, as well as test forwarding of \
 multicast in static or dynamic multicast routing setups."
 LICENSE = "ISC"
 
-PV = "2.11"
+PV = "2.12"
 
-RPM_NAME = "mcjoin-2.11-1.2.aarch64.rpm"
-RPM_HASH = "f5b2415e491c95dfda14ec3ca06dbf0246424a72e914af415d56978a14275c3e0f860d155fd317284d8d4e650bcdc0c7a02214c5fc1da81f84e8fda6ea872c83"
+RPM_NAME = "mcjoin-2.12-1.5.aarch64.rpm"
+RPM_HASH = "c954995c086b9563d52b169a42830c97486977fe16c745d24bff9eead2ad28dbd4e04a280cff2443a72ae2c422b0e0ea7a345d80634f254925da14ea7adb477f"
 
 RPROVIDES:${PN} += "mcjoin"
 

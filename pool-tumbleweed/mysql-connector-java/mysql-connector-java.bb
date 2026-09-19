@@ -8,23 +8,27 @@ Connector/J is a Type IV JDBC driver and has a complete JDBC feature \
 set that supports the capabilities of MySQL."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.1.0"
+PV = "9.3.0"
 
-RPM_NAME = "mysql-connector-java-8.1.0-1.1.noarch.rpm"
-RPM_HASH = "a460fbf3970bcdd78812b28e00f9573a3831d22ed2634d0bd1118727a12ae25921b886a666ae7444620462eafdda02aff7721c6d226955da756b7f01ec30cc4c"
+RPM_NAME = "mysql-connector-java-9.3.0-2.8.noarch.rpm"
+RPM_HASH = "660fdc2d804e7ddb4f92d83424d546374ddcbb8ecb4700fd04812d0fbfcb52de5610790c2bd8a96354aa861a7aea18716fb60923ee4866021c619c5cf19f40d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mm.mysql \
 mvn-com.mysql-mysql-connector-j \
 mvn-com.mysql-mysql-connector-j-pom- \
+mvn-com.mysql-mysql-connector-java \
+mvn-com.mysql-mysql-connector-java-pom- \
+mvn-mysql-mysql-connector-java \
+mvn-mysql-mysql-connector-java-pom- \
 mysql-connector-j \
 mysql-connector-java \
 mysql-connector-java-manual \
 osgi-com.mysql.cj"
 
-RDEPENDS:${PN} += "java-headless \
+RDEPENDS:${PN} += "geronimo-jta-1-1-api \
+java-headless \
 javapackages-filesystem \
-jta \
 mvn-com.google.protobuf-protobuf-java \
 reload4j \
 slf4j"

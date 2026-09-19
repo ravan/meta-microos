@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-epsincl"
 DESCRIPTION = "This package includes the documentation for texlive-epsincl"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.0.0.2svn29349"
+PV = "2026.226.0.0.2svn29349"
 
-RPM_NAME = "texlive-epsincl-doc-2023.209.0.0.2svn29349-54.2.noarch.rpm"
-RPM_HASH = "f9e1f0b1ccf101fc0cffd7cd9eeecc0e586dcd64d1ceee30f982426377f6ac2bb143072179aba4d4d1a0fb8189c4d470626ca137f40d84add39a6fccfba1bd87"
+RPM_NAME = "texlive-epsincl-doc-2026.226.0.0.2svn29349-61.4.noarch.rpm"
+RPM_HASH = "1c0c8c9f7ebc9e0e363d0ce914b068c74841b5ade2c22eca051edf045d7e06044b6b3d6a64be3b9fe19740d8b4bf7c86a5210d75db95f00238ee10797a261ff3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epsincl-doc"

@@ -6,16 +6,16 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.10.2"
 
-RPM_NAME = "libnoson2-2.10.2-1.2.aarch64.rpm"
-RPM_HASH = "7cb43e72c7539904a1ea669345337b4e607ff67597369832aa0596ff56461f34923b9f29e7f717b0819154cb7847ebcd03176fb2b86a35a94e566990f345c7cb"
+RPM_NAME = "libnoson2-2.10.2-1.13.aarch64.rpm"
+RPM_HASH = "96107b99021cea9c9cc8c98676678888d06aacc1423416bbf0cb0b0512cc09a3a8420bc91f35e7fb26215e73c9cf076374b7cfbb4d17c4474d70ea0cefb043fa"
 
 RPROVIDES:${PN} += "libnoson.so.2 \
 libnoson2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libFLAC++.so.10 \
-libFLAC.so.12 \
+libFLAC++.so.11 \
+libFLAC.so.14 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \

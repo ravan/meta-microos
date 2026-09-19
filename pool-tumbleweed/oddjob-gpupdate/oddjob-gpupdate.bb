@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0+git.5.ed70836"
 
-RPM_NAME = "oddjob-gpupdate-0.2.0+git.5.ed70836-1.6.aarch64.rpm"
-RPM_HASH = "306448dd640824dec1766c33939c6f93ab35d02a4e4d407e619b5c765061bc030bd7c094930a34c2c87ba68276ee1c7bd895c2c2c907b633663c06e0ff30e5fc"
+RPM_NAME = "oddjob-gpupdate-0.2.0+git.5.ed70836-1.16.aarch64.rpm"
+RPM_HASH = "e72e878d8b0d0568eac9a03c9d29a4126df7ec5a8084f6dc9b90ccb1a4226e78cbe345f746733446d4806f101c63879289e829de7f82c7098eea2cb8df4f0f89"
 
 RPROVIDES:${PN} += "config-oddjob-gpupdate \
 oddjob-gpupdate"

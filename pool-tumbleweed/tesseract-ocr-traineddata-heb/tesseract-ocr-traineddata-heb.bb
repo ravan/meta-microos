@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Hebrew lang
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-heb-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "e3395dd70c63d4bfcd5d277cbbc196ac4b56bbc1b312cc7388c1bd78e8c92c739aa10ffa574b46ad51133e95c9d12ec6c7a4e13861407c9d63886725611062e5"
+RPM_NAME = "tesseract-ocr-traineddata-heb-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "9d2c8b0522cfceec5bf25059bbe10dc40254b101762a5bda617b95fa8047c363768805ad7a81efcb37839ee008fc0b0f072820785fa19756b1d95a2fd6c29969"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-heb \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-he \
+tesseract-ocr-traineddata-heb \
 tesseract-ocr-traineddata-hebrew \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-hebrew"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

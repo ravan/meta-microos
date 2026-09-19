@@ -7,10 +7,10 @@ Xsnow runs on most varieties of Linux, and probably on other Unix systems as wel
 Xsnow is derived from Rick Jansen's xsnow-1.42."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.7.4"
+PV = "3.9.4"
 
-RPM_NAME = "xsnow-3.7.4-1.1.aarch64.rpm"
-RPM_HASH = "15531182adea2445d6500ffd1ec11c84df848664792bbe7cc4893777e84ce59a47dec0dc441c9c907d368d9e9166b237a56b49a6b26e2b639ed834f0cc344e3b"
+RPM_NAME = "xsnow-3.9.4-1.1.aarch64.rpm"
+RPM_HASH = "96282768dc193ecbc7ea486b145bd587e2daf37247e906bb7b4f251fb94b38bbcd19ec9b42ea8a9fa8a876d4e8ede9ff6a99a0214088fcc47b0a9fb060f1bc0e"
 
 RPROVIDES:${PN} += "xsnow"
 
@@ -28,11 +28,13 @@ libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
 libgtk-3.so.0 \
 libm.so.6 \
-libstdc++.so.6 \
-libxkbcommon.so.0"
+libopencv-core.so.413 \
+libopencv-imgcodecs.so.413 \
+libopencv-imgproc.so.413 \
+libstdc++.so.6"
 
 inherit rpm

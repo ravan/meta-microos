@@ -11,10 +11,10 @@ csvprintf can also convert CSV files into XML and JSON documents \
 and Bash variable assignments suitable for eval(1)."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.2"
+PV = "1.3.4"
 
-RPM_NAME = "csvprintf-1.3.2-1.3.aarch64.rpm"
-RPM_HASH = "99f37e4c6f2eee831b5f03e6a859fd0066b5d32aaba7800aea1e8806653ec77cf9ef5416a2f93e0f8d64bafabf9c45faaa2118998f761cf380d9d14b6c77c156"
+RPM_NAME = "csvprintf-1.3.4-1.3.aarch64.rpm"
+RPM_HASH = "f1846b9fd76312f0f2f14e01d12a840817abbdfaa08aaf9f52945bb9e18dba1dd88b9c602135d8fb3aac4bf34a63abe64f416bbf7c721c222d3fafb22e308393"
 
 RPROVIDES:${PN} += "csvprintf"
 

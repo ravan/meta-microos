@@ -13,10 +13,10 @@ performance. Normally a monitoring tool intended to be used on a system under \
 heavy stress should use the least additional resources as possible."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.23"
+PV = "1.31"
 
-RPM_NAME = "iotop-c-1.23-1.3.aarch64.rpm"
-RPM_HASH = "a73013ae11084696a460f40ed82e20948f685fe8406a50d15600374a49bb98d65810fea7c0775dd26831f93d27514cc0a94b801f3fe8acfebf5929606005b326"
+RPM_NAME = "iotop-c-1.31-1.4.aarch64.rpm"
+RPM_HASH = "0826d0f270cf33b1c5632d8532ad9a2618a06566125808f58240b0e34c73c84f1ae8e37559f1cfe44fe310bd819bd62367c013d305473302667d300f6d2a67d3"
 
 RPROVIDES:${PN} += "iotop-c"
 

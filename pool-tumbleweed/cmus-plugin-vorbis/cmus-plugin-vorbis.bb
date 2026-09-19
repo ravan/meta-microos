@@ -2,10 +2,10 @@ SUMMARY = "Vorbis input plugin for the C* Music Player"
 DESCRIPTION = "This package provides Vorbis input support for the C* Music Player."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "cmus-plugin-vorbis-2.10.0-2.1.aarch64.rpm"
-RPM_HASH = "4863aca78de22b26082b52e4c851465848476c6dcdf9edb22eb1dad2731bab887a8712815e065c5b47e60e0964a73b72ce547aea34fd71f76728030ac9db799f"
+RPM_NAME = "cmus-plugin-vorbis-2.12.0-3.6.aarch64.rpm"
+RPM_HASH = "65c7d647290c99404eb2fe53399baf547e45321e8d8f949cd2321b26410f422e7ac65c552a820ba908da08999e44c495f88ea7640393c5b730e0a527b69c182e"
 
 RPROVIDES:${PN} += "cmus-plugin-vorbis"
 

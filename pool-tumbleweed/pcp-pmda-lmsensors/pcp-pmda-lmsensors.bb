@@ -3,14 +3,16 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the Linux hardware monitoring sensors."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-lmsensors-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "4d37b1783affe333a1d5064d0484ad8e4f25818e7320f12a3d85f1ae3f79700507b69cb74a6ac81ea3057130e5c0d86442958c64e87b9e2a1f0a062e26eda879"
+RPM_NAME = "pcp-pmda-lmsensors-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "f3e017bb4b3fb3b8a28d9f3a84a75dc041742ecea086d24cf4cd1ebdd9f2a0ce3caa96a40ecdf87a0b053e99461830210be7a67ce6ca45ab44b4713a402b0f0c"
+REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pcp-pmda-lmsensors"
+RPROVIDES:${PN} += "pcp-pmda-lmsensors \
+pcp-pmda-lmsensors-debuginfo"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 /usr/bin/sh \
 python3-pcp"
 

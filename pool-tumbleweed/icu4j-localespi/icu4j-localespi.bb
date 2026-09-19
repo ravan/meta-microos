@@ -1,11 +1,11 @@
 SUMMARY = "Locale SPI library of icu4j"
 DESCRIPTION = "Locale SPI library of icu4j."
-LICENSE = "BSD-3-Clause & MIT & Unicode & SUSE-Public-Domain"
+LICENSE = "BSD-3-Clause & MIT & Unicode & LicenseRef-SUSE-Public-Domain"
 
 PV = "73.1"
 
-RPM_NAME = "icu4j-localespi-73.1-1.1.noarch.rpm"
-RPM_HASH = "cb495db2592ab82a8f53f3f2366fad0b88a7e1258679f5e09afd114abc3c8d3e7ab71e7a6ff717b4d02e97d210f643645ec1a36a8fd7fc3b8da8fe6d2637edeb"
+RPM_NAME = "icu4j-localespi-73.1-5.3.noarch.rpm"
+RPM_HASH = "eb8c17c1c6087e84f56db5ac9c3c527ce8d3c76fecfa58cb02bb600f3436038373a8f289710c74a70b64eb1edae6c498c288a1cb99e83012df1c0ffbd4fe8bb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icu4j-localespi \

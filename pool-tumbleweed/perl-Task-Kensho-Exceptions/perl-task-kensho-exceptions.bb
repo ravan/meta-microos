@@ -33,14 +33,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.41"
 
-RPM_NAME = "perl-Task-Kensho-Exceptions-0.41-1.11.noarch.rpm"
-RPM_HASH = "036ddbf9e5277c43102c20dc98dfb1c12b6f28e5d51ffa59d02c1901cea539acce7882540f15f740c31a1b14948ce31ae41d0e9bf164b030aa27f06d1bb5b36e"
+RPM_NAME = "perl-Task-Kensho-Exceptions-0.41-1.25.noarch.rpm"
+RPM_HASH = "78c106c9dfe0fe408c67939fd6c781098ee00cd2a1c54771ade853a349dc7307d98edd5db60a4c1d38e920049be87354c05136a0e20f9b5f372360f77436acbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Kensho--Exceptions \
 perl-Task-Kensho-Exceptions"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Syntax--Keyword--Try \
 perl-Try--Tiny \
 perl-autodie"

@@ -6,10 +6,10 @@ search puzzles or 'find-the-word' puzzles). Allow creating \
 numbersoup and soups with custom symbol sets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.2svn50815"
+PV = "2026.226.1.0.2svn50815"
 
-RPM_NAME = "texlive-soup-2023.209.1.0.2svn50815-58.1.noarch.rpm"
-RPM_HASH = "b019ea33a004e2bc3673582968d8ec8814764ab6e4a8eb9cc0226fb42974fe3705902530f438e00f74ee228e27a0d85bc7ae35818962594563510ffcec8b610e"
+RPM_NAME = "texlive-soup-2026.226.1.0.2svn50815-64.2.noarch.rpm"
+RPM_HASH = "9c550ee3f11a7d0ee5fd04207f6a6a3ba02b3bab005bd791dc3932d011f3c97053f9ff834685a1362df891c2badad0278e8dfba2ce21570842b0970e55017477"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-soup.sty \

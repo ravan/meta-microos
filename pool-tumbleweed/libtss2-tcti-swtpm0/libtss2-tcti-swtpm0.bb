@@ -4,10 +4,10 @@ details of direct communication with the interface and protocol exposed by the \
 daemon hosting the TPM2 reference implementation."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.0.1"
+PV = "4.1.3"
 
-RPM_NAME = "libtss2-tcti-swtpm0-4.0.1-2.1.aarch64.rpm"
-RPM_HASH = "942ec606610d41b9880a92115f4604c063716e1fd182fb0f4e16c40036aad4381cd4fb1c3621ee8dc1a7f48f1fed2c672a1826964b40819a33bb3332da1dbdaf"
+RPM_NAME = "libtss2-tcti-swtpm0-4.1.3-1.6.aarch64.rpm"
+RPM_HASH = "7401d1638b15d0213b50fd503f8b08e347c91f2843836ba9e19ed53415536a718de1bee5b712380c45d4709011ec6aead138e2b2a0a677850a3aa538d7c7ea11"
 
 RPROVIDES:${PN} += "libtss2-tcti-swtpm.so.0 \
 libtss2-tcti-swtpm0"

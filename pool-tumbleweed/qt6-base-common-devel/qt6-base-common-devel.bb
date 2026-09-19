@@ -3,20 +3,20 @@ DESCRIPTION = "Qt 6 Core development utilities. \
 It contains the qtbase utilities and definitions."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-base-common-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "2300188c124ad9ba11c0f8471786833a2ea7141d9dfefdc066a52266d5b415cef99ed71715e3da4ce39955ab1e002a9d129a57856fa2a213d960bf5e28dc3422"
+RPM_NAME = "qt6-base-common-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "d1340454497e7d5adc1b6ca47373199920aec08e063068334fce846dab18a90f031ab51a6110f8cde499a7aa9113116969ace108501ad590a99529e9f5d32ed6"
 
 RPROVIDES:${PN} += "cmake-Qt6 \
 cmake-Qt6BuildInternals \
 cmake-Qt6HostInfo \
+cmake-Qt6TestInternalsPrivate \
 pkgconfig-Qt6Platform \
 qt6-base-common-devel \
 qt6-tools-qtpaths"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/pkg-config \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
 cmake \
 gcc-c++ \

@@ -10,10 +10,10 @@ using different compilers, options, and MPI implementations. \
 This package contains the info page."
 LICENSE = "Apache-2.0 & MIT & Python-2.0 & BSD-3-Clause"
 
-PV = "0.20.0"
+PV = "0.23.1"
 
-RPM_NAME = "spack-info-0.20.0-3.1.noarch.rpm"
-RPM_HASH = "422f3e23603361c70917d000d1d8b17298d64116ab2d942ae8e98d3e552252397712038891a79a171dfd2d93af26d93f05db3ae62e22c5ed723c491d37816857"
+RPM_NAME = "spack-info-0.23.1-2.6.noarch.rpm"
+RPM_HASH = "4eeb0f191bf420d7c199e5a7425380d31b0325dd980b4458c61f80345c552d90d28460315702b1937f6e7d31ca9a5105eacb14ab0d27d5bb27f55a79d17bb24e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spack-info"

@@ -3,10 +3,10 @@ DESCRIPTION = "This is a simple wrapper for the paracol package for setting \
 two-column parallel text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn59643"
+PV = "2026.226.1.0.0svn59643"
 
-RPM_NAME = "texlive-bilingualpages-2023.209.1.0.0svn59643-54.1.noarch.rpm"
-RPM_HASH = "b03d311a08e3509875a0224a93ab6d7b1f5a15f5552738296b3f5d3b28800de22b8635c39329082735fb877afe8e01bcb766daf395191c1470cc2cf98fd81c3e"
+RPM_NAME = "texlive-bilingualpages-2026.226.1.0.0svn59643-61.2.noarch.rpm"
+RPM_HASH = "b01f2b8e8d7af7b7d741c092e8a6c7f21f3f12d46d03f7ad8136ae221be25f89d299a7cd11ca41fa018b6c782eaa2cf08b8b7e29965b35427423ff6d210ce658"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bilingualpages.sty \

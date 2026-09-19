@@ -12,10 +12,10 @@ This package contains only some basic modules and the perl binary \
 itself."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.38.0"
+PV = "5.44.0"
 
-RPM_NAME = "perl-base-5.38.0-1.1.aarch64.rpm"
-RPM_HASH = "cbc5b12d0f8d0c70b31058afba476a989391caf8f0d125fbee9a60d556f4da2dfe7933857d5f8867e7f94ab2d355600326cfcd7c577887a3b2bbfb7796e6c611"
+RPM_NAME = "perl-base-5.44.0-1.2.aarch64.rpm"
+RPM_HASH = "420331ad615bae6aca0fbf4abce5c2d96b45ee8c52856323057260b90b87ee04085236392f693a02885e8e16e85e68c6d353fef33f6108c50a47aa13347c23ec"
 
 RPROVIDES:${PN} += "perl-AutoLoader \
 perl-B \
@@ -90,6 +90,7 @@ perl-POSIX \
 perl-POSIX--SigAction \
 perl-POSIX--SigRt \
 perl-POSIX--SigSet \
+perl-Scalar--List--Utils \
 perl-Scalar--Util \
 perl-SelectSaver \
 perl-Socket \
@@ -104,6 +105,7 @@ perl-Text--Wrap \
 perl-Tie--ExtraHash \
 perl-Tie--Hash \
 perl-Tie--StdHash \
+perl-UNIVERSAL \
 perl-XSLoader \
 perl-attributes \
 perl-base \

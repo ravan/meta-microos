@@ -3,10 +3,10 @@ DESCRIPTION = "Simple font dumper \
 This tool is part of the FreeType project"
 LICENSE = "FTL & GPL-2.0-only"
 
-PV = "2.13.1"
+PV = "2.14.3"
 
-RPM_NAME = "ftdump-2.13.1-1.1.aarch64.rpm"
-RPM_HASH = "bcc25e220ca1c605b7a350c5ae7d1b68f3d4886099ac8269be8e3e67688aae43c54cc0be64c48e92d6e5552bb39bef4cdf44a3ae679266b8813f17b785807556"
+RPM_NAME = "ftdump-2.14.3-1.2.aarch64.rpm"
+RPM_HASH = "1ca3eb84c3febfb5800cada789c6304cc009296d0f41f133be96d557cd8c54d71dca80aee0a739856471d0bb7df6eac90ac3e8e1601f0c2a2c497b06d8f7657f"
 
 RPROVIDES:${PN} += "ftdump"
 

@@ -9,10 +9,10 @@ and extension. \
 This package contains the parent pom file for FasterXML.com projects."
 LICENSE = "Apache-2.0"
 
-PV = "38"
+PV = "79"
 
-RPM_NAME = "fasterxml-oss-parent-38-1.20.noarch.rpm"
-RPM_HASH = "a10e7df9520c6e078638ea8423d1ca5d17cefb31a89ab818371db39125480297747ef6d0660b26c7d128c2a933025ee6dfaea5cb6908f450fc628b1305479de2"
+RPM_NAME = "fasterxml-oss-parent-79-1.1.noarch.rpm"
+RPM_HASH = "890bb645ec0402c9f5d338ad72683fda908e794ac7ab1f5b23a6408c063479b3c285b911be2ef6b44094fa64daa178ad4b8c833b8a9b9ccb46f4857f6857e4f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fasterxml-oss-parent \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beaulivre"
 DESCRIPTION = "This package includes the documentation for texlive-beaulivre"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65475"
+PV = "2026.226.svn78004"
 
-RPM_NAME = "texlive-beaulivre-doc-2023.209.svn65475-54.1.noarch.rpm"
-RPM_HASH = "7079a7cf0f5fa109f6e41886bf8905b809c7c8e970d8f00808777ce83c3dd21ec4f492218e91b55656730ba6b7d2607b67fdce9d0edf1c135674ab6ef2e6730e"
+RPM_NAME = "texlive-beaulivre-doc-2026.226.svn78004-61.2.noarch.rpm"
+RPM_HASH = "65dcb132ff1c0512f509636e8e409b4908fbe9747f9a1ddfb445b54e9ae4dd3301108e9cc8c36278f8c36f97326b378347069a973039c19dc28b655056dbcfcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beaulivre-doc"

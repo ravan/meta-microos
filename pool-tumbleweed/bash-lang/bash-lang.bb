@@ -2,10 +2,10 @@ SUMMARY = "Translations for package bash"
 DESCRIPTION = "Provides translations for the 'bash' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.15"
+PV = "5.3.15"
 
-RPM_NAME = "bash-lang-5.2.15-8.6.noarch.rpm"
-RPM_HASH = "be2ce1b65e82e4368a75ae4d43d087074c31d3dffb7dd15f77dfeb71efb3cc213bc1107717a82ce82abe71d17f2849edb5d32a5c05a1bc748db4a0350e76d39b"
+RPM_NAME = "bash-lang-5.3.15-8.2.noarch.rpm"
+RPM_HASH = "1aaa977bd1d18aecdf751937e2cb9f98691d90bb9bd982d15c4b129b6a7e377bad318d236e4a1d95ff9453c76a6340ff2b13284854a927d2c83e2cc5a4c9d8bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-lang \
@@ -31,6 +31,7 @@ locale-bash-hu \
 locale-bash-id \
 locale-bash-it \
 locale-bash-ja \
+locale-bash-ka \
 locale-bash-ko \
 locale-bash-lt \
 locale-bash-nb \
@@ -42,6 +43,7 @@ locale-bash-ro \
 locale-bash-ru \
 locale-bash-sk \
 locale-bash-sl \
+locale-bash-sq \
 locale-bash-sr \
 locale-bash-sv \
 locale-bash-tr \

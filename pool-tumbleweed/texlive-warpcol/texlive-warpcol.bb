@@ -9,10 +9,10 @@ the alignment scheme is different, and the packages have \
 different, though overlapping, applications."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0csvn15878"
+PV = "2026.226.1.0csvn77682"
 
-RPM_NAME = "texlive-warpcol-2023.209.1.0csvn15878-54.1.noarch.rpm"
-RPM_HASH = "7df09c3ce6bd435efaf546e9cc00e6e919b44b5054e61adf73e1a725ab950b05aecc6e326333673115dcfefc2b2b93afeda4bbcfde359368bd7561dd6fc571a5"
+RPM_NAME = "texlive-warpcol-2026.226.1.0csvn77682-60.2.noarch.rpm"
+RPM_HASH = "831b34d3f901ee88b92701ac6a948dd098967bd373ceb2d4714ce51b12f5c8df60054d0305d68a2f0a95446cc6d2d7ee211c2dab4f8312e8c6da0c3f2f4a16c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-warpcol.sty \

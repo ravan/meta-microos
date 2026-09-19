@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nl-interval"
 DESCRIPTION = "This package includes the documentation for texlive-nl-interval"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn58328"
+PV = "2026.226.1.0svn58328"
 
-RPM_NAME = "texlive-nl-interval-doc-2023.209.1.0svn58328-55.1.noarch.rpm"
-RPM_HASH = "03cf72a3acad38fc62f1bd173e3f5a11a723377c9b1f0b690779d3f1c01c0f07657f8a09176d7518f13778f8a2095027056da4f1f0ebd57d92058dc44af7d1c4"
+RPM_NAME = "texlive-nl-interval-doc-2026.226.1.0svn58328-61.2.noarch.rpm"
+RPM_HASH = "45435fa38bb804e3035ad79f3671e58938f92920a48ea6eecdb6afa634c9c209577af446b1aae050bf4b0e2184a154ea98c4f972ea49953818252ca617cb85fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nl-interval-doc"

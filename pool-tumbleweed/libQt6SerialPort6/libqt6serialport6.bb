@@ -4,12 +4,12 @@ configuring, I/O operations, getting and setting the control signals \
 of the RS-232 pinouts. This module does not support terminal features \
 (echo, CR/LF control, text mode, timeouts/delays, or poinout signal \
 change notification)."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6SerialPort6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "1e2d313504f55b9975c077a4bc37892544b566f6aa4c4c163825aeb16fafa5f0e2c675e46e45ee54460a926be8188f1773fdb80c15ecf9bc64d7a432c9e449b1"
+RPM_NAME = "libQt6SerialPort6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "6fb2b108943e6bf1e3bd7ba9051e1c186b318228029bedc8644d79b410eb64c94dacaebb354eaff1056a02a7bf010e01804726eee5e853b694e0f8a51d27ea8f"
 
 RPROVIDES:${PN} += "libQt6SerialPort.so.6 \
 libQt6SerialPort6"

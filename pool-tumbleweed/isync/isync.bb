@@ -10,10 +10,10 @@ synchronizers). Synchronization state is kept in one local text file per \
 mailbox pair; multiple replicas of a mailbox can be maintained."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.4.4"
+PV = "1.5.1"
 
-RPM_NAME = "isync-1.4.4-2.4.aarch64.rpm"
-RPM_HASH = "a972f1f40b935edcde483ed82893255eb218b96ca9dc4fc6f2f044807e00a155c05fc349a3754466ea5d1f0615313574dba64d806ab688ea49f82c044b38428b"
+RPM_NAME = "isync-1.5.1-1.6.aarch64.rpm"
+RPM_HASH = "9032463e9a5905d83b4916fbf5271b0aa8ef9513c2a9a7798bc38317ccd8db495aed1a4659b1d9eda88d77069f1f622c32c108708559278a8f1fb0d996405760"
 
 RPROVIDES:${PN} += "isync"
 

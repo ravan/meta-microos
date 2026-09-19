@@ -4,10 +4,10 @@ to the end user, to optimise the logos for different fonts. \
 Written especially for XeLaTeX users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.12svn18611"
+PV = "2026.226.0.0.12svn77682"
 
-RPM_NAME = "texlive-metalogo-2023.209.0.0.12svn18611-55.1.noarch.rpm"
-RPM_HASH = "3aa38f229106c8de42b94556dac0cd3bbd1561955f45a4957aa13c63d23754c842033ebd837839d2c117e1ca132fc14f1be6c2fe16c9209b5e46735d9455305d"
+RPM_NAME = "texlive-metalogo-2026.226.0.0.12svn77682-61.2.noarch.rpm"
+RPM_HASH = "d651f91172eeffc3e568c802de77807debafe8022a1b8dec0d7de200e2caee5276e51ad257ed38d96eb3696b57dd73cbe7d053b2f5c419402cd58d2d30d132fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-metalogo.sty \

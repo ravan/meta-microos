@@ -10,20 +10,19 @@ Apart from displaying images from local folders, several different online source
 can be used to fetch wallpapers according to user-specified criteria."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.8.10"
+PV = "0.9.1"
 
-RPM_NAME = "variety-0.8.10-1.2.noarch.rpm"
-RPM_HASH = "1926b293fbd17f6b03df78fa164ba4cc327310f825f9f29872f6a2a8f588d8396d2dffdbf0844fc3af0b4ff54e104fd22dafd9d283a800c0096169cd21a16df6"
+RPM_NAME = "variety-0.9.1-1.1.noarch.rpm"
+RPM_HASH = "98075b91bee15aabe1fbc157379bd4e53abe7cf03226b52689710afe65388b9bccbbaa8f6304e2d77359de251da8f966d12fb71f213f7fe3a7018611878ef44c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-variety \
+RPROVIDES:${PN} += "python3.13dist-variety \
 python3dist-variety \
 variety"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 ImageMagick \
-libnotify4 \
 python-abi \
 python3-Pillow \
 python3-beautifulsoup4 \
@@ -33,8 +32,8 @@ python3-gexiv2 \
 python3-gobject-Gdk \
 python3-httplib2 \
 python3-lxml \
+python3-packaging \
 python3-pycairo \
-python3-pycurl \
 python3-requests \
 typelib-AppIndicator3 \
 typelib-GExiv2 \

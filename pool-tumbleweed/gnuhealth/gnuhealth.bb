@@ -9,61 +9,64 @@ You may use the Tryton Client either \
 See https://en.opensuse.org/GNUHealth_on_openSUSE for instructions"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.2.1"
+PV = "5.0.7"
 
-RPM_NAME = "gnuhealth-4.2.1-1.3.noarch.rpm"
-RPM_HASH = "595bb4d08cfff30a6862b0ef6c7933633dbfd7dd168c6662778a0c3f2e4959ab1d5c96954b38bb0d264c0cea31cc2c5743a6be41de4dad4d087b02e1e11aa1ca"
+RPM_NAME = "gnuhealth-5.0.7-1.2.noarch.rpm"
+RPM_HASH = "df86a057f7ad9f45fc01264a7cc4d14880eabab8ed63a3062816c5ca6c5a220c79db606f39028d1300f5dff67c875b27ad5ab0238ff7fa726f122cc6c2bd37e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuhealth \
-python3.11dist-gnuhealth \
-python3.11dist-gnuhealth-archives \
-python3.11dist-gnuhealth-caldav \
-python3.11dist-gnuhealth-calendar \
-python3.11dist-gnuhealth-contact-tracing \
-python3.11dist-gnuhealth-crypto \
-python3.11dist-gnuhealth-crypto-lab \
-python3.11dist-gnuhealth-dentistry \
-python3.11dist-gnuhealth-disability \
-python3.11dist-gnuhealth-ems \
-python3.11dist-gnuhealth-federation \
-python3.11dist-gnuhealth-genetics \
-python3.11dist-gnuhealth-genetics-uniprot \
-python3.11dist-gnuhealth-gyneco \
-python3.11dist-gnuhealth-history \
-python3.11dist-gnuhealth-icd10 \
-python3.11dist-gnuhealth-icd10pcs \
-python3.11dist-gnuhealth-icd11 \
-python3.11dist-gnuhealth-icd9procs \
-python3.11dist-gnuhealth-icpm \
-python3.11dist-gnuhealth-icu \
-python3.11dist-gnuhealth-imaging \
-python3.11dist-gnuhealth-inpatient \
-python3.11dist-gnuhealth-inpatient-calendar \
-python3.11dist-gnuhealth-insurance \
-python3.11dist-gnuhealth-iss \
-python3.11dist-gnuhealth-lab \
-python3.11dist-gnuhealth-lifestyle \
-python3.11dist-gnuhealth-mdg6 \
-python3.11dist-gnuhealth-ntd \
-python3.11dist-gnuhealth-ntd-chagas \
-python3.11dist-gnuhealth-ntd-dengue \
-python3.11dist-gnuhealth-nursing \
-python3.11dist-gnuhealth-ophthalmology \
-python3.11dist-gnuhealth-pediatrics \
-python3.11dist-gnuhealth-pediatrics-growth-charts \
-python3.11dist-gnuhealth-pediatrics-growth-charts-who \
-python3.11dist-gnuhealth-profile \
-python3.11dist-gnuhealth-qrcodes \
-python3.11dist-gnuhealth-reporting \
-python3.11dist-gnuhealth-services \
-python3.11dist-gnuhealth-services-imaging \
-python3.11dist-gnuhealth-services-lab \
-python3.11dist-gnuhealth-socioeconomics \
-python3.11dist-gnuhealth-stock \
-python3.11dist-gnuhealth-surgery \
-python3.11dist-gnuhealth-webdav3-server \
-python3.11dist-gnuhealth-who-essential-medicines \
+python3.13dist-gnuhealth \
+python3.13dist-gnuhealth-archives \
+python3.13dist-gnuhealth-caldav \
+python3.13dist-gnuhealth-calendar \
+python3.13dist-gnuhealth-contact-tracing \
+python3.13dist-gnuhealth-crypto \
+python3.13dist-gnuhealth-crypto-lab \
+python3.13dist-gnuhealth-dentistry \
+python3.13dist-gnuhealth-disability \
+python3.13dist-gnuhealth-ems \
+python3.13dist-gnuhealth-federation \
+python3.13dist-gnuhealth-genetics \
+python3.13dist-gnuhealth-genetics-uniprot \
+python3.13dist-gnuhealth-gyneco \
+python3.13dist-gnuhealth-history \
+python3.13dist-gnuhealth-icd10 \
+python3.13dist-gnuhealth-icd10pcs \
+python3.13dist-gnuhealth-icd11 \
+python3.13dist-gnuhealth-icd9procs \
+python3.13dist-gnuhealth-icpm \
+python3.13dist-gnuhealth-icu \
+python3.13dist-gnuhealth-imaging \
+python3.13dist-gnuhealth-inpatient \
+python3.13dist-gnuhealth-inpatient-calendar \
+python3.13dist-gnuhealth-insurance \
+python3.13dist-gnuhealth-iss \
+python3.13dist-gnuhealth-lab \
+python3.13dist-gnuhealth-lifestyle \
+python3.13dist-gnuhealth-mdg6 \
+python3.13dist-gnuhealth-ntd \
+python3.13dist-gnuhealth-ntd-chagas \
+python3.13dist-gnuhealth-ntd-dengue \
+python3.13dist-gnuhealth-nursing \
+python3.13dist-gnuhealth-ophthalmology \
+python3.13dist-gnuhealth-pediatrics \
+python3.13dist-gnuhealth-pediatrics-growth-charts \
+python3.13dist-gnuhealth-pediatrics-growth-charts-who \
+python3.13dist-gnuhealth-qrcodes \
+python3.13dist-gnuhealth-reporting \
+python3.13dist-gnuhealth-services \
+python3.13dist-gnuhealth-services-imaging \
+python3.13dist-gnuhealth-services-lab \
+python3.13dist-gnuhealth-socioeconomics \
+python3.13dist-gnuhealth-stock \
+python3.13dist-gnuhealth-stock-inpatient \
+python3.13dist-gnuhealth-stock-nursing \
+python3.13dist-gnuhealth-stock-surgery \
+python3.13dist-gnuhealth-surgery \
+python3.13dist-gnuhealth-surgery-protocols \
+python3.13dist-gnuhealth-webdav3-server \
+python3.13dist-gnuhealth-who-essential-medicines \
 python3dist-gnuhealth \
 python3dist-gnuhealth-archives \
 python3dist-gnuhealth-caldav \
@@ -101,7 +104,6 @@ python3dist-gnuhealth-ophthalmology \
 python3dist-gnuhealth-pediatrics \
 python3dist-gnuhealth-pediatrics-growth-charts \
 python3dist-gnuhealth-pediatrics-growth-charts-who \
-python3dist-gnuhealth-profile \
 python3dist-gnuhealth-qrcodes \
 python3dist-gnuhealth-reporting \
 python3dist-gnuhealth-services \
@@ -109,7 +111,11 @@ python3dist-gnuhealth-services-imaging \
 python3dist-gnuhealth-services-lab \
 python3dist-gnuhealth-socioeconomics \
 python3dist-gnuhealth-stock \
+python3dist-gnuhealth-stock-inpatient \
+python3dist-gnuhealth-stock-nursing \
+python3dist-gnuhealth-stock-surgery \
 python3dist-gnuhealth-surgery \
+python3dist-gnuhealth-surgery-protocols \
 python3dist-gnuhealth-webdav3-server \
 python3dist-gnuhealth-who-essential-medicines"
 
@@ -123,12 +129,19 @@ proteus \
 python-abi \
 python3-Pillow \
 python3-PyWebDAV3-GNUHealth \
+python3-Werkzeug \
+python3-bcrypt \
 python3-caldav \
 python3-hl7apy \
-python3-ldap3 \
+python3-ldap \
 python3-matplotlib \
+python3-numpy \
 python3-passlib \
-python3-pyBarcode \
+python3-pycountry \
+python3-pydot \
+python3-python-barcode \
+python3-python-magic \
+python3-pytz \
 python3-qrcode \
 python3-simpleeval \
 python3-six \

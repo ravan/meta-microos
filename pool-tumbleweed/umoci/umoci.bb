@@ -4,10 +4,10 @@ images. In particular, it is a more complete alternative to oci-image-tools \
 provided by the OCI."
 LICENSE = "Apache-2.0"
 
-PV = "0.4.7"
+PV = "0.6.0"
 
-RPM_NAME = "umoci-0.4.7-3.3.aarch64.rpm"
-RPM_HASH = "a7334a14975537825d785351fd41b1863641900ef717b53a561776deea8b71522121562fb9f9a9e8a158d6667f66ba6931aaeab4e47220c2350b277755083249"
+RPM_NAME = "umoci-0.6.0-1.8.aarch64.rpm"
+RPM_HASH = "659963779ab7003da662f48d67103ac5919d626ffe53d62ddfdb22da1fb674347119bda3aaafdf9808ccc422e1c0f7fcc8bfb731449224cb2310fe65919ac383"
 
 RPROVIDES:${PN} += "umoci"
 

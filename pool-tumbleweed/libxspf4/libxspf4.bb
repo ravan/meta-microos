@@ -17,8 +17,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "libxspf4-1.2.1-1.7.aarch64.rpm"
-RPM_HASH = "b13350c57260a7451affc27d003f616215046981ae9d3122c83152862466b319b20bb71b2ae41d3fc4ff24dfe46545191f83e30bc25eaf31db074c9744b31353"
+RPM_NAME = "libxspf4-1.2.1-2.3.aarch64.rpm"
+RPM_HASH = "3f291ad1a74583752e53e3fa5bd692edd7735ccedeaf50c10ccfdb8a54b7bfdb5c0dae9a585d565b393afd51cc3444a2ea647a403332686e5dd7e0b4d5304ed7"
 
 RPROVIDES:${PN} += "libxspf.so.4 \
 libxspf4"

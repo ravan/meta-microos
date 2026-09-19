@@ -15,10 +15,10 @@ location as KDELibs4Support, although it may be sufficient to set the \
 KDEDIRS environment variable correctly. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kdelibs4support-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "960e41b69af93a7b1c99a11f8b50958296b90f85e84e896f6dd6e73f663ec484fe09e0e6634e2bef33f58e7425c7c1272e4ec9ca935d4f8fd8fc41e2da5f0bde"
+RPM_NAME = "kdelibs4support-devel-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "32f8255cd584f5f12690002d40e7ae2b93df9eab5359f2e872d3c049b45b5400bc6d7045ad54cc0b2ef60716a592499dc900b82c75b16cd9bef3e1e03006fdec"
 
 RPROVIDES:${PN} += "cmake-KF5KDE4Support \
 cmake-KF5KDELibs4Support \
@@ -47,7 +47,6 @@ cmake-Qt5Core \
 cmake-Qt5DBus \
 cmake-Qt5PrintSupport \
 cmake-Qt5Xml \
-extra-cmake-modules \
 kdelibs4support \
 libKF5KDELibs4Support5"
 

@@ -2,10 +2,10 @@ SUMMARY = "Scripts for handling YAST logs"
 DESCRIPTION = "This package contains scripts for handling YAST logs."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.2"
+PV = "5.0.21"
 
-RPM_NAME = "yast2-logs-4.6.2-1.1.aarch64.rpm"
-RPM_HASH = "3b694d9b4dd2fc367c2b08e39bc73da09eec7c6958c500fdff343c0ee087b82a12310ed88491812ed9227b0bc000d15a6f661af2bdb007a0ea7d82b6d30fce53"
+RPM_NAME = "yast2-logs-5.0.21-1.2.aarch64.rpm"
+RPM_HASH = "b08f07cf1df50ad8a464d0826f996878fb3645191ee5c59c7b973a895d20b786775d392e105a343df5793ab199ea499199147538851458ac6c9372cf24f8a011"
 
 RPROVIDES:${PN} += "yast2-/usr/sbin/save-y2logs \
 yast2-logs"

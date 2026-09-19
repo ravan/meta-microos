@@ -2,10 +2,10 @@ SUMMARY = "API Documentation for PDFBox"
 DESCRIPTION = "JavaDoc documentation for apache-pdfbox"
 LICENSE = "Apache-2.0 & OFL-1.1"
 
-PV = "2.0.29"
+PV = "2.0.36"
 
-RPM_NAME = "apache-pdfbox-javadoc-2.0.29-1.1.noarch.rpm"
-RPM_HASH = "ca078c7190e61d6b4213ceee892b911770685dc4b32d1bbf3d466a88d12b83d8b9e6c97f142517eac3db781917f040e389360cc3971706846c625f47a56bb3bf"
+RPM_NAME = "apache-pdfbox-javadoc-2.0.36-1.3.noarch.rpm"
+RPM_HASH = "ef66ab90b3359fe309bbfc017a9491579fc073a93a6139c6dc1f11323800c44134522abddfdb241cd62b229ca8ce992bdbc3b570f2cf18f8512c5b979a3c11e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-pdfbox-javadoc"

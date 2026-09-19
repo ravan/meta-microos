@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-robustcommand"
 DESCRIPTION = "This package includes the documentation for texlive-robustcommand"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn15878"
+PV = "2026.226.0.0.1svn15878"
 
-RPM_NAME = "texlive-robustcommand-doc-2023.209.0.0.1svn15878-54.2.noarch.rpm"
-RPM_HASH = "a761d924a9483ddd067cccc454896ae1ff13aa80228a0d849013cb043ad0517edd979f29f1d1b0ca7091a82201b7e30df2f0d7362ccd577942269b1e46f88b5c"
+RPM_NAME = "texlive-robustcommand-doc-2026.226.0.0.1svn15878-60.4.noarch.rpm"
+RPM_HASH = "d4ba5b16f057cba512bfe65a338b2f8d431a7e2b3af82496016fc8622a82430a43248c8ec4263ab1ee5e47e757ac2440e0cdf7d26959ee97d83166652a09caea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-robustcommand-doc-de \

@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-spark-otf"
 DESCRIPTION = "The  separated fonts package for texlive-spark-otf"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.05asvn62481"
+PV = "2026.226.0.0.05asvn77682"
 
-RPM_NAME = "texlive-spark-otf-fonts-2023.209.0.0.05asvn62481-58.1.noarch.rpm"
-RPM_HASH = "cb5eaeadb7e0d275591ba8c8f2baf14e1ab80ffb88f585101e1502c9134e9d712f57ee5534efe3cafcb02a362a2d270886e1ee3f7bbec7e324d1c6e80b6788ed"
+RPM_NAME = "texlive-spark-otf-fonts-2026.226.0.0.05asvn77682-64.2.noarch.rpm"
+RPM_HASH = "c5a1fed9683f237657dd9c06b4740506266833af2b534c3eaa682504cbf4c0583bef89b3c924c18a3d0f4c061b689cb9293d5d25954ee08174943f28bf8aabbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -40,7 +43,9 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -70,12 +75,16 @@ font--lang=su \
 font--lang=sv \
 font--lang=sw \
 font--lang=tl \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-sparks \

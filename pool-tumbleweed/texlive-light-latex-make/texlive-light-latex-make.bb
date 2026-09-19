@@ -18,10 +18,10 @@ typesetting the document will be reproduced in any TeX \
 environment with the program."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.0svn66473"
+PV = "2026.226.1.2.0svn66473"
 
-RPM_NAME = "texlive-light-latex-make-2023.209.1.2.0svn66473-55.1.noarch.rpm"
-RPM_HASH = "528a2489da8b3e2704efd3c87022ca981051845628018face8791377ce0d3e56b18e0f1c73a6adcfb8ed92a156d19174da82c321fd533f98e6ee713e187c6f62"
+RPM_NAME = "texlive-light-latex-make-2026.226.1.2.0svn66473-61.2.noarch.rpm"
+RPM_HASH = "d8e94990942f046f8a143a0fd59004c7ed3df5d3e93d8503b88b3d04e6ace51264b0fda7705b45f53c2c53f6f80536653d5efaebb041674948e14e04d64d280e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-light-latex-make"

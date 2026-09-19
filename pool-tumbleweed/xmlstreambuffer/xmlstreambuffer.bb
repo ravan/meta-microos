@@ -22,8 +22,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.5.4"
 
-RPM_NAME = "xmlstreambuffer-1.5.4-3.5.noarch.rpm"
-RPM_HASH = "aca4bec4ceda0ef609e81485247679a531c87d20dbcfe10f3c0e3dcadf27fe70ee60bd41c9edceab6ae0394c9fb5f97dcea62b48aa51d63ed113dcbf9b2cf028"
+RPM_NAME = "xmlstreambuffer-1.5.4-6.4.noarch.rpm"
+RPM_HASH = "f8be59b3dd25a0fdc995306165acff0d3fb71282def3514b2dee9b46c4f01d6664c9f1a8b565bec4c426becd505dc35484f2575306cc5b9fe54a9c22f46e5bf5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.sun.xml.stream.buffer-streambuffer \
@@ -33,6 +33,7 @@ xmlstreambuffer"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.jvnet.staxex-stax-ex"
+mvn-org.jvnet.staxex-stax-ex \
+stax-ex"
 
 inherit rpm

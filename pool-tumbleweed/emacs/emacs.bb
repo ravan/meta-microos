@@ -3,13 +3,14 @@ DESCRIPTION = "Basic package for the GNU Emacs editor.  For a documentation see 
 This package requires emacs-x11 and/or emacs-nox to have the GNU Emacs editor its self."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "29.1"
+PV = "31.1"
 
-RPM_NAME = "emacs-29.1-3.1.aarch64.rpm"
-RPM_HASH = "48d7e4a0e8ff6b27f183377fd64ff7633dd672072d42616dbab5881606424e5d3cfdcd9552b30fa9a37b9da9486b73f3449f9201f450885fc6629d93bb5b51df"
+RPM_NAME = "emacs-31.1-3.1.aarch64.rpm"
+RPM_HASH = "fa4fc9d42f97f7221b74426742d939eb472b704a6e61fd26e8eea02eb8347ef9052bb584e2be90a0d0a1d29ca8776476b86a51d9dd54648987bec17e3ab5c641"
 
 RPROVIDES:${PN} += "config-emacs \
 emacs \
+emacs-ELPA \
 epg \
 nxml-mode"
 
@@ -19,10 +20,9 @@ emacs-info \
 emacs-program \
 etags \
 fileutils \
-group-games \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-mailutils \
-user-games"
+libselinux.so.1 \
+mailutils"
 
 inherit rpm

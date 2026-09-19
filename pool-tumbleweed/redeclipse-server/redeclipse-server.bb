@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-3.0 & Zlib"
 
 PV = "2.0.0"
 
-RPM_NAME = "redeclipse-server-2.0.0-4.6.aarch64.rpm"
-RPM_HASH = "1971cab7dd2c9a76fe8c20e1f819fba3d0f664ef1cddc91c53af3e749845178a3f7abad575aeef1618fffa03d79dbe24f26fead7d40a1862c924152ba7ffba1c"
+RPM_NAME = "redeclipse-server-2.0.0-5.1.aarch64.rpm"
+RPM_HASH = "8d9a9a1d0321369a5cacfae1c67cf9f3686b3722491bced2535a615cdb0982351c209b5b6ac51f45fe23c269102e29c9571cd2ef5f768aec8725fc4048a61090"
 
 RPROVIDES:${PN} += "redeclipse-server"
 

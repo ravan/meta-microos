@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-contour"
 DESCRIPTION = "This package includes the documentation for texlive-contour"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.14svn18950"
+PV = "2026.226.2.14svn77682"
 
-RPM_NAME = "texlive-contour-doc-2023.209.2.14svn18950-55.1.noarch.rpm"
-RPM_HASH = "1c385ae792ebf578a443672e02b807519019c03dc12fc753abc01d730f81f6f6a50a75fb3b0304a674bdfe6773b25612245244a7d03f42c3bc086eb9f25cff5b"
+RPM_NAME = "texlive-contour-doc-2026.226.2.14svn77682-61.2.noarch.rpm"
+RPM_HASH = "58b80acf94a293986864e35741b0f08b0a204334e3608a87e361a12722754f80bb013138800aca496c79f60c04e8d9381e24bb0b5fb7f9031798a7363e3ea790"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-contour-doc"

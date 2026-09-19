@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later & BSD-2-Claus
 
 PV = "1.0"
 
-RPM_NAME = "fotowall-1.0-4.16.aarch64.rpm"
-RPM_HASH = "96a17054a0046045d0099d5355654a663d3813157e457a7c826188cb6288f8f5f18e7858dc540e52ee0d5a2b7687a84f79af4f711325406adcbc03a4fbd3a5cd"
+RPM_NAME = "fotowall-1.0-4.29.aarch64.rpm"
+RPM_HASH = "8fef447133284645f40ddb8a253164f5ff76dc390ad01bb0914a03e2dd9d2626ae61db313783ec12531c2964801fe05ac354dfe3f7fc47453cbd236def4b7b1a"
 
 RPROVIDES:${PN} += "fotowall"
 

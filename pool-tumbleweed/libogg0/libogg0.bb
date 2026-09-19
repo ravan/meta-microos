@@ -6,10 +6,10 @@ Ogg is the native bitstream format of libvorbis (Ogg Vorbis audio \
 codec) and libtheora (Theora video codec)."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.5"
+PV = "1.3.6"
 
-RPM_NAME = "libogg0-1.3.5-1.7.aarch64.rpm"
-RPM_HASH = "d20cea335225a5f4a564c4beed766840746097065c36805bf436f4fa6ed5850d4607d09579b3922565c29f4b70f1a26e48b7fbe72764c46e09d58f68c9b37cd8"
+RPM_NAME = "libogg0-1.3.6-1.4.aarch64.rpm"
+RPM_HASH = "e4e26f1a02358c226310a01ea06df771fc13190a93bc767bb4741732eca69503866813a3dc95c98480ca526e00fa6503b52321ab921e237b3229f9995a97418b"
 
 RPROVIDES:${PN} += "libogg.so.0 \
 libogg0"

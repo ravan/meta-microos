@@ -4,10 +4,10 @@ DESCRIPTION = "DBus interface for modem handling. Provides a standard abstracted
 CDMA)."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "1.20.6"
+PV = "1.24.2"
 
-RPM_NAME = "ModemManager-devel-1.20.6-1.2.aarch64.rpm"
-RPM_HASH = "be8192d147cab328d4e48450eafc40f7bd4f2a9e3bcb7801fc445bde20ab27a92c79f4d77c6c9c3b5f9a6a3c052e40c5ed60352f04da750ec465a0253a60c191"
+RPM_NAME = "ModemManager-devel-1.24.2-1.6.aarch64.rpm"
+RPM_HASH = "be4c99f3234b30918fa2099a2e5510ed71cc6cb8bf5541f681de4cfceab22507f61af9c83f2afb83bc1c1f9999c2656c243a605f892aef4daee803a77156e9fc"
 
 RPROVIDES:${PN} += "ModemManager-devel \
 pkgconfig-ModemManager \

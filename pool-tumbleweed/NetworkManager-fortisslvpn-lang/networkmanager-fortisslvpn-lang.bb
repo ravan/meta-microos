@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "NetworkManager-fortisslvpn-lang-1.4.0-2.3.noarch.rpm"
-RPM_HASH = "0e2db47cc68ce8cb550414d76de883deb964bee32ff55a9c3cccc5e7edb55f534ac344aaa44fc3ea37ea3784869c243693febed565f75b43c68f6d6b44c70c2c"
+RPM_NAME = "NetworkManager-fortisslvpn-lang-1.4.0-5.11.noarch.rpm"
+RPM_HASH = "975c9b1d849769f38cfd5afb447522119438f773594b6d56d3de1554b2480aa35e941523921ac81866ef2fe421e2a2c9e78538951d09dbc7f7bf449c4e9b18ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-fortisslvpn-lang \

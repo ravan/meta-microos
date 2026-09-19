@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.19.3"
 
-RPM_NAME = "libmrss0-0.19.3-1.2.aarch64.rpm"
-RPM_HASH = "11c016123afa0248f4e9acec2c53ca7fbda34114ffd7289e82d2c69c0d7a4e6c98fedef7929457e15a3afd445c92fa514cbefba882c563db4d39674b9c96f12b"
+RPM_NAME = "libmrss0-0.19.3-1.12.aarch64.rpm"
+RPM_HASH = "b929e054d5a7355b7a15b902815e7e030fe39052321419115e3434f67033f41f34bf02c139d21b806e815c9ce347ebf3251d81de5de7e241a5eebac259c5c933"
 
 RPROVIDES:${PN} += "libmrss.so.0 \
 libmrss0"

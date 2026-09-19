@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libgtpnl."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.2.4"
+PV = "1.3.3"
 
-RPM_NAME = "libgtpnl-devel-1.2.4-1.1.aarch64.rpm"
-RPM_HASH = "9de9b24d16c4e4454d53bdbefeec0127b1b3c9de25d12429d62075e184d58fc9a2c8c7ddbc41f1b0199819bc35da0916d2c7495013ad19d1055d349aecb5683d"
+RPM_NAME = "libgtpnl-devel-1.3.3-1.4.aarch64.rpm"
+RPM_HASH = "ec66dcc082e0125f1ca342c1645f36fd964dd723337f1f5b644d1b6a11b0e3094dbd26de13d3ef9db2f8d0d1f5f210609fdf5b8cc2f4737b778f75a43a96ae98"
 
 RPROVIDES:${PN} += "libgtpnl-devel \
 pkgconfig-libgtpnl"

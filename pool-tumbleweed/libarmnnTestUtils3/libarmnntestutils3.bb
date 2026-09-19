@@ -8,17 +8,17 @@ modification – across Arm Cortex CPUs and Arm Mali GPUs. \
 This package contains the libarmnnTestUtils library from armnn."
 LICENSE = "MIT"
 
-PV = "23.08"
+PV = "26.07"
 
-RPM_NAME = "libarmnnTestUtils3-23.08-1.1.aarch64.rpm"
-RPM_HASH = "d8737a5e9b623635061b44b164b8b7bd25dcc2d044656538832b388ecc651ad38c1208ca90a946bb15a1f2eff99d0ffd8d2f24fb7a04d9992a61a298ccbabe9a"
+RPM_NAME = "libarmnnTestUtils3-26.07-1.1.aarch64.rpm"
+RPM_HASH = "992240a40818b39ce5c7a74f7c6eedde045e8947cb0038ba9610cc3bf4df1847db1261b4f6c3b0363cbc68201befb7d9e30facd3a7c4ee97362abf0fbcdf5c8e"
 
 RPROVIDES:${PN} += "libarmnnTestUtils.so.3 \
 libarmnnTestUtils3"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libarmnn.so.33 \
+libarmnn.so.36 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

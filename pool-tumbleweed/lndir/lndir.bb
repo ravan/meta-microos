@@ -4,10 +4,10 @@ the shadow is not populated with real files but instead with symbolic \
 links pointing at the real files in the original directory tree."
 LICENSE = "MIT"
 
-PV = "1.0.4"
+PV = "1.0.6"
 
-RPM_NAME = "lndir-1.0.4-1.2.aarch64.rpm"
-RPM_HASH = "15f0047b13a1b92a652bf04a100770eabe962412501024bc0c0ad671083259c0c5668671d04adda1f2c8173ac3940583642852dae0f23953fea3889303cae0c9"
+RPM_NAME = "lndir-1.0.6-1.1.aarch64.rpm"
+RPM_HASH = "94bc5a6b2f63cb898f0345db63b6d006b96a882b9f46101a469e917cc084fabf2d35bcaa7cbabba6b604c56ba515fb30710b8f7451b86c9903865b392a8179c0"
 
 RPROVIDES:${PN} += "lndir"
 

@@ -8,10 +8,10 @@ your content. This is brought to life by Alegreya, one of the \
 Typographique Internationale (2011)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1.0svn66358"
+PV = "2026.226.2.5.0svn76524"
 
-RPM_NAME = "texlive-beamertheme-arguelles-2023.209.2.1.0svn66358-54.1.noarch.rpm"
-RPM_HASH = "fc0ecc52cb3a8254e570b745cc57d048f40f077122ed89cf25e38b0642547c506fb1e4bd2d113d1487fb07f215b7b54c8566a87931f99cfe3affe3dd3a41cc6b"
+RPM_NAME = "texlive-beamertheme-arguelles-2026.226.2.5.0svn76524-61.2.noarch.rpm"
+RPM_HASH = "ab2b54296556f9ef03f46e6bc5ae043acad22789f26bbbc5932bb89d16a3ab0c9d9c8115a6f1982c521797cf043b2b0ea5a59b5b79f43c7f984c65b05a60ae34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeArguelles.sty \
@@ -29,24 +29,20 @@ grep \
 sed \
 tex-Alegreya.sty \
 tex-AlegreyaSans.sty \
-tex-booktabs.sty \
-tex-cancel.sty \
-tex-colortbl.sty \
-tex-csvsimple.sty \
-tex-dcolumn.sty \
 tex-enumitem.sty \
+tex-etoolbox.sty \
 tex-eulervm.sty \
 tex-fontawesome5.sty \
 tex-fontenc.sty \
+tex-ifluatex.sty \
+tex-ifxetex.sty \
 tex-inputenc.sty \
-tex-makecell.sty \
 tex-mathalpha.sty \
 tex-microtype.sty \
 tex-opencolor.sty \
 tex-parskip.sty \
-tex-pgfplots.sty \
+tex-tcolorbox.sty \
 tex-tikz.sty \
-tex-ulem.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

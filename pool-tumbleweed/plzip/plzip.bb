@@ -11,10 +11,10 @@ compresses better than bzip2, which makes it well suited for software \
 distribution and data archiving."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10"
+PV = "1.13"
 
-RPM_NAME = "plzip-1.10-1.8.aarch64.rpm"
-RPM_HASH = "811a9649f09f09b6383774fb507c7025948165f323232c37084eb090a383d6a51a8f0e676c79864d3a095004613f4c19adfe95d39d5d9812bf5f658dd6f4713f"
+RPM_NAME = "plzip-1.13-1.4.aarch64.rpm"
+RPM_HASH = "ec050dee9452d4765215ba0b268655cbfb32531b1d0ca7bd6ec5b70a1fb33787183c118258b4107d83d2f87074fb203e0e1a131210776010ea92de73dbc45af6"
 
 RPROVIDES:${PN} += "plzip"
 

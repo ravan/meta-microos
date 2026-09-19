@@ -2,10 +2,10 @@ SUMMARY = "Test Scripts for oFono"
 DESCRIPTION = "Scripts for testing oFono and its functionality."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.34"
+PV = "2.19"
 
-RPM_NAME = "ofono-tests-1.34-1.8.aarch64.rpm"
-RPM_HASH = "c35c57725b6a5696bac92f40c9945258defeb0b28c9da0f03c44a059a4219c7159fd52a4ef7555e9e1cdf5a36b42178a9dadc9bb5ae087e32d1ba275c902791d"
+RPM_NAME = "ofono-tests-2.19-3.3.aarch64.rpm"
+RPM_HASH = "a90ea42ea33a8da9caa4309465fac62cd006c36c8a6bd1b8fa3b4ff8495d0b8fd707479744034dead0550c06cedcf32cba952d5aafe46028fc240302cc628614"
 
 RPROVIDES:${PN} += "ofono-test \
 ofono-tests"

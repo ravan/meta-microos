@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nndraw"
 DESCRIPTION = "This package includes the documentation for texlive-nndraw"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn59674"
+PV = "2026.226.1.0svn59674"
 
-RPM_NAME = "texlive-nndraw-doc-2023.209.1.0svn59674-55.1.noarch.rpm"
-RPM_HASH = "63177446e2dce4ec24ea1c947f02cf4649340ff1732590440290b0febfdb81276ef75688611080fa91eed2aee1dd3baafbe942985835782b338efb45ab4baea3"
+RPM_NAME = "texlive-nndraw-doc-2026.226.1.0svn59674-61.2.noarch.rpm"
+RPM_HASH = "79184fb4b5f0a71985cb70811a1350ff5cf81e61ceffc8c7283cca46847f14ed068b91977cd79277919cf4f98386ef9702c40ac62a6775e30b3b195a6a2fff10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nndraw-doc"

@@ -5,10 +5,10 @@ and single-board computers, you also find CPU families that are used in \
 workstations and PCs in the target list."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.42_bld232"
+PV = "1.42_bld310"
 
-RPM_NAME = "asl-1.42_bld232-1.4.aarch64.rpm"
-RPM_HASH = "0d81124ea2b510abdcc0dc64b7d2b01d3b4a60c920966e021d7dfb6e98426ddd9545f7dfe31ada4fb0fed06ebcf96821f90cb24f6fc152e55e50ffbce4520e9e"
+RPM_NAME = "asl-1.42_bld310-1.2.aarch64.rpm"
+RPM_HASH = "bd4298ddaa60392a556258f8c415cf798620b06034359dc8c8e6bd7f1163785eea90a741d62695b1238188460f0c4761298fac0eeaaba90e9cc21d7d3116c811"
 
 RPROVIDES:${PN} += "asl"
 

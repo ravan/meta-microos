@@ -4,10 +4,10 @@ DESCRIPTION = "Javadoc for javassist. \
 Javadoc for javassist."
 LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
-PV = "3.29.2"
+PV = "3.30.2"
 
-RPM_NAME = "javassist-javadoc-3.29.2-2.1.noarch.rpm"
-RPM_HASH = "d5fa80765793e8320d9d0bea5fef6d4a0e16386ad52d0ad43e0eabea1bb74e9cfe0a83ecdd6ae5447c4d250224cc3fe98f9f1ecf2801644cbc2f1e5ef82ec2fe"
+RPM_NAME = "javassist-javadoc-3.30.2-1.8.noarch.rpm"
+RPM_HASH = "1b7eb7cf716f5b83285ccd8fbd5ef95d057f38dd28b1ffbc53093c6a57bfc977a81d3c92f2624e9a1dc26e716df7747b43d112e22eb9ad3003f3f676d46822ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javassist-javadoc"

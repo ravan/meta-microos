@@ -8,10 +8,10 @@ reference of the label. No .ins file is distributed; process \
 the .dtx with plain TeX to create one."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.6svn53164"
+PV = "2026.226.3.6svn77682"
 
-RPM_NAME = "texlive-refcount-2023.209.3.6svn53164-54.2.noarch.rpm"
-RPM_HASH = "e60e0bccfe19955a4a6b8f3ad1f23b432541a9f9a0d3170306ce5a21a136d6d47a14dc9639755b0aee5292dd7285df071e59b2b7036fb0ced7192afcacee48b0"
+RPM_NAME = "texlive-refcount-2026.226.3.6svn77682-60.4.noarch.rpm"
+RPM_HASH = "8b9322631b61f04bdda4bccdf6b3f0adb7f86af0594e6ff015de84ef41e3d0cf0a4cba6ae7770cdaa24ecf00c1acb0d1b79f012f88f19b4e81004122d667cfda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-refcount.sty \

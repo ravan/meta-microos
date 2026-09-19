@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-iopart-num"
 DESCRIPTION = "This package includes the documentation for texlive-iopart-num"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn15878"
+PV = "2026.226.2.1svn15878"
 
-RPM_NAME = "texlive-iopart-num-doc-2023.209.2.1svn15878-56.1.noarch.rpm"
-RPM_HASH = "e75f3a3d9498838c83a34be8936784638fa7871237a07f78edfb6419508230993a3d5fc768d8007889e317f687d1e9a5992fe769440a6a488c76d1dde7f827f7"
+RPM_NAME = "texlive-iopart-num-doc-2026.226.2.1svn15878-63.2.noarch.rpm"
+RPM_HASH = "6a6f621e566bbecfd9d097e969d17073fa0fe11fb58a4ac2b3aa97c1ed4ea137069b683bc267dbb35845c14516f4f72177c85408e5984dce0f00f87a04049312"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-iopart-num-doc"

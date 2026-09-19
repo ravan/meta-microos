@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.3.1"
 
-RPM_NAME = "xf86-video-neomagic-1.3.1-1.2.aarch64.rpm"
-RPM_HASH = "aa8e6f544f2f7a59a8aa8e51e3209db45f35c50aec104b6fd5dfe37f44229d9070931b361b1957a309b3d0d4150d9953e7d8849ac729e18bf1a5caf2ba3e7c57"
+RPM_NAME = "xf86-video-neomagic-1.3.1-1.13.aarch64.rpm"
+RPM_HASH = "9c5c5e6571309f97a4b998061bace933dc5f96681ed236c68eb154c6cd079017561a28fca3c42b770b6e3581553e69792e6b2eb9d5b1e31ab0ccd623ebd3230f"
 
 RPROVIDES:${PN} += "xf86-video-neomagic"
 

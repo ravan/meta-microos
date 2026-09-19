@@ -1,4 +1,4 @@
-SUMMARY = "Bundle of ancient email modules"
+SUMMARY = "Various ancient e-mail related modules"
 DESCRIPTION = "MailTools is a bundle: an ancient form of combining packages into one \
 distribution. Gladly, it can be distributed as if it is a normal \
 distribution as well. \
@@ -9,10 +9,10 @@ libraries. The main reason that you still find this code on CPAN, is \
 because many books use it as example."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.21"
+PV = "2.220.0"
 
-RPM_NAME = "perl-MailTools-2.21-1.17.noarch.rpm"
-RPM_HASH = "01284ddd804446b1501844cd615f4b7fb5bd7a443bd8303d2d2c25182c2c2365c6dda7e22fcb94cc433bef1cb50e12c78b11f2c5188d53466f0b8dc48deb9f9d"
+RPM_NAME = "perl-MailTools-2.220.0-1.10.noarch.rpm"
+RPM_HASH = "e6d554c90c377c00f69d49502051985f9f0975bcd6532ac717b5234368b16c4ff605fd541c7e528bee4382dbc66c0b6f9db0dfc9788ad67dc31c1c30f3bb2445"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Address \
@@ -38,7 +38,7 @@ perl-Mail--Send \
 perl-Mail--Util \
 perl-MailTools"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Date--Format \
 perl-Date--Parse"
 

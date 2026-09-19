@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.15.2"
 
-RPM_NAME = "sharutils-4.15.2-7.7.aarch64.rpm"
-RPM_HASH = "dc6e8c84ed9474273789afca7c9162732354951b3c1ba69492fd81941073d5d730ba6af7fd8247603c8096978e181aa337916166a0878d787fce2fcb992b9d3c"
+RPM_NAME = "sharutils-4.15.2-10.5.aarch64.rpm"
+RPM_HASH = "3ba01a749c59cfad56e4d92c5b1860b5e776e55b7df3b42a471dbcf3425ed2ae2cde392ae5620391301e40c12bfadd6de14641ce93f34b096f1900016b0e8b67"
 
 RPROVIDES:${PN} += "sharutil \
 sharutils"

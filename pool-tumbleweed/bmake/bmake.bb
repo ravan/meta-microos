@@ -9,10 +9,10 @@ bmake is similar to GNU make, even though the syntax for the advanced features \
 supported in Makefiles is very different."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & BSD-4-Clause"
 
-PV = "20230723"
+PV = "20260824"
 
-RPM_NAME = "bmake-20230723-1.1.aarch64.rpm"
-RPM_HASH = "961d529889df76b6411c0efd657d0c74334369f0ec4f58b3c8d0bda53393bb87daa13a336918f31c1a68e6d53c73288687bc2dcdb70421d3aed604516f91922d"
+RPM_NAME = "bmake-20260824-1.1.aarch64.rpm"
+RPM_HASH = "dcae42530263214accedad6705a630f2c1f99e46a084b077fdb2331140fe4ca99ff38949f826aa45c07f4c57614f281ee640ef21f331a303fb2391215fcfb799"
 
 RPROVIDES:${PN} += "bmake"
 

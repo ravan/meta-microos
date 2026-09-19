@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "1.2.10"
 
-RPM_NAME = "NetworkManager-openconnect-1.2.10-1.1.aarch64.rpm"
-RPM_HASH = "c1a517a0f3159d4d2757a8d6c68d65aac0dcb09a188d03e2e914cbbd4e4dde499af2d126457fc3c86c67a4fa0898fdf2fbba54e0de61988724fee96521f64449"
+RPM_NAME = "NetworkManager-openconnect-1.2.10-5.5.aarch64.rpm"
+RPM_HASH = "6a874eab177ed4d171fc5ba45c3916d52e3911befd55f368c62511f808d6818daa956e71dfd64c633feb178fb9a140a3f6eafaf6eb995640021e9e4d4504732e"
 
 RPROVIDES:${PN} += "NetworkManager-openconnect \
 group-nm-openconnect \
@@ -15,7 +15,6 @@ user-nm-openconnect"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 NetworkManager \
-NetworkManager-openconnect-frontend \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgio-2.0.so.0 \

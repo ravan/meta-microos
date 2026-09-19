@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gscan2pdf"
 DESCRIPTION = "Provides translations for the 'gscan2pdf' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.13.2"
+PV = "2.13.5"
 
-RPM_NAME = "gscan2pdf-lang-2.13.2-1.3.noarch.rpm"
-RPM_HASH = "8f3198ad00b4cc62348af1a7bd8a66c18f6dd2af14076e31a853577afdb1a4244f05bd4eab8e6c774235d29a315423bba2d4575f0637785d2fee4fad88692301"
+RPM_NAME = "gscan2pdf-lang-2.13.5-2.5.noarch.rpm"
+RPM_HASH = "ec967dc7bdce9716a8745aae7d7500d23c85597ec88bcddc32ae8531bdfe11e862649e08c4ca5bac88ec6e471eabe26395f5288695cd0143ab6615934f9580e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gscan2pdf-lang \

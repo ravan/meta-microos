@@ -3,10 +3,10 @@ DESCRIPTION = " \
 Bash completion files for linode-cli"
 LICENSE = "BSD-3-Clause"
 
-PV = "5.25.0"
+PV = "5.65.0"
 
-RPM_NAME = "linode-cli-bash-completion-5.25.0-1.6.noarch.rpm"
-RPM_HASH = "edac07e163ee4c20f722f6f1f9062f93919a2e218cfeb784d49dbcd5d3363d9b2c15e1e872673938579581c1aeac6fddfd5323105d3a9d452c54211d3f0ef74c"
+RPM_NAME = "linode-cli-bash-completion-5.65.0-1.3.noarch.rpm"
+RPM_HASH = "1a8c184b33a01d600c222aa9d77f089340937fa2c3e068497436d3568bc60afdd3fcc3870c0a08bca6158eb0e0719a91ee89a0b4eafdc078168fdedbfcb86a03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "linode-cli-bash-completion"

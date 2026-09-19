@@ -9,10 +9,10 @@ This package provides headers and libraries required to build software \
 using libnvidia-egl-wayland."
 LICENSE = "MIT"
 
-PV = "1.1.12"
+PV = "1.1.22"
 
-RPM_NAME = "libnvidia-egl-wayland-devel-1.1.12-1.1.aarch64.rpm"
-RPM_HASH = "36d45e7cd3125172b580df7d065e83b57780078b76d0d6e81bfcc68e4cb216113b703b30c3465c945ec4aafbc48e29b76c0886348f7d00713d18f5ff56ef3e19"
+RPM_NAME = "libnvidia-egl-wayland-devel-1.1.22-2.1.aarch64.rpm"
+RPM_HASH = "abefeb3acbde4db6eda6e3eeded7a75e3e85ffd140500230307f420c36273c8ed9e8e405c4e9844c2a5bf1420fac940b8bd619a77ac592a40e98dd8896073c0a"
 
 RPROVIDES:${PN} += "libnvidia-egl-wayland-devel \
 pkgconfig-wayland-eglstream \

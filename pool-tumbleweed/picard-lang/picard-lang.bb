@@ -2,14 +2,13 @@ SUMMARY = "Translations for package picard"
 DESCRIPTION = "Provides translations for the 'picard' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.9.1"
+PV = "2.13.3"
 
-RPM_NAME = "picard-lang-2.9.1-1.1.noarch.rpm"
-RPM_HASH = "e1e3f7f43969433ae1edae17acd1ff0f7a3efd48469a0044306451fa6141a16591b24a319c22ce5af16ed541912867e1acd28fe50e7f9ceac6f621589c20d53a"
+RPM_NAME = "picard-lang-2.13.3-1.7.noarch.rpm"
+RPM_HASH = "c04e6cccac33960f26bd173b07029fc7168461b9b28dde91f448f9ad1010b0765ea7a162f01fa163f3baf4143f54183f96f90bdc186ce69fb89205d9212d65e0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-picard-af \
-locale-picard-ar \
+RPROVIDES:${PN} += "locale-picard-ar \
 locale-picard-ast \
 locale-picard-bg \
 locale-picard-bn \
@@ -18,7 +17,6 @@ locale-picard-cs \
 locale-picard-cy \
 locale-picard-da \
 locale-picard-de \
-locale-picard-de-CH \
 locale-picard-el \
 locale-picard-en-AU \
 locale-picard-en-CA \
@@ -43,8 +41,9 @@ locale-picard-kn \
 locale-picard-ko \
 locale-picard-lt \
 locale-picard-mr \
+locale-picard-ms \
 locale-picard-nb \
-locale-picard-nds \
+locale-picard-nb-NO \
 locale-picard-ne \
 locale-picard-nl \
 locale-picard-nl-BE \
@@ -61,13 +60,14 @@ locale-picard-sl \
 locale-picard-sq \
 locale-picard-sr \
 locale-picard-sv \
-locale-picard-ta \
 locale-picard-te \
 locale-picard-tr \
 locale-picard-uk \
 locale-picard-vi \
 locale-picard-zh \
 locale-picard-zh-CN \
+locale-picard-zh-Hans \
+locale-picard-zh-Hant \
 locale-picard-zh-TW \
 picard-lang \
 picard-lang-all"

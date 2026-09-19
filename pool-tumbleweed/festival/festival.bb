@@ -8,20 +8,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.5.0"
 
-RPM_NAME = "festival-2.5.0-8.10.aarch64.rpm"
-RPM_HASH = "df3bd3f404fbebd8e437e1a5120740a40cb67e180938d9ab1cd614f7b302f3504d08c1d1c26554ae683ad99bd3df8ab0464883fa8e7639d10891fa25c6e14d79"
+RPM_NAME = "festival-2.5.0-16.1.aarch64.rpm"
+RPM_HASH = "6923f5aa98b9bf03cd862d3d7bfa5478c180a82dd711c17d628da0b25d1a462921b0ad2c44659ac68dbdd98dce363aa344a5e5ce9496e481132a4d0dd54f1543"
 
 RPROVIDES:${PN} += "config-festival \
 festival"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-/usr/sbin/groupadd \
-/usr/sbin/useradd \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libtinfo.so.6"
+libtinfo.so.6 \
+shadow"
 
 inherit rpm

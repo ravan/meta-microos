@@ -8,21 +8,19 @@ This package contains systemd-journal-gatewayd, \
 systemd-journal-remote, and systemd-journal-upload."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.8"
+PV = "261.2"
 
-RPM_NAME = "systemd-journal-remote-253.8-1.2.aarch64.rpm"
-RPM_HASH = "9a172f8908b194564acac5462bb04348928bb21d1e6b8aac4a2b24855e8a48be29f44513e2afb7b48a6c59309482c9651bc1fb474ad5a79c98fb10d977c43b05"
+RPM_NAME = "systemd-journal-remote-261.2-1.2.aarch64.rpm"
+RPM_HASH = "bbf215bda5e708963ecfa5526c8999c8f42b68a59cb7066f03ec19ed08ef6643a3c3045005b5535eedb318c1456eb63e2f73c47bc0bce7bf6fb306b6bf40cd2a"
 
-RPROVIDES:${PN} += "config-systemd-journal-remote \
-systemd-journal-remote"
+RPROVIDES:${PN} += "group-systemd-journal-remote \
+systemd-journal-remote \
+user-systemd-journal-remote"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcurl.so.4 \
-libgnutls.so.30 \
-libmicrohttpd.so.12 \
-libsystemd-shared-253.so \
+libsystemd-shared-261.2-1.2.so \
 systemd"
 
 inherit rpm

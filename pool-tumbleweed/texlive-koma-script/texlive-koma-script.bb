@@ -14,14 +14,18 @@ version of scrbook, scrreprt, scrartcl, scrlttr2 and typearea \
 (which are the main parts of the bundle)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.38svn64685"
+PV = "2026.226.3.49.2svn77575"
 
-RPM_NAME = "texlive-koma-script-2023.209.3.38svn64685-56.1.noarch.rpm"
-RPM_HASH = "39d88fa32823a2d1a5321b97b7f9e3ea1102d16620a6fe7a9e077a5082aa657bfe5acae6595f28dce5c7524bb349d3a709317a5606bc42f6286ad337e023d8cd"
+RPM_NAME = "texlive-koma-script-2026.226.3.49.2svn77575-63.2.noarch.rpm"
+RPM_HASH = "d97e7fd59e82b09c36e7d1dec90ad14980a31e8bc4266e4dfd83460d6eaabbecfab896d775fbd433cadead1537cd991040ca868065d2a788d43e63c45aaa985e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-authorpart-de.tex \
 tex-authorpart-en.tex \
+tex-book-remarkbox-nopatch-de.tex \
+tex-book-remarkbox-nopatch-en.tex \
+tex-book-remarkbox-patch-de.tex \
+tex-book-remarkbox-patch-en.tex \
 tex-common-compatibility-de.tex \
 tex-common-compatibility-en.tex \
 tex-common-dictum-de.tex \
@@ -130,7 +134,6 @@ tex-scrbookreportarticle-experts-en.tex \
 tex-scrdate-de.tex \
 tex-scrdate-en.tex \
 tex-scrdate.sty \
-tex-scrdoc.cls \
 tex-scrdocstrip.tex \
 tex-scrextend-de.tex \
 tex-scrextend-en.tex \
@@ -140,13 +143,8 @@ tex-scrguide-body.tex \
 tex-scrguide-de.tex \
 tex-scrguide-en.tex \
 tex-scrguide.cls \
-tex-scrhack-de.tex \
-tex-scrhack-en.tex \
-tex-scrhack.sty \
 tex-scrjura-de.tex \
 tex-scrjura-en.tex \
-tex-scrjura-example-de.tex \
-tex-scrjura-example-en.tex \
 tex-scrjura.sty \
 tex-scrkbase.sty \
 tex-scrlayer-de.tex \
@@ -188,7 +186,6 @@ tex-scrtime-en.tex \
 tex-scrtime.sty \
 tex-scrwfile-de.tex \
 tex-scrwfile-en.tex \
-tex-scrwfile.sty \
 tex-terms-de.tex \
 tex-terms-en.tex \
 tex-tocbasic-de.tex \
@@ -215,12 +212,12 @@ tex-babelbib.sty \
 tex-biblatex.sty \
 tex-bookmark.sty \
 tex-booktabs.sty \
+tex-contract.sty \
 tex-etoolbox.sty \
 tex-fontenc.sty \
 tex-geometry.sty \
 tex-graphicx.sty \
 tex-hyperref.sty \
-tex-iftex.sty \
 tex-keyval.sty \
 tex-l3keys2e.sty \
 tex-listings.sty \
@@ -238,11 +235,12 @@ tex-xcolor.sty \
 tex-xparse.sty \
 tex-xpatch.sty \
 texlive \
+texlive-etoolbox \
 texlive-filesystem \
-texlive-footmisc \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-scripts \
-texlive-scripts-bin"
+texlive-scripts-bin \
+texlive-xpatch"
 
 inherit rpm

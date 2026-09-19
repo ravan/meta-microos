@@ -1,12 +1,11 @@
 SUMMARY = "Kernel firmware files for Marvell network drivers"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Marvell network drivers."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Marvell network drivers."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
-PV = "20230829"
+PV = "20260610"
 
-RPM_NAME = "kernel-firmware-marvell-20230829-1.1.noarch.rpm"
-RPM_HASH = "90faae42d564b3123b9175a41136faaf323ef18ba3025a051e4c93ebe0353819f708a1791e3d7f903490b2ec8aad8088a374feeb93d61c447605e5cf7571f25f"
+RPM_NAME = "kernel-firmware-marvell-20260610-1.2.noarch.rpm"
+RPM_HASH = "bfba5b250d1997d932832f6f1469b55a26a2d96abc17ecf49a5851450811f9c7df3a2d59fff2308323ad05ad00868e1ea0fae2d4ec466d28453e4c50a2cca2bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-lbtf-usb.bin \

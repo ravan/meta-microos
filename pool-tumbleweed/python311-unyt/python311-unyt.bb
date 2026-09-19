@@ -7,19 +7,18 @@ way to easily tell what the units of the data are without somehow knowing *a \
 priori*."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.9.5"
+PV = "3.0.4"
 
-RPM_NAME = "python311-unyt-2.9.5-1.3.noarch.rpm"
-RPM_HASH = "e44530a815ef741a38bd1134a1a50459c1afe293df5411e32d7fd23bf0fd4c86c6a86183b642afbf132f89b441f4ba648b20688f7061b7dae45a3a2fae1728c5"
+RPM_NAME = "python311-unyt-3.0.4-1.1.noarch.rpm"
+RPM_HASH = "c4eb2a57075539717fc7919dfa877ee5869fe455dca5abde947d18b2780a33f76338120bdbbffc45687c9c96470e4c0caf8a6ca4fc10b42f28dfd5a0f113902f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-unyt \
-python3.11dist-unyt \
+RPROVIDES:${PN} += "python3.11dist-unyt \
 python311-unyt \
 python3dist-unyt"
 
-RDEPENDS:${PN} += "python-abi \
-python311-numpy \
+RDEPENDS:${PN} += "-python311-numpy >= 1.19.3 with python311-numpy < 3 \
+python-abi \
 python311-packaging \
 python311-sympy"
 

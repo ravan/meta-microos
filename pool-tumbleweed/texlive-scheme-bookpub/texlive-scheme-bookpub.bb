@@ -7,13 +7,16 @@ are large), nor does it contain additional mathematical or \
 other technical packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn63547"
+PV = "2026.222.svn63547"
 
-RPM_NAME = "texlive-scheme-bookpub-2023.208.svn63547-60.1.noarch.rpm"
-RPM_HASH = "c5888571fb530ca190537eebc94d3e35197a308d4800513bbaa4c1d9efac50a327f74785a875f79aef049e7578b79b12d0b098cd72261c30220522bd65538e4a"
+RPM_NAME = "texlive-scheme-bookpub-2026.222.svn63547-68.2.noarch.rpm"
+RPM_HASH = "11f624e81401e67a217a718332df472bc8d75174ecf87ec42f51dc8a65c88636f4a590c59668c5d85dfa9cd8ab3846598ba7afc359a548f231eedcb65a32a089"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-scheme-bookpub"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-bookpub \
+texlive-scheme-bookpub"
 
 RDEPENDS:${PN} += "texlive-barcodes \
 texlive-biber \

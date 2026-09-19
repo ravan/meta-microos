@@ -2,10 +2,10 @@ SUMMARY = "Recast Library for Recastnatnaviagtion"
 DESCRIPTION = "This package contains the recast library of Recastnatnaviagtion."
 LICENSE = "Zlib"
 
-PV = "1.5.1+git20210305.c5cbd53"
+PV = "1.6.0"
 
-RPM_NAME = "libRecast1-1.5.1+git20210305.c5cbd53-1.8.aarch64.rpm"
-RPM_HASH = "fa0e35155e7d6cb171158aa256c56ee4556e7e1085a0248ba3d005f1921377e6641dc9368789d034bcfcc8cdb9e582b1bcb876d1327c5fefed71f97dac4ee381"
+RPM_NAME = "libRecast1-1.6.0-1.9.aarch64.rpm"
+RPM_HASH = "222ed8a2dedaf97c40c420ec19865359b82e440015fb185dc5b780c916e6356c21aa62db7d9cd48a09d746f4487304ddfa903bffbb2406528b14ee5baf8375cc"
 
 RPROVIDES:${PN} += "libRecast.so.1 \
 libRecast1"

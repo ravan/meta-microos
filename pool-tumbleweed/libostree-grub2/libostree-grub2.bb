@@ -2,10 +2,10 @@ SUMMARY = "GRUB2 integration for OSTree"
 DESCRIPTION = "GRUB2 integration for OSTree"
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "2023.6"
+PV = "2026.4"
 
-RPM_NAME = "libostree-grub2-2023.6-1.1.noarch.rpm"
-RPM_HASH = "5136670330e2db8624f8ee4de57a25aa9da3a6396a05b6a5b7f75258fe65077e71c8c63c28576c3e6678fe383b33bec895f6e9137d7bb98bc4a1ef0c3d270907"
+RPM_NAME = "libostree-grub2-2026.4-1.1.noarch.rpm"
+RPM_HASH = "b77c520bb818f9255d2a9df8bf5f1cac35f5b5340dc1ccd325ced2f82906baa68746b3089208a596981c32c32a6aed03066ce051dc05ca93253820291eaff0c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libostree-grub2 \

@@ -9,10 +9,10 @@ will find higher level libraries like libpmemobj to be much more \
 convenient."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "2.1.1"
 
-RPM_NAME = "libpmem-devel-1.11.1-1.9.aarch64.rpm"
-RPM_HASH = "c9f2a3fa832e6c725e24488043c6cb48604c74541e3ac38cf4d9cdab2b83ff9e5afc29dad73a6e3705ffd91e249a6fc83f50c50fa950d4bcf89b1ed1cc72b31e"
+RPM_NAME = "libpmem-devel-2.1.1-1.5.aarch64.rpm"
+RPM_HASH = "e68a1a1cb5fce7393b2134ff370fca21fc19daadaa54cc72f409585445614b07618eeac6af1d1b561ddc9f1a9d1e8263182c913c0603724ca6070593b5bc5aad"
 
 RPROVIDES:${PN} += "libpmem-devel \
 pkgconfig-libpmem"

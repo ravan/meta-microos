@@ -5,17 +5,17 @@ the reverse of 'strftime(3)', for 'DateTime'. While 'strftime' takes a \
 and a pattern and returns the 'DateTime' object associated."
 LICENSE = "Artistic-2.0"
 
-PV = "1.79"
+PV = "1.800.0"
 
-RPM_NAME = "perl-DateTime-Format-Strptime-1.79-1.11.noarch.rpm"
-RPM_HASH = "35ca681a457fc3d0fd57b558fe712674b805cacef24cc17d30880de7ab6acacec3e8e5ef45c5aa4e1b191bb69dba3d8317f0b74f8f25110009523388f5b69782"
+RPM_NAME = "perl-DateTime-Format-Strptime-1.800.0-1.5.noarch.rpm"
+RPM_HASH = "3e8a14ee9cfe3a6dd77d369952708ad4bf5420acf365dc601a7d3354eded9026bd5b8d58222667e59bfdb6fb6f658045b9a66dcb1dddf29073d0b793f6f99912"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--Strptime \
 perl-DateTime--Format--Strptime--Types \
 perl-DateTime-Format-Strptime"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DateTime \
 perl-DateTime--Locale \
 perl-DateTime--Locale--Base \

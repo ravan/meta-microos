@@ -7,10 +7,10 @@ This virtual package requires the needed libraries for check_dbi to work \
 with a PostgreSQL database"
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-dbi-pgsql-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "a4ed2480e3225d3ffb2da596a58eaccf52bf18e8e5eee1784d668ad0f0f2c4807413fc0d27dba7ac78fddc06ccdd861c0028a0912346f06a145e1f626d7acbdf"
+RPM_NAME = "monitoring-plugins-dbi-pgsql-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "e546511f764a3570cac3c06725c8f2d903c2e9168b58965e45c98ddf15afbfe6bd8d73d597744b3c4533ecb518e4d087d368ddf494f6fd24ce63142209179875"
 
 RPROVIDES:${PN} += "monitoring-plugins-dbi-backend \
 monitoring-plugins-dbi-pgsql \

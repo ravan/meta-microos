@@ -9,10 +9,10 @@ Praat is configurable and extensible through its own scripting language and has 
 provisions for communicating with other programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.3.16"
+PV = "7.0.02"
 
-RPM_NAME = "praat-6.3.16-1.1.aarch64.rpm"
-RPM_HASH = "e90d874044144af3e2ed9d47cac658c66d803747561961486db90658b6892fe62cb343c46befe0aa23228c323eb53b617b3c550173a4bc2c728598d9d2733b8e"
+RPM_NAME = "praat-7.0.02-1.1.aarch64.rpm"
+RPM_HASH = "dbad01b9291c3171d5a71c0ce5e1e1f063b0510d3248d72b11fa12a462fafb2550d002ae30da2a2b25795d19b136bbeea3f3fa7c9aae28414d51d85609f13b41"
 
 RPROVIDES:${PN} += "praat"
 
@@ -25,10 +25,12 @@ libgdk-3.so.0 \
 libglib-2.0.so.0 \
 libglpk.so.40 \
 libgobject-2.0.so.0 \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
 libgtk-3.so.0 \
+libjack.so.0 \
 libm.so.6 \
+libmp3lame.so.0 \
 libogg.so.0 \
 libopusfile.so.0 \
 libpango-1.0.so.0 \
@@ -36,6 +38,7 @@ libpangocairo-1.0.so.0 \
 libpulse.so.0 \
 libstdc++.so.6 \
 libvorbis.so.0 \
-libvorbisfile.so.3"
+libvorbisfile.so.3 \
+libz.so.1"
 
 inherit rpm

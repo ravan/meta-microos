@@ -3,10 +3,10 @@ DESCRIPTION = "This small package allows to cite all entries of a bbl-file \
 created with BibLaTeX (v1.9)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn45975"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-citeall-2023.209.1.4svn45975-54.1.noarch.rpm"
-RPM_HASH = "476a1bd418430357d79b3dcc1af8d87e2dcda94a1f7016217edfa6d313ec3916929bcf6342db7a0ca3b56c4e1ea2db663932cac612efa18286bed9fb22b2c08f"
+RPM_NAME = "texlive-citeall-2026.226.1.4svn77682-60.2.noarch.rpm"
+RPM_HASH = "732bc4d6d5dc6a3465f807263261fcada9d488344f2cbeeab94dac3e9547b72b3cfc84c820c099854e1c6eac15dcd670923a5d4ac32519347da65ec01d695000"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-citeall.sty \

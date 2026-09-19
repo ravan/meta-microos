@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-unitn-bimrep"
 DESCRIPTION = "This package includes the documentation for texlive-unitn-bimrep"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn45581"
+PV = "2026.226.svn45581"
 
-RPM_NAME = "texlive-unitn-bimrep-doc-2023.209.svn45581-54.1.noarch.rpm"
-RPM_HASH = "7b58c5dd614698ec8723138b1e5789a9f9111fefad29a073bfb6ba0f1e4b9b292565db8a765a4a51fda4cbcdcb0de92cd0bf735abdd98af05b5e49ebf9639845"
+RPM_NAME = "texlive-unitn-bimrep-doc-2026.226.svn45581-60.2.noarch.rpm"
+RPM_HASH = "0fafcb1907068eb8a6b267bbe7fbaf63be43f452dd2e51df94db05c01b7d85705aae7187c2be51a27b5cedd4e3851092cc68d4c4e8de6d4c6698472ec3be3630"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unitn-bimrep-doc"

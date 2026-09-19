@@ -5,15 +5,17 @@ bundle. It accompanies the pre-testing kernel code \
 users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.20230501_pre_release_0svn64899"
+PV = "2026.226.pre_release_1svn77483"
 
-RPM_NAME = "texlive-latex-tools-dev-2023.209.20230501_pre_release_0svn64899-56.1.noarch.rpm"
-RPM_HASH = "4441ee7ae4a4007b130f6c7a26f1470ba0e096f7416ea29ad4b805df71689fbb631dbb508b2ef853abac2fd1b7359bbeb1240adadd22cdc376897412c1541697"
+RPM_NAME = "texlive-latex-tools-dev-2026.226.pre_release_1svn77483-63.2.noarch.rpm"
+RPM_HASH = "3f075827efec5d70458bd647860c8a122fb40f2312c4b9d0781a8a4408ebb174ed5bfd572536c635606d8372b2f31449343ab1effb23652d5520d3a3d3398606"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texdev-afterpage.sty \
 texdev-array-2016-10-06.sty \
 texdev-array-2020-02-10.sty \
+texdev-array-2023-11-01.sty \
+texdev-array-2024-06-01.sty \
 texdev-array.sty \
 texdev-bm.sty \
 texdev-calc.sty \
@@ -27,11 +29,13 @@ texdev-ftnright.sty \
 texdev-h.tex \
 texdev-hhline.sty \
 texdev-indentfirst.sty \
+texdev-l3sys-query.sty \
 texdev-layout.sty \
 texdev-longtable-2020-01-07.sty \
 texdev-longtable.sty \
 texdev-multicol-2017-04-11.sty \
 texdev-multicol-2019-10-01.sty \
+texdev-multicol-2024-05-23.sty \
 texdev-multicol.sty \
 texdev-q.tex \
 texdev-r.tex \
@@ -51,10 +55,12 @@ texdev-thmb.sty \
 texdev-thp.sty \
 texdev-trace.sty \
 texdev-varioref-2016-02-16.sty \
+texdev-varioref-2019-10-01.sty \
 texdev-varioref.sty \
 texdev-verbatim.sty \
 texdev-verbtest.tex \
 texdev-x.tex \
+texdev-xr-2023-07-04.sty \
 texdev-xr.sty \
 texdev-xspace.sty \
 texlive-latex-tools-dev"

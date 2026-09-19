@@ -1,16 +1,19 @@
 SUMMARY = "Development package for libkomparediff2"
 DESCRIPTION = "Development package for libkomparediff2."
-LICENSE = "(GPL-2.0-or-later & LGPL-2.0-or-later) & BSD-2-Clause"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libkomparediff2-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "85894406c9e6e58e1a5aead419c59c3a13612b864fb8c42998dc112fdd283a76f6691979b1da030c1be82abd1e4184a6592df0e66a381afc2bd5c43477a344ac"
+RPM_NAME = "libkomparediff2-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "faf3fb4c788c8d236abcc1cd40127940140582ed44dd6ab35ebefadf022b851f67826380553b401dd3b90626f10c6debceb5d9c6f210a89cb4651b0aa639bebf"
 
-RPROVIDES:${PN} += "cmake-LibKompareDiff2 \
-libkomparediff2-devel \
-libkomparediff2-kf5-devel"
+RPROVIDES:${PN} += "cmake-KompareDiff2 \
+libkomparediff2-devel"
 
-RDEPENDS:${PN} += "libkomparediff2-5"
+RDEPENDS:${PN} += "cmake-KF6Config \
+cmake-KF6XmlGui \
+cmake-Qt6Core \
+cmake-Qt6Widgets \
+libkomparediff2-6"
 
 inherit rpm

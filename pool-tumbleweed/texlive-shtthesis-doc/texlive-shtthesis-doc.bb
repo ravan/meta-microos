@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-shtthesis"
 DESCRIPTION = "This package includes the documentation for texlive-shtthesis"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.3.3svn62441"
+PV = "2026.226.0.0.3.3svn62441"
 
-RPM_NAME = "texlive-shtthesis-doc-2023.209.0.0.3.3svn62441-54.1.noarch.rpm"
-RPM_HASH = "3190bfda0d21f062d2f27a8aa2f5da9a663e1d1bbb0cdb86dfe097c8b4971a545557cd85449404c369e4d9c541ac6a60ec046057db289beb8323c8e69dbb504a"
+RPM_NAME = "texlive-shtthesis-doc-2026.226.0.0.3.3svn62441-60.2.noarch.rpm"
+RPM_HASH = "9cfa0327c99abc009b40714fc63f13892e1678d4c55b18c78b9edd4febf616bf34456726fea7192c37fb55b06930569df2116d661c6e056bfa3f3435ad2b1e43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-shtthesis-doc-zh \

@@ -4,10 +4,10 @@ when using NFSv4 to access a remote filesystem. The remote filesystem \
 must also support ACLs."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.7"
+PV = "0.4.2"
 
-RPM_NAME = "nfs4-acl-tools-0.3.7-2.7.aarch64.rpm"
-RPM_HASH = "6638351da0ac8b0c5f87ad72c3809ef24f6dde2c8dd0de61794c7e4c07c0e3e23a08d9952713881ceaf541e4d9251c699313ee1eac4c16402d6001405968e92e"
+RPM_NAME = "nfs4-acl-tools-0.4.2-1.5.aarch64.rpm"
+RPM_HASH = "e98afc3524e484f3487edd5943d92572aaaf0c2b7ed212123b14373a5dbac0f216ecd887698a2894a8c8c57db6329182fc509a5206d4629a8969d70092bb4e22"
 
 RPROVIDES:${PN} += "nfs4-acl-tools"
 

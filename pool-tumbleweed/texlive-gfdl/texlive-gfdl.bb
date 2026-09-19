@@ -1,4 +1,4 @@
-SUMMARY = "Support for using GFDL in LaTeX"
+SUMMARY = "Support for using GNU Free Documentation License in LaTeX"
 DESCRIPTION = "The GFDL (GNU Free Documentation License) is a popular license \
 used for programming manuals, documentations and various other \
 textual works too, but using this license with LaTeX is not \
@@ -8,10 +8,10 @@ With a handful of commands, users can rest assured that their \
 document will be perfectly licensed under GFDL."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.1svn65415"
+PV = "2026.226.0.0.2svn75712"
 
-RPM_NAME = "texlive-gfdl-2023.209.0.0.1svn65415-53.1.noarch.rpm"
-RPM_HASH = "67d53417ed9c5dfbbd0c0ff7ace3ab8904d171e58027b9526fd1ba7b9058d93578d647b21243c0b19b6d9a1339c4ebb1b773618ae3b6d6c27ce711f66f0c54a2"
+RPM_NAME = "texlive-gfdl-2026.226.0.0.2svn75712-60.2.noarch.rpm"
+RPM_HASH = "0750961732ecc6e39f37896e1fb5ade04ba93411dc74c2989a3cc9a98112a9669a3792d78c9f44b169ca33f2d5070409915ab3e0ba0f1cd2373749f2b940c081"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gfdl-tex-1p1.tex \

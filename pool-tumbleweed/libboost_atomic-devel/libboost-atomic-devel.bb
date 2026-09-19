@@ -5,14 +5,13 @@ ordering constraints required for coordinating multiple threads through \
 atomic variables."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_atomic-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "c32d4951ca565e4444ed942096cff0e716b281e93844dda3b97546ebd4c5ee2b9f18f80bcb6a728c62b637a5410ea8716e4a6fe8332c7f07b8605b6e89a36d8a"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_atomic-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "2d938c861ab3bbd8914a199865242d3884ec6ddfcd682ee0f0d398ee321ff1b71846266aa8f51c0fc4230323be75d1d1d0ebb6aa1b4c4d81a0b0ed4a8ef233df"
 
 RPROVIDES:${PN} += "libboost-atomic-devel"
 
-RDEPENDS:${PN} += "libboost-atomic1-82-0-devel"
+RDEPENDS:${PN} += "libboost-atomic1-91-0-devel"
 
 inherit rpm

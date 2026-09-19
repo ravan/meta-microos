@@ -5,10 +5,10 @@ to input characters and possibly show disambiguation windows around \
 the text cursor."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.5.28"
+PV = "1.5.34"
 
-RPM_NAME = "ibus-1.5.28-2.2.aarch64.rpm"
-RPM_HASH = "927fde8b27eae19e91af48b32210b7b2a715fd271b801e48d82865b6adea3b9ae96453d97124234c0c51d71a8fa82c3a44c5dd27cae77b66a5a4b8543d8decd2"
+RPM_NAME = "ibus-1.5.34-2.1.aarch64.rpm"
+RPM_HASH = "7a821c6bb94b640050cd9a62d38d2d742f5873f43a9e4e2081b86310789b5ac7d54a30e633064ac8ba2faedad58096f518f33a35c5aae7e0bbeafddead91322a"
 
 RPROVIDES:${PN} += "config-ibus \
 ibus \
@@ -39,6 +39,8 @@ libXi.so.6 \
 libatk-1.0.so.0 \
 libc.so.6 \
 libcairo.so.2 \
+libdbusmenu-glib.so.4 \
+libdbusmenu-gtk3.so.4 \
 libdconf.so.1 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \

@@ -7,10 +7,10 @@ capabilities within setuid binaries. If you use patches, this can be \
 done automatically by the kernel."
 LICENSE = "BSD-3-Clause | GPL-2.0-only"
 
-PV = "2.69"
+PV = "2.78"
 
-RPM_NAME = "libpsx2-2.69-1.2.aarch64.rpm"
-RPM_HASH = "d3db71ccd262fbe6520df7a9e10d8cb8e53a4b24b0d5c1e92560b5da7f92e9bb7bae85ad38296614e9a0089acf7eb041a5e3e85145c0dfdae1cf12ae0c4c20ff"
+RPM_NAME = "libpsx2-2.78-1.4.aarch64.rpm"
+RPM_HASH = "f5076c214aec40e9cca8ecb3cd432f215dce4bffe221b89fb36fe7d86473517f89da630a20319280ed881b1d84755c2df0afa1cec19b3eba38a1c29a2693875f"
 
 RPROVIDES:${PN} += "libpsx.so.2 \
 libpsx2"

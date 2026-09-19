@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
 PV = "6.1.1"
 
-RPM_NAME = "mingw32-libgmpxx4-6.1.1-3.13.noarch.rpm"
-RPM_HASH = "abf0e190e11319114599fa89fce54a20bedb8ad4fa6c481a7d5483aa7091a05dd97b3e28dcfd3f1b51311ce1bf84a2a47b3024d953651075ba6b299758f888ec"
+RPM_NAME = "mingw32-libgmpxx4-6.1.1-4.1.noarch.rpm"
+RPM_HASH = "10bbc8fa25779cfd4ff9b77e489d08d172ab5ba69bd9a12649266a2e5836ca198283d8fec7658bad99cd5d5e777bf6eb5e340beb0332f2c7647ed8fd1c6a5c7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-libgmpxx \

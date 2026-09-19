@@ -2,10 +2,10 @@ SUMMARY = "Tools for the URSP1 SDR"
 DESCRIPTION = "Tools for the URSP1 SDR."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.4.7"
+PV = "3.4.11"
 
-RPM_NAME = "usrp-tools-3.4.7-1.5.aarch64.rpm"
-RPM_HASH = "d37415bb9a0e1a1dedff022c423920c77d1ea134f0f4c2d4b7906e1c73927882a6946b2ecb438ea5d95530b78ab4f2d21ed2d73ccfa7d5cdc817e0d4427e52b5"
+RPM_NAME = "usrp-tools-3.4.11-1.4.aarch64.rpm"
+RPM_HASH = "e274403f0ed6e6bdc5e8cbfa93389823eb3a91a33937c157687c4bb8fb3394f6fd168a16669bb317dcacd81d95f510f3c11f40d9f883ea292462c90c38cbe36c"
 
 RPROVIDES:${PN} += "usrp-tools"
 

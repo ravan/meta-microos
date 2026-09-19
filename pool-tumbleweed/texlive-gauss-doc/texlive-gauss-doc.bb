@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gauss"
 DESCRIPTION = "This package includes the documentation for texlive-gauss"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn32934"
+PV = "2026.226.svn32934"
 
-RPM_NAME = "texlive-gauss-doc-2023.209.svn32934-53.1.noarch.rpm"
-RPM_HASH = "b0a0d20750f1f7b21345445a5f9a2ee5ac6de5fd4647f0f286d55182e56c3c0511d5b718706b39f52d98bfea107f9381763caf2e30d9ae9bf22c5369f494c2ef"
+RPM_NAME = "texlive-gauss-doc-2026.226.svn32934-60.2.noarch.rpm"
+RPM_HASH = "c3a556f4d482aa4ac49d60caaab87ee3856e40d758bfae3980c99b0c87ef0b5b499bd965d73b01d6513f9476bf204eba59d94cef321bedc8f04e68dcd077a2d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gauss-doc"

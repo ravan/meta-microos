@@ -1,11 +1,11 @@
 SUMMARY = "Documentation for texlive-mptopdf"
 DESCRIPTION = "This package includes the documentation for texlive-mptopdf"
-LICENSE = "LPPL-1.0"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn65952"
+PV = "2026.226.svn78010"
 
-RPM_NAME = "texlive-mptopdf-doc-2023.209.svn65952-55.1.noarch.rpm"
-RPM_HASH = "016bab5582e4070c7a02c5ef612890c6491bb0700b79729ecdb0889000b19921a7e25c89f8fba276e8ad24e50106273c78d4dc89d280abf17c54d6c3be3c07bd"
+RPM_NAME = "texlive-mptopdf-doc-2026.226.svn78010-61.2.noarch.rpm"
+RPM_HASH = "f5b188200fb259fc726ea8c35dcc7ee3089d4179685f1339fdac4d86c6071c3cd095eeef38cbe7e7c787cc7c153ae16e0bad663d490ff8f2ef23a345258e70d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-mptopdf.1 \

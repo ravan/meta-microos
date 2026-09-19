@@ -4,10 +4,10 @@ package depends on amsmath, calc, graphicx, ifthen, lcg, and \
 stackengine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.0svn63595"
+PV = "2026.226.7.1svn66924"
 
-RPM_NAME = "texlive-realhats-2023.209.6.0svn63595-54.2.noarch.rpm"
-RPM_HASH = "01c8133844471f3c240a2b4323df317e9c4e893c638d132666f1d60f83ac141c322d9606c107ef7a71abffd17a531647a1418e5641bd88185320dcab02abfadc"
+RPM_NAME = "texlive-realhats-2026.226.7.1svn66924-60.4.noarch.rpm"
+RPM_HASH = "64c8d9d57fd472228693ae6cbb1e93fcbd343c342907b59187b10cd93ba4a9994c5b3fee3e8d1535f68958af5860f6323db5509df37f073d57c24484bee34ddb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-realhats.sty \

@@ -7,15 +7,18 @@ The fonts included are Garuda, Kinnari, Laksaman, Loma, Norasi, Purisa, \
 Sawasdee, TlwgMono, TlwgTypewriter, TlwgTypo, Umpush and Waree."
 LICENSE = "GPL-2.0-only-with-Font-exception-2.0 & LPPL-1.3c"
 
-PV = "0.7.3"
+PV = "0.7.4"
 
-RPM_NAME = "thai-fonts-0.7.3-1.8.noarch.rpm"
-RPM_HASH = "a55a117e96d3d8d4e32ea3aa2e2d3e90b061bab9c6e076211709c47eca380d0d091b907bed4e89a4b415f2a1bb9ac6c1fefd57a5bf266eaa7ec1ca75dd752a24"
+RPM_NAME = "thai-fonts-0.7.4-1.1.noarch.rpm"
+RPM_HASH = "66e1e5bdb3bf50f8984bebcefe1bfe1c6204f8be20b4191acf51098c81c34d956cf727336d0eecae8f38ef8a44b3b672599a5c926ea548840570a2b5cde000b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=bin \
 font--lang=br \
@@ -59,7 +62,11 @@ font--lang=kwm \
 font--lang=lb \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=miq \
+font--lang=mjw \
 font--lang=ms \
 font--lang=na \
 font--lang=nb \
@@ -94,15 +101,19 @@ font--lang=sw \
 font--lang=th \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-garuda \

@@ -2,18 +2,18 @@ SUMMARY = "Translations for package khangman"
 DESCRIPTION = "Provides translations for the 'khangman' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "khangman-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "af0d339d1be5f24f70baa053b2ecf5374f74c77b677c7d5da8a8324fbd02970f6a3c8ca73e06d1bb506750231b1f1a13fa40645f5c309c627c5fd627c20085d0"
+RPM_NAME = "khangman-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "8981b181df06906295b43b97a00bb87ece9e159fb78ef463fd7d8516e427e3b05b43cb2bd43cfe228cdb045d2f2b718f401c0e49be63f70d4911ac9bf4406f23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "khangman-lang \
 khangman-lang-all \
 locale-khangman-af \
 locale-khangman-ar \
+locale-khangman-ast \
 locale-khangman-be \
-locale-khangman-bg \
 locale-khangman-bn \
 locale-khangman-br \
 locale-khangman-bs \
@@ -39,6 +39,7 @@ locale-khangman-he \
 locale-khangman-hi \
 locale-khangman-hr \
 locale-khangman-hu \
+locale-khangman-ia \
 locale-khangman-is \
 locale-khangman-it \
 locale-khangman-ja \

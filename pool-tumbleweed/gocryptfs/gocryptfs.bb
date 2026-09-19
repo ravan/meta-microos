@@ -8,14 +8,14 @@ mountable FUSE filesystem. Each file in gocryptfs is stored as \
 one corresponding encrypted file on disk."
 LICENSE = "MIT"
 
-PV = "2.4.0"
+PV = "2.6.1"
 
-RPM_NAME = "gocryptfs-2.4.0-1.1.aarch64.rpm"
-RPM_HASH = "d2e2cf85bc5902d3d74f5eabe002837f2cfce3d36320da4a8a15f4fcd0d45d474feaa2b1405e6fad0d764d0c1ca53c87eb89242433a85480d877490e849d01cb"
+RPM_NAME = "gocryptfs-2.6.1-1.9.aarch64.rpm"
+RPM_HASH = "819ca62231560e928ccf8a6bc7e7eada2b9e99318e5f8d159ee309c1eed243013e728d5f3d50834571ea2e46e792956315e0dc339d2c68179b54005e3b43dbea"
 
 RPROVIDES:${PN} += "gocryptfs"
 
-RDEPENDS:${PN} += "fuse \
+RDEPENDS:${PN} += "/usr/bin/fusermount3 \
 libc.so.6 \
 libcrypto.so.3 \
 util-linux-systemd"

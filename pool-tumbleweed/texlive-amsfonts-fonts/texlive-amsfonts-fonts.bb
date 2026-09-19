@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-amsfonts"
 DESCRIPTION = "The  separated fonts package for texlive-amsfonts"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.04svn61937"
+PV = "2026.226.3.04svn77682"
 
-RPM_NAME = "texlive-amsfonts-fonts-2023.209.3.04svn61937-55.1.noarch.rpm"
-RPM_HASH = "3d2045ee71dabfb92147347f92f7372696a835ceb5aef803ffda5919a3dea3ea599bd875f59d834f131a521ef0ff56714f1c9be024c46301c574f0d2fba153a0"
+RPM_NAME = "texlive-amsfonts-fonts-2026.226.3.04svn77682-61.2.noarch.rpm"
+RPM_HASH = "1d0a18a75f20d6899824e3eb731b538087734aa3eabba50113f59ccf03f2f45706231b7bfcaeb9eab763f697d0530e442f659e465e11cfb128572fbe94fc8bf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -42,7 +45,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -74,13 +80,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-ams \

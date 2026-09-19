@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tkz-tab"
 DESCRIPTION = "This package includes the documentation for texlive-tkz-tab"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.12csvn66115"
+PV = "2026.226.2.12csvn66115"
 
-RPM_NAME = "texlive-tkz-tab-doc-2023.209.2.12csvn66115-53.1.noarch.rpm"
-RPM_HASH = "62a4d5609863bed91c7743f9d3e4cd9f8964b600ac8b089b254f055dc8e42ad73d1659965cc694468d39c0cc446c683289732b27327398eed992345ca0685a98"
+RPM_NAME = "texlive-tkz-tab-doc-2026.226.2.12csvn66115-59.2.noarch.rpm"
+RPM_HASH = "354f01166babe12909f32a9d301883c70b6928e8e93c3048674b26165f9c9d6ad7091c877d74df646ea8949de86c1b9a2f2a4b2ba0aacfcc7d3cb84e0859b739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-tkz-tab-doc-fr \

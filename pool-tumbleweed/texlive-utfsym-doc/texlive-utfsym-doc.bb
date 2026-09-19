@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-utfsym"
 DESCRIPTION = "This package includes the documentation for texlive-utfsym"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9.0svn63076"
+PV = "2026.226.0.0.9.0svn63076"
 
-RPM_NAME = "texlive-utfsym-doc-2023.209.0.0.9.0svn63076-54.1.noarch.rpm"
-RPM_HASH = "2723da889624b744f090725f10b7dc9ecb712ea7ae5b59302f68317cdb33769e9d78d3c7304917660f4d1d7f43333f2e316c398205eb32353f1a95f64d92900a"
+RPM_NAME = "texlive-utfsym-doc-2026.226.0.0.9.0svn63076-60.2.noarch.rpm"
+RPM_HASH = "bbb7cfca15c75635a08d0510e1657a080a1cb265c5d3678ae1cf624336ebe87f4138581b006d79e535d21a813926a5a79e0d906512f28ddc1e1d95981b6d7089"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-utfsym-doc-de \

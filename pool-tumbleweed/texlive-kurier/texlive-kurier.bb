@@ -13,10 +13,10 @@ and--nonstandard (IL2 for the Czech fonts), as well as \
 supporting macros and files defining fonts for LaTeX."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.209.0.0.995bsvn19612"
+PV = "2026.226.0.0.995bsvn77682"
 
-RPM_NAME = "texlive-kurier-2023.209.0.0.995bsvn19612-56.1.noarch.rpm"
-RPM_HASH = "511e931915b6325ae94975f06ef6b063070c6068291aea6da604ec7d8427c1a6b9377d3a3167882e3663ac9af3ac55cd352d2a843466925d2b1bd7db7089162c"
+RPM_NAME = "texlive-kurier-2026.226.0.0.995bsvn77682-63.2.noarch.rpm"
+RPM_HASH = "f203bff4e88ed0f69464ab36193937077fe7a7c0107cf3491660b377a6342a3d8e1ef86aba8dbe8b9e48440b9162557517bcab86a354c8a4cc2df2e0146496ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cs-kurier-sc.enc \

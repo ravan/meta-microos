@@ -2,29 +2,32 @@ SUMMARY = "Haskell http2 library development files"
 DESCRIPTION = "This package provides the Haskell http2 library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.3"
+PV = "5.3.10"
 
-RPM_NAME = "ghc-http2-devel-3.0.3-2.14.aarch64.rpm"
-RPM_HASH = "ab4c537ef2ff78b1cb121fc7ab81849de04b3189cacd9c3a28f705c667ed8683b678078e229cf96e12b0b7c8f1d1d6c2de32675d592a72e47d954375f8ece9d4"
+RPM_NAME = "ghc-http2-devel-5.3.10-2.9.aarch64.rpm"
+RPM_HASH = "6eef4adf758bbe15b08b0db2e88e23767f1c8ee19874a2adcc1881883ff861e940d1995f16f9ae29b2a51e0ab3b199f26483c180374881d9fe6a124b328aa6ae"
 
-RPROVIDES:${PN} += "ghc-devel-http2-3.0.3-41eYSHbDrcoAjUXjlws3pm \
+RPROVIDES:${PN} += "ghc-devel-http2-5.3.10-I2wENTFww6Z7L3LiFVkQpl \
 ghc-http2-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-array-0.5.4.0 \
-ghc-devel-async-2.2.4-LcXCzTmy8C6G7Wa774EctI \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-devel-network-byte-order-0.1.6-vRMRsceTnFFPQXnTdvJFs \
-ghc-devel-psqueues-0.2.7.3-HjZq7FmM1u5AN66Kt7is6C \
-ghc-devel-stm-2.5.1.0 \
-ghc-devel-time-manager-0.0.1-8jNNuzTBrN1AP9vZ7ZYdJS \
-ghc-devel-unix-time-0.4.10-fuTENic3zHIuWAM5F0fYB \
+ghc-devel-array-0.5.8.0-2a42 \
+ghc-devel-async-2.2.6-4fW0sXrepSt4QxgAnnLVB6 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-case-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-http-semantics-0.3.0-D5AfX4HSpBm3DHrTNQ2Sqe \
+ghc-devel-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-devel-iproute-1.7.15-E8DjYDi46DFHUJbuCQco8p \
+ghc-devel-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-devel-network-byte-order-0.1.8-2e5INl5ljJtIwuBIoNgv18 \
+ghc-devel-network-control-0.1.7-A85ociXgUcsEREzO9qpors \
+ghc-devel-stm-2.5.3.1-6d74 \
+ghc-devel-time-manager-0.2.4-H8vBuVTBThX7XPtYuadAK4 \
+ghc-devel-unix-time-0.4.17-BauOeKKKj6kENMTfxOVI2q \
+ghc-devel-utf8-string-1.0.2-FCJm07Id8m53KWoTjjdHEG \
 ghc-http2"
 
 inherit rpm

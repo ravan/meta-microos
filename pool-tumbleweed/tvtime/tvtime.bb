@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.11"
 
-RPM_NAME = "tvtime-1.0.11-2.18.aarch64.rpm"
-RPM_HASH = "d2929743663f5cf88490173cf4980f3faec86f271728194eb9726963c8bdb18b190ac0fcd344951736d08ddaea66ce96b39ceb4da0b5b0104f5bee91bbc3268e"
+RPM_NAME = "tvtime-1.0.11-4.6.aarch64.rpm"
+RPM_HASH = "f39e7a3e6f7174189be1b89d0ff34867d5ee863172ef77c436f2e0ae4af4e45bdac179837a3e6b17039ce47c38c099f187e784d219049873e3c07c44e81388a0"
 
 RPROVIDES:${PN} += "config-tvtime \
 tvtime"
@@ -24,6 +24,6 @@ libasound.so.2 \
 libc.so.6 \
 libfreetype.so.6 \
 libpng16.so.16 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

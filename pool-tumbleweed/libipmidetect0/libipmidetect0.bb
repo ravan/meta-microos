@@ -6,10 +6,10 @@ Platform Management Interface specification. \
 This package contains the libipmidetect library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.11"
+PV = "1.6.18"
 
-RPM_NAME = "libipmidetect0-1.6.11-1.1.aarch64.rpm"
-RPM_HASH = "8e525df0abfec70406a25a72add67156892a3dfddb45e4ca84ea6b7e809d078cd796e586c2f294b239fcd52d78d984bbf2f2833c8579ac797e3cec9444772b8a"
+RPM_NAME = "libipmidetect0-1.6.18-1.3.aarch64.rpm"
+RPM_HASH = "30d45ff4d8404a744c5f3a1be09cad35f79709f79cb09311ef9673a0d7c2faabbc7dddcf8f569fd603f5ec5bccc787c52fd1b919bf6213f7b2943824ef71babf"
 
 RPROVIDES:${PN} += "libipmidetect.so.0 \
 libipmidetect0"

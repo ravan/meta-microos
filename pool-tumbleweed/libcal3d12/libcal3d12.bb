@@ -9,12 +9,12 @@ integrate morph targets (interpolating between one mesh and \
 another, using the same vertex sequence) easily into the system. \
  \
 This package contains the shared libraries for cal3d."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.120"
 
-RPM_NAME = "libcal3d12-0.120-3.11.aarch64.rpm"
-RPM_HASH = "b81b60c241bf8252bf8e48b54955746748b9fd06907c00ed51ca88d7cbd7c571aa924d1bc1d7aa99652524be212b00de754d74c34d6a9df00b2e68fc9a86a883"
+RPM_NAME = "libcal3d12-0.120-5.7.aarch64.rpm"
+RPM_HASH = "7b00c9c0bd80b517d8d2c28510711b4b120dbb492603632644a003493f52447b349a139899d7ce4e94501380e880b85558823eebd987c9b6df8cd616402bbb75"
 
 RPROVIDES:${PN} += "libcal3d.so.12 \
 libcal3d12"

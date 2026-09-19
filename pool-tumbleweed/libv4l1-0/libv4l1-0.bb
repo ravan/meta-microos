@@ -6,10 +6,10 @@ v4l2 drivers do not). \
 This package contains shared lib for packages that use libv4l1."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.24.1"
+PV = "1.32.0"
 
-RPM_NAME = "libv4l1-0-1.24.1-1.4.aarch64.rpm"
-RPM_HASH = "58c5007b9385c6697b117cf1976273349e6d8294eaa1ee5a3ea4de9ae188ef035c8b4f875b911add09667aba95cd7e514a82648c6023360364a819fcca13c143"
+RPM_NAME = "libv4l1-0-1.32.0-2.4.aarch64.rpm"
+RPM_HASH = "f361b9ab789dc9e3ffffdfa5103fa8e321702952b1a6497acd8c37bfec952150f2ddc15f330af55ee14cd9faf43402b9db9d8ffc118efea7da5eb11633ed856f"
 
 RPROVIDES:${PN} += "libv4l1-0 \
 libv4l1.so.0"

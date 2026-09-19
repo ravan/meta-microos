@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.1.3"
 
-RPM_NAME = "manpageeditor-0.1.3-1.9.aarch64.rpm"
-RPM_HASH = "b3e764bac4264785beacfcde8d3e9da4cc8c1d8aa2ed1c7be849c8fc13e6d9ce5447a0cf100cc7b862feb2e3fe317408674febaef5718a6ada28c158bfb46bed"
+RPM_NAME = "manpageeditor-0.1.3-1.19.aarch64.rpm"
+RPM_HASH = "e99e56dbaa31c00b86773ad6b53d92dd2b69c70fdd4228f49e7248262888b08c1daa716464c73401106eb42ed8498dc9e5ca9e43413b57d1905efa26d2ef417b"
 
 RPROVIDES:${PN} += "manpageeditor"
 

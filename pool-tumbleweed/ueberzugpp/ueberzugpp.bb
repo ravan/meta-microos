@@ -18,10 +18,10 @@ Advantages over w3mimgdisplay and ueberzug: \
 - Resized images are cached for faster viewing"
 LICENSE = "GPL-3.0"
 
-PV = "2.9.1"
+PV = "2.9.8+git20251027.c1c76e3"
 
-RPM_NAME = "ueberzugpp-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "d513ba9961d64dfd6b5fda587f1b78bf7af24c3223cbc0971e78f8f0b818f259d6219772a60ce4d96a23181832f7417de0ddd50b65d0a5661987740dd8c18544"
+RPM_NAME = "ueberzugpp-2.9.8+git20251027.c1c76e3-1.6.aarch64.rpm"
+RPM_HASH = "4f12ed40d4307ef1fbd40a0e2c6fcf11c84f4ca99998c3a84e84d02bdd94d102495a584c4cc753db572e48c30afc67388db295396c0ae2c48407fc1ea1ba7a2a"
 
 RPROVIDES:${PN} += "ueberzugpp"
 
@@ -29,16 +29,16 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libchafa.so.0 \
 libcrypto.so.3 \
-libfmt.so.9 \
+libfmt.so.12 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libopencv-core.so.407 \
-libopencv-imgcodecs.so.407 \
-libopencv-imgproc.so.407 \
-libopencv-videoio.so.407 \
+libopencv-core.so.413 \
+libopencv-imgcodecs.so.413 \
+libopencv-imgproc.so.413 \
+libopencv-videoio.so.413 \
 libsixel.so.1 \
-libspdlog.so.1.12 \
+libspdlog.so.1.17 \
 libstdc++.so.6 \
 libtbb.so.12 \
 libvips-cpp.so.42 \

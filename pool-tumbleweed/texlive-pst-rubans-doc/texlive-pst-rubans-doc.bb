@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-rubans"
 DESCRIPTION = "This package includes the documentation for texlive-pst-rubans"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn23464"
+PV = "2026.226.1.2svn23464"
 
-RPM_NAME = "texlive-pst-rubans-doc-2023.209.1.2svn23464-54.2.noarch.rpm"
-RPM_HASH = "234eecf5faf0c017489eba53d6cada62f85c6a5deaf6ce5162a20d85e7083b33dfc5450a23e480adbfd7263066c163e150ae3d3140c2590cf9d46bf631f3d608"
+RPM_NAME = "texlive-pst-rubans-doc-2026.226.1.2svn23464-60.4.noarch.rpm"
+RPM_HASH = "603f6da6172402040645dd0fec626f6c6a9d1ce6bdd9679348af883d02a5bcffcfe737bc18c1b0bd8551ed91e66b5c10ab54409776824fceec000760257ae6a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-rubans-doc"

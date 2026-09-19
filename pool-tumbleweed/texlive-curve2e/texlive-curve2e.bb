@@ -8,10 +8,10 @@ ends, generic curves specified with their nodes and the tangent \
 direction at these nodes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2.22svn65469"
+PV = "2026.226.2.6.0svn77682"
 
-RPM_NAME = "texlive-curve2e-2023.209.2.2.22svn65469-55.1.noarch.rpm"
-RPM_HASH = "b60677aa87c19bcec2d9ce377926207aea971ddaa088771e42c440be61b3e930148479c4f59af9d16a0965aff22cc984903ea90285897ec32a187a3229885462"
+RPM_NAME = "texlive-curve2e-2026.226.2.6.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "382a9267968e7a53bff24e9588ae295673dfdaa10fb91c9511fb81de6e91dc0b3538c6396d77d30285ae5cc7cf300f508b491f9dde69b49e07c3521141681e7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-curve2e-v161.sty \

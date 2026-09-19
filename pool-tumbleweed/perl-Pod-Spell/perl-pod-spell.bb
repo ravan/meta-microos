@@ -14,10 +14,10 @@ can be supplemented (on a per-document basis) by having ''=for stopwords'' \
 / ''=for :stopwords'' region(s) in a document."
 LICENSE = "Artistic-2.0"
 
-PV = "1.26"
+PV = "1.270.0"
 
-RPM_NAME = "perl-Pod-Spell-1.26-1.3.noarch.rpm"
-RPM_HASH = "491d6c4fc66fe95a84f2c9fcd66743c1abf992adf2e94d146628ac5d04a8e0af281efccb96667a36d458bdfb3c0ee26391bc3496f2a3a5de0cf1d28826e9b45d"
+RPM_NAME = "perl-Pod-Spell-1.270.0-1.10.noarch.rpm"
+RPM_HASH = "c72f5b68ac33ce3f93ef5ec6d651e7738f69e12de3f3dc6a8584c2490880382f2a9a687938bbbacc8c3253ffc5cda1217fb0cc2590c6bd0fb6d87fad7c3150ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Spell \
@@ -25,7 +25,7 @@ perl-Pod--Wordlist \
 perl-Pod-Spell"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Tiny \
 perl-File--ShareDir \
 perl-Lingua--EN--Inflect \

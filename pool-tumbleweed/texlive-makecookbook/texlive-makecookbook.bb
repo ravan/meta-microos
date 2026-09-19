@@ -15,10 +15,10 @@ together, fully support creation of all of the internal pages \
 of a cookbook (i.e., everything except the cover art)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.85svn49311"
+PV = "2026.226.0.0.85svn49311"
 
-RPM_NAME = "texlive-makecookbook-2023.208.0.0.85svn49311-53.1.noarch.rpm"
-RPM_HASH = "c5f2e737bd3055c4657b2334d82146d0b4609e037ed1fffa2a43e34a1b2146f7bbd6147db2510abea9ef99493ddabac1874bdae5a9896e8127da6e8bcfebf7d3"
+RPM_NAME = "texlive-makecookbook-2026.226.0.0.85svn49311-59.2.noarch.rpm"
+RPM_HASH = "928a879c10f65fdefb44b5aa59992b14877324658fa1f5e98947207ee12efd6b45f581f7693373be14ad84972ece06fee79279a6bc23966406fdd829642db825"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makecookbook"

@@ -4,10 +4,10 @@ from the University of Manchester's Department of Computer \
 Science."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn23861"
+PV = "2026.226.svn23861"
 
-RPM_NAME = "texlive-muthesis-2023.209.svn23861-55.1.noarch.rpm"
-RPM_HASH = "85ecb5f7e627d35c0388b14d0209fc6bb052d4a868fddb8d30d90e73a8d0959c67718fefb38913c0b84e86670c980624e7c3822a450670ef1baf6ae5cba25a26"
+RPM_NAME = "texlive-muthesis-2026.226.svn23861-61.2.noarch.rpm"
+RPM_HASH = "57356044ab29c2d1790f550f7b2cb23910199eb02ba251de63b3987b4e49bceeed3768a99d10bc27b90e027a85a041440efdd54ce65b0e5d131383cfb5c41c4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-muthesis.cls \

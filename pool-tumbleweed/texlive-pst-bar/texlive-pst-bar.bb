@@ -6,10 +6,10 @@ external packages are required except those that are part of \
 the standard PSTricks distribution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.93svn64331"
+PV = "2026.226.0.0.93svn64331"
 
-RPM_NAME = "texlive-pst-bar-2023.209.0.0.93svn64331-53.1.noarch.rpm"
-RPM_HASH = "047258fa6f06ccd68ad25bc40f28f5c3e036a0b5028848e2c40f8579c5e905997957177e5c3ceb2f4cd99c330664205162d5659fbdedf657ce9d0de67bd5f7d8"
+RPM_NAME = "texlive-pst-bar-2026.226.0.0.93svn64331-59.2.noarch.rpm"
+RPM_HASH = "d60f61aa903900410cc56e0a36e211a941cba3ddea5680322ef0aaa76cd7cab10779bee15a8b366fc4b5ec160d2cced254642d8abae84e8540946b0cddc7f343"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-bar.sty \

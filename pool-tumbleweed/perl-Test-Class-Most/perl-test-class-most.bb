@@ -24,14 +24,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.08"
 
-RPM_NAME = "perl-Test-Class-Most-0.08-1.25.noarch.rpm"
-RPM_HASH = "157a285c8f9b5c5432473953b16b66d0712b088db4a6d5b86ada55e7669c576b96a865cf4070ab908e8ee17860bc717dc2c4cf7641db5ed4cb44e87c767bfd6f"
+RPM_NAME = "perl-Test-Class-Most-0.08-1.39.noarch.rpm"
+RPM_HASH = "96b212af9bee7ab16ab57c69eeaf035a040caa5ff9b3054d08a90a048a9229f7342e7c8757f88b0daec986922e60a5f9ec437f4259916ff36a6490ac099a95f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Class--Most \
 perl-Test-Class-Most"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Test--Class \
 perl-Test--Most"
 

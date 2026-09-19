@@ -9,16 +9,15 @@ workspace. Xinerama is fully supported, allowing windows to be tiled on several 
 screens."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.17.2"
+PV = "0.18.1"
 
-RPM_NAME = "xmonad-0.17.2-1.8.aarch64.rpm"
-RPM_HASH = "d640847b521025c55f33b28989275f80a48072f13e6b3f66f75334f6997929c0dec96121b4813e52486234fd1998e3de094d36c8a4fb00720d635745aab4f268"
+RPM_NAME = "xmonad-0.18.1-1.3.aarch64.rpm"
+RPM_HASH = "55c9ff8c6992526c8e089077f8a16d3061f1f8361b228f7b1998dda845aff60845c2f0d3e0e554f2c97bd34df0e622f1b1974131d47a5b9b404f11a2c74416f3"
 
 RPROVIDES:${PN} += "windowmanager \
 xmonad"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libX11.so.6 \
+RDEPENDS:${PN} += "libX11.so.6 \
 libXext.so.6 \
 libXinerama.so.1 \
 libXrandr.so.2 \

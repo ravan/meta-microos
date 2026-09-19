@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "entangle-plugin-photobox-3.0-2.8.aarch64.rpm"
-RPM_HASH = "d4961bde814a71f4ec31d681b7378e1fd95d1df9f32a6f758adacd5de98fa5a0c7b15012f83437576b9560f51aba5956f28d3c7061e8529f3905d1de344fdc40"
+RPM_NAME = "entangle-plugin-photobox-3.0-3.2.aarch64.rpm"
+RPM_HASH = "6a950d5d00d900c8d68783deab76ce72d12e425069c8c03c7a34bc3fbf2afcafe9eee4b1598af91f240fdee9bc2d8060cdbdee83cbf114d61675649091bd317e"
 
 RPROVIDES:${PN} += "entangle-plugin-photobox"
 

@@ -10,10 +10,10 @@ loaded). The package also provides a range of other TeX \
 programming tools."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.7hsvn35069"
+PV = "2026.226.0.0.2.7isvn68982"
 
-RPM_NAME = "texlive-catoptions-2023.209.0.0.2.7hsvn35069-53.1.noarch.rpm"
-RPM_HASH = "bca314088a926910c635f731a42a737a0e54a56402714944e69b87da3b74e19dcd10d72dd3ea6fe6b298922403088cd05fd22f8882b123dfcd34e981c19eb3ca"
+RPM_NAME = "texlive-catoptions-2026.226.0.0.2.7isvn68982-59.2.noarch.rpm"
+RPM_HASH = "3f0f2ab9edbc6e7b41c34189b624ae8fe6803dd1415a5736f6469844742b63bbb94db2e14fde5ef6085743b80ceb7d238cff20d14416128463763e862f7965e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-catoptions-guide.cfg \

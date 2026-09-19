@@ -4,10 +4,10 @@ misspell git command. After animation it will perform git command as well. \
 Similar to sl (steam locomotive)."
 LICENSE = "MIT"
 
-PV = "1.8.0"
+PV = "1.9.1"
 
-RPM_NAME = "gti-1.8.0-1.3.aarch64.rpm"
-RPM_HASH = "bf5c0847284e3fb1b8460f001156f2529953494f6a921836fa77f9bdcdd34dd7bf78c3f8f8b026cebcf18210efbd85c98610f348086b0fd614b96831fa890e81"
+RPM_NAME = "gti-1.9.1-1.9.aarch64.rpm"
+RPM_HASH = "6c2943629dcaf44fb30e76b326139d6b8cbe78c99ec8a69e2769e5a1b8cf4efb0c3babf4d957a8757cb02730e586d7ab037c925b7e818744ba87b0ade70aaae7"
 
 RPROVIDES:${PN} += "gti"
 

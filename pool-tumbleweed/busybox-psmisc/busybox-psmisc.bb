@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing psmisc"
 DESCRIPTION = "This package contains the symlinks to replace psmisc with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-psmisc-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "c08c76fd989939500818412caf5c4ac5ae73c641e1b266af0b8c52171b33f63e7ede194f36359ae4b7ad37db2513eb7b98b81e4e959aaf800da1880cfca6e83b"
+RPM_NAME = "busybox-psmisc-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "f53fb54df517573bddc32b3a572f96a782cf6f978d4bec5da185b152c3c02a122a98e798d4b560f127e61411907e508edad170876aa04a20917d0020466b3ea6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/fuser \

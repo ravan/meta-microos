@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-roundrect"
 DESCRIPTION = "This package includes the documentation for texlive-roundrect"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn39796"
+PV = "2026.226.2.2svn39796"
 
-RPM_NAME = "texlive-roundrect-doc-2023.209.2.2svn39796-54.1.noarch.rpm"
-RPM_HASH = "9ec412815bc0c6583699c65d94e9bd4ceed00fc50454a72a638df3d644b217a50bc44e5162d5894be7a10adcf00dbcceee2a81cccc44c149d8dd450ec0c3ff02"
+RPM_NAME = "texlive-roundrect-doc-2026.226.2.2svn39796-60.2.noarch.rpm"
+RPM_HASH = "2c2a7b3f638e72ab6c7435cb0d0a8b171d9c085c138696ec8aff5a0a66ee97a17842e6d346ce175474a101650f68790c8de6c3011f654599016b35dab9849531"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-roundrect-doc"

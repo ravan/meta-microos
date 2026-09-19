@@ -1,30 +1,27 @@
 SUMMARY = "A class for types with a default value"
-DESCRIPTION = "A class for types with a default value."
+DESCRIPTION = "This module defines a class for types with a default value. Instances are \
+provided for '()', 'Data.Set.Set', 'Data.Map.Map', 'Int', 'Integer', 'Float', \
+'Double', and many others."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.1.1"
+PV = "0.8.0.2"
 
-RPM_NAME = "ghc-data-default-0.7.1.1-10.3.aarch64.rpm"
-RPM_HASH = "a0d7d346641ef44c289ea5d778ed34192a47fb7c118fe2dcb6065302cf69a2f325cb509b5ad4f304be5aaf084c5bee71c925cb436024dc5087dd8f9c2cbd60fd"
+RPM_NAME = "ghc-data-default-0.8.0.2-1.3.aarch64.rpm"
+RPM_HASH = "bbd13cf82e17d03fecc1319266f2d36724fa3ee748af448ea89c666fb9a339a86f7708b86f95c62b48a610d11816942d233e9a4aada3064349f3dd67d600a07c"
 
 RPROVIDES:${PN} += "ghc-data-default \
-libHSdata-default-0.7.1.1-4TeAZDN81Uu1IorgFaPMOc-ghc9.4.6.so"
+libHSdata-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHScontainers-0.6.7-ghc9.4.6.so \
-libHSdata-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN-ghc9.4.6.so \
-libHSdata-default-instances-containers-0.0.1-HEdLgVFxVe7RkY046PWd1-ghc9.4.6.so \
-libHSdata-default-instances-dlist-0.0.1-GnwVNQzjXMiJZgAdRGSnEk-ghc9.4.6.so \
-libHSdata-default-instances-old-locale-0.0.1-JPGD6DG1zci1Efipgkh66I-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSdlist-1.0-9arrzQ6gBJAKO2k1FjXdTZ-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSold-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHScontainers-0.7-d5e1-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

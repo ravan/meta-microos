@@ -2,20 +2,24 @@ SUMMARY = "Severed fonts for texlive-junicode"
 DESCRIPTION = "The  separated fonts package for texlive-junicode"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.0.2svn61719"
+PV = "2026.226.2.218svn77682"
 
-RPM_NAME = "texlive-junicode-fonts-2023.209.1.0.2svn61719-56.1.noarch.rpm"
-RPM_HASH = "63bca70ea8333a69a1adb5c20cd7ee6a706bad627a5a3793d8f066abe1d856197364db9e94911a2443cd5b703177ef24f76a886977a2bb11166db8d04e2c1f71"
+RPM_NAME = "texlive-junicode-fonts-2026.226.2.218svn77682-63.2.noarch.rpm"
+RPM_HASH = "5a70fcfac7bf3f90b817e7e5efa7123e84af64aead542d0f73439cf9532ab46b2ef27c428a3e12ba69a4572020b6dbc89dc09b6575a95fe8202201c703257059"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "ctan-junicode-fonts \
+RPROVIDES:${PN} += "config-texlive-junicode-fonts \
+ctan-junicode-fonts \
 font--lang=aa \
 font--lang=af \
+font--lang=agr \
 font--lang=ak \
 font--lang=an \
 font--lang=ast \
 font--lang=ay \
+font--lang=ayc \
 font--lang=az-az \
+font--lang=bem \
 font--lang=ber-dz \
 font--lang=bi \
 font--lang=bin \
@@ -31,6 +35,7 @@ font--lang=csb \
 font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=ee \
 font--lang=el \
 font--lang=en \
@@ -51,6 +56,7 @@ font--lang=ga \
 font--lang=gd \
 font--lang=gl \
 font--lang=gn \
+font--lang=got \
 font--lang=gv \
 font--lang=ha \
 font--lang=haw \
@@ -79,18 +85,24 @@ font--lang=la \
 font--lang=lb \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=ln \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
 font--lang=mi \
+font--lang=miq \
+font--lang=mjw \
 font--lang=ms \
 font--lang=mt \
 font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -106,6 +118,7 @@ font--lang=pl \
 font--lang=pt \
 font--lang=qu \
 font--lang=quz \
+font--lang=rif \
 font--lang=rm \
 font--lang=rn \
 font--lang=ro \
@@ -114,6 +127,7 @@ font--lang=sc \
 font--lang=sco \
 font--lang=se \
 font--lang=sg \
+font--lang=sgs \
 font--lang=shs \
 font--lang=sk \
 font--lang=sl \
@@ -130,29 +144,48 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
 font--lang=to \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
 font--lang=tw \
 font--lang=ty \
+font--lang=unm \
 font--lang=uz \
 font--lang=ve \
 font--lang=vi \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
 font--lang=yo \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
-font-foulisgreek \
 font-junicode \
+font-junicodecond \
+font-junicodecondlight \
+font-junicodecondmedium \
+font-junicodeexp \
+font-junicodeexpmedium \
+font-junicodeexpsmbold \
+font-junicodelight \
+font-junicodemedium \
+font-junicodesmbold \
+font-junicodesmcond \
+font-junicodesmcondlight \
+font-junicodesmcondmedium \
+font-junicodesmexp \
+font-junicodesmexpmedium \
+font-junicodesmexpsmbold \
 texlive-junicode-fonts"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

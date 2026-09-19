@@ -4,10 +4,10 @@ for NVIDIA devices running the proprietary driver by using the NV-CONTROL \
 X Window System extension."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.9.2"
+PV = "2.13.0"
 
-RPM_NAME = "hwloc-gl-2.9.2-1.1.aarch64.rpm"
-RPM_HASH = "ac58591c3ffdbb3bd4385957bf3f5a9adf657128e2ef089f47e5dedd2d6b0f0b618fe9346bafe9ce51e94e6081488407b845a08335d417230f47570021bcfd4e"
+RPM_NAME = "hwloc-gl-2.13.0-1.3.aarch64.rpm"
+RPM_HASH = "480b777a9b1b61e3f8984bf7d121d404374d9d844dd8c5cd4082f8c78d1dfc10d20ccb3ba11ae8de2c975cb24ad17fe21a9afa5b71f07afcabecc2c2b10e2abc"
 
 RPROVIDES:${PN} += "hwloc-gl"
 

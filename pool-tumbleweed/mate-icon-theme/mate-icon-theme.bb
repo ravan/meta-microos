@@ -5,10 +5,10 @@ applications, to represent the different applications, files, \
 directories, and devices."
 LICENSE = "CC-BY-3.0 & LGPL-3.0-only"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "mate-icon-theme-1.26.0-1.6.noarch.rpm"
-RPM_HASH = "e02aed55ffa6d87b6a05c79f2ce03376ac3986409223aa376b4940977500ed0340aab5a1961c74d8b00ad2c5f71876044ccda3022eb05ffbd85f5633d407285b"
+RPM_NAME = "mate-icon-theme-1.28.0-2.3.noarch.rpm"
+RPM_HASH = "2e3c50ab55f7fd87b26bf448bb2c2fb5d9c99d98d422878ac46f7fe190316db3faf4443c869aec5ee544cf99a838524ae45823745b244249eeb79d3a18dc2aaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-icon-theme \

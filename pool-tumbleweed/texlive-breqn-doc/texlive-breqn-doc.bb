@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-breqn"
 DESCRIPTION = "This package includes the documentation for texlive-breqn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.98lsvn60881"
+PV = "2026.226.0.0.98lsvn77682"
 
-RPM_NAME = "texlive-breqn-doc-2023.209.0.0.98lsvn60881-53.1.noarch.rpm"
-RPM_HASH = "024caf4fcb0749a6e3e1d82e57310533df29c24f07d9a66a6535cb81206744b3aab0029d4d1286d8a7a7e63c895b66101990a6b7ec5f722cfa60e71bf80165b4"
+RPM_NAME = "texlive-breqn-doc-2026.226.0.0.98lsvn77682-59.2.noarch.rpm"
+RPM_HASH = "79dd1cf0b5371a945d2d6af9faafdbf927621a5527e960e13e9a48b9991f6b38e989c83b94aa35fabe92db445a0289df005c0cced2c797fbd01011c3e41c5ed2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-breqn-doc"

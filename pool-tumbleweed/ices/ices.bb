@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.3"
 
-RPM_NAME = "ices-2.0.3-1.9.aarch64.rpm"
-RPM_HASH = "b1a805b7771a6e86c9ba1b91f68d1dd6c7e365a6fb06b549c969759f60867eceaa4bc88844b8b5de5e7de405b26ac8fa04896e03e7f050985901f00436007fba"
+RPM_NAME = "ices-2.0.3-2.10.aarch64.rpm"
+RPM_HASH = "0013234ffcda577d493d473c66d3eb668482a8e74d76bc8542ca86b0efbd3e9a10c01398cee76e387f74c1f9e266a569320e7159cc40218e3d807d6b057ee93d"
 
 RPROVIDES:${PN} += "ices"
 
@@ -21,6 +21,6 @@ libogg.so.0 \
 libshout.so.3 \
 libvorbis.so.0 \
 libvorbisenc.so.2 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

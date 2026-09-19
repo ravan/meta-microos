@@ -6,6 +6,7 @@ addresses with MAC addresses in a way, which ensures lightning speed \
 when matching an entry against a set. \
  \
 ipset can: \
+ \
 * store multiple IP addresses or port numbers and match against the \
   collection by iptables in one swoop; \
 * dynamically update iptables rules against IP addresses or ports \
@@ -14,10 +15,10 @@ ipset can: \
   iptables rule and benefit from the speed of IP sets"
 LICENSE = "GPL-2.0-only"
 
-PV = "7.17"
+PV = "7.24"
 
-RPM_NAME = "ipset-7.17-1.3.aarch64.rpm"
-RPM_HASH = "1d4468ee8623adcb5826e32bac7dc18bbfcd475e2a93beb2660158cfc08dd51e896fd49470610c163972c58276e98a4e61fe985b933015a5f764e4ccff23c360"
+RPM_NAME = "ipset-7.24-1.6.aarch64.rpm"
+RPM_HASH = "9064e46d3a2b71820c3160c80332bf2dabc31f1795d0323438c5012e62d3d9691227daff91c407783f206a44cb7a57528a70e6368930b44ff5e4618b0cb73cce"
 
 RPROVIDES:${PN} += "ipset"
 

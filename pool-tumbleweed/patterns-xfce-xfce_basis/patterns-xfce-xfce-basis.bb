@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20230212"
 
-RPM_NAME = "patterns-xfce-xfce_basis-20230212-2.1.aarch64.rpm"
-RPM_HASH = "02055c266ef5121222120f4157c839138ac52c2d80e02664dd8cec5f4be26ca2524a51418263dbda531519729872086a9df0e4090de4dd41e388a5a86c52fee7"
+RPM_NAME = "patterns-xfce-xfce_basis-20230212-12.3.aarch64.rpm"
+RPM_HASH = "c63ab3f2eca52ba85f6b5744941ac8db55f73dba9bcb782412fc7948d9d33de847233a8cfa6d5f1dab49fe594ec68bf78c3d5396b8265fc97175f19637e7e894"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

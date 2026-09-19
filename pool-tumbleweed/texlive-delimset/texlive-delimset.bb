@@ -4,10 +4,10 @@ delimiters in math mode whose size can be adjusted \
 conveniently."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn49544"
+PV = "2026.226.2.2.2svn77682"
 
-RPM_NAME = "texlive-delimset-2023.209.1.1svn49544-53.1.noarch.rpm"
-RPM_HASH = "edda8a47b66adeb388776eb00c81cfe5770f8f45c24690eca9c06917c985049126ea1b537eb21e3a774e7d58547a4f537dda47e2067cec457f0d4c021d3b2508"
+RPM_NAME = "texlive-delimset-2026.226.2.2.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "45541ddb249fb88285217e91c203f1d969e02029f47dea56a9cfc93d9d2aca38e899b908b80790072bf568370bc0d6ae1abb928a2be5fca762e213129bc995d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-delimset.sty \
@@ -19,7 +19,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-amsmath.sty \
 tex-keyval.sty \
 texlive \
 texlive-filesystem \

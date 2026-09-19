@@ -3,13 +3,15 @@ DESCRIPTION = "The package extends longnamefilelist, keeping separate columns \
 for date, version and 'caption' (the caption now separately \
 listed). Alignment is not disturbed by short file name \
 extensions, such as '.fd'. The package is not compatible with \
-longnamefilelist: users need to re-read the documentation."
+longnamefilelist: users need to re-read the documentation. \
+Options hashes and sizes are provided for \\listfiles, for use \
+with LaTeX formats 2024-06-01 or newer."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9bsvn65842"
+PV = "2026.226.0.0.9csvn77682"
 
-RPM_NAME = "texlive-nicefilelist-2023.209.0.0.9bsvn65842-55.1.noarch.rpm"
-RPM_HASH = "2f5264b7ae6a7362f36870c41dc8c69eeac841504a702cfb4d0bb887d1fe52ab2d3d8828c27b631caebf3fe7cd4f89cf8ae02cffbd837e1e387a576a681c5485"
+RPM_NAME = "texlive-nicefilelist-2026.226.0.0.9csvn77682-61.2.noarch.rpm"
+RPM_HASH = "802610da7f0391b2a6237645b6b03a9ecbab02a7ebf591240f46da686c12d0458e210a8810ce89fc65ee67eff03d0fa754476ee8b99c054609dc9a67f673472e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nicefilelist.sty \

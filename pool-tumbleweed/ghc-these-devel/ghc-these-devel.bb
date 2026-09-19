@@ -2,22 +2,21 @@ SUMMARY = "Haskell these library development files"
 DESCRIPTION = "This package provides the Haskell these library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2"
+PV = "1.2.1"
 
-RPM_NAME = "ghc-these-devel-1.2-1.7.aarch64.rpm"
-RPM_HASH = "24cda906dfeba4b343ba32d2659ad8a56917260249186389d27f35595c0cfe1b575c829bbc98d34f0693bf6de2b98127d1b360a0565137773d30169a8eae0f1f"
+RPM_NAME = "ghc-these-devel-1.2.1-4.2.aarch64.rpm"
+RPM_HASH = "ec58fe66e0ab5d5e69b6db66dbb30bd8c3d90ee69ed30ed2eee62468cb1c559db78433b10742208bd4963ceeaeec51e1a1012aabde9e344101f0d666f54dc191"
 
-RPROVIDES:${PN} += "ghc-devel-these-1.2-5fSFdT8DGhg7GQONqvd4MR \
+RPROVIDES:${PN} += "ghc-devel-these-1.2.1-IItOvRyyn8cFsXxaqiOQHG \
 ghc-these-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-assoc-1.1-J44kuPbAMT5GyespKCFdbT \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-binary-0.8.9.1 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-foldable1-classes-compat-0.1-HnLXxvPXYXbHggM07qAxsy \
-ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
+ghc-devel-assoc-1.1.1-7ZKlIzFkmc1FQCJcpfYrTi \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-binary-0.8.9.3-9861 \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
 ghc-these"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of bib2gls"
 DESCRIPTION = "Binary files of bib2gls"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn45266"
+PV = "2026.20260301.svn73132"
 
-RPM_NAME = "texlive-bib2gls-bin-2023.20230311.svn45266-93.2.aarch64.rpm"
-RPM_HASH = "75435b092f19118d7f5443f07834d96b22d229dd2d8f90cf78aad6ec9e06ad0f645bead15318b8fb4540dbe7c63efd5696504262d3527a6a5a7fb5466ae82b5f"
+RPM_NAME = "texlive-bib2gls-bin-2026.20260301.svn73132-120.4.aarch64.rpm"
+RPM_HASH = "62b89edbeefcf6b68aebcc7163e1c43a9d0eda5fce4c046c7d068f31251e33e708f1cc075273416b5687a03bbd1ba6f4cf16974fcc350b147ad75c9b0e02a92b"
 
 RPROVIDES:${PN} += "texlive-bib2gls-bin"
 

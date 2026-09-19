@@ -2,10 +2,10 @@ SUMMARY = "Library to provide generic file data functions"
 DESCRIPTION = "Library to provide generic file data functions for the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230319"
+PV = "20260521"
 
-RPM_NAME = "libfdata1-20230319-1.2.aarch64.rpm"
-RPM_HASH = "841ced7dc889e31b845d8ad65e9f52d760c2a35e2c9dc4c9d0ef837011e4534a2755efeb82faaaafcbd4a757141cbde43ed0dea2e15cc93eb909ce3fb39daba1"
+RPM_NAME = "libfdata1-20260521-1.8.aarch64.rpm"
+RPM_HASH = "a14b6a3a791fa228825acaa26b143dabc41fb5eb451224d90c675944fa25798134cc5cfd76333e091bb02e10c341fc138095fd9279edd25746e9c7aac118b9a6"
 
 RPROVIDES:${PN} += "libfdata.so.1 \
 libfdata1"

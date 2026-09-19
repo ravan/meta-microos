@@ -2,10 +2,10 @@ SUMMARY = "Devel package for libtextstyle"
 DESCRIPTION = "This package provides headers and static libraries for libtextstyle"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.21.1"
+PV = "1.0"
 
-RPM_NAME = "libtextstyle-devel-0.21.1-2.2.aarch64.rpm"
-RPM_HASH = "7321a39c6ea7e7341a27159556dbd42126ae6dd96c1a8d77b4c5f5d52d2b50f28de0908f404149114cd51dc2c5c6a9098d4c7a2393c0fa4e3a41390c2d572614"
+RPM_NAME = "libtextstyle-devel-1.0-2.4.aarch64.rpm"
+RPM_HASH = "765d245b4e32e7cc13e4a01a5ec84b4145bb7053ce32f5ca3938facd366f617b24431542853f7884a3053fb307eb43ffd783cdd216d216417cabb91acb4ca66b"
 
 RPROVIDES:${PN} += "libtextstyle-devel"
 

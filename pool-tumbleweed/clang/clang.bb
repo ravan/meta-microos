@@ -6,15 +6,15 @@ clang that openSUSE currently supports.  Packages that \
 don't require a specific Clang version should depend on this."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.6"
+PV = "23"
 
-RPM_NAME = "clang-16.0.6-1.1.aarch64.rpm"
-RPM_HASH = "930432da61e1dbfb1d3415e92b319bf6b0af6bd31b0384b41ddc0f2fb0bf75eced9468731deea059f3221813b71a683f71359f0db55cbff78d6aa8dc5c81fa07"
+RPM_NAME = "clang-23-1.1.aarch64.rpm"
+RPM_HASH = "0a92f2a107f9951aa644285cd42b29be200c545f51bfcf5b75188a4b74a68465843d7fca7596029cdee4f475c5ef323797f8c9a70899178bf3a09e5a0a139d4c"
 
 RPROVIDES:${PN} += "clang \
 llvm-clang \
 llvm-emacs-plugins"
 
-RDEPENDS:${PN} += "clang16"
+RDEPENDS:${PN} += "clang23"
 
 inherit rpm

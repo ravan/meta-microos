@@ -4,21 +4,21 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2"
 
-RPM_NAME = "ghc-ipynb-devel-0.2-2.6.aarch64.rpm"
-RPM_HASH = "5863db27e37f775af785b6d29df5020e5f36994ce4d1763725b1faa6717b04bc6fe91c574736a06f8822487fe6755603ceeb7085af2bd51bbcbb9ff47e34cda1"
+RPM_NAME = "ghc-ipynb-devel-0.2-2.58.aarch64.rpm"
+RPM_HASH = "1656ee6c856f9caddc976eabe68d6861d83a4f44dd520574e29737722c9f7499cc55c9419efc070c74198577f03c825da7acd28c5376d370b1491c9bded7a691"
 
-RPROVIDES:${PN} += "ghc-devel-ipynb-0.2-Ij25To1hTXLCW4aPHIgo1Y \
+RPROVIDES:${PN} += "ghc-devel-ipynb-0.2-FFISJjoqmq33DtDQybniaE \
 ghc-ipynb-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-text-2.0.2 \
-ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
+ghc-devel-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-base64-bytestring-1.2.1.0-9fPiMCS8Y4g8itFjJTGk2y \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
 ghc-ipynb"
 
 inherit rpm

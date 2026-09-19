@@ -7,10 +7,10 @@ essentially complete LGR coverage of monotonic, polytonic and \
 ancient Greek, and almost full T2A coverage of Cyrillic."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.05svn39596"
+PV = "2026.227.1.05svn77682"
 
-RPM_NAME = "texlive-tempora-2023.209.1.05svn39596-55.1.noarch.rpm"
-RPM_HASH = "00b6a6676c7495d173eeb94f9375d8e8a67b3e555ccf01a69c1a6ab4b1d3abe2aa6555f4cd71699b47de1bc37ec2056118bfb4e68b1f39226b3453185edadc6f"
+RPM_NAME = "texlive-tempora-2026.227.1.05svn77682-62.2.noarch.rpm"
+RPM_HASH = "599ea9d483b336285dca5230644c8e5637fad525c486ae5c6457878f2d78da7a2a293e4c11a935451d6ffc443a2e529748ae31bc2933888585d8d3cb87b7936e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-OT1Tempora-Sup.fd \

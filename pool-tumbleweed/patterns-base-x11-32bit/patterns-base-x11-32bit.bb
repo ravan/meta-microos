@@ -1,11 +1,11 @@
-SUMMARY = "X Window System"
+SUMMARY = "X Window System (32bit)"
 DESCRIPTION = "The 32bit pattern complementing x11."
 LICENSE = "MIT"
 
-PV = "20200505"
+PV = "20241218"
 
-RPM_NAME = "patterns-base-x11-32bit-20200505-42.1.aarch64.rpm"
-RPM_HASH = "1cf36d9e62e3c582b496f4c1d32fe6b299da74df365b2a19386c63bc5486a42b55c20e64ebbff8991ec1f03d1309561a784b9f8470783baa357b6fff974c0daf"
+RPM_NAME = "patterns-base-x11-32bit-20241218-34.1.aarch64.rpm"
+RPM_HASH = "3ea45064c60062e2eb0cd07a43dc305d329a0d3e3495dcae87cd66cef1e154e4164e91c0001067e3b6bb7f55a1885f70105214bdfc4dd32b550da9e0698a0edc"
 
 RPROVIDES:${PN} += "pattern- \
 patterns-base-x11-32bit"

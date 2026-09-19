@@ -9,10 +9,10 @@ Raschetno-poiasnitel'nye zapiski k vypusknym kvalifikatsionnym \
 rabotam uspeshno prokhodiat proverku TestVKR (sborka 203)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.0svn65897"
+PV = "2026.226.2.0.0svn65897"
 
-RPM_NAME = "texlive-bmstu-2023.209.2.0.0svn65897-53.1.noarch.rpm"
-RPM_HASH = "cd889f85d6b8da645fe4723d2f525230b656b412c0de58371c8735d82ffd1bad9157741fb0d97d6b801c23ef1d6bb68cc54c9fa2d034c3c120059a4c72b1774f"
+RPM_NAME = "texlive-bmstu-2026.226.2.0.0svn65897-59.2.noarch.rpm"
+RPM_HASH = "566ead141df9f27fe31c69efe24b81fce1de47a0c524ae704f900613ba6f9c1f458d8cdcbbdc1d113c99a75d24269858b8d721862f22a6840477ae9463c50cab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bmstu-appendix.sty \

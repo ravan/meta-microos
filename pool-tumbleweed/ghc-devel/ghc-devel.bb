@@ -3,10 +3,10 @@ DESCRIPTION = "This is a meta-package for all the development library packages i
 except the ghc library, which is installed by the toplevel ghc metapackage."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.6"
+PV = "9.12.4"
 
-RPM_NAME = "ghc-devel-9.4.6-1.1.aarch64.rpm"
-RPM_HASH = "f2ac3baedfedb7ac153b1d75cf2efa286b2f68613ea549ba4df3ae5c797b09841155c4fa1c26cc88a85e022451784ba96052359dce0a325c4a4878beeffd9637"
+RPM_NAME = "ghc-devel-9.12.4-1.3.aarch64.rpm"
+RPM_HASH = "d0f55a08fd8c835e7a4ec40a7116342e2fcebf5934ddb650d7c016912ced65179204b06b385dd4b003d0d844359058845c87c496bb89dd03ee9a033acc1fb06c"
 
 RPROVIDES:${PN} += "ghc-devel \
 ghc-libraries"
@@ -22,13 +22,22 @@ ghc-containers-devel \
 ghc-deepseq-devel \
 ghc-directory-devel \
 ghc-exceptions-devel \
+ghc-file-io-devel \
 ghc-filepath-devel \
 ghc-ghc-boot-th-devel \
+ghc-ghc-experimental-devel \
+ghc-ghc-internal-devel \
+ghc-ghc-platform-devel \
+ghc-ghc-toolchain-devel \
+ghc-haddock-api-devel \
+ghc-haddock-library-devel \
 ghc-haskeline-devel \
 ghc-mtl-devel \
+ghc-os-string-devel \
 ghc-parsec-devel \
 ghc-pretty-devel \
 ghc-process-devel \
+ghc-semaphore-compat-devel \
 ghc-stm-devel \
 ghc-template-haskell-devel \
 ghc-terminfo-devel \

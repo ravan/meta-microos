@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.16"
 
-RPM_NAME = "humanity-icon-theme-0.6.16-1.2.noarch.rpm"
-RPM_HASH = "1afaf2575cda0b7e3fd6eb1145617e2e0df0fa15917e0bc6b69789297cad5c9158149f8a6c123fae21ab5e2926c45ebb5d689331adce268003a3fcf4ca6e47d8"
+RPM_NAME = "humanity-icon-theme-0.6.16-1.10.noarch.rpm"
+RPM_HASH = "a7720234f0ea4b078c1e75313d43d484bffe6bb5807460eae3c2cc0dded085ceaa7bd0bbfa1b92ac704cd56efcf9e21e8b87582af9b0789ee10b537452383895"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "humanity-icon-theme"

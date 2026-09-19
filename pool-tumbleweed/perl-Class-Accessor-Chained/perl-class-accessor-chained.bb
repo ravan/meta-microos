@@ -1,27 +1,23 @@
 SUMMARY = "Make chained accessors"
-DESCRIPTION = " \
-A chained accessor is one that always returns the object when called with \
-parameters (to set), and the value of the field when called with no arguments. \
+DESCRIPTION = "A chained accessor is one that always returns the object when called with \
+parameters (to set), and the value of the field when called with no \
+arguments. \
  \
 This module subclasses Class::Accessor in order to provide the same \
-mk_accessors interface. \
- \
-  Authors:	Richard Clamp <richardc@unixbeard.net> \
--------------------------------------------------------------------------------"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+mk_accessors interface."
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.01"
+PV = "0.10.0"
 
-RPM_NAME = "perl-Class-Accessor-Chained-0.01-13.31.aarch64.rpm"
-RPM_HASH = "e2b7095887ccc798275634d4a99f772bfc1d5a9a888a32de4676c497d4e5d521e2b6f4878e0f4fcdf2d63544baee0ba80d7257c811cea39a100f55fa4290d0ba"
+RPM_NAME = "perl-Class-Accessor-Chained-0.10.0-1.1.noarch.rpm"
+RPM_HASH = "51542208177ea46b2c540c5152ded257982258140054c6423e7226df18b8095740505e3257c2899a50370ae3e314b33dced4e2db0506df974a0c287cd760cfaf"
+REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "Class-Accessor-Chained \
-Class-Accessor-Chained-Fast \
-perl-Class--Accessor--Chained \
+RPROVIDES:${PN} += "perl-Class--Accessor--Chained \
 perl-Class--Accessor--Chained--Fast \
 perl-Class-Accessor-Chained"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Accessor"
 
 inherit rpm

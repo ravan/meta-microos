@@ -2,10 +2,10 @@ SUMMARY = "Single-header testing framework"
 DESCRIPTION = "C++98/C++11 single-header testing framework for unit tests and TDD."
 LICENSE = "MIT"
 
-PV = "2.4.11"
+PV = "2.5.3"
 
-RPM_NAME = "doctest-devel-2.4.11-1.3.aarch64.rpm"
-RPM_HASH = "b38ee5fbfe2863e2782bd9bd2c7df44c946b1d1c28a63710757fe3db8c82a647d98759086fc1b5a88e348c31b7c914d5868016e751e1552a90549a10e7bc3f72"
+RPM_NAME = "doctest-devel-2.5.3-1.1.aarch64.rpm"
+RPM_HASH = "8b2ed8f368f19f53d81dabdd2330b934b18082a91363a9348d8c20f7b974d7f2b2aaa1ba433de8055dbc2a1c513999851aaddf6733208a1006045dbd8d77c25d"
 
 RPROVIDES:${PN} += "cmake-doctest \
 doctest-devel \

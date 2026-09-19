@@ -8,10 +8,10 @@ inserted in ELF binaries by compilers such as GCC, used by well known \
 debuggers such as GDB, and more recent ones such as systemtap."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.25"
+PV = "1.31"
 
-RPM_NAME = "libdwarves1-1.25-1.1.aarch64.rpm"
-RPM_HASH = "682ab9c3d6882b615389bb3b3df64ff690cf4a36bce878489fdb2cb4c7d443d3a841f190fae7e432e90ebbd7e5e952fcc86b78a4a30b84d108b846468f916338"
+RPM_NAME = "libdwarves1-1.31-1.5.aarch64.rpm"
+RPM_HASH = "d2ab537f5b6ad164f3e0a5a537c8a7e7b1db28da4f4ab4f61e93733ed9aa1784b6ef3172e8e8b59f783ec7c6fe65d5ddfb8e4a996d8fbd96f1833cd40c7c7f3f"
 
 RPROVIDES:${PN} += "libdwarves-emit.so.1 \
 libdwarves-reorganize.so.1 \

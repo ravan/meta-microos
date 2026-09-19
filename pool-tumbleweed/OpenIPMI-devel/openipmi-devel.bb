@@ -3,10 +3,10 @@ DESCRIPTION = "These libraries are needed to get full access to the OpenIPMI \
 functions."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.31"
+PV = "2.0.37.13+git.1181df8"
 
-RPM_NAME = "OpenIPMI-devel-2.0.31-5.14.aarch64.rpm"
-RPM_HASH = "d25798d3c96e90de043aac93a3b8ca200f45f50eba14aac7a2597640f8087f9b6608681e2440693ad5f52c65fab1272c059f53030e5c6dc7e969bbf8255e8253"
+RPM_NAME = "OpenIPMI-devel-2.0.37.13+git.1181df8-1.6.aarch64.rpm"
+RPM_HASH = "78f2ee080fb50c5b2faf3b6b85af65a21c7ae2fa8efb467ace5ff7ab7e0ed22929d411e7767d8a368b81c47d333a39b7986479532cf1e5cae9f34c82bdb5b87e"
 
 RPROVIDES:${PN} += "OpenIPMI-devel \
 pkgconfig-OpenIPMI \

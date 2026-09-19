@@ -3,10 +3,10 @@ DESCRIPTION = "Library designed to be used in low-level utils like \
 mount(8) and /usr/sbin/mount.<type> helpers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.39.1"
+PV = "2.42.2"
 
-RPM_NAME = "libmount1-2.39.1-3.1.aarch64.rpm"
-RPM_HASH = "2d518e8a1ccf07969295b703d8ec9c312b9cc2c1b23e8bbf873e4b902df90c82e8e27f33d28d931bcdc6f4409c711d18c4a27207e563c795ce891c4c321a9834"
+RPM_NAME = "libmount1-2.42.2-2.1.aarch64.rpm"
+RPM_HASH = "0dade2ad6e22346d74f91d80716964d81629ef055957b1374d5643ee41dff3146dfbe4698ae97a1d42094a586442ed6d18aa70dbcb6ae29c1e1384fea441da81"
 
 RPROVIDES:${PN} += "libmount.so.1 \
 libmount1"

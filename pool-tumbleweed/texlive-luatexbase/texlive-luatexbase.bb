@@ -9,10 +9,10 @@ to allow existing packages to upgrade smoothly to the new \
 support structure."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.3svn52663"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-luatexbase-2023.208.1.3svn52663-53.1.noarch.rpm"
-RPM_HASH = "63af827de34bde1b0010c71f6fad81ea14c7bc9f41cf97a8c6bd2a740a6fb2f3edb76bd95a0ae968d796edf270f526a78c6e1d4f0d5daf544d3f7f0c92184d5b"
+RPM_NAME = "texlive-luatexbase-2026.226.1.3svn77682-59.2.noarch.rpm"
+RPM_HASH = "1e163a0de51699ac49ae278ebee418d85eae78a40d78b405da16e6c1d9eb15fe119dc1c39959bc0a36bf76ce880181b161e9ff96591988be1f0c2fe67707c248"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luatexbase-attr.sty \

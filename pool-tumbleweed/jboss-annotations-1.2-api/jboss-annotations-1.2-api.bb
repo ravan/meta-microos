@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.0.2"
 
-RPM_NAME = "jboss-annotations-1.2-api-1.0.2-2.7.noarch.rpm"
-RPM_HASH = "fd49dba5f470d233a957597b560968f0a290950fa53f1d00c64584d398c2ca755e19310787436f791801deca9e8c4892a8ba13402dabea5247816b1ed244faba"
+RPM_NAME = "jboss-annotations-1.2-api-1.0.2-3.8.noarch.rpm"
+RPM_HASH = "16166eeda5ef97ad42a60e3eeb3e05e761cbcd41e904fb520d29c92e7390ac03c625612a4385e1fe1962effacf64069fcd22977933c5245341d35475dc30f779"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-annotations-1.2-api \

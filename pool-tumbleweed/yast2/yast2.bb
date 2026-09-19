@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains scripts and data needed for SUSE Linux \
 installation with YaST2"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.2"
+PV = "5.0.21"
 
-RPM_NAME = "yast2-4.6.2-1.1.aarch64.rpm"
-RPM_HASH = "6a45392773869936cf61b2cb5d04f3cf8730ae17bf94531bcb73e480913ab9363a0a1450d6a88ddb00ff87eb0071282477700c33c28129599b7711644c638801"
+RPM_NAME = "yast2-5.0.21-1.2.aarch64.rpm"
+RPM_HASH = "e71be147aaac945c48c31d84ceef282ebcfa82918fc784c0c16d21cf65b7afdcabdbb9f0b600f4bcb873394858ad7476b57723740bcb117bb29517f2f3476f3f"
 
 RPROVIDES:${PN} += "perl-MailTable \
 perl-MailTable--Aliases \
@@ -29,11 +29,11 @@ fillup \
 gpg2 \
 hostname \
 rpm \
-rubygem-ruby-3.2.0-abstract-method \
-rubygem-ruby-3.2.0-cfa \
-rubygem-ruby-3.2.0-cheetah \
-rubygem-ruby-3.2.0-nokogiri \
-rubygem-ruby-3.2.0-simpleidn \
+rubygem-ruby-4.0.0-abstract-method \
+rubygem-ruby-4.0.0-cfa \
+rubygem-ruby-4.0.0-cheetah \
+rubygem-ruby-4.0.0-nokogiri \
+rubygem-ruby-4.0.0-simpleidn \
 sysconfig \
 yast2-core \
 yast2-hardware-detection \

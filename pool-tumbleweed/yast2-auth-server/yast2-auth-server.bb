@@ -4,10 +4,10 @@ Kerberos server instances that help to maintain centralised user identity \
 database for a network."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.2"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-auth-server-4.6.2-1.1.noarch.rpm"
-RPM_HASH = "f29a154d6d9d03037433abdba9325ce4ccced98e8bcba6e9822e4c3f6505047cb55613f32eced2145a95f342ca98caeb6d35117af204c6e6e8b5064e43914643"
+RPM_NAME = "yast2-auth-server-5.0.1-1.1.noarch.rpm"
+RPM_HASH = "1fcd6d037104741508bf5f3a7ea0db3013b058c3dbf6d2eccf6dac7f490825f9288da043b2400b13d840942159cfff8ed8720b3c61078aa6f25cc149489e023a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-auth-server"

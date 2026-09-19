@@ -2,10 +2,10 @@ SUMMARY = "Binary files of musixtex"
 DESCRIPTION = "Binary files of musixtex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn37026"
+PV = "2026.20260301.svn37026"
 
-RPM_NAME = "texlive-musixtex-bin-2023.20230311.svn37026-93.2.aarch64.rpm"
-RPM_HASH = "46e2b745492d02e5a9ba5e23b242e37bf488457b6170775ebca4d5c0c64eb79886327ec0e47baea24af755072659f3bda41049ae63238eb231dbb74b93ce08b3"
+RPM_NAME = "texlive-musixtex-bin-2026.20260301.svn37026-120.4.aarch64.rpm"
+RPM_HASH = "91c67ccbd60b9d736e8a3095af4eaed93ae528ace5fc42dcd617a36ce3c7342993df9c29db8367baf4ec21da9c54d7649035fa55bbae7a0d815b22a58b99d9fa"
 
 RPROVIDES:${PN} += "texlive-musixtex-bin"
 

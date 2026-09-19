@@ -6,10 +6,10 @@ processes. \
 This package contains the agent library only."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "121"
+PV = "127"
 
-RPM_NAME = "libpolkit-agent-1-0-121-4.3.aarch64.rpm"
-RPM_HASH = "03ef4997af9378398196cc0d518f9c13c96ec016244527eef75309df05da796161f29d988f5cb908cd23c5977720d52e4a1598c3c5b97a6141d1527f917ca451"
+RPM_NAME = "libpolkit-agent-1-0-127-7.2.aarch64.rpm"
+RPM_HASH = "5259de95e50204630c31801882f0a44d07e1a453ccd97329f17f2971ee71969a7549732684c69d8105bc1078f11bba245a510935e266cf99b664d19e765b120e"
 
 RPROVIDES:${PN} += "libpolkit-agent-1-0 \
 libpolkit-agent-1.so.0"

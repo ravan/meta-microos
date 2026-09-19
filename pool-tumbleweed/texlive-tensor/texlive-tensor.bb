@@ -2,15 +2,15 @@ SUMMARY = "Typeset tensors"
 DESCRIPTION = "A package which allows the user to set tensor-style super- and \
 subscripts with offsets between successive indices. It supports \
 the typesetting of tensors with mixed upper and lower indices \
-with spacing, also typset preposed indices. This is a complete \
+with spacing, also typeset preposed indices. This is a complete \
 revision and extension of the original 'tensor' package by Mike \
 Piff."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn15878"
+PV = "2026.227.2.2svn77682"
 
-RPM_NAME = "texlive-tensor-2023.209.2.1svn15878-55.1.noarch.rpm"
-RPM_HASH = "b5e08ea5b9621e460c4efb1b076532285c9f15c0ae3578b836627f432b55cc221a53d7a9daa4255ef8a826c1bafda638b77ec5e4fefd760044b78c446b2bd2f4"
+RPM_NAME = "texlive-tensor-2026.227.2.2svn77682-62.2.noarch.rpm"
+RPM_HASH = "16b83572df3ceec15ae486700263193be0fcf64c31f4409548ad1196b5bde1f737a450c681f223ef2796ff8d2c51ca52258ba9a785d47851e7c99ecfa98217cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tensor.sty \

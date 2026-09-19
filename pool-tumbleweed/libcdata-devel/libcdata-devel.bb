@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libcdata."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230108"
+PV = "20260703"
 
-RPM_NAME = "libcdata-devel-20230108-1.3.aarch64.rpm"
-RPM_HASH = "79b1db3a575088c1afa5e28b4e4f474bf0a41d89e26cc6328556338857fcd14cc5a00efe993d8e321c6cca4decadff64f10329828504d83ffd2ac1fd46287292"
+RPM_NAME = "libcdata-devel-20260703-1.2.aarch64.rpm"
+RPM_HASH = "b642d81347bd92df581ba529578438502f67b100ad9383c484b62f1ff5e3ce36624508ca2c28efd5732675bffc3ce0cd113ebc3fe9410a5a3ebff1010cfabb92"
 
 RPROVIDES:${PN} += "libcdata-devel \
 pkgconfig-libcdata"

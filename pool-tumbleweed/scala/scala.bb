@@ -1,14 +1,15 @@
-SUMMARY = "A hybrid functional/object-oriented language for the JVM"
+SUMMARY = "Hybrid functional/object-oriented language for the JVM"
 DESCRIPTION = "Scala is a general purpose programming language designed to express \
-common programming patterns in a concise and type-safe way. It \
-integrates features of object-oriented and functional languages. It \
-is also interoperable with Java."
-LICENSE = "BSD-3-Clause & CC0-1.0 & SUSE-Public-Domain"
+common programming patterns in a concise, elegant, and type-safe way. \
+It smoothly integrates features of object-oriented and functional \
+languages.  It is also fully interoperable with Java."
+LICENSE = "Apache-2.0 & BSD-3-Clause & MIT"
 
-PV = "2.10.7"
+PV = "2.13.12"
 
-RPM_NAME = "scala-2.10.7-8.9.aarch64.rpm"
-RPM_HASH = "5ad76838b9a235a8028862899e44e35bcbd6d37f3594d2bc012b0d1261995aecb1b512bf931a6fab35f2587af6a8f757b19c843a04e7706c4a0fe798f80fb9b5"
+RPM_NAME = "scala-2.13.12-3.2.noarch.rpm"
+RPM_HASH = "6bf8ee4a49a1f9548fbe1c58fc53368ef7aadfb3bdd72c6a4fa0d2dd104eb35f47ee987b5ffdfa30ec24b6588f98c08e639cee6b1140431808ebd1fe905badb9"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.scala-lang-scala-compiler \
 mvn-org.scala-lang-scala-compiler-pom- \
@@ -18,16 +19,18 @@ mvn-org.scala-lang-scala-reflect \
 mvn-org.scala-lang-scala-reflect-pom- \
 mvn-org.scala-lang-scalap \
 mvn-org.scala-lang-scalap-pom- \
-osgi-org.scala-ide.scala.compiler \
-osgi-org.scala-ide.scala.library \
+osgi-org.scala-lang.scala-compiler \
+osgi-org.scala-lang.scala-library \
+osgi-org.scala-lang.scala-reflect \
 scala \
 scala-bootstrap"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-jansi \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-jline"
+mvn-io.github.java-diff-utils-java-diff-utils \
+mvn-net.java.dev.jna-jna \
+mvn-org.jline-jline"
 
 inherit rpm

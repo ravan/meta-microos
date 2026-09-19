@@ -3,10 +3,10 @@ DESCRIPTION = "Music Management application with support for ripping audio-CD's,
 playback of Ogg Vorbis and MP3 and burning of CD-ROMs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.4.7"
+PV = "3.5.1"
 
-RPM_NAME = "rhythmbox-3.4.7-1.1.aarch64.rpm"
-RPM_HASH = "65995107a222179097c149e9a7a8fb7347ac89eec350501af34985eeda14bb1d98221f44932c0f2cd6c4a1843e8c9025ce73a459dd02e56845c32f086a88dc6f"
+RPM_NAME = "rhythmbox-3.5.1-1.1.aarch64.rpm"
+RPM_HASH = "92c778ba8c0c99d27ccf3973f287993f84888c6c34f5a6c84303420fa45b36e2e4318a965ee2bd6936b80903cfc662cadb819902e13bf0cdfc1591b64297f3d5"
 
 RPROVIDES:${PN} += "libandroid.so \
 libaudiocd.so \
@@ -42,7 +42,7 @@ libdmapsharing-4.0.so.3 \
 libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
-libgirepository-1.0.so.1 \
+libgirepository-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgpod.so.4 \
@@ -62,13 +62,13 @@ libmtp.so.9 \
 libnotify.so.4 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libpeas-1.0.so.0 \
-libpeas-gtk-1.0.so.0 \
+libpeas-1.0.so.1 \
+libpeas-gtk-1.0.so.1 \
 libsecret-1.so.0 \
 libsoup-3.0.so.0 \
 libtdb.so.1 \
 libtotem-plparser.so.18 \
-libxml2.so.2 \
+libxml2.so.16 \
 python3-gobject \
 python3-gobject-Gdk \
 typelib-Atk \

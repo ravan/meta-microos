@@ -2,14 +2,15 @@ SUMMARY = "Bash Completion for river"
 DESCRIPTION = "Bash command-line completion support for river."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.4+g953"
+PV = "0.3.12"
 
-RPM_NAME = "river-bash-completion-0.2.4+g953-2.1.noarch.rpm"
-RPM_HASH = "8ea54463be94c3a9c6bf773582d4bc357fa3dc06d05b7f6d3dbad151b9ba259582f531f2e2b0c8ded7f7ebf350893cf83787da55b710018437d3c589220018c1"
+RPM_NAME = "river-bash-completion-0.3.12-2.6.noarch.rpm"
+RPM_HASH = "52e7655166e8bf860e9aeccd32f38deac4889004da0219e3554f67481fe0fdb69d702fad0a42aa32e9c0e411ddb8add530a8db06bbaed19476fc9af492bc5957"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "river-bash-completion"
 
-RDEPENDS:${PN} += "bash-completion"
+RDEPENDS:${PN} += "bash-completion \
+river"
 
 inherit rpm

@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-frimurer"
 DESCRIPTION = "The  separated fonts package for texlive-frimurer"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1svn56704"
+PV = "2026.226.1svn56704"
 
-RPM_NAME = "texlive-frimurer-fonts-2023.209.1svn56704-53.1.noarch.rpm"
-RPM_HASH = "207a5abc593b631a06354268066ea5e1398d37cc33218bd4c350b6c273dd69fa8b01e684a1b95fb0f9e0ef6a59d82ef594b9669f24bebf81e33d364a07ca7400"
+RPM_NAME = "texlive-frimurer-fonts-2026.226.1svn56704-60.2.noarch.rpm"
+RPM_HASH = "25489f170d1c8e887344050600c5aca571400954920920a05f952272c98f15a1fcb6741e400b64fc67938002f8de2912d234bfc9f3c7701bccd25a382472cd0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -46,7 +49,10 @@ font--lang=kj \
 font--lang=ku-tr \
 font--lang=kwm \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=ng \
@@ -79,8 +85,10 @@ font--lang=sw \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
@@ -88,6 +96,7 @@ font--lang=wa \
 font--lang=wen \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-frimurer \

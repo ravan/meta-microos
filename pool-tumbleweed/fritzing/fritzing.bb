@@ -6,32 +6,33 @@ allow users to document their Arduino and other electronic-based \
 prototypes, and to create a PCB layout for manufacturing."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.9.4"
+PV = "1.0.8"
 
-RPM_NAME = "fritzing-0.9.4-1.26.aarch64.rpm"
-RPM_HASH = "0fdac146501faa6a201c559710443ab51ad8ae50474c5721291a7deb99682c535cb9b71696a6e82a4117d234e4479c176e678349f071b11d4b70078165f56f5d"
+RPM_NAME = "fritzing-1.0.8-1.1.aarch64.rpm"
+RPM_HASH = "928c07696e14929d0ca9fcaf4c51bdc64b56c5d7b4372d7856d2e878cecc70bad7a51c95312efa429ab399950d5236f7aa6f2443dd73ccbef64df279401ab42c"
 
 RPROVIDES:${PN} += "fritzing"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-desktop-file-utils \
+RDEPENDS:${PN} += "desktop-file-utils \
 fritzing-parts \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5SerialPort.so.5 \
-libQt5Sql.so.5 \
-libQt5Sql5-sqlite \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6SerialPort.so.6 \
+libQt6Sql.so.6 \
+libQt6Svg.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgit2.so.1.7 \
 libm.so.6 \
+libpolyclipping.so.22 \
+libquazip1-qt6.so.1.7 \
 libstdc++.so.6 \
-libz.so.1 \
 shared-mime-info"
 
 inherit rpm

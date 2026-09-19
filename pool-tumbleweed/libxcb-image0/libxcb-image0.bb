@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.4.1"
 
-RPM_NAME = "libxcb-image0-0.4.1-1.3.aarch64.rpm"
-RPM_HASH = "ea714ef02fb809fdb8ed158682714dbccfe7f5aeeca5587b836656cec7937a8d9e4c00f36b3a15e6e4af8f187cdf1b7ffcf3a75f7279492f2a7af4d8715990f8"
+RPM_NAME = "libxcb-image0-0.4.1-1.13.aarch64.rpm"
+RPM_HASH = "cd1bcb257365d0018394378dc8a07e9683b366628725298c5ad8b30b098e525ec98ac5fc8ba201315be7da62bbb6883e99e4f863e8a07fb70005156e2e96f720"
 
 RPROVIDES:${PN} += "libxcb-image.so.0 \
 libxcb-image0"

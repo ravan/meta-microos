@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0+ | MPL-1.1 | LGPL-3.0+"
 
 PV = "4.2"
 
-RPM_NAME = "ispell-bulgarian-4.2-1.14.noarch.rpm"
-RPM_HASH = "59147108894eb892b48eabaa483b0a037619ee9fa77402a949f8a839f12eff2295c93b0ccbd1aff2ad4ee758f86476b7c874a0781a8c565ee1449512e20783ae"
+RPM_NAME = "ispell-bulgarian-4.2-2.7.noarch.rpm"
+RPM_HASH = "33f80aeb3002d2e805456ca5ab8bcc4e4a6c3f3fb1f9ff48128274b600bb3a80ad866c03ff702d660e683d0030c9aa534b1b6e08b0f8ce60e341c4acfcc3550d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ispell-bulgarian \

@@ -1,13 +1,13 @@
 SUMMARY = "A highly readable and good looking CV and letter class"
 DESCRIPTION = "This class provides, what I have found, to be an extremely \
 attractive and highly readable CV which will lead to your CV \
-being read rather than disgarded."
+being read rather than disregarded."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0svn61719"
+PV = "2026.226.4.0svn76790"
 
-RPM_NAME = "texlive-readablecv-2023.209.3.0svn61719-54.2.noarch.rpm"
-RPM_HASH = "c8245ca203e82c0dec5453eb98771a5ae086a0406a57b51589b6accd68e5b3c59f33c26ccc19952d9f67d4fad4bd8ad152d6ac30a4aa0452312669e239ec1726"
+RPM_NAME = "texlive-readablecv-2026.226.4.0svn76790-60.4.noarch.rpm"
+RPM_HASH = "b93195802ecfafeeee680db08bb4fc02ccc28261f07cf252d25e942b49fe9a786b2c7e4850cc1fc009865816badcd80e488c5c7464a680067e1786c940213c88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ReadableCV.cls \

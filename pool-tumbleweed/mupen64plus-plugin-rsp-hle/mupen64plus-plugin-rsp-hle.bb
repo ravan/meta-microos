@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the RSP High-Level emulation plugin for the
 Nintendo 64 Emulator."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.5.9"
+PV = "2.6.0"
 
-RPM_NAME = "mupen64plus-plugin-rsp-hle-2.5.9-2.9.aarch64.rpm"
-RPM_HASH = "6656d25b9b602bc0378adcc27e6e4178f44353d2803cdfb92b5d87c58fed9fb58e11de460220ef06da3d065d351bad4571ae47dcd65a4a13b3c74cdabf109ae5"
+RPM_NAME = "mupen64plus-plugin-rsp-hle-2.6.0-3.6.aarch64.rpm"
+RPM_HASH = "8c6d318741a336851fd7939933306d42f1634a40deaff139895a2c441746949bb83c301da1dba45f8fa35351b4642f06d3a234e76edb859d1932885bc3fc9e72"
 
 RPROVIDES:${PN} += "mupen64plus-plugin-rsp \
 mupen64plus-plugin-rsp-hle"

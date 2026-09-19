@@ -1,13 +1,12 @@
 SUMMARY = "Probability trees with MetaPost"
 DESCRIPTION = "This package provides MetaPost tools for drawing simple \
-probability trees. One command and several parameters to \
-control the output are provided."
+probability trees and graphs (in discrete geometry)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.21.11svn60929"
+PV = "2026.226.24.04svn70887"
 
-RPM_NAME = "texlive-mptrees-2023.209.21.11svn60929-55.1.noarch.rpm"
-RPM_HASH = "416a329a69b012eee612f24a0252e51b2e52113e50030f7754a6783f851d2843765f42a120292bce9adbe7c71f6a4247268eae39cbbf133635db740a4c55dff8"
+RPM_NAME = "texlive-mptrees-2026.226.24.04svn70887-61.2.noarch.rpm"
+RPM_HASH = "029c616f22647cb1cbf4ca39037f831d5c34f61e11e8fe04b40b44e6a81582a03d1744de9bfa6cef7caecc38e0d39e12069dbc845d933aa002831d6e15c7f22a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mptrees"

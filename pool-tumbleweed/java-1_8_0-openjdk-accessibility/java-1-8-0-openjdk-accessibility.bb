@@ -7,12 +7,12 @@ Please note, the java-atk-wrapper is still in beta, and OpenJDK 8 \
 itself is still being tuned to be working with accessibility features. \
 There are known issues with accessibility on, so please do not install \
 this package unless you really need to."
-LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
+LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & LicenseRef-SUSE-Public-Domain & W3C"
 
-PV = "1.8.0.382"
+PV = "1.8.0.504"
 
-RPM_NAME = "java-1_8_0-openjdk-accessibility-1.8.0.382-1.1.aarch64.rpm"
-RPM_HASH = "acc5743e3e0a788e08a95974a1c4913573b5ba9cadbc8bf60a5b4c07652a864bff02f481fce5399b89f68f7696d49aceb53940f9fab9db5a9ad536a53fe09254"
+RPM_NAME = "java-1_8_0-openjdk-accessibility-1.8.0.504-1.1.aarch64.rpm"
+RPM_HASH = "896a2f006e732b9361aee57716faec288d5ac717bbbe9ff408ffe90282cc45d2c7c658d80ded849da956c08c17d9236bb391ff59617ca1766a77cfa5b2b49052"
 
 RPROVIDES:${PN} += "config-java-1-8-0-openjdk-accessibility \
 java-1-8-0-openjdk-accessibility"

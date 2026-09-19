@@ -2,10 +2,10 @@ SUMMARY = "PostScript document support for Evince"
 DESCRIPTION = "A plugin for Evince to read PostScript documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "48.4"
 
-RPM_NAME = "evince-plugin-psdocument-44.3-1.1.aarch64.rpm"
-RPM_HASH = "df437c2542e140138d0f88dbddaa0a970a99c2e79f510f9b1613786c83a87bcadfe67582c900896e7cc438fd77d2f18d84d820a8b53fbf957540150c13e130ff"
+RPM_NAME = "evince-plugin-psdocument-48.4-2.1.aarch64.rpm"
+RPM_HASH = "fbdc58d705e4228e9aa30b8930d5d0d701a5141872538ef7c4f692809d084e4e9b4eda575188cb0e3ab027de03754620a4340e48bc75b327e16ca805d4326af0"
 
 RPROVIDES:${PN} += "evince-plugin-psdocument \
 libpsdocument.so"

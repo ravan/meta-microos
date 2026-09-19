@@ -4,15 +4,14 @@ measurements for point-to-point and global communication operations for \
 a range of message sizes."
 LICENSE = "BSD-3-Clause"
 
-PV = "2021.3"
+PV = "2021.10"
 
-RPM_NAME = "imb-openmpi4-2021.3-1.3.aarch64.rpm"
-RPM_HASH = "4f9af0361a7436aa9fcd6d79569f034a0e0328117db65556b54e0567a2f9c35d18d13f1fd974008341cf20628062ce891ae14243ac3b763b92c052c89fed82e6"
+RPM_NAME = "imb-openmpi4-2021.10-2.3.aarch64.rpm"
+RPM_HASH = "804cf85158927e346eb016c509c809d24c79265a0a6b3482cee3a906f2bea042537d4516fda50ddaa1f72a0c353e976fdb2012adfc380888cc4feb1e294306e3"
 
 RPROVIDES:${PN} += "imb-openmpi4"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libgcc-s.so.1 \
 libmpi.so.40 \
 libstdc++.so.6"

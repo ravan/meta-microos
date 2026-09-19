@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.8.0.0"
 
-RPM_NAME = "rt2860-1.8.0.0-23.16.noarch.rpm"
-RPM_HASH = "b42bf450b6ea42f7b5edd2ec15b0dbb7a505ccafbfbc6acec45d7557cf7ba21b92dd90d47b0241caa925e1c2d741ba86f37ae22243275c3c76ff254a162bc46b"
+RPM_NAME = "rt2860-1.8.0.0-23.24.noarch.rpm"
+RPM_HASH = "c0fe5c9004dcab4b57e12c2a219e4a07c7aaa80f0a20286d0abe2af47297cbec388ac2e3036ac10d66d0300f996473e3ff64cbd1ff7d4e4593424074711e6edc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-rt2860 \

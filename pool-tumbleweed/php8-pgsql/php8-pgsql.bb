@@ -3,10 +3,10 @@ DESCRIPTION = "PHP functions for access to PostgreSQL database servers. It inclu
 both traditional pgsql and pdo_pgsql drivers."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-pgsql-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "0b979e83ae65e4e27f9ebc00e85227b60f2d18a0fd11f51b94ec615809dbf032f8560ea3df56584202c0f2e156244102ef48203a944336d9a0117605755f3e58"
+RPM_NAME = "php8-pgsql-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "5d698b6a4c9e99fef2b5edb303da5434e9bf54b44519bd7af78aa91a76e932f0cf5047dcf6ef23b0ffa9be831f8c59c8f0de2fb2fdd6507359637626f5ac8bcb"
 
 RPROVIDES:${PN} += "config-php8-pgsql \
 php-any-db \

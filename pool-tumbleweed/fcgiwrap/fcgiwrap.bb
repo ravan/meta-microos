@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0+18+g99c942c"
 
-RPM_NAME = "fcgiwrap-1.1.0+18+g99c942c-3.13.aarch64.rpm"
-RPM_HASH = "512d710399ff459a5153c422b5fd8e64457a840bb6c2f3d3b18cf1fbbc5e7a87b219e029995e4f645dbe89ce23ba53e01621e882c9ddbf1c3e5f42c9e32209b9"
+RPM_NAME = "fcgiwrap-1.1.0+18+g99c942c-3.23.aarch64.rpm"
+RPM_HASH = "bb8ce7e576fafcbb4146a555af7705eb390bdf6644143ef38b1ee34fb3dcbf9512b35a40535145acf47d50ea0d21bd96cfcdc9b6895fd4e121a05a8e6f3d76b9"
 
 RPROVIDES:${PN} += "fcgiwrap"
 

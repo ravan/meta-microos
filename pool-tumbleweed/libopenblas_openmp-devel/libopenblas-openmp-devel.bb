@@ -4,13 +4,14 @@ DESCRIPTION = "OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD
 This package contains the development libraries for serial OpenBLAS version."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.21"
+PV = "0.3.34"
 
-RPM_NAME = "libopenblas_openmp-devel-0.3.21-5.4.aarch64.rpm"
-RPM_HASH = "d1bb44f2142d9732bb8c9d74ef373401d3afc52b4e44b4250389eee121340bb3b6e5372d667506c91e3da6533a7265e0a63b88128f08955a5314f9a03d23408e"
+RPM_NAME = "libopenblas_openmp-devel-0.3.34-1.1.aarch64.rpm"
+RPM_HASH = "9ed323fdee57d22adcf6e8b9f67294ce01466e624dc270e37c75c068663c5442d95656af98f9f72b5e435bb284f52d7e6ee90b4abef4a80b8d254fa6a5351f54"
 
 RPROVIDES:${PN} += "libopenblas-openmp-devel \
 openblas-devel \
+openblas-devel-any \
 openblas-devel-default"
 
 RDEPENDS:${PN} += "libopenblas-openmp0 \

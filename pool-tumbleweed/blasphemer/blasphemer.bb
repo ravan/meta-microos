@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.8"
 
-RPM_NAME = "blasphemer-0.1.8-1.1.noarch.rpm"
-RPM_HASH = "2cc59c2204ec701db5386ceff61e5775fbc6d95379713ab48026c0c2cd4af268c97477f3daa87df0afa3c0bf2bac51f33b79f7d9d5dd8be25cda5fe18eeb697d"
+RPM_NAME = "blasphemer-0.1.8-1.9.noarch.rpm"
+RPM_HASH = "93359426b33420cca945c99bee0bcfdd71b8f8126495c78b03ac827fdf450ad8a99f58684cf9b81fdbcec1f86f4ce6ba82217618e665a0643f74b98bf9492369"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blasphemer"

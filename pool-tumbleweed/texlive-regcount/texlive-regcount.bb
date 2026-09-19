@@ -5,10 +5,10 @@ it is a bit verbose. An automatic call to \\rgcounts is done at \
 \\begin{document} and \\end{document}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn19979"
+PV = "2026.226.1.0svn19979"
 
-RPM_NAME = "texlive-regcount-2023.209.1.0svn19979-54.2.noarch.rpm"
-RPM_HASH = "eef5f669f2582036777df4f939864d9fb413be84b00b1ae896d123419662fdedc65c222d21120ea90498fb18b5a4f9221878f5e32c6b0300cbe19674e11fe94d"
+RPM_NAME = "texlive-regcount-2026.226.1.0svn19979-60.4.noarch.rpm"
+RPM_HASH = "accabebe465e631c195cc742923ee75aebf418b14e8a23988491c174c0c0abc1311d92927d232afe57b39efa185ca7cc742d84ace57e3b5e8e442a06cb9a6dc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-regcount.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of ctanify"
 DESCRIPTION = "Binary files of ctanify"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn24061"
+PV = "2026.20260301.svn24061"
 
-RPM_NAME = "texlive-ctanify-bin-2023.20230311.svn24061-93.2.aarch64.rpm"
-RPM_HASH = "b4ffdafa9890dc84ce3c88a9805dc27e717f4ce46cccd1ff2ce09a290d12f095275b2401ec3a2a3e1a656a4b23199bbdc7306402babc06d997e4eff476c2c297"
+RPM_NAME = "texlive-ctanify-bin-2026.20260301.svn24061-120.4.aarch64.rpm"
+RPM_HASH = "8fec51162764e73242c2983b50f82dc6ba7829b89b33bc8baee3c8cc06e1b6f1bac982a2a321230f917538ecb500330f1a1e26a7b95bbf5ee8ea457cfed9419d"
 
 RPROVIDES:${PN} += "texlive-ctanify-bin"
 

@@ -31,10 +31,10 @@ organization's repository they are available for use by all developers \
 within your organization."
 LICENSE = "Apache-2.0"
 
-PV = "3.2.1"
+PV = "3.4.1"
 
-RPM_NAME = "maven-archetype-3.2.1-2.1.noarch.rpm"
-RPM_HASH = "7951e806e061fd435553665c796f5328af18007b425252f2fffc77c3ac3ec61d6fa7d3ac867c36a76e509d10973a2e2be4fc28f15e231a618c85ad2ae2a98a32"
+RPM_NAME = "maven-archetype-3.4.1-1.7.noarch.rpm"
+RPM_HASH = "af1d4254050d66e677cc22407b4b6ca934fe4212b61fc477d60940bcc1f8543e8d62b3c4b6dd40aa277c2b91c0b7facaa93d50507d92e8877d12b577b47dae19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-archetype \
@@ -44,6 +44,7 @@ mvn-org.apache.maven.archetype-maven-archetype-pom-"
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-org.apache.maven-maven-parent-pom- \
-mvn-org.codehaus.plexus-plexus-component-metadata"
+mvn-org.codehaus.plexus-plexus-utils \
+mvn-org.codehaus.plexus-plexus-xml"
 
 inherit rpm

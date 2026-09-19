@@ -7,10 +7,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of lrslib."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "7.2"
+PV = "7.3a"
 
-RPM_NAME = "lrslib-devel-7.2-1.4.aarch64.rpm"
-RPM_HASH = "38cadea2a7b48d6943860c50fc22cf8f5ed22c571340a116f2755cb32cdde775f6c4899844d516fc47db8cd4c55b11bc3f70f0e07a6504f08312dbbfbd461da2"
+RPM_NAME = "lrslib-devel-7.3a-1.4.aarch64.rpm"
+RPM_HASH = "63575a43580ebf17f09cc03b12eea69fccd7396ab0009313cd41955c5acee755640ae0e6bb62845b8b2e3664e0a60c11e0f3c2802ac87412062fa5d0a20719e3"
 
 RPROVIDES:${PN} += "lrslib-devel"
 

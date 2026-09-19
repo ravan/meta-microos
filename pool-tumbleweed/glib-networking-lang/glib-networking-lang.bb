@@ -2,10 +2,10 @@ SUMMARY = "Translations for package glib-networking"
 DESCRIPTION = "Provides translations for the 'glib-networking' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.1"
+PV = "2.80.1"
 
-RPM_NAME = "glib-networking-lang-2.76.1-1.1.noarch.rpm"
-RPM_HASH = "dd218e4d50b20a085b075b65b5e1232c139808258046a3c9d90e921e2c45e8253caaee6b348cb129d54050389eb1e47383caeffcddaf774ee307b43be6fd343b"
+RPM_NAME = "glib-networking-lang-2.80.1-4.1.noarch.rpm"
+RPM_HASH = "477cdde21ab2c4e51727143f16cc4636830ef87dc168359e0548272573e617f8891dded2ecc67c9573c41064025230d96228102eee407a6731c199f80591ea01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glib-networking-lang \

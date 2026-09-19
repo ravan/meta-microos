@@ -4,12 +4,12 @@ is a Java Virtual Machine for OpenJDK that is optimized for small \
 footprint, fast start-up, and high throughput. \
  \
 Supported architectures are ppc64le, s390x and x86_64"
-LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
+LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & LicenseRef-SUSE-Public-Domain & W3C"
 
-PV = "1.8.0.382"
+PV = "1.8.0.504"
 
-RPM_NAME = "java-1_8_0-openj9-1.8.0.382-1.1.aarch64.rpm"
-RPM_HASH = "e7615546c2bf547f335de8d4a46339c47549db8dd7caa96d4e8ba1ec8e259be52e4e48c05a5c6072700e93041f57d5106809149d1537d30ed8119d94a7ccf1da"
+RPM_NAME = "java-1_8_0-openj9-1.8.0.504-1.1.aarch64.rpm"
+RPM_HASH = "317eab0129d0177c4ca59dff948104e4e5d6b569226fad3423183ab1c25fc0d5d53435616b8dce468ca0c7d5a76bbb951c29b854bb4ea81b96089963bddb78b7"
 
 RPROVIDES:${PN} += "java \
 java-1-8-0-openj9 \

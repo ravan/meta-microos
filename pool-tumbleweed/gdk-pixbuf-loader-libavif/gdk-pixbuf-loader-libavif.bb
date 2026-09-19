@@ -2,10 +2,10 @@ SUMMARY = "AVIF image loader for GTK+ applications"
 DESCRIPTION = "A pixbuf-loader plugin to load AVIF images in GTK+ applications."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.0.0"
+PV = "1.4.2"
 
-RPM_NAME = "gdk-pixbuf-loader-libavif-1.0.0-1.1.aarch64.rpm"
-RPM_HASH = "531080a6a47eb9b8cb6a72c5f277631c040f8fce7556b864559f5b77b15fad7f6973f03c650dfaa756f7ca3f171a8e0ec394638d43c62b17a465a0aab1f723ec"
+RPM_NAME = "gdk-pixbuf-loader-libavif-1.4.2-1.4.aarch64.rpm"
+RPM_HASH = "6c0f5d3fa562eeb1790c10299cde347877737d0fff9d026d25887737d06a142c8ab420999de18ce137ad4c09b7ab32c9ea0c5dfbda50262f5757dc355a76877e"
 
 RPROVIDES:${PN} += "gdk-pixbuf-loader-libavif \
 libpixbufloader-avif.so"

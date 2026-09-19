@@ -4,10 +4,10 @@ the manipulation for freedesktop.org defined application menus. \
 It can be used as a replacement of libgnome-menu of gnome-menus."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.1.0"
+PV = "1.1.1"
 
-RPM_NAME = "menu-cache-1.1.0-2.13.aarch64.rpm"
-RPM_HASH = "ee676a619fe339a27819e9ce7001e07f3f9a8822e3ee3daca928221a7e51171bd1192e83a819646ae1f488c6080897f21464dcff4870f5e3c22d9bf92c2398c7"
+RPM_NAME = "menu-cache-1.1.1-1.8.aarch64.rpm"
+RPM_HASH = "4987482e7217c9f405c8f8d68462de7414404a114a9fdb227620623b6a07b1e8d74c30843e6d0433eef04d001eab512495870129b79936607005356b10642866"
 
 RPROVIDES:${PN} += "menu-cache"
 

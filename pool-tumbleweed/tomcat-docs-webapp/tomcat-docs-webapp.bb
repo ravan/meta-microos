@@ -2,15 +2,18 @@ SUMMARY = "The 'docs' web application for Apache Tomcat"
 DESCRIPTION = "The documentation of web application for Apache Tomcat."
 LICENSE = "Apache-2.0"
 
-PV = "9.0.75"
+PV = "9.0.121"
 
-RPM_NAME = "tomcat-docs-webapp-9.0.75-1.2.noarch.rpm"
-RPM_HASH = "89ffe593999943597f29b6a896bb11c7b5e09a399886ec152a18d57ae8b1fd6fa8eb2387e6a99bed47f94280dc5ad57f7de4b045d9e5a9fbb307f758fc8819d0"
+RPM_NAME = "tomcat-docs-webapp-9.0.121-1.1.noarch.rpm"
+RPM_HASH = "09e8c469e43ee6a7c335499a35f22f74fb75538d58985aff450b66bf6afbd850acefa5e8bf416a29c271fdb43873d1e31234bf4a1c70c94220638223b37061b7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tomcat-docs-webapp"
+RPROVIDES:${PN} += "tomcat-docs-webapp \
+tomcat-implementation-docs-webapp"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-tomcat"
+libxslt-tools \
+tomcat \
+util-linux"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "inotify is a kernel facility to watch file system changes. This \
 package provides some tools for it."
 LICENSE = "GPL-2.0-only-with-Linux-syscall-note & GPL-2.0-or-later"
 
-PV = "3.22.6.0"
+PV = "4.25.9.0"
 
-RPM_NAME = "libinotifytools0-3.22.6.0-1.5.aarch64.rpm"
-RPM_HASH = "18e44741f7e6aafdae28e6aec261818cb90ea4fefa210d7cb874ffc4b45b9da176a5a8f8fd390a938df2988f4c217486500fe4c765ce92756ae717d82ddb9870"
+RPM_NAME = "libinotifytools0-4.25.9.0-1.4.aarch64.rpm"
+RPM_HASH = "b6b77da63e9030ea7edea90c5d340decd78d36b7e9af71e216ee223eb2a1069b76f0bf3ca8749f30e2feefd95bf972e743c3ab1c6871eb017004c6901cd8f268"
 
 RPROVIDES:${PN} += "libinotifytools.so.0 \
 libinotifytools0"

@@ -3,10 +3,10 @@ DESCRIPTION = "This LuaLaTeX package provides a YAML parser and some functions \
 to declare and define LaTeX definitions using YAML files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64949"
+PV = "2026.226.svn73922"
 
-RPM_NAME = "texlive-yamlvars-2023.209.svn64949-53.2.noarch.rpm"
-RPM_HASH = "4d4f4dd584c2799e7ebcc78968f530e039475db1977d394afe083ae88419f78aea77e41a0ad469bf3c3bfc01edaeb8bf2be15c6b44082823bfccc9bee6d22e3e"
+RPM_NAME = "texlive-yamlvars-2026.226.svn73922-59.4.noarch.rpm"
+RPM_HASH = "ca18fc691057f4f575bda67ad1fc12b548ff5ebc6c58664fddf54a418b5cecb5cb9af44f5d7667ec753f6d3c2eaf5c1f43d7b8a4dadaa6dc3a18333abe61e2a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yamlvars.sty \
@@ -20,8 +20,8 @@ grep \
 sed \
 tex-etoolbox.sty \
 tex-luacode.sty \
-tex-penlight.sty \
-tex-xspace.sty \
+tex-luakeys.sty \
+tex-penlightplus.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

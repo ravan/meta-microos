@@ -3,10 +3,10 @@ DESCRIPTION = "This module provides the 'italian' style that can be set using \
 \\DTMsetstyle provided by datetime2.sty."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn37146"
+PV = "2026.226.1.3svn37146"
 
-RPM_NAME = "texlive-datetime2-italian-2023.209.1.3svn37146-53.1.noarch.rpm"
-RPM_HASH = "3e2ffccd4f715edba616169068dc64c6c1b239052a7da32cc965a9b6176ebe80df8dce298d8c5321c6f2fb9697c4012677f7361c54cc6ea433e595178c0ae068"
+RPM_NAME = "texlive-datetime2-italian-2026.226.1.3svn37146-59.2.noarch.rpm"
+RPM_HASH = "e2f8d792a453ba008fd79cbc204ad1abde04d021038631f89a07ac5357d860968860034b3902e4f0da0036e5c18a384181acaa2fe22405d091754db82e638356"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-italian-ascii.ldf \

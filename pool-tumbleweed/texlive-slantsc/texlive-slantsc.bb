@@ -5,10 +5,10 @@ provide appropriate font shapes. (Note that a separate .fd file \
 is needed to define font shapes such as 'scsl' or 'scit'.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.11svn25007"
+PV = "2026.226.2.11svn77682"
 
-RPM_NAME = "texlive-slantsc-2023.209.2.11svn25007-58.1.noarch.rpm"
-RPM_HASH = "88864dd40333358a874018e03544836657f1bac2721bab03322ee51872ce8d1e82e9821af67ac50fdf647fe88207764b963c6d61bc229f484d7cfb191c1791da"
+RPM_NAME = "texlive-slantsc-2026.226.2.11svn77682-64.2.noarch.rpm"
+RPM_HASH = "1a3f6d34a77d6eec7241d2ff373dca0582748f20d09f80fb2dceac572127663a91d7aac085869d8c782cb295878a4ce042b0cd6ce2e15ba9f8665c28c9b3028e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-slantsc.sty \

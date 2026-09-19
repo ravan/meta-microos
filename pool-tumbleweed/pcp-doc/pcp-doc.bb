@@ -10,10 +10,10 @@ and other detailed documentation about the internals of core \
 PCP utilities and daemons, and the PCP graphical tools."
 LICENSE = "GPL-2.0+ & CC-BY-SA-3.0"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-doc-5.2.5-3.8.noarch.rpm"
-RPM_HASH = "6dd7e9f324032af7af8402d33f7633ca883a5a566653ec54de7a47ff338628eef0b0943851ed00f0183fd4d387178cb79982ddb501dd4e5f09836959e6f17e31"
+RPM_NAME = "pcp-doc-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "0a948baac7964c4d5f8edb83aab7e8abb5d82041fb9370cd4b2e9e06b00b010a5f82f840a6aa0a871c2502e4fa0bb5b378c792425833ae4ec7741a85076aff3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-doc"

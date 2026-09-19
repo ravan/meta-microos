@@ -6,10 +6,10 @@ C++ module support. \
 This package contains the Tcl extension to ZNC."
 LICENSE = "Apache-2.0"
 
-PV = "1.8.2"
+PV = "1.10.3"
 
-RPM_NAME = "znc-tcl-1.8.2-3.8.aarch64.rpm"
-RPM_HASH = "bb9d39050f89cc474c4c6a13a87cd61259ba902c56c0608e6724eb2b9f5828bd99b959277b8d1bec6cc917bfaa16fa411377e1bd5e60f8db354afe5afad35f77"
+RPM_NAME = "znc-tcl-1.10.3-1.1.aarch64.rpm"
+RPM_HASH = "02e15680bbe25f6de25bb1fb6cf1f1bb23f498b3e836b5c94433a3bedb14a77522e4036435923cadfbefef9d1ccad5336cd7108d8e8d7420cdc1a485a33cd1b7"
 
 RPROVIDES:${PN} += "znc-tcl"
 

@@ -5,15 +5,15 @@ allows the specification of commands in a 'natural' style; the \
 script then generates macros to define the command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn18704"
+PV = "2026.226.2.0svn18704"
 
-RPM_NAME = "texlive-newcommand-2023.209.2.0svn18704-55.1.noarch.rpm"
-RPM_HASH = "5cb290d9aed36ed348a7ec1823f7e8d73b7709da892223a21fb4ba772a1cbd5ff2fef520777576da1e10d86e0edf0540f049a3dddfdced19ca0360b7658413b7"
+RPM_NAME = "texlive-newcommand-2026.226.2.0svn18704-61.2.noarch.rpm"
+RPM_HASH = "bd4184c1a95b7eb19d1ab64a7f64f18e9a3bf972e01efe08b059ef04702b50c908bb37fee58c882e71f1170afbe234cadf98ad42204794022a8f1cb40b218f88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newcommand"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ed \

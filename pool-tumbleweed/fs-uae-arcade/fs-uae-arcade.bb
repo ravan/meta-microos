@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.63"
 
-RPM_NAME = "fs-uae-arcade-3.1.63-1.10.noarch.rpm"
-RPM_HASH = "8d195defed3914143919df992ce104d415c61095514221a93f27836ec7c175eb38abce7a04019ab987730e5ca8793c378ea06e92749be1950b90e686c4497179"
+RPM_NAME = "fs-uae-arcade-3.1.63-1.22.noarch.rpm"
+RPM_HASH = "96eb7309fb7bb55a20ce72523418d1c735343917aee4c8b543b6ce32f616d2295f0add3b733fd9f899828824f2ed071b332bc219af45004f4ea059bdd4de23b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fs-uae-arcade"

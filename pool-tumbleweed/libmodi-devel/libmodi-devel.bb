@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libmodi."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221023"
+PV = "20260902"
 
-RPM_NAME = "libmodi-devel-20221023-4.1.aarch64.rpm"
-RPM_HASH = "9d1ab11361d1ff20e850f0e7db5663dbf408238b6163258136fffc4a1df7f2088aa72e5b06e8d8a696dd661b424cb243a6fa11efe679b1f589dc0ae3bd182825"
+RPM_NAME = "libmodi-devel-20260902-1.1.aarch64.rpm"
+RPM_HASH = "ff412d449a54047311bc8de353d9e108fa6b57f2ece84e224af887de68327dca9c7fffab7dc3df4d12af6c57b253a5c8603d2a899a8feca16ae6029f6d97b7ec"
 
 RPROVIDES:${PN} += "libmodi-devel \
 pkgconfig-libmodi"

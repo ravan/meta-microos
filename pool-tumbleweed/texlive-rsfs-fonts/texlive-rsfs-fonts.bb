@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-rsfs"
 DESCRIPTION = "The  separated fonts package for texlive-rsfs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-rsfs-fonts-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "d7ea59848a5d2a57df255b9b64637babe373b3d3c1d4e0904a58a8b4caa679d19c51df8d56876ec350fcb92041a95c52096a2cc7da080856078ebaaea4bde4b3"
+RPM_NAME = "texlive-rsfs-fonts-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "e14026e8cd8149a4306058b94d37fd250fc4d9f78ece6678ecb1dfb9a13bc3c2fd8db7f646885413ea48d4dff61ec832c5053e9d094db7a9441538706cca2e89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-rsfs10 \

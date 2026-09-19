@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-systemload-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-systemload-plugin' package."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.3.2"
+PV = "1.4.0"
 
-RPM_NAME = "xfce4-systemload-plugin-lang-1.3.2-1.3.noarch.rpm"
-RPM_HASH = "7d0d4fb10a3b3e195323a5fb0d1cba277b9070b669f7d16f145e97bc5b45fb40cbd9d32b6c0b4242e6c7dca510c44ae952ac171b701e131c431c93aa10be0bf3"
+RPM_NAME = "xfce4-systemload-plugin-lang-1.4.0-1.5.noarch.rpm"
+RPM_HASH = "b413dc2239efe839207a96577b12054b94ba5a815d606e265ad34857bcacdc98471405b1b472fdd136139c04c69fbbf676f7d50eaf68696bd7acb6950a724a3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-systemload-plugin-ar \
@@ -42,6 +42,7 @@ locale-xfce4-systemload-plugin-oc \
 locale-xfce4-systemload-plugin-pl \
 locale-xfce4-systemload-plugin-pt \
 locale-xfce4-systemload-plugin-pt-BR \
+locale-xfce4-systemload-plugin-ro \
 locale-xfce4-systemload-plugin-ru \
 locale-xfce4-systemload-plugin-sk \
 locale-xfce4-systemload-plugin-sl \

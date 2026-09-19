@@ -2,10 +2,10 @@ SUMMARY = "Binary files of texdiff"
 DESCRIPTION = "Binary files of texdiff"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn15506"
+PV = "2026.20260301.svn15506"
 
-RPM_NAME = "texlive-texdiff-bin-2023.20230311.svn15506-93.2.aarch64.rpm"
-RPM_HASH = "bdc1f5d40b3989f8bb32a5ef8cac5e0e14935867a4dce5f6e47d43b01e9bcaaa9f288c284b29a14a4246f425d6501f710f499445f2266cd2047dbb5abc82fdb2"
+RPM_NAME = "texlive-texdiff-bin-2026.20260301.svn15506-120.4.aarch64.rpm"
+RPM_HASH = "dd096f049f2b1b823538c3549d6a6fbdc928464b51d1d24bb9cdc6e4bc9ba61d4f34eb5c8c7979cd98a71e4a0894be660e874bab09fecf59a758e3397d214ded"
 
 RPROVIDES:${PN} += "texlive-texdiff-bin"
 

@@ -18,16 +18,18 @@ BSD License. Yes, that's right, completely free of cost or \
 restrictions!"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.7.2"
+PV = "2.7.4"
 
-RPM_NAME = "hsqldb-2.7.2-1.1.noarch.rpm"
-RPM_HASH = "1dd0f13c212d840df62530c81b5d1c464adaf8b0cdd31878f83512e973d4cd42d9e4469d56a461080861c8e7516ccd08f764fc8460efe77138319f285563a656"
+RPM_NAME = "hsqldb-2.7.4-1.7.noarch.rpm"
+RPM_HASH = "0e43745b1513781ed92e4b7ac8fc8615585f21e4bda77477057267f7eb8e7a4917afd4de72fc43b65d6b467ff4dc39af7667199457803317ab25de7a2f463752"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-hsqldb \
+group-hsqldb \
 hsqldb \
 mvn-org.hsqldb-hsqldb \
-mvn-org.hsqldb-hsqldb-pom-"
+mvn-org.hsqldb-hsqldb-pom- \
+user-hsqldb"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 java \

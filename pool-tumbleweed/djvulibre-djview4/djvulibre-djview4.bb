@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.12"
 
-RPM_NAME = "djvulibre-djview4-4.12-2.7.aarch64.rpm"
-RPM_HASH = "f21afd66b63623429187b0fd7ecd7f6089fbaad6800e83d18fe434375d14dd6b68779e4b6f7a6dec9d4b90a2afd6f0fa93f36e731b26dd5fe98bd3f2c735eca8"
+RPM_NAME = "djvulibre-djview4-4.12-2.17.aarch64.rpm"
+RPM_HASH = "04caef3dc44c9fac7ef2ae243df23084fda5c218d5abb7f699248b0e592ba5a8ded04eec9a9590f0fb2b39c9249d7a8cce8c9ccfb1bc0e3f553438d3d4df32bc"
 
 RPROVIDES:${PN} += "djvulibre-djview4"
 

@@ -40,10 +40,10 @@ mmpfb        creates a normal, single-master font program that looks \
              the multiple-master font program in PFA or PFB format."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.108"
+PV = "2.110"
 
-RPM_NAME = "lcdf-typetools-2.108-1.11.aarch64.rpm"
-RPM_HASH = "0cb03cc4a4ae2582e3a807d8229ecb5c60ca50d2ee6f6068a85ffacd0ef794c61aff039c7057dcf697c52a8ffa1d60a5a0c5b6dfd4c6489d36edde26e3cd7ebe"
+RPM_NAME = "lcdf-typetools-2.110-1.12.aarch64.rpm"
+RPM_HASH = "06820ea439a84d4b5560e53488bf1be7313d285113320dc61455b56bbe26ac221eeebde1336ac4b685eb84b4487390af1f9dfffde7f47df6817bc353a9fce9c9"
 
 RPROVIDES:${PN} += "lcdf-typetools"
 

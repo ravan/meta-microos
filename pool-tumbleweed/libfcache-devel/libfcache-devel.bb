@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfcache."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230115"
+PV = "20260520"
 
-RPM_NAME = "libfcache-devel-20230115-1.3.aarch64.rpm"
-RPM_HASH = "dac4dd6923b5554f14369fc22b2af8b1c4c5c4a21dae4912e2711f97382a90151149277e86d463bee5af0e2e6389f194d5600cde38403320262df74d25ed919b"
+RPM_NAME = "libfcache-devel-20260520-1.6.aarch64.rpm"
+RPM_HASH = "cfa71bb6a84bb1818439b6e58eb372c9cd872eb9da0328c6b50b015a097b2bcae3ef0a06dd865b8a6142bc380c36df1190921e75a9adc04279303464a0596450"
 
 RPROVIDES:${PN} += "libfcache-devel \
 pkgconfig-libfcache"

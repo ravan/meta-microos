@@ -3,10 +3,10 @@ DESCRIPTION = "This is a PSTricks package which allows to place text over \
 objects without obscuring background colors."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn44724"
+PV = "2026.226.1.0svn44724"
 
-RPM_NAME = "texlive-pst-rputover-2023.209.1.0svn44724-54.2.noarch.rpm"
-RPM_HASH = "3582f668e6fc9a5bd1cccb12abf6a1ffb717fa8df713f728f7ce3d62205ef9e752fbcfdc0c66c59faf74d455a78d2643f6f9aef23fc689c1b39d14d7240fd0b2"
+RPM_NAME = "texlive-pst-rputover-2026.226.1.0svn44724-60.4.noarch.rpm"
+RPM_HASH = "82ba7964a7bd39e36414e4749b8e0e17c049eed884c21c47adef8330f0737a8fd3c589380f6a89d9425a4cabce0bd2e4ec598489483a50f148c70c30bed02360"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-rputover.sty \

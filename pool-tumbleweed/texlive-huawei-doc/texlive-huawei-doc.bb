@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-huawei"
 DESCRIPTION = "This package includes the documentation for texlive-huawei"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.15.0svn65264"
+PV = "2026.226.0.0.19.1svn73148"
 
-RPM_NAME = "texlive-huawei-doc-2023.209.0.0.15.0svn65264-54.1.noarch.rpm"
-RPM_HASH = "87dc46acbffb28d822f3bf75c7528fbb0831eca3535d75b575105e8c8508519195e9fe8831fe09cbf2d6c8443ea2581b08c542c4f2b25d36b00e4f77779b17dd"
+RPM_NAME = "texlive-huawei-doc-2026.226.0.0.19.1svn73148-60.2.noarch.rpm"
+RPM_HASH = "e6c0b6066d8ed8ba52d60c0733fb86117f55a471f9905659a74dbb07327b8598a90722914b7306be7c2aa642a258320a213831692235a8dd32c738bfda977148"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-huawei-doc"

@@ -5,10 +5,10 @@ document. Solutions are ones created by either the exerquiz or \
 eqexam package. All PDF creators are supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn49651"
+PV = "2026.226.0.0.6svn49651"
 
-RPM_NAME = "texlive-mi-solns-2023.209.0.0.6svn49651-55.1.noarch.rpm"
-RPM_HASH = "4c7420945c0b93386e72da6aa9ab62a2014ba85b3c90770cb358bfee8a4c913ef010441f26fed0c3eadccad5eb373ba8e197a17039f39407023514c8859876da"
+RPM_NAME = "texlive-mi-solns-2026.226.0.0.6svn49651-61.2.noarch.rpm"
+RPM_HASH = "928adb5920ecf86af3bc823e693ba94baec18bb557964e42b1fd0ccc454fa7f01d0815c6e6b754e4f23a402f38116751dbc45f27902c11116dd325869a4472fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mi-solns.sty \

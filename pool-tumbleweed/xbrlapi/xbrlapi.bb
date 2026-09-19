@@ -2,10 +2,10 @@ SUMMARY = "X BrlAPI helper"
 DESCRIPTION = "The xbrlapi utility is a helper to have BrlAPI work on a X system."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.6"
+PV = "6.9.1"
 
-RPM_NAME = "xbrlapi-6.6-1.1.aarch64.rpm"
-RPM_HASH = "e3813dc4d0a002a42adfd39639250a2072edec052cfef86c4a9a1fb6ab25480207c8c6ae2913b670c607ca6d5a49f124638d57349f086e04214da0c16714c8eb"
+RPM_NAME = "xbrlapi-6.9.1-2.1.aarch64.rpm"
+RPM_HASH = "1936fdcc4e685e9263ad35dbf0ba88429244dcf81c5709b093795d59ab6ee6c6a6557b58d32bcdf88b6bdd6bf8ee4e788c7f9828456b72540a937a0b7cf2d2bd"
 
 RPROVIDES:${PN} += "xbrlapi"
 
@@ -16,6 +16,6 @@ libXfixes.so.3 \
 libXtst.so.6 \
 libbrlapi.so.0.8 \
 libc.so.6 \
-libicuuc.so.73"
+libicuuc.so.78"
 
 inherit rpm

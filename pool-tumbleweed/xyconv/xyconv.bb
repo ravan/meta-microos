@@ -24,8 +24,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "xyconv-1.6-1.16.aarch64.rpm"
-RPM_HASH = "d07b4ce6aa34f264c587383ab775e1bd31ed4fff5e806b9afc0a7912e47b3758a388099a0815d36db9754f276e52152f479d19c325e2a371a21fb8e16a0a0bdf"
+RPM_NAME = "xyconv-1.6-1.30.aarch64.rpm"
+RPM_HASH = "73077cc4c6f73fdad8679a1161ee1c5eaeb43b3aa8384a1aba4e78ac8798c5bac5e4d182544f95f2a8ad2284cdea1788c3aea1921efa9c58290ca9e25f3e507c"
 
 RPROVIDES:${PN} += "xyconv"
 

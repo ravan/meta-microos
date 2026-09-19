@@ -7,10 +7,10 @@ editor is described and some tips for the installation of new \
 fonts are given."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn56878"
+PV = "2026.226.1.0svn56878"
 
-RPM_NAME = "texlive-amiweb2c-guide-2023.209.1.0svn56878-55.1.noarch.rpm"
-RPM_HASH = "f495d8a264198bcd9569972115ae56ce503c467c411840ca763283b8d88c60f01545b360ae4303679402a1006d0cf866dd4838aefdd0d1e208f2acfcc0e8df32"
+RPM_NAME = "texlive-amiweb2c-guide-2026.226.1.0svn56878-61.2.noarch.rpm"
+RPM_HASH = "5021f4038d25f65d26d44a6ea0a3d42d812650b5284a7fd9a02182968b9c51329e758815f490b87cb11d72b494eef0209d02f50ca6fbcd36cc78bf1c8055f2e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amiweb2c-guide"

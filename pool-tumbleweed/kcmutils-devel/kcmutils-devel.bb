@@ -3,17 +3,16 @@ DESCRIPTION = "KCMUtils provides various classes to work with KCModules. KCModul
 created with the KConfigWidgets framework. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kcmutils-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "5f47b06f83b6f89097f0c57986d5a5de30cfd63eb4db18dbcb1279d6a9fc313748f703deeb665663473ee3794029524f7cb0287bd116e271dd905101cde64ff1"
+RPM_NAME = "kcmutils-devel-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "3648462c2e9a758f4fc72dfd70a49a3bdb625ccd1eb75982f4ef630b1a54db13c59b22e4144a3a61fe3d0f52aaacf3c03c0128301d5d8aba8e81363991e10206"
 
 RPROVIDES:${PN} += "cmake-KF5KCMUtils \
 kcmutils-devel"
 
 RDEPENDS:${PN} += "cmake-KF5ConfigWidgets \
 cmake-KF5Service \
-extra-cmake-modules \
 libKF5KCMUtils5 \
 libKF5KCMUtilsCore5"
 

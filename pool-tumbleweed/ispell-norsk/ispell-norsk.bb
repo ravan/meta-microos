@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5"
 
-RPM_NAME = "ispell-norsk-1.5-422.6.aarch64.rpm"
-RPM_HASH = "e475b96f5b90796e73d35d14f98b32bf4e1086ef7c05d085a2676a6028c622acee12634357d3d9831dbb11ad2993d73594e95cfff7faf490edf2a14ce87a29bc"
+RPM_NAME = "ispell-norsk-1.5-426.1.aarch64.rpm"
+RPM_HASH = "c39074fd4f9795341e7bade3c75f93e52eecfbeca1bc13f18dbbd694eef23c27f1fcee23fea4c6bdefb2e3d7e2e90a779ce99814f26867d92a8ca0ad547597e5"
 
 RPROVIDES:${PN} += "inorsk \
 ispell-dictionary \

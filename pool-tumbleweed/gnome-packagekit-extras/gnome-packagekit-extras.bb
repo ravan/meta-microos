@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "gnome-packagekit-extras-43.0-1.3.aarch64.rpm"
-RPM_HASH = "f97017eb7f1e3cacf04f52c87604ec4f46907229d700c0bde55c97431692b7afaac0607fcd53a0c220176cb18dfccd0d6f7155d9a6bc7ff95fa46368353410f5"
+RPM_NAME = "gnome-packagekit-extras-43.0-2.5.aarch64.rpm"
+RPM_HASH = "249bf1ae95a2f3f49027675cde6dc0446b55a97d6a0d33589760be6ddb9ab25876ffc5120e8548f0fd3d797f5d1d88bb4b1487a31bf5fd71a7783d41348671f4"
 
 RPROVIDES:${PN} += "gnome-packagekit-extras"
 

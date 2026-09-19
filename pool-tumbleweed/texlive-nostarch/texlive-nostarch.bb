@@ -5,10 +5,10 @@ hyperref and an index style file. The style serves both for \
 printed and for electronic books."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn15878"
+PV = "2026.226.2.4svn67683"
 
-RPM_NAME = "texlive-nostarch-2023.209.1.3svn15878-55.1.noarch.rpm"
-RPM_HASH = "9ab3fd9c7215a39465868d52943f2fc1e10b098873adee17cd8dc386022897cd447bf98ea515c95a2af66a84bb028e6bc71005e4d31e898ccece6c7f8e260b41"
+RPM_NAME = "texlive-nostarch-2026.226.2.4svn67683-61.2.noarch.rpm"
+RPM_HASH = "d7589af0c00d4131ec71584b8de95b71cfbacf00e2063ab659d9351cb7748b8ed5a24648bf2b4c129f9483dd85ce65f3f3046f8b50f8f1e9f4774f3e77916ae4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nostarch.cls \
@@ -22,7 +22,12 @@ findutils \
 grep \
 sed \
 tex-book.cls \
+tex-fontenc.sty \
+tex-fontspec.sty \
+tex-mdframed.sty \
 tex-ragged2e.sty \
+tex-soul.sty \
+tex-xcolor.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

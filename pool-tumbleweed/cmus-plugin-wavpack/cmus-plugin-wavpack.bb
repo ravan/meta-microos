@@ -2,10 +2,10 @@ SUMMARY = "WavPack input plugin for the C* Music Player"
 DESCRIPTION = "This package provides WavPack input support for the C* Music Player."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "cmus-plugin-wavpack-2.10.0-2.1.aarch64.rpm"
-RPM_HASH = "7df9b80f5654be24502c119f8534c8b3108c11de43ce8af59e66cacbc8b89e7f02e2e5f29555894edce724e98bffef4918f78b55195d7cc3fa1c010dc5d8b6d5"
+RPM_NAME = "cmus-plugin-wavpack-2.12.0-3.6.aarch64.rpm"
+RPM_HASH = "e7caa50b5cced0e9ad0b8c083cc3b1bd93d5add240c54522d9608e075c082e4c4bf1a7bf772a55305b7711125e2dc1771d3b7d5c75ae0f1c6764ac45ba06a078"
 
 RPROVIDES:${PN} += "cmus-plugin-wavpack"
 

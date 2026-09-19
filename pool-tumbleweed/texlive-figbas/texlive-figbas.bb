@@ -6,10 +6,10 @@ are usable with Computer Modern Roman and Sans, and \
 Palatino/Palladio, respectively."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.3svn28943"
+PV = "2026.226.1.0.3svn28943"
 
-RPM_NAME = "texlive-figbas-2023.209.1.0.3svn28943-53.1.noarch.rpm"
-RPM_HASH = "191a6f2645e0c3406c2f8fa04ecfa1a28994383402483bf6133c4e564cded2e601fb527e1b31f2a30bb3d0768fe18984dbf362acd9fbe97dcb53c096b496d108"
+RPM_NAME = "texlive-figbas-2026.226.1.0.3svn28943-59.2.noarch.rpm"
+RPM_HASH = "544c03a74d5b8822c3409188a2b22a61c5177fd0e9cfc80e477a546e0c204bbe4a1fb0a6f2ddbd9ece9b9bfca8edc60a667038af8e589349e992efc733e3178e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmrj.tfm \

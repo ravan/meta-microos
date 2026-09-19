@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "1.2"
 
-RPM_NAME = "blogbench-1.2-1.1.aarch64.rpm"
-RPM_HASH = "9105e24548ca1c4012bf252986077dda605918b2cf9d901624406c9a6f0c7e254820bc1ebefe0db02892b83550c06162e28744b0fa5df8e39b715c72c9235c7a"
+RPM_NAME = "blogbench-1.2-2.3.aarch64.rpm"
+RPM_HASH = "89fc6facf4f68cc8caee5cd2ce9f46e745ea59f77fedff40b2d2504767cc1adc9361d02772e50e3915d59a6ac7c1573fee3a044960a11cabe7dfaad400470ca6"
 
 RPROVIDES:${PN} += "blogbench"
 

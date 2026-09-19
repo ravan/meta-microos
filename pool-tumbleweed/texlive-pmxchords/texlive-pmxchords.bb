@@ -6,10 +6,10 @@ to the required key signature; and support scripts for common \
 requirements."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.0.2svn39249"
+PV = "2026.226.2.0.2svn73868"
 
-RPM_NAME = "texlive-pmxchords-2023.209.2.0.2svn39249-53.1.noarch.rpm"
-RPM_HASH = "8294f514958e8dcb3b9b7c4206671d19919f437801c7b1dc73f81261cca45ad31061d16df85b7c5d928bf10bb1e1c8fa9f4bdd1860ba6273a1ca2cc421f6c74a"
+RPM_NAME = "texlive-pmxchords-2026.226.2.0.2svn73868-59.2.noarch.rpm"
+RPM_HASH = "d3b432eb80cdd516ea8e974ef5a94ef149067cca61e27bfa1a2c06ebfd852aa0260da0392482dc181a773735d73d964bbccae52583295e700e76428c949a6d07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chords.tex \

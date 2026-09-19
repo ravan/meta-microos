@@ -5,10 +5,10 @@ setting), GBM (graphics buffer manager) and EGL for rendering content using \
 OpenGL or OpenGL ES."
 LICENSE = "MIT"
 
-PV = "0.0.0.git1612698153.9f63f35"
+PV = "0.0.0.git20230926.96d63eb"
 
-RPM_NAME = "kmscube-0.0.0.git1612698153.9f63f35-1.8.aarch64.rpm"
-RPM_HASH = "2bd63f4242252a2bd14015162a4520b359814f3b0faeb5f6d91e913686d292995e45bf54fbd8e7351a0bb43bfea4f25016167f31bfbd79b07d9fafef0c74e97b"
+RPM_NAME = "kmscube-0.0.0.git20230926.96d63eb-1.12.aarch64.rpm"
+RPM_HASH = "b56c3a30bf5419d057540d3f213cd392ddd17c995b491b2fc98497fdfacffee2fee9e09cf9aa47b85c4c6f9831bb9c00e2a5b12a91e2f23c117ab3525e60d817"
 
 RPROVIDES:${PN} += "kmscube"
 

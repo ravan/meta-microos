@@ -4,29 +4,29 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.11.2"
 
-RPM_NAME = "ghc-yaml-prof-0.11.11.2-1.5.aarch64.rpm"
-RPM_HASH = "638295b67503fd170848482f71e8deae23e7b5b31f23c1fb2552905b7b4752eb8036114863e2b1bf6f137943d96c5f0e51e82b9b70dbca2648fc7b2e4b0c25c1"
+RPM_NAME = "ghc-yaml-prof-0.11.11.2-3.23.aarch64.rpm"
+RPM_HASH = "278aa92728ca2e383bb456b8403a36ff78a02464929c6d379fd1a0bb7de7381bfbc643f06d5c0c705d6728f50be3190acd8708a741dea595ddd95acdc1cded1c"
 
-RPROVIDES:${PN} += "ghc-prof-yaml-0.11.11.2-A2RJT0EorR9GrZjUq6QELM \
+RPROVIDES:${PN} += "ghc-prof-yaml-0.11.11.2-DNw228htw8L33w1OC1EWSt \
 ghc-yaml-prof"
 
-RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-prof-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
-ghc-prof-containers-0.6.7 \
-ghc-prof-directory-1.3.7.1 \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-libyaml-0.1.2-EDd2y61D5c93Khh6u4Ilj1 \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-prof-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
-ghc-prof-template-haskell-2.19.0.0 \
-ghc-prof-text-2.0.2 \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
+RDEPENDS:${PN} += "ghc-prof-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-prof-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7 \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-conduit-1.3.6.1-DuJaiNNDon54jV6QjcNayt \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-directory-1.3.10.1-b1d7 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-libyaml-0.1.4-E4bvPREJvp6KOHEKYnSP5s \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-resourcet-1.3.0-F8ZRgExkptBLIQxE9m0AZE \
+ghc-prof-scientific-0.3.8.1-EfN6leGWc5k1t5YPK2dkVk \
+ghc-prof-template-haskell-2.23.0.0-358a \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-prof-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
 ghc-yaml-devel"
 
 inherit rpm

@@ -6,10 +6,10 @@ that the poster will be printed in the right size. Supported \
 sizes are DIN A0, DIN A1, DIN A2 and DIN A3."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.22bsvn54071"
+PV = "2026.226.1.22bsvn54071"
 
-RPM_NAME = "texlive-a0poster-2023.209.1.22bsvn54071-55.1.noarch.rpm"
-RPM_HASH = "a101f4a3d1cb01e239f573748db13536be7ab7e510821aff48e32767029ae86d361147c2e02596eb0caaf5dc61b40e104943c8ddad5e85f7677c8ce9ad2881bd"
+RPM_NAME = "texlive-a0poster-2026.226.1.22bsvn54071-61.2.noarch.rpm"
+RPM_HASH = "9e9cd2a7b36e752cf3b981f8e9c5e547f063b46dee156c6e808c0d521a53b6768f8e634e4290aecfa1ebdfc1b304c17df086fec507f4557150c4002226f84ade"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-a0poster.cls \

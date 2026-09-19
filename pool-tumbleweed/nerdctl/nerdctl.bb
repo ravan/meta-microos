@@ -2,10 +2,10 @@ SUMMARY = "Docker-compatible CLI for containerd"
 DESCRIPTION = "nerdctl is a Docker-compatible CLI for containerd."
 LICENSE = "Apache-2.0"
 
-PV = "1.5.0"
+PV = "2.3.5"
 
-RPM_NAME = "nerdctl-1.5.0-1.1.aarch64.rpm"
-RPM_HASH = "0dcfe783135617ec3ab064537554127b813aa741e61aeb895aea36c74a068ec2ba30f1b6563c185e1a1b9a585f9a9a6f8e5e349f445c47db8cc8fc4ba4236904"
+RPM_NAME = "nerdctl-2.3.5-1.2.aarch64.rpm"
+RPM_HASH = "c70b8e45b2f703a2e9eb9922c85d480ee62ae944135d30331ba8a368b13e299e33d0b27e6feb6fdd7700f07cdb510c3e37a3b4e7029f6a0dbe3e3dae938e9204"
 
 RPROVIDES:${PN} += "nerdctl"
 

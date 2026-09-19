@@ -28,24 +28,29 @@ support these actions: \
 Writing additional plugins for beets is possible using Python."
 LICENSE = "MIT"
 
-PV = "1.6.0"
+PV = "2.13.1"
 
-RPM_NAME = "beets-1.6.0-3.1.noarch.rpm"
-RPM_HASH = "7cd47134b3ab9b172f9ded8069fa5fe50de15927dc932aadad137efb62edd1ae840c9a6ce7c9c2ce87ec4a036abaa7b0e13947d8d3214e5cb830a4b0a1fbffe0"
+RPM_NAME = "beets-2.13.1-1.1.noarch.rpm"
+RPM_HASH = "831f54d897024dfbcb9f2b71637823f4ec3192b585c7b88724537fa5c07f7ea8f6e04ba14c8b70e245b97820dd5f466e4e29720648974e8f8e8cfa8f98df5ab9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "beets \
-python3.11dist-beets \
+python3.13dist-beets \
 python3dist-beets"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-PyYAML \
 python3-Unidecode \
 python3-confuse \
 python3-jellyfish \
+python3-lap \
 python3-mediafile \
-python3-munkres \
-python3-musicbrainzngs"
+python3-numpy \
+python3-packaging \
+python3-platformdirs \
+python3-requests \
+python3-requests-ratelimiter \
+python3-sqlite3"
 
 inherit rpm

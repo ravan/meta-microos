@@ -6,10 +6,10 @@ the package itself. Users may either load just aobs-tikz or the \
 library; the latter method necessitates TikZ manual load."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn32662"
+PV = "2026.226.1.01svn70952"
 
-RPM_NAME = "texlive-aobs-tikz-2023.209.1.0svn32662-55.1.noarch.rpm"
-RPM_HASH = "1962406443f7a4ba6adde506eb6ac33e9c167c8c0f6a41acf5d75dfc323b983ff629035fad374a021f90d59385f8c8ffec8733f55a135d5925967c8813117118"
+RPM_NAME = "texlive-aobs-tikz-2026.226.1.01svn70952-61.2.noarch.rpm"
+RPM_HASH = "5f71aa68ac32bf59338c801d09edea77c472ea0414328a401b78b5211dff4d93fbb0eb68e920db54a3ca0ba4916104187088573f68d72014190e497b781f2fe2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibraryoverlay-beamer-styles.code.tex \

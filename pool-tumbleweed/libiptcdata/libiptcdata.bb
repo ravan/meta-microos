@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "libiptcdata-1.0.5-1.10.aarch64.rpm"
-RPM_HASH = "d86657ad2ce1f17ed8fc952ed98c3be59a75a1503d1cc787b9f1e18eea52c89e027c091b0ac9e6208cc5f1371a7d05741f0a79be468f78d5ceb7ff5fd688726a"
+RPM_NAME = "libiptcdata-1.0.5-1.20.aarch64.rpm"
+RPM_HASH = "048db58de177a213fc5efbdc89ff89c017441f8be4fb0165237033e6a6d9e606420b16a61319274706a545fb97ea006e9a10ef6f3abbc574f3c7cd4532854d09"
 
 RPROVIDES:${PN} += "libiptcdata"
 

@@ -1,17 +1,19 @@
 SUMMARY = "Development files for libnpupnp"
 DESCRIPTION = "The libnpupnp-devel package contains libraries and header files for \
 developing applications that use libnpupnp."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "BSD-3-Clause"
 
-PV = "5.0.0"
+PV = "6.3.0"
 
-RPM_NAME = "libnpupnp-devel-5.0.0-1.5.aarch64.rpm"
-RPM_HASH = "bfd0b2557b970c5c78d13ccf84ed1b718a944ea3bcf839a8133c58a930c04bb58526efc1ca9914778a614cae3cc589499fbdef50c8059fa771a7fe12934a9c99"
+RPM_NAME = "libnpupnp-devel-6.3.0-1.3.aarch64.rpm"
+RPM_HASH = "fabbf69314b8f850a58d364b4f7cc89f2957236730fc9f71cd7aa5dd9d17cfc1d85169d4e5269c16e42a5f84726d7e0b2725ac94c66f016f065459edc38e8dc1"
 
 RPROVIDES:${PN} += "libnpupnp-devel \
 pkgconfig-libnpupnp"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libnpupnp9"
+libnpupnp13 \
+pkgconfig-libcurl \
+pkgconfig-libmicrohttpd"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "0.2"
 
-RPM_NAME = "gudev-sharp-0.2-21.11.aarch64.rpm"
-RPM_HASH = "b763c834b4d0a0b1fd4369256072f2c354fadf9bc4f227157a888aaebe147db9524540e41e299d7830c1ed8b158559a4e49c99e32bf42e8ee468a5df6a9ebdb8"
+RPM_NAME = "gudev-sharp-0.2-21.18.aarch64.rpm"
+RPM_HASH = "2e35846d3c161eb27f05faad8b389ed77eee1e74f5767d519ee613f2ee9011c534df51ac125e8cc7050d72a573ade9b79e533c34569f43335dee6c3e8b567782"
 
 RPROVIDES:${PN} += "gudev-sharp \
 mono-gudev-sharp"

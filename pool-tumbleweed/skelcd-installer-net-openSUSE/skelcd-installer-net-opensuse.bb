@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains kernel, initrd and installation images \
 needed on the network install medium to start an installation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.91"
+PV = "17.178"
 
-RPM_NAME = "skelcd-installer-net-openSUSE-17.91-1.100.aarch64.rpm"
-RPM_HASH = "06b3c0b76878934a4e05285e7a371f65fdd0af3488b728dcaf79287eb7b8200f98eb82e7ee2b0d3f06d61ae3f1f935fcc54722a018854bab53f2429875dcb198"
+RPM_NAME = "skelcd-installer-net-openSUSE-17.178-1.9.aarch64.rpm"
+RPM_HASH = "1efc13f180dd32c95ce5fb1585779e66313fa1207dec21b47a3b35f05f17e40b9dbe2f8227bb7fa293169a9de225116da969020498acd8caddb1371ea22a62ad"
 
 RPROVIDES:${PN} += "skelcd-installer \
 skelcd-installer-net-openSUSE"

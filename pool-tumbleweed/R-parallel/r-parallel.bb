@@ -2,10 +2,10 @@ SUMMARY = "Package providing R-parallel"
 DESCRIPTION = "This package provides R-parallel, one of R-core packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.1"
+PV = "4.6.1"
 
-RPM_NAME = "R-parallel-4.3.1-46.1.aarch64.rpm"
-RPM_HASH = "4862543b7a6201b76a944f1fbffe2431c8cc4e83b067b76140ae9b5fd67eccbb4c919513bf58815d83aff336de7eb024c223011bb0c8d5897f7305ee37c51ed8"
+RPM_NAME = "R-parallel-4.6.1-58.3.aarch64.rpm"
+RPM_HASH = "6461bd0f761503de4aacf7b9e421927ec8a6d4e09d7aceec95d392821e1527e4e8fe64be2839d28f5c8741fa5e33122ca1594346c7786dcddbc38a065d9493bf"
 
 RPROVIDES:${PN} += "R-parallel"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "In conjunction with the kernel ib_srp driver, srp_daemon allows y
 discover and use SCSI devices via the SCSI RDMA Protocol over InfiniBand."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "47.0"
+PV = "63.0"
 
-RPM_NAME = "srp_daemon-47.0-3.1.aarch64.rpm"
-RPM_HASH = "d9a4dcd54bfeabaf125de383e3b1a9215db96365e41f60a139166d9be733fbb2f526c13e5c5e6d2698d595d80faa11777bdbe812f4a4fd5adc6e6ba007e585c0"
+RPM_NAME = "srp_daemon-63.0-1.3.aarch64.rpm"
+RPM_HASH = "f1583a0bc86c3f35217e511ea43387779c0965ec34a1b840e82eb1f14ab2231b0208763e107a3711c05dcde9718f2740b79ab987aa6a421b2dde7602e5fb64f5"
 
 RPROVIDES:${PN} += "config-srp-daemon \
 srp-daemon \

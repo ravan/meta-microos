@@ -2,10 +2,10 @@ SUMMARY = "Documentation for the Latex2HTML Converter"
 DESCRIPTION = "This subpackage contains the documentation for the Latex2HTML converter."
 LICENSE = "GPL-2.0-or-later & LPPL-1.3c"
 
-PV = "2023.2"
+PV = "2026"
 
-RPM_NAME = "latex2html-doc-2023.2-1.1.noarch.rpm"
-RPM_HASH = "81d952ccf781e079a0945b8be301d3625de7b729dcc71d1517aecb51c67b47fd1dc3a45f3cd93cdb5569403d5c76dd755f6f6b952c40e703354a512c327d299b"
+RPM_NAME = "latex2html-doc-2026-1.3.noarch.rpm"
+RPM_HASH = "330e8d4ca07e482681969fdd876b03609d01f2ccbbcf938d5675218e55647746c672cf2718c5c7648277cbb3eb5a0a45ee7a7cc9f1e45cb6d80d75fb193962b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "latex2html-doc"

@@ -18,8 +18,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "addrwatch-1.0.2-1.13.aarch64.rpm"
-RPM_HASH = "145b1703487ebe37e95b330702746e8c5880e7f8714aaa4d37a292c0d5c10acf3b3c407f9f0311dd06117b3c4ab27c55aa6e16a6438d1c1c351da8183773e03e"
+RPM_NAME = "addrwatch-1.0.2-1.23.aarch64.rpm"
+RPM_HASH = "ae33d5469631cb8f7171384b36bdcd291eb6d5a4e814fc289e6d349a175ac668e1c74922df06c9c0dd8ef1d96199b4a0f66a45bcbb07ed87f0df6a3f4d3ead30"
 
 RPROVIDES:${PN} += "addrwatch"
 

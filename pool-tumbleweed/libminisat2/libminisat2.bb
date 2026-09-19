@@ -6,10 +6,10 @@ over boolean variables, and variable elimination style \
 simplification."
 LICENSE = "MIT"
 
-PV = "2.2.1+20200902"
+PV = "2.2.1+20230206"
 
-RPM_NAME = "libminisat2-2.2.1+20200902-3.5.aarch64.rpm"
-RPM_HASH = "a469ef020d81ba9a29272708a67932be04d79258a688a92055663d40cf68bee255798e09d6f04c70796a5b059292a0de4ac07ea1212b587cbff65a028b860695"
+RPM_NAME = "libminisat2-2.2.1+20230206-1.5.aarch64.rpm"
+RPM_HASH = "c9f95ecaebd97e00455579ba9255033c14cd33b73ad70f5c615a20613c7f6688602874fdae0864fd3116524c55ad9cd21d7468b5fbd534dfc326b84f974fca38"
 
 RPROVIDES:${PN} += "libminisat.so.2 \
 libminisat2"

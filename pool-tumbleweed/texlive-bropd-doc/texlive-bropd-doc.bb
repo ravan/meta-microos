@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bropd"
 DESCRIPTION = "This package includes the documentation for texlive-bropd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn35383"
+PV = "2026.226.1.2svn35383"
 
-RPM_NAME = "texlive-bropd-doc-2023.209.1.2svn35383-53.1.noarch.rpm"
-RPM_HASH = "6089a2fbe9cc643379b6cf6f1d01df3d4a719ed62fb44b26226d799433dd8a0be8ef946e1b6b8d25067a9e60578fcaf5d52146d32c47da3cb4d6d0e11dcb28b2"
+RPM_NAME = "texlive-bropd-doc-2026.226.1.2svn35383-59.2.noarch.rpm"
+RPM_HASH = "b5721e081c0230b20fad1e21baa509b52e7c6b75bf8d23318775c49db459772269dfc1550a857479c43a59ad6ca2967ced78233a2a156de27b3042fb3af4b173"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bropd-doc"

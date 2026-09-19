@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.7"
 
-RPM_NAME = "libopenraw-devel-0.3.7-1.1.aarch64.rpm"
-RPM_HASH = "5a8ac7a2d970ca6b139cda7c06fa92033c25734df4d091ec36b58eb0b5aeb4bb3af6cff776fd00a4756e18cf0e5ad6f53729377eee63d722e3e7efed9b4170d2"
+RPM_NAME = "libopenraw-devel-0.3.7-1.14.aarch64.rpm"
+RPM_HASH = "c26b291058ac989b4e01af59f5b4890368404ff8a59684772b07dbebb2f15b2c74d5034358c028488161e3dae237f9771520891715ff2c7fd6479a8ec0823e7e"
 
 RPROVIDES:${PN} += "libopenraw-devel \
 pkgconfig-libopenraw-0.3 \

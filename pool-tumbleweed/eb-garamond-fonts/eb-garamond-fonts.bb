@@ -12,8 +12,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.016"
 
-RPM_NAME = "eb-garamond-fonts-0.016-1.16.noarch.rpm"
-RPM_HASH = "b9b71f23e6466e8bed4f6cb92218d2c17630ec131c3158f084fe1fd28585f59df4aae63abc27512f7b270c7ab2ab17feccb0dfbdde35bd3d60b62c60ba1e1008"
+RPM_NAME = "eb-garamond-fonts-0.016-1.24.noarch.rpm"
+RPM_HASH = "936f2fba9d69c43074dc14c90f0099d5819bf5f845a517c2a50950d2a0836e7f3f434acf14a3ff9bab4c43ae5f750a11431e1d66e29b3ca9631feda89743f5f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eb-garamond \

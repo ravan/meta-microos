@@ -5,10 +5,10 @@ referenced. The vertical ruler can be scaled and moved freely. \
 The package may be used either with LaTeX or with plain TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn21598"
+PV = "2026.226.2.3svn78101"
 
-RPM_NAME = "texlive-vruler-2023.209.2.3svn21598-54.1.noarch.rpm"
-RPM_HASH = "5f32f96791487805c6dfc00aea119f316092b86daf398463399cff9975957f7d7b93013e80a6dcbeb61af6ac54aa96cd6a163fef794b43f0c26d640d5de3508e"
+RPM_NAME = "texlive-vruler-2026.226.2.3svn78101-60.2.noarch.rpm"
+RPM_HASH = "7445df6b5166a47560eb6fce8ab874f684a1748f3274196b9f144e9b9ad20032b3e3a9b63d4ffbd247b4c584bb5cea6d10d7be82c07d8779f186f8d2f0b92150"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-vruler.sty \

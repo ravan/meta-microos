@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-catcodes"
 DESCRIPTION = "This package includes the documentation for texlive-catcodes"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.r0.2svn38859"
+PV = "2026.226.r0.2svn38859"
 
-RPM_NAME = "texlive-catcodes-doc-2023.209.r0.2svn38859-53.1.noarch.rpm"
-RPM_HASH = "ba5c0eb9e7444e7138620ae2b56108a4552d294a87739475b97196968d02d69f6ec3a4e5a728cb0b116803fde4b0f1b3457937702cba40651aed65865d065349"
+RPM_NAME = "texlive-catcodes-doc-2026.226.r0.2svn38859-59.2.noarch.rpm"
+RPM_HASH = "0f40d2a97589bdb653971755333833f02bbcf73a4964b6c06e472dc08e1013fc99dd398455a05da25dfcd84a8b7e3f66c664eaca83d8c9cccc68ad0c0a95ae17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-catcodes-doc"

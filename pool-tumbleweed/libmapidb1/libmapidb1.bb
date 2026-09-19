@@ -4,10 +4,10 @@ DESCRIPTION = "A library for accessing the Exchange MAPI database format \
 libmapidb is part of the libyal library collection"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210421"
+PV = "20240420"
 
-RPM_NAME = "libmapidb1-20210421-2.4.aarch64.rpm"
-RPM_HASH = "012d6040a9909e32ca7c5f7a0c2c77c5006cb1bdabaf697e44792245eb6de1247be43c219242f537894d396401c292b3fb99f8f1425c714ca7d8ad6da5aed4e3"
+RPM_NAME = "libmapidb1-20240420-1.13.aarch64.rpm"
+RPM_HASH = "2627b73339a4622d79cd5b18c002104c3912f3a44c7c857fc4059247fa1c436ffe107207c206aa1097081c6f75a6d77f35a7c47bff0290832a6459c6b744e96b"
 
 RPROVIDES:${PN} += "libmapidb.so.1 \
 libmapidb1"

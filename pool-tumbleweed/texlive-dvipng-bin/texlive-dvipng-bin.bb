@@ -2,10 +2,10 @@ SUMMARY = "Binary files of dvipng"
 DESCRIPTION = "Binary files of dvipng"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77966"
 
-RPM_NAME = "texlive-dvipng-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "6550abf06c20d19360f4e4c014d034cf08b01a377ba74504a4f71feeefae2b45a6096d030bede48bbcc1e8cc2796d129633e9f382ba0f431b68f64a108724cb6"
+RPM_NAME = "texlive-dvipng-bin-2026.20260301.svn77966-120.4.aarch64.rpm"
+RPM_HASH = "a1c5b34cc455157be03ed570cc0431d6983dab7bfcb65892b5d23406015a554a42e182e61982850f808e556d2c3f9ac710debb191bbd0474736ebdf36994734f"
 
 RPROVIDES:${PN} += "texlive-dvipng-bin"
 

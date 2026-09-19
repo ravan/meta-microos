@@ -7,12 +7,13 @@ contains extensions that were not, or are not yet, accepted in the \
 main kernel/iptables packages."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "3.25"
+PV = "3.31"
 
-RPM_NAME = "xtables-addons-3.25-1.2.aarch64.rpm"
-RPM_HASH = "87c15eaf2e730de5be161aa95760273bb65c67b621bc752e98c430e033c36f87154f856e8f29ab31a95b075af349a1a77ea97d01713bfcc31e51064e6c667aad"
+RPM_NAME = "xtables-addons-3.31-1.4.aarch64.rpm"
+RPM_HASH = "60406c0abe782952fdf5c903edab9e4c89f02254e483f04a4c6b660f127d0b125fd96702dfa13ada46fed9c5878eb60a5cd1a59c783beef7f0b28ba62eed1607"
 
 RPROVIDES:${PN} += "libxt-ACCOUNT-cl.so.1 \
+libxt-ACCOUNT.so \
 libxt-CHAOS.so \
 libxt-DELUDE.so \
 libxt-DHCPMAC.so \
@@ -34,6 +35,7 @@ libxt-ipp2p.so \
 libxt-ipv4options.so \
 libxt-length2.so \
 libxt-lscan.so \
+libxt-pknock.so \
 libxt-psd.so \
 libxt-quota2.so \
 xtables-addons"

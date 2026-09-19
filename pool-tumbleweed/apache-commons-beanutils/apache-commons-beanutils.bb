@@ -5,10 +5,10 @@ JavaBeans.  No dependencies outside of the JDK are required, so the use \
 of this package is very lightweight."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.4"
+PV = "1.11.0"
 
-RPM_NAME = "apache-commons-beanutils-1.9.4-3.15.noarch.rpm"
-RPM_HASH = "1b967676ba084bc96dc030288f8abe936dfeb926f6ab3f552175a37c66ac55beaed8bf96b41e997dba785e4f738f181f0bd5de84f8d5eb519f6d901febecb409"
+RPM_NAME = "apache-commons-beanutils-1.11.0-3.6.noarch.rpm"
+RPM_HASH = "f30a1fe50c57aa7a13cdfd3badbcc2b29082f7df01640cbefcf96596393caaf3f9690257b2434937770a0e9ba0d3fd78516c60df6bee3c271024a194cb3b5e14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-beanutils \

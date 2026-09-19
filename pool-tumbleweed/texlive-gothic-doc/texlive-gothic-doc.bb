@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gothic"
 DESCRIPTION = "This package includes the documentation for texlive-gothic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn49869"
+PV = "2026.226.svn49869"
 
-RPM_NAME = "texlive-gothic-doc-2023.209.svn49869-54.2.noarch.rpm"
-RPM_HASH = "5fb2904a6422dc8a2a2b3ff4ecbc33e4c29e7e7dad9743640dbd1b4bd732750476775b56892de55eeb6315fee440ee75d75709c8a505d7068407205ff218e01d"
+RPM_NAME = "texlive-gothic-doc-2026.226.svn49869-60.4.noarch.rpm"
+RPM_HASH = "f8dccc0546cd6917b513b25e4a8a6c59eeb4b54bc4b250f74cc6b8bd361b7a8cac0dbcd93aa7e96405bbddd420f78111bcffc29182edbfac4122f735a243bea7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gothic-doc"

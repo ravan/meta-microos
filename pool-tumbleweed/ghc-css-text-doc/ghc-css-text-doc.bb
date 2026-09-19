@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.3.0"
 
-RPM_NAME = "ghc-css-text-doc-0.1.3.0-4.9.noarch.rpm"
-RPM_HASH = "9f96c41aac52d6264c37d26e2d00748559fb9211f7d395c7692a9c4a86e40d9816d3ee0a6e2e46c07af4dd9829aae778b09eaf96ff59a1f957053ed9e1a09333"
+RPM_NAME = "ghc-css-text-doc-0.1.3.0-4.43.noarch.rpm"
+RPM_HASH = "b484dab01f9b543d13f2943e30d385a7999b9d1bd44d9f951f6fb938437d7d08edaea1fb43eceb39df2e3eb2afb387299b073e6549f72bb3f7abae463ba9a926"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-css-text-doc"

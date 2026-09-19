@@ -2,10 +2,10 @@ SUMMARY = "Utility programs for Polish users of TeX"
 DESCRIPTION = "Provided as sources, not installed in the bin directories."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54074"
+PV = "2026.226.svn54074"
 
-RPM_NAME = "texlive-gustprog-2023.209.svn54074-54.2.noarch.rpm"
-RPM_HASH = "ccf91a74c02ca241b5a04d06d851c2155270ce14e832e0e6730ffb9037f84178fa63e3bc53a29d28a10ba110ecf907cd704c6dfc5e7d35f41b5b21b69496685f"
+RPM_NAME = "texlive-gustprog-2026.226.svn54074-60.4.noarch.rpm"
+RPM_HASH = "0e7c12746ad41cdcb16c3ac80f17ca4964f9d754354b69034743175f19ca7a78495ccc8b8de34089c0c64b64b8e0e92a5cd35426664e267f6bb7db03f0ba6708"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gustprog"

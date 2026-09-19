@@ -5,10 +5,10 @@ changing key callbacks and values on the fly, and other \
 features of pgfkeys are introduced in a new context."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn30560"
+PV = "2026.226.1.3svn30560"
 
-RPM_NAME = "texlive-skeyval-2023.209.1.3svn30560-58.1.noarch.rpm"
-RPM_HASH = "4e29a4b56d0f00ad7b9deb961a721290b3949b022363434c821ed3935d3bd635e96acdf48185b9ad044e2dc37c0370ca2780cd8eda6d43868209c318139d51eb"
+RPM_NAME = "texlive-skeyval-2026.226.1.3svn30560-64.2.noarch.rpm"
+RPM_HASH = "26fff048c579d037d143d9f02d7f16886083d3bdf42b37cff073dccdf4b3900aede9e5db538445be558c32b9a58042b1992b2ee9fc13abe6fe760619bdcc7f75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skeyval-bc.sty \

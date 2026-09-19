@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ebgaramond"
 DESCRIPTION = "This package includes the documentation for texlive-ebgaramond"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64343"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-ebgaramond-doc-2023.209.svn64343-54.2.noarch.rpm"
-RPM_HASH = "47e07c890debf9636a3097ae2f5fcf3c6d621e2be5b256bf7d78559d1d7fdbabab50c751d3d335db775776852f95a1eb6dcc39a1ec041e2634b627e1de795101"
+RPM_NAME = "texlive-ebgaramond-doc-2026.226.svn77682-61.4.noarch.rpm"
+RPM_HASH = "c5e84ee1be2ec4bdb3e82abf3ea26a184fad9145c5aa6edffade289994f07253b3f37e054319204d9cb5ededed2f595f5ed491a21580f7b485817a5dec08d805"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ebgaramond-doc"

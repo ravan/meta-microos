@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the system account and group 'daemon' \
 and their corresponding directories."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-user-daemon-20170617-24.16.noarch.rpm"
-RPM_HASH = "10efa729ee0397bd8558670d7842a4c7b5c067354da1db6da3d3c3d980950303579f2cc65679bbb63f6fec697eca8a0d8884cb043d037c1077c774064da4e41d"
+RPM_NAME = "system-user-daemon-20250822-2.3.noarch.rpm"
+RPM_HASH = "8b3877534267970ff2f4182418c797822cefaf42b8e18ae8a2b8da5a5fc845ec8fa8b1ec71d7af5f50d25856e184ee178ffe84a5714e0887939a45ae4619a114"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-daemon \

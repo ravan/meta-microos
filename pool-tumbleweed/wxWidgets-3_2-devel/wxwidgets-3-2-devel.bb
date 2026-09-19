@@ -11,10 +11,10 @@ Note: wxWidgets variant devel packages are mutually exclusive. Please \
 read /usr/share/doc/packages/wxWidgets-3_2/README.SUSE to pick a correct variant."
 LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
-PV = "3.2.2.1"
+PV = "3.2.8"
 
-RPM_NAME = "wxWidgets-3_2-devel-3.2.2.1-3.1.aarch64.rpm"
-RPM_HASH = "80d070b1e46dd26b6dd0d3b639d8033c6478c2ef270776256359649692b012651fdfedf59d90df545fc86d2294cf24da03b2be06c527d29c13fa4c47af19685c"
+RPM_NAME = "wxWidgets-3_2-devel-3.2.8-4.6.aarch64.rpm"
+RPM_HASH = "16daddc76366af9f24724168f2b0f31af523b7b0c62d0f71414435a5bfcdcd95b930a8b1cb05ea7ae1ce82b7655d5b2006e9b22b4a6ea34b06cbd385cbb7d844"
 
 RPROVIDES:${PN} += "wxGTK-devel \
 wxGTK2-devel \
@@ -29,20 +29,20 @@ libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
 libwx-base-suse-devel \
-libwx-baseu-suse.so.9.0.0 \
-libwx-baseu-xml-suse.so.9.0.0 \
-libwx-gtk2u-adv-suse9-0-0 \
-libwx-gtk2u-aui-suse9-0-0 \
-libwx-gtk2u-core-suse9-0-0 \
-libwx-gtk2u-gl-suse9-0-0 \
-libwx-gtk2u-html-suse9-0-0 \
-libwx-gtk2u-media-suse9-0-0 \
-libwx-gtk2u-propgrid-suse9-0-0 \
-libwx-gtk2u-qa-suse9-0-0 \
-libwx-gtk2u-ribbon-suse9-0-0 \
-libwx-gtk2u-richtext-suse9-0-0 \
-libwx-gtk2u-stc-suse9-0-0 \
-libwx-gtk2u-xrc-suse9-0-0 \
+libwx-baseu-suse.so.16.0.0 \
+libwx-baseu-xml-suse.so.16.0.0 \
+libwx-gtk2u-adv-suse16-0-0 \
+libwx-gtk2u-aui-suse16-0-0 \
+libwx-gtk2u-core-suse16-0-0 \
+libwx-gtk2u-gl-suse16-0-0 \
+libwx-gtk2u-html-suse16-0-0 \
+libwx-gtk2u-media-suse16-0-0 \
+libwx-gtk2u-propgrid-suse16-0-0 \
+libwx-gtk2u-qa-suse16-0-0 \
+libwx-gtk2u-ribbon-suse16-0-0 \
+libwx-gtk2u-richtext-suse16-0-0 \
+libwx-gtk2u-stc-suse16-0-0 \
+libwx-gtk2u-xrc-suse16-0-0 \
 pkgconfig-gl \
 pkgconfig-glu"
 

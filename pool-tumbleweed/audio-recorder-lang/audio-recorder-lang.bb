@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.3.4"
 
-RPM_NAME = "audio-recorder-lang-3.3.4-1.7.noarch.rpm"
-RPM_HASH = "efabc5c264b364354c749fa11dda62212d2c623065ce26ed77e635abd48ffb6aba7e13681ed5a7cd3fab98a2ee5251bbda43c058ffbf705ffb09ba892abe4085"
+RPM_NAME = "audio-recorder-lang-3.3.4-3.5.noarch.rpm"
+RPM_HASH = "a5f24ada1928a4833799cf8fe1e73ae28c1a43a43f2f8b3bca53b4712004a68c3afd630319e124e2cd2bce1d20a6da6ac19ad2324792af9d4999d59295da741a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "audio-recorder-lang \

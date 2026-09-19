@@ -2,10 +2,10 @@ SUMMARY = "Haskell ghc-heap library documentation"
 DESCRIPTION = "This package provides the Haskell ghc-heap library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.6"
+PV = "9.12.4"
 
-RPM_NAME = "ghc-ghc-heap-doc-9.4.6-1.1.noarch.rpm"
-RPM_HASH = "c31fd90f91b663f3b0c273da850c69082190b1e255c0dbd65904a68f4dead9fcefd177fef5227888dce779e15f3fa9fe2062210c9a4b3490c558b9e54e0a21b6"
+RPM_NAME = "ghc-ghc-heap-doc-9.12.4-1.3.noarch.rpm"
+RPM_HASH = "e572598822c660408a3bfb3be2dcc4eef7b1fd729137a97edb23db9d8d050b69e02e3df2715a8731f202c61f07a76ca3e0d89cc6a83c9f5af3bdb6bfe13bd96f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-ghc-heap-doc"

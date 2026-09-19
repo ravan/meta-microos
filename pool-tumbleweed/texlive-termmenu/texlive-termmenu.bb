@@ -7,10 +7,10 @@ expl3 support, thus the l3kernel and l3packages are both \
 required."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn37700"
+PV = "2026.227.svn76924"
 
-RPM_NAME = "texlive-termmenu-2023.209.svn37700-55.1.noarch.rpm"
-RPM_HASH = "88e6b1d7be1127c55d3e2734467227d90ea9c0c2c4905b397d27d338be0773171e9fa3b6602e34467b10c6f4b9ecc3884c756220c772fe1a3a359231d68e169d"
+RPM_NAME = "texlive-termmenu-2026.227.svn76924-62.2.noarch.rpm"
+RPM_HASH = "5a320ec064bafc923c5e1424c382013c77107578b265d037d3ff9e7c0f0fb81335bcfacbb9f4343ffb7270903b130ca09e07b47ae5f497f6354313122c128b34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-termmenu.tex \

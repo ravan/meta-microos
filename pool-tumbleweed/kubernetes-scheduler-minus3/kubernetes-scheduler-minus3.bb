@@ -2,13 +2,13 @@ SUMMARY = "Kubernetes scheduler for container image"
 DESCRIPTION = "This subpackage contains the kube-scheduler binary for Kubic images"
 LICENSE = "Apache-2.0"
 
-PV = "1.24.16"
+PV = "1.34.11"
 
-RPM_NAME = "kubernetes-scheduler-minus3-1.24.16-34.1.aarch64.rpm"
-RPM_HASH = "5cd219c769f95c327deba933b5777fd45facdb721374a9389826d80a80abdfa51649312406b1c01e4af6e5af32d28d03d24001b6a53097f0c12f8e7b9730c601"
+RPM_NAME = "kubernetes-scheduler-minus3-1.34.11-72.1.aarch64.rpm"
+RPM_HASH = "8be94efd3a13efeb0b5abf275724bc002ceb2322f3d8c23df6e8b784ef3dd7f567e346fc7830a892efb279c7ea4ecc43c0409789a044edc672d412a57c3a389c"
 
 RPROVIDES:${PN} += "kubernetes-scheduler-minus3"
 
-RDEPENDS:${PN} += "kubernetes1.24-scheduler"
+RDEPENDS:${PN} += "kubernetes1.34-scheduler"
 
 inherit rpm

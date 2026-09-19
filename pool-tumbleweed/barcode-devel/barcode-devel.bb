@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.99"
 
-RPM_NAME = "barcode-devel-0.99-9.7.aarch64.rpm"
-RPM_HASH = "01d97a6229ce8c8e6a9648ae24c711be1647cfc2b3d222fd290383f3c2d5eef35a358ee39d22cd951a14d3cb41266de642128b6c4f5f5622e2f8ac3ee7b30a6f"
+RPM_NAME = "barcode-devel-0.99-12.6.aarch64.rpm"
+RPM_HASH = "80939261d640126ff35384493375be62f66dcc242a1a279bfc01fc9bede70abac3a2f0d151126caf7d7ee3d62041b3650ac356632ab0d2ceebfc9245594f35d5"
 
 RPROVIDES:${PN} += "barcode-devel"
 

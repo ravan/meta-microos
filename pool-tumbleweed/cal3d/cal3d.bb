@@ -7,12 +7,12 @@ kinds of projects. It supports combining animations and actions \
 through a 'mixer' interface, and work is currently underway to \
 integrate morph targets (interpolating between one mesh and \
 another, using the same vertex sequence) easily into the system."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.120"
 
-RPM_NAME = "cal3d-0.120-3.11.aarch64.rpm"
-RPM_HASH = "d53d0d6363a2821ad8dd2f40fe01b9d97fe1f7eb068475e0e8c635d5d3747ad5892084aee03bf63f81ed6a91cbb4729df1e79e353be9322b254d3ecc3ec5c8a5"
+RPM_NAME = "cal3d-0.120-5.7.aarch64.rpm"
+RPM_HASH = "2b74cd3a9ee4ab77089391b280c18659a028b5ed7ce9248556e7edb2c7af0a891905198e7f680003f3e3e62b555c4313d7b2baa8685dc8e9a80d7b0a15aa238e"
 
 RPROVIDES:${PN} += "cal3d"
 

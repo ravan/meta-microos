@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.32"
 
-RPM_NAME = "ghc-simple-sendfile-prof-0.2.32-1.4.aarch64.rpm"
-RPM_HASH = "36a8e9d3e21cd62e8ca86eb2e196512c865dfe467e7cc0788b62be3ca6200e04f1d571a40fd34254abfe33bc46aa65650b7c2ec4e588cc5484061215112dfec2"
+RPM_NAME = "ghc-simple-sendfile-prof-0.2.32-1.27.aarch64.rpm"
+RPM_HASH = "3e9ce61f8fa13ec3e4e0b2e4d18cd200c7356d69e95b2b0285e13d63035814dc4740a964b9293d55ce914268cbb4a5de624aba9dd0ec7148720a5edc3132aff7"
 
-RPROVIDES:${PN} += "ghc-prof-simple-sendfile-0.2.32-Jkz6BAomm8GAcovJHWebTs \
+RPROVIDES:${PN} += "ghc-prof-simple-sendfile-0.2.32-1TxnJXytdne4UoBrRdi39p \
 ghc-simple-sendfile-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-prof-unix-2.7.3 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-prof-unix-2.8.8.0-178a \
 ghc-simple-sendfile-devel"
 
 inherit rpm

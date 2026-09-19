@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pgfopts"
 DESCRIPTION = "This package includes the documentation for texlive-pgfopts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1asvn56615"
+PV = "2026.226.2.1asvn77682"
 
-RPM_NAME = "texlive-pgfopts-doc-2023.209.2.1asvn56615-52.1.noarch.rpm"
-RPM_HASH = "b5b0febdbde75c25cb2e7b39e36cf1841cddee51a461b0bbc37f5a7455513055378f8bf6b67db32b07947b9074e580598c1c57628e660bff13fbd63dc95b813f"
+RPM_NAME = "texlive-pgfopts-doc-2026.226.2.1asvn77682-58.2.noarch.rpm"
+RPM_HASH = "3aa0fce2ef69304acc6b1c133e5932823f95e36fb34e4095194df8ad9943b1be359ae055a4c25dbf209645e96e5af76c50bfbf308a1233cc56a34d76e37a2d8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgfopts-doc"

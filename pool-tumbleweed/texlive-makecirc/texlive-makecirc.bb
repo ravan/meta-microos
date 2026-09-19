@@ -7,10 +7,10 @@ Its output is a PostScript file. MakeCirc only requires (La)TeX \
 and MetaPost to work."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-makecirc-2023.208.svn15878-53.1.noarch.rpm"
-RPM_HASH = "b5bf04f9304f5b24e8c5ea9d9cf465fa22fc3f277dd0ccdd29acdeb8a2a1633f6ac24a6121d930ef3c64bce7c8c6d8452c60d11a24f2f5a5f6e873dd0952baee"
+RPM_NAME = "texlive-makecirc-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "7cbb5c1558625a3fd4aec4201b7f9de1b566fb48d05b7fb5f0e546ac4df25e8d256dc6234c59c32cb2f9347db182fa06ba52f1b9eca593aedb1d94c5b1e16b8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-makecirc"

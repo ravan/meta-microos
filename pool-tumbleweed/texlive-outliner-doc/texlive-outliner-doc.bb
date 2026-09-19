@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-outliner"
 DESCRIPTION = "This package includes the documentation for texlive-outliner"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.94svn21095"
+PV = "2026.226.0.0.94svn21095"
 
-RPM_NAME = "texlive-outliner-doc-2023.209.0.0.94svn21095-55.1.noarch.rpm"
-RPM_HASH = "61cd1f669965936b42239ebad3356be9e2347894299d62ce7bbce1ead0ff519e87409ebfbe4bb7efe9f59d01ebd8449b0a1328292ce4d0370763fbd3a7de5edb"
+RPM_NAME = "texlive-outliner-doc-2026.226.0.0.94svn21095-61.2.noarch.rpm"
+RPM_HASH = "d0a978a72a7ee37644518ca6bcc23520dc0b707eef1d5c26c4f20f9a13208060266ad6683249e02a76587d08abb7f90645852d75d585d80c1373276fada52402"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-outliner-doc"

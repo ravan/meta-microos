@@ -1,29 +1,30 @@
 SUMMARY = "A distraction-free Markdown editor"
-DESCRIPTION = "ghostwriter is a text editor for Markdown, which is a plain text \
-markup format. For more information about Markdown, please visit John \
-Gruber’s website at http://www.daringfireball.net. ghostwriter \
-provides a relaxing, distraction-free writing environment."
+DESCRIPTION = "ghostwriter is a text editor for Markdown, which is a plain text markup format. \
+For more information about Markdown, please visit John Gruber’s website at \
+http://www.daringfireball.net. \
+Ghostwriter provides a relaxing, distraction-free writing environment."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ghostwriter-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "978ed13848c3d4e97eab4f3f82e60b832f0b037e6c7bd1e5bfeb86591a7ad090cf1355080d2814cb01e225749e5ffd5abb7bcf19323ffc615f6b15b7ee05e672"
+RPM_NAME = "ghostwriter-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "e699a8ea10bf77714f06b268ef9e7f8203bb35690b1680682c7375f12b0325fa953002cb73a5ece7c80b3eb2f468b86113471d1e5c36c0211d7b6a2d1f854f45"
 
 RPROVIDES:${PN} += "ghostwriter"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5SonnetCore.so.5 \
-libKF5SonnetUi.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5WebChannel.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6SonnetCore.so.6 \
+libKF6SonnetUi.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6WebChannel.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6"

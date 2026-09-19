@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gsemthesis"
 DESCRIPTION = "This package includes the documentation for texlive-gsemthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9.4svn56291"
+PV = "2026.226.0.0.9.4svn56291"
 
-RPM_NAME = "texlive-gsemthesis-doc-2023.209.0.0.9.4svn56291-54.2.noarch.rpm"
-RPM_HASH = "481559a396fcc5df0e0a2a35e26604ebcd2fdedc75d0f3a246dc1ddb5b95a8a8460d5075f042678000d909898917a93316e176a7afb7a97f42ae720af9cc165d"
+RPM_NAME = "texlive-gsemthesis-doc-2026.226.0.0.9.4svn56291-60.4.noarch.rpm"
+RPM_HASH = "32392c94f2efc0c8b60217905b1e9ce76ee07d84b3390dbedd989f0202dd5013aecb6ac6a0c2bfd0b1053f72ce70a8ca93b38bea93c6e91e777ab612c92eca58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gsemthesis-doc"

@@ -1,4 +1,4 @@
-SUMMARY = "Cross referencing with proper definite articles"
+SUMMARY = "Cross referencing with proper definite articles and declensions"
 DESCRIPTION = "By default, when using cleveref's \\cref to reference \
 theorem-like environments, the names do not contain definite \
 articles. In languages such as French, Italian, Portuguese, \
@@ -8,10 +8,10 @@ definite articles properly (especially for the article \
 contractions in many European languages)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64498"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-crefthe-2023.209.svn64498-55.1.noarch.rpm"
-RPM_HASH = "0b044b832919a7bfced7613b16a4f8df77f30fdf1e9166b140b1b3fa9deed3e7ab6308339176c627955ce08d6ae8ec472513b11fcf94832d876419ae34c5ae19"
+RPM_NAME = "texlive-crefthe-2026.226.svn76924-61.2.noarch.rpm"
+RPM_HASH = "44990dc7c76e02fed63fbdc4b1f0600946a3cf10d13b23d0218eddc06facc93a93fa9d5d499395b51dc49f7135ba276a2048b43c53e781bb7a5a21cffd4d670f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-crefthe.sty \

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1"
 
-RPM_NAME = "ca-certificates-steamtricks-1-1.14.noarch.rpm"
-RPM_HASH = "390aead907c9cbf0084649760453bf13b60f6c06fb9c1365ab64f5d6aa396eccb3d80773534bf75bcfea39c0a84e12133b302fc944b96c2acc0570871b03887d"
+RPM_NAME = "ca-certificates-steamtricks-1-1.22.noarch.rpm"
+RPM_HASH = "e4755da729ee22a19bfad43b756ab6da0f173efebda80f01af3058417a53afdae72454096bdc290fa16a1c6cacb6e74141c5da7315fb87964023441c3708969d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-steamtricks \

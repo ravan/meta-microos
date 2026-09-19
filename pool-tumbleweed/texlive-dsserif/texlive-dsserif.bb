@@ -6,10 +6,10 @@ fonts, which are sans serif, but starting from a Courier-like \
 base."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.031svn60898"
+PV = "2026.226.1.031svn77682"
 
-RPM_NAME = "texlive-dsserif-2023.209.1.031svn60898-53.1.noarch.rpm"
-RPM_HASH = "d92cfc360d498d9732aa5587c76d88fa1ea14bcdbb874d504eca7a2abbdf5004cb2c413e8b5f2ab6363e769396c1cd1ac37cc62b613a55b36eeccd94b5aafd4c"
+RPM_NAME = "texlive-dsserif-2026.226.1.031svn77682-59.2.noarch.rpm"
+RPM_HASH = "54a2f972494b9b0af58b8362a0a9130d3ceed9a62a8a2b56348373f28dd0ad25f8598e10092cc220b2124fe97587b352ddf2bfcb0c3a7ef23d655dd6f5c13c15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-DSSerif-Bold.tfm \

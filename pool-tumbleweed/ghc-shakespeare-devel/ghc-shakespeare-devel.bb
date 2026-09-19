@@ -2,36 +2,36 @@ SUMMARY = "Haskell shakespeare library development files"
 DESCRIPTION = "This package provides the Haskell shakespeare library development files."
 LICENSE = "MIT"
 
-PV = "2.0.30"
+PV = "2.1.7.1"
 
-RPM_NAME = "ghc-shakespeare-devel-2.0.30-2.11.aarch64.rpm"
-RPM_HASH = "ca39c4f0d8852b896e44338f43bcd23fb2915fbbf08a3ce72fde7fc274fa0d4fef50b7dc1e12a24f63c067cc77951cd3d09ddce41b84cdd9221d452d2be55a3c"
+RPM_NAME = "ghc-shakespeare-devel-2.1.7.1-1.12.aarch64.rpm"
+RPM_HASH = "8fd615cd602e370fe5829aa0cf98ea2ea25a4727dace311d0dd4139b7d600f7b691485ddb835f7e04341814d6d4f401db6aee168b14866655a948e4acf9f27ac"
 
-RPROVIDES:${PN} += "ghc-devel-shakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem \
+RPROVIDES:${PN} += "ghc-devel-shakespeare-2.1.7.1-gK4gmGoNfcEYOAsglU3w4 \
 ghc-shakespeare-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
-ghc-devel-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-exceptions-0.10.5 \
-ghc-devel-file-embed-0.0.15.0-DAhwsrlSNND3ZIPejkHOUv \
-ghc-devel-ghc-prim-0.9.1 \
-ghc-devel-parsec-3.1.16.1 \
-ghc-devel-process-1.6.17.0 \
-ghc-devel-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
-ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-text-2.0.2 \
-ghc-devel-th-lift-0.8.4-Hb96g2HGtQyHkKuMt8Wl3a \
-ghc-devel-time-1.12.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
+ghc-devel-aeson-2.2.5.0-3Moj34uePe8JCj0xjS5ggN \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-blaze-html-0.9.2.0-93B80xR5emg3yG3V6J7j6o \
+ghc-devel-blaze-markup-0.8.3.0-K4FwMBPUUgu9TB66ALCxf7 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-exceptions-0.10.12-f655 \
+ghc-devel-file-embed-0.0.16.0-JqsWezc6wrB9rh480YKWnn \
+ghc-devel-ghc-prim-0.13.0-f55c \
+ghc-devel-parsec-3.1.18.0-be05 \
+ghc-devel-process-1.6.26.1-905d \
+ghc-devel-scientific-0.3.8.1-EfN6leGWc5k1t5YPK2dkVk \
+ghc-devel-template-haskell-2.23.0.0-358a \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-th-lift-0.8.7-C08bSURuEXt2IuYgZMzZEc \
+ghc-devel-time-1.14-a7dc \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-devel-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
 ghc-shakespeare"
 
 inherit rpm

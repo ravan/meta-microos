@@ -6,10 +6,10 @@ and/or \\textsc{...}. The meaning of underscore and circumflex \
 in mathmode remain the same."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.4.0svn44543"
+PV = "2026.226.1.4.0svn44543"
 
-RPM_NAME = "texlive-easyformat-2023.209.1.4.0svn44543-54.2.noarch.rpm"
-RPM_HASH = "65fb6fd81eb4f37271721297ea49aaaa34fb25025814fee2445722702cdfc9c6acabdd9f4658db084ef280825bc65b8520c5a00615f18debfa8e81b0ca8a7de2"
+RPM_NAME = "texlive-easyformat-2026.226.1.4.0svn44543-61.4.noarch.rpm"
+RPM_HASH = "ac677161d8857dd5e4f9ffb2456a3ddd9a3f2e00484f89ffe3557a095c518260dde61dc8c733c5038133716d99bcb92b8c4f8102ec66d303fd7d9b3c10f29928"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easyformat.sty \

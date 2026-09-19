@@ -2,10 +2,10 @@ SUMMARY = "Shared library for Budgie theming"
 DESCRIPTION = "Budgie theming engine shared library package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.8+0"
+PV = "10.10.0+13"
 
-RPM_NAME = "libbudgietheme0-10.8+0-1.1.aarch64.rpm"
-RPM_HASH = "f625c6790879c6cec6058615e825b8ba0cfa7049aea28df0dc67bc0b309f89da7030592ce18be5d81d05ef741be0b2c343bb5fcb1b36f544e63db93924805eb4"
+RPM_NAME = "libbudgietheme0-10.10.0+13-1.2.aarch64.rpm"
+RPM_HASH = "204f0b3b36dcfd673a64a74129a25888948cde68ec90bf53aca40f60c4eae302554ef0c5a0aefdc4254be02558a2ae8b95b2218f59546b3d8328468e62e4a1f6"
 
 RPROVIDES:${PN} += "libbudgietheme.so.0 \
 libbudgietheme0"

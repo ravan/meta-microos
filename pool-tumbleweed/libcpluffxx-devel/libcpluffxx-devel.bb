@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains libraries and header files for \
 developing applications that use libcpluffxx."
 LICENSE = "MIT"
 
-PV = "0.2.0"
+PV = "0.2.1"
 
-RPM_NAME = "libcpluffxx-devel-0.2.0-2.9.aarch64.rpm"
-RPM_HASH = "f6d296544aaafd3e52354ffc4f564a7884c20d877f6ca11c83058d6fdc5361b5dd7a0410e5ba5216b0a4c54e5f30b31b26fce62e3b1d4f254fef3ebf1ac69fea"
+RPM_NAME = "libcpluffxx-devel-0.2.1-1.5.aarch64.rpm"
+RPM_HASH = "d250e9697c156da227509629f924637499a241849a42fcc0cc1fb3ba1956b66d996fea9d42464cf47639e9af81c63de3170d3386de8fff04fe158e0732da9968"
 
 RPROVIDES:${PN} += "libcpluffxx-devel \
 pkgconfig-libcpluffxx"

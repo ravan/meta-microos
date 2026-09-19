@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the firewalld RPM macros file needed by pac
 which provide their own firewalld service files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.0"
+PV = "2.3.2"
 
-RPM_NAME = "firewall-macros-2.0.0-2.1.noarch.rpm"
-RPM_HASH = "66d2cd91d594d9e85ea00dd340934fa7066857e00499656e72589c04cf2496e4c2dc65847e56597da8fe015ad889e709e54a14d616234dd8b1733d1f2ccbca3d"
+RPM_NAME = "firewall-macros-2.3.2-2.1.noarch.rpm"
+RPM_HASH = "f460fc03751c248381b571433509fda2c4b2c641c2c22fee1683fe07d5a0a2f22a7b26412b7a070c2a81391eb31ef0ac4fe7aee11f36382a8f5679e28921077c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewall-macros \

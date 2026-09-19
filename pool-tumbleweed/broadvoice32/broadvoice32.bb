@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.2"
 
-RPM_NAME = "broadvoice32-1.2-2.8.aarch64.rpm"
-RPM_HASH = "9520c62e6cffe7d5ffd4375edebae4b226d7327e0c3580079908ca93ee558292436e48ceefada786f052c4f7c12508ddd934ffbc971ed4b978ef459954575eb8"
+RPM_NAME = "broadvoice32-1.2-3.9.aarch64.rpm"
+RPM_HASH = "7713da9076ce0b459b0a3db2afc19f534d62258f6c3bdfaa067cd2b349278fe7b94f653c04898b1fb8463943a2e57843ecc5c1a4b5f096556259cd69f86e06f2"
 
 RPROVIDES:${PN} += "broadvoice32 \
 libbv32.so"

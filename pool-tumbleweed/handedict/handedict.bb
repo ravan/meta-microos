@@ -24,8 +24,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-2.0+"
 
 PV = "20090318"
 
-RPM_NAME = "handedict-20090318-20.17.noarch.rpm"
-RPM_HASH = "70b8936c0733843b0d9568cf3da2bb882da78a3a29c94335d0d1265319dc7570aee1af850c2ca8debc53bb2bcd940a7c4cf94dff4a6d3e0b90434f0782cd4e63"
+RPM_NAME = "handedict-20090318-20.26.noarch.rpm"
+RPM_HASH = "a73000b380279131edcb03fefd3cfaabd1ebd833334b2680b4f71becb5c22aee8e9dd046b273f5243c1585141abe8f32bbd222e7ebc43a8acefeccc971f5af73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "handedict \

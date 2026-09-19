@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "1.0"
 
-RPM_NAME = "icc-targets-npes-1.0-16.21.noarch.rpm"
-RPM_HASH = "8173e373987ac1937edb0eb829371ae2b1e9abf545c3974d4ce95d553a754a58eca81aee623d58f22ae6dc80932f84a9fa1e6a97d1cb526200fc9968291d0bdb"
+RPM_NAME = "icc-targets-npes-1.0-16.29.noarch.rpm"
+RPM_HASH = "d78e90beb97ef6cb63d1ef43dad2a54eeac237ede6f0f08f87042d9aeed0423cf09c9d48ce99d0bc4cf00ee2103fa6e24e1092f4838af474708d610046bf7ee2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-targets-npes"

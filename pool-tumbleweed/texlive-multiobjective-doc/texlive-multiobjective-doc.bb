@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-multiobjective"
 DESCRIPTION = "This package includes the documentation for texlive-multiobjective"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn75878"
 
-RPM_NAME = "texlive-multiobjective-doc-2023.209.1.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "711c95f10a0f4a71eaafb79fa32e28bc5ca04efb1c913f57c1e10a90b33a25c49d6f3b320e38910904fb1316e245225298c6fc7a5a45f5b2a707be3ec096d80c"
+RPM_NAME = "texlive-multiobjective-doc-2026.226.1.0svn75878-61.2.noarch.rpm"
+RPM_HASH = "5910e66407385415a32a2d33e4738b960d9c34d1210f12c93f2404854c6675cad74032a22bd2759be0ef05a0b4173055f88101af8a3b337b21c4983e3cf4dbc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-multiobjective-doc"

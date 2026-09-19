@@ -3,10 +3,10 @@ DESCRIPTION = " \
 Contains the script pdf2index which creates indices for FOP."
 LICENSE = "MIT & MPL-1.1"
 
-PV = "1.79.2.1"
+PV = "1.79.2.2"
 
-RPM_NAME = "docbook-xsl-pdf2index-1.79.2.1-1.1.noarch.rpm"
-RPM_HASH = "b5e742ec14ef468dbd5e92119fc4415531cf3d76fa3f374e5d8717e9eb15778f6f90631d138b4274c4c0183481f7c50bcf09df457d9dc7adf088e35495b2556b"
+RPM_NAME = "docbook-xsl-pdf2index-1.79.2.2-2.7.noarch.rpm"
+RPM_HASH = "a51f4583bf468a016128c9496aa074500f01ae454b956f4c571995209d661ff14a77f8bea6eda27c972c7f6bb4ce4808821bdf5d7f391c9386468fbf0181c96c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-xsl-pdf2index"

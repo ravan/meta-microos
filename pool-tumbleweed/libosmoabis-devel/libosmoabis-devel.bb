@@ -7,18 +7,19 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libosmoabis."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.4.1"
+PV = "2.2.0"
 
-RPM_NAME = "libosmoabis-devel-1.4.1-1.1.aarch64.rpm"
-RPM_HASH = "44c989f32bbad610c90def5aaff1cc8f88b0c4e46557a517f0810e1dd1f6e5b9136afda55b6bc0b993b51030e9b53bcae1a1a6cda60630b87036b2507110d5b3"
+RPM_NAME = "libosmoabis-devel-2.2.0-1.1.aarch64.rpm"
+RPM_HASH = "d38dc2cf5ee0581c563ee8d39ab218077665978a18de41b4c8931faddb8d30fbcfc2f5a38b0467b54e8a371e6e63b63e1d286700bca013c0df932881816e0c17"
 
 RPROVIDES:${PN} += "libosmoabis-devel \
 pkgconfig-libosmoabis"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libosmoabis10 \
+libosmoabis17 \
 libosmocore-devel \
 libosmogsm-devel \
+pkgconfig-libosmo-netif \
 pkgconfig-libosmocore"
 
 inherit rpm

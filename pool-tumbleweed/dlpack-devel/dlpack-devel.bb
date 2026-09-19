@@ -6,10 +6,10 @@ DESCRIPTION = "DLPack is an open in-memory tensor structure to for sharing tenso
  * For final users, this could bring more operators, and possibility of mixing usage between frameworks."
 LICENSE = "Apache-2.0"
 
-PV = "0.8"
+PV = "1.3"
 
-RPM_NAME = "dlpack-devel-0.8-1.3.aarch64.rpm"
-RPM_HASH = "51dee02ce552a74b2d4db58373e62b450f02202941c28b6f4580a0df2de30a589967ee31add3af1bace27d013c2065b53506facb070a01d2774e8892b7dcac44"
+RPM_NAME = "dlpack-devel-1.3-1.4.aarch64.rpm"
+RPM_HASH = "4d21326048024543d72c0220732f58dca2f9d4c53cc214d22326975e3a3efdc7b4b75fb109c1ca49b2ac906db4a4b3c0471509f2b51b2c73c0c735dcd6b8cfe1"
 
 RPROVIDES:${PN} += "cmake-dlpack \
 dlpack-devel"

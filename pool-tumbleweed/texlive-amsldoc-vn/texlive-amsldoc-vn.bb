@@ -3,10 +3,10 @@ DESCRIPTION = "This is a Vietnamese translation of amsldoc, the users' guide \
 to amsmath."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn21855"
+PV = "2026.226.2.0svn21855"
 
-RPM_NAME = "texlive-amsldoc-vn-2023.209.2.0svn21855-55.1.noarch.rpm"
-RPM_HASH = "da3394da0e2405d03e76af6ba0662275f76a005c90cd32b8b70700ab40e9432d373e3fc43b18f7e5c93de824e470f779eadffb6f1f108f329794d09f02333258"
+RPM_NAME = "texlive-amsldoc-vn-2026.226.2.0svn21855-61.2.noarch.rpm"
+RPM_HASH = "c04efd611a3cd727dcb4a5ea21f86cb9390e522870ae0e9a173cab1cae7b50f463c8ee637921d793059e842b27ec2e418d3ed0698df40e0f95daa46c8a722611"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amsldoc-vn"

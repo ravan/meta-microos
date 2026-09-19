@@ -1,11 +1,11 @@
 SUMMARY = "Examples for the qt6-serialbus modules"
 DESCRIPTION = "Examples for the qt6-serialbus modules."
-LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-serialbus-examples-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "a0357aa27743fa25d95f6b50495c043f0a3129f084f262e8b6b44d9663ac94ed896e2a47085219cd643a1d21189f13a852d08e00508650fbb6d0dcff1008a745"
+RPM_NAME = "qt6-serialbus-examples-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "3eb1fc30e328fda6180d27b52b0699e3660488748cb837b8b4ad31db96d9a284dd814cd60796bc439adcc73df4593dc4a2ba852add582d8503e3250e3fd7c71d"
 
 RPROVIDES:${PN} += "qt6-serialbus-examples"
 

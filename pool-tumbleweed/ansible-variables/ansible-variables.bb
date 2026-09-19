@@ -5,19 +5,19 @@ can be defined. ansible-variables displays where host context \
 variables originate from."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.1"
+PV = "0.9.1"
 
-RPM_NAME = "ansible-variables-0.5.1-1.1.noarch.rpm"
-RPM_HASH = "f13779c2743d0e8c565ae0a90422336987653be49d9038bfbe56589ed2050e23006f0717d3f1f58e84700854b599142b60a528ec2729e5f9f0074702288cc647"
+RPM_NAME = "ansible-variables-0.9.1-2.3.noarch.rpm"
+RPM_HASH = "2e5cb7f9a947d063356343e7a7fe7795f00c1d1bf4806b7ec9c1e57af3218cc82bd5f90e9d454485d0fc55849724f9751c52e0cbf75ad3610306b9c00aa10a3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-variables \
-python3.11dist-ansible-variables \
+python3.13dist-ansible-variables \
 python3dist-ansible-variables"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
-ansible-core \
+ansible-core-2.18 \
 python-abi \
 python3-rich \
 update-alternatives"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package psmisc"
 DESCRIPTION = "Provides translations for the 'psmisc' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.6"
+PV = "23.7"
 
-RPM_NAME = "psmisc-lang-23.6-3.4.noarch.rpm"
-RPM_HASH = "14ed57ab1ee666cd2eb258dc68318f56ed6dd5f5e34238b37aa2aff52f8a2a117b4b6300bc4768b288a986c7c7e9e97ce89cd928bd21ef2b90d094690b0ccfba"
+RPM_NAME = "psmisc-lang-23.7-5.5.noarch.rpm"
+RPM_HASH = "aa7bb85461c140aefeecfa4b49e6284456ba10f750cd209a34e521ab338914304162141c91ff963883fd9647d323cb70b3a9a797f24f231435d9268f3e3a61df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-psmisc-bg \
@@ -24,6 +24,8 @@ locale-psmisc-hu \
 locale-psmisc-id \
 locale-psmisc-it \
 locale-psmisc-ja \
+locale-psmisc-ka \
+locale-psmisc-ko \
 locale-psmisc-nb \
 locale-psmisc-nl \
 locale-psmisc-pl \

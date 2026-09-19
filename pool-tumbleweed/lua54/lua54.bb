@@ -9,22 +9,22 @@ semantics. Lua is dynamically typed, interpreted from byte codes, and \
 has automatic memory management, making it suitable for configuration, \
 scripting, and rapid prototyping. Lua is implemented as a small library \
 of C functions, written in ANSI C."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "MIT"
 
-PV = "5.4.6"
+PV = "5.4.8"
 
-RPM_NAME = "lua54-5.4.6-1.2.aarch64.rpm"
-RPM_HASH = "bf3cf0ffdd708d4ac5559c726fe35d1f302841c0f51279d122236694db714d102995a48cf29411bffb0ae73b346c462be47baec4dbdf5fb080dc00ef5f183e6e"
+RPM_NAME = "lua54-5.4.8-4.7.aarch64.rpm"
+RPM_HASH = "9d9b162ff696dd5f3997804ef5c60deb2cb47ee88a3b410c62dc7fb43cefc2eb24b60c0fff9a6c0aa8cb3e693a3e1cf1115a9860d4774b1dca487ef5eba646e2"
 
 RPROVIDES:${PN} += "Lua-API \
 lua \
 lua54"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "alts \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblua5.4.so.5 \
 libreadline.so.8 \
-update-alternatives"
+lua-interpreter"
 
 inherit rpm

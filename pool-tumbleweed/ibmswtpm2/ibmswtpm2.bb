@@ -10,10 +10,10 @@ It is probably not of much use other than testing the IBM TSS \
 implementation because of this specific interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "1682"
+PV = "183+2024+03+27"
 
-RPM_NAME = "ibmswtpm2-1682-2.4.aarch64.rpm"
-RPM_HASH = "229935b78c459d921ea9978ccc1bc03ea9bf8dcc8d1ec45cea27ab298d439d7aa7416dd8ad8494a7558047d13d5fd99b37ab227f16e32f7010a1739b3145cf3c"
+RPM_NAME = "ibmswtpm2-183+2024+03+27-6.5.aarch64.rpm"
+RPM_HASH = "bb2453cf1ccd6c6c435def617c791907392bb355c47f118d21ad61091a70f313363e9ecdd5996f32c9e84205bffc31b0a7571979cbe8ab585d0c96b76349c635"
 
 RPROVIDES:${PN} += "ibmswtpm2"
 

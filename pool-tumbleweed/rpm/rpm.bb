@@ -8,19 +8,19 @@ in a central database.	This way it is possible to get an overview of \
 all installed packages.  RPM also supports database queries."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.1"
 
-RPM_NAME = "rpm-4.18.0-6.1.aarch64.rpm"
-RPM_HASH = "9aacdb3524cb41045dc7c5f647b236e204e38127ec2356ccc7958c627f4b88eb35c3ebab7a6970a6fbe07f563f4368bd39211e748cef7f77ec25983c344fb0f4"
+RPM_NAME = "rpm-4.20.1-10.1.aarch64.rpm"
+RPM_HASH = "4f2da575cb980e0b59485369c5848876193e69d686ecdafc93a65205bab34fdef59ecdca5c2bf1b65b66a84ec09cc628f74074fa4b5489ba7c4149f9667e8b03"
 
-RPROVIDES:${PN} += "librpm.so.9 \
-librpmio.so.9 \
-librpmsign.so.9 \
+RPROVIDES:${PN} += "librpm.so.10 \
+librpmio.so.10 \
+librpmsign.so.10 \
 rpm \
+rpm-flushes-runposttrans \
 rpminst"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/mkdir \
+RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \
 fillup \

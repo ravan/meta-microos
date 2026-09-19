@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "11.1.2"
 
-RPM_NAME = "gtk2-metatheme-gilouche-11.1.2-27.12.noarch.rpm"
-RPM_HASH = "e007940190da8594ba934add2f0c5a6cc2b127d945e93685847ca6564d48034a307aa52b97c5e3f0eaa6b8395b76b0cccbf559f02a30e30d002733a19f42efba"
+RPM_NAME = "gtk2-metatheme-gilouche-11.1.2-27.19.noarch.rpm"
+RPM_HASH = "4e767b148dc7430e35e71513fdb821c441d793688850ecdbbefdcf8502ca6bd2b1e02e5b448eadb62895f3607f4fd599337acb47e5b481f8e033f7a635da4dfe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-metatheme-gilouche \

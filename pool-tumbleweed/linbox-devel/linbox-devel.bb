@@ -7,10 +7,10 @@ This subpackage contains the include files and library links for \
 developing against the Givaro library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.7.0"
+PV = "1.7.1"
 
-RPM_NAME = "linbox-devel-1.7.0-1.8.aarch64.rpm"
-RPM_HASH = "7b470475b77e327662c1c7b0c9f4870743ddcc728abd78a451fc8de0ff063ee79a203d91f0de81e30bcbd77b31d07094c437774ac3ab6bf321e209eda8badf2f"
+RPM_NAME = "linbox-devel-1.7.1-1.5.aarch64.rpm"
+RPM_HASH = "56b1bbec9513a8e8f5e918c114ff44b1e678e1f16c06eccf5013f12375d1c1d96ef67095d740c40164e39369fb690aae7a03faef8385bb5625587b80dc1e5fd5"
 
 RPROVIDES:${PN} += "linbox-devel \
 pkgconfig-linbox"

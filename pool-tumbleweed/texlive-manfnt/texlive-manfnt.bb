@@ -4,10 +4,10 @@ DESCRIPTION = "A LaTeX package for easy access to the symbols of the Knuth's \
 Arrow."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn54684"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-manfnt-2023.208.svn54684-53.1.noarch.rpm"
-RPM_HASH = "b4bc1432125e8e81f8bc31398d0dcd0050a9df68e31e401c81bd3cdc365cab4ab14e27b5707b62cd9f7c333df4e5c4e8d848051cb537e7223d468612f26a145c"
+RPM_NAME = "texlive-manfnt-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "99a5da07fad24c9b5b9b543d0b0cd3620536da26031c6dc2f6adf285531c6d989843c2f711ac6b415e8c7152a706dc488aeaa17478abbc2175c48587b80af50c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-manfnt.sty \

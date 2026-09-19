@@ -16,8 +16,8 @@ LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "5.0.1"
 
-RPM_NAME = "ocaml-camlp-streams-5.0.1-2.5.aarch64.rpm"
-RPM_HASH = "56fe033e3a01ddb0004eb1f88120e1bb73f42b222c423f7e8b8c00323610e185ff26f3294af1adc8f97cbb31d965c7adb51e1150cb0c8bd9713edb7d815d7255"
+RPM_NAME = "ocaml-camlp-streams-5.0.1-3.1.aarch64.rpm"
+RPM_HASH = "bed1093de37b5da8cec47497596c3037f7c71c82feb11afbf41aa4331134a08876ea5b252dae3e87e304c0089c9a5769b029267f31a3a8def6ef0b263fee55a7"
 
 RPROVIDES:${PN} += "ocaml-camlp-streams"
 

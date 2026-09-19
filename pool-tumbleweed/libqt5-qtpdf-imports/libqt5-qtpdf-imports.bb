@@ -2,10 +2,10 @@ SUMMARY = "Qt5 PDF module for QML"
 DESCRIPTION = "Qt Quick module for the Qt PDF library."
 LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.15.15"
+PV = "5.15.19"
 
-RPM_NAME = "libqt5-qtpdf-imports-5.15.15-1.1.aarch64.rpm"
-RPM_HASH = "4b832eef5a1650c00bf5abb05212205699a1dab6c998a3a9a52b5827675c3918d3fa872330b400b48ba6c7010fc2d0a396e073bc2af87926d69d948957640777"
+RPM_NAME = "libqt5-qtpdf-imports-5.15.19-3.3.aarch64.rpm"
+RPM_HASH = "57a7218ed23a02ac693194b25a3a84f18ce9b101c7036005381ec997b04b22f8a8ea6150f164d23bf3413ede5b145bf8a80fb13b44e6b97e1266fbb4b233e34a"
 
 RPROVIDES:${PN} += "libpdfplugin.so \
 libqt5-qtpdf-imports \

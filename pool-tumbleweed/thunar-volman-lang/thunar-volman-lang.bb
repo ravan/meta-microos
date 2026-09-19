@@ -2,10 +2,10 @@ SUMMARY = "Translations for package thunar-volman"
 DESCRIPTION = "Provides translations for the 'thunar-volman' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "thunar-volman-lang-4.18.0-1.3.noarch.rpm"
-RPM_HASH = "3eac297461bc4e038d7abdff020d36c1fcac1463da4982b50160166cb3c4c6e75a96bc38744b40b5be25d326b3376605ef3bb2b431150831ee7b82e4d24f2ad2"
+RPM_NAME = "thunar-volman-lang-4.20.0-1.7.noarch.rpm"
+RPM_HASH = "4b77e38be5a30451dc2ef92c2067c538cdd90809885fa0fd664bb9da5a8c12b4458ed13d6c4e32025f92c731e22267dac0ad9ac2f9c96275c431f2cfd51df378"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-thunar-volman-ar \
@@ -17,6 +17,7 @@ locale-thunar-volman-da \
 locale-thunar-volman-de \
 locale-thunar-volman-el \
 locale-thunar-volman-en-AU \
+locale-thunar-volman-en-CA \
 locale-thunar-volman-en-GB \
 locale-thunar-volman-es \
 locale-thunar-volman-et \

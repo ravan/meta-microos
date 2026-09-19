@@ -7,10 +7,10 @@ typesetting and graphics. It also touches on bibliographic data \
 and BibTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5th_editionsvn15878"
+PV = "2026.226.5th_editionsvn15878"
 
-RPM_NAME = "texlive-intro-scientific-2023.209.5th_editionsvn15878-54.1.noarch.rpm"
-RPM_HASH = "ef5d02b1153437193808cf9474e13fa0f8caf9069979fb839b303e30fecaa368b43b68cfcaa7bd493c384584f3452853452fe2c44a3a73b4069d2e9cecbb850e"
+RPM_NAME = "texlive-intro-scientific-2026.226.5th_editionsvn15878-60.2.noarch.rpm"
+RPM_HASH = "302d71e0ce7ce237c27903e9bb27d67cad86907c688d0aea0ea34702de4f21d41075bf63576de2baf42251f15bbfe83752a3e3deb1c9bb9e5faca877640765f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-intro-scientific"

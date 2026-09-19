@@ -6,10 +6,10 @@ typeface, Chester Jenkins created a new digital form to support \
 the newly transformed Smithsonian Design Museum."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64967"
+PV = "2026.226.svn64967"
 
-RPM_NAME = "texlive-cooperhewitt-2023.209.svn64967-55.1.noarch.rpm"
-RPM_HASH = "1fb43c353db57b5ffc4d4618145a2d0baa00ac3f271a43c7d184cf374ae134327d99e3cdf40eba7ca20e004341737223c5b429fad1089b7f6c2ba5f5264589af"
+RPM_NAME = "texlive-cooperhewitt-2026.226.svn64967-61.2.noarch.rpm"
+RPM_HASH = "8f9656c243cc39b47c22fc8875df5c20d88ac9be00cf78737455344bdcdc0ba328c921c51279fd7be02535d3e265015a75cc2f2505e6ad0451ec7f8ca9decba9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CooperHewitt.map \

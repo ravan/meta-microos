@@ -3,10 +3,10 @@ DESCRIPTION = "A utility for easily handling ini files from the command line and
 scripts."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.9.4"
+PV = "0.9.6"
 
-RPM_NAME = "crudini-0.9.4-1.1.noarch.rpm"
-RPM_HASH = "bde41feb6b7aee6832411747752846486121a15adfc6c740c9755472758de302182072db48982e8a6b7846f17715c1121c3586703b587b00459a3e695f7571bc"
+RPM_NAME = "crudini-0.9.6-1.3.noarch.rpm"
+RPM_HASH = "263a574f5dc5cc499232e37450e3f5cf9742d0ace7d85c160578b7643b736f552572feaa125e32611167652990f582830ec0ccdd27bf6fe1f2f66bcec7cd5691"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crudini"

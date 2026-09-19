@@ -6,10 +6,10 @@ identify applications that behave power inefficient (many small operations \
 instead of fewer large ones)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.20.0.18+git.7b1a20b"
+PV = "2.27.0.0+git.38d4414"
 
-RPM_NAME = "tuned-utils-systemtap-2.20.0.18+git.7b1a20b-1.2.noarch.rpm"
-RPM_HASH = "f76b2b99719d7ede015282c0e5021fcf7a41a269b0c478a938c7324010ccc876376e8b8f63eaf157fd7f0c0a0c2d4e49d82de58d7d55d474998072d0b0092c22"
+RPM_NAME = "tuned-utils-systemtap-2.27.0.0+git.38d4414-1.2.noarch.rpm"
+RPM_HASH = "75f0f2eb8afef429fa85a06cf53a08ee54540f3ec5f2fb9cbfb73451d042196cd177b3d99a6afd745411f614e6c793422b1a6eab289ff79aea05f2eabb5e5243"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuned-utils-systemtap"

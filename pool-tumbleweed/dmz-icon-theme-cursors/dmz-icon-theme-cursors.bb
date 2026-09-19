@@ -2,10 +2,10 @@ SUMMARY = "DMZ Cursor Theme"
 DESCRIPTION = "This package contains the DMZ cursor theme for X."
 LICENSE = "CC-BY-SA-3.0"
 
-PV = "11.3.0"
+PV = "11.4.0"
 
-RPM_NAME = "dmz-icon-theme-cursors-11.3.0-3.10.noarch.rpm"
-RPM_HASH = "7bc09213759e9cb26d5455d3df2821ef3d288e449a679a875d0af17482038eabf79d335fca21b3c038604a1b5e8390ba45d96a6cc659cf6014518d2b8967fc08"
+RPM_NAME = "dmz-icon-theme-cursors-11.4.0-1.7.noarch.rpm"
+RPM_HASH = "7775e628ab5c6aa9a91debcedcddea35733677739380ac13979815df5b999c08290c3debb08ee8bde318b760cdd9b5af48a1889cb7e4ec1acf6d0c0b383fe805"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dmz-icon-theme-cursors \

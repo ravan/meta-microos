@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Spanish Translations"
 DESCRIPTION = "YaST2 - Spanish Translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-es-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "c23364d26a4c484e4ba6bf98bfccceea127c80465f19e481e93ac8a8edf6f8e9c0e0505f5898ece85b869d7553d5a77263efbb8cee69ff140e530fd5c1407a50"
+RPM_NAME = "yast2-trans-es-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "4b6d633cd8dc61fb83bad60b277aa72eb56ef90e457f423dd3be728272d48fbabb6522e8f3cee3d9b570faeb21f5eaa244fb0e28d46996d5b6733d35cae39067"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-es \

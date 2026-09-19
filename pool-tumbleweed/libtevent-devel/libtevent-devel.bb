@@ -11,10 +11,10 @@ tevent_req (tevent request) functions. \
 This package contains libraries and header files need for development."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.14.1"
+PV = "0.17.1"
 
-RPM_NAME = "libtevent-devel-0.14.1-2.2.aarch64.rpm"
-RPM_HASH = "14a34f104280e85f973de375994a4289ae8f13fee3106e678ce8eb249b6ab6e9e8175132cde9efd93b735876307222779bbe6ce6ffde5ebe3a628b2dcb7c9b21"
+RPM_NAME = "libtevent-devel-0.17.1-1.5.aarch64.rpm"
+RPM_HASH = "9bbbb1b19be94f115c6c12e8b1f09d9c3ee8a6238cfc2a6751681bb23d9974449ef18f12bf1b2881e7971426970a2cfbbd87ca5ffe627ba69b6c40a22d8b5f18"
 
 RPROVIDES:${PN} += "libtevent-devel \
 pkgconfig-tevent"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.40"
 
-RPM_NAME = "libchm0-0.40-24.9.aarch64.rpm"
-RPM_HASH = "fa8b0685ad24eae11ad35d09cf8fc5d61d135fb6a48fa9c05cd6157ded178f9b00ecb548a902b4db5c145e445742749558ce5de984a7f2e38ffd36d9c457078f"
+RPM_NAME = "libchm0-0.40-26.5.aarch64.rpm"
+RPM_HASH = "580b4b7965146feefae3586be9ccc3b86176ac121daf52de581d5a45f723542ce85dcb2e98cde5e8424306634e19a105a083c819c77ca6057de2eb064b996ade"
 
 RPROVIDES:${PN} += "chmlib \
 libchm.so.0 \

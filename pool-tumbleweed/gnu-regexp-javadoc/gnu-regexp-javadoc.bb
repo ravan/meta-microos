@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.1.4"
 
-RPM_NAME = "gnu-regexp-javadoc-1.1.4-293.14.noarch.rpm"
-RPM_HASH = "7bc11072afda80665dadd4e6b73d6ef5f5b478bb9e5f773e1d5a6923c37153418c2c3f261648f4e79e40a063a749a135441a7ee1884fa7afc129c8a0c8dd0abb"
+RPM_NAME = "gnu-regexp-javadoc-1.1.4-293.25.noarch.rpm"
+RPM_HASH = "d91799ba2c2cc85dcfcee81b819302ea0f7efef91683ad67e8a667588e4c77cdc0db9bba840a88b4eeba210ddc917f1908ea824f5f11a926a30e07f12b580d48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-regexp-javadoc"

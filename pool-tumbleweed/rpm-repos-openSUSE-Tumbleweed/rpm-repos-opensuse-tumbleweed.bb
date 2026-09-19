@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1699"
 
-RPM_NAME = "rpm-repos-openSUSE-Tumbleweed-1699-10.1.aarch64.rpm"
-RPM_HASH = "ffffb027962c057785d6844011ba02af8a0f4e007324a774ea6ce780016a96e126085a3a31625b40646203143eec38c6e507c01d492298c04aaec3865896da53"
+RPM_NAME = "rpm-repos-openSUSE-Tumbleweed-1699-13.2.aarch64.rpm"
+RPM_HASH = "3911e39fc6885972786803d666aedf57f6f9382893083dab3ad52534ea3c7f4c8ee52e783d82152102fda3415d5f03ddfdb35e11bcf24e4270e191dbe47ba8be"
 
 RPROVIDES:${PN} += "config-rpm-repos-openSUSE-Tumbleweed \
 rpm-repos-openSUSE \

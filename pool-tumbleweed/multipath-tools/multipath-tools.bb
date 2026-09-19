@@ -7,10 +7,10 @@ the necessary changes to the multipath maps to ensure continuous \
 availability of the map devices."
 LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "0.9.6+71+suse.f07325e"
+PV = "0.15.1+229+suse.6c6f63e"
 
-RPM_NAME = "multipath-tools-0.9.6+71+suse.f07325e-1.1.aarch64.rpm"
-RPM_HASH = "28c1b2bcd31761f003e3b41fda7a0a02ac8a7a26e827a2c9f26a7e0e7a3df06fd9bbef7a68aa1c8aeff504c5f68b9bbcc59b7c6eb3a30544d469e8bc3a10f9d3"
+RPM_NAME = "multipath-tools-0.15.1+229+suse.6c6f63e-1.1.aarch64.rpm"
+RPM_HASH = "9523138c69b9c1f14b680a5c8f5a061aec21445c65b2a36d73e192e6daa13a7c06456bde303c0b72a75d7845535bb2adc0cf91cf815a8b091fe1f99a4e19de74"
 
 RPROVIDES:${PN} += "multipath-tools"
 
@@ -22,12 +22,12 @@ kpartx \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdevmapper.so.1.03 \
+libgcc-s.so.1 \
 libmpathcmd.so.0 \
 libmpathpersist.so.0 \
 libmpathutil.so.0 \
 libmultipath.so.0 \
 libsystemd.so.0 \
-libudev.so.1 \
 liburcu.so.8 \
 sg3-utils \
 suse-module-tools \

@@ -46,26 +46,26 @@ StatefulGen g m => g -> m Word >>> monadicGen <- MWC.create >>> replicateM 10 \
 See 'System.Random.Stateful' for more details."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.1.1"
+PV = "1.3.1"
 
-RPM_NAME = "ghc-random-1.2.1.1-2.3.aarch64.rpm"
-RPM_HASH = "bbaa734ff0e00fab417c7aa830089b48f62e790459df8aa4790770081e3144cf2ec852708948971b9e184ec87571427289346a0f8358319f185b1e671f979131"
+RPM_NAME = "ghc-random-1.3.1-1.10.aarch64.rpm"
+RPM_HASH = "2dd217e585a55655374518f577cc19a8dfae8a55a84ad53761afbbb89c9ef699cf109e0aadc35d177a9f020fa22f93f195da828b79af6a2c34839a23f64d6e0e"
 
 RPROVIDES:${PN} += "ghc-random \
-libHSrandom-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k-ghc9.4.6.so"
+libHSrandom-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSmtl-2.2.2-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHSsplitmix-0.1.0.4-2jzLu9hw0mWH5mdbN14y0O-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSmtl-2.3.2-37ef-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHSsplitmix-0.1.3.2-4FIxgclJzmILwETMtGxhg4-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

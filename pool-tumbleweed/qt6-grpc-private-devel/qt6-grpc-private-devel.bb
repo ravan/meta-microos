@@ -3,12 +3,14 @@ DESCRIPTION = "This package provides private headers of libQt6Grpc that do not h
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-grpc-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "fca130b2ef194d2393e21ec0e625f35c99012144c1d15a5a3470e0aef704044609d6aa39309b0e3484edc9c2d1c33b5ade6f8a1565536d35e9d512b713b6e887"
+RPM_NAME = "qt6-grpc-private-devel-6.11.2-1.3.aarch64.rpm"
+RPM_HASH = "c135d74d808f5b92c3f7b2a7cf3b8fbb4aab7123899d2f814d8f9e4ceee5e08056878274da201fcb5818ba878e4d1b29e22ea31b2998fb36b69b5e5250ddb800"
 
-RPROVIDES:${PN} += "qt6-grpc-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6GrpcPrivate \
+cmake-Qt6GrpcQuickPrivate \
+qt6-grpc-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6Grpc"
 

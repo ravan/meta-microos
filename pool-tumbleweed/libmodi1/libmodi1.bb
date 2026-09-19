@@ -6,17 +6,17 @@ Supported formats include: \
 * Sparse bundle disk image \
 * Sparse disk image \
 * Universal Disk Image Format (UDIF) image \
-  * uncompressed \
-  * ADC compressed \
-  * bzip2 compressed \
-  * LZMA compressed \
-  * zlib/DEFLATE compressed"
+* uncompressed \
+* ADC compressed \
+* bzip2 compressed \
+* LZMA compressed \
+* zlib/DEFLATE compressed"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221023"
+PV = "20260902"
 
-RPM_NAME = "libmodi1-20221023-4.1.aarch64.rpm"
-RPM_HASH = "39307fa1396c68599c00ca694ee9131d16c02506ffda10de13b2f82bd473e598ec54d5423206196468b796b8745e9d276a63adb9ff54d47893300becdd78d3d0"
+RPM_NAME = "libmodi1-20260902-1.1.aarch64.rpm"
+RPM_HASH = "7920bf356ad7c750b0b30642f2b4cdfe28d926d36ec297f16612bc235417b77b6f62247d060cad9ad71eee9cd510997a3446c886e9e8f35fac16a6e7b9f0dcb8"
 
 RPROVIDES:${PN} += "libmodi.so.1 \
 libmodi1"

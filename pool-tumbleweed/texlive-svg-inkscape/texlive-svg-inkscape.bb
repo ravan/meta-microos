@@ -10,10 +10,10 @@ describes how to automate the conversion from SVG to PDF+LaTeX \
 using Inkscape."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn32199"
+PV = "2026.226.svn32199"
 
-RPM_NAME = "texlive-svg-inkscape-2023.209.svn32199-58.1.noarch.rpm"
-RPM_HASH = "345ef93e50246c6a03dcc0579bbf5dccfa11cf51c1bb26226bcf2fd7ca4c28c9b43c1504918971ddb1a76415a339860ce2647b96214b9c94ef2b1ddcb894dafa"
+RPM_NAME = "texlive-svg-inkscape-2026.226.svn32199-64.2.noarch.rpm"
+RPM_HASH = "5bdfb5ed0482df1549569ec4f2e89b4132beba7ee3b451b5eda49adc7a3cc84be684f37a9f3aad16f4c7aaab70f179bee64d747111b48c76e103162037850edc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-svg-inkscape"

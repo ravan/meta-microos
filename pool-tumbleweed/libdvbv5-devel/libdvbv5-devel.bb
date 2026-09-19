@@ -3,10 +3,10 @@ DESCRIPTION = "The libdvbv5-devel package contains libraries and header files fo
 developing applications that use libdvbv5."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.24.1"
+PV = "1.32.0"
 
-RPM_NAME = "libdvbv5-devel-1.24.1-1.4.aarch64.rpm"
-RPM_HASH = "784dc7bc4022daf131a89671c8360cc44a5f4f5ce2c792e55cf06f4e648e02e248fe827acbbe99e3529e938449fd2991356c1f833d1495ef91421b4d81b67ec5"
+RPM_NAME = "libdvbv5-devel-1.32.0-2.4.aarch64.rpm"
+RPM_HASH = "fe07a52803cdceb42d92c72593ccc5775de4877e481b0d76d9f7db57aed3a5e1ec07f8f6046c7c3ee5dcbdd1d5e3a0957652ea25cd3c8b4a22761ebeb0cce9e0"
 
 RPROVIDES:${PN} += "libdvbv5-devel \
 pkgconfig-libdvbv5"

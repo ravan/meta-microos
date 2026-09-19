@@ -4,10 +4,10 @@ creates, colors, and positions a bonsai tree, and is entirely \
 configurable via CLI options."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.1"
+PV = "1.4.2"
 
-RPM_NAME = "cbonsai-1.3.1-1.7.aarch64.rpm"
-RPM_HASH = "bb4270b76ba98d5f1eb2d3c6875b1cf7ce3b988c968eab0d1ed2bad318b8813447c0b442490abb7c6671bf11097101446546d2352c9e010494306b7ec7acbf32"
+RPM_NAME = "cbonsai-1.4.2-1.5.aarch64.rpm"
+RPM_HASH = "901e36b78cab228512e2078c6f8aacf425e0fae13dbed7bcd54b98898ba46f812c54a70caa858d0aac76ede6c6f613412c6a987337dedfa54bd58158276e718f"
 
 RPROVIDES:${PN} += "cbonsai"
 

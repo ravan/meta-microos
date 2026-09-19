@@ -5,10 +5,10 @@ as a project to digitize the typeface used to typeset the \
 Philokalia books."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn45356"
+PV = "2026.226.1.2svn45356"
 
-RPM_NAME = "texlive-philokalia-2023.209.1.2svn45356-52.1.noarch.rpm"
-RPM_HASH = "a0bbbfcccbc89c364ea010c59e3d4edc7ec3a01be4de669d9cf6a09d167b531b2c84352e41f362fdb2482614a34c95bf43c535496c3c25f8753cb512e63d9579"
+RPM_NAME = "texlive-philokalia-2026.226.1.2svn45356-58.2.noarch.rpm"
+RPM_HASH = "3f7c72e1a131dd9510fb2e43e63e2f90b710f6204311ce75ebafc56f6c351489df6f09bb6df20965149fbc47d5bb17c37f00f019dbf802d686441df5aa46ac37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-philokalia.sty \

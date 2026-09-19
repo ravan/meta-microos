@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.9"
 
-RPM_NAME = "python311-cauldron-notebook-1.0.9-1.5.noarch.rpm"
-RPM_HASH = "fc419e2e9bac1cd76b298c3d6352874356eca7f7a0421277ff558f98763b303e8b842d864275b833b95d493bc6f2e9fd647467888e3fa3ff338e95426ee60c32"
+RPM_NAME = "python311-cauldron-notebook-1.0.9-3.2.noarch.rpm"
+RPM_HASH = "efb3e943924506a3d6c789ce91ed554e36e663bf0194eca79f68e1f412738038c08e53134d034132db41184bd7e12384a9f09b335ce3328312bcd5bbed3d08c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cauldron-notebook \
@@ -25,6 +25,7 @@ python311-numpy \
 python311-pandas \
 python311-pygments \
 python311-requests \
+python311-waitress \
 update-alternatives"
 
 inherit rpm

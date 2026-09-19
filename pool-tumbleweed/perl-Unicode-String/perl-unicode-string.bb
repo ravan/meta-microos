@@ -20,8 +20,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "2.10"
 
-RPM_NAME = "perl-Unicode-String-2.10-1.34.aarch64.rpm"
-RPM_HASH = "9e1484b60104fa35dc73dab29988533765bb4db704d257bf6fdfea3ece86125695d75839d1576860b2700c416f9dd64b756da9ffb54f70d6f8af5354356c2ad5"
+RPM_NAME = "perl-Unicode-String-2.10-1.51.aarch64.rpm"
+RPM_HASH = "a39cf9507de7214dde15fddff43e98255b9d4d35c9dd82653dbf1af7986a42763719bc7296a03de6765aa3a837473e361b15b466f0f3437e0404a7319ae8a34f"
 
 RPROVIDES:${PN} += "perl-Unicode--CharName \
 perl-Unicode--String \
@@ -29,6 +29,6 @@ perl-Unicode-String"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of cjk-gs-integrate"
 DESCRIPTION = "Binary files of cjk-gs-integrate"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn37223"
+PV = "2026.20260301.svn37223"
 
-RPM_NAME = "texlive-cjk-gs-integrate-bin-2023.20230311.svn37223-93.2.aarch64.rpm"
-RPM_HASH = "da46f9e9c3d8cc10ca73a527e7aa1bdf09c2fcaaff667f3b63829f4d4bd4f609b394fa31c5b7e0d413c764ef58e85a9e2ee31ae2959ca3edd909da0cf8bfca08"
+RPM_NAME = "texlive-cjk-gs-integrate-bin-2026.20260301.svn37223-120.4.aarch64.rpm"
+RPM_HASH = "c56e9cd35b59be04db700572ef2d687ddec24052010e2d4663fa5b0694571ad8e9713159a40f46623f9a5a4fda354a57254633d61e0035221c1fed59f2b4e13f"
 
 RPROVIDES:${PN} += "texlive-cjk-gs-integrate-bin"
 

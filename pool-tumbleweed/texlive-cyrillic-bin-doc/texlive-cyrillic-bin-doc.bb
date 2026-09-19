@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cyrillic-bin"
 DESCRIPTION = "This package includes the documentation for texlive-cyrillic-bin"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn62517"
+PV = "2026.226.svn62517"
 
-RPM_NAME = "texlive-cyrillic-bin-doc-2023.209.svn62517-55.1.noarch.rpm"
-RPM_HASH = "0650080d2cbdd60d353268d9961b7c2927e58c455b240157099d4356a3e7e42c12f650863a0666d0ea82e23808ebd10b8778417dcfab236c4af4fac58e6e59af"
+RPM_NAME = "texlive-cyrillic-bin-doc-2026.226.svn62517-61.2.noarch.rpm"
+RPM_HASH = "c483d527952459438cfb3a017742d98af1f9429c3b4b4a51df57b5ee58586b6c42e2ce04c2e055f07a6b8ca14b3e813b41f697e7f6b0ceb94b06679b95e0cb32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-rubibtex.1 \

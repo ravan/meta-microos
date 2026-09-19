@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for hut"
 DESCRIPTION = "The official fish completion script for hut."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "0.3.0"
+PV = "0.8.0"
 
-RPM_NAME = "hut-fish-completion-0.3.0-1.3.noarch.rpm"
-RPM_HASH = "201ee36beda1d4407446ff77d27bb7979a60bf5476dc9a8d954048c0f2880d72b12227848801ef96534395086c17ee9c3e1e924aea969bf1164bb75c94b9fad4"
+RPM_NAME = "hut-fish-completion-0.8.0-1.4.noarch.rpm"
+RPM_HASH = "e20623276089e28dc5b34bea34845f3b64b573803305d44d2c353f187548fcbb8ca45d8faa3aef7459c5f070823219014eb8cc3748615a334df28e5ce64e502c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hut-fish-completion"

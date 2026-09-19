@@ -5,10 +5,10 @@ This prevents TeX from optimising away maths penalties and the \
 like, that are needed when the material is \\unhbox'ed."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.2svn54254"
+PV = "2026.226.1.2svn54254"
 
-RPM_NAME = "texlive-outerhbox-2023.209.1.2svn54254-55.1.noarch.rpm"
-RPM_HASH = "415c43d0c09e9dcf895e4ece2a093d618a809f6a2c942255a044a91f419dd064c7d069b29ebe52b697ae2e0e8ac6971dc82de2aaf3dbbc2922fc1be3ec9213cf"
+RPM_NAME = "texlive-outerhbox-2026.226.1.2svn54254-61.2.noarch.rpm"
+RPM_HASH = "6ac97e6e0ed592b5c6a4f3c3122e8d991b3162dc5250cb4681a76af66bcc2b1cc9b7f69db80c15efe48731bd845707ec60c2866860b4f71f7d26dd2449e20ed5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-outerhbox.sty \

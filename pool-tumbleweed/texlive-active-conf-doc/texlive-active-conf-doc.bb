@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-active-conf"
 DESCRIPTION = "This package includes the documentation for texlive-active-conf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3asvn15878"
+PV = "2026.226.0.0.3asvn15878"
 
-RPM_NAME = "texlive-active-conf-doc-2023.209.0.0.3asvn15878-55.1.noarch.rpm"
-RPM_HASH = "9902944e323428e2ea63444579ed3dffefcb9e224c741614eb878b6b803b2585b8b7614d15834acbfe1388d637b9f7080d19386632670d8413e128c500580d4b"
+RPM_NAME = "texlive-active-conf-doc-2026.226.0.0.3asvn15878-61.2.noarch.rpm"
+RPM_HASH = "f5326fe47079344558116adbb8fbb6c5e663c57681be9545378ef01b6acf2da21f61610fb355550be3d60de8d30dd710e83f439c8c28ec71bb3fc47111a4c3a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-active-conf-doc"

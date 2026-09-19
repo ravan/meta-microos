@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-padcount"
 DESCRIPTION = "This package includes the documentation for texlive-padcount"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn47621"
+PV = "2026.226.1.0svn47621"
 
-RPM_NAME = "texlive-padcount-doc-2023.209.1.0svn47621-52.1.noarch.rpm"
-RPM_HASH = "c65fe482694930413fc113c687603e91e9371cd6ce42ec9da4a9f88967253b81ada136e769f14c11a4adda57895f92a50d3017addfc9bd5fc3c35841baad518f"
+RPM_NAME = "texlive-padcount-doc-2026.226.1.0svn47621-58.2.noarch.rpm"
+RPM_HASH = "2d247e39b9e00642f84b9871e11ba083ee05b60cff88d2a00aef4cdb87df40df4a188cdd84850198ab5c783c232f0f9f3a0a32df6937b606ae5fd1a307402c3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-padcount-doc"

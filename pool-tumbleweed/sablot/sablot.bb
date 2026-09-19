@@ -1,12 +1,12 @@
 SUMMARY = "XSL Processor"
 DESCRIPTION = "Sablotron is an XSL processor fully implemented in C++. The excellent \
 Expat parser is used as the associated XML parser."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.3"
 
-RPM_NAME = "sablot-1.0.3-130.29.aarch64.rpm"
-RPM_HASH = "265224883710bff2bce22a7445405c7c43b9dbb425b01485af4c687eacdf917a9fb373cd104ebfe650b89b6a508454d761fa7371bb72043e21078aceb0e7f776"
+RPM_NAME = "sablot-1.0.3-132.1.aarch64.rpm"
+RPM_HASH = "ba64d06ed5060f887e15fe84d67ac7845aed310bdd9800f1747aa47180c70580db6d1cde8224ca5270b23f297959969804596e726788a6965ce4c4174fd29e06"
 
 RPROVIDES:${PN} += "libsablot.so.0 \
 sablot \

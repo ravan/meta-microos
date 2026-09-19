@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1+git20160312.ffef7d0"
 
-RPM_NAME = "erlang-retest-src-1.1.1+git20160312.ffef7d0-1.26.aarch64.rpm"
-RPM_HASH = "305bbd1816833941672349c2c21d9bd4a06d74223e33d7d656c0d9cded8384f8d17c9db7578988f391094488cf33780397caed12cb59da6a66caf9ea61f21d6d"
+RPM_NAME = "erlang-retest-src-1.1.1+git20160312.ffef7d0-2.11.aarch64.rpm"
+RPM_HASH = "d595bf1ad3e804ea90b3ee7c072f3be44abce0b9ca5cf554fc1223e9c3b2b11e2b46a319a9704e347b2ea6a74fb1cb2ebc0f2ce8d9207eda777967d986a3a042"
 
 RPROVIDES:${PN} += "erlang-retest-src"
 

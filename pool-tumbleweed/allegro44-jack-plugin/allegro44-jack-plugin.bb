@@ -5,8 +5,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "4.4.3.1"
 
-RPM_NAME = "allegro44-jack-plugin-4.4.3.1-1.16.aarch64.rpm"
-RPM_HASH = "24d8eefd024d635e88576721a06ab46221c70bced715129910add9f1b60beca66a2c32455b81297f238a3f92abb690dd316279f7b2ef3538750ef89891c14468"
+RPM_NAME = "allegro44-jack-plugin-4.4.3.1-1.29.aarch64.rpm"
+RPM_HASH = "88cc7b7c8d5fbb43680b8214f3f0a8938adceca366158c569fd340b439183a352e27c28a87ce56ce6d405a85fda74579113083b0ee7d6c153a03285ab3dbf60b"
 
 RPROVIDES:${PN} += "allegro44-jack-plugin"
 

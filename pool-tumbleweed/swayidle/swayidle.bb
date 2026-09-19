@@ -2,10 +2,10 @@ SUMMARY = "Idle management daemon for Wayland"
 DESCRIPTION = "sway's idle management daemon. It is compatible with any Wayland compositor which implements the KDE idle protocol."
 LICENSE = "MIT"
 
-PV = "1.8.0"
+PV = "1.9.0"
 
-RPM_NAME = "swayidle-1.8.0-1.3.aarch64.rpm"
-RPM_HASH = "15dd61886a3401d9b6c0962eaf6158c3ca0ded10a87309a8425bfb259af075279db0eb3ea45dd54d131cc9f2aeed32a95116f0f949d21620963571330a05bf54"
+RPM_NAME = "swayidle-1.9.0-1.5.aarch64.rpm"
+RPM_HASH = "58f47813ec8f312c92d99033d1f97849a09a85a2ff67eec3e5147f015fa490ede6030d2c73b7b130c6f1ac446ad48b1536395904d3a886a91c7bfb79ec247825"
 
 RPROVIDES:${PN} += "swayidle"
 

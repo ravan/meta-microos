@@ -6,10 +6,10 @@ OpenGL, or as a multimedia library for building games and interactive \
 programs."
 LICENSE = "Zlib"
 
-PV = "2.6.0"
+PV = "2.6.1"
 
-RPM_NAME = "libsfml2-2_6-2.6.0-1.1.aarch64.rpm"
-RPM_HASH = "b1b834b39ce478e68aaf2b46bb6d999ecaf9e96bc55a7260dfde8a9d05bbddece927d0e2452daa6c21829d88abfe29164c2ddcaba828351b0baf7dee419e2a67"
+RPM_NAME = "libsfml2-2_6-2.6.1-2.8.aarch64.rpm"
+RPM_HASH = "d827fa098d0644be7afbbda74a974d334e74d43b045485f442552cb950b928709e6bd484c6244c5882fc2faa58089a618faf9de1816900cc3ca1a66f7b4635a0"
 
 RPROVIDES:${PN} += "libsfml-audio.so.2.6 \
 libsfml-graphics.so.2.6 \
@@ -20,7 +20,7 @@ libsfml2-2-6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libX11.so.6 \
 libXcursor.so.1 \
 libXrandr.so.2 \

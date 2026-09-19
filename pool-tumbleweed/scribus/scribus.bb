@@ -7,10 +7,10 @@ PDF creation, Encapsulated Postscript import and export and creation \
 of color separations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.8"
+PV = "1.6.6"
 
-RPM_NAME = "scribus-1.5.8-5.1.aarch64.rpm"
-RPM_HASH = "0a74b6d9e7e3cc751672e4a7a606d48c8c2d8256d8e9bcaacaf5aa0a34cb637139cf15793a1ce34a4744c212c27d0ddc21e413d54c7e66896a2c9aeaa98293e8"
+RPM_NAME = "scribus-1.6.6-4.1.aarch64.rpm"
+RPM_HASH = "f4a44b51746243af719cd6dd88e18354f52131236b96ec1cf8a9331c191d811f39a44f4030e26b41c0a8c5bcc7c9624699bb78bea94ceaedc8f36d41c38e6bb3"
 
 RPROVIDES:${PN} += "libMARKDOWNimplugin.so \
 libbarcodegenerator.so \
@@ -102,15 +102,16 @@ libharfbuzz-icu.so.0 \
 libharfbuzz-subset.so.0 \
 libharfbuzz.so.0 \
 libhunspell-1.7.so.0 \
-libicuuc.so.73 \
+libicuuc.so.78 \
 libjpeg.so.8 \
 liblcms2.so.2 \
 libm.so.6 \
 libmspub-0.1.so.1 \
 libpagemaker-0.0.so.0 \
 libpng16.so.16 \
-libpoppler.so.130 \
-libpython3.11.so.1.0 \
+libpodofo.so.4 \
+libpoppler.so.162 \
+libpython3.13.so.1.0 \
 libqxp-0.0.so.0 \
 librevenge-0.0.so.0 \
 librevenge-generators-0.0.so.0 \
@@ -118,7 +119,7 @@ librevenge-stream-0.0.so.0 \
 libstdc++.so.6 \
 libtiff.so.6 \
 libvisio-0.1.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 libzmf-0.0.so.0"
 

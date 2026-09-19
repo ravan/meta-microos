@@ -1,22 +1,30 @@
 SUMMARY = "Jabber Perl Library"
-DESCRIPTION = "Net::Jabber is a convenient tool to use for any perl script that would \
-like to utilize the Jabber Instant Messaging protocol. While not a \
-client in and of itself, it provides all of the necessary back-end \
-functions to make a CGI client or command-line perl client feasible and \
-easy to use. Net::Jabber is a wrapper around the rest of the official \
-Net::Jabber::xxxxxx packages. \
+DESCRIPTION = "  Net::Jabber is a convenient tool to use for any perl script that would \
+  like to utilize the Jabber Instant Messaging protocol.  While not a \
+  client in and of itself, it provides all of the necessary back-end \
+  functions to make a CGI client or command-line perl client feasible and \
+  easy to use.  Net::Jabber is a wrapper around the rest of the official \
+  Net::Jabber::xxxxxx packages. \
+ \
+  There is are example scripts in the example directory that provide you \
+  with examples of very simple Jabber programs. \
  \
  \
- \
-Authors: \
--------- \
-    Ryan Eatmon <reatmon@ti.com>"
-LICENSE = "Artistic-1.0"
+  NOTE: The parser that XML::Stream::Parser provides, as are most Perl \
+  parsers, is synchronous.  If you are in the middle of parsing a packet \
+  and call a user defined callback, the Parser is blocked until your \
+  callback finishes.  This means you cannot be operating on a packet, \
+  send out another packet and wait for a response to that packet.  It \
+  will never get to you.  Threading might solve this, but as of the \
+  writing of this, threading in Perl is not quite up to par yet.  This \
+  issue will be revisted in the future."
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.0"
+PV = "2.0.0"
 
-RPM_NAME = "perl-Net-Jabber-2.0-189.31.aarch64.rpm"
-RPM_HASH = "27ac9984f33226c1731e84354c6ed22ef12a4bc17b9ffc0d21257551c83ae80fa4dfa4b77735f69a942d5b18e098bc5311ee2f285fd0d0250cae5cf1bf0afec4"
+RPM_NAME = "perl-Net-Jabber-2.0.0-1.9.noarch.rpm"
+RPM_HASH = "df7f7be6f018ee24250c5d5fb3a1e682624c9fc3f357a5df76ba1db9aa2c2c19a074566da6c407f293aa79b33730ef984d5f54919161d76d311b3790f33a37a0"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Jabber \
 perl-Net--Jabber--Client \
@@ -37,13 +45,12 @@ perl-Net--Jabber--Protocol \
 perl-Net--Jabber--Server \
 perl-Net--Jabber--Stanza \
 perl-Net--Jabber--XDB \
-perl-Net-Jabber"
+perl-Net-Jabber \
+perl-Test--Builder \
+perl-Test--More \
+perl-Test--Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-Authen-SASL \
-perl-Digest-SHA1 \
-perl-Net-XMPP \
-perl-Unicode-String \
-perl-XML-Stream"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Net--XMPP"
 
 inherit rpm

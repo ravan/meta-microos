@@ -5,10 +5,10 @@ Plain TeX documents. The paragraphs generated contain many \
 ligatures of the font in use."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.3svn30353"
+PV = "2026.226.4.3svn30353"
 
-RPM_NAME = "texlive-plipsum-2023.209.4.3svn30353-53.1.noarch.rpm"
-RPM_HASH = "0cdd1baed5860ddb7b8d58418ab5276496daea5f87a6c1232d663ba1d38ccf1b2a2a8a977a7ac0d9e5220db02155bdfd423672ebc1225f648f235bb8a7e551a9"
+RPM_NAME = "texlive-plipsum-2026.226.4.3svn30353-59.2.noarch.rpm"
+RPM_HASH = "e33d24cf0c7e6f7204d22513ed23832c072380b903fadd9cfac08cb8961d35dcb1d49201e8284f6ecbc43b38d72cfe01ccaae50313c0d35783d439f2f5b3b4ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plipsum.tex \

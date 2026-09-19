@@ -3,10 +3,10 @@ DESCRIPTION = "HarfBuzz is an OpenType text shaping engine. \
 This package contains the Cairo library."
 LICENSE = "MIT"
 
-PV = "8.1.1"
+PV = "14.4.0"
 
-RPM_NAME = "libharfbuzz-cairo0-8.1.1-1.1.aarch64.rpm"
-RPM_HASH = "1d1d6182af1b09c5d0f5da44dbf7056a775747ff57dcc9ff31848934f3b89282854336ee1653c762863fba16748e839b3de40b5b47615290897db3881f960323"
+RPM_NAME = "libharfbuzz-cairo0-14.4.0-1.1.aarch64.rpm"
+RPM_HASH = "ae4ffce596a8d5c1cf65a1d7dca6985b6c56d356c19c38b098fc0da1bf4a45b841bf7fada62381d02ebada4d892834d66f3c3260f145369f1aceaafc43ce2635"
 
 RPROVIDES:${PN} += "libharfbuzz-cairo.so.0 \
 libharfbuzz-cairo0"

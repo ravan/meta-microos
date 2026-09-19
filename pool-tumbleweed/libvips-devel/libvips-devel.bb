@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development files for developing applic
 want to make use of the VIPS library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "8.14.2"
+PV = "8.18.5"
 
-RPM_NAME = "libvips-devel-8.14.2-1.1.aarch64.rpm"
-RPM_HASH = "4b29a430be5fdefe283a4d9be75274ac51b50f24a886c4ef7c011e036b0ac17c7d296fca74bbbb6cc57cb3bd47fb675ef5bcfeb13c713f50604f7d98bfa46b80"
+RPM_NAME = "libvips-devel-8.18.5-1.3.aarch64.rpm"
+RPM_HASH = "06c0228efce49ba50304a2e08875da4eef9cfef4ac01eafe9ca07a4b5056ff3f9e74532c4d71627908ed195d0bcfb93143f43815442d44c398b1bf8619fc79c3"
 
 RPROVIDES:${PN} += "libvips-devel \
 pkgconfig-vips \
@@ -27,18 +27,19 @@ pkgconfig-gmodule-no-export-2.0 \
 pkgconfig-gobject-2.0 \
 pkgconfig-imagequant \
 pkgconfig-lcms2 \
+pkgconfig-libarchive \
 pkgconfig-libexif \
-pkgconfig-libgsf-1 \
+pkgconfig-libhwy \
 pkgconfig-libjpeg \
 pkgconfig-libopenjp2 \
 pkgconfig-libpng \
+pkgconfig-libraw-r \
 pkgconfig-librsvg-2.0 \
 pkgconfig-libtiff-4 \
 pkgconfig-libwebp \
 pkgconfig-libwebpdemux \
 pkgconfig-libwebpmux \
 pkgconfig-matio \
-pkgconfig-orc-0.4 \
 pkgconfig-pangocairo \
 pkgconfig-pangoft2 \
 pkgconfig-vips \

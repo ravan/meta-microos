@@ -1,42 +1,40 @@
 SUMMARY = "Cloud node initialization tool"
 DESCRIPTION = "Cloud-init is an init script that initializes a cloud node (VM) \
 according to the fetched configuration data from the admin node."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-3.0"
 
-PV = "23.1.2"
+PV = "25.1.3"
 
-RPM_NAME = "cloud-init-23.1.2-1.1.aarch64.rpm"
-RPM_HASH = "94baaaf676b0dfff4931f066462ab313ce393d210b4ce6d96a99eef8ca75d6c9991f4fc9cdcc365b02eab817800978d1a20c0856017ddfddf26c22134085d711"
+RPM_NAME = "cloud-init-25.1.3-6.1.aarch64.rpm"
+RPM_HASH = "907dbff9f970f1083911e4273c1aad9a3e2be2cd9c34a301a2f34a5caaf00a48f6fa6fdae978bdcd1797babf3b6d23d1e57c85077582242f02f10be585743c7b"
 
 RPROVIDES:${PN} += "cloud-init \
 config-cloud-init \
-python3.11dist-cloud-init \
+python3.13dist-cloud-init \
 python3dist-cloud-init"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 bash \
 cloud-init-config \
-dhcp-client \
 e2fsprogs \
 file \
 growpart \
 net-tools \
 openssh \
+procps \
 python-abi \
-python3-Jinja2 \
-python3-PyYAML \
-python3-configobj \
-python3-jsonpatch \
-python3-jsonschema \
-python3-netifaces \
-python3-oauthlib \
-python3-pyserial \
-python3-requests \
-python3-serial \
-python3-setuptools \
-python3-xml \
+python313-Jinja2 \
+python313-PyYAML \
+python313-configobj \
+python313-jsonpatch \
+python313-jsonschema \
+python313-oauthlib \
+python313-passlib \
+python313-pyserial \
+python313-requests \
+python313-setuptools \
+python313-xml \
 sudo \
 systemd \
 util-linux \

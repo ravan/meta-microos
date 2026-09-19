@@ -5,10 +5,10 @@ features like repeating appointments and multiple alarming possibilities. Orage 
 does not have group calendar features and can only be used for single user."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.3"
 
-RPM_NAME = "orage-4.18.0-1.4.aarch64.rpm"
-RPM_HASH = "f025bd1f7f841317b80208af7ea1d2f1f594519998c58a9f17733c15f44641b891bf383baa5fc0561159c89f18c43e87f5a019918c8c0059885caf6089a80d42"
+RPM_NAME = "orage-4.20.3-1.3.aarch64.rpm"
+RPM_HASH = "ca142efebda313f3f827222d92c223099a50394194f7b891835381796f86ab2be74d3117ef09510720e685a668acddcf36dc73b90217155c95a61f56dd8fbb62"
 
 RPROVIDES:${PN} += "orage \
 orage-doc \
@@ -16,7 +16,6 @@ xfcalendar"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcairo.so.2 \
 libgdk-3.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
@@ -25,8 +24,6 @@ libgtk-3.so.0 \
 libical.so.3 \
 libicalss.so.3 \
 libnotify.so.4 \
-libpango-1.0.so.0 \
-libpangocairo-1.0.so.0 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7"
 

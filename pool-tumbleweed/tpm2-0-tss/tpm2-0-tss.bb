@@ -5,15 +5,16 @@ see the tpm2.0-abrmd package for the resource manager daemon, tpm2.0-tools for \
 utilities."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.0.1"
+PV = "4.1.3"
 
-RPM_NAME = "tpm2-0-tss-4.0.1-2.1.aarch64.rpm"
-RPM_HASH = "42a9c689b543581b3ac13a1963e6c44af5f19a781c80a15c18191fc44e51bee22a59eab47cb5b387a799a580cc305fc1918a4b33056b71d2cf455b263cb3c4e8"
+RPM_NAME = "tpm2-0-tss-4.1.3-1.6.aarch64.rpm"
+RPM_HASH = "fbe8422ac55ab7d7eb59b4787a2613d0db6b9b3f0bbf9f0eed2e342d353f761a3a3ca49235d8f53bed86f207e8caa832a88a67e8ec9234039f54cde665f8a8d0"
 
 RPROVIDES:${PN} += "config-tpm2-0-tss \
 tpm2-0-tss"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+udev \
 user-tss"
 
 inherit rpm

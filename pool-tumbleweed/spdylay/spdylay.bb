@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "spdylay-1.4.0-3.27.aarch64.rpm"
-RPM_HASH = "7150b533f9eca213a051970715bb3e09f7ef91270c03ae750738fc89f3eaa95f378fd3de28fbbc846fdeeaec04f96a22e64cb7bbaf815efddc0ad6347ff02919"
+RPM_NAME = "spdylay-1.4.0-3.38.aarch64.rpm"
+RPM_HASH = "486c36ee7c04d6ef925376a955d830d6b1350c8dfc8abab1bc7b4e28c357207b7baf48f70180d8323ec2fd154f554dbcfa75661e4201bcb1298ad8d95e21aa25"
 
 RPROVIDES:${PN} += "spdylay"
 
@@ -24,7 +24,7 @@ libgcc-s.so.1 \
 libspdylay.so.7 \
 libssl.so.3 \
 libstdc++.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

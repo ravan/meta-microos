@@ -2,10 +2,10 @@ SUMMARY = "Library for creating and reading trace-cmd data files"
 DESCRIPTION = "Library for creating and reading trace-cmd data files"
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.3.1"
+PV = "1.5.5"
 
-RPM_NAME = "libtracecmd1-1.3.1-2.4.aarch64.rpm"
-RPM_HASH = "a2f8f9c7a515232e5b0e086bcf436a3bf057c675e4ff7391a7dbf2cda314c31e25db88ed8a3b276313136081d211debb991f00d65d89588f6aaffaef55b728d4"
+RPM_NAME = "libtracecmd1-1.5.5-1.2.aarch64.rpm"
+RPM_HASH = "c6749cf2d5d81f87def0f48774cc32172dd6cfb77197af4ad49016465686eaab8a1d27e817eb42427da58e22e82f5fab4304e10ac742ab550f05939d0f0609f5"
 
 RPROVIDES:${PN} += "libtracecmd.so.1 \
 libtracecmd1"

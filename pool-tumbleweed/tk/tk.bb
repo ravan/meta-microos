@@ -12,10 +12,10 @@ Authors: \
     The Tcl Core Team <tcl-core@lists.sourceforge.net>"
 LICENSE = "TCL"
 
-PV = "8.6.13"
+PV = "8.6.18"
 
-RPM_NAME = "tk-8.6.13-1.4.aarch64.rpm"
-RPM_HASH = "40d993a9ab2bf529277c2504a3cd92df5c72e14f5700ddc05ef42db1ab1dc2a89eb989def59dc49d5afb0fe5e339a12877d9b4062e4a5bf3e630c9654ef8eba5"
+RPM_NAME = "tk-8.6.18-1.3.aarch64.rpm"
+RPM_HASH = "5eb835fcc8c85f477c0a64534732c83c8f4882c84f7730f3c9ceb57584c7d4d2e6d15f28823d19f7984790a4925fa28e33ec65af9cdeb2c9284c9f050ebf97a2"
 
 RPROVIDES:${PN} += "libtk8.6.so \
 tk \

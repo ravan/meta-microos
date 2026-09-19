@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-withargs"
 DESCRIPTION = "This package includes the documentation for texlive-withargs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.1svn52641"
+PV = "2026.226.0.0.3.1svn76924"
 
-RPM_NAME = "texlive-withargs-doc-2023.209.0.0.3.1svn52641-54.1.noarch.rpm"
-RPM_HASH = "1c07195cb5686d3130fda6bf9bbad108b43c7cab44cb7b1831c508b8b2847787616ca2ee0e6c4c8ebc4ce3011fdf9f08a4b61ba15732d856d1ec4401227e3dea"
+RPM_NAME = "texlive-withargs-doc-2026.226.0.0.3.1svn76924-60.2.noarch.rpm"
+RPM_HASH = "e03f0c2ac9216b89e67c8bbfcfd6c8f3de0cef541fe7c0e7ba3a202985d4be4a89025686f51dd3165aec01abf79879c84afdb940836b5907f4e67a5b1a177a71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-withargs-doc"

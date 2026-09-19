@@ -2,10 +2,10 @@ SUMMARY = "Header files for libdict"
 DESCRIPTION = "Development and header files for libdict."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.0.1"
+PV = "1.0.3"
 
-RPM_NAME = "libdict-devel-1.0.1-1.4.aarch64.rpm"
-RPM_HASH = "41aa8ba8ecdc171835c68c0789e7d1885ee081d1347a019a6b0e95b8eec0c9bd370fdefb786f2974253b18b7c8001aae9ab3ec9d1de460f45ffdf549e419951d"
+RPM_NAME = "libdict-devel-1.0.3-1.11.aarch64.rpm"
+RPM_HASH = "1cf9974ac2e14c6f6c0ef91f434f048c84e867f88755ae71e0fbf851d162c94fb75c90b9a5dbacbdaef3a5ab60f5d0827b6904aec3a104fd055f45989ef4b324"
 
 RPROVIDES:${PN} += "libdict-devel"
 

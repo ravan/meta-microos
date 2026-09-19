@@ -32,14 +32,14 @@ LICENSE = "ISC"
 
 PV = "1.18.10"
 
-RPM_NAME = "lv2-devel-1.18.10-2.1.aarch64.rpm"
-RPM_HASH = "86cb09e25cd6da1e47c26eda331efa19fad3f60a3fdc1906755bb3df63ffc0e5049c67f3a859afa4eb0b93e81dc8694ae382931190a145b4b07cf9df9462b520"
+RPM_NAME = "lv2-devel-1.18.10-3.11.aarch64.rpm"
+RPM_HASH = "7316e9e6c233a5b365aaddbd325a216443aec201c8f1889f9e45468d48c80f5d65c63f9db569987adfb835fba20b184544d26835400cd6666a8576d7e42cd065"
 
 RPROVIDES:${PN} += "lv2-devel \
 pkgconfig-lv2"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 lv2"
 
 inherit rpm

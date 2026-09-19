@@ -32,26 +32,27 @@ For Windows, the package [windns](https://hackage.haskell.org/package/windns) \
 provides a compatible subset of this package's API."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.2.0"
+PV = "0.2.0.3"
 
-RPM_NAME = "ghc-resolv-0.1.2.0-10.8.aarch64.rpm"
-RPM_HASH = "f57165a9d1024b1c42bca19c69aec190fc11dc976d80db0d9376c50179fe0be933901c91f43b6233dcd6204815ea8e9b289dd50584d364e57fda619fd9699edf"
+RPM_NAME = "ghc-resolv-0.2.0.3-1.9.aarch64.rpm"
+RPM_HASH = "7bba7878e552319d4e6f1828daafb0aa959a41db7b1c91ad3032c9b1511dcdb0db7eb2a028f8291e5c4782226e5a87bac89b18a4e8639024e0f580a506072ebe"
 
 RPROVIDES:${PN} += "ghc-resolv \
-libHSresolv-0.1.2.0-LPfwrdmMO1tC4Sn0ebxMDl-ghc9.4.6.so"
+libHSresolv-0.2.0.3-2a3UXbRQZR0IVSb1MrCNb4-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSbase16-bytestring-1.0.2.0-LI31ya5OMpR4awBMr256aJ-ghc9.4.6.so \
-libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSbytestring-0.11.5.1-ghc9.4.6.so \
-libHScontainers-0.6.7-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSarray-0.5.8.0-2a42-ghc9.12.4.so \
+libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSbase16-bytestring-1.0.2.0-IiVu4f3aSfMH2rpDgRP1QL-ghc9.12.4.so \
+libHSbinary-0.8.9.3-9861-ghc9.12.4.so \
+libHSbytestring-0.12.2.0-65be-ghc9.12.4.so \
+libHScontainers-0.7-d5e1-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

@@ -3,10 +3,10 @@ DESCRIPTION = "The 'Gentle Introduction' is the longest-established \
 comprehensive free tutorial on the use of plain TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-gentle-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "1648490d63d74d4a49b9e022ab5a570209395e7b9435916b54b2a5c31f0c01776951f9ced856ffff88c34b79c9c9bab65391176a4309a42aac1ecc873382ff2b"
+RPM_NAME = "texlive-gentle-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "b54befd2e435fa87b81951f0b6dd9c728c31163aded514389315de2034eff0e3900d9662472184cc567a9c10e9e925c6883c684092e5b79eedcf25157201fbc9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gentle"

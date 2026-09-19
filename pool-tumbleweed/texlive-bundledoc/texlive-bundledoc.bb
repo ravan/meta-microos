@@ -12,10 +12,10 @@ document, together with the document itself, using the \
 filecontents* environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.4svn64620"
+PV = "2026.226.3.5svn74306"
 
-RPM_NAME = "texlive-bundledoc-2023.209.3.4svn64620-53.1.noarch.rpm"
-RPM_HASH = "94ce57ed7efc2d52f452458e6dfe95c345a24b1caccdff1fdc66f0627e5e5d07160a8672167f458da874d88622916a3b1612bea74c2181dbb02d4260abc1d79d"
+RPM_NAME = "texlive-bundledoc-2026.226.3.5svn74306-59.2.noarch.rpm"
+RPM_HASH = "9eedef03431599a7308a63f5952dab836776679d2d500b88bb8c65266f4eea595dd17cf836246ae68569e39eede60f10c5d14f51a406514c55132c597692dbba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-miktex.cfg \
@@ -38,6 +38,7 @@ perl-File--Spec--Functions \
 perl-File--Temp \
 perl-Getopt--Long \
 perl-Pod--Usage \
+perl-String--ShellQuote \
 perl-strict \
 perl-warnings \
 sed \

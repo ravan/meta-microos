@@ -2,17 +2,20 @@ SUMMARY = "Severed fonts for texlive-gfsdidot"
 DESCRIPTION = "The  separated fonts package for texlive-gfsdidot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54080"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-gfsdidot-fonts-2023.209.svn54080-53.1.noarch.rpm"
-RPM_HASH = "69fa87bf034da1aa6954e1677d78a8b92de342454e8dc60bda08793ea55c603d1716d985b53ae22295089919b252a12692873364e467b534b802899fcc3435a3"
+RPM_NAME = "texlive-gfsdidot-fonts-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "a34eea1b750180b9d185266c7cd7aaa147670369c53b49c7afb45affd5fbd29b88e9f5d6eb2d18b060c2b62e6b1aa1240dc4847b1ec15829a378281b67b028e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gfsdidot-fonts \
 font--lang=aa \
 font--lang=af \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=bin \
 font--lang=br \
@@ -26,6 +29,7 @@ font--lang=csb \
 font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=el \
 font--lang=en \
 font--lang=eo \
@@ -64,16 +68,22 @@ font--lang=la \
 font--lang=lb \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=miq \
+font--lang=mjw \
 font--lang=ms \
 font--lang=mt \
 font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -107,24 +117,30 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-gfsdidot \
 font-gfsdidotrg \
 font-gfsolga \
+font-gfsolgagrdidotiten \
 texlive-gfsdidot-fonts"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

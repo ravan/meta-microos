@@ -3,10 +3,10 @@ DESCRIPTION = "Two Georgian fonts, in both Metafont and Type 1 formats, which \
 cover the Mxedruli and the Xucuri alphabets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.3csvn30021"
+PV = "2026.226.3.3csvn71991"
 
-RPM_NAME = "texlive-mxedruli-2023.209.3.3csvn30021-55.1.noarch.rpm"
-RPM_HASH = "79f0a4c34ae6b76224f53ad74b77d342927b92ee474c52153589a7ea52620d627f8e7495856f4a44536498dfe91a32c706aaba42725a19a906299477317ff519"
+RPM_NAME = "texlive-mxedruli-2026.226.3.3csvn71991-61.2.noarch.rpm"
+RPM_HASH = "fd39fd7d144bca0f08fe422c1ea4bdaa39d3a331b564da786427fd4ea3b4cfce82f7b6a6ca0f7515052def76f1b3bbf00e97562c2127c72b27d2527d0436f757"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mxed10.tfm \

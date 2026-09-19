@@ -7,14 +7,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.3.2"
 
-RPM_NAME = "ledger-3.3.2-1.1.aarch64.rpm"
-RPM_HASH = "a0f1c2b64224b87c492311d08b27005f3604151262070929ab115aeb29ef91386b9c9c35a2247176f9955d33a1711edcb09b3e6409c0f7de37b9be6b8de245db"
+RPM_NAME = "ledger-3.3.2-4.8.aarch64.rpm"
+RPM_HASH = "1db4711c53e0ee8f54345da3566ccfbed05165317658db973928030a40509937c8e5e2fe66ca45aaa76abb5835e85197ed5ea20644b3495a7613008204db4135"
 
 RPROVIDES:${PN} += "ledger"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libboost-filesystem.so.1.82.0 \
-libboost-iostreams.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
+libboost-iostreams.so.1.91.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libgmp.so.10 \

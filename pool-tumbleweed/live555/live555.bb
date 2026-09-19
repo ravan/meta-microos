@@ -4,10 +4,10 @@ using open standard protocols (RTP/RTCP, RTSP, SIP). These libraries \
 can be used to build streaming applications"
 LICENSE = "LGPL-2.1-only"
 
-PV = "2023.05.10"
+PV = "2026.08.25"
 
-RPM_NAME = "live555-2023.05.10-1.1.aarch64.rpm"
-RPM_HASH = "f820f182ac4e5bbb76df7a80d6e453de52aef374930ed224359281dea333aa111b49b84cfd1e987612bb5c4ce87f39328dacdadc515a2e0b438cb2fe19fbca66"
+RPM_NAME = "live555-2026.08.25-1.1.aarch64.rpm"
+RPM_HASH = "e70188390ca47867052c3f17714b9a89f28567cc5cb87e7f7c3f9e857429e43137b8abcc2b05c27166b2eac84f6832f3d3067566b2e9de34bd27aeb181d71228"
 
 RPROVIDES:${PN} += "live555"
 
@@ -16,8 +16,8 @@ libBasicUsageEnvironment.so.2 \
 libUsageEnvironment.so.3 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgroupsock.so.30 \
-libliveMedia.so.107 \
+libgroupsock.so.33 \
+libliveMedia.so.120 \
 libstdc++.so.6"
 
 inherit rpm

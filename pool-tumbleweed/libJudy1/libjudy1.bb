@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "libJudy1-1.0.5-10.13.aarch64.rpm"
-RPM_HASH = "a1679e0701bb771f6dffb8fb6aaa4ca5a3bc58901cfb1902f5e868e073a6935d7f7a720dd870ebd73e69a1db18064ca9d04056583748bad4b1c1d62b88c7085e"
+RPM_NAME = "libJudy1-1.0.5-11.9.aarch64.rpm"
+RPM_HASH = "22adfbebb729b4c5d629ab0635e649f6db446ed5f603c1e7a3515cdca40f121189fab0e2c8896591b11efdd3bfdf8a88bdfeadfa516f9e1e38abdd21655f6cd0"
 
 RPROVIDES:${PN} += "libJudy.so.1 \
 libJudy1"

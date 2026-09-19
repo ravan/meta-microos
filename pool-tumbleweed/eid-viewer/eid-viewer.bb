@@ -9,10 +9,10 @@ checks whether it was signed by a government-issued key, and optionally \
 checks the certificate against the government's Trust Service."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.1.11"
+PV = "5.1.29"
 
-RPM_NAME = "eid-viewer-5.1.11-1.1.aarch64.rpm"
-RPM_HASH = "baa8ff3b06b627e6b0fdb96fb0a2dd914e7b798ff958a3bd655faa1ffbf227e538f471ec1220120f1af1bd6e39a9c27226e735b52344fe32b7c99ccca24e7163"
+RPM_NAME = "eid-viewer-5.1.29-1.2.aarch64.rpm"
+RPM_HASH = "f48e3be97bc5e0fbafc5f05ca4bce9969c543344dc73c2f4f69c5deaa5e334b4737b8be499022dcc5ab20f9044f64a3d2ef941f937d58d9a7f8aef2ef9caf3a5"
 
 RPROVIDES:${PN} += "eid-viewer"
 
@@ -32,7 +32,7 @@ libgtk-3.so.0 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libproxy.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 pcsc-ccid \
 pcsc-lite"
 

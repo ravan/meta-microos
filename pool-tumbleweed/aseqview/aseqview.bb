@@ -5,19 +5,19 @@ off, controls, and pitch wheels, using bar graphs as seen in many \
 sequencer applications."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.2.8"
+PV = "0.3.1"
 
-RPM_NAME = "aseqview-0.2.8-4.9.aarch64.rpm"
-RPM_HASH = "69e800af9a6d0483b9108d3fb1b1019544574960f4350157352945c9a091e3e2fc9cdd994dbd6f9674f28677a79f03b7209d918d5585133339c448a5808c2ff1"
+RPM_NAME = "aseqview-0.3.1-1.1.aarch64.rpm"
+RPM_HASH = "79b3a71690107e6146cbeb1d01bcd2d085d6d2779530faf8c4b1a98ae192014b894775e8fc8c0a2b3391c95d37840e1e5f2972d968a697c8be97aa748a79f615"
 
 RPROVIDES:${PN} += "aseqview"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libc.so.6 \
-libgdk-x11-2.0.so.0 \
+libcairo.so.2 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-x11-2.0.so.0"
+libgtk-4.so.1"
 
 inherit rpm

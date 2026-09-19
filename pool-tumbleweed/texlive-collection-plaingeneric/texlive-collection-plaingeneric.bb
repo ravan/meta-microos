@@ -3,24 +3,30 @@ DESCRIPTION = "Add-on packages and macros that work with plain TeX, often \
 LaTeX, and occasionally other formats."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn65622"
+PV = "2026.222.svn75599"
 
-RPM_NAME = "texlive-collection-plaingeneric-2023.208.svn65622-60.1.noarch.rpm"
-RPM_HASH = "77a316b68808bf1714e21e1b28f6b930e337d6abd117508068ccc697e8ce189b32f2570c0846e3494f29813cdf946abab2427083f99c0e2e58c49eb94e0a5932"
+RPM_NAME = "texlive-collection-plaingeneric-2026.222.svn75599-68.2.noarch.rpm"
+RPM_HASH = "0907742ed7a8ab577d266eda2f27944d2f448b4607dac4d45283a5ffe2381ba42dc518b8badd478c1adc4aca6fa021c63dc90460a0b17110fb48152bde4aa3b5"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-plaingeneric"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-plaingeneric \
+texlive-collection-plaingeneric"
 
 RDEPENDS:${PN} += "texlive-abbr \
 texlive-abstyles \
+texlive-advice \
 texlive-apnum \
 texlive-autoaligne \
 texlive-barr \
 texlive-bitelist \
 texlive-borceux \
 texlive-c-pascal \
+texlive-calcfrac \
 texlive-catcodes \
 texlive-chronosys \
+texlive-collargs \
 texlive-collection-basic \
 texlive-colorsep \
 texlive-compare \
@@ -32,9 +38,11 @@ texlive-docbytex \
 texlive-dowith \
 texlive-eijkhout \
 texlive-encxvlna \
+texlive-eoldef \
 texlive-epigram \
 texlive-epsf \
 texlive-epsf-dvipdfmx \
+texlive-etoolbox-generic \
 texlive-expex-acro \
 texlive-expkv-bundle \
 texlive-fenixpar \
@@ -53,6 +61,7 @@ texlive-graphics-pln \
 texlive-gtl \
 texlive-hlist \
 texlive-hyplain \
+texlive-ifis-macros \
 texlive-inputnormalization \
 texlive-insbox \
 texlive-js-misc \
@@ -65,9 +74,11 @@ texlive-librarian \
 texlive-listofitems \
 texlive-localloc \
 texlive-mathdots \
+texlive-measurebox \
 texlive-metatex \
 texlive-midnight \
 texlive-mkpattern \
+texlive-mlawriter \
 texlive-modulus \
 texlive-multido \
 texlive-namedef \
@@ -80,8 +91,10 @@ texlive-outerhbox \
 texlive-path \
 texlive-pdf-trans \
 texlive-pdfmsym \
+texlive-pdftoolbox \
 texlive-pitex \
 texlive-placeins-plain \
+texlive-plain-widow \
 texlive-plainpkg \
 texlive-plipsum \
 texlive-plnfss \
@@ -97,6 +110,7 @@ texlive-schemata \
 texlive-shade \
 texlive-simplekv \
 texlive-soul \
+texlive-stretchy \
 texlive-swrule \
 texlive-systeme \
 texlive-tabto-generic \
@@ -108,13 +122,16 @@ texlive-texdate \
 texlive-texdimens \
 texlive-texinfo \
 texlive-timetable \
+texlive-tokmap \
 texlive-tracklang \
 texlive-transparent-io \
 texlive-treetex \
 texlive-trigonometry \
+texlive-tuple \
 texlive-ulem \
 texlive-upca \
 texlive-varisize \
+texlive-visualtoks \
 texlive-xii \
 texlive-xii-lat \
 texlive-xintsession \

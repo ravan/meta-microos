@@ -2,10 +2,10 @@ SUMMARY = "Polish macros and fonts supporting Pagella/pxfonts and Termes/txfonts
 DESCRIPTION = "The qpxqtx package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn45797"
+PV = "2026.226.svn45797"
 
-RPM_NAME = "texlive-qpxqtx-2023.209.svn45797-54.2.noarch.rpm"
-RPM_HASH = "7aa33bd89a8b84b79016bf4bf9a0910855ab4703c09c4914b9ee4eb2dd72173e2ae70f66c2405a8da7186aee0f09bbbbb9408f2f86720108e6170a5930064b94"
+RPM_NAME = "texlive-qpxqtx-2026.226.svn45797-60.4.noarch.rpm"
+RPM_HASH = "cf6c66e1bd45b71e0edd6152a4f0a6890e56c930f7ec8e65bb302e5201e2b2b157af89aebba9d53e17779ea10769aaa7a17ae82de6369a26e5a5a0b7254f611a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-amspbold.tex \

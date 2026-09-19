@@ -2,10 +2,10 @@ SUMMARY = "Albanian localization files for LibreOffice"
 DESCRIPTION = "Provides Albanian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-sq-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "310108ff773faff7639b01844be7c0443a3dfe15e77e7221c991b04b75c0aaa695274f19fd04248b483caefaddee5b6e8f96e591e704cbacf21bb8acdc6a99a5"
+RPM_NAME = "libreoffice-l10n-sq-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "87dcc2ff3688211cc091f720fdb94303e4a6b8ca7e093aad0862abeeabee1243f7c38405590f1b45b28934e79988cf752a38b95acbad05b9d86d9774002c3f0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sq \

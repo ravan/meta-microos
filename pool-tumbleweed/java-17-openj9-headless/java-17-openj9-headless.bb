@@ -2,12 +2,12 @@ SUMMARY = "OpenJDK 17 Runtime Environment with Eclipse OpenJ9"
 DESCRIPTION = "The OpenJDK 17 runtime environment without audio and video support. \
  \
 Supported architectures are ppc64le, s390x and x86_64"
-LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
+LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & LicenseRef-SUSE-Public-Domain & W3C"
 
-PV = "17.0.8.0"
+PV = "17.0.20.1"
 
-RPM_NAME = "java-17-openj9-headless-17.0.8.0-2.1.aarch64.rpm"
-RPM_HASH = "16e24b5a4f4c07bbc84a4c62b51eaaef009b54a1994955a91f76c5dc4be981982574ab3f29a65cdb1c2d6bfda8328c24977cfee7f2b7d4cbefbe929f1289d774"
+RPM_NAME = "java-17-openj9-headless-17.0.20.1-1.1.aarch64.rpm"
+RPM_HASH = "0185d7ede8b4e6e5460295722e896e44295ceac8a8ff7002597f100fe5e9f7aced9650b5556ff5f4565820a88bd71ced89d21dc42d4bc3d64b0798cb184eed01"
 
 RPROVIDES:${PN} += "config-java-17-openj9-headless \
 jaas \
@@ -41,7 +41,6 @@ libinstrument.so \
 libj2gss.so \
 libj2pcsc.so \
 libj2pkcs11.so \
-libj9criu29.so \
 libj9dmp29.so \
 libj9gc-full29.so \
 libj9gc29.so \
@@ -88,6 +87,7 @@ libverify.so \
 libzip.so"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+alts \
 java-ca-certificates \
 jpackage-utils \
 ld-linux-aarch64.so.1 \
@@ -101,7 +101,6 @@ liblcms2.so.2 \
 libm.so.6 \
 libpcsclite.so.1 \
 libstdc++.so.6 \
-libz.so.1 \
-update-alternatives"
+libz.so.1"
 
 inherit rpm

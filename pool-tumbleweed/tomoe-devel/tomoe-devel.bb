@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "tomoe-devel-0.6.0-51.5.aarch64.rpm"
-RPM_HASH = "13ab832adb01f2f5856be066c9386a46b324b3185e27b2797143d8f6bbb511b44b15a94017c2f818b36de5dc58dad2b9884c2fdc223583812857dd656231a78b"
+RPM_NAME = "tomoe-devel-0.6.0-51.18.aarch64.rpm"
+RPM_HASH = "643756bae7bfd176e85891fef514b1ccc980bd393cfefa0a09f46c52fdf7bf88c21830ccf0691d65ceebf1f3dce1ee3e8e628140e63fde18f85ac122e18209a3"
 
 RPROVIDES:${PN} += "pkgconfig-tomoe \
 tomoe-devel"

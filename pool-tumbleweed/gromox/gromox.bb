@@ -15,58 +15,55 @@ grommunio-web. The grommunio appliance ships these essentials and has a \
 ready-to-run installation of Gromox."
 LICENSE = "AGPL-3.0-or-later & GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "2.12"
+PV = "3.10"
 
-RPM_NAME = "gromox-2.12-1.1.aarch64.rpm"
-RPM_HASH = "0e4fc969d2486889e6622142508f376c15599ae87ecb6a369c6b64068f7e3796021922e7ec6de932ba8330e7454a04091de8de8b574496c1eb185c2b6fdfb1a6"
+RPM_NAME = "gromox-3.10-1.1.aarch64.rpm"
+RPM_HASH = "fe386468ddd3e032bdcffe435d7f8ce3bae2eaf2eff9fa14ee2e860673c9dfc04f8e2ee6b9356c91e00c6ee07d3307c0147417c8d1ea742972518aeb19d2d65c"
 
-RPROVIDES:${PN} += "bundled-tzcode \
-gromox \
+RPROVIDES:${PN} += "gromox \
+libgromox-abtree.so.0 \
+libgromox-auth.so.0 \
+libgromox-authz.so.0 \
 libgromox-common.so.0 \
-libgromox-cplus.so.0 \
 libgromox-dbop.so.0 \
-libgromox-email.so.0 \
-libgromox-epoll.so.0 \
+libgromox-emsmdb.so.0 \
+libgromox-ews.so.0 \
 libgromox-exrpc.so.0 \
 libgromox-mapi.so.0 \
-libgromox-rpc.so.0 \
-libgxh-ews.so \
-libgxh-mh-emsmdb.so \
-libgxh-mh-nsp.so \
-libgxh-oab.so \
-libgxh-oxdisco.so \
-libgxm-alias-resolve.so \
-libgxm-exmdb-local.so \
-libgxm-mlist-expand.so \
-libgxm-remote-delivery.so \
-libgxp-exchange-emsmdb.so \
-libgxp-exchange-nsp.so \
-libgxp-exchange-rfr.so \
-libgxs-authmgr.so \
-libgxs-dnsbl-filter.so \
-libgxs-event-proxy.so \
-libgxs-event-stub.so \
-libgxs-exmdb-provider.so \
-libgxs-ldap-adaptor.so \
-libgxs-midb-agent.so \
-libgxs-mysql-adaptor.so \
-libgxs-timer-agent.so \
-libgxs-user-filter.so \
+libgromox-mh-emsmdb.so.0 \
+libgromox-mh-nsp.so.0 \
+libgromox-ndr.so.0 \
+libgromox-nsp.so.0 \
+libgromox-oab.so.0 \
+libgromox-oxdisco.so.0 \
+libgromox-rfr.so.0 \
+libgxm-alias-resolve.so.0 \
+libgxm-exmdb-local.so.0 \
+libgxs-event-proxy.so.0 \
+libgxs-event-stub.so.0 \
+libgxs-exmdb-provider.so.0 \
+libgxs-midb-agent.so.0 \
+libgxs-mysql-adaptor.so.0 \
+libgxs-ruleproc.so.0 \
+libgxs-timer-agent.so.0 \
 php-mapi-gromox"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
 glibc-locale-base \
 group-gromox \
+group-gromoxcf \
 ld-linux-aarch64.so.1 \
-libHX.so.32 \
+libHX.so.43 \
 libc.so.6 \
 libcrypt.so.1 \
 libcrypto.so.3 \
 libcurl.so.4 \
-libfmt.so.9 \
+libesedb.so.1 \
+libfmt.so.12 \
 libgcc-s.so.1 \
-libjsoncpp.so.25 \
+libgssapi-krb5.so.2 \
+libjsoncpp.so.27 \
 libldap.so.2 \
 libm.so.6 \
 libmariadb.so.3 \
@@ -77,9 +74,9 @@ libresolv.so.2 \
 libsqlite3.so.0 \
 libssl.so.3 \
 libstdc++.so.6 \
-libtinyxml2.so.9 \
-libvmime-suse.so.5 \
-libxml2.so.2 \
+libtinyxml2.so.11 \
+libwmime.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 libzstd.so.1 \
 php8-cli \
@@ -88,7 +85,6 @@ php8-mysql \
 php8-posix \
 php8-soap \
 user-grommunio \
-user-gromox \
-w3m"
+user-gromox"
 
 inherit rpm

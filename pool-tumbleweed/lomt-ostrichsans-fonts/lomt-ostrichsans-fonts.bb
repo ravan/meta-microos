@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.20121218"
 
-RPM_NAME = "lomt-ostrichsans-fonts-0.20121218-8.7.noarch.rpm"
-RPM_HASH = "14a7a4ac22130e6de9bc5cf181655d3a03d6e199befee8fa07d0783ef57ffe776a07d1f931bd969d8acaea78f5982c3f3e17eea74456a3d204bc07b329ddda1b"
+RPM_NAME = "lomt-ostrichsans-fonts-0.20121218-8.15.noarch.rpm"
+RPM_HASH = "f2888d00a3a31ed29c8385a1dfeedbe6bdf12f8e30ccb70df131ef932029b73bab3045153ed96bf643a9115f032a583e3bffca197ba829d877e1da297f1787d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-ostrichsans-fonts"

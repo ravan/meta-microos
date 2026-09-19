@@ -4,10 +4,10 @@ array30: 27489 characters. \
 array30-big: 27489 characters + Unicode ExtB."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.12"
+PV = "1.8.14"
 
-RPM_NAME = "ibus-table-chinese-array-1.8.12-1.2.noarch.rpm"
-RPM_HASH = "5f020b5c731c98c028eaa94cf7cb6433378d3bd5bb1c01ac3c0cc7f2b186c9192bf64a3d836af403956be8fa92919f3580718d11d6b074bb2f5b07062c005f8e"
+RPM_NAME = "ibus-table-chinese-array-1.8.14-1.6.noarch.rpm"
+RPM_HASH = "43dd7c6ab61256334659cb1f756dc63c88f605132f38adb441f80b30a9fc9ac198337a245835877d9f1a2b0db347d12a6cdd18cf4f68ff90e1b077e82eee51f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-array30 \

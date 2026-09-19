@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains the utility programs from libwtcdb to \
 read Windows thumbnail cache databases."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210417"
+PV = "20260527"
 
-RPM_NAME = "libwtcdb-tools-20210417-3.4.aarch64.rpm"
-RPM_HASH = "c9acf18d771264e716c357a16d484e1c39670b20c03062555379b4b9ed716f2a2d6668b1cb41e003e3a2f21518658426dc2fc82c88f2496ae1b7156e821638a5"
+RPM_NAME = "libwtcdb-tools-20260527-1.10.aarch64.rpm"
+RPM_HASH = "40ba39ca5c76061935d5226915e6c87e3d867b81d1ec0fa8a3b23d4e0017a9842593126db9313b7d98a605e53cfa14a97282f10c2ea6549860327360c2b9defa"
 
 RPROVIDES:${PN} += "libwtcdb-tools"
 

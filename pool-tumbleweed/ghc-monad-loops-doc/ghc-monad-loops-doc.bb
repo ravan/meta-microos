@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.4.3"
 
-RPM_NAME = "ghc-monad-loops-doc-0.4.3-11.3.noarch.rpm"
-RPM_HASH = "1d77fa7e4cb2bf2a1f4bfa0186ef2157a40356754da5a675e5ff458859b96ec8d8757868c4b6f0b07c1025815e60e9d8b04781040e1f452f9b322346af9fde5c"
+RPM_NAME = "ghc-monad-loops-doc-0.4.3-11.23.noarch.rpm"
+RPM_HASH = "1fa1050682e16c6143b9beb00eaa17af1aa916589cb2fa733bcaffe090802b03c804ebc5a3690959945b6689cdea9528ab5a754a99f3eb7f258d9afc169752bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-monad-loops-doc"

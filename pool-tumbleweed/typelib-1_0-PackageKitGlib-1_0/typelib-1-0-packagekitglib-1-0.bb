@@ -9,16 +9,17 @@ This package provides the GObject Introspection bindings for the \
 PackageKit client library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.5"
+PV = "1.3.6"
 
-RPM_NAME = "typelib-1_0-PackageKitGlib-1_0-1.2.5-9.4.aarch64.rpm"
-RPM_HASH = "1ffc26d9e2f3bd4e4740f3a2e0f7f7074f021a14336d08729e2364dc65ae4ee46867063841b1d2784a9c5735d722620dfd0c584b5b86f8761350bb681f79e687"
+RPM_NAME = "typelib-1_0-PackageKitGlib-1_0-1.3.6-2.1.aarch64.rpm"
+RPM_HASH = "94b365ade4c00fea91c5a20a1062c958b0febb50608e950f76a95c1039dfff4bbe3280f7f00b680d1cf437df294521443b3412628d88e66fb5f24f69f93989ec"
 
 RPROVIDES:${PN} += "typelib-1-0-PackageKitGlib-1-0 \
 typelib-PackageKitGlib"
 
 RDEPENDS:${PN} += "libpackagekit-glib2.so.18 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

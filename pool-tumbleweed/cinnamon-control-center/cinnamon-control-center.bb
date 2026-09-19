@@ -6,10 +6,10 @@ and background, user interface properties, screen resolution, and \
 other Cinnamon parameters."
 LICENSE = "GPL-2.0-only & GPL-3.0-or-later & MIT"
 
-PV = "5.8.0"
+PV = "6.6.0"
 
-RPM_NAME = "cinnamon-control-center-5.8.0-1.1.aarch64.rpm"
-RPM_HASH = "4ef01ab044db1da5de96b399e48adc929a7eb48dfbd5c3bb22bddec3dc2583d3d794d0352960d50a37cac92e9dc82fa12eb877e1ef461db684302acf6c0970a8"
+RPM_NAME = "cinnamon-control-center-6.6.0-1.3.aarch64.rpm"
+RPM_HASH = "d1466e6cb0c07565c3fdfbe55f5de76c6f65c8f933c68d6263e69b9c5ca11309f7e8f5886e75cbfe8274f043dd8f4d208574835bb35d7411ea82247c1e62cbdc"
 
 RPROVIDES:${PN} += "cinnamon-control-center"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pinoutikz"
 DESCRIPTION = "This package includes the documentation for texlive-pinoutikz"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.2svn55966"
+PV = "2026.226.1.1.2svn55966"
 
-RPM_NAME = "texlive-pinoutikz-doc-2023.209.1.1.2svn55966-52.1.noarch.rpm"
-RPM_HASH = "0f048511551ddb182d84b99d2c2b30fe19e8607806e63bbc589d6836057f11c57dd98ae610e55c97b081ea77795b0884d066bd2466ac401ccab348b357a39363"
+RPM_NAME = "texlive-pinoutikz-doc-2026.226.1.1.2svn55966-58.2.noarch.rpm"
+RPM_HASH = "220ba9b9f9a665af44c6eb83acedc95c372f787e57523efb2b478c38bd0ea44a3913fa5a8864930e75df183bdc8289fd29a3ce7eaf377709f36dc86918c4e6b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pinoutikz-doc"

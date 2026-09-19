@@ -6,17 +6,17 @@ entry (although it supports optional traditional buttons). \
 This is the commandline interface, named qalc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.8.0"
+PV = "5.12.0"
 
-RPM_NAME = "qalculate-4.8.0-1.1.aarch64.rpm"
-RPM_HASH = "7ae04c6a24b5dce4d258bb65c74c22fb5183d35d8ec1ec049bc09fc199f378daf37f8726d4c22a3a825c12bba32732a41ab8c7049231e5cb94255a18dbc9e42e"
+RPM_NAME = "qalculate-5.12.0-1.1.aarch64.rpm"
+RPM_HASH = "edd09d665968bfcf99e7f59b153964351c0afa8fb853813a4a3605d1780e192972d07571e1591fed626f5c688bc2948c6acdb4439cce17568676192d562e6247"
 
 RPROVIDES:${PN} += "qalculate"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libqalculate.so.22 \
+libqalculate.so.23 \
 libreadline.so.8 \
 libstdc++.so.6 \
 qalculate-data"

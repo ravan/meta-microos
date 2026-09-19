@@ -4,10 +4,10 @@ DESCRIPTION = "A monospaced variable font combining full-width Japanese glyphs \
 (shared with M PLUS Code Latin 50 described below)."
 LICENSE = "OFL-1.1"
 
-PV = "20230116"
+PV = "20260325"
 
-RPM_NAME = "mplus1-code-variable-fonts-20230116-1.1.noarch.rpm"
-RPM_HASH = "d2b1ee64a6f6034251ec69b92267c26b964f75c110c50fb9a02ce4096f2ef0b512528f179d6d57563cdde5213c37a74e6cb531f67c48cd334a791785cbeb5a77"
+RPM_NAME = "mplus1-code-variable-fonts-20260325-1.2.noarch.rpm"
+RPM_HASH = "521163b8b9b67f87e51786504e76ab744c667ffa45e2c23403ae9e494c8273e05bdcfaedf4044c4755f6bb1a100db08c1bf9e9ea77fa24878c0a04eb86b7d6ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mplus1-code-variable-fonts"

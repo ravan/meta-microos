@@ -5,10 +5,10 @@ Gnome, XFCE, Mate, Cinnamon, etc. Also provides support for KDE plasma. \
 This package provides the GTK+ 3 support for Dracula theme."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.0+git94.9840b6b"
+PV = "4.0.0+git146.2618a03"
 
-RPM_NAME = "gtk3-metatheme-dracula-3.0+git94.9840b6b-1.1.noarch.rpm"
-RPM_HASH = "e6f72efb718facdafbcddedf28495a4b2c62b138c6d724e849235efff4e571b609fd96c9b984946103a32771ac8c97821a0b9386e6582db559e762cf736fb4c9"
+RPM_NAME = "gtk3-metatheme-dracula-4.0.0+git146.2618a03-1.2.noarch.rpm"
+RPM_HASH = "40cfbe94b0ff66477adb792c1202861f6beb893132e51dceaf4fa0796d0fa6f89f12b625b6c776442572a3ca6f30208a617e23471a6651225449eb607c78b8e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dracula-gtk-theme \

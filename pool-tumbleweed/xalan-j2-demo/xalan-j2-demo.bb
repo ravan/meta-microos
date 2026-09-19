@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.7.3"
 
-RPM_NAME = "xalan-j2-demo-2.7.3-1.1.noarch.rpm"
-RPM_HASH = "01f111e9ce38421c69a3fdf1daabc529da1bcb7b88b1282571e843ab562e6a98a7d9e4b0f4306eae1fa8c65b86e45511178b5630684fc9dd0213e9d01b2d4bff"
+RPM_NAME = "xalan-j2-demo-2.7.3-4.6.noarch.rpm"
+RPM_HASH = "c221f729d58a14cf475c0340017a8fb055a2b4891309d63701ab950a55c7d13177cfbf0eebc4dc18c4d4654856a4a041f74667915d55bbf90b42bf62b49d7299"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xalan-j2-demo"

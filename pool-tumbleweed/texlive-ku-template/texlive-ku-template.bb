@@ -4,10 +4,10 @@ faculty logo to your front page. For use by student or staff at \
 University of Copenhagen (Kobenhavns Universitet)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn45935"
+PV = "2026.226.0.0.02svn45935"
 
-RPM_NAME = "texlive-ku-template-2023.209.0.0.02svn45935-56.1.noarch.rpm"
-RPM_HASH = "cdff24be8b7fbba7a4c0c1fd30c631ff763e4391f568528c6e20bdf5eb268db423f9bc0adfec4132cec550598af7b0f57745426189d69c8e0d6d82b769a3786b"
+RPM_NAME = "texlive-ku-template-2026.226.0.0.02svn45935-63.2.noarch.rpm"
+RPM_HASH = "e4ae6116c40ca1761ab44526cae63c10dd9aa4050ec682dfd8119b3046414c62e6e18459693c3496451aa6ad084ac51e9561d916b4a5b50c7c52ca325a783c54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ku-template.sty \

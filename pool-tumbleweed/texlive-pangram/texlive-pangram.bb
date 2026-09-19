@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a simple way for font designers and users \
 to test their fonts in different sizes without much input."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0csvn66300"
+PV = "2026.226.0.0.0csvn76924"
 
-RPM_NAME = "texlive-pangram-2023.209.0.0.0csvn66300-52.1.noarch.rpm"
-RPM_HASH = "14df06514f3017a5fd7fd9b589965fed78ecb890d7bbe0879bc866587ac62499a1ab5c7c0e0ed69d3ba387167aebef323d32e19c585317db9bbaab2736c59eec"
+RPM_NAME = "texlive-pangram-2026.226.0.0.0csvn76924-58.2.noarch.rpm"
+RPM_HASH = "cfd606033aec1d5c77eae1b6092643f9b2f2f52007838855742c3b0009bd36d75ec1b6802e246bbc36759cab48676fe5ffcdbe036ab41f08f964b593b44a226e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pangram.sty \

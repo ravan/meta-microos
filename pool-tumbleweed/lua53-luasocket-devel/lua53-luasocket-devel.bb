@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.1.0"
 
-RPM_NAME = "lua53-luasocket-devel-3.1.0-2.2.aarch64.rpm"
-RPM_HASH = "fb636b07a24b2d3299e956ab5d12ca7f68f24bdeee94e24960f54e28abf1f19703008d6e29ed47bcb241e3e1f44e2b5e89ac7be4c04feeae411b5a08cf1ec788"
+RPM_NAME = "lua53-luasocket-devel-3.1.0-5.3.aarch64.rpm"
+RPM_HASH = "94d135c1d2d9f21af9f8417a599f6076ed6e5882323bf1e7f7fe688db1913a14dd995443a816e3a7e94b6e325f1f9c729201a8bee774f31cba35d8d305d6d49f"
 
 RPROVIDES:${PN} += "lua53-luasocket-devel"
 

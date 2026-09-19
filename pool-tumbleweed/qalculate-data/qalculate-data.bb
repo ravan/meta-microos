@@ -7,10 +7,10 @@ This provides definitions of additional units, functions, etc. on top \
 of the built-in ones."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.8.0"
+PV = "5.12.0"
 
-RPM_NAME = "qalculate-data-4.8.0-1.1.noarch.rpm"
-RPM_HASH = "2463110d9d7328dbf4d18451d28ec8d62ef7bfc285bdb6cfeae8701ab1e76d6de8df8aa81a41e10b7c18f27fa578e613e43accdad93cb229b5d930099d88f22f"
+RPM_NAME = "qalculate-data-5.12.0-1.1.noarch.rpm"
+RPM_HASH = "d7115cbc0979131b898dbcc196434cfcf27b07c9c80ce98175ed41bcabf6c6942d9a5eac8736047a7fda8fb08d16b976aa6c80859364d298c502faa2e1c01edd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qalculate-/usr/share/qalculate/units.xml \

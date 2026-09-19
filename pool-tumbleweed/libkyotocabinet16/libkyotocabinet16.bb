@@ -21,10 +21,10 @@ On the other hand, a commercial license is also provided. If you use \
 Kyoto Cabinet within a proprietary software, the commercial license is required."
 LICENSE = "SUSE-GPL-3.0-with-FLOSS-exception"
 
-PV = "1.2.77"
+PV = "1.2.80"
 
-RPM_NAME = "libkyotocabinet16-1.2.77-3.1.aarch64.rpm"
-RPM_HASH = "e447f9bb0cf75ec85d46d9891b08ba204fd28718cc579e48595190953b4960432a4179abf331401511e11c26e820540d03efad29d8a93449e5bf3ed1450beff0"
+RPM_NAME = "libkyotocabinet16-1.2.80-2.6.aarch64.rpm"
+RPM_HASH = "767fa92ec222459b70753da8d7aec54a501fc15d17bb55d6028486ff2bb826d094b970841be9dba769bdc12019b91b242a0da9482f33f9de22a82e4712a63616"
 
 RPROVIDES:${PN} += "libkyotocabinet \
 libkyotocabinet.so.16 \

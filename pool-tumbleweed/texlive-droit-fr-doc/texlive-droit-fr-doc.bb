@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-droit-fr"
 DESCRIPTION = "This package includes the documentation for texlive-droit-fr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn39802"
+PV = "2026.226.1.2svn39802"
 
-RPM_NAME = "texlive-droit-fr-doc-2023.209.1.2svn39802-53.1.noarch.rpm"
-RPM_HASH = "15b961f220abe61c8944cd0160422f32b6b625024ef5af41649fffc35c7c622c87746682c67f10ed9aff81034ab1689ae3e8fec100c0198eb9851e5caa433e82"
+RPM_NAME = "texlive-droit-fr-doc-2026.226.1.2svn39802-59.2.noarch.rpm"
+RPM_HASH = "398338db20c4dce00f64ad351e4d1d51d39b5c4502e16de993089687dd6c523feefe5f2ecaf3c4dbc6c8ede709dfdd2c91da545f7cf6b46b478052fadfc723e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-droit-fr-doc-fr \

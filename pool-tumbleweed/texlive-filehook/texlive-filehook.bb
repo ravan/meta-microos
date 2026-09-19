@@ -7,10 +7,10 @@ hooks are provided for the end of \\included files -- one \
 before, and one after the final \\clearpage."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8bsvn64822"
+PV = "2026.226.0.0.8bsvn77682"
 
-RPM_NAME = "texlive-filehook-2023.209.0.0.8bsvn64822-53.1.noarch.rpm"
-RPM_HASH = "0cd616a75087f8c0726cfe104f82731b410b69979dbd96a85812f530714fd28b7f3c5fb0d0f54594b7a0f4c53d0d81aafefeb322849ffea13292f36904f970ee"
+RPM_NAME = "texlive-filehook-2026.226.0.0.8bsvn77682-59.2.noarch.rpm"
+RPM_HASH = "948462f3d2844380bfccb4c4e2aec4494835a9ade2dba1374b3a636c6b913d4e23297a32e6a0652b941a7b06095c9de6f45c245d0da2c4e182d1403be85185f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-filehook-2019.sty \

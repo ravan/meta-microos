@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-afthesis"
 DESCRIPTION = "This package includes the documentation for texlive-afthesis"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.7svn15878"
+PV = "2026.226.2.7svn15878"
 
-RPM_NAME = "texlive-afthesis-doc-2023.209.2.7svn15878-55.1.noarch.rpm"
-RPM_HASH = "1ab5bc33a142d3e13e6afc35ca6ce24439ae6038432a117a43f16ac07af8623252299bc9873e28a68522bb5e59d5f925fe9a4c715631da62b4f117ac6ff69d13"
+RPM_NAME = "texlive-afthesis-doc-2026.226.2.7svn15878-61.2.noarch.rpm"
+RPM_HASH = "f5c4166ea18fcc63588e89aeb587bfcf937c22c6292d2683641c3ca82f28db083af05ba98a1b2b59c7a1fec67ef6992cac65a6ff3ead3729d49ccbe446bf773c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-afthesis-doc"

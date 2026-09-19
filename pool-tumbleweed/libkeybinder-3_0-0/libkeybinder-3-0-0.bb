@@ -9,8 +9,8 @@ LICENSE = "MIT & X11"
 
 PV = "0.3.2"
 
-RPM_NAME = "libkeybinder-3_0-0-0.3.2-1.25.aarch64.rpm"
-RPM_HASH = "8ed18085b77d70ae0c872d3c175ce06f4e9f838412e8ff759e53d592fa5d5548c15219cb5004cc38af320982aa33e71cedbb5395ba4f02896a73628b5ea86fb4"
+RPM_NAME = "libkeybinder-3_0-0-0.3.2-1.36.aarch64.rpm"
+RPM_HASH = "bbcafa849974696ad45dbdfa3c673ad79c3e4c4469747a3e2d2b330c9db8d021ef2995ed7920779ca561577d0869a71703f1eb3c83d926be2d8a04e468c97779"
 
 RPROVIDES:${PN} += "libkeybinder-3-0-0 \
 libkeybinder-3.0.so.0"

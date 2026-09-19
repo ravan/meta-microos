@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.7"
 
-RPM_NAME = "pcsc-asekey-3.7-4.11.aarch64.rpm"
-RPM_HASH = "96dcdadab23d9eebfa68f6f2d7f3bc745713098cdb8e6e753d66deb7c953921427cc94ab5d26b8e7712401e4ddfbfeca6520bcf41b8c53dbaa1ad350110e54b4"
+RPM_NAME = "pcsc-asekey-3.7-6.5.aarch64.rpm"
+RPM_HASH = "1131cd028e5cd5d36cf651b6bdee82baba178c22eaaa9c4e20fee7c9a75629194351631e854318dde5cf0fe31e21c202b12725f837f84b3706b74abd718ccf81"
 
 RPROVIDES:${PN} += "libASEKey.so \
 pcsc-asekey"

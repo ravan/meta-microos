@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-robots"
 DESCRIPTION = "Provides translations for the 'gnome-robots' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "40.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-robots-lang-40.0-1.13.noarch.rpm"
-RPM_HASH = "3d55c21484fd51293c55848020bbaa091d5838c31d85dcba2fe128e16a5e7f223da9c6fd71bcc8f8289d6f286c9722350a11b1196bf632bfe3e693fd1adc0e74"
+RPM_NAME = "gnome-robots-lang-50.0-1.6.noarch.rpm"
+RPM_HASH = "c1f41d6c7446e29ceb1592d007d57d71ac62cc8b581421c48d3f4ac44f013193634802ba132468ca021eed533363d506270404eb67edcf9309e612529f939467"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-robots-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Development files for fcitx5"
 DESCRIPTION = "This package provides development files for fcitx5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.1.0"
+PV = "5.1.17"
 
-RPM_NAME = "fcitx5-devel-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "c71d31d49e7c864630e3c375ab3f4f92208c92903c828b096c297b4e71dea2f84874c60b6d0c36c52eea4acd783653168face9f55dda716a6b10e5e09ebc9269"
+RPM_NAME = "fcitx5-devel-5.1.17-1.7.aarch64.rpm"
+RPM_HASH = "cd7803eb01a7ee1a1b9c5d0fbdfb52aa3a048ebaab8bc714459b8a6ee2eedd9f8857a553339f9435ececdb3662f04ac2a977453aeb32389ef8276a6c5fe9c700"
 
 RPROVIDES:${PN} += "cmake-Fcitx5Config \
 cmake-Fcitx5Core \
@@ -34,7 +34,8 @@ rpm-macro--fcitx5-datadir \
 rpm-macro--fcitx5-imconfdir \
 rpm-macro--fcitx5-libdir \
 rpm-macro--fcitx5-libexecdir \
-rpm-macro--fcitx5-qt5dir"
+rpm-macro--fcitx5-qt5dir \
+rpm-macro--fcitx5-qt6dir"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 fcitx5 \

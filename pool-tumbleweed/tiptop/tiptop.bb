@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.3.1"
 
-RPM_NAME = "tiptop-2.3.1-3.6.aarch64.rpm"
-RPM_HASH = "2a25fc4b3e409dc6ad71cc752d28bfe5fa10954419589c811d7edc645b03c2686b11802c4d51cee0c6aa69e81ed487226382351c3ccf9a51ba2392e6cff78f82"
+RPM_NAME = "tiptop-2.3.1-4.10.aarch64.rpm"
+RPM_HASH = "4a4e11a010306fb6786df8c82b48277594b64fab4ae57669ff80722a41819a0c6da7a3a54b8c531c2e515d961fc6f7472462fc2abfdd4f2f4ccd20e4d172d528"
 
 RPROVIDES:${PN} += "tiptop"
 
@@ -16,6 +16,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libncurses.so.6 \
 libtinfo.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

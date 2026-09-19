@@ -13,8 +13,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.9.10"
 
-RPM_NAME = "libsmooth-0_9-0-0.9.10-1.1.aarch64.rpm"
-RPM_HASH = "ff2ae2e42e0ad6404aa0d0603aa90820a040a6d55c04e732e04fa2742082664b662148169c0382c04321f656894a79cb86ef00c57e847994287c4e65ff8d8f54"
+RPM_NAME = "libsmooth-0_9-0-0.9.10-1.16.aarch64.rpm"
+RPM_HASH = "425a91f3db71d8edeeef8c7737b5457b07b713235371d9ba247fe491c7e07a552341ffc5cfa808594b59f9f2ded4e3f39c9363c086256a0cff037561a695a403"
 
 RPROVIDES:${PN} += "libsmooth-0-9-0 \
 libsmooth-0.9.so.0"
@@ -24,7 +24,7 @@ ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \
 libcairo.so.2 \
-libcpuid.so.16 \
+libcpuid.so.18 \
 libcurl.so.4 \
 libfribidi.so.0 \
 libgcc-s.so.1 \
@@ -37,6 +37,6 @@ libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
 libstdc++.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "Coursepaper is a class with which students can provide simple \
 course papers, in a uniform design to ease the task of marking."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn15878"
+PV = "2026.226.2.0svn15878"
 
-RPM_NAME = "texlive-coursepaper-2023.209.2.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "5114f49f5bfbfe6b6226e1f8d67192066af0cea57c7e479991c3370a0f45750462209cb83ab5d540a7ce23a1a35f5f293109011008794c0939f1c7d3a4f2c492"
+RPM_NAME = "texlive-coursepaper-2026.226.2.0svn15878-61.2.noarch.rpm"
+RPM_HASH = "f344619500ffde4a67aa5a6d1fd6bac6c23a81b956cb44b9b9c6706dd73e41ceb9728d9693aa1b59c6aaa47733a34191a5fcb92abca3b504eae0f119f6752265"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-coursepaper.cls \

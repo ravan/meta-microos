@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.99.2"
 
-RPM_NAME = "lxde-common-branding-upstream-0.99.2-2.17.noarch.rpm"
-RPM_HASH = "1ae4e165ce242eb715111aca57857883ac33d4e3201efe02598ff7055ebc01d156066b8a1e23684926e386dbc55809776571ddddd9948df4e3c0472ec548bab4"
+RPM_NAME = "lxde-common-branding-upstream-0.99.2-2.27.noarch.rpm"
+RPM_HASH = "0b618bdfdce7c6f988500f1e11d38033d8ee9853a1e5774529d5bc16a3026fe828c3986620e082d6e8951a8526bfc25aad3931ffa7c2cb87a999e1fce6a96a8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-lxde-common-branding-upstream \

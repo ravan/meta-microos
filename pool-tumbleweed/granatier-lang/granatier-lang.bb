@@ -2,16 +2,16 @@ SUMMARY = "Translations for package granatier"
 DESCRIPTION = "Provides translations for the 'granatier' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "granatier-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "8a6c0919b19a3b92003849d1d89917158c75bcb3642260b6f469a0c3309c7b2e030c89fb9530a26274e302a2654663530a9e1519ebe8aa838da253d63fe89e94"
+RPM_NAME = "granatier-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "d5b2e30b63725bfaf7738ad8386546674562e9e6b0207a25acc73d9ba8c1f47089baf692cb636d7e74b91c225e8c4403aa1da4ef5645966808b1880402a319ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "granatier-lang \
 granatier-lang-all \
 locale-granatier-ar \
-locale-granatier-bg \
+locale-granatier-ast \
 locale-granatier-bs \
 locale-granatier-ca \
 locale-granatier-ca@valencia \
@@ -28,8 +28,11 @@ locale-granatier-fi \
 locale-granatier-fr \
 locale-granatier-ga \
 locale-granatier-gl \
+locale-granatier-he \
+locale-granatier-hi \
 locale-granatier-hr \
 locale-granatier-hu \
+locale-granatier-ia \
 locale-granatier-id \
 locale-granatier-is \
 locale-granatier-it \

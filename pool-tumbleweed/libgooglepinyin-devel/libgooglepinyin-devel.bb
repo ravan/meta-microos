@@ -4,14 +4,13 @@ LICENSE = "Apache-2.0"
 
 PV = "0.1.2"
 
-RPM_NAME = "libgooglepinyin-devel-0.1.2-12.29.aarch64.rpm"
-RPM_HASH = "ded3cc13f3aaaddf4fc62e4e3f835549cd1cd60b0f7b7ae8beb3a09823249ea71034125a8a1454dc342daaf4b6341bb55a6b6ba7cfed9903c683b99041c9bcd9"
+RPM_NAME = "libgooglepinyin-devel-0.1.2-14.5.aarch64.rpm"
+RPM_HASH = "22185edfb17299f6c39ec0669012c9643c01e988eaa54cc2e17cff5d6162484f00de8be4ece9776e96f4403cd7bed8ca9305d03dfc293819b8dd1ac7395c2fd0"
 
 RPROVIDES:${PN} += "libgooglepinyin-devel \
 pkgconfig-googlepinyin"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libgooglepinyin0 \
-python-base"
+libgooglepinyin0"
 
 inherit rpm

@@ -2,16 +2,17 @@ SUMMARY = "Translations for package katomic"
 DESCRIPTION = "Provides translations for the 'katomic' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "katomic-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "b1bd62b52dfda3d33e72dd787908cb3a311e214acb47228dfe39b76eb7840d3e1c66566fedbf86299960df40c212b6974d6dfd97e917b2ccfe39eb882335c6ed"
+RPM_NAME = "katomic-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "43e6caeb95e271b5dcf2401f67c619899b42c78c39140885e0bcb281dbaff5e89ac83c1ef68e0095d41404b5ff8994262e778e95c9fb18ca1072ffb8ebe95139"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "katomic-lang \
 katomic-lang-all \
 locale-katomic-af \
 locale-katomic-ar \
+locale-katomic-ast \
 locale-katomic-be \
 locale-katomic-bg \
 locale-katomic-bn \
@@ -38,6 +39,7 @@ locale-katomic-he \
 locale-katomic-hi \
 locale-katomic-hr \
 locale-katomic-hu \
+locale-katomic-ia \
 locale-katomic-id \
 locale-katomic-is \
 locale-katomic-it \

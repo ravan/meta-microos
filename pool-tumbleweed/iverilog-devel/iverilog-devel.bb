@@ -2,10 +2,10 @@ SUMMARY = "Icarus Verilog development files"
 DESCRIPTION = "This package contains necessary header files for Icarus Verilog"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "11.0"
+PV = "13.0"
 
-RPM_NAME = "iverilog-devel-11.0-1.12.aarch64.rpm"
-RPM_HASH = "3a1dd4f7126ba1fe8212d08fe756f7011d11a6b2d1d9ba460edd7da00d3f602eedf99bd557a9f97d764b981a40e12ecf99f8ff512e326126198568fd976dfc69"
+RPM_NAME = "iverilog-devel-13.0-1.4.aarch64.rpm"
+RPM_HASH = "fe00ccc142eabe42bf7b0eb7340b1646dd925e8c059b65280a85866f4869d345e8c97c657d51d200da3026186b6deaa925a174c906c52a8d84639675b213287b"
 
 RPROVIDES:${PN} += "iverilog-devel"
 

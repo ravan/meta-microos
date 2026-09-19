@@ -1,0 +1,27 @@
+SUMMARY = "GNU D Compiler"
+DESCRIPTION = "This package contains a D compiler and associated development \
+files based on the GNU GCC technology."
+LICENSE = "GPL-3.0-or-later"
+
+PV = "16.2.0+git9497"
+
+RPM_NAME = "gcc16-d-16.2.0+git9497-3.1.aarch64.rpm"
+RPM_HASH = "44f4bdd0188dbfdf4b9bd353a0748d0902e8db4afd5a021e4b2339354423d40dab9704420d139e34e86ba7525d464feb848981cef436c680773059f7332bebe7"
+
+RPROVIDES:${PN} += "gcc16-d"
+
+RDEPENDS:${PN} += "gcc16 \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+libgcc-s.so.1 \
+libgdruntime7 \
+libgmp.so.10 \
+libgphobos7 \
+libisl.so.23 \
+libm.so.6 \
+libmpc.so.3 \
+libmpfr.so.6 \
+libz.so.1 \
+libzstd.so.1"
+
+inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-mate-mate_utilities-20170319-5.3.aarch64.rpm"
-RPM_HASH = "e9ea6b34dfd3c5b28ff4ebc0a987229e5f73f4efaa4b018df5a5c59211caeb8d68fdaacc698eac6e7d183101403b38da075515a1fa91e06950e5c0491a37acf2"
+RPM_NAME = "patterns-mate-mate_utilities-20170319-6.3.aarch64.rpm"
+RPM_HASH = "485ec127b3e6a12b1be2cdc86fa0d200706a09cadc9421c618f63977b2da1bd8096634761f580f7835534a7ad560a3cc4dea674c85a0e21ec73e88352c6c1582"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

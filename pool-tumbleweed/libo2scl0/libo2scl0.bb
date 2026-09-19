@@ -4,26 +4,24 @@ DESCRIPTION = "O2scl is a C++ library for object-oriented numerical programming.
 This package provides the shared libraries for o2scl."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.926"
+PV = "0.930.1"
 
-RPM_NAME = "libo2scl0-0.926-3.6.aarch64.rpm"
-RPM_HASH = "7125b07191886cb4d50a0b03859810ea2ee85c230a9cd89ca72bee692f2b619223dfc3919c2ac18b89ae4682e0c518f5d7edf78c0550f6151dff4c13460bd5a2"
+RPM_NAME = "libo2scl0-0.930.1-3.2.aarch64.rpm"
+RPM_HASH = "178933fd6c5de95c9dae47eba66ec24e5ca9ec60d365d133de05f3a64ea15ca0fe26aaaab60e169a2c7acc5fdb9ae7eadc4a5cbde25a60f558bc117282587e19"
 
-RPROVIDES:${PN} += "libo2scl-eos.so.0 \
-libo2scl-hdf.so.0 \
-libo2scl-part.so.0 \
-libo2scl.so.0 \
+RPROVIDES:${PN} += "libo2scl.so.0 \
 libo2scl0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+libarmadillo.so.15 \
 libc.so.6 \
+libcblas.so.3 \
+libfftw3.so.3 \
 libgcc-s.so.1 \
-libgsl.so.27 \
-libgslcblas.so.0 \
-libhdf5-hl.so.200 \
-libhdf5.so.200 \
-libm.so.6 \
-libreadline.so.8 \
-libstdc++.so.6"
+libgomp.so.1 \
+libgsl.so.28 \
+libhdf5-hl.so.310 \
+libhdf5.so.310 \
+libm.so.6"
 
 inherit rpm

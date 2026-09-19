@@ -7,10 +7,10 @@ The utility offers indentation and reformatting capabilities. \
 It is easily possible to create new language definitions and colour themes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.8"
+PV = "4.18"
 
-RPM_NAME = "highlight-4.8-1.1.aarch64.rpm"
-RPM_HASH = "fe7f0e89e0ce5f730dd264a4f51b55b3169ed7d921e67634613ee7d82be5512ef12b4b7b090cb7bcf1ec19b84244d86079ee392483d325c4249b0b1e49eb345c"
+RPM_NAME = "highlight-4.18-1.6.aarch64.rpm"
+RPM_HASH = "f86eb3796c34b9c48144498c0a602dc36667f59d5a30255a524b58a264c0e96e318d71d38d50e2f02ce305df13c8bea0a3e70b4d6a5059406a9fdee0b650fa21"
 
 RPROVIDES:${PN} += "highlight"
 
@@ -19,6 +19,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 liblua5.4.so.5 \
+libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

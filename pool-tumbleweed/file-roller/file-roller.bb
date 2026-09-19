@@ -4,27 +4,22 @@ and modify archives, view the contents of an archive, view a file \
 contained in the archive, and extract files from the archive."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "43.0"
+PV = "44.7"
 
-RPM_NAME = "file-roller-43.0-1.4.aarch64.rpm"
-RPM_HASH = "aeb12e420f12a311421c8e467f3523d5696ca41534c34010bdac39fc45f21aca9925ad05dad1dd9fce0b6942eeed546cd2dfcca7a1277c90d66cd1752e47dd8f"
+RPM_NAME = "file-roller-44.7-1.2.aarch64.rpm"
+RPM_HASH = "8719f201a4dd961b37da7a66f264f2d1a370060a7256c93b61c67010bec7bf62dab50b198b36555dbff0befaabd37366a818e177b0c41fb287d19b2e6c28b671"
 
 RPROVIDES:${PN} += "file-roller"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
 libarchive.so.13 \
 libc.so.6 \
-libcairo.so.2 \
-libgdk-3.so.0 \
-libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0 \
-libhandy-1.so.0 \
+libgtk-4.so.1 \
 libjson-glib-1.0.so.0 \
-libpango-1.0.so.0 \
-libportal-gtk3.so.1 \
-libportal.so.1"
+libpango-1.0.so.0"
 
 inherit rpm

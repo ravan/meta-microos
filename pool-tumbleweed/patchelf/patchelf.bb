@@ -4,10 +4,10 @@ libraries.  It can change the dynamic loader ('ELF interpreter') of \
 executables and change the RPATH of executables and libraries."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.18.0"
+PV = "0.19.1"
 
-RPM_NAME = "patchelf-0.18.0-1.2.aarch64.rpm"
-RPM_HASH = "cf1df849f40790fd3e1dc34e949ad57334d578a62637fce80ff1f75cd7878bbe703a15ddd29c0d29ecab13b6cbb2a1dc53c097d9e8b7bc7648acb79e43b2c62c"
+RPM_NAME = "patchelf-0.19.1-1.1.aarch64.rpm"
+RPM_HASH = "eeb92d47377937383daa33994e25e54ace34fdaa01c3f3b6700e5aadbdbd3c4c76fbd44a0e4b2770c057c4aa90c206f6d85e7470aa64b84bb5777af6a70ae452"
 
 RPROVIDES:${PN} += "patchelf"
 

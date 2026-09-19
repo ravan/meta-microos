@@ -3,16 +3,15 @@ DESCRIPTION = "This framework lets applications to manage user installable packa
 Development files."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kpackage-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "021663417e06d92cfce9d193f4210503c42e82c1a49aab1cb45c7e98a243a0f919ab6216d3297195f436f857021493982aea14e97422f5fc391b951023dc919c"
+RPM_NAME = "kpackage-devel-5.116.0-1.9.aarch64.rpm"
+RPM_HASH = "816031f7d4481efcd2958c2771a2d78c44d9b657dfbbb943a38bf806819d55f80aef62fdc318b1d43af37392404bb7eb6aaecf1bdeb9301a1bb148606c866af9"
 
 RPROVIDES:${PN} += "cmake-KF5Package \
 kpackage-devel"
 
 RDEPENDS:${PN} += "cmake-KF5CoreAddons \
-extra-cmake-modules \
 kpackage"
 
 inherit rpm

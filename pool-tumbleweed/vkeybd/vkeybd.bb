@@ -4,10 +4,10 @@ raw MIDI, and ALSA sequencer drivers.  It is written in Tcl/Tk.  Enjoy \
 playing music with your 'computer' keyboard."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.18d"
+PV = "0.1.18g"
 
-RPM_NAME = "vkeybd-0.1.18d-24.8.aarch64.rpm"
-RPM_HASH = "fc93c26c4c56daee5d3b4715d090d6d897cd0771e716f7b919f21fadb45f84fa34ae8fda358834f955560fda118f9eeac08d244d640269c7f65d967dbd6eb41e"
+RPM_NAME = "vkeybd-0.1.18g-1.6.aarch64.rpm"
+RPM_HASH = "59f37ea4958ec029641ce7c1aa395a74bb6474d27e181cb71fd11a32faf68f5e32c4b11d103cba14b1785e50722daebccacbef722ec8429609c69b1bac3f4f24"
 
 RPROVIDES:${PN} += "vkeybd"
 

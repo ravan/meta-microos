@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.0"
 
-RPM_NAME = "arabic-kacstone-fonts-5.0-18.15.noarch.rpm"
-RPM_HASH = "b364cb6b7c44009b86a1b5698ddeb42bccefbaea4d6e0c4362ef8c3706cf73e501af4e529862a00a1e1326ab062c53c46d697eb1f58acd6ada95482bf8cbc001"
+RPM_NAME = "arabic-kacstone-fonts-5.0-18.23.noarch.rpm"
+RPM_HASH = "360419baf84aa01b08e29012d510ea18a7c3f103de5e34953c8e78fe0fa1e85114ae771144d69d258b8767c84e0f71aeac42392f8e14947b29f4ab079666e70c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arabic-kacstone-fonts \

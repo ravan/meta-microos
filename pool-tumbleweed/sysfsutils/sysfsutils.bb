@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.1.1"
 
-RPM_NAME = "sysfsutils-2.1.1-1.8.aarch64.rpm"
-RPM_HASH = "4dc2cf7de5c25006495ba99bf35d140a8f0fef36524f1f301793b85e72e25b478b786fe987e5aaf49e441ff318b79c71bfa56ea207f23e242f6b9f7b7f3d00a7"
+RPM_NAME = "sysfsutils-2.1.1-1.18.aarch64.rpm"
+RPM_HASH = "3e6b5a9dd9472a6993b0c0afbe94e70b65b307ea229a0b6030971c179bc8a1c41002870cad53bca335376d5b1dde62ecff733f5aab9a26130c104cd5373184b5"
 
 RPROVIDES:${PN} += "libsysfs \
 sysfsutils"

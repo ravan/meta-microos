@@ -2,10 +2,10 @@ SUMMARY = "Documentation for dynare in HTML format"
 DESCRIPTION = "This package provides documentation for dynare in HTML format."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.4"
+PV = "6.5"
 
-RPM_NAME = "dynare-doc-html-5.4-1.2.noarch.rpm"
-RPM_HASH = "661125b416dfa0ddba0b19b009e7781d9817ac955c63ce25bc9ccae8d45807d58a06bc9202c192718f614bd3f3b7e718db3e8852da912ccb966d13255cf2c83a"
+RPM_NAME = "dynare-doc-html-6.5-1.7.noarch.rpm"
+RPM_HASH = "e7eac9630b213a9a62cdcf53a25d9e01970b954bace3edd590c980f20d8bc9a930798d7528cd26aa4fd2d10851caab5face000acb821bf30515f7e97a9d2caad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dynare-doc-html"

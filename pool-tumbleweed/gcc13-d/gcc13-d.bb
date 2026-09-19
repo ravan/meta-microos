@@ -3,20 +3,22 @@ DESCRIPTION = "This package contains a D compiler and associated development \
 files based on the GNU GCC technology."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.2.1+git7683"
+PV = "13.5.0+git10516"
 
-RPM_NAME = "gcc13-d-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "2dba6502792056035670c5816064628de7610f4c646a5c98cfa2752803236e52997de2cff80dd02a83e97ec6ed9af6a9fe17f4603ba4c5d5c6311145b06f6eb1"
+RPM_NAME = "gcc13-d-13.5.0+git10516-1.1.aarch64.rpm"
+RPM_HASH = "bc9677ecf59b2a7f4def0dfa905cbfe943d3631c598dec73901873fbb4f49a748ec993c24dcb2a2e0848d39e80052b8027222f6118f196298d1c1f1d6fd9c60e"
 
 RPROVIDES:${PN} += "gcc13-d"
 
 RDEPENDS:${PN} += "gcc13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libgcc-s.so.1 \
 libgdruntime4 \
 libgmp.so.10 \
 libgphobos4 \
 libisl.so.23 \
+libm.so.6 \
 libmpc.so.3 \
 libmpfr.so.6 \
 libz.so.1 \

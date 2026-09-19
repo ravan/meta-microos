@@ -6,10 +6,10 @@ the old one. You do not need to have a copy of the old RPM, because \
 deltarpms can also work with installed RPMs."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.6.3"
+PV = "3.6.5"
 
-RPM_NAME = "deltarpm-3.6.3-2.7.aarch64.rpm"
-RPM_HASH = "fc7a907a0c3279b945b5642e144599abea38fb2d2c67ca02bd165dbf7e4ef2f7962c581672a7ddb361c102329783e32c7ba0e0d1fb6dd52bc32920b94042fe43"
+RPM_NAME = "deltarpm-3.6.5-1.10.aarch64.rpm"
+RPM_HASH = "4546982cd47b45804a8b51bfeb23bf93fd1a1fe8ce7136714f29159699d2462587923e2276c0390c50baf56d9e86336d982da26f7638c8b83e76c24373ea37dd"
 
 RPROVIDES:${PN} += "deltarpm"
 
@@ -18,8 +18,8 @@ ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \
 liblzma.so.5 \
-librpm.so.9 \
-librpmio.so.9 \
+librpm.so.10 \
+librpmio.so.10 \
 libzstd.so.1"
 
 inherit rpm

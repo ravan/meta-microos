@@ -4,10 +4,10 @@ typesetting the quizzes for proofreading, the package compiles \
 an XML file to be uploaded to a Moodle server."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn65672"
+PV = "2026.226.1.0svn65672"
 
-RPM_NAME = "texlive-moodle-2023.209.1.0svn65672-55.1.noarch.rpm"
-RPM_HASH = "75bebd761eba40b6cceb2fc9b74f5d1519847fdf51c703000492d37de5fbfc71a723c29647a5177762c170e1c8ed4636292a787b1a13d6292c56c2bd92b90ab5"
+RPM_NAME = "texlive-moodle-2026.226.1.0svn65672-61.2.noarch.rpm"
+RPM_HASH = "9930b327394e3507b03b82cd7755199330f5c663ecf0939d6c874217436e5bb5fece4f3ffde1cc9818d684e6ad531701b17a6ed89e46b1a9ca299217e2c29ce0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-moodle.sty \

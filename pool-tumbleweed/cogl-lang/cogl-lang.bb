@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.22.8"
 
-RPM_NAME = "cogl-lang-1.22.8-2.12.noarch.rpm"
-RPM_HASH = "b9f0f873aeb6a7fe7912e377820068ac3ed3bde6247e7fd8cb94a4b86aad491d00877c1bda8df2c6257c907ba30a4329bfde242e04077fd56d60a1a2d578623b"
+RPM_NAME = "cogl-lang-1.22.8-3.7.noarch.rpm"
+RPM_HASH = "febf15c63257b54f9c0dcd655b5399a6af680cb7be9cec386bc1b9c17523e4ba078549c53e3df5643d139bbe8cffd834480eb9e8c3f172369987f6bd3fd0501c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cogl-lang \

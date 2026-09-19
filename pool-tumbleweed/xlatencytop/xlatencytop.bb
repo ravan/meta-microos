@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.5"
 
-RPM_NAME = "xlatencytop-0.5-25.24.aarch64.rpm"
-RPM_HASH = "e24eabf9c5c95496c999608d765a4d3b1771edae79c4fdd7930ab41e70465e4fb52e027cc1b4bc4999fd81aeaa505d9b35cc634927e01529fbd4a1267eaadb8b"
+RPM_NAME = "xlatencytop-0.5-26.8.aarch64.rpm"
+RPM_HASH = "8fd26f9b272a0434b41c9fc7dae1331d6dc9e93b1fec0041971b14a154afd1574ba4500b7526ff6ee683a3fcf473dfd12324b27a4808a75d28e473a9d6794bf3"
 
 RPROVIDES:${PN} += "xlatencytop"
 

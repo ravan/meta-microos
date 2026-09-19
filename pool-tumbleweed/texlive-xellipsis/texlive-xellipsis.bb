@@ -9,10 +9,10 @@ Chicago Manual of Style (Turabian); the Bluebook; and MLA \
 guidelines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn47546"
+PV = "2026.226.2.0svn47546"
 
-RPM_NAME = "texlive-xellipsis-2023.209.2.0svn47546-53.2.noarch.rpm"
-RPM_HASH = "3483149c1f8dfe951a3d296e2463f1e92c68e15bc447cfb46ba02283adfc35bfd15f693b80c97d776254f83af304b8b1a64c99e4c6193afb8f3dd53a8473835f"
+RPM_NAME = "texlive-xellipsis-2026.226.2.0svn47546-59.4.noarch.rpm"
+RPM_HASH = "d15e39b75d4739fae4d17ac67a22dcf70e70ff4264de011d30685bdc6e4499c3e7570c13badbebef79ea4d3f1793b300f47045ed9f9212dddab3ed946fd9ec55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xellipsis.sty \

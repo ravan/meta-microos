@@ -2,10 +2,10 @@ SUMMARY = "Translations for package exo"
 DESCRIPTION = "Provides translations for the 'exo' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "exo-lang-4.18.0-1.3.noarch.rpm"
-RPM_HASH = "6d10c148d20dd7df01a5964361d1efa49a05977bc65d993548eacc891462f4663ca03c8b45296dd5dc220b782b9ff4f95bfd3f7fcd5b1a278e5b83f9d9008e16"
+RPM_NAME = "exo-lang-4.20.0-2.8.noarch.rpm"
+RPM_HASH = "3d3d341ded54436acf89df633adf8deefe5be62e1b38a68824d66dfe04e63b95943f3bf9c18918426af0cd794bde733d925b05a0d89d1e61e87bd33d9453193c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "exo-lang \

@@ -1,12 +1,12 @@
 SUMMARY = "Include Files and Libraries mandatory for Development"
 DESCRIPTION = "This package contains all necessary include files and libraries needed \
 to develop applications that require these."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "tomoe-gtk-devel-0.6.0-44.25.aarch64.rpm"
-RPM_HASH = "04a2ccf9b2e5524c70c05852e0e32af6aa81f704df0b4c2c06be482ae2c3b2aa52f0bd0c0fbfa0654079a4e6a7d9d6dd8b127a1b3ac73968cb855a0dd5ccc1ab"
+RPM_NAME = "tomoe-gtk-devel-0.6.0-45.6.aarch64.rpm"
+RPM_HASH = "1b37f43906cb2f1be1d94df905076e2af58a2463a8ad3f330b821ed424ac0cc78ea82882ce4568eecca007304e0094518de77b404e8bc92406e1bdf942716603"
 
 RPROVIDES:${PN} += "pkgconfig-tomoe-gtk \
 tomoe-gtk-devel"

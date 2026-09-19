@@ -2,10 +2,10 @@ SUMMARY = "Documentation for Kvantum engine"
 DESCRIPTION = "This package provides instructions on how to change configuration or make new themes for Kvantum engine."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.0.10"
+PV = "1.1.8"
 
-RPM_NAME = "kvantum-doc-1.0.10-1.1.noarch.rpm"
-RPM_HASH = "813c0ed3418445e4785f743ac5a5ac919450d1ef9c3822d58ec5780891d17ab3e900074e889ad197b190afff582b8991e6b04586d0bdd6ff3cd857bb884cdbfb"
+RPM_NAME = "kvantum-doc-1.1.8-1.2.noarch.rpm"
+RPM_HASH = "daf601570bb5f8bfdc8c949950b9a1f35010959e656bf4abb1347fbf14b303321ff6c53c8648f7c269e999663e1b691cc7d1b8746f9e385142023cbcaaacd4de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kvantum-doc"

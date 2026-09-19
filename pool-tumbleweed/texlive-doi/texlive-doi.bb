@@ -8,10 +8,10 @@ takes a DOI number, and creates a correct hyperlink to the \
 target of the DOI."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn48634"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-doi-2023.209.svn48634-53.1.noarch.rpm"
-RPM_HASH = "9e974e6c5d990e40c6c88d4b7ff84dfbd9d63224c7c332cd20106be2228ec4735b49fceeda82efdcbd1334e8e25adb359b5dc9b0cacf670726940c0b50c852e9"
+RPM_NAME = "texlive-doi-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "ad6de4adf13f2a045313ab827aaec07ea3fd137f0e73c01acc2c89fb998db1e0c8b88ad712fa7b32c0a7ae898334ef6b6e4c6cfd10fd665c32e7d94aaeaeffc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-doi.sty \

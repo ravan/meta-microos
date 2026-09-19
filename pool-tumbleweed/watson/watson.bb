@@ -5,15 +5,15 @@ LICENSE = "MIT"
 
 PV = "2.1.0"
 
-RPM_NAME = "watson-2.1.0-1.5.noarch.rpm"
-RPM_HASH = "7c3a21290237565a22664225e773159b1c135d5a520f3a9227dd5fcc4d875c3bf19f03608cfc99e548553a6d841a2c40eda6ae5c44168b95f11a05fc91ad732a"
+RPM_NAME = "watson-2.1.0-1.15.noarch.rpm"
+RPM_HASH = "ebb9fc57ce3b52faf4d0de6a5831d302ce91813f3cdbed09adf8b255dac1e1e480a9bc64c488dcfd104a9083c30c8661f884b97d63cc074103a76924288e21b9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-td-watson \
+RPROVIDES:${PN} += "python3.13dist-td-watson \
 python3dist-td-watson \
 watson"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-arrow \
 python3-click \

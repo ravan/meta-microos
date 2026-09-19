@@ -7,12 +7,12 @@ PCRE2 is a re-working of the original PCRE library to provide an entirely new \
 API. \
  \
 This package contains static versions of the PCRE2 libraries."
-LICENSE = "BSD-3-Clause"
+LICENSE = "BSD-2-Clause & BSD-3-Clause-with-PCRE2-exception"
 
-PV = "10.42"
+PV = "10.48"
 
-RPM_NAME = "pcre2-devel-static-10.42-3.5.aarch64.rpm"
-RPM_HASH = "2e965f854f2ba091384bfaf307ba2e38378463460f366f4af55a1731aaf9a8504a7ecfe0d39b880589fbd9279adac95afafa3136e2a381ae9a7ea710f651b0e1"
+RPM_NAME = "pcre2-devel-static-10.48-1.1.aarch64.rpm"
+RPM_HASH = "9a573c0ccad89964c429983dbf172a75a7b8f30a6c6ed2fe86fe5b666f2a18ffaa496b182ccc8f4ae0334d8fa6d7ab2c4ad45f1fc6ebf11a1f63bd93f2c3673c"
 
 RPROVIDES:${PN} += "pcre2-devel-static"
 

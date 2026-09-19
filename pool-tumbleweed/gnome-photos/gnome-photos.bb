@@ -6,10 +6,10 @@ manager application for GNOME, because they share similar UI/UX \
 patterns and objectives."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "44.0+23"
 
-RPM_NAME = "gnome-photos-44.0-1.2.aarch64.rpm"
-RPM_HASH = "e7683ac100ec60b07040661d49c4ea9d896c5e8ff6209d023541b603d8d0118ff468380517fdd860e3825305b01eacca9e7bdda4128d649f100cb3f8c788602d"
+RPM_NAME = "gnome-photos-44.0+23-3.6.aarch64.rpm"
+RPM_HASH = "282645f5c2888017176c91dac5aecb8a604322e8ffbcd94bd788995ef382f4949511a7de579b6b191182bc21351c11eb6cf58990996d3b3683fda0753546eb58"
 
 RPROVIDES:${PN} += "gnome-photos \
 libgnome-photos.so"
@@ -39,8 +39,7 @@ libpangocairo-1.0.so.0 \
 libpng16.so.16 \
 libportal-gtk3.so.1 \
 libportal.so.1 \
-libtracker-sparql-3.0.so.0 \
-tracker \
-tracker-miner-files"
+libtinysparql-3.0.so.0 \
+localsearch"
 
 inherit rpm

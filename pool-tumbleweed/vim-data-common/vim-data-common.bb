@@ -2,10 +2,10 @@ SUMMARY = "Common Data files for vim & gvim"
 DESCRIPTION = "This package contains basic runtime & syntax files for vim"
 LICENSE = "Vim"
 
-PV = "9.0.1632"
+PV = "9.2.0901"
 
-RPM_NAME = "vim-data-common-9.0.1632-2.2.noarch.rpm"
-RPM_HASH = "3d402404e9381e1b17eb96dee8686a665a668a591e66d708083a585439e3b37bac7462d906fbacdb9615b6344c1cc366ec5611cae181b3c8809d674b13981de4"
+RPM_NAME = "vim-data-common-9.2.0901-1.1.noarch.rpm"
+RPM_HASH = "3fdfd7a14787a02edaf4f161acddb9704368bdbac2ec42d98008f68368615854ab3e57cc9150e2cef6836e2bde4c14bd7a60a51ba9fb4d9524d86acc5e4f2a4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-data-common"

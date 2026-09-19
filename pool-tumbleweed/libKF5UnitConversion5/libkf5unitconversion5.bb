@@ -4,10 +4,10 @@ units. It supports converting different prefixes (e.g. kilo, mega, giga) as \
 well as converting between different unit systems (e.g. liters, gallons)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5UnitConversion5-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "46355e1b7a46428ecc30605fe85d4363ff421740f5ae27216767d4ca739c4e3a4a6a4f5bf2a995178f03fb0a61b5085a86eff6b2f9a8776a7b998778000792d5"
+RPM_NAME = "libKF5UnitConversion5-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "ef45e8614cea065ac62a7dfa5ebbced432b0996ab979f2589be413a8ae1972d718cd6cb33f324f833fbf200aad0d973973cbab0b24ab8be657fc1dd24206b197"
 
 RPROVIDES:${PN} += "libKF5UnitConversion.so.5 \
 libKF5UnitConversion5"

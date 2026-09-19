@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.24"
 
-RPM_NAME = "libstfl-devel-0.24-3.16.aarch64.rpm"
-RPM_HASH = "766b4404b707ad6fee8a3f8c69eb815c822c66f3540d028f2ed9ed6568739413dda2e58a2c727227c6f6dfc8363d5b217a9bc02ed71f765c13c7668d01bd9b36"
+RPM_NAME = "libstfl-devel-0.24-5.8.aarch64.rpm"
+RPM_HASH = "26567a9362d5abdfb84049de37e808bde3abb899c8e47ff2a0d04c8f31f8478b7d1f08eb838aac9af93a30a57f5b4e77d36f8467c00d42fd25845d393b45ca58"
 
 RPROVIDES:${PN} += "libstfl-devel \
 pkgconfig-stfl"

@@ -2,10 +2,10 @@ SUMMARY = "Bill of materials POM for Jackson projects"
 DESCRIPTION = "A 'bill of materials' POM for Jackson dependencies."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-bom-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "3792dffd64e16b62fe6532fd404243dc55e097f147c8e2d222dcc9bd5ffb633e859bc720c3482079be19240a9e000b1d8c772156bd0e1e6b8310e30de1af7e01"
+RPM_NAME = "jackson-bom-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "82744778943232967cfa53c45d829561b152a292703d3faba41c479d3efefce1f3071409b9deeb60a37e8f74bdd8de82ee705033b9a27f416546e7013d6a32db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-bom \

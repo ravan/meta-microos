@@ -3,24 +3,20 @@ DESCRIPTION = "Common files used by the different virt-manager interfaces, as we
 virt-install related tools."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.1.0"
+PV = "5.1.0"
 
-RPM_NAME = "virt-manager-common-4.1.0-10.1.noarch.rpm"
-RPM_HASH = "d90368bb615d4274f30cc3928498c4bfe61b794d792608a5da5ae73465d7294c799801333a428ca42f3b3ad0529fef7c3eadd9919e149873fc03cf7e4853a0af"
+RPM_NAME = "virt-manager-common-5.1.0-16.1.noarch.rpm"
+RPM_HASH = "eea1ce91c6adb6fef9cd975d4d7abfed685453eefd1692e702b57b468f7e160a647f299b174323a5f5ed0abc6c064e09c020d1d077ad3211d8caa05780eb9cda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-manager-common"
 
 RDEPENDS:${PN} += "libosinfo \
-mkisofs \
+python3-argcomplete \
 python3-gobject \
-python3-ipaddr \
 python3-libvirt-python \
-python3-libxml2-python \
-python3-pycurl \
-typelib-AppIndicator3 \
+python3-requests \
 typelib-Libosinfo \
-typelib-LibvirtGLib \
 xorriso"
 
 inherit rpm

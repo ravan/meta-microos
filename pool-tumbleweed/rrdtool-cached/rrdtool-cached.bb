@@ -6,12 +6,14 @@ big setups in mind which usually runs into I/O related problems.  This \
 daemon was written to alleviate these problems."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.11.0"
 
-RPM_NAME = "rrdtool-cached-1.8.0-3.5.aarch64.rpm"
-RPM_HASH = "c76118d8685c2acc2d35b5d1e5c8b8828fcb386972ac94c5ecbf18f6f761a9f4500a9e2fc0af3a0b8720d842e1caf11714d16ee2335a2addb9e5e78f501b13ee"
+RPM_NAME = "rrdtool-cached-1.11.0-1.1.aarch64.rpm"
+RPM_HASH = "868368bd1d795779330d068370b2c86210b5fd4c73624ca1abd807717c77d128e5c7054f7dc50e6fd7e2c0ecb6019ac35ed759f77a1f5ec27dbf778d3c1fc00d"
 
-RPROVIDES:${PN} += "rrdtool-cached"
+RPROVIDES:${PN} += "group-rrdcached \
+rrdtool-cached \
+user-rrdcached"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \

@@ -4,10 +4,10 @@ allowing it to be completely asynchronous while remaining single \
 threaded."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.1"
+PV = "1.5.0"
 
-RPM_NAME = "gtk-vnc-devel-1.3.1-1.6.aarch64.rpm"
-RPM_HASH = "87cbef30c016b1e42dbe48e27027b68a611c6565efd38f30c331e985555bb7c1046a2f4a791a313c69277a0528c4e7c2c8b218f488d8e1055449531118849959"
+RPM_NAME = "gtk-vnc-devel-1.5.0-5.2.aarch64.rpm"
+RPM_HASH = "9afa4f3e22cb716ea2b84ec00bad9fdd4fe5e6a94cd13191e8b6c4652f1dfebf5fb20487069f3bc6d58736e174c21aca69561c168126d5c6979220063369a548"
 
 RPROVIDES:${PN} += "gtk-vnc-devel \
 pkgconfig-gtk-vnc-2.0 \
@@ -20,11 +20,11 @@ libgvnc-1-0-0 \
 libgvncpulse-1-0-0 \
 pkgconfig-gdk-pixbuf-2.0 \
 pkgconfig-gio-2.0 \
+pkgconfig-gmp \
 pkgconfig-gnutls \
 pkgconfig-gobject-2.0 \
 pkgconfig-gtk+-3.0 \
 pkgconfig-gvnc-1.0 \
-pkgconfig-libgcrypt \
 pkgconfig-libpulse-simple \
 pkgconfig-libsasl2 \
 pkgconfig-x11 \

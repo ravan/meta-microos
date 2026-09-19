@@ -7,11 +7,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-mips-gcc7-7.5.0+r278197-14.2.aarch64.rpm"
-RPM_HASH = "a531ee7abcf43254defabf66cc78c785182ad52b356c3f837bc29fcf70e7be3c28a5906809bfe544b588f200107823c8ce634499b1de95009a7a74e3b4c28c8f"
+RPM_NAME = "cross-mips-gcc7-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "41fb1a89831c21297cf1cb237b98e25b9a594ed54dc3b8ebb3d6365b099a9e967458edef43d69df8481ed9108935a33f48cf2d26f0a51775c0f19d8d8e0c3a59"
 
 RPROVIDES:${PN} += "cross-mips-gcc7 \
-liblto-plugin.so.0"
+liblto-plugin.so.0 \
+mips-suse-linux-gcc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 cross-mips-binutils \

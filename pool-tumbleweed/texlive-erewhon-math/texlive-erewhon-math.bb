@@ -3,10 +3,10 @@ DESCRIPTION = "OpenType version of the fourier Type1 fonts designed by Michel \
 Bovani."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.56svn65684"
+PV = "2026.226.0.0.73svn78171"
 
-RPM_NAME = "texlive-erewhon-math-2023.209.0.0.56svn65684-54.2.noarch.rpm"
-RPM_HASH = "6ed34094d216646c0b0982ab6c954d46519afd6f481c83d3ad03ec2734fa7b504b0b66aa4185c7aacf843041d6f1af80b63b846e787df18824f1d5d39245492c"
+RPM_NAME = "texlive-erewhon-math-2026.226.0.0.73svn78171-61.4.noarch.rpm"
+RPM_HASH = "2cf9d6d9a742e8e34d946fdb7d6c69e23297ce4bc53be63be61ebce2bb8ce60601e9f2b2cf17277903b9662595ae5dd25b92e9866db8501a0dcce2e37d41a4a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fourier-otf.sty \
@@ -18,11 +18,12 @@ ed \
 findutils \
 grep \
 sed \
+tex-fontspec.sty \
 tex-fourier-orns.sty \
 tex-iftex.sty \
+tex-lua-unicode-math.sty \
 tex-realscripts.sty \
 tex-unicode-math.sty \
-tex-xkeyval.sty \
 texlive \
 texlive-erewhon-math-fonts \
 texlive-filesystem \

@@ -1,12 +1,12 @@
 SUMMARY = "Include Files and Libraries for developing with Btrfs"
-DESCRIPTION = "This package contains the libraries and headers files for developers to \
-build applications to interface with Btrfs."
+DESCRIPTION = "This package contains the libbtrfs.so shared library and limited API to access \
+Btrfs filesystems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.5"
+PV = "7.1"
 
-RPM_NAME = "libbtrfs-devel-6.5-1.1.aarch64.rpm"
-RPM_HASH = "0617f55a5d9fa496d2a777a9c3880c920ea27c8b67b5e159e50f86a1c20fdb3e0a979a54be46e513377c6ca8b7c75c1b24826911c8ab052df216850514e4e434"
+RPM_NAME = "libbtrfs-devel-7.1-1.2.aarch64.rpm"
+RPM_HASH = "b71497cb837b73f20d5cdd06004b99b0d89176c0f8194686a3fa67995428dbbfc960b3f41fc1fca0c5aafa74cba69746bbf248f976dabf2026851ce4829294f5"
 
 RPROVIDES:${PN} += "libbtrfs-devel"
 

@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for zellij"
 DESCRIPTION = "Zsh command-line completion support for zellij."
 LICENSE = "MIT"
 
-PV = "0.37.2"
+PV = "0.44.3"
 
-RPM_NAME = "zellij-zsh-completion-0.37.2-2.1.noarch.rpm"
-RPM_HASH = "770dcbe5d111db7ea9b6ab72db11728548f4c9fcaa0aaaa4af4b5560225488077bc45d3278580dbcee6d91f4959dc130a6140c8a58180d98ecb15db8aa52494d"
+RPM_NAME = "zellij-zsh-completion-0.44.3-1.4.noarch.rpm"
+RPM_HASH = "67157d1db8ef9ad5ac27e198b15a5a5d069a5732fd979a09c5f7a11d5d1a3e3622bcc445f9bec8c15d3e6a243bd2284392de955516fb474588047f813fd66221"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zellij-zsh-completion"

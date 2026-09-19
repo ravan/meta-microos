@@ -5,18 +5,18 @@ git-review is a tool that helps submitting git branches to gerrit for \
 review."
 LICENSE = "Apache-2.0"
 
-PV = "2.3.1"
+PV = "2.5.0"
 
-RPM_NAME = "git-review-2.3.1-2.2.noarch.rpm"
-RPM_HASH = "1554cb789daf043005091be171154f06fc5e673e7eaabd6d834279c12445a457f697de127e027619121ba717ccf2e1de6a9305693d8296d812940f312837c20a"
+RPM_NAME = "git-review-2.5.0-1.3.noarch.rpm"
+RPM_HASH = "332b75f099cb95ff3910b944d6defecb89227838609fa98fab121bcfc2194076620f3cf1e5532982107089324a03a495d57103a375f56768932b5f9bb5e86b74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-review \
 python3-git-review \
-python3.11dist-git-review \
+python3.13dist-git-review \
 python3dist-git-review"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-requests"
 

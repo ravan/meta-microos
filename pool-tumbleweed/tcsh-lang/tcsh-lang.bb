@@ -2,10 +2,10 @@ SUMMARY = "Translations for package tcsh"
 DESCRIPTION = "Provides translations for the 'tcsh' package."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.24.10"
+PV = "6.24.16"
 
-RPM_NAME = "tcsh-lang-6.24.10-3.1.noarch.rpm"
-RPM_HASH = "3713b4743b1043f4671dd61d6ad37b03d94e8182c01ca796d526a8e0fe917ab6b3e8cc4f33bbdbaf12611f3a84a7f7b36d03829b64d666e9a335c771e9d23bbd"
+RPM_NAME = "tcsh-lang-6.24.16-1.6.noarch.rpm"
+RPM_HASH = "1f4d931b9f4d244917490ac5e5e1be027fe5d49add9fe4ae0ffdb86b843c2bac58beac887fc759f7fb2ac8a063c6155c02a90305edb51f8b52890f56d17acbb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tcsh-de \

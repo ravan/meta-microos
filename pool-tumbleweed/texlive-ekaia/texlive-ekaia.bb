@@ -4,10 +4,10 @@ Basque Country Science and Technology Journal 'Ekaia' at the \
 University of the Basque Country."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.06svn49594"
+PV = "2026.226.1.06svn49594"
 
-RPM_NAME = "texlive-ekaia-2023.209.1.06svn49594-54.2.noarch.rpm"
-RPM_HASH = "f58904bd2be21fbff41d1ab9ae2b69faf706799bc3aa52beabd949cccd64bfb76d085b1d4b96fba18a193a84d46534df69c2e9729a1c906060dbf15bb86feae7"
+RPM_NAME = "texlive-ekaia-2026.226.1.06svn49594-61.4.noarch.rpm"
+RPM_HASH = "d2026f6001cc924afc447ccc47cd8c2279028ad8e3f5f3378d2f21894c0d5cef7e81c426f843537aea4d0368ba17b24d0d378f61caedc83028d87957b317a5c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ekaia.sty \

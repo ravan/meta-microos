@@ -3,13 +3,15 @@ DESCRIPTION = "Including TikZ, pict, etc., but MetaPost and PStricks are \
 separate."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn66360"
+PV = "2026.222.svn77389"
 
-RPM_NAME = "texlive-collection-pictures-2023.208.svn66360-60.1.noarch.rpm"
-RPM_HASH = "534b822ed456fb2dfb1e9654747db638e8551b2ae3db8cbbeb7bad28e05a1df376b2fc50455d2639e874f6085c6715f8f8f5e04e1c0242924b4c51aab8fb2e95"
+RPM_NAME = "texlive-collection-pictures-2026.222.svn77389-68.2.noarch.rpm"
+RPM_HASH = "ebe7a44afaabaa11368697cccb4965d33bea380cfd103917fd87923ad40dd39ced4f3be146f69a66405d848820ddf37bbb79162c3cc510f05542abab51951c87"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-pictures \
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-pictures \
 texlive-collection-pictures"
 
 RDEPENDS:${PN} += "texlive-adigraph \
@@ -27,18 +29,22 @@ texlive-blox \
 texlive-bodegraph \
 texlive-bondgraph \
 texlive-bondgraphs \
+texlive-bootstrapicons \
 texlive-braids \
 texlive-bxeepic \
 texlive-byo-twemojis \
 texlive-byrne \
 texlive-cachepic \
 texlive-callouts \
+texlive-callouts-box \
 texlive-celtic \
 texlive-chemfig \
 texlive-circuit-macros \
 texlive-circuitikz \
+texlive-circularglyphs \
 texlive-coffeestains \
 texlive-collection-basic \
+texlive-coloredbelts \
 texlive-combinedgraphics \
 texlive-curve \
 texlive-curve2e \
@@ -56,19 +62,23 @@ texlive-duotenzor \
 texlive-dynkin-diagrams \
 texlive-ecgdraw \
 texlive-eepic \
+texlive-egpeirce \
 texlive-ellipse \
 texlive-endofproofwd \
 texlive-epspdf \
 texlive-epspdfconversion \
 texlive-esk \
 texlive-euflag \
+texlive-fadingimage \
 texlive-fast-diagram \
+texlive-fenetrecas \
 texlive-fig4latex \
 texlive-figchild \
 texlive-figput \
 texlive-fitbox \
 texlive-flowchart \
 texlive-forest \
+texlive-forest-ext \
 texlive-genealogytree \
 texlive-getmap \
 texlive-gincltex \
@@ -86,6 +96,7 @@ texlive-hobby \
 texlive-hvfloat \
 texlive-istgame \
 texlive-kblocks \
+texlive-keisennote \
 texlive-kinematikz \
 texlive-knitting \
 texlive-knittingpattern \
@@ -95,11 +106,15 @@ texlive-latex-make \
 texlive-liftarm \
 texlive-lpic \
 texlive-lroundrect \
+texlive-lua-tikz3dtools \
 texlive-luamesh \
 texlive-luasseq \
+texlive-lucide-icons \
 texlive-maker \
 texlive-makeshape \
+texlive-maritime \
 texlive-mathspic \
+texlive-memoize \
 texlive-mercatormap \
 texlive-milsymb \
 texlive-miniplot \
@@ -109,9 +124,12 @@ texlive-neuralnetwork \
 texlive-nl-interval \
 texlive-nndraw \
 texlive-numericplots \
+texlive-open-everyday-symbols \
+texlive-openmoji \
+texlive-optikz \
 texlive-outilsgeomtikz \
+texlive-papiergurvan \
 texlive-pb-diagram \
-texlive-penrose \
 texlive-petri-nets \
 texlive-pgf \
 texlive-pgf-blur \
@@ -123,22 +141,29 @@ texlive-pgf-spectra \
 texlive-pgf-umlcd \
 texlive-pgf-umlsd \
 texlive-pgfgantt \
+texlive-pgfkeysearch \
 texlive-pgfkeyx \
 texlive-pgfmolbio \
 texlive-pgfmorepages \
 texlive-pgfopts \
 texlive-pgfornament \
 texlive-pgfplots \
+texlive-pgfplotsthemebeamer \
 texlive-picinpar \
 texlive-pict2e \
 texlive-pictex \
 texlive-pictex2 \
+texlive-pictochrono \
 texlive-pinlabel \
 texlive-pixelart \
 texlive-pixelarttikz \
 texlive-pmgraph \
+texlive-polyhedra \
+texlive-polyomino \
 texlive-postage \
+texlive-postit \
 texlive-prerex \
+texlive-prisma-flow-diagram \
 texlive-productbox \
 texlive-ptolemaicastronomy \
 texlive-puyotikz \
@@ -146,7 +171,7 @@ texlive-pxpgfmark \
 texlive-pxpic \
 texlive-qcircuit \
 texlive-qrcode \
-texlive-quantikz \
+texlive-qrcodetikz \
 texlive-randbild \
 texlive-randomwalk \
 texlive-realhats \
@@ -167,6 +192,7 @@ texlive-smartdiagram \
 texlive-spath3 \
 texlive-spectralsequences \
 texlive-strands \
+texlive-sunpath \
 texlive-swimgraf \
 texlive-syntaxdi \
 texlive-table-fct \
@@ -177,7 +203,10 @@ texlive-tikz-among-us \
 texlive-tikz-bagua \
 texlive-tikz-bayesnet \
 texlive-tikz-bbox \
+texlive-tikz-bpmn \
 texlive-tikz-cd \
+texlive-tikz-cookingsymbols \
+texlive-tikz-decofonts \
 texlive-tikz-dependency \
 texlive-tikz-dimline \
 texlive-tikz-ext \
@@ -193,22 +222,31 @@ texlive-tikz-layers \
 texlive-tikz-mirror-lens \
 texlive-tikz-nef \
 texlive-tikz-network \
+texlive-tikz-nfold \
 texlive-tikz-opm \
 texlive-tikz-optics \
+texlive-tikz-osci \
 texlive-tikz-page \
 texlive-tikz-palattice \
 texlive-tikz-planets \
 texlive-tikz-qtree \
 texlive-tikz-relay \
 texlive-tikz-sfc \
+texlive-tikz-shields \
 texlive-tikz-swigs \
 texlive-tikz-timing \
 texlive-tikz-trackschematic \
 texlive-tikz-truchet \
+texlive-tikz2d-fr \
+texlive-tikz3d-fr \
+texlive-tikzbrickfigurines \
 texlive-tikzbricks \
+texlive-tikzcalendarnotes \
 texlive-tikzcodeblocks \
+texlive-tikzdotncross \
 texlive-tikzducks \
 texlive-tikzfill \
+texlive-tikzfxgraph \
 texlive-tikzinclude \
 texlive-tikzlings \
 texlive-tikzmark \
@@ -220,19 +258,26 @@ texlive-tikzpeople \
 texlive-tikzpfeile \
 texlive-tikzpingus \
 texlive-tikzposter \
+texlive-tikzquads \
+texlive-tikzquests \
 texlive-tikzscale \
 texlive-tikzsymbols \
 texlive-tikztosvg \
 texlive-tikzviolinplots \
 texlive-tile-graphic \
+texlive-tilings \
+texlive-timechart \
 texlive-timing-diagrams \
 texlive-tipfr \
 texlive-tkz-base \
 texlive-tkz-berge \
+texlive-tkz-bernoulli \
 texlive-tkz-doc \
+texlive-tkz-elements \
 texlive-tkz-euclide \
 texlive-tkz-fct \
 texlive-tkz-graph \
+texlive-tkz-grapheur \
 texlive-tkz-orm \
 texlive-tkz-tab \
 texlive-tkzexample \
@@ -243,9 +288,12 @@ texlive-tufte-latex \
 texlive-twemojis \
 texlive-tzplot \
 texlive-utfsym \
+texlive-vectorlogos \
 texlive-venndiagram \
+texlive-vexillology \
 texlive-visualpstricks \
 texlive-wheelchart \
+texlive-wordcloud \
 texlive-worldflags \
 texlive-xistercian \
 texlive-xpicture \

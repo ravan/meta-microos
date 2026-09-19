@@ -5,10 +5,10 @@ to 'comment out' some code, and a macro to input other files in \
 'normal' LaTeX mode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn15878"
 
-RPM_NAME = "texlive-gmdoc-enhance-2023.209.0.0.2svn15878-54.2.noarch.rpm"
-RPM_HASH = "227eaa6d6f088c1535249120a47081d39ca345be0c8fdd7d335e3702689d9d3bf0ff918ab663dc634e83bed8dba4fa33a84379754278f59b8f62cac238289353"
+RPM_NAME = "texlive-gmdoc-enhance-2026.226.0.0.2svn15878-60.4.noarch.rpm"
+RPM_HASH = "3452d8de6b398a21bd968410e9909f869a6cefa13f52543d2d69f633e2ce6984380c78c507487cd2a4ed70b4c928408bc3f0cd15ad5f7bd5f33b3f9f6a2d80e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gmdoc-enhance.sty \

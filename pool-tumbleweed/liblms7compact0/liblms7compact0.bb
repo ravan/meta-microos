@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.0.0+git.20200518"
 
-RPM_NAME = "liblms7compact0-0.0.0+git.20200518-1.11.aarch64.rpm"
-RPM_HASH = "f1a0767bbfd36dd4387d81af7791230ca037cafd0f1a9996ba946dba8e6aa86deffabf0ddb484f4a8e182c9570b7a15e2928d95b91b341b83d72d462d8837f72"
+RPM_NAME = "liblms7compact0-0.0.0+git.20200518-2.9.aarch64.rpm"
+RPM_HASH = "a3d729cf1792470e838e0814faa15c8119a1779ba4cea2ea9c171219f11c59c63139caf1f932c801a8689b7f9f826ca0aca69d8f87f5f99ed3e921a7ba84b278"
 
 RPROVIDES:${PN} += "liblms7compact.so.0 \
 liblms7compact0"

@@ -2,10 +2,10 @@ SUMMARY = "TeX Live manual (French)"
 DESCRIPTION = "The texlive-fr package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66571"
+PV = "2026.227.svn78031"
 
-RPM_NAME = "texlive-texlive-fr-2023.209.svn66571-55.1.noarch.rpm"
-RPM_HASH = "31e2e0dd4efcaf742780a0da28dbe36620015476f86a9bcc69c95f2d32e4585520b29a04e584bb7b537fae0a9e255a97ca9aa2f8cedb4297c76535090fe31b7d"
+RPM_NAME = "texlive-texlive-fr-2026.227.svn78031-62.2.noarch.rpm"
+RPM_HASH = "142071d1c0c01187b5077034353551f4af5cf0e2a10252ef5514df1e0c4e6fbc2dcfd769f6baec1c4402e4ffa3b5cd0fbcdb2f515edc1460643ffecfe8e6f6c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlive-fr"

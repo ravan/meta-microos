@@ -4,10 +4,10 @@ convenient tool to visualize git history and actions that benefit from a \
 graphical presentation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "41"
+PV = "50"
 
-RPM_NAME = "python3-GitgExt-41-2.10.aarch64.rpm"
-RPM_HASH = "dc94f197da11600c3c9abf02c4b17dba74a2ed924438cf81fd961f86d72a09b25f37180117ca3d6d60142628f0b96372fabf79782c3f79c85634900d690e9c49"
+RPM_NAME = "python3-GitgExt-50-1.1.aarch64.rpm"
+RPM_HASH = "1bff4e6cf5e729c9cc24ecfc09360a5c600253c4c60a4af5b0458cf340bd15c79c7eb4e65685d762c4e2644d1040db72d7790371c8e5c24b4dc5d909dc19ae57"
 
 RPROVIDES:${PN} += "python3-GitgExt"
 

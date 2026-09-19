@@ -6,14 +6,13 @@ Runge-Kutta and 4th order Runge-Kutta algorithms are available \
 to solve the ODEs. The picture is translated into mfpic macros \
 and MetaPost is used to create the final drawing. The package \
 is was designed for use with LaTeX, but it can be used in plain \
-TeX as well. Online demonstration of the mfpic4ode macros is \
-available on the Mfpic Previewer as Example 6."
+TeX as well."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn17745"
+PV = "2026.226.0.0.4svn75712"
 
-RPM_NAME = "texlive-mfpic4ode-2023.209.0.0.4svn17745-55.1.noarch.rpm"
-RPM_HASH = "8f7d39448bac655a3ee154a6df449fa188c3195ac83fdf680c6aef2163fed3dd955e6304351f8eff3bbb6ed825e88419c5dd0a95e1c9874187b57cb3ec6cd8d6"
+RPM_NAME = "texlive-mfpic4ode-2026.226.0.0.4svn75712-61.2.noarch.rpm"
+RPM_HASH = "4cb7ffab89e738d44ae947bb0e32bea6d7148fe2025424c800d03e8a8fd143b10febf3267bb6a9129b3688cf2a04448027ca0f8ab8af64f9ea27ae51bb578113"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mfpic4ode.sty \

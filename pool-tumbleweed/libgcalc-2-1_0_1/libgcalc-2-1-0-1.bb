@@ -2,10 +2,10 @@ SUMMARY = "Shared library for gnome-calculator"
 DESCRIPTION = "This package contains a shared library for gnome-calculator."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "50.0+16"
 
-RPM_NAME = "libgcalc-2-1_0_1-44.0-1.2.aarch64.rpm"
-RPM_HASH = "e5c6c27e8484cbed9ccaddd303b6f12a014dc5c2b30aab90b66d90b28a84e4d15711307dab2da3a01b4caf24de0f55c0830afaa66e248e8fee30129dfcf4882c"
+RPM_NAME = "libgcalc-2-1_0_1-50.0+16-1.3.aarch64.rpm"
+RPM_HASH = "5195881bbe345c201ec7f51565e7c4a561f4050a554ae095bdb4f5367b5a30457615be47a351ee8c22149d61710c53ded8fcb5e7f00bff54c28184aa6bdcc054"
 
 RPROVIDES:${PN} += "libgcalc-2-1-0-1 \
 libgcalc-2.so.1.0.1"

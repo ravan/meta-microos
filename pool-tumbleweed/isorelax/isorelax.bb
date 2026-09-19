@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "0.1"
 
-RPM_NAME = "isorelax-0.1-30.7.noarch.rpm"
-RPM_HASH = "e7f8bd4c342b1d8c19770ffb6b239feef4bbbb3789b58329e33e995f0b3e740509c3c1c08a31be3c5766847bc94b1362d6962eacf2c824efb98ad24f9a9bf794"
+RPM_NAME = "isorelax-0.1-31.9.noarch.rpm"
+RPM_HASH = "123323674da61d7bf1ed44cf70b7daf250a57bce9838640f8c78ec3bf6235158f38623be1087f6c655f9f2e78aa59ba4e2f9dceff626ed87d444a510ce98794f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "isorelax \

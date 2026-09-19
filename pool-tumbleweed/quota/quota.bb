@@ -5,10 +5,10 @@ groups. The kernel must be compiled with disk quota support enabled \
 (SUSE kernels have this support)."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.09"
+PV = "4.11"
 
-RPM_NAME = "quota-4.09-2.4.aarch64.rpm"
-RPM_HASH = "16d36512ab0f3bec7ff60f81ba26c8d90871480d38614b4b9835e4217ce4c1068c6945860094f059c010f580228c1307bbde16ac6192a5aebedd62d5c1466870"
+RPM_NAME = "quota-4.11-1.4.aarch64.rpm"
+RPM_HASH = "18dadba95924306a734b0b5793e8ee59fd818383a7f90c0362e4d6e18f4245cc3f5a55cfa543130ccfe663022161b0187472e9864e1b4cf5874e411517051dc8"
 
 RPROVIDES:${PN} += "config-quota \
 quota"

@@ -6,16 +6,16 @@ languages, print ` as a grave accent and ' upright; ' is used \
 both to open and to close quoted strings. The package switches \
 the typewriter font to Computer Modern Typewriter in OT1 \
 encoding, and modifies the behaviour of verbatim, verbatim*, \
-\\verb, and \\verb* to print in the '` and ' way'. It does \
-thisregardless of other fonts or encodings in use, so long as \
-the package is loaded after the other fonts were. The package \
-does not affect \\tt, \\texttt, etc."
+\\verb, and \\verb* to print in the '` and ' way'. It does this \
+regardless of other fonts or encodings in use, so long as the \
+package is loaded after the other fonts were. The package does \
+not affect \\tt, \\texttt, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn26059"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-upquote-2023.209.1.3svn26059-54.1.noarch.rpm"
-RPM_HASH = "bfa198cca98cac14021c167bf87e9dbd287573b853e3e2e1ed06499ac9b038688f97620d68e5c584b796603c6ddc8419f309418f71a191029bb93ab95c1ab53a"
+RPM_NAME = "texlive-upquote-2026.226.1.3svn77682-60.2.noarch.rpm"
+RPM_HASH = "f597ab2b4401966c1f1fd40f61bfe5c8c8f604bbb8edff163a4f62110f9abc5829bf895b0f3726ca0bc2f34dbb71a93efb39bb3187abcf97d2475d204767e783"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-upquote.sty \

@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Galician la
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-glg-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "12dd5876a15966377e5dec3aa59b20b1041de532a3aacc74a5b1e791b7c309d8cece91102221c0df763c2009b6a8ba6b7380cd0425752d0b6b5a582985463e42"
+RPM_NAME = "tesseract-ocr-traineddata-glg-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "1646483ccf4a3a496b3bcd306cbd92815d21bd9605cdc020f64685e90298c91e2a2327e0a50feb072841ab4884884ea340296e85f9b0eeeb933b164684a39804"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-galician \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-gl \
+tesseract-ocr-traineddata-galician \
 tesseract-ocr-traineddata-glg \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-galician"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

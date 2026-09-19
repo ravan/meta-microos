@@ -16,24 +16,25 @@ General features: \
 - Winetricks support."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.3.13"
+PV = "1.4.2"
 
-RPM_NAME = "q4wine-1.3.13-1.18.aarch64.rpm"
-RPM_HASH = "da514e4b815599813eb6ccd37d018224edb2106731a044e61a2463ed6b5605112c5246561f0d0ef2beb659f2767b0d17fdb1a6de577586f56a4b4c7b62d0116b"
+RPM_NAME = "q4wine-1.4.2-1.11.aarch64.rpm"
+RPM_HASH = "22de2af9bd2a5bffe12041bc237c8bc6b0fbfa53d0924751fa2d709ec1dad09e4135836a5f48d9a24830e61226491fe920fe25c12927a14fa19e679df74448c9"
 
-RPROVIDES:${PN} += "libq4wine-core.so \
+RPROVIDES:${PN} += "bundled-SingleApplication \
+libq4wine-core.so \
 q4wine"
 
 RDEPENDS:${PN} += "fuseiso \
 icoutils \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

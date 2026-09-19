@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.15.2"
 
-RPM_NAME = "gulkan0_15-0-0.15.2-1.4.aarch64.rpm"
-RPM_HASH = "03b5589e5d5e8908e1da414887df41b45dd062d371bd910c3b9c2c50bbe400fafca2dbf4b0cd82730b86667cf161c807f635b147d7ba61dedf76e851a4a589ff"
+RPM_NAME = "gulkan0_15-0-0.15.2-2.8.aarch64.rpm"
+RPM_HASH = "aeb74cc6e9065c9a69d2cfc73baa99456f32dcc746853045ea96e0409fa7b83f8880e168c3e17fc42014c2b1579cffdde79c735dea1643ebad92c4400b4d1f8e"
 
 RPROVIDES:${PN} += "gulkan0-15-0 \
 libgulkan-0.15.so.0"

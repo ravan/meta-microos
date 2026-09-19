@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.0"
 
-RPM_NAME = "libsharp-devel-1.0.0-1.12.aarch64.rpm"
-RPM_HASH = "d6002a7fc66f2ca04721c93867f9f19eb9489d79277e324022dda585fcf706d407dbd8239fd02393869bb6f83b536aac1a64751ec1a82bdd895fc1c70e301802"
+RPM_NAME = "libsharp-devel-1.0.0-1.22.aarch64.rpm"
+RPM_HASH = "fc9b4e2c19a7828f2c7c608c5b782ff3631d34282c73f7c32fc32298703722063ed291dbf7ca0f0ac58bf705c9717d7d2fca89d0726f04568048cd028b14ac45"
 
 RPROVIDES:${PN} += "libsharp-devel \
 pkgconfig-libsharp"

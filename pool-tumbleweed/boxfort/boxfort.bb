@@ -10,10 +10,10 @@ The goal of this project is portable code isolation (not security). \
 For complete system isolation, consider using containers."
 LICENSE = "MIT"
 
-PV = "0.1.4"
+PV = "0.1.8"
 
-RPM_NAME = "boxfort-0.1.4-1.4.aarch64.rpm"
-RPM_HASH = "0b777f463194bfd3f3c6a7e6711acd3600221b42bb68180b13f3e4dc3ae84b01bc617d27a1a62c76dea93268370a62e9f0138db653f0fd10c3151908d98617b6"
+RPM_NAME = "boxfort-0.1.8-1.1.aarch64.rpm"
+RPM_HASH = "102a389ca48e93fa1360afc7ef32730f2a933ee661440decde258c02526d161077db7cd7c68c2fb3b4db537edae5fad45e087b7b4e251faa277b6ed44041d654"
 
 RPROVIDES:${PN} += "boxfort"
 

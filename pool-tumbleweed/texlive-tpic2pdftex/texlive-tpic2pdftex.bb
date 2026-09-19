@@ -1,12 +1,13 @@
 SUMMARY = "Use tpic commands in pdfTeX"
-DESCRIPTION = "The AWK script converts pic language, embedded inline \
-(delimited by .PS and .PE markers), to \\pdfliteral commands."
+DESCRIPTION = "This AWK script converts pic language, embedded inline \
+(delimited by .PS and .PE markers), to \\pdfliteral commands. It \
+is now maintained as part of TeX Live."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn52851"
+PV = "2026.226.svn75712"
 
-RPM_NAME = "texlive-tpic2pdftex-2023.209.svn52851-53.1.noarch.rpm"
-RPM_HASH = "639ef16dafae9df43c00ef9ad1866fb9d8663ee346b34be185c7809337d7304f78d92e81ddb4ebec3092cc4e2186dadbb96c450fc424474cb3eac8d91731d0df"
+RPM_NAME = "texlive-tpic2pdftex-2026.226.svn75712-59.2.noarch.rpm"
+RPM_HASH = "514aa762105550e1e5ce180914cd72ddf3e2720d5c1e3834e9f42d3b016115710385bc428ab34a8dc8e01642c6dd9defe842f32315c9f01d26bee995d278a6da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-tpic2pdftex.1 \

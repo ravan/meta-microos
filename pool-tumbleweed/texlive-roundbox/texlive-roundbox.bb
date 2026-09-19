@@ -3,10 +3,10 @@ DESCRIPTION = "This package implements a command \\roundbox that can be used, \
 in LaTeX, for producing boxes, framed with rounded corners."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn29675"
+PV = "2026.226.0.0.2svn29675"
 
-RPM_NAME = "texlive-roundbox-2023.209.0.0.2svn29675-54.1.noarch.rpm"
-RPM_HASH = "2e1a89e164cb68b961c844a3fa5bdf3130489a2067b74d4164fad76131445cdb6fff7822e79e24be514bda78c29d4f2550665c55d1820ff9dc6b13877bcf9f8d"
+RPM_NAME = "texlive-roundbox-2026.226.0.0.2svn29675-60.2.noarch.rpm"
+RPM_HASH = "9167dafa9162f1c2b9318f9152f6b888e5b13d31dc06ec96b6dfabd22deef481d64cf3c65a13589fb979373761a016fb778d732ffb4c84535cad53fef6e50dc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-roundbox.sty \

@@ -4,10 +4,10 @@ interface engine available for YCP applications (YCP is the scripting \
 language in which most YaST2 modules are written)."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-ycp-ui-bindings-devel-4.6.0-1.4.aarch64.rpm"
-RPM_HASH = "06f79e58608f54a60200cb6d6f9673023f4934edfe75061d65c7e090bf4d97bdd0269ba1dff2dd8b79ebbc7afb31d8540fa0e9a9073ce48a4cc77b104e7ca8a2"
+RPM_NAME = "yast2-ycp-ui-bindings-devel-5.0.1-1.8.aarch64.rpm"
+RPM_HASH = "a9c28b53fba392f7c46f432471b1e4b346317d95d56621ee2922fab522cc28ae79b48cfa6766202521e5ed77a9441920f57701ff1797a0b0e10abcd853d51ab1"
 
 RPROVIDES:${PN} += "pkgconfig-yast2-ycp-ui-bindings \
 yast2-ycp-ui-bindings-devel"

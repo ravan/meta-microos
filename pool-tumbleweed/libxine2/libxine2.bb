@@ -21,8 +21,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.13"
 
-RPM_NAME = "libxine2-1.2.13-2.3.aarch64.rpm"
-RPM_HASH = "105c30ca2a28d98dac1f161023a3d8e63692af921f110eb71afccc2bd8b3fba6dc36d908fa1a6f07ac5a1432f30c89e4545e61e66a7bdd90ce3becf5788ee5be"
+RPM_NAME = "libxine2-1.2.13-11.5.aarch64.rpm"
+RPM_HASH = "dbff64f558ffcc60ffc3217afca9ad68bddb3ab43b91f785e765ccbf13a6503c0eddabdd219c7cc11e1911cdc8feaf154ec179ab097f44476c8ecebb6111ea18"
 
 RPROVIDES:${PN} += "libxine.so.2 \
 libxine2 \
@@ -34,9 +34,8 @@ xine-lib"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libEGL.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libGL.so.1 \
-libGLU.so.1 \
 libMagickWand-7.Q16HDRI.so.10 \
 libX11.so.6 \
 libXext.so.6 \
@@ -60,11 +59,10 @@ libmpcdec.so.5 \
 libogg.so.0 \
 libpng16.so.16 \
 libsmbclient.so.0 \
-libspeex.so.1 \
-libtheora.so.0 \
+libtheora.so.1 \
 libv4l2.so.0 \
 libvorbis.so.0 \
-libvpx.so.8 \
+libvpx.so.12 \
 libxcb-shape.so.0 \
 libxcb-shm.so.0 \
 libxcb-xv.so.0 \

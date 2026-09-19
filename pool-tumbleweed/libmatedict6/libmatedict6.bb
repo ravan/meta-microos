@@ -2,10 +2,10 @@ SUMMARY = "Library to look up words in dictionary sources"
 DESCRIPTION = "The matedict library is an engine to look up words in dictionary sources."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "libmatedict6-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "aad158c448bc484708247f1f2c9ad3f91e48bd64decdcc5ecab7f50b68891ef74db739f2b174c04d7dfee71979f6ecce34260cee6835e6940744f6124df46a37"
+RPM_NAME = "libmatedict6-1.28.0-2.6.aarch64.rpm"
+RPM_HASH = "bc6b178dc5ab5accf42035e1dec851623c462a08566f9fa258c44377d1df5cf70db39dd274d4fadd9a44c517635dbd146232dc65ded22eb0961edda75aa57749"
 
 RPROVIDES:${PN} += "libmatedict.so.6 \
 libmatedict6"

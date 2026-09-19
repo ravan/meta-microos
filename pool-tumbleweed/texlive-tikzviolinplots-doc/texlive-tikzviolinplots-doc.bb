@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikzviolinplots"
 DESCRIPTION = "This package includes the documentation for texlive-tikzviolinplots"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7.1svn65687"
+PV = "2026.226.0.0.10.0svn76451"
 
-RPM_NAME = "texlive-tikzviolinplots-doc-2023.209.0.0.7.1svn65687-53.1.noarch.rpm"
-RPM_HASH = "27a83758b0072f31ef1715bec1151b06a96abd4be450144fc556257f32bc400278746b8ae764e5d379e6d786814fb5896fb6d785d64a8e4f15e1d81405d6202c"
+RPM_NAME = "texlive-tikzviolinplots-doc-2026.226.0.0.10.0svn76451-59.2.noarch.rpm"
+RPM_HASH = "07bea5c4e6179bf8b42df9ce21aedf2df1a09f5d6ef402159f9b4ca0f5c7f4d154e0f0898b8cf43348e1626b9a4cc4d7403cab8185bee4ae813ce1b6a162e7dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzviolinplots-doc"

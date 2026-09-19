@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gillius"
 DESCRIPTION = "This package includes the documentation for texlive-gillius"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn64865"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-gillius-doc-2023.209.svn64865-53.1.noarch.rpm"
-RPM_HASH = "e6c77d95e65dc22dd9a3a575f1f7e00e02125351422dc34083d84db26b6679fa63989f44de04efe14470ffabb3c1d79ecb44d6a0c44c6fe7d6d6b72dc64a71f6"
+RPM_NAME = "texlive-gillius-doc-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "9c47017e0f7cba53ac77011856cb57e0fffa8e52751039eea1755ee02073b7bc7e721fa78353c002009284c46f035d8c9ab884785a33178312e1143e27def217"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gillius-doc"

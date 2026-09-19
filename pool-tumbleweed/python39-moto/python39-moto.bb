@@ -2,10 +2,10 @@ SUMMARY = "Library to mock out tests based on AWS"
 DESCRIPTION = "A library that allows your python tests to mock out AWS Services"
 LICENSE = "Apache-2.0"
 
-PV = "4.1.13"
+PV = "4.1.0"
 
-RPM_NAME = "python39-moto-4.1.13-1.1.noarch.rpm"
-RPM_HASH = "2a71d3211afe48143544b7aeee5c6b4fca3336c171f7313eec7fe3b05103879a64ea477b4b1847f8daeea51fedee561135490b0ab52be6300b7a2e58be8b5780"
+RPM_NAME = "python39-moto-4.1.0-1.1.noarch.rpm"
+RPM_HASH = "4f20fe59fba9d6c0b96a81c83114ce2d3b4e16d33525f211ad5fc1cd3a48cdd2ab362abcc58f129d4ce095ab465f26caf81148dc6af3d668a53d1eddd9bb015e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-moto \

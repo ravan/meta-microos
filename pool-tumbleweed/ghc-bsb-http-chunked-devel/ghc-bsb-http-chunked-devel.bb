@@ -5,16 +5,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.0.4"
 
-RPM_NAME = "ghc-bsb-http-chunked-devel-0.0.0.4-6.3.aarch64.rpm"
-RPM_HASH = "9eef4918f72edfd0221f390b741182bb491d017c279bfbfb8b0937cacdec9b8c88afb8fbcbffa1795b95ab5b8952674c2b00575eaf569bca1e8e527910537fd2"
+RPM_NAME = "ghc-bsb-http-chunked-devel-0.0.0.4-7.17.aarch64.rpm"
+RPM_HASH = "153cbd207a37bfef526840fc0e57ff5fe6e85574c0b3da6b92951143a122a9faa021fc3173178e310ef94aed323b81e882f33a096a796b26c641da0639b203df"
 
 RPROVIDES:${PN} += "ghc-bsb-http-chunked-devel \
-ghc-devel-bsb-http-chunked-0.0.0.4-6Uz6ZfX3tBC2nOluTU0Lnf"
+ghc-devel-bsb-http-chunked-0.0.0.4-5cZHaHeIaQxIWhD1tKvYpE"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-bsb-http-chunked \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be"
 
 inherit rpm

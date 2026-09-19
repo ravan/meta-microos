@@ -20,10 +20,10 @@ Or, you can extend this module to handle those formats (and send a pull \
 request)."
 LICENSE = "Artistic-2.0"
 
-PV = "1.504"
+PV = "1.602.0"
 
-RPM_NAME = "perl-Mac-PropertyList-1.504-1.5.noarch.rpm"
-RPM_HASH = "89f0e7a463a9cecfd002c306d6f6660c988ebffe7b8385f2c16ace164874fe9c3058027654544cedcb831b9026b9ebccbd5a46242600ccec65a036ae188fde41"
+RPM_NAME = "perl-Mac-PropertyList-1.602.0-1.10.noarch.rpm"
+RPM_HASH = "a338b6de6d0cd0bf879216db5ac70c1f914176af92df14f779e44e6dcb6d07852e9863c631fb001dd91f6b71bac635e091ce5459af460d796967cf891f6c1149"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mac--PropertyList \
@@ -49,7 +49,7 @@ perl-Mac--PropertyList--uid \
 perl-Mac--PropertyList--ustring \
 perl-Mac-PropertyList"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-XML--Entities \
 perl-parent"
 

@@ -9,19 +9,13 @@ around. When clicked upon, he will pop up on top of all other windows. \
 If you type 'q' on him, he will die (or, as I like to think of it, be \
 tucked away in the file system until you need him next time). \
  \
-That's it. But he's cute. \
- \
- \
- \
-Authors: \
--------- \
-    Stefan Gustavson <stefang@isy.liu.se>"
-LICENSE = "GPL-2.0+"
+That's it. But he's cute."
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.2"
 
-RPM_NAME = "xteddy-2.2-27.20.aarch64.rpm"
-RPM_HASH = "e197fc8ce5707119a0ec55aa06b8e9bc1a57c05b0edbc18ea22190d2e04cdd78d68fabd16d8c28621846c4e1b4fdc7b0e88a219ecdc595cb462e628167c9ada8"
+RPM_NAME = "xteddy-2.2-30.5.aarch64.rpm"
+RPM_HASH = "0ef6319d6888a19c220db5853612fbacb0f4a228476e8faca15ac2ae427ccd769e068da9bc8810b4547ea3a47e79f8c0df57619cd6e147c5375384a57ed585f6"
 
 RPROVIDES:${PN} += "xteddy \
 xteddy10"

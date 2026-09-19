@@ -7,8 +7,8 @@ LICENSE = "Apache-1.1"
 
 PV = "1.1.4c"
 
-RPM_NAME = "xpp3-javadoc-1.1.4c-6.7.noarch.rpm"
-RPM_HASH = "df5d116fb0e33f4cdd2f0fa28ed40d3f147cbba1652012947a5f622e89de81b673749a878a2ecd12b98da0cfd6a50812ff35c14fe5d2c79a5a5828654e0c767f"
+RPM_NAME = "xpp3-javadoc-1.1.4c-11.8.noarch.rpm"
+RPM_HASH = "87b8511e198a98d7735e4f224bd45c8a1081ca5b278c6cdf674e99e689f761b4f079cdcb61a49fc40ab2aeb22aa35f9586b2667cc04fe61399f4a073a96c59c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xpp3-javadoc"

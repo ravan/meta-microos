@@ -3,10 +3,10 @@ DESCRIPTION = "Compare font hinting modes \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.1"
+PV = "2.14.3"
 
-RPM_NAME = "ftdiff-2.13.1-1.1.aarch64.rpm"
-RPM_HASH = "0dc0a603f43ee1a5f3bc726f923cef7543e562d04bf6e575ec519e8eec7d73c7aec7f2df7581517126985ba8c170c8bced427f15087d38f7d68ff8d57769a8d0"
+RPM_NAME = "ftdiff-2.14.3-1.2.aarch64.rpm"
+RPM_HASH = "ed8927b53c4b332562e44bc3f52044253bdf53ca8c1012ba6debc21010aeb3ae8a022c7c93e34227797afd763b99b34d0ec149b3900eed26d02e2b144f55c67a"
 
 RPROVIDES:${PN} += "ftdiff"
 

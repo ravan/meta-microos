@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-calxxxx-yyyy"
 DESCRIPTION = "This package includes the documentation for texlive-calxxxx-yyyy"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.20.23asvn65426"
+PV = "2026.226.20.26asvn77222"
 
-RPM_NAME = "texlive-calxxxx-yyyy-doc-2023.209.20.23asvn65426-53.1.noarch.rpm"
-RPM_HASH = "a29db782537d4bb02a2984b2bd14957029f4bf3d20352e34055aeaa8654c2d8d4b378c764865a7ad1de0ac54c761748f884d683cc4939441dfe39ef5899d45c2"
+RPM_NAME = "texlive-calxxxx-yyyy-doc-2026.226.20.26asvn77222-59.2.noarch.rpm"
+RPM_HASH = "4a77d00ce6bd0f4cae46fcc0a88b6144cd28b43688498405cda6fa6bdfd1939986a23c1eae72d4191d8d7e46ae7539ba7f0e3df58a4be1b18dadfda128daac80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-calxxxx-yyyy-doc"

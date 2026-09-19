@@ -12,15 +12,15 @@ Time::Duration and is roundtrip safe. So, the following is always true. \
   is( parse_duration(duration_exact($seconds)), $seconds );"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.16"
+PV = "0.160.0"
 
-RPM_NAME = "perl-Time-Duration-Parse-0.16-1.11.noarch.rpm"
-RPM_HASH = "336b689ace98ffa60abf66984cb6c230116ac1b8aa01bdf77de4e8f06f3453ab1bd9123ed16dceab094c8d9301155c86827accd9496a3ffba4413a232a3c807c"
+RPM_NAME = "perl-Time-Duration-Parse-0.160.0-1.7.noarch.rpm"
+RPM_HASH = "c395153a47731bafad9258c8db835ec4c4893bb43d6bc8c2866d528976a0b75549f8eca2cc9b8033b95db2e1466dc66583e3035f6c299b3ccdb599d2adc25a9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Time--Duration--Parse \
 perl-Time-Duration-Parse"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

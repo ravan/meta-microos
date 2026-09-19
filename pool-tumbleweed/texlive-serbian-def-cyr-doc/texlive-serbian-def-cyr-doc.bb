@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-serbian-def-cyr"
 DESCRIPTION = "This package includes the documentation for texlive-serbian-def-cyr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn23734"
+PV = "2026.226.svn23734"
 
-RPM_NAME = "texlive-serbian-def-cyr-doc-2023.209.svn23734-54.1.noarch.rpm"
-RPM_HASH = "4f5e76413d23af8f55d5713407392fb0f2a54007c57443584be682558f106ec94ad43a248735a8c85b8715e07ecee5c45466d45d3130da04ba0b0150ad8dc06b"
+RPM_NAME = "texlive-serbian-def-cyr-doc-2026.226.svn23734-60.2.noarch.rpm"
+RPM_HASH = "5d6c7ad7d35806c445879d5dba111cb0b00c7cd753681406da936b37de3d4aed4842c41d7a702e16f4ed68fc3d64935869617f8019651e57fd03176117fbdfb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-serbian-def-cyr-doc"

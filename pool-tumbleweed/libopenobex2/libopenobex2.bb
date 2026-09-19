@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.7.2"
 
-RPM_NAME = "libopenobex2-1.7.2-3.4.aarch64.rpm"
-RPM_HASH = "d46475d8cdc39e4cf9986eb3ef1e559ffeae836ece7a9671418e7e9ed0b689a43db086c4427ebef5a1ce3781b7848f97a34f1d076efb4dc20fa1e03247d75107"
+RPM_NAME = "libopenobex2-1.7.2-3.14.aarch64.rpm"
+RPM_HASH = "acd1730bef454b15027b78409acdbdf2350f94936a0f8a05ae4cd8e6d0c4032aab2b563ff816f08058539affe7fa989c2e916b422fd413aab260ea860cdc479f"
 
 RPROVIDES:${PN} += "libopenobex.so.2 \
 libopenobex2 \

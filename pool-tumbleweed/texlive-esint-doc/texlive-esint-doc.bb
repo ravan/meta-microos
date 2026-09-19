@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-esint"
 DESCRIPTION = "This package includes the documentation for texlive-esint"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2dsvn52240"
+PV = "2026.226.1.2dsvn77682"
 
-RPM_NAME = "texlive-esint-doc-2023.209.1.2dsvn52240-54.2.noarch.rpm"
-RPM_HASH = "81215684bdc115067c08011ed84563081aeccdb8052c37d53ba31ec19c7294b585ea50774eb9411c6af48cc09d89e3ac24e24063e3abac21152219a21e5aeed7"
+RPM_NAME = "texlive-esint-doc-2026.226.1.2dsvn77682-61.4.noarch.rpm"
+RPM_HASH = "eddcc3457f8e51f285a6be943b4240f774fb20ae3d68fc05ce64629cf3715535b778d13c9d1223c27b9a5b5a369fcc160cf905225d9d17d492037901d304b214"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-esint-doc"

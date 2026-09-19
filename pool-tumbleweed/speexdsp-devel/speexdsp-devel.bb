@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GFDL-1.1-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "speexdsp-devel-1.2.1-2.1.aarch64.rpm"
-RPM_HASH = "6e4a49db74b703b28292f2b641dd2dac2bb1ded03824b0ac98b594ebe66047bd8923573a8a1114505a489a5d196843879a5fc71914019080900581b3bda00ad8"
+RPM_NAME = "speexdsp-devel-1.2.1-2.12.aarch64.rpm"
+RPM_HASH = "8554bc753933b90c5bada3df15b2a965f5a1ca9df2e5a0f2f6384cf29dd1c10b9294ac050e57b0c7e27d121b5ca69dff7e74995d160325646236fd0883123e64"
 
 RPROVIDES:${PN} += "pkgconfig-speexdsp \
 speexdsp-devel"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | Apache-2.0"
 
 PV = "4.8.1"
 
-RPM_NAME = "adminer-pgsql-4.8.1-1.6.noarch.rpm"
-RPM_HASH = "e197cb0357cda42638cac87b4e4528d14ceb83d3d73beee6cb112beb03ab7a6037bfd54627f39bf696d0d74640065d2fc8aca23dd4f71b5332aad27095404aa5"
+RPM_NAME = "adminer-pgsql-4.8.1-1.13.noarch.rpm"
+RPM_HASH = "361a0b740b794d59c6789c44d87b4e98aafe39b6de480e4dc24836fca377f854c3fefc230894acd86dce29e7310cdecc3b06b1c7f5f73874f77b5bcc487a692b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adminer-database-support \

@@ -15,16 +15,16 @@ Key features: \
    AMQP), files or databases (like PostgreSQL or MongoDB)."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.3.1"
+PV = "4.12.0"
 
-RPM_NAME = "syslog-ng-4.3.1-1.3.aarch64.rpm"
-RPM_HASH = "e8bcd8cfef13871e51d6df096b150a66b682e859aab8a1bbca9db01b17cc1d3689db903f1bf2734047e7efae9018cb1de018686f102743aa0f01763ab59c7658"
+RPM_NAME = "syslog-ng-4.12.0-1.4.aarch64.rpm"
+RPM_HASH = "5c7a9b6a9b53ef6bfc10d4ede1a49f1ebf55efbb78e1877d6566b6fdb173b6092a485a77317e68d946830854472aef54a834765ec6924129728125d7ae6c40ed"
 
 RPROVIDES:${PN} += "config-syslog-ng \
-libloggen-helper-4.3.so.0 \
-libloggen-plugin-4.3.so.0 \
+libloggen-helper-4.12.so.0 \
+libloggen-plugin-4.12.so.0 \
 libsecret-storage.so.0 \
-libsyslog-ng-4.3.so.0 \
+libsyslog-ng-4.12.so.0 \
 syslog \
 syslog-ng \
 sysvinit-syslog"
@@ -39,11 +39,12 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \
 libcrypto.so.3 \
-libevtlog-4.3.so.0 \
+libevtlog-4.12.so.0 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libjson-c.so.5 \
+libm.so.6 \
 libnet.so.9 \
 libpcre2-8.so.0 \
 libssl.so.3 \

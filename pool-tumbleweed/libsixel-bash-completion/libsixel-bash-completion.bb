@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for libsixel"
 DESCRIPTION = "Bash command line completion support for libsixel."
 LICENSE = "MIT"
 
-PV = "1.10.3"
+PV = "1.10.5"
 
-RPM_NAME = "libsixel-bash-completion-1.10.3-1.8.noarch.rpm"
-RPM_HASH = "958a0c69290b6a4462f4d75d2a5cf5d9feecc6ac3db4186e68aa13fbfecada18b77919808f1e68d3cd87d1b9182acbc0b3d9a6a9e3b9db30bfcd1c7560b0f957"
+RPM_NAME = "libsixel-bash-completion-1.10.5-2.7.noarch.rpm"
+RPM_HASH = "218d6990b09f9fecd3b594ab8545d99f2512bb36a774dc5dfec417f3852a587d46754ea3011e2a16b993f7307cd275789ffa4430e1c1717a984ced8e9db366ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsixel-bash-completion"

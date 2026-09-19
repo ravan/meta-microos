@@ -13,14 +13,14 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.09"
 
-RPM_NAME = "perl-PostScript-Simple-0.09-1.28.noarch.rpm"
-RPM_HASH = "c59fca17962bb4dbc5dc984ca45f1a943c7886f32192eb588725dd327a854ec33aa2cdc7d4b15356d1839f2cfdb132f61d28f1037170df0c7a530ef1cd3c64f7"
+RPM_NAME = "perl-PostScript-Simple-0.09-1.42.noarch.rpm"
+RPM_HASH = "8ba67393f4b418857e83c9435792c36837c14d0654bc3c39f2817f2e265d11977f68bb307804e7bca4c0ceeac6d093a579578c70ca1fb3a2b68bfb81208dc713"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PostScript--Simple \
 perl-PostScript--Simple--EPS \
 perl-PostScript-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

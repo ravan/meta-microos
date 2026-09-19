@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fouriernc"
 DESCRIPTION = "This package includes the documentation for texlive-fouriernc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn29646"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-fouriernc-doc-2023.209.svn29646-53.1.noarch.rpm"
-RPM_HASH = "0f6fc979ee6595767e78d10b46c1062aa6156d11db24add43d18737f1cabbf48be6ce691be5822a6ad5cf69608a85a4a26af15c0b873177b53ad3231aadc2127"
+RPM_NAME = "texlive-fouriernc-doc-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "0385d4b908092160ac54515cc707f69c439f64046cffec78d914b4c591ea84f6bd7e6ac988a0dab639982cc4a47e19340988609623bc02b22c499a96755af440"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fouriernc-doc"

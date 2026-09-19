@@ -7,8 +7,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.08"
 
-RPM_NAME = "perl-Test-Mock-LWP-0.08-4.22.noarch.rpm"
-RPM_HASH = "8d4a7259f1184e662759bdfabb9ea68e93e22d38de9ac694af7e05412d7a2be58869c9f4e1c38d76831c3c44d50ab63cca700a81ef750ffcf4773e91715baa17"
+RPM_NAME = "perl-Test-Mock-LWP-0.08-4.36.noarch.rpm"
+RPM_HASH = "f304ac31cee9b269b0ba2769a12e7e66161308e2fe2415896a8ede6d4920d0937ad1bedce0079786e231b65181bafa10bdc870a152492411c84a282a102ef3e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Mock--HTTP--Request \
@@ -17,7 +17,7 @@ perl-Test--Mock--LWP \
 perl-Test--Mock--LWP--UserAgent \
 perl-Test-Mock-LWP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Test--MockObject"
 
 inherit rpm

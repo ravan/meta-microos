@@ -5,10 +5,10 @@ files to use the fonts in TeXnANSI (LY1) and LaTeX standard T1 \
 and TS1 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.004svn32215"
+PV = "2026.226.2.1svn77682"
 
-RPM_NAME = "texlive-berenisadf-2023.209.1.004svn32215-54.1.noarch.rpm"
-RPM_HASH = "8246d0f33335434313490546a4b5514bbc05455e6e544f9e923fa1bdfda17ca41f501b00aebe110d5f4c15fe12c546dedf0b0ff3ac8df53c983ee9489e6efccb"
+RPM_NAME = "texlive-berenisadf-2026.226.2.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "6b92a983614f7d5bcb01e08050359aac647e3b07acbd7a87c63dcf237dfe001cfd6c0acc403f17bcdc387fbe4f85f60b6260a9c045f33c66d06df4219142230a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-berenis.sty \
@@ -55,7 +55,11 @@ tex-ts1ybd0.fd \
 tex-ts1ybd1.fd \
 tex-ts1ybd2.fd \
 tex-ts1ybd2j.fd \
+tex-ts1ybd2jw.fd \
+tex-ts1ybd2w.fd \
 tex-ts1ybdj.fd \
+tex-ts1ybdjw.fd \
+tex-ts1ybdw.fd \
 tex-ybd.map \
 tex-ybdb08c.tfm \
 tex-ybdb08t.tfm \
@@ -243,9 +247,9 @@ grep \
 sed \
 tex-fontenc.sty \
 tex-nfssext-cfr.sty \
+tex-svn-prov.sty \
 tex-textcomp.sty \
 tex-updmap.cfg \
-tex-xkeyval.sty \
 texlive \
 texlive-berenisadf-fonts \
 texlive-filesystem \

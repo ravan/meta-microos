@@ -4,10 +4,10 @@ optimization (based on optimizing the Huffman tables) and 'lossy' optimization \
 based on setting a maximum quality factor."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.4"
+PV = "1.5.6"
 
-RPM_NAME = "jpegoptim-1.5.4-1.1.aarch64.rpm"
-RPM_HASH = "8966d743a1a026087e432173cfac8193576638ec7f2537b2673207fd7b8929e5129e1acf13c442711dc91b7cba1157e5f3fecaa4efc2a8062e0f67af04ce8bfa"
+RPM_NAME = "jpegoptim-1.5.6-1.4.aarch64.rpm"
+RPM_HASH = "524b2bcf1087d91ddf8e7af87c68f5facf154bb66f261ab6a5229e38e7f3d3502e75c20d14a76ab48922319b503188d6ede1f5e7040398de1f7ef7ea46d1010c"
 
 RPROVIDES:${PN} += "jpegoptim"
 

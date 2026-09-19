@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-qstest"
 DESCRIPTION = "This package includes the documentation for texlive-qstest"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn73069"
 
-RPM_NAME = "texlive-qstest-doc-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "71fd852c3e736343efca6ba886f76fcfda617a8c07fa83e807df7d65e0c17e179c1b4e99e64e0a5c29ec02e642d2730e0f099d0c21433ab6d1de7594e5102b4b"
+RPM_NAME = "texlive-qstest-doc-2026.226.svn73069-60.4.noarch.rpm"
+RPM_HASH = "d0a86bcc559df5e070cf83b30ca4fafb39b08ea1d6b9cf65e8f6421d6f0224d0b019e98afcabca62a2b793015c07b7aa1f55b33b03568f6e880edc2f5b0051fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qstest-doc"

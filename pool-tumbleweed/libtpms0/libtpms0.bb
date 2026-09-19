@@ -3,10 +3,10 @@ DESCRIPTION = "A library providing TPM functionality for VMs. Targeted for integ
 into Qemu."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.6"
+PV = "0.10.2"
 
-RPM_NAME = "libtpms0-0.9.6-1.4.aarch64.rpm"
-RPM_HASH = "725af968e870ced2c2d457e8d3233de2d529fd5386105203f0d5fbf054bd59ac096ae88ce94b1b1b9b0d634b06e2c3191b0831f103135d55c566f02c1c08e417"
+RPM_NAME = "libtpms0-0.10.2-1.3.aarch64.rpm"
+RPM_HASH = "02cdef6fb54b3e8b2631112386e06c6e75774a1b7f274302c2681aad9c6be520e30a677a74e4e11ab1b2dc748be0d5bc30b345e04839799ec2349c304103e1a1"
 
 RPROVIDES:${PN} += "libtpms.so.0 \
 libtpms0"

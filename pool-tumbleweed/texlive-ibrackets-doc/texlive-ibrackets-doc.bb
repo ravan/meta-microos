@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ibrackets"
 DESCRIPTION = "This package includes the documentation for texlive-ibrackets"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn65383"
+PV = "2026.226.1.2svn67736"
 
-RPM_NAME = "texlive-ibrackets-doc-2023.209.1.1svn65383-54.1.noarch.rpm"
-RPM_HASH = "5c714db78759585a0a4b90de6813e4c212372667b09dcdaa15ab642abab044eabb8482d3b046b4f9f822f82c39f021fc73eae481775adc8a378dd116b26c1df8"
+RPM_NAME = "texlive-ibrackets-doc-2026.226.1.2svn67736-60.2.noarch.rpm"
+RPM_HASH = "984b5d13faffbf9d7a63fd3dadb5f460423dea6f42b77fc148a0e2bc8856bbc72cecd27aaaf1b03ae11a9d10410d0c48de1a43086bcf2aca1ed539c2c4a935b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ibrackets-doc"

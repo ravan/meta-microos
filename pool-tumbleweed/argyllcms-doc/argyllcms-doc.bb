@@ -6,10 +6,11 @@ displays. \
 This package contains the Argyll color management system documentation."
 LICENSE = "AGPL-3.0-only & GPL-2.0-or-later & MIT"
 
-PV = "2.3.1"
+PV = "3.4.1"
 
-RPM_NAME = "argyllcms-doc-2.3.1-2.6.aarch64.rpm"
-RPM_HASH = "2c4b763866cc1f0b13e981fa83df95642967057e29f2de4d82a95fd38e624a7b93fd951f1b232d256be2ccdd34316a76e0c6c897ad4d2c2f27b0589e82a23670"
+RPM_NAME = "argyllcms-doc-3.4.1-1.7.noarch.rpm"
+RPM_HASH = "516ace2d2ce22546ca919d20e1f7f78b816bdb16bde991b33e9ba9494d3f4cdcf9d623467f6b3905a7891b404d3cc5a234cdb430052ca68514603ac306d526e0"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "argyllcms-doc"
 

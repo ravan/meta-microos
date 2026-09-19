@@ -8,10 +8,10 @@ itself, the documentation as a PDF file, and all the files \
 needed to produce it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn54451"
+PV = "2026.226.1.2svn76924"
 
-RPM_NAME = "texlive-expose-expl3-dunkerque-2019-2023.209.1.2svn54451-53.1.noarch.rpm"
-RPM_HASH = "a96885784dd29ec3a46d12282260ccd6ee37f028309db17a8d145eb29b07157811918775584e06a5200f8cf7edd18faf42f7a4f088a558c686430fbf2514946c"
+RPM_NAME = "texlive-expose-expl3-dunkerque-2019-2026.226.1.2svn76924-59.2.noarch.rpm"
+RPM_HASH = "17dffa26791ba34da134cbf31a88901170bf8358f8cb2b8c8d65261226b1f978193b5370357d621f17637d6c85dc0736425901e1e8ca1ebe735b76908ff516b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-expose-expl3-dunkerque-2019"

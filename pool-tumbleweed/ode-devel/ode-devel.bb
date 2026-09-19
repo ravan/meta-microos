@@ -8,10 +8,10 @@ virtual creatures. It is currently used in many computer games, 3D \
 authoring tools and simulation tools."
 LICENSE = "BSD-3-Clause | LGPL-2.1-or-later"
 
-PV = "0.16.3"
+PV = "0.16.5"
 
-RPM_NAME = "ode-devel-0.16.3-1.4.aarch64.rpm"
-RPM_HASH = "e9a9e494e892b48576320e65080b0910f6a0890a168d23850f65125518eccdb64acf5526d12be349fe95e12aefd40dc4ec412e1c96a024f352e6a5eb4b8ce4b0"
+RPM_NAME = "ode-devel-0.16.5-1.10.aarch64.rpm"
+RPM_HASH = "cf52c87c5d95ed66e6cb36b4e035a0f8e7e4457550c817bd2074949dfea9c0e56d39c8a9596c64be9173ff150e4ff66ce168d198715752edb8622e9b83620f60"
 
 RPROVIDES:${PN} += "libode-devel \
 ode-devel \

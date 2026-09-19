@@ -1,11 +1,11 @@
-SUMMARY = "Languages for package xfconf"
-DESCRIPTION = "Provides translations to the package xfconf"
+SUMMARY = "Translations for package xfconf"
+DESCRIPTION = "Provides translations for the 'xfconf' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.1"
+PV = "4.20.0"
 
-RPM_NAME = "xfconf-lang-4.18.1-1.1.noarch.rpm"
-RPM_HASH = "36ccddcb1de1ee98a251ee8f85072849ae3037a5a3375bb29f5209822fbedcb6cdb8335a7e8fe88d9a4603f52dc1486b9ddaab0b9cf3fc058b65107bab029950"
+RPM_NAME = "xfconf-lang-4.20.0-1.9.noarch.rpm"
+RPM_HASH = "df71c32b3d3cd889b4e663483dead276ef1f3ad8017eca7348e36122c3227662490fb0db5b58333c5de7c4b34437d511d9965ebf623843957c716d3794464657"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfconf-ar \
@@ -21,6 +21,7 @@ locale-xfconf-en-AU \
 locale-xfconf-en-CA \
 locale-xfconf-en-GB \
 locale-xfconf-es \
+locale-xfconf-et \
 locale-xfconf-eu \
 locale-xfconf-fi \
 locale-xfconf-fr \
@@ -64,6 +65,6 @@ locale-xfconf-zh-TW \
 xfconf-lang \
 xfconf-lang-all"
 
-RDEPENDS:${PN} += "libxfconf-0-3"
+RDEPENDS:${PN} += "xfconf"
 
 inherit rpm

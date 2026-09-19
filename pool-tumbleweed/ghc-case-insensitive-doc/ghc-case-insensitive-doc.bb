@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1.0"
 
-RPM_NAME = "ghc-case-insensitive-doc-1.2.1.0-6.4.noarch.rpm"
-RPM_HASH = "c4faee388368cf7808c7c9818e9047b6c80074d81be2dadde036982c634da3a6bca61991f4b2e85a1f3d7aea09bec411b3c1c0e667dbc1189a8db36a3243d5b3"
+RPM_NAME = "ghc-case-insensitive-doc-1.2.1.0-6.29.noarch.rpm"
+RPM_HASH = "8bcffabbf87d1b6f17965f1a1d11110432f922812b23cc441781bb675ba53402fc1374470418a71bf8f4d5b103e6db16f331edbaa9eb86f1db51440e5ab527cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-case-insensitive-doc"

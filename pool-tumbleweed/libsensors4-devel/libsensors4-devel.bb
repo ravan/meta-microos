@@ -6,10 +6,10 @@ have to be applied for the specific hardware, so that the output makes \
 sense to the user."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.6.0"
+PV = "3.6.2"
 
-RPM_NAME = "libsensors4-devel-3.6.0-8.8.aarch64.rpm"
-RPM_HASH = "aefb1010187408349bbb077d131536a549892599cd2a66d631a9357297c60de447e01b7a0a9b3d9f5a9a27b2bc2af49ba78c4bea0ccf0f1e4ab53c96a83e6b22"
+RPM_NAME = "libsensors4-devel-3.6.2-5.4.aarch64.rpm"
+RPM_HASH = "595ab76948c91c8da228c63f620e68d91e63790e9ab81e1c3a6f922db6cb5c1709146814bbd0ed9bb22e67f411ba4831cb81202b42191998cfc4c7dfde145c83"
 
 RPROVIDES:${PN} += "libsensors4-devel \
 sensors-/usr/include/sensors/sensors.h"

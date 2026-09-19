@@ -23,10 +23,10 @@ DESCRIPTION = "Key features: \
 - User-configurable keyboard shortcuts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.2"
+PV = "5.0"
 
-RPM_NAME = "golly-4.2-2.2.aarch64.rpm"
-RPM_HASH = "5b1ebc795bd8125ca0c1eb40583c64fbf6e9da0a4d4f13d178d5bda2200aa659e7e226fe8beabafb1840c2b5186effd54422169021e5ca1f5ce6d45e9f7d587d"
+RPM_NAME = "golly-5.0-2.1.aarch64.rpm"
+RPM_HASH = "ce0619503fe05ad237da6eed523cf8385079e28c8a6865e14b90dcbb7bd51a9c823d92f86dcd4c9666d5ca3e13bde342f67c268353af63584c18fa71b1a7051b"
 
 RPROVIDES:${PN} += "golly"
 
@@ -38,11 +38,11 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libwx-baseu-net-suse.so.9.0.0 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk3u-core-suse.so.9.0.0 \
-libwx-gtk3u-gl-suse.so.9.0.0 \
-libwx-gtk3u-html-suse.so.9.0.0 \
+libwx-baseu-net-suse.so.16.0.0 \
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk3u-core-suse.so.16.0.0 \
+libwx-gtk3u-gl-suse.so.16.0.0 \
+libwx-gtk3u-html-suse.so.16.0.0 \
 libz.so.1 \
 python3"
 

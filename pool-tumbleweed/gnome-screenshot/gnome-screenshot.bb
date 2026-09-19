@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "41.0"
 
-RPM_NAME = "gnome-screenshot-41.0-2.7.aarch64.rpm"
-RPM_HASH = "76090a22994c2930ff1850ae63091e11ad6bee72199176b161c3f5d18aa304e92b46afb63279a3bc766ccf88c3992cc8fb1fce39d20d15d47d1ba413d739d19e"
+RPM_NAME = "gnome-screenshot-41.0-2.18.aarch64.rpm"
+RPM_HASH = "c0d46984880d6b9c70ab80dc8e4c564516890e1d780a060e3fd5231da7cd9364709124df72993a6df560fdd58d164fc594df81c0c5735debf90710f7d197f4aa"
 
 RPROVIDES:${PN} += "gnome-screenshot"
 

@@ -2,12 +2,12 @@ SUMMARY = "Test update that contains a 32bit package"
 DESCRIPTION = "Package for testing the update stack during product development. \
  \
 An update for this package should contain a 32bit-package."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "5.1"
+PV = "5.2"
 
-RPM_NAME = "update-test-32bit-pkg-5.1-1.18.aarch64.rpm"
-RPM_HASH = "5a050ca8e0934e498a84c2313ee302c4ee4de891f2a4fbb4018df204898c2615fee01a9a0af7b3ffa231300757b1dd6459f25935cb1d20e1ed0645edcd0d8c3a"
+RPM_NAME = "update-test-32bit-pkg-5.2-1.15.aarch64.rpm"
+RPM_HASH = "ee2e00c75ca44b5cf251f54ada90a845ceb936b45df7cf2845c65d6bf19e5b578dee4b19bb60855198db51575f73a03409f1119e21233adf9daea1df2f844776"
 
 RPROVIDES:${PN} += "update-test-32bit-pkg"
 

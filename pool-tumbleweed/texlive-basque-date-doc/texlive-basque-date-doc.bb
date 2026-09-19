@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-basque-date"
 DESCRIPTION = "This package includes the documentation for texlive-basque-date"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.05svn26477"
+PV = "2026.226.1.05svn26477"
 
-RPM_NAME = "texlive-basque-date-doc-2023.209.1.05svn26477-54.1.noarch.rpm"
-RPM_HASH = "ee6b18aa3393a2ec9233759eecd7c9984ae6a14a62ffcda17d627e76d9a98e146bcc240e4c164bb1f15161d47d0a684380ef0494b4bab0c81a0dcb97f79ce6c0"
+RPM_NAME = "texlive-basque-date-doc-2026.226.1.05svn26477-60.2.noarch.rpm"
+RPM_HASH = "81341f5beca43d4102c4d9cfea089744166a3de9299f252834f2468764a05a677b9384654c3ba5bc8c1b6e8c68f9fef3b6035ea775dc18887971957dfb32e97f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-basque-date-doc"

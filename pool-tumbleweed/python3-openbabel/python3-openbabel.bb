@@ -7,10 +7,10 @@ biochemistry, or related areas. \
 This package contains the Python bindings of Open Babel."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.1.1"
+PV = "3.2.1"
 
-RPM_NAME = "python3-openbabel-3.1.1-2.1.aarch64.rpm"
-RPM_HASH = "f69737471e2437fd5076b3df5e793d440db08092c40171c4e9f2bfdfe6acab724d921dd60e0559920bd4201aa8868824d6d8e44d96cda8c25ff3a53507c0164e"
+RPM_NAME = "python3-openbabel-3.2.1-1.1.aarch64.rpm"
+RPM_HASH = "74e2d614995d531e231acb864bf5939d0e68e4684f9208427ac53a265699db510cba90f09cc1144d30943aa10942c658ba88483529700879d581467873009d65"
 
 RPROVIDES:${PN} += "python3-openbabel"
 
@@ -18,8 +18,8 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libopenbabel.so.7 \
-libpython3.11.so.1.0 \
+libopenbabel.so.8 \
+libpython3.13.so.1.0 \
 libstdc++.so.6 \
 python-abi"
 

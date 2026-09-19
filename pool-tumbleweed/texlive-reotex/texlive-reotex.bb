@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines macros and other utilities to design Reo \
 Circuits. The package requires PGF/TikZ support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn34924"
+PV = "2026.226.1.1svn34924"
 
-RPM_NAME = "texlive-reotex-2023.209.1.1svn34924-54.2.noarch.rpm"
-RPM_HASH = "38963b65a609d8ce48ad0be984c6406c079b4868e1f5a9e97fdff126afc39271dd12e0eef09860a9e917450751ff34f1f2e6e0b521509529edd093b112305e00"
+RPM_NAME = "texlive-reotex-2026.226.1.1svn34924-60.4.noarch.rpm"
+RPM_HASH = "63490513c4da8781fdcf8b78812cb9b7379463556795e9f89901fea22189968849f9652553ff39546c723381e65f40267990d37196d9b276844523e24ce17b2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-reotex.sty \

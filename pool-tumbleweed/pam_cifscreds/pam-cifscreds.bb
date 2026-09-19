@@ -9,16 +9,18 @@ for each user from somewhere. The pam_cifscreds module can be used to \
 provide these credentials to the kernel automatically at login."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.0"
+PV = "7.7"
 
-RPM_NAME = "pam_cifscreds-7.0-2.4.aarch64.rpm"
-RPM_HASH = "df1a47a0a6e8ff6191695a711a36012e595bc5985a29b2032be3504dcddee8d92a94c583bdd6bf321e923e15fc9c8135e9fa405d33fdc00c72e3fc1923ab75c7"
+RPM_NAME = "pam_cifscreds-7.7-2.1.aarch64.rpm"
+RPM_HASH = "94b1c5bb835c16a5880cb609c15f566453fcbc38c61dcab96b0b7c3805e28ba34914febeb7ab715a574c2d5dcf1772fbcd436d2a9a69d75f31e69f153b541ffd"
 
 RPROVIDES:${PN} += "pam-cifscreds"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libkeyutils.so.1 \
-libpam.so.0"
+libpam.so.0 \
+libresolv.so.2 \
+libtalloc.so.2"
 
 inherit rpm

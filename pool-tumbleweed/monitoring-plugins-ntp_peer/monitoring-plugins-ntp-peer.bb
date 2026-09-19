@@ -6,10 +6,10 @@ This plugin will not check the clock offset between the local host and NTP \
 server; please use check_ntp_time for that purpose."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-ntp_peer-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "284dd538c5f622e3ac676132c3a4a88b69503742f88d2c5fe655595e49f3ce3cc7a256d688b244686442baf7743860a953a5e4b73432614514180d72427f6aea"
+RPM_NAME = "monitoring-plugins-ntp_peer-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "a548710179196187b172dc346fbfc208f37dae6829d8686136b8a71f2f6762d28b3cc47d447bf031fde16a9b29f2c76a7a80b2c6ad9a7509e189dd434697a66f"
 
 RPROVIDES:${PN} += "monitoring-plugins-ntp-peer \
 nagios-plugins-ntp-peer"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.7"
 
-RPM_NAME = "guile-parted-0.0.7-2.1.aarch64.rpm"
-RPM_HASH = "5bb8548abd48f45681d73afa73082997ec39e081b670f8f5acb28cc558a55a02203063a960980d49ae6894281d52e940994509f343edd510dfc7e7834fe15b0b"
+RPM_NAME = "guile-parted-0.0.7-2.9.aarch64.rpm"
+RPM_HASH = "3329bcbc6314866fea49ad22160adb3c240d9a172965e97015097c396f9868b9a4ec322af1df1d5cccbddd9a62332af4f23d9a463986f13b753117f89e6fd955"
 
 RPROVIDES:${PN} += "guile-parted"
 

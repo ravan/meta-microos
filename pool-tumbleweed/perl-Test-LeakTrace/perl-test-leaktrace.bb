@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.17"
 
-RPM_NAME = "perl-Test-LeakTrace-0.17-1.14.aarch64.rpm"
-RPM_HASH = "4c3b2ba7b3ef4e4bb292af99b81bf2f06bda9ee221d8b4b9efdc32d247e6f230ba01047bfbc62ad924c3e25b318c3bfdb2fa2c8ac4a90d185f560fc03cdf48fa"
+RPM_NAME = "perl-Test-LeakTrace-0.17-1.31.aarch64.rpm"
+RPM_HASH = "b491d5fcece6807401f9fa9cec6195cbdaf024486e073fff916be8c9d958a68607b874c6e88ecad276ed59ce08a074c58b68f9bb87d14437f0f424f3c62b3028"
 
 RPROVIDES:${PN} += "perl-Test--LeakTrace \
 perl-Test--LeakTrace--Script \
@@ -21,6 +21,6 @@ perl-Test-LeakTrace"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

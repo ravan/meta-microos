@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gmp"
 DESCRIPTION = "This package includes the documentation for texlive-gmp"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn21691"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-gmp-doc-2023.209.1.0svn21691-54.2.noarch.rpm"
-RPM_HASH = "04420ae9bd333efb288f4ff837d0c6cd3a73881534bd298a68d267dddb6fdbdb239e033f9c77f35f7173690ae1ee9bf290c5eabbc671ca369922cfc869c8a43a"
+RPM_NAME = "texlive-gmp-doc-2026.226.1.0svn77682-60.4.noarch.rpm"
+RPM_HASH = "379bfb59d1e9ec29b06351a29622c18caea2620b73656f84dc678b16a788724f0264fb810b5326eb6aae61761ab2cf5ec5faa932f4ea1790978bf4cbb37b9e65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gmp-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Development files for ProFTPD"
 DESCRIPTION = "This package contains Development files for ProFTPD"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.7f"
+PV = "1.3.9c"
 
-RPM_NAME = "proftpd-devel-1.3.7f-1.4.aarch64.rpm"
-RPM_HASH = "64addf0871af84b38a9038d5917fe480e5c366b42f8782b476c76c0584cc144334a433900dea3ececf1b000ccd616d47e804fc08c464552e7e3bf75a0e85d479"
+RPM_NAME = "proftpd-devel-1.3.9c-2.1.aarch64.rpm"
+RPM_HASH = "a8f9b39a6586e8922f1a654b024b097c7c1c9353aaa23ce2dc881e06053fecb2d7d1555cdb2eeae7871b84642c45e9954335081d5e362f14f0a8fcacea3a1f43"
 
 RPROVIDES:${PN} += "pkgconfig-proftpd \
 proftpd-devel"

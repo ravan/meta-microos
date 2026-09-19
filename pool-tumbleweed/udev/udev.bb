@@ -18,33 +18,33 @@ mounted filesystem to full size of the underlying block device. \
 This package shouldn't be necessary in containers."
 LICENSE = "GPL-2.0-only"
 
-PV = "253.8"
+PV = "261.2"
 
-RPM_NAME = "udev-253.8-1.2.aarch64.rpm"
-RPM_HASH = "70120cec063c3d8e2c06073b316f5ccb1d515f6b9ccbe0c7bb4f582a5e5d506c52c7aee2df048867531285bff2ad7d327cf38b3cf322dd505ef4e207e85fbfb5"
+RPM_NAME = "udev-261.2-1.2.aarch64.rpm"
+RPM_HASH = "16de9a05e661fd9f50b0a0469d641dc30cabae37cc1b3212b57a94f0203f6360da0336d7d2b2b63f9e4ce3ffd9e6f3581a5c5de7a4ad85b495fce242da68d635"
 
 RPROVIDES:${PN} += "config-udev \
+group-systemd-timesync \
 libcryptsetup-token-systemd-fido2.so \
 libcryptsetup-token-systemd-pkcs11.so \
 libcryptsetup-token-systemd-tpm2.so \
 pkgconfig-udev \
-udev"
+udev \
+user-systemd-timesync"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
 coreutils \
 filesystem \
 group-kvm \
+group-lp \
 kmod \
 ld-linux-aarch64.so.1 \
-libblkid.so.1 \
+libblkid1 \
 libc.so.6 \
-libcrypto.so.3 \
-libcryptsetup.so.12 \
-libkmod.so.2 \
+libkmod2 \
 libm.so.6 \
-libp11-kit.so.0 \
-libsystemd-shared-253.so \
+libsystemd-shared-261.2-1.2.so \
 sed \
 system-group-hardware \
 systemd"

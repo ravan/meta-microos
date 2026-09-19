@@ -8,10 +8,10 @@ FUSE file systems are typically implemented as a standalone \
 applications in their own right and are packaged separately."
 LICENSE = "BSD-2-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.16.1"
+PV = "3.18.3"
 
-RPM_NAME = "fuse3-3.16.1-1.1.aarch64.rpm"
-RPM_HASH = "01cdf1ffa63ee64ba96fbc8e5a40f5c8e8268417a038ef0b69c8d1c31d52f326b1ee8f528fd86d61408a7075fce7de492870f4e68659c84f7506c3e691d6f6f4"
+RPM_NAME = "fuse3-3.18.3-1.1.aarch64.rpm"
+RPM_HASH = "8cbad2a8ece25e5aded3fc1822c2d04f947442eb8fbc78dbabeef3364ad2152cd1e167cc7ec4a40ad44e0bf460880bfb8652adc50a4333d8e5be7301bbe4b54e"
 
 RPROVIDES:${PN} += "config-fuse3 \
 fuse3"
@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 group-trusted \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfuse3.so.3 \
+libfuse3.so.4 \
 permissions \
 util-linux"
 

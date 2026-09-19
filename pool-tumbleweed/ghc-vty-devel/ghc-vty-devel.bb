@@ -2,37 +2,31 @@ SUMMARY = "Haskell vty library development files"
 DESCRIPTION = "This package provides the Haskell vty library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.38"
+PV = "6.6"
 
-RPM_NAME = "ghc-vty-devel-5.38-2.11.aarch64.rpm"
-RPM_HASH = "f21ccca65ac1eccc5785eb2a95552d6a914827e45dad1442d62435e97ef9188f8573f54bbfb3ef700c94b66114566f59f9e8c46d3e32d7437266979f7c84c8b7"
+RPM_NAME = "ghc-vty-devel-6.6-1.3.aarch64.rpm"
+RPM_HASH = "7a15154de52eb827829899879fb3a7e1cf21d0f2b4ab4377c435dbc6d4da7730476df6542cfabaf26c5ebe57d2a3c871d7f6efea2e8e64f06c7753195c53ae3b"
 
-RPROVIDES:${PN} += "ghc-devel-vty-5.38-LhnNmnv8DxxD0eeAip9uJs \
+RPROVIDES:${PN} += "ghc-devel-vty-6.6-EPyV4ZsVRx8EnXBLhcE4eO \
 ghc-vty-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-binary-0.8.9.1 \
-ghc-devel-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-microlens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3 \
-ghc-devel-microlens-mtl-0.2.0.3-Lyey6r2oahMEeZXe0uSI9h \
-ghc-devel-microlens-th-0.4.3.13-K3KDbjSa5xkBUVjBxtDTLF \
-ghc-devel-mtl-2.2.2 \
-ghc-devel-parsec-3.1.16.1 \
-ghc-devel-stm-2.5.1.0 \
-ghc-devel-terminfo-0.4.1.5 \
-ghc-devel-text-2.0.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unix-2.7.3 \
-ghc-devel-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
-ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-binary-0.8.9.3-9861 \
+ghc-devel-blaze-builder-0.4.4.1-DHhu3j9nndC9LUZIrPJCEG \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-microlens-0.5.0.0-K1fQqqDyjwS5maOWIXQxx3 \
+ghc-devel-microlens-mtl-0.2.1.1-8JUCbV1SpIrJP4FZoU0oV5 \
+ghc-devel-mtl-2.3.2-37ef \
+ghc-devel-parsec-3.1.18.0-be05 \
+ghc-devel-stm-2.5.3.1-6d74 \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-utf8-string-1.0.2-FCJm07Id8m53KWoTjjdHEG \
+ghc-devel-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE \
 ghc-vty"
 
 inherit rpm

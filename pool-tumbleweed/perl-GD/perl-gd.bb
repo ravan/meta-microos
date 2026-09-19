@@ -5,10 +5,10 @@ using a large number of graphics primitives, and emit the drawings as PNG \
 files."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.78"
+PV = "2.860.0"
 
-RPM_NAME = "perl-GD-2.78-1.2.aarch64.rpm"
-RPM_HASH = "4c659a2314951cad1f6058a1871f04ad01dc3f7f83061d63b64d871cd29001b2c78f745473aa8b646fc4b6e60c7548b53aed9edbeb87721357b3338fdc93cff0"
+RPM_NAME = "perl-GD-2.860.0-2.4.aarch64.rpm"
+RPM_HASH = "42f286d640e973762c433677066c7486bf6217170f2dae9907a61f63be05785d408c28e23f0b94eab10ec59f8359bf338f39f21f9f9705093412b9f4b0a6e001"
 
 RPROVIDES:${PN} += "perl-GD \
 perl-GD--Group \
@@ -22,6 +22,6 @@ gd \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgd.so.3 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

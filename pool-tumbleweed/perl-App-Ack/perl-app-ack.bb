@@ -3,10 +3,10 @@ DESCRIPTION = "App::Ack is a grep-like tool tailored to working with large trees
 code."
 LICENSE = "Artistic-2.0"
 
-PV = "3.7.0"
+PV = "3.10.0"
 
-RPM_NAME = "perl-App-Ack-3.7.0-1.3.noarch.rpm"
-RPM_HASH = "acfb48cb665805e53a3353eb5f3e23e2a76069de0ddaf7f35b1c78efc4313f24493adb012bd9cf834e7fc9aca0a06e971e1cda13e58182b42ec0b3df1654c1c0"
+RPM_NAME = "perl-App-Ack-3.10.0-1.3.noarch.rpm"
+RPM_HASH = "69bc3eae6a35e565c19c1b071d3e6e6cadd592b891a1688a05bcb09f58009879645f3ff6e51150ff557c610fc12624220aa30e028b49beb7159334c7026a573b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Ack \

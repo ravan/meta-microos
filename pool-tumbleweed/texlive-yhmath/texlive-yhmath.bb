@@ -3,10 +3,10 @@ DESCRIPTION = "The yhmath bundle contains fonts (in Metafont and type 1 \
 format) and a LaTeX package for using them."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn54377"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-yhmath-2023.209.1.6svn54377-53.2.noarch.rpm"
-RPM_HASH = "c37698140d403f507c3ee8675012b637ada2d609ece6005156c6389bad41d96c506ddfb433a34eddf945a65ec1bcc718288e2564538898a328952817e2feb944"
+RPM_NAME = "texlive-yhmath-2026.226.1.6svn77682-59.4.noarch.rpm"
+RPM_HASH = "02002b66693f1709d02503e06692ddaf72337d49f5af1040b01e60844297685b20d05b5e281421ec32ddfe9e7317bd0cf5918ae79a882256f2b988097dbadafd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-OMXyhex.fd \

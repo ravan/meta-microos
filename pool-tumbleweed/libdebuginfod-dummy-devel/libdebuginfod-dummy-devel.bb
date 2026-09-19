@@ -4,10 +4,10 @@ to create applications to use the debuginfod service. \
 The package is dummy."
 LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
-PV = "0.189"
+PV = "0.194"
 
-RPM_NAME = "libdebuginfod-dummy-devel-0.189-5.1.aarch64.rpm"
-RPM_HASH = "1e2934af4b15c3869fd039140666733ed5ad7484374b4a1dbdeb92cdeebc9bf06b2ddda8dc77d1ccb4df0bd067de2ec47165de3ffe2f9a10e79721094bc014c5"
+RPM_NAME = "libdebuginfod-dummy-devel-0.194-1.4.aarch64.rpm"
+RPM_HASH = "d5647629a0e1840a806782e59f57d14545960b1bace3ab0f42e1840715fefb3f4ee962f386094ce6c859f44fd08075e337d5827ce9bdcf29b4096ed85d9fa545"
 
 RPROVIDES:${PN} += "libdebuginfod-devel \
 libdebuginfod-dummy-devel"

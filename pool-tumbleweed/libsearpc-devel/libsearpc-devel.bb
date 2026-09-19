@@ -3,10 +3,10 @@ DESCRIPTION = "The libsearpc-devel package contains libraries and header files f
 developing applications that use libsearpc."
 LICENSE = "Apache-2.0"
 
-PV = "3.3.0.20230527"
+PV = "3.3.0.20250303"
 
-RPM_NAME = "libsearpc-devel-3.3.0.20230527-1.1.aarch64.rpm"
-RPM_HASH = "96ea94111af37428c1802a2f7de01f549a2306b7fc343199203338488c916f1c6f4386bf6d3177baaa3e7b586bb9b6c0388c69d92a02b575e0a756db8386219b"
+RPM_NAME = "libsearpc-devel-3.3.0.20250303-1.6.aarch64.rpm"
+RPM_HASH = "5b3ce06c53a810cb7292af31231d3c45441b60c951c731b30f284b88041ba01509eb6ec9318d30dbf8fc818b71dd5990f023ff60ab9ce916f56b7202ac4465ed"
 
 RPROVIDES:${PN} += "libsearpc-devel \
 pkgconfig-libsearpc"

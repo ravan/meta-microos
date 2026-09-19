@@ -10,10 +10,10 @@ initiators can be configured to discover the targets by asking the \
 iSNS server."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.102"
+PV = "0.103+4.60de8b5"
 
-RPM_NAME = "open-isns-0.102-2.1.aarch64.rpm"
-RPM_HASH = "18a63f4c4337b5f14c774d0107469a83fa45225617dfade54abc57df82db83b509e66ca36ce5bee3c8b4c4ff30a7585248608c0d5e692ea5502e20c1b3e74d6e"
+RPM_NAME = "open-isns-0.103+4.60de8b5-1.1.aarch64.rpm"
+RPM_HASH = "deb04ccab06740b4fd6013886890fba010b1168344dd63d68a2df844ae4343e5d0cd5098912db7607c2778b9abac0fa5dfa9a44ac0622d487d93fb8480b13f8b"
 
 RPROVIDES:${PN} += "config-open-isns \
 libisns.so.0 \

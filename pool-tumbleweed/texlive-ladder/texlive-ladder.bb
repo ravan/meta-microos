@@ -4,10 +4,10 @@ within LaTeX documents. Required packages are tikz, ifthen, and \
 calc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn44394"
+PV = "2026.226.svn44394"
 
-RPM_NAME = "texlive-ladder-2023.209.svn44394-56.1.noarch.rpm"
-RPM_HASH = "6fbcf1f1041993bdf69f41c291ae793c3264353b131da3a36e0d64f68e6a52af17ef1d3a7c8ae082d4733221579c11f98c45704a4af4039420001f97222f2abd"
+RPM_NAME = "texlive-ladder-2026.226.svn44394-63.2.noarch.rpm"
+RPM_HASH = "53dac150c950cd471782bcba5e1260d9fcb134a541118441027b9d34644c7ca9c596c0e8181028985efbdcf67bfac8e953f959c5eb850fc342695a4c73c9f81b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ladder.sty \

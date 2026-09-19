@@ -4,10 +4,10 @@ DESCRIPTION = "libfsclfs is a library to access the Common Log File System (CLFS
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210417"
+PV = "20240430"
 
-RPM_NAME = "libfsclfs1-20210417-3.6.aarch64.rpm"
-RPM_HASH = "b7031f96e195b909a6a45590dd8e062bc4b93c65a1f67d56f42a0f9524b412035bc35632610f0617fc9526d1f1ba571b9cb591de630209b46323fa87474c1d74"
+RPM_NAME = "libfsclfs1-20240430-1.21.aarch64.rpm"
+RPM_HASH = "1160cd2e5147541a1f5a831e429ac4ca19d612db5952613234e6a03634f3f53059d830f56a423707aaa62dd84bdd58dc8656bc11e01a5ef4132b8f4d233ff163"
 
 RPROVIDES:${PN} += "libfsclfs.so.1 \
 libfsclfs1"

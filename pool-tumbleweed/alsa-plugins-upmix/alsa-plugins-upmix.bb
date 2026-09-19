@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a PCM filter plugin that performs multi-cha
 upmixing for ALSA library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-upmix-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "fc2bc76b1055f9ea837e6479b1ed13e683e8d97bc98e40b1ce675acb52559455867628ff8d15e8115238924d76e988e7f76cea48fdbb8e2b66f57306afd2855e"
+RPM_NAME = "alsa-plugins-upmix-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "85b7e20a7986033da534a4c1f071b87b2274a598971513a5024f49748245fb1c5838571baca7952adeff858b08406d4b3dee5876f5de76b2751ea094c9a95a19"
 
 RPROVIDES:${PN} += "alsa-plugins-upmix \
 libasound-module-pcm-upmix.so"

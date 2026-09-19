@@ -5,10 +5,10 @@ It adheres to version 2.6 of the CORBA specification and is fully \
 interoperable with other CORBA ORBs."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.3.0"
+PV = "4.3.2"
 
-RPM_NAME = "omniORB-4.3.0-2.8.aarch64.rpm"
-RPM_HASH = "22aa01081a358acb253d67aac80ce394e1c611cdef1ea51d13d565745811afd159153b97e3242794f81393987d19c883cf1850e723dd054cc8dada8a3803a6a8"
+RPM_NAME = "omniORB-4.3.2-1.10.aarch64.rpm"
+RPM_HASH = "9ab0bc6521fcfd9934f164dc2c790f9361af7b93e222305b565c18781d4b84a9f8b5f1aca69814d6155bb3fbb9bec5d0c1cb8ddcefd280301f5a0b6fb9c3ba89"
 
 RPROVIDES:${PN} += "omniORB"
 

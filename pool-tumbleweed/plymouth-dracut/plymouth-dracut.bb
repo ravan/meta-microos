@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-dracut-22.02.122+94.4bd41a3-10.1.noarch.rpm"
-RPM_HASH = "c77d164f5599b333182b68b1a3f68b6365479e7e7ad0fa59888372e4b9990853f3128231744984e7117988b804d9ce7293377709fcd4f2839aae63b55fd6db21"
+RPM_NAME = "plymouth-dracut-22.02.122+94.4bd41a3-20.6.noarch.rpm"
+RPM_HASH = "c65d1e056fcf77adbf59da94d344a81c0c422a06304bdf9faad5f997902e9d71ddc541899b2216bb6d2783d5b849b47a0ac552dbe904c916081057db3f82accb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-dracut"

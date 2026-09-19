@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-latex-base-dev"
 DESCRIPTION = "This package includes the documentation for texlive-latex-base-dev"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.20230601_pre_release_2svn66513"
+PV = "2026.226.pre_release_1svn77483"
 
-RPM_NAME = "texlive-latex-base-dev-doc-2023.209.20230601_pre_release_2svn66513-56.1.noarch.rpm"
-RPM_HASH = "c31ded59e8a41aae65e76897e4a3bffbaca699555dae6969aa4f537f3db320293cfa1932ed10989e42dba387b70e1ca1c81eaf637ce7cd52b8699bfb07e0b9e4"
+RPM_NAME = "texlive-latex-base-dev-doc-2026.226.pre_release_1svn77483-63.2.noarch.rpm"
+RPM_HASH = "dba0efa09df739501014416d84719b3dde1d238f7a61e38efcc3347f3df7f47e706dd668b13748630ceec1de09febcc3418c482ec70d6f488d1674b97b387e83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-base-dev-doc"

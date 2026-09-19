@@ -2,10 +2,10 @@ SUMMARY = "Bogofilter libdb backend"
 DESCRIPTION = "This package contains bogofilter build with the libdb backend."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.4"
+PV = "1.2.5"
 
-RPM_NAME = "bogofilter-db-1.2.4-15.13.aarch64.rpm"
-RPM_HASH = "d02f5272fccbe7185e9ce2d114521a3af4b708bd2e7ad99d14d070f3bc818ae4ba21319abcb5dcb9472314fdae7bacb98616b6e3ca4aaa9ec0e9ecf30c0c9cae"
+RPM_NAME = "bogofilter-db-1.2.5-1.1.aarch64.rpm"
+RPM_HASH = "a3809fe9906f60046753fe875b5bed0fb50d29517de2a0ba4842882911ba25b269afd6c3558c69762518a3cc11c5e496305abd6ec2dbefeafc7fec94321d47da"
 
 RPROVIDES:${PN} += "bogofilter \
 bogofilter-backend \
@@ -16,7 +16,7 @@ bogofilter-common \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdb-4.8.so \
-libgsl.so.27 \
+libgsl.so.28 \
 libgslcblas.so.0 \
 libm.so.6 \
 update-alternatives"

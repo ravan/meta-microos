@@ -13,13 +13,14 @@ varying screen sizes, leveraging the ability of TeX to format a \
 document for nearly-arbitrary values of \\hsize and \\vsize."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65883"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-hitex-2023.209.svn65883-54.2.noarch.rpm"
-RPM_HASH = "3d732b19d476d647436f436bcfcc324ae67877c6bc6692ff10d760179877bbbc900902e56c4acba9dc2e1cd5a90e0562cea1e5595b3e2a9f37f992acdc1da52e"
+RPM_NAME = "texlive-hitex-2026.226.svn77830-60.4.noarch.rpm"
+RPM_HASH = "37c67846789022eb3c76d52d0a1dcab057fca0da69a5d80416653f556cb96da07a1fb356b72ce9d3bbeb7abf98f499c15bd1a390e6ece8391b495dfb32f373ff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-hiltxpage.tex \
+RPROVIDES:${PN} += "tex-hhitex.def \
+tex-hiltxpage.tex \
 tex-hiplainpage.tex \
 tex-ifhint.tex \
 texlive-hitex"
@@ -34,28 +35,16 @@ tex-language.dat \
 tex-language.dat.lua \
 tex-language.def \
 texlive \
-texlive-atbegshi \
-texlive-atveryend \
-texlive-babel \
 texlive-cm \
 texlive-etex \
-texlive-everyshi \
 texlive-filesystem \
-texlive-firstaid \
 texlive-hitex-bin \
 texlive-hyphen-base \
 texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
-texlive-l3backend \
-texlive-l3kernel \
-texlive-l3packages \
-texlive-latex \
-texlive-latex-fonts \
 texlive-plain \
 texlive-scripts \
-texlive-scripts-bin \
-texlive-tex-ini-files \
-texlive-unicode-data"
+texlive-scripts-bin"
 
 inherit rpm

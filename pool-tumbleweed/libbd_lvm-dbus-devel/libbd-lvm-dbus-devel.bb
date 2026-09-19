@@ -3,16 +3,16 @@ DESCRIPTION = "This package contains header files and pkg-config files needed fo
 with the libbd_lvm-dbus plugin/library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libbd_lvm-dbus-devel-2.28-1.6.aarch64.rpm"
-RPM_HASH = "93b606a7e8816aa41384b36db78f67bd3199a19e349795dacda69639ebc1a04d4a4824e40018d0c7c924120fc4096f3fcfa69e5fe88f9f5b448d0f9e1fe33c5e"
+RPM_NAME = "libbd_lvm-dbus-devel-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "195eda1af01f51ee76cc3cbb367022e7d4a91e078e5b04c03f452cf6cc9ddeb0194d3d83cba72384512c38348a9b0da4590077f58dff2bf2fcd875d542ee11c1"
 
 RPROVIDES:${PN} += "libbd-lvm-dbus-devel \
 libblockdev-lvm-dbus-devel"
 
 RDEPENDS:${PN} += "glib2-devel \
-libbd-lvm-dbus2 \
+libbd-lvm-dbus3 \
 libbd-lvm-devel \
 libbd-utils-devel"
 

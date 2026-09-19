@@ -6,10 +6,10 @@ If any problems arise using or starting X Window System programs, \
 remove this package."
 LICENSE = "MIT"
 
-PV = "1.6.5"
+PV = "1.6.6"
 
-RPM_NAME = "xaw3dd-1.6.5-1.1.aarch64.rpm"
-RPM_HASH = "fb36870b6a1f2275ba8a33322313e8bd399836540e8db84b229ef0cd216e14788ce5194fa769caab094485c084b11a637cc5715acb47e65440f355d39ed11e01"
+RPM_NAME = "xaw3dd-1.6.6-1.9.aarch64.rpm"
+RPM_HASH = "16d7bbe415e4fc61963dd812766a5053a91fe8f73f0b36f7032c081c0f93c9493c8c4886d665487ea6d0c377bbd7498d737a1ea0bdfa0a51f7bd5bfa7023bfe8"
 
 RPROVIDES:${PN} += "config-xaw3dd \
 libXaw.so.6 \

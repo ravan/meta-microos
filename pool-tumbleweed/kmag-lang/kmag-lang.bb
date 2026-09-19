@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kmag"
 DESCRIPTION = "Provides translations for the 'kmag' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmag-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "03091a721f4eef37a65c2094a1be592a96faec0cc06c8518f4a1bdb83ca81d6bf4a70ad8c0c945fef643595a98a66012495f01108987def6b493cc30adc5622a"
+RPM_NAME = "kmag-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "019604090a6760c75c75e6daea7da4bcf01623391b3817e9c4bb7b165db6e4c3aec8931b50846c41c219555e21e46a52270dd16ebf303f27e80c94309ac5efeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmag-lang \
 kmag-lang-all \
 locale-kmag-ar \
+locale-kmag-ast \
 locale-kmag-be \
 locale-kmag-bg \
 locale-kmag-br \

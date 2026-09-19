@@ -4,14 +4,17 @@ strings. In addition, parsable date/time substrings may be extracted from \
 ordinary strings."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.17"
+PV = "1.270.0"
 
-RPM_NAME = "perl-DateTime-Format-Natural-1.17-1.2.noarch.rpm"
-RPM_HASH = "ec0c38fcee08c4a3c6c7031b6326fa5dad88601e6e7cdb736fccdd6aab8e733d2b6f063c403e070af55b4902e62d98a46bd7b0c94719c8a9daa141b683501b0a"
+RPM_NAME = "perl-DateTime-Format-Natural-1.270.0-1.3.noarch.rpm"
+RPM_HASH = "4d8190c9188359545a07ac5321770c7c4c993e29100b5b85eca26f8a8dbdadc9d448bf20e5551068f80d40f55353dd9ceff806f93f7af137f01d9e1dde267a73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--Natural \
 perl-DateTime--Format--Natural--Calc \
+perl-DateTime--Format--Natural--Calendar \
+perl-DateTime--Format--Natural--Calendar--gregorian \
+perl-DateTime--Format--Natural--Calendar--julian \
 perl-DateTime--Format--Natural--Compat \
 perl-DateTime--Format--Natural--Duration \
 perl-DateTime--Format--Natural--Duration--Checks \
@@ -28,12 +31,12 @@ perl-DateTime--Format--Natural--Wrappers \
 perl-DateTime-Format-Natural"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Clone \
 perl-DateTime \
 perl-DateTime--HiRes \
 perl-DateTime--TimeZone \
-perl-List--MoreUtils \
+perl-List--Util \
 perl-Params--Validate \
 perl-boolean"
 

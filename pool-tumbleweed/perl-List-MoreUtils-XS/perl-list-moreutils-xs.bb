@@ -7,15 +7,15 @@ LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & Apache-2.0"
 
 PV = "0.430"
 
-RPM_NAME = "perl-List-MoreUtils-XS-0.430-1.18.aarch64.rpm"
-RPM_HASH = "e55bcb983a98d4a45ea9a009035d09a47a6519c5cad50af56792662e5774933dd860a3d109e743e3d0b799fcc1d692e4d372f6c057b8936906d92c7f820bc917"
+RPM_NAME = "perl-List-MoreUtils-XS-0.430-1.36.aarch64.rpm"
+RPM_HASH = "56114d8cea49820dc8f138475b7b0edb5a5ba5df42320b48ea11b1494cc624212b6a28b1f499dae5d8eff681b37557557f1740cc4df5a8628cc1179f04b636f1"
 
 RPROVIDES:${PN} += "perl-List--MoreUtils--XS \
 perl-List-MoreUtils-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-XSLoader"
 
 inherit rpm

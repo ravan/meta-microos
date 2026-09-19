@@ -2,10 +2,10 @@ SUMMARY = "Backend gdkpixbuf for pqiv"
 DESCRIPTION = "Backend gdkpixbuf for pqiv"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12"
+PV = "2.13.3"
 
-RPM_NAME = "pqiv-gdkpixbuf-2.12-1.4.aarch64.rpm"
-RPM_HASH = "14c25fe47a0cf97c1d771355b051cc84bc4c1458604b4d9a8a4dad0e89e2432c2bbf0047d1e4538c7c123ac6011dba0effd77047b1434efbb629b09d8535e8ee"
+RPM_NAME = "pqiv-gdkpixbuf-2.13.3-1.4.aarch64.rpm"
+RPM_HASH = "c82725859e85c160ce6135e00b7a67bf2719dda8354a2c877b0765b55933a77231e92fd67493b95f9ac33dcc6301bee09e87de7653d9b866713c41a2e2ab5e1f"
 
 RPROVIDES:${PN} += "pqiv-gdkpixbuf"
 

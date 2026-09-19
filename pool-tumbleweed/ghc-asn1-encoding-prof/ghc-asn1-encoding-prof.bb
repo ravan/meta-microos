@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.6"
 
-RPM_NAME = "ghc-asn1-encoding-prof-0.9.6-8.8.aarch64.rpm"
-RPM_HASH = "dbd665797730197bac4de6bc6541bbc6f71b85eb664aff715eeb6a52fa2b85973db8d8f0ace29aa60406ee4a2162bba9ae5bbdb5d983ee3bd6b516140fce2a3a"
+RPM_NAME = "ghc-asn1-encoding-prof-0.9.6-8.35.aarch64.rpm"
+RPM_HASH = "106692350cfcdfdf9242b193591a2f17ff9912d1857eaa56cde499de32bcdf58d8231d31dd8382d89812cd8a5e1cfd5fd7694ea357dbb6a9907019d5041c366c"
 
 RPROVIDES:${PN} += "ghc-asn1-encoding-prof \
-ghc-prof-asn1-encoding-0.9.6-G74cB7z1f0LBAKbqoDvYt6"
+ghc-prof-asn1-encoding-0.9.6-6HoFXCc54fWHW7G1NmR4HI"
 
 RDEPENDS:${PN} += "ghc-asn1-encoding-devel \
-ghc-prof-asn1-types-0.3.4-7Qw76BNtuiJIUHv1x3z9in \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-hourglass-0.2.12-DDTIHdRSu369xxYEqSFzho"
+ghc-prof-asn1-types-0.3.4-7PM4xMGOCo5HtpL9dIOMTo \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-hourglass-0.2.12-AVWrQ59TfGxLOqFeNnaO7o"
 
 inherit rpm

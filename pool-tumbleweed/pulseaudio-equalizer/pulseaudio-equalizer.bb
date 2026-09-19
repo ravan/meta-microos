@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0.2"
 
-RPM_NAME = "pulseaudio-equalizer-3.0.2-1.7.noarch.rpm"
-RPM_HASH = "c861d7561b016856265cdc923800d3cc2ccc02435ae5e3c9fb6702e53b0a045694f5695089bb51c8a33f2beebb61da5b2fcb30a16bdaef141b13c253646edc9e"
+RPM_NAME = "pulseaudio-equalizer-3.0.2-1.19.noarch.rpm"
+RPM_HASH = "acf62a79916fdc94727d5a130c0159036e0135531536c4b2c3531b1eb4cdc62a94c8bb15ebd891db6870d71979ca7d342d561fd153785e94ab0659f918f5bece"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pulseaudio-equalizer"

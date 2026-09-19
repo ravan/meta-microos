@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-schedule"
 DESCRIPTION = "This package includes the documentation for texlive-schedule"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.20svn51805"
+PV = "2026.226.1.20svn51805"
 
-RPM_NAME = "texlive-schedule-doc-2023.209.1.20svn51805-54.1.noarch.rpm"
-RPM_HASH = "b967ca327cdb58e9ee1d83352d25a19e6561142e89d0585ea37ee1d2bb43eb54b1ce6b2c7328c75d92d246627559f96b17585ed909c0f8c99cd3cdb29986556a"
+RPM_NAME = "texlive-schedule-doc-2026.226.1.20svn51805-60.2.noarch.rpm"
+RPM_HASH = "70592d7abae596687de4145101e97325cf4934acaaa53627d2bdc0618cb7784f6951c6c9d19f8750e1dfaabd315d13d808085a79037a9c0337fd1ef5d9ab9482"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-schedule-doc"

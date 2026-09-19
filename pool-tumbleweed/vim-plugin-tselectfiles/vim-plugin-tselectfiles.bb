@@ -6,8 +6,8 @@ LICENSE = "GPL-1.0-or-later"
 
 PV = "0.11"
 
-RPM_NAME = "vim-plugin-tselectfiles-0.11-56.1.noarch.rpm"
-RPM_HASH = "7518f8bf7c74cc6c1cf0f5a7babe7655cb87eed5d119b11b7ebc281d79ae36272c1f1b1419649f65bf6f05880e794fecedad18b9a40579ab1e6005ca4e6478f6"
+RPM_NAME = "vim-plugin-tselectfiles-0.11-64.2.noarch.rpm"
+RPM_HASH = "8f225c7fe9740b1aa4812c9cbc33e8fd80432e48e9a788127040629a710979850c41daed46c665232f6ae1024f472ed9143e5a8dcc03b6e21ed16cee5e1eeb09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-tselectfiles"

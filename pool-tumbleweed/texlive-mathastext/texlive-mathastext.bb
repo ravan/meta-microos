@@ -11,10 +11,10 @@ font in the same document. Of course, using one font for two \
 purposes helps produce smaller PDF files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.3ysvn64930"
+PV = "2026.226.1.4esvn77682"
 
-RPM_NAME = "texlive-mathastext-2023.208.1.3ysvn64930-53.1.noarch.rpm"
-RPM_HASH = "13f52f0faabba278581fdbaf8b3e61cf54f02e536d7a42c130a8cc5fe8fcf644f7b37eae91c553a94f1a0018e28e673c2972e409e7a48d84d58cc402a601f898"
+RPM_NAME = "texlive-mathastext-2026.226.1.4esvn77682-59.2.noarch.rpm"
+RPM_HASH = "2b1135c175c8c5c22d78e3d2a06a9ee2fd483d23d41f7f6c57f6b7bead2652f18f2b41d92b78c4552a7e91bbc5cd03071cf10b7580c53dd89beb6e8f5ebb4a83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathastext.sty \
@@ -26,6 +26,7 @@ ed \
 findutils \
 grep \
 sed \
+tex-decimalcomma.sty \
 tex-ncccomma.sty \
 texlive \
 texlive-filesystem \

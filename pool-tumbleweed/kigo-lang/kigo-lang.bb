@@ -2,16 +2,16 @@ SUMMARY = "Translations for package kigo"
 DESCRIPTION = "Provides translations for the 'kigo' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kigo-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "bd8b41fdf9a5f189173243fda3b30242a3fe1a05ab3921d2eca78e77385465c50b04dcac189d8d5ced63b1ce60f0dc329db107456fd89b90247391d788ec5c13"
+RPM_NAME = "kigo-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "4f04a35b3ebc64e0e479b209d3d300f0d8cadfaf9d56f5f862ad62f752d2ed886b5d80cf7c4dc401c2450c03cdfb839f8e526f61efe9b7f4905f1891a90d4788"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kigo-lang \
 kigo-lang-all \
 locale-kigo-ar \
-locale-kigo-bg \
+locale-kigo-ast \
 locale-kigo-bs \
 locale-kigo-ca \
 locale-kigo-ca@valencia \
@@ -28,8 +28,11 @@ locale-kigo-fi \
 locale-kigo-fr \
 locale-kigo-ga \
 locale-kigo-gl \
+locale-kigo-he \
+locale-kigo-hi \
 locale-kigo-hr \
 locale-kigo-hu \
+locale-kigo-ia \
 locale-kigo-id \
 locale-kigo-is \
 locale-kigo-it \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamertheme-epyt"
 DESCRIPTION = "This package includes the documentation for texlive-beamertheme-epyt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn41404"
+PV = "2026.226.1.0svn41404"
 
-RPM_NAME = "texlive-beamertheme-epyt-doc-2023.209.1.0svn41404-54.1.noarch.rpm"
-RPM_HASH = "663e4af8e4c4468ccc3dedc5dba58da8bd7520efc44e3326d3048ba13fcba0ee0aecc3dd4f4ada44f3e7adce6f02389644cad10f4cc455d6b5f9cb87ee353589"
+RPM_NAME = "texlive-beamertheme-epyt-doc-2026.226.1.0svn41404-61.2.noarch.rpm"
+RPM_HASH = "925d1a147303f11c8f48ca2f3d41861c890d72512ae56eec78cc2d2391ada50db12efa236d3db3a380bbb704a0c4e97101ece36cbf6f6c674ff99bede61a7d92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-beamertheme-epyt-doc-zh \

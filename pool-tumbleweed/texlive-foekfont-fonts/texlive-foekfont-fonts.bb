@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-foekfont"
 DESCRIPTION = "The  separated fonts package for texlive-foekfont"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-foekfont-fonts-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "fea21d0d2f7ff4652321eca9a7a6e0f99947f67065c8f9383aa3d26754132771b2137bfdca0477ca70170f33f6941aec0231eaa6247f04c6a4c2399fcab8d3be"
+RPM_NAME = "texlive-foekfont-fonts-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "1be9cccc58bc037ae0b7c2d289fd9e1d9328289496a159b8012541068340f24a91a8bbbe6a95257af4c1e14d964775cc4f077f8469d914e190cdfb5420cd620c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-foekfont \

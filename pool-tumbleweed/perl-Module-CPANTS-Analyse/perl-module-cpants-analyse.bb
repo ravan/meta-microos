@@ -2,10 +2,10 @@ SUMMARY = "Generate Kwalitee ratings for a distribution"
 DESCRIPTION = "Generate Kwalitee ratings for a distribution"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.01"
+PV = "1.30.0"
 
-RPM_NAME = "perl-Module-CPANTS-Analyse-1.01-1.11.noarch.rpm"
-RPM_HASH = "c5205d2acbbbbea3fb398acca01d182c5126a1a12358d9681cf4bf0433f5d8193f3faacbae97e4012056727405fe00274b236d4a145daf8db46463b0055606cb"
+RPM_NAME = "perl-Module-CPANTS-Analyse-1.30.0-1.3.noarch.rpm"
+RPM_HASH = "5651b84d715ba3d7f86b13f476cd23e3da4129d22ec80bb6d9f945fcd52aabfda7cef4b0567c6ca77f33816d217da0231defd15cf2794c6e1336622214196fa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--CPANTS--Analyse \
@@ -28,11 +28,10 @@ perl-Module--CPANTS--Kwalitee--Uses \
 perl-Module--CPANTS--Kwalitee--Version \
 perl-Module-CPANTS-Analyse"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Archive--Any--Lite \
 perl-Archive--Tar \
 perl-Array--Diff \
-perl-CPAN--DistnameInfo \
 perl-CPAN--Meta--Validator \
 perl-CPAN--Meta--YAML \
 perl-Class--Accessor \
@@ -41,6 +40,7 @@ perl-File--Find--Object \
 perl-JSON--PP \
 perl-List--Util \
 perl-Module--Find \
+perl-Parse--Distname \
 perl-Perl--PrereqScanner--NotQuiteLite \
 perl-Software--License \
 perl-version"

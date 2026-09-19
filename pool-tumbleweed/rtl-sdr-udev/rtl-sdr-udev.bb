@@ -2,10 +2,10 @@ SUMMARY = "Udev rules for RTL2832"
 DESCRIPTION = "Udev rules for rtl-sdr driver"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.0"
+PV = "2.0.3"
 
-RPM_NAME = "rtl-sdr-udev-0.6.0-2.9.aarch64.rpm"
-RPM_HASH = "9635e9aa5446ab835938bd9366fd91bdacc57600ca562164b0ab2cccb8900b16728f40ba24ca0cc3cb044ce2c93dbc9fbb9daf37b51ab9fe91c90bd1248dc0c1"
+RPM_NAME = "rtl-sdr-udev-2.0.3-1.1.aarch64.rpm"
+RPM_HASH = "b6ce1084f48354b3dcfdbc6dee3fbfb7e980a4c53e6942f7e7d5efbe86e036daad60a656f462c668157942da678c3e2cd6fdc0d5040f72d25cf02289fa000c74"
 
 RPROVIDES:${PN} += "rtl-sdr-udev"
 

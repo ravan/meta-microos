@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.32"
 
-RPM_NAME = "darts-0.32-8.27.aarch64.rpm"
-RPM_HASH = "56cb9972d590d237a34c4d2b16c492c8f843ee8cef3b8525b3a8aa5bd467ad580e882f8297781d5fe3906f17e36be2e122caaf98fb371735eb29dbfb3677e2bc"
+RPM_NAME = "darts-0.32-8.37.aarch64.rpm"
+RPM_HASH = "b2ce2a235abe0f8476258a42dcdaca3f4edec62ab30c776a2d2a971a1ff35faa847423dbb0b4a79798c8dad4dc5617ffeece726c9516b6ef528d2587da18fc43"
 
 RPROVIDES:${PN} += "darts"
 

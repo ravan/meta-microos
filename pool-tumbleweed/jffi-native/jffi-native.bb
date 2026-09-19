@@ -2,10 +2,10 @@ SUMMARY = "The jffi JAR with native bits"
 DESCRIPTION = "This package contains jffi JAR with native bits."
 LICENSE = "Apache-2.0 | LGPL-3.0-or-later"
 
-PV = "1.3.11"
+PV = "1.3.13"
 
-RPM_NAME = "jffi-native-1.3.11-2.1.aarch64.rpm"
-RPM_HASH = "60686fd9a48be8d8957bd79f9eeb18f7ecce8ff71656410c50ef90bc276df21671e2fd32d419d7d5bee7cb3f2f46149085f663fd4ec89a02b1a478ff7e10e3b8"
+RPM_NAME = "jffi-native-1.3.13-3.4.aarch64.rpm"
+RPM_HASH = "cc4e23e07beb1661d0b4272e61f4344ebcf6dbe936d5ec975de02b276ae79c7dabe6677cd87fc2b5e64ea72b30a91a52c605b507791d2bbefad62a95228d63df"
 
 RPROVIDES:${PN} += "jffi-native \
 libjffi-1.2.so \

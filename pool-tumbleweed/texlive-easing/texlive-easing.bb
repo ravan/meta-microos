@@ -3,10 +3,10 @@ DESCRIPTION = "This library implements a collection of easing functions and \
 adds them to the PGF mathematical engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn59975"
+PV = "2026.226.0.0.1svn75712"
 
-RPM_NAME = "texlive-easing-2023.209.0.0.1svn59975-54.2.noarch.rpm"
-RPM_HASH = "f1ea16a97259f1069da066f552b2dc573a1121cec6d05c6164d6b1ce7909a156a91d240ddebd35559f97a1d174acda6cc4360c57b3cc13048d90e400a5aaf3d9"
+RPM_NAME = "texlive-easing-2026.226.0.0.1svn75712-61.4.noarch.rpm"
+RPM_HASH = "2909a3fd49088064ea9c6fcf655dbdda15c21d41cd431ac07a7c21da69feb2cccba55f9fd3f7a5f13d243b8951152864939f5880332fc3803872842cbb21750f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgflibraryeasing.code.tex \

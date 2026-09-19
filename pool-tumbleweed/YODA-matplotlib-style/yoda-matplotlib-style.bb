@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a style file that may be used with matplotl
 YODA styled plots."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.9.8"
+PV = "2.1.2"
 
-RPM_NAME = "YODA-matplotlib-style-1.9.8-1.1.noarch.rpm"
-RPM_HASH = "1457036518f00339783f1f5fea427e31886f1504ae2b5128a1fc34091bf07bead73d174a46dabe180516bb22e767d6244acf1d0db97bb15bb366dcf211d2e1cf"
+RPM_NAME = "YODA-matplotlib-style-2.1.2-1.5.noarch.rpm"
+RPM_HASH = "b7017a9b256ff287c9c47a2e342cc1afaa5b443dd1d465836b72378fafa9ff5a1530722dddb75e9744a7fd759d3643c0c5c3fa8f7cb638b304904cad37317af8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "YODA-matplotlib-style"

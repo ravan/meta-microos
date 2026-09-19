@@ -2,10 +2,10 @@ SUMMARY = "Create books from markdown"
 DESCRIPTION = "mdbook is a utility to create books from Markdown files"
 LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & BSD-3-Clause & CC0-1.0 & ISC & MIT & MPL-2.0"
 
-PV = "0.4.34"
+PV = "0.4.49"
 
-RPM_NAME = "mdbook-0.4.34-1.1.aarch64.rpm"
-RPM_HASH = "94d6343fbbab757023f6aa0016211516093483c0c792bcba8fdf90df7863de4e1653d83e2fdc4ccbb5d99b5bf41ba2560c25371a8ad1fb0820820649194f9516"
+RPM_NAME = "mdbook-0.4.49-1.5.aarch64.rpm"
+RPM_HASH = "d87222c5bbf75d772bb8c0604b73ee5a1d4e246697797829abbc886cf0d827743b916786b2d57296782a596ffb4af5df0c11d393715a8af10d3065aff59c46a7"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ammonia \
@@ -21,6 +21,7 @@ bundled-rust-crate-block-buffer \
 bundled-rust-crate-bstr \
 bundled-rust-crate-byteorder \
 bundled-rust-crate-bytes \
+bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-chrono \
 bundled-rust-crate-clap \
@@ -29,14 +30,31 @@ bundled-rust-crate-clap-complete \
 bundled-rust-crate-clap-lex \
 bundled-rust-crate-colorchoice \
 bundled-rust-crate-cpufeatures \
-bundled-rust-crate-crossbeam-channel \
+bundled-rust-crate-crossbeam-deque \
+bundled-rust-crate-crossbeam-epoch \
 bundled-rust-crate-crossbeam-utils \
 bundled-rust-crate-crypto-common \
+bundled-rust-crate-cssparser \
+bundled-rust-crate-cssparser-macros \
+bundled-rust-crate-darling \
+bundled-rust-crate-darling-core \
+bundled-rust-crate-darling-macro \
+bundled-rust-crate-data-encoding \
+bundled-rust-crate-dbus \
+bundled-rust-crate-derive-builder \
+bundled-rust-crate-derive-builder-core \
+bundled-rust-crate-derive-builder-macro \
 bundled-rust-crate-digest \
+bundled-rust-crate-displaydoc \
+bundled-rust-crate-dtoa \
+bundled-rust-crate-dtoa-short \
 bundled-rust-crate-elasticlunr-rs \
+bundled-rust-crate-env-filter \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
+bundled-rust-crate-errno \
 bundled-rust-crate-fastrand \
-bundled-rust-crate-filetime \
+bundled-rust-crate-find-msvc-tools \
 bundled-rust-crate-fnv \
 bundled-rust-crate-form-urlencoded \
 bundled-rust-crate-futf \
@@ -54,30 +72,41 @@ bundled-rust-crate-handlebars \
 bundled-rust-crate-hashbrown \
 bundled-rust-crate-headers \
 bundled-rust-crate-headers-core \
+bundled-rust-crate-hex \
 bundled-rust-crate-html5ever \
 bundled-rust-crate-http \
 bundled-rust-crate-http-body \
 bundled-rust-crate-httparse \
 bundled-rust-crate-httpdate \
-bundled-rust-crate-humantime \
 bundled-rust-crate-hyper \
 bundled-rust-crate-iana-time-zone \
+bundled-rust-crate-icu-collections \
+bundled-rust-crate-icu-locale-core \
+bundled-rust-crate-icu-normalizer \
+bundled-rust-crate-icu-normalizer-data \
+bundled-rust-crate-icu-properties \
+bundled-rust-crate-icu-properties-data \
+bundled-rust-crate-icu-provider \
+bundled-rust-crate-ident-case \
 bundled-rust-crate-idna \
+bundled-rust-crate-idna-adapter \
 bundled-rust-crate-ignore \
 bundled-rust-crate-indexmap \
 bundled-rust-crate-inotify \
 bundled-rust-crate-inotify-sys \
-bundled-rust-crate-io-lifetimes \
-bundled-rust-crate-is-terminal \
+bundled-rust-crate-is-terminal-polyfill \
 bundled-rust-crate-itoa \
-bundled-rust-crate-lazy-static \
+bundled-rust-crate-jiff \
 bundled-rust-crate-libc \
+bundled-rust-crate-libdbus-sys \
 bundled-rust-crate-linux-raw-sys \
+bundled-rust-crate-litemap \
 bundled-rust-crate-lock-api \
 bundled-rust-crate-log \
 bundled-rust-crate-mac \
 bundled-rust-crate-maplit \
 bundled-rust-crate-markup5ever \
+bundled-rust-crate-match-token \
 bundled-rust-crate-mdbook \
 bundled-rust-crate-memchr \
 bundled-rust-crate-mime \
@@ -86,12 +115,15 @@ bundled-rust-crate-mio \
 bundled-rust-crate-new-debug-unreachable \
 bundled-rust-crate-notify \
 bundled-rust-crate-notify-debouncer-mini \
-bundled-rust-crate-num-cpus \
+bundled-rust-crate-notify-types \
+bundled-rust-crate-num-modular \
+bundled-rust-crate-num-order \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-opener \
 bundled-rust-crate-parking-lot \
 bundled-rust-crate-parking-lot-core \
+bundled-rust-crate-pathdiff \
 bundled-rust-crate-percent-encoding \
 bundled-rust-crate-pest \
 bundled-rust-crate-pest-derive \
@@ -100,15 +132,19 @@ bundled-rust-crate-pest-meta \
 bundled-rust-crate-phf \
 bundled-rust-crate-phf-codegen \
 bundled-rust-crate-phf-generator \
+bundled-rust-crate-phf-macros \
 bundled-rust-crate-phf-shared \
 bundled-rust-crate-pin-project \
 bundled-rust-crate-pin-project-internal \
 bundled-rust-crate-pin-project-lite \
 bundled-rust-crate-pin-utils \
+bundled-rust-crate-pkg-config \
+bundled-rust-crate-potential-utf \
 bundled-rust-crate-ppv-lite86 \
 bundled-rust-crate-precomputed-hash \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-pulldown-cmark \
+bundled-rust-crate-pulldown-cmark-escape \
 bundled-rust-crate-quote \
 bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
@@ -117,12 +153,12 @@ bundled-rust-crate-regex \
 bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
 bundled-rust-crate-rustix \
-bundled-rust-crate-rustls-pemfile \
 bundled-rust-crate-ryu \
 bundled-rust-crate-same-file \
 bundled-rust-crate-scoped-tls \
 bundled-rust-crate-scopeguard \
 bundled-rust-crate-serde \
+bundled-rust-crate-serde-core \
 bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
 bundled-rust-crate-serde-urlencoded \
@@ -133,22 +169,20 @@ bundled-rust-crate-siphasher \
 bundled-rust-crate-slab \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-socket2 \
+bundled-rust-crate-stable-deref-trait \
 bundled-rust-crate-string-cache \
 bundled-rust-crate-string-cache-codegen \
 bundled-rust-crate-strsim \
 bundled-rust-crate-syn \
+bundled-rust-crate-synstructure \
 bundled-rust-crate-tempfile \
 bundled-rust-crate-tendril \
-bundled-rust-crate-termcolor \
 bundled-rust-crate-terminal-size \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
-bundled-rust-crate-thread-local \
-bundled-rust-crate-tinyvec \
-bundled-rust-crate-tinyvec-macros \
+bundled-rust-crate-tinystr \
 bundled-rust-crate-tokio \
 bundled-rust-crate-tokio-macros \
-bundled-rust-crate-tokio-stream \
 bundled-rust-crate-tokio-tungstenite \
 bundled-rust-crate-tokio-util \
 bundled-rust-crate-toml \
@@ -161,16 +195,26 @@ bundled-rust-crate-tungstenite \
 bundled-rust-crate-typenum \
 bundled-rust-crate-ucd-trie \
 bundled-rust-crate-unicase \
-bundled-rust-crate-unicode-bidi \
 bundled-rust-crate-unicode-ident \
-bundled-rust-crate-unicode-normalization \
 bundled-rust-crate-url \
 bundled-rust-crate-utf-8 \
+bundled-rust-crate-utf8-iter \
 bundled-rust-crate-utf8parse \
 bundled-rust-crate-version-check \
 bundled-rust-crate-walkdir \
 bundled-rust-crate-want \
 bundled-rust-crate-warp \
+bundled-rust-crate-web-atoms \
+bundled-rust-crate-writeable \
+bundled-rust-crate-yoke \
+bundled-rust-crate-yoke-derive \
+bundled-rust-crate-zerocopy \
+bundled-rust-crate-zerofrom \
+bundled-rust-crate-zerofrom-derive \
+bundled-rust-crate-zerotrie \
+bundled-rust-crate-zerovec \
+bundled-rust-crate-zerovec-derive \
+bundled-rust-crate-zmij \
 mdbook"
 
 RDEPENDS:${PN} += "libc.so.6 \

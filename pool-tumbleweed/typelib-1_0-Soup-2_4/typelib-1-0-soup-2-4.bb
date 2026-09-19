@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.74.3"
 
-RPM_NAME = "typelib-1_0-Soup-2_4-2.74.3-2.1.aarch64.rpm"
-RPM_HASH = "66fd4d9518624a997070853b48a6fdbbed38a2a0c5ae7ce50b02e7f2e3e91ecc4b2f14f64679e8275e90d072253cf8f36a2d32583f361da15ecc0eb87dd2306c"
+RPM_NAME = "typelib-1_0-Soup-2_4-2.74.3-22.1.aarch64.rpm"
+RPM_HASH = "0df67edf3a88a5692c4083db71bbe6cf651dc3f4543f968429c8055d7a25df2fb9c15abff28b3507e0d9d4928b57dd0de667cf0c8ee8d19c326e536b9b105c5c"
 
 RPROVIDES:${PN} += "typelib-1-0-Soup-2-4 \
 typelib-Soup \
@@ -17,6 +17,7 @@ typelib-SoupGNOME"
 RDEPENDS:${PN} += "libsoup-2.4.so.1 \
 libsoup-gnome-2.4.so.1 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

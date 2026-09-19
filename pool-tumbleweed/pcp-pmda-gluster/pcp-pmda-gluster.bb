@@ -3,14 +3,15 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the gluster filesystem."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-gluster-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "f35cbd7756da0cdf4eddc1be141a60ed49256f9cb6afe2222f442292ad0c2b9b6ddb7b365967f04e209be24e4f962ad633622c6a7d3936d038145931860c0cc1"
+RPM_NAME = "pcp-pmda-gluster-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "b498e248ae6310075bab524f287c12264be159ec848a698360b78761389edf495b2fcea4650779768db57ad24399c0d6f6979dba1598b353490ca934367c75fc"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-gluster"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 /usr/bin/sh \
 python3-pcp"
 

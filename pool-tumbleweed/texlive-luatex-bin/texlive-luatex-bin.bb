@@ -2,10 +2,10 @@ SUMMARY = "Binary files of luatex"
 DESCRIPTION = "Binary files of luatex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn66511"
+PV = "2026.20260301.svn78022"
 
-RPM_NAME = "texlive-luatex-bin-2023.20230311.svn66511-93.2.aarch64.rpm"
-RPM_HASH = "319925f97ac021a116e5a6e4820df11ae352a940913e1419fa368fc0580c0f77ab4fa3f727e0fbd6d9e856f49afba4b555479d65b001355b54cce948391e7aaf"
+RPM_NAME = "texlive-luatex-bin-2026.20260301.svn78022-120.4.aarch64.rpm"
+RPM_HASH = "a356a0a6786bbd9bb37c5a7d5c7b7f27405b33fcf57968125af66669cfa20bde5ca602ab40c5d999c0e6336ba90640b14c41d2cb6c49075f97b84cad653d0710"
 
 RPROVIDES:${PN} += "texlive-luatex-bin"
 
@@ -16,6 +16,7 @@ libm.so.6 \
 libpng16.so.16 \
 libtexlua53.so.5 \
 libz.so.1 \
+libz1 \
 libzzip.so.13 \
 texlive-luatex"
 

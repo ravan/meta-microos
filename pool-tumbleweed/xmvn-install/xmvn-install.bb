@@ -4,10 +4,10 @@ to XMvn installer.  The installer reads reactor metadata and performs \
 artifact installation according to specified configuration."
 LICENSE = "Apache-2.0"
 
-PV = "4.2.0"
+PV = "4.3.0"
 
-RPM_NAME = "xmvn-install-4.2.0-4.1.noarch.rpm"
-RPM_HASH = "df78ea980cddcc9ae7f6a93af95445bff05ea297500eae386bac5ea3c0dd4d27e384bae6f4cf1bd4ebe6d501fbc7e26388728db0f88b9978a72e7e70f983e651"
+RPM_NAME = "xmvn-install-4.3.0-8.1.noarch.rpm"
+RPM_HASH = "bca1abacb8c99a4cdd4bea98328282adc617f56a2aef1b2c82f69e2a6e5bdeaca0d2b00377b7858e4f8f4804380c4247ed6f8ce2d0f61f6be35da698ecd7c0cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.fedoraproject.xmvn-xmvn-install \
@@ -16,6 +16,7 @@ xmvn-install"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 apache-commons-compress \
+apache-commons-io \
 beust-jcommander \
 java-headless \
 javapackages-filesystem \

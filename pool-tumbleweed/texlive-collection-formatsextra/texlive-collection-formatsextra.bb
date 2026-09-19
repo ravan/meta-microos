@@ -6,19 +6,21 @@ package(s). It also includes the Aleph engine and related Omega \
 formats and packages, and the HiTeX engine and related."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn62226"
+PV = "2026.222.svn72250"
 
-RPM_NAME = "texlive-collection-formatsextra-2023.208.svn62226-60.1.noarch.rpm"
-RPM_HASH = "06e348c7ecca48dd63e901129ec10f2ae02308b79b1597f63aef33f8513cbdb789a296f040451e84323ad41368b88a1480d1d6bd76d344a5e9c57e6a57f803df"
+RPM_NAME = "texlive-collection-formatsextra-2026.222.svn72250-68.2.noarch.rpm"
+RPM_HASH = "9c9b823c5ed16bdad34dcb60f8c145c3f85cf5b5715fe7182f481e7b33f5cf2605e8fc40f4b7d2d8162755d2e160028aaf74f28d78a54d58d7021377b1aed0e4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-formatsextra"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-formatsextra \
+texlive-collection-formatsextra"
 
 RDEPENDS:${PN} += "texlive-aleph \
 texlive-antomega \
 texlive-collection-basic \
 texlive-collection-latex \
-texlive-edmac \
 texlive-eplain \
 texlive-hitex \
 texlive-jadetex \
@@ -33,7 +35,6 @@ texlive-passivetex \
 texlive-psizzl \
 texlive-startex \
 texlive-texsis \
-texlive-xmltex \
-texlive-xmltexconfig"
+texlive-xmltex"
 
 inherit rpm

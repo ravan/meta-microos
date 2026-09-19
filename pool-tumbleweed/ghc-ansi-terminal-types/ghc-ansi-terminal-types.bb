@@ -6,18 +6,19 @@ This package exposes modules that export types and functions used to represent \
 SGR aspects."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.11.5"
+PV = "1.1.3"
 
-RPM_NAME = "ghc-ansi-terminal-types-0.11.5-1.3.aarch64.rpm"
-RPM_HASH = "b9307e3fbb2cfd93d8cc859753e827d30ee3829ce96f27d61b38c7732ba08ce438a6a754e67c26942e95c69a4bb5472d6be3a815351e74b5fc0ea188f2322fc2"
+RPM_NAME = "ghc-ansi-terminal-types-1.1.3-1.10.aarch64.rpm"
+RPM_HASH = "41766dea6d038f36866abac0c7ec1f8b84900944c28f702d03df39fac427fed71f128f1c7821b5371bca1723d95298ac79b7c2f43056eac00ef6b64b19cd12aa"
 
 RPROVIDES:${PN} += "ghc-ansi-terminal-types \
-libHSansi-terminal-types-0.11.5-1ECcaJ3QBZ1LkDeP7l0nlp-ghc9.4.6.so"
+libHSansi-terminal-types-1.1.3-Cca3c5mUWg4AnUjMARf0p6-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
-libHScolour-2.3.6-GBcey48GJNAK3398XtiZDq-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHScolour-2.3.7-LuxtbazHK7IK55ldBice4c-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

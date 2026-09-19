@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & Sleepycat"
 
 PV = "4.8.30"
 
-RPM_NAME = "libdb_java-4_8-devel-4.8.30-42.1.aarch64.rpm"
-RPM_HASH = "4af7b59655766c44d781b7851ae27ae122ae572421b54488911c614323b8ce0c6738f3c9c807e0837f6b8b28edcb0abf75c5bb05a3c8b9217c2ca8c56db40daa"
+RPM_NAME = "libdb_java-4_8-devel-4.8.30-48.3.aarch64.rpm"
+RPM_HASH = "97ba38837ef3651eab2c21650f9abdcfdaf32434dd34f86b9443eb2d513f6e1b3d13a43d952c01ac497d82ccd962de81d5f9c0501b4b234e5e34b44b4322b505"
 
 RPROVIDES:${PN} += "db-java-devel \
 libdb-java-4-8-devel"

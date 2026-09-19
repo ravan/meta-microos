@@ -4,10 +4,10 @@ with the aid of TikZ. This may be used to label certain \
 features in an image."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn51490"
+PV = "2026.226.0.0.2svn51490"
 
-RPM_NAME = "texlive-tikz-imagelabels-2023.209.0.0.2svn51490-53.1.noarch.rpm"
-RPM_HASH = "9dcbdaa0cba14096d10c431dbd20ce117de3fb5521c58293471f702d7f4a2aed974519a19e01f72f9f257995795754a2a6d05d564538b5b8feef7dd5e7c90a5b"
+RPM_NAME = "texlive-tikz-imagelabels-2026.226.0.0.2svn51490-59.2.noarch.rpm"
+RPM_HASH = "8b0c63c4da60127a5301f3ad86cab1221108d139bd8a94bf3b8268ce06b18e59510706a06db47a9fcb4ab9e27a5f8fe80ea9367a7e3ab0ab3434b4ed238d1c5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-imagelabels.sty \

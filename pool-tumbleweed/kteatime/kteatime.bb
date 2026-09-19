@@ -3,28 +3,29 @@ DESCRIPTION = "Timer utility by KDE where the user can select a particular type 
 and be reminded when the associated hardcoded time is over."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kteatime-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "f9ddc670d18a3b40075b21d59ee846685d1be23447d8f2f310b79be7cc48406b31f3b0a4454302d3b127b4cbc2811b8ab9e84ba9a6b54d8318f937ea1d50969c"
+RPM_NAME = "kteatime-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "563e60ade39f107ba877f8b5e3c986694e80f4c9633081e7c61f8217da55e976dcc66386c673bde1f26e3c06b8390bff5c175609c463e3904e16b38ab80d2691"
 
 RPROVIDES:${PN} += "kteatime \
 kteatime5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5Notifications.so.5 \
-libKF5NotifyConfig.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6Notifications.so.6 \
+libKF6NotifyConfig.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

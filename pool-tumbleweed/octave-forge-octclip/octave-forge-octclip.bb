@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later & BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "octave-forge-octclip-2.0.3-1.4.aarch64.rpm"
-RPM_HASH = "66dfab100b7f65a6469132f886083ab350064c97f6b65ea3f0745ea3dcc3030658a3e5c46864c726ca1f16ff2c33c0d94d06635eaf3d73a5942d295be9711b33"
+RPM_NAME = "octave-forge-octclip-2.0.3-2.9.aarch64.rpm"
+RPM_HASH = "620f0e976554b5e45fd5762f6991bed214bec31f3d49f55841ac6bbc20fa038073ba7028b714aef5d24d7844ba8ef7fe385943f34868233f9292606be9f7f35e"
 
 RPROVIDES:${PN} += "octave-forge-octclip"
 
@@ -17,6 +17,7 @@ libgcc-s.so.1 \
 libgomp.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
+octave-api-v61 \
 octave-cli"
 
 inherit rpm

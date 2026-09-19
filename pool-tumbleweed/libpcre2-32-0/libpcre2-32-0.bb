@@ -7,12 +7,12 @@ PCRE2 is a re-working of the original PCRE library to provide an entirely new \
 API. \
  \
 libpcre2-32 supports 32-bit and UTF-32 strings."
-LICENSE = "BSD-3-Clause"
+LICENSE = "BSD-2-Clause & BSD-3-Clause-with-PCRE2-exception"
 
-PV = "10.42"
+PV = "10.48"
 
-RPM_NAME = "libpcre2-32-0-10.42-3.5.aarch64.rpm"
-RPM_HASH = "3fbdd51750f5865970bc7c017e3ead981ef3b27bcc923cd046270b64df1e9a920b474421ab30bd0a2d75d22261c38023069396ba7bdc8813aa17442dc0269633"
+RPM_NAME = "libpcre2-32-0-10.48-1.1.aarch64.rpm"
+RPM_HASH = "6f1a259cc08f0ff547ec040ac42f5f473636d45083595829b80c0f1f70c4432d4f91c6edfd1213bc2e3b206d6a06942fe6e1c471375265e437bca565d1c187a1"
 
 RPROVIDES:${PN} += "libpcre2-32-0 \
 libpcre2-32.so.0"

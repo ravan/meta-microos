@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1"
 
-RPM_NAME = "color-filesystem-1-13.16.noarch.rpm"
-RPM_HASH = "e49b50b233c53b0be80310fede363785f2c4f873927d5dfa206b76f8c0fa4a186ccfdab10f39c4f2efaf532f2e98590e75d84eb94af5409968a21647f5f43f00"
+RPM_NAME = "color-filesystem-1-13.24.noarch.rpm"
+RPM_HASH = "b85f750397a2f3788bd3e8e61fc09b5b5691015f8856dcd285a71f4e6cc7723689cd2636b05c8de1a85e39d98235e5afef7843bc9c17b427f162bdc5655ac933"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "color-filesystem \

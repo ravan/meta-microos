@@ -1,11 +1,11 @@
 SUMMARY = "Provides libknet1 lzma support"
 DESCRIPTION = "Provides lzma compression support for libknet1."
-LICENSE = "GPL-2.0+ & LGPL-2.1+"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21"
+PV = "1.33"
 
-RPM_NAME = "libknet1-compress-lzma-plugin-1.21-1.10.aarch64.rpm"
-RPM_HASH = "c29ea932cb9fa5df102a66148e234f7c8dd8acfb60eff9934fd000f430ef57ea4cf6bd1d43f09f1e20cc62117273f4d999d1ccb02438a4ad5743493008a3a236"
+RPM_NAME = "libknet1-compress-lzma-plugin-1.33-2.2.aarch64.rpm"
+RPM_HASH = "ef8b94c71a6911360ea2f8727346a4774110fbd646e905b3a2b1c0e650f769433f85f88e908a859c1dc1adfbf40af546da54f23895a88247b7cd5e8bc1d1a77e"
 
 RPROVIDES:${PN} += "libknet1-compress-lzma-plugin"
 

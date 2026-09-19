@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-taskmanager"
 DESCRIPTION = "Provides translations for the 'xfce4-taskmanager' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.5"
+PV = "1.6.0"
 
-RPM_NAME = "xfce4-taskmanager-lang-1.5.5-1.4.noarch.rpm"
-RPM_HASH = "138a95242ff6def6c809f101d5acdf4c0d1804d3276e830503b256f7b47e0b6eb3581bc25c48c99c821f3d78cbc76d9a849c343e21d8caea9cbec4cabf4ce543"
+RPM_NAME = "xfce4-taskmanager-lang-1.6.0-1.5.noarch.rpm"
+RPM_HASH = "a782fd0d7d59a6f291ce7119c0c26e9aac19f645f9f9675b2b4f6280d46bf157a8f49c4846e6f17baf2004e047d8192876960924a0d03c95b05fdb6e2548a124"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-taskmanager-ar \
@@ -45,6 +45,7 @@ locale-xfce4-taskmanager-pa \
 locale-xfce4-taskmanager-pl \
 locale-xfce4-taskmanager-pt \
 locale-xfce4-taskmanager-pt-BR \
+locale-xfce4-taskmanager-ro \
 locale-xfce4-taskmanager-ru \
 locale-xfce4-taskmanager-si \
 locale-xfce4-taskmanager-sk \

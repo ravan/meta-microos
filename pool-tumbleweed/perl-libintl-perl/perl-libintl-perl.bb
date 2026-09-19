@@ -4,18 +4,15 @@ compatible with the Uniforum message translations system as implemented \
 for example in GNU gettext."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.33"
+PV = "1.370.0"
 
-RPM_NAME = "perl-libintl-perl-1.33-1.4.aarch64.rpm"
-RPM_HASH = "9999aa3bd2844943511aa2329a9ae80e00a2faeeaa3def78edf32f403cbcda00c8fa38a8ddb32ed4475f86279c76c58b672b4373d8aa19537dde96cd99869169"
+RPM_NAME = "perl-libintl-perl-1.370.0-1.5.aarch64.rpm"
+RPM_HASH = "24cbe44327c7ff10876c37098cd6f5aa8e55b8688e1153766c1672452597267e90c22267ffa38eaa0c99f0adb884bf98ca79e35fa5d733c24b64682e90e43cf5"
 
-RPROVIDES:${PN} += "perl---TiedTextDomain \
-perl-Locale--Messages \
+RPROVIDES:${PN} += "perl-Locale--Messages \
+perl-Locale--Messages--Debug \
 perl-Locale--Recode \
-perl-Locale--Recode---Aliases \
-perl-Locale--Recode---Conversions \
 perl-Locale--RecodeData \
-perl-Locale--RecodeData---Encode \
 perl-Locale--RecodeData--ASMO-449 \
 perl-Locale--RecodeData--ATARI-ST \
 perl-Locale--RecodeData--ATARI-ST-EURO \
@@ -158,11 +155,13 @@ perl-Locale--Util \
 perl-Locale--gettext-dumb \
 perl-Locale--gettext-pp \
 perl-Locale--gettext-xs \
+perl-MyInstall \
+perl-SimpleCal \
 perl-libintl-perl"
 
 RDEPENDS:${PN} += "gettext-runtime \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-version"
 
 inherit rpm

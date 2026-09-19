@@ -21,10 +21,10 @@ names in the rest of this manual page (and in most of the other manual \
 pages in the library)."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.890.0"
+PV = "0.910.0"
 
-RPM_NAME = "perl-Text-BibTeX-0.890.0-1.1.aarch64.rpm"
-RPM_HASH = "afc963e93be8d2384aa25db052fd9b1ea4239d3a2f22e6ed01a2ad8729434d4b7684624dcfdda78db6a5a81e9a942745fdbba9fcf89952d77aee61930ccabe56"
+RPM_NAME = "perl-Text-BibTeX-0.910.0-1.11.aarch64.rpm"
+RPM_HASH = "c91f88405ceacb4fe6dea1e33b39df3e04bd84e483eed60bedb4e99221cb74e82811cca6112fddffd0dd770f79e9d5444d118412bc8dea8cf35d1857284b37de"
 
 RPROVIDES:${PN} += "perl-Text--BibTeX \
 perl-Text--BibTeX--BibEntry \
@@ -44,7 +44,7 @@ perl-Text-BibTeX"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbtparse.so \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Scalar--Util"
 
 inherit rpm

@@ -2,15 +2,17 @@ SUMMARY = "Python 3 interface to DNF"
 DESCRIPTION = "This package provides the Python 3 interface to DNF."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "4.14.0"
+PV = "4.23.0"
 
-RPM_NAME = "python3-dnf-4.14.0-3.2.noarch.rpm"
-RPM_HASH = "fa4b37732cf7b3d7f6866ca2feaf8d7c1b2ec3821667f76e22289a86ffcb15510bf5ab37b550e76ce0d9c8da183f96c8eb79be98d3102caa71cf13dfe22d7dc7"
+RPM_NAME = "python3-dnf-4.23.0-2.4.noarch.rpm"
+RPM_HASH = "56feca9392229425e93c610dc57414c8e3c1de44215d598be0bf0f045fd4c662ac250f8ea4e0ba2da63c4c335d044bb12c8000782f13059a07e0126f761b4ff0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dnf"
+RPROVIDES:${PN} += "python3-dnf \
+python3.13dist-dnf \
+python3dist-dnf"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 deltarpm \
 dnf-data \
 python-abi \

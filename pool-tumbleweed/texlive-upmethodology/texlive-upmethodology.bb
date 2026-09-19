@@ -6,10 +6,10 @@ document validators, specification description, task \
 management, and several helping macros."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.20221004svn64613"
+PV = "2026.226.20250429svn75054"
 
-RPM_NAME = "texlive-upmethodology-2023.209.20221004svn64613-54.1.noarch.rpm"
-RPM_HASH = "7be423e805977d14eff11a211fc5fadd0beb269719e4063e51bdfef549bb16684c2aa7735dc0726f8fbdadea918b41feb862e89fbe52efd3fd42129908b7a22d"
+RPM_NAME = "texlive-upmethodology-2026.226.20250429svn75054-60.2.noarch.rpm"
+RPM_HASH = "cf8644b4557ab05d9cf31f48f35cf1847f57ddb5ad1d2d27bb2b585f6f5e46786307e863b9262d09eb80b3a4f916c46468e1135c6f6a8740c8e3effea9c5d538"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UPMVERSION.def \
@@ -39,7 +39,10 @@ tex-babel.sty \
 tex-bbm.sty \
 tex-colortbl.sty \
 tex-draftwatermark.sty \
+tex-enumitem.sty \
 tex-environ.sty \
+tex-fancyhdr.sty \
+tex-fontawesome5.sty \
 tex-graphicx.sty \
 tex-hyphenat.sty \
 tex-ifpdf.sty \
@@ -49,9 +52,14 @@ tex-picinpar.sty \
 tex-pifont.sty \
 tex-relsize.sty \
 tex-setspace.sty \
+tex-stackengine.sty \
 tex-subcaption.sty \
 tex-tabularx.sty \
+tex-tcolorbox.sty \
 tex-thmtools.sty \
+tex-tikz.sty \
+tex-titlesec.sty \
+tex-tocbibind.sty \
 tex-txfonts.sty \
 tex-ulem.sty \
 tex-url.sty \
@@ -59,6 +67,7 @@ tex-varioref.sty \
 tex-vmargin.sty \
 tex-xcolor.sty \
 tex-xkeyval.sty \
+tex-xltabular.sty \
 tex-xspace.sty \
 texlive \
 texlive-filesystem \

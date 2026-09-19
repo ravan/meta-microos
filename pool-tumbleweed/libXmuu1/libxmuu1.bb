@@ -4,10 +4,10 @@ say random) utility functions that have been useful in building \
 various applications and widgets."
 LICENSE = "MIT"
 
-PV = "1.1.4"
+PV = "1.3.1"
 
-RPM_NAME = "libXmuu1-1.1.4-1.3.aarch64.rpm"
-RPM_HASH = "f50939b4c3f2ce7cc988c2f9f8b8db2e7f354b75eba543fcce6598c3aa9bd8b9b041c60363bf5a95cf984f31300ed3d1ff7e9521bcf04ed5d28490734d52a769"
+RPM_NAME = "libXmuu1-1.3.1-1.4.aarch64.rpm"
+RPM_HASH = "b10bf6033b0dbb37ee48195796060501830ff7f5400d1d30106fdc43b21553b41d1b35d0ed769ff46e28e3bbbd05fcd32b909122ba275f712c5a28ed0fde5d73"
 
 RPROVIDES:${PN} += "libXmuu.so.1 \
 libXmuu1"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-yax"
 DESCRIPTION = "This package includes the documentation for texlive-yax"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.03svn54080"
+PV = "2026.226.1.03svn54080"
 
-RPM_NAME = "texlive-yax-doc-2023.209.1.03svn54080-53.2.noarch.rpm"
-RPM_HASH = "3e9b181b39ebbdce24e40d86075dfac0db2007da6db69c4a4d910a6211c3346e9488015c26ec2b55dd60a6943820d9f34f900500b7031f627149a2b8562a0361"
+RPM_NAME = "texlive-yax-doc-2026.226.1.03svn54080-59.4.noarch.rpm"
+RPM_HASH = "c1f3320ba4e37abd189228b14f6ed6411ce14ca8561311338b82ecf4db6ed320963cfdc32633c5543d93e005df29333b5f0b3dd93b4faa290fa62067ea16ad6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yax-doc"

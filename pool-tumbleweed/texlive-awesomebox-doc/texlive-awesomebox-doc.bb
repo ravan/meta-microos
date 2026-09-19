@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-awesomebox"
 DESCRIPTION = "This package includes the documentation for texlive-awesomebox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn57349"
+PV = "2026.226.0.0.6svn57349"
 
-RPM_NAME = "texlive-awesomebox-doc-2023.209.0.0.6svn57349-54.1.noarch.rpm"
-RPM_HASH = "7572127b07debb656df4f1d45300db3b6abc1ec6c15f349177185466040e57e70dad7587934de73d901290541402af2217cd661c2146f2d6d3ec32685461b928"
+RPM_NAME = "texlive-awesomebox-doc-2026.226.0.0.6svn57349-60.2.noarch.rpm"
+RPM_HASH = "41381e09442f4f48fffac339102cb49f275a561df8705bc802d00bbd5f2e8fc2184724e4498ffa906d1acb8bc2ba5d14c15d85ad37707fcc105f62fb7f7d3737"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-awesomebox-doc"

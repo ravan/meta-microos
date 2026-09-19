@@ -14,10 +14,10 @@ annotations by PDF viewers may vary. The reference viewer for \
 the development of this package is Adobe Reader."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.4asvn49047"
+PV = "2026.226.2.4asvn77682"
 
-RPM_NAME = "texlive-pdfcomment-2023.209.2.4asvn49047-52.1.noarch.rpm"
-RPM_HASH = "d70fdfe7733230c86153da4b8f039197e7d6df3dd69e5eb6bc9e6b2f46b26f4b01f76ae451f5b626285ad6c4bcc1338424d767afe58bae24554c8061ddc31d97"
+RPM_NAME = "texlive-pdfcomment-2026.226.2.4asvn77682-58.2.noarch.rpm"
+RPM_HASH = "3aab8284a9057df54754e7d745e30eb06631f3b9c96a0f20292e22c771ff126f416b6e6c995ceb6a6b7128acc180372aa216c03c3da4178ac083919ced65a208"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfcomment.sty \

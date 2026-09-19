@@ -2,10 +2,10 @@ SUMMARY = "GNOME Desktop Documentation"
 DESCRIPTION = "This package contains documents that are targeted for GNOME end-users."
 LICENSE = "CC-BY-3.0"
 
-PV = "44.3"
+PV = "50.4"
 
-RPM_NAME = "gnome-user-docs-44.3-1.1.noarch.rpm"
-RPM_HASH = "2b1514be0887b4b1d76afb3f70450ad5302ae9972e4d32d812247946c4bab2247a4d6863619f197ae217f7768db4533e10ecf74de09337eafc1084ff53209ebe"
+RPM_NAME = "gnome-user-docs-50.4-1.1.noarch.rpm"
+RPM_HASH = "49c03d4ab2ce924bda63bf37a7b9fa98f4d362cb4db7bb0559ac1c5080584926f60845a54d82c9bda57ac8c3d16f1293690f306167bd1377f91566f032ac12e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-user-docs"

@@ -8,10 +8,10 @@ suppression of all colorful edits and comments, and showing \
 text whose deletion was proposed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn56707"
+PV = "2026.226.1.1svn56707"
 
-RPM_NAME = "texlive-color-edits-2023.209.1.1svn56707-54.1.noarch.rpm"
-RPM_HASH = "1eb5a39318bb0ca994070c29266ad924bd7aa0f0f641c9fa25adcacafb787a1258480f294aec56ae8a95b857e277f26a85f4827752a030f03f92b703d6c2f39e"
+RPM_NAME = "texlive-color-edits-2026.226.1.1svn56707-60.2.noarch.rpm"
+RPM_HASH = "7d9ce5e2f5174df257072a9d8c4347136a261d156e8de554b7dcb9be0d82bdb4be10303a775822d4950c32f2cfc81d8dbc614224aefbe236741450d3dc4ff09a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-color-edits.sty \

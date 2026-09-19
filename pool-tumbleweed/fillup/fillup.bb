@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.42"
 
-RPM_NAME = "fillup-1.42-279.2.aarch64.rpm"
-RPM_HASH = "5880e99a440b61a878e7805fe149fc3a946ca13764eb85ec73e9fbe5129f97630cd67ef7e268cf6671782c305892182d270c681aa41e14654dca7a7caef0215b"
+RPM_NAME = "fillup-1.42-281.9.aarch64.rpm"
+RPM_HASH = "601f29f5281e8c7f22251a7fe6ae22f469a672b2208b34ef0d76c99cb1ddfd15690d1a4c8a055dc73239e38a51249b18a6c94ecd7a43a3d4f8a0d0a57dcf00ce"
 
 RPROVIDES:${PN} += "aaa-base-/bin/fillup \
 fillup"

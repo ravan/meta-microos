@@ -7,10 +7,10 @@ package by default is a stub that just loads graphicx. However, \
 of the package if that is needed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn52756"
+PV = "2026.226.2.1svn78101"
 
-RPM_NAME = "texlive-grffile-2023.209.2.1svn52756-54.2.noarch.rpm"
-RPM_HASH = "4ec7d321c747a3dbd0f6dbbddecb06541131d9e93392e83a94d39631dcfbee689129c3c09f52c94a47d5b7da79984184e9ab3354922a6acab13cde8d2c77fd0a"
+RPM_NAME = "texlive-grffile-2026.226.2.1svn78101-60.4.noarch.rpm"
+RPM_HASH = "4ce13774ef523d730c92d7901682c9684be01d4d2ed3256f201b326c25ce02befbf2214ae8da995f12cc586ca856d2b14522be66845ac451e4c34a0e79964f04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grffile-2017-06-30.sty \

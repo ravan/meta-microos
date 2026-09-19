@@ -1,16 +1,16 @@
 SUMMARY = "Perl graphic toolkit"
-DESCRIPTION = "The toolkit is combined from two basic set of classes - core and external. \
-The core classes are coded in C and form a base line for every Prima object \
-written in perl. The usage of C is possible together with the toolkit; \
-however, its full power is revealed in the perl domain. The external \
-classes present easily expandable set of widgets, written completely in \
-perl and communicating with the system using Prima library calls."
+DESCRIPTION = "Prima is a classic 2D GUI toolkit that works under Windows and X11 \
+environments. The toolkit features a rich widget library, extensive 2D \
+graphic support, PDF generation, modern Unicode text input and output, and \
+supports a wide set of image formats. Additionally, the RAD-style Visual \
+Builder and POD viewer are included. The toolkit can interoperate with \
+other popular event loop libraries."
 LICENSE = "AGPL-3.0-only & BSD-2-Clause"
 
-PV = "1.69000"
+PV = "1.77000"
 
-RPM_NAME = "perl-Prima-1.69000-1.3.aarch64.rpm"
-RPM_HASH = "22ba6d7b5b9820dc8e5a4df0db6a08ce145d4c76f85c98511afaeb8dfa2158639cbab757e10e34a8e1781e6c6853201e888958267f6e428c1e963e144dfdf62c"
+RPM_NAME = "perl-Prima-1.77000-1.8.aarch64.rpm"
+RPM_HASH = "ee753ecc74afcf45fc65d22f8ce228a548579d6ada3ea885dd04bac98679a9bd08050dd018242b81b63d90112dfcd3b0e2112b3cac8fa4ab0332a83a7e8669b9"
 
 RPROVIDES:${PN} += "perl-Prima \
 perl-Prima--AbstractButton \
@@ -29,7 +29,6 @@ perl-Prima--Button \
 perl-Prima--Buttons \
 perl-Prima--Calendar \
 perl-Prima--CheckBox \
-perl-Prima--CheckBoxGroup \
 perl-Prima--CheckList \
 perl-Prima--CircularSlider \
 perl-Prima--Classes \
@@ -38,6 +37,7 @@ perl-Prima--Clipboard \
 perl-Prima--Cluster \
 perl-Prima--ColorComboBox \
 perl-Prima--ComboBox \
+perl-Prima--ComboBox--Button \
 perl-Prima--Component \
 perl-Prima--Config \
 perl-Prima--Const \
@@ -76,6 +76,7 @@ perl-Prima--Drawable--Gradient \
 perl-Prima--Drawable--Markup \
 perl-Prima--Drawable--Metafile \
 perl-Prima--Drawable--Path \
+perl-Prima--Drawable--Pod \
 perl-Prima--Drawable--PolyTextBlock \
 perl-Prima--Drawable--Subcanvas \
 perl-Prima--Drawable--TextBlock \
@@ -103,15 +104,20 @@ perl-Prima--Icon \
 perl-Prima--Image \
 perl-Prima--Image--Animate \
 perl-Prima--Image--Animate--GIF \
+perl-Prima--Image--Animate--JXL \
 perl-Prima--Image--Animate--PNG \
 perl-Prima--Image--Animate--WebP \
 perl-Prima--Image--Animate--WebPNG \
 perl-Prima--Image--BasicTransparencyDialog \
+perl-Prima--Image--Exif \
+perl-Prima--Image--Loader \
+perl-Prima--Image--Saver \
 perl-Prima--Image--TransparencyControl \
 perl-Prima--Image--base64 \
 perl-Prima--Image--gif \
 perl-Prima--Image--heif \
 perl-Prima--Image--jpeg \
+perl-Prima--Image--jxl \
 perl-Prima--Image--png \
 perl-Prima--Image--tiff \
 perl-Prima--Image--webp \
@@ -182,11 +188,11 @@ perl-Prima--PS--Unicode \
 perl-Prima--PodView \
 perl-Prima--PodViewWindow \
 perl-Prima--Popup \
+perl-Prima--PopupButton \
 perl-Prima--Printer \
 perl-Prima--ProgressBar \
 perl-Prima--ProtectedListBox \
 perl-Prima--Radio \
-perl-Prima--RadioGroup \
 perl-Prima--Region \
 perl-Prima--SampleWidget \
 perl-Prima--ScrollBar \
@@ -220,6 +226,7 @@ perl-Prima--Tie--text \
 perl-Prima--Tie--value \
 perl-Prima--Timer \
 perl-Prima--Utils \
+perl-Prima--VB--AbstractGrid \
 perl-Prima--VB--AbstractOutline \
 perl-Prima--VB--AbstractSlider \
 perl-Prima--VB--AltSpinButton \
@@ -229,6 +236,7 @@ perl-Prima--VB--Button \
 perl-Prima--VB--Calendar \
 perl-Prima--VB--CfgMaint \
 perl-Prima--VB--CheckBox \
+perl-Prima--VB--CheckList \
 perl-Prima--VB--CircularSlider \
 perl-Prima--VB--Classes \
 perl-Prima--VB--Cluster \
@@ -240,6 +248,8 @@ perl-Prima--VB--Component \
 perl-Prima--VB--Config \
 perl-Prima--VB--Control \
 perl-Prima--VB--CoreClasses \
+perl-Prima--VB--Date \
+perl-Prima--VB--DateTime \
 perl-Prima--VB--DetailedList \
 perl-Prima--VB--DetailedOutline \
 perl-Prima--VB--DirectoryListBox \
@@ -249,6 +259,7 @@ perl-Prima--VB--Drawable \
 perl-Prima--VB--DriveComboBox \
 perl-Prima--VB--Edit \
 perl-Prima--VB--Editor \
+perl-Prima--VB--FrameSet \
 perl-Prima--VB--Gauge \
 perl-Prima--VB--Grid \
 perl-Prima--VB--GroupBox \
@@ -256,6 +267,7 @@ perl-Prima--VB--Header \
 perl-Prima--VB--ImageViewer \
 perl-Prima--VB--InputLine \
 perl-Prima--VB--ItemsOutline \
+perl-Prima--VB--KeySelector \
 perl-Prima--VB--Label \
 perl-Prima--VB--ListBox \
 perl-Prima--VB--ListViewer \
@@ -277,6 +289,7 @@ perl-Prima--VB--SpinEdit \
 perl-Prima--VB--StringOutline \
 perl-Prima--VB--TabSet \
 perl-Prima--VB--TabbedNotebook \
+perl-Prima--VB--Time \
 perl-Prima--VB--Types \
 perl-Prima--VB--Types--FMAction \
 perl-Prima--VB--Types--Handle \
@@ -344,6 +357,7 @@ perl-Prima--Widget--Date \
 perl-Prima--Widget--Date--Input \
 perl-Prima--Widget--Date--List \
 perl-Prima--Widget--EventRectangles \
+perl-Prima--Widget--Fader \
 perl-Prima--Widget--GroupScroller \
 perl-Prima--Widget--Header \
 perl-Prima--Widget--IntIndents \
@@ -396,7 +410,7 @@ libgomp.so.1 \
 libjpeg.so.8 \
 libpng16.so.16 \
 libtiff.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 xorg-x11"
 
 inherit rpm

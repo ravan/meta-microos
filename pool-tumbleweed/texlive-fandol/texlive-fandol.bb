@@ -4,10 +4,10 @@ version contains four styles: Song, Hei, Kai, Fang. All fonts \
 are in OpenType format."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.3svn37889"
+PV = "2026.226.0.0.3svn37889"
 
-RPM_NAME = "texlive-fandol-2023.209.0.0.3svn37889-53.1.noarch.rpm"
-RPM_HASH = "c4638ffa31f3a7d6af83276918f8e6c8ee5e4128e83aeec02014445ef7bc584d5cccb00b4f28817c06991614fa0c9c0a8fa2cf2e9a3231304270a56b5b82339a"
+RPM_NAME = "texlive-fandol-2026.226.0.0.3svn37889-59.2.noarch.rpm"
+RPM_HASH = "1a50c2a4673affb97bbc91de2b1faf08214230191cc394dba96a7543e27b6f63b49ef1188a2827bc315b52eb1acb1337833c9b43b03aa25315844caec2fe8ecc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fandol"

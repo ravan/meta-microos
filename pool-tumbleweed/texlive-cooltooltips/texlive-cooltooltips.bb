@@ -6,10 +6,10 @@ text. cooltooltips provides the mechanism used by the Visual \
 LaTeX FAQ to indicate the question that each hyperlink answers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn60201"
+PV = "2026.226.1.1svn60201"
 
-RPM_NAME = "texlive-cooltooltips-2023.209.1.1svn60201-55.1.noarch.rpm"
-RPM_HASH = "a8c9e4fb37a00f86a921b3df78cb9f4c7eb993bd9a0561b28b52d0e5c4570139cc7f13717f07ee27e1aba0664787865ae9a4d78eecea9ede730ff3c91a7782bf"
+RPM_NAME = "texlive-cooltooltips-2026.226.1.1svn60201-61.2.noarch.rpm"
+RPM_HASH = "f71ecb450c3dc66f0330f9055c92b4d7c1d3e02aedbb07d5a3ec1128f0096bf4128be1b00c87274d57842a77bf72d11d39922213cb5fce23f37c0683fbca5bdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cooltooltips.sty \

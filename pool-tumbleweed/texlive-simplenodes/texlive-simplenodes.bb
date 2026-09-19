@@ -9,10 +9,10 @@ defined, loosely based on the nomenclature and color patterns \
 of the popular Java script Bootstrap."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn62888"
+PV = "2026.226.svn62888"
 
-RPM_NAME = "texlive-simplenodes-2023.209.svn62888-54.1.noarch.rpm"
-RPM_HASH = "c516412aed5957256be199a9eecac3f7af0575e1e1a3babe7d223ca560d0a5ec9da17b7e63e9f2eac99d69870927ae57f7c1689d806b76082c729efe92da7329"
+RPM_NAME = "texlive-simplenodes-2026.226.svn62888-60.2.noarch.rpm"
+RPM_HASH = "380043b685ee5c2b328cad7a10bc2cb0e0b1627eb91cd357c9313853207666c56cbefcaae5571b2f97f7ac85d557013d8a5d876018914563a7717d762befcca4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simplenodes.sty \

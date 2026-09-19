@@ -5,13 +5,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.03"
 
-RPM_NAME = "perl-IO-Socket-PortState-0.03-3.28.noarch.rpm"
-RPM_HASH = "fdb1a17c5cdb01267f8b44b3ea681bc78ac97cafb5143047eef67aa71788b7c259a1665539054c3f2ae9d6cddb3a2bd0cf5affe892e38be25d97f845c7e3c6c4"
+RPM_NAME = "perl-IO-Socket-PortState-0.03-3.42.noarch.rpm"
+RPM_HASH = "4fd28d6908c6c588769469b6569f310c644515fc91384cea7a94268cfb916459131c7456b949f2a9b2f0ed0e341edf313e930811473fc0995279d8d313416c85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Socket--PortState \
 perl-IO-Socket-PortState"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

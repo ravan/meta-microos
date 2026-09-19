@@ -1,17 +1,18 @@
 SUMMARY = "Translations for package kaddressbook"
 DESCRIPTION = "Provides translations for the 'kaddressbook' package."
-LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kaddressbook-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "d3711e144742aba8d7b152521daf51a0bf0de1ef56988e630e2a22968ff9609abc00b096c844f5efc04fdcb93e22d286b9b81f2dfe6afdf7440856926cb4f5ce"
+RPM_NAME = "kaddressbook-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "44430b82dd452f3535fcf19dd2f30b95841dd55ab3add91e967fb8b9abb838dd9682eaab1a18b58950254b97fc06f31eb2efa14bd1f6aa518ec636715243689f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kaddressbook-lang \
 kaddressbook-lang-all \
 locale-kaddressbook-af \
 locale-kaddressbook-ar \
+locale-kaddressbook-ast \
 locale-kaddressbook-az \
 locale-kaddressbook-be \
 locale-kaddressbook-bg \
@@ -36,6 +37,7 @@ locale-kaddressbook-fr \
 locale-kaddressbook-ga \
 locale-kaddressbook-gl \
 locale-kaddressbook-he \
+locale-kaddressbook-hi \
 locale-kaddressbook-hr \
 locale-kaddressbook-hu \
 locale-kaddressbook-ia \

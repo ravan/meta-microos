@@ -14,12 +14,12 @@ VDE can be used: \
   (iii) to support mobility: a VDE can stay interconnected despite \
     of the change of virtual cables, i.e. the change of IP addresses \
     and interface in the real world"
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
 PV = "2.3.2+svn587"
 
-RPM_NAME = "vde2-2.3.2+svn587-3.24.aarch64.rpm"
-RPM_HASH = "6f95a15977cf5974189d70d8302695e55c65a7a0f16a18485ee961b7f8fb801ac75e516818f2bb6a65f0e8dd1e4df5979897ebc9b0954577ad78a3470d1ccceb"
+RPM_NAME = "vde2-2.3.2+svn587-6.6.aarch64.rpm"
+RPM_HASH = "6f3ad491280f6b2cbbb05db41a3506235b2261569a8fbff2f1f6dbaa939ab124f8aa85db2524afd19631f73346ed27e66921d36fad07af67d47e04a3ab89251c"
 
 RPROVIDES:${PN} += "config-vde2 \
 libvdetap.so \

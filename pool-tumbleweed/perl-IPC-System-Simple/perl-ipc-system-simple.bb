@@ -31,15 +31,15 @@ specify which exit values are acceptable, trap errors, or process \
 diagnostics, then read on!"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.30"
+PV = "1.300.0"
 
-RPM_NAME = "perl-IPC-System-Simple-1.30-1.15.noarch.rpm"
-RPM_HASH = "3ceca9f5bdbb36ac439f33a3114fe3d916a5435d3a7a946781200df1e8a1f43e201f0045c46370a22bdcdaf5d0b00cc72192191a18260919bf2a180d2b5d43c1"
+RPM_NAME = "perl-IPC-System-Simple-1.300.0-1.7.noarch.rpm"
+RPM_HASH = "75d72fb6fb8a2209f97fbb61124dffc49d1b4fda3a91ea91b1c9a2d40ce1e67ac140c86d3d6dedb8fcb985eef93266f8993c77e35f7bc8b680a1d2aa4c42b719"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IPC--System--Simple \
 perl-IPC-System-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -4,10 +4,10 @@ DESCRIPTION = "libevt is a library and tools to access the Windows Event Log \
 For the Windows XML Event Log (EVTX) format, see libevtx."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221022"
+PV = "20260705"
 
-RPM_NAME = "libevt1-20221022-4.1.aarch64.rpm"
-RPM_HASH = "84aaaaa51b7d9e60bc6b6289392b099215d00117835e2bdf98312b56e765e545c26f882167ecbe4db7a581916221a062fc517b022e8e15af99544f63bd43b1ce"
+RPM_NAME = "libevt1-20260705-1.2.aarch64.rpm"
+RPM_HASH = "f9370c634f985ae7976130abf9758f6d6f745566b38e07ed7bac6a3b622e649d6d4f83ef7d1f849e04f1b872b861728f668e004eb2d86f2b67b2f61d2a18378a"
 
 RPROVIDES:${PN} += "libevt.so.1 \
 libevt1"

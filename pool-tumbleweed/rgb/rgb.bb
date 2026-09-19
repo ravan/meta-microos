@@ -4,10 +4,10 @@ DESCRIPTION = "This package includes both the list mapping X color names to RGB 
 rgb program to convert the text file into the binary database format."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.1.1"
 
-RPM_NAME = "rgb-1.1.0-1.2.aarch64.rpm"
-RPM_HASH = "8cdecb5ed126bcce87225cc1b093a7d8b5b96ea2baafea8c8c69765b8d582c323ff0da952fed1e3a0609d1c516e2992aa45de416213624cb44b6e212fb036185"
+RPM_NAME = "rgb-1.1.1-1.4.aarch64.rpm"
+RPM_HASH = "ebddfd7b7c15aa92bc5f3a3a37e731bbe27b37e9c1c3a77d69019f5da793812249ab7b9eef3b10cf211ff42a9155f2028c88d5feab01f6f712b400d4665059cd"
 
 RPROVIDES:${PN} += "rgb"
 

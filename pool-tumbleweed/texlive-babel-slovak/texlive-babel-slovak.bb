@@ -4,10 +4,10 @@ of Slovak in babel, including Slovak variants of LaTeX \
 built-in-names. Shortcuts are also defined."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1asvn30292"
+PV = "2026.226.3.1asvn30292"
 
-RPM_NAME = "texlive-babel-slovak-2023.209.3.1asvn30292-54.1.noarch.rpm"
-RPM_HASH = "c60764b80a5579916541bc83268a3ea03a88a0d22f05f4b1c1966d2dcadcc32248b20dedb5e671db57d9bee7dd8e3f6e5f819d1a189fea5812f544bbae629c31"
+RPM_NAME = "texlive-babel-slovak-2026.226.3.1asvn30292-60.2.noarch.rpm"
+RPM_HASH = "c895f04dfccea990ec975669ae74e61628be77b5a5ffa229123069df0e285810023cfd31047610e13ff554d8d2f0a8d4e636b46072737b647e1884312e2a8d6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-slovak.ldf \

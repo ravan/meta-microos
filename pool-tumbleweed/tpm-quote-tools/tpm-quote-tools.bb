@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.4"
 
-RPM_NAME = "tpm-quote-tools-1.0.4-1.22.aarch64.rpm"
-RPM_HASH = "b804fa9191df787001173ea6d4ff3edf23911593fea8a1cd9e1e3fdad8abe819c73e032dba59dd1c37474fdd147899278f6ca77c2f781a8a56541f48eafb23e2"
+RPM_NAME = "tpm-quote-tools-1.0.4-1.32.aarch64.rpm"
+RPM_HASH = "96fb2696e08af0eb53bf9708d90362226e05e47f71b12fa47edd21de097c513bf1f4456a524223ad5154678358e6e5d3747683efcbe808f01f32f1bebeeef5f9"
 
 RPROVIDES:${PN} += "tpm-quote-tools"
 

@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20160111"
 
-RPM_NAME = "google-roboto-mono-fonts-20160111-2.6.noarch.rpm"
-RPM_HASH = "7e223f809e51b06c04d32aa59ff186af92c0210894ab12c2eee25c98067dc3c68a9b343feeb72cd5aa814b7292604ac6521a57fc3a1b30f448dc4abdee2461c5"
+RPM_NAME = "google-roboto-mono-fonts-20160111-2.14.noarch.rpm"
+RPM_HASH = "857ad94955673bc4579f532fc049a6ac178b8db11e884d68bdaaa201f7d02fe077e37e79394bcb78eae58c55a60cd490c629a25da70c6580141069dcda5fea72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-roboto-mono-fonts"

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "tpm2-tss-engine-1.2.0-2.1.aarch64.rpm"
-RPM_HASH = "b590c334564c3ee59bb9eced5cc751e7b92c0c771b1f48ac80d722c264ef0dc8a4b588be0c9ca86f132eeaee2b289b3a1e4404165d0ad24a44b4e881c7b298ce"
+RPM_NAME = "tpm2-tss-engine-1.2.0-3.9.aarch64.rpm"
+RPM_HASH = "10a9f82190546a067996257fc3f9edf02557da8a218f188a10435f90fba004efff82352f245f5c53517eaa848d96f1a6288850e7d6142cbeeb4718060c12929d"
 
 RPROVIDES:${PN} += "libtpm2tss.so \
 tpm2-tss-engine"

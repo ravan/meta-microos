@@ -5,10 +5,10 @@ defined, as well as translations to the relevant language of \
 standard 'LaTeX names'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0jsvn60975"
+PV = "2026.226.1.0jsvn77682"
 
-RPM_NAME = "texlive-babel-sorbian-2023.209.1.0jsvn60975-54.1.noarch.rpm"
-RPM_HASH = "75ad667b1ff660171e9d5dcb49c75ef543c82449049011b6eddf18276cb17faff705ee0ceb8c8dc0186fdf25872717138d7447146541ec531ea42f74f3fcb83d"
+RPM_NAME = "texlive-babel-sorbian-2026.226.1.0jsvn77682-60.2.noarch.rpm"
+RPM_HASH = "ed03e4ff2aa78e4020c9bef2a89755cc4481a6e05dad50d0d6c184ae21488c9c4374c528aa6f461ffcc8d51b109cffa2d56e90979775ffec94112f935f9efea2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lsorbian.ldf \

@@ -2,24 +2,24 @@ SUMMARY = "A transparent background application with a built-in MangoHud for gam
 DESCRIPTION = "A transparent background OpenGL application with a built-in MangoHud designed to be run inside a gamescope instance."
 LICENSE = "MIT"
 
-PV = "0.6.9~1"
+PV = "0.8.4"
 
-RPM_NAME = "mangoapp-0.6.9~1-1.3.aarch64.rpm"
-RPM_HASH = "6b34c4b3fccd25f5e64c7ae9195775390a5890f781fd4f1926101db68a9189e700576d42a26c845e9adafd467b59e99fccb5cf8b1c95188552205c10c80c1eaf"
+RPM_NAME = "mangoapp-0.8.4-1.3.aarch64.rpm"
+RPM_HASH = "9d75141f88579ff215030e2162c6eaeee366c9ea2351b8486f09ef686968c9e5817ec26051392de12169480e360f00157410fe569b81bb8b41f42d3660a50d63"
 
 RPROVIDES:${PN} += "mangoapp"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libGL.so.1 \
-libGLEW.so.2.2 \
 libX11.so.6 \
 libc.so.6 \
-libfmt.so.9 \
+libfmt.so.12 \
 libgcc-s.so.1 \
 libglfw.so.3 \
 libm.so.6 \
-libspdlog.so.1.12 \
-libstdc++.so.6 \
+libspdlog.so.1.17 \
+libwayland-client.so.0 \
+libxkbcommon.so.0 \
 mangohud"
 
 inherit rpm

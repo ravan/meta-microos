@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "rescue-1.0.5-1.1.noarch.rpm"
-RPM_HASH = "8115607b5b0833b8e1213ff06c37c22211e30cbeb6881c207354b2492986edbe07afdf3a9fa2832ca7d0ff6b033548d423440d42b4b8272abf9fae08f5630b46"
+RPM_NAME = "rescue-1.0.5-1.11.noarch.rpm"
+RPM_HASH = "a7bf662d134cd0a60942c7fc3b040f5c1cd30ef37c90789f2d99bd2e7b8631b1b467b3dbfe5ca574eea4fa8d79a711a387fd1bfb1605439043fdc91f352572b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rescue"

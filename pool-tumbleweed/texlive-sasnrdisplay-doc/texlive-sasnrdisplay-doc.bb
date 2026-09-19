@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sasnrdisplay"
 DESCRIPTION = "This package includes the documentation for texlive-sasnrdisplay"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.95svn63255"
+PV = "2026.226.0.0.95svn63255"
 
-RPM_NAME = "texlive-sasnrdisplay-doc-2023.209.0.0.95svn63255-54.1.noarch.rpm"
-RPM_HASH = "e1174cfaafa46028cc36632012a05068a9e4098ef6f9c92321c68058a49f4f3e43cdca5f2c3e930e349681208c5cbfb2dfd1a17a71a484b5b220fa42954c0b7c"
+RPM_NAME = "texlive-sasnrdisplay-doc-2026.226.0.0.95svn63255-60.2.noarch.rpm"
+RPM_HASH = "3c95af80e5be7d698fba4883c77dfc5f325d174adfe54a803cd2dbc46ef993a5161ee2216e03b753121c0839ac7f41e45d15f41d5b6a7dc78590f83d872e0bcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sasnrdisplay-doc"

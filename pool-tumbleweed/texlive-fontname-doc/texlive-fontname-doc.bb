@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fontname"
 DESCRIPTION = "This package includes the documentation for texlive-fontname"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn64477"
+PV = "2026.226.svn75544"
 
-RPM_NAME = "texlive-fontname-doc-2023.209.svn64477-53.1.noarch.rpm"
-RPM_HASH = "85f6c5ff6d7619502031d0c729f61f65a2a214df351ac1a40372cdd01b7e1a5796a1a53a0011036bc19ab14e1cb492dbde35e58b2f1b2fbe17a9b7583d570ac1"
+RPM_NAME = "texlive-fontname-doc-2026.226.svn75544-60.2.noarch.rpm"
+RPM_HASH = "54ff79c3af778d46d6bd269172114082a36f893b1348513f89520c0abcfa660cc261f9d0e25ddd569bbd38f1496fef9b5d6488d6b52fefbfc42a7057b52ade05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fontname-doc"

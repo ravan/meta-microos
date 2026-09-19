@@ -8,12 +8,12 @@ again makes it his task to lead the counter attack. But even \
 without Galdov the aliens are still extremely well organised... \
  \
 They're Ready. Will You Be?"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.11"
 
-RPM_NAME = "blobAndConquer-1.11-2.24.aarch64.rpm"
-RPM_HASH = "f333df3f44b5f3aa19df41b139efdddf4c54286879772d4958b032b8cb7bcde504b7eae3224602495ba5a99e75580d38b13089627694135a9f488bf2f0ace77e"
+RPM_NAME = "blobAndConquer-1.11-4.1.aarch64.rpm"
+RPM_HASH = "42ee81a889bc9eb9a26574deb9c03b0e4593a48c218ba4c53721b8dff9b6efeb0f4616ef88fa8c2798c21185e27a16b11c6213349e9ef22fc95153786bffdf03"
 
 RPROVIDES:${PN} += "blobAndConquer"
 

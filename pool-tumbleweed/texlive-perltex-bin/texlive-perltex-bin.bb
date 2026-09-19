@@ -2,10 +2,10 @@ SUMMARY = "Binary files of perltex"
 DESCRIPTION = "Binary files of perltex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn16181"
+PV = "2026.20260301.svn16181"
 
-RPM_NAME = "texlive-perltex-bin-2023.20230311.svn16181-93.2.aarch64.rpm"
-RPM_HASH = "4117cd202a18d77c390cae24d1970a6a19b3e16f1a685ec8b10bafb6840958dbdbaa5e86b9e4e578ae70a79ba3308a4dcb64ebd96b5762afa61084187dd762d3"
+RPM_NAME = "texlive-perltex-bin-2026.20260301.svn16181-120.4.aarch64.rpm"
+RPM_HASH = "e86ae8184a92202f6b45a48b4a23469a7c79dd36206b3519c70b3d4a924d3a285aacd47facb024481c560032822ab949f081529e2cfddaeb205180e84af2c52b"
 
 RPROVIDES:${PN} += "texlive-perltex-bin"
 

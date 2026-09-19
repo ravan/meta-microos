@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pcmanfm"
 DESCRIPTION = "Provides translations for the 'pcmanfm' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "1.4.0+git20251208.0908744"
 
-RPM_NAME = "pcmanfm-lang-1.3.2-2.7.noarch.rpm"
-RPM_HASH = "519ad82da06c3e0dfd78e836c3a83c103c84a7cf750ea9612943db72c1a80cd2e38adfe429c87e5fd95394551f9a1d6b56718865542ce81963e25ce9b7984562"
+RPM_NAME = "pcmanfm-lang-1.4.0+git20251208.0908744-1.4.noarch.rpm"
+RPM_HASH = "5e8123dfb08669f973631ded1fd2267599350c775c04c24c5c8e26cdf7651090226de3de9f6f08683c7b405f606b8d1a5133d1c25dd0b345877e0f766065a859"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pcmanfm-ar \

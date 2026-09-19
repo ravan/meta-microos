@@ -1,12 +1,12 @@
 SUMMARY = "Ceph Manager module to orchestrate ceph-events to kubernetes' events API"
 DESCRIPTION = "ceph-mgr-k8sevents is a ceph-mgr module that sends every ceph-events \
 to kubernetes' events API"
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "ceph-mgr-k8sevents-16.2.13.66+g54799ee0666-4.1.noarch.rpm"
-RPM_HASH = "e8a8164b6c67b1afff9a32c3334ec20662e485ed51b52c8fe22191723b67a5b645f1df61aa2e78c79e594dfb14592202e957be6a0c4d951a90a2abdf01af7ae2"
+RPM_NAME = "ceph-mgr-k8sevents-18.2.7-8.1.noarch.rpm"
+RPM_HASH = "8b2263208fb76b73416ad05483e57a18249e033227cb498c807116d429f3903e010c33250a667f953569b162509ad4de8369203ce9961e736e1c1c1510cd5dc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-k8sevents"

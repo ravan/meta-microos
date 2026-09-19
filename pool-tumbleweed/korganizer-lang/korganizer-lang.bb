@@ -2,16 +2,17 @@ SUMMARY = "Translations for package korganizer"
 DESCRIPTION = "Provides translations for the 'korganizer' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "korganizer-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "99980e93cd46f7ab91720723fcad340579f9308833cd21404fb7d1c3f4768c14121693294b39d56c6aedadfaef97650c15fa33a51d306340344bb8e56b79af7e"
+RPM_NAME = "korganizer-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "be6d236e0da5daec304c29064a09b191fb5a33b7a8c9d41cf635ae6c8e0eb8439c3a3849cdbc701a5ac0652373f635c6d8cc188ac39d00da79e931fb2a14e901"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "korganizer-lang \
 korganizer-lang-all \
 locale-korganizer-af \
 locale-korganizer-ar \
+locale-korganizer-ast \
 locale-korganizer-az \
 locale-korganizer-be \
 locale-korganizer-bg \
@@ -67,6 +68,10 @@ locale-korganizer-ru \
 locale-korganizer-sk \
 locale-korganizer-sl \
 locale-korganizer-sq \
+locale-korganizer-sr \
+locale-korganizer-sr@ijekavian \
+locale-korganizer-sr@ijekavianlatin \
+locale-korganizer-sr@latin \
 locale-korganizer-sv \
 locale-korganizer-ta \
 locale-korganizer-th \

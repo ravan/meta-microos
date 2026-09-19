@@ -5,19 +5,23 @@ searchable, sortable and collapsible network list. It also can backup and \
 restore the Hamachi configuration directory."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.4.6"
+PV = "1.5.4"
 
-RPM_NAME = "haguichi-1.4.6-1.2.aarch64.rpm"
-RPM_HASH = "331121a70750280d54f7914b8eccdf41bcdecc26c0e1b89e5a20ba86c844ad126c6840eea16ec56fdea8f2689dbcf554169aec275e366178b48c6ada6b0486d2"
+RPM_NAME = "haguichi-1.5.4-1.3.aarch64.rpm"
+RPM_HASH = "c7ef60fc0a4711ca3d650ad964b834fd814a702e5f49d6fe69c02eeaf7630cc2b43e72c85a1cbf4ab27c1e204ddec9dabe8459a3d8fb21c00607b835b152ec0c"
 
 RPROVIDES:${PN} += "haguichi"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
 libc.so.6 \
-libgdk-3.so.0 \
+libgee-0.8.so.2 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0"
+libgraphene-1.0.so.0 \
+libgtk-4.so.1 \
+libportal-gtk4.so.1 \
+libportal.so.1"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "A conversion of Silvio Levy's Plain TeX macros for use with \
 LaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn21818"
+PV = "2026.226.svn21818"
 
-RPM_NAME = "texlive-lgreek-2023.209.svn21818-55.1.noarch.rpm"
-RPM_HASH = "e7849ee6727dbb631cdc17b5572e1b2bec5f5b5940e077fb8b3fa4dc9edf64824788e93a1a6e284141d9c89fdce0db067783c8526215e562e90eece35db4798c"
+RPM_NAME = "texlive-lgreek-2026.226.svn21818-61.2.noarch.rpm"
+RPM_HASH = "b005d7fc84c1afe6af72eab0d2039b798f71aaaafbca3303d12bf06df062c82221dfa17cc33c38cebb0341e39557e0c02a892123f0b37fc8ac00d07d5048dec6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGcmr.fd \

@@ -11,10 +11,10 @@ target font via the from option. Package dependencies: pgfopts, \
 iftex, fontspec."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64967"
+PV = "2026.226.1.1svn64967"
 
-RPM_NAME = "texlive-stealcaps-2023.209.1.1svn64967-58.1.noarch.rpm"
-RPM_HASH = "8412808a92b51fc239eb284ce562ebc8bac54bda0dad18334fffea2272fcf43c532aae589bc79b80a8ce0befa4deecfe92e3c456f98c0e65843d53964d63b0e7"
+RPM_NAME = "texlive-stealcaps-2026.226.1.1svn64967-64.2.noarch.rpm"
+RPM_HASH = "08af2225e350a10aebbba6c73b667d6bc5ab55129a451086c863870e65436ae7fda2e92970d5a8b8122177360a60b1da1be7422f9208da90810d49b5783af111"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-stealcaps.sty \

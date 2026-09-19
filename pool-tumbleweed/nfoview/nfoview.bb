@@ -5,14 +5,14 @@ editor are preset font and encoding settings, automatic window size and \
 clickable hyperlinks."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.29"
+PV = "1.99"
 
-RPM_NAME = "nfoview-1.29-1.3.noarch.rpm"
-RPM_HASH = "598a996ba287f47d055861c30791425c1e4f5346525e5c7d20371fbbc20f08b8abd646bbd3e925b4ac89b016b5e6b176181a3518456273b37958a05e9ecdabff"
+RPM_NAME = "nfoview-1.99-1.11.noarch.rpm"
+RPM_HASH = "2ec512a9a7fbca1fb4af8de4385d2984c5500608a0cdc7dbbaef65fed9d4622085efeefcbe46846a7487b0346a6dbb7e80f0b73b492944286fa85aa29c2b8a38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nfoview \
-python3.11dist-nfoview \
+python3.13dist-nfoview \
 python3dist-nfoview"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

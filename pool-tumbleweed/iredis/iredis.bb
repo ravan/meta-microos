@@ -7,25 +7,25 @@ exactly the same as redis-cli. IRedis will prevent accidentally \
 running dangerous commands."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.13.0"
+PV = "1.15.2"
 
-RPM_NAME = "iredis-1.13.0-1.4.noarch.rpm"
-RPM_HASH = "b7a58c64177e6687cfbe35f186f54232ac8eef8565f29cb6980aa3917f5c56ce1dff060b4277e2fdced75eeac7ae5afbd00b714d83d16e2102ba0176cf881d4a"
+RPM_NAME = "iredis-1.15.2-1.4.noarch.rpm"
+RPM_HASH = "4ea9a544cbaaaeaf0077ad520830e16f5118e02f23d4fcbc2b9ace9b24b4e89ad96e85fed84a4e7b428fa110f9a82249893bc626b3d71db142fe66972982eaeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iredis \
-python3.11dist-iredis \
+python3.13dist-iredis \
 python3dist-iredis"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-Pygments \
 python3-click \
 python3-configobj \
-python3-importlib-resources \
 python3-mistune \
-python3-pendulum \
+python3-packaging \
 python3-prompt-toolkit \
+python3-python-dateutil \
 python3-redis \
 python3-wcwidth"
 

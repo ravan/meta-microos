@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3"
 
-RPM_NAME = "xmlcharent-0.3-429.4.noarch.rpm"
-RPM_HASH = "cda98d420ef4436544eafcd3449b24e9d941dd9f58978b11c1d7a7223d21d044442d39d2b82ccb680b8fcde9fbcb1712ff100c2711e1ba79a915ff006024d583"
+RPM_NAME = "xmlcharent-0.3-429.12.noarch.rpm"
+RPM_HASH = "0b3b3f019afa29e5506535ab458f066cee093fc6f1bb8ce831988f92152e54ef4e575131d143f5ed0967a05bb9a262451f7a046e284945b47cbc81cd5023cb2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xmlcharent"

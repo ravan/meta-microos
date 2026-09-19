@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.1.0"
 
-RPM_NAME = "metis-doc-5.1.0-9.12.noarch.rpm"
-RPM_HASH = "4fcc0a50f25aec0b7d77fd810271a15812ab91c3dcc372c58f0af27011edfb92e5ec87b8165e574583e8a56da88acc25b1415bfac16442c9f3e32c522be25365"
+RPM_NAME = "metis-doc-5.1.0-13.5.noarch.rpm"
+RPM_HASH = "e6d078def21844bd3c44b57647682e8cc52f5f0f4801e1a7a6073c5947c03ff57d0a8e6623c6e6cac6e43507cd1994a7a0b1743aa920a68a1090e737d3add133"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metis-doc"

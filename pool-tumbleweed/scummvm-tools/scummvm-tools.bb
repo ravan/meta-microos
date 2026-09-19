@@ -13,14 +13,14 @@ The following tools can also be used to analyze the game scripts \
 These tools are most useful to developers."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.0"
+PV = "2.9.0"
 
-RPM_NAME = "scummvm-tools-2.7.0-1.5.aarch64.rpm"
-RPM_HASH = "4c04feda91b150016b052069b35886c7e78fd412fb3975cd3a7019a1d90c55e5906923d03712b883e9e1858054a7be7ddab94b034e9c1b6c6ae12e13e382284e"
+RPM_NAME = "scummvm-tools-2.9.0-1.6.aarch64.rpm"
+RPM_HASH = "c0886d9a48484d02be7ab53184131b7f68b40bebb1f72baa349bc0b1702a6a55a0469f961c6564e5a8d73749267aded2e67a77bd5d4cc1ed35791cd7dee77a63"
 
 RPROVIDES:${PN} += "scummvm-tools"
 
-RDEPENDS:${PN} += "libFLAC.so.12 \
+RDEPENDS:${PN} += "libFLAC.so.14 \
 libc.so.6 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
@@ -30,8 +30,8 @@ libpng16.so.16 \
 libstdc++.so.6 \
 libvorbis.so.0 \
 libvorbisenc.so.2 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0 \
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk2u-core-suse.so.16.0.0 \
 libz.so.1"
 
 inherit rpm

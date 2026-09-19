@@ -5,10 +5,10 @@ clients to see and monitor the X resource usage of various clients \
 (pixmaps, et al)."
 LICENSE = "MIT"
 
-PV = "1.2.2"
+PV = "1.2.3"
 
-RPM_NAME = "libXRes1-1.2.2-1.2.aarch64.rpm"
-RPM_HASH = "8ed516925ad5e8784cad7124ff0b680ffcb555e905b9a514f2ff742159ab88090afd9b030647301a50d12c425a3dbb6cdb0aa8a96e70312f61e0c98b1512ef0d"
+RPM_NAME = "libXRes1-1.2.3-1.5.aarch64.rpm"
+RPM_HASH = "615929075461330ec6d659f3314f49699885518973080b69a71086a1329f638c8d59f4949df5c24442dbb5a656de1b99799a8f29f5fceff24c6fbd2bf1e9c9a4"
 
 RPROVIDES:${PN} += "libXRes.so.1 \
 libXRes1"

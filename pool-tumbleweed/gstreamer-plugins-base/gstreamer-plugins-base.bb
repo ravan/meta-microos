@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-plugins-base-1.22.5-3.1.aarch64.rpm"
-RPM_HASH = "d77068a73f926747ccbf55ed53c2fe62cc4e8e9df1d7485f4a8afcb00cddafc56fb02d49b3e949a030bc3ccedb4dc9e87fbc13a0e98349970741dd708216cbd7"
+RPM_NAME = "gstreamer-plugins-base-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "3b2634cf3138e46b1e855555586f5be392dce8817a0718d8ddd4a37bf752572599bd2bcace00d28c666da661a2c0df7bde3c6efe92caebf13d388b300974016b"
 
 RPROVIDES:${PN} += "gst-plugins-base \
 gstreamer-plugins-base \
@@ -22,11 +22,11 @@ libgstaudiomixer.so \
 libgstaudiorate.so \
 libgstaudioresample.so \
 libgstaudiotestsrc.so \
-libgstcdparanoia.so \
+libgstbasedebug.so \
 libgstcompositor.so \
+libgstdsd.so \
 libgstencoding.so \
 libgstgio.so \
-libgstlibvisual.so \
 libgstogg.so \
 libgstopengl.so \
 libgstopus.so \
@@ -56,8 +56,6 @@ libXv.so.1 \
 libasound.so.2 \
 libc.so.6 \
 libcairo.so.2 \
-libcdda-interface.so.0 \
-libcdda-paranoia.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
@@ -82,9 +80,8 @@ liborc-0.4.so.0 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
-libtheoradec.so.1 \
-libtheoraenc.so.1 \
-libvisual-0.4.so.0 \
+libtheoradec.so.2 \
+libtheoraenc.so.2 \
 libvorbis.so.0 \
 libvorbisenc.so.2"
 

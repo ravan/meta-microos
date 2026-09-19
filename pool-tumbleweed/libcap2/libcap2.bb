@@ -7,10 +7,10 @@ capabilities within setuid binaries. If you use patches, this can be \
 done automatically by the kernel."
 LICENSE = "BSD-3-Clause | GPL-2.0-only"
 
-PV = "2.69"
+PV = "2.78"
 
-RPM_NAME = "libcap2-2.69-1.2.aarch64.rpm"
-RPM_HASH = "1f674a81f2e3d92caaec7e547c7e89a1bcb568a069d9bfc81def5f83c98f1ac1f050a44d37a0f007917fab640ceba3a22737d2b8358bd520dd80e3a465113d31"
+RPM_NAME = "libcap2-2.78-1.4.aarch64.rpm"
+RPM_HASH = "d581b5c8af95a6bc3a4eddb152aa30600d0d503c82803300ba2f5949df9e11c27cf0476e80abe2daeab1f3decba8f2e910e7b0c406fc7b9232a9d6733b415de9"
 
 RPROVIDES:${PN} += "libcap.so.2 \
 libcap2"

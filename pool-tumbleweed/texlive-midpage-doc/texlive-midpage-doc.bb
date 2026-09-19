@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-midpage"
 DESCRIPTION = "This package includes the documentation for texlive-midpage"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn17484"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-midpage-doc-2023.209.1.1asvn17484-55.1.noarch.rpm"
-RPM_HASH = "9973a34e3fa32678686bf3058e6efadcfca8bb665d775f7919ba36b9b38dd1b0f5d8b2bf18335ab0a67e1b30db76a339bbb397573d4942177532a128fdb3a76f"
+RPM_NAME = "texlive-midpage-doc-2026.226.1.1asvn77682-61.2.noarch.rpm"
+RPM_HASH = "7351e8609648141309eca95296d1e19772b197ee6942a7305b404888cd42b6a4da4bb3090e881fbc55e8540c6280c280287a1a61808d7582b3940cdf879834a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-midpage-doc"

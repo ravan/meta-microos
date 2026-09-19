@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.6+git74.9ef0de5"
 
-RPM_NAME = "libturris-spectator0-0.6+git74.9ef0de5-1.28.aarch64.rpm"
-RPM_HASH = "75665a795259888dd99bd55cdf55292fd67a13c59e2ab535cb7ae762457aa97de8d75701841b8a30cb2ff9b5d4f606df108e500e4c2cca8f88944e46d84bd638"
+RPM_NAME = "libturris-spectator0-0.6+git74.9ef0de5-1.38.aarch64.rpm"
+RPM_HASH = "a720d9fb10dedb63bffaf56ed933060fab80b00fd78fc98b257c9f064b12812200ff1e898d4ca4e9c2525a87e4241022bc570768e2a58755df7383ab29e29e05"
 
 RPROVIDES:${PN} += "libturris-spectator.so.0 \
 libturris-spectator0"

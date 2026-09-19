@@ -3,23 +3,22 @@ DESCRIPTION = "This package contains the library which is required by the KDE ed
 applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libKEduVocDocument5-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "60790ed75b369bd2277ad748310e3fd2ede184137f098064ad4e9b02b99d749d160905f371800efbac6558b4ed5e702f1ce9873ca6b359bd94c48613fd18a7ec"
+RPM_NAME = "libKEduVocDocument5-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "8cfb47b9661a2dbcc89fc61e0bc238fcea7a0ef7cf180e52759f3aea3b09fd6dc6a5cc0db0f244843394ac4ce8c687898e8072f1c41f9fcbc687f000bdb30124"
 
 RPROVIDES:${PN} += "libKEduVocDocument.so.5 \
-libKEduVocDocument5 \
-libkeduvocdocument"
+libKEduVocDocument5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libQt5Core.so.5 \
-libQt5Xml.so.5 \
+libKF6Archive.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libQt6Core.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

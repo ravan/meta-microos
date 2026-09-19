@@ -6,10 +6,10 @@ protocol either in Wayland core, or some other protocol in \
 wayland-protocols."
 LICENSE = "MIT"
 
-PV = "1.32"
+PV = "1.49"
 
-RPM_NAME = "wayland-protocols-devel-1.32-1.1.noarch.rpm"
-RPM_HASH = "ad744c75c153a94783a3116e6fb2aded20df56df90300daf1223afe740a3f206470808889e2220818480bbc21d17ef4fb258026d495434c493bf4b041e104693"
+RPM_NAME = "wayland-protocols-devel-1.49-1.3.noarch.rpm"
+RPM_HASH = "db3040e7183dbe86cc603c413047696b27a22adc4fd5bfd0d862b301fb201fa986cf9aaa29738cf14c6005615039e2e3ceda7ae470072861d3617c6007a82b07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-wayland-protocols \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.20.1"
 
-RPM_NAME = "mate-eiciel-1.20.1-2.10.aarch64.rpm"
-RPM_HASH = "93b96572a2b216ed9d77a85f0b1f6fbb50524ad161afab5bb5285fcdc57b36d4d1c030d770cde929532eb1df6169faeb7fb095512d0f94844e0971b8d7c2aaf0"
+RPM_NAME = "mate-eiciel-1.20.1-2.22.aarch64.rpm"
+RPM_HASH = "522c3a3f788719f017f3fb9895b6ca459a9225a864f61f7f37ba4fedf9cb268b1552901552d6deb292fa26d0315c175e215cc6271de9120e5faac2d3ce9150f9"
 
 RPROVIDES:${PN} += "mate-eiciel"
 

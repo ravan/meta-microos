@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-stdclsdv"
 DESCRIPTION = "This package includes the documentation for texlive-stdclsdv"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn15878"
+PV = "2026.226.1.1asvn76790"
 
-RPM_NAME = "texlive-stdclsdv-doc-2023.209.1.1asvn15878-58.1.noarch.rpm"
-RPM_HASH = "fcded790ee2ed87d0c2fd84c0d2a371db27179c68636600841744e1318ad2e9ca5cf8fa7b9860a17823d9ac8d95140ed1b79eadb024760cc4d6647daeb9a2dfc"
+RPM_NAME = "texlive-stdclsdv-doc-2026.226.1.1asvn76790-64.2.noarch.rpm"
+RPM_HASH = "2cdb3422446645c5084300d8b0988114505a4e22379680ac7f44a916092ee0034c84d8e0dde8f845eb3fa56e1ae56059f255f77847b810cf5c8e5326a4b15ac0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stdclsdv-doc"

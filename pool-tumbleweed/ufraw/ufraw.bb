@@ -7,23 +7,17 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.22"
 
-RPM_NAME = "ufraw-0.22-12.1.aarch64.rpm"
-RPM_HASH = "664d45d2d8462a17924e23e77f5f0d219a48fcb2dd8640089d6b9019bad1f5a1a03bc7c79c24769028c964183c1c6cb4787555ff33244e5101e9906b59034e53"
+RPM_NAME = "ufraw-0.22-13.8.aarch64.rpm"
+RPM_HASH = "215bd7510fdaedb67d3cf255d19639560a95de0b45cef2b086ce4d75493ac329ae8757ebe0f2846c87f3613205e9e52229ad680e5c9e1b3f649ed937b43bf846"
 
 RPROVIDES:${PN} += "ufraw"
 
-RDEPENDS:${PN} += "libbz2.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libcfitsio.so.10 \
 libexiv2.so.28 \
 libgcc-s.so.1 \
-libgdk-pixbuf-2.0.so.0 \
-libgdk-x11-2.0.so.0 \
 libglib-2.0.so.0 \
-libgobject-2.0.so.0 \
 libgomp.so.1 \
-libgtk-x11-2.0.so.0 \
-libgtkimageview.so.0 \
 libjpeg.so.8 \
 liblcms2.so.2 \
 liblensfun.so.1 \

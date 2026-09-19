@@ -1,15 +1,15 @@
 SUMMARY = "Set of slide fonts based on CM"
 DESCRIPTION = "The bundle contains the traditional slides fonts revised to be \
 completely usable both as text fonts and mathematics fonts; \
-they are fully integrate with the new operators, letters, \
+they are fully integrated with the new operators, letters, \
 symbols and extensible delimiter fonts, as well as with the AMS \
 fonts, all redone with the same stylistic parameters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.2.0bsvn32354"
+PV = "2026.226.3.0svn77682"
 
-RPM_NAME = "texlive-lxfonts-2023.208.2.0bsvn32354-53.1.noarch.rpm"
-RPM_HASH = "c265db9b1405d2878d936ffbfd4d81bad27a040833bc3b4d0af6f635d2748d0ec8111f3b324ae8bf889783cf99f08013b283118f28b7155416eeef6c1f4789df"
+RPM_NAME = "texlive-lxfonts-2026.226.3.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "ad4869fbdd67e243ed30246ab4b067a3fb9aa25c04a8b3d05f09da369b36b2da565e818daef28ee3ec7b058938a59cc478ffa1d30834c21443ba7280f9191340"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lcmbsy8.tfm \

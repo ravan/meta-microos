@@ -7,10 +7,10 @@ spamassassin, squid and wsdd. Additional, there is a timer to cleanup \
 dangling container images."
 LICENSE = "MIT"
 
-PV = "0.0+git20230324.9cd3b7a"
+PV = "0.0+git20231208.299201e"
 
-RPM_NAME = "containers-systemd-0.0+git20230324.9cd3b7a-1.2.noarch.rpm"
-RPM_HASH = "e2846cfb480b17da9c98e0c8953920281c95f69f13ecddd70bb6f846f93c3906cc0129b0592a8cc8a6ee6e935f1de344f765adf36cc6585c17f11ae778ed1b1a"
+RPM_NAME = "containers-systemd-0.0+git20231208.299201e-2.7.noarch.rpm"
+RPM_HASH = "dd44bb36caa249713aa3a316158cca37c11b743515f1e073223326424672544428ad451668d34664e6189e36134275cb744200696dbe1cda4a38628a12f59d78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-containers-systemd \

@@ -3,10 +3,10 @@ DESCRIPTION = "The redis++-devel package contains the header files and \
 libraries for redis-plus-plus."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.10"
+PV = "1.3.15"
 
-RPM_NAME = "redis++-devel-1.3.10-1.1.aarch64.rpm"
-RPM_HASH = "e097413355c2842c693ea846cf7f063a238da682c105117b627e7b4a43071f8e7735d3cf321eebc643f3e98062815bd108aefbc792c519de3eb0d53a74955112"
+RPM_NAME = "redis++-devel-1.3.15-1.3.aarch64.rpm"
+RPM_HASH = "92bcedb6dd388a90d7e7d292bd69de8018fc3795db2470a04f384fe8c9cff3c28cdf5ebbb9e8d71e73b616ec792d4e7d0103fb4bde720e890625aa1bf5502ff1"
 
 RPROVIDES:${PN} += "cmake-redis++ \
 pkgconfig-redis++ \

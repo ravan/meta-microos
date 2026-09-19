@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.16"
 
-RPM_NAME = "perl-HTTP-Server-Simple-PSGI-0.16-1.12.noarch.rpm"
-RPM_HASH = "c9eab24c5d19f32103ce296241665e98f4abc7b24bd702d7b8084e7413bdd2be3f7ac766e6dd18ca000dd689979e9725ae08fb7348d56da6fecd8f1bcf2e89df"
+RPM_NAME = "perl-HTTP-Server-Simple-PSGI-0.16-1.26.noarch.rpm"
+RPM_HASH = "62c2ca6560a247b5d2e011d604a26a1251ae60eece27310a922b9a44a4e494a44826bdbce531c4ee8a26c7b233e56ffe08e6872385a1c63582f4f3d0aad5fcc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Server--Simple--PSGI \
@@ -17,7 +17,7 @@ perl-HTTP-Server-Simple-PSGI \
 perl-Plack--Handler--HTTP--Server--Simple \
 perl-Plack--Handler--HTTP--Server--Simple--PSGIServer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTTP--Server--Simple"
 
 inherit rpm

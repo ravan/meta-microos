@@ -2,23 +2,26 @@ SUMMARY = "Qt 6 Lottie QML files and plugins"
 DESCRIPTION = "QML files and plugins from the Qt 6 Lottie module."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-lottie-imports-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "a414e1e34bf52f5be57d0738cbff58eb5cd50a3d21b9e80b7624915b6b3a449c0d9a3023c642060fe299fec6060c5e5d3c61070afe6df7a8e784c81c15cdc431"
+RPM_NAME = "qt6-lottie-imports-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "1738dbc847bae6d646d69bcdc99efb27ba80cd4f28db91823f413690153b4f58adcb882996a73f07139bfa7801b4c2c7a46fb486ea17daf36c7a7fd3c121ad14"
 
-RPROVIDES:${PN} += "liblottieqtplugin.so \
+RPROVIDES:${PN} += "liblottieplugin.so \
+liblottievectorimagehelpersplugin.so \
 qt6-lottie-imports \
+qt6qmlimport-Qt.labs.lottieqt \
 qt6qmlimport-Qt.labs.lottieqt.1 \
 qt6qmlimport-Qt.labs.lottieqt.2 \
-qt6qmlimport-Qt.labs.lottieqt.6"
+qt6qmlimport-Qt.labs.lottieqt.6 \
+qt6qmlimport-Qt.labs.lottieqt.VectorImageHelpers \
+qt6qmlimport-Qt.labs.lottieqt.VectorImageHelpers.2 \
+qt6qmlimport-Qt.labs.lottieqt.VectorImageHelpers.6"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt6Bodymovin.so.6 \
-libQt6Core.so.6 \
-libQt6Gui.so.6 \
+RDEPENDS:${PN} += "libQt6Core.so.6 \
+libQt6Lottie.so.6 \
+libQt6LottieVectorImageHelpers.so.6 \
 libQt6Qml.so.6 \
-libQt6Quick.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

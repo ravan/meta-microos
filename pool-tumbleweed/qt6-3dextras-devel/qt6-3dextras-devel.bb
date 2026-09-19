@@ -1,11 +1,11 @@
 SUMMARY = "Development files for the Qt 6 3DExtras library"
 DESCRIPTION = "Development files for the Qt 6 3DExtras library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-3dextras-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "636e5d2c5ef660c599c4bb9996baa9cb28a5660aceb5e975fb6dfb05503337728a8f2852b82f219a0236ba1d79955e4262924b71eb3f08c21ac2bf35ca57097a"
+RPM_NAME = "qt6-3dextras-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "9616806fd2801a4cb51ffb54f48e81ec055cf101640f298698e283fdc4ece31aa400bf62c984d61658e7f2881715e91d68ba1ff926313560db68a7b033254a14"
 
 RPROVIDES:${PN} += "cmake-Qt63DExtras \
 pkgconfig-Qt63DExtras \

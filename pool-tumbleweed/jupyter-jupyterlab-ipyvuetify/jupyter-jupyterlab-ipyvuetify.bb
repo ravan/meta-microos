@@ -4,10 +4,10 @@ DESCRIPTION = "Jupyter widgets based on vuetify UI components \
 This package provides the jupyterlab extension."
 LICENSE = "MIT"
 
-PV = "1.8.10"
+PV = "1.11.3"
 
-RPM_NAME = "jupyter-jupyterlab-ipyvuetify-1.8.10-4.1.noarch.rpm"
-RPM_HASH = "298e52e6098badafa405c2e70c0b96d35b2c31ffa3f2adac2c27a301e22542c22d059a6d7fa33169dac1af7fc507db34b43b478a49a47b4d608d042d6a2286ea"
+RPM_NAME = "jupyter-jupyterlab-ipyvuetify-1.11.3-1.2.noarch.rpm"
+RPM_HASH = "04193e89cb2c9693baad28fdfbd6183a59b3cc0ccaed4cf03f425d38b9dfeb0f761118594b94bec750fc9b9ab6cd0e546f86a1cf68431af47074d9ca785971e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-ipyvuetify"

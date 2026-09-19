@@ -13,10 +13,10 @@ details.  This implementation is on-disk compatible with the IRIX \
 version of XFS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.4.0"
+PV = "6.19.0"
 
-RPM_NAME = "xfsprogs-6.4.0-1.1.aarch64.rpm"
-RPM_HASH = "50355e4d273672f7c22b0d01d95b820af3f70c6f24e827832773544be10d4aa5c54d89351ea30429af9f556f386357aff9a73075b7d8d50fee9adc51088c5e03"
+RPM_NAME = "xfsprogs-6.19.0-1.5.aarch64.rpm"
+RPM_HASH = "e2282397c1756ce8473270d70f0f7afc0b867d23d3a4ca809836df19bf3f1c7b02dcf7286417ab8c1781a5a81622bd889cc9e0f5e0aa237cfb955292617fd4af"
 
 RPROVIDES:${PN} += "xfsprogs"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "A package to typeset bit pattern diagrams such as those used to \
 describe hardware, data format or protocols."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn39073"
+PV = "2026.226.svn39073"
 
-RPM_NAME = "texlive-bitpattern-2023.209.svn39073-53.1.noarch.rpm"
-RPM_HASH = "dac3ced50badb4107944dd7cd1870ec02e336c2f1bee4b9759061703a678ac3d5067cbb94b301d9daa3d2968b519c1c4bec18695e2d01da19fdb064c483f8f22"
+RPM_NAME = "texlive-bitpattern-2026.226.svn39073-59.2.noarch.rpm"
+RPM_HASH = "e3a5648ee65280d342bcc39bf33cad45993383ace609208a24cbf0ea527a1c777acadfabf5b14d393c415422379eb2e0eb99128381b8c32edcd4cfce98271cea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bitpattern.sty \

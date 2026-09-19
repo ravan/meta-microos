@@ -4,10 +4,10 @@ multi-headed X applications and window managers to use two or more \
 physical displays as one large virtual display."
 LICENSE = "MIT"
 
-PV = "1.1.5"
+PV = "1.1.6"
 
-RPM_NAME = "libXinerama1-1.1.5-1.2.aarch64.rpm"
-RPM_HASH = "f9d6d68c69e5b66357f54821fa106b3e59a8b5e3c83dd09d7853a9b848d30e398b48d5db8592aa74c3f2556e5b96793a2f4b1e4d1a858732bade5ad2fd1db78d"
+RPM_NAME = "libXinerama1-1.1.6-1.4.aarch64.rpm"
+RPM_HASH = "77ddb2ae52ceb7bb039a28787356bf1333db3db9700af4b590cc85803d68c9383b6cbc1b3afddce432d6fcc48bb30608cb20836e6d7035a7c82a3a970273752f"
 
 RPROVIDES:${PN} += "libXinerama.so.1 \
 libXinerama1"

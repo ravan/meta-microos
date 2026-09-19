@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.6.0"
 
-RPM_NAME = "goobox-3.6.0-3.9.aarch64.rpm"
-RPM_HASH = "7f6cfc1a7d935d111c9d3726c5eeffcee0b40fffac3bae8020987fc0658c9d4a7909c6caa6031a9a8bb2ef0aa87326e42ce76856900ec86182687d7c7d78526b"
+RPM_NAME = "goobox-3.6.0-5.6.aarch64.rpm"
+RPM_HASH = "0a475df93b94868b8a2eb0105d263829061ce5bca77a253cef6afe9ecd71428c8d3c43159e9536d5c5b6c1c57cf517a4c0c16441c93192d08e2d93c6469a468e"
 
 RPROVIDES:${PN} += "goobox"
 

@@ -5,10 +5,10 @@ manipulate with the keyboard and/or mouse. It also allows you to perform simple 
 filesystem operations."
 LICENSE = "WTFPL"
 
-PV = "6.10.16"
+PV = "7.1.3"
 
-RPM_NAME = "vim-plugin-NERDtree-6.10.16-56.1.noarch.rpm"
-RPM_HASH = "315b019ba479ffcdbdf0ec7bb1bbbf590839b319c749e667eaf764a5911bdfc9de91d3da384afc7f2dee58fa1466e27db4e657643973751250c4f7e32add97e0"
+RPM_NAME = "vim-plugin-NERDtree-7.1.3-64.2.noarch.rpm"
+RPM_HASH = "ae01471b95a19bd318a93671b344171aefefd2fb805d66291849ce82a260352609f59f0767c0c1f6da0ae0db98023c69705ec10daecbc17c5c1cbd6ab9a98016"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-NERDtree"

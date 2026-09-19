@@ -5,10 +5,10 @@ and Macedonian languages (therefore, it is required to have the \
 stix2-type1 package installed)."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.0svn63308"
+PV = "2026.226.1.0svn63308"
 
-RPM_NAME = "texlive-srbtiks-2023.209.1.0svn63308-58.1.noarch.rpm"
-RPM_HASH = "934aa0c1bf1986ccd890d4932237ca2f40dac01b6f2050e4a9f6a4ba2b16d91dcf6dc5ad597459384e9c454066c35c6d145a0d9f217f585e8b985117aca37e26"
+RPM_NAME = "texlive-srbtiks-2026.226.1.0svn63308-64.2.noarch.rpm"
+RPM_HASH = "aa8706ca91866a2c304c019908df318b0383dd53a03f63f08da8c9c3145217bd7c7061475f16d67e515e0e5235e552da7d4bab3e18f2f4fefaba4c0ecfc718e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-srbtiks-t1-it.enc \

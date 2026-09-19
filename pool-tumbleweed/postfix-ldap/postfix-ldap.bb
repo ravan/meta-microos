@@ -1,15 +1,14 @@
 SUMMARY = "Postfix LDAP map support"
 DESCRIPTION = "This provides support for LDAP maps in Postfix. If you plan to use LDAP \
 maps with Postfix, you need this."
-LICENSE = "IPL-1.0 | EPL-2.0"
+LICENSE = "EPL-2.0 | IPL-1.0"
 
-PV = "3.8.1"
+PV = "3.11.7"
 
-RPM_NAME = "postfix-ldap-3.8.1-2.1.aarch64.rpm"
-RPM_HASH = "dde487767f0c43e61d0bd086a99bbee11b8ce903ae7e75df0cf4703e58471d1d14f571fc28e519d3c5c38ef55d6fa21314e5550f31f41cc4d14f651dda088b95"
+RPM_NAME = "postfix-ldap-3.11.7-1.1.aarch64.rpm"
+RPM_HASH = "ce2d46a06a3c8623ad2ac02069d405fc370f56404ab40af062f4c6f393da67d9decd1866914476c3422c1855faf229cfd70d701be5c4db1672295ec4c67c1a22"
 
-RPROVIDES:${PN} += "config-postfix-ldap \
-postfix-/usr/lib/postfix/postfix-ldap.so \
+RPROVIDES:${PN} += "postfix-/usr/lib/postfix/postfix-ldap.so \
 postfix-ldap"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

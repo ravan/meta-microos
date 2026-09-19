@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.5"
 
-RPM_NAME = "echomixer-1.0.5-24.4.aarch64.rpm"
-RPM_HASH = "b125bceb4c72a4fe9facff1862acd5cb5ca006c7c786ca5338ba6aa984e2163e348678c72600e7be9945a86ef2e34745d9a5555c3701abedabadea9b1a92335f"
+RPM_NAME = "echomixer-1.0.5-29.4.aarch64.rpm"
+RPM_HASH = "59196c11785944693634689082037b51e01c4932fe466f419b84775d252929c6af298368083411f4ad25d9d02107cd91d877ee27bff4d41c0299de32e1d81cdc"
 
 RPROVIDES:${PN} += "alsa-tools-gui-/usr/bin/echomixer \
 echomixer"

@@ -7,31 +7,27 @@ and an optimizing native-code compiler), an interactive top level \
 system, Lex&Yacc tools, a replay debugger, and a comprehensive library."
 LICENSE = "QPL-1.0 & SUSE-LGPL-2.0-with-linking-exception"
 
-PV = "4.14.1"
+PV = "5.5.0"
 
-RPM_NAME = "ocaml-4.14.1-1.4.aarch64.rpm"
-RPM_HASH = "3acbed33ed0154085795e508401864c922480e3acc6d1e7bc8f738781f0b53de60e6047a3dc80f808a2ab7484816d1590b1a54da049fd64c6609c01552a53310"
+RPM_NAME = "ocaml-5.5.0-2.1.aarch64.rpm"
+RPM_HASH = "84866e702b89c7addde1476aa274a0a11b880d5c630d063a206f4d74caec6e5fb6bcf08e62fe949ff43782ba861d34c20d7bbdb88102dc22f315b7b37d477169"
 
-RPROVIDES:${PN} += "libasmrun-shared.so \
-libcamlrun-shared.so \
+RPROVIDES:${PN} += "libasmrun-aarch64-suse-linux-gnu-a100.so \
+libcamlrun-aarch64-suse-linux-gnu-a100.so \
 ocaml \
-ocaml-Bigarray \
-ocaml-CamlinternalAtomic \
 ocaml-CamlinternalFormat \
 ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-CamlinternalMod \
 ocaml-CamlinternalOO \
-ocaml-Condition \
 ocaml-Dynlink \
 ocaml-Dynlink-common \
-ocaml-Dynlink-compilerlibs \
+ocaml-Dynlink-config \
 ocaml-Dynlink-platform-intf \
 ocaml-Dynlink-types \
 ocaml-Event \
-ocaml-Mutex \
 ocaml-Profiling \
-ocaml-Semaphore \
+ocaml-Runtime-events \
 ocaml-Std-exit \
 ocaml-Stdlib \
 ocaml-Stdlib--Arg \
@@ -46,7 +42,11 @@ ocaml-Stdlib--BytesLabels \
 ocaml-Stdlib--Callback \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Complex \
+ocaml-Stdlib--Condition \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
+ocaml-Stdlib--Dynarray \
+ocaml-Stdlib--Effect \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Ephemeron \
 ocaml-Stdlib--Filename \
@@ -54,8 +54,8 @@ ocaml-Stdlib--Float \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Fun \
 ocaml-Stdlib--Gc \
-ocaml-Stdlib--Genlex \
 ocaml-Stdlib--Hashtbl \
+ocaml-Stdlib--Iarray \
 ocaml-Stdlib--In-channel \
 ocaml-Stdlib--Int \
 ocaml-Stdlib--Int32 \
@@ -67,33 +67,36 @@ ocaml-Stdlib--ListLabels \
 ocaml-Stdlib--Map \
 ocaml-Stdlib--Marshal \
 ocaml-Stdlib--MoreLabels \
+ocaml-Stdlib--Mutex \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Oo \
 ocaml-Stdlib--Option \
 ocaml-Stdlib--Out-channel \
+ocaml-Stdlib--Pair \
 ocaml-Stdlib--Parsing \
-ocaml-Stdlib--Pervasives \
+ocaml-Stdlib--Pqueue \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
 ocaml-Stdlib--Queue \
 ocaml-Stdlib--Random \
+ocaml-Stdlib--Repr \
 ocaml-Stdlib--Result \
 ocaml-Stdlib--Scanf \
+ocaml-Stdlib--Semaphore \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--Stack \
 ocaml-Stdlib--StdLabels \
-ocaml-Stdlib--Stream \
 ocaml-Stdlib--String \
 ocaml-Stdlib--StringLabels \
 ocaml-Stdlib--Sys \
+ocaml-Stdlib--Type \
 ocaml-Stdlib--Uchar \
 ocaml-Stdlib--Unit \
 ocaml-Stdlib--Weak \
 ocaml-Str \
 ocaml-Thread \
-ocaml-ThreadUnix \
 ocaml-Unix \
 ocaml-UnixLabels \
 ocaml-compiler \
@@ -106,32 +109,27 @@ ocamlfind-bigarray \
 ocamlfind-bytes \
 ocamlfind-dynlink \
 ocamlfind-raw-spacetime \
+ocamlfind-runtime-events \
 ocamlfind-seq \
 ocamlfind-stdlib \
 ocamlfind-str \
 ocamlfind-threads \
-ocamlfind-threads.none \
 ocamlfind-threads.posix \
-ocamlfind-threads.vm \
 ocamlfind-uchar \
 ocamlfind-unix \
-ocamlx-Bigarray \
-ocamlx-CamlinternalAtomic \
 ocamlx-CamlinternalFormat \
 ocamlx-CamlinternalFormatBasics \
 ocamlx-CamlinternalLazy \
 ocamlx-CamlinternalMod \
 ocamlx-CamlinternalOO \
-ocamlx-Condition \
 ocamlx-Dynlink \
 ocamlx-Dynlink-common \
-ocamlx-Dynlink-compilerlibs \
+ocamlx-Dynlink-config \
 ocamlx-Dynlink-platform-intf \
 ocamlx-Dynlink-types \
 ocamlx-Event \
-ocamlx-Mutex \
 ocamlx-Profiling \
-ocamlx-Semaphore \
+ocamlx-Runtime-events \
 ocamlx-Std-exit \
 ocamlx-Stdlib \
 ocamlx-Stdlib--Arg \
@@ -146,7 +144,11 @@ ocamlx-Stdlib--BytesLabels \
 ocamlx-Stdlib--Callback \
 ocamlx-Stdlib--Char \
 ocamlx-Stdlib--Complex \
+ocamlx-Stdlib--Condition \
 ocamlx-Stdlib--Digest \
+ocamlx-Stdlib--Domain \
+ocamlx-Stdlib--Dynarray \
+ocamlx-Stdlib--Effect \
 ocamlx-Stdlib--Either \
 ocamlx-Stdlib--Ephemeron \
 ocamlx-Stdlib--Filename \
@@ -154,8 +156,8 @@ ocamlx-Stdlib--Float \
 ocamlx-Stdlib--Format \
 ocamlx-Stdlib--Fun \
 ocamlx-Stdlib--Gc \
-ocamlx-Stdlib--Genlex \
 ocamlx-Stdlib--Hashtbl \
+ocamlx-Stdlib--Iarray \
 ocamlx-Stdlib--In-channel \
 ocamlx-Stdlib--Int \
 ocamlx-Stdlib--Int32 \
@@ -167,41 +169,48 @@ ocamlx-Stdlib--ListLabels \
 ocamlx-Stdlib--Map \
 ocamlx-Stdlib--Marshal \
 ocamlx-Stdlib--MoreLabels \
+ocamlx-Stdlib--Mutex \
 ocamlx-Stdlib--Nativeint \
 ocamlx-Stdlib--Obj \
 ocamlx-Stdlib--Oo \
 ocamlx-Stdlib--Option \
 ocamlx-Stdlib--Out-channel \
+ocamlx-Stdlib--Pair \
 ocamlx-Stdlib--Parsing \
-ocamlx-Stdlib--Pervasives \
+ocamlx-Stdlib--Pqueue \
 ocamlx-Stdlib--Printexc \
 ocamlx-Stdlib--Printf \
 ocamlx-Stdlib--Queue \
 ocamlx-Stdlib--Random \
+ocamlx-Stdlib--Repr \
 ocamlx-Stdlib--Result \
 ocamlx-Stdlib--Scanf \
+ocamlx-Stdlib--Semaphore \
 ocamlx-Stdlib--Seq \
 ocamlx-Stdlib--Set \
 ocamlx-Stdlib--Stack \
 ocamlx-Stdlib--StdLabels \
-ocamlx-Stdlib--Stream \
 ocamlx-Stdlib--String \
 ocamlx-Stdlib--StringLabels \
 ocamlx-Stdlib--Sys \
+ocamlx-Stdlib--Type \
 ocamlx-Stdlib--Uchar \
 ocamlx-Stdlib--Unit \
 ocamlx-Stdlib--Weak \
 ocamlx-Str \
 ocamlx-Thread \
-ocamlx-ThreadUnix \
 ocamlx-Unix \
 ocamlx-UnixLabels"
 
-RDEPENDS:${PN} += "/usr/bin/ocamlrun \
-gcc13 \
+RDEPENDS:${PN} += "/usr/bin/ocamlrun-a100 \
+gcc \
 libc.so.6 \
 libm.so.6 \
+libzstd.so.1 \
 ncurses-devel \
-ocaml-runtime"
+ocaml-runtime \
+ocamlfind-threads \
+ocamlfind-unix \
+pkgconfig-libzstd"
 
 inherit rpm

@@ -11,10 +11,10 @@ l3kernel and l3packages, and the amsmath and mathtools \
 packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.0svn61283"
+PV = "2026.226.3.0.0svn77682"
 
-RPM_NAME = "texlive-numerica-2023.209.2.0.0svn61283-55.1.noarch.rpm"
-RPM_HASH = "2e1ce7db5ce8ee154c4956b0197967597614b4fdd1b9c929431f94414442c6cacccdce1e194a39f681606525a34d7aeb436f33009d2d0f5273853b4edfd0edea"
+RPM_NAME = "texlive-numerica-2026.226.3.0.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "5691cd6a099cc60e99c16c02983573ebdbfe6487a8667536fd0c16c7f1a6d497306e74baeb0800bd0958d8f8de06d292adc3c0827bc9512d6c7d0b3b57e9a788"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-numerica.sty \
@@ -27,8 +27,6 @@ findutils \
 grep \
 sed \
 tex-amsmath.sty \
-tex-etoolbox.sty \
-tex-l3keys2e.sty \
 tex-mathtools.sty \
 texlive \
 texlive-filesystem \

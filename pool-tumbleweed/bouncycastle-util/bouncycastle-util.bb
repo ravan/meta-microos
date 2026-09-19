@@ -3,10 +3,10 @@ DESCRIPTION = "The Bouncy Castle Java APIs for ASN.1 extension and utility APIs 
 support bcpkix and bctls."
 LICENSE = "MIT"
 
-PV = "1.74"
+PV = "1.85"
 
-RPM_NAME = "bouncycastle-util-1.74-1.1.noarch.rpm"
-RPM_HASH = "945a07ecda35a410a79a6beb8dabea952b05d70ff83e6bf32c7bea26ac77390617369c27c3fa2815a9790a9eb4798381fd715943f50e933e98b9c8272b3a6b8e"
+RPM_NAME = "bouncycastle-util-1.85-1.1.noarch.rpm"
+RPM_HASH = "eb240190b845b20e3d37b133d5df3549590566817c8cab34897f487a9c3cc769fc96c0da4e94089d48337f58b091b96f8dbde2a21f8e31014adafe31ad81e4a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bouncycastle-util \
@@ -23,8 +23,7 @@ mvn-org.bouncycastle-bcutil-jdk18-pom- \
 mvn-org.bouncycastle-bcutil-jdk18on \
 mvn-org.bouncycastle-bcutil-jdk18on-pom-"
 
-RDEPENDS:${PN} += "bouncycastle \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-org.bouncycastle-bcprov-jdk18on"
 

@@ -5,8 +5,8 @@ LICENSE = "OFL-1.1"
 
 PV = "4.49.1"
 
-RPM_NAME = "consoleet-terminus-fonts-4.49.1-1.6.noarch.rpm"
-RPM_HASH = "7df8e8689fbd3e468b30f6d8c85e25d9d31a0ea25f0edb9326c39e8983b39c7fbd3b1f424be902ddf1fb6c27597e2a349a800818b3048d77f762d37a50725dc1"
+RPM_NAME = "consoleet-terminus-fonts-4.49.1-1.14.noarch.rpm"
+RPM_HASH = "b692f50272fc4d6db02396efab0c920b04750a7d6d16e771828d824494bbc468c9cb2bae5ff775df662952db1fc5445015e4bc2d827ed7fc22c55f5e25644ccd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-consoleet-terminus-fonts \

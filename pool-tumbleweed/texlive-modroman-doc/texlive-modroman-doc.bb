@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-modroman"
 DESCRIPTION = "This package includes the documentation for texlive-modroman"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn29803"
+PV = "2026.226.1svn76924"
 
-RPM_NAME = "texlive-modroman-doc-2023.209.1svn29803-55.1.noarch.rpm"
-RPM_HASH = "b706fabdd6f02c6546c2b7c9f5c3f7c7b7548a1c437ec296bf9b63b0bb51e0151a35bd5826c882299e0c700be7d0f949ec5d9f7baa5cc297a634c9bbdbd86e11"
+RPM_NAME = "texlive-modroman-doc-2026.226.1svn76924-61.2.noarch.rpm"
+RPM_HASH = "1044301d85c7343151301f834867511121b80650655aad15c452389350cf5ef2e7b6b1dec54d08db21e82406444aad8c45a2bbde0e90640e3e229749adf095e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-modroman-doc-en;fr \

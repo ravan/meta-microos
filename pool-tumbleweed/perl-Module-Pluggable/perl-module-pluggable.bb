@@ -1,4 +1,4 @@
-SUMMARY = "Automatically Give Your Module the Ability to Have Plugins"
+SUMMARY = "Automatically give your module the ability to have plugins"
 DESCRIPTION = "Provides a simple but, hopefully, extensible way of having 'plugins' for \
 your module. Obviously this isn't going to be the be all and end all of \
 solutions but it works for me. \
@@ -7,12 +7,12 @@ Essentially all it does is export a method into your namespace that looks \
 through a search path for .pm files and turn those into class names. \
  \
 Optionally it instantiates those classes for you."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.2"
+PV = "6.400.0"
 
-RPM_NAME = "perl-Module-Pluggable-5.2-1.28.noarch.rpm"
-RPM_HASH = "4c1d057d4a0586acbd05924fd69c5e1548f25d8313a20b51392f2e972259c99a6d808dbb2bd25a3946651240b993246e9b8af8894e3924c04d1cc113bbcb58cb"
+RPM_NAME = "perl-Module-Pluggable-6.400.0-1.1.noarch.rpm"
+RPM_HASH = "28b28074370df941baef46f8261d5ef083e1bde0bdf638ff53df778512c4b2d978bfbbd3eff93fb4103a5a3a1118da6d14ef0fb5fde7cc9a1e0d546950bfb98c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--InnerPackage \
@@ -20,6 +20,6 @@ perl-Module--Pluggable \
 perl-Module--Pluggable--Object \
 perl-Module-Pluggable"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

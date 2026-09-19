@@ -5,10 +5,10 @@ default is to only mark odd pages, but all pages can be marked \
 and the marking can be stopped or started at any point."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn49449"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-continue-2023.209.0.0.2svn49449-55.1.noarch.rpm"
-RPM_HASH = "d5965745982991ba81a04c65799e20c99ab57e5f6c0ead6ac79d5c51929ac75c1851dd9dc93652a89f2f216f4b737b8d7b5d3faa444a65325c4d00fbf756909f"
+RPM_NAME = "texlive-continue-2026.226.0.0.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "e52d0cefa4af5d4c8bca8630bfe53db8b50fcc4c1f822ba4b86181dc85bfffceb01b4f42294ef5aa39fc617cd75881956bafa09f77ed17f09e6d4bf926313add"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-continue.sty \

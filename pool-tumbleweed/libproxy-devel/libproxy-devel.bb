@@ -6,15 +6,16 @@ This subpackage contains header files for developing applications \
 that want to make use of libproxy."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.4.18"
+PV = "0.5.12"
 
-RPM_NAME = "libproxy-devel-0.4.18-2.1.aarch64.rpm"
-RPM_HASH = "ea469dad5ff35d291d895cf3e667138e45887c6b6ee661f6fe905a1038f6c90aad8b1fc189329de2041a2f8285140ab968dd76396b41ba8814dce0242d32681f"
+RPM_NAME = "libproxy-devel-0.5.12-2.4.aarch64.rpm"
+RPM_HASH = "27bf9675161f42745be3f952ac9820492eb4dc74ecfc498a60a1a36d5415a328e7851a221418cfa23d092ae97ad7a89c244529e0dfb78c22d3f924dc59d3b2fa"
 
 RPROVIDES:${PN} += "libproxy-devel \
 pkgconfig-libproxy-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libproxy1"
+libproxy1 \
+pkgconfig-gobject-2.0"
 
 inherit rpm

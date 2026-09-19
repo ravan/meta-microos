@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-inet"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-inet"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn15878"
+PV = "2026.226.0.0.1svn15878"
 
-RPM_NAME = "texlive-tikz-inet-doc-2023.209.0.0.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "8f719a378d1113a14dae7c07b9468766dd71788354092abd379e9c80b8326138acf6dbb6cdff190733a929e7ed2fd6ced5fa48da6ea646a6318e8cff82b517b7"
+RPM_NAME = "texlive-tikz-inet-doc-2026.226.0.0.1svn15878-59.2.noarch.rpm"
+RPM_HASH = "53e24d06970213c57203c216da67e1d26ecec9da52d10d48905b5a6cab251307ea2523aa1b79c056b70ee64e82ba7426924947978b7b3007cd7e30c7589c2007"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-inet-doc"

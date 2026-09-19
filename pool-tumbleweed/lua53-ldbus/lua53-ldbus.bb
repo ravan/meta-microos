@@ -2,14 +2,15 @@ SUMMARY = "Lua bindings to dbus"
 DESCRIPTION = "ldbus is a C binding to dbus for Lua."
 LICENSE = "MIT"
 
-PV = "0.0+git20190816.9e176fe"
+PV = "0.0+git20250404.5cc933b"
 
-RPM_NAME = "lua53-ldbus-0.0+git20190816.9e176fe-4.2.aarch64.rpm"
-RPM_HASH = "4cff1c4c61eab1a2b155ec3ab7d22c32f331439b186df89e4462c20ef018842f8b210e74f88e6a96cb4a690e77c3406d69c0e9d38553cc602300c452715581ec"
+RPM_NAME = "lua53-ldbus-0.0+git20250404.5cc933b-2.4.aarch64.rpm"
+RPM_HASH = "b5ce12260b3a01e1c730ec7fae2a0f8e243d5b983efb7b5d44b787964ce50ffd643e6c09e3c69b92cf9df5dfd69edae52c21290f898ae6836cd26110e5ffc047"
 
 RPROVIDES:${PN} += "lua53-ldbus"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libdbus-1.so.3 \
 lua53"
 

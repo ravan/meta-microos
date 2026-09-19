@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.0.13"
 
-RPM_NAME = "libEMF-devel-1.0.13-3.4.aarch64.rpm"
-RPM_HASH = "3aba60e90d58fe6aafc13cb345cd0640736cd4b5ec2a7ec784f96fd62ef69f393be77cac63c9fc295e69324dfb46123196ad3fe95e2954c04cde4443c488870b"
+RPM_NAME = "libEMF-devel-1.0.13-3.14.aarch64.rpm"
+RPM_HASH = "6149c09529b7944a9196fb81f4a49673a533c7c8d60b4b6bae1026ec4da9ce4ee530fd6004863774aac16df4da22ec74942f6524163935125287abf43e5b98db"
 
 RPROVIDES:${PN} += "libEMF-devel"
 

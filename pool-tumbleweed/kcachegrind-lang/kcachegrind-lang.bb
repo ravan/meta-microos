@@ -1,18 +1,18 @@
 SUMMARY = "Translations for package kcachegrind"
 DESCRIPTION = "Provides translations for the 'kcachegrind' package."
-LICENSE = "GPL-2.0-only & BSD-4-Clause & GFDL-1.2-only"
+LICENSE = "BSD-4-Clause & GPL-2.0-only & GFDL-1.2-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kcachegrind-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "f7c9e03b47ddee3875bfb8ba9d714201cd3c0f9e9e6345c951c9262df8ca0888c7f35a61284831aa185e9d4758c489ceca6e4cdf633eb546f1b330e15426d4bb"
+RPM_NAME = "kcachegrind-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "4b8ba730aec9c94aafc794416a8ce35659237f931ef0132adc36d1ee59ce00b08dfba4d9142d0c943925b8bd833f41ef36c4e31f76c93d1e1f734ac03ff4100f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcachegrind-lang \
 kcachegrind-lang-all \
 locale-kcachegrind-ar \
+locale-kcachegrind-ast \
 locale-kcachegrind-be \
-locale-kcachegrind-bg \
 locale-kcachegrind-br \
 locale-kcachegrind-bs \
 locale-kcachegrind-ca \
@@ -33,9 +33,11 @@ locale-kcachegrind-fi \
 locale-kcachegrind-fr \
 locale-kcachegrind-ga \
 locale-kcachegrind-gl \
+locale-kcachegrind-he \
 locale-kcachegrind-hi \
 locale-kcachegrind-hr \
 locale-kcachegrind-hu \
+locale-kcachegrind-ia \
 locale-kcachegrind-it \
 locale-kcachegrind-ja \
 locale-kcachegrind-ka \

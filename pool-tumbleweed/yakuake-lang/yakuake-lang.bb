@@ -2,13 +2,14 @@ SUMMARY = "Translations for package yakuake"
 DESCRIPTION = "Provides translations for the 'yakuake' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "yakuake-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "828ddfddef1ddb01b72efce2bc42d54ef42c7d5c9e13a57ecfef5605601ceab8a5ffb682725d9cec8f0ae23c47ccbfcd256e4171e46f11a17637e569f52c7186"
+RPM_NAME = "yakuake-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "e1ce5572b2cc821cdafb39bf827eefa62b2496a1dea6aa8767195fd9cdae336d47e532b7ab02666a4921c42527fee2885e08325583dcb9728be476d4484f17be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yakuake-ar \
+locale-yakuake-ast \
 locale-yakuake-az \
 locale-yakuake-be \
 locale-yakuake-bg \
@@ -28,6 +29,7 @@ locale-yakuake-fi \
 locale-yakuake-fr \
 locale-yakuake-ga \
 locale-yakuake-gl \
+locale-yakuake-he \
 locale-yakuake-hi \
 locale-yakuake-hr \
 locale-yakuake-hu \
@@ -40,6 +42,7 @@ locale-yakuake-ka \
 locale-yakuake-km \
 locale-yakuake-ko \
 locale-yakuake-lt \
+locale-yakuake-lv \
 locale-yakuake-mai \
 locale-yakuake-ml \
 locale-yakuake-mr \

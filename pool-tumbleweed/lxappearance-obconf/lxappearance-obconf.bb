@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.2.3"
 
-RPM_NAME = "lxappearance-obconf-0.2.3-1.26.aarch64.rpm"
-RPM_HASH = "dbe85cce9b7216126e8936a7226137591ead1e6e12d9cd8128c7ccbb981c658ce01c43b4ac7fb08f38a1e05b1986d3a67095a16ddd0737b1a62b68361b94d0e5"
+RPM_NAME = "lxappearance-obconf-0.2.3-1.36.aarch64.rpm"
+RPM_HASH = "6b8a57c2359c7895f4d3ef5336f1389c77eeeddb36afde070384e7bfe448f550acb62316e6d36e5afb5e12529e409140f9f507f6e2d3ddbaf8b90b5f9d173bc1"
 
 RPROVIDES:${PN} += "lxappearance-obconf"
 
@@ -26,7 +26,7 @@ libgobject-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 libobrender.so.32 \
 libobt.so.2 \
-libxml2.so.2 \
+libxml2.so.16 \
 lxappearance \
 openbox"
 

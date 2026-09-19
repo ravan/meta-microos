@@ -4,15 +4,15 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.1.0"
 
-RPM_NAME = "suseprime-appindicator-0.1.0-3.8.noarch.rpm"
-RPM_HASH = "b7595388a0a66d1ba6bbd62b8e201f9a2a53297e9b9c3520b957124e06fb0c6049f6a0860fd43d98897b8844215222435dcdff8909abbdef970e089278a6209a"
+RPM_NAME = "suseprime-appindicator-0.1.0-4.4.noarch.rpm"
+RPM_HASH = "0d0017d109ac675181c495c50cfe45a6ece805c75381692d35fe0e01e951643b6d459fe06df4ff4092ee384ab251ad959b4155c3fc6d05831c71024cc9873677"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-suseprimeindicator \
+RPROVIDES:${PN} += "python3.13dist-suseprimeindicator \
 python3dist-suseprimeindicator \
 suseprime-appindicator"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 python-abi \
 python3-gobject"

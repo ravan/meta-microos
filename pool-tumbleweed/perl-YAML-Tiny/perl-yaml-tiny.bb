@@ -36,15 +36,15 @@ the order of your YAML data. But it should round-trip from Perl structure \
 to file and back again just fine."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.74"
+PV = "1.760.0"
 
-RPM_NAME = "perl-YAML-Tiny-1.74-1.3.noarch.rpm"
-RPM_HASH = "27e1b633ed7b9734151ad82d37c0cbc416f2448b004de819fb337ff72d6246841a7c5bf3042e361e1b91773dc4ef8c9b6bc95ba223e7f567492ef934225115d2"
+RPM_NAME = "perl-YAML-Tiny-1.760.0-1.10.noarch.rpm"
+RPM_HASH = "9aed0a005fa3845494f1df4389e2c3a8c50d16dd82a1c574385c52723248d36a653405bf7e95f8d2cf412c93e1d76988ee33595f27e3587f1b60c4c6d064639d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-YAML--Tiny \
 perl-YAML-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

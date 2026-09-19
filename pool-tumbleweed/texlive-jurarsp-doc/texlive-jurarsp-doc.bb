@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jurarsp"
 DESCRIPTION = "This package includes the documentation for texlive-jurarsp"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.52svn15878"
+PV = "2026.226.0.0.52svn15878"
 
-RPM_NAME = "texlive-jurarsp-doc-2023.209.0.0.52svn15878-56.1.noarch.rpm"
-RPM_HASH = "909bf18ef118670b49dce1bc8d9045bd5b6e0bb476bbf2d86ba04c1ba47fc9e4583bdd44f01e9cb4388ac4ac95c77f3565d68f2ffe03a6492cc4504217579a11"
+RPM_NAME = "texlive-jurarsp-doc-2026.226.0.0.52svn15878-63.2.noarch.rpm"
+RPM_HASH = "c5fd77ebe235b33a1354089e57ffecdcaef19a38dadf228c577e965de6b25fcf30b2993b4d6340a12c79c5f35938a210d8ead0744c2fd3c88dc99d6c54c3b07c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-jurarsp-doc-de \

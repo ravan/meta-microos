@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pluma"
 DESCRIPTION = "Provides translations for the 'pluma' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "pluma-lang-1.26.1-1.2.noarch.rpm"
-RPM_HASH = "a1e44ead6507f5048de7f16fa7d87227b810054783ae27da46bfb772fa09670903ca6037c473994861de694402eb17790bd3c9bba00122891c58fa3d52c91908"
+RPM_NAME = "pluma-lang-1.28.1-1.3.noarch.rpm"
+RPM_HASH = "0a3034dd089a00e3835c144ef9d7184367896d3b77662f3e2da6630627a761cb1263d1292a3ae7e392f0bf8f03780a34d568089d0c41e8ac6422bb798adb8913"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pluma-af \
@@ -30,7 +30,6 @@ locale-pluma-el \
 locale-pluma-en-AU \
 locale-pluma-en-CA \
 locale-pluma-en-GB \
-locale-pluma-en-US \
 locale-pluma-eo \
 locale-pluma-es \
 locale-pluma-es-AR \

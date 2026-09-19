@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.19"
 
-RPM_NAME = "libatasmart-utils-0.19-10.12.aarch64.rpm"
-RPM_HASH = "968754f4d257ecd995587473cd6692832c840ec93f3ccbcad00ce36ddb055e441a5a8a919e610679484c7f7555378f39aa081b56ee135d1db0cfd74eee057a10"
+RPM_NAME = "libatasmart-utils-0.19-11.9.aarch64.rpm"
+RPM_HASH = "dbaca50417ff547c1b5c872b0d8a4b3f9985433f0ebf5bbfba0e9061d824651967663988cb8a81095329266b0efb60416b4e3947fcafa8c91b891ce201dd0d1c"
 
 RPROVIDES:${PN} += "libatasmart-utils"
 

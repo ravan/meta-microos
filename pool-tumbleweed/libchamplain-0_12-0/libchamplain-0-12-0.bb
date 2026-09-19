@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.12.21"
 
-RPM_NAME = "libchamplain-0_12-0-0.12.21-1.4.aarch64.rpm"
-RPM_HASH = "6c9539d230a2866c91b2b6d08c6227405b6a3e632e8ba9d88c6062910d3c3aa9232d3318b515b9e728f16a68ca59c33a9c2dccc27736f8badd9c7089ecabe43e"
+RPM_NAME = "libchamplain-0_12-0-0.12.21-1.17.aarch64.rpm"
+RPM_HASH = "62864834d0f4c95b06210e282bb5eb2e995c50abb21df4cec7cdc9a4aaa598fb3693792f650359440cb54337f90bffa164f712c022379e20ceeb0c47982e6b47"
 
 RPROVIDES:${PN} += "libchamplain-0-12-0 \
 libchamplain-0.12.so.0 \

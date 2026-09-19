@@ -3,13 +3,14 @@ DESCRIPTION = "The package contains commands for students and teachers of \
 introductory physics. Commands for physical quantities \
 intelligently handle SI units so the user need not do so. There \
 are other features that should make LaTeX easy for introductory \
-physics students."
+physics students. The name of the package can be pronounced as \
+'M&I' and refers to the physics textbook Matter & Interactions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.3.1.0svn61764"
+PV = "2026.226.3.2.2svn76924"
 
-RPM_NAME = "texlive-mandi-2023.208.3.1.0svn61764-53.1.noarch.rpm"
-RPM_HASH = "90ae24f0d72b2c8586f4e7fb5be10fac7d58bc6230d7eea50bfe7239546ffb26b9bd5d444ebf6c06a56a7bcd9342b2677f34e0ac4c40e2cf8d617e26b91c817e"
+RPM_NAME = "texlive-mandi-2026.226.3.2.2svn76924-59.2.noarch.rpm"
+RPM_HASH = "3d9d2301800a364e5b8ee40ad055373f8c9034c366c3ce42b9c53056a52eeff2daca2629581e1d25dd9cc850cdfd066a27db544aff9448a37950325ccbd01e45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mandi.sty \

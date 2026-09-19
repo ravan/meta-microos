@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.18"
 
-RPM_NAME = "compiz-emerald-themes-0.8.18-1.10.noarch.rpm"
-RPM_HASH = "e505848b4c8216cfa4281d6d1d1df0602c6327240ee95d2ea585a280911af9e406d20db687e7a5fe2423c4d3e3f9cbf59258187ac9e1c738955a52d96788d619"
+RPM_NAME = "compiz-emerald-themes-0.8.18-1.19.noarch.rpm"
+RPM_HASH = "060db21054b287e6bde9bc9fc1e98cd29b5fe8df46103348ef11e9dc6b36c54aa3b20bf2a8e131900f93cae248bcde91b496ac3e5bcc4324ef680c090e9e3487"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compiz-emerald-themes"

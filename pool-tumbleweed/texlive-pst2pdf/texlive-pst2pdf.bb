@@ -10,10 +10,10 @@ include the processed snippets. Detail documentation is \
 acquired from the document itself via Perldoc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.20svn56172"
+PV = "2026.226.0.0.20svn56172"
 
-RPM_NAME = "texlive-pst2pdf-2023.209.0.0.20svn56172-54.2.noarch.rpm"
-RPM_HASH = "773b5dd83150a1d75c8d9368aee7c65b70fb67a244b8aac78de860826fc42ff5dd231b4e295604eedf9604e55a866931b47a73a091ac45e2264192d279f9a9f0"
+RPM_NAME = "texlive-pst2pdf-2026.226.0.0.20svn56172-60.4.noarch.rpm"
+RPM_HASH = "38a52656a79ffaf7eab10d475ea90eff06333d35677afab34f11279a219adc9f853ea6084d07baa20492519f1ad8706e5422c00eaa551d5d47d9b4f2924fb89c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst2pdf"

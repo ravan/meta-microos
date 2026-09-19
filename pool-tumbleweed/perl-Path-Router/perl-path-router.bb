@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.15"
 
-RPM_NAME = "perl-Path-Router-0.15-1.25.noarch.rpm"
-RPM_HASH = "aabe94277960a6ddf52d583e11a58a57d534019f036008326f16297dd64e59090c3f96b8a50ea302af83f9f2c95c5ef04e0a6688a2fb6c3ef6460f766599650f"
+RPM_NAME = "perl-Path-Router-0.15-1.39.noarch.rpm"
+RPM_HASH = "c2eefdf2b17463a6725ecd5303b1f7f7e8575673008a9b0079980aca84fda9cb3ecc4ae97a6ed633b14ca21aca237d72d333ec356995ea59a9dc3e5222209219"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Path--Router \
@@ -18,7 +18,7 @@ perl-Path--Router--Types \
 perl-Path-Router \
 perl-Test--Path--Router"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Carp \
 perl-Clone--PP \
 perl-Data--Dumper \

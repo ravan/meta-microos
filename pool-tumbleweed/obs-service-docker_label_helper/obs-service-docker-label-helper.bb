@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.0"
 
-RPM_NAME = "obs-service-docker_label_helper-0.0-6.1.noarch.rpm"
-RPM_HASH = "6fe7deaa5fd02798467b346df850e25c36278407169092643e332cfe2316dd3cdc86bef4ea47f91495747f5a50010c128989e8b6e86184b86cca51dc4c6e221f"
+RPM_NAME = "obs-service-docker_label_helper-0.0-7.7.noarch.rpm"
+RPM_HASH = "407de855981988820248b36ed2f5f457719b9348863a8f2b7733db026bb774489ef37702e276c938d68036e00af86ce63d50ec562a09ee6398138311c0ba6751"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-docker-label-helper"

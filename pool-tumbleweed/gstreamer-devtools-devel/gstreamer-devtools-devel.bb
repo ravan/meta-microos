@@ -5,10 +5,10 @@ inside a GstPipeline. In the end, fixing issues found by the tool will \
 ensure that all elements behave all together in the expected way."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-devtools-devel-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "5eb5c0221747e4054c466ac53dc20410b1b09970b4f4629c0fd43caeac487fe47574450345c5c9e4d7ad0a0986b59b7af3fc7a88c7a9ec7826f55c3fe91f8386"
+RPM_NAME = "gstreamer-devtools-devel-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "2356f7bdddf32bc34804f1ce15d7e38cd70f052f25f812dead8ce47f5ad8d81127f45f5c1a2e02b524bec6e57494d0a6024242edc63c6dfffb729d9b7894bdc1"
 
 RPROVIDES:${PN} += "gstreamer-devtools-devel \
 gstreamer-validate-devel \
@@ -29,6 +29,8 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
+libgstapp-1.0.so.0 \
+libgstaudio-1.0.so.0 \
 libgstbase-1.0.so.0 \
 libgstcheck-1.0.so.0 \
 libgstcontroller-1.0.so.0 \
@@ -43,10 +45,12 @@ libm.so.6 \
 pkgconfig-gio-2.0 \
 pkgconfig-gmodule-no-export-2.0 \
 pkgconfig-gstreamer-1.0 \
+pkgconfig-gstreamer-app-1.0 \
 pkgconfig-gstreamer-base-1.0 \
 pkgconfig-gstreamer-check-1.0 \
 pkgconfig-gstreamer-controller-1.0 \
 pkgconfig-gstreamer-pbutils-1.0 \
+pkgconfig-gstreamer-video-1.0 \
 pkgconfig-json-glib-1.0 \
 typelib-1-0-GstValidate-1-0"
 

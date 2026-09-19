@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-theme-powerline-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "77858cf3f02f4e6aac386ff2901b869bf93ca8138fce46cf96ab52fd72e3fd191955ebbd9d3061ec6481ee7410c7a2abad14537244e2786979a20bde32e8ae17"
+RPM_NAME = "bumblebee-status-theme-powerline-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "28a1509df2762ed429c74661384db87bfdd99234399c71b4e66590d91a58b544b2c1b65d5c9d7359aa454becf244a7c55a7af377507deec35c3ccb6208fbf737"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-theme-powerline"

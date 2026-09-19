@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-zsh-completion-3006.0-4.1.noarch.rpm"
-RPM_HASH = "f0db866081d34710cc27613dbae0a9de68548198ed71a2ef8d91ebd5111dc7fd125bde0dfee54c09098d3810d3b2cbf18e68285697a7b5d46d8855f222a2248a"
+RPM_NAME = "salt-zsh-completion-3006.0-70.1.noarch.rpm"
+RPM_HASH = "994d61031b3656d24b2fbb83956e9282425b5c1c68496955e2ffd094bd844915d6dac8c832b5a0790e6422f6e459f1e5e440aa17031e58756c2b296d21ef67e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-salt-zsh-completion \

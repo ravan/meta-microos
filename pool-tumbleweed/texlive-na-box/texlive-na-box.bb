@@ -4,10 +4,10 @@ compatible with XeLaTeX/polyglossia to write arabic documents \
 with fancy boxed theorem-alike environments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn45130"
+PV = "2026.226.1.0svn45130"
 
-RPM_NAME = "texlive-na-box-2023.209.1.0svn45130-55.1.noarch.rpm"
-RPM_HASH = "2556c3a49456b050656aed0a7115b69e59b4bfe9ed418f6afddc2c2bc7fd9baa60ec9e7c78ad7b2618c06f52df25d15700cfa85ef956383ea48bd68c899b5dd2"
+RPM_NAME = "texlive-na-box-2026.226.1.0svn45130-61.2.noarch.rpm"
+RPM_HASH = "4c5ca1d6c7e8083f8c14e436f9cb30e7a0c853bbeebd9ae5e12d63bc952889a2557a48839a0f1a7c0428647af0142c7e63891067310f6a55a93f8aac2acca4a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-na-box.sty \

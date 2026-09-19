@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20191023"
 
-RPM_NAME = "envoy-build-tools-20191023-1.10.noarch.rpm"
-RPM_HASH = "2c870d49db8805930deafcb28e795278a5b5948860266e0996a4567ef3acc785f102af573056b9a081fbd2e93190a90fb1fda8642bbd72b9b70ee02a786ad208"
+RPM_NAME = "envoy-build-tools-20191023-1.18.noarch.rpm"
+RPM_HASH = "0804af28abf7d08ebc5e406411eff4887a48130f80ebc78a02f1be43257dadf87e337fd3491b331b64eb83c67897201f7c80ab44ec2cb68290a0c8119a31b7f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "envoy-build-tools"

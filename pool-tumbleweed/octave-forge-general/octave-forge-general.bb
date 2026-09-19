@@ -3,10 +3,10 @@ DESCRIPTION = "General tools for Octave. \
 This is part of Octave-Forge project."
 LICENSE = "BSD-3-Clause & GPL-3.0-or-later"
 
-PV = "2.1.2"
+PV = "2.1.4"
 
-RPM_NAME = "octave-forge-general-2.1.2-2.6.aarch64.rpm"
-RPM_HASH = "d496551ea0fe924d42a4ce940c7637dc60ce6e21875479aeb92baf933b81e492834223f63c683942adb98838ba9c24718c1d58c4ce2d2034248b02c67b51f29a"
+RPM_NAME = "octave-forge-general-2.1.4-1.1.aarch64.rpm"
+RPM_HASH = "80dc8b31008a036f95e7e70efa0c8285bcbb3693dd70b0ebddf15bc9acf716c43357929eceb679feac06ebf732b9246c220ba6c88f37e3baac79eaa7a451bfab"
 
 RPROVIDES:${PN} += "octave-forge-general"
 
@@ -16,6 +16,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libnettle.so.8 \
 libstdc++.so.6 \
+octave-api-v61 \
 octave-cli"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Mongol Bichig table for ibus-table"
 DESCRIPTION = "ibus-table-mongol-bichig provides the Mongol Bichig table for ibus-table."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.16"
+PV = "1.3.21"
 
-RPM_NAME = "ibus-table-mongol-bichig-1.3.16-1.1.noarch.rpm"
-RPM_HASH = "2b80b8d4dbab2a551572891eaa69b2f791de9311c9644ae6421ee669990b6e4fe6faff864143752ee449d6d3a70c82ba7f7c899c634e3c9173c37f97f799862e"
+RPM_NAME = "ibus-table-mongol-bichig-1.3.21-1.5.noarch.rpm"
+RPM_HASH = "2c02dbd15422c1421970bcaa8e3edbdc17fc5013d4ead9409d66ed9b68a1f4989a1855de3acc297a1168b49f3966c4629f2e839fe3b4cc85293bea7484f996b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-mongol-bichig"

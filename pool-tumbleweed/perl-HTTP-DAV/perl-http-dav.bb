@@ -4,10 +4,10 @@ webservers using the WebDAV protocol. Now you can LOCK, DELETE and PUT \
 files and much more on a DAV-enabled webserver."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.49"
+PV = "0.500.0"
 
-RPM_NAME = "perl-HTTP-DAV-0.49-1.19.noarch.rpm"
-RPM_HASH = "bfc9e28eeb5f4ef94d0dec11ea953a2e6d3865e962091c74251119a1b74b7a74cde1d75db9ca8cb27a5338656b39c1bda6560e6f3074c1b8a0b08fc0c95addda"
+RPM_NAME = "perl-HTTP-DAV-0.500.0-1.10.noarch.rpm"
+RPM_HASH = "073336f01408756e935294200517bdaee473930f67d3d942f6ff531b25802bb6eba2d114deb1537f4ef9ea36b647b5b2e9ccc088215ddb5db4f7ff5d4628f090"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--DAV \
@@ -22,7 +22,7 @@ perl-HTTP--DAV--Utils \
 perl-HTTP-DAV"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-LWP \
 perl-URI \
 perl-URI--Escape \

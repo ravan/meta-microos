@@ -2,13 +2,14 @@ SUMMARY = "Documentation for texlive-minted"
 DESCRIPTION = "This package includes the documentation for texlive-minted"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.7svn65252"
+PV = "2026.226.3.7.0svn77682"
 
-RPM_NAME = "texlive-minted-doc-2023.209.2.7svn65252-55.1.noarch.rpm"
-RPM_HASH = "80cf818321cf6dfd0b2e5c9e7bcaf5a26fbbeef14cb908934702bdcd853af6fb54273ab6f4e9fb69fabd3fde84a476577ed52f495be9dcd18203df75631b2e57"
+RPM_NAME = "texlive-minted-doc-2026.226.3.7.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "be8c5968d34b26af187c6fda6dee1d125f76b0694ec8c466c97eb41bf64600584c2f4301a73b56b8d35c076490f46a20d7339d2e770edf458417225656bf1ef4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-minted-doc"
+RPROVIDES:${PN} += "man-latexminted.1 \
+texlive-minted-doc"
 
 RDEPENDS:${PN} += ""
 

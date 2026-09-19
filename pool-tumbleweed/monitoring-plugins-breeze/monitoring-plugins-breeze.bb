@@ -2,10 +2,10 @@ SUMMARY = "Monitor Breezecom wireless equipment"
 DESCRIPTION = "This plugin reports the signal strength of a Breezecom wireless equipment."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-breeze-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "269f184e002eeec8353ec3bd6e930d5bc18e1233e25c1e43cb172bb0ffa9ab9c97bf5bce1ed690d699e518d7d9190569561325a8d7278c0c1fce5599c904cece"
+RPM_NAME = "monitoring-plugins-breeze-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "6fbf0ed32c17dc07201dd1ee5abbe541d3d8f805607a83fc1c45253a89cc1d3f65698d5fc202e4f54c9d59d63f034c520acfb17ca472d3f10b63c25d06216ba3"
 
 RPROVIDES:${PN} += "monitoring-plugins-breeze \
 nagios-plugins-breeze"

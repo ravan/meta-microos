@@ -2,23 +2,22 @@ SUMMARY = "Haskell hslua-classes library development files"
 DESCRIPTION = "This package provides the Haskell hslua-classes library development files."
 LICENSE = "MIT"
 
-PV = "2.3.0"
+PV = "2.3.2"
 
-RPM_NAME = "ghc-hslua-classes-devel-2.3.0-1.8.aarch64.rpm"
-RPM_HASH = "0f722c3e891bcbdb65e46a5673c3d4c2a0e7fb14cb192661db9e5ea918405f5fbe87e54309df2544832ecd9d44aef6235c335432d4b38045777e34112967c3d6"
+RPM_NAME = "ghc-hslua-classes-devel-2.3.2-1.2.aarch64.rpm"
+RPM_HASH = "ce30ee159e00aebee24430e3ab8e052c0d419e424a8d254d4059d978a82cd842c232e241eb468816e8ff61f4538bbc1c0d1ebed29f20c1c12026877013cfda72"
 
-RPROVIDES:${PN} += "ghc-devel-hslua-classes-2.3.0-B1L4OZUPrf8GQ47NXlejyp \
+RPROVIDES:${PN} += "ghc-devel-hslua-classes-2.3.2-C895qHuusP79caxJu1uhwF \
 ghc-hslua-classes-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-exceptions-0.10.5 \
-ghc-devel-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
-ghc-devel-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
-ghc-devel-text-2.0.2 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-hslua-core-2.3.2.1-GIcwwMIDhKVEx4MlcixfFr \
+ghc-devel-hslua-marshalling-2.3.2-4wJit3DV8Bh1LNaOjZB33o \
+ghc-devel-text-2.1.4-cf23 \
 ghc-hslua-classes"
 
 inherit rpm

@@ -8,10 +8,10 @@ hyperref and autoref compatibility; a mechanism for restating \
 entire theorems in a single macro call."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.75svn65863"
+PV = "2026.227.76svn77682"
 
-RPM_NAME = "texlive-thmtools-2023.209.75svn65863-55.1.noarch.rpm"
-RPM_HASH = "bb1dd988f903d453460f2378b39e78a10c57c89e15e0bc34afa24ca9aa54215a8faf4c9c1bc78cd9c1c4f8e9b350fd021dbf29c6618464350e6936486245ea6b"
+RPM_NAME = "texlive-thmtools-2026.227.76svn77682-62.2.noarch.rpm"
+RPM_HASH = "aaa67afab21de39d2de32bfc78dbf3055617510bd8a1b3ee127027510367210773f7d822a18dda08d47dd78efb951fc20db700a8b4a6d1182c76c9086c7d04d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aliasctr.sty \

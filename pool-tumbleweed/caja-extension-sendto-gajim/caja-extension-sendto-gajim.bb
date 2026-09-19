@@ -2,10 +2,10 @@ SUMMARY = "Gajim integration for the Caja file manager"
 DESCRIPTION = "This package provides Gajim integration to the Caja file manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-extension-sendto-gajim-1.26.1-2.3.aarch64.rpm"
-RPM_HASH = "75777255127c4c849f7edb2dbd524db739759a3565e11993375be28109608d776a6b9ad197aa6596fcae0dc06ad65be48b4e657dcb6dc59c5101dcdb2f2a7fc7"
+RPM_NAME = "caja-extension-sendto-gajim-1.28.0-2.11.aarch64.rpm"
+RPM_HASH = "6442d5329181e2679a5527ab2acda928076496970127b37b586bfa22d7a2083e5a556b686a6590235b514255cd80cbccbb9644c7f184fa522bfa37d8dfb4b751"
 
 RPROVIDES:${PN} += "caja-extension-sendto-gajim \
 caja-sendto-gajim \

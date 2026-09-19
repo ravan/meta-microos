@@ -13,10 +13,10 @@ Comments added between key/value pairs will be added after them in the data \
 structures and when stringified."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.20230112"
+PV = "2.20260216"
 
-RPM_NAME = "perl-Mail-AuthenticationResults-2.20230112-1.3.noarch.rpm"
-RPM_HASH = "354c8ee55f188577aad22bc466327804f2f3dc787c27261ae50253d942fb3d2db3c64a7eab32c68297bef5546d079162b503a9f0355be3d13db6a6f62b32115a"
+RPM_NAME = "perl-Mail-AuthenticationResults-2.20260216-1.4.noarch.rpm"
+RPM_HASH = "264d94d7e0fe537242afa4aaf6fa15744b9def22724652386af64c82658c3846ee6e66272fdb1ea45b9c4cf3f12329217a30ea49c3e3ee19b7fbac46c2f12469"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--AuthenticationResults \
@@ -39,7 +39,7 @@ perl-Mail--AuthenticationResults--Token--Space \
 perl-Mail--AuthenticationResults--Token--String \
 perl-Mail-AuthenticationResults"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Clone \
 perl-JSON"
 

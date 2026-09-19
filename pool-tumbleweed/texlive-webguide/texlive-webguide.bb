@@ -1,12 +1,12 @@
-SUMMARY = "Brief Guide to LaTeX Tools for Web publishing"
+SUMMARY = "Brief guide to LaTeX tools for Web publishing"
 DESCRIPTION = "The documentation constitutes an example of the package's own \
 recommendations (being presented both in PDF and HTML)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25813"
+PV = "2026.226.svn77050"
 
-RPM_NAME = "texlive-webguide-2023.209.svn25813-54.1.noarch.rpm"
-RPM_HASH = "e9ada34e5b1bfa843bd687ff0c956fca3ad4b24bf41d507d0da135bc175728872df1cc4fd41affe5b54d99f052b4135e2c95753d3acacb006a13e1465e7a9796"
+RPM_NAME = "texlive-webguide-2026.226.svn77050-60.2.noarch.rpm"
+RPM_HASH = "f7c711d5d0c494e1bcbf9d8957af3b9e4909d6d7c50595e695ddf4c52f10597b4e9f608b1dff892a74e384a154c1c493916ffbe3ff9ac514340b8efcdf333fd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-webguide"

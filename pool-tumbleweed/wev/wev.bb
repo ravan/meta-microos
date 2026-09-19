@@ -3,10 +3,10 @@ DESCRIPTION = "This is a tool for debugging events on a Wayland window, analagou
 the X11 tool xev."
 LICENSE = "MIT"
 
-PV = "1.0.0"
+PV = "1.1.0"
 
-RPM_NAME = "wev-1.0.0-1.12.aarch64.rpm"
-RPM_HASH = "b9575344930a1aef94758abf48ba527b06419f9427312ea6e472b0585550a02de249aa1ed1be4e73cb3fe7c026f4574654f86bd8f4390dfdd9a79e1adfdc5a25"
+RPM_NAME = "wev-1.1.0-1.6.aarch64.rpm"
+RPM_HASH = "a9cc5561d24d16ea2e2de9c57539f4e1966927921cac721798cac25457d05e92580c2aa49f61203ea8db280e766e16e2f2eb15876913f79215a75b903c97a513"
 
 RPROVIDES:${PN} += "wev"
 

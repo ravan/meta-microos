@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.0"
 
-RPM_NAME = "glpk-doc-5.0-1.14.noarch.rpm"
-RPM_HASH = "b44c14935315a6912d46fd2880e41b4f21c852905b1dd614b160ab01e3b81b4eae0f52729b88083fbac68a95fec696facc2a0d1ef06e2224abfec5f2a31d230c"
+RPM_NAME = "glpk-doc-5.0-5.3.noarch.rpm"
+RPM_HASH = "49a7f89e981a8c2aab7de8e8809c3fa27e0903c1327cfd63ce71dbc7b07fc77a41bbf6efec0243a9d1877d06a55f735e7e1ae3eaee9810abac8df771f0ca793f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glpk-doc"

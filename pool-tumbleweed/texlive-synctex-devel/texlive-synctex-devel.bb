@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.21"
 
-RPM_NAME = "texlive-synctex-devel-1.21-93.2.aarch64.rpm"
-RPM_HASH = "11683cb5df2e1c400482143281ef9c5b2ee5ce335a8627fe8206827876eed0bbf5650ac63433394b22c49dbd3487cca95e0fb860f3fd56a02dff840995a15196"
+RPM_NAME = "texlive-synctex-devel-1.21-120.4.aarch64.rpm"
+RPM_HASH = "8163c44b2009a7f82e30272e4b4db8bd235c13f7ecbb62ba28b96e1d2f9542dc3a1f57950304ae2bc2bc42c206924b4e448afdcd3ceffdc7478a63a473c0b94a"
 
 RPROVIDES:${PN} += "pkgconfig-synctex \
 texlive-synctex-devel"

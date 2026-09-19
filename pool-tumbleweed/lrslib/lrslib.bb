@@ -8,10 +8,10 @@ in memory, so even problems with very large output sizes can \
 sometimes be solved."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "7.2"
+PV = "7.3a"
 
-RPM_NAME = "lrslib-7.2-1.4.aarch64.rpm"
-RPM_HASH = "36e8c24878e3c936bbe1032a38fd7c9b6d52a6bf36bafa3d3f8a9540954c5c26f85d189f861feb3962fc1b9e1ab2cd7afbc54c2b077bdc192592dadf80d0a9fa"
+RPM_NAME = "lrslib-7.3a-1.4.aarch64.rpm"
+RPM_HASH = "36c58ce493225c12707a9ee11c4d42fd623b6f25f5cc36001ccb68a643f95aad67e30a2b46b86f09bbbab0d74887458d09138262d33aba4eccb36c34ae8ae3b7"
 
 RPROVIDES:${PN} += "lrslib"
 

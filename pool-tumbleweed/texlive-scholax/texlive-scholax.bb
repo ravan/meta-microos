@@ -7,10 +7,10 @@ of two options to newtxmath, one of which uses an adaptation of \
 the fourier math Greek letters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.033svn61836"
+PV = "2026.226.1.033svn77682"
 
-RPM_NAME = "texlive-scholax-2023.209.1.033svn61836-54.1.noarch.rpm"
-RPM_HASH = "47ca3365ebb259b80f8fed90079f501e90d53f0c47c2e039bbeb767316822acf1055ee7a1a7927c09cd2eb23bb4e21d923385ba00bcd336470629b67beca4386"
+RPM_NAME = "texlive-scholax-2026.226.1.033svn77682-60.2.noarch.rpm"
+RPM_HASH = "d60241960b3ba8dfe79f21fa580957afeecfe5d02ac30d1df6ce118946c999a8d198b95a97eb93b704204c061c3c7ef043cadb48df289d360cec39e50db758e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1TeXGyreScholaX-Inf.fd \

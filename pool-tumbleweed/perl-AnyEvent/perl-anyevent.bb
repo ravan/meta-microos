@@ -31,12 +31,12 @@ few modules hardcode event loops without announcing this very loudly. \
 The pure-perl implementation of AnyEvent is called 'AnyEvent::Loop'. Like \
 other event modules you can load it explicitly and enjoy the high \
 availability of that event loop :)"
-LICENSE = "GPL-1.0-or-later | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "7.17"
+PV = "7.170.0"
 
-RPM_NAME = "perl-AnyEvent-7.17-1.17.aarch64.rpm"
-RPM_HASH = "944915c059907aa41b14a69447037984144a2643ac90c849f4971aa4c1497764b71c35f0a4d87fd25aae65557d58e737ea83234b906ad45d13e4d51480ebaad4"
+RPM_NAME = "perl-AnyEvent-7.170.0-1.7.aarch64.rpm"
+RPM_HASH = "a192fc95c9dc7d995fc386d31d0a25e95ed69157052b5efb1d8c1ddafe8e49f0f06c48fd22aef8d1a15cfb6ac477b98d9e32a03bc1edd209771acea03e2b284e"
 
 RPROVIDES:${PN} += "perl-AE \
 perl-AE--Log--COLLECT \
@@ -83,6 +83,6 @@ perl-AnyEvent--TLS \
 perl-AnyEvent--Util \
 perl-DB"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

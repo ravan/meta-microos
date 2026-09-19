@@ -2,12 +2,13 @@ SUMMARY = "Development files for HackRF"
 DESCRIPTION = "Library headers for the hackrf driver."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.01.1"
+PV = "2026.01.3"
 
-RPM_NAME = "hackrf-devel-2023.01.1-1.3.aarch64.rpm"
-RPM_HASH = "577302ee96592b47d79e14f2fb0db0d3abb1d74f60e7232d6bf20a17138498994ef67743b32e0ff65867e9ab787593f34e869720918e7a312a6d6e28e194e525"
+RPM_NAME = "hackrf-devel-2026.01.3-1.4.aarch64.rpm"
+RPM_HASH = "e7520f9979a2a60165a0ce03d0413e385792b7aea08580b0bdfbc331b9a15d0650b2ac5ddf0d9fc47daa19d016ec2bcd02cbdb8090bacb787112be0a5f3f38a4"
 
-RPROVIDES:${PN} += "hackrf-devel \
+RPROVIDES:${PN} += "cmake-HackRF \
+hackrf-devel \
 pkgconfig-libhackrf"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of a2ping"
 DESCRIPTION = "Binary files of a2ping"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn27321"
+PV = "2026.20260301.svn27321"
 
-RPM_NAME = "texlive-a2ping-bin-2023.20230311.svn27321-93.2.aarch64.rpm"
-RPM_HASH = "5bd800474660e7b32f7c548bc6d02888e93764745bfae5a5f601af83af01f051b845ed0803e35071132d5c6c322e5c7de6ef311b41ad0ad0451bffa2b97d16b9"
+RPM_NAME = "texlive-a2ping-bin-2026.20260301.svn27321-120.4.aarch64.rpm"
+RPM_HASH = "a63dfcb8afde929e60dde8fd9c8fff49badcd48691821d832fc0acd1885f2596c3e887474f8825511cb10a33e28d8a26eed9dfdb64b3170cec3433573d50fb7d"
 
 RPROVIDES:${PN} += "texlive-a2ping-bin"
 

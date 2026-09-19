@@ -4,10 +4,10 @@ its coding aims to be as robust as possible, and as a result it \
 has few conflicts with potential add-on packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn15878"
 
-RPM_NAME = "texlive-umthesis-2023.209.0.0.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "d7ed6f0ba986965f934b140f9b09ed03e7df0b7e5762adf26dae94de24e9b095fda4db0c0986f7c99bc9c61fb20c738dc19eb0f25eee6d132e27a66d6059c0ec"
+RPM_NAME = "texlive-umthesis-2026.226.0.0.2svn15878-60.2.noarch.rpm"
+RPM_HASH = "54d804e5c4092b4e37c8f46ae84d1206dbc7a5a59f2eabb0dd5160639ff0f02575e2243700102aea859f51ffc50e53e858691c76324490f3530da516f4f8a1c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-umthesis.cls \

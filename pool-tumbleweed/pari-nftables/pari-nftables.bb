@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20080929"
 
-RPM_NAME = "pari-nftables-20080929-9.3.noarch.rpm"
-RPM_HASH = "d9acdb8a7c9fd537e8c721e07b47e9c42e678e10b61522088557fc4f5da37296d05eb54fabbfa5023adb66b375180894455427e0d665d0362ce8864dc36ec090"
+RPM_NAME = "pari-nftables-20080929-9.11.noarch.rpm"
+RPM_HASH = "3b2304d21ff7af1fcf4a5574a02fc2f99646baf24a07ce26665d7564e95f9e37a5f695087206eb64d7d7fbc6a1eff768d89d424cb1ee17059bef44fb4d9524b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pari-nftables"

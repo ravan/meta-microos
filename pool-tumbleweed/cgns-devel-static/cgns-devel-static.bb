@@ -2,10 +2,10 @@ SUMMARY = "CFD General Notation System library"
 DESCRIPTION = "Static CGNS (CFD General notation system) library."
 LICENSE = "Zlib"
 
-PV = "4.3.0"
+PV = "4.4.0"
 
-RPM_NAME = "cgns-devel-static-4.3.0-1.8.aarch64.rpm"
-RPM_HASH = "642bad52562858f6500a8dd279d028203badf81ed5f05b68b467ee8be696b07606271dae691c6388b09c5d4c4293f76d827485f28875a8d1a1feda4e45c9fab8"
+RPM_NAME = "cgns-devel-static-4.4.0-2.13.aarch64.rpm"
+RPM_HASH = "675cafffd55485b24a3063fcbdcb061110aac4caee06695b118f67c743cf24ecc45e79fc18e61b21ccb165775b941becc9980a6a94d6af023294e05baaa0cb55"
 
 RPROVIDES:${PN} += "cgns-devel-static"
 

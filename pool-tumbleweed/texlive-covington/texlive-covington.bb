@@ -5,10 +5,10 @@ multiple accents on the same letter, interline glosses \
 Structures, and example numbering."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.8svn64241"
+PV = "2026.226.2.16svn77216"
 
-RPM_NAME = "texlive-covington-2023.209.2.8svn64241-55.1.noarch.rpm"
-RPM_HASH = "f8b73bac2362a7b717b8b01990785bb5fc8b80c62e1c75333819f7524d92a6e7d40e74520329273c4dc53ae007783aa6b17354d87acd12e6c7b5f5229f6bdd36"
+RPM_NAME = "texlive-covington-2026.226.2.16svn77216-61.2.noarch.rpm"
+RPM_HASH = "2b001327b23de9782ae7293066d48e4bb7ee6c5fc6f1919a1b0267da3458a91201043a2b1829ef3e6f6488f4cf9242310a3a84e1aa80424c37f9a282014dc0ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-covington.sty \
@@ -21,7 +21,7 @@ findutils \
 grep \
 sed \
 tex-iftex.sty \
-tex-xkeyval.sty \
+tex-varwidth.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

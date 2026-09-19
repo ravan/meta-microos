@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "avahi-utils-gtk-0.8-23.1.aarch64.rpm"
-RPM_HASH = "c91460243a39c1c739935cc7815e9e841898a8d5bef36398eb77d6acc237fd7de7b9ae3e897026f62d4d81f7852b7431471984111c897fed9151b0f3d450090d"
+RPM_NAME = "avahi-utils-gtk-0.8-45.2.aarch64.rpm"
+RPM_HASH = "51fba56911e3b8e8fe20622061b9efc3467df88415a1c0ae501e5493a1151321a959d51e873fed22e40d061e2f67e6e5f68b56f9e0805e277c7a72b7bb2f2ce9"
 
 RPROVIDES:${PN} += "avahi-glib2-utils-gtk \
 avahi-utils-gtk"

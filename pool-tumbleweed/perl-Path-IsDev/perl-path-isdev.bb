@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.001003"
 
-RPM_NAME = "perl-Path-IsDev-1.001003-1.24.noarch.rpm"
-RPM_HASH = "cfc5ca966b0372f9cd417aca0a21a481e3b2e2384fff93a851e3ee0062955cd7b3052627a50680c93c1fe982af764b6fbad95429b4062895c6084317787fc101"
+RPM_NAME = "perl-Path-IsDev-1.001003-1.38.noarch.rpm"
+RPM_HASH = "724c64ce746cdec7178ef5f2b2ff1340668d1e120be97b9d94f3c53a3b521470d5bd42ef519ea16fdcdde22027c3794a88edbdd6cb87dc128d5ab9bcfa52a4e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Path--IsDev \
@@ -42,7 +42,7 @@ perl-Path--IsDev--Role--Matcher--FullPath--Is--Any \
 perl-Path--IsDev--Role--NegativeHeuristic \
 perl-Path-IsDev"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Tiny \
 perl-File--HomeDir \
 perl-Module--Runtime \

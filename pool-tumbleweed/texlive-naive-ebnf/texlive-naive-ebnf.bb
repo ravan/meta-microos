@@ -1,13 +1,13 @@
-SUMMARY = "EBNF in Plain Text"
+SUMMARY = "EBNF in plain text"
 DESCRIPTION = "With the help of this LaTeX package a context-free grammar \
 (CFG) may be rendered in a plain-text mode using a simplified \
 Extended Backus-Naur Form (EBNF) notation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.5svn66017"
+PV = "2026.226.0.0.0.18svn72843"
 
-RPM_NAME = "texlive-naive-ebnf-2023.209.0.0.0.5svn66017-55.1.noarch.rpm"
-RPM_HASH = "9eb03caff57839c73a94077f47e7d7e09fc9ea98edfb50f58009419e1dec36dc279bb76d6c95a5ecf8fb94b142c98757c5099bf0c36b546758215e7511d29d7b"
+RPM_NAME = "texlive-naive-ebnf-2026.226.0.0.0.18svn72843-61.2.noarch.rpm"
+RPM_HASH = "07ba879e507327051057d2e4a8ad0aa9c3e9f7ecda16ef4e4cb2a0a6e9244ed9167727c9b2209cbb31aa99c71a4636f7737b1a7b4f3df8246fa4a678e841fcb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-naive-ebnf.sty \

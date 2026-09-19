@@ -2,10 +2,10 @@ SUMMARY = "Translations for package lxterminal"
 DESCRIPTION = "Provides translations for the 'lxterminal' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.4.0"
+PV = "0.4.0+36"
 
-RPM_NAME = "lxterminal-lang-0.4.0-1.11.noarch.rpm"
-RPM_HASH = "69202cc24de4fd39d41bec141f0d3bdadb9fa86772360e06139c7165dbbf65cf7fb0f43a1ebea5a49ca4d817bd8cbcafc97da151b9e4e53e30b9eb03d6142da8"
+RPM_NAME = "lxterminal-lang-0.4.0+36-1.9.noarch.rpm"
+RPM_HASH = "f1c1cb826ea1a161c6f0ffeec1ccd0d387748ba6098163aea14b6e108afe675ab29e3f36eeaa5ad59430d0cd7eed1b0c6db7c38423c9c7a4980137d1cf4653e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lxterminal-af \
@@ -35,6 +35,7 @@ locale-lxterminal-id \
 locale-lxterminal-is \
 locale-lxterminal-it \
 locale-lxterminal-ja \
+locale-lxterminal-ka \
 locale-lxterminal-kk \
 locale-lxterminal-ko \
 locale-lxterminal-lt \

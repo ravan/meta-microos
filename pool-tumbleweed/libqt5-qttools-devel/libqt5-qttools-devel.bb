@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 Tools library"
 DESCRIPTION = "You need this package if you want to compile programs with qttools."
 LICENSE = "(LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "5.15.10+kde3"
+PV = "5.15.19+kde3"
 
-RPM_NAME = "libqt5-qttools-devel-5.15.10+kde3-1.1.aarch64.rpm"
-RPM_HASH = "f47c92d20e98ab9506416fadba08d1a1173cd2225fa5818adf27981784b94bbb8bede58b0fa892b6d05b39859df5cdd225c1b48d84026ad31ac5cf9d22bcfe77"
+RPM_NAME = "libqt5-qttools-devel-5.15.19+kde3-1.8.aarch64.rpm"
+RPM_HASH = "a823ba4648fefefa4a96dc10cf9f94351a661145b69e8e1cbd2fc9d67255d7cd51be26ed775fc24163b8902a681a6c489f44b3b4b04265d9688dd7cc09b68b80"
 
 RPROVIDES:${PN} += "cmake-Qt5Designer \
 cmake-Qt5DesignerComponents \

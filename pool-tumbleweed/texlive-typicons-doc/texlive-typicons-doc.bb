@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-typicons"
 DESCRIPTION = "This package includes the documentation for texlive-typicons"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.7svn37623"
+PV = "2026.226.2.0.7svn77682"
 
-RPM_NAME = "texlive-typicons-doc-2023.209.2.0.7svn37623-53.1.noarch.rpm"
-RPM_HASH = "e33f4fb7882501f8b17e024a9790bc7c3d07369b594f171829efea43e7bc599900c0e3800fc9a320be0d267679529352527713bd5c97ce7782b9fe650d781308"
+RPM_NAME = "texlive-typicons-doc-2026.226.2.0.7svn77682-59.2.noarch.rpm"
+RPM_HASH = "327300c65d266c2a5a3eac8ee56451b36fb0f460a5a6547a4fb617db27e8d6e8867c0d61762bf168cc9fca3c6d701284b441203a1b7cd102a5af21917767e752"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-typicons-doc"

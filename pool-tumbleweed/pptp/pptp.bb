@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.10.0"
 
-RPM_NAME = "pptp-1.10.0-3.8.aarch64.rpm"
-RPM_HASH = "99ee48838d4f285c426a964ea3fd307df0aa556dc3d2ce4dd8f6ed3d0c990cc241c3cc57d961c29aee6b27e059a8a15148f9f78d90abc9b3c183999b5eada2b5"
+RPM_NAME = "pptp-1.10.0-4.10.aarch64.rpm"
+RPM_HASH = "778b601ac1dfe5e92acb1057bbe71fa3cd337138034c7927ce8432cb0a47fadd789d4b8e235b6a4d8ff26a86f8fc5c1403bfbc48269b4f32c1476919f57c3da0"
 
 RPROVIDES:${PN} += "config-pptp \
 pptp"

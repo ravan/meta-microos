@@ -3,13 +3,16 @@ DESCRIPTION = "Additional BibTeX styles and bibliography data(bases), notably \
 including BibLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn65257"
+PV = "2026.222.svn75480"
 
-RPM_NAME = "texlive-collection-bibtexextra-2023.208.svn65257-60.1.noarch.rpm"
-RPM_HASH = "21839a93a09a61b05725546b5bde40c00223b759b2caf37308d3348559132466ab5b49cc64b7498fe979070255a893c1492daef8c7a4be08da4db85a0d035860"
+RPM_NAME = "texlive-collection-bibtexextra-2026.222.svn75480-68.2.noarch.rpm"
+RPM_HASH = "62bc6cb13e1133470a64f18034b5397ec13441380c164ab2fc692e63763b02c852bbc24cd413e4642541681f1d1c561f3bd306a8d7f567b688021eb93bad8acd"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-bibtexextra"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-bibtexextra \
+texlive-collection-bibtexextra"
 
 RDEPENDS:${PN} += "texlive-aaai-named \
 texlive-aichej \
@@ -25,7 +28,9 @@ texlive-beebe \
 texlive-besjournals \
 texlive-bestpapers \
 texlive-bib2gls \
+texlive-bib2qr \
 texlive-bibarts \
+texlive-bibbreeze \
 texlive-bibcop \
 texlive-biber \
 texlive-biber-ms \
@@ -47,6 +52,7 @@ texlive-biblatex-caspervector \
 texlive-biblatex-chem \
 texlive-biblatex-chicago \
 texlive-biblatex-claves \
+texlive-biblatex-cse \
 texlive-biblatex-cv \
 texlive-biblatex-dw \
 texlive-biblatex-enc \
@@ -97,6 +103,7 @@ texlive-biblatex-vancouver \
 texlive-biblatex2bibitem \
 texlive-biblist \
 texlive-bibtexperllibs \
+texlive-bibtools \
 texlive-bibtopic \
 texlive-bibtopicprefix \
 texlive-bibunits \
@@ -109,10 +116,12 @@ texlive-chembst \
 texlive-chicago \
 texlive-chicago-annote \
 texlive-chicagoa \
+texlive-chicagolinks \
 texlive-chscite \
 texlive-citation-style-language \
 texlive-citeall \
 texlive-citeref \
+texlive-citeright \
 texlive-collection-latex \
 texlive-collref \
 texlive-compactbib \

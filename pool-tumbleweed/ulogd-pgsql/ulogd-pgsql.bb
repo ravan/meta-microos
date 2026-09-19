@@ -2,10 +2,10 @@ SUMMARY = "PostgreSQL output target for ulogd"
 DESCRIPTION = "PostgreSQL output target for ulogd."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.0.8"
+PV = "2.0.9"
 
-RPM_NAME = "ulogd-pgsql-2.0.8-1.1.aarch64.rpm"
-RPM_HASH = "c53eec98ae379a15fc16eb4b12dea3d533f3f8870ba07af6cd8ba482b9bfec7c11f1fb655dcba41bbf85fc854ab34c5dca8d2969be65f457fa022146eeea1c60"
+RPM_NAME = "ulogd-pgsql-2.0.9-1.6.aarch64.rpm"
+RPM_HASH = "201da7b6ce62d438d7e0d0d30f2d07ea48194dd8cf67ae7041dd70bc38dfbe70ccd020e8bdda521f2f50e7386bd093a19ea8b6c400ef8a7db7f661173506f2d1"
 
 RPROVIDES:${PN} += "ulogd-pgsql"
 

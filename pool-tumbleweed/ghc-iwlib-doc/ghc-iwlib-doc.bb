@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.2"
 
-RPM_NAME = "ghc-iwlib-doc-0.1.2-2.3.noarch.rpm"
-RPM_HASH = "1e6b11563d09047f0f9a8437da17f6983046760ffa5742faa1298c5e37f518c48cfc873503dd22f396949f0ccdfe9827f55b466eb0ebf5b80d4d417d7e628a78"
+RPM_NAME = "ghc-iwlib-doc-0.1.2-4.14.noarch.rpm"
+RPM_HASH = "4014eac0ae345eff4556a45da3784069442df405fb5f5db1bae47f09cf46f8c778298af193c502e1208ee00c9725001c292b1c84e77934eef6ea50f5cd4bc2ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-iwlib-doc"

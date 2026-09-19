@@ -13,8 +13,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.20"
 
-RPM_NAME = "modem-manager-gui-0.0.20-4.4.aarch64.rpm"
-RPM_HASH = "46fbfdb303475703294253f16947013fdfca5c4f174679873a018b95ffcde10a3ca2666682d837e5d0c933436bf3606f7e021f7de78474ba375cc833869c4b16"
+RPM_NAME = "modem-manager-gui-0.0.20-5.10.aarch64.rpm"
+RPM_HASH = "825cdaaffce5e8afe922e34b871f2a5b8550371e464551f40d5359043573c91ad2fd1f3ea5184e6dee85b889ef71524d2047b0312cafcfd7ded431490c8d3c4d"
 
 RPROVIDES:${PN} += "libmodcm-connman112.so \
 libmodcm-nm09.so \

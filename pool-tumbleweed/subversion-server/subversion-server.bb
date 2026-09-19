@@ -3,10 +3,10 @@ DESCRIPTION = "The subversion-server package adds the Subversion server Apache m
 to the Apache directories and configuration."
 LICENSE = "Apache-2.0"
 
-PV = "1.14.2"
+PV = "1.14.5"
 
-RPM_NAME = "subversion-server-1.14.2-6.2.aarch64.rpm"
-RPM_HASH = "2bd00ef294888d334423248f298bc19de6911ebe40c5f32a316274ad210860d1fea09c0562415247f189c8f7adbb6a4dc27696bb4e8b0bf57bf269faf87d6499"
+RPM_NAME = "subversion-server-1.14.5-5.3.aarch64.rpm"
+RPM_HASH = "702e472d00b2c196e722abaadf7e9285b3fd820291e8b580bdbb87b77bfbc1a64ae1d786e2dfeaea2170d04b8ec556746a03de70403194edace4b7bd35aedd36"
 
 RPROVIDES:${PN} += "config-subversion-server \
 subversion-server"

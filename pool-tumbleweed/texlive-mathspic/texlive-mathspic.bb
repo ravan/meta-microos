@@ -14,10 +14,10 @@ the pain out of PiCTeX. Both the original DOS version and the \
 new Perl version are available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.13svn31957"
+PV = "2026.226.1.13svn31957"
 
-RPM_NAME = "texlive-mathspic-2023.208.1.13svn31957-53.1.noarch.rpm"
-RPM_HASH = "b7284d3fc7defc3e03e9b66fe0907788999dc8da05ea7193d1392d0a9fddf59788d7bacd3b4f25e7a5f83429ef47c68dda40d589f09b56e550762846082b3d54"
+RPM_NAME = "texlive-mathspic-2026.226.1.13svn31957-59.2.noarch.rpm"
+RPM_HASH = "6d1e33e1e128375082f8de55e681775a72ed5f2d1fa9ab1dc83c988787d9b3063785731d544f20393f954dc0e7e94eae7366ca0c72d17867cd3ebc98e3e1ad5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathspic.sty \

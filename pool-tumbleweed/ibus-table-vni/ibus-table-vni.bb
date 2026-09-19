@@ -2,10 +2,10 @@ SUMMARY = "Vni table for ibus-table"
 DESCRIPTION = "ibus-table-mongol-bichig provides the Vietnamese Vni table for ibus-table."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.16"
+PV = "1.3.21"
 
-RPM_NAME = "ibus-table-vni-1.3.16-1.1.noarch.rpm"
-RPM_HASH = "727f164080962f967e1ba5f8303476f396d0df113f2640bbc1bd5f91823f4c24e0317dd90e3843d55b47eccf32801c2fa1f02c7f93741d51959173ff6a185e6e"
+RPM_NAME = "ibus-table-vni-1.3.21-1.5.noarch.rpm"
+RPM_HASH = "8a217e0d316e311951730e4aaa00e9087de5220a36628eeffc6c6bdfc312d0ade3d91b13eb9890e005277484326904aeb18f67b59588d36e0df81a33ce19634d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-vni"

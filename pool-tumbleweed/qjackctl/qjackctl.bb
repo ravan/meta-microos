@@ -8,20 +8,20 @@ server. With time, this primordial interface has become richer by \
 including a enhanced patchbay and connection control features."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.10"
+PV = "1.0.6"
 
-RPM_NAME = "qjackctl-0.9.10-1.2.aarch64.rpm"
-RPM_HASH = "54d59f3d8dc4b8ead4c6e86b3170004a44c4702f2677a3147513874bb3c1f022e782403b5a45f647a69b5f8e4bbc6d607b11763578d9c4849f8007c9d80039f4"
+RPM_NAME = "qjackctl-1.0.6-1.2.aarch64.rpm"
+RPM_HASH = "4f4993d9f7a0ea4b610538f2dc876208d44d1974b151523ed7df6f8c8f8d1d751a553d308010973508844bf5a5ac91d3ea29ef6385dc52d166aaf662a3665527"
 
 RPROVIDES:${PN} += "qjackctl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libasound.so.2 \
 libc.so.6 \
 libgcc-s.so.1 \

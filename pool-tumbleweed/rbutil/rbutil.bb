@@ -2,20 +2,22 @@ SUMMARY = "Rockbox Firmware Manager"
 DESCRIPTION = "Firmware manager for Rockbox MP3 players."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.4.1"
+PV = "1.5.1"
 
-RPM_NAME = "rbutil-1.4.1-1.22.aarch64.rpm"
-RPM_HASH = "2d9779f41486ed6f1778b1139e56912c1a6930ada034310093983d5bea57b5136176ea250cf17164d784d056541729ec0a273092de7d9a032705f9272b27db9b"
+RPM_NAME = "rbutil-1.5.1-1.5.aarch64.rpm"
+RPM_HASH = "0b2e2deb041dc4eae81df35df54e554c8f3ffc274b395e4d8f06d65b36692a50c006c87ef7eb5eb6692859af34bb54c9d17c2be0d410c8390cde1cc118f08664"
 
 RPROVIDES:${PN} += "rbutil"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6Widgets.so.6 \
+libbz2.so.1 \
 libc.so.6 \
-libcryptopp.so.8.8.0 \
 libgcc-s.so.1 \
 libspeex.so.1 \
 libspeexdsp.so.1 \

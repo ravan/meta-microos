@@ -14,10 +14,10 @@ the creation of academic works, such as ABNT NBR 10520:2002 \
 (Citations) and ABNT NBR 6023:2002 (Bibliographic References)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.10.4svn65352"
+PV = "2026.226.4.10.4svn65352"
 
-RPM_NAME = "texlive-fei-2023.209.4.10.4svn65352-53.1.noarch.rpm"
-RPM_HASH = "c202061851963e08cb1e33d7073030f2576ba588def2331f4aa8f66bf1f8e7843aa227e3c0ecf3e99f801ca7c68f30ad563d7bd55b280011d4bcf7aa41536662"
+RPM_NAME = "texlive-fei-2026.226.4.10.4svn65352-59.2.noarch.rpm"
+RPM_HASH = "71126c7b1185a957ca7015bd73556d8d41920083df59cc96a971eb7be7f73759f146952f658c52139d1a6ca2d5a2f381e1e807f70d909cd972cb9e69ed95f73c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fei.cls \

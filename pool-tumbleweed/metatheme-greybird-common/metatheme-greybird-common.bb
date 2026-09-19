@@ -7,10 +7,10 @@ This package provides the files common to the GTK+ themes and the window \
 manager themes as well as background images."
 LICENSE = "CC-BY-SA-3.0 | GPL-2.0-or-later"
 
-PV = "3.23.2+git0.25f312f"
+PV = "3.23.4+git0.7e4507d"
 
-RPM_NAME = "metatheme-greybird-common-3.23.2+git0.25f312f-2.1.noarch.rpm"
-RPM_HASH = "8d3347d44c2ec984e1c341f185ac7e35e2c2554df8131948bea7c27ad9a87357e320e6be07891d9e174a81aa0dd4e443bb774d2b3bdafe1291c7c70a63565f1f"
+RPM_NAME = "metatheme-greybird-common-3.23.4+git0.7e4507d-1.5.noarch.rpm"
+RPM_HASH = "5d54b28249389217a8166b467473d60b8d6c143e7e1a21613a36ba05a44981976ee3e432b4be16c402c5d1a66b071afd47f424af0c56953b4e386613594393a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-greybird-common"

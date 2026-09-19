@@ -11,16 +11,15 @@ POEntry and MOEntry for creating new files/entries. \
 This package contains documentation in HTML format."
 LICENSE = "MIT"
 
-PV = "1.1.1"
+PV = "1.2.0"
 
-RPM_NAME = "python-polib-doc-1.1.1-2.1.noarch.rpm"
-RPM_HASH = "de80ee5c615153f2a0ef0f01bb8c503f32fc25ab47112867aefc42aef3d4fc00432868202507fbae8aa22f5f59800d0fc58bae98f9e93ba5afd9e1e130f2eaa7"
+RPM_NAME = "python-polib-doc-1.2.0-3.10.noarch.rpm"
+RPM_HASH = "a2c049cedaf1b88505b666d9845ce412b20735541055e954366f12da3ebbd6d533ad8651889942be51d1fcc58b188d8f14559c2a21884d662f28aae7ad161d28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-polib-doc \
-python310-polib-doc \
-python311-polib-doc \
-python39-polib-doc"
+python313-polib-doc \
+python314-polib-doc"
 
 RDEPENDS:${PN} += ""
 

@@ -2,16 +2,17 @@ SUMMARY = "Translations for package kget"
 DESCRIPTION = "Provides translations for the 'kget' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kget-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "9da7bad19db9a13f52815935905fbf9154bf4315ef67d1a03b0540c7acc79a7e3a43326fa726bbc42ac6a3520b32c726b7447cd97125ba94b2c634afeb27e048"
+RPM_NAME = "kget-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "ec8aeeb3916e885ba1f23f30d102469d9b79969b0d826a3d4aff101748d3c8c5184aed11c381e3fbe80d8bbb91bd5b676bbfd81b7608fdaaf474599792e86091"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kget-lang \
 kget-lang-all \
 locale-kget-af \
 locale-kget-ar \
+locale-kget-ast \
 locale-kget-be \
 locale-kget-bg \
 locale-kget-br \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cloze"
 DESCRIPTION = "This package includes the documentation for texlive-cloze"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn55763"
+PV = "2026.226.2.0.0svn75681"
 
-RPM_NAME = "texlive-cloze-doc-2023.209.1.6svn55763-54.1.noarch.rpm"
-RPM_HASH = "336fde3e62a294b8c38161793d25a5cca4a2fcbefd06655ef3402f3d11647b0ade3b03e0ebf3f4a1782ff314f30c348a75ed7baf37ae6c72857037329504f1d8"
+RPM_NAME = "texlive-cloze-doc-2026.226.2.0.0svn75681-60.2.noarch.rpm"
+RPM_HASH = "846e11a85b088b9baac114d5d951f5ea7c602657a156faaa8a88b98d1c3a24dd2df147161ec6c4e47dd042708488b8d160db49c95252d1348fd20241c1b344bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cloze-doc"

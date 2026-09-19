@@ -8,10 +8,10 @@ fades, resize awareness, and multithreading support. \
 This subpackage contains shared library part of libnotcurses-core."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.9"
+PV = "3.0.17"
 
-RPM_NAME = "libnotcurses-core3-3.0.9-1.8.aarch64.rpm"
-RPM_HASH = "e06fdd897bf4d3529a5e3b0eaf162459f1dfe40a3537cb0fc013a1a6a6cd2317ccf00ebe1f2afcc10f5f3d1f8565b48721c638e5d65278feda96e9c9941b558c"
+RPM_NAME = "libnotcurses-core3-3.0.17-1.6.aarch64.rpm"
+RPM_HASH = "dba73a836205d8bb6aba4e8be0f56d0bbee95f1094104bc2d79423f7fb67c14013e06ce7fdab3d176f9ef96020d29578fe4c9211eb2038916db9cd5ab7b8d068"
 
 RPROVIDES:${PN} += "libnotcurses-core.so.3 \
 libnotcurses-core3"
@@ -20,6 +20,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdeflate.so.0 \
+libgcc-s.so.1 \
 libm.so.6 \
 libqrcodegen.so.1 \
 libtinfo.so.6 \

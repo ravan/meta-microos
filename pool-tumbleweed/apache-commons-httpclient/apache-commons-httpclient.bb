@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1"
 
-RPM_NAME = "apache-commons-httpclient-3.1-13.12.noarch.rpm"
-RPM_HASH = "0b9d972e68836996c945ccaa19b4043832322b497d2d1d11ccf7ee4b432690a7d29b63734f512d89203ed10376c66e4db4690b1a519b5f1ff889f810957810d7"
+RPM_NAME = "apache-commons-httpclient-3.1-15.9.noarch.rpm"
+RPM_HASH = "9b5d8a7d2ff495bc352dadf8e564c4bedc12605669783a7f680fc5686d4ae10759efc85cf571efd33e45a6c408d28ad22b56eea9e22477607307ecd0cb62d777"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-httpclient \
@@ -27,9 +27,7 @@ mvn-commons-httpclient-commons-httpclient \
 mvn-commons-httpclient-commons-httpclient-pom- \
 osgi-org.apache.commons.httpclient"
 
-RDEPENDS:${PN} += "commons-codec \
-commons-logging \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-commons-codec-commons-codec \
 mvn-commons-logging-commons-logging"

@@ -6,10 +6,10 @@ are through your daily goal, and your total goal. Mousing over a bar in the \
 graph will show a tooltip with that day's wordcount."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.2"
+PV = "3.2.7"
 
-RPM_NAME = "novprog-3.2.2-1.1.aarch64.rpm"
-RPM_HASH = "25795383dbf00876bf296292c2866aaa82df5a8878081fd1c2163b1ddecd46cc5487ef949c3ace1b6f601a20c988a5d5f79049fa1060598b554d5e1ed6992d10"
+RPM_NAME = "novprog-3.2.7-1.1.aarch64.rpm"
+RPM_HASH = "850ffcfa93951c38ac301b01ee84a066088aea335af3da612d28885b5ee966005f5edecc5e0d11aaf896d6fb23034cbadf1e24e8e0df62da6a57b82b0dc4add0"
 
 RPROVIDES:${PN} += "novprog"
 

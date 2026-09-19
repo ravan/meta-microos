@@ -5,10 +5,10 @@ is also \\makeenvironment and \\provideenvironment for \
 environments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-makecmds-2023.208.svn15878-53.1.noarch.rpm"
-RPM_HASH = "d9aacdea406159f022759b71efead493b913c98b51d2d817a1d7f9f27294c689ddea80648537637f6845ee12134f99c2cee0652f15f6bd86367c9befaefc8d10"
+RPM_NAME = "texlive-makecmds-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "d3c0337d42489ca42163076c18779646665caa1e1679a04cf29d577da6b946afc2a5da2a92b32275aff8a79a94f2cd700e39d3eafe377a5adc1f53d82e3e2f4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makecmds.sty \

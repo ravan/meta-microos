@@ -6,10 +6,10 @@ for interpreting the META files, so that it is very easy to use \
 libraries in programs and scripts."
 LICENSE = "MIT"
 
-PV = "1.9.5"
+PV = "1.9.8"
 
-RPM_NAME = "ocaml-findlib-1.9.5-1.6.aarch64.rpm"
-RPM_HASH = "84a4985a02a1a32ad5ba025c6c85b413cdd96cf47eea680db441e13229cdeedc15a775789185fc95bad4e4b4d102b3a784103347589e698b8114c1f475c6b1d1"
+RPM_NAME = "ocaml-findlib-1.9.8-1.3.aarch64.rpm"
+RPM_HASH = "4902d42f1740060788f026a269c48b5682d64e0e95b71cd35bd9620ca459404ab9f85cca2c31dc46e50b8c88e53fa44b4db1bc54973e6245db0f55862741211e"
 
 RPROVIDES:${PN} += "ocaml-findlib \
 ocamlfind"

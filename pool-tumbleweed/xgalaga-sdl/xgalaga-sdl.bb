@@ -6,14 +6,14 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.1.1.0"
 
-RPM_NAME = "xgalaga-sdl-2.1.1.0-1.27.aarch64.rpm"
-RPM_HASH = "96b82436a8cb3d43262b045163b20f5bf93828522c4387148fd3683b161b4cdb8e0b2dc1972812ebe1a2e84ac263eca6d2b92ff904f3c262ab2a557bef318e79"
+RPM_NAME = "xgalaga-sdl-2.1.1.0-1.38.aarch64.rpm"
+RPM_HASH = "bede48ba9e22db5dd971cb0263ef549b9257e7b48a4604f5371e0ef7643bf159e5bdc3d123be79b1688a49932ec9c7875d7138e124b91431f8d407f4bf8924a2"
 
 RPROVIDES:${PN} += "xgalaga-sdl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
-libSDL-gfx.so.15 \
+libSDL-gfx.so.16 \
 libSDL-image-1.2.so.0 \
 libSDL-mixer-1.2.so.0 \
 libSDL-ttf-2.0.so.0 \

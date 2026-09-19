@@ -3,10 +3,10 @@ DESCRIPTION = "GCR is a library for displaying certificates, and crypto UI, acce
 key stores."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.41.0"
+PV = "3.41.2"
 
-RPM_NAME = "libgcr-3-1-3.41.0-3.4.aarch64.rpm"
-RPM_HASH = "f7600ae6bb40730a46631dd430579b0eec4e486435b52aa0eb88d7bd93d93ce6efc7501cfbe5af613b208999d7d54d65ec6667c753c06b9c99a9e32759e938f2"
+RPM_NAME = "libgcr-3-1-3.41.2-5.4.aarch64.rpm"
+RPM_HASH = "3c14d84348022572478d61236c35a02e60b8f9515252dc377e61e451de7f134d08b323390d88c7de54d3e497f5c5225d8b30737554cfcc43e91c020f428c8c63"
 
 RPROVIDES:${PN} += "gcr3 \
 libgcr-3-1 \

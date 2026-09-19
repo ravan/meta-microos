@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.6"
 
-RPM_NAME = "liblogging-devel-1.0.6-4.20.aarch64.rpm"
-RPM_HASH = "86cc333c2efdcf6968a9314cbe527d4efac5b4ebfc6fe07f1bf6e0f26d98fa3d155f4bfef3097b1d37e9b81a086aae533a99b4e6aacd1e2558b5669171b1d000"
+RPM_NAME = "liblogging-devel-1.0.6-7.5.aarch64.rpm"
+RPM_HASH = "d4308446f960b60187959797de69947880824073c5c49e83e27eeee068b4b090a2b998fdceaa8b19a92802fdb816cf5479ab488c992bd093f1fec29b2fdf6ac4"
 
 RPROVIDES:${PN} += "liblogging-devel \
 pkgconfig-liblogging-rfc3195 \

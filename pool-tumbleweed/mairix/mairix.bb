@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.24"
 
-RPM_NAME = "mairix-0.24-1.13.aarch64.rpm"
-RPM_HASH = "5b0efd9301aa89bb934731f665bc0a0acdbeaad6a83184d8ee7da2761f37b3ca5cc1a52b9e794741dff5f09f581d0f37e3e9b3e2edaf6e1e379dbadde838f451"
+RPM_NAME = "mairix-0.24-1.23.aarch64.rpm"
+RPM_HASH = "ccac0294f23bb201208b1d80695a5430a5fdc511672e04f96935cb35960965379c3377da8fdc7802e163661cafdb67d44a0362fbff00a252b0ea19edbe16ed66"
 
 RPROVIDES:${PN} += "mairix"
 

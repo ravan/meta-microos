@@ -2,10 +2,10 @@ SUMMARY = "Bootloader"
 DESCRIPTION = "This pattern holds files required for booting the system"
 LICENSE = "MIT"
 
-PV = "20200505"
+PV = "20241218"
 
-RPM_NAME = "patterns-base-bootloader-20200505-42.1.aarch64.rpm"
-RPM_HASH = "5658397e79276d386b7d0dc19e7133e176a79d5297a59f642b1b751c7f82603fb4847130df4d332b63ecc6bf5441794e62416873f68892575874b43e0511fcc1"
+RPM_NAME = "patterns-base-bootloader-20241218-34.1.aarch64.rpm"
+RPM_HASH = "05bfff0e9332366fe9c879dd03cb54676358a202fdd96b00731f5c54a25a3658ec21cea22520df6390f1b94268e4ce3dccee6490dffc6a2f0d79ed5f16036bf5"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

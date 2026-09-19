@@ -15,10 +15,10 @@ DESCRIPTION = "A collection of Java libraries: - Unix Sockets Library This is a 
 - Hexdump This class formats byte-arrays in hex and ascii for display."
 LICENSE = "MIT"
 
-PV = "0.8"
+PV = "0.8.1"
 
-RPM_NAME = "matthewlib-java-0.8-13.7.aarch64.rpm"
-RPM_HASH = "bb3938ce8d696f7c21eb797d09f963707efd4ada06e19a7e1d73c65342af36c337f56d8e9ff9317d9d662e05fd4df6f20d8c737b13e9d7184b867cddf06c578c"
+RPM_NAME = "matthewlib-java-0.8.1-1.11.aarch64.rpm"
+RPM_HASH = "b31d58dadd2baee47bc7a920fa523bc20592575c205bace40b0c43ba6b98f0b5da853dc412797255714dcec64b28872e23925b7214e5467470a210045a54de35"
 
 RPROVIDES:${PN} += "libcgi-java.so \
 libmatthew-java \
@@ -26,8 +26,6 @@ libunix-java.so \
 matthewlib-java"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-java \
-javapackages-tools \
 libc.so.6"
 
 inherit rpm

@@ -9,19 +9,22 @@ high-energy collider experiments is preserved for comparison to and \
 development of future theory models. \
  \
 This package provides all the analysis plugins for Rivet."
-LICENSE = "GPL-2.0-only & Apache-2.0 & MPL-2.0 & LPPL-1.3a & BSL-1.0"
+LICENSE = "Apache-2.0 & GPL-2.0-only & MPL-2.0 & LPPL-1.3a & BSL-1.0"
 
-PV = "3.1.8"
+PV = "4.1.2"
 
-RPM_NAME = "Rivet-plugins-3.1.8-2.1.aarch64.rpm"
-RPM_HASH = "76aef047c65d08c93b96364a1d7bbd5392e64405a2fbd0a1e37a8ad23efb5b1695eb9cce3ad997d246f2819df3c7bc8d103dc4a02dd629d025d887170e091bb0"
+RPM_NAME = "Rivet-plugins-4.1.2-2.1.aarch64.rpm"
+RPM_HASH = "8eda53de01daafd0b5132c9f137cd86409bbe4402abf824606d1981cd33733e2a715e52c4e0f4ea5b437bcd19a715260e605b28d8095b9a3bacc751d2f1dcb44"
 
 RPROVIDES:${PN} += "Rivet-plugins \
 config-Rivet-plugins"
 
 RDEPENDS:${PN} += "Rivet-devel \
 ld-linux-aarch64.so.1 \
-libRivet-3.1.8.so \
+libHepMC3.so.4 \
+libHepMC3search.so.5 \
+libRivet-4.1.2.so \
+libYODA-2.1.2.so \
 libc.so.6 \
 libfastjet.so.0 \
 libfastjetcontribfragile.so \
@@ -30,6 +33,8 @@ libfastjettools.so.0 \
 libgcc-s.so.1 \
 libgmp.so.10 \
 libgomp.so.1 \
+libhdf5-hl.so.310 \
+libhdf5.so.310 \
 libm.so.6 \
 libsiscone-spherical.so.0 \
 libsiscone.so.0 \

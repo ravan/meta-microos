@@ -2,10 +2,11 @@ SUMMARY = "MinGW Windows compiler for Objective-C and Objective-C++ shared libra
 DESCRIPTION = "MinGW Windows compiler for Objective-C and Objective-C++ shared libraries"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw32-libobjc4-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "134ed0bdd87b3c42c1b100afdb9cc5b089f98c712b9586694c63ccd66951d77be178fde2ad19a7850aa970599eb43112989865520790754c3f37c5f8612f2cda"
+RPM_NAME = "mingw32-libobjc4-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "079f1d1036a0a1d6c30ee432416085e539ad2094390cac8b2d38a9dba0a6021b254fba8bdf78f14d835b2bd90f69098a82843adbe5eb9f3e3988149f858369f8"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-libobjc \
 mingw32-libobjc-4.dll \

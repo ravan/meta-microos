@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bguq"
 DESCRIPTION = "This package includes the documentation for texlive-bguq"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn27401"
+PV = "2026.226.0.0.4svn27401"
 
-RPM_NAME = "texlive-bguq-doc-2023.209.0.0.4svn27401-54.1.noarch.rpm"
-RPM_HASH = "394cc51a8bdb11dd906c74c01e09d3b3554bc0ad7c2a269d73b7a4bb1b020fa3f4f6e7b1dfc00aaf05b621c7dd612667fb41d4f74fb293fc1b5ceb61db8807ee"
+RPM_NAME = "texlive-bguq-doc-2026.226.0.0.4svn27401-61.2.noarch.rpm"
+RPM_HASH = "109e8950b0ed3e070f752ff375685e2ed24c9056787d1ed2b65b00d4253757073d3cf5fadf767e5e7914199909a6a8435ae4aebcbd205108f86479194e9fc087"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bguq-doc"

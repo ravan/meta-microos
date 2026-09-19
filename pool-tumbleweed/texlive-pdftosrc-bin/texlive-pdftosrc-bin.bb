@@ -2,10 +2,10 @@ SUMMARY = "Binary files of pdftosrc"
 DESCRIPTION = "Binary files of pdftosrc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-pdftosrc-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "e7d7ebe0acfd674043fcea8d03b933be9d7155220267e1a97befe92bd4c1c12108dbf5fe9e814928f73cd5e0ec75f69c6b3e91f76b52b7e8d8e73936eb605e86"
+RPM_NAME = "texlive-pdftosrc-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "6d09ca41b8619b51759302743b90f2324e4949a88888e6f00680075ab83c9670f7692415663242cf05b9ced7076267e39de5b0ae5fc664fd2bbf56f356097c53"
 
 RPROVIDES:${PN} += "texlive-pdftools-bin-/usr/bin/pdftosrc \
 texlive-pdftosrc-bin"

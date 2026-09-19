@@ -7,8 +7,8 @@ LICENSE = "MIT & Unicode-TOU"
 
 PV = "0.3.0"
 
-RPM_NAME = "lua53-cldr-0.3.0-2.1.noarch.rpm"
-RPM_HASH = "470b72dabae14d489269228fd866419e1448e400a28cc25d5fc1801221e4d325bd0199cdacffd89f561df8bbf09149f68077316628ed0ba63c9bed27fe11c354"
+RPM_NAME = "lua53-cldr-0.3.0-5.2.noarch.rpm"
+RPM_HASH = "f711936358e0e4616e36584445e7e47aff184722667bfa71d20f1dcbcaa612e5979d2bb3d3158640d7703087ab8d20fe3c54c8a0d7bae344efb2b9311be8db5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-cldr"

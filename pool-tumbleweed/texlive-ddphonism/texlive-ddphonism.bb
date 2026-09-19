@@ -1,16 +1,15 @@
 SUMMARY = "Dodecaphonic diagrams: twelve-tone matrices, clock diagrams, etcetera"
-DESCRIPTION = "This is a music-related package which is focused on notation \
-from the Twelve-Tone System, also called Dodecaphonism. It \
-provides LaTeX algorithms that produce typical dodecaphonic \
-notation based off a musical series, or row sequence, of \
-variable length. The package requires etoolbox, pgfkeys, TikZ, \
-xparse, and xstring."
+DESCRIPTION = "This music-related package focuses on notation from the \
+Twelve-Tone System, also called Dodecaphonism. It provides \
+LaTeX algorithms to generate common dodecaphonic diagrams based \
+off a musical series, or row sequence, of arbitrary length. The \
+package requires TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn52009"
+PV = "2026.226.0.0.3svn75201"
 
-RPM_NAME = "texlive-ddphonism-2023.209.0.0.2svn52009-53.1.noarch.rpm"
-RPM_HASH = "c374abf23f2d869a275366c846e90e9dde7b2b6f71bca6f454800121078b4ddc2aa00144438884bcafc6eb8e324637e40bea767a06793f8670ecba116a763de3"
+RPM_NAME = "texlive-ddphonism-2026.226.0.0.3svn75201-59.2.noarch.rpm"
+RPM_HASH = "d9887ad46b08bcd3db17b99fab320d75ab4d58d750f702b52671a6abe38c5181327afd68f027577c7841f662aea272869eaa0d6d3e90f513aa0dca93ad3857b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ddphonism.sty \
@@ -22,11 +21,7 @@ ed \
 findutils \
 grep \
 sed \
-tex-etoolbox.sty \
-tex-pgfkeys.sty \
 tex-tikz.sty \
-tex-xparse.sty \
-tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

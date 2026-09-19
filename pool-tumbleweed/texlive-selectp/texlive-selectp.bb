@@ -6,10 +6,10 @@ was inspired by code published by Knuth in TUGboat 8(2) (July \
 1987)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.0svn20185"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-selectp-2023.209.1.0svn20185-54.1.noarch.rpm"
-RPM_HASH = "7bd412c3316a354f2ec4022a03264506eccd49f066d30cf39fef781190a97c4b8d38353f4ddc1851c67fd5cd5e5d3d93ecea405e2bae5d6c489a3fc401407f2d"
+RPM_NAME = "texlive-selectp-2026.226.1.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "720486dbc591d94c7676af49c18b926ca8178a9487e0977225476ac6dba859447f8bcddbae581d1aa09b8dbd76216b3a6c88b4ad57cc768524c515cebba36c8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-selectp.sty \

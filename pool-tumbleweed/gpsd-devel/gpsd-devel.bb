@@ -4,29 +4,26 @@ manage access to a GPS for applications and debugging tools. You will \
 need to have gpsd installed for it to work."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.25"
+PV = "3.27.5"
 
-RPM_NAME = "gpsd-devel-3.25-1.4.aarch64.rpm"
-RPM_HASH = "619a6435969bd7bad5908b7d31dc981de74b199502f33760f358bb7958dc108a5348a4f0478c956dc2038032b0c0d21d5a1d1d5431863d25425ef11061f0d9ab"
+RPM_NAME = "gpsd-devel-3.27.5-3.2.aarch64.rpm"
+RPM_HASH = "1249dab36884b368d6e0063727904f829f409b116875d6c40fbb0b8b01add80bb288fb83aaef21ca0f5b2ddcd59d81130163527227db9c907bb15e622a44009f"
 
 RPROVIDES:${PN} += "gpsd-devel \
-pkgconfig-Qgpsmm \
 pkgconfig-libgps"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 gpsd \
 ld-linux-aarch64.so.1 \
-libQgpsmm30 \
 libbluetooth.so.3 \
 libc.so.6 \
 libdbus-1.so.3 \
-libgps30 \
+libgps32 \
 libm.so.6 \
 libusb-1.0.so.0 \
 pkgconfig \
-pkgconfig-Qt5Network \
 python3-curses \
 python3-gpsd"
 

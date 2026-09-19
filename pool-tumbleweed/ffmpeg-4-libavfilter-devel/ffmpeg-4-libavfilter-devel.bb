@@ -5,10 +5,10 @@ framework containing several filters, sources and sinks. \
 This subpackage contains the headers for FFmpeg libavfilter."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "ffmpeg-4-libavfilter-devel-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "0966d460649d94a32a546cbead8cc3261082332f7194b2ace08168b2d244ca260594c86468cefd8084bbc068be9f4ce522c5e564375fff6171faf8c2f594948b"
+RPM_NAME = "ffmpeg-4-libavfilter-devel-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "85e3d7df7e1ffe4a4306f999aa91e2059af2fb29afead89af92dfdd9da93bf7f035546b6d9015c92a00dd306bd5923256c1a883408eb1f0ab5c952ed7653ef86"
 
 RPROVIDES:${PN} += "ffmpeg-4-libavfilter-devel \
 libavfilter-devel \

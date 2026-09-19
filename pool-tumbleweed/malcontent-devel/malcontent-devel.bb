@@ -4,28 +4,29 @@ used by applications to filter or limit the access of child \
 accounts to inappropriate content."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.10.4"
+PV = "0.13.1"
 
-RPM_NAME = "malcontent-devel-0.10.4-1.6.aarch64.rpm"
-RPM_HASH = "11ddfdfe073ec7ef0068a3a596583d0f6d47fd6bbd0f0fe4b2140458b314cb621f4ccf41f247bf248bcace924713716e88130c66c1d74cb00dfaaff8849cdfea"
+RPM_NAME = "malcontent-devel-0.13.1-1.6.aarch64.rpm"
+RPM_HASH = "212f059917e1b9cfddb2483b868e0add7ca15b42eac29d78baae989d1b277360917164fa1963fe3193e4e4e28bf86203b27c5b66128f8594865334116226ae20"
 
 RPROVIDES:${PN} += "malcontent-devel \
 pkgconfig-malcontent-0 \
-pkgconfig-malcontent-ui-0"
+pkgconfig-malcontent-ui-1"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libmalcontent-0-0 \
-libmalcontent-ui-0-0 \
+libmalcontent-ui-1-1 \
 pkgconfig-accountsservice \
-pkgconfig-appstream-glib \
+pkgconfig-appstream \
 pkgconfig-flatpak \
 pkgconfig-gio-2.0 \
 pkgconfig-gio-unix-2.0 \
 pkgconfig-glib-2.0 \
 pkgconfig-gobject-2.0 \
-pkgconfig-gtk+-3.0 \
+pkgconfig-gtk4 \
+pkgconfig-libadwaita-1 \
 pkgconfig-malcontent-0 \
 typelib-1-0-Malcontent-0 \
-typelib-1-0-MalcontentUi-0"
+typelib-1-0-MalcontentUi-1"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.0"
 
-RPM_NAME = "gnuprumcu-0.8.0-1.2.noarch.rpm"
-RPM_HASH = "78f795b122e73e5ac63c265d9d7e7add81d923fc3a3eeec1111941f7eda551d54dd3039724672a6e2c791032515ed5c5b1344cf5b33f221190546b8183c6cd7b"
+RPM_NAME = "gnuprumcu-0.8.0-2.10.noarch.rpm"
+RPM_HASH = "0c8d036a0a7ce357d7ca8b0b1aa67bda70f476d0f47f15a4546fcf3aa2a96a5592e1652d6c9477d2966b4a93353cbd8731c10ba8363c8d3bbb7b53b565646193"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuprumcu"

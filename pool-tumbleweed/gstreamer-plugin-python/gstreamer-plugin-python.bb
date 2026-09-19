@@ -3,10 +3,10 @@ DESCRIPTION = "This module contains a wrapper that allows GStreamer applications
 written in Python."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.6"
 
-RPM_NAME = "gstreamer-plugin-python-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "b4962566c813b978cb436ac5459f437c204871e76b55098df23e117b089fdbfa4c27ba0df2c1cc0c1164f660febecd437c168a4eed16b8b132354f467730db14"
+RPM_NAME = "gstreamer-plugin-python-1.28.6-1.1.aarch64.rpm"
+RPM_HASH = "58f4d72a12e3e774acb21d0e53deaf2fcea48b48d6c107ae163f0b01a36d4436f20ffbb8912da823c5306b85539843e8d54254a4041eb099b9cee2824896c925"
 
 RPROVIDES:${PN} += "gstreamer-plugin-python \
 libgstpython.so"
@@ -14,9 +14,12 @@ libgstpython.so"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \
-libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgstreamer-1.0.so.0 \
-libpython3.11.so.1.0"
+libpython3.13.so.1.0 \
+typelib-GES \
+typelib-GLib \
+typelib-GObject \
+typelib-Gst"
 
 inherit rpm

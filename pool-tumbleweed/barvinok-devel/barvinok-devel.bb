@@ -15,10 +15,10 @@ This subpackage contains the include files and library links for \
 developing with PolyLib."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.41.7"
+PV = "0.41.8"
 
-RPM_NAME = "barvinok-devel-0.41.7-1.1.aarch64.rpm"
-RPM_HASH = "e279285e69d006132758ac3f50e06bbff74500ff0d9b15dd160f56016962e8172d017c128dc219a653ce489613238ff2ab4a006d83c6a7adb0e5d7acc81a2736"
+RPM_NAME = "barvinok-devel-0.41.8-1.8.aarch64.rpm"
+RPM_HASH = "52a80977a0df7364e12a6d12ae35582efd33995397d06392ec90272e87c2623b0b802467463623c1e33af24d9a8604eebdab20866b14533f2435f5d9c763fb91"
 
 RPROVIDES:${PN} += "barvinok-devel \
 pkgconfig-barvinok"

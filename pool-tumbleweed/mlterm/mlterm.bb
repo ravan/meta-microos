@@ -27,10 +27,10 @@ Other features: \
 * scrollbar plug-in API (unstable)"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.9.3"
+PV = "3.9.5"
 
-RPM_NAME = "mlterm-3.9.3-2.1.aarch64.rpm"
-RPM_HASH = "70d6ae4be4259b760f749c9ef1e14fd5253aeb07fe8e38368c3e2b43072fb7597a420858f1c8741a79bb9f8cb9f87f7d7d3564ce7144a566e885db63d12ce0ee"
+RPM_NAME = "mlterm-3.9.5-1.1.aarch64.rpm"
+RPM_HASH = "3d9d782bc883bcfbae7dfe2a7e31ece0895ebf7810b3345688775bf6be1e0c7bd8621341ce1ad6939c1654e3f14abc46b5dddb17bee0cdd687472fa480c9e9cf"
 
 RPROVIDES:${PN} += "config-mlterm \
 libathena.so \
@@ -47,7 +47,8 @@ libtype-cairo.so \
 locale-xorg-x11-ja;ko;zh;ar;he \
 mlterm"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "group-tty \
+ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \
 libcairo.so.2 \
@@ -60,9 +61,9 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libm.so.6 \
-libmef.so.3 \
+libmef.so.4 \
 libmlterm-coreotl.so \
-libpobl.so.2 \
+libpobl.so.3 \
 libwayland-client.so.0 \
 libwayland-cursor.so.0 \
 libxkbcommon.so.0 \

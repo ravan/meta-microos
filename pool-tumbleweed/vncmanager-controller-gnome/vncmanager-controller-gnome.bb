@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.2"
 
-RPM_NAME = "vncmanager-controller-gnome-1.0.2-1.1.noarch.rpm"
-RPM_HASH = "434b603f84e971bb2d26376057a11457c4d3165a341fb05675bc83e6ccd34af723c1ef08e4a68f1c1ba09925539d90b6ca1f7f7f7fefd79dc9858246e5d7dbbe"
+RPM_NAME = "vncmanager-controller-gnome-1.0.2-4.5.noarch.rpm"
+RPM_HASH = "51019fe9356490f313e266fa7e27a2db19a3a113debb404ed9213f97e1a2ffe2c96e4795cd8817d6a4319593df31c24cded92f3a7271e5e701085bc824351dbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vncmanager-controller-gnome"

@@ -15,10 +15,10 @@ OpenVPN is not a web application proxy and does not operate through a \
 web browser."
 LICENSE = "GPL-2.0-only-with-openvpn-openssl-exception"
 
-PV = "2.6.6"
+PV = "2.7.5"
 
-RPM_NAME = "openvpn-2.6.6-1.1.aarch64.rpm"
-RPM_HASH = "d1619a13b3b88595c826d43ca69b80f4e5b3f50038055a2d51356a4bef00bd4256a3ef609f7bdf98acb2501d6b2dbc3eaff2568b6d7a4edb81b742c0a99cd0d4"
+RPM_NAME = "openvpn-2.7.5-1.1.aarch64.rpm"
+RPM_HASH = "50630b2e6dd530f03e254bc509df6501b0b2964b4e1610da2d6d9ab90b0ae6645b69f666267ebbc758c23407ab0279619cb4324470dee5ae87fba9adb25bf93a"
 
 RPROVIDES:${PN} += "openvpn"
 
@@ -31,6 +31,8 @@ libcap-ng.so.0 \
 libcrypto.so.3 \
 liblz4.so.1 \
 liblzo2.so.2 \
+libnl-3.so.200 \
+libnl-genl-3.so.200 \
 libpkcs11-helper.so.1 \
 libssl.so.3 \
 libsystemd.so.0 \

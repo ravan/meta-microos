@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "5"
 
-RPM_NAME = "perl-Image-Sane-5-3.1.aarch64.rpm"
-RPM_HASH = "2543957e387acf4e79c45fdc0c27643639fcb537e5a84278b637bb8101ea20d55fe4118f13a41164ae3882ef97aa0713f187b1558de005b7843ca7f53daa6ecf"
+RPM_NAME = "perl-Image-Sane-5-4.13.aarch64.rpm"
+RPM_HASH = "62160499515468761eb7a0d8052b2115d12ad23de92886f52e022c8d1aacb9b5d5f3c6c501fbbb609dbbee5cdd5621eac3791e0c4c9526367680b462538ec4b9"
 
 RPROVIDES:${PN} += "perl-Image--Sane \
 perl-Image--Sane--Device \
@@ -19,7 +19,7 @@ perl-Image-Sane"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsane.so.1 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Exception--Class \
 perl-Readonly"
 

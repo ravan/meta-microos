@@ -6,10 +6,10 @@ and output libraries. \
 This package contains the plugin for openal output support."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.31.3"
+PV = "1.33.7"
 
-RPM_NAME = "mpg123-openal-1.31.3-1.3.aarch64.rpm"
-RPM_HASH = "d1ef17733d91e662eef55ed95c7cd8debfbb1fe2aa58a66b73bfe514fe19afe3ccc4062aed22b1ba3da3a35520336effdcae65f0649b433ede076890404dd240"
+RPM_NAME = "mpg123-openal-1.33.7-1.1.aarch64.rpm"
+RPM_HASH = "c3435c2092f28be7026d88471e8710cf4351f4bed1eaa866aff48d1ce530b44f7d38b8e6433dad63168bcb512b08fb3e59fc59d9a1a8d57fdd9aa981f5750bdd"
 
 RPROVIDES:${PN} += "mpg123-openal"
 

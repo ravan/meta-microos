@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luatexbase"
 DESCRIPTION = "This package includes the documentation for texlive-luatexbase"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.3svn52663"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-luatexbase-doc-2023.208.1.3svn52663-53.1.noarch.rpm"
-RPM_HASH = "4475a00cee592063beff3b95b44818a757812c4657d519e2b0fdb8e0fbece915bdec43dcf261783370ba65e0ffa797ea43dbe40671e62796fbbc70119802e495"
+RPM_NAME = "texlive-luatexbase-doc-2026.226.1.3svn77682-59.2.noarch.rpm"
+RPM_HASH = "524be639f54db1578fa0ea8062cc2a4a4b653d258593c8594dad521625a0d301da729937ab8ee24c3ea57d9749b4509a57b76d716f13c5b2b353b31b74d9e224"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-luatexbase-doc"

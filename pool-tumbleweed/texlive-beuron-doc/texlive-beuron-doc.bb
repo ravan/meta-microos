@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beuron"
 DESCRIPTION = "This package includes the documentation for texlive-beuron"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn46374"
+PV = "2026.226.1.3svn46374"
 
-RPM_NAME = "texlive-beuron-doc-2023.209.1.3svn46374-54.1.noarch.rpm"
-RPM_HASH = "45c6acba009b6567bf3cc3e75ed2755e1f8f41d7009511d7cb1c92b082e8c9f0f5fbc464a6adb47c164bba59331e83bf19cb9470f4aa1ad03e864d9ce65225a4"
+RPM_NAME = "texlive-beuron-doc-2026.226.1.3svn46374-61.2.noarch.rpm"
+RPM_HASH = "0d5ad2c90336128c69c99f252750541c761763f0ce9941860b0f7dd52e3f0a195962c16d4122bdfb050491c55102abab4f6bef45fbf98b22d64df97a016352a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-beuron-doc-de;en \

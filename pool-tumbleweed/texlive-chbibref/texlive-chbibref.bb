@@ -4,10 +4,10 @@ DESCRIPTION = "Defines a single command, \\setbibref, which sets whichever of \
 and report.cls, and \\refname is used in article.cls.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn17120"
+PV = "2026.226.1.0svn17120"
 
-RPM_NAME = "texlive-chbibref-2023.209.1.0svn17120-54.1.noarch.rpm"
-RPM_HASH = "e29e8dd281b661743b41a0661fa8c56320f97b56ea516c311519da3bce3fbafed0822435c96cd03ff9ad5d2f4a440159b05b0b956032ba27f44b781ac6b06e8f"
+RPM_NAME = "texlive-chbibref-2026.226.1.0svn17120-60.2.noarch.rpm"
+RPM_HASH = "4ab81888242b99a14bdc5088bb71987e4a1402ecd90cd2407a456129424d5f0c7ce937c045731da51f9183b7d86066307f8c196f6d4774d655e1104b8140785f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chbibref.sty \

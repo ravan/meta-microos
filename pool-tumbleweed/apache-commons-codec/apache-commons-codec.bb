@@ -3,10 +3,10 @@ DESCRIPTION = "Commons Codec is an attempt to provide definitive implementations
 commonly used encoders and decoders."
 LICENSE = "Apache-2.0"
 
-PV = "1.15"
+PV = "1.22.0"
 
-RPM_NAME = "apache-commons-codec-1.15-2.5.noarch.rpm"
-RPM_HASH = "2025a423ef3fa2a688f9f0a9c97fbaf7038ea73df462d1e2951196694df312e6c89e120521e702fb273e7a0d7267b4f4d1f1f4db36bd9d6f3126a77c8b69fa40"
+RPM_NAME = "apache-commons-codec-1.22.0-1.3.noarch.rpm"
+RPM_HASH = "56c49e9a995273e3eeb432207cd44bd7f55ec7dbf57f6a885b0c08e04d1139ae500a522104832c2f54f142605611920787fb8e43a9e8822fdd598ae4c8746dbf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-codec \
@@ -14,7 +14,7 @@ commons-codec \
 jakarta-commons-codec \
 mvn-commons-codec-commons-codec \
 mvn-commons-codec-commons-codec-pom- \
-osgi-org.apache.commons.codec"
+osgi-org.apache.commons.commons-codec"
 
 RDEPENDS:${PN} += "java \
 java-headless \

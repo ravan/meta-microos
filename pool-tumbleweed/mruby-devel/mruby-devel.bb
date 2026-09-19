@@ -6,14 +6,14 @@ This package contains the headers and static library files in order to embed \
 mruby into your application."
 LICENSE = "MIT"
 
-PV = "3.1.0"
+PV = "4.0.0"
 
-RPM_NAME = "mruby-devel-3.1.0-1.3.aarch64.rpm"
-RPM_HASH = "e30774db5fe234ac68d6ebd4c722635e06e2e532043ac99f69cd8cf8a1682f277a4c6389389f2683f5e8b25a01debf4ed6532463611581e6594982377cb17f52"
+RPM_NAME = "mruby-devel-4.0.0-1.1.aarch64.rpm"
+RPM_HASH = "ddd17b46500afa1ca6b32106f4fc553da320ab4504f0b345a8fe7d6aaa9ca50f6e84371c38bbaad593545f02dad448c90e4e8f333c55937b01ad98328c7c28a4"
 
 RPROVIDES:${PN} += "mruby-devel"
 
-RDEPENDS:${PN} += "libmruby-core3-1-0 \
-libmruby3-1-0"
+RDEPENDS:${PN} += "libmruby-core4-0-0 \
+libmruby4-0-0"
 
 inherit rpm

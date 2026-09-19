@@ -5,10 +5,10 @@ and other crypto operations. It also provides an implementation of \
 TLS streams."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-openssl-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "2e7643dd32d45d4a8e5e186bed7b0a553eb89219772ed3fda02bfad69a669d22c537a9c8d81ae7bc9a7387a2ccdd255254cfd235d2c9719b3e4fcfb4c156a620"
+RPM_NAME = "php8-openssl-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "e3797d4ef0e396cf864ede25bac2d6bcb96e4decb5c59e08d550a6369642ec1b04600dc479c404d79b47d991c11e75adde56d05aa254aa0a1044a5d51a2e8741"
 
 RPROVIDES:${PN} += "config-php8-openssl \
 php-openssl \

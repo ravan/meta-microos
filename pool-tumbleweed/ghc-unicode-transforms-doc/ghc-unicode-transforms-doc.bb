@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-unicode-transforms-doc-0.4.0.1-4.8.noarch.rpm"
-RPM_HASH = "5e18ff71559d7553a55f5d260cbdd49a672e27582ecb1ede9a98f802b9694d4d5e265abad706de7128f9235f76032eeaacd487c86f67498724d2756a0ea26cb1"
+RPM_NAME = "ghc-unicode-transforms-doc-0.4.0.1-10.3.noarch.rpm"
+RPM_HASH = "1f6e3a36eb55e5f9c9079dee6a964b81d9645ad9f47b205cd76ed9d6e28cd7b0e70319bbeb4537558837fe64d599d0e7200ed6e4d7d1b10bcf4b18361399e2bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-unicode-transforms-doc"

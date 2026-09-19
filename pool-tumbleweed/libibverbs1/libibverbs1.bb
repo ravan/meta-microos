@@ -2,10 +2,10 @@ SUMMARY = "Ibverbs runtime library"
 DESCRIPTION = "This package contains the ibverbs runtime library."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "47.0"
+PV = "63.0"
 
-RPM_NAME = "libibverbs1-47.0-3.1.aarch64.rpm"
-RPM_HASH = "1d546a69214cb3033b8a655a0d8951ff58d659b6fbcc8b8cdd42647996fad50381072fcde4fb0983c7455e7885ef8b2426e0c696bcbb5bfe5c951ade02adb317"
+RPM_NAME = "libibverbs1-63.0-1.3.aarch64.rpm"
+RPM_HASH = "7b1bbc4fed414d4ccfeab58dedb066480246b30ce62c5e98e0c8b82b7f1162696ae8fecb4339abe738f5eccad5afc0327a43b945bf37e58aa47055ae4c890c93"
 
 RPROVIDES:${PN} += "libibverbs.so.1 \
 libibverbs1"

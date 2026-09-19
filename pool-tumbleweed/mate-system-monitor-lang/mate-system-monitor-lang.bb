@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-system-monitor"
 DESCRIPTION = "Provides translations for the 'mate-system-monitor' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.1"
 
-RPM_NAME = "mate-system-monitor-lang-1.26.0-1.10.noarch.rpm"
-RPM_HASH = "6ad25cb7a5cc81f3b78b0c4ef0bd060bb591702a2b4e95addf31671eb80fa880ebb0d06813e5f18f06f83189ee40fdd55acb8e76221ec6cb4e0a84c508fb5495"
+RPM_NAME = "mate-system-monitor-lang-1.28.1-1.13.noarch.rpm"
+RPM_HASH = "4c5c81029cdc5a40f0ce336c529acb9617fc588ed8b0ef4b0c9483aab6973e915246c9de0a377a914f9436c6102ea3c29a19b504d11cf528b49ec5ef2bf3bf06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-system-monitor-af \

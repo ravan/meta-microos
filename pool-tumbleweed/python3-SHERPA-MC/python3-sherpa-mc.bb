@@ -10,112 +10,25 @@ written in C++. \
 This package provides the python extensions for Sherpa."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.2.12"
+PV = "2.2.16"
 
-RPM_NAME = "python3-SHERPA-MC-2.2.12-3.4.aarch64.rpm"
-RPM_HASH = "d040af843c15397dc17ee8ee8a4b525045993a2e698525a1a1138c796521da465fe2482def663f412295c3aff72f5f6888628775497b26c3a4aba50fb491dd74"
+RPM_NAME = "python3-SHERPA-MC-2.2.16-1.5.aarch64.rpm"
+RPM_HASH = "f14ea776d1231d2227c3fe15bc2ffb06aa8e45a91426b8536a841ac46c22e0ca4a9eeb1cea09f3f0d3dbfdb382b9f573397c51dd8413d759a8a577e1d36043a7"
 
 RPROVIDES:${PN} += "python-SHERPA-MC \
 python3-SHERPA-MC"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
-libAhadicDecays.so.0 \
-libAhadicFormation.so.0 \
-libAhadicMain.so.0 \
-libAhadicTools.so.0 \
-libAmegic.so.0 \
-libAmegicCluster.so.0 \
-libAmegicPSGen.so.0 \
-libAmisic.so.0 \
-libAmisicModel.so.0 \
-libAmisicTools.so.0 \
-libAmplitude.so.0 \
-libBeam.so.0 \
-libCSCalculators.so.0 \
-libCSMain.so.0 \
-libCSShowers.so.0 \
-libCSTools.so.0 \
-libComix.so.0 \
-libComixAmplitude.so.0 \
-libComixCluster.so.0 \
-libComixPhasespace.so.0 \
-libDipoleSubtraction.so.0 \
-libDireGauge.so.0 \
-libDireLorentz.so.0 \
-libDireMain.so.0 \
-libDireShower.so.0 \
-libDireTools.so.0 \
-libExtraXS.so.0 \
-libExtraXS1-2.so.0 \
-libExtraXS1-3.so.0 \
-libExtraXS2-2.so.0 \
-libExtraXSCluster.so.0 \
-libExtraXSNLO.so.0 \
-libHadronsCurrents.so.0 \
-libHadronsMEs.so.0 \
-libHadronsMain.so.0 \
-libHadronsPSs.so.0 \
-libHepMC3.so.3 \
-libLHAPDF-6.5.4.so \
-libLundTools.so.0 \
-libMCatNLOCalculators.so.0 \
-libMCatNLOMain.so.0 \
-libMCatNLOShowers.so.0 \
-libMCatNLOTools.so.0 \
 libMEProcess.so.0 \
-libMEToolsColors.so.0 \
-libMEToolsCurrents.so.0 \
-libMEToolsExplicit.so.0 \
-libMEToolsLoops.so.0 \
-libMEToolsMain.so.0 \
-libMEToolsSpinCorrelations.so.0 \
-libMEToolsVertices.so.0 \
-libModelMain.so.0 \
-libModelUFO.so.0 \
-libPDF.so.0 \
-libPhasicChannels.so.0 \
-libPhasicDecays.so.0 \
-libPhasicEnhance.so.0 \
-libPhasicMain.so.0 \
-libPhasicProcess.so.0 \
-libPhasicScales.so.0 \
-libPhasicSelectors.so.0 \
-libPhotonsMEs.so.0 \
-libPhotonsMain.so.0 \
-libPhotonsPhaseSpace.so.0 \
-libPhotonsTools.so.0 \
-libRemnant.so.0 \
-libSherpaInitialization.so.0 \
 libSherpaMain.so.0 \
-libSherpaPerturbativePhysics.so.0 \
-libSherpaSingleEvents.so.0 \
-libSherpaSoftPhysics.so.0 \
-libSherpaTools.so.0 \
-libShrimpsBeamRemnants.so.0 \
-libShrimpsEikonals.so.0 \
-libShrimpsEvents.so.0 \
-libShrimpsMain.so.0 \
-libShrimpsTools.so.0 \
-libShrimpsXsecs.so.0 \
-libString.so.0 \
 libToolsMath.so.0 \
 libToolsOrg.so.0 \
 libToolsPhys.so.0 \
-libZfunctions.so.0 \
 libc.so.6 \
-libfastjet.so.0 \
-libfastjetplugins.so.0 \
-libfastjettools.so.0 \
 libgcc-s.so.1 \
-libgfortran.so.5 \
-libgmp.so.10 \
 libm.so.6 \
-libsiscone-spherical.so.0 \
-libsiscone.so.0 \
-libsqlite3.so.0 \
 libstdc++.so.6 \
-libz.so.1 \
 python-abi"
 
 inherit rpm

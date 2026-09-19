@@ -2,10 +2,10 @@ SUMMARY = "Library to access the New Technology File System (NTFS)"
 DESCRIPTION = "libluksde is a library to access LUKS Disk Encrypted volumes."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221103"
+PV = "20260902"
 
-RPM_NAME = "libluksde1-20221103-4.1.aarch64.rpm"
-RPM_HASH = "c9245cfdcb7c6f35ced179f8ca3926f240a70c9dd5073caae0d001375d41476fbc767084497b30a308feec3ab745cbf6cc83ef81ad69bfe294e594600224fee1"
+RPM_NAME = "libluksde1-20260902-1.2.aarch64.rpm"
+RPM_HASH = "05806ab5f978a7fa525da29c720ab4bb3393858efa7ae1ec4b27f1c1f4a6f9a38fe24205768f5db71ac94ca2cc6556902269c4d709503979661e5d424aad5b8e"
 
 RPROVIDES:${PN} += "libluksde.so.1 \
 libluksde1"

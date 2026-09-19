@@ -5,18 +5,18 @@ directory entries are read. This is useful for detecting non-determinism \
 in the build process."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.11"
+PV = "0.7.0"
 
-RPM_NAME = "disorderfs-0.5.11-1.4.aarch64.rpm"
-RPM_HASH = "fd64b00379a8251c3e6dd283f3b1937bd6410c542a91271d19fd5da9671f8134223dba7629f53a2d1e36d1591431b82be0e906d4f2a4d787db7e1c6f4f3dd22e"
+RPM_NAME = "disorderfs-0.7.0-1.1.aarch64.rpm"
+RPM_HASH = "d8927667d4746b50749f88e23427d5b13b1014f74102bb897efed18ec28c46535ac9e6ff052a41a5697c7d7a1ba5e8bbf95aedbd36efc6dbd532478de00bc222"
 
 RPROVIDES:${PN} += "disorderfs"
 
-RDEPENDS:${PN} += "fuse \
+RDEPENDS:${PN} += "fuse3 \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libgcc-s.so.1 \
-libstdc++.so.6 \
-libulockmgr.so.1"
+libstdc++.so.6"
 
 inherit rpm

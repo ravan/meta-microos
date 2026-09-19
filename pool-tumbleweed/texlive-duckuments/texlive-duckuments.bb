@@ -12,10 +12,10 @@ ducklist{enumerate} \\duckdescription - ducklist{description} \
 package works with pdfTeX, LuaTeX, and XeTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn52271"
+PV = "2026.226.0.0.5svn77682"
 
-RPM_NAME = "texlive-duckuments-2023.209.0.0.5svn52271-53.1.noarch.rpm"
-RPM_HASH = "a93a0cb8f491f58de5c33f8df73f438883795ceba2ff7aae88a6270850a22548acadff5a6afe0632a539583b6a2a752ba0be99cc426cdfc4b42d7b6d1f5c14cc"
+RPM_NAME = "texlive-duckuments-2026.226.0.0.5svn77682-59.2.noarch.rpm"
+RPM_HASH = "db7e4a3b82b3db774e59b685b25c2bccafbe092b951a823f84d3aab59dcdcbfddc5fd5390a43b44d534ce705d8a36f0be7898c32b949118571576687b9dbaa37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-duckuments.sty \

@@ -43,17 +43,17 @@ an arrayref of strings. When comparing two hashes, any keys mentioned in \
 this list will be ignored."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.29"
+PV = "1.290.0"
 
-RPM_NAME = "perl-Data-Compare-1.29-1.3.noarch.rpm"
-RPM_HASH = "47d09fa40007b54ae97c9a3dc75b9020a07930f6e9e816b22aab2d4419229900d1c36def4398e72379012d8569c112fff3374323ec5640e09a13929e569c5fa6"
+RPM_NAME = "perl-Data-Compare-1.290.0-1.7.noarch.rpm"
+RPM_HASH = "cc957d3328df1160aa0b49b6955fbbd19b26ed4b78820807dbf2cf9cfebcb4847f4a2513860d15f4f3085be73b9b3f9f00c6c55d8621a950be6e8fed5b76115a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Compare \
 perl-Data--Compare--Plugins--Scalar--Properties \
 perl-Data-Compare"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Clone \
 perl-File--Find--Rule \
 perl-Test--More"

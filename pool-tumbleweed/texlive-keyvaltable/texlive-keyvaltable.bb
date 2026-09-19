@@ -8,10 +8,10 @@ typeset tables that have a previously defined column layout and \
 whose rows can be produced in a key-value fashion."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn65416"
+PV = "2026.226.2.3svn77682"
 
-RPM_NAME = "texlive-keyvaltable-2023.209.2.3svn65416-56.1.noarch.rpm"
-RPM_HASH = "92b55c9d5b094c74842aea06e4fa4272b0e77a92b127ef2c964f9be72476c2effdb8baf238fb3b203a7d2d5252ea875411a358b6aed0ab7e765afdac33554345"
+RPM_NAME = "texlive-keyvaltable-2026.226.2.3svn77682-63.2.noarch.rpm"
+RPM_HASH = "4e57edd1593b5d5d5e8803e033d61f8f67001decc02ec777b876673facd127c20b98c959916cab4f681a3a9d9fb687afa1fdcd1623cf4be2b3f2e852f8f6600b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-keyvaltable.sty \

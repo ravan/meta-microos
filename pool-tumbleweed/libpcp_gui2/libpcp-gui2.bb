@@ -2,10 +2,10 @@ SUMMARY = "Performance Co-Pilot run-time GUI library"
 DESCRIPTION = "Performance Co-Pilot (PCP) run-time graphical user interface library"
 LICENSE = "LGPL-2.1+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "libpcp_gui2-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "0f513d5b4a2f4b24d1983f25721e67e4ac3e7cf21cba8149e6c6f04e88108d26caf433accc6ebaa4acf88a098d9c6207f42a9ffaee18baa2e517f75f74dc33e0"
+RPM_NAME = "libpcp_gui2-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "4fe6fe419dfacf2b19349d436271ba8b08f40de3b0bb793acd71cc62a3a45dab3d75eb20ed92bcb598f9e783c9cf996483ad53d2e9b1535f3d5c00bd6c465da9"
 
 RPROVIDES:${PN} += "libpcp-gui.so.2 \
 libpcp-gui2"

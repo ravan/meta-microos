@@ -3,14 +3,15 @@ DESCRIPTION = "This package provides private headers of libQt6Xml that do not ha
 ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-xml-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "a8c287d616f54854fc37265df909fad587cce62d80f88b56071f02e3186ef81df35f573c5eb00a47f5568144739187e1a530ccc3a82c18c3ddc1dc47afafc8b1"
+RPM_NAME = "qt6-xml-private-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "bfc3f91f8053e0bcc686b383008b0191638c77a948973906218d82c3e7725c1d1ab8ef05e42ba019a623b140b43258341d86ad99541fa4b1541e88f44159db1d"
 
-RPROVIDES:${PN} += "qt6-xml-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6XmlPrivate \
+qt6-xml-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6Xml \
-qt6-core-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6CorePrivate \
+cmake-Qt6Xml"
 
 inherit rpm

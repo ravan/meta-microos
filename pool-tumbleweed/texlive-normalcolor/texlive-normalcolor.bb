@@ -5,10 +5,10 @@ package xcolor. However, \\setnormalcolor will not change the \
 current colour but the normal / default color."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.r11svn40125"
+PV = "2026.226.r11svn77682"
 
-RPM_NAME = "texlive-normalcolor-2023.209.r11svn40125-55.1.noarch.rpm"
-RPM_HASH = "1b4cc73b03aec678c894291b0ba20b7a4875bc077f92f181d5b0b907cfd421b3a3466e3848caa7851ce602a5e2ce7218761a4935cd1607b277b62b9a769825b8"
+RPM_NAME = "texlive-normalcolor-2026.226.r11svn77682-61.2.noarch.rpm"
+RPM_HASH = "f1b92bca4100a9ce1673c9bcf44345991fa33a369bc78e45822984d568c184eaede7ba87703bec254e4c3fd0e2a16a7ace1dbee9e473f9fd2156d21e31168b5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-normalcolor.sty \

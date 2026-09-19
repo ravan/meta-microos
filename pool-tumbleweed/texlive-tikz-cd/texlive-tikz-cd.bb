@@ -1,5 +1,5 @@
 SUMMARY = "Create commutative diagrams with TikZ"
-DESCRIPTION = "The general-purpose drawing package TiKZ can be used to typeset \
+DESCRIPTION = "The general-purpose drawing package TikZ can be used to typeset \
 commutative diagrams and other kinds of mathematical pictures, \
 generating high-quality results. The purpose of this package is \
 to make the process of creation of such diagrams easier by \
@@ -9,10 +9,10 @@ match closely the arrows present in the Computer Modern \
 typeface."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn59133"
+PV = "2026.227.1.0svn77682"
 
-RPM_NAME = "texlive-tikz-cd-2023.209.1.0svn59133-55.1.noarch.rpm"
-RPM_HASH = "d779472c2f8906d81b9b76f290ac65c200233f349204d6ed2a869e3acc43572e01de6755c95c91b045bccdcb1daaa0071b0893ec72ea3bc279b0fc53c55ebbbf"
+RPM_NAME = "texlive-tikz-cd-2026.227.1.0svn77682-62.2.noarch.rpm"
+RPM_HASH = "7925540b382f077f111241a31405ca2bda89084b85df6e1a88f7e928db3e96d7fb495dd1af2bf50f312b24a8b28c81289c0c5f7a67f5b1d78378faf6d3da0c2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-cd.sty \

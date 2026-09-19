@@ -2,17 +2,20 @@ SUMMARY = "Convert from POD to AsciiDoc"
 DESCRIPTION = "Convert from POD to AsciiDoc"
 LICENSE = "Apache-2.0"
 
-PV = "0.101003"
+PV = "0.102003"
 
-RPM_NAME = "perl-Pod-AsciiDoctor-0.101003-1.2.noarch.rpm"
-RPM_HASH = "93f0dd3763b8fb51e9c8be04425320a80fbc74e2cb92312d24b08163a1f998b3522a56d928ae30299c272222b08403c19d148f359384f7040011b218535d4a23"
+RPM_NAME = "perl-Pod-AsciiDoctor-0.102003-1.5.noarch.rpm"
+RPM_HASH = "88b6490ebd4f873366260b3f218285a86352d2b34b5fa3e2839cefe32a1ba790552624b6fdd2c9c54f83d38327c712f08a26079490fedac750c91d8269c5d93a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--AsciiDoctor \
 perl-Pod-AsciiDoctor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "/usr/bin/env \
+perl--MODULE-COMPAT-5.44.0 \
+perl-Path--Tiny \
 perl-Pod--Parser \
+perl-autodie \
 perl-parent"
 
 inherit rpm

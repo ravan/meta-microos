@@ -2,14 +2,15 @@ SUMMARY = "Fish Completion for lf"
 DESCRIPTION = "Fish command-line completion support for lf."
 LICENSE = "MIT"
 
-PV = "30+dd82949"
+PV = "34"
 
-RPM_NAME = "lf-fish-completion-30+dd82949-1.1.noarch.rpm"
-RPM_HASH = "cc7f8fd07883450a33325fca2e03ea6143ce05e7f718e0e121a4b193befc876d60e68fac03490dc3d3a14b0d5a44432d435ead8876814dc1834692155aa8ffcc"
+RPM_NAME = "lf-fish-completion-34-1.10.noarch.rpm"
+RPM_HASH = "15b5aabb890491d8ba560d17ea306c1b1601cc7e709e7e927bd668c07ebbf7c66474fe80e9fc0bc3136afd125cf82c81772d2d404de37097505ded9bf7e2293e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lf-fish-completion"
 
-RDEPENDS:${PN} += "fish"
+RDEPENDS:${PN} += "fish \
+lf"
 
 inherit rpm

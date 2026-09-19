@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-sensors-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-sensors-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.4"
+PV = "1.5.0"
 
-RPM_NAME = "xfce4-sensors-plugin-lang-1.4.4-1.4.noarch.rpm"
-RPM_HASH = "c177c48e64e9d56cdcb1fa4ed8e40833c29194e464234f52380f13980da61320b551356d7eefa013c711a0397281d31a8e832a68efaa25b27bf46ecfa408b37a"
+RPM_NAME = "xfce4-sensors-plugin-lang-1.5.0-1.5.noarch.rpm"
+RPM_HASH = "97af6bfc23711b500001183a35567994586a7b34fbc3932d2516f5ace1cd025b99855ece79b6f6bdb96acfd69efac115235506ed8d08e3545c4ffa10b5a974b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-sensors-plugin-ar \
@@ -40,6 +40,7 @@ locale-xfce4-sensors-plugin-oc \
 locale-xfce4-sensors-plugin-pl \
 locale-xfce4-sensors-plugin-pt \
 locale-xfce4-sensors-plugin-pt-BR \
+locale-xfce4-sensors-plugin-ro \
 locale-xfce4-sensors-plugin-ru \
 locale-xfce4-sensors-plugin-sk \
 locale-xfce4-sensors-plugin-sl \

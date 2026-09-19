@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.0"
 
-RPM_NAME = "libgupnp-igd-devel-1.6.0-2.1.aarch64.rpm"
-RPM_HASH = "b2f1b5ca672f005af704c655250832ad5bce3a180f29f2bd2d05d271eace51429e0d8ac124fb88ac1ace9a0380a975c096632dc3f14b95fcabcaddec3ede5cb9"
+RPM_NAME = "libgupnp-igd-devel-1.6.0-2.13.aarch64.rpm"
+RPM_HASH = "da977fb50fb55b63834725d8fca6c8b1f2ba6637f4dec1f433534bb73b1391f4f6da8ebac4d2b40a7b17151f0d2ac115edab14457700d8e1a09d7117bd03c896"
 
 RPROVIDES:${PN} += "libgupnp-igd-devel \
 pkgconfig-gupnp-igd-1.6"

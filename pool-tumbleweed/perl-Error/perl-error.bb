@@ -8,10 +8,10 @@ Errors in the class 'Error' should not be thrown directly, but the user \
 should throw errors from a sub-class of 'Error'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.17029"
+PV = "0.170.300"
 
-RPM_NAME = "perl-Error-0.17029-1.15.noarch.rpm"
-RPM_HASH = "7efa416da13d3434255b80e75eb1fc1676d994a29a761b3aef3696b7d16207a3917c7d19d422e5955b0900399fbf1b26bbdf0b325e19a447931cc9b6c586eea1"
+RPM_NAME = "perl-Error-0.170.300-1.9.noarch.rpm"
+RPM_HASH = "5d13eea99918eef629021d59b3ba6573f5216fbcdf02025003fd4591b2b0fa99c07ffa19e12c95d6924d3212f7a92d4f92b98a97a95d96a5b19429fede08f179"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Error \
@@ -19,6 +19,6 @@ perl-Error--Simple \
 perl-Error--WarnDie \
 perl-Error--subs"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

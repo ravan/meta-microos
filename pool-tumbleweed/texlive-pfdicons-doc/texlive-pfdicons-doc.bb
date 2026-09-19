@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pfdicons"
 DESCRIPTION = "This package includes the documentation for texlive-pfdicons"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn60089"
+PV = "2026.226.1.1svn77771"
 
-RPM_NAME = "texlive-pfdicons-doc-2023.209.1.0asvn60089-52.1.noarch.rpm"
-RPM_HASH = "9d55ff1ec27224928e7cd47c9b3b7dae77c3af710b9cc70d5b7861eca75e65f80a228fbe38f063c9a5e08c36055f0a8299f0395edf594535a57ec12b9241c505"
+RPM_NAME = "texlive-pfdicons-doc-2026.226.1.1svn77771-58.2.noarch.rpm"
+RPM_HASH = "630a228151af611cddea3f56c9c872b0ada86a93a25d3a2f772a3c9bea35be4054aa3fbc6d1e288c261241c46e7390781f37df07e3f553b2b762e85ea47a3678"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pfdicons-doc"

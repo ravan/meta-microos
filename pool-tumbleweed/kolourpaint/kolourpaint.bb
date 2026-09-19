@@ -1,37 +1,35 @@
 SUMMARY = "Paint Program"
-DESCRIPTION = "Paint program by KDE"
-LICENSE = "BSD-2-Clause & LGPL-2.1-or-later & GFDL-1.2-or-later & GPL-2.0-only"
+DESCRIPTION = "Paint program by KDE."
+LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kolourpaint-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "a284ba651093acaf8606ef55b5280fed228a8b0d53efaf2a1123ddd80693c4256095ec8ab51e197d767829df721e80474ff29f015e2a3c804b7d22580a1a850d"
+RPM_NAME = "kolourpaint-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "bdf26d996a79208266216c49a86a1586b7f1e3f5dd541ac62ee718c68af1e45f9cffa87d4d721a4a166b8debde49d78afffdd8ecfdac8264c1b9d5ebc86f36bd"
 
 RPROVIDES:${PN} += "kolourpaint \
 kolourpaint5 \
 libkolourpaint-lgpl.so.5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-kdelibs4support \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5Sane.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKSaneWidgets6.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6"

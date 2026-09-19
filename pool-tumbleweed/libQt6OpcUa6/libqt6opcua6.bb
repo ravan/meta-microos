@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 OpcUa Client Library"
 DESCRIPTION = "Qt 6 OpcUa Client Library."
-LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-or-later)"
+LICENSE = "(GPL-2.0-or-later | LGPL-3.0-only) & GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6OpcUa6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "66b3d0502ac2647504d9010d478e0ec1252396f83d7fc80ec2413f08a0f6cb7dbc82b7869a6f104ce71ddc6bd2d18aeae7f45f9511101629939baf254d3bcdbf"
+RPM_NAME = "libQt6OpcUa6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "7e146863327dfa379d19c71e6442768daa3388f35f0ac931a474b1e653f4e2805ac5cbda40cca3842fd82a216568385511c5023e6ce974043dd4336563391b52"
 
 RPROVIDES:${PN} += "libQt6OpcUa.so.6 \
 libQt6OpcUa6"

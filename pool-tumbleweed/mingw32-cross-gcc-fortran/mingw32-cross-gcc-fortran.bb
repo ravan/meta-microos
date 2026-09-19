@@ -2,10 +2,10 @@ SUMMARY = "MinGW Windows cross-compiler for Fortran"
 DESCRIPTION = "MinGW Windows cross-compiler for Fortran"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw32-cross-gcc-fortran-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "bc41185f294687ed601d6a919cacff8adbe784bd39b93683f215d97917cd31e83da0e35150033b5067eb7e10262bb6c2ecc7c16ab6e9f7040a5549b0c72c2f7b"
+RPM_NAME = "mingw32-cross-gcc-fortran-16.2.0-1.1.aarch64.rpm"
+RPM_HASH = "664c42d640e35258666f3da8c89eeac3dcbb5f7928e06c4463716392c302ac616fd2e899441ac4cb94980b879a607eaabe8eec80eaf5c5ad866d9394c8726de5"
 
 RPROVIDES:${PN} += "mingw32-cross-gcc-fortran"
 

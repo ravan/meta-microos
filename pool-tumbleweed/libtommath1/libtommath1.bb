@@ -6,10 +6,10 @@ can be used to write one [Used in LibTomCrypt for RSA, DH and ECC public key \
 routines]."
 LICENSE = "Unlicense"
 
-PV = "1.2.0"
+PV = "1.3.0"
 
-RPM_NAME = "libtommath1-1.2.0-3.1.aarch64.rpm"
-RPM_HASH = "8975651b35228ed539f7b1a908b9034bd0414598559aae541b2911c3080a2330a79bd546034102a52c0e6765b0fbe44a17ee6c5d50a98fda75f13c11f07da3cd"
+RPM_NAME = "libtommath1-1.3.0-1.9.aarch64.rpm"
+RPM_HASH = "5601b8f3a1a36163abc47eaab3355a522ab8656d32d147fa4b310fbefc3badcf3bfe0857aa73ba80b53a03be795252d2fcf87dabfca6aa39626bfd20e05cb9e3"
 
 RPROVIDES:${PN} += "libtommath.so.1 \
 libtommath1"

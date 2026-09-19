@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to compile and develop applications that use libspiro."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20221101"
+PV = "20240903"
 
-RPM_NAME = "libspiro-devel-20221101-1.2.aarch64.rpm"
-RPM_HASH = "e835d2cb6a148db04f0c75122415a149cbe14b8a8c42397ade5d6088fd6730ad3aea8b91009006bb3245c34b881d11adc8c1ed8273cc047ca3afe0e8bc03fa2d"
+RPM_NAME = "libspiro-devel-20240903-1.5.aarch64.rpm"
+RPM_HASH = "685bfb431c7e98b56aaa62edcf2ed265db31fe631cd25a319f90b75c32ff85c776469866a43097d0a731f4b9345e42da5ec5a9010823cefb9d0f3e3b2eaf4978"
 
 RPROVIDES:${PN} += "libspiro-devel \
 pkgconfig-libspiro"

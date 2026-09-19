@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.10"
 
-RPM_NAME = "liblzo2-2-2.10-8.3.aarch64.rpm"
-RPM_HASH = "51338be400813140307725efd99986623e22c094c57b88c7e1b9b867a087362e65f3d39950dba83ecf176e7fa734af4485f3cbfb0cba8c7c7483c735000fccd6"
+RPM_NAME = "liblzo2-2-2.10-9.10.aarch64.rpm"
+RPM_HASH = "3d37c6e00db855ab7d5badee969fe69c8184a9fca5d9367ffadc94dcf265d84233164e8c21d27ad394201df806803de46dab79117f56bdf7a4a15385f3cefc74"
 
 RPROVIDES:${PN} += "liblzo2-2 \
 liblzo2.so.2 \

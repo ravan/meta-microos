@@ -2,10 +2,10 @@ SUMMARY = "Translations for package lxpanel"
 DESCRIPTION = "Provides translations for the 'lxpanel' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.10.1"
+PV = "0.11.1"
 
-RPM_NAME = "lxpanel-lang-0.10.1-1.11.noarch.rpm"
-RPM_HASH = "867dc11f2bc4473687c6a48e6c5824315e9f5618d53ba6dbd58cbdf744b51451097a6a20035375d7c13227ebb49fdf8d946cef3d91d5c55ac5fac2cc053283cd"
+RPM_NAME = "lxpanel-lang-0.11.1-1.4.noarch.rpm"
+RPM_HASH = "ea2e15f7b2c54fbc5f8c33cb09c59a82f535e62a49ecce833ae64eea20a19266fd30b2bf866fbacd070199528e43fc15091fec8760f274863d6913728fa2cd39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lxpanel-af \
@@ -34,6 +34,7 @@ locale-lxpanel-id \
 locale-lxpanel-is \
 locale-lxpanel-it \
 locale-lxpanel-ja \
+locale-lxpanel-ka \
 locale-lxpanel-kk \
 locale-lxpanel-km \
 locale-lxpanel-ko \

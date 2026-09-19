@@ -8,10 +8,10 @@ To use a component of this library, files need to be copied to the \
 source code tree where it is supposed to be used."
 LICENSE = "MIT"
 
-PV = "1.0~git.20210716"
+PV = "1.0~git.20251221"
 
-RPM_NAME = "klib-devel-1.0~git.20210716-1.2.noarch.rpm"
-RPM_HASH = "3d3ca0fd7d419c638ed6852655455a215d462603d55ba80d6960477a54b0373ef86301d502d57ac4effda0a1ed6d31e3e0a4c25df736c0e67c897eab96ed7d72"
+RPM_NAME = "klib-devel-1.0~git.20251221-1.2.noarch.rpm"
+RPM_HASH = "ef814c0ce68dfabbc55d12c290bd579de8a0145552f205d3149fc2095d4ebd566a14a2a47412c92571e4d963491eb3ae67391adfaa79f1a7ad542ea33036b7ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "klib-devel"

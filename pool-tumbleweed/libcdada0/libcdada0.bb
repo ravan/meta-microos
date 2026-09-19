@@ -8,10 +8,10 @@ Key features: \
  - Uses C++ standard library as the backend for most data structures"
 LICENSE = "BSD-2-Clause"
 
-PV = "0.4.0"
+PV = "0.6.4"
 
-RPM_NAME = "libcdada0-0.4.0-1.7.aarch64.rpm"
-RPM_HASH = "20ab5029eb5ad3b759451f2f0d4d0d52c6481086e5d4592389d2f2a80e5b85718ecd56e7915009f1fdbdbf74c80a4aa069bb6dcae377028f712e4f37ecbc2b5f"
+RPM_NAME = "libcdada0-0.6.4-1.3.aarch64.rpm"
+RPM_HASH = "8313da6a3b9ba93ba3be2163c2272a14850604021d3e88bb329a320c8789f36418e17c9a9c6717472bb42f82439d67ef13dd4fb5962fbcfef1e709ceeed2bf82"
 
 RPROVIDES:${PN} += "libcdada.so.0 \
 libcdada0"

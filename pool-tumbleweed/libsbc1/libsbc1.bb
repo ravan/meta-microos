@@ -2,10 +2,10 @@ SUMMARY = "Bluetooth Low-Complexity, Sub-Band Codec Library"
 DESCRIPTION = "The package contains libraries for using the SBC codec."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.5"
+PV = "2.2"
 
-RPM_NAME = "libsbc1-1.5-2.12.aarch64.rpm"
-RPM_HASH = "c52fb05cc31a9a815019985ae1d7dfb4888852433b8a63f002cd0c890ea46a754dc7a0582eec753e51cde7b0e8b80713279d9b68dff5e00db2006119da482f1c"
+RPM_NAME = "libsbc1-2.2-1.3.aarch64.rpm"
+RPM_HASH = "cfeddebdff0cfb193c7f4e203dbc5b532110e20f33ae9b1ebfacb75b6d901254c5462889d46836b9b6ec70cb6c3d0bd2a08cec377ed74e5c572dd493cfe7b35c"
 
 RPROVIDES:${PN} += "libsbc.so.1 \
 libsbc1"

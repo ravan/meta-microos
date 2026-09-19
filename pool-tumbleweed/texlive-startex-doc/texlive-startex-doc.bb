@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-startex"
 DESCRIPTION = "This package includes the documentation for texlive-startex"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.04svn35718"
+PV = "2026.226.1.04svn69742"
 
-RPM_NAME = "texlive-startex-doc-2023.209.1.04svn35718-58.1.noarch.rpm"
-RPM_HASH = "b6ac58142b8ec7ab59087e3d83d64b576b366b6ec02c4419f73d391e17d905d711a4e8a5cc00c6817ff8cc14fa232c6afaf4d32a68b9597b343368f228cb4baf"
+RPM_NAME = "texlive-startex-doc-2026.226.1.04svn69742-64.2.noarch.rpm"
+RPM_HASH = "9b95ce5f0f144b8d814c99b95032761b927bb1187fbc7764f0261ad84e1fe77806ba0fa35d3372715ac9f5479c99d18277c4591a44105c24f384abde986f3be8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-startex-doc"

@@ -4,12 +4,12 @@ produced by ACS. \
  \
 This driver is meant to be used with the PCSC-Lite daemon from the \
 pcsc-lite package."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7.11"
 
-RPM_NAME = "pcsc-acr38-1.7.11-7.26.aarch64.rpm"
-RPM_HASH = "e1bf028695fa169961ac34e57118d313dcde137723f856fcf291e7414413afd337a41eee8fc779ecc6f44fd06ec1c665b093e44284580356c8de9b89e4d8a88b"
+RPM_NAME = "pcsc-acr38-1.7.11-9.5.aarch64.rpm"
+RPM_HASH = "fe6bc8b7b22948897a6646c4d06dcb6b0e01756275e430c35e232a880e708ff6a5ccf6aa29ad3847bc4df39c24595c642703be875713f5e1e23ceaf0a5e252de"
 
 RPROVIDES:${PN} += "pcsc-acr38"
 

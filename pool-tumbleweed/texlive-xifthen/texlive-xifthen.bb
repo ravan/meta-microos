@@ -8,10 +8,10 @@ with the ability of defining new commands to handle complex \
 tests."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4.0svn38929"
+PV = "2026.226.1.4.0svn77682"
 
-RPM_NAME = "texlive-xifthen-2023.209.1.4.0svn38929-53.2.noarch.rpm"
-RPM_HASH = "60a1a1a1114c7b98fc0b2577622d8eceb5cd61d7006a7279ebb34d4acd36f43f089e170d49a1a0180b9cd3072501f31ad246e49fa71632ad0ff84246a06478d7"
+RPM_NAME = "texlive-xifthen-2026.226.1.4.0svn77682-59.4.noarch.rpm"
+RPM_HASH = "a683546f6fe4d0fc6c1f29e7f3fbfde124423c42391bcbd6110a15375cda1b8bd53afa70b9c644997fc548d25e8f82f9f4d02af05219ebd39b1fff2db72a404d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xifthen.sty \

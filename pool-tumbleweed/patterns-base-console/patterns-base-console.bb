@@ -2,10 +2,10 @@ SUMMARY = "Console Tools"
 DESCRIPTION = "Applications useful for those using the console and no graphical desktop environment."
 LICENSE = "MIT"
 
-PV = "20200505"
+PV = "20241218"
 
-RPM_NAME = "patterns-base-console-20200505-42.1.aarch64.rpm"
-RPM_HASH = "cfadd0aa758bde96030139807c3a4a664e79e250e49894e0dfa0aa56c53a6da5eb9fe4682a5100cd2af48c9dcf950ec618ec1e9a246e9981d820bfd12ab6e7d6"
+RPM_NAME = "patterns-base-console-20241218-34.1.aarch64.rpm"
+RPM_HASH = "794eedd6d981e22b4d413dd037118691a33bcb5810ae17872adf1eab77fcaacdd0cec4eb4caee191e980934ee14604a8a69d70cad07c1d55bd7921d33c993e81"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

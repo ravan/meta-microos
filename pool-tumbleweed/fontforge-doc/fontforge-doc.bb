@@ -6,10 +6,10 @@ can convert among PostScript, TrueType, OpenType, and CID-keyed fonts. \
 This subpackage contains the documentation to FontForge."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230101"
+PV = "20251009"
 
-RPM_NAME = "fontforge-doc-20230101-1.4.noarch.rpm"
-RPM_HASH = "1077b59a7d1072c9462300b1b743e746e4c2ae6e0cf09cd4d2a5daa88936e6d59d5f9b21eb8e45f7f28bbc155532367fe83a1bd06a1ed59b83ec9043989491a2"
+RPM_NAME = "fontforge-doc-20251009-7.3.noarch.rpm"
+RPM_HASH = "49635a8450986d1369e332d69dc0ad0b7e94f0b62045fdf3d9f5085ac7f810c19615b8fe83a9348bb096cc4ac06732930cf422abc5b529d87865f279a3bc3523"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontforge-doc"

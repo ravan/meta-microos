@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for bspwm"
 DESCRIPTION = "Fish completion for bspc"
 LICENSE = "BSD-2-Clause"
 
-PV = "0.9.10"
+PV = "0.9.12"
 
-RPM_NAME = "bspwm-fish-completion-0.9.10-1.12.noarch.rpm"
-RPM_HASH = "e199531349c28a73356aaee2654d919d56e3e5a093fe36490b663b891c29e29ed0d9fa0df35c9b3ebe8ca066a4d2e7b04f92dd83321d329cd4e8d01268b130e9"
+RPM_NAME = "bspwm-fish-completion-0.9.12-1.5.noarch.rpm"
+RPM_HASH = "4d90463d20a7f0d90b67fcecf88be51c7166454052ee4c17b15c59a5061a053ae0f461eb20350a5bfe69684bab35a29374437abbe90ddd446303004ff8bac849"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bspwm-fish-completion"

@@ -3,10 +3,10 @@ DESCRIPTION = "This is a collection of scripts used to connect github via jenkin
 open build service."
 LICENSE = "MIT"
 
-PV = "1.3"
+PV = "1.5"
 
-RPM_NAME = "linuxrc-devtools-1.3-1.1.noarch.rpm"
-RPM_HASH = "8e2daf833fee49aae232b42eec8af34d6a42cd49ab9a0863502b1fb19d4d66a9373e8f04177b6cc174aa15457f60671e54dd69133d27407ff178407ef4c510c1"
+RPM_NAME = "linuxrc-devtools-1.5-1.4.noarch.rpm"
+RPM_HASH = "f8476c94e39b5e59e96399de7dc7ea04fcb5d9df600145379bb055522d012e41192980125e1199994a8e32a2b87048acc5e4a3d4a12b39d81256da0a898ee09b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "linuxrc-devtools"

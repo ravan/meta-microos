@@ -2,13 +2,14 @@ SUMMARY = "Translations for package xfce4-notifyd"
 DESCRIPTION = "Provides translations for the 'xfce4-notifyd' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.8.2"
+PV = "0.9.7"
 
-RPM_NAME = "xfce4-notifyd-lang-0.8.2-1.4.noarch.rpm"
-RPM_HASH = "c5e77d0f0b22db88bec68cf25a5272225af3038b6f31a78ec4d1f62064ca51068d7f05e492645ba7b34cc38c1538e2ec554dcb8dd8bb76437f563f990f3654e4"
+RPM_NAME = "xfce4-notifyd-lang-0.9.7-1.7.noarch.rpm"
+RPM_HASH = "234e8c04e4c4a76b72790b03907069f8daf2e11ec3d4c87c82bca3bb5d72f27892b56c2351f3ead61d295169c18d57d88f3e11b06f15d6e39f06d4f0f04e4c83"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-xfce4-notifyd-ast \
+RPROVIDES:${PN} += "locale-xfce4-notifyd-ar \
+locale-xfce4-notifyd-ast \
 locale-xfce4-notifyd-be \
 locale-xfce4-notifyd-bg \
 locale-xfce4-notifyd-ca \

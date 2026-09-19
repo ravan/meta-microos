@@ -19,13 +19,13 @@ diff -u \\ \
    <(crane export gcr.io/kaniko-project/executor:v1.7.0-debug - | tar -tvf - | sort)"
 LICENSE = "Apache-2.0"
 
-PV = "0.12.1"
+PV = "0.22.1"
 
-RPM_NAME = "crane-0.12.1-1.3.aarch64.rpm"
-RPM_HASH = "f0e389e4ad05424e2782d66c08aabf5eb6f82f2165f8921e29bdd3cb4267e0b0b67a4be0fca346f29b6f7a925ab541dd506dd913f7e2cb9edf2f500f6abf0b12"
+RPM_NAME = "crane-0.22.1-1.1.aarch64.rpm"
+RPM_HASH = "6111ac219964ef1f68552347ce543169a955ba317d01b1f6204a3780bf41b60b065fd5475afaa1cc509019e78d8dd9f67f688df7488ecbf60dbabd14665d1628"
 
 RPROVIDES:${PN} += "crane"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

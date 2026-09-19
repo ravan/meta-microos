@@ -2,10 +2,10 @@ SUMMARY = "Tracing tools from the BPF Compiler Collection"
 DESCRIPTION = "Python tracing scripts from the BPF Compiler Collection."
 LICENSE = "Apache-2.0"
 
-PV = "0.26.0"
+PV = "0.37.0"
 
-RPM_NAME = "bcc-tools-0.26.0-2.12.aarch64.rpm"
-RPM_HASH = "9ca533a93f5036c759a3cc16b0908d2ea22a18474387eb08fc2a9bf6ab3e4b5667d53c4ff5ef90dbc75b80bab1879b8695069827fea09168fdff7e1a95c16402"
+RPM_NAME = "bcc-tools-0.37.0-4.1.aarch64.rpm"
+RPM_HASH = "52ebf57947aef0b3cd4e87e2845f7b16a75f3e31000a85c3b2fa250f7ef50effc22163ac8ea5f6ed35b781b7edd76f817ea5af749518e7ac0c716631762e12e5"
 
 RPROVIDES:${PN} += "bcc-tools"
 
@@ -17,6 +17,6 @@ libbcc-bpf.so.0 \
 libbpf.so.1 \
 libc.so.6 \
 python3-bcc \
-python3-future"
+python3-pyelftools"
 
 inherit rpm

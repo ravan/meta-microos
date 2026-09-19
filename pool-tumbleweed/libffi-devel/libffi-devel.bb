@@ -5,10 +5,10 @@ call any function specified by a call interface description at run \
 time."
 LICENSE = "MIT"
 
-PV = "3.4.4"
+PV = "3.5.2"
 
-RPM_NAME = "libffi-devel-3.4.4-1.4.aarch64.rpm"
-RPM_HASH = "ecec01166814db4dd0c5abc7245d9c4e8d86c485f1aa3e44660c8fc0e38269a6c4aa566b5c450ed853c73264949c6f398887b7e40135e16cafaca360631cfd20"
+RPM_NAME = "libffi-devel-3.5.2-2.4.aarch64.rpm"
+RPM_HASH = "b409844a87979c3dcea3f10bdb24acda0bfa30e168280780246fea56808a1d7f6bde0bc328421d7a7e2b5606e2a96b23fe5de86642fa63d9408c9588f8117a46"
 
 RPROVIDES:${PN} += "libffi-devel \
 pkgconfig-libffi"

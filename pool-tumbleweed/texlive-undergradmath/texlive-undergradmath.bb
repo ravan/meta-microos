@@ -3,10 +3,10 @@ DESCRIPTION = "This is a cheat sheet for writing mathematics with LaTeX. It is \
 aimed at US undergraduates."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn57286"
+PV = "2026.226.svn57286"
 
-RPM_NAME = "texlive-undergradmath-2023.209.svn57286-54.1.noarch.rpm"
-RPM_HASH = "eb5c487a37f857e1968b3743172604d811bd4949d655c1d43c09ba15aaf7a01af10755f1b65c30151e7a601af45a3f354e8dd2cfed02daa1dbb6c60cc0fa48a7"
+RPM_NAME = "texlive-undergradmath-2026.226.svn57286-60.2.noarch.rpm"
+RPM_HASH = "e4282627e7c6aea5de03a4d8b73c687f5e4c1bc143a0a6e725977cba6c2cb617603b2175568fe5f00e068c2a65b58296639b7e372d1b3b686f9ec8523a1ba1b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-undergradmath"

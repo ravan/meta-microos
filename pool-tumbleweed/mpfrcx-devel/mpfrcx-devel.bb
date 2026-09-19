@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.6.3"
 
-RPM_NAME = "mpfrcx-devel-0.6.3-1.7.aarch64.rpm"
-RPM_HASH = "13aabbe027d1ff167fba89c6166597e0f12da13278b81cb9662993e470708849fb16cc5651138aa637486856024f5d032fa883d2ae919222b23164248c373a65"
+RPM_NAME = "mpfrcx-devel-0.6.3-1.17.aarch64.rpm"
+RPM_HASH = "3f9c3797c3d63f6feea2e2e2204ca0d7af0d75ae4eacacc1ab3e7d8d381ea4fa5d6e3b22cc14e6d0996280aa43c15297ec107635e6429deeacaf3c290cfb053a"
 
 RPROVIDES:${PN} += "mpfrcx-devel"
 

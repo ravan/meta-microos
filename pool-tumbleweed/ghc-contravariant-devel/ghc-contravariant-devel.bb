@@ -2,19 +2,19 @@ SUMMARY = "Haskell contravariant library development files"
 DESCRIPTION = "This package provides the Haskell contravariant library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.5.5"
+PV = "1.5.6"
 
-RPM_NAME = "ghc-contravariant-devel-1.5.5-2.8.aarch64.rpm"
-RPM_HASH = "df3fb1d68fd66836441804d6e7f15901b3f030610f6c4f006ff7d562735cc837f49c3a72a21dfbafac2fbde63aea92803778f9fca0d27c277a092055b8265739"
+RPM_NAME = "ghc-contravariant-devel-1.5.6-1.3.aarch64.rpm"
+RPM_HASH = "f1085a6fc844b2bcf48ffb1470583ef74ad90fd8e3c26cfcec9cb802dc1930e561c6be44040273d3849a6314d717076e6b567268676cf075fd01d203d4547059"
 
 RPROVIDES:${PN} += "ghc-contravariant-devel \
-ghc-devel-contravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT"
+ghc-devel-contravariant-1.5.6-7FVTzec2jegEwzkeRkQOi4"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-contravariant \
-ghc-devel-StateVar-1.2.2-8Hv9klK7mv0HId52XsoM7J \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-transformers-0.5.6.2"
+ghc-devel-StateVar-1.2.2-Fp8KJyjTxyjFvIxRBzfDbA \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-transformers-0.6.3.0-4709"
 
 inherit rpm

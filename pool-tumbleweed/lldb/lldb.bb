@@ -9,13 +9,13 @@ lldb that openSUSE currently supports.  Packages that \
 don't require a specific LLDB version should depend on this."
 LICENSE = "Apache-2.0-with-LLVM-exception | NCSA"
 
-PV = "16.0.6"
+PV = "23"
 
-RPM_NAME = "lldb-16.0.6-1.1.aarch64.rpm"
-RPM_HASH = "6b15278ca3e07d9ea0378c25e3451e18c095153915729eaba24a484e9d6765a9ca04c45c8b67e83005e4f4ef11790530f0a2402b451dd8413d593e004e659dee"
+RPM_NAME = "lldb-23-1.1.aarch64.rpm"
+RPM_HASH = "9c7b94356323ebd32a6b726f60306944de6e8cd3820c7a5c1563cffcb8d8250816d66e79e29ea5c46acec344866d3d4e3fc228bf3ada5056699b8730d5c7290e"
 
 RPROVIDES:${PN} += "lldb"
 
-RDEPENDS:${PN} += "lldb16"
+RDEPENDS:${PN} += "lldb23"
 
 inherit rpm
