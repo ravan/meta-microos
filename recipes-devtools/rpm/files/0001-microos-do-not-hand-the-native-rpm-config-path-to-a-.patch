@@ -1,0 +1,40 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: meta-microos <noreply@example.invalid>
+Date: Thu, 1 Jan 1970 00:00:00 +0000
+Subject: [PATCH] Do not hand the native rpm's config path to a scriptlet
+
+poky's dnf wrapper exports RPM_CONFIGDIR and RPM_ETCCONFIGDIR so that the
+relocatable rpm-native can find its own macros in the recipe sysroot. rpm
+passes its whole environment to a scriptlet, and upstream rpm reads both
+variables (rpmio/rpmfileutil.c, lib/rpmrc.c).
+
+In meta-microos the scriptlet runs inside a real chroot into the image, so
+those two paths do not exist there. Any scriptlet that calls the image's own
+rpm therefore fails:
+
+  /usr/bin/permctl -n --set --system /usr/bin/su
+  error: Unable to open .../recipe-sysroot-native/usr/lib/rpm/rpmrc for reading
+  /usr/bin/su: rpm sub-process exited with 1. Cannot determine package ownership.
+
+Drop both variables in the scriptlet child, next to where rpm sets PATH. The
+image's rpm then uses its own compiled-in /usr/lib/rpm, and the parent process
+keeps the variables it needs.
+
+Upstream-Status: Inappropriate [meta-microos specific]
+---
+ lib/rpmscript.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+--- a/lib/rpmscript.c
++++ b/lib/rpmscript.c
+@@ -256,6 +256,10 @@
+ 	free(ipath);
+     }
+ 
++    /* The scriptlet runs inside the image, where the native rpm is not. */
++    unsetenv("RPM_CONFIGDIR");
++    unsetenv("RPM_ETCCONFIGDIR");
++
+     for (ARGV_const_t pf = prefixes; pf && *pf; pf++) {
+ 	char *name = NULL;
+ 	int num = (pf - prefixes);

@@ -1,0 +1,248 @@
+#!/usr/bin/env python3
+"""Link the development RPMs a cross build needs into recipes-sysroot/.
+
+scripts/microos links only the MicroOS runtime group, which is an image package
+list: it has glibc but not glibc-devel, libstdc++6 but not libstdc++6-devel. A
+compiler cannot build against that.
+
+This script starts from the seed packages in conf/sysroot-packages.txt, follows
+RDEPENDS through the pool until the set closes, and links the result into
+recipes-sysroot/. Without the closure BitBake stops at the first unresolved name
+("Nothing RPROVIDES 'libsframe2'") and the chain is long enough that maintaining
+it by hand is not realistic.
+
+Packages any other recipes-* directory already links are skipped: two symlinks to
+the same .bb make BitBake parse the recipe twice.
+
+Safe to re-run. It removes the symlinks it made before re-making them.
+"""
+
+import argparse
+import pathlib
+import re
+import sys
+
+PREFERRED = re.compile(r'^PREFERRED_RPROVIDER_(\S+)\s*\??=\s*"(\S+)"')
+
+LIST_VAR = re.compile(
+    r'^(RDEPENDS|RPROVIDES):\$\{PN\}\s*\+?=\s*"(.*?)"', re.MULTILINE | re.DOTALL
+)
+
+
+# MICROOS_IMAGE_PACKAGES = "\ ... " in a BitBake include.
+ASSIGNMENT = re.compile(r'^\s*[A-Z_0-9]+\s*\??=\s*"(.*?)"\s*$', re.MULTILINE | re.DOTALL)
+
+
+def read_seeds(path):
+    """Read the package names out of a BitBake include.
+
+    The lists are BitBake includes rather than plain text so that BitBake knows
+    the image recipe depends on them. Everything outside the quoted value is a
+    comment, and the value itself is whitespace separated with backslash line
+    continuations.
+    """
+    text = path.read_text()
+    text = "\n".join(line.split("#", 1)[0] for line in text.splitlines())
+    match = ASSIGNMENT.search(text)
+    if not match:
+        # A plain one-name-per-line list still works.
+        return [line for line in text.split() if line]
+    return [name for name in match.group(1).replace("\\", " ").split() if name]
+
+
+def scan_pool(pool):
+    """Return (rdepends, providers, aliases) for every package in the pool.
+
+    "providers" maps a required name to the package that satisfies it. A real
+    package name always wins over an alias, so the pass that registers package
+    names runs to completion before any RPROVIDES alias is considered. Doing
+    both in one pass lets "systemd-mini" claim the name "systemd" simply because
+    it happened to be read first.
+
+    "aliases" keeps every candidate for a name, so callers can report the ones
+    that need a deliberate choice.
+    """
+    rdepends = {}
+    rprovides = {}
+    for pkg_dir in sorted(pool.iterdir()):
+        if not pkg_dir.is_dir():
+            continue
+        name = pkg_dir.name
+        recipe = pkg_dir / f"{name.lower()}.bb"
+        if not recipe.exists():
+            found = list(pkg_dir.glob("*.bb"))
+            if not found:
+                continue
+            recipe = found[0]
+        text = recipe.read_text(errors="replace")
+        deps, provs = [], []
+        for var, body in LIST_VAR.findall(text):
+            items = [i for i in body.replace("\\", " ").split() if i]
+            (deps if var == "RDEPENDS" else provs).extend(items)
+        rdepends[name] = deps
+        rprovides[name] = provs
+
+    # Pass one: every package provides its own name, and nothing may take it.
+    providers = {name: name for name in rdepends}
+
+    # Pass two: aliases such as "libc.so.6" or "systemd", which several packages
+    # may claim. First writer wins, and read_preferences() settles the ones that
+    # matter.
+    aliases = {}
+    for name, provs in rprovides.items():
+        for p in provs:
+            if p in providers:
+                continue
+            aliases.setdefault(p, []).append(name)
+    for alias, candidates in aliases.items():
+        providers[alias] = candidates[0]
+
+    return rdepends, providers, aliases
+
+
+def read_preferences(path):
+    """Read the PREFERRED_RPROVIDER lines BitBake already uses.
+
+    An alias such as "systemd" or "/usr/bin/sh" has several candidates in the
+    pool, and BitBake is told which one wins in providers.inc. Reading the same
+    file here keeps one source of truth: without it the closure can link
+    systemd-mini while BitBake builds systemd, and the two disagree silently.
+    """
+    prefs = {}
+    if not path.is_file():
+        return prefs
+    for line in path.read_text().splitlines():
+        match = PREFERRED.match(line.strip())
+        if match:
+            prefs[match.group(1)] = match.group(2)
+    return prefs
+
+
+def close_over(seeds, rdepends, providers, preferences=None):
+    # providers.inc names packages the way BitBake does, lower case, because
+    # that is what scripts/microos writes as PN. The pool keeps the openSUSE
+    # spelling, so "microos-release" has to find the MicroOS-release directory.
+    by_lower = {name.lower().replace("_", "-"): name for name in rdepends}
+    preferences = {
+        alias: by_lower.get(pkg.lower().replace("_", "-"), pkg)
+        for alias, pkg in (preferences or {}).items()
+    }
+
+    wanted, unresolved, queue = set(), set(), list(seeds)
+    while queue:
+        name = queue.pop()
+        pkg = preferences.get(name) or providers.get(name)
+        if pkg is None:
+            unresolved.add(name)
+            continue
+        if pkg in wanted:
+            continue
+        wanted.add(pkg)
+        queue.extend(rdepends.get(pkg, []))
+    return wanted, unresolved
+
+
+def current_pool(marker=pathlib.Path("conf/current-arch"),
+                 fallback="pool-tumbleweed"):
+    """Read the pool that scripts/microos-arch last selected."""
+    if marker.is_file():
+        lines = [l.strip() for l in marker.read_text().splitlines() if l.strip()]
+        if len(lines) >= 2:
+            return lines[1]
+    return fallback
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("-p", "--pool", type=pathlib.Path,
+                        help="pool of generated recipes "
+                             "(default: the one named in conf/current-arch, "
+                             "else pool-tumbleweed)")
+    parser.add_argument("-r", "--recipes", default="recipes-sysroot", type=pathlib.Path,
+                        help="directory to fill with symlinks (default: recipes-sysroot)")
+    parser.add_argument("-e", "--existing", default=[], action="append",
+                        type=pathlib.Path,
+                        help="extra directory whose packages are already linked "
+                             "(default: every sibling recipes-* directory)")
+    parser.add_argument("-l", "--list", default=[], action="append",
+                        type=pathlib.Path,
+                        help="file naming the seed packages, repeatable "
+                             "(default: conf/sysroot-packages.txt)")
+    parser.add_argument("-P", "--providers",
+                        default="conf/distro/include/providers.inc",
+                        type=pathlib.Path,
+                        help="file holding the PREFERRED_RPROVIDER choices "
+                             "(default: conf/distro/include/providers.inc)")
+    parser.add_argument("-A", "--show-ambiguous", action="store_true",
+                        help="also list names several packages provide and that "
+                             "no PREFERRED_RPROVIDER settles")
+    args = parser.parse_args()
+
+    # Follow whichever CPU scripts/microos-arch selected. Defaulting to the
+    # aarch64 pool here would silently re-link the sysroot to the wrong
+    # architecture every time this runs on its own.
+    if args.pool is None:
+        args.pool = pathlib.Path(current_pool())
+
+    if not args.pool.is_dir():
+        sys.exit(f"pool {args.pool} not found - run scripts/microos first")
+
+    lists = args.list or [pathlib.Path("conf/sysroot-packages.txt")]
+    seeds = [seed for path in lists for seed in read_seeds(path)]
+    print(f"Scanning {args.pool} ...")
+    rdepends, providers, aliases = scan_pool(args.pool)
+    print(f"Read {len(rdepends)} packages, {len(providers)} provided names")
+
+    preferences = read_preferences(args.providers)
+    print(f"Read {len(preferences)} PREFERRED_RPROVIDER choice(s) "
+          f"from {args.providers}")
+
+    wanted, unresolved = close_over(seeds, rdepends, providers, preferences)
+    print(f"{len(seeds)} seed(s) close over {len(wanted)} package(s)")
+
+    existing_dirs = list(args.existing)
+    if not existing_dirs:
+        existing_dirs = [
+            d for d in args.recipes.parent.glob("recipes-*")
+            if d.is_dir() and d.resolve() != args.recipes.resolve()
+        ]
+    already = {e.name for d in existing_dirs for e in d.iterdir()}
+
+    args.recipes.mkdir(exist_ok=True)
+    for entry in args.recipes.iterdir():
+        if entry.is_symlink():
+            entry.unlink()
+
+    rel_pool = pathlib.Path("..", args.pool)
+    linked = 0
+    for name in sorted(wanted):
+        if name in already:
+            continue
+        (args.recipes / name).symlink_to(rel_pool / name)
+        linked += 1
+
+    print(f"Linked {linked} new package(s) into {args.recipes}")
+    print(f"{len(wanted) - linked} already linked elsewhere in the layer")
+    if unresolved:
+        print(f"WARNING: nothing in the pool provides: {', '.join(sorted(unresolved))}")
+
+    # A name several packages claim is a decision, not a detail. Linking the
+    # wrong one gives a working build of the wrong system, for example
+    # systemd-mini in place of systemd, so say which ones are still unsettled.
+    if args.show_ambiguous:
+        contested = {
+            name: candidates
+            for name, candidates in aliases.items()
+            if len(candidates) > 1 and name not in preferences
+        }
+        needed = {p for pkg in wanted for p in rdepends.get(pkg, [])}
+        contested = {n: c for n, c in contested.items() if n in needed}
+        if contested:
+            print(f"\n{len(contested)} name(s) in this closure have more than "
+                  f"one provider and no PREFERRED_RPROVIDER:")
+            for name in sorted(contested):
+                print(f"  {name}: {' '.join(sorted(contested[name]))}")
+
+
+if __name__ == "__main__":
+    main()

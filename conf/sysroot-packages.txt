@@ -1,0 +1,27 @@
+# Packages that must be visible to BitBake so that a cross build has a sysroot
+# to compile and link against.
+#
+# scripts/microos only links the packages of the MicroOS runtime group, which is
+# an image package list: it has libstdc++6 but not libstdc++6-devel, glibc but
+# not glibc-devel. A compiler needs the -devel halves, so list them here and run
+# scripts/microos-sysroot to link them in from the pool.
+#
+# One package name per line. Blank lines and # comments are ignored.
+
+# C library: headers, crt1.o, the libc.so linker script
+glibc-devel
+libxcrypt-devel
+
+# Kernel headers (openSUSE's name for linux-libc-headers)
+linux-glibc-devel
+
+# Start files (crtbegin.o, crtend.o) and libgcc.a that gcc-cross does not build
+# itself. Keep the NN in step with MICROOS_GCC_MAJOR in the tcmode include.
+gcc13
+
+# C++ headers and the libstdc++.so link symlink
+libstdc++6-devel-gcc13
+
+# Useful for building kernel modules against the MicroOS kernel
+kernel-default-devel
+kernel-devel

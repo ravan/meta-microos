@@ -3,7 +3,6 @@
 import argparse
 import fileinput
 import gzip
-import zstandard
 import pathlib
 import re
 import shutil
@@ -19,6 +18,7 @@ from dataclasses import dataclass
 REPO = {
     "x86_64": "https://download.opensuse.org/tumbleweed/repo/oss/",
     "aarch64": "https://download.opensuse.org/ports/aarch64/tumbleweed/repo/oss/",
+    "riscv64": "https://download.opensuse.org/ports/riscv/tumbleweed/repo/oss/",
 }
 
 
@@ -59,8 +59,14 @@ def read_and_parse(url):
         if url.endswith(".gz"):
             return ET.parse(gzip.open(resp)).getroot()
         elif url.endswith('.zst'):
-            xml_content = zstandard.ZstdDecompressor().decompress(resp.read())
-            return ET.fromstring(xml_content)
+            # Imported here, not at the top, so that other scripts can import
+            # this module for its linking helpers without needing zstandard.
+            import zstandard
+
+            # openSUSE now ships streaming zstd frames with no content size in
+            # the header, so decompress() cannot size its buffer. Stream it.
+            reader = zstandard.ZstdDecompressor().stream_reader(resp)
+            return ET.parse(reader).getroot()
         else:
             return ET.parse(resp).getroot()
 
@@ -81,11 +87,22 @@ def primary_xml(url):
     return read_and_parse(primary_url)
 
 
-def generate_package_list(url):
+def generate_package_list(url, arch):
     packages_xml = primary_xml(url).findall(
         "./{http://linux.duke.edu/metadata/common}package[@type='rpm']"
     )
     print(f"Found {len(packages_xml)} packages")
+
+    # The ports repositories now carry more than one architecture, e.g. the
+    # aarch64 one also holds armv7hl. Without this filter the last entry for a
+    # package name wins and we end up pinning an RPM for the wrong CPU.
+    keep = {arch, "noarch"}
+    packages_xml = [
+        p
+        for p in packages_xml
+        if p.findtext("{http://linux.duke.edu/metadata/common}arch") in keep
+    ]
+    print(f"Kept {len(packages_xml)} packages for {arch}")
 
     packages = []
 
@@ -205,6 +222,9 @@ def normalize_pkgs(pkgs):
 
 
 def update_pool(pool, packages):
+    # A second architecture starts with no pool directory at all, and the
+    # per-package mkdir below cannot create its parent.
+    pool.mkdir(parents=True, exist_ok=True)
     for package in packages:
         recipe = pool / package.name
         recipe.mkdir(exist_ok=True)
@@ -335,7 +355,7 @@ if __name__ == "__main__":
 
     old_version = distro_version(args.pool, args.release_pkg)
 
-    packages = generate_package_list(REPO[args.arch])
+    packages = generate_package_list(REPO[args.arch], args.arch)
     update_pool(args.pool, packages)
     prune_pool(args.pool, packages)
 

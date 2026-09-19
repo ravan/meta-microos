@@ -33,6 +33,22 @@ PREFERRED_RPROVIDER_systemd-presets-branding ?= "systemd-presets-branding-microo
 PREFERRED_PROVIDER_zlib ?= "libz1"
 PREFERRED_RPROVIDER_zlib ?= "libz1"
 
+#
+# Names that several packages in the pool provide, and that a MicroOS image has
+# to settle one way or the other. Without a choice here BitBake picks whichever
+# recipe it parsed first, which is how an image ends up with systemd-mini in
+# place of systemd, or the DVD flavour of the release package.
+#
+PREFERRED_RPROVIDER_/usr/bin/sh ?= "bash-sh"
+PREFERRED_RPROVIDER_dbus-broker-restart-behavior ?= "dbus-broker-block-restart"
+PREFERRED_RPROVIDER_distribution-release ?= "microos-release"
+PREFERRED_RPROVIDER_libgcc-s.so.1 ?= "libgcc-s1"
+PREFERRED_RPROVIDER_libgcc-s1 ?= "libgcc-s1"
+PREFERRED_RPROVIDER_libncursesw.so.6 ?= "libncurses6"
+PREFERRED_RPROVIDER_libtinfo.so.6 ?= "libncurses6"
+PREFERRED_RPROVIDER_libsystemd.so.0 ?= "libsystemd0"
+PREFERRED_RPROVIDER_product-flavor-MicroOS ?= "microos-release-appliance"
+
 # Select the MicroOS kernel.  Eventually this needs to be done in
 # conf/machine/include/<machine>.inc
 PREFERRED_PROVIDER_virtual/kernel ?= "kernel-default"

@@ -1,0 +1,211 @@
+#!/bin/sh
+#
+# Give rpm a rootfs it can chroot into, then run dnf.
+#
+# The dnf wrapper execs this from inside a user namespace, with pseudo
+# unloaded. Inside that namespace the build user is uid 0 for real, so rpm's
+# chroot(2) is a real chroot and rpm's chown(2) is a real chown. What rpm then
+# starts is an aarch64 binary, which the kernel hands to qemu-aarch64 through
+# binfmt_misc. See the scriptlets section of classes/microos-image.bbclass.
+#
+# A scriptlet runs inside that chroot and expects a few kernel filesystems to
+# be there. This script mounts them. The mounts live in the mount namespace the
+# wrapper also opened, so they disappear when dnf exits and none of them can
+# end up in the image.
+#
+# When dnf is done this script writes the owner of every file in the image to
+# a manifest beside the rootfs, then gives every file back to the build user on
+# disk. microos_reconcile_owners in classes/microos-image.bbclass reads the
+# manifest under pseudo and tells pseudo the owner each file should have. See
+# the scriptlets section of that class for why both halves are needed.
+#
+# Usage:  microos-dnf-ns <path to dnf.real> <dnf arguments...>
+
+set -u
+
+real=$1
+shift
+
+note() { echo "microos-dnf-ns: $*" >&2; }
+
+# Find the rootfs. dnf accepts both spellings, so read both.
+root=
+prev=
+for a in "$@"; do
+    case $a in
+        --installroot=*) root=${a#--installroot=} ;;
+    esac
+    case $prev in
+        --installroot) root=$a ;;
+    esac
+    prev=$a
+done
+
+# No rootfs means this is not an install - a repoquery, say. Nothing to mount.
+if [ -z "$root" ] || [ ! -d "$root" ]; then
+    exec "$real" "$@"
+fi
+
+mkdir -p "$root/proc" "$root/sys" "$root/dev"
+
+# /proc. A fresh procfs may be mounted in a user namespace that owns a pid
+# namespace, which the wrapper's "-p --fork" gives us.
+if mount -t proc proc "$root/proc"; then
+    note "mounted /proc"
+else
+    note "WARNING: could not mount /proc - scriptlets that read it will fail"
+fi
+
+# /sys. A fresh sysfs may not be mounted in a user namespace unless that
+# namespace also owns a network namespace, and unsharing the network would take
+# the package repository away. Bind the host's instead, read-only, so nothing a
+# scriptlet does can reach the build host's devices.
+if mount --rbind /sys "$root/sys"; then
+    mount --make-rslave "$root/sys" 2>/dev/null || true
+    if mount -o remount,ro,bind "$root/sys" 2>/dev/null; then
+        note "mounted /sys read-only"
+    else
+        note "mounted /sys (could not make it read-only)"
+    fi
+else
+    note "WARNING: could not mount /sys"
+fi
+
+# /dev. An empty tmpfs, with the few nodes a scriptlet actually opens bound
+# into it one at a time.
+#
+# mknod is not allowed in a user namespace, so the nodes cannot be created.
+# Bind mounts are allowed, and a bind of a single node gives a scriptlet
+# /dev/null without giving it the build host's disks, its /dev/kvm, or anything
+# else it could write to. Never bind the host's /dev itself.
+if mount -t tmpfs tmpfs "$root/dev"; then
+    bound=
+    for d in null zero full random urandom tty; do
+        [ -e "/dev/$d" ] || continue
+        : > "$root/dev/$d" 2>/dev/null || continue
+        if mount --bind "/dev/$d" "$root/dev/$d" 2>/dev/null; then
+            bound="$bound $d"
+        else
+            rm -f "$root/dev/$d"
+        fi
+    done
+    note "mounted /dev with:$bound"
+else
+    note "WARNING: could not mount /dev - scriptlets that write to /dev/null will fail"
+fi
+
+
+# ------------------------------------------------------------------ the PATH
+
+# Put the image's own directories at the end of PATH.
+#
+# rpm sets PATH itself before it runs a %pre or a %post - see the rpm bbappend,
+# which gives poky's rpm that behaviour back. It does not set one for a trigger
+# written in lua, and rpm has those: systemd's %transfiletriggerin is lua, it
+# calls "env bash", and with the build task's PATH alone that is
+#
+#   env: 'bash': No such file or directory
+#
+# A lua trigger runs inside the same chroot, so /usr/bin here is the image's.
+# The native directories stay in front, so nothing dnf itself looks up changes
+# unless it was going to fail anyway.
+PATH="$PATH:/usr/sbin:/usr/bin:/sbin:/bin"
+export PATH
+
+# ---------------------------------------------------------------- the owners
+
+# Run dnf, then hand the owners over. Not exec, because there is work after.
+"$real" "$@"
+rc=$?
+
+manifest=$(dirname "$root")/microos-owners.manifest
+rm -f "$manifest" "$manifest.bad"
+
+# Take the kernel filesystems away again before walking the tree. They go away
+# with the mount namespace anyway, but the walk below must not see them: /proc
+# alone is larger than the image, and the root of a mounted filesystem cannot
+# be chowned - a bind of /sys is read-only and reports the host's root as
+# 65534, which looks exactly like a file that escaped the namespace.
+#
+# "umount -l" is the second try. The recursive bind of /sys refuses a plain
+# umount, and a lazy one detaches it from this namespace at once, which is all
+# the walk needs. The mount itself dies with the namespace either way.
+#
+# If one is still there afterwards, leave it out of the walk rather than
+# reporting it as an escape. A mountpoint is compared by device number, which
+# needs no /proc.
+rootdev=$(stat -c %d "$root")
+prune=
+for d in proc sys dev; do
+    [ -d "$root/$d" ] || continue
+    umount -R "$root/$d" 2>/dev/null \
+        || umount -l "$root/$d" 2>/dev/null \
+        || true
+    if [ "$(stat -c %d "$root/$d" 2>/dev/null)" != "$rootdev" ]; then
+        note "WARNING: $root/$d is still mounted, so it stays out of the manifest"
+        prune="$prune -path $root/$d -prune -o"
+    fi
+done
+
+# Record what rpm decided, while we can still read it.
+#
+# Inside the namespace "find -printf %U" prints the id rpm asked for - 0 for
+# root, 7 for lp - because the kernel maps the on-disk id back. So the manifest
+# holds the ids the image wants, and nothing has to undo the subordinate range
+# sum later. -xdev keeps the walk inside the image in case a umount above was
+# refused.
+#
+# One record per file, NUL separated:
+#
+#   uid gid mode type links device inode path
+#
+# The last four are there for the hardlinks. pseudo tracks a file by its inode
+# and aborts the build if it meets the same inode under a second name it was
+# never told about - glibc's and coreutils' hardlinked binaries are exactly
+# that. microos_reconcile_owners uses device and inode to spot the second name
+# and makes the link again under pseudo, which is how pseudo learns of it in an
+# ordinary build. Reading them here costs nothing; asking pseudo for them later
+# is what triggers the abort.
+if ! find "$root" -xdev $prune -printf '%U %G %m %y %n %D %i %p\0' > "$manifest.part"; then
+    note "WARNING: could not list the image - the owners will be lost"
+    rm -f "$manifest.part"
+    exit $rc
+fi
+mv "$manifest.part" "$manifest"
+
+# Give every file back to the build user.
+#
+# Outside the namespace a file owned by an id in the subordinate range belongs
+# to nobody the build user can touch: pseudo cannot read a 0700 directory owned
+# by 100007, and neither can the later steps that copy the rootfs or build the
+# filesystem image. Flat build-user ownership on disk with the real owner in
+# pseudo's database is exactly what a normal Yocto rootfs looks like.
+#
+# This also runs when dnf failed, on purpose. A half-built rootfs owned by the
+# range cannot be deleted by the next build either.
+find "$root" -xdev $prune \( ! -uid 0 -o ! -gid 0 \) -print0 | xargs -0r chown -h 0:0
+
+# Let the owner into every directory again.
+#
+# openSUSE ships about fifty directories with mode 0555 - /usr/lib is one - and
+# nothing can be deleted from one of those without the write bit, not even by
+# pseudo, which does not get real privileges either. The next build starts by
+# deleting this rootfs, so leaving them read-only means the next build dies in
+# "rm: Permission denied" followed by a pseudo abort.
+#
+# The mode in the manifest is still the real one. microos_reconcile_owners
+# hands it to pseudo, which records 0555 for the image and keeps the file
+# usable on disk - the same trick pseudo plays for every other Yocto build.
+find "$root" -xdev $prune -type d ! -perm -u+w -exec chmod u+w {} +
+
+# Anything left is a file whose owner was never in the range - the kernel shows
+# it as 65534 and inner root cannot chown it. That means something outside this
+# namespace wrote into the image. Say so, and let the build stop.
+left=$(find "$root" -xdev $prune \( ! -uid 0 -o ! -gid 0 \) -printf '%U %G %p\n' 2>/dev/null | head -20)
+if [ -n "$left" ]; then
+    printf '%s\n' "$left" > "$manifest.bad"
+    note "WARNING: files the namespace does not own:"
+    printf '%s\n' "$left" >&2
+fi
+
+exit $rc

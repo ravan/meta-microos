@@ -1,0 +1,122 @@
+#!/usr/bin/env python3
+"""Point the layer's recipe symlinks at one architecture's pool.
+
+Every generated recipe carries the package name as its PN, so the aarch64 and
+riscv64 copies of "glibc" cannot both be visible to BitBake at once. The pools
+live side by side on disk, one directory per CPU, and this script decides which
+one recipes-microos/ and recipes-sysroot/ currently point at.
+
+    scripts/microos-arch riscv64
+
+It re-links the MicroOS runtime group from that pool, then re-runs the sysroot
+closure. It does not download anything: generate a pool first with
+
+    scripts/microos --arch riscv64 --pool pool-tumbleweed-riscv64
+
+Safe to re-run, and switching back and forth costs nothing.
+"""
+
+import argparse
+import importlib.machinery
+import importlib.util
+import os
+import pathlib
+import subprocess
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+
+# Default pool directory per architecture. aarch64 keeps the historical name.
+POOLS = {
+    "aarch64": "pool-tumbleweed",
+    "x86_64": "pool-tumbleweed-x86_64",
+    "riscv64": "pool-tumbleweed-riscv64",
+}
+
+
+def load_microos():
+    """Import scripts/microos as a module so the linking logic is not copied."""
+    # The file has no .py suffix, so spec_from_file_location cannot guess a
+    # loader for it and returns None. Name the loader instead.
+    loader = importlib.machinery.SourceFileLoader("microos", str(HERE / "microos"))
+    spec = importlib.util.spec_from_loader("microos", loader)
+    module = importlib.util.module_from_spec(spec)
+    loader.exec_module(module)
+    return module
+
+
+def repoint(pool, skip):
+    """Re-aim every other recipes-*/ symlink at the selected pool.
+
+    The layer ships hand-curated symlinks in recipes-core/ and recipes-devtools/
+    that point straight into pool-tumbleweed. Left alone they would keep serving
+    aarch64 RPMs after a switch to another CPU, which fails late and confusingly.
+    """
+    moved, missing = 0, []
+    for recipes_dir in sorted(pathlib.Path(".").glob("recipes-*")):
+        if not recipes_dir.is_dir() or recipes_dir.name in skip:
+            continue
+        for entry in sorted(recipes_dir.iterdir()):
+            if not entry.is_symlink():
+                continue
+            target = pathlib.Path(os.readlink(entry))
+            if not target.parts or not target.parts[-2:-1][0].startswith("pool-"):
+                continue
+            name = target.name
+            # Re-aim it even when the package does not exist for this CPU. A
+            # dangling symlink contributes nothing and is ignored by BBFILES;
+            # one still aimed at another CPU's pool would quietly serve RPMs for
+            # the wrong architecture. It heals itself on the way back.
+            entry.unlink()
+            entry.symlink_to(pathlib.Path("..", pool, name))
+            if (pool / name).is_dir():
+                moved += 1
+            else:
+                missing.append(f"{recipes_dir.name}/{name}")
+    print(f"Re-aimed {moved} symlink(s) in the layer's other recipes-* directories")
+    if missing:
+        print(f"WARNING: not in {pool}, left dangling: {', '.join(missing)}")
+    return missing
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("arch", choices=sorted(POOLS), help="architecture to select")
+    parser.add_argument("-p", "--pool", type=pathlib.Path,
+                        help="pool directory (default: per-architecture, see POOLS)")
+    parser.add_argument("-r", "--recipes", default="recipes-microos", type=pathlib.Path,
+                        help="runtime recipe directory (default: recipes-microos)")
+    parser.add_argument("-g", "--group",
+                        default="recipes-microos/opensuse_microos.group",
+                        type=pathlib.Path, help="MicroOS package group file")
+    args = parser.parse_args()
+
+    pool = args.pool or pathlib.Path(POOLS[args.arch])
+    if not pool.is_dir():
+        sys.exit(
+            f"pool {pool} does not exist.\n"
+            f"Generate it first:\n"
+            f"    scripts/microos --arch {args.arch} --pool {pool}"
+        )
+
+    microos = load_microos()
+    group_packages = microos.generate_group_package_list(args.group)
+
+    microos.unlink_recipes(args.recipes)
+    microos.link_recipes(args.recipes, group_packages, pool)
+    linked = sum(1 for e in args.recipes.iterdir() if e.is_symlink())
+    print(f"Linked {linked} runtime package(s) from {pool}")
+
+    repoint(pool, skip={args.recipes.name, "recipes-sysroot"})
+
+    marker = pathlib.Path("conf/current-arch")
+    marker.write_text(f"{args.arch}\n{pool}\n")
+
+    subprocess.check_call(
+        [sys.executable, str(HERE / "microos-sysroot"), "--pool", str(pool)]
+    )
+    print(f"\nLayer now targets {args.arch}.")
+
+
+if __name__ == "__main__":
+    main()
